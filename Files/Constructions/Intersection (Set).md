@@ -33,4 +33,4 @@ Since $x\in a$ for all $a\in u$, and $B\in u$, we see that $x\in B$. Thus we can
     
 ---
 
-**Remark.** By the Axiom of Extensionality, the set $A$ is unique and can thus be denoted by $\bigcap u$. If $u$ and $v$ are sets, define the **intersection of $u$ and $v$** as the set $\bigcup\l\{u,v\r\}$.
+**Remark.** By the Axiom of Extensionality, the set $A$ is unique and can thus be denoted by $\bigcap u$. If $u$ and $v$ are sets, define the **intersection of $u$ and $v$** as the set $\bigcup\l\{u,v\r\}$.<span style="float:right;">$\blacklozenge$</span>

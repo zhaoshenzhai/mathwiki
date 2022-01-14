@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "6a7b1d08c4490d78",
+        "id": "e10eaa84d8950c42",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Constructions/Cartesian Product (Kuratowski).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "53ada2bb74743565",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Definitions/Axioms of Set Theory.md",
+            "file": "Files/Constructions/Intersection (Set).md",
             "mode": "preview",
             "source": true
           }
@@ -65,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246,
-    "collapsed": true
+    "width": 246
   },
   "right": {
     "id": "9b204813a94e4120",
@@ -82,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Definitions/Axioms of Set Theory.md",
+                "file": "Files/Constructions/Intersection (Set).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,17 +98,17 @@
     "width": 161.83323669433594,
     "collapsed": true
   },
-  "active": "53ada2bb74743565",
+  "active": "e10eaa84d8950c42",
   "lastOpenFiles": [
-    "Files/Definitions/Axioms of Set Theory.md",
-    "Files/Constructions/Cartesian Product (Kuratowski).md",
     "Files/Constructions/Intersection (Set).md",
+    "Files/Constructions/Image (Function).md",
+    "Files/Constructions/Fiber (Function).md",
+    "Files/Constructions/Cartesian Product (Kuratowski).md",
     "Files/Constructions/Cartesian Product (Arbitrary).md",
-    "Files/Propositions/Russel's Paradox.md",
-    "Files/Constructions/Tuple (Kuratowski).md",
-    "Files/Definitions/Function.md",
-    "Files/Definitions/Binary Relation.md",
+    "Files/Constructions/Preimage (Function).md",
+    "Files/Constructions/Restriction (Function).md",
     "Files/Constructions/Tuple (Arbitrary).md",
-    "Files/Constructions/Fiber (Function).md"
+    "Files/Constructions/Tuple (Kuratowski).md",
+    "Files/Definitions/Axioms of Set Theory.md"
   ]
 }

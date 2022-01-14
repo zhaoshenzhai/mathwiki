@@ -18,4 +18,4 @@ $$\begin{equation}
 
 --- admonition
 
-**Remark.** The **image of $f$** is the set $\im f\coloneqq\im_f\l(X\r)$.
+**Remark.** The **image of $f$** is the set $\im f\coloneqq\im_f\l(X\r)$.<span style="float:right;">$\blacklozenge$</span>

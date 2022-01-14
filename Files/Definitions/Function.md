@@ -22,4 +22,4 @@ Let $X$ and $Y$ be sets. A __function__ $f$ is a 3-tuple $\l(\Gamma_{\mathclap{f
 
 **Remark.**
 * The axioms that $\Gamma\!_f$ satisfies can be condensed into $\fa x\in X,\ex!y\in Y:\l(x,y\r)\in\Gamma\!_f$.
-* Write $f:X\to Y$ or $X\overset{f}{\to}Y$ to indicate the domain and codomain of $f$, and write $x\mapsto y$ of $y=f\l(x\r)$ if $\l(x,y\r)\in\Gamma\!_f$.
+* Write $f:X\to Y$ or $X\overset{f}{\to}Y$ to indicate the domain and codomain of $f$, and write $x\mapsto y$ of $y=f\l(x\r)$ if $\l(x,y\r)\in\Gamma\!_f$.<span style="float:right;">$\blacklozenge$</span>

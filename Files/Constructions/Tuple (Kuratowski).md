@@ -15,7 +15,7 @@ Let $x$ and $y$ be sets. An **ordered pair of $x$ and $y$** is the set $\l\langl
 
 --- admonition
 
-**Remark.** We $\textrm{`}$define$\textrm{'}$ $n$-tuples $\textrm{`}$inductively$\textrm{'}$: for every $n\in\mb{N}$, the **$n$-tuple** $\l\langle x_1,\dots,x_n\r\rangle$ is defined as the $\l(n-1\r)$-tuple $\l\langle x_1,\l\langle x_2,\dots,x_n\r\rangle\r\rangle$. More formally, we have:
+**Remark.** We $\textrm{`}$define$\textrm{'}$ $n$-tuples $\textrm{`}$inductively$\textrm{'}$: for every $n\in\mb{N}$, the **$n$-tuple** $\l\langle x_1,\dots,x_n\r\rangle$ is defined as the $\l(n-1\r)$-tuple $\l\langle x_1,\l\langle x_2,\dots,x_n\r\rangle\r\rangle$. More formally, we have the following proposition.<span style="float:right;">$\blacklozenge$</span>
 
 !!! ad-Proposition Proposition.
 

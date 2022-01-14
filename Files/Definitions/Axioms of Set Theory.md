@@ -60,14 +60,14 @@ Using the predicates $\in$ and $=$, we can define some further relations and not
 * union of a set $u$ is unique and is denoted by $\bigcup u$, and the
 * power set of $u$ is unique and is denoted by $\ms{P}u$.
 
-The same is true for any set $\textrm{`}$constructed$\textrm{'}$ from the Axiom Schema of Specification.
+The same is true for any set $\textrm{`}$constructed$\textrm{'}$ from the Axiom Schema of Specification.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** In the Axiom Schema of specification, the set $A$ is always a subset of $B$. By the Axiom of Extensionality, the set $A$ is unique so we can write it as the expression $A=\l\{x\in B\mid\phi\r\}$, called the **set-builder notation**.
+**Remark.** In the Axiom Schema of specification, the set $A$ is always a subset of $B$. By the Axiom of Extensionality, the set $A$ is unique so we can write it as the expression $A=\l\{x\in B\mid\phi\r\}$, called the **set-builder notation**.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
 **Remark.**
 * Let $u$ be a set. Write the pair set of $u$ with itself as $\l\{u\r\}\coloneqq\l\{u,u\r\}$.
-* Let $u$ and $v$ be sets. By the Axiom of Pairing, $\l\{u,v\r\}$ is a set. The **union of $u$ and $v$** is defined as $u\cup v\coloneqq\bigcup\l\{u,v\r\}$.
+* Let $u$ and $v$ be sets. By the Axiom of Pairing, $\l\{u,v\r\}$ is a set. The **union of $u$ and $v$** is defined as $u\cup v\coloneqq\bigcup\l\{u,v\r\}$.<span style="float:right;">$\blacklozenge$</span>

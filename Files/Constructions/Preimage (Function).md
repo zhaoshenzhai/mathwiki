@@ -20,5 +20,5 @@ Let $f:X\to Y$ be function and fix a subset $T\subseteq Y$. The **preimage of $T
 
 **Remark.** Unlike the image of $f$, the $\textrm{`preimage of}$ $f\textrm{'}$
     $$\begin{equation}
-        \preim_f\l(Y\r)=\l\{x\in X\mid f\l(x\r)\in Y\r\}=X.
+        \preim_f\l(Y\r)=\l\{x\in X\mid f\l(x\r)\in Y\r\}=X.\exqedin
     \end{equation}$$
