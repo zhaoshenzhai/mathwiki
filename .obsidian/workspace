@@ -4,12 +4,48 @@
     "type": "split",
     "children": [
       {
-        "id": "e10eaa84d8950c42",
+        "id": "05947c3b062684b7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Constructions/Intersection (Set).md",
+            "file": "Files/Propositions/Composition of Functional Relations is Functional.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "479fb893cd85e02f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Propositions/No Set of All Sets.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "ad712e1614143102",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Constructions/Composition (Relation).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "0ffe3be8b5363241",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Constructions/Composition (Function).md",
             "mode": "preview",
             "source": true
           }
@@ -69,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Constructions/Intersection (Set).md",
+                "file": "Files/Propositions/Composition of Functional Relations is Functional.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,17 +134,17 @@
     "width": 161.83323669433594,
     "collapsed": true
   },
-  "active": "e10eaa84d8950c42",
+  "active": "05947c3b062684b7",
   "lastOpenFiles": [
-    "Files/Constructions/Intersection (Set).md",
-    "Files/Constructions/Image (Function).md",
-    "Files/Constructions/Fiber (Function).md",
-    "Files/Constructions/Cartesian Product (Kuratowski).md",
-    "Files/Constructions/Cartesian Product (Arbitrary).md",
-    "Files/Constructions/Preimage (Function).md",
-    "Files/Constructions/Restriction (Function).md",
-    "Files/Constructions/Tuple (Arbitrary).md",
+    "Files/Propositions/Composition of Functional Relations is Functional.md",
+    "Files/Propositions/Cardinality of Finite Function Space.md",
+    "Files/Propositions/No Set of All Sets.md",
+    "Files/Examples/Inclusion Function.md",
+    "Files/Constructions/Composition (Relation).md",
+    "Files/Constructions/Composition (Function).md",
+    "Files/Examples/Identity Function.md",
     "Files/Constructions/Tuple (Kuratowski).md",
+    "Files/Definitions/Function.md",
     "Files/Definitions/Axioms of Set Theory.md"
   ]
 }

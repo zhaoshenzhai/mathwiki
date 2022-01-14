@@ -6,6 +6,7 @@ Categories: #Set_Theory
 
 Types: _Not applicable_
 Examples: _Not applicable_
+Properties: _Not Applicable_
 Constructions: _Not applicable_
 Generalizations: [[Image (Relation)]], [[Image (Morphism)]]
 

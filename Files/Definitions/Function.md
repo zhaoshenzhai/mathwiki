@@ -5,8 +5,9 @@ Date created: 14/01/2022 14:25:20
 Categories: #Set_Theory
 
 Types: [[Injection]], [[Surjection]], [[Bijection]]
-Examples: [[Identity (Function)]], [[Inclusion (Function)]]
-Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Cartesian Product (Arbitrary)]], [[Multiset]]
+Examples: [[Identity Function]], [[Inclusion Function]]
+Properties: [[No Set of all Functions]]
+Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Inverse (Function)]], [[Function Space (Set Theory)]], [[Multiset]], [[Category of Sets]]
 Generalizations: [[Morphism]], [[Partial Function]]
 
 !!! ad-Definition Definition.
@@ -22,4 +23,4 @@ Let $X$ and $Y$ be sets. A __function__ $f$ is a 3-tuple $\l(\Gamma_{\mathclap{f
 
 **Remark.**
 * The axioms that $\Gamma\!_f$ satisfies can be condensed into $\fa x\in X,\ex!y\in Y:\l(x,y\r)\in\Gamma\!_f$.
-* Write $f:X\to Y$ or $X\overset{f}{\to}Y$ to indicate the domain and codomain of $f$, and write $x\mapsto y$ of $y=f\l(x\r)$ if $\l(x,y\r)\in\Gamma\!_f$.<span style="float:right;">$\blacklozenge$</span>
+* Write $f:X\to Y$ to indicate the domain and codomain of $f$, and write $x\mapsto y$ of $y=f\l(x\r)$ if $\l(x,y\r)\in\Gamma\!_f$.<span style="float:right;">$\blacklozenge$</span>

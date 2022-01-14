@@ -6,7 +6,8 @@ Categories: #Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Function]]
+Properties: _Not Applicable_
+Constructions: [[Function]], [[Image (Relation)]]
 Generalizations: _Not Applicable_
 
 !!! ad-Definition Definition.

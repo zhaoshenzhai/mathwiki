@@ -5,7 +5,8 @@ Date Created: 14/01/2022 14:35:27
 Categories: #Set_Theory
 
 Types: _Not Applicable_
-Examples: [[Inclusion (Function)]]
+Examples: [[Inclusion Function]]
+Properties: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: [[Restriction (Binary Relation)]]
 

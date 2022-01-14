@@ -6,6 +6,7 @@ Categories: #Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
+Properties: [[No Set of all Ordered Pairs]]
 Constructions: [[Cartesian Product (Kuratowski)]]
 Generalizations: [[Tuple (Arbitrary)]]
 

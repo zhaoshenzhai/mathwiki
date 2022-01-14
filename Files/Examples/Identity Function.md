@@ -6,7 +6,8 @@ Categories: #Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: _Not Applicable_
+Properties: _Not Applicable_
+Constructions: [[Category of Sets]]
 Generalizations: [[Identity (Morphism)]]
 
 !!! ad-Definition Definition. 

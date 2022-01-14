@@ -6,7 +6,8 @@ Categories: #Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Intersection (Set)]], [[Tuple (Kuratowski)]], [[Natural Numbers]]
+Properties: [[No Set of All Sets]]
+Constructions: [[Intersection (Set)]], [[Tuple (Kuratowski)]], [[Natural Numbers]], [[Category of Sets]]
 Generalizations: _Not Applicable_
 
 !!! ad-Definition Definition.
