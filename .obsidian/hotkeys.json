@@ -1,0 +1,189 @@
+{
+  "editor:focus-right": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:focus-left": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "H"
+    }
+  ],
+  "editor:focus-top": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "K"
+    }
+  ],
+  "editor:focus-bottom": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "J"
+    }
+  ],
+  "obsidian-admonition:insert-admonition": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "A"
+    }
+  ],
+  "app:open-settings": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "S"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "E"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "R"
+    }
+  ],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": " "
+    }
+  ],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "W"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "P"
+    }
+  ],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "N"
+    }
+  ],
+  "file-explorer:new-file-in-new-pane": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "workspace:edit-file-title": [],
+  "graph:open": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "G"
+    }
+  ],
+  "editor:follow-link": [],
+  "editor:insert-link": [],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "O"
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "I"
+    }
+  ],
+  "editor:open-link-in-new-leaf": [],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "editor:open-search": [],
+  "editor:open-search-replace": [],
+  "editor:save-file": [],
+  "global-search:open": [],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "ArrowLeft"
+    },
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "editor:toggle-comments": [],
+  "editor:toggle-checklist-status": [],
+  "editor:toggle-bold": [],
+  "editor:toggle-italics": [],
+  "workspace:undo-close-pane": [],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "ArrowUp"
+    },
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "app:reload": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "Q"
+    }
+  ]
+}

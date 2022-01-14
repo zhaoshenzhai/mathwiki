@@ -1,0 +1,26 @@
+{
+  "legacyEditor": false,
+  "livePreview": false,
+  "vimMode": true,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "readableLineLength": false,
+  "defaultViewMode": "preview",
+  "foldIndent": false,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "strictLineBreaks": false,
+  "lineWrap": true,
+  "foldHeading": false,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": false,
+  "newFileLocation": "current",
+  "newFileFolderPath": "Files",
+  "fileSortOrder": "alphabetical"
+}

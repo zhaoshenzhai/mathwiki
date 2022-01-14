@@ -1,0 +1,12 @@
+{
+  "baseFontSize": 29,
+  "translucency": false,
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "font",
+    "fonts",
+    "snippet"
+  ],
+  "theme": "obsidian",
+  "baseFontSizeAction": true
+}

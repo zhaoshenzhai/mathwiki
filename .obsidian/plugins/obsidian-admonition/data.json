@@ -1,0 +1,66 @@
+{
+  "userAdmonitions": {
+    "Axiom": {
+      "type": "Axiom",
+      "color": "248, 248, 255",
+      "icon": {
+        "name": "lock",
+        "type": "font-awesome"
+      },
+      "command": true,
+      "title": "Axiom.",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "Definition": {
+      "type": "Definition",
+      "color": "248, 248, 255",
+      "icon": {
+        "name": "book",
+        "type": "font-awesome"
+      },
+      "command": true,
+      "title": "Definition.",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "Theorem": {
+      "type": "Theorem",
+      "color": "248, 248, 255",
+      "icon": {
+        "name": "magic",
+        "type": "font-awesome"
+      },
+      "command": true,
+      "title": "Theorem.",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "Proposition": {
+      "type": "Proposition",
+      "color": "248, 248, 255",
+      "icon": {
+        "name": "calculator",
+        "type": "font-awesome"
+      },
+      "command": true,
+      "title": "Proposition",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    }
+  },
+  "syntaxHighlight": true,
+  "copyButton": false,
+  "version": "6.9.5",
+  "autoCollapse": false,
+  "defaultCollapseType": "open",
+  "syncLinks": true,
+  "enableMarkdownProcessor": true,
+  "injectColor": true,
+  "parseTitles": true,
+  "allowMSSyntax": true,
+  "livePreviewMS": true
+}

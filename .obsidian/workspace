@@ -1,0 +1,127 @@
+{
+  "main": {
+    "id": "fdd873efe4c7469c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a7b1d08c4490d78",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Constructions/Cartesian Product (Kuratowski).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "53ada2bb74743565",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Definitions/Axioms of Set Theory.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e9df2fc51307510",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bb93677b0e22a40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a680674ecae88d20",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "664bfc96d1e5a380",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "proof",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 246,
+    "collapsed": true
+  },
+  "right": {
+    "id": "9b204813a94e4120",
+    "type": "split",
+    "children": [
+      {
+        "id": "249f54e77061d7f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c44d51b963eb16e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Files/Definitions/Axioms of Set Theory.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "bfc16c4d27238e7c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 161.83323669433594,
+    "collapsed": true
+  },
+  "active": "53ada2bb74743565",
+  "lastOpenFiles": [
+    "Files/Definitions/Axioms of Set Theory.md",
+    "Files/Constructions/Cartesian Product (Kuratowski).md",
+    "Files/Constructions/Intersection (Set).md",
+    "Files/Constructions/Cartesian Product (Arbitrary).md",
+    "Files/Propositions/Russel's Paradox.md",
+    "Files/Constructions/Tuple (Kuratowski).md",
+    "Files/Definitions/Function.md",
+    "Files/Definitions/Binary Relation.md",
+    "Files/Constructions/Tuple (Arbitrary).md",
+    "Files/Constructions/Fiber (Function).md"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-latex",
+	"name": "Extended MathJax",
+	"version": "0.2.0",
+	"minAppVersion": "0.11.13",
+	"description": "Adds support for a MathJax preamble and enables additional MathJax extensions for specific domains (chemistry, proofs).",
+	"author": "Xavier Denis",
+	"authorUrl": "https://github.com/xldenis/obsidian-latex",
+	"isDesktopOnly": false
+}
