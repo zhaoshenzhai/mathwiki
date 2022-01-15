@@ -4,39 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "1ca2c3c41bc8fc52",
+        "id": "0e46ffb86fcc6df3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Theorems/Intersection with another set is monotone w.r.t. subsets.md",
+            "file": "Files/Definitions/ZFC Set Theory.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "39f08d14fd3600e8",
+        "id": "c38f76f6cfbb4e97",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Examples/Unions of sets equal but not the sets themselves.md",
+            "file": "Files/Definitions/Subset.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "48812cf00b7b040d",
+        "id": "09f498ca26b59a96",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Theorems/Union with another set is monotone w.r.t subsets.md",
+            "file": "Files/Definitions/Union.md",
             "mode": "preview",
             "source": true
           }
+        }
+      },
+      {
+        "id": "24b8f60d54f439ca",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -64,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "proof",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217,
+    "width": 225,
     "collapsed": true
   },
   "right": {
@@ -94,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Examples/Unions of sets equal but not the sets themselves.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,20 +127,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 161.83323669433594,
+    "width": 166.8332977294922,
     "collapsed": true
   },
-  "active": "39f08d14fd3600e8",
+  "active": "24b8f60d54f439ca",
   "lastOpenFiles": [
-    "Files/Examples/Unions of sets equal but not the sets themselves.md",
-    "Files/Theorems/Intersection with another set is monotone w.r.t. subsets.md",
-    "Files/Theorems/Union with another set is monotone w.r.t subsets.md",
-    "Files/Definitions/Function.md",
-    "Files/Examples/Union of empty set.md",
-    "Files/Theorems/No set of all functions.md",
-    "Files/Theorems/Ordered pair equal when components equal.md",
-    "Files/Theorems/Set of unions and intersections are sets.md",
-    "Files/Theorems/Subset inclusion is transitive.md",
-    "Files/Theorems/Power set is monotone w.r.t. subsets.md"
+    "Files/Definitions/Union.md",
+    "Files/Definitions/Subset.md",
+    "Files/Definitions/ZFC Set Theory.md",
+    "Files/Definitions/Empty Set.md",
+    "Files/Theorems/Element of set is a subset of its union.md",
+    "Files/Definitions/Tuple (Kuratowski).md",
+    "Files/Definitions/Intersection.md",
+    "Files/Definitions/Power Set.md",
+    "Files/Definitions/Singleton.md",
+    "Files/Definitions/Cartesian Product (Kuratowski).md"
   ]
 }

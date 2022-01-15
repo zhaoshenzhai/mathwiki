@@ -7,7 +7,7 @@ Status: _Open_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Subset inclusion is transitive]], [[Power set is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t subsets]], [[Intersection with another set is monotone w.r.t. subsets]], [[Element of set is subset of union]]
+Properties: [[Subset inclusion is transitive]], [[Power set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection is anti-monotone w.r.t. subsets]], [[Intersection with another set is monotone w.r.t. subsets]],
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

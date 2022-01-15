@@ -7,7 +7,7 @@ Status: _In Progress_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Intersection with another set is monotone w.r.t. subsets]]
+Properties: [[Intersection is anti-monotone w.r.t. subsets ]], [[Intersection with another set is monotone w.r.t. subsets]], [[Set of unions and intersections are sets]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

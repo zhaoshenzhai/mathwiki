@@ -6,9 +6,9 @@ Categories: #Set_Theory
 Status: _Open_
 
 Types: _Not Applicable_
-Examples: [[Union of empty set]] 
-Properties: [[No set of all sets]], [[Power set is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t subsets]], [[Set of unions and intersections are sets]]
-Constructions: [[Subset]], [[Intersection]], [[Tuple (Kuratowski)]], [[Natural Numbers]], [[Category of Sets]]
+Examples: _Not Applicable_
+Properties: [[No set of all sets]]
+Constructions: [[Subset]], [[Empty Set]], [[Singleton]], [[Union]], [[Power Set]], [[Tuple (Kuratowski)]], [[Natural Numbers]], [[Category of Sets]]
 Generalizations: _Not Applicable_
 
 !!! ad-Axiom Axiom (Zermelo-Fraenkel with Choice).

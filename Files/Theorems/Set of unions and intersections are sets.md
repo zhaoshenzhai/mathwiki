@@ -5,7 +5,7 @@ Date Created: 15/01/2022 17:21:16
 Categories: #Set_Theory
 Status: _Closed_
 
-Lemmas: [[Element of set is subset of union]], [[Union with another set is monotone w.r.t subsets]], [[Intersection with another set is monotone w.r.t. subsets]]
+Lemmas: [[Element of set is a subset of its union]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection with another set is monotone w.r.t. subsets]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
