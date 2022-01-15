@@ -3,7 +3,9 @@
 
 Date Created: 14/01/2022 15:01:47
 Categories: #Set_Theory
-
+Status: _Closed_
+ 
+Lemmas: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition (Russel's Paradox).

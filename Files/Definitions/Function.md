@@ -2,13 +2,14 @@
 <br />
 
 Date created: 14/01/2022 14:25:20
-Categories: #Set_Theory
+Categories: #Set_Theory 
+Status: _Closed_
 
-Types: [[Injection]], [[Surjection]], [[Bijection]]
+Types: [[Injection]], [[Surjection]]
 Examples: [[Identity Function]], [[Inclusion Function]]
-Properties: [[No Set of all Functions]]
-Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Inverse (Function)]], [[Function Space (Set Theory)]], [[Multiset]], [[Category of Sets]]
-Generalizations: [[Morphism]], [[Partial Function]]
+Properties: [[No set of all functions]]
+Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Inverse (Function)]], [[Function Space (Set)]], [[Multiset]], [[Category of Sets]]
+Generalizations: [[Morphism]]
 
 !!! ad-Definition Definition.
 

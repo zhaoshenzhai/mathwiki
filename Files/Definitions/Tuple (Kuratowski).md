@@ -2,11 +2,12 @@
 <br />
 
 Date Created: 14/01/2022 18:07:19
-Categories: #Set_Theory
+Categories: #Set_Theory 
+Status: _In Progress_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[No Set of all Ordered Pairs]]
+Properties: [[No Set of all Ordered Pairs]], [[Ordered pair equal when components equal]]
 Constructions: [[Cartesian Product (Kuratowski)]]
 Generalizations: [[Tuple (Arbitrary)]]
 

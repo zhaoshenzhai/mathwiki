@@ -1,0 +1,13 @@
+table, th, td {
+    border: 1px solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #F8F8FF !important;
+    border-collapse: collapse;
+
+    margin-left:auto;
+    margin-right:auto;
+    padding-left: 10px !important;
+}

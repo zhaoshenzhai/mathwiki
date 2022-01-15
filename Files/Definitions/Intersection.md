@@ -2,35 +2,36 @@
 <br />
 
 Date Created: 14/01/2022 15:43:46
-Categories: #Set_Theory
+Categories: #Set_Theory 
+Status: _In Progress_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: _Not Applicable_
+Properties: [[Intersection with another set is monotone w.r.t. subsets]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
 For any non-empty set $u$, there exists a unique set $A$ whose elements belong to every element of $u$:
-    $$\begin{equation}
-        \fa u\ex A\fa x\l[x\in A\Leftrightarrow\l(\fa a\in u\r)x\in a\r].
-    \end{equation}$$
+$$\begin{equation}
+    \fa u\ex A\fa x\l[x\in A\Leftrightarrow\l(\fa a\in u\r)x\in a\r].
+\end{equation}$$
 
 --- admonition
 
 _Proof._ Since $u$ is non-empty, let $B\in u$. By the Axiom Schema of Specification with
-    $$\begin{equation}
-        \phi:\l(\l(\fa a\in u\r)x\in a\r),
-    \end{equation}$$
+$$\begin{equation}
+    \phi:\l(\l(\fa a\in u\r)x\in a\r),
+\end{equation}$$
 we have
-    $$\begin{equation}
-        \fa u\ex A\fa x\l[x\in A\Leftrightarrow\l(x\in B\land\l(\fa a\in u\r)x\in a\r)\r].
-    \end{equation}$$
+$$\begin{equation}
+    \fa u\ex A\fa x\l[x\in A\Leftrightarrow\l(x\in B\land\l(\fa a\in u\r)x\in a\r)\r].
+\end{equation}$$
 Since $x\in a$ for all $a\in u$, and $B\in u$, we see that $x\in B$. Thus we can simplify this statement into
-    $$\begin{equation}
-        \fa u\ex A\fa x\l[x\in A\Leftrightarrow\l(\fa a\in u\r)x\in a\r].\qedin
-    \end{equation}$$
+$$\begin{equation}
+    \fa u\ex A\fa x\l[x\in A\Leftrightarrow\l(\fa a\in u\r)x\in a\r].\qedin
+\end{equation}$$
     
 ---
 

@@ -163,7 +163,14 @@
   "editor:toggle-checklist-status": [],
   "editor:toggle-bold": [],
   "editor:toggle-italics": [],
-  "workspace:undo-close-pane": [],
+  "workspace:undo-close-pane": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "U"
+    }
+  ],
   "workspace:split-horizontal": [
     {
       "modifiers": [
@@ -184,6 +191,15 @@
         "Meta"
       ],
       "key": "Q"
+    }
+  ],
+  "graph:open-local": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "G"
     }
   ]
 }

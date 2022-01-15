@@ -2,11 +2,12 @@
 <br />
 
 Date Created: 14/01/2022 20:29:22
-Categories: #Set_Theory
+Categories: #Set_Theory 
+Status: _Closed_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Properties: [[Cardinality of Finite Function Space]]
+Properties: [[Cardinality of finite function space]]
 Constructions: [[Cartesian Product (Arbitrary)]]
 Generalizations: _Not Applicable_
 
@@ -18,3 +19,5 @@ $$\begin{equation}
 \end{equation}$$
 
 --- admonition
+
+**Remark.** We defined the elements of the function space of $X$ into $Y$ as just the graphs of all functions $f:X\to Y$, not the functions themselves. This is mainly for convenience and we shall use both definitions interchangeably.<span style="float:right;">$\blacklozenge$</span>

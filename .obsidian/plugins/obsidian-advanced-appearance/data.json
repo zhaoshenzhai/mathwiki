@@ -6,7 +6,7 @@
   "bgHue": 0,
   "bgSat": 17,
   "bgLight": 60,
-  "trimNames": false,
+  "trimNames": true,
   "lightStyle": "advanced-light",
   "darkStyle": "advanced-dark",
   "uiFont": "CMU Serif",

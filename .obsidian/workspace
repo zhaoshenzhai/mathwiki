@@ -4,48 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "05947c3b062684b7",
+        "id": "1ca2c3c41bc8fc52",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Propositions/Composition of Functional Relations is Functional.md",
+            "file": "Files/Theorems/Intersection with another set is monotone w.r.t. subsets.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "479fb893cd85e02f",
+        "id": "39f08d14fd3600e8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Propositions/No Set of All Sets.md",
+            "file": "Files/Examples/Unions of sets equal but not the sets themselves.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "ad712e1614143102",
+        "id": "48812cf00b7b040d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Constructions/Composition (Relation).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "0ffe3be8b5363241",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Constructions/Composition (Function).md",
+            "file": "Files/Theorems/Union with another set is monotone w.r.t subsets.md",
             "mode": "preview",
             "source": true
           }
@@ -89,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246
+    "width": 217,
+    "collapsed": true
   },
   "right": {
     "id": "9b204813a94e4120",
@@ -105,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Propositions/Composition of Functional Relations is Functional.md",
+                "file": "Files/Examples/Unions of sets equal but not the sets themselves.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,17 +123,17 @@
     "width": 161.83323669433594,
     "collapsed": true
   },
-  "active": "05947c3b062684b7",
+  "active": "39f08d14fd3600e8",
   "lastOpenFiles": [
-    "Files/Propositions/Composition of Functional Relations is Functional.md",
-    "Files/Propositions/Cardinality of Finite Function Space.md",
-    "Files/Propositions/No Set of All Sets.md",
-    "Files/Examples/Inclusion Function.md",
-    "Files/Constructions/Composition (Relation).md",
-    "Files/Constructions/Composition (Function).md",
-    "Files/Examples/Identity Function.md",
-    "Files/Constructions/Tuple (Kuratowski).md",
+    "Files/Examples/Unions of sets equal but not the sets themselves.md",
+    "Files/Theorems/Intersection with another set is monotone w.r.t. subsets.md",
+    "Files/Theorems/Union with another set is monotone w.r.t subsets.md",
     "Files/Definitions/Function.md",
-    "Files/Definitions/Axioms of Set Theory.md"
+    "Files/Examples/Union of empty set.md",
+    "Files/Theorems/No set of all functions.md",
+    "Files/Theorems/Ordered pair equal when components equal.md",
+    "Files/Theorems/Set of unions and intersections are sets.md",
+    "Files/Theorems/Subset inclusion is transitive.md",
+    "Files/Theorems/Power set is monotone w.r.t. subsets.md"
   ]
 }
