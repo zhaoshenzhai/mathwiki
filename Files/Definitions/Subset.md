@@ -13,8 +13,8 @@ Generalizations: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $u$ and $v$ be sets. Then
-* the **subset** relation $u\subseteq v$ is the predicate $\subseteq\!\l(u,v\r)\,\colon\!\Leftrightarrow\fa x\l(x\in u\Rightarrow x\in v\r)$ and
-* the **proper subset** relation $u\subset v$ is the predicate $\subset\!\l(u,v\r)\,\colon\!\Leftrightarrow u\subseteq v\land u\neq v$.
+Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in\r\}$. Then
+* the **subset** relation $u\subseteq v$ is the $\mc{L}$-formula $\fa x\l(x\in u\Rightarrow x\in v\r)$ and
+* the **proper subset** relation $u\subset v$ is the $\mc{L}$-formula $u\subseteq v\land u\neq v$.
 
 --- admonition

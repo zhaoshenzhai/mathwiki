@@ -3,7 +3,7 @@
 
 Date Created: 15/01/2022 13:39:00
 Categories: #Set_Theory
-Status: _In Progress_
+Status: _Next_
  
 Lemmas: _Not Applicable_
 Generalizations: _Not Applicable_

@@ -3,7 +3,7 @@
 
 Date Created: 15/01/2022 08:31:55
 Categories: #Category_Theory #Set_Theory
-Status: _In Progress_
+Status: _Next_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
