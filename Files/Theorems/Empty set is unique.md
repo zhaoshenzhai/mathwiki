@@ -6,7 +6,7 @@ Categories: #Set_Theory
 Status: _Closed_
 
 Lemmas: [[Axiom of Extensionality]]
-Generalizations: [[Sets constructed form set-builder notation is unique]]
+Generalizations: [[Set-builder notation is unique]]
 
 !!! ad-Proposition Proposition.
 

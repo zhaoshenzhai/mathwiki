@@ -3,21 +3,19 @@
 
 Date Created: 15/01/2022 21:15:56
 Categories: #Set_Theory
-Status: _Next_
+Status: _Open_ 
 
-Types: _Not Applicable_
-Examples: [[Union of empty set is empty]], [[Unions of sets equal but not the sets themselves]]
-Properties: [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Set of unions and intersections are sets]]
-Constructions: [[Intersection]]
-Generalizations: _Not Applicable_
+Requires: _Not Applicable_
+
+Constructions: [[ZFC Set Theory]], [[Union]]
 
 !!! ad-Definition Definition.
 
-Let $u$ be a set. The **union of $u$** is the set $\bigcup u$ whose elements are exactly the elements of the elements of $u$.
+Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in\r\}$. The **Axiom of Union** is the $\mc{L}$-formula
+$$\begin{equation}
+    \fa u\ex z\fa v\fa x\l[\l(x\in v\land v\in u\r)\Rightarrow x\in z\r].
+\end{equation}$$
 
 --- admonition
 
-_Proof_. (that $\bigcup u$ is a set): By the Axiom of Union, there exists a set $A$ such that for all $v$ and $x$, if $x\in v$ and $v\in u$, then $x\in A$:
-$$\begin{equation}
-    \ex A\fa v\fa x\l[\l(x\in v\land v\in u\r)\Rightarrow x\in A\r].
-\end{equation}$$
+**Remark.** This axiom does not directly define the $\textrm{`}$union$\textrm{'}$ $\bigcup u$ of $u$. Rather, it asserts the existence of some superset of the union, from which the union is then constructed from the Axiom Schema of Specification.<span style="float:right;">$\blacklozenge$</span>

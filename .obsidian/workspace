@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9aa9ab39785f422d",
+        "id": "c7bdf2573af2eb3d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Definitions/Axiom of Extensionality.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "2c2f3208c237f94f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Definitions/Axiom Schema of Specification.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "9278e5884ff0c776",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Definitions/Axiom of Pairing.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -77,7 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 133,
+    "width": 249,
     "collapsed": true
   },
   "right": {
@@ -94,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Definitions/Axiom of Pairing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,24 +87,25 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 166.8332977294922,
     "collapsed": true
   },
-  "active": "9278e5884ff0c776",
+  "active": "c7bdf2573af2eb3d",
   "lastOpenFiles": [
-    "Files/Definitions/Axiom of Pairing.md",
-    "Files/Definitions/Axiom Schema of Specification.md",
-    "Files/Definitions/Axiom of Extensionality.md",
     "Files/Definitions/Subset.md",
-    "Files/Definitions/Empty Set.md",
-    "Files/Definitions/Empty (Formula).md",
-    "Files/Definitions/Subset (Formula).md",
-    "Files/Definitions/Set-Builder Notation.md",
-    "Files/Theorems/Sets constructed form set-builder notation is unique.md",
-    "Files/Definitions/Function.md"
+    "Files/Theorems/Empty set is unique.md",
+    "Files/Definitions/Axiom of Pairing.md",
+    "Files/Theorems/Union is monotone w.r.t. subsets.md",
+    "Files/Definitions/Union.md",
+    "Files/Definitions/Intersection.md",
+    "Files/Theorems/Set of unions and intersections are sets.md",
+    "Files/Definitions/Power Set.md",
+    "Files/Theorems/Power set is monotone w.r.t. subsets.md",
+    "Files/Definitions/Axiom of Power Set.md"
   ]
 }

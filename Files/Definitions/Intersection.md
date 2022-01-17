@@ -3,36 +3,27 @@
 
 Date Created: 14/01/2022 15:43:46
 Categories: #Set_Theory 
-Status: _In Progress_
+Status: _Closed_ 
+
+Requires: [[Union]], [[Set-Builder Notation]], [[Set-builder notation is unique]]
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Intersection is anti-monotone w.r.t. subsets ]], [[Intersection with another set is monotone w.r.t. subsets]], [[Set of unions and intersections are sets]]
+Properties: [[Intersection is anti-monotone w.r.t. subsets ]], [[Intersection with another set is monotone w.r.t. subsets]], [[Set of unions and intersections are sets]], [[Intersection of empty set is not a set]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+!!! ad-Definition Definition.
 
-For any non-empty set $u$, there exists a unique set $A$ whose elements belong to every element of $u$:
+Let $u$ be a non-empty set and fix $u_0\in u$. The **intersection of $u$** is the set
 $$\begin{equation}
-    \fa u\ex A\fa x\l[x\in A\Leftrightarrow\l(\fa a\in u\r)x\in a\r].
+    \bigcap u\coloneqq\l\{x\in u_0\mid\fa v\l(v\in u\Rightarrow x\in v\r)\r\}.
 \end{equation}$$
 
 --- admonition
 
-_Proof._ Since $u$ is non-empty, let $B\in u$. By the Axiom Schema of Specification with
-$$\begin{equation}
-    \phi:\l(\l(\fa a\in u\r)x\in a\r),
-\end{equation}$$
-we have
-$$\begin{equation}
-    \fa u\ex A\fa x\l[x\in A\Leftrightarrow\l(x\in B\land\l(\fa a\in u\r)x\in a\r)\r].
-\end{equation}$$
-Since $x\in a$ for all $a\in u$, and $B\in u$, we see that $x\in B$. Thus we can simplify this statement into
-$$\begin{equation}
-    \fa u\ex A\fa x\l[x\in A\Leftrightarrow\l(\fa a\in u\r)x\in a\r].\qedin
-\end{equation}$$
-    
+**Remark.** For the pair set $\l\{u,v\r\}$, write $u\cap v\coloneqq\bigcap\l\{u,v\r\}$.<span style="float:right;">$\blacklozenge$</span>
+
 ---
 
-**Remark.** By the Axiom of Extensionality, the set $A$ is unique and can thus be denoted by $\bigcap u$. If $u$ and $v$ are sets, define the **intersection of $u$ and $v$** as the set $\bigcup\l\{u,v\r\}$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** One can also write the intersection $\bigcap u$ using $\textrm{`}$index$\textrm{'}$ notation as $\bigcap_{v\in u}v$.<span style="float:right;">$\blacklozenge$</span>

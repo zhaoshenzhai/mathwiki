@@ -3,9 +3,9 @@
 
 Date Created: 15/01/2022 14:02:37
 Categories: #Set_Theory
-Status: _In Progress_
+Status: _Closed_
  
-Lemmas: _Not Applicable_
+Lemmas: [[Axiom of Extensionality]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

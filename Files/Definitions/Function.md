@@ -3,7 +3,9 @@
 
 Date created: 14/01/2022 14:25:20
 Categories: #Set_Theory 
-Status: _Closed_
+Status: _Closed_ 
+
+Requires: _Not Applicable_
 
 Types: [[Injection]], [[Surjection]]
 Examples: [[Identity Function]], [[Inclusion Function]]

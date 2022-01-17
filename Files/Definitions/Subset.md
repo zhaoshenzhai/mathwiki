@@ -3,12 +3,14 @@
 
 Date Created: 15/01/2022 13:02:22
 Categories: #Set_Theory
-Status: _Open_
+Status: _Open_ 
+
+Requires: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
 Properties: [[Subset inclusion is transitive]], [[Power set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection is anti-monotone w.r.t. subsets]], [[Intersection with another set is monotone w.r.t. subsets]],
-Constructions: _Not Applicable_
+Constructions: [[Axiom of Power Set]]
 Generalizations: _Not Applicable_
 
 !!! ad-Definition Definition.

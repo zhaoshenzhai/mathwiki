@@ -3,7 +3,9 @@
 
 Date Created: 14/01/2022 18:03:54
 Categories: #Set_Theory 
-Status: _In Progress_
+Status: _Next_ 
+
+Requires: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 

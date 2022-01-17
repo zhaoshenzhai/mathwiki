@@ -3,13 +3,16 @@
 
 Date Created: 14/01/2022 17:57:16
 Categories: #Set_Theory 
-Status: _Next_
+Status: _Next_ 
+
+Requires: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
 Properties: _Not Applicable_
 Constructions: [[Function]], [[Inverse (Relation)]] [[Domain (Relation)]], [[Range (Relation)]]
 Generalizations: _Not Applicable_
+
 
 !!! ad-Definition Definition.
 
