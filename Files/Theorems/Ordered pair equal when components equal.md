@@ -2,8 +2,7 @@
 <br />
 
 Date Created: 15/01/2022 14:02:37
-Categories: #Set_Theory
-Status: _Closed_
+Status: #Closed 
  
 Lemmas: [[Axiom of Extensionality]]
 Generalizations: _Not Applicable_

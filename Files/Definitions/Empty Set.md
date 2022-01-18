@@ -2,8 +2,7 @@
 <br />
 
 Date Created: 16/01/2022 13:44:18
-Categories: #Set_Theory
-Status: _Closed_ 
+Status: #Closed
 
 Requires: [[Empty (Formula)]]
 

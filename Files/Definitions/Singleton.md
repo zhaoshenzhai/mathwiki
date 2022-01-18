@@ -2,8 +2,7 @@
 <br />
 
 Date Created: 17/01/2022 12:06:31
-Categories: #Set_Theory
-Status: _Closed_
+Status: #Closed 
 
 Requires: [[Pair Set]]
 

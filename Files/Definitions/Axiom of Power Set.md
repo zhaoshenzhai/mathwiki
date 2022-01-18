@@ -2,8 +2,7 @@
 <br />
 
 Date Created: 17/01/2022 19:08:57
-Categories: #Set_Theory
-Status: _Open_
+Status: #Open
 
 Requires: [[Subset]]
 

@@ -2,8 +2,7 @@
 <br />
 
 Date Created: 16/01/2022 14:03:24
-Categories: #Set_Theory
-Status: _Closed_
+Status: #Closed
 
 Lemmas: [[Axiom Schema of Specification]]
 Generalizations: _Not Applicable_

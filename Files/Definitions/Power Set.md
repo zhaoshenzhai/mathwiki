@@ -2,8 +2,7 @@
 <br />
 
 Date Created: 17/01/2022 19:19:48
-Categories: #Set_Theory
-Status: _Closed_
+Status: #Closed 
 
 Requires: [[Axiom of Power Set]], [[Set-Builder Notation]], [[Set-builder notation is unique]]
 

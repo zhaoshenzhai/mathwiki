@@ -2,8 +2,7 @@
 <br />
 
 Date Created: 15/01/2022 13:02:22
-Categories: #Set_Theory
-Status: _Open_ 
+Status: #Open
 
 Requires: _Not Applicable_
 

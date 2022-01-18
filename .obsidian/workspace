@@ -4,7 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "c7bdf2573af2eb3d",
+        "id": "3c7b23966a6aff9b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Theorems/De Morgan's Laws.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "475e2e8ef7a5bc11",
         "type": "leaf",
         "state": {
           "type": "graph",
@@ -45,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,25 +100,24 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 166.8332977294922,
     "collapsed": true
   },
-  "active": "c7bdf2573af2eb3d",
+  "active": "475e2e8ef7a5bc11",
   "lastOpenFiles": [
-    "Files/Definitions/Subset.md",
-    "Files/Theorems/Empty set is unique.md",
-    "Files/Definitions/Axiom of Pairing.md",
-    "Files/Theorems/Union is monotone w.r.t. subsets.md",
-    "Files/Definitions/Union.md",
+    "Files/Definitions/Set of relative complements.md",
+    "Files/Theorems/De Morgan's Laws.md",
+    "Files/Definitions/Relative Complement.md",
     "Files/Definitions/Intersection.md",
-    "Files/Theorems/Set of unions and intersections are sets.md",
-    "Files/Definitions/Power Set.md",
-    "Files/Theorems/Power set is monotone w.r.t. subsets.md",
-    "Files/Definitions/Axiom of Power Set.md"
+    "Files/Definitions/Set-Builder Notation.md",
+    "Files/Definitions/Union.md",
+    "Files/Definitions/Axiom of Extensionality.md",
+    "Files/Definitions/Axiom of Union.md",
+    "Files/Definitions/Axiom of Power Set.md",
+    "Files/Theorems/Set of relative complements is a set.md"
   ]
 }

@@ -2,8 +2,7 @@
 <br />
 
 Date Created: 15/01/2022 18:20:59
-Categories: #Set_Theory
-Status: _Closed_
+Status: #Closed
 
 Lemmas: [[Empty set is unique]]
 Generalizations: _Not Applicable_

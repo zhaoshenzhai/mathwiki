@@ -2,8 +2,7 @@
 <br />
 
 Date Created: 16/01/2022 13:52:13
-Categories: #Set_Theory
-Status: _Closed_
+Status: #Closed
 
 Lemmas: [[Axiom of Extensionality]]
 Generalizations: [[Set-builder notation is unique]]

@@ -201,5 +201,16 @@
       ],
       "key": "G"
     }
+  ],
+  "obsidian-citation-plugin:open-literature-note": [],
+  "obsidian-citation-plugin:update-bib-data": [],
+  "obsidian-citation-plugin:insert-citation": [],
+  "obsidian-citation-plugin:insert-markdown-citation": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "C"
+    }
   ]
 }

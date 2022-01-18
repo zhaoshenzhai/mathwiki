@@ -2,8 +2,7 @@
 <br />
 
 Date Created: 17/01/2022 18:06:33
-Categories: #Set_Theory
-Status: _Closed_
+Status: #Closed 
 
 Lemmas: _Not Applicable_
 Generalizations: _Not Applicable_

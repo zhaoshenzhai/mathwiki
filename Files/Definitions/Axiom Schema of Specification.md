@@ -2,12 +2,11 @@
 <br />
 
 Date Created: 16/01/2022 12:08:10
-Categories: #Set_Theory
-Status: _Open_ 
+Status: #Open 
 
 Requires: _Not Applicable_
 
-Constructions: [[ZFC Set Theory]]
+Constructions: [[ZFC Set Theory]], [[Set-Builder Notation]]
 
 !!! ad-Axiom Axiom Schema (Specification).
 

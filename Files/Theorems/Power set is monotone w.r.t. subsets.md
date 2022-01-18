@@ -2,8 +2,7 @@
 <br />
 
 Date Created: 15/01/2022 07:52:03
-Categories: #Set_Theory 
-Status: _Next_
+Status: #Closed
  
 Lemmas: [[Subset inclusion is transitive]]
 Generalizations: _Not Applicable_

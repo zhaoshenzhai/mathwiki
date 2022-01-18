@@ -2,14 +2,13 @@
 <br />
 
 Date Created: 14/01/2022 15:43:46
-Categories: #Set_Theory 
-Status: _Closed_ 
+Status: #Closed
 
-Requires: [[Union]], [[Set-Builder Notation]], [[Set-builder notation is unique]]
+Requires: [[Set-Builder Notation]], [[Set-builder notation is unique]]
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Intersection is anti-monotone w.r.t. subsets ]], [[Intersection with another set is monotone w.r.t. subsets]], [[Set of unions and intersections are sets]], [[Intersection of empty set is not a set]]
+Properties: [[De Morgan's Laws]], [[Intersection is anti-monotone w.r.t. subsets ]], [[Intersection with another set is monotone w.r.t. subsets]], [[Set of unions and intersections]], [[Intersection of empty set is a proper class]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

@@ -2,8 +2,7 @@
 <br />
 
 Date Created: 14/01/2022 18:07:19
-Categories: #Set_Theory 
-Status: _Closed_ 
+Status: #Closed 
 
 Requires: [[Pair Set]], [[Singleton]]
 

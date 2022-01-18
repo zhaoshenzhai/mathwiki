@@ -2,25 +2,26 @@
 <br />
 
 Date Created: 15/01/2022 17:21:16
-Categories: #Set_Theory
-Status: _Next_
+Status: #Closed
 
-Lemmas: [[Element of set is a subset of its union]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection with another set is monotone w.r.t. subsets]]
+Lemmas: [[Set-builder notation]], [[Set-builder notation is unique]], [[Element of set is a subset of its union]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection with another set is monotone w.r.t. subsets]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-For any sets $v$ and $U$, there exists a set $z_1$ whose elements are exactly the sets $v\cup u$ for all $u\in U$. Similarly, there exists a set $z_2$ whose elements are exactly the sets $v\cap u$ for all $u\in U$.
+Let $v$ and $U$ be sets. Then there exists a set $z_1$ whose elements are exactly the sets $v\cup u$ for all sets $u\in U$. Similarly, there exists a set $z_2$ whose elements are exactly the sets $v\cap u$ for all sets $u\in U$. Formally, 
+$$\begin{equation}
+    \begin{gathered}
+        \fa v\fa U\ex z_1\fa x\l[x\in z_1\Leftrightarrow\l(\ex u\in U\r)x=v\cup u\r]\\
+        \fa v\fa U\ex z_2\fa x\l[x\in z_2\Leftrightarrow\l(\ex u\in U\r)x=v\cap u\r].
+    \end{gathered}
+\end{equation}$$
 
 --- admonition
 
-_Proof_. We claim that
+_Proof_. We shall prove the statement for $z_1$; the proof for $z_2$ is analogous. Let $\psi\l(x\r)$ denote the formula $\l(\ex u\in U\r)x=v\cup u$. It suffices to prove that there exists a set $w$ and a formula $\phi\l(x\r)$, not free in $z_1$, such that $\psi\l(x\r)\Leftrightarrow x\in w\land\phi\l(x\r)$. Indeed, we claim that
 $$\begin{equation}
-    z_1=\l\{x\in\ms{P}\l(v\cup\bigcup U\r)\mid\l(\ex u\in U\r)\l(x=v\cup u\r)\r\}\ \ \ \ \textrm{and}\ \ \ \ z_2=\l\{x\in\ms{P}\l(v\cap\bigcup U\r)\mid\l(\ex u\in U\r)\l(x=v\cap u\r)\r\}.
+    w=\ms{P}\l(v\cup\bigcup U\r)\ \ \ \ \textrm{and}\ \ \ \ \phi\l(x\r)\Leftrightarrow\psi\l(x\r).
 \end{equation}$$
-
-To see this, let $u\in U$. Since $u\subseteq\bigcup U$, we have $v\cup u\subseteq v\cup\bigcup U$ and thus $v\cup u\in\ms{P}\l(v\cup\bigcup U\r)$. Therefore the expression for $z_1$ is well-defined. Similarly, $v\cap u\subseteq v\cap\bigcup U$ and thus $v\cap u\in\ms{P}\l(v\cap\bigcup U\r)$.<span style="float:right;">$\blacksquare$</span>
-
----
-
-**Remark.** By the Axiom of Extensionality, the sets $z_1$ and $z_2$ are unique and can thus be denoted by $\l\{v\cup u\mid u\in U\r\}$ and $\l\{v\cap u\mid u\in U\r\}$, respectively.<span style="float:right;">$\blacklozenge$</span>
+* (proof that $\psi\l(x\r)\Rightarrow x\in w\land\phi\l(x\r)$): Certainly $\psi\l(x\r)\Rightarrow\phi\l(x\r)$, so it suffices to prove that $\psi\l(x\r)\Rightarrow x\in w$. Thus take a set $x$ with $x=v\cup u$ for some $u\in U$. Since $u\subseteq\bigcup U$, we have $v\cup u\subseteq v\cup\bigcup U$. By definition of the power set, we have $v\cup u\in\ms{P}\l(v\cup\bigcup U\r)$, and so $x\in\ms{P}\l(v\cup\bigcup U\r)$.
+* (proof that $x\in w\land\phi\l(x\r)\Rightarrow\psi\l(x\r)$): This is trivial, for $\phi\l(x\r)\Rightarrow\psi\l(x\r)$.<span style="float:right;">$\blacksquare$</span>
