@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3c7b23966a6aff9b",
+        "id": "f5319f27b8956b4a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Theorems/De Morgan's Laws.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -53,7 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249,
+    "width": 178,
     "collapsed": true
   },
   "right": {
@@ -70,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Theorems/De Morgan's Laws.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +94,7 @@
     "width": 166.8332977294922,
     "collapsed": true
   },
-  "active": "3c7b23966a6aff9b",
+  "active": "f5319f27b8956b4a",
   "lastOpenFiles": [
     "Files/Theorems/De Morgan's Laws.md",
     "Files/Theorems/Collection of all sets is a proper class.md",
