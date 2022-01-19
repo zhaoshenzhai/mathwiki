@@ -5,13 +5,13 @@ Date Created: 17/01/2022 13:00:40
 Tags: #Definition #Closed 
 
 
-Requires: [[Axiom of Union]], [[Set-Builder Notation]], [[Set-builder notation is unique]]
+Requires: [[Axiom of Union]], [[Set-Builder Notation]]
+Constructions: _Not Applicable_
+Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[De Morgan's Laws]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Set of unions and intersections]], [[Union of empty set is empty]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Properties: [[De Morgan's Laws]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Union of subsets is a subset]], [[Set of unions and intersections]], [[Union of empty set is empty]]
 
 !!! ad-Definition Definition.
 

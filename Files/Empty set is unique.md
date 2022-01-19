@@ -4,7 +4,8 @@
 Date Created: 16/01/2022 13:52:13
 Tags: #Proposition #Closed
 
-Lemmas: [[Axiom of Extensionality]]
+Proved by: [[Axiom of Extensionality]]
+Proves: [[Union of empty set is empty]]
 Generalizations: [[Set-builder notation is unique]]
 
 !!! ad-Proposition Proposition.

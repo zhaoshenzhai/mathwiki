@@ -212,5 +212,14 @@
       ],
       "key": "C"
     }
+  ],
+  "random-note": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "R"
+    }
   ]
 }

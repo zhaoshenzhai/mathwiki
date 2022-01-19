@@ -4,7 +4,8 @@
 Date Created: 16/01/2022 15:10:26
 Tags: #Proposition #Closed
 
-Lemmas: [[Axiom of Extensionality]]
+Proved by: [[Axiom of Extensionality]]
+Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

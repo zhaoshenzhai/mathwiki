@@ -4,13 +4,13 @@
 Date Created: 14/01/2022 14:35:03
 Tags: #Definition #In_Progress
 
-Requires: _Not Applicable_
+Requires: [[Function]], [[Restriction (Function)]]
+Constructions: _Not Applicable_
+Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
 Properties: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
 
 !!! ad-Definition Definition.
 

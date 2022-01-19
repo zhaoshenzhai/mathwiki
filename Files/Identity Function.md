@@ -4,13 +4,13 @@
 Date Created: 14/01/2022 14:33:58
 Tags: #Definition #In_Progress
 
-Requires: _Not Applicable_
+Requires: [[Function]]
+Constructions: [[Category of Sets]]
+Generalizations: [[Identity (Morphism)]]
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
 Properties: [[Function Preserved under Composition with Identity]]
-Constructions: [[Category of Sets]]
-Generalizations: [[Identity (Morphism)]]
 
 !!! ad-Definition Definition. 
 

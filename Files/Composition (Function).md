@@ -5,12 +5,12 @@ Date Created: 14/01/2022 21:00:09
 Tags: #Definition #In_Progress
 
 Requires: _Not Applicable_
+Constructions: [[Category of Sets]]
+Generalizations: [[Composition (Relation)]], [[Composition (Morphism)]]
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
 Properties: _Not Applicable_
-Constructions: [[Category of Sets]]
-Generalizations: [[Composition (Relation)]], [[Composition (Morphism)]]
 
 !!! ad-Definition Definition.
 

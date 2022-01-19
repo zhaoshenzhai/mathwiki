@@ -4,13 +4,13 @@
 Date Created: 14/01/2022 14:34:37
 Tags: #Definition #In_Progress
 
-Requires: _Not Applicable_
+Requires: [[Function]]
+Constructions: _Not applicable_
+Generalizations: [[Image (Relation)]], [[Image (Morphism)]]
 
 Types: _Not applicable_
 Examples: _Not applicable_
 Properties: _Not Applicable_
-Constructions: _Not applicable_
-Generalizations: [[Image (Relation)]], [[Image (Morphism)]]
 
 !!! ad-Definition Definition.
 

@@ -4,13 +4,13 @@
 Date Created: 14/01/2022 15:43:46
 Tags: #Definition #Closed
 
-Requires: [[Set-Builder Notation]], [[Set-builder notation is unique]]
+Requires: [[Set-Builder Notation]]
+Constructions: [[Set of unions and intersections]]
+Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[De Morgan's Laws]], [[Intersection is anti-monotone w.r.t. subsets ]], [[Intersection with another set is monotone w.r.t. subsets]], [[Set of unions and intersections]], [[Intersection of empty set is a proper class]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Properties: [[De Morgan's Laws]], [[Intersection is anti-monotone w.r.t. subsets ]], [[Intersection with another set is monotone w.r.t. subsets]], [[Power set distributes over intersection]], [[Intersection of empty set is a proper class]]
 
 !!! ad-Definition Definition.
 

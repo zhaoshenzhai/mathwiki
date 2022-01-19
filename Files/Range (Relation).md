@@ -5,12 +5,12 @@ Date Created: 15/01/2022 15:54:24
 Tags: #Definition #In_Progress
 
 Requires: _Not Applicable_
+Constructions: [[Field (Relation)]]
+Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
 Properties: _Not Applicable_
-Constructions: [[Field (Relation)]]
-Generalizations: _Not Applicable_
 
 !!! ad-Definition Definition.
 

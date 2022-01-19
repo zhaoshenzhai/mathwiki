@@ -20,7 +20,7 @@
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": false,
   "showUnsupportedFiles": false,
-  "newFileLocation": "current",
+  "newFileLocation": "folder",
   "newFileFolderPath": "Files",
   "fileSortOrder": "alphabetical"
 }

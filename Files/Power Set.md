@@ -4,13 +4,13 @@
 Date Created: 17/01/2022 19:19:48
 Tags: #Definition #Closed 
 
-Requires: [[Axiom of Power Set]], [[Set-Builder Notation]], [[Set-builder notation is unique]]
+Requires: [[Axiom of Power Set]], [[Set-Builder Notation]]
+Constructions: _Not Applicable_
+Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Properties: [[Power set is monotone w.r.t. subsets]], [[Power set distributes over intersection]]
 
 !!! ad-Definition Definition.
 

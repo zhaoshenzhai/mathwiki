@@ -4,13 +4,13 @@
 Date Created: 18/01/2022 14:52:36
 Tags: #Definition #Open
 
-Requires: _Not Applicable_
+Requires: [[Formula]]
+Constructions: _Not Applicable_
+Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: [[Collection of all sets is a proper class]], [[Intersection of empty set is a proper class]], [[Absolute complement of a set is a proper class]] 
 Properties: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
 
 !!! ad-Definition Definition (Informal).
 

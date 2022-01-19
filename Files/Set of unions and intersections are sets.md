@@ -4,7 +4,8 @@
 Date Created: 15/01/2022 17:21:16
 Tags: #Proposition #Closed
 
-Lemmas: [[Set-builder notation]], [[Set-builder notation is unique]], [[Element of set is a subset of its union]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection with another set is monotone w.r.t. subsets]]
+Proved by: [[Set-builder notation is unique]], [[Element of set is a subset of its union]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection with another set is monotone w.r.t. subsets]]
+Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

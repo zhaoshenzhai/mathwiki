@@ -4,8 +4,7 @@
 Date Created: 16/01/2022 16:34:42
 Tags: #Axiom #Open
 
-Requires: _Not Applicable_
-
+Requires: [[First-Order Logic]], [[Non-Logical Symbols]], [[Formula]]
 Constructions: [[ZFC Set Theory]], [[Pair Set]]
 
 !!! ad-Axiom Axiom.

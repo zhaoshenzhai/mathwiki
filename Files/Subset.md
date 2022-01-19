@@ -4,13 +4,13 @@
 Date Created: 15/01/2022 13:02:22
 Tags: #Definition #Open
 
-Requires: _Not Applicable_
+Requires: [[First-Order Logic]], [[Non-Logical Symbols]], [[Formula]]
+Constructions: [[Axiom of Power Set]]
+Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Subset inclusion is transitive]], [[Power set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection is anti-monotone w.r.t. subsets]], [[Intersection with another set is monotone w.r.t. subsets]],
-Constructions: [[Axiom of Power Set]]
-Generalizations: _Not Applicable_
+Properties: [[Subset inclusion is transitive]], [[Power set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection is anti-monotone w.r.t. subsets]], [[Intersection with another set is monotone w.r.t. subsets]], [[Complement is anti-monotone w.r.t subsets]], [[Union of subsets is a subset]]
 
 !!! ad-Definition Definition.
 

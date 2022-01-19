@@ -4,13 +4,13 @@
 Date Created: 17/01/2022 11:58:11
 Tags: #Definition #Closed
 
-Requires: [[Axiom of Pairing]], [[Set-Builder Notation]], [[Set-builder notation is unique]]
+Requires: [[Axiom of Pairing]], [[Set-Builder Notation]]
+Constructions: [[Singleton]], [[Ordered Pair]]
+Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
 Properties: _Not Applicable_
-Constructions: [[Singleton]], [[Ordered Pair]]
-Generalizations: _Not Applicable_
 
 !!! ad-Definition Definition.
 

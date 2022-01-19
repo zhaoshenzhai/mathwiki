@@ -5,12 +5,12 @@ Date Created: 17/01/2022 12:06:31
 Tags: #Definition #Closed 
 
 Requires: [[Pair Set]]
+Constructions: [[Ordered Pair]]
+Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: _Not Applicable_
-Constructions: [[Ordered Pair]]
-Generalizations: _Not Applicable_
+Properties: [[Collection of all singletons is a proper class]]
 
 !!! ad-Definition Definition.
 

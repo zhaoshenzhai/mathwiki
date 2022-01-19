@@ -5,12 +5,12 @@ Date Created: 14/01/2022 14:35:27
 Tags: #Definition #In_Progress
 
 Requires: _Not Applicable_
+Constructions: _Not Applicable_
+Generalizations: [[Restriction (Binary Relation)]]
 
 Types: _Not Applicable_
 Examples: [[Inclusion Function]]
 Properties: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: [[Restriction (Binary Relation)]]
 
 !!! ad-Definition Definition.
 

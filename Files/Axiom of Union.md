@@ -4,8 +4,7 @@
 Date Created: 15/01/2022 21:15:56
 Tags: #Axiom #Open
 
-Requires: _Not Applicable_
-
+Requires: [[First-Order Logic]], [[Non-Logical Symbols]], [[Formula]]
 Constructions: [[ZFC Set Theory]], [[Union]]
 
 !!! ad-Definition Definition.

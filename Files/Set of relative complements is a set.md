@@ -2,9 +2,10 @@
 <br />
 
 Date Created: 18/01/2022 16:08:40
-Tags: #Proposition #Closed
+Tags: #Proposition #Closed  
 
-Lemmas: [[Set-Builder Notation]], [[Set-builder notation is unique]]
+Proved by: [[Set-builder notation is unique]]
+Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

@@ -4,7 +4,8 @@
 Date Created: 14/01/2022 20:26:39
 Tags: #Proposition #In_Progress
  
-Lemmas: _Not Applicable_
+Proved by: _Not Applicable_
+Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

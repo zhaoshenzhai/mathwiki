@@ -4,7 +4,8 @@
 Date Created: 15/01/2022 18:20:59
 Tags: #Proposition #Closed
 
-Lemmas: [[Empty set is unique]]
+Proved by: [[Empty set is unique]]
+Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

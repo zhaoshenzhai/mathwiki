@@ -4,9 +4,8 @@
 Date Created: 17/01/2022 19:08:57
 Tags: #Axiom #Open
 
-Requires: [[Subset]]
-
-Constructions: [[ZFC Set Theory]]
+Requires: [[First-Order Logic]], [[Non-Logical Symbols]], [[Formula]], [[Subset]]
+Constructions: [[ZFC Set Theory]], [[Power Set]]
 
 !!! ad-Axiom Axiom.
 

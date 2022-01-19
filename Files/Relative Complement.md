@@ -4,13 +4,13 @@
 Date Created: 18/01/2022 13:10:47
 Tags: #Definition #Closed 
 
-Requires: _Not Applicable_
+Requires: [[Set-Builder Notation]]
+Constructions: [[Set of relative complements]]
+Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Set of relative complements]], [[De Morgan's Laws]], [[Absolute complement of a set is a proper class]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Properties: [[De Morgan's Laws]], [[Complement is anti-monotone w.r.t subsets]], [[Absolute complement of a set is a proper class]]
 
 !!! ad-Definition Definition.
 

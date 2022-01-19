@@ -5,12 +5,12 @@ Date Created: 18/01/2022 17:01:58
 Tags: #Definition #Closed
 
 Requires: [[Union]], [[Intersection]]
+Constructions: _Not Applicable_
+Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
 Properties: [[Set of unions and intersections are sets]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
 
 !!! ad-Definition Definition.
 

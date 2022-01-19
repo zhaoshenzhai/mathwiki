@@ -5,12 +5,12 @@ Date Created: 14/01/2022 20:29:22
 Tags: #Definition #In_Progress
 
 Requires: _Not Applicable_
+Constructions: [[Cartesian Product (Arbitrary)]]
+Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
 Properties: [[Cardinality of finite function space]]
-Constructions: [[Cartesian Product (Arbitrary)]]
-Generalizations: _Not Applicable_
 
 !!! ad-Definition Definition.
 

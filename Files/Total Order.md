@@ -1,10 +1,10 @@
 <br />
 <br />
 
-Date Created: 14/01/2022 17:17:10
+Date Created: 19/01/2022 18:23:39
 Tags: #Definition #In_Progress
 
-Requires: _Not Applicable_
+Requires: [[Partial Order]], [[Connected Relation]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
@@ -14,6 +14,6 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $f:X\to Y$ be a function and fix some $y\in Y$. The **fiber of $f$ over $y$** is $\preim_f\l(\l\{y\r\}\r)$.
+Let $X$ be a set. A binary relation is a **total order on $X$** if $R$ is connected and is a partial order on $X$.
 
 --- admonition

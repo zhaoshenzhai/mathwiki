@@ -2,9 +2,10 @@
 <br />
 
 Date Created: 18/01/2022 16:48:35
-Tags: #Theorem #Open
+Tags: #Proposition  #Open
 
-Lemmas: _Not Applicable_
+Proved by: [[Negation of universal quantifier]]
+Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Theorem Theorem.

@@ -4,8 +4,7 @@
 Date Created: 16/01/2022 10:57:06
 Tags: #Axiom #Open
 
-Requires: _Not Applicable_
-
+Requires: [[First-Order Logic]], [[Non-Logical Symbols]], [[Formula]]
 Constructions: [[ZFC Set Theory]]
 
 !!! ad-Axiom Axiom (Extensionality).
@@ -23,5 +22,5 @@ $$\begin{equation}
 ---
 
 **Remark.** We can quantify $\textrm{`}$within sets$\textrm{'}$, that is, for any set $u$ and formula $\phi\l(x\r)$, write
-* $\l(\fa x\in u\r)\phi\l(x\r)$ for the formula $\fa x\l[x\in u\Rightarrow\phi\l(x\r)\r]$, and write
-* $\l(\ex x\in u\r)\phi\l(x\r)$ for the formula $\ex x\l[x\in u\land\phi\l(x\r)\r]$.<span style="float:right;">$\blacklozenge$</span>
+* $\l(\fa x\in u\r)\phi\l(x\r)$ or $\fa x\in u:\phi\l(x\r)$ for the formula $\fa x\l[x\in u\Rightarrow\phi\l(x\r)\r]$, and write
+* $\l(\ex x\in u\r)\phi\l(x\r)$ or $\ex x\in u:\phi\l(x\r)$ for the formula $\ex x\l[x\in u\land\phi\l(x\r)\r]$.<span style="float:right;">$\blacklozenge$</span>

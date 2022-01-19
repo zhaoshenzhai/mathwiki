@@ -4,7 +4,8 @@
 Date Created: 15/01/2022 07:52:03
 Tags: #Proposition #Closed
  
-Lemmas: [[Subset inclusion is transitive]]
+Proved by: [[Subset inclusion is transitive]]
+Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

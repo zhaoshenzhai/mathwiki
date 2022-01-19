@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f5319f27b8956b4a",
+        "id": "ca3cb67ec0835dd3",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Files/Domain (Relation).md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -36,16 +40,17 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -66,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Files/Domain (Relation).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,17 +100,17 @@
     "width": 166.8332977294922,
     "collapsed": true
   },
-  "active": "f5319f27b8956b4a",
+  "active": "ca3cb67ec0835dd3",
   "lastOpenFiles": [
-    "Files/Theorems/De Morgan's Laws.md",
-    "Files/Theorems/Collection of all sets is a proper class.md",
-    "Files/Theorems/Element of set is a subset of its union.md",
-    "Files/Theorems/Empty set exists.md",
-    "Files/Theorems/Intersection is anti-monotone w.r.t. subsets.md",
-    "Files/Theorems/Empty set is unique.md",
-    "Files/Theorems/Absolute complement of a set is a proper class.md",
-    "Files/Definitions/Union.md",
-    "Files/Definitions/Tuple.md",
-    "Files/Definitions/Subset.md"
+    "Files/Domain (Relation).md",
+    "Files/Binary Relation.md",
+    "Files/Range (Relation).md",
+    "Files/Total Order.md",
+    "Files/Partial Order.md",
+    "Files/Transitive Relation.md",
+    "Files/Ordered Pair.md",
+    "Files/Singleton.md",
+    "Files/Pair Set.md",
+    "Files/Set-Builder Notation.md"
   ]
 }

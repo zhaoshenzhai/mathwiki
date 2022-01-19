@@ -1,11 +1,11 @@
 <br />
 <br />
 
-Date Created: 15/01/2022 15:55:36
+Date Created: 19/01/2022 17:45:32
 Tags: #Definition #In_Progress
 
-Requires: _Not Applicable_
-Constructions: _Not Applicable_
+Requires: [[Binary Relation]]
+Constructions: [[Total Order]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
@@ -14,9 +14,9 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $\mc{R}\subseteq X\times Y$. The **field of $\mc{R}$** is the set
+Let $X$ be a set. A binary relation $R$ is **connected on $X$** if
 $$\begin{equation}
-    \fld\mc{R}\coloneqq\dom\mc{R}\cup\ran\mc{R}.
+    \fa x,y\in X:xRy\lor yRx\lor x=y.
 \end{equation}$$
 
 --- admonition

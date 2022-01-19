@@ -5,12 +5,12 @@ Date Created: 14/01/2022 18:03:54
 Tags: #Definition #In_Progress
 
 Requires: _Not Applicable_
+Constructions: [[Binary Relation]]
+Generalizations: [[Cartesian Product (Arbitrary)]]
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
 Properties: _Not Applicable_
-Constructions: [[Binary Relation]]
-Generalizations: [[Cartesian Product (Arbitrary)]]
 
 !!! ad-Definition Definition.
 

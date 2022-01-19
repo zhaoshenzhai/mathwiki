@@ -4,7 +4,8 @@
 Date Created: 14/01/2022 15:01:47
 Tags: #Proposition #Open 
  
-Lemmas: [[Axiom Schema of Specification]]
+Proved by: [[Axiom Schema of Specification]]
+Proves: [[Intersection of empty set is a proper class]], [[Absolute complement of a set is a proper class]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition (Russel's Paradox).

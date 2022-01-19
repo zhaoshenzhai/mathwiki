@@ -2,9 +2,9 @@
 <br />
 
 Date Created: 16/01/2022 15:26:07
-Tags: #Definition #Open
+Tags: #Definition #In_Progress 
 
-Requires: _Not Applicable_
+Requires: [[Axiom Schema of Specification]]
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 

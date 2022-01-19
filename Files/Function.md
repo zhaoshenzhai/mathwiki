@@ -5,12 +5,12 @@ Date created: 14/01/2022 14:25:20
 Tags: #Definition #In_Progress
 
 Requires: _Not Applicable_
+Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Inverse (Function)]], [[Function Space (Set)]], [[Multiset]], [[Category of Sets]]
+Generalizations: [[Morphism]]
 
 Types: [[Injection]], [[Surjection]]
 Examples: [[Identity Function]], [[Inclusion Function]]
 Properties: [[No set of all functions]]
-Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Inverse (Function)]], [[Function Space (Set)]], [[Multiset]], [[Category of Sets]]
-Generalizations: [[Morphism]]
 
 !!! ad-Definition Definition.
 
