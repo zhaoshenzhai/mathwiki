@@ -14,14 +14,6 @@
             "source": true
           }
         }
-      },
-      {
-        "id": "475e2e8ef7a5bc11",
-        "type": "leaf",
-        "state": {
-          "type": "graph",
-          "state": {}
-        }
       }
     ],
     "direction": "vertical"
@@ -57,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Files/Theorems/De Morgan's Laws.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,17 +99,17 @@
     "width": 166.8332977294922,
     "collapsed": true
   },
-  "active": "475e2e8ef7a5bc11",
+  "active": "3c7b23966a6aff9b",
   "lastOpenFiles": [
-    "Files/Definitions/Set of relative complements.md",
     "Files/Theorems/De Morgan's Laws.md",
-    "Files/Definitions/Relative Complement.md",
-    "Files/Definitions/Intersection.md",
-    "Files/Definitions/Set-Builder Notation.md",
+    "Files/Theorems/Collection of all sets is a proper class.md",
+    "Files/Theorems/Element of set is a subset of its union.md",
+    "Files/Theorems/Empty set exists.md",
+    "Files/Theorems/Intersection is anti-monotone w.r.t. subsets.md",
+    "Files/Theorems/Empty set is unique.md",
+    "Files/Theorems/Absolute complement of a set is a proper class.md",
     "Files/Definitions/Union.md",
-    "Files/Definitions/Axiom of Extensionality.md",
-    "Files/Definitions/Axiom of Union.md",
-    "Files/Definitions/Axiom of Power Set.md",
-    "Files/Theorems/Set of relative complements is a set.md"
+    "Files/Definitions/Tuple.md",
+    "Files/Definitions/Subset.md"
   ]
 }
