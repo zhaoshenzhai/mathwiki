@@ -2,10 +2,10 @@
 <br />
 
 Date Created: 14/01/2022 17:57:16
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed 
 
 Requires: [[Ordered Pair]]
-Constructions: [[Domain and Range (Relation)]], [[Restriction (Relation)]], [[Inverse (Relation)]], [[Function]]
+Constructions: [[Domain and Range]], [[Restriction (Relation)]], [[Image (Relation)]], [[Function]]
 Generalizations: _Not Applicable_
 
 Types: [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]], [[Connected Relation]]

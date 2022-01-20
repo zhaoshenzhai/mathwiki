@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 19/01/2022 18:23:39
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed 
 
 Requires: [[Partial Order]], [[Connected Relation]]
 Constructions: _Not Applicable_

@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 19/01/2022 17:48:10
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed 
 
 Requires: [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]]
 Constructions: _Not Applicable_

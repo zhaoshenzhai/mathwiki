@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 19/01/2022 17:45:32
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed 
 
 Requires: [[Binary Relation]]
 Constructions: [[Total Order]]

@@ -5,7 +5,7 @@ Date Created: 19/01/2022 17:36:50
 Tags: #Definition #Closed
 
 Requires: [[Binary Relation]]
-Constructions: [[Equivalence Relation]], [[Asymmetric Relation]], [[Antisymmetric Relation]]
+Constructions: [[Equivalence Relation]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

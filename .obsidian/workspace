@@ -16,12 +16,72 @@
         }
       },
       {
-        "id": "8e813203af488c60",
+        "id": "04432b70f97eb110",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Restriction (Relation).md",
+            "file": "Files/Axiom of Union.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "33cde3f8b8375c1b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Axiom of Pairing.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "6af029737de658b7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Axiom of Power Set.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "cfcae69a93e8df78",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Axiom of Extensionality.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "030f06c4d8fdf402",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Axiom Schema of Specification.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "43b61ec0bee8c3e5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Axiom Schema of Replacement.md",
             "mode": "preview",
             "source": true
           }
@@ -83,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Restriction (Relation).md",
+                "file": "Files/Binary Relation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,17 +172,17 @@
     "width": 166.8332977294922,
     "collapsed": true
   },
-  "active": "8e813203af488c60",
+  "active": "75c647e7bed9e593",
   "lastOpenFiles": [
-    "Files/Restriction (Relation).md",
     "Files/Binary Relation.md",
-    "Files/Set of unions and intersections are sets.md",
-    "Files/Intersection.md",
-    "Files/Intersection of a set is a set.md",
-    "Files/De Morgan's Laws.md",
-    "Files/Restriction (Function).md",
-    "Files/Domain and Range (Relation).md",
-    "Files/Domain and range of relation are sets.md",
-    "Files/Set of relative complements is a set.md"
+    "Files/Axiom of Union.md",
+    "Files/Axiom of Pairing.md",
+    "Files/Axiom of Power Set.md",
+    "Files/Axiom of Extensionality.md",
+    "Files/Axiom Schema of Specification.md",
+    "Files/Axiom Schema of Replacement.md",
+    "Files/Image (Relation).md",
+    "Files/Restriction (Relation).md",
+    "Files/Set-Builder Notation.md"
   ]
 }

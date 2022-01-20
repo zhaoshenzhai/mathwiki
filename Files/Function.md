@@ -2,27 +2,25 @@
 <br />
 
 Date created: 14/01/2022 14:25:20
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed 
 
-Requires: _Not Applicable_
-Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Inverse (Function)]], [[Function Space (Set)]], [[Multiset]], [[Category of Sets]]
-Generalizations: [[Morphism]]
+Requires: [[Binary Relation]]
+Constructions: _Not Applicable_
+Generalizations: _Not Applicable_
 
 Types: [[Injection]], [[Surjection]]
-Examples: [[Identity Function]], [[Inclusion Function]]
-Properties: [[No set of all functions]]
+Examples: _Not Applicable_
+Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $X$ and $Y$ be sets. A __function__ $f$ is a 3-tuple $\l(\Gamma_{\mathclap{f}}\;,X,Y\r)$ consisting of
-* a binary relation $\Gamma_{\mathclap{f}}\;\subseteq X\times Y$ called the __graph of $f$__, satisfying
-    * (Left-total): $\fa x\in X,\ex y\in Y:(x,y)\in\Gamma_{\mathclap{f}}\;$.
-    * (Right-unique): $\fa x\in X,\fa y,z\in Y:\big((x,y)\in\Gamma_{\mathclap{f}}\;\mathrm{\ and\ }(x,z)\in\Gamma_{\mathclap{f}}\;\big)\Rightarrow y=z$,
-* a set $\dom f\coloneqq X$ called the __domain of $f$__, and
-* a set $\cdm f\coloneqq Y$ called the __codomain of $f$__.
+A binary relation $f$ is a **function** if for every $x\in\dom f$, there exists a unique $y\in\ran f$ such that $\l\langle x,y\r\rangle\in f$. Formally,
+$$\begin{equation}
+    f\textrm{ is a function}\ \ \ \ \Leftrightarrow\ \ \ \ \fa x\in\dom f,\ex!y\in\ran f:\l\langle x,y\r\rangle\in f.
+\end{equation}$$
 
 --- admonition
 
 **Remark.**
-* The axioms that $\Gamma\!_f$ satisfies can be condensed into $\fa x\in X,\ex!y\in Y:\l(x,y\r)\in\Gamma\!_f$.
-* Write $f:X\to Y$ to indicate the domain and codomain of $f$, and write $x\mapsto y$ of $y=f\l(x\r)$ if $\l(x,y\r)\in\Gamma\!_f$.<span style="float:right;">$\blacklozenge$</span>
+* If $f$ is a function with $\dom f=X$ and $\ran f\subseteq Y$ for some sets $X$ and $Y$, write $f:X\to Y$. Note that there are $\textrm{`}$infinitely$\textrm{'}$ many sets $Y$ such that $f:X\to Y$.
+* Let $x\in\dom f$. The unique $y\in\ran f$ such that $\l\langle x,y\r\rangle\in f$ is denoted by $f\l(x\r)$, and we write $x\mapsto y$.<span style="float:right;">$\blacklozenge$</span>

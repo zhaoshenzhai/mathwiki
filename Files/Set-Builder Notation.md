@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 16/01/2022 15:26:07
-Tags: #Definition #In_Progress 
+Tags: #Definition #Closed  
 
 Requires: [[Axiom Schema of Specification]]
 

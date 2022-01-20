@@ -2,10 +2,10 @@
 <br />
 
 Date Created: 15/01/2022 15:44:35
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed 
 
 Requires: [[Binary Relation]], [[Set-Builder Notation]]
-Constructions: [[Field (Relation)]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

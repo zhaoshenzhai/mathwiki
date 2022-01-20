@@ -1,10 +1,10 @@
 <br />
 <br />
 
-Date Created: 15/01/2022 15:55:36
+Date Created: 20/01/2022 09:50:24
 Tags: #Definition #In_Progress
 
-Requires: _Not Applicable_
+Requires: [[Binary Relation]], [[Restriction (Relation)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
@@ -14,9 +14,9 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $\mc{R}\subseteq X\times Y$. The **field of $\mc{R}$** is the set
+Let $R$ be a binary relation and let $S$ be a set. The **image of $S$ under $R$** is the set
 $$\begin{equation}
-    \fld\mc{R}\coloneqq\dom\mc{R}\cup\ran\mc{R}.
+    \im_R\l(S\r)\coloneqq R\l[x\r]\coloneqq\ran\l(\l.R\r|_S\r).
 \end{equation}$$
 
 --- admonition
