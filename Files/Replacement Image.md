@@ -5,7 +5,7 @@ Date Created: 20/01/2022 13:41:55
 Tags: #Definition #Closed 
 
 Requires: [[Axiom Schema of Replacement]], [[Set-Builder Notation]]
-Constructions: _Not Applicable_
+Constructions: [[Cartesian Product (Kuratowski)]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

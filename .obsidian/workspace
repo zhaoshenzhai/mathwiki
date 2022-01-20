@@ -4,36 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "3dda5443ea750ee8",
+        "id": "507f78f413048268",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Axiom Schema of Replacement.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "1729ed70ec90b2c9",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Replacement Image.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "3cc6066ba6bd4042",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Cartesian Product (Kuratowski).md",
+            "file": "Files/Axiom of Power Set.md",
             "mode": "preview",
             "source": true
           }
@@ -64,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Proposition",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -95,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Cartesian Product (Kuratowski).md",
+                "file": "Files/Axiom of Power Set.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Cartesian Product (Kuratowski).md",
+                "file": "Files/Axiom of Power Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,20 +109,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 166.8332977294922,
+    "width": 198.66122436523438,
     "collapsed": true
   },
-  "active": "3cc6066ba6bd4042",
+  "active": "507f78f413048268",
   "lastOpenFiles": [
-    "Files/Cartesian Product (Kuratowski).md",
-    "Files/Cartesian product (Kuratowski) is a set (Replacement).md",
-    "Files/Set-Builder Notation.md",
-    "Files/Axiom Schema of Specification.md",
-    "Files/Replacement Image.md",
-    "Files/Axiom Schema of Replacement.md",
-    "Files/Ordered pair equal when components equal.md",
-    "Files/Total Order.md",
-    "Files/Replacement image of a set is a set.md",
-    "Files/Union.md"
+    "Files/Axiom of Power Set.md",
+    "Files/Absolute complement of a set is a proper class.md",
+    "Files/Union with another set is monotone w.r.t. subsets.md",
+    "Files/Set of unions and intersections are sets.md",
+    "Files/Union of subsets is a subset.md",
+    "Files/Union of empty set is empty.md",
+    "Files/Empty set is unique.md",
+    "Files/Union is monotone w.r.t. subsets.md",
+    "Files/Subset inclusion is transitive.md",
+    "Files/Power set is monotone w.r.t. subsets.md"
   ]
 }

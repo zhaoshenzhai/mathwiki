@@ -5,7 +5,7 @@ Date Created: 16/01/2022 15:10:26
 Tags: #Proposition #Closed
 
 Proved by: [[Axiom of Extensionality]]
-Proves: _Not Applicable_
+Proves: [[Empty set is unique]], [[Intersection of a set is a set]], [[Set of unions and intersections are sets]], [[Set of relative complements is a set]], [[Domain and range of relation are sets]], [[Replacement image of a set is a set]], [[Cartesian product (Kuratowski) is a set (Replacement)]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

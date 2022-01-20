@@ -5,7 +5,7 @@ Date Created: 20/01/2022 13:53:33
 Tags: #Proposition #Open 
 
 Proved by: [[Axiom Schema of Replacement]], [[Axiom Schema of Specification]], [[Set-builder notation is unique]]
-Proves: _Not Applicable_
+Proves: [[Cartesian product (Kuratowski) is a set (Replacement)]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

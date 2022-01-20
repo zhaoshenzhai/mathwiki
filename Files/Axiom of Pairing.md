@@ -5,7 +5,7 @@ Date Created: 16/01/2022 16:34:42
 Tags: #Axiom #Open
 
 Requires: [[First-Order Logic]], [[Non-Logical Symbols]], [[Formula]]
-Constructions: [[ZFC Set Theory]], [[Pair Set]]
+Constructions: [[ZFC]], [[Pair Set]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
