@@ -6,6 +6,11 @@ Tags: #Axiom #In_Progress
 
 Requires: [[First-Order Logic]], [[Non-Logical Symbols]], [[Formula]]
 Constructions: _Not Applicable_
+Generalizations: _Not Applicable_
+
+Types: _Not Applicable_
+Examples: _Not Applicable_
+Properties: _Not Applicable_
 
 !!! ad-Axiom Axiom.
 

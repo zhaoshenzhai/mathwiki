@@ -6,6 +6,11 @@ Tags: #Axiom #Open
 
 Requires: [[First-Order Logic]], [[Non-Logical Symbols]], [[Formula]]
 Constructions: [[ZFC Set Theory]], [[Set-Builder Notation]]
+Generalizations: _Not Applicable_
+
+Types: _Not Applicable_
+Examples: _Not Applicable_
+Properties: _Not Applicable_
 
 !!! ad-Axiom Axiom Schema (Specification).
 
