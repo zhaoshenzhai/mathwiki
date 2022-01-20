@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ca3cb67ec0835dd3",
+        "id": "75c647e7bed9e593",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Domain (Relation).md",
+            "file": "Files/Binary Relation.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "8e813203af488c60",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Restriction (Relation).md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -71,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Domain (Relation).md",
+                "file": "Files/Restriction (Relation).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,17 +112,17 @@
     "width": 166.8332977294922,
     "collapsed": true
   },
-  "active": "ca3cb67ec0835dd3",
+  "active": "8e813203af488c60",
   "lastOpenFiles": [
-    "Files/Domain (Relation).md",
+    "Files/Restriction (Relation).md",
     "Files/Binary Relation.md",
-    "Files/Range (Relation).md",
-    "Files/Total Order.md",
-    "Files/Partial Order.md",
-    "Files/Transitive Relation.md",
-    "Files/Ordered Pair.md",
-    "Files/Singleton.md",
-    "Files/Pair Set.md",
-    "Files/Set-Builder Notation.md"
+    "Files/Set of unions and intersections are sets.md",
+    "Files/Intersection.md",
+    "Files/Intersection of a set is a set.md",
+    "Files/De Morgan's Laws.md",
+    "Files/Restriction (Function).md",
+    "Files/Domain and Range (Relation).md",
+    "Files/Domain and range of relation are sets.md",
+    "Files/Set of relative complements is a set.md"
   ]
 }

@@ -14,6 +14,6 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. A binary relation is a **partial order on $X$** if $R$ is transitive and irreflexive on $X$.
+Let $X$ be a set. A binary relation $R$ is a **partial order on $X$** if $R$ is transitive and irreflexive on $X$.
 
 --- admonition

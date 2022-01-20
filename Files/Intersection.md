@@ -10,13 +10,13 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[De Morgan's Laws]], [[Intersection is anti-monotone w.r.t. subsets ]], [[Intersection with another set is monotone w.r.t. subsets]], [[Power set distributes over intersection]], [[Intersection of empty set is a proper class]]
+Properties: [[Intersection of a set is a set]], [[De Morgan's Laws]], [[Intersection is anti-monotone w.r.t. subsets ]], [[Intersection with another set is monotone w.r.t. subsets]], [[Power set distributes over intersection]], [[Intersection of empty set is a proper class]]
 
 !!! ad-Definition Definition.
 
-Let $u$ be a non-empty set and fix $u_0\in u$. The **intersection of $u$** is the set
+Let $u$ be a non-empty set. The **intersection of $u$** is the set
 $$\begin{equation}
-    \bigcap u\coloneqq\l\{x\in u_0\mid\fa v\l(v\in u\Rightarrow x\in v\r)\r\}.
+    \bigcap u\coloneqq\l\{x\mid\fa v\l(v\in u\Rightarrow x\in v\r)\r\}.
 \end{equation}$$
 
 --- admonition

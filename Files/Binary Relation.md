@@ -5,7 +5,7 @@ Date Created: 14/01/2022 17:57:16
 Tags: #Definition #In_Progress
 
 Requires: [[Ordered Pair]]
-Constructions: [[Domain (Relation)]], [[Range (Relation)]], [[Restriction (Relation)]], [[Inverse (Relation)]], [[Function]]
+Constructions: [[Domain and Range (Relation)]], [[Restriction (Relation)]], [[Inverse (Relation)]], [[Function]]
 Generalizations: _Not Applicable_
 
 Types: [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]], [[Connected Relation]]
@@ -21,4 +21,4 @@ $$\begin{equation}
 
 --- admonition
 
-**Remark.** If $R$ is a binary relation and $\l\langle x,y\r\rangle\in\mc{R}$, write $x\mc{R}y$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If $R$ is a binary relation and $\l\langle x,y\r\rangle\in R$, write $xRy$.<span style="float:right;">$\blacklozenge$</span>

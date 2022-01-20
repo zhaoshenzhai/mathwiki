@@ -30,7 +30,7 @@ $$\begin{equation}
         &\Leftrightarrow x\in\bigcap\l\{v\comp u\mid u\in U\r\}.&&U\neq\em\textrm{; definition of intersection}
     \end{alignedat}
 \end{equation}$$
-The last equivalence requires that $U\neq\em$, which ensures that $\l\{v\setminus u\mid u\in U\r\}=\l\{x\mid\l(\ex u\in U\r)x=v\comp u\r\}$ is nonempty for the intersection to be defined.
+The last equivalence requires that $U\neq\em$, which ensures that $\l\{v\setminus u\mid u\in U\r\}=\l\{x\mid\l(\ex u\in U\r)x=v\comp u\r\}$ is non-empty for the intersection to be defined.
 
 Now take $x\in v\comp\bigcap U$. Note that $U\neq\em$ ensures that this expression is a set. The second result follows from the following chain of equivalences:
 $$\begin{alignat}{2}
