@@ -10,11 +10,11 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $R$ be a binary relation. Then there exists a set $z_1$ whose elements are exactly the sets $x$ for which there exists some $y$ such that $xRy$. Similarly, there exists a set $z_2$ whose elements are exactly the sets $y$ for which there exists some $x$ such that $xRy$. Formally,
+Let $R$ be a binary relation. Then there exists a unique set $z_1$ whose elements are exactly the sets $x$ for which there exists some $y$ such that $xRy$. Similarly, there exists a unique set $z_2$ whose elements are exactly the sets $y$ for which there exists some $x$ such that $xRy$. Formally,
 $$\begin{equation}
     \begin{gathered}
-        \fa R\ex z_1\fa x\l(x\in z_1\Leftrightarrow\ex y:xRy\r)\\
-        \fa R\ex z_2\fa y\l(y\in z_2\Leftrightarrow\ex x:xRy\r).
+        \fa R\ex!z_1\fa x\l(x\in z_1\Leftrightarrow\ex y:xRy\r)\\
+        \fa R\ex!z_2\fa y\l(y\in z_2\Leftrightarrow\ex x:xRy\r).
     \end{gathered}
 \end{equation}$$
 

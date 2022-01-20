@@ -8,7 +8,7 @@ Requires: [[Ordered Pair]]
 Constructions: [[Domain and Range]], [[Restriction (Relation)]], [[Image (Relation)]], [[Function]]
 Generalizations: _Not Applicable_
 
-Types: [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]], [[Connected Relation]]
+Types: [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]], [[Asymmetric Relation]], [[Antisymmetric Relation]], [[Connected Relation]]
 Examples: _Not Applicable_ 
 Properties: _Not Applicable_
 
@@ -16,7 +16,7 @@ Properties: _Not Applicable_
 
 A set $R$ is a **binary relation** if $R$ is a set of ordered pairs. Formally,
 $$\begin{equation}
-    R\textrm{ is a binary relation}\ \ \ \ \Leftrightarrow\ \ \ \ \l(\fa u\in R\r)\ex x,y\l(u=\l\langle x,y\r\rangle\r).
+    R\textrm{ is a binary relation}\ \ \ \ \Leftrightarrow\ \ \ \ \fa u\in R,\ex x,y:u=\l\langle x,y\r\rangle.
 \end{equation}$$
 
 --- admonition

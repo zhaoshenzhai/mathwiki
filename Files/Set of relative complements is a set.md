@@ -10,9 +10,9 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $v$ and $U$ be sets. Then there exists a set $z$ whose elements are exactly the sets $v\comp u$ for all sets $u\in U$. Formally,
+Let $v$ and $U$ be sets. Then there exists a unique set $z$ whose elements are exactly the sets $v\comp u$ for all sets $u\in U$. Formally,
 $$\begin{equation}
-    \fa v\fa U\ex z\fa x\l[x\in z\Leftrightarrow\l(\ex u\in U\r)x=v\comp u\r].
+    \fa v\fa U\ex!z\fa x\l[x\in z\Leftrightarrow\l(\ex u\in U\r)x=v\comp u\r].
 \end{equation}$$
 
 --- admonition

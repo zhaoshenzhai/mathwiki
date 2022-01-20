@@ -4,7 +4,7 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
   "colorGroups": [
     {
@@ -46,6 +46,6 @@
   "repelStrength": 10.7144300727567,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.7587897309814534,
+  "scale": 0.32319934409741047,
   "close": true
 }

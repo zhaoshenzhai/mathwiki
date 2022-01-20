@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 20/01/2022 08:08:58
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed
 
 Requires: [[Binary Relation]]
 Constructions: _Not Applicable_
@@ -16,7 +16,7 @@ Properties: _Not Applicable_
 
 Let $R$ be a binary relation and let $S$ be a set. The **restriction of $R$ to $S$** is the binary relation
 $$\begin{equation}
-    \l.R\r|_S\coloneqq\l\{u\in R\mid\ex x,y:\l\langle x,y\r\rangle\in R\land x\in S\r\}.
+    R\rest S\coloneqq\l\{u\in R\mid\ex x,y:u=\l\langle x,y\r\rangle\land x\in S\r\}.
 \end{equation}$$
 
 --- admonition
