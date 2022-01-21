@@ -5,7 +5,7 @@ Date Created: 14/01/2022 14:25:20
 Tags: #Definition #Closed 
 
 Requires: [[Binary Relation]], [[Domain and Range]]
-Constructions: _Not Applicable_
+Constructions: [[Function Space (Set)]]
 Generalizations: _Not Applicable_
 
 Types: [[Injection]], [[Surjection]]
@@ -22,5 +22,5 @@ $$\begin{equation}
 --- admonition
 
 **Remark.**
-* If $f$ is a function with $\dom f=X$ and $\ran f\subseteq Y$ for some sets $X$ and $Y$, write $f:X\to Y$. Note that there are $\textrm{`}$infinitely$\textrm{'}$ many sets $Y$ such that $f:X\to Y$.
+* If $f$ is a function with $\dom f=X$ and $\ran f\subseteq Y$ for some sets $X$ and $Y$, write $f:X\to Y$ and call $f$ a **function from $X$ into $Y$**. Note that there are $\textrm{`}$infinitely$\textrm{'}$ many sets $Y$ such that $f:X\to Y$.
 * Let $x\in\dom f$. The unique $y\in\ran f$ such that $\l\langle x,y\r\rangle\in f$ is denoted by $f\l(x\r)$, and we write $x\mapsto y$.<span style="float:right;">$\blacklozenge$</span>

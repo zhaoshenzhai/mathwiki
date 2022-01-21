@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 21/01/2022 16:18:54
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed 
 
 Proved by: [[Replacement image of a set is a set]]
 Proves: _Not Applicable_

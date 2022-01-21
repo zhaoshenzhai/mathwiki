@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 21/01/2022 13:35:43
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed 
 
 Requires: [[Binary Relation]]
 Constructions: _Not Applicable_

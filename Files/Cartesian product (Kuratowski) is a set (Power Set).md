@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 21/01/2022 17:33:37
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed 
 
 Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [[Subset inclusion is transitive]]
 Proves: _Not Applicable_
