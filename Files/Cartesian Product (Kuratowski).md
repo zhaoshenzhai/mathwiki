@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 20/01/2022 13:11:23
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed
 
 Requires: [[Set-Builder Notation]]
 Constructions: _Not Applicable_
@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Cartesian product (Kuratowski) is a set (Replacement)]]
+Properties: [[Cartesian product (Kuratowski) is a set (Power Set)]], [[Cartesian product (Kuratowski) is a set (Replacement)]], [[Binary relation iff subset of Cartesian product]]
 
 !!! ad-Definition Definition.
 
@@ -20,3 +20,5 @@ $$\begin{equation}
 \end{equation}$$
 
 --- admonition
+
+**Remark.** Observe that $\l\langle x,y\r\rangle\in X\times Y\Leftrightarrow\l\langle y,x\r\rangle\in Y\times X$.<span style="float:right;">$\blacklozenge$</span>

@@ -5,12 +5,12 @@ Date Created: 14/01/2022 17:57:16
 Tags: #Definition #Closed 
 
 Requires: [[Ordered Pair]]
-Constructions: [[Domain and Range]], [[Restriction (Relation)]], [[Image (Relation)]], [[Function]]
+Constructions: [[Domain and Range]], [[Function]], [[Restriction (Relation)]], [[Image (Relation)]], [[Inverse (Relation)]], [[Composition (Relation)]]
 Generalizations: _Not Applicable_
 
 Types: [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]], [[Asymmetric Relation]], [[Antisymmetric Relation]], [[Connected Relation]]
 Examples: _Not Applicable_ 
-Properties: _Not Applicable_
+Properties: [[Binary relation iff subset of Cartesian product]]
 
 !!! ad-Definition Definition.
 

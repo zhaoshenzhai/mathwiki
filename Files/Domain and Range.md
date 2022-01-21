@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Domain and range of relation are sets]]
+Properties: [[Domain and range of relation are sets (Kuratowski)]], [[Domain and range of relation are sets (General)]]
 
 !!! ad-Definition Definition.
 

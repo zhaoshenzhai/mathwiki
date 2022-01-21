@@ -20,9 +20,8 @@ $$\begin{equation}
 
 --- admonition
 
-_Proof_. We shall prove the statement for $z_1$; the proof for $z_2$ is analogous. Let $\psi\l(x\r)$ denote the formula $\l(\ex u\in U\r)x=v\cup u$. It suffices to prove that there exists a set $w$ and a formula $\phi\l(x\r)$, not free in $z_1$, such that $\psi\l(x\r)\Leftrightarrow x\in w\land\phi\l(x\r)$. Indeed, we claim that
+_Proof_. We shall prove the statement for $z_1$; the proof for $z_2$ is analogous. Let $\phi\l(x\r)$ denote the formula $\l(\ex u\in U\r)x=v\cup u$; we claim that
 $$\begin{equation}
-    w=\ms{P}\l(v\cup\bigcup U\r)\ \ \ \ \textrm{and}\ \ \ \ \phi\l(x\r)\Leftrightarrow\psi\l(x\r).
+    \phi\l(x\r)\Rightarrow x\in\ms{P}\l(v\cup\bigcup U\r).
 \end{equation}$$
-* (proof that $\psi\l(x\r)\Rightarrow x\in w\land\phi\l(x\r)$): Certainly $\psi\l(x\r)\Rightarrow\phi\l(x\r)$, so it suffices to prove that $\psi\l(x\r)\Rightarrow x\in w$. Thus take a set $x$ with $x=v\cup u$ for some $u\in U$. Since $u\subseteq\bigcup U$, we have $v\cup u\subseteq v\cup\bigcup U$. By definition of the power set, we have $v\cup u\in\ms{P}\l(v\cup\bigcup U\r)$, and so $x\in\ms{P}\l(v\cup\bigcup U\r)$.
-* (proof that $x\in w\land\phi\l(x\r)\Rightarrow\psi\l(x\r)$): This is trivial, for $\phi\l(x\r)\Rightarrow\psi\l(x\r)$.<span style="float:right;">$\blacksquare$</span>
+To this end, take a set $x$ with $x=v\cup u$ for some $u\in U$. Since $u\subseteq\bigcup U$, we have $v\cup u\subseteq v\cup\bigcup U$. By definition of the power set, we have $v\cup u\in\ms{P}\l(v\cup\bigcup U\r)$, and so $x\in\ms{P}\l(v\cup\bigcup U\r)$.<span style="float:right;">$\blacksquare$</span>

@@ -17,10 +17,8 @@ $$\begin{equation}
 
 --- admonition
 
-_Proof_. Let $\psi\l(x\r)$ denote the formula $\fa v\l(v\in u\Rightarrow x\in v\r)$. It suffices to prove that there exists a set $w$ and a formula $\phi\l(x\r)$, not free in $z_1$, such that $\psi\l(x\r)\Leftrightarrow x\in w\land\phi\l(x\r)$. Indeed, we claim that
+_Proof_. Let $\phi\l(x\r)$ denote the formula $\fa v\l(v\in u\Rightarrow x\in v\r)$; we claim that
 $$\begin{equation}
-    w=u_0\ \ \ \ \textrm{and}\ \ \ \ \phi\l(x\r)\Leftrightarrow\psi\l(x\r)
+    \phi\l(x\r)\Rightarrow x\in u_0
 \end{equation}$$
-for any $u_0\in u$, which is ensured to exist.
-* (proof that $\psi\l(x\r)\Rightarrow x\in w\land\phi\l(x\r)$): Certainly $\psi\l(x\r)\Rightarrow\phi\l(x\r)$, so it suffices to prove that $\psi\l(x\r)\Rightarrow x\in w$. Thus take a set $x$ such that $\fa v\l(v\in u\Rightarrow x\in v\r)$. In particular, we have $u_0\in u$ and hence $x\in u_0$.
-* (proof that $x\in w\land\phi\l(x\r)\Rightarrow\psi\l(x\r)$): This is trivial, for $\phi\l(x\r)\Rightarrow\psi\l(x\r)$.<span style="float:right;">$\blacksquare$</span>
+for any $u_0\in u$, which is guaranteed to exist. To this end, take a set $x$ such that $\fa v\l(v\in u\Rightarrow x\in v\r)$. In particular, we have $u_0\in u$ and hence $x\in u_0$.<span style="float:right;">$\blacksquare$</span>

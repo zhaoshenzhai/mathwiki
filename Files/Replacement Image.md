@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Replacement image of a set is a set]]
+Properties: [[Replacement image of a set is a set]], [[Replacement image is a function iff Replacement]]
 
 !!! ad-Definition Definition.
 

@@ -20,5 +20,6 @@ $$\begin{equation}
 \end{equation}$$
 Now, $x\neq x$ is always false, and so is $x\in z\land x\neq x$; by definition of the biconditional, we see that $x\in e$ is always false. Therefore, we have $\ex e\l[\fa x\l(x\not\in e\r)\r]$, which, by definition, is equivalent to $\ex e\l[\operatorname{emp}\l(e\r)\r]$.<span style="float:right;">$\blacksquare$</span>
 
+---
 
 **Remark.** The existence of a set $z$ does not follow from the axioms of ZFC Set Theory. Instead, it is a theorem in first-order logic.<span style="float:right;">$\blacklozenge$</span>

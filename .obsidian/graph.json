@@ -4,48 +4,41 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#Definition",
       "color": {
         "a": 1,
-        "rgb": 5091050
-      }
-    },
-    {
-      "query": "tag:#Axiom",
-      "color": {
-        "a": 1,
-        "rgb": 16014685
+        "rgb": 6537198
       }
     },
     {
       "query": "tag:#Proposition",
       "color": {
         "a": 1,
-        "rgb": 12872157
+        "rgb": 15099319
       }
     },
     {
-      "query": "tag:#Theorem",
+      "query": "tag:#Axiom",
       "color": {
         "a": 1,
-        "rgb": 7137900
+        "rgb": 16342365
       }
     }
   ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 0.916996766370251,
-  "lineSizeMultiplier": 3.1830487065481,
-  "collapse-forces": false,
-  "centerStrength": 0.400970088924818,
-  "repelStrength": 10.2192805173808,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 0.72215541632983,
+  "lineSizeMultiplier": 2.43314470493129,
+  "collapse-forces": true,
+  "centerStrength": 0,
+  "repelStrength": 9.57255456750202,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.5575639505765019,
+  "scale": 1.6799584896170034,
   "close": true
 }

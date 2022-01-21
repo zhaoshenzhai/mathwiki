@@ -4,7 +4,7 @@
 Date Created: 20/01/2022 13:14:26
 Tags: #Proposition #Closed
 
-Proved by: [[Replacement image of a set is a set]], [[Set-builder notation is unique]]
+Proved by: [[Replacement image of a set is a set]]
 Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
@@ -36,3 +36,7 @@ $$\begin{alignat}{2}
     &\Leftrightarrow\ex x\in X:u\in\l\{x\r\}\times Y&&\textrm{Substitution}\\
     &\Leftrightarrow\ex x\in X,\ex y\in Y:u=\l\langle x,y\r\rangle.&&\textrm{Definition of }\l\{x\r\}\times Y\qedin
 \end{alignat}$$
+
+---
+
+**Remark.** Note that this proof does not rely on the specific Kuratowski definition of the ordered pair.<span style="float:right;">$\blacklozenge$</span>

@@ -1,22 +1,22 @@
 <br />
 <br />
 
-Date created: 14/01/2022 14:25:20
+Date Created: 14/01/2022 14:25:20
 Tags: #Definition #Closed 
 
-Requires: [[Binary Relation]]
+Requires: [[Binary Relation]], [[Domain and Range]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Types: [[Injection]], [[Surjection]]
-Examples: _Not Applicable_
-Properties: _Not Applicable_
+Examples: [[Identity Function]]
+Properties: [[Replacement image is a function iff Replacement]]
 
 !!! ad-Definition Definition.
 
-A binary relation $f$ is a **function** if for every $x\in\dom f$, there exists a unique $y\in\ran f$ such that $\l\langle x,y\r\rangle\in f$. Formally,
+A binary relation $f$ is a **function** if for every $x\in\dom f$, there exists a unique $y$ such that $\l\langle x,y\r\rangle\in f$. Formally,
 $$\begin{equation}
-    f\textrm{ is a function}\ \ \ \ \Leftrightarrow\ \ \ \ \fa x\in\dom f,\ex!y\in\ran f:\l\langle x,y\r\rangle\in f.
+    f\textrm{ is a function}\ \ \ \ \Leftrightarrow\ \ \ \ \fa x\in\dom f,\ex!y:\l\langle x,y\r\rangle\in f.
 \end{equation}$$
 
 --- admonition

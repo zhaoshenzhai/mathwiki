@@ -5,7 +5,7 @@ Date Created: 15/01/2022 08:01:47
 Tags: #Proposition #Closed  
  
 Proved by: [[Distribution of universal quantifier over conjunction]], [[Implication is transitive]]
-Proves: [[Power set is monotone w.r.t. subsets]]
+Proves: [[Power set is monotone w.r.t. subsets]], [[Cartesian product (Kuratowski) is a set (Power Set)]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
