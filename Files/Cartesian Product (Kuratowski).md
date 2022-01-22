@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Cartesian product (Kuratowski) is a set (Power Set)]], [[Cartesian product (Kuratowski) is a set (Replacement)]], [[Binary relation iff subset of Cartesian product]]
+Properties: [[Cartesian product (Kuratowski) is a set (Power Set)]], [[Cartesian product (Kuratowski) is a set (Replacement)]], [[Binary relation iff subset of Cartesian product]], [[Cartesian product is monotone w.r.t. subsets]]
 
 !!! ad-Definition Definition.
 

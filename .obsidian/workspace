@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f2f1fbbf191ebfaa",
+        "id": "de6f0f1b83cecaa8",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Power set is monotone w.r.t. subsets.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -71,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Power set is monotone w.r.t. subsets.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +94,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Power set is monotone w.r.t. subsets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,17 +106,17 @@
     "width": 198.66122436523438,
     "collapsed": true
   },
-  "active": "f2f1fbbf191ebfaa",
+  "active": "de6f0f1b83cecaa8",
   "lastOpenFiles": [
-    "Files/Power set is monotone w.r.t. subsets.md",
-    "Files/Cartesian product is monotone w.r.t. subsets.md",
-    "Files/Cartesian product (Kuratowski) is a set (Replacement).md",
-    "Files/Cartesian product (Kuratowski) is a set (Power Set).md",
-    "Files/Set-builder notation is unique.md",
-    "Files/Axiom Schema of Specification.md",
-    "Files/Function space is a set.md",
-    "Files/Intersection of a set is a set.md",
-    "Files/Binary Relation.md",
-    "Files/De Morgan's Laws.md"
+    "Files/Composition of functions is a function.md",
+    "Files/Function.md",
+    "Files/Composition (Relation).md",
+    "Files/Domain and Range.md",
+    "Files/Inverse (Relation).md",
+    "Files/Inverse of composition of relations.md",
+    "Files/Inverse of a relation is a relation.md",
+    "Files/Composition of relations is a relation.md",
+    "Files/Inverse of inverse relation is the relation.md",
+    "Files/Domain and range of inverse relation.md"
   ]
 }

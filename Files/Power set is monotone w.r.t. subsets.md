@@ -4,7 +4,7 @@
 Date Created: 15/01/2022 07:52:03
 Tags: #Proposition #Closed
  
-Proved by: [[Subset inclusion is transitive]]
+Proved by: [[Subset relation is transitive]]
 Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 

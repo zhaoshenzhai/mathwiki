@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Types: [[Injection]], [[Surjection]]
 Examples: [[Identity Function]]
-Properties: [[Replacement image is a function iff Replacement]]
+Properties: [[Replacement image is a function iff Replacement]], [[Composition of functions is a function]]
 
 !!! ad-Definition Definition.
 

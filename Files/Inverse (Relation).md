@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Inverse of a relation is a relation]]
+Properties: [[Inverse of a relation is a relation]], [[Domain and range of inverse relation]], [[Inverse of inverse relation is the relation]], [[Inverse of composition of relations]]
 
 !!! ad-Definition Definition.
 
