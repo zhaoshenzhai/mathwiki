@@ -4,7 +4,7 @@
 Date Created: 20/01/2022 13:11:23
 Tags: #Definition #Closed
 
-Requires: [[Set-Builder Notation]]
+Requires: [[Ordered Pair]], [[Set-Builder Notation]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

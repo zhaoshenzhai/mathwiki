@@ -1,0 +1,19 @@
+<br />
+<br />
+
+Date Created: 23/01/2022 19:27:53
+Tags: #Definition #Closed 
+
+Requires: [[Topology on a Set]]
+Constructions: _Not Applicable_
+Generalizations: _Not Applicable_
+
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
+Properties: [[Discrete topology is a topology]]
+
+!!! ad-Definition Definition.
+
+Let $X$ be a set. The **discrete topology on $X$** is topology $\mc{T}_\textrm{discrete}\coloneqq\ms{P}\l(X\r)$.
+
+--- admonition

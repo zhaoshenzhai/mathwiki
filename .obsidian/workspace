@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "de6f0f1b83cecaa8",
+        "id": "180c72ef17445253",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Files/Subset relation is transitive.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -67,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Files/Subset relation is transitive.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,6 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Files/Subset relation is transitive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -106,17 +112,17 @@
     "width": 198.66122436523438,
     "collapsed": true
   },
-  "active": "de6f0f1b83cecaa8",
+  "active": "180c72ef17445253",
   "lastOpenFiles": [
-    "Files/Composition of functions is a function.md",
-    "Files/Function.md",
-    "Files/Composition (Relation).md",
-    "Files/Domain and Range.md",
-    "Files/Inverse (Relation).md",
-    "Files/Inverse of composition of relations.md",
+    "Files/Subset relation is transitive.md",
+    "Files/Axiom of Pairing.md",
+    "Files/Identity function is a function.md",
+    "Files/Cartesian Product (Kuratowski).md",
+    "Files/Cartesian product (Kuratowski) is a set (Power Set).md",
     "Files/Inverse of a relation is a relation.md",
-    "Files/Composition of relations is a relation.md",
-    "Files/Inverse of inverse relation is the relation.md",
-    "Files/Domain and range of inverse relation.md"
+    "Files/Complement is anti-monotone w.r.t subsets.md",
+    "Files/Domain and range of relation are sets (Kuratowski).md",
+    "Files/Replacement image implies function iff Replacement.md",
+    "Files/Power set distributes over intersection.md"
   ]
 }
