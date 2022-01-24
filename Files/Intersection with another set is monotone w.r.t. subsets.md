@@ -6,7 +6,7 @@ Tags: #Proposition #Closed
 
 Proved by: _Not Applicable_
 Proves: [[Set of unions and intersections are sets]]
-Generalizations: _Not Applicable_
+Generalizations: [[Intersection of subsets is a subset]]
 
 !!! ad-Proposition Proposition.
 
