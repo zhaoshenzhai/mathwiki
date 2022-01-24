@@ -5,7 +5,7 @@ Date Created: 15/01/2022 18:20:59
 Tags: #Proposition #Closed
 
 Proved by: [[Empty set is unique]]
-Proves: _Not Applicable_
+Proves: [[Trivial topology is a topology]], [[Singleton is a basis for the trivial topology]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

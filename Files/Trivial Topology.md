@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Trivial topology is a topology]]
+Properties: [[Trivial topology is a topology]], [[Singleton is a basis for the trivial topology]]
 
 !!! ad-Definition Definition.
 

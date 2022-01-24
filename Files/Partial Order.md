@@ -5,7 +5,7 @@ Date Created: 19/01/2022 18:21:52
 Tags: #Definition #Closed 
 
 Requires: [[Transitive Relation]], [[Reflexive Relation]]
-Constructions: [[Total Order]], [[Lexicographical Order]]
+Constructions: [[Poset]], [[Total Order]], [[Lexicographical Order]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
@@ -18,4 +18,4 @@ Let $X$ be a set. A binary relation $R$ is a **partial order on $X$** if $R$ is 
 
 --- admonition
 
-**Remark.** Let $<$ be a partial order on a set $X$. Write $>\,\coloneqq\,<^{-1}$, $\leq\,\coloneqq\,<\cup\id_X$, and $\geq\,\coloneqq\,\leq^{-1}$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Let $<$ be a partial order on a set $X$. Write $>\,\coloneqq\,<^{-1}$, $\leq\,\coloneqq\,<\cup\id_X$, and $\geq\,\coloneqq\,\leq^{-1}$. The relations $\leq$ and $\geq$ are called **non-strict partial orders on $X$** defined as transitive and reflexive binary relations on $X$.<span style="float:right;">$\blacklozenge$</span>

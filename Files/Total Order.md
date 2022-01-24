@@ -5,7 +5,7 @@ Date Created: 19/01/2022 18:23:39
 Tags: #Definition #Closed 
 
 Requires: [[Partial Order]], [[Connected Relation]]
-Constructions: _Not Applicable_
+Constructions: [[Ordered Set]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
