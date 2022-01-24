@@ -14,10 +14,7 @@ Properties: _Not Applicable_
 !!! ad-Definition Definition.
 
 Let $X$ be a set. A **basis for a topology on $X$** is a set $\mc{B}\subseteq\mc{P}\l(X\r)$ satisfying
-* $\axibasis{1}\bf{.}$ $\mc{B}$ covers $X$. That is, if
-$$\begin{equation}
-    \fa x\in X,\ex B\in\mc{B}:x\in B.
-\end{equation}$$
+* $\axibasis{1}\bf{.}$ $\mc{B}$ covers $X$. That is, if $\fa x\in X,\ex B\in\mc{B}:x\in B$.
 * $\axibasis{2}\bf{.}$ If $B_1,B_2\in\mc{B}$ and $x\in B_1\cap B_2$, then there exists $B_3\in\mc{B}$ such that $x\in B_3$ and $B_3\subseteq B_1\cap B_2$.
 
 --- admonition

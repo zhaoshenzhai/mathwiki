@@ -4,7 +4,7 @@
 Date Created: 24/01/2022 12:14:51
 Tags: #Proposition #Closed 
 
-Proved by: [[Subset relation is transitive]], [[Union of subsets is a subset]]
+Proved by: [[Subset relation is transitive]], [[Union of set of subsets is a subset]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

@@ -4,11 +4,11 @@
 Date Created: 24/01/2022 15:29:44
 Tags: #Definition #Closed 
 
-Constructions: [[Lattice]], [[Lower Bound]], [[Upper Bound]]
+Constructions: [[Lower Bound]], [[Upper Bound]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
-Examples: [[Inclusion Poset]]
+Examples: _Not Applicable_
 Properties: _Not Applicable_
 
 !!! ad-Definition Definition.

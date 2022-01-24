@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Discrete topology is a topology]], [[Set of singletons is a basis for the discrete topology]]
+Properties: [[Discrete topology is a topology]], [[Set of singletons is a basis for the discrete topology]], [[Discrete topology is the finest topology]]
 
 !!! ad-Definition Definition.
 

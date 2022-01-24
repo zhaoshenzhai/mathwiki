@@ -8,11 +8,11 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Types: [[Complete Lattice]]
-Examples: [[Lattice of Topologies]]
+Examples: _Not Applicable_
 Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-A poset $\l\langle X,<\r\rangle$ is called a **lattice** if every non-empty finite subset $S\subseteq X$ has a join and a meet.
+A poset $\l\langle X,<\r\rangle$ is called a **lattice** if it is both a join and a meet semilattice.
 
 --- admonition

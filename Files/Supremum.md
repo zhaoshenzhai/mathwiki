@@ -4,7 +4,7 @@
 Date Created: 24/01/2022 15:36:57
 Tags: #Definition #Closed
 
-Constructions: _Not Applicable_
+Constructions: [[Join-semilattice]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
