@@ -5,7 +5,6 @@ Date Created: 21/01/2022 10:09:11
 Tags: #Proposition #Closed 
 
 Proved by: [[Replacement image implies function iff Replacement]]
-Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

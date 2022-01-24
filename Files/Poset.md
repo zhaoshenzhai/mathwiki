@@ -4,7 +4,6 @@
 Date Created: 24/01/2022 15:29:44
 Tags: #Definition #Closed 
 
-Requires: [[Partial Order]]
 Constructions: [[Lower Bound]], [[Upper Bound]]
 Generalizations: _Not Applicable_
 

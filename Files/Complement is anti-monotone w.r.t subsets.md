@@ -5,7 +5,6 @@ Date Created: 19/01/2022 17:07:30
 Tags: #Proposition #Closed
 
 Proved by: _Not Applicable_
-Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

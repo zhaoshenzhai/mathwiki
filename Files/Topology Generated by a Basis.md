@@ -4,7 +4,6 @@
 Date Created: 24/01/2022 10:45:00
 Tags: #Definition #Closed 
 
-Requires: [[Basis (Topology)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

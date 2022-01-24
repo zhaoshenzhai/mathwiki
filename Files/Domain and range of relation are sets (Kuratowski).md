@@ -5,7 +5,6 @@ Date Created: 20/01/2022 07:45:41
 Tags: #Proposition #Closed 
 
 Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]]
-Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

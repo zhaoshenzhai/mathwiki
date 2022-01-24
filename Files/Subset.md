@@ -4,7 +4,6 @@
 Date Created: 15/01/2022 13:02:22
 Tags: #Definition #Open
 
-Requires: [[First-Order Logic]], [[Non-Logical Symbols]], [[Formula]]
 Constructions: [[Axiom of Power Set]]
 Generalizations: _Not Applicable_
 

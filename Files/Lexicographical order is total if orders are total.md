@@ -5,7 +5,6 @@ Date Created: 23/01/2022 13:37:59
 Tags: #Proposition #Closed 
 
 Proved by: [[Lexicographical order is a partial order]]
-Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

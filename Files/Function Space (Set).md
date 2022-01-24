@@ -4,7 +4,6 @@
 Date Created: 21/01/2022 18:18:43
 Tags: #Definition #Closed 
 
-Requires: [[Function]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

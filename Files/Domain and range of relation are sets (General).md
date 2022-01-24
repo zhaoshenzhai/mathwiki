@@ -5,7 +5,6 @@ Date Created: 21/01/2022 16:18:54
 Tags: #Proposition #Closed 
 
 Proved by: [[Replacement image of a set is a set]]
-Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 **Remark.** Let $x$ and $y$ be sets and let $\l[\!\l[x,y\r]\!\r]$ be any set such that if $\l[\!\l[x,y\r]\!\r]=\l[\!\l[u,v\r]\!\r]$, then $x=u$ and $v=y$; this captures the essence of what it means for $\l[\!\l[\cdot,\cdot\r]\!\r]$ to be an $\textrm{`}$ordered pair$\textrm{'}$. A set $R$ is then a $\textrm{`}$binary relation$\textrm{'}$ if

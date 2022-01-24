@@ -5,7 +5,6 @@ Date Created: 23/01/2022 20:05:39
 Tags: #Proposition #Closed 
 
 Proved by: [[De Morgan's Laws]], [[Interection of countable sets is countable]], [[Countable union of countable sets is countable]]
-Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

@@ -4,51 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8f1dea7d4cc974fc",
+        "id": "141f06d4e13d9708",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Topology on a Set.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "4e9a80ff80e582f2",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Lattice of Topologies.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "64fb735f66e252c1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Lattice.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "8f49f0cee5b44826",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Complete Lattice.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -107,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Complete Lattice.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +94,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Complete Lattice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,17 +106,17 @@
     "width": 198.66122436523438,
     "collapsed": true
   },
-  "active": "8f49f0cee5b44826",
+  "active": "141f06d4e13d9708",
   "lastOpenFiles": [
-    "Files/Complete Lattice.md",
-    "Files/Lattice.md",
-    "Files/Inclusion Poset.md",
-    "Files/Inclusion poset is a poset.md",
-    "Files/Subset relation is transitive.md",
-    "Files/Poset.md",
-    "Files/Partial Order.md",
     "Files/Subset.md",
+    "Files/Union of subsets is a subset.md",
+    "Files/Axiom of Pairing.md",
+    "Files/Reflexive Relation.md",
+    "Files/Pair Set.md",
+    "Files/Ordered Pair.md",
     "Files/Binary Relation.md",
-    "Files/Subset Relation.md"
+    "Files/Partial Order.md",
+    "Files/Poset.md",
+    "Files/Lower Bound.md"
   ]
 }

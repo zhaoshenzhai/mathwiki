@@ -4,7 +4,6 @@
 Date Created: 20/01/2022 09:09:09
 Tags: #Definition #Closed 
 
-Requires: [[Function]], [[Domain and Range]]
 Constructions: [[Bijection]]
 Generalizations: _Not Applicable_
 

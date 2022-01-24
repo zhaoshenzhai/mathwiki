@@ -4,7 +4,6 @@
 Date Created: 18/01/2022 13:10:47
 Tags: #Definition #Closed 
 
-Requires: [[Set-Builder Notation]]
 Constructions: [[Set of relative complements]]
 Generalizations: _Not Applicable_
 

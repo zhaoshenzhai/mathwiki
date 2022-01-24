@@ -5,7 +5,6 @@ Date Created: 21/01/2022 08:57:57
 Tags: #Proposition #Open 
 
 Proved by: [[Replacement image of a set is a set]]
-Proves: [[Identity function is a function]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

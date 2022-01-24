@@ -4,7 +4,6 @@
 Date Created: 24/01/2022 10:31:40
 Tags: #Definition #Closed 
 
-Requires: [[Subset]], [[Union]]
 Constructions: [[Basis (Topology)]], [[Open Cover]]
 Generalizations: _Not Applicable_
 

@@ -5,7 +5,6 @@ Date Created: 21/01/2022 11:24:19
 Tags: #Proposition #Closed 
 
 Proved by: [[Binary relation iff subset of Cartesian product]], [[Set-builder notation is unique]]
-Proves: [[Inverse of inverse relation is the relation]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

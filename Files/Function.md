@@ -4,7 +4,6 @@
 Date Created: 14/01/2022 14:25:20
 Tags: #Definition #Closed 
 
-Requires: [[Binary Relation]], [[Domain and Range]]
 Constructions: [[Function Space (Set)]]
 Generalizations: _Not Applicable_
 

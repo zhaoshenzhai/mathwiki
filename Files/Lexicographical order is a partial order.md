@@ -5,7 +5,6 @@ Date Created: 23/01/2022 12:26:56
 Tags: #Proposition #Closed 
 
 Proved by: [[Binary relation iff subset of Cartesian product]]
-Proves: [[Lexicographical order is total if orders are total]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

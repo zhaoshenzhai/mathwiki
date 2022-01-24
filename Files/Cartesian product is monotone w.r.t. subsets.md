@@ -5,7 +5,6 @@ Date Created: 21/01/2022 18:55:03
 Tags: #Proposition #Closed 
 
 Proved by: _Not Applicable_
-Proves: [[Function space is a set]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

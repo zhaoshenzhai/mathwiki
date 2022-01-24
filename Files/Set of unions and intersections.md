@@ -4,7 +4,6 @@
 Date Created: 18/01/2022 17:01:58
 Tags: #Definition #Closed
 
-Requires: [[Union]], [[Intersection]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

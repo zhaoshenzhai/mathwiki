@@ -4,7 +4,6 @@
 Date Created: 15/01/2022 15:44:35
 Tags: #Definition #Closed 
 
-Requires: [[Binary Relation]], [[Set-Builder Notation]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

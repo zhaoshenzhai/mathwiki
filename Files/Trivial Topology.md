@@ -4,7 +4,6 @@
 Date Created: 23/01/2022 19:10:58
 Tags: #Definition #Closed 
 
-Requires: [[Topology on a Set]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

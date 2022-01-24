@@ -4,7 +4,6 @@
 Date Created: 24/01/2022 15:59:15
 Tags: #Definition #In_Progress
 
-Requires: [[Lattice]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

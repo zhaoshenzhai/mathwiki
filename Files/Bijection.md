@@ -4,7 +4,6 @@
 Date Created: 20/01/2022 09:30:37
 Tags: #Definition #Closed 
 
-Requires: [[Injection]], [[Surjection]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

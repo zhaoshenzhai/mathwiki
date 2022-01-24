@@ -5,7 +5,6 @@ Date Created: 17/01/2022 15:30:37
 Tags: #Proposition #Open
 
 Proved by: [[Collection of all sets is a proper class]]
-Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

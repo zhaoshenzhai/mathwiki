@@ -5,7 +5,6 @@ Date Created: 20/01/2022 13:14:26
 Tags: #Proposition #Closed
 
 Proved by: [[Replacement image of a set is a set]]
-Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

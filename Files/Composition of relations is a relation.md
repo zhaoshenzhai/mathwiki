@@ -5,7 +5,6 @@ Date Created: 21/01/2022 13:37:59
 Tags: #Proposition #Closed 
 
 Proved by: [[Binary relation iff subset of Cartesian product]], [[Set-builder notation is unique]]
-Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

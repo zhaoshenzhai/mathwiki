@@ -5,7 +5,6 @@ Date Created: 21/01/2022 10:54:56
 Tags: #Proposition #Closed 
 
 Proved by: _Not Applicable_
-Proves: [[Inverse of a relation is a relation]], [[Composition of relations is a relation]], [[Lexicographical order is a partial order]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

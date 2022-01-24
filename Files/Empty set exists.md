@@ -5,7 +5,6 @@ Date Created: 16/01/2022 14:03:24
 Tags: #Proposition #Closed
 
 Proved by: [[Axiom Schema of Specification]]
-Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

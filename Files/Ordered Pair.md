@@ -4,8 +4,7 @@
 Date Created: 14/01/2022 18:07:19
 Tags: #Definition #Closed  
 
-Requires: [[Pair Set]], [[Singleton]]
-Constructions: _Not Applicable_
+Constructions: [[Binary Relation]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

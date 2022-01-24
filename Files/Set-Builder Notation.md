@@ -4,7 +4,6 @@
 Date Created: 16/01/2022 15:26:07
 Tags: #Definition #Closed  
 
-Requires: [[Axiom Schema of Specification]]
 Constructions: [[Pair Set]], [[Union]], [[Intersection]], [[Power Set]], [[Relative Complement]], [[Domain and Range]], [[Replacement Image]], [[Cartesian Product (Kuratowski)]]
 Generalizations: _Not Applicable_
 

@@ -4,7 +4,6 @@
 Date Created: 14/01/2022 15:43:46
 Tags: #Definition #Closed
 
-Requires: [[Set-Builder Notation]]
 Constructions: [[Set of unions and intersections]]
 Generalizations: _Not Applicable_
 

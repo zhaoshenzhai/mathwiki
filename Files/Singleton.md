@@ -4,7 +4,6 @@
 Date Created: 17/01/2022 12:06:31
 Tags: #Definition #Closed 
 
-Requires: [[Pair Set]]
 Constructions: [[Ordered Pair]]
 Generalizations: _Not Applicable_
 

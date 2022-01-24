@@ -5,7 +5,6 @@ Date Created: 21/01/2022 18:23:06
 Tags: #Proposition #Closed
 
 Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [[Cartesian product is monotone w.r.t. subsets]], [[Subset relation is transitive]]
-Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

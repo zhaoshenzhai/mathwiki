@@ -4,7 +4,6 @@
 Date Created: 19/01/2022 17:45:32
 Tags: #Definition #Closed 
 
-Requires: [[Binary Relation]]
 Constructions: [[Total Order]]
 Generalizations: _Not Applicable_
 

@@ -5,7 +5,6 @@ Date Created: 18/01/2022 16:48:35
 Tags: #Proposition  #Open
 
 Proved by: [[Negation of universal quantifier]]
-Proves: [[Cofinite topology is a topology]]
 Generalizations: _Not Applicable_
 
 !!! ad-Theorem Theorem.

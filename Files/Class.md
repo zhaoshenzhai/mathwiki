@@ -4,7 +4,6 @@
 Date Created: 18/01/2022 14:52:36
 Tags: #Definition #Open
 
-Requires: [[Formula]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

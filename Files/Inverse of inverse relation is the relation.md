@@ -5,7 +5,6 @@ Date Created: 22/01/2022 09:43:31
 Tags: #Proposition #Closed 
 
 Proved by: [[Inverse of a relation is a relation]]
-Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

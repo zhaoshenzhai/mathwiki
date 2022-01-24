@@ -4,7 +4,6 @@
 Date Created: 20/01/2022 10:03:21
 Tags: #Axiom #Open 
 
-Requires: [[First-Order Logic]], [[Non-Logical Symbols]], [[Formula]]
 Constructions: [[ZFC]], [[Replacement Image]]
 Generalizations: _Not Applicable_
 

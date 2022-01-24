@@ -4,7 +4,6 @@
 Date Created: 19/01/2022 18:21:52
 Tags: #Definition #Closed 
 
-Requires: [[Transitive Relation]], [[Reflexive Relation]]
 Constructions: [[Poset]], [[Total Order]], [[Lexicographical Order]]
 Generalizations: _Not Applicable_
 

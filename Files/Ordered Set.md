@@ -4,7 +4,6 @@
 Date Created: 24/01/2022 15:31:46
 Tags: #Definition #Closed 
 
-Requires: [[Total Order]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

@@ -4,7 +4,6 @@
 Date Created: 24/01/2022 15:36:57
 Tags: #Definition #Closed
 
-Requires: [[Upper Bound]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

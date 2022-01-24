@@ -5,7 +5,6 @@ Date Created: 23/01/2022 19:53:04
 Tags: #Proposition #Closed 
 
 Proved by: [[De Morgan's Laws]], [[Interection of finite sets is finite]], [[Finite union of finite sets is finite]]
-Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

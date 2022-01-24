@@ -4,7 +4,6 @@
 Date Created: 17/01/2022 19:19:48
 Tags: #Definition #Closed 
 
-Requires: [[Axiom of Power Set]], [[Set-Builder Notation]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

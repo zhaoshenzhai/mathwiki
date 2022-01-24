@@ -4,7 +4,6 @@
 Date Created: 24/01/2022 15:35:06
 Tags: #Definition #Closed 
 
-Requires: [[Poset]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

@@ -4,7 +4,6 @@
 Date Created: 19/01/2022 17:48:10
 Tags: #Definition #Closed 
 
-Requires: [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

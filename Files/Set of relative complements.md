@@ -4,7 +4,6 @@
 Date Created: 18/01/2022 16:58:16
 Tags: #Definition #Closed
 
-Requires: [[Relative Complement]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

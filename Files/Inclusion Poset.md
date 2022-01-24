@@ -4,7 +4,6 @@
 Date Created: 24/01/2022 16:19:33
 Tags: #Definition #Closed 
 
-Requires: [[Poset]], [[Power Set]], [[Subset]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

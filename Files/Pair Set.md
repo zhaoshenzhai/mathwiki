@@ -4,7 +4,6 @@
 Date Created: 17/01/2022 11:58:11
 Tags: #Definition #Closed
 
-Requires: [[Axiom of Pairing]], [[Set-Builder Notation]]
 Constructions: [[Singleton]], [[Ordered Pair]]
 Generalizations: _Not Applicable_
 

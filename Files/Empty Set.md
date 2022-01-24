@@ -4,7 +4,6 @@
 Date Created: 16/01/2022 13:44:18
 Tags: #Definition #Closed
 
-Requires: [[Empty (Formula)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

@@ -4,7 +4,6 @@
 Date Created: 24/01/2022 15:56:53
 Tags: #Definition #In_Progress
 
-Requires: [[Poset]], [[Supremum]], [[Infimum]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

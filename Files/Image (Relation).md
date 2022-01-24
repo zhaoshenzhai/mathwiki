@@ -4,7 +4,6 @@
 Date Created: 20/01/2022 09:50:24
 Tags: #Definition #Closed 
 
-Requires: [[Binary Relation]], [[Restriction (Relation)]], [[Domain and Range]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

@@ -5,7 +5,6 @@ Date Created: 17/01/2022 17:25:18
 Tags: #Proposition #Closed 
 
 Proved by: _Not Applicable_
-Proves: [[Set of unions and intersections are sets]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

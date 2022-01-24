@@ -4,7 +4,6 @@
 Date Created: 19/01/2022 18:23:39
 Tags: #Definition #Closed 
 
-Requires: [[Partial Order]], [[Connected Relation]]
 Constructions: [[Ordered Set]]
 Generalizations: _Not Applicable_
 

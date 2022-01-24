@@ -4,7 +4,6 @@
 Date Created: 23/01/2022 18:40:57
 Tags: #Definition #Closed 
 
-Requires: [[Subset]], [[Power Set]], [[Empty Set]], [[Union]], [[Intersection]], [[Finite Set]]
 Constructions: [[Topological Space]], [[Lattice of Topologies]]
 Generalizations: _Not Applicable_
 

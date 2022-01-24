@@ -4,7 +4,6 @@
 Date Created: 21/01/2022 11:22:20
 Tags: #Definition #Closed 
 
-Requires: [[Binary Relation]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

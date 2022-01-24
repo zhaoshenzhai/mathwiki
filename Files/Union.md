@@ -5,7 +5,6 @@ Date Created: 17/01/2022 13:00:40
 Tags: #Definition #Closed 
 
 
-Requires: [[Axiom of Union]], [[Set-Builder Notation]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

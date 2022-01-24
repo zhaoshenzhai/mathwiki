@@ -4,7 +4,6 @@
 Date Created: 14/01/2022 17:57:16
 Tags: #Definition #Closed 
 
-Requires: [[Ordered Pair]]
 Constructions: [[Domain and Range]], [[Function]], [[Restriction (Relation)]], [[Image (Relation)]], [[Inverse (Relation)]], [[Composition (Relation)]]
 Generalizations: _Not Applicable_
 
