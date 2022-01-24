@@ -7,8 +7,60 @@
         "id": "141f06d4e13d9708",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Files/Topology on a Set.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "8f0afa3a602a06f4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Lattice of Topologies.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "a8dda7d1c861bc5d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Lattice.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "1f07155f5a74fbd6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Complete Lattice.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "8fe00d8bbf7bb95f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Inclusion Poset.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -67,13 +119,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Files/Inclusion Poset.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -94,6 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Files/Inclusion Poset.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -106,17 +160,17 @@
     "width": 198.66122436523438,
     "collapsed": true
   },
-  "active": "141f06d4e13d9708",
+  "active": "8fe00d8bbf7bb95f",
   "lastOpenFiles": [
-    "Files/Subset.md",
-    "Files/Union of subsets is a subset.md",
-    "Files/Axiom of Pairing.md",
-    "Files/Reflexive Relation.md",
-    "Files/Pair Set.md",
-    "Files/Ordered Pair.md",
-    "Files/Binary Relation.md",
-    "Files/Partial Order.md",
+    "Files/Inclusion Poset.md",
+    "Files/Union.md",
+    "Files/Complete Lattice.md",
+    "Files/Lattice.md",
+    "Files/Lattice of Topologies.md",
     "Files/Poset.md",
-    "Files/Lower Bound.md"
+    "Files/Supremum.md",
+    "Files/Infimum.md",
+    "Files/Lower Bound.md",
+    "Files/Upper Bound.md"
   ]
 }

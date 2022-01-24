@@ -4,7 +4,7 @@
 Date Created: 24/01/2022 15:29:44
 Tags: #Definition #Closed 
 
-Constructions: [[Lower Bound]], [[Upper Bound]]
+Constructions: [[Lattice]], [[Lower Bound]], [[Upper Bound]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

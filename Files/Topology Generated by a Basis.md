@@ -4,7 +4,7 @@
 Date Created: 24/01/2022 10:45:00
 Tags: #Definition #Closed 
 
-Constructions: _Not Applicable_
+Constructions: [[Topology on a Set]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

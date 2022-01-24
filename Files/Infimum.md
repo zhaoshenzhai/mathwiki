@@ -17,4 +17,4 @@ Let $\l\langle X,<\r\rangle$ be a poset and fix $S\subseteq X$. The **infimum of
 
 --- admonition
 
-**Remark.** If $u$ is the infimum of $S$, write $u=\inf S$; index notation can also be used.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If $l$ is the infimum of $S$, write $\inf S\coloneqq l$. In the context of lattice theory, the infimum is also called the **meet of $S$** and is denoted by $\bigwedge S$.<span style="float:right;">$\blacklozenge$</span>

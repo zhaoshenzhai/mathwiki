@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Subset relation is transitive]], [[Power set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection is anti-monotone w.r.t. subsets]], [[Intersection of subsets is a subset]], [[Intersection with another set is monotone w.r.t. subsets]], [[Complement is anti-monotone w.r.t subsets]], [[Union of subsets is a subset]], [[Cartesian product is monotone w.r.t. subsets]]
+Properties: [[Subset relation is transitive]], [[Power set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection is anti-monotone w.r.t. subsets]], [[Intersection of subsets is a subset of intersection]], [[Intersection with another set is monotone w.r.t. subsets]], [[Complement is anti-monotone w.r.t subsets]], [[Union of subsets is a subset]], [[Cartesian product is monotone w.r.t. subsets]]
 
 !!! ad-Definition Definition.
 

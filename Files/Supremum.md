@@ -17,4 +17,4 @@ Let $\l\langle X,<\r\rangle$ be a poset and fix $S\subseteq X$. The **supremum o
 
 --- admonition
 
-**Remark.** If $u$ is the supremum of $S$, write $u=\sup S$; index notation can also be used.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If $u$ is the supremum of $S$, write $\sup S\coloneqq u$. In the context of lattice theory, the supremum is also called the **join of $S$** and is denoted by $\bigvee S$.<span style="float:right;">$\blacklozenge$</span>
