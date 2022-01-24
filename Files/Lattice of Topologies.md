@@ -15,7 +15,7 @@ Properties: [[Lattice of topologies is a lattice]], [[Criteria for fineness w.r.
 
 Let $X$ be a set. The **lattice of topologies on $X$** is the pair $\l\langle\Sigma,\subseteq\r\rangle$ where
 $$\begin{equation}
-    \Sigma\coloneqq\l\{\mc{T}\in\ms{P}\l(\ms{P}\l(X\r)\r)\mid\mc{T}\textrm{ is a topology on }X\r\}
+    \Sigma\coloneqq\l\{\mc{T}\in\mc{P}\l(\mc{P}\l(X\r)\r)\mid\mc{T}\textrm{ is a topology on }X\r\}
 \end{equation}$$
 is the set of all topologies on $X$.
 

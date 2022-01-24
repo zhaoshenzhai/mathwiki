@@ -13,7 +13,7 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. A **basis for a topology on $X$** is a set $\mc{B}\subseteq\ms{P}\l(X\r)$ satisfying
+Let $X$ be a set. A **basis for a topology on $X$** is a set $\mc{B}\subseteq\mc{P}\l(X\r)$ satisfying
 * $\axibasis{1}\bf{.}$ $\mc{B}$ covers $X$. That is, if
 $$\begin{equation}
     \fa x\in X,\ex B\in\mc{B}:x\in B.

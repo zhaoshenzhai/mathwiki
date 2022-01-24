@@ -20,4 +20,4 @@ $$\begin{equation}
 
 --- admonition
 
-**Remark.** This axiom does not directly define the $\textrm{`}$power set$\textrm{'}$ $\ms{P}u$ of $u$. Rather, it asserts the existence of some superset of the power set, from which the power set is then constructed from the Axiom Schema of Specification.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** This axiom does not directly define the $\textrm{`}$power set$\textrm{'}$ $\mc{P}u$ of $u$. Rather, it asserts the existence of some superset of the power set, from which the power set is then constructed from the Axiom Schema of Specification.<span style="float:right;">$\blacklozenge$</span>

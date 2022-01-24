@@ -18,10 +18,10 @@ $$\begin{equation}
 
 _Proof_. Let $\phi\l(f\r)$ denote the formula $f:X\to Y$; we claim that
 $$\begin{equation}
-    \phi\l(f\r)\Rightarrow x\in\ms{P}\l(X\times Y\r)
+    \phi\l(f\r)\Rightarrow x\in\mc{P}\l(X\times Y\r)
 \end{equation}$$
 To this end, take a function $f:X\to Y$. By definition, we have that $f$ is a binary relation with $\dom f=X$ and $\ran f\subseteq Y$. Observe that
 $$\begin{equation}
     f\subseteq\dom f\times\ran f\subseteq X\times Y,
 \end{equation}$$
-and thus $f\subseteq X\times Y$. It follows that $f\in\ms{P}\l(X\times Y\r)$.<span style="float:right;">$\blacksquare$</span>
+and thus $f\subseteq X\times Y$. It follows that $f\in\mc{P}\l(X\times Y\r)$.<span style="float:right;">$\blacksquare$</span>

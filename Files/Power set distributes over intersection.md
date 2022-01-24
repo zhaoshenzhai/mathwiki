@@ -9,17 +9,17 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-For all sets $A$ and $B$, we have $\ms{P}A\cap\ms{P}B=\ms{P}\l(A\cap B\r)$.
+For all sets $A$ and $B$, we have $\mc{P}A\cap\mc{P}B=\mc{P}\l(A\cap B\r)$.
 
 --- admonition
 
-_Proof_. Take $x\in\ms{P}A\cap\ms{P}B$. The result follows from the following chain of equivalences.
+_Proof_. Take $x\in\mc{P}A\cap\mc{P}B$. The result follows from the following chain of equivalences.
 $$\begin{alignat}{2}
-    x\in\ms{P}A\cap\ms{P}B&\Leftrightarrow x\in\ms{P}A\land x\in\ms{P}B&&\textrm{Definition of intersection}\\
+    x\in\mc{P}A\cap\mc{P}B&\Leftrightarrow x\in\mc{P}A\land x\in\mc{P}B&&\textrm{Definition of intersection}\\
     &\Leftrightarrow x\subseteq A\land x\subseteq B&&\textrm{Definition of power set}\\
     &\Leftrightarrow\fa z\l(z\in x\Rightarrow z\in A\r)\land\fa z\l(z\in x\Rightarrow z\in B\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of subset}\\
     &\Leftrightarrow\fa z\l[z\in x\Rightarrow\l(z\in A\land z\in B\r)\r]&&\textrm{Distribution of }\fa\textrm{ over }\land\\
     &\Leftrightarrow\fa z\l(z\in x\Rightarrow z\in A\cap B\r)&&\textrm{Definition of intersection}\\
     &\Leftrightarrow x\subseteq A\cap B&&\textrm{Definition of subset}\\
-    &\Leftrightarrow x\in\ms{P}\l(A\cap B\r).&&\textrm{Definition of power set}\qedin
+    &\Leftrightarrow x\in\mc{P}\l(A\cap B\r).&&\textrm{Definition of power set}\qedin
 \end{alignat}$$

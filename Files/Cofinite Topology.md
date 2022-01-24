@@ -15,7 +15,7 @@ Properties: [[Cofinite topology is a topology]]
 
 Let $X$ be a set. The **cofinite topology on $X$** is the topology
 $$\begin{equation}
-    \mc{T}_\textrm{cf}\coloneqq\l\{U\in\ms{P}\l(X\r)\mid\l(U=\em\r)\lor\l(X\comp U\textrm{ is finite}\r)\r\}.
+    \mc{T}_\textrm{cf}\coloneqq\l\{U\in\mc{P}\l(X\r)\mid\l(U=\em\r)\lor\l(X\comp U\textrm{ is finite}\r)\r\}.
 \end{equation}$$
 
 --- admonition

@@ -15,7 +15,7 @@ Let $X$ be a set. Then the trivial topology $\mc{T}_\textrm{trivial}=\l\{\em,X\r
 
 _Proof_. We verify the axioms for a topology on $X$:
 * ($\axi{Top1}$): This follows by definition.
-* ($\axi{Top2}$): Observe that $\l|\ms{P}\l(\l\{\em,X\r\}\r)\r|=2^{\l|\l\{\em,X\r\}\r|}=2^2=4$; we check the axiom for each subset:
+* ($\axi{Top2}$): Observe that $\l|\mc{P}\l(\l\{\em,X\r\}\r)\r|=2^{\l|\l\{\em,X\r\}\r|}=2^2=4$; we check the axiom for each subset:
     * For $\em$, we have $\bigcup\em=\em\in\mc{T}_\textrm{trivial}$.
     * For $\l\{\em\r\}$, we have $\bigcup\l\{\em\r\}=\em\in\mc{T}_\textrm{trivial}$ since no set $y$ satisfies $y\in\em$.
     * For $\l\{X\r\}$, we have $\bigcup\l\{X\r\}=X\in\mc{T}_\textrm{trivial}$ since $x\in\bigcup\l\{X\r\}\Leftrightarrow x\in X$.

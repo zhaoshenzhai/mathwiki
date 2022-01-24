@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Let $X$ be a set. The collection
 $$\begin{equation}
-    \mc{B}_\textrm{discrete}\coloneqq\l\{\l\{x\r\}\in\ms{P}\l(X\r)\mid x\in X\r\}
+    \mc{B}_\textrm{discrete}\coloneqq\l\{\l\{x\r\}\in\mc{P}\l(X\r)\mid x\in X\r\}
 \end{equation}$$
 is a basis for the discrete topology on $X$.
 
@@ -23,6 +23,6 @@ _Proof_. We first verify that $\mc{B}_\textrm{discrete}$ is indeed a basis for a
 
 Take any $U\in\mc{T}_\textrm{discrete}$ and observe that
 $$\begin{equation}
-    U=\bigcup\underbrace{\l\{\l\{x\r\}\in\ms{P}\l(X\r)\mid x\in U\r\}}_{\mathclap{\in\mc{B}_\textrm{discrete}}},
+    U=\bigcup\underbrace{\l\{\l\{x\r\}\in\mc{P}\l(X\r)\mid x\in U\r\}}_{\mathclap{\in\mc{B}_\textrm{discrete}}},
 \end{equation}$$
 so $U$ is a union of some subset of $\mc{B}_\textrm{discrete}$.<span style="float:right;">$\blacksquare$</span>

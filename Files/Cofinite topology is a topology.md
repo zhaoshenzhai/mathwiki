@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Let $X$ be a set. Then the cofinite topology
 $$\begin{equation}
-    \mc{T}_\textrm{cf}=\l\{U\in\ms{P}\l(X\r)\mid\l(U=\em\r)\lor\l(X\comp U\textrm{ is finite}\r)\r\}
+    \mc{T}_\textrm{cf}=\l\{U\in\mc{P}\l(X\r)\mid\l(U=\em\r)\lor\l(X\comp U\textrm{ is finite}\r)\r\}
 \end{equation}$$
 is a topology on $X$.
 

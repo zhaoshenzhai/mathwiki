@@ -13,8 +13,8 @@ Properties: [[Inclusion poset is a poset]]
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. The **inclusion poset on $X$** is the poset $\l\langle\ms{P}\l(X\r),\subseteq\r\rangle$.
+Let $X$ be a set. The **inclusion poset on $X$** is the poset $\l\langle\mc{P}\l(X\r),\subseteq\r\rangle$.
 
 --- admonition
 
-**Remark.** The pair $\l\langle\ms{P}\l(X\r),\subset\r\rangle$ is also called the inclusion poset on $X$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** The pair $\l\langle\mc{P}\l(X\r),\subset\r\rangle$ is also called the inclusion poset on $X$.<span style="float:right;">$\blacklozenge$</span>

@@ -13,6 +13,6 @@ Properties: [[Discrete topology is a topology]], [[Set of singletons is a basis 
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. The **discrete topology on $X$** is topology $\mc{T}_\textrm{discrete}\coloneqq\ms{P}\l(X\r)$.
+Let $X$ be a set. The **discrete topology on $X$** is topology $\mc{T}_\textrm{discrete}\coloneqq\mc{P}\l(X\r)$.
 
 --- admonition
