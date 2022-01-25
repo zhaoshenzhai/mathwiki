@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Supremum and infinmum are unique]]
+Properties: [[Supremum and infimum are unique]]
 
 !!! ad-Definition Definition.
 

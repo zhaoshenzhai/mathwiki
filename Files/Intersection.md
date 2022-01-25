@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Intersection of a set is a set]], [[Intersection of intersections is an intersection]], [[De Morgan's Laws]], [[Intersection is anti-monotone w.r.t. subsets ]], [[Intersection with another set is monotone w.r.t. subsets]], [[Intersection of subsets is a subset of intersection]], [[Power set distributes over intersection]], [[Intersection of empty set is a proper class]]
+Properties: [[Intersection of a set is a set]], [[Intersection of intersections is an intersection]], [[De Morgan's Laws]], [[Intersection is anti-monotone w.r.t. subsets ]], [[Intersection with another set is monotone w.r.t. subsets]], [[Element of set is a superset of its intersection]], [[Intersection of subsets is a subset of intersection]], [[Power set distributes over intersection]], [[Intersection of empty set is a proper class]]
 
 !!! ad-Definition Definition.
 

@@ -4,12 +4,12 @@
 Date Created: 15/01/2022 13:02:22
 Tags: #Definition #Open
 
-Constructions: [[Axiom of Power Set]]
+Constructions: [[Axiom of Power Set]], [[Lattice of Subsets]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Subset relation is transitive]], [[Power set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection is anti-monotone w.r.t. subsets]], [[Intersection of subsets is a subset of intersection]], [[Intersection with another set is monotone w.r.t. subsets]], [[Complement is anti-monotone w.r.t subsets]], [[Union of set of subsets is a subset]], [[Cartesian product is monotone w.r.t. subsets]]
+Properties: [[Subset relation is transitive]], [[Power set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Element of set is a superset of its intersection]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection is anti-monotone w.r.t. subsets]], [[Intersection of subsets is a subset of intersection]], [[Intersection with another set is monotone w.r.t. subsets]], [[Complement is anti-monotone w.r.t subsets]], [[Union of set of subsets is a subset]], [[Cartesian product is monotone w.r.t. subsets]]
 
 !!! ad-Definition Definition.
 

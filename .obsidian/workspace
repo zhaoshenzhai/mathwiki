@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c91bf73c567a1760",
+        "id": "73a521088c533d0c",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Trivial topology is the coarsest topology.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -41,7 +37,7 @@
               "type": "search",
               "state": {
                 "query": "tag:#In_Progress",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -71,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Trivial topology is the coarsest topology.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +94,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Trivial topology is the coarsest topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,20 +103,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 198.66122436523438,
+    "width": 202.66122436523438,
     "collapsed": true
   },
-  "active": "c91bf73c567a1760",
+  "active": "73a521088c533d0c",
   "lastOpenFiles": [
-    "Files/Trivial topology is the coarsest topology.md",
-    "Files/Criteria for fineness w.r.t bases.md",
-    "Files/Bounded Lattice.md",
-    "Files/Bottom (Lattice).md",
-    "Files/Top (Lattice).md",
-    "Files/Poset.md",
+    "Files/Image (Relation).md",
+    "Files/Function space is a set.md",
+    "Files/Upper Bound.md",
     "Files/Complete Lattice.md",
-    "Files/Lattice of Topologies.md",
+    "Files/Bounded Lattice.md",
+    "Files/Lattice of subsets is a complete lattice.md",
+    "Files/Lattice of Subsets.md",
     "Files/Lattice.md",
-    "Files/Join-semilattice.md"
+    "Files/Join-semilattice.md",
+    "Files/Supremum.md"
   ]
 }

@@ -7,8 +7,8 @@ Tags: #Definition #Closed
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: [[Lattice of Topologies]] 
+Types: [[Complete Lattice]]
+Examples: [[Lattice of Subsets]], [[Lattice of Topologies]] 
 Properties: _Not Applicable_
 
 !!! ad-Definition Definition.

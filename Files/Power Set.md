@@ -4,7 +4,7 @@
 Date Created: 17/01/2022 19:19:48
 Tags: #Definition #Closed 
 
-Constructions: _Not Applicable_
+Constructions: [[Lattice of Subsets]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

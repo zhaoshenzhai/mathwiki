@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Lattice of topologies is a lattice]], [[Lattice of topologies is a complete lattice]], [[Lattice of topologies is a bounded lattice]], [[Criteria for fineness w.r.t bases]]
+Properties: [[Lattice of topologies is a complete lattice]], [[Criteria for fineness w.r.t bases]]
 
 !!! ad-Definition Definition.
 

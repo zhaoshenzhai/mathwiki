@@ -4,7 +4,6 @@
 Date Created: 24/01/2022 18:59:05
 Tags: #Definition #Closed 
 
-Requires: [[Topology on a Set]]
 Constructions: [[Lattice of Topologies]]
 Generalizations: _Not Applicable_
 
