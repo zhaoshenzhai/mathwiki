@@ -7,7 +7,7 @@ Tags: #Definition #Closed
 Constructions: [[Domain and Range]], [[Function]], [[Restriction (Relation)]], [[Image (Relation)]], [[Inverse (Relation)]], [[Composition (Relation)]]
 Generalizations: _Not Applicable_
 
-Types: [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]], [[Asymmetric Relation]], [[Antisymmetric Relation]], [[Connected Relation]]
+Types: [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]], [[Antisymmetric Relation]], [[Connected Relation]]
 Examples: _Not Applicable_ 
 Properties: [[Binary relation iff subset of Cartesian product]]
 

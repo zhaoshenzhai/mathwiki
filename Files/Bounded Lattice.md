@@ -1,18 +1,18 @@
 <br />
 <br />
 
-Date Created: 24/01/2022 15:59:15
+Date Created: 25/01/2022 10:16:40
 Tags: #Definition #Closed 
 
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
-Examples: [[Lattice of Topologies]]
+Examples: [[Lattice of Topologies]] 
 Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-A lattice $\l\langle X,\leq\r\rangle$ is **complete** if every subset has a join and a meet.
+A lattice $\l\langle X,\leq\r\rangle$ is **bounded** if there exist $\top,\bot\in X$ such that $\fa x\in X:\bot\leq x\leq\top$.
 
 --- admonition

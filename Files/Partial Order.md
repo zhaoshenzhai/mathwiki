@@ -1,20 +1,20 @@
 <br />
 <br />
 
-Date Created: 19/01/2022 18:21:52
+Date Created: 25/01/2022 11:03:12
 Tags: #Definition #Closed 
 
-Constructions: [[Poset]], [[Total Order]], [[Lexicographical Order]]
+Constructions: [[Poset]], [[Total Order]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Examples: [[Lexicographical Order]]
 Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. A binary relation $R$ is a **partial order on $X$** if $R$ is transitive and irreflexive on $X$.
+Let $X$ be a set. A binary relation $\leq$ is a **partial order on $X$** if $\leq$ is transitive, reflexive, and antisymmetric on $X$.
 
 --- admonition
 
-**Remark.** Let $<$ be a partial order on a set $X$. Write $>\,\coloneqq\,<^{-1}$, $\leq\,\coloneqq\,<\cup\id_X$, and $\geq\,\coloneqq\,\leq^{-1}$. The relations $\leq$ and $\geq$ are called **non-strict partial orders on $X$** defined as transitive and reflexive binary relations on $X$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Write $<\,\coloneqq\,\leq\comp\id_X$, $\geq\,\coloneqq\,\leq^{-1}$, and $>\,\coloneqq\,\geq\comp\id_X$.<span style="float:right;">$\blacklozenge$</span>

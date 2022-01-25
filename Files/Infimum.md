@@ -13,7 +13,7 @@ Properties: [[Supremum and infinmum are unique]]
 
 !!! ad-Definition Definition.
 
-Let $\l\langle X,<\r\rangle$ be a poset and fix $S\subseteq X$. The **infimum of $S$ in $X$** is a lower bound $l$ of $S$ such that $x\leq l$ for all lower bounds $x$ of $S$.
+Let $\l\langle X,\leq\r\rangle$ be a poset and fix $S\subseteq X$. The **infimum of $S$ in $X$** is a lower bound $l$ of $S$ such that $x\leq l$ for all lower bounds $x$ of $S$.
 
 --- admonition
 

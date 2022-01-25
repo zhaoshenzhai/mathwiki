@@ -13,6 +13,6 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-A poset $\l\langle X,<\r\rangle$ is called a **join-semilattice** if every non-empty finite subset has a join.
+A poset $\l\langle X,\leq\r\rangle$ is called a **join-semilattice** if every non-empty finite subset has a join.
 
 --- admonition

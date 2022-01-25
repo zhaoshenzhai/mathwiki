@@ -13,6 +13,6 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-A poset $\l\langle X,<\r\rangle$ is called a **meet-semilattice** if every non-empty finite subset has a meet.
+A poset $\l\langle X,\leq\r\rangle$ is called a **meet-semilattice** if every non-empty finite subset has a meet.
 
 --- admonition

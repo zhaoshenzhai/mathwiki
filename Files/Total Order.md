@@ -13,6 +13,6 @@ Properties: [[Lexicographical order is total if orders are total]]
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. A binary relation $R$ is a **total order on $X$** if $R$ is connected and is a partial order on $X$.
+Let $X$ be a set. A binary relation $\leq$ is a **total order on $X$** if $\leq$ is connected and is a partial order on $X$.
 
 --- admonition

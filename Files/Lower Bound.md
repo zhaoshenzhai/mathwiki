@@ -13,6 +13,6 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $\l\langle X,<\r\rangle$ be a poset and fix $S\subseteq X$. A **lower bound of $S$ in $X$** is an element $l\in X$ such that $l\leq s$ for all $s\in S$. 
+Let $\l\langle X,\leq\r\rangle$ be a poset and fix $S\subseteq X$. A **lower bound of $S$ in $X$** is an element $l\in X$ such that $l\leq s$ for all $s\in S$. 
 
 --- admonition

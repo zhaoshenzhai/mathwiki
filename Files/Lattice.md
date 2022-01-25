@@ -7,12 +7,12 @@ Tags: #Definition #Closed
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: [[Complete Lattice]]
-Examples: _Not Applicable_
+Types: [[Complete Lattice]], [[Bounded Lattice]]
+Examples: [[Lattice of Topologies]]
 Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-A poset $\l\langle X,<\r\rangle$ is called a **lattice** if it is both a join and a meet semilattice.
+A poset $\l\langle X,\leq\r\rangle$ is called a **lattice** if it is both a join and a meet semilattice.
 
 --- admonition
