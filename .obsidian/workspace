@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "73a521088c533d0c",
+        "id": "a5b01988b48035b1",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Files/Function.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -50,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 178,
+    "width": 171,
     "collapsed": true
   },
   "right": {
@@ -67,13 +71,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Files/Function.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -94,8 +99,72 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Files/Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d4b0d5a79a303636",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "296eac95d6328696",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Files/Function.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [
+                    {
+                      "query": "tag:#Definition",
+                      "color": {
+                        "a": 1,
+                        "rgb": 6537198
+                      }
+                    },
+                    {
+                      "query": "tag:#Proposition",
+                      "color": {
+                        "a": 1,
+                        "rgb": 15099319
+                      }
+                    },
+                    {
+                      "query": "tag:#Axiom",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16342365
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -0.8,
+                  "nodeSizeMultiplier": 0.556775464834276,
+                  "lineSizeMultiplier": 1.95111661277284,
+                  "collapse-forces": false,
+                  "centerStrength": 0,
+                  "repelStrength": 0,
+                  "linkStrength": 1,
+                  "linkDistance": 30,
+                  "scale": 0.1908992502974327,
+                  "close": true
+                }
               }
             }
           }
@@ -103,20 +172,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.66122436523438,
+    "width": 299.6612243652344,
     "collapsed": true
   },
-  "active": "73a521088c533d0c",
+  "active": "a5b01988b48035b1",
   "lastOpenFiles": [
+    "Files/Function.md",
+    "Files/Ordered pair equal when components equal.md",
+    "Files/Axiom of Extensionality.md",
+    "Files/Lattice.md",
     "Files/Image (Relation).md",
     "Files/Function space is a set.md",
     "Files/Upper Bound.md",
     "Files/Complete Lattice.md",
     "Files/Bounded Lattice.md",
-    "Files/Lattice of subsets is a complete lattice.md",
-    "Files/Lattice of Subsets.md",
-    "Files/Lattice.md",
-    "Files/Join-semilattice.md",
-    "Files/Supremum.md"
+    "Files/Lattice of subsets is a complete lattice.md"
   ]
 }
