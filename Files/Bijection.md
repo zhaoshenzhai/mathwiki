@@ -17,4 +17,4 @@ A function $f:X\to Y$ is a **bijection** if $f:X\to Y$ is both an injection and 
 
 --- admonition
 
-**Remark.** If $f:X\to Y$ is a bijection, write $f:X\rightleftarrows Y$ or $f:X\simto Y$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If $f:X\to Y$ is a bijection (or a **bijective function**, or an **isomorphism between sets**), write $f:X\rightleftarrows Y$ or $f:X\simto Y$ and say that the sets $X$ and $Y$ are **in one-to-one correspondence** or **isomorphic**.<span style="float:right;">$\blacklozenge$</span>

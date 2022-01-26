@@ -8,7 +8,7 @@ Constructions: [[Lower Bound]], [[Upper Bound]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Inclusion Poset]]
 Properties: _Not Applicable_
 
 !!! ad-Definition Definition.

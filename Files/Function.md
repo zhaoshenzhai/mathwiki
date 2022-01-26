@@ -4,12 +4,12 @@
 Date Created: 14/01/2022 14:25:20
 Tags: #Definition #Closed 
 
-Constructions: [[Function Space (Set)]]
+Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Inverse (Function)]], [[Function Space (Set)]]
 Generalizations: _Not Applicable_
 
 Types: [[Injection]], [[Surjection]]
-Examples: [[Identity Function]]
-Properties: [[Replacement image implies function iff Replacement]], [[Composition of functions is a function]]
+Examples: [[Identity Function]], [[Inclusion Function]]
+Properties: [[Replacement image implies function iff Replacement]]
 
 !!! ad-Definition Definition.
 

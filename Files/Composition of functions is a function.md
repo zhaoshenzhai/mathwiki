@@ -29,7 +29,3 @@ $$\begin{equation}
     \l\langle x,y\r\rangle\in f\land\l\langle y,z\r\rangle\in g\ \ \ \ \textrm{and}\ \ \ \ \l\langle x,y'\r\rangle\in f\land\l\langle y',z'\r\rangle\in g.
 \end{equation}$$
 Since $f$ is a function, we have that $y=y'$. Similarly, $g$ is a function, so $z=z'$. If we write $y=f\l(x\r)$ and $z=g\l(y\r)$, we have $\l(g\circ f\r)\l(x\r)=g\l(f\l(x\r)\r)$.<span style="float:right;">$\blacksquare$</span>
-
----
-
-**Remark.** If $\ran f\subseteq\dom g$, we see that $\dom\l(g\circ f\r)=\dom f$ and thus $g\circ f:X\to Z$.<span style="float:right;">$\blacklozenge$</span>

@@ -4,7 +4,7 @@
 Date Created: 14/01/2022 17:57:16
 Tags: #Definition #Closed 
 
-Constructions: [[Domain and Range]], [[Function]], [[Restriction (Relation)]], [[Image (Relation)]], [[Inverse (Relation)]], [[Composition (Relation)]]
+Constructions: [[Domain and Range]], [[Function]], [[Restriction (Relation)]], [[Image (Relation)]], [[Inverse (Relation)]], [[Preimage (Relation)]], [[Composition (Relation)]]
 Generalizations: _Not Applicable_
 
 Types: [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]], [[Antisymmetric Relation]], [[Connected Relation]]

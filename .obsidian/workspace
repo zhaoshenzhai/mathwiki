@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a5b01988b48035b1",
+        "id": "35b97b1fce8dd054",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Function.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -71,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Function.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +94,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,11 +111,10 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Function.md",
                 "options": {
-                  "collapse-filter": true,
+                  "collapse-filter": false,
                   "search": "",
-                  "localJumps": 2,
+                  "localJumps": 3,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -153,16 +146,16 @@
                     }
                   ],
                   "collapse-display": true,
-                  "showArrow": true,
+                  "showArrow": false,
                   "textFadeMultiplier": -0.8,
                   "nodeSizeMultiplier": 0.556775464834276,
                   "lineSizeMultiplier": 1.95111661277284,
-                  "collapse-forces": false,
+                  "collapse-forces": true,
                   "centerStrength": 0,
-                  "repelStrength": 0,
+                  "repelStrength": 11.484438156831,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.1908992502974327,
+                  "scale": 1.0057443565400686,
                   "close": true
                 }
               }
@@ -172,20 +165,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.6612243652344,
+    "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "a5b01988b48035b1",
+  "active": "35b97b1fce8dd054",
   "lastOpenFiles": [
+    "Files/Bijection.md",
+    "Files/Injection.md",
+    "Files/Restriction (Function).md",
+    "Files/Inverse (Function).md",
+    "Files/Inclusion Function.md",
     "Files/Function.md",
-    "Files/Ordered pair equal when components equal.md",
-    "Files/Axiom of Extensionality.md",
-    "Files/Lattice.md",
-    "Files/Image (Relation).md",
-    "Files/Function space is a set.md",
-    "Files/Upper Bound.md",
-    "Files/Complete Lattice.md",
-    "Files/Bounded Lattice.md",
-    "Files/Lattice of subsets is a complete lattice.md"
+    "Files/Identity Function.md",
+    "Files/Composition (Function).md",
+    "Files/Inverse (Relation).md",
+    "Files/Composition of functions is a function.md"
   ]
 }

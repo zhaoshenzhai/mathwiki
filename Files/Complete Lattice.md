@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: [[Lattice of Subsets]], [[Lattice of Topologies]]
-Properties: _Not Applicable_
+Properties: [[Complete lattices are bounded]]
 
 !!! ad-Definition Definition.
 

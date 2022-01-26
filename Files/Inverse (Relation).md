@@ -4,7 +4,7 @@
 Date Created: 21/01/2022 11:22:20
 Tags: #Definition #Closed 
 
-Constructions: _Not Applicable_
+Constructions: [[Preimage (Relation)]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

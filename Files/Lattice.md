@@ -7,7 +7,7 @@ Tags: #Definition #Closed
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: [[Bounded Lattice]]
+Types: [[Bounded Lattice]], [[Complete Lattice]]
 Examples: [[Lattice of Subsets]], [[Lattice of Topologies]]
 Properties: _Not Applicable_
 
