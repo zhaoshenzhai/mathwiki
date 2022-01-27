@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "35b97b1fce8dd054",
+        "id": "ba23c7c3cad9f54a",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -121,7 +121,7 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": true,
+                  "collapse-color-groups": false,
                   "colorGroups": [
                     {
                       "query": "tag:#Definition",
@@ -155,7 +155,7 @@
                   "repelStrength": 11.484438156831,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 1.0057443565400686,
+                  "scale": 0.22540969859889012,
                   "close": true
                 }
               }
@@ -168,17 +168,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "35b97b1fce8dd054",
+  "active": "ba23c7c3cad9f54a",
   "lastOpenFiles": [
+    "Files/Subset.md",
     "Files/Bijection.md",
-    "Files/Injection.md",
-    "Files/Restriction (Function).md",
-    "Files/Inverse (Function).md",
-    "Files/Inclusion Function.md",
+    "Files/Composition of bijections is a bijection.md",
+    "Files/Inverse of composition of relations.md",
     "Files/Function.md",
-    "Files/Identity Function.md",
-    "Files/Composition (Function).md",
     "Files/Inverse (Relation).md",
+    "Files/Inverse (Function).md",
+    "Files/(Right inverse iff surjection) iff Choice.md",
+    "Files/Inverse of bijection is a bijection.md",
     "Files/Composition of functions is a function.md"
   ]
 }

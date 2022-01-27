@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Identity function is a function]]
+Properties: [[Identity function is a function]], [[Identity function is a bijection]], [[Composition with identity function is the function itself]]
 
 !!! ad-Definition Definition.
 

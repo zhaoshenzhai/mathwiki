@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: [[Composition of relations is a relation]], [[Inverse of composition of relations]]
+Properties: [[Composition of relations is a relation]], [[Inverse of composition of relations]], [[Composition of relations is associative]]
 
 !!! ad-Definition Definition.
 

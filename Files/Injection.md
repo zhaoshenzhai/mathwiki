@@ -8,8 +8,8 @@ Constructions: [[Bijection]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Properties: _Not Applicable_
+Examples: [[Inclusion function is an injection]] 
+Properties: [[Left inverse iff injection]]
 
 !!! ad-Definition Definition.
 

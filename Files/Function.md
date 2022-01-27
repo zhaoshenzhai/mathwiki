@@ -4,12 +4,12 @@
 Date Created: 14/01/2022 14:25:20
 Tags: #Definition #Closed 
 
-Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Inverse (Function)]], [[Function Space (Set)]]
+Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Left Inverse (Function)]], [[Right Inverse (Function)]], [[Function Space (Set)]]
 Generalizations: _Not Applicable_
 
 Types: [[Injection]], [[Surjection]]
 Examples: [[Identity Function]], [[Inclusion Function]]
-Properties: [[Replacement image implies function iff Replacement]]
+Properties: [[Criteria for equality of functions]], [[Replacement image implies function iff Replacement]]
 
 !!! ad-Definition Definition.
 

@@ -8,8 +8,8 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Properties: _Not Applicable_
+Examples: [[Identity function is a bijection]] 
+Properties: [[Invertible iff bijective]], [[Inverse of bijection is a bijection]], [[Composition of bijections is a bijection]]
 
 !!! ad-Definition Definition.
 

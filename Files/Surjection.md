@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: _Not Applicable_
+Properties: [[(Right inverse iff surjection) iff Choice]]
 
 !!! ad-Definition Definition.
 
