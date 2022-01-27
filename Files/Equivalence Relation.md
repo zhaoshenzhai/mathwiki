@@ -8,7 +8,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Examples: [[Isomorphism of sets is an equivalence relation]]
 Properties: _Not Applicable_
 
 !!! ad-Definition Definition.

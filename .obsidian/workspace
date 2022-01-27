@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ba23c7c3cad9f54a",
+        "id": "7f604b4761cb2449",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Files/Function.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -67,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Files/Function.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,6 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Files/Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Files/Function.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -168,17 +175,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "ba23c7c3cad9f54a",
+  "active": "7f604b4761cb2449",
   "lastOpenFiles": [
-    "Files/Subset.md",
-    "Files/Bijection.md",
-    "Files/Composition of bijections is a bijection.md",
-    "Files/Inverse of composition of relations.md",
     "Files/Function.md",
-    "Files/Inverse (Relation).md",
-    "Files/Inverse (Function).md",
-    "Files/(Right inverse iff surjection) iff Choice.md",
-    "Files/Inverse of bijection is a bijection.md",
-    "Files/Composition of functions is a function.md"
+    "Files/Isomorphism of sets is an equivalence relation.md",
+    "Files/Intersection of subsets is a subset of intersection.md",
+    "Files/Binary Relation.md",
+    "Files/Class.md",
+    "Files/Subbasis (Topology).md",
+    "Files/Bijection.md",
+    "Files/Equivalence Relation.md",
+    "Files/Subset.md",
+    "Files/Composition of bijections is a bijection.md"
   ]
 }
