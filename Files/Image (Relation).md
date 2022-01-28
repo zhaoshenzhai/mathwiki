@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Properties: _Not Applicable_
+Properties: [[Image of union is union of images]], [[Image of intersection subset of intersection of images; equal iff injection]], [[Complement of images subset of image of complement; equal if injection]]
 
 !!! ad-Definition Definition.
 
@@ -20,4 +20,4 @@ $$\begin{equation}
 
 --- admonition
 
-**Remark.** Expanding, we see that $\im_R\l(S\r)=\l\{y\mid\ex x\in S:xRy\r\}$. Observe that $\im_R\l(\dom R\r)=\ran R$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Expanding, we see that $\im_R\l(S\r)=\l\{y\mid\ex x\in S:xRy\r\}$. Usually, the set $S$ is a subset of $\dom R$. Observe that $\im_R\l(\dom R\r)=\ran R$.<span style="float:right;">$\blacklozenge$</span>

@@ -23,3 +23,13 @@ $$\begin{equation}
 \end{equation}$$
 
 --- admonition
+
+**Remark.** Note that $\l.f\r|_S$ is also the restriction of $f$, _viewed as a relation_, since
+$$\begin{align}
+    \l.f\r|_S&=\l\{z\mid\ex x\in S:x=\l\langle x,f\l(x\r)\r\rangle\r\}\\
+    &=\l\{z\mid\ex x:x\in S\land z=\l\langle x,f\l(x\r)\r\rangle\r\}\\
+    &=\l\{z\mid\ex x:z=\l\langle x,f\l(x\r)\r\rangle\land x\in S\r\}\\
+    &=\l\{z\mid\ex x,y:z=\l\langle x,y\r\rangle\land z\in f\land x\in S\r\}\\
+    &=\l\{z\in f\mid\ex x,y:z=\l\langle x,y\r\rangle\land x\in S\r\}\\
+    &=f\rest S.\exqedin
+\end{align}$$

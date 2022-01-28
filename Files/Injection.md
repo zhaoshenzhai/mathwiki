@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: [[Inclusion function is an injection]] 
-Properties: [[Left inverse iff injection]]
+Properties: [[Left inverse iff injection]], [[Image of intersection subset of intersection of images; equal iff injection]], [[Complement of images subset of image of complement; equal if injection]]
 
 !!! ad-Definition Definition.
 

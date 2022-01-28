@@ -8,7 +8,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
-Examples: [[Collection of all sets is a proper class]], [[Intersection of empty set is a proper class]], [[Absolute complement of a set is a proper class]] 
+Examples: [[Collection of all sets is a proper class]], [[Intersection of empty set is a proper class]], [[Absolute complement of a set is a proper class]], [[Collection of all functions is a proper class]]
 Properties: _Not Applicable_
 
 !!! ad-Definition Definition (Informal).

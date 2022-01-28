@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: [[Injection]], [[Surjection]]
 Examples: [[Identity Function]], [[Inclusion Function]]
-Properties: [[Criteria for equality of functions]], [[Replacement image implies function iff Replacement]]
+Properties: [[Criteria for equality of functions]], [[Replacement image implies function iff Replacement]], [[Collection of all functions is a proper class]]
 
 !!! ad-Definition Definition.
 
