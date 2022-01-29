@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "889e17c4e96dc068",
+        "id": "91742eb72175fc6c",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
@@ -73,7 +73,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -112,7 +112,7 @@
               "type": "localgraph",
               "state": {
                 "options": {
-                  "collapse-filter": false,
+                  "collapse-filter": true,
                   "search": "",
                   "localJumps": 3,
                   "localBacklinks": true,
@@ -121,7 +121,7 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": false,
+                  "collapse-color-groups": true,
                   "colorGroups": [
                     {
                       "query": "tag:#Definition",
@@ -143,6 +143,13 @@
                         "a": 1,
                         "rgb": 16342365
                       }
+                    },
+                    {
+                      "query": "tag:#Theorem",
+                      "color": {
+                        "a": 1,
+                        "rgb": 6683493
+                      }
                     }
                   ],
                   "collapse-display": true,
@@ -155,7 +162,7 @@
                   "repelStrength": 11.484438156831,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.3384853419827449,
+                  "scale": 0.30331555031976637,
                   "close": true
                 }
               }
@@ -168,17 +175,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "889e17c4e96dc068",
+  "active": "91742eb72175fc6c",
   "lastOpenFiles": [
-    "Files/Collection of all singletons is a proper class.md",
+    "Files/Cartesian Product (Arbitrary).md",
+    "Files/Empty product is singleton of empty set.md",
+    "Files/Indexed Family.md",
+    "Files/Tuple.md",
+    "Files/Function Space (Set).md",
+    "Files/Function Space constructed from a Cartesian product.md",
+    "Files/Function space is a set.md",
     "Files/Function.md",
-    "Files/Collection of all functions is a proper class.md",
-    "Files/Axiom Schema of Specification.md",
-    "Files/Class.md",
-    "Files/Ordered Pair.md",
-    "Files/Singleton.md",
-    "Files/Collection of all sets is a proper class.md",
-    "Files/Ordered Set.md",
-    "Files/Function Space (Set).md"
+    "Files/Canonical Projection.md",
+    "Files/Inclusion function is an injection.md"
   ]
 }

@@ -8,7 +8,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
-Examples: [[Subbasis (Topology)]], [[Basis (Topology)]] 
+Examples: [[Subbasis (Topology)]], [[Basis (Topology)]], [[Partition (Set)]]
 Properties: _Not Applicable_
 
 !!! ad-Definition Definition.

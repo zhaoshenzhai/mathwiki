@@ -5,7 +5,7 @@ Date Created: 14/01/2022 18:07:19
 Tags: #Definition #Closed  
 
 Constructions: [[Binary Relation]]
-Generalizations: _Not Applicable_
+Generalizations: [[Tuple]]
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 

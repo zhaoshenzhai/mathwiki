@@ -221,5 +221,13 @@
       ],
       "key": "R"
     }
+  ],
+  "obsidian-mind-map:app:markmap-preview": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "M"
+    }
   ]
 }

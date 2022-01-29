@@ -22,6 +22,13 @@
       }
     },
     {
+      "query": "tag:#Theorem",
+      "color": {
+        "a": 1,
+        "rgb": 6683493
+      }
+    },
+    {
       "query": "tag:#Axiom",
       "color": {
         "a": 1,
@@ -31,14 +38,14 @@
   ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": -1.6,
-  "nodeSizeMultiplier": 0.869709983831851,
-  "lineSizeMultiplier": 3.11966956345998,
-  "collapse-forces": false,
-  "centerStrength": 0.121513742926435,
-  "repelStrength": 13.4246160064673,
+  "textFadeMultiplier": -1.7,
+  "nodeSizeMultiplier": 0.916996766370251,
+  "lineSizeMultiplier": 2.45394098625707,
+  "collapse-forces": true,
+  "centerStrength": 0.102061438965238,
+  "repelStrength": 11.4197655618432,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.14379293118899691,
+  "scale": 0.06934858109412471,
   "close": true
 }

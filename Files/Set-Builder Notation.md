@@ -20,8 +20,16 @@ $$\begin{equation}
 
 --- admonition
 
+**Remark.** In particular, observe that $\fa x\l(x\in z\Rightarrow x\in v\r)$. Hence $z\subseteq v$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 **Remark.** To construct a set $z$ whose elements $x$ are exactly the ones satisfying a certain property $\phi\l(x\r)$, we must show that there exists some set $v$ such that $\phi\l(x\r)\Rightarrow x\in v$ for then the Axiom Schema of Specification shows that $z$ is indeed a set.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** In particular, observe that $\fa x\l(x\in z\Rightarrow x\in v\r)$. Hence $z\subseteq v$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** It is convenient to introduce the notation
+$$\begin{equation}
+    \l\{\psi\l(x_1,\dots,x_2\r)\mid\phi\l(x\r)\r\}\coloneqq\l\{x\mid\ex x_1,\dots,x_n:x=\psi\l(x_1,\dots,x_2\r)\land\phi\l(x\r)\r\}
+\end{equation}$$
+where $\psi\l(x_1,\dots,x_n\r)$ is some pre-defined expression involving the sets $x_1,\dots,x_n$.<span style="float:right;">$\blacklozenge$</span>

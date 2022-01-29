@@ -5,7 +5,7 @@ Date Created: 20/01/2022 13:11:23
 Tags: #Definition #Closed
 
 Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Generalizations: [[Cartesian Product (Arbitrary)]]
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 

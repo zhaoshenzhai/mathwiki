@@ -1,0 +1,29 @@
+<br />
+<br />
+
+Date Created: 29/01/2022 16:16:37
+Tags: #Definition #Closed 
+
+Constructions: [[Relation Induced by a Partition]]
+Generalizations: _Not Applicable_
+
+Types: _Not Applicable_
+Examples: _Not Applicable_
+Properties: [[Fundamental Theorem of Equivalence Relations]]
+
+!!! ad-Definition Definition.
+
+Let $X$ be a set. A **partition of $X$** is a set $\Pi\subseteq\mc{P}\l(X\r)$ satisfying:
+* $\axipartition{1}\bf{.}$ Elements of $\Pi$ are nonempty: $\fa P\in\Pi:P\neq\em$.
+* $\axipartition{2}\bf{.}$ Elements of $\Pi$ are disjoint:
+$$\begin{equation}
+    \fa P,Q\in\Pi:P\neq Q\Rightarrow P\cap Q=\em.
+\end{equation}$$
+* $\axipartition{3}\bf{.}$ $\Pi$ covers $X$: $X\subseteq\bigcup\Pi$.
+
+--- admonition
+
+**Remark.** The condition $\Pi\subseteq\mc{P}\l(X\r)$, along with $\axipartition{3}$, implies that $X=\bigcup\Pi$; observe that
+$$\begin{equation}
+    \bigcup\Pi\subseteq\bigcup\mc{P}\l(X\r)=X.\exqedin
+\end{equation}$$

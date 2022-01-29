@@ -8,7 +8,7 @@ Constructions: [[Bijection]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Examples: [[Canonical Projection]]
 Properties: [[(Right inverse iff surjection) iff Choice]]
 
 !!! ad-Definition Definition.

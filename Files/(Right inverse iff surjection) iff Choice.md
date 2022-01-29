@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $f:X\to Y$ with $X\neq\em$. Then $f$ has a left inverse iff $f$ is surjective.
+Let $f:X\to Y$ with $X\neq\em$. Then $f$ has a right inverse iff $f$ is surjective.
 
 --- admonition
 

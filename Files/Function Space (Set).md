@@ -8,8 +8,8 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Properties: [[Function space is a set]]
+Examples: [[Tuple]]
+Properties: [[Function space is a set]], [[Function Space constructed from a Cartesian product]]
 
 !!! ad-Definition Definition.
 

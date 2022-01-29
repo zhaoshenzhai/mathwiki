@@ -7,7 +7,7 @@ Tags: #Proposition  #Open
 Proved by: [[Negation of universal quantifier]]
 Generalizations: _Not Applicable_
 
-!!! ad-Theorem Theorem.
+!!! ad-Proposition Proposition.
 
 Let $v$ and $U$ be sets with $U\neq\em$. Then
 $$\begin{equation}

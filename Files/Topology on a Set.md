@@ -17,7 +17,7 @@ Let $X$ be a set. A **topology on $X$** is a set $\mc{T}\subseteq\mc{P}\l(X\r)$ 
 * $\axitop{1}\bf{.}$ $\em\in\mc{T}$ and $X\in\mc{T}$.
 * $\axitop{2}\bf{.}$ Arbitrary unions of elements of $\mc{T}$ are in $\mc{T}$:
 $$\begin{equation}
-    \fa\mc{U}\subseteq\mc{T}:\bigcup\mc{U}\in\mc{T}
+    \fa\mc{U}\subseteq\mc{T}:\bigcup\mc{U}\in\mc{T}.
 \end{equation}$$
 * $\axitop{3}\bf{.}$ Finite intersections of elements of $\mc{T}$ are in $\mc{T}$:
 $$\begin{equation}
