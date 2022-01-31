@@ -4,7 +4,7 @@
 Date Created: 14/01/2022 18:07:19
 Tags: #Definition #Closed  
 
-Constructions: [[Binary Relation]]
+Constructions: [[Binary Relation]], [[Cartesian Product (Kuratowski)]]
 Generalizations: [[Tuple]]
 
 Types: _Not Applicable_

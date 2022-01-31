@@ -13,8 +13,10 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $X$ and $I=\l\{1,\dots,n\r\}$ be sets. Elements of the function space $X^n\coloneqq X^I$ are called **$n$-tuples** and are written as $\l\langle x_1,\dots,x_n\r\rangle$ where each $x_i\in X$.
+Let $\l\{X_i\r\}_{i\in I}$ be an indexed family.
+* An **$I$-tuple in $\l\{X_i\r\}_{i\in I}$** is an element $f\in\prod_{i\in I}X_i$; in this case, write $\l\langle x_i\r\rangle_{i\in I}\coloneqq f$ so that $x_i\in X_i$ for all $i\in I$.
+* If there exists a set $X$ such that $X_i=X$ for all $i\in I$, then an **$I$-tuple in $X$** is an element $f\in X^I$.
+    * If $I=\omega$, write $\l\langle x_0,x_1,x_2,\dots\r\rangle\coloneqq f\in X^\omega$. Similarly if $I=\mb{N}$.
+    * If $I=n$ for some $n\in\mb{N}$, write $\l\langle x_0,\dots,x_{n-1}\r\rangle\coloneqq f\in X^n$ or, more commonly, $\l\langle x_1,\dots,x_n\r\rangle\coloneqq\l\langle x_0,\dots,x_{n-1}\r\rangle$.
 
 --- admonition
-
-**Remark.** The notation $X^n\coloneqq X^I$ is in fact an equality if we defined this more set-theoretically since $I=\l\{0,\dots, n-1\r\}=n$.<span style="float:right;">$\blacklozenge$</span>

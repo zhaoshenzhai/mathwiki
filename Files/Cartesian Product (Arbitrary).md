@@ -4,7 +4,7 @@
 Date Created: 29/01/2022 10:31:01
 Tags: #Definition #Closed 
 
-Constructions: _Not Applicable_
+Constructions: [[Projection Maps (Arbitrary)]], [[Tuple]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

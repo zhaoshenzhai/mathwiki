@@ -4,7 +4,7 @@
 Date Created: 19/01/2022 16:57:32
 Tags: #Proposition #Open 
 
-Proved by: [[Collection of all sets is a proper class]]
+Proved by: [[Universal set is a proper class]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

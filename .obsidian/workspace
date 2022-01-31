@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "91742eb72175fc6c",
+        "id": "71c372f21850519d",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -162,7 +162,7 @@
                   "repelStrength": 11.484438156831,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.30331555031976637,
+                  "scale": 0.5563449340913309,
                   "close": true
                 }
               }
@@ -175,17 +175,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "91742eb72175fc6c",
+  "active": "71c372f21850519d",
   "lastOpenFiles": [
-    "Files/Cartesian Product (Arbitrary).md",
-    "Files/Empty product is singleton of empty set.md",
-    "Files/Indexed Family.md",
-    "Files/Tuple.md",
-    "Files/Function Space (Set).md",
-    "Files/Function Space constructed from a Cartesian product.md",
-    "Files/Function space is a set.md",
-    "Files/Function.md",
-    "Files/Canonical Projection.md",
-    "Files/Inclusion function is an injection.md"
+    "Files/Ordinal Successor.md",
+    "Files/Ordinal successor is the next smallest ordinal.md",
+    "Files/Ordinal (von Neumann).md",
+    "Files/Class of Ordinals.md",
+    "Files/ON is well-ordered by membership.md",
+    "Files/ON is a proper class.md",
+    "Files/ON is a transitive class.md",
+    "Files/Well-ordered Relation.md",
+    "Files/Universal set is a proper class.md",
+    "Files/Universal Class.md"
   ]
 }

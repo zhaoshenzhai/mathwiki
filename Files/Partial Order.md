@@ -17,4 +17,4 @@ Let $X$ be a set. A binary relation $\leq$ is a **partial order on $X$** if $\le
 
 --- admonition
 
-**Remark.** Write $<\,\coloneqq\,\leq\comp\id_X$, $\geq\,\coloneqq\,\leq^{-1}$, and $>\,\coloneqq\,\geq\comp\id_X$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Write $\geq\,\coloneqq\,\leq^{-1}$.<span style="float:right;">$\blacklozenge$</span>

@@ -4,7 +4,7 @@
 Date Created: 20/01/2022 13:11:23
 Tags: #Definition #Closed
 
-Constructions: _Not Applicable_
+Constructions: [[Projection Maps (Kuratowski)]]
 Generalizations: [[Cartesian Product (Arbitrary)]]
 
 Types: _Not Applicable_

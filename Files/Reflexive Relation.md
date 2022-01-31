@@ -4,7 +4,7 @@
 Date Created: 19/01/2022 17:36:50
 Tags: #Definition #Closed
 
-Constructions: [[Equivalence Relation]], [[Partial Order]]
+Constructions: [[Irreflexive Relation]], [[Equivalence Relation]], [[Partial Order]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
@@ -19,5 +19,3 @@ $$\begin{equation}
 \end{equation}$$
 
 --- admonition
-
-**Remark.** If $R$ is a binary relation but is not reflexive, then $R$ is said to be **irreflexive**.<span style="float:right;">$\blacklozenge$</span>

@@ -4,7 +4,7 @@
 Date Created: 19/01/2022 17:36:50
 Tags: #Definition #Closed
 
-Constructions: [[Equivalence Relation]], [[Partial Order]]
+Constructions: [[Equivalence Relation]], [[Partial Order]], [[Strict Partial Order]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

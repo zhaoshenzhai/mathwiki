@@ -4,7 +4,7 @@
 Date Created: 19/01/2022 17:45:32
 Tags: #Definition #Closed 
 
-Constructions: [[Total Order]]
+Constructions: [[Total Order]], [[Strict Total Order]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
