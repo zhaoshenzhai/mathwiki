@@ -4,7 +4,7 @@
 Date Created: 30/01/2022 18:58:15
 Tags: #Definition #Closed 
 
-Constructions: [[Class of Ordinals]], [[Ordinal Successor]]
+Constructions: [[Class of Ordinals]], [[Successor of an Ordinal]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

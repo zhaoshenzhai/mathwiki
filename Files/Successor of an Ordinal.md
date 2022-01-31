@@ -9,10 +9,10 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Properties: [[Ordinal successor is the next smallest ordinal]]
+Properties: [[Successor of an ordinal is the next smallest ordinal]]
 
 !!! ad-Definition Definition.
 
-Let $\alpha$ be an ordinal. The **successor ordinal of $\alpha$** is the ordinal $S\l(\alpha\r)\coloneqq\alpha\cup\l\{\alpha\r\}$.
+Let $\alpha$ be an ordinal. The **successor of $\alpha$** is the ordinal $S\l(\alpha\r)\coloneqq\alpha\cup\l\{\alpha\r\}$.
 
 --- admonition

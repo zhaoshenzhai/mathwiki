@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "71c372f21850519d",
+        "id": "4a5c256cc8c2b5ce",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
@@ -162,7 +162,7 @@
                   "repelStrength": 11.484438156831,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.5563449340913309,
+                  "scale": 0.20727079992836708,
                   "close": true
                 }
               }
@@ -175,17 +175,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "71c372f21850519d",
+  "active": "4a5c256cc8c2b5ce",
   "lastOpenFiles": [
-    "Files/Ordinal Successor.md",
-    "Files/Ordinal successor is the next smallest ordinal.md",
     "Files/Ordinal (von Neumann).md",
-    "Files/Class of Ordinals.md",
+    "Files/Successor of an ordinal is the next smallest ordinal.md",
+    "Files/Successor of an Ordinal.md",
+    "Files/Subset relation is transitive.md",
+    "Files/Well-ordering well-orders subsets.md",
+    "Files/Reflxeive closure of ordering on ordinals.md",
+    "Files/Intersection of ordinals is an ordinal.md",
     "Files/ON is well-ordered by membership.md",
     "Files/ON is a proper class.md",
-    "Files/ON is a transitive class.md",
-    "Files/Well-ordered Relation.md",
-    "Files/Universal set is a proper class.md",
-    "Files/Universal Class.md"
+    "Files/Transitive Set.md"
   ]
 }
