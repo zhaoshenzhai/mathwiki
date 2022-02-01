@@ -8,7 +8,7 @@ Constructions: [[Reflexive Relation]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
-Examples: [[Lexicographical order is reflexive closure of strict lexicographical order]]
+Examples: [[Lexicographical order is reflexive closure of strict lexicographical order]], [[Reflexive closure of ordering on ordinals]]
 Properties: [[Reflexive closure is the smallest reflexive relation]], [[Reflexive closure of connected relation is connected]], [[Reflexive closure of strict orders is non-strict]]
 
 !!! ad-Definition Definition.

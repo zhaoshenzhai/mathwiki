@@ -4,7 +4,7 @@
 Date Created: 31/01/2022 12:28:22
 Tags: #Proposition #Closed 
 
-Proved by: [[Intersection of ordinals is an ordinal]], [[Reflxeive closure of ordering on ordinals]]
+Proved by: [[Intersection of ordinals is an ordinal]], [[Reflexive closure of ordering on ordinals]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
