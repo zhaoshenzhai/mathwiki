@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: [[Union of empty set is empty]]
-Properties: [[Union of unions is a union]], [[De Morgan's Laws]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Union of set of subsets is a subset]]
+Properties: [[Union of unions is a union]], [[De Morgan's Laws]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Union of subsets is a subset of union]], [[Element of set is a subset of its union]], [[Union of set of subsets is a subset]]
 
 !!! ad-Definition Definition.
 

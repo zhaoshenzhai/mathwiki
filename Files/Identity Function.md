@@ -4,7 +4,7 @@
 Date Created: 21/01/2022 10:05:12
 Tags: #Definition #Closed 
 
-Constructions: _Not Applicable_
+Constructions: [[Reflexive Closure]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

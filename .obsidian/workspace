@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4a5c256cc8c2b5ce",
+        "id": "409084da919ba3f0",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Files/Lexicographical order of well-orderings is a well-order.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -67,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Files/Lexicographical order of well-orderings is a well-order.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,6 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Files/Lexicographical order of well-orderings is a well-order.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,10 +117,11 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Files/Lexicographical order of well-orderings is a well-order.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
-                  "localJumps": 3,
+                  "localJumps": 5,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -162,7 +169,7 @@
                   "repelStrength": 11.484438156831,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.20727079992836708,
+                  "scale": 0.19213520741951265,
                   "close": true
                 }
               }
@@ -175,17 +182,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "4a5c256cc8c2b5ce",
+  "active": "409084da919ba3f0",
   "lastOpenFiles": [
-    "Files/Ordinal (von Neumann).md",
-    "Files/Successor of an ordinal is the next smallest ordinal.md",
-    "Files/Successor of an Ordinal.md",
-    "Files/Subset relation is transitive.md",
-    "Files/Well-ordering well-orders subsets.md",
-    "Files/Reflxeive closure of ordering on ordinals.md",
-    "Files/Intersection of ordinals is an ordinal.md",
-    "Files/ON is well-ordered by membership.md",
-    "Files/ON is a proper class.md",
-    "Files/Transitive Set.md"
+    "Files/Lexicographical order of well-orderings is a well-order.md",
+    "Files/Well-founded Relation.md",
+    "Files/Well-ordered Relation.md",
+    "Files/Strict lexicographical order is total if orders are strictly total.md",
+    "Files/Strict lexicographical order is a strict partial order.md",
+    "Files/Lexicographical order is a partial order.md",
+    "Files/Binary Relation.md",
+    "Files/Reflexive Closure.md",
+    "Files/Lexicographical order is reflexive closure of strict lexicographical order.md",
+    "Files/Reflexive closure of strict orders is non-strict.md"
   ]
 }

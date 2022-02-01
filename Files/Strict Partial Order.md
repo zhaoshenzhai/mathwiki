@@ -4,7 +4,7 @@
 Date Created: 31/01/2022 14:42:55
 Tags: #Definition #Closed 
 
-Constructions: [[Poset]], [[Strict Total Order]]
+Constructions: [[Poset]], [[Strict Total Order]], [[Strict Lexicographical Order]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
@@ -13,7 +13,7 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. A binary relation $<$ is a **strict partial order on $X$** if $<$ is transitive and irreflexive on $X$.
+Let $X$ be a set. A binary relation $<$ on $X$ is a **strict partial order on $X$** if $<$ is transitive and irreflexive on $X$.
 
 --- admonition
 

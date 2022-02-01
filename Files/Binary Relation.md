@@ -4,10 +4,10 @@
 Date Created: 14/01/2022 17:57:16
 Tags: #Definition #Closed 
 
-Constructions: [[Domain and Range]], [[Function]], [[Restriction (Relation)]], [[Image (Relation)]], [[Inverse (Relation)]], [[Preimage (Relation)]], [[Composition (Relation)]]
+Constructions: [[Domain and Range]], [[Function]], [[Restriction (Relation)]], [[Image (Relation)]], [[Inverse (Relation)]], [[Preimage (Relation)]], [[Composition (Relation)]], [[Reflexive Closure]]
 Generalizations: _Not Applicable_
 
-Types: [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]], [[Antisymmetric Relation]], [[Connected Relation]], [[Well-founded Relation]]
+Types: [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]], [[Irreflexive Relation]], [[Antisymmetric Relation]], [[Connected Relation]], [[Well-founded Relation]]
 Examples: _Not Applicable_ 
 Properties: [[Binary relation iff subset of Cartesian product]]
 
@@ -20,4 +20,6 @@ $$\begin{equation}
 
 --- admonition
 
-**Remark.** If $R$ is a binary relation and $\l\langle x,y\r\rangle\in R$, write $xRy$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.**
+* If $R$ is a binary relation and $\l\langle x,y\r\rangle\in R$, write $xRy$.
+* If there exists some set $X$ such that $x,y\in X$, then $R$ is said to be **homogeneous on $X$** or is a **binary relation on $X$**.<span style="float:right;">$\blacklozenge$</span>

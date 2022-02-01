@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: [[ON is well-ordered by membership]]
-Properties: [[Well-ordering well-orders subsets]]
+Properties: [[Well-ordering well-orders subsets]], [[Lexicographical order of well-orderings is a well-order]]
 
 !!! ad-Definition Definition.
 

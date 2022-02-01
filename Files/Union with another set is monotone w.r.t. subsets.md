@@ -5,7 +5,7 @@ Date Created: 17/01/2022 17:25:18
 Tags: #Proposition #Closed 
 
 Proved by: _Not Applicable_
-Generalizations: _Not Applicable_
+Generalizations: [[Union of subsets is a subset of union]]
 
 !!! ad-Proposition Proposition.
 

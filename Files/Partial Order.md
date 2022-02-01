@@ -4,16 +4,16 @@
 Date Created: 25/01/2022 11:03:12
 Tags: #Definition #Closed 
 
-Constructions: [[Poset]], [[Total Order]]
+Constructions: [[Poset]], [[Total Order]], [[Lexicographical Order]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
-Examples: [[Lexicographical Order]]
+Examples: _Not Applicable_
 Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. A binary relation $\leq$ is a **partial order on $X$** if $\leq$ is transitive, reflexive, and antisymmetric on $X$.
+Let $X$ be a set. A binary relation $\leq$ on $X$ is a **partial order on $X$** if $\leq$ is transitive, reflexive, and antisymmetric on $X$.
 
 --- admonition
 
