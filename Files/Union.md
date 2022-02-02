@@ -5,7 +5,7 @@ Date Created: 17/01/2022 13:00:40
 Tags: #Definition #Closed 
 
 
-Constructions: [[Set of unions and intersections]]
+Constructions: [[Set of unions and intersections]], [[Successor Function]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

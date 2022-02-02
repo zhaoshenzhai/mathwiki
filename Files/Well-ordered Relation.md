@@ -4,7 +4,7 @@
 Date Created: 30/01/2022 17:43:31
 Tags: #Definition #Closed 
 
-Constructions: [[Ordinal (von Neumann)]]
+Constructions: [[Ordinal (von Neumann)]], [[Initial Segment]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

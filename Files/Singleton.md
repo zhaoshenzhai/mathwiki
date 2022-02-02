@@ -4,7 +4,7 @@
 Date Created: 17/01/2022 12:06:31
 Tags: #Definition #Closed 
 
-Constructions: [[Ordered Pair]]
+Constructions: [[Ordered Pair]], [[Successor Function]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
