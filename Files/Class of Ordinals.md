@@ -13,7 +13,7 @@ Properties: [[ON is a transitive class]], [[ON is well-ordered by membership]], 
 
 !!! ad-Definition Definition (Informal).
 
-The **class of ordinals** is the proper class $\ord\coloneqq\l\{x\mid x\textrm{ is an ordinal}\r\}$.
+_The **class of ordinals** is the proper class $\ord\coloneqq\l\{x\mid x\textrm{ is an ordinal}\r\}$._
 
 --- admonition
 

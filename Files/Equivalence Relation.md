@@ -13,6 +13,6 @@ Properties: [[Fundamental Theorem of Equivalence Relations]]
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. A binary relation $R$ is an **equivalence relation on $X$** if $R$ is reflexive, symmetric, and transitive on $X$.
+_Let $X$ be a set. A binary relation $R$ is an **equivalence relation on $X$** if $R$ is reflexive, symmetric, and transitive on $X$._
 
 --- admonition

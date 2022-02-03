@@ -9,11 +9,11 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $X$ be a set. The collection
+_Let $X$ be a set. The collection_
 $$\begin{equation}
     \mc{B}_\textrm{discrete}\coloneqq\l\{\l\{x\r\}\in\mc{P}\l(X\r)\mid x\in X\r\}
 \end{equation}$$
-is a basis for the discrete topology on $X$.
+_is a basis for the discrete topology on $X$._
 
 --- admonition
 

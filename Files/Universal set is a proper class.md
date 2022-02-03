@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition (Russel's Paradox).
 
-The collection of all sets is a proper class. Formally, $\fa v\ex u\l(u\not\in v\r)$.
+_The collection of all sets is a proper class. Formally, $\fa v\ex u\l(u\not\in v\r)$._
 
 --- admonition
 

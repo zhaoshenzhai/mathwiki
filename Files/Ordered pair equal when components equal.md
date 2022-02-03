@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $u$, $v$, $x$, and $y$ be sets. Then $\l\langle u,v\r\rangle=\l\langle x,y\r\rangle$ iff $u=x$ and $v=y$.
+_Let $u$, $v$, $x$, and $y$ be sets. Then $\l\langle u,v\r\rangle=\l\langle x,y\r\rangle$ iff $u=x$ and $v=y$._
 
 --- admonition
 

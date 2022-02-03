@@ -13,9 +13,9 @@ Properties: [[Criteria for equality of functions]], [[Replacement image implies 
 
 !!! ad-Definition Definition.
 
-A binary relation $f$ is a **function** if for every $x\in\dom f$, there exists a unique $y$ such that $\l\langle x,y\r\rangle\in f$. Formally,
+_A binary relation $f$ is a **function** if for every $x\in\dom f$, there exists a unique $y$ such that $\l\langle x,y\r\rangle\in f$. Formally,_
 $$\begin{equation}
-    f\textrm{ is a function}\ \ \ \ \Leftrightarrow\ \ \ \ \fa x\in\dom f,\ex!y:\l\langle x,y\r\rangle\in f.
+    f\textit{ is a function}\ \ \ \ \Leftrightarrow\ \ \ \ \fa x\in\dom f,\ex!y:\l\langle x,y\r\rangle\in f.
 \end{equation}$$
 
 --- admonition

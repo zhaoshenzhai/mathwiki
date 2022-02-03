@@ -13,7 +13,7 @@ Properties: [[Reflexive closure is the smallest reflexive relation]], [[Reflexiv
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set and let $R$ be a binary relation on $X$. The **reflexive closure of $R$ w.r.t. $X$** is the binary relation
+_Let $X$ be a set and let $R$ be a binary relation on $X$. The **reflexive closure of $R$ w.r.t. $X$** is the binary relation_
 $$\begin{equation}
     \rfcl R\coloneqq R\cup\id_X.
 \end{equation}$$

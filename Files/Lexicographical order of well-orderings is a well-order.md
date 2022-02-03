@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $<$ and $\prec$ be well-orders on the sets $X$ and $Y$, respectively, Then the strict lexicographical order $\sqsubset$ on $X\times Y$ is a well-order on $X\times Y$.
+_Let $<$ and $\prec$ be well-orders on the sets $X$ and $Y$, respectively, Then the strict lexicographical order $\sqsubset$ on $X\times Y$ is a well-order on $X\times Y$._
 
 --- admonition
 

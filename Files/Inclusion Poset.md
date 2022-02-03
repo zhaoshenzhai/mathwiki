@@ -13,6 +13,6 @@ Properties: [[Set ordered by inclusion is a poset]]
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. The **inclusion poset of $X$** is the pair $\l\langle X,\subseteq\r\rangle$.
+_Let $X$ be a set. The **inclusion poset of $X$** is the pair $\l\langle X,\subseteq\r\rangle$._
 
 --- admonition

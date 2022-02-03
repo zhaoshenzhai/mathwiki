@@ -9,9 +9,9 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $f:X\to Y$ and $g:Y'\to Z$ be functions. Then $g\circ f$ is a function with
+_Let $f:X\to Y$ and $g:Y'\to Z$ be functions. Then $g\circ f$ is a function with_
 $$\begin{equation}
-    \dom\l(g\circ f\r)=\l\{x\in X\mid f\l(x\r)\in Y'\r\}\ \ \ \ \textrm{and}\ \ \ \ \fa x\in\dom\l(g\circ f\r):\l(g\circ f\r)\l(x\r)=g\l(f\l(x\r)\r).
+    \dom\l(g\circ f\r)=\l\{x\in X\mid f\l(x\r)\in Y'\r\}\ \ \ \ \textit{and}\ \ \ \ \fa x\in\dom\l(g\circ f\r):\l(g\circ f\r)\l(x\r)=g\l(f\l(x\r)\r).
 \end{equation}$$
 
 --- admonition

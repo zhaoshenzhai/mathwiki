@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $X$ be a set. Then the trivial topology $\mc{T}_\textrm{trivial}=\l\{\em,X\r\}$ is a topology on $X$.
+_Let $X$ be a set. Then the trivial topology_ $\mc{T}_\textrm{trivial}=\l\{\em,X\r\}$ _is a topology on $X$._
 
 --- admonition
 

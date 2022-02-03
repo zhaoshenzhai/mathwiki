@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $X$ be a set. Then the pair $\l\langle\Sigma,\subseteq\r\rangle$, where $\Sigma$ is the set of all topologies on $X$, is a complete lattice.
+_Let $X$ be a set. Then the pair $\l\langle\Sigma,\subseteq\r\rangle$, where $\Sigma$ is the set of all topologies on $X$, is a complete lattice._
 
 --- admonition
 

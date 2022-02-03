@@ -13,7 +13,7 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set and $\leq$ be a partial order on $X$. The pair $\l\langle X,\leq\r\rangle$ is called a **partially ordered set** or a **poset**.
+_Let $X$ be a set and $\leq$ be a partial order on $X$. The pair $\l\langle X,\leq\r\rangle$ is called a **partially ordered set** or a **poset**._
 
 --- admonition
 

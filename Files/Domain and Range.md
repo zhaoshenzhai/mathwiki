@@ -13,10 +13,10 @@ Properties: [[Domain and range of relation are sets (Kuratowski)]], [[Domain and
 
 !!! ad-Definition Definition.
 
-Let $R$ be a binary relation. The **domain and range of $R$** are the sets
+_Let $R$ be a binary relation. The **domain and range of $R$** are the sets_
 $$\begin{equation}
-    \dom R\coloneqq\l\{x\mid\ex y:xRy\r\}\ \ \ \ \textrm{and}\ \ \ \ \ran R\coloneqq\l\{y\mid\ex x:xRy\r\},
+    \dom R\coloneqq\l\{x\mid\ex y:xRy\r\}\ \ \ \ \textit{and}\ \ \ \ \ran R\coloneqq\l\{y\mid\ex x:xRy\r\},
 \end{equation}$$
-respectively.
+_respectively._
 
 --- admonition

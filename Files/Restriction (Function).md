@@ -13,11 +13,11 @@ Properties: [[Restriction of function is a function]]
 
 !!! ad-Definition Definition.
 
-Let $f:X\to Y$ and fix $S\subseteq X$. The **restriction of $f$ to $S$** is the function
+_Let $f:X\to Y$ and fix $S\subseteq X$. The **restriction of $f$ to $S$** is the function_
 $$\begin{equation}
-    \l.f\r|_S:S\to Y\ \ \ \ \textrm{mapping}\ \ \ \ x\mapsto f\l(x\r)
+    \l.f\r|_S:S\to Y\ \ \ \ \textit{mapping}\ \ \ \ x\mapsto f\l(x\r)
 \end{equation}$$
-for all $x\in S$. Formally,
+_for all $x\in S$. Formally,_
 $$\begin{equation}
     \l.f\r|_S\coloneqq\l\{z\mid\ex x\in S:z=\l\langle x,f\l(x\r)\r\rangle\r\}.
 \end{equation}$$

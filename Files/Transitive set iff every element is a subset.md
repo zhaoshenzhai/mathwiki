@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-A set $z$ is a transitive set iff $\fa y\in z:y\subseteq z$.
+_A set $z$ is a transitive set iff $\fa y\in z:y\subseteq z$._
 
 --- admonition
 

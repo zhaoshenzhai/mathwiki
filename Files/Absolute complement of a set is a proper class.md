@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $u$ be a set. The expression $\operatorname{comp}\l(u\r)\coloneqq\l\{x\mid x\not\in u\r\}$ is a proper class.
+_Let $u$ be a set. The expression $\operatorname{comp}\l(u\r)\coloneqq\l\{x\mid x\not\in u\r\}$ is a proper class._
 
 --- admonition
 

@@ -13,7 +13,7 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $f:X\to Y$ and fix $S\subseteq X$. The **image of $S$ under $f$** is the set
+_Let $f:X\to Y$ and fix $S\subseteq X$. The **image of $S$ under $f$** is the set_
 $$\begin{equation}
     \im_f\l(S\r)\coloneqq\l\{y\in Y:\ex x\in S:y=f\l(x\r)\r\}.
 \end{equation}$$

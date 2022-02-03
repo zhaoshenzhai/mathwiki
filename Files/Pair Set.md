@@ -13,7 +13,7 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $x$ and $y$ be sets and let $z$ be any set asserted by the Axiom of Pairing. The **pair set of $x$ and $y$** is the set
+_Let $x$ and $y$ be sets and let $z$ be any set asserted by the Axiom of Pairing. The **pair set of $x$ and $y$** is the set_
 $$\begin{equation}
     \l\{x,y\r\}\coloneqq\l\{w\in z\mid w=x\lor w=y\r\}.
 \end{equation}$$

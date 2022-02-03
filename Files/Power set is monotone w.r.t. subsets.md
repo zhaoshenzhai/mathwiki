@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $A$ and $B$ be sets. If $A\subseteq B$, then $\mc{P}A\subseteq\mc{P}B$.
+_Let $A$ and $B$ be sets. If $A\subseteq B$, then $\mc{P}A\subseteq\mc{P}B$._
 
 --- admonition
 

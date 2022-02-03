@@ -13,11 +13,11 @@ Properties: [[Identity function is a function]], [[Identity function is a biject
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. The **identity function on $X$** is the function
+_Let $X$ be a set. The **identity function on $X$** is the function_
 $$\begin{equation}
-    \id_X\!:X\to X\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ x\mapsto x.
+    \id_X\!:X\to X\ \ \ \ \ \ \ \ \textit{mapping}\ \ \ \ \ \ \ \ x\mapsto x.
 \end{equation}$$
-Formally,
+_Formally,_
 $$\begin{equation}
     \id_X\!\coloneqq\l\{z\mid\ex x\in X:z=\l\langle x,x\r\rangle\r\}.
 \end{equation}$$

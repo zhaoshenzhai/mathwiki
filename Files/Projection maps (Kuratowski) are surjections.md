@@ -9,14 +9,14 @@ Generalizations: [[Projection maps (arbitrary) are surjections]]
 
 !!! ad-Proposition Proposition.
 
-Let $X$ and $Y$ be non-empty sets. Then the projection maps
+_Let $X$ and $Y$ be non-empty sets. Then the projection maps_
 $$\begin{equation}
     \begin{aligned}
-        \pi_X:X\times Y\to X\ \ \ \ &\textrm{mapping}\ \ \ \ \l\langle x,y\r\rangle\mapsto x\\
-        \pi_Y:X\times Y\to Y\ \ \ \ &\textrm{mapping}\ \ \ \ \l\langle x,y\r\rangle\mapsto y
+        \pi_X:X\times Y\to X\ \ \ \ &\textit{mapping}\ \ \ \ \l\langle x,y\r\rangle\mapsto x\\
+        \pi_Y:X\times Y\to Y\ \ \ \ &\textit{mapping}\ \ \ \ \l\langle x,y\r\rangle\mapsto y
     \end{aligned}
 \end{equation}$$
-are surjective.
+_are surjective._
 
 --- admonition
 

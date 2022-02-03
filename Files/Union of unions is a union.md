@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $A$ and $B$ be sets. Then $\bigcup\l(A\cup B\r)=\bigcup A\cup\bigcup B$.
+_Let $A$ and $B$ be sets. Then $\bigcup\l(A\cup B\r)=\bigcup A\cup\bigcup B$._
 
 --- admonition
 

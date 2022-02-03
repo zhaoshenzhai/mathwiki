@@ -13,7 +13,7 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-A poset $\l\langle X,\leq\r\rangle$ is called a **join-semilattice** if
+_A poset $\l\langle X,\leq\r\rangle$ is called a **join-semilattice** if_
 $$\begin{equation}
     \fa x,y\in X,\ex u\in X:u=\sup\l\{x,y\r\}\eqqcolon x\vee y.
 \end{equation}$$

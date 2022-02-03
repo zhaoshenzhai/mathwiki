@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $A$ and $B$ be non-empty sets. Then $\bigcap\l(A\cap B\r)=\bigcap A\cap\bigcap B$.
+_Let $A$ and $B$ be non-empty sets. Then $\bigcap\l(A\cap B\r)=\bigcap A\cap\bigcap B$._
 
 --- admonition
 

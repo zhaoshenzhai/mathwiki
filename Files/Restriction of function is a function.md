@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $f:X\to Y$ and fix $S\subseteq X$. The restriction function $\l.f\r|_S=\l\{z\mid\ex x\in S:z=\l\langle x,f\l(x\r)\r\rangle\r\}$ is a function.
+_Let $f:X\to Y$ and fix $S\subseteq X$. The restriction function $\l.f\r|_S=\l\{z\mid\ex x\in S:z=\l\langle x,f\l(x\r)\r\rangle\r\}$ is a function._
 
 --- admonition
 

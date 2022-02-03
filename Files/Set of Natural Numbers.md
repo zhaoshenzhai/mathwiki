@@ -13,9 +13,9 @@ Properties: [[Principle of Ordinary Induction]], [[Set of natural numbers is the
 
 !!! ad-Definition Definition.
 
-Let $I$ be any inductive set asserted by the Axiom of Infinity. The **set of natural numbers** is the set
+_Let $I$ be any inductive set asserted by the Axiom of Infinity. The **set of natural numbers** is the set_
 $$\begin{equation}
-    \omega\coloneqq\l\{n\in I\mid n\textrm{ is a natural number}\r\}.
+    \omega\coloneqq\l\{n\in I\mid n\textit{ is a natural number}\r\}.
 \end{equation}$$
 
 --- admonition

@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $f:X\to Y$. Then $f$ is a bijection iff it is invertible.
+_Let $f:X\to Y$. Then $f$ is a bijection iff it is invertible._
 
 --- admonition
 

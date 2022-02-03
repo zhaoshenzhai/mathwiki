@@ -13,9 +13,9 @@ Properties: [[Canonical projection is a function]], [[Canonical projection is a 
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. The **canonical projection of $X$ under $\sim$** is the function
+_Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. The **canonical projection of $X$ under $\sim$** is the function_
 $$\begin{equation}
-    \pi_\sim:X\to X/\!\sim\ \ \ \ \textrm{mapping}\ \ \ \ x\mapsto\l[x\r]_\sim
+    \pi_\sim:X\to X/\!\sim\ \ \ \ \textit{mapping}\ \ \ \ x\mapsto\l[x\r]_\sim
 \end{equation}$$
 
 --- admonition

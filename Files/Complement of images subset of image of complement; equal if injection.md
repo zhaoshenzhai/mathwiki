@@ -9,11 +9,11 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $R$ be a binary relation and fix subsets $A,B\subseteq\dom R$. Then
+_Let $R$ be a binary relation and fix subsets $A,B\subseteq\dom R$. Then_
 $$\begin{equation}
     \im_R\l(A\r)\comp\im_R\l(B\r)\subseteq\im_R\l(A\comp B\r).
 \end{equation}$$
-Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xRy$. If $R$ is a function, this is equivalent to saying that $f$ is injective.
+_Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xRy$. If $R$ is a function, this is equivalent to saying that $f$ is injective._
 
 --- admonition
 

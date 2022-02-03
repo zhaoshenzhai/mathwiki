@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $v$ be a set and let $\phi\l(x,y\r)$ be a formula such that $\fa x\in v,\ex!y:\phi\l(x,y\r)$. Then there exists a function $f$ with $\dom f=v$ such that $\fa x\in v:\phi\l(x,f\l(x\r)\r)$.
+_Let $v$ be a set and let $\phi\l(x,y\r)$ be a formula such that $\fa x\in v,\ex!y:\phi\l(x,y\r)$. Then there exists a function $f$ with $\dom f=v$ such that $\fa x\in v:\phi\l(x,f\l(x\r)\r)$._
 
 --- admonition
 

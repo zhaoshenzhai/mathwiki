@@ -13,7 +13,7 @@ Properties: [[Initial segment of ON is an ordinal]]
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set and let $<$ be a well-ordering on $X$. A subset $Y\subseteq X$ is called an **initial segment of $X$ w.r.t $<$** if
+_Let $X$ be a set and let $<$ be a well-ordering on $X$. A subset $Y\subseteq X$ is called an **initial segment of $X$ w.r.t $<$** if_
 $$\begin{equation}
     \fa y\in Y,\fa x\in X:x<y\Rightarrow x\in Y.
 \end{equation}$$

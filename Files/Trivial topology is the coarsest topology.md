@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $X$ be a set. The trivial topology on $X$ is the coarsest topology on $X$.
+_Let $X$ be a set. The trivial topology on $X$ is the coarsest topology on $X$._
 
 --- admonition
 

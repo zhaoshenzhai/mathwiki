@@ -13,6 +13,6 @@ Properties: [[Complete lattices are bounded]]
 
 !!! ad-Definition Definition.
 
-A lattice $\l\langle X,\leq\r\rangle$ is **complete** if every subset has a join and a meet.
+_A lattice $\l\langle X,\leq\r\rangle$ is **complete** if every subset has a join and a meet._
 
 --- admonition

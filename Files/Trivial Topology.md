@@ -13,6 +13,6 @@ Properties: [[Trivial topology is a topology]], [[Singleton is a basis for the t
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. The **trivial topology on $X$** is the topology $\mc{T}_\textrm{trivial}\coloneqq\l\{\em,X\r\}$.
+_Let $X$ be a set. The **trivial topology on $X$** is the topology_ $\mc{T}_\textrm{trivial}\coloneqq\l\{\em,X\r\}$_._
 
 --- admonition

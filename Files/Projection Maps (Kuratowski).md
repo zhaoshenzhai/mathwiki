@@ -13,13 +13,13 @@ Properties: [[Projection maps (Kuratowski) are surjections]]
 
 !!! ad-Definition Definition.
 
-Let $X$ and $Y$ be sets. The **projection maps onto the first and second coordinates of $X\times Y$** are the functions
+_Let $X$ and $Y$ be sets. The **projection maps onto the first and second coordinates of $X\times Y$** are the functions_
 $$\begin{equation}
     \begin{aligned}
-        \pi_X:X\times Y\to X\ \ \ \ &\textrm{mapping}\ \ \ \ \l\langle x,y\r\rangle\mapsto x\\
-        \pi_Y:X\times Y\to Y\ \ \ \ &\textrm{mapping}\ \ \ \ \l\langle x,y\r\rangle\mapsto y
+        \pi_X:X\times Y\to X\ \ \ \ &\textit{mapping}\ \ \ \ \l\langle x,y\r\rangle\mapsto x\\
+        \pi_Y:X\times Y\to Y\ \ \ \ &\textit{mapping}\ \ \ \ \l\langle x,y\r\rangle\mapsto y
     \end{aligned}
 \end{equation}$$
-respectively.
+_respectively._
 
 --- admonition

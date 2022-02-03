@@ -13,7 +13,7 @@ Properties: [[Invertible iff bijective]], [[Inverse of bijection is a bijection]
 
 !!! ad-Definition Definition.
 
-A function $f:X\to Y$ is a **bijection** if $f:X\to Y$ is both an injection and a surjection.
+_A function $f:X\to Y$ is a **bijection** if $f:X\to Y$ is both an injection and a surjection._
 
 --- admonition
 

@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $\l\langle X,\mc{T}\r\rangle$ be a topological space and fix $Y\subseteq X$. Suppose that for each $y\in Y$ there exists an open set $U\in\mc{T}$ containing $y$ such that $U\subseteq Y$. Then $Y\in\mc{T}$. Formally,
+_Let $\l\langle X,\mc{T}\r\rangle$ be a topological space and fix $Y\subseteq X$. Suppose that for each $y\in Y$ there exists an open set $U\in\mc{T}$ containing $y$ such that $U\subseteq Y$. Then $Y\in\mc{T}$. Formally,_
 $$\begin{equation}
     \l(\fa y\in Y,\ex U\in\mc{T}:y\in U\land U\subseteq Y\r)\Rightarrow Y\in\mc{T}.
 \end{equation}$$

@@ -13,6 +13,6 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-An ordinal $\alpha$ is called a **limit ordinal** if $\alpha\neq\em$ and $\alpha$ is not a successor ordinal.
+_An ordinal $\alpha$ is called a **limit ordinal** if $\alpha\neq\em$ and $\alpha$ is not a successor ordinal._
 
 --- admonition

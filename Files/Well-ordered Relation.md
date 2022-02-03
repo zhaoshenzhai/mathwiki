@@ -13,6 +13,6 @@ Properties: [[Well-ordering well-orders subsets]], [[Lexicographical order of we
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. A binary relation $R$ **well-orders $X$** if $R$ is a strict total order and a well-founded relation on $X$.
+_Let $X$ be a set. A binary relation $R$ **well-orders $X$** if $R$ is a strict total order and a well-founded relation on $X$._
 
 --- admonition

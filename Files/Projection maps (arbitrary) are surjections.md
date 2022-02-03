@@ -9,11 +9,11 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $\l\{X_i\r\}_{i\in I}$ be an indexed family where each $X_i\neq\em$. Then the projection maps
+_Let_ $\l\{X_i\r\}_{i\in I}$ _be an indexed family where each $X_i\neq\em$. Then the projection maps_
 $$\begin{equation}
-    \pi_j:\prod\limits_{i\in I}X_i\to X_j\ \ \ \ \textrm{mapping}\ \ \ \ f\mapsto f\l(j\r)
+    \pi_j:\prod\limits_{i\in I}X_i\to X_j\ \ \ \ \textit{mapping}\ \ \ \ f\mapsto f\l(j\r)
 \end{equation}$$
-for each $j\in I$ are surjective.
+_for each $j\in I$ are surjective._
 
 --- admonition
 

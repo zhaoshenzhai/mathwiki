@@ -13,7 +13,7 @@ Properties: [[Left inverse iff injection]]
 
 !!! ad-Definition Definition.
 
-Let $f:X\to Y$. A function $g:Y\to X$ is a **left inverse of $f$** if $g\circ f=\id_X$.
+_Let $f:X\to Y$. A function $g:Y\to X$ is a **left inverse of $f$** if $g\circ f=\id_X$._
 
 --- admonition
 

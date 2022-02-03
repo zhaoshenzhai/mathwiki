@@ -13,7 +13,7 @@ Properties: [[Inverse of a relation is a relation]], [[Domain and range of inver
 
 !!! ad-Definition Definition.
 
-Let $R$ be a binary relation. The **inverse of $R$** is the relation
+_Let $R$ be a binary relation. The **inverse of $R$** is the relation_
 $$\begin{equation}
     R^{-1}\coloneqq\l\{\l\langle y,x\r\rangle\mid xRy\r\}.
 \end{equation}$$

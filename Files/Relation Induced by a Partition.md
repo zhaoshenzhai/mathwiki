@@ -13,10 +13,10 @@ Properties: [[Fundamental Theorem of Equivalence Relations]]
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set and let $\Pi$ be a partition on $X$. The **relation induced by $\Pi$** is the relation $R_\Pi$ defined by
+_Let $X$ be a set and let $\Pi$ be a partition on $X$. The **relation induced by $\Pi$** is the relation_ $R_\Pi$ _defined by_
 $$\begin{equation}
     xR_\Pi y\ \ \ \ \Leftrightarrow\ \ \ \ \ex P\in\Pi:x\in P\land y\in P
 \end{equation}$$
-for all $x,y\in X$.
+_for all $x,y\in X$._
 
 --- admonition

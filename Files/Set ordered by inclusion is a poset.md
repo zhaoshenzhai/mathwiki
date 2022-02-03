@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $X$ be a set. Then the pair $\l\langle X,\subseteq\r\rangle$ is a poset.
+_Let $X$ be a set. Then the pair $\l\langle X,\subseteq\r\rangle$ is a poset._
 
 --- admonition
 

@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $X$ be a set and let $R$ be a well-founded relation on $X$. Then $R$ is irreflexive on $X$.
+_Let $X$ be a set and let $R$ be a well-founded relation on $X$. Then $R$ is irreflexive on $X$._
 
 --- admonition
 

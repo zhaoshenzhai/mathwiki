@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $\l\langle X,\mc{T}\r\rangle$ be a topological space and let $\mc{B}\subseteq\mc{T}$ such that for each $U\in\mc{T}$ and $x\in U$, there exists $B\in\mc{B}$ such that $x\in B\subseteq U$. Then $\mc{B}$ is a basis for the topology $\mc{T}$ on $X$ and, in particular, $\mc{T}=\mc{T}\l(\mc{B}\r)$.
+_Let $\l\langle X,\mc{T}\r\rangle$ be a topological space and let $\mc{B}\subseteq\mc{T}$ such that for each $U\in\mc{T}$ and $x\in U$, there exists $B\in\mc{B}$ such that $x\in B\subseteq U$. Then $\mc{B}$ is a basis for the topology $\mc{T}$ on $X$ and, in particular, $\mc{T}=\mc{T}\l(\mc{B}\r)$._
 
 --- admonition
 

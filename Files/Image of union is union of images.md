@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $R$ be a binary relation and fix $\mc{A}\subseteq\mc{P}\l(\dom R\r)$, that is, fix a collection of subsets of $\dom R$. Then
+_Let $R$ be a binary relation and fix $\mc{A}\subseteq\mc{P}\l(\dom R\r)$, that is, fix a collection of subsets of $\dom R$. Then_
 $$\begin{equation}
     \im_R\l(\bigcup\mc{A}\r)=\bigcup\l\{\im_R\l(A\r)\mid A\in\mc{A}\r\}.
 \end{equation}$$

@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-For all natural numbers $n$, its successor $S\l(n\r)$ is also a natural number.
+_For all natural numbers $n$, its successor $S\l(n\r)$ is also a natural number._
 
 --- admonition
 

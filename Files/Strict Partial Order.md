@@ -13,7 +13,7 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. A binary relation $<$ on $X$ is a **strict partial order on $X$** if $<$ is transitive and irreflexive on $X$.
+_Let $X$ be a set. A binary relation $<$ on $X$ is a **strict partial order on $X$** if $<$ is transitive and irreflexive on $X$._
 
 --- admonition
 

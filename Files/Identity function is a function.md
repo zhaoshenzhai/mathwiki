@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $X$ be a set. The identity function $\id_X\!=\l\{z\mid \ex x\in X:z=\l\langle x,x\r\rangle\r\}$ is a function.
+_Let $X$ be a set. The identity function $\id_X\!=\l\{z\mid \ex x\in X:z=\l\langle x,x\r\rangle\r\}$ is a function._
 
 --- admonition
 

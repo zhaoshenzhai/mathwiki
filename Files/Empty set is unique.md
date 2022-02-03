@@ -9,7 +9,7 @@ Generalizations: [[Set-builder notation is unique]]
 
 !!! ad-Proposition Proposition.
 
-Let $x$ and $y$ be sets. If $x$ and $y$ are both empty, then $x=y$. Formally,
+_Let $x$ and $y$ be sets. If $x$ and $y$ are both empty, then $x=y$. Formally,_
 $$\begin{equation}
     \fa x\fa y\l[\operatorname{emp}\l(x\r)\land\operatorname{emp}\l(y\r)\Rightarrow x=y\r].
 \end{equation}$$

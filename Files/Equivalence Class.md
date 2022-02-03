@@ -13,7 +13,7 @@ Properties: [[Same equivalence class iff related]]
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. Fix $x\in X$. The **equivalence class of $x$ under $\sim$** is the set
+_Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. Fix $x\in X$. The **equivalence class of $x$ under $\sim$** is the set_
 $$\begin{equation}
     \l[x\r]_\sim\coloneqq\l\{y\in X\mid x\sim y\r\}.
 \end{equation}$$

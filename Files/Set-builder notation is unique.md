@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-For any formula $\phi\l(x\r)$, if there exists a set $z$ such that $\fa x\l[x\in z\Leftrightarrow\phi\l(x\r)\r]$, then $z$ is unique.
+_For any formula $\phi\l(x\r)$, if there exists a set $z$ such that $\fa x\l[x\in z\Leftrightarrow\phi\l(x\r)\r]$, then $z$ is unique._
 
 --- admonition
 

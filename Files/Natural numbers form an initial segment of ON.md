@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $n$ be a natural number. Then every element $m\in n$ is also a natural number.
+_Let $n$ be a natural number. Then every element $m\in n$ is also a natural number._
 
 --- admonition
 

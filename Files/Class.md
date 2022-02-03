@@ -13,7 +13,7 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition (Informal).
 
-Let $\phi\l(x\r)$ be a formula. The expression $\l\{x\mid\phi\l(x\r)\r\}$ is, informally, called a **class**.
+_Let $\phi\l(x\r)$ be a formula. The expression $\l\{x\mid\phi\l(x\r)\r\}$ is, informally, called a **class**._
 
 --- admonition
 

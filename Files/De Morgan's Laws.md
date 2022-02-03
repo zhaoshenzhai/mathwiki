@@ -9,9 +9,9 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $v$ and $U$ be sets with $U\neq\em$. Then
+_Let $v$ and $U$ be sets with $U\neq\em$. Then_
 $$\begin{equation}
-    v\comp\bigcup U=\bigcap\l\{v\comp u\mid u\in U\r\}\ \ \ \ \textrm{and}\ \ \ \ v\comp\bigcap U=\bigcup\l\{v\comp u\mid u\in U\r\}.
+    v\comp\bigcup U=\bigcap\l\{v\comp u\mid u\in U\r\}\ \ \ \ \textit{and}\ \ \ \ v\comp\bigcap U=\bigcup\l\{v\comp u\mid u\in U\r\}.
 \end{equation}$$
 
 --- admonition

@@ -13,7 +13,7 @@ Properties: [[Intersection of a set is a set]], [[Intersection of intersections 
 
 !!! ad-Definition Definition.
 
-Let $u$ be a non-empty set. The **intersection of $u$** is the set
+_Let $u$ be a non-empty set. The **intersection of $u$** is the set_
 $$\begin{equation}
     \bigcap u\coloneqq\l\{x\mid\fa v\l(v\in u\Rightarrow x\in v\r)\r\}.
 \end{equation}$$

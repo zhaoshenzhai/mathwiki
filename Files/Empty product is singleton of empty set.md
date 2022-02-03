@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Consider the indexed family $\l\{X_i\r\}_{i\in\em}$. Then $\prod_{i\in\em}X_i=\l\{\em\r\}$.
+_Consider the indexed family_ $\l\{X_i\r\}_{i\in\em}$_. Then_ $\prod_{i\in\em}X_i=\l\{\em\r\}$_._
 
 --- admonition
 

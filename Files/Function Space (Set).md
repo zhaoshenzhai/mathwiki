@@ -13,7 +13,7 @@ Properties: [[Function space is a set]], [[Function Space constructed from a Car
 
 !!! ad-Definition Definition.
 
-Let $X$ and $Y$ be sets. The **function space of $X$ into $Y$** is the set
+_Let $X$ and $Y$ be sets. The **function space of $X$ into $Y$** is the set_
 $$\begin{equation}
     \prescript{X}{}{Y}\coloneqq X^Y\coloneqq\l\{f\mid f:X\to Y\r\}.
 \end{equation}$$

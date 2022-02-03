@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $f:X\to Y$ with $X\neq\em$. Then $f$ has a left inverse iff $f$ is injective.
+_Let $f:X\to Y$ with $X\neq\em$. Then $f$ has a left inverse iff $f$ is injective._
 
 --- admonition
 

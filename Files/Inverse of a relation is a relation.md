@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $R$ be a binary relation. Then there exists a unique binary relation $R^{-1}$ whose elements are exactly the pairs $\l\langle y,x\r\rangle$ where $\l\langle x,y\r\rangle\in R$.
+_Let $R$ be a binary relation. Then there exists a unique binary relation $R^{-1}$ whose elements are exactly the pairs $\l\langle y,x\r\rangle$ where $\l\langle x,y\r\rangle\in R$._
 
 --- admonition
 

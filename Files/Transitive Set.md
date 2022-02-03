@@ -13,6 +13,6 @@ Properties: [[Transitive set iff every element is a subset]]
 
 !!! ad-Definition Definition.
 
-A set $z$ is a **transitive set** if $\fa x,y\l(x\in y\land y\in z\Rightarrow x\in z\r)$.
+_A set $z$ is a **transitive set** if $\fa x,y\l(x\in y\land y\in z\Rightarrow x\in z\r)$._
 
 --- admonition

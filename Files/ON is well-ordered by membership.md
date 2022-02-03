@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-The membership relation $\in$ is a well-order on $\ord$.
+_The membership relation $\in$ is a well-order on $\ord$._
 
 --- admonition
 

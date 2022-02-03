@@ -13,6 +13,6 @@ Properties: [[Ordered pair equal when components equal]]
 
 !!! ad-Definition Definition (Ordered Pair).
 
-Let $x$ and $y$ be sets. An **ordered pair of $x$ and $y$** is the set $\l\langle x,y\r\rangle\coloneqq\l\{\l\{x\r\},\l\{x,y\r\}\r\}$.
+_Let $x$ and $y$ be sets. An **ordered pair of $x$ and $y$** is the set $\l\langle x,y\r\rangle\coloneqq\l\{\l\{x\r\},\l\{x,y\r\}\r\}$._
 
 --- admonition

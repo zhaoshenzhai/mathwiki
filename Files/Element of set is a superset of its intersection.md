@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $A$ be a non-empty set. For every $a\in A$, we have $\bigcap A\subseteq a$.
+_Let $A$ be a non-empty set. For every $a\in A$, we have $\bigcap A\subseteq a$._
 
 --- admonition
 

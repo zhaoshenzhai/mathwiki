@@ -13,7 +13,7 @@ Properties: [[(Right inverse iff surjection) iff Choice]]
 
 !!! ad-Definition Definition.
 
-Let $f:X\to Y$. A function $h:Y\to X$ is a **right inverse of $f$** if $f\circ h=\id_Y$.
+_Let $f:X\to Y$. A function $h:Y\to X$ is a **right inverse of $f$** if $f\circ h=\id_Y$._
 
 --- admonition
 

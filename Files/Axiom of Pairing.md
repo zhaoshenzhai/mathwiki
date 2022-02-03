@@ -13,7 +13,7 @@ Properties: _Not Applicable_
 
 !!! ad-Axiom Axiom.
 
-Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in\r\}$. The **Axiom of Pairing** is the $\mc{L}$-formula
+_Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in\r\}$. The **Axiom of Pairing** is the $\mc{L}$-formula_
 $$\begin{equation}
     \fa x\fa y\ex z\l(x\in z\land y\in z\r).
 \end{equation}$$

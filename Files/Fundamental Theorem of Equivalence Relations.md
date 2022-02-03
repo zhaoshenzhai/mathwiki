@@ -9,11 +9,11 @@ Generalizations: _Not Applicable_
 
 !!! ad-Theorem Theorem.
 
-Let $X$ be a set.
-1. Let $\Pi$ be a partition on $X$. Then the binary relation $R_\Pi$ induced by $\Pi$ is an equivalence relation on $X$.
-2. Let $R$ be an equivalence relation on $X$. Then the quotient set $X/R$ is a partition of $X$.
+_Let $X$ be a set._
+1. _Let $\Pi$ be a partition on $X$. Then the binary relation_ $R_\Pi$ _induced by $\Pi$ is an equivalence relation on $X$._
+2. _Let $R$ be an equivalence relation on $X$. Then the quotient set $X/R$ is a partition of $X$._
 
-Furthermore, we have $X/R_\Pi=\Pi$ and $R_{X/R}=R$.
+_Furthermore, we have_ $X/R_\Pi=\Pi$ _and_ $R_{X/R}=R$_._
 
 --- admonition
 

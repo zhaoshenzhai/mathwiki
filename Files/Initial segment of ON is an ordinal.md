@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $X$ be an initial segment of $\ord$. Then $X$ is itself an ordinal. Formally,
+_Let $X$ be an initial segment of $\ord$. Then $X$ is itself an ordinal. Formally,_
 $$\begin{equation}
     \fa\beta\in X,\fa\alpha\in\ord:\alpha\in\beta\Rightarrow\alpha\in X\ \ \ \ \Rightarrow\ \ \ \ X\in\ord.
 \end{equation}$$

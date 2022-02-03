@@ -13,11 +13,11 @@ Properties: [[Inclusion function is an injection]]
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set and fix $S\subseteq X$. The **inclusion function of $S$ into $X$** is the function
+_Let $X$ be a set and fix $S\subseteq X$. The **inclusion function of $S$ into $X$** is the function_
 $$\begin{equation}
-    \iota:S\to X\ \ \ \ \textrm{mapping}\ \ \ \ x\mapsto\id_X\l(x\r)
+    \iota:S\to X\ \ \ \ \textit{mapping}\ \ \ \ x\mapsto\id_X\l(x\r)
 \end{equation}$$
-for every $x\in S$.
+_for every $x\in S$._
 
 --- admonition
 

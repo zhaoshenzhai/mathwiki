@@ -14,7 +14,7 @@ Properties: [[Union of unions is a union]], [[De Morgan's Laws]], [[Union is mon
 
 !!! ad-Definition Definition.
 
-Let $u$ be a set and let $z$ be any set asserted by the Axiom of Union. The **union of $u$** is the set
+_Let $u$ be a set and let $z$ be any set asserted by the Axiom of Union. The **union of $u$** is the set_
 $$\begin{equation}
     \bigcup u\coloneqq\l\{x\in z\mid\ex v\l(x\in v\land v\in u\r)\r\}.
 \end{equation}$$

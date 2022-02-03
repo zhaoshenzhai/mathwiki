@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $f:X\to Y$ and $g:Y\to Z$ be bijections. Then the composition function $g\circ f:X\to Z$ is also a bijection.
+_Let $f:X\to Y$ and $g:Y\to Z$ be bijections. Then the composition function $g\circ f:X\to Z$ is also a bijection._
 
 --- admonition
 

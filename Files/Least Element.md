@@ -13,6 +13,6 @@ Properties: [[Greatest and least elements are unique]]
 
 !!! ad-Definition Definition.
 
-Let $\l\langle X,\leq\r\rangle$ be a poset and fix $S\subseteq X$. The **least element of $S$** is an element $l\in S$ such that $\fa s\in S:l\leq s$.
+_Let $\l\langle X,\leq\r\rangle$ be a poset and fix $S\subseteq X$. The **least element of $S$** is an element $l\in S$ such that $\fa s\in S:l\leq s$._
 
 --- admonition

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/(Right inverse iff surjection) iff Choice.md",
+            "file": "Files/Complete lattices are bounded.md",
             "mode": "preview",
             "source": true
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 171
+    "width": 171,
+    "collapsed": true
   },
   "right": {
     "id": "9b204813a94e4120",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/(Right inverse iff surjection) iff Choice.md",
+                "file": "Files/Complete lattices are bounded.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/(Right inverse iff surjection) iff Choice.md",
+                "file": "Files/Complete lattices are bounded.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +116,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/(Right inverse iff surjection) iff Choice.md",
+                "file": "Files/Complete lattices are bounded.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -182,15 +183,15 @@
   },
   "active": "98b621160b339c45",
   "lastOpenFiles": [
-    "Files/(Right inverse iff surjection) iff Choice.md",
-    "Files/Antisymmetric Relation.md",
-    "Files/Absolute complement of a set is a proper class.md",
-    "Files/Ordered Set.md",
-    "Files/Upper Bound.md",
-    "Files/Lower Bound.md",
-    "Files/Total Order.md",
-    "Files/Minimal Element.md",
-    "Files/Greatest and least elements are unique.md",
-    "Files/Greatest Element.md"
+    "Files/Complete lattices are bounded.md",
+    "Files/Inclusion Poset.md",
+    "Files/Criteria for fineness w.r.t bases.md",
+    "Files/De Morgan's Laws.md",
+    "Files/ON is well-ordered by membership.md",
+    "Files/Set of natural numbers is the least limit ordinal.md",
+    "Files/Identity Function.md",
+    "Files/Criteria for collection to generate an existing topology.md",
+    "Files/Strict Total Order.md",
+    "Files/Transitive set iff every element is a subset.md"
   ]
 }

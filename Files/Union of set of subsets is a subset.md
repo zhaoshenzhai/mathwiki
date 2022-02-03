@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $A$ and $b$ be sets. If every $a\in A$ is a subset of $b$, then $\bigcup A\subseteq b$.
+_Let $A$ and $b$ be sets. If every $a\in A$ is a subset of $b$, then $\bigcup A\subseteq b$._
 
 --- admonition
 

@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $u$ be a non-empty set. Then there exists a unique set $z$ whose elements are exactly the sets $x$ such that for all $v\in u$, we have $x\in v$. Formally,
+_Let $u$ be a non-empty set. Then there exists a unique set $z$ whose elements are exactly the sets $x$ such that for all $v\in u$, we have $x\in v$. Formally,_
 $$\begin{equation}
     \fa u\ex!z\fa x\l[x\in z\Leftrightarrow\fa v\l(v\in u\Rightarrow x\in v\r)\r].
 \end{equation}$$

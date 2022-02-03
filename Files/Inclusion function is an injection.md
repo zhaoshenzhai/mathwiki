@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $X$ be a set. The inclusion function on $X$ is an injection.
+_Let $X$ be a set. The inclusion function on $X$ is an injection._
 
 --- admonition
 

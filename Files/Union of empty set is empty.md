@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-$\bigcup\em=\em$.
+_$\bigcup\em=\em$._
 
 --- admonition
 

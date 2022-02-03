@@ -13,6 +13,6 @@ Properties: [[Universal set is a proper class]]
 
 !!! ad-Definition Definition (Informal).
 
-The **universal class** is the proper class $V\coloneqq\l\{x\mid x\textrm{ is a set}\r\}$.
+_The **universal class** is the proper class $V\coloneqq\l\{x\mid x\textit{ is a set}\r\}$._
 
 --- admonition

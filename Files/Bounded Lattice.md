@@ -13,6 +13,6 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-A lattice $\l\langle X,\leq\r\rangle$ is **bounded** if there exist $\top,\bot\in X$ such that $\fa x\in X:\bot\leq x\leq\top$.
+_A lattice $\l\langle X,\leq\r\rangle$ is **bounded** if there exist $\top,\bot\in X$ such that $\fa x\in X:\bot\leq x\leq\top$._
 
 --- admonition

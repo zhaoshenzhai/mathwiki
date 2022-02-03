@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $f:X\to Y$ be a bijection. Then the inverse function $f^{-1}:Y\to X$ is also a bijection.
+_Let $f:X\to Y$ be a bijection. Then the inverse function $f^{-1}:Y\to X$ is also a bijection._
 
 --- admonition
 

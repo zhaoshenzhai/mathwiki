@@ -13,7 +13,7 @@ Properties: [[Replacement image of a set is a set]], [[Replacement image implies
 
 !!! ad-Definition Definition.
 
-Let $v$ be a set and let $\phi\l(x,y\r)$ be a formula such that $\fa x\in v,\ex!y:\phi\l(x,y\r)$. Then **replacement image of $v$ under $\phi\l(x,y\r)$** is the set
+_Let $v$ be a set and let $\phi\l(x,y\r)$ be a formula such that $\fa x\in v,\ex!y:\phi\l(x,y\r)$. The **replacement image of $v$ under $\phi\l(x,y\r)$** is the set_
 $$\begin{equation}
     \im_\phi\!\l(v\r)\coloneqq\l\{y\mid\ex x\in v:\phi\l(x,y\r)\r\}.
 \end{equation}$$

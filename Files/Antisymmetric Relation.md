@@ -13,7 +13,7 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. A binary relation $R$ is **antisymmetric on $X$** if
+_Let $X$ be a set. A binary relation $R$ is **antisymmetric on $X$** if_
 $$\begin{equation}
     \fa x,y\in X:\l(xRy\land yRx\r)\Rightarrow x=y.
 \end{equation}$$

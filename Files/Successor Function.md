@@ -13,6 +13,6 @@ Properties: [[Successor of an ordinal is the next smallest ordinal]], [[Successo
 
 !!! ad-Definition Definition.
 
-Let $x$ be a set. The **successor of $x$** is the set $S\l(x\r)\coloneqq x\cup\l\{x\r\}$.
+_Let $x$ be a set. The **successor of $x$** is the set $S\l(x\r)\coloneqq x\cup\l\{x\r\}$._
 
 --- admonition

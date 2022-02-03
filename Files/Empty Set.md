@@ -13,7 +13,7 @@ Properties: [[Empty set exists]], [[Empty set is unique]], [[Union of empty set 
 
 !!! ad-Definition Definition.
 
-A set $u$ is an **empty set** if $\operatorname{emp}\l(u\r)$.
+_A set $u$ is an **empty set** if $\operatorname{emp}\l(u\r)$._
 
 --- admonition
 

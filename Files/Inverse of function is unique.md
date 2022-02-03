@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $f:X\to Y$. Then the inverse function of $f$ is unique.
+_Let $f:X\to Y$. Then the inverse function of $f$ is unique._
 
 --- admonition
 

@@ -13,9 +13,9 @@ Properties: [[Cofinite topology is a topology]]
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. The **cofinite topology on $X$** is the topology
+_Let $X$ be a set. The **cofinite topology on $X$** is the topology_
 $$\begin{equation}
-    \mc{T}_\textrm{cf}\coloneqq\l\{U\in\mc{P}\l(X\r)\mid\l(U=\em\r)\lor\l(X\comp U\textrm{ is finite}\r)\r\}.
+    \mc{T}_\textit{cf}\coloneqq\l\{U\in\mc{P}\l(X\r)\mid\l(U=\em\r)\lor\l(X\comp U\textit{ is finite}\r)\r\}.
 \end{equation}$$
 
 --- admonition

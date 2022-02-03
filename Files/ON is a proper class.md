@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition (Burali-Forti Paradox).
 
-The collection of all ordinals $\ord$ is a proper class.
+_The collection of all ordinals $\ord$ is a proper class._
 
 --- admonition
 

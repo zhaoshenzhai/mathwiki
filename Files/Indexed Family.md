@@ -13,7 +13,7 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $f:I\to\mc{A}$ be a function. If $\mc{A}$ contains elements that we $\textrm{`}$usually$\textrm{'}$ regard as sets themselves, then $f$ is called an **indexed family of sets in $\mc{A}$ indexed by $I$**. Write $A_i\coloneqq f\l(i\r)$ and $\l\{A_i\r\}_{i\in I}\coloneqq f$ instead.
+_Let $f:I\to\mc{A}$ be a function. If $\mc{A}$ contains elements that we $\textrm{`}$usually$\textrm{'}$ regard as sets themselves, then $f$ is called an **indexed family of sets in $\mc{A}$ indexed by $I$**. Write $A_i\coloneqq f\l(i\r)$ and_ $\l\{A_i\r\}_{i\in I}\coloneqq f$ _instead._
 
 --- admonition
 

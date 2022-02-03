@@ -13,6 +13,6 @@ Properties: [[Intersection of ordinals is an ordinal]], [[Successor of an ordina
 
 !!! ad-Definition Definition.
 
-A set $\alpha$ is a **(von Neumann) ordinal** if $\alpha$ is a transitive set and $\alpha$ is well-ordered by $\in$.
+_A set $\alpha$ is a **(von Neumann) ordinal** if $\alpha$ is a transitive set and $\alpha$ is well-ordered by $\in$._
 
 --- admonition

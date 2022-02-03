@@ -9,11 +9,11 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $R$ be a binary relation and fix a non-empty subset $\mc{A}\subseteq\mc{P}\l(\dom R\r)$, that is, fix a non-empty collection of subsets of $\dom R$. Then
+_Let $R$ be a binary relation and fix a non-empty subset $\mc{A}\subseteq\mc{P}\l(\dom R\r)$, that is, fix a non-empty collection of subsets of $\dom R$. Then_
 $$\begin{equation}
     \im_R\l(\bigcap\mc{A}\r)\subseteq\bigcap\l\{\im_R\l(A\r)\mid A\in\mc{A}\r\}.
 \end{equation}$$
-Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xRy$; if $R=f$ is a function, then equality holds iff $f$ is injective.
+_Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xRy$; if $R=f$ is a function, then equality holds iff $f$ is injective._
 
 --- admonition
 

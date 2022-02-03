@@ -13,6 +13,6 @@ Properties: [[Collection of all singletons is a proper class]]
 
 !!! ad-Definition Definition.
 
-Let $x$ be a set. The **singleton set of $x$** is the set $\l\{x\r\}\coloneqq\l\{x,x\r\}$.
+_Let $x$ be a set. The **singleton set of $x$** is the set $\l\{x\r\}\coloneqq\l\{x,x\r\}$._
 
 --- admonition

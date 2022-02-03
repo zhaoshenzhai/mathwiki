@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $X$ be a set. The collection $\l\{X\r\}$ is a basis for the trivial topology on $X$.
+_Let $X$ be a set. The collection $\l\{X\r\}$ is a basis for the trivial topology on $X$._
 
 --- admonition
 

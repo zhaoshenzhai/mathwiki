@@ -13,7 +13,7 @@ Properties: [[Cartesian product (Kuratowski) is a set (Power Set)]], [[Cartesian
 
 !!! ad-Definition Definition.
 
-Let $X$ and $Y$ be sets. The **Cartesian product of $X$ and $Y$** is the set
+_Let $X$ and $Y$ be sets. The **Cartesian product of $X$ and $Y$** is the set_
 $$\begin{equation}
     X\times Y\coloneqq\l\{u\mid\ex x\in X,\ex y\in Y:u=\l\langle x,y\r\rangle\r\}.
 \end{equation}$$

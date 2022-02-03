@@ -13,6 +13,6 @@ Properties: [[Greatest and least elements are unique]], [[Greatest equal maximal
 
 !!! ad-Definition Definition.
 
-Let $\l\langle X,\leq\r\rangle$ be a poset and fix $S\subseteq X$. The **greatest element of $S$** is an element $g\in S$ such that $\fa s\in S:s\leq g$.
+_Let $\l\langle X,\leq\r\rangle$ be a poset and fix $S\subseteq X$. The **greatest element of $S$** is an element $g\in S$ such that $\fa s\in S:s\leq g$._
 
 --- admonition

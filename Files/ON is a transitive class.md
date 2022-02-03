@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-The class of ordinal numbers $\ord$ is a transitive class. That is,
+_The class of ordinal numbers $\ord$ is a transitive class. That is,_
 $$\begin{equation}
     \fa z,\alpha:\l(z\in\alpha\land\alpha\in\ord\Rightarrow z\in\ord\r).
 \end{equation}$$

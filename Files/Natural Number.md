@@ -13,9 +13,9 @@ Properties: [[Successor of natural number is a natural number]]
 
 !!! ad-Definition Definition.
 
-An ordinal $\beta$ is called a **natural number** if
+_An ordinal $\beta$ is called a **natural number** if_
 $$\begin{equation}
-    \fa\alpha\in\ord:\alpha\subseteq\beta\Rightarrow\l(\alpha=\em\lor\alpha\textrm{ is a successor ordinal}\r).
+    \fa\alpha\in\ord:\alpha\subseteq\beta\Rightarrow\l(\alpha=\em\lor\alpha\textit{ is a successor ordinal}\r).
 \end{equation}$$
 
 --- admonition

@@ -13,7 +13,7 @@ Properties: [[Inverse of function is unique]], [[Invertible iff bijective]], [[I
 
 !!! ad-Definition Definition.
 
-Let $f:X\to Y$. A function $f^{-1}:Y\to X$ is an **inverse of $f$** if $f^{-1}$ is both a left and right inverse of $f$.
+_Let $f:X\to Y$. A function $f^{-1}:Y\to X$ is an **inverse of $f$** if $f^{-1}$ is both a left and right inverse of $f$._
 
 --- admonition
 

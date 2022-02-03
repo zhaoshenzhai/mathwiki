@@ -13,7 +13,7 @@ Properties: [[Left inverse iff injection]], [[Image of intersection subset of in
 
 !!! ad-Definition Definition.
 
-A function $f:X\to Y$ is an **injection** if
+_A function $f:X\to Y$ is an **injection** if_
 $$\begin{equation}
     \fa x,x'\in X:f\l(x\r)=f\l(x'\r)\Rightarrow x=x'.
 \end{equation}$$

@@ -9,7 +9,7 @@ Generalizations: [[Union of subsets is a subset of union]]
 
 !!! ad-Proposition Proposition.
 
-Let $A$ and $B$ be sets. If $A\subseteq B$, then $A\cup C\subseteq B\cup C$ for any set $C$.
+_Let $A$ and $B$ be sets. If $A\subseteq B$, then $A\cup C\subseteq B\cup C$ for any set $C$._
 
 --- admonition
 

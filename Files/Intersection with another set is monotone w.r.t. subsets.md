@@ -9,7 +9,7 @@ Generalizations: [[Intersection of subsets is a subset of intersection]]
 
 !!! ad-Proposition Proposition.
 
-Let $A$ and $B$ be sets. If $A\subseteq B$, then $A\cap C\subseteq B\cap C$ for any set $C$.
+_Let $A$ and $B$ be sets. If $A\subseteq B$, then $A\cap C\subseteq B\cap C$ for any set $C$._
 
 --- admonition
 

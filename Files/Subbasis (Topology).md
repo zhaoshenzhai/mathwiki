@@ -13,6 +13,6 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. A **subbasis for a topology on $X$** is a set $\mc{S}\subseteq\mc{P}\l(X\r)$ such that $\mc{S}$ covers $X$.
+_Let $X$ be a set. A **subbasis for a topology on $X$** is a set $\mc{S}\subseteq\mc{P}\l(X\r)$ such that $\mc{S}$ covers $X$._
 
 --- admonition

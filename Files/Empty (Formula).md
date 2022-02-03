@@ -13,6 +13,6 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in\r\}$. Then **$\operatorname{emp}\l(x\r)$** is the $\mc{L}$-formula $\fa z\l(z\not\in x\r)$.
+_Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in\r\}$. Then **$\operatorname{emp}\l(x\r)$** is the $\mc{L}$-formula $\fa z\l(z\not\in x\r)$._
 
 --- admonition

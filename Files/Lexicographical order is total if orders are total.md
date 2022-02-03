@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $\leq$ and $\preceq$ be total orders on the sets $X$ and $Y$, respectively. Then their lexicographical order $\sqsubseteq$ is a total order on $X\times Y$.
+_Let $\leq$ and $\preceq$ be total orders on the sets $X$ and $Y$, respectively. Then their lexicographical order $\sqsubseteq$ is a total order on $X\times Y$._
 
 --- admonition
 

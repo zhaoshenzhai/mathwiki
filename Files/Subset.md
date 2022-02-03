@@ -13,9 +13,9 @@ Properties: [[Subset relation is transitive]]
 
 !!! ad-Definition Definition.
 
-Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in\r\}$. Then
-* the **subset** relation $u\subseteq v$ is the $\mc{L}$-formula $\fa x\l(x\in u\Rightarrow x\in v\r)$ and
-* the **proper subset** relation $u\subset v$ is the $\mc{L}$-formula $u\subseteq v\land u\neq v$.
+_Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in\r\}$. Then_
+* _the **subset** relation $u\subseteq v$ is the $\mc{L}$-formula $\fa x\l(x\in u\Rightarrow x\in v\r)$ and_
+* _the **proper subset** relation $u\subset v$ is the $\mc{L}$-formula $u\subseteq v\land u\neq v$._
 
 --- admonition
 

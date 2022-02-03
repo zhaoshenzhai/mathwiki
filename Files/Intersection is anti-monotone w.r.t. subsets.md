@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $A$ and $B$ be sets where $A\neq\em$. If $A\subseteq B$, then $\bigcap B\subseteq\bigcap A$.
+_Let $A$ and $B$ be sets where $A\neq\em$. If $A\subseteq B$, then $\bigcap B\subseteq\bigcap A$._
 
 --- admonition
 

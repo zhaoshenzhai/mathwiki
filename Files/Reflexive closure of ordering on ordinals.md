@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-For all ordinals $\alpha$ and $\beta$, we have $\alpha\subseteq\beta\Leftrightarrow\alpha\in\beta\lor\alpha=\beta$.
+_For all ordinals $\alpha$ and $\beta$, we have $\alpha\subseteq\beta\Leftrightarrow\alpha\in\beta\lor\alpha=\beta$._
 
 --- admonition
 

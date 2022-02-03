@@ -13,7 +13,7 @@ Properties: [[Fundamental Theorem of Equivalence Relations]]
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. The **quotient set of $X$ under $\sim$** is the set
+_Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. The **quotient set of $X$ under $\sim$** is the set_
 $$\begin{equation}
     X/\!\sim\,\coloneqq\l\{\l[x\r]_\sim\in\mc{P}\l(X\r)\mid x\in X\r\}.
 \end{equation}$$

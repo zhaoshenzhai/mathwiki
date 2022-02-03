@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $v$ be a set and let $\phi\l(x,y\r)$ be a formula, not free in $z$, such that $\fa x\in v,\ex!y:\phi\l(x,y\r)$. Then there exists a unique set $z$ whose elements are exactly the sets $y$ that (uniquely) correspond to each $x\in v$. Formally,
+_Let $v$ be a set and let $\phi\l(x,y\r)$ be a formula, not free in $z$, such that $\fa x\in v,\ex!y:\phi\l(x,y\r)$. Then there exists a unique set $z$ whose elements are exactly the sets $y$ that (uniquely) correspond to each $x\in v$. Formally,_
 $$\begin{equation}
     \fa v\l[\l(\fa x\in v,\ex!y:\phi\l(x,y\r)\r)\Rightarrow\ex!z\l(y\in z\Leftrightarrow\ex x\in v:\phi\l(x,y\r)\r)\r].
 \end{equation}$$

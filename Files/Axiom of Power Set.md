@@ -13,7 +13,7 @@ Properties: _Not Applicable_
 
 !!! ad-Axiom Axiom.
 
-Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in,\subseteq\r\}$. The **Axiom of Power Set** is the $\mc{L}$-formula
+_Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in,\subseteq\r\}$. The **Axiom of Power Set** is the $\mc{L}$-formula_
 $$\begin{equation}
     \fa u\ex z\fa x\l(x\subseteq u\Rightarrow x\in z\r).
 \end{equation}$$

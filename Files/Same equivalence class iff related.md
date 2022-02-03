@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $\sim$ be an equivalence relation on $X$ and fix $x,y\in X$. Then $\l[x\r]_\sim=\l[y\r]_\sim$ iff $x\sim y$.
+_Let $\sim$ be an equivalence relation on $X$ and fix $x,y\in X$. Then_ $\l[x\r]_\sim=\l[y\r]_\sim$ _iff_ $x\sim y$_._
 
 --- admonition
 

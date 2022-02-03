@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $\sim$ be an equivalence relation on $X$. The canonical projection $\pi_\sim=\l\{z\mid\ex x\in X:z=\l\langle x,\l[x\r]_\sim\r\rangle\r\}$ is a function.
+_Let $\sim$ be an equivalence relation on $X$. The canonical projection_ $\pi_\sim=\l\{z\mid\ex x\in X:z=\l\langle x,\l[x\r]_\sim\r\rangle\r\}$ _is a function._
 
 --- admonition
 

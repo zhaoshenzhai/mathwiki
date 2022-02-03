@@ -13,7 +13,7 @@ Properties: [[(Right inverse iff surjection) iff Choice]]
 
 !!! ad-Definition Definition.
 
-A function $f:X\to Y$ is a **surjection w.r.t. $Y$** if $\ran f=Y$.
+_A function $f:X\to Y$ is a **surjection w.r.t. $Y$** if $\ran f=Y$._
 
 --- admonition
 

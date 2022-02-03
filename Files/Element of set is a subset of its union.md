@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $A$ be a set. For every $a\in A$, we have $a\subseteq\bigcup A$.
+_Let $A$ be a set. For every $a\in A$, we have $a\subseteq\bigcup A$._
 
 --- admonition
 

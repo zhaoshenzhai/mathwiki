@@ -13,7 +13,7 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. A binary relation $R$ is **connected on $X$** if
+_Let $X$ be a set. A binary relation $R$ is **connected on $X$** if_
 $$\begin{equation}
     \fa x,y\in X:xRy\lor yRx\lor x=y.
 \end{equation}$$

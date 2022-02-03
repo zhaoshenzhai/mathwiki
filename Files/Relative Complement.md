@@ -13,7 +13,7 @@ Properties: [[De Morgan's Laws]], [[Complement is anti-monotone w.r.t subsets]],
 
 !!! ad-Definition Definition.
 
-Let $u$ and $v$ be sets. The **relative complement of $u$ w.r.t $v$** is the set
+_Let $u$ and $v$ be sets. The **relative complement of $u$ w.r.t $v$** is the set_
 $$\begin{equation}
     v\comp u\coloneqq\l\{x\in v\mid x\not\in u\r\}.
 \end{equation}$$

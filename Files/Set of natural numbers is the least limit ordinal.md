@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-The set of natural numbers $\omega$ is a limit ordinal whose elements are not limit ordinals.
+_The set of natural numbers $\omega$ is a limit ordinal whose elements are not limit ordinals._
 
 --- admonition
 

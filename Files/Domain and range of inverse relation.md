@@ -9,9 +9,9 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $R$ be a binary relation. Then
+_Let $R$ be a binary relation. Then_
 $$\begin{equation}
-    \dom R^{-1}=\ran R\ \ \ \ \textrm{and}\ \ \ \ \ran R^{-1}=\dom R.
+    \dom R^{-1}=\ran R\ \ \ \ \textit{and}\ \ \ \ \ran R^{-1}=\dom R.
 \end{equation}$$
 
 --- admonition

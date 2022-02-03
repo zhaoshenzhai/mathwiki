@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $\l\langle X,\leq\r\rangle$ be an ordered set and fix $S\subseteq X$. Then $m\in S$ is the greatest element of $S$ iff it is the $<$-maximal element of $S$.
+_Let $\l\langle X,\leq\r\rangle$ be an ordered set and fix $S\subseteq X$. Then $m\in S$ is the greatest element of $S$ iff it is the $<$-maximal element of $S$._
 
 --- admonition
 

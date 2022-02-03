@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-The collection of all functions form a proper class. Formally, $\fa v,\ex\textrm{ function }f:f\not\in v$.
+_The collection of all functions form a proper class. Formally, $\fa v,\ex f:f\textit{ is a function}\land f\not\in v$._
 
 --- admonition
 

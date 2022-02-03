@@ -13,7 +13,7 @@ Properties: [[Image of union is union of images]], [[Image of intersection subse
 
 !!! ad-Definition Definition.
 
-Let $R$ be a binary relation and let $S$ be a set. The **image of $S$ under $R$** is the set
+_Let $R$ be a binary relation and let $S$ be a set. The **image of $S$ under $R$** is the set_
 $$\begin{equation}
     \im_R\l(S\r)\coloneqq R\l[S\r]\coloneqq\ran\l(R\rest S\r).
 \end{equation}$$

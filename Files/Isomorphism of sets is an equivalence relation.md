@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-The relation $\iso$ on any collection of sets is an equivalence relation.
+_The relation $\iso$ on any collection of sets is an equivalence relation._
 
 --- admonition
 

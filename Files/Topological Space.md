@@ -13,6 +13,6 @@ Properties: [[Set is open if covered by open subsets]]
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set and $\mc{T}$ be a topology on $X$. The pair $\l\langle X,\mc{T}\r\rangle$ is called a **topological space**.
+_Let $X$ be a set and $\mc{T}$ be a topology on $X$. The pair $\l\langle X,\mc{T}\r\rangle$ is called a **topological space**._
 
 --- admonition

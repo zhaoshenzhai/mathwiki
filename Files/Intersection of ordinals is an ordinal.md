@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-For all ordinals $\alpha$ and $\beta$, we have $\alpha\cap\beta\in\ord$.
+_For all ordinals $\alpha$ and $\beta$, we have $\alpha\cap\beta\in\ord$._
 
 --- admonition
 

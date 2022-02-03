@@ -13,6 +13,6 @@ Properties: [[Lattice of subsets is a complete lattice]]
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. The **lattice of subsets of $X$** is the pair $\l\langle\mc{P}\l(X\r),\subseteq\r\rangle$.
+_Let $X$ be a set. The **lattice of subsets of $X$** is the pair $\l\langle\mc{P}\l(X\r),\subseteq\r\rangle$._
 
 --- admonition

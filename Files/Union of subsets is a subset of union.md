@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $A,B,C,D$ be sets with $A\subseteq B$ and $C\subseteq D$ Then $A\cup C\subseteq B\cup D$.
+_Let $A,B,C,D$ be sets with $A\subseteq B$ and $C\subseteq D$ Then $A\cup C\subseteq B\cup D$._
 
 --- admonition
 

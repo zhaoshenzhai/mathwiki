@@ -13,7 +13,7 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set. A binary relation $R$ is **reflexive on $X$** if
+_Let $X$ be a set. A binary relation $R$ is **reflexive on $X$** if_
 $$\begin{equation}
     \fa x\in X:xRx.
 \end{equation}$$

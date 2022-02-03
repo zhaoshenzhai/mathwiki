@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $f$ and $g$ be functions. If $\dom f=\dom g$ and $f\l(x\r)=g\l(x\r)$ for all $x$ in their common domain, then $f=g$.
+_Let $f$ and $g$ be functions. If $\dom f=\dom g$ and $f\l(x\r)=g\l(x\r)$ for all $x$ in their common domain, then $f=g$._
 
 --- admonition
 

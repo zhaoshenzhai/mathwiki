@@ -13,6 +13,6 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $X$ be a set and $\leq$ be a total order on $X$. The pair $\l\langle X,\leq\r\rangle$ is called a **totally ordered set** or an **ordered set**.
+_Let $X$ be a set and $\leq$ be a total order on $X$. The pair $\l\langle X,\leq\r\rangle$ is called a **totally ordered set** or an **ordered set**._
 
 --- admonition

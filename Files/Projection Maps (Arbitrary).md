@@ -13,9 +13,9 @@ Properties: [[Projection maps (arbitrary) are surjections]]
 
 !!! ad-Definition Definition.
 
-Let $\l\{X_i\r\}_{i\in I}$ be an indexed family. The **projection map onto the $j^\textbf{th}$ coordinate** is the function
+_Let_ $\l\{X_i\r\}_{i\in I}$ _be an indexed family. The **projection map onto the $j^\textbf{th}$ coordinate** is the function_
 $$\begin{equation}
-    \pi_j:\prod\limits_{i\in I}X_i\to X_j\ \ \ \ \textrm{mapping}\ \ \ \ f\mapsto f\l(j\r).
+    \pi_j:\prod\limits_{i\in I}X_i\to X_j\ \ \ \ \textit{mapping}\ \ \ \ f\mapsto f\l(j\r).
 \end{equation}$$
 
 --- admonition

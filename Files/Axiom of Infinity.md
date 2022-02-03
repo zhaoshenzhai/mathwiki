@@ -13,7 +13,7 @@ Properties: [[Principle of Ordinary Induction]]
 
 !!! ad-Axiom Axiom.
 
-Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in,S\r\}$. The **Axiom of Infinity** is the $\mc{L}$-formula
+_Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in,S\r\}$. The **Axiom of Infinity** is the $\mc{L}$-formula_
 $$\begin{equation}
     \ex I\l[\em\in I\land\fa i\in I:S\l(i\r)\in I\r].
 \end{equation}$$

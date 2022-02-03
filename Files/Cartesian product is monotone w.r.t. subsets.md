@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $A,B,C,D$ be sets. If $A\subseteq C$ and $B\subseteq D$, then $A\times B\subseteq C\times D$. The converse is true if $A,B\neq\em$.
+_Let $A,B,C,D$ be sets. If $A\subseteq C$ and $B\subseteq D$, then $A\times B\subseteq C\times D$. The converse is true if $A,B\neq\em$._
 
 --- admonition
 

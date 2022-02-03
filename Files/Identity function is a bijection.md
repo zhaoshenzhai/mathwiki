@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $X$ be a set. The identity function on $X$ is a bijection.
+_Let $X$ be a set. The identity function on $X$ is a bijection._
 
 --- admonition
 

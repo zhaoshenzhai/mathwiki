@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-There exists an empty set. Formally, $\ex e\l[\operatorname{emp}\l(e\r)\r]$.
+_There exists an empty set. Formally, $\ex e\l[\operatorname{emp}\l(e\r)\r]$._
 
 --- admonition
 

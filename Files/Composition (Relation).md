@@ -13,7 +13,7 @@ Properties: [[Composition of relations is a relation]], [[Inverse of composition
 
 !!! ad-Definition Definition.
 
-Let $R$ and $S$ be binary relations. The **composition of $S$ after $R$** is the relation
+_Let $R$ and $S$ be binary relations. The **composition of $S$ after $R$** is the relation_
 $$\begin{equation}
     S\circ R\coloneqq\l\{\l\langle x,z\r\rangle\mid\ex y\l(xRy\land ySz\r)\r\}.
 \end{equation}$$

@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $X$ be a set. Then $X=\bigcup_{x\in X}\l\{x\r\}=\bigcup\l\{\l\{x\r\}\in\mc{P}\l(X\r)\mid x\in X\r\}$.
+_Let $X$ be a set. Then_ $X=\bigcup_{x\in X}\l\{x\r\}=\bigcup\l\{\l\{x\r\}\in\mc{P}\l(X\r)\mid x\in X\r\}$_._
 
 --- admonition
 

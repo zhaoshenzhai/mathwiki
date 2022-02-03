@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-For all sets $A$ and $B$, we have $\mc{P}A\cap\mc{P}B=\mc{P}\l(A\cap B\r)$.
+_For all sets $A$ and $B$, we have $\mc{P}A\cap\mc{P}B=\mc{P}\l(A\cap B\r)$._
 
 --- admonition
 

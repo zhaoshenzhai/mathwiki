@@ -13,7 +13,7 @@ Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $R$ be a binary relation and let $T$ be a set. The **preimage of $T$ under $R$** is the set
+_Let $R$ be a binary relation and let $T$ be a set. The **preimage of $T$ under $R$** is the set_
 $$\begin{equation}
     \preim_R\l(T\r)\coloneqq R^{-1}\l[T\r]\coloneqq\ran\l(R^{-1}\rest S\r).
 \end{equation}$$

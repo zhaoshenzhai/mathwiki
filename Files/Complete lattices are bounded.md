@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $\l\langle X,\leq\r\rangle$ be a complete lattice. Then $\l\langle X,\leq\r\rangle$ is bounded.
+_Let $\l\langle X,\leq\r\rangle$ be a complete lattice. Then $\l\langle X,\leq\r\rangle$ is bounded._
 
 --- admonition
 

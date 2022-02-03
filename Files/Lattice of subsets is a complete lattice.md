@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-Let $X$ be a set. Then the pair $\l\langle\mc{P}\l(X\r),\subseteq\r\rangle$ is a complete lattice.
+_Let $X$ be a set. Then the pair $\l\langle\mc{P}\l(X\r),\subseteq\r\rangle$ is a complete lattice._
 
 --- admonition
 
