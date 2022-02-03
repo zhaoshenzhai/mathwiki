@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "db16046cbd0aa0bc",
+        "id": "46ad85a79a8b01e2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Files/Open Interval.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -67,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Files/Open Interval.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,6 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Files/Open Interval.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,10 +117,11 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Files/Open Interval.md",
                 "options": {
-                  "collapse-filter": false,
+                  "collapse-filter": true,
                   "search": "",
-                  "localJumps": 5,
+                  "localJumps": 4,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -157,12 +164,12 @@
                   "textFadeMultiplier": -0.8,
                   "nodeSizeMultiplier": 0.556775464834276,
                   "lineSizeMultiplier": 1.95111661277284,
-                  "collapse-forces": true,
+                  "collapse-forces": false,
                   "centerStrength": 0,
-                  "repelStrength": 11.484438156831,
+                  "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.09741539393725061,
+                  "scale": 0.08001043649587085,
                   "close": true
                 }
               }
@@ -175,17 +182,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "db16046cbd0aa0bc",
+  "active": "46ad85a79a8b01e2",
   "lastOpenFiles": [
-    "Files/Asymmetric Relation.md",
+    "Files/Open Interval.md",
+    "Files/Totally Ordered Set.md",
+    "Files/Binary Relation.md",
+    "Files/Topology on a Set.md",
+    "Files/Subset relation is transitive.md",
+    "Files/Function.md",
+    "Files/Quotient Set.md",
     "Files/Trichotomous Relation.md",
-    "Files/Trichotomous iff asymmetric and connected.md",
-    "Files/Connected Relation.md",
-    "Files/Irreflexive and transitive implies asymmetric.md",
-    "Files/Asymmetry implies irreflexivity.md",
-    "Files/Irreflexive Relation.md",
-    "Files/Strict Total Order.md",
-    "Files/Strict Partial Order.md",
-    "Files/Binary Relation.md"
+    "Files/Supremum.md",
+    "Files/Join-semilattice.md"
   ]
 }

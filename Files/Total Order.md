@@ -4,7 +4,7 @@
 Date Created: 19/01/2022 18:23:39
 Tags: #Definition #Closed 
 
-Constructions: [[Ordered Set]]
+Constructions: [[Totally Ordered Set]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
