@@ -4,7 +4,7 @@
 Date Created: 15/01/2022 21:15:56
 Tags: #Axiom #Open
 
-Constructions: [[ZFC]], [[Union]]
+Constructions: [[Union]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

@@ -4,7 +4,7 @@
 Date Created: 24/01/2022 15:29:44
 Tags: #Definition #Closed 
 
-Constructions: [[Lower Bound]], [[Upper Bound]]
+Constructions: [[Minimal Element]], [[Maximal Element]], [[Greatest Element]], [[Least Element]], [[Upper Bound]], [[Lower Bound]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

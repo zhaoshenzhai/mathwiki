@@ -13,7 +13,7 @@ Properties: [[Supremum and infimum are unique]]
 
 !!! ad-Definition Definition.
 
-Let $\l\langle X,\leq\r\rangle$ be a poset and fix $S\subseteq X$. The **supremum of $S$ in $X$** is an upper bound $u$ of $S$ such that $u\leq x$ for all upper bounds $x$ of $S$.
+Let $\l\langle X,\leq\r\rangle$ be a poset and fix $S\subseteq X$. The **supremum of $S$ in $X$** is an upper bound $u$ of $S$ in $X$ such that $u\leq u'$ for all upper bounds $u'$ of $S$ in $X$.
 
 --- admonition
 

@@ -4,7 +4,7 @@
 Date Created: 16/01/2022 16:34:42
 Tags: #Axiom #Open
 
-Constructions: [[ZFC]], [[Pair Set]]
+Constructions: [[Pair Set]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

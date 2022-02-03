@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c7d3e4e8160686de",
+        "id": "98b621160b339c45",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Files/(Right inverse iff surjection) iff Choice.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -45,13 +49,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 171,
-    "collapsed": true
+    "width": 171
   },
   "right": {
     "id": "9b204813a94e4120",
@@ -67,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Files/(Right inverse iff surjection) iff Choice.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,6 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Files/(Right inverse iff surjection) iff Choice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,10 +115,11 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Files/(Right inverse iff surjection) iff Choice.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 3,
+                  "localJumps": 5,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -153,7 +158,7 @@
                     }
                   ],
                   "collapse-display": true,
-                  "showArrow": false,
+                  "showArrow": true,
                   "textFadeMultiplier": -0.8,
                   "nodeSizeMultiplier": 0.556775464834276,
                   "lineSizeMultiplier": 1.95111661277284,
@@ -162,7 +167,7 @@
                   "repelStrength": 11.484438156831,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.27311875405856073,
+                  "scale": 0.09741539393725061,
                   "close": true
                 }
               }
@@ -175,17 +180,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "c7d3e4e8160686de",
+  "active": "98b621160b339c45",
   "lastOpenFiles": [
-    "Files/Set of natural numbers is the least limit ordinal.md",
-    "Files/Initial segment of ON is an ordinal.md",
-    "Files/Well-ordering well-orders subsets.md",
-    "Files/Well-founded Relation.md",
-    "Files/Limit Ordinal.md",
-    "Files/Natural Number.md",
-    "Files/Successor of an ordinal is the next smallest ordinal.md",
-    "Files/Ordinal (von Neumann).md",
-    "Files/Successor of natural number is a natural number.md",
-    "Files/Natural numbers form an initial segment of ON.md"
+    "Files/(Right inverse iff surjection) iff Choice.md",
+    "Files/Antisymmetric Relation.md",
+    "Files/Absolute complement of a set is a proper class.md",
+    "Files/Ordered Set.md",
+    "Files/Upper Bound.md",
+    "Files/Lower Bound.md",
+    "Files/Total Order.md",
+    "Files/Minimal Element.md",
+    "Files/Greatest and least elements are unique.md",
+    "Files/Greatest Element.md"
   ]
 }

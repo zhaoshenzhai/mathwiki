@@ -8,7 +8,7 @@ Constructions: [[Strict Partial Order]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
-Examples: [[Well-founded Relation]]
+Examples: [[Well-founded relations are irreflexive]]
 Properties: _Not Applicable_
 
 !!! ad-Definition Definition.

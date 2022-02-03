@@ -4,7 +4,7 @@
 Date Created: 16/01/2022 12:08:10
 Tags: #Axiom #Open 
 
-Constructions: [[ZFC]], [[Set-Builder Notation]]
+Constructions: [[Set-Builder Notation]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

@@ -4,7 +4,7 @@
 Date Created: 02/02/2022 11:09:41
 Tags: #Axiom #Open 
 
-Constructions: [[ZFC]], [[Set of Natural Numbers]]
+Constructions: [[Set of Natural Numbers]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

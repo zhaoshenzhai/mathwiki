@@ -4,7 +4,7 @@
 Date Created: 17/01/2022 19:08:57
 Tags: #Axiom #Open
 
-Constructions: [[ZFC]], [[Power Set]]
+Constructions: [[Power Set]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

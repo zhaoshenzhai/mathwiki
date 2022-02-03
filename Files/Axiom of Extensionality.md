@@ -4,7 +4,7 @@
 Date Created: 16/01/2022 10:57:06
 Tags: #Axiom #Open
 
-Constructions: [[ZFC]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

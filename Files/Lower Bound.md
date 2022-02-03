@@ -4,15 +4,15 @@
 Date Created: 24/01/2022 15:51:38
 Tags: #Definition #Closed 
 
-Constructions: _Not Applicable_
+Constructions: [[Infimum]]
 Generalizations: _Not Applicable_
 
-Types: [[Infimum]]
+Types: [[Least Element]]
 Examples: _Not Applicable_ 
 Properties: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-Let $\l\langle X,\leq\r\rangle$ be a poset and fix $S\subseteq X$. A **lower bound of $S$ in $X$** is an element $l\in X$ such that $l\leq s$ for all $s\in S$. 
+Let $\l\langle X,\leq\r\rangle$ be a poset and fix $S\subseteq X$. A **lower bound of $S$ in $X$** is an element $l\in X$ such that $\fa s\in S:l\leq s$. 
 
 --- admonition
