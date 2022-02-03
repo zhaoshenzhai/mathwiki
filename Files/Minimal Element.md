@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Properties: _Not Applicable_
+Properties: [[Least equal minimal for ordered sets]]
 
 !!! ad-Definition Definition.
 

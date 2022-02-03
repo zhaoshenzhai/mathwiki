@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Properties: [[Greatest and least elements are unique]]
+Properties: [[Greatest and least elements are unique]], [[Least equal minimal for ordered sets]]
 
 !!! ad-Definition Definition.
 

@@ -229,5 +229,13 @@
       ],
       "key": "M"
     }
+  ],
+  "juggl:open-vis-global": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "D"
+    }
   ]
 }

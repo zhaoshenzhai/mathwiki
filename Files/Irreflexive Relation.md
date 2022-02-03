@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: [[Well-founded relations are irreflexive]]
-Properties: _Not Applicable_
+Properties: [[Asymmetry implies irreflexivity]], [[Irreflexive and transitive implies asymmetric]]
 
 !!! ad-Definition Definition.
 

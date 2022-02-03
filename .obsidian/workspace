@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "98b621160b339c45",
+        "id": "db16046cbd0aa0bc",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Complete lattices are bounded.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -49,7 +45,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -70,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Complete lattices are bounded.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +94,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Complete lattices are bounded.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +111,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Complete lattices are bounded.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -181,17 +175,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "98b621160b339c45",
+  "active": "db16046cbd0aa0bc",
   "lastOpenFiles": [
-    "Files/Complete lattices are bounded.md",
-    "Files/Inclusion Poset.md",
-    "Files/Criteria for fineness w.r.t bases.md",
-    "Files/De Morgan's Laws.md",
-    "Files/ON is well-ordered by membership.md",
-    "Files/Set of natural numbers is the least limit ordinal.md",
-    "Files/Identity Function.md",
-    "Files/Criteria for collection to generate an existing topology.md",
+    "Files/Asymmetric Relation.md",
+    "Files/Trichotomous Relation.md",
+    "Files/Trichotomous iff asymmetric and connected.md",
+    "Files/Connected Relation.md",
+    "Files/Irreflexive and transitive implies asymmetric.md",
+    "Files/Asymmetry implies irreflexivity.md",
+    "Files/Irreflexive Relation.md",
     "Files/Strict Total Order.md",
-    "Files/Transitive set iff every element is a subset.md"
+    "Files/Strict Partial Order.md",
+    "Files/Binary Relation.md"
   ]
 }

@@ -1,0 +1,21 @@
+<br />
+<br />
+
+Date Created: 03/02/2022 17:53:55
+Tags: #Definition #Closed 
+
+Constructions: _Not Applicable_
+Generalizations: _Not Applicable_
+
+Types: _Not Applicable_
+Examples: _Not Applicable_
+Properties: [[Irreflexive and transitive implies asymmetric]], [[Asymmetry implies irreflexivity]], [[Trichotomous iff asymmetric and connected]]
+
+!!! ad-Definition Definition.
+
+_Let $X$ be a set. A binary relation $R$ is **asymmetric on $X$** if_
+$$\begin{equation}
+    \fa x,y\in X:\lnot\l(xRy\land yRx\r).
+\end{equation}$$
+
+--- admonition
