@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: [[Singleton is a basis for the trivial topology]], [[Set of singletons is a basis for the discrete topology]], [[Set of open intervals with rational endpoints is a basis for standard topology on R]]
-Properties: [[Criteria for collection to generate an existing topology]]
+Properties: [[Criteria for collection to be a basis for an existing topology]]
 
 !!! ad-Definition Definition.
 

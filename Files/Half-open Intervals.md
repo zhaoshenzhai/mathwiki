@@ -4,10 +4,10 @@
 Date Created: 03/02/2022 20:11:33
 Tags: #Definition #Closed 
 
-Constructions: _Not Applicable_
+Constructions: [[Lower-limit Topology on R]], [[Upper-limit Topology on R]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
+Types: [[Bounded Open Ray]]
 Examples: _Not Applicable_
 Properties: _Not Applicable_
 

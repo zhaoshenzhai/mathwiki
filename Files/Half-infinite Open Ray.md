@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Properties: _Not Applicable_
+Properties: [[Set of half-infinite open rays is a subasis for standard topology on R]], [[Set of half-infinite open rays with rational endpoints is a subasis for standard topology on R]]
 
 !!! ad-Definition Definition.
 
