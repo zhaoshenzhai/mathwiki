@@ -4,7 +4,7 @@
 Date Created: 24/01/2022 15:31:46
 Tags: #Definition #Closed 
 
-Constructions: _Not Applicable_
+Constructions: [[Open Interval]], [[Half-open Intervals]], [[Closed Interval]], [[Open Ray]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

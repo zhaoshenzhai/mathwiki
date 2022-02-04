@@ -1,0 +1,22 @@
+<br />
+<br />
+
+Date Created: 04/02/2022 10:59:31
+Tags: #Definition #Closed 
+
+Constructions: [[Order Topology]]
+Generalizations: _Not Applicable_
+
+Types: _Not Applicable_
+Examples: _Not Applicable_
+Properties: _Not Applicable_
+
+!!! ad-Definition Definition.
+
+_Let $\l\langle X,<\r\rangle$ be a totally ordered set. If there exists a lower bound $a_0\in X$ (resp. an upper bound $b_0\in X$), then the open ray_
+$$\begin{equation}
+    \l[a_0,b\r)=\l\{x\in X\mid\ex b\in X:x<b\r\}\ \ \ \ \ \ \ \ \textit{(resp. }\l(a,b_0\r]=\l\{x\in X\mid\ex a\in X:x>a\r\}\textit{)}
+\end{equation}$$
+_is said to be **bounded below** (resp. **above**)._
+
+--- admonition

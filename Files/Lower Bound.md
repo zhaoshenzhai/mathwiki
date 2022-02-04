@@ -4,7 +4,7 @@
 Date Created: 24/01/2022 15:51:38
 Tags: #Definition #Closed 
 
-Constructions: [[Infimum]]
+Constructions: [[Infimum]], [[Bounded Open Ray]]
 Generalizations: _Not Applicable_
 
 Types: [[Least Element]]

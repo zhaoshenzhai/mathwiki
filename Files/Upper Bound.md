@@ -4,7 +4,7 @@
 Date Created: 24/01/2022 15:35:06
 Tags: #Definition #Closed 
 
-Constructions: [[Supremum]]
+Constructions: [[Supremum]], [[Bounded Open Ray]]
 Generalizations: _Not Applicable_
 
 Types: [[Greatest Element]]
