@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "a4a72eb0123e5942",
+        "id": "95fde93567a1fb59",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -162,7 +162,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.5362340223667812,
+                  "scale": 0.08664212700070749,
                   "close": true
                 }
               }
@@ -175,17 +175,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "a4a72eb0123e5942",
+  "active": "95fde93567a1fb59",
   "lastOpenFiles": [
-    "Files/Upper-limit topology is a topology on R.md",
+    "Files/Criteria for fineness w.r.t bases.md",
     "Files/Lower-limit Topology on R.md",
-    "Files/Lower-limit topology is a topology on R.md",
     "Files/Upper-limit Topology on R.md",
-    "Files/Basis (Topology).md",
-    "Files/Set of open intervals with rational endpoints is a basis for standard topology on R.md",
-    "Files/Set of half-infinite open rays with rational endpoints is a subasis for standard topology on R.md",
-    "Files/Set of half-infinite open rays is a subasis for standard topology on R.md",
-    "Files/Standard topology on R (explicit).md",
-    "Files/Standard Topology on R.md"
+    "Files/K Topology on R.md",
+    "Files/Lower and K topologies are not comparable.md",
+    "Files/Lower and upper limit topologies are not comparable.md",
+    "Files/Upper-limit topology strictly finer than K topology.md",
+    "Files/K topology strictly finer than standard topology.md",
+    "Files/Order topology is a topology.md",
+    "Files/Set of half-infinite open rays is a subasis for standard topology on R.md"
   ]
 }

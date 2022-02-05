@@ -4,7 +4,7 @@
 Date Created: 03/02/2022 20:06:33
 Tags: #Definition #Closed 
 
-Constructions: [[Order Topology]]
+Constructions: [[Order Topology]], [[K Topology on R]]
 Generalizations: _Not Applicable_
 
 Types: _Not Applicable_

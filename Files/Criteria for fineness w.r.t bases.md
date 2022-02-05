@@ -4,13 +4,13 @@
 Date Created: 24/01/2022 17:03:01
 Tags: #Proposition #Closed 
 
-Proved by: [[Subset relation is transitive]]
+Proved by: _Not Applicable_
 Proves: _Not Applicable_
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-_Let $X$ be a set and $\mc{B}_1$ and $\mc{B}_2$ be bases for the topologies $\mc{T}\l(\mc{B}_1\r)$ and $\mc{T}\l(\mc{B}_2\r)$, respectively. Then $\mc{T}\l(\mc{B_2}\r)$ is finer than $\mc{T}\l(\mc{B}_1\r)$ iff_
+_Let $X$ be a set and $\mc{B}_1$ and $\mc{B}_2$ be bases for the topologies $\mc{T}\l(\mc{B}_1\r)$ and $\mc{T}\l(\mc{B}_2\r)$, respectively. Then $\mc{T}\l(\mc{B}_2\r)$ is finer than $\mc{T}\l(\mc{B}_1\r)$ iff_
 $$\begin{equation}
     \fa x\in X,\fa B_1\in\mc{B}_1:\l[x\in B_1\Rightarrow\l(\ex B_2\in\mc{B}_2:x\in B_2\subseteq B_1\r)\r].
 \end{equation}$$

@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Properties: [[Upper-limit topology is a topology on R]]
+Properties: [[Upper-limit topology is a topology on R]], [[Upper-limit topology strictly finer than standard topology]], [[Upper-limit topology strictly finer than K topology]], [[Lower and upper limit topologies are not comparable]]
 
 !!! ad-Definition Definition.
 

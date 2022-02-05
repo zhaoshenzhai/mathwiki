@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Properties: [[Lower-limit topology is a topology on R]]
+Properties: [[Lower-limit topology is a topology on R]], [[Lower-limit topology strictly finer than standard topology]], [[Lower and upper limit topologies are not comparable]], [[Lower and K topologies are not comparable]]
 
 !!! ad-Definition Definition.
 

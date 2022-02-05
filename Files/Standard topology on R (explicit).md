@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 _Let $\mb{R}$ be the set of real numbers. Then the standard topology_ $\mc{T}_<$ _on $\mb{R}$ can be explicitly given as the set_
 $$\begin{equation}
-    \mc{T}_\textrm{st}=\l\{U\in\mc{P}\l(\mb{R}\r)\mid\fa x\in U,\ex r\in\mb{R}^+:\l(x-r,x+r\r)\subseteq U\r\}.
+    \mc{T}_\textrm{st}\coloneqq\l\{U\in\mc{P}\l(\mb{R}\r)\mid\fa x\in U,\ex r\in\mb{R}^+:\l(x-r,x+r\r)\subseteq U\r\}.
 \end{equation}$$
 
 --- admonition

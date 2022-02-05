@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Properties: [[Standard topology on R (explicit)]], [[Set of open intervals with rational endpoints is a basis for standard topology on R]], [[Set of half-infinite open rays is a subasis for standard topology on R]], [[Set of half-infinite open rays with rational endpoints is a subasis for standard topology on R]]
+Properties: [[Standard topology on R (explicit)]], [[Set of open intervals with rational endpoints is a basis for standard topology on R]], [[Set of half-infinite open rays is a subasis for standard topology on R]], [[Set of half-infinite open rays with rational endpoints is a subasis for standard topology on R]], [[Upper-limit topology strictly finer than standard topology]], [[Lower-limit topology strictly finer than standard topology]], [[K topology strictly finer than standard topology]]
 
 !!! ad-Definition Definition.
 
