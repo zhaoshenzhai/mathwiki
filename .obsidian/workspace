@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "95fde93567a1fb59",
+        "id": "06879c24db066e4a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Files/Definitions/Function.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -67,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Files/Definitions/Function.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,6 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Files/Definitions/Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Files/Definitions/Function.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -162,7 +169,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.08664212700070749,
+                  "scale": 0.2208584323875005,
                   "close": true
                 }
               }
@@ -175,17 +182,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "95fde93567a1fb59",
+  "active": "06879c24db066e4a",
   "lastOpenFiles": [
-    "Files/Criteria for fineness w.r.t bases.md",
-    "Files/Lower-limit Topology on R.md",
-    "Files/Upper-limit Topology on R.md",
-    "Files/K Topology on R.md",
-    "Files/Lower and K topologies are not comparable.md",
-    "Files/Lower and upper limit topologies are not comparable.md",
-    "Files/Upper-limit topology strictly finer than K topology.md",
-    "Files/K topology strictly finer than standard topology.md",
-    "Files/Order topology is a topology.md",
-    "Files/Set of half-infinite open rays is a subasis for standard topology on R.md"
+    "Files/Definitions/Function.md",
+    "Files/Function.md",
+    "Files/Replacement Image.md",
+    "Files/Identity Function.md",
+    "Files/Identity function is a function.md",
+    "Files/Cover.md",
+    "Files/Relation Induced by a Partition.md",
+    "Files/Theorems/Fundamental Theorem of Equivalence Relations.md",
+    "Files/Equivalence Relation.md",
+    "Files/Isomorphism of sets is an equivalence relation.md"
   ]
 }
