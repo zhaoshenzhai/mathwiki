@@ -4,12 +4,8 @@
 Date Created: 02/02/2022 11:09:41
 Tags: #Axiom #Open 
 
+Equivalences: _Not Applicable_
 Constructions: [[Set of Natural Numbers]]
-Generalizations: _Not Applicable_
-
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Properties: [[Principle of Ordinary Induction]]
 
 !!! ad-Axiom Axiom.
 

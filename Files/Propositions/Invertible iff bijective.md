@@ -4,7 +4,7 @@
 Date Created: 27/01/2022 11:56:26
 Tags: #Proposition #Closed 
 
-Proved by: [[Left inverse iff injection]], [[(Right inverse iff surjection) iff Choice]], [[Composition of relations is associative]]
+Proved by: [[Left inverse iff injection]], [[Right inverse iff surjection (Choice)]], [[Composition of relations is associative]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

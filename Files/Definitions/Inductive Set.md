@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Axiom of Infinity]]
+Constructions: _Not Applicable
 Generalizations: _Not Applicable_
 
 Properties: [[Principle of Ordinary Induction]]

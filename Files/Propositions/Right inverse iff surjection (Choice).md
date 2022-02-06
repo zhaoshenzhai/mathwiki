@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 27/01/2022 12:42:19
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Open
 
 Proved by: [[Exists function in relation iff Choice]]
 Generalizations: _Not Applicable_

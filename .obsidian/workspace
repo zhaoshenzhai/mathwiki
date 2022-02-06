@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7968c21370aeda4d",
+        "id": "0daa9f5630ff0f29",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Definitions/Well-ordered Relation.md",
+            "file": "Files/Propositions/Right inverse iff surjection (Choice).md",
             "mode": "preview",
             "source": true
           }
@@ -49,11 +49,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 171
+    "width": 194,
+    "collapsed": true
   },
   "right": {
     "id": "9b204813a94e4120",
@@ -69,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Definitions/Well-ordered Relation.md",
+                "file": "Files/Propositions/Right inverse iff surjection (Choice).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Definitions/Well-ordered Relation.md",
+                "file": "Files/Propositions/Right inverse iff surjection (Choice).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Definitions/Well-ordered Relation.md",
+                "file": "Files/Propositions/Right inverse iff surjection (Choice).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -167,7 +169,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.06868052578340773,
+                  "scale": 0.1762061436365809,
                   "close": true
                 }
               }
@@ -180,17 +182,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "7968c21370aeda4d",
+  "active": "0daa9f5630ff0f29",
   "lastOpenFiles": [
-    "Files/Definitions/Well-ordered Relation.md",
-    "Files/Definitions/Initial Segment.md",
-    "Files/Definitions/Lexicographical Order.md",
-    "Files/Definitions/Well-founded Relation.md",
-    "Files/Definitions/Irreflexive Relation.md",
-    "Files/Definitions/Upper-limit Topology on R.md",
-    "Files/Definitions/Lower-limit Topology on R.md",
-    "Files/Definitions/Upper Bound.md",
-    "Files/Definitions/Lower Bound.md",
-    "Files/Definitions/Bounded Open Ray.md"
+    "Files/Propositions/Right inverse iff surjection (Choice).md",
+    "Files/Propositions/Formula in replacement image constructs a function.md",
+    "Files/Definitions/Right Inverse (Function).md",
+    "Files/Axioms/Axiom Schema of Replacement.md",
+    "Files/Definitions/Replacement Image.md",
+    "Files/Propositions/Replacement image of a set is a set.md",
+    "Files/Definitions/Power Set.md",
+    "Files/Definitions/Cartesian Product (Kuratowski).md",
+    "Files/Axioms/Axiom of Extensionality.md",
+    "Files/Propositions/Trivial topology is a topology.md"
   ]
 }

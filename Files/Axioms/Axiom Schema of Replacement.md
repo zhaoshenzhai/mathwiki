@@ -4,12 +4,8 @@
 Date Created: 20/01/2022 10:03:21
 Tags: #Axiom #Open 
 
+Equivalences: _Not Applicable_
 Constructions: [[Replacement Image]]
-Generalizations: _Not Applicable_
-
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Properties: [[Replacement image implies function iff Replacement]]
 
 !!! ad-Axiom Axiom.
 

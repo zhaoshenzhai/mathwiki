@@ -10,7 +10,7 @@ Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Fun
 Generalizations: _Not Applicable_
 
 Properties: [[Collection of all functions is a proper class]]
-Sufficiencies: [[Criteria for equality of functions]], [[Replacement image implies function iff Replacement]]
+Sufficiencies: [[Criteria for equality of functions]], [[Formula in replacement image constructs a function]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

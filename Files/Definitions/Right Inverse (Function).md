@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [[(Right inverse iff surjection) iff Choice]]
+Equivalences: [[Right inverse iff surjection (Choice)]]
 Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.

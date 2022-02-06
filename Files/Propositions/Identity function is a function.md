@@ -4,7 +4,7 @@
 Date Created: 21/01/2022 10:09:11
 Tags: #Proposition #Closed 
 
-Proved by: [[Replacement image implies function iff Replacement]]
+Proved by: [[Formula in replacement image constructs a function]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
