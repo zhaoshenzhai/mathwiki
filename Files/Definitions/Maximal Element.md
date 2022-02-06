@@ -4,12 +4,15 @@
 Date Created: 03/02/2022 13:29:17
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
 Properties: [[Greatest equal maximal for ordered sets]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

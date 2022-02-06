@@ -4,12 +4,15 @@
 Date Created: 30/01/2022 17:38:06
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: [[Well-founded relations are irreflexive]]
 Constructions: [[Strict Partial Order]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: [[Well-founded relations are irreflexive]]
-Properties: [[Asymmetry implies irreflexivity]], [[Irreflexive and transitive implies asymmetric]]
+Properties: [[Irreflexive and transitive implies asymmetric]]
+Sufficiencies: [[Asymmetry implies irreflexivity]], [[Well-founded relations are irreflexive]]
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

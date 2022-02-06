@@ -4,12 +4,15 @@
 Date Created: 17/01/2022 12:06:31
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
 Constructions: [[Ordered Pair]], [[Successor Function]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
 Properties: [[Collection of all singletons is a proper class]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

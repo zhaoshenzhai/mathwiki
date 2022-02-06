@@ -4,12 +4,15 @@
 Date Created: 31/01/2022 14:45:57
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: [[Well-ordered Relation]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Properties: [[Strict total order iff transitive and asymmetric]]
+Properties: [[Reflexive closure of strict orders is non-strict]]
+Sufficiencies: _Not Applicable_
+Equivalences: [[Strict total order iff transitive and asymmetric]]
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

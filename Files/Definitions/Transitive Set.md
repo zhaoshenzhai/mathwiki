@@ -4,12 +4,15 @@
 Date Created: 30/01/2022 18:56:18
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: [[Ordinal (von Neumann)]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Properties: [[Transitive set iff every element is a subset]]
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: [[Transitive set iff every element is a subset]]
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

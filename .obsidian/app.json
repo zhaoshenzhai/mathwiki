@@ -22,5 +22,7 @@
   "showUnsupportedFiles": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "Files",
-  "fileSortOrder": "alphabetical"
+  "fileSortOrder": "alphabetical",
+  "autoPairMarkdown": false,
+  "autoPairBrackets": false
 }

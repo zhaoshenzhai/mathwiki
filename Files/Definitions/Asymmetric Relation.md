@@ -4,12 +4,15 @@
 Date Created: 03/02/2022 17:53:55
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Properties: [[Irreflexive and transitive implies asymmetric]], [[Asymmetry implies irreflexivity]], [[Trichotomous iff asymmetric and connected]]
+Properties: [[Asymmetry implies irreflexivity]]
+Sufficiencies: [[Irreflexive and transitive implies asymmetric]], [[Trichotomous iff asymmetric and connected]]
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

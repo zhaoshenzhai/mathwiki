@@ -4,12 +4,15 @@
 Date Created: 21/01/2022 10:05:12
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
 Constructions: [[Reflexive Closure]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Properties: [[Identity function is a function]], [[Identity function is a bijection]], [[Composition with identity function is the function itself]]
+Properties: [[Identity function is a bijection]], [[Composition with identity function is the function itself]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [[Identity function is a function]]
 
 !!! ad-Definition Definition.
 

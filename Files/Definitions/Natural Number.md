@@ -4,12 +4,15 @@
 Date Created: 01/02/2022 20:24:48
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: [[Set of Natural Numbers]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
 Properties: [[Successor of natural number is a natural number]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

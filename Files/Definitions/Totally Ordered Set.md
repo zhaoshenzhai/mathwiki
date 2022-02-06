@@ -4,12 +4,15 @@
 Date Created: 24/01/2022 15:31:46
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
 Constructions: [[Open Interval]], [[Half-open Intervals]], [[Closed Interval]], [[Open Ray]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
 Properties: [[Greatest equal maximal for ordered sets]], [[Least equal minimal for ordered sets]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

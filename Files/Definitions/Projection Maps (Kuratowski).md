@@ -4,12 +4,15 @@
 Date Created: 30/01/2022 12:02:45
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: [[Projection Maps (Arbitrary)]]
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Properties: [[Projection maps (Kuratowski) are surjections]]
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [[Projection maps (Kuratowski) are surjections]]
 
 !!! ad-Definition Definition.
 

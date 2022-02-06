@@ -4,12 +4,15 @@
 Date Created: 01/02/2022 10:34:10
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Properties: [[Strict lexicographical order is a strict partial order]], [[Strict lexicographical order is total if orders are strictly total]]
+Properties: [[Strict lexicographical order is total if orders are strictly total]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [[Strict lexicographical order is a strict partial order]]
 
 !!! ad-Definition Definition.
 

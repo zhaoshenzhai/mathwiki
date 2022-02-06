@@ -4,12 +4,15 @@
 Date Created: 25/01/2022 11:03:12
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: [[Poset]], [[Total Order]], [[Lexicographical Order]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
 Properties: _Not Applicable_
+Sufficiencies: [[Reflexive closure of strict orders is non-strict]]
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

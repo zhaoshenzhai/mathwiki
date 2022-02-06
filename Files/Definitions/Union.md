@@ -4,13 +4,15 @@
 Date Created: 17/01/2022 13:00:40
 Tags: #Definition #Closed 
 
-
+Types: _Not Applicable_
+Examples: [[Union of empty set is empty]]
 Constructions: [[Set of unions and intersections]], [[Successor Function]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: [[Union of empty set is empty]]
 Properties: [[Union of unions is a union]], [[De Morgan's Laws]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Union of subsets is a subset of union]], [[Element of set is a subset of its union]], [[Union of set of subsets is a subset]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

@@ -4,12 +4,15 @@
 Date Created: 29/01/2022 13:40:04
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Properties: [[Canonical projection is a function]], [[Canonical projection is a surjection]]
+Properties: [[Canonical projection is a surjection]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [[Canonical projection is a function]]
 
 !!! ad-Definition Definition.
 

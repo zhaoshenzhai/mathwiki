@@ -4,12 +4,15 @@
 Date Created: 30/01/2022 12:10:10
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Properties: [[Projection maps (arbitrary) are surjections]]
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [[Projection maps (arbitrary) are surjections]]
 
 !!! ad-Definition Definition.
 

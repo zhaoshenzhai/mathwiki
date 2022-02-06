@@ -4,12 +4,15 @@
 Date Created: 21/01/2022 11:22:20
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
 Constructions: [[Preimage (Relation)]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Properties: [[Inverse of a relation is a relation]], [[Domain and range of inverse relation]], [[Inverse of inverse relation is the relation]], [[Inverse of composition of relations]]
+Properties: [[Domain and range of inverse relation]], [[Inverse of inverse relation is the relation itself]], [[Inverse of composition of relations]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [[Inverse of a relation is a relation]]
 
 !!! ad-Definition Definition.
 

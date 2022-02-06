@@ -4,12 +4,15 @@
 Date Created: 20/01/2022 09:09:09
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: [[Canonical Projection]]
 Constructions: [[Bijection]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: [[Canonical Projection]]
-Properties: [[(Right inverse iff surjection) iff Choice]]
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: [[(Right inverse iff surjection) iff Choice]]
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

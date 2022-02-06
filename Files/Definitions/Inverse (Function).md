@@ -4,12 +4,15 @@
 Date Created: 26/01/2022 18:48:16
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
 Constructions: _Not Applicable_
 Generalizations: [[Inverse (Relation)]]
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Properties: [[Inverse of function is unique]], [[Invertible iff bijective]], [[Inverse of bijection is a bijection]]
+Properties: [[Inverse of bijection is a bijection]]
+Sufficiencies: _Not Applicable_
+Equivalences: [[Invertible iff bijective]]
+Justifications: [[Inverse of function is unique]]
 
 !!! ad-Definition Definition.
 

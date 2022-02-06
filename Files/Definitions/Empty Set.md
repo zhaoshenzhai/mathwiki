@@ -4,12 +4,15 @@
 Date Created: 16/01/2022 13:44:18
 Tags: #Definition #Closed
 
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Properties: [[Empty set exists]], [[Empty set is unique]], [[Union of empty set is empty]]
+Properties: [[Union of empty set is empty]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [[Empty set exists]], [[Empty set is unique]]
 
 !!! ad-Definition Definition.
 

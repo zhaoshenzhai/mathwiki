@@ -4,12 +4,15 @@
 Date Created: 20/01/2022 13:11:23
 Tags: #Definition #Closed
 
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
 Constructions: [[Projection Maps (Kuratowski)]]
 Generalizations: [[Cartesian Product (Arbitrary)]]
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Properties: [[Cartesian product (Kuratowski) is a set (Power Set)]], [[Cartesian product (Kuratowski) is a set (Replacement)]], [[Binary relation iff subset of Cartesian product]], [[Cartesian product is monotone w.r.t. subsets]]
+Properties: [[Cartesian product is monotone w.r.t. subsets]]
+Sufficiencies: _Not Applicable_
+Equivalences: [[Binary relation iff subset of Cartesian product]]
+Justifications: [[Cartesian product (Kuratowski) is a set (Power Set)]], [[Cartesian product (Kuratowski) is a set (Replacement)]]
 
 !!! ad-Definition Definition.
 

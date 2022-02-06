@@ -4,12 +4,15 @@
 Date Created: 29/01/2022 10:31:01
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: [[Function Space (Set)]], [[Empty product is singleton of empty set]]
 Constructions: [[Projection Maps (Arbitrary)]], [[Tuple]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: [[Function Space (Set)]], [[Empty product is singleton of empty set]]
 Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

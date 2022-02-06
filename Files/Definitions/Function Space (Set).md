@@ -4,12 +4,15 @@
 Date Created: 21/01/2022 18:18:43
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Properties: [[Function space is a set]], [[Function Space constructed from a Cartesian product]]
+Properties: _Not Applicable_
+Sufficiencies: [[Function Space constructed from a Cartesian product]]
+Equivalences: _Not Applicable_
+Justifications: [[Function space is a set]]
 
 !!! ad-Definition Definition.
 

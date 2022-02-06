@@ -4,12 +4,15 @@
 Date Created: 04/02/2022 10:39:21
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: [[Standard Topology on R]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Properties: [[Order topology is a topology]]
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [[Order topology is a topology]]
 
 !!! ad-Definition Definition.
 

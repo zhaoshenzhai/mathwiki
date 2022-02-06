@@ -4,12 +4,15 @@
 Date Created: 01/02/2022 10:41:48
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: [[Lexicographical order is reflexive closure of strict lexicographical order]], [[Reflexive closure of ordering on ordinals]]
 Constructions: [[Reflexive Relation]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: [[Lexicographical order is reflexive closure of strict lexicographical order]], [[Reflexive closure of ordering on ordinals]]
 Properties: [[Reflexive closure is the smallest reflexive relation]], [[Reflexive closure of connected relation is connected]], [[Reflexive closure of strict orders is non-strict]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

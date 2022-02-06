@@ -4,12 +4,15 @@
 Date Created: 24/01/2022 20:48:17
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: [[Subbasis (Topology)]], [[Basis (Topology)]], [[Partition (Set)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: [[Subbasis (Topology)]], [[Basis (Topology)]], [[Partition (Set)]]
 Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

@@ -4,12 +4,15 @@
 Date Created: 27/01/2022 10:23:28
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: [[Inverse (Function)]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Properties: [[(Right inverse iff surjection) iff Choice]]
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: [[(Right inverse iff surjection) iff Choice]]
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

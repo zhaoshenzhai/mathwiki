@@ -4,12 +4,15 @@
 Date Created: 18/01/2022 16:58:16
 Tags: #Definition #Closed
 
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Properties: [[Set of relative complements is a set]], [[De Morgan's Laws]]
+Properties: [[De Morgan's Laws]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [[Set of relative complements is a set]]
 
 !!! ad-Definition Definition.
 

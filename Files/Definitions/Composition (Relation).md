@@ -4,12 +4,15 @@
 Date Created: 21/01/2022 13:35:43
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Properties: [[Composition of relations is a relation]], [[Inverse of composition of relations]], [[Composition of relations is associative]]
+Properties: [[Inverse of composition of relations]], [[Composition of relations is associative]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [[Composition of relations is a relation]]
 
 !!! ad-Definition Definition.
 

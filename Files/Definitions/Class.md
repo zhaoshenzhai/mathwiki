@@ -4,12 +4,15 @@
 Date Created: 18/01/2022 14:52:36
 Tags: #Definition #Open
 
+Types: _Not Applicable_
+Examples: [[Universal Class]], [[Intersection of empty set is a proper class]], [[Absolute complement of a set is a proper class]], [[Collection of all functions is a proper class]], [[Class of Ordinals]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: [[Universal Class]], [[Intersection of empty set is a proper class]], [[Absolute complement of a set is a proper class]], [[Collection of all functions is a proper class]], [[Class of Ordinals]]
 Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition (Informal).
 

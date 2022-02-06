@@ -4,12 +4,15 @@
 Date Created: 26/01/2022 17:46:40
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: [[Inclusion Function]]
 Constructions: _Not Applicable_
 Generalizations: [[Restriction (Relation)]]
 
-Types: _Not Applicable_
-Examples: [[Inclusion Function]]
-Properties: [[Restriction of function is a function]]
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [[Restriction of function is a function]]
 
 !!! ad-Definition Definition.
 

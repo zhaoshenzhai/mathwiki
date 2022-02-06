@@ -4,12 +4,15 @@
 Date Created: 24/01/2022 15:29:44
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: [[Inclusion Poset]]
 Constructions: [[Minimal Element]], [[Maximal Element]], [[Greatest Element]], [[Least Element]], [[Upper Bound]], [[Lower Bound]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: [[Inclusion Poset]]
 Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

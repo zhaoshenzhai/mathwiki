@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "06879c24db066e4a",
+        "id": "7968c21370aeda4d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Definitions/Function.md",
+            "file": "Files/Definitions/Well-ordered Relation.md",
             "mode": "preview",
             "source": true
           }
@@ -49,13 +49,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 171,
-    "collapsed": true
+    "width": 171
   },
   "right": {
     "id": "9b204813a94e4120",
@@ -71,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Definitions/Function.md",
+                "file": "Files/Definitions/Well-ordered Relation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Definitions/Function.md",
+                "file": "Files/Definitions/Well-ordered Relation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +115,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Definitions/Function.md",
+                "file": "Files/Definitions/Well-ordered Relation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -169,7 +167,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.2208584323875005,
+                  "scale": 0.06868052578340773,
                   "close": true
                 }
               }
@@ -182,17 +180,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "06879c24db066e4a",
+  "active": "7968c21370aeda4d",
   "lastOpenFiles": [
-    "Files/Definitions/Function.md",
-    "Files/Function.md",
-    "Files/Replacement Image.md",
-    "Files/Identity Function.md",
-    "Files/Identity function is a function.md",
-    "Files/Cover.md",
-    "Files/Relation Induced by a Partition.md",
-    "Files/Theorems/Fundamental Theorem of Equivalence Relations.md",
-    "Files/Equivalence Relation.md",
-    "Files/Isomorphism of sets is an equivalence relation.md"
+    "Files/Definitions/Well-ordered Relation.md",
+    "Files/Definitions/Initial Segment.md",
+    "Files/Definitions/Lexicographical Order.md",
+    "Files/Definitions/Well-founded Relation.md",
+    "Files/Definitions/Irreflexive Relation.md",
+    "Files/Definitions/Upper-limit Topology on R.md",
+    "Files/Definitions/Lower-limit Topology on R.md",
+    "Files/Definitions/Upper Bound.md",
+    "Files/Definitions/Lower Bound.md",
+    "Files/Definitions/Bounded Open Ray.md"
   ]
 }

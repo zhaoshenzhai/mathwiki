@@ -4,12 +4,15 @@
 Date Created: 20/01/2022 09:30:37
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: [[Identity Function]] 
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: [[Identity function is a bijection]] 
-Properties: [[Invertible iff bijective]], [[Inverse of bijection is a bijection]], [[Composition of bijections is a bijection]], [[Isomorphism of sets is an equivalence relation]]
+Properties: [[Isomorphism of sets is an equivalence relation]]
+Sufficiencies: [[Inverse of bijection is a bijection]], [[Composition of bijections is a bijection]]
+Equivalences: [[Invertible iff bijective]]
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

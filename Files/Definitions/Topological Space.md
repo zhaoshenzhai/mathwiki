@@ -4,12 +4,15 @@
 Date Created: 23/01/2022 19:05:00
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: [[Real Line (Topology)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: [[Real Line (Topology)]]
 Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

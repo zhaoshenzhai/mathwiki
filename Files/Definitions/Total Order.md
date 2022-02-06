@@ -4,12 +4,15 @@
 Date Created: 19/01/2022 18:23:39
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
 Constructions: [[Totally Ordered Set]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
 Properties: [[Lexicographical order is total if orders are total]]
+Sufficiencies: [[Reflexive closure of strict orders is non-strict]]
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

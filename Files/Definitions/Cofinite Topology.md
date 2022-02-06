@@ -4,12 +4,15 @@
 Date Created: 23/01/2022 19:48:14
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
 Constructions: _Not Applicable_
 Generalizations: [[Cocountable Topology]]
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Properties: [[Cofinite topology is a topology]]
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [[Cofinite topology is a topology]]
 
 !!! ad-Definition Definition.
 

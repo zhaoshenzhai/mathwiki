@@ -4,12 +4,15 @@
 Date Created: 14/01/2022 18:07:19
 Tags: #Definition #Closed  
 
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
 Constructions: [[Binary Relation]], [[Cartesian Product (Kuratowski)]]
 Generalizations: [[Tuple]]
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
 Properties: [[Ordered pair equal when components equal]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition (Ordered Pair).
 

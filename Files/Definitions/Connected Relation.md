@@ -4,12 +4,15 @@
 Date Created: 19/01/2022 17:45:32
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
 Constructions: [[Total Order]], [[Strict Total Order]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Properties: [[Trichotomous iff asymmetric and connected]]
+Properties: _Not Applicable_
+Sufficiencies: [[Trichotomous iff asymmetric and connected]], [[Reflexive closure of connected relation is connected]]
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

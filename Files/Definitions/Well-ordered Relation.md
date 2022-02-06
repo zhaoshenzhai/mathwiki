@@ -4,12 +4,15 @@
 Date Created: 30/01/2022 17:43:31
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: [[ON is well-ordered by membership]]
 Constructions: [[Ordinal (von Neumann)]], [[Initial Segment]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: [[ON is well-ordered by membership]]
 Properties: [[Well-ordering well-orders subsets]], [[Lexicographical order of well-orderings is a well-order]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

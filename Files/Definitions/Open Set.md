@@ -4,12 +4,15 @@
 Date Created: 04/02/2022 12:27:22
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Properties: [[Set is open if covered by open subsets]]
+Properties: _Not Applicable_
+Sufficiencies: [[Set is open if covered by open subsets]]
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

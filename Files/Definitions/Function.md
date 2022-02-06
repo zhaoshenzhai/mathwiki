@@ -4,12 +4,15 @@
 Date Created: 14/01/2022 14:25:20
 Tags: #Definition #Closed 
 
+Types: [[Injection]], [[Surjection]]
+Examples: [[Identity Function]], [[Inclusion Function]]
 Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Left Inverse (Function)]], [[Right Inverse (Function)]], [[Function Space (Set)]]
 Generalizations: _Not Applicable_
 
-Types: [[Injection]], [[Surjection]]
-Examples: [[Identity Function]], [[Inclusion Function]]
-Properties: [[Criteria for equality of functions]], [[Replacement image implies function iff Replacement]], [[Collection of all functions is a proper class]]
+Properties: [[Collection of all functions is a proper class]]
+Sufficiencies: [[Criteria for equality of functions]], [[Replacement image implies function iff Replacement]]
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

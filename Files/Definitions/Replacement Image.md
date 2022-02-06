@@ -4,12 +4,15 @@
 Date Created: 20/01/2022 13:41:55
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
 Constructions: [[Cartesian Product (Kuratowski)]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Properties: [[Replacement image of a set is a set]], [[Replacement image implies function iff Replacement]]
+Properties: [[Replacement image implies function iff Replacement]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [[Replacement image of a set is a set]]
 
 !!! ad-Definition Definition.
 

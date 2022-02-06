@@ -4,12 +4,15 @@
 Date Created: 02/02/2022 13:46:50
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Properties: [[Principle of Ordinary Induction]], [[Set of natural numbers is the least limit ordinal]]
+Properties: [[Set of natural numbers is the least limit ordinal]]
+Sufficiencies: [[Principle of Ordinary Induction]]
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

@@ -4,12 +4,15 @@
 Date Created: 31/01/2022 16:19:10
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: [[Axiom of Infinity]], [[Inductive Set]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
 Properties: [[Successor of an ordinal is the next smallest ordinal]], [[Successor of natural number is a natural number]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

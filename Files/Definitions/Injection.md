@@ -4,12 +4,15 @@
 Date Created: 20/01/2022 09:20:32
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: [[Inclusion function is an injection]] 
 Constructions: [[Bijection]]
 Generalizations: _Not Applicable_
 
-Types: _Not Applicable_
-Examples: [[Inclusion function is an injection]] 
-Properties: [[Left inverse iff injection]], [[Image of intersection subset of intersection of images; equal iff injection]], [[Complement of images subset of image of complement; equal if injection]]
+Properties: [[Complement of images subset of image of complement; equal if injection]]
+Sufficiencies: _Not Applicable_
+Equivalences: [[Left inverse iff injection]], [[Image of intersection subset of intersection of images; equal iff injection]]
+Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 

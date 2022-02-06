@@ -4,12 +4,15 @@
 Date Created: 26/01/2022 18:27:58
 Tags: #Definition #Closed 
 
+Types: _Not Applicable_
+Examples: _Not Applicable_ 
 Constructions: _Not Applicable_
 Generalizations: [[Composition (Relation)]]
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Properties: [[Composition of functions is a function]], [[Composition with identity function is the function itself]], [[Composition of bijections is a bijection]]
+Properties: [[Composition with identity function is the function itself]], [[Composition of bijections is a bijection]]
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [[Composition of functions is a function]]
 
 !!! ad-Definition Definition.
 
