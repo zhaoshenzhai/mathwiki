@@ -4,63 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3ce5c679508b06c6",
+        "id": "88da2542b095f9b8",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Fundamental Theorem of Equivalence Relations.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "804527dda20b22d9",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Partition (Set).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "31a680803a8a4749",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Equivalence Relation.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "79aa8b90556028f5",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Quotient Set.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "ad73a6c4b50e660f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Relation Induced by a Partition.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -119,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Fundamental Theorem of Equivalence Relations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +94,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Fundamental Theorem of Equivalence Relations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +111,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Fundamental Theorem of Equivalence Relations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -176,7 +121,7 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": true,
+                  "collapse-color-groups": false,
                   "colorGroups": [
                     {
                       "query": "tag:#Definition",
@@ -212,12 +157,12 @@
                   "textFadeMultiplier": -0.8,
                   "nodeSizeMultiplier": 0.556775464834276,
                   "lineSizeMultiplier": 1.95111661277284,
-                  "collapse-forces": false,
+                  "collapse-forces": true,
                   "centerStrength": 0,
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.4836881675760716,
+                  "scale": 0.4483676878532227,
                   "close": true
                 }
               }
@@ -230,17 +175,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "3ce5c679508b06c6",
+  "active": "88da2542b095f9b8",
   "lastOpenFiles": [
-    "Files/Fundamental Theorem of Equivalence Relations.md",
+    "Files/Lexicographical order on N2 is bounded below.md",
+    "Files/Lexicographical Order Topology on N2.md",
+    "Files/Standard Topology on N.md",
+    "Files/Canonical projection is a function.md",
+    "Files/Same equivalence class iff related.md",
     "Files/Partition (Set).md",
+    "Files/Relation Induced by a Partition.md",
     "Files/Equivalence Relation.md",
     "Files/Quotient Set.md",
-    "Files/Relation Induced by a Partition.md",
-    "Files/Quotient set is a partition.md",
-    "Files/Relation induced by a partition is an equivalence relation.md",
-    "Files/Same equivalence class iff related.md",
-    "Files/Standard Topology on N.md",
-    "Files/Standard topology on N is the discrete topology on N.md"
+    "Files/Fundamental Theorem of Equivalence Relations.md"
   ]
 }

@@ -9,9 +9,9 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Fundamental Theorem of Equivalence Relations]]
+Properties: [[Relation induced by a partition is an equivalence relation]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Fundamental Theorem of Equivalence Relations]]
 Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.

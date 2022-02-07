@@ -9,9 +9,9 @@ Examples: _Not Applicable_
 Constructions: [[Relation Induced by a Partition]]
 Generalizations: _Not Applicable_
 
-Properties: [[Fundamental Theorem of Equivalence Relations]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Properties: _Not Applicable_
+Sufficiencies: [[Quotient set is a partition]]
+Equivalences: [[Fundamental Theorem of Equivalence Relations]]
 Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.

@@ -2,16 +2,16 @@
 <br />
 
 Date Created: 29/01/2022 11:58:15
-Tags: #Definition #Closed 
+Tags: #Definition #Closed  
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
 Constructions: [[Canonical Projection]]
 Generalizations: _Not Applicable_
 
-Properties: [[Fundamental Theorem of Equivalence Relations]]
+Properties: [[Quotient set is a partition]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Fundamental Theorem of Equivalence Relations]]
 Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
