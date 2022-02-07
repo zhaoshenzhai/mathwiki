@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-_Let $<$ be the standard ordering on the real numbers $\mb{R}$. The **standard topology on $\mb{R}$** is the order topology_ $\mc{T}_<$_._
+_Let $<$ be the standard ordering on the real numbers $\mb{R}$. The **standard topology on $\mb{R}$** is the order topology_ $\mc{T}(<)$_._
 
 --- admonition

@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Least Element]]
 Examples: _Not Applicable_ 
-Constructions: [[Infimum]], [[Bounded Open Ray]]
+Constructions: [[Infimum]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

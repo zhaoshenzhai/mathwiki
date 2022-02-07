@@ -4,9 +4,9 @@
 Date Created: 24/01/2022 15:29:44
 Tags: #Definition #Closed 
 
-Types: _Not Applicable_
+Types: [[Bounded Poset]]
 Examples: [[Inclusion Poset]]
-Constructions: [[Minimal Element]], [[Maximal Element]], [[Greatest Element]], [[Least Element]], [[Upper Bound]], [[Lower Bound]]
+Constructions: [[Minimal Element]], [[Maximal Element]], [[Greatest Element]], [[Least Element]], [[Upper Bound]], [[Lower Bound]], [[Initial Segment]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

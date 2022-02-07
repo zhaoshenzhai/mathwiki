@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-_Let $\l\langle X,<\r\rangle$ be a totally ordered set. If there exists a lower bound $a_0\in X$ (resp. an upper bound $b_0\in X$), then the open ray_
+_Let $\l\langle X,<\r\rangle$ be a totally ordered set. If there exists a least element $a_0\in X$ (resp. a greatest element $b_0\in X$), then the open ray_
 $$\begin{equation}
     \l[a_0,b\r)=\l\{x\in X\mid\ex b\in X:x<b\r\}\ \ \ \ \ \ \ \ \textit{(resp. }\l(a,b_0\r]=\l\{x\in X\mid\ex a\in X:x>a\r\}\textit{)}
 \end{equation}$$

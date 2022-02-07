@@ -23,6 +23,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "Files",
   "fileSortOrder": "alphabetical",
-  "autoPairMarkdown": false,
-  "autoPairBrackets": false
+  "autoPairMarkdown": true,
+  "autoPairBrackets": true
 }

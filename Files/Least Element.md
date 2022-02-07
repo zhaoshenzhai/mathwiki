@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Bounded Poset]]
 Generalizations: _Not Applicable_
 
 Properties: [[Least equal minimal for ordered sets]]

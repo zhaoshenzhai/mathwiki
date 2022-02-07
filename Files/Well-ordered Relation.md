@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[ON is well-ordered by membership]]
-Constructions: [[Ordinal (von Neumann)]], [[Initial Segment]]
+Constructions: [[Ordinal (von Neumann)]]
 Generalizations: _Not Applicable_
 
 Properties: [[Well-ordering well-orders subsets]], [[Lexicographical order of well-orderings is a well-order]]

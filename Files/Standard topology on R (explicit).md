@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-_Let $\mb{R}$ be the set of real numbers. Then the standard topology_ $\mc{T}_<$ _on $\mb{R}$ can be explicitly given as the set_
+_Let $\mb{R}$ be the set of real numbers. Then the standard topology_ $\mc{T}(<)$ _on $\mb{R}$ can be explicitly given as the set_
 $$\begin{equation}
     \mc{T}_\textrm{st}\coloneqq\l\{U\in\mc{P}\l(\mb{R}\r)\mid\fa x\in U,\ex r\in\mb{R}^+:\l(x-r,x+r\r)\subseteq U\r\}.
 \end{equation}$$
@@ -20,7 +20,7 @@ _Proof_. We shall show that $\mc{T}_\textrm{st}$ is a topology on $X$ and is ind
 $$\begin{equation}
     \mc{B}\coloneqq\l\{B\in\mc{P}\l(\mb{R}\r)\mid\ex a,b\in\mb{R}:a<b\land B=\l(a,b\r)\r\}.
 \end{equation}$$
-Since $\mb{R}$ has neither a lower nor an upper bound, we see that $\mc{T}\l(\mc{B}\r)=\mc{T}_<$.
+Since $\mb{R}$ has neither a lower nor an upper bound, we see that $\mc{T}\l(\mc{B}\r)=\mc{T}(<)$.
 * ($\mc{T}_\textrm{st}$ is a topology on $X$): We verify the axioms for a topology on $X$.
     * ($\axitop{1}$): It is vacuously true that $\em\in\mc{T}_\textrm{st}$. To see that $\mb{R}\in\mc{T}_\textrm{st}$, take $x\in\mb{R}$ and any $r\in\mb{R}^+$ and observe that $\l(x-r,x+r\r)\subseteq\mb{R}$ by definition.
     * ($\axitop{2}$): Let $\mc{U}\subseteq\mc{T}_\textrm{st}$ and take $x\in\bigcup\mc{U}$. Thus there exists $U\in\mc{U}$ such that $x\in U$. Since $U\in\mc{T}_\textrm{st}$, there exists $r\in\mb{R}^+$ such that $\l(x-r,x+r\r)\subseteq U$, but since $U\subseteq\bigcup\mc{U}$, we have $\l(x-r,x+r\r)\subseteq\bigcup\mc{U}$ too. It follows that $\bigcup\mc{U}\in\mc{T}_\textrm{st}$.

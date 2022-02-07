@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Greatest Element]]
 Examples: _Not Applicable_ 
-Constructions: [[Supremum]], [[Bounded Open Ray]]
+Constructions: [[Supremum]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
