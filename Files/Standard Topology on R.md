@@ -10,7 +10,7 @@ Constructions: [[Real Line (Topology)]]
 Generalizations: _Not Applicable_
 
 Properties: [[Upper-limit topology strictly finer than standard topology]], [[Lower-limit topology strictly finer than standard topology]], [[K topology strictly finer than standard topology]]
-Sufficiencies: [[Set of open intervals with rational endpoints is a basis for standard topology on R]], [[Set of half-infinite open rays is a subasis for standard topology on R]], [[Set of half-infinite open rays with rational endpoints is a subasis for standard topology on R]]
+Sufficiencies: [[Set of open intervals with rational endpoints is a basis for standard topology on R]], [[Set of half-infinite open rays is a subbasis for standard topology on R]], [[Set of half-infinite open rays with rational endpoints is a subbasis for standard topology on R]]
 Equivalences: [[Standard topology on R (explicit)]]
 Justifications: _Not Applicable_
 

@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "88da2542b095f9b8",
+        "id": "b41b2abccc084f20",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Files/Set of half-infinite open rays is a subbasis for order topology.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -67,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Files/Set of half-infinite open rays is a subbasis for order topology.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,6 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Files/Set of half-infinite open rays is a subbasis for order topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Files/Set of half-infinite open rays is a subbasis for order topology.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -162,7 +169,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.4483676878532227,
+                  "scale": 0.28849767457947706,
                   "close": true
                 }
               }
@@ -175,17 +182,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "88da2542b095f9b8",
+  "active": "b41b2abccc084f20",
   "lastOpenFiles": [
-    "Files/Lexicographical order on N2 is bounded below.md",
+    "Files/Set of half-infinite open rays is a subbasis for order topology.md",
+    "Files/Set of half-infinite open rays is a subbasis for standard topology on R.md",
+    "Files/Half-infinite Open Ray.md",
+    "Files/Order Topology.md",
+    "Files/Set of half-infinite open rays with rational endpoints is a subbasis for standard topology on R.md",
+    "Files/Standard Topology on R.md",
     "Files/Lexicographical Order Topology on N2.md",
-    "Files/Standard Topology on N.md",
-    "Files/Canonical projection is a function.md",
-    "Files/Same equivalence class iff related.md",
-    "Files/Partition (Set).md",
-    "Files/Relation Induced by a Partition.md",
-    "Files/Equivalence Relation.md",
-    "Files/Quotient Set.md",
-    "Files/Fundamental Theorem of Equivalence Relations.md"
+    "Files/Half-infinite open rays are open in the order topology.md",
+    "Files/Greatest equal maximal for ordered sets.md",
+    "Files/Topology on a Set.md"
   ]
 }

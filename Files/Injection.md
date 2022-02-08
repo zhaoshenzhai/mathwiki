@@ -5,7 +5,7 @@ Date Created: 20/01/2022 09:20:32
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Inclusion function is an injection]] 
+Examples: [[Inclusion Function]] 
 Constructions: [[Bijection]]
 Generalizations: _Not Applicable_
 

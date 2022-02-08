@@ -10,7 +10,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Set of half-infinite open rays is a subbasis for order topology]], [[Half-infinite open rays are open in the order topology]]
 Equivalences: _Not Applicable_
 Justifications: [[Order topology is a topology]]
 
