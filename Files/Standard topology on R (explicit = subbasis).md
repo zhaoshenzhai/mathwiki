@@ -17,7 +17,7 @@ _containing half-infinite open rays._
 
 --- admonition
 
-_Proof_. It suffices to show that for any $B\in\mc{B}_\textrm{st}$ where
+_Proof_. Take $x\in X$ and observe that $x\in\l(x-r,+\infty\r)$ for any $r\in\mb{R}^+$, hence $\mc{S}$ is a subbasis for a topology on $X$. It suffices to show that for any $B\in\mc{B}_\textrm{st}$ where
 $$\begin{equation}
     \mc{B}_\textrm{st}\coloneqq\l\{B\in\mc{P}\l(\mb{R}\r)\mid\ex a,b\in\mb{R}:a<b\land B=\l(a,b\r)\r\},
 \end{equation}$$

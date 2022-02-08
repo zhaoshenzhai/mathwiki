@@ -17,7 +17,7 @@ _containing half-infinite open rays with rational endpoints._
 
 --- admonition
 
-_Proof_. It suffices to show that for any $B\in\mc{B}$ where
+_Proof_. Take $x\in X$. If $x\geq0$, observe that $x\in\l(-1,+\infty\r)$; otherwise, observe that $x\in\l(-\infty,1\r)$. It follows that $\mc{S}$ covers $X$ and hence $\mc{S}$ is a subbasis for a topology on $X$. It suffices to show that for any $B\in\mc{B}$ where
 $$\begin{equation}
     \mc{B}\coloneqq\l\{B\in\mc{P}\l(\mb{R}\r)\mid\ex a,b\in\mb{Q}:a<b\land B=\l(a,b\r)\r\},
 \end{equation}$$
