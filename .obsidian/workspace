@@ -4,12 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "0a1ec990bc29ab74",
+        "id": "4d1d002013d5b3a3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Files/Standard Topology on R.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "0e656967f8d2989b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Standard topology on R (explicit = subbasis; rational endpoints).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "bdadfdba63884d17",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Standard topology on R (explicit = subbasis).md",
             "mode": "preview",
             "source": true
           }
@@ -71,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Standard Topology on R.md",
+                "file": "Files/Standard topology on R (explicit = subbasis).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Standard Topology on R.md",
+                "file": "Files/Standard topology on R (explicit = subbasis).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +141,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Standard Topology on R.md",
+                "file": "Files/Standard topology on R (explicit = subbasis).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -169,7 +193,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.28849767457947706,
+                  "scale": 1.1277241441051775,
                   "close": true
                 }
               }
@@ -182,17 +206,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "0a1ec990bc29ab74",
+  "active": "bdadfdba63884d17",
   "lastOpenFiles": [
-    "Files/Standard Topology on R.md",
-    "Files/Comparison of topologies on R.md",
-    "Files/Upper-limit topology strictly finer than standard topology.md",
-    "Files/Standard topology on R (order = explicit).md",
     "Files/Standard topology on R (explicit = subbasis).md",
     "Files/Standard topology on R (explicit = subbasis; rational endpoints).md",
+    "Files/Standard Topology on R.md",
     "Files/Standard topology on R (explicit = basis; rational endpoints).md",
-    "Files/Standard topology on R (explicit) is a topology.md",
-    "Files/Set of half-infinite open rays is a subbasis for order topology.md",
-    "Files/Half-infinite Open Ray.md"
+    "Files/Trivial Topology.md",
+    "Files/Trivial topology (explicit = basis).md",
+    "Files/Trivial topology (basis) is a topology.md",
+    "Files/Criteria for collection to be a basis for an existing topology.md",
+    "Files/Trivial topology (explicit) is a topology.md",
+    "Files/Topology on a Set.md"
   ]
 }
