@@ -4,7 +4,7 @@
 Date Created: 07/02/2022 15:43:53
 Tags: #Proposition #Closed 
 
-Proved by: [[Set of singletons is a basis for the discrete topology]], [[Criteria for collection to be a basis for an existing topology]], [[Successor of natural number is a natural number]]
+Proved by: [[Discrete topology (explicit = basis)]], [[Criteria for collection to be a basis for an existing topology]], [[Successor of natural number is a natural number]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

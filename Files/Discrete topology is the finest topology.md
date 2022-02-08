@@ -4,7 +4,7 @@
 Date Created: 25/01/2022 11:58:09
 Tags: #Proposition #Closed 
 
-Proved by: [[Set of singletons is a basis for the discrete topology]]
+Proved by: [[Discrete topology (explicit = basis)]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

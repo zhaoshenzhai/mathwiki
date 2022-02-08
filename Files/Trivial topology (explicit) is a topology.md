@@ -4,7 +4,7 @@
 Date Created: 23/01/2022 19:12:21
 Tags: #Proposition #Closed 
 
-Proved by: [[Cardinality of power set]], [[Union of empty set is empty]], [[Axiom of Extensionality]]
+Proved by: [[Cardinality of power set]], [[Union of empty set is empty]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
