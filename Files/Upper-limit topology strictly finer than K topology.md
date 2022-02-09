@@ -34,8 +34,8 @@ $$\begin{equation}
 \end{equation}$$
 and since $\mc{T}_\textrm{st}\subseteq\mc{T}_\textrm{UL}$, we see that there exists $B'\in\mc{B}_\textrm{UL}$ such that $x\in B'\subseteq I$ and hence $x\in B'\subseteq B$.
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_18%3A23%3A01/image.svg", width=60%></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_1823/image.svg", width=60%></center>
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_18%3A47%3A26/image.svg"></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_18%3A47%3A25/image.svg"></center>
 
 (Justification for $I\subseteq B$): In the figure above, the off-axis intervals represent what $B=\l(a,b\r)\comp K$ can be relative to the interval $J$; vertical lines represent $\textrm{`}$holes$\textrm{'}$ in $B$. Observe that in each case, $I=\l(a,b\r)\cap J$ does not contain any points of the form $1/n$ for $n\in\mb{N}$, and thus $I\subseteq B$.<span style="float:right;">$\blacksquare$</span>
