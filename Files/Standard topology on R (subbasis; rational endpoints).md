@@ -29,4 +29,4 @@ $$\begin{equation}
 
 Pictorially, the proof is:
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_2233/image.svg"></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_2233/image.svg", width=25%></center>
