@@ -1,0 +1,47 @@
+\documentclass[margin=20mm]{standalone}
+
+\usepackage[T1]{fontenc}                             % make fonts work?
+\usepackage[hidelinks]{hyperref}                     % links
+\usepackage[side]{footmisc}                          % footnotes
+\usepackage{geometry}                                % page layout
+\usepackage{fancyhdr}                                % headers and footers
+\usepackage{titlesec}                                % title page
+\usepackage{tocloft}                                 % custom table of contents
+\usepackage{amsfonts, amsmath, amssymb, amsthm}      % basic maths commands
+\usepackage{mathtools}                               % more maths commands
+\usepackage{mathrsfs}                                % more math commands
+\usepackage{mdframed}                                % framed environments
+\usepackage{graphicx}                                % images and other graphics
+\usepackage{tikz}                                    % maths figures
+\usepackage{tikz-3dplot}                             % needed by tikz
+\usepackage{tikzpagenodes}                           % needed by tikz
+\usepackage{pgfplots}\pgfplotsset{compat=1.7}        % plots
+\usepackage{contour}                                 % underlining
+\usepackage{ulem}                                    % needed by contour
+\usepackage{xcolor}                                  % more colors
+\usepackage{caption}                                 % captions outside float
+\usepackage{enumitem}                                % enumerate and itemize indents
+\usepackage{nicematrix}                              % matrices and tables
+\usepackage{marginnote}                              % margin notes
+
+\input{../../preamble.sty}
+
+\usetikzlibrary{matrix}
+\usetikzlibrary{positioning}
+\usetikzlibrary{patterns}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{arrows}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{math}
+\usetikzlibrary{cd}
+
+\definecolor{textColor}{RGB}{248, 248, 255}
+\definecolor{bgColor}{RGB}{29, 32, 38}
+\definecolor{shadeColor}{RGB}{77, 77, 77}
+
+\begin{document}
+    \begin{tikzcd}[color=textColor]
+        X \arrow[r, "\operatorname{id}_X"] \arrow[rr, "f"', bend right] & X \arrow[r, "f" description] \arrow[rr, "f", bend left] & Y \arrow[r, "\operatorname{id}_Y"'] & Y
+    \end{tikzcd}
+\end{document}
