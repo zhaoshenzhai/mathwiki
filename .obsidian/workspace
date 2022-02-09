@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "6d0ee2a4afdbcffc",
+        "id": "aa2f6cd39eb08993",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,12 +182,12 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "6d0ee2a4afdbcffc",
+  "active": "aa2f6cd39eb08993",
   "lastOpenFiles": [
     "Files/Product topology (subbasis).md",
+    "Files/Product Space (Topology).md",
     "Files/Fundamental Theorem of Equivalence Relations.md",
     "Images/temp.svg",
-    "Files/Product Space (Topology).md",
     "~/MathWiki/temp.png.md",
     "Files/Topology on a Set.md",
     "Files/Criteria for fineness w.r.t bases.md",
