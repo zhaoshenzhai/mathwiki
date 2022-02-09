@@ -38,10 +38,11 @@
 
 \definecolor{textColor}{RGB}{248, 248, 255}
 \definecolor{bgColor}{RGB}{29, 32, 38}
+\definecolor{bgColorAD}{RGB}{18, 19, 23}
 \definecolor{shadeColor}{RGB}{77, 77, 77}
 
 \begin{document}
     \begin{tikzcd}[color=textColor]
-        X \arrow[r, "\operatorname{id}_X"] \arrow[rr, "f"', bend right] & X \arrow[r, "f" description] \arrow[rr, "f", bend left] & Y \arrow[r, "\operatorname{id}_Y"'] & Y
+        X \arrow[r, "\operatorname{id}_X"] \arrow[rr, "f"', bend right] & X \arrow[r, "f" description, background color=bgColorAD] \arrow[rr, "f", bend left] & Y \arrow[r, "\operatorname{id}_Y"'] & Y
     \end{tikzcd}
 \end{document}
