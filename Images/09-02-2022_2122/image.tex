@@ -1,0 +1,28 @@
+\documentclass[tikz]{standalone}
+
+\usetikzlibrary{matrix}
+\usetikzlibrary{positioning}
+\usetikzlibrary{patterns}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{arrows}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{math}
+
+\definecolor{textColor}{RGB}{248, 248, 255}
+\definecolor{bgColor}{RGB}{29, 32, 38}
+\definecolor{shadeColor}{RGB}{77, 77, 77}
+
+\begin{document}
+    \begin{tikzpicture}[color=textColor]
+        \draw (0,3.8) circle (0);
+        \draw (0,-0.8) circle (0);
+        \node (discrete) at (0,3.5) {\footnotesize{$\mathcal{T}_\mathrm{discrete}$}};
+        \node (UL) at (-0.8,2) {\footnotesize{$\mathcal{T}_\mathrm{UL}$}};
+        \node (LL) at (0.8,2) {\footnotesize{$\mathcal{T}_\mathrm{LL}$}};
+        \node (K) at (0,1) {\footnotesize{$\mathcal{T}_\mathrm{K}$}};
+        \node (st) at (0,-0.5) {\footnotesize{$\mathcal{T}_\mathrm{st}$}};
+        \node (tr) at (0,-2) {\footnotesize{$\mathcal{T}_\mathrm{trivial}$}};
+        \draw (st) -- (K) -- (UL) -- (discrete) -- (LL) -- (st) (UL) -- (st) -- (tr);
+    \end{tikzpicture}
+\end{document}
