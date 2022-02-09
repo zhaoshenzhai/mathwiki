@@ -6,10 +6,10 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Projection Maps (Kuratowski)]]
+Constructions: [[Projection Maps (Kuratowski)]], [[Product Space (Topology)]]
 Generalizations: [[Cartesian Product (Arbitrary)]]
 
-Properties: [[Cartesian product is monotone w.r.t. subsets]]
+Properties: [[Cartesian product is monotone w.r.t. subsets]], [[Cartesian product of intersections]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Binary relation iff subset of Cartesian product]]
 Justifications: [[Cartesian product (Kuratowski) is a set (Power Set)]], [[Cartesian product (Kuratowski) is a set (Replacement)]]

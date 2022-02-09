@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Real Line (Topology)]]
-Constructions: _Not Applicable_
+Constructions: [[Product Space (Topology)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: [[Projection Maps (Arbitrary)]]
 
-Properties: _Not Applicable_
+Properties: [[Preimage under projection of subset]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Projection maps (Kuratowski) are surjections]]
