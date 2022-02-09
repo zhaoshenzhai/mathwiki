@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "fdaf6bef540202db",
+        "id": "898c227c7f594895",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -182,7 +182,7 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "fdaf6bef540202db",
+  "active": "898c227c7f594895",
   "lastOpenFiles": [
     "Files/Product topology (subbasis).md",
     "Files/Inverse (Function).md",
