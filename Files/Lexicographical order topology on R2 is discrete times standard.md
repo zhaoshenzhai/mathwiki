@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 10/02/2022 13:32:29
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for fineness w.r.t bases]], [[Product topology (basis; component from bases)]], [[Discrete topology (basis)]]
 Generalizations: _Not Applicable_
@@ -57,22 +57,12 @@ Take $\l(\l\langle a,b\r\rangle,\l\langle c,d\r\rangle\r)\in\mc{B}_<$ containing
       \end{alignedat}\tag{$\color{blue}\ast$}
       \end{equation}$$  
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/10-02-2022_1540/image.svg"></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/10-02-2022_1540/image.svg", width=25%></center>
 
-![image](../Images/10-02-2022_1540/image.svg)
+In all cases, we see that there exists $B\in\mc{B}_\textrm{pr}$ such that $p\in B\subseteq\l(\l\langle a,b\r\rangle,\l\langle c,d\r\rangle\r)$, so $\mc{T}_<\subseteq\mc{T}_\textrm{discrete}\times\mc{T}_\textrm{st}$.
 
-Take $\l(a,b\r)\times\l(c,d\r)\in\mc{B}_\textrm{st}$ containing $p\in\mb{R}^2$, so $p=\l\langle x,y\r\rangle$ for some $a<x<b$ and $c<y<d$. Observe that
+Conversely, take $\l\{a\r\}\times\l(b,d\r)\in\mc{B}_\textrm{pr}$ containing $p\in\mb{R}^2$, so $p=\l\langle a,y\r\rangle$ for some $b<y<d$. It follows from lemma ($\ast$) that $\l\{a\r\}\times\l(b,d\r)=\l(\l\langle a,b\r\rangle,\l\langle a,d\r\rangle\r)$, so
 $$\begin{equation}
-    p=\l\langle x,y\r\rangle\in\l(\l\langle x,c\r\rangle,\l\langle x,d\r\rangle\r)\subseteq\l(a,b\r)\times\l(c,d\r),
+    p=\l\langle a,y\r\rangle\in\underbrace{\l(\l\langle a,b\r\rangle,\l\langle a,d\r\rangle\r)}_{\in\mc{B}_<}=\l\{a\r\}\times\l(b,d\r).
 \end{equation}$$
-
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/10-02-2022_1303/image.svg", width=12%></center>
-
-so we have $\mc{T}_\textrm{st}\subseteq\mc{T}_<$. The converse does not hold, for take $\l\langle e,f\r\rangle\in\mb{R}^2$ and choose $\l(\l\langle e,c'\r\rangle,\l\langle e,d'\r\rangle\r)$ for any $c'<f<d'$. Any $B\in\mc{B}_\textrm{st}$ containing $\l\langle e,f\r\rangle$ must be of the form $\l(a,b\r)\times\l(c,d\r)$ where $a<e<b$ and $c<f<d$. But then observe that
-$$\begin{equation}
-    \l\langle\frac{a+e}{2},f\r\rangle\in\l(a,b\r)\times\l(c,d\r)\ \ \ \ \textrm{but}\ \ \ \ \l\langle\frac{a+e}{2},f\r\rangle\not\in\l(\l\langle e,c'\r\rangle,\l\langle e,d'\r\rangle\r),
-\end{equation}$$
-
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/10-02-2022_1318/image.svg", width=8%></center>
-
-so $\l(a,b\r)\times\l(c,d\r)\not\subseteq\l(\l\langle e,c'\r\rangle,\l\langle e,d'\r\rangle\r)$ and thus $\mc{T}_<\not\subseteq\mc{T}_\textrm{st}$.<span style="float:right;">$\blacksquare$</span>
+Hence we see that $\mc{T}_\textrm{discrete}\times\mc{T}_\textrm{st}\subseteq\mc{T}_<$, so equality holds.<span style="float:right;">$\blacksquare$</span>
