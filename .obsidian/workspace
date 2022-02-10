@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "50c6baeaaa7348bd",
+        "id": "31241315f13034ce",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Lexicographical order topology strictly finer than standard topology on R2.md",
+            "file": "Files/Lexicographical Order Topology on R2.md",
             "mode": "preview",
             "source": true
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Lexicographical order topology strictly finer than standard topology on R2.md",
+                "file": "Files/Lexicographical Order Topology on R2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Lexicographical order topology strictly finer than standard topology on R2.md",
+                "file": "Files/Lexicographical Order Topology on R2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Lexicographical order topology strictly finer than standard topology on R2.md",
+                "file": "Files/Lexicographical Order Topology on R2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -182,17 +182,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "50c6baeaaa7348bd",
+  "active": "31241315f13034ce",
   "lastOpenFiles": [
+    "Files/Lexicographical Order Topology on R2.md",
+    "Files/Open set in lexicographical order topology of R2.md",
+    "Files/Lexicographical Order.md",
     "Files/Lexicographical order topology strictly finer than standard topology on R2.md",
     "Files/Criteria for fineness w.r.t bases.md",
-    "Files/Lexicographical Order Topology on R2.md",
     "Files/Standard Topology on R2.md",
     "Files/Upper-limit topology strictly finer than standard topology on R.md",
     "Files/Product Topology (Binary).md",
     "Files/Standard Topology on R.md",
-    "Files/Order topology (subbasis).md",
-    "Files/Standard topology on R (subbasis; rational endpoints).md",
-    "Files/Lower-limit topology strictly finer than standard topology on R.md"
+    "Files/Order topology (subbasis).md"
   ]
 }

@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 10/02/2022 12:42:39
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for fineness w.r.t bases]]
 Generalizations: _Not Applicable_
@@ -26,13 +26,13 @@ $$\begin{equation}
     p=\l\langle x,y\r\rangle\in\l(\l\langle x,c\r\rangle,\l\langle x,d\r\rangle\r)\subseteq\l(a,b\r)\times\l(c,d\r),
 \end{equation}$$
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/10-02-2022_1303/image.svg"></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/10-02-2022_1303/image.svg", width=12%></center>
 
 so we have $\mc{T}_\textrm{st}\subseteq\mc{T}_<$. The converse does not hold, for take $\l\langle e,f\r\rangle\in\mb{R}^2$ and choose $\l(\l\langle e,c'\r\rangle,\l\langle e,d'\r\rangle\r)$ for any $c'<f<d'$. Any $B\in\mc{B}_\textrm{st}$ containing $\l\langle e,f\r\rangle$ must be of the form $\l(a,b\r)\times\l(c,d\r)$ where $a<e<b$ and $c<f<d$. But then observe that
 $$\begin{equation}
     \l\langle\frac{a+e}{2},f\r\rangle\in\l(a,b\r)\times\l(c,d\r)\ \ \ \ \textrm{but}\ \ \ \ \l\langle\frac{a+e}{2},f\r\rangle\not\in\l(\l\langle e,c'\r\rangle,\l\langle e,d'\r\rangle\r),
 \end{equation}$$
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/10-02-2022_1318/image.svg"></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/10-02-2022_1318/image.svg", width=8%></center>
 
-so $\l(a,b\r)\times\l(c,d\r)\not\subseteq\l(\l\langle e,c'\r\rangle,\l\langle e,d'\r\rangle\r)$ and thus $\mc{T}_<\not\subseteq\mc{T}_\textrm{st}$.
+so $\l(a,b\r)\times\l(c,d\r)\not\subseteq\l(\l\langle e,c'\r\rangle,\l\langle e,d'\r\rangle\r)$ and thus $\mc{T}_<\not\subseteq\mc{T}_\textrm{st}$.<span style="float:right;">$\blacksquare$</span>
