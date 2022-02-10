@@ -9,7 +9,7 @@ Examples: [[Open set in lexicographical order topology of R2]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Lexicographical order topology strictly finer than standard topology on R2]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Lexicographical order on R2 is unbounded]]

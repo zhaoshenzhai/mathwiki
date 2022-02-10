@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Standard Topology on R]], [[Standard Topology on N]], [[Lexicographical Order Topology]]
-Constructions: _Not Applicable_
+Constructions: [[Order Space (Topology)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

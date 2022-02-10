@@ -6,10 +6,10 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Real Line (Topology)]]
+Constructions: [[Real Line (Topology)]], [[Standard Topology on R2]]
 Generalizations: _Not Applicable_
 
-Properties: [[Upper-limit topology strictly finer than standard topology]], [[Lower-limit topology strictly finer than standard topology]], [[K topology strictly finer than standard topology]]
+Properties: [[Upper-limit topology strictly finer than standard topology on R]], [[Lower-limit topology strictly finer than standard topology on R]], [[K topology strictly finer than standard topology on R]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Standard topology on R (explicit)]], [[Standard topology on R (basis; rational endpoints)]], [[Standard topology on R (subbasis; rational endpoints)]]
 Justifications: _Not Applicable_

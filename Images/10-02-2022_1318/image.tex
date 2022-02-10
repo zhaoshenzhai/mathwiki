@@ -1,0 +1,20 @@
+\documentclass[margin=20mm]{standalone}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\begin{document}
+    \begin{tikzpicture}[color=textColor]
+        \draw[dashed] (0,-0.5) rectangle (1.25,0.5);
+        \draw[(-)] (1,-1) -- (1,1);
+        \fill (1, 0.15) circle (0.25mm) node[below left] {\footnotesize{$\l\langle e,f\r\rangle$}};
+        
+        \draw (0.75,-1) circle (0) node {\footnotesize{$c'$}};
+        \draw (0.75,1) circle (0) node {\footnotesize{$d'$}};
+
+        \draw (0,-0.75) circle (0) node{\footnotesize{$a$}};
+        \draw (1.25,-0.75) circle (0) node{\footnotesize{$b$}};
+        \draw (-0.25,-0.5) circle (0) node{\footnotesize{$c$}};
+        \draw (-0.25,0.5) circle (0) node{\footnotesize{$d$}};
+    \end{tikzpicture}
+\end{document}

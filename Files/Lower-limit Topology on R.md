@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Lower-limit topology strictly finer than standard topology]], [[Lower and upper limit topologies are not comparable]], [[Lower and K topologies are not comparable]]
+Properties: [[Lower-limit topology strictly finer than standard topology on R]], [[Lower and upper limit topologies are not comparable on R]], [[Lower and K topologies are not comparable on R]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Lower-limit topology is a topology on R]]

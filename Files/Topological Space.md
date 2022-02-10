@@ -5,7 +5,7 @@ Date Created: 23/01/2022 19:05:00
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Real Line (Topology)]]
+Examples: [[Order Space (Topology)]]
 Constructions: [[Product Space (Topology)]]
 Generalizations: _Not Applicable_
 

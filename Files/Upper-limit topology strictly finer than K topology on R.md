@@ -4,7 +4,7 @@
 Date Created: 05/02/2022 10:24:48
 Tags: #Proposition #Closed 
 
-Proved by: [[Criteria for fineness w.r.t bases]], [[Upper-limit topology strictly finer than standard topology]]
+Proved by: [[Criteria for fineness w.r.t bases]], [[Upper-limit topology strictly finer than standard topology on R]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.

@@ -5,7 +5,7 @@ Date Created: 09/02/2022 11:14:58
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Standard Topology on R2]]
 Constructions: [[Product Space (Topology)]]
 Generalizations: _Not Applicable_
 
@@ -22,3 +22,5 @@ $$\begin{equation}
 \end{equation}$$
 
 --- admonition
+
+**Remark.** Write $\mc{T}_X\times\mc{T}_Y\coloneqq\mc{T}_\textrm{pr}$. Note that this is _not_ the Cartesian product of $\mc{T}_X$ and $\mc{T}_Y$.<span style="float:right;">$\blacklozenge$</span>
