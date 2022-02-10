@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Lexicographical order topology strictly finer than standard topology on R2]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Lexicographical order topology on R2 is discrete times standard]]
 Justifications: [[Lexicographical order on R2 is unbounded]]
 
 !!! ad-Definition Definition.

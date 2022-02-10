@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "31241315f13034ce",
+        "id": "e24b3a676d3a0688",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Lexicographical Order Topology on R2.md",
+            "file": "Files/Lexicographical order topology on R2 is discrete times standard.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "69e5a986d408dd4a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Lexicographical order topology strictly finer than standard topology on R2.md",
             "mode": "preview",
             "source": true
           }
@@ -71,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Lexicographical Order Topology on R2.md",
+                "file": "Files/Lexicographical order topology on R2 is discrete times standard.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Lexicographical Order Topology on R2.md",
+                "file": "Files/Lexicographical order topology on R2 is discrete times standard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Lexicographical Order Topology on R2.md",
+                "file": "Files/Lexicographical order topology on R2 is discrete times standard.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -182,17 +194,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "31241315f13034ce",
+  "active": "e24b3a676d3a0688",
   "lastOpenFiles": [
-    "Files/Lexicographical Order Topology on R2.md",
-    "Files/Open set in lexicographical order topology of R2.md",
-    "Files/Lexicographical Order.md",
+    "Files/Lexicographical order topology on R2 is discrete times standard.md",
     "Files/Lexicographical order topology strictly finer than standard topology on R2.md",
-    "Files/Criteria for fineness w.r.t bases.md",
-    "Files/Standard Topology on R2.md",
-    "Files/Upper-limit topology strictly finer than standard topology on R.md",
-    "Files/Product Topology (Binary).md",
-    "Files/Standard Topology on R.md",
-    "Files/Order topology (subbasis).md"
+    "Files/Discrete Topology.md",
+    "Files/Lexicographical Order Topology on R2.md",
+    "Files/Product topology (basis; component from bases).md",
+    "Files/Open Interval.md",
+    "Files/Topological Space.md",
+    "Files/Product Space (Topology).md",
+    "Files/Order Space (Topology).md",
+    "Files/Product Topology (Binary).md"
   ]
 }

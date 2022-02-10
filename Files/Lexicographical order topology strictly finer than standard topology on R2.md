@@ -4,7 +4,7 @@
 Date Created: 10/02/2022 12:42:39
 Tags: #Proposition #Closed 
 
-Proved by: [[Criteria for fineness w.r.t bases]]
+Proved by: [[Criteria for fineness w.r.t bases]], [[Product topology (basis; component from bases)]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
@@ -21,7 +21,7 @@ and
 $$\begin{equation}
     \mc{B}_\textrm{st}\coloneqq\l\{B\in\mc{P}\l(\mb{R}^2\r)\mid\ex a,b,c,d\in\mb{R}:a<b\land c<d\land B=\l(a,b\r)\times\l(a,d\r)\r\},
 \end{equation}$$
-respectively. Take $B\in\mc{B}_\textrm{st}$ and $p\in B$, so $p=\l\langle x,y\r\rangle$ for some $a<x<b$ and $c<y<d$. Observe that
+respectively. Take $\l(a,b\r)\times\l(c,d\r)\in\mc{B}_\textrm{st}$ containing $p\in\mb{R}^2$, so $p=\l\langle x,y\r\rangle$ for some $a<x<b$ and $c<y<d$. Observe that
 $$\begin{equation}
     p=\l\langle x,y\r\rangle\in\l(\l\langle x,c\r\rangle,\l\langle x,d\r\rangle\r)\subseteq\l(a,b\r)\times\l(c,d\r),
 \end{equation}$$
