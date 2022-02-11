@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Order Space (Topology)]]
-Constructions: [[Product Space (Topology)]]
+Constructions: [[Product Space (Topology)]], [[Subspace (Topology)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

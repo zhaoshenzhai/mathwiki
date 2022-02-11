@@ -1,0 +1,39 @@
+\documentclass[margin=20mm]{standalone}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\begin{document}
+     \begin{tikzpicture}[color=textColor]
+        \newcommand{\pathA}{(-0.50,+1.25) .. controls (+1.00,+0.75) and (+1.75,+1.75) .. (+2.50,+1.75)}
+        \newcommand{\pathB}{(+2.50,+1.75) .. controls (+3.25,+1.75) and (+1.75,+0.50) .. (+2.50,-0.75)}
+        \newcommand{\pathC}{(+2.50,-0.75) .. controls (+3.25,-2.00) and (+1.00,-0.25) .. (-0.25,-1.25)}
+        \newcommand{\pathD}{(-0.25,-1.25) .. controls (-1.50,-2.25) and (-1.50,-0.75) .. (-1.50,-0.25)}
+        \newcommand{\pathE}{(-1.50,-0.25) .. controls (-1.50,+0.25) and (-1.75,+0.75) .. (-1.75,+0.75)}
+        \newcommand{\pathF}{(-1.75,+0.75) .. controls (-2.00,+1.25) and (-1.25,+1.50) .. (-0.50,+1.25)}
+        \draw[dashed, thick, dash phase=11pt] \pathA -- \pathB -- \pathC -- \pathD -- \pathE -- \pathF -- cycle;
+        \fill[color=shadeColor] \pathA -- \pathB -- \pathC -- \pathD -- \pathE -- \pathF;
+        \draw plot [smooth, tension=1] coordinates {(-1,-0.5) (0,0.5) (1,0) (2,0.5)};
+
+        \draw[dashed] (0.68,0.17) circle (0.36);
+        \begin{scope}
+            \clip (0.68,0.17) circle (0.36);
+            \draw[thick] plot [smooth, tension=1] coordinates {(-1,-0.5) (0,0.5) (1,0) (2,0.5)};
+        \end{scope}
+        \draw (1,0) node[rotate=-90] {\tikz \draw[-Parenthesis, thick] (0,0) -- (0,0);};
+        \draw (0.4,0.4) node[rotate=55] {\tikz \draw[-Parenthesis, thick] (0,0) -- (0,0);};
+
+        \draw[dashed] (-0.83,-0.333) circle (0.378);
+        \begin{scope}
+            \clip (-0.83,-0.333) circle (0.378);
+            \draw[thick] plot [smooth, tension=1] coordinates {(-1,-0.5) (0,0.5) (1,0) (2,0.5)};
+        \end{scope}
+        \draw (-1,-0.5) node[rotate=150] {\tikz \draw[[-, thick] (0,0) -- (0,0);};
+        \draw (-0.65,0) node[rotate=-40] {\tikz \draw[(-, thick] (0,0) -- (0,0);};
+
+        \draw (3,1.75) circle (0) node {\footnotesize{$X$}};
+        \draw (2,0.75) circle (0) node {\footnotesize{$Y$}};
+        \draw (-1,0.25) circle (0) node {\footnotesize{$U_1$}};
+        \draw (0.75,0.75) circle (0) node {\footnotesize{$U_2$}};
+    \end{tikzpicture}   
+\end{document}

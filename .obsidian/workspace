@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "af29c4f4bc7327c4",
+        "id": "e369c58ea4a47e06",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Files/Subset Topology.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -67,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Files/Subset Topology.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,6 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Files/Subset Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Files/Subset Topology.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -162,7 +169,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.45787281689814635,
+                  "scale": 0.11961699565571549,
                   "close": true
                 }
               }
@@ -175,17 +182,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "af29c4f4bc7327c4",
+  "active": "e369c58ea4a47e06",
   "lastOpenFiles": [
-    "Files/Lexicographical order topology on R2 is discrete times standard.md",
-    "Files/Lexicographical order topology strictly finer than standard topology on R2.md",
-    "Files/Discrete Topology.md",
-    "Files/Lexicographical Order Topology on R2.md",
-    "Files/Product topology (basis; component from bases).md",
-    "Files/Open Interval.md",
+    "Files/Subset Topology.md",
+    "Files/Subspace (Topology).md",
     "Files/Topological Space.md",
-    "Files/Product Space (Topology).md",
-    "Files/Order Space (Topology).md",
-    "Files/Product Topology (Binary).md"
+    "Files/Topology on a Set.md",
+    "Files/Subset.md",
+    "Files/Product Topology (Binary).md",
+    "Files/Product of topologies is monotone w.r.t. subsets.md",
+    "Files/Cartesian product is monotone w.r.t. subsets.md",
+    "Files/Lexicographical order topology on R2 is discrete times standard.md",
+    "Files/Lexicographical order topology strictly finer than standard topology on R2.md"
   ]
 }

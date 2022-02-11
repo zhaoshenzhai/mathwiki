@@ -21,7 +21,7 @@ and
 $$\begin{equation}
     \mc{B}_\textrm{pr}\coloneqq\l\{B\in\mc{P}\l(\mb{R}^2\r)\mid\ex a,b,d\in\mb{R}:b<d\land B=\l\{a\r\}\times\l(b,d\r)\r\},
 \end{equation}$$
-respectively. We need the following lemma:
+respectively. We proceed by double containment. First, we need the following lemma:
 $$\begin{equation}
     \begin{alignedat}{2}
         p\in\l(\l\langle a,b\r\rangle,\l\langle a,d\r\rangle\r)&\Leftrightarrow\ex y\in\mb{R}:b<y<d\land p=\l\langle a,y\r\rangle&&\textrm{Definition of open interval w.r.t. }<_L\\
@@ -31,7 +31,7 @@ $$\begin{equation}
         &\Leftrightarrow p\in\l\{a\r\}\times\l(b,d\r).&&\textrm{Definition of Cartesian product}
     \end{alignedat}\tag{$\ast$}
 \end{equation}$$
-Take $\l(\l\langle a,b\r\rangle,\l\langle c,d\r\rangle\r)\in\mc{B}_<$ containing $p\in\mb{R}^2$, so there exist $x,y\in\mb{R}$ such that $p=\l\langle x,y\r\rangle$. 
+($\mc{T}_<\subseteq\mc{T}_\textrm{discrete}\times\mc{T}_\textrm{st}$): Take $\l(\l\langle a,b\r\rangle,\l\langle c,d\r\rangle\r)\in\mc{B}_<$ containing $p\in\mb{R}^2$, so there exist $x,y\in\mb{R}$ such that $p=\l\langle x,y\r\rangle$. 
 * If $a=c$, observe that $p\in\l\{a\r\}\times\l(b,d\r)=\l(\l\langle a,b\r\rangle,\l\langle a,d\r\rangle\r)=\l(\l\langle a,b\r\rangle,\l\langle c,d\r\rangle\r)$.
 
 * Otherwise, since $\l(\l\langle a,b\r\rangle,\l\langle c,d\r\rangle\r)\neq\em$, we have $a<c$.
@@ -61,7 +61,7 @@ Take $\l(\l\langle a,b\r\rangle,\l\langle c,d\r\rangle\r)\in\mc{B}_<$ containing
 
 In all cases, we see that there exists $B\in\mc{B}_\textrm{pr}$ such that $p\in B\subseteq\l(\l\langle a,b\r\rangle,\l\langle c,d\r\rangle\r)$, so $\mc{T}_<\subseteq\mc{T}_\textrm{discrete}\times\mc{T}_\textrm{st}$.
 
-Conversely, take $\l\{a\r\}\times\l(b,d\r)\in\mc{B}_\textrm{pr}$ containing $p\in\mb{R}^2$, so $p=\l\langle a,y\r\rangle$ for some $b<y<d$. It follows from lemma ($\ast$) that $\l\{a\r\}\times\l(b,d\r)=\l(\l\langle a,b\r\rangle,\l\langle a,d\r\rangle\r)$, so
+($\mc{T}_\textrm{discrete}\times\mc{T}_\textrm{st}\subseteq\mc{T}_<$): Conversely, take $\l\{a\r\}\times\l(b,d\r)\in\mc{B}_\textrm{pr}$ containing $p\in\mb{R}^2$, so $p=\l\langle a,y\r\rangle$ for some $b<y<d$. It follows from lemma ($\ast$) that $\l\{a\r\}\times\l(b,d\r)=\l(\l\langle a,b\r\rangle,\l\langle a,d\r\rangle\r)$, so
 $$\begin{equation}
     p=\l\langle a,y\r\rangle\in\underbrace{\l(\l\langle a,b\r\rangle,\l\langle a,d\r\rangle\r)}_{\in\mc{B}_<}=\l\{a\r\}\times\l(b,d\r).
 \end{equation}$$
