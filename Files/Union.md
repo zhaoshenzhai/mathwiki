@@ -9,7 +9,7 @@ Examples: [[Union of empty set is empty]]
 Constructions: [[Set of unions and intersections]], [[Successor Function]]
 Generalizations: _Not Applicable_
 
-Properties: [[Union of unions is a union]], [[De Morgan's Laws]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Union of subsets is a subset of union]], [[Element of set is a subset of its union]], [[Union of set of subsets is a subset]]
+Properties: [[Union of unions is a union]], [[De Morgan's Laws]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Union of subsets is a subset of union]], [[Union of set of subsets is a subset]], [[Union distributes over binary intersection]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

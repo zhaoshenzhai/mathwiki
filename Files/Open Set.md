@@ -10,7 +10,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Set is open if covered by open subsets]]
+Sufficiencies: [[Set is open if covered by open subsets]], [[Open set in open subspace is open]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
