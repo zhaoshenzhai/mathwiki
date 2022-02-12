@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "cb9ef35b9bac860d",
+        "id": "4d7488c5cd9b3ea3",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Files/Restricted order topology subset of subspace topology.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "3b595a3c936743f9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Product and subspace topologies on subsets coincide.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -37,7 +53,7 @@
               "type": "search",
               "state": {
                 "query": "tag:In_Progress",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -67,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Files/Restricted order topology subset of subspace topology.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Files/Restricted order topology subset of subspace topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,6 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Files/Restricted order topology subset of subspace topology.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,17 +194,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "cb9ef35b9bac860d",
+  "active": "4d7488c5cd9b3ea3",
   "lastOpenFiles": [
-    "Files/Topological Space.md",
+    "Files/Restricted order topology subset of subspace topology.md",
     "Files/Product and subspace topologies on subsets coincide.md",
-    "Files/Product topology (basis; component from bases).md",
-    "Files/Subspace topology (basis).md",
-    "Files/Product Topology (Binary).md",
-    "Files/Cartesian product of intersections.md",
-    "Files/Subspace Topology.md",
     "Files/Topological Subspace.md",
+    "Files/Subspace Topology.md",
+    "Files/Order Topology.md",
+    "Files/Order Space (Topology).md",
     "Files/Subspace topology is a topology.md",
-    "Files/Subspace topology (Subbasis).md"
+    "Files/Subspace topology (Subbasis).md",
+    "Files/Subspace topology (basis).md",
+    "Files/Basis (Topology).md"
   ]
 }
