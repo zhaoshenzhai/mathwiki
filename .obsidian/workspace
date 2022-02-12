@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3bc391c7c4fdd236",
+        "id": "cb9ef35b9bac860d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Subset Topology.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "tag:In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -71,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Subset Topology.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +94,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Subset Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +111,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Subset Topology.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -182,17 +175,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "3bc391c7c4fdd236",
+  "active": "cb9ef35b9bac860d",
   "lastOpenFiles": [
-    "Files/Subset Topology.md",
-    "Files/Subset topology of subset topology is subset topology.md",
-    "Files/Subset topology (Basis).md",
-    "Files/Intersection.md",
-    "Files/Intersection of intersections is an intersection.md",
-    "Files/Open set in open subspace is open.md",
-    "Files/Topology on a Set.md",
-    "Files/Order Space (Topology).md",
-    "Files/Product Space (Topology).md",
-    "Files/Subspace (Topology).md"
+    "Files/Topological Space.md",
+    "Files/Product and subspace topologies on subsets coincide.md",
+    "Files/Product topology (basis; component from bases).md",
+    "Files/Subspace topology (basis).md",
+    "Files/Product Topology (Binary).md",
+    "Files/Cartesian product of intersections.md",
+    "Files/Subspace Topology.md",
+    "Files/Topological Subspace.md",
+    "Files/Subspace topology is a topology.md",
+    "Files/Subspace topology (Subbasis).md"
   ]
 }

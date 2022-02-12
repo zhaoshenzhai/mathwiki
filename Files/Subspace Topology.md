@@ -6,13 +6,13 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Subspace (Topology)]]
+Constructions: [[Topological Subspace]]
 Generalizations: _Not Applicable_
 
-Properties: [[Open set in open subspace is open]], [[Subset topology of subset topology is subset topology]]
+Properties: [[Open set in open subspace is open]], [[Subspace topology of subspace topology is subspace topology]], [[Product and subspace topologies on subsets coincide]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Subset topology (Basis)]], [[Subset topology (Subbasis)]]
-Justifications: [[Subset topology is a topology]]
+Equivalences: [[Subspace topology (basis)]], [[Subspace topology (Subbasis)]]
+Justifications: [[Subspace topology is a topology]]
 
 !!! ad-Definition Definition.
 

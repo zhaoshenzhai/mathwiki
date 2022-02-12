@@ -4,7 +4,7 @@
 Date Created: 11/02/2022 18:25:41
 Tags: #Proposition #Closed 
 
-Proved by: [[Subset topology (Basis)]]
+Proved by: [[Subspace topology (basis)]]
 Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
