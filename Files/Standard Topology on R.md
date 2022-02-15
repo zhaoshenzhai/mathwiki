@@ -16,11 +16,11 @@ Justifications: _Not Applicable_
 
 !!! ad-Definition Definition.
 
-_Let $<$ be the standard ordering on the real numbers $\mb{R}$. The **standard topology on $\mb{R}$** is the order topology_ $\mc{T}(<)$_._
+_Let $<$ be the standard ordering on the real numbers $\R$. The **standard topology on $\R$** is the order topology_ $\mc{T}(<)$_._
 
 --- admonition
 
-**Remark.** Since $\mb{R}$ is unbounded (in both directions), we see that $\mc{T}\l(<\r)\coloneqq\mc{T}\l(\mc{B}\r)$ where
+**Remark.** Since $\R$ is unbounded (in both directions), we see that $\mc{T}\l(<\r)\coloneqq\mc{T}\l(\mc{B}\r)$ where
 $$\begin{equation}
-    \mc{B}\coloneqq\l\{B\in\mc{P}\l(\mb{R}\r)\mid\ex a,b\in\mb{R}:a<b\land B=\l(a,b\r)\r\}.\exqedin
+    \mc{B}\coloneqq\l\{B\in\mc{P}\l(\R\r)\mid\ex a,b\in\R:a<b\land B=\l(a,b\r)\r\}.\exqedin
 \end{equation}$$

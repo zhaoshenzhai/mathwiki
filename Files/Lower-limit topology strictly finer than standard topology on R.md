@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-_Let $\mb{R}$ be the set of real numbers. Then the lower limit topology_ $\mc{T}_\textrm{LL}$ _is strictly finer than the standard topology_ $\mc{T}_\textrm{st}$ _on $\mb{R}$._
+_Let $\R$ be the set of real numbers. Then the lower limit topology_ $\mc{T}_\textrm{LL}$ _is strictly finer than the standard topology_ $\mc{T}_\textrm{st}$ _on $\R$._
 
 --- admonition
 

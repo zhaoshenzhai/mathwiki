@@ -9,14 +9,14 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-_Let $\mb{R}$ be the set of real numbers. Then the lower limit topology_ $\mc{T}_\textrm{LL}\coloneqq\mc{T}\l(\mc{B}_\textrm{LL}\r)$ _where_
+_Let $\R$ be the set of real numbers. Then the lower limit topology_ $\mc{T}_\textrm{LL}\coloneqq\mc{T}\l(\mc{B}_\textrm{LL}\r)$ _where_
 $$\begin{equation}
-    \mc{B}_\textrm{LL}\coloneqq\l\{B\in\mc{P}\l(\mb{R}\r)\mid \ex a,b\in\mb{R}:a<b\land B=\l[a,b\r)\r\}.
+    \mc{B}_\textrm{LL}\coloneqq\l\{B\in\mc{P}\l(\R\r)\mid \ex a,b\in\R:a<b\land B=\l[a,b\r)\r\}.
 \end{equation}$$
-_is a topology on $\mb{R}$._
+_is a topology on $\R$._
 
 --- admonition
 
-_Proof_. It suffices to prove that $\mc{B}_\textrm{LL}$ is a basis for a topology on $\mb{R}$.
-* ($\axibasis{1}$): For any $x\in\mb{R}$, take $B=\l[x,x+r\r)$ for any $r\in\mb{R}^+$. Observe that $x\in B$.
+_Proof_. It suffices to prove that $\mc{B}_\textrm{LL}$ is a basis for a topology on $\R$.
+* ($\axibasis{1}$): For any $x\in\R$, take $B=\l[x,x+r\r)$ for any $r\in\R^+$. Observe that $x\in B$.
 * ($\axibasis{2}$): Take any $B_1=\l[a,b\r)$ and $B_2=\l[c,d\r)$ in $\mc{B}_\textrm{LL}$. Observe that either $c<b$ or $b\leq c$; in the latter case, their intersection is empty. Otherwise, $B_1\cap B_2=\l[c,b\r)$ is again in $\mc{B}_\textrm{LL}$.<span style="float:right;">$\blacksquare$</span>

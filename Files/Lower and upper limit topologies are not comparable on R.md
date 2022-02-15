@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-_Let $\mb{R}$ be the set of real numbers. Then the lower and upper limit topologies_ $\mc{T}_\textrm{LL}$ _and_ $\mc{T}_\textrm{UL}$_ on $\mb{R}$, respectively, are not comparable._
+_Let $\R$ be the set of real numbers. Then the lower and upper limit topologies_ $\mc{T}_\textrm{LL}$ _and_ $\mc{T}_\textrm{UL}$_ on $\R$, respectively, are not comparable._
 
 --- admonition
 

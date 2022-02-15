@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-_Let $\mb{R}$ be the set of real numbers. Then the upper-limit topology_ $\mc{T}_\textrm{UL}$_, lower-limit topology_ $\mc{T}_\textrm{LL}$_, and the $K$ topology_ $\mc{T}_\textrm{K}$ _on $\mb{R}$ are all strictly finer than the standard topology_ $\mc{T}_\textrm{st}$ _on $\mb{R}$._
+_Let $\R$ be the set of real numbers. Then the upper-limit topology_ $\mc{T}_\textrm{UL}$_, lower-limit topology_ $\mc{T}_\textrm{LL}$_, and the $K$ topology_ $\mc{T}_\textrm{K}$ _on $\R$ are all strictly finer than the standard topology_ $\mc{T}_\textrm{st}$ _on $\R$._
 
 _Furthermore,_ $\mc{T}_\textrm{UL}$ _is strictly finer than_ $\mc{T}_\textrm{K}$_, and_ $\mc{T}_\textrm{LL}$ _is not comparable with either_ $\mc{T}_\textrm{UL}$ _or_ $\mc{T}_\textrm{K}$_._
 

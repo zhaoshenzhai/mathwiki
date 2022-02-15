@@ -9,13 +9,13 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-_Let $\l\langle\mb{R}^2,\mc{T}\r\rangle$ be the topological space where $\mc{T}\coloneqq\mc{T}\l(\mc{B}\r)$ is the lexicographical order topology on $\mb{R}^2$. Then sets of the form $U\coloneqq\l(m,n\r)\times\mb{R}$ where $m,n\in\mb{R}$ are open but not basis elements in $\mc{B}$._
+_Let $\l\langle\R^2,\mc{T}\r\rangle$ be the topological space where $\mc{T}\coloneqq\mc{T}\l(\mc{B}\r)$ is the lexicographical order topology on $\R^2$. Then sets of the form $U\coloneqq\l(m,n\r)\times\R$ where $m,n\in\R$ are open but not basis elements in $\mc{B}$._
 
 --- admonition
 
 _Proof_. To show that $U\in\mc{T}\l(\mc{B}\r)$, it suffices to find some subset $\mc{A}\subseteq\mc{B}$ with $U=\bigcup\mc{A}$. Indeed, let
 $$\begin{equation}
-    \mc{A}\coloneqq\l\{A\in\mc{P}\l(\mb{R}^2\r)\mid\ex a,b,c,d\in\mb{R}:m<a\leq c<n\land A=\l(\l\langle a,b\r\rangle,\l\langle c,d\r\rangle\r)\r\}
+    \mc{A}\coloneqq\l\{A\in\mc{P}\l(\R^2\r)\mid\ex a,b,c,d\in\R:m<a\leq c<n\land A=\l(\l\langle a,b\r\rangle,\l\langle c,d\r\rangle\r)\r\}
 \end{equation}$$
 and set $V\coloneqq\bigcup\mc{A}$; we wish to show that $U=V$.
 * ($U\subseteq V$): Take $\l\langle x,y\r\rangle\in U$, so $m<x<n$. Observe that
@@ -24,9 +24,9 @@ $$\begin{equation}
 \end{equation}$$
 so $\l\langle x,y\r\rangle\in\bigcup\mc{A}=V$.
 
-* ($V\subseteq U$): Take $v\in V=\bigcup\mc{A}$, so $\ex A\in\mc{A}:v\in A$. In other words, there exist $a,b,c,d\in\mb{R}$ with $m<a\leq c< n$ such that $v\in\l(\l\langle a,b\r\rangle,\l\langle c,d\r\rangle\r)$. Let $v\coloneqq\l\langle v_1,v_2\r\rangle$, so, in particular, we have $a\leq v_1\leq c$ and thus $m<v_1<n$. It follows that $v_1\in\l(m,n\r)$ and hence $v\in U$.
+* ($V\subseteq U$): Take $v\in V=\bigcup\mc{A}$, so $\ex A\in\mc{A}:v\in A$. In other words, there exist $a,b,c,d\in\R$ with $m<a\leq c< n$ such that $v\in\l(\l\langle a,b\r\rangle,\l\langle c,d\r\rangle\r)$. Let $v\coloneqq\l\langle v_1,v_2\r\rangle$, so, in particular, we have $a\leq v_1\leq c$ and thus $m<v_1<n$. It follows that $v_1\in\l(m,n\r)$ and hence $v\in U$.
 
-It remains to show that $U$ is not a basis element in $\mc{B}$. Suppose, for sake of contradiction, that there exist $\alpha\coloneqq\l\langle a,b\r\rangle\in\mb{R}^2$ and $\beta\in\mb{R}^2$ such that $U=\l(\alpha,\beta\r)$.
+It remains to show that $U$ is not a basis element in $\mc{B}$. Suppose, for sake of contradiction, that there exist $\alpha\coloneqq\l\langle a,b\r\rangle\in\R^2$ and $\beta\in\R^2$ such that $U=\l(\alpha,\beta\r)$.
 * If $a\geq n$, then any element in $U$, say $p\coloneqq\l\langle\frac{m+n}{2},0\r\rangle$, does not lie in $\l(\alpha,\beta\r)$.
 * If $m<a<n$, then $q\coloneqq\l\langle a,b-1\r\rangle\in U$ but does not lie in $\l(\alpha,\beta\r)$.
 * If $a\leq m$, then $r\coloneqq\l\langle a,b+1\r\rangle\in U$ but does not lie in $\l(\alpha,\beta\r)$.

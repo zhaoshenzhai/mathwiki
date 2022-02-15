@@ -18,7 +18,7 @@ Justifications: _Not Applicable_
 
 _Let $I$ be any inductive set asserted by the Axiom of Infinity. The **set of natural numbers** is the set_
 $$\begin{equation}
-    \mb{N}\coloneqq\omega\coloneqq\l\{n\in I\mid n\textit{ is a natural number}\r\}.
+    \N\coloneqq\omega\coloneqq\l\{n\in I\mid n\textit{ is a natural number}\r\}.
 \end{equation}$$
 
 --- admonition
@@ -27,4 +27,4 @@ $$\begin{equation}
 
 ---
 
-**Remark.** Write $\mb{N}^\ast\coloneqq\mb{N}\comp\l\{0\r\}$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Write $\N^\ast\coloneqq\N\comp\l\{0\r\}$.<span style="float:right;">$\blacklozenge$</span>

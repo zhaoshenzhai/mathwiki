@@ -9,7 +9,7 @@ Generalizations: _Not Applicable_
 
 !!! ad-Proposition Proposition.
 
-_Let $\mb{R}$ be the set of real numbers. Then the $K$ topology_ $\mc{T}_\textrm{K}$ _is strictly finer than the standard topology_ $\mc{T}_\textrm{st}$ _on $\mb{R}$._
+_Let $\R$ be the set of real numbers. Then the $K$ topology_ $\mc{T}_\textrm{K}$ _is strictly finer than the standard topology_ $\mc{T}_\textrm{st}$ _on $\R$._
 
 --- admonition
 
