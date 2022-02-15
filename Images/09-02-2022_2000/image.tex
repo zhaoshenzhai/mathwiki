@@ -12,7 +12,7 @@
         \newcommand{\pathE}{(-1.50,-0.25) .. controls (-1.50,+0.25) and (-1.75,+0.75) .. (-1.75,+0.75)}
         \newcommand{\pathF}{(-1.75,+0.75) .. controls (-2.00,+1.25) and (-1.25,+1.50) .. (-0.50,+1.25)}
         \draw[dashed, thick, dash phase=11pt, color=textColor] \pathA -- \pathB -- \pathC -- \pathD -- \pathE -- \pathF -- cycle;
-        \fill[color=bgColor] \pathA -- \pathB -- \pathC -- \pathD -- \pathE -- \pathF;
+        \fill[color=shadeColor] \pathA -- \pathB -- \pathC -- \pathD -- \pathE -- \pathF;
         \draw (3,1.3) circle (0) node[text=textColor] {\footnotesize{$U$}};
         \filldraw[color=textColor] (0,0) circle (0.25mm) node[below right, text=textColor] {\footnotesize{$x$}};
         \draw[dashed, color=textColor] (0,0) circle (0.75) node[above right=7mm, text=textColor] {\footnotesize{$B$}};

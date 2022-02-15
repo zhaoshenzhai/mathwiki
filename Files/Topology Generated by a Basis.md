@@ -25,6 +25,8 @@ $$\begin{equation}
 
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_2000/image.svg" width=23%></center>
 
+![image](../Images/09-02-2022_2000/image.svg)
+
 **Remark.** Observe that $\mc{B}\subseteq\mc{T}\l(\mc{B}\r)$; take $B\in\mc{B}$ and for all $x\in B$, the tautology
 $$\begin{equation}
     \ex B\in\mc{B}:x\in B\land B\subseteq B
