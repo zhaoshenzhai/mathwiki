@@ -23,4 +23,4 @@ _Proof_. Suppose, for sake of contradiction, that $n$ is a natural number such t
 $$\begin{equation}
     \phi\l(\em\r)\ \ \ \ \textrm{and}\ \ \ \ \fa n\in\omega:\phi\l(n\r)\Rightarrow\phi\l(S\l(n\r)\r),
 \end{equation}$$
-for then we can construct the set $X\coloneqq\l\{n\in\omega\mid\phi\l(n\r)\r\}$ and conclude that $X$ is inductive since $\em\in X$ and $\fa x\in X:S\l(x\r)\in X$. By the Principle of Ordinary Induction, we see that $\omega\subseteq X$; since $x\subseteq\omega$, we see that $X=\omega$ and thus $\fa n\in\omega:\phi\l(n\r)$.<span style="float:right;">$\blacklozenge$</span>
+for then we can construct the set $X\coloneqq\l\{n\in\omega\mid\phi\l(n\r)\r\}$ and conclude that $X$ is inductive since $\em\in X$ and $\fa x\in X:S\l(x\r)\in X$. By the Principle of Ordinary Induction, we see that $\omega\subseteq X$; since $X\subseteq\omega$, we see that $X=\omega$ and thus $\fa n\in\omega:\phi\l(n\r)$.<span style="float:right;">$\blacklozenge$</span>
