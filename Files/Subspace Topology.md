@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Topological Subspace]]
 Generalizations: _Not Applicable_
 
-Properties: [[Open set in open subspace is open]], [[Subspace topology of subspace topology is subspace topology]], [[Product and subspace topologies on subsets coincide]]
+Properties: [[Open set in open subspace is open]], [[Subspace topology of subspace topology is subspace topology]], [[Product and subspace topologies on subsets coincide]], [[Restricted order topology subset of subspace topology]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Subspace topology (basis)]], [[Subspace topology (Subbasis)]]
 Justifications: [[Subspace topology is a topology]]

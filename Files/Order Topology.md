@@ -9,7 +9,7 @@ Examples: [[Standard Topology on R]], [[Standard Topology on N]], [[Lexicographi
 Constructions: [[Order Space (Topology)]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Restricted order topology subset of subspace topology]]
 Sufficiencies: [[Half-infinite open rays are open in the order topology]]
 Equivalences: [[Order topology (subbasis)]]
 Justifications: [[Order topology is a topology]]
