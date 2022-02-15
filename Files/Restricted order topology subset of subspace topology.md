@@ -21,7 +21,7 @@ and
 $$\begin{equation}
     \mc{S}_\textrm{sb}\coloneqq\l\{S\in\mc{P}\l(Y\r)\mid\l[\ex a\in X:S=\l(a,+\infty\r)_X\cap Y\r]\lor\l[\ex b\in X:S=\l(-\infty,b\r)_X\cap Y\r]\r\}
 \end{equation}$$
-are subbases for the topologies $\mc{T}\l(\l.<\r|_Y\r)$ and $\l.\mc{T}\l(<\r)\r|_Y$, respectively; here, $\l(\cdot,\cdot\r)_\bullet$ is an open interval in $\bullet$. It suffices to show that $\mc{S}_\textrm{or}\subseteq\mc{S}_\textrm{sb}$.
+are subbases for the topologies $\mc{T}\l(\l.<\r|_Y\r)$ and $\l.\mc{T}\l(<\r)\r|_Y$, respectively; here, $\l(\cdot,\cdot\r)_\blob$ is an open interval in $\blob$. It suffices to show that $\mc{S}_\textrm{or}\subseteq\mc{S}_\textrm{sb}$.
 * (Informal): Every half-infinite open ray in $Y$ is a half-infinite open ray in $X$ intersected with $Y$, so the result follows.
 
 * (Formal): Take $S\in\mc{S}_\textrm{or}$. There are two cases to consider.

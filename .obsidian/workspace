@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Euclidean Plane (Topology).md",
+            "file": "Files/Restricted order topology subset of subspace topology.md",
             "mode": "preview",
             "source": true
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Euclidean Plane (Topology).md",
+                "file": "Files/Restricted order topology subset of subspace topology.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Euclidean Plane (Topology).md",
+                "file": "Files/Restricted order topology subset of subspace topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Euclidean Plane (Topology).md",
+                "file": "Files/Restricted order topology subset of subspace topology.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -184,9 +184,9 @@
   },
   "active": "ac7b50db1bafd9ec",
   "lastOpenFiles": [
+    "Files/Restricted order topology subset of subspace topology.md",
     "Files/Euclidean Plane (Topology).md",
     "Files/Standard Topology on R.md",
-    "Files/Restricted order topology subset of subspace topology.md",
     "Files/Subspace topology (subbasis).md",
     "Files/Order topology (subbasis).md",
     "Files/Product and subspace topologies on subsets coincide.md",
