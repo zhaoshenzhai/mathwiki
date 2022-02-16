@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b3f918a4c673e9ea",
+        "id": "a780f61827b22419",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Dedekind-complete Ordered Set.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "624dde5551d9a016",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Convex (Order).md",
+            "file": "Files/Subspace topology (basis).md",
             "mode": "preview",
             "source": true
           }
@@ -83,14 +71,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Convex (Order).md",
+                "file": "Files/Subspace topology (basis).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -111,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Convex (Order).md",
+                "file": "Files/Subspace topology (basis).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,18 +117,18 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Convex (Order).md",
+                "file": "Files/Subspace topology (basis).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
-                  "localJumps": 4,
+                  "localJumps": 3,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": false,
+                  "collapse-color-groups": true,
                   "colorGroups": [
                     {
                       "query": "tag:#Definition",
@@ -181,7 +169,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.29097687188298516,
+                  "scale": 0.1825436559223048,
                   "close": true
                 }
               }
@@ -191,20 +179,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 441.6612243652344,
-    "collapsed": true
+    "width": 420.6612243652344
   },
-  "active": "624dde5551d9a016",
+  "active": "a780f61827b22419",
   "lastOpenFiles": [
-    "Files/Convex (Order).md",
-    "Files/Dedekind-complete Ordered Set.md",
-    "Files/Least upper bound iff greatest lower bound.md",
-    "Files/Supremum.md",
-    "Files/Lower Bound.md",
-    "Files/Upper Bound.md",
-    "Files/Partial Order.md",
-    "Files/Join-semilattice.md",
-    "Files/Partially Ordered Set.md",
-    "Files/Complete lattices are bounded.md"
+    "Files/Subspace topology (basis).md",
+    "Files/Preimage (Function).md",
+    "Files/Subset.md",
+    "Files/Cartesian product (Kuratowski) is a set (Replacement).md",
+    "Files/Cocountable Topology.md",
+    "Files/Order topology is a topology.md",
+    "Files/Minimal Element.md",
+    "Files/Well-founded Relation.md",
+    "Files/Reflexive closure is the smallest reflexive relation.md",
+    "Files/Lower-limit Topology on R.md"
   ]
 }
