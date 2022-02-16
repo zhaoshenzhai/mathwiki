@@ -52,15 +52,18 @@
       "copy": false
     }
   },
-  "syntaxHighlight": true,
+  "syntaxHighlight": false,
   "copyButton": false,
-  "version": "6.9.9",
+  "version": "6.11.0",
+  "warnedAboutNC": true,
   "autoCollapse": false,
   "defaultCollapseType": "open",
-  "syncLinks": true,
+  "syncLinks": false,
   "enableMarkdownProcessor": true,
   "injectColor": true,
   "parseTitles": true,
-  "allowMSSyntax": true,
-  "livePreviewMS": true
+  "allowMSSyntax": false,
+  "livePreviewMS": false,
+  "dropShadow": true,
+  "hideEmpty": false
 }

@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "e79c2a36991d536b",
+        "id": "684a7d58daebd51d",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "e79c2a36991d536b",
+  "active": "684a7d58daebd51d",
   "lastOpenFiles": [
+    "Files/Cartesian Product (Arbitrary).md",
+    "Files/Empty product is singleton of empty set.md",
+    "Files/Lexicographical Order Topology on N2.md",
+    "Files/Subspace topology is a topology.md",
+    "Files/ON is a transitive class.md",
+    "Files/Well-founded relations are irreflexive.md",
     "Files/Upper-limit topology strictly finer than K topology on R.md",
     "Files/Upper-limit topology strictly finer than standard topology on R.md",
     "Files/Axiom of Pairing.md",
-    "Files/Axiom Schema of Specification.md",
-    "Files/Axiom of Power Set.md",
-    "Files/Antisymmetric Relation.md",
-    "Images/09-02-2022_1823/image.svg",
-    "Images/09-02-2022_1823/image.pdf",
-    "Files/Isomorphism of sets is an equivalence relation.md",
-    "Files/Set ordered by inclusion is a poset.md"
+    "Files/Axiom Schema of Specification.md"
   ]
 }
