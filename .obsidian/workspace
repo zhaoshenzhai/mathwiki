@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ffd2a72e56e80883",
+        "id": "e79c2a36991d536b",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
-        }
-      },
-      {
-        "id": "13d21792f7339ce2",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Principle of Ordinary Induction.md",
-            "mode": "preview",
-            "source": true
-          }
         }
       }
     ],
@@ -79,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Principle of Ordinary Induction.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +94,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Principle of Ordinary Induction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +111,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Principle of Ordinary Induction.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,17 +175,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "13d21792f7339ce2",
+  "active": "e79c2a36991d536b",
   "lastOpenFiles": [
-    "Files/Principle of Ordinary Induction.md",
-    "Files/Set of Natural Numbers.md",
-    "Files/Axiom of Infinity.md",
-    "Files/Successor Function.md",
-    "Files/Order topology (subbasis).md",
-    "Files/Order Space (Topology).md",
-    "Files/Cartesian product is monotone w.r.t. subsets.md",
-    "Files/Product topology (basis; component from bases).md",
-    "Files/Lexicographical order topology on R2 is discrete times standard.md",
-    "Files/Subset relation is transitive.md"
+    "Files/Upper-limit topology strictly finer than K topology on R.md",
+    "Files/Upper-limit topology strictly finer than standard topology on R.md",
+    "Files/Axiom of Pairing.md",
+    "Files/Axiom Schema of Specification.md",
+    "Files/Axiom of Power Set.md",
+    "Files/Antisymmetric Relation.md",
+    "Images/09-02-2022_1823/image.svg",
+    "Images/09-02-2022_1823/image.pdf",
+    "Files/Isomorphism of sets is an equivalence relation.md",
+    "Files/Set ordered by inclusion is a poset.md"
   ]
 }
