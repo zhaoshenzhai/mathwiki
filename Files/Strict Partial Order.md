@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Poset]], [[Strict Total Order]], [[Strict Lexicographical Order]]
+Constructions: [[Partially Ordered Set]], [[Strict Total Order]], [[Strict Lexicographical Order]]
 Generalizations: _Not Applicable_
 
 Properties: [[Reflexive closure of strict orders is non-strict]]

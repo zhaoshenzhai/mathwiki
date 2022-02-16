@@ -4,9 +4,9 @@
 Date Created: 24/01/2022 18:50:40
 Tags: #Definition #Closed 
 
-Types: _Not Applicable_
+Types: [[Lattice]]
 Examples: _Not Applicable_ 
-Constructions: [[Lattice]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
