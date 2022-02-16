@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Binary relation iff subset of Cartesian product]], [[Set-builder notation is unique]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $R$ be a binary relation. Then there exists a unique binary relation $R^{-1}$ whose elements are exactly the pairs $\l\langle y,x\r\rangle$ where $\l\langle x,y\r\rangle\in R$._
 
---- admonition
+```
 
 _Proof_. We shall first construct the set $R^{-1}$ with the prescribed properties and then prove that this set is indeed a binary relation.
 * Formally, the set $R^{-1}$ is justified with the following statement:

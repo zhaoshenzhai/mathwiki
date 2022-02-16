@@ -7,14 +7,15 @@ Tags: #Proposition #Open
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $v$ and $U$ be sets. Then_
 $$\begin{equation}
     \l(\bigcup U\r)\cap v=\bigcup\l\{u\cap v\mid u\in U\r\}.
 \end{equation}$$
 
---- admonition
+```
 
 _Proof_. Take $x\in\l(\bigcup U\r)\cap v$. The result follows from the following chain of equivalences:
 $$\begin{alignat}{2}

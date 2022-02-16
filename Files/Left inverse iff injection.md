@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $f:X\to Y$ with $X\neq\em$. Then $f$ has a left inverse iff $f$ is injective._
 
---- admonition
+```
 
 _Proof_. ($\Rightarrow$): Let $g:Y\to X$ be a left inverse of $f$ and take any $x,x'\in X$ such that $f\l(x\r)=f\l(x'\r)$. Observe that
 $$\begin{equation}

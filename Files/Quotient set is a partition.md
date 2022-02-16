@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Same equivalence class iff related]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ be a set and let $R$ be an equivalence relation on $X$. Then the quotient set $X/R$ is a partition on $X$._
 
---- admonition
+```
 
 _Proof_. Observe, by definition of the quotient set, we have $X/R\subseteq\mc{P}\l(X\r)$. We now verify the axioms for a partition on $X$:
 * ($\axipartition{1}$): Take $\l[x\r]_R\in X/R$. Since $R$ is reflexive on $X$, we see that $x\in\l[x\r]_R$ and thus elements of $X/R$ are non-empty.

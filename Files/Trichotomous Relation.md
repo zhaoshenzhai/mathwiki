@@ -14,7 +14,8 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Trichotomous iff asymmetric and connected]]
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. A binary relation $R$ is **trichotomous on $X$** if for all $x,y\in X$, exactly one of_
 $$\begin{equation}
@@ -25,4 +26,4 @@ $$\begin{equation}
     \fa x,y\in X:\l(xRy\land y\not Rx\land x\neq y\r)\lor\l(x\not Ry\land yRx\land x\neq y\r)\lor\l(x\not Ry\land y\not Rx\land x=y\r).
 \end{equation}$$
 
---- admonition
+```

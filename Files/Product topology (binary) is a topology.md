@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: [[Cartesian product of intersections]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\l\langle X,\mc{T}_X\r\rangle$ and $\l\langle Y,\mc{T}_Y\r\rangle$ be topological spaces. Then the product topology_ $\mc{T}_\textrm{pr}\coloneqq\mc{T}\l(\mc{B}\r)$ _where_
 $$\begin{equation}
@@ -15,7 +16,7 @@ $$\begin{equation}
 \end{equation}$$
 _is a topology on $X\times Y$._
 
---- admonition
+```
 
 _Proof_. It suffices to verify that $\mc{B}$ is a basis for a topology on $X\times Y$.
 * ($\axibasis{1}$): Since $X\in\mc{T}_X$ and $Y\in\mc{T}_Y$, we see that $X\times Y\in\mc{T}_\textrm{pr}$. Thus any $p\in X\times Y$ is in a basis element, namely $X\times Y$.

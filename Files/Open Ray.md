@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $\l\langle X,<\r\rangle$ be a totally ordered set. An **open ray in $X$ w.r.t $<$** is a set of the form_
 $$\begin{equation}
     \l\{x\in X\mid\ex a\in X:x>a\r\}\ \ \ \ \textit{or}\ \ \ \ \l\{x\in X\mid\ex b\in X:x<b\r\}.
 \end{equation}$$
 
---- admonition
+```

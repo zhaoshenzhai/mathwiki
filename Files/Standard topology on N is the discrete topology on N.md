@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Discrete topology (basis)]], [[Criteria for collection to be a basis for an existing topology]], [[Successor of natural number is a natural number]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\N$ be the set of natural numbers. Then the standard topology_ $\mc{T}\coloneqq\mc{T}\l(<\r)\coloneqq\mc{T}\l(\mc{B}_\textrm{or}\r)$ _on $\N$ is the discrete topology on $\N$._
 
---- admonition
+```
 
 _Proof_. Consider the collection $\mc{B}\coloneqq\l\{\l\{n\r\}\in\mc{P}\l(\N\r)\mid n\in\N\r\}$; it suffices to prove that $\mc{B}$ is a basis that generates $\mc{T}$.
 * ($\mc{B}\subseteq\mc{T}$): Take $\l\{n\r\}\in\mc{B}$ where $n\in\N$ and observe that

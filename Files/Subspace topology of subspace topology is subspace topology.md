@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Subspace topology (basis)]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\l\langle X,\mc{T}\r\rangle$ be a topological space and let $\l\langle Y,\l.\mc{T}\r|_Y\r\rangle$ be a subspace thereof. Then for every $Z\subseteq Y$, we have $\l.\l.\mc{T}\r|_Y\r|_Z=\l.\mc{T}\r|_Z$._
 
---- admonition
+```
 
 _Proof_. It suffices to show that their respective bases $\l.\l.\mc{B}\r|_Y\r|_Z$ and $\l.\mc{B}\r|_Z$ coincide.
 * ($\l.\l.\mc{B}\r|_Y\r|_Z\subseteq\l.\mc{B}\r|_Z$): Take $D\in\l.\l.\mc{B}\r|_Y\r|_Z$, so there exists $C\in\l.\mc{B}\r|_Y$ such that $D=C\cap Z$. Similarly, there exists $B\in\mc{B}$ such that $C=B\cap Y$. Observe then that

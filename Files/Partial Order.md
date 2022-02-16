@@ -14,10 +14,11 @@ Sufficiencies: [[Reflexive closure of strict orders is non-strict]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. A binary relation $\leq$ on $X$ is a **partial order on $X$** if $\leq$ is reflexive, transitive, and antisymmetric on $X$._
 
---- admonition
+```
 
 **Remark.** Write $\geq\,\coloneqq\,\leq^{-1}$.<span style="float:right;">$\blacklozenge$</span>

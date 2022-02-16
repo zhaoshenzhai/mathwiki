@@ -14,11 +14,12 @@ Sufficiencies: [[Asymmetry implies irreflexivity]], [[Well-founded relations are
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. A binary relation $R$ is **irreflexive on $X$** if_
 $$\begin{equation}
     \fa x\in X:\lnot xRx.
 \end{equation}$$
 
---- admonition
+```

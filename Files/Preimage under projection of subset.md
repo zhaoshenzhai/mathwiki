@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ and $Y$ be sets and consider the projection maps_
 $$\begin{equation}
@@ -18,7 +19,7 @@ $$\begin{equation}
     \fa U\subseteq X:\preim_{\pi_X}\!\l(U\r)=U\times Y\ \ \ \ \textit{and}\ \ \ \ \fa V\subseteq Y:\preim_{\pi_Y}\!\l(V\r)=X\times V.
 \end{equation}$$
 
---- admonition
+```
 
 _Proof_. We shall prove the first statement; the second is completely analogous. Take a subset $U\subseteq X$. The result follows from the following chain of equivalences:
 $$\begin{alignat}{2}

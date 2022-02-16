@@ -14,8 +14,9 @@ Sufficiencies: [[Relation induced by a partition is an equivalence relation]]
 Equivalences: [[Fundamental Theorem of Equivalence Relations]]
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. A binary relation $R$ is an **equivalence relation on $X$** if $R$ is reflexive, symmetric, and transitive on $X$._
 
---- admonition
+```

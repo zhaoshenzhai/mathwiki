@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Universal set is a proper class]]
 
-!!! ad-Definition Definition (Informal).
+``` ad-Definition
+title: Definition.(Informal).
 
 _The **universal class** is the proper class $V\coloneqq\l\{x\mid x\textit{ is a set}\r\}$._
 
---- admonition
+```

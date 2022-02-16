@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $A,B,C,D$ be sets with $A\subseteq B$ and $C\subseteq D$ Then $A\cup C\subseteq B\cup D$._
 
---- admonition
+```
 
 _Proof_. Take $x\in A\cup C$. The result follows from the following chain of implications:
 $$\begin{alignat}{2}

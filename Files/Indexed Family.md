@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $f:I\to\mc{A}$ be a function. If $\mc{A}$ contains elements that we $\textrm{`}$usually$\textrm{'}$ regard as sets themselves, then $f$ is called an **indexed family of sets in $\mc{A}$ indexed by $I$**. Write $A_i\coloneqq f\l(i\r)$ and_ $\l\{A_i\r\}_{i\in I}\coloneqq f$ _instead._
 
---- admonition
+```
 
 **Remark.** The _function_ $\l\{A_i\r\}_{i\in I}$ is usually seen as a $\textrm{`}$collection of elements in $\mc{A}$$\textrm{'}$, and, by abuse of notation, we also write (and usually mean) $\l\{A_i\r\}_{i\in I}\coloneqq\ran f$. This will not be the case for sequences.<span style="float:right;">$\blacklozenge$</span>
 

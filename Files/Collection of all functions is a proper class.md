@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Collection of all singletons is a proper class]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _The collection of all functions form a proper class. Formally, $\fa v,\ex f:f\textit{ is a function}\land f\not\in v$._
 
---- admonition
+```
 
 _Proof_. Suppose, for sake of contradiction, that such a set $v$ exists, i.e. $\ex v,\fa\textrm{ functions }f:f\in v$. By Specification, we have
 $$\begin{equation}

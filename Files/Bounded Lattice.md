@@ -14,8 +14,9 @@ Sufficiencies: [[Complete lattices are bounded]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _A lattice $\l\langle X,\leq\r\rangle$ is said to be **bounded** if there exist $\top,\bot\in X$ such that $\fa x\in X:\bot\leq x\leq\top$, that is, if its underlying poset is bounded._
 
---- admonition
+```

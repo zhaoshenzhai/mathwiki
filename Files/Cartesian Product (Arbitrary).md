@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let_ $\l\{X_i\r\}_{i\in I}$ _be an indexed family. The **(arbitrary) Cartesian product of $\l\{X_i\r\}$** is the set_
 $$\begin{equation}
    \prod\limits_{i\in I}X_i\coloneqq\l\{f:I\to\bigcup\limits_{i\in I}X_i\mid\fa i\in I:f\l(i\r)\in X_i\r\}.
 \end{equation}$$
 
---- admonition
+```

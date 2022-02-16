@@ -14,8 +14,9 @@ Sufficiencies: [[Set is open if covered by open subsets]], [[Open set in open su
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set and let $\mc{T}$ be a topology on $X$. An **open set of $X$ in $\mc{T}$** is an element $U\in\mc{T}$._
 
---- admonition
+```

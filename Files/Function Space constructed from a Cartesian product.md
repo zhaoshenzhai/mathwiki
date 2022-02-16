@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ be a set and let_ $\l\{X_i\r\}_{i\in I}$ _be an indexed family with $X_i=X$ for all $i\in I$. Then_ $\prod_{i\in I}X_i=X^I$_._
 
---- admonition
+```
 
 _Proof_. Observe that
 $$\begin{equation}

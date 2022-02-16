@@ -14,7 +14,8 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Restriction of function is a function]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $f:X\to Y$ and fix $S\subseteq X$. The **restriction of $f$ to $S$** is the function_
 $$\begin{equation}
@@ -25,7 +26,7 @@ $$\begin{equation}
     \l.f\r|_S\coloneqq\l\{z\mid\ex x\in S:z=\l\langle x,f\l(x\r)\r\rangle\r\}.
 \end{equation}$$
 
---- admonition
+```
 
 **Remark.** Note that $\l.f\r|_S$ is also the restriction of $f$, _viewed as a relation_, since
 $$\begin{align}

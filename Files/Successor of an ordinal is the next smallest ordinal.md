@@ -7,14 +7,15 @@ Tags: #Proposition #Closed
 Proved by: [[Reflexive closure of ordering on ordinals]],  [[ON is a transitive class]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\alpha$ be an ordinal. Then the successor ordinal $S\l(\alpha\r)=\alpha\cup\l\{\alpha\r\}$ is an ordinal, $\alpha\in S\l(\alpha\r)$, and_
 $$\begin{equation}
     \fa\gamma\in\ord:\gamma\in S\l(\alpha\r)\Leftrightarrow\gamma\subseteq\alpha.
 \end{equation}$$
 
---- admonition
+```
 
 _Proof_. Obviously $\alpha\in\l\{\alpha\r\}\subseteq\alpha\cup\l\{\alpha\r\}=S\l(\alpha\r)$. Take $\gamma\in\ord$; the fact that $S\l(\alpha\r)$ is the smallest such ordinal follows from the following chain of equivalences:
 $$\begin{equation}

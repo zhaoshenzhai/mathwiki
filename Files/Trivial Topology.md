@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Trivial topology (basis)]]
 Justifications: [[Trivial topology is a topology]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. The **trivial topology on $X$** is the topology_ $\mc{T}_\textrm{trivial}\coloneqq\l\{\em,X\r\}$_._
 
---- admonition
+```

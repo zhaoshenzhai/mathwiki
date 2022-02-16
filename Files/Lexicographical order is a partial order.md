@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: [[Reflexive closure of strict orders is non-strict]], [[Strict lexicographical order is a strict partial order]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\leq$ and $\preceq$ be partial orders on the sets $X$ and $Y$, respectively. Then the binary relation defined by_
 $$\begin{equation}
@@ -15,6 +16,6 @@ $$\begin{equation}
 \end{equation}$$
 _for all $x_1,x_2\in X$ and $y_1,y_2\in Y$ is a partial order on $X\times Y$._
 
---- admonition
+```
 
 _Proof_. Since $\sqsubseteq\,=\rfcl\sqsubset$ and $\sqsubset$ is a strict partial order, we see that $\sqsubseteq$ is a partial order on $X\times Y$.<span style="float:right;">$\blacksquare$</span>

@@ -7,11 +7,12 @@ Tags: #Proposition #Open
 Proved by: [[Replacement image of a set is a set]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $v$ be a set and let $\phi\l(x,y\r)$ be a formula such that $\fa x\in v,\ex!y:\phi\l(x,y\r)$. Then there exists a function $f$ with $\dom f=v$ such that $\fa x\in v:\phi\l(x,f\l(x\r)\r)$._
 
---- admonition
+```
 
 _Proof_. Let $\psi\l(x,z\r)\,\colon\!\Leftrightarrow\ex y\l[\phi\l(x,y\r)\land z=\l\langle x,y\r\rangle\r]$ and construct the set
 $$\begin{equation}

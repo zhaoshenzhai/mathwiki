@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Cocountable topology is a topology]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. The **cocountable topology on $X$** is the topology_
 $$\begin{equation}
     \mc{T}_\textit{c}\coloneqq\l\{U\in\mc{P}\l(X\r)\mid\l(U=\em\r)\lor\l(X\comp U\textit{ is countable}\r)\r\}.
 \end{equation}$$
 
---- admonition
+```

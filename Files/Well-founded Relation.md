@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. A binary relation $R$ is **well-founded on $X$** if there exists an $R$-minimal element in each non-empty subset of $X$. Formally,_
 $$\begin{equation}
     R\textit{ is well-founded on }X\ \ \ \ \Leftrightarrow\ \ \ \ \fa S\subseteq X:\l[S\neq\em\Rightarrow\l(\ex m\in S,\fa s\in S:\lnot sRm\r)\r].
 \end{equation}$$
 
---- admonition
+```

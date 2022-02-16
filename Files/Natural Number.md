@@ -14,14 +14,15 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _An ordinal $\beta$ is called a **natural number** if_
 $$\begin{equation}
     \fa\alpha\in\ord:\alpha\subseteq\beta\Rightarrow\l(\alpha=\em\lor\alpha\textit{ is a successor ordinal}\r).
 \end{equation}$$
 
---- admonition
+```
 
 **Remark.** Recall that $\alpha\subseteq\beta\Leftrightarrow\alpha\in\beta\lor\alpha=\beta$.
 * Letting $\alpha=\beta$ shows that natural numbers are either empty or successor ordinals.

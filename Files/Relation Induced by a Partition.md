@@ -14,7 +14,8 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Fundamental Theorem of Equivalence Relations]]
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set and let $\Pi$ be a partition on $X$. The **relation induced by $\Pi$** is the relation_ $R_\Pi$ _defined by_
 $$\begin{equation}
@@ -22,4 +23,4 @@ $$\begin{equation}
 \end{equation}$$
 _for all $x,y\in X$._
 
---- admonition
+```

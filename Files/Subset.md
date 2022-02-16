@@ -14,13 +14,14 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in\r\}$. Then_
 * _the **subset** relation $u\subseteq v$ is the $\mc{L}$-formula $\fa x\l(x\in u\Rightarrow x\in v\r)$ and_
 * _the **proper subset** relation $u\subset v$ is the $\mc{L}$-formula $u\subseteq v\land u\neq v$._
 
---- admonition
+```
 
 **Remark.** Note that these $\textrm{`}$relations$\textrm{'}$ are not binary relations in the strict sense; they are simply abbreviations for $\mc{L}$-formulae. However, once $\textrm{`}$restricted$\textrm{'}$ to a set, they do indeed become binary relations. For example, if $X$ is a set, then the **subset relation on $X$** is a binary relation $\l.\subseteq\r|_X$ defined by
 $$\begin{equation}

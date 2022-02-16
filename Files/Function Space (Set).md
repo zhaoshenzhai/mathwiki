@@ -14,11 +14,12 @@ Sufficiencies: [[Function Space constructed from a Cartesian product]]
 Equivalences: _Not Applicable_
 Justifications: [[Function space is a set]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ and $Y$ be sets. The **function space of $X$ into $Y$** is the set_
 $$\begin{equation}
     \prescript{X}{}{Y}\coloneqq X^Y\coloneqq\l\{f\mid f:X\to Y\r\}.
 \end{equation}$$
 
---- admonition
+```

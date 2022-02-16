@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $R$ be a binary relation and fix subsets $A,B\subseteq\dom R$. Then_
 $$\begin{equation}
@@ -15,7 +16,7 @@ $$\begin{equation}
 \end{equation}$$
 _Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xRy$. If $R$ is a function, this is equivalent to saying that $f$ is injective._
 
---- admonition
+```
 
 _Proof_. Take $y\in\im_R\l(A\r)\comp\im_R\l(B\r)$. The result follows from the following chain of implications:
 $$\begin{equation}

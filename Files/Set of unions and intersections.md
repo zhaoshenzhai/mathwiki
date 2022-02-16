@@ -14,7 +14,8 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Set of unions and intersections are sets]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $v$ and $U$ be sets. The **set of unions of elements in $U$ and $v$** is the set_
 $$\begin{equation}
@@ -25,4 +26,4 @@ $$\begin{equation}
     \l\{v\cap u\mid u\in U\r\}\coloneqq\l\{x\mid\l(\ex u\in U\r)x=v\cap u\r\}.
 \end{equation}$$
 
---- admonition
+```

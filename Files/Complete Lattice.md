@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _A lattice $\l\langle X,\leq\r\rangle$ is **complete** if every subset has a join and a meet._
 
---- admonition
+```

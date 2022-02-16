@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Left distribution of implication over conjunction]], [[Distribution of universal quantifier over conjunction]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $A$ and $B$ be non-empty sets. Then $\bigcap\l(A\cap B\r)=\bigcap A\cap\bigcap B$._
 
---- admonition
+```
 
 _Proof_. Take $x\in\bigcup\l(A\cup B\r)$. The result follows from the following chain of equivalences:
 $$\begin{alignat}{2}

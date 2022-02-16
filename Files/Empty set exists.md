@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Axiom Schema of Specification]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _There exists an empty set. Formally, $\ex e\l[\operatorname{emp}\l(e\r)\r]$._
 
---- admonition
+```
 
 _Proof_. Let $z$ be a set. Using the Axiom Schema of Specification with the formula $\phi$ being $x\neq x$, we have
 $$\begin{equation}

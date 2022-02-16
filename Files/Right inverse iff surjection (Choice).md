@@ -7,11 +7,12 @@ Tags: #Proposition #Open
 Proved by: [[Exists function in relation iff Choice]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $f:X\to Y$ with $X\neq\em$. Then $f$ has a right inverse iff $f$ is surjective._
 
---- admonition
+```
 
 _Proof_. ($\Rightarrow$): Let $h:Y\to X$ be a right inverse of $f$. Then, for any $y\in Y$, we have
 $$\begin{equation}

@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Exportation (Rule of Inference)]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _A set $z$ is a transitive set iff $\fa y\in z:y\subseteq z$._
 
---- admonition
+```
 
 _Proof_. The result follows from the following chain of equivalences:
 $$\begin{alignat}{2}

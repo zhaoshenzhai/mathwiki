@@ -14,10 +14,11 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Empty set exists]], [[Empty set is unique]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _A set $u$ is an **empty set** if $\operatorname{emp}\l(u\r)$._
 
---- admonition
+```
 
 **Remark.** Since the empty set exists and is unique, it can be denoted by $\em$.<span style="float:right;">$\blacklozenge$</span>

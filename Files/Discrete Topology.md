@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Discrete topology (basis)]]
 Justifications: [[Discrete topology is a topology]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. The **discrete topology on $X$** is topology_ $\mc{T}_\textrm{discrete}\coloneqq\mc{P}\l(X\r)$_._
 
---- admonition
+```

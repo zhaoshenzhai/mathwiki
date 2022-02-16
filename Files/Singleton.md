@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $x$ be a set. The **singleton set of $x$** is the set $\l\{x\r\}\coloneqq\l\{x,x\r\}$._
 
---- admonition
+```

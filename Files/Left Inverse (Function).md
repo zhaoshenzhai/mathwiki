@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Left inverse iff injection]]
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $f:X\to Y$. A function $g:Y\to X$ is a **left inverse of $f$** if $g\circ f=\id_X$._
 
---- admonition
+```
 
 **Remark.** This relationship can be expressed by stating that the diagram
 

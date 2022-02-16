@@ -7,14 +7,15 @@ Tags: #Proposition #Closed
 Proved by: [[Subset relation is transitive]], [[Union of set of subsets is a subset]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ be a set and $\mc{B}$ be a basis for the topology $\mc{T}\l(\mc{B}\r)$ on $X$. Then $\mc{T}\l(\mc{B}\r)$ is the set of all unions of elements of $\mc{B}$. That is,_
 $$\begin{equation}
     \mc{T}\l(\mc{B}\r)=\l\{U\in\mc{P}\l(X\r)\mid\ex\mc{A}\subseteq\mc{B}:U=\bigcup\mc{A}\r\}.
 \end{equation}$$
 
---- admonition
+```
 
 _Proof_. ($\supseteq$): Take $U\in\mc{P}\l(X\r)$ such that $\ex\mc{A}\subseteq\mc{B}$ and $U=\bigcup\mc{A}$. Observe that $\mc{B}\subseteq\mc{T}\l(\mc{B}\r)$, so $\mc{A}\subseteq\mc{T}\l(\mc{B}\r)$ too. It follows from $\axitop{2}$ that $U\in\mc{T}\l(\mc{B}\r)$.
 

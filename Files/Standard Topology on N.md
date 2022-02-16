@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Standard topology on N is the discrete topology on N]]
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $<$ be the standard ordering on the natural numbers $\N$. The **standard topology on $\N$** is the order topology $\mc{T}\l(<\r)$._
 
---- admonition
+```

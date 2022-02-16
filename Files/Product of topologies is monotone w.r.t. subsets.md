@@ -7,14 +7,15 @@ Tags: #Proposition #Closed
 Proved by: [[Criteria for fineness w.r.t bases]], [[Product topology (basis; component from bases)]], [[Cartesian product is monotone w.r.t. subsets]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\mc{T}_1$ and $\mc{T}_2$ be topologies on a set $X$ and let $\mc{O}_1$ and $\mc{O}_2$ be topologies on a set $Y$. Then_
 $$\begin{equation}
     \mc{T}_1\subseteq\mc{T}_2\land\mc{O}_1\subseteq\mc{O}_2\ \ \ \ \Leftrightarrow\ \ \ \ \mc{T}_1\times\mc{O}_1\subseteq\mc{T}_2\times\mc{O}_2.
 \end{equation}$$
 
---- admonition
+```
 
 _Proof_. Let $\mc{B}_1,\mc{B}_2,\mc{C}_1,\mc{C}_2,\mc{P}_1,\mc{P}_2$ be bases for the topologies $\mc{T}_1$, $\mc{T}_2$, $\mc{O}_1$, $\mc{O}_2$, $\mc{T}_1\times\mc{O}_1$, and $\mc{T}_2\times\mc{O}_2$, respectively.
 

@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Binary relation iff subset of Cartesian product]], [[Set-builder notation is unique]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $R$ and $S$ be binary relations. Then there exists a unique binary relation $S\circ R$ whose elements are exactly the pairs $\l\langle x,z\r\rangle$ for which there exists a set $y$ such that $xRy$ and $ySz$._
 
---- admonition
+```
 
 _Proof_. We shall first construct the set $S\circ R$ with the prescribed properties and then prove that this set is indeed a binary relation.
 * Formally, the set $S\circ R$ is justified with the following statement:

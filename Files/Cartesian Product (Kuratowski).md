@@ -14,13 +14,14 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Binary relation iff subset of Cartesian product]]
 Justifications: [[Cartesian product (Kuratowski) is a set (Power Set)]], [[Cartesian product (Kuratowski) is a set (Replacement)]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ and $Y$ be sets. The **Cartesian product of $X$ and $Y$** is the set_
 $$\begin{equation}
     X\times Y\coloneqq\l\{u\mid\ex x\in X,\ex y\in Y:u=\l\langle x,y\r\rangle\r\}.
 \end{equation}$$
 
---- admonition
+```
 
 **Remark.** Observe that $\l\langle x,y\r\rangle\in X\times Y\Leftrightarrow\l\langle y,x\r\rangle\in Y\times X$.<span style="float:right;">$\blacklozenge$</span>

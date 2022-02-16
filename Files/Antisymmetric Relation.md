@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. A binary relation $R$ is **antisymmetric on $X$** if_
 $$\begin{equation}
     \fa x,y\in X:\l(xRy\land yRx\r)\Rightarrow x=y.
 \end{equation}$$
 
---- admonition
+```

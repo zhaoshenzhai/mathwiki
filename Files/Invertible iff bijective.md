@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Left inverse iff injection]], [[Right inverse iff surjection (Choice)]], [[Composition of relations is associative]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $f:X\to Y$. Then $f$ is a bijection iff it is invertible._
 
---- admonition
+```
 
 _Proof_. ($\Rightarrow$): Since $f$ is a bijection, it is both an injection and a surjection, so there exist left and right inverses $g,h:Y\to X$ of $f$, respectively. The following computation shows that they coincide:
 $$\begin{equation}

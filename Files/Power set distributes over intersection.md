@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Distribution of universal quantifier over conjunction]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _For all sets $A$ and $B$, we have $\mc{P}A\cap\mc{P}B=\mc{P}\l(A\cap B\r)$._
 
---- admonition
+```
 
 _Proof_. Take $x\in\mc{P}A\cap\mc{P}B$. The result follows from the following chain of equivalences.
 $$\begin{alignat}{2}

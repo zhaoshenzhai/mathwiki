@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _An ordinal $\alpha$ is called a **limit ordinal** if $\alpha\neq\em$ and $\alpha$ is not a successor ordinal._
 
---- admonition
+```

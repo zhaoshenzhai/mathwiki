@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Set ordered by inclusion is a poset]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. The **inclusion poset of $X$** is the pair $\l\langle X,\subseteq\r\rangle$._
 
---- admonition
+```

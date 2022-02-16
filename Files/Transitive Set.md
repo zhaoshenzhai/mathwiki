@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Transitive set iff every element is a subset]]
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _A set $z$ is a **transitive set** if $\fa x,y\l(x\in y\land y\in z\Rightarrow x\in z\r)$._
 
---- admonition
+```

@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: [[Formula in replacement image constructs a function]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let_ $\l\{X_i\r\}_{i\in I}$ _be an indexed family where each $X_i\neq\em$. Then the projection maps_
 $$\begin{equation}
@@ -15,7 +16,7 @@ $$\begin{equation}
 \end{equation}$$
 _for each $j\in I$ are surjective._
 
---- admonition
+```
 
 _Proof_. Fix $j\in I$. We first need to prove that $\pi_j$ is indeed a function; that is, we need a formula $\phi_j\l(f,x\r)$ such that
 $$\begin{equation}

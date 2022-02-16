@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Intersection of ordinals is an ordinal]], [[Reflexive closure of ordering on ordinals]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _The membership relation $\in$ is a well-order on $\ord$._
 
---- admonition
+```
 
 _Proof_. We need to prove that $\in$ is a transitive, irreflexive, connected, and well-founded relation on $\ord$.
 * ($\in$ is transitive on $\ord$; formally: $\fa\alpha,\beta,\gamma\in\ord:\l(\alpha\in\beta\land\beta\in\gamma\r)\Rightarrow\alpha\in\gamma$): Since $\gamma\in\ord$, this is the statement that $\gamma$ is a transitive set.

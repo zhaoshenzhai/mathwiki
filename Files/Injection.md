@@ -14,14 +14,15 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Left inverse iff injection]], [[Image of intersection subset of intersection of images; equal iff injection]]
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _A function $f:X\to Y$ is an **injection** if_
 $$\begin{equation}
     \fa x,x'\in X:f\l(x\r)=f\l(x'\r)\Rightarrow x=x'.
 \end{equation}$$
 
---- admonition
+```
 
 **Remark.**
 * We do not need to specify that the injection $\textrm{`}$is w.r.t. $X\textrm{'}$ since the set $X$ is uniquely determined by $f$; recall that $X=\dom f$.

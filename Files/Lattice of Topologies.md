@@ -14,10 +14,11 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. The **lattice of topologies on $X$** is the pair $\l\langle\Sigma,\subseteq\r\rangle$ where $\Sigma$ is the set of all topologies on $X$._
 
---- admonition
+```
 
 **Remark.** Let $\mc{T}_1$ and $\mc{T}_2$ be topologies on $X$. If $\mc{T}_1\subseteq\mc{T}_2$, then $\mc{T}_2$ is **finer** than $\mc{T}_1$ and $\mc{T}_1$ is **coarser** than $\mc{T}_2$. They are **comparable** if either $\mc{T}_1\subseteq\mc{T}_2$ or $\mc{T}_2\subseteq\mc{T}_1$.<span style="float:right;">$\blacklozenge$</span>

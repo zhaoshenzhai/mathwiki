@@ -7,7 +7,8 @@ Tags: #Theorem #Closed
 Proved by: [[Relation induced by a partition is an equivalence relation]], [[Quotient set is a partition]], [[Same equivalence class iff related]]
 Generalizations: _Not Applicable_
 
-!!! ad-Theorem Theorem.
+``` ad-Theorem
+title: Theorem (Fundamental Theorem of Equivalence Relations).
 
 _Let $X$ be a set._
 1. _Let $\Pi$ be a partition on $X$. Then the binary relation_ $R_\Pi$ _induced by $\Pi$ is an equivalence relation on $X$._
@@ -15,7 +16,7 @@ _Let $X$ be a set._
 
 _Furthermore, we have_ $X/R_\Pi=\Pi$ _and_ $R_{X/R}=R$_._
 
---- admonition
+```
 
 _Proof_. Statements $\#1$ and $\#2$ are proven; it suffices to show that $X/R_\Pi=\Pi$ and $R_{X/R}=R$.
 

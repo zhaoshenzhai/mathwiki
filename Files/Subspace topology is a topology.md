@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Union distributes over binary intersection]], [[Intersection of intersections is an intersection]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\l\langle X,\mc{T}\r\rangle$ be a topological space and fix a subset $Y\subseteq X$. Then the subspace topology $\l.\mc{T}\r|_Y$ on $Y$ inherited from $X$ is a topology on $Y$._
 
---- admonition
+```
 
 _Proof_. We verify the axioms for a topology on $Y$.
 * ($\axitop{1}$): Since $\em,X\in\mc{T}$, we see that $\em\cap Y=\em\in\l.\mc{T}\r|_Y$ and $X\cap Y=Y\in\l.\mc{T}\r|_Y$.

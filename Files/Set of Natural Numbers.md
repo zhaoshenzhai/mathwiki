@@ -14,14 +14,15 @@ Sufficiencies: [[Principle of Ordinary Induction]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $I$ be any inductive set asserted by the Axiom of Infinity. The **set of natural numbers** is the set_
 $$\begin{equation}
     \N\coloneqq\omega\coloneqq\l\{n\in I\mid n\textit{ is a natural number}\r\}.
 \end{equation}$$
 
---- admonition
+```
 
 **Remark.** The standard order on $\omega$ is, of course, the membership relation $\in$.<span style="float:right;">$\blacklozenge$</span>
 

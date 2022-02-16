@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Lexicographical order is a partial order]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $\leq$ and $\preceq$ be partial orders on the sets $X$ and $Y$, respectively. The **lexicographical order on $X\times Y$** is the partial order $\sqsubseteq$ on $X\times Y$ defined by_
 $$\begin{equation}
     \l\langle x_1,y_1\r\rangle\sqsubseteq\l\langle x_2,y_2\r\rangle\ \ \ \ \Leftrightarrow\ \ \ \ \l[x_1<x_2\lor\l(x_1=x_2\land y_1\preceq y_2\r)\r].
 \end{equation}$$
 
---- admonition
+```

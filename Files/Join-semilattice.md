@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _A poset $\l\langle X,\leq\r\rangle$ is called a **join-semilattice** if_
 $$\begin{equation}
     \fa x,y\in X,\ex u\in X:u=\sup\l\{x,y\r\}\eqqcolon x\vee y.
 \end{equation}$$
 
---- admonition
+```

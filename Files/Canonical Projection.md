@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Canonical projection is a function]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. The **canonical projection of $X$ under $\sim$** is the function_
 $$\begin{equation}
     \pi_\sim:X\to X/\!\sim\ \ \ \ \textit{mapping}\ \ \ \ x\mapsto\l[x\r]_\sim
 \end{equation}$$
 
---- admonition
+```

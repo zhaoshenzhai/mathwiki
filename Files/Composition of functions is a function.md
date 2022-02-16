@@ -7,14 +7,15 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $f:X\to Y$ and $g:Y'\to Z$ be functions. Then $g\circ f$ is a function with_
 $$\begin{equation}
     \dom\l(g\circ f\r)=\l\{x\in X\mid f\l(x\r)\in Y'\r\}\ \ \ \ \textit{and}\ \ \ \ \fa x\in\dom\l(g\circ f\r):\l(g\circ f\r)\l(x\r)=g\l(f\l(x\r)\r).
 \end{equation}$$
 
---- admonition
+```
 
 _Proof_. We shall first prove that the relation $g\circ f$ has the prescribed domain and then prove that $g\circ f$ is indeed a function.
 * ($\l\{x\in X\mid f\l(x\r)\in Y'\r\}\subseteq\dom\l(g\circ f\r)$): Take $x\in X$, so $\l\langle x,f\l(x\r)\r\rangle\in f$. If $f\l(x\r)\in\dom g$, then $\l\langle f\l(x\r),g\l(f\l(x\r)\r)\r\rangle\in g$. Set $y=f\l(x\r)$ and $z=g\l(f\l(x\r)\r)$, so $\ex y\l(y=f\l(x\r)\land z=g\l(y\r)\r)$. It follows, by definition of composition, that

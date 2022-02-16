@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: [[De Morgan's Laws]], [[Interection of finite sets is finite]], [[Finite union of finite sets is finite]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ be a set. Then the cofinite topology_
 $$\begin{equation}
@@ -15,7 +16,7 @@ $$\begin{equation}
 \end{equation}$$
 _is a topology on $X$._
 
---- admonition
+```
 
 _Proof_. We verify the axioms for a topology on $X$:
 * ($\axitop{1}$): $\em\in\mc{T}_\textrm{cf}$ by definition and $X\comp X=\em$ is finite.

@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. A binary relation $R$ is **transitive on $X$** if_
 $$\begin{equation}
     \fa x,y,z\in X:\l(xRy\land yRz\r)\Rightarrow xRz.
 \end{equation}$$
 
---- admonition
+```

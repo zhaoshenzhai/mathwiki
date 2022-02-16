@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in\r\}$. Then **$\operatorname{emp}\l(x\r)$** is the $\mc{L}$-formula $\fa z\l(z\not\in x\r)$._
 
---- admonition
+```

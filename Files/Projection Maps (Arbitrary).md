@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Projection maps (arbitrary) are surjections]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let_ $\l\{X_i\r\}_{i\in I}$ _be an indexed family. The **projection map onto the $j^\textbf{th}$ coordinate** is the function_
 $$\begin{equation}
     \pi_j:\prod\limits_{i\in I}X_i\to X_j\ \ \ \ \textit{mapping}\ \ \ \ f\mapsto f\l(j\r).
 \end{equation}$$
 
---- admonition
+```

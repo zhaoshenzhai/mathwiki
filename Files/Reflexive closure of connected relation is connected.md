@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ be a set and let $R$ be a binary relation on $X$. If $R$ is connected on $X$, then so is $\rfcl R$._
 
---- admonition
+```
 
 _Proof_. Take $x_1,x_2\in X$, so, since $R$ is connected on $X$, we see that either $x_1Rx_2$, $x_2Rx_1$, or $x_1=x_2$. In the former cases, we have that
 $$\begin{equation}

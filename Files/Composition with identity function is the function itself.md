@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: [[Criteria for equality of functions]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $f:X\to Y$. Then $f\circ\id_X=f$ and $\id_Y\circ f=f$. In other words, the diagram_
 
@@ -15,7 +16,7 @@ _Let $f:X\to Y$. Then $f\circ\id_X=f$ and $\id_Y\circ f=f$. In other words, the 
 
 _commutes._
 
---- admonition
+```
 
 _Proof_. Observe that
 $$\begin{equation}

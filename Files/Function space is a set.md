@@ -7,14 +7,15 @@ Tags: #Proposition #Closed
 Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [[Cartesian product is monotone w.r.t. subsets]], [[Subset relation is transitive]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ and $Y$ be sets. Then there exists a unique set $z$ whose elements are exactly the functions from $X$ into $Y$. Formally,_
 $$\begin{equation}
     \fa X\fa Y\ex!z:\l(f\in z\Leftrightarrow f:X\to Y\r).
 \end{equation}$$
 
---- admonition
+```
 
 _Proof_. Let $\phi\l(f\r)$ denote the formula $f:X\to Y$; we claim that
 $$\begin{equation}

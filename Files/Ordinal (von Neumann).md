@@ -14,8 +14,9 @@ Sufficiencies: [[Intersection of ordinals is an ordinal]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _A set $\alpha$ is a **(von Neumann) ordinal** if $\alpha$ is a transitive set and $\alpha$ is well-ordered by $\in$._
 
---- admonition
+```

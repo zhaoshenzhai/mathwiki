@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Right inverse iff surjection (Choice)]]
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _A function $f:X\to Y$ is a **surjection w.r.t. $Y$** if $\ran f=Y$._
 
---- admonition
+```
 
 **Remark.**
 * Note that surjection is not a property of the function $f$ itself; rather, it is a combined property of both the function and some superset $Y$ of $\ran f$.

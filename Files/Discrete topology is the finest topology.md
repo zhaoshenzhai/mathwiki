@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Discrete topology (basis)]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ be a set. The discrete topology is the finest topology on $X$._
 
---- admonition
+```
 
 _Proof_. Let $\mc{T}$ be any topology on $X$ and take $U\in\mc{T}$. Recall that we have
 $$\begin{equation}

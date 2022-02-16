@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. The **set of topologies on $X$** is the set_
 $$\begin{equation}
     \Sigma\coloneqq\l\{\mc{T}\in\mc{P}\l(\mc{P}\l(X\r)\r)\mid\mc{T}\textrm{ is a topology on }X\r\}.
 \end{equation}$$
 
---- admonition
+```

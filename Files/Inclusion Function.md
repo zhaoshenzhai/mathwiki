@@ -14,7 +14,8 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set and fix $S\subseteq X$. The **inclusion function of $S$ into $X$** is the function_
 $$\begin{equation}
@@ -22,6 +23,6 @@ $$\begin{equation}
 \end{equation}$$
 _for every $x\in S$._
 
---- admonition
+```
 
 **Remark.** In other words, $\iota=\l.\id_X\r|_S$.<span style="float:right;">$\blacklozenge$</span>

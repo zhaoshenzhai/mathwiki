@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Right inverse iff surjection (Choice)]]
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $f:X\to Y$. A function $h:Y\to X$ is a **right inverse of $f$** if $f\circ h=\id_Y$._
 
---- admonition
+```
 
 **Remark.** This relationship can be expressed by stating that the diagram
 

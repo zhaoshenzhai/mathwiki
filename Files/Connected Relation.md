@@ -14,11 +14,12 @@ Sufficiencies: [[Trichotomous iff asymmetric and connected]], [[Reflexive closur
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. A binary relation $R$ is **connected on $X$** if_
 $$\begin{equation}
     \fa x,y\in X:xRy\lor yRx\lor x=y.
 \end{equation}$$
 
---- admonition
+```

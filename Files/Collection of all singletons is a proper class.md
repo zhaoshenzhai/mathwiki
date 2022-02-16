@@ -7,11 +7,12 @@ Tags: #Proposition #Open
 Proved by: [[Universal set is a proper class]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _The collection of all singletons form a proper class. Formally, $\fa v\ex u\l(\l\{u\r\}\not\in v\r)$._
 
---- admonition
+```
 
 _Proof_. Suppose, for sake of contradiction, that such a set $v$ exists, i.e. $\ex v\fa u\l(\l\{u\r\}\in v\r)$. Consider the union $\bigcup v$. For any set $x$, we have
 $$\begin{equation}

@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Inverse of a relation is a relation]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $R$ be a binary relation. Then $\l(R^{-1}\r)^{-1}=R$._
 
---- admonition
+```
 
 _Proof_. By definition, we have $R^{-1}=\l\{\l\langle y,x\r\rangle\mid xRy\r\}$. Taking the inverse again, we have
 $$\begin{alignat}{2}

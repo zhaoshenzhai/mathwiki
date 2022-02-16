@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\l\langle X,\leq\r\rangle$ be an ordered set and fix $S\subseteq X$. Then $m\in S$ is the greatest element of $S$ iff it is the $<$-maximal element of $S$._
 
---- admonition
+```
 
 _Proof_. ($\Rightarrow$): If $m$ is the greatest element of $S$, then $\fa s\in S:s\leq m$. If $m<s$, then, since either $s<m$ or $s=m$, we see that $m<m$ which is contradictory since $<$ is irreflexive on $X$. Thus $m\not<s$ and so $m$ is a $<$-maximal in $S$.
 

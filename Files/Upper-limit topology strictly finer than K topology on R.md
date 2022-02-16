@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Criteria for fineness w.r.t bases]], [[Upper-limit topology strictly finer than standard topology on R]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\R$ be the set of real numbers. Then the upper limit topology_ $\mc{T}_\textrm{UL}$ _is strictly finer than $K$ topology_ $\mc{T}_\textrm{K}$ _on $\R$._
 
---- admonition
+```
 
 _Proof_. It is easy to show that $\mc{T}_\textrm{UL}\not\subseteq\mc{T}_\textrm{K}$, simply fix $a<0$ and consider $\l(a,0\r]\in\mc{B}_\textrm{UL}$ with $x=0$. Any $B\in\mc{B}_\textrm{K}$ containing $x$ necessarily contains some positive $c\in\R$ with $c\neq1/n$ for all $n\in\N$, so $c\in B$ but $c\not\in\l(a,0\r]$ and thus $B\not\subseteq\l(a,0\r]$.
 

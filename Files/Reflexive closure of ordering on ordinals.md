@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Transitive set iff every element is a subset]], [[Well-ordering well-orders subsets]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _For all ordinals $\alpha$ and $\beta$, we have $\alpha\subseteq\beta\Leftrightarrow\alpha\in\beta\lor\alpha=\beta$._
 
---- admonition
+```
 
 _Proof_. ($\Leftarrow$): If $\alpha\in\beta$, then $\alpha\subseteq\beta$ follows from the fact that $\beta$ is transitive. If $\alpha=\beta$, then trivially $\alpha\subseteq\beta$.
 

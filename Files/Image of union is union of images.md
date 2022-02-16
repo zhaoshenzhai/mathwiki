@@ -7,14 +7,15 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $R$ be a binary relation and fix $\mc{A}\subseteq\mc{P}\l(\dom R\r)$, that is, fix a collection of subsets of $\dom R$. Then_
 $$\begin{equation}
     \im_R\l(\bigcup\mc{A}\r)=\bigcup\l\{\im_R\l(A\r)\mid A\in\mc{A}\r\}.
 \end{equation}$$
 
---- admonition
+```
 
 _Proof_. Take $y\in\im_R\l(\bigcup\mc{A}\r)$. The result follows from the following chain of equivalences:
 $$\begin{alignat}{2}

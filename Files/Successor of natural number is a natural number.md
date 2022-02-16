@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Successor of an ordinal is the next smallest ordinal]], [[Reflexive closure of ordering on ordinals]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _For all natural numbers $n$, its successor $S\l(n\r)$ is also a natural number._
 
---- admonition
+```
 
 _Proof_. Take an ordinal $\alpha$ such that $\alpha\subseteq S\l(n\r)=n\cup\l\{n\r\}$. Since $S\l(n\r)$ is an ordinal, we see that
 $$\begin{equation}

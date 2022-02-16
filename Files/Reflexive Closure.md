@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set and let $R$ be a binary relation on $X$. The **reflexive closure of $R$ w.r.t. $X$** is the binary relation_
 $$\begin{equation}
     \rfcl R\coloneqq R\cup\id_X.
 \end{equation}$$
 
---- admonition
+```

@@ -14,10 +14,11 @@ Sufficiencies: [[Inverse of bijection is a bijection]], [[Composition of bijecti
 Equivalences: [[Invertible iff bijective]]
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _A function $f:X\to Y$ is a **bijection** if $f:X\to Y$ is both an injection and a surjection._
 
---- admonition
+```
 
 **Remark.** If $f:X\to Y$ is a bijection (or a **bijective function**, or an **isomorphism between sets**), write $f:X\rightleftarrows Y$ or $f:X\simto Y$ and say that the sets $X$ and $Y$ are **in one-to-one correspondence** or **isomorphic**, in which case we also write $X\iso Y$.<span style="float:right;">$\blacklozenge$</span>

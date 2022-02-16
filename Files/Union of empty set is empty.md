@@ -7,10 +7,11 @@ Tags: #Proposition #Closed
 Proved by: [[Empty set is unique]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _$\bigcup\em=\em$._
 
---- admonition
+```
 
 _Proof_. If $x\in\bigcup\em$, then, by definition of the union, there exists some $v\in\em$ such that $x\in v$. But such a set $v$ cannot exist, so $x\not\in\bigcup\em$ for all sets $x$. Thus $\bigcup\em$ is empty. Since the empty set is unique, we have $\bigcup\em=\em$.<span style="float:right;">$\blacklozenge$</span>

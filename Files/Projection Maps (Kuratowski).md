@@ -14,7 +14,8 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Projection maps (Kuratowski) are surjections]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ and $Y$ be sets. The **projection maps onto the first and second coordinates of $X\times Y$** are the functions_
 $$\begin{equation}
@@ -25,4 +26,4 @@ $$\begin{equation}
 \end{equation}$$
 _respectively._
 
---- admonition
+```

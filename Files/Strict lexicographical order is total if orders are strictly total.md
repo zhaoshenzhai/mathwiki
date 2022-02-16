@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Strict lexicographical order is a strict partial order]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $<$ and $\prec$ be strict total orders on the sets $X$ and $Y$ respectively. Then their lexicographical order $\sqsubset$ is a strict total order on $X\times Y$._
 
---- admonition
+```
 
 _Proof_. Since $\sqsubset$ is a strict partial order on $X\times Y$, it suffices to show that it is also connected on $X\times Y$. To do so, take $\l\langle x_1,y_1\r\rangle,\l\langle x_2,y_2\r\rangle\in X\times Y$. We argue by cases.
 * If $x_1<x_2$, then $\l\langle x_1,y_1\r\rangle\sqsubset\l\langle x_2,y_2\r\rangle$ regardless of how $y_1$ and $y_2$ relate.  Similarly for if $x_1>x_2$.

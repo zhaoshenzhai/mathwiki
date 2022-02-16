@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $R$ be a set. Then $R$ is a binary relation iff there exist sets $X$ and $Y$ such that $R\subseteq X\times Y$._
 
---- admonition
+```
 
 _Proof_. ($\Rightarrow$): Let $X\coloneqq\dom R$ and $Y\coloneqq\ran R$; we claim that $R\subseteq\dom R\times\ran R$. To do so, take $u\in R$. The result follows from the following chain of implications:
 $$\begin{equation}

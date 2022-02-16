@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[ON is a proper class]]
 
-!!! ad-Definition Definition (Informal).
+``` ad-Definition
+title: Definition.(Informal).
 
 _The **class of ordinals** is the proper class $\ord\coloneqq\l\{x\mid x\textrm{ is an ordinal}\r\}$._
 
---- admonition
+```
 
 **Remark.** Some notations:
 * $x\in\ord\,\colon\!\Leftrightarrow x\textrm{ is an ordinal}$.

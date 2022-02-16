@@ -14,13 +14,14 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $\l\langle X,<\r\rangle$ be a totally ordered set. An **open interval in $X$ w.r.t $<$** is a set of the form_
 $$\begin{equation}
     \l(a,b\r)\coloneqq\l\{x\in X\mid\ex a,b\in X:a<x<b\r\}.
 \end{equation}$$
 
---- admonition
+```
 
 **Remark.** If the set $X$ needs to be explicitly specified, write the open interval as $\l(a,b\r)_X$. Other (reasonable) notations apply too.<span style="float:right;">$\blacklozenge$</span>

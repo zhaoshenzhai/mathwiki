@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Distribution of universal quantifier over conjunction]], [[Implication is transitive]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $A$, $B$, and $C$ be sets. If $A\subseteq B$ and $B\subseteq C$, then $A\subseteq C$._
 
---- admonition
+```
 
 _Proof_. The result follows from the following chain of logical equivalences:
 $$\begin{alignat}{2}

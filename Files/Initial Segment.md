@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $\l\langle X,<\r\rangle$ be a poset. A subset $Y\subseteq X$ is called an **initial segment of $X$ w.r.t $<$** if_
 $$\begin{equation}
     \fa y\in Y,\fa x\in X:x<y\Rightarrow x\in Y.
 \end{equation}$$
 
---- admonition
+```

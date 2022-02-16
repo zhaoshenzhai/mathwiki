@@ -14,9 +14,10 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $\l\langle X,<_X\r\rangle$ and $\l\langle Y,<_Y\r\rangle$ be totally ordered sets and consider the lexicographical order $<$ on $X\times Y$. The **lexicographical order topology on $X\times Y$** is the order topology_ $\mc{T}(<
 )$_._
 
---- admonition
+```

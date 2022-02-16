@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Criteria for fineness w.r.t bases]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\R$ be the set of real numbers. Then the lower and upper limit topologies_ $\mc{T}_\textrm{LL}$ _and_ $\mc{T}_\textrm{UL}$_ on $\R$, respectively, are not comparable._
 
---- admonition
+```
 
 _Proof_. ($\mc{T}_\textrm{LL}\not\subseteq\mc{T}_\textrm{UL}$): Take $\l[a,b\r)\in\mc{B}_\textrm{LL}$ and choose $x=a$. Then any $\l(c,d\r]\in\mc{B}_\textrm{UL}$ containing $x$ necessarily implies that $c<a$, so $\l(c,d\r]\not\subseteq\l[a,b\r)$.
 

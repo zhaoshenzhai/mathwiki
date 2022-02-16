@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Greatest and least elements are unique]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $\l\langle X,\leq\r\rangle$ be a poset and fix $S\subseteq X$. The **greatest element of $S$** is an element $g\in S$ such that $\fa s\in S:s\leq g$._
 
---- admonition
+```

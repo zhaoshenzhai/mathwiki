@@ -14,14 +14,15 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Intersection of a set is a set]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $u$ be a non-empty set. The **intersection of $u$** is the set_
 $$\begin{equation}
     \bigcap u\coloneqq\l\{x\mid\fa v\l(v\in u\Rightarrow x\in v\r)\r\}.
 \end{equation}$$
 
---- admonition
+```
 
 **Remark.** For the pair set $\l\{u,v\r\}$, write $u\cap v\coloneqq\bigcap\l\{u,v\r\}$.<span style="float:right;">$\blacklozenge$</span>
 

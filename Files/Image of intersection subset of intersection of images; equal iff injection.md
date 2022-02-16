@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $R$ be a binary relation and fix a non-empty subset $\mc{A}\subseteq\mc{P}\l(\dom R\r)$, that is, fix a non-empty collection of subsets of $\dom R$. Then_
 $$\begin{equation}
@@ -15,7 +16,7 @@ $$\begin{equation}
 \end{equation}$$
 _Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xRy$; if $R=f$ is a function, then equality holds iff $f$ is injective._
 
---- admonition
+```
 
 _Proof_. Take $y\in\im_R\l(\bigcap\mc{A}\r)$. The result follows from the following chain of implications:
 $$\begin{alignat}{2}

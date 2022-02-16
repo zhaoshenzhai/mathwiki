@@ -14,10 +14,11 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. A binary relation $<$ on $X$ is a **strict partial order on $X$** if $<$ is transitive and irreflexive on $X$._
 
---- admonition
+```
 
 **Remark.** Write $>\,\coloneqq\,<^{-1}$.<span style="float:right;">$\blacklozenge$</span>

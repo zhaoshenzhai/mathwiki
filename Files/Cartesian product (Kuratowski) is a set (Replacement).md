@@ -7,14 +7,15 @@ Tags: #Proposition #Closed
 Proved by: [[Replacement image of a set is a set]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ and $Y$ be sets. Then there exists a unique set $z$ whose elements are exactly the sets $u$ for which there exists $x$ in $X$ and $y$ in $Y$ such that $u=\l\langle x,y\r\rangle$. Formally,_
 $$\begin{equation}
     \fa X\fa Y\ex!z\l[u\in z\Leftrightarrow\ex x\in X,\ex y\in Y:u=\l\langle x,y\r\rangle\r].
 \end{equation}$$
 
---- admonition
+```
 
 _Proof_. This proof consists of three steps:
 1. Fix $s\in X$. We shall construct the set

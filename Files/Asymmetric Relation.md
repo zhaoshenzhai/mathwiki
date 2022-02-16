@@ -14,11 +14,12 @@ Sufficiencies: [[Irreflexive and transitive implies asymmetric]], [[Trichotomous
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. A binary relation $R$ is **asymmetric on $X$** if_
 $$\begin{equation}
     \fa x,y\in X:\lnot\l(xRy\land yRx\r).
 \end{equation}$$
 
---- admonition
+```

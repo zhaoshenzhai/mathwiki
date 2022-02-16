@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\sim$ be an equivalence relation on $X$ and fix $x,y\in X$. Then_ $\l[x\r]_\sim=\l[y\r]_\sim$ _iff_ $x\sim y$_._
 
---- admonition
+```
 
 _Proof_. ($\Rightarrow$): Because $\sim$ is reflexive, we have $x\sim x$ and thus $x\in\l[x\r]_\sim$. It follows that $x\in\l[y\r]_\sim$ and thus $x\sim y$.
 

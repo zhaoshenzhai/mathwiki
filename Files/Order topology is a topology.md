@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\l\langle X,<\r\rangle$ be a totally ordered set. Then the order topology on $X$,_ $\mc{T}(<)=\mc{T}\l(\mc{B}\r)$ _where $\mc{B}\subseteq\mc{P}\l(X\r)$ is such that_
 * $\fa a,b\in X:a<b\Rightarrow\l(a,b\r)\in\mc{B}$_,_
@@ -16,7 +17,7 @@ _Let $\l\langle X,<\r\rangle$ be a totally ordered set. Then the order topology 
 
 _is a topology on $X$._
 
---- admonition
+```
 
 _Proof_. It suffices to verify that $\mc{B}$ is a basis for a topology on $X$.
 * ($\axibasis{1}$): There are four cases to consider.

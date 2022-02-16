@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ be a set and $\ms{T}$ be a non-empty collection of topologies on $X$. Then $\bigcap\ms{T}$ is a topology on $X$._
 
---- admonition
+```
 
 _Proof_. We verify the axioms for a topology on $X$:
 * ($\axitop{1}$): Since $\em$ and $X$ are in $\mc{T}$ for all $\mc{T}\in\ms{T}$, they are in $\bigcap\ms{T}$ too.

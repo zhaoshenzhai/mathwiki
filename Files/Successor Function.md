@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $x$ be a set. The **successor of $x$** is the set $S\l(x\r)\coloneqq x\cup\l\{x\r\}$._
 
---- admonition
+```

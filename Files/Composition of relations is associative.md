@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Conjunction is associative]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $R,S,T$ be binary relations. Then $\l(R\circ S\r)\circ T=R\circ\l(S\circ T\r)$._
 
---- admonition
+```
 
 _Proof_. Take $\l\langle x,y\r\rangle\in\l(R\circ S\r)\circ T$. The result follows from the following chain of equivalences:
 $$\begin{alignat}{2}

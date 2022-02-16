@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _A poset $\l\langle X,\leq\r\rangle$ is called a **lattice** if it is both a join and a meet semilattice._
 
---- admonition
+```

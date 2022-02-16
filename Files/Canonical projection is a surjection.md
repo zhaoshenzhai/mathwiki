@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. The canonical projection_
 $$\begin{equation}
@@ -15,7 +16,7 @@ $$\begin{equation}
 \end{equation}$$
 is a surjection.
 
---- admonition
+```
 
 _Proof_. Take $\l[x\r]_\sim\in X/\!\sim$. Since $\sim$ is reflexive on $X$, we see that $x\in\l[x\r]_\sim=\pi_\sim\l(x\r)$ and so $\pi_\sim$ is a surjection.<span style="float:right;">$\blacksquare$</span>
 

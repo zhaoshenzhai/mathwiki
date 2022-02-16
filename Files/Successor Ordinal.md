@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _An ordinal $\beta$ is called a **successor ordinal** if $\ex\alpha\in\ord:\beta=S\l(\alpha\r)$._
 
---- admonition
+```

@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Invertible iff bijective]]
 Justifications: [[Inverse of function is unique]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $f:X\to Y$. A function $f^{-1}:Y\to X$ is an **inverse of $f$** if $f^{-1}$ is both a left and right inverse of $f$._
 
---- admonition
+```
 
 **Remark.** In other words, if $f^{-1}\circ f=\id_X$ and $f\circ f^{-1}=\id_Y$. This relationship can also be expressed by stating that the diagram
 

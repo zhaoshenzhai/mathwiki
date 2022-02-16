@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Cardinality of power set]], [[Union of empty set is empty]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ be a set. Then the trivial topology_ $\mc{T}_\textrm{trivial}=\l\{\em,X\r\}$ _is a topology on $X$._
 
---- admonition
+```
 
 _Proof_. We verify the axioms for a topology on $X$:
 * ($\axi{Top1}$): This follows by definition.

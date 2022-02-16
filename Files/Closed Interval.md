@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $\l\langle X,<\r\rangle$ be a totally ordered set. A **closed interval in $X$ w.r.t $<$** is a set of the form_
 $$\begin{equation}
     \l[a,b\r]\coloneqq\l\{x\in X\mid\ex a,b\in X:a\leq x\leq b\r\}.
 \end{equation}$$
 
---- admonition
+```

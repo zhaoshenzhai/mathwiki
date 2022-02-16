@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\R$ be the set of real numbers. Then the upper limit topology_ $\mc{T}_\textrm{UL}\coloneqq\mc{T}\l(\mc{B}_\textrm{UL}\r)$ _where_
 $$\begin{equation}
@@ -15,7 +16,7 @@ $$\begin{equation}
 \end{equation}$$
 _is a topology on $\R$._
 
---- admonition
+```
 
 _Proof_. It suffices to prove that $\mc{B}_\textrm{UL}$ is a basis for a topology on $\R$.
 * ($\axibasis{1}$): For any $x\in\R$, take $B=\l(x-r,x\r]$ for any $r\in\R^+$. Observe that $x\in B$.

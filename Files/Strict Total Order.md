@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Strict total order iff transitive and asymmetric]]
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. A binary relation $<$ on $X$ is a **strict total order on $X$** if $<$ is connected and is a strict partial order on $X$._
 
---- admonition
+```

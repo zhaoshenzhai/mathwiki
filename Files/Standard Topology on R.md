@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Standard topology on R (explicit)]], [[Standard topology on R (basis; rational endpoints)]], [[Standard topology on R (subbasis; rational endpoints)]]
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $<$ be the standard ordering on the real numbers $\R$. The **standard topology on $\R$** is the order topology_ $\mc{T}(<)$_._
 
---- admonition
+```
 
 **Remark.** Since $\R$ is unbounded (in both directions), we see that $\mc{T}\l(<\r)\coloneqq\mc{T}\l(\mc{B}\r)$ where
 $$\begin{equation}

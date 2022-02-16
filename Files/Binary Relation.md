@@ -14,14 +14,15 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Binary relation iff subset of Cartesian product]]
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _A set $R$ is a **binary relation** if $R$ is a set of ordered pairs. Formally,_
 $$\begin{equation}
     R\textit{ is a binary relation}\ \ \ \ \Leftrightarrow\ \ \ \ \fa u\in R,\ex x,y:u=\l\langle x,y\r\rangle.
 \end{equation}$$
 
---- admonition
+```
 
 **Remark.**
 * If $R$ is a binary relation and $\l\langle x,y\r\rangle\in R$, write $xRy$.

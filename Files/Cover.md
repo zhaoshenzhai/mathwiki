@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. A set $\mc{C}$ is called a **cover of $X$** if $X\subseteq\bigcup\mc{C}$. That is, if_
 $$\begin{equation}
     \fa x\in X,\ex C\in\mc{C}:x\in C.
 \end{equation}$$
 
---- admonition
+```

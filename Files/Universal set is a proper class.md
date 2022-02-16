@@ -7,11 +7,12 @@ Tags: #Proposition #Open
 Proved by: [[Axiom Schema of Specification]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition (Russel's Paradox).
+``` ad-Proposition
+title: Proposition.(Russel's Paradox).
 
 _The collection of all sets is a proper class. Formally, $\fa v\ex u\l(u\not\in v\r)$._
 
---- admonition
+```
 
 _Proof._ Suppose, for contradiction, that such a set $v$ exists, i.e., $\ex v\fa u\l(u\in v\r)$. By the Axiom Schema of Specification with the formula $\phi$ being $x\not\in x$, we have
 $$\begin{equation}

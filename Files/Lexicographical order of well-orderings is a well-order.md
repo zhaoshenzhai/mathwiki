@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Strict lexicographical order is total if orders are strictly total]], [[Well-ordering well-orders subsets]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $<$ and $\prec$ be well-orders on the sets $X$ and $Y$, respectively, Then the strict lexicographical order $\sqsubset$ on $X\times Y$ is a well-order on $X\times Y$._
 
---- admonition
+```
 
 _Proof_. Since $<$ and $\prec$ are strict total orders on $X$ and $Y$, respectively, we see that $\sqsubset$ is a strict total order on $X\times Y$. Hence it suffices to show that $\sqsubset$ is well-founded on $X\times Y$. To this end, take a non-empty subset $S\subseteq X\times Y$. Observe then that $S$ is a binary relation with $\dom S\subseteq X$, so $<$ is a well-ordering on $\dom S$ too. Therefore, there exists a $<$-minimal element $x_0\in\dom S$. Observe also that
 $$\begin{equation}

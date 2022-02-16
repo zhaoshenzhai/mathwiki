@@ -14,14 +14,15 @@ Sufficiencies: [[Criteria for equality of functions]], [[Formula in replacement 
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _A binary relation $f$ is a **function** if for every $x\in\dom f$, there exists a unique $y$ such that $\l\langle x,y\r\rangle\in f$. Formally,_
 $$\begin{equation}
     f\textit{ is a function}\ \ \ \ \Leftrightarrow\ \ \ \ \fa x\in\dom f,\ex!y:\l\langle x,y\r\rangle\in f.
 \end{equation}$$
 
---- admonition
+```
 
 **Remark.**
 * If $f$ is a function with $\dom f=X$ and $\ran f\subseteq Y$ for some sets $X$ and $Y$, write $f:X\to Y$ and call $f$ a **function from $X$ into $Y$**. Note that there are $\textrm{`}$infinitely$\textrm{'}$ many sets $Y$ such that $f:X\to Y$.

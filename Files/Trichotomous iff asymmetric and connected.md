@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Asymmetry implies irreflexivity]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ be a set and let $R$ be a binary relation. Then $R$ is trichotomous on $X$ iff it is asymmetric and connected on $X$._
 
---- admonition
+```
 
 _Proof_. ($\Rightarrow$): If exactly one of $xRy$, $yRx$, or $x=y$ holds, then at least one of them hold and $\lnot\l(xRy\land yRx\r)$. Thus $<$ is asymmetric and connected on $X$.
 

@@ -14,13 +14,14 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. Fix $x\in X$. The **equivalence class of $x$ under $\sim$** is the set_
 $$\begin{equation}
     \l[x\r]_\sim\coloneqq\l\{y\in X\mid x\sim y\r\}.
 \end{equation}$$
 
---- admonition
+```
 
 **Remark.** Write $\l[x\r]\coloneqq\l[x\r]_\sim$ if no confusion arises.<span style="float:right;">$\blacklozenge$</span>

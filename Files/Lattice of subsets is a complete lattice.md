@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Set ordered by inclusion is a poset]], [[Element of set is a subset of its union]], [[Element of set is a superset of its intersection]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ be a set. Then the pair $\l\langle\mc{P}\l(X\r),\subseteq\r\rangle$ is a complete lattice._
 
---- admonition
+```
 
 _Proof_. Observe that $\l\langle\mc{P}\l(X\r),\subseteq\r\rangle$ is a poset, so it suffices to prove that every subset of $\mc{P}\l(X\r)$ has both a join and a meet. To this end, take $\mc{Y}\subseteq\mc{P}\l(X\r)$.
 * If $\mc{Y}=\em$, then every $W\in\mc{P}\l(X\r)$ is vacuously an upper and lower bound of $\mc{Y}$.

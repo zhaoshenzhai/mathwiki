@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Invertible iff bijective]], [[Composition of relations is associative]], [[Composition with identity function is the function itself]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $f:X\to Y$ and $g:Y\to Z$ be bijections. Then the composition function $g\circ f:X\to Z$ is also a bijection._
 
---- admonition
+```
 
 _Proof_. It suffices to show that $g\circ f$ has an inverse. Indeed, since $f$ and $g$ are bijections, the inverse (relations) $f^{-1}$ and $g^{-1}$ are functions and thus $f^{-1}\circ g^{-1}$ is also a function; we claim that $\l(g\circ f\r)^{-1}=f^{-1}\circ g^{-1}$. To see this, compute
 $$\begin{equation}

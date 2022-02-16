@@ -7,14 +7,15 @@ Tags: #Proposition #Closed
 Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [[Subset relation is transitive]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ and $Y$ be sets. Then there exists a unique set $z$ whose elements are exactly the sets $u$ for which there exists $x$ in $X$ and $y$ in $Y$ such that $u=\l\langle x,y\r\rangle$. Formally,_
 $$\begin{equation}
     \fa X\fa Y\ex!z\l[u\in z\Leftrightarrow\ex x\in X,\ex y\in Y:u=\l\langle x,y\r\rangle\r].
 \end{equation}$$
 
---- admonition
+```
 
 _Proof_. Let $\phi\l(u\r)$ denote the formula $\l[u\in z\Leftrightarrow\ex x\in X,\ex y\in Y:u=\l\langle x,y\r\rangle\r]$; we claim that
 $$\begin{equation}

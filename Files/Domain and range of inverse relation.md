@@ -7,14 +7,15 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $R$ be a binary relation. Then_
 $$\begin{equation}
     \dom R^{-1}=\ran R\ \ \ \ \textit{and}\ \ \ \ \ran R^{-1}=\dom R.
 \end{equation}$$
 
---- admonition
+```
 
 _Proof_. Simply compute:
 $$\begin{gather}

@@ -7,11 +7,12 @@ Tags: #Proposition #Open
 Proved by: [[Universal set is a proper class]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _The expression $\bigcap\em\coloneqq\l\{x\mid\fa v\l(v\in\em\Rightarrow x\in v\r)\r\}$ is a proper class._
 
---- admonition
+```
 
 _Proof_. Suppose, for sake of contradiction, that $\bigcap\em$ is a set. By definition of the Set-Builder notation, $\bigcap\em$ is a set for which
 $$\begin{equation}

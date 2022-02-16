@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Formula in replacement image constructs a function]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ be a set. The identity function $\id_X\!=\l\{z\mid \ex x\in X:z=\l\langle x,x\r\rangle\r\}$ is a function._
 
---- admonition
+```
 
 _Proof_. Consider the formula $\phi\l(x,y\r)\,\colon\!\Leftrightarrow x=y$. Observe that $\fa x\in X,\ex!y:\phi\l(x,y\r)$, namely $x$ itself. Thus there exists a function $\id_X$ with $\dom\id_X\!=X$ and $\fa x\in X:\phi\l(x,x\r)$. This function is constructed as the set
 $$\begin{alignat}{2}

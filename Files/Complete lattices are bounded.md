@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\l\langle X,\leq\r\rangle$ be a complete lattice. Then $\l\langle X,\leq\r\rangle$ is bounded._
 
---- admonition
+```
 
 _Proof_. In particular, we have $X\subseteq X$ and thus $\bigvee X$ and $\bigwedge X$ exist. Because the join and meet of $X$ are also upper and lower bounds of $X$, respectively, we see that
 $$\begin{equation}

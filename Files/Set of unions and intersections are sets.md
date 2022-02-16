@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [[Element of set is a subset of its union]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection with another set is monotone w.r.t. subsets]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $v$ and $U$ be sets. Then there exists a unique set $z_1$ whose elements are exactly the sets $v\cup u$ for all sets $u\in U$. Similarly, there exists a unique set $z_2$ whose elements are exactly the sets $v\cap u$ for all sets $u\in U$. Formally, _
 $$\begin{equation}
@@ -17,7 +18,7 @@ $$\begin{equation}
     \end{gathered}
 \end{equation}$$
 
---- admonition
+```
 
 _Proof_. We shall prove the statement for $z_1$; the proof for $z_2$ is analogous. Let $\phi\l(x\r)$ denote the formula $\l(\ex u\in U\r)x=v\cup u$; we claim that
 $$\begin{equation}

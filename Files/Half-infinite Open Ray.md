@@ -14,7 +14,8 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $\l\langle X,<\r\rangle$ be a totally ordered set. If there does not exist a minimal element (resp. a maximal element) in $X$, then the open ray_
 $$\begin{equation}
@@ -22,4 +23,4 @@ $$\begin{equation}
 \end{equation}$$
 _is said to be a **half-infinite open ray**._
 
---- admonition
+```

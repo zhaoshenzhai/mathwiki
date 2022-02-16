@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $\l\langle X,<\r\rangle$ be a totally ordered set. The **(topological) order space on $X$ w.r.t. $<$** is the pair $\l\langle X,\mc{T}\l(<\r)\r\rangle$ where $\mc{T}\l(<\r)$ is the order topology induced by $<$._
 
---- admonition
+```

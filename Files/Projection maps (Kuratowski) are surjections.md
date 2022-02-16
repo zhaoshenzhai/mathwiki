@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: [[Formula in replacement image constructs a function]]
 Generalizations: [[Projection maps (arbitrary) are surjections]]
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ and $Y$ be non-empty sets. Then the projection maps_
 $$\begin{equation}
@@ -18,7 +19,7 @@ $$\begin{equation}
 \end{equation}$$
 _are surjective._
 
---- admonition
+```
 
 _Proof_. Set $p\coloneqq\l\langle x,y\r\rangle$. We first need to prove that $\pi_X$ and $\pi_Y$ are indeed functions; that is, we need formulae $\phi\l(p,x\r)$ and $\phi\l(p,y\r)$ such that $\fa p\in X\times Y,\ex!x:\phi\l(p,x\r)$ and $\fa p\in X\times Y,\ex!y:\phi\l(p,y\r)$. Indeed, we claim that
 $$\begin{equation}

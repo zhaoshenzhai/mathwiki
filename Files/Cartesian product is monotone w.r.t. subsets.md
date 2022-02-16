@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $A,B,C,D$ be sets. If $A\subseteq C$ and $B\subseteq D$, then $A\times B\subseteq C\times D$. The converse is true if $A,B\neq\em$._
 
---- admonition
+```
 
 _Proof_. ($\Rightarrow$): Take $x\in A\times B$. The result follows from the following chain of implications:
 $$\begin{equation}

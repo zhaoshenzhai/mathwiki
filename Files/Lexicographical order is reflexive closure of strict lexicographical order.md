@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\leq$ and $\preceq$ be partial orders on the sets $X$ and $Y$, respectively. Then the binary relation defined by_
 $$\begin{equation}
@@ -15,7 +16,7 @@ $$\begin{equation}
 \end{equation}$$
 _for all $x_1,x_2\in X$ and $y_1,y_2\in Y$ is the reflexive closure of the strict lexicographical order $\sqsubset$ on $X\times Y$._
 
---- admonition
+```
 
 _Proof_. We shall show that $\sqsubseteq\,=\rfcl\sqsubset=\,\sqsubset\cup\id_{X\times Y}$.
 * ($\subseteq$): Take $\l\langle x_1,y_1\r\rangle,\l\langle x_2,y_2\r\rangle$ such that $\l\langle x_1,y_1\r\rangle\sqsubseteq\l\langle x_2,y_2\r\rangle$.

@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $x$ and $y$ be sets and let $z$ be any set asserted by the Axiom of Pairing. The **pair set of $x$ and $y$** is the set_
 $$\begin{equation}
     \l\{x,y\r\}\coloneqq\l\{w\in z\mid w=x\lor w=y\r\}.
 \end{equation}$$
 
---- admonition
+```

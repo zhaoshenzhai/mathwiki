@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Axiom of Extensionality]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $u$, $v$, $x$, and $y$ be sets. Then $\l\langle u,v\r\rangle=\l\langle x,y\r\rangle$ iff $u=x$ and $v=y$._
 
---- admonition
+```
 
 _Proof_. If $u=x$ and $v=y$, then, by the Axiom of Extensionality, we have $\l\{\l\{u\r\},\l\{u,v\r\}\r\}=\l\{\l\{x\r\},\l\{x,y\r\}\r\}$ and thus $\l\langle u,v\r\rangle=\l\langle x,y\r\rangle$. Conversely, suppose that $\l\langle u,v\r\rangle=\l\langle x,y\r\rangle$, so $\l\{\l\{u\r\},\l\{u,v\r\}\r\}=\l\{\l\{x\r\},\l\{x,y\r\}\r\}$. There are two cases; either $u=v$ or $u\neq v$:
 * If $u=v$, then

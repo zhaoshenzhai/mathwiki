@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Distribution of conjunction over disjunction]], [[Distribution of existential quantifier over disjunction]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $A$ and $B$ be sets. Then $\bigcup\l(A\cup B\r)=\bigcup A\cup\bigcup B$._
 
---- admonition
+```
 
 _Proof_. Take $x\in\bigcup\l(A\cup B\r)$. The result follows from the following chain of equivalences:
 $$\begin{alignat}{2}

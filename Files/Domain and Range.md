@@ -14,7 +14,8 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Domain and range of relation are sets (Kuratowski)]], [[Domain and range of relation are sets (General)]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $R$ be a binary relation. The **domain and range of $R$** are the sets_
 $$\begin{equation}
@@ -22,4 +23,4 @@ $$\begin{equation}
 \end{equation}$$
 _respectively._
 
---- admonition
+```

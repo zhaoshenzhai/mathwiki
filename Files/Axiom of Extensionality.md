@@ -7,14 +7,15 @@ Tags: #Axiom #Open
 Equivalences: _Not Applicable_
 Constructions: _Not Applicable_
 
-!!! ad-Axiom Axiom (Extensionality).
+``` ad-Axiom
+title: Axiom.(Extensionality).
 
 _Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in\r\}$. The **Axiom of Extensionality** is the $\mc{L}$-formula_
 $$\begin{equation}
     \fa x\fa y\l[\fa z\l(z\in x\Leftrightarrow z\in y\r)\Rightarrow x=y\r].
 \end{equation}$$
 
---- admonition
+```
 
 > Informally, the truth of this axiom is clear if we recall that the intended universe of set theory consists of all $\textit{hereditary sets}$. That is, if $x$ is in our universe, then $x$ is a set and all members of $x$ are also in our universe and hence also sets. Then $\fa z\l(z\in x\Leftrightarrow z\in y\r)$ says that $x,y$ are sets with exactly the same members, so they must be the same set.
 <span style="float:right;">- Kenneth Kunan; Set Theory, I.4</span>

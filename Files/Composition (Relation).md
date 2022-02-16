@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Composition of relations is a relation]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $R$ and $S$ be binary relations. The **composition of $S$ after $R$** is the relation_
 $$\begin{equation}
     S\circ R\coloneqq\l\{\l\langle x,z\r\rangle\mid\ex y\l(xRy\land ySz\r)\r\}.
 \end{equation}$$
 
---- admonition
+```

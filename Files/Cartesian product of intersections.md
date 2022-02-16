@@ -7,14 +7,15 @@ Tags: #Proposition #Closed
 Proved by: [[Conjunction is idempotent]], [[Conjunction is associative]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X_1,X_2,Y_1,Y_2$ be sets. Then_
 $$\begin{equation}
     \l(X_1\cap X_2\r)\times\l(Y_1\cap Y_2\r)=\l(X_1\times Y_1\r)\cap\l(X_2\times Y_2\r).
 \end{equation}$$
 
---- admonition
+```
 
 _Proof_. Take $p\in\l(X_1\cap X_2\r)\times\l(Y_1\cap Y_2\r)$. The result follows from the following chain of equivalences:
 $$\begin{alignat}{2}

@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: [[Union of subsets is a subset of union]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ be a set and let $R$ be a binary relation on $X$. Then the set_
 $$\begin{equation}
@@ -15,7 +16,7 @@ $$\begin{equation}
 \end{equation}$$
 _is the reflexive binary relation on $X$ contained in every reflexive binary relation that contains $R$._
 
---- admonition
+```
 
 _Proof_. We first verify that $\rfcl R$ is indeed a binary relation. To this end, take $u\in\rfcl R$, so either $u\in R$ or $u\in\id_X$.
 * If $u\in R$, then, since $R$ is a binary relation $X$, we see that $\ex x_1,x_2\in X:u=\l\langle x_1,x_2\r\rangle$.

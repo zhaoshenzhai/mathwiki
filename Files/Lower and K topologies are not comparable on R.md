@@ -7,12 +7,13 @@ Tags: #Proposition #Closed
 Proved by: [[Criteria for fineness w.r.t bases]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $\R$ be the set of real numbers. Then the lower limit and $K$ topologies_ $\mc{T}_\textrm{LL}$ _and_ $\mc{T}_\textrm{K}$_ on $\R$, respectively, are not comparable._
 
 
---- admonition
+```
 
 _Proof_. ($\mc{T}_\textrm{LL}\not\subseteq\mc{T}_\textrm{K}$): Take $\l[1/2,1\r)\in\mc{B}_\textrm{LL}$ and choose $x=1/2$. Then for all $B\in\mc{B}_\textrm{K}$, we have $x\not\in B$.
 

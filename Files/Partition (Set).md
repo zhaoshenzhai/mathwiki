@@ -14,7 +14,8 @@ Sufficiencies: [[Quotient set is a partition]]
 Equivalences: [[Fundamental Theorem of Equivalence Relations]]
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. A **partition of $X$** is a set $\Pi\subseteq\mc{P}\l(X\r)$ satisfying:_
 * $\axipartition{1}\bf{.}$ _Elements of $\Pi$ are nonempty: $\fa P\in\Pi:P\neq\em$._
@@ -24,7 +25,7 @@ $$\begin{equation}
 \end{equation}$$
 * $\axipartition{3}\bf{.}$ _$\Pi$ covers $X$: $X\subseteq\bigcup\Pi$._
 
---- admonition
+```
 
 **Remark.** The condition $\Pi\subseteq\mc{P}\l(X\r)$, along with $\axipartition{3}$, implies that $X=\bigcup\Pi$; observe that
 $$\begin{equation}

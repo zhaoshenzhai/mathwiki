@@ -14,13 +14,14 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Inverse of a relation is a relation]]
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $R$ be a binary relation. The **inverse of $R$** is the relation_
 $$\begin{equation}
     R^{-1}\coloneqq\l\{\l\langle y,x\r\rangle\mid xRy\r\}.
 \end{equation}$$
 
---- admonition
+```
 
 **Remark.** Observe that $xRy\Leftrightarrow yR^{-1}x$.<span style="float:right;">$\blacklozenge$</span>

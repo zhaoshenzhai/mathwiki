@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_ 
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $A$ and $B$ be sets where $A\neq\em$. If $A\subseteq B$, then $\bigcap B\subseteq\bigcap A$._
 
---- admonition
+```
 
 _Proof_. Take $x\in\bigcap B$, so $x\in b$ for all $b\in B$. Evidently, we have $x\in b$ for all those $b\in A$ too, so $x\in\bigcap A$.<span style="float:right;">$\blacksquare$</span>
 

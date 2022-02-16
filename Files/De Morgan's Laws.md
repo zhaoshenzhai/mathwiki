@@ -7,14 +7,15 @@ Tags: #Proposition  #Open
 Proved by: [[Negation of universal quantifier]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $v$ and $U$ be sets with $U\neq\em$. Then_
 $$\begin{equation}
     v\comp\bigcup U=\bigcap\l\{v\comp u\mid u\in U\r\}\ \ \ \ \textit{and}\ \ \ \ v\comp\bigcap U=\bigcup\l\{v\comp u\mid u\in U\r\}.
 \end{equation}$$
 
---- admonition
+```
 
 _Proof_. Take $x\in v\comp\bigcup U$. The first result follows from the following chain of equivalences:
 $$\begin{equation}

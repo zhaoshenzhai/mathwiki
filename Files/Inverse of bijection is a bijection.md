@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: [[Invertible iff bijective]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $f:X\to Y$ be a bijection. Then the inverse function $f^{-1}:Y\to X$ is also a bijection._
 
---- admonition
+```
 
 _Proof_. It suffices to show that $f^{-1}$ has both a left and right inverse, but this follows directly from the fact that $f^{-1}$ is the inverse of $f$, which states
 $$\begin{equation}

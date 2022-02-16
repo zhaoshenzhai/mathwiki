@@ -14,8 +14,9 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $X$ be a set. The **lattice of subsets of $X$** is the pair $\l\langle\mc{P}\l(X\r),\subseteq\r\rangle$._
 
---- admonition
+```

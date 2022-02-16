@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: [[Reflexive closure of connected relation is connected]], [[Reflexive closure is the smallest reflexive relation]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ be a set and let $\prec$ and $<$ be strict partial and total orders on $X$, respectively. Then_
 $$\begin{equation}
@@ -15,7 +16,7 @@ $$\begin{equation}
 \end{equation}$$
 _are (non-strict) partial and total orders on $X$, respectively._
 
---- admonition
+```
 
 _Proof_. It suffices to show that $\preceq$ is a partial order on $X$ since the reflexive closure of connected relations remain connected. To do so, we check that $\preceq$ is transitive and antisymmetric on $X$; reflexivity is already ensured.
 * (Transitive): Take $x_1,x_2,x_3\in X$ with such that $x_1\preceq x_2$ and $x_2\preceq x_3$.

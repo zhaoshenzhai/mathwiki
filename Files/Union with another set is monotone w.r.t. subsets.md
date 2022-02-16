@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: [[Union of subsets is a subset of union]]
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $A$ and $B$ be sets. If $A\subseteq B$, then $A\cup C\subseteq B\cup C$ for any set $C$._
 
---- admonition
+```
 
 _Proof_. Take $x\in A\cup B$. The result follows from the following chain of logical implications:
 $$\begin{alignat}{2}

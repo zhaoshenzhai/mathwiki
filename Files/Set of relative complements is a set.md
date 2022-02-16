@@ -7,14 +7,15 @@ Tags: #Proposition #Closed
 Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $v$ and $U$ be sets. Then there exists a unique set $z$ whose elements are exactly the sets $v\comp u$ for all sets $u\in U$. Formally,_
 $$\begin{equation}
     \fa v\fa U\ex!z\fa x\l[x\in z\Leftrightarrow\l(\ex u\in U\r)x=v\comp u\r].
 \end{equation}$$
 
---- admonition
+```
 
 _Proof_. Let $\phi\l(x\r)$ denote the formula $\l(\ex u\in U\r)x=v\comp u$; we claim that
 $$\begin{equation}

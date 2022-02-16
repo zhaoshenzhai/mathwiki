@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "684a7d58daebd51d",
+        "id": "343ffb3b2610bfb8",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Files/Product topology (binary) is a topology.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -67,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Files/Product topology (binary) is a topology.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,6 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Files/Product topology (binary) is a topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Files/Product topology (binary) is a topology.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,17 +182,17 @@
     "width": 441.6612243652344,
     "collapsed": true
   },
-  "active": "684a7d58daebd51d",
+  "active": "343ffb3b2610bfb8",
   "lastOpenFiles": [
+    "Files/Product topology (binary) is a topology.md",
+    "Files/Union.md",
+    "Files/Axiom of Union.md",
+    "Files/Axiom of Pairing.md",
+    "Files/Fundamental Theorem of Equivalence Relations.md",
+    "Files/Well-ordering well-orders subsets.md",
+    "Files/Canonical Projection.md",
     "Files/Cartesian Product (Arbitrary).md",
     "Files/Empty product is singleton of empty set.md",
-    "Files/Lexicographical Order Topology on N2.md",
-    "Files/Subspace topology is a topology.md",
-    "Files/ON is a transitive class.md",
-    "Files/Well-founded relations are irreflexive.md",
-    "Files/Upper-limit topology strictly finer than K topology on R.md",
-    "Files/Upper-limit topology strictly finer than standard topology on R.md",
-    "Files/Axiom of Pairing.md",
-    "Files/Axiom Schema of Specification.md"
+    "Files/Lexicographical Order Topology on N2.md"
   ]
 }

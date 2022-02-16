@@ -14,11 +14,12 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _A set $I$ is said to be **inductive** if $\em\in I$ and it contains all its successors. Formally,_
 $$\begin{equation}
     I\textit{ is inductive}\ \ \ \ \Leftrightarrow\ \ \ \ \em\in I\land\fa i\in I:S\l(i\r)\in I.
 \end{equation}$$
 
---- admonition
+```

@@ -14,13 +14,14 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $u$ and $v$ be sets. The **relative complement of $u$ w.r.t $v$** is the set_
 $$\begin{equation}
     v\comp u\coloneqq\l\{x\in v\mid x\not\in u\r\}.
 \end{equation}$$
 
---- admonition
+```
 
 **Remark.** Trivially, we have $v\comp u\subseteq v$.<span style="float:right;">$\blacklozenge$</span>

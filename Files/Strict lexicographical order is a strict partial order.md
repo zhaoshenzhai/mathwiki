@@ -7,7 +7,8 @@ Tags: #Proposition #Closed
 Proved by: [[Binary relation iff subset of Cartesian product]]
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $<$ and $\prec$ be strict partial orders on the sets $X$ and $Y$, respectively. Then the binary relation defined by_
 $$\begin{equation}
@@ -15,7 +16,7 @@ $$\begin{equation}
 \end{equation}$$
 _for all $x_1,x_2\in X$ and $y_1,y_2\in Y$ is a strict partial order on $X\times Y$._
 
---- admonition
+```
 
 _Proof_. We shall first prove that $\sqsubset$ is a binary relation and then that $\sqsubset$ is a strict partial order on $X\times Y$.
 * ($\sqsubset$ is a binary relation): Formally, $\sqsubset$ is defined as

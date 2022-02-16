@@ -9,11 +9,12 @@ Generalizations: _Not Applicable_
 
 **Remark.** Here, $\iso$ is taken as a $\textrm{`}$binary relation$\textrm{'}$ defined by $X\iso Y$ iff there exists a bijection $f:X\to Y$; it is _not_ a binary relation in the strict sense as the domain is the proper class of all sets. The situation is analogous to that of the subset relation.<span style="float:right;">$\blacklozenge$</span>
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _The relation $\iso$ on any collection of sets is an equivalence relation._
 
---- admonition
+```
 
 _Proof_. Let $X,Y,Z$ be sets.
 * (Reflexive): Observe that the identity function $\id_X:X\to X$ is a bijection, so $X\iso X$.

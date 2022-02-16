@@ -7,11 +7,12 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-!!! ad-Proposition Proposition.
+``` ad-Proposition
+title: Proposition.
 
 _Let $X$ be a set. Then the discrete topology_ $\mc{T}_\textrm{discrete}=\mc{P}\l(X\r)$ _is a topology on $X$._
 
---- admonition
+```
 
 _Proof_. We verify the axioms for a topology on $X$:
 * ($\axitop{1}$): Vacuously, we have $\em\subseteq X$ and thus $\em\in\mc{T}_\textrm{discrete}$. Observe that, in particular, we have $X\subseteq X$, and thus $X\in\mc{T}_\textrm{discrete}$.

@@ -14,14 +14,15 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-!!! ad-Definition Definition.
+``` ad-Definition
+title: Definition.
 
 _Let $u$ be a set and let $z$ be any set asserted by the Axiom of Union. The **union of $u$** is the set_
 $$\begin{equation}
     \bigcup u\coloneqq\l\{x\in z\mid\ex v\l(x\in v\land v\in u\r)\r\}.
 \end{equation}$$
 
---- admonition
+```
 
 **Remark.** For the pair set $\l\{u,v\r\}$, write $u\cup v\coloneqq\bigcup\l\{u,v\r\}$.<span style="float:right;">$\blacklozenge$</span>
 
