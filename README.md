@@ -8,4 +8,6 @@ An Obsidian.md vault for my (mostly math) course notes in university, integrated
 
 ## Sample Pages
 
-![Sample page](.github/images/sample_page.png)
+![Subspace Topology (Basis)](.github/images/sample_pages/subspace_topology_basis.png)
+
+![Function](.github/images/sample_pages/function.png)
