@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Subspace topology (basis).md",
+            "file": "Files/Function.md",
             "mode": "preview",
             "source": true
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Subspace topology (basis).md",
+                "file": "Files/Function.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Subspace topology (basis).md",
+                "file": "Files/Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Subspace topology (basis).md",
+                "file": "Files/Function.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -179,19 +179,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 420.6612243652344
+    "width": 420.6612243652344,
+    "collapsed": true
   },
   "active": "a780f61827b22419",
   "lastOpenFiles": [
-    "Files/Subspace topology (basis).md",
-    "Files/Preimage (Function).md",
-    "Files/Subset.md",
-    "Files/Cartesian product (Kuratowski) is a set (Replacement).md",
-    "Files/Cocountable Topology.md",
-    "Files/Order topology is a topology.md",
-    "Files/Minimal Element.md",
-    "Files/Well-founded Relation.md",
-    "Files/Reflexive closure is the smallest reflexive relation.md",
-    "Files/Lower-limit Topology on R.md"
+    "Files/Function.md",
+    "Files/Order Topology.md",
+    "Files/Lexicographical order is a partial order.md",
+    "Files/Strict Total Order.md",
+    "Files/Lexicographical order is reflexive closure of strict lexicographical order.md",
+    "Files/Union of empty set is empty.md",
+    "Files/Class.md",
+    "Files/Preimage (Relation).md",
+    "Files/Binary Relation.md",
+    "Files/Image (Function).md"
   ]
 }
