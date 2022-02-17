@@ -29,7 +29,7 @@ Each note is currently one of four types:
 
 ### Obsidian template
 
-I do not directly write my notes in Obsidian since its Vim mode is not comprehensive (and the formatting is weird); see [dotfiles](https://github.com/zhaoshenzhai/dotfiles) for my Neovim setup. Therefore, most of my Obsidian customization is on its appearance and [navigation hotkeys](.obsidian/hotkeys.json).
+I do not directly write my notes in Obsidian since its Vim mode is not comprehensive (and the formatting is weird); see [dotfiles/nvim](https://github.com/zhaoshenzhai/dotfiles/tree/master/nvim) for my Neovim setup. Therefore, most of my Obsidian customization is on its appearance and [navigation hotkeys](.obsidian/hotkeys.json).
 
 Theme: [Minimal](https://github.com/kepano/obsidian-minimal).
 
@@ -40,6 +40,20 @@ Pluggins:
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, etc.
 * [Sliding Panes (Andy's Mode)](https://github.com/deathau/sliding-panes-obsidian): Stack panes side-by-side.
 * [Vault Statistics](https://github.com/bkyle/obsidian-vault-statistics-plugin): _302 notes, 654 links, 30 attachments, 26773 words._
+
+### TikZ images
+
+This is the main downside of using [MathJax](https://www.mathjax.org/) in Obsidian since Obsidian uses [sanitizates HTML](https://help.obsidian.md/Advanced+topics/HTML+sanitization) which ignores `<script>` tags and prevents one from using [this](https://github.com/kisonecat/tikzjax) tool.
+
+My solution is to bind a key in Neovim which inserts
+```html
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/UNIQUE_IDENTIFIER/image.svg"></center>
+```
+in the current line and runs a [script](https://github.com/zhaoshenzhai/dotfiles/blob/master/scripts/MathWiki/newTikZ.sh) that creates a standalone `image.tex` file from a [template](imageTemplate.tex) where the TikZ code can be written. Once finished, another key can be pressed which executes
+```bash
+pdflatex -shell-escape image.tex && pdfcrop image.pdf image.pdf && pdf2svg image.pdf image.svg
+```
+The svg images are uploaded to Github instead of linked directly in Obsidian because I couldn't get Obsidian to load local svg images. For those who do not have/want a Github repo for their Obsidian vault, use [Gist](https://gist.github.com/) instead.
 
 ## :telescope: Graph View: ![Definition](https://via.placeholder.com/15/63bfee/000000?text=+) Definitions | ![Proposition](https://via.placeholder.com/15/e665b7/000000?text=+) Propositions | ![Theorem](https://via.placeholder.com/15/65fb65/000000?text=+) Theorems | ![Axiom](https://via.placeholder.com/15/f95d5d/000000?text=+) Axioms
 
