@@ -4,7 +4,7 @@
 Date Created: 04/02/2022 14:47:46
 Tags: #Proposition #Closed 
 
-Proved by: [[Q is dense in R]], [[Criteria for collection to be a basis for an existing topology]]
+Proved by: [[Criteria for collection to be a basis for an existing topology]]
 Generalizations: _Not Applicable_
 
 ``` ad-Proposition
