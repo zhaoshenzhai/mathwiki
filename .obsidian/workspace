@@ -7,8 +7,24 @@
         "id": "3c66a894e0098b6e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Files/Convex (Order).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "89b887d8e0e963ad",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Rational convex set (not interval nor ray).md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -67,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Files/Rational convex set (not interval nor ray).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Files/Rational convex set (not interval nor ray).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,6 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Files/Rational convex set (not interval nor ray).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,17 +194,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "3c66a894e0098b6e",
+  "active": "89b887d8e0e963ad",
   "lastOpenFiles": [
-    "Files/Poset.md",
-    "Files/Bounded Poset.md",
-    "Files/Lattice.md",
-    "Files/Bounded Lattice.md",
-    "Files/Lattice of Subsets.md",
-    "Files/Lower Bound.md",
+    "Files/Rational convex set (not interval nor ray).md",
+    "Files/Convex (Order).md",
+    "Files/Open Interval.md",
+    "Files/Open Ray.md",
     "Files/Dedekind-complete Ordered Set.md",
-    "Files/Fundamental Theorem of Equivalence Relations.md",
-    "Files/Trichotomous iff asymmetric and connected.md",
-    "Files/Half-infinite Open Ray.md"
+    "Files/Axiom Schema of Specification.md",
+    "Files/Set-Builder Notation.md",
+    "Files/Pair Set.md",
+    "Files/Ordered Pair.md",
+    "Files/Binary Relation.md"
   ]
 }

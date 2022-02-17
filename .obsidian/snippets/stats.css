@@ -1,0 +1,10 @@
+/* Hide all statistics. */
+.obsidian-vault-statistics--item {
+    display: none !important;
+}
+
+/* Always show the notes and attachments statistics. */
+.obsidian-vault-statistics--item-notes,
+.obsidian-vault-statistics--item-links {
+    display: initial !important;
+}

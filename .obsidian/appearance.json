@@ -6,7 +6,8 @@
     "font",
     "fonts",
     "snippet",
-    "image"
+    "image",
+    "stats"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": true
