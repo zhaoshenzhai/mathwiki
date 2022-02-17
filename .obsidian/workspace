@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "3c66a894e0098b6e",
+        "id": "7eff66b3acd468df",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Convex (Order).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "89b887d8e0e963ad",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Rational convex set (not interval nor ray).md",
+            "file": "Files/Standard topology on R (subbasis; rational endpoints).md",
             "mode": "preview",
             "source": true
           }
@@ -61,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -83,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Rational convex set (not interval nor ray).md",
+                "file": "Files/Standard topology on R (subbasis; rational endpoints).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Rational convex set (not interval nor ray).md",
+                "file": "Files/Standard topology on R (subbasis; rational endpoints).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +116,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Rational convex set (not interval nor ray).md",
+                "file": "Files/Standard topology on R (subbasis; rational endpoints).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +168,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.1825436559223048,
+                  "scale": 0.25235911634255526,
                   "close": true
                 }
               }
@@ -194,17 +181,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "89b887d8e0e963ad",
+  "active": "7eff66b3acd468df",
   "lastOpenFiles": [
-    "Files/Rational convex set (not interval nor ray).md",
+    "Files/Standard topology on R (subbasis; rational endpoints).md",
+    "Files/Set of natural numbers is the least limit ordinal.md",
+    "Files/Right inverse iff surjection (Choice).md",
+    "README.md",
     "Files/Convex (Order).md",
+    "Files/Rational convex set (not interval nor ray).md",
     "Files/Open Interval.md",
     "Files/Open Ray.md",
-    "Files/Dedekind-complete Ordered Set.md",
-    "Files/Axiom Schema of Specification.md",
-    "Files/Set-Builder Notation.md",
-    "Files/Pair Set.md",
-    "Files/Ordered Pair.md",
-    "Files/Binary Relation.md"
+    "Files/Standard topology on R (basis; rational endpoints).md",
+    "Files/Dedekind-complete Ordered Set.md"
   ]
 }

@@ -24,5 +24,6 @@
   "newFileFolderPath": "Files",
   "fileSortOrder": "alphabetical",
   "autoPairMarkdown": true,
-  "autoPairBrackets": true
+  "autoPairBrackets": true,
+  "attachmentFolderPath": "Images"
 }
