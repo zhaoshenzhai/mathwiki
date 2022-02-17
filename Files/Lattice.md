@@ -4,7 +4,7 @@
 Date Created: 24/01/2022 15:56:53
 Tags: #Definition #Closed 
 
-Types: [[Bounded Lattice]], [[Complete Lattice]]
+Types: [[Complete Lattice]]
 Examples: [[Lattice of Subsets]], [[Lattice of Topologies]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_

@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Partially Ordered Set]], [[Total Order]], [[Lexicographical Order]]
+Constructions: [[Poset]], [[Total Order]], [[Lexicographical Order]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
