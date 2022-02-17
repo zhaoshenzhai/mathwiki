@@ -2,7 +2,11 @@
 
 ## :information_source: About
 
-An Obsidian.md vault for my math course notes in university (integrated with my [dotfiles](https://github.com/zhaoshenzhai/dotfiles)).
+An [Obsidian.md](https://obsidian.md) vault for my math course notes in university (integrated with my [dotfiles](https://github.com/zhaoshenzhai/dotfiles)).
+
+These notes are meant to be a distilled version of the math I've learnt, where ideas, formulations, and important results are broken down into their atomic components of definitions, propositions, and theorems for clarity, precision, and accessibility.
+
+This method of note-taking, in contrast with the more traditional LaTeX.pdf format, allows for a non-linear progression of concepts and encourages me to 
 
 ### File structure
 
