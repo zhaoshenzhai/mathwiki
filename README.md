@@ -6,14 +6,14 @@ An [Obsidian.md](https://obsidian.md) vault for my math course notes in universi
 
 These notes are meant to be a distilled version of the math I've learnt, where ideas, formulations, and important results are broken down into their atomic components of definitions, propositions, and theorems for clarity, precision, and accessibility.
 
-### File structure
+### File structures
 
 Each note is currently one of four types:
 
 * **Definition**, either of an `object` or of a `notion`, which links to:
     * Types: _Objects/notions of type `object`/`notion` with additional restrictions. (Definition)_
     * Examples: _Objects that are specific instances of `notion` - including its proof, if necessary. (Definition/Proposition)_
-    * Constructions: _Objects that can be defined from `object`, or notions derived from `notion`. (Definition)_
+    * Constructions: _Objects/notions derived from from `object`/`notion`. (Definition)_
     * Generalizations: _Abstractions of `object`/`notion`. (Definition)_<br/><br/>
     * Properties: _Statements regarding `object` or necessary conditions of `notion`. (Proposition/Theorem)_
     * Sufficiencies: _Proofs that other objects are of type `object` or sufficient conditions of `notion` (Proposition/Theorem)_
@@ -27,7 +27,9 @@ Each note is currently one of four types:
     * Equivalences: _Equivalent statements - including its proof. (Axiom/Proposition/Theorem)_
     * Constructions: Objects/notions that crucially depend on `statement`. (Definition)
 
-### Obsidian template
+These templates are automatically [inserted](https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L559) whenever a note is created. After the links, the main content is written with remarks where appropriate.
+
+### Obsidian configurations
 
 I do not directly write my notes in Obsidian since its Vim mode is not comprehensive (and the formatting is weird); see [dotfiles/nvim](https://github.com/zhaoshenzhai/dotfiles/tree/master/nvim) for my Neovim setup. Therefore, most of my Obsidian customization is on its appearance and [navigation hotkeys](.obsidian/hotkeys.json).
 
@@ -45,11 +47,11 @@ Pluggins:
 
 This is the main downside of using [MathJax](https://www.mathjax.org/) in Obsidian since Obsidian uses [sanitizates HTML](https://help.obsidian.md/Advanced+topics/HTML+sanitization) which ignores `<script>` tags and prevents one from using [this](https://github.com/kisonecat/tikzjax) tool.
 
-My solution is to bind a key in Neovim which inserts
+My solution is to bind a key in Neovim which [inserts](https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/init.vim#L190)
 ```html
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/UNIQUE_IDENTIFIER/image.svg"></center>
 ```
-in the current line and runs a [script](https://github.com/zhaoshenzhai/dotfiles/blob/master/scripts/MathWiki/newTikZ.sh) that creates a standalone `image.tex` file from a [template](imageTemplate.tex) where the TikZ code can be written. Once finished, another key can be pressed which executes
+in the current line and runs a [script](https://github.com/zhaoshenzhai/dotfiles/blob/master/scripts/MathWiki/newTikZ.sh) that creates a standalone `image.tex` file from a [template](imageTemplate.tex) where the TikZ code can be written. Once finished, another key can be pressed which [executes](https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/init.vim#L191)
 ```bash
 pdflatex -shell-escape image.tex && pdfcrop image.pdf image.pdf && pdf2svg image.pdf image.svg
 ```
@@ -57,10 +59,10 @@ The svg images are uploaded to Github instead of linked directly in Obsidian bec
 
 ## :telescope: Graph View: ![Definition](https://via.placeholder.com/15/63bfee/000000?text=+) Definitions | ![Proposition](https://via.placeholder.com/15/e665b7/000000?text=+) Propositions | ![Theorem](https://via.placeholder.com/15/65fb65/000000?text=+) Theorems | ![Axiom](https://via.placeholder.com/15/f95d5d/000000?text=+) Axioms
 
-![Graph view](.github/images/graph_view.png)
+![Graph view](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/graph_view.png)
 
 ## :page_with_curl: Sample Pages
 
-![Subspace Topology (Basis)](.github/images/sample_pages/subspace_topology_basis.png)
+![Subspace Topology (Basis)](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/sample_pages/subspace_topology_basis.png)
 
-![Function](.github/images/sample_pages/function.png)
+![Function](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/sample_pages/function.png)
