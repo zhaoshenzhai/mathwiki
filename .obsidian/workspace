@@ -4,43 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "1abda9cfe634c3f8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Ordered Square.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "a8a6d69389c53de8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Comparison of topologies on the ordered square.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "224bba6775074c3e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Ordered square is not subspace of order topology.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "93b2aacc71406b53",
+        "id": "f6a016876cbd8ca4",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -52,24 +16,12 @@
         }
       },
       {
-        "id": "e0e35f40716304a1",
+        "id": "32d13d21967833e7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Product topology (basis; component from bases).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "0e125e3358b19151",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Order and product topologies not comparable on ordered square.md",
+            "file": "Files/Lexicographical order topology strictly finer than standard topology on R2.md",
             "mode": "preview",
             "source": true
           }
@@ -242,17 +194,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "93b2aacc71406b53",
+  "active": "f6a016876cbd8ca4",
   "lastOpenFiles": [
     "Files/Subspace of order topology strictly finer than product topology on ordered square.md",
-    "Files/Product topology (basis; component from bases).md",
-    "Files/Subspace topology (basis).md",
-    "Files/K topology strictly finer than standard topology on R.md",
+    "Files/Lexicographical order topology strictly finer than standard topology on R2.md",
+    "Files/Ordered Square.md",
+    "Files/Comparison of topologies on the ordered square.md",
     "Files/Ordered square is not subspace of order topology.md",
     "Files/Order and product topologies not comparable on ordered square.md",
-    "Files/Set of Natural Numbers.md",
-    "Files/Natural Number.md",
-    "Files/Comparison of topologies on the ordered square.md",
-    "Files/Ordered Square.md"
+    "Files/Product topology (basis; component from bases).md",
+    "Files/Lexicographical Order Topology on R2.md",
+    "Files/Subspace topology (basis).md",
+    "Files/K topology strictly finer than standard topology on R.md"
   ]
 }
