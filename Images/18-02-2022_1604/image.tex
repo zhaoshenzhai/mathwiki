@@ -1,0 +1,26 @@
+\documentclass[margin=20mm]{standalone}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\begin{document}
+    \begin{tikzpicture}[scale=1.5, color=textColor]
+        \draw (0,0) rectangle (1,1) node[above right] {\footnotesize{$I^2$}};
+        \draw[{[-)}, thick] (0.5,1) -- (0.5,0.5) node[anchor=west] {\footnotesize{$A$}};
+        \draw[{(-)}] (0.5,1.25) node[right=1mm] {\footnotesize{$U$}} -- (0.5,0.5);
+        \begin{scope}[xshift=1.75cm]
+            \fill[shadeColor] (0.5,0) rectangle (0.75,1);
+
+            \draw (0,0) rectangle (1,1) node[above right] {\footnotesize{$I^2$}};
+            \draw[{[-)}, thick] (0.5,1) node[above right] {\footnotesize{$A$}} -- (0.5,0.5);
+
+            \draw[dashed] (0.5,0) -- (0.5,0.25);
+            \draw[dashed] (0.75,0.75) -- (0.75,1);
+            \draw[{(-}] (0.5,0.25) -- (0.5,1);
+            \draw[{-)}] (0.75,0) -- (0.75,0.75);
+
+            \node[text width=1mm] at (1.25,0.15) (1) {\footnotesize{$\l(a,b\r)$}};
+            \draw[->] (1) to [out=150, in=30] (0.625,0.15);
+        \end{scope}
+    \end{tikzpicture}    
+\end{document}

@@ -5,8 +5,8 @@ Date Created: 07/02/2022 11:29:31
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Illustrations: [[Open set in lexicographical order topology of R2]]
-Constructions: _Not Applicable_
+Illustrations: [[Open set in lexicographical order topology of R2]], [[Lexicographical plane convex set (not interval)]]
+Constructions: [[Ordered Square]]
 Generalizations: _Not Applicable_
 
 Properties: [[Lexicographical order topology strictly finer than standard topology on R2]]

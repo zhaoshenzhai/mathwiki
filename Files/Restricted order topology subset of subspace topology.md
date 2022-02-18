@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Order topology (subbasis)]], [[Subspace topology (subbasis)]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
+Examples: [[Ordered square is not subspace of order topology]]
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
