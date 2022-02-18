@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 18/02/2022 16:16:11
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed 
 
 Proved by: [[Restricted order topology subset of subspace topology]], [[Ordered square is not subspace of order topology]], [[Subspace of order topology strictly finer than product topology on ordered square]], [[Order and product topologies not comparable on ordered square]]
 Generalizations: _Not Applicable_
@@ -25,6 +25,6 @@ _Proof_. Since $\mc{T}_\textrm{or}\subseteq\mc{T}_\textrm{sb}$ in general and $\
 
 **Remark.** The relationship between these topologies can be illustrated with the following Hasse diagram:
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/18-02-2022_1630/image.svg"></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/18-02-2022_1630/image.svg", width=8%></center>
 
 A line segment that points upward indicate a subset relation. If any two topologies are not connected with line segments that only point upward, then they are not comparable.<span style="float:right;">$\blacklozenge$</span>
