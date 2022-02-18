@@ -5,7 +5,7 @@ Date Created: 14/01/2022 15:43:46
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Intersection of empty set is a proper class]] 
+Illustrations: [[Intersection of empty set is a proper class]] 
 Constructions: [[Set of unions and intersections]]
 Generalizations: _Not Applicable_
 

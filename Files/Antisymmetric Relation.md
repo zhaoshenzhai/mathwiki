@@ -5,7 +5,7 @@ Date Created: 19/01/2022 17:36:50
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Illustrations: _Not Applicable_ 
 Constructions: [[Partial Order]]
 Generalizations: _Not Applicable_
 

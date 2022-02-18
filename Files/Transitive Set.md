@@ -5,7 +5,7 @@ Date Created: 30/01/2022 18:56:18
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Illustrations: _Not Applicable_
 Constructions: [[Ordinal (von Neumann)]]
 Generalizations: _Not Applicable_
 

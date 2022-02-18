@@ -5,7 +5,7 @@ Date Created: 30/01/2022 17:43:31
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[ON is well-ordered by membership]]
+Illustrations: [[ON is well-ordered by membership]]
 Constructions: [[Ordinal (von Neumann)]]
 Generalizations: _Not Applicable_
 

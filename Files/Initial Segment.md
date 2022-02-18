@@ -5,7 +5,7 @@ Date Created: 02/02/2022 11:48:34
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Natural numbers form an initial segment of ON]]
+Illustrations: [[Natural numbers form an initial segment of ON]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

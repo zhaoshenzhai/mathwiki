@@ -5,7 +5,7 @@ Date Created: 03/02/2022 20:19:37
 Tags: #Definition #Closed 
 
 Types: [[Bounded Open Ray]], [[Half-infinite Open Ray]]
-Examples: _Not Applicable_
+Illustrations: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

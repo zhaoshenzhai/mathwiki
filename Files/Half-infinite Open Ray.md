@@ -5,7 +5,7 @@ Date Created: 04/02/2022 11:06:44
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Illustrations: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

@@ -5,7 +5,7 @@ Date Created: 26/01/2022 17:44:17
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Preimage under projection of subset]]
+Illustrations: [[Preimage under projection of subset]]
 Constructions: _Not Applicable_
 Generalizations: [[Preimage (Relation)]]
 

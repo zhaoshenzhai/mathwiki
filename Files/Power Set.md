@@ -5,7 +5,7 @@ Date Created: 17/01/2022 19:19:48
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Illustrations: _Not Applicable_ 
 Constructions: [[Lattice of Subsets]]
 Generalizations: _Not Applicable_
 

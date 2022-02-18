@@ -5,7 +5,7 @@ Date Created: 23/01/2022 19:05:00
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Order Space (Topology)]]
+Illustrations: [[Order Space (Topology)]]
 Constructions: [[Product Space (Topology)]], [[Topological Subspace]]
 Generalizations: _Not Applicable_
 

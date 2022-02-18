@@ -5,7 +5,7 @@ Date Created: 07/02/2022 11:31:18
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Lexicographical Order Topology on R2]], [[Lexicographical Order Topology on N2]]
+Illustrations: [[Lexicographical Order Topology on R2]], [[Lexicographical Order Topology on N2]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

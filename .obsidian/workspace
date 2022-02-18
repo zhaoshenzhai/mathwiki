@@ -14,6 +14,18 @@
             "source": true
           }
         }
+      },
+      {
+        "id": "7ffcafaaee172dd7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Open Interval.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -70,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Dedekind-complete convex sets are intervals.md",
+                "file": "Files/Open Interval.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Dedekind-complete convex sets are intervals.md",
+                "file": "Files/Open Interval.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Dedekind-complete convex sets are intervals.md",
+                "file": "Files/Open Interval.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,8 +193,9 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "cb1e01fb49285c82",
+  "active": "7ffcafaaee172dd7",
   "lastOpenFiles": [
+    "Files/Open Interval.md",
     "Files/Dedekind-complete convex sets are intervals.md",
     "Files/Fundamental Theorem of Equivalence Relations.md",
     "Files/Well-ordering well-orders subsets.md",
@@ -191,7 +204,6 @@
     "Files/Proposition/Collection of all singletons is a proper class.md",
     "Files/Proposition/Collection of all functions is a proper class.md",
     "Files/Proposition/Cofinite topology is a topology.md",
-    "Files/Proposition/Cocountable topology is a topology.md",
-    "Files/Proposition/Cartesian product of intersections.md"
+    "Files/Proposition/Cocountable topology is a topology.md"
   ]
 }

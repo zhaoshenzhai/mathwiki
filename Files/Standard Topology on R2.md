@@ -5,7 +5,7 @@ Date Created: 10/02/2022 12:15:43
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Illustrations: _Not Applicable_
 Constructions: [[Euclidean Plane (Topology)]]
 Generalizations: _Not Applicable_
 

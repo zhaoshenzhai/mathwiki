@@ -5,7 +5,7 @@ Date Created: 07/02/2022 13:15:37
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Bounded Open Ray]]
+Illustrations: [[Bounded Open Ray]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

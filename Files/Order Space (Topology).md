@@ -5,7 +5,7 @@ Date Created: 10/02/2022 12:07:40
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Real Line (Topology)]]
+Illustrations: [[Real Line (Topology)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

@@ -5,7 +5,7 @@ Date Created: 29/01/2022 10:31:01
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Function Space (Set)]], [[Empty product is singleton of empty set]]
+Illustrations: [[Function Space (Set)]], [[Empty product is singleton of empty set]]
 Constructions: [[Projection Maps (Arbitrary)]], [[Tuple]]
 Generalizations: _Not Applicable_
 

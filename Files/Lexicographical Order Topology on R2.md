@@ -5,7 +5,7 @@ Date Created: 07/02/2022 11:29:31
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Open set in lexicographical order topology of R2]]
+Illustrations: [[Open set in lexicographical order topology of R2]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

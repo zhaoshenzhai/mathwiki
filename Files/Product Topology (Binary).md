@@ -5,7 +5,7 @@ Date Created: 09/02/2022 11:14:58
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Standard Topology on R2]]
+Illustrations: [[Standard Topology on R2]]
 Constructions: [[Product Space (Topology)]]
 Generalizations: _Not Applicable_
 

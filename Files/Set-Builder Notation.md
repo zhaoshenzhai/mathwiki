@@ -5,7 +5,7 @@ Date Created: 16/01/2022 15:26:07
 Tags: #Definition #Closed  
 
 Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Illustrations: _Not Applicable_ 
 Constructions: [[Pair Set]], [[Union]], [[Intersection]], [[Power Set]], [[Relative Complement]], [[Domain and Range]], [[Replacement Image]], [[Cartesian Product (Kuratowski)]]
 Generalizations: _Not Applicable_
 

@@ -5,7 +5,7 @@ Date Created: 14/01/2022 17:57:16
 Tags: #Definition #Closed 
 
 Types: [[Function]], [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]], [[Irreflexive Relation]], [[Asymmetric Relation]], [[Antisymmetric Relation]], [[Connected Relation]], [[Trichotomous Relation]], [[Well-founded Relation]]
-Examples: _Not Applicable_ 
+Illustrations: _Not Applicable_ 
 Constructions: [[Domain and Range]], [[Restriction (Relation)]], [[Image (Relation)]], [[Inverse (Relation)]], [[Preimage (Relation)]], [[Composition (Relation)]], [[Reflexive Closure]]
 Generalizations: _Not Applicable_
 

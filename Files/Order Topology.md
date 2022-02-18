@@ -5,7 +5,7 @@ Date Created: 04/02/2022 10:39:21
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Standard Topology on R]], [[Standard Topology on N]], [[Lexicographical Order Topology]]
+Illustrations: [[Standard Topology on R]], [[Standard Topology on N]], [[Lexicographical Order Topology]]
 Constructions: [[Order Space (Topology)]]
 Generalizations: _Not Applicable_
 

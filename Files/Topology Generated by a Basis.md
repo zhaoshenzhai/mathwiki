@@ -5,7 +5,7 @@ Date Created: 24/01/2022 10:45:00
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Order Topology]]
+Illustrations: [[Order Topology]]
 Constructions: [[Topology on a Set]]
 Generalizations: _Not Applicable_
 

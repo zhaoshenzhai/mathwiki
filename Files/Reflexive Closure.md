@@ -5,7 +5,7 @@ Date Created: 01/02/2022 10:41:48
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Lexicographical order is reflexive closure of strict lexicographical order]], [[Reflexive closure of ordering on ordinals]]
+Illustrations: [[Lexicographical order is reflexive closure of strict lexicographical order]], [[Reflexive closure of ordering on ordinals]]
 Constructions: [[Reflexive Relation]]
 Generalizations: _Not Applicable_
 

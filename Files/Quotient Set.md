@@ -5,7 +5,7 @@ Date Created: 29/01/2022 11:58:15
 Tags: #Definition #Closed  
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Illustrations: _Not Applicable_
 Constructions: [[Canonical Projection]]
 Generalizations: _Not Applicable_
 

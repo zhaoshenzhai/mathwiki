@@ -5,7 +5,7 @@ Date Created: 03/02/2022 20:11:33
 Tags: #Definition #Closed 
 
 Types: [[Bounded Open Ray]]
-Examples: _Not Applicable_
+Illustrations: _Not Applicable_
 Constructions: [[Lower-limit Topology on R]], [[Upper-limit Topology on R]]
 Generalizations: _Not Applicable_
 

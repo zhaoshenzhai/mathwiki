@@ -5,7 +5,7 @@ Date Created: 03/02/2022 13:27:58
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Illustrations: _Not Applicable_
 Constructions: [[Well-founded Relation]]
 Generalizations: _Not Applicable_
 

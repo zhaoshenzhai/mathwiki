@@ -5,7 +5,7 @@ Date Created: 30/01/2022 18:58:15
 Tags: #Definition #Closed 
 
 Types: [[Successor Ordinal]], [[Limit Ordinal]], [[Natural Number]]
-Examples: [[Initial segment of ON is an ordinal]]
+Illustrations: [[Initial segment of ON is an ordinal]]
 Constructions: [[Class of Ordinals]]
 Generalizations: _Not Applicable_
 
