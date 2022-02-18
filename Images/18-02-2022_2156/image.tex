@@ -1,0 +1,45 @@
+\documentclass[margin=20mm]{standalone}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\begin{document}
+    \begin{tikzpicture}[scale=1.5, color=textColor]
+        \begin{scope}[xshift=0.5cm]
+            \fill[shadeColor] (0.15,0.3) rectangle (0.55,0.9);
+            \draw (0,0) rectangle (1,1);
+            \draw[(-)] (0.15,-0.1) -- (0.55,-0.1);
+            \draw[(-)] (1.1,0.3) -- (1.1,0.9);
+            \draw[dashed] (0.15,0.3) rectangle (0.55,0.9);
+            \draw[(-), thick, color=green] (0.35,0.3) -- (0.35,0.9);
+            \fill[color=red] (0.35,0.6) circle (0.25mm);
+        \end{scope}
+        \begin{scope}[xshift=2cm]
+            \fill[shadeColor] (0.15,1) -- (0.15,0.4) -- (0.55,0.4) -- (0.55,1) -- cycle;
+            \draw (0,0) rectangle (1,1);
+            \draw[(-)] (0.15,-0.1) -- (0.55,-0.1);
+            \draw[{(-]}] (1.1,0.4) -- (1.1,1);
+            \draw[dashed] (0.15,1) -- (0.15,0.4) -- (0.55,0.4) -- (0.55,1);
+            \draw[{(-]}, thick, color=green] (0.35,0.4) -- (0.35,1);
+            \fill[color=red] (0.35,1) circle (0.25mm);
+        \end{scope}
+        \begin{scope}[xshift=3.5cm]
+            \fill[shadeColor] (0,0.4) -- (0.6,0.4) -- (0.6,0.8) -- (0,0.8) -- cycle;
+            \draw (0,0) rectangle (1,1);
+            \draw[{[-)}] (0,-0.1) -- (0.6,-0.1);
+            \draw[(-)] (1.1,0.4) -- (1.1,0.8);
+            \draw[dashed] (0,0.4) -- (0.6,0.4) -- (0.6,0.8) -- (0,0.8);
+            \draw[(-), thick, color=green] (0,0.4) -- (0,0.8);
+            \fill[color=red] (0,0.6) circle (0.25mm);
+        \end{scope}
+        \begin{scope}[xshift=5cm]
+            \fill[shadeColor] (0,0.4) -- (0.6,0.4) -- (0.6,1) -- (0,1) -- cycle;
+            \draw (0,0) rectangle (1,1);
+            \draw[{[-)}] (0,-0.1) -- (0.6,-0.1);
+            \draw[{[-)}] (1.1,1) -- (1.1,0.4);
+            \draw[dashed] (0,0.4) -- (0.6,0.4) -- (0.6,1);
+            \draw[{(-]}, thick, color=green] (0,0.4) -- (0,1);
+            \fill[color=red] (0,1) circle (0.25mm);
+        \end{scope}
+    \end{tikzpicture}   
+\end{document}
