@@ -5,7 +5,7 @@ Date Created: 20/01/2022 09:30:37
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Illustrations: [[Identity Function]] 
+Examples: [[Identity Function]] 
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

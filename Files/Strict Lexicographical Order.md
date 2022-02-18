@@ -5,7 +5,7 @@ Date Created: 01/02/2022 10:34:10
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Illustrations: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: [[Lexicographical Order Topology]]
 Generalizations: _Not Applicable_
 

@@ -5,7 +5,7 @@ Date Created: 29/01/2022 16:16:37
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Illustrations: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: [[Relation Induced by a Partition]]
 Generalizations: _Not Applicable_
 

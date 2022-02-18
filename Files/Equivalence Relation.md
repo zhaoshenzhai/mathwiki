@@ -5,7 +5,7 @@ Date Created: 19/01/2022 17:48:10
 Tags: #Definition #Closed  
 
 Types: _Not Applicable_
-Illustrations: [[Isomorphism of sets is an equivalence relation]]
+Examples: [[Isomorphism of sets is an equivalence relation]]
 Constructions: [[Equivalence Class]]
 Generalizations: _Not Applicable_
 

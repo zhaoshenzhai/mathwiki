@@ -5,7 +5,7 @@ Date Created: 31/01/2022 16:19:10
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Illustrations: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: [[Axiom of Infinity]], [[Inductive Set]]
 Generalizations: _Not Applicable_
 

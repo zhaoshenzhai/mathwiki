@@ -5,7 +5,7 @@ Date Created: 11/02/2022 11:45:28
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Illustrations: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: [[Topological Subspace]]
 Generalizations: _Not Applicable_
 

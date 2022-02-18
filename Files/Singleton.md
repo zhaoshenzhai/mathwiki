@@ -5,7 +5,7 @@ Date Created: 17/01/2022 12:06:31
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Illustrations: _Not Applicable_ 
+Examples: _Not Applicable_ 
 Constructions: [[Ordered Pair]], [[Successor Function]]
 Generalizations: _Not Applicable_
 

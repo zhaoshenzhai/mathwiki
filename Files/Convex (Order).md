@@ -5,7 +5,7 @@ Date Created: 16/02/2022 16:38:51
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Illustrations: [[Rational convex set (not interval)]], [[Lexicographical plane convex set (not interval)]]
+Examples: [[Rational convex set (not interval)]], [[Lexicographical plane convex set (not interval)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

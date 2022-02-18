@@ -5,7 +5,7 @@ Date Created: 21/01/2022 10:05:12
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Illustrations: _Not Applicable_ 
+Examples: _Not Applicable_ 
 Constructions: [[Reflexive Closure]]
 Generalizations: _Not Applicable_
 

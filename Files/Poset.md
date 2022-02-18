@@ -5,7 +5,7 @@ Date Created: 24/01/2022 15:29:44
 Tags: #Definition #Closed 
 
 Types: [[Bounded Poset]], [[Join-semilattice]], [[Meet-semilattice]], [[Dedekind-complete Ordered Set]], [[Totally Ordered Set]]
-Illustrations: [[Inclusion Poset]]
+Examples: [[Inclusion Poset]]
 Constructions: [[Minimal Element]], [[Maximal Element]], [[Greatest Element]], [[Least Element]], [[Upper Bound]], [[Lower Bound]], [[Initial Segment]]
 Generalizations: _Not Applicable_
 

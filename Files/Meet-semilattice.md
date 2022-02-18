@@ -5,7 +5,7 @@ Date Created: 24/01/2022 18:50:40
 Tags: #Definition #Closed 
 
 Types: [[Lattice]]
-Illustrations: _Not Applicable_ 
+Examples: _Not Applicable_ 
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

@@ -5,7 +5,7 @@ Date Created: 18/01/2022 13:10:47
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Illustrations: _Not Applicable_ 
+Examples: _Not Applicable_ 
 Constructions: [[Set of relative complements]]
 Generalizations: _Not Applicable_
 

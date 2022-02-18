@@ -5,7 +5,7 @@ Date Created: 20/01/2022 13:11:23
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Illustrations: _Not Applicable_ 
+Examples: _Not Applicable_ 
 Constructions: [[Projection Maps (Kuratowski)]], [[Product Space (Topology)]]
 Generalizations: [[Cartesian Product (Arbitrary)]]
 

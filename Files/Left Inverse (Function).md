@@ -5,7 +5,7 @@ Date Created: 27/01/2022 10:15:28
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Illustrations: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: [[Inverse (Function)]]
 Generalizations: _Not Applicable_
 

@@ -5,7 +5,7 @@ Date Created: 17/01/2022 11:58:11
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Illustrations: _Not Applicable_ 
+Examples: _Not Applicable_ 
 Constructions: [[Singleton]], [[Ordered Pair]]
 Generalizations: _Not Applicable_
 

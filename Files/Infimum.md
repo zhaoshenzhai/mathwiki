@@ -5,7 +5,7 @@ Date Created: 24/01/2022 15:53:19
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Illustrations: _Not Applicable_ 
+Examples: _Not Applicable_ 
 Constructions: [[Meet-semilattice]]
 Generalizations: _Not Applicable_
 

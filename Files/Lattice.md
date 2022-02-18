@@ -5,7 +5,7 @@ Date Created: 24/01/2022 15:56:53
 Tags: #Definition #Closed 
 
 Types: [[Complete Lattice]]
-Illustrations: [[Lattice of Subsets]], [[Lattice of Topologies]]
+Examples: [[Lattice of Subsets]], [[Lattice of Topologies]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

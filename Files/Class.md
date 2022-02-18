@@ -5,7 +5,7 @@ Date Created: 18/01/2022 14:52:36
 Tags: #Definition #Open
 
 Types: _Not Applicable_
-Illustrations: [[Universal Class]], [[Intersection of empty set is a proper class]], [[Absolute complement of a set is a proper class]], [[Collection of all functions is a proper class]], [[Class of Ordinals]]
+Examples: [[Universal Class]], [[Intersection of empty set is a proper class]], [[Absolute complement of a set is a proper class]], [[Collection of all functions is a proper class]], [[Class of Ordinals]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

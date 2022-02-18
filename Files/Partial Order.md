@@ -5,7 +5,7 @@ Date Created: 25/01/2022 11:03:12
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Illustrations: _Not Applicable_
+Examples: _Not Applicable_
 Constructions: [[Poset]], [[Total Order]], [[Lexicographical Order]]
 Generalizations: _Not Applicable_
 

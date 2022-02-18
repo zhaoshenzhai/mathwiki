@@ -5,7 +5,7 @@ Date Created: 20/01/2022 09:09:09
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Illustrations: [[Canonical Projection]], [[Projection Maps (Kuratowski)]], [[Projection Maps (Arbitrary)]]
+Examples: [[Canonical Projection]], [[Projection Maps (Kuratowski)]], [[Projection Maps (Arbitrary)]]
 Constructions: [[Bijection]]
 Generalizations: _Not Applicable_
 

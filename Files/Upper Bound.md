@@ -5,7 +5,7 @@ Date Created: 24/01/2022 15:35:06
 Tags: #Definition #Closed 
 
 Types: [[Greatest Element]]
-Illustrations: _Not Applicable_ 
+Examples: _Not Applicable_ 
 Constructions: [[Supremum]], [[Bounded Poset]]
 Generalizations: _Not Applicable_
 

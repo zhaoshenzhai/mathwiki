@@ -5,7 +5,7 @@ Date Created: 23/01/2022 18:40:57
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Illustrations: [[Trivial Topology]], [[Discrete Topology]], [[Cofinite Topology]], [[Cocountable Topology]], [[Order Topology]]
+Examples: [[Trivial Topology]], [[Discrete Topology]], [[Cofinite Topology]], [[Cocountable Topology]], [[Order Topology]]
 Constructions: [[Open Set]], [[Topological Space]], [[Set of topologies on a set]], [[Product Topology (Binary)]], [[Subspace Topology]]
 Generalizations: _Not Applicable_
 

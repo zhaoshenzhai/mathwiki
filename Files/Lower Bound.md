@@ -5,7 +5,7 @@ Date Created: 24/01/2022 15:51:38
 Tags: #Definition #Closed 
 
 Types: [[Least Element]]
-Illustrations: _Not Applicable_ 
+Examples: _Not Applicable_ 
 Constructions: [[Infimum]], [[Bounded Poset]]
 Generalizations: _Not Applicable_
 

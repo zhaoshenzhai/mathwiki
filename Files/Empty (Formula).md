@@ -5,7 +5,7 @@ Date Created: 16/01/2022 13:47:09
 Tags: #Definition #Open
 
 Types: _Not Applicable_
-Illustrations: _Not Applicable_ 
+Examples: _Not Applicable_ 
 Constructions: [[Empty Set]]
 Generalizations: _Not Applicable_
 

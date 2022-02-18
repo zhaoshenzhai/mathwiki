@@ -5,7 +5,7 @@ Date Created: 17/01/2022 13:00:40
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Illustrations: [[Union of empty set is empty]]
+Examples: [[Union of empty set is empty]]
 Constructions: [[Set of unions and intersections]], [[Successor Function]]
 Generalizations: _Not Applicable_
 
