@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 18/02/2022 12:03:13
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed 
 
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
@@ -21,4 +21,4 @@ _Proof_. Consider the set $A\coloneqq\l(\l\langle0.5,0.5\r\rangle,\l\langle0.5,1
 
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/18-02-2022_1604/image.svg", width=25%></center>
 
-We claim that $A\not\in\mc{T}_\textrm{or}$. To show this, it suffices to show that every open interval w.r.t. $\l.\sqsubset\r|_{I^2}$ contains some point $p\in I^2$ such that $p\not\in A$, for then $A$ cannot be an open interval nor a union thereof. Take an open interval $\l(a,b\r)_{I^2}$; if $\l\langle0.5,1\r\rangle\in\l(a,b\r)_{I^2}$, then it must necessarily contain some $p\coloneqq\l\langle x,0\r\rangle$ where $x>0.5$. Observe that $p\not\in A$ but $p\in\l(a,b\r)_{I^2}$.<span style="float:right;">$\blacksquare$</span>
+We claim that $A\not\in\mc{T}_\textrm{or}$. To show this, it suffices to show that every open interval w.r.t. $\l.\sqsubset\r|_{I^2}$ contains some point $p\in I^2$ such that $p\not\in A$, for then $A$ cannot be an open interval nor a union thereof. Take an open interval $\l(a,b\r)_{I^2}$; if $\l\langle0.5,1\r\rangle\in\l(a,b\r)_{I^2}$, then it must necessarily contain some $p\coloneqq\l\langle x,0\r\rangle$ where $x>0.5$. Observe that $p\in\l(a,b\r)_{I^2}$ but $p\not\in A$.<span style="float:right;">$\blacksquare$</span>

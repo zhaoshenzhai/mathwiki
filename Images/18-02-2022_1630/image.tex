@@ -1,0 +1,15 @@
+\documentclass[margin=20mm]{standalone}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\begin{document}
+    \begin{tikzpicture}[color=textColor]
+        \node (s) at (0.5,1) {\footnotesize{$\mc{T}_\mathrm{sb}$}};
+        \node (o) at (0,0) {\footnotesize{$\mc{T}_\mathrm{or}$}};
+        \node (p) at (1,0) {\footnotesize{$\mc{T}_\mathrm{pr}$}};
+        \node (t) at (0.5,-1.5) {\footnotesize{$\mc{T}_\textrm{trivial}$}};
+        \node (d) at (0.5,2) {\footnotesize{$\mc{T}_\textrm{discrete}$}};
+        \draw (o) -- (s) (p) -- (s) (o) -- (t) (p) -- (t) (s) -- (d);
+    \end{tikzpicture}    
+\end{document}
