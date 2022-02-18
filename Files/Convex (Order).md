@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 16/02/2022 16:38:51
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed 
 
 Types: _Not Applicable_
 Illustrations: [[Rational convex set (not interval)]], [[Lexicographical plane convex set (not interval)]]

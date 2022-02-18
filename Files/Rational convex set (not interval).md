@@ -13,7 +13,11 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle\Q,<\r\rangle$ be the set of rational numbers equipped with its standard ordering and fix the subset $Y\coloneqq\l\{y\in\Q\mid0<y\land y^2<2\r\}$. Then $Y$ is convex in $\Q$ but cannot be written in the form of an interval in $\Q$._
+_Let $\l\langle\Q,<\r\rangle$ be the set of rational numbers equipped with its standard ordering and fix the subset_
+$$\begin{equation}
+    Y\coloneqq\l\{y\in\Q\mid0<y\land y^2<2\r\}.
+\end{equation}$$
+_Then $Y$ is convex in $\Q$ but cannot be written as an interval in $\Q$._
 
 ```
 

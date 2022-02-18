@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "fc6094e01c0497e3",
+        "id": "4aec0227105b3577",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Convex (Order).md",
+            "file": "Files/Restricted order and subspace topologies coincide for convex sets.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "b19d92364971050e",
+        "id": "19ce58ee71f284fa",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Lexicographical plane convex set (not interval).md",
+            "file": "Files/Dedekind-complete bounded convex sets are intervals.md",
             "mode": "preview",
             "source": true
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Lexicographical plane convex set (not interval).md",
+                "file": "Files/Restricted order and subspace topologies coincide for convex sets.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Lexicographical plane convex set (not interval).md",
+                "file": "Files/Restricted order and subspace topologies coincide for convex sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Lexicographical plane convex set (not interval).md",
+                "file": "Files/Restricted order and subspace topologies coincide for convex sets.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,17 +194,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "b19d92364971050e",
+  "active": "4aec0227105b3577",
   "lastOpenFiles": [
-    "Files/Lexicographical plane convex set (not interval).md",
-    "Files/Convex (Order).md",
-    "Files/Bounded Poset.md",
-    "Files/Rational convex set (not interval).md",
+    "Files/Restricted order and subspace topologies coincide for convex sets.md",
     "Files/Dedekind-complete bounded convex sets are intervals.md",
+    "Files/Convex (Order).md",
+    "Files/Lexicographical plane convex set (not interval).md",
+    "Files/Rational convex set (not interval).md",
+    "Files/Bounded Poset.md",
     "Files/Supremum.md",
     "Files/Bounded Open Ray.md",
     "Files/Upper Bound.md",
-    "Files/Lower Bound.md",
-    "Files/Least Element.md"
+    "Files/Lower Bound.md"
   ]
 }
