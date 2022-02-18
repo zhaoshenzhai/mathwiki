@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle\Q,<\r\rangle$ be the set of rational numbers equipped with its standard ordering and fix the subset $Y\coloneqq\l\{y\in\Q\mid0<y\land y^2<2\r\}$. Then $Y$ is convex in $\Q$ but is not in the form of an interval nor of a ray._
+_Let $\l\langle\Q,<\r\rangle$ be the set of rational numbers equipped with its standard ordering and fix the subset $Y\coloneqq\l\{y\in\Q\mid0<y\land y^2<2\r\}$. Then $Y$ is convex in $\Q$ but cannot be written in the form of an interval in $\Q$._
 
 ```
 
@@ -27,4 +27,4 @@ Thus $Y=\l(0,b\r)_\Q$ for some $b\in\Q$; since $<$ is a total order, either $b^2
 
 * ($b^2>2$): It follows that $\sqrt{2}<b$ and since $\Q$ is dense in $\R$, there exists some $y\in\Q$ such that $\sqrt{2}<y<b$. Observe that $y>0$, so $y^2>2$ and thus $y\not\in Y$. However, we also have $y<b$, so $y\in\l(0,b\r)_\Q$ and we arrive at a contradiction.
 
-It follows that $Y$ cannot be of the form of an open interval in $\Q$. Similarly, it is impossible for $Y$ to be of the form $\l(a,b\r]$, $\l[a,b\r)$, or $\l[a,b\r]$ in $\Q$. As for an open ray, $Y\neq\l(-\infty,b\r)$ for any $b\in\Q$ since $Y$ is bounded below (by $0$), and $Y\neq\l(a,+\infty\r)$ for any $a\in\Q$ since $Y$ is bounded above (by $1.5$).<span style="float:right;">$\blacksquare$</span>
+It follows that $Y$ cannot be of the form of an open interval in $\Q$. Similarly, it is impossible for $Y$ to be of the form $\l(a,b\r]$, $\l[a,b\r)$, or $\l[a,b\r]$ in $\Q$.<span style="float:right;">$\blacksquare$</span>

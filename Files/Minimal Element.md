@@ -9,7 +9,7 @@ Illustrations: _Not Applicable_
 Constructions: [[Well-founded Relation]]
 Generalizations: _Not Applicable_
 
-Properties: [[Least equal minimal for ordered sets]]
+Properties: [[Least equal minimal for totally ordered sets]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

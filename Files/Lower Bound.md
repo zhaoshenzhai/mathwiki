@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Least Element]]
 Illustrations: _Not Applicable_ 
-Constructions: [[Infimum]]
+Constructions: [[Infimum]], [[Bounded Poset]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

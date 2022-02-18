@@ -10,7 +10,7 @@ Constructions: [[Order Topology]], [[K Topology on R]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Dedekind-complete convex sets are intervals]]
+Sufficiencies: [[Dedekind-complete bounded convex sets are intervals]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

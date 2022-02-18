@@ -6,10 +6,10 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Illustrations: _Not Applicable_
-Constructions: [[Bounded Poset]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Least equal minimal for ordered sets]]
+Properties: [[Least equal minimal for totally ordered sets]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Greatest and least elements are unique]]

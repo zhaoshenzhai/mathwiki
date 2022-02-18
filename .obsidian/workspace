@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "cb1e01fb49285c82",
+        "id": "fc6094e01c0497e3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Dedekind-complete convex sets are intervals.md",
+            "file": "Files/Convex (Order).md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "7ffcafaaee172dd7",
+        "id": "b19d92364971050e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Open Interval.md",
+            "file": "Files/Lexicographical plane convex set (not interval).md",
             "mode": "preview",
             "source": true
           }
@@ -61,7 +61,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -82,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Open Interval.md",
+                "file": "Files/Lexicographical plane convex set (not interval).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Open Interval.md",
+                "file": "Files/Lexicographical plane convex set (not interval).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Open Interval.md",
+                "file": "Files/Lexicographical plane convex set (not interval).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -180,7 +181,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.19972056756779766,
+                  "scale": 0.6188535097922511,
                   "close": true
                 }
               }
@@ -193,17 +194,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "7ffcafaaee172dd7",
+  "active": "b19d92364971050e",
   "lastOpenFiles": [
-    "Files/Open Interval.md",
-    "Files/Dedekind-complete convex sets are intervals.md",
-    "Files/Fundamental Theorem of Equivalence Relations.md",
-    "Files/Well-ordering well-orders subsets.md",
-    "Files/Inverse of a relation is a relation.md",
-    "Files/Comparison of topologies on R.md",
-    "Files/Proposition/Collection of all singletons is a proper class.md",
-    "Files/Proposition/Collection of all functions is a proper class.md",
-    "Files/Proposition/Cofinite topology is a topology.md",
-    "Files/Proposition/Cocountable topology is a topology.md"
+    "Files/Lexicographical plane convex set (not interval).md",
+    "Files/Convex (Order).md",
+    "Files/Bounded Poset.md",
+    "Files/Rational convex set (not interval).md",
+    "Files/Dedekind-complete bounded convex sets are intervals.md",
+    "Files/Supremum.md",
+    "Files/Bounded Open Ray.md",
+    "Files/Upper Bound.md",
+    "Files/Lower Bound.md",
+    "Files/Least Element.md"
   ]
 }

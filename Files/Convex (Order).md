@@ -9,7 +9,7 @@ Illustrations: [[Rational convex set (not interval)]], [[Lexicographical plane c
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Restricted order and subspace topologies coincide for convex sets]]
+Properties: [[Restricted order and subspace topologies coincide for convex sets]], [[Dedekind-complete bounded convex sets are intervals]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

@@ -9,7 +9,7 @@ Illustrations: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Dedekind-complete convex sets are intervals]]
+Properties: [[Dedekind-complete bounded convex sets are intervals]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Least upper bound iff greatest lower bound]]
 Justifications: _Not Applicable_
@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A partially ordered set $\l\langle X,\leq\r\rangle$ is said to be **Dedekind-complete** or satisfies the **least upper bound property** if every non-empty subset $S\subseteq X$ that is bounded above admits a supremum._
+_A partially ordered set $\l\langle X,\leq\r\rangle$ is said to be **Dedekind-complete** or satisfies the **least upper bound property** if every non-empty subset $S\subseteq X$ that is bounded above admits a supremum in $X$._
 
 ```
 

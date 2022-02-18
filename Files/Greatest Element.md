@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Illustrations: _Not Applicable_
-Constructions: [[Bounded Poset]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Greatest equal maximal for ordered sets]]

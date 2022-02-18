@@ -9,7 +9,7 @@ Illustrations: [[Bounded Open Ray]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Complete lattices are bounded]]
+Properties: [[Complete lattices are bounded]], [[Dedekind-complete bounded convex sets are intervals]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A poset $\l\langle X,\leq\r\rangle$ is said to be **bounded** if there exist $g,l\in X$ such that $\fa x\in X:l\leq x\leq g$, that is, if $X$ has both greatest and least elements._
+_Let $\l\langle X,\leq\r\rangle$ be a poset and fix a subset $Y\subseteq X$. Then $Y$ is said to be **bounded in $X$ w.r.t. $<$** if there exist $u,l\in X$ such that $\fa y\in Y:l\leq y\leq u$, that is, if $Y$ has both upper and lower bounds in $X$._
 
 ```
