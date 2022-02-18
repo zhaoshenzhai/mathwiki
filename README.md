@@ -12,7 +12,7 @@ Each note is currently one of four types:
 
 * **Definition**, either of an `object` or of a `notion`, which links to:
     * Types: _Objects/notions of type `object`/`notion` with additional restrictions. (Definition)_
-    * Examples: _Objects that are specific examples or counterexamples of `notion` - including its proof, if necessary. (Definition/Proposition)_
+    * Illustrations: _Objects that are specific examples or counterexamples of `notion` - including its proof, if necessary. (Definition/Proposition)_
     * Constructions: _Objects/notions derived from from `object`/`notion`. (Definition)_
     * Generalizations: _Abstractions of `object`/`notion`. (Definition)_<br/><br/>
     * Properties: _Statements regarding `object` or necessary conditions of `notion`. (Proposition/Theorem)_
@@ -20,9 +20,11 @@ Each note is currently one of four types:
     * Equivalences: _Equivalent definitions for `object` or biconditionals between notions and `notion`. (Proposition/Theorem)_
     * Justifications: _Proofs of well-definition of `object`. (Proposition)_
 
-* **Proposition** and **Theorem** (differentiated by 'importance'), including both statement and `proof` regarding `object`/`notion`, which links to:
+* **Proposition** and **Theorem** (differentiated by 'importance'), including both `statement` and `proof` regarding `object`/`notion`, which links to:
     * Proved by: _Statements in which `proof` depends crucially on. (Axiom/Proposition/Theorem)_
-    * Generalizations: _Statements and proofs of generalizations of `object`/`notion`. (Proposition/Theorem)_
+    * Generalizations: _Statements and proofs of generalizations of `object`/`notion`. (Proposition/Theorem)_<br/><br/>
+    * Examples: _A worked-out instance of `statement`. (Proposition)_
+    * Counterexamples: _Illustrations of why hypothesis in `statement` are necessary for `proof`. (Proposition)_
 * **Axiom**, written as a formal `statement` within a certain framework, which links to:
     * Equivalences: _Equivalent statements - including its proof. (Axiom/Proposition/Theorem)_
     * Constructions: Objects/notions that crucially depend on `statement`. (Definition)
