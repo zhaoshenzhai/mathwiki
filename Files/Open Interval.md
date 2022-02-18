@@ -5,12 +5,12 @@ Date Created: 03/02/2022 20:06:33
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Rational convex set (not interval nor ray)]], [[Lexicographical plane convex set (not interval nor ray)]]
+Examples: [[Rational convex set (not interval)]], [[Lexicographical plane convex set (not interval)]]
 Constructions: [[Order Topology]], [[K Topology on R]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Dedekind-complete convex sets are intervals]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

@@ -4,12 +4,48 @@
     "type": "split",
     "children": [
       {
-        "id": "7eff66b3acd468df",
+        "id": "a16c9bd7dafb07d4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Standard topology on R (subbasis; rational endpoints).md",
+            "file": "Files/Dedekind-complete Ordered Set.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "1cb257ae09ae9c88",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Convex (Order).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "efec547d4fd0ea9c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Open Interval.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "528820e6c6e73449",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Files/Dedekind-complete convex sets are intervals.md",
             "mode": "preview",
             "source": true
           }
@@ -70,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Standard topology on R (subbasis; rational endpoints).md",
+                "file": "Files/Open Interval.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Standard topology on R (subbasis; rational endpoints).md",
+                "file": "Files/Open Interval.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Standard topology on R (subbasis; rational endpoints).md",
+                "file": "Files/Open Interval.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -168,7 +204,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.25235911634255526,
+                  "scale": 0.19972056756779766,
                   "close": true
                 }
               }
@@ -181,17 +217,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "7eff66b3acd468df",
+  "active": "efec547d4fd0ea9c",
   "lastOpenFiles": [
-    "Files/Standard topology on R (subbasis; rational endpoints).md",
-    "Files/Set of natural numbers is the least limit ordinal.md",
-    "Files/Right inverse iff surjection (Choice).md",
-    "README.md",
-    "Files/Convex (Order).md",
-    "Files/Rational convex set (not interval nor ray).md",
     "Files/Open Interval.md",
+    "Files/Dedekind-complete convex sets are intervals.md",
+    "Files/Convex (Order).md",
+    "Files/Dedekind-complete Ordered Set.md",
+    "Files/Rational convex set (not interval).md",
     "Files/Open Ray.md",
-    "Files/Standard topology on R (basis; rational endpoints).md",
-    "Files/Dedekind-complete Ordered Set.md"
+    "Files/Union.md",
+    "Files/Empty set is unique.md",
+    "Files/Standard topology on R (subbasis; rational endpoints).md",
+    "Files/Set of natural numbers is the least limit ordinal.md"
   ]
 }

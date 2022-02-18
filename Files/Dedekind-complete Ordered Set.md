@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Dedekind-complete convex sets are intervals]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Least upper bound iff greatest lower bound]]
 Justifications: _Not Applicable_
