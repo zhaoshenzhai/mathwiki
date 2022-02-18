@@ -7,6 +7,9 @@ Tags: #Proposition #Open
 Proved by: [[Axiom Schema of Replacement]], [[Axiom Schema of Specification]], [[Set-builder notation is unique]]
 Generalizations: _Not Applicable_
 
+Examples: _Not Applicable_
+Counterexamples: _Not Applicable_
+
 ``` ad-Proposition
 title: Proposition.
 

@@ -7,6 +7,9 @@ Tags: #Proposition #Closed
 Proved by: [[ON is a transitive class]], [[Reflexive closure of ordering on ordinals]]
 Generalizations: _Not Applicable_
 
+Examples: _Not Applicable_
+Counterexamples: _Not Applicable_
+
 ``` ad-Proposition
 title: Proposition.
 

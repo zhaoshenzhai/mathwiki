@@ -7,6 +7,9 @@ Tags: #Proposition #Closed
 Proved by: [[Criteria for fineness w.r.t bases]], [[Product topology (basis; component from bases)]], [[Cartesian product is monotone w.r.t. subsets]]
 Generalizations: _Not Applicable_
 
+Examples: _Not Applicable_
+Counterexamples: _Not Applicable_
+
 ``` ad-Proposition
 title: Proposition.
 

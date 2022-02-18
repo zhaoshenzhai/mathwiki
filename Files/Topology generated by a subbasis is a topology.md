@@ -7,6 +7,9 @@ Tags: #Proposition #Closed
 Proved by: [[Intersection of intersections is an intersection]], [[Interection of finite sets is finite]]
 Generalizations: _Not Applicable_
 
+Examples: _Not Applicable_
+Counterexamples: _Not Applicable_
+
 ``` ad-Proposition
 title: Proposition.
 

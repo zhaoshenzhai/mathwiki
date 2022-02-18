@@ -4,43 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "a16c9bd7dafb07d4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Dedekind-complete Ordered Set.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "1cb257ae09ae9c88",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Convex (Order).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "efec547d4fd0ea9c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Files/Open Interval.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "528820e6c6e73449",
+        "id": "cb1e01fb49285c82",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -89,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205,
+    "width": 165,
     "collapsed": true
   },
   "right": {
@@ -106,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Open Interval.md",
+                "file": "Files/Dedekind-complete convex sets are intervals.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Open Interval.md",
+                "file": "Files/Dedekind-complete convex sets are intervals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +116,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Open Interval.md",
+                "file": "Files/Dedekind-complete convex sets are intervals.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -217,17 +181,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "efec547d4fd0ea9c",
+  "active": "cb1e01fb49285c82",
   "lastOpenFiles": [
-    "Files/Open Interval.md",
     "Files/Dedekind-complete convex sets are intervals.md",
-    "Files/Convex (Order).md",
-    "Files/Dedekind-complete Ordered Set.md",
-    "Files/Rational convex set (not interval).md",
-    "Files/Open Ray.md",
-    "Files/Union.md",
-    "Files/Empty set is unique.md",
-    "Files/Standard topology on R (subbasis; rational endpoints).md",
-    "Files/Set of natural numbers is the least limit ordinal.md"
+    "Files/Fundamental Theorem of Equivalence Relations.md",
+    "Files/Well-ordering well-orders subsets.md",
+    "Files/Inverse of a relation is a relation.md",
+    "Files/Comparison of topologies on R.md",
+    "Files/Proposition/Collection of all singletons is a proper class.md",
+    "Files/Proposition/Collection of all functions is a proper class.md",
+    "Files/Proposition/Cofinite topology is a topology.md",
+    "Files/Proposition/Cocountable topology is a topology.md",
+    "Files/Proposition/Cartesian product of intersections.md"
   ]
 }

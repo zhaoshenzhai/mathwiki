@@ -7,6 +7,9 @@ Tags: #Proposition #Closed
 Proved by: [[Composition with identity function is the function itself]], [[Composition of relations is associative]]
 Generalizations: _Not Applicable_
 
+Examples: _Not Applicable_
+Counterexamples: _Not Applicable_
+
 ``` ad-Proposition
 title: Proposition.
 

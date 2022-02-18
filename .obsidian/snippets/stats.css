@@ -3,8 +3,12 @@
     display: none !important;
 }
 
-/* Always show the notes and attachments statistics. */
-.obsidian-vault-statistics--item-notes,
+/* Always show the notes and links statistics. */
+.obsidian-vault-statistics--item-notes {
+    display: initial !important;
+}
+
 .obsidian-vault-statistics--item-links {
     display: initial !important;
 }
+

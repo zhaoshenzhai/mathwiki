@@ -7,6 +7,9 @@ Tags: #Proposition #Open
 Proved by: [[Exists function in relation iff Choice]]
 Generalizations: _Not Applicable_
 
+Examples: _Not Applicable_
+Counterexamples: _Not Applicable_
+
 ``` ad-Proposition
 title: Proposition.
 

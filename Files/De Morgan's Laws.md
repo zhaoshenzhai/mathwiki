@@ -7,6 +7,9 @@ Tags: #Proposition  #Open
 Proved by: [[Negation of universal quantifier]]
 Generalizations: _Not Applicable_
 
+Examples: _Not Applicable_
+Counterexamples: _Not Applicable_
+
 ``` ad-Proposition
 title: Proposition.
 

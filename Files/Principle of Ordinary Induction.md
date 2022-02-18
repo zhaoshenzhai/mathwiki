@@ -7,6 +7,9 @@ Tags: #Proposition #Closed
 Proved by: [[Natural numbers form an initial segment of ON]], [[Well-ordering well-orders subsets]], [[ON is well-ordered by membership]]
 Generalizations: _Not Applicable_
 
+Examples: _Not Applicable_
+Counterexamples: _Not Applicable_
+
 ``` ad-Proposition
 title: Proposition.
 

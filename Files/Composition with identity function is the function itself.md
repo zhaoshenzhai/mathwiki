@@ -7,6 +7,9 @@ Tags: #Proposition #Closed
 Proved by: [[Criteria for equality of functions]]
 Generalizations: _Not Applicable_
 
+Examples: _Not Applicable_
+Counterexamples: _Not Applicable_
+
 ``` ad-Proposition
 title: Proposition.
 

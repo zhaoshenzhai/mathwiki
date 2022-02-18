@@ -7,6 +7,9 @@ Tags: #Proposition #Closed
 Proved by: [[Natural numbers form an initial segment of ON]], [[Initial segment of ON is an ordinal]], [[ON is well-ordered by membership]], [[Successor of natural number is a natural number]]
 Generalizations: _Not Applicable_
 
+Examples: _Not Applicable_
+Counterexamples: _Not Applicable_
+
 ``` ad-Proposition
 title: Proposition.
 

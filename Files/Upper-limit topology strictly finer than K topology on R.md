@@ -7,6 +7,9 @@ Tags: #Proposition #Closed
 Proved by: [[Criteria for fineness w.r.t bases]], [[Upper-limit topology strictly finer than standard topology on R]]
 Generalizations: _Not Applicable_
 
+Examples: _Not Applicable_
+Counterexamples: _Not Applicable_
+
 ``` ad-Proposition
 title: Proposition.
 

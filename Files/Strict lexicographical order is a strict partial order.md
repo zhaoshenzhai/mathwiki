@@ -7,6 +7,9 @@ Tags: #Proposition #Closed
 Proved by: [[Binary relation iff subset of Cartesian product]]
 Generalizations: _Not Applicable_
 
+Examples: _Not Applicable_
+Counterexamples: _Not Applicable_
+
 ``` ad-Proposition
 title: Proposition.
 

@@ -7,6 +7,9 @@ Tags: #Proposition #Closed
 Proved by: [[ON is a transitive class]], [[ON is well-ordered by membership]]
 Generalizations: _Not Applicable_
 
+Examples: _Not Applicable_
+Counterexamples: _Not Applicable_
+
 ``` ad-Proposition
 title: Proposition.(Burali-Forti Paradox).
 
