@@ -12,7 +12,7 @@ Each note is currently one of four types:
 
 * **Definition**, either of an `object` or of a `notion`, which links to:
     * Types: _Objects/notions of type `object`/`notion` with additional restrictions. (Definition)_
-    * Illustrations: _Objects that are specific examples or counterexamples of `notion` - including its proof, if necessary. (Definition/Proposition)_
+    * Examples: _Objects that are specific examples or counterexamples of `notion` - including its proof, if necessary. (Definition/Proposition)_
     * Constructions: _Objects/notions derived from from `object`/`notion`. (Definition)_
     * Generalizations: _Abstractions of `object`/`notion`. (Definition)_<br/><br/>
     * Properties: _Statements regarding `object` or necessary conditions of `notion`. (Proposition/Theorem)_
