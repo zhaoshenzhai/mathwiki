@@ -16,7 +16,7 @@
         }
       },
       {
-        "id": "9aab5a4b08d2b0aa",
+        "id": "ffd97c0f23b9489c",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -61,7 +61,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -193,11 +194,11 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "9aab5a4b08d2b0aa",
+  "active": "ffd97c0f23b9489c",
   "lastOpenFiles": [
     "Files/Order and product topologies not comparable on ordered square.md",
-    "Files/Subspace of order topology strictly finer than product topology on ordered square.md",
     "Files/Ordered Square.md",
+    "Files/Subspace of order topology strictly finer than product topology on ordered square.md",
     "Files/Criteria for fineness w.r.t bases.md",
     "Files/Dedekind-complete bounded convex sets are intervals.md",
     "Files/Rational convex set (not interval).md",
