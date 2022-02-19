@@ -5,7 +5,7 @@ Date Created: 19/02/2022 15:00:15
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Closed Interval]]
 Constructions: [[Set of Closed Sets]]
 Generalizations: _Not Applicable_
 
