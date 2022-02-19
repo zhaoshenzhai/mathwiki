@@ -26,7 +26,7 @@ _Proof_. Take any $\mc{C}\subseteq\mc{F}$ and $\mc{U}\subseteq\mc{T}$. We need t
 $$\begin{equation}
     \begin{alignedat}{2}
         \l\{X\comp C\mid C\in\mc{C}\r\}&=\l\{U\in\mc{P}\l(X\r)\mid\ex C\in\mc{C}:U=X\comp C\r\}\ \ \ \ \ \ \ \ &&\textrm{Definition of set of relative complements}\\
-        &=\l\{U\in\mc{P}\l(X\r)\mid\ex C\in\mc{C}:X\comp U=C\r\}&&X\comp U=X\comp\l(X\comp C\r)=C\\
+        &=\l\{U\in\mc{P}\l(X\r)\mid\ex C\in\mc{C}:X\comp U=C\r\}&&C\subseteq X\textrm{ and }X\comp U=X\comp\l(X\comp C\r)=C\\
         &=\l\{U\in\mc{P}\l(X\r)\mid X\comp U\in\mc{C}\r\}&&\textrm{Substitution}\\
         &\subseteq\mc{T}.&&\mc{C}\subseteq\mc{F}
     \end{alignedat}\tag{$\,1\,$}
@@ -34,7 +34,7 @@ $$\begin{equation}
 $$\begin{equation}
     \begin{alignedat}{2}
         \l\{X\comp U\mid U\in\mc{U}\r\}&=\l\{C\in\mc{P}\l(X\r)\mid\ex U\in\mc{U}:C=X\comp U\r\}\ \ \ \ \ \ \ \ &&\textrm{Definition of set of relative complements}\\
-        &=\l\{C\in\mc{P}\l(X\r)\mid\ex U\in\mc{U}:X\comp C=U\r\}&&X\comp C=X\comp\l(X\comp U\r)=U\\
+        &=\l\{C\in\mc{P}\l(X\r)\mid\ex U\in\mc{U}:X\comp C=U\r\}&&U\subseteq X\textrm{ and }X\comp C=X\comp\l(X\comp U\r)=U\\
         &=\l\{C\in\mc{P}\l(X\r)\mid X\comp C\in\mc{U}\r\}&&\textrm{Substitution}\\
         &\subseteq\mc{F}.&&\mc{U}\subseteq\mc{T}
     \end{alignedat}\tag{$\,2\,$}

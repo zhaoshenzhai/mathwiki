@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Files/Double complement of set is set itself.md",
+            "file": "Files/Set of closed sets equivalent to topology on a set.md",
             "mode": "preview",
             "source": true
           }
@@ -41,7 +41,7 @@
               "type": "search",
               "state": {
                 "query": "tag:#In_Progress",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": false,
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Double complement of set is set itself.md",
+                "file": "Files/Set of closed sets equivalent to topology on a set.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Double complement of set is set itself.md",
+                "file": "Files/Set of closed sets equivalent to topology on a set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Double complement of set is set itself.md",
+                "file": "Files/Set of closed sets equivalent to topology on a set.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -169,7 +169,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.5992038128146249,
+                  "scale": 0.5198956515126292,
                   "close": true
                 }
               }
@@ -184,15 +184,15 @@
   },
   "active": "7f9c2170f46c796e",
   "lastOpenFiles": [
-    "Files/Double complement of set is set itself.md",
-    "Files/Set is open if covered by open subsets.md",
     "Files/Set of closed sets equivalent to topology on a set.md",
-    "Files/Set of Closed Sets.md",
-    "Files/Closed Set.md",
-    "Files/Set of relative complements.md",
-    "Files/Projection maps (Kuratowski) are surjections.md",
-    "Files/Lexicographical order topology on R2 is discrete times standard.md",
-    "Files/Intersection of set of topologies is a topology.md",
-    "Files/Set of relative complements is a set.md"
+    "Files/Double complement of set is set itself.md",
+    "Files/De Morgan's Laws.md",
+    "Files/Complement of images subset of image of complement; equal if injection.md",
+    "Files/Union of unions is a union.md",
+    "Files/Subset relation is transitive.md",
+    "Files/Reflexive closure of strict orders is non-strict.md",
+    "Files/Intersection of intersections is an intersection.md",
+    "Files/Power set distributes over intersection.md",
+    "Files/Relative Complement.md"
   ]
 }
