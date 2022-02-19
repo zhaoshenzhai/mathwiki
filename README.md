@@ -68,3 +68,5 @@ The svg images are uploaded to Github instead of linked directly in Obsidian bec
 ![Subspace Topology (Basis)](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/sample_pages/subspace_topology_basis.png)
 
 ![Function](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/sample_pages/function.png)
+
+![Fundamental Theorem of Equivalence Relations](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/sample_pages/fundamental_theorem_of_equivalence_relations.png)
