@@ -33,6 +33,7 @@ if [ -z "$choice" ] || [ "$choice" == "Y" ]; then
     printf "\n"
 
     git commit -m "$msg"
+    git push
 else
     echo -e ${RED}Abort${NC}
     exit
