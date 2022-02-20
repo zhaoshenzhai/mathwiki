@@ -5,9 +5,11 @@ RED='\033[0;31m'
 NC='\033[0m'
 
 cd ~/MathWiki
-gitOutput=`git status`
+git status
 
-echo "$gitOutput" | grep "no changes"
+if [ $(git status | grep -c "nothing to commit, working tree clean") == 0 ]; then
+    printf "\n"
+fi
 
 read -p "$(echo -e ${CYAN}"Commit? [Y/n] "${NC})" choice
 if [ -z "$choice" ] || [ "$choice" == "Y" ]; then
