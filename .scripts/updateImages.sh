@@ -10,9 +10,9 @@ while [ -z "$filter" ]; do
 done
 
 if [[ "$filter" != "ALL" ]]; then
-    readarray -t dirs < <(grep -lr "$filter" * | sed 's/\/image.tex//g')
+    readarray -t dirs < <(find . -type f -name *.tex -exec grep -lr "$filter" {} \; | cut -c 3- | sed 's/\/image.tex//g' | sort -n)
 else
-    echo all
+    readarray -t dirs < <(find . -type f -name *.tex | cut -c 3- | sed 's/\/image.tex//g' | sort -n)
 fi
 
 total=${#dirs[@]}
