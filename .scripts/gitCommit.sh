@@ -5,7 +5,8 @@ RED='\033[0;31m'
 NC='\033[0m'
 
 cd ~/MathWiki
-git status
+gitOutput=`git status`
+echo $gitOutput
 
 read -p "$(echo -e ${CYAN}"Commit? [Y/n] "${NC})" choice
 if [ -z "$choice" ] || [ "$choice" == "Y" ]; then
