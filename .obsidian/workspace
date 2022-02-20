@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Composition (Function).md",
+            "file": "Notes/Composition with identity function is the function itself.md",
             "mode": "preview",
             "source": true
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Composition (Function).md",
+                "file": "Notes/Composition with identity function is the function itself.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Composition (Function).md",
+                "file": "Notes/Composition with identity function is the function itself.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Composition (Function).md",
+                "file": "Notes/Composition with identity function is the function itself.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -184,6 +184,7 @@
   },
   "active": "952ff55ffed25ad0",
   "lastOpenFiles": [
+    "Notes/Composition with identity function is the function itself.md",
     "Notes/Composition (Function).md",
     "Notes/Function.md",
     "Notes/Function Space (Set).md",
@@ -192,7 +193,6 @@
     "Notes/Closed Set.md",
     "Notes/Discrete Topology.md",
     "Notes/Open Set.md",
-    "Notes/Closed Interval.md",
-    "Notes/Closed intervals are closed.md"
+    "Notes/Closed Interval.md"
   ]
 }

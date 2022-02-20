@@ -24,6 +24,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.**
-* If $\ran f\cap Y'=\em$, we see that $g\circ f=\em$; usually, one only talks about the composition when $Y'\subseteq\ran f$.
-* If $\ran f\subseteq Y'$, we see that $\dom\l(g\circ f\r)=\dom f$ and thus $g\circ f:X\to Z$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.**  If $\ran f\cap Y'=\em$, we see that $g\circ f=\em$; usually, one only talks about the composition when $\ran f\subseteq Y'$ in which case $\dom\l(g\circ f\r)=\dom f$ and thus $g\circ f:X\to Z$.<span style="float:right;">$\blacklozenge$</span>
