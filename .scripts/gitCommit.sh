@@ -7,7 +7,7 @@ NC='\033[0m'
 cd ~/MathWiki
 git status
 
-if [ $(git status | grep -c "nothing to commit, working tree clean") == 0 ]; then
+if [ ! $(git status | grep -c "nothing to commit, working tree clean") == 0 ]; then
     printf "\n"
 fi
 
