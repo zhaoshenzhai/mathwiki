@@ -28,7 +28,10 @@ if [ -z "$choice" ] || [ "$choice" == "Y" ]; then
         read -p "$(echo -e ${CYAN}"Remove files? [N/(string)] "${NC})" choice
     done
 
+    printf "\n"
     read -p "$(echo -e ${CYAN}"Message: "${NC})" msg
+    printf "\n"
+
     git commit -m "$msg"
 else
     echo -e ${RED}Abort${NC}
