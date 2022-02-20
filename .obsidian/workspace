@@ -181,7 +181,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.11956713326585607,
+                  "scale": 0.8656170987707752,
                   "close": true
                 }
               }
@@ -197,6 +197,7 @@
   "active": "ae5e33f95ae688d1",
   "lastOpenFiles": [
     "Notes/Monomorphism (Set).md",
+    "Notes/Injection iff monomorphism (Set).md",
     "Notes/Injection.md",
     "Notes/Composition of bijections is a bijection.md",
     "Notes/Trivial topology is a topology.md",
@@ -204,7 +205,6 @@
     "Notes/Bijection.md",
     "Notes/Inverse of bijection is a bijection.md",
     "Notes/Isomorphism of sets is an equivalence relation.md",
-    "Notes/Invertible iff bijective.md",
-    "Notes/Right inverse iff surjection (Choice).md"
+    "Notes/Invertible iff bijective.md"
   ]
 }
