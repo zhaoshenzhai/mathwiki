@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dirName=`date +"%d-%m-%Y_%H%M"`
+dirName=`date +"%d-%m-%Y_%H%M%S"`
 
 cd ~/MathWiki/Images
 mkdir $dirName
