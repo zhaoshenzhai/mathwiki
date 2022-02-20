@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d63d5ab39af0458d",
+        "id": "952ff55ffed25ad0",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Composition (Function).md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -45,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -66,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Composition (Function).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,6 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Composition (Function).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Composition (Function).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -174,17 +182,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "d63d5ab39af0458d",
+  "active": "952ff55ffed25ad0",
   "lastOpenFiles": [
+    "Notes/Composition (Function).md",
+    "Notes/Function.md",
+    "Notes/Function Space (Set).md",
+    "Notes/Function Space constructed from a Cartesian product.md",
+    "Notes/Function space is a set.md",
     "Notes/Closed Set.md",
     "Notes/Discrete Topology.md",
     "Notes/Open Set.md",
     "Notes/Closed Interval.md",
-    "Notes/Closed intervals are closed.md",
-    "Notes/Poset.md",
-    "Notes/Lower Bound.md",
-    "Images/09-02-2022_222004/image.svg",
-    "Images/09-02-2022_222004/image.pdf",
-    "Files/Closed Interval.md"
+    "Notes/Closed intervals are closed.md"
   ]
 }
