@@ -23,7 +23,7 @@ _Let $f:X\to Y$. A function $f^{-1}:Y\to X$ is an **inverse of $f$** if $f^{-1}$
 
 **Remark.** In other words, if $f^{-1}\circ f=\id_X$ and $f\circ f^{-1}=\id_Y$. This relationship can also be expressed by stating that the diagram
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_2225/image.svg", width=15%></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_222557/image.svg", width=15%></center>
 
 commutes.<span style="float:right;">$\blacklozenge$</span>
 

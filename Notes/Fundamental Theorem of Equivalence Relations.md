@@ -37,7 +37,7 @@ Proof that $R_{X/R}=R$:
 
 **Remark.** The relationship between partitions, their induced relations, equivalences, and their quotient sets, can be visualized with the following schematic diagram.
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_2220/image.svg", width=65%></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_222004/image.svg", width=65%></center>
 
 The statements $X/R_\Pi=\Pi$ and $R_{X/R}=R$ are then viewed as $\textrm{`}$compatibility statements$\textrm{'}$, guaranteeing that the
 * quotient set of the relation induced by $\Pi$ is $\Pi$ itself, and that the

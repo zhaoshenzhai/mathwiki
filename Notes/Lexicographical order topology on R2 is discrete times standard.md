@@ -61,7 +61,7 @@ $$\begin{equation}
       \end{alignedat}\tag{$\color{blue}\ast$}
       \end{equation}$$  
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/10-02-2022_1540/image.svg", width=25%></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/10-02-2022_154054/image.svg", width=25%></center>
 
 In all cases, we see that there exists $B\in\mc{B}_\textrm{pr}$ such that $p\in B\subseteq\l(\l\langle a,b\r\rangle,\l\langle c,d\r\rangle\r)$, so $\mc{T}_<\subseteq\mc{T}_\textrm{discrete}\times\mc{T}_\textrm{st}$.
 

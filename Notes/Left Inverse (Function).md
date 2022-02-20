@@ -23,6 +23,6 @@ _Let $f:X\to Y$. A function $g:Y\to X$ is a **left inverse of $f$** if $g\circ f
 
 **Remark.** This relationship can be expressed by stating that the diagram
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_2230/image.svg", width=11%></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_223050/image.svg", width=11%></center>
 
 commutes.<span style="float:right;">$\blacklozenge$</span>
