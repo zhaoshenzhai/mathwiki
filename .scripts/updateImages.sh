@@ -1,12 +1,15 @@
 #!/bin/bash
 
+CYAN='\033[0;36m'
+NC='\033[0m'
+
 cd ~/MathWiki/Images
 
 prompt="Update images containing [(string)/ALL]: "
 
-read -p "$prompt" filter
+read -p "$(echo -e ${CYAN}$prompt${NC})" filter
 while [ -z "$filter" ]; do
-    read -p "$prompt" filter
+    read -p "$(echo -e ${CYAN}$prompt${NC})" filter
 done
 
 if [[ "$filter" != "ALL" ]]; then
@@ -20,7 +23,7 @@ total=${#dirs[@]}
 let i=1
 for d in "${dirs[@]}"; do
     cd $d
-    pdflatex -shell-escape image.tex > /dev/null 2>&1 && pdfcrop image.pdf image.pdf > /dev/null 2>&1 && pdf2svg image.pdf image.svg
+    #pdflatex -shell-escape image.tex > /dev/null 2>&1 && pdfcrop image.pdf image.pdf > /dev/null 2>&1 && pdf2svg image.pdf image.svg
     echo "$d ($i/$total)"
     ((i=i+1))
     cd ..
