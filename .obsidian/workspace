@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "fbc2eb7938a60c5d",
+        "id": "0d055c24fc8a50a1",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -174,17 +174,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "fbc2eb7938a60c5d",
+  "active": "0d055c24fc8a50a1",
   "lastOpenFiles": [
+    "Notes/Poset.md",
+    "Notes/Lower Bound.md",
+    "Images/09-02-2022_222004/image.svg",
+    "Images/09-02-2022_222004/image.pdf",
     "Files/Closed Interval.md",
     "Files/Closed Set.md",
     "Files/Function.md",
     "Files/Principle of Ordinary Induction.md",
     "Files/Set of closed sets equivalent to topology on a set.md",
-    "Files/Set of relative complements is a set.md",
-    "Files/Set of relative complements.md",
-    "Files/Relative Complement.md",
-    "Files/Double complement of set is set itself.md",
-    "Files/De Morgan's Laws.md"
+    "Files/Set of relative complements is a set.md"
   ]
 }

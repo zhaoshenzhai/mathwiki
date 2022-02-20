@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Bounded Poset]], [[Join-semilattice]], [[Meet-semilattice]], [[Dedekind-complete Ordered Set]], [[Totally Ordered Set]]
 Examples: [[Inclusion Poset]]
-Constructions: [[Minimal Element]], [[Maximal Element]], [[Greatest Element]], [[Least Element]], [[Upper Bound]], [[Lower Bound]], [[Initial Segment]]
+Constructions: [[Minimal Element]], [[Maximal Element]], [[Upper Bound]], [[Lower Bound]], [[Initial Segment]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
