@@ -21,7 +21,7 @@
   "useMarkdownLinks": false,
   "showUnsupportedFiles": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "Files",
+  "newFileFolderPath": "Notes",
   "fileSortOrder": "alphabetical",
   "autoPairMarkdown": true,
   "autoPairBrackets": true,

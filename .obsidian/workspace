@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0d055c24fc8a50a1",
+        "id": "d63d5ab39af0458d",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -161,7 +161,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.5360789838217096,
+                  "scale": 0.11956713326585607,
                   "close": true
                 }
               }
@@ -174,17 +174,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "0d055c24fc8a50a1",
+  "active": "d63d5ab39af0458d",
   "lastOpenFiles": [
+    "Notes/Closed Set.md",
+    "Notes/Discrete Topology.md",
+    "Notes/Open Set.md",
+    "Notes/Closed Interval.md",
+    "Notes/Closed intervals are closed.md",
     "Notes/Poset.md",
     "Notes/Lower Bound.md",
     "Images/09-02-2022_222004/image.svg",
     "Images/09-02-2022_222004/image.pdf",
-    "Files/Closed Interval.md",
-    "Files/Closed Set.md",
-    "Files/Function.md",
-    "Files/Principle of Ordinary Induction.md",
-    "Files/Set of closed sets equivalent to topology on a set.md",
-    "Files/Set of relative complements is a set.md"
+    "Files/Closed Interval.md"
   ]
 }
