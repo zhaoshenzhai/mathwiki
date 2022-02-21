@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "149eb577087f5eb6",
+        "id": "1adfc5882b92349b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Injection.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "ae5e33f95ae688d1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Monomorphism (Set).md",
+            "file": "Notes/Category.md",
             "mode": "preview",
             "source": true
           }
@@ -83,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Injection.md",
+                "file": "Notes/Category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Injection.md",
+                "file": "Notes/Category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Injection.md",
+                "file": "Notes/Category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +169,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.8656170987707752,
+                  "scale": 0.2946338757383416,
                   "close": true
                 }
               }
@@ -194,17 +182,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "149eb577087f5eb6",
+  "active": "1adfc5882b92349b",
   "lastOpenFiles": [
-    "Notes/Injection.md",
-    "Notes/Monomorphism (Set).md",
+    "Notes/Category.md",
+    "Notes/Partition (Set).md",
+    "Notes/Strict Partial Order.md",
     "Notes/Injection iff monomorphism (Set).md",
+    "Notes/Identity function is a function.md",
     "Notes/Composition of bijections is a bijection.md",
-    "Notes/Trivial topology is a topology.md",
-    "Notes/Discrete topology is a topology.md",
-    "Notes/Bijection.md",
-    "Notes/Inverse of bijection is a bijection.md",
-    "Notes/Isomorphism of sets is an equivalence relation.md",
-    "Notes/Invertible iff bijective.md"
+    "Notes/Identity is idempotent.md",
+    "Images/19-02-2022_124825/image.svg",
+    "Images/19-02-2022_122650/image.svg",
+    "Images/18-02-2022_215655/image.svg"
   ]
 }
