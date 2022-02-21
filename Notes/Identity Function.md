@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Reflexive Closure]]
 Generalizations: _Not Applicable_
 
-Properties: [[Identity function is a bijection]], [[Composition with identity function is the function itself]]
+Properties: [[Identity function is a bijection]], [[Identity is idempotent]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Identity function is a function]]

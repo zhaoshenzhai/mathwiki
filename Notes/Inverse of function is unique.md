@@ -4,7 +4,7 @@
 Date Created: 27/01/2022 11:05:54
 Tags: #Proposition #Closed 
 
-Proved by: [[Composition with identity function is the function itself]], [[Composition of relations is associative]]
+Proved by: [[Identity is idempotent]], [[Composition of relations is associative]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

@@ -4,7 +4,7 @@
 Date Created: 20/02/2022 19:16:39
 Tags: #Proposition #Closed 
 
-Proved by: _Not Applicable_
+Proved by: [[Left inverse iff injection]], [[Identity is idempotent]], [[Composition of relations is associative]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_
@@ -13,27 +13,27 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:X\to Y$. Then $f$ is an injection iff $f$ is a monomorphism._
+_Let $f:X\to Y$ be a function. Then $f$ is an injection iff $f$ is a monomorphism._
 
 ```
 
 _Proof_. ($\Rightarrow$): Since $f$ is an injection, there exists a left inverse $g:Y\to X$. Consider the functions $\alpha_1,\alpha_2:Z\to X$ such that $f\circ\alpha_1=f\circ\alpha_2$ and compute
 $$\begin{equation}
     \begin{alignedat}{2}
-        \alpha_1&=\id_X\circ\alpha_1&&\textrm{Composition with identity is function itself}\\
+        \alpha_1&=\id_X\circ\alpha_1&&\textrm{Identity is idempotent}\\
         &=\l(g\circ f\r)\circ\alpha_1\ \ \ \ \ \ \ \ &&g\textrm{ is a left inverse of }f\\
         &=g\circ\l(f\circ\alpha_1\r)&&\textrm{Associativity of composition}\\
         &=g\circ\l(f\circ\alpha_2\r)&&\textrm{Assumption}\\
         &=\l(g\circ f\r)\circ\alpha_2&&\textrm{Associativity of composition}\\
         &=\id_X\circ\alpha_2&&g\textrm{ is a left inverse of }f\\
-        &=\alpha_2&&\textrm{Composition with identity is function itself}
+        &=\alpha_2,&&\textrm{Identity is idempotent}
     \end{alignedat}
 \end{equation}$$
 from which it follows that $f$ is a monomorphism.
 
 ($\Leftarrow$): Let $Z$ be a singleton, that is, let $Z\coloneqq\l\{z\r\}$ for some set $z$. Take $x_1,x_2\in X$ and define the functions
 $$\begin{equation}
-    \alpha_1,\alpha_2:Z\to X\ \ \ \ \textrm{mapping}\ \ \ \ \alpha_1\l(z\r)\coloneqq x_1\textrm{ and }\alpha_2\l(z\r)\coloneqq x_2.
+    \alpha_1,\alpha_2:Z\to X\ \ \ \ \textrm{mapping}\ \ \ \ \alpha_1\l(z\r)\coloneqq x_1\ \ \ \ \textrm{and}\ \ \ \ \alpha_2\l(z\r)\coloneqq x_2.
 \end{equation}$$
 Observe then that
 $$\begin{alignat}{2}
