@@ -9,6 +9,13 @@ cd ~/MathWiki
 git status
 printf "\n"
 
+read -n 1 -p "$(echo -e ${CYAN}"Show diff? [Y/n] "${NC})" choice
+if [ -z "$choice" ] || [ "$choice" == "Y" ]; then
+    git diff
+fi
+
+printf "\n"
+
 read -n 1 -p "$(echo -e ${CYAN}"Commit? [Y/n] "${NC})" choice
 if [ -z "$choice" ] || [ "$choice" == "Y" ]; then
     git add .
