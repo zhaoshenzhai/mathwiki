@@ -4,7 +4,7 @@
 Date Created: 21/02/2022 13:22:50
 Tags: #Definition #Open 
 
-Types: _Not Applicable_
+Types: [[Thin Category]]
 Examples: [[Category of Sets]]
 Constructions: [[Morphism (Category Theory)]]
 Generalizations: _Not Applicable_

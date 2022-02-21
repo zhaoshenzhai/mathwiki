@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Equivalence Relation]], [[Partial Order]], [[Strict Partial Order]]
+Constructions: [[Equivalence Relation]], [[Preorder]], [[Strict Partial Order]]
 Generalizations: _Not Applicable_
 
 Properties: [[Irreflexive and transitive implies asymmetric]]

@@ -17,8 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. A binary relation $\leq$ on $X$ is a **partial order on $X$** if $\leq$ is reflexive, transitive, and antisymmetric on $X$._
+_Let $X$ be a set. A binary relation $\leq$ on $X$ is a **partial order on $X$** if $\leq$ an antisymmetric preorder on $X$._
 
 ```
-
-**Remark.** Write $\geq\,\coloneqq\,\leq^{-1}$.<span style="float:right;">$\blacklozenge$</span>
