@@ -21,4 +21,4 @@ _Let $\cat{C}$ be a category and fix $X,Y\in\obj\l(\cat{C}\r)$. A **$\cat{C}$-mo
 
 ```
 
-**Remark.** If $f\in\hom\l(X,Y\r)$, write $f:X\to Y$ and define $\dom f\coloneqq X$ and $\cdm f\coloneqq Y$.
+**Remark.** If $f\in\hom\l(X,Y\r)$, write $f:X\to Y$ and define $\dom f\coloneqq X$ and $\cdm f\coloneqq Y$. Other $\textrm{`}$functional$\textrm{'}$ notations (like $\mapsto$) need not apply.<span style="float:right;">$\blacklozenge$</span>

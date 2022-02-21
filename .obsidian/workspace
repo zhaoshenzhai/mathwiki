@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
+        "id": "16643b12421cc27f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Category.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
         "id": "edbb533b5e528180",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Category of Sets.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "fa591f97cb505740",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Category of sets is a category.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -67,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Category of sets is a category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,13 +123,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Category of sets is a category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "d4b0d5a79a303636",
@@ -112,6 +141,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Category of sets is a category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -176,17 +206,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "edbb533b5e528180",
+  "active": "fa591f97cb505740",
   "lastOpenFiles": [
+    "Notes/Category of sets is a category.md",
+    "Notes/Category of Sets.md",
+    "Notes/Category.md",
+    "Notes/Morphism (Category Theory).md",
+    "Notes/Ordered Pair.md",
+    "Notes/Tuple.md",
     "Notes/Function.md",
     "Notes/Surjection.md",
-    "Notes/Category.md",
-    "Notes/Category of Sets.md",
-    "Notes/Morphism (Category Theory).md",
     "Notes/Endomorphism (Category Theory).md",
-    "Notes/Identity Function.md",
-    "Notes/Reflexive Closure.md",
-    "Notes/Composition (Function).md",
-    "Notes/Universal Class.md"
+    "Notes/Identity Function.md"
   ]
 }
