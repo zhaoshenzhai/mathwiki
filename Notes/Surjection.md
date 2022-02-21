@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [[Right inverse iff surjection (Choice)]], [[Surjection iff epimorphism (Set)]]
+Equivalences: [[Right inverse iff surjection (Choice)]], [[Surjection iff epimorphism (Set Theory)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

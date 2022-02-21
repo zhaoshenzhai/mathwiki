@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Complement of images subset of image of complement; equal if injection]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Left inverse iff injection]], [[Image of intersection subset of intersection of images; equal iff injection]], [[Injection iff monomorphism (Set)]]
+Equivalences: [[Left inverse iff injection]], [[Image of intersection subset of intersection of images; equal iff injection]], [[Injection iff monomorphism (Set Theory)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

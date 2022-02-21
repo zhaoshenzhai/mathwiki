@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "1adfc5882b92349b",
+        "id": "cb97578724b5900d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Category.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "fa70e9eb12f84299",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Morphism (Category Theory).md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:In_Progress",
+                "query": "tag:#In_Progress",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -71,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Category.md",
+                "file": "Notes/Morphism (Category Theory).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,13 +111,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Category.md",
+                "file": "Notes/Morphism (Category Theory).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "d4b0d5a79a303636",
@@ -117,7 +130,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Category.md",
+                "file": "Notes/Morphism (Category Theory).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -169,7 +182,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.2946338757383416,
+                  "scale": 0.06230800639657365,
                   "close": true
                 }
               }
@@ -182,17 +195,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "1adfc5882b92349b",
+  "active": "fa70e9eb12f84299",
   "lastOpenFiles": [
+    "Notes/Morphism (Category Theory).md",
     "Notes/Category.md",
-    "Notes/Partition (Set).md",
-    "Notes/Strict Partial Order.md",
-    "Notes/Injection iff monomorphism (Set).md",
-    "Notes/Identity function is a function.md",
-    "Notes/Composition of bijections is a bijection.md",
-    "Notes/Identity is idempotent.md",
-    "Images/19-02-2022_124825/image.svg",
-    "Images/19-02-2022_122650/image.svg",
-    "Images/18-02-2022_215655/image.svg"
+    "Notes/Surjection iff epimorphism (Set Theory).md",
+    "Notes/Surjection.md",
+    "Notes/Monomorphism (Set Theory).md",
+    "Notes/Injection iff monomorphism (Set Theory).md",
+    "Notes/Injection.md",
+    "Notes/Epimorphism (Set Theory).md",
+    "Notes/Partition (Set Theory).md",
+    "Notes/Cover.md"
   ]
 }

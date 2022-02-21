@@ -5,7 +5,7 @@ Date Created: 24/01/2022 20:48:17
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Subbasis (Topology)]], [[Basis (Topology)]], [[Partition (Set)]]
+Examples: [[Subbasis (Topology)]], [[Basis (Topology)]], [[Partition (Set Theory)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

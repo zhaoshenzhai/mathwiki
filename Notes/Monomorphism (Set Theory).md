@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [[Injection iff monomorphism (Set)]]
+Equivalences: [[Injection iff monomorphism (Set Theory)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

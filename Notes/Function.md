@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Injection]], [[Surjection]]
 Examples: [[Identity Function]], [[Inclusion Function]]
-Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Left Inverse (Function)]], [[Right Inverse (Function)]], [[Function Space (Set)]]
+Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Left Inverse (Function)]], [[Right Inverse (Function)]], [[Function Space (Set Theory)]]
 Generalizations: _Not Applicable_
 
 Properties: [[Collection of all functions is a proper class]]
