@@ -11,6 +11,7 @@ printf "\n"
 
 read -n 1 -p "$(echo -e ${CYAN}"Show diff? [Y/n] "${NC})" choice
 if [ -z "$choice" ] || [ "$choice" == "Y" ]; then
+    printf "\n"
     git diff
 fi
 
