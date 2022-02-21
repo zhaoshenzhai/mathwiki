@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 21/02/2022 18:32:55
-Tags: #Definition #Open 
+Tags: #Definition #Closed 
 
 Types: _Not Applicable_
 Examples: [[Preorder Category]]

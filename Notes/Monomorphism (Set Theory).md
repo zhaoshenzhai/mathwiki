@@ -7,7 +7,7 @@ Tags: #Definition #Closed
 Types: _Not Applicable_
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Generalizations: [[Monomorphism (Category Theory)]]
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
