@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: _Not Applicable_
+Constructions: [[Category]]
 Generalizations: [[Composition (Relation)]]
 
 Properties: [[Identity is idempotent]], [[Composition of bijections is a bijection]]

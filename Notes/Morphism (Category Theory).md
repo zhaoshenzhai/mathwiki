@@ -4,7 +4,7 @@
 Date Created: 21/02/2022 15:18:46
 Tags: #Definition #In_Progress
 
-Types: [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]]
+Types: [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
@@ -20,3 +20,5 @@ title: Definition.
 _Let $\cat{C}$ be a category and fix $X,Y\in\obj\l(\cat{C}\r)$. A **$\cat{C}$-morphism from $X$ into $Y$** is an element $f\in\hom\l(X,Y\r)$._
 
 ```
+
+**Remark.** If $f\in\hom\l(X,Y\r)$, write $f:X\to Y$ and define $\dom f\coloneqq X$ and $\cdm f\coloneqq Y$.
