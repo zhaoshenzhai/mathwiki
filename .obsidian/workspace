@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "373f0e91c4f1261a",
+        "id": "edbb533b5e528180",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Category of Sets.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "230a40773e3308ec",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Function.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "87aeef1b9fddc6d4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Category.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -95,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Function.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +94,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +112,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Function.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,17 +176,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "230a40773e3308ec",
+  "active": "edbb533b5e528180",
   "lastOpenFiles": [
     "Notes/Function.md",
-    "Notes/Category of Sets.md",
+    "Notes/Surjection.md",
     "Notes/Category.md",
+    "Notes/Category of Sets.md",
+    "Notes/Morphism (Category Theory).md",
     "Notes/Endomorphism (Category Theory).md",
     "Notes/Identity Function.md",
     "Notes/Reflexive Closure.md",
     "Notes/Composition (Function).md",
-    "Notes/Universal Class.md",
-    "Notes/Morphism (Category Theory).md",
-    "Notes/Surjection iff epimorphism (Set Theory).md"
+    "Notes/Universal Class.md"
   ]
 }
