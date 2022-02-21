@@ -21,6 +21,6 @@ _The **category of sets** is the category $\cat{Set}$ whose objects are sets and
 * _$\obj\l(\cat{Set}\r)\coloneqq V$ where $V$ is the universal class,_
 * _for all sets $X$ and $Y$, $\hom\l(Y,X\r)\coloneqq Y^X$ is the function space from $X$ into $Y$,_
 * _for all sets $X$, $\id_X$ is the identity function on $X$, and_
-* _for all functions $f:X\to Y$ and $g:Y\to Z$, $g\circ f$ is the composite function of $g$ after $f$._
+* _for all morphisms $f:X\to Y$ and $g:Y\to Z$, $g\circ f$ is the composite function of $g$ after $f$._
 
 ```

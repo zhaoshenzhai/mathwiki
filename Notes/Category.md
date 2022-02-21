@@ -19,9 +19,9 @@ title: Definition (Informal).
 
 _A **category** $\cat{C}$ consists of the data of_
 * _a class $\obj\l(\cat{C}\r)$ whose members are called **$\cat{C}$-objects**,_
-* _for all $X,Y\in\obj\l(\cat{C}\r)$, a set $\hom\l(X,Y\r)$ called the **$\cat{C}$-hom-set from $X$ into $Y$** - if $f\in\hom\l(X,Y\r)$, write $f:X\to Y$,_
+* _for all $X,Y\in\obj\l(\cat{C}\r)$, a set $\hom\l(X,Y\r)$ called the **$\cat{C}$-hom-set from $X$ to $Y$** - if $f\in\hom\l(X,Y\r)$, write $f:X\to Y$,_
 * _for all $X\in\obj\l(\cat{C}\r)$, an element $\id_X\in\hom\l(X,X\r)$ called the the **$\cat{C}$-identity on $X$**, and_
-* _for all $\cat{C}$-hom-sets $\hom\l(X,Y\r)$ and $\hom\l(Y,Z\r)$, a function_
+* _for all $X,Y,Z\in\obj\l(\cat{C}\r)$, a function_
 $$\begin{equation}
     \begin{aligned}
         \circ:\hom\l(X,Y\r)\times\hom\l(Y,Z\r)&\to\hom\l(X,Z\r)\\

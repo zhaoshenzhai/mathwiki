@@ -2,11 +2,11 @@
 <br />
 
 Date Created: 21/02/2022 18:42:09
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed 
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Preorder Category]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

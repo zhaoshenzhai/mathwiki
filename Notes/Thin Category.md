@@ -2,10 +2,10 @@
 <br />
 
 Date Created: 21/02/2022 18:32:55
-Tags: #Definition #In_Progress
+Tags: #Definition #Open 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Preorder Category]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

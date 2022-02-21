@@ -5,7 +5,7 @@ Date Created: 21/02/2022 15:18:46
 Tags: #Definition #In_Progress
 
 Types: [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]
-Examples: _Not Applicable_
+Examples: [[Function]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

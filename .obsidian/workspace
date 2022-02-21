@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "3cff64c11dfd7717",
+        "id": "aaa3166897c6a06e",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -16,24 +16,12 @@
         }
       },
       {
-        "id": "959772976dbfb501",
+        "id": "a3d541b87f16b946",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Thin Category.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "e8ed21102547e511",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Preordered Set.md",
             "mode": "preview",
             "source": true
           }
@@ -95,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Preordered Set.md",
+                "file": "Notes/Thin Category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Preordered Set.md",
+                "file": "Notes/Thin Category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Preordered Set.md",
+                "file": "Notes/Thin Category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -193,7 +181,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.3639733676487973,
+                  "scale": 0.37773294941923785,
                   "close": true
                 }
               }
@@ -206,17 +194,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "e8ed21102547e511",
+  "active": "a3d541b87f16b946",
   "lastOpenFiles": [
+    "Notes/Thin Category.md",
+    "Notes/Category.md",
+    "Notes/Cardinality of power set.md",
+    "Notes/Preorder Category.md",
+    "Notes/Morphism (Category Theory).md",
+    "Notes/Category of Sets.md",
+    "Notes/Preorder category is a category.md",
     "Notes/Preordered Set.md",
     "Notes/Topology on a Set.md",
-    "Notes/Set of closed sets equivalent to topology on a set.md",
-    "Notes/Set of Closed Sets.md",
-    "README.md",
-    "Notes/Empty set exists.md",
-    "Notes/Dedekind-complete Ordered Set.md",
-    "Notes/Complement of images subset of image of complement; equal if injection.md",
-    "Notes/Thin Category.md",
-    "Notes/Category.md"
+    "Notes/Set of closed sets equivalent to topology on a set.md"
   ]
 }
