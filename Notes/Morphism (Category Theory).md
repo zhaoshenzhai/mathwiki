@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Isomorphism (Category Theory)]], [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]
 Examples: [[Function]]
-Constructions: _Not Applicable_
+Constructions: [[Left Inverse (Morphism)]], [[Right Inverse (Morphism)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

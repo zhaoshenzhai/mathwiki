@@ -17,7 +17,7 @@ Justifications: [[Category of sets is a category]]
 ``` ad-Definition
 title: Definition.
 
-_The **category of sets** is the category $\cat{Set}$ whose objects are sets and whose morphisms between objects $X,Y\in\obj\l(\cat{Set}\r)$ are functions $f:X\to Y$. Formally,_
+_The **category of sets** is the category $\cat{Set}$ whose objects are sets and whose morphisms from $X\in\obj\l(\cat{Set}\r)$ to $Y\in\obj\l(\cat{Set}\r)$ are functions $f:X\to Y$. Formally,_
 * _$\obj\l(\cat{Set}\r)\coloneqq V$ where $V$ is the universal class,_
 * _for all sets $X$ and $Y$, $\hom\l(Y,X\r)\coloneqq Y^X$ is the function space from $X$ into $Y$,_
 * _for all sets $X$, $\id_X$ is the identity function on $X$, and_

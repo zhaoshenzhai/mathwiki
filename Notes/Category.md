@@ -6,7 +6,7 @@ Tags: #Definition #Open
 
 Types: [[Thin Category]]
 Examples: [[Category of Sets]]
-Constructions: [[Morphism (Category Theory)]]
+Constructions: [[Morphism (Category Theory)]], [[Opposite Category]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
