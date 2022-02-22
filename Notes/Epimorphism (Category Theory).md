@@ -5,12 +5,12 @@ Date Created: 21/02/2022 23:07:45
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Surjection iff epimorphism (Set Theory)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Right inverse implies epimorphism]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

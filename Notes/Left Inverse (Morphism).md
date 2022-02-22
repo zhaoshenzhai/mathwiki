@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Inverse (Morphism)]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Left inverse implies monomorphism]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

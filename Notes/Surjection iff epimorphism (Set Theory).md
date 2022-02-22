@@ -4,7 +4,7 @@
 Date Created: 21/02/2022 13:19:31
 Tags: #Proposition #Closed
 
-Proved by: [[Right inverse iff surjection (Choice)]], [[Identity is idempotent]], [[Composition of relations is associative]]
+Proved by: [[Right inverse implies epimorphism]], [[Right inverse iff surjection (Choice)]], [[Identity is idempotent]], [[Composition of relations is associative]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_
@@ -13,23 +13,11 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:X\to Y$ be a function. Then $f$ is a surjection iff $f$ is an epimorphism._
+_Consider the category $\cat{Set}$ and let $f:X\to Y$ be a function. Then $f$ is a surjection iff $f$ is an epimorphism._
 
 ```
 
-_Proof_. ($\Rightarrow$): Since $f$ is a surjection, there exists a right inverse $h:Y\to X$. Consider the functions $\alpha_1,\alpha_2:Y\to Z$ such that $\alpha_1\circ f=\alpha_2\circ f$ and compute
-$$\begin{equation}
-    \begin{alignedat}{2}
-        \alpha_1&=\alpha_1\circ\id_Y&&\textrm{Identity is idempotent}\\
-        &=\alpha_1\circ\l(f\circ h\r)&&h\textrm{ is a right inverse of }f\\
-        &=\l(\alpha_1\circ f\r)\circ h\ \ \ \ \ \ \ \ &&\textrm{Associativity of composition}\\
-        &=\l(\alpha_2\circ f\r)\circ h&&\textrm{Assumption}\\
-        &=\alpha_2\circ\l(f\circ h\r)&&\textrm{Associativity of composition}\\
-        &=\alpha_2\circ\id_Y&&h\textrm{ is a right inverese of }f\\
-        &=\alpha_2,&&\textrm{Identity is idempotent}
-    \end{alignedat}
-\end{equation}$$
-from which it follows that $f$ is an epimorphism.
+_Proof_. ($\Rightarrow$): The forward direction is proven since, being a surjection, $f$ has a right inverse (this depends on the Axiom of Choice).
 
 ($\Leftarrow$): Let $Z$ be a pair set, that is, $Z\coloneqq\l\{z_1,z_2\r\}$ for any sets $z_1$ and $z_2$. Define the functions
 $$\begin{equation}

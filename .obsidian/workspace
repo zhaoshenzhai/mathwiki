@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7a35bc4bb3696636",
+        "id": "be373bb46ea4d359",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Morphism (Category Theory).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "769974e113791360",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Inverse (Morphism).md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -83,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Inverse (Morphism).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +94,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Inverse (Morphism).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +111,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Inverse (Morphism).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -181,7 +162,7 @@
                   "repelStrength": 11.4207760711399,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.56539316985988,
+                  "scale": 0.5530310567567801,
                   "close": true
                 }
               }
@@ -194,17 +175,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "769974e113791360",
+  "active": "be373bb46ea4d359",
   "lastOpenFiles": [
-    "Notes/Inverse (Morphism).md",
-    "Notes/Morphism (Category Theory).md",
-    "Notes/Inverse (Function).md",
-    "Notes/Left Inverse (Morphism).md",
-    "Notes/Inverse of morphism is unique.md",
-    "Notes/Inverse of function is unique.md",
-    "Notes/Right Inverse (Morphism).md",
-    "Notes/Inverse of composition of relations.md",
-    "Notes/Inverse (Relation).md",
-    "Notes/ver.md"
+    "Notes/Category.md",
+    "Notes/Epimorphism (Category Theory).md",
+    "Notes/Right inverse implies epimorphism.md",
+    "Notes/Left inverse implies monomorphism.md",
+    "Notes/Monomorphism (Category Theory).md",
+    "Notes/Injection iff monomorphism (Set Theory).md",
+    "Notes/Surjection iff epimorphism (Set Theory).md",
+    "Notes/Right inverse iff surjection (Choice).md",
+    "Notes/Surjection.md",
+    "Notes/Right Inverse (Morphism).md"
   ]
 }

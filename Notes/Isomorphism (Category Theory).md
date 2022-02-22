@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 22/02/2022 11:26:30
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed 
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category and fix $X,Y\in\obj\l(\cat{C}\r)$. A morphism $f:X\to Y$ is an **isomorphism in $\cat{C}$** if there exists a morphism $g:Y\to X$ such that_
+_Let $\cat{C}$ be a category and fix $X,Y\in\obj\l(\cat{C}\r)$. A morphism $f:X\to Y$ is an **isomorphism in $\cat{C}$** if $f$ has an inverse._
 
 ```
