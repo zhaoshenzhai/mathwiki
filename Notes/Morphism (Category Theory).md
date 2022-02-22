@@ -4,7 +4,7 @@
 Date Created: 21/02/2022 15:18:46
 Tags: #Definition #Closed 
 
-Types: [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]
+Types: [[Isomorphism (Category Theory)]], [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]
 Examples: [[Function]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_

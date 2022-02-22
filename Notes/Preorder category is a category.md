@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle X,\leq\r\rangle$ be a preordered set. Then the preorder category_ $\cat{X}_\leq$ _induced by $\l\langle X,\leq\r\rangle$ is a category._
+_Let $\l\langle X,\leq\r\rangle$ be a preordered set. Then the preorder category_ $\cat{C}\l\langle X,\leq\r\rangle$ _it incudes is a category._
 
 
 ```

@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:X\to Y$ be a function. Then $f$ is an injection iff $f$ is a monomorphism._
+_Consider the category $\cat{Set}$ and let $f:X\to Y$ be a function. Then $f$ is an injection iff $f$ is a monomorphism._
 
 ```
 
