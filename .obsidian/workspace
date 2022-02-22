@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "0197b9471303ce26",
+        "id": "b0fabedcf05c9b55",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Isomorphism (Category Theory).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "a5b5af71765284ee",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Bijection.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -67,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Bijection.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Bijection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,6 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Bijection.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -175,17 +194,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "0197b9471303ce26",
+  "active": "a5b5af71765284ee",
   "lastOpenFiles": [
+    "Notes/Bijection.md",
+    "Notes/Isomorphism (Category Theory).md",
+    "Notes/Identity function is a bijection.md",
+    "Notes/Isomorphism of sets is an equivalence relation.md",
+    "Notes/Category.md",
     "Notes/Composition with identities preserve functions.md",
     "Notes/Composition of relations is associative.md",
     "Notes/Inverse of function is unique.md",
     "Notes/Composition of bijections is a bijection.md",
-    "Notes/Category of sets is a category.md",
-    "Notes/Category.md",
-    "Notes/Cartesian product of intersections.md",
-    "Notes/Set ordered by inclusion is a poset.md",
-    "Notes/Inclusion Poset.md",
-    "Notes/Composition (Function).md"
+    "Notes/Category of sets is a category.md"
   ]
 }
