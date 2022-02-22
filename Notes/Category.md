@@ -34,7 +34,7 @@ _satisfying:_
 * $\axicat{1}\bf{.}$ _Composition is associative: For all $X,Y,Z,W\in\obj\l(\cat{C}\r)$, $f:X\to Y$, $g:Y\to Z$, and $h:Z\to W$, the following diagram commutes._
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/21-02-2022_142913/image.svg", width=23%></center>
 
-* $\axicat{2}\bf{.}$ _Identity is idempotent: For all $X,Y\in\obj\l(\cat{C}\r)$ and $f:X\to Y$, the following diagram commutes._
+* $\axicat{2}\bf{.}$ _Composition with identities preserve functions: For all $X,Y\in\obj\l(\cat{C}\r)$ and $f:X\to Y$, the following diagram commutes._
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_213021/image.svg", width=23%></center>
 * $\axicat{3}\bf{.}$ _Morphisms are pairwise disjoint: For all $X,Y,Z,W\in\obj\l(\cat{C}\r)$, if $X\neq Z$ or $Y\neq W$, then $\hom\l(X,Y\r)\cap\hom\l(Z,W\r)=\em$._
 

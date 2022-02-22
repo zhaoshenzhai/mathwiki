@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "be373bb46ea4d359",
+        "id": "0197b9471303ce26",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "tag:In_Progress",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -175,17 +175,17 @@
     "width": 420.6612243652344,
     "collapsed": true
   },
-  "active": "be373bb46ea4d359",
+  "active": "0197b9471303ce26",
   "lastOpenFiles": [
+    "Notes/Composition with identities preserve functions.md",
+    "Notes/Composition of relations is associative.md",
+    "Notes/Inverse of function is unique.md",
+    "Notes/Composition of bijections is a bijection.md",
+    "Notes/Category of sets is a category.md",
     "Notes/Category.md",
-    "Notes/Epimorphism (Category Theory).md",
-    "Notes/Right inverse implies epimorphism.md",
-    "Notes/Left inverse implies monomorphism.md",
-    "Notes/Monomorphism (Category Theory).md",
-    "Notes/Injection iff monomorphism (Set Theory).md",
-    "Notes/Surjection iff epimorphism (Set Theory).md",
-    "Notes/Right inverse iff surjection (Choice).md",
-    "Notes/Surjection.md",
-    "Notes/Right Inverse (Morphism).md"
+    "Notes/Cartesian product of intersections.md",
+    "Notes/Set ordered by inclusion is a poset.md",
+    "Notes/Inclusion Poset.md",
+    "Notes/Composition (Function).md"
   ]
 }

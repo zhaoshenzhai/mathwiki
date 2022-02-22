@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Category]]
 Generalizations: [[Composition (Relation)]]
 
-Properties: [[Identity is idempotent]], [[Composition of bijections is a bijection]]
+Properties: [[Composition with identities preserve functions]], [[Composition of bijections is a bijection]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Composition of functions is a function]]

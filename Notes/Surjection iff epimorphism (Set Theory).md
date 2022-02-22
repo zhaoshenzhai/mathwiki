@@ -4,7 +4,7 @@
 Date Created: 21/02/2022 13:19:31
 Tags: #Proposition #Closed
 
-Proved by: [[Right inverse implies epimorphism]], [[Right inverse iff surjection (Choice)]], [[Identity is idempotent]], [[Composition of relations is associative]]
+Proved by: [[Right inverse implies epimorphism]], [[Right inverse iff surjection (Choice)]], [[Composition with identities preserve functions]], [[Composition of relations is associative]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

@@ -4,7 +4,7 @@
 Date Created: 21/02/2022 16:40:38
 Tags: #Proposition #Closed 
 
-Proved by: [[Composition of relations is a relation]], [[Identity is idempotent]]
+Proved by: [[Composition of relations is a relation]], [[Composition with identities preserve functions]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_
@@ -17,4 +17,4 @@ _The category of sets $\cat{Set}$ is a category._
 
 ```
 
-_Proof_. The fact that the composition function is associative and that identities are idempotent are proved; see links above.<span style="float:right;">$\blacksquare$</span>
+_Proof_. The fact that the composition function is associative and that compositions with identities preserve functions are proved; see links above.<span style="float:right;">$\blacksquare$</span>
