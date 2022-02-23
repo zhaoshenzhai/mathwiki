@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $v$ be a set and fix a subset $u\subseteq V$. Then $v\comp\l(v\comp u\r)=u$._
+_Let $v$ be a set and fix a subset $u\subseteq v$. Then $v\comp\l(v\comp u\r)=u$._
 
 ```
 

@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "166703ab4bd2e765",
+        "id": "1c532596f38e44c2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Invertible iff bijective.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "83530f3c869ce811",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Monomorphism (Category Theory).md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -37,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "tag:#Proposition",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -71,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Monomorphism (Category Theory).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Monomorphism (Category Theory).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -153,7 +171,7 @@
                   "repelStrength": 11.3611560226354,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.19870490445717748,
+                  "scale": 0.38626198623641383,
                   "close": true
                 }
               }
@@ -166,17 +184,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "166703ab4bd2e765",
+  "active": "83530f3c869ce811",
   "lastOpenFiles": [
-    "Notes/Inverse (Function).md",
-    "Notes/Identity Function.md",
-    "Notes/Poset.md",
-    "Notes/Isomorphism (Category Theory).md",
-    "Notes/Isomorphism of sets is an equivalence relation.md",
-    "Notes/Relation Induced by a Partition.md",
-    "Notes/Isomorphism of objects is an equivalence relation.md",
-    "Notes/Inverse (Morphism).md",
-    "Notes/Composition (Function).md",
-    "Notes/Bijection.md"
+    "Notes/Monomorphism (Category Theory).md",
+    "Notes/Invertible iff bijective.md",
+    "Notes/Least upper bound iff greatest lower bound.md",
+    "Notes/Dedekind-complete bounded convex sets are intervals.md",
+    "Notes/Comparison of topologies on R.md",
+    "Notes/Collection of all singletons is a proper class.md",
+    "Notes/Collection of all functions is a proper class.md",
+    "Notes/Cofinite topology is a topology.md",
+    "Notes/Cocountable topology is a topology.md",
+    "Notes/Category of sets is a category.md"
   ]
 }
