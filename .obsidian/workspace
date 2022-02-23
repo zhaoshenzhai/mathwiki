@@ -4,19 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "b0fabedcf05c9b55",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Isomorphism (Category Theory).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "a5b5af71765284ee",
+        "id": "80ca3c4f80e18c52",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -52,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:In_Progress",
+                "query": "tag:#Theorem",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -60,23 +48,18 @@
                 "sortOrder": "alphabetical"
               }
             }
-          }
-        ],
-        "currentTab": 1
-      }
-    ],
-    "direction": "horizontal",
-    "width": 165,
-    "collapsed": true
-  },
-  "right": {
-    "id": "9b204813a94e4120",
-    "type": "split",
-    "children": [
-      {
-        "id": "249f54e77061d7f3",
-        "type": "tabs",
-        "children": [
+          },
+          {
+            "id": "bfc16c4d27238e7c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
           {
             "id": "c44d51b963eb16e7",
             "type": "leaf",
@@ -93,47 +76,34 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "bfc16c4d27238e7c",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "d1c9c33ee1dcbf78",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Notes/Bijection.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
           }
-        ]
-      },
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 165,
+    "collapsed": true
+  },
+  "right": {
+    "id": "9b204813a94e4120",
+    "type": "split",
+    "children": [
       {
-        "id": "d4b0d5a79a303636",
+        "id": "249f54e77061d7f3",
         "type": "tabs",
         "children": [
           {
-            "id": "296eac95d6328696",
+            "id": "adf7c78139e40e4c",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
                 "file": "Notes/Bijection.md",
                 "options": {
-                  "collapse-filter": false,
+                  "collapse-filter": true,
                   "search": "",
-                  "localJumps": 4,
+                  "localJumps": 3,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -157,33 +127,45 @@
                       }
                     },
                     {
-                      "query": "tag:#Axiom",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16342365
-                      }
-                    },
-                    {
                       "query": "tag:#Theorem",
                       "color": {
                         "a": 1,
                         "rgb": 6683493
                       }
+                    },
+                    {
+                      "query": "tag:#Axiom",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16342365
+                      }
                     }
                   ],
                   "collapse-display": true,
                   "showArrow": true,
-                  "textFadeMultiplier": -0.8,
-                  "nodeSizeMultiplier": 0.556775464834276,
-                  "lineSizeMultiplier": 1.95111661277284,
+                  "textFadeMultiplier": -1.4,
+                  "nodeSizeMultiplier": 0.538454931285368,
+                  "lineSizeMultiplier": 1,
                   "collapse-forces": true,
                   "centerStrength": 0,
-                  "repelStrength": 11.4207760711399,
+                  "repelStrength": 11.3611560226354,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.5530310567567801,
+                  "scale": 0.26225436628318516,
                   "close": true
                 }
+              }
+            }
+          },
+          {
+            "id": "f22e866cc14976ec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes/Bijection.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -191,20 +173,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 420.6612243652344,
+    "width": 973.6,
     "collapsed": true
   },
-  "active": "a5b5af71765284ee",
+  "active": "80ca3c4f80e18c52",
   "lastOpenFiles": [
     "Notes/Bijection.md",
-    "Notes/Isomorphism (Category Theory).md",
-    "Notes/Identity function is a bijection.md",
-    "Notes/Isomorphism of sets is an equivalence relation.md",
+    "Notes/Standard Topology on R.md",
+    "Notes/Topology on a Set.md",
+    "Notes/ON is well-ordered by membership.md",
+    "Notes/Upper-limit Topology on R.md",
     "Notes/Category.md",
-    "Notes/Composition with identities preserve functions.md",
-    "Notes/Composition of relations is associative.md",
-    "Notes/Inverse of function is unique.md",
-    "Notes/Composition of bijections is a bijection.md",
-    "Notes/Category of sets is a category.md"
+    "Notes/Category of Sets.md",
+    "Notes/Composition (Function).md",
+    "Notes/Identity Function.md",
+    "Notes/Function.md"
   ]
 }

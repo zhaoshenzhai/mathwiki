@@ -9,8 +9,8 @@ Examples: [[Identity Function]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Isomorphism of sets is an equivalence relation]]
-Sufficiencies: [[Inverse of bijection is a bijection]], [[Composition of bijections is a bijection]]
+Properties: [[Inverse of bijection is a bijection]], [[Composition of bijections is a bijection]], [[Isomorphism of sets is an equivalence relation]]
+Sufficiencies: _Not Applicable_
 Equivalences: [[Invertible iff bijective]]
 Justifications: _Not Applicable_
 

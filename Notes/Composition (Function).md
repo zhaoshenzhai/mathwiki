@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Category]]
+Constructions: [[Category of Sets]]
 Generalizations: [[Composition (Relation)]]
 
 Properties: [[Composition with identities preserve functions]], [[Composition of bijections is a bijection]]
