@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Meet-semilattice]]
+Constructions: [[Meet-semilattice]], [[Dedekind-complete Ordered Set]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

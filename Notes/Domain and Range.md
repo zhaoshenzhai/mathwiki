@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: [[Domain and range of inverse relation]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Domain and range of relation are sets (Kuratowski)]], [[Domain and range of relation are sets (General)]]
+Justifications: [[Domain and range of relation are sets (Kuratowski)]]
 
 ``` ad-Definition
 title: Definition.

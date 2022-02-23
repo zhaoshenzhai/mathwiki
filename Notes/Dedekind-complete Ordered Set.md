@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Dedekind-complete bounded convex sets are intervals]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Least upper bound iff greatest lower bound]]
+Equivalences: [[LUB property iff GLB property]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

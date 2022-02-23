@@ -8,7 +8,7 @@ Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_
-Counterexamples: _Not Applicable_
+Counterexamples: [[Monos and epis need not have one-sided inverses]]
 
 ``` ad-Proposition
 title: Proposition.

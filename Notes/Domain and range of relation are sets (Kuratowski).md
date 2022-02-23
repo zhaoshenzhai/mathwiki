@@ -5,7 +5,7 @@ Date Created: 20/01/2022 07:45:41
 Tags: #Proposition #Closed 
 
 Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]]
-Generalizations: _Not Applicable_
+Generalizations: [[Domain and range of relation are sets (General)]]
 
 Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
