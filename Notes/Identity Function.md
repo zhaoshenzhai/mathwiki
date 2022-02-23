@@ -7,7 +7,7 @@ Tags: #Definition #Closed
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
 Constructions: [[Reflexive Closure]], [[Category of Sets]]
-Generalizations: _Not Applicable_
+Generalizations: [[Identity Morphism]]
 
 Properties: [[Identity function is a bijection]], [[Composition with identities preserve functions]]
 Sufficiencies: _Not Applicable_

@@ -5,7 +5,7 @@ Date Created: 27/01/2022 13:41:57
 Tags: #Proposition #Closed 
 
 Proved by: [[Invertible iff bijective]]
-Generalizations: _Not Applicable_
+Generalizations: [[Inverse of isomorphism is an isomorphism]]
 
 Examples: _Not Applicable_
 Counterexamples: _Not Applicable_

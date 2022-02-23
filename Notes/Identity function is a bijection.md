@@ -5,7 +5,7 @@ Date Created: 27/01/2022 10:06:17
 Tags: #Proposition #Closed 
 
 Proved by: _Not Applicable_
-Generalizations: _Not Applicable_
+Generalizations: [[Identity morphism is an isomorphism]]
 
 Examples: _Not Applicable_
 Counterexamples: _Not Applicable_

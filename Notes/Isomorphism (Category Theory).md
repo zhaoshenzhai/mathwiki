@@ -5,12 +5,12 @@ Date Created: 22/02/2022 11:26:30
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Identity morphisms are isomorphisms]]
+Examples: [[Identity morphism is an isomorphism]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
-Sufficiencies: [[Inverse of isomorphisms are isomorphisms]], [[Composition of isomorphims are isomorphisms]]
+Properties: [[Inverse of isomorphism is an isomorphism]], [[Composition of isomorphims are isomorphisms]], [[Isomorphism of objects is an equivalence relation]]
+Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
