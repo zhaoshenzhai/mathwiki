@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Axiom of Extensionality]]
 Generalizations: [[Set-builder notation is unique]]
 
-Converses: _Not Applicable_
+Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]]
 Generalizations: [[Domain and range of relation are sets (General)]]
 
-Converses: _Not Applicable_
+Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

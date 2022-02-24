@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Right inverse implies epimorphism]], [[Right inverse iff surjection (Choice)]], [[Composition with identities preserve functions]], [[Composition of relations is associative]]
 Generalizations: _Not Applicable_
 
-Converses: _Not Applicable_
+Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

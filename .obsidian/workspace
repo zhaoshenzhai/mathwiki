@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "356c163e50fc77ca",
+        "id": "0f48137127a590cc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Standard Topology on R.md",
+            "file": "Notes/Right inverse implies epimorphism.md",
             "mode": "preview",
             "source": true
           }
@@ -75,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Standard Topology on R.md",
+                "file": "Notes/Right inverse implies epimorphism.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Standard Topology on R.md",
+                "file": "Notes/Right inverse implies epimorphism.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -159,7 +159,7 @@
                   "repelStrength": 11.3611560226354,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.06223535584878636,
+                  "scale": 0.6384023720987917,
                   "close": true
                 }
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Standard Topology on R.md",
+                "file": "Notes/Right inverse implies epimorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,17 +184,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "356c163e50fc77ca",
+  "active": "0f48137127a590cc",
   "lastOpenFiles": [
-    "Notes/Standard Topology on R.md",
-    "Notes/Non-identity morphisms in thin category are monomorphisms with no left inverses.md",
-    "Notes/Thin Category.md",
-    "Notes/Morphisms in thin category are both monos and epis.md",
+    "Notes/Right inverse implies epimorphism.md",
     "Notes/Left inverse implies monomorphism.md",
-    "Notes/Epimorphism (Category Theory).md",
-    "Notes/Monomorphism (Category Theory).md",
-    "Notes/Preorder.md",
-    "Notes/Preordered Set.md",
-    "Notes/Function.md"
+    "Notes/Union is monotone w.r.t. subsets.md",
+    "Notes/Union of empty set is empty.md",
+    "Notes/Thin Category.md",
+    "Notes/Cartesian Product (Kuratowski).md",
+    "Notes/Subspace Topology.md",
+    "Notes/Topological Subspace.md",
+    "Notes/Subset.md",
+    "Notes/Lattice of Subsets.md"
   ]
 }

@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Left inverse iff injection]], [[Right inverse iff surjection (Choice)]], [[Composition of relations is associative]], [[Composition with identities preserve functions]]
 Generalizations: _Not Applicable_
 
-Converses: _Not Applicable_
+Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

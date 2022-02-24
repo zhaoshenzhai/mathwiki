@@ -7,7 +7,7 @@ Tags: #Proposition #Open
 Proved by: [[Identity function is a bijection]], [[Inverse of bijection is a bijection]], [[Composition of bijections is a bijection]]
 Generalizations: [[Isomorphism of objects is an equivalence relation]]
 
-Converses: _Not Applicable_
+Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 **Remark.** Here, $\iso$ is taken as a $\textrm{`}$binary relation$\textrm{'}$ defined by $X\iso Y$ iff there exists a bijection $f:X\to Y$; it is _not_ a binary relation in the strict sense as the domain is the proper class of all sets. The situation is analogous to that of the subset relation.<span style="float:right;">$\blacklozenge$</span>

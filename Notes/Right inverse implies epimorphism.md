@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Converses: _Not Applicable_
+Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
@@ -30,3 +30,7 @@ $$\begin{equation}
     \end{alignedat}
 \end{equation}$$
 from which it follows that $f$ is an epimorphism.<span style="float:right;">$\blacksquare$</span>
+
+---
+
+**Remark.** The converse does not generically hold. Take, for instance, the preorder category induced by $\l\langle\Z,\leq\r\rangle$ where $\leq$ is the standard ordering on $\mb{Z}$. Every morphism $\l\langle m,n\r\rangle$ where $m,n\in\Z$ is an epimorphism since for all $k\in\Z$, if there exists $\alpha_1,\alpha_2:n\to k$, then necessarily $\alpha_1=\alpha_2$ as $\hom\l(n,k\r)=\l\{\l\langle n,k\r\rangle\r\}$ is a singleton. However, for any $a,b\in\Z$ with $a<b$, the morphism $\l\langle a,b\r\rangle$ does not have a right-inverse (nor a left one, in fact) since $b\not\leq a$ and thus $\hom\l(b,a\r)=\em$.<span style="float:right;">$\blacklozenge$</span>

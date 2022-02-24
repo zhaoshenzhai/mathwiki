@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: [[Intersection of subsets is a subset of intersection]]
 
-Converses: _Not Applicable_
+Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

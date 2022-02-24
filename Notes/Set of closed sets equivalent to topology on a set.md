@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Double complement of set is set itself]], [[De Morgan's Laws]]
 Generalizations: _Not Applicable_
 
-Converses: _Not Applicable_
+Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Strict lexicographical order is a strict partial order]]
 Generalizations: _Not Applicable_
 
-Converses: _Not Applicable_
+Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Criteria for subbasis to generate existing basis]], [[Subspace topology (basis)]]
 Generalizations: _Not Applicable_
 
-Converses: _Not Applicable_
+Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

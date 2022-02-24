@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Formula in replacement image constructs a function]]
 Generalizations: [[Projection maps (arbitrary) are surjections]]
 
-Converses: _Not Applicable_
+Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

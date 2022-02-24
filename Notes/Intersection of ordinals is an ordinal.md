@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Well-ordering well-orders subsets]]
 Generalizations: _Not Applicable_
 
-Converses: _Not Applicable_
+Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
