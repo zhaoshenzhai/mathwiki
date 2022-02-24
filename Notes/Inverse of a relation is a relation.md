@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Binary relation iff subset of Cartesian product]], [[Set-builder notation is unique]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
+Converses: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

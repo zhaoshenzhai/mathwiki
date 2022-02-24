@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: [[Identity morphism is an isomorphism]]
 
-Examples: _Not Applicable_
+Converses: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

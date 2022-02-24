@@ -7,8 +7,8 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
-Counterexamples: [[Monos and epis need not have one-sided inverses]]
+Converses: [[Monos and epis need not have one-sided inverses]]
+Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

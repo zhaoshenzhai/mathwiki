@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Empty set is unique]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
+Converses: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Composition of relations is a relation]], [[Composition with identities preserve functions]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
+Converses: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

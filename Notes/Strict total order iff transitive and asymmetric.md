@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Asymmetry implies irreflexivity]], [[Irreflexive and transitive implies asymmetric]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
+Converses: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Half-infinite open rays are open in the order topology]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
+Converses: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

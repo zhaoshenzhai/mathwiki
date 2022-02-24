@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Criteria for collection to be a basis for an existing topology]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
+Converses: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

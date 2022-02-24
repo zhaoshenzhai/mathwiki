@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Reflexive closure of connected relation is connected]], [[Reflexive closure is the smallest reflexive relation]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
+Converses: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

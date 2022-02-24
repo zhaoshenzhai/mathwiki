@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "06e1bff6588e87bf",
+        "id": "ab284b4c6d9b9880",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Monos and epis need not have one-sided inverses.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -71,6 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Monos and epis need not have one-sided inverses.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Monos and epis need not have one-sided inverses.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -153,9 +159,21 @@
                   "repelStrength": 11.3611560226354,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.3337979775605461,
+                  "scale": 0.8332203165271768,
                   "close": true
                 }
+              }
+            }
+          },
+          {
+            "id": "4a31ac507f5b8ba4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes/Monos and epis need not have one-sided inverses.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -166,17 +184,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "06e1bff6588e87bf",
+  "active": "ab284b4c6d9b9880",
   "lastOpenFiles": [
-    "Notes/Complete Lattice.md",
-    "Notes/Lattice of Topologies.md",
-    "Notes/Lattice.md",
-    "Notes/Inclusion Poset.md",
-    "Notes/LUB property iff GLB property.md",
-    "Notes/Dedekind-complete Ordered Set.md",
-    "Notes/Infimum.md",
-    "Notes/Supremum.md",
     "Notes/Monos and epis need not have one-sided inverses.md",
-    "Notes/Monomorphism (Category Theory).md"
+    "Notes/Right inverse implies epimorphism.md",
+    "Notes/Left inverse implies monomorphism.md",
+    "Notes/Ordered square is strict subset of subspace topology.md",
+    "Notes/Restricted order topology subset of subspace topology.md",
+    "Notes/Monomorphism (Category Theory).md",
+    "Notes/Function.md",
+    "Notes/Category.md",
+    "Notes/Function space is a set.md",
+    "Notes/Poset.md"
   ]
 }

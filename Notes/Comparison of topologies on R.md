@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Upper-limit topology strictly finer than standard topology on R]], [[Lower-limit topology strictly finer than standard topology on R]], [[K topology strictly finer than standard topology on R]], [[Upper-limit topology strictly finer than K topology on R]], [[Lower and upper limit topologies are not comparable on R]], [[Lower and K topologies are not comparable on R]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
+Converses: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

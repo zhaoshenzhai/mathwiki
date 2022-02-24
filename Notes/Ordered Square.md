@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Ordered square is not subspace of order topology]], [[Subspace of order topology strictly finer than product topology on ordered square]], [[Order and product topologies not comparable on ordered square]]
+Properties: [[Ordered square is strict subset of subspace topology]], [[Subspace of order topology strictly finer than product topology on ordered square]], [[Order and product topologies not comparable on ordered square]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

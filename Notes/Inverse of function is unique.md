@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Composition with identities preserve functions]], [[Composition of relations is associative]]
 Generalizations: [[Inverse of morphism is unique]]
 
-Examples: _Not Applicable_
+Converses: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
