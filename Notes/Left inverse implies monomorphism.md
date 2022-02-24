@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Converses: [[Monos and epis need not have one-sided inverses]]
+Converses: [[Non-identity morphisms in thin category are monomorphisms with no left inverses]]
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

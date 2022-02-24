@@ -10,7 +10,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Left inverse implies monomorphism]]
+Sufficiencies: [[Left inverse implies monomorphism]], [[Morphisms in thin category are both monos and epis]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
