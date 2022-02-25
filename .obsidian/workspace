@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ce74620f7011979f",
+        "id": "6e2a3214b2eadf40",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Universal set is a proper class.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -57,8 +61,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8e7f007a049e5551",
@@ -71,6 +74,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Universal set is a proper class.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +106,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Universal set is a proper class.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -165,6 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Universal set is a proper class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,17 +183,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "ce74620f7011979f",
+  "active": "6e2a3214b2eadf40",
   "lastOpenFiles": [
+    "Notes/Universal set is a proper class.md",
+    "Notes/Greatest Element.md",
+    "Notes/Lattice of Subsets.md",
+    "Notes/Restriction of function is a function.md",
+    "Notes/Isomorphism (Category Theory).md",
+    "Notes/Identity morphism is an isomorphism.md",
+    "Notes/Morphism (Category Theory).md",
     "Notes/Slice Category.md",
-    "Notes/Category of relations is a category.md",
-    "Notes/Slice category is a category.md",
     "Notes/Category.md",
-    "Notes/Category of Relations.md",
-    "Notes/Category of sets is a category.md",
-    "Notes/Preorder Category.md",
-    "Notes/Category of Sets.md",
-    "Notes/Relative Complement.md",
-    "Notes/Topology on a Set.md"
+    "Notes/Category of relations is a category.md"
   ]
 }

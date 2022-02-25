@@ -21,7 +21,7 @@ _Proof._ Suppose, for contradiction, that such a set $v$ exists, i.e., $\ex v\fa
 $$\begin{equation}
     \ex z\fa x\l[x\in z\Leftrightarrow\l(x\in v\land x\not\in x\r)\r].
 \end{equation}$$
-Now, because $u\in v$ for all sets $u$, and $z$ is a set, we have $z\in v$ too.
+Now, because $u\in v$ for all sets $u$ and $z$ is a set, we have $z\in v$ too.
 * If $z\in z$, then, by $\textrm{`}$construction$\textrm{'}$, we have $z\in v\land z\not\in z$. In particular, we have $z\in z\Rightarrow z\not\in z$.
 * If $z\not\in z$, then, because we already have $z\in v$, we see that $z\in z$ too. Therefore, $z\not\in z\Rightarrow z\in z$.
 
