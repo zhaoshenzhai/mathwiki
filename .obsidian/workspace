@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "701686074db916b9",
+        "id": "e2b1d6d8676b8a1a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Slice Category.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -71,6 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Slice Category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Slice Category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -153,7 +159,7 @@
                   "repelStrength": 11.3611560226354,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.3903825992498458,
+                  "scale": 1.81362765935906,
                   "close": true
                 }
               }
@@ -165,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Slice Category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,17 +184,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "701686074db916b9",
+  "active": "e2b1d6d8676b8a1a",
   "lastOpenFiles": [
+    "Notes/Slice Category.md",
     "Notes/Category.md",
-    "Notes/Category of Relations.md",
-    "Notes/Category of relations is a category.md",
-    "Notes/Identity Function.md",
-    "Notes/Preorder category is a category.md",
-    "Notes/Category of sets is a category.md",
+    "Notes/Isomorphism (Category Theory).md",
+    "Notes/Groupoid.md",
     "Notes/Binary Relation.md",
-    "Notes/Totally Ordered Set.md",
-    "Notes/Category of Sets.md",
-    "Notes/Preorder Category.md"
+    "Notes/Automorphism (Category Theory).md",
+    "Notes/Morphism (Category Theory).md",
+    "Notes/Endomorphism (Category Theory).md",
+    "Notes/Category of Relations.md",
+    "Notes/Category of relations is a category.md"
   ]
 }

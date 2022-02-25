@@ -4,9 +4,9 @@
 Date Created: 22/02/2022 11:26:30
 Tags: #Definition #Closed 
 
-Types: _Not Applicable_
+Types: [[Automorphism (Category Theory)]]
 Examples: [[Identity morphism is an isomorphism]]
-Constructions: _Not Applicable_
+Constructions: [[Groupoid]]
 Generalizations: _Not Applicable_
 
 Properties: [[Inverse of isomorphism is an isomorphism]], [[Composition of isomorphims are isomorphisms]], [[Isomorphism of objects is an equivalence relation]]
