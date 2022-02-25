@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e2b1d6d8676b8a1a",
+        "id": "9d3d3c3f91846827",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Slice Category.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "34b3deb84de49538",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Category of Sets.md",
             "mode": "preview",
             "source": true
           }
@@ -184,17 +196,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "e2b1d6d8676b8a1a",
+  "active": "9d3d3c3f91846827",
   "lastOpenFiles": [
     "Notes/Slice Category.md",
+    "Notes/Category of Sets.md",
     "Notes/Category.md",
+    "Notes/Morphism (Category Theory).md",
+    "Notes/Thin Category.md",
     "Notes/Isomorphism (Category Theory).md",
     "Notes/Groupoid.md",
     "Notes/Binary Relation.md",
     "Notes/Automorphism (Category Theory).md",
-    "Notes/Morphism (Category Theory).md",
-    "Notes/Endomorphism (Category Theory).md",
-    "Notes/Category of Relations.md",
-    "Notes/Category of relations is a category.md"
+    "Notes/Endomorphism (Category Theory).md"
   ]
 }
