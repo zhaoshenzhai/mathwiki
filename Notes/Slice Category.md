@@ -17,16 +17,18 @@ Justifications: [[Slice category is a category]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category and fix $X\in\obj\l(\cat{C}\r)$. The **slice category of $\cat{C}$ over $X$** is the category $\l(\cat{C}\downarrow X\r)$ where_
-* _$\obj\l(\cat{C}\downarrow X\r)\coloneqq\l\{f\in\hom\l(\cat{C}\r)\mid\ex Z\in\obj\l(\cat{C}\r):\cdm f=X\r\}$ containing all $\cat{C}$-morphisms $f$ with $\cdm f=X$,_
+_Let $\cat{C}$ be a category and fix $X\in\obj\l(\cat{C}\r)$. The **slice category of $\cat{C}$ over $X$** is the category $\l(\cat{C}\downarrow X\r)$ defined by the following data:_
+* _The objects are $\cat{C}$-morphisms $f$ with $\cdm f=X$, that is,_
+$$\begin{equation}
+    \obj\l(\cat{C}\downarrow X\r)\coloneqq\l\{f\in\hom_\cat{C}\!\l(Z,X\r)\mid Z\in\obj\l(\cat{C}\r)\r\}.
+\end{equation}$$
+* _For all $\l(\cat{C}\downarrow X\r)$-objects $f$ and $g$, the morphisms from $f$ to $g$ are $\cat{C}$-morphisms $\sigma:\dom f\to\dom g$ such that the diagram_
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/25-02-2022_145240/image.svg", width=200></center>
 
-* _for all $f,g\in\obj\l(\cat{C}\downarrow X\r)$,_$$\begin{equation}
-        \hom_{\cat{C}\downarrow X}\!\l(f,g\r)\coloneqq\l\{\sigma\in\hom_\cat{C}\!\l(\dom f,\dom g\r)\mid f=g\circ\sigma\r\}
-    \end{equation}$$
-    _containing all $\cat{C}$-morphisms $\sigma:\dom f\to\dom g$ such that the diagram_
-    <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/25-02-2022_145240/image.svg"></center>
-_commutes,_
-* _for all $f\in\obj\l(\cat{C}\downarrow X\r)$,_ $\id_f\coloneqq\id_{\dom f}$_,_
-* _for all morphisms $\sigma:f\to g$ and $\tau:g\to h$, the composite morphism $\tau\circ\sigma$ is the composition function $\tau\circ\sigma:\dom f\to\dom h$._
+  _commutes, that is,_$$\begin{equation}
+      \hom_{\l(\cat{C}\downarrow X\r)}\!\l(f,g\r)\coloneqq\l\{\sigma\in\hom_\cat{C}\!\l(\dom f,\dom g\r)\mid f=g\circ\sigma\r\}.
+  \end{equation}$$
+* _For all $\l(\cat{C}\downarrow X\r)$-objects $f$, the identity morphism on $f$ is the $\cat{C}$-identity on $\dom f$._
+* _For all $\l(\cat{C}\downarrow X\r)$-morphisms $\sigma:f\to g$ and $\tau:g\to h$, the composite morphism of $\tau$ after $\sigma$ is the composite function $\tau\circ\sigma:\dom f\to\dom h$._
 
 ```
