@@ -17,7 +17,7 @@ _Let $\N$ be the set of natural numbers. Then the standard topology_ $\mc{T}\col
 
 ```
 
-_Proof_. Consider the collection $\mc{B}\coloneqq\l\{\l\{n\r\}\in\mc{P}\l(\N\r)\mid n\in\N\r\}$; it suffices to prove that $\mc{B}$ is a basis that generates $\mc{T}$.
+_Proof_. Consider the collection $\mc{B}\coloneqq\l\{\l\{n\r\}\in\pow\l(\N\r)\mid n\in\N\r\}$; it suffices to prove that $\mc{B}$ is a basis that generates $\mc{T}$.
 * ($\mc{B}\subseteq\mc{T}$): Take $\l\{n\r\}\in\mc{B}$ where $n\in\N$ and observe that
 $$\begin{equation}
     \l\{n\r\}=
@@ -28,4 +28,4 @@ $$\begin{equation}
 \end{equation}$$
 In both cases, we have $\l\{n\r\}\in\mc{T}$.
 
-* ($\fa U\in\mc{T},\fa x\in U,\ex B\in\mc{B}:x\in B\subseteq U$): Take $U\in\mc{T}=\mc{T}\l(\mc{B}_\textrm{or}\r)$ and $x\in U$, so there exists $\mc{A}\subseteq\mc{B}_\textrm{or}$ such that $U=\bigcup\mc{A}$ and there exists $A\in\mc{A}$ such that $x\in A$. Recall that $\mc{B}_\textrm{or}\subseteq\mc{P}\l(\N\r)$, so $\mc{A}\subseteq\mc{P}\l(\N\r)$ and thus $A\subseteq\N$ for all $A\in\mc{A}$. It follows that $x\in\N$ and hence $\l\{x\r\}\in\mc{B}$. Since $x\in U$, we see that $\l\{x\r\}\subseteq U$.<span style="float:right;">$\blacksquare$</span>
+* ($\fa U\in\mc{T},\fa x\in U,\ex B\in\mc{B}:x\in B\subseteq U$): Take $U\in\mc{T}=\mc{T}\l(\mc{B}_\textrm{or}\r)$ and $x\in U$, so there exists $\mc{A}\subseteq\mc{B}_\textrm{or}$ such that $U=\bigcup\mc{A}$ and there exists $A\in\mc{A}$ such that $x\in A$. Recall that $\mc{B}_\textrm{or}\subseteq\pow\l(\N\r)$, so $\mc{A}\subseteq\pow\l(\N\r)$ and thus $A\subseteq\N$ for all $A\in\mc{A}$. It follows that $x\in\N$ and hence $\l\{x\r\}\in\mc{B}$. Since $x\in U$, we see that $\l\{x\r\}\subseteq U$.<span style="float:right;">$\blacksquare$</span>

@@ -17,6 +17,6 @@ Justifications: [[Discrete topology is a topology]]
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. The **discrete topology on $X$** is topology_ $\mc{T}_\textrm{discrete}\coloneqq\mc{P}\l(X\r)$_._
+_Let $X$ be a set. The **discrete topology on $X$** is topology_ $\mc{T}_\textrm{discrete}\coloneqq\pow\l(X\r)$_._
 
 ```

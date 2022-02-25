@@ -19,11 +19,11 @@ _Let $\l\langle X,<\r\rangle$ be a totally ordered set and fix a convex subset $
 
 _Proof_. The forward inclusion is proven. Recall that the collections
 $$\begin{equation}
-    \mc{S}_\textrm{or}\coloneqq\l\{S\in\mc{P}\l(Y\r)\mid\l[\ex a\in Y:S=\l(a,+\infty\r)_Y\r]\lor\l[\ex b\in Y:S=\l(-\infty,b\r)_Y\r]\r\}
+    \mc{S}_\textrm{or}\coloneqq\l\{S\in\pow\l(Y\r)\mid\l[\ex a\in Y:S=\l(a,+\infty\r)_Y\r]\lor\l[\ex b\in Y:S=\l(-\infty,b\r)_Y\r]\r\}
 \end{equation}$$
 and
 $$\begin{equation}
-    \mc{S}_\textrm{sb}\coloneqq\l\{S\in\mc{P}\l(Y\r)\mid\l[\ex a\in X:S=\l(a,+\infty\r)_X\cap Y\r]\lor\l[\ex b\in X:S=\l(-\infty,b\r)_X\cap Y\r]\r\}
+    \mc{S}_\textrm{sb}\coloneqq\l\{S\in\pow\l(Y\r)\mid\l[\ex a\in X:S=\l(a,+\infty\r)_X\cap Y\r]\lor\l[\ex b\in X:S=\l(-\infty,b\r)_X\cap Y\r]\r\}
 \end{equation}$$
 are subbases for the topologies $\mc{T}\l(\l.<\r|_Y\r)$ and $\l.\mc{T}\l(<\r)\r|_Y$, respectively. It suffices to show that $\mc{S}_\textrm{sb}\subseteq\mc{T}\l(\l.<\r|_Y\r)$, for then every $U\in\l.\mc{T}\l(<\r)\r|_Y$ can be written as an arbitrary union of finite intersections of open sets in $\mc{T}\l(\l.<\r|_Y\r)$ and are thus also open in $\mc{T}\l(\l.<\r|_Y\r)$. To this end, take $S\in\mc{S}_\textrm{sb}$; there are two cases to consider, but they are analogous so we shall assume that $S=\l(a,+\infty\r)_X\cap Y$ for some $a\in X$. Observe that either $a\in Y$ or $a\not\in Y$.
 * In the former case, we see that$$\begin{equation}

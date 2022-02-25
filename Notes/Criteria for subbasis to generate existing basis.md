@@ -23,7 +23,7 @@ _then $\mc{T}\l(\mc{S}\r)=\mc{T}\l(\mc{B}\r)$._
 
 _Proof_. Define the set
 $$\begin{equation}
-    \mc{B}'\coloneqq\l\{B\in\mc{P}\l(X\r)\mid\ex\mc{R}\subseteq\mc{S}:0<\l|\mc{R}\r|<\infty\land B=\bigcap\mc{R}\r\},
+    \mc{B}'\coloneqq\l\{B\in\pow\l(X\r)\mid\ex\mc{R}\subseteq\mc{S}:0<\l|\mc{R}\r|<\infty\land B=\bigcap\mc{R}\r\},
 \end{equation}$$
 so $\mc{B}\subseteq\mc{B}'$ and recall that $\mc{T}\l(\mc{S}\r)\coloneqq\mc{T}\l(\mc{B}'\r)$ is indeed a topology on $X$.
 * ($\mc{T}\l(\mc{S}\r)\subseteq\mc{T}\l(\mc{B}\r)$): Take $U\in\mc{T}\l(\mc{S}\r)$, so $U\in\mc{T}\l(\mc{B}'\r)$ and thus there exists $\mc{A}'\subseteq\mc{B}'$ such that $U=\bigcup\mc{A}'$. Observe that

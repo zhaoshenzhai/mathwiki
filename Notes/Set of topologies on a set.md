@@ -19,7 +19,7 @@ title: Definition.
 
 _Let $X$ be a set. The **set of topologies on $X$** is the set_
 $$\begin{equation}
-    \Sigma\coloneqq\l\{\mc{T}\in\mc{P}\l(\mc{P}\l(X\r)\r)\mid\mc{T}\textrm{ is a topology on }X\r\}.
+    \Sigma\coloneqq\l\{\mc{T}\in\pow\l(\pow\l(X\r)\r)\mid\mc{T}\textrm{ is a topology on }X\r\}.
 \end{equation}$$
 
 ```

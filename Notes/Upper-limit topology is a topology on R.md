@@ -15,7 +15,7 @@ title: Proposition.
 
 _Let $\R$ be the set of real numbers. Then the upper limit topology_ $\mc{T}_\textrm{UL}\coloneqq\mc{T}\l(\mc{B}_\textrm{UL}\r)$ _where_
 $$\begin{equation}
-    \mc{B}_\textrm{UL}\coloneqq\l\{B\in\mc{P}\l(\R\r)\mid \ex a,b\in\R:a<b\land B=\l(a,b\r]\r\}.
+    \mc{B}_\textrm{UL}\coloneqq\l\{B\in\pow\l(\R\r)\mid \ex a,b\in\R:a<b\land B=\l(a,b\r]\r\}.
 \end{equation}$$
 _is a topology on $\R$._
 

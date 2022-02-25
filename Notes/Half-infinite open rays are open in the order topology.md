@@ -19,9 +19,9 @@ _Let $\l\langle X,<\r\rangle$ be a totally ordered set. If $X$ has no minimal el
 
 _Proof_. Suppose that $X$ has no minimal element and take $b\in\R$. Observe then that
 $$\begin{equation}
-    \l(-\infty,b\r)=\bigcup\underbrace{\l\{U\in\mc{P}\l(\R\r)\mid\ex a\in\R:a<b\land U=\l(a,b\r)\r\}}_{\mathclap{\subseteq\mc{B}}}
+    \l(-\infty,b\r)=\bigcup\underbrace{\l\{U\in\pow\l(\R\r)\mid\ex a\in\R:a<b\land U=\l(a,b\r)\r\}}_{\mathclap{\subseteq\mc{B}}}
 \end{equation}$$
 where $\mc{B}$ is the basis that generates $\mc{T}\l(<\r)$. Similarly, if $X$ has no maximal element, take $a\in\R$ and observe that
 $$\begin{equation}
-    \l(a,+\infty\r)=\bigcup\underbrace{\l\{U\in\mc{P}\l(\R\r)\mid\ex b\in\R:a<b\land U=\l(a,b\r)\r\}}_{\mathclap{\subseteq\mc{B}}}.\qedin
+    \l(a,+\infty\r)=\bigcup\underbrace{\l\{U\in\pow\l(\R\r)\mid\ex b\in\R:a<b\land U=\l(a,b\r)\r\}}_{\mathclap{\subseteq\mc{B}}}.\qedin
 \end{equation}$$

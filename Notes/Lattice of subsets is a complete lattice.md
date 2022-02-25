@@ -13,17 +13,17 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set. Then the pair $\l\langle\mc{P}\l(X\r),\subseteq\r\rangle$ is a complete lattice._
+_Let $X$ be a set. Then the pair $\l\langle\pow\l(X\r),\subseteq\r\rangle$ is a complete lattice._
 
 ```
 
-_Proof_. Observe that $\l\langle\mc{P}\l(X\r),\subseteq\r\rangle$ is a poset, so it suffices to prove that every subset of $\mc{P}\l(X\r)$ has both a join and a meet. To this end, take $\mc{Y}\subseteq\mc{P}\l(X\r)$.
-* If $\mc{Y}=\em$, then every $W\in\mc{P}\l(X\r)$ is vacuously an upper and lower bound of $\mc{Y}$.
+_Proof_. Observe that $\l\langle\pow\l(X\r),\subseteq\r\rangle$ is a poset, so it suffices to prove that every subset of $\pow\l(X\r)$ has both a join and a meet. To this end, take $\mc{Y}\subseteq\pow\l(X\r)$.
+* If $\mc{Y}=\em$, then every $W\in\pow\l(X\r)$ is vacuously an upper and lower bound of $\mc{Y}$.
     * For the join of $\em$, we need to find an upper bound that is a subset of every subset of $X$; simply take $\em$ itself.
     * For the meet of $\em$, observe that every lower bound is a subset of $X$, so $X$ is the greatest such lower bound.
 * Assume now that $\mc{Y}\neq\em$.
-    * Recall that $\fa Y\in\mc{Y}:Y\subseteq\bigcup\mc{Y}$, so $\bigcup\mc{Y}$ is an upper bound of $\mc{Y}$. Furthermore, we have $\bigcup\mc{Y}\subseteq U$ for every $U\in\mc{P}\l(X\r)$ such that $\fa Y\in\mc{Y}:Y\subseteq U$. To see this, take $W\in\bigcup\mc{Y}$, so there exists $Y\in\mc{Y}$ such that $W\in Y$. But $Y\subseteq U$, so $W\in U$ too.
-    * Recall that $\fa Y\in\mc{Y}:\bigcap\mc{Y}\subseteq Y$, so $\bigcap\mc{Y}$ is a lower bound of $\mc{Y}$. Furthermore, we have $U\subseteq\bigcap\mc{Y}$ for every $U\in\mc{P}\l(X\r)$ such that $\fa Y\in\mc{Y}:U\subseteq Y$. To see this, take $W\in U$, so $W\in Y$ for all $Y\in\mc{Y}$ and thus $W\in\bigcap\mc{Y}$ by definition of the intersection.
+    * Recall that $\fa Y\in\mc{Y}:Y\subseteq\bigcup\mc{Y}$, so $\bigcup\mc{Y}$ is an upper bound of $\mc{Y}$. Furthermore, we have $\bigcup\mc{Y}\subseteq U$ for every $U\in\pow\l(X\r)$ such that $\fa Y\in\mc{Y}:Y\subseteq U$. To see this, take $W\in\bigcup\mc{Y}$, so there exists $Y\in\mc{Y}$ such that $W\in Y$. But $Y\subseteq U$, so $W\in U$ too.
+    * Recall that $\fa Y\in\mc{Y}:\bigcap\mc{Y}\subseteq Y$, so $\bigcap\mc{Y}$ is a lower bound of $\mc{Y}$. Furthermore, we have $U\subseteq\bigcap\mc{Y}$ for every $U\in\pow\l(X\r)$ such that $\fa Y\in\mc{Y}:U\subseteq Y$. To see this, take $W\in U$, so $W\in Y$ for all $Y\in\mc{Y}$ and thus $W\in\bigcap\mc{Y}$ by definition of the intersection.
     
 Overall, we have
 $$\begin{equation}

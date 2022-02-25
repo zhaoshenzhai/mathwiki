@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. A **partition of $X$** is a set $\Pi\subseteq\mc{P}\l(X\r)$ satisfying:_
+_Let $X$ be a set. A **partition of $X$** is a set $\Pi\subseteq\pow\l(X\r)$ satisfying:_
 * $\axipartition{1}\bf{.}$ _Elements of $\Pi$ are nonempty: $\fa P\in\Pi:P\neq\em$._
 * $\axipartition{2}\bf{.}$ _Elements of $\Pi$ are disjoint:_
 $$\begin{equation}
@@ -27,7 +27,7 @@ $$\begin{equation}
 
 ```
 
-**Remark.** The condition $\Pi\subseteq\mc{P}\l(X\r)$, along with $\axipartition{3}$, implies that $X=\bigcup\Pi$; observe that
+**Remark.** The condition $\Pi\subseteq\pow\l(X\r)$, along with $\axipartition{3}$, implies that $X=\bigcup\Pi$; observe that
 $$\begin{equation}
-    \bigcup\Pi\subseteq\bigcup\mc{P}\l(X\r)=X.\exqedin
+    \bigcup\Pi\subseteq\bigcup\pow\l(X\r)=X.\exqedin
 \end{equation}$$

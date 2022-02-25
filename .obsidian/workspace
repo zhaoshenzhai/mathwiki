@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0f48137127a590cc",
+        "id": "0f348222c859cadc",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Right inverse implies epimorphism.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -75,7 +71,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Right inverse implies epimorphism.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +102,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Right inverse implies epimorphism.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -171,7 +165,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Right inverse implies epimorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,17 +177,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "0f48137127a590cc",
+  "active": "0f348222c859cadc",
   "lastOpenFiles": [
-    "Notes/Right inverse implies epimorphism.md",
-    "Notes/Left inverse implies monomorphism.md",
-    "Notes/Union is monotone w.r.t. subsets.md",
-    "Notes/Union of empty set is empty.md",
-    "Notes/Thin Category.md",
-    "Notes/Cartesian Product (Kuratowski).md",
-    "Notes/Subspace Topology.md",
-    "Notes/Topological Subspace.md",
-    "Notes/Subset.md",
-    "Notes/Lattice of Subsets.md"
+    "Notes/Basis (Topology).md",
+    "Notes/Axiom of Power Set.md",
+    "Notes/Upper-limit topology is a topology on R.md",
+    "Notes/Order and product topologies not comparable on ordered square.md",
+    "Notes/Criteria for subbasis to generate existing basis.md",
+    "Notes/Power set is monotone w.r.t. subsets.md",
+    "Notes/Standard Topology on R.md",
+    "Notes/Power Set.md",
+    "Notes/Function.md",
+    "Notes/Criteria for equality of functions.md"
   ]
 }

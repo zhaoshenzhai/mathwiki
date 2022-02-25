@@ -13,29 +13,29 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set. Consider a collection $\mc{T}\subseteq\mc{P}\l(X\r)$ and define $\mc{F}\coloneqq\l\{C\in\mc{P}\l(X\r)\mid X\comp C\in\mc{T}\r\}$. If $\mc{T}$ is a topology on $X$, then_
+_Let $X$ be a set. Consider a collection $\mc{T}\subseteq\pow\l(X\r)$ and define $\mc{F}\coloneqq\l\{C\in\pow\l(X\r)\mid X\comp C\in\mc{T}\r\}$. If $\mc{T}$ is a topology on $X$, then_
 * ($\axitopcl{1}$): _$\em\in\mc{F}$ and $X\in\mc{F}$._
 * ($\axitopcl{2}$): _Arbitrary intersections of elements of $\mc{F}$ are in $\mc{F}$: $\fa\mc{C}\subseteq\mc{F}:\mc{C}\neq\em\Rightarrow\bigcap\mc{C}\in\mc{F}$._
 * ($\axitopcl{3}$): _Finite unions of elements of $\mc{F}$ are in $\mc{F}$: $\fa\mc{C}\subseteq\mc{F}:\mc{C}\textit{ is finite}\Rightarrow\bigcup\mc{C}\in\mc{F}.$_
 
-_Conversely, consider a collection $\mc{F}\subseteq\mc{P}\l(X\r)$ and define $\mc{T}\coloneqq\l\{U\in\mc{P}\l(X\r)\mid X\comp U\in\mc{F}\r\}$. If $\axitopcl{1}$ to $\axitopcl{3}$ hold for $\mc{F}$, then $\mc{T}$ is a topology on $X$._
+_Conversely, consider a collection $\mc{F}\subseteq\pow\l(X\r)$ and define $\mc{T}\coloneqq\l\{U\in\pow\l(X\r)\mid X\comp U\in\mc{F}\r\}$. If $\axitopcl{1}$ to $\axitopcl{3}$ hold for $\mc{F}$, then $\mc{T}$ is a topology on $X$._
 
 ```
 
 _Proof_. Take any $\mc{C}\subseteq\mc{F}$ and $\mc{U}\subseteq\mc{T}$. We need the following two lemmas:
 $$\begin{equation}
     \begin{alignedat}{2}
-        \l\{X\comp C\mid C\in\mc{C}\r\}&=\l\{U\in\mc{P}\l(X\r)\mid\ex C\in\mc{C}:U=X\comp C\r\}\ \ \ \ \ \ \ \ &&\textrm{Definition of set of relative complements}\\
-        &=\l\{U\in\mc{P}\l(X\r)\mid\ex C\in\mc{C}:X\comp U=C\r\}&&C\subseteq X\textrm{ and }X\comp U=X\comp\l(X\comp C\r)=C\\
-        &=\l\{U\in\mc{P}\l(X\r)\mid X\comp U\in\mc{C}\r\}&&\textrm{Substitution}\\
+        \l\{X\comp C\mid C\in\mc{C}\r\}&=\l\{U\in\pow\l(X\r)\mid\ex C\in\mc{C}:U=X\comp C\r\}\ \ \ \ \ \ \ \ &&\textrm{Definition of set of relative complements}\\
+        &=\l\{U\in\pow\l(X\r)\mid\ex C\in\mc{C}:X\comp U=C\r\}&&C\subseteq X\textrm{ and }X\comp U=X\comp\l(X\comp C\r)=C\\
+        &=\l\{U\in\pow\l(X\r)\mid X\comp U\in\mc{C}\r\}&&\textrm{Substitution}\\
         &\subseteq\mc{T}.&&\mc{C}\subseteq\mc{F}
     \end{alignedat}\tag{$\,1\,$}
 \end{equation}$$
 $$\begin{equation}
     \begin{alignedat}{2}
-        \l\{X\comp U\mid U\in\mc{U}\r\}&=\l\{C\in\mc{P}\l(X\r)\mid\ex U\in\mc{U}:C=X\comp U\r\}\ \ \ \ \ \ \ \ &&\textrm{Definition of set of relative complements}\\
-        &=\l\{C\in\mc{P}\l(X\r)\mid\ex U\in\mc{U}:X\comp C=U\r\}&&U\subseteq X\textrm{ and }X\comp C=X\comp\l(X\comp U\r)=U\\
-        &=\l\{C\in\mc{P}\l(X\r)\mid X\comp C\in\mc{U}\r\}&&\textrm{Substitution}\\
+        \l\{X\comp U\mid U\in\mc{U}\r\}&=\l\{C\in\pow\l(X\r)\mid\ex U\in\mc{U}:C=X\comp U\r\}\ \ \ \ \ \ \ \ &&\textrm{Definition of set of relative complements}\\
+        &=\l\{C\in\pow\l(X\r)\mid\ex U\in\mc{U}:X\comp C=U\r\}&&U\subseteq X\textrm{ and }X\comp C=X\comp\l(X\comp U\r)=U\\
+        &=\l\{C\in\pow\l(X\r)\mid X\comp C\in\mc{U}\r\}&&\textrm{Substitution}\\
         &\subseteq\mc{F}.&&\mc{U}\subseteq\mc{T}
     \end{alignedat}\tag{$\,2\,$}
 \end{equation}$$
@@ -60,8 +60,8 @@ $$\begin{equation}
 
 ---
 
-**Remark.** This allows us to instead define a topology on $X$ as a collection of subsets $\mc{F}\subseteq\mc{P}\l(X\r)$ satisfying $\axitopcl{1}$ to $\axitopcl{3}$; its elements are called closed sets. The original definition can then be recovered by defining
+**Remark.** This allows us to instead define a topology on $X$ as a collection of subsets $\mc{F}\subseteq\pow\l(X\r)$ satisfying $\axitopcl{1}$ to $\axitopcl{3}$; its elements are called closed sets. The original definition can then be recovered by defining
 $$\begin{equation}
-    \mc{T}\coloneqq\l\{U\in\mc{P}\l(X\r)\mid X\comp U\in\mc{F}\r\},
+    \mc{T}\coloneqq\l\{U\in\pow\l(X\r)\mid X\comp U\in\mc{F}\r\},
 \end{equation}$$
 that is, by defining open sets as relative complements of closed sets.<span style="float:right;">$\blacklozenge$</span>

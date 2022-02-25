@@ -25,6 +25,6 @@ $$\begin{equation}
 
 _Proof_. We shall prove the statement for $z_1$; the proof for $z_2$ is analogous. Let $\phi\l(x\r)$ denote the formula $\l(\ex u\in U\r)x=v\cup u$; we claim that
 $$\begin{equation}
-    \phi\l(x\r)\Rightarrow x\in\mc{P}\l(v\cup\bigcup U\r).
+    \phi\l(x\r)\Rightarrow x\in\pow\l(v\cup\bigcup U\r).
 \end{equation}$$
-To this end, take a set $x$ with $x=v\cup u$ for some $u\in U$. Since $u\subseteq\bigcup U$, we have $v\cup u\subseteq v\cup\bigcup U$. By definition of the power set, we have $v\cup u\in\mc{P}\l(v\cup\bigcup U\r)$, and so $x\in\mc{P}\l(v\cup\bigcup U\r)$.<span style="float:right;">$\blacksquare$</span>
+To this end, take a set $x$ with $x=v\cup u$ for some $u\in U$. Since $u\subseteq\bigcup U$, we have $v\cup u\subseteq v\cup\bigcup U$. By definition of the power set, we have $v\cup u\in\pow\l(v\cup\bigcup U\r)$, and so $x\in\pow\l(v\cup\bigcup U\r)$.<span style="float:right;">$\blacksquare$</span>

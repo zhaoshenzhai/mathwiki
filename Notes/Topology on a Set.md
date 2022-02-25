@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. A **topology on $X$** is a set $\mc{T}\subseteq\mc{P}\l(X\r)$ satisfying:_
+_Let $X$ be a set. A **topology on $X$** is a set $\mc{T}\subseteq\pow\l(X\r)$ satisfying:_
 * $\axitop{1}\bf{.}$ _$\em\in\mc{T}$ and $X\in\mc{T}$._
 * $\axitop{2}\bf{.}$ _Arbitrary unions of elements of $\mc{T}$ are in $\mc{T}$:_
 $$\begin{equation}

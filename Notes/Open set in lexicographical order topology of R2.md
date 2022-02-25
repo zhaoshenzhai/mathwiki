@@ -19,7 +19,7 @@ _Let $\l\langle\R^2,\mc{T}\r\rangle$ be the topological space where $\mc{T}\colo
 
 _Proof_. To show that $U\in\mc{T}\l(\mc{B}\r)$, it suffices to find some subset $\mc{A}\subseteq\mc{B}$ with $U=\bigcup\mc{A}$. Indeed, let
 $$\begin{equation}
-    \mc{A}\coloneqq\l\{A\in\mc{P}\l(\R^2\r)\mid\ex a,b,c,d\in\R:m<a\leq c<n\land A=\l(\l\langle a,b\r\rangle,\l\langle c,d\r\rangle\r)\r\}
+    \mc{A}\coloneqq\l\{A\in\pow\l(\R^2\r)\mid\ex a,b,c,d\in\R:m<a\leq c<n\land A=\l(\l\langle a,b\r\rangle,\l\langle c,d\r\rangle\r)\r\}
 \end{equation}$$
 and set $V\coloneqq\bigcup\mc{A}$; we wish to show that $U=V$.
 * ($U\subseteq V$): Take $\l\langle x,y\r\rangle\in U$, so $m<x<n$. Observe that
