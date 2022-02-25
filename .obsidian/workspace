@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0f348222c859cadc",
+        "id": "701686074db916b9",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -153,7 +153,7 @@
                   "repelStrength": 11.3611560226354,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.6384023720987917,
+                  "scale": 0.3903825992498458,
                   "close": true
                 }
               }
@@ -177,17 +177,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "0f348222c859cadc",
+  "active": "701686074db916b9",
   "lastOpenFiles": [
-    "Notes/Basis (Topology).md",
-    "Notes/Axiom of Power Set.md",
-    "Notes/Upper-limit topology is a topology on R.md",
-    "Notes/Order and product topologies not comparable on ordered square.md",
-    "Notes/Criteria for subbasis to generate existing basis.md",
-    "Notes/Power set is monotone w.r.t. subsets.md",
-    "Notes/Standard Topology on R.md",
-    "Notes/Power Set.md",
-    "Notes/Function.md",
-    "Notes/Criteria for equality of functions.md"
+    "Notes/Category.md",
+    "Notes/Category of Relations.md",
+    "Notes/Category of relations is a category.md",
+    "Notes/Identity Function.md",
+    "Notes/Preorder category is a category.md",
+    "Notes/Category of sets is a category.md",
+    "Notes/Binary Relation.md",
+    "Notes/Totally Ordered Set.md",
+    "Notes/Category of Sets.md",
+    "Notes/Preorder Category.md"
   ]
 }
