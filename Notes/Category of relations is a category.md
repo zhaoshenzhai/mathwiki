@@ -17,7 +17,7 @@ _The category of relations $\cat{Rel}$ (with objects $\l\langle X,\rho\r\rangle$
 
 ```
 
-_Proof_. It suffices to check that the identities and composite morphisms are well-defined; the axioms evidently hold since the $\cat{Rel}$-identities are $\cat{Set}$-identities and that the morphisms in $\cat{Rel}$ are, in particular, also morphisms in $\cat{Set}$.
+_Proof_.  It suffices to check that the identities and composite morphisms are well-defined since the axioms are inherited directly from that of $\cat{Set}$.
 * Take $\l\langle X,\rho\r\rangle\in\obj\l(\cat{Rel}\r)$ and $x_1,x_2\in X$. If $\l\langle x_1,x_2\r\rangle\in\rho$, observe that
 $$\begin{equation}
     \l\langle\id_{\l\langle X,\rho\r\rangle}\l(x_1\r),\id_{\l\langle X,\rho\r\rangle}\l(x_2\r)\r\rangle=\l\langle\id_X\l(x_1\r),\id_X\l(x_2\r)\r\rangle=\l\langle x_1,x_2\r\rangle\in\rho

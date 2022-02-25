@@ -4,12 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "de34f18a2e474624",
+        "id": "5a2be913ceb49914",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Slice Category.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "c3443e4119e4e7a1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Slice category is a category.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "a181850055de1614",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Category of relations is a category.md",
             "mode": "preview",
             "source": true
           }
@@ -75,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Slice Category.md",
+                "file": "Notes/Slice category is a category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Slice Category.md",
+                "file": "Notes/Slice category is a category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -171,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Slice Category.md",
+                "file": "Notes/Slice category is a category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,17 +208,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "de34f18a2e474624",
+  "active": "c3443e4119e4e7a1",
   "lastOpenFiles": [
+    "Notes/Slice category is a category.md",
+    "Notes/Category of relations is a category.md",
     "Notes/Slice Category.md",
-    "Notes/Preorder Category.md",
     "Notes/Category of Relations.md",
+    "Notes/Category of sets is a category.md",
+    "Notes/Preorder Category.md",
     "Notes/Category of Sets.md",
     "Notes/Relative Complement.md",
     "Notes/Category.md",
-    "Notes/Topology on a Set.md",
-    "Notes/Set-Builder Notation.md",
-    "Notes/Class.md",
-    "Notes/Morphism (Category Theory).md"
+    "Notes/Topology on a Set.md"
   ]
 }

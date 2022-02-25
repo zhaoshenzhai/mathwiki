@@ -1,0 +1,14 @@
+\documentclass[margin=20mm]{standalone}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\begin{document}
+    \begin{tikzcd}[column sep=3.6em, row sep=2.8em, color=textColor]
+        \dom f \ar[r, "\phi"] \ar[dr, "f"'] \ar[rr, "\psi\circ\phi", bend left=20]&
+            \dom g \ar[d, "g" description, background color=bgColor], \ar[r, "\psi"] & 
+                \dom h \ar[dl, "h"] \\
+        &
+            X
+    \end{tikzcd}
+\end{document}
