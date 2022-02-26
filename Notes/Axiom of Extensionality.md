@@ -8,7 +8,7 @@ Equivalences: _Not Applicable_
 Constructions: _Not Applicable_
 
 ``` ad-Axiom
-title: Axiom.(Extensionality).
+title: Axiom (Extensionality).
 
 _Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in\r\}$. The **Axiom of Extensionality** is the $\mc{L}$-formula_
 $$\begin{equation}
