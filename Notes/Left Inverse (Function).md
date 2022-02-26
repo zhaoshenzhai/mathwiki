@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Inverse (Function)]]
 Generalizations: [[Left Inverse (Morphism)]]
 
-Properties: _Not Applicable_
+Properties: [[Left and right inverses coincide (Function)]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Left inverse iff injection]]
 Justifications: _Not Applicable_

@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dd44719c7cb3d5a5",
+        "id": "a401fb6b581e15a8",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Inverse (Function).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "1915ba9271c049fe",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Inverse (Relation).md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -87,7 +71,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Inverse (Relation).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +102,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Inverse (Relation).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -183,7 +165,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Inverse (Relation).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,17 +177,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "1915ba9271c049fe",
+  "active": "a401fb6b581e15a8",
   "lastOpenFiles": [
-    "Notes/Inverse (Relation).md",
-    "Notes/Inverse of inverse relation is the relation itself.md",
-    "Notes/Inverse (Function).md",
-    "Notes/Inverse of morphism is unique.md",
+    "Notes/Left and right inverses coincide (Function).md",
+    "Notes/Left and right inverses coincide (Morphism).md",
+    "Notes/Right Inverse (Morphism).md",
     "Notes/Inverse (Morphism).md",
-    "Notes/Bijection.md",
-    "Notes/Invertible iff bijective.md",
-    "Notes/Isomorphism (Category Theory).md",
-    "Notes/Isomorphism of objects is an equivalence relation.md",
-    "Notes/Inverse of isomorphism is an isomorphism.md"
+    "Notes/Left Inverse (Morphism).md",
+    "Notes/Inverse (Relation).md",
+    "Notes/Inverse (Function).md",
+    "Notes/Left Inverse (Function).md",
+    "Notes/Right Inverse (Function).md",
+    "Notes/Identity Function.md"
   ]
 }

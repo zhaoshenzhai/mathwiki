@@ -1,0 +1,15 @@
+\documentclass[margin=20mm]{standalone}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\begin{document}
+    \begin{tikzcd}[color=textColor]
+        X \ar[r, "f"] \ar[dr, "\id_X"', bend right] &
+            Y \ar[d, "g" description, background color=bgColor] \ar[dr, "\id_Y", bend left] &
+                \\
+        &
+            X \ar[r, "f"'] &
+                Y
+    \end{tikzcd}
+\end{document}
