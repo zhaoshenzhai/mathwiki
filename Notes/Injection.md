@@ -14,6 +14,8 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Left inverse iff injection]], [[Image of intersection subset of intersection of images; equal iff injection]], [[Injection iff monomorphism (Set Theory)]]
 Justifications: _Not Applicable_
 
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
+
 ``` ad-Definition
 title: Definition.
 

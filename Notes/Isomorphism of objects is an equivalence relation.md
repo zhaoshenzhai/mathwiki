@@ -10,6 +10,8 @@ Generalizations: _Not Applicable_
 Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
+
 **Remark.** Here, $\iso$ is taken as a $\textrm{`}$binary relation$\textrm{'}$ defined by $X\iso Y$ iff there exists a morphism $f:X\to Y$; it is _not_ a binary relation in the strict sense since $X$ and $Y$ need not be sets.<span style="float:right;">$\blacklozenge$</span>
 
 ``` ad-Proposition

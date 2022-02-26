@@ -7,6 +7,8 @@ Tags: #Axiom #Open
 Equivalences: _Not Applicable_
 Constructions: [[Set of Natural Numbers]]
 
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)
+
 ``` ad-Axiom
 title: Axiom.
 

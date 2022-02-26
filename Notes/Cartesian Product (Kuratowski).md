@@ -14,6 +14,8 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Binary relation iff subset of Cartesian product]]
 Justifications: [[Cartesian product (Kuratowski) is a set (Power Set)]], [[Cartesian product (Kuratowski) is a set (Replacement)]]
 
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
+
 ``` ad-Definition
 title: Definition.
 

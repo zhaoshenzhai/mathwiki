@@ -14,7 +14,7 @@ Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
-Context: [$\textrm{FOL}$](obsidian://open?file=Topology%20on%20a%20Set)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}+\textrm{Grothendieck}$](obsidian://open?file=Basis%20(Topology))
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}+\textrm{Grothendieck}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Universes)
 
 ``` ad-Definition
 title: Definition (Informal).

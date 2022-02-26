@@ -14,6 +14,8 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Lexicographical order topology on R2 is discrete times standard]]
 Justifications: [[Lexicographical order on R2 is unbounded]]
 
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
+
 ``` ad-Definition
 title: Definition.
 
