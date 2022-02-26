@@ -4,7 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "28843f45cfc5cc32",
+        "id": "d33d4e6b7fb9191c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Automorphism (Category Theory).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "ee694f7b7fabf559",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -16,12 +28,12 @@
         }
       },
       {
-        "id": "f26bf15069321859",
+        "id": "d3c8aa7fec9c254f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Antisymmetric Relation.md",
+            "file": "Notes/Standard Topology on R.md",
             "mode": "preview",
             "source": true
           }
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Antisymmetric Relation.md",
+                "file": "Notes/Standard Topology on R.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +130,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Antisymmetric Relation.md",
+                "file": "Notes/Standard Topology on R.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -170,7 +182,7 @@
                   "repelStrength": 11.3611560226354,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.6006115823172881,
+                  "scale": 0.39356809408187604,
                   "close": true
                 }
               }
@@ -182,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Antisymmetric Relation.md",
+                "file": "Notes/Standard Topology on R.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,17 +207,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f26bf15069321859",
+  "active": "d3c8aa7fec9c254f",
   "lastOpenFiles": [
-    "Notes/Antisymmetric Relation.md",
+    "Notes/Standard Topology on R.md",
     "Notes/Category.md",
-    "Notes/Absolute complement of a set is a proper class.md",
-    "Notes/Cartesian product of intersections.md",
-    "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
-    "Notes/Canonical Projection.md",
-    "Notes/Bounded Open Ray.md",
-    "Notes/Binary Relation.md",
-    "Notes/Axiom of Pairing.md",
-    "Notes/Axiom of Power Set.md"
+    "Notes/Automorphism (Category Theory).md",
+    "Notes/Upper-limit topology strictly finer than standard topology on R.md",
+    "Notes/Standard Topology on R2.md",
+    "Notes/Axiom of Union.md",
+    "Notes/Fundamental Theorem of Equivalence Relations.md",
+    "Notes/Axiom of Extensionality.md",
+    "Notes/Axiom of Infinity.md",
+    "Notes/Axiom of Pairing.md"
   ]
 }

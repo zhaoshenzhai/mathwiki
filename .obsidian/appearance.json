@@ -8,7 +8,8 @@
     "snippet",
     "image",
     "stats",
-    "external_links"
+    "external_links",
+    "links"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": true
