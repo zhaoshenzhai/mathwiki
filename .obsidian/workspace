@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a401fb6b581e15a8",
+        "id": "459ff0af54c4c39e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Category.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -37,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "<center>",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -71,6 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -165,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,17 +184,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "a401fb6b581e15a8",
+  "active": "459ff0af54c4c39e",
   "lastOpenFiles": [
+    "Notes/Category.md",
+    "Notes/Inverse (Function).md",
     "Notes/Left and right inverses coincide (Function).md",
     "Notes/Left and right inverses coincide (Morphism).md",
     "Notes/Right Inverse (Morphism).md",
     "Notes/Inverse (Morphism).md",
     "Notes/Left Inverse (Morphism).md",
     "Notes/Inverse (Relation).md",
-    "Notes/Inverse (Function).md",
     "Notes/Left Inverse (Function).md",
-    "Notes/Right Inverse (Function).md",
-    "Notes/Identity Function.md"
+    "Notes/Right Inverse (Function).md"
   ]
 }

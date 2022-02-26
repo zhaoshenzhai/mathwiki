@@ -23,7 +23,7 @@ _Let $f:X\to Y$. A function $g:Y\to X$ is said to be the **inverse of $f$** if $
 
 **Remark.** In other words, if $g\circ f=\id_X$ and $f\circ g=\id_Y$. This relationship can also be expressed by stating that the diagram
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/26-02-2022_120126/image.svg"></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/26-02-2022_120126/image.svg", width=150></center>
 
 commutes.<span style="float:right;">$\blacklozenge$</span>
 
