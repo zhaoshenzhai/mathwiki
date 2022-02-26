@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 11/02/2022 11:24:27
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for fineness w.r.t bases]], [[Product topology (basis; component from bases)]], [[Cartesian product is monotone w.r.t. subsets]]

@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 25/01/2022 14:03:22
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Left distribution of implication over conjunction]], [[Distribution of universal quantifier over conjunction]]

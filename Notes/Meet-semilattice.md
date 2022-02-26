@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 24/01/2022 18:50:40
-Context: #FOL $\to$ #ZF
 Tags: #Definition #Closed 
 
 Types: [[Lattice]]

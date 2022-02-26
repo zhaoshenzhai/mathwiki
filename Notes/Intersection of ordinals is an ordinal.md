@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 31/01/2022 11:12:51
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Well-ordering well-orders subsets]]

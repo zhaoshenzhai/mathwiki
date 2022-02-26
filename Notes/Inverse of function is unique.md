@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 27/01/2022 11:05:54
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Composition with identities preserve functions]], [[Composition of relations is associative]]

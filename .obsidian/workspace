@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "4838658824a72fed",
+        "id": "28843f45cfc5cc32",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Category.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "f26bf15069321859",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Antisymmetric Relation.md",
             "mode": "preview",
             "source": true
           }
@@ -41,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#ZF",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -74,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Category.md",
+                "file": "Notes/Antisymmetric Relation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +118,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Category.md",
+                "file": "Notes/Antisymmetric Relation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -170,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Category.md",
+                "file": "Notes/Antisymmetric Relation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,17 +195,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "4838658824a72fed",
+  "active": "f26bf15069321859",
   "lastOpenFiles": [
-    "Notes/Category.md",
-    "Notes/Replacement Image.md",
-    "Notes/Automorphism (Category Theory).md",
-    "Notes/Asymmetry implies irreflexivity.md",
-    "Notes/Asymmetric Relation.md",
     "Notes/Antisymmetric Relation.md",
+    "Notes/Category.md",
     "Notes/Absolute complement of a set is a proper class.md",
-    "Notes/FOL.md",
-    "Notes/Class.md",
-    "Notes/Set-Builder Notation.md"
+    "Notes/Cartesian product of intersections.md",
+    "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
+    "Notes/Canonical Projection.md",
+    "Notes/Bounded Open Ray.md",
+    "Notes/Binary Relation.md",
+    "Notes/Axiom of Pairing.md",
+    "Notes/Axiom of Power Set.md"
   ]
 }

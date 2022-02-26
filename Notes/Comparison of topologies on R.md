@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 08/02/2022 11:24:30
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Upper-limit topology strictly finer than standard topology on R]], [[Lower-limit topology strictly finer than standard topology on R]], [[K topology strictly finer than standard topology on R]], [[Upper-limit topology strictly finer than K topology on R]], [[Lower and upper limit topologies are not comparable on R]], [[Lower and K topologies are not comparable on R]]

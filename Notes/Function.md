@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 14/01/2022 14:25:20
-Context: #FOL $\to$ #ZF
 Tags: #Definition #Closed 
 
 Types: [[Injection]], [[Surjection]]

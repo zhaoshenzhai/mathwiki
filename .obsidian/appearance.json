@@ -7,7 +7,8 @@
     "fonts",
     "snippet",
     "image",
-    "stats"
+    "stats",
+    "external_links"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": true

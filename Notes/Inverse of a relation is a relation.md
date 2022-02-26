@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 21/01/2022 11:24:19
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Binary relation iff subset of Cartesian product]], [[Set-builder notation is unique]]

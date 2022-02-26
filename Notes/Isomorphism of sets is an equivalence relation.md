@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 27/01/2022 17:19:03
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Open
 
 Proved by: [[Identity function is a bijection]], [[Inverse of bijection is a bijection]], [[Composition of bijections is a bijection]]

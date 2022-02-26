@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 19/01/2022 16:57:32
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Open 
 
 Proved by: [[Universal set is a proper class]]

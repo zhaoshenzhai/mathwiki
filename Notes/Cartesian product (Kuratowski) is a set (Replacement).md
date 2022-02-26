@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 20/01/2022 13:14:26
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed
 
 Proved by: [[Replacement image of a set is a set]]

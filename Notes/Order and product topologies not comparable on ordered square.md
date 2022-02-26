@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 18/02/2022 16:18:53
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for fineness w.r.t bases]], [[Product topology (basis; component from bases)]]

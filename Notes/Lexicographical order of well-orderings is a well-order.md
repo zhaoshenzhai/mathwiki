@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 01/02/2022 10:41:22
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Strict lexicographical order is total if orders are strictly total]], [[Well-ordering well-orders subsets]]

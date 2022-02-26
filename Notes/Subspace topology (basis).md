@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 11/02/2022 17:34:35
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for collection to be a basis for an existing topology]]

@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 17/01/2022 19:08:57
-Context: #FOL $\to$ #ZF
 Tags: #Axiom #Open
 
 Equivalences: _Not Applicable_

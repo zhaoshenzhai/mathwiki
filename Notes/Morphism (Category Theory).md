@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 21/02/2022 15:18:46
-Context: #FOL $\to$ #ZF
 Tags: #Definition #Closed 
 
 Types: [[Isomorphism (Category Theory)]], [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]

@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 15/01/2022 14:02:37
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
  
 Proved by: [[Axiom of Extensionality]]

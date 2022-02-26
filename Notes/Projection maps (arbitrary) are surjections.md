@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 30/01/2022 13:03:07
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Formula in replacement image constructs a function]]

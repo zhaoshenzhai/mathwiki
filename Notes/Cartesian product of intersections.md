@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 09/02/2022 09:43:00
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Conjunction is idempotent]], [[Conjunction is associative]]

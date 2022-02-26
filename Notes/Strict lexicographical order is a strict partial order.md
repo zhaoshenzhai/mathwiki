@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 01/02/2022 10:38:04
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Binary relation iff subset of Cartesian product]]

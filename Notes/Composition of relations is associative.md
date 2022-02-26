@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 27/01/2022 11:14:11
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Conjunction is associative]]

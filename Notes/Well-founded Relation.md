@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 30/01/2022 17:34:31
-Context: #FOL $\to$ #ZF
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_

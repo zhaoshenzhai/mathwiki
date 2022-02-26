@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 15/01/2022 07:52:03
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed
  
 Proved by: [[Subset relation is transitive]]

@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 05/02/2022 11:06:10
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for fineness w.r.t bases]]

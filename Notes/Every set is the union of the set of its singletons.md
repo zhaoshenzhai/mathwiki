@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 25/01/2022 12:13:46
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Element of set is a subset of its union]]

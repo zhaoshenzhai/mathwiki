@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 11/02/2022 18:25:41
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Subspace topology (basis)]]

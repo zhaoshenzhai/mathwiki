@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 09/02/2022 11:02:01
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed  
 
 Proved by: [[Criteria for subbasis to generate existing basis]], [[Preimage under projection of subset]], [[Cartesian product of intersections]]

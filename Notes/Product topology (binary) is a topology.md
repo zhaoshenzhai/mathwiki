@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 09/02/2022 09:34:39
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Cartesian product of intersections]]

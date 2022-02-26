@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 09/02/2022 10:12:02
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for collection to be a basis for an existing topology]], [[Cartesian product is monotone w.r.t. subsets]]

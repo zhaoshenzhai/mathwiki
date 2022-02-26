@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 23/02/2022 16:57:55
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Open 
 
 Proved by: [[Identity morphism is an isomorphism]], [[Inverse of isomorphism is an isomorphism]], [[Composition of isomorphims are isomorphisms]]

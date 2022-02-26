@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 22/01/2022 09:43:31
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Inverse of a relation is a relation]]

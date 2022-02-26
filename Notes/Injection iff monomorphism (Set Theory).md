@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 20/02/2022 19:16:39
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Left inverse implies monomorphism]], [[Left inverse iff injection]], [[Composition with identities preserve functions]], [[Composition of relations is associative]]

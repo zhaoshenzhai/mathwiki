@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 20/02/2022 17:30:20
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Half-infinite open rays are open in the order topology]]

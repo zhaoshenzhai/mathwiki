@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 29/01/2022 13:58:07
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Same equivalence class iff related]]

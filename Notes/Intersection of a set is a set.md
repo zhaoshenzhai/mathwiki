@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 20/01/2022 08:11:51
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]]

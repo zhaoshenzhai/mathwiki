@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 18/02/2022 10:31:57
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Lexicographical order is total if orders are total]]

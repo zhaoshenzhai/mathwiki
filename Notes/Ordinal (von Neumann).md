@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 30/01/2022 18:58:15
-Context: #FOL $\to$ #ZF
 Tags: #Definition #Closed 
 
 Types: [[Successor Ordinal]], [[Limit Ordinal]], [[Natural Number]]

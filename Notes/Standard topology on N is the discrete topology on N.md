@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 07/02/2022 15:43:53
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Discrete topology (basis)]], [[Criteria for collection to be a basis for an existing topology]], [[Successor of natural number is a natural number]]

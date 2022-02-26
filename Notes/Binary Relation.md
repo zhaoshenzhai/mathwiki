@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 14/01/2022 17:57:16
-Context: #FOL $\to$ #ZF
 Tags: #Definition #Closed 
 
 Types: [[Function]], [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]], [[Irreflexive Relation]], [[Asymmetric Relation]], [[Antisymmetric Relation]], [[Connected Relation]], [[Trichotomous Relation]], [[Well-founded Relation]]

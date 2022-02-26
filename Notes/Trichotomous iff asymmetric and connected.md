@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 03/02/2022 18:24:55
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Asymmetry implies irreflexivity]]

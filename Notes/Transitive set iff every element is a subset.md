@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 30/01/2022 19:20:35
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Exportation (Rule of Inference)]]

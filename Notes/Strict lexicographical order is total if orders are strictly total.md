@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 01/02/2022 16:00:16
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Strict lexicographical order is a strict partial order]]

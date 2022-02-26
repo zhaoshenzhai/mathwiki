@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 01/02/2022 11:05:40
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Reflexive closure of connected relation is connected]], [[Reflexive closure is the smallest reflexive relation]]

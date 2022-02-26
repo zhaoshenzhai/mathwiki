@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 25/01/2022 13:52:56
-Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Distribution of conjunction over disjunction]], [[Distribution of existential quantifier over disjunction]]
