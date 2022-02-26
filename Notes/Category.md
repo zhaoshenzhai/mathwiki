@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 21/02/2022 13:22:50
+Context: #FOL $\to$ #ZF
 Tags: #Definition #Open 
 
 Types: [[Thin Category]]

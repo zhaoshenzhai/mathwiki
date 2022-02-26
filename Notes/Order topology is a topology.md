@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 04/02/2022 11:25:15
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: _Not Applicable_

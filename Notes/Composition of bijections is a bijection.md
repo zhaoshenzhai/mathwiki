@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 27/01/2022 13:45:27
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Invertible iff bijective]], [[Composition of relations is associative]], [[Composition with identities preserve functions]]

@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 02/02/2022 15:15:55
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Well-ordering well-orders subsets]], [[Transitive set iff every element is a subset]]

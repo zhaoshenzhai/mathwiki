@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 11/02/2022 17:57:27
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for subbasis to generate existing basis]], [[Subspace topology (basis)]]

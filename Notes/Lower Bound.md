@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 24/01/2022 15:51:38
+Context: #FOL $\to$ #ZF
 Tags: #Definition #Closed 
 
 Types: [[Least Element]]

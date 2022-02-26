@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 24/01/2022 10:46:52
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Intersection of subsets is a subset of intersection]]

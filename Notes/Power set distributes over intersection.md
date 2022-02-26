@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 19/01/2022 14:29:38
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed
 
 Proved by: [[Distribution of universal quantifier over conjunction]]

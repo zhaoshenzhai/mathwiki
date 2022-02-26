@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 16/01/2022 14:03:24
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed
 
 Proved by: [[Axiom Schema of Specification]]

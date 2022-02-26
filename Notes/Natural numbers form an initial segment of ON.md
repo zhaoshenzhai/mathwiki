@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 02/02/2022 11:40:56
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[ON is a transitive class]], [[Reflexive closure of ordering on ordinals]]

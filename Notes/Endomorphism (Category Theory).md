@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 21/02/2022 15:32:10
+Context: #FOL $\to$ #ZF
 Tags: #Definition #Closed 
 
 Types: [[Automorphism (Category Theory)]]

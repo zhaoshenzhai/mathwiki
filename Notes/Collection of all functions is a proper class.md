@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 28/01/2022 17:27:04
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Collection of all singletons is a proper class]]

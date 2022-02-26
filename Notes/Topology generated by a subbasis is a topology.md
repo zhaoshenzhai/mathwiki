@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 24/01/2022 21:00:06
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Intersection of intersections is an intersection]], [[Interection of finite sets is finite]]

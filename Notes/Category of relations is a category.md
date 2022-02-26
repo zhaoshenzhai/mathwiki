@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 25/02/2022 13:16:20
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Category of sets is a category]]

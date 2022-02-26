@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 23/01/2022 20:05:39
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[De Morgan's Laws]], [[Interection of countable sets is countable]], [[Countable union of countable sets is countable]]

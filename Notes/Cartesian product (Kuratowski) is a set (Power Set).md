@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 21/01/2022 17:33:37
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [[Subset relation is transitive]]

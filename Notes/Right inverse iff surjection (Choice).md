@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 27/01/2022 12:42:19
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Open
 
 Proved by: [[Exists function in relation iff Choice]]

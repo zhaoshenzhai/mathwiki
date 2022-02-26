@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 15/01/2022 18:20:59
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed
 
 Proved by: [[Empty set is unique]]

@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 21/02/2022 16:40:38
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Composition of relations is a relation]], [[Composition with identities preserve functions]]

@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 20/01/2022 13:53:33
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Open 
 
 Proved by: [[Axiom Schema of Replacement]], [[Axiom Schema of Specification]], [[Set-builder notation is unique]]

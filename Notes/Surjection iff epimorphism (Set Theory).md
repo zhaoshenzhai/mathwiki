@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 21/02/2022 13:19:31
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed
 
 Proved by: [[Right inverse implies epimorphism]], [[Right inverse iff surjection (Choice)]], [[Composition with identities preserve functions]], [[Composition of relations is associative]]

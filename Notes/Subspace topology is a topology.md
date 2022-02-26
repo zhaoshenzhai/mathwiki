@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 11/02/2022 12:36:49
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Union distributes over binary intersection]], [[Intersection of intersections is an intersection]]

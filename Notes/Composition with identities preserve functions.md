@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 27/01/2022 10:41:34
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for equality of functions]]

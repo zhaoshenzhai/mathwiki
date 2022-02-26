@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 31/01/2022 17:50:47
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[ON is a transitive class]], [[ON is well-ordered by membership]]

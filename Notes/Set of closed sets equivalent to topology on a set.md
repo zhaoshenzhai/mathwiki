@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 19/02/2022 14:36:08
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed
 
 Proved by: [[Double complement of set is set itself]], [[De Morgan's Laws]]

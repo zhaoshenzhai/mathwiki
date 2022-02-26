@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 23/01/2022 12:26:56
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Reflexive closure of strict orders is non-strict]], [[Strict lexicographical order is a strict partial order]]

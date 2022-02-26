@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 24/01/2022 12:14:51
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Subset relation is transitive]], [[Union of set of subsets is a subset]]

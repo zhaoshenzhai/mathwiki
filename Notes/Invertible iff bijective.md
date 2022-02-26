@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 27/01/2022 11:56:26
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Left inverse iff injection]], [[Right inverse iff surjection (Choice)]], [[Left and right inverses coincide (Function)]], [[Composition of relations is associative]], [[Composition with identities preserve functions]]

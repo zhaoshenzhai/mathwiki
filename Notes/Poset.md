@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 24/01/2022 15:29:44
+Context: #FOL $\to$ #ZF
 Tags: #Definition #Closed 
 
 Types: [[Bounded Poset]], [[Join-semilattice]], [[Meet-semilattice]], [[Dedekind-complete Ordered Set]], [[Totally Ordered Set]]

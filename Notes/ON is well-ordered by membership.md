@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 31/01/2022 12:28:22
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Intersection of ordinals is an ordinal]], [[Reflexive closure of ordering on ordinals]]

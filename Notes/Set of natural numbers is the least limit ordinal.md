@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 02/02/2022 15:26:20
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Natural numbers form an initial segment of ON]], [[Initial segment of ON is an ordinal]], [[ON is well-ordered by membership]], [[Successor of natural number is a natural number]]

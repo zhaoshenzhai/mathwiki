@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 02/02/2022 11:40:56
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Successor of an ordinal is the next smallest ordinal]], [[Reflexive closure of ordering on ordinals]]

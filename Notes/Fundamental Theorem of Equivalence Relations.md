@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 29/01/2022 16:31:03
+Context: #FOL $\to$ #ZF
 Tags: #Theorem #Closed 
 
 Proved by: [[Relation induced by a partition is an equivalence relation]], [[Quotient set is a partition]], [[Same equivalence class iff related]]

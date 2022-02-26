@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 01/02/2022 10:54:47
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Union of subsets is a subset of union]]

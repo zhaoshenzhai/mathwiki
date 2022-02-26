@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 03/02/2022 18:10:42
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Asymmetry implies irreflexivity]], [[Irreflexive and transitive implies asymmetric]]

@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 12/02/2022 15:10:37
+Context: #FOL $\to$ #ZF
 Tags: #Proposition #Closed 
 
 Proved by: [[Order topology (subbasis)]], [[Subspace topology (subbasis)]]
