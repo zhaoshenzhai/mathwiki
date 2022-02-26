@@ -9,7 +9,31 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Standard Topology on R.md",
+            "file": "Notes/Category.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "3a3837851c84f8f6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Axiom of Union.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "f1f7fd3c5584754c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Asymmetric Relation.md",
             "mode": "preview",
             "source": true
           }
@@ -74,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Standard Topology on R.md",
+                "file": "Notes/Axiom of Union.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +130,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Standard Topology on R.md",
+                "file": "Notes/Axiom of Union.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -170,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Standard Topology on R.md",
+                "file": "Notes/Axiom of Union.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,17 +207,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "d3c8aa7fec9c254f",
+  "active": "3a3837851c84f8f6",
   "lastOpenFiles": [
-    "Notes/Standard Topology on R.md",
-    "Notes/Automorphism (Category Theory).md",
-    "Notes/Category.md",
-    "Notes/Upper-limit topology strictly finer than standard topology on R.md",
-    "Notes/Standard Topology on R2.md",
     "Notes/Axiom of Union.md",
     "Notes/Fundamental Theorem of Equivalence Relations.md",
-    "Notes/Axiom of Extensionality.md",
-    "Notes/Axiom of Infinity.md",
-    "Notes/Axiom of Pairing.md"
+    "Notes/Category.md",
+    "Notes/Asymmetric Relation.md",
+    "Notes/Absolute complement of a set is a proper class.md",
+    "Notes/Universal set is a proper class.md",
+    "Notes/Axiom Schema of Specification.md",
+    "Notes/Standard Topology on R.md",
+    "Notes/Automorphism (Category Theory).md",
+    "Notes/Upper-limit topology strictly finer than standard topology on R.md"
   ]
 }

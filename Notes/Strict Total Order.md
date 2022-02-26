@@ -14,8 +14,6 @@ Sufficiencies: _Not Applicable_
 Equivalences: [[Strict total order iff transitive and asymmetric]]
 Justifications: _Not Applicable_
 
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
-
 ``` ad-Definition
 title: Definition.
 

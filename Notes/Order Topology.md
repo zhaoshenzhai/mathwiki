@@ -14,8 +14,6 @@ Sufficiencies: [[Half-infinite open rays are open in the order topology]]
 Equivalences: [[Order topology (subbasis)]]
 Justifications: [[Order topology is a topology]]
 
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
-
 ``` ad-Definition
 title: Definition.
 

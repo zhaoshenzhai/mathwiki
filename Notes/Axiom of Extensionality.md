@@ -7,8 +7,6 @@ Tags: #Axiom #Open
 Equivalences: _Not Applicable_
 Constructions: _Not Applicable_
 
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)
-
 ``` ad-Axiom
 title: Axiom (Extensionality).
 

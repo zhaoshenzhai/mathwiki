@@ -10,8 +10,6 @@ Generalizations: _Not Applicable_
 Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
-
 **Remark.** Let $x$ and $y$ be sets and let $\l[\!\l[x,y\r]\!\r]$ be any set such that if $\l[\!\l[x,y\r]\!\r]=\l[\!\l[u,v\r]\!\r]$, then $x=u$ and $v=y$; this captures the essence of what it means for $\l[\!\l[\cdot,\cdot\r]\!\r]$ to be an $\textrm{`}$ordered pair$\textrm{'}$. A set $R$ is then a $\textrm{`}$binary relation$\textrm{'}$ if
 $$\begin{equation}
     \fa u\in R:\ex x,y:u=\l[\!\l[x,y\r]\!\r].

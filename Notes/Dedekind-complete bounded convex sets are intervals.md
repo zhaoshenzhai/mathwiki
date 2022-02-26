@@ -10,8 +10,6 @@ Generalizations: _Not Applicable_
 Examples: _Not Applicable_
 Counterexamples: [[Rational convex set (not interval)]], [[Lexicographical plane convex set (not interval)]]
 
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
-
 ``` ad-Proposition
 title: Proposition.
 

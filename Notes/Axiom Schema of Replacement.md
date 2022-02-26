@@ -7,8 +7,6 @@ Tags: #Axiom #Open
 Equivalences: _Not Applicable_
 Constructions: [[Replacement Image]]
 
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)
-
 ``` ad-Axiom
 title: Axiom.
 
