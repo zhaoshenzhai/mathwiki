@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 23/02/2022 16:57:55
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Open 
 
 Proved by: [[Identity morphism is an isomorphism]], [[Inverse of isomorphism is an isomorphism]], [[Composition of isomorphims are isomorphisms]]

@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 21/01/2022 16:18:54
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed 
 
 Proved by: [[Replacement image of a set is a set]]

@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 27/01/2022 12:42:19
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Open
 
 Proved by: [[Exists function in relation iff Choice]]

@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 21/01/2022 18:23:06
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed
 
 Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [[Cartesian product is monotone w.r.t. subsets]], [[Subset relation is transitive]]

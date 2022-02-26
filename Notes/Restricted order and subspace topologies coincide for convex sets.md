@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 16/02/2022 16:51:32
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed 
 
 Proved by: [[Restricted order topology subset of subspace topology]], [[Order topology (subbasis)]], [[Subspace topology (subbasis)]], [[Half-infinite open rays are open in the order topology]]

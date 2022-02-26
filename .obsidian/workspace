@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Axiom of Union.md",
+                "file": "Notes/Category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Axiom of Union.md",
+                "file": "Notes/Category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Axiom of Union.md",
+                "file": "Notes/Category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,12 +207,12 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "3a3837851c84f8f6",
+  "active": "d3c8aa7fec9c254f",
   "lastOpenFiles": [
-    "Notes/Axiom of Union.md",
-    "Notes/Fundamental Theorem of Equivalence Relations.md",
     "Notes/Category.md",
+    "Notes/Axiom of Union.md",
     "Notes/Asymmetric Relation.md",
+    "Notes/Fundamental Theorem of Equivalence Relations.md",
     "Notes/Absolute complement of a set is a proper class.md",
     "Notes/Universal set is a proper class.md",
     "Notes/Axiom Schema of Specification.md",

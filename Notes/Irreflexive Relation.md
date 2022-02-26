@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 30/01/2022 17:38:06
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_

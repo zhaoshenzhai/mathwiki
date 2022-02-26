@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 19/02/2022 14:36:08
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed
 
 Proved by: [[Double complement of set is set itself]], [[De Morgan's Laws]]

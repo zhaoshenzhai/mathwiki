@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 30/01/2022 18:40:57
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed 
 
 Proved by: [[Subset relation is transitive]]

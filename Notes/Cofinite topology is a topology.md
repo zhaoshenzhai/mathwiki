@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 23/01/2022 19:53:04
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed 
 
 Proved by: [[De Morgan's Laws]], [[Interection of finite sets is finite]], [[Finite union of finite sets is finite]]

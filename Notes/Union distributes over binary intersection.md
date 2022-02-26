@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 11/02/2022 13:05:23
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Open 
 
 Proved by: _Not Applicable_

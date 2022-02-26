@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 11/02/2022 11:24:27
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for fineness w.r.t bases]], [[Product topology (basis; component from bases)]], [[Cartesian product is monotone w.r.t. subsets]]

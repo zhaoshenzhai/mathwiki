@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 01/02/2022 10:38:04
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed 
 
 Proved by: [[Binary relation iff subset of Cartesian product]]

@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 14/01/2022 17:57:16
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Definition #Closed 
 
 Types: [[Function]], [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]], [[Irreflexive Relation]], [[Asymmetric Relation]], [[Antisymmetric Relation]], [[Connected Relation]], [[Trichotomous Relation]], [[Well-founded Relation]]

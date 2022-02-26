@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 28/01/2022 17:27:04
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed 
 
 Proved by: [[Collection of all singletons is a proper class]]

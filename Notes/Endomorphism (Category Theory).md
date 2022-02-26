@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 21/02/2022 15:32:10
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Definition #Closed 
 
 Types: [[Automorphism (Category Theory)]]

@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 20/02/2022 19:16:39
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed 
 
 Proved by: [[Left inverse implies monomorphism]], [[Left inverse iff injection]], [[Composition with identities preserve functions]], [[Composition of relations is associative]]

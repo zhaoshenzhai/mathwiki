@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 18/01/2022 16:08:40
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed  
 
 Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]]

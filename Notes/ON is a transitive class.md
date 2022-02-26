@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 30/01/2022 19:17:19
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed 
 
 Proved by: [[Transitive set iff every element is a subset]], [[Well-ordering well-orders subsets]]

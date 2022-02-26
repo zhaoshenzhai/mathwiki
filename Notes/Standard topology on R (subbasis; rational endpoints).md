@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 04/02/2022 15:20:08
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed  
 
 Proved by: [[Criteria for subbasis to generate existing basis]], [[Half-infinite open rays are open in the order topology]]

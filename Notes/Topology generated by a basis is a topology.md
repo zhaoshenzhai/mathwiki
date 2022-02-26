@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 24/01/2022 10:46:52
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed 
 
 Proved by: [[Intersection of subsets is a subset of intersection]]

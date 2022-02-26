@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 23/01/2022 12:26:56
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed 
 
 Proved by: [[Reflexive closure of strict orders is non-strict]], [[Strict lexicographical order is a strict partial order]]

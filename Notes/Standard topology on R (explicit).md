@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 08/02/2022 13:06:57
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for collection to be a basis for an existing topology]]

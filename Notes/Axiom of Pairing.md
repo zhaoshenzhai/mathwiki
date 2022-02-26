@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 16/01/2022 16:34:42
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Axiom #Open
 
 Equivalences: _Not Applicable_

@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 31/01/2022 11:12:51
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed 
 
 Proved by: [[Well-ordering well-orders subsets]]

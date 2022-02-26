@@ -2,6 +2,7 @@
 <br />
 
 Date Created: 11/02/2022 12:36:49
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Proposition #Closed 
 
 Proved by: [[Union distributes over binary intersection]], [[Intersection of intersections is an intersection]]
