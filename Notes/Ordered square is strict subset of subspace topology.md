@@ -19,6 +19,6 @@ _Let_ $\l\langle I^2,\mc{T}_\textrm{or}\r\rangle$ _be the ordered square and let
 
 _Proof_. Consider the set $A\coloneqq\l(\l\langle0.5,0.5\r\rangle,\l\langle0.5,1\r\rangle\r]$ and let $U\coloneqq\l(\l\langle0.5,0.5\r\rangle,\l\langle0.5,1.25\r\rangle\r)$. Clearly $A=U\cap I^2$, and since $U\in\mc{T}\l(\sqsubset\r)$, we see that $A\in\mc{T}_\textrm{sb}$.
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/18-02-2022_160458/image.svg", width=25%></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/18-02-2022_160458/image.svg", width=265></center>
 
 We claim that $A\not\in\mc{T}_\textrm{or}$. To show this, it suffices to show that every open interval w.r.t. $\l.\sqsubset\r|_{I^2}$ contains some point $p\in I^2$ such that $p\not\in A$, for then $A$ cannot be an open interval nor a union thereof. Take an open interval $\l(a,b\r)_{I^2}$; if $\l\langle0.5,1\r\rangle\in\l(a,b\r)_{I^2}$, then it must necessarily contain some $p\coloneqq\l\langle x,0\r\rangle$ where $x>0.5$. Observe that $p\in\l(a,b\r)_{I^2}$ but $p\not\in A$.<span style="float:right;">$\blacksquare$</span>

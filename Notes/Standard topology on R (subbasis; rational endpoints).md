@@ -33,4 +33,4 @@ $$\begin{equation}
 
 Pictorially, the proof is:
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_223333/image.svg", width=25%></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_223333/image.svg", width=260></center>

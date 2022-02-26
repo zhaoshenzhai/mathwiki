@@ -18,7 +18,7 @@ Justifications: [[Inverse of morphism is unique]]
 title: Definition.
 
 _Let $\cat{C}$ be a category and fix a morphism $f:X\to Y$. A morphism $g:Y\to X$ is said to be the **inverse of $f$** if the diagram_
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_222557/image.svg", width=15%></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_222557/image.svg", width=150></center>
 
 _commutes, that is, if $g$ is both a left and a right inverse of $f$._
 
