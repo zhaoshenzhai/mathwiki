@@ -4,19 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "39314cfb3a1d162e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Basis (Topology).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "832687c032c55856",
+        "id": "a15d092333ac812f",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -34,6 +22,18 @@
           "type": "markdown",
           "state": {
             "file": "Notes/Standard topology on R (basis; rational endpoints).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "4171173062621722",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Standard topology on R (explicit).md",
             "mode": "preview",
             "source": true
           }
@@ -207,10 +207,11 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "832687c032c55856",
+  "active": "a15d092333ac812f",
   "lastOpenFiles": [
     "Notes/Standard Topology on R.md",
     "Notes/Standard topology on R (basis; rational endpoints).md",
+    "Notes/Standard topology on R (explicit).md",
     "Notes/Basis (Topology).md",
     "Notes/Standard gopology on R (basis; rational endpoints).md",
     "Notes/Standardt topology on R (basis; rational endpoints).md",
