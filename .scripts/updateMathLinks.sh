@@ -37,7 +37,7 @@ while IFS="," read -r current; do
             currentFormatted=$(sed 's/\^/\\\^/g' <<< "$currentFormatted")        # Escape ^
             currentFormatted=$(sed 's/|/\\|/g' <<< "$currentFormatted")          # Escape |
             currentFormatted=$(sed 's/+/\\+/g' <<< "$currentFormatted")          # Escape +
-            currentFormatted=$(sed 's/\./\\./g' <<< "$currentFormatted")          # Escape +
+            currentFormatted=$(sed 's/\./\\./g' <<< "$currentFormatted")         # Escape +
 
             newObsidian=${allNewObsidian%%$'\n'*}
             allFiles=$(grep -l "$newObsidian" *)
