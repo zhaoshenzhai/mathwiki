@@ -1,32 +1,32 @@
 #!/bin/bash
 
-cd ~/MathWiki/Notes
+CYAN='\033[0;36m'
+NC='\033[0m'
 
-#aliased=$(grep -Po --color '\[(\w+\s)+\$\\[a-zA-Z^0-9]+\$[a-zA-Z(); ]*\]' *.md | sed 's/^.*://g')
-#obsidian=$(grep -Po --color '\(([a-zA-Z0-9();]+%20)+[a-zA-Z0-9();]*(\.md)*\)' *.md | sed 's/^.*://g')
+cd ~/MathWiki/Notes
 
 files=$(grep -l "%%auto_aliasing%%" *)
 
 while IFS= read -r line; do
-    echo "... $line ..."
-    currentAliased=$(grep -Po --color '\[(\w+\s)+\$\\[a-zA-Z^0-9]+\$[a-zA-Z(); ]*\]' "$line" | sed 's/^.*://g')
-    echo "Current: $currentAliased"
+    current=$(grep -Po '\[(\w+\s)+\$\\[a-zA-Z^0-9]+\$[a-zA-Z(); ]*\]' "$line" | sed 's/^.*://g' | sed 's/\\/\\\\/g')
+    currentFormatted=$(sed 's/\\R/\\\\R/g' <<< "$current" | sed 's/\ /\\s/g' | sed 's/\[/\\\[/g' | sed 's/\]/\\\]/g' | sed 's/(/\\(/g' | sed 's/)/\\)/g' | sed 's/\$/\\\$/g')
 
-    obsidian=$(grep -Po '\(([a-zA-Z0-9();]+%20)+[a-zA-Z0-9();]*(\.md)*\)' "$line")
+    new=$(grep -Po '\(([a-zA-Z0-9();]+%20)+[a-zA-Z0-9();]*(\.md)*\)' "$line" | sed 's/%20/\ /g' | sed 's/(/[/1' | sed 's/)$/]/g' | sed 's/.md//g')
 
-    newAliased=$(sed 's/%20/\ /g' <<< "$obsidian")
-    newAliased=$(sed 's/(/[/1' <<< "$newAliased")
-    newAliased=$(sed 's/)$/]/g' <<< "$newAliased")
-    newAliased=$(sed 's/.md//g' <<< "$newAliased")
+    new=$(sed 's/\ R\ /\ \$\\\\R\$\ /g' <<< "$new")
 
-    newAliased=$(sed 's/\ R\ /\ \$\\R\$\ /g' <<< "$newAliased")
+    if [ ! "$new" == "$current" ]; then
+        echo "... $line ..."
+        echo "Current            : $current"
+        echo "New                : $new"
+        echo "Current (Formatted): $currentFormatted"
 
-    echo "New    : $newAliased"
+        read -u 1 -n 1 -p "$(echo -e ${CYAN}"Proceed? [Y/n] "${NC})" proceed
+        if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
+            echo "Proceed"
+            sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$line"
+        fi
 
-    if [ ! "$newAliased" == "$currentAliased" ]; then
-        echo Different
-        sed "s/$currentAliased/$newAliased/g" "$line"
+        printf "\n"
     fi
-
-    printf "\n"
 done <<< "$files"

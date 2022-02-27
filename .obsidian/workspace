@@ -16,7 +16,7 @@
         }
       },
       {
-        "id": "31d39ebacf425669",
+        "id": "832687c032c55856",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -28,7 +28,7 @@
         }
       },
       {
-        "id": "6f189101daa77831",
+        "id": "e56c51b9d2fe559b",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Standard topology on R (basis; rational endpoints).md",
+                "file": "Notes/Standard Topology on R.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Standard topology on R (basis; rational endpoints).md",
+                "file": "Notes/Standard Topology on R.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Standard topology on R (basis; rational endpoints).md",
+                "file": "Notes/Standard Topology on R.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,17 +207,16 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "6f189101daa77831",
+  "active": "832687c032c55856",
   "lastOpenFiles": [
-    "Notes/Standard topology on R (basis; rational endpoints).md",
     "Notes/Standard Topology on R.md",
+    "Notes/Standard topology on R (basis; rational endpoints).md",
     "Notes/Basis (Topology).md",
+    "Notes/Standard gopology on R (basis; rational endpoints).md",
+    "Notes/Standardt topology on R (basis; rational endpoints).md",
     "Notes/Replacement image of a set is a set.md",
     "Notes/Formula in replacement image constructs a function.md",
     "Notes/Standard Topology on R2.md",
-    "Notes/Discrete topology (basis).md",
-    "Notes/Preimage under projection of subset.md",
-    "Notes/Lexicographical order of well-orderings is a well-order.md",
-    "Notes/Intersection is anti-monotone w.r.t. subsets.md"
+    "Notes/Discrete topology (basis).md"
   ]
 }
