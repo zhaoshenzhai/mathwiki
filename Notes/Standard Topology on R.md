@@ -1,18 +1,20 @@
 <br />
 <br />
 
+%%auto_aliasing%%
+
 Date Created: 04/02/2022 11:36:30
 Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
 Tags: #Definition #Closed  
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Real Line (Topology)]], [Standard Topology on $\R^2$](Standard%20Topology%20on%20R2)
+Constructions: [[Real Line (Topology)]], [[Standard Topology on R2]]
 Generalizations: _Not Applicable_
 
 Properties: [[Upper-limit topology strictly finer than standard topology on R]], [[Lower-limit topology strictly finer than standard topology on R]], [[K topology strictly finer than standard topology on R]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Standard topology on R (explicit)]], [[Standard topology on R (basis; rational endpoints)]], [[Standard topology on R (subbasis; rational endpoints)]]
+Equivalences: [[Standard topology on R (explicit)]], [Standard topology on $\R$ (basis; rational endpoints)](Standard%20topology%20on%20R%20(basis;%20rational%20endpoints).md), [[Standard topology on R (subbasis; rational endpoints)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
