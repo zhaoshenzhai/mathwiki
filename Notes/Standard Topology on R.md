@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Upper-limit topology strictly finer than standard topology on R]], [[Lower-limit topology strictly finer than standard topology on R]], [[K topology strictly finer than standard topology on R]]
 Sufficiencies: _Not Applicable_
-Equivalences: [Standard topology on $\R$ (explicit)](Standard%20topology%20on%20R%20(explicit).md), [Standard topology on $\R$ (basis; rational endpoints)](Standard%20topology%20on%20R%20(basis;%20rational%20endpoints).md), [[Standard topology on R (subbasis; rational endpoints)]]
+Equivalences: [[Standard topology on R (explicit)]], [[Standard topology on R (basis; rational endpoints)]], [[Standard topology on R (subbasis; rational endpoints)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

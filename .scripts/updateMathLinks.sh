@@ -6,15 +6,20 @@ NC='\033[0m'
 
 cd ~/MathWiki/Notes
 
-allLinks=$(grep -Po '\[([^\$^\[^\]]+\s)+\$[^\$]+\$[^\$^\[^\]]*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' *)
-allLinks=${allLinks#*:}
-allLinks=$(echo "$allLinks" | uniq)
+allFiles=$(grep -l '%%auto_aliasing%%' *)
 
+allLinks=$(grep -Poh '\[([^\$^\[^\]]+\s)+\$[^\$]+\$[^\$^\[^\]]*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | uniq)
 allCurrent=$(echo "$allLinks" | sed 's/\[\([^]]*\)\].*/\1/g')
 allNewObsidian=$(echo "$allLinks" | sed 's/\[\([^]]*\)\](\(.*$\)/\2/g' | sed 's/.$//g')
 allNew=$(echo "$allNewObsidian" | sed 's/\(.*\).md/\1/' | sed 's/%20/\ /g')
 
-allNew=$(sed 's/\ R\ /\ \$\\R\$\ /g' <<< "$allNew")        # Real numbers
+allNew=$(sed 's/\ R\ /\ \$\\R\$\ /g' <<< "$allNew")                       # Real numbers
+allNew=$(sed 's/\ implies\ /\ \$\\Rightarrow\$\ /g' <<< "$allNew")        # Implies
+
+#echo -e "All files tagged with %%auto_aliasing%%:\n$allFiles\n"
+#echo -e "All math links into ^:\n$allLinks\n"
+#echo -e "All current:\n$allCurrent\n"
+#echo -e "All new:\n$allNew\n"
 
 while IFS="," read -r current; do
     new=${allNew%%$'\n'*}
