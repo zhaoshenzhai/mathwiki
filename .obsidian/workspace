@@ -7,8 +7,12 @@
         "id": "1265628adddccbf5",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Asymmetric Relation.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -70,6 +74,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Asymmetric Relation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +106,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Asymmetric Relation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -164,6 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Asymmetric Relation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }

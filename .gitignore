@@ -1,0 +1,13 @@
+.gitignore
+*
+!/**/
+!*.*
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.gz
+*.toc
+*.synctex(busy)
+*.pdf
