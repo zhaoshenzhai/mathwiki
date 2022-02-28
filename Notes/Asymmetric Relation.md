@@ -11,7 +11,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity)
-Sufficiencies: [[Irreflexive and transitive implies asymmetric]], [[Trichotomous iff asymmetric and connected]]
+Sufficiencies: [Irreflexive and transitive $\Rightarrow$ asymmetric](Irreflexive%20and%20transitive%20implies%20asymmetric), [Trichotomous $\Leftrightarrow$ asymmetric and connected](Trichotomous%20iff%20asymmetric%20and%20connected)
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

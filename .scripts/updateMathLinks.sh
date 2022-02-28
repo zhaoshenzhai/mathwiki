@@ -15,6 +15,7 @@ allNew=$(echo "$allNewObsidian" | sed 's/\(.*\).md/\1/' | sed 's/%20/\ /g')
 
 allNew=$(sed 's/\ R\ /\ \$\\R\$\ /g' <<< "$allNew")                       # Real numbers
 allNew=$(sed 's/\ implies\ /\ \$\\Rightarrow\$\ /g' <<< "$allNew")        # Implies
+allNew=$(sed 's/\ iff\ /\ \$\\Leftrightarrow\$\ /g' <<< "$allNew")        # Implies
 
 #echo -e "All files tagged with %%auto_aliasing%%:\n$allFiles\n"
 #echo -e "All math links into ^:\n$allLinks\n"

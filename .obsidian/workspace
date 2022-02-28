@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "68728d31517e5a52",
+        "id": "9fdcb4650d767fa8",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Absolute complement of a set is a proper class.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -68,6 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Absolute complement of a set is a proper class.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241,
-    "collapsed": true
+    "width": 241
   },
   "right": {
     "id": "6e128061ec5336cc",
@@ -99,6 +103,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Absolute complement of a set is a proper class.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -150,9 +155,21 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.1687206761907479,
+                  "scale": 0.10166232561715295,
                   "close": true
                 }
+              }
+            }
+          },
+          {
+            "id": "e77946bb2b625e68",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes/Absolute complement of a set is a proper class.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -163,11 +180,15 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "68728d31517e5a52",
+  "active": "9fdcb4650d767fa8",
   "lastOpenFiles": [
-    "Notes/Asymmetric Relation.md",
     "Notes/Absolute complement of a set is a proper class.md",
+    "Notes/Asymmetric Relation.md",
+    "Notes/Antisymmetric Relation.md",
+    "Notes/Category.md",
+    "Notes/Automorphism (Category Theory).md",
     "Notes/Asymmetry implies irreflexivity.md",
-    "Notes/Antisymmetric Relation.md"
+    "Notes/Irreflexive and transitive implies asymmetric.md",
+    "Notes/Trichotomous iff asymmetric and connected.md"
   ]
 }

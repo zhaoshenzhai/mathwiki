@@ -2,8 +2,8 @@
 <br />
 
 Date Created: 21/02/2022 13:22:50
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}+\textrm{Grothendieck}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Universes)
-Tags: #Definition #Open 
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}+\textrm{U}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Universes)
+Tags: #Definition #In_Progress 
 
 Types: [[Thin Category]]
 Examples: [[Category of Sets]], [[Category of Relations]]
