@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "2c823fc9a84c285d",
+        "id": "a18df9afbad12f3c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Irreflexive and transitive implies asymmetric.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "402740425a21e432",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Asymmetric Relation.md",
+            "mode": "source",
+            "source": true
+          }
         }
       }
     ],
@@ -68,6 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Irreflexive and transitive implies asymmetric.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +116,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Irreflexive and transitive implies asymmetric.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -162,6 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Irreflexive and transitive implies asymmetric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,17 +193,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "2c823fc9a84c285d",
+  "active": "a18df9afbad12f3c",
   "lastOpenFiles": [
-    "Notes/Trichotomous iff asymmetric and connected.md",
-    "Notes/Strict Total Order.md",
-    "Notes/Standard topology on R (basis; rational endpoints).md",
     "Notes/Irreflexive and transitive implies asymmetric.md",
-    "Notes/Asymmetry implies irreflexivity.md",
-    "Notes/Trichotomous Relation.md",
     "Notes/Asymmetric Relation.md",
-    "Notes/Antisymmetric Relation.md",
+    "Notes/Basis (Topology).md",
+    "Notes/Asymmetry implies irreflexivity.md",
+    "Notes/Strict total order iff transitive and asymmetric.md",
+    "Notes/Irreflexive Relation.md",
+    "Notes/Standard topology on R (basis; rational endpoints).md",
     "Notes/Standard Topology on R.md",
-    "Notes/Basis (Topology).md"
+    "Notes/Trichotomous iff asymmetric and connected.md",
+    "Notes/Connected Relation.md"
   ]
 }
