@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "0fe41678c7ac177b",
+    "type": "split",
+    "children": [
+      {
+        "id": "68728d31517e5a52",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4cf92e01085e71c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "9dbb206d8bee415b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f81a521c97c9b4d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "838f6345bbb1125e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#In_Progress",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "456013859d71f39b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1bf52919416afc83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cb4aa67353d3b68",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 241,
+    "collapsed": true
+  },
+  "right": {
+    "id": "6e128061ec5336cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "f412e060e743cbe4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2389c0c12caa602b",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "path:Notes",
+                  "localJumps": 4,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [
+                    {
+                      "query": "tag:#Definition",
+                      "color": {
+                        "a": 1,
+                        "rgb": 6537198
+                      }
+                    },
+                    {
+                      "query": "tag:#Proposition",
+                      "color": {
+                        "a": 1,
+                        "rgb": 15099319
+                      }
+                    },
+                    {
+                      "query": "tag:#Theorem",
+                      "color": {
+                        "a": 1,
+                        "rgb": 6683493
+                      }
+                    },
+                    {
+                      "query": "tag:#Axiom",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16342365
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -1.3,
+                  "nodeSizeMultiplier": 0.659023848019402,
+                  "lineSizeMultiplier": 3.06767886014551,
+                  "collapse-forces": false,
+                  "centerStrength": 0,
+                  "repelStrength": 13.534761519806,
+                  "linkStrength": 1,
+                  "linkDistance": 30,
+                  "scale": 0.1687206761907479,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 973.6,
+    "collapsed": true
+  },
+  "active": "68728d31517e5a52",
+  "lastOpenFiles": [
+    "Notes/Asymmetric Relation.md",
+    "Notes/Absolute complement of a set is a proper class.md",
+    "Notes/Asymmetry implies irreflexivity.md",
+    "Notes/Antisymmetric Relation.md"
+  ]
+}
