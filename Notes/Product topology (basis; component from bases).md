@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 09/02/2022 10:12:02
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZFC}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Choice)
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for collection to be a basis for an existing topology]], [[Cartesian product is monotone w.r.t. subsets]]

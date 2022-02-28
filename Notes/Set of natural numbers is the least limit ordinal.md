@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 02/02/2022 15:26:20
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZFC}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Choice)
 Tags: #Proposition #Closed 
 
 Proved by: [[Natural numbers form an initial segment of ON]], [[Initial segment of ON is an ordinal]], [[ON is well-ordered by membership]], [[Successor of natural number is a natural number]]

@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 09/02/2022 11:02:01
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory)
+Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZFC}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Choice)
 Tags: #Proposition #Closed  
 
 Proved by: [[Criteria for subbasis to generate existing basis]], [[Preimage under projection of subset]], [[Cartesian product of intersections]]
