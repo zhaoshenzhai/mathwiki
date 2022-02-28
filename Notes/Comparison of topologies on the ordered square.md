@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 18/02/2022 16:16:11
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZFC}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Choice)
 Tags: #Proposition #Closed 
 
 Proved by: [[Restricted order topology subset of subspace topology]], [[Ordered square is strict subset of subspace topology]], [[Subspace of order topology strictly finer than product topology on ordered square]], [[Order and product topologies not comparable on ordered square]]

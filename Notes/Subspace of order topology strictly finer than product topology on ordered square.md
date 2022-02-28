@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 18/02/2022 16:17:33
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZFC}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Choice)
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for fineness w.r.t bases]], [[Subspace topology (basis)]], [[Product topology (basis; component from bases)]]

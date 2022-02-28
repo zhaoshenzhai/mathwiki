@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 12/02/2022 12:30:57
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZFC}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Choice)
 Tags: #Proposition #Closed 
 
 Proved by: [[Subspace topology (basis)]], [[Product topology (basis; component from bases)]], [[Cartesian product of intersections]]

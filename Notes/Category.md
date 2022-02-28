@@ -2,8 +2,7 @@
 <br />
 
 Date Created: 21/02/2022 13:22:50
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZF}+\textrm{U}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Universes)
-Tags: #Definition #In_Progress 
+Tags: #Definition #Open 
 
 Types: [[Thin Category]]
 Examples: [[Category of Sets]], [[Category of Relations]]
@@ -18,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition (Informal).
 
-_A **(locally small) category** $\cat{C}$ consists of the data of_
+_A **category** $\cat{C}$ consists of the data of_
 * _a class $\obj\l(\cat{C}\r)$ whose members are called **$\cat{C}$-objects**,_
 * _for all $X,Y\in\obj\l(\cat{C}\r)$, a set $\hom\l(X,Y\r)$ called the **$\cat{C}$-hom-set from $X$ to $Y$**,_
 * _for all $X\in\obj\l(\cat{C}\r)$, an element $\id_X\in\hom\l(X,X\r)$ called the the **$\cat{C}$-identity on $X$**, and_

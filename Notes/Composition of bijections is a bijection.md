@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 27/01/2022 13:45:27
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZFC}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Choice)
 Tags: #Proposition #Closed 
 
 Proved by: [[Invertible iff bijective]], [[Composition of relations is associative]], [[Composition with identities preserve functions]]

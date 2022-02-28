@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 16/01/2022 15:10:26
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZFC}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Choice)
 Tags: #Proposition #Closed
 
 Proved by: [[Axiom of Extensionality]]

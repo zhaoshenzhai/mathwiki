@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 27/01/2022 11:56:26
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZFC}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Choice)
 Tags: #Proposition #Closed 
 
 Proved by: [[Left inverse iff injection]], [[Right inverse iff surjection (Choice)]], [[Left and right inverses coincide (Function)]], [[Composition of relations is associative]], [[Composition with identities preserve functions]]

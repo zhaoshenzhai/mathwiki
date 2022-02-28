@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 02/02/2022 11:09:41
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)
 Tags: #Axiom #Open 
 
 Equivalences: _Not Applicable_

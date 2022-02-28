@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 21/02/2022 15:18:46
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZFC}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Choice)
 Tags: #Definition #Closed 
 
 Types: [[Isomorphism (Category Theory)]], [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]

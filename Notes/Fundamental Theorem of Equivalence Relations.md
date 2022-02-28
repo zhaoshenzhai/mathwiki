@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 29/01/2022 16:31:03
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZFC}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Choice)
 Tags: #Theorem #Closed 
 
 Proved by: [[Relation induced by a partition is an equivalence relation]], [[Quotient set is a partition]], [[Same equivalence class iff related]]

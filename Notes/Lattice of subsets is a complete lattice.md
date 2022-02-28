@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 25/01/2022 18:38:44
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZFC}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Choice)
 Tags: #Proposition #Closed 
 
 Proved by: [[Set ordered by inclusion is a poset]], [[Element of set is a subset of its union]], [[Element of set is a superset of its intersection]]

@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 23/01/2022 19:12:21
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZFC}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Choice)
 Tags: #Proposition #Closed 
 
 Proved by: [[Cardinality of power set]], [[Union of empty set is empty]]

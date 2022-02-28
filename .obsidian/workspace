@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "9fdcb4650d767fa8",
+        "id": "fe205e2623c7528f",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -43,7 +43,7 @@
                 "query": "tag:#In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -180,15 +180,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "9fdcb4650d767fa8",
+  "active": "fe205e2623c7528f",
   "lastOpenFiles": [
     "Notes/Absolute complement of a set is a proper class.md",
-    "Notes/Asymmetry implies irreflexivity.md",
-    "Notes/Automorphism (Category Theory).md",
-    "Notes/Asymmetric Relation.md",
-    "Notes/Antisymmetric Relation.md",
+    "Notes/Set-Builder Notation.md",
+    "Notes/Set of Closed Sets.md",
     "Notes/Category.md",
-    "Notes/Irreflexive and transitive implies asymmetric.md",
-    "Notes/Trichotomous iff asymmetric and connected.md"
+    "Notes/Coslice Category.md",
+    "Notes/Automorphism (Category Theory).md",
+    "Notes/Axiom of Infinity.md",
+    "Notes/Class.md",
+    "Notes/Asymmetry implies irreflexivity.md",
+    "Notes/Asymmetric Relation.md"
   ]
 }

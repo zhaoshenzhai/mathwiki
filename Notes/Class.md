@@ -2,7 +2,6 @@
 <br />
 
 Date Created: 18/01/2022 14:52:36
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZFC}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Choice)
 Tags: #Definition #Open
 
 Types: _Not Applicable_
@@ -16,7 +15,7 @@ Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
 ``` ad-Definition
-title: Definition.(Informal).
+title: Definition (Informal).
 
 _Let $\phi\l(x\r)$ be a formula. The expression $\l\{x\mid\phi\l(x\r)\r\}$ is, informally, called a **class**._
 
