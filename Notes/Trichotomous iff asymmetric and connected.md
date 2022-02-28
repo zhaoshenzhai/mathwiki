@@ -2,8 +2,8 @@
 <br />
 
 %%auto_aliasing%%
+
 Date Created: 03/02/2022 18:24:55
-Context: [$\textrm{FOL}$](obsidian://open?file=First%20Order%20Logic)$\,\,\rightsquigarrow\,\,$[$\textrm{ZFC}$](obsidian://open?file=Zermelo-Fraenkel%20Set%20Theory%20with%20Choice)
 Tags: #Proposition #Closed 
 
 Proved by: [[Asymmetry implies irreflexivity]]
