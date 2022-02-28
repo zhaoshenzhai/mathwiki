@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Asymmetric Relation.md",
-            "mode": "source",
+            "file": "Notes/Trichotomous Relation.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -72,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Asymmetric Relation.md",
+                "file": "Notes/Trichotomous Relation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Asymmetric Relation.md",
+                "file": "Notes/Trichotomous Relation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Asymmetric Relation.md",
+                "file": "Notes/Trichotomous Relation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,15 +183,15 @@
   },
   "active": "6e676081bd3d1c65",
   "lastOpenFiles": [
+    "Notes/Trichotomous Relation.md",
+    "Notes/Trichotomous iff asymmetric and connected.md",
+    "Notes/Standard Topology on R.md",
+    "Notes/Basis (Topology).md",
+    "Notes/Standard topology on R (basis; rational endpoints).md",
+    "Notes/Standard topology on N is the discrete topology on N.md",
     "Notes/Asymmetric Relation.md",
     "Notes/Antisymmetric Relation.md",
     "Notes/Strict total order iff transitive and asymmetric.md",
-    "Notes/Standard topology on R (basis; rational endpoints).md",
-    "Notes/Basis (Topology).md",
-    "Notes/Automorphism (Category Theory).md",
-    "Notes/Asymmetry implies irreflexivity.md",
-    "Notes/Axiom Schema of Specification.md",
-    "Notes/Bijection.md",
-    "Notes/Axiom Schema of Replacement.md"
+    "Notes/Automorphism (Category Theory).md"
   ]
 }

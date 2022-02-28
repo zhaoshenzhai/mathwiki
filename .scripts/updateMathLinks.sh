@@ -8,47 +8,6 @@ cd ~/MathWiki/Notes
 
 allFiles=$(grep -l '%%auto_aliasing%%' *)
 
-# For every note linking to any file in allFiles, convert said link to a math link:
-while IFS="," read -r link; do
-    link=${link%.md}
-    link="[[$link]]"
-    link=$(sed 's/\\/\\\\/g' <<< "$link")        # Excape \
-    link=$(sed 's/\ /\\s/g' <<< "$link")         # Escape <Space>
-    link=$(sed 's/\[/\\\[/g' <<< "$link")        # Escape [
-    link=$(sed 's/\]/\\\]/g' <<< "$link")        # Escape ]
-    link=$(sed 's/(/\\(/g' <<< "$link")          # Escape (
-    link=$(sed 's/)/\\)/g' <<< "$link")          # Escape )
-    link=$(sed 's/{/\\{/g' <<< "$link")          # Escape {
-    link=$(sed 's/}/\\}/g' <<< "$link")          # Escape }
-    link=$(sed 's/\$/\\\$/g' <<< "$link")        # Escape $
-    link=$(sed 's/\^/\\\^/g' <<< "$link")        # Escape ^
-    link=$(sed 's/|/\\|/g' <<< "$link")          # Escape |
-    link=$(sed 's/+/\\+/g' <<< "$link")          # Escape +
-    link=$(sed 's/\./\\./g' <<< "$link")         # Escape +
-
-    allNonMathLink=$(grep -Po "$link" *)
-    echo -e "${CYAN}$link:${NC}"
-
-    left=$(sed 's/\\\[\\\[/\\\[/g' <<< "$link")
-    left=$(sed 's/\\\]\\\]/\\\]/g' <<< "$left")
-
-    left=$(sed 's/\\sR\\s/\\s\$\\R\$\\s/g' <<< "$left")                       # Real numbers
-    left=$(sed 's/\\simplies\\s/\\s\$\\Rightarrow\$\\s/g' <<< "$left")        # Implies
-    left=$(sed 's/\\siff\\s/\\s\$\\Leftrightarrow\$\\s/g' <<< "$left")        # Equivalent to
-
-    right=$(sed 's/\\\[\\\[/\\\(/g' <<< "$link")
-    right=$(sed 's/\\\]\\\]/\\\)/g' <<< "$right")
-    right=$(sed 's/\\s/%20/g' <<< "$right")
-
-    new=${left}${right}
-    echo -e "${GREEN}$new${NC}"
-    while IFS= read -r file; do
-        echo "$file"
-        #sed -Ei 's/'"$link"'/'"$new"'/g' "$file"
-    done <<< "$allNonMathLink"
-    printf "\n"
-done <<< "$allFiles"
-
 allLinks=$(grep -Poh '\[([^\$^\[^\]]+\s)+\$[^\$]+\$[^\$^\[^\]]*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | uniq)
 allCurrent=$(echo "$allLinks" | sed 's/\[\([^]]*\)\].*/\1/g')
 allNewObsidian=$(echo "$allLinks" | sed 's/\[\([^]]*\)\](\(.*$\)/\2/g' | sed 's/.$//g')
