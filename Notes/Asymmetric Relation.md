@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity)
+Properties: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity.md)
 Sufficiencies: [[Irreflexive and transitive implies asymmetric]], [[Trichotomous iff asymmetric and connected]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

@@ -10,7 +10,7 @@ Constructions: [[Strict Partial Order]]
 Generalizations: _Not Applicable_
 
 Properties: [[Irreflexive and transitive implies asymmetric]]
-Sufficiencies: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity), [[Well-founded relations are irreflexive]]
+Sufficiencies: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity.md), [[Well-founded relations are irreflexive]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
