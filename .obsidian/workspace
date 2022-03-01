@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Asymmetry implies irreflexivity.md",
+                "file": "Notes/Asymmetric Relation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Asymmetry implies irreflexivity.md",
+                "file": "Notes/Asymmetric Relation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -216,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Asymmetry implies irreflexivity.md",
+                "file": "Notes/Asymmetric Relation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,13 +229,13 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f2aa1e8d90b190e4",
+  "active": "c2a4fcf824becc33",
   "lastOpenFiles": [
-    "Notes/Asymmetry implies irreflexivity.md",
     "Notes/Asymmetric Relation.md",
     "Notes/Irreflexive Relation.md",
     "Notes/Strict total order iff transitive and asymmetric.md",
     "Notes/Trichotomous iff asymmetric and connected.md",
+    "Notes/Asymmetry implies irreflexivity.md",
     "Notes/Irreflexive and transitive implies asymmetric.md",
     "Notes/Standard topology on R (basis; rational endpoints).md",
     "Notes/Standard Topology on R.md",

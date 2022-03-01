@@ -4,7 +4,7 @@
 Date Created: 03/02/2022 18:24:55
 Tags: #Proposition #Closed 
 
-Proved by: [[Asymmetry implies irreflexivity]]
+Proved by: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity.md)
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

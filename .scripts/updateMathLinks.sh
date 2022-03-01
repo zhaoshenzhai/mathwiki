@@ -4,7 +4,6 @@ CYAN='\033[0;36m'
 GREEN='\033[0;32m'
 RED='\033[0;31m'
 YELLOW='\033[0;33m'
-BGGREEN='\033[1;42m'
 NC='\033[0m'
 
 Math()
@@ -22,9 +21,7 @@ cd ~/MathWiki/Notes
 allFiles=$(grep -l '%%auto_aliasing%%' *)
 
 allMathLinks=$(grep -Poh '\[[^\[^\]]*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
-
 allMathCurrent=$(echo "$allMathLinks" | sed 's/\[\([^]]*\)\].*/\1/g')
-
 allMathNewObsidian=$(echo "$allMathLinks" | sed 's/\[\([^]]*\)\](\(.*$\)/\2/g' | sed 's/.$//g')
 allMathNew=$(echo "$allMathNewObsidian" | sed 's/\(.*\).md/\1/' | sed 's/%20/\ /g')
 allMathNew=$(Math "$allMathNew")
@@ -58,50 +55,60 @@ while [ ! -z "$1" ]; do
             printf "\n"
 
             echo -e "${CYAN}-----STATE-----${NC}\n"
-
-            echo -e "${CYAN}Math changes:${NC}"
-            allMathNewTemp=$allMathNew
-            while IFS= read -r current; do
-                new=${allMathNewTemp%%$'\n'*}
-                if [ ! "$current" == "$new" ]; then
-                    echo -e "    ${RED}$current${NC} -> ${GREEN}$new${NC}"
-                    read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
-                    if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
-                        currentFormatted=$(Format "$current")
-                        newObsidian=${allMathNewObsidian%%$'\n'*}
-                        allMathCurrentFiles=$(grep -l "$newObsidian" *)
-                        new=$(echo "$new" | sed 's/\\/\\\\/g')
-
-                        while IFS= read -r file; do
-                            sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
-                            echo "    $file"
-                        done <<< "$allMathCurrentFiles"
-                    fi
-                fi
-                allMathNewTemp=${allMathNewTemp#*$'\n'}
-            done <<< "$allMathCurrent"
-            printf "\n"
-
-            echo -e "${CYAN}Double changes:${NC}"
-            allDoubleCurrentTemp=$allDoubleCurrent
-            allDoubleLeftTemp=$allDoubleLeft
-            while IFS= read -r current; do
-                left=${allDoubleLeftTemp%%$'\n'*}
-                
-                right=${allDoubleCurrentTemp%%$'\n'*}
-                right=$(echo "$right" | sed 's/\[\[/\(/g')
-                right=$(echo "$right" | sed 's/\]\]/\)/g')
-                right=$(echo "$right" | sed 's/\ /%20/g')
-
-                new=$left$right
-                if [ ! "$current" == "$new" ]; then
-                    echo -e "    ${RED}$current${NC} -> ${GREEN}$new${NC}"
-                fi
-                allDoubleCurrentTemp=${allDoubleCurrentTemp#*$'\n'}
-                allDoubleLeftTemp=${allDoubleLeftTemp#*$'\n'}
-            done <<< "$allDoubleCurrent"
-            printf "\n"
            ;;
     esac
 shift
 done
+
+if [ ! "$allMathCurrent" == "$allMathNew" ]; then
+    echo -e "${CYAN}Math changes:${NC}"
+    while IFS= read -r current; do
+        new=${allMathNew%%$'\n'*}
+        if [ ! "$current" == "$new" ]; then
+            echo -e "    ${RED}$current${NC} -> ${GREEN}$new${NC}"
+            read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
+            if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
+                currentFormatted=$(Format "$current")
+                newObsidian=${allMathNewObsidian%%$'\n'*}
+                allMathCurrentFiles=$(grep -l "$newObsidian" *)
+                new=$(echo "$new" | sed 's/\\/\\\\/g')
+
+                while IFS= read -r file; do
+                    sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
+                    echo "        $file"
+                done <<< "$allMathCurrentFiles"
+            fi
+        fi
+        allMathNew=${allMathNew#*$'\n'}
+    done <<< "$allMathCurrent"
+    printf "\n"
+fi
+
+if [[ ! -z $(grep -P "$(Format "$allDoubleCurrent")" *) ]]; then
+    echo -e "${CYAN}Double changes:${NC}"
+    while IFS= read -r current; do
+        left=${allDoubleLeft%%$'\n'*}
+
+        right=${allDoubleCurrent%%$'\n'*}
+        right=$(echo "$right" | sed 's/\[\[/\(/g' | sed 's/\]\]/.md\)/g' | sed 's/\ /%20/g')
+
+        new=$left$right
+        if [ ! "$current" == "$new" ]; then
+            echo -e "    ${RED}$current${NC} -> ${GREEN}$new${NC}"
+            read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
+            if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
+                currentFormatted=$(Format "$current")
+                allDoubleCurrentFiles=$(grep -Pl "$currentFormatted" *)
+                new=$(echo "$new" | sed 's/\\/\\\\/g')
+
+                while IFS= read -r file; do
+                    sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
+                    echo "        $file"
+                done <<< "$allDoubleCurrentFiles"
+            fi
+
+        fi
+        allDoubleCurrent=${allDoubleCurrent#*$'\n'}
+        allDoubleLeft=${allDoubleLeft#*$'\n'}
+    done <<< "$allDoubleCurrent"
+fi
