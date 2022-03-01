@@ -1,7 +1,7 @@
 <br />
 <br />
 
-Date Created: 08/02/2022 13:06:57
+Date Created: 08/02/2022 13:06:57 %%auto_aliasing%%
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for collection to be a basis for an existing topology]]

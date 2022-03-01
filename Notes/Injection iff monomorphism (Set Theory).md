@@ -1,10 +1,10 @@
 <br />
 <br />
 
-Date Created: 20/02/2022 19:16:39
+Date Created: 20/02/2022 19:16:39 %%auto_aliasing%%
 Tags: #Proposition #Closed 
 
-Proved by: [[Left inverse implies monomorphism]], [[Left inverse iff injection]], [[Composition with identities preserve functions]], [[Composition of relations is associative]]
+Proved by: [Left inverse $\Rightarrow$ monomorphism](Left%20inverse%20implies%20monomorphism.md), [Left inverse $\Leftrightarrow$ injection](Left%20inverse%20iff%20injection.md), [[Composition with identities preserve functions]], [[Composition of relations is associative]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

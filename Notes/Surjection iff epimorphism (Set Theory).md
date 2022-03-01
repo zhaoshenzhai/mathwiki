@@ -1,10 +1,10 @@
 <br />
 <br />
 
-Date Created: 21/02/2022 13:19:31
+Date Created: 21/02/2022 13:19:31 %%auto_aliasing%%
 Tags: #Proposition #Closed
 
-Proved by: [[Right inverse implies epimorphism]], [[Right inverse iff surjection (Choice)]], [[Composition with identities preserve functions]], [[Composition of relations is associative]]
+Proved by: [Right inverse $\Rightarrow$ epimorphism](Right%20inverse%20implies%20epimorphism.md), [Right inverse $\Leftrightarrow$ surjection (Choice)](Right%20inverse%20iff%20surjection%20(Choice).md), [[Composition with identities preserve functions]], [[Composition of relations is associative]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

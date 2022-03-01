@@ -9,9 +9,9 @@ Examples: [[Inclusion Function]]
 Constructions: [[Bijection]]
 Generalizations: _Not Applicable_
 
-Properties: [[Complement of images subset of image of complement; equal if injection]]
+Properties: [Complement of images subset of image of complement; injection $\Rightarrow$ equality](Complement%20of%20images%20subset%20of%20image%20of%20complement;%20injection%20implies%20equality.md)
 Sufficiencies: _Not Applicable_
-Equivalences: [[Left inverse iff injection]], [[Image of intersection subset of intersection of images; equal iff injection]], [[Injection iff monomorphism (Set Theory)]]
+Equivalences: [Left inverse $\Leftrightarrow$ injection](Left%20inverse%20iff%20injection.md), [Image of intersection subset of intersection of images; equal $\Leftrightarrow$ injection](Image%20of%20intersection%20subset%20of%20intersection%20of%20images;%20equal%20iff%20injection.md), [Injection $\Leftrightarrow$ monomorphism (Set Theory)](Injection%20iff%20monomorphism%20(Set%20Theory).md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition

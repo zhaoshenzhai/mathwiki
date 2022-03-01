@@ -1,17 +1,17 @@
 <br />
 <br />
 
-Date Created: 04/02/2022 11:36:30
+Date Created: 04/02/2022 11:36:30 %%auto_aliasing%%
 Tags: #Definition #Closed  
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Real Line (Topology)]], [[Standard Topology on R2]]
+Constructions: [[Real Line (Topology)]], [Standard Topology on $\R^2$](Standard%20Topology%20on%20R2.md)
 Generalizations: _Not Applicable_
 
-Properties: [[Upper-limit topology strictly finer than standard topology on R]], [[Lower-limit topology strictly finer than standard topology on R]], [[K topology strictly finer than standard topology on R]]
+Properties: [Upper-limit topology strictly finer than standard topology on $\R$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [Lower-limit topology strictly finer than standard topology on $\R$](Lower-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$K$ topology strictly finer than standard topology on $\R$](K%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md)
 Sufficiencies: _Not Applicable_
-Equivalences: [[Standard topology on R (explicit)]], [Standard topology on $\R$ (basis; rational endpoints)](Standard%20topology%20on%20R%20(basis;%20rational%20endpoints).md), [[Standard topology on R (subbasis; rational endpoints)]]
+Equivalences: [Standard topology on $\R$ (explicit)](Standard%20topology%20on%20R%20(explicit).md), [Standard topology on $\R$ (basis; rational endpoints)](Standard%20topology%20on%20R%20(basis;%20rational%20endpoints).md), [Standard topology on $\R$ (subbasis; rational endpoints)](Standard%20topology%20on%20R%20(subbasis;%20rational%20endpoints).md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition

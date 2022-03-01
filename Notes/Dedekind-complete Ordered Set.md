@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Dedekind-complete bounded convex sets are intervals]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[LUB property iff GLB property]]
+Equivalences: [LUB property $\Leftrightarrow$ GLB property](LUB%20property%20iff%20GLB%20property.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition

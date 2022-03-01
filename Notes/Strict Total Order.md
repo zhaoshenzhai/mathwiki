@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Reflexive closure of strict orders is non-strict]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Strict total order iff transitive and asymmetric]]
+Equivalences: [Strict total order $\Leftrightarrow$ transitive and asymmetric](Strict%20total%20order%20iff%20transitive%20and%20asymmetric.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition

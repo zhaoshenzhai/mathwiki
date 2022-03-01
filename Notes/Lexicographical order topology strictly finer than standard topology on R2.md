@@ -1,7 +1,7 @@
 <br />
 <br />
 
-Date Created: 10/02/2022 12:42:39
+Date Created: 10/02/2022 12:42:39 %%auto_aliasing%%
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for fineness w.r.t bases]], [[Product topology (basis; component from bases)]]

@@ -1,7 +1,7 @@
 <br />
 <br />
 
-Date Created: 07/02/2022 16:26:29
+Date Created: 07/02/2022 16:26:29 %%auto_aliasing%%
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Lexicographical order on N2 is bounded below]]
+Justifications: [Lexicographical order on $\N^2$ is bounded below](Lexicographical%20order%20on%20N2%20is%20bounded%20below.md)
 
 ``` ad-Definition
 title: Definition.

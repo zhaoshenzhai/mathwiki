@@ -11,7 +11,7 @@ Generalizations: [[Right Inverse (Morphism)]]
 
 Properties: [[Left and right inverses coincide (Function)]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Right inverse iff surjection (Choice)]]
+Equivalences: [Right inverse $\Leftrightarrow$ surjection (Choice)](Right%20inverse%20iff%20surjection%20(Choice).md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition

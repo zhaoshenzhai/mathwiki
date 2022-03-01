@@ -1,10 +1,10 @@
 <br />
 <br />
 
-Date Created: 27/01/2022 11:56:26
+Date Created: 27/01/2022 11:56:26 %%auto_aliasing%%
 Tags: #Proposition #Closed 
 
-Proved by: [[Left inverse iff injection]], [[Right inverse iff surjection (Choice)]], [[Left and right inverses coincide (Function)]], [[Composition of relations is associative]], [[Composition with identities preserve functions]]
+Proved by: [Left inverse $\Leftrightarrow$ injection](Left%20inverse%20iff%20injection.md), [Right inverse $\Leftrightarrow$ surjection (Choice)](Right%20inverse%20iff%20surjection%20(Choice).md), [[Left and right inverses coincide (Function)]], [[Composition of relations is associative]], [[Composition with identities preserve functions]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

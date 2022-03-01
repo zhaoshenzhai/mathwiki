@@ -1,10 +1,10 @@
 <br />
 <br />
 
-Date Created: 31/01/2022 17:50:47
+Date Created: 31/01/2022 17:50:47 %%auto_aliasing%%
 Tags: #Proposition #Closed 
 
-Proved by: [[ON is a transitive class]], [[ON is well-ordered by membership]]
+Proved by: [$\textrm{ON}$ is a transitive class](ON%20is%20a%20transitive%20class.md), [$\textrm{ON}$ is well-ordered by membership](ON%20is%20well-ordered%20by%20membership.md)
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

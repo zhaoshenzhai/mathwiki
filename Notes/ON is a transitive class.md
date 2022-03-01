@@ -1,10 +1,10 @@
 <br />
 <br />
 
-Date Created: 30/01/2022 19:17:19
+Date Created: 30/01/2022 19:17:19 %%auto_aliasing%%
 Tags: #Proposition #Closed 
 
-Proved by: [[Transitive set iff every element is a subset]], [[Well-ordering well-orders subsets]]
+Proved by: [Transitive set $\Leftrightarrow$ every element is a subset](Transitive%20set%20iff%20every%20element%20is%20a%20subset.md), [[Well-ordering well-orders subsets]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

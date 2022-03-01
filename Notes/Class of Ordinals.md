@@ -9,10 +9,10 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [ON is a transitive class](ON%20is%20a%20transitive%20class.md), [ON is well-ordered by membership](ON%20is%20well-ordered%20by%20membership.md)
+Properties: [$\textrm{ON}$ is a transitive class](ON%20is%20a%20transitive%20class.md), [$\textrm{ON}$ is well-ordered by membership](ON%20is%20well-ordered%20by%20membership.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[ON is a proper class]]
+Justifications: [$\textrm{ON}$ is a proper class](ON%20is%20a%20proper%20class.md)
 
 ``` ad-Definition
 title: Definition.(Informal).

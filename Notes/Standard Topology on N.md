@@ -1,7 +1,7 @@
 <br />
 <br />
 
-Date Created: 07/02/2022 15:37:52
+Date Created: 07/02/2022 15:37:52 %%auto_aliasing%%
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [[Standard topology on N is the discrete topology on N]]
+Equivalences: [Standard topology on $\N$ is the discrete topology on $\N$](Standard%20topology%20on%20N%20is%20the%20discrete%20topology%20on%20N.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition

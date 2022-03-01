@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Half-infinite open rays are open in the order topology]], [[Standard topology on R (subbasis; rational endpoints)]], [[Order topology (subbasis)]]
+Properties: [[Half-infinite open rays are open in the order topology]], [Standard topology on $\R$ (subbasis; rational endpoints)](Standard%20topology%20on%20R%20(subbasis;%20rational%20endpoints).md), [[Order topology (subbasis)]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

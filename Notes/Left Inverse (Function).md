@@ -11,7 +11,7 @@ Generalizations: [[Left Inverse (Morphism)]]
 
 Properties: [[Left and right inverses coincide (Function)]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Left inverse iff injection]]
+Equivalences: [Left inverse $\Leftrightarrow$ injection](Left%20inverse%20iff%20injection.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition

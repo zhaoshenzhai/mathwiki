@@ -1,7 +1,7 @@
 <br />
 <br />
 
-Date Created: 10/02/2022 12:15:43
+Date Created: 10/02/2022 12:15:43 %%auto_aliasing%%
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Euclidean Plane (Topology)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Lexicographical order topology strictly finer than standard topology on R2]]
+Properties: [Lexicographical order topology strictly finer than standard topology on $\R^2$](Lexicographical%20order%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R2.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

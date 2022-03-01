@@ -11,7 +11,7 @@ Generalizations: [[Inverse (Relation)]], [[Inverse (Morphism)]]
 
 Properties: [[Inverse of bijection is a bijection]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Invertible iff bijective]]
+Equivalences: [Invertible $\Leftrightarrow$ bijective](Invertible%20iff%20bijective.md)
 Justifications: [[Inverse of function is unique]]
 
 ``` ad-Definition

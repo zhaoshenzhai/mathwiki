@@ -5,12 +5,12 @@ Date Created: 21/02/2022 23:04:14
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Injection iff monomorphism (Set Theory)]]
+Examples: [Injection $\Leftrightarrow$ monomorphism (Set Theory)](Injection%20iff%20monomorphism%20(Set%20Theory).md)
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Left inverse implies monomorphism]], [[Morphisms in thin category are both monos and epis]]
+Sufficiencies: [Left inverse $\Rightarrow$ monomorphism](Left%20inverse%20implies%20monomorphism.md), [[Morphisms in thin category are both monos and epis]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

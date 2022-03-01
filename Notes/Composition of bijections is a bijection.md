@@ -4,7 +4,7 @@
 Date Created: 27/01/2022 13:45:27
 Tags: #Proposition #Closed 
 
-Proved by: [[Invertible iff bijective]], [[Composition of relations is associative]], [[Composition with identities preserve functions]]
+Proved by: [Invertible $\Leftrightarrow$ bijective](Invertible%20iff%20bijective.md), [[Composition of relations is associative]], [[Composition with identities preserve functions]]
 Generalizations: [[Composition of isomorphims are isomorphisms]]
 
 Examples: _Not Applicable_

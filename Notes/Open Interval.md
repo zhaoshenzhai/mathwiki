@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Rational convex set (not interval)]], [[Lexicographical plane convex set (not interval)]]
-Constructions: [[Order Topology]], [[K Topology on R]]
+Constructions: [[Order Topology]], [$K$ Topology on $\R$](K%20Topology%20on%20R.md)
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

@@ -8,7 +8,7 @@ NC='\033[0m'
 
 Math()
 {
-    echo "$1" | sed 's/\ R\ /\ \$\\R\$\ /g' | sed 's/\ implies\ /\ \$\\Rightarrow\$\ /g' | sed 's/\ iff\ /\ \$\\Leftrightarrow\$\ /g' | sed 's/ON\ /\$\\\\textrm\{ON\}\$\ /g'
+    echo "$1" | sed -E 's/\bR\b/\$\\R\$/g' | sed -E 's/\bimplies\b/\$\\Rightarrow\$/g' | sed -E 's/\biff\b/\$\\Leftrightarrow\$/g' | sed -E 's/\bON\b/\$\\textrm\{ON\}\$/g' | sed -E 's/\bK\b/\$K\$/g' | sed -E 's/\bR2\b/\$\\R\^2\$/g' | sed -E 's/\bN2\b/\$\\N\^2\$/g' | sed -E 's/\bN\b/\$\\N\$/g'
 }
 
 Format()
@@ -63,19 +63,20 @@ done
 if [ ! "$allMathCurrent" == "$allMathNew" ]; then
     while IFS= read -r current; do
         new=${allMathNew%%$'\n'*}
+        new=$(echo "$new" | sed -E 's/\\/\\\\/g')
         if [ ! "$current" == "$new" ]; then
-            echo -e "    ${RED}$current${NC} -> ${GREEN}$new${NC}"
+            echo -e "${RED}$current${NC} -> ${GREEN}$new${NC}"
             read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
             if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
                 currentFormatted=$(Format "$current")
                 newObsidian=${allMathNewObsidian%%$'\n'*}
                 allMathCurrentFiles=$(grep -l "$newObsidian" *)
-                new=$(echo "$new" | sed 's/\\/\\\\/g')
 
                 while IFS= read -r file; do
                     sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
                     echo "        $file"
                 done <<< "$allMathCurrentFiles"
+                printf "\n"
             fi
         fi
         allMathNew=${allMathNew#*$'\n'}
@@ -92,12 +93,12 @@ while IFS= read -r current; do
     right=$(echo "$right" | sed 's/\[\[/\(/g' | sed 's/\]\]/.md\)/g' | sed 's/\ /%20/g')
 
     new=$left$right
+    new=$(echo "$new" | sed 's/\\/\\\\/g')
     if [[ ! -z $(grep -P "$currentFormatted" *) ]]; then
-        echo -e "    ${RED}$current${NC} -> ${GREEN}$new${NC}"
+        echo -e "${RED}$current${NC} -> ${GREEN}$new${NC}"
         read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
         if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
             allDoubleCurrentFiles=$(grep -Pl "$currentFormatted" *)
-            new=$(echo "$new" | sed 's/\\/\\\\/g')
 
             while IFS= read -r file; do
                 sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"

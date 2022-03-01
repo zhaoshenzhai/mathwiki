@@ -1,10 +1,10 @@
 <br />
 <br />
 
-Date Created: 02/02/2022 11:40:56
+Date Created: 02/02/2022 11:40:56 %%auto_aliasing%%
 Tags: #Proposition #Closed 
 
-Proved by: [ON is a transitive class](ON%20is%20a%20transitive%20class.md), [[Reflexive closure of ordering on ordinals]]
+Proved by: [$\textrm{ON}$ is a transitive class](ON%20is%20a%20transitive%20class.md), [[Reflexive closure of ordering on ordinals]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

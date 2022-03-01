@@ -1,7 +1,7 @@
 <br />
 <br />
 
-Date Created: 31/01/2022 12:28:22
+Date Created: 31/01/2022 12:28:22 %%auto_aliasing%%
 Tags: #Proposition #Closed 
 
 Proved by: [[Intersection of ordinals is an ordinal]], [[Reflexive closure of ordering on ordinals]]
