@@ -4,7 +4,7 @@
 Date Created: 02/02/2022 13:39:26
 Tags: #Proposition #Closed 
 
-Proved by: [[Natural numbers form an initial segment of ON]], [[Well-ordering well-orders subsets]], [[ON is well-ordered by membership]]
+Proved by: [[Natural numbers form an initial segment of ON]], [[Well-ordering well-orders subsets]], [ON is well-ordered by membership](ON%20is%20well-ordered%20by%20membership.md)
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

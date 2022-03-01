@@ -4,7 +4,7 @@
 Date Created: 29/01/2022 13:58:07
 Tags: #Proposition #Closed 
 
-Proved by: [[Same equivalence class iff related]]
+Proved by: [Same equivalence class $\Leftrightarrow$ related](Same%20equivalence%20class%20iff%20related.md)
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

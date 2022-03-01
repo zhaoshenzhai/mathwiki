@@ -8,7 +8,7 @@ NC='\033[0m'
 
 Math()
 {
-    echo "$1" | sed 's/\ R\ /\ \$\\R\$\ /g' | sed 's/\ implies\ /\ \$\\Rightarrow\$\ /g' | sed 's/\ iff\ /\ \$\\Leftrightarrow\$\ /g'
+    echo "$1" | sed 's/\ R\ /\ \$\\R\$\ /g' | sed 's/\ implies\ /\ \$\\Rightarrow\$\ /g' | sed 's/\ iff\ /\ \$\\Leftrightarrow\$\ /g' | sed 's/ON\ /\$\\\\textrm\{ON\}\$\ /g'
 }
 
 Format()
@@ -61,7 +61,6 @@ shift
 done
 
 if [ ! "$allMathCurrent" == "$allMathNew" ]; then
-    echo -e "${CYAN}Math changes:${NC}"
     while IFS= read -r current; do
         new=${allMathNew%%$'\n'*}
         if [ ! "$current" == "$new" ]; then
@@ -85,7 +84,6 @@ if [ ! "$allMathCurrent" == "$allMathNew" ]; then
     printf "\n"
 fi
 
-echo -e "${CYAN}Double changes:${NC}"
 while IFS= read -r current; do
     currentFormatted=$(Format "$current")
 
@@ -105,6 +103,7 @@ while IFS= read -r current; do
                 sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
                 echo "        $file"
             done <<< "$allDoubleCurrentFiles"
+            printf "\n"
         fi
 
     fi

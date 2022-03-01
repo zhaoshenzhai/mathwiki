@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "40b7332591bef335",
+        "id": "5b1b597ffaaee273",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Irreflexive and transitive implies asymmetric.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "75ba3bfeebf4693f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Transitive Relation.md",
+            "file": "Notes/Class of Ordinals.md",
             "mode": "preview",
             "source": true
           }
@@ -84,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Transitive Relation.md",
+                "file": "Notes/Class of Ordinals.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Transitive Relation.md",
+                "file": "Notes/Class of Ordinals.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -179,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Transitive Relation.md",
+                "file": "Notes/Class of Ordinals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,17 +180,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "75ba3bfeebf4693f",
+  "active": "5b1b597ffaaee273",
   "lastOpenFiles": [
-    "Notes/Transitive Relation.md",
-    "Notes/Irreflexive and transitive implies asymmetric.md",
-    "Notes/Transitive Set.md",
-    "Notes/Strict total order iff transitive and asymmetric.md",
-    "Notes/Asymmetric Relation.md",
-    "Notes/Irreflexive Relation.md",
-    "Notes/Antisymmetric Relation.md",
-    "Notes/Absolute complement of a set is a proper class.md",
-    "Notes/Asymmetry implies irreflexivity.md",
-    "Notes/Trichotomous iff asymmetric and connected.md"
+    "Notes/Class of Ordinals.md",
+    "Notes/ON is a transitive class.md",
+    "Notes/ON is well-ordered by membership.md",
+    "Notes/Class.md",
+    "Notes/Category of sets is a category.md",
+    "Notes/Category of Sets.md",
+    "Notes/Category of relations is a category.md",
+    "Notes/Category of Relations.md",
+    "Notes/Category.md",
+    "Notes/Cartesian product of intersections.md"
   ]
 }

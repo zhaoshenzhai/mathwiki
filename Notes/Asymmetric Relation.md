@@ -10,7 +10,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity.md)
-Sufficiencies: [Irreflexive and transitive $\Rightarrow$ asymmetric](Irreflexive%20and%20transitive%20implies%20asymmetric.md), [[Trichotomous iff asymmetric and connected]]
+Sufficiencies: [Irreflexive and transitive $\Rightarrow$ asymmetric](Irreflexive%20and%20transitive%20implies%20asymmetric.md), [Trichotomous $\Leftrightarrow$ asymmetric and connected](Trichotomous%20iff%20asymmetric%20and%20connected.md)
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

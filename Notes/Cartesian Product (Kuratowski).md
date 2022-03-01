@@ -11,7 +11,7 @@ Generalizations: [[Cartesian Product (Arbitrary)]]
 
 Properties: [[Cartesian product is monotone w.r.t. subsets]], [[Cartesian product of intersections]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Binary relation iff subset of Cartesian product]]
+Equivalences: [Binary relation $\Leftrightarrow$ subset of Cartesian product](Binary%20relation%20iff%20subset%20of%20Cartesian%20product.md)
 Justifications: [[Cartesian product (Kuratowski) is a set (Power Set)]], [[Cartesian product (Kuratowski) is a set (Replacement)]]
 
 ``` ad-Definition

@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[ON is a transitive class]], [[ON is well-ordered by membership]]
+Properties: [ON is a transitive class](ON%20is%20a%20transitive%20class.md), [ON is well-ordered by membership](ON%20is%20well-ordered%20by%20membership.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[ON is a proper class]]
