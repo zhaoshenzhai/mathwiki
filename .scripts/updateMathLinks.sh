@@ -80,35 +80,34 @@ if [ ! "$allMathCurrent" == "$allMathNew" ]; then
             fi
         fi
         allMathNew=${allMathNew#*$'\n'}
+        allMathNewObsidian=${allMathNewObsidian#*$'\n'}
     done <<< "$allMathCurrent"
     printf "\n"
 fi
 
-if [[ ! -z $(grep -P "$(Format "$allDoubleCurrent")" *) ]]; then
-    echo -e "${CYAN}Double changes:${NC}"
-    while IFS= read -r current; do
-        left=${allDoubleLeft%%$'\n'*}
+echo -e "${CYAN}Double changes:${NC}"
+while IFS= read -r current; do
+    currentFormatted=$(Format "$current")
 
-        right=${allDoubleCurrent%%$'\n'*}
-        right=$(echo "$right" | sed 's/\[\[/\(/g' | sed 's/\]\]/.md\)/g' | sed 's/\ /%20/g')
+    left=${allDoubleLeft%%$'\n'*}
+    right=${allDoubleCurrent%%$'\n'*}
+    right=$(echo "$right" | sed 's/\[\[/\(/g' | sed 's/\]\]/.md\)/g' | sed 's/\ /%20/g')
 
-        new=$left$right
-        if [ ! "$current" == "$new" ]; then
-            echo -e "    ${RED}$current${NC} -> ${GREEN}$new${NC}"
-            read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
-            if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
-                currentFormatted=$(Format "$current")
-                allDoubleCurrentFiles=$(grep -Pl "$currentFormatted" *)
-                new=$(echo "$new" | sed 's/\\/\\\\/g')
+    new=$left$right
+    if [[ ! -z $(grep -P "$currentFormatted" *) ]]; then
+        echo -e "    ${RED}$current${NC} -> ${GREEN}$new${NC}"
+        read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
+        if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
+            allDoubleCurrentFiles=$(grep -Pl "$currentFormatted" *)
+            new=$(echo "$new" | sed 's/\\/\\\\/g')
 
-                while IFS= read -r file; do
-                    sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
-                    echo "        $file"
-                done <<< "$allDoubleCurrentFiles"
-            fi
-
+            while IFS= read -r file; do
+                sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
+                echo "        $file"
+            done <<< "$allDoubleCurrentFiles"
         fi
-        allDoubleCurrent=${allDoubleCurrent#*$'\n'}
-        allDoubleLeft=${allDoubleLeft#*$'\n'}
-    done <<< "$allDoubleCurrent"
-fi
+
+    fi
+    allDoubleCurrent=${allDoubleCurrent#*$'\n'}
+    allDoubleLeft=${allDoubleLeft#*$'\n'}
+done <<< "$allDoubleCurrent"

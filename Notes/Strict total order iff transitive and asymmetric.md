@@ -4,7 +4,7 @@
 Date Created: 03/02/2022 18:10:42
 Tags: #Proposition #Closed 
 
-Proved by: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity.md), [[Irreflexive and transitive implies asymmetric]]
+Proved by: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity.md), [Irreflexive and transitive $\Rightarrow$ asymmetric](Irreflexive%20and%20transitive%20implies%20asymmetric.md)
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

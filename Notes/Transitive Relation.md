@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Equivalence Relation]], [[Preorder]], [[Strict Partial Order]]
 Generalizations: _Not Applicable_
 
-Properties: [[Irreflexive and transitive implies asymmetric]]
+Properties: [Irreflexive and transitive $\Rightarrow$ asymmetric](Irreflexive%20and%20transitive%20implies%20asymmetric.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

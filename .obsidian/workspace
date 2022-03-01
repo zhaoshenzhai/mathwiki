@@ -4,60 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "f2aa1e8d90b190e4",
+        "id": "40b7332591bef335",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Asymmetry implies irreflexivity.md",
+            "file": "Notes/Irreflexive and transitive implies asymmetric.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "3b165c3ae90e5fb2",
+        "id": "75ba3bfeebf4693f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Trichotomous iff asymmetric and connected.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "41de5588b6ad8a61",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Strict total order iff transitive and asymmetric.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "81cbb939676860e8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Irreflexive Relation.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "c2a4fcf824becc33",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Asymmetric Relation.md",
+            "file": "Notes/Transitive Relation.md",
             "mode": "preview",
             "source": true
           }
@@ -120,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Asymmetric Relation.md",
+                "file": "Notes/Transitive Relation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241,
-    "collapsed": true
+    "width": 241
   },
   "right": {
     "id": "6e128061ec5336cc",
@@ -152,7 +115,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Asymmetric Relation.md",
+                "file": "Notes/Transitive Relation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -216,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Asymmetric Relation.md",
+                "file": "Notes/Transitive Relation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,17 +192,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "c2a4fcf824becc33",
+  "active": "75ba3bfeebf4693f",
   "lastOpenFiles": [
+    "Notes/Transitive Relation.md",
+    "Notes/Irreflexive and transitive implies asymmetric.md",
+    "Notes/Transitive Set.md",
+    "Notes/Strict total order iff transitive and asymmetric.md",
     "Notes/Asymmetric Relation.md",
     "Notes/Irreflexive Relation.md",
-    "Notes/Strict total order iff transitive and asymmetric.md",
-    "Notes/Trichotomous iff asymmetric and connected.md",
+    "Notes/Antisymmetric Relation.md",
+    "Notes/Absolute complement of a set is a proper class.md",
     "Notes/Asymmetry implies irreflexivity.md",
-    "Notes/Irreflexive and transitive implies asymmetric.md",
-    "Notes/Standard topology on R (basis; rational endpoints).md",
-    "Notes/Standard Topology on R.md",
-    "Notes/Basis (Topology).md",
-    "Notes/Connected Relation.md"
+    "Notes/Trichotomous iff asymmetric and connected.md"
   ]
 }
