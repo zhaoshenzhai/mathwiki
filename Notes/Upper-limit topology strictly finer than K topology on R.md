@@ -1,5 +1,5 @@
 ---
-alias: auto_aliasing
+custom_alias: $\mc{T}_K\subset\mc{T}_\textrm{UL}$
 ---
 
 <br />
@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 05/02/2022 10:24:48
 Tags: #Proposition #Closed 
 
-Proved by: [[Criteria for fineness w.r.t bases]], [Upper-limit topology strictly finer than standard topology on $\R$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md)
+Proved by: [[Criteria for fineness w.r.t bases]], [$\mc{T}_\textrm{st}\subset\mc{T}_\textrm{UL}$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md)
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

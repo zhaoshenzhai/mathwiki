@@ -1,3 +1,7 @@
+---
+custom_alias: $\mc{T}\l(\l.<\r|_Y\r)\subseteq\l.\mc{T}\l(<\r)\r|_Y$
+---
+
 <br />
 <br />
 

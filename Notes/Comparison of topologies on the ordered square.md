@@ -4,7 +4,7 @@
 Date Created: 18/02/2022 16:16:11
 Tags: #Proposition #Closed 
 
-Proved by: [[Restricted order topology subset of subspace topology]], [[Ordered square is strict subset of subspace topology]], [[Subspace of order topology strictly finer than product topology on ordered square]], [[Order and product topologies not comparable on ordered square]]
+Proved by: [$\mc{T}\l(\l.<\r|_Y\r)\subseteq\l.\mc{T}\l(<\r)\r|_Y$](Restricted%20order%20topology%20subset%20of%20subspace%20topology.md), [[Ordered square is strict subset of subspace topology]], [[Subspace of order topology strictly finer than product topology on ordered square]], [[Order and product topologies not comparable on ordered square]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

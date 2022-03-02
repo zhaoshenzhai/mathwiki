@@ -9,7 +9,7 @@ Examples: [Standard Topology on $\R$](Standard%20Topology%20on%20R.md), [Standar
 Constructions: [[Order Space (Topology)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Restricted order topology subset of subspace topology]], [[Restricted order and subspace topologies coincide for convex sets]]
+Properties: [$\mc{T}\l(\l.<\r|_Y\r)\subseteq\l.\mc{T}\l(<\r)\r|_Y$](Restricted%20order%20topology%20subset%20of%20subspace%20topology.md), [[Restricted order and subspace topologies coincide for convex sets]]
 Sufficiencies: [[Half-infinite open rays are open in the order topology]]
 Equivalences: [[Order topology (subbasis)]]
 Justifications: [[Order topology is a topology]]

@@ -1,5 +1,5 @@
 ---
-alias: auto_aliasing
+custom_alias: $\mc{T}_\textrm{st}\subset\mc{T}_\textrm{LL}$
 ---
 
 <br />

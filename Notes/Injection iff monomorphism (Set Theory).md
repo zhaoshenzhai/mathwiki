@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 20/02/2022 19:16:39
 Tags: #Proposition #Closed 
 
-Proved by: [Left inverse $\Rightarrow$ monomorphism](Left%20inverse%20implies%20monomorphism.md), [Left inverse $\Leftrightarrow$ injection](Left%20inverse%20iff%20injection.md), [[Composition with identities preserve functions]], [[Composition of relations is associative]]
+Proved by: [Left inverse $\Leftrightarrow$ injection](Left%20inverse%20iff%20injection.md), [Left inverse $\Rightarrow$ monomorphism](Left%20inverse%20implies%20monomorphism.md)
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

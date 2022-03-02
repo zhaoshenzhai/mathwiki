@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Topological Subspace]]
 Generalizations: _Not Applicable_
 
-Properties: [[Open set in open subspace is open]], [[Subspace topology of subspace topology is subspace topology]], [[Product and subspace topologies on subsets coincide]], [[Restricted order topology subset of subspace topology]], [[Restricted order and subspace topologies coincide for convex sets]]
+Properties: [[Open set in open subspace is open]], [$\l.\l.\mc{T}\r|_Y\r|_Z=\l.\mc{T}\r|_Z$](Subspace%20topology%20of%20subspace%20topology%20is%20subspace%20topology.md), [$\l.\l(\mc{T}_X\times\mc{T}_Y\r)\r|_{S\times T}=\l.\mc{T}_X\r|_S\times\l.\mc{T}_Y\r|_T$](Product%20and%20subspace%20topologies%20on%20subsets%20coincide.md), [$\mc{T}\l(\l.<\r|_Y\r)\subseteq\l.\mc{T}\l(<\r)\r|_Y$](Restricted%20order%20topology%20subset%20of%20subspace%20topology.md), [[Restricted order and subspace topologies coincide for convex sets]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Subspace topology (basis)]], [[Subspace topology (subbasis)]]
 Justifications: [[Subspace topology is a topology]]
