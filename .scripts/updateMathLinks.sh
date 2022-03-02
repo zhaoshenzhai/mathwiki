@@ -39,7 +39,7 @@ Format()
 
 cd ~/MathWiki/Notes
 
-allFiles=$(grep -l 'auto_aliasing' *)
+allFiles=$(grep -l 'alias: auto_aliasing\|custom_alias:' *)
 
 allMathLinks=$(grep -Poh '\[[^\[^\]]*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
 allMathCurrent=$(echo "$allMathLinks" | sed 's/\[\([^]]*\)\].*/\1/g')
@@ -50,7 +50,6 @@ allMathNew=$(Math "$allMathNew")
 allDoubleCurrent=$(sed 's/^/\[\[/g' <<< "$allFiles")
 allDoubleCurrent=$(sed 's/$/\]\]/g' <<< "$allDoubleCurrent")
 allDoubleCurrent=$(sed 's/.md//g' <<< "$allDoubleCurrent")
-allDoubleLeft=$(Math "$allDoubleCurrent" | sed 's/\[\[/\[/g' | sed 's/\]\]/\]/g')
 
 while [ ! -z "$1" ]; do
     case "$1" in
@@ -119,8 +118,8 @@ if [ ! "$allMathCurrent" == "$allMathNew" ]; then
                     sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
                     echo "        $file"
                 done <<< "$allMathCurrentFiles"
-                printf "\n"
             fi
+            printf "\n"
         fi
         allMathNew=${allMathNew#*$'\n'}
         allMathNewObsidian=${allMathNewObsidian#*$'\n'}
@@ -130,14 +129,21 @@ fi
 
 while IFS= read -r current; do
     currentFormatted=$(Format "$current")
-
-    left=${allDoubleLeft%%$'\n'*}
-    right=${allDoubleCurrent%%$'\n'*}
-    right=$(echo "$right" | sed 's/\[\[/\(/g' | sed 's/\]\]/.md\)/g' | sed 's/\ /%20/g')
-
-    new=$left$right
-    new=$(echo "$new" | sed 's/\\/\\\\/g')
     if [[ ! -z $(grep -P "$currentFormatted" *) ]]; then
+        currentTemp=$(echo "$current" | sed 's/\[\[//g' | sed 's/\]\]//g' | sed 's/$/.md/g')
+        currentFile=$(grep "custom_alias: " "$currentTemp")
+        if [[ ! -z $currentFile ]]; then
+            alias=$(echo "$currentFile" | sed 's/^.*:\ //g')
+            left=$(echo "["$alias"]" | sed 's/.md//g')
+        else
+            left="["$(Math "$currentTemp")"]"
+        fi
+
+        right=${allDoubleCurrent%%$'\n'*}
+        right=$(echo "$right" | sed 's/\[\[/\(/g' | sed 's/\]\]/.md\)/g' | sed 's/\ /%20/g')
+
+        new=$left$right
+        new=$(echo "$new" | sed 's/\\/\\\\/g')
         echo -e "${RED}$current${NC} -> ${GREEN}$new${NC}"
         read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
         if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
@@ -147,10 +153,8 @@ while IFS= read -r current; do
                 sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
                 echo "        $file"
             done <<< "$allDoubleCurrentFiles"
-            printf "\n"
         fi
-
+        printf "\n"
     fi
     allDoubleCurrent=${allDoubleCurrent#*$'\n'}
-    allDoubleLeft=${allDoubleLeft#*$'\n'}
 done <<< "$allDoubleCurrent"

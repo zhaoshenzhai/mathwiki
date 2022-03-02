@@ -1,3 +1,7 @@
+---
+custom_alias: $\bigcup\em=\em$
+---
+
 <br />
 <br />
 
