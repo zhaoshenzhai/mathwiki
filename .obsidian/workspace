@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4cb2a276524c1771",
+        "id": "619af489f6dc704e",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -16,12 +16,12 @@
         }
       },
       {
-        "id": "21fb15a86927830f",
+        "id": "129b5943844bf1cf",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Empty product is singleton of empty set.md",
+            "file": "Notes/Trivial topology is a topology.md",
             "mode": "preview",
             "source": true
           }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Empty product is singleton of empty set.md",
+                "file": "Notes/Trivial topology is a topology.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Empty product is singleton of empty set.md",
+                "file": "Notes/Trivial topology is a topology.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Empty product is singleton of empty set.md",
+                "file": "Notes/Trivial topology is a topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,17 +193,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "21fb15a86927830f",
+  "active": "129b5943844bf1cf",
   "lastOpenFiles": [
-    "Notes/Empty product is singleton of empty set.md",
+    "Notes/Trivial topology is a topology.md",
     "Notes/Union of empty set is empty.md",
     "Notes/Standard Topology on R.md",
     "Notes/Standard Topology on R2.md",
+    "Notes/Empty product is singleton of empty set.md",
     "Notes/Product Topology (Binary).md",
     "Notes/Order Topology.md",
     "Notes/Ordered Pair.md",
     "Notes/Union.md",
-    "Notes/Empty (Formula).md",
-    "Notes/Standard Topology on N.md"
+    "Notes/Empty (Formula).md"
   ]
 }

@@ -39,63 +39,40 @@ Format()
 
 cd ~/MathWiki/Notes
 
-allFiles=$(grep -l 'alias: auto_aliasing\|custom_alias:' *)
-
-allMathLinks=$(grep -Poh '\[[^\]]*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
-allMathCurrent=$(echo "$allMathLinks" | sed 's/\[\([^]]*\)\].*/\1/g')
-allMathNewObsidian=$(echo "$allMathLinks" | sed 's/\[\([^]]*\)\](\(.*$\)/\2/g' | sed 's/.$//g')
-allMathNew=$(echo "$allMathNewObsidian" | sed 's/\(.*\).md/\1/' | sed 's/%20/\ /g')
-allMathNew=$(Math "$allMathNew")
-
 while [ ! -z "$1" ]; do
     case "$1" in
-        --state|-s)
-            echo -e "\n${CYAN}-----STATE-----${NC}\n"
+        --update|-u)
+            allLinks=$(grep -Poh '\[[^\]]*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
 
-            echo -e "${CYAN}All files tagged with %%auto_aliasing%%:${NC}"
-            while IFS= read -r file; do
-                echo -e "    $file"
-            done <<< "$allFiles"
-            printf "\n"
-
-            echo -e "${CYAN}All math links:${NC}"
             while IFS= read -r link; do
-                echo -e "    $link"
-            done <<< "$allMathLinks"
-            printf "\n"
+                obsidian=$(echo "$link" | sed 's/\[\([^]]*\)\](\(.*$\)/\2/g' | sed 's/.$//g')
+                new=$(echo "$obsidian" | sed 's/\(.*\).md/\1/' | sed 's/%20/\ /g')
+                custom=$(grep "custom_alias: " "$new.md")
+                if [[ -z $custom ]]; then
+                    current=$(echo "$link" | sed 's/\[\([^]]*\)\].*/\1/g')
+                    new=$(Math "$new")
+                    if [ ! "$current" == "$new" ]; then
+                        currentTemp=$(echo "$current" | sed -E 's/\\/\\\\/g')
+                        new=$(echo "$new" | sed -E 's/\\/\\\\/g')
+                        echo -e "${RED}$currentTemp${NC} -> ${GREEN}$new${NC}"
+                        read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
+                        if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
+                            currentFormatted=$(Format "$current")
+                            files=$(grep -l "$obsidian" *)
 
-            echo -e "${CYAN}All double links:${NC}"
-            while IFS= read -r link; do
-                echo -e "    $link"
-            done <<< "$allDoubleCurrent"
-            printf "\n"
-
-            echo -e "${CYAN}-----STATE-----${NC}\n"
-           ;;
-    esac
-    case "$1" in
-        --changes|-c)
-            echo -e "\n${CYAN}-----CHANGES-----${NC}\n"
-
-            allMathNewTemp=$allMathNew
-            while IFS= read -r current; do
-                new=${allMathNewTemp%%$'\n'*}
-                if [ "$current" == "$new" ]; then
-                    echo "    (Unchanged) $current"
-                else
-                    current=$(echo "$current" | sed -E 's/\\/\\\\/g')
-                    new=$(echo "$new" | sed -E 's/\\/\\\\/g')
-                    echo -e "    ${RED}$current${NC} -> ${GREEN}$new${NC}"
+                            while IFS= read -r file; do
+                                sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
+                                echo "        $file"
+                            done <<< "$files"
+                        fi
+                        printf "\n"
+                    fi
                 fi
-                allMathNewTemp=${allMathNewTemp#*$'\n'}
-            done <<< "$allMathCurrent"
-            printf "\n"
-
-            echo -e "${CYAN}-----CHANGES-----${NC}\n"
-           ;;
+            done <<< "$allLinks"
     esac
     case "$1" in
-        --double|-d)
+        --new|-n)
+            allFiles=$(grep -l 'alias: auto_aliasing\|custom_alias:' *)
             allDoubleCurrent=$(sed 's/^/\[\[/g' <<< "$allFiles")
             allDoubleCurrent=$(sed 's/$/\]\]/g' <<< "$allDoubleCurrent")
             allDoubleCurrent=$(sed 's/.md//g' <<< "$allDoubleCurrent")
@@ -130,33 +107,7 @@ while [ ! -z "$1" ]; do
                     printf "\n"
                 fi
                 allDoubleCurrent=${allDoubleCurrent#*$'\n'}
-        done <<< "$allDoubleCurrent"
+            done <<< "$allDoubleCurrent"
     esac
 shift
 done
-
-if [ ! "$allMathCurrent" == "$allMathNew" ]; then
-    while IFS= read -r current; do
-        new=${allMathNew%%$'\n'*}
-        if [ ! "$current" == "$new" ]; then
-            currentTemp=$(echo "$current" | sed -E 's/\\/\\\\/g')
-            new=$(echo "$new" | sed -E 's/\\/\\\\/g')
-            echo -e "${RED}$currentTemp${NC} -> ${GREEN}$new${NC}"
-            read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
-            if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
-                currentFormatted=$(Format "$current")
-                newObsidian=${allMathNewObsidian%%$'\n'*}
-                allMathCurrentFiles=$(grep -l "$newObsidian" *)
-
-                while IFS= read -r file; do
-                    sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
-                    echo "        $file"
-                done <<< "$allMathCurrentFiles"
-            fi
-            printf "\n"
-        fi
-        allMathNew=${allMathNew#*$'\n'}
-        allMathNewObsidian=${allMathNewObsidian#*$'\n'}
-    done <<< "$allMathCurrent"
-    printf "\n"
-fi

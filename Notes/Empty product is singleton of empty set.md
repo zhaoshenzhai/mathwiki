@@ -4,7 +4,7 @@
 Date Created: 29/01/2022 18:53:33
 Tags: #Proposition #Closed 
 
-Proved by: [[Union of empty set is empty]]
+Proved by: [$\bigcup\em=\em$](Union%20of%20empty%20set%20is%20empty.md)
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_
