@@ -1,7 +1,11 @@
+---
+alias: auto_aliasing
+---
+
 <br />
 <br />
 
-Date Created: 21/02/2022 13:19:31 %%auto_aliasing%%
+Date Created: 21/02/2022 13:19:31
 Tags: #Proposition #Closed
 
 Proved by: [Right inverse $\Rightarrow$ epimorphism](Right%20inverse%20implies%20epimorphism.md), [Right inverse $\Leftrightarrow$ surjection (Choice)](Right%20inverse%20iff%20surjection%20(Choice).md), [[Composition with identities preserve functions]], [[Composition of relations is associative]]

@@ -1,7 +1,11 @@
+---
+alias: auto_aliasing
+---
+
 <br />
 <br />
 
-Date Created: 04/02/2022 15:20:08 %%auto_aliasing%%
+Date Created: 04/02/2022 15:20:08
 Tags: #Proposition #Closed  
 
 Proved by: [[Criteria for subbasis to generate existing basis]], [[Half-infinite open rays are open in the order topology]]

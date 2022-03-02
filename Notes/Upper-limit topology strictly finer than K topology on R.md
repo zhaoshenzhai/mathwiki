@@ -1,7 +1,11 @@
+---
+alias: auto_aliasing
+---
+
 <br />
 <br />
 
-Date Created: 05/02/2022 10:24:48 %%auto_aliasing%%
+Date Created: 05/02/2022 10:24:48
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for fineness w.r.t bases]], [Upper-limit topology strictly finer than standard topology on $\R$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md)

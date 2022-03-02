@@ -1,7 +1,11 @@
+---
+alias: auto_aliasing
+---
+
 <br />
 <br />
 
-Date Created: 05/02/2022 11:01:34 %%auto_aliasing%%
+Date Created: 05/02/2022 11:01:34
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for fineness w.r.t bases]]

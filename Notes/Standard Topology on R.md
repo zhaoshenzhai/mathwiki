@@ -1,7 +1,11 @@
+---
+alias: auto_aliasing
+---
+
 <br />
 <br />
 
-Date Created: 04/02/2022 11:36:30 %%auto_aliasing%%
+Date Created: 04/02/2022 11:36:30
 Tags: #Definition #Closed  
 
 Types: _Not Applicable_

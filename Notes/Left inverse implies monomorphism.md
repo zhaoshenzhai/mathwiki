@@ -1,7 +1,11 @@
+---
+alias: auto_aliasing
+---
+
 <br />
 <br />
 
-Date Created: 22/02/2022 18:43:24 %%auto_aliasing%%
+Date Created: 22/02/2022 18:43:24
 Tags: #Proposition #Closed 
 
 Proved by: _Not Applicable_

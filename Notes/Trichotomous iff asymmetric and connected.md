@@ -1,7 +1,11 @@
+---
+alias: auto_aliasing
+---
+
 <br />
 <br />
 
-Date Created: 03/02/2022 18:24:55 %%auto_aliasing%%
+Date Created: 03/02/2022 18:24:55
 Tags: #Proposition #Closed 
 
 Proved by: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity.md)

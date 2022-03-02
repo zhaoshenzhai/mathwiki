@@ -1,7 +1,11 @@
+---
+alias: auto_aliasing
+---
+
 <br />
 <br />
 
-Date Created: 27/01/2022 12:42:19 %%auto_aliasing%%
+Date Created: 27/01/2022 12:42:19
 Tags: #Proposition #Open
 
 Proved by: [[Exists function in relation iff Choice]]

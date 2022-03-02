@@ -1,7 +1,11 @@
+---
+alias: auto_aliasing
+---
+
 <br />
 <br />
 
-Date Created: 30/01/2022 19:20:35 %%auto_aliasing%%
+Date Created: 30/01/2022 19:20:35
 Tags: #Proposition #Closed 
 
 Proved by: [[Exportation (Rule of Inference)]]
