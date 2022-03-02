@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "fba24a64bd750890",
+        "id": "4cb2a276524c1771",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Standard Topology on R.md",
+            "file": "Notes/Union of empty set is empty.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "980f9428544f93d8",
+        "id": "21fb15a86927830f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Standard Topology on R2.md",
+            "file": "Notes/Empty product is singleton of empty set.md",
             "mode": "preview",
             "source": true
           }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Standard Topology on R.md",
+                "file": "Notes/Empty product is singleton of empty set.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Standard Topology on R.md",
+                "file": "Notes/Empty product is singleton of empty set.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Standard Topology on R.md",
+                "file": "Notes/Empty product is singleton of empty set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,12 +193,12 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "fba24a64bd750890",
+  "active": "21fb15a86927830f",
   "lastOpenFiles": [
-    "Notes/Standard Topology on R.md",
-    "Notes/Standard Topology on R2.md",
     "Notes/Empty product is singleton of empty set.md",
     "Notes/Union of empty set is empty.md",
+    "Notes/Standard Topology on R.md",
+    "Notes/Standard Topology on R2.md",
     "Notes/Product Topology (Binary).md",
     "Notes/Order Topology.md",
     "Notes/Ordered Pair.md",
