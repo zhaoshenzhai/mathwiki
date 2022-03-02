@@ -67,6 +67,29 @@ while [ ! -z "$1" ]; do
                         fi
                         printf "\n"
                     fi
+                else
+                    current=$(echo "$link" | sed 's/\[\([^]]*\)\].*/\1/g')
+                    name=$(echo "$obsidian" | sed 's/%20/\ /g')
+                    currentFile=$(grep "custom_alias: " "$name")
+                    alias=$(echo "$currentFile" | sed 's/^.*:\ //g')
+                    new=$(echo "$alias" | sed 's/.md//g')
+                    if [ ! "$current" == "$new" ]; then
+                        currentTemp=$(echo "$current" | sed -E 's/\\/\\\\/g')
+                        new=$(echo "$new" | sed -E 's/\\/\\\\/g')
+                        echo -e "${RED}$currentTemp${NC} -> ${GREEN}$new${NC}"
+                        read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
+                        if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
+                            currentFormatted=$(Format "$current")
+                            files=$(grep -l "$obsidian" *)
+
+                            while IFS= read -r file; do
+                                sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
+                                echo "        $file"
+                            done <<< "$files"
+                        fi
+                        printf "\n"
+                    fi
+
                 fi
             done <<< "$allLinks"
     esac

@@ -13,7 +13,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [$K$ topology strictly finer than standard topology on $\R$](K%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [Upper-limit topology strictly finer than $K$ topology on $\R$](Upper-limit%20topology%20strictly%20finer%20than%20K%20topology%20on%20R.md), [Lower and $K$ topologies are not comparable on $\R$](Lower%20and%20K%20topologies%20are%20not%20comparable%20on%20R.md)
+Properties: [$\mc{T}_\textrm{st}\subset\mc{T}_\textrm{K}$](K%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [Upper-limit topology strictly finer than $K$ topology on $\R$](Upper-limit%20topology%20strictly%20finer%20than%20K%20topology%20on%20R.md), [Lower and $K$ topologies are not comparable on $\R$](Lower%20and%20K%20topologies%20are%20not%20comparable%20on%20R.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [$K$ topology is a topology on $\R$](K%20topology%20is%20a%20topology%20on%20R.md)

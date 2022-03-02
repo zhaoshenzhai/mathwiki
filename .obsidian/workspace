@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "619af489f6dc704e",
+        "id": "c9d34459fea29976",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Union of empty set is empty.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "129b5943844bf1cf",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Trivial topology is a topology.md",
+            "file": "Notes/K Topology on R.md",
             "mode": "preview",
             "source": true
           }
@@ -84,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Trivial topology is a topology.md",
+                "file": "Notes/K Topology on R.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241,
-    "collapsed": true
+    "width": 241
   },
   "right": {
     "id": "6e128061ec5336cc",
@@ -116,7 +103,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Trivial topology is a topology.md",
+                "file": "Notes/K Topology on R.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -180,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Trivial topology is a topology.md",
+                "file": "Notes/K Topology on R.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,17 +180,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "129b5943844bf1cf",
+  "active": "c9d34459fea29976",
   "lastOpenFiles": [
-    "Notes/Trivial topology is a topology.md",
+    "Notes/K Topology on R.md",
+    "Notes/K topology strictly finer than standard topology on R.md",
+    "Notes/Lattice of Subsets.md",
+    "Notes/Lattice.md",
+    "Notes/Comparison of topologies on R.md",
     "Notes/Union of empty set is empty.md",
-    "Notes/Standard Topology on R.md",
-    "Notes/Standard Topology on R2.md",
-    "Notes/Empty product is singleton of empty set.md",
-    "Notes/Product Topology (Binary).md",
-    "Notes/Order Topology.md",
-    "Notes/Ordered Pair.md",
-    "Notes/Union.md",
-    "Notes/Empty (Formula).md"
+    "Notes/K topology is a topology on R.md",
+    "Notes/Isomorphism of sets is an equivalence relation.md",
+    "Notes/Join-semilattice.md",
+    "Notes/Isomorphism of objects is an equivalence relation.md"
   ]
 }
