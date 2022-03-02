@@ -57,14 +57,33 @@ while [ ! -z "$1" ]; do
             echo -e "${CYAN}-----STATE-----${NC}\n"
            ;;
     esac
+    case "$1" in
+        --changes|-c)
+            echo -e "\n${CYAN}-----CHANGES-----${NC}\n"
+
+            allMathNewTemp=$allMathNew
+            while IFS= read -r current; do
+                new=${allMathNewTemp%%$'\n'*}
+                if [ "$current" == "$new" ]; then
+                    echo "    (Unchanged) $current"
+                else
+                    echo -e "    ${RED}$current${NC} -> ${GREEN}$new${NC}"
+                fi
+                allMathNewTemp=${allMathNewTemp#*$'\n'}
+            done <<< "$allMathCurrent"
+            printf "\n"
+
+            echo -e "${CYAN}-----CHANGES-----${NC}\n"
+           ;;
+    esac
 shift
 done
 
 if [ ! "$allMathCurrent" == "$allMathNew" ]; then
     while IFS= read -r current; do
         new=${allMathNew%%$'\n'*}
-        new=$(echo "$new" | sed -E 's/\\/\\\\/g')
         if [ ! "$current" == "$new" ]; then
+            new=$(echo "$new" | sed -E 's/\\/\\\\/g')
             echo -e "${RED}$current${NC} -> ${GREEN}$new${NC}"
             read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
             if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
