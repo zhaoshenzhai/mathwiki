@@ -17,13 +17,13 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\R$ be the set of real numbers. Then the upper limit topology_ $\mc{T}_\textrm{UL}$ _is strictly finer than $K$ topology_ $\mc{T}_\textrm{K}$ _on $\R$._
+_Let $\R$ be the set of real numbers. Then the upper limit topology_ $\mc{T}_\textrm{UL}$ _is strictly finer than $K$ topology_ $\mc{T}_K$ _on $\R$._
 
 ```
 
-_Proof_. It is easy to show that $\mc{T}_\textrm{UL}\not\subseteq\mc{T}_\textrm{K}$, simply fix $a<0$ and consider $\l(a,0\r]\in\mc{B}_\textrm{UL}$ with $x=0$. Any $B\in\mc{B}_\textrm{K}$ containing $x$ necessarily contains some positive $c\in\R$ with $c\neq1/n$ for all $n\in\N$, so $c\in B$ but $c\not\in\l(a,0\r]$ and thus $B\not\subseteq\l(a,0\r]$.
+_Proof_. It is easy to show that $\mc{T}_\textrm{UL}\not\subseteq\mc{T}_K$, simply fix $a<0$ and consider $\l(a,0\r]\in\mc{B}_\textrm{UL}$ with $x=0$. Any $B\in\mc{B}_K$ containing $x$ necessarily contains some positive $c\in\R$ with $c\neq1/n$ for all $n\in\N$, so $c\in B$ but $c\not\in\l(a,0\r]$ and thus $B\not\subseteq\l(a,0\r]$.
 
-Thus it suffices to show that $\mc{T}_\textrm{K}\subseteq\mc{T}_\textrm{UL}$. To this end, take $B\in\mc{B}_\textrm{K}$ and $x\in B$.
+Thus it suffices to show that $\mc{T}_K\subseteq\mc{T}_\textrm{UL}$. To this end, take $B\in\mc{B}_K$ and $x\in B$.
 * The case when $B=\l(a,b\r)\in\mc{B}_\textrm{st}$ for some $a,b\in\R$ is easy; recall that $\mc{T}_\textrm{st}\subseteq\mc{T}_\textrm{UL}$. It follows then that there exists some $B'\in\mc{B}_\textrm{UL}$ such that $x\in B'\subseteq B$.
 
 Otherwise, let $B=\l(a,b\r)\comp K$; the same analysis above holds for when $a,b<0$ or $a,b>1$, for then $B$ reduces to $\l(a,b\r)$. Furthermore, if $x\leq0$ or $x>1$, the same analysis also holds for any $B$ containing $x$:

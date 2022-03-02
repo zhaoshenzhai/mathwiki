@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/K Topology on R.md",
+            "file": "Notes/K topology is a topology on R.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "6d4b49ab1c5cac70",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Comparison of topologies on R.md",
             "mode": "preview",
             "source": true
           }
@@ -72,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/K Topology on R.md",
+                "file": "Notes/Comparison of topologies on R.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241
+    "width": 241,
+    "collapsed": true
   },
   "right": {
     "id": "6e128061ec5336cc",
@@ -103,7 +116,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/K Topology on R.md",
+                "file": "Notes/Comparison of topologies on R.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -167,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/K Topology on R.md",
+                "file": "Notes/Comparison of topologies on R.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,15 +193,15 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "c9d34459fea29976",
+  "active": "6d4b49ab1c5cac70",
   "lastOpenFiles": [
-    "Notes/K Topology on R.md",
+    "Notes/Comparison of topologies on R.md",
+    "Notes/K topology is a topology on R.md",
     "Notes/K topology strictly finer than standard topology on R.md",
+    "Notes/K Topology on R.md",
     "Notes/Lattice of Subsets.md",
     "Notes/Lattice.md",
-    "Notes/Comparison of topologies on R.md",
     "Notes/Union of empty set is empty.md",
-    "Notes/K topology is a topology on R.md",
     "Notes/Isomorphism of sets is an equivalence relation.md",
     "Notes/Join-semilattice.md",
     "Notes/Isomorphism of objects is an equivalence relation.md"
