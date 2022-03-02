@@ -8,17 +8,38 @@ NC='\033[0m'
 
 Math()
 {
-    echo "$1" | sed -E 's/\bR\b/\$\\R\$/g' | sed -E 's/\bimplies\b/\$\\Rightarrow\$/g' | sed -E 's/\biff\b/\$\\Leftrightarrow\$/g' | sed -E 's/\bON\b/\$\\textrm\{ON\}\$/g' | sed -E 's/\bK\b/\$K\$/g' | sed -E 's/\bR2\b/\$\\R\^2\$/g' | sed -E 's/\bN2\b/\$\\N\^2\$/g' | sed -E 's/\bN\b/\$\\N\$/g'
+    local r=$(echo "$1" | sed -E 's/\bR\b/\$\\R\$/g')                       # Real numbers
+    local r=$(echo "$r" | sed -E 's/\bN\b/\$\\N\$/g')                       # Natural numbers
+    local r=$(echo "$r" | sed -E 's/\bR2\b/\$\\R\^2\$/g')                   # Real numbers squared
+    local r=$(echo "$r" | sed -E 's/\bN2\b/\$\\N\^2\$/g')                   # Natural numbers squared
+    local r=$(echo "$r" | sed -E 's/\bimplies\b/\$\\Rightarrow\$/g')        # Implies
+    local r=$(echo "$r" | sed -E 's/\biff\b/\$\\Leftrightarrow\$/g')        # Equivalence
+    local r=$(echo "$r" | sed -E 's/\bON\b/\$\\textrm\{ON\}\$/g')           # Class of ordinals
+    local r=$(echo "$r" | sed -E 's/\bK\b/\$K\$/g')                         # K topology
+    echo "$r"
 }
 
 Format()
 {
-    echo "$1" | sed 's/\\/\\\\/g' | sed 's/\ /\\s/g' | sed 's/\[/\\\[/g' | sed 's/\]/\\\]/g' | sed 's/(/\\(/g' | sed 's/)/\\)/g' | sed 's/{/\\{/g' | sed 's/}/\\}/g' | sed 's/\$/\\\$/g' | sed 's/\^/\\\^/g' | sed 's/|/\\|/g' | sed 's/+/\\+/g' | sed 's/\./\\./g'
+    local r=$(echo "$1" | sed 's/\\/\\\\/g')                                # Escape \
+    local r=$(echo "$r" | sed 's/\ /\\s/g')                                 # Escape <Space>
+    local r=$(echo "$r" | sed 's/\[/\\\[/g')                                # Escape [
+    local r=$(echo "$r" | sed 's/\]/\\\]/g')                                # Escape ]
+    local r=$(echo "$r" | sed 's/(/\\(/g')                                  # Escape (
+    local r=$(echo "$r" | sed 's/)/\\)/g')                                  # Escape )
+    local r=$(echo "$r" | sed 's/{/\\{/g')                                  # Escape {
+    local r=$(echo "$r" | sed 's/}/\\}/g')                                  # Escape }
+    local r=$(echo "$r" | sed 's/\$/\\\$/g')                                # Escape $
+    local r=$(echo "$r" | sed 's/\^/\\\^/g')                                # Escape ^
+    local r=$(echo "$r" | sed 's/|/\\|/g')                                  # Escape |
+    local r=$(echo "$r" | sed 's/+/\\+/g')                                  # Escape +
+    local r=$(echo "$r" | sed 's/\./\\./g')                                 # Escape .
+    echo "$r"
 }
 
 cd ~/MathWiki/Notes
 
-allFiles=$(grep -l '%%auto_aliasing%%' *)
+allFiles=$(grep -l 'auto_aliasing' *)
 
 allMathLinks=$(grep -Poh '\[[^\[^\]]*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
 allMathCurrent=$(echo "$allMathLinks" | sed 's/\[\([^]]*\)\].*/\1/g')
@@ -67,6 +88,8 @@ while [ ! -z "$1" ]; do
                 if [ "$current" == "$new" ]; then
                     echo "    (Unchanged) $current"
                 else
+                    current=$(echo "$current" | sed -E 's/\\/\\\\/g')
+                    new=$(echo "$new" | sed -E 's/\\/\\\\/g')
                     echo -e "    ${RED}$current${NC} -> ${GREEN}$new${NC}"
                 fi
                 allMathNewTemp=${allMathNewTemp#*$'\n'}
@@ -83,8 +106,9 @@ if [ ! "$allMathCurrent" == "$allMathNew" ]; then
     while IFS= read -r current; do
         new=${allMathNew%%$'\n'*}
         if [ ! "$current" == "$new" ]; then
+            currentTemp=$(echo "$current" | sed -E 's/\\/\\\\/g')
             new=$(echo "$new" | sed -E 's/\\/\\\\/g')
-            echo -e "${RED}$current${NC} -> ${GREEN}$new${NC}"
+            echo -e "${RED}$currentTemp${NC} -> ${GREEN}$new${NC}"
             read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
             if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
                 currentFormatted=$(Format "$current")

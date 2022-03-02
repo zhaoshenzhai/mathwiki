@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3a1e328a89d93696",
+        "id": "b113c79a53d05c42",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Standard Topology on R.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -68,6 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Standard Topology on R.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +104,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Standard Topology on R.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -162,6 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Standard Topology on R.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,17 +181,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "3a1e328a89d93696",
+  "active": "b113c79a53d05c42",
   "lastOpenFiles": [
-    "Notes/Well-ordering well-orders subsets.md",
-    "Notes/Well-ordered Relation.md",
-    "Notes/Well-founded relations are irreflexive.md",
-    "Notes/Well-founded Relation.md",
-    "Notes/Upper-limit topology strictly finer than standard topology on R.md",
-    "Notes/Upper-limit topology strictly finer than K topology on R.md",
-    "Notes/Upper-limit Topology on R.md",
-    "Notes/Upper-limit topology is a topology on R.md",
-    "Notes/Upper Bound.md",
-    "Notes/Universal set is a proper class.md"
+    "Notes/Standard Topology on R.md",
+    "Notes/Standard Topology on N.md",
+    "Notes/Union of empty set is empty.md",
+    "Notes/Empty (Formula).md",
+    "Notes/Product and subspace topologies on subsets coincide.md",
+    "Notes/Asymmetry implies irreflexivity.md",
+    "Notes/Natural numbers form an initial segment of ON.md",
+    "Notes/K Topology on R.md",
+    "Notes/Class of Ordinals.md",
+    "Notes/ON is a proper class.md"
   ]
 }
