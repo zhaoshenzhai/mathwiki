@@ -1,3 +1,7 @@
+---
+custom_alias: $\bigcap\l(A\cap B\r)=\bigcap A\cap\bigcap B$
+---
+
 <br />
 <br />
 

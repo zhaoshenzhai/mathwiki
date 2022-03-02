@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Axiom of Power Set]], [[Lattice of Subsets]], [[Topological Subspace]]
 Generalizations: _Not Applicable_
 
-Properties: [[Subset relation is transitive]]
+Properties: [$A\subseteq B\land B\subseteq C\Rightarrow A\subseteq C$](Subset%20relation%20is%20transitive.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

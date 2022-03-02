@@ -1,3 +1,7 @@
+---
+custom_alias: $A\subseteq B\land B\subseteq C\Rightarrow A\subseteq C$
+---
+
 <br />
 <br />
 

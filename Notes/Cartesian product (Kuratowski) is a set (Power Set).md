@@ -4,7 +4,7 @@
 Date Created: 21/01/2022 17:33:37
 Tags: #Proposition #Closed 
 
-Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [[Subset relation is transitive]]
+Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [$A\subseteq B\land B\subseteq C\Rightarrow A\subseteq C$](Subset%20relation%20is%20transitive.md)
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

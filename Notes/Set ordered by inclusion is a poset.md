@@ -4,7 +4,7 @@
 Date Created: 26/01/2022 12:09:33
 Tags: #Proposition #Closed 
 
-Proved by: [[Subset relation is transitive]], [[Axiom of Extensionality]]
+Proved by: [$A\subseteq B\land B\subseteq C\Rightarrow A\subseteq C$](Subset%20relation%20is%20transitive.md), [[Axiom of Extensionality]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

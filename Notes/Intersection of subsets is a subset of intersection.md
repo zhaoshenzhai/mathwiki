@@ -1,3 +1,7 @@
+---
+custom_alias: $A\subseteq B\land C\subseteq D\Rightarrow A\cap C\subseteq B\cap D$
+---
+
 <br />
 <br />
 

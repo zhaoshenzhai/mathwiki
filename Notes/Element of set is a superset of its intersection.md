@@ -1,3 +1,7 @@
+---
+custom_alias: $a\in A\Rightarrow\bigcap A\subseteq a$
+---
+
 <br />
 <br />
 

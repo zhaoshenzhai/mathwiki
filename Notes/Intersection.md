@@ -9,7 +9,7 @@ Examples: [[Intersection of empty set is a proper class]]
 Constructions: [[Set of unions and intersections]]
 Generalizations: _Not Applicable_
 
-Properties: [[Intersection of intersections is an intersection]], [[De Morgan's Laws]], [[Intersection is anti-monotone w.r.t. subsets ]], [[Intersection with another set is monotone w.r.t. subsets]], [[Element of set is a superset of its intersection]], [[Intersection of subsets is a subset of intersection]]
+Properties: [[De Morgan's Laws]], [$\bigcap\l(A\cap B\r)=\bigcap A\cap\bigcap B$](Intersection%20of%20intersections%20is%20an%20intersection.md), [$A\subset B\Rightarrow\bigcap B\subseteq\bigcap A$](Intersection%20is%20anti-monotone%20w.r.t.%20subsets.md), [$A\subseteq B\Rightarrow A\cap C\subseteq B\cap C$](Intersection%20with%20another%20set%20is%20monotone%20w.r.t.%20subsets.md), [$a\in A\Rightarrow\bigcap A\subseteq a$](Element%20of%20set%20is%20a%20superset%20of%20its%20intersection.md), [$A\subseteq B\land C\subseteq D\Rightarrow A\cap C\subseteq B\cap D$](Intersection%20of%20subsets%20is%20a%20subset%20of%20intersection.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Intersection of a set is a set]]

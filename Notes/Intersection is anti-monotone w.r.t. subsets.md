@@ -1,3 +1,7 @@
+---
+custom_alias: $A\subset B\Rightarrow\bigcap B\subseteq\bigcap A$
+---
+
 <br />
 <br />
 

@@ -4,7 +4,7 @@
 Date Created: 24/01/2022 12:14:51
 Tags: #Proposition #Closed 
 
-Proved by: [[Subset relation is transitive]], [[Union of set of subsets is a subset]]
+Proved by: [$A\subseteq B\land B\subseteq C\Rightarrow A\subseteq C$](Subset%20relation%20is%20transitive.md), [[Union of set of subsets is a subset]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

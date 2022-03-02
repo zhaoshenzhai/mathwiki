@@ -4,7 +4,7 @@
 Date Created: 08/02/2022 11:24:30
 Tags: #Proposition #Closed 
 
-Proved by: [$\mc{T}_\textrm{st}\subset\mc{T}_\textrm{UL}$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\mc{T}_\textrm{st}\subset\mc{T}_\textrm{LL}$](Lower-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\mc{T}_\textrm{st}\subset\mc{T}_K$](K%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\mc{T}_K\subset\mc{T}_\textrm{UL}$](Upper-limit%20topology%20strictly%20finer%20than%20K%20topology%20on%20R.md), [Lower and upper limit topologies are not comparable on $\R$](Lower%20and%20upper%20limit%20topologies%20are%20not%20comparable%20on%20R.md), [Lower and $K$ topologies are not comparable on $\R$](Lower%20and%20K%20topologies%20are%20not%20comparable%20on%20R.md)
+Proved by: [$\mc{T}_\textrm{st}\subset\mc{T}_\textrm{UL}$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\mc{T}_\textrm{st}\subset\mc{T}_\textrm{LL}$](Lower-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\mc{T}_\textrm{st}\subset\mc{T}_K$](K%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\mc{T}_K\subset\mc{T}_\textrm{UL}$](Upper-limit%20topology%20strictly%20finer%20than%20K%20topology%20on%20R.md), [$\mc{T}_\textrm{LL}\not\subseteq\mc{T}_\textrm{UL}\land\mc{T}_\textrm{UL}\not\subseteq\mc{T}_\textrm{LL}$](Lower%20and%20upper%20limit%20topologies%20are%20not%20comparable%20on%20R.md), [Lower and $K$ topologies are not comparable on $\R$](Lower%20and%20K%20topologies%20are%20not%20comparable%20on%20R.md)
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_
