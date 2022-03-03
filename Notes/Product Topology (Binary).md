@@ -9,7 +9,7 @@ Examples: [Standard Topology on $\R^2$](Standard%20Topology%20on%20R2.md)
 Constructions: [[Product Space (Topology)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Product of topologies is monotone w.r.t. subsets]], [$\l.\l(\mc{T}_X\times\mc{T}_Y\r)\r|_{S\times T}=\l.\mc{T}_X\r|_S\times\l.\mc{T}_Y\r|_T$](Product%20and%20subspace%20topologies%20on%20subsets%20coincide.md)
+Properties: [[Product of topologies is monotone w.r.t. subsets]], [[Product and subspace topologies on subsets coincide]] 
 Sufficiencies: _Not Applicable_
 Equivalences: [[Product topology (basis; component from bases)]], [[Product topology (subbasis)]]
 Justifications: [[Product topology (binary) is a topology]]

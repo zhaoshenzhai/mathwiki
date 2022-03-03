@@ -4,7 +4,7 @@
 Date Created: 16/02/2022 16:51:32
 Tags: #Proposition #Closed 
 
-Proved by: [$\mc{T}\l(\l.<\r|_Y\r)\subseteq\l.\mc{T}\l(<\r)\r|_Y$](Restricted%20order%20topology%20subset%20of%20subspace%20topology.md), [[Order topology (subbasis)]], [[Subspace topology (subbasis)]], [[Half-infinite open rays are open in the order topology]]
+Proved by: [[Restricted order topology subset of subspace topology]], [[Order topology (subbasis)]], [[Subspace topology (subbasis)]], [[Half-infinite open rays are open in the order topology]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

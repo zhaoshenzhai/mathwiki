@@ -1,7 +1,3 @@
----
-custom_alias: $\l.\l(\mc{T}_X\times\mc{T}_Y\r)\r|_{S\times T}=\l.\mc{T}_X\r|_S\times\l.\mc{T}_Y\r|_T$
----
-
 <br />
 <br />
 

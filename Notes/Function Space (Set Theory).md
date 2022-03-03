@@ -10,8 +10,8 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Function Space constructed from a Cartesian product]]
-Equivalences: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: [[Function space constructed from a Cartesian product]]
 Justifications: [[Function space is a set]]
 
 ``` ad-Definition

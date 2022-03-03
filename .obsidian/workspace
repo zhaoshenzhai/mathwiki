@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "09a593308d9c0b47",
+        "id": "d840facf445d1e99",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Basis (Topology).md",
+            "file": "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "994a80d2f9ea7c54",
+        "id": "6d75fe6843a39684",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Partition (Set Theory).md",
+            "file": "Notes/Subset relation is transitive.md",
             "mode": "preview",
             "source": true
           }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Partition (Set Theory).md",
+                "file": "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241,
-    "collapsed": true
+    "width": 241
   },
   "right": {
     "id": "6e128061ec5336cc",
@@ -116,7 +115,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Partition (Set Theory).md",
+                "file": "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -180,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Partition (Set Theory).md",
+                "file": "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,17 +192,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "994a80d2f9ea7c54",
+  "active": "d840facf445d1e99",
   "lastOpenFiles": [
-    "Notes/Partition (Set Theory).md",
-    "Notes/Quotient set is a partition.md",
-    "Notes/Category.md",
-    "Notes/Basis (Topology).md",
-    "Notes/Trivial topology (basis).md",
-    "Notes/Set of closed sets equivalent to topology on a set.md",
-    "Notes/Set of Closed Sets.md",
-    "Notes/Topology on a Set.md",
-    "Notes/Lattice of topologies is a complete lattice.md",
-    "Notes/Standard Topology on R2.md"
+    "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
+    "Notes/Subset relation is transitive.md",
+    "Notes/Cartesian Product (Kuratowski).md",
+    "Notes/Cartesian Product (Arbitrary).md",
+    "Notes/Tuple.md",
+    "Notes/Empty product is singleton of empty set.md",
+    "Notes/Function Space (Set Theory).md",
+    "Notes/Function space constructed from a Cartesian product.md",
+    "Notes/Indexed Family.md",
+    "Notes/Canonical projection is a surjection.md"
   ]
 }

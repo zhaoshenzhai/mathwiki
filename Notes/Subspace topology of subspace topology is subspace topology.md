@@ -1,7 +1,3 @@
----
-custom_alias: $\l.\l.\mc{T}\r|_Y\r|_Z=\l.\mc{T}\r|_Z$
----
-
 <br />
 <br />
 
