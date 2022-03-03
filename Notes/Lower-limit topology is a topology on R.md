@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\R$ be the set of real numbers. Then the lower limit topology_ $\mc{T}_\textrm{LL}\coloneqq\mc{T}\l(\mc{B}_\textrm{LL}\r)$ _where_
+_Let $\R$ be the set of real numbers. Then the lower limit topology_ $\LLtopR\coloneqq\mc{T}\l(\mc{B}_\textrm{LL}\r)$ _where_
 $$\begin{equation}
     \mc{B}_\textrm{LL}\coloneqq\l\{B\in\pow\l(\R\r)\mid \ex a,b\in\R:a<b\land B=\l[a,b\r)\r\}.
 \end{equation}$$

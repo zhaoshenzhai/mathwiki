@@ -1,5 +1,5 @@
 ---
-custom_alias: $\mc{T}_\textrm{LL}\not\subseteq\mc{T}_\textrm{UL}\land\mc{T}_\textrm{UL}\not\subseteq\mc{T}_\textrm{LL}$
+custom_alias: $\LLtopR\not\subseteq\ULtopR\land\ULtopR\not\subseteq\LLtopR$
 ---
 
 <br />
@@ -17,10 +17,10 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\R$ be the set of real numbers. Then the lower and upper limit topologies_ $\mc{T}_\textrm{LL}$ _and_ $\mc{T}_\textrm{UL}$_ on $\R$, respectively, are not comparable._
+_Let $\R$ be the set of real numbers. Then the lower and upper limit topologies_ $\LLtopR$ _and_ $\ULtopR$_ on $\R$, respectively, are not comparable._
 
 ```
 
-_Proof_. ($\mc{T}_\textrm{LL}\not\subseteq\mc{T}_\textrm{UL}$): Take $\l[a,b\r)\in\mc{B}_\textrm{LL}$ and choose $x=a$. Then any $\l(c,d\r]\in\mc{B}_\textrm{UL}$ containing $x$ necessarily implies that $c<a$, so $\l(c,d\r]\not\subseteq\l[a,b\r)$.
+_Proof_. ($\LLtopR\not\subseteq\ULtopR$): Take $\l[a,b\r)\in\mc{B}_\textrm{LL}$ and choose $x=a$. Then any $\l(c,d\r]\in\mc{B}_\textrm{UL}$ containing $x$ necessarily implies that $c<a$, so $\l(c,d\r]\not\subseteq\l[a,b\r)$.
 
-($\mc{T}_\textrm{UL}\not\subseteq\mc{T}_\textrm{LL}$): Take $\l(a,b\r]\in\mc{B}_\textrm{UL}$ and choose $x=b$. Then any $\l[c,d\r)\in\mc{B}_\textrm{LL}$ containing $x$ necessarily implies that $d>b$, so $\l[c,d\r)\not\subseteq\l(a,b\r]$.<span style="float:right;">$\blacksquare$</span>
+($\ULtopR\not\subseteq\LLtopR$): Take $\l(a,b\r]\in\mc{B}_\textrm{UL}$ and choose $x=b$. Then any $\l[c,d\r)\in\mc{B}_\textrm{LL}$ containing $x$ necessarily implies that $d>b$, so $\l[c,d\r)\not\subseteq\l(a,b\r]$.<span style="float:right;">$\blacksquare$</span>

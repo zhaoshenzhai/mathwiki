@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let_ $\mc{T}_\textrm{st}$ _be the standard topology on $\R^2$. The **(topological) Euclidean plane** is the topological space_ $\l\langle\R^2,\mc{T}_\textrm{st}\r\rangle$_._
+_Let $\sttopRd{2}$ be the standard topology on $\R^2$. The **(topological) Euclidean plane** is the topological space_ $\l\langle\R^2,\sttopRd{2}\r\rangle$_._
 
 ```

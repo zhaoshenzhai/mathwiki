@@ -4,7 +4,7 @@
 Date Created: 08/02/2022 11:24:30
 Tags: #Proposition #Closed 
 
-Proved by: [$\mc{T}_\textrm{st}\subset\mc{T}_\textrm{UL}$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\mc{T}_\textrm{st}\subset\mc{T}_\textrm{LL}$](Lower-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\mc{T}_\textrm{st}\subset\mc{T}_K$](K%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\mc{T}_K\subset\mc{T}_\textrm{UL}$](Upper-limit%20topology%20strictly%20finer%20than%20K%20topology%20on%20R.md), [$\mc{T}_\textrm{LL}\not\subseteq\mc{T}_\textrm{UL}\land\mc{T}_\textrm{UL}\not\subseteq\mc{T}_\textrm{LL}$](Lower%20and%20upper%20limit%20topologies%20are%20not%20comparable%20on%20R.md), [$\mc{T}_\textrm{LL}\not\subseteq\mc{T}_K\land\mc{T}_K\not\subseteq\mc{T}_\textrm{LL}$](Lower%20and%20K%20topologies%20are%20not%20comparable%20on%20R.md)
+Proved by: [$\sttopR\subset\ULtopR$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\sttopR\subset\LLtopR$](Lower-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\sttopR\subset\KtopR$](K%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\KtopR\subset\ULtopR$](Upper-limit%20topology%20strictly%20finer%20than%20K%20topology%20on%20R.md), [$\LLtopR\not\subseteq\ULtopR\land\ULtopR\not\subseteq\LLtopR$](Lower%20and%20upper%20limit%20topologies%20are%20not%20comparable%20on%20R.md), [$\LLtopR\not\subseteq\KtopR\land\KtopR\not\subseteq\LLtopR$](Lower%20and%20K%20topologies%20are%20not%20comparable%20on%20R.md)
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_
@@ -13,9 +13,9 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\R$ be the set of real numbers. Then the upper-limit topology_ $\mc{T}_\textrm{UL}$_, lower-limit topology_ $\mc{T}_\textrm{LL}$_, and the $K$ topology_ $\mc{T}_K$ _on $\R$ are all strictly finer than the standard topology_ $\mc{T}^\textrm{st}_\R$ _on $\R$._
+_Let $\R$ be the set of real numbers. Then the upper-limit topology_ $\ULtopR$_, lower-limit topology_ $\LLtopR$_, and the $K$ topology_ $\KtopR$ _on $\R$ are all strictly finer than the standard topology_ $\sttopR$ _on $\R$._
 
-_Furthermore,_ $\mc{T}_\textrm{UL}$ _is strictly finer than_ $\mc{T}_K$_, and_ $\mc{T}_\textrm{LL}$ _is not comparable with either_ $\mc{T}_\textrm{UL}$ _or_ $\mc{T}_K$_._
+_Furthermore,_ $\ULtopR$ _is strictly finer than_ $\KtopR$_, and_ $\LLtopR$ _is not comparable with either_ $\ULtopR$ _or_ $\KtopR$_._
 
 ```
 

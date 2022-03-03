@@ -1,5 +1,5 @@
 ---
-custom_alias: $\mc{T}_K\subset\mc{T}_\textrm{UL}$
+custom_alias: $\KtopR\subset\ULtopR$
 ---
 
 <br />
@@ -8,7 +8,7 @@ custom_alias: $\mc{T}_K\subset\mc{T}_\textrm{UL}$
 Date Created: 05/02/2022 10:24:48
 Tags: #Proposition #Closed 
 
-Proved by: [[Criteria for fineness w.r.t bases]], [$\mc{T}_\textrm{st}\subset\mc{T}_\textrm{UL}$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md)
+Proved by: [[Criteria for fineness w.r.t bases]], [$\sttopR\subset\ULtopR$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md)
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_
@@ -17,19 +17,19 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\R$ be the set of real numbers. Then the upper limit topology_ $\mc{T}_\textrm{UL}$ _is strictly finer than $K$ topology_ $\mc{T}_K$ _on $\R$._
+_Let $\R$ be the set of real numbers. Then the upper limit topology_ $\ULtopR$ _is strictly finer than $K$ topology_ $\KtopR$ _on $\R$._
 
 ```
 
-_Proof_. It is easy to show that $\mc{T}_\textrm{UL}\not\subseteq\mc{T}_K$, simply fix $a<0$ and consider $\l(a,0\r]\in\mc{B}_\textrm{UL}$ with $x=0$. Any $B\in\mc{B}_K$ containing $x$ necessarily contains some positive $c\in\R$ with $c\neq1/n$ for all $n\in\N$, so $c\in B$ but $c\not\in\l(a,0\r]$ and thus $B\not\subseteq\l(a,0\r]$.
+_Proof_. It is easy to show that $\ULtopR\not\subseteq\KtopR$, simply fix $a<0$ and consider $\l(a,0\r]\in\mc{B}_\textrm{UL}$ with $x=0$. Any $B\in\mc{B}_K$ containing $x$ necessarily contains some positive $c\in\R$ with $c\neq1/n$ for all $n\in\N$, so $c\in B$ but $c\not\in\l(a,0\r]$ and thus $B\not\subseteq\l(a,0\r]$.
 
-Thus it suffices to show that $\mc{T}_K\subseteq\mc{T}_\textrm{UL}$. To this end, take $B\in\mc{B}_K$ and $x\in B$.
-* The case when $B=\l(a,b\r)\in\mc{B}_\textrm{st}$ for some $a,b\in\R$ is easy; recall that $\mc{T}_\textrm{st}\subseteq\mc{T}_\textrm{UL}$. It follows then that there exists some $B'\in\mc{B}_\textrm{UL}$ such that $x\in B'\subseteq B$.
+Thus it suffices to show that $\KtopR\subseteq\ULtopR$. To this end, take $B\in\mc{B}_K$ and $x\in B$.
+* The case when $B=\l(a,b\r)\in\mc{B}_\textrm{st}$ for some $a,b\in\R$ is easy; recall that $\sttopR\subseteq\ULtopR$. It follows then that there exists some $B'\in\mc{B}_\textrm{UL}$ such that $x\in B'\subseteq B$.
 
 Otherwise, let $B=\l(a,b\r)\comp K$; the same analysis above holds for when $a,b<0$ or $a,b>1$, for then $B$ reduces to $\l(a,b\r)$. Furthermore, if $x\leq0$ or $x>1$, the same analysis also holds for any $B$ containing $x$:
-* In the former case, since $1/n>0$ for all $n\in\N$, we see that $\l(a,0\r)\subseteq B$; since $x\in\l(a,0\r)\in\mc{B}_\textrm{st}$ and $\mc{T}_\textrm{st}\subseteq\mc{T}_\textrm{UL}$, we see that there exists $B'\in\mc{B}_\textrm{UL}$ such that $x\in B'\subseteq\l(a,0\r)$ and hence $x\in B'\subseteq B$.
+* In the former case, since $1/n>0$ for all $n\in\N$, we see that $\l(a,0\r)\subseteq B$; since $x\in\l(a,0\r)\in\mc{B}_\textrm{st}$ and $\sttopR\subseteq\ULtopR$, we see that there exists $B'\in\mc{B}_\textrm{UL}$ such that $x\in B'\subseteq\l(a,0\r)$ and hence $x\in B'\subseteq B$.
 
-* In the latter case, since $1/n\leq1$ for all $n\in\N$, we see that $\l(1,b\r)\subseteq B$; since $x\in\l(1,b\r)\in\mc{B}_\textrm{st}$ and $\mc{T}_\textrm{st}\subseteq\mc{T}_\textrm{UL}$, we see that there exists $B'\in\mc{B}_\textrm{UL}$ such that $x\in B'\subseteq\l(1,b\r)$ and hence $x\in B'\subseteq B$.
+* In the latter case, since $1/n\leq1$ for all $n\in\N$, we see that $\l(1,b\r)\subseteq B$; since $x\in\l(1,b\r)\in\mc{B}_\textrm{st}$ and $\sttopR\subseteq\ULtopR$, we see that there exists $B'\in\mc{B}_\textrm{UL}$ such that $x\in B'\subseteq\l(1,b\r)$ and hence $x\in B'\subseteq B$.
 
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_190923/image.svg", width=210></center>
 
@@ -41,7 +41,7 @@ Observe that
 $$\begin{equation}
     x\in\underbrace{\l(a,b\r)\cap J}_{\large{\eqqcolon\,I\in\mc{B}_\textrm{st}}}\subseteq B,
 \end{equation}$$
-and since $\mc{T}_\textrm{st}\subseteq\mc{T}_\textrm{UL}$, we see that there exists $B'\in\mc{B}_\textrm{UL}$ such that $x\in B'\subseteq I$ and hence $x\in B'\subseteq B$.
+and since $\sttopR\subseteq\ULtopR$, we see that there exists $B'\in\mc{B}_\textrm{UL}$ such that $x\in B'\subseteq I$ and hence $x\in B'\subseteq B$.
 
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_182331/image.svg", width=630></center>
 

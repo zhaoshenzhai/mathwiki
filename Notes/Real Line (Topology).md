@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\R$ be the set of real numbers and let_ $\mc{T}_\textrm{st}$ _be the standard topology on $\R$. The **(topological) real line** is the order space_ $\l\langle\R,\mc{T}_\textrm{st}\r\rangle$_._
+_Let $\R$ be the set of real numbers and let_ $\sttopR$ _be the standard topology on $\R$. The **(topological) real line** is the order space_ $\l\langle\R,\sttopR\r\rangle$_._
 
 ```
