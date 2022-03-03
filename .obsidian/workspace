@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1987136cd124ad5b",
+        "id": "23a4152721d80140",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Absolute complement of a set is a proper class.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -68,6 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Absolute complement of a set is a proper class.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +104,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Absolute complement of a set is a proper class.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -162,6 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Absolute complement of a set is a proper class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,8 +181,10 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "1987136cd124ad5b",
+  "active": "23a4152721d80140",
   "lastOpenFiles": [
+    "Notes/Absolute complement of a set is a proper class.md",
+    "Notes/Equivalence Relation.md",
     "Notes/Standard Topology on R2.md",
     "Notes/K Topology on R.md",
     "Notes/Lower-limit Topology on R.md",
@@ -183,8 +192,6 @@
     "Notes/Standard Topology on R.md",
     "Notes/Criteria for equality of functions.md",
     "Notes/Criteria for collection to be a basis for an existing topology.md",
-    "Notes/Cover.md",
-    "Notes/Coslice Category.md",
-    "Notes/Slice Category.md"
+    "Notes/Cover.md"
   ]
 }

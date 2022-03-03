@@ -1,3 +1,17 @@
+.external-link {
+    background-image: none;
+    padding-right: 0px;
+}
+
+.tooltip {
+    display: none;
+}
+
 .links-int-on .markdown-preview-view .internal-link, .markdown-preview-view .internal-link {
   text-decoration: none !important;
+}
+
+.markdown-preview-sizer .external-link {
+  background: none;
+  padding-right: 0;
 }
