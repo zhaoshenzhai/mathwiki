@@ -4,7 +4,7 @@
 Date Created: 30/01/2022 18:40:57
 Tags: #Proposition #Closed 
 
-Proved by: [$A\subseteq B\land B\subseteq C\Rightarrow A\subseteq C$](Subset%20relation%20is%20transitive.md)
+Proved by: [[Subset relation is transitive]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

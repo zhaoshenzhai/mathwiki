@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d840facf445d1e99",
+        "id": "1987136cd124ad5b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "6d75fe6843a39684",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Subset relation is transitive.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -84,7 +68,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241
+    "width": 241,
+    "collapsed": true
   },
   "right": {
     "id": "6e128061ec5336cc",
@@ -115,7 +99,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -179,7 +162,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,17 +174,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "d840facf445d1e99",
+  "active": "1987136cd124ad5b",
   "lastOpenFiles": [
-    "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
-    "Notes/Subset relation is transitive.md",
-    "Notes/Cartesian Product (Kuratowski).md",
-    "Notes/Cartesian Product (Arbitrary).md",
-    "Notes/Tuple.md",
-    "Notes/Empty product is singleton of empty set.md",
-    "Notes/Function Space (Set Theory).md",
-    "Notes/Function space constructed from a Cartesian product.md",
-    "Notes/Indexed Family.md",
-    "Notes/Canonical projection is a surjection.md"
+    "Notes/Standard Topology on R2.md",
+    "Notes/K Topology on R.md",
+    "Notes/Lower-limit Topology on R.md",
+    "Notes/Upper-limit Topology on R.md",
+    "Notes/Standard Topology on R.md",
+    "Notes/Criteria for equality of functions.md",
+    "Notes/Criteria for collection to be a basis for an existing topology.md",
+    "Notes/Cover.md",
+    "Notes/Coslice Category.md",
+    "Notes/Slice Category.md"
   ]
 }

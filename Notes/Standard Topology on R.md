@@ -21,7 +21,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $<$ be the standard ordering on the real numbers $\R$. The **standard topology on $\R$** is the order topology_ $\mc{T}(<)$_._
+_Let $<$ be the standard ordering on the real numbers $\R$. The **standard topology on $\R$** is the order topology_ $\sttopR\coloneqq\mc{T}(<)$_._
 
 ```
 

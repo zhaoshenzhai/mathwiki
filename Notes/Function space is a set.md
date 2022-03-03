@@ -4,7 +4,7 @@
 Date Created: 21/01/2022 18:23:06
 Tags: #Proposition #Closed
 
-Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [[Cartesian product is monotone w.r.t. subsets]], [$A\subseteq B\land B\subseteq C\Rightarrow A\subseteq C$](Subset%20relation%20is%20transitive.md)
+Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [[Cartesian product is monotone w.r.t. subsets]], [[Subset relation is transitive]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

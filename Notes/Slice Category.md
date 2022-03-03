@@ -29,6 +29,6 @@ $$\begin{equation}
       \hom_{\l(\cat{C}\downarrow X\r)}\!\l(f,g\r)\coloneqq\l\{\phi\in\hom_\cat{C}\!\l(\dom f,\dom g\r)\mid f=g\circ\phi\r\}.
   \end{equation}$$
 * _For all $\l(\cat{C}\downarrow X\r)$-objects $f$, the identity morphism on $f$ is the $\cat{C}$-identity on $\dom f$._
-* _For all $\l(\cat{C}\downarrow X\r)$-morphisms $\phi:f\to g$ and $\psi:g\to h$, the composite morphism of $\psi$ after $\phi$ is the composite function $\psi\circ\phi:\dom f\to\dom h$._
+* _For all $\l(\cat{C}\downarrow X\r)$-morphisms $\phi:f\to g$ and $\psi:g\to h$, the composite morphism of $\psi$ after $\phi$ is the $\cat{C}$-composite morphism $\psi\circ\phi:\dom f\to\dom h$._
 
 ```
