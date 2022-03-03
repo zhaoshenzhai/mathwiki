@@ -1,5 +1,5 @@
 ---
-alias: auto_aliasing
+custom_alias: $\mc{T}_\textrm{LL}\not\subseteq\mc{T}_K\land\mc{T}_K\not\subseteq\mc{T}_\textrm{LL}$
 ---
 
 <br />

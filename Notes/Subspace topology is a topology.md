@@ -4,7 +4,7 @@
 Date Created: 11/02/2022 12:36:49
 Tags: #Proposition #Closed 
 
-Proved by: [[Union distributes over binary intersection]], [$\bigcap\l(A\cap B\r)=\bigcap A\cap\bigcap B$](Intersection%20of%20intersections%20is%20an%20intersection.md)
+Proved by: [[Union distributes over binary intersection]], [[Intersection of intersections is an intersection]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

@@ -4,7 +4,7 @@
 Date Created: 15/01/2022 17:21:16
 Tags: #Proposition #Closed
 
-Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [[Element of set is a subset of its union]], [[Union with another set is monotone w.r.t. subsets]], [$A\subseteq B\Rightarrow A\cap C\subseteq B\cap C$](Intersection%20with%20another%20set%20is%20monotone%20w.r.t.%20subsets.md)
+Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [[Element of set is a subset of its union]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection with another set is monotone w.r.t. subsets]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

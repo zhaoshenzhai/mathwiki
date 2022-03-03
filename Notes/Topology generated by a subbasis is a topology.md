@@ -4,7 +4,7 @@
 Date Created: 24/01/2022 21:00:06
 Tags: #Proposition #Closed 
 
-Proved by: [$\bigcap\l(A\cap B\r)=\bigcap A\cap\bigcap B$](Intersection%20of%20intersections%20is%20an%20intersection.md), [[Interection of finite sets is finite]]
+Proved by: [[Intersection of intersections is an intersection]], [[Interection of finite sets is finite]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

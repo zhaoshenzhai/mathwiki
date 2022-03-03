@@ -1,7 +1,3 @@
----
-custom_alias: $A\subseteq B\Rightarrow A\cap C\subseteq B\cap C$
----
-
 <br />
 <br />
 
@@ -9,7 +5,7 @@ Date Created: 17/01/2022 18:06:33
 Tags: #Proposition #Closed 
 
 Proved by: _Not Applicable_
-Generalizations: [$A\subseteq B\land C\subseteq D\Rightarrow A\cap C\subseteq B\cap D$](Intersection%20of%20subsets%20is%20a%20subset%20of%20intersection.md)
+Generalizations: [[Intersection of subsets is a subset of intersection]]
 
 Examples: _Not Applicable_
 Counterexamples: _Not Applicable_

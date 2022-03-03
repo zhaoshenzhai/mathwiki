@@ -4,7 +4,7 @@
 Date Created: 24/01/2022 10:46:52
 Tags: #Proposition #Closed 
 
-Proved by: [$A\subseteq B\land C\subseteq D\Rightarrow A\cap C\subseteq B\cap D$](Intersection%20of%20subsets%20is%20a%20subset%20of%20intersection.md)
+Proved by: [[Intersection of subsets is a subset of intersection]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

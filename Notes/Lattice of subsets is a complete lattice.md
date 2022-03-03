@@ -4,7 +4,7 @@
 Date Created: 25/01/2022 18:38:44
 Tags: #Proposition #Closed 
 
-Proved by: [[Set ordered by inclusion is a poset]], [[Element of set is a subset of its union]], [$a\in A\Rightarrow\bigcap A\subseteq a$](Element%20of%20set%20is%20a%20superset%20of%20its%20intersection.md)
+Proved by: [[Set ordered by inclusion is a poset]], [[Element of set is a subset of its union]], [[Element of set is a superset of its intersection]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_
