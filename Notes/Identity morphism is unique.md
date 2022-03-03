@@ -17,4 +17,4 @@ _Let $\cat{C}$ be a category and fix $X\in\obj\l(\cat{C}\r)$. Then the identity 
 
 ```
 
-_Proof_. Let $i,i':X\to X$ both be identity morphisms on $X$. Since $i'$ is, in particular, a morphism, we can apply $\axicat{2}$ on $i$ and obtain $i'=i'\circ i$. Similarly, $i$ is also a morphism so, from $\axicat{2}$ on $i'$, we see that $i'\circ i=i$ and thus $i=i'$.<span style="float:right;">$\blacksquare$</span>
+_Proof_. Let $i,i':X\to X$ both be identity morphisms on $X$. Since $i'$ is, in particular, a morphism, we can apply $\axicat[2]$ on $i$ and obtain $i'=i'\circ i$. Similarly, $i$ is also a morphism so, from $\axicat[2]$ on $i'$, we see that $i'\circ i=i$ and thus $i=i'$.<span style="float:right;">$\blacksquare$</span>

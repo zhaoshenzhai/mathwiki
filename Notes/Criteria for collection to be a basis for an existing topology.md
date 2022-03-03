@@ -18,8 +18,8 @@ _Let $\l\langle X,\mc{T}\r\rangle$ be a topological space and let $\mc{B}\subset
 ```
 
 _Proof_. We first prove that $\mc{B}$ is a basis for a topology on $X$:
-* ($\axibasis{1}$): Take $x\in X$. Since $X\in\mc{T}$, there exists, by hypothesis, some $B\in\mc{B}$ such that $x\in B$.
-* ($\axibasis{2}$): Take $x\in B_1\cap B_2$ for some $B_1,B_2\in\mc{B}$. Since both $B_1$ and $B_2$ are open, it follows from $\axitop[3]$ that $B_1\cap B_2\in\mc{T}$ too. Hence there exists $B_3\in\mc{B}$ such that $x\in B_3\subseteq B_1\cap B_2$.
+* ($\axibasis[1]$): Take $x\in X$. Since $X\in\mc{T}$, there exists, by hypothesis, some $B\in\mc{B}$ such that $x\in B$.
+* ($\axibasis[2]$): Take $x\in B_1\cap B_2$ for some $B_1,B_2\in\mc{B}$. Since both $B_1$ and $B_2$ are open, it follows from $\axitop[3]$ that $B_1\cap B_2\in\mc{T}$ too. Hence there exists $B_3\in\mc{B}$ such that $x\in B_3\subseteq B_1\cap B_2$.
 
 We now prove that $\mc{T}=\mc{T}\l(\mc{B}\r)$; recall that $\mc{T}\l(\mc{B}\r)$ is indeed a topology on $X$. The forward inclusion is trivial; take $U\in\mc{T}$ and if $x\in U$, then there exists some $B\in\mc{B}$ such that $x\in B\subseteq U$. Thus $U\in\mc{T}\l(\mc{B}\r)$ by definition. Conversely, if $W\in\mc{T}\l(\mc{B}\r)$, then $W$ can be written as the union of some subset $\mc{A}$ of $\mc{B}$. Since each $B\in\mc{A}$ is open, we see, from $\axitop[2]$, that $W\in\mc{T}$ too.<span style="float:right;">$\blacksquare$</span>
 

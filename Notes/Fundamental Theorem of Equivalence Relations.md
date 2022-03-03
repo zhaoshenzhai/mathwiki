@@ -26,7 +26,7 @@ _Proof_. Statements $\#1$ and $\#2$ are proven; it suffices to show that $X/R_\P
 Proof that $X/R_\Pi=\Pi$:
 * ($\subseteq$): Take $x\in X$ so that $\l[x\r]_{R_\Pi}\in X/R_\Pi$. Let $y\in\l[x\r]_{R_\Pi}$ so $yR_\Pi x$, that is, there exists $P\in\Pi$ such that $x,y\in P$; we shall prove that $\l[x\r]_{R_\Pi}=P\in\Pi$. To this end, take $z\in\l[x\r]_{R_\Pi}$. Observe that $zR_\Pi x$ and thus $zR_\Pi y$ too. It follows that there exists $P'\in\Pi$ such that $y\in P'\land z\in P'$, but, since $P\cap P'=\em$ if $P\neq P'$, this forces $P=P'$ and thus $z\in P$. Conversely, note that $P\in\Pi\subseteq\pow\l(X\r)$ and so $P\subseteq X$. Therefore, for all $p\in P$, we have $p\in X$ and thus, by definition of $R_\Pi$, we have $pR_\Pi x$. It follows that $p\in\l[x\r]_{R_\Pi}$.
 
-* ($\supseteq$): Take $P\in\Pi$. Since $P\neq\em$ by $\axipartition{1}$, take $p\in P$. Recall that $P\subseteq X$, so $p\in X$ and thus $p\in\l[p\r]_{R_\Pi}$. It follows that $P\subseteq\l[p\r]_{R_\Pi}$. By the argument above, we have $\l[p\r]_{R_\Pi}\subseteq P$ and thus $P=\l[p\r]_{R_\Pi}\in X/R_\Pi$.
+* ($\supseteq$): Take $P\in\Pi$. Since $P\neq\em$ by $\axipartition[1]$, take $p\in P$. Recall that $P\subseteq X$, so $p\in X$ and thus $p\in\l[p\r]_{R_\Pi}$. It follows that $P\subseteq\l[p\r]_{R_\Pi}$. By the argument above, we have $\l[p\r]_{R_\Pi}\subseteq P$ and thus $P=\l[p\r]_{R_\Pi}\in X/R_\Pi$.
 
 Proof that $R_{X/R}=R$:
 * ($\subseteq$): Take $x,y\in X$ such that $\l\langle x,y\r\rangle\in R_{X/R}$, which, by definition, implies that there exists $P\in X/R$ such that $x,y\in P$. However, the set $P$ is also an equivalence class of the form $\l[t\r]_R$ for some $t\in X$ such that $xRt$ and $yRt$. It follows that $xRy$ and hence $R_{X/R}\subseteq R$.

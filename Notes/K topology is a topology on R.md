@@ -30,8 +30,8 @@ _is a topology on $\R$._
 ```
 
 _Proof_. It suffices to prove that $\mc{B}_K$ is a basis for a topology on $\R$.
-* ($\axibasis{1}$): Since $\mc{B}_\textrm{st}$ covers $X$, it is obvious that $\mc{B}_K\supseteq\mc{B}_\textrm{st}$ covers $X$ too.
-* ($\axibasis{2}$): Recall that the intersection of two open intervals is at most an open interval again. Take $B_1\coloneqq\l(a,b\r)$ and $B_2\coloneqq\l(c,d\r)$ for some $a,b,c,d\in\R$ and observe that
+* ($\axibasis[1]$): Since $\mc{B}_\textrm{st}$ covers $X$, it is obvious that $\mc{B}_K\supseteq\mc{B}_\textrm{st}$ covers $X$ too.
+* ($\axibasis[2]$): Recall that the intersection of two open intervals is at most an open interval again. Take $B_1\coloneqq\l(a,b\r)$ and $B_2\coloneqq\l(c,d\r)$ for some $a,b,c,d\in\R$ and observe that
 $$\begin{equation}
     \l(B_1\comp K\r)\cap\l(B_2\comp K\r)=\l(B_1\cap B_2\r)\comp K\in\mc{B}_K
 \end{equation}$$
