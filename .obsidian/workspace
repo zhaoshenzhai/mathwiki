@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "23a4152721d80140",
+        "id": "9d2ed1ef8753dcce",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -87,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241,
-    "collapsed": true
+    "width": 241
   },
   "right": {
     "id": "6e128061ec5336cc",
@@ -181,17 +180,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "23a4152721d80140",
+  "active": "9d2ed1ef8753dcce",
   "lastOpenFiles": [
     "Notes/Absolute complement of a set is a proper class.md",
+    "Notes/Asymmetric Relation.md",
+    "Notes/Asymmetry implies irreflexivity.md",
+    "Notes/Automorphism (Category Theory).md",
+    "Notes/Antisymmetric Relation.md",
+    "Notes/Standard Topology on R.md",
     "Notes/Equivalence Relation.md",
     "Notes/Standard Topology on R2.md",
     "Notes/K Topology on R.md",
-    "Notes/Lower-limit Topology on R.md",
-    "Notes/Upper-limit Topology on R.md",
-    "Notes/Standard Topology on R.md",
-    "Notes/Criteria for equality of functions.md",
-    "Notes/Criteria for collection to be a basis for an existing topology.md",
-    "Notes/Cover.md"
+    "Notes/Lower-limit Topology on R.md"
   ]
 }

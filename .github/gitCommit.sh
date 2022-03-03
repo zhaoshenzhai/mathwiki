@@ -25,7 +25,7 @@ if [ -z "$choice" ] || [ "$choice" == "Y" ]; then
     git status
     printf "\n"
 
-    read -p "$(echo -e ${CYAN}"Remove files? [N/(string)] "${NC})" choice
+    read -ep "$(echo -e ${CYAN}"Remove files? [N/(string)] "${NC})" choice
     while [[ ! -z $choice ]]; do
         git restore --staged "$choice"
 
@@ -33,11 +33,11 @@ if [ -z "$choice" ] || [ "$choice" == "Y" ]; then
         git status
         printf "\n"
 
-        read -p "$(echo -e ${CYAN}"Remove files? [N/(string)] "${NC})" choice
+        read -ep "$(echo -e ${CYAN}"Remove files? [N/(string)] "${NC})" choice
     done
 
     printf "\n"
-    read -p "$(echo -e ${CYAN}"Message: "${NC})" msg
+    read -ep "$(echo -e ${CYAN}"Message: "${NC})" msg
     printf "\n"
 
     git commit -m "$msg"
