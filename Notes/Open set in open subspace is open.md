@@ -17,4 +17,4 @@ _Let $\l\langle X,\mc{T}\r\rangle$ be a topological space and let $\l\langle Y,\
 
 ```
 
-_Proof_. Since $V\in\l.\mc{T}\r|_Y$, there exists $U\in\mc{T}$ such that $V=U\cap Y$. Since $Y\in\mc{T}$, we see, from $\axitop{3}$ for $\mc{T}$, that $V\in\mc{T}$ too.<span style="float:right;">$\blacksquare$</span>
+_Proof_. Since $V\in\l.\mc{T}\r|_Y$, there exists $U\in\mc{T}$ such that $V=U\cap Y$. Since $Y\in\mc{T}$, we see, from $\axitop[3]$ for $\mc{T}$, that $V\in\mc{T}$ too.<span style="float:right;">$\blacksquare$</span>

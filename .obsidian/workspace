@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ae3e4e3a956c123b",
+        "id": "d9d3e163eb743a29",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/K Topology on R.md",
+            "file": "Notes/Set of closed sets equivalent to topology on a set.md",
             "mode": "preview",
             "source": true
           }
@@ -72,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/K Topology on R.md",
+                "file": "Notes/Set of closed sets equivalent to topology on a set.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/K Topology on R.md",
+                "file": "Notes/Set of closed sets equivalent to topology on a set.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -156,7 +156,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.2813705825646176,
+                  "scale": 0.11363336098899862,
                   "close": true
                 }
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/K Topology on R.md",
+                "file": "Notes/Set of closed sets equivalent to topology on a set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,17 +181,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "ae3e4e3a956c123b",
+  "active": "d9d3e163eb743a29",
   "lastOpenFiles": [
-    "Notes/K Topology on R.md",
-    "Notes/Ordered Square.md",
-    "Notes/Standard Topology on R.md",
+    "Notes/Set of closed sets equivalent to topology on a set.md",
+    "Notes/Set of Closed Sets.md",
+    "Notes/Basis (Topology).md",
+    "Notes/Topology on a Set.md",
+    "Notes/Lattice of topologies is a complete lattice.md",
     "Notes/Standard Topology on R2.md",
-    "Notes/Standard topology on N is the discrete topology on N.md",
-    "Notes/Standard Topology on N.md",
-    "Notes/Order Topology.md",
-    "Notes/Comparison of topologies on R.md",
     "Notes/Lexicographical order topology strictly finer than standard topology on R2.md",
-    "Notes/Euclidean Plane (Topology).md"
+    "Notes/Euclidean Plane (Topology).md",
+    "Notes/Axiom Schema of Specification.md",
+    "Notes/Axiom Schema of Replacement.md"
   ]
 }

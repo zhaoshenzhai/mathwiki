@@ -29,9 +29,9 @@ $$\begin{equation}
     \mc{B}\coloneqq\l\{B\in\pow\l(\R\r)\mid\ex a,b\in\R:a<b\land B=\l(a,b\r)\r\}.
 \end{equation}$$
 Since $\R$ has neither a lower nor an upper bound, we see that $\sttopR=\mc{T}\l(\mc{B}\r)=\mc{T}(<)$. Firstly, verify the axioms for a topology on $X$.
-* ($\axitop{1}$): It is vacuously true that $\em\in\sttopR$. To see that $\R\in\sttopR$, take $x\in\R$ and any $r\in\R^+$ and observe that $\l(x-r,x+r\r)\subseteq\R$ by definition.
-* ($\axitop{2}$): Let $\mc{U}\subseteq\sttopR$ and take $x\in\bigcup\mc{U}$. Thus there exists $U\in\mc{U}$ such that $x\in U$. Since $U\in\sttopR$, there exists $r\in\R^+$ such that $\l(x-r,x+r\r)\subseteq U$, but since $U\subseteq\bigcup\mc{U}$, we have $\l(x-r,x+r\r)\subseteq\bigcup\mc{U}$ too. It follows that $\bigcup\mc{U}\in\sttopR$.
-* ($\axitop{3}$): Now let $\mc{U}=\l\{U_i\r\}_{i\in I}\subseteq\sttopR$ with $0<\l|I\r|<\infty$. Thus for each $i\in I$ and all $x\in U_i$, there exists $r_i\in\R^+$ such that $\l(x-r_i,x+r_i\r)\subseteq U_i$. Set $r\coloneqq\min_{i\in I}r_i$. Hence for all $x\in\bigcap_{i\in I}U_i$, we have $\l(x-r,x+r\r)\subseteq\bigcap_{i\in I}U_i$ and thus $\bigcap\mc{U}\in\sttopR$.
+* ($\axitop[1]$): It is vacuously true that $\em\in\sttopR$. To see that $\R\in\sttopR$, take $x\in\R$ and any $r\in\R^+$ and observe that $\l(x-r,x+r\r)\subseteq\R$ by definition.
+* ($\axitop[2]$): Let $\mc{U}\subseteq\sttopR$ and take $x\in\bigcup\mc{U}$. Thus there exists $U\in\mc{U}$ such that $x\in U$. Since $U\in\sttopR$, there exists $r\in\R^+$ such that $\l(x-r,x+r\r)\subseteq U$, but since $U\subseteq\bigcup\mc{U}$, we have $\l(x-r,x+r\r)\subseteq\bigcup\mc{U}$ too. It follows that $\bigcup\mc{U}\in\sttopR$.
+* ($\axitop[3]$): Now let $\mc{U}=\l\{U_i\r\}_{i\in I}\subseteq\sttopR$ with $0<\l|I\r|<\infty$. Thus for each $i\in I$ and all $x\in U_i$, there exists $r_i\in\R^+$ such that $\l(x-r_i,x+r_i\r)\subseteq U_i$. Set $r\coloneqq\min_{i\in I}r_i$. Hence for all $x\in\bigcap_{i\in I}U_i$, we have $\l(x-r,x+r\r)\subseteq\bigcap_{i\in I}U_i$ and thus $\bigcap\mc{U}\in\sttopR$.
 
 To see that $\sttopR=\mc{T}\l(\mc{B}\r)$, it suffices to show that $\mc{B}\subseteq\sttopR$ and that$$\begin{equation}
     \fa U\in\sttopR,\fa x\in U:\ex B\in\mc{B}:x\in B\subseteq U.

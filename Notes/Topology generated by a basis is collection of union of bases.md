@@ -20,6 +20,6 @@ $$\begin{equation}
 
 ```
 
-_Proof_. ($\supseteq$): Take $U\in\pow\l(X\r)$ such that $\ex\mc{A}\subseteq\mc{B}$ and $U=\bigcup\mc{A}$. Observe that $\mc{B}\subseteq\mc{T}\l(\mc{B}\r)$, so $\mc{A}\subseteq\mc{T}\l(\mc{B}\r)$ too. It follows from $\axitop{2}$ that $U\in\mc{T}\l(\mc{B}\r)$.
+_Proof_. ($\supseteq$): Take $U\in\pow\l(X\r)$ such that $\ex\mc{A}\subseteq\mc{B}$ and $U=\bigcup\mc{A}$. Observe that $\mc{B}\subseteq\mc{T}\l(\mc{B}\r)$, so $\mc{A}\subseteq\mc{T}\l(\mc{B}\r)$ too. It follows from $\axitop[2]$ that $U\in\mc{T}\l(\mc{B}\r)$.
 
 ($\subseteq$): Take $U\in\mc{T}\l(\mc{B}\r)$, so for $x\in U$, there exists $B_x\in\mc{B}$ such that $x\in B_x\subseteq U$. Set $\mc{A}\coloneqq\l\{B_x\in\mc{B}\mid x\in U\r\}$. It follows that for all $x\in U$, we have $x\in\bigcup\mc{A}$, so $U\subseteq\bigcup\mc{A}$. Conversely, observe that each $B_x\subseteq U$, so we have $\bigcup\mc{A}\subseteq U$.<span style="float:right;">$\blacksquare$</span>

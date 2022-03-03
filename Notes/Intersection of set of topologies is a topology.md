@@ -18,7 +18,7 @@ _Let $X$ be a set and $\ms{T}$ be a non-empty collection of topologies on $X$. T
 ```
 
 _Proof_. We verify the axioms for a topology on $X$:
-* ($\axitop{1}$): Since $\em$ and $X$ are in $\mc{T}$ for all $\mc{T}\in\ms{T}$, they are in $\bigcap\ms{T}$ too.
+* ($\axitop[1]$): Since $\em$ and $X$ are in $\mc{T}$ for all $\mc{T}\in\ms{T}$, they are in $\bigcap\ms{T}$ too.
 
 Let $\mc{U}\in\bigcap\ms{T}$. We have the following chain of equivalences:
 $$\begin{equation}
@@ -30,18 +30,18 @@ $$\begin{equation}
     \end{alignedat}
     \tag{$\ast$}
 \end{equation}$$
-* ($\axitop{2}$): Observe that
+* ($\axitop[2]$): Observe that
 $$\begin{equation}
     \begin{alignedat}{2}
         U\subseteq\bigcap\ms{T}&\Leftrightarrow\fa\mc{T}\in\ms{T}:U\subseteq\mc{T}&&\textrm{Lemma }\l(\ast\r)\\
-        &\Rightarrow\fa\mc{T}\in\ms{T}:\bigcup\mc{U}\in\mc{T}\ \ \ \ \ \ \ \ &&\axitop{2}\textrm{ of }\mc{T}\\
+        &\Rightarrow\fa\mc{T}\in\ms{T}:\bigcup\mc{U}\in\mc{T}\ \ \ \ \ \ \ \ &&\axitop[2]\textrm{ of }\mc{T}\\
         &\Leftrightarrow\bigcup\mc{U}\in\bigcap\ms{T}.&&\ms{T}\neq\em\textrm{; definition of intersection}
     \end{alignedat}
 \end{equation}$$
-* ($\axitop{3}$): Similarly, observe that (assuming $\mc{U}\neq\em$ is finite)
+* ($\axitop[3]$): Similarly, observe that (assuming $\mc{U}\neq\em$ is finite)
 $$\begin{alignat}{2}
     U\subseteq\bigcap\ms{T}&\Leftrightarrow\fa\mc{T}\in\ms{T}:U\subseteq\mc{T}&&\textrm{Lemma }\l(\ast\r)\\
-    &\Rightarrow\fa\mc{T}\in\ms{T}:\bigcap\mc{U}\in\mc{T}\ \ \ \ \ \ \ \ &&\axitop{3}\textrm{ of }\mc{T}\\
+    &\Rightarrow\fa\mc{T}\in\ms{T}:\bigcap\mc{U}\in\mc{T}\ \ \ \ \ \ \ \ &&\axitop[3]\textrm{ of }\mc{T}\\
     &\Leftrightarrow\bigcap\mc{U}\in\bigcap\ms{T}.&&\ms{T}\neq\em\textrm{; definition of intersection}\qedin
 \end{alignat}$$
 

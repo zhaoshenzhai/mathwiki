@@ -18,12 +18,12 @@ Justifications: _Not Applicable_
 title: Definition.
 
 _Let $X$ be a set. A **topology on $X$** is a set $\mc{T}\subseteq\pow\l(X\r)$ satisfying:_
-* $\axitop{1}\bf{.}$ _$\em\in\mc{T}$ and $X\in\mc{T}$._
-* $\axitop{2}\bf{.}$ _Arbitrary unions of elements of $\mc{T}$ are in $\mc{T}$:_
+* $\axitop[1]\bf{.}$ _$\em\in\mc{T}$ and $X\in\mc{T}$._
+* $\axitop[2]\bf{.}$ _Arbitrary unions of elements of $\mc{T}$ are in $\mc{T}$:_
 $$\begin{equation}
     \fa\mc{U}\subseteq\mc{T}:\bigcup\mc{U}\in\mc{T}.
 \end{equation}$$
-* $\axitop{3}\bf{.}$ _Finite intersections of elements of $\mc{T}$ are in $\mc{T}$:_
+* $\axitop[3]\bf{.}$ _Finite intersections of elements of $\mc{T}$ are in $\mc{T}$:_
 $$\begin{equation}
     \fa\mc{U}\subseteq\mc{T}:\l(\mc{U}\neq\em\land\mc{U}\textit{ is finite}\r)\Rightarrow\bigcap\mc{U}\in\mc{T}.
 \end{equation}$$

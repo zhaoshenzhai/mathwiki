@@ -27,7 +27,7 @@ _Proof_. It suffices to verify that $\mc{B}$ is a basis for a topology on $X\tim
 $$\begin{equation}
     q\in\l(U_1\cap U_2\r)\times\l(V_1\cap V_2\r).
 \end{equation}$$
-Since $U_1,U_2\in\mc{T}_X$, we see, from $\axitop{3}$ of $\mc{T}_X$, that $U_1\cap U_2\in\mc{T}_X$ too. Similarly, we have $V_1\cap V_2\in\mc{T}_Y$, and thus 
+Since $U_1,U_2\in\mc{T}_X$, we see, from $\axitop[3]$ of $\mc{T}_X$, that $U_1\cap U_2\in\mc{T}_X$ too. Similarly, we have $V_1\cap V_2\in\mc{T}_Y$, and thus 
 $$\begin{equation}
     q\in\underbrace{\l(U_1\cap U_2\r)\times\l(V_1\cap V_2\r)}_{\mathclap{\in\mc{B}}}=\l(U_1\times V_1\r)\cap\l(U_2\times V_2\r).\qedin
 \end{equation}$$

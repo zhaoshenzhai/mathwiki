@@ -30,6 +30,6 @@ so $\mc{B}\subseteq\mc{B}'$ and recall that $\mc{T}\l(\mc{S}\r)\coloneqq\mc{T}\l
 $$\begin{equation}
     \fa B\in\mc{A}',\ex\mc{R}\subseteq\mc{S}:0<\l|\mc{R}\r|<\infty\land B=\bigcap\mc{R}
 \end{equation}$$
-where since $\mc{R}\subseteq\mc{S}\subseteq\mc{T}\l(\mc{B}\r)$, we see that $B=\bigcap\mc{R}\in\mc{T}\l(\mc{B}\r)$ by $\axitop{3}$. It follows that $\mc{A}'\subseteq\mc{T}\l(\mc{B}\r)$ and thus $U=\bigcup\mc{A}'\in\mc{T}\l(\mc{B}\r)$ by $\axitop{2}$.
+where since $\mc{R}\subseteq\mc{S}\subseteq\mc{T}\l(\mc{B}\r)$, we see that $B=\bigcap\mc{R}\in\mc{T}\l(\mc{B}\r)$ by $\axitop[3]$. It follows that $\mc{A}'\subseteq\mc{T}\l(\mc{B}\r)$ and thus $U=\bigcup\mc{A}'\in\mc{T}\l(\mc{B}\r)$ by $\axitop[2]$.
 
 * ($\mc{T}\l(\mc{B}\r)\subseteq\mc{T}\l(\mc{S}\r)$): Take $U\in\mc{T}\l(\mc{B}\r)$, so there exists $\mc{A}\subseteq\mc{B}$ such that $U=\bigcup\mc{A}$. Since $\mc{B}\subseteq\mc{B}'$, we see that $\mc{A}\subseteq\mc{B}'$ and thus $U\in\mc{T}\l(\mc{B}'\r)=\mc{T}\l(\mc{S}\r)$.<span style="float:right;">$\blacksquare$</span>
