@@ -29,7 +29,7 @@ Each note is currently one of four types:
     * Equivalences: _Equivalent statements - including its proof. (Axiom/Proposition/Theorem)_
     * Constructions: Objects/notions that crucially depend on `statement`. (Definition)
 
-These templates are automatically [inserted][linkTemplates] whenever a note is created. After the links, the main content is written with remarks where appropriate.
+These templates are automatically [inserted][templatesInsert] whenever a note is created. After the links, the main content is written with remarks where appropriate.
 
 ### Obsidian configurations
 
@@ -43,7 +43,7 @@ Pluggins:
 * [Extended MathJax](https://github.com/xldenis/obsidian-latex): Add macros in [`preamble.sty`](preamble.sty).
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
 * [Sliding Panes (Andy's Mode)](https://github.com/deathau/sliding-panes-obsidian): Stack panes side-by-side.
-* [Vault Statistics](https://github.com/bkyle/obsidian-vault-statistics-plugin): _[numNotes] notes, [numLinks] links, [numAttachments] attachments, [numWords] words._
+* [Vault Statistics](https://github.com/bkyle/obsidian-vault-statistics-plugin): _353 notes, 775 links, 24 attachments, 33021 words._
 
 ### TikZ images
 
@@ -71,9 +71,5 @@ The svg images are uploaded to Github instead of linked directly in Obsidian bec
 
 ![Fundamental Theorem of Equivalence Relations](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/sample_pages/fundamental_theorem_of_equivalence_relations.png)
 
-[linkTemplates]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L597
+[templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L597
 [tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/init.vim#L190
-[numNotes]: "300"
-[numLinks]: 700
-[numAttachments]: 20
-[numWords]: 30000
