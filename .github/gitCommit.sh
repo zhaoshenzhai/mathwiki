@@ -41,7 +41,7 @@ if [ -z "$choice" ] || [ "$choice" == "Y" ]; then
     sed -i 's/[0-9][0-9]*\simages/'"$numImages"' images/g' README.md
 
     templatesInsertLine=$(grep -n "#### Templates" vimwiki.snippets | sed 's/:.*$//g')
-    sed -i 's|\[templatesInsert\].*$|\[templatesInsert\]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L'"$templatesInsertLine"'|g' README.md
+    sed -i 's|\[templatesInsert\]:.*$|\[templatesInsert\]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L'"$templatesInsertLine"'|g' README.md
 
     git add .
 
