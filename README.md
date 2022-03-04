@@ -4,7 +4,7 @@
 
 An [Obsidian.md](https://obsidian.md) vault for my math course notes in university (integrated with my [dotfiles](https://github.com/zhaoshenzhai/dotfiles)).
 
-These notes are meant to be a distilled version of the math I've learnt, where ideas, formulations, and important results are broken down into their atomic components of definitions, propositions, and theorems for clarity, precision, and accessibility.
+These notes are meant to be a distilled version of the math I've learnt where ideas, formulations, and important results are broken down into their atomic components of definitions, propositions, and theorems for clarity, precision, and accessibility.
 
 ### File structures
 
@@ -29,7 +29,7 @@ Each note is currently one of four types:
     * Equivalences: _Equivalent statements - including its proof. (Axiom/Proposition/Theorem)_
     * Constructions: Objects/notions that crucially depend on `statement`. (Definition)
 
-These templates are automatically [inserted][templatesInsert] whenever a note is created. After the links, the main content is written with remarks where appropriate.
+These templates are automatically [inserted][texmplatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L598
 
 ### Obsidian configurations
 
@@ -39,7 +39,7 @@ Theme: [Minimal](https://github.com/kepano/obsidian-minimal).
 
 Pluggins:
 * [Admonition](https://github.com/valentine195/obsidian-admonition): A replacement for the `mdframed` package in LaTeX.
-* [Advanced Appearance](https://github.com/kepano/obsidian-advanced-appearance): Set the font to `CMU Serif` (detault LaTeX font).
+* [Advanced Appearance](https://github.com/kepano/obsidian-advanced-appearance): Set the font to `CMU Serif` (default LaTeX font).
 * [Extended MathJax](https://github.com/xldenis/obsidian-latex): Add macros in [`preamble.sty`](preamble.sty).
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
 * [Sliding Panes (Andy's Mode)](https://github.com/deathau/sliding-panes-obsidian): Stack panes side-by-side.
@@ -71,5 +71,5 @@ The svg images are uploaded to Github instead of linked directly in Obsidian bec
 
 ![Fundamental Theorem of Equivalence Relations](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/sample_pages/fundamental_theorem_of_equivalence_relations.png)
 
-[templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L597
+[templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L
 [tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/init.vim#L190
