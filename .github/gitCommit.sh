@@ -36,6 +36,10 @@ printf "\n"
 
 read -n 1 -p "$(echo -e ${CYAN}"Commit? [Y/n] "${NC})" choice
 if [ -z "$choice" ] || [ "$choice" == "Y" ]; then
+    sed -i 's/[0-9][0-9]*\snotes/'"$numNotes"' notes/g' README.md
+    sed -i 's/[0-9][0-9]*\slinks/'"$numLinks"' links/g' README.md
+    sed -i 's/[0-9][0-9]*\simages/'"$numImages"' images/g' README.md
+
     git add .
 
     printf "\n"
