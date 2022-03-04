@@ -8,10 +8,10 @@
 }
 
 .links-int-on .markdown-preview-view .internal-link, .markdown-preview-view .internal-link {
-  text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 .markdown-preview-sizer .external-link {
-  background: none;
-  padding-right: 0;
+    background: none;
+    padding-right: 0;
 }
