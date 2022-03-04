@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: _Not Applicable_
+Constructions: [[Axiom of Infinity]]
 Generalizations: _Not Applicable_
 
 Properties: [$\bigcup\em=\em$](Union%20of%20empty%20set%20is%20empty.md)
