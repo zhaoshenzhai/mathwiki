@@ -49,7 +49,7 @@ Pluggins:
 
 This is the main downside of using [MathJax](https://www.mathjax.org/) in Obsidian since Obsidian uses [sanitizates HTML](https://help.obsidian.md/Advanced+topics/HTML+sanitization) which ignores `<script>` tags and prevents one from using [this](https://github.com/kisonecat/tikzjax) tool.
 
-My solution is to bind a key in Neovim which [inserts](https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/init.vim#L190)
+My solution is to bind a key in Neovim which [inserts][tikzInsert]
 ```html
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/UNIQUE_IDENTIFIER/image.svg"></center>
 ```
@@ -72,3 +72,4 @@ The svg images are uploaded to Github instead of linked directly in Obsidian bec
 ![Fundamental Theorem of Equivalence Relations](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/sample_pages/fundamental_theorem_of_equivalence_relations.png)
 
 [linkTemplates]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L597
+[tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/init.vim#L190
