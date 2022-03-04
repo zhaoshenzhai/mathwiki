@@ -73,7 +73,7 @@ The svg images are uploaded to Github instead of linked directly in Obsidian bec
 
 [linkTemplates]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L597
 [tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/init.vim#L190
-[numNotes]: 300
+[numNotes]: "300"
 [numLinks]: 700
 [numAttachments]: 20
 [numWords]: 30000
