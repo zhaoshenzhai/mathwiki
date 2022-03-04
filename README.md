@@ -29,7 +29,7 @@ Each note is currently one of four types:
     * Equivalences: _Equivalent statements - including its proof. (Axiom/Proposition/Theorem)_
     * Constructions: Objects/notions that crucially depend on `statement`. (Definition)
 
-These templates are automatically [inserted](https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L597) whenever a note is created. After the links, the main content is written with remarks where appropriate.
+These templates are automatically [inserted](https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L[templatesLine]) whenever a note is created. After the links, the main content is written with remarks where appropriate.
 
 ### Obsidian configurations
 
@@ -70,3 +70,5 @@ The svg images are uploaded to Github instead of linked directly in Obsidian bec
 ![Function](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/sample_pages/function.png)
 
 ![Fundamental Theorem of Equivalence Relations](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/sample_pages/fundamental_theorem_of_equivalence_relations.png)
+
+[templatesLine]: 600
