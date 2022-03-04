@@ -71,5 +71,5 @@ The svg images are uploaded to Github instead of linked directly in Obsidian bec
 
 ![Fundamental Theorem of Equivalence Relations](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/sample_pages/fundamental_theorem_of_equivalence_relations.png)
 
-[templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L597
+[templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L602
 [tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/init.vim#L190
