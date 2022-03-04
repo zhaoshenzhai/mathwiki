@@ -10,7 +10,7 @@ Constructions: [[Union]]
 ``` ad-Axiom
 title: Axiom.
 
-_Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in\r\}$. The **Axiom of Union** is the $\mc{L}$-formula_
+_Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Union** is the $\mc{L}$-formula_
 $$\begin{equation}
     \fa u\ex z\fa v\fa x\l[\l(x\in v\land v\in u\r)\Rightarrow x\in z\r].
 \end{equation}$$

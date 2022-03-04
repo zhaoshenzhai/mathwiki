@@ -10,7 +10,7 @@ Constructions: [[Pair Set]]
 ``` ad-Axiom
 title: Axiom.
 
-_Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in\r\}$. The **Axiom of Pairing** is the $\mc{L}$-formula_
+_Consider the first-order languagr $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Pairing** is the $\mc{L}$-formula_
 $$\begin{equation}
     \fa x\fa y\ex z\l(x\in z\land y\in z\r).
 \end{equation}$$

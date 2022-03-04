@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Axiom of Infinity]], [[Inductive Set]]
+Constructions: [[Inductive Set]]
 Generalizations: _Not Applicable_
 
 Properties: [[Successor of an ordinal is the next smallest ordinal]], [[Successor of natural number is a natural number]]

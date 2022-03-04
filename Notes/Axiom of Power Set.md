@@ -10,9 +10,9 @@ Constructions: [[Power Set]]
 ``` ad-Axiom
 title: Axiom.
 
-_Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in,\subseteq\r\}$. The **Axiom of Power Set** is the $\mc{L}$-formula_
+_Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Power Set** is the $\mc{L}$-formula_
 $$\begin{equation}
-    \fa u\ex z\fa x\l(x\subseteq u\Rightarrow x\in z\r).
+    \fa u\ex z\fa y\l[\fa x\l(x\in y\Rightarrow x\in u\r)\Rightarrow y\in z\r].
 \end{equation}$$
 
 ```

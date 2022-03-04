@@ -10,7 +10,7 @@ Constructions: _Not Applicable_
 ``` ad-Axiom
 title: Axiom (Extensionality).
 
-_Consider the first-order logic with a set of non-logical symbols $\mc{L}=\l\{\in\r\}$. The **Axiom of Extensionality** is the $\mc{L}$-formula_
+_Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Extensionality** is the $\mc{L}$-formula_
 $$\begin{equation}
     \fa x\fa y\l[\fa z\l(z\in x\Leftrightarrow z\in y\r)\Rightarrow x=y\r].
 \end{equation}$$
