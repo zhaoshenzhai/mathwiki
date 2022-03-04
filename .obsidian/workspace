@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Criteria for subbasis to generate existing basis.md",
+            "file": "Notes/Absolute complement of a set is a proper class.md",
             "mode": "preview",
             "source": true
           }
@@ -72,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Criteria for subbasis to generate existing basis.md",
+                "file": "Notes/Absolute complement of a set is a proper class.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Criteria for subbasis to generate existing basis.md",
+                "file": "Notes/Absolute complement of a set is a proper class.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Criteria for subbasis to generate existing basis.md",
+                "file": "Notes/Absolute complement of a set is a proper class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,15 +182,15 @@
   },
   "active": "d3f01ec39c88698d",
   "lastOpenFiles": [
+    "Notes/Absolute complement of a set is a proper class.md",
+    "Notes/Topology on a Set.md",
+    "Notes/Topological Subspace.md",
+    "Notes/Standard Topology on R.md",
     "Notes/Criteria for subbasis to generate existing basis.md",
     "Notes/Symmetric Relation.md",
     "Notes/Inclusion Function.md",
-    "Notes/Absolute complement of a set is a proper class.md",
     "Notes/Asymmetric Relation.md",
     "Notes/Asymmetry implies irreflexivity.md",
-    "Notes/Automorphism (Category Theory).md",
-    "Notes/Antisymmetric Relation.md",
-    "Notes/Standard Topology on R.md",
-    "Notes/Equivalence Relation.md"
+    "Notes/Automorphism (Category Theory).md"
   ]
 }
