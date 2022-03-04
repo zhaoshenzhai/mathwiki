@@ -41,7 +41,7 @@ Pluggins:
 * [Admonition](https://github.com/valentine195/obsidian-admonition): A replacement for the `mdframed` package in LaTeX.
 * [Advanced Appearance](https://github.com/kepano/obsidian-advanced-appearance): Set the font to `CMU Serif` (detault LaTeX font).
 * [Extended MathJax](https://github.com/xldenis/obsidian-latex): Add macros in [`preamble.sty`](preamble.sty).
-* [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, etc.
+* [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
 * [Sliding Panes (Andy's Mode)](https://github.com/deathau/sliding-panes-obsidian): Stack panes side-by-side.
 * [Vault Statistics](https://github.com/bkyle/obsidian-vault-statistics-plugin): _349 notes, 766 links, 23 attachments, 32902 words._
 
