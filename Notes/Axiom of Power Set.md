@@ -17,4 +17,11 @@ $$\begin{equation}
 
 ```
 
+**Remark.** Letting $\mc{L}'\coloneqq\mc{L}\cup\l\{\subseteq\r\}$ where $\subseteq$ is a binary relation interpreted as the subset relation, we can rewrite the Axiom of Power Set as the $\mc{L}'$-formula
+$$\begin{equation}
+    \fa u\ex z\fa y\l(y\subseteq u\Rightarrow y\in z\r).\exqedin
+\end{equation}$$
+
+---
+
 **Remark.** This axiom does not directly define the $\textrm{`}$power set$\textrm{'}$ $\pow u$ of $u$. Rather, it asserts the existence of some superset of the power set, from which the power set is then constructed from the Axiom Schema of Specification.<span style="float:right;">$\blacklozenge$</span>

@@ -12,12 +12,12 @@ title: Axiom (Extensionality).
 
 _Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Extensionality** is the $\mc{L}$-formula_
 $$\begin{equation}
-    \fa x\fa y\l[\fa z\l(z\in x\Leftrightarrow z\in y\r)\Rightarrow x=y\r].
+    \fa u\fa v\l[\fa x\l(x\in u\Leftrightarrow x\in v\r)\Rightarrow u=v\r].
 \end{equation}$$
 
 ```
 
-> Informally, the truth of this axiom is clear if we recall that the intended universe of set theory consists of all $\textit{hereditary sets}$. That is, if $x$ is in our universe, then $x$ is a set and all members of $x$ are also in our universe and hence also sets. Then $\fa z\l(z\in x\Leftrightarrow z\in y\r)$ says that $x,y$ are sets with exactly the same members, so they must be the same set.
+> Informally, the truth of this axiom is clear if we recall that the intended universe of set theory consists of all $\textit{hereditary sets}$. That is, if $u$ is in our universe, then $u$ is a set and all members of $u$ are also in our universe and hence also sets. Then $\fa x\l(x\in u\Leftrightarrow x\in v\r)$ says that $u,v$ are sets with exactly the same members, so they must be the same set.
 <span style="float:right;">- Kenneth Kunan; Set Theory, I.4</span>
 
 ---
