@@ -2,11 +2,11 @@
 <br />
 
 Date Created: 06/03/2022 15:11:37
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed 
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Comma Category]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -29,6 +29,8 @@ _satisfying:_
 * _$\axifunctor[2]$ (Compositionality)$\bf{.}$ For all $X,Y,Z\in\obj\l(\cat{C}\r)$,_ $f\in\hom_\cat{C}\!\l(X,Y\r)$_, and_ $g\in\hom_\cat{C}\!\l(Y,Z\r)$_, the following diagram commutes._
   <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-06_160504/image.svg", width=300></center>
 
-    _That is, if_ $\ms{F}_\textrm{Hom}\l(g\circ f\r)=\ms{F}_\textrm{Hom}\l(g\r)\circ\ms{F}_\textrm{Hom}\l(f\r)$ _where the $\textrm{`}\circ\textrm{'}$ on the left hand side is the composition on $\cat{C}$ and the $\textrm{`}\circ\textrm{'}$ on the right hand side is the composition on $\cat{D}$._
+    _That is,_ $\ms{F}_\textrm{Hom}\l(g\circ f\r)=\ms{F}_\textrm{Hom}\l(g\r)\circ\ms{F}_\textrm{Hom}\l(f\r)$ _where the $\textrm{`}\circ\textrm{'}$ on the left hand side is the composition on $\cat{C}$ and the $\textrm{`}\circ\textrm{'}$ on the right hand side is the composition on $\cat{D}$._
 
 ```
+
+**Remark.** If $\ms{F}$ is a functor from $\cat{C}$ to $\cat{D}$, write $\ms{F}:\cat{C}\to\cat{D}$. By abuse of notation, denote both $\ms{F}_\textrm{Obj}$ and $\ms{F}_\textrm{Hom}$ by $\ms{F}$ itself.<span style="float:right;">$\blacklozenge$</span>

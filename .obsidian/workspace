@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "08c98db0b74181ab",
+        "id": "498586ed64bcaa77",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Functor.md",
+            "file": "Notes/Comma Category.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "b3b82b144b90e74a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Slice Category.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Functor.md",
+                "file": "Notes/Comma Category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Functor.md",
+                "file": "Notes/Comma Category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Functor.md",
+                "file": "Notes/Comma Category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "08c98db0b74181ab",
+  "active": "498586ed64bcaa77",
   "lastOpenFiles": [
+    "Notes/Comma Category.md",
+    "Notes/Slice Category.md",
+    "Notes/Morphism (Category Theory).md",
     "Notes/Functor.md",
     "Notes/Category.md",
-    "Notes/Lexicographical order topology strictly finer than standard topology on R2.md",
+    "Notes/Function.md",
     "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
+    "Notes/Lexicographical order topology strictly finer than standard topology on R2.md",
     "Notes/Axiom Schema of Specification.md",
-    "Notes/Axiom Schema of Replacement.md",
-    "Notes/Axiom of Extensionality.md",
-    "Notes/Axiom of Power Set.md",
-    "Notes/Axiom of Infinity.md",
-    "Notes/Axiom of Pairing.md"
+    "Notes/Axiom Schema of Replacement.md"
   ]
 }
