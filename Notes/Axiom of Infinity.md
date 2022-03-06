@@ -5,7 +5,7 @@ Date Created: 02/02/2022 11:09:41
 Tags: #Axiom #Open 
 
 Equivalences: _Not Applicable_
-Constructions: [[Set of Natural Numbers]]
+Constructions: [[Zermelo-Fraenkel Set Theory with Choice]], [[Set of Natural Numbers]]
 
 ``` ad-Axiom
 title: Axiom.
@@ -17,7 +17,7 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Letting $\mc{L}'\coloneqq\mc{L}\cup\l\{\em,S\r\}$ where $\em$ is a constant symbol interpreted as the empty set and $S$ is a function symbol interpreted as the successor, we we rewrite the Axiom of infinity as the $\mc{L}'$-formula
+**Remark.** Letting $\mc{L}'\coloneqq\mc{L}\cup\l\{\em,S\r\}$ where $\em$ is a constant symbol interpreted as the empty set and $S$ is a function symbol interpreted as the successor, we can rewrite the Axiom of infinity as the $\mc{L}'$-formula
 $$\begin{equation}
     \ex z\l[\em\in z\land\fa y\l(y\in z\Rightarrow S\l(y\r)\in z\r)\r].
 \end{equation}$$

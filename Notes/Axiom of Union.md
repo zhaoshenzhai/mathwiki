@@ -12,7 +12,7 @@ title: Axiom.
 
 _Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Union** is the $\mc{L}$-formula_
 $$\begin{equation}
-    \fa u\ex z\fa v\fa x\l[\l(x\in v\land v\in u\r)\Rightarrow x\in z\r].
+    \fa x\ex z\fa u\fa v\l[\l(u\in v\land v\in x\r)\Rightarrow u\in z\r].
 \end{equation}$$
 
 ```
