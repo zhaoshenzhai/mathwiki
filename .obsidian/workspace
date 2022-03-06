@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Notes/Category.md",
-            "mode": "source",
+            "mode": "preview",
             "source": true
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Category.md",
+                "file": "Notes/Functor.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Category.md",
+                "file": "Notes/Functor.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Category.md",
+                "file": "Notes/Functor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,10 +194,10 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "e6e97a3531987d56",
+  "active": "06c2dd60ba7ff647",
   "lastOpenFiles": [
-    "Notes/Category.md",
     "Notes/Functor.md",
+    "Notes/Category.md",
     "Notes/Lexicographical order topology strictly finer than standard topology on R2.md",
     "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
     "Notes/Axiom Schema of Specification.md",

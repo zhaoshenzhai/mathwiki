@@ -1,0 +1,15 @@
+\documentclass[margin=20mm]{standalone}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\begin{document}
+    \begin{tikzcd}[color=textColor]
+        &
+            \ms{F}_\textrm{Obj}(Y) \ar[dr, "\ms{F}_\textrm{Hom}(g)"] &
+                \\
+        \ms{F}_\textrm{Obj}(X) \ar[ur, "\ms{F}_\textrm{Hom}(f)"] \ar[rr, "\ms{F}_\textrm{Hom}(g\circ f)"'] &
+            &
+                \ms{F}_\textrm{Obj}(Z)
+    \end{tikzcd}
+\end{document}
