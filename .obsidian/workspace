@@ -4,19 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "e6e97a3531987d56",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Category.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "06c2dd60ba7ff647",
+        "id": "08c98db0b74181ab",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -169,7 +157,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.16736518142452322,
+                  "scale": 0.2329705900530874,
                   "close": true
                 }
               }
@@ -194,7 +182,7 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "06c2dd60ba7ff647",
+  "active": "08c98db0b74181ab",
   "lastOpenFiles": [
     "Notes/Functor.md",
     "Notes/Category.md",

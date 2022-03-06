@@ -26,9 +26,9 @@ $$\begin{equation}
 
 _satisfying:_
 * _$\axifunctor[1]$ (Unitality)$\bf{.}$ For all $X\in\obj\l(\cat{C}\r)$,_ $\ms{F}_\textrm{Hom}\l(\id_X\r)=\id_{\ms{F}_\textrm{Obj}\l(X\r)}$_._
-* $\axifunctor[2]$ (Compositionality)$\bf{.}$ For all $X,Y,Z\in\obj\l(\cat{C}\r)$, $f\in\hom_\cat{C}\!\l(X,Y\r)$, and $g\in\hom_\cat{C}\!\l(Y,Z\r)$, the following diagram commutes.
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-06_160504/image.svg"></center>
+* _$\axifunctor[2]$ (Compositionality)$\bf{.}$ For all $X,Y,Z\in\obj\l(\cat{C}\r)$,_ $f\in\hom_\cat{C}\!\l(X,Y\r)$_, and_ $g\in\hom_\cat{C}\!\l(Y,Z\r)$_, the following diagram commutes._
+  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-06_160504/image.svg", width=300></center>
 
-![[../Images/2022-03-06_160504/image.svg]]
+    _That is, if_ $\ms{F}_\textrm{Hom}\l(g\circ f\r)=\ms{F}_\textrm{Hom}\l(g\r)\circ\ms{F}_\textrm{Hom}\l(f\r)$ _where the $\textrm{`}\circ\textrm{'}$ on the left hand side is the composition on $\cat{C}$ and the $\textrm{`}\circ\textrm{'}$ on the right hand side is the composition on $\cat{D}$._
 
 ```
