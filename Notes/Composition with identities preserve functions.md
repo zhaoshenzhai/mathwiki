@@ -15,7 +15,7 @@ title: Proposition.
 
 _Let $f:X\to Y$. Then $f\circ\id_X=f$ and $\id_Y\circ f=f$. In other words, the diagram_
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_213021/image.svg", width=240></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-09_213021/image.svg", width=240></center>
 
 _commutes._
 

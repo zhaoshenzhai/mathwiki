@@ -36,6 +36,6 @@ $$\begin{equation}
 \end{equation}$$
 which, pictorially, can be visualized as:
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_224445/image.svg", width=340></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-09_224445/image.svg", width=340></center>
 
 Therefore, set $\mc{R}\coloneqq\l\{\preim_{\pi_X}\!\l(U\r),\preim_{\pi_Y}\!\l(V\r)\r\}\!\!$ and observe that $0<\l|\mc{R}\r|=2<\infty$ and that $B=\bigcap\mc{R}$.<span style="float:right;">$\blacksquare$</span>

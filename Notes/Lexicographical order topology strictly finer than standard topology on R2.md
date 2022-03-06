@@ -34,13 +34,13 @@ $$\begin{equation}
     p=\l\langle x,y\r\rangle\in\l(\l\langle x,c\r\rangle,\l\langle x,d\r\rangle\r)\subseteq\l(a,b\r)\times\l(c,d\r),
 \end{equation}$$
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/10-02-2022_130354/image.svg", width=130></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-10_130354/image.svg", width=130></center>
 
 so we have $\sttopR[2]\subseteq\mc{T}^{<_L}_{\R^2}$. The converse does not hold, for take $\l\langle e,f\r\rangle\in\R^2$ and choose $\l(\l\langle e,c'\r\rangle,\l\langle e,d'\r\rangle\r)$ for any $c'<f<d'$. Any $B\in\mc{B}_\textrm{st}$ containing $\l\langle e,f\r\rangle$ must be of the form $\l(a,b\r)\times\l(c,d\r)$ where $a<e<b$ and $c<f<d$. But then observe that
 $$\begin{equation}
     \l\langle\frac{a+e}{2},f\r\rangle\in\l(a,b\r)\times\l(c,d\r)\ \ \ \ \textrm{but}\ \ \ \ \l\langle\frac{a+e}{2},f\r\rangle\not\in\l(\l\langle e,c'\r\rangle,\l\langle e,d'\r\rangle\r),
 \end{equation}$$
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/10-02-2022_131823/image.svg", width=85></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-10_131823/image.svg", width=85></center>
 
 so $\l(a,b\r)\times\l(c,d\r)\not\subseteq\l(\l\langle e,c'\r\rangle,\l\langle e,d'\r\rangle\r)$ and thus $\mc{T}^{<_L}_{\R^2}\not\subseteq\sttopR[2]$.<span style="float:right;">$\blacksquare$</span>

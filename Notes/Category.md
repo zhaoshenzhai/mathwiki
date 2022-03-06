@@ -6,7 +6,7 @@ Tags: #Definition #Open
 
 Types: [[Thin Category]]
 Examples: [[Category of Sets]], [[Category of Relations]]
-Constructions: [[Morphism (Category Theory)]], [[Opposite Category]], [[Slice Category]], [[Coslice Category]]
+Constructions: [[Morphism (Category Theory)]], [[Functor]], [[Opposite Category]], [[Slice Category]], [[Coslice Category]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -25,10 +25,10 @@ _A **category** $\cat{C}$ consists of the data of_
 
 _such that, for all $X,Y,Z,W\in\obj\l(\cat{C}\r)$:_
 * $\axicat[1]\bf{.}$ _Composition is associative: For all $f\in\hom\l(X,Y\r)$, $g\in\hom\l(Y,Z\r)$, and $h\in\hom\l(Z,W\r)$, the following diagram commutes._
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/21-02-2022_142913/image.svg", width=230></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-21_142913/image.svg", width=230></center>
 
 * $\axicat[2]\bf{.}$ _Composition with identities preserve functions: For all $f\in\hom\l(X,Y\r)$, the following diagram commutes._
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/09-02-2022_213021/image.svg", width=230></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-09_213021/image.svg", width=230></center>
 * $\axicat[3]\bf{.}$ _Morphisms are pairwise disjoint: If $X\neq Z$ or $Y\neq W$, then $\hom\l(X,Y\r)\cap\hom\l(Z,W\r)=\em$._
 
 

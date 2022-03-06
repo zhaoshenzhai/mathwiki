@@ -23,7 +23,7 @@ $$\begin{equation}
     \obj\l(\cat{C}\downarrow X\r)\coloneqq\l\{f\in\hom_\cat{C}\!\l(Z,X\r)\mid Z\in\obj\l(\cat{C}\r)\r\}.
 \end{equation}$$
 * _For all $\l(\cat{C}\downarrow X\r)$-objects $f$ and $g$, the morphisms from $f$ to $g$ are $\cat{C}$-morphisms $\phi:\dom f\to\dom g$ such that the diagram_
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/25-02-2022_145240/image.svg", width=200></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-25_145240/image.svg", width=200></center>
 
   _commutes, that is,_$$\begin{equation}
       \hom_{\l(\cat{C}\downarrow X\r)}\!\l(f,g\r)\coloneqq\l\{\phi\in\hom_\cat{C}\!\l(\dom f,\dom g\r)\mid f=g\circ\phi\r\}.

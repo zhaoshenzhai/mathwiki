@@ -43,7 +43,7 @@ Pluggins:
 * [Extended MathJax](https://github.com/xldenis/obsidian-latex): Add macros in [`preamble.sty`](preamble.sty).
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
 * [Sliding Panes (Andy's Mode)](https://github.com/deathau/sliding-panes-obsidian): Stack panes side-by-side.
-* [Vault Statistics](https://github.com/bkyle/obsidian-vault-statistics-plugin): _354 notes, 745 links, 24 images._
+* [Vault Statistics](https://github.com/bkyle/obsidian-vault-statistics-plugin): _355 notes, 746 links, 24 images._
 
 ### TikZ images
 
