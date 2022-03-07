@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Slice category is a category.md",
+                "file": "Notes/Comma category is a category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Slice category is a category.md",
+                "file": "Notes/Comma category is a category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Slice category is a category.md",
+                "file": "Notes/Comma category is a category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "8b4e55a0ecc68723",
+  "active": "a06d08839bb08042",
   "lastOpenFiles": [
-    "Notes/Slice category is a category.md",
     "Notes/Comma category is a category.md",
-    "Notes/Slice Category.md",
-    "Notes/Comma Category.md",
-    "Notes/Coslice Category.md",
-    "Notes/Morphism (Category Theory).md",
-    "Notes/Category.md",
-    "Notes/Functor.md",
-    "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
-    "Notes/Axiom of Infinity.md"
+    "Notes/Slice category is a category.md",
+    "Notes/Cartesian product of intersections.md",
+    "Notes/Universal Class.md",
+    "Notes/Domain and range of inverse relation.md",
+    "Notes/Intersection of empty set is a proper class.md",
+    "Notes/Image of union is union of images.md",
+    "Notes/Inclusion Poset.md",
+    "Notes/Axiom Schema of Replacement.md",
+    "Notes/Cartesian product (Kuratowski) is a set (Replacement).md"
   ]
 }

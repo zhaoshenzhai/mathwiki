@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Composition of relations is associative]], [[Composition with identities preserve functions]]
 Generalizations: [[Left and right inverses coincide (Morphism)]]
 
-Converses: _Not Applicable_
+Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
