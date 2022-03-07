@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Coslice category is a category.md",
+            "file": "Notes/Coslice Category.md",
             "mode": "preview",
             "source": true
           }
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Slice category is a category.md",
+            "file": "Notes/Slice Category.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Coslice category is a category.md",
+                "file": "Notes/Slice Category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Coslice category is a category.md",
+                "file": "Notes/Slice Category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Coslice category is a category.md",
+                "file": "Notes/Slice Category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,12 +194,12 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "db17d52237ae0508",
+  "active": "22ca92e3b01913e5",
   "lastOpenFiles": [
+    "Notes/Slice Category.md",
+    "Notes/Coslice Category.md",
     "Notes/Coslice category is a category.md",
     "Notes/Slice category is a category.md",
-    "Notes/Coslice Category.md",
-    "Notes/Slice Category.md",
     "Notes/Functor.md",
     "Notes/Category.md",
     "Notes/Comma Category.md",
