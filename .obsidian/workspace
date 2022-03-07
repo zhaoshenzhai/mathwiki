@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5467125e6ad16c41",
+        "id": "8b4e55a0ecc68723",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Comma Category.md",
+            "file": "Notes/Slice category is a category.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "348d47619fe301fc",
+        "id": "a06d08839bb08042",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Comma category is a category.md",
+                "file": "Notes/Slice category is a category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Comma category is a category.md",
+                "file": "Notes/Slice category is a category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Comma category is a category.md",
+                "file": "Notes/Slice category is a category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "348d47619fe301fc",
+  "active": "8b4e55a0ecc68723",
   "lastOpenFiles": [
+    "Notes/Slice category is a category.md",
     "Notes/Comma category is a category.md",
-    "Notes/Comma Category.md",
     "Notes/Slice Category.md",
+    "Notes/Comma Category.md",
+    "Notes/Coslice Category.md",
     "Notes/Morphism (Category Theory).md",
     "Notes/Category.md",
     "Notes/Functor.md",
-    "Notes/Slice category is a category.md",
     "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
-    "Notes/Axiom of Infinity.md",
-    "Notes/Coslice Category.md"
+    "Notes/Axiom of Infinity.md"
   ]
 }
