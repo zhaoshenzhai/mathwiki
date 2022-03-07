@@ -12,7 +12,7 @@ title: Axiom.
 
 _Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Infinity** is the $\mc{L}$-formula_
 $$\begin{equation}
-    \ex z\l[\l[\l(\fa e\fa x\lnot\l(x\in e\r)\r)\Rightarrow e\in z\r]\land\l[\fa y\l(y\in z\Rightarrow\l(\fa s\fa x\l(x\in s\Leftrightarrow x\in y\lor x=y\r)\Rightarrow s\in z\r)\r)\r]\r].
+    \ex z\l[\l[\ex e\l(\fa x\lnot\l(x\in e\r)\land e\in z\r)\r]\land\l[\fa y\l(y\in z\Rightarrow\ex s\l(\fa x\l(x\in s\Leftrightarrow x\in y\lor x=y\r)\land s\in z\r)\r)\r]\r].
 \end{equation}$$
 
 ```
