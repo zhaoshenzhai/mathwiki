@@ -6,7 +6,7 @@ Tags: #Definition #Open
 
 Types: [[Thin Category]]
 Examples: [[Category of Sets]], [[Category of Relations]]
-Constructions: [[Morphism (Category Theory)]], [[Functor]], [[Opposite Category]], [[Slice Category]], [[Coslice Category]]
+Constructions: [[Morphism (Category Theory)]], [[Functor]], [[Opposite Category]], [[Slice Category]], [[Coslice Category]], [[Comma Category]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
