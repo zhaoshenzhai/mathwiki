@@ -24,12 +24,12 @@ _A **category** $\cat{C}$ consists of the data of_
 * _for all $X,Y,Z\in\obj\l(\cat{C}\r)$ and all $f\in\hom\l(X,Y\r)$ and $g\in\hom\l(Y,Z\r)$, an element $g\circ f\in\hom\l(X,Z\r)$ called the **$\cat{C}$-composite of $g$ after $f$**,_
 
 _such that, for all $X,Y,Z,W\in\obj\l(\cat{C}\r)$:_
-* $\axicat[1]\bf{.}$ _Composition is associative: For all $f\in\hom\l(X,Y\r)$, $g\in\hom\l(Y,Z\r)$, and $h\in\hom\l(Z,W\r)$, the following diagram commutes._
+* _$\axicat[1]$ (Associativity)$\bf{.}$ For all $f\in\hom\l(X,Y\r)$, $g\in\hom\l(Y,Z\r)$, and $h\in\hom\l(Z,W\r)$, the following diagram commutes._
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-21_142913/image.svg", width=230></center>
 
-* $\axicat[2]\bf{.}$ _Composition with identities preserve functions: For all $f\in\hom\l(X,Y\r)$, the following diagram commutes._
+* _$\axicat[2]$ (Identity)$\bf{.}$ For all $f\in\hom\l(X,Y\r)$, the following diagram commutes._
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-09_213021/image.svg", width=230></center>
-* $\axicat[3]\bf{.}$ _Morphisms are pairwise disjoint: If $X\neq Z$ or $Y\neq W$, then $\hom\l(X,Y\r)\cap\hom\l(Z,W\r)=\em$._
+* _$\axicat[3]$ (Disjoint)$\bf{.}$ If $X\neq Z$ or $Y\neq W$, then $\hom\l(X,Y\r)\cap\hom\l(Z,W\r)=\em$._
 
 
 ```

@@ -1,0 +1,55 @@
+<br />
+<br />
+
+Date Created: 06/03/2022 17:54:05
+Tags: #Proposition #Closed 
+
+Proved by: _Not Applicable_
+Generalizations: _Not Applicable_
+
+Converses: _Not Applicable_
+Counterexamples: _Not Applicable_
+
+``` ad-Proposition
+title: Proposition.
+
+_Let $\cat{C}$, $\cat{D}$, and $\cat{E}$ be categories and fix two functors $\ms{F}:\cat{C}\to\cat{E}$ and $\ms{G}:\cat{D}\to\cat{E}$. Then the comma category $\l(\ms{F}\downarrow\ms{G}\r)$ is a category._
+
+```
+
+_Proof_. It suffices to check that the identities and composite morphisms are well-defined since the axioms are inherited directly from that of $\cat{C}$ and $\cat{D}$.
+* Take $\l\langle C,D,f\r\rangle\in\obj\l(\ms{F}\downarrow\ms{G}\r)$ and consider the identity $\l\langle\id_C,\id_D\r\rangle$; we need to prove that $\ms{G}\l(\id_D\r)\circ f=f\circ\ms{F}\l(\id_C\r)$. From $\axifunctor[1]$ of $\ms{F}$, we see that $\ms{F}\l(\id_C\r)=\id_{\ms{F}\l(C\r)}$ which, by definition of $\ms{F}$, is a morphism in $\cat{E}$. Similarly, $\ms{G}\l(\id_D\r)=\id_{\ms{G}\l(D\r)}\in\hom\l(\cat{E}\r)$. Since $f$ is a morphism in $\cat{E}$ with $\dom f=\ms{F}\l(C\r)$ and $\cdm f=\ms{G}\l(D\r)$, the composition is defined and equality holds via $\axicat[2]$ of $\cat{E}$.
+
+* Take $\l\langle C_i,D_i,f_i\r\rangle\in\obj\l(\ms{F}\downarrow\ms{G}\r)$ for $i\in\l\{1,2,3\r\}$ and consider the morphisms
+$$\begin{equation}
+    \l\langle\phi,\psi\r\rangle:\l\langle C_1,D_1,f_1\r\rangle\to\l\langle C_2,D_2,f_2\r\rangle\ \ \ \ \textrm{and}\ \ \ \ \l\langle\phi',\psi'\r\rangle:\l\langle C_2,D_2,f_2\r\rangle\to\l\langle C_3,D_3,f_3\r\rangle\tag{$\ast$}
+\end{equation}$$
+in $\hom\l(\ms{F}\downarrow\ms{G}\r)$; we need to prove that $\phi'\circ\phi\in\hom_\cat{C}\!\l(C_1,C_3\r)$, $\psi'\circ\psi\in\hom_\cat{D}\!\l(D_1,D_3\r)$, and that
+$$\begin{equation}
+    \ms{G}\l(\psi'\circ\psi\r)\circ f_1=f_3\circ\ms{F}\l(\phi'\circ\phi\r).
+\end{equation}$$
+The first two are evident by the definition of the composite morphisms in $\cat{C}$ and $\cat{D}$. For the third, observe from the definition of ($\,\ast\,$) that
+$$\begin{equation}
+    \ms{G}\l(\psi\r)\circ f_1=f_2\circ\ms{F}\l(\phi\r)\tag{$\,1\,$}
+\end{equation}$$
+and
+$$\begin{equation}
+    \ms{G}\l(\psi'\r)\circ f_2=f_3\circ\ms{F}\l(\phi'\r),\tag{$\,2\,$}
+\end{equation}$$
+respectively. The codomain of the morphisms on each side of $(\,1\,)$ is $\ms{G}\l(D_2\r)$, so we can compose $\ms{G}\l(\psi'\r)$, whose domain is $\ms{G}\l(D_2\r)$, on the left to obtain
+$$\begin{equation}
+    \begin{alignedat}{2}
+        \ms{G}\l(\psi'\r)\circ\l[\ms{G}\l(\psi\r)\circ f_1\r]&=\ms{G}\l(\psi'\r)\circ\l[f_2\circ\ms{F}\l(\phi\r)\r]&&(\,1\,)\\
+        \l[\ms{G}\l(\psi'\r)\circ\ms{G}\l(\psi\r)\r]\circ f_1&=\l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r)&&\axicat[1]\textrm{ of }\cat{E}\\
+        \ms{G}\l(\psi'\circ\psi\r)\circ f_1&=\l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r).\ \ \ \ \ \ \ \ &&\axifunctor[2]\textrm{ of }\ms{G}
+    \end{alignedat}
+\end{equation}$$
+For the right hand side of the last equation, we have
+$$\begin{equation}
+    \begin{alignedat}{2}
+        \l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r)&=\l[f_3\circ\ms{F}\l(\phi\r)'\r]\circ\ms{F}\l(\phi\r)&&(\,2\,)\\
+        &=f_3\circ\l[\ms{F}\l(\phi'\r)\circ\ms{F}\l(\phi\r)\r]\ \ \ \ \ \ \ \ &&\axicat[1]\textrm{ of }\cat{E}\\
+        &=f_3\circ\ms{F}\l(\phi'\circ\phi\r)&&\axifunctor[2]\textrm{ of }\ms{F}
+    \end{alignedat}
+\end{equation}$$
+and thus equality holds. It follows then that $\l\langle\phi'\circ\phi,\psi'\circ\psi\r\rangle$ is indeed a morphism from $\l\langle C_1,D_1,f_1\r\rangle$ to $\l\langle C_3,D_3,f_3\r\rangle$.<span style="float:right;">$\blacksquare$</span>
