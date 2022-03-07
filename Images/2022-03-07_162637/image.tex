@@ -1,0 +1,15 @@
+\documentclass[margin=20mm]{standalone}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\begin{document}
+    \begin{tikzcd}[column sep=3.6em, row sep=2.8em, color=textColor]
+        &
+            X \ar[dl, "f_1"'] \ar[d, "f_2" description, background color=bgColor] \ar[dr, "f_3"]&
+                \\
+        C_1 \ar[r, "\phi"'] \ar[rr, "\phi'\circ\phi"', bend right=30] &
+            C_2 \ar[r, "\phi'"'] & 
+                C_3
+    \end{tikzcd}
+\end{document}
