@@ -2,10 +2,10 @@
 <br />
 
 Date Created: 07/03/2022 16:24:13
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed 
 
 Proved by: _Not Applicable_
-Generalizations: _Not Applicable_
+Generalizations: [[Comma category is a category]]
 
 Converses: _Not Applicable_
 Counterexamples: _Not Applicable_

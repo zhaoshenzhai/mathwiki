@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "db17d52237ae0508",
+        "id": "ba2c1bcfa5c175fd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Coslice Category.md",
+            "file": "Notes/Category.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "22ca92e3b01913e5",
+        "id": "c71e96e521020189",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Slice Category.md",
+            "file": "Notes/Discrete Category.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Slice Category.md",
+                "file": "Notes/Discrete Category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Slice Category.md",
+                "file": "Notes/Discrete Category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.3453527922671318,
+                  "scale": 0.47995249423648156,
                   "close": true
                 }
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Slice Category.md",
+                "file": "Notes/Discrete Category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "22ca92e3b01913e5",
+  "active": "c71e96e521020189",
   "lastOpenFiles": [
+    "Notes/Discrete Category.md",
     "Notes/Slice Category.md",
-    "Notes/Coslice Category.md",
-    "Notes/Coslice category is a category.md",
-    "Notes/Slice category is a category.md",
-    "Notes/Functor.md",
+    "Notes/Strict Lexicographical Order.md",
+    "Notes/Thin Category.md",
+    "Notes/Preorder Category.md",
+    "Notes/Sets equipped with identities are discrete categories.md",
     "Notes/Category.md",
-    "Notes/Comma Category.md",
-    "Notes/Comma category is a category.md",
-    "Notes/Cartesian product of intersections.md",
-    "Notes/Universal Class.md"
+    "Notes/Preorder.md",
+    "Notes/Every set is a discrete category.md",
+    "Notes/Groupoid.md"
   ]
 }

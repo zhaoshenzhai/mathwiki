@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Automorphism (Category Theory)]]
 Examples: [[Identity morphism is an isomorphism]]
-Constructions: [[Groupoid]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Inverse of isomorphism is an isomorphism]], [[Composition of isomorphims are isomorphisms]], [[Isomorphism of objects is an equivalence relation]]

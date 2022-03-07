@@ -4,7 +4,7 @@
 Date Created: 21/02/2022 13:22:50
 Tags: #Definition #Open 
 
-Types: [[Thin Category]]
+Types: [[Thin Category]], [[Groupoid]]
 Examples: [[Category of Sets]], [[Category of Relations]]
 Constructions: [[Morphism (Category Theory)]], [[Functor]], [[Opposite Category]], [[Slice Category]], [[Coslice Category]], [[Comma Category]]
 Generalizations: _Not Applicable_
