@@ -13,22 +13,25 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$, $\cat{D}$, and $\cat{E}$ be categories and fix two functors $\ms{F}:\cat{C}\to\cat{E}$ and $\ms{G}:\cat{D}\to\cat{E}$. Then the comma category $\l(\ms{F}\downarrow\ms{G}\r)$ is a category._
+_Let $\cat{C}$, $\cat{D}$, and $\cat{E}$ be categories and fix two functors_
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-07_144906/image.svg", width=140></center>
+
+_Then the comma category $\l(\ms{F}\downarrow\ms{G}\r)$ is a category._
 
 ```
 
-_Proof_. It suffices to check that the identities and composite morphisms are well-defined since the axioms are inherited directly from that of $\cat{C}$ and $\cat{D}$.
-* Take $\l\langle C,D,f\r\rangle\in\obj\l(\ms{F}\downarrow\ms{G}\r)$ and consider the identity $\l\langle\id_C,\id_D\r\rangle$; we need to prove that $\ms{G}\l(\id_D\r)\circ f=f\circ\ms{F}\l(\id_C\r)$. From $\axifunctor[1]$ of $\ms{F}$, we see that $\ms{F}\l(\id_C\r)=\id_{\ms{F}\l(C\r)}$ which, by definition of $\ms{F}$, is a morphism in $\cat{E}$. Similarly, $\ms{G}\l(\id_D\r)=\id_{\ms{G}\l(D\r)}\in\hom\l(\cat{E}\r)$. Since $f$ is a morphism in $\cat{E}$ with $\dom f=\ms{F}\l(C\r)$ and $\cdm f=\ms{G}\l(D\r)$, the composition is defined and equality holds via $\axicat[2]$ of $\cat{E}$.
+_Proof_. It suffices to check that the identities and composite morphisms are well-defined since the axioms are inherited directly from that of $\cat{E}$ and $\cat{D}$.
+* Take $\l\langle E,D,f\r\rangle\in\obj\l(\ms{F}\downarrow\ms{G}\r)$ and consider the identity $\l\langle\id_E,\id_D\r\rangle$; we need to prove that $\ms{G}\l(\id_D\r)\circ f=f\circ\ms{F}\l(\id_E\r)$. From $\axifunctor[1]$ of $\ms{F}$, we see that $\ms{F}\l(\id_E\r)=\id_{\ms{F}\l(E\r)}$ which, by definition of $\ms{F}$, is a morphism in $\cat{C}$. Similarly, $\ms{G}\l(\id_D\r)=\id_{\ms{G}\l(D\r)}\in\hom\l(\cat{C}\r)$. Since $f$ is a morphism in $\cat{C}$ with $\dom f=\ms{F}\l(E\r)$ and $\cdm f=\ms{G}\l(D\r)$, the composition is defined and equality holds via $\axicat[2]$ of $\cat{C}$.
 
-* Take $\l\langle C_i,D_i,f_i\r\rangle\in\obj\l(\ms{F}\downarrow\ms{G}\r)$ for $i\in\l\{1,2,3\r\}$ and consider the morphisms
+* Take $\l\langle E_i,D_i,f_i\r\rangle\in\obj\l(\ms{F}\downarrow\ms{G}\r)$ for $i\in\l\{1,2,3\r\}$ and consider the morphisms
 $$\begin{equation}
-    \l\langle\phi,\psi\r\rangle:\l\langle C_1,D_1,f_1\r\rangle\to\l\langle C_2,D_2,f_2\r\rangle\ \ \ \ \textrm{and}\ \ \ \ \l\langle\phi',\psi'\r\rangle:\l\langle C_2,D_2,f_2\r\rangle\to\l\langle C_3,D_3,f_3\r\rangle\tag{$\ast$}
+    \l\langle\phi,\psi\r\rangle:\l\langle E_1,D_1,f_1\r\rangle\to\l\langle E_2,D_2,f_2\r\rangle\ \ \ \ \textrm{and}\ \ \ \ \l\langle\phi',\psi'\r\rangle:\l\langle E_2,D_2,f_2\r\rangle\to\l\langle E_3,D_3,f_3\r\rangle\tag{$\ast$}
 \end{equation}$$
-in $\hom\l(\ms{F}\downarrow\ms{G}\r)$; we need to prove that $\phi'\circ\phi\in\hom_\cat{C}\!\l(C_1,C_3\r)$, $\psi'\circ\psi\in\hom_\cat{D}\!\l(D_1,D_3\r)$, and that
+in $\hom\l(\ms{F}\downarrow\ms{G}\r)$; we need to prove that $\phi'\circ\phi\in\hom_\cat{C}\!\l(E_1,E_3\r)$, $\psi'\circ\psi\in\hom_\cat{D}\!\l(D_1,D_3\r)$, and that
 $$\begin{equation}
     \ms{G}\l(\psi'\circ\psi\r)\circ f_1=f_3\circ\ms{F}\l(\phi'\circ\phi\r).
 \end{equation}$$
-The first two are evident by the definition of the composite morphisms in $\cat{C}$ and $\cat{D}$. For the third, observe from the definition of ($\,\ast\,$) that
+The first two are evident by the definition of the composite morphisms in $\cat{E}$ and $\cat{D}$. For the third, observe from the definition of ($\,\ast\,$) that
 $$\begin{equation}
     \ms{G}\l(\psi\r)\circ f_1=f_2\circ\ms{F}\l(\phi\r)\tag{$\,1\,$}
 \end{equation}$$
@@ -52,4 +55,4 @@ $$\begin{equation}
         &=f_3\circ\ms{F}\l(\phi'\circ\phi\r)&&\axifunctor[2]\textrm{ of }\ms{F}
     \end{alignedat}
 \end{equation}$$
-and thus equality holds. It follows then that $\l\langle\phi'\circ\phi,\psi'\circ\psi\r\rangle$ is indeed a morphism from $\l\langle C_1,D_1,f_1\r\rangle$ to $\l\langle C_3,D_3,f_3\r\rangle$.<span style="float:right;">$\blacksquare$</span>
+and thus equality holds. It follows then that $\l\langle\phi'\circ\phi,\psi'\circ\psi\r\rangle$ is indeed a morphism from $\l\langle E_1,D_1,f_1\r\rangle$ to $\l\langle E_3,D_3,f_3\r\rangle$.<span style="float:right;">$\blacksquare$</span>
