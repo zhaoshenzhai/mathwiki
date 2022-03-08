@@ -6,10 +6,10 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: _Not Applicable_
+Constructions: [[Covariant Power Set Functor]]
 Generalizations: [[Image (Relation)]]
 
-Properties: _Not Applicable_
+Properties: [[Image of composition is image of image]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

@@ -9,19 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Image (Function).md",
+            "file": "Notes/Functor.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "c157328648b04830",
+        "id": "fd58bf7bc0bc71ef",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Image of composition is image of image.md",
+            "file": "Notes/Identity Functor.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Image of composition is image of image.md",
+                "file": "Notes/Identity Functor.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Image of composition is image of image.md",
+                "file": "Notes/Identity Functor.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Image of composition is image of image.md",
+                "file": "Notes/Identity Functor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "c157328648b04830",
+  "active": "fd58bf7bc0bc71ef",
   "lastOpenFiles": [
-    "Notes/Image of composition is image of image.md",
-    "Notes/Image (Function).md",
-    "Notes/Covariant Power Set Functor.md",
+    "Notes/Identity Functor.md",
+    "Notes/Identity Morphism.md",
+    "Notes/Function.md",
+    "Notes/Identity Function.md",
     "Notes/Functor.md",
     "Notes/Covariant power set functor is a functor.md",
+    "Notes/Covariant Power Set Functor.md",
+    "Notes/Image (Function).md",
     "Notes/Composition (Function).md",
-    "Notes/Slice category is a category.md",
-    "Notes/Inclusion Function.md",
-    "Notes/Criteria for equality of functions.md",
-    "Notes/Category.md"
+    "Notes/Image of composition is image of image.md"
   ]
 }
