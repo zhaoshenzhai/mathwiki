@@ -43,7 +43,7 @@ respectively. The codomain of the morphisms on each side of $(\,1\,)$ is $\ms{G}
 $$\begin{equation}
     \begin{alignedat}{2}
         \ms{G}\l(\psi'\r)\circ\l[\ms{G}\l(\psi\r)\circ f_1\r]&=\ms{G}\l(\psi'\r)\circ\l[f_2\circ\ms{F}\l(\phi\r)\r]&&(\,1\,)\\
-        \l[\ms{G}\l(\psi'\r)\circ\ms{G}\l(\psi\r)\r]\circ f_1&=\l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r)&&\axicat[1]\textrm{ of }\cat{E}\\
+        \l[\ms{G}\l(\psi'\r)\circ\ms{G}\l(\psi\r)\r]\circ f_1&=\l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r)&&\axicat[1]\textrm{ of }\cat{C}\\
         \ms{G}\l(\psi'\circ\psi\r)\circ f_1&=\l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r).\ \ \ \ \ \ \ \ &&\axifunctor[2]\textrm{ of }\ms{G}
     \end{alignedat}
 \end{equation}$$
@@ -51,7 +51,7 @@ For the right hand side of the last equation, we have
 $$\begin{equation}
     \begin{alignedat}{2}
         \l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r)&=\l[f_3\circ\ms{F}\l(\phi\r)'\r]\circ\ms{F}\l(\phi\r)&&(\,2\,)\\
-        &=f_3\circ\l[\ms{F}\l(\phi'\r)\circ\ms{F}\l(\phi\r)\r]\ \ \ \ \ \ \ \ &&\axicat[1]\textrm{ of }\cat{E}\\
+        &=f_3\circ\l[\ms{F}\l(\phi'\r)\circ\ms{F}\l(\phi\r)\r]\ \ \ \ \ \ \ \ &&\axicat[1]\textrm{ of }\cat{C}\\
         &=f_3\circ\ms{F}\l(\phi'\circ\phi\r)&&\axifunctor[2]\textrm{ of }\ms{F}
     \end{alignedat}
 \end{equation}$$
