@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Reflexive Closure]], [[Category of Sets]]
+Constructions: [[Reflexive Closure]], [[Category of Sets]], [[Identity Functor]]
 Generalizations: [[Identity Morphism]]
 
 Properties: [[Identity function is a bijection]], [[Composition with identities preserve functions]]

@@ -16,12 +16,12 @@
         }
       },
       {
-        "id": "fd58bf7bc0bc71ef",
+        "id": "7103b697ecf005b3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Identity Functor.md",
+            "file": "Notes/Composition (Functor).md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Identity Functor.md",
+                "file": "Notes/Functor.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Identity Functor.md",
+                "file": "Notes/Functor.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Identity Functor.md",
+                "file": "Notes/Functor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "fd58bf7bc0bc71ef",
+  "active": "0890b322e20ddd53",
   "lastOpenFiles": [
-    "Notes/Identity Functor.md",
-    "Notes/Identity Morphism.md",
-    "Notes/Function.md",
-    "Notes/Identity Function.md",
     "Notes/Functor.md",
+    "Notes/Identity Functor.md",
+    "Notes/Composition (Functor).md",
+    "Notes/Identity Function.md",
+    "Notes/Function.md",
     "Notes/Covariant power set functor is a functor.md",
-    "Notes/Covariant Power Set Functor.md",
-    "Notes/Image (Function).md",
-    "Notes/Composition (Function).md",
-    "Notes/Image of composition is image of image.md"
+    "Notes/Identity function is a function.md",
+    "Notes/Identity functor is a functor.md",
+    "Notes/Closed Interval.md",
+    "Notes/Covariant Power Set Functor.md"
   ]
 }

@@ -19,7 +19,7 @@ title: Definition.
 
 _Consider the category $\cat{Set}$. The **(covariant) power set functor on $\cat{Set}$** is the covariant functor $\ms{P}:\cat{Set}\to\cat{Set}$ defined by:_
 * _The class function $\ms{P}$ which sends each set $X$ to its power set $\pow\l(X\r)$._
-* _For all morphisms $f:X\to Y$, the function_
+* _For all sets $X$ and $Y$, the function_
 $$\begin{equation}
     \begin{aligned}
         \ms{P}:Y^X&\to\pow\l(Y\r)^{\pow\l(X\r)}\\
