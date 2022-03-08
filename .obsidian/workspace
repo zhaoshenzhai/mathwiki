@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0890b322e20ddd53",
+        "id": "8bf3e52dea72a1a8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Functor.md",
+            "file": "Notes/Category.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "7103b697ecf005b3",
+        "id": "79d2482b8d9a38c1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Composition (Functor).md",
+            "file": "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Functor.md",
+                "file": "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Functor.md",
+                "file": "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.23355394512705493,
+                  "scale": 0.08026902872725654,
                   "close": true
                 }
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Functor.md",
+                "file": "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "0890b322e20ddd53",
+  "active": "79d2482b8d9a38c1",
   "lastOpenFiles": [
-    "Notes/Functor.md",
-    "Notes/Identity Functor.md",
+    "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
+    "Notes/Axiom of Infinity.md",
+    "Notes/Category.md",
     "Notes/Composition (Functor).md",
-    "Notes/Identity Function.md",
-    "Notes/Function.md",
     "Notes/Covariant power set functor is a functor.md",
-    "Notes/Identity function is a function.md",
-    "Notes/Identity functor is a functor.md",
-    "Notes/Closed Interval.md",
-    "Notes/Covariant Power Set Functor.md"
+    "Notes/Image of composition is image of image.md",
+    "Notes/Covariant Power Set Functor.md",
+    "Notes/Power Set.md",
+    "Notes/Functor.md",
+    "Notes/Identity Functor.md"
   ]
 }

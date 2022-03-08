@@ -22,7 +22,8 @@ _The **theory of Zermelo-Fraenkel sets with Choice** is the theory $\axizfc$ spe
 * _$\axizfc[Prg]\bf{.}$ $\fa x\fa y\ex z\l(x\in z\land y\in z\r)$_
 * _$\axizfc[Unn]\bf{.}$ $\fa x\ex z\fa u\fa v\l[\l(u\in v\land v\in x\r)\Rightarrow u\in z\r]$._
 * _$\axizfc[Pow]\bf{.}$ $\fa x\ex z\fa v\l[\fa u\l(u\in v\Rightarrow u\in x\r)\Rightarrow v\in z\r]$._
-* _$\axizfc[Inf]\bf{.}$ $\ex z\l[\l[\l(\fa e\fa x\lnot\l(x\in e\r)\r)\Rightarrow e\in z\r]\land\l[\fa y\l(y\in z\Rightarrow\l(\fa s\fa x\l(x\in s\Leftrightarrow x\in y\lor x=y\r)\Rightarrow s\in z\r)\r)\r]\r]$._
+* _$\axizfc[Inf]\bf{.}$ $\ex z\l[\l[\ex e\l(\fa x\lnot\l(x\in e\r)\land e\in z\r)\r]\land\l[\fa y\l(y\in z\Rightarrow\ex s\l(\fa x\l(x\in s\Leftrightarrow x\in y\lor x=y\r)\land s\in z\r)\r)\r]\r].
+$._
 * _$\axizfc[Fdn]\bf{.}$_
 * _$\axizfc[Cho]\bf{.}$_
 * _$\axizfc[Spc]\bf{.}$ For any $\mc{L}$-logical formula $\phi\l(x\r)$ without $z$ free, _

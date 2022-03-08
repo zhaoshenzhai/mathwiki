@@ -29,7 +29,7 @@ _satisfying:_
 * _$\axifunctor[2]$ (Compositionality)$\bf{.}$ For all $X,Y,Z\in\obj\l(\cat{C}\r)$,_ $f\in\hom_\cat{C}\!\l(X,Y\r)$_, and_ $g\in\hom_\cat{C}\!\l(Y,Z\r)$_, the following diagram commutes._
   <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-06_160504/image.svg", width=300></center>
 
-    _That is,_ $\ms{F}_\textrm{Hom}\l(g\circ f\r)=\ms{F}_\textrm{Hom}\l(g\r)\circ\ms{F}_\textrm{Hom}\l(f\r)$ _where the $\textrm{`}\circ\textrm{'}$ on the left hand side is the composition on $\cat{C}$ and the $\textrm{`}\circ\textrm{'}$ on the right hand side is the composition on $\cat{D}$._
+    _That is,_ $\ms{F}_\textrm{Hom}\l(g\circ_\cat{C}f\r)=\ms{F}_\textrm{Hom}\l(g\r)\circ_\cat{D}\ms{F}_\textrm{Hom}\l(f\r)$_._
 
 ```
 
