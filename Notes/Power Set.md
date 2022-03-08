@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Lattice of Subsets]]
+Constructions: [[Lattice of Subsets]], [[Covariant Power Set Functor]]
 Generalizations: _Not Applicable_
 
 Properties: [[Power set is monotone w.r.t. subsets]], [[Power set distributes over intersection]]

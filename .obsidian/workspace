@@ -4,48 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "6cd40b598bca8ccd",
+        "id": "0890b322e20ddd53",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Category.md",
+            "file": "Notes/Image (Function).md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "f7ee7c6a252ec3a3",
+        "id": "c157328648b04830",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Comma Category.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "1444a5dc6118e06a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Comma category is a category.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "41502ff218a1fec1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Slice Category.md",
+            "file": "Notes/Image of composition is image of image.md",
             "mode": "preview",
             "source": true
           }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Comma category is a category.md",
+                "file": "Notes/Image of composition is image of image.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Comma category is a category.md",
+                "file": "Notes/Image of composition is image of image.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -193,7 +169,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.47995249423648156,
+                  "scale": 0.23355394512705493,
                   "close": true
                 }
               }
@@ -205,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Comma category is a category.md",
+                "file": "Notes/Image of composition is image of image.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "1444a5dc6118e06a",
+  "active": "c157328648b04830",
   "lastOpenFiles": [
-    "Notes/Comma category is a category.md",
-    "Notes/Comma Category.md",
-    "Notes/Slice Category.md",
-    "Notes/Category.md",
-    "Notes/Thin Category.md",
-    "Notes/Preorder Category.md",
-    "Notes/Groupoid.md",
-    "Notes/Discrete Category.md",
-    "Notes/Strict Lexicographical Order.md",
-    "Notes/Sets equipped with identities are discrete categories.md"
+    "Notes/Image of composition is image of image.md",
+    "Notes/Image (Function).md",
+    "Notes/Covariant Power Set Functor.md",
+    "Notes/Functor.md",
+    "Notes/Covariant power set functor is a functor.md",
+    "Notes/Composition (Function).md",
+    "Notes/Slice category is a category.md",
+    "Notes/Inclusion Function.md",
+    "Notes/Criteria for equality of functions.md",
+    "Notes/Category.md"
   ]
 }

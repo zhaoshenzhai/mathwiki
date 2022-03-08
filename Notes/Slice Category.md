@@ -11,7 +11,7 @@ Generalizations: [[Comma Category]]
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Slice category is comma category of identity over discrete]]
 Justifications: [[Slice category is a category]]
 
 ``` ad-Definition
