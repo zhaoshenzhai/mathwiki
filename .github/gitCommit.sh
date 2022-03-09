@@ -10,7 +10,7 @@ cd ~/MathWiki/Notes
 
 numNotes=$(ls | wc -l)
 numDoubleLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | wc -l)
-numMathLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[.*\]\(.*\)" | wc -l)
+numMathLinks=$(sed 's/),\ /)\n/g' * | grep -Po "\[.*\]\(.*\)" | wc -l)
 numLinks=$(($numDoubleLinks + $numMathLinks))
 
 cd ..
