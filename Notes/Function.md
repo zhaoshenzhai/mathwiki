@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Injection]], [[Surjection]]
 Examples: [[Identity Function]], [[Inclusion Function]]
-Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Left Inverse (Function)]], [[Right Inverse (Function)]], [[Function Space (Set Theory)]], [[Category of Sets]]
+Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Left Inverse (Function)]], [[Right Inverse (Function)]], [[Function Space (Set Theory)]], [$\cat{Set}$](Category%20of%20Sets.md)
 Generalizations: [[Morphism (Category Theory)]]
 
 Properties: [[Collection of all functions is a proper class]]

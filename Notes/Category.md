@@ -5,7 +5,7 @@ Date Created: 21/02/2022 13:22:50
 Tags: #Definition #Open 
 
 Types: [[Thin Category]], [[Groupoid]]
-Examples: [[Category of Sets]], [[Category of Relations]]
+Examples: [$\cat{Set}$](Category%20of%20Sets.md), [$\cat{Rel}$](Category%20of%20Relations.md)
 Constructions: [[Morphism (Category Theory)]], [[Functor]], [[Opposite Category]], [[Slice Category]], [[Coslice Category]]
 Generalizations: _Not Applicable_
 

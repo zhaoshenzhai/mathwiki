@@ -1,3 +1,7 @@
+---
+alias: auto_aliasing
+---
+
 <br />
 <br />
 
@@ -12,7 +16,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Category of sets is a category]]
+Justifications: [$\cat{Set}$ is a category](Category%20of%20sets%20is%20a%20category.md)
 
 ``` ad-Definition
 title: Definition.

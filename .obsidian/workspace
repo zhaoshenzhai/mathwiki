@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3adf6dbc07df0d0c",
+        "id": "465cf20c95e1dbc7",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Category.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "3adf6dbc07df0d0c",
+  "active": "465cf20c95e1dbc7",
   "lastOpenFiles": [
-    "Notes/Axiom of Extensionality.md",
-    "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
-    "Notes/Axiom Schema of Replacement.md",
-    "Notes/Class.md",
-    "Notes/Class Function.md",
-    "Notes/Replacement image of a set is a set.md",
-    "Notes/Formula in replacement image constructs a function.md",
-    "Notes/Replacement Image.md",
     "Notes/Category.md",
-    "Notes/Functor.md"
+    "Notes/Category of Relations.md",
+    "Notes/Binary Relation.md",
+    "Notes/Category of Sets.md",
+    "Notes/Category of sets is a category.md",
+    "Notes/Untitled.md",
+    "Notes/Subset relation is transitive.md",
+    "Notes/Comma Category.md",
+    "Notes/Covariant Power Set Functor.md",
+    "Notes/Class Function.md"
   ]
 }

@@ -1,10 +1,14 @@
+---
+alias: auto_aliasing
+---
+
 <br />
 <br />
 
 Date Created: 25/02/2022 13:16:20
 Tags: #Proposition #Closed 
 
-Proved by: [[Category of sets is a category]]
+Proved by: [$\cat{Set}$ is a category](Category%20of%20sets%20is%20a%20category.md)
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

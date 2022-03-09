@@ -8,14 +8,16 @@ NC='\033[0m'
 
 Math()
 {
-    local r=$(echo "$1" | sed -E 's/\bR\b/\$\\R\$/g')                       # Real numbers
-    local r=$(echo "$r" | sed -E 's/\bN\b/\$\\N\$/g')                       # Natural numbers
-    local r=$(echo "$r" | sed -E 's/\bR2\b/\$\\R\^2\$/g')                   # Real numbers squared
-    local r=$(echo "$r" | sed -E 's/\bN2\b/\$\\N\^2\$/g')                   # Natural numbers squared
-    local r=$(echo "$r" | sed -E 's/\bimplies\b/\$\\Rightarrow\$/g')        # Implies
-    local r=$(echo "$r" | sed -E 's/\biff\b/\$\\Leftrightarrow\$/g')        # Equivalence
-    local r=$(echo "$r" | sed -E 's/\bON\b/\$\\textrm\{ON\}\$/g')           # Class of ordinals
-    local r=$(echo "$r" | sed -E 's/\bK\b/\$K\$/g')                         # K topology
+    local r=$(echo "$1" | sed -E 's/\bR\b/\$\\R\$/g')                                   # Real numbers
+    local r=$(echo "$r" | sed -E 's/\bN\b/\$\\N\$/g')                                   # Natural numbers
+    local r=$(echo "$r" | sed -E 's/\bR2\b/\$\\R\^2\$/g')                               # Real numbers squared
+    local r=$(echo "$r" | sed -E 's/\bN2\b/\$\\N\^2\$/g')                               # Natural numbers squared
+    local r=$(echo "$r" | sed -E 's/\bimplies\b/\$\\Rightarrow\$/g')                    # Implies
+    local r=$(echo "$r" | sed -E 's/\biff\b/\$\\Leftrightarrow\$/g')                    # Equivalence
+    local r=$(echo "$r" | sed -E 's/\bON\b/\$\\textrm\{ON\}\$/g')                       # Class of ordinals
+    local r=$(echo "$r" | sed -E 's/\bK\b/\$K\$/g')                                     # K topology
+    local r=$(echo "$r" | sed -E 's/\bCategory\sof\sSets\b/\$\\cat{Set}\$/gI')          # Category of Sets
+    local r=$(echo "$r" | sed -E 's/\bCategory\sof\sRelations\b/\$\\cat{Rel}\$/gI')     # Category of Sets
     echo "$r"
 }
 
@@ -109,7 +111,7 @@ while [ ! -z "$1" ]; do
                         alias=$(echo "$currentFile" | sed 's/^.*:\ //g')
                         left=$(echo "["$alias"]" | sed 's/.md//g')
                     else
-                        left="["$(Math "$currentTemp")"]"
+                        left="["$(Math "$currentTemp" | sed 's/.md//g')"]"
                     fi
 
                     right=${allDoubleCurrent%%$'\n'*}

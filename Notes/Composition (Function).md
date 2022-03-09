@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Category of Sets]]
+Constructions: [$\cat{Set}$](Category%20of%20Sets.md)
 Generalizations: [[Composition (Relation)]]
 
 Properties: [[Composition with identities preserve functions]], [[Composition of bijections is a bijection]]
