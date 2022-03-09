@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category a fix a morphism $f:X\to Y$. A morphism $h:Y\to X$ is a **right-inverse of $f$** if the diagram_
+_Let $\cat{C}$ be a category a fix a morphism $f:X\to Y$. A morphism $h:Y\to X$ is a **right inverse of $f$** if the diagram_
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-09_223408/image.svg", width=100></center>
 
 _commutes; that is, if $f\circ h=\id_Y$._

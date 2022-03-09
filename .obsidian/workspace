@@ -4,36 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f27e6162dc9b3e64",
+        "id": "205d1e00dc1dd450",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Slice category is comma category of identity over inclusion.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "83f04e4f847f993c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Composition with identities preserve functors.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "bb3b8a7deeddc020",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Composition with identities preserve functions.md",
+            "file": "Notes/Isomorphism of Categories.md",
             "mode": "preview",
             "source": true
           }
@@ -97,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Composition with identities preserve functors.md",
+                "file": "Notes/Isomorphism of Categories.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Composition with identities preserve functors.md",
+                "file": "Notes/Isomorphism of Categories.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -193,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Composition with identities preserve functors.md",
+                "file": "Notes/Isomorphism of Categories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "83f04e4f847f993c",
+  "active": "205d1e00dc1dd450",
   "lastOpenFiles": [
-    "Notes/Composition with identities preserve functors.md",
-    "Notes/Composition with identities preserve functions.md",
+    "Notes/Isomorphism of Categories.md",
     "Notes/Slice category is comma category of identity over inclusion.md",
-    "Notes/Composition (Functor).md",
-    "Notes/Identity Function.md",
-    "Notes/Identity Functor.md",
-    "Notes/Functor.md",
-    "Notes/Class Function.md",
-    "Notes/Covariant power set functor is a functor.md",
-    "Notes/Identity functor is a functor.md"
+    "Notes/Inverse (Functor).md",
+    "Notes/Right Inverse (Functor).md",
+    "Notes/Left inverse (Functor).md",
+    "Notes/Isomorphism (Category Theory).md",
+    "Notes/Inverse (Function).md",
+    "Notes/Inverse (Morphism).md",
+    "Notes/Bijection.md",
+    "Notes/Isomorphism (Set Theory).md"
   ]
 }

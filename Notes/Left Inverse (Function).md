@@ -7,7 +7,7 @@ Tags: #Definition #Closed
 Types: _Not Applicable_
 Examples: _Not Applicable_
 Constructions: [[Inverse (Function)]]
-Generalizations: [[Left Inverse (Morphism)]]
+Generalizations: [[Left Inverse (Morphism)]], [[Left inverse (Functor)]]
 
 Properties: [[Left and right inverses coincide (Function)]]
 Sufficiencies: _Not Applicable_
