@@ -18,7 +18,7 @@ Justifications: [[Covariant power set functor is a functor]]
 title: Definition.
 
 _Consider the category $\cat{Set}$. The **(covariant) power set functor on $\cat{Set}$** is the covariant functor $\ms{P}:\cat{Set}\to\cat{Set}$ defined by:_
-* _The class function $\ms{P}$ which sends each set $X$ to its power set $\pow\l(X\r)$._
+* _The (class) function $\ms{P}$ which sends each set $X$ to its power set $\pow\l(X\r)$._
 * _For all sets $X$ and $Y$, the function_
 $$\begin{equation}
     \begin{aligned}

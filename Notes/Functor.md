@@ -15,7 +15,7 @@ Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
 ``` ad-Definition
-title: Definition.
+title: Definition (Informal).
 
 _Let $\cat{C}$ and $\cat{D}$ be categories. A **(covariant) functor $\ms{F}$ from $\cat{C}$ to $\cat{D}$** consists of the data of_
 * _ a (class) function_ $\ms{F}_\textrm{Obj}:\obj\l(\cat{C}\r)\to\obj\l(\cat{D}\r)$ _and,_

@@ -18,7 +18,7 @@ Justifications: _Not Applicable_
 title: Definition.
 
 _Let $\cat{C}$, $\cat{D}$, and $\cat{E}$ be categories and consider two functors $\ms{F}:\cat{C}\to\cat{D}$ and $\ms{G}:\cat{D}\to\cat{E}$. The **composite functor of $\ms{G}$ after $\ms{F}$** is the functor $\ms{G}\circ\ms{F}:\cat{C}\to\cat{E}$ defined by:_
-* _The class function_ $\l(\ms{G}\circ\ms{F}\r)_\textrm{Obj}$ _which sends each $X\in\obj\l(\cat{C}\r)$ to_ $\ms{G}_\textrm{Obj}\l(\ms{F}_\textrm{Obj}\l(X\r)\r)$_._
+* _The (class) function_ $\l(\ms{G}\circ\ms{F}\r)_\textrm{Obj}$ _which sends each $X\in\obj\l(\cat{C}\r)$ to_ $\ms{G}_\textrm{Obj}\l(\ms{F}_\textrm{Obj}\l(X\r)\r)$_._
 * _For all objects $X,Y\in\obj\l(\cat{C}\r)$, the function_
 $$\begin{equation}
     \begin{aligned}

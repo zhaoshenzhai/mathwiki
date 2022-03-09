@@ -16,3 +16,5 @@ $$\begin{equation}
 \end{equation}$$
 
 ```
+
+**Remark.** If $\phi\l(x,y\r)$ is thought of as a class function and $\dom\phi\l(x,y\r)$ is some set $v$, then Replacement asserts that the image of the function $f$ defined by $\phi\l(x,y\r)$ is a set.<span style="float:right;">$\blacklozenge$</span>

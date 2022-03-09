@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8bf3e52dea72a1a8",
+        "id": "57b0769aa52eb159",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Category.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "79d2482b8d9a38c1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
+            "file": "Notes/Axiom Schema of Replacement.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
+                "file": "Notes/Axiom Schema of Replacement.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
+                "file": "Notes/Axiom Schema of Replacement.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
+                "file": "Notes/Axiom Schema of Replacement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "79d2482b8d9a38c1",
+  "active": "57b0769aa52eb159",
   "lastOpenFiles": [
-    "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
-    "Notes/Axiom of Infinity.md",
+    "Notes/Axiom Schema of Replacement.md",
+    "Notes/Class.md",
+    "Notes/Class Function.md",
+    "Notes/Replacement image of a set is a set.md",
+    "Notes/Formula in replacement image constructs a function.md",
+    "Notes/Replacement Image.md",
     "Notes/Category.md",
-    "Notes/Composition (Functor).md",
-    "Notes/Covariant power set functor is a functor.md",
-    "Notes/Image of composition is image of image.md",
-    "Notes/Covariant Power Set Functor.md",
-    "Notes/Power Set.md",
     "Notes/Functor.md",
-    "Notes/Identity Functor.md"
+    "Notes/Identity Functor.md",
+    "Notes/Covariant Power Set Functor.md"
   ]
 }

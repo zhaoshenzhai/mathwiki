@@ -18,7 +18,7 @@ Justifications: [[Identity functor is a functor]]
 title: Definition.
 
 _Let $\cat{C}$ be a category. The **identity functor on $\cat{C}$** is the covariant functor_ $\Id_\cat{C}:\cat{C}\to\cat{C}$ _defined by:_
-* _The identity class function which sends each object $X\in\obj\l(\cat{C}\r)$ to itself._
+* _The identity (class) function which sends each object $X\in\obj\l(\cat{C}\r)$ to itself._
 * _For all objects $X,Y\in\obj\l(\cat{C}\r)$, the identity function_
 $$\begin{equation}
     \begin{aligned}
