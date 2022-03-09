@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: _Not Applicable_
+Constructions: [[Inclusion Functor]]
 Generalizations: _Not Applicable_
 
 Properties: [[Inclusion function is an injection]]
@@ -19,7 +19,7 @@ title: Definition.
 
 _Let $X$ be a set and fix $S\subseteq X$. The **inclusion function of $S$ into $X$** is the function_
 $$\begin{equation}
-    \iota:S\to X\ \ \ \ \textit{mapping}\ \ \ \ x\mapsto\id_X\l(x\r)
+    \iota:S\to X\ \ \ \ \textit{mapping}\ \ \ \ x\mapsto\id_X\l(x\r)=x
 \end{equation}$$
 _for every $x\in S$._
 

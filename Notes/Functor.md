@@ -5,7 +5,7 @@ Date Created: 06/03/2022 15:11:37
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Identity Functor]], [[Covariant Power Set Functor]]
+Examples: [[Identity Functor]], [[Inclusion Functor]], [[Covariant Power Set Functor]]
 Constructions: [[Composition (Functor)]], [[Comma Category]]
 Generalizations: _Not Applicable_
 
