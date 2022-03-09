@@ -9,7 +9,31 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Composition (Functor).md",
+            "file": "Notes/Slice category is comma category of identity over inclusion.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "83f04e4f847f993c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Composition with identities preserve functors.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "bb3b8a7deeddc020",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Composition with identities preserve functions.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Composition (Functor).md",
+                "file": "Notes/Composition with identities preserve functors.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Composition (Functor).md",
+                "file": "Notes/Composition with identities preserve functors.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Composition (Functor).md",
+                "file": "Notes/Composition with identities preserve functors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f27e6162dc9b3e64",
+  "active": "83f04e4f847f993c",
   "lastOpenFiles": [
-    "Notes/Composition (Functor).md",
     "Notes/Composition with identities preserve functors.md",
-    "Notes/Functor.md",
-    "Notes/Identity Functor.md",
-    "Notes/Class Function.md",
     "Notes/Composition with identities preserve functions.md",
+    "Notes/Slice category is comma category of identity over inclusion.md",
+    "Notes/Composition (Functor).md",
+    "Notes/Identity Function.md",
+    "Notes/Identity Functor.md",
+    "Notes/Functor.md",
+    "Notes/Class Function.md",
     "Notes/Covariant power set functor is a functor.md",
-    "Notes/Identity functor is a functor.md",
-    "Notes/Comma category is a category.md",
-    "Notes/Composition (Function).md"
+    "Notes/Identity functor is a functor.md"
   ]
 }
