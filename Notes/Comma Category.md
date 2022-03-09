@@ -17,7 +17,7 @@ Justifications: [[Comma category is a category]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$, $\cat{D}$, and $\cat{E}$ be categories and fix two functors_
+_Let $\cat{C}$, $\cat{D}$, and $\cat{E}$ be categories and fix two covariant functors_
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-07_144906/image.svg", width=140></center>
 
 _The **comma category of $\ms{F}$ over $\ms{G}$** is the category $\l(\ms{F}\downarrow\ms{G}\r)$ defined by the following data:_
