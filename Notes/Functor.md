@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Identity Functor]], [[Inclusion Functor]], [[Covariant Power Set Functor]]
-Constructions: [[Composition (Functor)]], [[Comma Category]]
+Constructions: [[Composition (Functor)]], [[Left inverse (Functor)]], [[Right Inverse (Functor)]], [[Comma Category]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

@@ -5,7 +5,7 @@ Date Created: 06/03/2022 16:54:42
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Slice category is comma category of identity over inclusion]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
