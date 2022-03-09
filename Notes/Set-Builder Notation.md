@@ -17,7 +17,7 @@ Justifications: [[Set-builder notation is unique]]
 ``` ad-Definition
 title: Definition.
 
-_Let $z$ be the set asserted by the Axiom Schema of Specification, that is, let $z$ be a set such that there exists a set $v$ and a formula $\phi\l(x\r)$, not free in $z$, such that $\fa x\l[x\in z\Leftrightarrow\l(x\in v\land\phi\l(x\r)\r)\r]$. Then the set $z$ can be written in **set-builder notation** as_
+_Let $z$ be the set asserted by the Axiom Schema of Specification; that is, let $z$ be a set such that there exists a set $v$ and a formula $\phi\l(x\r)$, not free in $z$, such that $\fa x\l[x\in z\Leftrightarrow\l(x\in v\land\phi\l(x\r)\r)\r]$. Then the set $z$ can be written in **set-builder notation** as_
 $$\begin{equation}
     \l\{x\mid x\in v\land\phi\l(x\r)\r\}\ \ \ \ \ \ \ \ \textit{or}\ \ \ \ \ \ \ \ \l\{x\in v\mid\phi\l(x\r)\r\}.
 \end{equation}$$

@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "465cf20c95e1dbc7",
+        "id": "c7449282fbedeca6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Category.md",
+            "file": "Notes/Slice Category.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "6beb8bd07f6d9fa2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Comma Category.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Category.md",
+                "file": "Notes/Comma Category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Category.md",
+                "file": "Notes/Comma Category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Category.md",
+                "file": "Notes/Comma Category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "465cf20c95e1dbc7",
+  "active": "6beb8bd07f6d9fa2",
   "lastOpenFiles": [
-    "Notes/Category.md",
-    "Notes/Category of Relations.md",
-    "Notes/Binary Relation.md",
-    "Notes/Category of Sets.md",
-    "Notes/Category of sets is a category.md",
-    "Notes/Untitled.md",
-    "Notes/Subset relation is transitive.md",
     "Notes/Comma Category.md",
-    "Notes/Covariant Power Set Functor.md",
-    "Notes/Class Function.md"
+    "Notes/Bounded Poset.md",
+    "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
+    "Notes/Slice Category.md",
+    "Notes/Axiom of Union.md",
+    "Notes/Slice category is comma category of identity over discrete.md",
+    "Notes/Category of relations is a category.md",
+    "Notes/Category of Relations.md",
+    "Notes/Category.md",
+    "Notes/Category of Sets.md"
   ]
 }

@@ -20,6 +20,6 @@ title: Definition.
 _Let $\cat{C}$ be a category a fix a morphism $f:X\to Y$. A morphism $g:Y\to X$ is a **left-inverse of $f$** if the diagram_
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-09_223050/image.svg", width=100></center>
 
-_commutes, that is, if $g\circ f=\id_X$._
+_commutes; that is, if $g\circ f=\id_X$._
 
 ```

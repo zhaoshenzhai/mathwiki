@@ -22,8 +22,8 @@ Justifications: [$\cat{Set}$ is a category](Category%20of%20sets%20is%20a%20cate
 title: Definition.
 
 _The **category of sets** is the category $\cat{Set}$ defined by the following data:_
-* _The objects are sets, that is, $\obj\l(\cat{Set}\r)\coloneqq V$ where $V$ is the universal class._
-* _For all sets $X$ and $Y$, the morphisms from $X$ to $Y$ are functions_ $\l\langle\Gamma_{\mathclap{f}}\ ,X,Y\r\rangle$_, that is, $\hom\l(X,Y\r)\coloneqq Y^X$._
+* _The objects are sets; that is, $\obj\l(\cat{Set}\r)\coloneqq V$ where $V$ is the universal class._
+* _For all sets $X$ and $Y$, the morphisms from $X$ to $Y$ are functions_ $\l\langle\Gamma_{\mathclap{f}}\ ,X,Y\r\rangle$_; that is, $\hom\l(X,Y\r)\coloneqq Y^X$._
 * _For all sets $X$, the identity morphism on $X$ is the identity function $\id_X:X\to X$._
 * _For all functions $g:Y\to Z$ and $f:X\to Y$, the composite morphism of $g$ after $f$ is the composite function $g\circ f:X\to Z$._
 

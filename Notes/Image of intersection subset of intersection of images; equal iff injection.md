@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a binary relation and fix a non-empty subset $\mc{A}\subseteq\pow\l(\dom R\r)$, that is, fix a non-empty collection of subsets of $\dom R$. Then_
+_Let $R$ be a binary relation and fix a non-empty subset $\mc{A}\subseteq\pow\l(\dom R\r)$; that is, fix a non-empty collection of subsets of $\dom R$. Then_
 $$\begin{equation}
     \im_R\l(\bigcap\mc{A}\r)\subseteq\bigcap\l\{\im_R\l(A\r)\mid A\in\mc{A}\r\}.
 \end{equation}$$

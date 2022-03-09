@@ -37,6 +37,6 @@ $$\begin{equation}
 
 ```
 
-**Remark.** We can quantify $\textrm{`}$within sets$\textrm{'}$, that is, for any set $x$ and formula $\phi\l(u\r)$, write
+**Remark.** We can quantify $\textrm{`}$within sets$\textrm{'}$; that is, for any set $x$ and formula $\phi\l(u\r)$, write
 * $\l(\fa u\in x\r)\phi\l(u\r)$ or $\fa u\in x:\phi\l(u\r)$ for the formula $\fa u\l[u\in x\Rightarrow\phi\l(u\r)\r]$, and write
 * $\l(\ex u\in x\r)\phi\l(u\r)$ or $\ex u\in x:\phi\l(u\r)$ for the formula $\ex u\l[u\in x\land\phi\l(u\r)\r]$.<span style="float:right;">$\blacklozenge$</span>

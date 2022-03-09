@@ -23,7 +23,7 @@ title: Definition.
 
 _The **category of relations** is the category $\cat{Rel}$ defined by the following data:_
 * _The objects are pairs $\l\langle X,\rho\r\rangle$ where $X$ is a set and $\rho$ is a (binary) relation on $X$._
-* _For all $\cat{Rel}$-objects $\l\langle X,\rho\r\rangle$ and $\l\langle Y,\sigma\r\rangle$, the morphisms from $\l\langle X,\rho\r\rangle$ to $\l\langle Y,\sigma\r\rangle$ are relation-preserving functions $f:X\to Y$, that is,_
+* _For all $\cat{Rel}$-objects $\l\langle X,\rho\r\rangle$ and $\l\langle Y,\sigma\r\rangle$, the morphisms from $\l\langle X,\rho\r\rangle$ to $\l\langle Y,\sigma\r\rangle$ are relation-preserving functions $f:X\to Y$; that is,_
 $$\begin{equation}
     \hom\l(\l\langle X,\rho\r\rangle,\l\langle Y,\sigma\r\rangle\r)\coloneqq\l\{f\in Y^X\mid\fa x_1,x_2\in X:\l\langle x_1,x_2\r\rangle\in \rho\Rightarrow\l\langle f\l(x_1\r),f\l(x_2\r)\r\rangle\in\sigma\r\}.
 \end{equation}$$

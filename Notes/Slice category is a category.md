@@ -22,7 +22,7 @@ _Proof_. It suffices to check that the identities and composite morphisms are we
 * Take $\l\langle C_i,f_i\r\rangle\in\obj\l(\cat{C}\downarrow X\r)$ for $i\in\l\{1,2,3\r\}$ and consider the morphisms $\phi:C_1\to C_2$ and $\phi':C_2\to C_3$; we need to prove that the diagram
     <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-25_175305/image.svg", width=220></center>
 
-    commutes, that is, we need $f_1=f_3\circ\l(\phi'\circ\phi\r)$. To do so, observe that$$\begin{alignat}{2}
+    commutes; that is, we need $f_1=f_3\circ\l(\phi'\circ\phi\r)$. To do so, observe that$$\begin{alignat}{2}
         f_1&=f_2\circ\phi&&\phi\in\hom\l(\l\langle C_1,f_1\r\rangle,\l\langle C_2,f_2\r\rangle\r)\\
         &=\l(f_3\circ\phi'\r)\circ\phi&&\phi'\in\hom\l(\l\langle C_2,f_2\r\rangle,\l\langle C_3,f_3\r\rangle\r)\\
         &=f_3\circ\l(\phi'\circ\phi\r).\ \ \ \ \ \ \ \ &&\axicat[1]\textrm{ of }\cat{C}\qedin
