@@ -28,34 +28,29 @@ $$\begin{equation}
     \l\langle\phi,\psi\r\rangle:\l\langle E_1,D_1,f_1\r\rangle\to\l\langle E_2,D_2,f_2\r\rangle\ \ \ \ \textrm{and}\ \ \ \ \l\langle\phi',\psi'\r\rangle:\l\langle E_2,D_2,f_2\r\rangle\to\l\langle E_3,D_3,f_3\r\rangle\tag{$\ast$}
 \end{equation}$$
 in $\hom\l(\ms{F}\downarrow\ms{G}\r)$; we need to prove that $\phi'\circ\phi\in\hom_\cat{C}\!\l(E_1,E_3\r)$, $\psi'\circ\psi\in\hom_\cat{D}\!\l(D_1,D_3\r)$, and that the diagram
-  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-09_101429/image.svg"></center>
+  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-09_101429/image.svg", width=350></center>
 
-commutes; that is, that
-$$\begin{equation}
-    \ms{G}\l(\psi'\circ\psi\r)\circ f_1=f_3\circ\ms{F}\l(\phi'\circ\phi\r).
-\end{equation}$$
-The first two are evident by the definition of the composite morphisms in $\cat{E}$ and $\cat{D}$. For the third, observe from the definition of ($\,\ast\,$) that
-$$\begin{equation}
-    \ms{G}\l(\psi\r)\circ f_1=f_2\circ\ms{F}\l(\phi\r)\tag{$\,1\,$}
-\end{equation}$$
-and
-$$\begin{equation}
-    \ms{G}\l(\psi'\r)\circ f_2=f_3\circ\ms{F}\l(\phi'\r),\tag{$\,2\,$}
-\end{equation}$$
-respectively. The codomain of the morphisms on each side of $(\,1\,)$ is $\ms{G}\l(D_2\r)$, so we can compose $\ms{G}\l(\psi'\r)$, whose domain is $\ms{G}\l(D_2\r)$, on the left to obtain
-$$\begin{equation}
-    \begin{alignedat}{2}
-        \ms{G}\l(\psi'\r)\circ\l[\ms{G}\l(\psi\r)\circ f_1\r]&=\ms{G}\l(\psi'\r)\circ\l[f_2\circ\ms{F}\l(\phi\r)\r]&&(\,1\,)\\
-        \l[\ms{G}\l(\psi'\r)\circ\ms{G}\l(\psi\r)\r]\circ f_1&=\l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r)&&\axicat[1]\textrm{ of }\cat{C}\\
-        \ms{G}\l(\psi'\circ\psi\r)\circ f_1&=\l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r).\ \ \ \ \ \ \ \ &&\axifunctor[2]\textrm{ of }\ms{G}
-    \end{alignedat}
-\end{equation}$$
-For the right hand side of the last equation, we have
-$$\begin{equation}
-    \begin{alignedat}{2}
-        \l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r)&=\l[f_3\circ\ms{F}\l(\phi\r)'\r]\circ\ms{F}\l(\phi\r)&&(\,2\,)\\
-        &=f_3\circ\l[\ms{F}\l(\phi'\r)\circ\ms{F}\l(\phi\r)\r]\ \ \ \ \ \ \ \ &&\axicat[1]\textrm{ of }\cat{C}\\
-        &=f_3\circ\ms{F}\l(\phi'\circ\phi\r)&&\axifunctor[2]\textrm{ of }\ms{F}
-    \end{alignedat}
-\end{equation}$$
-and thus equality holds. It follows then that $\l\langle\phi'\circ\phi,\psi'\circ\psi\r\rangle$ is indeed a morphism from $\l\langle E_1,D_1,f_1\r\rangle$ to $\l\langle E_3,D_3,f_3\r\rangle$.<span style="float:right;">$\blacksquare$</span>
+  commutes; that is, that$$\begin{equation}
+      \ms{G}\l(\psi'\circ\psi\r)\circ f_1=f_3\circ\ms{F}\l(\phi'\circ\phi\r).
+  \end{equation}$$
+  The first two are evident by the definition of the composite morphisms in $\cat{E}$ and $\cat{D}$. For the third, observe from the definition of ($\,\ast\,$) that$$\begin{equation}
+      \ms{G}\l(\psi\r)\circ f_1=f_2\circ\ms{F}\l(\phi\r)\tag{$\,1\,$}
+  \end{equation}$$
+  and$$\begin{equation}
+      \ms{G}\l(\psi'\r)\circ f_2=f_3\circ\ms{F}\l(\phi'\r),\tag{$\,2\,$}
+  \end{equation}$$
+  respectively. The codomain of the morphisms on each side of $(\,1\,)$ is $\ms{G}\l(D_2\r)$, so we can compose $\ms{G}\l(\psi'\r)$, whose domain is $\ms{G}\l(D_2\r)$, on the left to obtain$$\begin{equation}
+      \begin{alignedat}{2}
+          \ms{G}\l(\psi'\r)\circ\l[\ms{G}\l(\psi\r)\circ f_1\r]&=\ms{G}\l(\psi'\r)\circ\l[f_2\circ\ms{F}\l(\phi\r)\r]&&(\,1\,)\\
+          \l[\ms{G}\l(\psi'\r)\circ\ms{G}\l(\psi\r)\r]\circ f_1&=\l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r)&&\axicat[1]\textrm{ of }\cat{C}\\
+          \ms{G}\l(\psi'\circ\psi\r)\circ f_1&=\l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r).\ \ \ \ \ \ \ \ &&\axifunctor[2]\textrm{ of }\ms{G}
+      \end{alignedat}
+  \end{equation}$$
+  For the right hand side of the last equation, we have$$\begin{equation}
+      \begin{alignedat}{2}
+          \l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r)&=\l[f_3\circ\ms{F}\l(\phi\r)'\r]\circ\ms{F}\l(\phi\r)&&(\,2\,)\\
+          &=f_3\circ\l[\ms{F}\l(\phi'\r)\circ\ms{F}\l(\phi\r)\r]\ \ \ \ \ \ \ \ &&\axicat[1]\textrm{ of }\cat{C}\\
+          &=f_3\circ\ms{F}\l(\phi'\circ\phi\r)&&\axifunctor[2]\textrm{ of }\ms{F}
+      \end{alignedat}
+  \end{equation}$$
+  and thus equality holds. It follows then that $\l\langle\phi'\circ\phi,\psi'\circ\psi\r\rangle$ is indeed a morphism from $\l\langle E_1,D_1,f_1\r\rangle$ to $\l\langle E_3,D_3,f_3\r\rangle$.<span style="float:right;">$\blacksquare$</span>
