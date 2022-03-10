@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "ee3e10bfaa60e1bb",
+        "id": "0b4ff72c2ec49b92",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -16,7 +16,7 @@
         }
       },
       {
-        "id": "171fc194a74ad685",
+        "id": "44029e15d602938f",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -28,7 +28,7 @@
         }
       },
       {
-        "id": "58e0fe1b2c6ccc4f",
+        "id": "a3be55d9d4a40059",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -181,7 +181,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.2169974672542043,
+                  "scale": 1.4895214889458799,
                   "close": true
                 }
               }
@@ -206,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "ee3e10bfaa60e1bb",
+  "active": "0b4ff72c2ec49b92",
   "lastOpenFiles": [
     "Notes/Slice category is comma category of identity over inclusion.md",
-    "Notes/Identity Functor.md",
+    "Notes/Functor.md",
+    "Notes/Class Function.md",
     "Notes/Slice Category.md",
     "Notes/Comma Category.md",
-    "Notes/Isomorphism of Categories.md",
-    "Notes/Isomorphism (Category Theory).md",
-    "Notes/Isomorphism (Set Theory).md",
-    "Notes/Left Inverse (Function).md",
-    "Notes/Inverse (Function).md",
-    "Notes/Inverse (Functor).md"
+    "Notes/Coslice Category.md",
+    "Notes/Left inverse (Functor).md",
+    "Notes/Right Inverse (Functor).md",
+    "Notes/Inverse (Functor).md",
+    "Notes/Isomorphism of Categories.md"
   ]
 }
