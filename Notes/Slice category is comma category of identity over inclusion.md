@@ -28,7 +28,7 @@ for all $X,X'\in\obj\l(\cat{C}\r)$, $f\in\hom_\cat{C}\!\l(X,C\r)$, $f'\in\hom_\c
 * Note that $\dom\ms{F}_{\obj}$, in the sense of class functions, is indeed the class $\obj\l(\cat{C}\downarrow C\r)$ since $\l\langle X,f\r\rangle$ is a general element thereof; similarly for $\dom\ms{F}_{\hom}$.
 * For $\cdm\ms{F}_{\obj}$, it is clear that $C\in\obj\l(\bf{1}\r)$, so $f\in\hom_\cat{C}\!\l(X,C\r)=\hom_\cat{C}\!\l(\Id_\cat{C}\l(X\r),\ms{I}\l(C\r)\r)$ and thus $\l\langle X,C,f\r\rangle\in\obj\l(\Id_\cat{C}\downarrow\ms{I}\r)$.
 * For $\cdm\ms{F}_{\hom}$, we need to verify that the diagram
-  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-10_164625/image.svg"></center>
+  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-10_164625/image.svg", width=200></center>
 
     commutes, but this reduces to checking that $f=f'\circ\phi$ which holds since $\phi\in\hom_{\l(\cat{C}\downarrow C\r)}\l(\l\langle X,f\r\rangle,\l\langle X',f'\r\rangle\r)$.
 
