@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Slice category is comma category of identity over inclusion.md",
+                "file": "Notes/Comma Category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Slice category is comma category of identity over inclusion.md",
+                "file": "Notes/Comma Category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Slice category is comma category of identity over inclusion.md",
+                "file": "Notes/Comma Category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,13 +206,13 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "0b4ff72c2ec49b92",
+  "active": "a3be55d9d4a40059",
   "lastOpenFiles": [
-    "Notes/Slice category is comma category of identity over inclusion.md",
-    "Notes/Functor.md",
-    "Notes/Class Function.md",
-    "Notes/Slice Category.md",
     "Notes/Comma Category.md",
+    "Notes/Functor.md",
+    "Notes/Slice Category.md",
+    "Notes/Slice category is comma category of identity over inclusion.md",
+    "Notes/Class Function.md",
     "Notes/Coslice Category.md",
     "Notes/Left inverse (Functor).md",
     "Notes/Right Inverse (Functor).md",
