@@ -209,14 +209,14 @@
   "active": "0b4ff72c2ec49b92",
   "lastOpenFiles": [
     "Notes/Slice category is comma category of identity over inclusion.md",
+    "Notes/Slice Category.md",
+    "Notes/Comma Category.md",
     "Notes/Functor.md",
+    "Notes/Inclusion Functor.md",
     "Notes/Category.md",
     "Notes/Identity Function.md",
     "Notes/Identity Morphism.md",
-    "Notes/Slice Category.md",
-    "Notes/Comma Category.md",
     "Notes/Class Function.md",
-    "Notes/Coslice Category.md",
-    "Notes/Left inverse (Functor).md"
+    "Notes/Coslice Category.md"
   ]
 }
