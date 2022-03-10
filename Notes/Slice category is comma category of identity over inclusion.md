@@ -33,7 +33,7 @@ for all $X,X'\in\obj\l(\cat{C}\r)$, $f\in\hom_\cat{C}\!\l(X,C\r)$, $f'\in\hom_\c
     commutes, but this reduces to checking that $f=f'\circ\phi$ which holds since $\phi\in\hom_{\l(\cat{C}\downarrow C\r)}\l(\l\langle X,f\r\rangle,\l\langle X',f'\r\rangle\r)$.
 
 We now need to check the axioms of a covariant functor.
-* ($\axifunctor[1]$): Take $\l\langle X,f\r\rangle\in\obj\l(\cat{C}\downarrow C\r)$; we need to prove that $\ms{F}_{\hom}\l(\id_{\l\langle C,f\r\rangle}\r)=\id_{\ms{F}_{\obj}\l\langle X,f\r\rangle}$. This is readily seen via
+* ($\axifunctor[1]$): Take $\l\langle X,f\r\rangle\in\obj\l(\cat{C}\downarrow C\r)$; we need to prove that $\ms{F}_{\hom}\l(\id_{\l\langle X,f\r\rangle}\r)=\id_{\ms{F}_{\obj}\l\langle X,f\r\rangle}$. This is readily seen via
 $$\begin{equation}
     \begin{alignedat}{2}
         \ms{F}_{\hom}\l(\id_{\l\langle X,f\r\rangle}\r)&=\ms{F}_{\hom}\l(\id_X\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of $\l(\cat{C}\downarrow C\r)$-identity}\\
@@ -57,7 +57,7 @@ $$\begin{equation}
     \ms{G}_{\obj}\l\langle X,C,f\r\rangle\coloneqq\l\langle X,f\r\rangle\ \ \ \ \textrm{and}\ \ \ \ \ms{G}_{\hom}\l\langle\phi,\psi\r\rangle\coloneqq\phi
 \end{equation}$$
 for all $X,X'\in\obj\l(\cat{C}\r)$, $f\in\hom_\cat{C}\!\l(X,C\r)$, $f'\in\hom_\cat{C}\!\l(X',C\r)$, and $\l\langle\phi,\psi\r\rangle:\l\langle X,C,f\r\rangle\to\l\langle X',C,f'\r\rangle$; the important points that justify this construction are that $C$ is the unique object in $\obj\l(\bf{1}\r)$ and, with $\phi:C\to C$ being a morphism in $\bf{1}$, $\phi$ is the identity morphism $\id_C$. The fact that $\ms{G}$ satisfies the axioms of a covariant functor is essentially the same as above, just chasing definitions. It remains to check that $\ms{G}=\ms{F}^{-1}$.
-* ($\ms{G}$ is a left inverse of $\ms{F}$): Take $\l\langle X,f\r\rangle\in\obj\l(\cat{C}\r)\downarrow C$ and observe that
+* ($\ms{G}$ is a left inverse of $\ms{F}$): Take $\l\langle X,f\r\rangle\in\obj\l(\cat{C}\downarrow C\r)$ and observe that
 $$\begin{equation}
     \begin{alignedat}{2}
         \l(\ms{G}\circ\ms{F}\r)_{\obj}\l\langle X,f\r\rangle&=\ms{G}_{\obj}\l(\ms{F}_{\obj}\l\langle X,f\r\rangle\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of composition of functors}\\
