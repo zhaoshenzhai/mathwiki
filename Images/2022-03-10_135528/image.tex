@@ -1,0 +1,12 @@
+\documentclass[margin=20mm]{standalone}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\begin{document}
+    \begin{tikzcd}[color=textColor]
+        \cat{C} \ar[r, "\Id_\cat{C}"] &
+            \cat{C} &
+                \bf{1} \ar[l, "\ms{I}"']
+    \end{tikzcd}
+\end{document}
