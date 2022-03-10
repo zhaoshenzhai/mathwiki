@@ -22,13 +22,13 @@ _Let $\cat{C}$ be a category and fix $C\in\obj\l(\cat{C}\r)$. The **coslice cate
 $$\begin{equation}
     \obj\l(C\downarrow\cat{C}\r)\coloneqq\l\{f\in\hom_\cat{C}\!\l(C,X\r)\mid X\in\obj\l(\cat{C}\r)\r\}.
 \end{equation}$$
-* _For all $\l(C\downarrow\cat{C}\r)$-objects $\l\langle X,f\r\rangle$ and $\l\langle X',f'\r\rangle$, the morphisms from $\l\langle X,f\r\rangle$ to $\l\langle X',f'\r\rangle$ are $\cat{C}$-morphisms $\phi:X\to X'$ such that the diagram_
+* _For all $\l(C\downarrow\cat{C}\r)$-objects $\l\langle X,f\r\rangle$ and $\l\langle X',f'\r\rangle$, the morphisms from $\l\langle X,f\r\rangle$ to $\l\langle X',f'\r\rangle$ are $\cat{C}$-morphisms $\psi:X\to X'$ such that the diagram_
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-07_161830/image.svg", width=180></center>
 
   _commutes; that is,_$$\begin{equation}
-      \hom_{\l(C\downarrow\cat{C}\r)}\!\l(\l\langle X,f\r\rangle,\l\langle X',f'\r\rangle\r)\coloneqq\l\{\phi\in\hom_\cat{C}\!\l(X,X'\r)\mid f'=\phi\circ f\r\}.
+      \hom_{\l(C\downarrow\cat{C}\r)}\!\l(\l\langle X,f\r\rangle,\l\langle X',f'\r\rangle\r)\coloneqq\l\{\psi\in\hom_\cat{C}\!\l(X,X'\r)\mid f'=\psi\circ f\r\}.
   \end{equation}$$
 * _For all $\l(C\downarrow\cat{C}\r)$-objects $\l\langle X,f\r\rangle$, the identity morphism on $\l\langle X,f\r\rangle$ is the $\cat{C}$-identity $\id_X$._
-* _For all $\l(C\downarrow\cat{C}\r)$-morphisms $\phi:\l\langle X_1,f_1\r\rangle\to\l\langle X_2,f_2\r\rangle$ and $\phi':\l\langle X_2,f_2\r\rangle\to\l\langle X_3,f_3\r\rangle$, the composite morphism of $\phi'$ after $\phi$ is the $\cat{C}$-composite morphism $\phi'\circ\phi:X_1\to X_3$._
+* _For all $\l(C\downarrow\cat{C}\r)$-morphisms $\psi:\l\langle X_1,f_1\r\rangle\to\l\langle X_2,f_2\r\rangle$ and $\psi':\l\langle X_2,f_2\r\rangle\to\l\langle X_3,f_3\r\rangle$, the composite morphism of $\psi'$ after $\psi$ is the $\cat{C}$-composite morphism $\psi'\circ\psi:X_1\to X_3$._
 
 ```
