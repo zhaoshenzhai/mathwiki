@@ -185,14 +185,14 @@
   "active": "669be312dfd773b2",
   "lastOpenFiles": [
     "Notes/Slice category is a category.md",
-    "Notes/De Morgan's Laws.md",
     "Notes/Coslice category is a category.md",
+    "Notes/Coslice Category.md",
+    "Notes/Slice Category.md",
+    "Notes/De Morgan's Laws.md",
     "Notes/Inverse of function is unique.md",
     "Notes/Canonical projection is a function.md",
     "Notes/temp.md",
     "Notes/Isomorphism of Categories.md",
-    "Notes/Inverse (Functor).md",
-    "Notes/Left inverse (Functor).md",
-    "Notes/Slice category is comma category of identity over inclusion.md"
+    "Notes/Inverse (Functor).md"
   ]
 }
