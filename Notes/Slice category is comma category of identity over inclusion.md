@@ -16,7 +16,7 @@ title: Proposition.
 _Let $\cat{C}$ be a category and fix $C\in\obj\l(\cat{C}\r)$. Then the slice category $\l(\cat{C}\downarrow C\r)$ is isomorphic to the comma category_ $\l(\Id_\cat{C}\downarrow\ms{I}\r)$
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-10_135528/image.svg", width=140></center>
 
-_where $\ms{I}:\bf{1}\to\cat{C}$ is the inclusion functor and $\bf{1}$ is the discrete category with $\obj\l(\bf{1}\r)=\l\{C\r\}$ and $\hom\l(\bf{1}\r)=\l\{\id_C\r\}$._
+_where $\ms{I}:\bf{1}\to\cat{C}$ is the inclusion functor and $\bf{1}$ is the discrete category with $\obj\l(\bf{1}\r)\coloneqq\l\{C\r\}$ and $\hom\l(\bf{1}\r)\coloneqq\l\{\id_C\r\}$._
 
 ```
 

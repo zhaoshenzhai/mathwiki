@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "3528d0f191abf2b7",
+        "id": "20e76c4db01370dc",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "3528d0f191abf2b7",
+  "active": "20e76c4db01370dc",
   "lastOpenFiles": [
+    "Notes/Comma Category.md",
+    "Notes/Slice category is comma category of identity over inclusion.md",
+    "Notes/Slice Category.md",
+    "Notes/Coslice Category.md",
+    "Notes/Slice category is a category.md",
+    "Notes/Coslice category is comma category of inclusion over identity.md",
     "Notes/Inverse of function is unique.md",
     "Notes/Strict inverse of functor is unique.md",
-    "Notes/Slice category is comma category of identity over inclusion.md",
     "Notes/Composition (Functor).md",
-    "Notes/Inverse of morphism is unique.md",
-    "Notes/Inverse (Morphism).md",
-    "Notes/Inverse (Function).md",
-    "Notes/Isomorphism (Set Theory).md",
-    "Notes/Isomorphism (Category Theory).md",
-    "Notes/Inverse of a relation is a relation.md"
+    "Notes/Inverse of morphism is unique.md"
   ]
 }
