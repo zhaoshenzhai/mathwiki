@@ -24,8 +24,8 @@ _Proof_. It suffices to check that the identities and composite morphisms are we
 
     commutes; that is, we need $f_1=f_3\circ\l(\phi'\circ\phi\r)$. To do so, observe that
     
-$\begin{alignat}{2}
+$\begin{align}
     f_1&=f_2\circ\phi&&\phi\in\hom\l(\l\langle X_1,f_1\r\rangle,\l\langle X_2,f_2\r\rangle\r)\\
     &=\l(f_3\circ\phi'\r)\circ\phi&&\phi'\in\hom\l(\l\langle X_2,f_2\r\rangle,\l\langle X_3,f_3\r\rangle\r)\\
-    &=f_3\circ\l(\phi'\circ\phi\r).\ \ \ \ \ \ \ \ &&\axicat[1]\textrm{ of }\cat{C}\qedin
-\end{alignat}$
+    &=f_3\circ\l(\phi'\circ\phi\r).&&\axicat[1]\textrm{ of }\cat{C}\qedin
+\end{align}$

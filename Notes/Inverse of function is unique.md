@@ -5,7 +5,7 @@ Date Created: 27/01/2022 11:05:54
 Tags: #Proposition #Closed 
 
 Proved by: [[Composition with identities preserve functions]], [[Composition of relations is associative]]
-Generalizations: [[Inverse of morphism is unique]]
+Generalizations: [[Inverse of morphism is unique]], [[Strict inverse of functor is unique]]
 
 Examples: _Not Applicable_
 Counterexamples: _Not Applicable_

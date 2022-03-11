@@ -43,7 +43,7 @@ Pluggins:
 * [Extended MathJax](https://github.com/xldenis/obsidian-latex): Add macros in [`preamble.sty`](preamble.sty).
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
 * [Sliding Panes (Andy's Mode)](https://github.com/deathau/sliding-panes-obsidian): Stack panes side-by-side.
-* [Vault Statistics](https://github.com/bkyle/obsidian-vault-statistics-plugin): _373 notes, 815 links, 35 images._
+* [Vault Statistics](https://github.com/bkyle/obsidian-vault-statistics-plugin): _374 notes, 819 links, 35 images._
 
 ### TikZ images
 
@@ -71,6 +71,6 @@ The svg images are uploaded to Github instead of linked directly in Obsidian bec
 
 ![Fundamental Theorem of Equivalence Relations](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/sample_pages/fundamental_theorem_of_equivalence_relations.png)
 
-[templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L597
+[templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L591
 [tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/config/MathWiki.vim#L2
 [pdfLaTeXExecute]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/config/MathWiki.vim#L1
