@@ -36,7 +36,8 @@ $$\begin{equation}
 The last equivalence requires that $U\neq\em$, which ensures that $\l\{v\setminus u\mid u\in U\r\}=\l\{x\mid\l(\ex u\in U\r)x=v\comp u\r\}$ is non-empty for the intersection to be defined.
 
 Now take $x\in v\comp\bigcap U$. Note that $U\neq\em$ ensures that this expression is a set. The second result follows from the following chain of equivalences:
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     x\in v\comp\bigcap U&\Leftrightarrow x\in v\land x\not\in\bigcap U&&\textrm{Definition of relative complement}\\
     &\Leftrightarrow x\in v\land\lnot\l(x\in\bigcap U\r)&&\textrm{Definition of }\not\in\\
     &\Leftrightarrow x\in v\land\lnot\l[\l(\fa u\in U\r)x\in u\r]&&\textrm{Definition of intersection}\\
@@ -45,4 +46,4 @@ $$\begin{alignat}{2}
     &\Leftrightarrow\l(\ex u\in U\r)x\in v\comp u&&\textrm{Definition of relative complement}\\
     &\Leftrightarrow\l(\ex y\in\l\{v\comp u\mid u\in U\r\}\r)x\in y\ \ \ \ \ \ \ \ &&\textrm{Substitution}\\
     &\Leftrightarrow x\in\bigcup\l\{v\comp u\mid u\in U\r\}.&&\textrm{Definition of union}\qedin
-\end{alignat}$$
+\end{alignat}$

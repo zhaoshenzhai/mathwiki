@@ -28,9 +28,10 @@ $$\begin{equation}
     \alpha_1,\alpha_2:Z\to X\ \ \ \ \textrm{mapping}\ \ \ \ \alpha_1\l(z\r)\coloneqq x_1\ \ \ \ \textrm{and}\ \ \ \ \alpha_2\l(z\r)\coloneqq x_2.
 \end{equation}$$
 Observe then that
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     f\circ\alpha_1=f\circ\alpha_2\ \ \ \ &\Rightarrow\ \ \ \ \alpha_1=\alpha_2&&f\textrm{ is a monomorphism}\\
     \l(f\circ\alpha_1\r)\l(z\r)=\l(f\circ\alpha_2\r)\l(z\r)\ \ \ \ &\Rightarrow\ \ \ \ \alpha_1\l(z\r)=\alpha_2\l(z\r)\ \ \ \ \ \ \ \ &&z\in Z\\
     f\l(\alpha_1\l(z\r)\r)=f\l(\alpha_2\l(z\r)\r)\ \ \ \ &\Rightarrow\ \ \ \ x_1=x_2&&\textrm{Composition of functions; substitution}\\
     f\l(x_1\r)=f\l(x_2\r)\ \ \ \ &\Rightarrow\ \ \ \ x_1=x_2.&&\textrm{Substitution}\qedin
-\end{alignat}$$
+\end{alignat}$

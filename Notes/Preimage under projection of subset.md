@@ -25,11 +25,12 @@ $$\begin{equation}
 ```
 
 _Proof_. We shall prove the first statement; the second is completely analogous. Take a subset $U\subseteq X$. The result follows from the following chain of equivalences:
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     p\in\preim_{\pi_X}\!\l(U\r)&\Leftrightarrow p\in X\times Y\land\pi_X\l(p\r)\in U&&\textrm{Definition of preimage}\\
     &\Leftrightarrow\ex x\in X,\ex y\in Y:p=\l\langle x,y\r\rangle\land\pi_X\l(p\r)\in U&&\textrm{Definition of Cartesian product}\\
     &\Leftrightarrow\ex x\in X,\ex y\in Y:p=\l\langle x,y\r\rangle\land\pi_X\l(\l\langle x,y\r\rangle\r)\in U\ \ \ \ \ \ \ \ &&\textrm{Substitution}\\
     &\Leftrightarrow\ex x\in X,\ex y\in Y:p=\l\langle x,y\r\rangle\land x\in U&&\fa y\in Y:\pi_X\l(\l\langle x,y\r\rangle\r)=x\\
     &\Leftrightarrow\ex x\in U,\ex y\in Y:p=\l\langle x,y\r\rangle&&U\subseteq X\\
     &\Leftrightarrow p\in U\times Y.&&\textrm{Definition of Cartesian product}\qedin
-\end{alignat}$$
+\end{alignat}$

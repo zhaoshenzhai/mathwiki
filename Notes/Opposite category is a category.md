@@ -29,9 +29,10 @@ $$\begin{equation}
     \end{alignedat}
 \end{equation}$$
 * ($\axicat[2]$): Take $X,Y\in\obj\l(\cat{C}^\textrm{op}\r)$ and $f\in\hom_{\cat{C}^\textrm{op}}\!\l(X,Y\r)$. Observe then that
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     f\ast\id_X&=\id_X\circ f&&\textrm{Definition of }\ast\textrm{; }f\in\hom_\cat{C}\!\l(Y,X\r)\\
     &=f&&\axicat[2]\textrm{ of }\cat{C}\\
     &=f\circ\id_Y\ \ \ \ \ \ \ \ &&\axicat[2]\textrm{ of }\cat{C}\textrm{; }f\in\hom_\cat{C}\!\l(Y,X\r)\\
     &=\id_Y\ast f.&&\textrm{Definition of }\ast\qedin
-\end{alignat}$$
+\end{alignat}$

@@ -18,10 +18,11 @@ _Let $f:X\to Y$. If $g,h:Y\to X$ are left and right inverses of $f$, respectivel
 ```
 
 _Proof_. The result follows from the following computation:
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     g&=g\circ\id_Y&&\textrm{Composition with identities preserve functions}\\
     &=g\circ\l(f\circ h\r)\ \ \ \ \ \ \ \ &&h\textrm{ is a right inverse of }f\\
     &=\l(g\circ f\r)\circ h&&\textrm{Associativity of composition}\\
     &=\id_X\circ h&&g\textrm{ is a left inverse of }f\\
     &=h.&&\textrm{Composition with identities preserve functions}\qedin
-\end{alignat}$$
+\end{alignat}$

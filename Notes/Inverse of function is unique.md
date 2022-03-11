@@ -18,10 +18,11 @@ _Let $f:X\to Y$. Then the inverse function of $f$ is unique._
 ```
 
 _Proof_. If $g,g':Y\to X$ are both inverses of $f$, then
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     g&=g\circ\id_Y&&\textrm{Composition with identities preserve functions}\\
     &=g\circ\l(f\circ g'\r)\ \ \ \ \ \ \ \ &&g'\textrm{ is a right inverse of }f\\
     &=\l(g\circ f\r)\circ g'&&\textrm{Composition is associative}\\
     &=\id_X\circ g'&&g\textrm{ is a left inverse of} f\\
     &=g'.&&\textrm{Composition with identities preserve functions}\qedin
-\end{alignat}$$
+\end{alignat}$

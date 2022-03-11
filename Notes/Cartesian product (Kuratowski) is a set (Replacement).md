@@ -33,13 +33,14 @@ $$\begin{equation}
 \end{equation}$$
 To do so, let $\psi\l(x,w\r)\Leftrightarrow w=\l\{x\r\}\times Y$; we wish to prove that $\fa x\in X,\ex!w:w=\l\{x\r\}\times Y$. Again, this is trivial. Therefore, we can form the replacement image of $X$ under $\psi\l(x,w\r)$, which is precisely the set $\l\{\l\{x\r\}\times Y\mid x\in X\r\}$.
 3. Consider the set $z\coloneqq\bigcup\l\{\l\{x\r\}\times Y\mid x\in X\r\}$. The result follows from the following chain of equivalences:
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     u\in z&\Leftrightarrow u\in\bigcup\l\{\l\{x\r\}\times Y\mid x\in X\r\}&&\textrm{Definition of }z\\
     &\Leftrightarrow\ex w\in\l\{\l\{x\r\}\times Y\mid x\in X\r\}:u\in w\ \ \ \ \ \ \ \ &&\textrm{Definition of union}\\
     &\Leftrightarrow\ex x\in X:w=\l\{x\r\}\times Y\land u\in w&&\textrm{Definition of }\l\{\l\{x\r\}\times Y\mid x\in X\r\}\\
     &\Leftrightarrow\ex x\in X:u\in\l\{x\r\}\times Y&&\textrm{Substitution}\\
     &\Leftrightarrow\ex x\in X,\ex y\in Y:u=\l\langle x,y\r\rangle.&&\textrm{Definition of }\l\{x\r\}\times Y\qedin
-\end{alignat}$$
+\end{alignat}$
 
 ---
 

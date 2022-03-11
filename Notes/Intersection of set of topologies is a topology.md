@@ -39,11 +39,12 @@ $$\begin{equation}
     \end{alignedat}
 \end{equation}$$
 * ($\axitop[3]$): Similarly, observe that (assuming $\mc{U}\neq\em$ is finite)
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     U\subseteq\bigcap\ms{T}&\Leftrightarrow\fa\mc{T}\in\ms{T}:U\subseteq\mc{T}&&\textrm{Lemma }\l(\ast\r)\\
     &\Rightarrow\fa\mc{T}\in\ms{T}:\bigcap\mc{U}\in\mc{T}\ \ \ \ \ \ \ \ &&\axitop[3]\textrm{ of }\mc{T}\\
     &\Leftrightarrow\bigcap\mc{U}\in\bigcap\ms{T}.&&\ms{T}\neq\em\textrm{; definition of intersection}\qedin
-\end{alignat}$$
+\end{alignat}$
 
 ---
 

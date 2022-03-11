@@ -18,8 +18,9 @@ _Let $A$ and $B$ be sets. If $A\subseteq B$, then $\bigcup A\subseteq\bigcup B$.
 ```
 
 _Proof_. Take $x\in\bigcup A$. The result follows from the following chain of logical implications:
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     x\in\bigcup A&\Leftrightarrow\ex a\l(x\in a\land a\in A\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of union}\\
     &\Rightarrow\ex a\l(x\in a\land a\in B\r)&&A\subseteq B\\
     &\Leftrightarrow x\in\bigcup B.&&\textrm{Definition of union}\qedin
-\end{alignat}$$
+\end{alignat}$

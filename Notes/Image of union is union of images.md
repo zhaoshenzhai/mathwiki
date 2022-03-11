@@ -21,7 +21,8 @@ $$\begin{equation}
 ```
 
 _Proof_. Take $y\in\im_R\l(\bigcup\mc{A}\r)$. The result follows from the following chain of equivalences:
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     y\in\im_R\l(\bigcup\mc{A}\r)&\Leftrightarrow y\in\ran\l(R\rest\bigcup\mc{A}\r)&&\textrm{Definition of image}\\
     &\Leftrightarrow\ex x:\l\langle x,y\r\rangle\in R\rest\l(\bigcup\mc{A}\r)&&\textrm{Definition of range}\\
     &\Leftrightarrow\ex x:\l\langle x,y\r\rangle\in R\land x\in\bigcup\mc{A}&&\textrm{Definition of restriction}\\
@@ -32,4 +33,4 @@ $$\begin{alignat}{2}
     &\Leftrightarrow\ex A\in\mc{A}:y\in\ran\l(R\rest A\r)&&\textrm{Definition of range}\\
     &\Leftrightarrow\ex A\in\mc{A}:y\in\im_R\l(A\r)&&\textrm{Definition of image}\\
     &\Leftrightarrow y\in\bigcup\l\{\im_R\l(A\r)\mid A\in\mc{A}\r\}.&&\textrm{Definition of union}\qedin
-\end{alignat}$$
+\end{alignat}$

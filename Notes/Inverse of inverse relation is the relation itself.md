@@ -18,8 +18,9 @@ _Let $R$ be a binary relation. Then $\l(R^{-1}\r)^{-1}=R$._
 ```
 
 _Proof_. By definition, we have $R^{-1}=\l\{\l\langle y,x\r\rangle\mid xRy\r\}$. Taking the inverse again, we have
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     \l(R^{-1}\r)^{-1}&=\l\{\l\langle x,y\r\rangle\mid yR^{-1}x\r\}\\
     &=\l\{\l\langle x,y\r\rangle\mid xRy\r\}\\
     &=R.\qedin
-\end{alignat}$$
+\end{alignat}$

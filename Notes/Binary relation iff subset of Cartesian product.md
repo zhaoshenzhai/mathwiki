@@ -31,8 +31,9 @@ $$\begin{equation}
     \end{alignedat}
 \end{equation}$$
 ($\Leftarrow$): Assume that $\ex X,\ex Y:R\subseteq X\times Y$. The result follows from the following chain of implications:
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     \ex X,\ex Y:R\subseteq X\times Y&\Leftrightarrow\ex X,\ex Y,\fa u\in R:u\in X\times Y&&\textrm{Definition of subset}\\
     &\Leftrightarrow\ex X,\ex Y,\fa u\in R:\l(\ex x\in X,\ex y\in Y:u=\l\langle x,y\r\rangle\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of Cartesian product}\\
     &\Rightarrow\fa u\in R:\ex x,\ex y:u=\l\langle x,y\r\rangle.&&\textrm{Existential instantiation}\qedin
-\end{alignat}$$
+\end{alignat}$

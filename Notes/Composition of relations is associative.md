@@ -18,7 +18,8 @@ _Let $R,S,T$ be binary relations. Then $\l(R\circ S\r)\circ T=R\circ\l(S\circ T\
 ```
 
 _Proof_. Take $\l\langle x,y\r\rangle\in\l(R\circ S\r)\circ T$. The result follows from the following chain of equivalences:
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     \l\langle x,y\r\rangle\in\l(R\circ S\r)\circ T&\Leftrightarrow\ex w\l[xTw\land w\l(R\circ S\r)y\r]&&\textrm{Definition of composition}\\
     &\Leftrightarrow\ex w\l[xTw\land\ex z\l(wSz\land zRy\r)\r]\ \ \ \ \ \ \ \ &&\textrm{Definition of composition}\\
     &\Leftrightarrow\ex w\ex z\l[xTw\land\l(wSz\land zRy\r)\r]&&z\textrm{ is not free in }xTw\\
@@ -27,4 +28,4 @@ $$\begin{alignat}{2}
     &\Leftrightarrow\ex z\l[\ex w\l(xTw\land wSz\r)\land zRy\r]&&w\textrm{ is not free in }zRy\\
     &\Leftrightarrow\ex z\l[x\l(S\circ T\r)z\land zRy\r]&&\textrm{Definition of composition}\\
     &\Leftrightarrow\l\langle x,y\r\rangle\in R\circ\l(S\circ T\r).&&\textrm{Definition of composition}\qedin
-\end{alignat}$$
+\end{alignat}$

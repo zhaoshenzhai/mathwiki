@@ -29,9 +29,10 @@ $$\begin{equation}
     \end{alignedat}
 \end{equation}$$
 * ($\axitop[3]$): Take $\mc{U}\subseteq\pow\l(x\r)$ that is non-empty and finite. Similarly, it suffices to prove that $\bigcap\mc{U}\subseteq X$. To this end, take $x\in\bigcap\mc{U}$. The result follows from the following chain of implications:
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     x\in\bigcap\mc{U}&\Leftrightarrow\fa U\in\mc{U}:x\in U&&\mc{U}\neq\em;\textrm{ definition of union}\\
     &\Rightarrow\fa U\in\pow\l(X\r):x\in U\ \ \ \ \ \ \ \ &&\mc{U}\subseteq\pow\l(X\r)\\
     &\Leftrightarrow\fa U\subseteq X:x\in U&&\textrm{Definition of power set}\\
     &\Rightarrow x\in X.&&U\subseteq X\qedin
-\end{alignat}$$
+\end{alignat}$

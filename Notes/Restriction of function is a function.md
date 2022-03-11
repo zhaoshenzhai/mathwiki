@@ -27,8 +27,9 @@ $$\begin{equation}
     \end{alignedat}
 \end{equation}$$
 so there exists a function $\l.f\r|_S$ with $\dom\l.f\r|_S=S$ and $\fa x\in S:\phi\l(x,f\l(x\r)\r)$. This function is constructed as the set
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     \l.f\r|_S&=\l\{z\mid\ex x\in S,\ex y:\l(\phi\l(x,y\r)\land z=\l\langle x,y\r\rangle\r)\r\}&&\textrm{Replace image is a function}\\
     &=\l\{z\mid\ex x\in S,\ex y,\l(x\in S\land\l\langle x,y\r\rangle\in f\land z=\l\langle x,y\r\rangle\r)\r\}\ \ \ \ \ \ \ \ &&\textrm{Substitution}\\
     &=\l\{z\mid\ex x\in S:z=\l\langle x,f\l(x\r)\r\rangle\r\}.&&\textrm{Simplification and substitution}\qedin
-\end{alignat}$$
+\end{alignat}$

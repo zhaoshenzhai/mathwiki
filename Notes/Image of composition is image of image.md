@@ -21,9 +21,10 @@ $$\begin{equation}
 ```
 
 _Proof_. Take $z\in\im_{g\circ f}\l(S\r)$. The result follows from the following chain of equivalences:
-$$\begin{alignat}{2}
+
+$\begin{alignat}{2}
     z\in\im_{g\circ f}\l(S\r)&\Leftrightarrow z\in Z\land\ex x\in S:z=\l(g\circ f\r)\l(x\r)&&\textrm{Definition of image}\\
     &\Leftrightarrow z\in Z\land\ex x\in S:z=g\l(f\l(x\r)\r)&&\textrm{Definition of composition}\\
     &\Leftrightarrow z\in Z\land\ex y\in\im_f\l(S\r):z=g\l(y\r)\ \ \ \ \ \ \ \ &&\textrm{Set }y=f\l(x\r)\\
     &\Leftrightarrow z\in\im_g\l(\im_f\l(S\r)\r).&&\textrm{Definition of image}\qedin
-\end{alignat}$$
+\end{alignat}$
