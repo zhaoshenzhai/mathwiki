@@ -25,4 +25,8 @@ _Let $f:I\to\mc{A}$ be a function. If $\mc{A}$ contains elements that we $\textr
 
 ---
 
+**Remark.** Indexed families can be defined as class functions too, albeit informally.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 **Remark.** Write $\l\{A_i\r\}\coloneqq\l\{A_i\r\}_{i\in I}$ if there is no ambiguity as to which index set is used.<span style="float:right;">$\blacklozenge$</span>

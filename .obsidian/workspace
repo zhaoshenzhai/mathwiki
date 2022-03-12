@@ -9,14 +9,14 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Functor.md",
+            "file": "Notes/Isomorphism of Categories.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "6d1be185e7521d1b",
+        "id": "f9b59e38a351f347",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "6d1be185e7521d1b",
+  "active": "f9b59e38a351f347",
   "lastOpenFiles": [
     "Notes/Natural Transformation.md",
+    "Notes/Isomorphism of Categories.md",
     "Notes/Functor.md",
     "Notes/Indexed Family.md",
+    "Notes/Function.md",
+    "Notes/Class Function.md",
     "Notes/Class.md",
     "Notes/Category (Locally-small).md",
     "Notes/Composition (Functor).md",
-    "Notes/Product (Category Theory; finite).md",
-    "Notes/Morphism (Category Theory).md",
-    "Notes/Object (Category Theory).md",
-    "Notes/Cartesian Product (Kuratowski).md"
+    "Notes/Product (Category Theory; finite).md"
   ]
 }
