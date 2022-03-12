@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 12/03/2022 17:39:47
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed 
 
 Proved by: [[Identity morphism is an isomorphism]], [[Composition with identities preserve functors]]
 Generalizations: _Not Applicable_

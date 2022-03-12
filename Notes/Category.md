@@ -18,7 +18,7 @@ Justifications: _Not Applicable_
 title: Definition (Informal).
 
 _A **category** $\cat{C}$ consists of the data of_
-* _a class $\obj$ whose members are called **$\cat{C}$-objects**,_
+* _a class $\obj\l(\cat{C}\r)$ whose members are called **$\cat{C}$-objects**,_
 * _a class function $\hom$ assigning to each pair $X,Y\in\obj\l(\cat{C}\r)$ a class $\hom\l(X,Y\r)$ called the **$\cat{C}$-hom-class from $X$ to $Y$**,_
 * _a class function $\id$ assigning to each $X\in\obj\l(\cat{C}\r)$ an element $\id_X\in\hom\l(X,X\r)$ called the the **$\cat{C}$-identity on $X$**, and_
 * _a class function $\circ$ assigning to each pair $f\in\hom\l(X,Y\r)$ and $g\in\hom\l(Y,Z\r)$, where $X,Y,Z\in\obj\l(\cat{C}\r)$, an element $g\circ f\in\hom\l(X,Z\r)$ called the **$\cat{C}$-composite of $g$ after $f$**,_
