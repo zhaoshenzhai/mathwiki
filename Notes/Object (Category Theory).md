@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category. A **$\cat{C}$-object** is an element $X\in\obj(\cat{C}$._
+_Let $\cat{C}$ be a category. A **$\cat{C}$-object** is an element $X\in\obj\l(\cat{C}\r)$._
 
 ```
