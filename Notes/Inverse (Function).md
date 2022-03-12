@@ -7,7 +7,7 @@ Tags: #Definition #Closed
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
 Constructions: _Not Applicable_
-Generalizations: [[Inverse (Relation)]], [[Inverse (Morphism)]], [[Inverse (Functor)]]
+Generalizations: [[Inverse (Relation)]], [[Inverse (Morphism)]]
 
 Properties: [[Inverse of bijection is a bijection]]
 Sufficiencies: _Not Applicable_
