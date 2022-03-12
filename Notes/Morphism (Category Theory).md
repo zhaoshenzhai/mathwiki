@@ -5,7 +5,7 @@ Date Created: 21/02/2022 15:18:46
 Tags: #Definition #Closed 
 
 Types: [[Isomorphism (Category Theory)]], [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]
-Examples: [[Function]]
+Examples: [[Identity Morphism]]
 Constructions: [[Left Inverse (Morphism)]], [[Right Inverse (Morphism)]]
 Generalizations: _Not Applicable_
 

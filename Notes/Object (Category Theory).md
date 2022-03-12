@@ -17,6 +17,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category. A **$\cat{C}$-object** is an element $X\in\obj\l(\cat{C}\r)$._
+_Let $\cat{C}$ be a category. A **$\cat{C}$-object** is an element $X\in\obj$._
 
 ```
+
+**Remark.** Usually, one writes $X\in\obj\l(\cat{C}\r)$ for clarity.<span style="float:right;">$\blacklozenge$</span>

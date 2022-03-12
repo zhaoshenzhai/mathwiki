@@ -1,0 +1,24 @@
+---
+alias: auto_aliasing
+---
+
+<br />
+<br />
+
+Date Created: 21/02/2022 16:40:38
+Tags: #Proposition #Closed 
+
+Proved by: [[Composition of relations is a relation]], [[Composition with identities preserve functions]], [[Function space is a set]]
+Generalizations: _Not Applicable_
+
+Examples: _Not Applicable_
+Counterexamples: _Not Applicable_
+
+``` ad-Proposition
+title: Proposition.
+
+_The category of sets $\cat{Set}$ is a locally-small category._
+
+```
+
+_Proof_. The fact that the composition function is associative and that compositions with identities preserve functions are proved; see links above. For the assertion that $\cat{Set}$ is locally-small, recall that for all sets $X$ and $Y$, we have $\hom\l(X,Y\r)=Y^X$ which is a set.<span style="float:right;">$\blacksquare$</span>

@@ -20,3 +20,5 @@ title: Definition.
 _A category $\cat{C}$ is said to be **thin** if for all $X,Y\in\obj\l(\cat{C}\r)$, the hom-set $\hom\l(X,Y\r)$ is at most a singleton._
 
 ```
+
+**Remark.** Thin categories are locally-small.<span style="float:right;">$\blacklozenge$</span>
