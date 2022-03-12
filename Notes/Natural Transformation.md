@@ -4,9 +4,9 @@
 Date Created: 12/03/2022 12:53:12
 Tags: #Definition #In_Progress
 
-Types: _Not Applicable_
+Types: [[Natural Isomorphism]]
 Examples: _Not Applicable_
-Constructions: [[Natural Isomorphism of Categories]]
+Constructions: _Not Appliable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

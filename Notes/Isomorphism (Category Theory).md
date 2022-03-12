@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Automorphism (Category Theory)]]
 Examples: [[Identity morphism is an isomorphism]]
-Constructions: _Not Applicable_
+Constructions: [[Natural Isomorphism]]
 Generalizations: _Not Applicable_
 
 Properties: [[Inverse of isomorphism is an isomorphism]], [[Composition of isomorphims are isomorphisms]], [[Isomorphism of objects is an equivalence relation]]
