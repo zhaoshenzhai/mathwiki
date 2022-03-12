@@ -23,7 +23,7 @@ _Let $\cat{C}$ be a category and fix $X_1,X_2\in\obj\l(\cat{C}\r)$. A **(categor
 
 _such that for every $Y\in\obj\l(\cat{C}\r)$ and $\tau_i:Y\to X_i$, there exists a unique morphism $\phi:Y\to X$ making the diagram_
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-12_114225/image.svg"></center>
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-12_114225/image.svg", width=180></center>
 
 _commute._
 
