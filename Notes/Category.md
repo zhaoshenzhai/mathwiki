@@ -6,7 +6,7 @@ Tags: #Definition #Open
 
 Types: [[Thin Category]], [[Groupoid]]
 Examples: [$\cat{Set}$](Category%20of%20Sets.md), [$\cat{Rel}$](Category%20of%20Relations.md)
-Constructions: [[Morphism (Category Theory)]], [[Functor]], [[Opposite Category]], [[Slice Category]], [[Coslice Category]]
+Constructions: [[Object (Category Theory)]], [[Morphism (Category Theory)]], [[Functor]], [[Opposite Category]], [[Slice Category]], [[Coslice Category]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -35,5 +35,7 @@ _such that, for all $X,Y,Z,W\in\obj\l(\cat{C}\r)$:_
 ```
 
 **Remark.** The phrase $\textrm{`}$consists of the data of$\textrm{'}$ is informal since the $\textrm{`}$quadruple $\cat{C}\coloneqq\l\langle\obj,\hom,\id,\circ\r\rangle\textrm{'}$ is not meant in the set-theoretic sense ($\obj$ need not be, and in general is not, a set). To formulate this properly, one needs a theory of classes in which pairs (and hence $n$-tuples) can be defined.<span style="float:right;">$\blacklozenge$</span>
+
+---
 
 **Remark.** $\axicat[3]$ can be $\textrm{`}$forced$\textrm{'}$ to hold since one can replace morphisms $f\in\hom\l(X,Y\r)$ with the triple $\l\langle f,X,Y\r\rangle$; this is done, for example, in $\cat{Set}$. Thus $\axicat[3]$ can be disregarded when verifying the axioms of a category.<span style="float:right;">$\blacklozenge$</span>
