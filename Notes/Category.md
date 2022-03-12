@@ -6,7 +6,7 @@ Tags: #Definition #Open
 
 Types: [[Locally-small Category]], [[Groupoid]]
 Examples: _Not Applicable_
-Constructions: [[Object (Category Theory)]], [[Morphism (Category Theory)]]
+Constructions: [[Object (Category Theory)]], [[Morphism (Category Theory)]], [[Functor]], [[Opposite Category]], [[Slice Category]], [[Coslice Category]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

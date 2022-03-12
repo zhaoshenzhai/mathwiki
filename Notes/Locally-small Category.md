@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Thin Category]]
 Examples: [$\cat{Set}$](Category%20of%20Sets.md), [$\cat{Rel}$](Category%20of%20Relations.md)
-Constructions: [[Functor]], [[Opposite Category]], [[Slice Category]], [[Coslice Category]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

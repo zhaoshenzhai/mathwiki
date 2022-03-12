@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ and $\cat{D}$ be (locally-small) categories and fix two functors $\ms{F},\ms{G}:\cat{C}\to\cat{D}$. A **natural isomorphism from $\ms{F}$ to $\ms{G}$** is a natural transformation_
+_Let $\cat{C}$ and $\cat{D}$ be categories and fix two functors $\ms{F},\ms{G}:\cat{C}\to\cat{D}$. A **natural isomorphism from $\ms{F}$ to $\ms{G}$** is a natural transformation_
 
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-12_140320/image.svg", width=120></center>
 

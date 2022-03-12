@@ -17,9 +17,9 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition (Informal).
 
-_Let $\cat{C}$ and $\cat{D}$ be (locally-small) categories. A **(covariant) functor $\ms{F}$ from $\cat{C}$ to $\cat{D}$** consists of the data of_
+_Let $\cat{C}$ and $\cat{D}$ be categories. A **(covariant) functor $\ms{F}$ from $\cat{C}$ to $\cat{D}$** consists of the data of_
 * _ a (class) function_ $\ms{F}_{\obj}:\obj\l(\cat{C}\r)\to\obj\l(\cat{D}\r)$ _and,_
-* _for all $X,Y\in\obj\l(\cat{C}\r)$, a function_
+* _for all $X,Y\in\obj\l(\cat{C}\r)$, a (class) function_
 $$\begin{equation}
     \ms{F}_{\hom}:\hom_\cat{C}\!\l(X,Y\r)\to\hom_\cat{D}\!\l(\ms{F}_{\obj}\l(X\r),\ms{F}_{\obj}\l(Y\r)\r)
 \end{equation}$$
