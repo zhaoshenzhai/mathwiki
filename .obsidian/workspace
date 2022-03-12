@@ -4,43 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "1adad9d4b212e1f8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Isomorphism (Category Theory).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "512774c8cc0cac56",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Isomorphism of Categories.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "f9b59e38a351f347",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Natural Transformation.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "5fdb6295e30b23df",
+        "id": "466fdd548fd24182",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -218,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "5fdb6295e30b23df",
+  "active": "466fdd548fd24182",
   "lastOpenFiles": [
     "Notes/Natural Isomorphism.md",
     "Notes/Natural Transformation.md",
-    "Notes/Isomorphism of Categories.md",
-    "Notes/Isomorphism (Category Theory).md",
+    "Notes/Equivalence of Categories.md",
     "Notes/Functor.md",
+    "Notes/Right Inverse (Functor).md",
+    "Notes/Isomorphism of Categories.md",
+    "Notes/Left inverse (Functor).md",
+    "Notes/Isomorphism (Category Theory).md",
     "Notes/Indexed Family.md",
-    "Notes/Function.md",
-    "Notes/Class Function.md",
-    "Notes/Class.md",
-    "Notes/Category (Locally-small).md"
+    "Notes/Function.md"
   ]
 }

@@ -2,11 +2,11 @@
 <br />
 
 Date Created: 12/03/2022 12:53:12
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed
 
 Types: [[Natural Isomorphism]]
 Examples: _Not Applicable_
-Constructions: _Not Appliable_
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
