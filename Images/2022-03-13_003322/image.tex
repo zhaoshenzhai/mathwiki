@@ -1,0 +1,13 @@
+\documentclass[margin=20mm]{standalone}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\begin{document}
+    \begin{tikzcd}[color=textColor]
+        \cat{C} \ar[r, "\ms{F}"] \ar[rr, "\ms{G}\circ\ms{F}"', bend right]&
+        \cat{D} \ar[r, "\ms{G}" description, background color=bgColorAD] \ar[rr, "\ms{H}\circ\ms{G}", bend left]&
+        \cat{E} \ar[r, "\ms{H}"'] &
+        \cat{F}
+    \end{tikzcd}
+\end{document}
