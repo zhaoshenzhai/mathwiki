@@ -209,14 +209,14 @@
   "active": "505696164e1da74d",
   "lastOpenFiles": [
     "Notes/Identity natural transformation is a natural isomorphism.md",
+    "Notes/Functor.md",
     "Notes/Identity Natural Transformation.md",
     "Notes/Natural Transformation.md",
+    "Notes/Composition with identities preserve functors.md",
+    "Notes/Natural Isomorphism.md",
     "Notes/Equivalence of Categories.md",
     "Notes/Inverse (Functor).md",
     "Notes/Composition of functors is associative.md",
-    "Notes/Strict inverse of functor is unique.md",
-    "Notes/Category.md",
-    "Notes/Locally-small Category.md",
-    "Notes/Functor.md"
+    "Notes/Strict inverse of functor is unique.md"
   ]
 }

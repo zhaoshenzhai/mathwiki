@@ -1,0 +1,13 @@
+\documentclass[margin=20mm]{standalone}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\begin{document}
+    \begin{tikzcd}[column sep=3em, row sep =3em, color=textColor]
+        \ms{F}(X) \ar[r, "\id_{\ms{F}(X)}"] \ar[d, "\ms{F}(\alpha)"']&
+            \ms{F}(X) \ar[d, "\ms{F}(\alpha)"] \\
+        \ms{F}(Y) \ar[r, "\id_{\ms{F}(Y)}"']&
+            \ms{F}(Y)  
+    \end{tikzcd}
+\end{document}

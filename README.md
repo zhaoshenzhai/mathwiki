@@ -44,7 +44,7 @@ Pluggins:
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
 * [Sliding Panes (Andy's Mode)](https://github.com/deathau/sliding-panes-obsidian): Stack panes side-by-side.
 
-Some stats: _383 notes, 833 links, 39 images_ ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.github/gitCommit.sh) every commit).
+Some stats: _383 notes, 835 links, 40 images_ ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.github/gitCommit.sh) every commit).
 
 ### TikZ images
 
