@@ -28,3 +28,5 @@ _such that for every $Y\in\obj\l(\cat{C}\r)$ and $\tau_i:Y\to X_i$, there exists
 _commute._
 
 ```
+
+**Remark.** The morphism $\phi:Y\to X$ is, in this context, also denoted by $\tau_1\times\tau_2$.<span style="float:right;">$\blacklozenge$</span>

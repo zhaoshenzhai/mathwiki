@@ -4,36 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "f5fd81e2086e2f27",
+        "id": "ef554219f8cab431",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Category.md",
+            "file": "Notes/Functor.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "5a769b9b2e1ec14e",
+        "id": "6d1be185e7521d1b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Morphism (Category Theory).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "94de426f80fbe91f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Product (Category Theory; finite).md",
+            "file": "Notes/Natural Transformation.md",
             "mode": "preview",
             "source": true
           }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Product (Category Theory; finite).md",
+                "file": "Notes/Natural Transformation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Product (Category Theory; finite).md",
+                "file": "Notes/Natural Transformation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -193,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Product (Category Theory; finite).md",
+                "file": "Notes/Natural Transformation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "94de426f80fbe91f",
+  "active": "6d1be185e7521d1b",
   "lastOpenFiles": [
+    "Notes/Natural Transformation.md",
+    "Notes/Functor.md",
+    "Notes/Indexed Family.md",
+    "Notes/Class.md",
+    "Notes/Category (Locally-small).md",
+    "Notes/Composition (Functor).md",
     "Notes/Product (Category Theory; finite).md",
     "Notes/Morphism (Category Theory).md",
     "Notes/Object (Category Theory).md",
-    "Notes/Cartesian Product (Kuratowski).md",
-    "Notes/Category.md",
-    "Notes/Cartesian Product (Arbitrary).md",
-    "Notes/Comma Category.md",
-    "Notes/Coslice category is comma category of inclusion over identity.md",
-    "Notes/Slice Category.md",
-    "Notes/Slice category is comma category of identity over inclusion.md"
+    "Notes/Cartesian Product (Kuratowski).md"
   ]
 }
