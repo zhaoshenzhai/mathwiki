@@ -17,15 +17,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ and $\cat{D}$ be (locally-small) categories and fix two functors $\ms{F},\ms{G}:\cat{C}\to\cat{D}$. A **natural transformation from $\ms{F}$ to $\ms{G}$**, denoted as $\eta:\ms{F}\Rightarrow\ms{G}$ and drawn pictorially as_
-
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-12_134415/image.svg", width=120></center>
-
-_is a class function_
+_Let $\cat{C}$ and $\cat{D}$ be (locally-small) categories and fix two functors $\ms{F},\ms{G}:\cat{C}\to\cat{D}$. A **natural transformation from $\ms{F}$ to $\ms{G}$** is a class function_
 $$\begin{equation}
     \begin{aligned}
-        \eta:\obj\l(\cat{C}\r)&\to\hom_\cat{D}\!\l(\ms{F}\l(X\r),\ms{G}\l(X\r)\r)\\
-        X&\mapsto\eta_X\coloneqq\eta\l(X\r)
+        \eta:\obj\l(\cat{C}\r)&\to\hom\l(\cat{D}\r)\\
+        X&\mapsto\eta_X:\ms{F}\l(X\r)\to\ms{G}\l(X\r)
     \end{aligned}
 \end{equation}$$
 _such that for all morphisms $\alpha:X\to Y$ in $\cat{C}$, the diagrams_
@@ -35,5 +31,13 @@ _such that for all morphisms $\alpha:X\to Y$ in $\cat{C}$, the diagrams_
 _commute._
 
 ```
+
+**Remark.** A natural transformation $\eta$ from $\ms{F}$ to $\ms{G}$ can be represented pictorially as
+
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-12_134415/image.svg", width=120></center>
+
+or simply $\eta:\ms{F}\Rightarrow\ms{G}$ if the categories are understood.<span style="float:right;">$\blacklozenge$</span>
+
+---
 
 **Remark.** In other words, a natural transformation $\eta$ is given by an indexed family $\l\{\eta_X\r\}_{X\in\obj\l(\cat{C}\r)}$ where $\eta_X:\ms{F}\l(X\r)\to\ms{G}\l(X\r)$ are morphisms in $\cat{D}$, called the **component morphisms of $\eta$**.<span style="float:right;">$\blacklozenge$</span>

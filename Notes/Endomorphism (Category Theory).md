@@ -20,3 +20,8 @@ title: Definition.
 _Let $\cat{C}$ be a category and fix $X\in\obj\l(\cat{C}\r)$. An **endomorphism of $X$** is a morphism $f\in\edm\l(X\r)\coloneqq\hom\l(X,X\r)$._
 
 ```
+
+**Remark.** If there exists $X\in\obj\l(\cat{C}\r)$ such that $f\in\edm\l(X\r)$, write $f\in\edm\l(\cat{C}\r)$. In other words, write, _informally_,
+$$\begin{equation}
+    \edm\l(\cat{C}\r)\coloneqq\bigcup\l\{\edm\l(X\r)\mid X\in\obj\l(\cat{C}\r)\r\}.\exqedin
+\end{equation}$$

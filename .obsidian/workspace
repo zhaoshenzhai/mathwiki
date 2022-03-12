@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "d2141f00931a4980",
+        "id": "5165a6981ced9d02",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -16,24 +16,24 @@
         }
       },
       {
-        "id": "e5e5baaefa175797",
+        "id": "fc1b26c65ed02c0a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Indexed Family.md",
+            "file": "Notes/Natural Isomorphism.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "5165a6981ced9d02",
+        "id": "c3e7cc7f976c4ad3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Identity Natural Transformation.md",
+            "file": "Notes/Inverse (Functor).md",
             "mode": "preview",
             "source": true
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Identity Natural Transformation.md",
+                "file": "Notes/Natural Isomorphism.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Identity Natural Transformation.md",
+                "file": "Notes/Natural Isomorphism.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Identity Natural Transformation.md",
+                "file": "Notes/Natural Isomorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "5165a6981ced9d02",
+  "active": "fc1b26c65ed02c0a",
   "lastOpenFiles": [
-    "Notes/Identity Natural Transformation.md",
-    "Notes/Indexed Family.md",
-    "Notes/Natural Transformation.md",
-    "Notes/Class Function.md",
     "Notes/Natural Isomorphism.md",
-    "Notes/Equivalence of Categories.md",
-    "Notes/Morphisms in thin category are both monos and epis.md",
-    "Notes/Identity Functor.md",
+    "Notes/Natural Transformation.md",
+    "Notes/Inverse (Functor).md",
+    "Notes/Identity Natural Transformation.md",
     "Notes/Identity Function.md",
-    "Notes/Isomorphism of Categories.md"
+    "Notes/Identity Morphism.md",
+    "Notes/Morphism (Category Theory).md",
+    "Notes/Endomorphism (Category Theory).md",
+    "Notes/Identity Functor.md",
+    "Notes/Indexed Family.md"
   ]
 }

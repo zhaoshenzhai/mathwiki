@@ -5,7 +5,7 @@ Date Created: 12/03/2022 14:02:26
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Identity natural transformation is a natural isomorphism]]
 Constructions: [[Left inverse (Functor)]], [[Right Inverse (Functor)]]
 Generalizations: _Not Applicable_
 
@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ and $\cat{D}$ be categories and fix two functors $\ms{F}$ and $\ms{G}$. A **natural isomorphism from $\ms{F}$ to $\ms{G}$** is a natural transformation_
+_Let $\cat{C}$ and $\cat{D}$ be (locally-small) categories and fix two functors $\ms{F},\ms{G}:\cat{C}\to\cat{D}$. A **natural isomorphism from $\ms{F}$ to $\ms{G}$** is a natural transformation_
 
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-12_140320/image.svg", width=120></center>
 
