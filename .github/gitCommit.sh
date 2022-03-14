@@ -1,12 +1,6 @@
 #!/bin/bash
 
-CYAN='\033[0;36m'
-RED='\033[0;31m'
-RED='\033[0;31m'
-YELLOW='\033[0;33m'
-NC='\033[0m'
-
-source ~/MathWiki/.scripts/stats.sh -c -d
+source ~/MathWiki/.scripts/stats.sh -i -t -p
 
 printf "\n"
 git status
