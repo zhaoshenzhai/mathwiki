@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ~/MathWiki/.scripts/stats.sh -i -t -p
+source ~/MathWiki/.scripts/stats.sh -t
 
 printf "\n"
 git status
