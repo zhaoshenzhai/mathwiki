@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f2444d8539553b12",
+        "id": "68f40b560bf01c72",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Axiom of Union.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Axiom of Union.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241
+    "width": 241,
+    "collapsed": true
   },
   "right": {
     "id": "6e128061ec5336cc",
@@ -99,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Axiom of Union.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -162,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Axiom of Union.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f2444d8539553b12",
+  "active": "68f40b560bf01c72",
   "lastOpenFiles": [
-    "Notes/Isomorphism of Categories.md",
-    "Notes/Equivalence of Categories.md",
+    "Notes/Axiom of Union.md",
+    "Notes/Set of relative complements is a set.md",
+    "Notes/Set of relative complements.md",
+    "Notes/Reflexive closure is the smallest reflexive relation.md",
+    "Notes/Restricted order topology subset of subspace topology.md",
     "Notes/Composition of functors is associative.md",
-    "Notes/Composition of relations is associative.md",
-    "Notes/Composition of relations is a relation.md",
-    "Notes/Functor.md",
-    "Notes/Category.md",
-    "Notes/Inverse (Functor).md",
-    "Notes/Composition (Function).md",
-    "Notes/Composition (Functor).md"
+    "Notes/Lexicographical order on N2 is bounded below.md",
+    "Notes/Lexicographical Order Topology on R2.md",
+    "Notes/Collection of all singletons is a proper class.md",
+    "Notes/Left and right inverses coincide (Function).md"
   ]
 }
