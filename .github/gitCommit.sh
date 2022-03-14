@@ -6,9 +6,10 @@ RED='\033[0;31m'
 YELLOW='\033[0;33m'
 NC='\033[0m'
 
+source ~/MathWiki/.scripts/stats.sh
+
 cd ~/MathWiki
 
-"./.scripts/stats.sh"
 
 printf "\n"
 git status
@@ -24,7 +25,7 @@ printf "\n"
 
 read -n 1 -p "$(echo -e ${CYAN}"Commit? [Y/n] "${NC})" choice
 if [ -z "$choice" ] || [ "$choice" == "Y" ]; then
-    "./.scripts/stats.sh -u"
+    source ~/MathWiki/.scripts/stats.sh -u
 
     templatesInsertLine=$(grep -n "#### Templates" ~/.config/nvim/UltiSnips/vimwiki.snippets | sed 's/:.*$//g')
     sed -i 's|\[templatesInsert\]:.*$|\[templatesInsert\]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L'"$templatesInsertLine"'|g' README.md
