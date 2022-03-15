@@ -4,24 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "33cc7adf4019269a",
+        "id": "b5a0a400e1900509",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Preorder Category.md",
+            "file": "Notes/Functor.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "b40e6d6d56a3c6ef",
+        "id": "049755e6743a8aee",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Commutative Diagram.md",
+            "file": "Notes/Identity Functor.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "5d3388b817b6b89d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Constant functor is a functor.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Preorder Category.md",
+                "file": "Notes/Functor.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Preorder Category.md",
+                "file": "Notes/Functor.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Preorder Category.md",
+                "file": "Notes/Functor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "33cc7adf4019269a",
+  "active": "b5a0a400e1900509",
   "lastOpenFiles": [
-    "Notes/Preorder Category.md",
-    "Notes/Commutative Diagram.md",
-    "Notes/Comma Category.md",
-    "Notes/Diagram.md",
     "Notes/Functor.md",
-    "Notes/Thin Category.md",
-    "Notes/Indexed Family.md",
-    "Notes/Lexicographical order on R2 is unbounded.md",
-    "Notes/Lower Bound.md",
-    "Notes/Inverse of function is unique.md"
+    "Notes/Identity Functor.md",
+    "Notes/Constant functor is a functor.md",
+    "Notes/Constant Functor.md",
+    "Notes/Identity functor is a functor.md",
+    "Notes/Natural Transformation.md",
+    "Notes/Slice Category.md",
+    "Notes/Commutative Diagram.md",
+    "Notes/Preorder Category.md",
+    "Notes/Preordered Set.md"
   ]
 }

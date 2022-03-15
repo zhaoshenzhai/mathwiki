@@ -17,14 +17,16 @@ Justifications: [[Identity functor is a functor]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category. The **identity functor on $\cat{C}$** is the covariant functor_ $\Id_\cat{C}:\cat{C}\to\cat{C}$ _defined by:_
-* _The identity (class) function which sends each object $X\in\obj\l(\cat{C}\r)$ to itself._
-* _For all objects $X,Y\in\obj\l(\cat{C}\r)$, the identity function_
+_Let $\cat{C}$ be a category. The **identity functor on $\cat{C}$** is the covariant functor_ $\Id_\cat{C}:\cat{C}\to\cat{C}$ _sending all objects and all morphisms to themselves. Formally,_ $\Id_\cat{C}\coloneqq\l\langle\Id_\cat{C}^{\obj},\l\{\l(\Id_\cat{C}^{\hom}\r)_{C,D}\r\}_{C,D\in\obj\l(\cat{C}\r)}\r\rangle$ _where_
 $$\begin{equation}
     \begin{aligned}
-        \id_{\hom\l(X,Y\r)}:\hom\l(X,Y\r)&\to\hom\l(X,Y\r)\\
-        f&\mapsto f.
-    \end{aligned}
+        \Id_\cat{C}^{\obj}:\obj\l(\cat{C}\r)&\to\obj\l(\cat{D}\r)\\
+        C&\mapsto C
+    \end{aligned}\ \ \ \ \ \ \ \ \textit{and}\ \ \ \ \ \ \ \ \fa C,D\in\obj\l(\cat{C}\r):\l[
+    \begin{aligned}
+        \l(\Id_\cat{C}^{\hom}\r)_{C,D}:\hom_\cat{C}\!\l(C,D\r)&\to\hom_\cat{D}\l(C,D\r)\\
+        f&\mapsto f
+    \end{aligned}\r].
 \end{equation}$$
 
 ```
