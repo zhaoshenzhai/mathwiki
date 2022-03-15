@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cd45aeb2cd554482",
+        "id": "5592c79b952bfbe9",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Cartesian product (Kuratowski) is a set (Replacement).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "18283b5d151e69f0",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "dc72c9695bca1c52",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Cartesian Product (Kuratowski).md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -97,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -193,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "18283b5d151e69f0",
+  "active": "5592c79b952bfbe9",
   "lastOpenFiles": [
-    "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
-    "Notes/Cartesian product (Kuratowski) is a set (Replacement).md",
-    "Notes/Cartesian Product (Kuratowski).md",
-    "Notes/Fundamental Theorem of Equivalence Relations.md",
+    "Notes/Identity Morphism.md",
+    "Notes/Natural Transformation.md",
+    "Notes/Identity Natural Transformation.md",
+    "Notes/Identity Functor.md",
+    "Notes/Functor.md",
+    "Notes/Composition (Functor).md",
+    "Notes/Composition of functors is associative.md",
     "Notes/Category.md",
-    "Notes/Set-Builder Notation.md",
-    "Notes/Axiom Schema of Specification.md",
-    "Notes/Set of relative complements is a set.md",
-    "Notes/Set of relative complements.md",
-    "Notes/Lexicographical order of well-orderings is a well-order.md"
+    "Notes/Category of Sets.md",
+    "Notes/Function.md"
   ]
 }
