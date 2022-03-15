@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Covariant Power Set Functor]]
+Constructions: [[Direct Image Function]]
 Generalizations: [[Image (Relation)]]
 
 Properties: [[Image of composition is image of image]]
