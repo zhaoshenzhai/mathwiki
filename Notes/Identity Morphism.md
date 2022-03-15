@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Identity Natural Transformation]]
+Constructions: [[Identity Natural Transformation]], [[Constant Functor]]
 Generalizations: _Not Applicable_
 
 Properties: [[Identity morphism is an isomorphism]]

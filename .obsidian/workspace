@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "049755e6743a8aee",
+        "id": "e5729e397a859142",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Functor.md",
+            "file": "Notes/Inclusion Functor.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "e5729e397a859142",
+        "id": "9e1ba57387bf8427",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Constant Functor.md",
+            "file": "Notes/Identity Functor.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Functor.md",
+                "file": "Notes/Inclusion Functor.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Functor.md",
+                "file": "Notes/Inclusion Functor.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Functor.md",
+                "file": "Notes/Inclusion Functor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "049755e6743a8aee",
+  "active": "e5729e397a859142",
   "lastOpenFiles": [
-    "Notes/Functor.md",
-    "Notes/Covariant Power Set Functor.md",
-    "Notes/Covariant power set functor is a functor.md",
-    "Notes/Constant Functor.md",
-    "Notes/Direct Image Function.md",
-    "Notes/Image (Function).md",
-    "Notes/Inclusion Function.md",
     "Notes/Inclusion Functor.md",
-    "Notes/Identity function is a function.md",
-    "Notes/Image (Relation).md"
+    "Notes/Inclusion Function.md",
+    "Notes/Identity Functor.md",
+    "Notes/Identity Function.md",
+    "Notes/Constant Functor.md",
+    "Notes/Identity Morphism.md",
+    "Notes/Inverse (Functor).md",
+    "Notes/Power Set.md",
+    "Notes/Covariant Power Set Functor.md",
+    "Notes/Direct Image Function.md"
   ]
 }
