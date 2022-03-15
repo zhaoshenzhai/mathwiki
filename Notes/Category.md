@@ -17,7 +17,25 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition (Informal).
 
-_A **category** $\cat{C}$ consists of the data of_
+_Let $\mc{U}$ be a Grothendieck universe. A **category** is a quadruple $\cat{C}\coloneqq\l\langle\mc{O},\hom,\id,\comp\r\rangle$ consisting of_
+* _a $\mc{U}$-moderate set $\mc{O}\subseteq\mc{U}$,_
+* _a $\mc{U}$-moderate function_
+$$\begin{equation}
+    \hom:\mc{O}^2\to\pow\l(\mc{U}\r)\ \ \ \ \textit{mapping}\ \ \ \ \l\langle X,Y\r\rangle\mapsto\hom\l(X,Y\r),
+\end{equation}$$
+* _a $\mc{U}$-small function_
+$$\begin{equation}
+    \id:\mc{O}\to\mc{U}\ \ \ \ \textit{mapping}\ \ \ \ X\mapsto\id_X\in\hom\l(X,X\r),
+\end{equation}$$
+* _and a $\mc{U}$-small function_
+$$\begin{equation}
+    \comp:\mc{O}^3\to\mc{U}\ \ \ \ \textit{mapping}\ \ \ \ \l\langle X,Y,Z\r\rangle\mapsto\l[
+        \begin{aligned}
+            \circ:\hom\l(Y,Z\r)\times\hom\l(X,Y\r)&\to\hom\l(X,Z\r)\\
+            \l\langle g,f\r\rangle&\mapsto g\circ f
+        \end{aligned}
+    \r],
+\end{equation}$$
 * _a class $\obj\l(\cat{C}\r)$ whose members are called **$\cat{C}$-objects**,_
 * _a class function $\hom$ assigning to each pair $X,Y\in\obj\l(\cat{C}\r)$ a class $\hom\l(X,Y\r)$ called the **$\cat{C}$-hom-class from $X$ to $Y$**,_
 * _a class function $\id$ assigning to each $X\in\obj\l(\cat{C}\r)$ an element $\id_X\in\hom\l(X,X\r)$ called the the **$\cat{C}$-identity on $X$**, and_
