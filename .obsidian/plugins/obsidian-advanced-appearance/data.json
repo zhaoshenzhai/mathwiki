@@ -17,8 +17,8 @@
   "lineWidth": 10000000,
   "textNormal": 16,
   "textSmall": 13,
-  "underlineInternal": true,
-  "underlineExternal": true,
+  "underlineInternal": false,
+  "underlineExternal": false,
   "useSystemTheme": false,
   "relationLinesPreview": false,
   "relationLinesEdit": false

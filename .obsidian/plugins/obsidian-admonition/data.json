@@ -55,7 +55,7 @@
   "syntaxHighlight": false,
   "copyButton": false,
   "version": "7.0.4",
-  "autoCollapse": false,
+  "autoCollapse": true,
   "defaultCollapseType": "open",
   "syncLinks": false,
   "injectColor": true,
