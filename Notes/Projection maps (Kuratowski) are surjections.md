@@ -51,7 +51,7 @@ $$\begin{equation}
     \begin{alignedat}{2}
         \bigcup\l\{z=\bigcup p\mid\bigcup p\neq\bigcap p\Rightarrow z\not\in\bigcap p\r\}&=\bigcup\l\{z\in\l\{x,y\r\}\mid\l\{x,y\r\}\neq\l\{x\r\}\Rightarrow z\not\in\l\{z\r\}\r\}\ \ \ \ \ \ \ \ &&\textrm{Lemma }\l(\ast\r)\\
         &=\bigcup\l\{z\in\l\{x,y\r\}\mid z\not\in\l\{x\r\}\r\}&&\l\{x,y\r\}\neq\l\{x\r\}\\
-        &=\bigcup\l\{z\in\l\{y\r\}\r\}&&\l\{y\r\}=\l\{x,y\r\}\comp\l\{x\r\}\\
+        &=\bigcup\l\{z\in\l\{y\r\}\r\}&&\l\{y\r\}=\l\{x,y\r\}\setcomp\l\{x\r\}\\
         &=\bigcup\l\{y\r\}&&\textrm{Definition of singleton}\\
         &=y.&&\textrm{Simplification}
     \end{alignedat}

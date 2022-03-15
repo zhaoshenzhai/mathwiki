@@ -27,4 +27,4 @@ $$\begin{equation}
 \end{equation}$$
 Indeed, we claim that $\phi_j\l(f,x\r)\,\colon\!\Leftrightarrow x=f\l(j\r)$; the uniqueness of $x$ follows directly from the fact that $f$ is a function. We now need to prove that $\ran\pi_j=X_j$.
 * ($\subseteq$): Take $x\in\ran\pi_j$, so there exists $f\in\prod_{i\in I}X_i$ such that $x=\pi_j\l(f\r)=f\l(j\r)$. By definition of the Cartesian product, we see that $f\l(j\r)\in X_j$ and thus $x\in X_j$.
-* ($\supseteq$): Take $x\in X_j$ and, for all $i\in I\comp\l\{j\r\}$, let $x_i\in X_i$ be arbitrary; they exist because each $X_i\neq\em$. Consider the function $f:I\to\bigcup_{i\in I}X_i$ where $f\l(i\r)=x_i$ for all $i\in I$, and observe that $x=f\l(j\r)=\pi_j\l(f\r)$.<span style="float:right;">$\blacksquare$</span>
+* ($\supseteq$): Take $x\in X_j$ and, for all $i\in I\setcomp\l\{j\r\}$, let $x_i\in X_i$ be arbitrary; they exist because each $X_i\neq\em$. Consider the function $f:I\to\bigcup_{i\in I}X_i$ where $f\l(i\r)=x_i$ for all $i\in I$, and observe that $x=f\l(j\r)=\pi_j\l(f\r)$.<span style="float:right;">$\blacksquare$</span>
