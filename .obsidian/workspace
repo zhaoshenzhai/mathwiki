@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "5592c79b952bfbe9",
+        "id": "33cc7adf4019269a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Preorder Category.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "b40e6d6d56a3c6ef",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Commutative Diagram.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Preorder Category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Preorder Category.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Preorder Category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "5592c79b952bfbe9",
+  "active": "33cc7adf4019269a",
   "lastOpenFiles": [
-    "Notes/Identity Morphism.md",
-    "Notes/Natural Transformation.md",
-    "Notes/Identity Natural Transformation.md",
-    "Notes/Identity Functor.md",
+    "Notes/Preorder Category.md",
+    "Notes/Commutative Diagram.md",
+    "Notes/Comma Category.md",
+    "Notes/Diagram.md",
     "Notes/Functor.md",
-    "Notes/Composition (Functor).md",
-    "Notes/Composition of functors is associative.md",
-    "Notes/Category.md",
-    "Notes/Category of Sets.md",
-    "Notes/Function.md"
+    "Notes/Thin Category.md",
+    "Notes/Indexed Family.md",
+    "Notes/Lexicographical order on R2 is unbounded.md",
+    "Notes/Lower Bound.md",
+    "Notes/Inverse of function is unique.md"
   ]
 }
