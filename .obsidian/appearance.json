@@ -9,7 +9,8 @@
     "image",
     "stats",
     "external_links",
-    "links"
+    "links",
+    "listsLineBreak"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": true
