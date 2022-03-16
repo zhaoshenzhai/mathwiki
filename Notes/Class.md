@@ -6,7 +6,7 @@ Tags: #Definition #Open
 
 Types: _Not Applicable_
 Examples: [[Universal Class]], [[Intersection of empty set is a proper class]], [[Absolute complement of a set is a proper class]], [[Collection of all functions is a proper class]], [[Class of Ordinals]]
-Constructions: [[Class Function]], [[Category]]
+Constructions: [[Class Function]], [[Category (via Hom-classes)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

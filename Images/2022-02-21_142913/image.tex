@@ -5,9 +5,9 @@
 
 \begin{document}
     \begin{tikzcd}[color=textColor]
-        X \ar[r, "f"] \ar[rr, bend right, "g\circ f"'] &
-            Y \ar[r, "g" description, background color=bgColorAD] \ar[rr, bend left, "h\circ g"] &
-                Z \ar[r, "h"'] &
-                    W
+        \dom f \ar[r, "f"] \ar[rr, bend right, "g\circ f"'] &
+            \underset{(=\dom g)}{\cdm f} \ar[r, "g" description, background color=bgColorAD] \ar[rr, bend left, "h\circ g"] &
+                \overset{(=\cdm g)}{\dom h} \ar[r, "h"'] &
+                    \cdm h.
     \end{tikzcd}
 \end{document}

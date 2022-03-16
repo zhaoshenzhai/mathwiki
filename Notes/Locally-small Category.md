@@ -17,4 +17,4 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A category $\cat{C}$ is said to be **locally small** if for all $X,Y\in\obj\l(\cat{C}\r)$, the hom-class $\hom\l(X,Y\r)$ is a set._
+_Let $\mb{U}$ be a Grothendieck universe. A $\mb{U}$-category $\cat{C}$ is said to be **locally $\mb{U}$-small** if $\hom\l(X,Y\r)$ is $\mb{U}$-small for all $X,Y\in\obj\l(\cat{C}\r)$._

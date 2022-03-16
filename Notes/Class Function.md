@@ -6,7 +6,7 @@ Tags: #Definition #Open
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Category]], [[Functor]], [[Natural Transformation]]
+Constructions: [[Category (via Hom-classes)]], [[Functor]], [[Natural Transformation]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

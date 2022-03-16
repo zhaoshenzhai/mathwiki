@@ -1,0 +1,10 @@
+\documentclass[margin=20mm]{standalone}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\begin{document}
+    \begin{tikzcd}[column sep=3em, color=textColor]
+        \dom f \arrow[r, "\operatorname{id}_{\dom f}"] \arrow[rr, "f"', bend right] & \dom f \arrow[r, "f" description, background color=bgColorAD] \arrow[rr, "f", bend left] & \cdm f \arrow[r, "\operatorname{id}_{\cdm f}"'] & \cdm f.
+    \end{tikzcd}
+\end{document}
