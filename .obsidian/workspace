@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "36cc01b34bb43e00",
+        "id": "95911b7d0a77542e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear System of Equations.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "d619556e265ad266",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Combination.md",
+            "file": "Notes/Matrix.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Combination.md",
+                "file": "Notes/Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Combination.md",
+                "file": "Notes/Matrix.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Combination.md",
+                "file": "Notes/Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "d619556e265ad266",
+  "active": "95911b7d0a77542e",
   "lastOpenFiles": [
-    "Notes/Linear Combination.md",
-    "Notes/Linear System of Equations.md",
-    "Notes/Augmented Matrix.md",
     "Notes/Matrix.md",
+    "Notes/Solution of system of linear combination contains solution of original system.md",
+    "Notes/Linear System of Equations.md",
+    "Notes/Linear Combination.md",
+    "Notes/Augmented Matrix.md",
     "Notes/Linear Equation.md",
     "Notes/Consistent Linear System.md",
     "Notes/Function.md",
     "Notes/Equation.md",
-    "Notes/Solution Set (Equation).md",
-    "Notes/System of Equations.md"
+    "Notes/Solution Set (Equation).md"
   ]
 }
