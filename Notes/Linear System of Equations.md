@@ -25,4 +25,26 @@ $$\begin{equation}
         &A_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&A_{mn}x_n&&=&&b_m.
     \end{alignedat}\r.
 \end{equation}$$
+
 ```
+
+**Remark.** Letting
+$$\begin{equation}
+    \v{A}\coloneqq
+        \begin{bmatrix}
+            A_{11} & \cdots & A_{1n} \\
+            \vdotswithin{A_{11}} & \ddots & \vdotswithin{A_{1n}} \\
+            A_{m1} & \cdots & A_{mn} \\
+        \end{bmatrix},\ \ \ \ \ \ \ \ \v{x}\coloneqq
+        \begin{bmatrix}
+            x_1 \\
+            \vdots\\
+            x_n
+        \end{bmatrix},\ \ \ \ \textrm{and}\ \ \ \ \v{b}\coloneqq
+        \begin{bmatrix}
+            b_1 \\
+            \vdots\\
+            b_m
+        \end{bmatrix},
+\end{equation}$$
+we can write the linear system as $\v{A}\v{x}=\v{b}$ (matrix multiplication is suppressed).

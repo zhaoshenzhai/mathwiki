@@ -32,18 +32,18 @@ $$\begin{equation}
              A_{11} & \cdots & A_{1n} & b_{1}\\
              \vdotswithin{A_{11}} & \ddots & \vdotswithin{A_{1n}} & \vdotswithin{b_1}\\
              A_{m1} & \cdots & A_{mn} & b_m
-        \end{array}\r];
-\end{equation}$$
-_formally, $[\v{A}\divides\v{b}]\coloneqq\l\langle m,n+1,f\r\rangle$ where_
-$$\begin{equation}
-    \begin{aligned}
-        f:\l\{1,\dots,m\r\}\times\l\{1,\dots,n+1\r\}&\to K\\
-        \l\langle i,j\r\rangle&\mapsto
-            \begin{dcases}
-                A_{ij}  & \textit{if}\ \ j\leq n\\
-                b_i & \textit{else.}
-            \end{dcases}
-    \end{aligned}
+        \end{array}\r].
 \end{equation}$$
 
 ```
+
+**Remark.** Formally, $[\v{A}\divides\v{b}]\coloneqq\l\langle m,n+1,f\r\rangle$ where
+
+$\begin{align}
+    f:\l\{1,\dots,m\r\}\times\l\{1,\dots,n+1\r\}&\to K\\
+    \l\langle i,j\r\rangle&\mapsto
+        \begin{dcases}
+            A_{ij}  & \textrm{if}\ \ j\leq n\\
+            b_i & \textrm{else.}\exqedin
+        \end{dcases}
+\end{align}$
