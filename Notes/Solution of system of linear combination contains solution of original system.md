@@ -16,17 +16,17 @@ title: Proposition.
 _Let $K$ be a field and consider the linear system_
 $$\begin{equation}
     \phi_1\l(x_1,\dots,x_n\r)\,\colon\!\Leftrightarrow\l\{\begin{alignedat}{7}
-        &a_{11}x_1&&\,+&&\,\cdots\,&&\,+\,&&a_{1n}x_n&&=\ &&b_1\\
-        &\vdotswithin{a_{11}x_1}&&&&&&&&\vdotswithin{a_{1n}x_n}&&&&\vdotswithin{b_1}\\
-        &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m
+        &A_{11}x_1&&\,+&&\,\cdots\,&&\,+\,&&A_{1n}x_n&&=\ &&b_1\\
+        &\vdotswithin{A_{11}x_1}&&&&&&&&\vdotswithin{A_{1n}x_n}&&&&\vdotswithin{b_1}\\
+        &A_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&A_{mn}x_n&&=&&b_m
     \end{alignedat}\r.
 \end{equation}$$
 _of equations over $K$. Fix_ $c_{i1},\dots,c_{im}\in K$ _for all $i\in\l\{1,\dots,m\r\}$ and consider the linear system_
 $$\begin{equation}
     \phi_2\l(x_1,\dots,x_n\r)\,\colon\!\Leftrightarrow\l\{\begin{alignedat}{7}
-        \l(c_{11}a_{11}+\cdots+c_{1m}a_{m1}\r)&x_1&&\,+\,&&\,\cdots\,&&\,+\,\,\,\,\l(c_{11}a_{1n}+\cdots+c_{1m}a_{mn}\r)&&x_n&&=\,\,c_{11}b_1+\cdots+c_{1m}&&b_m\\
-        \vdots\hspace{0.97in}&&&&&&&\hspace{1.2in}\vdots&&&&\hspace{1.02in}\vdots\\
-        \l(c_{m1}a_{11}+\cdots+c_{mm}a_{m1}\r)&x_1&&\,+\,&&\,\cdots\,&&\,+\,\l(c_{m1}a_{1n}+\cdots+c_{mm}a_{mn}\r)&&x_n&&=c_{m1}b_1+\cdots+c_{mm}&&b_m
+        \l(c_{11}A_{11}+\cdots+c_{1m}A_{m1}\r)&x_1&&\,+\,&&\,\cdots\,&&\,+\,\,\,\,\l(c_{11}A_{1n}+\cdots+c_{1m}A_{mn}\r)&&x_n&&=\,\,c_{11}b_1+\cdots+c_{1m}&&b_m\\
+        \vdots\hspace{1.01in}&&&&&&&\hspace{1.25in}\vdots&&&&\hspace{1.02in}\vdots\\
+        \l(c_{m1}A_{11}+\cdots+c_{mm}A_{m1}\r)&x_1&&\,+\,&&\,\cdots\,&&\,+\,\l(c_{m1}A_{1n}+\cdots+c_{mm}A_{mn}\r)&&x_n&&=c_{m1}b_1+\cdots+c_{mm}&&b_m
     \end{alignedat}\r.
 \end{equation}$$
 _of $m$ linear combinations thereof. Then $\fa s_1,\dots,s_n:\phi_1\l(s_1,\dots,s_n\r)\Rightarrow\phi_2\l(s_1,\dots,s_n\r)$; that is, all solutions of the original system are solutions of the system of its linear combinations._
@@ -35,11 +35,11 @@ _of $m$ linear combinations thereof. Then $\fa s_1,\dots,s_n:\phi_1\l(s_1,\dots,
 
 _Proof_. Take $s_1,\dots,x_n\in K$ such that $\phi_1\l(s_1,\dots,s_n\r)$. Then, for all $i\in\l\{1,\dots,m\r\}$, $\l\langle s_1,\dots,s_n\r\rangle$ is a solution of
 $$\begin{equation}
-    c_{i1}\l(a_{11}x_1+\cdots+a_{1n}x_n\r)+\cdots+c_{im}\l(a_{m1}x_1+\cdots+a_{mn}x_n\r)=c_{i1}b_1+\cdots+c_{im}b_m.
+    c_{i1}\l(A_{11}x_1+\cdots+A_{1n}x_n\r)+\cdots+c_{im}\l(A_{m1}x_1+\cdots+A_{mn}x_n\r)=c_{i1}b_1+\cdots+c_{im}b_m.
 \end{equation}$$
 Rearranging by grouping all the $x_j\textrm{'}$s together, we see that $\l\langle s_1,\dots,s_n\r\rangle$ is also a solution of
 $$\begin{equation}
-    \l(c_{i1}a_{11}+\cdots+c_{im}a_{m1}\r)x_1+\cdots+\l(c_{i1}a_{1n}+\cdots+c_{im}a_{mn}\r)x_n=c_{i1}b_1+\cdots+c_{im}b_m.
+    \l(c_{i1}A_{11}+\cdots+c_{im}A_{m1}\r)x_1+\cdots+\l(c_{i1}A_{1n}+\cdots+c_{im}A_{mn}\r)x_n=c_{i1}b_1+\cdots+c_{im}b_m.
 \end{equation}$$
 This holds for all $i\in\l\{1,\dots,m\r\}$, so $\l\langle s_1,\dots,s_n\r\rangle$ is a solution of $\phi_2\l(x_2,\dots,x_n\r)$ and thus $\phi_2\l(s_1,\dots,s_n\r)$.<span style="float:right;">$\blacksquare$</span>
 

@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Augmented Matrix]]
-Constructions: _Not Applicable_
+Constructions: [[Set of Matrices (over a field)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

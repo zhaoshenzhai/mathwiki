@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "95911b7d0a77542e",
+        "id": "a9427040c8c33710",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -182,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "95911b7d0a77542e",
+  "active": "a9427040c8c33710",
   "lastOpenFiles": [
     "Notes/Matrix.md",
-    "Notes/Solution of system of linear combination contains solution of original system.md",
-    "Notes/Linear System of Equations.md",
-    "Notes/Linear Combination.md",
     "Notes/Augmented Matrix.md",
-    "Notes/Linear Equation.md",
-    "Notes/Consistent Linear System.md",
-    "Notes/Function.md",
-    "Notes/Equation.md",
-    "Notes/Solution Set (Equation).md"
+    "Notes/Linear System of Equations.md",
+    "Notes/Solution of system of linear combination contains solution of original system.md",
+    "Notes/Linear Combination.md",
+    "Notes/Set of Matrices (over a field).md",
+    "Notes/Set of Closed Sets.md",
+    "Notes/Isomorphism (Set Theory).md",
+    "Notes/Bijection.md",
+    "Notes/Inverse (Functor).md"
   ]
 }
