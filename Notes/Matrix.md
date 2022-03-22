@@ -5,7 +5,7 @@ Date Created: 22/03/2022 16:12:09
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Augmented Matrix]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

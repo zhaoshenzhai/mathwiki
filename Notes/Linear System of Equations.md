@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Consistent Linear System]]
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Augmented Matrix]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

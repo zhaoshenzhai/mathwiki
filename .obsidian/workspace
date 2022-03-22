@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "849b9c30c0c48eff",
+        "id": "36cc01b34bb43e00",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Equation.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "3b298c5e4dcb633f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear System of Equations.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "3b298c5e4dcb633f",
+  "active": "36cc01b34bb43e00",
   "lastOpenFiles": [
-    "Notes/Linear System of Equations.md",
-    "Notes/Consistent Linear System.md",
     "Notes/Linear Equation.md",
+    "Notes/Linear System of Equations.md",
+    "Notes/Augmented Matrix.md",
     "Notes/Matrix.md",
+    "Notes/Consistent Linear System.md",
     "Notes/Function.md",
     "Notes/Equation.md",
     "Notes/Solution Set (Equation).md",
     "Notes/System of Equations.md",
-    "Notes/Equivalence Relation.md",
-    "Notes/Axiom Schema of Specification.md"
+    "Notes/Equivalence Relation.md"
   ]
 }
