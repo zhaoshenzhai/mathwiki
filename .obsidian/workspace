@@ -7,8 +7,24 @@
         "id": "849b9c30c0c48eff",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Equation.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "3b298c5e4dcb633f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear System of Equations.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linear System of Equations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linear System of Equations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear System of Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "849b9c30c0c48eff",
+  "active": "3b298c5e4dcb633f",
   "lastOpenFiles": [
+    "Notes/Linear System of Equations.md",
+    "Notes/Consistent Linear System.md",
+    "Notes/Linear Equation.md",
     "Notes/Matrix.md",
     "Notes/Function.md",
-    "Notes/Linear Equation.md",
-    "Notes/Consistent Linear Equations.md",
     "Notes/Equation.md",
     "Notes/Solution Set (Equation).md",
     "Notes/System of Equations.md",
     "Notes/Equivalence Relation.md",
-    "Notes/Axiom Schema of Specification.md",
-    "Notes/Standard Topology on R.md"
+    "Notes/Axiom Schema of Specification.md"
   ]
 }

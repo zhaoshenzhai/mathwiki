@@ -4,9 +4,9 @@
 Date Created: 22/03/2022 14:55:48
 Tags: #Definition #Closed 
 
-Types: [[Consistent Linear Equations]]
+Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Linear System of Equations]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
