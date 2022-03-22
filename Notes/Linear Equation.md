@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 22/03/2022 14:55:48
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed 
 
 Types: [[Consistent Linear Equations]]
 Examples: _Not Applicable_
