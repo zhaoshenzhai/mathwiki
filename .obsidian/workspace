@@ -4,24 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "038ac5a8eede6059",
+        "id": "61bec3c6cdfb466d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Matrix Addition.md",
+            "file": "Notes/Elementary Row Operation.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "046f3b5ce74736ea",
+        "id": "900215beacc46fac",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Matrix Multiplication.md",
+            "file": "Notes/Elementary row operations have inverses of the same type.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "db7fa7c098ca931b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Inverse (Function).md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Matrix Multiplication.md",
+                "file": "Notes/Elementary row operations have inverses of the same type.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Matrix Multiplication.md",
+                "file": "Notes/Elementary row operations have inverses of the same type.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Matrix Multiplication.md",
+                "file": "Notes/Elementary row operations have inverses of the same type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "046f3b5ce74736ea",
+  "active": "900215beacc46fac",
   "lastOpenFiles": [
-    "Notes/Matrix Multiplication.md",
-    "Notes/Matrix Addition.md",
-    "Notes/Linear Equation.md",
+    "Notes/Elementary row operations have inverses of the same type.md",
+    "Notes/Elementary Row Operation.md",
+    "Notes/Inverse (Function).md",
     "Notes/Function.md",
-    "Notes/Functor.md",
     "Notes/Matrix.md",
     "Notes/Linear System of Equations.md",
-    "Notes/Augmented Matrix.md",
-    "Notes/Lattice of Topologies.md",
-    "Notes/Complete Lattice.md"
+    "Notes/Consistent Linear System.md",
+    "Notes/Matrix Addition.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Linear Equation.md"
   ]
 }
