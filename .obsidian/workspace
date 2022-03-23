@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "61bec3c6cdfb466d",
+        "id": "7bdcfbdf7f7f1c6d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Elementary Row Operation.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "900215beacc46fac",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Elementary row operations have inverses of the same type.md",
-            "mode": "source",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "db7fa7c098ca931b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Inverse (Function).md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -97,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Elementary row operations have inverses of the same type.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Elementary row operations have inverses of the same type.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +151,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.8802021674299018,
+                  "scale": 0.29767109885184323,
                   "close": true
                 }
               }
@@ -193,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Elementary row operations have inverses of the same type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,13 +175,13 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "900215beacc46fac",
+  "active": "7bdcfbdf7f7f1c6d",
   "lastOpenFiles": [
     "Notes/Elementary row operations have inverses of the same type.md",
     "Notes/Elementary Row Operation.md",
+    "Notes/Matrix.md",
     "Notes/Inverse (Function).md",
     "Notes/Function.md",
-    "Notes/Matrix.md",
     "Notes/Linear System of Equations.md",
     "Notes/Consistent Linear System.md",
     "Notes/Matrix Addition.md",
