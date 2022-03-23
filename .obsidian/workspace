@@ -4,11 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "7bdcfbdf7f7f1c6d",
+        "id": "935fc431d8ab4207",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear System of Equations.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "75cb8a0d72773569",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Row-equivalence of Matrices.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "95b9fc427aee3796",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Augmented Matrix.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "d543da0600817921",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Augmented Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +141,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Augmented Matrix.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -151,7 +193,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.29767109885184323,
+                  "scale": 0.16466193355154346,
                   "close": true
                 }
               }
@@ -163,6 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Augmented Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +218,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "7bdcfbdf7f7f1c6d",
+  "active": "95b9fc427aee3796",
   "lastOpenFiles": [
-    "Notes/Elementary row operations have inverses of the same type.md",
-    "Notes/Elementary Row Operation.md",
-    "Notes/Matrix.md",
-    "Notes/Inverse (Function).md",
-    "Notes/Function.md",
+    "Notes/Augmented Matrix.md",
+    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
+    "Notes/Row-equivalence of Matrices.md",
     "Notes/Linear System of Equations.md",
-    "Notes/Consistent Linear System.md",
-    "Notes/Matrix Addition.md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Linear Equation.md"
+    "Notes/Solution of system of linear combination contains solution of original system.md",
+    "Notes/Elementary row operations have inverses of the same type.md",
+    "Notes/Row-equivalence of matrices is an equivalence relation.md",
+    "Notes/Isomorphism (Set Theory).md",
+    "Notes/Standard Topology on R.md",
+    "Notes/Matrix.md"
   ]
 }

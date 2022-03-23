@@ -2,11 +2,11 @@
 <br />
 
 Date Created: 23/03/2022 18:10:20
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed 
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Row-equivalence of Matrices]]
 Generalizations: _Not Applicable_
 
 Properties: [[Elementary row operations have inverses of the same type]]

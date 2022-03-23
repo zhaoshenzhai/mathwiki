@@ -10,7 +10,7 @@ Constructions: [[Augmented Matrix]], [[Linear Combination]]
 Generalizations: _Not Applicable_
 
 Properties: [[Solution of system of linear combination contains solution of original system]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
@@ -27,7 +27,7 @@ $$\begin{equation}
 \end{equation}$$
 _of equations over $K$. The **augmented matrix of the linear system** is the matrix_
 $$\begin{equation}
-    [\v{A}\divides\v{b}]\coloneqq\l[
+    [\v{A}\vert\v{b}]\coloneqq\l[
         \begin{array}{ccc|c}
              A_{11} & \cdots & A_{1n} & b_{1}\\
              \vdotswithin{A_{11}} & \ddots & \vdotswithin{A_{1n}} & \vdotswithin{b_1}\\
@@ -37,7 +37,7 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Formally, $[\v{A}\divides\v{b}]\coloneqq\l\langle m,n+1,f\r\rangle$ where
+**Remark.** Formally, $[\v{A}\vert\v{b}]\coloneqq\l\langle m,n+1,f\r\rangle$ where
 
 $\begin{align}
     f:\l\{1,\dots,m\r\}\times\l\{1,\dots,n+1\r\}&\to K\\
