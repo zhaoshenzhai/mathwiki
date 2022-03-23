@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "03184d2482ce81a9",
+        "id": "038ac5a8eede6059",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear System of Equations.md",
+            "file": "Notes/Matrix Addition.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "046f3b5ce74736ea",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Matrix Multiplication.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
+                "file": "Notes/Matrix Multiplication.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
+                "file": "Notes/Matrix Multiplication.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -157,7 +169,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.20245391211718558,
+                  "scale": 0.8802021674299018,
                   "close": true
                 }
               }
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
+                "file": "Notes/Matrix Multiplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "03184d2482ce81a9",
+  "active": "046f3b5ce74736ea",
   "lastOpenFiles": [
+    "Notes/Matrix Multiplication.md",
+    "Notes/Matrix Addition.md",
+    "Notes/Linear Equation.md",
+    "Notes/Function.md",
+    "Notes/Functor.md",
+    "Notes/Matrix.md",
     "Notes/Linear System of Equations.md",
     "Notes/Augmented Matrix.md",
-    "Notes/Matrix Addition.md",
-    "Notes/Matrix.md",
-    "Notes/Matrix Multiplication.md",
     "Notes/Lattice of Topologies.md",
-    "Notes/Complete Lattice.md",
-    "Notes/Lattice.md",
-    "Notes/Set of topologies on a set.md",
-    "Notes/Category (via Hom-classes).md"
+    "Notes/Complete Lattice.md"
   ]
 }
