@@ -4,7 +4,7 @@
 Date Created: 22/03/2022 16:12:09
 Tags: #Definition #Closed 
 
-Types: _Not Applicable_
+Types: [[Row-echelon Matrix]]
 Examples: [[Augmented Matrix]]
 Constructions: [[Set of Matrices (over a field)]], [[Matrix Addition]], [[Matrix Multiplication]], [[Scalar Multiplication (Matrix)]], [[Elementary Row Operation]]
 Generalizations: _Not Applicable_

@@ -66,7 +66,7 @@ $$\begin{equation}
         \end{alignedat}
     \r.
 \end{equation}$$
-of linear combinations of $\phi_1\l(x_1,x_2,x_3\r)$ obtained by choosing
+of linear combinations of $\phi_1\l(x_1,x_2,x_3\r)$ given by
 $$\begin{equation}
     \begin{alignedat}{3}
         c_{11}&=2\hspace{0.5in}c_{12}&&=1\hspace{0.5in}c_{13}&&=0\\
