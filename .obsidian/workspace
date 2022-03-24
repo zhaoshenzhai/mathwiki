@@ -16,7 +16,7 @@
         }
       },
       {
-        "id": "4a690893166f3c6e",
+        "id": "c6775d5cf8da4a62",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -194,7 +194,7 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "4a690893166f3c6e",
+  "active": "c6775d5cf8da4a62",
   "lastOpenFiles": [
     "Notes/Gaussian Elimination.md",
     "Notes/Row-echelon Matrix.md",
