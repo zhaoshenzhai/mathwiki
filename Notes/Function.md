@@ -5,7 +5,7 @@ Date Created: 14/01/2022 14:25:20
 Tags: #Definition #Closed 
 
 Types: [[Injection]], [[Surjection]]
-Examples: [[Identity Function]], [[Inclusion Function]], [[Elementary Row Operation]]
+Examples: [[Identity Function]], [[Inclusion Function]]
 Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Left Inverse (Function)]], [[Right Inverse (Function)]], [[Function Space (Set Theory)]], [$\cat{Set}$](Category%20of%20Sets.md)
 Generalizations: [[Morphism (Category Theory)]], [[Class Function]]
 

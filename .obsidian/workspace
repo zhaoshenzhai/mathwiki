@@ -4,12 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "94094c975b1799cf",
+        "id": "8fb471fd2aa2f1f1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Matrix.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "97ee16bad4aebaea",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Row-echelon Matrix.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "0d41bc5aa85be6ac",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Reduced Row-echelon Matrix.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Matrix.md",
+                "file": "Notes/Reduced Row-echelon Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Matrix.md",
+                "file": "Notes/Reduced Row-echelon Matrix.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -157,7 +181,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.30398020795928865,
+                  "scale": 0.3119291358712458,
                   "close": true
                 }
               }
@@ -169,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Matrix.md",
+                "file": "Notes/Reduced Row-echelon Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "94094c975b1799cf",
+  "active": "0d41bc5aa85be6ac",
   "lastOpenFiles": [
+    "Notes/Reduced Row-echelon Matrix.md",
+    "Notes/Row-echelon Matrix.md",
     "Notes/Matrix.md",
+    "Notes/Minimal Element.md",
+    "Notes/Least Element.md",
     "Notes/Solution of system of linear combination contains solution of original system.md",
-    "Notes/Linear Combination.md",
-    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
-    "Notes/Linear System of Equations.md",
-    "Notes/Dedekind-complete bounded convex sets are intervals.md",
-    "Notes/Rational convex set (not interval).md",
     "Notes/Elementary Row Operation.md",
-    "Notes/Row-equivalence of Matrices.md",
-    "Notes/Augmented Matrix.md"
+    "Notes/Function.md",
+    "Notes/Inverse (Function).md",
+    "Notes/Linear Combination.md"
   ]
 }
