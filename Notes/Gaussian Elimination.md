@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 24/03/2022 14:51:51
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed 
 
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
@@ -29,7 +29,7 @@ _Proof_. We shall algorithmically construct $\v{R}$ from $\v{M}$.
   <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-24_201822
 /image.svg", width=600></center>
 * Step 4: To replace all with red entries with $0$, perform the elementary row operations
-  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-24_203210/image.svg", width=750></center>
+  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-24_203210/image.svg", width=600></center>
 
   for all $i\in\l\{2,\dots,r\r\}$.
 * Step 5: Let $\v{M}'$ be the matrix after Step 4 and let $\v{M}_g$ be the green $\textrm{`}$submatrix$\textrm{'}$ shown above; that is, let $\v{M}_g\coloneqq\l\langle m-1,n-k,f_g\r\rangle$ where
