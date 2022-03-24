@@ -9,8 +9,8 @@ Examples: [[Bounded Open Ray]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Complete lattices are bounded]], [[Dedekind-complete bounded convex sets are intervals]]
-Sufficiencies: _Not Applicable_
+Properties: [[Dedekind-complete bounded convex sets are intervals]]
+Sufficiencies: [[Complete lattices are bounded]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

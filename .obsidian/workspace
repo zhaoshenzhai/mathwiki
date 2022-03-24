@@ -4,48 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "49f9b1af67442f16",
+        "id": "2d83399157a3dc08",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear System of Equations.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "4ec02873113195b7",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Consistent Linear System.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "38a06cba063619d1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Elementary Row Operation.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "32208344a55e2378",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Gaussian Algorithm.md",
+            "file": "Notes/Function.md",
             "mode": "preview",
             "source": true
           }
@@ -109,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Gaussian Algorithm.md",
+                "file": "Notes/Function.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Gaussian Algorithm.md",
+                "file": "Notes/Function.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -193,7 +157,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.19376754445774394,
+                  "scale": 0.20768711564828124,
                   "close": true
                 }
               }
@@ -205,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Gaussian Algorithm.md",
+                "file": "Notes/Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "32208344a55e2378",
+  "active": "2d83399157a3dc08",
   "lastOpenFiles": [
-    "Notes/Gaussian Algorithm.md",
-    "Notes/Elementary Row Operation.md",
-    "Notes/Consistent Linear System.md",
-    "Notes/Linear System of Equations.md",
-    "Notes/Linear Equation.md",
-    "Notes/Row-equivalence of Matrices.md",
     "Notes/Function.md",
-    "Notes/Binary Relation.md",
-    "Notes/Groupoid.md",
-    "Notes/Matrix.md"
+    "Notes/Elementary Row Operation.md",
+    "Notes/Formula in replacement image constructs a function.md",
+    "Notes/Lattice.md",
+    "Notes/Complete Lattice.md",
+    "Notes/Complete lattices are bounded.md",
+    "Notes/Bounded Poset.md",
+    "Notes/Supremum.md",
+    "Notes/Linear System of Equations.md",
+    "Notes/Consistent Linear System.md"
   ]
 }
