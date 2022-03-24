@@ -27,7 +27,7 @@ $$\begin{equation}
 \end{equation}$$
 _of equations over $K$. The **augmented matrix of the linear system** is the matrix_
 $$\begin{equation}
-    [\v{A}\vert\v{b}]\coloneqq\l[
+    \l[\v{A}\mid\v{b}\r]\coloneqq\l[
         \begin{array}{ccc|c}
              A_{11} & \cdots & A_{1n} & b_{1}\\
              \vdotswithin{A_{11}} & \ddots & \vdotswithin{A_{1n}} & \vdotswithin{b_1}\\
@@ -37,7 +37,7 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Formally, $[\v{A}\vert\v{b}]\coloneqq\l\langle m,n+1,f\r\rangle$ where
+**Remark.** Formally, $\l[\v{A}\mid\v{b}\r]\coloneqq\l\langle m,n+1,f\r\rangle$ where
 
 $\begin{align}
     f:\l\{1,\dots,m\r\}\times\l\{1,\dots,n+1\r\}&\to K\\

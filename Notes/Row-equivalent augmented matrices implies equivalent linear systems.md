@@ -17,15 +17,15 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider two linear systems $\v{A}\v{x}=\v{b}$ and $\v{R}\v{x}=\v{s}$ over $K$. If $\l[\v{A}\vert\v{b}\r]\sim\l[\v{R}\vert\v{s}\r]$, then the two linear systems are equivalent._
+_Let $K$ be a field and consider two linear systems $\v{A}\v{x}=\v{b}$ and $\v{R}\v{x}=\v{s}$ over $K$. If $\l[\v{A}\mid\v{b}\r]\sim\l[\v{R}\mid\v{s}\r]$, then the two linear systems are equivalent._
 
 ```
 
-_Proof_. Since $\l[\v{A}\vert\v{b}\r]\sim\l[\v{R}\vert\v{s}\r]$, there exist elementary row operations $e_1,\dots,e_k$ such that
+_Proof_. Since $\l[\v{A}\mid\v{b}\r]\sim\l[\v{R}\mid\v{s}\r]$, there exist elementary row operations $e_1,\dots,e_k$ such that
 $$\begin{equation}
-    \l[\v{A}\vert\v{b}\r]\xrightarrow{e_1}\l[\v{A}_1\vert\v{b}_1\r]\xrightarrow{e_2}\cdots\xrightarrow{e_k}\l[\v{A}_k\vert\v{b}_k\r]=\l[\v{R}\vert\v{s}\r]
+    \l[\v{A}\mid\v{b}\r]\xrightarrow{e_1}\l[\v{A}_1\mid\v{b}_1\r]\xrightarrow{e_2}\cdots\xrightarrow{e_k}\l[\v{A}_k\mid\v{b}_k\r]=\l[\v{R}\mid\v{s}\r]
 \end{equation}$$
-for some $k\in\N$. It suffices to assume only that $\l[\v{A}\vert\v{b}\r]\sim\l[\v{A}_1\vert\v{b}_1\r]$ and show that the systems $\v{A}\v{x}=\v{b}$ and $\v{A}_1\v{x}=\v{b}_1$ are equivalent since we can then similarly proceed $\l(k-1\r)$-more times. To this end, we show that the two systems are linear combinations of each other. Assume, w.l.o.g., that $e_1$ only affects the $s^\textrm{th}$ and $t^\textrm{th}$ rows, so all $k^\textrm{th}$ rows, where $k\not\in\l\{s,t\r\}$, are trivial linear combinations of $\v{A}\v{x}=\v{b}$ given by constants $c_k=1$ and $c_i=0$ otherwise; that is, all such $k^\textrm{th}$ rows are linear equations of the form
+for some $k\in\N$. It suffices to assume only that $\l[\v{A}\mid\v{b}\r]\sim\l[\v{A}_1\mid\v{b}_1\r]$ and show that the systems $\v{A}\v{x}=\v{b}$ and $\v{A}_1\v{x}=\v{b}_1$ are equivalent since we can then similarly proceed $\l(k-1\r)$-more times. To this end, we show that the two systems are linear combinations of each other. Assume, w.l.o.g., that $e_1$ only affects the $s^\textrm{th}$ and $t^\textrm{th}$ rows, so all $k^\textrm{th}$ rows, where $k\not\in\l\{s,t\r\}$, are trivial linear combinations of $\v{A}\v{x}=\v{b}$ given by constants $c_k=1$ and $c_i=0$ otherwise; that is, all such $k^\textrm{th}$ rows are linear equations of the form
 $$\begin{equation}
     A_{k1}x_1+\cdots+A_{kn}x_n=b_k.
 \end{equation}$$
@@ -48,4 +48,4 @@ $$\begin{equation}
 \end{equation}$$
 given by $c_i=0$ for $i\in\l\{1,\dots,m\r\}\setminus\l\{s,t\r\}$, $c_s=0$ (resp. $c_s=1$), and $c_t=1$ (resp. $c_t=0$).
 
-The converse, stating that each linear equation in $\v{A}\v{x}=\v{b}$ is a linear combination of $\v{A}_1\v{x}=\v{b}_1$, proceeds similarly as above; its assumption that $\l[\v{A}_1\vert\v{b}_1\r]\sim\l[\v{A}\vert\v{b}\r]$ is justified by by the fact that $\sim$ is an equivalence relation and is thus, in particular, symmetric. Thus the linear systems $\v{A}\v{x}=\v{b}$ and $\v{A}_1\v{x}=\v{b}_1$ are linear combinations of each other, so they have the same solutions and are hence equivalent.<span style="float:right;">$\blacksquare$</span>
+The converse, stating that each linear equation in $\v{A}\v{x}=\v{b}$ is a linear combination of $\v{A}_1\v{x}=\v{b}_1$, proceeds similarly as above; its assumption that $\l[\v{A}_1\mid\v{b}_1\r]\sim\l[\v{A}\mid\v{b}\r]$ is justified by by the fact that $\sim$ is an equivalence relation and is thus, in particular, symmetric. Thus the linear systems $\v{A}\v{x}=\v{b}$ and $\v{A}_1\v{x}=\v{b}_1$ are linear combinations of each other, so they have the same solutions and are hence equivalent.<span style="float:right;">$\blacksquare$</span>

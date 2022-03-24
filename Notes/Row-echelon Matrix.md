@@ -10,7 +10,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Gaussian Elimination]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -21,7 +21,7 @@ _Let $K$ be a field and fix $m,n\in\N$. A matrix $\v{R}\in\mat{m\times n}{K}$ is
 * _All zero-rows of $\v{R}$ are at the bottom:_
 $$\begin{equation}
     \begin{aligned}
-        \ex r\in\l\{1,\dots,m\r\}:\l[\l(\fa i\in\l\{1,\dots,r\r\},\ex j:R_{ij}\neq0\r)\land\l(\fa i\in\l\{r+1,\dots,m\r\},\fa j:R_{ij}=0\r)\r]. && \l(j\in\l\{1,\dots,n\r\}\r)
+        \ex r\in\l\{0,\dots,m\r\}:\l[\l(\fa i\in\l\{1,\dots,r\r\},\ex j:R_{ij}\neq0\r)\land\l(\fa i\in\l\{r+1,\dots,m\r\},\fa j:R_{ij}=0\r)\r]. && \l(j\in\l\{1,\dots,n\r\}\r)
     \end{aligned}
 \end{equation}$$
 * _For every non-zero row $i\in\l\{1,\dots,r\r\}$ of $\v{R}$, the first non-zero entry from the left, called the **leading entry of $i$**, is $1$:_
