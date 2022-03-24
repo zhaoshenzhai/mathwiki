@@ -12,24 +12,21 @@
 \AtBeginDocument{\globalcolor{textColor}}
 
 \begin{document}
-    $\begin{aligned}
-        \begin{bNiceMatrix}
-            0      & \Cdots & 0      & 1                     & \ast   & \Cdots & \ast   \\
-            \Vdots &        & \Vdots & \color{drawRed}\ast   & \ast   & \Cdots & \ast   \\
-                   &        &        & \Vdots[color=drawRed] & \Vdots & \Ddots & \Vdots \\
-            0      & \Cdots & 0      & \color{drawRed}\ast   & \ast   & \Cdots & \ast
-        \CodeAfter
-            \line{1-1}{4-3}
-        \end{bNiceMatrix}
-        \xrightarrow{M_{ik}R_1-R_i\to R_i}
-        \begin{bNiceMatrix}
-            0      & \Cdots & 0      & 1      & \ast                    & \Cdots                  & \ast                    \\
-            \Vdots &        & \Vdots & 0      & \color{drawGreen}\ast   & \Cdots[color=drawGreen] & \color{drawGreen}\ast   \\
-                   &        &        & \Vdots & \Vdots[color=drawGreen] & \Ddots[color=drawGreen] & \Vdots[color=drawGreen] \\
-            0      & \Cdots & 0      & 0      & \color{drawGreen}\ast   & \Cdots[color=drawGreen] & \color{drawGreen}\ast
-        \CodeAfter
-            \line{1-1}{4-3}
-        \end{bNiceMatrix}
-        && \scriptstyle\l(i\in\l\{2,\dots,r\r\}\r)
-    \end{aligned}$
+    $\begin{bNiceMatrix}
+        0      & \Cdots & 0      & 1                     & \ast   & \Cdots & \ast   \\
+        \Vdots &        & \Vdots & \color{drawRed}\ast   & \ast   & \Cdots & \ast   \\
+               &        &        & \Vdots[color=drawRed] & \Vdots & \Ddots & \Vdots \\
+        0      & \Cdots & 0      & \color{drawRed}\ast   & \ast   & \Cdots & \ast
+    \CodeAfter
+        \line{1-1}{4-3}
+    \end{bNiceMatrix}
+    \xrightarrow{M_{ik}R_1-R_i\to R_i}
+    \begin{bNiceMatrix}
+        0      & \Cdots & 0      & 1      & \ast                    & \Cdots                  & \ast                    \\
+        \Vdots &        & \Vdots & 0      & \color{drawGreen}\ast   & \Cdots[color=drawGreen] & \color{drawGreen}\ast   \\
+               &        &        & \Vdots & \Vdots[color=drawGreen] & \Ddots[color=drawGreen] & \Vdots[color=drawGreen] \\
+        0      & \Cdots & 0      & 0      & \color{drawGreen}\ast   & \Cdots[color=drawGreen] & \color{drawGreen}\ast
+    \CodeAfter
+        \line{1-1}{4-3}
+    \end{bNiceMatrix}$
 \end{document}
