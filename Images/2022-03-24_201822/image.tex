@@ -1,0 +1,32 @@
+\documentclass[margin=20mm]{standalone}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\makeatletter
+\newcommand{\globalcolor}[1]{%
+  \color{#1}\global\let\default@color\current@color
+}
+\makeatother
+
+\AtBeginDocument{\globalcolor{textColor}}
+
+\begin{document}
+    $\begin{bNiceMatrix}
+        0      & \Cdots & 0      & M_{lk_l}              & \ast   & \Cdots & \ast   \\
+        \Vdots &        & \Vdots & \color{drawRed}\ast   & \ast   & \Cdots & \ast   \\
+               &        &        & \Vdots[color=drawRed] & \Vdots & \Ddots & \Vdots \\
+        0      & \Cdots & 0      & \color{drawRed}\ast   & \ast   & \Cdots & \ast
+    \CodeAfter
+        \line{1-1}{4-3}
+    \end{bNiceMatrix}
+    \xrightarrow{\m{\frac{1}{M_{lk_l}}R_1\to R_1}}
+    \begin{bNiceMatrix}
+        0      & \Cdots & 0      & 1                     & \ast   & \Cdots & \ast   \\
+        \Vdots &        & \Vdots & \color{drawRed}\ast   & \ast   & \Cdots & \ast   \\
+               &        &        & \Vdots[color=drawRed] & \Vdots & \Ddots & \Vdots \\
+        0      & \Cdots & 0      & \color{drawRed}\ast   & \ast   & \Cdots & \ast
+    \CodeAfter
+        \line{1-1}{4-3}
+    \end{bNiceMatrix}.$
+\end{document}
