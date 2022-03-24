@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Row-equivalence of Matrices]], [[Gaussian Elimination]]
+Constructions: [[Row-equivalence of Matrices]], [[Gaussian Algorithm]]
 Generalizations: _Not Applicable_
 
 Properties: [[Elementary row operations have inverses of the same type]]

@@ -10,7 +10,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Gaussian Elimination]]
+Sufficiencies: [[Gaussian Algorithm]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

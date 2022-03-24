@@ -10,7 +10,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Row-equivalence of matrices is an equivalence relation]], [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
-Sufficiencies: [[Gaussian Elimination]]
+Sufficiencies: [[Gaussian Algorithm]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

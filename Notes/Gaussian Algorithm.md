@@ -11,7 +11,7 @@ Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
-title: Proposition (Gaussian Elimination).
+title: Proposition (Gaussian Algorithm).
 
 _Let $K$ be a field and fix $m,n\in\R$. Then every matrix $\v{M}\in\mat{m\times n}{K}$ is row-equivalent to a matrix $\v{R}\in\mat{m\times n}{K}$ in row-echelon form._
 
