@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Augmented Matrix]], [[Linear Combination]]
 Generalizations: _Not Applicable_
 
-Properties: [[Solution of system of linear combination contains solution of original system]]
+Properties: [[Solution of system of linear combination contains solution of original system]], [[Solutions of a linear system (Gaussian Elimination)]]
 Sufficiencies: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
@@ -47,4 +47,4 @@ $$\begin{equation}
             b_m
         \end{bmatrix},
 \end{equation}$$
-we can write the linear system as $\v{A}\v{x}=\v{b}$ (matrix multiplication is suppressed).
+we can write the linear system as $\v{A}\v{x}=\v{b}$.

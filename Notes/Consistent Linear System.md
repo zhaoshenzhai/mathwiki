@@ -10,7 +10,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Solutions of a linear system (Gaussian Elimination)]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -20,7 +20,7 @@ title: Definition.
 _Let $K$ be a field. The linear system_
 $$\begin{equation}
     \l\{\begin{alignedat}{7}
-        &A_{11}x_1&&\,+&&\,\cdots\,&&\,+\,&&A_{1n}x_n&&=\ &&b_1\\
+        &A_{11}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&A_{1n}x_n&&=\ &&b_1\\
         &\vdotswithin{A_{11}x_1}&&&&&&&&\vdotswithin{A_{1n}x_n}&&&&\vdotswithin{b_1}\\
         &A_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&A_{mn}x_n&&=&&b_m
     \end{alignedat}\r.

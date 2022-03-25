@@ -25,7 +25,7 @@ $$\begin{equation}
         &A_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&A_{mn}x_n&&=&&b_m
     \end{alignedat}\r.
 \end{equation}$$
-_of equations over $K$ Fix constants $c_1,\dots,c_m\in K$. The **linear combination of the linear system given by $c_1,\dots,c_m$** is the linear equation_
+_of equations over $K$ Fix constants $c_1,\dots,c_m\in K$. The **$K$-linear combination of the linear system given by $c_1,\dots,c_m$** is the linear equation_
 $$\begin{equation}
     \l(c_1A_{11}+\cdots+c_mA_{m1}\r)x_1+\cdots+\l(c_1A_{1n}+\cdots+c_mA_{mn}\r)x_n=c_1b_1+\cdots+c_mb_m.
 \end{equation}$$

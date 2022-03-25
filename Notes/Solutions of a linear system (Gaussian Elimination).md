@@ -1,0 +1,68 @@
+<br />
+<br />
+
+Date Created: 25/03/2022 15:55:27
+Tags: #Theorem #Closed 
+
+Proved by: [[Gaussian Algorithm]], [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
+Generalizations: _Not Applicable_
+
+Examples: _Not Applicable_
+Counterexamples: _Not Applicable_
+
+``` ad-Theorem
+title: Theorem (Gaussian Elimination).
+
+_Let $K$ be a field and consider any linear system_
+$$\begin{equation}
+    \v{A}\v{x}=\v{b}\ \ \ \ \Leftrightarrow\ \ \ \ \l\{\begin{alignedat}{7}
+        &A_{11}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&A_{1n}x_n&&=\ &&b_1\\
+        &\vdotswithin{A_{11}x_1}&&&&&&&&\vdotswithin{A_{1n}x_n}&&&&\vdotswithin{b_1}\\
+        &A_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&A_{mn}x_n&&=&&b_m
+    \end{alignedat}\r.
+\end{equation}$$
+_of equations over $K$. Let $\v{R}\coloneqq\l(e_l\circ\cdots\circ e_1\r)\l(\v{A}\r)\sim\v{A}$ be any row-echelon matrix, say with $r$ non-zero rows each with its leading column $k_i$, and let $\v{z}\coloneqq\l(e_l\circ\cdots\circ e_1\r)\l(\v{b}\r)$. For convenience, we shall denote_
+$$\begin{equation}
+    \fa j\in\l\{1,\dots,n\r\}:\mc{C}_j\coloneqq\l\{j+1,\dots,n\r\},\ \ \ \ \ \ \ \ \mc{K}\coloneqq\l\{k\in\N\mid k\textit{ is a leading column}\r\},\ \ \ \ \textit{and}\ \ \ \ \fa k\in\mc{K}:\mc{K}_k\coloneqq\l\{j\in\N\mid j>k\land j\in\mc{K}\r\}.
+\end{equation}$$
+_If_ $z_{r+1}=\cdots=z_m=0$_, then $\v{A}\v{x}=\v{b}$ is consistent and all solutions thereof can be expressed in the form of $\l\langle s_1,\dots,s_n\r\rangle\in K^n$ where_
+$$\begin{equation}
+    \fa\alpha\in\l\{1,\dots,n\r\}:s_\alpha\coloneqq
+        \begin{dcases}
+            z_i-\sum_{\mathclap{j\in\mc{C}_\alpha\setminus\mc{K}}}R_{ij}t_j-\sum_{\mathclap{j\in\mc{K}_\alpha}}R_{ij}s_j & \textit{i\!f\hspace{0.1in}}\ex i\in\l\{1,\dots,r\r\}:\alpha=k_i\\
+            t_\alpha & \textit{else}
+        \end{dcases}
+\end{equation}$$
+_and each_ $t_\alpha$_, if any, is an arbitrary element of $K$. Otherwise, $\v{A}\v{x}=\v{b}$ is inconsistent._
+
+```
+
+_Proof_. Such a matrix $\v{R}$ exists and can be constructed by the Gaussian Algorithm. If there exists some $j\in\l\{r+1,\dots,m\r\}$ such that $z_j\neq0$, then the $j^\textrm{th}$ equation in $\v{R}\v{x}=\v{z}$ reads $0+\cdots+0=z_j$ which is a contradiction. Thus the linear system $\v{R}\v{x}=\v{z}$, and thus $\v{A}\v{x}=\v{b}$, is inconsistent.
+
+Otherwise, we need to show that the tuples $\l\langle s_1,\dots,s_n\r\rangle$ are solutions of $\v{R}\v{x}=\v{z}$, and, moreover, that all solutions can be expressed in this form. Firstly, note that $s_\alpha$ is well-defined for all $\alpha\in\l\{1,\dots,n\r\}$, by which we mean that if there exists $i\in\l\{1,\dots,r\r\}$ such that $\alpha=k_i$, then $i$ is unique; this is guaranteed by $\axiref[3]$ of $\v{R}$.
+
+Moving on, take $i\in\l\{1,\dots,r\r\}$ and consider the equation
+$$\begin{equation}
+    \phi_i\l(x_1,\dots,x_n\r)\ \ \ \ \,\colon\!\Leftrightarrow\ \ \ \ \sum_{j=1}^nR_{ij}s_j=z_i;
+\end{equation}$$
+we wish to show that $\phi_i\l(s_1,\dots,s_n\r)$. By definition of $s_{k_i}$, we have that
+$$\begin{equation}
+    s_{k_i}=z_i-\sum_{\mathclap{j\in\mc{C}_{k_i}\setminus\mc{K}}}R_{ij}t_j-\sum_{\mathclap{j\in\mc{K}_{k_i}}}R_{ij}s_j
+\end{equation}$$
+for arbitrary $t_j\in K$, and thus
+$$\begin{equation}
+    \begin{aligned}
+        z_i&=s_{k_i}+\sum_{\mathclap{j\in\mc{C}_{k_i}\setminus\mc{K}}}R_{ij}t_j+\sum_{\mathclap{j\in\mc{K}_{k_i}}}R_{ij}s_j && \textrm{Rearranging}\\
+        &=s_{k_i}+\sum_{\mathclap{j\in\mc{C}_{k_i}\setminus\mc{K}}}R_{ij}s_j+\sum_{\mathclap{j\in\mc{K}_{k_i}}}R_{ij}s_j && \fa j\in\mc{C}_{k_i}\setminus\mc{K}:s_j=t_j\\
+        &=s_{k_i}+\sum_{\mathclap{j=k_i+1}}^nR_{ij}s_j && \l(\mc{C}_{k_i}\setminus\mc{K}\r)\cup\mc{K}_{k_i}=\l\{k_i+1,\dots,n\r\}\\
+        &=R_{ik_i}s_{k_i}+\sum_{\mathclap{j=k_i+1}}^nR_{ij}s_j && \axiref[2]\textrm{ of }\v{R}\\
+        &=\sum_{\mathclap{j=k_1}}^nR_{ij}s_i && \textrm{Combine sums}\\
+        &=\sum_{j=1}^{\mathclap{k_i-1}}R_{ij}s_j+\sum_{\mathclap{j=k_1}}^nR_{ij}s_i && k_i=\min\l\{j\in\l\{1,\dots,n\r\}\mid R_{ij}\neq0\r\}\\
+        &=\sum_{j=1}^nR_{ij}s_j. && \textrm{Combine sums}
+    \end{aligned}
+\end{equation}$$
+The last equality precisely states that $\phi_i\l(s_1,\dots,s_n\r)$; since $i$ is arbitrary, this holds for all linear equations in $\v{R}\v{x}=\v{z}$ and thus $\l\langle s_1,\dots,s_n\r\rangle$ is a solution thereof. Finally, the proof that all solutions are of the form stated above amounts to observing that all the steps are reversible; if $\phi_1\l(s_1,\dots,s_n\r)$, we can split the sum, observe that $R_{ij}=0$ for all $j\in\l\{1,\dots,k_i-1\r\}$, combine the sums, split off the first term, observe that $R_{ik_i}=1$, split the sum into the leading and non-leading columns, and make the substitution $t_j\coloneqq s_j$ for all $j\in\mc{C}_{k_i}\setminus\mc{K}$. Rearranging shows that our solution must be of the form we stated here.<span style="float:right;">$\blacksquare$</span>
+
+---
+
+**Remark.** When calculating $s_\alpha$, start from $\alpha=n$ and work your way backwards since previous $s_\alpha\textrm{'}$s may depend on this result. Hence why this method is also called **back-substitution**.<span style="float:right;">$\blacklozenge$</span>
