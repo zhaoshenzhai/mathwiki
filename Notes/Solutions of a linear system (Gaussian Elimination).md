@@ -21,9 +21,9 @@ $$\begin{equation}
         &A_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&A_{mn}x_n&&=&&b_m
     \end{alignedat}\r.
 \end{equation}$$
-_of equations over $K$. Let $\v{R}\coloneqq\l(e_l\circ\cdots\circ e_1\r)\l(\v{A}\r)\sim\v{A}$ be any row-echelon matrix, say with $r$ non-zero rows each with its leading column $k_i$, and let $\v{z}\coloneqq\l(e_l\circ\cdots\circ e_1\r)\l(\v{b}\r)$. For convenience, we shall denote_
+_of equations over $K$. Let $\v{R}\coloneqq\l(e_l\circ\cdots\circ e_1\r)\l(\v{A}\r)\sim\v{A}$ be any row-echelon matrix, say with $r$ non-zero rows each with its pivot column $k_i$, and let $\v{z}\coloneqq\l(e_l\circ\cdots\circ e_1\r)\l(\v{b}\r)$. For convenience, we shall denote_
 $$\begin{equation}
-    \fa j\in\l\{1,\dots,n\r\}:\mc{C}_j\coloneqq\l\{j+1,\dots,n\r\},\ \ \ \ \ \ \ \ \mc{K}\coloneqq\l\{k\in\N\mid k\textit{ is a leading column}\r\},\ \ \ \ \textit{and}\ \ \ \ \fa k\in\mc{K}:\mc{K}_k\coloneqq\l\{j\in\N\mid j>k\land j\in\mc{K}\r\}.
+    \fa j\in\l\{1,\dots,n\r\}:\mc{C}_j\coloneqq\l\{j+1,\dots,n\r\},\ \ \ \ \ \ \ \ \mc{K}\coloneqq\l\{k\in\N\mid k\textit{ is a pivot column}\r\},\ \ \ \ \textit{and}\ \ \ \ \fa k\in\mc{K}:\mc{K}_k\coloneqq\l\{j\in\N\mid j>k\land j\in\mc{K}\r\}.
 \end{equation}$$
 _If_ $z_{r+1}=\cdots=z_m=0$_, then $\v{A}\v{x}=\v{b}$ is consistent and all solutions thereof can be expressed in the form of $\l\langle s_1,\dots,s_n\r\rangle\in K^n$ where_
 $$\begin{equation}
@@ -61,7 +61,7 @@ $$\begin{equation}
         &=\sum_{j=1}^nR_{ij}s_j. && \textrm{Combine sums}
     \end{aligned}
 \end{equation}$$
-The last equality precisely states that $\phi_i\l(s_1,\dots,s_n\r)$; since $i$ is arbitrary, this holds for all linear equations in $\v{R}\v{x}=\v{z}$ and thus $\l\langle s_1,\dots,s_n\r\rangle$ is a solution thereof. Finally, the proof that all solutions are of the form stated above amounts to observing that all the steps are reversible; if $\phi_1\l(s_1,\dots,s_n\r)$, we can split the sum, observe that $R_{ij}=0$ for all $j\in\l\{1,\dots,k_i-1\r\}$, combine the sums, split off the first term, observe that $R_{ik_i}=1$, split the sum into the leading and non-leading columns, and make the substitution $t_j\coloneqq s_j$ for all $j\in\mc{C}_{k_i}\setminus\mc{K}$. Rearranging shows that our solution must be of the form we stated here.<span style="float:right;">$\blacksquare$</span>
+The last equality precisely states that $\phi_i\l(s_1,\dots,s_n\r)$; since $i$ is arbitrary, this holds for all linear equations in $\v{R}\v{x}=\v{z}$ and thus $\l\langle s_1,\dots,s_n\r\rangle$ is a solution thereof. Finally, the proof that all solutions are of the form stated above amounts to observing that all the steps are reversible; if $\phi_1\l(s_1,\dots,s_n\r)$, we can split the sum, observe that $R_{ij}=0$ for all $j\in\l\{1,\dots,k_i-1\r\}$, combine the sums, split off the first term, observe that $R_{ik_i}=1$, split the sum into the leading and non-pivot columns, and make the substitution $t_j\coloneqq s_j$ for all $j\in\mc{C}_{k_i}\setminus\mc{K}$. Rearranging shows that our solution must be of the form we stated here.<span style="float:right;">$\blacksquare$</span>
 
 ---
 

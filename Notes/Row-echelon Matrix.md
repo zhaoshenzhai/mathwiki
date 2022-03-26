@@ -24,7 +24,7 @@ $$\begin{equation}
         \ex r\in\l\{0,\dots,m\r\}:\l[\l(\fa i\in\l\{1,\dots,r\r\},\ex j:R_{ij}\neq0\r)\land\l(\fa i\in\l\{r+1,\dots,m\r\},\fa j:R_{ij}=0\r)\r]. && \l(j\in\l\{1,\dots,n\r\}\r)
     \end{aligned}
 \end{equation}$$
-* $\axiref[2]\bf{.}$ _For every non-zero row $i\in\l\{1,\dots,r\r\}$ of $\v{R}$, the first non-zero entry from the left, called the **leading entry of $i$** and whose column is called the **leading column**, is $1$:_
+* $\axiref[2]\bf{.}$ _For every non-zero row $i\in\l\{1,\dots,r\r\}$ of $\v{R}$, the first non-zero entry from the left, called the **leading entry of $i$** and whose column is called the **pivot column**, is $1$:_
 $$\begin{equation}
     \begin{aligned}
         \fa i\in\l\{1,\dots,r\r\}:R_{ik_i}=1. && \l(k_i\coloneqq\min\l\{j\in\l\{1,\dots,n\r\}\mid R_{ij}\neq0\r\}\r)

@@ -10,8 +10,8 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Solutions of a linear system (Gaussian Elimination)]], [[Solutions of a linear system (Gauss-Jordan Elimination)]]
-Equivalences: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: [[Solutions of a linear system (Gaussian Elimination)]], [[Solutions of a linear system (Gauss-Jordan Elimination)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

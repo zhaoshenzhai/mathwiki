@@ -17,7 +17,7 @@ _Let $K$ be a field and fix $m,n\in\N$. Then every matrix $\v{M}\in\mat{m\times 
 
 ```
 
-_Proof_. Let $\v{M}'\coloneqq\l(e_k\circ\cdots\circ e_1\r)\l(\v{M}\r)\sim\v{M}$ be the result of performing the Gaussian Algorithm on $\v{M}$, say with $r$ non-zero rows. To reduce this to RREF, we need the leading $1\textrm{'}$s in each row to be the only non-zero entry in its column. To this end, take $l\in\l\{1,\dots,r\r\}$ and let $k$ denote its leading column. By $\axiref[3]$, all entries below $M'_{lk}$ are zero, so it suffices to perform the elementary row operations
+_Proof_. Let $\v{M}'\coloneqq\l(e_k\circ\cdots\circ e_1\r)\l(\v{M}\r)\sim\v{M}$ be the result of performing the Gaussian Algorithm on $\v{M}$, say with $r$ non-zero rows. To reduce this to RREF, we need the leading $1\textrm{'}$s in each row to be the only non-zero entry in its column. To this end, take $l\in\l\{1,\dots,r\r\}$ and let $k$ denote its pivot column. By $\axiref[3]$, all entries below $M'_{lk}$ are zero, so it suffices to perform the elementary row operations
 $$\begin{equation}
     R_i-M'_{ik}R_l\to R_i
 \end{equation}$$
