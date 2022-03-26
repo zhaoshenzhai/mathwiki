@@ -65,4 +65,4 @@ The last equality precisely states that $\phi_i\l(s_1,\dots,s_n\r)$; since $i$ i
 
 ---
 
-**Remark.** When calculating $s_\alpha$, start from $\alpha=n$ and work your way backwards since previous $s_\alpha\textrm{'}$s may depend on this result. Hence why this method is also called **back-substitution**.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** When calculating $s_\alpha$, start from $\alpha=n$ and work your way backwards since previous $s_\alpha\textrm{'}$s may depend on this result, but never otherwise; hence this method is also called **back-substitution**. This is guaranteed by $\axiref[3]$ of $\v{R}$, which states that $k_i<k_{i+1}$ for all $i\in\l\{1,\dots,r\r\}$.<span style="float:right;">$\blacklozenge$</span>

@@ -4,12 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "120e036c36419a44",
+        "id": "2368a3369fb66ca7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Solutions of a linear system (Gaussian Elimination).md",
+            "file": "Notes/Gaussian Algorithm.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "5980ee62045830c7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Reduced Row-echelon Matrix.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "191259e319f0006e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Gauss-Jordan Algorithm.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Solutions of a linear system (Gaussian Elimination).md",
+                "file": "Notes/Gauss-Jordan Algorithm.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Solutions of a linear system (Gaussian Elimination).md",
+                "file": "Notes/Gauss-Jordan Algorithm.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Solutions of a linear system (Gaussian Elimination).md",
+                "file": "Notes/Gauss-Jordan Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "120e036c36419a44",
+  "active": "191259e319f0006e",
   "lastOpenFiles": [
-    "Notes/Solutions of a linear system (Gaussian Elimination).md",
+    "Notes/Gauss-Jordan Algorithm.md",
+    "Notes/Reduced Row-echelon Matrix.md",
     "Notes/Consistent Linear System.md",
-    "Notes/Solution of system of linear combination contains solution of original system.md",
-    "Notes/Row-echelon Matrix.md",
     "Notes/Gaussian Algorithm.md",
-    "Notes/Matrix.md",
-    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
     "Notes/Linear System of Equations.md",
-    "Notes/Row-equivalence of Matrices.md",
-    "Notes/Elementary Row Operation.md"
+    "Notes/Solutions of a linear system (Gauss-Jordan Elimination).md",
+    "Notes/Solutions of a linear system (Gaussian Elimination).md",
+    "Notes/RREF of matrix is unique.md",
+    "Notes/Row-echelon Matrix.md",
+    "Notes/Solution of system of linear combination contains solution of original system.md"
   ]
 }

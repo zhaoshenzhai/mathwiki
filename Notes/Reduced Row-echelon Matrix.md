@@ -10,9 +10,9 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Gauss-Jordan Algorithm]]
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[RREF of matrix is unique]]
 
 ``` ad-Definition
 title: Definition.
@@ -26,3 +26,8 @@ $$\begin{equation}
 \end{equation}$$
 
 ```
+
+**Remark.** Since to every matrix $\v{M}\in\mat{m\times n}{K}$ there exists a unique matrix $\v{R}=\l(e_k\circ\cdots\circ e_l\r)\l(\v{M}\r)$ in reduced row-echelon form, we can consider the function
+$$\begin{equation}
+    \rref:\mat{m\times n}{K}\to\mat{m\times n}{K}\ \ \ \ \textrm{mapping}\ \ \ \ \v{M}\to\v{R}.\exqedin
+\end{equation}$$
