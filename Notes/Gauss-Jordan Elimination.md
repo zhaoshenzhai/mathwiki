@@ -4,7 +4,7 @@
 Date Created: 26/03/2022 14:27:26
 Tags: #Theorem #Closed 
 
-Proved by: [[Solutions of a linear system (Gaussian Elimination)]], [[Gauss-Jordan Algorithm]]
+Proved by: [[Gaussian Elimination]], [[Gauss-Jordan Algorithm]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

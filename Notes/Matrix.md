@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Row-echelon Matrix]]
 Examples: [[Augmented Matrix]]
-Constructions: [[Set of Matrices (over a field)]], [[Matrix Addition]], [[Matrix Multiplication]], [[Scalar Multiplication (Matrix)]], [[Elementary Row Operation]]
+Constructions: [[Set of Matrices (over a field)]], [[Matrix Addition]], [[Matrix Multiplication]], [[Scalar Multiplication (Matrix)]], [[Elementary Row Operation]], [[Rank (Matrix)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

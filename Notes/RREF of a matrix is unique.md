@@ -4,7 +4,7 @@
 Date Created: 26/03/2022 14:26:12
 Tags: #Proposition #Closed 
 
-Proved by: [[Solution of system of linear combination contains solution of original system]], [[Solutions of a linear system (Gaussian Elimination)]]
+Proved by: [[Solution of system of linear combinations contains solution of original system]], [[Gaussian Elimination]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

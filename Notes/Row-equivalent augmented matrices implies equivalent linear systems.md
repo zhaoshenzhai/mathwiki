@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 23/03/2022 22:18:42
 Tags: #Proposition #Closed 
 
-Proved by: [[Solution of system of linear combination contains solution of original system]], [[Row-equivalence of matrices is an equivalence relation]]
+Proved by: [[Solution of system of linear combinations contains solution of original system]], [[Row-equivalence of matrices is an equivalence relation]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

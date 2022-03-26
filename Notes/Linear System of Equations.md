@@ -6,10 +6,10 @@ Tags: #Definition #Closed
 
 Types: [[Consistent Linear System]]
 Examples: _Not Applicable_
-Constructions: [[Augmented Matrix]], [[Linear Combination]]
+Constructions: [[Augmented Matrix]], [[Linear Combination (System of Equations)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Solution of system of linear combination contains solution of original system]], [[Solutions of a linear system (Gaussian Elimination)]], [[Solutions of a linear system (Gauss-Jordan Elimination)]]
+Properties: [[Classification of linear systems of equations]], [[Gaussian Elimination]], [[Gauss-Jordan Elimination]], [[Solution of system of linear combinations contains solution of original system]]
 Sufficiencies: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
