@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ca4e7633ed68d64f",
+        "id": "2726f4546f184ca7",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/RREF of a matrix is unique.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/RREF of a matrix is unique.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/RREF of a matrix is unique.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -151,7 +157,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.45088062903103404,
+                  "scale": 0.9624394090082441,
                   "close": true
                 }
               }
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/RREF of a matrix is unique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "ca4e7633ed68d64f",
+  "active": "2726f4546f184ca7",
   "lastOpenFiles": [
-    "Notes/Solutions of a linear system (Gauss-Jordan Elimination).md",
+    "Notes/RREF of a matrix is unique.md",
+    "Notes/Linear Combination.md",
+    "Notes/Solution of system of linear combination contains solution of original system.md",
+    "Notes/Principle of Ordinary Induction.md",
     "Notes/Row-echelon Matrix.md",
+    "Notes/Linear System of Equations.md",
+    "Notes/Solutions of a linear system (Gauss-Jordan Elimination).md",
     "Notes/Solutions of a linear system (Gaussian Elimination).md",
     "Notes/Consistent Linear System.md",
-    "Notes/Linear System of Equations.md",
-    "Notes/Gaussian Algorithm.md",
-    "Notes/Reduced Row-echelon Matrix.md",
-    "Notes/Elementary Row Operation.md",
-    "Notes/Row-equivalence of Matrices.md",
-    "Notes/Functor.md"
+    "Notes/Gaussian Algorithm.md"
   ]
 }

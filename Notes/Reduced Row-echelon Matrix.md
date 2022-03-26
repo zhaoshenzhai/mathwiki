@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: [[Gauss-Jordan Algorithm]]
 Equivalences: _Not Applicable_
-Justifications: [[RREF of matrix is unique]]
+Justifications: [[RREF of a matrix is unique]]
 
 ``` ad-Definition
 title: Definition.

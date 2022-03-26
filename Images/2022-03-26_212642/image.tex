@@ -1,0 +1,40 @@
+\documentclass[margin=20mm]{standalone}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\makeatletter
+\newcommand{\globalcolor}[1]{%
+  \color{#1}\global\let\default@color\current@color
+}
+\makeatother
+
+\AtBeginDocument{\globalcolor{textColor}}
+
+\begin{document}
+    $\begin{bNiceMatrix}
+        0      & \Cdots & 0      & *     \\
+        \Vdots &        & \Vdots & \Vdots\\
+               &        &        & *     \\
+               &        &        & R_{in}-S_{in}\\
+               &        &        & *     \\
+               &        &        & \Vdots\\
+        0      & \Cdots & 0      & *     \\
+    \end{bNiceMatrix}
+    \begin{bNiceMatrix}[xdots/shorten=5pt]
+        x_1\\
+        \Vdots\\
+        \Vdots\\
+        \Vdots\\
+        \Vdots\\
+        \Vdots\\
+        x_n
+    \end{bNiceMatrix}=
+    \begin{bNiceMatrix}[xdots/shorten=5pt]
+        0\\
+        \Vdots\\
+        \Vdots\\
+        \Vdots\\
+        0
+    \end{bNiceMatrix}$
+\end{document}
