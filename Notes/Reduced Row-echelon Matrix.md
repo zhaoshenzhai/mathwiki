@@ -17,8 +17,8 @@ Justifications: [[RREF of matrix is unique]]
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N$. A matrix $\v{R}\in\mat{m\times n}{K}$ is said to be in **reduced row-echelon form** if $\v{R}$ is in row-echelon form and, assuming that $\v{R}$ has $r$ non-zero rows:_
-* _For every non-zero row $i\in\l\{1,\dots,r\r\}$ of $\v{R}$, the leading $1$ is the only non-zero entry in its column:_
+_Let $K$ be a field and fix $m,n\in\N$. A matrix $\v{R}\in\mat{m\times n}{K}$ is said to be in **reduced row-echelon form (RREF)** if $\v{R}$ is in row-echelon form and, assuming that $\v{R}$ has $r$ non-zero rows:_
+* $\axirref\bf{.}$ _For every non-zero row $i\in\l\{1,\dots,r\r\}$ of $\v{R}$, the leading $1$ is the only non-zero entry in its column:_
 $$\begin{equation}
     \begin{aligned}
         \fa i\in\l\{1,\dots,r\r\},\fa i'\in\l\{1,\dots,r\r\}\setminus\l\{i\r\}:R_{i'k_i}=0. && \l(k_i\coloneqq\min\l\{j\in\l\{1,\dots,n\r\}\mid R_{ij}\neq0\r\}\r)
