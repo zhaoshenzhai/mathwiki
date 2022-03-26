@@ -185,14 +185,14 @@
   "active": "2726f4546f184ca7",
   "lastOpenFiles": [
     "Notes/RREF of a matrix is unique.md",
+    "Notes/Solutions of a linear system (Gaussian Elimination).md",
+    "Notes/Row-echelon Matrix.md",
+    "Notes/Gaussian Algorithm.md",
+    "Notes/Gauss-Jordan Algorithm.md",
+    "Notes/Matrix Addition.md",
     "Notes/Linear Combination.md",
     "Notes/Solution of system of linear combination contains solution of original system.md",
     "Notes/Principle of Ordinary Induction.md",
-    "Notes/Row-echelon Matrix.md",
-    "Notes/Linear System of Equations.md",
-    "Notes/Solutions of a linear system (Gauss-Jordan Elimination).md",
-    "Notes/Solutions of a linear system (Gaussian Elimination).md",
-    "Notes/Consistent Linear System.md",
-    "Notes/Gaussian Algorithm.md"
+    "Notes/Linear System of Equations.md"
   ]
 }

@@ -12,14 +12,16 @@
 \AtBeginDocument{\globalcolor{textColor}}
 
 \begin{document}
-    $\begin{bNiceMatrix}
+    $\begin{bNiceMatrix}[xdots/shorten=5pt]
         0      & \Cdots & 0      & *     \\
         \Vdots &        & \Vdots & \Vdots\\
                &        &        & *     \\
-               &        &        & R_{in}-S_{in}\\
+               &        &        & R_{ln}-S_{ln}\\
                &        &        & *     \\
                &        &        & \Vdots\\
         0      & \Cdots & 0      & *     \\
+    \CodeAfter
+        \line{1-1}{7-3}
     \end{bNiceMatrix}
     \begin{bNiceMatrix}[xdots/shorten=5pt]
         x_1\\
