@@ -2,10 +2,10 @@
 <br />
 
 Date Created: 27/03/2022 21:04:03
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Real Coordinate Space]]
+Examples: [[Function Space (Linear Algebra)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

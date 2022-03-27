@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7f36c5ec79393f48",
+        "id": "a617a16243e477cc",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Vector Space.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "31c8bed16f6241e7",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Real Coordinate Space.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Vector Space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Vector Space.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +151,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.6452952444225664,
+                  "scale": 0.4591118836228799,
                   "close": true
                 }
               }
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Vector Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "7f36c5ec79393f48",
+  "active": "a617a16243e477cc",
   "lastOpenFiles": [
-    "Notes/Vector Space.md",
-    "Notes/Real Coordinate Space.md",
-    "Notes/Empty product is singleton of empty set.md",
     "Notes/Cartesian Product (Arbitrary).md",
+    "Notes/Tuple.md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Function Space (Linear Algebra).md",
+    "Notes/Tuple spaces are function spaces (linear algebra).md",
     "Notes/Function Space (Set Theory).md",
-    "Notes/Function space constructed from a Cartesian product.md",
-    "Notes/Euclidean Plane (Topology).md",
-    "Notes/Category (via Hom-classes).md",
-    "Notes/Groupoid.md",
-    "Notes/Product Space (Topology).md"
+    "Notes/Natural Number.md",
+    "Notes/Natural numbers form an initial segment of ON.md",
+    "Notes/Set of natural numbers is the least limit ordinal.md",
+    "Notes/Set of Natural Numbers.md"
   ]
 }
