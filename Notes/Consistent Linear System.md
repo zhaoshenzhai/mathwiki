@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Classification of consistent linear systems of equations (infinite field)]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Gaussian Elimination]], [[Gauss-Jordan Elimination]]
 Justifications: _Not Applicable_

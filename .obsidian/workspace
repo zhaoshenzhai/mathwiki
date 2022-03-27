@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2726f4546f184ca7",
+        "id": "b17329c19220528f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Reduced Row-echelon Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "014319ece821a107",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear System of Equations.md",
+            "file": "Notes/Euclidean Plane (Topology).md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
+                "file": "Notes/Euclidean Plane (Topology).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,9 +105,9 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
+                "file": "Notes/Euclidean Plane (Topology).md",
                 "options": {
-                  "collapse-filter": true,
+                  "collapse-filter": false,
                   "search": "path:Notes",
                   "localJumps": 4,
                   "localBacklinks": true,
@@ -169,7 +157,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.7067929732891306,
+                  "scale": 0.6452952444225664,
                   "close": true
                 }
               }
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
+                "file": "Notes/Euclidean Plane (Topology).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "014319ece821a107",
+  "active": "b17329c19220528f",
   "lastOpenFiles": [
+    "Notes/Euclidean Plane (Topology).md",
+    "Notes/Category (via Hom-classes).md",
+    "Notes/Groupoid.md",
+    "Notes/Product Space (Topology).md",
+    "Notes/Product Topology (Binary).md",
+    "Notes/Product topology (subbasis).md",
+    "Notes/Criteria for subbasis to generate existing basis.md",
+    "Notes/Criteria for collection to be a basis for an existing topology.md",
     "Notes/Linear System of Equations.md",
-    "Notes/Solution of system of linear combinations contains solution of original system.md",
-    "Notes/Linear Combination (System of Equations).md",
-    "Notes/Gaussian Algorithm.md",
-    "Notes/Gaussian Elimination.md",
-    "Notes/Classification of linear systems of equations.md",
-    "Notes/Reduced Row-echelon Matrix.md",
-    "Notes/RREF of a matrix is unique.md",
-    "Notes/Gauss-Jordan Elimination.md",
     "Notes/Consistent Linear System.md"
   ]
 }

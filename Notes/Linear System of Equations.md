@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Augmented Matrix]], [[Linear Combination (System of Equations)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Classification of linear systems of equations]], [[Gaussian Elimination]], [[Gauss-Jordan Elimination]], [[Solution of system of linear combinations contains solution of original system]]
+Properties: [[Gaussian Elimination]], [[Gauss-Jordan Elimination]], [[Solution of system of linear combinations contains solution of original system]]
 Sufficiencies: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
