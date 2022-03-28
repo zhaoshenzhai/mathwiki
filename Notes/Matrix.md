@@ -4,8 +4,8 @@
 Date Created: 22/03/2022 16:12:09
 Tags: #Definition #Closed 
 
-Types: [[Row-echelon Matrix]]
-Examples: [[Augmented Matrix]]
+Types: [[Row-echelon Matrix]], [[Square Matrix]]
+Examples: [[Augmented Matrix]], [[Zero Matrix]], [[Identity Matrix]]
 Constructions: [[Set of Matrices (over a field)]], [[Matrix Addition]], [[Matrix Multiplication]], [[Scalar Multiplication (Matrix)]], [[Elementary Row Operation]], [[Rank (Matrix)]]
 Generalizations: _Not Applicable_
 

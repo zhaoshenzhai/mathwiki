@@ -4,30 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "6b4d4453fb1df0df",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "105b52cb8e4026fc",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Set of Matrices (over a field).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
         "id": "d581f6016b72d570",
         "type": "leaf",
         "state": {
@@ -40,7 +16,19 @@
         }
       },
       {
-        "id": "ffe43f84d9c085d3",
+        "id": "938da94e09ebba90",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Additive matrix group is an Abelian group.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "bc0af1ac37c06558",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -109,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Set of Matrices (over a field).md",
+                "file": "Notes/Matrix Addition.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Set of Matrices (over a field).md",
+                "file": "Notes/Matrix Addition.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -193,7 +181,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.6753388404516006,
+                  "scale": 0.18863330076408982,
                   "close": true
                 }
               }
@@ -205,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Set of Matrices (over a field).md",
+                "file": "Notes/Matrix Addition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "105b52cb8e4026fc",
+  "active": "bc0af1ac37c06558",
   "lastOpenFiles": [
-    "Notes/Set of Matrices (over a field).md",
-    "Notes/Matrix.md",
-    "Notes/Additive Matrix Group.md",
     "Notes/Matrix Addition.md",
     "Notes/Additive matrix group is an Abelian group.md",
-    "Notes/Square Matrix.md",
-    "Notes/Row-echelon Matrix.md",
-    "Notes/Reduced Row-echelon Matrix.md",
-    "Notes/Classification of linear systems of equations (infinite field).md",
-    "Notes/Linear System of Equations.md"
+    "Notes/Additive Matrix Group.md",
+    "Notes/Category (via Hom-classes).md",
+    "Notes/Matrix.md",
+    "Notes/Vector Space.md",
+    "Notes/Zero Matrix.md",
+    "Notes/Linear System of Equations.md",
+    "Notes/Equivalence Relation.md",
+    "Notes/Transitive Relation.md"
   ]
 }
