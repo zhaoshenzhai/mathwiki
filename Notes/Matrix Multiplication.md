@@ -21,7 +21,7 @@ _Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $m,n,p\in\N$. The functio
 $$\begin{equation}
     \begin{aligned}
         \odot:\mat{m\times n}{K}\times\mat{n\times p}{K}&\to\mat{m\times p}{K}\\
-        \l\langleA,\v{N}\r\rangle&\mapstoA\odot\v{N}\coloneqq\l[\sum\limits_{j=1}^{n}a_{ij}\cdot N_{jk}\r]_{i\in\l\{1,\dots,m\r\},k\in\l\{1,\dots,p\r\}}
+        \l\langle A,B\r\rangle&\mapsto A\odot B\coloneqq\l[\sum\limits_{j=1}^{n}a_{ij}\cdot N_{jk}\r]_{i\in\l\{1,\dots,m\r\},k\in\l\{1,\dots,p\r\}}
     \end{aligned}
 \end{equation}$$
 _defines the **matrix multiplication operation between an $m\times n$ and a $n\times p$ matrix over $K$**._

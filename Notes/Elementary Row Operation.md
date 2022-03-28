@@ -50,12 +50,12 @@ $$\begin{equation}
 
 ```
 
-**Remark.** If $\v{N}$ is obtained from an elementary row operation on $A$, write
+**Remark.** If $B$ is obtained from an elementary row operation on $A$, write
 $$\begin{equation}
     \begin{gathered}
-        A\xrightarrow{cR_s\to R_s}\v{N},\\
-        A\xrightarrow{R_s+cR_t\to R_s}\v{N},\\
-        A\xrightarrow{R_s\leftrightarrow R_t}\v{N}.\\
+        A\xrightarrow{cR_s\to R_s}B,\\
+        A\xrightarrow{R_s+cR_t\to R_s}B,\\
+        A\xrightarrow{R_s\leftrightarrow R_t}B.\\
     \end{gathered}
 \end{equation}$$
-If the type is not specified, write $A\xrightarrow{e}\v{N}$.<span style="float:right;">$\blacklozenge$</span>
+If the type is not specified, write $A\xrightarrow{e}B$.<span style="float:right;">$\blacklozenge$</span>
