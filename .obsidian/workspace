@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Matrix Multiplication.md",
+            "file": "Notes/Additive matrix group is an Abelian group.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Matrix Multiplication.md",
+                "file": "Notes/Additive matrix group is an Abelian group.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Matrix Multiplication.md",
+                "file": "Notes/Additive matrix group is an Abelian group.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Matrix Multiplication.md",
+                "file": "Notes/Additive matrix group is an Abelian group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,6 +184,8 @@
   },
   "active": "66ff6ddbad389eb5",
   "lastOpenFiles": [
+    "Notes/Additive matrix group is an Abelian group.md",
+    "Notes/Zero Matrix.md",
     "Notes/Matrix Multiplication.md",
     "Notes/Matrix Addition.md",
     "Notes/Row-equivalence of Matrices.md",
@@ -191,8 +193,6 @@
     "Notes/Matrix.md",
     "Notes/Square Matrix.md",
     "Notes/Reduced Row-echelon Matrix.md",
-    "Notes/Gauss-Jordan Algorithm.md",
-    "Notes/Gaussian Algorithm.md",
-    "Notes/Row-echelon Matrix.md"
+    "Notes/Gauss-Jordan Algorithm.md"
   ]
 }

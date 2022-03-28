@@ -17,9 +17,9 @@ Justifications: [[Additive matrix group is an Abelian group]]
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N$. Then the **$m\times n$ additive matrix group over $K$** is the group_ $\l\langle\mat{m\times n}{K},\oplus,\v{0}_{mn}\r\rangle$ _consisting of_
+_Let $K$ be a field and fix $m,n\in\N$. Then the **$m\times n$ additive matrix group over $K$** is the group_ $\l\langle\mat{m\times n}{K},\oplus,0_{mn}\r\rangle$ _consisting of_
 * _the set $\mat{m\times n}{K}$ of all $m\times n$ matrices over $K$,_
 * _the binary operation $\oplus$ of matrix addition, and_
-* _the $m\times n$ zero matrix_ $\v{0}_{mn}$_._
+* _the $m\times n$ zero matrix_ $0_{mn}$_._
 
 ```

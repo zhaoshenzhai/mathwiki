@@ -19,7 +19,7 @@ title: Definition.
 
 _Let $K$ be a field and fix $m,n\in\N$. The **$m\times n$ zero matrix over $K$** is the matrix_
 $$\begin{equation}
-    \v{0}_{mn}\coloneqq
+    0_{mn}\coloneqq
         \begin{bmatrix}
             0_K & \cdots & 0_K \\
             \vdots & & \vdots \\
@@ -29,4 +29,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Formally, $\v{0}_{mn}\coloneqq\l\langle m,n,f\r\rangle$ where $f\l(i,j\r)\coloneqq0_K$ for all $i\in\l\{0,\dots,m\r\}$ and $j\in\l\{0,\dots,n\r\}$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Formally, $0_{mn}\coloneqq\l\langle m,n,f\r\rangle$ where $f\l(i,j\r)\coloneqq0_K$ for all $i\in\l\{0,\dots,m\r\}$ and $j\in\l\{0,\dots,n\r\}$.<span style="float:right;">$\blacklozenge$</span>
