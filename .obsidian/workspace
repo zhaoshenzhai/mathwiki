@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b469b71fa44fce92",
+        "id": "6b4d4453fb1df0df",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear System of Equations.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,8 +175,9 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b469b71fa44fce92",
+  "active": "6b4d4453fb1df0df",
   "lastOpenFiles": [
+    "Notes/Classification of linear systems of equations (infinite field).md",
     "Notes/Linear System of Equations.md",
     "Notes/Linear combinations of solutions of homogeneous systems are solutions.md",
     "Notes/Linear Combination (Vector).md",
@@ -192,7 +186,6 @@
     "Notes/Vector.md",
     "Notes/Vector Space.md",
     "Notes/Lattice.md",
-    "Notes/Linear Combination (System of Equation).md",
-    "Notes/Solution of system of linear combinations contains solution of original system.md"
+    "Notes/Linear Combination (System of Equation).md"
   ]
 }

@@ -8,7 +8,7 @@ custom_alias: $m\times n$ homogeneous linear system with $m<n$ $\Rightarrow$ non
 Date Created: 28/03/2022 15:32:39
 Tags: #Proposition #Open 
 
-Proved by: [[Classification of consistent linear systems of equations (infinite field)]]
+Proved by: [[Classification of linear systems of equations (infinite field)]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_
