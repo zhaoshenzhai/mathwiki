@@ -21,7 +21,7 @@ _Let $K$ be a field and fix $m,n\in\N$. A matrix $R\in\mat{m\times n}{K}$ is sai
 * $\axirref\bf{.}$ _For every non-zero row $i\in\l\{1,\dots,r\r\}$ of $R$, the leading $1$ is the only non-zero entry in its column:_
 $$\begin{equation}
     \begin{aligned}
-        \fa i\in\l\{1,\dots,r\r\},\fa i'\in\l\{1,\dots,r\r\}\setminus\l\{i\r\}:R_{i'k_i}=0. && \l(k_i\coloneqq\min\l\{j\in\l\{1,\dots,n\r\}\mid R_{ij}\neq0\r\}\r)
+        \fa i\in\l\{1,\dots,r\r\},\fa i'\in\l\{1,\dots,r\r\}\setminus\l\{i\r\}:r_{i'k_i}=0. && \l(k_i\coloneqq\min\l\{j\in\l\{1,\dots,n\r\}\mid r_{ij}\neq0\r\}\r)
     \end{aligned}
 \end{equation}$$
 

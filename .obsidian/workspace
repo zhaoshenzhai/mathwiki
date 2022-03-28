@@ -4,60 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d581f6016b72d570",
+        "id": "3c25569c1ce154ce",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Additive Matrix Group.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "938da94e09ebba90",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Additive matrix group is an Abelian group.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "bc0af1ac37c06558",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Matrix Addition.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "511bb86f2cf6ff1b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Row-echelon Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "98f00c303e3bbe5d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/RREF of a matrix is unique.md",
+            "file": "Notes/Reduced Row-echelon Matrix.md",
             "mode": "preview",
             "source": true
           }
@@ -121,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/RREF of a matrix is unique.md",
+                "file": "Notes/Reduced Row-echelon Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/RREF of a matrix is unique.md",
+                "file": "Notes/Reduced Row-echelon Matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -217,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/RREF of a matrix is unique.md",
+                "file": "Notes/Reduced Row-echelon Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "98f00c303e3bbe5d",
+  "active": "3c25569c1ce154ce",
   "lastOpenFiles": [
-    "Notes/RREF of a matrix is unique.md",
-    "Notes/Row-echelon Matrix.md",
-    "Notes/Gauss-Jordan Elimination.md",
-    "Notes/Matrix Addition.md",
+    "Notes/Reduced Row-echelon Matrix.md",
+    "Notes/Gauss-Jordan Algorithm.md",
     "Notes/Gaussian Algorithm.md",
-    "Notes/Additive matrix group is an Abelian group.md",
-    "Notes/Additive Matrix Group.md",
-    "Notes/Category (via Hom-classes).md",
     "Notes/Matrix.md",
-    "Notes/Vector Space.md"
+    "Notes/Row-echelon Matrix.md",
+    "Notes/Gaussian Elimination.md",
+    "Notes/Elementary Row Operation.md",
+    "Notes/Additive Matrix Group.md",
+    "Notes/Additive matrix group is an Abelian group.md",
+    "Notes/Matrix Addition.md"
   ]
 }
