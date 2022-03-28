@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "32cb1c00c8dc829e",
+        "id": "b469b71fa44fce92",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear System of Equations.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linear System of Equations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,10 +105,11 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linear System of Equations.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
-                  "localJumps": 4,
+                  "localJumps": 5,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -151,7 +157,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.4377187863451463,
+                  "scale": 0.6753388404516006,
                   "close": true
                 }
               }
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear System of Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "32cb1c00c8dc829e",
+  "active": "b469b71fa44fce92",
   "lastOpenFiles": [
-    "Notes/Linear Combination (System of Equations).md",
-    "Notes/Solution of system of linear combinations contains solution of original system.md",
     "Notes/Linear System of Equations.md",
-    "Notes/Consistent Linear System.md",
+    "Notes/Linear combinations of solutions of homogeneous systems are solutions.md",
+    "Notes/Linear Combination (Vector).md",
     "Notes/Homogeneous Linear System.md",
-    "Notes/m by n homogeneous linear system with m<n has a non-trivial solution.md",
-    "Notes/Classification of consistent linear systems of equations (infinite field).md",
-    "Notes/Rank (Matrix).md",
-    "Notes/Gauss-Jordan Elimination.md",
-    "Notes/Gaussian Elimination.md"
+    "Notes/Consistent Linear System.md",
+    "Notes/Vector.md",
+    "Notes/Vector Space.md",
+    "Notes/Lattice.md",
+    "Notes/Linear Combination (System of Equation).md",
+    "Notes/Solution of system of linear combinations contains solution of original system.md"
   ]
 }

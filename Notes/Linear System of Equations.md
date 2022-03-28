@@ -4,12 +4,12 @@
 Date Created: 22/03/2022 16:53:18
 Tags: #Definition #Closed 
 
-Types: [[Consistent Linear System]], [[Homogeneous Linear System]]
+Types: [[Homogeneous Linear System]]
 Examples: _Not Applicable_
-Constructions: [[Augmented Matrix]], [[Linear Combination (System of Equations)]]
+Constructions: [[Augmented Matrix]], [[Linear Combination (System of Equation)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Gaussian Elimination]], [[Gauss-Jordan Elimination]], [[Solution of system of linear combinations contains solution of original system]]
+Properties: [[Classification of consistent linear systems of equations (infinite field)]], [[Gaussian Elimination]], [[Gauss-Jordan Elimination]], [[Solution of system of linear combinations contains solution of original system]]
 Sufficiencies: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

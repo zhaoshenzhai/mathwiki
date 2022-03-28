@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Function Space (Linear Algebra)]]
-Constructions: _Not Applicable_
+Constructions: [[Vector]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
