@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 26/03/2022 23:01:01
-Tags: #Proposition #Closed 
+Tags: #Proposition #Open 
 
 Proved by: [[Gaussian Elimination]], [[Gauss-Jordan Elimination]]
 Generalizations: _Not Applicable_

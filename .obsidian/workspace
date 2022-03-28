@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "a617a16243e477cc",
+        "id": "563d7e6457f28923",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -151,7 +151,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.4591118836228799,
+                  "scale": 0.4469961513727119,
                   "close": true
                 }
               }
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "a617a16243e477cc",
+  "active": "563d7e6457f28923",
   "lastOpenFiles": [
-    "Notes/Cartesian Product (Arbitrary).md",
-    "Notes/Tuple.md",
+    "Notes/Real Coordinate Space.md",
+    "Notes/Dot Product.md",
+    "Notes/Matrix.md",
     "Notes/Tuple Space (Linear Algebra).md",
     "Notes/Function Space (Linear Algebra).md",
+    "Notes/Vector Space.md",
+    "Notes/Norm.md",
     "Notes/Tuple spaces are function spaces (linear algebra).md",
-    "Notes/Function Space (Set Theory).md",
-    "Notes/Natural Number.md",
-    "Notes/Natural numbers form an initial segment of ON.md",
-    "Notes/Set of natural numbers is the least limit ordinal.md",
-    "Notes/Set of Natural Numbers.md"
+    "Notes/Function space with component-wise operations is a vector space.md",
+    "Notes/Rank (Matrix).md"
   ]
 }

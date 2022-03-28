@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 27/03/2022 22:19:19
-Tags: #Definition #Closed 
+Tags: #Definition #Open
 
 Types: _Not Applicable_
 Examples: [[Tuple Space (Linear Algebra)]]
