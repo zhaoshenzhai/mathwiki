@@ -17,13 +17,13 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider two linear systems $A\v{x}=\v{b}$ and $\v{R}\v{x}=\v{z}$ over $K$. If $\l[A\mid\v{b}\r]\sim\l[\v{R}\mid\v{z}\r]$, then the two linear systems are equivalent._
+_Let $K$ be a field and consider two linear systems $A\v{x}=\v{b}$ and $R\v{x}=\v{z}$ over $K$. If $\l[A\mid\v{b}\r]\sim\l[R\mid\v{z}\r]$, then the two linear systems are equivalent._
 
 ```
 
-_Proof_. Since $\l[A\mid\v{b}\r]\sim\l[\v{R}\mid\v{z}\r]$, there exist elementary row operations $e_1,\dots,e_k$ such that
+_Proof_. Since $\l[A\mid\v{b}\r]\sim\l[R\mid\v{z}\r]$, there exist elementary row operations $e_1,\dots,e_k$ such that
 $$\begin{equation}
-    \l[A\mid\v{b}\r]\xrightarrow{e_1}\l[a_1\mid\v{b}_1\r]\xrightarrow{e_2}\cdots\xrightarrow{e_k}\l[a_k\mid\v{b}_k\r]=\l[\v{R}\mid\v{z}\r]
+    \l[A\mid\v{b}\r]\xrightarrow{e_1}\l[a_1\mid\v{b}_1\r]\xrightarrow{e_2}\cdots\xrightarrow{e_k}\l[a_k\mid\v{b}_k\r]=\l[R\mid\v{z}\r]
 \end{equation}$$
 for some $k\in\N$. It suffices to assume only that $\l[A\mid\v{b}\r]\sim\l[a_1\mid\v{b}_1\r]$ and show that the systems $A\v{x}=\v{b}$ and $a_1\v{x}=\v{b}_1$ are equivalent since we can then similarly proceed $\l(k-1\r)$-more times. To this end, we show that the two systems are linear combinations of each other. Assume, w.l.o.g., that $e_1$ only affects the $s^\textrm{th}$ and $t^\textrm{th}$ rows, so all $k^\textrm{th}$ rows, where $k\not\in\l\{s,t\r\}$, are trivial linear combinations of $A\v{x}=\v{b}$ given by constants $c_k=1$ and $c_i=0$ otherwise; that is, all such $k^\textrm{th}$ rows are linear equations of the form
 $$\begin{equation}

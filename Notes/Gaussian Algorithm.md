@@ -13,11 +13,11 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Gaussian Algorithm).
 
-_Let $K$ be a field and fix $m,n\in\R$. Then every matrix $\v{M}\in\mat{m\times n}{K}$ is row-equivalent to a matrix $\v{R}\in\mat{m\times n}{K}$ in row-echelon form._
+_Let $K$ be a field and fix $m,n\in\R$. Then every matrix $\v{M}\in\mat{m\times n}{K}$ is row-equivalent to a matrix $R\in\mat{m\times n}{K}$ in row-echelon form._
 
 ```
 
-_Proof_. We shall algorithmically construct $\v{R}$ from $\v{M}$.
+_Proof_. We shall algorithmically construct $R$ from $\v{M}$.
 * Step 1: If $\v{M}=\v{0}$ is the $m\times n$ zero matrix, stop, since $\v{0}$ is in row-echelon form.
 
 * Step 2: For all $i\in\l\{1,\dots,m\r\}$, let $k_i\coloneqq\min\l\{j\in\l\{1,\dots n\r\}\mid M_{ij}\neq0\r\}$ be the column with its leading entry. Consider any row $l$ such that $k\coloneqq k_l\leq k_i$ for all $i\in\l\{1,\dots,r\r\}$; that is, consider any row whose leading entry occurs at the leftmost column. Perform the elementary row operation
@@ -41,4 +41,4 @@ $$\begin{equation}
 \end{equation}$$
 and $f'$ is the function defining $\v{M}'$. If $m=1$, stop, since $\v{M}_g$ is empty. Otherwise, repeat steps 1 to 5 with $\v{M}_g$ (still embedded within $\v{M}'$) in place of $\v{M}$, by which we mean apply all the elementary row operations in each step to $\v{M}_g$ and then substituting all the changes made into $\v{M}'$; observe that these elementary row operations will only affect entries in green, so, in particular, every column before and including the $k^\textrm{th}$ column will not be affected.
 
-This process terminates since the number of columns of $\v{M}_g$ is at most $n-1$, where $n$ is the number of columns of $\v{M}$. Therefore, Step 5 cannot occur more than $n$ times. Let $\v{R}$ be the resulting matrix at any stopping condition. Since only elementary row operations were used to obtain $\v{R}$, we see that $\v{R}\sim\v{M}$.<span style="float:right;">$\blacksquare$</span>
+This process terminates since the number of columns of $\v{M}_g$ is at most $n-1$, where $n$ is the number of columns of $\v{M}$. Therefore, Step 5 cannot occur more than $n$ times. Let $R$ be the resulting matrix at any stopping condition. Since only elementary row operations were used to obtain $R$, we see that $R\sim\v{M}$.<span style="float:right;">$\blacksquare$</span>
