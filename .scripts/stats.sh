@@ -27,6 +27,18 @@ while [ ! -z "$1" ]; do
 
             echo -e "${CYAN}$numNotes notes, $numLinks links, $numImages images${NC}"
         ;;
+        --ghost|-g)
+            cd ./Notes
+
+            allLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | sed 's/\[\[//g' | sed 's/\]\]//g' | sed 's/$/.md/g')
+            while IFS= read -r link; do
+                if [ ! -f "$link" ]; then
+                    echo -e "${RED}    $link${NC}"
+                fi
+            done <<< "$allLinks"
+
+            cd ..
+        ;;
         --update|-u)
             sed -i 's/[0-9][0-9]*\snotes/'"$numNotes"' notes/g' README.md
             sed -i 's/[0-9][0-9]*\slinks/'"$numLinks"' links/g' README.md
