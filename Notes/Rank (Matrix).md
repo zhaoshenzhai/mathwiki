@@ -17,6 +17,6 @@ Justifications: [[Dimensions of row and column space of matrix coincide]]
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $\v{M}\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. The **rank of $\v{M}$** is, equivalently, $\rank\l(\v{A}\r)\coloneqq\dim\rowsp\l(\v{A}\r)$ or $\rank\l(\v{A}\r)\coloneqq\dim\colsp\l(\v{A}\r)$._
+_Let $K$ be a field and fix $\v{M}\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. The **rank of $\v{M}$** is, equivalently, $\rank\l(A\r)\coloneqq\dim\rowsp\l(A\r)$ or $\rank\l(A\r)\coloneqq\dim\colsp\l(A\r)$._
 
 ```

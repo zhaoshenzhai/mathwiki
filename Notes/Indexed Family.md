@@ -21,7 +21,7 @@ _Let $I$ and $\mc{A}$ be sets. an **indexed family of sets in $\mc{A}$ indexed b
 
 ```
 
-**Remark.** If $f:I\to\mc{A}$ is an indexed family, write $A_i\coloneqq f\l(i\r)$ and $\l\{A_i\r\}_{i\in I}\coloneqq f$ instead.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If $f:I\to\mc{A}$ is an indexed family, write $A_i\coloneqq f\l(i\r)$ and $\l\{a_i\r\}_{i\in I}\coloneqq f$ instead.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

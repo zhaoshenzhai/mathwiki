@@ -15,17 +15,17 @@ title: Theorem (Gaussian Elimination).
 
 _Let $K$ be a field and consider any linear system_
 $$\begin{equation}
-    \v{A}\v{x}=\v{b}\ \ \ \ \Leftrightarrow\ \ \ \ \l\{\begin{alignedat}{7}
-        &A_{11}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&A_{1n}x_n&&=\ &&b_1\\
-        &\vdotswithin{A_{11}x_1}&&&&&&&&\vdotswithin{A_{1n}x_n}&&&&\vdotswithin{b_1}\\
-        &A_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&A_{mn}x_n&&=&&b_m
+    A\v{x}=\v{b}\ \ \ \ \Leftrightarrow\ \ \ \ \l\{\begin{alignedat}{7}
+        &a_{11}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{1n}x_n&&=\ &&b_1\\
+        &\vdotswithin{a_{11}x_1}&&&&&&&&\vdotswithin{a_{1n}x_n}&&&&\vdotswithin{b_1}\\
+        &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m
     \end{alignedat}\r.
 \end{equation}$$
-_of equations over $K$. Let $\v{R}\coloneqq\l(e_l\circ\cdots\circ e_1\r)\l(\v{A}\r)\sim\v{A}$ be any row-echelon matrix, say with $r$ non-zero rows each with its pivot column $k_i$, and let $\v{z}\coloneqq\l(e_l\circ\cdots\circ e_1\r)\l(\v{b}\r)$. For convenience, we shall denote_
+_of equations over $K$. Let $\v{R}\coloneqq\l(e_l\circ\cdots\circ e_1\r)\l(A\r)\sim A$ be any row-echelon matrix, say with $r$ non-zero rows each with its pivot column $k_i$, and let $\v{z}\coloneqq\l(e_l\circ\cdots\circ e_1\r)\l(\v{b}\r)$. For convenience, we shall denote_
 $$\begin{equation}
     \fa j\in\l\{1,\dots,n\r\}:\mc{C}_j\coloneqq\l\{j+1,\dots,n\r\},\ \ \ \ \ \ \ \ \mc{K}\coloneqq\l\{k\in\N\mid k\textit{ is a pivot column}\r\},\ \ \ \ \textit{and}\ \ \ \ \fa k\in\mc{K}:\mc{K}_k\coloneqq\l\{j\in\N\mid j>k\land j\in\mc{K}\r\}.
 \end{equation}$$
-_If_ $z_{r+1}=\cdots=z_m=0$_, then $\v{A}\v{x}=\v{b}$ is consistent and all solutions thereof can be expressed in the form of $\l\langle s_1,\dots,s_n\r\rangle\in K^n$ where_
+_If_ $z_{r+1}=\cdots=z_m=0$_, then $A\v{x}=\v{b}$ is consistent and all solutions thereof can be expressed in the form of $\l\langle s_1,\dots,s_n\r\rangle\in K^n$ where_
 $$\begin{equation}
     \fa\alpha\in\l\{1,\dots,n\r\}:s_\alpha\coloneqq
         \begin{dcases}
@@ -33,11 +33,11 @@ $$\begin{equation}
             t_\alpha & \textit{else}
         \end{dcases}
 \end{equation}$$
-_and each_ $t_\alpha$_, if any, is an arbitrary element of $K$. Otherwise, $\v{A}\v{x}=\v{b}$ is inconsistent._
+_and each_ $t_\alpha$_, if any, is an arbitrary element of $K$. Otherwise, $A\v{x}=\v{b}$ is inconsistent._
 
 ```
 
-_Proof_. Such a matrix $\v{R}$ exists and can be constructed by the Gaussian Algorithm. If there exists some $j\in\l\{r+1,\dots,m\r\}$ such that $z_j\neq0$, then the $j^\textrm{th}$ equation in $\v{R}\v{x}=\v{z}$ reads $0+\cdots+0=z_j$ which is a contradiction. Thus the linear system $\v{R}\v{x}=\v{z}$, and thus $\v{A}\v{x}=\v{b}$, is inconsistent.
+_Proof_. Such a matrix $\v{R}$ exists and can be constructed by the Gaussian Algorithm. If there exists some $j\in\l\{r+1,\dots,m\r\}$ such that $z_j\neq0$, then the $j^\textrm{th}$ equation in $\v{R}\v{x}=\v{z}$ reads $0+\cdots+0=z_j$ which is a contradiction. Thus the linear system $\v{R}\v{x}=\v{z}$, and thus $A\v{x}=\v{b}$, is inconsistent.
 
 Otherwise, we need to show that the tuples $\l\langle s_1,\dots,s_n\r\rangle$ are solutions of $\v{R}\v{x}=\v{z}$, and, moreover, that all solutions can be expressed in this form. Firstly, note that $s_\alpha$ is well-defined for all $\alpha\in\l\{1,\dots,n\r\}$, by which we mean that if there exists $i\in\l\{1,\dots,r\r\}$ such that $\alpha=k_i$, then $i$ is unique; this is guaranteed by $\axiref[3]$ of $\v{R}$.
 

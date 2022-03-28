@@ -19,14 +19,14 @@ title: Definition.
 
 _Let $K$ be a field. The linear system_
 $$\begin{equation}
-    \v{A}\v{x}=\v{b}\ \ \ \ \Leftrightarrow\ \ \ \ \l\{\begin{alignedat}{7}
-        &A_{11}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&A_{1n}x_n&&=\ &&b_1\\
-        &\vdotswithin{A_{11}x_1}&&&&&&&&\vdotswithin{A_{1n}x_n}&&&&\vdotswithin{b_1}\\
-        &A_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&A_{mn}x_n&&=&&b_m
+    A\v{x}=\v{b}\ \ \ \ \Leftrightarrow\ \ \ \ \l\{\begin{alignedat}{7}
+        &a_{11}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{1n}x_n&&=\ &&b_1\\
+        &\vdotswithin{a_{11}x_1}&&&&&&&&\vdotswithin{a_{1n}x_n}&&&&\vdotswithin{b_1}\\
+        &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m
     \end{alignedat}\r.
 \end{equation}$$
 _of equations over $K$ is said to be **homogeneous** if $b_1=\cdots=b_m=0$; that is, if $\v{b}=\v{0}$._
 
 ```
 
-**Remark.** Observe that $\v{0}$ is a solution of any $\v{A}\v{x}=\v{0}$, so it is called the **trivial solution** of the system.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Observe that $\v{0}$ is a solution of any $A\v{x}=\v{0}$, so it is called the **trivial solution** of the system.<span style="float:right;">$\blacklozenge$</span>

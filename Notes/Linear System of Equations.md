@@ -20,9 +20,9 @@ title: Definition.
 _Let $K$ be a field and let $f_i\l(x_1,\dots,x_n\r)=b_i$ be linear equations over $K$ for all $i\in\l\{1,\dots,m\r\}$. The **linear system of $m$ equations constructed from $f_i\l(x_1,\dots,x_n\r)=b_i$** is the collection of all such equations, written as_
 $$\begin{equation}
     \l\{\begin{alignedat}{7}
-        &A_{11}x_1&&\,+&&\,\cdots\,&&\,+\,&&A_{1n}x_n&&=\ &&b_1\\
-        &\vdotswithin{A_{11}x_1}&&&&&&&&\vdotswithin{A_{1n}x_n}&&&&\vdotswithin{b_1}\\
-        &A_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&A_{mn}x_n&&=&&b_m.
+        &a_{11}x_1&&\,+&&\,\cdots\,&&\,+\,&&a_{1n}x_n&&=\ &&b_1\\
+        &\vdotswithin{a_{11}x_1}&&&&&&&&\vdotswithin{a_{1n}x_n}&&&&\vdotswithin{b_1}\\
+        &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m.
     \end{alignedat}\r.
 \end{equation}$$
 
@@ -30,11 +30,11 @@ $$\begin{equation}
 
 **Remark.** Letting
 $$\begin{equation}
-    \v{A}\coloneqq
+    A\coloneqq
         \begin{bmatrix}
-            A_{11} & \cdots & A_{1n} \\
-            \vdotswithin{A_{11}} & \ddots & \vdotswithin{A_{1n}} \\
-            A_{m1} & \cdots & A_{mn} \\
+            a_{11} & \cdots & a_{1n} \\
+            \vdotswithin{a_{11}} & \ddots & \vdotswithin{a_{1n}} \\
+            a_{m1} & \cdots & a_{mn} \\
         \end{bmatrix},\ \ \ \ \ \ \ \ \v{x}\coloneqq
         \begin{bmatrix}
             x_1 \\
@@ -47,4 +47,4 @@ $$\begin{equation}
             b_m
         \end{bmatrix},
 \end{equation}$$
-we can write the linear system as $\v{A}\v{x}=\v{b}$.
+we can write the linear system as $A\v{x}=\v{b}$.

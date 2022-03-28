@@ -20,30 +20,30 @@ title: Definition.
 _Let $K$ be a field and consider the linear system_
 $$\begin{equation}
     \l\{\begin{alignedat}{7}
-        &A_{11}x_1&&\,+&&\,\cdots\,&&\,+\,&&A_{1n}x_n&&=\ &&b_1\\
-        &\vdotswithin{A_{11}x_1}&&&&&&&&\vdotswithin{A_{1n}x_n}&&&&\vdotswithin{b_1}\\
-        &A_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&A_{mn}x_n&&=&&b_m
+        &a_{11}x_1&&\,+&&\,\cdots\,&&\,+\,&&a_{1n}x_n&&=\ &&b_1\\
+        &\vdotswithin{a_{11}x_1}&&&&&&&&\vdotswithin{a_{1n}x_n}&&&&\vdotswithin{b_1}\\
+        &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m
     \end{alignedat}\r.
 \end{equation}$$
 _of equations over $K$. The **augmented matrix of the linear system** is the matrix_
 $$\begin{equation}
-    \l[\v{A}\mid\v{b}\r]\coloneqq\l[
+    \l[A\mid\v{b}\r]\coloneqq\l[
         \begin{array}{ccc|c}
-             A_{11} & \cdots & A_{1n} & b_{1}\\
-             \vdotswithin{A_{11}} & \ddots & \vdotswithin{A_{1n}} & \vdotswithin{b_1}\\
-             A_{m1} & \cdots & A_{mn} & b_m
+             a_{11} & \cdots & a_{1n} & b_{1}\\
+             \vdotswithin{a_{11}} & \ddots & \vdotswithin{a_{1n}} & \vdotswithin{b_1}\\
+             a_{m1} & \cdots & a_{mn} & b_m
         \end{array}\r].
 \end{equation}$$
 
 ```
 
-**Remark.** Formally, $\l[\v{A}\mid\v{b}\r]\coloneqq\l\langle m,n+1,f\r\rangle$ where
+**Remark.** Formally, $\l[A\mid\v{b}\r]\coloneqq\l\langle m,n+1,f\r\rangle$ where
 
 $\begin{align}
     f:\l\{1,\dots,m\r\}\times\l\{1,\dots,n+1\r\}&\to K\\
     \l\langle i,j\r\rangle&\mapsto
         \begin{dcases}
-            A_{ij}  & \textrm{if}\ \ j\leq n\\
+            a_{ij}  & \textrm{if}\ \ j\leq n\\
             b_i & \textrm{else.}\exqedin
         \end{dcases}
 \end{align}$
