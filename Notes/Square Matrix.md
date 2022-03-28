@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $n\in\N$. A **square matrix of size $n$** is a matrix $\v{M}\in\mat{n}{K}\coloneqq\mat{n\times n}{K}$._
+_Let $K$ be a field and fix $n\in\N$. A **square matrix of size $n$** is a matrix $A\in\mat{n}{K}\coloneqq\mat{n\times n}{K}$._
 
 ```

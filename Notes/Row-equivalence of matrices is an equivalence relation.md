@@ -17,23 +17,23 @@ _Let $K$ be a field and fix $m,n\in\N$. Then the row-equivalence relation $\sim$
 
 ```
 
-_Proof_. Take $\v{M}_1,\v{M}_2,\v{M}_3\in\mat{m\times n}{K}$.
-* (Reflexive): Take any elementary row operation $e$. Since $e$ has an inverse, we see that $\v{M}_1=\l(e^{-1}\circ e\r)\l(\v{M}_1\r)$ and thus $\v{M}_1\sim\v{M}_1$.
+_Proof_. Take $A_1,A_2,A_3\in\mat{m\times n}{K}$.
+* (Reflexive): Take any elementary row operation $e$. Since $e$ has an inverse, we see that $A_1=\l(e^{-1}\circ e\r)\l(A_1\r)$ and thus $A_1\sim A_1$.
 
-* (Symmetric): Assume that $\v{M}_2\sim\v{M}_1$, so there exist elementary row operations $e_1,\dots,e_k$ such that $\v{M}_2=\l(e_k\circ\cdots\circ e_1\r)\l(\v{M}_1\r)$. Applying the elementary row operations $e_k^{-1},\dots,e_1^{-1}$ on both sides from left to right, reassociating, and cancelling, we see that
+* (Symmetric): Assume that $A_2\sim A_1$, so there exist elementary row operations $e_1,\dots,e_k$ such that $A_2=\l(e_k\circ\cdots\circ e_1\r)\l(A_1\r)$. Applying the elementary row operations $e_k^{-1},\dots,e_1^{-1}$ on both sides from left to right, reassociating, and cancelling, we see that
 $$\begin{equation}
-    \v{M}_1=e_1^{-1}\circ\cdots\circ e_k^{-1}\l(\v{M}_2\r)
+    A_1=e_1^{-1}\circ\cdots\circ e_k^{-1}\l(A_2\r)
 \end{equation}$$
-and thus $\v{M}_1\sim\v{M}_2$.
-* (Transitive): Assume that $\v{M}_3\sim\v{M}_2$ and $\v{M}_2\sim\v{M}_1$, so there exist elementary row operations $e_1,\dots,e_k,f_1,\dots,f_l$ such that
+and thus $A_1\sim A_2$.
+* (Transitive): Assume that $A_3\sim A_2$ and $A_2\sim A_1$, so there exist elementary row operations $e_1,\dots,e_k,f_1,\dots,f_l$ such that
 $$\begin{equation}
-    \v{M}_3=\l(f_l\circ\cdots\circ f_1\r)\l(\v{M}_2\r)\ \ \ \ \textrm{and}\ \ \ \ \v{M}_2=\l(e_k\circ\cdots\circ e_1\r)\l(\v{M}_1\r).
+    A_3=\l(f_l\circ\cdots\circ f_1\r)\l(A_2\r)\ \ \ \ \textrm{and}\ \ \ \ A_2=\l(e_k\circ\cdots\circ e_1\r)\l(A_1\r).
 \end{equation}$$
 Observe then that
 $$\begin{equation}
     \begin{aligned}
-        \v{M}_3&=\l(f_l\circ\cdots f_1\r)\l[\l(e_k\circ\cdots\circ e_i\r)\l(\v{M}_1\r)\r]&&\textrm{Substitution}\\
-        &=\l(f_l\circ\cdots f_1\circ e_k\circ\cdots\circ e_1\r)\l(\v{M}_1\r),&&\textrm{Composition of functions is associative}
+        A_3&=\l(f_l\circ\cdots f_1\r)\l[\l(e_k\circ\cdots\circ e_i\r)\l(A_1\r)\r]&&\textrm{Substitution}\\
+        &=\l(f_l\circ\cdots f_1\circ e_k\circ\cdots\circ e_1\r)\l(A_1\r),&&\textrm{Composition of functions is associative}
     \end{aligned}
 \end{equation}$$
-so $\v{M}_3\sim\v{M}_1$.<span style="float:right;">$\blacksquare$</span>
+so $A_3\sim A_1$.<span style="float:right;">$\blacksquare$</span>

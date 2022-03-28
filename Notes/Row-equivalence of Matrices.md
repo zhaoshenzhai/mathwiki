@@ -17,12 +17,12 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider matrices $\v{M},\v{N}\in\mat{m\times n}{K}$ for some $m,n\in\N$. The matrix $\v{N}$ is said to be **row-equivalent to $\v{M}$** if there exists elemenatary row operations_
+_Let $K$ be a field and consider matrices $A,\v{N}\in\mat{m\times n}{K}$ for some $m,n\in\N$. The matrix $\v{N}$ is said to be **row-equivalent to $A$** if there exists elemenatary row operations_
 $$\begin{equation}
     e_1,\dots,e_k:\mat{m\times n}{K}\to\mat{m\times n}{K}
 \end{equation}$$
-_for some $k\in\N$ such that $\v{N}=\l(e_k\circ\cdots\circ e_i\r)\l(\v{M}\r)$._
+_for some $k\in\N$ such that $\v{N}=\l(e_k\circ\cdots\circ e_i\r)\l(A\r)$._
 
 ```
 
-**Remark.** If $\v{N}$ is row-equivalent to $\v{M}$, write $\v{N}\sim\v{M}$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If $\v{N}$ is row-equivalent to $A$, write $\v{N}\sim A$.<span style="float:right;">$\blacklozenge$</span>
