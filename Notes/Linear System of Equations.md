@@ -4,7 +4,7 @@
 Date Created: 22/03/2022 16:53:18
 Tags: #Definition #Closed 
 
-Types: [[Consistent Linear System]]
+Types: [[Consistent Linear System]], [[Homogeneous Linear System]]
 Examples: _Not Applicable_
 Constructions: [[Augmented Matrix]], [[Linear Combination (System of Equations)]]
 Generalizations: _Not Applicable_

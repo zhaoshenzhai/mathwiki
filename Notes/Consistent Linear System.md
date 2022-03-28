@@ -10,7 +10,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Classification of consistent linear systems of equations (infinite field)]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [$m\times n$ homogeneous linear system with $m<n$ $\Rightarrow$ non-trivial solutions](m%20by%20n%20homogeneous%20linear%20system%20with%20m<n%20has%20a%20non-trivial%20solution.md)
 Equivalences: [[Gaussian Elimination]], [[Gauss-Jordan Elimination]]
 Justifications: _Not Applicable_
 

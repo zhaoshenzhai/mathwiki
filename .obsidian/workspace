@@ -4,75 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "563d7e6457f28923",
+        "id": "32cb1c00c8dc829e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear System of Equations.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "25753831fa7c00c0",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Consistent Linear System.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "a81c2ffabac622f1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Homogeneous Linear System.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "adce530e18b83ab7",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Coefficient matrix of homogeneous linear system with rows less than columns implies non-trivial solutions.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "2fcc8266bb70d904",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Rank (Matrix).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "b75288bf1c4b80b9",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Classification of consistent linear systems of equations (infinite field).md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -133,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Classification of consistent linear systems of equations (infinite field).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Classification of consistent linear systems of equations (infinite field).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -217,7 +151,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.6405480962561291,
+                  "scale": 0.4377187863451463,
                   "close": true
                 }
               }
@@ -229,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Classification of consistent linear systems of equations (infinite field).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b75288bf1c4b80b9",
+  "active": "32cb1c00c8dc829e",
   "lastOpenFiles": [
-    "Notes/Classification of consistent linear systems of equations (infinite field).md",
-    "Notes/Gauss-Jordan Elimination.md",
-    "Notes/Gaussian Elimination.md",
-    "Notes/Rank (Matrix).md",
-    "Notes/Coefficient matrix of homogeneous linear system with rows less than columns implies non-trivial solutions.md",
-    "Notes/Homogeneous Linear System.md",
-    "Notes/Consistent Linear System.md",
+    "Notes/Linear Combination (System of Equations).md",
+    "Notes/Solution of system of linear combinations contains solution of original system.md",
     "Notes/Linear System of Equations.md",
-    "Notes/Real Coordinate Space.md",
-    "Notes/Dot Product.md"
+    "Notes/Consistent Linear System.md",
+    "Notes/Homogeneous Linear System.md",
+    "Notes/m by n homogeneous linear system with m<n has a non-trivial solution.md",
+    "Notes/Classification of consistent linear systems of equations (infinite field).md",
+    "Notes/Rank (Matrix).md",
+    "Notes/Gauss-Jordan Elimination.md",
+    "Notes/Gaussian Elimination.md"
   ]
 }

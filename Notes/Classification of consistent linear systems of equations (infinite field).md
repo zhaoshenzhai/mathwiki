@@ -4,7 +4,7 @@
 Date Created: 26/03/2022 23:01:01
 Tags: #Proposition #Open 
 
-Proved by: [[Gaussian Elimination]], [[Gauss-Jordan Elimination]], [[Row-equivalent augmented matrices implies equivalent linear systems]]
+Proved by: [[Gaussian Elimination]], [[Gauss-Jordan Elimination]], [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_
