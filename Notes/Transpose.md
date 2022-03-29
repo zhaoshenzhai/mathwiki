@@ -6,10 +6,10 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Symmetric Matrix]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Transposition is an involution]], [[Transposition respects matrix addition]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
@@ -26,3 +26,5 @@ $$\begin{equation}
 \end{equation}$$
 
 ```
+
+**Remark.** In other words, if $A=\l[a_{ij}\r]$, then $A^\trans=\l[a_{ji}\r]$.<span style="float:right;">$\blacklozenge$</span>

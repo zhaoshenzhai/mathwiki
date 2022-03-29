@@ -1,10 +1,10 @@
 <br />
 <br />
 
-Date Created: 28/03/2022 19:11:56
+Date Created: 29/03/2022 19:17:31
 Tags: #Definition #Closed 
 
-Types: [[Symmetric Matrix]]
+Types: _Not Applicable_
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
@@ -17,6 +17,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $n\in\N$. A **square matrix of size $n$** is a matrix $A\in\mat{n}{K}\coloneqq\mat{n\times n}{K}$._
+_Let $K$ be a field and fix $m,n\in\N$. A matrix $A\in\mat{m\times n}{K}$ is said to be **symmetric** if $A=A^\trans$._
 
 ```
+
+**Remark.** Symmetric matrices are necessarily square, so $m=n$.<span style="float:right;">$\blacklozenge$</span>
