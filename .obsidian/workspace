@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "66ff6ddbad389eb5",
+        "id": "8ca7d2acff821e7a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Additive matrix group is an Abelian group.md",
+            "file": "Notes/RREF of a matrix is unique.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Additive matrix group is an Abelian group.md",
+                "file": "Notes/RREF of a matrix is unique.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Additive matrix group is an Abelian group.md",
+                "file": "Notes/RREF of a matrix is unique.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Additive matrix group is an Abelian group.md",
+                "file": "Notes/RREF of a matrix is unique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "66ff6ddbad389eb5",
+  "active": "8ca7d2acff821e7a",
   "lastOpenFiles": [
+    "Notes/RREF of a matrix is unique.md",
+    "Notes/Gauss-Jordan Algorithm.md",
+    "Notes/Gauss-Jordan Elimination.md",
+    "Notes/Gaussian Algorithm.md",
     "Notes/Additive matrix group is an Abelian group.md",
+    "Notes/Additive Matrix Group.md",
     "Notes/Zero Matrix.md",
     "Notes/Matrix Multiplication.md",
     "Notes/Matrix Addition.md",
-    "Notes/Row-equivalence of Matrices.md",
-    "Notes/Elementary Row Operation.md",
-    "Notes/Matrix.md",
-    "Notes/Square Matrix.md",
-    "Notes/Reduced Row-echelon Matrix.md",
-    "Notes/Gauss-Jordan Algorithm.md"
+    "Notes/Row-equivalence of Matrices.md"
   ]
 }

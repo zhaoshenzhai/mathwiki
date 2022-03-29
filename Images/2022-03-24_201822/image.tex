@@ -13,14 +13,14 @@
 
 \begin{document}
     $\begin{bNiceMatrix}
-        0      & \Cdots & 0      & M_{lk} & \ast   & \Cdots & \ast   \\
-        \Vdots &        & \Vdots & \ast     & \ast   & \Cdots & \ast   \\
-               &        &        & \Vdots   & \Vdots & \Ddots & \Vdots \\
-        0      & \Cdots & 0      & \ast     & \ast   & \Cdots & \ast
+        0      & \Cdots & 0      & a_{lk} & \ast   & \Cdots & \ast   \\
+        \Vdots &        & \Vdots & \ast   & \ast   & \Cdots & \ast   \\
+               &        &        & \Vdots & \Vdots & \Ddots & \Vdots \\
+        0      & \Cdots & 0      & \ast   & \ast   & \Cdots & \ast
     \CodeAfter
         \line{1-1}{4-3}
     \end{bNiceMatrix}
-    \xrightarrow{\frac{1}{M_{lk}}R_1\to R_1}
+    \xrightarrow{\frac{1}{a_{lk}}R_1\to R_1}
     \begin{bNiceMatrix}
         0      & \Cdots & 0      & 1                     & \ast   & \Cdots & \ast   \\
         \Vdots &        & \Vdots & \color{drawRed}\ast   & \ast   & \Cdots & \ast   \\
