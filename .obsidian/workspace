@@ -7,8 +7,36 @@
         "id": "f5d35009b21b6abc",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Vector Space.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "e0a0f540d97d7111",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Tuple Space (Linear Algebra).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "379d5623df9c02fd",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Set of Matrices (over a field).md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Set of Matrices (over a field).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Set of Matrices (over a field).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -151,7 +181,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.6174560796599757,
+                  "scale": 0.33285262243394803,
                   "close": true
                 }
               }
@@ -163,6 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Set of Matrices (over a field).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f5d35009b21b6abc",
+  "active": "379d5623df9c02fd",
   "lastOpenFiles": [
+    "Notes/Set of Matrices (over a field).md",
     "Notes/Tuple Space (Linear Algebra).md",
     "Notes/Vector Space.md",
+    "Notes/Tuple spaces are function spaces (linear algebra).md",
     "Notes/Real Coordinate Space.md",
     "Notes/Dot Product.md",
-    "Notes/Tuple spaces are function spaces (linear algebra).md",
     "Notes/Vector.md",
     "Notes/Matrix.md",
     "Notes/Additive Matrix Group.md",
-    "Notes/Scalar Multiplication (Matrix).md",
-    "Notes/Matrix Multiplication.md"
+    "Notes/Scalar Multiplication (Matrix).md"
   ]
 }

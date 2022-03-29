@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Tuple spaces are function spaces (linear algebra)]]
+Justifications: [[Tuple spaces are vector spaces]]
 
 ``` ad-Definition
 title: Definition.
