@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 28/03/2022 19:19:56
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed 
 
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
@@ -23,7 +23,7 @@ $$\begin{equation}
     \begin{aligned}
         \l(A\oplus B\r)\oplus C&=\l[a_{ij}+b_{ij}\r]\oplus C && \textrm{Definition of $\oplus$}\\
         &=\l[\l(a_{ij}+b_{ij}\r)+c_{ij}\r] && \textrm{Definition of $\oplus$} \\
-        &=\l[a_{ij}+\l(b_{ij}+c_{ij}\r)\r] && \textrm{Associativity of $\oplus$} \\
+        &=\l[a_{ij}+\l(b_{ij}+c_{ij}\r)\r] && \textrm{Associativity of +} \\
         &=A\oplus\l[b_{ij}+c_{ij}\r] && \textrm{Definition of $\oplus$} \\
         &=A\oplus\l(B\oplus C\r). && \textrm{Definition of $\oplus$}
     \end{aligned}
@@ -40,4 +40,23 @@ $$\begin{equation}
         &=A. && \textrm{0 is the neutral element of $K$}
     \end{aligned}
 \end{equation}$$
-* ($\axigrp[3]$): Take $A\in\mat{m\times n}{K}$ and define $-A\coloneqq\l[-a_{ij}\r]$
+* ($\axigrp[3]$): Take $A\in\mat{m\times n}{K}$ and define $-A\coloneqq\l[-a_{ij}\r]$. It follows then that
+$$\begin{equation}
+    \begin{aligned}
+        A\oplus\l(-A\r)&=\l[a_{ij}+\l(-a_{ij}\r)\r] \\
+        &=[0] \\
+        &=0_{mn}
+    \end{aligned}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ 
+    \begin{aligned}
+        \l(-A\r)\oplus A&=\l[\l(-a_{ij}\r)+a_{ij}\r] \ \ \ \ \ \ \ \ && \textrm{Definition of $\oplus$} \\
+        &=[0] && \textrm{$-a_{ij}$ is the inverse of $a_{ij}$} \\
+        &=0_{mn}. && \textrm{Definition of $0_{mn}$}
+    \end{aligned}
+\end{equation}$$
+* ($\axiablngp$): Take $A,B\in\mat{m\times n}{K}$ and observe that
+
+$\begin{align}
+    A\oplus B&=\l[a_{ij}+b_{ij}\r] && \textrm{Definition of }\oplus \\
+    &=\l[b_{ij}+a_{ij}\r] && \textrm{Commutativity of }+ \\
+    &=B\oplus A. &&\textrm{Definition of }\oplus\qedin
+\end{align}$

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/RREF of a matrix is unique.md",
+            "file": "Notes/Zero Matrix.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/RREF of a matrix is unique.md",
+                "file": "Notes/Zero Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/RREF of a matrix is unique.md",
+                "file": "Notes/Zero Matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/RREF of a matrix is unique.md",
+                "file": "Notes/Zero Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,13 +184,13 @@
   },
   "active": "8ca7d2acff821e7a",
   "lastOpenFiles": [
+    "Notes/Zero Matrix.md",
+    "Notes/Additive matrix group is an Abelian group.md",
     "Notes/RREF of a matrix is unique.md",
     "Notes/Gauss-Jordan Algorithm.md",
     "Notes/Gauss-Jordan Elimination.md",
     "Notes/Gaussian Algorithm.md",
-    "Notes/Additive matrix group is an Abelian group.md",
     "Notes/Additive Matrix Group.md",
-    "Notes/Zero Matrix.md",
     "Notes/Matrix Multiplication.md",
     "Notes/Matrix Addition.md",
     "Notes/Row-equivalence of Matrices.md"
