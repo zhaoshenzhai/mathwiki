@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e0a0f540d97d7111",
+        "id": "690151853f13ed8f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Tuple Space (Linear Algebra).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "0f9347dab07cd07b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Tuple space over a field is a vector space.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "6a934cf5c21ba868",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Additive tuple space is an Abelian group.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -97,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Tuple space over a field is a vector space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Tuple space over a field is a vector space.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +151,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.09845802314391972,
+                  "scale": 0.47086308348495753,
                   "close": true
                 }
               }
@@ -193,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Tuple space over a field is a vector space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "0f9347dab07cd07b",
+  "active": "690151853f13ed8f",
   "lastOpenFiles": [
+    "Notes/Vector Space.md",
     "Notes/Tuple space over a field is a vector space.md",
     "Notes/Additive tuple space is an Abelian group.md",
+    "Notes/Additive matrix group is an Abelian group.md",
+    "Notes/Tuple.md",
     "Notes/Tuple Space (Linear Algebra).md",
     "Notes/Matrix.md",
-    "Notes/Additive matrix group is an Abelian group.md",
     "Notes/Additive Matrix Group.md",
     "Notes/Set of Matrices (over a field).md",
-    "Notes/Vector Space.md",
-    "Notes/Category of sets is a locally-small category.md",
-    "Notes/Category of Sets.md"
+    "Notes/Category of sets is a locally-small category.md"
   ]
 }
