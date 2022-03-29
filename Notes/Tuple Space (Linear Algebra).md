@@ -12,12 +12,12 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Tuple spaces are vector spaces]]
+Justifications: [[Tuple space over a field is a vector space]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $n\in\N^\ast$. The **$n$-tuple space over $K$** is the vector space $\l\langle K^n,K,\oplus,\odot\r\rangle$ over $K$, where_
+_Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $n\in\N^\ast$. The **$n$-tuple space over $K$** is the vector space $\l\langle K^n,K,\oplus,\odot,\v{0},\v{1}\r\rangle$ over $K$, where $\v{0}\coloneqq\l\langle0,\dots,0\r\rangle$, $\v{1}\coloneqq\l\langle1,\dots,1\r\rangle$, and_
 $$\begin{equation}
     \begin{aligned}
         \oplus:K^n\times K^n&\to K^n\\
