@@ -9,31 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Transpose.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "27ad61a0cea4b60f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Symmetric Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "d447845174597191",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Square Matrix.md",
+            "file": "Notes/Dot Product.md",
             "mode": "preview",
             "source": true
           }
@@ -97,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Symmetric Matrix.md",
+                "file": "Notes/Dot Product.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Symmetric Matrix.md",
+                "file": "Notes/Dot Product.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -193,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Symmetric Matrix.md",
+                "file": "Notes/Dot Product.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "27ad61a0cea4b60f",
+  "active": "28d2c413a055c8ee",
   "lastOpenFiles": [
-    "Notes/Symmetric Matrix.md",
+    "Notes/Dot Product.md",
     "Notes/Transpose.md",
     "Notes/Square Matrix.md",
+    "Notes/Symmetric Matrix.md",
     "Notes/Matrix Addition.md",
     "Notes/Matrix.md",
     "Notes/Restricted order topology subset of subspace topology.md",
     "Notes/Ordered square is strict subset of subspace topology.md",
     "Notes/Tuple space over a field is a vector space.md",
-    "Notes/Comparison of topologies on the ordered square.md",
-    "Notes/Homogeneous Linear System.md"
+    "Notes/Comparison of topologies on the ordered square.md"
   ]
 }

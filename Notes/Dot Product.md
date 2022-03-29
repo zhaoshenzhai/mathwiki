@@ -20,7 +20,7 @@ title: Definition.
 _Fix $n\in\N$. The **dot product on $\R^n$** is the function_
 $$\begin{equation}
     \begin{aligned}
-        \cdot:\R^n\times\R^n&\to\R\\
+        \dotpro:\R^n\times\R^n&\to\R\\
         \l\langle\v{x},\v{y}\r\rangle&\mapsto\sum_{i=1}^nx_iy_i.
     \end{aligned}
 \end{equation}$$
