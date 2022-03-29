@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8ca7d2acff821e7a",
+        "id": "f5d35009b21b6abc",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Zero Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Zero Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Zero Matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -157,7 +151,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.18863330076408982,
+                  "scale": 0.6174560796599757,
                   "close": true
                 }
               }
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Zero Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "8ca7d2acff821e7a",
+  "active": "f5d35009b21b6abc",
   "lastOpenFiles": [
-    "Notes/Zero Matrix.md",
-    "Notes/Additive matrix group is an Abelian group.md",
-    "Notes/RREF of a matrix is unique.md",
-    "Notes/Gauss-Jordan Algorithm.md",
-    "Notes/Gauss-Jordan Elimination.md",
-    "Notes/Gaussian Algorithm.md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Vector Space.md",
+    "Notes/Real Coordinate Space.md",
+    "Notes/Dot Product.md",
+    "Notes/Tuple spaces are function spaces (linear algebra).md",
+    "Notes/Vector.md",
+    "Notes/Matrix.md",
     "Notes/Additive Matrix Group.md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Matrix Addition.md",
-    "Notes/Row-equivalence of Matrices.md"
+    "Notes/Scalar Multiplication (Matrix).md",
+    "Notes/Matrix Multiplication.md"
   ]
 }
