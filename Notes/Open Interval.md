@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle X,<\r\rangle$ be a totally ordered set. An **open interval in $X$ w.r.t $<$** is a set of the form_
+_Let $\l\langle X,<\r\rangle$ be a totally ordered set. An **open interval in $X$ w.r.t. $<$** is a set of the form_
 $$\begin{equation}
     \l(a,b\r)\coloneqq\l\{x\in X\mid\ex a,b\in X:a<x<b\r\}.
 \end{equation}$$

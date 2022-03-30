@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 10/02/2022 12:42:39
 Tags: #Proposition #Closed 
 
-Proved by: [[Criteria for fineness w.r.t bases]], [[Product topology (basis; component from bases)]]
+Proved by: [[Criteria for fineness w.r.t. bases]], [[Product topology (basis; component from bases)]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

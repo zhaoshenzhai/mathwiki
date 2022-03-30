@@ -8,7 +8,7 @@ custom_alias: $\KtopR\subset\ULtopR$
 Date Created: 05/02/2022 10:24:48
 Tags: #Proposition #Closed 
 
-Proved by: [[Criteria for fineness w.r.t bases]], [$\sttopR\subset\ULtopR$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md)
+Proved by: [[Criteria for fineness w.r.t. bases]], [$\sttopR\subset\ULtopR$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md)
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

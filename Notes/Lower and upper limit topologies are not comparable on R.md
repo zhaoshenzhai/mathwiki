@@ -8,7 +8,7 @@ custom_alias: $\LLtopR\not\subseteq\ULtopR\land\ULtopR\not\subseteq\LLtopR$
 Date Created: 05/02/2022 17:43:47
 Tags: #Proposition #Closed 
 
-Proved by: [[Criteria for fineness w.r.t bases]]
+Proved by: [[Criteria for fineness w.r.t. bases]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

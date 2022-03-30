@@ -8,7 +8,7 @@ custom_alias: $\sttopR\subset\KtopR$
 Date Created: 05/02/2022 11:07:34
 Tags: #Proposition #Closed 
 
-Proved by: [[Criteria for fineness w.r.t bases]]
+Proved by: [[Criteria for fineness w.r.t. bases]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

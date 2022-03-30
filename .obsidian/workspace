@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Algebraic consequences (vector space).md",
+            "file": "Notes/Complement is anti-monotone w.r.t. subsets.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Algebraic consequences (vector space).md",
+                "file": "Notes/Complement is anti-monotone w.r.t. subsets.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Algebraic consequences (vector space).md",
+                "file": "Notes/Complement is anti-monotone w.r.t. subsets.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Algebraic consequences (vector space).md",
+                "file": "Notes/Complement is anti-monotone w.r.t. subsets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,6 +196,8 @@
   },
   "active": "85b9dcfffaff62b9",
   "lastOpenFiles": [
+    "Notes/Complement is anti-monotone w.r.t. subsets.md",
+    "Notes/Criteria for fineness w.r.t. bases.md",
     "Notes/Algebraic consequences (vector space).md",
     "Notes/Vector Space.md",
     "Notes/Additive matrix group is an Abelian group.md",
@@ -203,8 +205,6 @@
     "Notes/Set of Matrices (over a field).md",
     "Notes/Matrix.md",
     "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Real Coordinate Space.md",
-    "Notes/Dot Product.md",
-    "Notes/Tuple space over a field is a vector space.md"
+    "Notes/Real Coordinate Space.md"
   ]
 }
