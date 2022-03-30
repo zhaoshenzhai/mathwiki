@@ -25,11 +25,15 @@ _Let $\l\langle K,+,\cdot,0,1\r\rangle$ be a field. A **vector space over $K$** 
 * _an element $0_V\in V$ called the **zero vector**,_
 
 _such that $\l\langle V,\oplus,0_V\r\rangle$ is an Abelian group and_
-* _$\axivec[1]$ (Compatibility)$\bf{.}$ $\fa\alpha_1,\alpha_2\in K,\fa v\in V:\alpha_1\odot\l(\alpha_2\odot v\r)=\l(\alpha_1\cdot\alpha_2\r)\odot v$._
-* _$\axivec[2]$ (Identity)$\bf{.}$ $\fa v\in V:1\odot v=v$._
+* _$\axivec[1]$ (Compatibility of $\cdot$ and $\odot$)$\bf{.}$ $\fa\alpha_1,\alpha_2\in K,\fa v\in V:\alpha_1\odot\l(\alpha_2\odot v\r)=\l(\alpha_1\cdot\alpha_2\r)\odot v$._
+* _$\axivec[2]$ (Identity of $\odot$)$\bf{.}$ $\fa v\in V:1\odot v=v$._
 * _$\axivec[3]$ (Left-distributivity of scalars)$\bf{.}$ $\fa\alpha\in K:\fa v,w\in V:\alpha\odot\l(v\oplus w\r)=\l(\alpha\odot v\r)\oplus\l(\alpha\odot w\r)$._
 * _$\axivec[4]$ (Right-distributivity of vectors)$\bf{.}$ $\fa\alpha_1,\alpha_2\in K:\fa v\in V:\l(\alpha_1+\alpha_2\r)\odot v=\l(\alpha_1\odot v\r)\oplus\l(\alpha_2\odot v\r)$._
 
 ```
 
 **Remark.** Drop the notations $\oplus$ and $\odot$ unless it is clearer to distinguish them from $+$ and $\cdot$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+**Remark.** Since $\l\langle V\oplus,0_V\r\rangle$ is required to be a group, we see that the zero vector and the additive inverses of each vector are unique.<span style="float:right;">$\blacklozenge$</span>

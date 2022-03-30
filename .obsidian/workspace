@@ -16,7 +16,7 @@
         }
       },
       {
-        "id": "ede0e793bbe1fa6f",
+        "id": "85b9dcfffaff62b9",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -194,9 +194,10 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "ede0e793bbe1fa6f",
+  "active": "85b9dcfffaff62b9",
   "lastOpenFiles": [
     "Notes/Algebraic consequences (vector space).md",
+    "Notes/Vector Space.md",
     "Notes/Additive matrix group is an Abelian group.md",
     "Notes/Additive Matrix Group.md",
     "Notes/Set of Matrices (over a field).md",
@@ -204,7 +205,6 @@
     "Notes/Tuple Space (Linear Algebra).md",
     "Notes/Real Coordinate Space.md",
     "Notes/Dot Product.md",
-    "Notes/Tuple space over a field is a vector space.md",
-    "Notes/Additive tuple space is an Abelian group.md"
+    "Notes/Tuple space over a field is a vector space.md"
   ]
 }
