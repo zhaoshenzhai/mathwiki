@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Tuple Space (Linear Algebra).md",
+            "file": "Notes/Linear System of Equations.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Tuple Space (Linear Algebra).md",
+                "file": "Notes/Linear System of Equations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Tuple Space (Linear Algebra).md",
+                "file": "Notes/Linear System of Equations.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Tuple Space (Linear Algebra).md",
+                "file": "Notes/Linear System of Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,6 +184,8 @@
   },
   "active": "4f938fc93a231d92",
   "lastOpenFiles": [
+    "Notes/Linear System of Equations.md",
+    "Notes/Matrix Multiplication.md",
     "Notes/Tuple Space (Linear Algebra).md",
     "Notes/Real Coordinate Space.md",
     "Notes/Dot Product.md",
@@ -191,8 +193,6 @@
     "Notes/Transpose.md",
     "Notes/Sum of symmetric matrices is symmetric.md",
     "Notes/Symmetric Matrix.md",
-    "Notes/Matrix Addition.md",
-    "Notes/Union.md",
-    "Notes/Subset.md"
+    "Notes/Matrix Addition.md"
   ]
 }

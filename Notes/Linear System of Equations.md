@@ -47,4 +47,4 @@ $$\begin{equation}
             b_m
         \end{bmatrix},
 \end{equation}$$
-we can write the linear system as $A\v{x}=\v{b}$.
+we can write the linear system as $A\v{x}=\v{b}$. Viewing $\v{x}\in\mat{1\times n}{K}$, we see that this is a matrix equation with $A\v{x}$ standing for matrix multiplication.<span style="float:right;">$\blacklozenge$</span>
