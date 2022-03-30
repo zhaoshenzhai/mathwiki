@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b2c83a5c09704b8a",
+        "id": "4f938fc93a231d92",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Transpose.md",
+            "file": "Notes/Zero Matrix.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Transpose.md",
+                "file": "Notes/Zero Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Transpose.md",
+                "file": "Notes/Zero Matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -157,7 +157,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.0078125,
+                  "scale": 0.09541663888336926,
                   "close": true
                 }
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Transpose.md",
+                "file": "Notes/Zero Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b2c83a5c09704b8a",
+  "active": "4f938fc93a231d92",
   "lastOpenFiles": [
+    "Notes/Zero Matrix.md",
     "Notes/Transpose.md",
+    "Notes/Sum of symmetric matrices is symmetric.md",
+    "Notes/Symmetric Matrix.md",
+    "Notes/Matrix Addition.md",
+    "Notes/Union.md",
+    "Notes/Subset.md",
     "Notes/Transposition respects matrix addition.md",
     "Notes/Transposition respects scalar multiplication.md",
-    "Notes/Transposition is an involution.md",
-    "Notes/Matrix.md",
-    "Notes/Criteria for equality of functions.md",
-    "Notes/Binary Relation.md",
-    "Notes/Function.md",
-    "Notes/Algebraic consequences (vector space).md",
-    "Notes/Vector Space.md"
+    "Notes/Transposition is an involution.md"
   ]
 }
