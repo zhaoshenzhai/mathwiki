@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "28d2c413a055c8ee",
+        "id": "b2c83a5c09704b8a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Algebraic consequences (vector space).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "526ef04a622e277e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Vector Space.md",
+            "file": "Notes/Transpose.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Algebraic consequences (vector space).md",
+                "file": "Notes/Transpose.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Algebraic consequences (vector space).md",
+                "file": "Notes/Transpose.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +157,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 1.8435541722847901,
+                  "scale": 0.0078125,
                   "close": true
                 }
               }
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Algebraic consequences (vector space).md",
+                "file": "Notes/Transpose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "28d2c413a055c8ee",
+  "active": "b2c83a5c09704b8a",
   "lastOpenFiles": [
-    "Notes/Algebraic consequences (vector space).md",
-    "Notes/Vector Space.md",
-    "Notes/Complement is anti-monotone w.r.t. subsets.md",
-    "Notes/Criteria for fineness w.r.t. bases.md",
-    "Notes/Additive matrix group is an Abelian group.md",
-    "Notes/Additive Matrix Group.md",
-    "Notes/Set of Matrices (over a field).md",
+    "Notes/Transpose.md",
+    "Notes/Transposition respects matrix addition.md",
+    "Notes/Transposition respects scalar multiplication.md",
+    "Notes/Transposition is an involution.md",
     "Notes/Matrix.md",
-    "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Real Coordinate Space.md"
+    "Notes/Criteria for equality of functions.md",
+    "Notes/Binary Relation.md",
+    "Notes/Function.md",
+    "Notes/Algebraic consequences (vector space).md",
+    "Notes/Vector Space.md"
   ]
 }
