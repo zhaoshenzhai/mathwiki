@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $n\in\N^\ast$. Then the $n$-tuple space $\l\langle K^n,K,\oplus,\odot,\v{0},\v{1}\r\rangle$ over $K$ is a vector space._
+_Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $n\in\N^\ast$. Then the $n$-tuple space $\l\langle K^n,K,\oplus,\odot,\v{0}\r\rangle$ over $K$ is a vector space._
 
 ```
 
@@ -27,10 +27,10 @@ $$\begin{equation}
         &=\l(\alpha_1\cdot\alpha_2\r)\odot\v{x}. && \textrm{Definition of $\odot$}
     \end{aligned}
 \end{equation}$$
-* ($\axivec[2]$): Let $\v{1}\coloneqq\l\langle1,\dots,1\r\rangle\in K^n$. Take $\v{x}\in K^n$ and observe that
+* ($\axivec[2]$): Take $\v{x}\in K^n$ and observe that
 $$\begin{equation}
     \begin{aligned}
-        \v{1}\odot\v{x}&=\l\langle1\cdot x_1,\dots,1\cdot x_n\r\rangle && \textrm{Definition of $\odot$} \\
+        1\odot\v{x}&=\l\langle1\cdot x_1,\dots,1\cdot x_n\r\rangle && \textrm{Definition of $\odot$} \\
         &=\v{x}. && \textrm{1 is the multiplicative identity of $K$}
     \end{aligned}
 \end{equation}$$
