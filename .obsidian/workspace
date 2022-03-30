@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Zero Matrix.md",
+            "file": "Notes/Tuple Space (Linear Algebra).md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Zero Matrix.md",
+                "file": "Notes/Tuple Space (Linear Algebra).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Zero Matrix.md",
+                "file": "Notes/Tuple Space (Linear Algebra).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Zero Matrix.md",
+                "file": "Notes/Tuple Space (Linear Algebra).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,15 +184,15 @@
   },
   "active": "4f938fc93a231d92",
   "lastOpenFiles": [
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Real Coordinate Space.md",
+    "Notes/Dot Product.md",
     "Notes/Zero Matrix.md",
     "Notes/Transpose.md",
     "Notes/Sum of symmetric matrices is symmetric.md",
     "Notes/Symmetric Matrix.md",
     "Notes/Matrix Addition.md",
     "Notes/Union.md",
-    "Notes/Subset.md",
-    "Notes/Transposition respects matrix addition.md",
-    "Notes/Transposition respects scalar multiplication.md",
-    "Notes/Transposition is an involution.md"
+    "Notes/Subset.md"
   ]
 }
