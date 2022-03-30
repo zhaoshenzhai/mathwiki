@@ -9,9 +9,9 @@ Examples: _Not Applicable_
 Constructions: [[Augmented Matrix]], [[Linear Combination (System of Equation)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Classification of linear systems of equations (infinite field)]], [[Gaussian Elimination]], [[Gauss-Jordan Elimination]], [[Solution of system of linear combinations contains solution of original system]]
+Properties: [[Classification of linear systems of equations (infinite field)]], [[Solution of system of linear combinations contains solution of original system]]
 Sufficiencies: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
-Equivalences: _Not Applicable_
+Equivalences: [[Gaussian Elimination]], [[Gauss-Jordan Elimination]], [Linear system $A\v{x}=\v{b}$ is consistent $\Leftrightarrow$ $\v{b}\in\colsp\l(A\r)$](Linear%20system%20is%20consistent%20iff%20constant%20matrix%20is%20in%20column%20space%20of%20coefficient%20matrix.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition
