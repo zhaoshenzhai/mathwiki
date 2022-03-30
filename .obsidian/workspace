@@ -9,19 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Vector Space.md",
+            "file": "Notes/Algebraic consequences (vector space).md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "85b9dcfffaff62b9",
+        "id": "526ef04a622e277e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Complement is anti-monotone w.r.t. subsets.md",
+            "file": "Notes/Vector Space.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Complement is anti-monotone w.r.t. subsets.md",
+                "file": "Notes/Algebraic consequences (vector space).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Complement is anti-monotone w.r.t. subsets.md",
+                "file": "Notes/Algebraic consequences (vector space).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Complement is anti-monotone w.r.t. subsets.md",
+                "file": "Notes/Algebraic consequences (vector space).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,12 +194,12 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "85b9dcfffaff62b9",
+  "active": "28d2c413a055c8ee",
   "lastOpenFiles": [
-    "Notes/Complement is anti-monotone w.r.t. subsets.md",
-    "Notes/Criteria for fineness w.r.t. bases.md",
     "Notes/Algebraic consequences (vector space).md",
     "Notes/Vector Space.md",
+    "Notes/Complement is anti-monotone w.r.t. subsets.md",
+    "Notes/Criteria for fineness w.r.t. bases.md",
     "Notes/Additive matrix group is an Abelian group.md",
     "Notes/Additive Matrix Group.md",
     "Notes/Set of Matrices (over a field).md",
