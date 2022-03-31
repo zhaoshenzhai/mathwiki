@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f41cb0894afb0911",
+        "id": "bf15684de85703d6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "7d34cc24af046163",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Matrix Multiplication.md",
+            "file": "Notes/Identity Matrix.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
+                "file": "Notes/Identity Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
+                "file": "Notes/Identity Matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +157,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.18849683704586856,
+                  "scale": 0.07493954100852293,
                   "close": true
                 }
               }
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
+                "file": "Notes/Identity Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f41cb0894afb0911",
+  "active": "bf15684de85703d6",
   "lastOpenFiles": [
+    "Notes/Identity Matrix.md",
+    "Notes/Kronecker Delta.md",
+    "Notes/Matrix.md",
+    "Notes/Function.md",
+    "Notes/Linear Combination (Vector).md",
     "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
+    "Notes/Matrix Multiplication.md",
     "Notes/Scalar Multiplication (Matrix).md",
     "Notes/Transpose.md",
-    "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Augmented Matrix.md",
-    "Notes/Linear System of Equations.md",
-    "Notes/Linear Combination (Vector).md",
-    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
-    "Notes/Gaussian Elimination.md"
+    "Notes/Tuple Space (Linear Algebra).md"
   ]
 }
