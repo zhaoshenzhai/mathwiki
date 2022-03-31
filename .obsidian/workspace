@@ -7,8 +7,24 @@
         "id": "f41cb0894afb0911",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "7d34cc24af046163",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Matrix Multiplication.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,14 +197,14 @@
   "active": "f41cb0894afb0911",
   "lastOpenFiles": [
     "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
+    "Notes/Scalar Multiplication (Matrix).md",
+    "Notes/Transpose.md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Augmented Matrix.md",
     "Notes/Linear System of Equations.md",
     "Notes/Linear Combination (Vector).md",
-    "Notes/Augmented Matrix.md",
     "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
-    "Notes/Gaussian Elimination.md",
-    "Notes/Gauss-Jordan Elimination.md",
-    "Notes/Classification of linear systems of equations (infinite field).md",
-    "Notes/Rank (Matrix).md",
-    "Notes/Homogeneous Linear System.md"
+    "Notes/Gaussian Elimination.md"
   ]
 }

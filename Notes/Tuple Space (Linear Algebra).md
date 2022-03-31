@@ -38,4 +38,4 @@ $$\begin{equation}
         \v{x}&\mapsto\l[x_i\r]
     \end{aligned}
 \end{equation}$$
-and verify (easily) that it is invertible. As such, no distinction (unless context necessitates it) will be made between the two.<span style="float:right;">$\blacklozenge$</span>
+and verify (easily) that it is invertible. As such, no distinction (unless context necessitates it) will be made between the two. We will usually typeset such matrices as the transpose of a row-matrix instead.<span style="float:right;">$\blacklozenge$</span>
