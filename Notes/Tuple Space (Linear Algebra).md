@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Tuple space over a field is a vector space]], [[Identification of row, column, and abstract vectors]]
+Justifications: [[Tuple space over a field is a vector space]], [[Isomorphisms between row, column, and abstract vectors]]
 
 ``` ad-Definition
 title: Definition.

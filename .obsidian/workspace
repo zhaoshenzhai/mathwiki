@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "aaab82c53873519c",
+        "id": "d9e004496d551130",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Vector Space.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "0c0bc2ea9449c070",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Vector Space of Matrices.md",
+            "file": "Notes/Linear System of Equations.md",
             "mode": "preview",
             "source": true
           }
@@ -52,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "tag:#Open",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Vector Space of Matrices.md",
+                "file": "Notes/Linear System of Equations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Vector Space of Matrices.md",
+                "file": "Notes/Linear System of Equations.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Vector Space of Matrices.md",
+                "file": "Notes/Linear System of Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "0c0bc2ea9449c070",
+  "active": "d9e004496d551130",
   "lastOpenFiles": [
-    "Notes/Vector Space of Matrices.md",
-    "Notes/Vector Space.md",
-    "Notes/Set of matrices form a vector space.md",
-    "Notes/Additive tuple space is an Abelian group.md",
-    "Notes/Tuple space over a field is a vector space.md",
-    "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Additive matrix group is an Abelian group.md",
-    "Notes/Matrix.md",
-    "Notes/Additive Matrix Group.md",
-    "Notes/Set of Matrices.md"
+    "Notes/Linear System of Equations.md",
+    "Notes/Isomorphism (Set Theory).md",
+    "Notes/Isomorphism (Category Theory).md",
+    "Notes/Natural Isomorphism.md",
+    "Notes/Isomorphism of sets is an equivalence relation.md",
+    "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
+    "Notes/Rank (Matrix).md",
+    "Notes/Replacement image of a set is a set.md",
+    "Notes/Right Inverse (Functor).md",
+    "Notes/Right inverse iff surjection (Choice).md"
   ]
 }

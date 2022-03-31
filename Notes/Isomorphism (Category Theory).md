@@ -21,4 +21,4 @@ _Let $\cat{C}$ be a category and fix $X,Y\in\obj\l(\cat{C}\r)$. A morphism $f:X\
 
 ```
 
-**Remark.** If there exists an isomorphism $f:X\to Y$, write $X\iso Y$ and say that $X$ and $Y$ are **isomorphic**.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If there exists an isomorphism $f:X\to Y$, write $X\iso Y$ and say that $X$ and $Y$ are **isomorphic as objects in $\cat{C}$**.<span style="float:right;">$\blacklozenge$</span>
