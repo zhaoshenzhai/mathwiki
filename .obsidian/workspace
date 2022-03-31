@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4a8e7ad7534f65e4",
+        "id": "aaab82c53873519c",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Vector Space.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       },
       {
-        "id": "aaab82c53873519c",
+        "id": "0c0bc2ea9449c070",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -165,7 +169,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.5210394712794477,
+                  "scale": 0.05271431343312543,
                   "close": true
                 }
               }
@@ -190,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "aaab82c53873519c",
+  "active": "0c0bc2ea9449c070",
   "lastOpenFiles": [
     "Notes/Vector Space of Matrices.md",
-    "Notes/Additive Matrix Group.md",
+    "Notes/Vector Space.md",
+    "Notes/Set of matrices form a vector space.md",
+    "Notes/Additive tuple space is an Abelian group.md",
     "Notes/Tuple space over a field is a vector space.md",
     "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Identity functor is a functor.md",
-    "Notes/Identity Functor.md",
-    "Notes/Functor.md",
-    "Notes/Scalar Multiplication (Matrix).md",
-    "Notes/Zero Matrix.md",
-    "Notes/Matrix Addition.md"
+    "Notes/Additive matrix group is an Abelian group.md",
+    "Notes/Matrix.md",
+    "Notes/Additive Matrix Group.md",
+    "Notes/Set of Matrices.md"
   ]
 }
