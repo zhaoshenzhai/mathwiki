@@ -4,12 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "c543cbd5ee53e8e1",
+        "id": "4a8e7ad7534f65e4",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      },
+      {
+        "id": "aaab82c53873519c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Matrix Multiplication.md",
+            "file": "Notes/Vector Space of Matrices.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Matrix Multiplication.md",
+                "file": "Notes/Vector Space of Matrices.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +113,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Matrix Multiplication.md",
+                "file": "Notes/Vector Space of Matrices.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -157,7 +165,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.4218145297734555,
+                  "scale": 0.5210394712794477,
                   "close": true
                 }
               }
@@ -169,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Matrix Multiplication.md",
+                "file": "Notes/Vector Space of Matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +190,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "c543cbd5ee53e8e1",
+  "active": "aaab82c53873519c",
   "lastOpenFiles": [
-    "Notes/Matrix Multiplication.md",
-    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
-    "Notes/Matrix Addition.md",
-    "Notes/Matrix-vector multiplication is a linear combination of columns.md",
-    "Notes/Linear Combination (Vector).md",
+    "Notes/Vector Space of Matrices.md",
+    "Notes/Additive Matrix Group.md",
+    "Notes/Tuple space over a field is a vector space.md",
     "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Identity Matrix.md",
-    "Notes/Vector Space.md",
-    "Notes/Kronecker Delta.md",
-    "Notes/Matrix.md"
+    "Notes/Identity functor is a functor.md",
+    "Notes/Identity Functor.md",
+    "Notes/Functor.md",
+    "Notes/Scalar Multiplication (Matrix).md",
+    "Notes/Zero Matrix.md",
+    "Notes/Matrix Addition.md"
   ]
 }

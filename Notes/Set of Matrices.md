@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Additive Matrix Group]], [[General Linear Group]]
+Constructions: [[Additive Matrix Group]], [[General Linear Group]], [[Vector Space of Matrices]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

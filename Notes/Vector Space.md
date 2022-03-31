@@ -5,7 +5,7 @@ Date Created: 27/03/2022 21:04:03
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Tuple Space (Linear Algebra)]]
+Examples: [[Tuple Space (Linear Algebra)]], [[Vector Space of Matrices]]
 Constructions: [[Vector]]
 Generalizations: _Not Applicable_
 

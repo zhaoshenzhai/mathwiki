@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Tuple space over a field is a vector space]]
+Justifications: [[Tuple space over a field is a vector space]], [[Identification of row, column, and abstract vectors]]
 
 ``` ad-Definition
 title: Definition.
@@ -38,4 +38,4 @@ $$\begin{equation}
         \v{x}&\mapsto\l[x_i\r]
     \end{aligned}
 \end{equation}$$
-where it can easily be verified that it is invertible. As such, no distinction (unless context necessitates it) will be made between the two. We will usually typeset such matrices as the transpose of a row-matrix instead.<span style="float:right;">$\blacklozenge$</span>
+where it can easily be verified that it is invertible. As such, no distinction (unless context necessitates it) will be made between the two. We will usually typeset such matrices as the transpose of a row-matrix instead (since columns take up too much vertical space).<span style="float:right;">$\blacklozenge$</span>
