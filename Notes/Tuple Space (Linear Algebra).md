@@ -31,11 +31,11 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Vectors in a tuple space will generally be denoted in boldface (especially if $K=\R$). This is done since we can associate to each vector $\v{x}\in K^n$ an $n\times1$ matrix $\l[x_i\r]$, and conversely associate to each $n\times 1$ matrix $\l[x_i\r]$ a vector $\v{x}\in K^n$; formally, we define a function
+**Remark.** Vectors in a tuple space will generally be denoted in boldface (especially if $K=\R$). This is done since we can associate to each vector $\v{x}\in K^n$ an $n\times1$ matrix $\l[x_i\r]$, and conversely associate to each $n\times 1$ matrix $\l[x_i\r]$ a vector $\v{x}\in K^n$; formally, we define an isomorphism
 $$\begin{equation}
     \begin{aligned}
-        f:K^n&\to\mat{1\times n}{K} \\
+        f:K^n&\simto\mat{1\times n}{K} \\
         \v{x}&\mapsto\l[x_i\r]
     \end{aligned}
 \end{equation}$$
-and verify (easily) that it is invertible. As such, no distinction (unless context necessitates it) will be made between the two. We will usually typeset such matrices as the transpose of a row-matrix instead.<span style="float:right;">$\blacklozenge$</span>
+where it can easily be verified that it is invertible. As such, no distinction (unless context necessitates it) will be made between the two. We will usually typeset such matrices as the transpose of a row-matrix instead.<span style="float:right;">$\blacklozenge$</span>

@@ -5,7 +5,7 @@ Date Created: 28/03/2022 16:07:17
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Matrix-vector multiplication is a linear combination of columns]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

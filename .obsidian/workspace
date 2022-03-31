@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "bf15684de85703d6",
+        "id": "c543cbd5ee53e8e1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Identity Matrix.md",
+            "file": "Notes/Matrix Multiplication.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Identity Matrix.md",
+                "file": "Notes/Matrix Multiplication.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Identity Matrix.md",
+                "file": "Notes/Matrix Multiplication.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -157,7 +157,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.07493954100852293,
+                  "scale": 0.4218145297734555,
                   "close": true
                 }
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Identity Matrix.md",
+                "file": "Notes/Matrix Multiplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "bf15684de85703d6",
+  "active": "c543cbd5ee53e8e1",
   "lastOpenFiles": [
-    "Notes/Identity Matrix.md",
-    "Notes/Kronecker Delta.md",
-    "Notes/Matrix.md",
-    "Notes/Function.md",
-    "Notes/Linear Combination (Vector).md",
-    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
     "Notes/Matrix Multiplication.md",
-    "Notes/Scalar Multiplication (Matrix).md",
-    "Notes/Transpose.md",
-    "Notes/Tuple Space (Linear Algebra).md"
+    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
+    "Notes/Matrix Addition.md",
+    "Notes/Matrix-vector multiplication is a linear combination of columns.md",
+    "Notes/Linear Combination (Vector).md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Identity Matrix.md",
+    "Notes/Vector Space.md",
+    "Notes/Kronecker Delta.md",
+    "Notes/Matrix.md"
   ]
 }

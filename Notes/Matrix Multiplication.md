@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Matrix-vector multiplication is a linear combination of columns]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

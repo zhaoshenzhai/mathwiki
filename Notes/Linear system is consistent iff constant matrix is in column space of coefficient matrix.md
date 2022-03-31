@@ -8,7 +8,7 @@ custom_alias: Linear system $A\v{x}=\v{b}$ is consistent $\Leftrightarrow$ $\v{b
 Date Created: 30/03/2022 17:56:16
 Tags: #Proposition #Open
 
-Proved by: _Not Applicable_
+Proved by: [[Matrix-vector multiplication is a linear combination of columns]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_
@@ -29,17 +29,11 @@ _of equations over $K$. Then $A\v{x}=\v{b}$ is consistent iff $\v{b}\in\colsp\l(
 
 ```
 
-_Proof_. For all $j\in\l\{1,\dots,n\r\}$, let $\v{a}_j\coloneqq\l[a_{ij}\ \ \cdots\ \ a_{mj}\r]^\trans$ be the columns of $A$. Observe that the linear system can be written as a vector equation as follows:
+_Proof_. For all $j\in\l\{1,\dots,n\r\}$, let $\v{a}_j\coloneqq\l[a_{ij}\ \ \cdots\ \ a_{mj}\r]^\trans$ be the columns of $A$ and thus the linear system $A\v{x}=\v{b}$ can be written as
 $$\begin{equation}
-    \begin{aligned}
-        \v{b}&=\l[\sum_{j=1}^na_{ij}x_j\r]_{i\in\l\{1,\dots,m\r\}} && \textrm{Definition of matrix multiplication} \\
-        &=\l[\sum_{j=1}^na_{1j}x_j\ \ \cdots\ \ \sum_{j-1}^na_{mj}x_j\r]^\trans && \textrm{Notation; transpose} \\
-        &=\sum_{j=1}^n\l[a_{1j}x_j\ \ \cdots\ \ a_{mj}x_j\r]^\trans && \textrm{Definition of matrix addition} \\
-        &=\sum_{j=1}^nx_j\l[a_{1j}\ \ \cdots\ a_{mj}\r]^\trans && \textrm{Definition of scalar(-matrix) multiplication} \\
-        &=\sum_{j=1}^nx_j\v{a}_j. && \textrm{Definition of $\v{a}_j$}
-    \end{aligned}
+    \v{b}=\sum_{j=1}^nx_j\v{a}_j
 \end{equation}$$
-It follows then that $A\v{x}=\v{b}$ is consistent with (at least a) solution $\v{s}\coloneqq\l\langle s_1,\dots,s_n\r\rangle$ iff $\v{b}$ is a linear combination
+It follows then that the system is consistent with (at least a) solution $\v{s}\coloneqq\l\langle s_1,\dots,s_n\r\rangle$ iff $\v{b}$ is a linear combination
 $$\begin{equation}
     \v{b}=\sum_{j=1}^ns_j\v{a}_j;
 \end{equation}$$
