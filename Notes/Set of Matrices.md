@@ -6,10 +6,10 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Additive Matrix Group]], [[General Linear Group]], [[Vector Space of Matrices]]
+Constructions: [[Additive Matrix Group]], [[Vector Space of Matrices]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Matrix multiplication is associative]], [[Matrix multiplication is distributive over addition]], [[Compatibility of matrix and scalar multiplications]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

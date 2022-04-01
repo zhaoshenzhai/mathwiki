@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 01/04/2022 17:36:28
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed
 
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_

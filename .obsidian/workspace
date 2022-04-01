@@ -21,7 +21,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Set of Matrices.md",
+            "file": "Notes/Isomorphisms between row, column, and abstract vectors.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "423fe8f545d3eeea",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Transformation.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Set of Matrices.md",
+                "file": "Notes/Linear Transformation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Set of Matrices.md",
+                "file": "Notes/Linear Transformation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +181,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 3.9400576005380548,
+                  "scale": 0.06763126607266712,
                   "close": true
                 }
               }
@@ -181,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Set of Matrices.md",
+                "file": "Notes/Linear Transformation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "503926b4903db995",
+  "active": "423fe8f545d3eeea",
   "lastOpenFiles": [
-    "Notes/Set of Matrices.md",
+    "Notes/Linear Transformation.md",
+    "Notes/Isomorphisms between row, column, and abstract vectors.md",
     "Notes/Linear System of Equations.md",
+    "Notes/Solution of linear system in terms of a particular solution.md",
+    "Notes/Set of Matrices.md",
     "Notes/Vector Space.md",
     "Notes/Additive matrix group is an Abelian group.md",
     "Notes/Set of matrices form a vector space.md",
     "Notes/Vector Space of Matrices.md",
-    "Notes/Solution of linear system in terms of a particular solution.md",
-    "Notes/Matrix Addition.md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Tuple Space (Linear Algebra).md"
+    "Notes/Matrix Addition.md"
   ]
 }
