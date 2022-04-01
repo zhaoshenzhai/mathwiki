@@ -4,31 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "f49ac9f4dfa7df76",
+        "id": "94ba5a3fe2e4e3af",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear Transformation.md",
+            "file": "Notes/Matrix Multiplication.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "047b8f717560bbf5",
+        "id": "dbf62461691d8f56",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Matrix.md",
+            "file": "Notes/Transpose.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "20a0d1f9383660bd",
+        "id": "1434e0380bcd48bc",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Transformation.md",
+                "file": "Notes/Linear transformation induced by a matrix is a linear transformation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Transformation.md",
+                "file": "Notes/Linear transformation induced by a matrix is a linear transformation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Transformation.md",
+                "file": "Notes/Linear transformation induced by a matrix is a linear transformation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f49ac9f4dfa7df76",
+  "active": "1434e0380bcd48bc",
   "lastOpenFiles": [
-    "Notes/Linear Transformation.md",
-    "Notes/Linear Transformation Induced by a Matrix.md",
-    "Notes/Matrix.md",
     "Notes/Linear transformation induced by a matrix is a linear transformation.md",
-    "Notes/Set of Matrices.md",
-    "Notes/Matrix Addition.md",
-    "Notes/Additive Matrix Group.md",
-    "Notes/Elementary Row Operation.md",
+    "Notes/Linear Transformation Induced by a Matrix.md",
+    "Notes/Linear Transformation.md",
+    "Notes/Transpose.md",
     "Notes/Matrix Multiplication.md",
-    "Notes/Identity Matrix.md"
+    "Notes/Matrix multiplication is associative.md",
+    "Notes/Identity matrix is the identity of matrix multiplication.md",
+    "Notes/Matrix.md",
+    "Notes/Additive matrix group is an Abelian group.md",
+    "Notes/Additive Matrix Group.md"
   ]
 }

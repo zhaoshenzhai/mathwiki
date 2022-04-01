@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Symmetric Matrix]]
 Generalizations: _Not Applicable_
 
-Properties: [[Transposition is an involution]], [[Transposition respects matrix addition]], [[Transposition respects scalar multiplication]]
+Properties: [[Transposition is an involution]], [[Transposition respects matrix addition]], [[Transposition respects scalar multiplication]], [[Transposition inverts matrix multiplication]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
