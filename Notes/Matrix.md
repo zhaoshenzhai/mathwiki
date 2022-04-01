@@ -10,7 +10,7 @@ Constructions: [[Set of Matrices]], [[Linear Transformation Induced by a Matrix]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Criteria for equality of matrices]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

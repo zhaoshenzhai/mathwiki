@@ -4,36 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "b0aab0ed9a17a803",
+        "id": "b117962f8d22d060",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear Transformation Induced by a Matrix.md",
+            "file": "Notes/Matrix.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "790a6220b1529711",
+        "id": "b54dcfa243aa909d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Category of Vector Spaces.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "c5265c01326bc1f0",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Identity Linear Transformation.md",
+            "file": "Notes/Criteria for equality of matrices.md",
             "mode": "preview",
             "source": true
           }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Category of Vector Spaces.md",
+                "file": "Notes/Criteria for equality of matrices.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Category of Vector Spaces.md",
+                "file": "Notes/Criteria for equality of matrices.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -193,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Category of Vector Spaces.md",
+                "file": "Notes/Criteria for equality of matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "790a6220b1529711",
+  "active": "b54dcfa243aa909d",
   "lastOpenFiles": [
-    "Notes/Category of Vector Spaces.md",
-    "Notes/Category of sets is a locally-small category.md",
-    "Notes/Category of vector spaces is a locally-small category.md",
-    "Notes/Category of Sets.md",
-    "Notes/Identity Linear Transformation.md",
-    "Notes/Dot Product.md",
-    "Notes/Identity Function.md",
-    "Notes/Linear Transformation.md",
+    "Notes/Criteria for equality of matrices.md",
+    "Notes/Matrix.md",
+    "Notes/Function.md",
+    "Notes/Set of Matrices.md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Linear Isomorphism.md",
+    "Notes/Linear isomorphisms between tuples, row vectors, and column vectors.md",
     "Notes/Linear Transformation Induced by a Matrix.md",
-    "Notes/Vector Space.md"
+    "Notes/Category of Vector Spaces.md",
+    "Notes/Identity Linear Transformation.md"
   ]
 }
