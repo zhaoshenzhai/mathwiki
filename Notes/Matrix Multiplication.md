@@ -9,9 +9,9 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Matrix-vector multiplication is a linear combination of columns]], [[Matrix multiplication is associative]], [[Matrix multiplication is distributive over addition]], [[Compatibility of matrix and scalar multiplications]]
+Properties: [[Matrix multiplication is associative]], [[Matrix multiplication is distributive over addition]], [[Compatibility of matrix and scalar multiplications]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Matrix multiplication (columns)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

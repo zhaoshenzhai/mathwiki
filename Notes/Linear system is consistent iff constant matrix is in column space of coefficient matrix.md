@@ -8,7 +8,7 @@ custom_alias: Linear system $A\v{x}=\v{b}$ is consistent $\Leftrightarrow$ $\v{b
 Date Created: 30/03/2022 17:56:16
 Tags: #Proposition #Open
 
-Proved by: [[Matrix-vector multiplication is a linear combination of columns]]
+Proved by: [[Matrix multiplication (columns)]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

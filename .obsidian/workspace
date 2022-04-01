@@ -4,20 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "721839460c2d8cbc",
-        "type": "leaf",
-        "state": {
-          "type": "graph",
-          "state": {}
-        }
-      },
-      {
-        "id": "a067c23d7602293b",
+        "id": "d884849f34012279",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Isomorphisms between tuples, row vectors, and column vectors.md",
+            "file": "Notes/Matrix Multiplication.md",
             "mode": "preview",
             "source": true
           }
@@ -81,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Isomorphisms between tuples, row vectors, and column vectors.md",
+                "file": "Notes/Matrix Multiplication.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Isomorphisms between tuples, row vectors, and column vectors.md",
+                "file": "Notes/Matrix Multiplication.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -177,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Isomorphisms between tuples, row vectors, and column vectors.md",
+                "file": "Notes/Matrix Multiplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "a067c23d7602293b",
+  "active": "d884849f34012279",
   "lastOpenFiles": [
+    "Notes/Matrix Multiplication.md",
+    "Notes/Linear Combination (Vector).md",
+    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
+    "Notes/Matrix multiplication (columns).md",
+    "Notes/Matrix Addition.md",
     "Notes/Isomorphisms between tuples, row vectors, and column vectors.md",
     "Notes/Isomorphism of objects is an equivalence relation.md",
     "Notes/Category (via Hom-classes).md",
     "Notes/Linear Isomorphism.md",
-    "Notes/Composition of isomorphims are isomorphisms.md",
-    "Notes/Isomorphism of sets is an equivalence relation.md",
-    "Notes/Isomorphism (Set Theory).md",
-    "Notes/Linear Transformation.md",
-    "Notes/Function.md",
-    "Notes/Bijection.md"
+    "Notes/Composition of isomorphims are isomorphisms.md"
   ]
 }
