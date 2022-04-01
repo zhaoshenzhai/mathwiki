@@ -16,24 +16,24 @@
         }
       },
       {
-        "id": "ca52c42791da93de",
+        "id": "feab333959a8a5c1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Matrix multiplication (rows).md",
+            "file": "Notes/Dot Product.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "199a6a7ebec5c567",
+        "id": "837ed55efe189c70",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Matrix multiplication (columns).md",
+            "file": "Notes/Matrix multiplication over R (dot product).md",
             "mode": "preview",
             "source": true
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Matrix multiplication (rows).md",
+                "file": "Notes/Matrix multiplication over R (dot product).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Matrix multiplication (rows).md",
+                "file": "Notes/Matrix multiplication over R (dot product).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.1727769175355338,
+                  "scale": 0.9507952035073849,
                   "close": true
                 }
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Matrix multiplication (rows).md",
+                "file": "Notes/Matrix multiplication over R (dot product).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "ca52c42791da93de",
+  "active": "837ed55efe189c70",
   "lastOpenFiles": [
-    "Notes/Matrix multiplication (rows).md",
-    "Notes/Matrix multiplication (columns).md",
+    "Notes/Matrix multiplication over R (dot product).md",
+    "Notes/Isomorphisms between tuples, row vectors, and column vectors.md",
+    "Notes/Dot Product.md",
     "Notes/Matrix Multiplication.md",
+    "Notes/Matrix multiplication (columns).md",
+    "Notes/Matrix multiplication (rows).md",
     "Notes/Linear Combination (Vector).md",
     "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
     "Notes/Matrix Addition.md",
-    "Notes/Isomorphisms between tuples, row vectors, and column vectors.md",
-    "Notes/Isomorphism of objects is an equivalence relation.md",
-    "Notes/Category (via Hom-classes).md",
-    "Notes/Linear Isomorphism.md"
+    "Notes/Isomorphism of objects is an equivalence relation.md"
   ]
 }

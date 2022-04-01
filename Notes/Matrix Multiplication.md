@@ -5,7 +5,7 @@ Date Created: 22/03/2022 22:25:59
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [Matrix multiplication over $\R$ (dot product)](Matrix%20multiplication%20over%20R%20(dot%20product).md)
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
