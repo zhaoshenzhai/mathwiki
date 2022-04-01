@@ -4,9 +4,9 @@
 Date Created: 20/01/2022 09:09:09
 Tags: #Definition #Closed 
 
-Types: _Not Applicable_
+Types: [[Bijection]]
 Examples: [[Canonical Projection]], [[Projection Maps (Kuratowski)]], [[Projection Maps (Arbitrary)]]
-Constructions: [[Bijection]]
+Constructs: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

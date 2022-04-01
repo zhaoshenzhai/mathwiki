@@ -4,9 +4,9 @@
 Date Created: 20/01/2022 09:20:32
 Tags: #Definition #Closed 
 
-Types: _Not Applicable_
+Types: [[Bijection]]
 Examples: [[Inclusion Function]] 
-Constructions: [[Bijection]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [Complement of images subset of image of complement; injection $\Rightarrow$ equality](Complement%20of%20images%20subset%20of%20image%20of%20complement;%20injection%20implies%20equality.md)

@@ -4,7 +4,7 @@
 Date Created: 26/02/2022 13:09:53
 Tags: #Definition #Closed 
 
-Types: _Not Applicable_
+Types: [[Linear Isomorphism]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: [[Isomorphism (Category Theory)]]
