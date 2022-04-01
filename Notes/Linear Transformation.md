@@ -5,7 +5,7 @@ Date Created: 01/04/2022 18:16:33
 Tags: #Definition #Closed
 
 Types: [[Linear Isomorphism]]
-Examples: _Not Applicable_
+Examples: [[Linear Transformation Induced by a Matrix]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

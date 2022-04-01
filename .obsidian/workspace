@@ -4,36 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "ffbf0fba1c874fe1",
+        "id": "f49ac9f4dfa7df76",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Matrix Multiplication.md",
+            "file": "Notes/Linear Transformation.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "58aa18d58114b78a",
+        "id": "047b8f717560bbf5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Identity matrix is the identity of matrix multiplication.md",
+            "file": "Notes/Matrix.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "9b678203df455c27",
+        "id": "20a0d1f9383660bd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Identity Matrix.md",
+            "file": "Notes/Linear transformation induced by a matrix is a linear transformation.md",
             "mode": "preview",
             "source": true
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Identity matrix is the identity of matrix multiplication.md",
+                "file": "Notes/Linear Transformation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Identity matrix is the identity of matrix multiplication.md",
+                "file": "Notes/Linear Transformation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Identity matrix is the identity of matrix multiplication.md",
+                "file": "Notes/Linear Transformation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "58aa18d58114b78a",
+  "active": "f49ac9f4dfa7df76",
   "lastOpenFiles": [
-    "Notes/Identity matrix is the identity of matrix multiplication.md",
-    "Notes/Identity Matrix.md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Identity Function.md",
-    "Notes/Identity Functor.md",
-    "Notes/Identity functor is the identity of functor composition.md",
-    "Notes/Identity function is the identity of function composition.md",
-    "Notes/Matrix multiplication (rows).md",
+    "Notes/Linear Transformation.md",
+    "Notes/Linear Transformation Induced by a Matrix.md",
     "Notes/Matrix.md",
-    "Notes/Vector Space.md"
+    "Notes/Linear transformation induced by a matrix is a linear transformation.md",
+    "Notes/Set of Matrices.md",
+    "Notes/Matrix Addition.md",
+    "Notes/Additive Matrix Group.md",
+    "Notes/Elementary Row Operation.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Identity Matrix.md"
   ]
 }
