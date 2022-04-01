@@ -4,7 +4,7 @@
 Date Created: 27/01/2022 13:45:27
 Tags: #Proposition #Closed 
 
-Proved by: [Invertible $\Leftrightarrow$ bijective](Invertible%20iff%20bijective.md), [[Composition of relations is associative]], [[Composition with identities preserve functions]]
+Proved by: [Invertible $\Leftrightarrow$ bijective](Invertible%20iff%20bijective.md), [[Composition of relations is associative]], [[Identity function is the identity of function composition]]
 Generalizations: [[Composition of isomorphims are isomorphisms]]
 
 Examples: _Not Applicable_
@@ -22,7 +22,7 @@ $$\begin{equation}
     \begin{alignedat}{2}
         \l(g\circ f\r)\circ\l(f^{-1}\circ g^{-1}\r)&=g\circ\l(f\circ f^{-1}\r)\circ g^{-1}\ \ \ \ \ \ \ \ &&\textrm{Composition is associative}\\
         &=g\circ\id_Y\circ g^{-1}&&\textrm{Definition of the inverse}\\
-        &=g\circ g^{-1}&&\textrm{Composition with identities preserve functions}\\
+        &=g\circ g^{-1}&&\textrm{Identity function is the identity of function composition}\\
         &=\id_Z&&\textrm{Definition of the inverse}
     \end{alignedat}
 \end{equation}$$
@@ -31,7 +31,7 @@ $$\begin{equation}
     \begin{alignedat}{2}
         \l(f^{-1}\circ g^{-1}\r)\circ\l(g\circ f\r)&=f^{-1}\circ\l(g^{-1}\circ g\r)\circ f\ \ \ \ \ \ \ \ &&\textrm{Composition is associative}\\
         &=f^{-1}\circ\id_Y\circ f&&\textrm{Definition of the inverse}\\
-        &=f^{-1}\circ f&&\textrm{Composition with identities preserve functions}\\
+        &=f^{-1}\circ f&&\textrm{Identity function is the identity of function composition}\\
         &=\id_X&&\textrm{Definition of the inverse}
     \end{alignedat}
 \end{equation}$$

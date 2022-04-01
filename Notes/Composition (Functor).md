@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Composition with identities preserve functors]], [[Composition of functors is associative]]
+Properties: [[Identity functor is the identity of functor composition]], [[Composition of functors is associative]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

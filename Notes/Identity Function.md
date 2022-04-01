@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Reflexive Closure]], [$\cat{Set}$](Category%20of%20Sets.md), [[Identity Functor]]
 Generalizations: [[Identity Morphism]]
 
-Properties: [[Identity function is a bijection]], [[Composition with identities preserve functions]]
+Properties: [[Identity function is a bijection]], [[Identity function is the identity of function composition]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Identity function is a function]]

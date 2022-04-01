@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 27/01/2022 11:56:26
 Tags: #Proposition #Closed 
 
-Proved by: [Left inverse $\Leftrightarrow$ injection](Left%20inverse%20iff%20injection.md), [Right inverse $\Leftrightarrow$ surjection (Choice)](Right%20inverse%20iff%20surjection%20(Choice).md), [[Left and right inverses coincide (Function)]], [[Composition of relations is associative]], [[Composition with identities preserve functions]]
+Proved by: [Left inverse $\Leftrightarrow$ injection](Left%20inverse%20iff%20injection.md), [Right inverse $\Leftrightarrow$ surjection (Choice)](Right%20inverse%20iff%20surjection%20(Choice).md), [[Left and right inverses coincide (Function)]], [[Composition of relations is associative]], [[Identity function is the identity of function composition]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

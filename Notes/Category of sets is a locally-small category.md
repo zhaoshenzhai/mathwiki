@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 21/02/2022 16:40:38
 Tags: #Proposition #Closed 
 
-Proved by: [[Composition of relations is a relation]], [[Composition with identities preserve functions]], [[Function space is a set]]
+Proved by: [[Composition of relations is a relation]], [[Identity function is the identity of function composition]], [[Function space is a set]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

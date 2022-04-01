@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [$\cat{Set}$](Category%20of%20Sets.md)
 Generalizations: [[Composition (Relation)]]
 
-Properties: [[Composition with identities preserve functions]], [[Composition of bijections is a bijection]]
+Properties: [[Identity function is the identity of function composition]], [[Composition of bijections is a bijection]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Composition of functions is a function]]

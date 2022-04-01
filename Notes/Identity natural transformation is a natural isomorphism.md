@@ -4,7 +4,7 @@
 Date Created: 12/03/2022 17:39:47
 Tags: #Proposition #Closed 
 
-Proved by: [[Identity morphism is an isomorphism]], [[Composition with identities preserve functors]]
+Proved by: [[Identity morphism is an isomorphism]], [[Identity functor is the identity of functor composition]]
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_
@@ -25,7 +25,7 @@ commutes. This is seen by the following computation:
 
 $\begin{align}
     \ms{F}\l(\alpha\r)&=\ms{F}\l(\alpha\r)&&\textrm{Equlity is reflexive}\\
-    \ms{F}\l(\id_Y\circ\alpha\r)&=\ms{F}\l(\alpha\circ\id_X\r)&&\textrm{Composition with identities preserve functors}\\
+    \ms{F}\l(\id_Y\circ\alpha\r)&=\ms{F}\l(\alpha\circ\id_X\r)&&\textrm{Identity functor is the identity of functor composition}\\
     \ms{F}\l(\id_Y\r)\circ\ms{F}\l(\alpha\r)&=\ms{F}\l(\alpha\r)\circ\ms{F}\l(\id_X\r)&&\axifunctor[2]\textrm{ of }\ms{F}\\
     \id_{\ms{F}\l(Y\r)}\circ\ms{F}\l(\alpha\r)&=\ms{F}\l(\alpha\r)\circ\id_{\ms{F}\l(X\r)}.&&\axifunctor[1]\textrm{ of }\ms{F}\qedin
 \end{align}$

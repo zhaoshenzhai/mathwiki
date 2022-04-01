@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "d884849f34012279",
+        "id": "ffbf0fba1c874fe1",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -16,24 +16,24 @@
         }
       },
       {
-        "id": "feab333959a8a5c1",
+        "id": "513a9c6acc50c900",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Dot Product.md",
+            "file": "Notes/Identity functor is the identity of functor composition.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "837ed55efe189c70",
+        "id": "9b678203df455c27",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Matrix multiplication over R (dot product).md",
+            "file": "Notes/Identity Matrix.md",
             "mode": "preview",
             "source": true
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Matrix multiplication over R (dot product).md",
+                "file": "Notes/Identity functor is the identity of functor composition.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Matrix multiplication over R (dot product).md",
+                "file": "Notes/Identity functor is the identity of functor composition.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.9507952035073849,
+                  "scale": 0.025870502783767773,
                   "close": true
                 }
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Matrix multiplication over R (dot product).md",
+                "file": "Notes/Identity functor is the identity of functor composition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "837ed55efe189c70",
+  "active": "513a9c6acc50c900",
   "lastOpenFiles": [
-    "Notes/Matrix multiplication over R (dot product).md",
-    "Notes/Isomorphisms between tuples, row vectors, and column vectors.md",
-    "Notes/Dot Product.md",
+    "Notes/Identity functor is the identity of functor composition.md",
+    "Notes/Identity function is the identity of function composition.md",
     "Notes/Matrix Multiplication.md",
-    "Notes/Matrix multiplication (columns).md",
+    "Notes/Identity Matrix.md",
     "Notes/Matrix multiplication (rows).md",
-    "Notes/Linear Combination (Vector).md",
+    "Notes/Matrix.md",
+    "Notes/Vector Space.md",
+    "Notes/Algebraic consequences (vector space).md",
     "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
-    "Notes/Matrix Addition.md",
-    "Notes/Isomorphism of objects is an equivalence relation.md"
+    "Notes/Dot Product.md"
   ]
 }
