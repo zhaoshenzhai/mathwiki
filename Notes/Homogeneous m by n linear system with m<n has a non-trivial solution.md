@@ -1,5 +1,5 @@
 ---
-custom_alias: $m\times n$ homogeneous linear system with $m<n$ $\Rightarrow$ non-trivial solutions
+custom_alias: Homogeneous $m\times n$ linear system with $m<n$ $\Rightarrow$ non-trivial solutions
 ---
 
 <br />

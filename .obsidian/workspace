@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d9e004496d551130",
+        "id": "b92d0acfe86474c5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Linear System of Equations.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "503926b4903db995",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Set of Matrices.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Open",
+                "query": "tag:#In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
+                "file": "Notes/Set of Matrices.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
+                "file": "Notes/Set of Matrices.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -157,7 +169,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.05271431343312543,
+                  "scale": 3.9400576005380548,
                   "close": true
                 }
               }
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
+                "file": "Notes/Set of Matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "d9e004496d551130",
+  "active": "503926b4903db995",
   "lastOpenFiles": [
+    "Notes/Set of Matrices.md",
     "Notes/Linear System of Equations.md",
-    "Notes/Isomorphism (Set Theory).md",
-    "Notes/Isomorphism (Category Theory).md",
-    "Notes/Natural Isomorphism.md",
-    "Notes/Isomorphism of sets is an equivalence relation.md",
-    "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
-    "Notes/Rank (Matrix).md",
-    "Notes/Replacement image of a set is a set.md",
-    "Notes/Right Inverse (Functor).md",
-    "Notes/Right inverse iff surjection (Choice).md"
+    "Notes/Vector Space.md",
+    "Notes/Additive matrix group is an Abelian group.md",
+    "Notes/Set of matrices form a vector space.md",
+    "Notes/Vector Space of Matrices.md",
+    "Notes/Solution of linear system in terms of a particular solution.md",
+    "Notes/Matrix Addition.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Tuple Space (Linear Algebra).md"
   ]
 }
