@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2eb9dd6036ac77d0",
+        "id": "721839460c2d8cbc",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Transformation.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "graph",
+          "state": {}
         }
       },
       {
-        "id": "3fdf04aa6e2b06e6",
+        "id": "a067c23d7602293b",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -85,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Transformation.md",
+                "file": "Notes/Isomorphisms between tuples, row vectors, and column vectors.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +113,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Transformation.md",
+                "file": "Notes/Isomorphisms between tuples, row vectors, and column vectors.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Transformation.md",
+                "file": "Notes/Isomorphisms between tuples, row vectors, and column vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +190,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "2eb9dd6036ac77d0",
+  "active": "a067c23d7602293b",
   "lastOpenFiles": [
+    "Notes/Isomorphisms between tuples, row vectors, and column vectors.md",
+    "Notes/Isomorphism of objects is an equivalence relation.md",
+    "Notes/Category (via Hom-classes).md",
+    "Notes/Linear Isomorphism.md",
+    "Notes/Composition of isomorphims are isomorphisms.md",
+    "Notes/Isomorphism of sets is an equivalence relation.md",
+    "Notes/Isomorphism (Set Theory).md",
     "Notes/Linear Transformation.md",
     "Notes/Function.md",
-    "Notes/Linear Isomorphism.md",
-    "Notes/Isomorphism (Set Theory).md",
-    "Notes/Bijection.md",
-    "Notes/Surjection.md",
-    "Notes/Injection.md",
-    "Notes/Isomorphisms between tuples, row vectors, and column vectors.md",
-    "Notes/Inverse (Function).md",
-    "Notes/Isomorphism of Categories.md"
+    "Notes/Bijection.md"
   ]
 }
