@@ -5,7 +5,7 @@ Date Created: 21/02/2022 13:22:50
 Tags: #Definition #Closed 
 
 Types: [[Thin Category]]
-Examples: [$\cat{Set}$](Category%20of%20Sets.md), [$\cat{Rel}$](Category%20of%20Relations.md)
+Examples: [$\cat{Set}$](Category%20of%20Sets.md), [$\cat{Rel}$](Category%20of%20Relations.md), [$\cat{Vect}$](Category%20of%20Vector%20Spaces.md)
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

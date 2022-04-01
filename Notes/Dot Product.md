@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Matrix multiplication over R (dot product)]]
+Constructions: [Matrix multiplication over $\R$ (dot product)](Matrix%20multiplication%20over%20R%20(dot%20product).md)
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

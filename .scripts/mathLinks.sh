@@ -8,16 +8,17 @@ NC='\033[0m'
 
 Math()
 {
-    local r=$(echo "$1" | sed -E 's/\bR\b/\$\\R\$/g')                                   # Real numbers
-    local r=$(echo "$r" | sed -E 's/\bN\b/\$\\N\$/g')                                   # Natural numbers
-    local r=$(echo "$r" | sed -E 's/\bR2\b/\$\\R\^2\$/g')                               # Real numbers squared
-    local r=$(echo "$r" | sed -E 's/\bN2\b/\$\\N\^2\$/g')                               # Natural numbers squared
-    local r=$(echo "$r" | sed -E 's/\bimplies\b/\$\\Rightarrow\$/g')                    # Implies
-    local r=$(echo "$r" | sed -E 's/\biff\b/\$\\Leftrightarrow\$/g')                    # Equivalence
-    local r=$(echo "$r" | sed -E 's/\bON\b/\$\\textrm\{ON\}\$/g')                       # Class of ordinals
-    local r=$(echo "$r" | sed -E 's/\bK\b/\$K\$/g')                                     # K topology
-    local r=$(echo "$r" | sed -E 's/\bCategory\sof\sSets\b/\$\\cat{Set}\$/gI')          # Category of Sets
-    local r=$(echo "$r" | sed -E 's/\bCategory\sof\sRelations\b/\$\\cat{Rel}\$/gI')     # Category of Sets
+    local r=$(echo "$1" | sed -E 's/\bR\b/\$\\R\$/g')                                         # Real numbers
+    local r=$(echo "$r" | sed -E 's/\bN\b/\$\\N\$/g')                                         # Natural numbers
+    local r=$(echo "$r" | sed -E 's/\bR2\b/\$\\R\^2\$/g')                                     # Real numbers squared
+    local r=$(echo "$r" | sed -E 's/\bN2\b/\$\\N\^2\$/g')                                     # Natural numbers squared
+    local r=$(echo "$r" | sed -E 's/\bimplies\b/\$\\Rightarrow\$/g')                          # Implies
+    local r=$(echo "$r" | sed -E 's/\biff\b/\$\\Leftrightarrow\$/g')                          # Equivalence
+    local r=$(echo "$r" | sed -E 's/\bON\b/\$\\textrm\{ON\}\$/g')                             # Class of ordinals
+    local r=$(echo "$r" | sed -E 's/\bK\b/\$K\$/g')                                           # K topology
+    local r=$(echo "$r" | sed -E 's/\bCategory\sof\sSets\b/\$\\cat{Set}\$/gI')                # Category of Sets
+    local r=$(echo "$r" | sed -E 's/\bCategory\sof\sRelations\b/\$\\cat{Rel}\$/gI')           # Category of Relations
+    local r=$(echo "$r" | sed -E 's/\bCategory\sof\sVector\sSpaces\b/\$\\cat{Vect}\$/gI')     # Category of Relations
 
     # Prefix Letters
     local r=$(echo "$r" | sed -E 's/\bn-\b/\$n\$-/g')                                   # n

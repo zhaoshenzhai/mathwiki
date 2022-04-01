@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Linear Isomorphism]]
 Examples: [[Linear Transformation Induced by a Matrix]]
-Constructions: _Not Applicable_
+Constructions: [$\cat{Vect}$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

@@ -21,7 +21,7 @@ Justifications: [$\cat{Rel}$ is a locally-small category](Category%20of%20relati
 ``` ad-Definition
 title: Definition.
 
-_The **category of relations** is the category $\cat{Rel}$ defined by the following data:_
+_The **category of relations** is the (locally-small) category $\cat{Rel}$ defined by the following data:_
 * _The objects are pairs $\l\langle X,\rho\r\rangle$ where $X$ is a set and $\rho$ is a (binary) relation on $X$._
 * _For all $\cat{Rel}$-objects $\l\langle X,\rho\r\rangle$ and $\l\langle Y,\sigma\r\rangle$, the morphisms from $\l\langle X,\rho\r\rangle$ to $\l\langle Y,\sigma\r\rangle$ are relation-preserving functions $f:X\to Y$; that is,_
 $$\begin{equation}
