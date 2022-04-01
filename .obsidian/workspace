@@ -28,6 +28,18 @@
         }
       },
       {
+        "id": "cef3a5d65383f644",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Matrix Multiplication.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
         "id": "423fe8f545d3eeea",
         "type": "leaf",
         "state": {
@@ -97,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Transformation.md",
+                "file": "Notes/Matrix Multiplication.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +141,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Transformation.md",
+                "file": "Notes/Matrix Multiplication.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -193,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Transformation.md",
+                "file": "Notes/Matrix Multiplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +218,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "423fe8f545d3eeea",
+  "active": "cef3a5d65383f644",
   "lastOpenFiles": [
+    "Notes/Matrix Multiplication.md",
+    "Notes/Set of Matrices.md",
     "Notes/Linear Transformation.md",
     "Notes/Isomorphisms between row, column, and abstract vectors.md",
     "Notes/Linear System of Equations.md",
+    "Notes/Dot Product.md",
     "Notes/Solution of linear system in terms of a particular solution.md",
-    "Notes/Set of Matrices.md",
     "Notes/Vector Space.md",
     "Notes/Additive matrix group is an Abelian group.md",
-    "Notes/Set of matrices form a vector space.md",
-    "Notes/Vector Space of Matrices.md",
-    "Notes/Matrix Addition.md"
+    "Notes/Set of matrices form a vector space.md"
   ]
 }
