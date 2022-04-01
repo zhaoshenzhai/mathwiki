@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Matrix multiplication is associative]], [[Matrix multiplication is distributive over addition]], [[Compatibility of matrix and scalar multiplications]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Matrix multiplication (columns)]]
+Equivalences: [[Matrix multiplication (columns)]], [[Matrix multiplication (rows)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
@@ -21,7 +21,7 @@ _Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $m,n,p\in\N$. The functio
 $$\begin{equation}
     \begin{aligned}
         \odot:\mat{m\times n}{K}\times\mat{n\times p}{K}&\to\mat{m\times p}{K}\\
-        \l\langle A,B\r\rangle&\mapsto A\odot B\coloneqq\l[\sum\limits_{j=1}^{n}a_{ij}\cdot b_{jk}\r]_{i\in\l\{1,\dots,m\r\},k\in\l\{1,\dots,p\r\}}
+        \l\langle A,B\r\rangle&\mapsto A\odot B\coloneqq\l[\sum\limits_{j=1}^na_{ij}\cdot b_{jk}\r]_{i\in\l\{1,\dots,m\r\},k\in\l\{1,\dots,p\r\}}
     \end{aligned}
 \end{equation}$$
 _defines the **matrix multiplication operation between an $m\times n$ and a $n\times p$ matrix over $K$**._

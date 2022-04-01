@@ -5,7 +5,7 @@ Date Created: 28/03/2022 16:07:17
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Matrix multiplication (columns)]]
+Examples: [[Matrix multiplication (columns)]], [[Matrix multiplication (rows)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
