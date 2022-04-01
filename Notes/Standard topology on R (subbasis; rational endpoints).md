@@ -11,7 +11,6 @@ Tags: #Proposition #Closed
 Proved by: [[Criteria for subbasis to generate existing basis]], [[Half-infinite open rays are open in the order topology]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

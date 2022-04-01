@@ -11,7 +11,6 @@ Tags: #Proposition #Closed
 Proved by: [[Solution of system of linear combinations contains solution of original system]], [[Row-equivalence of matrices is an equivalence relation]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

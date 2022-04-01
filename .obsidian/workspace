@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b117962f8d22d060",
+        "id": "729a75467ebba5cf",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "b54dcfa243aa909d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Criteria for equality of matrices.md",
+            "file": "Notes/Standard topology on R (basis; rational endpoints).md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Criteria for equality of matrices.md",
+                "file": "Notes/Standard topology on R (basis; rational endpoints).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Criteria for equality of matrices.md",
+                "file": "Notes/Standard topology on R (basis; rational endpoints).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Criteria for equality of matrices.md",
+                "file": "Notes/Standard topology on R (basis; rational endpoints).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b54dcfa243aa909d",
+  "active": "729a75467ebba5cf",
   "lastOpenFiles": [
-    "Notes/Criteria for equality of matrices.md",
+    "Notes/Standard topology on R (basis; rational endpoints).md",
+    "Notes/Ordered square is strict subset of subspace topology.md",
+    "Notes/Restricted order topology subset of subspace topology.md",
+    "Notes/Ordered Square.md",
     "Notes/Matrix.md",
+    "Notes/Criteria for equality of matrices.md",
     "Notes/Function.md",
     "Notes/Set of Matrices.md",
     "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Linear Isomorphism.md",
-    "Notes/Linear isomorphisms between tuples, row vectors, and column vectors.md",
-    "Notes/Linear Transformation Induced by a Matrix.md",
-    "Notes/Category of Vector Spaces.md",
-    "Notes/Identity Linear Transformation.md"
+    "Notes/Linear Isomorphism.md"
   ]
 }

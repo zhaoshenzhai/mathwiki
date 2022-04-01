@@ -11,7 +11,6 @@ Tags: #Proposition #Closed
 Proved by: [$\textrm{ON}$ is a transitive class](ON%20is%20a%20transitive%20class.md), [$\textrm{ON}$ is well-ordered by membership](ON%20is%20well-ordered%20by%20membership.md)
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

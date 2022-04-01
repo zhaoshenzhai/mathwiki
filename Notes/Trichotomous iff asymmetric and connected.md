@@ -11,7 +11,6 @@ Tags: #Proposition #Closed
 Proved by: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity.md)
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

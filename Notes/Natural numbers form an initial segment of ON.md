@@ -11,7 +11,6 @@ Tags: #Proposition #Closed
 Proved by: [$\textrm{ON}$ is a transitive class](ON%20is%20a%20transitive%20class.md), [[Reflexive closure of ordering on ordinals]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

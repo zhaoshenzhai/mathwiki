@@ -11,7 +11,6 @@ Tags: #Proposition #Closed
 Proved by: [Right inverse $\Leftrightarrow$ surjection (Choice)](Right%20inverse%20iff%20surjection%20(Choice).md), [Right inverse $\Rightarrow$ epimorphism](Right%20inverse%20implies%20epimorphism.md)
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

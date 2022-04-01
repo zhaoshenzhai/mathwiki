@@ -11,7 +11,6 @@ Tags: #Proposition #Closed
 Proved by: [Left inverse $\Leftrightarrow$ injection](Left%20inverse%20iff%20injection.md), [Left inverse $\Rightarrow$ monomorphism](Left%20inverse%20implies%20monomorphism.md)
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

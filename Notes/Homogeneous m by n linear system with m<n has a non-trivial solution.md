@@ -11,7 +11,6 @@ Tags: #Proposition #Open
 Proved by: [[Classification of linear systems of equations (infinite field)]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
