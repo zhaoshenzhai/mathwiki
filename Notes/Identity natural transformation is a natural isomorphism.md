@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [[Identity morphism is an isomorphism]], [[Identity functor is the identity of functor composition]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [[Identity functor is the identity of functor composition]], [[Composition of functors is associative]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

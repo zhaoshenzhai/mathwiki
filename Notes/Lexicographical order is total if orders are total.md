@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [[Reflexive closure of strict orders is non-strict]], [[Strict lexicographical order is total if orders are strictly total]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

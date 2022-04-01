@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [$\bigcup\em=\em$](Union%20of%20empty%20set%20is%20empty.md)
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

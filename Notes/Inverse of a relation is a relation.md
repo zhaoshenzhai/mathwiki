@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [Binary relation $\Leftrightarrow$ subset of Cartesian product](Binary%20relation%20iff%20subset%20of%20Cartesian%20product.md), [[Set-builder notation is unique]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

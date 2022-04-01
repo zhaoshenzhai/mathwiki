@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [[Matrix multiplication is distributive over addition]], [[Compatibility of matrix and scalar multiplications]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

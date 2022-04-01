@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [[Transposition respects matrix addition]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

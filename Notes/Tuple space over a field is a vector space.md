@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [[Additive tuple space is an Abelian group]]
 Generalizations: [[Set of matrices form a vector space]]
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

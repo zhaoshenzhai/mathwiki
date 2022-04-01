@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [[Union distributes over binary intersection]], [[Intersection of intersections is an intersection]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

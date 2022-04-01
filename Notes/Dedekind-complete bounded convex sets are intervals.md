@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: [[Rational convex set (not interval)]], [[Lexicographical plane convex set (not interval)]]
 
 ``` ad-Proposition

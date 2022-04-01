@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [Invertible $\Leftrightarrow$ bijective](Invertible%20iff%20bijective.md)
 Generalizations: [[Inverse of isomorphism is an isomorphism]]
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

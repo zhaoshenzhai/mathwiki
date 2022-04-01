@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [[Left distribution of implication over conjunction]], [[Distribution of universal quantifier over conjunction]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [[Subset relation is transitive]], [[Union of set of subsets is a subset]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

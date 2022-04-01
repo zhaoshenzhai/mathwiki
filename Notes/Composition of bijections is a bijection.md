@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [Invertible $\Leftrightarrow$ bijective](Invertible%20iff%20bijective.md), [[Composition of relations is associative]], [[Identity function is the identity of function composition]]
 Generalizations: [[Composition of isomorphims are isomorphisms]]
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

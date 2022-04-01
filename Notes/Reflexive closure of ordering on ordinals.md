@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [Transitive set $\Leftrightarrow$ every element is a subset](Transitive%20set%20iff%20every%20element%20is%20a%20subset.md), [[Well-ordering well-orders subsets]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

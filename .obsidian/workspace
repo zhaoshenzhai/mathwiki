@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Standard topology on R (basis; rational endpoints).md",
+            "file": "Notes/Ordered square is strict subset of subspace topology.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Standard topology on R (basis; rational endpoints).md",
+                "file": "Notes/Ordered square is strict subset of subspace topology.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Standard topology on R (basis; rational endpoints).md",
+                "file": "Notes/Ordered square is strict subset of subspace topology.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Standard topology on R (basis; rational endpoints).md",
+                "file": "Notes/Ordered square is strict subset of subspace topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,15 +184,15 @@
   },
   "active": "729a75467ebba5cf",
   "lastOpenFiles": [
-    "Notes/Standard topology on R (basis; rational endpoints).md",
     "Notes/Ordered square is strict subset of subspace topology.md",
+    "Notes/Well-ordered Relation.md",
+    "Notes/Standard topology on R (basis; rational endpoints).md",
     "Notes/Restricted order topology subset of subspace topology.md",
     "Notes/Ordered Square.md",
     "Notes/Matrix.md",
     "Notes/Criteria for equality of matrices.md",
     "Notes/Function.md",
     "Notes/Set of Matrices.md",
-    "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Linear Isomorphism.md"
+    "Notes/Tuple Space (Linear Algebra).md"
   ]
 }

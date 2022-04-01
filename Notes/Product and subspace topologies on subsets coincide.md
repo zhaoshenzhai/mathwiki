@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [[Subspace topology (basis)]], [[Product topology (basis; component from bases)]], [[Cartesian product of intersections]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

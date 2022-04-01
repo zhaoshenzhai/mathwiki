@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Generalizations: [[Restricted order topology subset of subspace topology]]
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
