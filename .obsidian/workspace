@@ -26,18 +26,6 @@
             "source": true
           }
         }
-      },
-      {
-        "id": "922c1daf7fc5d6a6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+                "file": "Notes/Tuple Space (Linear Algebra).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+                "file": "Notes/Tuple Space (Linear Algebra).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -193,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+                "file": "Notes/Tuple Space (Linear Algebra).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,10 +194,10 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "922c1daf7fc5d6a6",
+  "active": "9abdaa1340e727eb",
   "lastOpenFiles": [
-    "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
     "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
     "Notes/Linear map Induced by a Matrix.md",
     "Notes/Identity function is a linear map.md",
     "Notes/Linear Map.md",
