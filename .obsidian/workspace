@@ -7,8 +7,12 @@
         "id": "cb278f08cdb0ad3d",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Criteria for equality of matrices.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Criteria for equality of matrices.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Criteria for equality of matrices.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Criteria for equality of matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +184,15 @@
   },
   "active": "cb278f08cdb0ad3d",
   "lastOpenFiles": [
+    "Notes/Criteria for equality of matrices.md",
+    "Notes/Matrix multiplication (columns).md",
+    "Notes/Matrix.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Category of vector spaces is a locally-small category.md",
     "Notes/Ordered square is strict subset of subspace topology.md",
     "Notes/Well-ordered Relation.md",
     "Notes/Standard topology on R (basis; rational endpoints).md",
     "Notes/Restricted order topology subset of subspace topology.md",
-    "Notes/Ordered Square.md",
-    "Notes/Matrix.md",
-    "Notes/Criteria for equality of matrices.md",
-    "Notes/Function.md",
-    "Notes/Set of Matrices.md",
-    "Notes/Tuple Space (Linear Algebra).md"
+    "Notes/Ordered Square.md"
   ]
 }
