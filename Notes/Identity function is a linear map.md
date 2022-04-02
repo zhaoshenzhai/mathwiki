@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and let $V$ be a vector space over $K$. Then the identity function $\id_V:V\to V$ is a linear transformation on $V$._
+_Let $K$ be a field and let $V$ be a vector space over $K$. Then the identity function $\id_V:V\to V$ is a linear map on $V$._
 
 ```
 

@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field. Two vector spaces $V$ and $W$ over $K$ are said to be **linearly isomorphic** if there exists an invertible linear transformation $T:V\to W$._
+_Let $K$ be a field. Two vector spaces $V$ and $W$ over $K$ are said to be **linearly isomorphic** if there exists an invertible linear map $T:V\to W$._
 
 ```

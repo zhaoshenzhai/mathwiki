@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "0d79ca522e528081",
+        "id": "a13105a52ceb6655",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear map Induced by a Matrix.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "9abdaa1340e727eb",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Tuple Space (Linear Algebra).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "922c1daf7fc5d6a6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "0d79ca522e528081",
+  "active": "922c1daf7fc5d6a6",
   "lastOpenFiles": [
-    "Notes/Identity Function.md",
-    "Notes/Linear Transformation.md",
-    "Notes/Identity function is a linear transformation.md",
-    "Notes/Category of vector spaces is a locally-small category.md",
+    "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Linear map Induced by a Matrix.md",
+    "Notes/Identity function is a linear map.md",
+    "Notes/Linear Map.md",
+    "Notes/Linear isomorphism between set of matrices and linear transformations.md",
+    "Notes/Linear map induced by a matrix is a linear map.md",
     "Notes/Category of Vector Spaces.md",
-    "Notes/Linear Transformation Induced by a Matrix.md",
-    "Notes/Identity Linear Transformation.md",
-    "Notes/Category of Relations.md",
-    "Notes/Criteria for equality of matrices.md",
-    "Notes/Matrix multiplication (columns).md"
+    "Notes/Vector Space.md",
+    "Notes/Matrix.md"
   ]
 }

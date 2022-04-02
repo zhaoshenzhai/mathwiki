@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Tuple Space (Linear Algebra)]], [[Vector Space of Matrices]]
-Constructions: [[Vector]], [[Linear Transformation]], [$\cat{Vect}$](Category%20of%20Vector%20Spaces.md)
+Constructions: [[Vector]], [[Linear Map]], [$\cat{Vect}$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 
 Properties: [[Algebraic consequences (vector space)]]

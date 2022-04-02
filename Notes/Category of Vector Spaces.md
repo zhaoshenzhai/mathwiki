@@ -24,8 +24,8 @@ title: Definition.
 _Let $K$ be a field. The **category of vector spaces over $K$** is the (locally-small) category $\cat{Vect}_K$ defined by the following data:_
 * _The objects are vector spaces $\l\langle V,K,+,\cdot,0\r\rangle$._
 
-* _For all vector spaces $\l\langle V_1,K,+_1,\cdot_1,0_1\r\rangle$ and $\l\langle V_2,K,+_2,\cdot_2,0_2\r\rangle$, the morphisms from $\l\langle V_1,K,+_1,\cdot_1,0_1\r\rangle$ to $\l\langle V_2,K,+_2,\cdot_2,0_2\r\rangle$ are linear transformations $T:V_1\to V_2$._
+* _For all vector spaces $\l\langle V_1,K,+_1,\cdot_1,0_1\r\rangle$ and $\l\langle V_2,K,+_2,\cdot_2,0_2\r\rangle$, the morphisms from $\l\langle V_1,K,+_1,\cdot_1,0_1\r\rangle$ to $\l\langle V_2,K,+_2,\cdot_2,0_2\r\rangle$ are linear maps $T:V_1\to V_2$._
 * _For all vector spaces $\l\langle V,K,+,\cdot,0\r\rangle$, the identity morphism on $\l\langle V,K,+,\cdot,0\r\rangle$ is the identity function $\id_V:V\to V$._
-* _For all linear transformations $T_1:\l\langle V_1,K,+_1,\cdot_1,0_1\r\rangle\to\l\langle V_2,K,+_2,\cdot_2,0_2\r\rangle$ and $T_2:\l\langle V_2,K,+_2,\cdot_2,0_2\r\rangle\to\l\langle V_3,K,+_3,\cdot_3,0_3\r\rangle$, the composite morphism of $T_2$ after $T_1$ is the composite linear transformation $T_2\circ T_1:V_1\to V_3$._
+* _For all linear maps $T_1:\l\langle V_1,K,+_1,\cdot_1,0_1\r\rangle\to\l\langle V_2,K,+_2,\cdot_2,0_2\r\rangle$ and $T_2:\l\langle V_2,K,+_2,\cdot_2,0_2\r\rangle\to\l\langle V_3,K,+_3,\cdot_3,0_3\r\rangle$, the composite morphism of $T_2$ after $T_1$ is the composite linear map $T_2\circ T_1:V_1\to V_3$._
 
 ```

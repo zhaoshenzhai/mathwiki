@@ -12,7 +12,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N$. Then, for every $A\in\mat{m\times n}{K}$, the linear transformation $T_A:K^n\to K^m$ induced by $A$ is a linear transformation._
+_Let $K$ be a field and fix $m,n\in\N$. Then, for every $A\in\mat{m\times n}{K}$, the linear map $T_A:K^n\to K^m$ induced by $A$ is a linear map._
 
 ```
 

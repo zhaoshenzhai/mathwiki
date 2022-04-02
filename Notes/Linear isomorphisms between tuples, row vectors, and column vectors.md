@@ -28,7 +28,7 @@ $$\begin{equation}
     \end{aligned}
 \end{equation}$$
 we shall prove that both $f$ and $g$ are linear isomorphisms. The fact that isomorphism of vector spaces is an equivalence relation proves that the vector spaces $K^n$, $\mat{n\times1}{K}$, and $\mat{1\times n}{K}$ are all linearly isomorphic.
-* (Linear transformation): Let $X\coloneqq\l[x_1\ \ \cdots\ \ x_n\r]^\trans$, $Y\coloneqq\l[y_1\ \ \cdots\ \ y_n\r]^\trans$, and take $\alpha\in K$. The result follows from the following computations:
+* (Linear map): Let $X\coloneqq\l[x_1\ \ \cdots\ \ x_n\r]^\trans$, $Y\coloneqq\l[y_1\ \ \cdots\ \ y_n\r]^\trans$, and take $\alpha\in K$. The result follows from the following computations:
 $$\begin{equation}
     \begin{aligned}
         f\l(\alpha X+Y\r)&=\l\langle\alpha x_1+y_1,\dots,\alpha x_n+y_n\r\rangle \\
