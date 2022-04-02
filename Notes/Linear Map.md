@@ -9,7 +9,7 @@ Examples: [[Linear map Induced by a Matrix]], [[Identity function is a linear ma
 Constructions: [$\cat{Vect}$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Linear map fixes zero vector]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

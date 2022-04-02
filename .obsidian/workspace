@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+            "file": "Notes/Linear Map.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+                "file": "Notes/Linear Map.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+                "file": "Notes/Linear Map.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+                "file": "Notes/Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,15 +184,15 @@
   },
   "active": "a13105a52ceb6655",
   "lastOpenFiles": [
+    "Notes/Linear Map.md",
+    "Notes/Linear map fixes zero vector.md",
+    "Notes/Algebraic consequences (vector space).md",
     "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
     "Notes/Linear map Induced by a Matrix.md",
     "Notes/Identity function is a linear map.md",
     "Notes/Tuple Space (Linear Algebra).md",
     "Notes/Category of Vector Spaces.md",
     "Notes/Identity Function.md",
-    "Notes/Reflexive closure of strict orders is non-strict.md",
-    "Notes/Reflexive Closure.md",
-    "Notes/Linear Map.md",
-    "Notes/Linear isomorphism between set of matrices and linear transformations.md"
+    "Notes/Reflexive closure of strict orders is non-strict.md"
   ]
 }
