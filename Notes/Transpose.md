@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N$. The **transpose of a matrix** $A\in\mat{m\times n}{K}$ is the matrix $A^\trans$ with rows and columns interchanged in the same order. Formally, letting $A=\l\langle n,m,f\r\rangle$, we have that $A^\trans\coloneqq\l\langle n,m,f^\trans\r\rangle$ where_
+_Let $K$ be a field and fix $m,n\in\N$. The **transpose of a matrix** $A\in\mat{m\times n}{K}$ is the matrix $A^\trans$ with rows and columns interchanged in the same order. Formally, letting $A=\l\langle m,n,f\r\rangle$, we have that $A^\trans\coloneqq\l\langle n,m,f^\trans\r\rangle$ where_
 $$\begin{equation}
     \begin{aligned}
         f^\trans:\l\{1,\dots,n\r\}\times\l\{1,\dots,m\r\}&\to K\\
