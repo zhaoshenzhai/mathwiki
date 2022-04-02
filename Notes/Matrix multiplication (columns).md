@@ -12,7 +12,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n,p\in\N$. Then, for all $A\in\mat{m\times n}{K}$ and $B\in\mat{n\times p}{K}$, the columns $\v{c}_k$ of their product $C\coloneqq AB$ are linear combinations of the columns of $A$. Formally, letting_ $\v{c}_k\coloneqq\l[c_{1k}\ \ \cdots\ \ c_{mk}\r]$ _for all $k\in\l\{1,\dots p\r\}$, we have that_
+_Let $K$ be a field and fix $m,n,p\in\N$. Then, for all $A\in\mat{m\times n}{K}$ and $B\in\mat{n\times p}{K}$, the columns $\v{c}_k$ of their product $C\coloneqq AB$ are linear combinations of the columns of $A$. Formally, letting_ $\v{c}_k\coloneqq\l[c_{1k}\ \ \cdots\ \ c_{mk}\r]^\trans$ _for all $k\in\l\{1,\dots p\r\}$, we have that_
 $$\begin{equation}
     \fa k\in\l\{1,\dots,p\r\}:\v{c}_k=\sum_{j=1}^nb_{jk}\v{a}_j
 \end{equation}$$

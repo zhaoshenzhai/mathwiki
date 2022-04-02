@@ -14,30 +14,6 @@
             "source": true
           }
         }
-      },
-      {
-        "id": "e7271a8b5cbd8093",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear map Induced by a Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "3378b909a45f62fd",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Tuple Space (Linear Algebra).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -97,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Tuple Space (Linear Algebra).md",
+                "file": "Notes/Matrix Multiplication.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Tuple Space (Linear Algebra).md",
+                "file": "Notes/Matrix Multiplication.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +157,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.3746981544620029,
+                  "scale": 0.10508937510613528,
                   "close": true
                 }
               }
@@ -193,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Tuple Space (Linear Algebra).md",
+                "file": "Notes/Matrix Multiplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "3378b909a45f62fd",
+  "active": "a13105a52ceb6655",
   "lastOpenFiles": [
-    "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Matrix multiplication (columns).md",
-    "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
-    "Notes/Matrices coincide if their actions on all vectors coincide.md",
-    "Notes/Linear Map.md",
-    "Notes/Linear map Induced by a Matrix.md",
     "Notes/Matrix Multiplication.md",
-    "Notes/Identity matrix is the identity of matrix multiplication.md",
-    "Notes/Linear map fixes zero vector.md",
-    "Notes/Algebraic consequences (vector space).md"
+    "Notes/Matrix multiplication is distributive over addition.md",
+    "Notes/Matrix multiplication (rows).md",
+    "Notes/Matrix multiplication (columns).md",
+    "Notes/Tuple space over a field is a vector space.md",
+    "Notes/Vector Space.md",
+    "Notes/Linear Combination (Vector).md",
+    "Notes/Linear map Induced by a Matrix.md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Linear map on tuple spaces is induced by a unique matrix.md"
   ]
 }
