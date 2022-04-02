@@ -9,19 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear map Induced by a Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "9abdaa1340e727eb",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Tuple Space (Linear Algebra).md",
+            "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Tuple Space (Linear Algebra).md",
+                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Tuple Space (Linear Algebra).md",
+                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Tuple Space (Linear Algebra).md",
+                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "9abdaa1340e727eb",
+  "active": "a13105a52ceb6655",
   "lastOpenFiles": [
-    "Notes/Tuple Space (Linear Algebra).md",
     "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
     "Notes/Linear map Induced by a Matrix.md",
     "Notes/Identity function is a linear map.md",
-    "Notes/Linear Map.md",
-    "Notes/Linear isomorphism between set of matrices and linear transformations.md",
-    "Notes/Linear map induced by a matrix is a linear map.md",
+    "Notes/Tuple Space (Linear Algebra).md",
     "Notes/Category of Vector Spaces.md",
-    "Notes/Vector Space.md",
-    "Notes/Matrix.md"
+    "Notes/Identity Function.md",
+    "Notes/Reflexive closure of strict orders is non-strict.md",
+    "Notes/Reflexive Closure.md",
+    "Notes/Linear Map.md",
+    "Notes/Linear isomorphism between set of matrices and linear transformations.md"
   ]
 }

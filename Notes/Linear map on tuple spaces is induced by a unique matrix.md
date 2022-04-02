@@ -7,7 +7,6 @@ Tags: #Proposition #Closed
 Proved by: [[Matrices coincide if their actions on all vectors coincide]]
 Generalizations: _Not Applicable_
 
-Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
