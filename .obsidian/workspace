@@ -7,7 +7,7 @@
         "id": "520b30c9c3816fcb",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
@@ -177,15 +177,15 @@
   },
   "active": "520b30c9c3816fcb",
   "lastOpenFiles": [
-    "Notes/Matrix Multiplication.md",
-    "Notes/Transposition inverts matrix multiplication.md",
-    "Notes/Category of vector spaces is a locally-small category.md",
-    "Notes/Transpose.md",
-    "Notes/Matrix multiplication is associative.md",
-    "Notes/Matrix multiplication is distributive over addition.md",
-    "Notes/Compatibility of matrix and scalar multiplications.md",
-    "Notes/Vector Space of Matrices.md",
-    "Notes/Scalar Multiplication (Matrix).md",
-    "Notes/Matrix multiplication (columns).md"
+    "Notes/Product topology (subbasis).md",
+    "Notes/Preimage under projection of subset.md",
+    "Notes/Cover.md",
+    "Notes/Quotient set is a partition.md",
+    "Notes/Partition (Set Theory).md",
+    "Notes/Union.md",
+    "Notes/Union distributes over binary intersection.md",
+    "Notes/Union of unions is a union.md",
+    "Notes/Union of empty set is empty.md",
+    "Notes/Partial Order.md"
   ]
 }
