@@ -61,12 +61,10 @@ while [ ! -z "$1" ]; do
 
             propositionProvedBy=0
             propositionGeneralizations=0
-            propositionExamples=0
             propositionCounterexamples=0
 
             theoremProvedBy=0
             theoremGeneralizations=0
-            theoremExamples=0
             theoremCounterexamples=0
 
             echo -e "${YELLOW}Definition:${NC}"
@@ -135,12 +133,6 @@ while [ ! -z "$1" ]; do
             done <<< "$allPropositions"
             echo -e "${YELLOW}   Generalizations: $propositionGeneralizations${NC}"
             while IFS= read -r proposition; do
-                if [[ -z $(grep "Examples: _Not Applicable_" "$proposition") ]]; then
-                    propositionExamples=$(($propositionExamples + $(grep "Examples:" "$proposition" | tr ' ' '\n' | grep -c "\]\]\,\|)\,") + 1))
-                fi
-            done <<< "$allPropositions"
-            echo -e "${YELLOW}   Examples: $propositionExamples${NC}"
-            while IFS= read -r proposition; do
                 if [[ -z $(grep "Counterexamples: _Not Applicable_" "$proposition") ]]; then
                     propositionCounterexamples=$(($propositionCounterexamples + $(grep "Counterexamples:" "$proposition" | tr ' ' '\n' | grep -c "\]\]\,\|)\,") + 1))
                 fi
@@ -161,12 +153,6 @@ while [ ! -z "$1" ]; do
                 fi
             done <<< "$allTheorems"
             echo -e "${YELLOW}   Generalizations: $theoremGeneralizations${NC}"
-            while IFS= read -r theorem; do
-                if [[ -z $(grep "Examples: _Not Applicable_" "$theorem") ]]; then
-                    theoremExamples=$(($theoremExamples + $(grep "Examples:" "$theorem" | tr ' ' '\n' | grep -c "\]\]\,\|)\,") + 1))
-                fi
-            done <<< "$allTheorems"
-            echo -e "${YELLOW}   Examples: $theoremExamples${NC}"
             while IFS= read -r theorem; do
                 if [[ -z $(grep "Counterexamples: _Not Applicable_" "$theorem") ]]; then
                     theoremCounterexamples=$(($theoremCounterexamples + $(grep "Counterexamples:" "$theorem" | tr ' ' '\n' | grep -c "\]\]\,\|)\,") + 1))
