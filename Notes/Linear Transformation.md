@@ -5,7 +5,7 @@ Date Created: 01/04/2022 18:16:33
 Tags: #Definition #Closed
 
 Types: [[Linear Isomorphism]]
-Examples: [[Linear Transformation Induced by a Matrix]]
+Examples: [[Linear Transformation Induced by a Matrix]], [[Identity function is a linear transformation]]
 Constructions: [$\cat{Vect}$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 

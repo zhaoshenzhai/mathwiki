@@ -5,7 +5,7 @@ Date Created: 01/04/2022 22:31:49
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Identity Linear Transformation]]
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
