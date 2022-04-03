@@ -18,7 +18,7 @@ Justifications: _Not Applicable_
 title: Definition.
 
 _Let $X$ be a set. A **basis for a topology on $X$** is a set $\mc{B}\subseteq\pow\l(X\r)$ satisfying_
-* $\axibasis[1]\bf{.}$ _$\mc{B}$ covers $X$. That is, if $\fa x\in X,\ex B\in\mc{B}:x\in B$._
-* $\axibasis[2]\bf{.}$ _If $B_1,B_2\in\mc{B}$ and $x\in B_1\cap B_2$, then there exists $B_3\in\mc{B}$ such that $x\in B_3$ and $B_3\subseteq B_1\cap B_2$._
+* _$\axibasis[1]$ (Cover)$\bf{.}$ $\fa x\in X,\ex B\in\mc{B}:x\in B$._
+* _$\axibasis[2]\bf{.}$ $\fa B_1,B_2\in\mc{B},\fa x\in B_1\cap B_2:\l(\ex B_3\in\mc{B}:x\in B_3\land B_3\subseteq B_1\cap B_2\r)$._
 
 ```

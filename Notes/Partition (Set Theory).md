@@ -18,12 +18,9 @@ Justifications: _Not Applicable_
 title: Definition.
 
 _Let $X$ be a set. A **partition of $X$** is a set $\Pi\subseteq\pow\l(X\r)$ satisfying:_
-* $\axipartition[1]\bf{.}$ _Elements of $\Pi$ are nonempty: $\fa P\in\Pi:P\neq\em$._
-* $\axipartition[2]\bf{.}$ _Elements of $\Pi$ are disjoint:_
-$$\begin{equation}
-    \fa P,Q\in\Pi:P\neq Q\Rightarrow P\cap Q=\em.
-\end{equation}$$
-* $\axipartition[3]\bf{.}$ _$\Pi$ covers $X$: $X\subseteq\bigcup\Pi$._
+* _$\axipartition[1]$ (Non-empty)$\bf{.}$ $\fa P\in\Pi:P\neq\em$._
+* _$\axipartition[2]$ (Disjoint)$\bf{.}$ $\fa P,Q\in\Pi:P\neq Q\Rightarrow P\cap Q=\em$._
+* _$\axipartition[3]$ (Cover)$\bf{.}$ $X\subseteq\bigcup\Pi$._
 
 ```
 
