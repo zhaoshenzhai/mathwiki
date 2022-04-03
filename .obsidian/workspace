@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "520b30c9c3816fcb",
+        "id": "cb641932049c4c4d",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "520b30c9c3816fcb",
+  "active": "cb641932049c4c4d",
   "lastOpenFiles": [
-    "Notes/Product topology (subbasis).md",
-    "Notes/Preimage under projection of subset.md",
-    "Notes/Cover.md",
-    "Notes/Quotient set is a partition.md",
-    "Notes/Partition (Set Theory).md",
-    "Notes/Union.md",
-    "Notes/Union distributes over binary intersection.md",
-    "Notes/Union of unions is a union.md",
-    "Notes/Union of empty set is empty.md",
-    "Notes/Partial Order.md"
+    "Notes/Linear System of Equations.md",
+    "Notes/Solution of linear system in terms of a particular solution.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Gauss-Jordan Elimination.md",
+    "Notes/Gauss-Jordan Algorithm.md",
+    "Notes/Homogeneous Linear System.md",
+    "Notes/Gaussian Elimination.md",
+    "Notes/Reduced Row-echelon Matrix.md",
+    "Notes/Row-echelon Matrix.md",
+    "Notes/Matrix.md"
   ]
 }

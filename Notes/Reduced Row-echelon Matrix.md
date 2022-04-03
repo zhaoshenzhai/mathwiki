@@ -29,5 +29,5 @@ $$\begin{equation}
 
 **Remark.** Since to every matrix $A\in\mat{m\times n}{K}$ there exists a unique matrix $R=\l(e_k\circ\cdots\circ e_l\r)\l(A\r)$ in reduced row-echelon form, we can consider the function
 $$\begin{equation}
-    \rref:\mat{m\times n}{K}\to\mat{m\times n}{K}\ \ \ \ \textrm{mapping}\ \ \ \ A\toR.\exqedin
+    \rref:\mat{m\times n}{K}\to\mat{m\times n}{K}\ \ \ \ \textrm{mapping}\ \ \ \ A\to R.\exqedin
 \end{equation}$$
