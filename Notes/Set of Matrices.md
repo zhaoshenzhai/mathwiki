@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Matrix Addition]], [[Matrix Multiplication]], [[Scalar Multiplication (Matrix)]], [[Additive Matrix Group]], [[Vector Space of Matrices]]
+Constructions: [[Matrix Addition]], [[Matrix Multiplication]], [[Scalar Multiplication (Matrix)]], [[Additive Matrix Group]], [[Vector Space of Matrices]], [[Elementary Row Operation]], [[Rank (Matrix)]], [[Transpose]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
