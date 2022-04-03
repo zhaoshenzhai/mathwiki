@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "cb641932049c4c4d",
+        "id": "00328a792535b695",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Vector Space.md",
+            "file": "Notes/Null Space.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "1dc5c13dae8e8a30",
+        "id": "652558dd971b530a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear Subspace.md",
+            "file": "Notes/Null space is a linear subspace of tuple space.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Subspace.md",
+                "file": "Notes/Null Space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Subspace.md",
+                "file": "Notes/Null Space.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.10508937510613528,
+                  "scale": 0.615865594808198,
                   "close": true
                 }
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Subspace.md",
+                "file": "Notes/Null Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "1dc5c13dae8e8a30",
+  "active": "00328a792535b695",
   "lastOpenFiles": [
-    "Notes/Linear Subspace.md",
-    "Notes/Trivial Subspaces.md",
-    "Notes/Linear subspace iff contains zero and operations are closed.md",
-    "Notes/Vector Space.md",
-    "Notes/Zero Vector Space.md",
-    "Notes/Algebraic consequences (vector space).md",
-    "Notes/Additive tuple space is an Abelian group.md",
-    "Notes/Topological Space.md",
-    "Notes/Linear System of Equations.md",
-    "Notes/Solution of linear system in terms of a particular solution.md"
+    "Notes/Null Space.md",
+    "Notes/Null space is a linear subspace of tuple space.md",
+    "Notes/Isomorphism (Set Theory).md",
+    "Notes/Inverse (Function).md",
+    "Notes/Invertible iff bijective.md",
+    "Notes/Bijection.md",
+    "Notes/Linear Isomorphism.md",
+    "Notes/Isomorphism (Category Theory).md",
+    "Notes/Morphism (Category Theory).md",
+    "Notes/Function.md"
   ]
 }
