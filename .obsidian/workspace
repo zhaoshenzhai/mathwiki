@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "00328a792535b695",
+        "id": "c56f473691dd8fac",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Null Space.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "652558dd971b530a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Null space is a linear subspace of tuple space.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Null space is a linear subspace of tuple space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Null space is a linear subspace of tuple space.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +151,7 @@
                   "repelStrength": 13.534761519806,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.615865594808198,
+                  "scale": 0.606009333690625,
                   "close": true
                 }
               }
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Null space is a linear subspace of tuple space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "652558dd971b530a",
+  "active": "c56f473691dd8fac",
   "lastOpenFiles": [
     "Notes/Null space is a linear subspace of tuple space.md",
-    "Notes/Null Space.md",
-    "Notes/Isomorphism (Set Theory).md",
-    "Notes/Inverse (Function).md",
-    "Notes/Invertible iff bijective.md",
-    "Notes/Bijection.md",
-    "Notes/Linear Isomorphism.md",
-    "Notes/Isomorphism (Category Theory).md",
-    "Notes/Morphism (Category Theory).md",
-    "Notes/Function.md"
+    "Notes/Algebraic consequences (vector space).md",
+    "Notes/Linear map fixes zero vector.md",
+    "Notes/Additive tuple space is an Abelian group.md",
+    "Notes/Additive matrix group is an Abelian group.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Identity matrix is the identity of matrix multiplication.md",
+    "Notes/Zero matrix is the absorbing element of matrix multiplication.md",
+    "Notes/Matrix.md",
+    "Notes/Null Space.md"
   ]
 }

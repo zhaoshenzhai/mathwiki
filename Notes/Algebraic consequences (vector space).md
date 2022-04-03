@@ -13,16 +13,16 @@ Counterexamples: _Not Applicable_
 title: Proposition.
 
 _Let $\l\langle K,+,\cdot,0,1\r\rangle$ be a field and consider any vector space $\l\langle V,K,\oplus,\odot,0_V\r\rangle$ over $K$. Some algebraic consequences are:_
-* _(Right-neutral element of $\odot$): $\fa\alpha\in K:\alpha\odot0_V=0_V$._
+* _(Right-absorbing element of $\odot$): $\fa\alpha\in K:\alpha\odot0_V=0_V$._
 
-* _(Left-neutral element of $\odot$): $\fa v\in V:0\odot v=0_V$._
+* _(Left-absorbing element of $\odot$): $\fa v\in V:0\odot v=0_V$._
 * _(Dichotomy of $0_V$ w.r.t. $\odot$): $\fa\alpha\in K,\fa v\in V:\alpha\odot v=0_V\Rightarrow\l(\alpha=0\lor v=0_V\r)$._
 * _(Compatibility of $K$-additive inverse and $\odot$): $\fa v\in V:\l(-1\r)\odot v=-v=1\odot\l(-v\r)$._
 
 ```
 
 _Proof_. Take $\alpha\in K$ and $v\in V$.
-* (Right-neutral element of $\odot$): Observe that
+* (Right-absorbing element of $\odot$): Observe that
 $$\begin{equation}
     \begin{aligned}
         \alpha\odot0_V&=0_V\oplus\l(\alpha\odot0_V\r) && \textrm{$0_V$ is the neutral element of $\oplus$} \\
@@ -34,7 +34,7 @@ $$\begin{equation}
     \end{aligned}
 \end{equation}$$
 
-* (Left-neutral element of $\odot$): Similarly, observe that
+* (Left-absorbing element of $\odot$): Similarly, observe that
 $$\begin{equation}
     \begin{aligned}
         0\odot v &=0_V\oplus\l(0\odot v\r) && \textrm{$0_V$ is the neutral element of $\oplus$} \\
@@ -52,7 +52,7 @@ $$\begin{equation}
         &=\l(\alpha^{-1}\cdot\alpha\r)\odot v &&\textrm{$\alpha\neq0$; $\alpha^{-1}$ is the $\cdot$-inverse of $\alpha$} \\
         &=\alpha^{-1}\odot\l(\alpha\odot v\r) && \textrm{Compatibility of $\cdot$ and $\odot$} \\
         &=\alpha^{-1}\odot0_V && \textrm{Assumption} \\
-        &=0_V. &&\textrm{$0_V$ is the right-neutral element of $\odot$}
+        &=0_V. &&\textrm{$0_V$ is the right-absorbing element of $\odot$}
     \end{aligned}
 \end{equation}$$
 * (Compatibility of $K$-additive inverse and $\odot$): Finally, observe that
@@ -63,6 +63,6 @@ $$\begin{align}
     &=\l(-v\r)\oplus\l[\l(1\odot v\r)\oplus\l(\l(-1\r)\odot v\r)\r] &&\textrm{1 is the left-identity element of $\odot$} \\
     &=\l(-v\r)\oplus\l[\l(1+\l(-1\r)\r)\odot v\r] && \textrm{Right-distributivity of vectors} \\
     &=\l(-v\r)\oplus\l(0\odot v\r) &&\textrm{$-1$ is the $+$-inverse of $1$} \\
-    &=\l(-v\r)\oplus0_V &&\textrm{$0$ is the left-neutral element of $\odot$} \\
+    &=\l(-v\r)\oplus0_V &&\textrm{$0$ is the left-absorbing element of $\odot$} \\
     &=-v. && \textrm{$0_V$ is the neutral element of $\oplus$}\qedin
 \end{align}$$

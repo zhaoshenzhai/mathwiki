@@ -48,7 +48,7 @@ $$\begin{equation}
     \end{aligned}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ 
     \begin{aligned}
         \l(-\v{x}\r)\oplus \v{x}&=\l\langle\l(-x_1\r)+x_1,\dots,\l(-x_n\r)+x_n\r\rangle \ \ \ \ \ \ \ \ && \textrm{Definition of $\oplus$} \\
-        &=\l\langle0,\dots,0\r\rangle && \textrm{$-x_i$ is the inverse of $x_i$} \\
+        &=\l\langle0,\dots,0\r\rangle && \textrm{$-x_i$ is the additive inverse of $x_i$} \\
         &=\v{0}. && \textrm{Definition of $\v{0}$}
     \end{aligned}
 \end{equation}$$

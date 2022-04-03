@@ -18,7 +18,7 @@ _Let $\l\langle K,+,\cdot,0,1\r\rangle$ be a field and let $\l\langle V,K,\oplus
 
 _Proof_. The result follows from the following computation:
 $$\begin{align}
-    T\l(0_V\r)&=T\l(0\odot_Vv\r) && \textrm{$0$ is the left-neutral element of $\odot_V$} \\
+    T\l(0_V\r)&=T\l(0\odot_Vv\r) && \textrm{$0$ is the left-absorbing element of $\odot_V$} \\
     &=0\odot_WT\l(v\r) && \textrm{Homogeneity of $T$} \\
-    &=0_W. && \textrm{$0$ is the left-neutral element of $\odot_W$}\qedin
+    &=0_W. && \textrm{$0$ is the left-absorbing element of $\odot_W$}\qedin
 \end{align}$$

@@ -36,4 +36,4 @@ _such that $\l\langle V,\oplus,0_V\r\rangle$ is an Abelian group and_
 
 ---
 
-**Remark.** Since $\l\langle V\oplus,0_V\r\rangle$ is required to be a group, we see that the zero vector and the additive inverses of each vector are unique.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Since $\l\langle V,\oplus,0_V\r\rangle$ is required to be a group, we see that the zero vector and the additive inverses of each vector are unique.<span style="float:right;">$\blacklozenge$</span>

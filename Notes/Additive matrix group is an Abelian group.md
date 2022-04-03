@@ -48,7 +48,7 @@ $$\begin{equation}
     \end{aligned}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ 
     \begin{aligned}
         \l(-A\r)\oplus A&=\l[\l(-a_{ij}\r)+a_{ij}\r] \ \ \ \ \ \ \ \ && \textrm{Definition of $\oplus$} \\
-        &=[0] && \textrm{$-a_{ij}$ is the inverse of $a_{ij}$} \\
+        &=[0] && \textrm{$-a_{ij}$ is the additive inverse of $a_{ij}$} \\
         &=0_{mn}. && \textrm{Definition of $0_{mn}$}
     \end{aligned}
 \end{equation}$$
