@@ -19,8 +19,8 @@ title: Definition.
 
 _Let $K$ be a field and consider an $m\times n$ matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. The **null space of $A$** is the linear subspace_
 $$\begin{equation}
-    \null\l(A\r)\coloneqq\l\{\v{x}\in K^n\mid A\v{x}=\v{0}_m\r\}.
+    \null\l(A\r)\coloneqq\l\{\v{x}\in K^n\mid A\v{x}=\v{0}_m\r\}
 \end{equation}$$
-_where $\v{0}_m$ is the zero vector in $K^m$._
+_of $K^m$, where $\v{0}_m$ is its zero vector._
 
 ```

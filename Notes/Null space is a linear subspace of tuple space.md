@@ -12,7 +12,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N$. Then, for every $A\in\mat{m\times n}{K}$, the null space $\null\l(A\r)$ is a linear subspace of $K^n$ (both over $K$)._
+_Let $K$ be a field and fix $m,n\in\N$. Then, for every $A\in\mat{m\times n}{K}$, the null space $\null\l(A\r)$ is a $K$-linear subspace of $K^n$._
 
 ```
 

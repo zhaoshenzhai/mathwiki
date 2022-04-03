@@ -1,5 +1,5 @@
 ---
-custom_alias: Linear system $A\v{x}=\v{b}$ is consistent $\Leftrightarrow$ $\v{b}\in\colsp\l(A\r)$
+custom_alias: Linear system $A\v{x}=\v{b}$ is consistent $\Leftrightarrow$ $\v{b}\in\col\l(A\r)$
 ---
 
 <br />
@@ -24,7 +24,7 @@ $$\begin{equation}
         &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m
     \end{alignedat}\r.
 \end{equation}$$
-_of equations over $K$. Then $A\v{x}=\v{b}$ is consistent iff $\v{b}\in\colsp\l(A\r)$._
+_of equations over $K$. Then $A\v{x}=\v{b}$ is consistent iff $\v{b}\in\col\l(A\r)$._
 
 ```
 
@@ -36,4 +36,4 @@ It follows then that the system is consistent with (at least a) solution $\v{s}\
 $$\begin{equation}
     \v{b}=\sum_{j=1}^ns_j\v{a}_j;
 \end{equation}$$
-that is, iff $\v{b}\in\colsp\l(A\r)$.<span style="float:right;">$\blacksquare$</span>
+that is, iff $\v{b}\in\col\l(A\r)$.<span style="float:right;">$\blacksquare$</span>

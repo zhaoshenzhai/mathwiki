@@ -4,12 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "bfd79a3ff7be5047",
+        "id": "26648acc126bad35",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Transposition.md",
+            "file": "Notes/Null space is a linear subspace of tuple space.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "85bffcea809d0c7c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Column Space.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "b18803803f1c2131",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Column space is a linear subspace of tuple space.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Transposition.md",
+                "file": "Notes/Null space is a linear subspace of tuple space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Transposition.md",
+                "file": "Notes/Null space is a linear subspace of tuple space.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Transposition.md",
+                "file": "Notes/Null space is a linear subspace of tuple space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "bfd79a3ff7be5047",
+  "active": "26648acc126bad35",
   "lastOpenFiles": [
-    "Notes/Transposition.md",
+    "Notes/Null space is a linear subspace of tuple space.md",
+    "Notes/Column Space.md",
+    "Notes/Column space is a linear subspace of tuple space.md",
     "Notes/Set of Matrices.md",
     "Notes/Null Space.md",
-    "Notes/Set of Relative Complements.md",
-    "Notes/Set of Topologies on a Set.md",
-    "Notes/Set of Unions and Intersections.md",
-    "Notes/Elementary Row Operation.md",
-    "Notes/Matrix.md",
     "Notes/Rank (Matrix).md",
-    "Notes/Linear Subspace.md"
+    "Notes/Matrix.md",
+    "Notes/Transposition.md",
+    "Notes/Set of Relative Complements.md",
+    "Notes/Set of Topologies on a Set.md"
   ]
 }

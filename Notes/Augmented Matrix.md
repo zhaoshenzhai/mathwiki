@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md), [Linear system $A\v{x}=\v{b}$ is consistent $\Leftrightarrow$ $\v{b}\in\colsp\l(A\r)$](Linear%20system%20is%20consistent%20iff%20constant%20matrix%20is%20in%20column%20space%20of%20coefficient%20matrix.md)
+Properties: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md), [Linear system $A\v{x}=\v{b}$ is consistent $\Leftrightarrow$ $\v{b}\in\col\l(A\r)$](Linear%20system%20is%20consistent%20iff%20constant%20matrix%20is%20in%20column%20space%20of%20coefficient%20matrix.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
