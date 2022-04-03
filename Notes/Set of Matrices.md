@@ -6,12 +6,12 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Additive Matrix Group]], [[Vector Space of Matrices]]
+Constructions: [[Matrix Addition]], [[Matrix Multiplication]], [[Scalar Multiplication (Matrix)]], [[Additive Matrix Group]], [[Vector Space of Matrices]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [[Linear isomorphism between set of matrices and linear maps]]
+Equivalences: [[Linear isomorphism between set of matrices and finite dim. linear maps]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Linear Isomorphism]]
 Examples: [[Linear map Induced by a Matrix]], [[Identity function is a linear map]]
-Constructions: [$\cat{Vect}$](Category%20of%20Vector%20Spaces.md)
+Constructions: [[Set of Linear Maps]]
 Generalizations: _Not Applicable_
 
 Properties: [[Linear map fixes zero vector]]
