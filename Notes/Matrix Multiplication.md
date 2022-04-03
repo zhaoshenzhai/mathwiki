@@ -9,7 +9,7 @@ Examples: [Matrix multiplication over $\R$ (dot product)](Matrix%20multiplicatio
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Matrix multiplication is associative]], [[Matrix multiplication is distributive over addition]], [[Compatibility of matrix and scalar multiplications]], [[Identity matrix is the identity of matrix multiplication]], [[Zero matrix is the absorbing element of matrix multiplication]]
+Properties: [[Matrix multiplication is associative]], [[Distribution of matrix multiplication over addition]], [[Compatibility of matrix and scalar multiplications]], [[Identity matrix is the identity of matrix multiplication]], [[Zero matrix is the absorbing element of matrix multiplication]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Matrix multiplication (columns)]], [[Matrix multiplication (rows)]]
 Justifications: _Not Applicable_

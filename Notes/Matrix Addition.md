@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Additive Matrix Group]], [[Vector Space of Matrices]]
 Generalizations: _Not Applicable_
 
-Properties: [[Matrix multiplication is distributive over addition]]
+Properties: [[Distribution of matrix multiplication over addition]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

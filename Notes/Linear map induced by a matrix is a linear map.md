@@ -4,7 +4,7 @@
 Date Created: 01/04/2022 22:34:08
 Tags: #Proposition #Closed
 
-Proved by: [[Matrix multiplication is distributive over addition]], [[Compatibility of matrix and scalar multiplications]]
+Proved by: [[Distribution of matrix multiplication over addition]], [[Compatibility of matrix and scalar multiplications]]
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_
