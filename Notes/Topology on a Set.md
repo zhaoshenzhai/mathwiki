@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Trivial Topology]], [[Discrete Topology]], [[Cofinite Topology]], [[Cocountable Topology]], [[Order Topology]]
-Constructions: [[Open Set]], [[Topological Space]], [[Set of topologies on a set]], [[Product Topology (Binary)]], [[Subspace Topology]]
+Constructions: [[Open Set]], [[Topological Space]], [[Set of Topologies on a Set]], [[Product Topology (Binary)]], [[Subspace Topology]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

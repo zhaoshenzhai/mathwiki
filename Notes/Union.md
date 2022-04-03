@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [$\bigcup\em=\em$](Union%20of%20empty%20set%20is%20empty.md)
-Constructions: [[Set of unions and intersections]], [[Successor]]
+Constructions: [[Set of Unions and Intersections]], [[Successor]]
 Generalizations: _Not Applicable_
 
 Properties: [[Union of unions is a union]], [[De Morgan's Laws]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Union of subsets is a subset of union]], [[Union of set of subsets is a subset]], [[Union distributes over binary intersection]]

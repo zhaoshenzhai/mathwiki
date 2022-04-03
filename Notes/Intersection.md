@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Intersection of empty set is a proper class]] 
-Constructions: [[Set of unions and intersections]]
+Constructions: [[Set of Unions and Intersections]]
 Generalizations: _Not Applicable_
 
 Properties: [[De Morgan's Laws]], [[Intersection of intersections is an intersection]], [[Intersection is anti-monotone w.r.t. subsets]], [[Intersection with another set is monotone w.r.t. subsets]], [[Element of set is a superset of its intersection]], [[Intersection of subsets is a subset of intersection]]

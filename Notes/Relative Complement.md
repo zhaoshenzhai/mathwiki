@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Set of relative complements]]
+Constructions: [[Set of Relative Complements]]
 Generalizations: _Not Applicable_
 
 Properties: [[De Morgan's Laws]], [[Complement is anti-monotone w.r.t. subsets]], [[Double complement of set is set itself]], [[Absolute complement of a set is a proper class]]

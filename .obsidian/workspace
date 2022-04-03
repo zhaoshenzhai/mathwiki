@@ -9,31 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Null Space.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "e3de7b7133dd0a26",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "f702b83499f0a66f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Set of Matrices.md",
+            "file": "Notes/Transposition.md",
             "mode": "preview",
             "source": true
           }
@@ -97,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Set of Matrices.md",
+                "file": "Notes/Transposition.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Set of Matrices.md",
+                "file": "Notes/Transposition.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -193,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Set of Matrices.md",
+                "file": "Notes/Transposition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f702b83499f0a66f",
+  "active": "bfd79a3ff7be5047",
   "lastOpenFiles": [
+    "Notes/Transposition.md",
     "Notes/Set of Matrices.md",
-    "Notes/Matrix.md",
     "Notes/Null Space.md",
-    "Notes/Rank (Matrix).md",
+    "Notes/Set of Relative Complements.md",
+    "Notes/Set of Topologies on a Set.md",
+    "Notes/Set of Unions and Intersections.md",
     "Notes/Elementary Row Operation.md",
-    "Notes/Linear Subspace.md",
-    "Notes/Category of vector spaces is a locally-small category.md",
-    "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
-    "Notes/Universal set is a proper class.md",
-    "Notes/Union distributes over binary intersection.md"
+    "Notes/Matrix.md",
+    "Notes/Rank (Matrix).md",
+    "Notes/Linear Subspace.md"
   ]
 }
