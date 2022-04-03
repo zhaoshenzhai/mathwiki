@@ -5,8 +5,8 @@ Date Created: 27/03/2022 21:04:03
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Tuple Space (Linear Algebra)]], [[Vector Space of Matrices]]
-Constructions: [[Vector]], [[Linear Map]], [$\cat{Vect}$](Category%20of%20Vector%20Spaces.md)
+Examples: [[Tuple Space (Linear Algebra)]], [[Vector Space of Matrices]], [[Zero Vector Space]]
+Constructions: [[Vector]], [[Linear Map]], [[Linear Subspace]], [$\cat{Vect}$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 
 Properties: [[Algebraic consequences (vector space)]]
