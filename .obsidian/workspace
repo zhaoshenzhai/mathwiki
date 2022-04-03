@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Null Space.md",
+                "file": "Notes/Null space is a linear subspace of tuple space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Null Space.md",
+                "file": "Notes/Null space is a linear subspace of tuple space.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Null Space.md",
+                "file": "Notes/Null space is a linear subspace of tuple space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,10 +194,10 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "00328a792535b695",
+  "active": "652558dd971b530a",
   "lastOpenFiles": [
-    "Notes/Null Space.md",
     "Notes/Null space is a linear subspace of tuple space.md",
+    "Notes/Null Space.md",
     "Notes/Isomorphism (Set Theory).md",
     "Notes/Inverse (Function).md",
     "Notes/Invertible iff bijective.md",
