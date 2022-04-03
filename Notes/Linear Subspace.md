@@ -5,11 +5,11 @@ Date Created: 03/04/2022 14:30:50
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Trivial Subspaces]], [[Null Space]], [[Column Space]]
+Examples: [[Linear Span]], [[Null Space]], [[Column Space]], [[Trivial Subspaces]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Arbitrary intersection of linear subspaces is a linear subspace]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Linear subspace iff contains zero and operations are closed]]
 Justifications: _Not Applicable_

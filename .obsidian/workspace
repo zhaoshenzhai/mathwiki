@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "b18803803f1c2131",
+        "id": "da84ba25a17a649a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Column space is a linear subspace of tuple space.md",
+            "file": "Notes/Arbitrary intersection of linear subspaces is a linear subspace.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "e7cb5af10c5f399c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Subspace.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Column space is a linear subspace of tuple space.md",
+                "file": "Notes/Linear Subspace.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Column space is a linear subspace of tuple space.md",
+                "file": "Notes/Linear Subspace.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Column space is a linear subspace of tuple space.md",
+                "file": "Notes/Linear Subspace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b18803803f1c2131",
+  "active": "e7cb5af10c5f399c",
   "lastOpenFiles": [
-    "Notes/Column space is a linear subspace of tuple space.md",
+    "Notes/Linear Subspace.md",
+    "Notes/Linear Span.md",
+    "Notes/Arbitrary intersection of linear subspaces is a linear subspace.md",
+    "Notes/Intersection.md",
     "Notes/Null space is a linear subspace of tuple space.md",
+    "Notes/Indexed Family.md",
     "Notes/Column Space.md",
+    "Notes/Column space is a linear subspace of tuple space.md",
     "Notes/Matrix Multiplication.md",
-    "Notes/Distribution of matrix multiplication over addition.md",
-    "Notes/Null Space.md",
-    "Notes/Set of Matrices.md",
-    "Notes/Rank (Matrix).md",
-    "Notes/Matrix.md",
-    "Notes/Transposition.md"
+    "Notes/Distribution of matrix multiplication over addition.md"
   ]
 }
