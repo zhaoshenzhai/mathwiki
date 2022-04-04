@@ -4,7 +4,7 @@
 Date Created: 03/04/2022 20:31:04
 Tags: #Definition #Closed
 
-Types: _Not Applicable_
+Types: [[Basis (Linear Algebra)]]
 Examples: [[Column space is the linear span of columns of matrix]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
@@ -25,4 +25,7 @@ _together with the restricted operations on $\span\l(S\r)$._
 
 ```
 
-**Remark.** If $S=\l\{s_1,\dots,s_n\r\}$, then, abusing notation, we shall call $\span\l(S\r)$ the **linear subspace spanned by $s_1,\dots,s_n$**.<span style="float:right;">$\blacklozenge$</span>
+**Remark.**
+* If $S=\l\{s_1,\dots,s_n\r\}$, then, abusing notation, we shall call $\span\l(S\r)$ the **linear subspace spanned by $s_1,\dots,s_n$**.
+
+* If $W\subseteq V$ is such that $W=\span\l(S\r)$, then $S$ is referred to as a **spanning set for $W$**. Note that spanning sets for a given set is generically not unique.<span style="float:right;">$\blacklozenge$</span>

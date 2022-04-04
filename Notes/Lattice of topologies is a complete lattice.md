@@ -21,7 +21,7 @@ _Proof_. Observe that $\l\langle\Sigma,\subseteq\r\rangle$ is a poset, so it suf
 * For the meet of $\em$, simply take the discrete topology $\mc{T}_\textrm{discrete}$ on $X$ since $\fa\mc{T}\in\Sigma:\mc{T}\subseteq\mc{T}_\textrm{discrete}$.
 
 Assume now that $\ms{T}\neq\em$.
-* We claim that $\bigvee\ms{T}=\mc{T}\l(\bigcup\ms{T}\r)$ where $\bigcup\ms{T}$ is regarded as a subbasis of a topology on $X$. To see that $\mc{S}\coloneqq\bigcup\ms{T}$ covers $X$, observe that $X\in\mc{S}$ since $X\in\mc{T}$ for all $\mc{T}\in\ms{T}$ and hence $X\subseteq\bigcup\mc{S}$.
+* We claim that $\bigvee\ms{T}=\mc{T}\l(\bigcup\ms{T}\r)$ where $\bigcup\ms{T}$ is regarded as a subbasis for a topology on $X$. To see that $\mc{S}\coloneqq\bigcup\ms{T}$ covers $X$, observe that $X\in\mc{S}$ since $X\in\mc{T}$ for all $\mc{T}\in\ms{T}$ and hence $X\subseteq\bigcup\mc{S}$.
 
     * To show that $\mc{T}\l(\mc{S}\r)$ is an upper bound, take any $\mc{T}\in\ms{T}$ and $U\in\mc{T}$. Clearly, we have $U\in\bigcup\ms{T}=\mc{S}$. Let $\mc{B}$ be the collection of all finite intersections of $\mc{S}$, so $\mc{S}\subseteq\mc{B}$. Observe that $\mc{B}\subseteq\mc{T}\l(\mc{B}\r)=\mc{T}\l(\mc{S}\r)$, so $U\in\mc{T}\l(\mc{S}\r)$ too. Thus $\mc{T}\subseteq\mc{T}\l(\mc{S}\r)$ for all $\mc{T}\in\ms{T}$.
 

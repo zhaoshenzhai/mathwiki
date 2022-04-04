@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "95db64b656bc4e77",
+        "id": "33a5565dd6732242",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear Independence.md",
+            "file": "Notes/Set of Linear Maps (Finite Dim.).md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "tag:#Open",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Independence.md",
+                "file": "Notes/Set of Linear Maps (Finite Dim.).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241,
-    "collapsed": true
+    "width": 241
   },
   "right": {
     "id": "6e128061ec5336cc",
@@ -105,7 +104,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Independence.md",
+                "file": "Notes/Set of Linear Maps (Finite Dim.).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Independence.md",
+                "file": "Notes/Set of Linear Maps (Finite Dim.).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +181,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "95db64b656bc4e77",
+  "active": "33a5565dd6732242",
   "lastOpenFiles": [
-    "Notes/Linear Independence.md",
-    "Notes/Linearly dependent iff scalar multiple.md",
-    "Notes/Enlargement of linearly independent subset by a non-spanned element.md",
-    "Notes/Linearly independent subset cannot contain the zero vector.md",
-    "Notes/Standard Basis of Tuple Space.md",
-    "Notes/Kronecker Delta.md",
-    "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Algebraic consequences (vector space).md",
-    "Notes/Linear subspace iff closed under linear combination.md",
-    "Notes/Real Coordinate Space.md"
+    "Notes/Set of Linear Maps (Finite Dim.).md",
+    "Notes/Right inverse iff surjection (Choice).md",
+    "Notes/Category (via Directed Graphs).md",
+    "Notes/Axiom of Infinity.md",
+    "Notes/Axiom of Extensionality.md",
+    "Notes/Absolute complement of a set is a proper class.md",
+    "Notes/Category of Vector Spaces.md",
+    "Notes/Category of vector spaces is a locally-small category.md",
+    "Notes/Basis (Linear Algebra).md",
+    "Notes/Dimension (Linear Algebra).md"
   ]
 }

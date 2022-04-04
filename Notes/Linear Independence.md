@@ -4,7 +4,7 @@
 Date Created: 04/04/2022 19:55:14
 Tags: #Definition #Closed
 
-Types: _Not Applicable_
+Types: [[Basis (Linear Algebra)]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
