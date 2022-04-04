@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Identity Matrix]], [Standard Basis of $\R^n$](Standard%20Basis%20of%20Tuple%20Space.md)
+Constructions: [[Identity Matrix]], [[Standard Basis of Tuple Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
