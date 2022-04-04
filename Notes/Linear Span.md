@@ -5,7 +5,7 @@ Date Created: 03/04/2022 20:31:04
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Column space is the linear span of columns of matrix]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

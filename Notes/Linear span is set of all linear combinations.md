@@ -21,13 +21,13 @@ _is the set of all linear combinations of finite subsets of $S$._
 ```
 
 _Proof_. We proceed by double containment.
-* ($L\l(S\r)\subseteq\span\l(S\r)$): Take $v\in L\l(S\r)$, so there exists some $n\in\N^\ast$ such that
+* ($\supseteq$): Take $v\in L\l(S\r)$, so there exists some $n\in\N^\ast$ such that
 $$\begin{equation}
     v=\sum_{i=1}^n\alpha_i s_i
 \end{equation}$$
 for some $\alpha_i\in K$ and $s_i\in S$. It suffices to take any linear subspace $U\subseteq V$ that contains $S$, and show that $v\in U$; for then $v$ is in the intersection of all such subspaces which implies that $v\in\span\l(S\r)$. To see this, observe that since $S\subseteq U$, we have that $s_i\in U$ for all $i\in\l\{1,\dots,n\r\}$. Since $U$ is closed under linear combinations, we see that $v\in U$ too.
 
-* ($\span\l(S\r)\subseteq L\l(S\r)$): Take $v\in\span\l(S\r)$; it suffices to show that $L\l(S\r)$ is a linear subspace of $V$ containing $S$.
+* ($\subseteq$): Take $v\in\span\l(S\r)$; it suffices to show that $L\l(S\r)$ is a linear subspace of $V$ containing $S$.
     * ($S\subseteq L\l(S\r)$): Take $s\in S$ and observe that $s=1s$, so $s$ is a linear combination of a finite subset of $S$, namely of $\l\{s\r\}$ with constant $1\in K$.
 
     * ($L\l(S\r)$ is a linear subspace of $V$): Take $\gamma\in K$ and $l_1,l_2\in L\l(S\r)$, so there exist $\alpha_i,\beta_j\in K$ and $s_i,t_j\in S$ such that$$\begin{equation}

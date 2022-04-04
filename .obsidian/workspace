@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "7f486442bca021f9",
+        "id": "934bb6af44a5c297",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Column Space.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "2922bbc1ca515fb4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Column space is the linear span of columns of matrix.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "fc0551f14d1d652e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Span.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Column space is the linear span of columns of matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Column space is the linear span of columns of matrix.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Column space is the linear span of columns of matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "7f486442bca021f9",
+  "active": "2922bbc1ca515fb4",
   "lastOpenFiles": [
-    "Notes/Linear span is set of all linear combinations.md",
+    "Notes/Column space is the linear span of columns of matrix.md",
+    "Notes/Matrix.md",
     "Notes/Linear Span.md",
-    "Notes/Linear Combination (Vector).md",
-    "Notes/Linear Subspace.md",
-    "Notes/Linear subspace iff closed under linear combination.md",
-    "Notes/Arbitrary intersection of linear subspaces is a linear subspace.md",
-    "Notes/Linear combinations of solutions of homogeneous systems are solutions.md",
+    "Notes/Column Space.md",
+    "Notes/Column space is a linear subspace of tuple space.md",
+    "Notes/Linear span is set of all linear combinations.md",
     "Notes/Matrix multiplication (columns).md",
-    "Notes/Basis (Topology).md",
-    "Notes/Partition (Set Theory).md"
+    "Notes/Image (Function).md",
+    "Notes/Null Space.md",
+    "Notes/Linear Combination (Vector).md"
   ]
 }
