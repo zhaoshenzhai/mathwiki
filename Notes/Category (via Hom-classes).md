@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 12/03/2022 17:41:32
-Tags: #Definition #Open
+Tags: #Definition #Category_Theory
 
 Types: [[Locally-small Category]], [[Groupoid]]
 Examples: _Not Applicable_

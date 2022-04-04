@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 16/03/2022 16:48:30
-Tags: #Definition #Open 
+Tags: #Definition #Category_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "33a5565dd6732242",
+        "id": "10cd1b9a1f2ece57",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Set of Linear Maps (Finite Dim.).md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Set of Linear Maps (Finite Dim.).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241
+    "width": 241,
+    "collapsed": true
   },
   "right": {
     "id": "6e128061ec5336cc",
@@ -104,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Set of Linear Maps (Finite Dim.).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -168,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Set of Linear Maps (Finite Dim.).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "33a5565dd6732242",
+  "active": "10cd1b9a1f2ece57",
   "lastOpenFiles": [
-    "Notes/Set of Linear Maps (Finite Dim.).md",
-    "Notes/Right inverse iff surjection (Choice).md",
-    "Notes/Category (via Directed Graphs).md",
-    "Notes/Axiom of Infinity.md",
-    "Notes/Axiom of Extensionality.md",
-    "Notes/Absolute complement of a set is a proper class.md",
-    "Notes/Category of Vector Spaces.md",
-    "Notes/Category of vector spaces is a locally-small category.md",
-    "Notes/Basis (Linear Algebra).md",
-    "Notes/Dimension (Linear Algebra).md"
+    "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
+    "Notes/Universal set is a proper class.md",
+    "Notes/Rank (Matrix).md",
+    "Notes/Dimension (Linear Algebra).md",
+    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
+    "Notes/Left inverse (Functor).md",
+    "Notes/Isomorphism of objects is an equivalence relation.md",
+    "Notes/Intersection of empty set is a proper class.md",
+    "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
+    "Notes/Classification of linear systems of equations (infinite field).md"
   ]
 }
