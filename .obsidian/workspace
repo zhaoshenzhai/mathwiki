@@ -4,36 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "934bb6af44a5c297",
+        "id": "d7c44df35a048eec",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Column Space.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "2922bbc1ca515fb4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Column space is the linear span of columns of matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "fc0551f14d1d652e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Span.md",
+            "file": "Notes/Real Coordinate Space.md",
             "mode": "preview",
             "source": true
           }
@@ -97,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Column space is the linear span of columns of matrix.md",
+                "file": "Notes/Real Coordinate Space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Column space is the linear span of columns of matrix.md",
+                "file": "Notes/Real Coordinate Space.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +157,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.3639733819428888,
+                  "scale": 0.23735249843807008,
                   "close": true
                 }
               }
@@ -193,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Column space is the linear span of columns of matrix.md",
+                "file": "Notes/Real Coordinate Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "2922bbc1ca515fb4",
+  "active": "d7c44df35a048eec",
   "lastOpenFiles": [
-    "Notes/Column space is the linear span of columns of matrix.md",
-    "Notes/Matrix.md",
-    "Notes/Linear Span.md",
-    "Notes/Column Space.md",
-    "Notes/Column space is a linear subspace of tuple space.md",
-    "Notes/Linear span is set of all linear combinations.md",
-    "Notes/Matrix multiplication (columns).md",
-    "Notes/Image (Function).md",
+    "Notes/Real Coordinate Space.md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Linear Independence.md",
     "Notes/Null Space.md",
-    "Notes/Linear Combination (Vector).md"
+    "Notes/Linear Combination (Vector).md",
+    "Notes/Linear Span.md",
+    "Notes/Vector Space.md",
+    "Notes/Vector.md",
+    "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+    "Notes/Image (Function).md"
   ]
 }
