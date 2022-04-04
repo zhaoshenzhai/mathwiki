@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [Standard Basis of $\R^n$](Standard%20Basis%20of%20Rn.md), [[Dot Product]]
+Constructions: [[Dot Product]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

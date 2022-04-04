@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d7c44df35a048eec",
+        "id": "66c8948e6c578235",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Real Coordinate Space.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "211d75d160d6897e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Standard Basis of Rn.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Standard Basis of Rn.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Standard Basis of Rn.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Standard Basis of Rn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,12 +175,12 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "211d75d160d6897e",
+  "active": "66c8948e6c578235",
   "lastOpenFiles": [
-    "Notes/Standard Basis of Rn.md",
+    "Notes/Standard Basis of Tuple Space.md",
+    "Notes/Tuple Space (Linear Algebra).md",
     "Notes/Real Coordinate Space.md",
     "Notes/Linear Independence.md",
-    "Notes/Tuple Space (Linear Algebra).md",
     "Notes/Identity Matrix.md",
     "Notes/Kronecker Delta.md",
     "Notes/Dot Product.md",

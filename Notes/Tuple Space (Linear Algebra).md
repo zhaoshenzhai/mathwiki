@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Real Coordinate Space]]
-Constructions: _Not Applicable_
+Constructions: [[Standard Basis of Tuple Space]]
 Generalizations: _Not Applicable_
 
 Properties: [[Linear map on tuple spaces is induced by a unique matrix]]
