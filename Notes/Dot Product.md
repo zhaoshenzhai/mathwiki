@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Fix $n\in\N$. The **dot product on $\R^n$** is the function_
+_Let $n\in\N$ and consider the real $n$-coordinate space $\R^n$. The **dot product on $\R^n$** is the function_
 $$\begin{equation}
     \begin{aligned}
         \dotpro:\R^n\times\R^n&\to\R\\

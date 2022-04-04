@@ -14,6 +14,18 @@
             "source": true
           }
         }
+      },
+      {
+        "id": "211d75d160d6897e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Standard Basis of Rn.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Real Coordinate Space.md",
+                "file": "Notes/Standard Basis of Rn.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Real Coordinate Space.md",
+                "file": "Notes/Standard Basis of Rn.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Real Coordinate Space.md",
+                "file": "Notes/Standard Basis of Rn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "d7c44df35a048eec",
+  "active": "211d75d160d6897e",
   "lastOpenFiles": [
+    "Notes/Standard Basis of Rn.md",
     "Notes/Real Coordinate Space.md",
-    "Notes/Tuple Space (Linear Algebra).md",
     "Notes/Linear Independence.md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Identity Matrix.md",
+    "Notes/Kronecker Delta.md",
+    "Notes/Dot Product.md",
+    "Notes/Matrix multiplication over R (dot product).md",
     "Notes/Null Space.md",
-    "Notes/Linear Combination (Vector).md",
-    "Notes/Linear Span.md",
-    "Notes/Vector Space.md",
-    "Notes/Vector.md",
-    "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
-    "Notes/Image (Function).md"
+    "Notes/Linear Combination (Vector).md"
   ]
 }
