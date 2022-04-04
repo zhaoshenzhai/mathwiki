@@ -32,4 +32,4 @@ _Proof_.
 $$\begin{equation}
     \fa\alpha\in K,\fa u_1,u_2\in U:\l(\alpha\l.\odot\r|_Uu_1\r)\l.\oplus\r|_Uu_2\in U,
 \end{equation}$$
-or, written in more sensible notation, that $\textrm{`}\alpha u_1+u_2\in U\textrm{'}$.<span style="float:right;">$\blacklozenge$</span>
+or, written in more sensible notation, that $\textrm{`}\alpha u_1+u_2\in U\textrm{'}$. By induction, it follows that $U$ is a linear subspace of $V$ iff all linear combinations of finite subsets of $U$ are in $U$.<span style="float:right;">$\blacklozenge$</span>

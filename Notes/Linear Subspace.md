@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Arbitrary intersection of linear subspaces is a linear subspace]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Linear subspace iff contains zero and operations are closed]]
+Equivalences: [[Linear subspace iff closed under linear combination]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

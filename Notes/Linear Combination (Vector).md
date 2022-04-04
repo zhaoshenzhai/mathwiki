@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Matrix multiplication (columns)]], [[Matrix multiplication (rows)]]
-Constructions: _Not Applicable_
+Constructions: [[Linear span is set of all linear combinations]], [[Linear subspace iff closed under linear combination]]
 Generalizations: _Not Applicable_
 
 Properties: [[Linear combinations of solutions of homogeneous systems are solutions]]

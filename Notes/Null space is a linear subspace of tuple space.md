@@ -4,7 +4,7 @@
 Date Created: 03/04/2022 15:51:12
 Tags: #Proposition #Closed
 
-Proved by: [[Linear subspace iff contains zero and operations are closed]], [[Zero matrix is the absorbing element of matrix multiplication]], [[Algebraic consequences (vector space)]]
+Proved by: [[Linear subspace iff closed under linear combination]], [[Zero matrix is the absorbing element of matrix multiplication]], [[Algebraic consequences (vector space)]]
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_
