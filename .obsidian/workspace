@@ -4,18 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "ccf6dbcc1d5cd556",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Combination (Vector).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
         "id": "9545ac9542bf606c",
         "type": "leaf",
         "state": {
@@ -40,24 +28,12 @@
         }
       },
       {
-        "id": "2d34ad9341c0d4a6",
+        "id": "3ebc08c44abaac88",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "5e7ded05f6af643e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Enlargement of linearly independent subset by a non-spanned element.md",
+            "file": "Notes/Linearly dependent iff exists span redundant element.md",
             "mode": "preview",
             "source": true
           }
@@ -121,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Combination (Vector).md",
+                "file": "Notes/Linearly dependent iff exists span redundant element.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Combination (Vector).md",
+                "file": "Notes/Linearly dependent iff exists span redundant element.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -217,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Combination (Vector).md",
+                "file": "Notes/Linearly dependent iff exists span redundant element.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "ccf6dbcc1d5cd556",
+  "active": "3ebc08c44abaac88",
   "lastOpenFiles": [
-    "Notes/Linear Combination (Vector).md",
-    "Notes/Linear Span.md",
+    "Notes/Linearly dependent iff exists span redundant element.md",
     "Notes/Linear Independence.md",
-    "Notes/Unique Representation Theorem (Linear Algebra).md",
+    "Notes/Linear Span.md",
+    "Notes/Linear Combination (Vector).md",
+    "Notes/Linearly dependent iff scalar multiple.md",
+    "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
+    "Notes/Vector.md",
     "Notes/Enlargement of linearly independent subset by a non-spanned element.md",
-    "Notes/Dimension (Linear Algebra).md",
-    "Notes/Direct Image Function.md",
-    "Notes/Basis (Linear Algebra).md",
-    "Notes/Basis (Topology).md",
-    "Notes/Linearly dependent iff scalar multiple.md"
+    "Notes/Unique Representation Theorem (Linear Algebra).md",
+    "Notes/Dimension (Linear Algebra).md"
   ]
 }

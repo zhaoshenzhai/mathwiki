@@ -23,3 +23,9 @@ $$\begin{equation}
 \end{equation}$$
 
 ```
+
+**Remark.** Note that the vectors $s_1,\dots,s_n\in S$ must all be distinct; if not the consider $S=\l\{s\r\}$ with $s_1=s_2=s$ and observe that the non-trivial linear combination
+$$\begin{equation}
+    1\cdot s_1+\l(-1\r)\cdot s_2=0_V
+\end{equation}$$
+vanishes.<span style="float:right;">$\blacklozenge$</span>

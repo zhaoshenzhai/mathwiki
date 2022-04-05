@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a vector space over a field $K$ and fix vectors $v_1,\dots,v_n\in V$. A vector $v\in V$ is said to be a **linear combination of $v_1,\dots,v_n$** if_
+_Let $V$ be a vector space over a field $K$ and fix distinct vectors $v_1,\dots,v_n\in V$. A vector $v\in V$ is said to be a **linear combination of $v_1,\dots,v_n$** if_
 $$\begin{equation}
     \ex\alpha_1,\dots,\alpha_n\in K:v=\sum_{i=1}^n\alpha_iv_i.
 \end{equation}$$
