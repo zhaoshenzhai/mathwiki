@@ -4,36 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9545ac9542bf606c",
+        "id": "e75b06bd91c59223",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "0a6f306279eb7400",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Linear Span.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "8746c740d2149259",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Independence.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "3ebc08c44abaac88",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linearly dependent iff exists span redundant element.md",
             "mode": "preview",
             "source": true
           }
@@ -64,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "tag:#Later/Linear_Algebra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linearly dependent iff exists span redundant element.md",
+                "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linearly dependent iff exists span redundant element.md",
+                "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +169,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.6158655936919009,
+                  "scale": 0.09132738889478362,
                   "close": true
                 }
               }
@@ -193,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linearly dependent iff exists span redundant element.md",
+                "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "3ebc08c44abaac88",
+  "active": "e75b06bd91c59223",
   "lastOpenFiles": [
-    "Notes/Linearly dependent iff exists span redundant element.md",
-    "Notes/Linear Independence.md",
+    "Notes/Unique Representation Theorem (Linear Algebra).md",
     "Notes/Linear Span.md",
     "Notes/Linear Combination (Vector).md",
-    "Notes/Linearly dependent iff scalar multiple.md",
-    "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
-    "Notes/Vector.md",
-    "Notes/Enlargement of linearly independent subset by a non-spanned element.md",
-    "Notes/Unique Representation Theorem (Linear Algebra).md",
+    "Notes/Linear Independence.md",
+    "Notes/Linear span is set of all linear combinations.md",
+    "Notes/Linearly dependent iff exists span redundant element.md",
+    "Notes/Linear subspace iff closed under linear combination.md",
+    "Notes/Linear combinations of solutions of homogeneous systems are solutions.md",
+    "Notes/Matrix multiplication (columns).md",
     "Notes/Dimension (Linear Algebra).md"
   ]
 }
