@@ -4,7 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f3e7dd27864c9283",
+        "id": "ccf6dbcc1d5cd556",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Combination (Vector).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "9545ac9542bf606c",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -16,36 +28,36 @@
         }
       },
       {
-        "id": "8c6102b04d5bb89f",
+        "id": "8746c740d2149259",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Independence.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "2d34ad9341c0d4a6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "5e7ded05f6af643e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Enlargement of linearly independent subset by a non-spanned element.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "9857ce1a48b19de4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linearly dependent iff exists span redundant element.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "d4e7ec6a2e40f834",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Span.md",
             "mode": "preview",
             "source": true
           }
@@ -109,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Span.md",
+                "file": "Notes/Linear Combination (Vector).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Span.md",
+                "file": "Notes/Linear Combination (Vector).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -205,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Span.md",
+                "file": "Notes/Linear Combination (Vector).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,17 +230,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "d4e7ec6a2e40f834",
+  "active": "ccf6dbcc1d5cd556",
   "lastOpenFiles": [
+    "Notes/Linear Combination (Vector).md",
     "Notes/Linear Span.md",
-    "Notes/Linearly dependent iff exists span redundant element.md",
-    "Notes/Enlargement of linearly independent subset by a non-spanned element.md",
-    "Notes/Arbitrary intersection of linear subspaces is a linear subspace.md",
-    "Notes/Linear span is set of all linear combinations.md",
-    "Notes/Unique Representation Theorem (Linear Algebra).md",
     "Notes/Linear Independence.md",
-    "Notes/Linearly dependent iff scalar multiple.md",
-    "Notes/Column space is the linear span of columns of matrix.md",
-    "Notes/Linear subspace iff closed under linear combination.md"
+    "Notes/Unique Representation Theorem (Linear Algebra).md",
+    "Notes/Enlargement of linearly independent subset by a non-spanned element.md",
+    "Notes/Dimension (Linear Algebra).md",
+    "Notes/Direct Image Function.md",
+    "Notes/Basis (Linear Algebra).md",
+    "Notes/Basis (Topology).md",
+    "Notes/Linearly dependent iff scalar multiple.md"
   ]
 }

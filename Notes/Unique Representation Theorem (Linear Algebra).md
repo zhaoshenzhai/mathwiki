@@ -4,7 +4,7 @@
 Date Created: 05/04/2022 15:55:24
 Tags: #Theorem #In_Progress
 
-Proved by: [[Linearly independent subset cannot contain the zero vector]], [Linearly dependent $\Leftrightarrow$ expressible as a linear combination](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
+Proved by: [[Linearly independent subset cannot contain the zero vector]], [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

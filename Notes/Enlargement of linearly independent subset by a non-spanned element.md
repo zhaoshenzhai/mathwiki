@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 04/04/2022 21:00:11
-Tags: #Proposition #Closed
+Tags: #Proposition #In_Progress
 
 Proved by: [[Linear span is set of all linear combinations]]
 Generalizations: _Not Applicable_
