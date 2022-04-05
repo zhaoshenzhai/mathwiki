@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 26/03/2022 14:27:26
-Tags: #Theorem #Closed 
+Tags: #Proposition #Closed
 
 Proved by: [[Gaussian Elimination]], [[Gauss-Jordan Algorithm]]
 Generalizations: _Not Applicable_
@@ -10,8 +10,8 @@ Generalizations: _Not Applicable_
 Examples: _Not Applicable_
 Counterexamples: _Not Applicable_
 
-``` ad-Theorem
-title: Theorem (Gauss-Jordan Elimination).
+``` ad-Proposition
+title: Proposition (Gauss-Jordan Elimination).
 
 _Let $K$ be a field and consider any linear system_
 $$\begin{equation}

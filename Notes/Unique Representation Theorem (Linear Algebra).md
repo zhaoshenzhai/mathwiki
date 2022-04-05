@@ -42,8 +42,8 @@ where, in particular, the right hand side is a linear combination of the vectors
   * If there are any terms $\alpha_ip_i$ in Group 2, we can move it to left, divide by $\alpha_i$ throughout, and obtain a linear combination of vectors in $S\setminus\l\{p_i\r\}$.
   * If there are any terms $\beta_jq_j$ in Group 3, we can move it to left, divide by $\beta_j$ throughout, and obtain a linear combination of vectors in $S\setminus\l\{q_j\r\}$.
 
-  Both cases yield contradictions, so both Groups 2 and 3 must vanish. More precisely, it must be the case that $l=n=m$. Hence we have
+  Both cases yield contradictions, so Groups 2 and 3 must vanish. More precisely, it must be the case that $l=n=m$. Hence we have the condition
 $$\begin{equation}
     0_V=\sum_{i=1}^n\l(\alpha_i-\beta_i\r)p_i,
 \end{equation}$$
-but since all $p_i\textrm{'}$s are distinct and $S$ is linearly independent, it follows that $\alpha_i=\beta_i$ for all $i\in\l\{1,\dots,n\r\}$. Altogether, we have that $n=m$ and, for all $i\in\l\{1,\dots,n\r\}$, that $p_i=q_i$ and $\alpha_i=\beta_i$. The result follows.<span style="float:right;">$\blacksquare$</span>
+on Group 1, but since all $p_i\textrm{'}$s are distinct and $S$ is linearly independent, it follows that $\alpha_i=\beta_i$ for all $i\in\l\{1,\dots,n\r\}$. Altogether, we have that $n=m$ and, for all $i\in\l\{1,\dots,n\r\}$, that $p_i=q_i$ and $\alpha_i=\beta_i$. The result follows.<span style="float:right;">$\blacksquare$</span>

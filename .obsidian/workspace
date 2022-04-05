@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e75b06bd91c59223",
+        "id": "c93140e0550d7165",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "0a6f306279eb7400",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Span.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Span.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Span.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Span.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "0a6f306279eb7400",
+  "active": "c93140e0550d7165",
   "lastOpenFiles": [
-    "Notes/Linear Span.md",
+    "Notes/Gauss-Jordan Elimination.md",
     "Notes/Unique Representation Theorem (Linear Algebra).md",
+    "Notes/Gauss-Jordan Algorithm.md",
+    "Notes/Gaussian Elimination.md",
+    "Notes/Linear Span.md",
     "Notes/Matrix.md",
     "Notes/Linear Combination (Vector).md",
     "Notes/Linear Independence.md",
     "Notes/Linear span is set of all linear combinations.md",
-    "Notes/Linearly dependent iff exists span redundant element.md",
-    "Notes/Linear subspace iff closed under linear combination.md",
-    "Notes/Linear combinations of solutions of homogeneous systems are solutions.md",
-    "Notes/Matrix multiplication (columns).md"
+    "Notes/Linearly dependent iff exists span redundant element.md"
   ]
 }
