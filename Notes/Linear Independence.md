@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Linearly independent subset cannot contain the zero vector]], [[Enlargement of linearly independent subset by a non-spanned element]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Unique Representation Theorem (Linear Algebra)]], [Linearly dependent $\Leftrightarrow$ scalar multiple](Linearly%20dependent%20iff%20scalar%20multiple.md)
+Equivalences: [[Unique Representation Theorem (Linear Algebra)]], [Linearly dependent $\Leftrightarrow$ scalar multiple](Linearly%20dependent%20iff%20scalar%20multiple.md), [Linearly dependent $\Leftrightarrow$ expressible as a linear combination](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition

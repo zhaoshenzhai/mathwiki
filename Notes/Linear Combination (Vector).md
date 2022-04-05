@@ -9,7 +9,7 @@ Examples: [[Matrix multiplication (columns)]], [[Matrix multiplication (rows)]]
 Constructions: [[Linear span is set of all linear combinations]], [[Linear subspace iff closed under linear combination]]
 Generalizations: _Not Applicable_
 
-Properties: [[Linear combinations of solutions of homogeneous systems are solutions]]
+Properties: [[Linear combinations of solutions of homogeneous systems are solutions]], [[Unique Representation Theorem (Linear Algebra)]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
