@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "10cd1b9a1f2ece57",
+        "id": "b67e83bc9b2994cd",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -151,7 +151,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.23735249843807008,
+                  "scale": 0.692842173240716,
                   "close": true
                 }
               }
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "10cd1b9a1f2ece57",
+  "active": "b67e83bc9b2994cd",
   "lastOpenFiles": [
+    "Notes/ON is well-ordered by membership.md",
+    "Notes/Product Space (Topology).md",
+    "Notes/Real Plane (Topology).md",
+    "Notes/Real Line (Topology).md",
+    "Notes/Principle of Ordinary Induction.md",
     "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
     "Notes/Universal set is a proper class.md",
     "Notes/Rank (Matrix).md",
     "Notes/Dimension (Linear Algebra).md",
-    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
-    "Notes/Left inverse (Functor).md",
-    "Notes/Isomorphism of objects is an equivalence relation.md",
-    "Notes/Intersection of empty set is a proper class.md",
-    "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
-    "Notes/Classification of linear systems of equations (infinite field).md"
+    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md"
   ]
 }

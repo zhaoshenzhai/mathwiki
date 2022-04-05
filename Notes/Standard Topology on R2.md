@@ -10,7 +10,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Euclidean Plane (Topology)]]
+Constructions: [[Real Plane (Topology)]]
 Generalizations: _Not Applicable_
 
 Properties: [Lexicographical order topology strictly finer than standard topology on $\R^2$](Lexicographical%20order%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R2.md)
