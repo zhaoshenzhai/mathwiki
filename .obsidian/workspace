@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b67e83bc9b2994cd",
+        "id": "935b3318f81eca6e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Basis (Linear Algebra).md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Open",
+                "query": "tag:#In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Basis (Linear Algebra).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241,
-    "collapsed": true
+    "width": 241
   },
   "right": {
     "id": "6e128061ec5336cc",
@@ -100,6 +104,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Basis (Linear Algebra).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Basis (Linear Algebra).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,8 +181,9 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b67e83bc9b2994cd",
+  "active": "935b3318f81eca6e",
   "lastOpenFiles": [
+    "Notes/Basis (Linear Algebra).md",
     "Notes/ON is well-ordered by membership.md",
     "Notes/Product Space (Topology).md",
     "Notes/Real Plane (Topology).md",
@@ -185,7 +192,6 @@
     "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
     "Notes/Universal set is a proper class.md",
     "Notes/Rank (Matrix).md",
-    "Notes/Dimension (Linear Algebra).md",
-    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md"
+    "Notes/Dimension (Linear Algebra).md"
   ]
 }
