@@ -2,48 +2,48 @@
 <br />
 
 Date Created: 05/04/2022 15:55:24
-Tags: #Theorem #In_Progress
+Tags: #Theorem #Closed
 
-Proved by: [[Linearly independent subset cannot contain the zero vector]], [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
+Proved by: [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
-title: Theorem.
+title: Theorem (Unique Representation Theorem).
 
-_Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space $V$ over $K$. Then $S$ is linearly independent in $V$ iff every non-zero spanned vector $v\in\span\l(S\r)$ can be uniquely represented by a linear combination of a unique finite subset of $S$. Formally, iff_
+_Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space $V$ over $K$. Then $S$ is linearly independent in $V$ iff every non-zero vector spanned by $S$ can be uniquely represented as a linear combination of vectors in $S$; formally, iff_
 $$\begin{equation}
-    \fa v\in\span\l(S\r)\setminus\l\{0_V\r\},\ex!n\in\N^\ast,\ex!\alpha_1,\dots,\alpha_n\in K\setminus\l\{0\r\},\ex!s_1,\dots,s_n\in S\setminus\l\{0_V\r\}:v=\sum_{i=1}^n\alpha_is_i.
+    \fa v\in\span\l(S\r)\setminus\l\{0_V\r\},\ex!n\in\N^\ast,\ex!\alpha_1,\dots,\alpha_n\in K\setminus\l\{0\r\},\ex!s_1,\dots,s_n\in S:v=\sum_{i=1}^n\alpha_is_i.
 \end{equation}$$
 
 ```
 
 _Proof_.
-* ($\Rightarrow$): Let $S$ be a linearly independent subset of $V$ and suppose that there exists some $v\in\span\l(S\r)\setminus\l\{0_V\r\}$ and two subsets $P\coloneqq\l\{p_1,\dots,p_n\r\}$ and $Q\coloneqq\l\{q_1,\dots,q_m\r\}$ of $S$ with (w.l.o.g.) $n\leq m$ such that
+* ($\Leftarrow$): Assume, for sake of contradiction, that $S$ is linearly dependent. It follows then that there exists a span-redundant element $v\in S$; that is, an element $v\in S$ such that $v\in\span\l(S\setminus\l\{v\r\}\r)$. Observe then that there exist constants $\alpha_1,\dots,\alpha_n\in K\setminus\l\{0\r\}$ and vectors $s_1,\dots,s_n\in S\setminus\l\{v\r\}$, such that
+$$\begin{equation}
+    v=\sum_{i=1}^n\alpha_is_i.
+\end{equation}$$
+But, since $v\in S$ too, we can also the linear combination $v=1\cdot v$ which is distinct from the former since each $s_i$ is, in particular, distinct from $v$.
+
+* ($\Rightarrow$): Take $v\in\span\l(S\r)\setminus\l\{0_V\r\}$ assume that
 $$\begin{equation}
     v=\sum_{i=1}^n\alpha_ip_i=\sum_{j=1}^m\beta_jq_j
 \end{equation}$$
-for some constants $\alpha_i,\beta_j\in K\setminus\l\{0\r\}$; we wish to show that $P=Q$. Rearranging, we have that
+where each $\alpha_i,\beta_j\in K\setminus\l\{0\r\}$ and all $p_i\textrm{'}$s and $q_j\textrm{'}$s are, separately, distinct elements of $S$. Rearranging, we have that
 $$\begin{equation}
-    \sum_{i=1}^n\alpha_ip_i-\sum_{j=1}^m\beta_jq_j=0_V.\tag{$\ast$}
+    0_V=\sum_{i=1}^n\alpha_ip_i-\sum_{j=1}^m\beta_jq_j.\tag{$\ast$}
 \end{equation}$$
-Since $S$ is linearly independent and all constants are non-zero, it must be the case that $P\cap Q\neq\em$
-  * ($P\subseteq Q$): Suppose, for sake of contradiction, that there exists some $k\in\l\{1,\dots,n\r\}$ such that $p_k\neq q_j$ for all $j\in\l\{1,\dots,m\r\}$. It follows then that the set $\l\{p_k\r\}\cup Q\subseteq S$ is linearly dependent, since $\l(\,\ast\,\r)$ implies that
+The left hand side of $\l(\,\ast\,\r)$ is only a linear combination if all $p_i\textrm{'}$s and $q_j\textrm{'}$s are, together, distinct. Assume, w.l.o.g. and reindexing if necessary, that $p_1=q_1,\dots,p_l=q_l$ for some $l\in\N$; in particular, $l=0$ would mean that the expression is a linear combination. It follows then that
 $$\begin{equation}
-    \alpha_kp_k-\sum_{j=1}^m\beta_jq_j=0_V
+    0_V=\underbrace{\sum_{k=1}^l\l(\alpha_k-\beta_k\r)p_k}_{\textrm{Group 1}}+\underbrace{\sum_{i=l+1}^n\alpha_ip_i}_{\mathclap{\textrm{Group 2}}}-\underbrace{\sum_{j=l+1}^m\beta_jq_j}_{\mathclap{\textrm{Group 3}}}
 \end{equation}$$
-and thus
-$$\begin{equation}
-    p_k=\sum_{j=1}^m\l(\frac{\beta_j}{\alpha_k}\r)q_j
-\end{equation}$$
-which, in particular, states that $p_i$ is a linear combination of $Q$, a contradiction. Furthermore, we have that $\alpha_i=\beta_i$ for all $i\in\l\{1,\dots,n\r\}$, for if not, then  $\l(\,\ast\,\r)$ would not be a trivial linear combination. It follows from our observations that, after renaming the elements of $Q$, that $\l(\,\ast\,\r)$ reduces to
-$$\begin{equation}
-    \sum_{\mathclap{j=n+1}}^m\beta_jq_j=0_V
-\end{equation}$$
-where each $q_j\neq p_i$ for any $p_i\in P$. Since each $\beta_j\neq0$, the only solution to this equation is when each $q_j=0_V$, but this contradicts the fact that $S$ is linearly independent and hence cannot contain the zero vector.
+where, in particular, the right hand side is a linear combination of the vectors $p_1,\dots,p_n,q_{l+1},\dots,q_m$.
+  * If there are any terms $\alpha_ip_i$ in Group 2, we can move it to left, divide by $\alpha_i$ throughout, and obtain a linear combination of vectors in $S\setminus\l\{p_i\r\}$.
+  * If there are any terms $\beta_jq_j$ in Group 3, we can move it to left, divide by $\beta_j$ throughout, and obtain a linear combination of vectors in $S\setminus\l\{q_j\r\}$.
 
-* ($\Leftarrow$): Take $v\in\span\l(S\r)\setminus\l\{0_V\r\}$ and assume that there exist unique non-zero constants $\gamma_1,\dots,\gamma_l$ and non-zero vectors $t_1,\dots,t_l$ such that
+  Both cases yield contradictions, so both Groups 2 and 3 must vanish. More precisely, it must be the case that $l=n=m$. Hence we have
 $$\begin{equation}
-    v=\sum_{k=1}^l\gamma_kt_k.
+    0_V=\sum_{i=1}^n\l(\alpha_i-\beta_i\r)p_i,
 \end{equation}$$
+but since all $p_i\textrm{'}$s are distinct and $S$ is linearly independent, it follows that $\alpha_i=\beta_i$ for all $i\in\l\{1,\dots,n\r\}$. Altogether, we have that $n=m$ and, for all $i\in\l\{1,\dots,n\r\}$, that $p_i=q_i$ and $\alpha_i=\beta_i$. The result follows.<span style="float:right;">$\blacksquare$</span>

@@ -12,11 +12,10 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space $V$ over $K$. Then $\span\l(S\r)=L\l(S\r)$ where_
+_Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space $V$ over $K$. Then_
 $$\begin{equation}
-    L\l(S\r)\coloneqq\l\{v\in V\mid \ex n\in\N^\ast,\ex s_1,\dots,s_n\in S:v\textrm{\it{ is a linear combination of }}s_1,\dots,s_n\r\}
+    \span\l(S\r)=L\l(S\r)\coloneqq\l\{v\in V\mid v\textrm{\it{ is a linear combination of vectors in }}S\r\}.
 \end{equation}$$
-_is the set of all linear combinations of finite subsets of $S$._
 
 ```
 

@@ -9,7 +9,7 @@ Examples: [[Column space is the linear span of columns of matrix]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
+Properties: [[Unique Representation Theorem (Linear Algebra)]], [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 Sufficiencies: _Not Applicable_
 Equivalences: [[Linear span is set of all linear combinations]]
 Justifications: [[Arbitrary intersection of linear subspaces is a linear subspace]]

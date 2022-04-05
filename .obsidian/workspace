@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
+                "file": "Notes/Linear Span.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
+                "file": "Notes/Linear Span.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.09132738889478362,
+                  "scale": 0.39967597234290775,
                   "close": true
                 }
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
+                "file": "Notes/Linear Span.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "e75b06bd91c59223",
+  "active": "0a6f306279eb7400",
   "lastOpenFiles": [
-    "Notes/Unique Representation Theorem (Linear Algebra).md",
     "Notes/Linear Span.md",
+    "Notes/Unique Representation Theorem (Linear Algebra).md",
+    "Notes/Matrix.md",
     "Notes/Linear Combination (Vector).md",
     "Notes/Linear Independence.md",
     "Notes/Linear span is set of all linear combinations.md",
     "Notes/Linearly dependent iff exists span redundant element.md",
     "Notes/Linear subspace iff closed under linear combination.md",
     "Notes/Linear combinations of solutions of homogeneous systems are solutions.md",
-    "Notes/Matrix multiplication (columns).md",
-    "Notes/Dimension (Linear Algebra).md"
+    "Notes/Matrix multiplication (columns).md"
   ]
 }
