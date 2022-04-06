@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Dot Product]]
+Constructions: [[Dot Product]], [Rotations in $\R^2$](Rotations%20in%20R2.md), [Reflections in $\R^2$](Reflections%20in%20R2.md)
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -18,4 +18,5 @@ Justifications: _Not Applicable_
 title: Definition.
 
 _Consider the field of real numbers $\l\langle\R,+,\cdot\r\rangle$ and fix $n\in\N^\ast$. The **real $n$-coordinate space** is the $n$-tuple space $\l\langle\R^n,\R,\oplus,\odot,\v{0}\r\rangle$._
+
 ```

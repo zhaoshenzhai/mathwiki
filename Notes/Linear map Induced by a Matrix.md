@@ -5,7 +5,7 @@ Date Created: 01/04/2022 22:31:49
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [Rotations in $\R^2$](Rotations%20in%20R2.md), [Reflections in $\R^2$](Reflections%20in%20R2.md)
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
