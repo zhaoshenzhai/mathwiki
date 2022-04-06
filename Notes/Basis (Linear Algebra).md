@@ -2,11 +2,11 @@
 <br />
 
 Date Created: 04/04/2022 23:21:59
-Tags: #Definition #Closed
+Tags: #Definition #In_Progress
 
 Types: _Not Applicable_
 Examples: [[Standard Basis of Tuple Space]]
-Constructions: [[Dimension (Linear Algebra)]]
+Constructions: [[Dimension (Linear Algebra)]], [[Ordered Basis (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
 Properties: [[Invariance of cardinality of bases (finite dim.)]]

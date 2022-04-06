@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[Standard basis of tuple space is an ordered basis]]
 
 ``` ad-Definition
 title: Definition.
@@ -24,3 +24,5 @@ $$\begin{equation}
 _for all $i\in\l\{1,\dots,n\r\}$._
 
 ```
+
+**Remark.** It follows then that $\dim\l(K^n\r)=\l|\l\{\v{e}_1,\dots,\v{e}_n\r\}\r|=n$.<span style="float:right;">$\blacklozenge$</span>

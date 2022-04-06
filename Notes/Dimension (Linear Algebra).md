@@ -2,10 +2,10 @@
 <br />
 
 Date Created: 04/04/2022 23:26:15
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #In_Progress
 
 Types: _Not Applicable_
-Examples: [[Dimensions of row and column space of matrix coincide]]
+Examples: [[Dimensions of row and column space of matrix coincide]], [[Dimension of zero vector space]]
 Constructions: [[Finite Dimensional Vector Space]]
 Generalizations: _Not Applicable_
 

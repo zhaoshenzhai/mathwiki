@@ -4,24 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "bb7946e3ecaaa1e8",
+        "id": "804f90f19219a5df",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Dimension (Linear Algebra).md",
+            "file": "Notes/Standard basis of tuple space is an ordered basis.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "173c02553c4fdd55",
+        "id": "bada5b57ec5cbdc7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Invariance of cardinality of bases (finite dim.).md",
+            "file": "Notes/Identity Matrix.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "54a627c569910951",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Homogeneous linear system with coefficient matrix row-equivalent to identity matrix has only trivial solution.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Invariance of cardinality of bases (finite dim.).md",
+                "file": "Notes/Identity Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Invariance of cardinality of bases (finite dim.).md",
+                "file": "Notes/Identity Matrix.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Invariance of cardinality of bases (finite dim.).md",
+                "file": "Notes/Identity Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "173c02553c4fdd55",
+  "active": "bada5b57ec5cbdc7",
   "lastOpenFiles": [
-    "Notes/Invariance of cardinality of bases (finite dim.).md",
-    "Notes/Finite spanning set implies any linearly independent set is no larger.md",
+    "Notes/Identity Matrix.md",
+    "Notes/Bijection.md",
+    "Notes/Homogeneous linear system with coefficient matrix row-equivalent to identity matrix has only trivial solution.md",
+    "Notes/Standard basis of tuple space is an ordered basis.md",
+    "Notes/Homogeneous Linear System.md",
+    "Notes/Standard Basis of Tuple Space.md",
     "Notes/Dimension (Linear Algebra).md",
     "Notes/Basis (Linear Algebra).md",
-    "Notes/Finite Dimensional Vector Space.md",
-    "Notes/Basis (Topology).md",
-    "Notes/Linear Independence.md",
-    "Notes/Vector Space.md",
     "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
-    "Notes/Linear Span.md"
+    "Notes/Kronecker Delta.md"
   ]
 }
