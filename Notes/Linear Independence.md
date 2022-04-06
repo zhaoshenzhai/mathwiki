@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Linearly independent subset cannot contain the zero vector]]
+Properties: [[Linearly independent subset cannot contain the zero vector]], [Finite spanning set $\Rightarrow$ any linearly independent set is no larger](Finite%20spanning%20set%20implies%20any%20linearly%20independent%20set%20is%20no%20larger.md)
 Sufficiencies: _Not Applicable_
 Equivalences: [[Unique Representation Theorem (Linear Algebra)]], [Linearly dependent $\Leftrightarrow$ scalar multiple](Linearly%20dependent%20iff%20scalar%20multiple.md), [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 Justifications: _Not Applicable_

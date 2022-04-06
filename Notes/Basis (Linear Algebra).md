@@ -9,7 +9,7 @@ Examples: [[Standard Basis of Tuple Space]]
 Constructions: [[Dimension (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Invariance of cardinality of bases (finite dim.)]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a vector space $V$ over $K$. A subset $B\subseteq V$ is said to be a **basis for $V$** if $B$ is a linearly independent spanning set of $V$._
+_Let $K$ be a field and consider a vector space $V$ over $K$. A subset $B\subseteq V$ is said to be a **basis of $V$** if $B$ is a linearly independent spanning set of $V$._
 
 ```

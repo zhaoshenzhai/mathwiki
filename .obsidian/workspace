@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "c93140e0550d7165",
+        "id": "bb7946e3ecaaa1e8",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Dimension (Linear Algebra).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "173c02553c4fdd55",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Invariance of cardinality of bases (finite dim.).md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Later/Linear_Algebra",
+                "query": "tag:#In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Invariance of cardinality of bases (finite dim.).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Invariance of cardinality of bases (finite dim.).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -151,7 +169,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.39967597234290775,
+                  "scale": 0.21166381244277457,
                   "close": true
                 }
               }
@@ -163,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Invariance of cardinality of bases (finite dim.).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "c93140e0550d7165",
+  "active": "173c02553c4fdd55",
   "lastOpenFiles": [
-    "Notes/Gauss-Jordan Elimination.md",
-    "Notes/Unique Representation Theorem (Linear Algebra).md",
-    "Notes/Gauss-Jordan Algorithm.md",
-    "Notes/Gaussian Elimination.md",
-    "Notes/Linear Span.md",
-    "Notes/Matrix.md",
-    "Notes/Linear Combination (Vector).md",
+    "Notes/Invariance of cardinality of bases (finite dim.).md",
+    "Notes/Finite spanning set implies any linearly independent set is no larger.md",
+    "Notes/Dimension (Linear Algebra).md",
+    "Notes/Basis (Linear Algebra).md",
+    "Notes/Finite Dimensional Vector Space.md",
+    "Notes/Basis (Topology).md",
     "Notes/Linear Independence.md",
-    "Notes/Linear span is set of all linear combinations.md",
-    "Notes/Linearly dependent iff exists span redundant element.md"
+    "Notes/Vector Space.md",
+    "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
+    "Notes/Linear Span.md"
   ]
 }

@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Dimension of a vector space is well-defined]]
+Justifications: [[Invariance of cardinality of bases (finite dim.)]]
 
 ``` ad-Definition
 title: Definition.
