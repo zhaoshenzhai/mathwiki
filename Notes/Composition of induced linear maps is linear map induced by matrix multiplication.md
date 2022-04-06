@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 07/04/2022 01:04:29
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed
 
 Proved by: [[Matrix multiplication is associative]]
 Generalizations: _Not Applicable_

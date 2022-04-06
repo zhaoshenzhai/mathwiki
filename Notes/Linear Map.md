@@ -9,7 +9,7 @@ Examples: [[Linear map Induced by a Matrix]], [[Identity function is a linear ma
 Constructions: [[Set of Linear Maps]]
 Generalizations: _Not Applicable_
 
-Properties: [[Linear map fixes zero vector]]
+Properties: [[Composition of linear maps is a linear map]], [[Linear map fixes zero vector]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
