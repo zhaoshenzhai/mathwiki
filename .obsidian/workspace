@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ab683d5fcbc7819c",
+        "id": "5898dad29572a775",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "ab683d5fcbc7819c",
+  "active": "5898dad29572a775",
   "lastOpenFiles": [
+    "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+    "Notes/Linear span is set of all linear combinations.md",
+    "Notes/Tuple Space (Linear Algebra).md",
     "Notes/Additive Matrix Group.md",
     "Notes/Vector Space of Matrices.md",
-    "Notes/Tuple Space (Linear Algebra).md",
     "Notes/Set of matrices form a vector space.md",
     "Notes/Standard basis of tuple space is an ordered basis.md",
     "Notes/Matrix multiplication (columns).md",
     "Notes/Matrix Multiplication.md",
-    "Notes/Homogeneous linear system with coefficient matrix row-equivalent to identity matrix iff has only trivial solution.md",
-    "Notes/Linear Independence.md",
-    "Notes/Unique Representation Theorem (Linear Algebra).md"
+    "Notes/Homogeneous linear system with coefficient matrix row-equivalent to identity matrix iff has only trivial solution.md"
   ]
 }

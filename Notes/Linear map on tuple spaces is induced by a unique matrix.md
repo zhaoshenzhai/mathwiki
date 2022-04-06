@@ -16,13 +16,13 @@ _Let $K$ be a field and fix $m,n\in\N$. Then, for every linear map $T:K^n\to K^m
 $$\begin{equation}
     A=\l[T\l(\v{e}_1\r)\ \ \cdots\ \ T\l(\v{e}_n\r)\r]
 \end{equation}$$
-_where_ $\v{e}_j\coloneqq\l[\delta_{1j}\ \ \cdots\ \ \delta_{nj}\r]^\trans$ _for all $j\in\l\{1,\dots,n\r\}$._
+_where_ $\l\{\v{e}_1,\dots,\v{e}_n\r\}$ is the standard basis on $K^n$._
 
 ```
 
 _Proof_. Suppose, for sake of contradiction, that there exist $A,B\in\mat{m\times n}{K}$ such that $T_A=T_B$; that is, such that $A\v{x}=B\v{x}$ for all $\v{x}\in K^n$. But then $A=B$ since their actions on all vectors in $K^n$ coincide, so we arrive at a contradiction.
 
-To write $A$ explicitly, observe that each $\v{x}\in K^n$ can be written as $\v{x}=\sum_{j=1}^nx_j\v{e}_j$ and thus
+To write $A$ explicitly, observe that each $\v{x}=\l\langle x_1,\dots,x_n\r\rangle\in K^n$ can be written as $\v{x}=\sum_{j=1}^nx_j\v{e}_j$, and thus
 $$\begin{equation}
     \begin{aligned}
         T\l(\v{x}\r)&=T\l(\sum_{j=1}^nx_j\v{e}_j\r) && \textrm{Substitution} \\
