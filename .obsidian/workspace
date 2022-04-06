@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5898dad29572a775",
+        "id": "4e0ff81d1550aaab",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+            "file": "Notes/Basis (Linear Algebra).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "f7c0905c91473dea",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Ordered Basis (Linear Algebra).md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+                "file": "Notes/Ordered Basis (Linear Algebra).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+                "file": "Notes/Ordered Basis (Linear Algebra).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+                "file": "Notes/Ordered Basis (Linear Algebra).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "5898dad29572a775",
+  "active": "f7c0905c91473dea",
   "lastOpenFiles": [
+    "Notes/Ordered Basis (Linear Algebra).md",
+    "Notes/Basis (Linear Algebra).md",
+    "Notes/Initial Segment.md",
+    "Notes/Dimension (Linear Algebra).md",
+    "Notes/Standard Basis of Tuple Space.md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Standard basis of tuple space is an ordered basis.md",
     "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
     "Notes/Linear span is set of all linear combinations.md",
-    "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Additive Matrix Group.md",
-    "Notes/Vector Space of Matrices.md",
-    "Notes/Set of matrices form a vector space.md",
-    "Notes/Standard basis of tuple space is an ordered basis.md",
-    "Notes/Matrix multiplication (columns).md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Homogeneous linear system with coefficient matrix row-equivalent to identity matrix iff has only trivial solution.md"
+    "Notes/Additive Matrix Group.md"
   ]
 }

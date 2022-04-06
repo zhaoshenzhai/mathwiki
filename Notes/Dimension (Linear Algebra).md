@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 04/04/2022 23:26:15
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Dimensions of row and column space of matrix coincide]], [[Dimension of zero vector space]]
