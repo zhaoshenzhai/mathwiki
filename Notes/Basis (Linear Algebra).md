@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 04/04/2022 23:21:59
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Standard Basis of Tuple Space]]

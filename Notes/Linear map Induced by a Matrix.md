@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Linear map on tuple spaces is induced by a unique matrix]]
+Properties: [[Linear map on tuple spaces is induced by a unique matrix]], [[Composition of induced linear maps is linear map induced by matrix multiplication]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Linear map induced by a matrix is a linear map]]
