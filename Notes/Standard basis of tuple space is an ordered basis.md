@@ -2,9 +2,9 @@
 <br />
 
 Date Created: 06/04/2022 22:16:10
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed
 
-Proved by: _Not Applicable_
+Proved by: [[Linear span is set of all linear combinations]], [[Matrix multiplication (columns)]]
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_
@@ -30,4 +30,8 @@ $$\begin{equation}
 \end{equation}$$
 so $\v{v}\in\span\l\{\v{e}_1,\dots,\v{e}_n\r\}$.
 
-* (Linear independence): 
+* (Linear independence): Take $x_1,\dots,x_n\in K$ such that
+$$\begin{equation}
+    \sum_{i=1}^nx_i\v{e}_i=\v{0}.\tag{$\ast$}
+\end{equation}$$
+Viewing each $\v{e}_i\in\mat{n\times1}{K}$, we have that $I=\l[\v{e}_1\ \ \cdots\ \ \v{e}_n\r]$. Thus the assumption $\l(\,\ast\,\r)$ is, by matrix multiplication with the columns of $I$, equivalent to the linear system $I\v{x}=\v{0}$ which has only the trivial solution $\v{x}=\v{0}$. It follows then  that each $x_i=0$, so $\l\{\v{e}_1,\dots,\v{e}_n\r\}$ is linearly independent.<span style="float:right;">$\blacksquare$</span>
