@@ -5,7 +5,7 @@ Date Created: 29/03/2022 19:17:31
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Identity Matrix]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

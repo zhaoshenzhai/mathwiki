@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Elementary Matrix]]
 Generalizations: _Not Applicable_
 
 Properties: [Homogeneous system $A\v{x}=\v{0}$ with $A\sim I$ $\Leftrightarrow$ only trivial solution](Homogeneous%20linear%20system%20with%20coefficient%20matrix%20row-equivalent%20to%20identity%20matrix%20iff%20has%20only%20trivial%20solution.md)

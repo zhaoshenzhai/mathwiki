@@ -14,7 +14,7 @@ title: Proposition.
 
 _Let $K$ be a field and fix $m,n\in\N$. Then each elemenatry row operation_
 $$\begin{equation}
-    e^\l(1\r),e^\l(2\r),e^\l(3\r):\mat{m\times n}{K}\to\mat{m\times n}{K}
+    e^\l(1\r),e^\l(2\r),e^\l(3\r):\bigcup_{j\in\N}\mat{m\times j}{K}\to\bigcup_{j\in\N}\mat{m\times j}{K}
 \end{equation}$$
 _has an inverse of the same type._
 
@@ -22,7 +22,7 @@ _has an inverse of the same type._
 
 _Proof_. For each elementary row operation $e^\l(k\r)$, we need an elementary row operation
 $$\begin{equation}
-    f^\l(k\r):\mat{m\times n}{K}\to\mat{m\times n}{K}
+    f^\l(k\r):\bigcup_{j\in\N}\mat{m\times j}{K}\to\bigcup_{j\in\N}\mat{m\times j}{K}
 \end{equation}$$
 such that
 $$\begin{equation}
@@ -30,7 +30,7 @@ $$\begin{equation}
         \l(e^\l(k\r)\circ f^\l(k\r)\r)\l(A\r)_{ij}=a_{ij}=\l(f^\l(k\r)\circ e^\l(k\r)\r)\l(A\r)_{ij}
     \end{aligned}
 \end{equation}$$
-for all $A\in\mat{m\times n}{K}$.
+for all $A\in\bigcup_{j\in\N}\mat{m\times j}{K}$.
 
 * For $e^\l(1\r)$ multiplying the $s^\textrm{th}$ row by a non-zero constant $c\in K$, consider the elementary row operation $f^\l(1\r)$ defined by
 $$\begin{equation}
@@ -85,8 +85,8 @@ $$\begin{equation}
         \l(e^\l(2\r)\circ f^\l(2\r)\r)\l(A\r)_{ij}&=e^\l(2\r)\l(f^\l(2\r)\l(A\r)\r)_{ij}\\
         &=
             \begin{dcases}
-                \l(a_{sj}-ca_{tj}\r)+ca_{tj} & \textrm{if }i=s\\
-                a_{ij} & \textrm{else}
+                \l(a_{sj}-ca_{tj}\r)+ca_{tj} & \textrm{\hspace{0.17in}if }i=s\\
+                a_{ij} & \textrm{\hspace{0.17in}else}
             \end{dcases}\\[0.1in]
         &=
             \begin{dcases}
@@ -99,8 +99,8 @@ $$\begin{equation}
         \l(f^\l(2\r)\circ e^\l(2\r)\r)\l(A\r)_{ij}&=f^\l(2\r)\l(e^\l(2\r)\l(A\r)\r)_{ij}\\
         &=
             \begin{dcases}
-                \l(a_{sj}+ca_{tj}\r)-ca_{tj} & \textrm{if }i=s\\
-                a_{ij} & \textrm{else}
+                \l(a_{sj}+ca_{tj}\r)-ca_{tj} & \textrm{\hspace{0.17in}if }i=s\\
+                a_{ij} & \textrm{\hspace{0.17in}else}
             \end{dcases}\\[0.1in]
         &=
             \begin{dcases}

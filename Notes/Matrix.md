@@ -5,7 +5,7 @@ Date Created: 22/03/2022 16:12:09
 Tags: #Definition #Closed 
 
 Types: [[Row-echelon Matrix]], [[Square Matrix]]
-Examples: [[Augmented Matrix]], [[Zero Matrix]], [[Identity Matrix]]
+Examples: [[Augmented Matrix]], [[Zero Matrix]]
 Constructions: [[Set of Matrices]], [[Linear map Induced by a Matrix]], [[Null Space]], [[Column Space]], [[Rank (Matrix)]]
 Generalizations: _Not Applicable_
 

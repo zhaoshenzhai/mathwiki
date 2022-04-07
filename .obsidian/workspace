@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "089d19a0ee29b74f",
+        "id": "510f032ca4ac8c73",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Real Coordinate Space.md",
+            "file": "Notes/Elementary Row Operation.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "53c4cd53a9a1954e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Elementary Matrix.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Real Coordinate Space.md",
+                "file": "Notes/Elementary Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Real Coordinate Space.md",
+                "file": "Notes/Elementary Matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -157,7 +169,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.1518028954964956,
+                  "scale": 0.17666170279462032,
                   "close": true
                 }
               }
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Real Coordinate Space.md",
+                "file": "Notes/Elementary Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "089d19a0ee29b74f",
+  "active": "53c4cd53a9a1954e",
   "lastOpenFiles": [
-    "Notes/Real Coordinate Space.md",
-    "Notes/Linear map Induced by a Matrix.md",
-    "Notes/Reflections in R2.md",
-    "Notes/Rotations in R2.md",
-    "Notes/Linear map induced by a matrix is a linear map.md",
-    "Notes/Category of vector spaces is a locally-small category.md",
-    "Notes/Category of relations is a locally-small category.md",
-    "Notes/Locally-small Category.md",
-    "Notes/Category of sets is a locally-small category.md",
-    "Notes/Category (via Hom-classes).md"
+    "Notes/Elementary Matrix.md",
+    "Notes/Elementary Row Operation.md",
+    "Notes/Elementary row operation is left-multiplication by its elementary matrix.md",
+    "Notes/Elementary row operations have inverses of the same type.md",
+    "Notes/Gauss-Jordan Algorithm.md",
+    "Notes/Gaussian Algorithm.md",
+    "Notes/Row-equivalence of Matrices.md",
+    "Notes/Matrix.md",
+    "Notes/Zero Matrix.md",
+    "Notes/Square Matrix.md"
   ]
 }

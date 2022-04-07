@@ -5,7 +5,7 @@ Date Created: 28/03/2022 19:11:56
 Tags: #Definition #Closed 
 
 Types: [[Symmetric Matrix]]
-Examples: _Not Applicable_
+Examples: [[Elementary Matrix]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
