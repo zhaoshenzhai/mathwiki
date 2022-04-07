@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Inverse (Matrix)]]
+Constructions: [[Invertible Matrix]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and take $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. A matrix $B\in\mat{n\times m}{K}$ is said to be a **right inverse of $A$** if $AB=I_m$._
+_Let $K$ be a field and fix $m,n\in\N$. A matrix $A\in\mat{m\times n}{K}$ is said to be **right-invertible** if there exists a matrix $B\in\mat{n\times m}{K}$ such that $AB=I_m$, in which case $B$ is called a **right-inverse of $A$**._
 
 ```
