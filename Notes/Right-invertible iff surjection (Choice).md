@@ -16,7 +16,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:X\to Y$ with $X\neq\em$. Then $f$ has a right inverse iff $f$ is surjective._
+_Let $f:X\to Y$ with $X\neq\em$. Then $f$ is right-invertible iff $f$ is surjective._
 
 ```
 

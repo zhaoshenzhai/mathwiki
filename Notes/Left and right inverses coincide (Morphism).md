@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 26/02/2022 12:18:48
-Tags: #Proposition #Closed l
+Tags: #Proposition #Closed
 
 Proved by: _Not Applicable_
 Generalizations: _Not Applicable_
@@ -12,7 +12,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ be a category and fix a morphism $f:X\to Y$. If $g,h:Y\to X$ are left and right inverses of $f$, respectively, then $g=h$._
+_Let $\cat{C}$ be a category and fix a left and right-invertible morphism $f:X\to Y$ with one-sided inverses $g,h:Y\to X$, respectively. Then $g=h$ and thus $f$ is invertible._
 
 ```
 

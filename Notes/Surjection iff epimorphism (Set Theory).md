@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 21/02/2022 13:19:31
 Tags: #Proposition #Closed
 
-Proved by: [Right-invertible $\Leftrightarrow$ surjection (Choice)](Right-invertible%20iff%20surjection%20(Choice).md), [Right inverse $\Rightarrow$ epimorphism](Right%20inverse%20implies%20epimorphism.md)
+Proved by: [Right-invertible $\Leftrightarrow$ surjection (Choice)](Right-invertible%20iff%20surjection%20(Choice).md), [Right-invertible $\Rightarrow$ epimorphism](Right-invertible%20implies%20epimorphism.md)
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

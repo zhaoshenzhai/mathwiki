@@ -12,7 +12,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ be a category and fix a morphism $f:X\to Y$. Then the inverse of $f$ is unique._
+_Let $\cat{C}$ be a category and fix an invertible morphism $f:X\to Y$. Then the inverse of $f$ is unique._
 
 ```
 

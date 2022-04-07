@@ -16,7 +16,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ be a category and fix a morphism $f:X\to Y$. If $f$ has a left inverse, then $f$ is a monomorphism._
+_Let $\cat{C}$ be a category and fix a morphism $f:X\to Y$. If $f$ is left-invertible, then $f$ is a monomorphism._
 
 ```
 

@@ -12,7 +12,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:X\to Y$. Then the inverse function of $f$ is unique._
+_Let $f:X\to Y$ be invertible. Then the inverse function of $f$ is unique._
 
 ```
 

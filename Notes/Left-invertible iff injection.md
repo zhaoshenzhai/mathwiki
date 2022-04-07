@@ -16,7 +16,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:X\to Y$ with $X\neq\em$. Then $f$ has a left inverse iff $f$ is injective._
+_Let $f:X\to Y$ with $X\neq\em$. Then $f$ is left-invertible iff $f$ is injective._
 
 ```
 

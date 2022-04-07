@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Isomorphism (Category Theory)]], [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]
 Examples: [[Identity Morphism]], [[Linear Map]]
-Constructions: [[Left Inverse (Morphism)]], [[Right Inverse (Morphism)]]
+Constructions: [[Left-invertible Morphism]], [[Right-invertible Morphism]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

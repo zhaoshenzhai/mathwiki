@@ -16,7 +16,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ be a category and fix a morphism $f:X\to Y$. If $f$ has a right inverse, then $f$ is an epimorphism._
+_Let $\cat{C}$ be a category and fix a morphism $f:X\to Y$. If $f$ is right-invertible, then $f$ is an epimorphism._
 
 ```
 

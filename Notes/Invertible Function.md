@@ -7,7 +7,7 @@ Tags: #Definition #Closed
 Types: _Not Applicable_
 Examples: [[Elementary row operations have inverses of the same type]]
 Constructions: _Not Applicable_
-Generalizations: [[Inverse (Relation)]], [[Inverse (Morphism)]]
+Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]
 
 Properties: [[Inverse of bijection is a bijection]]
 Sufficiencies: [[Left and right inverses coincide (function)]]
