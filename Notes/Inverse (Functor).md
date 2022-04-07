@@ -17,7 +17,7 @@ Justifications: [[Strict inverse of functor is unique]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ and $\cat{D}$ be categories and fix a functor $\ms{F}:\cat{C}\to\cat{D}$. A functor $\ms{G}:\cat{D}\to\cat{C}$ is said to be the **inverse of $\ms{F}$** if $\ms{F}$ admits both left and right inverses._
+_Let $\cat{C}$ and $\cat{D}$ be categories and fix a functor $\ms{F}:\cat{C}\to\cat{D}$. A functor $\ms{G}:\cat{D}\to\cat{C}$ is said to be the **inverse of $\ms{F}$** if $\ms{F}$ admits both left and right-inverses._
 
 ```
 

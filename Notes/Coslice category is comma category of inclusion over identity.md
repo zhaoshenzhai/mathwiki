@@ -56,7 +56,7 @@ $$\begin{equation}
     \ms{G}^{\obj}\l\langle C,X,f\r\rangle\coloneqq\l\langle X,f\r\rangle\ \ \ \ \textrm{and}\ \ \ \ \ms{G}^{\hom}\l\langle\phi,\psi\r\rangle\coloneqq\psi
 \end{equation}$$
 for all $X,X'\in\obj\l(\cat{C}\r)$, $f\in\hom_\cat{C}\!\l(C,X\r)$, $f'\in\hom_\cat{C}\!\l(C,X'\r)$, and $\l\langle\phi,\psi\r\rangle:\l\langle C,X,f\r\rangle\to\l\langle C,X',f'\r\rangle$; the important points that justify this construction are that $C$ is the unique object in $\obj\l(\bf{1}\r)$ and, with $\phi:C\to C$ being a morphism in $\bf{1}$, $\phi$ is the identity morphism $\id_C$. The fact that $\ms{G}$ satisfies the axioms of a covariant functor is essentially the same as above, just chasing definitions. It remains to check that $\ms{G}=\ms{F}^{-1}$.
-* ($\ms{G}$ is a left inverse of $\ms{F}$): Take $\l\langle X,f\r\rangle\in\obj\l(C\downarrow\cat{C}\r)$ and observe that
+* ($\ms{G}$ is a left-inverse of $\ms{F}$): Take $\l\langle X,f\r\rangle\in\obj\l(C\downarrow\cat{C}\r)$ and observe that
 $$\begin{equation}
     \begin{alignedat}{2}
         \l(\ms{G}\circ\ms{F}\r)^{\obj}\l\langle X,f\r\rangle&=\ms{G}^{\obj}\l(\ms{F}^{\obj}\l\langle X,f\r\rangle\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of composition of functors}\\
@@ -72,7 +72,7 @@ $$\begin{equation}
         &=\psi.&&\textrm{Definition of $\ms{G}^{\hom}$}
     \end{alignedat}
 \end{equation}$$
-* ($\ms{G}$ is a right inverse of $\ms{F}$): The object part of the proof follows as above. For the morphism part, take $\l\langle\phi,\psi\r\rangle:\l\langle C,X,f\r\rangle\to\l\langle C,X',f'\r\rangle$, which is a general morphism in $\l(\ms{I}\downarrow\Id_\cat{C}\r)$, and observe that
+* ($\ms{G}$ is a right-inverse of $\ms{F}$): The object part of the proof follows as above. For the morphism part, take $\l\langle\phi,\psi\r\rangle:\l\langle C,X,f\r\rangle\to\l\langle C,X',f'\r\rangle$, which is a general morphism in $\l(\ms{I}\downarrow\Id_\cat{C}\r)$, and observe that
 $$\begin{equation}
     \begin{alignedat}{2}
         \l(\ms{F}\circ\ms{G}\r)^{\hom}\l\langle\phi,\psi\r\rangle&=\ms{F}^{\hom}\l(\ms{G}^{\hom}\l\langle\phi,\psi\r\rangle\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of composition of functors}\\

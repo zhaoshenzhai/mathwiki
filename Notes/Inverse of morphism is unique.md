@@ -20,8 +20,8 @@ _Proof_. If $g,g':Y\to X$ are both inverses of $f$, then
 
 $\begin{alignat}{2}
     g&=g\circ\id_Y&&\axicat[2]\\
-    &=g\circ\l(f\circ g'\r)\ \ \ \ \ \ \ \ &&g'\textrm{ is a right inverse of }f\\
+    &=g\circ\l(f\circ g'\r)\ \ \ \ \ \ \ \ &&g'\textrm{ is a right-inverse of }f\\
     &=\l(g\circ f\r)\circ g'&&\axicat[1]\\
-    &=\id_X\circ g'&&g\textrm{ is a left inverse of} f\\
+    &=\id_X\circ g'&&g\textrm{ is a left-inverse of} f\\
     &=g'.&&\axicat[2]\qedin
 \end{alignat}$

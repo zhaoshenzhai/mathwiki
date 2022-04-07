@@ -16,4 +16,4 @@ _Let $\cat{C}$ be a category and fix $X\in\obj\l(\cat{C}\r)$. The the identity m
 
 ```
 
-_Proof_. We claim that $\id_X^{-1}=\id_X$; that is, $\id_X$ is both a left and a right inverse of $\id_X$. This follows immediately from $\axicat[2]$ on $\id_X$; since $\id_X$ is, in particular, a morphism, we see that $\id_X\circ\id_X=\id_X$.<span style="float:right;">$\blacksquare$</span>
+_Proof_. We claim that $\id_X^{-1}=\id_X$; that is, $\id_X$ is both a left and a right-inverse of $\id_X$. This follows immediately from $\axicat[2]$ on $\id_X$; since $\id_X$ is, in particular, a morphism, we see that $\id_X\circ\id_X=\id_X$.<span style="float:right;">$\blacksquare$</span>

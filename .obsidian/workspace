@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Invertible Morphism.md",
+            "file": "Notes/Left and right inverses coincide (function).md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Invertible Morphism.md",
+                "file": "Notes/Left and right inverses coincide (function).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Invertible Morphism.md",
+                "file": "Notes/Left and right inverses coincide (function).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Invertible Morphism.md",
+                "file": "Notes/Left and right inverses coincide (function).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,15 +184,15 @@
   },
   "active": "a62929f8c0bf1966",
   "lastOpenFiles": [
+    "Notes/Left and right inverses coincide (function).md",
+    "Notes/Left and right inverses coincide (Morphism).md",
+    "Notes/Left-invertible Morphism.md",
     "Notes/Invertible Morphism.md",
     "Notes/Inverse of morphism is unique.md",
     "Notes/Inverse of function is unique.md",
-    "Notes/Left-invertible Morphism.md",
     "Notes/Right-invertible Morphism.md",
     "Notes/Left-invertible Function.md",
     "Notes/Invertible Function.md",
-    "Notes/Right-inverible Matrix.md",
-    "Notes/Right-invertible Function.md",
-    "Notes/Left-invertible implies monomorphism.md"
+    "Notes/Right-inverible Matrix.md"
   ]
 }

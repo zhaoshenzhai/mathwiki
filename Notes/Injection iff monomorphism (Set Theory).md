@@ -20,7 +20,7 @@ _Consider the category $\cat{Set}$ and let $f:X\to Y$ be a function. Then $f$ is
 
 ```
 
-_Proof_. ($\Rightarrow$): The forward direction is proven since, being an injection, $f$ has a left inverse.
+_Proof_. ($\Rightarrow$): The forward direction is proven since, being an injection, $f$ has a left-inverse.
 
 ($\Leftarrow$): Let $Z$ be a singleton; that is, let $Z\coloneqq\l\{z\r\}$ for some set $z$. Take $x_1,x_2\in X$ and define the functions
 $$\begin{equation}

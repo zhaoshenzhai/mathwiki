@@ -20,8 +20,8 @@ _Proof_. If $g,g':Y\to X$ are both inverses of $f$, then
 
 $\begin{alignat}{2}
     g&=g\circ\id_Y&&\textrm{Identity function is the identity of function composition}\\
-    &=g\circ\l(f\circ g'\r)\ \ \ \ \ \ \ \ &&g'\textrm{ is a right inverse of }f\\
+    &=g\circ\l(f\circ g'\r)\ \ \ \ \ \ \ \ &&g'\textrm{ is a right-inverse of }f\\
     &=\l(g\circ f\r)\circ g'&&\textrm{Composition is associative}\\
-    &=\id_X\circ g'&&g\textrm{ is a left inverse of} f\\
+    &=\id_X\circ g'&&g\textrm{ is a left-inverse of} f\\
     &=g'.&&\textrm{Identity function is the identity of function composition}\qedin
 \end{alignat}$

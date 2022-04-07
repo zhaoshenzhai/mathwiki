@@ -20,8 +20,8 @@ _Proof_. If $\ms{G},\ms{G}':\cat{D}\to\cat{C}$ are both strict inverses of $\ms{
 
 $\begin{align}
     \ms{G}&=\ms{G}\circ\Id_\cat{D}&&\textrm{Identity functor is the identity of functor composition}\\
-    &=\ms{G}\circ\l(\ms{F}\circ\ms{G}'\r)&&\ms{G}'\textrm{ is a strict right inverse of }\ms{F}\\
+    &=\ms{G}\circ\l(\ms{F}\circ\ms{G}'\r)&&\ms{G}'\textrm{ is a strict right-inverse of }\ms{F}\\
     &=\l(\ms{G}\circ\ms{F}\r)\circ\ms{G}'&&\textrm{Composition of functors is associative}\\
-    &=\Id_\cat{C}\circ\ms{G}'&&\ms{G}\textrm{ is a strict left inverse of }\ms{F}\\
+    &=\Id_\cat{C}\circ\ms{G}'&&\ms{G}\textrm{ is a strict left-inverse of }\ms{F}\\
     &=\ms{G}'.&&\textrm{Identity functor is the identity of functor composition}\qedin
 \end{align}$

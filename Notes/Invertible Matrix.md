@@ -17,7 +17,7 @@ Justifications: [[Inverse of matrix is unique]]
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $n\in\N$. A matrix $A\in\mat{n}{K}$ is said to be **invertible** if there exists $B\in\mat{n}{K}$ such that $B$ is both a left and a right inverse of $A$; that is, if_
+_Let $K$ be a field and fix $n\in\N$. A matrix $A\in\mat{n}{K}$ is said to be **invertible** if there exists $B\in\mat{n}{K}$ such that $B$ is both a left and a right-inverse of $A$; that is, if_
 $$\begin{equation}
     AB=BA=I_n,
 \end{equation}$$

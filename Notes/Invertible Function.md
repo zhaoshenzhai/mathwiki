@@ -17,7 +17,7 @@ Justifications: [[Inverse of function is unique]]
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ and $Y$ be sets. A function $f:X\to Y$ is said to be **invertible** if there exists $g:Y\to X$ such that $g$ is both a left and right inverse of $f$; that is, if_
+_Let $X$ and $Y$ be sets. A function $f:X\to Y$ is said to be **invertible** if there exists $g:Y\to X$ such that $g$ is both a left and right-inverse of $f$; that is, if_
 $$\begin{equation}
     g\circ f=\id_X\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ f\circ g=\id_Y,
 \end{equation}$$

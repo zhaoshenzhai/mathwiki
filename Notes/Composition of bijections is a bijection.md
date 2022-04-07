@@ -34,4 +34,4 @@ $$\begin{equation}
         &=\id_X&&\textrm{Definition of the inverse}
     \end{alignedat}
 \end{equation}$$
-from which it follows that $f^{-1}\circ g^{-1}$ is both a left and a right inverse of $g\circ f$.<span style="float:right;">$\blacksquare$</span>
+from which it follows that $f^{-1}\circ g^{-1}$ is both a left and a right-inverse of $g\circ f$.<span style="float:right;">$\blacksquare$</span>
