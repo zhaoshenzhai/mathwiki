@@ -4,12 +4,12 @@
 Date Created: 07/04/2022 07:11:19
 Tags: #Definition #Closed
 
-Types: _Not Applicable_
+Types: [[Invertible Matrix]]
 Examples: _Not Applicable_
-Constructions: [[Invertible Matrix]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Left and right inverses coincide (matrix)]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

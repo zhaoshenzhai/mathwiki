@@ -5,7 +5,7 @@ Date Created: 26/01/2022 18:48:16
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Elementary row operations have inverses of the same type]]
+Examples: [[Identity Function]], [[Elementary row operations have inverses of the same type]]
 Constructions: _Not Applicable_
 Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]
 

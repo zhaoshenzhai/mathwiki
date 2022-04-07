@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "efcdbba443c72b99",
+        "id": "b11c84285c56b5a6",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Invertible Functor.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Invertible Functor.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Invertible Functor.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Invertible Functor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "efcdbba443c72b99",
+  "active": "b11c84285c56b5a6",
   "lastOpenFiles": [
-    "Notes/Invertible Functor.md",
-    "Notes/Left-invertible Functor.md",
-    "Notes/Strict inverse of functor is unique.md",
-    "Notes/Invertible Function.md",
-    "Notes/Functor.md",
-    "Notes/Diagram.md",
-    "Notes/Natural Isomorphism.md",
-    "Notes/Right-invertible Functor.md",
+    "Notes/Left-invertible Matrix.md",
     "Notes/Left-invertible Function.md",
-    "Notes/Inverse (Relation).md"
+    "Notes/Right-inverible Matrix.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Invertible Function.md",
+    "Notes/Kronecker Delta.md",
+    "Notes/Identity Matrix.md",
+    "Notes/Standard Basis of Tuple Space.md",
+    "Notes/Function.md",
+    "Notes/Surjection.md"
   ]
 }

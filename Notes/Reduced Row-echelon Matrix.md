@@ -5,7 +5,7 @@ Date Created: 24/03/2022 14:12:37
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Identity Matrix]], [[Zero Matrix]]
 Constructions: [[Rank (Matrix)]]
 Generalizations: _Not Applicable_
 
