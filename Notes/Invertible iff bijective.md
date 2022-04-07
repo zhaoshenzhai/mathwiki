@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 27/01/2022 11:56:26
 Tags: #Proposition #Closed 
 
-Proved by: [Left inverse $\Leftrightarrow$ injection](Left%20inverse%20iff%20injection.md), [Right inverse $\Leftrightarrow$ surjection (Choice)](Right%20inverse%20iff%20surjection%20(Choice).md), [[Left and right inverses coincide (Function)]]
+Proved by: [Left-invertible $\Leftrightarrow$ injection](Left-invertible%20iff%20injection.md), [Right-invertible $\Leftrightarrow$ surjection (Choice)](Right-invertible%20iff%20surjection%20(Choice).md), [[Left and right inverses coincide (function)]]
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

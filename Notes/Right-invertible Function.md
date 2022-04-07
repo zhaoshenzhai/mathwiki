@@ -4,20 +4,20 @@
 Date Created: 27/01/2022 10:23:28
 Tags: #Definition #Closed 
 
-Types: _Not Applicable_
+Types: [[Invertible Function]]
 Examples: _Not Applicable_
-Constructions: [[Inverse (Function)]]
+Constructions: _Not Applicable_
 Generalizations: [[Right Inverse (Morphism)]]
 
-Properties: [[Left and right inverses coincide (Function)]]
+Properties: [[Left and right inverses coincide (function)]]
 Sufficiencies: _Not Applicable_
-Equivalences: [Right inverse $\Leftrightarrow$ surjection (Choice)](Right%20inverse%20iff%20surjection%20(Choice).md)
+Equivalences: [Right-invertible $\Leftrightarrow$ surjection (Choice)](Right-invertible%20iff%20surjection%20(Choice).md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
 
-_Let $f:X\to Y$. A function $h:Y\to X$ is a **right inverse of $f$** if $f\circ h=\id_Y$._
+_Let $X$ and $Y$ be sets. A function $f:X\to Y$ is said to be **right-invertible** if there exists a function $g:Y\to X$ such that $f\circ g=\id_X$, in which case $g$ is called a **right-inverse of $f$**._
 
 ```
 

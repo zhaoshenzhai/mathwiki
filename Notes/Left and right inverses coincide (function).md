@@ -12,7 +12,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:X\to Y$. If $g,h:Y\to X$ are left and right inverses of $f$, respectively, then $g=h$._
+_Let $f:X\to Y$ be both left and right invertible with one-sided inverses $g,h:Y\to X$, respectively. Then $g=h$ and thus $f$ is invertible._
 
 ```
 

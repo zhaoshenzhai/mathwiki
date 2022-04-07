@@ -4,20 +4,20 @@
 Date Created: 27/01/2022 10:15:28
 Tags: #Definition #Closed 
 
-Types: _Not Applicable_
+Types: [[Invertible Function]]
 Examples: _Not Applicable_
-Constructions: [[Inverse (Function)]]
+Constructions: _Not Applicable_
 Generalizations: [[Left Inverse (Morphism)]]
 
-Properties: [[Left and right inverses coincide (Function)]]
+Properties: [[Left and right inverses coincide (function)]]
 Sufficiencies: _Not Applicable_
-Equivalences: [Left inverse $\Leftrightarrow$ injection](Left%20inverse%20iff%20injection.md)
+Equivalences: [Left-invertible $\Leftrightarrow$ injection](Left-invertible%20iff%20injection.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
 
-_Let $f:X\to Y$. A function $g:Y\to X$ is a **left inverse of $f$** if $g\circ f=\id_X$._
+_Let $X$ and $Y$ be sets. A function $f:X\to Y$ is said to be **left-invertible** if there exists a function $g:Y\to X$ such that $g\circ f=\id_X$, in which case $g$ is called a **left-inverse of $f$**._
 
 ```
 

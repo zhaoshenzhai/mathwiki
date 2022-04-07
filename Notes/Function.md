@@ -4,9 +4,9 @@
 Date Created: 14/01/2022 14:25:20
 Tags: #Definition #Closed 
 
-Types: [[Injection]], [[Surjection]]
+Types: [[Injection]], [[Surjection]], [[Left-invertible Function]], [[Right-invertible Function]]
 Examples: [[Identity Function]], [[Inclusion Function]], [[Elementary Row Operation]], [[Kronecker Delta]]
-Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Left Inverse (Function)]], [[Right Inverse (Function)]], [[Function Space (Set Theory)]]
+Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Function Space (Set Theory)]]
 Generalizations: [[Morphism (Category Theory)]], [[Class Function]]
 
 Properties: [[Collection of all functions is a proper class]]
@@ -19,7 +19,7 @@ title: Definition.
 
 _A binary relation $f$ is a **function** if for every $x\in\dom f$, there exists a unique $y$ such that $\l\langle x,y\r\rangle\in f$. Formally,_
 $$\begin{equation}
-    f\textit{ is a function}\ \ \ \ \Leftrightarrow\ \ \ \ \fa x\in\dom f,\ex!y:\l\langle x,y\r\rangle\in f.
+    f\textrm{\it{ is a function}}\ \ \ \ \Leftrightarrow\ \ \ \ \fa x\in\dom f,\ex!y:\l\langle x,y\r\rangle\in f.
 \end{equation}$$
 
 ```

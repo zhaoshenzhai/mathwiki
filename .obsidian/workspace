@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Matrix.md",
+            "file": "Notes/Function.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Matrix.md",
+                "file": "Notes/Function.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Matrix.md",
+                "file": "Notes/Function.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -157,7 +157,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.09386039805042251,
+                  "scale": 0.1207218476789752,
                   "close": true
                 }
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Matrix.md",
+                "file": "Notes/Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,15 +184,15 @@
   },
   "active": "5bc414716ac08e5a",
   "lastOpenFiles": [
-    "Notes/Matrix.md",
     "Notes/Function.md",
-    "Notes/Left Inverse (Function).md",
-    "Notes/Left-invertible Matrix.md",
-    "Notes/Right-inverible Matrix.md",
+    "Notes/Left-invertible Function.md",
+    "Notes/Right-invertible Function.md",
+    "Notes/Left and right inverses coincide (function).md",
+    "Notes/Identity function is the identity of function composition.md",
+    "Notes/Invertible Function.md",
+    "Notes/Right-invertible iff surjection (Choice).md",
+    "Notes/Left-invertible iff injection.md",
     "Notes/Invertible Matrix.md",
-    "Notes/Inverse (Function).md",
-    "Notes/Inverse (Matrix).md",
-    "Notes/Strict inverse of functor is unique.md",
-    "Notes/Elementary row operations have inverses of the same type.md"
+    "Notes/Surjection.md"
   ]
 }

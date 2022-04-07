@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 20/02/2022 19:16:39
 Tags: #Proposition #Closed 
 
-Proved by: [Left inverse $\Leftrightarrow$ injection](Left%20inverse%20iff%20injection.md), [Left inverse $\Rightarrow$ monomorphism](Left%20inverse%20implies%20monomorphism.md)
+Proved by: [Left-invertible $\Leftrightarrow$ injection](Left-invertible%20iff%20injection.md), [Left inverse $\Rightarrow$ monomorphism](Left%20inverse%20implies%20monomorphism.md)
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_
