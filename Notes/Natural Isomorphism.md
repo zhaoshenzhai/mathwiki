@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Identity natural transformation is a natural isomorphism]]
-Constructions: [[Left inverse (Functor)]], [[Right Inverse (Functor)]]
+Constructions: [[Left-invertible Functor]], [[Right-invertible Functor]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

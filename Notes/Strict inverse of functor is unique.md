@@ -12,7 +12,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ and $\cat{D}$ be categories and fix a functor $\ms{F}:\cat{C}\to\cat{D}$. Then the strict inverse of $\ms{F}$ is unique._
+_Let $\cat{C}$ and $\cat{D}$ be categories and fix a strictly invertible functor $\ms{F}:\cat{C}\to\cat{D}$. Then the strict inverse of $\ms{F}$ is unique._
 
 ```
 

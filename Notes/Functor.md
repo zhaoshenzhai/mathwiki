@@ -4,9 +4,9 @@
 Date Created: 06/03/2022 15:11:37
 Tags: #Definition #Closed 
 
-Types: _Not Applicable_
+Types: [[Left-invertible Functor]], [[Right-invertible Functor]], [[Diagram]]
 Examples: [[Identity Functor]], [[Inclusion Functor]], [[Constant Functor]], [[Covariant Power Set Functor]]
-Constructions: [[Natural Transformation]], [[Comma Category]], [[Composition (Functor)]], [[Left inverse (Functor)]], [[Right Inverse (Functor)]], [[Diagram]]
+Constructions: [[Natural Transformation]], [[Comma Category]], [[Composition (Functor)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
