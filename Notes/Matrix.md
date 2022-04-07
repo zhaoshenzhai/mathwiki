@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Row-echelon Matrix]], [[Square Matrix]]
 Examples: [[Augmented Matrix]], [[Zero Matrix]]
-Constructions: [[Set of Matrices]], [[Linear map Induced by a Matrix]], [[Null Space]], [[Column Space]], [[Rank (Matrix)]]
+Constructions: [[Set of Matrices]], [[Linear map Induced by a Matrix]], [[Null Space]], [[Column Space]], [[Rank (Matrix)]], [[Left Inverse (Matrix)]], [[Right Inverse (Matrix)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

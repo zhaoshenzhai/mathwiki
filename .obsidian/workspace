@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e259bf5c10f7dea7",
+        "id": "952bf34305b0581e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Row-equivalence of Matrices.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "34017b95250b7f58",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Elementary Matrix.md",
+            "file": "Notes/Invertible Matrix.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Row-equivalence of Matrices.md",
+                "file": "Notes/Invertible Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Row-equivalence of Matrices.md",
+                "file": "Notes/Invertible Matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +157,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.48345538054176324,
+                  "scale": 0.09386039805042251,
                   "close": true
                 }
               }
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Row-equivalence of Matrices.md",
+                "file": "Notes/Invertible Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "e259bf5c10f7dea7",
+  "active": "952bf34305b0581e",
   "lastOpenFiles": [
-    "Notes/Row-equivalence of Matrices.md",
-    "Notes/Elementary Matrix.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Strict inverse of functor is unique.md",
+    "Notes/Elementary row operations have inverses of the same type.md",
+    "Notes/Inverse (Matrix).md",
+    "Notes/Inverse (Function).md",
+    "Notes/Inverse of matrix is unique.md",
+    "Notes/Inverse of function is unique.md",
+    "Notes/Matrix.md",
     "Notes/Square Matrix.md",
-    "Notes/Row-equivalent iff exist product of elementary matrices.md",
-    "Notes/Elementary row operation is left-multiplication by its elementary matrix.md",
-    "Notes/Row-echelon Matrix.md",
-    "Notes/Gauss-Jordan Algorithm.md",
-    "Notes/Gaussian Algorithm.md",
-    "Notes/Matrix multiplication (columns).md",
-    "Notes/Elementary Row Operation.md"
+    "Notes/Right Inverse (Matrix).md"
   ]
 }
