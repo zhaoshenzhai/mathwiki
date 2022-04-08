@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "ddfad2f120306308",
+        "id": "b927a52e2a3b10f5",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -151,7 +151,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.44097970180845525,
+                  "scale": 0.10012415626908652,
                   "close": true
                 }
               }
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "ddfad2f120306308",
+  "active": "b927a52e2a3b10f5",
   "lastOpenFiles": [
+    "Notes/Left-multiplication by elementary matrix is action by its elementary row operation.md",
+    "Notes/Elementary Matrix.md",
+    "Notes/Elementary Row Operation.md",
+    "Notes/Elementary matrices have inverses of the same type.md",
+    "Notes/Invertible Matrix.md",
     "Notes/Inverse of transpose is transpose of inverse.md",
     "Notes/Rotations in R2.md",
     "Notes/Inverses anti-respect matrix multiplication.md",
     "Notes/Transposition anti-respects matrix multiplication.md",
-    "Notes/Transposition.md",
-    "Notes/Invertible Matrix.md",
-    "Notes/Cancellation laws (invertible mattrix).md",
-    "Notes/Invertible coefficient matrix implies unique solution.md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Matrix Addition.md"
+    "Notes/Transposition.md"
   ]
 }

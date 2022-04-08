@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Elementary row operations have inverses of the same type]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Elementary row operation is left-multiplication by its elementary matrix]]
+Equivalences: [[Left-multiplication by elementary matrix is action by its elementary row operation]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

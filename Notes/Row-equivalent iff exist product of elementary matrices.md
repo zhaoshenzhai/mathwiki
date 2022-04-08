@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 07/04/2022 06:19:06
 Tags: #Proposition #Closed
 
-Proved by: [[Elementary row operation is left-multiplication by its elementary matrix]], [[Matrix multiplication is associative]]
+Proved by: [[Left-multiplication by elementary matrix is action by its elementary row operation]], [[Matrix multiplication is associative]]
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_
