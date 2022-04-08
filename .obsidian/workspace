@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "b11c84285c56b5a6",
+        "id": "98d9d651d5454577",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -151,7 +151,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.1207218476789752,
+                  "scale": 0.39325251195968963,
                   "close": true
                 }
               }
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b11c84285c56b5a6",
+  "active": "98d9d651d5454577",
   "lastOpenFiles": [
-    "Notes/Left-invertible Matrix.md",
-    "Notes/Left-invertible Function.md",
-    "Notes/Right-inverible Matrix.md",
+    "Notes/Homogeneous Linear System.md",
+    "Notes/Solution of linear system in terms of a particular solution.md",
+    "Notes/Inverses anti-respect matrix multiplication.md",
     "Notes/Invertible Matrix.md",
-    "Notes/Invertible Function.md",
-    "Notes/Kronecker Delta.md",
-    "Notes/Identity Matrix.md",
-    "Notes/Standard Basis of Tuple Space.md",
-    "Notes/Function.md",
-    "Notes/Surjection.md"
+    "Notes/Inverse of composition of relations.md",
+    "Notes/Left and right inverses coincide (matrix).md",
+    "Notes/Transposition anti-respects matrix multiplication.md",
+    "Notes/Transposition.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Subset.md"
   ]
 }

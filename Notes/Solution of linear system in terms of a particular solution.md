@@ -12,7 +12,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider any consistent $\l(m\times n\r)$-linear system $A\v{x}=\v{b}$. Fix $\v{x}_p\in K^n$ such that $A\v{x}_p=\v{b}$. Then $\v{s}\in K^n$ is a solution of $A\v{x}=\v{b}$ iff it has the form_
+_Let $K$ be a field and consider any consistent $m\times n$-linear system $A\v{x}=\v{b}$. Fix $\v{x}_p\in K^n$ such that $A\v{x}_p=\v{b}$. Then $\v{s}\in K^n$ is a solution of $A\v{x}=\v{b}$ iff it has the form_
 $$\begin{equation}
     \v{s}=\v{x}_p+\v{x}_0
 \end{equation}$$
