@@ -7,8 +7,12 @@
         "id": "98d9d651d5454577",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Invertible coefficient matrix implies unique solution.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Invertible coefficient matrix implies unique solution.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Invertible coefficient matrix implies unique solution.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -151,7 +157,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.39325251195968963,
+                  "scale": 0.44097970180845525,
                   "close": true
                 }
               }
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Invertible coefficient matrix implies unique solution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +184,15 @@
   },
   "active": "98d9d651d5454577",
   "lastOpenFiles": [
+    "Notes/Invertible coefficient matrix implies unique solution.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Inverses anti-respect matrix multiplication.md",
     "Notes/Homogeneous Linear System.md",
     "Notes/Solution of linear system in terms of a particular solution.md",
-    "Notes/Inverses anti-respect matrix multiplication.md",
-    "Notes/Invertible Matrix.md",
     "Notes/Inverse of composition of relations.md",
     "Notes/Left and right inverses coincide (matrix).md",
     "Notes/Transposition anti-respects matrix multiplication.md",
     "Notes/Transposition.md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Subset.md"
+    "Notes/Matrix Multiplication.md"
   ]
 }

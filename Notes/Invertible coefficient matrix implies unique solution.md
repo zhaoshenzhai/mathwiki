@@ -30,8 +30,8 @@ $$\begin{equation}
 \end{equation}$$
 To show that this is the only solution, observe that if $A\v{x}=\v{b}$, then, left-multiplying both sides by $A^{-1}$, we have that
 $$\begin{align}
-    A\v{x}=\v{b}&\Rightarrow A^{-1}\l(A\v{x}\r)=A^{-1}\v{b} && \textrm{Substitution}\\
-    &\Rightarrow\l(A^{-1}A\r)\v{x}=A^{-1}\v{b} && \textrm{Associativity of matrix multiplication}\\
-    &\Rightarrow\hspace{0.54in}I\v{x}=A^{-1}\v{b} && \textrm{Definition of inverse matrix}\\
-    &\Rightarrow\hspace{0.63in}\v{x}=A^{-1}\v{b}. && \textrm{Identity matrix is the identity of matrix multiplication}\qedin
+    A^{-1}\l(A\v{x}\r)&=A^{-1}\v{b} && \textrm{Substitution} \\
+    \l(A^{-1}A\r)\v{x}&=A^{-1}\v{b} && \textrm{Associativity of matrix multiplication} \\
+    I\v{x}&=A^{-1}\v{b} && \textrm{Definition of inverse matrix} \\
+    \v{x}&=A^{-1}\v{b}. && \textrm{Identity matrix is the identity of matrix multiplication}\qedin
 \end{align}$$
