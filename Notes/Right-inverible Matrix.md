@@ -10,7 +10,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Left and right inverses coincide (matrix)]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [Linear system $A\v{x}=\v{b}$ is consistent for all $\v{b}$ $\Rightarrow$ $A$ is right-invertible](Linear%20system%20is%20consistent%20for%20all%20constants%20implies%20coefficient%20matrix%20right-invertible.md)
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

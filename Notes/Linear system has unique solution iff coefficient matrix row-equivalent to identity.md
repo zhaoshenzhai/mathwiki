@@ -1,5 +1,5 @@
 ---
-custom_alias: $A\sim I$ $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solution
+custom_alias: Linear system $A\v{x}=\v{b}$ has a unique solution $\Leftrightarrow$ $A\sim I$
 ---
 
 <br />

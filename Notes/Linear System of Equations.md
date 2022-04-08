@@ -9,9 +9,9 @@ Examples: _Not Applicable_
 Constructions: [[Augmented Matrix]], [[Linear Combination (System of Equation)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Classification of linear systems of equations (infinite field)]], [[Solution of system of linear combinations contains solution of original system]]
-Sufficiencies: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md), [$A$ invertible $\Rightarrow$ $A\v{x}=\v{b}$ has a unique solution](Invertible%20coefficient%20matrix%20implies%20unique%20solution.md), [$A\sim I$ $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solution](Coefficient%20matrix%20row-equivalent%20identity%20iff%20linear%20system%20has%20unique%20solution.md)
-Equivalences: [[Gaussian Elimination]], [[Gauss-Jordan Elimination]], [Linear system $A\v{x}=\v{b}$ is consistent $\Leftrightarrow$ $\v{b}\in\col\l(A\r)$](Linear%20system%20is%20consistent%20iff%20constant%20matrix%20is%20in%20column%20space%20of%20coefficient%20matrix.md), [[Solution of linear system in terms of a particular solution]]
+Properties: [[Classification of linear systems of equations (infinite field)]], [[Solution of system of linear combinations contains solution of original system]], [Linear system $A\v{x}=\v{b}$ is consistent for all $\v{b}$ $\Rightarrow$ $A$ is right-invertible](Linear%20system%20is%20consistent%20for%20all%20constants%20implies%20coefficient%20matrix%20right-invertible.md)
+Sufficiencies: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md), [$A$ invertible $\Rightarrow$ $A\v{x}=\v{b}$ has a unique solution](Invertible%20coefficient%20matrix%20implies%20unique%20solution.md)
+Equivalences: [[Gaussian Elimination]], [[Gauss-Jordan Elimination]], [Linear system $A\v{x}=\v{b}$ has a unique solution $\Leftrightarrow$ $A\sim I$](Linear%20system%20has%20unique%20solution%20iff%20coefficient%20matrix%20row-equivalent%20to%20identity.md), [Linear system $A\v{x}=\v{b}$ is consistent $\Leftrightarrow$ $\v{b}\in\col\l(A\r)$](Linear%20system%20is%20consistent%20iff%20constant%20matrix%20is%20in%20column%20space%20of%20coefficient%20matrix.md), [[Solution of linear system in terms of a particular solution]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

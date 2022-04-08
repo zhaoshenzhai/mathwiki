@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [Homogeneous system $A\v{x}=\v{0}$ with $A\sim I$ $\Leftrightarrow$ only trivial solution](Homogeneous%20linear%20system%20with%20coefficient%20matrix%20row-equivalent%20to%20identity%20matrix%20iff%20has%20only%20trivial%20solution.md), [$A\sim I$ $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solution](Coefficient%20matrix%20row-equivalent%20identity%20iff%20linear%20system%20has%20unique%20solution.md), [[Full-rank square matrix in RREF is identity]]
+Equivalences: [Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Leftrightarrow$ $A\sim I$](Homogeneous%20linear%20system%20only%20trivial%20solution%20iff%20coefficient%20matrix%20row-equivalent%20to%20identity.md), [Linear system $A\v{x}=\v{b}$ has a unique solution $\Leftrightarrow$ $A\sim I$](Linear%20system%20has%20unique%20solution%20iff%20coefficient%20matrix%20row-equivalent%20to%20identity.md), [[Full-rank square matrix in RREF is identity]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
