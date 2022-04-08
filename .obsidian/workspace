@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "ac77ab04ce67e4cc",
+        "id": "e2327209eca9ddec",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Identity Matrix.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "d142f4a47431ee7e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Coefficient matrix row-equivalent identity implies linear system has unique solution.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Coefficient matrix row-equivalent identity implies linear system has unique solution.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Coefficient matrix row-equivalent identity implies linear system has unique solution.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -151,7 +169,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.10012415626908652,
+                  "scale": 0.5036300855533684,
                   "close": true
                 }
               }
@@ -163,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Coefficient matrix row-equivalent identity implies linear system has unique solution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "ac77ab04ce67e4cc",
+  "active": "d142f4a47431ee7e",
   "lastOpenFiles": [
-    "Notes/Inverse of transpose is transpose of inverse.md",
-    "Notes/Inversion anti-respects matrix multiplication.md",
-    "Notes/Invertible Matrix.md",
+    "Notes/Coefficient matrix row-equivalent identity implies linear system has unique solution.md",
     "Notes/Identity Matrix.md",
-    "Notes/Inversion is an involution.md",
-    "Notes/Transposition is an involution.md",
-    "Notes/Left-multiplication by elementary matrix is action by its elementary row operation.md",
-    "Notes/Elementary Matrix.md",
-    "Notes/Elementary Row Operation.md",
-    "Notes/Elementary matrices have inverses of the same type.md"
+    "Notes/Gauss-Jordan Elimination.md",
+    "Notes/Gaussian Elimination.md",
+    "Notes/Linear System of Equations.md",
+    "Notes/Invertible coefficient matrix implies unique solution.md",
+    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Gauss-Jordan Algorithm.md",
+    "Notes/Reduced Row-echelon Matrix.md"
   ]
 }

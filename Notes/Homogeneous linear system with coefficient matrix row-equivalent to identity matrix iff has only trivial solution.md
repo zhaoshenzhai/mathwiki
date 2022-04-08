@@ -16,7 +16,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider an $n\times n$ homogeneous systemw $A\v{x}=\v{0}$ for some fixed $n\in\N^\ast$. Then $A\sim I$ iff the system has only the trivial solution._
+_Let $K$ be a field and consider an $n\times n$ homogeneous system $A\v{x}=\v{0}$ for some fixed $n\in\N^\ast$. Then $A\sim I$ iff the system has only the trivial solution._
 
 ```
 

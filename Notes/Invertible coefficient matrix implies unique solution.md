@@ -1,5 +1,5 @@
 ---
-alias: auto_aliasing
+custom_alias: $A$ invertible $\Rightarrow$ $A\v{x}=\v{b}$ has a unique solution
 ---
 
 <br />
