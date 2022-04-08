@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "94875d51dd925fb1",
+        "id": "a5f0442ade46425c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Coefficient matrix row-equivalent identity iff linear system has unique solution.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "3bd78d38ca48dd42",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Homogeneous linear system with coefficient matrix row-equivalent to identity matrix iff has only trivial solution.md",
+            "file": "Notes/Matrix row-equivalent to identity iff expressible as product of elementary matrices.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Coefficient matrix row-equivalent identity iff linear system has unique solution.md",
+                "file": "Notes/Matrix row-equivalent to identity iff expressible as product of elementary matrices.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Coefficient matrix row-equivalent identity iff linear system has unique solution.md",
+                "file": "Notes/Matrix row-equivalent to identity iff expressible as product of elementary matrices.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Coefficient matrix row-equivalent identity iff linear system has unique solution.md",
+                "file": "Notes/Matrix row-equivalent to identity iff expressible as product of elementary matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "94875d51dd925fb1",
+  "active": "a5f0442ade46425c",
   "lastOpenFiles": [
-    "Notes/Coefficient matrix row-equivalent identity iff linear system has unique solution.md",
-    "Notes/Homogeneous linear system with coefficient matrix row-equivalent to identity matrix iff has only trivial solution.md",
     "Notes/Matrix row-equivalent to identity iff expressible as product of elementary matrices.md",
-    "Notes/Full-rank square matrix in RREF is identity.md",
-    "Notes/Reduced Row-echelon Matrix.md",
-    "Notes/RREF of a matrix is unique.md",
-    "Notes/Square Matrix.md",
+    "Notes/Coefficient matrix row-equivalent identity iff linear system has unique solution.md",
+    "Notes/Gauss-Jordan Elimination.md",
     "Notes/Identity Matrix.md",
-    "Notes/Homogeneous Linear System.md",
-    "Notes/Elementary Matrix.md"
+    "Notes/Full-rank square matrix in RREF is identity.md",
+    "Notes/Homogeneous linear system with coefficient matrix row-equivalent to identity matrix iff has only trivial solution.md",
+    "Notes/Gaussian Elimination.md",
+    "Notes/Classification of linear systems of equations (infinite field).md",
+    "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
+    "Notes/Reduced Row-echelon Matrix.md"
   ]
 }

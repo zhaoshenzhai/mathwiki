@@ -9,9 +9,9 @@ Examples: _Not Applicable_
 Constructions: [[Elementary Matrix]]
 Generalizations: _Not Applicable_
 
-Properties: [$A\sim I$ $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solution](Coefficient%20matrix%20row-equivalent%20identity%20iff%20linear%20system%20has%20unique%20solution.md)
+Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [Homogeneous system $A\v{x}=\v{0}$ with $A\sim I$ $\Leftrightarrow$ only trivial solution](Homogeneous%20linear%20system%20with%20coefficient%20matrix%20row-equivalent%20to%20identity%20matrix%20iff%20has%20only%20trivial%20solution.md), [Matrix row-equivalent to $I$ $\Leftrightarrow$ expressible as product of elementary matrices](Matrix%20row-equivalent%20to%20identity%20iff%20expressible%20as%20product%20of%20elementary%20matrices.md), [[Full-rank square matrix in RREF is identity]]
+Equivalences: [Homogeneous system $A\v{x}=\v{0}$ with $A\sim I$ $\Leftrightarrow$ only trivial solution](Homogeneous%20linear%20system%20with%20coefficient%20matrix%20row-equivalent%20to%20identity%20matrix%20iff%20has%20only%20trivial%20solution.md), [$A\sim I$ $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solution](Coefficient%20matrix%20row-equivalent%20identity%20iff%20linear%20system%20has%20unique%20solution.md), [Matrix row-equivalent to $I$ $\Leftrightarrow$ expressible as product of elementary matrices](Matrix%20row-equivalent%20to%20identity%20iff%20expressible%20as%20product%20of%20elementary%20matrices.md), [[Full-rank square matrix in RREF is identity]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
