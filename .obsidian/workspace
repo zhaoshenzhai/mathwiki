@@ -7,8 +7,12 @@
         "id": "b927a52e2a3b10f5",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Invertible Matrix.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Invertible Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Invertible Matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Invertible Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,14 +184,14 @@
   },
   "active": "b927a52e2a3b10f5",
   "lastOpenFiles": [
+    "Notes/Invertible Matrix.md",
+    "Notes/Inversion anti-respects matrix multiplication.md",
     "Notes/Left-multiplication by elementary matrix is action by its elementary row operation.md",
     "Notes/Elementary Matrix.md",
     "Notes/Elementary Row Operation.md",
     "Notes/Elementary matrices have inverses of the same type.md",
-    "Notes/Invertible Matrix.md",
     "Notes/Inverse of transpose is transpose of inverse.md",
     "Notes/Rotations in R2.md",
-    "Notes/Inverses anti-respect matrix multiplication.md",
     "Notes/Transposition anti-respects matrix multiplication.md",
     "Notes/Transposition.md"
   ]
