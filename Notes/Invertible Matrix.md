@@ -9,7 +9,7 @@ Examples: [[Identity Matrix]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [Invertible coefficient matrix $\Rightarrow$ unique solution](Invertible%20coefficient%20matrix%20implies%20unique%20solution.md), [[Inverses anti-respect matrix multiplication]], [[Invertible matrices are cancellable]]
+Properties: [Invertible coefficient matrix $\Rightarrow$ unique solution](Invertible%20coefficient%20matrix%20implies%20unique%20solution.md), [[Cancellation laws (invertible mattrix)]], [[Inverses anti-respect matrix multiplication]], [[Inverse of transpose is transpose of inverse]]
 Sufficiencies: [[Left and right inverses coincide (matrix)]]
 Equivalences: _Not Applicable_
 Justifications: [[Inverse of matrix is unique]]
