@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Invertible coefficient matrix implies unique solution.md",
+            "file": "Notes/Invertible Matrix.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "a8e6c8cb1013ca76",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Invertible matrices are cancellable.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Invertible coefficient matrix implies unique solution.md",
+                "file": "Notes/Invertible matrices are cancellable.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Invertible coefficient matrix implies unique solution.md",
+                "file": "Notes/Invertible matrices are cancellable.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Invertible coefficient matrix implies unique solution.md",
+                "file": "Notes/Invertible matrices are cancellable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "98d9d651d5454577",
+  "active": "a8e6c8cb1013ca76",
   "lastOpenFiles": [
-    "Notes/Invertible coefficient matrix implies unique solution.md",
+    "Notes/Invertible matrices are cancellable.md",
     "Notes/Invertible Matrix.md",
+    "Notes/Left and right inverses coincide (matrix).md",
     "Notes/Inverses anti-respect matrix multiplication.md",
+    "Notes/Invertible coefficient matrix implies unique solution.md",
+    "Notes/Matrix Multiplication.md",
     "Notes/Homogeneous Linear System.md",
     "Notes/Solution of linear system in terms of a particular solution.md",
     "Notes/Inverse of composition of relations.md",
-    "Notes/Left and right inverses coincide (matrix).md",
-    "Notes/Transposition anti-respects matrix multiplication.md",
-    "Notes/Transposition.md",
-    "Notes/Matrix Multiplication.md"
+    "Notes/Transposition anti-respects matrix multiplication.md"
   ]
 }

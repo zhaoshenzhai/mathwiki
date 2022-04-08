@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 08/04/2022 03:28:32
 Tags: #Proposition #Closed
 
-Proved by: _Not Applicable_
+Proved by: [[Matrix multiplication is associative]], [[Identity matrix is the identity of matrix multiplication]]
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_
