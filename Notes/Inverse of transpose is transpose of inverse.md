@@ -26,3 +26,7 @@ $\begin{align}
     &=I^\trans &&=I^\trans && \textrm{Definition of inverse matrix} \\
     &=I &&=I. && \textrm{Identity matrix is symmetric}\qedin
 \end{align}$
+
+---
+
+**Remark.** It follows then that for all $A\in\mat{n}{K}$, $A$ is invertible iff $A^\trans$ is.<span style="float:right;">$\blacklozenge$</span>
