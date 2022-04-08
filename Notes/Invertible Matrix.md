@@ -10,7 +10,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [$A$ invertible $\Rightarrow$ $A\v{x}=\v{b}$ has a unique solution](Invertible%20coefficient%20matrix%20implies%20unique%20solution.md), [[Cancellation laws (invertible mattrix)]], [[Inversion anti-respects matrix multiplication]], [[Inverse of transpose is transpose of inverse]], [[Inversion is an involution]]
-Sufficiencies: [[Left and right inverses coincide (matrix)]]
+Sufficiencies: [[Left and right inverses coincide (matrix)]], [[Matrix with zero-row implies not invertible]]
 Equivalences: _Not Applicable_
 Justifications: [[Inverse of matrix is unique]]
 

@@ -16,7 +16,7 @@ _Let $K$ be a field and fix $m,n,p\in\N$. Then, for all $A\in\mat{m\times n}{K}$
 $$\begin{equation}
     \fa i\in\l\{1,\dots,m\r\}:\v{c}_i=\sum_{j=1}^na_{ij}\v{b}_j
 \end{equation}$$
-_where_ $\v{b}_j\coloneqq\l[b_{j1}\ \ \cdots\ \ b_{jp}\r]^\trans$ _for all $j\in\l\{1,\dots,n\r\}$._
+_where_ $\v{b}_j\coloneqq\l[b_{j1}\ \ \cdots\ \ b_{jp}\r]$ _for all $j\in\l\{1,\dots,n\r\}$._
 
 ```
 

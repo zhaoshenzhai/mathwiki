@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ece43902eace5e8a",
+        "id": "212f158823f18413",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear System of Equations.md",
+            "file": "Notes/Invertible Matrix.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
+                "file": "Notes/Invertible Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
+                "file": "Notes/Invertible Matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear System of Equations.md",
+                "file": "Notes/Invertible Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "ece43902eace5e8a",
+  "active": "212f158823f18413",
   "lastOpenFiles": [
-    "Notes/Linear System of Equations.md",
-    "Notes/Right-inverible Matrix.md",
-    "Notes/Linear system is consistent for all constants implies coefficient matrix right-invertible.md",
-    "Notes/Matrix.md",
-    "Notes/Matrix multiplication (columns).md",
-    "Notes/Linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Row-equivalence of Matrices.md",
     "Notes/Identity Matrix.md",
+    "Notes/Matrix with zero-row implies not invertible.md",
+    "Notes/Right-inverible Matrix.md",
+    "Notes/Left-invertible Matrix.md",
     "Notes/Matrix multiplication (rows).md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Square Matrix.md"
+    "Notes/Matrix multiplication (columns).md",
+    "Notes/Invertible coefficient matrix implies unique solution.md",
+    "Notes/Row-equivalent iff factors through elementary matrices.md"
   ]
 }

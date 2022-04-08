@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Left-multiplication by elementary matrix is action by its elementary row operation]], [[Elementary matrices have inverses of the same type]]
 Sufficiencies: _Not Applicable_
-Equivalences: [Row-equivalent $\Leftrightarrow$ exist product of elementary matrices](Row-equivalent%20iff%20exist%20product%20of%20elementary%20matrices.md)
+Equivalences: [Row-equivalent $\Leftrightarrow$ factors through elementary matrices](Row-equivalent%20iff%20factors%20through%20elementary%20matrices.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition
