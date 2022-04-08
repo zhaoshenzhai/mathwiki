@@ -9,7 +9,7 @@ Examples: [[Identity Matrix]], [[Zero Matrix]]
 Constructions: [[Rank (Matrix)]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Full-rank square matrix in RREF is identity]]
 Sufficiencies: [[Gauss-Jordan Algorithm]]
 Equivalences: _Not Applicable_
 Justifications: [[RREF of a matrix is unique]]
