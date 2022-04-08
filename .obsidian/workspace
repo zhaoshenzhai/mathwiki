@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b927a52e2a3b10f5",
+        "id": "d7a052737c09e9fb",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Invertible Matrix.md",
+            "file": "Notes/Inversion is an involution.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Invertible Matrix.md",
+                "file": "Notes/Inversion is an involution.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Invertible Matrix.md",
+                "file": "Notes/Inversion is an involution.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Invertible Matrix.md",
+                "file": "Notes/Inversion is an involution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,8 +182,10 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b927a52e2a3b10f5",
+  "active": "d7a052737c09e9fb",
   "lastOpenFiles": [
+    "Notes/Inversion is an involution.md",
+    "Notes/Transposition is an involution.md",
     "Notes/Invertible Matrix.md",
     "Notes/Inversion anti-respects matrix multiplication.md",
     "Notes/Left-multiplication by elementary matrix is action by its elementary row operation.md",
@@ -191,8 +193,6 @@
     "Notes/Elementary Row Operation.md",
     "Notes/Elementary matrices have inverses of the same type.md",
     "Notes/Inverse of transpose is transpose of inverse.md",
-    "Notes/Rotations in R2.md",
-    "Notes/Transposition anti-respects matrix multiplication.md",
-    "Notes/Transposition.md"
+    "Notes/Rotations in R2.md"
   ]
 }
