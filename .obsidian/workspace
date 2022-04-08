@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "212f158823f18413",
+        "id": "aa9e1c3f2f7b9f5f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Invertible Matrix.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "c82f82333ca0f75a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Invertible matrix iff row-equivalent to identity.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Invertible Matrix.md",
+                "file": "Notes/Invertible matrix iff row-equivalent to identity.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Invertible Matrix.md",
+                "file": "Notes/Invertible matrix iff row-equivalent to identity.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Invertible Matrix.md",
+                "file": "Notes/Invertible matrix iff row-equivalent to identity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "212f158823f18413",
+  "active": "c82f82333ca0f75a",
   "lastOpenFiles": [
-    "Notes/Invertible Matrix.md",
-    "Notes/Row-equivalence of Matrices.md",
+    "Notes/Invertible matrix iff row-equivalent to identity.md",
     "Notes/Identity Matrix.md",
-    "Notes/Matrix with zero-row implies not invertible.md",
-    "Notes/Right-inverible Matrix.md",
-    "Notes/Left-invertible Matrix.md",
-    "Notes/Matrix multiplication (rows).md",
-    "Notes/Matrix multiplication (columns).md",
+    "Notes/Invertible Matrix.md",
     "Notes/Invertible coefficient matrix implies unique solution.md",
-    "Notes/Row-equivalent iff factors through elementary matrices.md"
+    "Notes/Row-equivalent iff factors through elementary matrices.md",
+    "Notes/Linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
+    "Notes/Matrix with zero-row implies not invertible.md",
+    "Notes/Inversion anti-respects matrix multiplication.md",
+    "Notes/Elementary matrices have inverses of the same type.md",
+    "Notes/Matrix multiplication is associative.md"
   ]
 }
