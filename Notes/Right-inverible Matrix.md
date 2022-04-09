@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Left and right inverses coincide (matrix)]]
+Properties: [[Left and right inverses coincide (matrix)]], [Right-invertible square matrix $\Rightarrow$ invertible](Right-invertible%20square%20matrix%20implies%20invertible.md)
 Sufficiencies: [Linear system $A\v{x}=\v{b}$ is consistent for all $\v{b}$ $\Rightarrow$ $A$ is right-invertible](Linear%20system%20is%20consistent%20for%20all%20constants%20implies%20coefficient%20matrix%20right-invertible.md)
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

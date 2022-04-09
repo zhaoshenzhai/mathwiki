@@ -9,31 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Left-invertible Matrix.md",
+            "file": "Notes/Right-inverible Matrix.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "44c5973d03628e86",
+        "id": "e4ebba5dbe614650",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Invertible Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "21274e1891835ce9",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Left-invertible square matrix implies invertible.md",
+            "file": "Notes/Right-invertible square matrix implies invertible.md",
             "mode": "preview",
             "source": true
           }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Left-invertible square matrix implies invertible.md",
+                "file": "Notes/Right-invertible square matrix implies invertible.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Left-invertible square matrix implies invertible.md",
+                "file": "Notes/Right-invertible square matrix implies invertible.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +169,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.08933066069596902,
+                  "scale": 0.09761960200528101,
                   "close": true
                 }
               }
@@ -193,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Left-invertible square matrix implies invertible.md",
+                "file": "Notes/Right-invertible square matrix implies invertible.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "21274e1891835ce9",
+  "active": "e4ebba5dbe614650",
   "lastOpenFiles": [
+    "Notes/Right-invertible square matrix implies invertible.md",
+    "Notes/Right-inverible Matrix.md",
+    "Notes/Inversion is an involution.md",
     "Notes/Left-invertible square matrix implies invertible.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Square Matrix.md",
+    "Notes/Left-invertible Matrix.md",
     "Notes/Invertible matrix iff row-equivalent to identity.md",
     "Notes/Homogeneous linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
-    "Notes/Invertible Matrix.md",
-    "Notes/Left-invertible Matrix.md",
-    "Notes/Right-inverible Matrix.md",
-    "Notes/Matrix with zero-row implies not invertible.md",
-    "Notes/Identity Matrix.md",
-    "Notes/Linear System of Equations.md",
-    "Notes/Elementary Matrix.md"
+    "Notes/Matrix with zero-row implies not invertible.md"
   ]
 }
