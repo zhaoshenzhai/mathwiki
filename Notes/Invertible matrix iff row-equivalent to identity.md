@@ -31,3 +31,19 @@ $$\begin{equation}
     \end{aligned}
 \end{equation}$$
 Since elementary matrices and product of matrices are invertible, we see that $A$ is invertible.<span style="float:right;">$\blacksquare$</span>
+
+---
+
+**Remark.** This shows that if $A\sim I$, the same elementary row-operations $e_1,\dots,e_k:\mat{n}{K}\to\mat{n}{K}$ that reduce $A$ to $I$ reduce $I$ to $A^{-1}$. Explicitly, we have that $I=\l(e_k\circ\cdots\circ e_1\r)\l(A\r)$, so their corresponding elementary matrices satisfy
+$$\begin{equation}
+    I=\l(E_k\times\cdots\times E_1\r)\times A.
+\end{equation}$$
+Since $A$ is invertible, we can right-multiply both sides by $A^{-1}$ to obtain
+$$\begin{equation}
+    A^{-1}=\l(E_k\times\cdots\times E_1\r)\times I\\
+\end{equation}$$
+and thus
+$$\begin{equation}
+    A^{-1}=\l(e_k\circ\dots\circ e_1\r)\l(I\r).
+\end{equation}$$
+This is useful in practice since it allows us to compute $A^{-1}$ using Gauss-Jordan Elimination for any invertible $A\in\mat{n}{K}$.<span style="float:right;">$\blacklozenge$</span>
