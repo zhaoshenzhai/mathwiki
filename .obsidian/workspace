@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d0378e371edb76d8",
+        "id": "d5f4aa63afc88cf5",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Invertible matrix iff row-equivalent to identity.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Invertible matrix iff row-equivalent to identity.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Invertible matrix iff row-equivalent to identity.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -157,7 +151,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.09761960200528101,
+                  "scale": 0.3554418760700934,
                   "close": true
                 }
               }
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Invertible matrix iff row-equivalent to identity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "d0378e371edb76d8",
+  "active": "d5f4aa63afc88cf5",
   "lastOpenFiles": [
+    "Notes/Row-equivalence of Matrices.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Linear Isomorphism.md",
+    "Notes/Row-equivalent iff factors through invertible matrix.md",
+    "Notes/Row-equivalent iff factors through elementary matrices.md",
     "Notes/Invertible matrix iff row-equivalent to identity.md",
+    "Notes/Elementary Matrix.md",
     "Notes/Augmented Matrix.md",
     "Notes/Inversion anti-respects matrix multiplication.md",
-    "Notes/Invertible Matrix.md",
-    "Notes/Right-inverible Matrix.md",
-    "Notes/Right-invertible square matrix implies invertible.md",
-    "Notes/Inversion is an involution.md",
-    "Notes/Left-invertible square matrix implies invertible.md",
-    "Notes/Square Matrix.md",
-    "Notes/Left-invertible Matrix.md"
+    "Notes/Right-inverible Matrix.md"
   ]
 }

@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Row-equivalence of matrices is an equivalence relation]], [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
 Sufficiencies: [[Gaussian Algorithm]], [[Gauss-Jordan Algorithm]]
-Equivalences: [Row-equivalent $\Leftrightarrow$ factors through elementary matrices](Row-equivalent%20iff%20factors%20through%20elementary%20matrices.md)
+Equivalences: [Row-equivalent $\Leftrightarrow$ factors through elementary matrices](Row-equivalent%20iff%20factors%20through%20elementary%20matrices.md), [Row-equivalent $\Leftrightarrow$ factors through invertible matrix](Row-equivalent%20iff%20factors%20through%20invertible%20matrix.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition
