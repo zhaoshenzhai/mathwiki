@@ -4,24 +4,60 @@
     "type": "split",
     "children": [
       {
-        "id": "838cdea96ac67bb1",
+        "id": "23dd3756a8c91c39",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Matrix invertible iff factors invertible.md",
+            "file": "Notes/Invertible Matrix.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "c0676d1a4fd0838e",
+        "id": "4faa6a590e198ddb",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Row-equivalent iff factors through invertible matrix.md",
+            "file": "Notes/Linear System of Equations.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "9759dfacc3d03b43",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear system is consistent for all constants implies coefficient matrix right-invertible.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "37aa2472e6193b78",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Identity Matrix.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "1b1ba337b889858d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Matrix Invertibility Criteria.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Row-equivalent iff factors through invertible matrix.md",
+                "file": "Notes/Matrix Invertibility Criteria.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Row-equivalent iff factors through invertible matrix.md",
+                "file": "Notes/Matrix Invertibility Criteria.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Row-equivalent iff factors through invertible matrix.md",
+                "file": "Notes/Matrix Invertibility Criteria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +230,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "c0676d1a4fd0838e",
+  "active": "1b1ba337b889858d",
   "lastOpenFiles": [
-    "Notes/Row-equivalent iff factors through invertible matrix.md",
-    "Notes/Invertible Matrix.md",
-    "Notes/Matrix invertible iff row-equivalent to identity.md",
-    "Notes/Matrix invertible iff factors invertible.md",
-    "Notes/Inversion anti-respects matrix multiplication.md",
-    "Notes/Inverse (Relation).md",
-    "Notes/Invertible coefficient matrix implies unique solution.md",
+    "Notes/Matrix Invertibility Criteria.md",
+    "Notes/Identity Matrix.md",
     "Notes/Linear system is consistent for all constants implies coefficient matrix right-invertible.md",
     "Notes/Linear System of Equations.md",
-    "Notes/Homogeneous Linear System.md"
+    "Notes/Linear Subspace.md",
+    "Notes/Unique Representation Theorem (Linear Algebra).md",
+    "Notes/Linear Independence.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Row-echelon Matrix.md",
+    "Notes/Column Space.md"
   ]
 }

@@ -16,7 +16,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider the $\l(m\times n\r)$-linear system_
+_Let $K$ be a field and consider the $m\times n$ linear system_
 $$\begin{equation}
     A\v{x}=\v{b}\ \ \ \ \Leftrightarrow\ \ \ \ \l\{\begin{alignedat}{7}
         &a_{11}x_1&&\,+&&\,\cdots\,&&\,+\,&&a_{1n}x_n&&=\ &&b_1\\
@@ -24,7 +24,7 @@ $$\begin{equation}
         &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m
     \end{alignedat}\r.
 \end{equation}$$
-_of equations over $K$. Then $A\v{x}=\v{b}$ is consistent iff $\v{b}\in\col\l(A\r)$._
+_of equations over $K$ for some fixed $m,n\in\N^\ast$. Then $A\v{x}=\v{b}$ is consistent iff $\v{b}\in\col\l(A\r)$._
 
 ```
 

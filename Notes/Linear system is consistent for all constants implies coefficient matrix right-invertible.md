@@ -16,7 +16,10 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider $A\in\mat{n}{K}$ for some fixed $n\in\N$. If the linear system $A\v{x}=\v{b}$ is consistent for all $\v{b}\in\mat{n\times1}{K}$, then $A$ is right-invertible._
+_Let $K$ be a field and consider $A\in\mat{n}{K}$ for some fixed $n\in\N$. If the linear system $A\v{x}=\v{b}$ is consistent for all $\v{b}\in\mat{n\times1}{K}$, then $A$ is right-invertible. Formally,_
+$$\begin{equation}
+    \underbrace{\fa\v{b}\in K^n,\ex\v{x}\in K^n:A\v{x}=\v{b}}_{\col\l(A\r)=K^n}\ \ \ \ \Rightarrow\ \ \ \ A\textrm{\it{ is right-invertible.}}
+\end{equation}$$
 
 ```
 
@@ -25,7 +28,7 @@ $$\begin{equation}
     \begin{aligned}
         \l(AS\r)_{ik}&=\sum_{j=1}^na_{ij}s_{jk} && \textrm{Definition of matrix multiplication} \\
         &=\sum_{j=1}^na_{ij}\l(\v{s}_k\r)_j && \v{s}_k\textrm{ are column vectors and $j$ indices rows of $S$} \\
-        &=\l(A\v{s}_k\r)_i && \textrm{Definition of matrix multiplication; $A\v{s}_k\in\mat{m\times1}{K}$} \\
+        &=\l(A\v{s}_k\r)_i && \textrm{Definition of matrix multiplication; $A\v{s}_k\in\mat{n\times1}{K}$} \\
         &=\l(\v{e}_k\r)_i && A\v{s}_k=\v{e}_k \\
         &=\delta_{ik} && \textrm{Definition of $\v{e}_k$}
     \end{aligned}
