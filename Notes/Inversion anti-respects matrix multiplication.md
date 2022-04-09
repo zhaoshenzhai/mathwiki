@@ -12,7 +12,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $n\in\N$. Then, for all invertible matrices $A,B\in\mat{n}{K}$, their product $AB\in\mat{n}{K}$ is invertible with inverse_
+_Let $K$ be a field and fix $n\in\N^\ast$. Then, for all invertible matrices $A,B\in\mat{n}{K}$, their product $AB\in\mat{n}{K}$ is invertible with inverse_
 $$\begin{equation}
     \l(AB\r)^{-1}=B^{-1}A^{-1}.
 \end{equation}$$
@@ -27,10 +27,3 @@ $\begin{align}
     &=B^{-1}B &&=AA^{-1} && \textrm{Identity matrix is the identity of matrix multiplication} \\
     &=I &&=I. && \textrm{Defintion of inverse matrix}\qedin
 \end{align}$
-
----
-
-**Remark.** By induction, we see that for all $n\in\N$ and invertible matrices $A_1,\dots,A_k\in\mat{n}{K}$, their product $A_1\times\cdots\times A_k$ is invertible with inverse
-$$\begin{equation}
-    \l(A_1\times\cdots\times A_k\r)^{-1}=A_k^{-1}\times\cdots\times A_1^{-1}.\exqedin
-\end{equation}$$
