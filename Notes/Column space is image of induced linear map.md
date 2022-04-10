@@ -1,7 +1,3 @@
----
-custom_alias: $\col A=\im T_A$ ($A$ matrix)
----
-
 <br />
 <br />
 

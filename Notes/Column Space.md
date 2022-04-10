@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [$\col A=\im T_A$ ($A$ matrix)](Column%20space%20is%20image%20of%20induced%20linear%20map.md)
+Equivalences: [[Column space is image of induced linear map]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

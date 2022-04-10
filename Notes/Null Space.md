@@ -17,7 +17,7 @@ Justifications: [[Null space is a linear subspace of tuple space]]
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider an $m\times n$ matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. The **null space of $A$** is the linear subspace_
+_Let $K$ be a field and consider an $m\times n$ matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. The **null space of $A$** is the linear subspace of $K^n$ spanned by_
 $$\begin{equation}
     \null\l(A\r)\coloneqq\l\{\v{x}\in K^n\mid A\v{x}=\v{0}_m\r\}
 \end{equation}$$
