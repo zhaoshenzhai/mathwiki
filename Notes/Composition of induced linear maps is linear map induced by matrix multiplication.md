@@ -1,3 +1,7 @@
+---
+custom_alias: $T_{AB}=T_A\circ T_B$ ($A,B$ matrices)
+---
+
 <br />
 <br />
 

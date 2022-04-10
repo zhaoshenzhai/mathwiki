@@ -5,7 +5,7 @@ Date Created: 03/04/2022 14:30:50
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Linear Span]], [[Null Space]], [[Column Space]], [[Trivial Subspaces]]
+Examples: [[Linear Span]], [[Null Space]], [[Trivial Subspaces]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

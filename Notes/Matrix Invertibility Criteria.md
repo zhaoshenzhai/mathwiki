@@ -4,7 +4,7 @@
 Date Created: 09/04/2022 09:43:00
 Tags: #Theorem #In_Progress
 
-Proved by: [[Left-invertible square matrix implies invertible]], [[Right-invertible square matrix implies invertible]], [[Inverse of transpose is transpose of inverse]], [[Matrix invertible iff row-equivalent to identity]], [[Homogeneous linear system only trivial solution iff coefficient matrix row-equivalent to identity]], [[Invertible coefficient matrix implies unique solution]]
+Proved by: [Left-invertible square matrix $\Rightarrow$ invertible](Left-invertible%20square%20matrix%20implies%20invertible.md), [Right-invertible square matrix $\Rightarrow$ invertible](Right-invertible%20square%20matrix%20implies%20invertible.md), [[Inverse of transpose is transpose of inverse]], [$A$ invertible $\Leftrightarrow$ $A\sim I$](Matrix%20invertible%20iff%20row-equivalent%20to%20identity.md), [Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Leftrightarrow$ $A\sim I$](Homogeneous%20linear%20system%20only%20trivial%20solution%20iff%20coefficient%20matrix%20row-equivalent%20to%20identity.md), [$A$ invertible $\Rightarrow$ $A\v{x}=\v{b}$ has a unique solution](Invertible%20coefficient%20matrix%20implies%20unique%20solution.md)
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_
@@ -18,9 +18,16 @@ _Let $K$ be a field and consider a matrix $A\in\mat{n}{K}$. Then the following s
 3. _$A$ is right-invertible._
 4. _$A^\trans$ is invertible._
 5. _$A$ is row-equivalent to the identity matrix._
-6. _The homogeneous system $\v{A}\v{x}=\v{0}$ has only the trivial solution._
+6. _The homogeneous system $A\v{x}=\v{0}$ has only the trivial solution._
     * _Equivalently, $\null\l(A\r)=\l\{\v{0}\r\}$, or $\dim\null\l(A\r)=0$, or $\nullity\l(A\r)=0$._
 7. _For all $\v{b}\in K^n$, the linear system $A\v{x}=\v{b}$ has a unique solution._
     * _Equivalently, $\col\l(A\r)=K^n$, or $\dim\col\l(A\r)=n$, or $\rank\l(A\r)=n$._
+    * _It suffices for $A\v{x}=\v{b}$ to be consistent for all $\v{b}\in K^n$._
 
 ```
+
+_Proof_. Refer to the diagram below.
+
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-04-10_123326/image.svg"></center>
+
+![[../Images/2022-04-10_123326/image.svg]]

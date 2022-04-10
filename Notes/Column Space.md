@@ -11,18 +11,16 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [[Column space is the linear span of columns of matrix]]
+Equivalences: [$\col A=\im T_A$ ($A$ matrix)](Column%20space%20is%20image%20of%20induced%20linear%20map.md)
 Justifications: [[Column space is a linear subspace of tuple space]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider an $m\times n$ matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. The **column space of $A$** is the linear subspace_
+_Let $K$ be a field and consider an $m\times n$ matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. The **column space of $A$** is the linear subspace spanned by the columns of $A$. Formally,_
 $$\begin{equation}
-    \col\l(A\r)\coloneqq\l\{\v{y}\in K^m\mid\ex\v{x}\in K^n:\v{y}=A\v{x}\r\}
+    \col\l(A\r)\coloneqq\span\l\{\v{a}_1,\dots,\v{a}_n\r\}
 \end{equation}$$
-_of $K^m$._
+_where each_ $\v{a}_j\coloneqq\l[a_{1j}\ \ \cdots\ \ a_{mj}\r]^\trans$_._
 
 ```
-
-**Remark.** Letting $T_A$ be the induced linear transformation of $A$, we see that $\col\l(A\r)=\im\l(T_A\r)$.<span style="float:right;">$\blacklozenge$</span>

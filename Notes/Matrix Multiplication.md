@@ -9,7 +9,7 @@ Examples: [Matrix multiplication over $\R$ (dot product)](Matrix%20multiplicatio
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Composition of induced linear maps is linear map induced by matrix multiplication]], [[Matrix multiplication is associative]], [[Distribution of matrix multiplication over addition]], [[Compatibility of matrix and scalar multiplications]], [[Identity matrix is the identity of matrix multiplication]], [[Zero matrix is the absorbing element of matrix multiplication]]
+Properties: [$T_{AB}=T_A\circ T_B$ ($A,B$ matrices)](Composition%20of%20induced%20linear%20maps%20is%20linear%20map%20induced%20by%20matrix%20multiplication.md), [[Matrix multiplication is associative]], [[Distribution of matrix multiplication over addition]], [[Compatibility of matrix and scalar multiplications]], [[Identity matrix is the identity of matrix multiplication]], [[Zero matrix is the absorbing element of matrix multiplication]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Matrix multiplication (columns)]], [[Matrix multiplication (rows)]]
 Justifications: _Not Applicable_

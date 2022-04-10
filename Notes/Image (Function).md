@@ -5,7 +5,7 @@ Date Created: 26/01/2022 17:41:00
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Examples: [$\col A=\im T_A$ ($A$ matrix)](Column%20space%20is%20image%20of%20induced%20linear%20map.md)
 Constructions: [[Direct Image Function]]
 Generalizations: [[Image (Relation)]]
 
