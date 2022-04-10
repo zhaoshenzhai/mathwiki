@@ -12,15 +12,15 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: [$\col A=\im T_A$ ($A$ matrix)](Column%20space%20is%20image%20of%20induced%20linear%20map.md)
-Justifications: [[Column space is a linear subspace of tuple space]]
+Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider an $m\times n$ matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. The **column space of $A$** is the linear subspace spanned by the columns of $A$. Formally,_
+_Let $K$ be a field and consider an $m\times n$ matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. The **column space of $A$** is the linear subspace of $K^m$ spanned by the columns of $A$. Formally,_
 $$\begin{equation}
     \col\l(A\r)\coloneqq\span\l\{\v{a}_1,\dots,\v{a}_n\r\}
 \end{equation}$$
-_where each_ $\v{a}_j\coloneqq\l[a_{1j}\ \ \cdots\ \ a_{mj}\r]^\trans$_._
+_where each_ $\v{a}_j\coloneqq\l[a_{1j}\ \ \cdots\ \ a_{mj}\r]^\trans\in K^m$_._
 
 ```
