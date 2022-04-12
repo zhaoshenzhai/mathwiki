@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Image (Function).md",
+                "file": "Notes/Column Space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Image (Function).md",
+                "file": "Notes/Column Space.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Image (Function).md",
+                "file": "Notes/Column Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,10 +206,10 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "353d09d969ec13db",
+  "active": "356c0b3c12270cb5",
   "lastOpenFiles": [
-    "Notes/Image (Function).md",
     "Notes/Column Space.md",
+    "Notes/Image (Function).md",
     "Notes/Linear map Induced by a Matrix.md",
     "Notes/Null Space.md",
     "Notes/Linear Subspace.md",

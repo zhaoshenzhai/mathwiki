@@ -13,5 +13,6 @@
     "listsLineBreak"
   ],
   "theme": "obsidian",
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "interfaceFontFamily": "CMU Serif"
 }
