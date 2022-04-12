@@ -23,4 +23,4 @@ _Let $K$ be a field and consider an $n\times n$ homogeneous system $A\v{x}=\v{0}
 _Proof_.
 * ($\Rightarrow$): Since $A\sim I$, the systems $A\v{x}=\v{0}$ and $I\v{x}=\v{0}$ have the same solutions. However, viewing $\v{x}\in\mat{n\times1}{K}$, we see that $I\v{x}=\v{x}$ and thus $\v{x}=\v{0}$. This forces all solutions to be the trivial solution.
 
-* ($\Leftarrow$): Let $R\coloneqq\rref\l(A\r)$ be with $r$ non-zero rows. If $r<n$, then the system $R\v{x}=\v{0}$, and hence $A\v{x}=\v{0}$, has a non-trivial solution, a contradiction. Thus $r=n$, so $R$ is a square matrix of full-rank. It follows then that $R=I$.<span style="float:right;">$\blacksquare$</span>
+* ($\Leftarrow$): Let $R\coloneqq\rref\l(A\r)$ be of (column) rank $r$. If $r<n$, then the system $R\v{x}=\v{0}$, and hence $A\v{x}=\v{0}$, has a non-trivial solution since there are $\l(n-r\r)$-many basic solutions, a contradiction. Thus $r=n$, so $R$ is a square matrix of full-rank. It follows then that $R=I$.<span style="float:right;">$\blacksquare$</span>

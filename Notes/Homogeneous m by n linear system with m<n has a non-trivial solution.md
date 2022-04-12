@@ -6,7 +6,7 @@ custom_alias: Homogeneous $m\times n$ linear system with $m<n$ $\Rightarrow$ non
 <br />
 
 Date Created: 28/03/2022 15:32:39
-Tags: #Proposition #Open 
+Tags: #Proposition #Later/Linear_Algebra/Rank
 
 Proved by: [[Classification of linear systems of equations (infinite field)]]
 Generalizations: _Not Applicable_
