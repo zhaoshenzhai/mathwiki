@@ -1,8 +1,8 @@
 <br />
 <br />
 
-Date Created: 26/03/2022 22:58:52
-Tags: #Definition #Open
+Date Created: 12/04/2022 19:00:29
+Tags: #Definition #In_Progress
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. The **(column) rank of $A$** is the number $\col\rank\l(A\r)\coloneqq\l|\mc{K}\r|$ where $\mc{K}$ is the set of all pivot columns of $A$._
+_Let $K$ be a field and consider an $m\times n$ linear system $A\v{x}=\v{b}$ over $K$. A **set of basic solutions of $A\v{x}=\v{b}$** is a subset $S\subseteq K^n$ such that every solution $\v{s}$ thereof is in the span of $S$._
 
 ```

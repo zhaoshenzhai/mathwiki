@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Column Rank (Matrix)]]
+Constructions: [[Basic Solution (Linear System)]], [[Column Rank]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

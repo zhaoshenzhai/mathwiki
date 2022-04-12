@@ -22,14 +22,14 @@ $$\begin{equation}
 \end{equation}$$
 _of equations over $K$. Let $R\coloneqq\l(e_l\circ\cdots\circ e_1\r)\l(A\r)\sim A$ be the reduced row-echelon matrix corresponding to $A$, say with $r$ non-zero rows each with its pivot column $k_i$, and let $\v{z}\coloneqq\l(e_l\circ\cdots\circ e_1\r)\l(\v{b}\r)$. For convenience, we shall denote_
 $$\begin{equation}
-    \fa j\in\l\{1,\dots,n\r\}:\mc{C}_j\coloneqq\l\{j+1,\dots,n\r\}\ \ \ \ \textit{and}\ \ \ \ \mc{K}\coloneqq\l\{k\in\N\mid k\textit{ is a pivot column}\r\}.
+    \fa j\in\l\{1,\dots,n\r\}:\mc{C}_j\coloneqq\l\{j+1,\dots,n\r\}\ \ \ \ \textrm{\it{and}}\ \ \ \ \mc{K}\coloneqq\l\{k\in\N\mid k\textrm{\it{ is a pivot column}}\r\}.
 \end{equation}$$
 _If_ $z_{r+1}=\cdots=z_m=0$_, then $A\v{x}=\v{b}$ is consistent and all solutions thereof can be expressed in the form of $\l\langle s_1,\dots,s_n\r\rangle\in K^n$ where_
 $$\begin{equation}
     \fa\alpha\in\l\{1,\dots,n\r\}:s_\alpha\coloneqq
         \begin{dcases}
-            z_i-\sum_{\mathclap{j\in\mc{C}_\alpha\setminus\mc{K}}}r_{ij}t_j & \textit{i\!f\hspace{0.1in}}\ex i\in\l\{1,\dots,r\r\}:\alpha=k_i\\
-            t_\alpha & \textit{else}
+            z_i-\sum_{\mathclap{j\in\mc{C}_\alpha\setminus\mc{K}}}r_{ij}t_j & \textrm{\it{if\hspace{0.1in}}}\ex i\in\l\{1,\dots,r\r\}:\alpha=k_i\\
+            t_\alpha & \textrm{\it{else}}
         \end{dcases}
 \end{equation}$$
 _and each_ $t_\alpha$_, if any, is an arbitrary element of $K$. Otherwise, $A\v{x}=\v{b}$ is inconsistent._

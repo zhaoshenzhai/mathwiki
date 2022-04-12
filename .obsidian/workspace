@@ -16,24 +16,36 @@
         }
       },
       {
-        "id": "acada027b60fa7b8",
+        "id": "48281fe55ecc7f2d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Column Rank (Matrix).md",
+            "file": "Notes/Gauss-Jordan Elimination.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "0062d2866b4da847",
+        "id": "4c5b34b354218e4e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
+            "file": "Notes/Solution of linear system in terms of a particular solution.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "37d4c78a39753da4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Basic Solution (Linear System).md",
             "mode": "preview",
             "source": true
           }
@@ -64,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Later/Linear_Algebra",
+                "query": "tag:#Later/Linear_Algebra/Rank",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,7 +97,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "1bf52919416afc83",
@@ -97,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
+                "file": "Notes/Basic Solution (Linear System).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +141,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
+                "file": "Notes/Basic Solution (Linear System).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -193,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
+                "file": "Notes/Basic Solution (Linear System).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +218,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "0062d2866b4da847",
+  "active": "37d4c78a39753da4",
   "lastOpenFiles": [
-    "Notes/Linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
-    "Notes/Homogeneous linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
-    "Notes/Standard Topology on R.md",
-    "Notes/Matrix Invertibility Criteria.md",
-    "Notes/Invertible Matrix.md",
-    "Notes/Comparison of topologies on R.md",
-    "Notes/Full-rank square matrix in RREF is identity.md",
-    "Notes/Identity Matrix.md",
-    "Notes/Column Rank (Matrix).md",
-    "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md"
+    "Notes/Basic Solution (Linear System).md",
+    "Notes/Solution of linear system in terms of a particular solution.md",
+    "Notes/Gauss-Jordan Elimination.md",
+    "Notes/Pivot Column.md",
+    "Notes/Gaussian Elimination.md",
+    "Notes/Linear System of Equations.md",
+    "Notes/Matrix.md",
+    "Notes/Column Rank.md",
+    "Notes/Linear Combination (Linear System).md",
+    "Notes/Homogeneous linear system only trivial solution iff coefficient matrix row-equivalent to identity.md"
   ]
 }
