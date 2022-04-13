@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Basis for solution space of homogeneous linear system]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Null Space]]
 Justifications: [[Linear combinations of solutions of homogeneous systems are solutions]], [Linear subspace $\Leftrightarrow$ closed under linear combination](Linear%20subspace%20iff%20closed%20under%20linear%20combination.md)
 
 ``` ad-Definition

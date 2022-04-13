@@ -4,18 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "7a69ee0dd7f35346",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Homogeneous Linear System.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
         "id": "31741af4013e9bf4",
         "type": "leaf",
         "state": {
@@ -34,6 +22,30 @@
           "type": "markdown",
           "state": {
             "file": "Notes/Basis for solution space of homogeneous linear system.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "c82aa87d7104d112",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Null Space.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "ec5feed32a67c11a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Gauss-Jordan Elimination.md",
             "mode": "preview",
             "source": true
           }
@@ -181,7 +193,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.206721982535703,
+                  "scale": 0.09282960098249816,
                   "close": true
                 }
               }
@@ -209,14 +221,14 @@
   "active": "bd7c17db68282cc0",
   "lastOpenFiles": [
     "Notes/Basis for solution space of homogeneous linear system.md",
-    "Notes/Linear Subspace.md",
-    "Notes/Linear Span.md",
-    "Notes/Ordered Basis (Linear Algebra).md",
-    "Notes/Basis (Linear Algebra).md",
     "Notes/Null Space.md",
+    "Notes/Gauss-Jordan Elimination.md",
+    "Notes/Kronecker Delta.md",
     "Notes/Solution Space of Homogeneous Linear System.md",
-    "Notes/Column Space.md",
-    "Notes/Row Space.md",
-    "Notes/Trivial Subspaces.md"
+    "Notes/Pivot Column.md",
+    "Notes/Gaussian Elimination.md",
+    "Notes/Homogeneous Linear System.md",
+    "Notes/Null space is a linear subspace of tuple space.md",
+    "Notes/Column Space.md"
   ]
 }
