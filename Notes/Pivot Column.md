@@ -21,7 +21,7 @@ _Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixe
 
 ```
 
-**Remark.** Abusing notation, we shall sometimes call $k$ a pivot column of $A$, and we shall write
+**Remark.** Recall that a pivot column of a matrix $R$ in RREF is any column containing the leading $1$ in the non-zero rows. Abusing notation, we shall sometimes call $k$ a pivot column of $A$, and we shall write
 $$\begin{equation}
     \mc{K}\coloneqq\l\{k_i\in\N\mid k_i\textrm{ is a pivot column}\r\}.\exqedin
 \end{equation}$$
