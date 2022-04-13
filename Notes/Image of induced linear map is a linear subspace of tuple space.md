@@ -4,7 +4,7 @@
 Date Created: 03/04/2022 18:18:22
 Tags: #Proposition #Closed
 
-Proved by: [[Linear subspace iff closed under linear combination]], [[Linear map fixes zero vector]]
+Proved by: [Linear subspace $\Leftrightarrow$ closed under linear combination](Linear%20subspace%20iff%20closed%20under%20linear%20combination.md), [[Linear map fixes zero vector]]
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

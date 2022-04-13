@@ -21,4 +21,4 @@ _Let $K$ be a field and consider a vector sapce $V$ over $K$. An **ordered basis
 
 ```
 
-_Proof_. If $B=\l\{b_1,\dots,b_n\r\}$ for some $n\in\N$, then we shall, by abuse of notation, refer to $B$ itself as an ordered basis since it it clear that the ordering is induced by the indices. This is especially the case when we wish to consider the dimension of $V$, defined as $\dim V\coloneqq\l|B\r|$ and _not_ $\l|\l\langle B,<\r\rangle\r|$; that is, we shall only consider the underlying set of the ordered basis as far as dimensions are concerned.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If $B=\l\{b_1,\dots,b_n\r\}$ for some $n\in\N$, then we shall, by abuse of notation, refer to $B$ itself as an ordered basis since it it clear that the ordering is induced by the indices. This is especially the case when we wish to consider the dimension of $V$, defined as $\dim V\coloneqq\l|B\r|$ and _not_ $\l|\l\langle B,<\r\rangle\r|$; that is, we shall only consider the underlying set of the ordered basis as far as dimensions are concerned.<span style="float:right;">$\blacklozenge$</span>
