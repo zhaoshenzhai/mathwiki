@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "37d4c78a39753da4",
+        "id": "27e81d8cc248fd82",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Basic Solution (Linear System).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "f4dafc0646e8e823",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Pivot Column.md",
+            "file": "Notes/Dot Product.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Pivot Column.md",
+                "file": "Notes/Dot Product.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241
+    "width": 241,
+    "collapsed": true
   },
   "right": {
     "id": "6e128061ec5336cc",
@@ -116,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Pivot Column.md",
+                "file": "Notes/Dot Product.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -168,7 +157,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.23393102794212778,
+                  "scale": 0.206721982535703,
                   "close": true
                 }
               }
@@ -180,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Pivot Column.md",
+                "file": "Notes/Dot Product.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f4dafc0646e8e823",
+  "active": "27e81d8cc248fd82",
   "lastOpenFiles": [
-    "Notes/Pivot Column.md",
+    "Notes/Dot Product.md",
+    "Notes/Homogeneous linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
+    "Notes/Homogeneous Linear System.md",
     "Notes/Basic Solution (Linear System).md",
+    "Notes/Unique Representation Theorem (Linear Algebra).md",
     "Notes/Matrix Invertibility Criteria.md",
-    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
-    "Notes/Column Rank.md",
-    "Notes/Row-echelon Matrix.md",
     "Notes/Gauss-Jordan Elimination.md",
-    "Notes/Solution of linear system in terms of a particular solution.md",
-    "Notes/Spanning Set.md",
-    "Notes/Gaussian Elimination.md"
+    "Notes/Column Rank.md",
+    "Notes/Pivot Column.md",
+    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md"
   ]
 }
