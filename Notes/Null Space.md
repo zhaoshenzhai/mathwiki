@@ -9,9 +9,9 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Basis for null space (matrix, explicit)]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Solution Space of Homogeneous Linear System]]
+Equivalences: _Not Applicable_
 Justifications: [[Null space is a linear subspace of tuple space]]
 
 ``` ad-Definition
@@ -24,3 +24,5 @@ $$\begin{equation}
 _together with its induced operations from $K^n$._
 
 ```
+
+**Remark.** In other words, $\null\l(A\r)$ is the solution space of the homogeneous linear system $A\v{x}=\v{0}$.<span style="float:right;">$\blacklozenge$</span>

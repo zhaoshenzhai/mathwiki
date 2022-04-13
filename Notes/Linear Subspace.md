@@ -5,7 +5,7 @@ Date Created: 03/04/2022 14:30:50
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Linear Span]], [[Trivial Subspaces]], [[Solution Space of Homogeneous Linear System]]
+Examples: [[Linear Span]], [[Trivial Subspaces]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

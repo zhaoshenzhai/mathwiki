@@ -29,5 +29,3 @@ _Let $K$ be a field and consider a matrix $A\in\mat{n}{K}$. Then the following s
 _Proof_. Refer to the diagram below.
 
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-04-10_123326/image.svg"></center>
-
-![[../Images/2022-04-10_123326/image.svg]]

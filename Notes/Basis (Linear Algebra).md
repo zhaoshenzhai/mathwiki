@@ -5,7 +5,7 @@ Date Created: 04/04/2022 23:21:59
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Standard Basis of Tuple Space]], [[Basis for solution space of homogeneous linear system]]
+Examples: [[Standard Basis of Tuple Space]], [[Basis for null space (matrix, explicit)]]
 Constructions: [[Dimension (Linear Algebra)]], [[Ordered Basis (Linear Algebra)]]
 Generalizations: _Not Applicable_
 

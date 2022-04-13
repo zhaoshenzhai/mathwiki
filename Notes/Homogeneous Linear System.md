@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Solution Space of Homogeneous Linear System]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [Homogeneous $m\times n$ linear system with $m<n$ $\Rightarrow$ non-trivial solutions](Homogeneous%20m%20by%20n%20linear%20system%20with%20m<n%20has%20a%20non-trivial%20solution.md), [[Linear combinations of solutions of homogeneous systems are solutions]], [[Solution of linear system in terms of a particular solution]]
