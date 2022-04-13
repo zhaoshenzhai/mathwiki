@@ -2,11 +2,11 @@
 <br />
 
 Date Created: 12/04/2022 18:28:48
-Tags: #Definition #Closed
+Tags: #Definition #Later/Linear_Algebra/Rank
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Basic Solution (Linear System)]], [[Column Rank]]
+Constructions: [[Column Rank]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

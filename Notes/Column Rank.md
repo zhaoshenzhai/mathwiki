@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 26/03/2022 22:58:52
-Tags: #Definition #Open
+Tags: #Definition #Later/Linear_Algebra/Rank
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

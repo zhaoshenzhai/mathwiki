@@ -17,6 +17,9 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider an $m\times n$ linear system $A\v{x}=\v{b}$ over $K$. A **set of basic solutions of $A\v{x}=\v{b}$** is a subset $S\subseteq K^n$ such that every solution $\v{s}$ thereof is in the span of $S$._
+_Let $K$ be a field and consider an $m\times n$ linear system $A\v{x}=\v{b}$ over $K$. A **set of basic solutions of $A\v{x}=\v{b}$** is a subset $S\subseteq K^n$ such that_
+$$\begin{equation}
+    \fa\v{s}\in S:A\v{s}=\v{b}\ \ \ \ \textrm{\it{and}}\ \ \ \ \fa\v{x}\in K^n:A\v{x}=\v{b}\Rightarrow\v{x}\in\span S.
+\end{equation}$$
 
 ```
