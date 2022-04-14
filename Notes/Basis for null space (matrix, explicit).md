@@ -27,3 +27,5 @@ $$\begin{equation}
 _form a basis for $\null\l(A\r)$._
 
 ```
+
+_Proof_. 

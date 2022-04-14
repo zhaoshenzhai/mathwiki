@@ -4,36 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7f23f18197a1d514",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Null Space.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "12a85a343568be68",
+        "id": "859ea791f62d9bf1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Basis for null space (matrix, explicit).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "0247cf3f47dbd525",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Gauss-Jordan Elimination.md",
             "mode": "preview",
             "source": true
           }
@@ -206,13 +182,13 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "12a85a343568be68",
+  "active": "859ea791f62d9bf1",
   "lastOpenFiles": [
     "Notes/Basis for null space (matrix, explicit).md",
+    "Notes/Null Space.md",
+    "Notes/Gauss-Jordan Elimination.md",
     "Notes/Basis (Linear Algebra).md",
     "Notes/Kronecker Delta.md",
-    "Notes/Gauss-Jordan Elimination.md",
-    "Notes/Null Space.md",
     "Notes/Gaussian Elimination.md",
     "Notes/Dimension (Linear Algebra).md",
     "Notes/Dimension of null space.md",
