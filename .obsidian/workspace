@@ -14,6 +14,30 @@
             "source": true
           }
         }
+      },
+      {
+        "id": "17683ae1ea462ff3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Gauss-Jordan Elimination.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "cc569e675d867ce9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Standard basis of tuple space is an ordered basis.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -185,14 +209,14 @@
   "active": "859ea791f62d9bf1",
   "lastOpenFiles": [
     "Notes/Basis for null space (matrix, explicit).md",
-    "Notes/Null Space.md",
     "Notes/Gauss-Jordan Elimination.md",
-    "Notes/Basis (Linear Algebra).md",
+    "Notes/Standard basis of tuple space is an ordered basis.md",
+    "Notes/Linear span is set of all linear combinations.md",
+    "Notes/Linear Span.md",
+    "Notes/Spanning Set.md",
+    "Notes/Standard Basis of Tuple Space.md",
     "Notes/Kronecker Delta.md",
     "Notes/Gaussian Elimination.md",
-    "Notes/Dimension (Linear Algebra).md",
-    "Notes/Dimension of null space.md",
-    "Notes/Basis for solution space of homogeneous linear system.md",
-    "Notes/Invariance of cardinality of bases (finite dim.).md"
+    "Notes/Null Space.md"
   ]
 }
