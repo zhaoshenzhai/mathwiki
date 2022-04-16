@@ -16,4 +16,4 @@ _Let $K$ be a field and consider a vector space $V$ over $K$. If $U\coloneqq\l\{
 
 ```
 
-_Proof_. Since $U$ and $W$ are both bases of $V$, we have, in particular, that $W$ is linearly independent in $V$ and that $\span U=V$. It follows then that $n\leq m$. Similarly, we have that $m\leq n$, so $m=n$ as desired.<span style="float:right;">$\blacksquare$</span>
+_Proof_. Since $U$ and $W$ are both bases of $V$, we have, in particular, that $W$ is linearly independent and that $\span U=V$. It follows then that $n\leq m$. Similarly, we have that $m\leq n$, so $m=n$ as desired.<span style="float:right;">$\blacksquare$</span>

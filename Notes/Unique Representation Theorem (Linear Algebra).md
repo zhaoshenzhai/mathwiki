@@ -12,7 +12,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Unique Representation Theorem).
 
-_Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space $V$ over $K$. Then $S$ is linearly independent in $V$ iff every non-zero vector spanned by $S$ can be uniquely represented as a linear combination of vectors in $S$; formally, iff_
+_Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space $V$ over $K$. Then $S$ is linearly independent iff every non-zero vector spanned by $S$ can be uniquely represented as a linear combination of vectors in $S$; formally, iff_
 $$\begin{equation}
     \fa v\in\span\l(S\r)\setminus\l\{0_V\r\},\ex!n\in\N^\ast,\ex!\alpha_1,\dots,\alpha_n\in K\setminus\l\{0\r\},\ex!s_1,\dots,s_n\in S:v=\sum_{i=1}^n\alpha_is_i.
 \end{equation}$$

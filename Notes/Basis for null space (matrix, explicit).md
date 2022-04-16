@@ -52,4 +52,4 @@ $$\begin{equation}
 \end{equation}$$
 To remove the second case, observe that $\alpha\in\mc{K}$ and thus $u\neq\alpha$ (since $u\in\mc{U}\Rightarrow u\not\in\mc{K}$). The result follows since $\delta_{u\alpha}=0$, so the last two cases can be combined.
 
-Hi
+It remains to show that $\span\l(B\r)=\null\l(A\r)$ and that $B$ is linearly independent.

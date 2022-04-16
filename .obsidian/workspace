@@ -16,6 +16,18 @@
         }
       },
       {
+        "id": "e2cc7d0247feba8e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
         "id": "17683ae1ea462ff3",
         "type": "leaf",
         "state": {
@@ -97,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Basis for null space (matrix, explicit).md",
+                "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +141,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Basis for null space (matrix, explicit).md",
+                "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -193,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Basis for null space (matrix, explicit).md",
+                "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +218,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "859ea791f62d9bf1",
+  "active": "e2cc7d0247feba8e",
   "lastOpenFiles": [
+    "Notes/Unique Representation Theorem (Linear Algebra).md",
+    "Notes/Invariance of cardinality of bases (finite dim.).md",
     "Notes/Basis for null space (matrix, explicit).md",
+    "Notes/Linear Independence.md",
+    "Notes/Spanning Set.md",
+    "Notes/Basis (Linear Algebra).md",
     "Notes/Gauss-Jordan Elimination.md",
     "Notes/Standard basis of tuple space is an ordered basis.md",
     "Notes/Linear span is set of all linear combinations.md",
-    "Notes/Linear Span.md",
-    "Notes/Spanning Set.md",
-    "Notes/Standard Basis of Tuple Space.md",
-    "Notes/Kronecker Delta.md",
-    "Notes/Gaussian Elimination.md",
-    "Notes/Null Space.md"
+    "Notes/Linear Span.md"
   ]
 }
