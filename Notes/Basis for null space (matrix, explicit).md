@@ -28,7 +28,7 @@ _for all $u\in\mc{U}$ and $\alpha\in\l\{1,\dots,n\r\}$, form a basis for $\null\
 
 ```
 
-_Proof_. We first verify that the tuples $\v{b}_u$ for all $u\in\mc{U}$ are solutions of $a\v{x}=\v{0}$.
+_Proof_. We first verify that the tuples $\v{b}_u$ for all $u\in\mc{U}$ are solutions of $A\v{x}=\v{0}$.
 * Take $u\in\mc{U}$. By Gauss-Jordan Elimination, $\v{b}_u\in K^n$ is a solution of $A\v{x}=\v{0}$ iff
 $$\begin{equation}
     \l(\v{b}_u\r)_\alpha=
@@ -41,7 +41,7 @@ for all $\alpha\in\l\{1,\dots,n\r\}$. The $\textrm{`}$parameters$\textrm{'}$ $t_
 $$\begin{equation}
     -\sum_{\mathclap{j\in\mc{C}_\alpha\setminus\mc{K}}}r_{ij}t_j=-\sum_{\mathclap{j\in\mc{C}_\alpha\setminus\mc{K}}}r_{ij}\delta_{u j}
 \end{equation}$$
-which can be simplified to $-r_{iu}$ if $u\in\mc{C}_\alpha\setminus\mc{K}$; otherwise, the sum evaluates to $0$. Thus $\v{b}_u$ defined by
+which can be simplified to $-r_{iu}$ if $u\in\mc{C}_\alpha\setminus\mc{K}$; otherwise, the sum evaluates to $0$. Thus $\v{b}_u$ simplifies to
 $$\begin{equation}
     \l(\v{b}_u\r)_\alpha=
         \begin{dcases}
@@ -50,6 +50,6 @@ $$\begin{equation}
             \delta_{u\alpha} & \textrm{else.}
         \end{dcases}
 \end{equation}$$
-To remove the second case, observe that $\alpha\in\mc{K}$ and thus $u\neq\alpha$ since $u\in\mc{U}\Rightarrow u\not\in\mc{K}$. The result follows.
+To remove the second case, observe that $\alpha\in\mc{K}$ and thus $u\neq\alpha$ (since $u\in\mc{U}\Rightarrow u\not\in\mc{K}$). The result follows since $\delta_{u\alpha}=0$, so the last two cases can be combined.
 
 Hi
