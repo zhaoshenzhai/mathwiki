@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Basis for null space (matrix, explicit)]]
+Properties: [[Basis for null space of matrix (explicit)]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Null space is a linear subspace of tuple space]]
