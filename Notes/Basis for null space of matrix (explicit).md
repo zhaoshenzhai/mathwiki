@@ -28,6 +28,62 @@ _for all $u\in\mc{U}$ and $\alpha\in\l\{1,\dots,n\r\}$, form a basis for $\null\
 
 ```
 
+**Remark.** The proof is not important, and the takeaway is best seen by an example. Consider
+$$\begin{equation}
+    A=
+        \begin{bmatrix}
+             1 & -3 &  0 &  2 &  2 \\
+            -2 &  6 &  1 &  2 & -5 \\
+             3 & -9 & -1 &  0 &  7 \\
+            -3 &  9 &  2 &  6 & -8
+        \end{bmatrix}\ \ \ \ \ \ \ \ \xrightarrow{\textrm{Elementary row operations}}\ \ \ \ \ \ \ \ R=
+        \begin{bmatrix}
+             1 & -3 &  0 &  2 &  2 \\
+             0 &  0 &  1 &  6 & -1 \\
+             0 &  0 &  0 &  0 &  0 \\
+             0 &  0 &  0 &  0 &  0
+        \end{bmatrix}.
+\end{equation}$$
+By Gauss-Jordan Elimination, the tuple $\v{s}\in K^n$ is a solution of $A\v{x}=\v{0}$ iff there exist $t_1,t_4,t_5\in K$ (they are usually re-indexed to $t_1$, $t_2$, and $t_3$) such that
+$$\begin{equation}
+    \v{s}=
+        \begin{bmatrix}
+            3t_1-2t_4-2t_5 \\
+            t_2 \\
+            -6t_4+t_5 \\
+            t_4 \\
+            t_5
+        \end{bmatrix}.
+\end{equation}$$
+Observe that we can write $\v{s}$ as
+$$\begin{equation}
+    \v{s}=
+        \begin{bmatrix}
+            \ \,3\ \, \\
+            1 \\
+            0 \\
+            0 \\
+            0 \\
+        \end{bmatrix}t_2+
+        \begin{bmatrix}
+            -2 \\
+            0 \\
+            6 \\
+            1 \\
+            0 \\
+        \end{bmatrix}t_4+
+        \begin{bmatrix}
+            -2 \\
+            0 \\
+            1 \\
+            0 \\
+            1 \\
+        \end{bmatrix}t_5
+\end{equation}$$
+which is a linear combination of the three linearly independent column vectors $\v{b}_2$, $\v{b}_4$, and $\v{b}_5$; the vector $\v{b}_u$ is the solution of $A\v{x}=\v{0}$ corresponding to choosing $t_u=1$ and $t_j=0$ for all $j\neq u$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 _Proof_. We first verify that the tuples $\v{b}_u$ for all $u\in\mc{U}$ are solutions of $A\v{x}=\v{0}$.
 * Take $u\in\mc{U}$. By Gauss-Jordan Elimination, $\v{b}_u\in K^n$ is a solution of $A\v{x}=\v{0}$ iff
 $$\begin{equation}
@@ -79,4 +135,7 @@ $$\begin{equation}
 \end{equation}$$
 Since $\v{s}=\l\langle s_1,\dots,s_n\r\rangle$ and each $s_j$ is expressed as a sum of components of $\v{b}_j$, we can factor out the sum and write $\v{s}$ as a linear combination of $B$. It follows then that $\v{s}\in\span\l(B\r)$, and since $\span\l(B\r)$ is an intersection of subspaces of $\null\l(A\r)$, we have that $\span\l(B\r)\subseteq\null\l(A\r)$. Equality follows.
 
-* ($B$ is linearly independent): 
+* ($B$ is linearly independent): Take $t_j\in K$ for all $j\in\mc{U}$ such that
+$$\begin{equation}
+    \sum_{\mathclap{j\in\mc{U}}}t_j\v{b}_j=\v{0}
+\end{equation}$$
