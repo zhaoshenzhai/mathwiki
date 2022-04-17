@@ -6,7 +6,7 @@ alias: auto_aliasing
 <br />
 
 Date Created: 07/04/2022 02:05:21
-Tags: #Definition #Later/Linear_Algebra 
+Tags: #Definition #Later/Linear_Algebra/Geometry
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
