@@ -12,6 +12,6 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-__
+_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$._
 
 ```

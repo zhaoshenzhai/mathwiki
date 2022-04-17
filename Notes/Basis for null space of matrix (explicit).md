@@ -82,7 +82,11 @@ $$\begin{equation}
 \end{equation}$$
 which is a linear combination of the three linearly independent column vectors $\v{b}_2$, $\v{b}_4$, and $\v{b}_5$.
 
-In general, the vector $\v{b}_u$ for each $\textrm{`}$free variable$\textrm{'}$ $u\in\mc{U}$ is the solution of $A\v{x}=\v{0}$ corresponding to choosing $t_u=1$ and $t_j=0$ for all $j\neq u$. There are $\l(n-r\r)$-many such vectors, so $\nullity\l(A\r)=\dim\null\l(A\r)=n-r$. This is a special case of the Rank-Nullity Theorem.<span style="float:right;">$\blacklozenge$</span>
+In general, the vector $\v{b}_u$ for each $\textrm{`}$free variable$\textrm{'}$ $u\in\mc{U}$ is the solution of $A\v{x}=\v{0}$ corresponding to choosing $t_u=1$ and $t_j=0$ for all $j\neq u$; they are called the **basic solutions of $A\v{x}=\v{0}$**. There are $\l(n-r\r)$-many such vectors, so $\nullity\l(A\r)=\dim\null\l(A\r)=n-r$, and since $r=\rank\l(A\r)$ and $n=\dim\l(K^n\r)$, we see that
+$$\begin{equation}
+    \rank\l(A\r)+\nullity\l(A\r)=\dim\l(K^n\r).
+\end{equation}$$
+This is a special case of the Rank-Nullity Theorem.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
@@ -142,7 +146,6 @@ $$\begin{equation}
     \sum_{\mathclap{j\in\mc{U}}}t_j\v{b}_j=\v{0}\ \ \ \ \ \ \ \ \xrightarrow{\textrm{Re-indexing}}\ \ \ \ \ \ \ \ \sum_{j=1}^{n-r}t_j\v{b}_j=\v{0}.
 \end{equation}$$
 Consider each $\v{b}_j\in\mat{n\times1}{K}$ as columns of the matrix $B\coloneqq\l[\v{b}_1\ \ \cdots\ \ \v{b}_{n-r}\r]\in\mat{n\times\l(n-r\r)}{K}$, so the tuple $\v{t}\coloneqq\l\langle t_1,\dots,t_{n-r}\r\rangle$ satisfies the homogeneous linear system $B\v{t}=\v{0}$. For each $\v{b}_j$, we have $\l(\v{b}_j\r)_j=\delta_{jj}=1$ and $\l(\v{b}_j\r)_l=\delta_{jl}=0$ for all $l\in\mc{U}$ with $l\neq j$. For this reason, we see that after performing elementary row operations that swap rows until all rows $\alpha\in\mc{K}$ are at the top, the bottom $\l(n-r\r)^2$ block can be rearranged into the identity matrix. Thus $B\v{t}=\v{0}$ can be written out as
-
   <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-04-17_202311/image.svg", width=300></center>
 
   which, by matrix multiplication, implies that $t_1=\cdots=t_{n-r}=0$.<span style="float:right;">$\blacksquare$</span>

@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "02df25ec7395a167",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Reflections in R2.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
         "id": "921c45c0e6fa38d0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Null space is span of basic solutions.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "3b21ae881ed2caf8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Span.md",
             "mode": "preview",
             "source": true
           }
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Later/Linear_Algebra",
+                "query": "tag:#In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "1bf52919416afc83",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Reflections in R2.md",
+                "file": "Notes/Null space is span of basic solutions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Reflections in R2.md",
+                "file": "Notes/Null space is span of basic solutions.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Reflections in R2.md",
+                "file": "Notes/Null space is span of basic solutions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "02df25ec7395a167",
+  "active": "921c45c0e6fa38d0",
   "lastOpenFiles": [
+    "Notes/Null space is span of basic solutions.md",
+    "Notes/Basis for null space of matrix (explicit).md",
+    "Notes/Linear Span.md",
+    "Notes/Null Space.md",
+    "Notes/Linear Subspace.md",
+    "Notes/Tuple Space (Linear Algebra).md",
     "Notes/Reflections in R2.md",
     "Notes/Rotations in R2.md",
     "Notes/Set of Linear Maps (Finite Dim.).md",
-    "Notes/Basis for null space of matrix (explicit).md",
-    "Notes/Pivot Column.md",
-    "Notes/Matrix Invertibility Criteria.md",
-    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
-    "Notes/Linear isomorphism between set of matrices and finite dim. linear maps.md",
-    "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
-    "Notes/Full-rank square matrix in RREF is identity.md"
+    "Notes/Pivot Column.md"
   ]
 }
