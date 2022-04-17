@@ -12,6 +12,11 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$._
+_Let $K$ be a field and fix $m,n\in\N$. Consider a matrix $A\in\mat{m\times n}{K}$, say with $\rank\l(A\r)=r$, and let_ $\v{b}_1,\dots,\v{b}_{n-r}$ _denote the basic solutions of $A\v{x}=\v{0}$. Then_
+$$\begin{equation}
+    \null\l(A\r)=\span\l\{\v{b}_1,\dots,\v{b}_{n-r}\r\}.
+\end{equation}$$
 
 ```
+
+_Proof_. 
