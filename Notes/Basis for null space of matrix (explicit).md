@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 13/04/2022 21:05:54
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed
 
 Proved by: [[Gauss-Jordan Elimination]], [[Linear span is set of all linear combinations]]
 Generalizations: _Not Applicable_

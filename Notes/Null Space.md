@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 03/04/2022 15:44:20
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Basis for null space of matrix (explicit)]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Null space is span of basic solutions]]
 Justifications: [[Null space is a linear subspace of tuple space]]
 
 ``` ad-Definition

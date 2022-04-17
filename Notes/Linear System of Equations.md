@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Homogeneous Linear System]]
 Examples: _Not Applicable_
-Constructions: [[Augmented Matrix]], [[Linear Combination (Linear System)]], [[Basic Solution (Linear System)]]
+Constructions: [[Augmented Matrix]], [[Linear Combination (Linear System)]]
 Generalizations: _Not Applicable_
 
 Properties: [[Classification of linear systems of equations (infinite field)]], [[Solution of system of linear combinations contains solution of original system]], [Linear system $A\v{x}=\v{b}$ is consistent for all $\v{b}$ $\Rightarrow$ $A$ is right-invertible](Linear%20system%20is%20consistent%20for%20all%20constants%20implies%20coefficient%20matrix%20right-invertible.md)
