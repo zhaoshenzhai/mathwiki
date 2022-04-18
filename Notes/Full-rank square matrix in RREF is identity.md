@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 08/04/2022 08:28:01
-Tags: #Proposition #Later/Linear_Algebra/Rank
+Tags: #Proposition #Closed
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_

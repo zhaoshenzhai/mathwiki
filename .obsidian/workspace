@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9f0cf47f31d09f62",
+        "id": "f6d153f0aff8523a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Full-rank Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Later/Linear_Algebra/Rank",
+                "query": "tag:#In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Full-rank Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241,
+    "width": 240,
     "collapsed": true
   },
   "right": {
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Full-rank Matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -157,7 +151,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.5292044647508591,
+                  "scale": 0.15156862668159493,
                   "close": true
                 }
               }
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Full-rank Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "9f0cf47f31d09f62",
+  "active": "f6d153f0aff8523a",
   "lastOpenFiles": [
-    "Notes/Full-rank Matrix.md",
     "Notes/Column Rank.md",
     "Notes/Row Rank.md",
+    "Notes/Full-rank Matrix.md",
+    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
     "Notes/Matrix.md",
-    "Notes/Pivot Column.md",
+    "Notes/Matrices coincide if their actions on all vectors coincide.md",
+    "Notes/Full-rank square matrix in RREF is identity.md",
+    "Notes/Square Matrix.md",
     "Notes/Reduced Row-echelon Matrix.md",
-    "Notes/Row-echelon Matrix.md",
-    "Notes/Basis for null space of matrix (explicit).md",
-    "Notes/Classification of linear systems of equations (infinite field).md",
-    "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md"
+    "Notes/Pivot Column.md"
   ]
 }
