@@ -6,8 +6,8 @@ Tags: #Theorem #Closed
 
 Proved by: [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
