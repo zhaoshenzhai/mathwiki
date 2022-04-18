@@ -61,10 +61,12 @@ while [ ! -z "$1" ]; do
             definitionJustifications=0
 
             propositionProvedBy=0
+            propositionJustifications=0
             propositionGeneralizations=0
             propositionCounterexamples=0
 
             theoremProvedBy=0
+            theoremJustifications=0
             theoremGeneralizations=0
             theoremCounterexamples=0
 
@@ -128,6 +130,12 @@ while [ ! -z "$1" ]; do
             done <<< "$allPropositions"
             echo -e "${YELLOW}   Proved by: $propositionProvedBy${NC}"
             while IFS= read -r proposition; do
+                if [[ -z $(grep "Justifications: _Not Applicable_" "$proposition") ]]; then
+                    propositionJustifications=$(($propositionJustifications + $(grep "Justifications:" "$proposition" | tr ' ' '\n' | grep -c "\]\]\,\|)\,") + 1))
+                fi
+            done <<< "$allPropositions"
+            echo -e "${YELLOW}   Justifications: $propositionJustifications${NC}"
+            while IFS= read -r proposition; do
                 if [[ -z $(grep "Generalizations: _Not Applicable_" "$proposition") ]]; then
                     propositionGeneralizations=$(($propositionGeneralizations + $(grep "Generalizations:" "$proposition" | tr ' ' '\n' | grep -c "\]\]\,\|)\,") + 1))
                 fi
@@ -148,6 +156,12 @@ while [ ! -z "$1" ]; do
                 fi
             done <<< "$allTheorems"
             echo -e "${YELLOW}   Proved by: $theoremProvedBy${NC}"
+            while IFS= read -r theorem; do
+                if [[ -z $(grep "Justifications: _Not Applicable_" "$theorem") ]]; then
+                    theoremJustifications=$(($theoremJustifications + $(grep "Justifications:" "$theorem" | tr ' ' '\n' | grep -c "\]\]\,\|)\,") + 1))
+                fi
+            done <<< "$allTheorems"
+            echo -e "${YELLOW}   Justifications: $theoremJustifications${NC}"
             while IFS= read -r theorem; do
                 if [[ -z $(grep "Generalizations: _Not Applicable_" "$theorem") ]]; then
                     theoremGeneralizations=$(($theoremGeneralizations + $(grep "Generalizations:" "$theorem" | tr ' ' '\n' | grep -c "\]\]\,\|)\,") + 1))
