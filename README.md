@@ -43,7 +43,7 @@ Pluggins:
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
 * [Sliding Panes (Andy's Mode)](https://github.com/deathau/sliding-panes-obsidian): Stack panes side-by-side.
 
-Some stats: 523 notes, 1162 links, 50 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
+Some stats:  notes,  links,  images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
 ### TikZ images
 
@@ -61,15 +61,15 @@ The svg images are uploaded to Github instead of linked directly in Obsidian bec
 
 ## :telescope: Graph View: ![Definition](https://via.placeholder.com/15/63bfee/000000?text=+) Definitions | ![Proposition](https://via.placeholder.com/15/e665b7/000000?text=+) Propositions | ![Theorem](https://via.placeholder.com/15/65fb65/000000?text=+) Theorems | ![Axiom](https://via.placeholder.com/15/f95d5d/000000?text=+) Axioms
 
-![Graph view](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/graph_view.png)
+![Graph view](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/graph_view.png)
 
 ## :page_with_curl: Sample Pages
 
-![Subspace Topology (Basis)](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/sample_pages/subspace_topology_basis.png)
+![Subspace Topology (Basis)](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/subspace_topology_basis.png)
 
-![Function](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/sample_pages/function.png)
+![Function](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/function.png)
 
-![Fundamental Theorem of Equivalence Relations](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/images/sample_pages/fundamental_theorem_of_equivalence_relations.png)
+![Fundamental Theorem of Equivalence Relations](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/fundamental_theorem_of_equivalence_relations.png)
 
 [templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/vimwiki.snippets#L679
 [tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/config/MathWiki.vim#L2
