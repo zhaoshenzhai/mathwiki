@@ -8,12 +8,12 @@ NC='\033[0m'
 
 cd ~/MathWiki/Notes
 
-source ~/MathWiki/.scripts/stats.sh -u
-source ~/MathWiki/.scripts/stats.sh -p
-printf "\n"
-
 repeat="Y"
 while [[ "$repeat" == "Y" ]]; do
+    source ~/MathWiki/.scripts/stats.sh -u
+    source ~/MathWiki/.scripts/stats.sh -p
+    printf "\n"
+
     echo -e "${CYAN}Actions:${NC}"
     echo -e "${CYAN}    (1): GitHub${NC}"
     echo -e "${CYAN}    (2): Mass editing${NC}"
