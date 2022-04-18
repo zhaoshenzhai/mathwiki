@@ -4,9 +4,9 @@
 Date Created: 22/03/2022 16:12:09
 Tags: #Definition #Closed 
 
-Types: [[Row-echelon Matrix]], [[Square Matrix]], [[Left-invertible Matrix]], [[Right-inverible Matrix]]
+Types: [[Row-echelon Matrix]], [[Square Matrix]], [[Left-invertible Matrix]], [[Right-inverible Matrix]], [[Full-rank Matrix]]
 Examples: [[Augmented Matrix]], [[Zero Matrix]]
-Constructions: [[Set of Matrices]], [[Linear map Induced by a Matrix]], [[Null Space]], [[Column Space]], [[Row Space]], [[Column Rank]]
+Constructions: [[Set of Matrices]], [[Linear map Induced by a Matrix]], [[Null Space]], [[Column Space]], [[Row Space]], [[Column Rank]], [[Row Rank]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

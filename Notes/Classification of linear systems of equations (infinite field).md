@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 26/03/2022 23:01:01
-Tags: #Proposition #Later/Linear_Algebra/Rank
+Tags: #Proposition #Closed
 
 Proved by: [[Gaussian Elimination]], [[Gauss-Jordan Elimination]], [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
 Justifications: _Not Applicable_
@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be an infinite field and consider any linear system_
+_Let $K$ be an infinite field and consider an $m\times n$ linear system_
 $$\begin{equation}
     A\v{x}=\v{b}\ \ \ \ \Leftrightarrow\ \ \ \ \l\{\begin{alignedat}{7}
         &a_{11}x_1&&\,+&&\,\cdots\,&&\,+\,&&a_{1n}x_n&&=\ &&b_1\\
@@ -21,7 +21,7 @@ $$\begin{equation}
         &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m
     \end{alignedat}\r.
 \end{equation}$$
-_of equations over $K$. Then the system is either inconsistent, has either a unique solution, or has infinitely-many solutions._
+_of equations over $K$ form some fixed $m,n\in\N^\ast$. Then the system is either inconsistent, has either a unique solution, or has infinitely-many solutions._
 
 ```
 
