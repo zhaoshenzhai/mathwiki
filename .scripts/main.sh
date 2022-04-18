@@ -12,7 +12,6 @@ source ~/MathWiki/.scripts/stats.sh -t
 printf "\n"
 
 repeat="Y"
-
 while [[ "$repeat" == "Y" ]]; do
     echo -e "${CYAN}Actions:${NC}"
     echo -e "${CYAN}    (1): GitHub${NC}"
