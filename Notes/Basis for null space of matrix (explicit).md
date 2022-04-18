@@ -83,11 +83,15 @@ $$\begin{equation}
 \end{equation}$$
 which is a linear combination of the three linearly independent column vectors $\v{b}_2$, $\v{b}_4$, and $\v{b}_5$.
 
-In general, the vector $\v{b}_u$ for each $\textrm{`}$free variable$\textrm{'}$ $u\in\mc{U}$ is the solution of $A\v{x}=\v{0}$ corresponding to choosing $t_u=1$ and $t_j=0$ for all $j\neq u$; they are called the **basic solutions of $A\v{x}=\v{0}$**. There are $\l(n-r\r)$-many such vectors, so $\nullity\l(A\r)=\dim\null\l(A\r)=n-r$, and since $r=\rank\l(A\r)$ and $n=\dim\l(K^n\r)$, we see that
+In general, the vector $\v{b}_u$ for each $\textrm{`}$free variable$\textrm{'}$ $u\in\mc{U}$ is the solution of $A\v{x}=\v{0}$ corresponding to choosing $t_u=1$ and $t_j=0$ for all $j\neq u$; they are called the **basic solutions of $A\v{x}=\v{0}$**. The set $\mc{B}$ of all such vectors is a linearly independent spanning set for $\null\l(A\r)$, and since there are $\l(n-r\r)$-many such vectors, we have
+$$\begin{equation}
+    \nullity\l(A\r)=\dim\null\l(A\r)=n-r
+\end{equation}$$
+which, observing that $\rank\l(A\r)=r$ and $\dom\null\l(A\r)=\nullity\l(A\r)$, is equivalent to
 $$\begin{equation}
     \rank\l(A\r)+\nullity\l(A\r)=\dim\l(K^n\r).
 \end{equation}$$
-This is a special case of the Rank-Nullity Theorem.<span style="float:right;">$\blacklozenge$</span>
+This can be seen as a special case of the Rank-Nullity Theorem by replacing $A$ with its induced linear map $T_A$, $\nullity\l(A\r)$ with $\ker\l(T_A\r)$, and $K^n$ with $\dom\l(T_A\r)$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

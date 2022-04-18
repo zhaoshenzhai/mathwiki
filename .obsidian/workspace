@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "bd442a139a7b5784",
+        "id": "16811ecfa9f5926c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Null space is span of basic solutions.md",
+            "file": "Notes/Basis for null space of matrix (explicit).md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Null space is span of basic solutions.md",
+                "file": "Notes/Basis for null space of matrix (explicit).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Null space is span of basic solutions.md",
+                "file": "Notes/Basis for null space of matrix (explicit).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -157,7 +157,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.186635829383125,
+                  "scale": 0.10749001119927293,
                   "close": true
                 }
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Null space is span of basic solutions.md",
+                "file": "Notes/Basis for null space of matrix (explicit).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "bd442a139a7b5784",
+  "active": "16811ecfa9f5926c",
   "lastOpenFiles": [
+    "Notes/Basis for null space of matrix (explicit).md",
+    "Notes/Null Space.md",
     "Notes/Null space is span of basic solutions.md",
+    "Notes/Linear Span.md",
     "Notes/Gauss-Jordan Elimination.md",
     "Notes/Gauss-Jordan Algorithm.md",
     "Notes/Gaussian Elimination.md",
     "Notes/Absolute complement of a set is a proper class.md",
     "Notes/Unique Representation Theorem (Linear Algebra).md",
-    "Notes/Linear Span.md",
-    "Notes/Basis for null space of matrix (explicit).md",
-    "Notes/Vector Space.md",
-    "Notes/Standard topology on R (explicit).md"
+    "Notes/Vector Space.md"
   ]
 }

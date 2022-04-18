@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Basis for null space of matrix (explicit)]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Null space is span of basic solutions]]
+Equivalences: _Not Applicable_
 Justifications: [[Null space is a linear subspace of tuple space]]
 
 ``` ad-Definition
