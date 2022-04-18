@@ -10,7 +10,7 @@ NC='\033[0m'
 
 while [ ! -z "$1" ]; do
     case "$1" in
-        --total|-t)
+        --update|-u)
             cd ./Notes
 
             numNotes=$(ls | wc -l)
@@ -24,7 +24,8 @@ while [ ! -z "$1" ]; do
             numImages=$(($(find -type d | wc -l) - 1))
 
             cd ..
-
+        ;;
+        --print|-p)
             echo -e "${CYAN}$numNotes notes, $numLinks links, $numImages images${NC}"
         ;;
         --ghost|-g)
@@ -39,7 +40,7 @@ while [ ! -z "$1" ]; do
 
             cd ..
         ;;
-        --update|-u)
+        --readme|-r)
             sed -i 's/[0-9][0-9]*\snotes/'"$numNotes"' notes/g' README.md
             sed -i 's/[0-9][0-9]*\slinks/'"$numLinks"' links/g' README.md
             sed -i 's/[0-9][0-9]*\simages/'"$numImages"' images/g' README.md

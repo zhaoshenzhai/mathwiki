@@ -8,7 +8,8 @@ NC='\033[0m'
 
 cd ~/MathWiki/Notes
 
-source ~/MathWiki/.scripts/stats.sh -t
+source ~/MathWiki/.scripts/stats.sh -u
+source ~/MathWiki/.scripts/stats.sh -p
 printf "\n"
 
 repeat="Y"
