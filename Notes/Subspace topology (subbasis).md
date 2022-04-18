@@ -5,6 +5,7 @@ Date Created: 11/02/2022 17:57:27
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for subbasis to generate existing basis]], [[Subspace topology (basis)]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

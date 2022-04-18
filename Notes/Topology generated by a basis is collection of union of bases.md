@@ -5,6 +5,7 @@ Date Created: 24/01/2022 12:14:51
 Tags: #Proposition #Closed 
 
 Proved by: [[Subset relation is transitive]], [[Union of set of subsets is a subset]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

@@ -9,6 +9,7 @@ Date Created: 01/04/2022 21:34:08
 Tags: #Proposition #Closed
 
 Proved by: _Not Applicable_
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

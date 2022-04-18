@@ -5,6 +5,7 @@ Date Created: 19/02/2022 14:36:08
 Tags: #Proposition #Closed
 
 Proved by: [[Double complement of set is set itself]], [[De Morgan's Laws]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

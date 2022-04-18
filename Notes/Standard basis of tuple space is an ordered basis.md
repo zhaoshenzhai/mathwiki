@@ -5,6 +5,7 @@ Date Created: 06/04/2022 22:16:10
 Tags: #Proposition #Closed
 
 Proved by: [[Linear span is set of all linear combinations]], [[Matrix multiplication (columns)]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

@@ -5,6 +5,7 @@ Date Created: 23/03/2022 19:38:41
 Tags: #Proposition #Closed 
 
 Proved by: [[Elementary row operations have inverses of the same type]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

@@ -5,6 +5,7 @@ Date Created: 01/02/2022 10:54:47
 Tags: #Proposition #Closed 
 
 Proved by: [[Union of subsets is a subset of union]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

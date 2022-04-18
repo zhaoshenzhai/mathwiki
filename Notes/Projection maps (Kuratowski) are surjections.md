@@ -5,6 +5,7 @@ Date Created: 30/01/2022 12:29:53
 Tags: #Proposition #Closed 
 
 Proved by: [[Formula in replacement image constructs a function]]
+Justifications: _Not Applicable_
 Generalizations: [[Projection maps (arbitrary) are surjections]]
 
 Counterexamples: _Not Applicable_

@@ -5,6 +5,7 @@ Date Created: 23/01/2022 19:12:21
 Tags: #Proposition #Closed 
 
 Proved by: [[Cardinality of power set]], [$\bigcup\em=\em$](Union%20of%20empty%20set%20is%20empty.md)
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

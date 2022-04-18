@@ -5,6 +5,7 @@ Date Created: 02/04/2022 00:00:19
 Tags: #Proposition #Closed
 
 Proved by: [[Matrix multiplication (columns)]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

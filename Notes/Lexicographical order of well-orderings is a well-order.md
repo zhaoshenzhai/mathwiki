@@ -5,6 +5,7 @@ Date Created: 01/02/2022 10:41:22
 Tags: #Proposition #Closed 
 
 Proved by: [[Strict lexicographical order is total if orders are strictly total]], [[Well-ordering well-orders subsets]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

@@ -5,6 +5,7 @@ Date Created: 27/01/2022 10:41:34
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for equality of functions]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

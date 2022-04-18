@@ -5,6 +5,7 @@ Date Created: 08/02/2022 11:24:30
 Tags: #Proposition #Closed 
 
 Proved by: [$\sttopR\subset\ULtopR$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\sttopR\subset\LLtopR$](Lower-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\sttopR\subset\KtopR$](K%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\KtopR\subset\ULtopR$](Upper-limit%20topology%20strictly%20finer%20than%20K%20topology%20on%20R.md), [$\LLtopR\not\subseteq\ULtopR\land\ULtopR\not\subseteq\LLtopR$](Lower%20and%20upper%20limit%20topologies%20are%20not%20comparable%20on%20R.md), [$\LLtopR\not\subseteq\KtopR\land\KtopR\not\subseteq\LLtopR$](Lower%20and%20K%20topologies%20are%20not%20comparable%20on%20R.md)
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

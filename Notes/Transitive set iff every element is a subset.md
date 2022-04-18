@@ -9,6 +9,7 @@ Date Created: 30/01/2022 19:20:35
 Tags: #Proposition #Closed 
 
 Proved by: [[Exportation (Rule of Inference)]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

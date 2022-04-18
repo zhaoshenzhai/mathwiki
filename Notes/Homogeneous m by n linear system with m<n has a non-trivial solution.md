@@ -9,6 +9,7 @@ Date Created: 28/03/2022 15:32:39
 Tags: #Proposition #Later/Linear_Algebra/Rank
 
 Proved by: [[Classification of linear systems of equations (infinite field)]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

@@ -5,6 +5,7 @@ Date Created: 27/01/2022 17:19:03
 Tags: #Proposition #Open
 
 Proved by: [[Identity function is a bijection]], [[Inverse of bijection is a bijection]], [[Composition of bijections is a bijection]]
+Justifications: _Not Applicable_
 Generalizations: [[Isomorphism of objects is an equivalence relation]]
 
 Counterexamples: _Not Applicable_

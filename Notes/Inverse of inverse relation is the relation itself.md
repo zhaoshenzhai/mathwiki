@@ -5,6 +5,7 @@ Date Created: 22/01/2022 09:43:31
 Tags: #Proposition #Closed 
 
 Proved by: [[Inverse of a relation is a relation]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

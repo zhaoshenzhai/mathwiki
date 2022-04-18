@@ -9,6 +9,7 @@ Date Created: 27/01/2022 12:42:19
 Tags: #Proposition #Open
 
 Proved by: [[Exists function in relation iff Choice]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

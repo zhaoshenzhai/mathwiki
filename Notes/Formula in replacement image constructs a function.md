@@ -5,6 +5,7 @@ Date Created: 21/01/2022 08:57:57
 Tags: #Proposition #Open 
 
 Proved by: [[Replacement image of a set is a set]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

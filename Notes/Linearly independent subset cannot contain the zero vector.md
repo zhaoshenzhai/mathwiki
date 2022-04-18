@@ -5,6 +5,7 @@ Date Created: 04/04/2022 20:55:25
 Tags: #Proposition #Closed
 
 Proved by: [[Algebraic consequences (vector space)]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

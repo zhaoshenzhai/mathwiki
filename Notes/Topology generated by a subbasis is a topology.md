@@ -5,6 +5,7 @@ Date Created: 24/01/2022 21:00:06
 Tags: #Proposition #Closed 
 
 Proved by: [[Intersection of intersections is an intersection]], [[Interection of finite sets is finite]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

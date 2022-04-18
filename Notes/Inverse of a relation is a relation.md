@@ -5,6 +5,7 @@ Date Created: 21/01/2022 11:24:19
 Tags: #Proposition #Closed 
 
 Proved by: [Binary relation $\Leftrightarrow$ subset of Cartesian product](Binary%20relation%20iff%20subset%20of%20Cartesian%20product.md), [[Set-builder notation is unique]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

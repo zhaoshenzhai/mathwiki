@@ -5,6 +5,7 @@ Date Created: 20/02/2022 17:30:20
 Tags: #Proposition #Closed 
 
 Proved by: [[Half-infinite open rays are open in the order topology]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

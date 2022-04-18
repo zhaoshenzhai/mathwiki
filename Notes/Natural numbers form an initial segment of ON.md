@@ -9,6 +9,7 @@ Date Created: 02/02/2022 11:40:56
 Tags: #Proposition #Closed 
 
 Proved by: [$\textrm{ON}$ is a transitive class](ON%20is%20a%20transitive%20class.md), [[Reflexive closure of ordering on ordinals]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

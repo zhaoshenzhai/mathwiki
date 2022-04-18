@@ -5,6 +5,7 @@ Date Created: 15/01/2022 14:02:37
 Tags: #Proposition #Closed 
  
 Proved by: [[Axiom of Extensionality]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

@@ -5,6 +5,7 @@ Date Created: 30/01/2022 13:03:07
 Tags: #Proposition #Closed 
 
 Proved by: [[Formula in replacement image constructs a function]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

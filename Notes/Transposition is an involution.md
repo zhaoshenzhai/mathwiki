@@ -5,6 +5,7 @@ Date Created: 30/03/2022 16:20:01
 Tags: #Proposition #Closed 
 
 Proved by: _Not Applicable_
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

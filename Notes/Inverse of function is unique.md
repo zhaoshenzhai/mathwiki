@@ -5,6 +5,7 @@ Date Created: 27/01/2022 11:05:54
 Tags: #Proposition #Closed 
 
 Proved by: [[Identity function is the identity of function composition]], [[Composition of relations is associative]]
+Justifications: _Not Applicable_
 Generalizations: [[Inverse of morphism is unique]]
 
 Counterexamples: _Not Applicable_

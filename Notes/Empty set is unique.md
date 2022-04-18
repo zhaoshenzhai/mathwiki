@@ -5,6 +5,7 @@ Date Created: 16/01/2022 13:52:13
 Tags: #Proposition #Closed
 
 Proved by: [[Axiom of Extensionality]]
+Justifications: _Not Applicable_
 Generalizations: [[Set-builder notation is unique]]
 
 Counterexamples: _Not Applicable_

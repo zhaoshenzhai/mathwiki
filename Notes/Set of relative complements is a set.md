@@ -5,6 +5,7 @@ Date Created: 18/01/2022 16:08:40
 Tags: #Proposition #Closed  
 
 Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

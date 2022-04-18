@@ -5,6 +5,7 @@ Date Created: 17/01/2022 15:30:37
 Tags: #Proposition #Open
 
 Proved by: [[Universal set is a proper class]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

@@ -9,6 +9,7 @@ Date Created: 30/03/2022 17:56:16
 Tags: #Proposition #Later/Linear_Algebra/Rank
 
 Proved by: [[Matrix multiplication (columns)]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

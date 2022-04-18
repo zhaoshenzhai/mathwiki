@@ -9,6 +9,7 @@ Date Created: 10/02/2022 13:32:29
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for fineness w.r.t. bases]], [[Product topology (basis; component from bases)]], [[Discrete topology (basis)]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

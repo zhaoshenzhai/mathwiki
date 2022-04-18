@@ -5,6 +5,7 @@ Date Created: 09/02/2022 09:43:00
 Tags: #Proposition #Closed 
 
 Proved by: [[Conjunction is idempotent]], [[Conjunction is associative]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

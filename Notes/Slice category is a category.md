@@ -5,6 +5,7 @@ Date Created: 25/02/2022 17:37:38
 Tags: #Proposition #Closed 
 
 Proved by: _Not Applicable_
+Justifications: _Not Applicable_
 Generalizations: [[Comma category is a category]]
 
 Counterexamples: _Not Applicable_

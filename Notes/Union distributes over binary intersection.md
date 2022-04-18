@@ -5,6 +5,7 @@ Date Created: 11/02/2022 13:05:23
 Tags: #Proposition #Open 
 
 Proved by: _Not Applicable_
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

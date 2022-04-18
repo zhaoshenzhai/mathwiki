@@ -5,6 +5,7 @@ Date Created: 17/01/2022 18:06:33
 Tags: #Proposition #Closed 
 
 Proved by: _Not Applicable_
+Justifications: _Not Applicable_
 Generalizations: [[Intersection of subsets is a subset of intersection]]
 
 Counterexamples: _Not Applicable_

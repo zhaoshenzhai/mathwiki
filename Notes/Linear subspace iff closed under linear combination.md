@@ -9,6 +9,7 @@ Date Created: 03/04/2022 14:39:34
 Tags: #Proposition #Closed
 
 Proved by: [[Algebraic consequences (vector space)]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

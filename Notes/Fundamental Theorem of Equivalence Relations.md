@@ -5,6 +5,7 @@ Date Created: 29/01/2022 16:31:03
 Tags: #Theorem #Closed 
 
 Proved by: [[Relation induced by a partition is an equivalence relation]], [[Quotient set is a partition]], [Same equivalence class $\Leftrightarrow$ related](Same%20equivalence%20class%20iff%20related.md)
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Examples: _Not Applicable_

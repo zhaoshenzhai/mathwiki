@@ -5,6 +5,7 @@ Date Created: 30/03/2022 17:05:03
 Tags: #Proposition #Closed 
 
 Proved by: [[Transposition respects matrix addition]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

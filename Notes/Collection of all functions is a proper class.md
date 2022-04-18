@@ -5,6 +5,7 @@ Date Created: 28/01/2022 17:27:04
 Tags: #Proposition #Closed 
 
 Proved by: [[Collection of all singletons is a proper class]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

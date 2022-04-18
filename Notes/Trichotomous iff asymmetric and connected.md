@@ -9,6 +9,7 @@ Date Created: 03/02/2022 18:24:55
 Tags: #Proposition #Closed 
 
 Proved by: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity.md)
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

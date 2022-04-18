@@ -5,6 +5,7 @@ Date Created: 19/01/2022 14:29:38
 Tags: #Proposition #Closed
 
 Proved by: [[Distribution of universal quantifier over conjunction]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

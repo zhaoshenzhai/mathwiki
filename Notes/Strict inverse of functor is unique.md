@@ -5,6 +5,7 @@ Date Created: 11/03/2022 21:51:28
 Tags: #Proposition #Closed 
 
 Proved by: [[Identity functor is the identity of functor composition]], [[Composition of functors is associative]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

@@ -9,6 +9,7 @@ Date Created: 07/04/2022 01:04:29
 Tags: #Proposition #Closed
 
 Proved by: [[Matrix multiplication is associative]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

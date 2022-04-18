@@ -5,6 +5,7 @@ Date Created: 18/02/2022 16:16:11
 Tags: #Proposition #Closed 
 
 Proved by: [[Restricted order topology subset of subspace topology]], [[Ordered square is strict subset of subspace topology]], [[Subspace of order topology strictly finer than product topology on ordered square]], [[Order and product topologies not comparable on ordered square]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

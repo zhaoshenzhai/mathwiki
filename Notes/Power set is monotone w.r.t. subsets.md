@@ -5,6 +5,7 @@ Date Created: 15/01/2022 07:52:03
 Tags: #Proposition #Closed
  
 Proved by: [[Subset relation is transitive]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

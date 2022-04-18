@@ -5,6 +5,7 @@ Date Created: 02/02/2022 13:39:26
 Tags: #Proposition #Closed 
 
 Proved by: [Natural numbers form an initial segment of $\textrm{ON}$](Natural%20numbers%20form%20an%20initial%20segment%20of%20ON.md), [[Well-ordering well-orders subsets]], [$\textrm{ON}$ is well-ordered by membership](ON%20is%20well-ordered%20by%20membership.md)
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

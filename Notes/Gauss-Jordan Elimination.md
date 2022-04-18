@@ -5,6 +5,7 @@ Date Created: 26/03/2022 14:27:26
 Tags: #Theorem #Closed
 
 Proved by: [[Gaussian Elimination]], [[Gauss-Jordan Algorithm]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

@@ -5,6 +5,7 @@ Date Created: 29/03/2022 16:47:41
 Tags: #Proposition #Closed
 
 Proved by: [[Additive tuple space is an Abelian group]]
+Justifications: _Not Applicable_
 Generalizations: [[Set of matrices form a vector space]]
 
 Counterexamples: _Not Applicable_

@@ -5,6 +5,7 @@ Date Created: 26/03/2022 14:21:31
 Tags: #Proposition #Closed 
 
 Proved by: [[Gaussian Algorithm]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

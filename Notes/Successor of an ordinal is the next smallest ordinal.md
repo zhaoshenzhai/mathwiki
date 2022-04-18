@@ -5,6 +5,7 @@ Date Created: 31/01/2022 16:33:49
 Tags: #Proposition #Closed 
 
 Proved by: [[Reflexive closure of ordering on ordinals]],  [$\textrm{ON}$ is a transitive class](ON%20is%20a%20transitive%20class.md)
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

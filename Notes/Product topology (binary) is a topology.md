@@ -5,6 +5,7 @@ Date Created: 09/02/2022 09:34:39
 Tags: #Proposition #Closed 
 
 Proved by: [[Cartesian product of intersections]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

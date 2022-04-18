@@ -5,6 +5,7 @@ Date Created: 31/03/2022 21:26:30
 Tags: #Proposition #Closed 
 
 Proved by: [[Additive matrix group is an Abelian group]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

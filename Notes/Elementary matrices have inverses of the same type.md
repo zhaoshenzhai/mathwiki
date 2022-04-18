@@ -5,6 +5,7 @@ Date Created: 08/04/2022 05:58:36
 Tags: #Proposition #Closed
 
 Proved by: [[Elementary row operations have inverses of the same type]], [[Left-multiplication by elementary matrix is action by its elementary row operation]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

@@ -9,6 +9,7 @@ Date Created: 05/02/2022 11:07:34
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for fineness w.r.t. bases]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

@@ -5,6 +5,7 @@ Date Created: 08/04/2022 05:48:11
 Tags: #Proposition #Closed
 
 Proved by: [[Transposition anti-respects matrix multiplication]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

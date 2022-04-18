@@ -5,6 +5,7 @@ Date Created: 26/01/2022 12:09:33
 Tags: #Proposition #Closed 
 
 Proved by: [[Subset relation is transitive]], [[Axiom of Extensionality]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

@@ -5,6 +5,7 @@ Date Created: 12/03/2022 17:39:47
 Tags: #Proposition #Closed 
 
 Proved by: [[Identity morphism is an isomorphism]], [[Identity functor is the identity of functor composition]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

@@ -13,6 +13,7 @@ read -ep "$(echo -e ${CYAN}"Insert text [string]: "${NC})" text
 read -ep "$(echo -e ${CYAN}"...after line containing [string]: "${NC})" identifier
 
 text="\n$(Format "$text")"
+#identifier="\n$(Format "$identifier")"
 
 allFileWithLines="$(grep -no "$identifier" * | sed 's/:'"$identifier"'//g')"
 allFiles=$(echo "$allFileWithLines" | sed 's/:.*$//g')

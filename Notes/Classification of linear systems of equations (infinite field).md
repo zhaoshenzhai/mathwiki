@@ -5,6 +5,7 @@ Date Created: 26/03/2022 23:01:01
 Tags: #Proposition #Later/Linear_Algebra/Rank
 
 Proved by: [[Gaussian Elimination]], [[Gauss-Jordan Elimination]], [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

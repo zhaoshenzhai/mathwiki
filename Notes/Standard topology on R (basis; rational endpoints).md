@@ -9,6 +9,7 @@ Date Created: 04/02/2022 14:47:46
 Tags: #Proposition #Closed 
 
 Proved by: [[Criteria for collection to be a basis for an existing topology]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

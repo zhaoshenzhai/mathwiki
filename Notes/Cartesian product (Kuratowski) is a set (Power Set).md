@@ -5,6 +5,7 @@ Date Created: 21/01/2022 17:33:37
 Tags: #Proposition #Closed 
 
 Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [[Subset relation is transitive]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

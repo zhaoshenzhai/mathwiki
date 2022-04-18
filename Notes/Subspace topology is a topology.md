@@ -5,6 +5,7 @@ Date Created: 11/02/2022 12:36:49
 Tags: #Proposition #Closed 
 
 Proved by: [[Union distributes over binary intersection]], [[Intersection of intersections is an intersection]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

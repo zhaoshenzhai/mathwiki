@@ -5,6 +5,7 @@ Date Created: 25/01/2022 13:52:56
 Tags: #Proposition #Closed 
 
 Proved by: [[Distribution of conjunction over disjunction]], [[Distribution of existential quantifier over disjunction]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

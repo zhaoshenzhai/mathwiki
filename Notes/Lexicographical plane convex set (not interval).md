@@ -5,6 +5,7 @@ Date Created: 18/02/2022 10:31:57
 Tags: #Proposition #Closed 
 
 Proved by: [[Lexicographical order is total if orders are total]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

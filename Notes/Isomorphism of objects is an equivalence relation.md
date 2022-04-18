@@ -5,6 +5,7 @@ Date Created: 23/02/2022 16:57:55
 Tags: #Proposition #Open 
 
 Proved by: [[Identity morphism is an isomorphism]], [[Inverse of isomorphism is an isomorphism]], [[Composition of isomorphims are isomorphisms]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

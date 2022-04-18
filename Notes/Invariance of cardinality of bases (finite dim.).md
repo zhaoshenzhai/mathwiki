@@ -5,6 +5,7 @@ Date Created: 06/04/2022 21:55:25
 Tags: #Proposition #Closed
 
 Proved by: [Finite spanning set $\Rightarrow$ any linearly independent set is no larger](Finite%20spanning%20set%20implies%20any%20linearly%20independent%20set%20is%20no%20larger.md)
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

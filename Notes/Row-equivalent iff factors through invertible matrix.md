@@ -9,6 +9,7 @@ Date Created: 09/04/2022 08:39:08
 Tags: #Proposition #Closed
 
 Proved by: [$A$ invertible $\Leftrightarrow$ $A\sim I$](Matrix%20invertible%20iff%20row-equivalent%20to%20identity.md), [Row-equivalent $\Leftrightarrow$ factors through elementary matrices](Row-equivalent%20iff%20factors%20through%20elementary%20matrices.md), [Matrix invertible $\Leftrightarrow$ factors invertible](Matrix%20invertible%20iff%20factors%20invertible.md)
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_

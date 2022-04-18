@@ -5,6 +5,7 @@ Date Created: 27/01/2022 13:41:57
 Tags: #Proposition #Closed 
 
 Proved by: [Invertible $\Leftrightarrow$ bijective](Invertible%20iff%20bijective.md)
+Justifications: _Not Applicable_
 Generalizations: [[Inverse of isomorphism is an isomorphism]]
 
 Counterexamples: _Not Applicable_

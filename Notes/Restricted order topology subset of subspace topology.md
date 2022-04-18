@@ -5,6 +5,7 @@ Date Created: 12/02/2022 15:10:37
 Tags: #Proposition #Closed 
 
 Proved by: [[Order topology (subbasis)]], [[Subspace topology (subbasis)]]
+Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Counterexamples: _Not Applicable_
