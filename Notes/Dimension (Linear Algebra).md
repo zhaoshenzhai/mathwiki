@@ -5,7 +5,7 @@ Date Created: 04/04/2022 23:26:15
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Dimension of zero vector space]]
+Examples: [[Dimension of zero vector space]], [[Dimension of column space is column rank]]
 Constructions: [[Finite Dimensional Vector Space]]
 Generalizations: _Not Applicable_
 

@@ -21,4 +21,8 @@ _Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixe
 
 ```
 
+**Remark.** Equivalently, since a row of $R$ contains a leading $1$ iff it is a non-zero row (this follows from $\axiref[2]$), we see that $\row\rank\l(A\r)$ is the number of non-zero rows of $R$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 **Remark.** Since $\col\rank\l(A\r)=\row\rank\l(A\r)$, we shall simply denote both by $\rank\l(A\r)$.<span style="float:right;">$\blacklozenge$</span>

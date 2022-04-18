@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Dimension of column space is column rank]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Column space is image of induced linear map]]
 Justifications: _Not Applicable_
