@@ -4,7 +4,7 @@
 Date Created: 17/04/2022 21:57:54
 Tags: #Proposition #In_Progress
 
-Proved by: _Not Applicable_
+Proved by: [[Basis (Topology)]]
 Justifications: [[Basis for null space of matrix (explicit)]]
 
 Generalizations: _Not Applicable_
