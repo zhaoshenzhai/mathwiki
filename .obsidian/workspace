@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f16f50abace5e460",
+        "id": "bd442a139a7b5784",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Gauss-Jordan Elimination.md",
+            "file": "Notes/Null space is span of basic solutions.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Gauss-Jordan Elimination.md",
+                "file": "Notes/Null space is span of basic solutions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Gauss-Jordan Elimination.md",
+                "file": "Notes/Null space is span of basic solutions.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Gauss-Jordan Elimination.md",
+                "file": "Notes/Null space is span of basic solutions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,12 +182,12 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f16f50abace5e460",
+  "active": "bd442a139a7b5784",
   "lastOpenFiles": [
+    "Notes/Null space is span of basic solutions.md",
     "Notes/Gauss-Jordan Elimination.md",
     "Notes/Gauss-Jordan Algorithm.md",
     "Notes/Gaussian Elimination.md",
-    "Notes/Null space is span of basic solutions.md",
     "Notes/Absolute complement of a set is a proper class.md",
     "Notes/Unique Representation Theorem (Linear Algebra).md",
     "Notes/Linear Span.md",

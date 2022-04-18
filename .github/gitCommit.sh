@@ -49,6 +49,5 @@ if [ -z "$choice" ] || [ "$choice" == "Y" ]; then
     printf "\n"
     git push
 else
-    echo -e ${RED}Abort${NC}
     exit
 fi
