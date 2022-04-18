@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [Same equivalence class $\Leftrightarrow$ related](Same%20equivalence%20class%20iff%20related.md)
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

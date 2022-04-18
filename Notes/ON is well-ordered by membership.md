@@ -10,8 +10,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Intersection of ordinals is an ordinal]], [[Reflexive closure of ordering on ordinals]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

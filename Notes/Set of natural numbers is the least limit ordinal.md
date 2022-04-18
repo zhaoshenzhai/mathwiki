@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [Natural numbers form an initial segment of $\textrm{ON}$](Natural%20numbers%20form%20an%20initial%20segment%20of%20ON.md), [Initial segment of $\textrm{ON}$ is an ordinal](Initial%20segment%20of%20ON%20is%20an%20ordinal.md), [$\textrm{ON}$ is well-ordered by membership](ON%20is%20well-ordered%20by%20membership.md), [[Successor of natural number is a natural number]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

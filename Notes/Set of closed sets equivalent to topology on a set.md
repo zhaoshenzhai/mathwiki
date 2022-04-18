@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Double complement of set is set itself]], [[De Morgan's Laws]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

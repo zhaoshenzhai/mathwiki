@@ -10,8 +10,8 @@ Tags: #Proposition #Open
 
 Proved by: [[Exists function in relation iff Choice]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

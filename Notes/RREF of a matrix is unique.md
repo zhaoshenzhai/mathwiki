@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Solution of system of linear combinations contains solution of original system]], [[Gaussian Elimination]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

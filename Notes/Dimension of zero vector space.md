@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Linearly independent subset cannot contain the zero vector]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

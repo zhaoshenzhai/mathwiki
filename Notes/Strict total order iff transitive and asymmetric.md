@@ -10,8 +10,8 @@ Tags: #Proposition #Closed
 
 Proved by: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity.md), [Irreflexive and transitive $\Rightarrow$ asymmetric](Irreflexive%20and%20transitive%20implies%20asymmetric.md)
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

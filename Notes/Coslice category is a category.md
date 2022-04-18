@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
-Generalizations: [[Comma category is a category]]
 
+Generalizations: [[Comma category is a category]]
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Subset relation is transitive]], [[Axiom of Extensionality]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

@@ -10,8 +10,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Criteria for collection to be a basis for an existing topology]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

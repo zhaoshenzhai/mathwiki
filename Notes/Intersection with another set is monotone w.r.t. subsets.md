@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
-Generalizations: [[Intersection of subsets is a subset of intersection]]
 
+Generalizations: [[Intersection of subsets is a subset of intersection]]
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

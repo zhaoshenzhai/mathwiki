@@ -10,8 +10,8 @@ Tags: #Proposition #Later/Linear_Algebra/Rank
 
 Proved by: [[Classification of linear systems of equations (infinite field)]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

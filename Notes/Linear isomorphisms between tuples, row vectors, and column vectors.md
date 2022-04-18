@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Isomorphism of objects is an equivalence relation]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

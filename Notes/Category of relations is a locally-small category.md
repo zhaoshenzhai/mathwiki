@@ -10,8 +10,8 @@ Tags: #Proposition #Closed
 
 Proved by: [$\cat{Set}$ is a locally-small category](Category%20of%20sets%20is%20a%20locally-small%20category.md)
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

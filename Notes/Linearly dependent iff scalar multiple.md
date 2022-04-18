@@ -10,8 +10,8 @@ Tags: #Proposition #Closed
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
-Generalizations: [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 
+Generalizations: [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

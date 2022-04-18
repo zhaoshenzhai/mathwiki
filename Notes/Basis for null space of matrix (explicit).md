@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Gauss-Jordan Elimination]], [[Linear span is set of all linear combinations]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

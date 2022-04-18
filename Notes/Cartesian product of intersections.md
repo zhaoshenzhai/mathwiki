@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Conjunction is idempotent]], [[Conjunction is associative]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Reflexive closure of strict orders is non-strict]], [[Strict lexicographical order is a strict partial order]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

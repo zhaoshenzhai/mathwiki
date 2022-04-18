@@ -10,8 +10,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Composition of relations is a relation]], [[Identity function is the identity of function composition]], [[Function space is a set]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

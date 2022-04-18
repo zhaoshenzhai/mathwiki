@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [Linear subspace $\Leftrightarrow$ closed under linear combination](Linear%20subspace%20iff%20closed%20under%20linear%20combination.md), [[Zero matrix is the absorbing element of matrix multiplication]], [[Algebraic consequences (vector space)]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
-Generalizations: [[Additive matrix group is an Abelian group]]
 
+Generalizations: [[Additive matrix group is an Abelian group]]
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Criteria for subbasis to generate existing basis]], [[Preimage under projection of subset]], [[Cartesian product of intersections]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

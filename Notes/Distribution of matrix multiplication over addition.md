@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Matrix multiplication (columns)]], [[Matrix multiplication (rows)]], [[Tuple space over a field is a vector space]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

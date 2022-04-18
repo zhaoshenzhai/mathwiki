@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
-Generalizations: [[Union of subsets is a subset of union]]
 
+Generalizations: [[Union of subsets is a subset of union]]
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

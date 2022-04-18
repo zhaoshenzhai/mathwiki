@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Replacement image of a set is a set]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

@@ -10,8 +10,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Criteria for fineness w.r.t. bases]], [$\sttopR\subset\ULtopR$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md)
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

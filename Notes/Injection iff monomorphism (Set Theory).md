@@ -10,8 +10,8 @@ Tags: #Proposition #Closed
 
 Proved by: [Left-invertible $\Leftrightarrow$ injection](Left-invertible%20iff%20injection.md), [Left-invertible $\Rightarrow$ monomorphism](Left-invertible%20implies%20monomorphism.md)
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

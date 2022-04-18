@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Matrices coincide if their actions on all vectors coincide]], [[Matrix multiplication (columns)]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Set ordered by inclusion is a poset]], [[Element of set is a subset of its union]], [[Element of set is a superset of its intersection]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

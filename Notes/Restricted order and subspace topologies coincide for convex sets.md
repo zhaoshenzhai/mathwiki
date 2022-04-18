@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Restricted order topology subset of subspace topology]], [[Order topology (subbasis)]], [[Subspace topology (subbasis)]], [[Half-infinite open rays are open in the order topology]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

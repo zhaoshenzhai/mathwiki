@@ -6,8 +6,8 @@ Tags: #Proposition  #Open
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

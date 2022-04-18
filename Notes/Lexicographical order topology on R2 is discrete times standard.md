@@ -10,8 +10,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Criteria for fineness w.r.t. bases]], [[Product topology (basis; component from bases)]], [[Discrete topology (basis)]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

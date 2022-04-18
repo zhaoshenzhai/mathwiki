@@ -10,8 +10,8 @@ Tags: #Proposition #Closed
 
 Proved by: [Left-invertible square matrix $\Rightarrow$ invertible](Left-invertible%20square%20matrix%20implies%20invertible.md), [[Inversion is an involution]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

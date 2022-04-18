@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Successor of an ordinal is the next smallest ordinal]], [[Reflexive closure of ordering on ordinals]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

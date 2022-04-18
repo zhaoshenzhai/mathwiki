@@ -6,8 +6,8 @@ Tags: #Proposition #Closed
 
 Proved by: [[Image of composition is image of image]]
 Justifications: _Not Applicable_
-Generalizations: _Not Applicable_
 
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
