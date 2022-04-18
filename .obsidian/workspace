@@ -16,24 +16,24 @@
         }
       },
       {
-        "id": "b5c4ebb3058b4726",
+        "id": "a3c88dead297718b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Column Space.md",
+            "file": "Notes/Dimension of column space is column rank.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "fe751fec937aec11",
+        "id": "b5c4ebb3058b4726",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Row Rank.md",
+            "file": "Notes/Column Space.md",
             "mode": "preview",
             "source": true
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Row Rank.md",
+                "file": "Notes/Dimension of column space is column rank.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Row Rank.md",
+                "file": "Notes/Dimension of column space is column rank.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Row Rank.md",
+                "file": "Notes/Dimension of column space is column rank.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "fe751fec937aec11",
+  "active": "a3c88dead297718b",
   "lastOpenFiles": [
+    "Notes/Dimension of column space is column rank.md",
+    "Notes/Column Rank.md",
+    "Notes/Column Space.md",
     "Notes/Row Rank.md",
     "Notes/Row-echelon Matrix.md",
-    "Notes/Column Space.md",
-    "Notes/Column Rank.md",
     "Notes/Dimension (Linear Algebra).md",
     "Notes/Basis (Linear Algebra).md",
     "Notes/Full-rank Matrix.md",
     "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
-    "Notes/Matrix.md",
-    "Notes/Matrices coincide if their actions on all vectors coincide.md"
+    "Notes/Matrix.md"
   ]
 }
