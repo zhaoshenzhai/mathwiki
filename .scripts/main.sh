@@ -33,6 +33,9 @@ while [[ "$repeat" == "Y" ]]; do
     re='^[0-9]+$'
     while ! [[ $action =~ $re ]] ; do
         read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-6)] "${NC})" action
+        if [[ "$action" == "q" ]]; then
+            exit
+        fi
     done
     while [ "$action" -lt "1" ] || [ "$action" -gt "6" ]; do
         read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-6)] "${NC})" action
