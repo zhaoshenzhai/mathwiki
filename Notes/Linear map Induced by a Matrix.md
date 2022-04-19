@@ -9,7 +9,7 @@ Examples: [Rotations in $\R^2$](Rotations%20in%20R2.md), [Reflections in $\R^2$]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Linear map on tuple spaces is induced by a unique matrix]], [$T_{AB}=T_A\circ T_B$ ($A,B$ matrices)](Composition%20of%20induced%20linear%20maps%20is%20linear%20map%20induced%20by%20matrix%20multiplication.md), [[Column space is image of induced linear map]]
+Properties: [[Linear map on tuple spaces is induced by a unique matrix]], [Linear map induced by matrix multiplication is composition of linear maps](Linear%20map%20induced%20by%20matrix%20multiplication%20is%20composition%20of%20linear%20maps.md), [[Column space is image of induced linear map]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Linear map induced by a matrix is a linear map]]
