@@ -14,42 +14,6 @@
             "source": true
           }
         }
-      },
-      {
-        "id": "d65dcbcf0adfc975",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Pivot Column.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "7de997b939871144",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Matrix Multiplication.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "99a696227f909b82",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear map Induced by a Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -76,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Proposition",
+                "query": "tag:#In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -109,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Matrix Multiplication.md",
+                "file": "Notes/Column rank is number of pivot columns.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Matrix Multiplication.md",
+                "file": "Notes/Column rank is number of pivot columns.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -205,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Matrix Multiplication.md",
+                "file": "Notes/Column rank is number of pivot columns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "7de997b939871144",
+  "active": "a3c88dead297718b",
   "lastOpenFiles": [
-    "Notes/Matrix Multiplication.md",
-    "Notes/Linear map Induced by a Matrix.md",
-    "Notes/Linear map induced by matrix multiplication is composition of linear maps.md",
+    "Notes/Column rank is number of pivot columns.md",
     "Notes/Pivot Column.md",
-    "Notes/Column space is image of induced linear map.md",
-    "Notes/Column Space.md",
+    "Notes/Gauss-Jordan Elimination.md",
+    "Notes/Gauss-Jordan Algorithm.md",
     "Notes/Matrix.md",
-    "Notes/Null Space.md",
-    "Notes/Augmented Matrix.md",
-    "Notes/Column rank is number of pivot columns.md"
+    "Notes/Row-echelon Matrix.md",
+    "Notes/Reduced Row-echelon Matrix.md",
+    "Notes/Linear map Induced by a Matrix.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Linear map induced by matrix multiplication is composition of linear maps.md"
   ]
 }
