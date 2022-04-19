@@ -6,10 +6,10 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Column Rank]]
 Generalizations: _Not Applicable_
 
-Properties: [[Dimension of column space is column rank]]
+Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: [[Column space is image of induced linear map]]
 Justifications: _Not Applicable_
