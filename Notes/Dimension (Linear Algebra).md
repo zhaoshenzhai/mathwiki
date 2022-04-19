@@ -17,6 +17,6 @@ Justifications: [[Invariance of cardinality of bases (finite dim.)]]
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a vector space $V$ over $K$. The **dimension of $V$** is $\dim V\coloneqq\l|B\r|$ where $B\subseteq V$ is any basis for $V$._
+_Let $K$ be a field and consider a vector space $V$ over $K$. The **dimension of $V$** is $\dim V\coloneqq\l|\mc{B}\r|$ where $\mc{B}\subseteq V$ is any basis for $V$._
 
 ```
