@@ -48,4 +48,4 @@ $$\begin{equation}
                 \end{dcases}
     \end{aligned}
 \end{equation}$$
-The matrices $A$ and $b$ are respectively called the **coefficient and constant matrices of $A\v{x}=\v{b}$**.<span style="float:right;">$\blacklozenge$</span>
+The matrices $A$ and $\v{b}$ are respectively called the **coefficient and constant matrices of $A\v{x}=\v{b}$**.<span style="float:right;">$\blacklozenge$</span>

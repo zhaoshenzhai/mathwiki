@@ -14,6 +14,30 @@
             "source": true
           }
         }
+      },
+      {
+        "id": "d65dcbcf0adfc975",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Pivot Column.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "e862d90660e5f776",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Augmented Matrix.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -40,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "tag:#Proposition",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Column rank is number of pivot columns.md",
+                "file": "Notes/Augmented Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Column rank is number of pivot columns.md",
+                "file": "Notes/Augmented Matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -157,7 +181,7 @@
                   "repelStrength": 13.624696847211,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.15156862668159493,
+                  "scale": 0.4325543294403886,
                   "close": true
                 }
               }
@@ -169,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Column rank is number of pivot columns.md",
+                "file": "Notes/Augmented Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "a3c88dead297718b",
+  "active": "e862d90660e5f776",
   "lastOpenFiles": [
+    "Notes/Augmented Matrix.md",
+    "Notes/Matrix.md",
+    "Notes/Pivot Column.md",
     "Notes/Column rank is number of pivot columns.md",
     "Notes/Basis (Linear Algebra).md",
     "Notes/Dimension (Linear Algebra).md",
     "Notes/Column Rank.md",
     "Notes/Finite Dimensional Vector Space.md",
     "Notes/Dimension of zero vector space.md",
-    "Notes/Invariance of cardinality of bases (finite dim.).md",
-    "Notes/Finite spanning set implies any linearly independent set is no larger.md",
-    "Notes/Ordered Basis (Linear Algebra).md",
-    "Notes/Basis for null space of matrix (explicit).md"
+    "Notes/Invariance of cardinality of bases (finite dim.).md"
   ]
 }
