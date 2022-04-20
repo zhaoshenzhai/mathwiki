@@ -17,13 +17,12 @@ while [[ "$repeat" == "Y" ]]; do
     echo -e "${CYAN}Actions:${NC}"
     echo -e "${CYAN}    (1): GitHub${NC}"
     echo -e "${CYAN}    (2): Mass editing${NC}"
-    echo -e "${CYAN}    (3): Update math links${NC}"
-    echo -e "${CYAN}    (4): New math links${NC}"
-    echo -e "${CYAN}    (5): Show ghost links${NC}"
-    echo -e "${CYAN}    (6): Show link details${NC}"
+    echo -e "${CYAN}    (3): Math links${NC}"
+    echo -e "${CYAN}    (4): Ghost links${NC}"
+    echo -e "${CYAN}    (5): Link details${NC}"
     printf "\n"
 
-    read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-6)] "${NC})" action
+    read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-5)] "${NC})" action
     if [[ -z "$action" ]]; then
         action="1"
     fi
@@ -32,12 +31,12 @@ while [[ "$repeat" == "Y" ]]; do
     fi
     re='^[0-9]+$'
     while ! [[ $action =~ $re ]] ; do
-        read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-6)] "${NC})" action
+        read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-5)] "${NC})" action
         if [[ "$action" == "q" ]]; then
             exit
         fi
     done
-    while [ "$action" -lt "1" ] || [ "$action" -gt "6" ]; do
+    while [ "$action" -lt "1" ] || [ "$action" -gt "5" ]; do
         read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-6)] "${NC})" action
     done
 
@@ -50,16 +49,15 @@ while [[ "$repeat" == "Y" ]]; do
             ~/MathWiki/.scripts/massEditing.sh
         ;;
         "3")
+            printf "\n"
+            ~/MathWiki/.scripts/mathLinks.sh -n
             ~/MathWiki/.scripts/mathLinks.sh -u
         ;;
         "4")
-            ~/MathWiki/.scripts/mathLinks.sh -n
-        ;;
-        "5")
             printf "\n"
             ~/MathWiki/.scripts/stats.sh -g
         ;;
-        "6")
+        "5")
             printf "\n"
             ~/MathWiki/.scripts/stats.sh -l
         ;;

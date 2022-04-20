@@ -48,6 +48,7 @@ cd ~/MathWiki/Notes
 while [ ! -z "$1" ]; do
     case "$1" in
         --update|-u)
+            echo -e "${CYAN}Updating math links...${NC}"
             allLinks=$(grep -Poh '\[[^\]]*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
 
             while IFS= read -r link; do
@@ -98,9 +99,10 @@ while [ ! -z "$1" ]; do
 
                 fi
             done <<< "$allLinks"
-    esac
-    case "$1" in
+            echo -e "${CYAN}    DONE${NC}"
+        ;;
         --new|-n)
+            echo -e "${CYAN}Checking for new math links...${NC}"
             allFiles=$(grep -l 'alias: auto_aliasing\|custom_alias:' *)
             allDoubleCurrent=$(sed 's/^/\[\[/g' <<< "$allFiles")
             allDoubleCurrent=$(sed 's/$/\]\]/g' <<< "$allDoubleCurrent")
@@ -137,6 +139,8 @@ while [ ! -z "$1" ]; do
                 fi
                 allDoubleCurrent=${allDoubleCurrent#*$'\n'}
             done <<< "$allDoubleCurrent"
+            echo -e "${CYAN}    DONE${NC}"
+        ;;
     esac
 shift
 done
