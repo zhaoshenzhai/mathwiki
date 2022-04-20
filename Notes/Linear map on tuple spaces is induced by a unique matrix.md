@@ -17,7 +17,7 @@ _Let $K$ be a field and fix $m,n\in\N$. Then, for every linear map $T:K^n\to K^m
 $$\begin{equation}
     A=\l[T\l(\v{e}_1\r)\ \ \cdots\ \ T\l(\v{e}_n\r)\r]
 \end{equation}$$
-_where_ $\l\{\v{e}_1,\dots,\v{e}_n\r\}$ is the standard basis on $K^n$._
+_where_ $\l\{\v{e}_1,\dots,\v{e}_n\r\}$ _is the standard basis on $K^n$._
 
 ```
 

@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Trivial Subspaces]]
+Constructions: [[Trivial Subspaces (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
 Properties: [[Dimension of zero vector space]]
