@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Linear Span]], [[Trivial Subspaces (Linear Algebra)]]
-Constructions: _Not Applicable_
+Constructions: [[Minkowski Sum (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
 Properties: [[Arbitrary intersection of linear subspaces is a linear subspace]], [[Minkowski sum of linear subspaces is the smallest containing subspace]]
