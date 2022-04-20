@@ -7,8 +7,12 @@
         "id": "98a433eee5384eb4",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Independence.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linear Independence.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linear Independence.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear Independence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,6 +184,8 @@
   },
   "active": "98a433eee5384eb4",
   "lastOpenFiles": [
+    "Notes/Linear Independence.md",
+    "Notes/Linear Dependence.md",
     "Notes/Binary Minkowski sum is direct iff intersection is the zero vector space.md",
     "Notes/Minkowski sum is direct iff only trivial decomposition exists for zero.md",
     "Notes/Direct Sum (Linear Algebra).md",
@@ -184,8 +193,6 @@
     "Notes/Dimension of zero vector space.md",
     "Notes/Minkowski Sum (Linear Algebra).md",
     "Notes/Linear Subspace.md",
-    "Notes/Trivial Subspaces (Linear Algebra).md",
-    "Notes/Unique Representation Theorem (Linear Algebra).md",
-    "Notes/Inverse of function is unique.md"
+    "Notes/Trivial Subspaces (Linear Algebra).md"
   ]
 }
