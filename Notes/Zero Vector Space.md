@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Trivial Subspaces (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Dimension of zero vector space]]
+Properties: [[Dimension of zero vector space]], [Binary Minkowski sum is direct $\Leftrightarrow$ intersection is the zero vector space](Binary%20Minkowski%20sum%20is%20direct%20iff%20intersection%20is%20the%20zero%20vector%20space.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
