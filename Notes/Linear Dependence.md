@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a vectro space $V$ over $K$. A subseteq $s\subseteq V$ is said to be **linearly dependent** if it is not linear independent._
+_Let $K$ be a field and consider a vector space $V$ over $K$. A subset $S\subseteq V$ is said to be **linearly dependent** if it is not linearly independent._
 
 ```
