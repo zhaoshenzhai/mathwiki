@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "93de4e5d5392f377",
+        "id": "b4887c03f9c17f47",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Finite spanning set implies any linearly independent set is no larger.md",
+            "file": "Notes/Linear Independence.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "86fbeb9fab6e6f1e",
+        "id": "39b5f997b14b02ab",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Finite spanning set implies any linearly independent set is no larger.md",
+                "file": "Notes/Linear Dependence.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Finite spanning set implies any linearly independent set is no larger.md",
+                "file": "Notes/Linear Dependence.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Finite spanning set implies any linearly independent set is no larger.md",
+                "file": "Notes/Linear Dependence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "93de4e5d5392f377",
+  "active": "39b5f997b14b02ab",
   "lastOpenFiles": [
-    "Notes/Finite spanning set implies any linearly independent set is no larger.md",
-    "Notes/Invariance of cardinality of bases (finite dim.).md",
     "Notes/Linear Dependence.md",
     "Notes/Linear Independence.md",
     "Notes/Linearly dependent iff exists span redundant element.md",
-    "Notes/Ordered Square.md",
-    "Notes/Lexicographical Order Topology.md",
-    "Notes/Order Space (Topology).md",
-    "Notes/Real Line (Topology).md",
-    "Notes/Real Plane (Topology).md"
+    "Notes/Standard Topology on R.md",
+    "Notes/Criteria for subbasis to generate existing basis.md",
+    "Notes/Order topology (subbasis).md",
+    "Notes/Standard topology on R (subbasis; rational endpoints).md",
+    "Notes/Standard topology on R (basis; rational endpoints).md",
+    "Notes/Standard topology on R (explicit).md",
+    "Notes/Finite spanning set implies any linearly independent set is no larger.md"
   ]
 }
