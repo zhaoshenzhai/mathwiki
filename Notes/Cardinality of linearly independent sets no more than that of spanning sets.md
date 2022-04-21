@@ -1,5 +1,5 @@
 ---
-alias: auto_aliasing
+custom_alias: $\l|\textrm{Linearly independent set}\r|\leq\l|\textrm{Spanning set}\r|$
 ---
 
 <br />

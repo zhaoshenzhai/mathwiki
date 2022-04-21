@@ -4,7 +4,7 @@
 Date Created: 06/04/2022 21:55:25
 Tags: #Proposition #Closed
 
-Proved by: [[Steinitz Exchange Lemma]]
+Proved by: [$\l|\textrm{Linearly independent set}\r|\leq\l|\textrm{Spanning set}\r|$](Cardinality%20of%20linearly%20independent%20sets%20no%20more%20than%20that%20of%20spanning%20sets.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
