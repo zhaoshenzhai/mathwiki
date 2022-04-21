@@ -140,6 +140,7 @@ while [ ! -z "$1" ]; do
                 allDoubleCurrent=${allDoubleCurrent#*$'\n'}
             done <<< "$allDoubleCurrent"
             echo -e "${CYAN}    DONE${NC}"
+            printf "\n"
         ;;
     esac
 shift

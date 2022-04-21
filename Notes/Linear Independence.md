@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Linear Dependence]]
 Generalizations: _Not Applicable_
 
-Properties: [[Linearly independent subset cannot contain the zero vector]], [Finite spanning set $\Rightarrow$ any linearly independent set is no larger](Finite%20spanning%20set%20implies%20any%20linearly%20independent%20set%20is%20no%20larger.md)
+Properties: [[Linearly independent subset cannot contain the zero vector]], [[Steinitz Exchange Lemma]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Unique Representation Theorem (Linear Algebra)]]
 Justifications: _Not Applicable_
