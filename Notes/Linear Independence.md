@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Linear Dependence]]
 Generalizations: _Not Applicable_
 
-Properties: [[Linearly independent subset cannot contain the zero vector]], [$\l|\textrm{Linearly independent set}\r|\leq\l|\textrm{Spanning set}\r|$](Cardinality%20of%20linearly%20independent%20sets%20no%20more%20than%20that%20of%20spanning%20sets.md)
+Properties: [$\l|\textrm{Linearly independent set}\r|\leq\l|\textrm{Spanning set}\r|$](Cardinality%20of%20linearly%20independent%20sets%20no%20more%20than%20that%20of%20spanning%20sets.md), [[Enlargement of linearly independent set by adjoining non-spanned vector]], [[Linearly independent subset cannot contain the zero vector]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Unique Representation Theorem (Linear Algebra)]]
 Justifications: _Not Applicable_
