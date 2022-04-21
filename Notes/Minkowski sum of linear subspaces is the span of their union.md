@@ -17,7 +17,10 @@ _Let $U_1,\dots,U_n$ be linear subspaces of a vector space $V$ over a field $K$.
 $$\begin{equation}
     U\coloneqq\sum_{i=1}^nU_i
 \end{equation}$$
-_is the smallest subspace of $V$ containing each $U_1,\dots,U_n$, in the sense that if $W$ is a subspace containing $U_1,\dots,U_n$, then $U\subseteq W$._
+_is the smallest subspace of $V$ containing each $U_1,\dots,U_n$ in the sense that if $W$ is a subspace containing $U_1,\dots,U_n$, then $U\subseteq W$. In other words,_
+$$\begin{equation}
+    \sum_{i=1}^nU_i=\span\l(\bigcup_{i=1}^nU_i\r).
+\end{equation}$$
 
 ```
 

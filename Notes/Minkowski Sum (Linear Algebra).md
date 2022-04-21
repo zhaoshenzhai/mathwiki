@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [Minkowski sum is direct $\Leftrightarrow$ only trivial decomposition exists for zero](Minkowski%20sum%20is%20direct%20iff%20only%20trivial%20decomposition%20exists%20for%20zero.md), [[Minkowski sum of linear subspaces is the smallest containing subspace]]
+Properties: [Minkowski sum is direct $\Leftrightarrow$ only trivial decomposition exists for zero](Minkowski%20sum%20is%20direct%20iff%20only%20trivial%20decomposition%20exists%20for%20zero.md), [[Minkowski sum of linear subspaces is the span of their union]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

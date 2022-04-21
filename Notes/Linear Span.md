@@ -25,5 +25,8 @@ _together with the restricted operations on $\span\l(S\r)$._
 
 ```
 
-**Remark.**
-* If $S=\l\{s_1,\dots,s_n\r\}$, then, abusing notation, we shall call $\span\l(S\r)$ the **linear subspace spanned by $s_1,\dots,s_n$**.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** In other words, $\span\l(S\r)$ is the $\textrm{`}$smallest$\textrm{'}$ subspace of $V$ containing $S$ in the sense that if $W$ is a subspace containing $S$, then $\span\l(S\r)\subseteq W$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+**Remark.** If $S=\l\{s_1,\dots,s_n\r\}$, then, abusing notation, we shall call $\span\l(S\r)$ the **linear subspace spanned by $s_1,\dots,s_n$**.<span style="float:right;">$\blacklozenge$</span>

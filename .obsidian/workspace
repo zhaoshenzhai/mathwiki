@@ -26,6 +26,30 @@
             "source": true
           }
         }
+      },
+      {
+        "id": "418c792a584a9b91",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Steinitz Exchange Lemma (via linear systems).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "d5662a0362645cad",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linearly dependent iff exists span redundant element.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Independence.md",
+                "file": "Notes/Linearly dependent iff exists span redundant element.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +141,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Independence.md",
+                "file": "Notes/Linearly dependent iff exists span redundant element.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Independence.md",
+                "file": "Notes/Linearly dependent iff exists span redundant element.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +218,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b4887c03f9c17f47",
+  "active": "d5662a0362645cad",
   "lastOpenFiles": [
-    "Notes/Linear Independence.md",
     "Notes/Linearly dependent iff exists span redundant element.md",
-    "Notes/Linear Combination (Vector).md",
-    "Notes/Linear span is set of all linear combinations.md",
-    "Notes/Linear Dependence.md",
-    "Notes/Steinitz Exchange Lemma (via exchanges).md",
+    "Notes/Minkowski Sum (Linear Algebra).md",
+    "Notes/Linear Span.md",
+    "Notes/Minkowski sum of linear subspaces is the span of their union.md",
     "Notes/Steinitz Exchange Lemma (via linear systems).md",
-    "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
+    "Notes/Steinitz Exchange Lemma (via exchanges).md",
     "Notes/Steinitz Exchange Lemma.md",
-    "Notes/Linear map Induced by a Matrix.md"
+    "Notes/Linear Independence.md",
+    "Notes/Linear Combination (Vector).md",
+    "Notes/Linear span is set of all linear combinations.md"
   ]
 }
