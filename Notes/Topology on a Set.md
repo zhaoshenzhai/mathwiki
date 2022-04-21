@@ -25,7 +25,7 @@ $$\begin{equation}
 \end{equation}$$
 * $\axitop[3]\bf{.}$ _Finite intersections of elements of $\mc{T}$ are in $\mc{T}$:_
 $$\begin{equation}
-    \fa\mc{U}\subseteq\mc{T}:\l(\mc{U}\neq\em\land\mc{U}\textit{ is finite}\r)\Rightarrow\bigcap\mc{U}\in\mc{T}.
+    \fa\mc{U}\subseteq\mc{T}:\l(\mc{U}\neq\em\land\mc{U}\textrm{\it{ is finite}}\r)\Rightarrow\bigcap\mc{U}\in\mc{T}.
 \end{equation}$$
 
 ```

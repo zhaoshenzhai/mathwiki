@@ -19,6 +19,8 @@ title: Proposition.
 
 _Let $K$ be a field and consider a vector space $V$ over $K$. If $V$ is spanned by a finite set of vectors $s_1,\dots,s_m$, then any linearly independent subset $U\subseteq V$ is finite and contains no more than $m$ vectors._
 
+_In other words, linearly independent sets are no larger than spanning sets of $V$._
+
 ```
 
 _Proof_. It suffices to prove the contrapositive statement, which states that every subset $U\subseteq V$ containing more than $m$ vectors is linearly dependent. Let $U\coloneqq\l\{u_1,\dots,u_n\r\}$ be such a set, so $n>m$ (assume all $u_j\textrm{'}$s are distinct). Since $\span\l\{s_1,\dots,s_m\r\}=V$, there exist scalars $\alpha_{ij}\in K$ such that

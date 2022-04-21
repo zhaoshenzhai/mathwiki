@@ -4,7 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "98a433eee5384eb4",
+        "id": "93de4e5d5392f377",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Finite spanning set implies any linearly independent set is no larger.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "86fbeb9fab6e6f1e",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -73,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Dependence.md",
+                "file": "Notes/Finite spanning set implies any linearly independent set is no larger.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Dependence.md",
+                "file": "Notes/Finite spanning set implies any linearly independent set is no larger.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Dependence.md",
+                "file": "Notes/Finite spanning set implies any linearly independent set is no larger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "98a433eee5384eb4",
+  "active": "93de4e5d5392f377",
   "lastOpenFiles": [
+    "Notes/Finite spanning set implies any linearly independent set is no larger.md",
+    "Notes/Invariance of cardinality of bases (finite dim.).md",
     "Notes/Linear Dependence.md",
     "Notes/Linear Independence.md",
-    "Notes/Binary Minkowski sum is direct iff intersection is the zero vector space.md",
-    "Notes/Minkowski sum is direct iff only trivial decomposition exists for zero.md",
-    "Notes/Direct Sum (Linear Algebra).md",
-    "Notes/Zero Vector Space.md",
-    "Notes/Dimension of zero vector space.md",
-    "Notes/Minkowski Sum (Linear Algebra).md",
-    "Notes/Linear Subspace.md",
-    "Notes/Trivial Subspaces (Linear Algebra).md"
+    "Notes/Linearly dependent iff exists span redundant element.md",
+    "Notes/Ordered Square.md",
+    "Notes/Lexicographical Order Topology.md",
+    "Notes/Order Space (Topology).md",
+    "Notes/Real Line (Topology).md",
+    "Notes/Real Plane (Topology).md"
   ]
 }

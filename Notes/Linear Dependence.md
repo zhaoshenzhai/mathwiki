@@ -17,6 +17,9 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a vector space $V$ over $K$. A subset $S\subseteq V$ is said to be **linearly dependent** if it is not linearly independent._
+_Let $K$ be a field and consider a vector space $V$ over $K$. A subset $S\subseteq V$ is said to be **linearly dependent** if it is not linearly independent. That is, if_
+$$\begin{equation}
+    \ex n\in\N^\ast,\ex s_1,\dots,s_n\in S,\ex\alpha_1,\dots\alpha_n\in K:\l(\sum_{i=1}^n\alpha_is_i=0_V\land\ex i\in\l\{1,\dots,n\r\}:\alpha_i\neq0\r).
+\end{equation}$$
 
 ```
