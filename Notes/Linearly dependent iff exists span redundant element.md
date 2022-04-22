@@ -6,7 +6,7 @@ alias: auto_aliasing
 <br />
 
 Date Created: 05/04/2022 20:13:04
-Tags: #Proposition #Closed
+Tags: #Proposition #In_Progress
 
 Proved by: [[Linear span is set of all linear combinations]]
 Justifications: _Not Applicable_
@@ -17,18 +17,19 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space $V$ over $K$. Then $S$ is linearly dependent iff_
+_Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space $V$ over $K$. Then $S$ is linearly dependent iff either one of the statements hold:_
+1. _For all sequences $s_1,\dots,s_n\in S$, there exists $j\in\l\{1,\dots,n\r\}$ such that_
 $$\begin{equation}
-    \ex s\in S:s\in\span\l(S\setminus\l\{s\r\}\r),\tag{$\ast$}
+    s_j\in\span\l\{s_1,\dots,s_{j-1}\r\}.
 \end{equation}$$
-_or, equivalently, iff_
+2. _There exists a span-redundant element; that is_
 $$\begin{equation}
-    \ex s\in S:\span\l(S\r)=\span\l(S\setminus\l\{s\r\}\r).\tag{$\diamond$}
+    \ex s\in S:\span\l(S\r)=\span\l(S\setminus\l\{s\r\}\r).
 \end{equation}$$
 
 ```
 
-_Proof_. We shall first prove the first equivalence.
+_Proof_. We shall first prove that linear dependent and $\l(\,1\,\r)$ are equivalent.
 * ($\Rightarrow$): Since $S$ is linearly dependent, there exist $\alpha_1,\dots,\alpha_n\in K$, not all of which are zero, and distinct $s_1,\dots,s_n\in S$ such that
 $$\begin{equation}
     \sum_{i=1}^n\alpha_is_i=0_V

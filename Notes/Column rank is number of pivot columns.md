@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 18/04/2022 21:57:22
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Later/Linear_Algebra/Rank
 
 Proved by: [[Standard basis of tuple space is an ordered basis]]
 Justifications: _Not Applicable_

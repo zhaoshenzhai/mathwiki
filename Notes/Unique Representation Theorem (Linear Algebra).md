@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 05/04/2022 15:55:24
-Tags: #Theorem #Closed
+Tags: #Theorem #In_Progress
 
 Proved by: [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 Justifications: _Not Applicable_

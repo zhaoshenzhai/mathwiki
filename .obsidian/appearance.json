@@ -10,7 +10,8 @@
     "stats",
     "external_links",
     "links",
-    "listsLineBreak"
+    "listsLineBreak",
+    "lists"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": true,

@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "baa6f38e8f847574",
+        "id": "19fa2454f02221d6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear span is set of all linear combinations.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "f093ce377848f402",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Combination (Vector).md",
+            "file": "Notes/Linearly dependent iff exists span redundant element.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Combination (Vector).md",
+                "file": "Notes/Linearly dependent iff exists span redundant element.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Combination (Vector).md",
+                "file": "Notes/Linearly dependent iff exists span redundant element.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Combination (Vector).md",
+                "file": "Notes/Linearly dependent iff exists span redundant element.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f093ce377848f402",
+  "active": "19fa2454f02221d6",
   "lastOpenFiles": [
-    "Notes/Linear Combination (Vector).md",
-    "Notes/Linear span is set of all linear combinations.md",
-    "Notes/Linear Combination (Linear System).md",
-    "Notes/Matrix multiplication (columns).md",
-    "Notes/Tuple.md",
-    "Notes/Linear Independence.md",
     "Notes/Linearly dependent iff exists span redundant element.md",
+    "Notes/Topology on a Set.md",
+    "Notes/Linear Span.md",
+    "Notes/Dimension of zero vector space.md",
+    "Notes/Zero Vector Space.md",
+    "Notes/Linear Independence.md",
     "Notes/Linearly dependent iff scalar multiple.md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Linear Dependence.md"
+    "Notes/Linear Dependence.md",
+    "Notes/Union of empty set is empty.md",
+    "Notes/Empty product is singleton of empty set.md"
   ]
 }
