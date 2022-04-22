@@ -19,7 +19,7 @@ title: Definition.
 
 _Let $I$ be any inductive set asserted by the Axiom of Infinity. The **set of natural numbers** is the set_
 $$\begin{equation}
-    \N\coloneqq\omega\coloneqq\l\{n\in I\mid n\textit{ is a natural number}\r\}.
+    \N\coloneqq\omega\coloneqq\l\{n\in I\mid n\textrm{\it{ is a natural number}}\r\}.
 \end{equation}$$
 
 ```
@@ -28,4 +28,4 @@ $$\begin{equation}
 
 ---
 
-**Remark.** Write $\N^\ast\coloneqq\N\setcomp\l\{0\r\}$. It confusion arises, write $\Z^+\coloneqq\N^\ast$ and $\N_0\coloneqq\omega$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Write $\N^\ast\coloneqq\N\setcomp\l\{0\r\}$. If confusion arises, write $\Z^+\coloneqq\N^\ast$ and $\N_0\coloneqq\omega$.<span style="float:right;">$\blacklozenge$</span>
