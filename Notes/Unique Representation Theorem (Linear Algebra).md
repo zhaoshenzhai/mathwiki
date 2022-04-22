@@ -35,7 +35,7 @@ where each $\alpha_i,\beta_j\in K\setminus\l\{0\r\}$ and all $p_i\textrm{'}$s an
 $$\begin{equation}
     0_V=\sum_{i=1}^n\alpha_ip_i-\sum_{j=1}^m\beta_jq_j.\tag{$\ast$}
 \end{equation}$$
-The left hand side of $\l(\,\ast\,\r)$ is only a linear combination if all $p_i\textrm{'}$s and $q_j\textrm{'}$s are, together, distinct. Assume, w.l.o.g. and reindexing if necessary, that $p_1=q_1,\dots,p_l=q_l$ for some $l\in\N$; in particular, $l=0$ would mean that the expression is a linear combination. It follows then that
+The left hand side of $\ref{\ast}$ is only a linear combination if all $p_i\textrm{'}$s and $q_j\textrm{'}$s are, together, distinct. Assume, w.l.o.g. and reindexing if necessary, that $p_1=q_1,\dots,p_l=q_l$ for some $l\in\N$; in particular, $l=0$ would mean that the expression is a linear combination. It follows then that
 $$\begin{equation}
     0_V=\underbrace{\sum_{k=1}^l\l(\alpha_k-\beta_k\r)p_k}_{\textrm{Group 1}}+\underbrace{\sum_{i=l+1}^n\alpha_ip_i}_{\mathclap{\textrm{Group 2}}}-\underbrace{\sum_{j=l+1}^m\beta_jq_j}_{\mathclap{\textrm{Group 3}}}
 \end{equation}$$

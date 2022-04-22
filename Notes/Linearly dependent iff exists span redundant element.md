@@ -29,7 +29,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. We shall first prove that linear dependent and $\l(\,1\,\r)$ are equivalent.
+_Proof_. We shall first prove that linear dependent and $\ref{1}$ are equivalent.
 * ($\Rightarrow$): Since $S$ is linearly dependent, there exist $\alpha_1,\dots,\alpha_n\in K$, not all of which are zero, and distinct $s_1,\dots,s_n\in S$ such that
 $$\begin{equation}
     \sum_{i=1}^n\alpha_is_i=0_V
@@ -56,6 +56,6 @@ $$\begin{equation}
 and since the vectors $s,s_1,\dots,s_n$ are all distinct, we see that a non-trivial linear combination thereof vanishes.
 
 Equivalence between the two statements is easy:
-* ($\Rightarrow$): The backwards inclusion is trivial since $S\setminus\l\{s\r\}\subseteq S$. For the forward direction, take $v\in\span\l(S\r)$ and so $v$ can be written as a linear combinations of vectors in $S$. If $s$ is in this linear combination, we can, by $\l(\,\ast\,\r)$, replace it with a linear combination of vectors in $S\setminus\l\{s\r\}$. Overall, we see that $v$ can be written as a linear combination of vectors in $S\setminus\l\{s\r\}$, so $v\in\span\l(S\setminus\l\{s\r\}\r)$.
+* ($\Rightarrow$): The backwards inclusion is trivial since $S\setminus\l\{s\r\}\subseteq S$. For the forward direction, take $v\in\span\l(S\r)$ and so $v$ can be written as a linear combinations of vectors in $S$. If $s$ is in this linear combination, we can, by $\ref{\ast}$, replace it with a linear combination of vectors in $S\setminus\l\{s\r\}$. Overall, we see that $v$ can be written as a linear combination of vectors in $S\setminus\l\{s\r\}$, so $v\in\span\l(S\setminus\l\{s\r\}\r)$.
 
-* ($\Leftarrow$): This follows immediately since $s\in\span\l(S\r)$, and thus $s\in\span\l(S\setminus\l\{s\r\}\r)$ by $\l(\,\diamond\,\r)$.<span style="float:right;">$\blacksquare$</span>
+* ($\Leftarrow$): This follows immediately since $s\in\span\l(S\r)$, and thus $s\in\span\l(S\setminus\l\{s\r\}\r)$ by $\ref{\diamond}$.<span style="float:right;">$\blacksquare$</span>

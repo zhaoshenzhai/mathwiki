@@ -25,4 +25,4 @@ for some $\alpha_1,\dots,\alpha_n,\beta\in K$. If $\beta\neq0$, then
 $$\begin{equation}
     v=\sum_{i=1}^n\l(-\frac{\alpha_i}{\beta}\r)s_i
 \end{equation}$$
-which contradicts the assumption that $v\not\in\span\l(S\r)$. It follows then that $\sum_{i=1}^n\alpha_is_i=0$, so each $\alpha_i=0$ as $S$ is linearly independent. Overall, $\l(\,\ast\,\r)$ implies that each of $\alpha_1,\dots,\alpha_n,\beta$ vanishes, so $S\cup\l\{v\r\}$ is linearly independent.<span style="float:right;">$\blacksquare$</span>
+which contradicts the assumption that $v\not\in\span\l(S\r)$. It follows then that $\sum_{i=1}^n\alpha_is_i=0$, so each $\alpha_i=0$ as $S$ is linearly independent. Overall, $\ref{\ast}$ implies that each of $\alpha_1,\dots,\alpha_n,\beta$ vanishes, so $S\cup\l\{v\r\}$ is linearly independent.<span style="float:right;">$\blacksquare$</span>

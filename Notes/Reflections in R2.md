@@ -28,7 +28,7 @@ $$\begin{equation}
 _be the line passing through the origin and making an angle $\theta$ with the positive $x$-axis. The_ **_reflection transformation about_ $L_\theta$** _is the linear map_
 $$\begin{equation}
     \begin{aligned}
-        \ref\l(\theta\r):\R^2&\to\R^2 \\
+        \reflection\l(\theta\r):\R^2&\to\R^2 \\
         \begin{bmatrix}
             x_1 \\
             x_2

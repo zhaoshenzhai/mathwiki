@@ -24,7 +24,7 @@ title: Definition.
 _Consider the real $2$-coordinate space $\R^2$ and fix $\theta\in\R$. The **rotation transformation by $\theta$ radians counterclockwise** is the linear map_
 $$\begin{equation}
     \begin{aligned}
-        \rot\l(\theta\r):\R^2&\to\R^2 \\
+        \rotation\l(\theta\r):\R^2&\to\R^2 \\
         \begin{bmatrix}
             x_1 \\
             x_2
