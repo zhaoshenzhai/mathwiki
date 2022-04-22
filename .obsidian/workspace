@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "3e3291d9e7edf82b",
+        "id": "a2e59870c01cd079",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Independence.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "f1225f6ddd225163",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Cardinality of linearly independent sets no more than that of spanning sets.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "8968d5edb296b1ed",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Dependence.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Cardinality of linearly independent sets no more than that of spanning sets.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Cardinality of linearly independent sets no more than that of spanning sets.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Cardinality of linearly independent sets no more than that of spanning sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "3e3291d9e7edf82b",
+  "active": "f1225f6ddd225163",
   "lastOpenFiles": [
-    "Notes/Linear Independence.md",
-    "Notes/Enlargement of linearly independent set by adjoining non-spanned vector.md",
-    "Notes/Linear Dependence.md",
-    "Notes/Linearly dependent iff exists span redundant element.md",
     "Notes/Cardinality of linearly independent sets no more than that of spanning sets.md",
+    "Notes/Linear Independence.md",
+    "Notes/Linear Dependence.md",
+    "Notes/Linear System of Equations.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Enlargement of linearly independent set by adjoining non-spanned vector.md",
+    "Notes/Linearly dependent iff exists span redundant element.md",
     "Notes/Finite Dimensional Vector Space.md",
     "Notes/Dimension (Linear Algebra).md",
-    "Notes/Spanning Set.md",
-    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
-    "Notes/Column rank is number of pivot columns.md"
+    "Notes/Spanning Set.md"
   ]
 }

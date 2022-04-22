@@ -17,13 +17,11 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a vector space $V$ over $K$. If $V$ is spanned by a finite set of vectors $w_1,\dots,w_m$, then any linearly independent subset $U\subseteq V$ is finite and contains no more than $m$ vectors._
-
-_In other words, letting $W\coloneqq\l\{w_1,\dots,w_n\r\}$, we have that $\l|U\r|\leq\l|W\r|$._
+_Let $U,W\subseteq V$ be finite subsets of a vector space $V$ over a field $K$. If $U$ is a linearly independent set and $\span W=V$, then $\l|U\r|\leq\l|W\r|$._
 
 ```
 
-_Proof_. It suffices to prove the contrapositive statement, which states that every subset $U\subseteq V$ containing more than $m$ vectors is linearly dependent. Let $U\coloneqq\l\{u_1,\dots,u_n\r\}$ be such a set, so $n>m$ (assume all $u_j\textrm{'}$s are distinct). Since $\span W=V$, there exist scalars $\alpha_{ij}\in K$ such that
+_Proof_. Let $U\coloneqq\l\{u_1,\dots,u_n\r\}$ and $W\coloneqq\l\{w_1,\dots,w_m\r\}$; it suffices to prove the contrapositive statement, which states that if $n>m$, then either $U$ is linearly dependent or $\span W\neq V$. Assume that $\span W=V$, so there exist scalars $\alpha_{ij}\in K$ such that
 $$\begin{equation}
     u_j=\sum_{i=1}^m\alpha_{ij}w_i
 \end{equation}$$
