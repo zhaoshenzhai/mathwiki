@@ -6,7 +6,7 @@ alias: auto_aliasing
 <br />
 
 Date Created: 05/04/2022 20:13:04
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed
 
 Proved by: [[Linear span is set of all linear combinations]]
 Justifications: _Not Applicable_

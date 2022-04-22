@@ -7,8 +7,12 @@
         "id": "5589aa62c7859989",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Independence.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linear Independence.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linear Independence.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear Independence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +184,15 @@
   },
   "active": "5589aa62c7859989",
   "lastOpenFiles": [
-    "Notes/Linearly dependent iff exists span redundant element.md",
-    "Notes/Linear Dependence.md",
-    "Notes/Linear Combination (Vector).md",
     "Notes/Linear Independence.md",
-    "Notes/Linearly dependent iff scalar multiple.md",
-    "Notes/Enlargement of linearly independent set by adjoining non-spanned vector.md",
-    "Notes/Rotations in R2.md",
-    "Notes/Linear map Induced by a Matrix.md",
-    "Notes/Reflections in R2.md",
-    "Notes/Topology on a Set.md"
+    "Notes/Basis (Linear Algebra).md",
+    "Notes/Basis (Topology).md",
+    "Notes/Standard Topology on R.md",
+    "Notes/Total Order.md",
+    "Notes/Ordered Basis (Linear Algebra).md",
+    "Notes/Upper-limit topology strictly finer than standard topology on R.md",
+    "Notes/Real Line (Topology).md",
+    "Notes/Dimension (Linear Algebra).md",
+    "Notes/Basis for null space of matrix (explicit).md"
   ]
 }
