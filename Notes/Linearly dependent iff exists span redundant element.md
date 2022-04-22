@@ -17,45 +17,69 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space $V$ over $K$. Then $S$ is linearly dependent iff either one of the statements hold:_
-1. _For all sequences $s_1,\dots,s_n\in S$, there exists $j\in\l\{1,\dots,n\r\}$ such that_
+_Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space $V$ over $K$. Then the following statements are equivalent:_
+1. _$S$ is linearly dependent._
+2. _For all sequences $s_1,\dots,s_n\in S$ with $n>0$, there exists $l\in\l\{1,\dots,n\r\}$ such that_
 $$\begin{equation}
-    s_j\in\span\l\{s_1,\dots,s_{j-1}\r\}.
+    s_l\in\span\l\{s_1,\dots,s_{l-1}\r\}.
 \end{equation}$$
-2. _There exists a span-redundant element; that is_
+3. _For all sequences $s_1,\dots,s_n\in S$ with $n>0$, there exists $l\in\l\{1,\dots,n\r\}$ such that_
 $$\begin{equation}
-    \ex s\in S:\span\l(S\r)=\span\l(S\setminus\l\{s\r\}\r).
+    \span\l\{s_1,\dots,s_n\r\}=\span\l(\l\{s_1,\dots,s_n\r\}\setminus\l\{s_l\r\}\r).
 \end{equation}$$
 
 ```
 
-_Proof_. We shall first prove that linear dependent and $\ref{1}$ are equivalent.
-* ($\Rightarrow$): Since $S$ is linearly dependent, there exist $\alpha_1,\dots,\alpha_n\in K$, not all of which are zero, and distinct $s_1,\dots,s_n\in S$ such that
+_Proof_.
+* ($1\Rightarrow2$): Since $S$ is linearly dependent, there exist $\alpha_1,\dots,\alpha_n\in K$, not all of which are zero, and a sequence $s_1,\dots,s_n\in S$ such that
 $$\begin{equation}
     \sum_{i=1}^n\alpha_is_i=0_V
 \end{equation}$$
-for some $n\in\N^\ast$.
+for some $n\in\N^\ast$. We claim that $l=\max\l\{i\in\l\{1,\dots,n\r\}\mid\alpha_i\neq0\r\}$.
 
-  * If $n=1$, we see that $\alpha_1\neq0$ and thus $s_i=0_V$ for this equation to hold. In this case, the result trivially holds since the zero vector is in the span of every subset of $V$.
-
-  * Assume now that $n>1$, and, w.l.o.g., that $\alpha_1\neq0$. Let $s\coloneqq s_1$. Splitting the sum and dividing throughout by $\alpha_1$, we see that
+  * If $l=1$, then $\alpha_1\neq0$ and $\alpha_i=0$ for all $i\in\l\{2,\dots,n\r\}$. It follows then that $\alpha_1s_1=0_V$, so $s_1=0_V$. Observe then that
 $$\begin{equation}
-    s=\sum_{i=2}^n\l(-\frac{\alpha_i}{\alpha_1}\r)s_i.
+    s_1\in\l\{0_V\r\}=\span\l(\em\r)=\span\l\{s_1,\dots,s_0\r\}.
 \end{equation}$$
-  Since each $s_i\in S$ but are all distinct from $s$, we see that $s\in\span\l(S\setminus\l\{s\r\}\r)$.
 
-
-* ($\Leftarrow$): Conversely, take $s\in S$ such that
+  * Otherwise, is $l>1$, then $\sum_{i=1}^l\alpha_is_i=0_V$ which implies that
 $$\begin{equation}
-    s=\sum_{i=1}^n\alpha_is_i
+    \alpha_ls_l=-\sum_{i=1}^{l-1}\alpha_is_i.
 \end{equation}$$
-for some $\alpha_1,\dots,\alpha_n\in K$ and distinct $s_1,\dots,s_n\in S\setminus\l\{s\r\}$. It follows then that
+Since $\alpha_l\neq0$, we see that
 $$\begin{equation}
-    1\cdot s+\sum_{i=1}^n\l(-\alpha_i\r)s_i=0_V,
+    s=\sum_{i=1}^{l-1}\l(-\frac{\alpha_i}{\alpha_1}\r)s_i
 \end{equation}$$
-and since the vectors $s,s_1,\dots,s_n$ are all distinct, we see that a non-trivial linear combination thereof vanishes.
-
-Equivalence between the two statements is easy:
-* ($\Rightarrow$): The backwards inclusion is trivial since $S\setminus\l\{s\r\}\subseteq S$. For the forward direction, take $v\in\span\l(S\r)$ and so $v$ can be written as a linear combinations of vectors in $S$. If $s$ is in this linear combination, we can, by $\ref{\ast}$, replace it with a linear combination of vectors in $S\setminus\l\{s\r\}$. Overall, we see that $v$ can be written as a linear combination of vectors in $S\setminus\l\{s\r\}$, so $v\in\span\l(S\setminus\l\{s\r\}\r)$.
-
-* ($\Leftarrow$): This follows immediately since $s\in\span\l(S\r)$, and thus $s\in\span\l(S\setminus\l\{s\r\}\r)$ by $\ref{\diamond}$.<span style="float:right;">$\blacksquare$</span>
+from which the result follows.
+* ($2\Rightarrow3$): The backwards inclusion is trivial since $\l\{s_1,\dots,s_n\r\}\setminus\l\{s_l\r\}\subseteq\l\{s_1,\dots,s_n\r\}$. For the forward direction, take $v\in\span\l\{s_1,\dots,s_n\r\}$ so there exist coefficients $\alpha_1,\dots,\alpha_n\in K$ such that
+$$\begin{equation}
+    v=\sum_{i=1}^n\alpha_is_i
+\end{equation}$$
+By hypothesis, there exists $l\in\l\{1,\dots,n\r\}$ such that $s_l\in\span\l\{s_1,\dots,s_{l-1}\r\}$, so
+$$\begin{equation}
+    s_l=\sum_{i=1}^{l-1}\beta_is_i
+\end{equation}$$
+for some $\beta_1,\dots,\beta_{l-1}\in K$. Observe then that
+$$\begin{equation}
+    \begin{aligned}
+        v&=\sum_{i=1}^{l-1}\alpha_is_i+\alpha_l\sum_{i=1}^{l-1}\beta_is_i+\sum_{\mathclap{i=l+1}}^n\alpha_is_i \\
+        &=\sum_{i=1}^{l-1}\l(\alpha_i+\alpha_l\beta_i\r)s_i+\sum_{\mathclap{i=l+1}}^n\alpha_is_i
+    \end{aligned}
+\end{equation}$$
+which is a linear combination of vectors in $\l\{s_1,\dots,s_n\r\}\setminus\l\{s_l\r\}$. The result follows.
+* ($3\Rightarrow1$): Since $\span\l\{s_1,\dots,s_n\r\}=\span\l(\l\{s_1,\dots,s_n\r\}\setminus\l\{s_l\r\}\r)$ for some $l\in\l\{1,\dots,n\r\}$, we see that
+$$\begin{equation}
+    s_l\in\span\l(\l\{s_1,\dots,s_n\r\}\setminus\l\{s_l\r\}\r).
+\end{equation}$$
+Thus there exist coefficients $\alpha_1,\dots,\alpha_{l-1},\alpha_{l+1},\dots,\alpha_n$ such that
+$$\begin{equation}
+    s_l=\sum_{i=1}^n\alpha_is_i+\sum_{\mathclap{i=l+1}}^n\alpha_is_i.
+\end{equation}$$
+It follows then that
+$$\begin{equation}
+    \sum_{i=1}^n\alpha_is_i+\l(-1\r)s_l+\sum_{\mathclap{i=l+1}}^n\alpha_is_i=0_V,
+\end{equation}$$
+so, setting $\alpha_l\coloneqq-1$, we see that
+$$\begin{equation}
+    \sum_{i=1}^n\alpha_is_i=0_V\ \ \ \ \textrm{and}\ \ \ \ \alpha_l\neq0.\qedin
+\end{equation}$$

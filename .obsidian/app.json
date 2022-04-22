@@ -10,7 +10,7 @@
   },
   "readableLineLength": false,
   "defaultViewMode": "preview",
-  "foldIndent": true,
+  "foldIndent": false,
   "showLineNumber": true,
   "spellcheck": true,
   "strictLineBreaks": false,
