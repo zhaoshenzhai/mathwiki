@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5abd04cbb0c91dea",
+        "id": "baa6f38e8f847574",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear Independence.md",
+            "file": "Notes/Linear span is set of all linear combinations.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "f093ce377848f402",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Combination (Vector).md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Independence.md",
+                "file": "Notes/Linear Combination (Vector).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Independence.md",
+                "file": "Notes/Linear Combination (Vector).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Independence.md",
+                "file": "Notes/Linear Combination (Vector).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "5abd04cbb0c91dea",
+  "active": "f093ce377848f402",
   "lastOpenFiles": [
-    "Notes/Linear Independence.md",
     "Notes/Linear Combination (Vector).md",
-    "Notes/Linear Span.md",
-    "Notes/Spanning Set.md",
     "Notes/Linear span is set of all linear combinations.md",
-    "Notes/Unique Representation Theorem (Linear Algebra).md",
-    "Notes/Linear Subspace.md",
-    "Notes/Arbitrary intersection of linear subspaces is a linear subspace.md",
-    "Notes/Cardinality of linearly independent sets no more than that of spanning sets.md",
-    "Notes/Enlargement of linearly independent set by adjoining non-spanned vector.md"
+    "Notes/Linear Combination (Linear System).md",
+    "Notes/Matrix multiplication (columns).md",
+    "Notes/Tuple.md",
+    "Notes/Linear Independence.md",
+    "Notes/Linearly dependent iff exists span redundant element.md",
+    "Notes/Linearly dependent iff scalar multiple.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Linear Dependence.md"
   ]
 }

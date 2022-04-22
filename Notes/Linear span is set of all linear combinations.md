@@ -25,12 +25,12 @@ _Proof_. We proceed by double containment.
 $$\begin{equation}
     v=\sum_{i=1}^n\alpha_i s_i
 \end{equation}$$
-for some $\alpha_i\in K$ and $s_i\in S$. It suffices to take any linear subspace $U\subseteq V$ that contains $S$, and show that $v\in U$; for then $v$ is in the intersection of all such subspaces which implies that $v\in\span\l(S\r)$. To see this, observe that since $S\subseteq U$, we have that $s_i\in U$ for all $i\in\l\{1,\dots,n\r\}$. Since $U$ is closed under linear combinations, we see that $v\in U$ too.
+for some $\alpha_i\in K$ and $\l\langle s_i\r\rangle\in S^n$. It suffices to take any linear subspace $U\subseteq V$ that contains $S$ and show that $v\in U$, for then $v$ is in the intersection of all such subspaces which implies that $v\in\span\l(S\r)$. To see this, observe that since $S\subseteq U$, we have that $s_i\in U$ for all $i\in\l\{1,\dots,n\r\}$. Since $U$ is closed under linear combinations, we see that $v\in U$ too.
 
 * ($\subseteq$): Take $v\in\span\l(S\r)$; it suffices to show that $L\l(S\r)$ is a linear subspace of $V$ containing $S$.
-    * ($S\subseteq L\l(S\r)$): Take $s\in S$ and observe that $s=1s$, so $s$ is a linear combination of a finite subset of $S$, namely of $\l\{s\r\}$ with constant $1\in K$.
+    * ($S\subseteq L\l(S\r)$): Take $s\in S$ and observe that $s=1s$, so $s$ is a linear combination of a finite sequence of $S$, namely of $\l\langle s\r\rangle$ with coefficient $1\in K$.
 
-    * ($L\l(S\r)$ is a linear subspace of $V$): Take $\gamma\in K$ and $l_1,l_2\in L\l(S\r)$, so there exist $\alpha_i,\beta_j\in K$ and $s_i,t_j\in S$ such that$$\begin{equation}
+    * ($L\l(S\r)$ is a linear subspace of $V$): Take $\gamma\in K$ and $l_1,l_2\in L\l(S\r)$, so there exist $\alpha_i,\beta_j\in K$ and sequences $\l\langle s_i\r\rangle,\l\langle t_j\r\rangle\in S^n$ such that$$\begin{equation}
         l_1=\sum_{i=1}^n\alpha_is_i\ \ \ \ \textrm{and}\ \ \ \ l_2=\sum_{j=1}^m\beta_jt_j.
     \end{equation}$$
     Observe then that$$\begin{equation}
@@ -39,4 +39,4 @@ for some $\alpha_i\in K$ and $s_i\in S$. It suffices to take any linear subspace
             &=\sum_{i=1}^n\l(\gamma\alpha_i\r)s_i+\sum_{j=1}^m\beta_jt_j, && \textrm{Left-distribution on $K$}
         \end{aligned}
     \end{equation}$$
-    so $\gamma l_1+l_2$ is the linear combination of the $m+n$ vectors $s_i$ and $t_j$ with constants $\gamma\alpha_i$ and $\beta_j$, respectively. It follows then that $L\l(S\r)$ is closed under addition and scalar multiplication, so $L\l(S\r)$ is a linear subspace of $V$.<span style="float:right;">$\blacksquare$</span>
+    so $\gamma l_1+l_2$ is the linear combination of sequence $\l\langle s_1,\dots,s_n,t_1,\dots,t_m\r\rangle$ with coefficients $\l\langle\gamma\alpha_1,\dots,\gamma\alpha_n,\beta_1,\dots,\beta_m\r\rangle$. It follows then that $L\l(S\r)$ is closed under addition and scalar multiplication, so $L\l(S\r)$ is a linear subspace of $V$.<span style="float:right;">$\blacksquare$</span>

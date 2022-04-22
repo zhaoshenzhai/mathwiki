@@ -20,3 +20,5 @@ title: Definition.
 _Let $K$ be a field. A vector space $V$ over $K$ is said to be **finite-dimensional** if $\dim V<\infty$._
 
 ```
+
+**Remark.** Equivalently, $V$ is finite-dimensional if it can be spanned by a _finite_ set of vectors. This follows from the fact that the cardinality of every linearly independent set is at most that of spanning sets, so every basis is finite.<span style="float:right;">$\blacklozenge$</span>
