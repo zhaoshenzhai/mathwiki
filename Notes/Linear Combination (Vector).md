@@ -24,6 +24,10 @@ $$\begin{equation}
 
 ```
 
+**Remark.** Note that only finite sums are allowed, as vector spaces have no notion of convergence. To emphasize this, we shall sometimes call $v$ a _finite_ linear combination of vectors in $S$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 **Remark.**
-* If $S=\l\{s_1,\dots,s_n\r\}$, then $v$ is said to be a **linear combination of the vectors $s_1,\dots,s_n$**.
-* If each $\alpha_i=0$, then $v$ is said to be a **trivial linear combination of vectors in $S$**.<span style="float:right;">$\blacklozenge$</span>
+* If $S=\l\{s_1,\dots,s_n\r\}$, then, abusing notation, $v$ is said to be a **linear combination of the vectors $s_1,\dots,s_n$**.
+* If each $\alpha_i=0$, then $v$ is said to be a **trivial linear combination of vectors in $S$**. Observe that $v$ need not be the zero vector.<span style="float:right;">$\blacklozenge$</span>

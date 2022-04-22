@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a vector space $\mc{V}\coloneqq\l\langle V,K,+,\cdot,0\r\rangle$ over $K$. For every subset $U\subseteq V$, the quintuple $\mc{U}\coloneqq\l\langle U,K,\l.+\r|_U,\l.\cdot\r|_U,0\r\rangle$ is said to be a **(linear) subspace of $\mc{V}$** if $\mc{U}$ is itself a vector space over $K$._
+_Let $K$ be a field and consider a vector space $\mc{V}\coloneqq\l\langle V,K,+,\cdot,0\r\rangle$ over $K$. For every subset $U\subseteq V$, the quintuple $\mc{U}\coloneqq\l\langle U,K,\l.+\r|_U,\l.\cdot\r|_U,0\r\rangle$ is said to be a **($K$-linear) subspace of $\mc{V}$** if $\mc{U}$ is itself a vector space over $K$._
 
 ```
