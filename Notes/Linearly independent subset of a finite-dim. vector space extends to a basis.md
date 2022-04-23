@@ -17,7 +17,7 @@ _Let $K$ be a field and let $V$ be a finite-dimensional vector space over $K$. I
 
 ```
 
-**Remark.** In other words, every linearly independent subset of a finite-dimensional vector space can be extended to a (finite) basis.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** In other words, every linearly independent subset of a finite-dimensional vector space can be extended to a (finite) basis. Furthermore, it proves that every finite-dimensional vector space has a basis.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
