@@ -9,8 +9,8 @@ Examples: [[Standard Basis of Tuple Space]], [[Basis for null space of matrix (e
 Constructions: [[Dimension (Linear Algebra)]], [[Ordered Basis (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Invariance of cardinality of bases (finite dim.)]]
-Sufficiencies: [[Linearly independent subset of a finite dim. vector space extends to a basis]]
+Properties: [[Invariance of cardinality of bases (finite-dim.)]]
+Sufficiencies: [[Linearly independent subset of a finite-dim. vector space extends to a basis]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

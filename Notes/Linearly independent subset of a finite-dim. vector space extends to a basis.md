@@ -4,7 +4,7 @@
 Date Created: 23/04/2022 11:25:09
 Tags: #Proposition #Closed
 
-Proved by: [$\l|\textrm{Linearly independent set}\r|\leq\l|\textrm{Spanning set}\r|$ (finite dim.)](Cardinality%20of%20linearly%20independent%20sets%20no%20more%20than%20that%20of%20spanning%20sets.md), [[Enlargement of linearly independent set by adjoining non-spanned vector]]
+Proved by: [$\l|\textrm{Linearly independent set}\r|\leq\l|\textrm{Spanning set}\r|$ (finite-dim.)](Cardinality%20of%20linearly%20independent%20sets%20no%20more%20than%20that%20of%20spanning%20sets%20(finite-dim.).md), [[Enlargement of linearly independent set by adjoining non-spanned vector]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
