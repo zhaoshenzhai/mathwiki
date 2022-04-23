@@ -1,5 +1,5 @@
 ---
-custom_alias: $\l|\textrm{Linearly independent set}\r|\leq\l|\textrm{Spanning set}\r|$
+custom_alias: $\l|\textrm{Linearly independent set}\r|\leq\l|\textrm{Spanning set}\r|$ (finite dim.)
 ---
 
 <br />
@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $U,W\subseteq V$ be finite subsets of a vector space $V$ over a field $K$. If $U$ is a linearly independent set and $\span W=V$, then $\l|U\r|\leq\l|W\r|$._
+_Let $U,W\subseteq V$ be finite subsets of a finite-dimensional vector space $V$ over a field $K$. If $U$ is a linearly independent set and $\span W=V$, then $\l|U\r|\leq\l|W\r|$._
 
 ```
 

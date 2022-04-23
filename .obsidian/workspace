@@ -4,11 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "807098c84e0601b3",
+        "id": "1f77774e7335e623",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Finite-dimensional Vector Space.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "31ca5fde8e21f73e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Dimension (Linear Algebra).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "3044c2c0b1aefaec",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Basis (Linear Algebra).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "d5a59c830058e0e7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linearly independent subset of a finite dim. vector space extends to a basis.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linearly independent subset of a finite dim. vector space extends to a basis.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +141,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linearly independent subset of a finite dim. vector space extends to a basis.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -151,7 +193,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.5963106883686984,
+                  "scale": 0.12328902372246112,
                   "close": true
                 }
               }
@@ -163,6 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linearly independent subset of a finite dim. vector space extends to a basis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +218,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "807098c84e0601b3",
+  "active": "d5a59c830058e0e7",
   "lastOpenFiles": [
-    "Notes/ON is well-ordered by membership.md",
-    "Notes/Well-ordered Relation.md",
-    "Notes/Principle of Ordinary Induction.md",
-    "Notes/Initial segment of ON is an ordinal.md",
-    "Notes/Initial Segment.md",
-    "Notes/Natural numbers form an initial segment of ON.md",
-    "Notes/Set of natural numbers is the least limit ordinal.md",
-    "Notes/Set of Natural Numbers.md",
-    "Notes/Natural Number.md",
-    "Notes/Well-ordering well-orders subsets.md"
+    "Notes/Linearly independent subset of a finite dim. vector space extends to a basis.md",
+    "Notes/Basis (Linear Algebra).md",
+    "Notes/Linearly dependent iff exists span redundant element.md",
+    "Notes/Dimension (Linear Algebra).md",
+    "Notes/Finite-dimensional Vector Space.md",
+    "Notes/Cardinality of linearly independent sets no more than that of spanning sets.md",
+    "Notes/Linear Independence.md",
+    "Notes/Vector Space.md",
+    "Notes/Zero Vector Space.md",
+    "Notes/Vector Space of Matrices.md"
   ]
 }

@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Dimension of zero vector space]], [[Column Rank]]
-Constructions: [[Finite Dimensional Vector Space]]
+Constructions: [[Finite-dimensional Vector Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

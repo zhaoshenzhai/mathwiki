@@ -4,8 +4,8 @@
 Date Created: 27/03/2022 21:04:03
 Tags: #Definition #Closed 
 
-Types: _Not Applicable_
-Examples: [[Tuple Space (Linear Algebra)]], [[Vector Space of Matrices]], [[Zero Vector Space]]
+Types: [[Finite-dimensional Vector Space]]
+Examples: _Not Applicable_
 Constructions: [[Vector]], [[Linear Map]], [[Linear Subspace]], [[Linear Independence]], [$\cat{Vect}$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 

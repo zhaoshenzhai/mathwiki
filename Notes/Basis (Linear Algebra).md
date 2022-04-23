@@ -10,7 +10,7 @@ Constructions: [[Dimension (Linear Algebra)]], [[Ordered Basis (Linear Algebra)]
 Generalizations: _Not Applicable_
 
 Properties: [[Invariance of cardinality of bases (finite dim.)]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Linearly independent subset of a finite dim. vector space extends to a basis]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
