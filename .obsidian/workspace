@@ -4,12 +4,48 @@
     "type": "split",
     "children": [
       {
-        "id": "085c13dc85992b9f",
+        "id": "eebedb9366421051",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
+            "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "b5acd3f7efb3bd01",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Span.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "2f6509993c3188a6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Independence.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "c11af13cd2d9a8ab",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Combination (Vector).md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
+                "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +141,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
+                "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
+                "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +218,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "085c13dc85992b9f",
+  "active": "eebedb9366421051",
   "lastOpenFiles": [
+    "Notes/Unique Representation Theorem (Linear Algebra).md",
+    "Notes/Linear Span.md",
+    "Notes/Linear Independence.md",
+    "Notes/Linear Combination (Vector).md",
+    "Notes/Finite-dimensional Vector Space.md",
     "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
     "Notes/Dimension of proper subspace strictly less than dimension of vector space (finite-dim.).md",
-    "Notes/Finite-dimensional Vector Space.md",
     "Notes/Linear isomorphism between set of matrices and finite-dim. linear maps.md",
-    "Notes/Linear Independence.md",
     "Notes/Invariance of cardinality of bases (finite-dim.).md",
-    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
-    "Notes/Linear Subspace.md",
-    "Notes/Direct Sum (Linear Algebra).md",
-    "Notes/Dimension (Linear Algebra).md"
+    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md"
   ]
 }
