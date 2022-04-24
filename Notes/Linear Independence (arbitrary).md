@@ -6,12 +6,12 @@ Tags: #Definition #Closed
 
 Types: [[Hamel Basis]]
 Examples: _Not Applicable_
-Constructions: [[Linear Dependence]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Enlargement of linearly independent set by adjoining non-spanned vector]], [[Linearly independent subset cannot contain the zero vector]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition

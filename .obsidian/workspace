@@ -4,12 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "0934f4f7cda6f6be",
+        "id": "465352ad42e81df0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Vector Space.md",
+            "file": "Notes/Linear Independence (sequence).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "a1655c1f54e36a13",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Combination (Vector; sequence).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "3f5e515a2d82ee60",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Independence (arbitrary).md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Vector Space.md",
+                "file": "Notes/Linear Independence (sequence).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Vector Space.md",
+                "file": "Notes/Linear Independence (sequence).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Vector Space.md",
+                "file": "Notes/Linear Independence (sequence).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "0934f4f7cda6f6be",
+  "active": "465352ad42e81df0",
   "lastOpenFiles": [
-    "Notes/Vector Space.md",
-    "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Infinite-dimensional Vector Space.md",
-    "Notes/Linear Independence (arbitrary).md",
-    "Notes/Topological Space.md",
-    "Notes/Vector.md",
-    "Notes/Linearly dependent iff exists span redundant element.md",
     "Notes/Linear Independence (sequence).md",
-    "Notes/Linear span is set of all linear combinations.md",
-    "Notes/Linear Dependence.md"
+    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
+    "Notes/Linear Combination (Vector; sequence).md",
+    "Notes/Linear Combination (Linear System).md",
+    "Notes/Linearly dependent iff scalar multiple.md",
+    "Notes/Linear Independence (arbitrary).md",
+    "Notes/Unique Representation Theorem (Hamel; finite).md",
+    "Notes/Unique Representation Theorem (Hamel; arbitrary).md",
+    "Notes/Linear Dependence.md",
+    "Notes/Enlargement of linearly independent set by adjoining non-spanned vector.md"
   ]
 }

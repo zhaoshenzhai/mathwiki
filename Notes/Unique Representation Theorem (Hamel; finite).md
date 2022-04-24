@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 24/04/2022 17:00:09
-Tags: #Proposition #In_Progress
+Tags: #Theorem #In_Progress
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
@@ -10,8 +10,8 @@ Justifications: _Not Applicable_
 Generalizations: [[Unique Representation Theorem (Hamel; arbitrary)]]
 Counterexamples: _Not Applicable_
 
-``` ad-Proposition
-title: Proposition.
+``` ad-Theorem
+title: Theorem (Unique Representation Theorem w.r.t. finite Hamel basis).
 
 _Let $K$ be a field and consider a subset_ $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}\subseteq V$ _of a finite-dimensional vector space $V$ over $K$ where $n\coloneqq\dim V$. Then $\mc{B}$ is a (Hamel) basis iff every vector $v\in V$ can be uniquely represented as a linear combination of the finite sequence $\l\langle b_1,\dots,b_n\r\rangle$; formally, iff_
 $$\begin{equation}
