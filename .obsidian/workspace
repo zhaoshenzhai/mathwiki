@@ -16,36 +16,12 @@
         }
       },
       {
-        "id": "b5acd3f7efb3bd01",
+        "id": "0a5bf6d31a758a31",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear Span.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "2f6509993c3188a6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Independence.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "c11af13cd2d9a8ab",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Combination (Vector).md",
+            "file": "Notes/Linearly dependent iff exists span redundant element.md",
             "mode": "preview",
             "source": true
           }
@@ -221,14 +197,14 @@
   "active": "eebedb9366421051",
   "lastOpenFiles": [
     "Notes/Unique Representation Theorem (Linear Algebra).md",
-    "Notes/Linear Span.md",
-    "Notes/Linear Independence.md",
+    "Notes/Linearly dependent iff exists span redundant element.md",
     "Notes/Linear Combination (Vector).md",
-    "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
-    "Notes/Dimension of proper subspace strictly less than dimension of vector space (finite-dim.).md",
-    "Notes/Linear isomorphism between set of matrices and finite-dim. linear maps.md",
-    "Notes/Invariance of cardinality of bases (finite-dim.).md",
-    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md"
+    "Notes/Linear Independence.md",
+    "Notes/Linear Dependence.md",
+    "Notes/Order Topology.md",
+    "Notes/Linear span is set of all linear combinations.md",
+    "Notes/Linear Span.md",
+    "Notes/Basis (Linear Algebra).md",
+    "Notes/Vector Space.md"
   ]
 }

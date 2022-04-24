@@ -26,7 +26,7 @@ $$\begin{equation}
 
 **Remark.** Note that all vector in $S$ must all be distinct; if $s_i=s_j$ for some $i\neq j$, then the non-trivial linear combination
 $$\begin{equation}
-    1\cdot s_i+\l(-1\r)\cdot s_j=0_V
+    1\cdot s_i+\l(-1\r)\cdot s_j
 \end{equation}$$
 formed by $\l\langle s_i,s_j\r\rangle$ with constants $\l\langle1,-1\r\rangle$ vanishes.<span style="float:right;">$\blacklozenge$</span>
 

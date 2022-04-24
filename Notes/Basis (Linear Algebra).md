@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a vector space $V$ over $K$. A subset $\mc{B}\subseteq V$ is said to be a **basis of $V$** if $\mc{B}$ is a linearly independent spanning set of $V$._
+_Let $K$ be a field and consider a vector space $V$ over $K$. A subset $\mc{B}\subseteq V$ is said to be a **(Hamel) basis of $V$** if $\mc{B}$ is a linearly independent spanning set of $V$._
 
 ```

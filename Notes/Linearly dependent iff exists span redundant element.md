@@ -19,11 +19,11 @@ title: Proposition.
 
 _Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space $V$ over $K$. Then the following statements are equivalent:_
 1. _$S$ is linearly dependent._
-2. _For all sequences $s_1,\dots,s_n\in S$ with $n>0$, there exists $l\in\l\{1,\dots,n\r\}$ such that_
+2. _There exists a sequence $s_1,\dots,s_n\in S$ with $n>0$ and some $l\in\l\{1,\dots,n\r\}$ such that_
 $$\begin{equation}
     s_l\in\span\l\{s_1,\dots,s_{l-1}\r\}.
 \end{equation}$$
-3. _For all sequences $s_1,\dots,s_n\in S$ with $n>0$, there exists $l\in\l\{1,\dots,n\r\}$ such that_
+2. _There exists a sequence $s_1,\dots,s_n\in S$ with $n>0$ and some $l\in\l\{1,\dots,n\r\}$ such that_
 $$\begin{equation}
     \span\l\{s_1,\dots,s_n\r\}=\span\l(\l\{s_1,\dots,s_n\r\}\setminus\l\{s_l\r\}\r).
 \end{equation}$$
@@ -42,7 +42,7 @@ $$\begin{equation}
     s_1\in\l\{0_V\r\}=\span\l(\em\r)=\span\l\{s_1,\dots,s_0\r\}.
 \end{equation}$$
 
-  * Otherwise, is $l>1$, then $\sum_{i=1}^l\alpha_is_i=0_V$ which implies that
+  * Otherwise, if $l>1$, then $\sum_{i=1}^l\alpha_is_i=0_V$ which implies that
 $$\begin{equation}
     \alpha_ls_l=-\sum_{i=1}^{l-1}\alpha_is_i.
 \end{equation}$$
@@ -73,11 +73,11 @@ $$\begin{equation}
 \end{equation}$$
 Thus there exist coefficients $\alpha_1,\dots,\alpha_{l-1},\alpha_{l+1},\dots,\alpha_n$ such that
 $$\begin{equation}
-    s_l=\sum_{i=1}^n\alpha_is_i+\sum_{\mathclap{i=l+1}}^n\alpha_is_i.
+    s_l=\sum_{i=1}^{l-1}\alpha_is_i+\sum_{\mathclap{i=l+1}}^n\alpha_is_i.
 \end{equation}$$
 It follows then that
 $$\begin{equation}
-    \sum_{i=1}^n\alpha_is_i+\l(-1\r)s_l+\sum_{\mathclap{i=l+1}}^n\alpha_is_i=0_V,
+    \sum_{i=1}^{l-1}\alpha_is_i+\l(-1\r)s_l+\sum_{\mathclap{i=l+1}}^n\alpha_is_i=0_V,
 \end{equation}$$
 so, setting $\alpha_l\coloneqq-1$, we see that
 $$\begin{equation}
