@@ -20,20 +20,6 @@ $$\begin{equation}
 
 ```
 _Proof_.
-* ($\Leftarrow$): Take $v\in V\setminus\l\{0\r\}$, so, in particular, $v$ can be written as a linear combination
-$$\begin{equation}
-    v=\sum_{i=1}^n\alpha_ib_i
-\end{equation}$$
-which implies that $v\in\span\mc{B}$. Since $\span\mc{B}$ is a subspace of $V$, it contains the zero vector too and so $\mc{B}$ is a spanning set of $V$. To prove linear independence, assume, for sake of contradiction, that $\mc{B}$ is linearly dependent. Thus there exists $l\in\l\{1,\dots,n\r\}$ such that
-$$\begin{equation}
-    \span\l\{b_1,\dots,b_n\r\}=\span\l(\l\{b_1,\dots,b_n\r\}\setminus\l\{b_l\r\}\r),
-\end{equation}$$
-so, setting $J\coloneqq\l\{1,\dots,n\r\}\setminus\l\{l\r\}$, there exist coefficients $\beta_j\in K$ for all $j\in J$ such that
-$$\begin{equation}
-    v=\sum_{j\in J}\beta_jb_j=\sum_{j\in J^\ast}\beta_jb_j.\ \ \ \ \ \ \ \ \underbrace{\l(J^\ast\coloneqq J\setminus\l\{j\in J\mid\beta_j=0\r\}\r)}_{v\,\neq\,0\,\Rightarrow\,\l|J^\ast\r|\,\neq\,0}.
-\end{equation}$$
-But then $v$ has two representations as linear combinations of vectors in $\mc{B}$ with non-zero coefficients, so we have a contradiction.
-
 * ($\Rightarrow$): Take $v\in V\setminus\l\{0\r\}$. Since $\span\mc{B}=V$, we know that $v$ can be expressed as a linear combination of vectors in $\mc{B}$ with non-zero coefficients; we wish to prove that such a representation is unique. Assume, for sake of contradiction, that
 $$\begin{equation}
     v=\sum_{i=1}^n\alpha_ip_i=\sum_{j=1}^m\beta_jq_j
@@ -50,4 +36,18 @@ If there are any terms $\alpha_ip_i$ in Group 2, we can move it to left, divide 
 $$\begin{equation}
     0=\sum_{i=1}^n\l(\alpha_i-\beta_i\r)p_i,
 \end{equation}$$
-but since $\mc{B}$ is linearly independent, it follows that $\alpha_i=\beta_i$ for all $i\in\l\{1,\dots,n\r\}$. Altogether, we have that $n=m$ and, for all $i\in\l\{1,\dots,n\r\}$, that $p_i=q_i$ and $\alpha_i=\beta_i$. The result follows.<span style="float:right;">$\blacksquare$</span>
+but since $\mc{B}$ is linearly independent, it follows that $\alpha_i=\beta_i$ for all $i\in\l\{1,\dots,n\r\}$. Altogether, we have that $n=m$ and, for all $i\in\l\{1,\dots,n\r\}$, that $p_i=q_i$ and $\alpha_i=\beta_i$. The result follows.
+
+* ($\Leftarrow$): Take $v\in V\setminus\l\{0\r\}$, so, in particular, $v$ can be written as a linear combination
+$$\begin{equation}
+    v=\sum_{i=1}^n\alpha_ib_i
+\end{equation}$$
+which implies that $v\in\span\mc{B}$. Since $\span\mc{B}$ is a subspace of $V$, it contains the zero vector too and so $\mc{B}$ is a spanning set of $V$. To prove linear independence, assume, for sake of contradiction, that $\mc{B}$ is linearly dependent. Thus there exists $l\in\l\{1,\dots,n\r\}$ such that
+$$\begin{equation}
+    \span\l\{b_1,\dots,b_n\r\}=\span\l(\l\{b_1,\dots,b_n\r\}\setminus\l\{b_l\r\}\r),
+\end{equation}$$
+so, setting $J\coloneqq\l\{1,\dots,n\r\}\setminus\l\{l\r\}$, there exist coefficients $\beta_j\in K$ for all $j\in J$ such that
+$$\begin{equation}
+    v=\sum_{j\in J}\beta_jb_j=\sum_{j\in J^\ast}\beta_jb_j.\ \ \ \ \ \ \ \ \underbrace{\l(J^\ast\coloneqq J\setminus\l\{j\in J\mid\beta_j=0\r\}\r)}_{v\,\neq\,0\,\Rightarrow\,\l|J^\ast\r|\,\neq\,0}.
+\end{equation}$$
+But then $v$ has two representations as linear combinations of vectors in $\mc{B}$ with non-zero coefficients, so we have a contradiction.<span style="float:right;">$\blacksquare$</span>
