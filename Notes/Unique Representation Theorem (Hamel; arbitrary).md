@@ -11,9 +11,9 @@ Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
-title: Theorem (Unique Representation Theorem w.r.t. infinite Hamel basis).
+title: Theorem (Unique Representation Theorem w.r.t. arbitrary Hamel basis).
 
-_Let $K$ be a field and consider a subset $\mc{B}\subseteq V$ of an infinite-dimensional vector space $V$ over $K$. Then $\mc{B}$ is a (Hamel) basis of $V$ iff every non-zero vector $v\in V$ can be uniquely represented as a linear combination of vectors in $\mc{B}$ with non-zero coefficients; formally, iff_
+_Let $K$ be a field and consider a subset $\mc{B}\subseteq V$ of a vector space $V$ over $K$. Then $\mc{B}$ is a (Hamel) basis of $V$ iff every non-zero vector $v\in V$ can be uniquely represented as a linear combination of vectors in $\mc{B}$ with non-zero coefficients; formally, iff_
 $$\begin{equation}
     \fa v\in V\setminus\l\{0\r\},\ex!n\in\N^\ast,\ex!\alpha_1,\dots,\alpha_n\in K\setminus\l\{0\r\},\ex!\l\langle b_1,\dots,b_n\r\rangle\in\mc{B}^n:v=\sum_{i=1}^n\alpha_ib_i.
 \end{equation}$$
@@ -34,11 +34,11 @@ $$\begin{equation}
 \end{equation}$$
 But then $v$ has two representations as linear combinations of vectors in $\mc{B}$ with non-zero coefficients, so we have a contradiction.
 
-* ($\Rightarrow$): Take $v\in V\setminus\l\{0\r\}$ assume that
+* ($\Rightarrow$): Take $v\in V\setminus\l\{0\r\}$. Since $\span\mc{B}=V$, we know that $v$ can be expressed as a linear combination of vectors in $\mc{B}$ with non-zero coefficients; we wish to prove that such a representation is unique. Assume, for sake of contradiction, that
 $$\begin{equation}
     v=\sum_{i=1}^n\alpha_ip_i=\sum_{j=1}^m\beta_jq_j
 \end{equation}$$
-for some sequences $\l\langle p_i\r\rangle,\l\langle q_j\r\rangle\in\mc{B}^n$ and constants $\alpha_i,\beta_j\in K\setminus\l\{0\r\}$. Rearranging, we have that
+for some distinct sequences $\l\langle p_i\r\rangle,\l\langle q_j\r\rangle\in\mc{B}^n$ and coefficients $\alpha_i,\beta_j\in K\setminus\l\{0\r\}$. Rearranging, we have that
 $$\begin{equation}
     0=\sum_{i=1}^n\alpha_ip_i-\sum_{j=1}^m\beta_jq_j.\tag{$\ast$}
 \end{equation}$$
