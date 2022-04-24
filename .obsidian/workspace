@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "465352ad42e81df0",
+        "id": "eb9d3253e45f9972",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Independence (sequence).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "a1655c1f54e36a13",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Combination (Vector; sequence).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "3f5e515a2d82ee60",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Independence (arbitrary).md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -97,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Independence (sequence).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Independence (sequence).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -193,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Independence (sequence).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "465352ad42e81df0",
+  "active": "eb9d3253e45f9972",
   "lastOpenFiles": [
-    "Notes/Linear Independence (sequence).md",
-    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
-    "Notes/Linear Combination (Vector; sequence).md",
-    "Notes/Linear Combination (Linear System).md",
-    "Notes/Linearly dependent iff scalar multiple.md",
+    "Notes/Linear Combination (Vector; arbitrary).md",
+    "Notes/Linear Independence (finite).md",
     "Notes/Linear Independence (arbitrary).md",
-    "Notes/Unique Representation Theorem (Hamel; finite).md",
+    "Notes/Linear Combination (Vector; finite).md",
+    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
+    "Notes/Linear combination of finite set coincide with finite sequence.md",
     "Notes/Unique Representation Theorem (Hamel; arbitrary).md",
-    "Notes/Linear Dependence.md",
-    "Notes/Enlargement of linearly independent set by adjoining non-spanned vector.md"
+    "Notes/Indexed Family.md",
+    "Notes/Cartesian Product (Arbitrary).md",
+    "Notes/Tuple.md"
   ]
 }

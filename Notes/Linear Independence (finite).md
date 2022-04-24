@@ -4,7 +4,7 @@
 Date Created: 24/04/2022 19:25:11
 Tags: #Definition #Closed
 
-Types: [[Hamel Basis]]
+Types: _Not Applicable_
 Examples: _Not Applicable_
 Constructions: [[Linear Independence (arbitrary)]]
 Generalizations: _Not Applicable_
@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a vector space $V$ over $K$. A finite sequence $\l\langle u_1,\dots,u_n\r\rangle\in V^n$ is said to be **linearly independent** if the only vanishing linear combination thereof is the trivial one. Formally, iff_
+_Let $K$ be a field and consider a vector space $V$ over $K$. A finite sequence $\l\langle u_1,\dots,u_n\r\rangle\in V^n$ for some $n\in\N$ is said to be **linearly independent** if the only vanishing linear combination thereof is the trivial one. Formally, iff_
 $$\begin{equation}
     \fa\alpha_1,\dots,\alpha_n\in K:\l(\sum\limits_{i=1}^n\alpha_iu_i=0_V\Rightarrow\alpha_1=\cdots=\alpha_n=0\r).
 \end{equation}$$

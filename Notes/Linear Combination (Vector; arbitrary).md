@@ -32,3 +32,7 @@ where $\mc{I}$ is an uncountable index set, since bare vector spaces have no not
 $$\begin{equation}
     v=\sum_{i=1}^n\alpha_iu_i.\exqedin
 \end{equation}$$
+
+---
+
+**Remark.** It is clear that if $U=\l\{u_1,\dots,u_n\r\}$ is finite, then a vector $v\in V$ is a linear combination of vectors in $U$ iff $v$ is a linear combination of any sequence $\l\langle u_1,\dots,u_n\r\rangle$.<span style="float:right;">$\blacklozenge$</span>
