@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c680193ec6dc6405",
+        "id": "562455d6467dea8c",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Unique Representation Theorem (Hamel; finite).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "0e9c33184a2a7dbd",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Unique Representation Theorem (Hamel; arbitrary).md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Unique Representation Theorem (Hamel; finite).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Unique Representation Theorem (Hamel; finite).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +151,7 @@
                   "repelStrength": 14.3360953920776,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.3604671773563169,
+                  "scale": 0.424945642893041,
                   "close": true
                 }
               }
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Unique Representation Theorem (Hamel; finite).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "c680193ec6dc6405",
+  "active": "562455d6467dea8c",
   "lastOpenFiles": [
-    "Notes/Unique Representation Theorem (Hamel; finite).md",
-    "Notes/Unique Representation Theorem (Hamel; arbitrary).md",
-    "Notes/Linear Combination (Vector; finite).md",
+    "Notes/Transitive set iff every element is a subset.md",
+    "Notes/Linear Independence (finite).md",
+    "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
+    "Notes/Linear Independence (arbitrary).md",
     "Notes/Hamel Basis.md",
-    "Notes/Ordered Hamel Basis.md",
-    "Notes/Tuple.md",
-    "Notes/Total Order.md",
-    "Notes/Strict Total Order.md",
-    "Notes/Trichotomous iff asymmetric and connected.md",
-    "Notes/Trichotomous Relation.md"
+    "Notes/Finite-dimensional Vector Space.md",
+    "Notes/Unique Representation Theorem (Hamel; finite).md",
+    "Notes/Vector Space.md",
+    "Notes/Vector.md",
+    "Notes/Unique Representation Theorem (Hamel; arbitrary).md"
   ]
 }
