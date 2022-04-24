@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle K,+,\cdot,0\r\rangle$ be a field and consider a subset $S\subseteq V$ of a vector space over $K$. If $S$ is linealy independent, then $0_V\not\in S$._
+_Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space over $K$. If $S$ is linearly independent, then $0_V\not\in S$._
 
 ```
 

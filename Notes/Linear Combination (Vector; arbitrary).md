@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Linear span is set of all linear combinations]]
+Constructions: [[Linear span is set of all linear combinations]], [[Linear Independence (arbitrary)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

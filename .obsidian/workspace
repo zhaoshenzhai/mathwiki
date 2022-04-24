@@ -4,48 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "aff8e357d6d90ac9",
+        "id": "0934f4f7cda6f6be",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear Combination (Vector; sequence).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "73d3657af1a3fb0f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Combination (Vector; arbitrary).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "be1a57f3f89c7251",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Independence.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "32b3894866ac502a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Unique Representation Theorem (Hamel; arbitrary).md",
+            "file": "Notes/Vector Space.md",
             "mode": "preview",
             "source": true
           }
@@ -109,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Combination (Vector; arbitrary).md",
+                "file": "Notes/Vector Space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Combination (Vector; arbitrary).md",
+                "file": "Notes/Vector Space.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -205,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Combination (Vector; arbitrary).md",
+                "file": "Notes/Vector Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "73d3657af1a3fb0f",
+  "active": "0934f4f7cda6f6be",
   "lastOpenFiles": [
-    "Notes/Linear Combination (Vector; arbitrary).md",
-    "Notes/Linear Combination (Vector; sequence).md",
-    "Notes/Linear Independence.md",
-    "Notes/Linear Span.md",
-    "Notes/Linear span is set of all linear combinations.md",
-    "Notes/Matrix multiplication (columns).md",
-    "Notes/Linear Combination (Linear System).md",
+    "Notes/Vector Space.md",
+    "Notes/Finite-dimensional Vector Space.md",
+    "Notes/Infinite-dimensional Vector Space.md",
+    "Notes/Linear Independence (arbitrary).md",
+    "Notes/Topological Space.md",
     "Notes/Vector.md",
-    "Notes/Unique Representation Theorem (Hamel; arbitrary).md",
-    "Notes/Linear subspace iff closed under linear combination.md"
+    "Notes/Linearly dependent iff exists span redundant element.md",
+    "Notes/Linear Independence (sequence).md",
+    "Notes/Linear span is set of all linear combinations.md",
+    "Notes/Linear Dependence.md"
   ]
 }
