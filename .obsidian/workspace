@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "eb9d3253e45f9972",
+        "id": "c680193ec6dc6405",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -151,7 +151,7 @@
                   "repelStrength": 14.3360953920776,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.41949623710483913,
+                  "scale": 0.3604671773563169,
                   "close": true
                 }
               }
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "eb9d3253e45f9972",
+  "active": "c680193ec6dc6405",
   "lastOpenFiles": [
-    "Notes/Linear Combination (Vector; arbitrary).md",
-    "Notes/Linear Independence (finite).md",
-    "Notes/Linear Independence (arbitrary).md",
-    "Notes/Linear Combination (Vector; finite).md",
-    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
-    "Notes/Linear combination of finite set coincide with finite sequence.md",
-    "Notes/Unique Representation Theorem (Hamel; arbitrary).md",
-    "Notes/Indexed Family.md",
-    "Notes/Cartesian Product (Arbitrary).md",
-    "Notes/Tuple.md"
+    "Notes/Hamel Basis.md",
+    "Notes/Ordered Hamel Basis.md",
+    "Notes/Tuple.md",
+    "Notes/Total Order.md",
+    "Notes/Strict Total Order.md",
+    "Notes/Trichotomous iff asymmetric and connected.md",
+    "Notes/Trichotomous Relation.md",
+    "Notes/Connected Relation.md",
+    "Notes/Totally Ordered Set.md",
+    "Notes/Basis for null space of matrix (explicit).md"
   ]
 }
