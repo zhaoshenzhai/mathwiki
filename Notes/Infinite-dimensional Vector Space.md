@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field. A vector space $V$ over $K$ is said to be **infinite-dimensional** if it is not finite-dimensional; that is, if there exists a basis $\mc{B}\subseteq V$ with $\l|\mc{B}\r|>\infty$._
+_Let $K$ be a field. A vector space $V$ over $K$ is said to be **infinite-dimensional** if it is not finite-dimensional; that is, if $V$ does not have a finite spanning set._
 
 ```

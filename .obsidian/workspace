@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "562455d6467dea8c",
+        "id": "c3254028d3c9c497",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -147,11 +147,11 @@
                   "nodeSizeMultiplier": 0.659023848019402,
                   "lineSizeMultiplier": 3.06767886014551,
                   "collapse-forces": false,
-                  "centerStrength": 0,
-                  "repelStrength": 14.3360953920776,
+                  "centerStrength": 0.309417946645109,
+                  "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.424945642893041,
+                  "scale": 0.46138897870802437,
                   "close": true
                 }
               }
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "562455d6467dea8c",
+  "active": "c3254028d3c9c497",
   "lastOpenFiles": [
-    "Notes/Transitive set iff every element is a subset.md",
-    "Notes/Linear Independence (finite).md",
-    "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
-    "Notes/Linear Independence (arbitrary).md",
-    "Notes/Hamel Basis.md",
+    "Notes/Infinite-dimensional Vector Space.md",
     "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Unique Representation Theorem (Hamel; finite).md",
-    "Notes/Vector Space.md",
-    "Notes/Vector.md",
-    "Notes/Unique Representation Theorem (Hamel; arbitrary).md"
+    "Notes/Dimension (Linear Algebra).md",
+    "Notes/Half-infinite Open Ray.md",
+    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
+    "Notes/Linear Independence (finite).md",
+    "Notes/Linear Independence (arbitrary).md",
+    "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
+    "Notes/Hamel Basis.md",
+    "Notes/Dimension of proper subspace strictly less than dimension of vector space (finite-dim.).md"
   ]
 }

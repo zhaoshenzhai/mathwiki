@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Hamel Basis]]
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Finite-dimensional Vector Space]]
 Generalizations: _Not Applicable_
 
 Properties: [$\l|\textrm{Linearly independent set}\r|\leq\l|\textrm{Spanning set}\r|$ (finite-dim.)](Cardinality%20of%20linearly%20independent%20sets%20no%20more%20than%20that%20of%20spanning%20sets%20(finite-dim.).md)
