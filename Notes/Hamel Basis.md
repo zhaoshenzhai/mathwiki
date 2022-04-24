@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Invariance of cardinality of bases (finite-dim.)]]
 Sufficiencies: [[Linearly independent subset of a finite-dim. vector space extends to a basis]]
-Equivalences: [[Unique Representation Theorem (Hamel; infinite)]]
+Equivalences: [[Unique Representation Theorem (Hamel; finite)]], [[Unique Representation Theorem (Hamel; infinite)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

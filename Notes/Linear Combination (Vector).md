@@ -17,27 +17,27 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space $V$ over $K$. A vector $v\in V$ is said to be a **$K$-linear combination of vectors in $S$** if_
+_Let $K$ be a field and consider a subset $U\subseteq V$ of a vector space $V$ over $K$. A vector $v\in V$ is said to be a **$K$-linear combination of vectors in $U$** if_
 $$\begin{equation}
-    \ex n\in\N^\ast,\ex\alpha_1,\dots,\alpha_n\in K,\ex \l\langle s_1,\dots,s_n\r\rangle\in S^n:v=\sum_{i=1}^n\alpha_is_i.
+    \ex n\in\N^\ast,\ex\alpha_1,\dots,\alpha_n\in K,\ex \l\langle u_1,\dots,u_n\r\rangle\in U^n:v=\sum_{i=1}^n\alpha_iu_i.
 \end{equation}$$
 _The sequence $\l\langle\alpha_1,\dots,\alpha_n\r\rangle\in K^n$ is said to be the **coefficients of the linear combination**._
 
 ```
 
 **Remark.** Two important remarks:
-* Only finite sums are allowed since bare vector spaces have no notion of convergence. To emphasize this, we shall sometimes call $v$ a _finite_ linear combination of vectors in $S$.
+* Only finite sums are allowed since bare vector spaces have no notion of convergence. To emphasize this, we shall sometimes call $v$ a _finite_ linear combination of vectors in $U$.
 
 * We may develop this definition in two steps.
-    * Firstly, a vector $v\in V$ is said to be a **linear combination of a _finite sequence_ $s_1,\dots,s_n$ of vectors in $S$**, formally written as $\l\langle s_1,\dots,s_n\r\rangle\in S^n$, if $$\begin{equation}
-        \ex\alpha_1,\dots,\alpha_n:v=\sum_{i=1}^n\alpha_is_i.
+    * Firstly, a vector $v\in V$ is said to be a **linear combination of a _finite sequence_ $u_1,\dots,u_n$ of vectors in $U$**, formally written as $\l\langle u_1,\dots,u_n\r\rangle\in U^n$, if $$\begin{equation}
+        \ex\alpha_1,\dots,\alpha_n\in K:v=\sum_{i=1}^n\alpha_iu_i.
     \end{equation}$$
-    * Next, a vector $v\in V$ is said to be a **linear combination of vectors in $S$** if there exists a finite sequence $s_1,\dots,s_n$ of vectors in $S$ such that $v$ is a linear combination thereof.
+    * Next, a vector $v\in V$ is said to be a **linear combination of vectors in $U$** if there exists a finite sequence $u_1,\dots,u_n$ of vectors in $U$ such that $v$ is a linear combination thereof.
 
-  This emphasizes how despite $S$ may be an infinite set, we shall only consider finite linear combinations.<span style="float:right;">$\blacklozenge$</span>
+  This emphasizes how despite $U$ may be an infinite set, we shall only consider finite linear combinations.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
 **Remark.**
-* If $S=\l\{s_1,\dots,s_n\r\}$, then, abusing notation, $v$ is said to be a **linear combination of the vectors $s_1,\dots,s_n$**.
-* If each $\alpha_i=0$, then $v$ is said to be a **trivial linear combination of vectors in $S$**. Observe that $v$ need not be the zero vector.<span style="float:right;">$\blacklozenge$</span>
+* If $U=\l\{u_1,\dots,u_n\r\}$, then, abusing notation, $v$ is said to be a **linear combination of the vectors $u_1,\dots,u_n$**.
+* If each $\alpha_i=0$, then $v$ is said to be a **trivial linear combination of vectors in $U$**. Observe that $v$ need not be the zero vector.<span style="float:right;">$\blacklozenge$</span>
