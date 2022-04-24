@@ -9,8 +9,8 @@ Examples: [[Matrix multiplication (columns)]], [[Matrix multiplication (rows)]]
 Constructions: [[Linear Independence]], [[Linear span is set of all linear combinations]], [Linear subspace $\Leftrightarrow$ closed under linear combination](Linear%20subspace%20iff%20closed%20under%20linear%20combination.md)
 Generalizations: _Not Applicable_
 
-Properties: [[Unique Representation Theorem (Linear Algebra)]], [[Linear combinations of solutions of homogeneous systems are solutions]]
-Sufficiencies: _Not Applicable_
+Properties: [[Linear combinations of solutions of homogeneous systems are solutions]]
+Sufficiencies: [[Unique Representation Theorem (Hamel; infinite)]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

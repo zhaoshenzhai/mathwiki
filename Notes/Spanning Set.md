@@ -4,7 +4,7 @@
 Date Created: 06/04/2022 21:08:27
 Tags: #Definition #Closed
 
-Types: [[Basis (Linear Algebra)]]
+Types: [[Hamel Basis]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_

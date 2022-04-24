@@ -9,7 +9,7 @@ Examples: [[Column Space]], [[Row Space]], [[Null Space]]
 Constructions: [[Spanning Set]]
 Generalizations: _Not Applicable_
 
-Properties: [[Unique Representation Theorem (Linear Algebra)]], [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
+Properties: [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 Sufficiencies: _Not Applicable_
 Equivalences: [[Linear span is set of all linear combinations]]
 Justifications: [[Arbitrary intersection of linear subspaces is a linear subspace]]

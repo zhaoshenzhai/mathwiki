@@ -6,12 +6,12 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Standard Basis of Tuple Space]], [[Basis for null space of matrix (explicit)]]
-Constructions: [[Dimension (Linear Algebra)]], [[Ordered Basis (Linear Algebra)]]
+Constructions: [[Dimension (Linear Algebra)]], [[Ordered Hamel Basis]]
 Generalizations: _Not Applicable_
 
 Properties: [[Invariance of cardinality of bases (finite-dim.)]]
 Sufficiencies: [[Linearly independent subset of a finite-dim. vector space extends to a basis]]
-Equivalences: _Not Applicable_
+Equivalences: [[Unique Representation Theorem (Hamel; infinite)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

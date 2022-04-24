@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a vector space over a field $K$. A **vector** is an element $\v{v}\in V$._
+_Let $V$ be a vector space over a field $K$. A **vector** is an element $v\in V$._
 
 ```

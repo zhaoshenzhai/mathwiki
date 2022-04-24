@@ -5,7 +5,7 @@ Date Created: 19/01/2022 18:23:39
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Ordered Basis (Linear Algebra)]]
+Examples: [[Ordered Hamel Basis]]
 Constructions: [[Totally Ordered Set]]
 Generalizations: _Not Applicable_
 

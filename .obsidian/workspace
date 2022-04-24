@@ -4,24 +4,60 @@
     "type": "split",
     "children": [
       {
-        "id": "eebedb9366421051",
+        "id": "e97ef8f1731224d8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
+            "file": "Notes/Unique Representation Theorem (Hamel; infinite).md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "0a5bf6d31a758a31",
+        "id": "bdcdb9748de1441f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linearly dependent iff exists span redundant element.md",
+            "file": "Notes/Hamel Basis.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "5dbbeee088c401fa",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Vector Space.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "60f8b089927a79e9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Finite-dimensional Vector Space.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "eda8d4b6224d0fcb",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Infinite-dimensional Vector Space.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
+                "file": "Notes/Finite-dimensional Vector Space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
+                "file": "Notes/Finite-dimensional Vector Space.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +205,7 @@
                   "repelStrength": 14.3360953920776,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.34012746741101946,
+                  "scale": 0.4228938179958609,
                   "close": true
                 }
               }
@@ -181,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Unique Representation Theorem (Linear Algebra).md",
+                "file": "Notes/Finite-dimensional Vector Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +230,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "eebedb9366421051",
+  "active": "60f8b089927a79e9",
   "lastOpenFiles": [
-    "Notes/Unique Representation Theorem (Linear Algebra).md",
-    "Notes/Linearly dependent iff exists span redundant element.md",
-    "Notes/Linear Combination (Vector).md",
-    "Notes/Linear Independence.md",
-    "Notes/Linear Dependence.md",
-    "Notes/Order Topology.md",
-    "Notes/Linear span is set of all linear combinations.md",
-    "Notes/Linear Span.md",
-    "Notes/Basis (Linear Algebra).md",
-    "Notes/Vector Space.md"
+    "Notes/Finite-dimensional Vector Space.md",
+    "Notes/Infinite-dimensional Vector Space.md",
+    "Notes/Vector Space.md",
+    "Notes/Hamel Basis.md",
+    "Notes/Unique Representation Theorem (Hamel; infinite).md",
+    "Notes/Ordered Hamel Basis.md",
+    "Notes/Enlargement of linearly independent set by adjoining non-spanned vector.md",
+    "Notes/Category of Vector Spaces.md",
+    "Notes/Category of vector spaces is a locally-small category.md",
+    "Notes/Composition of linear maps is a linear map.md"
   ]
 }
