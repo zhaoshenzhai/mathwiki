@@ -22,7 +22,7 @@ $$\begin{equation}
     \begin{aligned}
         \oplus:K^n\times K^n&\to K^n\\
         \l\langle\v{x},\v{y}\r\rangle&\mapsto\l\langle x_1+y_1,\dots,x_n+y_n\r\rangle
-    \end{aligned}\ \ \ \ \ \ \ \ \textit{and}\ \ \ \ \ \ \ \ 
+    \end{aligned}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ 
     \begin{aligned}
         \odot:K\times K^n&\to K^n\\
         \l\langle\alpha,\v{x}\r\rangle&\mapsto\l\langle \alpha\cdot x_1,\dots,\alpha\cdot x_n\r\rangle.

@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c3254028d3c9c497",
+        "id": "3d70a2ed20829683",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Dot Product.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Dot Product.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Dot Product.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Dot Product.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "c3254028d3c9c497",
+  "active": "3d70a2ed20829683",
   "lastOpenFiles": [
-    "Notes/Infinite-dimensional Vector Space.md",
-    "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Dimension (Linear Algebra).md",
-    "Notes/Half-infinite Open Ray.md",
-    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
-    "Notes/Linear Independence (finite).md",
-    "Notes/Linear Independence (arbitrary).md",
-    "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
-    "Notes/Hamel Basis.md",
-    "Notes/Dimension of proper subspace strictly less than dimension of vector space (finite-dim.).md"
+    "Notes/Dot Product.md",
+    "Notes/Euclidean Norm.md",
+    "Notes/Euclidean Vector Space.md",
+    "Notes/Inner Product.md",
+    "Notes/Binary relation iff subset of Cartesian product.md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Real Coordinate Space.md",
+    "Notes/Kronecker Delta.md",
+    "Notes/Standard Basis of Tuple Space.md",
+    "Notes/Solution of linear system in terms of a particular solution.md"
   ]
 }

@@ -23,8 +23,8 @@ $$\begin{equation}
         \delta:X\times X&\to\N \\
         \l\langle x,y\r\rangle&\mapsto
             \begin{dcases}
-                1 & \textit{i\!f }x=y\\
-                0 & \textit{else.}
+                1 & \textrm{\it{if }}x=y\\
+                0 & \textrm{\it{else.}}
             \end{dcases}
     \end{aligned}
 \end{equation}$$
