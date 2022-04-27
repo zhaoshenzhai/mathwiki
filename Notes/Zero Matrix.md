@@ -28,5 +28,3 @@ $$\begin{equation}
 \end{equation}$$
 
 ```
-
-**Remark.** Formally, $0_{mn}\coloneqq\l\langle m,n,f\r\rangle$ where $f\l(i,j\r)\coloneqq0_K$ for all $i\in\l\{0,\dots,m\r\}$ and $j\in\l\{0,\dots,n\r\}$.<span style="float:right;">$\blacklozenge$</span>

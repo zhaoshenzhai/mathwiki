@@ -21,7 +21,7 @@ _Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $m,n\in\N^\ast$. The func
 $$\begin{equation}
     \begin{aligned}
         \oplus:\mat{m\times n}{K}\times\mat{m\times n}{K}&\to\mat{m\times n}{K}\\
-        \l\langle A,B\r\rangle&\mapsto A\oplus B\coloneqq\l[a_{ij}+b_{ij}\r]_{i\in\l\{1,\dots,m\r\},j\in\l\{1,\dots,n\r\}}
+        \l\langle\l[a_{ij}\r],\l[b_{ij}\r]\r\rangle&\mapsto\l[a_{ij}+b_{ij}\r]
     \end{aligned}
 \end{equation}$$
 _defines the **matrix addition operation between $m\times n$ matrices over $K$**._

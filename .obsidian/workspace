@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "31e8b2a41ff249d9",
+        "id": "2133f3f4b0e76170",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Comparison of topologies on R.md",
+            "file": "Notes/Matrix Multiplication.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Comparison of topologies on R.md",
+                "file": "Notes/Matrix Multiplication.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Comparison of topologies on R.md",
+                "file": "Notes/Matrix Multiplication.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Comparison of topologies on R.md",
+                "file": "Notes/Matrix Multiplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "31e8b2a41ff249d9",
+  "active": "2133f3f4b0e76170",
   "lastOpenFiles": [
-    "Notes/Comparison of topologies on R.md",
-    "Notes/Upper-limit topology strictly finer than standard topology on R.md",
-    "Notes/Standard Topology on R.md",
-    "Notes/Lower-limit Topology on R.md",
-    "Notes/Upper-limit Topology on R.md",
-    "Notes/K Topology on R.md",
-    "Notes/Lower and upper limit topologies are not comparable on R.md",
-    "Notes/Sum of symmetric matrices is symmetric.md",
-    "Notes/Square Matrix.md",
-    "Notes/RREF of a matrix is unique.md"
+    "Notes/Matrix Multiplication.md",
+    "Notes/Set of Matrices.md",
+    "Notes/Matrix Addition.md",
+    "Notes/Vector Space of Matrices.md",
+    "Notes/Additive Matrix Group.md",
+    "Notes/Distribution of matrix multiplication over addition.md",
+    "Notes/Tuple space over a field is a vector space.md",
+    "Notes/Set of matrices form a vector space.md",
+    "Notes/Matrix multiplication (rows).md",
+    "Notes/Matrix multiplication (columns).md"
   ]
 }

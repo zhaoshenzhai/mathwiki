@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n,p\in\N$. Then the following distributive laws hold:_
+_Let $K$ be a field and fix $m,n,p\in\N^\ast$. Then the following distributive laws hold:_
 * _(Left-distribution): For all $A\in\mat{m\times n}{K}$ and $B,C\in\mat{n\times p}{K}$, we have that_
 $$\begin{equation}
     A\l(B+C\r)=AB+AC.

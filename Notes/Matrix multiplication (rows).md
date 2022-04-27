@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n,p\in\N$. Then, for all $A\in\mat{m\times n}{K}$ and $B\in\mat{n\times p}{K}$, the rows $\v{c}_i$ of their product $C\coloneqq AB$ are linear combinations of the rows of $B$. Formally, letting_ $\v{c}_i\coloneqq\l[c_{i1}\ \ \cdots\ \ c_{ip}\r]$ _for all $i\in\l\{1,\dots m\r\}$, we have that_
+_Let $K$ be a field and fix $m,n,p\in\N^\ast$. Then, for all $A\in\mat{m\times n}{K}$ and $B\in\mat{n\times p}{K}$, the rows $\v{c}_i$ of their product $C\coloneqq AB$ are linear combinations of the rows of $B$. Formally, letting_ $\v{c}_i\coloneqq\l[c_{i1}\ \ \cdots\ \ c_{ip}\r]$ _for all $i\in\l\{1,\dots m\r\}$, we have that_
 $$\begin{equation}
     \fa i\in\l\{1,\dots,m\r\}:\v{c}_i=\sum_{j=1}^na_{ij}\v{b}_j
 \end{equation}$$

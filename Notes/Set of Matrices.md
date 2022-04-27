@@ -21,8 +21,4 @@ _Let $K$ be a field. The **set of $m\times n$ matrices over $K$** is denoted by_
 
 ```
 
-**Remark.** Formally, if we define matrices as triples like $A\coloneqq\l\langle m,n,f\r\rangle$ where..., then
-$$\begin{equation}
-    \mat{m\times n}{K}\coloneqq\l\{A\in\N^2\times K^{\l\{1,\dots,m\r\}\times\l\{1,\dots,n\r\}}\mid A\textit{ is a matrix over }K\r\}.\exqedin
-\end{equation}$$
-
+**Remark.** Formally, $\mat{m\times n}{K}=K^{\l\{1,\dots,m\r\}\times\l\{1,\dots,n\r\}}$.<span style="float:right;">$\blacklozenge$</span>

@@ -20,7 +20,7 @@ title: Definition.
 _Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $n\in\N^\ast$. The **identity matrix over $K$ of size $n$** is the matrix_
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-31_171205/image.svg", width=300></center>
 
-_where $\delta$ is the Kronecker delta function on $\N$._
+_where $\delta$ is the Kronecker delta function on $\N^\ast$._
 
 ```
 
