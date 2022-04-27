@@ -17,11 +17,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $m,n,p\in\N$. The function_
+_Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $m,n,p\in\N^\ast$. The function_
 $$\begin{equation}
     \begin{aligned}
         \odot:\mat{m\times n}{K}\times\mat{n\times p}{K}&\to\mat{m\times p}{K}\\
-        \l\langle A,B\r\rangle&\mapsto A\odot B\coloneqq\l[\sum\limits_{j=1}^na_{ij}\cdot b_{jk}\r]_{i\in\l\{1,\dots,m\r\},k\in\l\{1,\dots,p\r\}}
+        \l\langle\l[a_{ij}\r],\l[b_{jk}\r]\r\rangle&\mapsto\l[\sum\limits_{j=1}^na_{ij}\cdot b_{jk}\r]
     \end{aligned}
 \end{equation}$$
 _defines the **matrix multiplication operation between an $m\times n$ and a $n\times p$ matrix over $K$**._

@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n,p\in\N$. Then, for all $A\in\mat{m\times n}{K}$, $B\in\mat{n\times p}{K}$, and $\alpha\in K$, we have that_
+_Let $K$ be a field and fix $m,n,p\in\N^\ast$. Then, for all $A\in\mat{m\times n}{K}$, $B\in\mat{n\times p}{K}$, and $\alpha\in K$, we have that_
 $$\begin{equation}
     \alpha\cdot\l(A\odot B\r)=\l(\alpha\cdot A\r)\odot B=A\odot\l(\alpha\cdot B\r)
 \end{equation}$$

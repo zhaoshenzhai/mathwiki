@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n,p\in\N$. Then, for every $A\in\mat{m\times n}{K}$ and $B\in\mat{n\times p}{K}$, we have that_
+_Let $K$ be a field and fix $m,n,p\in\N^\ast$. Then, for every $A\in\mat{m\times n}{K}$ and $B\in\mat{n\times p}{K}$, we have that_
 $$\begin{equation}
     T_{AB}=T_A\circ T_B.
 \end{equation}$$

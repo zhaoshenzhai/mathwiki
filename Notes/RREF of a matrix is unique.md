@@ -17,11 +17,7 @@ _Let $K$ be a field and fix $m,n\in\N^\ast$. Then, for all $A\in\mat{m\times n}{
 
 ```
 
-_Proof_. We proceed by induction on $n$. Empty matrices are vacuously in RREF, so take $n\in\N^\ast$ and assume that the RREF of $m\times n$ matrices are unique. Take $A\in\mat{m\times\l(n+1\r)}{K}$ and let $A'\in\mat{m\times n}{K}$ be the matrix $A$ with its last column removed; formally, we let $A'\coloneqq\l\langle m,n,f'\r\rangle$ where
-$$\begin{equation}
-        \fa i\in\l\{1,\dots,m\r\},\fa j\in\l\{1,\dots,n\r\}:f'\l(i,j\r)\coloneqq f\l(i,j\r)
-\end{equation}$$
-and where $f$ is the defining function of $A$. Assume, for sake of contradiction, that $R,U\in\mat{m\times\l(n+1\r)}{K}$ are distinct matrices in RREF with $A\sim R\sim U$, say with $r$ non-zero rows; our induction hypothesis states that $R'=U'$.
+_Proof_. We proceed by induction on $n$. $1\times 1$ matrices are trivially in RREF, so take $n>1$ and assume that the RREF of $m\times n$ matrices are unique. Take $A\in\mat{m\times\l(n+1\r)}{K}$ and let $A'\in\mat{m\times n}{K}$ be the matrix $A$ with its last column removed. Assume, for sake of contradiction, that $R,U\in\mat{m\times\l(n+1\r)}{K}$ are distinct matrices in RREF with $A\sim R\sim U$, say with $r$ non-zero rows; our induction hypothesis states that $R'=U'$.
 
 Since $R$ and $U$ are distinct, they must differ by at least one entry in their last columns; that is, there exists $l\in\l\{1,\dots,r\r\}$ such that $r_{ln}\neq u_{ln}$. Consider the systems $R\v{x}=\v{0}$ and $U\v{x}=\v{0}$. Any solution to both systems must then be a solution of the system $\l(R-U\r)\v{x}=\v{0}$, which is of the form
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-26_212642/image.svg", width=280></center>

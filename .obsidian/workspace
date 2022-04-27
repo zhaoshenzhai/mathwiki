@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Matrix Multiplication.md",
+            "file": "Notes/Reduced Row-echelon Matrix.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Matrix Multiplication.md",
+                "file": "Notes/Reduced Row-echelon Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Matrix Multiplication.md",
+                "file": "Notes/Reduced Row-echelon Matrix.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -157,7 +157,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.46138897870802437,
+                  "scale": 0.034300337031213476,
                   "close": true
                 }
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Matrix Multiplication.md",
+                "file": "Notes/Reduced Row-echelon Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,15 +184,15 @@
   },
   "active": "2133f3f4b0e76170",
   "lastOpenFiles": [
-    "Notes/Matrix Multiplication.md",
-    "Notes/Set of Matrices.md",
-    "Notes/Matrix Addition.md",
-    "Notes/Vector Space of Matrices.md",
-    "Notes/Additive Matrix Group.md",
-    "Notes/Distribution of matrix multiplication over addition.md",
-    "Notes/Tuple space over a field is a vector space.md",
-    "Notes/Set of matrices form a vector space.md",
-    "Notes/Matrix multiplication (rows).md",
-    "Notes/Matrix multiplication (columns).md"
+    "Notes/Reduced Row-echelon Matrix.md",
+    "Notes/Identity Matrix.md",
+    "Notes/RREF of a matrix is unique.md",
+    "Notes/Gauss-Jordan Algorithm.md",
+    "Notes/Full-rank square matrix in RREF is identity.md",
+    "Notes/Row-echelon Matrix.md",
+    "Notes/Matrix.md",
+    "Notes/Matrices coincide if their actions on all vectors coincide.md",
+    "Notes/Pivot Column.md",
+    "Notes/Gaussian Elimination.md"
   ]
 }

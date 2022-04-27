@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Consider the field $\R$ of real numbers and fix $m,n,p\in\N$. Then, for all $A\in\mat{m\times n}{\R}$ and $B\in\mat{n\times p}{\R}$, we have that $AB=\l[\v{a}_i\dotpro\v{b}_k\r]$ where_ $\v{a}_i\coloneqq\l\langle a_{i1},\dots,a_{in}\r\rangle$ _is the $i^{th}$ row of $A$ and_ $\v{b}_k\coloneqq\l\langle b_{1k},\dots,b_{nk}\r\rangle$ _is the $k^{th}$ column of $B$, both in vector form._
+_Consider the field $\R$ of real numbers and fix $m,n,p\in\N^\ast$. Then, for all $A\in\mat{m\times n}{\R}$ and $B\in\mat{n\times p}{\R}$, we have that $AB=\l[\v{a}_i\dotpro\v{b}_k\r]$ where_ $\v{a}_i\coloneqq\l\langle a_{i1},\dots,a_{in}\r\rangle$ _is the $i^{th}$ row of $A$ and_ $\v{b}_k\coloneqq\l\langle b_{1k},\dots,b_{nk}\r\rangle$ _is the $k^{th}$ column of $B$, both in vector form._
 
 ```
 

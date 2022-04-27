@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n,p,q\in\N$. Then, for all $A\in\mat{m\times n}{K}$, $B\in\mat{n\times p}{K}$ and $C\in\mat{p\times q}{K}$, we have that $A\l(BC\r)=\l(AB\r)C$._
+_Let $K$ be a field and fix $m,n,p,q\in\N^\ast$. Then, for all $A\in\mat{m\times n}{K}$, $B\in\mat{n\times p}{K}$ and $C\in\mat{p\times q}{K}$, we have that $A\l(BC\r)=\l(AB\r)C$._
 
 ```
 
