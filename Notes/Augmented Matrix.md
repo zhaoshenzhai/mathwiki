@@ -25,7 +25,7 @@ $$\begin{equation}
         &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m
     \end{alignedat}\r.
 \end{equation}$$
-_of equations over $K$. The **augmented matrix of $A\v{x}=\v{b}$** is the matrix_
+_of equations over $K$ for some fixed $m,n\in\N^\ast$. The **augmented matrix of $A\v{x}=\v{b}$** is the matrix_
 $$\begin{equation}
     \l[A\mid\v{b}\r]\coloneqq\l[
         \begin{array}{ccc|c}

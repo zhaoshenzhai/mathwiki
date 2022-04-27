@@ -9,22 +9,27 @@ Examples: _Not Applicable_
 Constructions: [[Augmented Matrix]], [[Linear Combination (Linear System)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Classification of linear systems of equations (infinite field)]], [[Solution of system of linear combinations contains solution of original system]], [Linear system $A\v{x}=\v{b}$ is consistent for all $\v{b}$ $\Rightarrow$ $A$ is right-invertible](Linear%20system%20is%20consistent%20for%20all%20constants%20implies%20coefficient%20matrix%20right-invertible.md)
-Sufficiencies: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md), [$A$ invertible $\Rightarrow$ $A\v{x}=\v{b}$ has a unique solution](Invertible%20coefficient%20matrix%20implies%20unique%20solution.md)
-Equivalences: [[Gaussian Elimination]], [[Gauss-Jordan Elimination]], [Linear system $A\v{x}=\v{b}$ has a unique solution $\Leftrightarrow$ $A\sim I$](Linear%20system%20has%20unique%20solution%20iff%20coefficient%20matrix%20row-equivalent%20to%20identity.md), [Linear system $A\v{x}=\v{b}$ is consistent $\Leftrightarrow$ $\v{b}\in\col\l(A\r)$](Linear%20system%20is%20consistent%20iff%20constant%20matrix%20is%20in%20column%20space%20of%20coefficient%20matrix.md), [[Solution of linear system in terms of a particular solution]]
+Properties: [[Solutions of linear system of equations]], [[Classification of linear systems of equations (infinite field)]], [Linear system $A\v{x}=\v{b}$ is consistent for all $\v{b}$ $\Rightarrow$ $A$ is right-invertible](Linear%20system%20is%20consistent%20for%20all%20constants%20implies%20coefficient%20matrix%20right-invertible.md)
+Sufficiencies: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
+Equivalences: [Linear system $A\v{x}=\v{b}$ is consistent $\Leftrightarrow$ $\v{b}\in\col\l(A\r)$](Linear%20system%20is%20consistent%20iff%20constant%20matrix%20is%20in%20column%20space%20of%20coefficient%20matrix.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and let $f_i\l(x_1,\dots,x_n\r)=b_i$ be linear equations over $K$ for all $i\in\l\{1,\dots,m\r\}$. The **linear system of $m$ equations constructed from $f_i\l(x_1,\dots,x_n\r)=b_i$** is the collection of all such equations, written as_
+_Let $K$ be a field and fix $m,n\in\N^\ast$. A **linear system of $m$ equations in $n$ variables over $K$** is a collection_
 $$\begin{equation}
     \l\{\begin{alignedat}{7}
         &a_{11}x_1&&\,+&&\,\cdots\,&&\,+\,&&a_{1n}x_n&&=\ &&b_1\\
         &\vdotswithin{a_{11}x_1}&&&&&&&&\vdotswithin{a_{1n}x_n}&&&&\vdotswithin{b_1}\\
-        &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m.
-    \end{alignedat}\r.
+        &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m
+    \end{alignedat}\r.\tag{$\ast$}
 \end{equation}$$
+_of linear equations of $n$ variables over $K$. Letting_
+$$\begin{equation}
+    f_i\l(\v{x}\r)\coloneqq a_{i1}x_1+\cdots+a_{in}x_n,
+\end{equation}$$
+_a **solution of $\ref{\ast}$** is any tuple $\v{s}\in K^n$ such that $f_i\l(\v{s}\r)=b_i$ for all $i\in\l\{1,\dots,m\r\}$._
 
 ```
 
