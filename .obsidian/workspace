@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c36e39146c22db9a",
+        "id": "bbda061a4682ec53",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear map Induced by a Matrix.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linear map Induced by a Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linear map Induced by a Matrix.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear map Induced by a Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "c36e39146c22db9a",
+  "active": "bbda061a4682ec53",
   "lastOpenFiles": [
-    "Notes/Linear System of Equations.md",
-    "Notes/Solutions of linear system of equations.md",
-    "Notes/Classification of linear systems of equations (infinite field).md",
-    "Notes/Gaussian Elimination.md",
-    "Notes/Augmented Matrix.md",
+    "Notes/Linear map Induced by a Matrix.md",
+    "Notes/Linear Map.md",
+    "Notes/Row-equivalent iff factors through invertible matrix.md",
+    "Notes/Matrix invertible iff factors invertible.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Category of Vector Spaces.md",
+    "Notes/Matrices coincide if their actions on all vectors coincide.md",
+    "Notes/Null Space.md",
     "Notes/Homogeneous Linear System.md",
-    "Notes/Linear Equation.md",
-    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
-    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
-    "Notes/Linear system is consistent for all constants implies coefficient matrix right-invertible.md"
+    "Notes/Basis for null space of matrix (explicit).md"
   ]
 }
