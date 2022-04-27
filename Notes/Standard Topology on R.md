@@ -13,7 +13,7 @@ Examples: _Not Applicable_
 Constructions: [[Real Line (Topology)]], [Standard Topology on $\R^2$](Standard%20Topology%20on%20R2.md)
 Generalizations: _Not Applicable_
 
-Properties: [$\sttopR\subset\ULtopR$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\sttopR\subset\LLtopR$](Lower-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\sttopR\subset\KtopR$](K%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md)
+Properties: [Comparison of topologies on $\R$](Comparison%20of%20topologies%20on%20R.md)
 Sufficiencies: _Not Applicable_
 Equivalences: [Standard topology on $\R$ (explicit)](Standard%20topology%20on%20R%20(explicit).md), [Standard topology on $\R$ (basis; rational endpoints)](Standard%20topology%20on%20R%20(basis;%20rational%20endpoints).md), [Standard topology on $\R$ (subbasis; rational endpoints)](Standard%20topology%20on%20R%20(subbasis;%20rational%20endpoints).md)
 Justifications: _Not Applicable_

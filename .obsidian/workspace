@@ -7,8 +7,12 @@
         "id": "31e8b2a41ff249d9",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Comparison of topologies on R.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Comparison of topologies on R.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Comparison of topologies on R.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Comparison of topologies on R.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +184,15 @@
   },
   "active": "31e8b2a41ff249d9",
   "lastOpenFiles": [
+    "Notes/Comparison of topologies on R.md",
+    "Notes/Upper-limit topology strictly finer than standard topology on R.md",
+    "Notes/Standard Topology on R.md",
+    "Notes/Lower-limit Topology on R.md",
+    "Notes/Upper-limit Topology on R.md",
+    "Notes/K Topology on R.md",
+    "Notes/Lower and upper limit topologies are not comparable on R.md",
     "Notes/Sum of symmetric matrices is symmetric.md",
     "Notes/Square Matrix.md",
-    "Notes/RREF of a matrix is unique.md",
-    "Notes/Matrix with zero-row implies not invertible.md",
-    "Notes/Matrix invertible iff row-equivalent to identity.md",
-    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
-    "Notes/Linear Independence (finite).md",
-    "Notes/Invertible Matrix.md",
-    "Notes/Inversion is an involution.md",
-    "Notes/Inverse of transpose is transpose of inverse.md"
+    "Notes/RREF of a matrix is unique.md"
   ]
 }

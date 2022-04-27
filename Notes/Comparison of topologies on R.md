@@ -1,3 +1,7 @@
+---
+alias: auto_aliasing
+---
+
 <br />
 <br />
 

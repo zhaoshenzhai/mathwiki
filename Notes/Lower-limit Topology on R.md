@@ -13,7 +13,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [$\sttopR\subset\LLtopR$](Lower-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [$\LLtopR\not\subseteq\ULtopR\land\ULtopR\not\subseteq\LLtopR$](Lower%20and%20upper%20limit%20topologies%20are%20not%20comparable%20on%20R.md), [$\LLtopR\not\subseteq\KtopR\land\KtopR\not\subseteq\LLtopR$](Lower%20and%20K%20topologies%20are%20not%20comparable%20on%20R.md)
+Properties: [Comparison of topologies on $\R$](Comparison%20of%20topologies%20on%20R.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [Lower-limit topology is a topology on $\R$](Lower-limit%20topology%20is%20a%20topology%20on%20R.md)
