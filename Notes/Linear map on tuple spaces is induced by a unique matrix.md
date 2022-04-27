@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N$. Then, for every linear map $T:K^n\to K^m$, there exists a unique matrix $A\in\mat{m\times n}{K}$ such that $T\l(\v{x}\r)=A\v{x}$ for all $\v{x}\in K^n$. Explicitly,_
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then, for every linear map $T:K^n\to K^m$, there exists a unique matrix $A\in\mat{m\times n}{K}$ such that $T\l(\v{x}\r)=A\v{x}$ for all $\v{x}\in K^n$. Explicitly,_
 $$\begin{equation}
     A=\l[T\l(\v{e}_1\r)\ \ \cdots\ \ T\l(\v{e}_n\r)\r]
 \end{equation}$$

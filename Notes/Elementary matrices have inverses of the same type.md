@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $n\in\N$. Then all elementary matrices $E\in\mat{n}{K}$ are invertible with inverses of the same type._
+_Let $K$ be a field and fix $n\in\N^\ast$. Then all elementary matrices $E\in\mat{n}{K}$ are invertible with inverses of the same type._
 
 ```
 

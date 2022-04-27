@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N$. Consider any elementary row operation_ $e:\bigcup_{j\in\N}\mat{m\times j}{K}\to\bigcup_{j\in\N}\mat{m\times j}{K}$ _and set $E\coloneqq e\l(I_m\r)$. Then, for all $A\in\mat{m\times n}{K}$, we have that_
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Consider any elementary row operation_ $e:\bigcup_{j\in\N^\ast}\mat{m\times j}{K}\to\bigcup_{j\in\N^\ast}\mat{m\times j}{K}$ _and set $E\coloneqq e\l(I_m\r)$. Then, for all $A\in\mat{m\times n}{K}$, we have that_
 $$\begin{equation}
     e\l(A\r)=EA.
 \end{equation}$$

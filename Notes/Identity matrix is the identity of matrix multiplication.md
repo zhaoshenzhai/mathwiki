@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N$. Then, for all $A\in\mat{m\times n}{K}$, we have that $I_mA=A=AI_n$ where $I_m$ and $I_n$ denote the $m\times m$ and $n\times n$ identity matrices, respectively._
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then, for all $A\in\mat{m\times n}{K}$, we have that $I_mA=A=AI_n$ where $I_m$ and $I_n$ denote the $m\times m$ and $n\times n$ identity matrices, respectively._
 
 ```
 

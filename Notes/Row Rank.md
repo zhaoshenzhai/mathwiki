@@ -17,7 +17,7 @@ Justifications: [[RREF of a matrix is unique]]
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. The **(row) rank of $A$** is the number $\row\rank\l(A\r)=r$ where $r$ is the number of leading $1\textrm{'}$s in $R\coloneqq\rref\l(A\r)$._
+_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. The **(row) rank of $A$** is the number $\row\rank\l(A\r)=r$ where $r$ is the number of leading $1\textrm{'}$s in $R\coloneqq\rref\l(A\r)$._
 
 ```
 

@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N$. Then, for all $A,B\in\mat{m\times n}{K}$, $A\sim B$ iff there exist elementary matrices $E_1,\dots,E_k\in\mat{m}{K}$ such that_
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then, for all $A,B\in\mat{m\times n}{K}$, $A\sim B$ iff there exist elementary matrices $E_1,\dots,E_k\in\mat{m}{K}$ such that_
 $$\begin{equation}
     A=\l(E_k\times\cdots\times E_1\r)\times B.
 \end{equation}$$

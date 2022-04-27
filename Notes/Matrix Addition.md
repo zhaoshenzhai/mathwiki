@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $m,n\in\N$. The function_
+_Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $m,n\in\N^\ast$. The function_
 $$\begin{equation}
     \begin{aligned}
         \oplus:\mat{m\times n}{K}\times\mat{m\times n}{K}&\to\mat{m\times n}{K}\\

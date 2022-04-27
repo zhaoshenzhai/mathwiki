@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N$. Then, for all $A\in\mat{m\times n}{K}$, there exists a unique reduced row-echelon matrix $R\in\mat{m\times n}{K}$ with $A\sim R$._
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then, for all $A\in\mat{m\times n}{K}$, there exists a unique reduced row-echelon matrix $R\in\mat{m\times n}{K}$ with $A\sim R$._
 
 ```
 

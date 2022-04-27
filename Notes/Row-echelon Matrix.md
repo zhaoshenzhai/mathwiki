@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N$. A matrix $R\in\mat{m\times n}{K}$ is said to be in **row-echelon form** if:_
+_Let $K$ be a field and fix $m,n\in\N^\ast$. A matrix $R\in\mat{m\times n}{K}$ is said to be in **row-echelon form** if:_
 * $\axiref[1]\bf{.}$ _All zero-rows of $R$ are at the bottom:_
 $$\begin{equation}
     \begin{aligned}

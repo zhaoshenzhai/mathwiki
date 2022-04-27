@@ -17,7 +17,7 @@ Justifications: [[RREF of a matrix is unique]]
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. A column_ $\v{a}_k\in\mat{m\times1}{K}$ _is said to be a **pivot column of $A$** if the $k^{th}$ column of $R\coloneqq\rref\l(A\r)$ is a pivot column._
+_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. A column_ $\v{a}_k\in\mat{m\times1}{K}$ _is said to be a **pivot column of $A$** if the $k^{th}$ column of $R\coloneqq\rref\l(A\r)$ is a pivot column._
 
 ```
 

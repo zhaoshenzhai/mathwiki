@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider matrices $A,B\in\mat{m\times n}{K}$ for some $m,n\in\N$. The matrix $B$ is said to be **row-equivalent to $A$** if there exists elemenatary row operations_
+_Let $K$ be a field and consider matrices $A,B\in\mat{m\times n}{K}$ for some $m,n\in\N^\ast$. The matrix $B$ is said to be **row-equivalent to $A$** if there exists elemenatary row operations_
 $$\begin{equation}
     e_1,\dots,e_k:\mat{m\times n}{K}\to\mat{m\times n}{K}
 \end{equation}$$

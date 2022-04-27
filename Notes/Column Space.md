@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider an $m\times n$ matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. The **column space of $A$** is the linear subspace of $K^m$ spanned by the columns of $A$. Formally,_
+_Let $K$ be a field and consider an $m\times n$ matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. The **column space of $A$** is the linear subspace of $K^m$ spanned by the columns of $A$. Formally,_
 $$\begin{equation}
     \col\l(A\r)\coloneqq\span\l\{\v{a}_1,\dots,\v{a}_n\r\}
 \end{equation}$$

@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N$. Then the row-equivalence relation $\sim$ on $\mat{m\times n}{K}$ is an equivalence relation._
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then the row-equivalence relation $\sim$ on $\mat{m\times n}{K}$ is an equivalence relation._
 
 ```
 

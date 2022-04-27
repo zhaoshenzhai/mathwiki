@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N$. Then, for all $A,B\in\mat{m\times n}{K}$, $A\sim B$ iff there exists an invertible matrix $P$ such that $B=PA$._
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then, for all $A,B\in\mat{m\times n}{K}$, $A\sim B$ iff there exists an invertible matrix $P$ such that $B=PA$._
 
 ```
 

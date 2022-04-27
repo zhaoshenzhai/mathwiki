@@ -66,4 +66,4 @@ If the type is not specified, write $A\xrightarrow{e}B$.<span style="float:right
 $$\begin{equation}
     e:\mat{m\times n}{K}\to\mat{m\times n}{K}
 \end{equation}$$
-for given $m,n\in\N$ acting on $A\in\mat{m\times n}{K}$ as above shall also be referred to as an elementary row operation.<span style="float:right;">$\blacklozenge$</span>
+for given $m,n\in\N^\ast$ acting on $A\in\mat{m\times n}{K}$ as above shall also be referred to as an elementary row operation.<span style="float:right;">$\blacklozenge$</span>

@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N$. Then, for all $A\in\mat{m\times n}{K}$, we have $\l(A^\trans\r)^\trans=A.$_
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then, for all $A\in\mat{m\times n}{K}$, we have $\l(A^\trans\r)^\trans=A.$_
 
 ```
 

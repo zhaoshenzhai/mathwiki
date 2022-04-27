@@ -17,7 +17,7 @@ Justifications: [[Linear map induced by a matrix is a linear map]]
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N$. To every matrix $A\in\mat{m\times n}{K}$, the **linear map induced by $A$** is the linear map_
+_Let $K$ be a field and fix $m,n\in\N^\ast$. To every matrix $A\in\mat{m\times n}{K}$, the **linear map induced by $A$** is the linear map_
 $$\begin{equation}
     \begin{aligned}
         T_A:K^n&\to K^m \\

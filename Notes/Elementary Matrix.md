@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m\in\N$. A matrix $E\in\mat{m}{K}$ is said to be an **elementary matrix** if there exists a single elementary row operation $e\in\mat{m}{K}\to \mat{m}{K}$ such that $E=e\l(I_m\r)$_
+_Let $K$ be a field and fix $m\in\N^\ast$. A matrix $E\in\mat{m}{K}$ is said to be an **elementary matrix** if there exists a single elementary row operation $e\in\mat{m}{K}\to \mat{m}{K}$ such that $E=e\l(I_m\r)$_
 
 ```
 

@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. Then $\col\rank\l(A\r)$ is the number of pivot columns of $A$._
+_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. Then $\col\rank\l(A\r)$ is the number of pivot columns of $A$._
 
 ```
 

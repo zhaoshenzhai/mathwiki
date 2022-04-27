@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N$. Then, for every $A\in\mat{m\times n}{K}$ and $\alpha\in K$, we have $\l(\alpha A\r)^\trans=\alpha A^\trans$._
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then, for every $A\in\mat{m\times n}{K}$ and $\alpha\in K$, we have $\l(\alpha A\r)^\trans=\alpha A^\trans$._
 
 ```
 

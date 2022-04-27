@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. The **(column) rank of $A$** is_
+_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. The **(column) rank of $A$** is_
 $$\begin{equation}
     \col\rank\l(A\r)\coloneqq\dim\col\l(A\r).
 \end{equation}$$

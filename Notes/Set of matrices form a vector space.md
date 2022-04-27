@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $m,n\in\N$. Then the set $\mat{m\times n}{K}$ forms a vector space under the operations of matrix addition and scalar-matrix multiplication._
+_Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $m,n\in\N^\ast$. Then the set $\mat{m\times n}{K}$ forms a vector space under the operations of matrix addition and scalar-matrix multiplication._
 
 ```
 

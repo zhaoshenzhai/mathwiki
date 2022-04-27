@@ -17,7 +17,7 @@ Justifications: [[RREF of a matrix is unique]]
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N$. A matrix $R\in\mat{m\times n}{K}$ is said to be in **reduced row-echelon form (RREF)** if $R$ is in row-echelon form and, assuming that $R$ has $r$ non-zero rows:_
+_Let $K$ be a field and fix $m,n\in\N^\ast$. A matrix $R\in\mat{m\times n}{K}$ is said to be in **reduced row-echelon form (RREF)** if $R$ is in row-echelon form and, assuming that $R$ has $r$ non-zero rows:_
 * $\axirref\bf{.}$ _For every non-zero row $i\in\l\{1,\dots,r\r\}$ of $R$, the leading $1$ is the only non-zero entry in its column:_
 $$\begin{equation}
     \begin{aligned}

@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N$. The **$m\times n$ zero matrix over $K$** is the matrix_
+_Let $K$ be a field and fix $m,n\in\N^\ast$. The **$m\times n$ zero matrix over $K$** is the matrix_
 $$\begin{equation}
     0_{mn}\coloneqq
         \begin{bmatrix}

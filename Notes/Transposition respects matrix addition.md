@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N$. Then, for every $A,B\in\mat{m\times n}{K}$, we have $\l(A+B\r)^\trans=A^\trans+B^\trans$._
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then, for every $A,B\in\mat{m\times n}{K}$, we have $\l(A+B\r)^\trans=A^\trans+B^\trans$._
 
 ```
 

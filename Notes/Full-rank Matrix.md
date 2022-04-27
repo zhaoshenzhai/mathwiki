@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N$. Then a matrix $A\in\mat{m\times n}{K}$ is said to be of **full-rank** if_
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then a matrix $A\in\mat{m\times n}{K}$ is said to be of **full-rank** if_
 $$\begin{equation}
     \rank\l(A\r)=\min\l\{n,m\r\}.
 \end{equation}$$

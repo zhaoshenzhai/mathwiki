@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e1d87b0b64174ef3",
+        "id": "4360b5f5c7ba92ec",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Null Space.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Null Space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Null Space.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Null Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "e1d87b0b64174ef3",
+  "active": "4360b5f5c7ba92ec",
   "lastOpenFiles": [
-    "Notes/Hamel Basis.md",
-    "Notes/Standard topology on N is the discrete topology on N.md",
-    "Notes/Dot Product.md",
-    "Notes/Euclidean Norm.md",
-    "Notes/Euclidean Vector Space.md",
-    "Notes/Inner Product.md",
-    "Notes/Binary relation iff subset of Cartesian product.md",
-    "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Real Coordinate Space.md",
-    "Notes/Kronecker Delta.md"
+    "Notes/Null Space.md",
+    "Notes/Elementary Row Operation.md",
+    "Notes/Row-equivalent iff factors through elementary matrices.md",
+    "Notes/Elementary Matrix.md",
+    "Notes/Elementary matrices have inverses of the same type.md",
+    "Notes/Left-multiplication by elementary matrix is action by its elementary row operation.md",
+    "Notes/Identity Matrix.md",
+    "Notes/Matrix.md",
+    "Notes/Reduced Row-echelon Matrix.md",
+    "Notes/Row-echelon Matrix.md"
   ]
 }

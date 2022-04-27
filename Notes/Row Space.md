@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider an $m\times n$ matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. The **row-space of $A$** is the linear subspace of $K^n$ spanned by the rows of $A$. Formally,_
+_Let $K$ be a field and consider an $m\times n$ matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. The **row-space of $A$** is the linear subspace of $K^n$ spanned by the rows of $A$. Formally,_
 $$\begin{equation}
     \row\l(A\r)\coloneqq\span\l\{\v{a}_1,\dots,\v{a}_m\r\}
 \end{equation}$$

@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider an $m\times n$ matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N$. Letting $T_A$ be the linear map induced by $A$, we have that_
+_Let $K$ be a field and consider an $m\times n$ matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. Letting $T_A$ be the linear map induced by $A$, we have that_
 $$\begin{equation}
     \begin{aligned}
         \col\l(A\r)=\im\l(T_A\r)&=\l\{\v{y}\in K^m\mid\ex\v{x}\in K^n:\v{y}=T_A\l(\v{x}\r)\r\} \\

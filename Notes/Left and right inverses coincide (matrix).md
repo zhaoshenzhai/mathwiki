@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N$. Then, for all left and right invertible matrices $A\in\mat{m\times n}{K}$ with one-sided inverses $B,C\in\mat{m\times n}{K}$, respectively, we have that $B=C$. Furthermore, this forces $m=n$ and thus $A$ is invertible._
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then, for all left and right invertible matrices $A\in\mat{m\times n}{K}$ with one-sided inverses $B,C\in\mat{m\times n}{K}$, respectively, we have that $B=C$. Furthermore, this forces $m=n$ and thus $A$ is invertible._
 
 ```
 

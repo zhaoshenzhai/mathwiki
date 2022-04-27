@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle K,+,\cdot,0,1\r\rangle$ be a field and fix $m,n\in\N$. Then the $m\times n$ additive matrix group_ $\l\langle\mat{m\times n}{K},\oplus,0_{mn}\r\rangle$ _over $K$ is an Abelian group._
+_Let $\l\langle K,+,\cdot,0,1\r\rangle$ be a field and fix $m,n\in\N^\ast$. Then the $m\times n$ additive matrix group_ $\l\langle\mat{m\times n}{K},\oplus,0_{mn}\r\rangle$ _over $K$ is an Abelian group._
 
 ```
 
