@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $n\in\N$. Then, for all invertible matrices $A\in\mat{n}{K}$, its inverse $A^{-1}$ is invertible with inverse $\l(A^{-1}\r)^{-1}=A$._
+_Let $K$ be a field and fix $n\in\N^\ast$. Then, for all invertible matrices $A\in\mat{n}{K}$, its inverse $A^{-1}$ is invertible with inverse $\l(A^{-1}\r)^{-1}=A$._
 
 ```
 

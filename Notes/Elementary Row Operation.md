@@ -17,11 +17,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m\in\N$. The **elementary row operations of types 1, 2, and 3 on matrices with $m$ rows over $K$**, respectively, are the functions_
+_Let $K$ be a field and fix $m\in\N^\ast$. The **elementary row operations of types 1, 2, and 3 on matrices with $m$ rows over $K$**, respectively, are the functions_
 $$\begin{equation}
-    e^\l(1\r),e^\l(2\r),e^\l(3\r):\bigcup_{j\in\N}\mat{m\times j}{K}\to\bigcup_{j\in\N}\mat{m\times j}{K}
+    e^\l(1\r),e^\l(2\r),e^\l(3\r):\bigcup_{j\in\N^\ast}\mat{m\times j}{K}\to\bigcup_{j\in\N^\ast}\mat{m\times j}{K}
 \end{equation}$$
-_defined by acting on_ $A\in\bigcup_{j\in\N}\mat{m\times j}{K}$ _via:_
+_defined by acting on_ $A\in\bigcup_{j\in\N^\ast}\mat{m\times j}{K}$ _via:_
 * _Multiplying the $s^{th}$ row by a non-zero constant $c\in K$:_
 $$\begin{equation}
     e^\l(1\r)\l(A\r)_{ij}\coloneqq

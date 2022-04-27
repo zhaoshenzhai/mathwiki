@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $n\in\N$. Then $R\in\mat{n}{K}$ is in RREF and is of full rank iff $R=I$._
+_Let $K$ be a field and fix $n\in\N^\ast$. Then $R\in\mat{n}{K}$ is in RREF and is of full rank iff $R=I$._
 
 ```
 

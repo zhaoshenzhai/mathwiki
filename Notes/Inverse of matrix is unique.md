@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $n\in\N$. Then, for all invertible matrices $A\in\mat{n}{K}$, its inverse is unique._
+_Let $K$ be a field and fix $n\in\N^\ast$. Then, for all invertible matrices $A\in\mat{n}{K}$, its inverse is unique._
 
 ```
 

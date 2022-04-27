@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $n\in\N$. Then, for all $A\in\mat{n}{K}$, $A$ is invertible iff $A\sim I$._
+_Let $K$ be a field and fix $n\in\N^\ast$. Then, for all $A\in\mat{n}{K}$, $A$ is invertible iff $A\sim I$._
 
 ```
 

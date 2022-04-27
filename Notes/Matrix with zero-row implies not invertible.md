@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider $A\in\mat{n}{K}$ for some fixed $n\in\N$. If $A$ has a zero-row, then it is not invertible._
+_Let $K$ be a field and consider $A\in\mat{n}{K}$ for some fixed $n\in\N^\ast$. If $A$ has a zero-row, then it is not invertible._
 
 ```
 

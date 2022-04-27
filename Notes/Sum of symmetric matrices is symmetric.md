@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $n\in\N$. Then, for all symmetric matrices $A,B\in\mat{n}{K}$, $A+B$ is symmetric too._
+_Let $K$ be a field and fix $n\in\N^\ast$. Then, for all symmetric matrices $A,B\in\mat{n}{K}$, $A+B$ is symmetric too._
 
 ```
 
