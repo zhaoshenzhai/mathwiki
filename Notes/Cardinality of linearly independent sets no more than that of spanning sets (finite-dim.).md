@@ -36,6 +36,6 @@ $$\begin{equation}
 \end{equation}$$
 It suffices to show that the linear combination vanishes despite the fact that it is not the trivial one. Observe that to do so, it further suffices to show that the inner sum vanishes, so consider the $m\times n$ homogeneous linear system $A\v{x}=\v{0}$. The fact that this system has a non-trivial solution follows from the fact that $m<n$. It follows then that
 $$\begin{equation}
-    \sum_{j=1}^nx_ju_i=0_V\ \ \ \ \ \ \ \ \land\ \ \ \ \ \ \ \ \ex j\in\l\{1,\dots,n\r\}:x_j\neq0,
+    \sum_{j=1}^nx_ju_i=0_V\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \ex j\in\l\{1,\dots,n\r\}:x_j\neq0,
 \end{equation}$$
 so $U$ is linearly dependent.<span style="float:right;">$\blacksquare$</span>

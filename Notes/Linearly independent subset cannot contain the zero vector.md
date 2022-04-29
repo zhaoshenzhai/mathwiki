@@ -17,7 +17,7 @@ _Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space over 
 
 ```
 
-_Proof_. Suppose, for sake of contradiction, that $0_V\in S$. It follows then that for any sequence $s_1,\dots,s_n\in S$, we have that
+_Proof_. Suppose, for sake of contradiction, that $0_V\in S$. It follows then that for every sequence $s_1,\dots,s_n\in S$, we have that
 $$\begin{equation}
     1\cdot0_V+\sum_{i=1}^n0\cdot s_i
 \end{equation}$$

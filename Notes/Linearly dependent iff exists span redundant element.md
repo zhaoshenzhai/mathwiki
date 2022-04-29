@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space $V$ over $K$. Then the following statements are equivalent:_
+_Let $K$ be a field and consider an indexed subset_ $S\coloneqq\l\{s_i\r\}_{i\in I}\subseteq V$ _of a vector space $V$ over $K$. Then the following statements are equivalent:_
 1. _$S$ is linearly dependent._
 2. _There exists a sequence $s_1,\dots,s_n\in S$ with $n>0$ and some $l\in\l\{1,\dots,n\r\}$ such that_
 $$\begin{equation}
