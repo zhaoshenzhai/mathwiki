@@ -22,7 +22,7 @@ Each note is currently one of four types:
 
 * **Proposition** and **Theorem** (differentiated by 'importance'), including both `statement` and `proof` regarding `object`/`notion`, which links to:
     * Proved by: _Statements in which `proof` depends crucially on._
-    * Justifications: _Proofs of implicit assumptions of `object` in `statement`._
+    * Justifications: _Proofs of implicit assumptions of `object` in `statement`._<br/><br/>
     * Generalizations: _Statements and proofs of generalizations of `object`/`notion`._
     * Counterexamples: _Illustrations of why hypothesis in `statement` are necessary for `proof`._
 * **Axiom**, written as a formal `statement` within a certain framework, which links to:
