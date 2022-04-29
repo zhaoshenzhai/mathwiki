@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Tuple Space (Linear Algebra)]], [[Vector Space of Matrices]], [[Zero Vector Space]]
-Constructions: [[Infinite-dimensional Vector Space]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Unique Representation Theorem (Hamel; finite)]], [$\l|\textrm{Linearly independent set}\r|\leq\l|\textrm{Spanning set}\r|$ (finite-dim.)](Cardinality%20of%20linearly%20independent%20sets%20no%20more%20than%20that%20of%20spanning%20sets%20(finite-dim.).md), [Dimension of proper subspace $<$ dimension of vector space (finite-dim.)](Dimension%20of%20proper%20subspace%20strictly%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.).md), [[Linearly independent subset of a finite-dim. vector space extends to a basis]]

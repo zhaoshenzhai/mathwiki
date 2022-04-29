@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "f20cdfdd239eacb7",
+        "id": "d643bd252c65d65d",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Finite-dimensional Vector Space.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "68b9a46fadfb7ae5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Finite-dimensional Vector Space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Finite-dimensional Vector Space.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -151,7 +169,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.034300337031213476,
+                  "scale": 0.33468413792259194,
                   "close": true
                 }
               }
@@ -163,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Finite-dimensional Vector Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f20cdfdd239eacb7",
+  "active": "d643bd252c65d65d",
   "lastOpenFiles": [
-    "Notes/Unique Representation Theorem (Hamel; arbitrary).md",
-    "Notes/Linear subspace iff closed under linear combination.md",
-    "Notes/Linear span is set of all linear combinations.md",
-    "Notes/Infinite-dimensional Vector Space.md",
-    "Notes/Hamel Basis.md",
     "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Unique Representation Theorem (Hamel; finite).md",
-    "Notes/Matrix multiplication (rows).md",
-    "Notes/Linear map Induced by a Matrix.md",
-    "Notes/Linear Map.md"
+    "Notes/Infinite-dimensional Vector Space.md",
+    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
+    "Notes/Linear Independence (finite).md",
+    "Notes/Linear Independence (arbitrary).md",
+    "Notes/Linearly dependent iff exists span redundant element.md",
+    "Notes/Linearly independent subset cannot contain the zero vector.md",
+    "Notes/Enlargement of linearly independent set by adjoining non-spanned vector.md",
+    "Notes/Set-builder notation is unique.md",
+    "Notes/Set-Builder Notation.md"
   ]
 }
