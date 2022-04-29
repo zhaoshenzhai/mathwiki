@@ -22,7 +22,7 @@ $$\begin{equation}
     \begin{aligned}
         \ms{P}^{\obj}:\obj\l(\cat{Set}\r)&\to\obj\l(\cat{Set}\r)\\
         X&\mapsto\pow\l(X\r)
-    \end{aligned}\ \ \ \ \ \ \ \ \textit{and}\ \ \ \ \ \ \ \ \fa X,Y\in\obj\l(\cat{Set}\r):\l[
+    \end{aligned}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \fa X,Y\in\obj\l(\cat{Set}\r):\l[
     \begin{aligned}
         \ms{P}^{\hom}_{X,Y}:\hom_{\cat{Set}}\!\l(X,Y\r)&\to\hom_{\cat{Set}}\!\l(\pow\l(X\r),\pow\l(Y\r)\r)\\
         f&\mapsto\im_f

@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b64eceed9ee8f184",
+        "id": "bcc507359ec4f440",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Indexed Family.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "9e6bdf403796da05",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Axiom of Extensionality.md",
+            "file": "Notes/Projection maps (Kuratowski) are surjections.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Axiom of Extensionality.md",
+                "file": "Notes/Projection maps (Kuratowski) are surjections.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Axiom of Extensionality.md",
+                "file": "Notes/Projection maps (Kuratowski) are surjections.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Axiom of Extensionality.md",
+                "file": "Notes/Projection maps (Kuratowski) are surjections.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "9e6bdf403796da05",
+  "active": "bcc507359ec4f440",
   "lastOpenFiles": [
-    "Notes/Axiom of Extensionality.md",
-    "Notes/Projection Maps (Arbitrary).md",
-    "Notes/Cartesian Product (Arbitrary).md",
-    "Notes/Tuples and Sequences.md",
-    "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Indexed Family.md",
-    "Notes/Tuple (in one set).md",
-    "Notes/Set of Natural Numbers.md",
-    "Notes/Elementary row operations have inverses of the same type.md",
-    "Notes/Invertible Function.md"
+    "Notes/Projection maps (Kuratowski) are surjections.md",
+    "Notes/Projection maps (arbitrary) are surjections.md",
+    "Notes/Preimage under projection of subset.md",
+    "Notes/Identity Functor.md",
+    "Notes/Identity Function.md",
+    "Notes/Half-open Intervals.md",
+    "Notes/Half-infinite Open Ray.md",
+    "Notes/Gauss-Jordan Elimination.md",
+    "Notes/Domain and range of inverse relation.md",
+    "Notes/Domain and Range.md"
   ]
 }

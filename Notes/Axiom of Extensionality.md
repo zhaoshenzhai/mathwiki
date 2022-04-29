@@ -17,5 +17,5 @@ $$\begin{equation}
 
 ```
 
-> Informally, the truth of this axiom is clear if we recall that the intended universe of set theory consists of all $\textit{hereditary sets}$. That is, if $x$ is in our universe, then $x$ is a set and all members of $x$ are also in our universe and hence also sets. Then $\fa u\l(u\in x\Leftrightarrow u\in y\r)$ says that $x$ and $y$ are sets with exactly the same members, so they must be the same set.
+> Informally, the truth of this axiom is clear if we recall that the intended universe of set theory consists of all $\textrm{\it{hereditary sets}}$. That is, if $x$ is in our universe, then $x$ is a set and all members of $x$ are also in our universe and hence also sets. Then $\fa u\l(u\in x\Leftrightarrow u\in y\r)$ says that $x$ and $y$ are sets with exactly the same members, so they must be the same set.
 <span style="float:right;">- Kenneth Kunan; Set Theory, I.4</span>

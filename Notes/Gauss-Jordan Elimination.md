@@ -41,8 +41,8 @@ _Proof_. The matrix $R$ exists and is given by the Gauss-Jordan Algorithm. By Ga
 $$\begin{equation}
     \fa\alpha\in\l\{1,\dots,n\r\}:s_\alpha\coloneqq
         \begin{dcases}
-            z_i-\sum_{\mathclap{j\in\mc{C}_\alpha\setminus\mc{K}}}r_{ij}t_j-\sum_{\mathclap{j\in\mc{K}_\alpha}}r_{ij}s_j & \textit{i\!f\hspace{0.1in}}\ex i\in\l\{1,\dots,r\r\}:\alpha=k_i\\
-            t_\alpha & \textit{else}
+            z_i-\sum_{\mathclap{j\in\mc{C}_\alpha\setminus\mc{K}}}r_{ij}t_j-\sum_{\mathclap{j\in\mc{K}_\alpha}}r_{ij}s_j & \textrm{\it{if\hspace{0.1in}}}\ex i\in\l\{1,\dots,r\r\}:\alpha=k_i\\
+            t_\alpha & \textrm{\it{else}}
         \end{dcases}
 \end{equation}$$
 and

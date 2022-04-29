@@ -15,7 +15,7 @@ title: Proposition.
 
 _Let $X$ be a set. Then the cofinite topology_
 $$\begin{equation}
-    \mc{T}_\textrm{cf}=\l\{U\in\pow\l(X\r)\mid\l(U=\em\r)\lor\l(X\setcomp U\textit{ is finite}\r)\r\}
+    \mc{T}_\textrm{cf}=\l\{U\in\pow\l(X\r)\mid\l(U=\em\r)\lor\l(X\setcomp U\textrm{\it{ is finite}}\r)\r\}
 \end{equation}$$
 _is a topology on $X$._
 

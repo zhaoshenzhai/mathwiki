@@ -17,6 +17,6 @@ Justifications: [[Universal set is a proper class]]
 ``` ad-Definition
 title: Definition.(Informal).
 
-_The **universal class** is the proper class $V\coloneqq\l\{x\mid x\textit{ is a set}\r\}$._
+_The **universal class** is the proper class $V\coloneqq\l\{x\mid x\textrm{\it{ is a set}}\r\}$._
 
 ```

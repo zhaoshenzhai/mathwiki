@@ -15,7 +15,7 @@ title: Proposition.
 
 _Let $X$ be a set and let $\prec$ and $<$ be strict partial and total orders on $X$, respectively. Then_
 $$\begin{equation}
-    \preceq\,\coloneqq\rfcl\prec\ \ \ \ \textit{and}\ \ \ \ \leq\,\coloneqq\rfcl<
+    \preceq\,\coloneqq\rfcl\prec\ \ \ \ \textrm{\it{and}}\ \ \ \ \leq\,\coloneqq\rfcl<
 \end{equation}$$
 _are (non-strict) partial and total orders on $X$, respectively._
 

@@ -19,7 +19,7 @@ title: Definition.
 
 _Let $X$ be a set and fix $S\subseteq X$. The **inclusion function of $S$ into $X$** is the function_
 $$\begin{equation}
-    \iota:S\to X\ \ \ \ \textit{mapping}\ \ \ \ x\mapsto\id_X\l(x\r)=x
+    \iota:S\to X\ \ \ \ \textrm{\it{mapping}}\ \ \ \ x\mapsto\id_X\l(x\r)=x
 \end{equation}$$
 _for every $x\in S$._
 

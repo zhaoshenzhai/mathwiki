@@ -19,7 +19,7 @@ title: Definition.
 
 _Let $f:X\to Y$ and fix $S\subseteq X$. The **restriction of $f$ to $S$** is the function_
 $$\begin{equation}
-    \l.f\r|_S:S\to Y\ \ \ \ \textit{mapping}\ \ \ \ x\mapsto f\l(x\r)
+    \l.f\r|_S:S\to Y\ \ \ \ \textrm{\it{mapping}}\ \ \ \ x\mapsto f\l(x\r)
 \end{equation}$$
 _for all $x\in S$. Formally,_
 $$\begin{equation}

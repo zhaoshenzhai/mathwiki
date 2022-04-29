@@ -15,7 +15,7 @@ title: Proposition.
 
 _Let $v$ and $U$ be sets with $U\neq\em$. Then_
 $$\begin{equation}
-    v\setcomp\bigcup U=\bigcap\l\{v\setcomp u\mid u\in U\r\}\ \ \ \ \textit{and}\ \ \ \ v\setcomp\bigcap U=\bigcup\l\{v\setcomp u\mid u\in U\r\}.
+    v\setcomp\bigcup U=\bigcap\l\{v\setcomp u\mid u\in U\r\}\ \ \ \ \textrm{\it{and}}\ \ \ \ v\setcomp\bigcap U=\bigcup\l\{v\setcomp u\mid u\in U\r\}.
 \end{equation}$$
 
 ```

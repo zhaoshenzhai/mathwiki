@@ -16,7 +16,7 @@ title: Proposition.
 _Let $X$ be a set. Consider a collection $\mc{T}\subseteq\pow\l(X\r)$ and define $\mc{F}\coloneqq\l\{C\in\pow\l(X\r)\mid X\setcomp C\in\mc{T}\r\}$. If $\mc{T}$ is a topology on $X$, then_
 * ($\axitopcl[1]$): _$\em\in\mc{F}$ and $X\in\mc{F}$._
 * ($\axitopcl[2]$): _Arbitrary intersections of elements of $\mc{F}$ are in $\mc{F}$: $\fa\mc{C}\subseteq\mc{F}:\mc{C}\neq\em\Rightarrow\bigcap\mc{C}\in\mc{F}$._
-* ($\axitopcl[3]$): _Finite unions of elements of $\mc{F}$ are in $\mc{F}$: $\fa\mc{C}\subseteq\mc{F}:\mc{C}\textit{ is finite}\Rightarrow\bigcup\mc{C}\in\mc{F}.$_
+* ($\axitopcl[3]$): _Finite unions of elements of $\mc{F}$ are in $\mc{F}$: $\fa\mc{C}\subseteq\mc{F}:\mc{C}\textrm{\it{ is finite}}\Rightarrow\bigcup\mc{C}\in\mc{F}.$_
 
 _Conversely, consider a collection $\mc{F}\subseteq\pow\l(X\r)$ and define $\mc{T}\coloneqq\l\{U\in\pow\l(X\r)\mid X\setcomp U\in\mc{F}\r\}$. If $\axitopcl[1]$ to $\axitopcl[3]$ hold for $\mc{F}$, then $\mc{T}$ is a topology on $X$._
 

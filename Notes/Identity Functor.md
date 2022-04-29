@@ -22,7 +22,7 @@ $$\begin{equation}
     \l[\begin{aligned}
         \Id_\cat{C}^{\obj}:\obj\l(\cat{C}\r)&\to\obj\l(\cat{C}\r)\\
         C&\mapsto C
-    \end{aligned}\r]=\id_{\obj\l(\cat{C}\r)}\ \ \ \ \ \ \ \ \textit{and}\ \ \ \ \ \ \ \ \fa C,D\in\obj\l(\cat{C}\r):\l[
+    \end{aligned}\r]=\id_{\obj\l(\cat{C}\r)}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \fa C,D\in\obj\l(\cat{C}\r):\l[
     \begin{aligned}
         \l(\Id_\cat{C}^{\hom}\r)_{C,D}:\hom_\cat{C}\!\l(C,D\r)&\to\hom_\cat{D}\l(C,D\r)\\
         f&\mapsto f

@@ -19,7 +19,7 @@ title: Definition.
 
 _Let $X$ be a set. The **identity function on $X$** is the function_
 $$\begin{equation}
-    \id_X\!:X\to X\ \ \ \ \ \ \ \ \textit{mapping}\ \ \ \ \ \ \ \ x\mapsto x.
+    \id_X\!:X\to X\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ x\mapsto x.
 \end{equation}$$
 _Formally,_
 $$\begin{equation}

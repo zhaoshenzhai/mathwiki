@@ -19,7 +19,7 @@ title: Definition.
 
 _An ordinal $\beta$ is called a **natural number** if_
 $$\begin{equation}
-    \fa\alpha\in\ord:\alpha\subseteq\beta\Rightarrow\l(\alpha=\em\lor\alpha\textit{ is a successor ordinal}\r).
+    \fa\alpha\in\ord:\alpha\subseteq\beta\Rightarrow\l(\alpha=\em\lor\alpha\textrm{\it{ is a successor ordinal}}\r).
 \end{equation}$$
 
 ```

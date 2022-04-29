@@ -16,8 +16,8 @@ title: Proposition.
 _Let $X$ and $Y$ be non-empty sets. Then the projection maps_
 $$\begin{equation}
     \begin{aligned}
-        \pi_X:X\times Y\to X\ \ \ \ &\textit{mapping}\ \ \ \ \l\langle x,y\r\rangle\mapsto x\\
-        \pi_Y:X\times Y\to Y\ \ \ \ &\textit{mapping}\ \ \ \ \l\langle x,y\r\rangle\mapsto y
+        \pi_X:X\times Y\to X\ \ \ \ &\textrm{\it{mapping}}\ \ \ \ \l\langle x,y\r\rangle\mapsto x\\
+        \pi_Y:X\times Y\to Y\ \ \ \ &\textrm{\it{mapping}}\ \ \ \ \l\langle x,y\r\rangle\mapsto y
     \end{aligned}
 \end{equation}$$
 _are surjective._

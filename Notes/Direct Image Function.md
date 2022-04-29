@@ -19,7 +19,7 @@ title: Definition.
 
 _Let $f:X\to Y$. The **direct image function under $f$** is the function_
 $$\begin{equation}
-    \im_f:\pow\l(X\r)\to\pow\l(Y\r)\ \ \ \ \textit{mapping}\ \ \ \ S\mapsto\im_f\l(S\r)
+    \im_f:\pow\l(X\r)\to\pow\l(Y\r)\ \ \ \ \textrm{\it{mapping}}\ \ \ \ S\mapsto\im_f\l(S\r)
 \end{equation}$$
 _where $\im_f\l(S\r)$ is the image of $S$ under $f$._
 

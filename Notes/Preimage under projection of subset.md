@@ -15,11 +15,11 @@ title: Proposition.
 
 _Let $X$ and $Y$ be sets and consider the projection maps_
 $$\begin{equation}
-    \pi_X:X\times Y\to X\ \ \ \ \textit{and}\ \ \ \ \pi_Y:X\times Y\to Y.
+    \pi_X:X\times Y\to X\ \ \ \ \textrm{\it{and}}\ \ \ \ \pi_Y:X\times Y\to Y.
 \end{equation}$$
 Then
 $$\begin{equation}
-    \fa U\subseteq X:\preim_{\pi_X}\!\l(U\r)=U\times Y\ \ \ \ \textit{and}\ \ \ \ \fa V\subseteq Y:\preim_{\pi_Y}\!\l(V\r)=X\times V.
+    \fa U\subseteq X:\preim_{\pi_X}\!\l(U\r)=U\times Y\ \ \ \ \textrm{\it{and}}\ \ \ \ \fa V\subseteq Y:\preim_{\pi_Y}\!\l(V\r)=X\times V.
 \end{equation}$$
 
 ```

@@ -22,7 +22,7 @@ $$\begin{equation}
     \begin{aligned}
         \ms{C}_C^{\obj}:\obj\l(\cat{J}\r)&\to\obj\l(\cat{C}\r)\\
         j&\mapsto C
-    \end{aligned}\ \ \ \ \ \ \ \ \textit{and}\ \ \ \ \ \ \ \ \fa j,k\in\obj\l(\cat{J}\r):\l[
+    \end{aligned}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \fa j,k\in\obj\l(\cat{J}\r):\l[
     \begin{aligned}
         \l(\ms{C}_C^{\hom}\r)_{j,k}:\hom_\cat{J}\!\l(j,k\r)&\to\hom_\cat{C}\!\l(C,C\r)\\
         f&\mapsto\id_C

@@ -15,7 +15,7 @@ title: Proposition.
 
 _Let $R$ be a binary relation. Then_
 $$\begin{equation}
-    \dom R^{-1}=\ran R\ \ \ \ \textit{and}\ \ \ \ \ran R^{-1}=\dom R.
+    \dom R^{-1}=\ran R\ \ \ \ \textrm{\it{and}}\ \ \ \ \ran R^{-1}=\dom R.
 \end{equation}$$
 
 ```

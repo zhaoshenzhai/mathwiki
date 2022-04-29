@@ -27,7 +27,7 @@ $$\begin{equation}
 \end{equation}$$
 _where_
 $$\begin{equation}
-    \mc{B}_\textrm{st}\coloneqq\l\{B\in\pow\l(\R\r)\mid\ex a,b\in\R:a<b\land B=\l(a,b\r)\r\}\ \ \ \ \textit{and}\ \ \ \ K\coloneqq\l\{q\in\Q\mid\ex n\in\N:q=1/n\r\}.
+    \mc{B}_\textrm{st}\coloneqq\l\{B\in\pow\l(\R\r)\mid\ex a,b\in\R:a<b\land B=\l(a,b\r)\r\}\ \ \ \ \textrm{\it{and}}\ \ \ \ K\coloneqq\l\{q\in\Q\mid\ex n\in\N:q=1/n\r\}.
 \end{equation}$$
 
 ```

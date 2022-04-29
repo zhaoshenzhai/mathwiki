@@ -19,7 +19,7 @@ title: Definition.
 
 _Let $f:X\to Y$ and $g:Y'\to Z$ be functions. The **composition of $g$ after $f$** is the function_
 $$\begin{equation}
-    g\circ f:\l\{x\in X\mid f\l(x\r)\in Y'\r\}\to Z\ \ \ \ \textit{mapping}\ \ \ \ x\mapsto g\l(f\l(x\r)\r).
+    g\circ f:\l\{x\in X\mid f\l(x\r)\in Y'\r\}\to Z\ \ \ \ \textrm{\it{mapping}}\ \ \ \ x\mapsto g\l(f\l(x\r)\r).
 \end{equation}$$
 
 ```

@@ -15,7 +15,7 @@ title: Proposition.
 
 _Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. The canonical projection_
 $$\begin{equation}
-    \pi_\sim:X\to X/\!\sim\ \ \ \ \textit{mapping}\ \ \ \ x\mapsto\l[x\r]_\sim
+    \pi_\sim:X\to X/\!\sim\ \ \ \ \textrm{\it{mapping}}\ \ \ \ x\mapsto\l[x\r]_\sim
 \end{equation}$$
 is a surjection.
 

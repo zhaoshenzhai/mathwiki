@@ -22,7 +22,7 @@ $$\begin{equation}
     \begin{aligned}
         \ms{I}^{\obj}:\obj\l(\cat{S}\r)&\to\obj\l(\cat{C}\r)\\
         X&\mapsto X
-    \end{aligned}\ \ \ \ \ \ \ \ \textit{and}\ \ \ \ \ \ \ \ \fa X,Y\in\obj\l(\cat{S}\r):
+    \end{aligned}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \fa X,Y\in\obj\l(\cat{S}\r):
     \l[\begin{aligned}
         \ms{I}^{\hom}_{X,Y}:\hom_\cat{S}\!\l(X,Y\r)&\to\hom_\cat{C}\!\l(X,Y\r)\\
         f&\mapsto f

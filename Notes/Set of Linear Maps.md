@@ -19,7 +19,7 @@ title: Definition.
 
 _Let $K$ be a field and consider two vector spaces $\mc{V}\coloneqq\l\langle V,K,+_V,\cdot_V,0_V\r\rangle$ and $\mc{W}\coloneqq\l\langle W,K,+_W,\cdot_W,0_W\r\rangle$ over $K$. The **set of linear maps from $\mc{V}$ into $\mc{W}$** is the set_
 $$\begin{equation}
-    \hom\l(\mc{V},\mc{W}\r)\coloneqq\l\{f\in W^V\mid f\textit{ is a linear map}\r\}.
+    \hom\l(\mc{V},\mc{W}\r)\coloneqq\l\{f\in W^V\mid f\textrm{\it{ is a linear map}}\r\}.
 \end{equation}$$
 
 ```
