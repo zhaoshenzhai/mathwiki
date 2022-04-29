@@ -16,10 +16,11 @@ while [[ "$repeat" == "Y" ]]; do
 
     echo -e "${CYAN}Actions:${NC}"
     echo -e "${CYAN}    (1): GitHub${NC}"
-    echo -e "${CYAN}    (2): Mass editing${NC}"
-    echo -e "${CYAN}    (3): Math links${NC}"
-    echo -e "${CYAN}    (4): Ghost links${NC}"
-    echo -e "${CYAN}    (5): Link details${NC}"
+    echo -e "${CYAN}    (2): Search${NC}"
+    echo -e "${CYAN}    (3): Mass editing${NC}"
+    echo -e "${CYAN}    (4): Math links${NC}"
+    echo -e "${CYAN}    (5): Ghost links${NC}"
+    echo -e "${CYAN}    (6): Link details${NC}"
     printf "\n"
 
     read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-5)] "${NC})" action
@@ -48,19 +49,22 @@ while [[ "$repeat" == "Y" ]]; do
             ~/.config/scripts/gitCommit.sh -m
         ;;
         "2")
+            ~/MathWiki/.scripts/search.sh
+        ;;
+        "3")
             printf "\n"
             ~/MathWiki/.scripts/massEditing.sh
         ;;
-        "3")
+        "4")
             printf "\n"
             ~/MathWiki/.scripts/mathLinks.sh -n
             ~/MathWiki/.scripts/mathLinks.sh -u
         ;;
-        "4")
+        "5")
             printf "\n"
             ~/MathWiki/.scripts/stats.sh -g
         ;;
-        "5")
+        "6")
             printf "\n"
             ~/MathWiki/.scripts/stats.sh -l
         ;;
