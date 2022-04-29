@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Projection maps (Kuratowski) are surjections.md",
+            "file": "Notes/Gauss-Jordan Elimination.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Projection maps (Kuratowski) are surjections.md",
+                "file": "Notes/Gauss-Jordan Elimination.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Projection maps (Kuratowski) are surjections.md",
+                "file": "Notes/Gauss-Jordan Elimination.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Projection maps (Kuratowski) are surjections.md",
+                "file": "Notes/Gauss-Jordan Elimination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,6 +184,7 @@
   },
   "active": "bcc507359ec4f440",
   "lastOpenFiles": [
+    "Notes/Gauss-Jordan Elimination.md",
     "Notes/Projection maps (Kuratowski) are surjections.md",
     "Notes/Projection maps (arbitrary) are surjections.md",
     "Notes/Preimage under projection of subset.md",
@@ -191,7 +192,6 @@
     "Notes/Identity Function.md",
     "Notes/Half-open Intervals.md",
     "Notes/Half-infinite Open Ray.md",
-    "Notes/Gauss-Jordan Elimination.md",
     "Notes/Domain and range of inverse relation.md",
     "Notes/Domain and Range.md"
   ]
