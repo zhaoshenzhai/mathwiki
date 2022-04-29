@@ -7,7 +7,7 @@ Tags: #Definition #Closed
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
 Constructions: [[Binary Relation]], [[Cartesian Product (Kuratowski)]]
-Generalizations: [[Tuple]]
+Generalizations: [[Tuples and Sequences]]
 
 Properties: [[Ordered pair equal when components equal]]
 Sufficiencies: _Not Applicable_

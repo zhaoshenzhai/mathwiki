@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d643bd252c65d65d",
+        "id": "b64eceed9ee8f184",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Finite-dimensional Vector Space.md",
+            "file": "Notes/Indexed Family.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "68b9a46fadfb7ae5",
+        "id": "9e6bdf403796da05",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
+            "file": "Notes/Axiom of Extensionality.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Finite-dimensional Vector Space.md",
+                "file": "Notes/Axiom of Extensionality.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Finite-dimensional Vector Space.md",
+                "file": "Notes/Axiom of Extensionality.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Finite-dimensional Vector Space.md",
+                "file": "Notes/Axiom of Extensionality.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "d643bd252c65d65d",
+  "active": "9e6bdf403796da05",
   "lastOpenFiles": [
-    "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Infinite-dimensional Vector Space.md",
-    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
-    "Notes/Linear Independence (finite).md",
-    "Notes/Linear Independence (arbitrary).md",
-    "Notes/Linearly dependent iff exists span redundant element.md",
-    "Notes/Linearly independent subset cannot contain the zero vector.md",
-    "Notes/Enlargement of linearly independent set by adjoining non-spanned vector.md",
-    "Notes/Set-builder notation is unique.md",
-    "Notes/Set-Builder Notation.md"
+    "Notes/Axiom of Extensionality.md",
+    "Notes/Projection Maps (Arbitrary).md",
+    "Notes/Cartesian Product (Arbitrary).md",
+    "Notes/Tuples and Sequences.md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Indexed Family.md",
+    "Notes/Tuple (in one set).md",
+    "Notes/Set of Natural Numbers.md",
+    "Notes/Elementary row operations have inverses of the same type.md",
+    "Notes/Invertible Function.md"
   ]
 }
