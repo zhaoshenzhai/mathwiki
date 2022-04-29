@@ -17,7 +17,7 @@ Justifications: [[Arbitrary intersection of linear subspaces is a linear subspac
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a subset $S\subseteq V$ of a vector space $V$ over $K$. The **linear subspace spaned by $S$** is the linear subspace of $V$ consisting of the set_
+_Let $K$ be a field and consider an indexed subset_ $S\subseteq V$ _of a vector space $V$ over $K$. The **linear subspace spaned by $S$** is the linear subspace of $V$ consisting of the set_
 $$\begin{equation}
     \span\l(S\r)\coloneqq\bigcap\l\{U\subseteq V\mid S\subseteq U\land U\textrm{\it{ is a linear subspace of }}V\r\}
 \end{equation}$$
@@ -29,4 +29,4 @@ _together with the restricted operations on $\span\l(S\r)$._
 
 ---
 
-**Remark.** If $S=\l\{s_1,\dots,s_n\r\}$, then, abusing notation, we shall call $\span\l(S\r)$ the **linear subspace spanned by $s_1,\dots,s_n$**.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Here, we consider $S$ as an indexed subset of $V$ for consistency; the indexing structure is not needed so we may talk about the linear subspace spanned by sub_sets_ of $V$. Note that $S\subseteq U$ really means that the underlying set of $S$ is a subset of $U$.<span style="float:right;">$\blacklozenge$</span>

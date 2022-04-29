@@ -17,8 +17,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a vector space $V$ over $K$. Then any subset $S\subseteq V$ is said to be a **spanning set of $V$** if $\span\l(S\r)=V$._
+_Let $K$ be a field and consider a vector space $V$ over $K$. An indexed subset_ $S\subseteq V$ _is said to be a **spanning set of $V$** if $\span\l(S\r)=V$._
 
 ```
 
-**Remark.** In other words, a subset $S\subseteq V$ is a spanning set of $V$ if every $v\in V$ can be written as a (finite) linear combination of vectors in $V$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** In other words, an indexed subset $S\subseteq V$ is a spanning set of $V$ if every $v\in V$ can be written as a (finite) linear combination of vectors in $V$.<span style="float:right;">$\blacklozenge$</span>

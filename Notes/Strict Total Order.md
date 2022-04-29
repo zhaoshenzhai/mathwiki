@@ -5,7 +5,7 @@ Date Created: 31/01/2022 14:45:57
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Ordered Hamel Basis]]
+Examples: _Not Applicable_
 Constructions: [[Well-ordered Relation]]
 Generalizations: _Not Applicable_
 
