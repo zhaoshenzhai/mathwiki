@@ -1,5 +1,5 @@
 ---
-custom_alias: $\LLtopR\not\subseteq\ULtopR\land\ULtopR\not\subseteq\LLtopR$
+custom_alias: $\LLtopR$ and $\ULtopR$ not comparable
 ---
 
 <br />

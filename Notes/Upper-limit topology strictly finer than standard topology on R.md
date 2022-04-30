@@ -1,5 +1,5 @@
 ---
-custom_alias: $\sttopR\subset\ULtopR$
+custom_alias: $\ULtopR$ strictly finer than $\sttopR$
 ---
 
 <br />

@@ -1,5 +1,5 @@
 ---
-custom_alias: $\sttopR\subset\KtopR$
+custom_alias: $\KtopR$ strictly finer than $\sttopR$
 ---
 
 <br />
