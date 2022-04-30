@@ -5,13 +5,13 @@ Date Created: 04/04/2022 23:21:59
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Standard Basis of Tuple Space]] [[Basis for null space of matrix (explicit)]]
+Examples: [[Standard Basis of Tuple Space]], [[Basis for null space of matrix (explicit)]]
 Constructions: [[Dimension (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
 Properties: [[Invariance of cardinality of bases (finite-dim.)]]
 Sufficiencies: [[Linearly independent subset of a finite-dim. vector space extends to a basis]]
-Equivalences: [[Unique Representation Theorem (Hamel; finite)]], [[Unique Representation Theorem (Hamel; arbitrary)]]
+Equivalences: [[Unique Representation Theorem (Hamel)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

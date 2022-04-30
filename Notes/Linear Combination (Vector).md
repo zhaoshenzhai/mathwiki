@@ -19,8 +19,9 @@ title: Definition.
 
 _Let $K$ be a field and consider an indexed subset_ $U\coloneqq\l\{u_i\r\}_{i\in I}\subseteq V$ _of a vector space $V$ over $K$. A vector $v\in V$ is said to be a **$K$-linear combination of vectors in $U$** if_
 $$\begin{equation}
-    \ex I'\subseteq I:\l|I'\r|<\infty\land\l(\fa i\in I',\ex\alpha_i\in K:v=\sum\limits_{i\in I'}\alpha_iu_i\r).
+    \fa i\in I,\ex\alpha_i\in K:v=\sum\limits_{i\in I}\alpha_iu_i
 \end{equation}$$
+_where $\alpha_i=0$ for all but finitely-many $i\in I$._
 
 ```
 
