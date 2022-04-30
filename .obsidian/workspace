@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "151cf8bc5061854e",
+        "id": "e8316edbd13b6efc",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "151cf8bc5061854e",
+  "active": "e8316edbd13b6efc",
   "lastOpenFiles": [
-    "Notes/Linear Combination (Vector).md",
-    "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Unique Representation Theorem (Hamel).md",
-    "Notes/Linear Independence.md",
+    "Notes/Column space is image of induced linear map.md",
+    "Notes/Matrix multiplication (columns).md",
+    "Notes/Column Space.md",
+    "Notes/Linear Span.md",
+    "Notes/Spanning Set.md",
+    "Notes/Basis for null space of matrix (explicit).md",
     "Notes/Hamel Basis.md",
-    "Notes/Infinite-dimensional Vector Space.md",
-    "Notes/Unique Representation Theorem (Hamel; finite).md",
-    "Notes/Unique Representation Theorem (Hamel; arbitrary).md",
-    "Notes/Indexed Family.md",
-    "Notes/Linearly dependent iff exists span redundant element.md"
+    "Notes/Linearly dependent iff exists span redundant element.md",
+    "Notes/Linear Combination (Vector).md",
+    "Notes/Finite-dimensional Vector Space.md"
   ]
 }
