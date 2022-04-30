@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "467e27772518b5ed",
+        "id": "efb205798775c5c6",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "467e27772518b5ed",
+  "active": "efb205798775c5c6",
   "lastOpenFiles": [
-    "Notes/Comparison of topologies on R.md",
-    "Notes/Lower and K topologies are not comparable on R.md",
-    "Notes/Lower and upper limit topologies are not comparable on R.md",
-    "Notes/Upper-limit topology strictly finer than K topology on R.md",
-    "Notes/K topology strictly finer than standard topology on R.md",
-    "Notes/Lower-limit topology strictly finer than standard topology on R.md",
-    "Notes/Upper-limit topology strictly finer than standard topology on R.md",
-    "Notes/Standard Topology on R.md",
-    "Notes/Hamel Basis.md",
-    "Notes/Linear Combination (Vector).md"
+    "Notes/Additive Matrix Group.md",
+    "Notes/Matrix.md",
+    "Notes/Finite-dimensional Vector Space.md",
+    "Notes/Additive matrix group is an Abelian group.md",
+    "Notes/Set of Matrices.md",
+    "Notes/Function.md",
+    "Notes/Empty product is singleton of empty set.md",
+    "Notes/Cartesian Product (Arbitrary).md",
+    "Notes/Linear Span.md",
+    "Notes/Linear map on tuple spaces is induced by a unique matrix.md"
   ]
 }

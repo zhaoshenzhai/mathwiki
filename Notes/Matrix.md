@@ -37,3 +37,13 @@ $$\begin{equation}
             a_{m1} & \cdots & a_{mn}
         \end{bmatrix}.\exqedin
 \end{equation}$$
+
+---
+
+**Remark.** We will occasionally require a notion of an _empty_ matrix (not zero!); that is, matrices of size $m\times0$ and $0\times n$. Naively extending our definition above, we see that an $m\times0$ matrix $E_m$ is a function
+$$\begin{equation}
+    E_m:\em\to K
+\end{equation}$$
+which, by the set-theoretic definition of functions, is simply $\em$. However, this is also the case for $0\times n$ matrices, so they coincide. Thus, formally speaking, we should define $m\times 0$ matrices as a triple $\l\langle m,0,A\r\rangle$ where $A$ is as before. Similarly, $0\times n$ matrices are triples $\l\langle0,n,A\r\rangle$; this differentiates between the different empty matrices. We may thus redefine general $m\times n$ matrices, where $m,n\in\N$, as the triple $\l\langle m,n,A\r\rangle$ where $A$ is as before.
+
+More importantly, however, note that these definitions align with how matrices represent linear maps between finite-dimensional vector spaces.
