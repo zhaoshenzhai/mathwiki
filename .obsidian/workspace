@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "e8316edbd13b6efc",
+        "id": "03f769376089f6b3",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Homogeneous Linear System.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "8513e2b3923d5432",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Independence.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "8efc0e0af51e9f39",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Homogeneous linear system only trivial solution iff columns or rows of coefficient matrix are linearly independent.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Homogeneous Linear System.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Homogeneous Linear System.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Homogeneous Linear System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "e8316edbd13b6efc",
+  "active": "03f769376089f6b3",
   "lastOpenFiles": [
-    "Notes/Column space is image of induced linear map.md",
-    "Notes/Matrix multiplication (columns).md",
+    "Notes/Homogeneous Linear System.md",
+    "Notes/Linear Independence.md",
+    "Notes/Homogeneous linear system only trivial solution iff columns or rows of coefficient matrix are linearly independent.md",
+    "Notes/Square Matrix.md",
+    "Notes/Identity Matrix.md",
+    "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
+    "Notes/Matrix Invertibility Criteria.md",
+    "Notes/Square linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
     "Notes/Column Space.md",
-    "Notes/Linear Span.md",
-    "Notes/Spanning Set.md",
-    "Notes/Basis for null space of matrix (explicit).md",
-    "Notes/Hamel Basis.md",
-    "Notes/Linearly dependent iff exists span redundant element.md",
-    "Notes/Linear Combination (Vector).md",
-    "Notes/Finite-dimensional Vector Space.md"
+    "Notes/Linear Span.md"
   ]
 }

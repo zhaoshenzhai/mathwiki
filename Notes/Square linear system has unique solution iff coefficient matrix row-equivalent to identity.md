@@ -1,5 +1,5 @@
 ---
-custom_alias: Linear system $A\v{x}=\v{b}$ has a unique solution $\Leftrightarrow$ $A\sim I$
+custom_alias: Square linear system $A\v{x}=\v{b}$ has a unique solution $\Leftrightarrow$ $A\sim I$
 ---
 
 <br />
