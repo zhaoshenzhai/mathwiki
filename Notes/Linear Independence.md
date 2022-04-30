@@ -27,7 +27,7 @@ _Otherwise, $U$ is said to be **linearly dependent**._
 
 **Remark.** Note that $\em$ is vacuously linearly independent. Observe that if $I=\l\{1,\dots,n\r\}$ for some $n\in\N^\ast$, the sequence of vectors $u_1,\dots,u_n$ is linearly independent if
 $$\begin{equation}
-    \fa\alpha_1,\dots,\alpha_n\in K:\l(\sum_{i=1}^n\alpha_iu_i=0\Rightarrow\alpha_1=\cdots=\alpha_n=0\r).
+    \fa\l\langle\alpha_i\r\rangle_{i\in I}\!\in K^n:\l(\sum_{i=1}^n\alpha_iu_i=0\Rightarrow\fa i\in\l\{1,\dots,n\r\}:\alpha_i=0\r).
 \end{equation}$$
 We may then define linear independence for arbitrary $I$ by saying that $\l\{u_i\r\}_{i\in I}$ is linearly independent if every finite sequence thereof is.<span style="float:right;">$\blacklozenge$</span>
 

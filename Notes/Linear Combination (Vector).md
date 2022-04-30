@@ -32,7 +32,7 @@ Redefining $I=\l\{1,\dots,n\r\}$, we see that $I$ carries an order structure and
 
 ---
 
-**Remark.** Here, we consider $U$ as an indexed subset of $V$ for convenience; the indexing structure is not needed so we may talk about linear combinations of vectors in sub_sets_ of $V$. However, if $I$ carries an order structure (say $I=\l\{1,\dots,n\r\}$ for some $n\in\N$ or $I=\N$ itself), we may identify $\l\{u_i\r\}_{i\in I}$ with the $I$-tuple $\l\langle u_i\r\rangle_{i\in I}$ which allows us to talk about ordered bases, and this is important.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Here, we consider $U$ as an indexed subset of $V$ for convenience; the indexing structure is not needed so we may talk about linear combinations of vectors in sub_sets_ of $V$. However, if $I$ carries an order structure (say $I=\l\{1,\dots,n\r\}$ for some $n\in\N$ or $I=\N$ itself), we may identify $\l\{u_i\r\}_{i\in I}$ with the $I$-tuple $\l\langle u_i\r\rangle_{i\in I}$ which allows us to talk about ordered bases, and this _is_ important.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

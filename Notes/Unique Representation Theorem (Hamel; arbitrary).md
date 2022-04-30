@@ -13,14 +13,14 @@ Counterexamples: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Unique Representation Theorem w.r.t. arbitrary Hamel basis).
 
-_Let $K$ be a field and consider a subset $\mc{B}\subseteq V$ of a vector space $V$ over $K$. Then $\mc{B}$ is a (Hamel) basis of $V$ iff every non-zero vector $v\in V$ can be uniquely represented as a linear combination of vectors in $\mc{B}$ with non-zero coefficients; formally, iff_
+_Let $K$ be a field and consider an indexed subset_ $\mc{B}\coloneqq\l\{b_i\r\}_{i\in I}\!\subseteq V$ _of a vector space $V$ over $K$. Then $\mc{B}$ is a (Hamel) basis of $V$ iff every vector $v\in V$ can be uniquely represented as a linear combination of vectors in $\mc{B}$ with non-zero coefficients; formally, iff_
 $$\begin{equation}
-    \fa v\in V\setminus\l\{0\r\},\ex!n\in\N^\ast,\ex!\alpha_1,\dots,\alpha_n\in K\setminus\l\{0\r\},\ex!\l\langle b_1,\dots,b_n\r\rangle\in\mc{B}^n:v=\sum_{i=1}^n\alpha_ib_i.
+    \fa v\in V,\ex!n\in\N,\ex!\l\langle\alpha_1,\dots,\alpha_n\r\rangle\in K^n\setminus\l\{0\r\}:v=\sum_{i=1}^n\alpha_ib_i.
 \end{equation}$$
 
 ```
 _Proof_.
-* ($\Rightarrow$): Take $v\in V\setminus\l\{0\r\}$. Since $\span\mc{B}=V$, we know that $v$ can be expressed as a linear combination of vectors in $\mc{B}$ with non-zero coefficients; we wish to prove that such a representation is unique. Assume, for sake of contradiction, that
+* ($\Rightarrow$): Take $v\in V\setminus\l\{0\r\}$; if $v=0$, then, since $\mc{B}$ is linearly independent, we cannot represent $0$ as a non-trivial linear combination of vectors in $\mc{B}$ and thus the representation of $0$ is unique (with $n=0$). Since $\span\mc{B}=V$, we know that $v$ can be expressed as a linear combination of vectors in $\mc{B}$ with non-zero coefficients; we wish to prove that such a representation is unique. Assume, for sake of contradiction, that
 $$\begin{equation}
     v=\sum_{i=1}^n\alpha_ip_i=\sum_{j=1}^m\beta_jq_j
 \end{equation}$$
@@ -38,16 +38,8 @@ $$\begin{equation}
 \end{equation}$$
 but since $\mc{B}$ is linearly independent, it follows that $\alpha_i=\beta_i$ for all $i\in\l\{1,\dots,n\r\}$. Altogether, we have that $n=m$ and, for all $i\in\l\{1,\dots,n\r\}$, that $p_i=q_i$ and $\alpha_i=\beta_i$. The result follows.
 
-* ($\Leftarrow$): Take $v\in V\setminus\l\{0\r\}$, so, in particular, $v$ can be written as a linear combination
+* ($\Leftarrow$) Since each $v\in V$ can be written as a linear combination of vectors in $\mc{B}$ (uniquely or not), we see that $v\in\span\mc{B}$ and so $\mc{B}$ is a spanning set of $V$. To prove linear independence, observe that we can write the zero vector as the empty sum
 $$\begin{equation}
-    v=\sum_{i=1}^n\alpha_ib_i
+    0=\sum\limits_{i=1}^00b_i,
 \end{equation}$$
-which implies that $v\in\span\mc{B}$. Since $\span\mc{B}$ is a subspace of $V$, it contains the zero vector too and so $\mc{B}$ is a spanning set of $V$. To prove linear independence, assume, for sake of contradiction, that $\mc{B}$ is linearly dependent. Thus there exists $l\in\l\{1,\dots,n\r\}$ such that
-$$\begin{equation}
-    \span\l\{b_1,\dots,b_n\r\}=\span\l(\l\{b_1,\dots,b_n\r\}\setminus\l\{b_l\r\}\r),
-\end{equation}$$
-so, setting $J\coloneqq\l\{1,\dots,n\r\}\setminus\l\{l\r\}$, there exist coefficients $\beta_j\in K$ for all $j\in J$ such that
-$$\begin{equation}
-    v=\sum_{j\in J}\beta_jb_j=\sum_{j\in J^\ast}\beta_jb_j.\ \ \ \ \ \ \ \ \underbrace{\l(J^\ast\coloneqq J\setminus\l\{j\in J\mid\beta_j=0\r\}\r)}_{v\,\neq\,0\,\Rightarrow\,\l|J^\ast\r|\,\neq\,0}.
-\end{equation}$$
-But then $v$ has two representations as linear combinations of vectors in $\mc{B}$ with non-zero coefficients, so we have a contradiction.<span style="float:right;">$\blacksquare$</span>
+so if $\sum_{i=1}^n\alpha_ib_i=0$ for any sequence $\l\langle\alpha_i\r\rangle\in K^n$ and finite subset $\l\{b_1,\dots,b_n\r\}\subseteq\mc{B}$ with $n\geq1$, uniqueness of the representation of $0$ forces each $\alpha_i=0$. If $n=0$, then $\alpha_i=0$ for each $i\in\em$ vacuously.<span style="float:right;">$\blacksquare$</span>

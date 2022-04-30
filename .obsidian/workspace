@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "efb205798775c5c6",
+        "id": "a43a849186b9b7a4",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Hamel Basis.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "730154b7587d4aad",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Unique Representation Theorem (Hamel; arbitrary).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "b5a54d781b2f07ee",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Unique Representation Theorem (Hamel; finite).md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Unique Representation Theorem (Hamel; finite).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Unique Representation Theorem (Hamel; finite).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Unique Representation Theorem (Hamel; finite).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "efb205798775c5c6",
+  "active": "b5a54d781b2f07ee",
   "lastOpenFiles": [
-    "Notes/Additive Matrix Group.md",
-    "Notes/Matrix.md",
+    "Notes/Unique Representation Theorem (Hamel; finite).md",
+    "Notes/Unique Representation Theorem (Hamel; arbitrary).md",
+    "Notes/Linear Independence.md",
+    "Notes/Hamel Basis.md",
+    "Notes/Linearly dependent iff exists span redundant element.md",
+    "Notes/Linear Combination (Vector).md",
     "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Additive matrix group is an Abelian group.md",
-    "Notes/Set of Matrices.md",
-    "Notes/Function.md",
-    "Notes/Empty product is singleton of empty set.md",
-    "Notes/Cartesian Product (Arbitrary).md",
-    "Notes/Linear Span.md",
-    "Notes/Linear map on tuple spaces is induced by a unique matrix.md"
+    "Notes/Finite union of finite sets is finite.md",
+    "Notes/Unique Representation Theorem (Hamel).md",
+    "Notes/Additive Matrix Group.md"
   ]
 }
