@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider an $m\times n$ matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. Letting $T_A$ be the linear map induced by $A$, we have that_
+_Let $K$ be a field and consider an $m\times n$ matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. Letting $T_A:K^n\to K^m$ be the linear map induced by $A$, we have that_
 $$\begin{equation}
     \col\l(A\r)=\im\l(T_A\r).
 \end{equation}$$
@@ -29,3 +29,7 @@ $\begin{align}
     &\Leftrightarrow\ex\v{x}\in K^n:\v{y}=T_A\l(\v{x}\r) && \textrm{Definition of }T_A \\
     &\Leftrightarrow\v{y}\in\im\l(T_A\r). && \textrm{Definition of image}\qedin
 \end{align}$
+
+---
+
+**Remark.** In particular, this shows that $\col\l(A\r)=K^m$ iff $A\v{x}=\v{b}$ has a solution for every $\v{b}\in K^m$. If $A$ is square, this is equivalent to $A$ being invertible.<span style="float:right;">$\blacklozenge$</span>

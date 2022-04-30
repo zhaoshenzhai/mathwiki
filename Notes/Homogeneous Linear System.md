@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [Homogeneous $m\times n$ linear system with $m<n$ $\Rightarrow$ non-trivial solutions](Homogeneous%20m%20by%20n%20linear%20system%20with%20m<n%20has%20a%20non-trivial%20solution.md), [[Linear combinations of solutions of homogeneous systems are solutions]], [[Solution of linear system in terms of a particular solution]]
 Sufficiencies: _Not Applicable_
-Equivalences: [Homogeneous square system $A\v{x}=\v{0}$ has only trivial solution $\Leftrightarrow$ $A\sim I$](Homogeneous%20square%20linear%20system%20only%20trivial%20solution%20iff%20coefficient%20matrix%20row-equivalent%20to%20identity.md), [Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Leftrightarrow$ columns of $A$ are linearly independent](Homogeneous%20linear%20system%20only%20trivial%20solution%20iff%20columns%20or%20rows%20of%20coefficient%20matrix%20are%20linearly%20independent.md)
+Equivalences: [Homogeneous square system $A\v{x}=\v{0}$ has only trivial solution $\Leftrightarrow$ $A\sim I$](Homogeneous%20square%20linear%20system%20only%20trivial%20solution%20iff%20coefficient%20matrix%20row-equivalent%20to%20identity.md), [Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Leftrightarrow$ columns (or rows) of $A$ are linearly independent](Homogeneous%20linear%20system%20only%20trivial%20solution%20iff%20columns%20or%20rows%20of%20coefficient%20matrix%20are%20linearly%20independent.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition
