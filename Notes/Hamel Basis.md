@@ -10,7 +10,7 @@ Constructions: [[Dimension (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
 Properties: [[Invariance of cardinality of bases (finite-dim.)]]
-Sufficiencies: [[Linearly independent subset of a finite-dim. vector space extends to a basis]]
+Sufficiencies: [[Linearly independent subset of a finite-dim. vector space extends to a basis]], [[Spanning set of a finite-dim. vector space cuts down to a basis]]
 Equivalences: [[Unique Representation Theorem (Hamel)]]
 Justifications: _Not Applicable_
 

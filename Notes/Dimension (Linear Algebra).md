@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: [$\dim U<\dim V$ for $U\subset V$ strict linear subspace](Dimension%20of%20proper%20subspace%20strictly%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.).md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Invariance of cardinality of bases (finite-dim.)]], [[Linearly independent subset of a finite-dim. vector space extends to a basis]]
+Justifications: [[Every vector space has a basis (finite-dim.)]], [[Invariance of cardinality of bases (finite-dim.)]]
 
 ``` ad-Definition
 title: Definition.
