@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "edf9594a84e478aa",
+        "id": "c6b2bd2b4691577f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Column Space.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "04af37eed75c54e6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Column space is image of induced linear map.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -52,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "tag:#Later/Linear_Algebra/Rank",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Column space is image of induced linear map.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Column space is image of induced linear map.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Column space is image of induced linear map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "04af37eed75c54e6",
+  "active": "c6b2bd2b4691577f",
   "lastOpenFiles": [
-    "Notes/Column space is image of induced linear map.md",
-    "Notes/Matrix Invertibility Criteria.md",
-    "Notes/Column Space.md",
+    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
+    "Notes/Augmented Matrix.md",
+    "Notes/Linear System of Equations.md",
     "Notes/Homogeneous Linear System.md",
-    "Notes/Linear Independence.md",
+    "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
     "Notes/Homogeneous linear system only trivial solution iff columns or rows of coefficient matrix are linearly independent.md",
-    "Notes/Square linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
-    "Notes/Matrix invertible iff row-equivalent to identity.md",
-    "Notes/Invertible coefficient matrix implies unique solution.md",
-    "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md"
+    "Notes/Solution of linear system in terms of a particular solution.md",
+    "Notes/Linear combinations of solutions of homogeneous systems are solutions.md",
+    "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
+    "Notes/Column rank is number of pivot columns.md"
   ]
 }
