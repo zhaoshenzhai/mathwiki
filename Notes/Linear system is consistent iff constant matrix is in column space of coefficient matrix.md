@@ -6,7 +6,7 @@ custom_alias: Linear system $A\v{x}=\v{b}$ is consistent $\Leftrightarrow$ $\v{b
 <br />
 
 Date Created: 30/03/2022 17:56:16
-Tags: #Proposition #Later/Linear_Algebra/Rank
+Tags: #Proposition #Closed
 
 Proved by: [[Matrix multiplication (columns)]]
 Justifications: _Not Applicable_

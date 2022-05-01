@@ -1,5 +1,5 @@
 ---
-custom_alias: Dimension of proper subspace $<$ dimension of vector space (finite-dim.)
+custom_alias: $\dim U<\dim V$ for $U\subset V$ strict linear subspace
 ---
 
 <br />
