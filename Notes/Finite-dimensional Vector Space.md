@@ -21,6 +21,4 @@ _Let $K$ be a field. A vector space $V$ over $K$ is said to be **finite-dimensio
 
 ```
 
-**Remark.** Equivalently, $V$ is finite-dimensional if $\dim V<\infty$; that is, if every basis $\mc{B}$ is such that $\l|\mc{B}\r|<\infty$. This follows from the fact that every linearly independent subset in $V$ must contain no more elements than spanning sets of $V$, so if $V$ is spanned by a finite set, every basis thereof is also finite.
-
-However, the drawback of _defining_ finite-dimensional vector spaces as vector spaces $V$ with $\dim V<\infty$ is that one needs to prove that every vector space has basis in the first place to even write down $\textrm{`}\dim V<\infty\textrm{'}$. This can be done, but it is not economical since one needs to deal with the general case before tackling the simpler one.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Observe that $V$ is finite-dimensional iff $\dim V<\infty$; that is, iff every basis $\mc{B}$ is such that $\l|\mc{B}\r|<\infty$. This follows from the fact that every linearly independent subset in $V$ must contain no more elements than spanning sets of $V$, so if $V$ is spanned by a finite set, every basis thereof is also finite. Conversely, if every basis of $V$ is finite, then, since every vector space has a basis, we see that there exists a finite spanning set for $V$.<span style="float:right;">$\blacklozenge$</span>
