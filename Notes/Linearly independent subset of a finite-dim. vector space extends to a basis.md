@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [$\l|\textrm{Linearly independent set}\r|\leq\l|\textrm{Spanning set}\r|$ (finite-dim.)](Cardinality%20of%20linearly%20independent%20sets%20no%20more%20than%20that%20of%20spanning%20sets%20(finite-dim.).md), [[Enlargement of linearly independent set by adjoining non-spanned vector]]
 Justifications: _Not Applicable_
 
-Generalizations: [[Linearly independent subset of a vector space extends to a basis]]
+Generalizations: [[Linearly independent subset of an arbitrary vector space extends to a basis]]
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
