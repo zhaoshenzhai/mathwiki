@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [$\dim U<\dim V$ for $U\subset V$ strict linear subspace](Dimension%20of%20proper%20subspace%20strictly%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.).md)
 Sufficiencies: _Not Applicable_
-Equivalences: [Vector space $V$ is finite-dimensional $\Leftrightarrow$ $\dim V<\infty$](Finite-dimensional%20iff%20dimension%20is%20finite.md)
+Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
 ``` ad-Definition

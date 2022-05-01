@@ -16,12 +16,12 @@
         }
       },
       {
-        "id": "1741d68f99013cee",
+        "id": "bc41b45e260ba49c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Finite-dimensional iff dimension is finite.md",
+            "file": "Notes/Dimension (Linear Algebra).md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Finite-dimensional Vector Space.md",
+                "file": "Notes/Dimension (Linear Algebra).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Finite-dimensional Vector Space.md",
+                "file": "Notes/Dimension (Linear Algebra).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Finite-dimensional Vector Space.md",
+                "file": "Notes/Dimension (Linear Algebra).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,12 +194,12 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "ab560f78b6be3da1",
+  "active": "bc41b45e260ba49c",
   "lastOpenFiles": [
+    "Notes/Dimension (Linear Algebra).md",
     "Notes/Finite-dimensional Vector Space.md",
     "Notes/Finite-dimensional iff dimension is finite.md",
     "Notes/Dimension of proper subspace strictly less than dimension of vector space (finite-dim.).md",
-    "Notes/Dimension (Linear Algebra).md",
     "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
     "Notes/Invariance of cardinality of bases (finite-dim.).md",
     "Notes/Vector Space.md",
