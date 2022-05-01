@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Vector]], [[Linear Map]], [[Linear Subspace]], [$\cat{Vect}$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 
-Properties: [[Algebraic consequences (vector space)]], [[Every vector space has a basis (finite-dim.)]]
+Properties: [[Algebraic consequences (vector space)]], [[Every vector space has a basis]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

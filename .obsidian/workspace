@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Spanning set of a finite-dim. vector space cuts down to a basis.md",
+            "file": "Notes/Spanning set of a vector space cuts down to a basis.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Spanning set of a finite-dim. vector space cuts down to a basis.md",
+                "file": "Notes/Spanning set of a vector space cuts down to a basis.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Spanning set of a finite-dim. vector space cuts down to a basis.md",
+                "file": "Notes/Spanning set of a vector space cuts down to a basis.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Spanning set of a finite-dim. vector space cuts down to a basis.md",
+                "file": "Notes/Spanning set of a vector space cuts down to a basis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,15 +184,15 @@
   },
   "active": "0c457f2a7291812c",
   "lastOpenFiles": [
-    "Notes/Spanning set of a finite-dim. vector space cuts down to a basis.md",
+    "Notes/Spanning set of a vector space cuts down to a basis.md",
     "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
-    "Notes/Every vector space has a basis (finite-dim.).md",
-    "Notes/Spanning Set.md",
-    "Notes/Linear Independence.md",
     "Notes/Hamel Basis.md",
-    "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Infinite-dimensional Vector Space.md",
-    "Notes/Dimension of proper subspace strictly less than dimension of vector space (finite-dim.).md",
-    "Notes/Vector Space.md"
+    "Notes/Linear Independence.md",
+    "Notes/Every vector space has a basis.md",
+    "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
+    "Notes/Dimension (Linear Algebra).md",
+    "Notes/Unique Representation Theorem (Hamel).md",
+    "Notes/Enlargement of linearly independent set by adjoining non-spanned vector.md",
+    "Notes/Linear Span.md"
   ]
 }
