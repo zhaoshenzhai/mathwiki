@@ -21,17 +21,13 @@ _Let $K$ be a field and consider an indexed subset_ $S\coloneqq\l\{s_i\r\}_{i\in
 1. _$S$ is linearly dependent._
 2. _There exists a sequence $s_1,\dots,s_n\in S$ with $n>0$ and some $l\in\l\{1,\dots,n\r\}$ such that_
 $$\begin{equation}
-    s_l\in\span\l\{s_1,\dots,s_{l-1}\r\}.
-\end{equation}$$
-2. _There exists a sequence $s_1,\dots,s_n\in S$ with $n>0$ and some $l\in\l\{1,\dots,n\r\}$ such that_
-$$\begin{equation}
-    \span\l\{s_1,\dots,s_n\r\}=\span\l(\l\{s_1,\dots,s_n\r\}\setminus\l\{s_l\r\}\r).
+    \underbrace{s_l\in\span\l\{s_1,\dots,s_{l-1}\r\}}_{\ref{\ast}}, \ \ \ \ \ \ \ \ \textrm{\it{or, equivalently,}}\ \ \ \ \ \ \ \ \underbrace{\span\l\{s_1,\dots,s_n\r\}=\span\l(\l\{s_1,\dots,s_n\r\}\setminus\l\{s_l\r\}\r)}_{\ref{\diamond}}.
 \end{equation}$$
 
 ```
 
 _Proof_.
-* ($1\Rightarrow2$): Since $S$ is linearly dependent, there exist $\alpha_1,\dots,\alpha_n\in K$, not all of which are zero, and a sequence $s_1,\dots,s_n\in S$ such that
+* ($1\Rightarrow\ref{\ast}$): Since $S$ is linearly dependent, there exist $\alpha_1,\dots,\alpha_n\in K$, not all of which are zero, and a sequence $s_1,\dots,s_n\in S$ such that
 $$\begin{equation}
     \sum_{i=1}^n\alpha_is_i=0_V
 \end{equation}$$
@@ -51,7 +47,7 @@ $$\begin{equation}
     s=\sum_{i=1}^{l-1}\l(-\frac{\alpha_i}{\alpha_1}\r)s_i
 \end{equation}$$
 from which the result follows.
-* ($2\Rightarrow3$): The backwards inclusion is trivial since $\l\{s_1,\dots,s_n\r\}\setminus\l\{s_l\r\}\subseteq\l\{s_1,\dots,s_n\r\}$. For the forward direction, take $v\in\span\l\{s_1,\dots,s_n\r\}$ so there exist coefficients $\alpha_1,\dots,\alpha_n\in K$ such that
+* ($\ref{\ast}\Rightarrow\ref{\diamond}$): The backwards inclusion is trivial since $\l\{s_1,\dots,s_n\r\}\setminus\l\{s_l\r\}\subseteq\l\{s_1,\dots,s_n\r\}$. For the forward direction, take $v\in\span\l\{s_1,\dots,s_n\r\}$ so there exist coefficients $\alpha_1,\dots,\alpha_n\in K$ such that
 $$\begin{equation}
     v=\sum_{i=1}^n\alpha_is_i
 \end{equation}$$
@@ -67,7 +63,7 @@ $$\begin{equation}
     \end{aligned}
 \end{equation}$$
 which is a linear combination of vectors in $\l\{s_1,\dots,s_n\r\}\setminus\l\{s_l\r\}$. The result follows.
-* ($3\Rightarrow1$): Since $\span\l\{s_1,\dots,s_n\r\}=\span\l(\l\{s_1,\dots,s_n\r\}\setminus\l\{s_l\r\}\r)$ for some $l\in\l\{1,\dots,n\r\}$, we see that
+* ($\ref{\diamond}\Rightarrow1$): Since $\span\l\{s_1,\dots,s_n\r\}=\span\l(\l\{s_1,\dots,s_n\r\}\setminus\l\{s_l\r\}\r)$ for some $l\in\l\{1,\dots,n\r\}$, we see that
 $$\begin{equation}
     s_l\in\span\l(\l\{s_1,\dots,s_n\r\}\setminus\l\{s_l\r\}\r).
 \end{equation}$$

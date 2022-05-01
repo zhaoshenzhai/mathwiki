@@ -4,7 +4,7 @@
 Date Created: 01/05/2022 16:43:17
 Tags: #Theorem #Closed
 
-Proved by: [[Linearly independent subset of a finite-dim. vector space extends to a basis]], [[Spanning set of a vector space cuts down to a basis]]
+Proved by: [[Spanning set of a vector space cuts down to a basis]], [[Linearly independent subset of a vector space extends to a basis]], [[Linearly independent subset of a finite-dim. vector space extends to a basis]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

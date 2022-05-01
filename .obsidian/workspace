@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0c457f2a7291812c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Spanning set of a vector space cuts down to a basis.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
         "id": "e2ee449f5d76c658",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Linearly independent subset of a vector space extends to a basis.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "cffb21e853d5f393",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Spanning set of a vector space cuts down to a basis.md",
             "mode": "preview",
             "source": true
           }
@@ -197,14 +197,14 @@
   "active": "e2ee449f5d76c658",
   "lastOpenFiles": [
     "Notes/Linearly independent subset of a vector space extends to a basis.md",
+    "Notes/Spanning set of a vector space cuts down to a basis.md",
+    "Notes/Linear Independence.md",
+    "Notes/Linearly dependent iff exists span redundant element.md",
+    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
+    "Notes/Every vector space has a basis.md",
+    "Notes/Every set is the union of the set of its singletons.md",
     "Notes/Right-invertible iff surjection (Choice).md",
     "Notes/Surjection iff epimorphism (Set Theory).md",
-    "Notes/Spanning set of a vector space cuts down to a basis.md",
-    "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
-    "Notes/Vector Space.md",
-    "Notes/Hamel Basis.md",
-    "Notes/Linear Independence.md",
-    "Notes/Every vector space has a basis.md",
-    "Notes/Zermelo-Fraenkel Set Theory with Choice.md"
+    "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md"
   ]
 }
