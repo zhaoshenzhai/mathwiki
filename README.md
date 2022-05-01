@@ -18,7 +18,7 @@ Each note is currently one of four types:
     * Properties: _Statements regarding `object` or necessary conditions of `notion`._
     * Sufficiencies: _Proofs that other objects are of type `object` or sufficient conditions of `notion`_
     * Equivalences: _Equivalent definitions for `object` or biconditionals between notions and `notion`._
-    * Justifications: _Proofs of well-definition of `object`. (Proposition)_
+    * Justifications: _Proofs of well-definition of `object`._
 
 * **Proposition** and **Theorem** (differentiated by 'importance'), including both `statement` and `proof` regarding `object`/`notion`, which links to:
     * Proved by: _Statements in which `proof` depends crucially on._
