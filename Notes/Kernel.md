@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 02/05/2022 18:54:55
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -25,4 +25,4 @@ _together with the restricted operations from $V$._
 
 ```
 
-**Remark.** If $T:K^n\to K^m$ for some $m,n\in\N^\ast$, we see that there exists a unique matrix $A\in\mat{m\times n}{K}$ such that $T\l(\v{x}\r)=A\v{x}$ for all $\v{x}\in K^n$. Indeed, $\ker T$ reduced to $\null A$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If $T:K^n\to K^m$ for some $m,n\in\N^\ast$, we see that there exists a unique matrix $A\in\mat{m\times n}{K}$ such that $T\l(\v{x}\r)=A\v{x}$ for all $\v{x}\in K^n$. Indeed, $\ker T$ reduces to $\null A$.<span style="float:right;">$\blacklozenge$</span>

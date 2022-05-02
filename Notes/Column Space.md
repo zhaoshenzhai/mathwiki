@@ -7,7 +7,7 @@ Tags: #Definition #Closed
 Types: _Not Applicable_
 Examples: _Not Applicable_
 Constructions: [[Column Rank]]
-Generalizations: _Not Applicable_
+Generalizations: [[Image of linear map is a subspace of its codomain]]
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_

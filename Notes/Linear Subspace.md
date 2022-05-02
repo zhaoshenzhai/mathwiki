@@ -5,7 +5,7 @@ Date Created: 03/04/2022 14:30:50
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Linear Span]], [[Kernel]], [[Trivial Subspaces (Linear Algebra)]]
+Examples: [[Linear Span]], [[Null Space]], [[Kernel of linear map is a subspace of its domain]], [[Image of linear map is a subspace of its codomain]], [[Trivial Subspaces (Linear Algebra)]]
 Constructions: [[Minkowski Sum (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
