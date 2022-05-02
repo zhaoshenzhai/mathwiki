@@ -12,7 +12,7 @@ Each note is currently one of four types:
 
 * **Definition**, either of an `object` or of a `notion`, which links to:
     * Types: _Objects/notions of type `object`/`notion` with additional restrictions._
-    * Examples: _Objects that are specific examples or counterexamples of `notion` (but not of any of its `types`)._
+    * Examples: _Objects that are specific examples or counterexamples of `object`/`notion` (but not of any of its `types`)._
     * Constructions: _Objects/notions derived from `object`/`notion`._
     * Generalizations: _Abstractions of `object`/`notion`._<br/><br/>
     * Properties: _Statements regarding `object` or necessary conditions of `notion`._
@@ -44,7 +44,7 @@ Pluggins:
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
 * [Sliding Panes (Andy's Mode)](https://github.com/deathau/sliding-panes-obsidian): Stack panes side-by-side.
 
-Some stats: 545 notes, 1220 links, 50 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
+Some stats: 545 notes, 1221 links, 50 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
 ### TikZ images
 

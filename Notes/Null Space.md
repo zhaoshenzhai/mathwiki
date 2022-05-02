@@ -25,4 +25,4 @@ _together with its induced operations from $K^n$._
 
 ```
 
-**Remark.** In other words, $\null\l(A\r)$ is the solution space of the homogeneous linear system $A\v{x}=\v{0}$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** In other words, $\null\l(A\r)$ is the solution space of the homogeneous linear system $A\v{x}=\v{0}$. It is also the kernel of the induced linear map $T_A$.<span style="float:right;">$\blacklozenge$</span>
