@@ -10,7 +10,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [Linear map induced by product of matrices is composition of linear maps](Linear%20map%20induced%20by%20product%20of%20matrices%20is%20composition%20of%20linear%20maps.md), [[Column space is image of induced linear map]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Linear map on tuple spaces is induced by a unique matrix]]
 Equivalences: _Not Applicable_
 Justifications: [[Linear map induced by a matrix is a linear map]]
 
