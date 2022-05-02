@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bc7280c2f4476ef7",
+        "id": "298cb707994ef9be",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Map.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Map.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Map.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "bc7280c2f4476ef7",
+  "active": "298cb707994ef9be",
   "lastOpenFiles": [
+    "Notes/Category of Vector Spaces.md",
+    "Notes/Category of Relations.md",
+    "Notes/Function Space (Set Theory).md",
+    "Notes/Function.md",
     "Notes/Linear Map.md",
     "Notes/Set of Linear Maps.md",
     "Notes/Set of Linear Maps (Finite Dim.).md",
     "Notes/Composition (Function).md",
     "Notes/Composition of linear maps is a linear map.md",
-    "Notes/Category of vector spaces is a locally-small category.md",
-    "Notes/Category of Vector Spaces.md",
-    "Notes/Locally-small Category.md",
-    "Notes/Linear Operator.md",
-    "Notes/Function.md"
+    "Notes/Category of vector spaces is a locally-small category.md"
   ]
 }

@@ -21,4 +21,4 @@ _Let $K$ be a field and consider a vector space $V$ over $K$. A linear map $T:V\
 
 ```
 
-**Remark.** That is, linear operators are linear maps with $\dom T=\cdm T$. More abstractly, $T\in\edm\l(V\r)$ in $\cat{Vect}_K$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** That is, linear operators are linear maps with $\dom T=\cdm T$. More abstractly, $T\in\edm\l(V\r)$ in $\catvect[K]$.<span style="float:right;">$\blacklozenge$</span>

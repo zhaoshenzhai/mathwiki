@@ -16,13 +16,13 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [$\cat{Set}$ is a locally-small category](Category%20of%20sets%20is%20a%20locally-small%20category.md)
+Justifications: [$\catset$ is a locally-small category](Category%20of%20sets%20is%20a%20locally-small%20category.md)
 
 ``` ad-Definition
 title: Definition.
 
-_The **category of sets** is the (locally-small) category $\cat{Set}$ defined by the following data:_
-* _The objects are sets; that is, $\obj\l(\cat{Set}\r)\coloneqq V$ where $V$ is the universal class._
+_The **category of sets** is the (locally-small) category $\catset$ defined by the following data:_
+* _The objects are sets; that is, $\obj\l(\catset\r)\coloneqq V$ where $V$ is the universal class._
 * _For all sets $X$ and $Y$, the morphisms from $X$ to $Y$ are functions_ $\l\langle\Gamma_{\mathclap{f}}\ ,X,Y\r\rangle$_; that is, $\hom\l(X,Y\r)\coloneqq Y^X$._
 * _For all sets $X$, the identity morphism on $X$ is the identity function $\id_X:X\to X$._
 * _For all functions $g:Y\to Z$ and $f:X\to Y$, the composite morphism of $g$ after $f$ is the composite function $g\circ f:X\to Z$._

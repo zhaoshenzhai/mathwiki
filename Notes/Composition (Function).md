@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [$\cat{Set}$](Category%20of%20Sets.md)
+Constructions: [$\catset$](Category%20of%20Sets.md)
 Generalizations: [[Composition (Relation)]]
 
 Properties: [[Identity function is the identity of function composition]], [[Composition of bijections is a bijection]], [[Composition of linear maps is a linear map]]

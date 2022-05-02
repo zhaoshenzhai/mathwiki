@@ -23,7 +23,7 @@ _Let $K$ be a field and consider the vector spaces $\mc{V}\coloneqq\l\langle V,K
 
 ```
 
-**Remark.** Linear maps are $\cat{Vect}_K$-morphisms.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Linear maps are $\catvect[K]$-morphisms.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

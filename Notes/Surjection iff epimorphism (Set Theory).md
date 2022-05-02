@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Consider the category $\cat{Set}$ and let $f:X\to Y$ be a function. Then $f$ is a surjection iff $f$ is an epimorphism._
+_Consider the category $\catset$ and let $f:X\to Y$ be a function. Then $f$ is a surjection iff $f$ is an epimorphism._
 
 ```
 

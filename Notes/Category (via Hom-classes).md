@@ -39,4 +39,4 @@ _such that, for all $X,Y,Z,W\in\mc{O}$:_
 
 ```
 
-**Remark.** $\axicat[3]$ can be $\textrm{`}$forced$\textrm{'}$ to hold since one can replace morphisms $f\in\hom\l(X,Y\r)$ with the triple $\l\langle f,X,Y\r\rangle$; this is done, for instance, in $\cat{Set}$. Thus $\axicat[3]$ can be disregarded when verifying the axioms of a category.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** $\axicat[3]$ can be $\textrm{`}$forced$\textrm{'}$ to hold since one can replace morphisms $f\in\hom\l(X,Y\r)$ with the triple $\l\langle f,X,Y\r\rangle$; this is done, for instance, in $\catset$. Thus $\axicat[3]$ can be disregarded when verifying the axioms of a category.<span style="float:right;">$\blacklozenge$</span>

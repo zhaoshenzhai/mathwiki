@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Set of Linear Maps (Finite Dim.)]]
 Examples: _Not Applicable_
-Constructions: [$\cat{Vect}_K$](Category%20of%20Vector%20Spaces.md)
+Constructions: [$\catvect[K]$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

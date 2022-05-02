@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Reflexive Closure]], [$\cat{Set}$](Category%20of%20Sets.md), [$\cat{Rel}$](Category%20of%20Relations.md), [$\cat{Vect}_K$](Category%20of%20Vector%20Spaces.md), [[Identity Functor]]
+Constructions: [[Reflexive Closure]], [$\catset$](Category%20of%20Sets.md), [$\catrel$](Category%20of%20Relations.md), [$\catvect[K]$](Category%20of%20Vector%20Spaces.md), [[Identity Functor]]
 Generalizations: [[Identity Morphism]]
 
 Properties: [[Identity function is a bijection]], [[Identity function is the identity of function composition]], [[Identity function is a linear map]]

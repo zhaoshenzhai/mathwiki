@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_The covariant power set functor $\ms{P}:\cat{Set}\to\cat{Set}$ is a covariant functor._
+_The covariant power set functor $\ms{P}:\catset\to\catset$ is a covariant functor._
 
 ```
 

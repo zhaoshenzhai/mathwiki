@@ -16,12 +16,12 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [$\cat{Vect}_K$ is a locally-small category](Category%20of%20vector%20spaces%20is%20a%20locally-small%20category.md)
+Justifications: [$\catvect[K]$ is a locally-small category](Category%20of%20vector%20spaces%20is%20a%20locally-small%20category.md)
 
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field. The **category of vector spaces over $K$** is the (locally-small) category $\cat{Vect}_K$ defined by the following data:_
+_Let $K$ be a field. The **category of vector spaces over $K$** is the (locally-small) category $\catvect[K]$ defined by the following data:_
 * _The objects are vector spaces $\l\langle V,K,+,\cdot,0\r\rangle$._
 
 * _For all vector spaces $\l\langle V_1,K,+_1,\cdot_1,0_1\r\rangle$ and $\l\langle V_2,K,+_2,\cdot_2,0_2\r\rangle$, the morphisms from $\l\langle V_1,K,+_1,\cdot_1,0_1\r\rangle$ to $\l\langle V_2,K,+_2,\cdot_2,0_2\r\rangle$ are linear maps $T:V_1\to V_2$._
