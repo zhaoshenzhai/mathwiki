@@ -10,7 +10,7 @@ Constructions: [[Set of Linear Maps]]
 Generalizations: _Not Applicable_
 
 Properties: [[Composition of linear maps is a linear map]], [[Linear map fixes zero vector]]
-Sufficiencies: [[Criteria for equality of linear maps via spanning set]], [[Linear map on tuple spaces is induced by a unique matrix]]
+Sufficiencies: [[Existence of unique linear map via action on basis vectors]], [[Criteria for equality of linear maps via spanning set]], [[Linear map on tuple spaces is induced by a unique matrix]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -23,7 +23,11 @@ _Let $K$ be a field and consider the vector spaces $\mc{V}\coloneqq\l\langle V,K
 
 ```
 
-**Remark.** Linear maps are $\catvect[K]$-morphisms.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** The two conditions can be combined to one by asserting that
+$$\begin{equation}
+    \fa v_1,v_2\in V,\fa\alpha\in K:T\l(\l(\alpha\odot v_1\r)\oplus v_2\r)=\l(\alpha\odot T\l(v_1\r)\r)\oplus T\l(v_2\r),
+\end{equation}$$
+or, in more sensible notation, that $T\l(\alpha v_1+v_2\r)=\alpha T\l(v_1\r)+T\l(v_2\r)$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

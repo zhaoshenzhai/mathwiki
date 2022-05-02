@@ -9,7 +9,7 @@ Examples: [[Standard Basis of Tuple Space]], [[Basis for null space of matrix (e
 Constructions: [[Dimension (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Invariance of cardinality of bases (finite-dim.)]]
+Properties: [[Invariance of cardinality of bases (finite-dim.)]], [[Existence of unique linear map via action on basis vectors]]
 Sufficiencies: [[Every vector space has a basis]], [Linearly independent $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis](Linearly%20independent%20subset%20with%20same%20cardinality%20as%20dimension%20(finite)%20is%20a%20basis.md), [Spanning set $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis](Spanning%20subset%20with%20same%20cardinality%20as%20dimension%20(finite)%20is%20a%20basis.md)
 Equivalences: [[Unique Representation Theorem (Hamel)]]
 Justifications: _Not Applicable_
