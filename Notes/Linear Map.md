@@ -10,7 +10,7 @@ Constructions: [[Set of Linear Maps]]
 Generalizations: _Not Applicable_
 
 Properties: [[Composition of linear maps is a linear map]], [[Linear map fixes zero vector]]
-Sufficiencies: [[Linear map on tuple spaces is induced by a unique matrix]]
+Sufficiencies: [[Criteria for equality of linear maps via spanning set]], [[Linear map on tuple spaces is induced by a unique matrix]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

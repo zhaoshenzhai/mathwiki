@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "298cb707994ef9be",
+        "id": "dcf997b2fe9a781c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Criteria for equality of linear maps via spanning set.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Criteria for equality of linear maps via spanning set.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Criteria for equality of linear maps via spanning set.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Criteria for equality of linear maps via spanning set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "298cb707994ef9be",
+  "active": "dcf997b2fe9a781c",
   "lastOpenFiles": [
-    "Notes/Category of Vector Spaces.md",
-    "Notes/Category of Relations.md",
-    "Notes/Function Space (Set Theory).md",
-    "Notes/Function.md",
+    "Notes/Criteria for equality of linear maps via spanning set.md",
+    "Notes/Linear span is set of all linear combinations.md",
+    "Notes/Linear Span.md",
+    "Notes/Spanning Set.md",
+    "Notes/Criteria for equality of functions.md",
     "Notes/Linear Map.md",
-    "Notes/Set of Linear Maps.md",
     "Notes/Set of Linear Maps (Finite Dim.).md",
-    "Notes/Composition (Function).md",
-    "Notes/Composition of linear maps is a linear map.md",
-    "Notes/Category of vector spaces is a locally-small category.md"
+    "Notes/Linear isomorphism between set of matrices and finite-dim. linear maps.md",
+    "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+    "Notes/Category of Vector Spaces.md"
   ]
 }
