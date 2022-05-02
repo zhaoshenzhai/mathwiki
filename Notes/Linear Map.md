@@ -4,7 +4,7 @@
 Date Created: 01/04/2022 18:16:33
 Tags: #Definition #Closed
 
-Types: [[Linear Isomorphism]]
+Types: [[Linear Isomorphism]], [[Linear Operator]]
 Examples: [[Linear map Induced by a Matrix]], [[Identity function is a linear map]]
 Constructions: [[Set of Linear Maps]]
 Generalizations: _Not Applicable_
@@ -22,3 +22,13 @@ _Let $K$ be a field and consider the vector spaces $\mc{V}\coloneqq\l\langle V,K
 * _$\axilin[2]$ (Homogeneity)$\bf{.}$ $\fa\alpha\in K,\fa v\in V:T\l(\alpha\odot_Vv\r)=\alpha\odot_WT\l(v\r)$._
 
 ```
+
+**Remark.** Linear maps are $\cat{Vect}_K$-morphisms.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+**Remark.** By induction, we see that
+$$\begin{equation}
+    T\l(\sum_{i=1}^n\alpha_iv_i\r)=\sum_{i=1}^n\alpha_iT\l(v_i\r)
+\end{equation}$$
+for all $v_1,\dots,v_n\in V$ and $\alpha_1,\dots,\alpha_n\in K$.<span style="float:right;">$\blacklozenge$</span>

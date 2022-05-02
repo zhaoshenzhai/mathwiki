@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Finite-dimensional Vector Space]], [[Infinite-dimensional Vector Space]]
 Examples: _Not Applicable_
-Constructions: [[Vector]], [[Linear Map]], [[Linear Subspace]], [$\cat{Vect}$](Category%20of%20Vector%20Spaces.md)
+Constructions: [[Vector]], [[Linear Map]], [[Linear Subspace]], [$\cat{Vect}_K$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 
 Properties: [[Algebraic consequences (vector space)]], [[Every vector space has a basis]]

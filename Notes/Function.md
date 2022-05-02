@@ -4,7 +4,7 @@
 Date Created: 14/01/2022 14:25:20
 Tags: #Definition #Closed 
 
-Types: [[Injection]], [[Surjection]], [[Left-invertible Function]], [[Right-invertible Function]], [[Indexed Family]]
+Types: [[Injection]], [[Surjection]], [[Left-invertible Function]], [[Right-invertible Function]], [[Indexed Family]], [[Linear Map]]
 Examples: [[Kronecker Delta]]
 Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Function Space (Set Theory)]]
 Generalizations: [[Morphism (Category Theory)]], [[Class Function]]

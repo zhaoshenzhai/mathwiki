@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Set of Linear Maps (Finite Dim.)]]
 Examples: _Not Applicable_
-Constructions: [$\cat{Vect}$](Category%20of%20Vector%20Spaces.md)
+Constructions: [$\cat{Vect}_K$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -17,9 +17,9 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider two vector spaces $\mc{V}\coloneqq\l\langle V,K,+_V,\cdot_V,0_V\r\rangle$ and $\mc{W}\coloneqq\l\langle W,K,+_W,\cdot_W,0_W\r\rangle$ over $K$. The **set of linear maps from $\mc{V}$ into $\mc{W}$** is the set_
+_Let $K$ be a field and consider two vector spaces $V$ and $W$ over $K$. The **set of linear maps from $V$ into $W$** is the set_
 $$\begin{equation}
-    \hom\l(\mc{V},\mc{W}\r)\coloneqq\l\{f\in W^V\mid f\textrm{\it{ is a linear map}}\r\}.
+    \hom\l(V,W\r)\coloneqq\l\{f\in W^V\mid f\textrm{\it{ is a linear map}}\r\}.
 \end{equation}$$
 
 ```

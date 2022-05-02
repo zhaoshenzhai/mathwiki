@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9a80867507f9d712",
+        "id": "bc7280c2f4476ef7",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Map.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linear Map.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linear Map.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -151,7 +157,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.2180261178886461,
+                  "scale": 0.06046180538649243,
                   "close": true
                 }
               }
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "9a80867507f9d712",
+  "active": "bc7280c2f4476ef7",
   "lastOpenFiles": [
-    "Notes/Hamel Basis.md",
-    "Notes/Spanning subset with same cardinality as dimension (finite) is a basis.md",
-    "Notes/Linearly independent subset with same cardinality as dimension (finite) is a basis.md",
-    "Notes/Invariance of cardinality of bases (finite-dim.).md",
-    "Notes/Spanning Set.md",
-    "Notes/Linear Independence.md",
-    "Notes/Linearly independent subset cannot contain the zero vector.md",
-    "Notes/Spanning set of a vector space cuts down to a basis.md",
-    "Notes/Linearly independent subset of a vector space extends to a basis.md",
-    "Notes/Dimension (Linear Algebra).md"
+    "Notes/Linear Map.md",
+    "Notes/Set of Linear Maps.md",
+    "Notes/Set of Linear Maps (Finite Dim.).md",
+    "Notes/Composition (Function).md",
+    "Notes/Composition of linear maps is a linear map.md",
+    "Notes/Category of vector spaces is a locally-small category.md",
+    "Notes/Category of Vector Spaces.md",
+    "Notes/Locally-small Category.md",
+    "Notes/Linear Operator.md",
+    "Notes/Function.md"
   ]
 }

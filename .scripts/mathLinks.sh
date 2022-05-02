@@ -18,7 +18,7 @@ Math()
     local r=$(echo "$r" | sed -E 's/\bK\b/\$K\$/g')                                           # K topology
     local r=$(echo "$r" | sed -E 's/\bCategory\sof\sSets\b/\$\\cat{Set}\$/gI')                # Category of Sets
     local r=$(echo "$r" | sed -E 's/\bCategory\sof\sRelations\b/\$\\cat{Rel}\$/gI')           # Category of Relations
-    local r=$(echo "$r" | sed -E 's/\bCategory\sof\sVector\sSpaces\b/\$\\cat{Vect}\$/gI')     # Category of Relations
+    local r=$(echo "$r" | sed -E 's/\bCategory\sof\sVector\sSpaces\b/\$\\cat{Vect}_K\$/gI')   # Category of Vector Spaces
 
     # Prefix Letters
     local r=$(echo "$r" | sed -E 's/\bn-\b/\$n\$-/g')                                   # n

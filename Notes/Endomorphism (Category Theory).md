@@ -5,7 +5,7 @@ Date Created: 21/02/2022 15:32:10
 Tags: #Definition #Closed 
 
 Types: [[Automorphism (Category Theory)]]
-Examples: _Not Applicable_
+Examples: [[Linear Operator]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
