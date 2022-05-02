@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Linear Isomorphism]], [[Linear Operator]]
 Examples: [[Linear map Induced by a Matrix]], [[Identity function is a linear map]]
-Constructions: [[Set of Linear Maps]]
+Constructions: [[Set of Linear Maps]], [[Kernel]]
 Generalizations: _Not Applicable_
 
 Properties: [[Composition of linear maps is a linear map]], [[Linear map fixes zero vector]]

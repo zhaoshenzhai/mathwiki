@@ -7,7 +7,7 @@ Tags: #Definition #Closed
 Types: _Not Applicable_
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Generalizations: [[Kernel]]
 
 Properties: [[Basis for null space of matrix (explicit)]]
 Sufficiencies: _Not Applicable_
