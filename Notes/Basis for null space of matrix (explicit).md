@@ -91,7 +91,7 @@ which, observing that $\rank\l(A\r)=r$ and $\dom\null\l(A\r)=\nullity\l(A\r)$, i
 $$\begin{equation}
     \rank\l(A\r)+\nullity\l(A\r)=\dim\l(K^n\r).
 \end{equation}$$
-This can be seen as a special case of the Rank-Nullity Theorem by replacing $A$ with its induced linear map $T_A$, $\nullity\l(A\r)$ with $\ker\l(T_A\r)$, and $K^n$ with $\dom\l(T_A\r)$.<span style="float:right;">$\blacklozenge$</span>
+This can be seen as a special case of the Rank-Nullity Theorem with $A$ in place of a linear map $T:V\to W$ and $K^n$ in place of $V$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

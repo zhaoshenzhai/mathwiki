@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [[Linear isomorphism between set of matrices and finite-dim. linear maps]]
+Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
 ``` ad-Definition
@@ -21,4 +21,4 @@ _Let $K$ be a field. The **set of $m\times n$ matrices over $K$** is denoted by_
 
 ```
 
-**Remark.** Formally, $\mat{m\times n}{K}=K^{\l\{1,\dots,m\r\}\times\l\{1,\dots,n\r\}}$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Formally, $\mat{m\times n}{K}\coloneqq K^{\l\{1,\dots,m\r\}\times\l\{1,\dots,n\r\}}$.<span style="float:right;">$\blacklozenge$</span>

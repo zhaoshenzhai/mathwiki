@@ -4,7 +4,7 @@
 Date Created: 03/04/2022 17:47:50
 Tags: #Definition #Closed
 
-Types: [[Set of Linear Maps (Finite Dim.)]]
+Types: _Not Applicable_
 Examples: _Not Applicable_
 Constructions: [$\catvect[K]$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
