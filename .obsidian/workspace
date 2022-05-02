@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "728cf1b6ffd17407",
+        "id": "9a80867507f9d712",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Independence.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Independence.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Independence.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Independence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "728cf1b6ffd17407",
+  "active": "9a80867507f9d712",
   "lastOpenFiles": [
+    "Notes/Hamel Basis.md",
+    "Notes/Spanning subset with same cardinality as dimension (finite) is a basis.md",
+    "Notes/Linearly independent subset with same cardinality as dimension (finite) is a basis.md",
+    "Notes/Invariance of cardinality of bases (finite-dim.).md",
+    "Notes/Spanning Set.md",
     "Notes/Linear Independence.md",
-    "Notes/Every vector space has a basis.md",
-    "Notes/Linearly independent subset of a vector space extends to a basis.md",
-    "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
+    "Notes/Linearly independent subset cannot contain the zero vector.md",
     "Notes/Spanning set of a vector space cuts down to a basis.md",
-    "Notes/Linearly independent subset of an arbitrary vector space extends to a basis.md",
-    "Notes/Linearly dependent iff exists span redundant element.md",
-    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
-    "Notes/Every set is the union of the set of its singletons.md",
-    "Notes/Right-invertible iff surjection (Choice).md"
+    "Notes/Linearly independent subset of a vector space extends to a basis.md",
+    "Notes/Dimension (Linear Algebra).md"
   ]
 }
