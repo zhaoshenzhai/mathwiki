@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "62148f496d70b1d2",
+        "id": "6dc77e9b043d78ca",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "tag:#Later/Linear_Algebra/Rank",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "1bf52919416afc83",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "62148f496d70b1d2",
+  "active": "6dc77e9b043d78ca",
   "lastOpenFiles": [
+    "Notes/Linear combination iff in smallest containing subspace.md",
+    "Notes/Linear Subspace.md",
     "Notes/Kernel.md",
-    "Notes/Linear Map.md",
-    "Notes/Set of Linear Maps.md",
-    "Notes/Linear Isomorphism.md",
-    "Notes/Set of Matrices.md",
-    "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Linear isomorphisms between tuples, row vectors, and column vectors.md",
-    "Notes/Isomorphism of objects is an equivalence relation.md",
-    "Notes/Set of Linear Maps (Finite Dim.).md"
+    "Notes/Kernel of linear map is a subspace of its domain.md",
+    "Notes/Unique Representation Theorem (Hamel).md",
+    "Notes/Standard basis of tuple space is an ordered basis.md",
+    "Notes/Linearly dependent iff exists span redundant element.md",
+    "Notes/Column space is image of induced linear map.md",
+    "Notes/Basis for null space of matrix (explicit).md",
+    "Notes/Linear Span.md"
   ]
 }

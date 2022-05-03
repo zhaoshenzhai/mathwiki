@@ -12,6 +12,7 @@ Math()
     local r=$(echo "$r" | sed -E 's/\bN\b/\$\\N\$/g')                                         # Natural numbers
     local r=$(echo "$r" | sed -E 's/\bR2\b/\$\\R\^2\$/g')                                     # Real numbers squared
     local r=$(echo "$r" | sed -E 's/\bN2\b/\$\\N\^2\$/g')                                     # Natural numbers squared
+    local r=$(echo "$r" | sed -E 's/\bequals\b/\$=\$/g')                                      # Equals
     local r=$(echo "$r" | sed -E 's/\bimplies\b/\$\\Rightarrow\$/g')                          # Implies
     local r=$(echo "$r" | sed -E 's/\biff\b/\$\\Leftrightarrow\$/g')                          # Equivalence
     local r=$(echo "$r" | sed -E 's/\bON\b/\$\\textrm\{ON\}\$/g')                             # Class of ordinals

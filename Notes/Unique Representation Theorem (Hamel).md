@@ -4,7 +4,7 @@
 Date Created: 30/04/2022 12:00:55
 Tags: #Theorem #Closed
 
-Proved by: [[Linear span is set of all linear combinations]]
+Proved by: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

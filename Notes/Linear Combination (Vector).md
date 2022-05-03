@@ -6,12 +6,12 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Matrix multiplication (columns)]], [[Matrix multiplication (rows)]]
-Constructions: [[Linear Independence]], [[Linear span is set of all linear combinations]], [Linear subspace $\Leftrightarrow$ closed under linear combination](Linear%20subspace%20iff%20closed%20under%20linear%20combination.md)
+Constructions: [[Linear Independence]], [[Linear Span]], [Linear subspace $\Leftrightarrow$ closed under linear combination](Linear%20subspace%20iff%20closed%20under%20linear%20combination.md)
 Generalizations: _Not Applicable_
 
 Properties: [[Linear combinations of solutions of homogeneous systems are solutions]]
 Sufficiencies: [[Unique Representation Theorem (Hamel)]]
-Equivalences: _Not Applicable_
+Equivalences: [Linear combination $\Leftrightarrow$ in smallest containing subspace](Linear%20combination%20iff%20in%20smallest%20containing%20subspace.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition
