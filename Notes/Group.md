@@ -9,7 +9,7 @@ Examples: [[Function Group]]
 Constructions: _Not Applicable_
 Generalizations: [[Groupoid]]
 
-Properties: _Not Applicable_
+Properties: [[Cancellation laws (group)]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Unit element of a group is unique]], [[Inverse elements in a group are unique]]

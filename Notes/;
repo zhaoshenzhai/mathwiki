@@ -1,0 +1,31 @@
+<br />
+<br />
+
+Date Created: 04/05/2022 16:35:04
+Tags: #Proposition #In_Progress
+
+Proved by: _Not Applicable_
+Justifications: _Not Applicable_
+
+Generalizations: _Not Applicable_
+Counterexamples: _Not Applicable_
+
+``` ad-Proposition
+title: Proposition.
+
+_Let $\l\langle G,\ast\r\rangle$ be a group. Then, for all $g,h,k\in G$, we have_
+$$\begin{equation}
+    gk=hk\Rightarrow g=h\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ kg=kh\Rightarrow g=h.
+\end{equation}$$
+
+```
+
+_Proof_. Let $k'$ be an inverse of $k$ and observe that
+$$\begin{equation}
+    \begin{aligned}
+        \l(gk\r)k'&=\l(hk\r)k'\hspace{1in}k'\l(kg\r)&=k'\l(kh\r)\\
+        g\l(kk'\r)&=h\l(kk'\r) \\
+        ge&=he \\
+        g&=h
+    \end{aligned}
+\end{equation}$$
