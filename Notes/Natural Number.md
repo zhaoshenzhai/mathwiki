@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Set of Natural Numbers]]
+Constructions: [[Set of Natural Numbers]], [[Tuples and Sequences]]
 Generalizations: _Not Applicable_
 
 Properties: [[Successor of natural number is a natural number]]

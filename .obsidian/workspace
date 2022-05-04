@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "74fa52d4f970dd88",
+        "id": "f54c26215183bc83",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Group.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "d20b9821c155981e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Inverse elements in a group are unique.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "64ca6145fbae9b0d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Unit element of a group is unique.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Unit element of a group is unique.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Unit element of a group is unique.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -151,7 +181,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.12355915232468272,
+                  "scale": 0.037383789213161885,
                   "close": true
                 }
               }
@@ -163,6 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Unit element of a group is unique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "74fa52d4f970dd88",
+  "active": "64ca6145fbae9b0d",
   "lastOpenFiles": [
-    "Notes/Function Space (Linear Algebra).md",
+    "Notes/Unit element of a group is unique.md",
+    "Notes/Inverse elements in a group are unique.md",
+    "Notes/Group.md",
+    "Notes/n-ary Operation.md",
     "Notes/Vector Space.md",
-    "Notes/Function space over a field is a vector space.md",
-    "Notes/Tuple space over a field is a vector space.md",
-    "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Set of matrices over a field is a vector space.md",
-    "Notes/Function Group.md",
-    "Notes/Additive matrix group is an Abelian group.md",
-    "Notes/Function group is a group.md"
+    "Notes/Restriction of function is a function.md",
+    "Notes/Restriction (Function).md",
+    "Notes/Function.md",
+    "Notes/Kronecker Delta.md",
+    "Notes/Cartesian Product (Arbitrary).md"
   ]
 }
