@@ -17,12 +17,45 @@ Justifications: [[Function space constructed from a Cartesian product]]
 ``` ad-Definition
 title: Definition.
 
-_Let $I$ be an index set and consider the indexed family_ $\l\{X_i\r\}_{i\in I}$_._
-* _An_ **$I$_-tuple in_ $\l\{X_i\r\}_{i\in I}$**_ is an element_ $f\in\prod_{i\in I}X_i$_; in this case, write_ $\l\langle x_i\r\rangle_{i\in I}\coloneqq f$_ so that $x_i\in X_i$ for all $i\in I$._
-* _If there exists a set $X$ such that $X_i=X$ for all $i\in I$, then an **$I$-tuple in $X$** is an element $f\in X^I$._
-    * _If $I=\omega$, then the $\omega$-tuple $\l\langle x_0,x_1,x_2,\dots\r\rangle\coloneqq f\in X^\omega$ is said to be an **infinite sequence**. Similarly if $I=\omega\setcomp\l\{0\r\}$._
-    * _If $I=n$ for some $n\in\omega$, then the $n$-tuple_ $\l\langle x_0,\dots,x_{n-1}\r\rangle\coloneqq f\in X^n$ _or, more commonly,_ $\l\langle x_1,\dots,x_n\r\rangle\coloneqq\l\langle x_0,\dots,x_{n-1}\r\rangle$_, is called a **(finite) sequence** or a **list**._
+_Let $X$ be a set and consider an indexed family_ $\l\{x_i\r\}_{i\in I}\subseteq X$_._
+* _If $I=\N$, then_ $\l\{x_i\r\}_{i\in I}$ _is said to be an **infinite sequence in $X$** and is denoted by either_ $\l\langle x_i\r\rangle_{i\in\N}$ _or_ $\l\langle x_1,x_2,\dots\r\rangle$_._
+
+* _If $I=\l\{1,\dots,n\r\}$ for some $n\in\N$, then _$\l\{x_i\r\}_{i\in I}$ _is said to be an **$n$-tuple in $X$** (or a **finite sequence in $X$**) and is denoted by $\l\langle x_1,\dots,x_n\r\rangle$._
+
+_More generally, let_ $\l\{X_j\r\}_{j\in J}$ _be an indexed family of sets and consider an indexed family_ $\l\{x_j\r\}_{j\in J}$ _where $x_j\in X_j$ for all $j\in J$._
+* _If $J=\N$, then_ $\l\{x_j\r\}_{j\in J}$ _is said to be an_ **_infinite sequence through_ $\l\{X_j\r\}_{j\in J}$**_._
+
+* _If $J=\l\{1,\dots,n\r\}$ for some $n\in\N$, then_ $\l\{x_j\r\}_{j\in J}$ _is said to be an_ **_$n$-tuple through_ $\l\{X_j\r\}_{j\in J}$**_._
 
 ```
 
-**Remark.** Formally, there is no difference between an $I$-indexed family $\l\{x_i\r\}_{i\in I}$ and an $I$-tuple $\l\langle x_i\r\rangle_{i\in I}$. However, the latter is usually used when the index set $I$ carries a total order, as is the case when $I=\omega$ or $I=n=\l\{0,\dots,n-1\r\}$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** In other words, infinite sequences and $n$-tuples in $X$ are functions of the form
+$$\begin{equation}
+    \l[
+        \begin{aligned}
+            f:\omega&\to X \\
+            i&\mapsto x_i\coloneqq f\l(i\r)
+        \end{aligned}
+    \r]\in X^\omega\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ 
+    \l[
+        \begin{aligned}
+            f:n&\to X \\
+            i&\mapsto x_i\coloneqq f\l(i\r)
+        \end{aligned}
+    \r]\in X^n,
+\end{equation}$$
+though, in both cases, we usually use $\omega$ as $\N^\ast$ (as is done above). Similarly, infinite sequences and $n$-tuples through $\l\{X_j\r\}_{j\in J}$ are functions of the form
+$$\begin{equation}
+    \l[
+        \begin{aligned}
+            f:\omega&\to\bigcup_{j\in\omega}X_j \\
+            j&\mapsto x_j\coloneqq f\l(j\r)
+        \end{aligned}
+    \r]\in\prod\limits_{j\in\omega}X_j\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ 
+    \l[
+        \begin{aligned}
+            f:n&\to\bigcup_{j\in n}X_j \\
+            j&\mapsto x_j\coloneqq f\l(j\r)
+        \end{aligned}
+    \r]\in X_1\times\cdots\times X_n.\exqedin
+\end{equation}$$

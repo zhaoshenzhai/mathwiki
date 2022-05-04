@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6dc77e9b043d78ca",
+        "id": "1aaf391df6afe032",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Vector Space.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Vector Space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Vector Space.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Vector Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "6dc77e9b043d78ca",
+  "active": "1aaf391df6afe032",
   "lastOpenFiles": [
-    "Notes/Linear combination iff in smallest containing subspace.md",
-    "Notes/Linear Subspace.md",
-    "Notes/Kernel.md",
-    "Notes/Kernel of linear map is a subspace of its domain.md",
-    "Notes/Unique Representation Theorem (Hamel).md",
-    "Notes/Standard basis of tuple space is an ordered basis.md",
-    "Notes/Linearly dependent iff exists span redundant element.md",
-    "Notes/Column space is image of induced linear map.md",
-    "Notes/Basis for null space of matrix (explicit).md",
-    "Notes/Linear Span.md"
+    "Notes/Vector Space.md",
+    "Notes/Indexed Family.md",
+    "Notes/Cartesian Product (Arbitrary).md",
+    "Notes/Tuples and Sequences.md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Function space constructed from a Cartesian product.md",
+    "Notes/Morphism (Category Theory).md",
+    "Notes/Function.md",
+    "Notes/Binary Relation.md",
+    "Notes/Ordered Pair.md"
   ]
 }
