@@ -53,7 +53,7 @@ $$\begin{equation}
         &=\v{0}. && \textrm{Definition of $\v{0}$}
     \end{aligned}
 \end{equation}$$
-* ($\axiablngp$): Take $\v{x},\v{y}\in K^n$ and observe that
+* ($\axiablngrp$): Take $\v{x},\v{y}\in K^n$ and observe that
 
 $\begin{align}
     \v{x}\oplus \v{y}&=\l\langle x_1+y_1,\dots,x_n+y_n\r\rangle && \textrm{Definition of }\oplus \\

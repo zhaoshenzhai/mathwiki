@@ -53,7 +53,7 @@ $$\begin{equation}
         &=0_{mn}. && \textrm{Definition of $0_{mn}$}
     \end{aligned}
 \end{equation}$$
-* ($\axiablngp$): Take $\l[a_{ij}\r],\l[b_{ij}\r]\in\mat{m\times n}{K}$ and observe that
+* ($\axiablngrp$): Take $\l[a_{ij}\r],\l[b_{ij}\r]\in\mat{m\times n}{K}$ and observe that
 
 $\begin{align}
    \l[a_{ij}\r]\oplus\l[b_{ij}\r]&=\l[a_{ij}+b_{ij}\r] && \textrm{Definition of }\oplus \\

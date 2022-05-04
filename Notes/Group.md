@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 04/05/2022 13:08:40
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed
 
 Types: [[Abelian Group]]
 Examples: [[Function Group]]
