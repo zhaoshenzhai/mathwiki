@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
 
-Generalizations: _Not Applicable_
+Generalizations: [[Function group is a group]]
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

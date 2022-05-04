@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
 
-Generalizations: [[Additive matrix group is an Abelian group]]
+Generalizations: [[Function group is a group]]
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

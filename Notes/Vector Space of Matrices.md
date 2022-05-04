@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Set of matrices form a vector space]]
+Justifications: [[Set of matrices over a field is a vector space]]
 
 ``` ad-Definition
 title: Definition.
@@ -20,6 +20,6 @@ title: Definition.
 _Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $m,n\in\N^\ast$. The **vector space of $\l(m\times n\r)$-matrices over $K$** is the vector space_ $\l\langle\mat{m\times n}{K},K,\oplus,\odot,0_{mn}\r\rangle$_ consisting of_
 * _the additive matrix group_ $\l\langle\mat{m\times n}{K},\oplus,0_{mn}\r\rangle$_,_
 * _the field $\l\langle K,+,\cdot\r\rangle$ of scalars, and_
-* _the function $\odot:K\to\mat{m\times n}{K}\to\mat{m\times n}{K}$ of scalar-matrix multiplication._
+* _the function $\odot:K\times\mat{m\times n}{K}\to\mat{m\times n}{K}$ of scalar-matrix multiplication._
 
 ```
