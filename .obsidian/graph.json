@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "path:Notes",
   "showTags": false,
   "showAttachments": false,
@@ -36,16 +36,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.12297898140663,
-  "lineSizeMultiplier": 2.91368734842361,
-  "collapse-forces": false,
-  "centerStrength": 0.157083670169766,
+  "nodeSizeMultiplier": 1.15466855295069,
+  "lineSizeMultiplier": 2.50172291835085,
+  "collapse-forces": true,
+  "centerStrength": 0.0988278092158448,
   "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 30,
-  "scale": 0.02225976821916452,
+  "linkDistance": 285,
+  "scale": 0.034466758384389146,
   "close": true
 }
