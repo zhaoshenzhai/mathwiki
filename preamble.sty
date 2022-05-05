@@ -1,21 +1,36 @@
-% Math operators
+% Math notations
     % Set Theory
-        \newcommand{\im}{\operatorname{im}}
-        \newcommand{\preim}{\operatorname{preim}}
+        \newcommand{\fa}{\forall}
+        \newcommand{\ex}{\exists}
+        \renewcommand{\em}{\varnothing}
+        \newcommand{\pow}{\mathcal{P}}
         \newcommand{\id}{\operatorname{id}}
         \newcommand{\iv}{\operatorname{iv}}
         \newcommand{\dom}{\operatorname{dom}}
         \newcommand{\ran}{\operatorname{ran}}
         \newcommand{\cdm}{\operatorname{cdm}}
         \newcommand{\fld}{\operatorname{fld}}
-        \newcommand{\img}{\operatorname{img}}
+        \newcommand{\im}{\operatorname{im}}
+        \newcommand{\preim}{\operatorname{preim}}
+        \newcommand{\rest}{\!\upharpoonright\!}
         \newcommand{\comp}{\operatorname{comp}}
+        \newcommand{\setcomp}{\setminus}
         \newcommand{\rfcl}{\operatorname{rfcl}}
+        \newcommand{\ord}{\textrm{ON}}
+        \newcommand{\iso}{\cong}
+        \newcommand{\into}{\hookrightarrow}
+        \newcommand{\onto}{\twoheadrightarrow}
+        \newcommand{\simto}{\overset{\sim}{\to}}
         \renewcommand{\min}{\operatorname{min}}
         \renewcommand{\max}{\operatorname{max}}
 
     % Category Theory
+        \newcommand{\cat}[1]{\textbf{#1}}
+        \newcommand{\catset}{\cat{Set}}
+        \newcommand{\catrel}{\cat{Rel}}
+        \newcommand{\catvect}[1][]{\cat{Vect}_{#1}}
         \newcommand{\Id}{\operatorname{Id}}
+        \newcommand{\natid}{\mc{I}\textrm{d}}
         \newcommand{\obj}{\operatorname{Obj}}
         \newcommand{\aut}{\operatorname{Aut}}
         \newcommand{\edm}{\operatorname{End}}
@@ -23,14 +38,10 @@
 
     % Geometry
         % Analysis
-            \newcommand{\arcsinh}{\operatorname{arcsinh}}
-            \newcommand{\arccosh}{\operatorname{arccosh}}
-            \newcommand{\arctanh}{\operatorname{arctanh}}
-            \newcommand{\arccoth}{\operatorname{arccoth}}
-            \newcommand{\arcsech}{\operatorname{arcsech}}
-            \newcommand{\arccsch}{\operatorname{arccsch}}
             \newcommand{\diam}{\operatorname{diam}}
             \newcommand{\uniflim}{\operatorname{unif\,lim}}
+            \newcommand{\del}{\partial}
+            \renewcommand{\d}{\mathrm{d}}
             \renewcommand{\Re}{\operatorname{Re}}
             \renewcommand{\Im}{\operatorname{Im}}
 
@@ -38,20 +49,30 @@
             \newcommand{\interior}{\operatorname{int}}
             \newcommand{\clo}{\operatorname{clo}}
             \newcommand{\bnd}{\operatorname{bnd}}
+            \newcommand{\sttopR}[1][]{\mc{T}^\textrm{st}_{\R^{#1}}}
+            \newcommand{\ULtopR}{\mc{T}^\textrm{UL}_\R}
+            \newcommand{\LLtopR}{\mc{T}^\textrm{LL}_\R}
+            \newcommand{\KtopR}{\mc{T}^K_\R}
 
     % Algebra
         % Linear Algebra
             \newcommand{\rank}{\operatorname{rank}}
             \newcommand{\nullity}{\operatorname{nullity}}
+            \newcommand{\proj}{\operatorname{proj}}
+            \newcommand{\gl}{\operatorname{GL}}
+            \newcommand{\mat}[2]{\mathcal{M}_{#1}\!\l(#2\r)}
+            \newcommand{\sym}[2]{\operatorname{Sym}_{#1}\!\l(#2\r)}
+            \newcommand{\trans}{\mathsf{T}}
+            \newcommand{\rref}{\operatorname{rref}}
             \newcommand{\row}{\operatorname{row}}
             \newcommand{\col}{\operatorname{col}}
+            \newcommand{\dotpro}{\boldsymbol\cdot}
+            \newcommand{\cropro}{\boldsymbol\times}
+            \newcommand{\reflection}{\operatorname{reflection}}
+            \newcommand{\rotation}{\operatorname{rotation}}
             \renewcommand{\null}{\operatorname{null}}
             \renewcommand{\span}{\operatorname{span}}
-            \newcommand{\proj}{\operatorname{proj}}
-            \newcommand{\rref}{\operatorname{rref}}
-            \newcommand{\gl}{\operatorname{GL}}
-            \newcommand{\rotation}{\operatorname{rotation}}
-            \newcommand{\reflection}{\operatorname{reflection}}
+            \renewcommand{\v}[1]{\mathbf{#1}}
 
         % Group Theory
             \newcommand{\inn}{\operatorname{Inn}}
@@ -59,26 +80,14 @@
         % Number Theory
             \newcommand{\lcm}{\operatorname{lcm}}
 
-% Math Notations
-    % Numbers
+% Math others
+    % Number Systems
         \newcommand{\N}{\mathbb{N}}
         \newcommand{\Z}{\mathbb{Z}}
         \newcommand{\Q}{\mathbb{Q}}
         \newcommand{\R}{\mathbb{R}}
         \newcommand{\C}{\mathbb{C}}
-    % Misc
-        \newcommand{\iso}{\cong}
-        \newcommand{\natid}{\mc{I}\textrm{d}}
-        \newcommand{\ord}{\textrm{ON}}
-        \newcommand{\pow}{\mathcal{P}}
-        \newcommand{\mat}[2]{\mathcal{M}_{#1}\!\l(#2\r)}
-        \newcommand{\sym}[2]{\operatorname{Sym}_{#1}\!\l(#2\r)}
-        \renewcommand{\em}{\varnothing}
-    % Categories
-        \newcommand{\cat}[1]{\textbf{#1}}
-        \newcommand{\catset}{\cat{Set}}
-        \newcommand{\catrel}{\cat{Rel}}
-        \newcommand{\catvect}[1][]{\cat{Vect}_{#1}}
+
     % Axioms
         \newcommand{\axizfc}[1][]{{\rm\bf{Z}{\scriptsize\bf{FC}}}_{\bf{#1}}}
         \newcommand{\axicat}[1][]{{\rm\bf{C}{\scriptsize\bf{AT}}}_{\bf{#1}}}
@@ -86,48 +95,29 @@
         \newcommand{\axiref}[1][]{{\rm\bf{R}{\scriptsize\bf{EF}}}_{\bf{#1}}}
         \newcommand{\axigrp}[1][]{{\rm\bf{G}{\scriptsize\bf{RP}}}_{\bf{#1}}}
         \newcommand{\axilin}[1][]{{\rm\bf{L}{\scriptsize\bf{IN}}}_{\bf{#1}}}
-        \newcommand{\axiinnprod}[1][]{{\rm\bf{I}{\scriptsize\bf{NNPROD}}}_{\bf{#1}}}
-        \newcommand{\axirref}[1][]{{\rm\bf{R}{\scriptsize\bf{REF}}}_{\bf{#1}}}
         \newcommand{\axitop}[1][]{{\rm\bf{T}{\scriptsize\bf{OP}}}_{\bf{#1}}}
+        \newcommand{\axirref}[1][]{{\rm\bf{R}{\scriptsize\bf{REF}}}_{\bf{#1}}}
         \newcommand{\axitopcl}[1][]{{\rm\bf{T}{\scriptsize\bf{OP}}}^\boldsymbol{\ast}_{\bf{#1}}}
         \newcommand{\axibasis}[1][]{{\rm\bf{B}{\scriptsize\bf{AS}}}_{\bf{#1}}}
         \newcommand{\axiablngrp}[1][]{{\rm\bf{A}{\scriptsize\bf{BLNGRP}}}_{\bf{#1}}}
+        \newcommand{\axiinnprod}[1][]{{\rm\bf{I}{\scriptsize\bf{NNPROD}}}_{\bf{#1}}}
         \newcommand{\axifunctor}[1][]{{\rm\bf{F}{\scriptsize\bf{TR}}}_{\bf{#1}}}
         \newcommand{\axipartition}[1][]{{\rm\bf{P}{\scriptsize\bf{AR}}}_{\bf{#1}}}
-    % Topologies
-        \newcommand{\sttopR}[1][]{\mc{T}^\textrm{st}_{\R^{#1}}}
-        \newcommand{\ULtopR}{\mc{T}^\textrm{UL}_\R}
-        \newcommand{\LLtopR}{\mc{T}^\textrm{LL}_\R}
-        \newcommand{\KtopR}{\mc{T}^K_\R}
 
-% Math others
-    \newcommand{\mc}[1]{\mathcal{#1}}
-    \newcommand{\ms}[1]{\mathscr{#1}}
-    \newcommand{\mb}[1]{\mathbb{#1}}
-    \newcommand{\fa}{\forall}
-    \newcommand{\ex}{\exists}
-    \newcommand{\del}{\partial}
-    \newcommand{\into}{\hookrightarrow}
-    \newcommand{\onto}{\twoheadrightarrow}
-    \newcommand{\simto}{\overset{\sim}{\to}}
-    \newcommand{\necceqq}{\overset{!}{=}}
-    \newcommand{\setcomp}{\setminus}
-    \newcommand{\rest}{\!\upharpoonright\!}
-    \newcommand{\blob}{\bullet}
-    \newcommand{\trans}{\mathsf{T}}
-    \newcommand{\dotpro}{\boldsymbol\cdot}
-    \newcommand{\cropro}{\boldsymbol\times}
-    \newcommand{\slot}{-}
-    \renewcommand{\phi}{\varphi}
-    \renewcommand{\v}[1]{\mathbf{#1}}
-    \renewcommand{\d}{\mathrm{d}}
-    \renewcommand{\mid}{\,\middle\vert\,}
-    \renewcommand{\bar}{\overline}
+    % Typesetting
+        \newcommand{\mc}[1]{\mathcal{#1}}
+        \newcommand{\ms}[1]{\mathscr{#1}}
+        \newcommand{\mb}[1]{\mathbb{#1}}
+        \newcommand{\blob}{\bullet}
+        \newcommand{\slot}{-}
+        \newcommand{\necceqq}{\overset{!}{=}}
+        \renewcommand{\phi}{\varphi}
+        \renewcommand{\mid}{\,\middle\vert\,}
+        \renewcommand{\bar}{\overline}
 
 % LaTeX
     \newcommand{\qedin}{\tag*{$\blacksquare$}}
     \newcommand{\exqedin}{\tag*{$\blacklozenge$}}
-    \newcommand{\m}[1]{\displaystyle{#1}}
     \renewcommand{\ref}[1]{\l(\,#1\,\r)}
     \renewcommand{\l}{\left}
     \renewcommand{\r}{\right}
