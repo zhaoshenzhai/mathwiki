@@ -1,0 +1,30 @@
+---
+custom_alias: $\sym{n}{K}$
+---
+
+<br />
+<br />
+
+Date Created: 05/05/2022 19:09:32
+Tags: #Definition #In_Progress
+
+Types: _Not Applicable_
+Examples: _Not Applicable_
+Constructions: _Not Applicable_
+Generalizations: _Not Applicable_
+
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [$\sym{n}{K}\subseteq\mat{n}{K}$ is a linear subspace](Symmetric%20matrices%20form%20a%20linear%20subspace%20of%20set%20of%20matrices.md)
+
+``` ad-Definition
+title: Definition.
+
+_Let $K$ be a field and fix $n\in\N^\ast$. The **vector space of $n\times n$ symmetric matrices over $K$** is the linear subspace_
+$$\begin{equation}
+    \sym{n}{K}\coloneqq\l\{A\in\mat{n}{K}\mid A=A^\trans\r\}\subseteq\mat{n}{K}
+\end{equation}$$
+_together with the restricted operations from $\mat{n}{K}$._
+
+```

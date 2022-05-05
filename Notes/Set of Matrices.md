@@ -1,3 +1,7 @@
+---
+custom_alias: $\mat{m\times n}{K}$ (Vector Space) (Set)
+---
+
 <br />
 <br />
 
@@ -6,7 +10,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Matrix Addition]], [[Matrix Multiplication]], [[Scalar Multiplication (Matrix)]], [[Additive Matrix Group]], [[Vector Space of Matrices]], [[Elementary Row Operation]], [[Transposition]]
+Constructions: [$\mat{m\times n}{K}$ (Vector Space)](Vector%20Space%20of%20Matrices.md), [[Matrix Addition]], [[Matrix Multiplication]], [[Scalar Multiplication (Matrix)]], [[Elementary Row Operation]], [[Transposition]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -17,7 +21,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field. The **set of $m\times n$ matrices over $K$** is denoted by_ $\mat{m\times n}{K}$_. If $m=n$, write_ $\mat{n}{K}\coloneqq\mat{n\times n}{K}$_._
+_Let $K$ be a field. The **set of $m\times n$ matrices over $K$** is denoted by_ $\mat{m\times n}{K}$ (Vector Space)_. If $m=n$, write_ $\mat{n}{K}\coloneqq\mat{n\times n}{K}$_._
 
 ```
 

@@ -5,7 +5,7 @@ Date Created: 04/05/2022 17:13:39
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Additive Matrix Group]]
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

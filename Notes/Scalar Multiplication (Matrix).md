@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Vector Space of Matrices]]
+Constructions: [$\mat{m\times n}{K}$ (Vector Space)](Vector%20Space%20of%20Matrices.md)
 Generalizations: _Not Applicable_
 
 Properties: [[Compatibility of matrix and scalar multiplications]]

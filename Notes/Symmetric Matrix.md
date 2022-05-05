@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Identity Matrix]]
-Constructions: _Not Applicable_
+Constructions: [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md)
 Generalizations: _Not Applicable_
 
 Properties: [[Sum of symmetric matrices is symmetric]]
