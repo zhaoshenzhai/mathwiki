@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Additive Matrix Group]], [$\mat{m\times n}{K}$ (Vector Space)](Vector%20Space%20of%20Matrices.md)
+Constructions: [$\mat{m\times n}{K}$ (Vector Space)](Vector%20Space%20of%20Matrices.md)
 Generalizations: _Not Applicable_
 
 Properties: [[Zero matrix is the absorbing element of matrix multiplication]]

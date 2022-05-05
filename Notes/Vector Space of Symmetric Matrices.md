@@ -6,7 +6,7 @@ custom_alias: $\sym{n}{K}$
 <br />
 
 Date Created: 05/05/2022 19:09:32
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

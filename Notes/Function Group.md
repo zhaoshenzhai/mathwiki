@@ -5,7 +5,7 @@ Date Created: 04/05/2022 11:57:04
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Additive Matrix Group]]
+Examples: _Not Applicable_
 Constructions: [[Function Space (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
