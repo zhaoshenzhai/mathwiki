@@ -4,7 +4,7 @@
 Date Created: 02/04/2022 16:29:57
 Tags: #Proposition #Closed
 
-Proved by: [[Matrices coincide if their actions on all vectors coincide]], [[Matrix multiplication (columns)]]
+Proved by: [[Matrices coincide if their actions on all vectors coincide]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

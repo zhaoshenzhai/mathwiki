@@ -11,19 +11,29 @@ Generalizations: _Not Applicable_
 
 Properties: [Linear map induced by product of matrices is composition of linear maps](Linear%20map%20induced%20by%20product%20of%20matrices%20is%20composition%20of%20linear%20maps.md), [[Matrix multiplication is associative]], [[Distribution of matrix multiplication over addition]], [[Compatibility of matrix and scalar multiplications]], [[Identity matrix is the identity of matrix multiplication]], [[Zero matrix is the absorbing element of matrix multiplication]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Matrix multiplication (columns)]], [[Matrix multiplication (rows)]]
-Justifications: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [Matrix multiplication (via entries $=$ via columns)](Matrix%20multiplication%20(via%20entries%20equals%20via%20columns).md), [Matrix multiplication (via entries $=$ via rows)](Matrix%20multiplication%20(via%20entries%20equals%20via%20rows).md)
 
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $m,n,p\in\N^\ast$. The function_
+_Let $K$ be a field and fix $m,n,p\in\N^\ast$. The **matrix multiplication operation between an $m\times n$ and an $n\times p$ matrix over $K$** is the binary operation_
 $$\begin{equation}
-    \begin{aligned}
-        \odot:\mat{m\times n}{K}\times\mat{n\times p}{K}&\to\mat{m\times p}{K}\\
-        \l\langle\l[a_{ij}\r],\l[b_{jk}\r]\r\rangle&\mapsto\l[\sum\limits_{j=1}^na_{ij}\cdot b_{jk}\r]
-    \end{aligned}
+    \odot:\mat{m\times n}{K}\times\mat{n\times p}{K}\to\mat{m\times p}{K}
 \end{equation}$$
-_defines the **matrix multiplication operation between an $m\times n$ and a $n\times p$ matrix over $K$**._
+_where $C\coloneqq A\odot B$ is defined, equivalently, as:_
+* _(Entries): The $\l(i,k\r)^\textrm{\it{th}}$ entry of $C$ is the $\textrm{`}$dot product$\textrm{'}$ of the $i^\textrm{\it{th}}$ row of $A$ the and $k^\textrm{\it{th}}$ column of $B$:_
+$$\begin{equation}
+    c_{ik}\coloneqq\sum\limits_{j=1}^na_{ij}b_{jk}.
+\end{equation}$$
+
+* _(Columns): The $k^\textrm{\it{th}}$ column of $C$ is the linear combination of all columns_ $\v{a}_{\blob;j}$ _of $A$ with coefficients_ $b_{jk}$_:_
+$$\begin{equation}
+    \fa k\in\l\{1,\dots,p\r\}:\v{c}_{\blob;k}\coloneqq\sum_{j=1}^nb_{jk}\v{a}_{\blob;j}.
+\end{equation}$$
+* _(Rows): The $i^\textrm{\it{th}}$ row of $C$ is the linear combination of all rows_ $\v{b}_{j;\blob}$ _of $B$ with coefficients_ $a_{ij}$_:_
+$$\begin{equation}
+    \fa i\in\l\{1,\dots,m\r\}:\v{c}_{i;\blob}\coloneqq\sum_{j=1}^na_{ij}\v{b}_{j;\blob}.
+\end{equation}$$
 
 ```

@@ -4,36 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "647c6a746fe45317",
+        "id": "8d62a1d4fa9ffeae",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Vector Space.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "61ddc56a41433f3a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Algebraic consequences (vector space).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "7cd201627f306af0",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Cancellation laws (invertible matrix).md",
+            "file": "Notes/Matrix Multiplication.md",
             "mode": "preview",
             "source": true
           }
@@ -97,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Algebraic consequences (vector space).md",
+                "file": "Notes/Matrix Multiplication.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Algebraic consequences (vector space).md",
+                "file": "Notes/Matrix Multiplication.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -193,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Algebraic consequences (vector space).md",
+                "file": "Notes/Matrix Multiplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "61ddc56a41433f3a",
+  "active": "8d62a1d4fa9ffeae",
   "lastOpenFiles": [
-    "Notes/Algebraic consequences (vector space).md",
-    "Notes/Vector Space.md",
-    "Notes/Cancellation laws (invertible matrix).md",
-    "Notes/Cancellation laws (vector space).md",
-    "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Distribution of matrix multiplication over addition.md",
-    "Notes/Function space over a field is a vector space.md",
-    "Notes/Linear isomorphisms between tuples, row vectors, and column vectors.md",
-    "Notes/Standard Basis of Tuple Space.md",
-    "Notes/Standard basis of tuple space is an ordered basis.md"
+    "Notes/Matrix Multiplication.md",
+    "Notes/Matrix multiplication over R (dot product).md",
+    "Notes/Matrix multiplication (via entries equals via rows).md",
+    "Notes/Matrix multiplication (via entries equals via columns).md",
+    "Notes/Standard basis of tuple space is an ordered basis.md",
+    "Notes/Matrices coincide if their actions on all vectors coincide.md",
+    "Notes/Linear system is consistent iff constant matrix is in column space of coefficient matrix.md",
+    "Notes/Linear map on tuple spaces is induced by a unique matrix.md",
+    "Notes/Linear Combination (Vector).md",
+    "Notes/Homogeneous linear system only trivial solution iff columns or rows of coefficient matrix are linearly independent.md"
   ]
 }

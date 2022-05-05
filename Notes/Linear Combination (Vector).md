@@ -5,7 +5,7 @@ Date Created: 29/04/2022 18:22:52
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Matrix multiplication (columns)]], [[Matrix multiplication (rows)]]
+Examples: [[Matrix Multiplication]]
 Constructions: [[Linear Independence]], [[Linear Span]], [Linear subspace $\Leftrightarrow$ closed under linear combination](Linear%20subspace%20iff%20closed%20under%20linear%20combination.md)
 Generalizations: _Not Applicable_
 

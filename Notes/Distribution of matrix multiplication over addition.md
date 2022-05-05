@@ -4,7 +4,7 @@
 Date Created: 02/04/2022 17:24:13
 Tags: #Proposition #Closed
 
-Proved by: [[Matrix multiplication (columns)]], [[Matrix multiplication (rows)]]
+Proved by: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
