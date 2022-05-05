@@ -4,7 +4,7 @@
 Date Created: 30/03/2022 17:05:03
 Tags: #Proposition #Closed 
 
-Proved by: [[Transposition respects matrix addition]]
+Proved by: [[Algebraic consequences (transposition)]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

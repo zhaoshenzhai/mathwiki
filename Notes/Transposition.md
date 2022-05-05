@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Symmetric Matrix]]
 Generalizations: _Not Applicable_
 
-Properties: [[Transposition is an involution]], [[Transposition respects matrix addition]], [[Transposition respects scalar multiplication]], [[Transposition anti-respects matrix multiplication]], [[Inverse of transpose is transpose of inverse]]
+Properties: [[Algebraic consequences (transposition)]], [[Inverse of transpose is transpose of inverse]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
@@ -21,17 +21,10 @@ _Let $K$ be a field and fix $m,n\in\N^\ast$. The **transposition operation from 
 $$\begin{equation}
     \begin{aligned}
         \l(-\r)^\trans:\mat{m\times n}{K}&\to\mat{n\times m}{K} \\
-        \l\langle m,n,f\r\rangle\eqqcolon A&\mapsto A^\trans\coloneqq\l\langle n,m,f^\trans\r\rangle
-    \end{aligned}
-\end{equation}$$
-_where_
-$$\begin{equation}
-    \begin{aligned}
-        f^\trans:\l\{1,\dots,n\r\}\times\l\{1,\dots,m\r\}&\to K\\
-        \l\langle i,j\r\rangle&\mapsto f\l(j,i\r).
+        \l[a_{ij}\r]&\mapsto\l[a_{ji}\r].
     \end{aligned}
 \end{equation}$$
 
 ```
 
-**Remark.** In other words, if $A=\l[a_{ij}\r]$, then $A^\trans=\l[a_{ji}\r]$. Thus, informally, $A^\trans$ is the matrix with the rows and columns of $A$ interchanged in the same order.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** In other words, $A^\trans$ is the matrix with the rows and columns of $A$ interchanged in the same order.<span style="float:right;">$\blacklozenge$</span>
