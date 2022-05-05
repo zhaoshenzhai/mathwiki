@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "bdb23c27d18d0a6a",
+        "id": "e852d30b1039ad5e",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "bdb23c27d18d0a6a",
+  "active": "e852d30b1039ad5e",
   "lastOpenFiles": [
-    "Notes/Vector Space of Diagonal Matrices.md",
-    "Notes/Diagonal Matrix.md",
-    "Notes/Diagram.md",
+    "Notes/Linear Span.md",
+    "Notes/Minkowski sum of linear subspaces is the span of their union.md",
+    "Notes/Minkowski Sum (Linear Algebra).md",
+    "Notes/Linear Subspace.md",
     "Notes/Vector Space of Symmetric Matrices.md",
     "Notes/Symmetric matrices form a linear subspace of set of matrices.md",
-    "Notes/Diagonal matrices form a linear subspace of set of matrices.md",
-    "Notes/Vector Space of Matrices.md",
-    "Notes/Identity Matrix.md",
-    "Notes/Symmetric Matrix.md",
-    "Notes/Square Matrix.md"
+    "Notes/Image of linear map is a subspace of its codomain.md",
+    "Notes/Linear Map.md",
+    "Notes/Column Space.md",
+    "Notes/Column space is image of induced linear map.md"
   ]
 }

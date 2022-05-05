@@ -5,7 +5,7 @@ Date Created: 03/04/2022 14:30:50
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Linear Span]], [[Null Space]], [[Kernel]], [[Image of linear map is a subspace of its codomain]], [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md), [[Trivial Subspaces (Linear Algebra)]]
+Examples: [[Linear Span]], [[Null Space]], [[Kernel]], [[Image of linear map is a subspace of its codomain]], [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md), [$\Diag{n}{K}$](Vector%20Space%20of%20Diagonal%20Matrices.md), [[Trivial Subspaces (Linear Algebra)]]
 Constructions: [[Minkowski Sum (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
