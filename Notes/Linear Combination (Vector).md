@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Matrix Multiplication]]
-Constructions: [[Linear Independence]], [[Linear Span]], [Linear subspace $\Leftrightarrow$ closed under linear combination](Linear%20subspace%20iff%20closed%20under%20linear%20combination.md)
+Constructions: [[Linear Independence]], [[Linear Span]]
 Generalizations: _Not Applicable_
 
 Properties: [[Linear combinations of solutions of homogeneous systems are solutions]]

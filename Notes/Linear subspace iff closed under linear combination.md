@@ -1,5 +1,5 @@
 ---
-alias: auto_aliasing
+custom_alias: $U\subseteq V$ is a vector space $\Leftrightarrow$ $0\in U$ and restricted operations close in $U$
 ---
 
 <br />
@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle K,+,\cdot,0\r\rangle$ be a field and consider a vector space $\mc{V}\coloneqq\l\langle V,K,\oplus,\odot,0_V\r\rangle$. Let_ $\oplus'\coloneqq\l.\oplus\r|_{U\times U}$ _and_ $\odot'\coloneqq\l.\odot\r|_{K\times U}$_. Then, for every subset $U\subseteq V$, the quintuple $\mc{U}\coloneqq\l\langle U,K,\oplus',\odot',0_V\r\rangle$ is a linear subspace of $\mc{V}$ iff_
+_Let $\l\langle K,+,\cdot,0\r\rangle$ be a field and consider a vector space $\mc{V}\coloneqq\l\langle V,K,\oplus,\odot,0_V\r\rangle$. Let_ $\oplus'\coloneqq\l.\oplus\r|_{U\times U}$ _and_ $\odot'\coloneqq\l.\odot\r|_{K\times U}$_. Then, for every subset $U\subseteq V$, the quintuple $\mc{U}\coloneqq\l\langle U,K,\oplus',\odot',0_V\r\rangle$ is a vector space over $K$ iff_
 * _$0_V\in U$,_
 * _$\fa u_1,u_2\in U:u_1\oplus'u_2\in U$, and_
 * _$\fa\alpha\in K,\fa u\in U:\alpha\odot'u\in U$._
@@ -25,7 +25,7 @@ _Let $\l\langle K,+,\cdot,0\r\rangle$ be a field and consider a vector space $\m
 ```
 
 _Proof_.
-* ($\Rightarrow$): Assume that $\mc{U}$ is a linear subspace of $\mc{V}$, so $\oplus'$ and $\odot'$ are both functions with codomain $U$; the fact that these operations are closed in $U$ follows readily. To see that $0_V\in U$, recall that for all $u\in U$, we have that $0\odot u=0_V$; since scalar-multiplication closes in $U$, the result follows.
+* ($\Rightarrow$): Assume that $\mc{U}$ is a vector space over $K$, so $\oplus'$ and $\odot'$ are both functions with codomain $U$; the fact that these operations are closed in $U$ follows readily. To see that $0_V\in U$, recall that for all $u\in U$, we have that $0\odot u=0_V$; since scalar-multiplication closes in $U$, the result follows.
 
 * ($\Leftarrow$): Conversely, we need to verify that $\mc{U}$ contains the data of a vector space and that the vector space axioms hold; the former is exactly our assumptions. For the axioms, observe that $\axigrp[1]$, $\axigrp[2]$, $\axiablngrp$, and all $\axivec$ quantify over elements in $V$. Since $U\subseteq V$, these axioms evidently also hold for elements in $U$.
 

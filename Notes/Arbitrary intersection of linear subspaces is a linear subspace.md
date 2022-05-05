@@ -4,7 +4,7 @@
 Date Created: 03/04/2022 18:40:47
 Tags: #Proposition #Closed
 
-Proved by: [Linear subspace $\Leftrightarrow$ closed under linear combination](Linear%20subspace%20iff%20closed%20under%20linear%20combination.md)
+Proved by: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
