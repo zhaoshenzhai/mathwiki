@@ -30,7 +30,7 @@ for some distinct $\l\{\alpha_i\r\},\l\{\beta_i\r\}\subseteq K$ where $\alpha_i=
 $$\begin{equation}
     0=\sum\limits_{i\in I}\l(\alpha_i-\beta_i\r)b_i.
 \end{equation}$$
-Let $I'\coloneqq\l\{i\in I\mid\alpha_i=0\lor\beta_i=0\r\}$ and observe that $\alpha_i-\beta_i=0-0=0$ for all $i\in I\setminus I'$, so $\alpha_i-\beta_i=0$ for all but finitely-many $i\in I$. Linear independence of $\mc{B}$ then forces $\alpha_i=\beta_i$ for all $i\in I$, so the result follows.
+Let $I'\coloneqq\l\{i\in I\mid\alpha_i=0\land\beta_i=0\r\}$ and observe that $\alpha_i-\beta_i=0-0=0$ for all $i\in I'$; since $\l|I\setminus I'\r|<\infty$, we see that $\alpha_i-\beta_i=0$ for all but finitely-many $i\in I$. Linear independence of $\mc{B}$ then forces $\alpha_i=\beta_i$ for all $i\in I$, so the result follows.
 
 * ($\Leftarrow$): Since every $v\in V$ can be written as a linear combination of vectors in $\mc{B}$ (uniquely or not), we see that $v\in\span\mc{B}$ and so $\mc{B}$ is a spanning set of $V$. To prove linear independence, observe that we can write the zero vector as
 $$\begin{equation}
@@ -48,4 +48,4 @@ An important special case is if $\mc{B}=\l\langle b_1,\dots,b_n\r\rangle$ for so
 $$\begin{equation}
     \fa v\in V,\ex!\alpha_1,\dots,\alpha_n\in K:v=\sum\limits_{i=1}^n\alpha_ib_i.
 \end{equation}$$
-Here, the sum runs over all finitely-many $b_i\in\mc{B}$, so some coefficients thereof may be zero.<span style="float:right;">$\blacklozenge$</span>
+Here, the number of terms $n$ is fixed, so we may allow some coefficients to be zero.<span style="float:right;">$\blacklozenge$</span>
