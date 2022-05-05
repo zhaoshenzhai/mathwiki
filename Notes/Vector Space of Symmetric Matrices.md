@@ -21,10 +21,10 @@ Justifications: [$\sym{n}{K}\subseteq\mat{n}{K}$ is a linear subspace](Symmetric
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $n\in\N^\ast$. The **vector space of $n\times n$ symmetric matrices over $K$** is the linear subspace_
+_Let $K$ be a field and fix $n\in\N^\ast$. The **vector space of $n\times n$ symmetric matrices over $K$** is the linear subspace of $\mat{n}{K}$ consisting of the set_
 $$\begin{equation}
-    \sym{n}{K}\coloneqq\l\{A\in\mat{n}{K}\mid A=A^\trans\r\}\subseteq\mat{n}{K}
+    \sym{n}{K}\coloneqq\l\{A\in\mat{n}{K}\mid A=A^\trans\r\}
 \end{equation}$$
-_together with the restricted operations from $\mat{n}{K}$._
+_and the restricted operations from $\mat{n}{K}$._
 
 ```

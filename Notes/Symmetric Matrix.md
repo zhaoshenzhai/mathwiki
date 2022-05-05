@@ -4,8 +4,8 @@
 Date Created: 29/03/2022 19:17:31
 Tags: #Definition #Closed 
 
-Types: _Not Applicable_
-Examples: [[Identity Matrix]]
+Types: [[Diagonal Matrix]]
+Examples: _Not Applicable_
 Constructions: [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md)
 Generalizations: _Not Applicable_
 

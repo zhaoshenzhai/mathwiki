@@ -4,51 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9ba20bfa76606be4",
+        "id": "bdb23c27d18d0a6a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Vector Space of Symmetric Matrices.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "4e0e3c4d5bc08944",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Symmetric matrices form a linear subspace of set of matrices.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "fcc972e32cff2580",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Diagonal Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "8c6709eb3a165ce2",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Vector Space of Diagonal Matrices.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -109,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Diagonal Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Diagonal Matrix.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -205,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Diagonal Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "fcc972e32cff2580",
+  "active": "bdb23c27d18d0a6a",
   "lastOpenFiles": [
-    "Notes/Diagonal Matrix.md",
     "Notes/Vector Space of Diagonal Matrices.md",
-    "Notes/Symmetric matrices form a linear subspace of set of matrices.md",
-    "Notes/Vector Space of Matrices.md",
+    "Notes/Diagonal Matrix.md",
+    "Notes/Diagram.md",
     "Notes/Vector Space of Symmetric Matrices.md",
+    "Notes/Symmetric matrices form a linear subspace of set of matrices.md",
+    "Notes/Diagonal matrices form a linear subspace of set of matrices.md",
+    "Notes/Vector Space of Matrices.md",
     "Notes/Identity Matrix.md",
     "Notes/Symmetric Matrix.md",
-    "Notes/Square Matrix.md",
-    "Notes/Matrix.md",
-    "Notes/Linear Subspace.md"
+    "Notes/Square Matrix.md"
   ]
 }
