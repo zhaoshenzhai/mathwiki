@@ -27,8 +27,8 @@ _Let $\l\langle K,+,\cdot,0,1\r\rangle$ be a field. A **vector space over $K$** 
 _such that $\l\langle V,\oplus,0_V\r\rangle$ is an Abelian group and_
 * _$\axivec[1]$ (Compatibility of $\cdot$ and $\odot$)$\bf{.}$ $\fa\alpha_1,\alpha_2\in K,\fa v\in V:\alpha_1\odot\l(\alpha_2\odot v\r)=\l(\alpha_1\cdot\alpha_2\r)\odot v$._
 * _$\axivec[2]$ (Left-identity of $\odot$)$\bf{.}$ $\fa v\in V:1\odot v=v$._
-* _$\axivec[3]$ (Left-distributivity of scalars)$\bf{.}$ $\fa\alpha\in K:\fa v,w\in V:\alpha\odot\l(v\oplus w\r)=\l(\alpha\odot v\r)\oplus\l(\alpha\odot w\r)$._
-* _$\axivec[4]$ (Right-distributivity of vectors)$\bf{.}$ $\fa\alpha_1,\alpha_2\in K:\fa v\in V:\l(\alpha_1+\alpha_2\r)\odot v=\l(\alpha_1\odot v\r)\oplus\l(\alpha_2\odot v\r)$._
+* _$\axivec[3]$ (Left-distribution of scalars)$\bf{.}$ $\fa\alpha\in K:\fa v,w\in V:\alpha\odot\l(v\oplus w\r)=\l(\alpha\odot v\r)\oplus\l(\alpha\odot w\r)$._
+* _$\axivec[4]$ (Right-distribution of vectors)$\bf{.}$ $\fa\alpha_1,\alpha_2\in K:\fa v\in V:\l(\alpha_1+\alpha_2\r)\odot v=\l(\alpha_1\odot v\r)\oplus\l(\alpha_2\odot v\r)$._
 
 ```
 

@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Additive matrix group is an Abelian group]]
+Justifications: [[Function group is a group]]
 
 ``` ad-Definition
 title: Definition.
