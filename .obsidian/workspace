@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ff58a2cf1b211371",
+        "id": "e417c62d5f7a7b97",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Unique Representation Theorem (Hamel).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "c0ab83757991e534",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Independence.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Unique Representation Theorem (Hamel).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Unique Representation Theorem (Hamel).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Unique Representation Theorem (Hamel).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "ff58a2cf1b211371",
+  "active": "e417c62d5f7a7b97",
   "lastOpenFiles": [
-    "Notes/Unique Representation Theorem (Hamel).md",
-    "Notes/Linear Independence.md",
-    "Notes/Enlargement of linearly independent set by adjoining non-spanned vector.md",
-    "Notes/Linear Span.md",
-    "Notes/Minkowski sum of linear subspaces is the span of their union.md",
-    "Notes/Minkowski Sum (Linear Algebra).md",
-    "Notes/Linear Subspace.md",
-    "Notes/Vector Space of Symmetric Matrices.md",
-    "Notes/Symmetric matrices form a linear subspace of set of matrices.md",
-    "Notes/Image of linear map is a subspace of its codomain.md"
+    "Notes/Linearly independent subset of a vector space extends to a basis.md",
+    "Notes/Linearly independent subset of an arbitrary vector space extends to a basis.md",
+    "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
+    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
+    "Notes/Finite-dimensional Vector Space.md",
+    "Notes/Every vector space has a basis.md",
+    "Notes/Spanning set of a vector space cuts down to a basis.md",
+    "Notes/Dimension (Linear Algebra).md",
+    "Notes/Invariance of cardinality of bases (finite-dim.).md",
+    "Notes/Linear Independence.md"
   ]
 }
