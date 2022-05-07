@@ -7,8 +7,12 @@
         "id": "d57dac031917a532",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Map.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linear Map.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "6e128061ec5336cc",
@@ -99,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linear Map.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -162,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,6 +184,8 @@
   },
   "active": "d57dac031917a532",
   "lastOpenFiles": [
+    "Notes/Linear Map.md",
+    "Notes/Linearity iff additivity and homogeneity.md",
     "Notes/Spanning set of a vector space cuts down to a basis.md",
     "Notes/Right-invertible iff surjection (Choice).md",
     "Notes/Linearly independent subset of an arbitrary vector space extends to a basis.md",
@@ -183,8 +193,6 @@
     "Notes/Universal set is a proper class.md",
     "Notes/Union distributes over binary intersection.md",
     "Notes/Subset.md",
-    "Notes/Right-invertible Functor.md",
-    "Notes/Replacement image of a set is a set.md",
-    "Notes/Left-invertible Functor.md"
+    "Notes/Right-invertible Functor.md"
   ]
 }

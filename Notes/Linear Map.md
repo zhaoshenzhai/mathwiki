@@ -17,18 +17,20 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider the vector spaces $\mc{V}\coloneqq\l\langle V,K,\oplus_V,\odot_V,0_V\r\rangle$ and $\mc{W}\coloneqq\l\langle W,K,\oplus_W,\odot_W,0_W\r\rangle$. A **linear map from $\mc{V}$ to $\mc{W}$** is a function $T:V\to W$ such that_
-* _$\axilin[1]$ (Additivity)$\bf{.}$ $\fa v_1,v_2\in V:T\l(v_1\oplus_Vv_2\r)=T\l(v_1\r)\oplus_WT\l(v_2\r)$._
-* _$\axilin[2]$ (Homogeneity)$\bf{.}$ $\fa\alpha\in K,\fa v\in V:T\l(\alpha\odot_Vv\r)=\alpha\odot_WT\l(v\r)$._
+_Let $K$ be a field and consider the vector spaces $V$ and $W$ over $K$. A **linear map from $V$ to $W$** is a function $T:V\to W$ such that_
+* _$\axilin[1]$ (Additivity)$\bf{.}$ $\fa v_1,v_2\in V:T\l(v_1+v_2\r)=T\l(v_1\r)+T\l(v_2\r)$._
+* _$\axilin[2]$ (Homogeneity)$\bf{.}$ $\fa\alpha\in K,\fa v\in V:T\l(\alpha v\r)=\alpha T\l(v\r)$._
 
 ```
 
-**Remark.** The two conditions can be combined to one by asserting that
-$$\begin{equation}
-    \fa v_1,v_2\in V,\fa\alpha\in K:T\l(\l(\alpha\odot v_1\r)\oplus v_2\r)=\l(\alpha\odot T\l(v_1\r)\r)\oplus T\l(v_2\r),
-\end{equation}$$
-or, in more sensible notation, that $T\l(\alpha v_1+v_2\r)=\alpha T\l(v_1\r)+T\l(v_2\r)$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Equivalently, $\axilin[1]$ and $\axilin[2]$ can be combined into
+* $\axilin$ (Linearity)$\bf{.}$ $\fa\alpha\in K,\fa v_1,v_2\in V:T\l(\alpha v_1+v_2\r)=\alpha T\l(v_1\r)+T\l(v_2\r)$.
 
+To see this, observe that $\axilin$ implies $\axilin[1]$ and $\axilin[2]$ since we can set $\alpha=1$ to obtain $\axilin[1]$ and set $v_2=0$ to obtain $\axilin[2]$. Conversely, observe that
+$$\begin{align}
+    T\l(\alpha v_1+v_2\r)&=T\l(\alpha v_1\r)+T\l(v_2\r) && \textrm{Additivity} \\
+    &=\alpha T\l(v_1\r)+T\l(v_2\r). && \textrm{Homogeneity}\exqedin
+\end{align}$$
 ---
 
 **Remark.** By induction, we see that
