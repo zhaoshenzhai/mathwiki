@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0dc63855251c6b4a",
+        "id": "98d465cf8de32908",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Image (Linear Map).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "bac684b238d3541e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Image of linear map is spanned by action on spanning set.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Image of linear map is spanned by action on spanning set.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Image of linear map is spanned by action on spanning set.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Image of linear map is spanned by action on spanning set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "bac684b238d3541e",
+  "active": "98d465cf8de32908",
   "lastOpenFiles": [
-    "Notes/Image of linear map is spanned by action on spanning set.md",
+    "Notes/Nullity (Linear Map).md",
+    "Notes/Kernel.md",
+    "Notes/Rank-Nullity Theorem.md",
+    "Notes/Rank (Linear Map).md",
     "Notes/Image (Linear Map).md",
-    "Notes/Linear Subspace.md",
-    "Notes/Linear Span.md",
-    "Notes/Vector Space of Diagonal Matrices.md",
-    "Notes/Diagonal matrices form a linear subspace of set of matrices.md",
-    "Notes/Minkowski Sum (Linear Algebra).md",
-    "Notes/Minkowski sum of linear subspaces is the span of their union.md",
-    "Notes/Criteria for equality of linear maps via spanning set.md",
-    "Notes/Linear Map.md"
+    "Notes/Image of linear map is spanned by image of spanning set.md",
+    "Notes/Image of union is union of images.md",
+    "Notes/Image (Relation).md",
+    "Notes/Image (Function).md",
+    "Notes/Dimension (Linear Algebra).md"
   ]
 }

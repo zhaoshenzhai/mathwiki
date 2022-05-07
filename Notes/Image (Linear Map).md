@@ -6,10 +6,10 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Rank (Linear Map)]]
 Generalizations: _Not Applicable_
 
-Properties:[[Image of linear map is spanned by action on spanning set]] 
+Properties: [[Image of linear map is spanned by image of spanning set]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Image of linear map is a subspace of its codomain]]
