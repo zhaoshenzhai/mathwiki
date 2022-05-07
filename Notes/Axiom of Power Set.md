@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 17/01/2022 19:08:57
-Tags: #Axiom #Open
+Tags: #Axiom #Later/Set_Theory
 
 Equivalences: _Not Applicable_
 Constructions: [[Zermelo-Fraenkel Set Theory with Choice]], [[Power Set]]

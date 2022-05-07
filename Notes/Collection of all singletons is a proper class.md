@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 19/01/2022 16:57:32
-Tags: #Proposition #Open 
+Tags: #Proposition #Later/Set_Theory
 
 Proved by: [[Universal set is a proper class]]
 Justifications: _Not Applicable_

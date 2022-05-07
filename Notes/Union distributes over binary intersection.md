@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 11/02/2022 13:05:23
-Tags: #Proposition #Open 
+Tags: #Proposition #Later/Set_Theory
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_

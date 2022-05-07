@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 09/03/2022 14:43:42
-Tags: #Definition #Open
+Tags: #Definition #Closed
 
 Types: [[Invertible Functor]]
 Examples: _Not Applicable_

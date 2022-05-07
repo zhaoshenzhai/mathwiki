@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "e417c62d5f7a7b97",
+        "id": "d57dac031917a532",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "1bf52919416afc83",
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "6e128061ec5336cc",
@@ -175,17 +174,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "e417c62d5f7a7b97",
+  "active": "d57dac031917a532",
   "lastOpenFiles": [
-    "Notes/Linearly independent subset of a vector space extends to a basis.md",
-    "Notes/Linearly independent subset of an arbitrary vector space extends to a basis.md",
-    "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
-    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
-    "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Every vector space has a basis.md",
     "Notes/Spanning set of a vector space cuts down to a basis.md",
-    "Notes/Dimension (Linear Algebra).md",
-    "Notes/Invariance of cardinality of bases (finite-dim.).md",
-    "Notes/Linear Independence.md"
+    "Notes/Right-invertible iff surjection (Choice).md",
+    "Notes/Linearly independent subset of an arbitrary vector space extends to a basis.md",
+    "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
+    "Notes/Universal set is a proper class.md",
+    "Notes/Union distributes over binary intersection.md",
+    "Notes/Subset.md",
+    "Notes/Right-invertible Functor.md",
+    "Notes/Replacement image of a set is a set.md",
+    "Notes/Left-invertible Functor.md"
   ]
 }

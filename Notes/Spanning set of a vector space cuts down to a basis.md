@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 01/05/2022 17:26:24
-Tags: #Proposition #Later/Linear_Algebra/Choice
+Tags: #Proposition #Later/Set_Theory/Choice
 
 Proved by: [[Enlargement of linearly independent set by adjoining non-spanned vector]]
 Justifications: _Not Applicable_

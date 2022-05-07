@@ -6,7 +6,7 @@ alias: auto_aliasing
 <br />
 
 Date Created: 27/01/2022 12:42:19
-Tags: #Proposition #Open
+Tags: #Proposition #Later/Set_Theory/Choice
 
 Proved by: [[Exists function in relation iff Choice]]
 Justifications: _Not Applicable_
