@@ -6,10 +6,10 @@ Tags: #Definition #Closed
 
 Types: [[Linear Isomorphism]], [[Linear Operator]]
 Examples: [[Linear map Induced by a Matrix]], [[Transposition]], [[Identity function is a linear map]]
-Constructions: [[Set of Linear Maps]], [[Kernel]]
+Constructions: [[Set of Linear Maps]], [[Kernel]], [[Image (Linear Map)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Composition of linear maps is a linear map]], [[Image of linear map is a subspace of its codomain]], [[Linear map fixes zero vector]]
+Properties: [[Composition of linear maps is a linear map]], [[Linear map fixes zero vector]]
 Sufficiencies: [[Existence of unique linear map via action on basis vectors]], [[Criteria for equality of linear maps via spanning set]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

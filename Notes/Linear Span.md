@@ -22,7 +22,7 @@ _Let $K$ be a field and consider an indexed subset_ $S\subseteq V$ _of a vector 
 $$\begin{equation}
     \span S\coloneqq\bigcap\l\{U\subseteq V\mid S\subseteq U\land U\textrm{\it{ is a linear subspace of }}V\r\}.
 \end{equation}$$
-* _The set of all linear combinations of vectors in $S$:_
+* _The linear subspace containing all linear combinations of vectors in $S$:_
 $$\begin{equation}
     \span S\coloneqq\l\{v\in V\mid v\textrm{\it{ is a linear combination of vectors in }}S\r\}.
 \end{equation}$$

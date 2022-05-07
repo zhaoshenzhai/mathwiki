@@ -17,11 +17,11 @@ Justifications: [[Kernel of linear map is a subspace of its domain]]
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ and $W$ be vector spaces over some field $K$ and consider a linear map $T:V\to W$. The **kernel of $T$** is the linear subspace of $V$ consisting of the set_
+_Let $V$ and $W$ be vector spaces over some field $K$ and consider a linear map $T:V\to W$. The **kernel of $T$** is the linear subspace_
 $$\begin{equation}
     \ker T\coloneqq\l\{v\in V\mid T\l(v\r)=0\r\}
 \end{equation}$$
-_together with the restricted operations from $V$._
+_of $V$._
 
 ```
 

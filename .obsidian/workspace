@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "f17ea18085bfdce3",
+        "id": "0dc63855251c6b4a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Image (Linear Map).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "bac684b238d3541e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Image of linear map is spanned by action on spanning set.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -57,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "1bf52919416afc83",
@@ -69,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Image of linear map is spanned by action on spanning set.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Image of linear map is spanned by action on spanning set.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -151,7 +169,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.037383789213161885,
+                  "scale": 0.38162656665200334,
                   "close": true
                 }
               }
@@ -163,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Image of linear map is spanned by action on spanning set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f17ea18085bfdce3",
+  "active": "bac684b238d3541e",
   "lastOpenFiles": [
-    "Notes/Linear map Induced by a Matrix.md",
-    "Notes/Transposition.md",
-    "Notes/Linear Map.md",
-    "Notes/Transposition anti-respects matrix multiplication.md",
-    "Notes/Algebraic consequences (transposition).md",
-    "Notes/Transposition is a linear map.md",
-    "Notes/Symmetric matrices form a linear subspace of set of matrices.md",
-    "Notes/Sum of symmetric matrices is symmetric.md",
-    "Notes/Inverse of transpose is transpose of inverse.md",
-    "Notes/Linearity iff additivity and homogeneity.md"
+    "Notes/Image of linear map is spanned by action on spanning set.md",
+    "Notes/Image (Linear Map).md",
+    "Notes/Linear Subspace.md",
+    "Notes/Linear Span.md",
+    "Notes/Vector Space of Diagonal Matrices.md",
+    "Notes/Diagonal matrices form a linear subspace of set of matrices.md",
+    "Notes/Minkowski Sum (Linear Algebra).md",
+    "Notes/Minkowski sum of linear subspaces is the span of their union.md",
+    "Notes/Criteria for equality of linear maps via spanning set.md",
+    "Notes/Linear Map.md"
   ]
 }

@@ -5,8 +5,8 @@ Date Created: 03/04/2022 14:30:50
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Linear Span]], [[Null Space]], [[Kernel]], [[Image of linear map is a subspace of its codomain]], [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md), [$\Diag{n}{K}$](Vector%20Space%20of%20Diagonal%20Matrices.md), [[Trivial Subspaces (Linear Algebra)]]
-Constructions: [[Minkowski Sum (Linear Algebra)]]
+Examples: [[Null Space]], [[Kernel]], [[Image (Linear Map)]], [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md), [$\Diag{n}{K}$](Vector%20Space%20of%20Diagonal%20Matrices.md), [[Trivial Subspaces (Linear Algebra)]]
+Constructions: [[Linear Span]], [[Minkowski Sum (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
 Properties: [$\dim U<\dim V$ for $U\subset V$ strict linear subspace](Dimension%20of%20proper%20subspace%20strictly%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.).md), [[Arbitrary intersection of linear subspaces is a linear subspace]], [[Minkowski sum of linear subspaces is the span of their union]]
