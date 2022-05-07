@@ -8,7 +8,7 @@ custom_alias: $\sym{n}{K}\subseteq\mat{n}{K}$ is a linear subspace
 Date Created: 05/05/2022 19:30:03
 Tags: #Proposition #Closed
 
-Proved by: [[Algebraic consequences (transposition)]]
+Proved by: [[Transposition is a linear map]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -5,7 +5,7 @@ Date Created: 01/04/2022 18:16:33
 Tags: #Definition #Closed
 
 Types: [[Linear Isomorphism]], [[Linear Operator]]
-Examples: [[Linear map Induced by a Matrix]], [[Identity function is a linear map]]
+Examples: [[Linear map Induced by a Matrix]], [[Transposition]], [[Identity function is a linear map]]
 Constructions: [[Set of Linear Maps]], [[Kernel]]
 Generalizations: _Not Applicable_
 

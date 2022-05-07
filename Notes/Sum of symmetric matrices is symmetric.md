@@ -4,7 +4,7 @@
 Date Created: 30/03/2022 17:05:03
 Tags: #Proposition #Closed 
 
-Proved by: [[Algebraic consequences (transposition)]]
+Proved by: [[Transposition is a linear map]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

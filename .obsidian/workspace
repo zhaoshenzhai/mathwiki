@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d57dac031917a532",
+        "id": "f17ea18085bfdce3",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Map.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Map.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Map.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "d57dac031917a532",
+  "active": "f17ea18085bfdce3",
   "lastOpenFiles": [
+    "Notes/Linear map Induced by a Matrix.md",
+    "Notes/Transposition.md",
     "Notes/Linear Map.md",
-    "Notes/Linearity iff additivity and homogeneity.md",
-    "Notes/Spanning set of a vector space cuts down to a basis.md",
-    "Notes/Right-invertible iff surjection (Choice).md",
-    "Notes/Linearly independent subset of an arbitrary vector space extends to a basis.md",
-    "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
-    "Notes/Universal set is a proper class.md",
-    "Notes/Union distributes over binary intersection.md",
-    "Notes/Subset.md",
-    "Notes/Right-invertible Functor.md"
+    "Notes/Transposition anti-respects matrix multiplication.md",
+    "Notes/Algebraic consequences (transposition).md",
+    "Notes/Transposition is a linear map.md",
+    "Notes/Symmetric matrices form a linear subspace of set of matrices.md",
+    "Notes/Sum of symmetric matrices is symmetric.md",
+    "Notes/Inverse of transpose is transpose of inverse.md",
+    "Notes/Linearity iff additivity and homogeneity.md"
   ]
 }
