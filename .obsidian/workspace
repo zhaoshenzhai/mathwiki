@@ -198,13 +198,13 @@
   "lastOpenFiles": [
     "Notes/Direct Sum (Linear Algebra).md",
     "Notes/Minkowski Sum (Linear Algebra).md",
-    "Notes/Minkowski sum of linear subspaces is the span of their union.md",
-    "Notes/Minkowski sum is direct iff only trivial decomposition exists for zero.md",
-    "Notes/Unique Representation Theorem (Hamel).md",
-    "Notes/Image of linear map is spanned by image of spanning set.md",
-    "Notes/Image (Linear Map).md",
-    "Notes/Image of linear map is a subspace of its codomain.md",
-    "Notes/Linear Map.md",
-    "Notes/Linear Subspace.md"
+    "Notes/Independence of family iff unique representation iff only trivial representation of zero (direct sum).md",
+    "Notes/Only trivial decomposition exists for zero iff family is independent.md",
+    "Notes/Unique representation as a sum iff only trivial decomposition exists for zero.md",
+    "Notes/Equivalent definitions of direct sum (linear algebra).md",
+    "Notes/Group.md",
+    "Notes/Set of closed sets equivalent to topology on a set.md",
+    "Notes/Topology on a Set.md",
+    "Notes/Topological Space.md"
   ]
 }
