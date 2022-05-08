@@ -19,12 +19,10 @@ title: Definition.
 
 _Let_ $\l\{U_i\r\}_{i\in I}$ _be an indexed family of linear subspaces of a vector space $V$ over $K$. The_ **_Minkowski sum of_ $\l\{U_i\r\}_{i\in I}$** _is the set_
 $$\begin{equation}
-    \sum_{i\in I}U_i\coloneqq\l\{u\in V\mid\ex J\subseteq I:\l|J\r|<\infty\land\l(\fa j\in J,\ex u_j\in U_j:u=\sum_{j\in J}u_j\r)\r\}.
+    \sum_{i\in I}U_i\coloneqq\l\{u\in V\mid\fa i\in I,\ex u_i\in U_i:u=\sum_{i\in I}u_i\r\}
 \end{equation}$$
+_where $u_i=0$ for all but finitely-many $i\in I$._
 
 ```
 
-**Remark.** In other words, $\sum_{i\in I}U_i$ is the set of all possible finite sums of elements from $\bigcup_{i\in I}U_i$. If $I=\l\{1,\dots,n\r\}$ for some $n\in\N$, the sum reduces to
-$$\begin{equation}
-    \sum\limits_{i=1}^nU_i\coloneqq\l\{u\in V\mid\fa j\in\l\{1,\dots,n\r\},\ex u_j\in U_j:u=\sum\limits_{j=1}^nu_j\r\}.\exqedin
-\end{equation}$$
+**Remark.** In other words, $\sum_{i\in I}U_i$ is the set of all possible finite sums of elements from $\bigcup_{i\in I}U_i$.<span style="float:right;">$\blacklozenge$</span>

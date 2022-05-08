@@ -17,13 +17,13 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $U_1,\dots,U_n$ be linear subspaces of a vector space $V$ over $K$ and let_ $U\coloneqq\sum_{i=1}^nU_i$ _be their Minkowski sum. If_
+_Let_ $\l\{U_i\r\}_{i\in I}$ _be an indexed family of distinct linear subspaces of a vector space $V$ over some field $K$. If_ $V=\sum_{i\in I}U_i$ _and_
 $$\begin{equation}
-    \fa u\in U,\fa i\in\l\{1,\dots,n\r\},\ex!u_i\in U_i:u=\sum_{i=1}^nu_i,
+    \fa v\in V,\fa i\in I,\ex!u_i\in U_i:u=\sum_{i\in I}u_i
 \end{equation}$$
-_then $U$ is said to be the **direct sum of $U_1,\dots,U_n$** and is denoted by_
+_where $u_i=0$ for all but finitely-many $i\in I$, then $V$ is said to be the_ **_(internal) direct sum of_ $\l\{U_i\r\}_{i\in I}$**_, denoted by_
 $$\begin{equation}
-    \bigoplus_{i=1}^nU_i\coloneqq\sum_{i=1}^nU_i.
+    \bigoplus_{i\in I}U_i\coloneqq\sum_{i\in I}U_i.
 \end{equation}$$
 
 ```
