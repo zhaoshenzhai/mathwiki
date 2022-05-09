@@ -15,8 +15,9 @@ title: Proposition.
 
 _Let_ $\l\{U_i\r\}_{i\in I}$ _be an indexed family of linear subspaces of a vector space $V$ over some field $K$. Then_
 $$\begin{equation}
-    U\coloneqq\sum_{i\in I}U_i=\span\bigcup_{i\in I}U_i.
+    U\coloneqq\l\{u\in V\mid\fa i\in I,\ex u_i\in U_i:u=\sum_{i\in I}u_i\r\}=\span\bigcup_{i\in I}U_i
 \end{equation}$$
+_where $u_i=0$ for all but finitely-many $i\in I$._
 
 ```
 
@@ -32,7 +33,7 @@ $$\begin{equation}
         &=\sum\limits_{i\in I}\alpha u_{1i}+u_{2i},
     \end{aligned}
 \end{equation}$$
-and since each $U_i$ is a subspace of $V$, we see that $\alpha u_{1i}+u_{2i}\in U_i$ for all $i\in I$. Since $\alpha u_{1i}+u_{2i}=0$ for all but finitely-many $i\in I$, we see that $\alpha u_1+u_2\in U$ too and thus $U$ is a subspace of $V$.
+and since each $U_i$ is a subspace of $V$, we see that $\alpha u_{1i}+u_{2i}\in U_i$ for all $i\in I$. Since $\alpha u_{1i}+u_{2i}=0$ for all but finitely-many $i\in I$, the sum is defined and we see that $\alpha u_1+u_2\in U$. Thus $U$ is a subspace of $V$.
 
 We now need to prove that $U_i\subseteq U$ for all $i\in I$ and that $U\subseteq W$ for any other subspace $W$ of $V$ containing each $U_i$.
 * Fix $i\in I$ and take any $u_i\in U_i$. Observe that $u_i=\sum_{j\in I}u_j$ with $u_j=0$ for all $j\neq i$, and since $0\in U_j$ for all such $j$, we see that $u_i\in U$.

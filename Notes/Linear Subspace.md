@@ -9,7 +9,7 @@ Examples: [[Null Space]], [[Kernel]], [[Image (Linear Map)]], [$\sym{n}{K}$](Vec
 Constructions: [[Linear Span]], [[Minkowski Sum (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
-Properties: [$\dim U<\dim V$ for $U\subset V$ strict linear subspace](Dimension%20of%20proper%20subspace%20strictly%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.).md), [[Arbitrary intersection of linear subspaces is a linear subspace]], [[Minkowski sum of linear subspaces is the span of their union]]
+Properties: [$\dim U<\dim V$ for $U\subset V$ strict linear subspace](Dimension%20of%20proper%20subspace%20strictly%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.).md), [[Arbitrary intersection of linear subspaces is a linear subspace]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [$U\subseteq V$ is a vector space $\Leftrightarrow$ $0\in U$ and restricted operations close in $U$](Linear%20subspace%20iff%20closed%20under%20linear%20combination.md)

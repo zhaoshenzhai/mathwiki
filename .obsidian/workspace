@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "549cd672669d595d",
+        "id": "34691414f1115b12",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Span.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "ffc9d0799114350c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Subspace.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Span.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Span.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Span.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "549cd672669d595d",
+  "active": "34691414f1115b12",
   "lastOpenFiles": [
-    "Notes/Linear Span.md",
-    "Notes/Linear Combination (Vector).md",
+    "Notes/Minkowski Sum (Linear Algebra).md",
+    "Notes/Set of finite sums of elements in linear subspaces is the span of their union.md",
+    "Notes/Linear combination iff in smallest containing subspace.md",
     "Notes/Linear Subspace.md",
     "Notes/Internal Direct Sum (Linear Algebra).md",
-    "Notes/Minkowski Sum (Linear Algebra).md",
-    "Notes/Independence of family iff unique representation iff only trivial representation of zero (direct sum).md",
-    "Notes/Only trivial decomposition exists for zero iff family is independent.md",
-    "Notes/Unique representation as a sum iff only trivial decomposition exists for zero.md",
-    "Notes/Equivalent definitions of direct sum (linear algebra).md",
-    "Notes/Group.md"
+    "Notes/Linear Combination (Vector).md",
+    "Notes/Linear Span.md",
+    "Notes/ON is well-ordered by membership.md",
+    "Notes/Well-ordered Relation.md",
+    "Notes/Well-founded Relation.md"
   ]
 }
