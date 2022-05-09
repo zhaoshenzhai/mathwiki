@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "63bd852b29404f70",
+        "id": "549cd672669d595d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Internal Direct Sum (Linear Algebra).md",
+            "file": "Notes/Linear Span.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "2accabfab1493020",
+        "id": "ffc9d0799114350c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear Span.md",
+            "file": "Notes/Linear Subspace.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Internal Direct Sum (Linear Algebra).md",
+                "file": "Notes/Linear Span.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Internal Direct Sum (Linear Algebra).md",
+                "file": "Notes/Linear Span.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Internal Direct Sum (Linear Algebra).md",
+                "file": "Notes/Linear Span.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "63bd852b29404f70",
+  "active": "549cd672669d595d",
   "lastOpenFiles": [
-    "Notes/Internal Direct Sum (Linear Algebra).md",
     "Notes/Linear Span.md",
+    "Notes/Linear Combination (Vector).md",
+    "Notes/Linear Subspace.md",
+    "Notes/Internal Direct Sum (Linear Algebra).md",
     "Notes/Minkowski Sum (Linear Algebra).md",
     "Notes/Independence of family iff unique representation iff only trivial representation of zero (direct sum).md",
     "Notes/Only trivial decomposition exists for zero iff family is independent.md",
     "Notes/Unique representation as a sum iff only trivial decomposition exists for zero.md",
     "Notes/Equivalent definitions of direct sum (linear algebra).md",
-    "Notes/Group.md",
-    "Notes/Set of closed sets equivalent to topology on a set.md",
-    "Notes/Topology on a Set.md"
+    "Notes/Group.md"
   ]
 }

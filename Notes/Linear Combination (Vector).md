@@ -29,7 +29,7 @@ _where $\alpha_i=0$ for all but finitely-many $i\in I$._
 $$\begin{equation}
     \ex n\in\N,\fa i\in\l\{1,\dots,n\r\},\ex\alpha_i\in K,\ex u_i\in U:v=\sum\limits_{i=1}^n\alpha_iu_i.
 \end{equation}$$
-Redefining $I=\l\{1,\dots,n\r\}$, we see that $I$ carries an order structure and hence we may say that $v$ is a **$K$-linear combination of the sequence $\l\langle u_1\r\rangle_{i\in I}$ with coefficients $\l\langle\alpha_i\r\rangle_{i\in I}$**.<span style="float:right;">$\blacklozenge$</span>
+Redefining $I=\l\{1,\dots,n\r\}$, we see that $I$ carries an order structure and hence we may say that $v$ is a **$K$-linear combination of the sequence $\l\langle u_i\r\rangle_{i\in I}$ with coefficients $\l\langle\alpha_i\r\rangle_{i\in I}$**.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
