@@ -4,7 +4,7 @@
 Date Created: 20/04/2022 17:04:04
 Tags: #Definition #Closed
 
-Types: [[Direct Sum (Linear Algebra)]]
+Types: [[Internal Direct Sum (Linear Algebra)]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
