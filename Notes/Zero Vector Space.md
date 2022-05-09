@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Trivial Subspaces (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Dimension of zero vector space]], [Only trivial decomposition exists for zero $\Leftrightarrow$ family is independent](Only%20trivial%20decomposition%20exists%20for%20zero%20iff%20family%20is%20independent.md)
+Properties: [[Dimension of zero vector space]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

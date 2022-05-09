@@ -21,11 +21,11 @@ Justifications: [$\Diag{n}{K}\subseteq\mat{n}{K}$ is a linear subspace](Diagonal
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $n\in\N^\ast$. The **vector space of $n\times n$ diagonal matrices over $K$** is the linear subspace of $\mat{n}{K}$ consisting of the set_
+_Let $K$ be a field and fix $n\in\N^\ast$. The **vector space of $n\times n$ diagonal matrices over $K$** is the linear subspace_
 $$\begin{equation}
     \Diag{n}{K}\coloneqq\l\{D\in\mat{n}{K}\mid D\textrm{\it{ is a diagonal matrix}}\r\}
 \end{equation}$$
-_and the restricted operations from $\mat{n}{K}$._
+_of $\mat{n}{K}$._
 
 ```
 

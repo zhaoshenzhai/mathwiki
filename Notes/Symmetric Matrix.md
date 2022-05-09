@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md)
 Generalizations: _Not Applicable_
 
-Properties: [[Sum of symmetric matrices is symmetric]]
+Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
@@ -21,4 +21,4 @@ _Let $K$ be a field and fix $m,n\in\N^\ast$. A matrix $A\in\mat{m\times n}{K}$ i
 
 ```
 
-**Remark.** Symmetric matrices are necessarily square, so $m=n$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Since $A^\trans\in\mat{n\times n}{K}$ and $A\in\mat{m\times n}{K}$, symmetric matrices are necessarily square.<span style="float:right;">$\blacklozenge$</span>

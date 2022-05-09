@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Symmetric Matrix]]
+Constructions: [[Symmetric Matrix]], [[Skew-symmetric Matrix]]
 Generalizations: _Not Applicable_
 
 Properties: [[Transposition anti-respects matrix multiplication]], [[Inverse of transpose is transpose of inverse]]

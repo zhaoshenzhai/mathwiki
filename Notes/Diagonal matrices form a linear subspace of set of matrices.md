@@ -21,7 +21,7 @@ _Let $K$ be a field and fix $n\in\N^\ast$. Then $\Diag{n}{K}\subseteq\mat{n}{K}$
 
 ```
 
-_Proof_. It suffices to show that $0_n\in\Diag{n}{K}$ and, for every $\alpha\in K$ and $A,B,\in\Diag{n}{K}$, that $\alpha A+B\in\Diag{n}{K}$.
+_Proof_. It suffices to show that $0_n\in\Diag{n}{K}$ and, for every $\alpha\in K$ and $A,B\in\Diag{n}{K}$, that $\alpha A+B\in\Diag{n}{K}$.
 * ($0_n\in\Diag{n}{K}$): This follows readily since every entry of $0_n$ is $0$.
 
 * ($\alpha A+B\in\Diag{n}{K}$): Take $i,j\in\l\{1,\dots,n\r\}$ such that $i\neq j$, so $a_{ij}=b_{ij}=0$. It follows then that

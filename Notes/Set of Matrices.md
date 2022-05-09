@@ -21,7 +21,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field. The **set of $m\times n$ matrices over $K$** is denoted by_ $\mat{m\times n}{K}$ (Vector Space)_. If $m=n$, write_ $\mat{n}{K}\coloneqq\mat{n\times n}{K}$_._
+_Let $K$ be a field. The **set of $m\times n$ matrices over $K$** is denoted by_ $\mat{m\times n}{K}$_. If $m=n$, write_ $\mat{n}{K}\coloneqq\mat{n\times n}{K}$_._
 
 ```
 
