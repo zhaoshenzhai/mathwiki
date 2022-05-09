@@ -31,10 +31,8 @@ $$\begin{equation}
         \im T&=\span\l(\im_T\mc{B}_\delta\r) && \textrm{$\im T$ is spanned image of spanning sets} \\
         &=\span\l[\im_T\l(\mc{B}_\kappa\cup\l\{b_{\kappa+1},\dots,b_\delta\r\}\r)\r] && \textrm{Substitution} \\
         &=\span\l[\im_T\l(\mc{B}_\kappa\r)\cup\im_T\l\{b_{\kappa+1},\dots,b_\delta\r\}\r] && \textrm{Image of union is union of images} \\
-        &=\span\l(\im_t\mc{B}_\kappa\r)\cup\span\l(\im_T\l\{b_{\kappa+1},\dots,b_\delta\r\}\r) && \textrm{Span of union is union of span} \\
-        &=\span\l\{0\r\}\cup\span\l(\im_T\l\{b_{\kappa+1},\dots,b_\delta\r\}\r) && \mc{B}_\kappa\subseteq\ker T \\
-        &=\l\{0\r\}\cup\span\l(\im_T\l\{b_{\kappa+1},\dots,b_\delta\r\}\r) && \textrm{Every subspace of $W$ contains $0$} \\
-        &=\span\l(\im_T\l\{b_{\kappa+1},\dots,b_\delta\r\}\r) && \span\l(\cdots\r)\textrm{ is a subspace of $W$} \\
+        &=\span\l[\l\{0\r\}\cup\im_T\l\{b_{\kappa+1},\dots,b_\delta\r\}\r] && \mc{B}_\kappa\subseteq\ker T \\
+        &=\span\l(\im_T\l\{b_{\kappa+1},\dots,b_\delta\r\}\r) && 0\textrm{ is span-redundant}\\
         &=\span\mc{B}_\iota. && \textrm{Substitution}
     \end{aligned}
 \end{equation}$$

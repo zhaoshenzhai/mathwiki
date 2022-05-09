@@ -7,8 +7,12 @@
         "id": "a7c38c3726456f2c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Rank-Nullity Theorem.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Rank-Nullity Theorem.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Rank-Nullity Theorem.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Rank-Nullity Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +184,15 @@
   },
   "active": "a7c38c3726456f2c",
   "lastOpenFiles": [
+    "Notes/Rank-Nullity Theorem.md",
+    "Notes/Image of linear map is spanned by image of spanning set.md",
     "Notes/Linear Span.md",
+    "Notes/Linear combination iff in smallest containing subspace.md",
+    "Notes/Linearly dependent iff exists span redundant element.md",
+    "Notes/Image (Linear Map).md",
     "Notes/Linear Subspace.md",
     "Notes/Minkowski Sum (Linear Algebra).md",
     "Notes/Symmetric and skew-symmetric decomposition of matrices.md",
-    "Notes/Vector Space of Matrices.md",
-    "Notes/Internal Direct Sum (Linear Algebra).md",
-    "Notes/Zero Vector Space.md",
-    "Notes/Vector Space of Skew-symmetric Matrices.md",
-    "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
-    "Notes/Skew-symmetric matrices form a linear subspace of set of matrices.md"
+    "Notes/Vector Space of Matrices.md"
   ]
 }
