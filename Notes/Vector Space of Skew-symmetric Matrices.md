@@ -13,7 +13,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [$\mat{n}{K}=\sym{n}{K}\oplus\skew{n}{K}$ for $\char K\neq2$](Symmetric%20and%20skew-symmetric%20decomposition%20of%20matrices.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [$\skew{n}{K}\subseteq\mat{n}{K}$ is a linear subspace](Skew-symmetric%20matrices%20form%20a%20linear%20subspace%20of%20set%20of%20matrices.md)

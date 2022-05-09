@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Column Space]], [[Row Space]]
-Constructions: [[Spanning Set]]
+Constructions: [[Spanning Set]], [[Minkowski Sum (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
 Properties: [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)

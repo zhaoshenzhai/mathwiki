@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [$\mat{n}{K}=\sym{n}{K}\oplus\skew{n}{K}$ for $\char K\neq2$](Symmetric%20and%20skew-symmetric%20decomposition%20of%20matrices.md)
 Justifications: [[Function space over a field is a vector space]]
 
 ``` ad-Definition
