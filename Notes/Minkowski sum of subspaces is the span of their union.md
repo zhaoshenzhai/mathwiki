@@ -15,7 +15,7 @@ title: Proposition.
 
 _Let_ $\l\{U_i\r\}_{i\in I}$ _be an indexed family of linear subspaces of a vector space $V$ over some field $K$. Then_
 $$\begin{equation}
-    U\coloneqq\l\{u\in V\mid\fa i\in I,\ex u_i\in U_i:u=\sum_{i\in I}u_i\r\}=\span\bigcup_{i\in I}U_i
+    U\coloneqq\sum\limits_{i\in I}U_i=\span\bigcup_{i\in I}U_i
 \end{equation}$$
 _where $u_i=0$ for all but finitely-many $i\in I$._
 

@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "16757191fa2f7b55",
+        "id": "4ebb5b29dc6e1211",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Minkowski Sum (Linear Algebra).md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Minkowski Sum (Linear Algebra).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Minkowski Sum (Linear Algebra).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Minkowski Sum (Linear Algebra).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "16757191fa2f7b55",
+  "active": "4ebb5b29dc6e1211",
   "lastOpenFiles": [
+    "Notes/Minkowski Sum (Linear Algebra).md",
+    "Notes/Minkowski sum of subspaces is the span of their union.md",
+    "Notes/Linear Span.md",
+    "Notes/Standard Basis of Tuple Space.md",
     "Notes/Internal direct sum iff unique representation iff only trivial representation of zero.md",
     "Notes/Internal Direct Sum (Linear Algebra).md",
     "Notes/Symmetric and skew-symmetric decomposition of matrices.md",
     "Notes/Internal direct sum iff zero only admits the trivial representation.md",
     "Notes/Linear Subspace.md",
-    "Notes/Linear Span.md",
-    "Notes/Linear Combination (Vector).md",
-    "Notes/Vector Space of Diagonal Matrices.md",
-    "Notes/Comma category is a category.md",
-    "Notes/Identity natural transformation is a natural isomorphism.md"
+    "Notes/Linear Combination (Vector).md"
   ]
 }
