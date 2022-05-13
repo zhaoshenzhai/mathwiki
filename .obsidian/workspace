@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8ef2b13dbb72b8ec",
+        "id": "6efd1d876b7795d5",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -103,7 +103,7 @@
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
-                  "localJumps": 5,
+                  "localJumps": 3,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -151,7 +151,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.052798947210306556,
+                  "scale": 0.4272529063042367,
                   "close": true
                 }
               }
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "8ef2b13dbb72b8ec",
+  "active": "6efd1d876b7795d5",
   "lastOpenFiles": [
-    "Notes/Linear map is injective iff kernel vanishes.md",
-    "Notes/Kernel.md",
-    "Notes/Linear Map.md",
+    "Notes/Dimension of of vector space is zero iff it is the zero vector space.md",
+    "Notes/Dimension (Linear Algebra).md",
+    "Notes/Linear map between vector spaces of same dimension is injective iff surjective.md",
+    "Notes/Zero Vector Space.md",
     "Notes/Dimension Theorem.md",
-    "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
+    "Notes/Linear Map.md",
     "Notes/Injection.md",
-    "Notes/Basis for null space of matrix (explicit).md",
-    "Notes/Row Rank.md",
-    "Notes/Image (Linear Map).md",
-    "Notes/Rank (Linear Map).md"
+    "Notes/Surjection.md",
+    "Notes/Bijection.md",
+    "Notes/Criteria for equality of linear maps via spanning set.md"
   ]
 }
