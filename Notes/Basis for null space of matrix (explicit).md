@@ -85,13 +85,13 @@ which is a linear combination of the three linearly independent column vectors $
 
 In general, the vector $\v{b}_u$ for each $\textrm{`}$free variable$\textrm{'}$ $u\in\mc{U}$ is the solution of $A\v{x}=\v{0}$ corresponding to choosing $t_u=1$ and $t_j=0$ for all $j\neq u$; they are called the **basic solutions of $A\v{x}=\v{0}$**. The set $\mc{B}$ of all such vectors is a linearly independent spanning set for $\null\l(A\r)$, and since there are $\l(n-r\r)$-many such vectors, we have
 $$\begin{equation}
-    \nullity\l(A\r)=\dim\null\l(A\r)=n-r
+    \dim\null\l(A\r)=n-r
 \end{equation}$$
-which, observing that $\rank\l(A\r)=r$ and $\dom\null\l(A\r)=\nullity\l(A\r)$, is equivalent to
+which, observing that $\rank\l(A\r)=r$, is equivalent to
 $$\begin{equation}
-    \rank\l(A\r)+\nullity\l(A\r)=\dim\l(K^n\r).
+    \rank\l(A\r)+\dim\null\l(A\r)=\dim\l(K^n\r).
 \end{equation}$$
-This can be seen as a special case of the Rank-Nullity Theorem with $A$ in place of a linear map $T:V\to W$ and $K^n$ in place of $V$.<span style="float:right;">$\blacklozenge$</span>
+This can be seen as a special case of the Dimension Theorem with $A$ in place of a linear map $T:V\to W$ and $K^n$ in place of $V$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

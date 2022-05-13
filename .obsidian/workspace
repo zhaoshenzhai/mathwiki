@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4ebb5b29dc6e1211",
+        "id": "8ef2b13dbb72b8ec",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Minkowski Sum (Linear Algebra).md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Minkowski Sum (Linear Algebra).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Minkowski Sum (Linear Algebra).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -157,7 +151,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.7551256459142552,
+                  "scale": 0.052798947210306556,
                   "close": true
                 }
               }
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Minkowski Sum (Linear Algebra).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "4ebb5b29dc6e1211",
+  "active": "8ef2b13dbb72b8ec",
   "lastOpenFiles": [
-    "Notes/Minkowski Sum (Linear Algebra).md",
-    "Notes/Minkowski sum of subspaces is the span of their union.md",
-    "Notes/Linear Span.md",
-    "Notes/Standard Basis of Tuple Space.md",
-    "Notes/Internal direct sum iff unique representation iff only trivial representation of zero.md",
-    "Notes/Internal Direct Sum (Linear Algebra).md",
-    "Notes/Symmetric and skew-symmetric decomposition of matrices.md",
-    "Notes/Internal direct sum iff zero only admits the trivial representation.md",
-    "Notes/Linear Subspace.md",
-    "Notes/Linear Combination (Vector).md"
+    "Notes/Linear map is injective iff kernel vanishes.md",
+    "Notes/Kernel.md",
+    "Notes/Linear Map.md",
+    "Notes/Dimension Theorem.md",
+    "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
+    "Notes/Injection.md",
+    "Notes/Basis for null space of matrix (explicit).md",
+    "Notes/Row Rank.md",
+    "Notes/Image (Linear Map).md",
+    "Notes/Rank (Linear Map).md"
   ]
 }

@@ -4,7 +4,7 @@
 Date Created: 07/05/2022 20:28:12
 Tags: #Theorem #Closed
 
-Proved by: [$\dim U<\dim V$ for $U\subset V$ strict linear subspace](Dimension%20of%20proper%20subspace%20strictly%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.).md), [[Linearly independent subset of a vector space extends to a basis]], [[Image of linear map is spanned by image of spanning set]], [[Image of union is union of images]]
+Proved by: [$\dim U<\dim V$ for $U\subset V$ strict linear subspace](Dimension%20of%20proper%20subspace%20strictly%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.).md), [[Linearly independent subset of a vector space extends to a basis]], [[Image of linear map is spanned by image of spanning set]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

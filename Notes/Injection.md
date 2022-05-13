@@ -5,7 +5,7 @@ Date Created: 20/01/2022 09:20:32
 Tags: #Definition #Closed 
 
 Types: [[Bijection]]
-Examples: [[Inclusion Function]] 
+Examples: [[Inclusion Function]], [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md)
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

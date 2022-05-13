@@ -27,7 +27,7 @@ _Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xR
 
 _Proof_. Take $y\in\im_R\l(\bigcap\mc{A}\r)$. The result follows from the following chain of implications:
 
-$\begin{alignat}{2}
+$$\begin{align}
     y\in\im_R\l(\bigcap\mc{A}\r)&\Leftrightarrow y\in\ran\l(R\rest\bigcap\mc{A}\r)&&\textrm{Definition of image}\\
     &\Leftrightarrow\ex x:\l\langle x,y\r\rangle\in R\rest\l(\bigcap\mc{A}\r)&&\textrm{Definition of range}\\
     &\Leftrightarrow\ex x:\l\langle x,y\r\rangle\in R\land x\in\bigcap\mc{A}&&\textrm{Definition of restriction}\\
@@ -38,7 +38,7 @@ $\begin{alignat}{2}
     &\Leftrightarrow\fa A\in\mc{A}:y\in\ran\l(R\rest A\r)&&\textrm{Definition of range}\\
     &\Leftrightarrow\fa A\in\mc{A}:y\in\im_R\l(A\r)&&\textrm{Definition of image}\\
     &\Leftrightarrow y\in\bigcap\l\{\im_R\l(A\r)\mid A\in\mc{A}\r\}.&&\textrm{Definition of intersection}
-\end{alignat}$
+\end{align}$$
 Assume now that $R$ satisfies the additional requirement. We claim that
 $$\begin{equation}
     \fa A\in\mc{A},\ex x:\l\langle x,y\r\rangle\in R\land x\in A\ \ \ \ \Rightarrow\ \ \ \ \ex x,\fa A\in\mc{A}:\l\langle x,y\r\rangle\in R\land x\in A,

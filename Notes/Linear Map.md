@@ -9,7 +9,7 @@ Examples: [[Linear map Induced by a Matrix]], [[Transposition]], [[Identity func
 Constructions: [[Set of Linear Maps]], [[Kernel]], [[Image (Linear Map)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Composition of linear maps is a linear map]], [[Linear map fixes zero vector]]
+Properties: [[Composition of linear maps is a linear map]], [[Linear map fixes zero vector]], [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md)
 Sufficiencies: [[Existence of unique linear map via action on basis vectors]], [[Criteria for equality of linear maps via spanning set]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

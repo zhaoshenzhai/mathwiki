@@ -25,8 +25,8 @@ _Proof_. Let $R\coloneqq\rref\l(A\r)$ be of (row) rank $r$, so $R$ has $r$ non-z
 
 ---
 
-**Remark.** Viewing $A$ as its induced linear transformation $T_A$, we see that the system $A\v{x}=\v{0}$ has a non-trivial solution since the dimension of its codomain is smaller than that of its domain. Informally, $T_A$ must squish subspaces down $\l(n-m\r)$-dimensions. Indeed, by the Rank-Nullity Theorem, we see that
+**Remark.** Viewing $A$ as its induced linear transformation $T_A$, we see that the system $A\v{x}=\v{0}$ has a non-trivial solution since the dimension of its codomain is smaller than that of its domain. Indeed, by the Dimension Theorem, we see that
 $$\begin{equation}
-    \nullity\l(A\r)=n-\rank\l(A\r)
+    \dim\null\l(A\r)=n-\rank\l(A\r)
 \end{equation}$$
-which, because $\rank\l(A\r)\leq\min\l(m,n\r)=m$, we see that $\nullity\l(A\r)>0$. Thus at least an entire line or plane or etc. gets mapped to $0$.<span style="float:right;">$\blacklozenge$</span>
+which, because $\rank\l(A\r)\leq\min\l(m,n\r)=m$, we see that $\dim\null\l(A\r)>0$. Thus $T_A$ is not injective, so there exists $\v{x}\in K^n$ with $T_A\l(\v{x}\r)=\v{0}$ despite $\v{x}\neq\v{0}$.<span style="float:right;">$\blacklozenge$</span>
