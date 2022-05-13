@@ -11,8 +11,8 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: [Independence of family $\Leftrightarrow$ unique representation $\Leftrightarrow$ only trivial representation of zero (direct sum)](Independence%20of%20family%20iff%20unique%20representation%20iff%20only%20trivial%20representation%20of%20zero%20(direct%20sum).md)
+Equivalences: [Internal direct sum $\Leftrightarrow$ unique representation $\Leftrightarrow$ only trivial representation of zero](Internal%20direct%20sum%20iff%20unique%20representation%20iff%20only%20trivial%20representation%20of%20zero.md)
+Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
@@ -21,20 +21,10 @@ _Let_ $\l\{U_i\r\}_{i\in I}$ _be an indexed family of distinct linear subspaces 
 $$\begin{equation}
     \bigoplus_{i\in I}U_i\coloneqq\sum_{i\in I}U_i=V,
 \end{equation}$$
-_if one of the following equivalent statements hold (all sums_ $\sum_{i\in I}u_i$ _are assumed to have $u_i=0$ for all but finitely-many $i\in I$):_
-* _The family_ $\l\{U_i\r\}_{i\in I}$ _is independent:_
+_and each $U_i$ is said to be a **direct summand of $V$**, if the family _$\l\{U_i\r\}_{i\in I}$ _is independent; that is, if_
 $$\begin{equation}
     \fa i\in I:U_i\cap\sum_{j\neq i}U_j=\l\{0\r\}.
 \end{equation}$$
-
-* _Every $v\in V$ admits a unique representation as a sum of vectors in_ $\l\{U_i\r\}_{i\in I}$:
-$$\begin{equation}
-    \fa v\in V,\fa i\in I,\ex!u_i\in U_i:v=\sum\limits_{i\in I}u_i.
-\end{equation}$$
-* _The zero vector admits only the trivial decomposition as a sum of vectors in_ $\l\{U_i\r\}_{i\in I}$:
-$$\begin{equation}
-    \fa i\in I,\fa u_i\in U_i:\sum\limits_{i\in I}u_i=0\ \ \ \ \Rightarrow\ \ \ \ \fa i\in I:u_i=0.
-\end{equation}$$
-
-_In any case, each $U_i$ is said to be a **direct summand of $V$**._
 ```
+
+**Remark.** If $I=\l\{1,2\r\}$, then $V=U_1\oplus U_2$ iff $V=U_1+U_2$ and $U_1\cap U_2=\l\{0\r\}$.<span style="float:right;">$\blacklozenge$</span>

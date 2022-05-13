@@ -17,10 +17,10 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let_ $\l\{U_i\r\}_{i\in I}$ _be an indexed family of distinct linear subspaces of a vector space $V$ over some field $K$. Then the following statements are equivalent (all sums_ $\sum_{i\in I}u_i$ _are assumed to have $u_i=0$ for all but finitely-many $i\in I$):_
-1. _The family_ $\l\{U_i\r\}_{i\in I}$ _is independent:_
+_Let_ $\l\{U_i\r\}_{i\in I}$ _be an indexed family of distinct linear subspaces of a vector space $V$ over some field $K$ such that _$V=\sum_{i\in I}U_i$_. Then the following statements are equivalent:_
+1. _$V$ is an internal direct sum of_ $\l\{U_i\r\}_{i\in I}$_:_
 $$\begin{equation}
-    \fa i\in I:U_i\cap\sum_{j\neq i}U_j=\l\{0\r\}.
+    V=\bigoplus_{i\in I}U_i.
 \end{equation}$$
 2. _The zero vector admits only the trivial decomposition as a sum of vectors in_ $\l\{U_i\r\}_{i\in I}$:
 $$\begin{equation}
@@ -30,6 +30,8 @@ $$\begin{equation}
 $$\begin{equation}
     \fa v\in V,\fa i\in I,\ex!u_i\in U_i:v=\sum\limits_{i\in I}u_i.
 \end{equation}$$
+
+_All sums_ $\sum_{i\in I}u_i$ _are assumed to have $u_i=0$ for all but finitely-many $i\in I$._
 
 ```
 
