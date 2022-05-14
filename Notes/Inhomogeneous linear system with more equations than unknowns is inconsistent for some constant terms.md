@@ -21,8 +21,8 @@ _Let $K$ be a field and take a matrix $A\in\mat{m\times n}{K}$ with $m>n$. Then 
 
 ```
 
-_Proof_. Consider the linear map $T:K^n\to K^m$ defined by
-$$\begin{equation}
-    T\l(\v{x}\r)\coloneqq\l\langle\sum_{j=1}^na_{1j}x_j,\dots,\sum_{j=1}^na_{mj}x_j\r\rangle
-\end{equation}$$
-for all $\v{x}\in K^n$, so $T\l(\v{x}\r)=\v{b}$ is equivalent to the linear system $A\v{x}=\v{b}$ for all $\v{b}\in K^m$. Since $n<m$, we see that $T$ is not surjective, so there exists $\v{b}\in K^m$ such that no $\v{x}\in K^n$ is such that $T\l(\v{x}\r)=\v{b}$.<span style="float:right;">$\blacksquare$</span>
+**Remark.** That is, an inhomogeneous linear system with more equations than unknowns overdetermine the system, so it is inconsistent for some choice of constant terms.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+_Proof_. Consider the linear map $T:K^n\to K^m:\v{x}\mapsto A\v{x}$. Since $n<m$, we see that $T$ is not surjective, so there exists $\v{b}\in K^m$ such that no $\v{x}\in K^n$ is such that $T\l(\v{x}\r)=A\v{x}=\v{b}$.<span style="float:right;">$\blacksquare$</span>

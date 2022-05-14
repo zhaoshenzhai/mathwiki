@@ -7,8 +7,12 @@
         "id": "1af4ec48f95dd2f9",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +184,15 @@
   },
   "active": "1af4ec48f95dd2f9",
   "lastOpenFiles": [
-    "Notes/Linear System of Equations.md",
-    "Notes/Inhomogeneous Linear System.md",
-    "Notes/Solutions of linear system of equations.md",
-    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
-    "Notes/Linear system is consistent for all constants implies coefficient matrix right-invertible.md",
-    "Notes/Inhomogeneous linear system with more equations than unknowns is inconsistent for some constant terms.md",
+    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
     "Notes/Homogeneous linear system with more unknowns than equations has non-trivial solutions.md",
-    "Notes/Homogeneous Linear System.md",
-    "Notes/Solution of linear system in terms of a particular solution.md",
-    "Notes/Augmented Matrix.md"
+    "Notes/Inhomogeneous linear system with more equations than unknowns is inconsistent for some constant terms.md",
+    "Notes/Linear map to a lower dimensional space is not injective.md",
+    "Notes/Dimension Theorem.md",
+    "Notes/Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper).md",
+    "Notes/Dimension of vector space is zero iff it is the zero vector space.md",
+    "Notes/Linearly independent subset cannot contain the zero vector.md",
+    "Notes/Linear map is injective iff kernel vanishes.md",
+    "Notes/Linear map fixes zero vector.md"
   ]
 }
