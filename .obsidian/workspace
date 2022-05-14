@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "b0c9e49f6c801035",
+        "id": "fa0893789d98701b",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b0c9e49f6c801035",
+  "active": "fa0893789d98701b",
   "lastOpenFiles": [
-    "Notes/Basis for null space of matrix (explicit).md",
-    "Notes/Subspaces of finite-dim. vector spaces have complements.md",
-    "Notes/Direct Complement (Linear Subspace).md",
+    "Notes/Linear Map.md",
+    "Notes/Linear Isomorphism.md",
+    "Notes/Linear map to a smaller dimensional space is not injective.md",
+    "Notes/Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper).md",
     "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
     "Notes/Linearly independent subset of a vector space extends to a basis.md",
-    "Notes/Linear Subspace.md",
-    "Notes/Internal Direct Sum (Linear Algebra).md",
-    "Notes/Internal direct sum iff unique representation iff only trivial representation of zero.md",
-    "Notes/Vector Space.md",
-    "Notes/Minkowski Sum (Linear Algebra).md"
+    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
+    "Notes/Linear Independence.md",
+    "Notes/Spanning set of a vector space cuts down to a basis.md",
+    "Notes/Dimension of vector space is zero iff it is the zero vector space.md"
   ]
 }

@@ -5,11 +5,11 @@ Date Created: 04/04/2022 23:26:15
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [$\dim V=0$ $\Leftrightarrow$ $V=\l\{0\r\}$](Dimension%20of%20of%20vector%20space%20is%20zero%20iff%20it%20is%20the%20zero%20vector%20space.md), [[Column Rank]]
+Examples: [$\dim V=0$ $\Leftrightarrow$ $V=\l\{0\r\}$](Dimension%20of%20vector%20space%20is%20zero%20iff%20it%20is%20the%20zero%20vector%20space.md), [[Column Rank]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [$\dim U<\dim V$ for $U\subset V$ strict linear subspace](Dimension%20of%20proper%20subspace%20strictly%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.).md)
+Properties: [[Dimension Theorem]], [$\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$](Dimension%20of%20subspace%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.;%20strict%20iff%20proper).md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Every vector space has a basis]], [[Invariance of cardinality of bases (finite-dim.)]]

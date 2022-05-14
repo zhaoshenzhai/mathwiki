@@ -8,7 +8,7 @@ custom_alias: Linear map $T:V\to W$ with $\dim V=\dim W<\infty$ is injective $\L
 Date Created: 13/05/2022 21:23:44
 Tags: #Proposition #Closed
 
-Proved by: [[Dimension Theorem]], [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md), [$\dim U<\dim V$ for $U\subset V$ strict linear subspace](Dimension%20of%20proper%20subspace%20strictly%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.).md), [$\dim V=0$ $\Leftrightarrow$ $V=\l\{0\r\}$](Dimension%20of%20of%20vector%20space%20is%20zero%20iff%20it%20is%20the%20zero%20vector%20space.md)
+Proved by: [[Dimension Theorem]], [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md), [$\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$](Dimension%20of%20subspace%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.;%20strict%20iff%20proper).md), [$\dim V=0$ $\Leftrightarrow$ $V=\l\{0\r\}$](Dimension%20of%20vector%20space%20is%20zero%20iff%20it%20is%20the%20zero%20vector%20space.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
