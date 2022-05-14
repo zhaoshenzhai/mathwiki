@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [$\mat{n}{K}=\sym{n}{K}\oplus\skew{n}{K}$ for $\char K\neq2$](Symmetric%20and%20skew-symmetric%20decomposition%20of%20matrices.md)
-Constructions: _Not Applicable_
+Constructions: [[Direct Complement (Linear Subspace)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

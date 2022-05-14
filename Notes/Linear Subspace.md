@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Null Space]], [[Kernel]], [[Image (Linear Map)]], [$\Diag{n}{K}$](Vector%20Space%20of%20Diagonal%20Matrices.md), [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md), [$\skew{n}{K}$](Vector%20Space%20of%20Skew-symmetric%20Matrices.md), [[Trivial Subspaces (Linear Algebra)]]
-Constructions: [[Linear Span]], [[Minkowski Sum (Linear Algebra)]]
+Constructions: [[Linear Span]], [[Minkowski Sum (Linear Algebra)]], [[Direct Complement (Linear Subspace)]]
 Generalizations: _Not Applicable_
 
 Properties: [$\dim U<\dim V$ for $U\subset V$ strict linear subspace](Dimension%20of%20proper%20subspace%20strictly%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.).md), [[Arbitrary intersection of linear subspaces is a linear subspace]]
