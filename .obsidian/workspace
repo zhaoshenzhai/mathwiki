@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "fa0893789d98701b",
+        "id": "1e2ab19c1f017cd9",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Isomorphism.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "5afda728e0a2901a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -151,7 +169,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.4272529063042367,
+                  "scale": 0.40838186226605816,
                   "close": true
                 }
               }
@@ -163,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "fa0893789d98701b",
+  "active": "5afda728e0a2901a",
   "lastOpenFiles": [
-    "Notes/Linear Map.md",
+    "Notes/Homogeneous m by n linear system with m<n has a non-trivial solution.md",
     "Notes/Linear Isomorphism.md",
     "Notes/Linear map to a smaller dimensional space is not injective.md",
+    "Notes/Linear map to a larger dimensional space is not surjective.md",
+    "Notes/Dimension (Linear Algebra).md",
+    "Notes/Injection.md",
+    "Notes/Linear Map.md",
+    "Notes/Subspaces of finite-dim. vector spaces have complements.md",
     "Notes/Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper).md",
-    "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
-    "Notes/Linearly independent subset of a vector space extends to a basis.md",
-    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
-    "Notes/Linear Independence.md",
-    "Notes/Spanning set of a vector space cuts down to a basis.md",
-    "Notes/Dimension of vector space is zero iff it is the zero vector space.md"
+    "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md"
   ]
 }
