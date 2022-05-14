@@ -8,34 +8,30 @@ custom_alias: $\l|\textrm{Linearly independent set}\r|\leq\l|\textrm{Spanning se
 Date Created: 06/04/2022 21:12:19
 Tags: #Proposition #Closed
 
-Proved by: [Homogeneous $m\times n$ linear system with $n>m$ has non-trivial solutions](Homogeneous%20linear%20system%20with%20more%20unknowns%20than%20equations%20has%20non-trivial%20solutions.md)
+Proved by: [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
-title: Proposition.
+title: Proposition (Steinitz Exchange Lemma).
 
-_Let $U,W\subseteq V$ be finite subsets of a (finite-dimensional) vector space $V$ over a field $K$. If $U$ is a linearly independent set and $\span W=V$, then $\l|U\r|\leq\l|W\r|$._
+_Let $S\coloneqq\l\{s_1,\dots,s_n\r\}$ and $L\coloneqq\l\{l_1,\dots,l_m\r\}$ be finite subsets of a (finite-dimensional) vector space $V$ over a field $K$. If $L$ is a linearly independent set and $\span S=V$, then $\l|L\r|\leq\l|S\r|$._
+
+_Furthermore, there exists a subset $T\subseteq S$ with $\l|T\r|=\l|S\r|-\l|L\r|$ such that $\span\l(L\cup T\r)=V$._
 
 ```
 
-_Proof_. Let $U\coloneqq\l\{u_1,\dots,u_n\r\}$ and $W\coloneqq\l\{w_1,\dots,w_m\r\}$; it suffices to prove the contrapositive statement, which states that if $n>m$, then either $U$ is linearly dependent or $\span W\neq V$. Assume that $\span W=V$, so there exist scalars $\alpha_{ij}\in K$ such that
+_Proof_. We proceed by induction on $m$.
+* If $m=0$, then $L=\em$ and thus $\l|L\r|\leq\l|S\r|$ trivially. Take $T\coloneqq S$ and observe that $\span\l(L\cup T\r)=\span T=\span S=V$.
+
+Assume now that the theorem holds for some $m\in\N$ and let $L=\l\{l_1,\dots,l_{m+1}\r\}$ be linearly independent. It follows then that $L'\coloneqq\l\{l_1,\dots,l_m\r\}$ is linearly independent, so, by our induction hypothesis, we see that $m=\l|L'\r|\leq\l|S\r|=n$ and there is some subset $T'\coloneqq\l\{s_1,\dots,s_{n-m}\r\}\subseteq S$ such that $\span\l(L'\cup T'\r)=V$. Thus there exist coefficients $\alpha_1,\dots,\alpha_m,\beta_1,\dots,\beta_{n-m}$ such that
 $$\begin{equation}
-    u_j=\sum_{i=1}^m\alpha_{ij}w_i
+    l_{m+1}=\sum_{i=1}^m\alpha_il_i+\sum_{i=1}^{\mathclap{n-m}}\beta_is_i.\tag{$\ast_1$}
 \end{equation}$$
-for all $j\in\l\{1,\dots,n\r\}$. To show that $U$ is linearly dependent, take any scalars $x_i,\dots,x_n$ and consider the linear combination
+Note that the second sum must not vanish, lest $l_{m+1}\in\span\l\{l_1,\dots,l_m\r\}$, contradicting the independence of $L$. This amounts to $n>m$ and $\beta_j\neq0$ for some $j\in\l\{1,\dots,n-m\r\}$; w.l.o.g., assume $j=1$. Hence $m+1=\l|L\r|\leq\l|S\r|=n$, proving the first part. For the second, rearrange $\ref{\ast_1}$ to obtain
 $$\begin{equation}
-    \begin{aligned}
-        \sum_{j=1}^nx_ju_j&=\sum_{j=1}^nx_j\l(\sum_{i=1}^m\alpha_{ij}w_i\r) &&\textrm{Substitution} \\
-        &=\sum_{j=1}^n\sum_{i=1}^m\alpha_{ij}x_jw_i && \textrm{Left-distribution in $K$} \\
-        &=\sum_{i=1}^m\sum_{j=1}^n\alpha_{ij}x_jw_i && \textrm{Discrete Fubini's Theorem} \\
-        &=\sum_{i=1}^m\l(\sum_{j=1}^n\alpha_{ij}x_j\r)w_i. && \textrm{Right-distribution in $K$}
-    \end{aligned}
+    s_1=\frac{1}{\beta_1}\l(l_{m+1}-\sum_{i=1}^m\alpha_il_i+\sum_{i=2}^{\mathclap{n-m}}\beta_is_i\r).\tag{$\ast_2$}
 \end{equation}$$
-It suffices to show that the linear combination vanishes despite the fact that it is not the trivial one. Observe that to do so, it further suffices to show that the inner sum vanishes, so consider the $m\times n$ homogeneous linear system $A\v{x}=\v{0}$. The fact that this system has a non-trivial solution follows from the fact that $m<n$. It follows then that
-$$\begin{equation}
-    \sum_{j=1}^nx_ju_i=0_V\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \ex j\in\l\{1,\dots,n\r\}:x_j\neq0,
-\end{equation}$$
-so $U$ is linearly dependent.<span style="float:right;">$\blacksquare$</span>
+Let $T\coloneqq\l\{s_2,s_3,\dots,s_{n-m}\r\}$, so $\l|T\r|=n-m-2+1=n-\l(m+1\r)=\l|S\r|-\l|L\r|$. It remains to show that $\span\l(L\cup T\r)=V$. To this end, observe that $\span\l(L'\cup T'\r)=V$ is the smallest subspace of $V$ containing $L'\cup T'$, so the result follows if we show that $L'\cup T'\subseteq\span\l(L\cup T\r)$. Clearly $L'\cup T\subseteq\span\l(L\cup T\r)$, and $\ref{\ast_2}$ implies that $s_1\in\span\l(L\cup T\r)$.<span style="float:right;">$\blacksquare$</span>
