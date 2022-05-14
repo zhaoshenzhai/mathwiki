@@ -8,7 +8,7 @@ custom_alias: $\l|\textrm{Linearly independent set}\r|\leq\l|\textrm{Spanning se
 Date Created: 06/04/2022 21:12:19
 Tags: #Proposition #Closed
 
-Proved by: [Homogeneous $m\times n$ linear system with $m<n$ $\Rightarrow$ non-trivial solutions](Homogeneous%20m%20by%20n%20linear%20system%20with%20m<n%20has%20a%20non-trivial%20solution.md)
+Proved by: [Homogeneous $m\times n$ linear system with $n>m$ has non-trivial solutions](Homogeneous%20linear%20system%20with%20more%20unknowns%20than%20equations%20has%20non-trivial%20solutions.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

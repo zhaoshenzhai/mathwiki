@@ -4,14 +4,14 @@
 Date Created: 22/03/2022 16:53:18
 Tags: #Definition #Closed 
 
-Types: [[Homogeneous Linear System]]
+Types: [[Homogeneous Linear System]], [[Inhomogeneous Linear System]]
 Examples: _Not Applicable_
 Constructions: [[Augmented Matrix]], [[Linear Combination (Linear System)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Solutions of linear system of equations]], [[Classification of linear systems of equations (infinite field)]], [Linear system $A\v{x}=\v{b}$ is consistent for all $\v{b}$ $\Rightarrow$ $A$ is right-invertible](Linear%20system%20is%20consistent%20for%20all%20constants%20implies%20coefficient%20matrix%20right-invertible.md)
+Properties: [[Solutions of linear system of equations]], [[Classification of linear systems of equations (infinite field)]]
 Sufficiencies: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
-Equivalences: [Linear system $A\v{x}=\v{b}$ is consistent $\Leftrightarrow$ $\v{b}\in\col\l(A\r)$](Linear%20system%20is%20consistent%20iff%20constant%20matrix%20is%20in%20column%20space%20of%20coefficient%20matrix.md)
+Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
 ``` ad-Definition
