@@ -151,6 +151,6 @@ $$\begin{equation}
     \sum_{\mathclap{j\in\mc{U}}}t_j\v{b}_j=\v{0}\ \ \ \ \ \ \ \ \xrightarrow{\textrm{Re-indexing}}\ \ \ \ \ \ \ \ \sum_{j=1}^{n-r}t_j\v{b}_j=\v{0}.
 \end{equation}$$
 Consider each $\v{b}_j\in\mat{n\times1}{K}$ as columns of the matrix $B\coloneqq\l[\v{b}_1\ \ \cdots\ \ \v{b}_{n-r}\r]\in\mat{n\times\l(n-r\r)}{K}$, so the tuple $\v{t}\coloneqq\l\langle t_1,\dots,t_{n-r}\r\rangle$ satisfies the homogeneous linear system $B\v{t}=\v{0}$. For each $\v{b}_j$, we have $\l(\v{b}_j\r)_j=\delta_{jj}=1$ and $\l(\v{b}_j\r)_l=\delta_{jl}=0$ for all $l\in\mc{U}$ with $l\neq j$. For this reason, we see that after performing elementary row operations that swap rows until all rows $\alpha\in\mc{K}$ are at the top, the bottom $\l(n-r\r)^2$ block can be rearranged into the identity matrix. Thus $B\v{t}=\v{0}$ can be written out as
-  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-04-17_202311/image.svg", width=300></center>
+  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-04-17_202311/image.svg", width=250></center>
 
   which, by matrix multiplication, implies that $t_1=\cdots=t_{n-r}=0$.<span style="float:right;">$\blacksquare$</span>
