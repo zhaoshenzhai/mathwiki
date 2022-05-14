@@ -17,13 +17,13 @@
     \begin{figure}
         \tdplotsetmaincoords{70}{110}
         \begin{tikzpicture}[scale=3,tdplot_main_coords]
-            \filldraw[draw=drawGreen, fill=fillGreen]
+            \filldraw[draw=drawGreen, thick, fill=fillGreen]
                 (0.75,0.75,-0.2)--
                 (0.75,-0.75,0.2)--
-                (-0.75,-0.75,0.2) node[above] {$U$}--
+                (-0.75,-0.75,0.2) node[above] {$\color{drawGreen}U$}--
                 (-0.75,0.65,-0.2)--
                 cycle;
-            \draw[drawBlue, thick, <->] (0.75,-0.75,-0.375) -- (-0.75,0.75,0.375) node[pos = 1.05] {$\color{textColor}W$};
+            \draw[drawBlue, thick, <->] (0.75,-0.75,-0.375) -- (-0.75,0.75,0.375) node[pos = 1.05] {$\color{drawBlue}W$};
             \draw[thick,->] (0,0,0) -- (1.5,0,0) node[anchor=north east]{$x_1$};
             \draw[thick,->] (0,0,0) -- (0,1,0) node[anchor=north west]{$x_2$};
             \draw[thick,->] (0,0,0) -- (0,0,0.75) node[anchor=south]{$x_3$};
