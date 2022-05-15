@@ -5,7 +5,7 @@ Date Created: 01/04/2022 19:04:20
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Linear isomorphisms between tuples, row vectors, and column vectors]]
+Examples: [[Standard Representation (Finite-dim. Vector Space)]], [[Linear isomorphisms between tuples, row vectors, and column vectors]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

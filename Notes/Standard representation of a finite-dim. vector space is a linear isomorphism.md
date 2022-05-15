@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 15/05/2022 22:49:38
-Tags: #Proposition #Closed
+Tags: #Proposition #In_Progress
 
 Proved by: [[Unique Representation Theorem (Hamel)]]
 Justifications: _Not Applicable_
@@ -13,14 +13,11 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a finite-dimensional vector space over some field $K$, say with $n\coloneqq\dim V$, and fix a choice of basis $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}$ of $V$. Then the representation function_
+_Let $V$ be a finite-dimensional vector space over some field $K$, say with $n\coloneqq\dim V$, and fix a choice of basis $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}$ of $V$. Then the standard representation_
 $$\begin{equation}
-    \begin{aligned}
-        \rho_\mc{B}:V&\to\mat{n\times1}{K} \\
-        v&\mapsto\l[v\r]_\mc{B}
-    \end{aligned}
+    \rho_\mc{B}:V\to K^n\ \ \ \ \textrm{\it{mapping}}\ \ \ \ v\mapsto\l[v\r]_\mc{B}
 \end{equation}$$
-_is a linear map_.
+_is a linear isomorphism_.
 
 ```
 
