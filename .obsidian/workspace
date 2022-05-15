@@ -14,30 +14,6 @@
             "source": true
           }
         }
-      },
-      {
-        "id": "15b1148390b8fe38",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Steinitz Exchange Lemma.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "d31142f829f76a0e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Independence.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -97,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Independence.md",
+                "file": "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Independence.md",
+                "file": "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +157,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.40838186226605816,
+                  "scale": 0.1075518321247357,
                   "close": true
                 }
               }
@@ -193,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Independence.md",
+                "file": "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,11 +182,11 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "d31142f829f76a0e",
+  "active": "244f66ab96aec315",
   "lastOpenFiles": [
-    "Notes/Linear Independence.md",
-    "Notes/Steinitz Exchange Lemma.md",
     "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
+    "Notes/Steinitz Exchange Lemma.md",
+    "Notes/Linear Independence.md",
     "Notes/Spanning Set.md",
     "Notes/Linearly independent subset of a vector space extends to a basis.md",
     "Notes/Linearly independent subset of an arbitrary vector space extends to a basis.md",

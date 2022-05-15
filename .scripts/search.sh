@@ -17,7 +17,7 @@ cd ~/MathWiki/Notes
 
 printf "\n"
 
-queryPrompt="Query [string]:"
+queryPrompt="Query [string]: "
 read -ep "$(echo -e ${CYAN}$queryPrompt${NC})" query
 while [ -z "$query" ]; do
     read -p "$(echo -e ${CYAN}$queryPrompt${NC})" query
@@ -25,7 +25,7 @@ done
 
 query=$(Format "$query")
 
-sensitivePrompt="Case sensitive? [N/y]:"
+sensitivePrompt="Case sensitive? [N/y]: "
 read -ep "$(echo -e ${CYAN}$sensitivePrompt${NC})" sensitive
 while [ -z "$sensitive" ]; do
     sensitive="n"
