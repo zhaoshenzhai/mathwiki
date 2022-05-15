@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "b3d2bed363ab376e",
+        "id": "244f66ab96aec315",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "15b1148390b8fe38",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Steinitz Exchange Lemma.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "d31142f829f76a0e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Independence.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linear Independence.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linear Independence.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear Independence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b3d2bed363ab376e",
+  "active": "d31142f829f76a0e",
   "lastOpenFiles": [
-    "Notes/Cardinality of linearly independent sets no more than that of spanning sets (finite-dim.).md",
-    "Notes/Linearly dependent iff exists span redundant element.md",
-    "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
-    "Notes/Linearly independent subset of a vector space extends to a basis.md",
-    "Notes/Linearly dependent iff scalar multiple.md",
     "Notes/Linear Independence.md",
-    "Notes/Homogeneous linear system with more unknowns than equations has non-trivial solutions.md",
-    "Notes/Inhomogeneous linear system with more equations than unknowns is inconsistent for some constant terms.md",
-    "Notes/Linear map to a lower dimensional space is not injective.md",
-    "Notes/Dimension Theorem.md"
+    "Notes/Steinitz Exchange Lemma.md",
+    "Notes/Linearly independent subset of a finite-dim. vector space extends to a basis.md",
+    "Notes/Spanning Set.md",
+    "Notes/Linearly independent subset of a vector space extends to a basis.md",
+    "Notes/Linearly independent subset of an arbitrary vector space extends to a basis.md",
+    "Notes/Dimension (Linear Algebra).md",
+    "Notes/Dimension Theorem.md",
+    "Notes/Linear System of Equations.md",
+    "Notes/Homogeneous Linear System.md"
   ]
 }
