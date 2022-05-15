@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 06/04/2022 21:12:19
-Tags: #Proposition #Closed
+Tags: #Theorem #Closed
 
 Proved by: [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 Justifications: _Not Applicable_
@@ -10,8 +10,8 @@ Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
-``` ad-Proposition
-title: Proposition (Steinitz Exchange Lemma).
+``` ad-Theorem
+title: Theorem (Steinitz Exchange Lemma).
 
 _Let $S\coloneqq\l\{s_1,\dots,s_n\r\}$ and $L\coloneqq\l\{l_1,\dots,l_m\r\}$ be finite subsets of a (finite-dimensional) vector space $V$ over a field $K$. If $L$ is a linearly independent set and $\span S=V$, then $\l|L\r|\leq\l|S\r|$._
 

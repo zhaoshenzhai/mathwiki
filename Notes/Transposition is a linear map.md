@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. Then the transposition operation_
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then the transposition function_
 $$\begin{equation}
     \begin{aligned}
         \l(\slot\r)^\trans:\mat{m\times n}{K}&\to\mat{n\times m}{K} \\

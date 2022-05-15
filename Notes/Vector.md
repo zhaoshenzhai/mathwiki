@@ -6,11 +6,11 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Linear Combination (Vector)]]
+Constructions: [[Linear Combination (Vector)]], [[Matrix Representation of a Vector]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Unique Representation Theorem (Hamel)]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
