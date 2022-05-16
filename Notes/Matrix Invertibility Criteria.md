@@ -20,9 +20,7 @@ _Let $K$ be a field and consider a matrix $A\in\mat{n}{K}$. Then the following s
 4. _$A^\trans$ is invertible._
 5. _$A$ is row-equivalent to the identity matrix._
 6. _The homogeneous system $A\v{x}=\v{0}$ has only the trivial solution._
-    * _Equivalently, $\null\l(A\r)=\l\{\v{0}\r\}$, or $\dim\null\l(A\r)=0$, or $\nullity\l(A\r)=0$._
 7. _For all $\v{b}\in K^n$, the linear system $A\v{x}=\v{b}$ has a unique solution._
-    * _Equivalently, $\col\l(A\r)=K^n$, or $\dim\col\l(A\r)=n$, or $\rank\l(A\r)=n$._
     * _It suffices for $A\v{x}=\v{b}$ to be consistent for all $\v{b}\in K^n$._
 
 ```

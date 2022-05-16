@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Linear Isomorphism]], [[Linear Operator]]
 Examples: [[Transposition]], [[Identity function is a linear map]], [[Linear map Induced by a Matrix]]
-Constructions: [[Set of Linear Maps]], [[Kernel]], [[Image (Linear Map)]]
+Constructions: [[Kernel]], [[Image (Linear Map)]], [$\catvect[K]$](Category%20of%20Vector%20Spaces.md), [[Matrix Representation of Linear Maps]]
 Generalizations: _Not Applicable_
 
 Properties: [[Composition of linear maps is a linear map]], [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md), [[Linear map fixes zero vector]]
@@ -21,6 +21,8 @@ _Let $K$ be a field and consider the vector spaces $V$ and $W$ over $K$. A **lin
 * _$\axilin[1]$ (Additivity)$\bf{.}$ $\fa v_1,v_2\in V:T\l(v_1+v_2\r)=T\l(v_1\r)+T\l(v_2\r)$._
 * _$\axilin[2]$ (Homogeneity)$\bf{.}$ $\fa\alpha\in K,\fa v\in V:T\l(\alpha v\r)=\alpha T\l(v\r)$._
 
+_The set of all linear maps from $V$ to $W$ is denoted_ $\hom_{\catvect[K]}\!\l(V,W\r)$_; that is, linear maps are $\catvect[K]$-morphisms._
+
 ```
 
 **Remark.** Equivalently, $\axilin[1]$ and $\axilin[2]$ can be combined into
@@ -31,10 +33,3 @@ $$\begin{align}
     T\l(\alpha v_1+v_2\r)&=T\l(\alpha v_1\r)+T\l(v_2\r) && \textrm{Additivity} \\
     &=\alpha T\l(v_1\r)+T\l(v_2\r). && \textrm{Homogeneity}\exqedin
 \end{align}$$
----
-
-**Remark.** By induction, we see that
-$$\begin{equation}
-    T\l(\sum_{i=1}^n\alpha_iv_i\r)=\sum_{i=1}^n\alpha_iT\l(v_i\r)
-\end{equation}$$
-for all $v_1,\dots,v_n\in V$ and $\alpha_1,\dots,\alpha_n\in K$.<span style="float:right;">$\blacklozenge$</span>

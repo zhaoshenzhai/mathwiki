@@ -25,7 +25,7 @@ $$\begin{equation}
             \delta_{u\alpha} & \textrm{\it{else}}
         \end{dcases}
 \end{equation}$$
-_for all $u\in\mc{U}$ and $\alpha\in\l\{1,\dots,n\r\}$, form a basis for $\null\l(A\r)$._
+_for all $u\in\mc{U}$ and $\alpha\in\l\{1,\dots,n\r\}$, form a basis for $\nullsp\l(A\r)$._
 
 ```
 
@@ -83,13 +83,13 @@ $$\begin{equation}
 \end{equation}$$
 which is a linear combination of the three linearly independent column vectors $\v{b}_2$, $\v{b}_4$, and $\v{b}_5$.
 
-In general, the vector $\v{b}_u$ for each $\textrm{`}$free variable$\textrm{'}$ $u\in\mc{U}$ is the solution of $A\v{x}=\v{0}$ corresponding to choosing $t_u=1$ and $t_j=0$ for all $j\neq u$; they are called the **basic solutions of $A\v{x}=\v{0}$**. The set $\mc{B}$ of all such vectors is a linearly independent spanning set for $\null\l(A\r)$, and since there are $\l(n-r\r)$-many such vectors, we have
+In general, the vector $\v{b}_u$ for each $\textrm{`}$free variable$\textrm{'}$ $u\in\mc{U}$ is the solution of $A\v{x}=\v{0}$ corresponding to choosing $t_u=1$ and $t_j=0$ for all $j\neq u$; they are called the **basic solutions of $A\v{x}=\v{0}$**. The set $\mc{B}$ of all such vectors is a linearly independent spanning set for $\nullsp\l(A\r)$, and since there are $\l(n-r\r)$-many such vectors, we have
 $$\begin{equation}
-    \dim\null\l(A\r)=n-r
+    \dim\nullsp\l(A\r)=n-r
 \end{equation}$$
 which, observing that $\rank\l(A\r)=r$, is equivalent to
 $$\begin{equation}
-    \rank\l(A\r)+\dim\null\l(A\r)=\dim\l(K^n\r).
+    \rank\l(A\r)+\dim\nullsp\l(A\r)=\dim\l(K^n\r).
 \end{equation}$$
 This can be seen as a special case of the Dimension Theorem with $A$ in place of a linear map $T:V\to W$ and $K^n$ in place of $V$.<span style="float:right;">$\blacklozenge$</span>
 
@@ -119,8 +119,8 @@ $$\begin{equation}
 \end{equation}$$
 To remove the second case, observe that $\alpha\in\mc{K}$ and thus $u\neq\alpha$ (since $u\in\mc{U}\Rightarrow u\not\in\mc{K}$). The result follows since $\delta_{u\alpha}=0$, so the last two cases can be combined.
 
-It remains to show that $\span\l(\mc{B}\r)=\null\l(A\r)$ and that $\mc{B}$ is linearly independent.
-* ($\span\l(\mc{B}\r)=\null\l(A\r)$): Take $\v{s}\in\null\l(A\r)$, so $A\v{s}=\v{0}$ and thus
+It remains to show that $\span\l(\mc{B}\r)=\nullsp\l(A\r)$ and that $\mc{B}$ is linearly independent.
+* ($\span\l(\mc{B}\r)=\nullsp\l(A\r)$): Take $\v{s}\in\nullsp\l(A\r)$, so $A\v{s}=\v{0}$ and thus
 $$\begin{equation}
     s_\alpha=
         \begin{dcases}
@@ -144,7 +144,7 @@ $$\begin{equation}
         &=\sum_{\mathclap{j\in\mc{U}}}t_\alpha\l(\v{b}_j\r)_\alpha. && \textrm{Substitution}
     \end{aligned}
 \end{equation}$$
-Since $\v{s}=\l\langle s_1,\dots,s_n\r\rangle$ and each $s_j$ is expressed as a sum of components of $\v{b}_j$, we can factor out the sum and write $\v{s}$ as a linear combination of $\mc{B}$. It follows then that $\v{s}\in\span\l(\mc{B}\r)$, and since $\span\l(\mc{B}\r)$ is an intersection of subspaces of $\null\l(A\r)$, we have that $\span\l(\mc{B}\r)\subseteq\null\l(A\r)$. Equality follows.
+Since $\v{s}=\l\langle s_1,\dots,s_n\r\rangle$ and each $s_j$ is expressed as a sum of components of $\v{b}_j$, we can factor out the sum and write $\v{s}$ as a linear combination of $\mc{B}$. It follows then that $\v{s}\in\span\l(\mc{B}\r)$, and since $\span\l(\mc{B}\r)$ is an intersection of subspaces of $\nullsp\l(A\r)$, we have that $\span\l(\mc{B}\r)\subseteq\nullsp\l(A\r)$. Equality follows.
 
 * ($\mc{B}$ is linearly independent): Take $t_j\in K$ for all $j\in\mc{U}$ such that
 $$\begin{equation}

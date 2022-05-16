@@ -25,4 +25,4 @@ _of $V$._
 
 ```
 
-**Remark.** If $T:K^n\to K^m$ for some $m,n\in\N^\ast$, we see that there exists a unique matrix $A\in\mat{m\times n}{K}$ such that $T\l(\v{x}\r)=A\v{x}$ for all $\v{x}\in K^n$. Indeed, $\ker T$ reduces to $\null A$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If $T:K^n\to K^m$ for some $m,n\in\N^\ast$, we see that there exists a unique matrix $A\in\mat{m\times n}{K}$ such that $T\l(\v{x}\r)=A\v{x}$ for all $\v{x}\in K^n$. Indeed, $\ker T$ reduces to $\nullsp A$.<span style="float:right;">$\blacklozenge$</span>
