@@ -19,7 +19,7 @@ title: Definition.
 
 _Let $V$ be a finite-dimensional vector space over some field $K$, say with $n\coloneqq\dim V$, and fix a choice of basis_ $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}$ _of $V$. The **standard representation of $V$ relative to $\mc{B}$** is the function_
 $$\begin{equation}
-    \rho_\mc{B}:V\to K^n\ \ \ \ \textrm{\it{mapping}}\ \ \ \ v\mapsto\l[v\r]_\mc{B}\coloneqq\l\langle\alpha_1,\dots,\alpha_n\r\rangle
+    \phi_\mc{B}:V\to K^n\ \ \ \ \textrm{\it{mapping}}\ \ \ \ v\mapsto\l[v\r]_\mc{B}\coloneqq\l\langle\alpha_1,\dots,\alpha_n\r\rangle
 \end{equation}$$
 _where $\alpha_1,\dots,\alpha_n\in K$ are the unqiue coefficients such that_ $v=\sum_{i=1}^n\alpha_ib_i$_._
 
