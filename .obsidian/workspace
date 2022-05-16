@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b6092c11ffe2f053",
+        "id": "7e80c7956a60084e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Vector Space of Linear Maps.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "d9f0a55063f6d32b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Matrix Representation of Linear Maps.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Vector Space of Linear Maps.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Vector Space of Linear Maps.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Vector Space of Linear Maps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b6092c11ffe2f053",
+  "active": "7e80c7956a60084e",
   "lastOpenFiles": [
     "Notes/Vector Space of Linear Maps.md",
+    "Notes/Matrix Representation of Linear Maps.md",
+    "Notes/Unique Representation Theorem (Hamel).md",
+    "Notes/Set of Matrices.md",
+    "Notes/Vector Space of Matrices.md",
     "Notes/Linear Map.md",
     "Notes/Category of Vector Spaces.md",
     "Notes/Category of Relations.md",
     "Notes/Function Space (Set Theory).md",
-    "Notes/Function.md",
-    "Notes/Category of Sets.md",
-    "Notes/Matrix Representation of Linear Maps.md",
-    "Notes/Standard Representation of Finite-dim. Vector Spaces.md",
-    "Notes/Linear Isomorphism.md"
+    "Notes/Function.md"
   ]
 }

@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle V,K,+_V,\cdot_V,0_V\r\rangle$ and $\l\langle W,K,+_V,\cdot_W,0_W\r\rangle$ be vector spaces over some field $K$. The **vector space of linear maps from $V$ to $W$** is the hom-set_
+_Let $V$ and $W$ be vector spaces over some field $K$. The **vector space of linear maps from $V$ to $W$** is the hom-set_
 $$\begin{equation}
     \hom\l(V,W\r)\coloneqq\l\{T\in W^V\mid T\textrm{ \it{is a linear map}}\r\}
 \end{equation}$$
