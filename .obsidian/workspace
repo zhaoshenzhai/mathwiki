@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0eee26fb6c9d46ba",
+        "id": "872b050dc9cb05c1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Standard Representation of Finite-dim. Vector Spaces.md",
+            "file": "Notes/Function.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "a388c0d5c6b48ed6",
+        "id": "d4f951e6f8bc27b4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Matrix Representation of Linear Maps.md",
+            "file": "Notes/Function Space (Set Theory).md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Matrix Representation of Linear Maps.md",
+                "file": "Notes/Function.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Matrix Representation of Linear Maps.md",
+                "file": "Notes/Function.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Matrix Representation of Linear Maps.md",
+                "file": "Notes/Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "a388c0d5c6b48ed6",
+  "active": "872b050dc9cb05c1",
   "lastOpenFiles": [
+    "Notes/Function.md",
+    "Notes/Function Space (Set Theory).md",
     "Notes/Matrix Representation of Linear Maps.md",
-    "Notes/Category of Vector Spaces.md",
     "Notes/Linear Map.md",
     "Notes/Matrix.md",
+    "Notes/Standard Representation of Finite-dim. Vector Spaces.md",
+    "Notes/Criteria for equality of linear maps via spanning set.md",
+    "Notes/Category of Vector Spaces.md",
     "Notes/Set of Matrices.md",
-    "Notes/Linear Operator.md",
-    "Notes/Linear Isomorphism.md",
-    "Notes/Morphism (Category Theory).md",
-    "Notes/Set of Linear Maps.md",
-    "Notes/Standard Representation of Finite-dim. Vector Spaces.md"
+    "Notes/Linear Operator.md"
   ]
 }

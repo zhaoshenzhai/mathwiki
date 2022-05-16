@@ -33,4 +33,4 @@ _where_ $a_{ij}\in K$ _are the unique coefficients such that_ $T\l(b_j\r)=\sum_{
 
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-05-16_183714/image.svg", width=150></center>
 
-If $V=W$ and $\mc{B}=\mc{C}$, write $\l[T\r]_\mc{B}\coloneqq\l[T\r]_\mc{B}^\mc{B}$.<span style="float:right;">$\blacklozenge$</span>
+That is, $\l(\l[T\r]_\mc{B}^\mc{C}\r)_{\!\!\blob;j\!\!}=\l[T\l(b_j\r)\r]_\mc{C}$ where $\l[\slot\r]_\mc{C}$ is the standard representation of $W$ relative to $\mc{C}$. If $V=W$ and $\mc{B}=\mc{C}$, write $\l[T\r]_\mc{B}\coloneqq\l[T\r]_\mc{B}^\mc{B}$.<span style="float:right;">$\blacklozenge$</span>

@@ -25,4 +25,4 @@ _where $\alpha_1,\dots,\alpha_n\in K$ are the unqiue coefficients such that_ $v=
 
 ```
 
-**Remark.** For each $v\in V$, the tuple $\l[v\r]_\mc{B}$ is also called the **coordinate vector of $v$ relative to $\mc{B}$**.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** For each $v\in V$, the tuple $\l[v\r]_\mc{B}$ is also called the **coordinate vector of $v$ relative to $\mc{B}$**. It is sometimes convenient to instead define $\l[v\r]_\mc{B}\coloneqq\l[\alpha_1\ \ \cdots\ \ \alpha_n\r]^\trans\in\mat{n\times1}{K}$ as a column matrix (in order to perform matrix multiplication).<span style="float:right;">$\blacklozenge$</span>
