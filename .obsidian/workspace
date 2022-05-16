@@ -7,8 +7,12 @@
         "id": "0eee26fb6c9d46ba",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Standard Representation (Finite-dim. Vector Space).md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Standard Representation (Finite-dim. Vector Space).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Standard Representation (Finite-dim. Vector Space).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Standard Representation (Finite-dim. Vector Space).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,14 +185,14 @@
   "active": "0eee26fb6c9d46ba",
   "lastOpenFiles": [
     "Notes/Standard Representation (Finite-dim. Vector Space).md",
-    "Notes/Standard representation of a finite-dim. vector space is a linear isomorphism.md",
-    "Notes/Linear Map.md",
     "Notes/Linear Isomorphism.md",
-    "Notes/Unique Representation Theorem (Hamel).md",
-    "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Vector Space.md",
-    "Notes/Vector.md",
-    "Notes/Matrix.md",
+    "Notes/Standard representation of a finite-dim. vector space is a linear isomorphism.md",
+    "Notes/Injection.md",
+    "Notes/Invertible Function.md",
+    "Notes/Isomorphism (Set Theory).md",
+    "Notes/Invertible Morphism.md",
+    "Notes/Isomorphism (Category Theory).md",
+    "Notes/Bijection.md",
     "Notes/Hamel Basis.md"
   ]
 }
