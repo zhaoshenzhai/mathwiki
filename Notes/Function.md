@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Injection]], [[Surjection]], [[Left-invertible Function]], [[Right-invertible Function]], [$n$-ary Operation](n-ary%20Operation.md), [[Indexed Family]], [[Linear Map]]
 Examples: [[Kronecker Delta]]
-Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Function Space (Set Theory)]]
+Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Function Space (Set Theory)]], [$\catset$](Category%20of%20Sets.md)
 Generalizations: [[Morphism (Category Theory)]], [[Class Function]]
 
 Properties: [[Collection of all functions is a proper class]]

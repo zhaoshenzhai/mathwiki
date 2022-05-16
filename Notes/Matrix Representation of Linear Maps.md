@@ -21,7 +21,7 @@ _Let $V$ and $W$ be finite-dimensional vector spaces over some field $K$, say wi
 $$\begin{equation}
     \mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}\ \ \ \ \textrm{\it{and}}\ \ \ \ \mc{C}\coloneqq\l\{c_1,\dots,c_m\r\}
 \end{equation}$$
-_of $V$ and $W$, respectively. The **matrix representation of $\hom\l(V,W\r)$ relative to $\mc{B}$ and $\mc{C}$** is the function_
+_of $V$ and $W$, respectively. The **matrix representation of $\hom\l(V,W\r)$ relative to $\mc{B}$ and $\mc{C}$** is the linear isomorphism_
 $$\begin{equation}
     \Phi:\hom\l(V,W\r)\to\mat{m\times n}{K}\ \ \ \ \textrm{\it{mapping}}\ \ \ \ T\mapsto\l[T\r]_\mc{B}^\mc{C}\coloneqq\l[a_{ij}\r]
 \end{equation}$$
