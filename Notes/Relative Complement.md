@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Set of Relative Complements]]
 Generalizations: _Not Applicable_
 
-Properties: [[De Morgan's Laws]], [[Complement is anti-monotone w.r.t. subsets]], [[Double complement of set is set itself]], [[Absolute complement of a set is a proper class]]
+Properties: [[De Morgan's Laws]], [[Complement is anti-monotone w.r.t. subsets]], [[Double complement of set is set itself]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

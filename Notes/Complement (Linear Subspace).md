@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a vector space over some field $K$ and consider a linear subspace $U\subseteq V$. A **(direct) complement of $U$ in $V$** is a linear subspace $W\subseteq V$ such that $V=U\oplus W$._
+_Let $V$ be a vector space over some field $K$ and consider a linear subspace $U\subseteq V$. A **complement of $U$ in $V$** is a linear subspace $W\subseteq V$ such that $V=U\oplus W$._
 
 ```

@@ -8,7 +8,7 @@ Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
+Counterexamples: [[Absolute complement of a set is a proper class]]
 
 ``` ad-Proposition
 title: Proposition.
