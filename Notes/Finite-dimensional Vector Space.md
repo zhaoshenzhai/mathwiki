@@ -6,11 +6,11 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Tuple Space (Linear Algebra)]], [$\mat{m\times n}{K}$ (Vector Space)](Vector%20Space%20of%20Matrices.md), [[Zero Vector Space]]
-Constructions: _Not Applicable_
+Constructions: [[Standard Representation of Finite-dim. Vector Spaces]]
 Generalizations: _Not Applicable_
 
 Properties: [$\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$](Dimension%20of%20subspace%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.;%20strict%20iff%20proper).md)
-Sufficiencies: [[Standard Representation of Finite-dim. Vector Spaces]]
+Sufficiencies: _Not Applicable_
 Equivalences: [$V\iso K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md)
 Justifications: _Not Applicable_
 

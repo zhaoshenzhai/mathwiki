@@ -4,11 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "8b4e3a35d7624207",
+        "id": "ccbe4721fbe3e991",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear isomorphism between finite-dim vector spaces and tuple spaces.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "18d10ae07b370425",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear isomorphism between linear maps and matrices.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "35427987cb953d1f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Vector Space of Linear Maps.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "ba26dac87dd079e6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Set of linear maps form a linear subspace of the function space.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Set of linear maps form a linear subspace of the function space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +141,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Set of linear maps form a linear subspace of the function space.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -147,11 +189,11 @@
                   "nodeSizeMultiplier": 0.659023848019402,
                   "lineSizeMultiplier": 3.06767886014551,
                   "collapse-forces": false,
-                  "centerStrength": 0.150919563459984,
+                  "centerStrength": 0,
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.31633572561925555,
+                  "scale": 0.4503949689568163,
                   "close": true
                 }
               }
@@ -163,6 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Set of linear maps form a linear subspace of the function space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +218,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "8b4e3a35d7624207",
+  "active": "ba26dac87dd079e6",
   "lastOpenFiles": [
-    "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Standard Representation of Finite-dim. Vector Spaces.md",
-    "Notes/Linear isomorphism between finite-dim vector spaces and tuple spaces.md",
-    "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Linear Isomorphism.md",
-    "Notes/Tuples and Sequences.md",
-    "Notes/Linear isomorphisms between tuples, row vectors, and column vectors.md",
-    "Notes/Linear isomorphism between linear maps and matrices.md",
+    "Notes/Set of linear maps form a linear subspace of the function space.md",
     "Notes/Vector Space of Linear Maps.md",
-    "Notes/Matrix Representation of Linear Maps.md"
+    "Notes/Linear isomorphism between linear maps and matrices.md",
+    "Notes/Linear Map.md",
+    "Notes/Function.md",
+    "Notes/Function Space (Set Theory).md",
+    "Notes/Linear isomorphism between finite-dim vector spaces and tuple spaces.md",
+    "Notes/Vector Space of Matrices.md",
+    "Notes/Linear Subspace.md",
+    "Notes/Vector Space.md"
   ]
 }
