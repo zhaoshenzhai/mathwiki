@@ -54,7 +54,8 @@ while [ ! -z "$1" ]; do
 
             while IFS= read -r link; do
                 # Get obsidian link
-                obsidian=$(echo "$link" | sed 's/\[\([^]]*\)\][^\\(]*(\(.*$\)/\2/g' | sed 's/.$//g')
+                obsidian=${link#*](}
+                obsidian=${obsidian::-1}
                 obsidianLength=$(echo ${#obsidian})
 
                 # Extract current from obsidian
@@ -107,6 +108,7 @@ while [ ! -z "$1" ]; do
                 fi
             done <<< "$allLinks"
             echo -e "${CYAN}    DONE${NC}"
+            printf "\n"
         ;;
         --new|-n)
             echo -e "${CYAN}Checking for new math links...${NC}"
@@ -147,7 +149,6 @@ while [ ! -z "$1" ]; do
                 allDoubleCurrent=${allDoubleCurrent#*$'\n'}
             done <<< "$allDoubleCurrent"
             echo -e "${CYAN}    DONE${NC}"
-            printf "\n"
         ;;
     esac
 shift

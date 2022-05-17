@@ -57,8 +57,8 @@ while [[ "$repeat" == "Y" ]]; do
         ;;
         "4")
             printf "\n"
-            ~/MathWiki/.scripts/mathLinks.sh -n
             ~/MathWiki/.scripts/mathLinks.sh -u
+            ~/MathWiki/.scripts/mathLinks.sh -n
         ;;
         "5")
             printf "\n"
