@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c8b9812a79a8b12b",
+        "id": "89b576839c82bb2f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Vector Space of Linear Maps.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "e1b3f65c517343f4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Endomorphism Algebra over a Vector Space.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Vector Space of Linear Maps.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Vector Space of Linear Maps.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Vector Space of Linear Maps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "c8b9812a79a8b12b",
+  "active": "89b576839c82bb2f",
   "lastOpenFiles": [
     "Notes/Vector Space of Linear Maps.md",
-    "Notes/Endomorphism Algebra over a Vector Space.md",
+    "Notes/Endomorphism Algebra (Vector Space).md",
+    "Notes/Set of endomorphisms over a vector space form a unital associative algebra.md",
+    "Notes/Vector Space of Matrices.md",
+    "Notes/Composition (Function).md",
     "Notes/Matrix Multiplication.md",
     "Notes/Linear Map.md",
     "Notes/Endomorphism (Category Theory).md",
     "Notes/Morphism (Category Theory).md",
-    "Notes/Function.md",
-    "Notes/Identity Morphism.md",
-    "Notes/Left-invertible Morphism.md",
-    "Notes/Category (via Hom-classes).md"
+    "Notes/Function.md"
   ]
 }
