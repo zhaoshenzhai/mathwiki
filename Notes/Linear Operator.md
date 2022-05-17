@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [$\edm_{\catvect[K]}\!\l(V\r)$](Endomorphism%20Algebra%20over%20a%20Vector%20Space.md)
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

@@ -10,9 +10,9 @@ custom_alias: $\mat{m\times n}{K}$ (Vector Space)
 Date Created: 31/03/2022 21:03:36
 Tags: #Definition #Closed
 
-Types: _Not Applicable_
+Types: [$\Diag{n}{K}$](Vector%20Space%20of%20Diagonal%20Matrices.md), [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md), [$\skew{n}{K}$](Vector%20Space%20of%20Skew-symmetric%20Matrices.md)
 Examples: _Not Applicable_
-Constructions: [[Matrix Representation of Linear Maps]], [$\Diag{n}{K}$](Vector%20Space%20of%20Diagonal%20Matrices.md), [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md), [$\skew{n}{K}$](Vector%20Space%20of%20Skew-symmetric%20Matrices.md)
+Constructions: [[Matrix Representation of Linear Maps]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

@@ -4,9 +4,9 @@
 Date Created: 21/02/2022 15:18:46
 Tags: #Definition #Closed 
 
-Types: [[Isomorphism (Category Theory)]], [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]
+Types: [[Left-invertible Morphism]], [[Right-invertible Morphism]], [[Isomorphism (Category Theory)]], [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]
 Examples: [[Identity Morphism]], [[Function]], [[Linear Map]]
-Constructions: [[Left-invertible Morphism]], [[Right-invertible Morphism]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
