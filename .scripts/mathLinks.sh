@@ -50,14 +50,22 @@ while [ ! -z "$1" ]; do
     case "$1" in
         --update|-u)
             echo -e "${CYAN}Updating math links...${NC}"
-            allLinks=$(grep -Poh '\[[^\]]*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
+            allLinks=$(grep -Poh --color '\[((?!\]\(|\]\]).)*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
 
             while IFS= read -r link; do
-                obsidian=$(echo "$link" | sed 's/\[\([^]]*\)\](\(.*$\)/\2/g' | sed 's/.$//g')
+                # Get obsidian link
+                obsidian=$(echo "$link" | sed 's/\[\([^]]*\)\][^\\(]*(\(.*$\)/\2/g' | sed 's/.$//g')
+                obsidianLength=$(echo ${#obsidian})
+
+                # Extract current from obsidian
+                current=${link::-$obsidianLength}
+                current=${current:1}
+                current=${current::-3}
+
+                # Extract new from obsidian and compare; replace if different
                 new=$(echo "$obsidian" | sed 's/\(.*\).md/\1/' | sed 's/%20/\ /g')
                 custom=$(grep "custom_alias: " "$new.md")
                 if [[ -z $custom ]]; then
-                    current=$(echo "$link" | sed 's/\[\([^]]*\)\].*/\1/g')
                     new=$(Math "$new")
                     if [ ! "$current" == "$new" ]; then
                         currentTemp=$(echo "$current" | sed -E 's/\\/\\\\/g')
@@ -76,7 +84,6 @@ while [ ! -z "$1" ]; do
                         printf "\n"
                     fi
                 else
-                    current=$(echo "$link" | sed 's/\[\([^]]*\)\].*/\1/g')
                     name=$(echo "$obsidian" | sed 's/%20/\ /g')
                     currentFile=$(grep "custom_alias: " "$name")
                     alias=$(echo "$currentFile" | sed 's/^.*:\ //g')
@@ -97,7 +104,6 @@ while [ ! -z "$1" ]; do
                         fi
                         printf "\n"
                     fi
-
                 fi
             done <<< "$allLinks"
             echo -e "${CYAN}    DONE${NC}"
