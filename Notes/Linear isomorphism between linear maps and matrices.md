@@ -25,7 +25,7 @@ _of $V$ and $W$, respectively. Then the matrix representation_
 $$\begin{equation}
     \Phi_\mc{B}^\mc{C}:\hom\l(V,W\r)\to\mat{m\times n}{K}\ \ \ \ \textrm{\it{mapping}}\ \ \ \ T\mapsto\l[T\r]_\mc{B}^\mc{C}
 \end{equation}$$
-_is a linear isomorphism. In particular, we have $\hom\l(V,W\r)\iso\mat{m\times n}{K}$ and $\dim\hom\l(V,W\r)=mn$._
+_is a linear isomorphism. In particular, we have $\hom\l(V,W\r)\iso\mat{m\times n}{K}$._
 
 ```
 
