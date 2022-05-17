@@ -1,10 +1,14 @@
+---
+custom_alias: $V\iso K^n$ ($\dim V=n$)
+---
+
 <br />
 <br />
 
 Date Created: 15/05/2022 22:49:38
 Tags: #Proposition #Closed
 
-Proved by: [[Unique Representation Theorem (Hamel)]]
+Proved by: [Linear map $T:V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective](Linear%20map%20between%20vector%20spaces%20of%20same%20dimension%20is%20injective%20iff%20surjective.md), [[Unique Representation Theorem (Hamel)]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -17,15 +21,11 @@ _Let $V$ be a finite-dimensional vector space over some field $K$, say with $n\c
 $$\begin{equation}
     \phi_\mc{B}:V\to K^n\ \ \ \ \textrm{\it{mapping}}\ \ \ \ v\mapsto\l[v\r]_\mc{B}
 \end{equation}$$
-_is a linear isomorphism._
+_is a linear isomorphism. In particular, we have $V\iso K^n$._
 
 ```
 
-**Remark.** In particular, we see that $V\iso K^n$ whenever $\dim V=n$. However, this isomorphism is not canonical; it depends on a particular choice of basis.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-_Proof_. We shall prove that $\phi_\mc{B}$ is an bijective linear map.
+_Proof_. Since $\dim V=n=\dim K^n$, it suffices to prove that $\phi_\mc{B}$ is a surjective linear map.
 * (Linearity): Take $v_1,v_2\in V$ and $\alpha\in K$, so there exist unique coefficients $\beta_{11},\dots,\beta_{1n},\beta_{21},\dots,\beta_{2n}\in K$ such that
 $$\begin{equation}
     v_1=\sum_{i=1}^n\beta_{1i}b_i\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ v_2=\sum_{i=1}^n\beta_{2n}b_i.
@@ -48,9 +48,4 @@ $$\begin{equation}
     \end{aligned}
 \end{equation}$$
 
-* (Injection): Take $v_1,v_2\in V$ and suppose that $\phi_\mc{B}\l(v_1\r)=\phi_\mc{B}\l(v_2\r)$. By unique representation, there exist unique coefficients $\beta_{11},\dots,\beta_{1n},\beta_{21},\dots,\beta_{2n}\in K$ such that
-$$\begin{equation}
-    v_1=\sum_{i=1}^n\beta_{1i}b_i\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ v_2=\sum_{i=1}^n\beta_{2n}b_i,
-\end{equation}$$
-so $\l[v_1\r]_\mc{B}=\l[v_2\r]_\mc{B}$ implies $\beta_{1i}=\beta_{2i}$ for all $i\in\l\{1,\dots,n\r\}$. The result follows.
 * (Surjection): Take $\v{v}\coloneqq\l\langle\alpha_1,\dots,\alpha_n\r\rangle\in K^n$ and observe that $\phi_\mc{B}\l(v\r)$, where $v\coloneqq\sum_{i=1}^n\alpha_ib_i$, is $\v{v}$.<span style="float:right;">$\blacksquare$</span>

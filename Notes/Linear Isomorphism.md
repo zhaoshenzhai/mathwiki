@@ -5,7 +5,7 @@ Date Created: 01/04/2022 19:04:20
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Standard Representation of Finite-dim. Vector Spaces]], [[Matrix Representation of Linear Maps]], [[Linear isomorphisms between tuples, row vectors, and column vectors]]
+Examples: [$V\iso K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md), [$\hom\l(V,W\r)\iso\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)](Linear%20isomorphism%20between%20linear%20maps%20and%20matrices.md)
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

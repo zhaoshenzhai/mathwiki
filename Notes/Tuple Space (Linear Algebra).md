@@ -11,8 +11,8 @@ Generalizations: _Not Applicable_
 
 Properties: [[Linear map on tuple spaces is induced by a unique matrix]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: [[Function space over a field is a vector space]], [[Linear isomorphisms between tuples, row vectors, and column vectors]]
+Equivalences: [$V\iso K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md)
+Justifications: [[Function space over a field is a vector space]]
 
 ``` ad-Definition
 title: Definition.
