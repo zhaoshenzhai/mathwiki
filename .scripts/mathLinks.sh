@@ -50,7 +50,7 @@ while [ ! -z "$1" ]; do
     case "$1" in
         --update|-u)
             echo -e "${CYAN}Updating math links...${NC}"
-            allLinks=$(grep -Poh --color '\[((?!\]\(|\]\]).)*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
+            allLinks=$(grep -Poh '\[((?!\]\(|\]\]).)*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
 
             while IFS= read -r link; do
                 # Get obsidian link
