@@ -5,11 +5,11 @@ Date Created: 26/01/2022 18:27:58
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Algebraic identities of composition of linear maps]]
+Examples: _Not Applicable_
 Constructions: [$\catset$](Category%20of%20Sets.md)
 Generalizations: [[Composition (Relation)]]
 
-Properties: [[Identity function is the identity of function composition]], [[Composition of bijections is a bijection]]
+Properties: [[Identity function is the identity of function composition]], [[Composition of bijections is a bijection]], [[Algebraic identities of composition of linear maps]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Composition of functions is a function]]

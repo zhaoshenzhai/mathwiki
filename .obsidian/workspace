@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "04b937f3b9284144",
+        "id": "5d764beceab034c9",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Algebraic identities of matrix operations.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "c345b301c0dc75e8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Matrix Multiplication.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "d3715c7544dce580",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear map induced by a matrix is a linear map.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Algebraic identities of matrix operations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Algebraic identities of matrix operations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Algebraic identities of matrix operations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "04b937f3b9284144",
+  "active": "5d764beceab034c9",
   "lastOpenFiles": [
-    "Notes/Set of endomorphisms over a vector space form a unital associative algebra.md",
-    "Notes/Vector Space of Linear Maps.md",
-    "Notes/Linear Map.md",
-    "Notes/Composition (Function).md",
-    "Notes/Algebraic identities of composition of linear maps.md",
-    "Notes/Endomorphism Algebra (Vector Space).md",
-    "Notes/Category of vector spaces is a locally-small category.md",
-    "Notes/Composition of linear maps is a linear map.md",
-    "Notes/Algebraic identities of vector spaces.md",
-    "Notes/Vector Space.md"
+    "Notes/Algebraic identities of matrix operations.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Linear map induced by a matrix is a linear map.md",
+    "Notes/Distribution of matrix multiplication over addition.md",
+    "Notes/Matrix multiplication is associative.md",
+    "Notes/Zero Matrix.md",
+    "Notes/Zermelo-Fraenkel Set Theory with Choice.md",
+    "Notes/Zero matrix is the absorbing element of matrix multiplication.md",
+    "Notes/Null space is a linear subspace of tuple space.md",
+    "Notes/Identity matrix is the identity of matrix multiplication.md"
   ]
 }
