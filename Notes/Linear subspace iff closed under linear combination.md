@@ -8,7 +8,7 @@ custom_alias: $U\subseteq V$ is a vector space $\Leftrightarrow$ $0\in U$ and re
 Date Created: 03/04/2022 14:39:34
 Tags: #Proposition #Closed
 
-Proved by: [[Algebraic consequences (vector space)]]
+Proved by: [[Algebraic identities of vector spaces]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

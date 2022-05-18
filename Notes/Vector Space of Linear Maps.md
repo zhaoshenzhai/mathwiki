@@ -13,7 +13,7 @@ Examples: _Not Applicable_
 Constructions: [[Matrix Representation of Linear Maps]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Algebraic identities of composition of linear maps]]
 Sufficiencies: _Not Applicable_
 Equivalences: [$\hom\l(V,W\r)\iso\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)](Linear%20isomorphism%20between%20linear%20maps%20and%20matrices.md)
 Justifications: [$\hom\l(V,W\r)\subseteq W^V$ is a linear subspace](Set%20of%20linear%20maps%20form%20a%20linear%20subspace%20of%20the%20function%20space.md)

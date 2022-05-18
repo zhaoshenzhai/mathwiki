@@ -4,7 +4,7 @@
 Date Created: 04/04/2022 20:55:25
 Tags: #Proposition #Closed
 
-Proved by: [[Algebraic consequences (vector space)]]
+Proved by: [[Algebraic identities of vector spaces]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

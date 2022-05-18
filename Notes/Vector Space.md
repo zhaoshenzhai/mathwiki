@@ -6,11 +6,11 @@ Tags: #Definition #Closed
 
 Types: [[Finite-dimensional Vector Space]], [[Infinite-dimensional Vector Space]]
 Examples: [[Function Space (Linear Algebra)]]
-Constructions: [[Vector]], [[Linear Map]], [[Linear Subspace]], [$\catvect[K]$](Category%20of%20Vector%20Spaces.md)
+Constructions: [[Linear Combination (Vector)]], [[Linear Map]], [[Linear Subspace]], [$\catvect[K]$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 
-Properties: [[Algebraic consequences (vector space)]], [[Every vector space has a basis]]
-Sufficiencies: _Not Applicable_
+Properties: [[Algebraic identities of vector spaces]], [[Every vector space has a basis]]
+Sufficiencies: [[Unique Representation Theorem (Hamel)]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

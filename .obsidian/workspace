@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "89b576839c82bb2f",
+        "id": "8d89b1a3aa299277",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Set of endomorphisms over a vector space form a unital associative algebra.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Set of endomorphisms over a vector space form a unital associative algebra.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Set of endomorphisms over a vector space form a unital associative algebra.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Set of endomorphisms over a vector space form a unital associative algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "89b576839c82bb2f",
+  "active": "8d89b1a3aa299277",
   "lastOpenFiles": [
-    "Notes/Vector Space of Linear Maps.md",
-    "Notes/Endomorphism Algebra (Vector Space).md",
     "Notes/Set of endomorphisms over a vector space form a unital associative algebra.md",
-    "Notes/Vector Space of Matrices.md",
-    "Notes/Composition (Function).md",
-    "Notes/Matrix Multiplication.md",
+    "Notes/Vector Space of Linear Maps.md",
     "Notes/Linear Map.md",
-    "Notes/Endomorphism (Category Theory).md",
-    "Notes/Morphism (Category Theory).md",
-    "Notes/Function.md"
+    "Notes/Composition (Function).md",
+    "Notes/Algebraic identities of composition of linear maps.md",
+    "Notes/Endomorphism Algebra (Vector Space).md",
+    "Notes/Category of vector spaces is a locally-small category.md",
+    "Notes/Composition of linear maps is a linear map.md",
+    "Notes/Algebraic identities of vector spaces.md",
+    "Notes/Vector Space.md"
   ]
 }
