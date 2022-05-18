@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8d89b1a3aa299277",
+        "id": "04b937f3b9284144",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Set of endomorphisms over a vector space form a unital associative algebra.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Set of endomorphisms over a vector space form a unital associative algebra.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Set of endomorphisms over a vector space form a unital associative algebra.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Set of endomorphisms over a vector space form a unital associative algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +175,7 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "8d89b1a3aa299277",
+  "active": "04b937f3b9284144",
   "lastOpenFiles": [
     "Notes/Set of endomorphisms over a vector space form a unital associative algebra.md",
     "Notes/Vector Space of Linear Maps.md",
