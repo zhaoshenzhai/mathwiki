@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "b837878ce2682f48",
+        "id": "fce030b400016409",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b837878ce2682f48",
+  "active": "fce030b400016409",
   "lastOpenFiles": [
-    "Notes/Zero Matrix.md",
-    "Notes/Null space is a linear subspace of tuple space.md",
+    "Notes/Vector Space of Matrices.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Set of Matrices.md",
+    "Notes/Matrix.md",
+    "Notes/Algebraic identities of matrix operations.md",
+    "Notes/Elementary Row Operation.md",
+    "Notes/Transposition.md",
     "Notes/Matrix Addition.md",
     "Notes/Scalar Multiplication (Matrix).md",
-    "Notes/Linear map induced by a matrix is a linear map.md",
-    "Notes/Left-invertible square matrix implies invertible.md",
-    "Notes/Left and right inverses coincide (matrix).md",
-    "Notes/Invertible coefficient matrix implies unique solution.md",
-    "Notes/Inversion anti-respects matrix multiplication.md",
-    "Notes/Inverse of matrix is unique.md"
+    "Notes/Function Space (Linear Algebra).md"
   ]
 }

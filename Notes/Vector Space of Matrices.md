@@ -23,13 +23,31 @@ Justifications: [[Function space over a field is a vector space]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $m,n\in\N^\ast$. The **vector space of $\l(m\times n\r)$-matrices over $K$** is the vector space_ $\l\langle\mat{m\times n}{K},K,\oplus,\odot,0_{mn}\r\rangle$_ consisting of:_
-* _The set $\mat{m\times n}{K}$ of all $m\times n$ matrices over $K$._
-* _The field $\l\langle K,+,\cdot\r\rangle$ of scalars._
-* _The binary operation $\oplus$ of matrix addition._
-* _The function $\odot:K\times\mat{m\times n}{K}\to\mat{m\times n}{K}$ of scalar-matrix multiplication._
-* _The $m\times n$ zero matrix_ $0_{mn}$_._
-
-_Indeed, it is the function space $K^{\l\{1,\dots,m\r\}\times\l\{1,\dots,n\r\}}$ with the usual component-wise operations._
+_Let $K$ be a field and fix $m,n\in\N^\ast$. The **vector space of $\l(m\times n\r)$-matrices over $K$** is the vector space_
+$$\begin{equation}
+    \mat{m\times n}{K}\coloneqq K^{\l\{1,\dots,m\r\}\times\l\{1,\dots,n\r\}}
+\end{equation}$$
+_equipped with the operations_
+$$\begin{equation}
+    \begin{aligned}
+        +:\mat{m\times n}{K}\times\mat{m\times n}{K}&\to\mat{m\times n}{K} \\
+        \l\langle\l[a_{ij}\r],\l[b_{ij}\r]\r\rangle&\mapsto\l[a_{ij}+b_{ij}\r]
+    \end{aligned}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ 
+    \begin{aligned}
+        \cdot:K\times\mat{m\times n}{K}&\to\mat{m\times n}{K} \\
+        \l\langle\alpha,\l[a_{ij}\r]\r\rangle&\mapsto\l[\alpha a_{ij}\r]
+    \end{aligned}
+\end{equation}$$
+_and whose zero vector is_
+$$\begin{equation}
+    0_{mn}\coloneqq
+        \begin{bmatrix}
+            0_K & \cdots & 0_K \\
+            \vdots & & \vdots \\
+            0_K & \cdots & 0_K
+        \end{bmatrix}.
+\end{equation}$$
 
 ```
+
+**Remark.** Formally, $\l\langle\mat{m\times n}{K},K,+,\cdot,0_{mn}\r\rangle$ is the vector space of functions from $\l\{1,\dots,m\r\}\times\l\{1,\dots,n\r\}$ to $K$.<span style="float:right;">$\blacklozenge$</span>

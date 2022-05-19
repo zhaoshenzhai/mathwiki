@@ -21,10 +21,10 @@ Justifications: [$\edm_{\catvect[K]}\!\l(V\r)$ is a unital associative algebra](
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a vector space over some field $K$. The **endomorphism algebra over $V$** is the unital associative algebra consisting of the set_
+_Let $V$ be a vector space over some field $K$. The **endomorphism algebra over $V$** is the unital associative algebra_
 $$\begin{equation}
     \edm_{\catvect[K]}\!\l(V\r)\coloneqq\hom_{\catvect[K]}\!\l(V,V\r)
 \end{equation}$$
-_and the composition operation $\circ$._
+_equipped with the composition operation $\circ$._
 
 ```

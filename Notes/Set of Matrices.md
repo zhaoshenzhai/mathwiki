@@ -10,7 +10,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [$\mat{m\times n}{K}$ (Vector Space)](Vector%20Space%20of%20Matrices.md), [[Matrix Addition]], [[Matrix Multiplication]], [[Scalar Multiplication (Matrix)]], [[Elementary Row Operation]], [[Transposition]]
+Constructions: [$\mat{m\times n}{K}$ (Vector Space)](Vector%20Space%20of%20Matrices.md), [[Matrix Multiplication]], [[Elementary Row Operation]], [[Transposition]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
