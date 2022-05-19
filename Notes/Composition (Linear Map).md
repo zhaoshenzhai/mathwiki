@@ -9,9 +9,9 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Algebraic identities of composition of linear maps]], [$\l[U\circ T\r]_\mc{B}^\mc{D}=\l[U\r]_\mc{C}^\mc{D}\l[T\r]_\mc{B}^\mc{C}$ for $U,T$ linear](Composition%20of%20linear%20maps%20is%20represented%20by%20their%20matrix%20product.md)
+Properties: [[Algebraic identities of composition of linear maps]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [Composition of linear maps $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ matrix product of representations](Composition%20of%20linear%20maps%20repr%20under%20basis%20matrix%20product%20of%20representations.md)
 Justifications: [[Composition of linear maps is a linear map]]
 
 ``` ad-Definition

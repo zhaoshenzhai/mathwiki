@@ -1,5 +1,5 @@
 ---
-custom_alias: $\l[T\l(v\r)\r]_\mc{B}=\l[T\r]_\mc{B}^\mc{C}\l[v\r]_\mc{B}$ for $T$ linear
+alias: auto_aliasing
 ---
 
 <br />

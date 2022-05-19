@@ -20,9 +20,11 @@ Math()
     local r=$(echo "$r" | sed -E 's/\bCategory\sof\sSets\b/\$\\catset\$/gI')                  # Category of Sets
     local r=$(echo "$r" | sed -E 's/\bCategory\sof\sRelations\b/\$\\catrel\$/gI')             # Category of Relations
     local r=$(echo "$r" | sed -E 's/\bCategory\sof\sVector\sSpaces\b/\$\\catvect[K]\$/gI')    # Category of Vector Spaces over K
+    local r=$(echo "$r" | sed -E 's/\brepr\sunder\sbasis\b/\$\\Leftrightarrow\^\\textrm\{repr\.\}_\\textrm\{bases\}\$/gI')
+        # ...represented by/represents under a choice of basis
 
     # Prefix Letters
-    local r=$(echo "$r" | sed -E 's/\bn-\b/\$n\$-/g')                                   # n
+    local r=$(echo "$r" | sed -E 's/\bn-\b/\$n\$-/g')                                         # n
     echo "$r"
 }
 

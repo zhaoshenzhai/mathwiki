@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Algebraic identities of matrix operations]], [Linear map induced by product of matrices is composition of linear maps](Linear%20map%20induced%20by%20product%20of%20matrices%20is%20composition%20of%20linear%20maps.md), [[Matrix multiplication is associative]]
 Sufficiencies: _Not Applicable_
-Equivalences: [$\l[U\circ T\r]_\mc{B}^\mc{D}=\l[U\r]_\mc{C}^\mc{D}\l[T\r]_\mc{B}^\mc{C}$ for $U,T$ linear](Composition%20of%20linear%20maps%20is%20represented%20by%20their%20matrix%20product.md)
+Equivalences: [Composition of linear maps $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ matrix product of representations](Composition%20of%20linear%20maps%20repr%20under%20basis%20matrix%20product%20of%20representations.md)
 Justifications: [Matrix multiplication (via entries $=$ via columns)](Matrix%20multiplication%20(via%20entries%20equals%20via%20columns).md), [Matrix multiplication (via entries $=$ via rows)](Matrix%20multiplication%20(via%20entries%20equals%20via%20rows).md)
 
 ``` ad-Definition
