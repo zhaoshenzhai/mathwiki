@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "fce030b400016409",
+        "id": "3ec99b77a9d529ff",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "fce030b400016409",
+  "active": "3ec99b77a9d529ff",
   "lastOpenFiles": [
+    "Notes/Identity function on a vector space is represented by the identity matrix.md",
+    "Notes/Matrix Representation of Linear Maps.md",
+    "Notes/Identity Matrix.md",
+    "Notes/Identity Function.md",
+    "Notes/Function Space (Linear Algebra).md",
+    "Notes/Linear isomorphism between linear maps and matrices.md",
     "Notes/Vector Space of Matrices.md",
+    "Notes/Vector Space of Diagonal Matrices.md",
     "Notes/Matrix Multiplication.md",
-    "Notes/Set of Matrices.md",
-    "Notes/Matrix.md",
-    "Notes/Algebraic identities of matrix operations.md",
-    "Notes/Elementary Row Operation.md",
-    "Notes/Transposition.md",
-    "Notes/Matrix Addition.md",
-    "Notes/Scalar Multiplication (Matrix).md",
-    "Notes/Function Space (Linear Algebra).md"
+    "Notes/Set of Matrices.md"
   ]
 }

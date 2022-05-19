@@ -5,7 +5,7 @@ Date Created: 04/05/2022 11:34:58
 Tags: #Definition #Closed
 
 Types: [$\hom_{\catvect[K]}\!\l(V,W\r)$](Vector%20Space%20of%20Linear%20Maps.md)
-Examples: [[Tuple Space (Linear Algebra)]], [[Vector Space of Matrices]]
+Examples: [[Tuple Space (Linear Algebra)]], [$\mat{m\times n}{K}$ (Vector Space)](Vector%20Space%20of%20Matrices.md)
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

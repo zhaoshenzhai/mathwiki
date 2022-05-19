@@ -5,7 +5,7 @@ Date Created: 16/05/2022 18:16:35
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [$\l[\id_V\r]_\mc{B}=I_n$ ($\dim V=n$)](Identity%20function%20on%20a%20vector%20space%20is%20represented%20by%20the%20identity%20matrix.md)
 Constructions: [$\hom\l(V,W\r)\iso\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)](Linear%20isomorphism%20between%20linear%20maps%20and%20matrices.md)
 Generalizations: _Not Applicable_
 
