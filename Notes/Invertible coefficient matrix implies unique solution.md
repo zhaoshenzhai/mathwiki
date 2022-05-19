@@ -8,7 +8,7 @@ custom_alias: $A$ invertible $\Rightarrow$ $A\v{x}=\v{b}$ has a unique solution
 Date Created: 08/04/2022 03:28:32
 Tags: #Proposition #Closed
 
-Proved by: [[Matrix multiplication is associative]], [[Identity matrix is the identity of matrix multiplication]]
+Proved by: [[Matrix multiplication is associative]], [[Algebraic identities of matrix operations]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

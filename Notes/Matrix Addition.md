@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [$\mat{m\times n}{K}$ (Vector Space)](Vector%20Space%20of%20Matrices.md)
 Generalizations: _Not Applicable_
 
-Properties: [[Distribution of matrix multiplication over addition]]
+Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

@@ -4,7 +4,7 @@
 Date Created: 03/04/2022 15:51:12
 Tags: #Proposition #Closed
 
-Proved by: [[Zero matrix is the absorbing element of matrix multiplication]], [[Algebraic identities of vector spaces]]
+Proved by: [[Algebraic identities of matrix operations]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

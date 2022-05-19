@@ -28,7 +28,7 @@ $$\begin{equation}
         B\l(A\v{x}\r)&=B\v{0} && \textrm{Substitution} \\
         \l(BA\r)\v{x}&=\v{0} && \textrm{Associativity and absorption of matrix multiplication} \\
         I\v{x}&=\v{0} && \textrm{Definition of left-inverse} \\
-        \v{x}&=\v{0}, && \textrm{Identity matrix is the identity of matrix multiplication}
+        \v{x}&=\v{0}, && \textrm{Unitality of matrix multiplication}
     \end{aligned}
 \end{equation}$$
 so all solutions are forced to be trivial.<span style="float:right;">$\blacksquare$</span>

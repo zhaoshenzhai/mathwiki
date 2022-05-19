@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "71ce1f9ed209dce0",
+        "id": "b837878ce2682f48",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "71ce1f9ed209dce0",
+  "active": "b837878ce2682f48",
   "lastOpenFiles": [
-    "Notes/Matrix Multiplication.md",
-    "Notes/Algebraic identities of matrix operations.md",
-    "Notes/Zero matrix is the absorbing element of matrix multiplication.md",
-    "Notes/Identity matrix is the identity of matrix multiplication.md",
-    "Notes/Distribution of matrix multiplication over addition.md",
-    "Notes/Compatibility of matrix and scalar multiplications.md",
-    "Notes/Algebraic identities of composition of linear maps.md",
-    "Notes/Cancellation laws (invertible matrix).md",
+    "Notes/Zero Matrix.md",
+    "Notes/Null space is a linear subspace of tuple space.md",
+    "Notes/Matrix Addition.md",
+    "Notes/Scalar Multiplication (Matrix).md",
     "Notes/Linear map induced by a matrix is a linear map.md",
-    "Notes/Matrix multiplication is associative.md"
+    "Notes/Left-invertible square matrix implies invertible.md",
+    "Notes/Left and right inverses coincide (matrix).md",
+    "Notes/Invertible coefficient matrix implies unique solution.md",
+    "Notes/Inversion anti-respects matrix multiplication.md",
+    "Notes/Inverse of matrix is unique.md"
   ]
 }

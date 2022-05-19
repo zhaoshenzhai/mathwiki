@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [$\mat{m\times n}{K}$ (Vector Space)](Vector%20Space%20of%20Matrices.md)
 Generalizations: _Not Applicable_
 
-Properties: [[Zero matrix is the absorbing element of matrix multiplication]]
+Properties: [[Algebraic identities of matrix operations]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

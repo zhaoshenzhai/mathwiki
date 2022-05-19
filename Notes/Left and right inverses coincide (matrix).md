@@ -4,7 +4,7 @@
 Date Created: 07/04/2022 09:17:55
 Tags: #Proposition #Closed
 
-Proved by: [[Identity matrix is the identity of matrix multiplication]], [[Matrix multiplication is associative]], [Homogeneous $m\times n$ linear system with $n>m$ has non-trivial solutions](Homogeneous%20linear%20system%20with%20more%20unknowns%20than%20equations%20has%20non-trivial%20solutions.md)
+Proved by: [[Algebraic identities of matrix operations]], [[Matrix multiplication is associative]], [Homogeneous $m\times n$ linear system with $n>m$ has non-trivial solutions](Homogeneous%20linear%20system%20with%20more%20unknowns%20than%20equations%20has%20non-trivial%20solutions.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

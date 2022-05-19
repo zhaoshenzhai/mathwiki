@@ -4,7 +4,7 @@
 Date Created: 01/04/2022 22:34:08
 Tags: #Proposition #Closed
 
-Proved by: [[Distribution of matrix multiplication over addition]], [[Compatibility of matrix and scalar multiplications]]
+Proved by: [[Algebraic identities of matrix operations]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
