@@ -14,6 +14,30 @@
             "source": true
           }
         }
+      },
+      {
+        "id": "5683b97ea683674e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Matrix Multiplication.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "f01dfd6aa7e4b1eb",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Composition of linear maps is represented by their matrix product.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -73,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Matrix Representation of Linear Maps.md",
+                "file": "Notes/Composition of linear maps is represented by their matrix product.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Matrix Representation of Linear Maps.md",
+                "file": "Notes/Composition of linear maps is represented by their matrix product.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Matrix Representation of Linear Maps.md",
+                "file": "Notes/Composition of linear maps is represented by their matrix product.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "e9246da59f24c823",
+  "active": "f01dfd6aa7e4b1eb",
   "lastOpenFiles": [
+    "Notes/Composition of linear maps is represented by their matrix product.md",
+    "Notes/Matrix Multiplication.md",
     "Notes/Matrix Representation of Linear Maps.md",
     "Notes/Algebraic identities of composition of linear maps.md",
     "Notes/Algebraic identities of matrix operations.md",
     "Notes/Linear Map.md",
     "Notes/Composition (Linear Map).md",
     "Notes/Composition of linear maps is a linear map.md",
-    "Notes/Composition of linear maps is represented by their matrix product.md",
     "Notes/Standard representation of action of linear map.md",
-    "Notes/Composition (Function).md",
-    "Notes/Vector Space of Linear Maps.md"
+    "Notes/Composition (Function).md"
   ]
 }

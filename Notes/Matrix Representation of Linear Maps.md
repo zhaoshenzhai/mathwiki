@@ -9,7 +9,7 @@ Examples: [$\l[\id_V\r]_\mc{B}=I_n$ ($\dim V=n$)](Identity%20function%20on%20a%2
 Constructions: [$\hom\l(V,W\r)\iso\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)](Linear%20isomorphism%20between%20linear%20maps%20and%20matrices.md)
 Generalizations: _Not Applicable_
 
-Properties: [$\l[U\circ T\r]_\mc{B}=\l[U\r]_\mc{B}\l[T\r]_\mc{B}$ for $U,T\in\edm\l(V\r)$](Composition%20of%20linear%20maps%20is%20represented%20by%20their%20matrix%20product.md), [$\l[T\l(v\r)\r]_\mc{B}=\l[T\r]_\mc{B}^\mc{C}\l[v\r]_\mc{B}$ for $T\in\hom\l(V,W\r)$](Standard%20representation%20of%20action%20of%20linear%20map.md)
+Properties: [$\l[U\circ T\r]_\mc{B}^\mc{D}=\l[U\r]_\mc{C}^\mc{D}\l[T\r]_\mc{B}^\mc{C}$ for $U,T$ linear](Composition%20of%20linear%20maps%20is%20represented%20by%20their%20matrix%20product.md), [$\l[T\l(v\r)\r]_\mc{B}=\l[T\r]_\mc{B}^\mc{C}\l[v\r]_\mc{B}$ for $T$ linear](Standard%20representation%20of%20action%20of%20linear%20map.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Unique Representation Theorem (Hamel)]]

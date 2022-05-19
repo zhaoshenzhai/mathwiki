@@ -1,5 +1,5 @@
 ---
-custom_alias: $\l[U\circ T\r]_\mc{B}=\l[U\r]_\mc{B}\l[T\r]_\mc{B}$ for $U,T\in\edm\l(V\r)$
+custom_alias: $\l[U\circ T\r]_\mc{B}^\mc{D}=\l[U\r]_\mc{C}^\mc{D}\l[T\r]_\mc{B}^\mc{C}$ for $U,T$ linear
 ---
 
 <br />

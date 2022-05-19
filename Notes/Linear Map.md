@@ -9,7 +9,7 @@ Examples: [[Transposition]], [[Identity function is a linear map]], [[Linear map
 Constructions: [$\catvect[K]$](Category%20of%20Vector%20Spaces.md), [$\hom_{\catvect[K]}\!\l(V,W\r)$](Vector%20Space%20of%20Linear%20Maps.md), [[Kernel]], [[Image (Linear Map)]], [[Composition (Linear Map)]]
 Generalizations: _Not Applicable_
 
-Properties: [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md), [$\l[T\l(v\r)\r]_\mc{B}=\l[T\r]_\mc{B}^\mc{C}\l[v\r]_\mc{B}$ for $T\in\hom\l(V,W\r)$](Standard%20representation%20of%20action%20of%20linear%20map.md), [[Linear map fixes zero vector]]
+Properties: [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md), [$\l[T\l(v\r)\r]_\mc{B}=\l[T\r]_\mc{B}^\mc{C}\l[v\r]_\mc{B}$ for $T$ linear](Standard%20representation%20of%20action%20of%20linear%20map.md), [[Linear map fixes zero vector]]
 Sufficiencies: [[Existence of unique linear map via action on basis vectors]], [[Criteria for equality of linear maps via spanning set]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

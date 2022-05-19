@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [$V\iso K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md)
 Generalizations: _Not Applicable_
 
-Properties: [$\l[T\l(v\r)\r]_\mc{B}=\l[T\r]_\mc{B}^\mc{C}\l[v\r]_\mc{B}$ for $T\in\hom\l(V,W\r)$](Standard%20representation%20of%20action%20of%20linear%20map.md)
+Properties: [$\l[T\l(v\r)\r]_\mc{B}=\l[T\r]_\mc{B}^\mc{C}\l[v\r]_\mc{B}$ for $T$ linear](Standard%20representation%20of%20action%20of%20linear%20map.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Unique Representation Theorem (Hamel)]]
