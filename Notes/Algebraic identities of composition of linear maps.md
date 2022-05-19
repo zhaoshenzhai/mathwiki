@@ -14,27 +14,14 @@ Counterexamples: _Not Applicable_
 title: Proposition.
 
 _Let $V$, $W$, and $Z$ be vector spaces over some field $K$. Then the following algebraic identities hold:_
-* _(Closure of $\circ$): $U\circ T\in\hom\l(V,Z\r)$ for all $T\in\hom\l(V,W\r)$ and $U\in\hom\l(W,Z\r)$._
-
 * _(Left-distributivity of $\circ$ over $+$): $U\circ\l(T_1+T_2\r)=\l(U\circ T_1\r)+\l(U\circ T_2\r)$ for all $T_1,T_2\in\hom\l(V,W\r)$ and $U\in\hom\l(W,Z\r)$._
+
 * _(Right-distributivity of $\circ$ over $+$): $\l(U_1+U_2\r)\circ T=\l(U_1\circ T\r)+\l(U_2\circ T\r)$ for all $T\in\hom\l(V,W\r)$ and $U_1,U_2\in\hom\l(W,Z\r)$._
 * _(Compatibility between $\circ$ and $\cdot$): $\alpha\cdot\l(U\circ T\r)=\l(\alpha\cdot U\r)\circ T=U\circ\l(\alpha\cdot T\r)$ for all $T\in\hom\l(V,W\r)$, $U\in\hom\l(W,Z\r)$, and $\alpha\in K$._
 
 ```
 
 _Proof_.
-* (Closure of $\circ$): Take $v_1,v_2\in V$ and $k\in K$, and observe that
-$$\begin{equation}
-    \begin{aligned}
-        \l(U\circ T\r)\l(k v_1+v_2\r)&=U\l(T\l(k v_1+v_2\r)\r) && \textrm{Definition of $\circ$} \\
-        &=U\l(T\l(k v_1\r)+T\l(v_2\r)\r) && \textrm{Additivity of $T$} \\
-        &=U\l(k T\l(v_1\r)+T\l(v_2\r)\r) && \textrm{Homogeneity of $T$} \\
-        &=U\l(k T\l(v_1\r)\r)+U\l(T\l(v_2\r)\r) && \textrm{Additivity of $U$} \\
-        &=k U\l(T\l(v_1\r)\r)+U\l(T\l(v_2\r)\r) && \textrm{Homogeneity of $U$} \\
-        &=k\l(U\circ T\r)\l(v_1\r)+\l(U\circ T\r)\l(v_2\r). && \textrm{Definition of $\circ$}
-    \end{aligned}
-\end{equation}$$
-
 * (Left-distributivity of $\circ$ over $+$): Take $T_1,T_2\in\hom\l(V,W\r)$ and $U\in\hom\l(W,Z\r)$, and observe that
 $$\begin{equation}
     \begin{aligned}

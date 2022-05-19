@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3ec99b77a9d529ff",
+        "id": "e9246da59f24c823",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Matrix Representation of Linear Maps.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Matrix Representation of Linear Maps.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Matrix Representation of Linear Maps.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Matrix Representation of Linear Maps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "3ec99b77a9d529ff",
+  "active": "e9246da59f24c823",
   "lastOpenFiles": [
-    "Notes/Identity function on a vector space is represented by the identity matrix.md",
     "Notes/Matrix Representation of Linear Maps.md",
-    "Notes/Identity Matrix.md",
-    "Notes/Identity Function.md",
-    "Notes/Function Space (Linear Algebra).md",
-    "Notes/Linear isomorphism between linear maps and matrices.md",
-    "Notes/Vector Space of Matrices.md",
-    "Notes/Vector Space of Diagonal Matrices.md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Set of Matrices.md"
+    "Notes/Algebraic identities of composition of linear maps.md",
+    "Notes/Algebraic identities of matrix operations.md",
+    "Notes/Linear Map.md",
+    "Notes/Composition (Linear Map).md",
+    "Notes/Composition of linear maps is a linear map.md",
+    "Notes/Composition of linear maps is represented by their matrix product.md",
+    "Notes/Standard representation of action of linear map.md",
+    "Notes/Composition (Function).md",
+    "Notes/Vector Space of Linear Maps.md"
   ]
 }
