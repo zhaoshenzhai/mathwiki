@@ -60,7 +60,7 @@ pdflatex -shell-escape image.tex && pdfcrop image.pdf image.pdf && pdf2svg image
 ```
 The svg images are uploaded to Github instead of linked directly in Obsidian because I couldn't get Obsidian to load local svg images. For those who do not have/want a Github repo for their Obsidian vault, use [Gist](https://gist.github.com/) instead.
 
-## :telescope: Graph View: ![Definition](https://via.placeholder.com/15/63bfee/000000?text=+) Definitions | ![Proposition](https://via.placeholder.com/15/e665b7/000000?text=+) Propositions | ![Theorem](https://via.placeholder.com/15/65fb65/000000?text=+) Theorems | ![Axiom](https://via.placeholder.com/15/f95d5d/000000?text=+) Axioms
+## :telescope: Graph View: 🟥 Definitions | ![Proposition](https://via.placeholder.com/15/e665b7/000000?text=+) Propositions | ![Theorem](https://via.placeholder.com/15/65fb65/000000?text=+) Theorems | ![Axiom](https://via.placeholder.com/15/f95d5d/000000?text=+) Axioms
 
 ![Graph view](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/graph_view.png)
 
