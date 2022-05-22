@@ -65,7 +65,7 @@ The svg images are uploaded to Github instead of linked directly in Obsidian bec
 As far as I know, the standard wiki-style links of the form `[[...]]` used in Obsidian does not support MathJax. Instead, one should use markdown-style links which are of the form `[text](link)`; here, `text` can contain `$...$`. However, `text` remains unchanged when `link` is updated, so, if one wishes to have links with math, one needs to update them manually.
 
 I wrote a [script](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/mathLinks.sh) that partially automates this process. Every note whose link should contain math is declared an `alias`; when `link` is updated, `text` is checked against the alias and is updated when they differ. The `alias`es are declared in a YAML front matter and is either written as `alias: auto_aliasing` or `custom_alias: ...`.
-- `auto_aliasing`: This is used when the text that needs to be replaced with math is 'standard'. For instance, "Invertible iff bijective" is auto-aliased into "Invertible $\Leftrightarrow$ bijective", which is what `text` will be checked against. See [here][standardAlais] for a list of standard aliases.
+- `auto_aliasing`: This is used when the text that needs to be replaced with math is 'standard'. For instance, "Invertible iff bijective" is auto-aliased into "Invertible $\Leftrightarrow$ bijective", which is what `text` will be checked against. See [here][standardAlias] for a list of standard aliases.
 - `custom_alias`: If the alias is not standard (a one-time alias specific to this note), then it is written manually.
 
 The script can be used to update math links as well as generate new ones.
