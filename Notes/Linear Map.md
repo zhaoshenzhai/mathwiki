@@ -21,7 +21,7 @@ _Let $K$ be a field and consider the vector spaces $V$ and $W$ over $K$. A **lin
 * _$\axilin[1]$ (Additivity)$\bf{.}$ $\fa v_1,v_2\in V:T\l(v_1+v_2\r)=T\l(v_1\r)+T\l(v_2\r)$._
 * _$\axilin[2]$ (Homogeneity)$\bf{.}$ $\fa\alpha\in K,\fa v\in V:T\l(\alpha v\r)=\alpha T\l(v\r)$._
 
-_The set of all linear maps from $V$ to $W$ is denoted_ $\hom_{\catvect[K]}\!\l(V,W\r)$_; that is, linear maps are $\catvect[K]$-morphisms._
+_The set of all linear maps from $V$ to $W$ is denoted_ $\hom_{\catvect[K]}\!\l(V,W\r)$_; that is, linear maps are $\l(\catvect[K]\r)$-morphisms._
 
 ```
 
