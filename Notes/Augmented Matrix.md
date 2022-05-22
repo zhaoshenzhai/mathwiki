@@ -41,7 +41,7 @@ $$\begin{equation}
 $$\begin{equation}
     \begin{aligned}
         \l[A\mid\v{b}\r]:\l\{1,\dots,m\r\}\times\l\{1,\dots,n+1\r\}&\to K\\
-            \l\langle i,j\r\rangle&\mapsto
+            \tpl{i,j}&\mapsto
                 \begin{dcases}
                     a_{ij}  & \textrm{if}\ \ j\leq n\\
                     b_i & \textrm{else.}

@@ -20,9 +20,9 @@ _Let $A,B,C,D$ be sets. If $A\subseteq C$ and $B\subseteq D$, then $A\times B\su
 _Proof_. ($\Rightarrow$): Take $x\in A\times B$. The result follows from the following chain of implications:
 $$\begin{equation}
     \begin{alignedat}{2}
-        x\in A\times B&\Leftrightarrow\ex a\in A,\ex b\in B:x=\l\langle a,b\r\rangle\ \ \ \ \ \ \ \ &&\textrm{Definition of Cartesian product}\\
-        &\Rightarrow\ex a\in C,\ex b\in D:x=\l\langle a,b\r\rangle&&\textrm{Definition of subset}\\
+        x\in A\times B&\Leftrightarrow\ex a\in A,\ex b\in B:x=\tpl{a,b}\ \ \ \ \ \ \ \ &&\textrm{Definition of Cartesian product}\\
+        &\Rightarrow\ex a\in C,\ex b\in D:x=\tpl{a,b}&&\textrm{Definition of subset}\\
         &\Leftrightarrow x\in C\times D.&&\textrm{Definition of Cartesian product}
     \end{alignedat}
 \end{equation}$$
-($\Leftarrow$): Assume that $A,B\neq\em$, so take $a\in A$ and $b\in B$. It follows that $\l\langle a,b\r\rangle\in A\times B$ and thus $\l\langle a,b\r\rangle\in C\times D$. By definition, we have that $a\in C$ and $b\in D$, and thus $A\subseteq C$ and $B\subseteq D$.<span style="float:right;">$\blacksquare$</span>
+($\Leftarrow$): Assume that $A,B\neq\em$, so take $a\in A$ and $b\in B$. It follows that $\tpl{a,b}\in A\times B$ and thus $\tpl{a,b}\in C\times D$. By definition, we have that $a\in C$ and $b\in D$, and thus $A\subseteq C$ and $B\subseteq D$.<span style="float:right;">$\blacksquare$</span>

@@ -17,15 +17,15 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\mb{U}$ be a Grothendieck universe. A **$\mb{U}$-category (via a family of hom-classes)** is a quadruple $\cat{C}\coloneqq\l\langle\mc{O},\hom,\id,\comp\r\rangle$ consisting of_
+_Let $\mb{U}$ be a Grothendieck universe. A **$\mb{U}$-category (via a family of hom-classes)** is a quadruple $\cat{C}\coloneqq\tpl{\mc{O},\hom,\id,\comp}$ consisting of_
 * _a $\mb{U}$-class $\obj\l(\cat{C}\r)\coloneqq\mc{O}\subseteq\mb{U}$,_
-* _a function $\hom$ assigning to each $\l\langle X,Y\r\rangle\in\mc{O}^2$ a $\mb{U}$-class $\hom\l(X,Y\r)\subseteq\mb{U}$,_
+* _a function $\hom$ assigning to each $\tpl{X,Y}\in\mc{O}^2$ a $\mb{U}$-class $\hom\l(X,Y\r)\subseteq\mb{U}$,_
 * _a function $\id$ assigning to each $X\in\mc{O}$ an element $\id_X\coloneqq\id\l(X\r)\in\hom\l(X,Y\r)$, and_
-* _a function $\comp$ assigning to each $\l\langle X,Y,Z\r\rangle\in\mc{O}^3$ a function_
+* _a function $\comp$ assigning to each $\tpl{X,Y,Z}\in\mc{O}^3$ a function_
 $$\begin{equation}
     \begin{aligned}
         \circ:\hom\l(X,Y\r)\times\hom\l(Y,Z\r)&\to\hom\l(X,Z\r)\\
-        \l\langle f,g\r\rangle&\mapsto g\circ f\coloneqq\circ\l\langle f,g\r\rangle,
+        \tpl{f,g}&\mapsto g\circ f\coloneqq\circ\tpl{f,g},
     \end{aligned}
 \end{equation}$$
 
@@ -39,4 +39,4 @@ _such that, for all $X,Y,Z,W\in\mc{O}$:_
 
 ```
 
-**Remark.** $\axicat[3]$ can be $\textrm{`}$forced$\textrm{'}$ to hold since one can replace morphisms $f\in\hom\l(X,Y\r)$ with the triple $\l\langle f,X,Y\r\rangle$; this is done, for instance, in $\catset$. Thus $\axicat[3]$ can be disregarded when verifying the axioms of a category.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** $\axicat[3]$ can be $\textrm{`}$forced$\textrm{'}$ to hold since one can replace morphisms $f\in\hom\l(X,Y\r)$ with the triple $\tpl{f,X,Y}$; this is done, for instance, in $\catset$. Thus $\axicat[3]$ can be disregarded when verifying the axioms of a category.<span style="float:right;">$\blacklozenge$</span>

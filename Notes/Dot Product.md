@@ -21,7 +21,7 @@ _Let $n\in\N$ and consider the real $n$-coordinate space $\R^n$. The **dot produ
 $$\begin{equation}
     \begin{aligned}
         \dotpro:\R^n\times\R^n&\to\R\\
-        \l\langle\v{x},\v{y}\r\rangle&\mapsto\sum_{i=1}^nx_iy_i.
+        \tpl{\v{x},\v{y}}&\mapsto\sum_{i=1}^nx_iy_i.
     \end{aligned}
 \end{equation}$$
 

@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle X,<_X\r\rangle$ and $\l\langle Y,<_Y\r\rangle$ be totally ordered sets and consider the lexicographical order $<$ on $X\times Y$. The **lexicographical order topology on $X\times Y$** is the order topology_ $\mc{T}(<
+_Let $\tpl{X,<_X}$ and $\tpl{Y,<_Y}$ be totally ordered sets and consider the lexicographical order $<$ on $X\times Y$. The **lexicographical order topology on $X\times Y$** is the order topology_ $\mc{T}(<
 )$_._
 
 ```

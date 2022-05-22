@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a non-empty set and let $\l\langle G,\ast,e\r\rangle$ be a group. Then the function group $\l\langle G^X,\blob,u\r\rangle$ is a group. Furthermore, if $\l\langle G,\ast,e\r\rangle$ is Abelian, then $\l\langle G^X,\blob,u\r\rangle$ is too._
+_Let $X$ be a non-empty set and let $\tpl{G,\ast,e}$ be a group. Then the function group $\tpl{G^X,\blob,u}$ is a group. Furthermore, if $\tpl{G,\ast,e}$ is Abelian, then $\tpl{G^X,\blob,u}$ is too._
 
 ```
 
@@ -61,7 +61,7 @@ $$\begin{equation}
 \end{equation}$$
 for all $x\in X$, so $f\blob f^{-1}=u=f^{-1}\blob f$.
 
-Additionally, if $\l\langle G,\ast,e\r\rangle$ is Abelian, take $f,g\in G^X$ and observe that
+Additionally, if $\tpl{G,\ast,e}$ is Abelian, take $f,g\in G^X$ and observe that
 $$\begin{equation}
     \begin{aligned}
         \l(f\blob g\r)\l(x\r)&=f\l(x\r)\ast g\l(x\r) && \textrm{Definition of $\blob$} \\
@@ -69,4 +69,4 @@ $$\begin{equation}
         &=\l(g\blob f\r)\l(x\r) && \textrm{Definition of $\blob$}
     \end{aligned}
 \end{equation}$$
-for all $x\in X$, so $f\blob g=g\blob f$. Hence $\l\langle G^X,\blob,u\r\rangle$ is Abelian too.<span style="float:right;">$\blacksquare$</span>
+for all $x\in X$, so $f\blob g=g\blob f$. Hence $\tpl{G^X,\blob,u}$ is Abelian too.<span style="float:right;">$\blacksquare$</span>

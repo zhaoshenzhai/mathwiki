@@ -27,7 +27,7 @@ _where $\alpha_i=0$ for all but finitely-many $i\in I$. Otherwise, $U$ is said t
 
 **Remark.** Note that $\em$ is vacuously linearly independent. Observe that if $I=\l\{1,\dots,n\r\}$ for some $n\in\N^\ast$, the sequence of vectors $u_1,\dots,u_n$ is linearly independent if
 $$\begin{equation}
-    \fa\l\langle\alpha_i\r\rangle_{i\in I}\!\in K^n:\l(\sum_{i=1}^n\alpha_iu_i=0\Rightarrow\fa i\in\l\{1,\dots,n\r\}:\alpha_i=0\r).
+    \fa\tpl{\alpha_i}_{i\in I}\!\in K^n:\l(\sum_{i=1}^n\alpha_iu_i=0\Rightarrow\fa i\in\l\{1,\dots,n\r\}:\alpha_i=0\r).
 \end{equation}$$
 We may then define linear independence for arbitrary $I$ by saying that $\l\{u_i\r\}_{i\in I}$ is linearly independent if every finite sequence thereof is.<span style="float:right;">$\blacklozenge$</span>
 
@@ -37,6 +37,6 @@ We may then define linear independence for arbitrary $I$ by saying that $\l\{u_i
 $$\begin{equation}
     1\cdot u_1+\l(-1\r)\cdot u_2=0.
 \end{equation}$$
-This contradiction is resolved by allowing for duplicates in $U$ which distinguishes between $\l\langle u\r\rangle=\l\{u_i\r\}_{i\in\l\{1\r\}}$ and $\l\langle u,u\r\rangle=\l\{u_i\r\}_{i\in\l\{1,2\r\}}$.
+This contradiction is resolved by allowing for duplicates in $U$ which distinguishes between $\tpl{u}=\l\{u_i\r\}_{i\in\l\{1\r\}}$ and $\tpl{u,u}=\l\{u_i\r\}_{i\in\l\{1,2\r\}}$.
 
 From this we also see that if $U$ is linearly independent, then it must not contain duplicate elements. Furthermore, the order structure of $I$, if any, can be ignored as vector addition is commutative. Thus we may consider $U$ as a sub_set_ of $V$ and say that $U$ is linearly independent if any indexed set $\l\{u'_i\r\}_{i\in I}$ where each $u'_i\in U$ (without duplicates) is linearly independent.<span style="float:right;">$\blacklozenge$</span>

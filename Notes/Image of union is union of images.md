@@ -24,12 +24,12 @@ _Proof_. Take $y\in\im_R\l(\bigcup\mc{A}\r)$. The result follows from the follow
 
 $\begin{alignat}{2}
     y\in\im_R\l(\bigcup\mc{A}\r)&\Leftrightarrow y\in\ran\l(R\rest\bigcup\mc{A}\r)&&\textrm{Definition of image}\\
-    &\Leftrightarrow\ex x:\l\langle x,y\r\rangle\in R\rest\l(\bigcup\mc{A}\r)&&\textrm{Definition of range}\\
-    &\Leftrightarrow\ex x:\l\langle x,y\r\rangle\in R\land x\in\bigcup\mc{A}&&\textrm{Definition of restriction}\\
-    &\Leftrightarrow\ex x:\l\langle x,y\r\rangle\in R\land\l(\ex A\in\mc{A}:x\in A\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of union}\\
-    &\Leftrightarrow\ex x,\ex A\in\mc{A}:\l\langle x,y\r\rangle\in R\land x\in A&&A\textrm{ not free in }\l\langle x,y\r\rangle\in R\\
-    &\Leftrightarrow\ex A\in\mc{A},\ex x:\l\langle x,y\r\rangle\in R\land x\in A&&\textrm{Like quantifiers commute}\\
-    &\Leftrightarrow\ex A\in\mc{A},\ex x:\l\langle x,y\r\rangle\in R\rest A&&\textrm{Definition of restriction}\\
+    &\Leftrightarrow\ex x:\tpl{x,y}\in R\rest\l(\bigcup\mc{A}\r)&&\textrm{Definition of range}\\
+    &\Leftrightarrow\ex x:\tpl{x,y}\in R\land x\in\bigcup\mc{A}&&\textrm{Definition of restriction}\\
+    &\Leftrightarrow\ex x:\tpl{x,y}\in R\land\l(\ex A\in\mc{A}:x\in A\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of union}\\
+    &\Leftrightarrow\ex x,\ex A\in\mc{A}:\tpl{x,y}\in R\land x\in A&&A\textrm{ not free in }\tpl{x,y}\in R\\
+    &\Leftrightarrow\ex A\in\mc{A},\ex x:\tpl{x,y}\in R\land x\in A&&\textrm{Like quantifiers commute}\\
+    &\Leftrightarrow\ex A\in\mc{A},\ex x:\tpl{x,y}\in R\rest A&&\textrm{Definition of restriction}\\
     &\Leftrightarrow\ex A\in\mc{A}:y\in\ran\l(R\rest A\r)&&\textrm{Definition of range}\\
     &\Leftrightarrow\ex A\in\mc{A}:y\in\im_R\l(A\r)&&\textrm{Definition of image}\\
     &\Leftrightarrow y\in\bigcup\l\{\im_R\l(A\r)\mid A\in\mc{A}\r\}.&&\textrm{Definition of union}\qedin

@@ -19,10 +19,10 @@ _The collection of all functions form a proper class. Formally, $\fa v,\ex f:f\t
 
 _Proof_. Suppose, for sake of contradiction, that such a set $v$ exists, i.e. $\ex v,\fa\textrm{ functions }f:f\in v$. By Specification, we have
 $$\begin{equation}
-    \fa z\fa f\l[f\in z\Leftrightarrow f\in v\land\ex x:f=\l\{\l\langle x,x\r\rangle\r\}\r].
+    \fa z\fa f\l[f\in z\Leftrightarrow f\in v\land\ex x:f=\l\{\tpl{x,x}\r\}\r].
 \end{equation}$$
 In other words, the set $z$ contains all functions of the form
 $$\begin{equation}
-    f=\l\{\l\langle x,x\r\rangle\r\}=\l\{\l\{\l\{x\r\},\l\{x,x\r\}\r\}\r\}=\l\{\l\{\l\{x\r\}\r\}\r\}.
+    f=\l\{\tpl{x,x}\r\}=\l\{\l\{\l\{x\r\},\l\{x,x\r\}\r\}\r\}=\l\{\l\{\l\{x\r\}\r\}\r\}.
 \end{equation}$$
 Observe that $\bigcup\bigcup z=\l\{\l\{x\r\}\r\}$; since $x$ is arbitrary, this set is the $\textrm{`}$set of all singletons$\textrm{'}$ which contradicts the fact that there is none.<span style="float:right;">$\blacksquare$</span>

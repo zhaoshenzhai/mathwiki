@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set. Then the pair $\l\langle X,\subseteq\r\rangle$ is a poset._
+_Let $X$ be a set. Then the pair $\tpl{X,\subseteq}$ is a poset._
 
 ```
 

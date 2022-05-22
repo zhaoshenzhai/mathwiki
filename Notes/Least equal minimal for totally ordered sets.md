@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle X,\leq\r\rangle$ be a totally ordered set and fix $S\subseteq X$. Then $m\in S$ is the least element of $S$ iff it is the $<$-minimal element of $S$._
+_Let $\tpl{X,\leq}$ be a totally ordered set and fix $S\subseteq X$. Then $m\in S$ is the least element of $S$ iff it is the $<$-minimal element of $S$._
 
 ```
 

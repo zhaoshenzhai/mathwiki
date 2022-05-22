@@ -21,7 +21,7 @@ _Let $K$ be a field and fix $n,m\in\N^\ast$. An **$m\times n$ matrix over $K$** 
 $$\begin{equation}
     \begin{aligned}
         A:\l\{1,\dots,m\r\}\times\l\{1,\dots,n\r\}&\to K\\
-        \l\langle i,j\r\rangle&\mapsto a_{ij}\coloneqq A\l(i,j\r).
+        \tpl{i,j}&\mapsto a_{ij}\coloneqq A\l(i,j\r).
     \end{aligned}
 \end{equation}$$
 _The numbers_ $a_{ij}$ _are called the **entries of $A$**, and we write_ $\l[a_{ij}\r]\coloneqq A$_._
@@ -44,6 +44,6 @@ $$\begin{equation}
 $$\begin{equation}
     E_m:\em\to K
 \end{equation}$$
-which, by the set-theoretic definition of functions, is simply $\em$. However, this is also the case for $0\times n$ matrices, so they coincide. Thus, formally speaking, we should define $m\times 0$ matrices as a triple $\l\langle m,0,A\r\rangle$ where $A$ is as before. Similarly, $0\times n$ matrices are triples $\l\langle0,n,A\r\rangle$; this differentiates between the different empty matrices. We may thus redefine general $m\times n$ matrices, where $m,n\in\N$, as the triple $\l\langle m,n,A\r\rangle$ where $A$ is as before.
+which, by the set-theoretic definition of functions, is simply $\em$. However, this is also the case for $0\times n$ matrices, so they coincide. Thus, formally speaking, we should define $m\times 0$ matrices as a triple $\tpl{m,0,A}$ where $A$ is as before. Similarly, $0\times n$ matrices are triples $\tpl{0,n,A}$; this differentiates between the different empty matrices. We may thus redefine general $m\times n$ matrices, where $m,n\in\N$, as the triple $\tpl{m,n,A}$ where $A$ is as before.
 
 More importantly, however, note that these definitions align with how matrices represent linear maps between finite-dimensional vector spaces.

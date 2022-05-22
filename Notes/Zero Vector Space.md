@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field. A **zero vector space over $K$** is a quintuple $\l\langle\l\{0\r\},K,+,\cdot,0\r\rangle$ where_
+_Let $K$ be a field. A **zero vector space over $K$** is a quintuple $\tpl{\l\{0\r\},K,+,\cdot,0}$ where_
 * _$0$ is any set,_
 * _$+:\l\{0\r\}\times\l\{0\r\}\to\l\{0\r\}$ is defined by $0+0=0$, and_
 * _$\cdot:K\times\l\{0\r\}\to\l\{0\r\}$ is defined by $\alpha\cdot0=0$ for all $\alpha\in K$._

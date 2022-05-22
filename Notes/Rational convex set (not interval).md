@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle\Q,<\r\rangle$ be the set of rational numbers equipped with its standard ordering and fix the subset_
+_Let $\tpl{\Q,<}$ be the set of rational numbers equipped with its standard ordering and fix the subset_
 $$\begin{equation}
     Y\coloneqq\l\{y\in\Q\mid0<y\land y^2<2\r\}.
 \end{equation}$$

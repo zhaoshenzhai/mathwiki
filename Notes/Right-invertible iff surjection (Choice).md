@@ -31,7 +31,7 @@ $$\begin{equation}
 \end{equation}$$
 Since $h\l(y\r)\in X$, we see that $f$ is a surjection.
 
-($\Leftarrow$): Assume that $f$ is a surjection, so for all $y\in Y$, there exists $x\in X$ such that $y=f\l(x\r)$; such an $x$ is generically not unique since $f$ need not be an injection. Using Choice, let $h\subseteq f^{-1}$ be a function with $\dom h=\dom f^{-1}=Y$; here, $f^{-1}$ is the inverse of the relation $f$. Since $h$ is function, we see that for all $y\in Y$, there exists a unique $x$ such that $\l\langle y,x\r\rangle\in h$. This implies that $\l\langle y,x\r\rangle\in f^{-1}$ and thus $\l\langle x,y\r\rangle\in f$. Since $x=h\l(y\r)$, we see that $f\l(h\l(y\r)\r)=y$; this holds for all $y\in Y$, so $h$ is a right-inverse of $f$.<span style="float:right;">$\blacksquare$</span>
+($\Leftarrow$): Assume that $f$ is a surjection, so for all $y\in Y$, there exists $x\in X$ such that $y=f\l(x\r)$; such an $x$ is generically not unique since $f$ need not be an injection. Using Choice, let $h\subseteq f^{-1}$ be a function with $\dom h=\dom f^{-1}=Y$; here, $f^{-1}$ is the inverse of the relation $f$. Since $h$ is function, we see that for all $y\in Y$, there exists a unique $x$ such that $\tpl{y,x}\in h$. This implies that $\tpl{y,x}\in f^{-1}$ and thus $\tpl{x,y}\in f$. Since $x=h\l(y\r)$, we see that $f\l(h\l(y\r)\r)=y$; this holds for all $y\in Y$, so $h$ is a right-inverse of $f$.<span style="float:right;">$\blacksquare$</span>
 
 ---
 

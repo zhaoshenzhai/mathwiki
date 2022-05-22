@@ -31,11 +31,11 @@ _equipped with the operations_
 $$\begin{equation}
     \begin{aligned}
         +:\mat{m\times n}{K}\times\mat{m\times n}{K}&\to\mat{m\times n}{K} \\
-        \l\langle\l[a_{ij}\r],\l[b_{ij}\r]\r\rangle&\mapsto\l[a_{ij}+b_{ij}\r]
+        \tpl{\l[a_{ij}\r],\l[b_{ij}\r]}&\mapsto\l[a_{ij}+b_{ij}\r]
     \end{aligned}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ 
     \begin{aligned}
         \cdot:K\times\mat{m\times n}{K}&\to\mat{m\times n}{K} \\
-        \l\langle\alpha,\l[a_{ij}\r]\r\rangle&\mapsto\l[\alpha a_{ij}\r]
+        \tpl{\alpha,\l[a_{ij}\r]}&\mapsto\l[\alpha a_{ij}\r]
     \end{aligned}
 \end{equation}$$
 _and whose zero vector is_
@@ -50,4 +50,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Formally, $\l\langle\mat{m\times n}{K},K,+,\cdot,0_{mn}\r\rangle$ is the vector space of functions from $\l\{1,\dots,m\r\}\times\l\{1,\dots,n\r\}$ to $K$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Formally, $\tpl{\mat{m\times n}{K},K,+,\cdot,0_{mn}}$ is the vector space of functions from $\l\{1,\dots,m\r\}\times\l\{1,\dots,n\r\}$ to $K$.<span style="float:right;">$\blacklozenge$</span>

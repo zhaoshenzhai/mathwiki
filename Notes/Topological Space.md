@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set and $\mc{T}$ be a topology on $X$. The pair $\l\langle X,\mc{T}\r\rangle$ is called a **topological space**._
+_Let $X$ be a set and $\mc{T}$ be a topology on $X$. The pair $\tpl{X,\mc{T}}$ is called a **topological space**._
 
 ```

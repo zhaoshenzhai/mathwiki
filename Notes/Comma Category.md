@@ -21,16 +21,16 @@ _Let $\cat{C}$, $\cat{D}$, and $\cat{E}$ be categories and fix two covariant fun
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-07_144906/image.svg", width=140></center>
 
 _The **comma category of $\ms{F}$ over $\ms{G}$** is the category $\l(\ms{F}\downarrow\ms{G}\r)$ defined by the following data:_
-* _The objects are triples $\l\langle E,D,f\r\rangle$ where $E\in\obj\l(\cat{E}\r)$, $D\in\obj\l(\cat{D}\r)$, and_ $f\in\hom_\cat{C}\!\l(\ms{F}\l(E\r),\ms{G}\l(D\r)\r)$_._
+* _The objects are triples $\tpl{E,D,f}$ where $E\in\obj\l(\cat{E}\r)$, $D\in\obj\l(\cat{D}\r)$, and_ $f\in\hom_\cat{C}\!\l(\ms{F}\l(E\r),\ms{G}\l(D\r)\r)$_._
 
-* _For all $\l(\ms{F}\downarrow\ms{G}\r)$-objects $\l\langle E,D,f\r\rangle$ and $\l\langle E',D',f'\r\rangle$, the morphisms from $\l\langle E,D,f\r\rangle$ to $\l\langle E',D',f'\r\rangle$ are pairs $\l\langle\phi,\psi\r\rangle$ where $\phi:E\to E'$ and $\psi:D\to D'$ such that the diagram_
+* _For all $\l(\ms{F}\downarrow\ms{G}\r)$-objects $\tpl{E,D,f}$ and $\tpl{E',D',f'}$, the morphisms from $\tpl{E,D,f}$ to $\tpl{E',D',f'}$ are pairs $\tpl{\phi,\psi}$ where $\phi:E\to E'$ and $\psi:D\to D'$ such that the diagram_
   <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-06_170916/image.svg", width=140></center>
 
     _commutes; that is,_
     $$\begin{equation}
-        \hom_{\l(\ms{F}\downarrow\ms{G}\r)}\!\l(\l\langle E,D,f\r\rangle,\l\langle E',D',f'\r\rangle\r)\coloneqq\l\{\l\langle\phi,\psi\r\rangle\in\hom_\cat{E}\!\l(E,E'\r)\times\hom_\cat{D}\!\l(D,D'\r)\mid\ms{G}\l(\psi\r)\circ f=f'\circ\ms{F}\l(\phi\r)\r\}.
+        \hom_{\l(\ms{F}\downarrow\ms{G}\r)}\!\l(\tpl{E,D,f},\tpl{E',D',f'}\r)\coloneqq\l\{\tpl{\phi,\psi}\in\hom_\cat{E}\!\l(E,E'\r)\times\hom_\cat{D}\!\l(D,D'\r)\mid\ms{G}\l(\psi\r)\circ f=f'\circ\ms{F}\l(\phi\r)\r\}.
     \end{equation}$$
-* _For all $\l(\ms{F}\downarrow\ms{G}\r)$-objects $\l\langle E,D,f\r\rangle$, the identity morphism on $\l\langle E,D,f\r\rangle$ is the pair $\l\langle\id_E,\id_D\r\rangle$._
-* _For all $\l(\ms{F}\downarrow\ms{G}\r)$-morphisms $\l\langle\phi,\psi\r\rangle:\l\langle E_1,D_1,f_1\r\rangle\to\l\langle E_2,D_2,f_2\r\rangle$ and $\l\langle\phi',\psi'\r\rangle:\l\langle E_2,D_2,f_2\r\rangle\to\l\langle E_3,D_3,f_3\r\rangle$, the composite morphism of $\l\langle\phi',\psi'\r\rangle$ after $\l\langle\phi,\psi\r\rangle$ is the pair $\l\langle\phi'\circ\phi,\psi'\circ\psi\r\rangle$._
+* _For all $\l(\ms{F}\downarrow\ms{G}\r)$-objects $\tpl{E,D,f}$, the identity morphism on $\tpl{E,D,f}$ is the pair $\tpl{\id_E,\id_D}$._
+* _For all $\l(\ms{F}\downarrow\ms{G}\r)$-morphisms $\tpl{\phi,\psi}:\tpl{E_1,D_1,f_1}\to\tpl{E_2,D_2,f_2}$ and $\tpl{\phi',\psi'}:\tpl{E_2,D_2,f_2}\to\tpl{E_3,D_3,f_3}$, the composite morphism of $\tpl{\phi',\psi'}$ after $\tpl{\phi,\psi}$ is the pair $\tpl{\phi'\circ\phi,\psi'\circ\psi}$._
 
 ```

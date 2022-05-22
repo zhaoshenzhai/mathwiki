@@ -23,7 +23,7 @@ _where_ $\l\{\v{e}_1,\dots,\v{e}_n\r\}$ _is the standard basis on $K^n$._
 
 _Proof_. Suppose, for sake of contradiction, that there exist $A,B\in\mat{m\times n}{K}$ such that $T_A=T_B$; that is, such that $A\v{x}=B\v{x}$ for all $\v{x}\in K^n$. But then $A=B$ since their actions on all vectors in $K^n$ coincide, so we arrive at a contradiction.
 
-To write $A$ explicitly, observe that each $\v{x}=\l\langle x_1,\dots,x_n\r\rangle\in K^n$ can be written as $\v{x}=\sum_{j=1}^nx_j\v{e}_j$, and thus
+To write $A$ explicitly, observe that each $\v{x}=\tpl{x_1,\dots,x_n}\in K^n$ can be written as $\v{x}=\sum_{j=1}^nx_j\v{e}_j$, and thus
 $$\begin{equation}
     \begin{aligned}
         T\l(\v{x}\r)&=T\l(\sum_{j=1}^nx_j\v{e}_j\r) && \textrm{Substitution} \\

@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle X,\leq\r\rangle$ be a poset and fix $S\subseteq X$. A **lower bound of $S$ in $X$** is an element $l\in X$ such that $\fa s\in S:l\leq s$. _
+_Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. A **lower bound of $S$ in $X$** is an element $l\in X$ such that $\fa s\in S:l\leq s$. _
 
 ```

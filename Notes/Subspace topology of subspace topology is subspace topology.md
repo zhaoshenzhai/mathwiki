@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle X,\mc{T}\r\rangle$ be a topological space and let $\l\langle Y,\l.\mc{T}\r|_Y\r\rangle$ be a subspace thereof. Then for every $Z\subseteq Y$, we have $\l.\l.\mc{T}\r|_Y\r|_Z=\l.\mc{T}\r|_Z$._
+_Let $\tpl{X,\mc{T}}$ be a topological space and let $\tpl{Y,\l.\mc{T}\r|_Y}$ be a subspace thereof. Then for every $Z\subseteq Y$, we have $\l.\l.\mc{T}\r|_Y\r|_Z=\l.\mc{T}\r|_Z$._
 
 ```
 

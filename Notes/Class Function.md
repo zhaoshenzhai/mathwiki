@@ -21,7 +21,7 @@ _Let $X\coloneqq\l\{x\mid\psi\l(x\r)\r\}$ be a class. The formula $\phi\l(x,y\r)
 $$\begin{equation}
     \fa x:\l[\psi\l(x\r)\Rightarrow\ex!y:\phi\l(x,y\r)\r]
 \end{equation}$$
-_and we wish to consider the collection of all pairs $\l\langle x,y\r\rangle$ satisfying $\phi\l(x,y\r)$; write $\dom\phi\coloneqq X$, and, if there exists some formula $\xi\l(y\r)$ such that_
+_and we wish to consider the collection of all pairs $\tpl{x,y}$ satisfying $\phi\l(x,y\r)$; write $\dom\phi\coloneqq X$, and, if there exists some formula $\xi\l(y\r)$ such that_
 $$\begin{equation}
     \fa y:\l[\xi\l(y\r)\Rightarrow\l(\ex x:\psi\l(x\r)\land\phi\l(x,y\r)\r)\r],
 \end{equation}$$

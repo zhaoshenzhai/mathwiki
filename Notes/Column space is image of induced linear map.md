@@ -25,7 +25,7 @@ _Proof_. Take $\v{y}\in\col\l(A\r)$. The result follows from the following chain
 $\begin{align}
     \v{y}\in\col\l(A\r)&\Leftrightarrow\v{y}\in\span\l\{\v{a}_1,\dots,\v{a}_n\r\} && \textrm{Definition of column space; }\v{a}_j\coloneqq\l[a_{1j}\ \ \cdots\ \ a_{mj}\r] \\
     &\Leftrightarrow\ex x_1,\dots,x_n\in K:\v{y}=\sum_{j=1}^nx_j\v{a}_j && \textrm{Definition of linear span} \\
-    &\Leftrightarrow\ex\v{x}\in K^n:\v{y}=A\v{x} && \textrm{Matrix multiplication (columns); let }\v{x}\coloneqq\l\langle x_1,\dots,x_n\r\rangle \\
+    &\Leftrightarrow\ex\v{x}\in K^n:\v{y}=A\v{x} && \textrm{Matrix multiplication (columns); let }\v{x}\coloneqq\tpl{x_1,\dots,x_n} \\
     &\Leftrightarrow\ex\v{x}\in K^n:\v{y}=T_A\l(\v{x}\r) && \textrm{Definition of }T_A \\
     &\Leftrightarrow\v{y}\in\im\l(T_A\r). && \textrm{Definition of image}\qedin
 \end{align}$

@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle X,\leq\r\rangle$ be a complete lattice. Then $\l\langle X,\leq\r\rangle$ is bounded._
+_Let $\tpl{X,\leq}$ be a complete lattice. Then $\tpl{X,\leq}$ is bounded._
 
 ```
 

@@ -27,4 +27,4 @@ _Proof_. We shall prove the statement for $z_1$; the proof for $z_2$ is analogou
 $$\begin{equation}
     \phi\l(x\r)\Rightarrow x\in\bigcup\bigcup R.
 \end{equation}$$
-To this end, assume that there exists some $y$ such that $\l\langle x,y\r\rangle\in R$. By definition of the ordered pair, we have $\l\{\l\{x\r\},\l\{x,y\r\}\r\}\in R$. It follows that $\l\{x,y\r\}\in\bigcup R$ and hence $x,y\in\bigcup\bigcup R$. (Incidently, this also proves the statement for $z_2$).<span style="float:right;">$\blacksquare$</span>
+To this end, assume that there exists some $y$ such that $\tpl{x,y}\in R$. By definition of the ordered pair, we have $\l\{\l\{x\r\},\l\{x,y\r\}\r\}\in R$. It follows that $\l\{x,y\r\}\in\bigcup R$ and hence $x,y\in\bigcup\bigcup R$. (Incidently, this also proves the statement for $z_2$).<span style="float:right;">$\blacksquare$</span>

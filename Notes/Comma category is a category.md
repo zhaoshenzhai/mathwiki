@@ -21,11 +21,11 @@ _Then the comma category $\l(\ms{F}\downarrow\ms{G}\r)$ is a category._
 ```
 
 _Proof_. It suffices to check that the identities and composite morphisms are well-defined since the axioms are inherited directly from that of $\cat{E}$ and $\cat{D}$.
-* Take $\l\langle E,D,f\r\rangle\in\obj\l(\ms{F}\downarrow\ms{G}\r)$ and consider the identity $\l\langle\id_E,\id_D\r\rangle$; we need to prove that $\ms{G}\l(\id_D\r)\circ f=f\circ\ms{F}\l(\id_E\r)$. From $\axifunctor[1]$ of $\ms{F}$, we see that $\ms{F}\l(\id_E\r)=\id_{\ms{F}\l(E\r)}$ which, by definition of $\ms{F}$, is a morphism in $\cat{C}$. Similarly, $\ms{G}\l(\id_D\r)=\id_{\ms{G}\l(D\r)}\in\hom\l(\cat{C}\r)$. Since $f$ is a morphism in $\cat{C}$ with $\dom f=\ms{F}\l(E\r)$ and $\cdm f=\ms{G}\l(D\r)$, the composition is defined and equality holds via $\axicat[2]$ of $\cat{C}$.
+* Take $\tpl{E,D,f}\in\obj\l(\ms{F}\downarrow\ms{G}\r)$ and consider the identity $\tpl{\id_E,\id_D}$; we need to prove that $\ms{G}\l(\id_D\r)\circ f=f\circ\ms{F}\l(\id_E\r)$. From $\axifunctor[1]$ of $\ms{F}$, we see that $\ms{F}\l(\id_E\r)=\id_{\ms{F}\l(E\r)}$ which, by definition of $\ms{F}$, is a morphism in $\cat{C}$. Similarly, $\ms{G}\l(\id_D\r)=\id_{\ms{G}\l(D\r)}\in\hom\l(\cat{C}\r)$. Since $f$ is a morphism in $\cat{C}$ with $\dom f=\ms{F}\l(E\r)$ and $\cdm f=\ms{G}\l(D\r)$, the composition is defined and equality holds via $\axicat[2]$ of $\cat{C}$.
 
-* Take $\l\langle E_i,D_i,f_i\r\rangle\in\obj\l(\ms{F}\downarrow\ms{G}\r)$ for $i\in\l\{1,2,3\r\}$ and consider the morphisms
+* Take $\tpl{E_i,D_i,f_i}\in\obj\l(\ms{F}\downarrow\ms{G}\r)$ for $i\in\l\{1,2,3\r\}$ and consider the morphisms
 $$\begin{equation}
-    \l\langle\phi,\psi\r\rangle:\l\langle E_1,D_1,f_1\r\rangle\to\l\langle E_2,D_2,f_2\r\rangle\ \ \ \ \textrm{and}\ \ \ \ \l\langle\phi',\psi'\r\rangle:\l\langle E_2,D_2,f_2\r\rangle\to\l\langle E_3,D_3,f_3\r\rangle\tag{$\ast$}
+    \tpl{\phi,\psi}:\tpl{E_1,D_1,f_1}\to\tpl{E_2,D_2,f_2}\ \ \ \ \textrm{and}\ \ \ \ \tpl{\phi',\psi'}:\tpl{E_2,D_2,f_2}\to\tpl{E_3,D_3,f_3}\tag{$\ast$}
 \end{equation}$$
 in $\hom\l(\ms{F}\downarrow\ms{G}\r)$; we need to prove that $\phi'\circ\phi\in\hom_\cat{C}\!\l(E_1,E_3\r)$, $\psi'\circ\psi\in\hom_\cat{D}\!\l(D_1,D_3\r)$, and that the diagram
   <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-09_101429/image.svg", width=350></center>
@@ -53,4 +53,4 @@ in $\hom\l(\ms{F}\downarrow\ms{G}\r)$; we need to prove that $\phi'\circ\phi\in\
           &=f_3\circ\ms{F}\l(\phi'\circ\phi\r)&&\axifunctor[2]\textrm{ of }\ms{F}
       \end{alignedat}
   \end{equation}$$
-  and thus equality holds. It follows then that $\l\langle\phi'\circ\phi,\psi'\circ\psi\r\rangle$ is indeed a morphism from $\l\langle E_1,D_1,f_1\r\rangle$ to $\l\langle E_3,D_3,f_3\r\rangle$.<span style="float:right;">$\blacksquare$</span>
+  and thus equality holds. It follows then that $\tpl{\phi'\circ\phi,\psi'\circ\psi}$ is indeed a morphism from $\tpl{E_1,D_1,f_1}$ to $\tpl{E_3,D_3,f_3}$.<span style="float:right;">$\blacksquare$</span>

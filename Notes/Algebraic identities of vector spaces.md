@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle K,+,\cdot,0,1\r\rangle$ be a field and consider any vector space $\l\langle V,K,\oplus,\odot,0_V\r\rangle$ over $K$. Then the following algebraic identities hold:_
+_Let $\tpl{K,+,\cdot,0,1}$ be a field and consider any vector space $\tpl{V,K,\oplus,\odot,0_V}$ over $K$. Then the following algebraic identities hold:_
 * _(Right-absorbing element of $\odot$): $\fa\alpha\in K:\alpha\odot0_V=0_V$._
 
 * _(Left-absorbing element of $\odot$): $\fa v\in V:0\odot v=0_V$._

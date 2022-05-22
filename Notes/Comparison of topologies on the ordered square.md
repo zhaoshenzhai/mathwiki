@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let_ $\l\langle I^2,\mc{T}_\textrm{or}\r\rangle$ _be the ordered square and let $<$ and $\sqsubset$ be the standard and the lexicographical orderings on $I$ and $\R^2$, respectively. Then the subspace topology_ $\mc{T}_\textrm{sb}\coloneqq\l.\mc{T}\l(\sqsubset\r)\r|_{I^2}$ _on $I^2$ is strictly finer than both_ $\mc{T}_\textrm{or}$ _and the product topology_ $\mc{T}_\textrm{pr}\coloneqq\mc{T}\l(<\r)^2$_._
+_Let_ $\tpl{I^2,\mc{T}_\textrm{or}}$ _be the ordered square and let $<$ and $\sqsubset$ be the standard and the lexicographical orderings on $I$ and $\R^2$, respectively. Then the subspace topology_ $\mc{T}_\textrm{sb}\coloneqq\l.\mc{T}\l(\sqsubset\r)\r|_{I^2}$ _on $I^2$ is strictly finer than both_ $\mc{T}_\textrm{or}$ _and the product topology_ $\mc{T}_\textrm{pr}\coloneqq\mc{T}\l(<\r)^2$_._
 
 _Furthermore,_ $\mc{T}_\textrm{or}$ _and_ $\mc{T}_\textrm{pr}$ _are not comparable._
 

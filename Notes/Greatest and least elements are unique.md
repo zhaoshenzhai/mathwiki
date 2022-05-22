@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle X,\leq\r\rangle$ be a poset and fix $S\subseteq X$. If $g$ and $g'$ are both greatest elements of $S$, then $g=g'$. Similarly for least elements._
+_Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. If $g$ and $g'$ are both greatest elements of $S$, then $g=g'$. Similarly for least elements._
 
 ```
 

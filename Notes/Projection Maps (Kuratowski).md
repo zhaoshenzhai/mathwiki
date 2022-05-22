@@ -20,8 +20,8 @@ title: Definition.
 _Let $X$ and $Y$ be sets. The **projection maps onto the first and second coordinates of $X\times Y$** are the functions_
 $$\begin{equation}
     \begin{aligned}
-        \pi_X:X\times Y\to X\ \ \ \ &\textrm{\it{mapping}}\ \ \ \ \l\langle x,y\r\rangle\mapsto x\\
-        \pi_Y:X\times Y\to Y\ \ \ \ &\textrm{\it{mapping}}\ \ \ \ \l\langle x,y\r\rangle\mapsto y
+        \pi_X:X\times Y\to X\ \ \ \ &\textrm{\it{mapping}}\ \ \ \ \tpl{x,y}\mapsto x\\
+        \pi_Y:X\times Y\to Y\ \ \ \ &\textrm{\it{mapping}}\ \ \ \ \tpl{x,y}\mapsto y
     \end{aligned}
 \end{equation}$$
 _respectively._

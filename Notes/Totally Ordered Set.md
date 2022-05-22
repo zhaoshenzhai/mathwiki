@@ -17,8 +17,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set and $\leq$ be a total order on $X$. The pair $\l\langle X,\leq\r\rangle$ is called a **totally ordered set** or an **ordered set**._
+_Let $X$ be a set and $\leq$ be a total order on $X$. The pair $\tpl{X,\leq}$ is called a **totally ordered set** or an **ordered set**._
 
 ```
 
-**Remark.** Note that the pair $\l\langle X,<\r\rangle$ is also called a totally ordered set; one can be constructed from the other.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Note that the pair $\tpl{X,<}$ is also called a totally ordered set; one can be constructed from the other.<span style="float:right;">$\blacklozenge$</span>

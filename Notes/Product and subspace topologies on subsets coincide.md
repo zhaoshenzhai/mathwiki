@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle X,\mc{T}_X\r\rangle$ and $\l\langle Y,\mc{T}_Y\r\rangle$ be topological spaces and fix $S\subseteq X$ and $T\subseteq Y$. Then_ $\l.\l(\mc{T}_X\times\mc{T}_Y\r)\r|_{S\times T}=\l.\mc{T}_X\r|_S\times\l.\mc{T}_Y\r|_T$_._
+_Let $\tpl{X,\mc{T}_X}$ and $\tpl{Y,\mc{T}_Y}$ be topological spaces and fix $S\subseteq X$ and $T\subseteq Y$. Then_ $\l.\l(\mc{T}_X\times\mc{T}_Y\r)\r|_{S\times T}=\l.\mc{T}_X\r|_S\times\l.\mc{T}_Y\r|_T$_._
 
 ```
 

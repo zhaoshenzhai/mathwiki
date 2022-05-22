@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle X,\mc{T}\r\rangle$ be a topological space and fix a subset $Y\subseteq X$. The pair $\l\langle Y,\l.\mc{T}\r|_Y\r\rangle$, where $\l.\mc{T}\r|_Y$ is the subspace topology on $Y$ inherited from $X$, is called a **(topological) subspace of $\l\langle X,\mc{T}\r\rangle$**._
+_Let $\tpl{X,\mc{T}}$ be a topological space and fix a subset $Y\subseteq X$. The pair $\tpl{Y,\l.\mc{T}\r|_Y}$, where $\l.\mc{T}\r|_Y$ is the subspace topology on $Y$ inherited from $X$, is called a **(topological) subspace of $\tpl{X,\mc{T}}$**._
 
 ```

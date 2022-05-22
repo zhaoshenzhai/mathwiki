@@ -18,9 +18,9 @@ Justifications: [[Function space constructed from a Cartesian product]]
 title: Definition.
 
 _Let $X$ be a set and consider an indexed family_ $\l\{x_i\r\}_{i\in I}\subseteq X$_._
-* _If $I=\N$, then_ $\l\{x_i\r\}_{i\in I}$ _is said to be an **infinite sequence in $X$** and is denoted by either_ $\l\langle x_i\r\rangle_{i\in\N}$ _or_ $\l\langle x_1,x_2,\dots\r\rangle$_._
+* _If $I=\N$, then_ $\l\{x_i\r\}_{i\in I}$ _is said to be an **infinite sequence in $X$** and is denoted by either_ $\tpl{x_i}_{i\in\N}$ _or_ $\tpl{x_1,x_2,\dots}$_._
 
-* _If $I=\l\{1,\dots,n\r\}$ for some $n\in\N$, then _$\l\{x_i\r\}_{i\in I}$ _is said to be an **$n$-tuple in $X$** (or a **finite sequence in $X$**) and is denoted by $\l\langle x_1,\dots,x_n\r\rangle$._
+* _If $I=\l\{1,\dots,n\r\}$ for some $n\in\N$, then _$\l\{x_i\r\}_{i\in I}$ _is said to be an **$n$-tuple in $X$** (or a **finite sequence in $X$**) and is denoted by $\tpl{x_1,\dots,x_n}$._
 
 _More generally, let_ $\l\{X_j\r\}_{j\in J}$ _be an indexed family of sets and consider an indexed family_ $\l\{x_j\r\}_{j\in J}$ _where $x_j\in X_j$ for all $j\in J$._
 * _If $J=\N$, then_ $\l\{x_j\r\}_{j\in J}$ _is said to be an_ **_infinite sequence through_ $\l\{X_j\r\}_{j\in J}$**_._

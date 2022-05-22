@@ -17,23 +17,23 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_The category of relations $\catrel$ (with objects $\l\langle X,\rho\r\rangle$ and morphisms relation-preserving maps) is a locally-small category._
+_The category of relations $\catrel$ (with objects $\tpl{X,\rho}$ and morphisms relation-preserving maps) is a locally-small category._
 
 ```
 
-_Proof_.  It suffices to check that the identities and composite morphisms are well-defined since the axioms are inherited directly from that of $\catset$; $\catrel$ is locally-small follows from the fact that for all pairs $\l\langle X,\rho\r\rangle$ and $\l\langle Y,\sigma\r\rangle$, we have that
+_Proof_.  It suffices to check that the identities and composite morphisms are well-defined since the axioms are inherited directly from that of $\catset$; $\catrel$ is locally-small follows from the fact that for all pairs $\tpl{X,\rho}$ and $\tpl{Y,\sigma}$, we have that
 $$\begin{equation}
-    \hom\l(\l\langle X,\rho\r\rangle,\l\langle Y,\sigma\r\rangle\r)\subseteq Y^X
+    \hom\l(\tpl{X,\rho},\tpl{Y,\sigma}\r)\subseteq Y^X
 \end{equation}$$
 and is thus a set by Specification.
-* Take $\l\langle X,\rho\r\rangle\in\obj\l(\catrel\r)$ and $x_1,x_2\in X$. If $\l\langle x_1,x_2\r\rangle\in\rho$, observe that
+* Take $\tpl{X,\rho}\in\obj\l(\catrel\r)$ and $x_1,x_2\in X$. If $\tpl{x_1,x_2}\in\rho$, observe that
 $$\begin{equation}
-    \l\langle\id_{\l\langle X,\rho\r\rangle}\l(x_1\r),\id_{\l\langle X,\rho\r\rangle}\l(x_2\r)\r\rangle=\l\langle\id_X\l(x_1\r),\id_X\l(x_2\r)\r\rangle=\l\langle x_1,x_2\r\rangle\in\rho
+    \tpl{\id_{\tpl{X,\rho}}\l(x_1\r),\id_{\tpl{X,\rho}}\l(x_2\r)}=\tpl{\id_X\l(x_1\r),\id_X\l(x_2\r)}=\tpl{x_1,x_2}\in\rho
 \end{equation}$$
-too and thus $\id_{\l\langle X,\rho\r\rangle}\in\hom\l(X,X\r)$.
+too and thus $\id_{\tpl{X,\rho}}\in\hom\l(X,X\r)$.
 
-* Take morphisms $f:\l\langle X,\rho\r\rangle\to\l\langle Y,\sigma\r\rangle$ and $g:\l\langle Y,\sigma\r\rangle\to\l\langle Z,\tau\r\rangle$; we need to prove that for all $x_1,x_2\in X$,
+* Take morphisms $f:\tpl{X,\rho}\to\tpl{Y,\sigma}$ and $g:\tpl{Y,\sigma}\to\tpl{Z,\tau}$; we need to prove that for all $x_1,x_2\in X$,
 $$\begin{equation}
-    \l\langle x_1,x_2\r\rangle\in\rho\ \ \ \ \Rightarrow\ \ \ \ \l\langle\l(g\circ f\r)\l(x_1\r),\l(g\circ f\r)\l(x_2\r)\r\rangle\in\tau.
+    \tpl{x_1,x_2}\in\rho\ \ \ \ \Rightarrow\ \ \ \ \tpl{\l(g\circ f\r)\l(x_1\r),\l(g\circ f\r)\l(x_2\r)}\in\tau.
 \end{equation}$$
-To do so, observe that $f\l(x_1\r)$ and $f\l(x_2\r)$ are elements in $Y$ such that $\l\langle f\l(x_1\r),f\l(x_2\r)\r\rangle\in\sigma$, so, since $g$ is a morphism, we have that $\l\langle g\l(f\l(x_1\r)\r),g\l(f\l(x_2\r)\r)\r\rangle\in\tau$. The result then follows from the definition of composition of functions.<span style="float:right;">$\blacksquare$</span>
+To do so, observe that $f\l(x_1\r)$ and $f\l(x_2\r)$ are elements in $Y$ such that $\tpl{f\l(x_1\r),f\l(x_2\r)}\in\sigma$, so, since $g$ is a morphism, we have that $\tpl{g\l(f\l(x_1\r)\r),g\l(f\l(x_2\r)\r)}\in\tau$. The result then follows from the definition of composition of functions.<span style="float:right;">$\blacksquare$</span>

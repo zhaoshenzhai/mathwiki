@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle K,+,\cdot,0\r\rangle$ be a field and consider a vector space $\mc{V}\coloneqq\l\langle V,K,\oplus,\odot,0_V\r\rangle$. Let_ $\oplus'\coloneqq\l.\oplus\r|_{U\times U}$ _and_ $\odot'\coloneqq\l.\odot\r|_{K\times U}$_. Then, for every subset $U\subseteq V$, the quintuple $\mc{U}\coloneqq\l\langle U,K,\oplus',\odot',0_V\r\rangle$ is a vector space over $K$ iff_
+_Let $\tpl{K,+,\cdot,0}$ be a field and consider a vector space $\mc{V}\coloneqq\tpl{V,K,\oplus,\odot,0_V}$. Let_ $\oplus'\coloneqq\l.\oplus\r|_{U\times U}$ _and_ $\odot'\coloneqq\l.\odot\r|_{K\times U}$_. Then, for every subset $U\subseteq V$, the quintuple $\mc{U}\coloneqq\tpl{U,K,\oplus',\odot',0_V}$ is a vector space over $K$ iff_
 * _$0_V\in U$,_
 * _$\fa u_1,u_2\in U:u_1\oplus'u_2\in U$, and_
 * _$\fa\alpha\in K,\fa u\in U:\alpha\odot'u\in U$._

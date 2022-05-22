@@ -17,7 +17,7 @@ Justifications: [$U\subseteq V$ is a vector space $\Leftrightarrow$ $0\in U$ and
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle V,K,+,\cdot,0\r\rangle$ be a vector space over some field $K$ and fix a subset $U\subseteq V$. The quintuple_ $\mc{U}\coloneqq\l\langle U,K,\l.+\r|_{U\times U},\l.\cdot\r|_{K\times U},0\r\rangle$ _is a **($K$-linear) subspace of $\mc{V}$** if, equivalently:_
+_Let $\tpl{V,K,+,\cdot,0}$ be a vector space over some field $K$ and fix a subset $U\subseteq V$. The quintuple_ $\mc{U}\coloneqq\tpl{U,K,\l.+\r|_{U\times U},\l.\cdot\r|_{K\times U},0}$ _is a **($K$-linear) subspace of $\mc{V}$** if, equivalently:_
 * _$\mc{U}$ is a vector space over $K$._
 * _$0\in U$ and the restricted operations_ $\l.+\r|_{U\times U}$ _and_ $\l.\cdot\r|_{K\times U}$ _close in $U$._
 

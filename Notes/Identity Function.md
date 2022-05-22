@@ -23,7 +23,7 @@ $$\begin{equation}
 \end{equation}$$
 _Formally,_
 $$\begin{equation}
-    \id_X\!\coloneqq\l\{z\mid\ex x\in X:z=\l\langle x,x\r\rangle\r\}.
+    \id_X\!\coloneqq\l\{z\mid\ex x\in X:z=\tpl{x,x}\r\}.
 \end{equation}$$
 
 ```

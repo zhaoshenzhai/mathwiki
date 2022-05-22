@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle X,<\r\rangle$ be a totally ordered set and fix a subset $Y\subseteq X$. Then $\mc{T}\l(\l.<\r|_Y\r)\subseteq\l.\mc{T}\l(<\r)\r|_Y$._
+_Let $\tpl{X,<}$ be a totally ordered set and fix a subset $Y\subseteq X$. Then $\mc{T}\l(\l.<\r|_Y\r)\subseteq\l.\mc{T}\l(<\r)\r|_Y$._
 
 ```
 

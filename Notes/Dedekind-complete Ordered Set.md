@@ -17,8 +17,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A partially ordered set $\l\langle X,\leq\r\rangle$ is said to be **Dedekind-complete** or satisfies the **least upper bound property** if every non-empty subset $S\subseteq X$ that is bounded above admits a supremum in $X$._
+_A partially ordered set $\tpl{X,\leq}$ is said to be **Dedekind-complete** or satisfies the **least upper bound property** if every non-empty subset $S\subseteq X$ that is bounded above admits a supremum in $X$._
 
 ```
 
-**Remark.** Dually, a poset $\l\langle X,\leq\r\rangle$ is said to satisfy the **greatest lower bound property** if every non-empty subset $S\subseteq X$ that is bounded below admits an infimum. The terminology $\textrm{`}$Dedekind-complete$\textrm{'}$, which does not differentiate between the two, is justified by the fact that they are equivalent.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Dually, a poset $\tpl{X,\leq}$ is said to satisfy the **greatest lower bound property** if every non-empty subset $S\subseteq X$ that is bounded below admits an infimum. The terminology $\textrm{`}$Dedekind-complete$\textrm{'}$, which does not differentiate between the two, is justified by the fact that they are equivalent.<span style="float:right;">$\blacklozenge$</span>

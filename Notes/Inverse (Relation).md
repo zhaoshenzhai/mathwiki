@@ -19,7 +19,7 @@ title: Definition.
 
 _Let $R$ be a binary relation. The **inverse of $R$** is the relation_
 $$\begin{equation}
-    R^{-1}\coloneqq\l\{\l\langle y,x\r\rangle\mid xRy\r\}.
+    R^{-1}\coloneqq\l\{\tpl{y,x}\mid xRy\r\}.
 \end{equation}$$
 
 ```

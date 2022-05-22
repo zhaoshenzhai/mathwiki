@@ -17,18 +17,18 @@ Justifications: [[Unit element of a group is unique]], [[Inverse elements in a g
 ``` ad-Definition
 title: Definition.
 
-_Let $G$ be a set and let $\ast$ be a binary operation on $G$. The pair $\l\langle G,\ast\r\rangle$ is said to be a **group** if_
+_Let $G$ be a set and let $\ast$ be a binary operation on $G$. The pair $\tpl{G,\ast}$ is said to be a **group** if_
 * _$\axigrp[1]$ (Associativity)$\bf{.}$ $\fa g,h,k\in G:\l(g\ast h\r)\ast k=g\ast\l(h\ast k\r)$._
 * _$\axigrp[2]$ (Unit)$\bf{.}$ $\ex e\in G,\fa g\in G:g\ast e=g=e\ast g$._
 * _$\axigrp[3]$ (Inverse)$\bf{.}$ $\fa g\in G,\ex h\in G:g\ast h=e=h\ast g$._
 
 ```
 
-**Remark.** Alternatively, we can define groups as triples $\l\langle G,\ast,e\r\rangle$ for some fixed $e\in G$ satisfying $\axigrp[1]$ and $\axigrp[3]$ as above, but with $\axigrp[2]$ replaced with
+**Remark.** Alternatively, we can define groups as triples $\tpl{G,\ast,e}$ for some fixed $e\in G$ satisfying $\axigrp[1]$ and $\axigrp[3]$ as above, but with $\axigrp[2]$ replaced with
 $$\begin{equation}
     \axigrp[2]'\bf{.}\ \fa g\in G:g\ast e=g=e\ast g.
 \end{equation}$$
-That is, we remove the existential quantifier in $\axigrp[2]$. We can similarly define groups as a quadruples $\l\langle G,\ast,e,i\r\rangle$ for some $i:G\to G$ satisfying $\axigrp[1]$ and $\axigrp[2]'$ as above, but with $\axigrp[3]$ replaced with
+That is, we remove the existential quantifier in $\axigrp[2]$. We can similarly define groups as a quadruples $\tpl{G,\ast,e,i}$ for some $i:G\to G$ satisfying $\axigrp[1]$ and $\axigrp[2]'$ as above, but with $\axigrp[3]$ replaced with
 $$\begin{equation}
     \axigrp[3]'\bf{.}\ \fa g\in G,g\ast i\l(g\r)=e=i\l(g\r)\ast g.
 \end{equation}$$

@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category and fix $X_1,X_2\in\obj\l(\cat{C}\r)$. A **(categorical) product of $X_1$ and $X_2$** is a triple $\l\langle X,\pi_1,\pi_2\r\rangle$ consisting of_
+_Let $\cat{C}$ be a category and fix $X_1,X_2\in\obj\l(\cat{C}\r)$. A **(categorical) product of $X_1$ and $X_2$** is a triple $\tpl{X,\pi_1,\pi_2}$ consisting of_
 * _an object $X$, usually denoted by $X_1\times X_2$, and_
 * _two morphisms $\pi_i:X\to X_i$, called **canonical projections**,_
 

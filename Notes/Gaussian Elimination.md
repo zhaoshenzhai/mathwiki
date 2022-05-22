@@ -25,7 +25,7 @@ _of equations over $K$. Let $R\coloneqq\l(e_l\circ\cdots\circ e_1\r)\l(A\r)\sim 
 $$\begin{equation}
     \fa j\in\l\{1,\dots,n\r\}:\mc{C}_j\coloneqq\l\{j+1,\dots,n\r\},\ \ \ \ \ \ \ \ \mc{K}\coloneqq\l\{k\in\N\mid k\text{\it{ is a pivot column}}\r\},\ \ \ \ \textrm{\it{and}}\ \ \ \ \fa k\in\mc{K}:\mc{K}_k\coloneqq\l\{j\in\N\mid j>k\land j\in\mc{K}\r\}.
 \end{equation}$$
-_If_ $z_{r+1}=\cdots=z_m=0$_, then $A\v{x}=\v{b}$ is consistent and all solutions thereof can be expressed in the form of $\l\langle s_1,\dots,s_n\r\rangle\in K^n$ where_
+_If_ $z_{r+1}=\cdots=z_m=0$_, then $A\v{x}=\v{b}$ is consistent and all solutions thereof can be expressed in the form of $\tpl{s_1,\dots,s_n}\in K^n$ where_
 $$\begin{equation}
     \fa\alpha\in\l\{1,\dots,n\r\}:s_\alpha\coloneqq
         \begin{dcases}
@@ -39,7 +39,7 @@ _and each_ $t_\alpha$_, if any, is an arbitrary element of $K$. Otherwise, $A\v{
 
 _Proof_. Such a matrix $R$ exists and can be constructed by the Gaussian Algorithm. If there exists some $j\in\l\{r+1,\dots,m\r\}$ such that $z_j\neq0$, then the $j^\textrm{th}$ equation in $R\v{x}=\v{z}$ reads $0+\cdots+0=z_j$ which is a contradiction. Thus the linear system $R\v{x}=\v{z}$, and thus $A\v{x}=\v{b}$, is inconsistent.
 
-Otherwise, we need to show that the tuples $\l\langle s_1,\dots,s_n\r\rangle$ are solutions of $R\v{x}=\v{z}$, and, moreover, that all solutions can be expressed in this form. Firstly, note that $s_\alpha$ is well-defined for all $\alpha\in\l\{1,\dots,n\r\}$, by which we mean that if there exists $i\in\l\{1,\dots,r\r\}$ such that $\alpha=k_i$, then $i$ is unique; this is guaranteed by $\axiref[3]$ of $R$.
+Otherwise, we need to show that the tuples $\tpl{s_1,\dots,s_n}$ are solutions of $R\v{x}=\v{z}$, and, moreover, that all solutions can be expressed in this form. Firstly, note that $s_\alpha$ is well-defined for all $\alpha\in\l\{1,\dots,n\r\}$, by which we mean that if there exists $i\in\l\{1,\dots,r\r\}$ such that $\alpha=k_i$, then $i$ is unique; this is guaranteed by $\axiref[3]$ of $R$.
 
 Moving on, take $i\in\l\{1,\dots,r\r\}$ and consider the equation
 $$\begin{equation}
@@ -61,7 +61,7 @@ $$\begin{equation}
         &=\sum_{j=1}^nr_{ij}s_j. && \textrm{Combine sums}
     \end{aligned}
 \end{equation}$$
-The last equality precisely states that $\phi_i\l(s_1,\dots,s_n\r)$; since $i$ is arbitrary, this holds for all linear equations in $R\v{x}=\v{z}$ and thus $\l\langle s_1,\dots,s_n\r\rangle$ is a solution thereof. Finally, the proof that all solutions are of the form stated above amounts to observing that all the steps are reversible; if $\phi_1\l(s_1,\dots,s_n\r)$, we can split the sum, observe that $r_{ij}=0$ for all $j\in\l\{1,\dots,k_i-1\r\}$, combine the sums, split off the first term, observe that $r_{ik_i}=1$, split the sum into the leading and non-pivot columns, and make the substitution $t_j\coloneqq s_j$ for all $j\in\mc{C}_{k_i}\setminus\mc{K}$. Rearranging shows that our solution must be of the form we stated here.<span style="float:right;">$\blacksquare$</span>
+The last equality precisely states that $\phi_i\l(s_1,\dots,s_n\r)$; since $i$ is arbitrary, this holds for all linear equations in $R\v{x}=\v{z}$ and thus $\tpl{s_1,\dots,s_n}$ is a solution thereof. Finally, the proof that all solutions are of the form stated above amounts to observing that all the steps are reversible; if $\phi_1\l(s_1,\dots,s_n\r)$, we can split the sum, observe that $r_{ij}=0$ for all $j\in\l\{1,\dots,k_i-1\r\}$, combine the sums, split off the first term, observe that $r_{ik_i}=1$, split the sum into the leading and non-pivot columns, and make the substitution $t_j\coloneqq s_j$ for all $j\in\mc{C}_{k_i}\setminus\mc{K}$. Rearranging shows that our solution must be of the form we stated here.<span style="float:right;">$\blacksquare$</span>
 
 ---
 

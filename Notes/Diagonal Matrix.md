@@ -24,10 +24,10 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Indeed, the data determining a diagonal matrix $D$ is simply the $n$-tuple $\l\langle d_{11},\dots,d_{nn}\r\rangle$, so we may consider the function
+**Remark.** Indeed, the data determining a diagonal matrix $D$ is simply the $n$-tuple $\tpl{d_{11},\dots,d_{nn}}$, so we may consider the function
 $$\begin{align}
     \diag:K^n&\to\mat{n}{K} \\
-    \l\langle d_1,\dots,d_n\r\rangle&\mapsto\l[d_{ij}\r]\coloneqq
+    \tpl{d_1,\dots,d_n}&\mapsto\l[d_{ij}\r]\coloneqq
         \begin{dcases}
             d_i & \textrm{if }i=j\\
             0 & \textrm{else}.\exqedin

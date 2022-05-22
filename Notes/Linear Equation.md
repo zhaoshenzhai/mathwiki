@@ -19,7 +19,7 @@ title: Definition.
 
 _Let $K$ be a field and fix $n\in\N^\ast$. A **linear equation of $n$ variables over $K$** is an equation $f\l(\v{x}\r)=b$ where $b\in K$ and $f:K^n\to K$ is such that_
 $$\begin{equation}
-    \ex a_1,\dots,a_n\in K:f\l(\v{x}\r)=\sum\limits_{i=1}^{n}a_ix_i. \ \ \ \ \ \ \ \ \l(\v{x}=\l\langle x_1,\dots,x_n\r\rangle\r)
+    \ex a_1,\dots,a_n\in K:f\l(\v{x}\r)=\sum\limits_{i=1}^{n}a_ix_i. \ \ \ \ \ \ \ \ \l(\v{x}=\tpl{x_1,\dots,x_n}\r)
 \end{equation}$$
 _A **solution of $f\l(\v{x}\r)=b$** is any tuple $\v{s}\in K^n$ such that $f\l(\v{s}\r)=b$._
 

@@ -25,4 +25,4 @@ In the latter case, $\alpha$ is a successor ordinal so we are done. In the forme
 
 ---
 
-**Remark.** Once the set of natural numbers $\omega$ is defined, this states that $\l\langle\omega,\in\r\rangle$ is unbounded since for all $n\in\omega$, we have $n\in S\l(n\r)$ which is again a natural number.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Once the set of natural numbers $\omega$ is defined, this states that $\tpl{\omega,\in}$ is unbounded since for all $n\in\omega$, we have $n\in S\l(n\r)$ which is again a natural number.<span style="float:right;">$\blacklozenge$</span>

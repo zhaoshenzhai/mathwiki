@@ -17,8 +17,8 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle\R,<\r\rangle$ be the set of real numbers equipped with its standard order. Then the ordered set $\l\langle\R^2,<_L\r\rangle$ where $<_L$ is the lexicographical order on $\R^2$ is unbounded._
+_Let $\tpl{\R,<}$ be the set of real numbers equipped with its standard order. Then the ordered set $\tpl{\R^2,<_L}$ where $<_L$ is the lexicographical order on $\R^2$ is unbounded._
 
 ```
 
-_Proof_. Take $\l\langle a,b\r\rangle\in\R^2$ and observe that $\l\langle a,b-1\r\rangle<_L\l\langle a,b\r\rangle$, so $\R^2$ with the lexicographical order does not have a least element.<span style="float:right;">$\blacksquare$</span>
+_Proof_. Take $\tpl{a,b}\in\R^2$ and observe that $\tpl{a,b-1}<_L\tpl{a,b}$, so $\R^2$ with the lexicographical order does not have a least element.<span style="float:right;">$\blacksquare$</span>

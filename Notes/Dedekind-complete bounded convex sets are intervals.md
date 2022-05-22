@@ -13,7 +13,7 @@ Counterexamples: [[Rational convex set (not interval)]], [[Lexicographical plane
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle X,<\r\rangle$ be a totally ordered set and fix a Dedekind-complete bounded convex subset $Y\subseteq X$. Then $Y$ can be written in the form of an interval in $X$._
+_Let $\tpl{X,<}$ be a totally ordered set and fix a Dedekind-complete bounded convex subset $Y\subseteq X$. Then $Y$ can be written in the form of an interval in $X$._
 
 ```
 

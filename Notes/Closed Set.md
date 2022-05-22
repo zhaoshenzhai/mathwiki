@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle X,\mc{T}\r\rangle$ be a topological space. A subset $C\subseteq X$ is said to be a **closed set of $X$ w.r.t. $\mc{T}$** if $X\setcomp C$ is open in $\mc{T}$._
+_Let $\tpl{X,\mc{T}}$ be a topological space. A subset $C\subseteq X$ is said to be a **closed set of $X$ w.r.t. $\mc{T}$** if $X\setcomp C$ is open in $\mc{T}$._
 
 ```

@@ -23,7 +23,7 @@ title: Definition.
 
 _Consider the real $2$-coordinate space, fix $\theta\in\R$, and let_
 $$\begin{equation}
-    L_\theta\coloneqq\l\{\l\langle x,y\r\rangle\in\R^2\mid x\sin\theta+y\cos\theta=0\r\}
+    L_\theta\coloneqq\l\{\tpl{x,y}\in\R^2\mid x\sin\theta+y\cos\theta=0\r\}
 \end{equation}$$
 _be the line passing through the origin and making an angle $\theta$ with the positive $x$-axis. The_ **_reflection transformation about_ $L_\theta$** _is the linear map_
 $$\begin{equation}

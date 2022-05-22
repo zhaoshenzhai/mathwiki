@@ -17,15 +17,15 @@ Justifications: [[Function space over a field is a vector space]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle K,+,\cdot\r\rangle$ be a field and fix $n\in\N^\ast$. The **$n$-tuple space over $K$** is the vector space $\l\langle K^n,K,\oplus,\odot,\v{0}\r\rangle$ over $K$, where $\v{0}\coloneqq\l\langle0,\dots,0\r\rangle$ and_
+_Let $\tpl{K,+,\cdot}$ be a field and fix $n\in\N^\ast$. The **$n$-tuple space over $K$** is the vector space $\tpl{K^n,K,\oplus,\odot,\v{0}}$ over $K$, where $\v{0}\coloneqq\tpl{0,\dots,0}$ and_
 $$\begin{equation}
     \begin{aligned}
         \oplus:K^n\times K^n&\to K^n\\
-        \l\langle\v{x},\v{y}\r\rangle&\mapsto\l\langle x_1+y_1,\dots,x_n+y_n\r\rangle
+        \tpl{\v{x},\v{y}}&\mapsto\tpl{x_1+y_1,\dots,x_n+y_n}
     \end{aligned}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ 
     \begin{aligned}
         \odot:K\times K^n&\to K^n\\
-        \l\langle\alpha,\v{x}\r\rangle&\mapsto\l\langle \alpha\cdot x_1,\dots,\alpha\cdot x_n\r\rangle.
+        \tpl{\alpha,\v{x}}&\mapsto\tpl{\alpha\cdot x_1,\dots,\alpha\cdot x_n}.
     \end{aligned}
 \end{equation}$$
 

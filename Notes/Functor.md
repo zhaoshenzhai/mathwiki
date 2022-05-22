@@ -27,7 +27,7 @@ _Let $\cat{C}$ and $\cat{D}$ be categories. A **(covariant) functor $\ms{F}$ fro
 
 ```
 
-**Remark.** Formally, $\ms{F}\coloneqq\l\langle\ms{F}^{\obj},\l\{\ms{F}^{\hom}_{X,Y}\r\}_{X,Y\in\obj\l(\cat{C}\r)}\r\rangle$ where
+**Remark.** Formally, $\ms{F}\coloneqq\tpl{\ms{F}^{\obj},\l\{\ms{F}^{\hom}_{X,Y}\r\}_{X,Y\in\obj\l(\cat{C}\r)}}$ where
 $$\begin{equation}
     \ms{F}^{\obj}:\obj\l(\cat{C}\r)\to\obj\l(\cat{D}\r)
 \end{equation}$$

@@ -17,10 +17,10 @@ Justifications: [[Preorder category is a category]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle X,\leq\r\rangle$ be a preordered set. The **preorder category induced by $\l\langle X,\leq\r\rangle$** is the category_ $\cat{C}\l\langle X,\leq\r\rangle$ _defined by the following data:_
-* _The objects are elements of $X$; that is, $\obj\l(\cat{C}\l\langle X,\leq\r\rangle\r)\coloneqq X$._
-* _For all $x,y\in X$, $\hom\l(x,y\r)\coloneqq\l\{\l\langle x,y\r\rangle\r\}$ if $x\leq y$ and $\hom\l(x,y\r)=\em$ otherwise._
-* _For all $x\in X$, $\id_x\coloneqq\l\langle x,x\r\rangle$._
-* _For all $x,y,z\in X$, the composite morphism is $\l\langle y,z\r\rangle\circ\l\langle x,y\r\rangle\coloneqq\l\langle x,z\r\rangle$._
+_Let $\tpl{X,\leq}$ be a preordered set. The **preorder category induced by $\tpl{X,\leq}$** is the category_ $\cat{C}\tpl{X,\leq}$ _defined by the following data:_
+* _The objects are elements of $X$; that is, $\obj\l(\cat{C}\tpl{X,\leq}\r)\coloneqq X$._
+* _For all $x,y\in X$, $\hom\l(x,y\r)\coloneqq\l\{\tpl{x,y}\r\}$ if $x\leq y$ and $\hom\l(x,y\r)=\em$ otherwise._
+* _For all $x\in X$, $\id_x\coloneqq\tpl{x,x}$._
+* _For all $x,y,z\in X$, the composite morphism is $\tpl{y,z}\circ\tpl{x,y}\coloneqq\tpl{x,z}$._
 
 ```

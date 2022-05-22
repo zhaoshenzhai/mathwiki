@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle G,\ast\r\rangle$ be a group. Then the unit element of $G$ is unique._
+_Let $\tpl{G,\ast}$ be a group. Then the unit element of $G$ is unique._
 
 ```
 

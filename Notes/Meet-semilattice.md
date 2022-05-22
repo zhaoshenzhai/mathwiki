@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A poset $\l\langle X,\leq\r\rangle$ is called a **meet-semilattice** if_
+_A poset $\tpl{X,\leq}$ is called a **meet-semilattice** if_
 $$\begin{equation}
     \fa x,y\in X,\ex l\in X:l=\inf\l\{x,y\r\}\eqqcolon x\wedge y.
 \end{equation}$$

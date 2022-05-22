@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle X,<\r\rangle$ be a totally ordered set. If there does not exist a minimal element (resp. a maximal element) in $X$, then the open ray_
+_Let $\tpl{X,<}$ be a totally ordered set. If there does not exist a minimal element (resp. a maximal element) in $X$, then the open ray_
 $$\begin{equation}
     \l(-\infty,b\r)\coloneqq\l\{x\in X\mid\ex b\in X:x<b\r\}\ \ \ \ \ \ \ \ \textrm{\it{(resp. }}\l(a,+\infty\r)\coloneqq\l\{x\in X\mid\ex a\in X:x>a\r\}\textrm{\it{)}}
 \end{equation}$$

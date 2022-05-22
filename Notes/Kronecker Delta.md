@@ -21,7 +21,7 @@ _Let $X$ be a set. The **Kronecker delta function on $X$** is the function_
 $$\begin{equation}
     \begin{aligned}
         \delta:X\times X&\to\N \\
-        \l\langle x,y\r\rangle&\mapsto
+        \tpl{x,y}&\mapsto
             \begin{dcases}
                 1 & \textrm{\it{if }}x=y\\
                 0 & \textrm{\it{else.}}

@@ -25,7 +25,7 @@ _Let $\cat{C}$ be a category. The **opposite category of $\cat{C}$** is the cate
 $$\begin{equation}
     \begin{aligned}
         \ast:\hom_{\cat{C}^\textrm{op}}\!\l(X,Y\r)\times\hom_{\cat{C}^\textrm{op}}\!\l(Y,Z\r)&\to\hom_{\cat{C}^\textrm{op}}\!\l(X,Z\r)\\
-        \l\langle f,g\r\rangle&\mapsto\ast\l(f,g\r)\eqqcolon g\ast f\coloneqq f\circ g
+        \tpl{f,g}&\mapsto\ast\l(f,g\r)\eqqcolon g\ast f\coloneqq f\circ g
     \end{aligned}
 \end{equation}$$
 _where $f\circ g$ is the $\cat{C}$-composite of $f$ after $g$._

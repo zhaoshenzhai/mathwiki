@@ -44,7 +44,7 @@ so if $\sum_{i\in I}\alpha_ib_i=0$ for any $\l\{\alpha_i\r\}\subseteq K$, unique
 $$\begin{equation}
     \fa v\in V,\ex!n\in\N,\ex!\alpha_1,\dots,\alpha_n\in K\setminus\l\{0\r\}:v=\sum_{i=1}^n\alpha_ib_i.
 \end{equation}$$
-An important special case is if $\mc{B}=\l\langle b_1,\dots,b_n\r\rangle$ for some $n\in\N$; then $\mc{B}$ is a (Hamel) basis of $V$ iff
+An important special case is if $\mc{B}=\tpl{b_1,\dots,b_n}$ for some $n\in\N$; then $\mc{B}$ is a (Hamel) basis of $V$ iff
 $$\begin{equation}
     \fa v\in V,\ex!\alpha_1,\dots,\alpha_n\in K:v=\sum\limits_{i=1}^n\alpha_ib_i.
 \end{equation}$$

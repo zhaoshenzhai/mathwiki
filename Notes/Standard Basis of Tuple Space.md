@@ -19,7 +19,7 @@ title: Definition.
 
 _Let $K$ be a field and conider the tuple space $K^n$ for some fixed $n\in\N^\ast$. The **standard basis of $K^n$** is the ordered basis $\l\{\v{e}_1,\dots,\v{e}_n\r\}$ where_
 $$\begin{equation}
-    \v{e}_i\coloneqq\l\langle\delta_{1i},\dots,\delta_{ni}\r\rangle
+    \v{e}_i\coloneqq\tpl{\delta_{1i},\dots,\delta_{ni}}
 \end{equation}$$
 _for all $i\in\l\{1,\dots,n\r\}$._
 

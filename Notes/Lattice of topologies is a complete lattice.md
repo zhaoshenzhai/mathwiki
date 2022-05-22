@@ -13,11 +13,11 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set. Then the pair $\l\langle\Sigma,\subseteq\r\rangle$, where $\Sigma$ is the set of all topologies on $X$, is a complete lattice._
+_Let $X$ be a set. Then the pair $\tpl{\Sigma,\subseteq}$, where $\Sigma$ is the set of all topologies on $X$, is a complete lattice._
 
 ```
 
-_Proof_. Observe that $\l\langle\Sigma,\subseteq\r\rangle$ is a poset, so it suffices to prove that every collection of topologies on $X$ has both a join and a meet. To this end, take $\ms{T}\subseteq\Sigma$. If $\ms{T}=\em$, then every topology $\mc{T}$ on $X$ is vacuously an upper and lower bound on $\ms{T}$.
+_Proof_. Observe that $\tpl{\Sigma,\subseteq}$ is a poset, so it suffices to prove that every collection of topologies on $X$ has both a join and a meet. To this end, take $\ms{T}\subseteq\Sigma$. If $\ms{T}=\em$, then every topology $\mc{T}$ on $X$ is vacuously an upper and lower bound on $\ms{T}$.
 * For the join of $\em$, simply take the trivial topology $\mc{T}_\textrm{trivial}$ on $X$ since $\fa\mc{T}\in\Sigma:\mc{T}_\textrm{trivial}\subseteq\mc{T}$.
 * For the meet of $\em$, simply take the discrete topology $\mc{T}_\textrm{discrete}$ on $X$ since $\fa\mc{T}\in\Sigma:\mc{T}\subseteq\mc{T}_\textrm{discrete}$.
 

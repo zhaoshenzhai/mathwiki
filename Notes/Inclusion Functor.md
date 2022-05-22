@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category and fix a subcategory $\cat{S}$ of $\cat{C}$. The **inclusion functor of $\cat{S}$ to $\cat{C}$** is the covariant functor $\ms{I}:\cat{S}\to\cat{C}$ sending all objects and morphisms to themselves (in $\cat{C}$). Formally, _ $\ms{I}\coloneqq\l\langle\ms{I}^{\obj},\l\{\ms{I}^{\hom}_{X,Y}\r\}_{X,Y\in\obj\l(\cat{S}\r)}\r\rangle$ _where_
+_Let $\cat{C}$ be a category and fix a subcategory $\cat{S}$ of $\cat{C}$. The **inclusion functor of $\cat{S}$ to $\cat{C}$** is the covariant functor $\ms{I}:\cat{S}\to\cat{C}$ sending all objects and morphisms to themselves (in $\cat{C}$). Formally, _ $\ms{I}\coloneqq\tpl{\ms{I}^{\obj},\l\{\ms{I}^{\hom}_{X,Y}\r\}_{X,Y\in\obj\l(\cat{S}\r)}}$ _where_
 $$\begin{equation}
     \begin{aligned}
         \ms{I}^{\obj}:\obj\l(\cat{S}\r)&\to\obj\l(\cat{C}\r)\\

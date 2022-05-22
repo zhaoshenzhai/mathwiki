@@ -33,15 +33,15 @@ _of $m$ linear combinations thereof. Then $\fa s_1,\dots,s_n:\phi_1\l(s_1,\dots,
 
 ```
 
-_Proof_. Take $s_1,\dots,x_n\in K$ such that $\phi_1\l(s_1,\dots,s_n\r)$. Then, for all $i\in\l\{1,\dots,m\r\}$, $\l\langle s_1,\dots,s_n\r\rangle$ is a solution of
+_Proof_. Take $s_1,\dots,x_n\in K$ such that $\phi_1\l(s_1,\dots,s_n\r)$. Then, for all $i\in\l\{1,\dots,m\r\}$, $\tpl{s_1,\dots,s_n}$ is a solution of
 $$\begin{equation}
     c_{i1}\l(a_{11}x_1+\cdots+a_{1n}x_n\r)+\cdots+c_{im}\l(a_{m1}x_1+\cdots+a_{mn}x_n\r)=c_{i1}b_1+\cdots+c_{im}b_m.
 \end{equation}$$
-Rearranging by grouping all the $x_j\textrm{'}$s together, we see that $\l\langle s_1,\dots,s_n\r\rangle$ is also a solution of
+Rearranging by grouping all the $x_j\textrm{'}$s together, we see that $\tpl{s_1,\dots,s_n}$ is also a solution of
 $$\begin{equation}
     \l(c_{i1}a_{11}+\cdots+c_{im}a_{m1}\r)x_1+\cdots+\l(c_{i1}a_{1n}+\cdots+c_{im}a_{mn}\r)x_n=c_{i1}b_1+\cdots+c_{im}b_m.
 \end{equation}$$
-This holds for all $i\in\l\{1,\dots,m\r\}$, so $\l\langle s_1,\dots,s_n\r\rangle$ is a solution of $\phi_2\l(x_2,\dots,x_n\r)$ and thus $\phi_2\l(s_1,\dots,s_n\r)$.<span style="float:right;">$\blacksquare$</span>
+This holds for all $i\in\l\{1,\dots,m\r\}$, so $\tpl{s_1,\dots,s_n}$ is a solution of $\phi_2\l(x_2,\dots,x_n\r)$ and thus $\phi_2\l(s_1,\dots,s_n\r)$.<span style="float:right;">$\blacksquare$</span>
 
 ---
 
@@ -54,7 +54,7 @@ $$\begin{equation}
             x_1&&&\,+\,&&x_3&&=0.
         \end{alignedat}\r.
 \end{equation}$$
-For the second and third equations to be satisfied, we must have $x_1=0$ (since $x_1=-x_1$) and hence $x_3=0$ too. Hence, from the first equation, we see that $x_2=0$. Thus $\l\langle0,0,0\r\rangle$ is the only solution of $\phi_1\l(x_1,x_2,x_3\r)$.
+For the second and third equations to be satisfied, we must have $x_1=0$ (since $x_1=-x_1$) and hence $x_3=0$ too. Hence, from the first equation, we see that $x_2=0$. Thus $\tpl{0,0,0}$ is the only solution of $\phi_1\l(x_1,x_2,x_3\r)$.
 
 Consider now the linear system
 $$\begin{equation}
@@ -74,4 +74,4 @@ $$\begin{equation}
         c_{31}&=3\hspace{0.5in}c_{32}&&=-1\hspace{0.36in}c_{33}&&=0.
     \end{alignedat}
 \end{equation}$$
-Observe that $\l\langle s,-3s,s\r\rangle$ is a solution of $\phi_2\l(x_1,x_2,x_3\r)$ for any $s\in K$; in particular, we have $\phi_2\l(1,-3,1\r)$ but not $\phi_1\l(1,-3,1\r)$.<span style="float:right;">$\blacklozenge$</span>
+Observe that $\tpl{s,-3s,s}$ is a solution of $\phi_2\l(x_1,x_2,x_3\r)$ for any $s\in K$; in particular, we have $\phi_2\l(1,-3,1\r)$ but not $\phi_1\l(1,-3,1\r)$.<span style="float:right;">$\blacklozenge$</span>

@@ -30,17 +30,17 @@ $$\begin{equation}
     \begin{alignedat}{2}
         y\in\im_R\l(A\r)\setcomp\im_R\l(B\r)&\Leftrightarrow y\in\im_R\l(A\r)\land\lnot y\in\im_R\l(B\r)&&\textrm{Definition of relative complement}\\
         &\Leftrightarrow y\in\ran\l(R\rest A\r)\land\lnot y\in\ran\l(R\rest B\r)&&\textrm{Definition of image}\\
-        &\Leftrightarrow\ex x:\l\langle x,y\r\rangle\in R\rest A\land\lnot\ex t:\l\langle t,y\r\rangle\in R\rest B&&\textrm{Definition of range}\\
-        &\Leftrightarrow\ex x\in A:\l\langle x,y\r\rangle\in R\land\lnot\ex t\in B:\l\langle t,y\r\rangle\in R\ \ \ \ \ \ \ \ &&\textrm{Definition of restriction}\\
-        &\Leftrightarrow\ex x\in A:\l\langle x,y\r\rangle\in R\land\fa t\in B:\l\langle t,y\r\rangle\not\in R&&\textrm{Negation of quantifier}\\
-        &\Rightarrow\ex x\in A:\l\langle x,y\r\rangle\in R\land x\not\in B&&\textrm{Universal instantiation; contradiction}\\
-        &\Leftrightarrow\ex x\in A\setcomp B:\l\langle x,y\r\rangle\in R&&\textrm{Definition of relative complement}\\
+        &\Leftrightarrow\ex x:\tpl{x,y}\in R\rest A\land\lnot\ex t:\tpl{t,y}\in R\rest B&&\textrm{Definition of range}\\
+        &\Leftrightarrow\ex x\in A:\tpl{x,y}\in R\land\lnot\ex t\in B:\tpl{t,y}\in R\ \ \ \ \ \ \ \ &&\textrm{Definition of restriction}\\
+        &\Leftrightarrow\ex x\in A:\tpl{x,y}\in R\land\fa t\in B:\tpl{t,y}\not\in R&&\textrm{Negation of quantifier}\\
+        &\Rightarrow\ex x\in A:\tpl{x,y}\in R\land x\not\in B&&\textrm{Universal instantiation; contradiction}\\
+        &\Leftrightarrow\ex x\in A\setcomp B:\tpl{x,y}\in R&&\textrm{Definition of relative complement}\\
         &\Leftrightarrow y\in\ran\l[R\rest\l(A\setcomp B\r)\r]\ \ \ \ \ \ \ \ &&\textrm{Definition of range}\\
         &\Leftrightarrow y\in\im_R\l(A\setcomp B\r).&&\textrm{Definition of image}
     \end{alignedat}   
 \end{equation}$$
 Assume now that $R$ satisfies the additional requirement. We claim that
 $$\begin{equation}
-    \ex x\in A\setcomp B:\l\langle x,y\r\rangle\in R\ \ \ \ \Rightarrow\ \ \ \ \fa t\in B:\l\langle t,y\r\rangle\not\in R.
+    \ex x\in A\setcomp B:\tpl{x,y}\in R\ \ \ \ \Rightarrow\ \ \ \ \fa t\in B:\tpl{t,y}\not\in R.
 \end{equation}$$
-Suppose, for sake of contradiction, that $\ex t\in B:\l\langle t,y\r\rangle\in R$. Since $y\in\ran R$, we see, by hypothesis, that $x=t$. However, we have that $x\not\in B$ which is a contradiction. This justifies why equivalence holds.<span style="float:right;">$\blacksquare$</span>
+Suppose, for sake of contradiction, that $\ex t\in B:\tpl{t,y}\in R$. Since $y\in\ran R$, we see, by hypothesis, that $x=t$. However, we have that $x\not\in B$ which is a contradiction. This justifies why equivalence holds.<span style="float:right;">$\blacksquare$</span>

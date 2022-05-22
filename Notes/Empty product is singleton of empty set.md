@@ -17,7 +17,7 @@ _Consider the indexed family_ $\l\{X_i\r\}_{i\in\em}$_. Then_ $\prod_{i\in\em}X_
 
 ```
 
-_Proof_. Recall that $\bigcup\em=\em$, so $\prod_{i\in\em}X_i$ contains functions of the form $f:\em\to\em$; that is, binary relations $f$ with $\dom f=\ran f=\em$. Such a relation $f$ is necessarily empty; if not, take $\l\langle x,y\r\rangle\in f$ and observe that $x\in\dom f$ and $y\in\ran f$. The result follows.<span style="float:right;">$\blacksquare$</span>
+_Proof_. Recall that $\bigcup\em=\em$, so $\prod_{i\in\em}X_i$ contains functions of the form $f:\em\to\em$; that is, binary relations $f$ with $\dom f=\ran f=\em$. Such a relation $f$ is necessarily empty; if not, take $\tpl{x,y}\in f$ and observe that $x\in\dom f$ and $y\in\ran f$. The result follows.<span style="float:right;">$\blacksquare$</span>
 
 ---
 

@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A group $\l\langle G,\ast\r\rangle$ is said to be **Abelian** if the binary operation $\ast$ commutes; that is, if_
+_A group $\tpl{G,\ast}$ is said to be **Abelian** if the binary operation $\ast$ commutes; that is, if_
 * _$\axiablngrp$ (Commutativity)$\bf{.}$ $\fa g,h\in G:g\ast h=h\ast g$._
 
 ```

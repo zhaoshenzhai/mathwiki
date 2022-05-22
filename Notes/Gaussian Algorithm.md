@@ -32,11 +32,11 @@ _Proof_. We shall algorithmically construct $R$ from $A$.
   <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-24_203210/image.svg", width=600></center>
 
   for all $i\in\l\{2,\dots,r\r\}$.
-* Step 5: Let $A'$ be the matrix after Step 4 and let $A_g$ be the green $\textrm{`}$submatrix$\textrm{'}$ shown above; that is, let $A_g\coloneqq\l\langle m-1,n-k,f_g\r\rangle$ where
+* Step 5: Let $A'$ be the matrix after Step 4 and let $A_g$ be the green $\textrm{`}$submatrix$\textrm{'}$ shown above; that is, let $A_g\coloneqq\tpl{m-1,n-k,f_g}$ where
 $$\begin{equation}
     \begin{aligned}
         f_g:\l\{1,\dots,m-1\r\}\times\l\{1,\dots,n-k\r\}&\to K\\
-        \l\langle i,j\r\rangle&\mapsto f'\l(1+i,k+j\r)
+        \tpl{i,j}&\mapsto f'\l(1+i,k+j\r)
     \end{aligned}
 \end{equation}$$
 and $f'$ is the function defining $A'$. If $m=1$, stop, since $A_g$ is empty. Otherwise, repeat steps 1 to 5 with $A_g$ (still embedded within $A'$) in place of $A$, by which we mean apply all the elementary row operations in each step to $A_g$ and then substituting all the changes made into $A'$; observe that these elementary row operations will only affect entries in green, so, in particular, every column before and including the $k^\textrm{th}$ column will not be affected.

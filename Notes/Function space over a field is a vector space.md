@@ -13,11 +13,11 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a non-empty set and let $\l\langle K,+,\cdot,0,1\r\rangle$ be a field. Then the function space $\l\langle K^X,K,\oplus,\odot,0_f\r\rangle$ from $X$ into $K$ is a vector space over $K$._
+_Let $X$ be a non-empty set and let $\tpl{K,+,\cdot,0,1}$ be a field. Then the function space $\tpl{K^X,K,\oplus,\odot,0_f}$ from $X$ into $K$ is a vector space over $K$._
 
 ```
 
-_Proof_. Observe that $\l\langle K^X,\oplus,0_f\r\rangle$ is an Abelian group, so it suffices to verify the rest of the vector space axioms.
+_Proof_. Observe that $\tpl{K^X,\oplus,0_f}$ is an Abelian group, so it suffices to verify the rest of the vector space axioms.
 * ($\axivec[1]$): Take $\alpha_1,\alpha_2\in K$ and $f\in K^X$, and observe that
 $$\begin{equation}
     \begin{aligned}

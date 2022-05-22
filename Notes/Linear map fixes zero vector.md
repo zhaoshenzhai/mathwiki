@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle K,+,\cdot,0,1\r\rangle$ be a field and let $\l\langle V,K,\oplus_V,\odot_V,0_V\r\rangle$ and $\l\langle W,K,\oplus_W,\odot_W,0_W\r\rangle$ be vector spaces over $K$. Then, for every linear map $T:V\to W$, we have $T\l(0_V\r)=0_W$._
+_Let $\tpl{K,+,\cdot,0,1}$ be a field and let $\tpl{V,K,\oplus_V,\odot_V,0_V}$ and $\tpl{W,K,\oplus_W,\odot_W,0_W}$ be vector spaces over $K$. Then, for every linear map $T:V\to W$, we have $T\l(0_V\r)=0_W$._
 
 ```
 

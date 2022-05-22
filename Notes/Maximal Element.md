@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle X,<\r\rangle$ be a poset and fix $S\subseteq X$. A **$<$-maximal element of $S$** is an element $m\in S$ such that $\fa s\in S:m\not<s$._
+_Let $\tpl{X,<}$ be a poset and fix $S\subseteq X$. A **$<$-maximal element of $S$** is an element $m\in S$ such that $\fa s\in S:m\not<s$._
 
 ```

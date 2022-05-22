@@ -25,7 +25,7 @@ _Proof_. It suffices to show that $\preceq$ is a partial order on $X$ since the 
 * (Transitive): Take $x_1,x_2,x_3\in X$ with such that $x_1\preceq x_2$ and $x_2\preceq x_3$.
     * If $x_1=x_2$ or $x_2=x_3$, then $x_1\preceq x_3$ by substitution.
     * If $x_1\prec x_2$ and $x_2\prec x_3$, then $x_1\prec x_3$ since $\prec$ is transitive on $X$. It follows that$$\begin{equation}
-    \l\langle x_1,x_3\r\rangle\in\,\prec\,\subseteq\,\prec\cup\id_X=\rfcl\prec\,=\,\preceq.
+    \tpl{x_1,x_3}\in\,\prec\,\subseteq\,\prec\cup\id_X=\rfcl\prec\,=\,\preceq.
  \end{equation}$$
 * (Antisymmetric): Take $x_1,x_2\in X$ such that $x_1\preceq x_2$ and $x_2\preceq x_1$. Observe that
 $$\begin{equation}

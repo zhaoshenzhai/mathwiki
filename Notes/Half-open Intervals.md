@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle X,<\r\rangle$ be a totally ordered set. A **half-open interval in $X$ w.r.t. $<$** is a set of the form_
+_Let $\tpl{X,<}$ be a totally ordered set. A **half-open interval in $X$ w.r.t. $<$** is a set of the form_
 $$\begin{equation}
     \l[a,b\r)\coloneqq\l\{x\in X\mid\ex a,b\in X:a\leq x<b\r\}\ \ \ \ \textrm{\it{or}}\ \ \ \ \l(a,b\r]\coloneqq\l\{x\in X\mid\ex a,b\in X:a<x\leq b\r\}.
 \end{equation}$$

@@ -48,4 +48,4 @@ $$\begin{equation}
     \end{aligned}
 \end{equation}$$
 
-* (Surjection): Take $\v{v}\coloneqq\l\langle\alpha_1,\dots,\alpha_n\r\rangle\in K^n$ and observe that $\phi_\mc{B}\l(v\r)$, where $v\coloneqq\sum_{i=1}^n\alpha_ib_i$, is $\v{v}$.<span style="float:right;">$\blacksquare$</span>
+* (Surjection): Take $\v{v}\coloneqq\tpl{\alpha_1,\dots,\alpha_n}\in K^n$ and observe that $\phi_\mc{B}\l(v\r)$, where $v\coloneqq\sum_{i=1}^n\alpha_ib_i$, is $\v{v}$.<span style="float:right;">$\blacksquare$</span>

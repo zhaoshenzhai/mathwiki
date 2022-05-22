@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle X,\leq\r\rangle$ be a poset and fix $S\subseteq X$. An **upper bound of $S$ in $X$** is an element $u\in X$ such that $\fa s\in S:s\leq u$. _
+_Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. An **upper bound of $S$ in $X$** is an element $u\in X$ such that $\fa s\in S:s\leq u$. _
 
 ```

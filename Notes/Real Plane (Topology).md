@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\sttopR[2]$ be the standard topology on $\R^2$. The **(topological) Euclidean plane** is the topological space_ $\l\langle\R^2,\sttopR[2]\r\rangle$_._
+_Let $\sttopR[2]$ be the standard topology on $\R^2$. The **(topological) Euclidean plane** is the topological space_ $\tpl{\R^2,\sttopR[2]}$_._
 
 ```

@@ -26,7 +26,7 @@ since $R'-U'=\v{0}$; formally, this is justified by taking a system of linear co
 $$\begin{equation}
     \l(r_{ln}-u_{ln}\r)x_n=0
 \end{equation}$$
-and thus $x_n=0$. It follows that any solution $\l\langle s_1,\dots,s_n\r\rangle$ of both systems must have $s_n=0$, and hence the last column of both $R$ and $U$ are pivot columns; for if not, then Gaussian Elimination dictates that $s_n\in K$ is arbitrary. Because both $R$ and $U$ are in RREF, we have that $r_{l_1n}=1$, $u_{l_2n}=1$, and that
+and thus $x_n=0$. It follows that any solution $\tpl{s_1,\dots,s_n}$ of both systems must have $s_n=0$, and hence the last column of both $R$ and $U$ are pivot columns; for if not, then Gaussian Elimination dictates that $s_n\in K$ is arbitrary. Because both $R$ and $U$ are in RREF, we have that $r_{l_1n}=1$, $u_{l_2n}=1$, and that
 $$\begin{equation}
     \begin{aligned}
         \fa i\neq l_1:r_{in}=0\ \ \ \ \textrm{and}\ \ \ \ \fa i\neq l_2:u_{in}=0 && \l(i\in\l\{1,\dots,m\r\}\r)

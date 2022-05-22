@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle G,\ast,e\r\rangle$ be a group. Then, for all $g\in G$, there exists a unique $h\in G$ such that $g\ast h=e=h\ast g$._
+_Let $\tpl{G,\ast,e}$ be a group. Then, for all $g\in G$, there exists a unique $h\in G$ such that $g\ast h=e=h\ast g$._
 
 ```
 

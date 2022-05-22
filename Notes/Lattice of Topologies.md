@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. The **lattice of topologies on $X$** is the pair $\l\langle\Sigma,\subseteq\r\rangle$ where $\Sigma$ is the set of all topologies on $X$._
+_Let $X$ be a set. The **lattice of topologies on $X$** is the pair $\tpl{\Sigma,\subseteq}$ where $\Sigma$ is the set of all topologies on $X$._
 
 ```
 
