@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l( G,\ast\r)$ be a group. Then, for all $g,h,k\in G$, we have_
+_Let $\tpl{G,\ast}$ be a group. Then, for all $g,h,k\in G$, we have_
 $$\begin{equation}
     gk=hk\Rightarrow g=h\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ kg=kh\Rightarrow g=h.
 \end{equation}$$
