@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider the vector spaces $V$ and $W$ over $K$. A **linear map from $V$ to $W$** is a function $T:V\to W$ such that_
+_Let $K$ be a field and consider vector spaces $V$ and $W$ over $K$. A **linear map from $V$ to $W$** is a function $T:V\to W$ such that:_
 * _$\axilin[1]$ (Additivity)$\bf{.}$ $\fa v_1,v_2\in V:T\l(v_1+v_2\r)=T\l(v_1\r)+T\l(v_2\r)$._
 * _$\axilin[2]$ (Homogeneity)$\bf{.}$ $\fa\alpha\in K,\fa v\in V:T\l(\alpha v\r)=\alpha T\l(v\r)$._
 
