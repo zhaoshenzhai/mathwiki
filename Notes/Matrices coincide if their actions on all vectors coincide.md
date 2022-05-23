@@ -4,7 +4,7 @@
 Date Created: 02/04/2022 00:00:19
 Tags: #Proposition #Closed
 
-Proved by: [[Matrix multiplication (columns and rows)]]
+Proved by: [Matrix multiplication (columns$\slash$rows)](Matrix%20multiplication%20(columns%20and%20rows).md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

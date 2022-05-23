@@ -7,8 +7,12 @@
         "id": "0b19c2a79b389834",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Matrices coincide if their actions on all vectors coincide.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Matrices coincide if their actions on all vectors coincide.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Matrices coincide if their actions on all vectors coincide.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Matrices coincide if their actions on all vectors coincide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
