@@ -1,5 +1,5 @@
 ---
-custom_alias: Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Leftrightarrow$ columns (or rows) of $A$ are linearly independent
+custom_alias: Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Leftrightarrow$ columns$\slash$rows of $A$ are linearly independent
 ---
 
 <br />
@@ -8,7 +8,7 @@ custom_alias: Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Left
 Date Created: 30/04/2022 19:44:11
 Tags: #Proposition #Closed
 
-Proved by: _Not Applicable_
+Proved by: [[Matrix multiplication (columns and rows)]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

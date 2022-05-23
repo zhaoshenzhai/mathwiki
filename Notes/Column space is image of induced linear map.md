@@ -4,7 +4,7 @@
 Date Created: 04/04/2022 18:26:02
 Tags: #Proposition #Closed
 
-Proved by: _Not Applicable_
+Proved by: [[Matrix multiplication (columns and rows)]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -23,7 +23,7 @@ $$\begin{equation}
 _Proof_. Take $\v{y}\in\col\l(A\r)$. The result follows from the following chain of equivalences:
 
 $\begin{align}
-    \v{y}\in\col\l(A\r)&\Leftrightarrow\v{y}\in\span\l\{\v{a}_1,\dots,\v{a}_n\r\} && \textrm{Definition of column space; }\v{a}_j\coloneqq\l[a_{1j}\ \ \cdots\ \ a_{mj}\r] \\
+    \v{y}\in\col\l(A\r)&\Leftrightarrow\v{y}\in\span\l\{\v{a}_1,\dots,\v{a}_n\r\} && \textrm{Definition of column space; }\v{a}_j\coloneqq\l[a_{1j}\ \ \cdots\ \ a_{mj}\r]^\trans \\
     &\Leftrightarrow\ex x_1,\dots,x_n\in K:\v{y}=\sum_{j=1}^nx_j\v{a}_j && \textrm{Definition of linear span} \\
     &\Leftrightarrow\ex\v{x}\in K^n:\v{y}=A\v{x} && \textrm{Matrix multiplication (columns); let }\v{x}\coloneqq\tpl{x_1,\dots,x_n} \\
     &\Leftrightarrow\ex\v{x}\in K^n:\v{y}=T_A\l(\v{x}\r) && \textrm{Definition of }T_A \\

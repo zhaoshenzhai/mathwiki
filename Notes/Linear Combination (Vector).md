@@ -5,7 +5,7 @@ Date Created: 29/04/2022 18:22:52
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Matrix Multiplication]]
+Examples: [[Matrix multiplication (columns and rows)]]
 Constructions: [[Linear Independence]], [[Linear Span]]
 Generalizations: _Not Applicable_
 
