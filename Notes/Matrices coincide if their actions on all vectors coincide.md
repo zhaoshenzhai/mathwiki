@@ -4,7 +4,7 @@
 Date Created: 02/04/2022 00:00:19
 Tags: #Proposition #Closed
 
-Proved by: [Matrix multiplication (columns$\slash$rows)](Matrix%20multiplication%20(columns%20and%20rows).md)
+Proved by: [Right$\slash$left multiplication by basis vector picks out column$\slash$row](Right%20and%20left%20multiplication%20by%20basis%20vector%20picks%20out%20column%20and%20row.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -22,15 +22,9 @@ $$\begin{equation}
 
 _Proof_. Let $\v{a}_j\coloneqq\l[a_{1j}\ \ \cdots\ \ a_{mj}\r]^\trans$ and $\v{b}_j\coloneqq\l[b_{1j}\ \ \cdots\ \ b_{mj}\r]^\trans$ be the $j^\textrm{th}$ column of $A$ and $B$, respectively; it suffices to show that $\v{a}_j=\v{b}_j$ for all $j\in\l\{1,\dots,n\r\}$, for then all entries of $A$ and $B$ coincide.
 
-To this end, fix $j\in\l\{1,\dots,n\r\}$ and consider the vector $\v{e}_j\coloneqq\l[\delta_{1j}\ \ \cdots\ \ \delta_{nj}\r]^\trans$; that is, let $\v{e}_j\coloneqq\l[e_1\ \ \cdots\ \ e_n\r]^\trans$ where $e_j\coloneqq1$ and $e_i\coloneqq0$ for all $i\neq j$. Observe that
-$$\begin{equation}
-    \begin{aligned}
-        A\v{e}_j&=\sum_{k=1}^n\delta_{kj}\v{a}_k \\
-        &=\v{a}_j
-    \end{aligned}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ 
-    \begin{aligned}
-        B\v{e}_j&=\sum_{k=1}^n\delta_{kj}\v{b}_k && \textrm{Matrix multiplication (columns)} \\
-        &=\v{b}_j, && \delta_{jk}=0\textrm{ for all }j\neq k
-    \end{aligned}
-\end{equation}$$
-but since $A\v{x}=B\v{x}$ for all $\v{x}\in K^n$, we have, in particular, that $\v{a}_j=A\v{e}_j=B\v{e}_j=\v{b}_j$. The result follows.<span style="float:right;">$\blacksquare$</span>
+To this end, fix $j\in\l\{1,\dots,n\r\}$ and let $\v{e}_j\in\mat{n\times1}{K}$ be the $j^\textrm{th}$ standard basis vector of $K^n$. Observe that
+$$\begin{align}
+    \v{a}_j&=A\v{e}_j && \textrm{Right multiplication by $\v{e}_j$ picks out $j^\textrm{th}$ column} \\
+    &=B\v{e}_j && \textrm{Hypothesis} \\
+    &=\v{b}_j. && \textrm{Right multiplication by $\v{e}_j$ picks out $j^\textrm{th}$ column} \qedin
+\end{align}$$

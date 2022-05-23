@@ -35,8 +35,9 @@ $$\begin{equation}
             a_{11} & \cdots & a_{1n}\\
             \vdotswithin{a_{11}} & \ddots & \vdotswithin{a_{1n}} \\
             a_{m1} & \cdots & a_{mn}
-        \end{bmatrix}.\exqedin
+        \end{bmatrix}.
 \end{equation}$$
+Write $\v{a}_{i;\blob}$ and $\v{a}_{\blob;j}$ for the $i^\textrm{th}$ row and $j^\textrm{th}$ column of $A$, respectively.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
