@@ -5,7 +5,7 @@ Date Created: 01/04/2022 18:16:33
 Tags: #Definition #Closed
 
 Types: [[Linear Isomorphism]], [[Linear Operator]]
-Examples: [[Transposition]], [[Identity function is a linear map]], [[Linear map Induced by a Matrix]]
+Examples: [[Transposition]], [[Identity function is a linear map]], [[Left-multiplication of Matrices]]
 Constructions: [$\catvect[K]$](Category%20of%20Vector%20Spaces.md), [$\hom_{\catvect[K]}\!\l(V,W\r)$](Vector%20Space%20of%20Linear%20Maps.md), [[Kernel]], [[Image (Linear Map)]], [[Composition (Linear Map)]]
 Generalizations: _Not Applicable_
 

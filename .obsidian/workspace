@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "1702b415a763d283",
+        "id": "8b2e4382386527a9",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "1702b415a763d283",
+  "active": "8b2e4382386527a9",
   "lastOpenFiles": [
-    "Notes/Composition of linear maps repr under basis matrix product of representations.md",
-    "Notes/Matrix Representation of Linear Maps.md",
     "Notes/Matrix Multiplication.md",
-    "Notes/Composition (Linear Map).md",
-    "Notes/Action of linear map repr under basis left-multiplication of matrix representation.md",
-    "Notes/Standard Representation of Finite-dim. Vector Spaces.md",
-    "Notes/Linear Map.md",
-    "Notes/Linear map is injective iff kernel vanishes.md",
-    "Notes/Invertible iff bijective.md",
-    "Notes/Linear system is consistent for all constants implies coefficient matrix right-invertible.md"
+    "Notes/Matrix multiplication (columns and rows).md",
+    "Notes/Matrix multiplication (rows).md",
+    "Notes/Matrices coincide if their actions on all vectors coincide.md",
+    "Notes/Homogeneous Linear System.md",
+    "Notes/Linear System of Equations.md",
+    "Notes/Inhomogeneous Linear System.md",
+    "Notes/Matrix.md",
+    "Notes/Composition of linear maps repr under basis matrix product of representations.md",
+    "Notes/Algebraic identities of matrix operations.md"
   ]
 }
