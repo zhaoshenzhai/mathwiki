@@ -4,36 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8e98a7d219f76b59",
+        "id": "81a99cd68698005a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Linear Map.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "f121eb3830f4af72",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear map is injective iff kernel vanishes.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "bc425ce396a36283",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Invertible iff bijective.md",
             "mode": "preview",
             "source": true
           }
@@ -88,7 +64,7 @@
         "currentTab": 1
       },
       {
-        "id": "3b6830d4870e9e68",
+        "id": "e209e1e82c7c4590",
         "type": "tabs",
         "children": [
           {
@@ -97,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Invertible iff bijective.md",
+                "file": "Notes/Linear Map.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Invertible iff bijective.md",
+                "file": "Notes/Linear Map.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -174,14 +150,14 @@
                   "collapse-display": true,
                   "showArrow": true,
                   "textFadeMultiplier": -1.3,
-                  "nodeSizeMultiplier": 0.823661075181892,
+                  "nodeSizeMultiplier": 0.760529506871463,
                   "lineSizeMultiplier": 3.06767886014551,
                   "collapse-forces": true,
                   "centerStrength": 0,
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.06425290762377418,
+                  "scale": 0.06363393693802874,
                   "close": true
                 }
               }
@@ -193,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Invertible iff bijective.md",
+                "file": "Notes/Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "bc425ce396a36283",
+  "active": "81a99cd68698005a",
   "lastOpenFiles": [
+    "Notes/Linear Map.md",
+    "Notes/Action of linear map repr under basis left-multiplication of matrix representation.md",
+    "Notes/Composition of linear maps repr under basis matrix product of representations.md",
+    "Notes/Matrix Representation of Linear Maps.md",
     "Notes/Invertible iff bijective.md",
     "Notes/Linear map is injective iff kernel vanishes.md",
-    "Notes/Linear Map.md",
     "Notes/Linear system is consistent for all constants implies coefficient matrix right-invertible.md",
     "Notes/Same equivalence class iff related.md",
     "Notes/Matrix.md",
-    "Notes/Subspace topology (basis).md",
-    "Notes/Function.md",
-    "Notes/Collection of all functions is a proper class.md",
-    "Notes/Class Function.md"
+    "Notes/Subspace topology (basis).md"
   ]
 }
