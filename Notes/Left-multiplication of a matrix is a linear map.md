@@ -13,14 +13,14 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. Then, for every $A\in\mat{m\times n}{K}$, the linear map $T_A:K^n\to K^m$ induced by $A$ is a linear map._
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then, for every $A\in\mat{m\times n}{K}$, the left-multiplication map $L_A:K^n\to K^m$ induced by $A$ is a linear map._
 
 ```
 
 _Proof_. Take $\v{x},\v{y}\in K^n$ and $\alpha\in K$, and observe that
 $$\begin{align}
-    T_A\l(\alpha\v{x}+\v{y}\r)&=A\l(\alpha\v{x}+\v{y}\r) && \textrm{Definition of $T_A$} \\
+    L_A\l(\alpha\v{x}+\v{y}\r)&=A\l(\alpha\v{x}+\v{y}\r) && \textrm{Definition of $L_A$} \\
     &=A\l(\alpha\v{x}\r)+A\v{y} && \textrm{Matrix multiplication is distributive over addition} \\
     &=\alpha\l(A\v{x}\r)+A\v{y} && \textrm{Compatibility of matrix and scalar multiplications} \\
-    &=\alpha T_A\l(\v{x}\r)+T_A\l(\v{y}\r). && \textrm{Definition of $T_A$}\qedin
+    &=\alpha L_A\l(\v{x}\r)+L_A\l(\v{y}\r). && \textrm{Definition of $L_A$}\qedin
 \end{align}$$
