@@ -1,12 +1,14 @@
 # :pencil: MathWiki
 
-## :information_source: About
-
 An [Obsidian.md](https://obsidian.md) vault for my math course notes in university (integrated with my [dotfiles](https://github.com/zhaoshenzhai/dotfiles)).
 
 These notes are meant to be a distilled version of the math I've learnt where ideas, formulations, and important results are broken down into their atomic components of definitions, propositions, and theorems for clarity, precision, and accessibility.
 
-### File structures
+## :telescope: Graph View: ![#63BFEE](https://placeholder.pics/svg/15/63BFEE/63BFEE) Definitions | ![#E665B7](https://placeholder.pics/svg/15/E665B7/E665B7) Propositions | ![#65FB65](https://placeholder.pics/svg/15/65FB65/65FB65) Theorems | ![#F95D5D](https://placeholder.pics/svg/15/F95D5D/F95D5D) Axioms
+
+![Graph view](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/graph_view.png)
+
+## :pencil2: File structures
 
 Each note is currently one of four types:
 
@@ -31,7 +33,7 @@ Each note is currently one of four types:
 
 These templates are automatically [inserted][templatesInsert] whenever a note is created. After the links, the main content is written with remarks where appropriate.
 
-### Obsidian configurations
+## :gear: Obsidian configurations
 
 I do not directly write my notes in Obsidian since its Vim mode is not comprehensive (and the formatting is weird); see [dotfiles/nvim](https://github.com/zhaoshenzhai/dotfiles/tree/master/nvim) for my Neovim setup. Therefore, most of my Obsidian customization is on its [appearance](.obsidian/snippets/) and [navigation hotkeys](.obsidian/hotkeys.json).
 
@@ -46,7 +48,7 @@ Pluggins:
 
 Some stats: 568 notes, 1300 links, 52 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
-### TikZ images
+## :art: TikZ images
 
 This is the main downside of using [MathJax](https://www.mathjax.org/) in Obsidian since Obsidian uses [sanitizates HTML](https://help.obsidian.md/Advanced+topics/HTML+sanitization) which ignores `<script>` tags and prevents one from using [this](https://github.com/kisonecat/tikzjax) tool.
 
@@ -60,7 +62,7 @@ pdflatex -shell-escape image.tex && pdfcrop image.pdf image.pdf && pdf2svg image
 ```
 The svg images are uploaded to Github instead of linked directly in Obsidian because I couldn't get Obsidian to load local svg images. For those who do not have/want a Github repo for their Obsidian vault, use [Gist](https://gist.github.com/) instead.
 
-### Math links
+## :link: Math links
 
 As far as I know, the standard wiki-style links of the form `[[...]]` used in Obsidian does not support MathJax. Instead, one should use markdown-style links which are of the form `[text](link)`; here, `text` can contain `$...$`. However, `text` remains unchanged when `link` is updated, so, if one wishes to have links with math, one needs to update them manually.
 
@@ -76,9 +78,9 @@ The script can be used to update math links as well as generate new ones.
 
 When run, the script updates/generates math links for _every_ note that links to `link`; for this reason, every update/generation displays the difference and needs to be confirmed (by pressing "Y" or `Enter`) before the script proceeds. If `link` is repeated in many notes (which is the entire point of this script), one does _not_ need to confirm this for every note that links to `link` since the update/generation is the same.
 
-## :telescope: Graph View: ![#63BFEE](https://placeholder.pics/svg/15/63BFEE/63BFEE) Definitions | ![#E665B7](https://placeholder.pics/svg/15/E665B7/E665B7) Propositions | ![#65FB65](https://placeholder.pics/svg/15/65FB65/65FB65) Theorems | ![#F95D5D](https://placeholder.pics/svg/15/F95D5D/F95D5D) Axioms
+Here is a sample of how the script interface looks.
 
-![Graph view](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/graph_view.png)
+![math_links_demo](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/math_links_demo.png)
 
 ## :page_with_curl: Sample Pages
 
