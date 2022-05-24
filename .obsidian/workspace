@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "79f26e76d0b18d4f",
+        "id": "42f0bcc6982f8527",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Left-multiplication of Matrices.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "283b979f92924a85",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "283b979f92924a85",
+  "active": "42f0bcc6982f8527",
   "lastOpenFiles": [
-    "Notes/Algebraic identities of left-multiplication of matrices.md",
-    "Notes/Left-multiplication of Matrices.md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Linear map induced by product of matrices is composition of linear maps.md",
-    "Notes/Identity function on a vector space is represented by the identity matrix.md",
-    "Notes/Identity Function.md",
-    "Notes/Right and left multiplication by basis vector picks out column and row.md",
-    "Notes/Matrix Representation of a Linear Map.md",
-    "Notes/Matrix multiplication (columns and rows).md",
-    "Notes/Algebraic identities of matrix operations.md"
+    "Notes/Linear map is injective iff kernel vanishes.md",
+    "Notes/Linear Map.md",
+    "Notes/Kernel.md",
+    "Notes/Kernel of linear map is a subspace of its domain.md",
+    "Notes/Linear map fixes zero vector.md",
+    "Notes/Linear Isomorphism.md",
+    "Notes/Linear isomorphism between linear maps and matrices.md",
+    "Notes/Dimension Theorem.md",
+    "Notes/Well-ordering well-orders subsets.md",
+    "Notes/Intersection of ordinals is an ordinal.md"
   ]
 }
