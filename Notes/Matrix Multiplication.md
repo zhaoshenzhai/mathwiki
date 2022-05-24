@@ -9,7 +9,7 @@ Examples: [Matrix multiplication over $\R$ (dot product)](Matrix%20multiplicatio
 Constructions: [[Left-multiplication of Matrices]]
 Generalizations: _Not Applicable_
 
-Properties: [[Algebraic identities of matrix operations]], [Linear map induced by product of matrices is composition of linear maps](Linear%20map%20induced%20by%20product%20of%20matrices%20is%20composition%20of%20linear%20maps.md), [[Matrix multiplication is associative]]
+Properties: [[Algebraic identities of matrix operations]], [[Matrix multiplication is associative]]
 Sufficiencies: _Not Applicable_
 Equivalences: [Composition of linear maps $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ matrix product of representations](Composition%20of%20linear%20maps%20repr%20under%20basis%20matrix%20product%20of%20representations.md), [Matrix multiplication (columns$\slash$rows)](Matrix%20multiplication%20(columns%20and%20rows).md)
 Justifications: _Not Applicable_

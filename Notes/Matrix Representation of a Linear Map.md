@@ -21,7 +21,7 @@ _Let $V$ and $W$ be finite-dimensional vector spaces over some field $K$, say wi
 $$\begin{equation}
     \mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}\ \ \ \ \textrm{\it{and}}\ \ \ \ \mc{C}\coloneqq\l\{c_1,\dots,c_m\r\}
 \end{equation}$$
-_of $V$ and $W$, respectively. For any linear map $T:V\to W$, the **matrix representation of $T$ relative to $\mc{B}$ and $\mc{C}$** is the matrix_ $\l[T\r]_\mc{B}^\mc{C}\coloneqq\l[a_{ij}\r]\in\mat{m\times n}{K}$ _where_ $a_{ij}\in K$ _are the unique coefficients such that_ $T\l(b_j\r)=\sum_{i=1}^ma_{ij}c_i$ _for all $j\in\l\{1,\dots,n\r\}$._
+_of $V$ and $W$, respectively. To every linear map $T:V\to W$, the **matrix representation of $T$ relative to $\mc{B}$ and $\mc{C}$** is the matrix_ $\l[T\r]_\mc{B}^\mc{C}\coloneqq\l[a_{ij}\r]\in\mat{m\times n}{K}$ _where_ $a_{ij}\in K$ _are the unique coefficients such that_ $T\l(b_j\r)=\sum_{i=1}^ma_{ij}c_i$ _for all $j\in\l\{1,\dots,n\r\}$._
 
 ```
 

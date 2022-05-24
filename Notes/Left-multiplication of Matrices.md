@@ -9,7 +9,7 @@ Examples: [Rotations in $\R^2$](Rotations%20in%20R2.md), [Reflections in $\R^2$]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Algebraic identities of left-multiplication of matrices]], [Linear map induced by product of matrices is composition of linear maps](Linear%20map%20induced%20by%20product%20of%20matrices%20is%20composition%20of%20linear%20maps.md), [[Column space is image of induced linear map]]
+Properties: [[Algebraic identities of left-multiplication of matrices]], [[Column space is image of induced linear map]]
 Sufficiencies: [[Linear map on tuple spaces is induced by a unique matrix]]
 Equivalences: _Not Applicable_
 Justifications: [[Left-multiplication of a matrix is a linear map]]
@@ -26,3 +26,13 @@ $$\begin{equation}
 \end{equation}$$
 
 ```
+
+**Remark.** Indeed, the function
+$$\begin{equation}
+    \mc{L}:\mat{m\times n}{K}\to\hom\l(K^n,K^m\r)\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ A\mapsto L_A
+\end{equation}$$
+is the inverse of the matrix representation
+$$\begin{equation}
+    \Phi_\mc{B}^\mc{C}:\hom\l(K^n,K^m\r)\to\mat{m\times n}{K}\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ T\mapsto\l[T\r]_\mc{B}^\mc{C}
+\end{equation}$$
+where $\mc{B}$ and $\mc{C}$ are the standard bases of $K^n$ and $K^m$, respectively.<span style="float:right;">$\blacklozenge$</span>
