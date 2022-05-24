@@ -6,11 +6,11 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Real Coordinate Space]]
-Constructions: [[Standard Basis of Tuple Space]], [[Standard Representation of Finite-dim. Vector Spaces]]
+Constructions: [[Standard Basis of Tuple Space]]
 Generalizations: _Not Applicable_
 
 Properties: [[Linear map on tuple spaces is induced by a unique matrix]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Standard Representation of Finite-dim. Vector Spaces]]
 Equivalences: [$V\iso K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md)
 Justifications: [[Function space over a field is a vector space]]
 

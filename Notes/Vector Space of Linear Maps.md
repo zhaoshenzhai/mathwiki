@@ -10,7 +10,7 @@ Tags: #Definition #Closed
 
 Types: [$\edm_{\catvect[K]}\!\l(V\r)$](Endomorphism%20Algebra%20(Vector%20Space).md)
 Examples: _Not Applicable_
-Constructions: [[Matrix Representation of Linear Maps]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Algebraic identities of composition of linear maps]]

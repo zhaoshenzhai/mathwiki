@@ -29,4 +29,4 @@ _where $\alpha_1,\dots,\alpha_n\in K$ are the unqiue coefficients such that_ $v=
 
 ---
 
-**Remark.** If $V=K^n$ and $\mc{B}=\l\{\v{e}_1,\dots,\v{e}_n\r\}$ is the standard basis on $K^n$, then $\v{x}=\l[\v{x}\r]_\mc{B}$ for all $\v{x}\in K^n$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If $V=K^n$ and $\mc{B}=\l\{\v{e}_1,\dots,\v{e}_n\r\}$ is the standard basis on $K^n$, then $\v{x}=\l[\v{x}\r]_\mc{B}$ for all $\v{x}\in K^n$; that is, $\phi_\mc{B}=\id_{K^n}$.<span style="float:right;">$\blacklozenge$</span>

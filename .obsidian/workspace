@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3d5cc233f26cc88d",
+        "id": "79f26e76d0b18d4f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Left-multiplication of Matrices.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "5275b5a6b343771e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "5275b5a6b343771e",
+  "active": "79f26e76d0b18d4f",
   "lastOpenFiles": [
-    "Notes/Algebraic identities of left-multiplication of matrices.md",
-    "Notes/Linear Map.md",
+    "Notes/Composition (Linear Map).md",
+    "Notes/Algebraic identities of composition of linear maps.md",
+    "Notes/Vector Space of Linear Maps.md",
     "Notes/Left-multiplication of Matrices.md",
-    "Notes/Left-invertible iff injection.md",
-    "Notes/Invertible iff bijective.md",
-    "Notes/Invertible Function.md",
+    "Notes/Matrix Representation of a Linear Map.md",
+    "Notes/Linear Map.md",
+    "Notes/Binary Relation.md",
     "Notes/Standard Representation of Finite-dim. Vector Spaces.md",
-    "Notes/Algebraic identities of matrix operations.md",
-    "Notes/Reflections in R2.md",
-    "Notes/Rotations in R2.md"
+    "Notes/Identity function on a vector space is represented by the identity matrix.md",
+    "Notes/Linear isomorphism between linear maps and matrices.md"
   ]
 }

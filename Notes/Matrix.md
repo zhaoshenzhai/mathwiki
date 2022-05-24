@@ -10,7 +10,7 @@ Constructions: [$\mat{m\times n}{K}$ (Set)](Set%20of%20Matrices.md), [[Left-mult
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Matrices coincide if their actions on all vectors coincide]]
+Sufficiencies: [[Matrix Representation of a Linear Map]], [[Matrices coincide if their actions on all vectors coincide]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

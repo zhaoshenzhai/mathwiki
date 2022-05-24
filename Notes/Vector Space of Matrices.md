@@ -12,7 +12,7 @@ Tags: #Definition #Closed
 
 Types: [$\Diag{n}{K}$](Vector%20Space%20of%20Diagonal%20Matrices.md), [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md), [$\skew{n}{K}$](Vector%20Space%20of%20Skew-symmetric%20Matrices.md)
 Examples: _Not Applicable_
-Constructions: [[Matrix Representation of Linear Maps]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Algebraic identities of matrix operations]]
