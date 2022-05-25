@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Identity function is a bijection]] 
-Constructions: [[Isomorphism (Set Theory)]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Inverse of bijection is a bijection]], [[Composition of bijections is a bijection]]

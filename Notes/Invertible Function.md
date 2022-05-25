@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Identity Function]], [[Elementary row operations have inverses of the same type]]
-Constructions: _Not Applicable_
+Constructions: [[Isomorphism (Set Theory)]]
 Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]
 
 Properties: [[Inverse of bijection is a bijection]]

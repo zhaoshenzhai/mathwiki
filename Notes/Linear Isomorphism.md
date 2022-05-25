@@ -12,11 +12,13 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: [Linear map $T:V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective](Linear%20map%20between%20vector%20spaces%20of%20same%20dimension%20is%20injective%20iff%20surjective.md), [[Linear map to a lower dimensional space is not injective]], [[Linear map to a larger dimensional space is not surjective]]
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[Isomorphism of objects is an equivalence relation]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field. Two vector spaces $V$ and $W$ over $K$ are said to be **linearly isomorphic** if there exists an invertible linear map $T:V\to W$, in which case $T$ is said to be a **linear isomorphism**._
+_Let $V$ and $W$ be vector spaces over some field $K$. If there exists an invertible linear map $T:V\to W$, then $V$ is said to be **linearly isomorphic to $W$** in which case $T$ is said to be a **linear isomorphism**._
 
 ```
+
+**Remark.** Since $\textrm{`}$is linearly isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $V\iso W$ and say that $V$ and $W$ are **linearly isomorphic**.<span style="float:right;">$\blacklozenge$</span>

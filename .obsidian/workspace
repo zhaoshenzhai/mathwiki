@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "42f0bcc6982f8527",
+        "id": "36f8d1fbe28b980c",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "42f0bcc6982f8527",
+  "active": "36f8d1fbe28b980c",
   "lastOpenFiles": [
-    "Notes/Linear map is injective iff kernel vanishes.md",
-    "Notes/Linear Map.md",
-    "Notes/Kernel.md",
-    "Notes/Kernel of linear map is a subspace of its domain.md",
-    "Notes/Linear map fixes zero vector.md",
     "Notes/Linear Isomorphism.md",
-    "Notes/Linear isomorphism between linear maps and matrices.md",
-    "Notes/Dimension Theorem.md",
-    "Notes/Well-ordering well-orders subsets.md",
-    "Notes/Intersection of ordinals is an ordinal.md"
+    "Notes/Isomorphism (Set Theory).md",
+    "Notes/Isomorphism (Category Theory).md",
+    "Notes/Inverse of isomorphism is an isomorphism.md",
+    "Notes/Isomorphism of Categories.md",
+    "Notes/Strict inverse of functor is unique.md",
+    "Notes/Invertible Functor.md",
+    "Notes/Isomorphism of objects is an equivalence relation.md",
+    "Notes/Bijection.md",
+    "Notes/Invertible Function.md"
   ]
 }
