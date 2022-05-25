@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "29a4302a1bfabc2b",
+        "id": "cda333c6ce387704",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "29a4302a1bfabc2b",
+  "active": "cda333c6ce387704",
   "lastOpenFiles": [
+    "Notes/Linear Map.md",
+    "Notes/Left-multiplication of Matrices.md",
+    "Notes/Matrix.md",
+    "Notes/Algebraic identities of matrix operations.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Matrix Representation of a Linear Map.md",
     "Notes/Algebraic identities of left-multiplication of matrices.md",
     "Notes/Linear maps between tuple spaces act as a left-multiplication of a unique matrix.md",
-    "Notes/Matrix Representation of a Linear Map.md",
     "Notes/Linear isomorphism between linear maps and matrices.md",
-    "Notes/Composition of linear maps repr under basis matrix product of representations.md",
-    "Notes/Tuple Space (Linear Algebra).md",
-    "Notes/Left-multiplication of Matrices.md",
-    "Notes/Natural Isomorphism.md",
-    "Notes/Action of linear map repr under basis left-multiplication of matrix representation.md",
-    "Notes/Standard Representation of Finite-dim. Vector Spaces.md"
+    "Notes/Composition of linear maps repr under basis matrix product of representations.md"
   ]
 }

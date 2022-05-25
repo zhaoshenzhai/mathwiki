@@ -27,12 +27,8 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Indeed, the function
+**Remark.** Indeed, we may consider the function
 $$\begin{equation}
-    \mc{L}:\mat{m\times n}{K}\to\hom\l(K^n,K^m\r)\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ A\mapsto L_A
+    \mc{L}_{m\times n}:\mat{m\times n}{K}\to\hom\l(K^n,K^m\r)\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ A\mapsto L_A
 \end{equation}$$
-is the inverse of the matrix representation
-$$\begin{equation}
-    \Phi_\mc{B}^\mc{C}:\hom\l(K^n,K^m\r)\to\mat{m\times n}{K}\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ T\mapsto\l[T\r]_\mc{B}^\mc{C}
-\end{equation}$$
-where $\mc{B}$ and $\mc{C}$ are the standard bases of $K^n$ and $K^m$, respectively.<span style="float:right;">$\blacklozenge$</span>
+that assigns every matrix $A\in\mat{m\times n}{K}$ to its left-multiplication map.<span style="float:right;">$\blacklozenge$</span>
