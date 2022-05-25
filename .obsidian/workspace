@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "36f8d1fbe28b980c",
+        "id": "29a4302a1bfabc2b",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "36f8d1fbe28b980c",
+  "active": "29a4302a1bfabc2b",
   "lastOpenFiles": [
-    "Notes/Linear Isomorphism.md",
-    "Notes/Isomorphism (Set Theory).md",
-    "Notes/Isomorphism (Category Theory).md",
-    "Notes/Inverse of isomorphism is an isomorphism.md",
-    "Notes/Isomorphism of Categories.md",
-    "Notes/Strict inverse of functor is unique.md",
-    "Notes/Invertible Functor.md",
-    "Notes/Isomorphism of objects is an equivalence relation.md",
-    "Notes/Bijection.md",
-    "Notes/Invertible Function.md"
+    "Notes/Algebraic identities of left-multiplication of matrices.md",
+    "Notes/Linear maps between tuple spaces act as a left-multiplication of a unique matrix.md",
+    "Notes/Matrix Representation of a Linear Map.md",
+    "Notes/Linear isomorphism between linear maps and matrices.md",
+    "Notes/Composition of linear maps repr under basis matrix product of representations.md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Left-multiplication of Matrices.md",
+    "Notes/Natural Isomorphism.md",
+    "Notes/Action of linear map repr under basis left-multiplication of matrix representation.md",
+    "Notes/Standard Representation of Finite-dim. Vector Spaces.md"
   ]
 }

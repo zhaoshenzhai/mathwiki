@@ -10,7 +10,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Algebraic identities of left-multiplication of matrices]], [[Column space is image of induced linear map]]
-Sufficiencies: [[Linear map on tuple spaces is induced by a unique matrix]]
+Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Left-multiplication of a matrix is a linear map]]
 

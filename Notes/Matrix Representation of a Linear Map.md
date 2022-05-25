@@ -29,7 +29,7 @@ _of $V$ and $W$, respectively. To every linear map $T:V\to W$, the **matrix repr
 $$\begin{equation}
     \Phi_\mc{B}^\mc{C}:\hom\l(V,W\r)\to\mat{m\times n}{K}\ \ \ \ \textrm{mapping}\ \ \ \ T\mapsto\l[T\r]_\mc{B}^\mc{C}
 \end{equation}$$
-is a linear isomorphism, so this correspondence establishes the isomorphism $\hom\l(V,W\r)\iso\mat{m\times n}{K}$. However, it is _not_ a natural isomorphism as a choices of bases are required.<span style="float:right;">$\blacklozenge$</span>
+is a linear isomorphism, so this correspondence establishes the isomorphism $\hom\l(V,W\r)\iso\mat{m\times n}{K}$. However, it is _not_ a natural isomorphism as choices of bases are required.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
