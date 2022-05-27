@@ -4,7 +4,7 @@
 Date Created: 08/04/2022 05:00:31
 Tags: #Proposition #Closed
 
-Proved by: [[Matrix multiplication is associative]], [[Algebraic identities of matrix operations]]
+Proved by: [[Algebraic identities of matrix operations]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

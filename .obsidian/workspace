@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "13cff491abc53d8b",
+        "id": "55c69e408c14ca89",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Algebraic identities of matrix operations (linear map).md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Algebraic identities of matrix operations (linear map).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Algebraic identities of matrix operations (linear map).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Algebraic identities of matrix operations (linear map).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "13cff491abc53d8b",
+  "active": "55c69e408c14ca89",
   "lastOpenFiles": [
-    "Notes/Algebraic identities of matrix operations (linear map).md",
-    "Notes/Algebraic identities of matrix operations (standard).md",
-    "Notes/Algebraic identities of matrix operations.md",
-    "Notes/Algebraic identities of left-multiplication of matrices.md",
-    "Notes/Matrices coincide if their actions on all vectors coincide.md",
-    "Notes/Vector Space of Linear Maps.md",
-    "Notes/Algebraic identities of composition of linear maps.md",
-    "Notes/Vector Space of Matrices.md",
-    "Notes/Set of endomorphisms over a vector space form a unital associative algebra.md",
-    "Notes/Set of Matrices.md"
+    "Notes/Matrix multiplication is associative.md",
+    "Notes/Row-equivalent iff factors through elementary matrices.md",
+    "Notes/Row-equivalent iff factors through invertible matrix.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Left and right inverses coincide (matrix).md",
+    "Notes/Invertible coefficient matrix implies unique solution.md",
+    "Notes/Inversion anti-respects matrix multiplication.md",
+    "Notes/Inverse of matrix is unique.md",
+    "Notes/Cancellation laws (invertible matrix).md",
+    "Notes/Algebraic identities of matrix operations (linear map).md"
   ]
 }

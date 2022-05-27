@@ -5,7 +5,7 @@ Date Created: 22/03/2022 16:12:09
 Tags: #Definition #Closed 
 
 Types: [[Row-echelon Matrix]], [[Square Matrix]], [[Left-invertible Matrix]], [[Right-inverible Matrix]], [[Full-rank Matrix]]
-Examples: [[Augmented Matrix]], [[Zero Matrix]]
+Examples: [[Augmented Matrix]]
 Constructions: [$\mat{m\times n}{K}$ (Set)](Set%20of%20Matrices.md), [[Left-multiplication of Matrices]], [[Null Space]], [[Column Space]], [[Row Space]], [[Pivot Column]]
 Generalizations: _Not Applicable_
 

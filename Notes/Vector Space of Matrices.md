@@ -40,7 +40,7 @@ $$\begin{equation}
 \end{equation}$$
 _and whose zero vector is_
 $$\begin{equation}
-    0_{mn}\coloneqq
+    0_{m\times n}\coloneqq
         \begin{bmatrix}
             0_K & \cdots & 0_K \\
             \vdots & & \vdots \\
@@ -50,4 +50,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Formally, $\tpl{\mat{m\times n}{K},K,+,\cdot,0_{mn}}$ is the vector space of functions from $\l\{1,\dots,m\r\}\times\l\{1,\dots,n\r\}$ to $K$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Formally, $\tpl{\mat{m\times n}{K},K,+,\cdot,0_{m\times n}}$ is the vector space of functions from $\l\{1,\dots,m\r\}\times\l\{1,\dots,n\r\}$ to $K$.<span style="float:right;">$\blacklozenge$</span>

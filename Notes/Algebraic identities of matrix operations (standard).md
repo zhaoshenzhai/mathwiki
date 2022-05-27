@@ -16,7 +16,7 @@ title: Proposition.
 _Let $K$ be a field and fix $m,n,p,q\in\N^\ast$. Then, for all $A,A'\in\mat{m\times n}{K}$, $B,B'\in\mat{n\times p}{K}$, $C\in\mat{p\times q}{K}$, and $\alpha\in K$, the following algebraic identities hold:_
 * _(Unitality of $\times$): $I_mA=A=AI_n$._
 
-* _(Absorption of $0$): _$A 0_{np}=0_{mp}=0_{mn} B$_._
+* _(Absorption of $0$): _$A 0_{n\times p}=0_{m\times p}=0_{m\times n} B$_._
 * _(Left-distributivity of $\times$ over $+$): $A\l(B+B'\r)=A B+A B'$._
 * _(Right-distributivity of $\times$ over $+$): $\l(A+A'\r) B=A B+A' B$._
 * _(Compatibility between $\times$ and $\cdot$): $\alpha\l(A B\r)=\l(\alpha A\r) B=A\l(\alpha B\r)$._
@@ -41,14 +41,14 @@ for all $i\in\l\{1,\dots,m\r\}$ and $j\in\l\{1,\dots,n\r\}$.
 * (Absorption of $0$): Observe that
 $$\begin{equation}
     \begin{aligned}
-        \l(0_{mp}\r)_{ik}&=\sum_{j=1}^na_{ij}\l(0\r) \\
-        &=\sum_{j=1}^na_{ij}\l(0_{np}\r)_{jk} \\
-        &=\l(A0_{np}\r)_{ik} \\
+        \l(0_{m\times p}\r)_{ik}&=\sum_{j=1}^na_{ij}\l(0\r) \\
+        &=\sum_{j=1}^na_{ij}\l(0_{n\times p}\r)_{jk} \\
+        &=\l(A0_{n\times p}\r)_{ik} \\
     \end{aligned}\ \ \ \ \ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \ \ \ \ 
     \begin{aligned}
-        \l(0_{mp}\r)_{ik}&=\sum_{j=1}^n\l(0\r)b_{jk} && \textrm{Arithmetic} \\
-        &=\sum_{j=1}^n\l(0_{mn}\r)_{ij}b_{jk} && \textrm{Definitions of $0_{mn}$ and $0_{np}$} \\
-        &=\l(0_{mn}B\r)_{ik} && \textrm{Definition of $\times$} \\
+        \l(0_{m\times p}\r)_{ik}&=\sum_{j=1}^n\l(0\r)b_{jk} && \textrm{Arithmetic} \\
+        &=\sum_{j=1}^n\l(0_{m\times n}\r)_{ij}b_{jk} && \textrm{Definitions of $0_{m\times n}$ and $0_{n\times p}$} \\
+        &=\l(0_{m\times n}B\r)_{ik} && \textrm{Definition of $\times$} \\
     \end{aligned}
 \end{equation}$$
 for all $i\in\l\{1,\dots,m\r\}$ and $k\in\l\{1,\dots,p\r\}$.
