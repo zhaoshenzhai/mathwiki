@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "207c429f0da72c13",
+        "id": "13cff491abc53d8b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Algebraic identities of matrix operations.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "167aabdd40b631af",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
+            "file": "Notes/Algebraic identities of matrix operations (linear map).md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
+                "file": "Notes/Algebraic identities of matrix operations (linear map).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
+                "file": "Notes/Algebraic identities of matrix operations (linear map).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
+                "file": "Notes/Algebraic identities of matrix operations (linear map).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "167aabdd40b631af",
+  "active": "13cff491abc53d8b",
   "lastOpenFiles": [
-    "Notes/Algebraic identities of left-multiplication of matrices.md",
+    "Notes/Algebraic identities of matrix operations (linear map).md",
+    "Notes/Algebraic identities of matrix operations (standard).md",
     "Notes/Algebraic identities of matrix operations.md",
+    "Notes/Algebraic identities of left-multiplication of matrices.md",
+    "Notes/Matrices coincide if their actions on all vectors coincide.md",
     "Notes/Vector Space of Linear Maps.md",
     "Notes/Algebraic identities of composition of linear maps.md",
     "Notes/Vector Space of Matrices.md",
     "Notes/Set of endomorphisms over a vector space form a unital associative algebra.md",
-    "Notes/Set of Matrices.md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Matrix.md",
-    "Notes/Identity Matrix.md"
+    "Notes/Set of Matrices.md"
   ]
 }
