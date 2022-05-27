@@ -7,7 +7,7 @@ Tags: #Proposition #Closed
 Proved by: [[Algebraic identities of matrix operations]]
 Justifications: _Not Applicable_
 
-Generalizations: _Not Applicable_
+Generalizations: [[Kernel of linear map is a subspace of its domain]]
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition

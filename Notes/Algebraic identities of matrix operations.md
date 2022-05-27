@@ -13,13 +13,14 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n,p\in\N^\ast$. Then the following algebraic identities hold:_
+_Let $K$ be a field and fix $m,n,p,q\in\N^\ast$. Then the following algebraic identities hold:_
 * _(Unitality of $\times$): $I_mA=A=AI_n$ for all $A\in\mat{m\times n}{K}$._
 
 * _(Absorpion of $0$): _$A 0_{np}=0_{mp}=0_{mn} B$ _for all $A\in\mat{m\times n}{K}$ and $B\in\mat{n\times p}{K}$._
 * _(Left-distributivity of $\times$ over $+$): $A\l(B+B'\r)=A B+A B'$ for all $A\in\mat{m\times n}{K}$ and $B,B'\in\mat{n\times p}{K}$._
 * _(Right-distributivity of $\times$ over $+$): $\l(A+A'\r) B=A B+A' B$ for all $A,A'\in\mat{m\times n}{K}$ and $B\in\mat{n\times p}{K}$._
 * _(Compatibility between $\times$ and $\cdot$): $\alpha\l(A B\r)=\l(\alpha A\r) B=A\l(\alpha B\r)$ for all $A\in\mat{m\times n}{K}$, $B\in\mat{n\times p}{K}$, and $\alpha\in K$._
+* _(Associativity of $\times$): $A\l(BC\r)=\l(AB\r)C$ for all $A\in\mat{m\times n}{K}$, $B\in\mat{n\times p}{K}$, and $C\in\mat{p\times q}{K}$._
 
 ```
 
@@ -90,4 +91,15 @@ $$\begin{equation}
         &=\l[A\l(\alpha B\r)\r]_{ik} && \textrm{Definition of $\times$}
     \end{aligned}
 \end{equation}$$
-for all $i\in\l\{1,\dots,m\r\}$ and $k\in\l\{1,\dots,p\r\}$.<span style="float:right;">$\blacksquare$</span>
+for all $i\in\l\{1,\dots,m\r\}$ and $k\in\l\{1,\dots,p\r\}$.
+* (Associativity of $\times$): Take $A\in\mat{m\times n}{K}$, $B\in\mat{n\times p}{K}$, and $C\in\mat{p\times q}{K}$, and observe that the matrices $AB$, $BC$, $A\l(BC\r)$, and $\l(AB\r)C$ are all defined with sizes $m\times k$, $n\times q$, $m\times q$, and $m\times q$, respectively; in particular, the sizes of $A\l(BC\r)$ and $\l(AB\r)C$ coincide. To show that their entries coincide too, take $i\in\l\{1,\dots,m\r\}$ and $l\in\l\{1,\dots,q\r\}$, and observe that
+$$\begin{align}
+    \l(A\l(BC\r)\r)_{il}&=\sum_{j=1}^na_{ij}\l(BC\r)_{jl} && \textrm{Definition of matrix multiplication} \\
+    &=\sum_{j=1}^na_{ij}\l(\sum_{k=1}^pb_{jk}c_{kl}\r) && \textrm{Definition of matrix multiplication} \\
+    &=\sum_{j=1}^n\sum_{k=1}^pa_{ij}\l(b_{jk}c_{kl}\r) && \textrm{Left-distribution in $K$} \\
+    &=\sum_{j=1}^n\sum_{k=1}^p\l(a_{ij}b_{jk}\r)c_{kl} && \textrm{Associativity of multiplication in $K$} \\
+    &=\sum_{k=1}^p\sum_{j=1}^n\l(a_{ij}b_{jk}\r)c_{kl} && \textrm{Discrete Fubini's Theorem} \\
+    &=\sum_{k=1}^p\l(\sum_{j=1}^na_{ij}b_{jk}\r)c_{kl} && \textrm{Right-distribution in $K$} \\
+    &=\sum_{k=1}^p\l(AB\r)_{ik}c_{kl} && \textrm{Definition of matrix multiplication} \\
+    &=\l(\l(AB\r)C\r)_{il}. && \textrm{Definition of matrix multiplication}\qedin
+\end{align}$$

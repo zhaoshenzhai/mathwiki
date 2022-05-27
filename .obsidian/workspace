@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "cda333c6ce387704",
+        "id": "207c429f0da72c13",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Algebraic identities of matrix operations.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "167aabdd40b631af",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Algebraic identities of left-multiplication of matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "cda333c6ce387704",
+  "active": "167aabdd40b631af",
   "lastOpenFiles": [
-    "Notes/Linear Map.md",
-    "Notes/Left-multiplication of Matrices.md",
-    "Notes/Matrix.md",
-    "Notes/Algebraic identities of matrix operations.md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Matrix Representation of a Linear Map.md",
     "Notes/Algebraic identities of left-multiplication of matrices.md",
-    "Notes/Linear maps between tuple spaces act as a left-multiplication of a unique matrix.md",
-    "Notes/Linear isomorphism between linear maps and matrices.md",
-    "Notes/Composition of linear maps repr under basis matrix product of representations.md"
+    "Notes/Algebraic identities of matrix operations.md",
+    "Notes/Vector Space of Linear Maps.md",
+    "Notes/Algebraic identities of composition of linear maps.md",
+    "Notes/Vector Space of Matrices.md",
+    "Notes/Set of endomorphisms over a vector space form a unital associative algebra.md",
+    "Notes/Set of Matrices.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Matrix.md",
+    "Notes/Identity Matrix.md"
   ]
 }
