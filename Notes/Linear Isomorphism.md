@@ -9,7 +9,7 @@ Examples: [$V\iso K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [Invertible linear map $T:V\to W$ $\Rightarrow$ ($\dim V<\infty\Leftrightarrow\dim W<\infty$ and $\dim V=\dim W$)](Invertible%20linear%20map%20domain%20finite%20dim.%20iff%20codomain%20equal%20finite%20dim..md)
 Sufficiencies: [[Linear map to a lower dimensional space is not injective]], [[Linear map to a larger dimensional space is not surjective]]
 Equivalences: [[Criteria for invertibility of linear maps]]
 Justifications: [[Isomorphism of objects is an equivalence relation]]

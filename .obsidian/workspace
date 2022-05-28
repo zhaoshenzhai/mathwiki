@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f50a996d68e916e5",
+        "id": "151ef2a4bec12056",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Isomorphism.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Isomorphism.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Isomorphism.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Isomorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f50a996d68e916e5",
+  "active": "151ef2a4bec12056",
   "lastOpenFiles": [
     "Notes/Linear Isomorphism.md",
-    "Notes/Reflexive closure of ordering on ordinals.md",
-    "Notes/Reflexive Closure.md",
-    "Notes/Lexicographical order is reflexive closure of strict lexicographical order.md",
-    "Notes/Reflexive closure of connected relation is connected.md",
-    "Notes/Identity Function.md",
-    "Notes/Identity Functor.md",
+    "Notes/Invertible linear map domain finite dim. iff codomain equal finite dim..md",
+    "Notes/Image of linear map is spanned by image of spanning set.md",
+    "Notes/Finite-dimensional Vector Space.md",
+    "Notes/Image (Linear Map).md",
     "Notes/Linear Map.md",
-    "Notes/Identity function is a linear map.md",
-    "Notes/Category of vector spaces is a locally-small category.md"
+    "Notes/Criteria for equality of linear maps via spanning set.md",
+    "Notes/Matrix Representation of a Linear Map.md",
+    "Notes/Automorphism (Category Theory).md",
+    "Notes/Endomorphism Algebra (Vector Space).md"
   ]
 }
