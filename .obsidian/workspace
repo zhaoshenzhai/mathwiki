@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0cf125b848696850",
+        "id": "f50a996d68e916e5",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "0cf125b848696850",
+  "active": "f50a996d68e916e5",
   "lastOpenFiles": [
-    "Notes/Inverse of linear map is linear.md",
-    "Notes/Invertible iff bijective.md",
-    "Notes/Linear isomorphism between finite-dim vector spaces and tuple spaces.md",
-    "Notes/Standard Representation of Finite-dim. Vector Spaces.md",
-    "Notes/Action of linear map repr under basis left-multiplication of matrix representation.md",
+    "Notes/Criteria for invertibility of linear maps.md",
+    "Notes/Linear Isomorphism.md",
+    "Notes/Matrix Invertibility Criteria.md",
+    "Notes/Invertible Matrix.md",
     "Notes/Linear Map.md",
-    "Notes/Invertible Function.md",
-    "Notes/Inverse of bijection is a bijection.md",
-    "Notes/Composition (Function).md",
-    "Notes/Composition (Linear Map).md"
+    "Notes/Linear map to a lower dimensional space is not injective.md",
+    "Notes/Linear map to a larger dimensional space is not surjective.md",
+    "Notes/Inverse of matrix is unique.md",
+    "Notes/Left-invertible Matrix.md",
+    "Notes/Left-invertible square matrix implies invertible.md"
   ]
 }

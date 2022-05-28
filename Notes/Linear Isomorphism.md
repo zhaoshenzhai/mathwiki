@@ -10,8 +10,8 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [Linear map $T:V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective](Linear%20map%20between%20vector%20spaces%20of%20same%20dimension%20is%20injective%20iff%20surjective.md), [[Linear map to a lower dimensional space is not injective]], [[Linear map to a larger dimensional space is not surjective]]
-Equivalences: _Not Applicable_
+Sufficiencies: [[Linear map to a lower dimensional space is not injective]], [[Linear map to a larger dimensional space is not surjective]]
+Equivalences: [[Criteria for invertibility of linear maps]]
 Justifications: [[Isomorphism of objects is an equivalence relation]]
 
 ``` ad-Definition
