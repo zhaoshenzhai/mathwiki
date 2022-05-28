@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "26c4559347bf3eb1",
+        "id": "f3a9311e2947f9c9",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear map invertible repr under basis matrix representation invertible.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "a20f594342a9b102",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Criteria for invertibility of linear maps.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Criteria for invertibility of linear maps.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Criteria for invertibility of linear maps.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Criteria for invertibility of linear maps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "a20f594342a9b102",
+  "active": "f3a9311e2947f9c9",
   "lastOpenFiles": [
-    "Notes/Criteria for invertibility of linear maps.md",
-    "Notes/Invertible linear map domain finite dim. iff codomain equal finite dim..md",
+    "Notes/Left-multiplication of Matrices.md",
     "Notes/Linear map invertible repr under basis matrix representation invertible.md",
-    "Notes/Composition of linear maps repr under basis matrix product of representations.md",
-    "Notes/Matrix Representation of a Linear Map.md",
-    "Notes/Existence of unique linear map via action on basis vectors.md",
-    "Notes/Linear Map.md",
-    "Notes/Identity function on a vector space is represented by the identity matrix.md",
+    "Notes/Matrix invertible iff left-multiplication invertible.md",
+    "Notes/Linear isomorphism between linear maps and matrices.md",
     "Notes/Algebraic identities of left-multiplication of matrices.md",
-    "Notes/Linear Isomorphism.md"
+    "Notes/Composition of linear maps repr under basis matrix product of representations.md",
+    "Notes/Vector Space of Matrices.md",
+    "Notes/Algebraic identities of matrix operations.md",
+    "Notes/Matrix invertible iff factors invertible.md",
+    "Notes/Criteria for invertibility of linear maps.md"
   ]
 }
