@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "55c69e408c14ca89",
+        "id": "0cf125b848696850",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "55c69e408c14ca89",
+  "active": "0cf125b848696850",
   "lastOpenFiles": [
-    "Notes/Matrix multiplication is associative.md",
-    "Notes/Row-equivalent iff factors through elementary matrices.md",
-    "Notes/Row-equivalent iff factors through invertible matrix.md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Left and right inverses coincide (matrix).md",
-    "Notes/Invertible coefficient matrix implies unique solution.md",
-    "Notes/Inversion anti-respects matrix multiplication.md",
-    "Notes/Inverse of matrix is unique.md",
-    "Notes/Cancellation laws (invertible matrix).md",
-    "Notes/Algebraic identities of matrix operations (linear map).md"
+    "Notes/Inverse of linear map is linear.md",
+    "Notes/Invertible iff bijective.md",
+    "Notes/Linear isomorphism between finite-dim vector spaces and tuple spaces.md",
+    "Notes/Standard Representation of Finite-dim. Vector Spaces.md",
+    "Notes/Action of linear map repr under basis left-multiplication of matrix representation.md",
+    "Notes/Linear Map.md",
+    "Notes/Invertible Function.md",
+    "Notes/Inverse of bijection is a bijection.md",
+    "Notes/Composition (Function).md",
+    "Notes/Composition (Linear Map).md"
   ]
 }

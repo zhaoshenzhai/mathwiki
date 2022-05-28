@@ -9,7 +9,7 @@ Examples: [[Identity Function]], [[Elementary row operations have inverses of th
 Constructions: [[Isomorphism (Set Theory)]]
 Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]
 
-Properties: [[Inverse of bijection is a bijection]]
+Properties: [[Inverse of bijection is a bijection]], [[Inverse of linear map is linear]]
 Sufficiencies: [[Left and right inverses coincide (function)]]
 Equivalences: [Invertible $\Leftrightarrow$ bijective](Invertible%20iff%20bijective.md)
 Justifications: [[Inverse of function is unique]]
