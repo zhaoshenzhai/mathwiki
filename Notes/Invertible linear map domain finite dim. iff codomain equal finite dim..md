@@ -1,5 +1,5 @@
 ---
-custom_alias: Invertible linear map $T:V\to W$ $\Rightarrow$ ($\dim V<\infty\Leftrightarrow\dim W<\infty$ and $\dim V=\dim W$)
+custom_alias: Invertible linear map $V\to W$ $\Rightarrow$ ($\dim V<\infty\Leftrightarrow\dim W<\infty$ and $\dim V=\dim W$)
 ---
 
 <br />

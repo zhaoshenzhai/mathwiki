@@ -9,7 +9,7 @@ Examples: [$\l[\id_V\r]_\mc{B}=I_n$ ($\dim V=n$)](Identity%20function%20on%20a%2
 Constructions: [$\hom\l(V,W\r)\iso\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)](Linear%20isomorphism%20between%20linear%20maps%20and%20matrices.md)
 Generalizations: _Not Applicable_
 
-Properties: [Composition of linear maps $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ matrix product of representations](Composition%20of%20linear%20maps%20repr%20under%20basis%20matrix%20product%20of%20representations.md), [Action of linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ left-multiplication of matrix representation](Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md)
+Properties: [Composition of linear maps $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ matrix product of representations](Composition%20of%20linear%20maps%20repr%20under%20basis%20matrix%20product%20of%20representations.md), [Action of linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ left-multiplication of matrix representation](Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md), [Linear map invertible $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ matrix representation invertible](Linear%20map%20invertible%20repr%20under%20basis%20matrix%20representation%20invertible.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Unique Representation Theorem (Hamel)]]

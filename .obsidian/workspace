@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "151ef2a4bec12056",
+        "id": "26c4559347bf3eb1",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear map invertible repr under basis matrix representation invertible.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linear map invertible repr under basis matrix representation invertible.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linear map invertible repr under basis matrix representation invertible.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear map invertible repr under basis matrix representation invertible.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "151ef2a4bec12056",
+  "active": "26c4559347bf3eb1",
   "lastOpenFiles": [
+    "Notes/Linear map invertible repr under basis matrix representation invertible.md",
+    "Notes/Algebraic identities of left-multiplication of matrices.md",
+    "Notes/Criteria for invertibility of linear maps.md",
     "Notes/Linear Isomorphism.md",
-    "Notes/Invertible linear map domain finite dim. iff codomain equal finite dim..md",
-    "Notes/Image of linear map is spanned by image of spanning set.md",
-    "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Image (Linear Map).md",
-    "Notes/Linear Map.md",
-    "Notes/Criteria for equality of linear maps via spanning set.md",
     "Notes/Matrix Representation of a Linear Map.md",
-    "Notes/Automorphism (Category Theory).md",
-    "Notes/Endomorphism Algebra (Vector Space).md"
+    "Notes/Linear Map.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Matrix Invertibility Criteria.md",
+    "Notes/Invertible linear map domain finite dim. iff codomain equal finite dim..md",
+    "Notes/Image of linear map is spanned by image of spanning set.md"
   ]
 }

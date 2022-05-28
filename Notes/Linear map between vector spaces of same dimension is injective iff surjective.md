@@ -1,5 +1,5 @@
 ---
-custom_alias: Linear map $T:V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective
+custom_alias: Linear map $V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective
 ---
 
 <br />
