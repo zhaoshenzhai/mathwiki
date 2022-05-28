@@ -7,8 +7,12 @@
         "id": "f50a996d68e916e5",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Isomorphism.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linear Isomorphism.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linear Isomorphism.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear Isomorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +184,15 @@
   },
   "active": "f50a996d68e916e5",
   "lastOpenFiles": [
-    "Notes/Criteria for invertibility of linear maps.md",
     "Notes/Linear Isomorphism.md",
-    "Notes/Matrix Invertibility Criteria.md",
-    "Notes/Invertible Matrix.md",
+    "Notes/Reflexive closure of ordering on ordinals.md",
+    "Notes/Reflexive Closure.md",
+    "Notes/Lexicographical order is reflexive closure of strict lexicographical order.md",
+    "Notes/Reflexive closure of connected relation is connected.md",
+    "Notes/Identity Function.md",
+    "Notes/Identity Functor.md",
     "Notes/Linear Map.md",
-    "Notes/Linear map to a lower dimensional space is not injective.md",
-    "Notes/Linear map to a larger dimensional space is not surjective.md",
-    "Notes/Inverse of matrix is unique.md",
-    "Notes/Left-invertible Matrix.md",
-    "Notes/Left-invertible square matrix implies invertible.md"
+    "Notes/Identity function is a linear map.md",
+    "Notes/Category of vector spaces is a locally-small category.md"
   ]
 }
