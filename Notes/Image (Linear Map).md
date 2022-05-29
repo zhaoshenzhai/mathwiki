@@ -10,8 +10,8 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Dimension Theorem]]
-Sufficiencies: _Not Applicable_
-Equivalences: [[Image of linear map is spanned by image of spanning set]]
+Sufficiencies: [[Image of linear map is spanned by image of spanning set]]
+Equivalences: _Not Applicable_
 Justifications: [[Image of linear map is a subspace of its codomain]]
 
 ``` ad-Definition

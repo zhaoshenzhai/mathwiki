@@ -48,7 +48,6 @@ $$\begin{equation}
         \Phi_\mc{B}^\mc{C}\l(\alpha T_1+T_2\r)&=\l[\gamma_{ij}\r] && \textrm{Definition of $\Phi_\mc{B}^\mc{C}$} \\
         &=\l[k\alpha_{ij}+\beta_{ij}\r] && \textrm{Substitution} \\
         &=k\l[\alpha_{ij}\r]+\l[\beta_{ij}\r] && \textrm{Definitions of matrix operations} \\
-        &=k\l[T_1\r]_\mc{B}^\mc{C}+\l[T_2\r]_\mc{B}^\mc{C} && \textrm{Definitions of $\l[T_1\r]_\mc{B}^\mc{C}$ and $\l[T_2\r]_\mc{B}^\mc{C}$} \\
         &=k\Phi_\mc{B}^\mc{C}\l(T_1\r)+\Phi_\mc{B}^\mc{C}\l(T_2\r). && \textrm{Definition of $\Phi_\mc{B}^\mc{C}$}
     \end{aligned}
 \end{equation}$$
