@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f596319aff941039",
+        "id": "38d3f5d855601829",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f596319aff941039",
+  "active": "38d3f5d855601829",
   "lastOpenFiles": [
+    "Notes/Linearly isomorphic iff dimensions coincide (finite-dim.).md",
+    "Notes/Linear map invertible repr under basis matrix representation invertible.md",
+    "Notes/Isomorphic vector spaces finite-dim. iff finite-dim..md",
+    "Notes/Criteria for invertibility of linear maps.md",
+    "Notes/Linear Isomorphism.md",
+    "Notes/Existence of unique linear map via action on basis vectors.md",
+    "Notes/Dimension Theorem.md",
     "Notes/Left-multiplication of Matrices.md",
     "Notes/Matrix invertible iff left-multiplication invertible.md",
-    "Notes/Algebraic identities of left-multiplication of matrices.md",
-    "Notes/Linear map invertible repr under basis matrix representation invertible.md",
-    "Notes/Criteria for invertibility of linear maps.md",
-    "Notes/Isomorphic vector spaces finite-dim. iff finite-dim..md",
-    "Notes/Linear Isomorphism.md",
-    "Notes/Finite-dimensional Vector Space.md",
-    "Notes/Matrix Representation of a Linear Map.md",
-    "Notes/Composition of linear maps repr under basis matrix product of representations.md"
+    "Notes/Algebraic identities of left-multiplication of matrices.md"
   ]
 }

@@ -11,13 +11,13 @@ Generalizations: _Not Applicable_
 
 Properties: [$V\iso W$ $\Rightarrow$ ($\dim V<\infty\Leftrightarrow\dim W<\infty$)](Isomorphic%20vector%20spaces%20finite-dim.%20iff%20finite-dim..md)
 Sufficiencies: [[Linear map to a lower dimensional space is not injective]], [[Linear map to a larger dimensional space is not surjective]]
-Equivalences: [[Criteria for invertibility of linear maps]]
+Equivalences: [[Criteria for invertibility of linear maps]], [$V\iso W$ $\Leftrightarrow$ $\dim V=\dim W$ ($V,W$ finite-dim.)](Linearly%20isomorphic%20iff%20dimensions%20coincide%20(finite-dim.).md)
 Justifications: [[Isomorphism of objects is an equivalence relation]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ and $W$ be vector spaces over some field $K$. If there exists an invertible linear map $T:V\to W$, then $V$ is said to be **linearly isomorphic to $W$** in which case $T$ is said to be a **linear isomorphism**._
+_Let $V$ and $W$ be vector spaces over some field $K$. We say that $V$ is **linearly isomorphic to $W$** if there exists an invertible linear map $T:V\to W$, in which case $T$ is said to be a **linear isomorphism**._
 
 ```
 
