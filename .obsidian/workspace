@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "cc91a7cb5b5573b9",
+        "id": "55055d32c816b941",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "cc91a7cb5b5573b9",
+  "active": "55055d32c816b941",
   "lastOpenFiles": [
+    "Notes/Matrix.md",
+    "Notes/Matrix Representation of a Linear Map.md",
+    "Notes/Left-invertible Matrix.md",
+    "Notes/Linear Map.md",
     "Notes/Vector Space.md",
     "Notes/Isomorphic Vector Spaces.md",
     "Notes/Linearly isomorphic iff dimensions coincide (finite-dim.).md",
     "Notes/Linear Isomorphism Theorem.md",
-    "Notes/Matrix Representation of a Linear Map.md",
     "Notes/Linear map invertible repr under basis matrix representation invertible.md",
-    "Notes/Isomorphic vector spaces finite-dim. iff finite-dim..md",
-    "Notes/Linear Isomorphism.md",
-    "Notes/Vector Space of Matrices.md",
-    "Notes/Function Space (Linear Algebra).md"
+    "Notes/Isomorphic vector spaces finite-dim. iff finite-dim..md"
   ]
 }

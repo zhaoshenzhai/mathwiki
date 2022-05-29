@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $n,m\in\N^\ast$. An **$m\times n$ matrix over $K$** is a function_
+_Let $K$ be a field and fix $m,n\in\N^\ast$. An **$m\times n$ matrix over $K$** is a function_
 $$\begin{equation}
     \begin{aligned}
         A:\l\{1,\dots,m\r\}\times\l\{1,\dots,n\r\}&\to K\\
@@ -45,6 +45,4 @@ Write $\v{a}_{i;\blob}$ and $\v{a}_{\blob;j}$ for the $i^\textrm{th}$ row and $j
 $$\begin{equation}
     E_m:\em\to K
 \end{equation}$$
-which, by the set-theoretic definition of functions, is simply $\em$. However, this is also the case for $0\times n$ matrices, so they coincide. Thus, formally speaking, we should define $m\times 0$ matrices as a triple $\tpl{m,0,A}$ where $A$ is as before. Similarly, $0\times n$ matrices are triples $\tpl{0,n,A}$; this differentiates between the different empty matrices. We may thus redefine general $m\times n$ matrices, where $m,n\in\N$, as the triple $\tpl{m,n,A}$ where $A$ is as before.
-
-More importantly, however, note that these definitions align with how matrices represent linear maps between finite-dimensional vector spaces.
+which, by the set-theoretic definition of functions, is simply $\em$. However, this is also the case for $0\times n$ matrices, so they coincide. Thus, formally speaking, we should define $m\times 0$ matrices as a triple $\tpl{m,0,A}$ where $A$ is as before. Similarly, $0\times n$ matrices are triples $\tpl{0,n,A}$; this differentiates between the different empty matrices. We may thus redefine general $m\times n$ matrices, where $m,n\in\N$, as the triple $\tpl{m,n,A}$ where $A$ is as before.<span style="float:right;">$\blacklozenge$</span>
