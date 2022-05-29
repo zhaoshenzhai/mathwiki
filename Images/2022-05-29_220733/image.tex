@@ -1,0 +1,21 @@
+\documentclass{article}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\makeatletter
+\newcommand{\globalcolor}[1]{%
+  \color{#1}\global\let\default@color\current@color
+}
+\makeatother
+
+\AtBeginDocument{\globalcolor{textColor}}
+
+\pagenumbering{gobble}
+
+\begin{document}
+    \begin{tikzcd}[column sep=4em, row sep=3em]
+        V \ar[r, "T"] \ar[d, "\phi_\mc{B}"'] & W \ar[d, "\phi_\mc{C}"] \\
+        K^n \ar[r, "L_A"'] & K^m
+    \end{tikzcd}
+\end{document}

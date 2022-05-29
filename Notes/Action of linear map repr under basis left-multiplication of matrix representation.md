@@ -28,6 +28,13 @@ $$\begin{equation}
 
 ```
 
+**Remark.** Letting $A\coloneqq\l[T\r]_\mc{B}^\mc{C}$, this relationship can be interpreted by saying that the diagram
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-05-29_220733/image.svg", width=170></center>
+
+commutes. Thus, after identifying $V\iso K^n$ and $W\iso K^m$ via the maps $\phi_\mc{B}$ and $\phi_\mc{C}$, respectively, we may identify $T$ with the left-multiplication map $L_A$. This is useful since it allows us to reduce abstract statements about $T$ to maps between tuple spaces.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 _Proof_. Fix $v\in V$. For any linear map $f:\dom f\to V$ (with $\dom f$ being an $\l|\mc{A}\r|$-dimensional vector space), we know that
 $$\begin{equation}
     \l[T\circ f\r]_\mc{A}^\mc{C}=\l[T\r]_\mc{B}^\mc{C}\l[f\r]_\mc{A}^\mc{B};
