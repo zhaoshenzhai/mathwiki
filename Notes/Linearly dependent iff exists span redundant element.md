@@ -25,11 +25,11 @@ $$\begin{equation}
 ```
 
 _Proof_.
-* ($\Rightarrow$): Since $S$ is linearly dependent, there exist $\alpha_1,\dots,\alpha_n\in K$, not all of which are zero, such that
+* ($\Rightarrow$): Since $S$ is linearly dependent, there exist $\alpha_1,\dots,\alpha_n\in K$, not all of which are zero, such that $\sum_{i=1}^n\alpha_is_i=0_V$; we claim that
 $$\begin{equation}
-    \sum_{i=1}^n\alpha_is_i=0_V
+    l=\max\l\{i\in\l\{1,\dots,n\r\}\mid\alpha_i\neq0\r\}.
 \end{equation}$$
-We claim that $l=\max\l\{i\in\l\{1,\dots,n\r\}\mid\alpha_i\neq0\r\}$. Note that $l\neq1$, for if not, then $\alpha_1\neq0$ and $\alpha_1s_1=0$, so $s_l=0$. Thus $l>1$, so $\sum_{i=1}^l\alpha_is_i=0_V$ which implies that
+Note that $l\neq1$, for if not, then $\alpha_1\neq0$ and $\alpha_1s_1=0$, so $s_l=0$. Thus $l>1$, so $\sum_{i=1}^l\alpha_is_i=0_V$ which implies that
 $$\begin{equation}
     \alpha_ls_l=-\sum_{i=1}^{l-1}\alpha_is_i.
 \end{equation}$$
@@ -39,8 +39,4 @@ $$\begin{equation}
 \end{equation}$$
 from which the result follows.
 
-* ($\Leftarrow$): The converse is easy, since $s_l\in\span\l\{s_1,\dots,s_{l-1}\r\}$ implies that
-$$\begin{equation}
-    s_l=\sum_{i=1}^{l-1}\beta_is_i
-\end{equation}$$
-for some $\beta_1,\dots,\beta_{l-1}\in K$. Setting $\beta_l\coloneqq-1$, we see that $\sum_{i=1}^l\beta_is_i=0$, so $S$ is linearly dependent.<span style="float:right;">$\blacksquare$</span>
+* ($\Leftarrow$): The converse is easy since $s_l\in\span\l\{s_1,\dots,s_{l-1}\r\}$ implies that $s_l=\sum_{i=1}^{l-1}\beta_is_i$ for some $\beta_1,\dots,\beta_{l-1}\in K$. Setting $\beta_l\coloneqq-1$, we see that $\sum_{i=1}^l\beta_is_i=0$, so $S$ is linearly dependent.<span style="float:right;">$\blacksquare$</span>

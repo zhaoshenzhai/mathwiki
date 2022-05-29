@@ -47,4 +47,4 @@ for some $\l\{\alpha_i\r\}_{i\in I}\!\in K^n$ with $\alpha_i=0$ for all but fini
             &=\sum\limits_{i\in I}\l(\gamma\alpha_i+\beta_i\r)s_i, && \textrm{Right-distribution in $K$}
         \end{aligned}
     \end{equation}$$
-    so $\gamma l_1+l_2$ is the linear combination of vectors in $S$ with coefficients $\l\{\gamma\alpha_i+\beta_i\r\}_{i\in I}$ with $\gamma\alpha_i+\beta_i=0$ for all but finitely-many $i\in I$. It follows then that $L\l(S\r)$ is closed under addition and scalar multiplication, and since $0\in L\l(S\r)$ trivially, $L\l(S\r)$ is a linear subspace of $V$.<span style="float:right;">$\blacksquare$</span>
+    so $\gamma l_1+l_2$ is the linear combination of vectors in $S$ with coefficients $\tpl{\gamma\alpha_i+\beta_i}_{i\in I}$ with $\gamma\alpha_i+\beta_i=0$ for all but finitely-many $i\in I$. It follows then that $L\l(S\r)$ is closed under addition and scalar multiplication, and since $0\in L\l(S\r)$ trivially, $L\l(S\r)$ is a linear subspace of $V$.<span style="float:right;">$\blacksquare$</span>

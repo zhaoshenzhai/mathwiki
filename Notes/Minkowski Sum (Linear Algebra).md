@@ -11,8 +11,8 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: [[Minkowski sum of subspaces is the span of their union]]
+Equivalences: [[Minkowski sum of subspaces is the span of their union]]
+Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.

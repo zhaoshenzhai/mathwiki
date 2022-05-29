@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a vector space over some field $K$ and consider a linear subspace $U\subseteq V$. Then there exists a linear subspace $W\subseteq V$ such that $V=U\oplus W$._
+_Let $V$ be a finite-dimensional vector space over some field $K$ and consider a linear subspace $U\subseteq V$. Then there exists a linear subspace $W\subseteq V$ such that $V=U\oplus W$._
 
 ```
 
@@ -43,7 +43,7 @@ and since $\mc{B}_V$ is linearly independent, this forces $\beta_1=\cdots\beta_k
 
 ---
 
-**Remark.** Note that the complement $W$ is not necessarily unique. For instance, consider $V\coloneqq\R^3$ and $U\subseteq V$ be a plane (passing through the origin).
+**Remark.** Note that the complement $W$ is not necessarily unique. For instance, consider $V\coloneqq\R^3$ and let $U\subseteq V$ be a plane (passing through the origin).
 
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-05-14_114740/image.svg", width=320></center>
 

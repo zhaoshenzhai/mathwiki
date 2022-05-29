@@ -9,7 +9,7 @@ Examples: [Matrix multiplication (columns$\slash$rows)](Matrix%20multiplication%
 Constructions: [[Linear Independence]], [[Linear Span]]
 Generalizations: _Not Applicable_
 
-Properties: [[Linear combinations of solutions of homogeneous systems are solutions]]
+Properties: _Not Applicable_
 Sufficiencies: [[Unique Representation Theorem (Hamel)]]
 Equivalences: [Linear combination $\Leftrightarrow$ in smallest containing subspace](Linear%20combination%20iff%20in%20smallest%20containing%20subspace.md)
 Justifications: _Not Applicable_
@@ -25,7 +25,7 @@ _where $\alpha_i=0$ for all but finitely-many $i\in I$._
 
 ```
 
-**Remark.** Note that we intensionally exclude infinite sums since bare vector spaces have no notion of convergence. Indeed, we may rephrase this definition by saying that $v$ is a $K$-linear combination of vectors in $U$ if
+**Remark.** Note that we intensionally exclude infinite sums since bare vector spaces have no notion of convergence (if $U$ is uncountable, not even a series can be written). Indeed, we may rephrase this definition by saying that $v$ is a $K$-linear combination of vectors in $U$ if
 $$\begin{equation}
     \ex n\in\N,\fa i\in\l\{1,\dots,n\r\},\ex\alpha_i\in K,\ex u_i\in U:v=\sum\limits_{i=1}^n\alpha_iu_i.
 \end{equation}$$
@@ -33,7 +33,7 @@ Redefining $I=\l\{1,\dots,n\r\}$, we see that $I$ carries an order structure and
 
 ---
 
-**Remark.** Here, we consider $U$ as an indexed subset of $V$ for convenience; the indexing structure is not needed so we may talk about linear combinations of vectors in sub_sets_ of $V$. However, if $I$ carries an order structure (say $I=\l\{1,\dots,n\r\}$ for some $n\in\N$ or $I=\N$ itself), we may identify $\l\{u_i\r\}_{i\in I}$ with the $I$-tuple $\tpl{u_i}_{i\in I}$ which allows us to talk about ordered bases, and this _is_ important.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Here, we consider $U$ as an indexed subset of $V$ for convenience; the indexing structure is not needed so we may talk about linear combinations of vectors in sub_sets_ of $V$. However, if $I$ carries an order structure (say $I=\l\{1,\dots,n\r\}$ for some $n\in\N$ or $I=\N$ itself), we may identify $\l\{u_i\r\}_{i\in I}$ with the $I$-tuple $\tpl{u_i}_{i\in I}$ which allows us to talk about ordered bases, which _is_ important.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

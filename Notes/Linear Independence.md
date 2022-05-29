@@ -9,7 +9,7 @@ Examples: [Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Leftrig
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Steinitz Exchange Lemma]], [[Linearly independent subset of a vector space extends to a basis]], [[Enlargement of linearly independent set by adjoining non-spanned vector]], [Linearly independent $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis](Linearly%20independent%20subset%20with%20same%20cardinality%20as%20dimension%20(finite)%20is%20a%20basis.md), [[Linearly independent subset cannot contain the zero vector]]
+Properties: [[Steinitz Exchange Lemma]], [[Linearly independent subset of a vector space extends to a basis]], [Linearly independent $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis](Linearly%20independent%20subset%20with%20same%20cardinality%20as%20dimension%20(finite)%20is%20a%20basis.md), [[Linearly independent subset cannot contain the zero vector]]
 Sufficiencies: _Not Applicable_
 Equivalences: [Linearly dependent $\Leftrightarrow$ scalar multiple](Linearly%20dependent%20iff%20scalar%20multiple.md), [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 Justifications: _Not Applicable_
@@ -29,7 +29,7 @@ _where $\alpha_i=0$ for all but finitely-many $i\in I$. Otherwise, $U$ is said t
 $$\begin{equation}
     \fa\tpl{\alpha_i}_{i\in I}\!\in K^n:\l(\sum_{i=1}^n\alpha_iu_i=0\Rightarrow\fa i\in\l\{1,\dots,n\r\}:\alpha_i=0\r).
 \end{equation}$$
-We may then define linear independence for arbitrary $I$ by saying that $\l\{u_i\r\}_{i\in I}$ is linearly independent if every finite sequence thereof is.<span style="float:right;">$\blacklozenge$</span>
+We may then redefine linear independence for arbitrary $I$ by saying that $\l\{u_i\r\}_{i\in I}$ is linearly independent if every finite sequence thereof is.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
