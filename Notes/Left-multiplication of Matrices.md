@@ -9,7 +9,7 @@ Examples: [Rotations in $\R^2$](Rotations%20in%20R2.md), [Reflections in $\R^2$]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Algebraic identities of left-multiplication of matrices]], [[Column space is image of induced linear map]]
+Properties: [[Algebraic identities of left-multiplication of matrices]], [Matrix invertible $\Leftrightarrow$ left-multiplication invertible](Matrix%20invertible%20iff%20left-multiplication%20invertible.md), [[Column space is image of induced linear map]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Left-multiplication of a matrix is a linear map]]

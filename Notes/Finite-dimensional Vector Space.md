@@ -10,7 +10,7 @@ Constructions: [Coordinate representation of $V$ (finite-dim.)](Coordinate%20Rep
 Generalizations: _Not Applicable_
 
 Properties: [$\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$](Dimension%20of%20subspace%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.;%20strict%20iff%20proper).md)
-Sufficiencies: [Invertible linear map $V\to W$ $\Rightarrow$ ($\dim V<\infty\Leftrightarrow\dim W<\infty$ and $\dim V=\dim W$)](Invertible%20linear%20map%20domain%20finite%20dim.%20iff%20codomain%20equal%20finite%20dim..md)
+Sufficiencies: [$V\iso W$ $\Rightarrow$ ($\dim V<\infty\Leftrightarrow\dim W<\infty$)](Isomorphic%20vector%20spaces%20finite-dim.%20iff%20finite-dim..md)
 Equivalences: [$V\iso K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md)
 Justifications: _Not Applicable_
 
