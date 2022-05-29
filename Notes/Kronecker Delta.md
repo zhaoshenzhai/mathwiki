@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Identity Matrix]], [[Standard Basis of Tuple Space]], [[Basis for null space of matrix (explicit)]]
+Constructions: [[Identity Matrix]], [[Standard Basis of Tuple Space]], [[Basis for null space of matrix]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

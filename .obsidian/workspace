@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2c86791347a64e40",
+        "id": "2465001a683effde",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Linear Independence.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "624a10e90958204a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Spanning Set.md",
+            "file": "Notes/Linear Map.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Spanning Set.md",
+                "file": "Notes/Linear Map.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Spanning Set.md",
+                "file": "Notes/Linear Map.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Spanning Set.md",
+                "file": "Notes/Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "624a10e90958204a",
+  "active": "2465001a683effde",
   "lastOpenFiles": [
-    "Notes/Spanning Set.md",
-    "Notes/Linear Independence.md",
-    "Notes/Linear Span.md",
-    "Notes/Linear Subspace.md",
+    "Notes/Linear Map.md",
+    "Notes/Action of linear map repr under basis left-multiplication of matrix representation.md",
     "Notes/Vector Space.md",
+    "Notes/Linear Subspace.md",
+    "Notes/Linear subspace iff closed under linear combination.md",
+    "Notes/Linear Span.md",
     "Notes/Minkowski Sum (Linear Algebra).md",
-    "Notes/Internal Direct Sum (Linear Algebra).md",
-    "Notes/Complement (Linear Subspace).md",
-    "Notes/Subspaces of finite-dim. vector spaces have complements.md",
-    "Notes/Minkowski sum of subspaces is the span of their union.md"
+    "Notes/Null Space.md",
+    "Notes/Homogeneous Linear System.md",
+    "Notes/Finite-dimensional Vector Space.md"
   ]
 }

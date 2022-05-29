@@ -45,11 +45,11 @@ $$\begin{equation}
              0 &  0 &  0 &  0 &  0
         \end{bmatrix}.
 \end{equation}$$
-By Gauss-Jordan Elimination, the tuple $\v{s}\in K^n$ is a solution of $A\v{x}=\v{0}$ iff there exist $t_1,t_4,t_5\in K$ (they are usually re-indexed to $t_1$, $t_2$, and $t_3$) such that
+By Gauss-Jordan Elimination, the tuple $\v{s}\in K^n$ is a solution of $A\v{x}=\v{0}$ iff there exist $t_2,t_4,t_5\in K$ (they are usually re-indexed to $t_1$, $t_2$, and $t_3$) such that
 $$\begin{equation}
     \v{s}=
         \begin{bmatrix}
-            3t_1-2t_4-2t_5 \\
+            3t_2-2t_4-2t_5 \\
             t_2 \\
             -6t_4+t_5 \\
             t_4 \\

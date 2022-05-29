@@ -37,4 +37,4 @@ _Proof_.
 $$\begin{equation}
     \fa\alpha\in K,\fa u_1,u_2\in U:\l(\alpha\odot'u_1\r)\oplus'u_2\in U,
 \end{equation}$$
-or, written in more sensible notation, that $\textrm{`}\alpha u_1+u_2\in U\textrm{'}$. By induction, it follows that $U$ is a linear subspace of $V$ iff all linear combinations of finite sequences in $U$ are in $U$.<span style="float:right;">$\blacklozenge$</span>
+or, written in more sensible notation, that $\textrm{`}\alpha u_1+u_2\in U\textrm{'}$. By induction, it follows that $U$ is a linear subspace of $V$ iff $0_V\in U$ and all linear combinations of finite sequences in $U$ are in $U$.<span style="float:right;">$\blacklozenge$</span>

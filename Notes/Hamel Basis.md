@@ -5,7 +5,7 @@ Date Created: 04/04/2022 23:21:59
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Standard Basis of Tuple Space]], [[Basis for null space of matrix (explicit)]]
+Examples: [[Standard Basis of Tuple Space]], [[Basis for null space of matrix]]
 Constructions: [[Dimension (Linear Algebra)]], [Coordinate representation of $V$ (finite-dim.)](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md), [[Matrix Representation of a Linear Map]]
 Generalizations: _Not Applicable_
 
