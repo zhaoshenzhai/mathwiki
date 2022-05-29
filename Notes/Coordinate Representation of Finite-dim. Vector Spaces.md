@@ -9,7 +9,7 @@ Date Created: 15/05/2022 22:31:09
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Matrix Representation of a Linear Map]]
 Constructions: [$V\iso K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md)
 Generalizations: _Not Applicable_
 
