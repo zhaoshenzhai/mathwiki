@@ -34,7 +34,7 @@ $$\begin{equation}
 \end{equation}$$
 it suffices to find suitable $\dom f$, $\mc{A}$, and $f$ such that $\l[T\circ f\r]_\mc{A}^\mc{C}=\l[T\l(v\r)\r]_\mc{C}$ and $\l[f\r]_\mc{A}^\mc{B}=\l[v\r]_\mc{B}$. Observe that
 $$\begin{equation}
-    \l[T\circ f\r]_\mc{A}^\mc{C},\l[f\r]_\mc{A}^\mc{B}\in\mat{m\times\l|A\r|}{K}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \l[T\l(v\r)\r]_\mc{C},\l[v\r]_\mc{B}\in\mat{m\times1}{K},
+    \l[T\circ f\r]_\mc{A}^\mc{C}\in\mat{m\times\l|\mc{A}\r|}{K}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \l[T\l(v\r)\r]_\mc{C}\in\mat{m\times1}{K},
 \end{equation}$$
 so we need $\l|\mc{A}\r|=1$; set $\mc{A}\coloneqq\l\{\alpha\r\}$ for some $\alpha\in\dom f$. Hence we have $\l[f\r]_\mc{A}^\mc{B}=\l[f\l(\alpha\r)\r]_\mc{B}$, so we need $f\l(\alpha\r)=v$. Indeed, a simple choice of $f$ is
 $$\begin{equation}

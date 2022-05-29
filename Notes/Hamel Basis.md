@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Standard Basis of Tuple Space]], [[Basis for null space of matrix (explicit)]]
-Constructions: [[Dimension (Linear Algebra)]], [[Standard Representation of Finite-dim. Vector Spaces]], [[Matrix Representation of a Linear Map]]
+Constructions: [[Dimension (Linear Algebra)]], [Coordinate representation of $V$ (finite-dim.)](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md), [[Matrix Representation of a Linear Map]]
 Generalizations: _Not Applicable_
 
 Properties: [[Invariance of cardinality of bases (finite-dim.)]], [[Existence of unique linear map via action on basis vectors]]

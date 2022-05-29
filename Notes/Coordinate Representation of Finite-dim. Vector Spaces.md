@@ -1,3 +1,7 @@
+---
+custom_alias: Coordinate representation of $V$ (finite-dim.)
+---
+
 <br />
 <br />
 
@@ -17,7 +21,7 @@ Justifications: [[Unique Representation Theorem (Hamel)]]
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a finite-dimensional vector space over some field $K$, say with $n\coloneqq\dim V$, and fix a choice of basis_ $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}$ _of $V$. The **standard representation of $V$ relative to $\mc{B}$** is the function_
+_Let $V$ be a finite-dimensional vector space over some field $K$, say with $n\coloneqq\dim V$, and fix a choice of basis_ $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}$ _of $V$. The **coordinate representation of $V$ relative to $\mc{B}$** is the function_
 $$\begin{equation}
     \phi_\mc{B}:V\to K^n\ \ \ \ \textrm{\it{mapping}}\ \ \ \ v\mapsto\l[v\r]_\mc{B}\coloneqq\tpl{\alpha_1,\dots,\alpha_n}
 \end{equation}$$

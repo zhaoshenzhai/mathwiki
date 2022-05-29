@@ -40,7 +40,7 @@ for all $x\in X$, so $1\odot f=f$.
 * ($\axivec[3]$): Take $\alpha\in K$ and $f,g\in K^X$, and observe that
 $$\begin{equation}
     \begin{aligned}
-        \l[\alpha\odot\l(f\oplus g\r)\r]\l(x\r)&=\alpha\cdot\l(f\oplus g\r)\l(x\r) && \textrm{Defintion of $\odot$} \\
+        \l[\alpha\odot\l(f\oplus g\r)\r]\l(x\r)&=\alpha\cdot\l(f\oplus g\r)\l(x\r) && \textrm{Definition of $\odot$} \\
         &=\alpha\cdot\l[f\l(x\r)+g\l(x\r)\r] && \textrm{Definition of $\oplus$} \\
         &=\l[\alpha\cdot f\l(x\r)\r]+\l[\alpha\cdot g\l(x\r)\r] && \textrm{Distribution of $+$ over $\cdot$} \\
         &=\l(\alpha\odot f\r)\l(x\r)+\l(\alpha\odot g\r)\l(x\r) && \textrm{Definition of $\odot$} \\
@@ -51,7 +51,7 @@ for all $x\in X$, so $\alpha\odot\l(f\oplus g\r)=\l(\alpha\odot f\r)\oplus\l(\al
 * ($\axivec[4]$): Take $\alpha_1,\alpha_2\in K$ and $f\in K^X$, and observe that
 $$\begin{equation}
     \begin{aligned}
-        \l[\l(\alpha_1+\alpha_2\r)\odot f\r]\l(x\r)&=\l(\alpha_1+\alpha_2\r)\cdot f\l(x\r) && \textrm{Definitio of $\odot$} \\
+        \l[\l(\alpha_1+\alpha_2\r)\odot f\r]\l(x\r)&=\l(\alpha_1+\alpha_2\r)\cdot f\l(x\r) && \textrm{Definition of $\odot$} \\
         &=\l[\alpha_1\cdot f\l(x\r)\r]+\l[\alpha_2\cdot f\l(x\r)\r] && \textrm{Distribution of $+$ over $\cdot$} \\
         &=\l[\l(\alpha_1\odot f\r)\l(x\r)\r]+\l[\l(\alpha_2\odot f\r)\l(x\r)\r] && \textrm{Definition of $\odot$} \\
         &=\l[\l(\alpha_1\odot f\r)\oplus\l(\alpha_2\odot f\r)\r]\l(x\r) && \textrm{Definition of $\oplus$}

@@ -26,8 +26,8 @@ _Proof_.
 
 * ($\Leftarrow$): It suffices to find a basis for $\l\{0\r\}$, but since $\l\{0\r\}$ contains only the zero vector $0$ and any linearly independent set cannot contain $0$, we see that there are no non-empty bases for $\l\{0\r\}$. The only option then is the empty set $\em$, which we observe is trivially linearly independent and has cardinality $\l|\em\r|=0$. To see that $\span\l(\em\r)=\l\{0\r\}$, observe that
 $$\begin{align}
-    \span\l(\em\r)&=\bigcup\l\{U\subseteq\l\{0\r\}\mid\em\subseteq U\land U\textrm{ is a linear subspace of }\l\{0\r\}\r\} && \textrm{Definition of linear span} \\
-    &=\bigcup\l\{U\subseteq\l\{0\r\}\mid U\textrm{ is a linear subspace of }\l\{0\r\}\r\} && \em\subseteq U\textrm{ vacuously} \\
-    &=\bigcup\l\{\l\{0\r\}\r\} && \textrm{The only subspaces of $\l\{0\r\}$ are trivial subspaces} \\
-    &=\l\{0\r\}. && \textrm{Definition of union}\qedin
+    \span\l(\em\r)&=\bigcap\l\{U\subseteq\l\{0\r\}\mid\em\subseteq U\land U\textrm{ is a linear subspace of }\l\{0\r\}\r\} && \textrm{Definition of linear span} \\
+    &=\bigcap\l\{U\subseteq\l\{0\r\}\mid U\textrm{ is a linear subspace of }\l\{0\r\}\r\} && \em\subseteq U\textrm{ vacuously} \\
+    &=\bigcap\l\{\l\{0\r\}\r\} && \textrm{The only subspaces of $\l\{0\r\}$ are trivial subspaces} \\
+    &=\l\{0\r\}. && \textrm{Definition of intersection}\qedin
 \end{align}$$

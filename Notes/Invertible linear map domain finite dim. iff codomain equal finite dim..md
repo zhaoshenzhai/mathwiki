@@ -8,7 +8,7 @@ custom_alias: Invertible linear map $V\to W$ $\Rightarrow$ ($\dim V<\infty\Leftr
 Date Created: 28/05/2022 16:37:33
 Tags: #Proposition #Closed
 
-Proved by: [[Image of linear map is spanned by image of spanning set]], [[Dimension Theorem]], [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md)
+Proved by: [[Image of linear map is spanned by image of spanning set]], [[Inverse of linear map is linear]], [[Dimension Theorem]], [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

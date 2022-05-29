@@ -10,7 +10,7 @@ Constructions: [[Standard Basis of Tuple Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Standard Representation of Finite-dim. Vector Spaces]]
+Sufficiencies: [Coordinate representation of $V$ (finite-dim.)](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md)
 Equivalences: [$V\iso K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md)
 Justifications: [[Function space over a field is a vector space]]
 
@@ -30,12 +30,3 @@ $$\begin{equation}
 \end{equation}$$
 
 ```
-
-**Remark.** Vectors in a tuple space will generally be denoted in boldface (especially if $K=\R$). This is done since we can associate to each vector $\v{x}\in K^n$ an $n\times1$ matrix $\l[x_i\r]$, and conversely associate to each $n\times 1$ matrix $\l[x_i\r]$ a vector $\v{x}\in K^n$; formally, we define an isomorphism
-$$\begin{equation}
-    \begin{aligned}
-        f:K^n&\simto\mat{1\times n}{K} \\
-        \v{x}&\mapsto\l[x_i\r]
-    \end{aligned}
-\end{equation}$$
-where it can easily be verified that it is invertible. As such, no distinction (unless context necessitates it) will be made between the two. We will usually typeset such matrices as the transpose of a row-matrix instead (since columns take up too much vertical space).<span style="float:right;">$\blacklozenge$</span>
