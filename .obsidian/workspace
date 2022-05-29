@@ -7,8 +7,12 @@
         "id": "f3a9311e2947f9c9",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Vector Space.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Vector Space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Vector Space.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Vector Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +184,15 @@
   },
   "active": "f3a9311e2947f9c9",
   "lastOpenFiles": [
+    "Notes/Vector Space.md",
+    "Notes/Unique Representation Theorem (Hamel).md",
+    "Notes/Linear Independence.md",
+    "Notes/Algebraic identities of vector spaces.md",
     "Notes/Left-multiplication of Matrices.md",
     "Notes/Linear map invertible repr under basis matrix representation invertible.md",
     "Notes/Matrix invertible iff left-multiplication invertible.md",
     "Notes/Linear isomorphism between linear maps and matrices.md",
     "Notes/Algebraic identities of left-multiplication of matrices.md",
-    "Notes/Composition of linear maps repr under basis matrix product of representations.md",
-    "Notes/Vector Space of Matrices.md",
-    "Notes/Algebraic identities of matrix operations.md",
-    "Notes/Matrix invertible iff factors invertible.md",
-    "Notes/Criteria for invertibility of linear maps.md"
+    "Notes/Composition of linear maps repr under basis matrix product of representations.md"
   ]
 }

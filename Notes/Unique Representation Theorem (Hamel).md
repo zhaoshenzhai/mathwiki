@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Unique Representation Theorem w.r.t. Hamel basis).
 
-_Let $K$ be a field and consider an indexed subset_ $\mc{B}\coloneqq\l\{b_i\r\}_{i\in I}\!\subseteq V$ _of a vector space $V$ over $K$. Then $\mc{B}$ is a (Hamel) basis of $V$ iff every vector $v\in V$ can be uniquely represented as a linear combination of vectors in $\mc{B}$ with non-zero coefficients; formally, iff_
+_Let $K$ be a field and consider an indexed subset_ $\mc{B}\coloneqq\l\{b_i\r\}_{i\in I}\!\subseteq V$ _of a vector space $V$ over $K$. Then $\mc{B}$ is a (Hamel) basis of $V$ iff every vector $v\in V$ can be uniquely represented as a linear combination of vectors in $\mc{B}$; formally, iff_
 $$\begin{equation}
     \fa v\in V,\ex!\l\{\alpha_i\r\}_{i\in I}\!\subseteq K:v=\sum\limits_{i\in I}\alpha_ib_i.
 \end{equation}$$
@@ -26,11 +26,11 @@ _Proof_.
 $$\begin{equation}
     v=\sum\limits_{i\in I}\alpha_ib_i=\sum\limits_{i\in I}\beta_ib_i
 \end{equation}$$
-for some distinct $\l\{\alpha_i\r\},\l\{\beta_i\r\}\subseteq K$ where $\alpha_i=0$ and $\beta_j=0$ for all but finitely-many $i,j\in I$. Rearranging, we see that
+for some distinct $\l\{\alpha_i\r\},\l\{\beta_i\r\}\subseteq K$ where $\alpha_i=0$ and $\beta_j=0$ for all but finitely-many $i,j\in I$. Let $I'\coloneqq\l\{i\in I\mid\alpha_i=\beta_i=0\r\}$ and observe that $\alpha_i-\beta_i=0-0=0$ for all $i\in I'$; since $\l|I\setminus I'\r|<\infty$, we see that $\alpha_i-\beta_i=0$ for all but finitely-many $i\in I$. Thus we may rearrange the sum into
 $$\begin{equation}
-    0=\sum\limits_{i\in I}\l(\alpha_i-\beta_i\r)b_i.
+    0=\sum\limits_{i\in I}\l(\alpha_i-\beta_i\r)b_i,
 \end{equation}$$
-Let $I'\coloneqq\l\{i\in I\mid\alpha_i=0\land\beta_i=0\r\}$ and observe that $\alpha_i-\beta_i=0-0=0$ for all $i\in I'$; since $\l|I\setminus I'\r|<\infty$, we see that $\alpha_i-\beta_i=0$ for all but finitely-many $i\in I$. Linear independence of $\mc{B}$ then forces $\alpha_i=\beta_i$ for all $i\in I$, so the result follows.
+which, by linear independence of $\mc{B}$, forces $\alpha_i=\beta_i$ for all $i\in I$. The result follows.
 
 * ($\Leftarrow$): Since every $v\in V$ can be written as a linear combination of vectors in $\mc{B}$ (uniquely or not), we see that $v\in\span\mc{B}$ and so $\mc{B}$ is a spanning set of $V$. To prove linear independence, observe that we can write the zero vector as
 $$\begin{equation}
@@ -40,11 +40,11 @@ so if $\sum_{i\in I}\alpha_ib_i=0$ for any $\l\{\alpha_i\r\}\subseteq K$, unique
 
 ---
 
-**Remark.** Expanding the statement out, we see that $\mc{B}$ is a (Hamel) basis of $V$ iff
+**Remark.** We may rephrase the equivalent statement by letting $n\in\N$ be the unique number of basis elements whose coefficients are non-zero (it is finite as $\alpha_i=0$ for all but finitely-many $i\in I$). Thus it may be rewritten as
 $$\begin{equation}
     \fa v\in V,\ex!n\in\N,\ex!\alpha_1,\dots,\alpha_n\in K\setminus\l\{0\r\}:v=\sum_{i=1}^n\alpha_ib_i.
 \end{equation}$$
-An important special case is if $\mc{B}=\tpl{b_1,\dots,b_n}$ for some $n\in\N$; then $\mc{B}$ is a (Hamel) basis of $V$ iff
+Note that the zero vector is uniquely represented by choosing $n=0$, so the sum is trivial. An important special case is if $\mc{B}=\tpl{b_1,\dots,b_n}$ for some $n\in\N$; then $\mc{B}$ is a (Hamel) basis of $V$ iff
 $$\begin{equation}
     \fa v\in V,\ex!\alpha_1,\dots,\alpha_n\in K:v=\sum\limits_{i=1}^n\alpha_ib_i.
 \end{equation}$$
