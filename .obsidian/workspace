@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "55055d32c816b941",
+        "id": "3492e2e7693c3280",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249,
-    "collapsed": true
+    "width": 249
   },
   "right": {
     "id": "6e128061ec5336cc",
@@ -175,17 +174,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "55055d32c816b941",
+  "active": "3492e2e7693c3280",
   "lastOpenFiles": [
+    "Notes/Linear Isomorphism.md",
+    "Notes/Isomorphic Vector Spaces.md",
+    "Notes/Linear isomorphism between finite-dim vector spaces and tuple spaces.md",
+    "Notes/Linearly isomorphic iff dimensions coincide (finite-dim.).md",
+    "Notes/Linear isomorphism between linear maps and matrices.md",
     "Notes/Matrix.md",
     "Notes/Matrix Representation of a Linear Map.md",
     "Notes/Left-invertible Matrix.md",
     "Notes/Linear Map.md",
-    "Notes/Vector Space.md",
-    "Notes/Isomorphic Vector Spaces.md",
-    "Notes/Linearly isomorphic iff dimensions coincide (finite-dim.).md",
-    "Notes/Linear Isomorphism Theorem.md",
-    "Notes/Linear map invertible repr under basis matrix representation invertible.md",
-    "Notes/Isomorphic vector spaces finite-dim. iff finite-dim..md"
+    "Notes/Vector Space.md"
   ]
 }
