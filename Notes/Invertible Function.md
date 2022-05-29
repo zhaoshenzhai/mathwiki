@@ -4,9 +4,9 @@
 Date Created: 26/01/2022 18:48:16
 Tags: #Definition #Closed 
 
-Types: _Not Applicable_
+Types: [[Linear Isomorphism]]
 Examples: [[Identity Function]], [[Elementary row operations have inverses of the same type]]
-Constructions: [[Isomorphism (Set Theory)]]
+Constructions: [[Isomorphic Sets]]
 Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]
 
 Properties: [[Inverse of bijection is a bijection]], [[Inverse of linear map is linear]]

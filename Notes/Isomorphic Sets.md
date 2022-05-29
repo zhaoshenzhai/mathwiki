@@ -4,7 +4,7 @@
 Date Created: 26/02/2022 13:09:53
 Tags: #Definition #Closed 
 
-Types: [[Linear Isomorphism]]
+Types: [[Isomorphic Vector Spaces]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: [[Isomorphism (Category Theory)]]
@@ -17,7 +17,7 @@ Justifications: [[Isomorphism of sets is an equivalence relation]]
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ and $Y$ be sets. If there exists an invertible function $f:X\to Y$, then $X$ is said to be **isomorphic to $Y$ as sets** and $f$ is said to be a **set isomorphism**._
+_Let $X$ and $Y$ be sets. We say $X$ is **isomorphic to $Y$ as sets** if there exists an invertible function $f:X\to Y$, in which case $f$ is said to be a **set isomorphism**._
 
 ```
 

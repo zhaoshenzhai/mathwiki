@@ -5,14 +5,14 @@ Date Created: 01/04/2022 19:04:20
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [$V\iso K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md), [$\hom\l(V,W\r)\iso\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)](Linear%20isomorphism%20between%20linear%20maps%20and%20matrices.md), [[Identity Function]]
-Constructions: _Not Applicable_
+Examples: [[Identity Function]], [Coordinate representation of $V$ (finite-dim.)](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md)
+Constructions: [[Isomorphic Vector Spaces]]
 Generalizations: _Not Applicable_
 
-Properties: [$V\iso W$ $\Rightarrow$ ($\dim V<\infty\Leftrightarrow\dim W<\infty$)](Isomorphic%20vector%20spaces%20finite-dim.%20iff%20finite-dim..md)
+Properties: _Not Applicable_
 Sufficiencies: [[Linear map to a lower dimensional space is not injective]], [[Linear map to a larger dimensional space is not surjective]]
-Equivalences: [[Criteria for invertibility of linear maps]], [$V\iso W$ $\Leftrightarrow$ $\dim V=\dim W$ ($V,W$ finite-dim.)](Linearly%20isomorphic%20iff%20dimensions%20coincide%20(finite-dim.).md)
-Justifications: [[Isomorphism of objects is an equivalence relation]]
+Equivalences: [[Criteria for invertibility of linear maps]]
+Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
