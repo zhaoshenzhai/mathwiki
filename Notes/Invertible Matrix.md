@@ -5,7 +5,7 @@ Date Created: 07/04/2022 07:20:30
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Identity Matrix]], [[Elementary matrices have inverses of the same type]]
+Examples: [[Change of Basis Matrix]], [[Identity Matrix]], [[Elementary matrices have inverses of the same type]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
