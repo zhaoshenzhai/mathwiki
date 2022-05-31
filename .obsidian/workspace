@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e7d1a386b3223881",
+        "id": "f1e57358dc40faed",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear Map.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linear Map.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Linear Map.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -157,7 +151,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.1287890245755467,
+                  "scale": 0.14771861955657653,
                   "close": true
                 }
               }
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "e7d1a386b3223881",
+  "active": "f1e57358dc40faed",
   "lastOpenFiles": [
+    "Notes/Linear Isomorphism Theorem.md",
+    "Notes/Linear Isomorphism.md",
+    "Notes/Linearly isomorphic iff dimensions coincide (finite-dim.).md",
+    "Notes/Isomorphic Vector Spaces.md",
+    "Notes/Linear map to a larger dimensional space is not surjective.md",
+    "Notes/Linear map to a lower dimensional space is not injective.md",
+    "Notes/Linear isomorphism between finite-dim vector spaces and tuple spaces.md",
     "Notes/Linear Map.md",
     "Notes/Linear map fixes zero vector.md",
-    "Notes/Algebraic identities of vector spaces.md",
-    "Notes/Cartesian product is monotone w.r.t. subsets.md",
-    "Notes/Unique Representation Theorem (Hamel).md",
-    "Notes/Homogeneous Linear System.md",
-    "Notes/Left-invertible implies monomorphism.md",
-    "Notes/Internal Direct Sum (Linear Algebra).md",
-    "Notes/Topological Subspace.md",
-    "Notes/Projection Maps (Kuratowski).md"
+    "Notes/Algebraic identities of vector spaces.md"
   ]
 }

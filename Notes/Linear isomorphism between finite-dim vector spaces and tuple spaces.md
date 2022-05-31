@@ -8,7 +8,7 @@ custom_alias: $V\iso K^n$ ($\dim V=n$)
 Date Created: 15/05/2022 22:49:38
 Tags: #Proposition #Closed
 
-Proved by: [[Linear Isomorphism Theorem]], [[Unique Representation Theorem (Hamel)]]
+Proved by: [Linear map $V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective](Linear%20map%20between%20vector%20spaces%20of%20same%20dimension%20is%20injective%20iff%20surjective.md), [[Unique Representation Theorem (Hamel)]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
