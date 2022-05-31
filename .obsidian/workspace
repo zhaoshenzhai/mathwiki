@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b9228347764b24bd",
+        "id": "e7d1a386b3223881",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear Map.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linear Map.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linear Map.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -151,7 +157,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.09632951174592168,
+                  "scale": 0.1287890245755467,
                   "close": true
                 }
               }
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b9228347764b24bd",
+  "active": "e7d1a386b3223881",
   "lastOpenFiles": [
-    "Notes/Matrix Representation of a Linear Map.md",
-    "Notes/Change of Basis Matrix.md",
-    "Notes/Matrix multiplication (columns and rows).md",
-    "Notes/Action of linear map repr under basis left-multiplication of matrix representation.md",
-    "Notes/Hamel Basis.md",
-    "Notes/Composition of linear maps repr under basis matrix product of representations.md",
-    "Notes/Coordinate Representation of Finite-dim. Vector Spaces.md",
-    "Notes/Invertible Matrix.md",
-    "Notes/Criteria for fineness w.r.t. bases.md",
-    "Notes/Steinitz Exchange Lemma.md"
+    "Notes/Linear Map.md",
+    "Notes/Linear map fixes zero vector.md",
+    "Notes/Algebraic identities of vector spaces.md",
+    "Notes/Cartesian product is monotone w.r.t. subsets.md",
+    "Notes/Unique Representation Theorem (Hamel).md",
+    "Notes/Homogeneous Linear System.md",
+    "Notes/Left-invertible implies monomorphism.md",
+    "Notes/Internal Direct Sum (Linear Algebra).md",
+    "Notes/Topological Subspace.md",
+    "Notes/Projection Maps (Kuratowski).md"
   ]
 }

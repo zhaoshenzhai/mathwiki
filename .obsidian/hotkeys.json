@@ -31,14 +31,7 @@
       "key": "J"
     }
   ],
-  "obsidian-admonition:insert-admonition": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "A"
-    }
-  ],
+  "obsidian-admonition:insert-admonition": [],
   "app:open-settings": [
     {
       "modifiers": [
