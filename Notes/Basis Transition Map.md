@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 01/06/2022 15:30:57
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [$\psi_{\mc{B}\to\mc{B}'}\!\l(\l[v\r]_\mc{B}\r)=Q_{\mc{B}\to\mc{B}'}\l[v\r]_\mc{B}$](Basis%20transition%20map%20acts%20as%20left-multiplication%20by%20change%20of%20basis%20matrix.md)
+Equivalences: [$\psi_{\mc{B}\to\mc{B}'}\!\l(\l[v\r]_\mc{B}\r)=\l[v\r]_{\mc{B}'}=Q_{\mc{B}\to\mc{B}'}\l[v\r]_\mc{B}$](Basis%20transition%20map%20acts%20as%20left-multiplication%20by%20change%20of%20basis%20matrix.md)
 Justifications: [[Composition of linear maps is a linear map]], [[Inverse of linear map is linear]]
 
 ``` ad-Definition
