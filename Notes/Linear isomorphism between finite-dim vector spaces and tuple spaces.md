@@ -1,5 +1,5 @@
 ---
-custom_alias: $V\iso K^n$ ($\dim V=n$)
+custom_alias: $\phi_\mc{B}:V\simto K^n$ ($\dim V=n$)
 ---
 
 <br />

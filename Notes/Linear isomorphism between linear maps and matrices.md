@@ -1,5 +1,5 @@
 ---
-custom_alias: $\hom\l(V,W\r)\iso\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)
+custom_alias: $\Phi_\mc{B}^\mc{C}:\hom\l(V,W\r)\simto\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)
 ---
 
 <br />

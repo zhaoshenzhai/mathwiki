@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ be a category and fix ismorphism $f:X\to Y$ and $g:Y\to Z$. Then the composite morphism $g\circ f:X\to Z$ is also an isomorphism._
+_Let $\cat{C}$ be a category and fix ismorphisms $f:X\to Y$ and $g:Y\to Z$. Then the composite morphism $g\circ f:X\to Z$ is also an isomorphism._
 
 ```
 

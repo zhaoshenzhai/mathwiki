@@ -26,18 +26,6 @@
             "source": true
           }
         }
-      },
-      {
-        "id": "8218e6784ed2e59b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Basis transition map acts as left-multiplication by change of basis matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -209,14 +197,14 @@
   "active": "88672bc9553882fa",
   "lastOpenFiles": [
     "Notes/Basis Transition Map.md",
-    "Notes/Change of Basis Matrix.md",
-    "Notes/Basis transition map acts as left-multiplication by change of basis matrix.md",
-    "Notes/Linear Map.md",
     "Notes/Left-multiplication of Matrices.md",
-    "Notes/Inverse of linear map is linear.md",
-    "Notes/Matrix Representation of a Linear Map.md",
-    "Notes/Action of linear map repr under basis left-multiplication of matrix representation.md",
-    "Notes/Coordinate Representation of Finite-dim. Vector Spaces.md",
-    "Notes/Algebraic identities of left-multiplication of matrices.md"
+    "Notes/Isomorphism of objects is an equivalence relation.md",
+    "Notes/Isomorphic Vector Spaces.md",
+    "Notes/Linear isomorphism between linear maps and matrices.md",
+    "Notes/Linear Isomorphism.md",
+    "Notes/Linear isomorphism between finite-dim vector spaces and tuple spaces.md",
+    "Notes/Change of Basis Matrix.md",
+    "Notes/Composition of isomorphims are isomorphisms.md",
+    "Notes/Composition of linear maps is a linear map.md"
   ]
 }
