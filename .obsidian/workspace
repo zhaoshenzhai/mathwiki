@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "566034980d3c730c",
+        "id": "8e12afbabedf71a2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Basis Transition Map.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "1c647fd57edabfb7",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Change of Basis Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "3a480cc2aa72e18f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Change of basis for linear maps.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -64,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "tag:#Later/Linear_Algebra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Change of basis for linear maps.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Change of basis for linear maps.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -193,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Change of basis for linear maps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "3a480cc2aa72e18f",
+  "active": "8e12afbabedf71a2",
   "lastOpenFiles": [
-    "Notes/Change of basis for linear maps.md",
-    "Notes/Action of linear map repr under basis left-multiplication of matrix representation.md",
-    "Notes/Change of Basis Matrix.md",
     "Notes/Basis Transition Map.md",
     "Notes/Basis transition map acts as left-multiplication by change of basis matrix.md",
-    "Notes/Linear isomorphism between finite-dim vector spaces and tuple spaces.md",
-    "Notes/Matrices coincide if their actions on all vectors coincide.md",
     "Notes/Coordinate Representation of Finite-dim. Vector Spaces.md",
-    "Notes/Matrix Representation of a Linear Map.md",
-    "Notes/Linear isomorphism between linear maps and matrices.md"
+    "Notes/Matrix Invertibility Criteria.md",
+    "Notes/Column Rank.md",
+    "Notes/Real Coordinate Space.md",
+    "Notes/Left-multiplication of Matrices.md",
+    "Notes/Rotations in R2.md",
+    "Notes/Reflections in R2.md",
+    "Notes/Linearly isomorphic iff dimensions coincide (finite-dim.).md"
   ]
 }

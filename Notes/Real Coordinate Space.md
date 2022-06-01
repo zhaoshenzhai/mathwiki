@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Dot Product]], [Rotations in $\R^2$](Rotations%20in%20R2.md), [Reflections in $\R^2$](Reflections%20in%20R2.md)
+Constructions: [[Dot Product]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
