@@ -8,7 +8,7 @@ custom_alias: $\psi_{\mc{B}\to\mc{B}'}\!\l(\l[v\r]_\mc{B}\r)=\l[v\r]_{\mc{B}'}=Q
 Date Created: 01/06/2022 15:47:27
 Tags: #Proposition #Closed
 
-Proved by: _Not Applicable_
+Proved by: [$\phi_\mc{B}:V\simto K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md), [Action of linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ left-multiplication of matrix representation](Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
