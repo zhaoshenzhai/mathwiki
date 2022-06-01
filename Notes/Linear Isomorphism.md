@@ -5,7 +5,7 @@ Date Created: 01/04/2022 19:04:20
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [Coordinate representation of $V$ (finite-dim.)](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md), [[Identity Function]]
+Examples: [Coordinate representation of $V$ (finite-dim.)](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md), [[Matrix Representation of a Linear Map]], [[Identity Function]]
 Constructions: [[Isomorphic Vector Spaces]]
 Generalizations: _Not Applicable_
 

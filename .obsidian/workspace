@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d5566a83539cdbda",
+        "id": "0f2f6300ae84da06",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Change of Basis Matrix.md",
+            "file": "Notes/Coordinate Representation of Finite-dim. Vector Spaces.md",
             "mode": "preview",
             "source": true
           }
         }
       },
       {
-        "id": "88672bc9553882fa",
+        "id": "11fbf58d2c36ae8d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Basis Transition Map.md",
+            "file": "Notes/Matrix Representation of a Linear Map.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Basis Transition Map.md",
+                "file": "Notes/Matrix Representation of a Linear Map.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Basis Transition Map.md",
+                "file": "Notes/Matrix Representation of a Linear Map.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Basis Transition Map.md",
+                "file": "Notes/Matrix Representation of a Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "88672bc9553882fa",
+  "active": "11fbf58d2c36ae8d",
   "lastOpenFiles": [
-    "Notes/Basis Transition Map.md",
-    "Notes/Left-multiplication of Matrices.md",
-    "Notes/Isomorphism of objects is an equivalence relation.md",
-    "Notes/Isomorphic Vector Spaces.md",
-    "Notes/Linear isomorphism between linear maps and matrices.md",
+    "Notes/Matrix Representation of a Linear Map.md",
+    "Notes/Matrix.md",
+    "Notes/Linear Map.md",
+    "Notes/Coordinate Representation of Finite-dim. Vector Spaces.md",
+    "Notes/Finite-dimensional Vector Space.md",
+    "Notes/Tuple Space (Linear Algebra).md",
     "Notes/Linear Isomorphism.md",
-    "Notes/Linear isomorphism between finite-dim vector spaces and tuple spaces.md",
+    "Notes/Hamel Basis.md",
     "Notes/Change of Basis Matrix.md",
-    "Notes/Composition of isomorphims are isomorphisms.md",
-    "Notes/Composition of linear maps is a linear map.md"
+    "Notes/Left-multiplication of Matrices.md"
   ]
 }
