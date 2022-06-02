@@ -1,3 +1,7 @@
+---
+custom_alias: Kernel$\slash$Null Space
+---
+
 <br />
 <br />
 
@@ -23,6 +27,6 @@ $$\begin{equation}
 \end{equation}$$
 _of $V$._
 
-```
+_If $V$ and $W$ are both finite-dimensional, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, we define the **null space of a matrix** $A\in\mat{m\times n}{K}$ as the kernel of $L_A$; that is, $\nullsp A\coloneqq\ker L_A$._
 
-**Remark.** If $T:K^n\to K^m$ for some $m,n\in\N^\ast$, we see that there exists a unique matrix $A\in\mat{m\times n}{K}$ such that $T\l(\v{x}\r)=A\v{x}$ for all $\v{x}\in K^n$. Indeed, $\ker T$ reduces to $\nullsp A$.<span style="float:right;">$\blacklozenge$</span>
+```

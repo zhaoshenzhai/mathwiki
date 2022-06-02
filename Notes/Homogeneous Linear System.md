@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Null Space]]
+Constructions: [Kernel$\slash$Null Space](Kernel.md)
 Generalizations: _Not Applicable_
 
 Properties: [Homogeneous $m\times n$ linear system with $n>m$ has non-trivial solutions](Homogeneous%20linear%20system%20with%20more%20unknowns%20than%20equations%20has%20non-trivial%20solutions.md), [[Null space is a linear subspace of tuple space]], [[Solution of linear system in terms of a particular solution]]

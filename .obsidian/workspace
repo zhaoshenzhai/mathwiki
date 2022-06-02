@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6ae47ad4de0ba97e",
+        "id": "3f6f3a7d96f086df",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Kernel.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Kernel.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Kernel.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Kernel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "6ae47ad4de0ba97e",
+  "active": "3f6f3a7d96f086df",
   "lastOpenFiles": [
-    "Notes/Basis transition map acts as left-multiplication by change of basis matrix.md",
-    "Notes/Basis Transition Map slash Change of Basis Matrix.md",
-    "Notes/Linear Map.md",
-    "Notes/Change of basis for linear maps.md",
+    "Notes/Kernel.md",
+    "Notes/Matrix.md",
+    "Notes/Homogeneous Linear System.md",
+    "Notes/Linear Subspace.md",
+    "Notes/Null Space.md",
+    "Notes/Algebraic identities of left-multiplication of matrices.md",
+    "Notes/Basis Transition Map.md",
     "Notes/Hamel Basis.md",
-    "Notes/Coordinate Representation of Finite-dim. Vector Spaces.md",
-    "Notes/Matrix Representation of a Linear Map.md",
-    "Notes/Invertible Matrix.md",
-    "Notes/Right slash left multiplication by basis vector picks out column slash row.md",
-    "Notes/Homogeneous linear system only trivial solution iff columns slash rows of coefficient matrix are linearly independent.md"
+    "Notes/Change of basis for linear maps.md",
+    "Notes/Basis transition map acts as left-multiplication by change of basis matrix.md"
   ]
 }

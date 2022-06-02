@@ -1,5 +1,5 @@
 ---
-alias: auto_aliasing
+custom_alias: Basis Transition Map$\slash$Change of Basis Matrix
 ---
 
 <br />
