@@ -4,7 +4,7 @@
 Date Created: 01/06/2022 17:22:00
 Tags: #Proposition #Closed
 
-Proved by: [$\phi_\mc{B}:V\simto K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md), [Action of linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ left-multiplication of matrix representation](Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md), [$\psi_{\mc{B}\to\mc{B}'}\!\l(\l[v\r]_\mc{B}\r)=\l[v\r]_{\mc{B}'}=Q_{\mc{B}\to\mc{B}'}\l[v\r]_\mc{B}$](Basis%20transition%20map%20acts%20as%20left-multiplication%20by%20change%20of%20basis%20matrix.md)
+Proved by: [$\phi_\mc{B}:V\simto K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md), [Action of linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ left-multiplication of matrix representation](Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md), [$\psi_{\mc{B}\to\mc{B}'}$ is represented under standard basis by $\l[\id_V\r]_\mc{B}^{\mc{B}'}$](Basis%20transition%20map%20acts%20as%20left-multiplication%20by%20change%20of%20basis%20matrix.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -40,7 +40,7 @@ $$\begin{equation}
         &=\l(\phi_{\mc{C}'}\circ\phi_\mc{C}^{-1}\circ L_A\circ\phi_{\mc{B}}\circ\phi_{\mc{B}'}^{-1}\r)\l(\v{v}\r). && \textrm{Definition of basis transition maps}
     \end{aligned}
 \end{equation}$$
-Thus the outer look commutes; the fact that the inner ones commute too are proven. This shows us how to compute $L_{A'}$ in terms of (a perhaps simpler) $L_A$.<span style="float:right;">$\blacklozenge$</span>
+Thus the outer loop commutes; the fact that the inner ones commute too are proven. This shows us how to compute $L_{A'}$ in terms of (a perhaps simpler) $L_A$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
