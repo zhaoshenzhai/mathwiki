@@ -5,7 +5,7 @@ Date Created: 16/05/2022 18:16:35
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [Basis Transition Map$\slash$Change of Basis Matrix](Basis%20Transition%20Map.md), [$\l[\id_V\r]_\mc{B}=I_n$ ($\dim V=n$)](Identity%20function%20on%20a%20vector%20space%20is%20represented%20by%20the%20identity%20matrix.md)
+Examples: [Basis Transition Map$\slash$Matrix](Basis%20Transition%20Map.md), [$\l[\id_V\r]_\mc{B}=I_n$ ($\dim V=n$)](Identity%20function%20on%20a%20vector%20space%20is%20represented%20by%20the%20identity%20matrix.md)
 Constructions: [$\Phi_\mc{B}^\mc{C}:\hom\l(V,W\r)\simto\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)](Linear%20isomorphism%20between%20linear%20maps%20and%20matrices.md)
 Generalizations: _Not Applicable_
 

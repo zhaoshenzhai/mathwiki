@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "5225d3cb3c17a867",
+        "id": "f87db50cd2b1956b",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "5225d3cb3c17a867",
+  "active": "f87db50cd2b1956b",
   "lastOpenFiles": [
-    "Notes/Infimum and Supremum.md",
-    "Notes/Poset.md",
-    "Notes/Lattice of Topologies.md",
-    "Notes/Criteria for fineness w.r.t. bases.md",
-    "Notes/Complete Lattice.md",
-    "Notes/Lattice of Subsets.md",
-    "Notes/Lattice of subsets is a complete lattice.md",
-    "Notes/Lattice.md",
-    "Notes/Meet and Join-semilattices.md",
-    "Notes/Bounded Poset.md"
+    "Notes/Linear subspace iff closed under linear combination.md",
+    "Notes/Kernel.md",
+    "Notes/Kernel of linear map is a subspace of its domain.md",
+    "Notes/Homogeneous Linear System.md",
+    "Notes/Null space is a linear subspace of tuple space.md",
+    "Notes/Linear Isomorphism.md",
+    "Notes/Basis Transition Map.md",
+    "Notes/Matrix Representation of a Linear Map.md",
+    "Notes/Coordinate Representation of Finite-dim. Vector Spaces.md",
+    "Notes/Linear Map.md"
   ]
 }
