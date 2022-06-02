@@ -1,3 +1,7 @@
+---
+custom_alias: Least$\slash$greatest elements are unique
+---
+
 <br />
 <br />
 

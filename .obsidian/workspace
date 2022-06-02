@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3f6f3a7d96f086df",
+        "id": "5225d3cb3c17a867",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Kernel.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Kernel.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Kernel.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Kernel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "3f6f3a7d96f086df",
+  "active": "5225d3cb3c17a867",
   "lastOpenFiles": [
-    "Notes/Kernel.md",
-    "Notes/Matrix.md",
-    "Notes/Homogeneous Linear System.md",
-    "Notes/Linear Subspace.md",
-    "Notes/Null Space.md",
-    "Notes/Algebraic identities of left-multiplication of matrices.md",
-    "Notes/Basis Transition Map.md",
-    "Notes/Hamel Basis.md",
-    "Notes/Change of basis for linear maps.md",
-    "Notes/Basis transition map acts as left-multiplication by change of basis matrix.md"
+    "Notes/Infimum and Supremum.md",
+    "Notes/Poset.md",
+    "Notes/Lattice of Topologies.md",
+    "Notes/Criteria for fineness w.r.t. bases.md",
+    "Notes/Complete Lattice.md",
+    "Notes/Lattice of Subsets.md",
+    "Notes/Lattice of subsets is a complete lattice.md",
+    "Notes/Lattice.md",
+    "Notes/Meet and Join-semilattices.md",
+    "Notes/Bounded Poset.md"
   ]
 }

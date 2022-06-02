@@ -1,3 +1,7 @@
+---
+custom_alias: Supremum$\slash$infimum are unique
+---
+
 <br />
 <br />
 
