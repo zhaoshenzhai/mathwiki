@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Tuple Space (Linear Algebra)]], [$\mat{m\times n}{K}$ (Vector Space)](Vector%20Space%20of%20Matrices.md), [[Zero Vector Space]]
-Constructions: [Coordinate representation of $V$ (finite-dim.)](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md)
+Constructions: [Coordinate representation of $V$](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 
 Properties: [$\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$](Dimension%20of%20subspace%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.;%20strict%20iff%20proper).md)

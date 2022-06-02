@@ -8,7 +8,7 @@ custom_alias: Right$\slash$left multiplication by basis vector picks out column$
 Date Created: 23/05/2022 17:27:20
 Tags: #Proposition #Closed
 
-Proved by: [[Algebraic identities of matrix operations]], [Matrix multiplication (columns$\slash$rows)](Matrix%20multiplication%20(columns%20and%20rows).md)
+Proved by: [[Algebraic identities of matrix operations]], [Matrix multiplication (columns$\slash$rows)](Matrix%20multiplication%20(columns%20slash%20rows).md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

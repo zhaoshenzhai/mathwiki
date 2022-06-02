@@ -5,7 +5,7 @@ Date Created: 01/04/2022 22:31:49
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Basis Transition Map]]
+Examples: [Basis Transition Map$\slash$Change of Basis Matrix](Basis%20Transition%20Map%20slash%20Change%20of%20Basis%20Matrix.md)
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

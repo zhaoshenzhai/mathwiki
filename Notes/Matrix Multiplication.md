@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Algebraic identities of matrix operations]]
 Sufficiencies: _Not Applicable_
-Equivalences: [Composition of linear maps $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ matrix product of representations](Composition%20of%20linear%20maps%20repr%20under%20basis%20matrix%20product%20of%20representations.md), [Matrix multiplication (columns$\slash$rows)](Matrix%20multiplication%20(columns%20and%20rows).md)
+Equivalences: [Composition of linear maps $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ matrix product of representations](Composition%20of%20linear%20maps%20repr%20under%20basis%20matrix%20product%20of%20representations.md), [Matrix multiplication (columns$\slash$rows)](Matrix%20multiplication%20(columns%20slash%20rows).md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition

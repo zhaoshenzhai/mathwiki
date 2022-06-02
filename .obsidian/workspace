@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8e12afbabedf71a2",
+        "id": "6ae47ad4de0ba97e",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "e209e1e82c7c4590",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "8e12afbabedf71a2",
+  "active": "6ae47ad4de0ba97e",
   "lastOpenFiles": [
-    "Notes/Basis Transition Map.md",
     "Notes/Basis transition map acts as left-multiplication by change of basis matrix.md",
+    "Notes/Basis Transition Map slash Change of Basis Matrix.md",
+    "Notes/Linear Map.md",
+    "Notes/Change of basis for linear maps.md",
+    "Notes/Hamel Basis.md",
     "Notes/Coordinate Representation of Finite-dim. Vector Spaces.md",
-    "Notes/Matrix Invertibility Criteria.md",
-    "Notes/Column Rank.md",
-    "Notes/Real Coordinate Space.md",
-    "Notes/Left-multiplication of Matrices.md",
-    "Notes/Rotations in R2.md",
-    "Notes/Reflections in R2.md",
-    "Notes/Linearly isomorphic iff dimensions coincide (finite-dim.).md"
+    "Notes/Matrix Representation of a Linear Map.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Right slash left multiplication by basis vector picks out column slash row.md",
+    "Notes/Homogeneous linear system only trivial solution iff columns slash rows of coefficient matrix are linearly independent.md"
   ]
 }

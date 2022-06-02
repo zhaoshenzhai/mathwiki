@@ -17,6 +17,7 @@ Math()
     local r=$(echo "$r" | sed -E 's/\biff\b/\$\\Leftrightarrow\$/g')                          # Equivalence
     local r=$(echo "$r" | sed -E 's/\bON\b/\$\\textrm\{ON\}\$/g')                             # Class of ordinals
     local r=$(echo "$r" | sed -E 's/\bK\b/\$K\$/g')                                           # K topology
+    local r=$(echo "$r" | sed -E 's/\ slash\ /\$\\slash\$/g')                                 # Slash
     local r=$(echo "$r" | sed -E 's/\bCategory\sof\sSets\b/\$\\catset\$/gI')                  # Category of Sets
     local r=$(echo "$r" | sed -E 's/\bCategory\sof\sRelations\b/\$\\catrel\$/gI')             # Category of Relations
     local r=$(echo "$r" | sed -E 's/\bCategory\sof\sVector\sSpaces\b/\$\\catvect[K]\$/gI')    # Category of Vector Spaces over K

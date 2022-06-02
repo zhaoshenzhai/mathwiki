@@ -1,7 +1,6 @@
 ---
-custom_alias: Matrix multiplication (columns$\slash$rows)
+alias: auto_aliasing
 ---
-
 
 <br />
 <br />
