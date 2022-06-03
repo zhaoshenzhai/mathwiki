@@ -9,7 +9,7 @@ Examples: [$\bigcup\em=\em$](Union%20of%20empty%20set%20is%20empty.md)
 Constructions: [[Set of Unions and Intersections]], [[Successor]]
 Generalizations: _Not Applicable_
 
-Properties: [[Union of unions is a union]], [[De Morgan's Laws]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Union of subsets is a subset of union]], [[Union of set of subsets is a subset]], [[Union distributes over binary intersection]]
+Properties: [Algebraic identities of $\bigcup$, $\bigcap$, and $\pow$](Algebraic%20identities%20of%20unions,%20intersections,%20and%20power%20sets.md), [[De Morgan's Laws]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [$\axiunion$](Axiom%20of%20Union.md)

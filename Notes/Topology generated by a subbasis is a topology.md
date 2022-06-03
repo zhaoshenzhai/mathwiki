@@ -4,7 +4,7 @@
 Date Created: 24/01/2022 21:00:06
 Tags: #Proposition #Closed 
 
-Proved by: [[Intersection of intersections is an intersection]], [[Interection of finite sets is finite]]
+Proved by: [Algebraic identities of $\bigcup$, $\bigcap$, and $\pow$](Algebraic%20identities%20of%20unions,%20intersections,%20and%20power%20sets.md), [[Union of finite sets is finite]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -23,8 +23,9 @@ _is a topology on $X$._
 
 _Proof_. It suffices to show that $\mc{B}$ is, in fact, a basis for a topology on $X$.
 * ($\axibasis[1]$): Take $x\in X$ so, because $\mc{S}$ covers $X$, there exists $S\in\mc{S}$ such that $x\in S$. Set $\mc{R}\coloneqq\l\{S\r\}$, so there exists $B\in\mc{B}$ such that $B=\bigcap\l\{S\r\}=S$. Thus $X\subseteq\bigcup\mc{B}$, so $\mc{B}$ covers $X$.
+
 * ($\axibasis[2]$): Now let $B_1=\bigcap\mc{R}_1$ and $B_2=\bigcap\mc{R}_2$. Take
 $$\begin{equation}
-    x\in\bigcap\mc{R}_1\cap\bigcap\mc{R}_2=\bigcap\l(\mc{R}_1\cap\mc{R}_2\r)
+    x\in\bigcap\mc{R}_1\cap\bigcap\mc{R}_2=\bigcap\l(\mc{R}_1\cup\mc{R}_2\r),
 \end{equation}$$
-and observe that $\mc{R}_1\cap\mc{R}_2\neq\em$ for such an element to exist. Furthermore, the intersection of finite sets is finite, so set $B_3\coloneqq\bigcap\l(\mc{R}_1\cap\mc{R}_2\r)\in\mc{B}$.<span style="float:right;">$\blacksquare$</span>
+and since the union of finite sets is finite, set $B_3\coloneqq\bigcap\l(\mc{R}_1\cup\mc{R}_2\r)\in\mc{B}$.<span style="float:right;">$\blacksquare$</span>

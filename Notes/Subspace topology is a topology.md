@@ -4,7 +4,7 @@
 Date Created: 11/02/2022 12:36:49
 Tags: #Proposition #Closed 
 
-Proved by: [[Union distributes over binary intersection]], [[Intersection of intersections is an intersection]]
+Proved by: [Algebraic identities of $\bigcup$, $\bigcap$, and $\pow$](Algebraic%20identities%20of%20unions,%20intersections,%20and%20power%20sets.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

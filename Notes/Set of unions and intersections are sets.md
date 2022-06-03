@@ -4,7 +4,7 @@
 Date Created: 15/01/2022 17:21:16
 Tags: #Proposition #Closed
 
-Proved by: [$\axispec$](Axiom%20Schema%20of%20Specification.md), [[Set-builder notation is unique]], [[Element of set is a subset of its union]], [[Union with another set is monotone w.r.t. subsets]], [[Intersection with another set is monotone w.r.t. subsets]]
+Proved by: [$\axispec$](Axiom%20Schema%20of%20Specification.md), [[Set-builder notation is unique]], [Algebraic identities of $\bigcup$, $\bigcap$, and $\pow$](Algebraic%20identities%20of%20unions,%20intersections,%20and%20power%20sets.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

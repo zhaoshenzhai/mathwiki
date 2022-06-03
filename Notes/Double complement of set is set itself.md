@@ -4,7 +4,7 @@
 Date Created: 19/02/2022 17:12:33
 Tags: #Proposition #Closed 
 
-Proved by: [[Distribution of conjunction over disjunction]]
+Proved by: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

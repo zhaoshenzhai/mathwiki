@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Pair Set]], [[Union]], [[Intersection]], [[Power Set]], [[Relative Complement]], [[Domain and Range]], [[Replacement Image]], [[Cartesian Product (Kuratowski)]]
+Constructions: [[Pair Set]], [[Union]], [[Intersection]], [[Power Set]], [[Replacement Image]], [[Cartesian Product (Kuratowski)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
