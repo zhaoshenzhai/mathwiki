@@ -12,12 +12,12 @@ Generalizations: _Not Applicable_
 Properties: [$\bigcup\em=\em$](Union%20of%20empty%20set%20is%20empty.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Empty set exists]], [[Empty set is unique]]
+Justifications: [[Empty set exists and is unique]]
 
 ``` ad-Definition
 title: Definition.
 
-_A set $u$ is an **empty set** if $\operatorname{emp}\l(u\r)$._
+_A set $u$ is an **empty set** if $\fa z\l(z\not\in u\r)$._
 
 ```
 

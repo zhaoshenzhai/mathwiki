@@ -8,7 +8,7 @@ custom_alias: $\bigcup\em=\em$
 Date Created: 15/01/2022 18:20:59
 Tags: #Proposition #Closed
 
-Proved by: [[Empty set is unique]]
+Proved by: [[Empty set exists and is unique]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
