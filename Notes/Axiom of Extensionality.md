@@ -1,3 +1,7 @@
+---
+custom_alias: $\axiext$
+---
+
 <br />
 <br />
 
@@ -5,14 +9,14 @@ Date Created: 16/01/2022 10:57:06
 Tags: #Axiom #Later/Set_Theory
 
 Equivalences: _Not Applicable_
-Constructions: [[Zermelo-Fraenkel Set Theory with Choice]]
+Constructions: _Not Applicable_
 
 ``` ad-Axiom
 title: Axiom (Extensionality).
 
 _Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Extensionality** is the $\mc{L}$-formula_
 $$\begin{equation}
-    \fa x\fa y\l[\fa u\l(u\in x\Leftrightarrow u\in y\r)\Rightarrow x=y\r].
+    \axiext\,\colon\!\Leftrightarrow\fa x\fa y\l[\fa u\l(u\in x\Leftrightarrow u\in y\r)\Rightarrow x=y\r].
 \end{equation}$$
 
 ```

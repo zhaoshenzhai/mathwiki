@@ -4,7 +4,7 @@
 Date Created: 20/01/2022 07:45:41
 Tags: #Proposition #Closed 
 
-Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]]
+Proved by: [$\axispec$](Axiom%20Schema%20of%20Specification.md), [[Set-builder notation is unique]]
 Justifications: _Not Applicable_
 
 Generalizations: [[Domain and range of relation are sets (General)]]

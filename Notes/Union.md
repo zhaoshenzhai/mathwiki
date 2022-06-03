@@ -12,12 +12,12 @@ Generalizations: _Not Applicable_
 Properties: [[Union of unions is a union]], [[De Morgan's Laws]], [[Union is monotone w.r.t. subsets]], [[Union with another set is monotone w.r.t. subsets]], [[Element of set is a subset of its union]], [[Union of subsets is a subset of union]], [[Union of set of subsets is a subset]], [[Union distributes over binary intersection]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [$\axiunion$](Axiom%20of%20Union.md)
 
 ``` ad-Definition
 title: Definition.
 
-_Let $u$ be a set and let $z$ be any set asserted by the Axiom of Union. The **union of $u$** is the set_
+_Let $u$ be a set and let $z$ be any set asserted by $\axiunion$. The **union of $u$** is the set_
 $$\begin{equation}
     \bigcup u\coloneqq\l\{x\in z\mid\ex v\l(x\in v\land v\in u\r)\r\}.
 \end{equation}$$

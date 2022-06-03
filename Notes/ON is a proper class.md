@@ -15,7 +15,7 @@ Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
-title: Proposition.(Burali-Forti Paradox).
+title: Proposition (Burali-Forti Paradox).
 
 _The collection of all ordinals $\ord$ is a proper class._
 

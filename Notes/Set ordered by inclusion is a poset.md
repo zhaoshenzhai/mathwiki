@@ -4,7 +4,7 @@
 Date Created: 26/01/2022 12:09:33
 Tags: #Proposition #Closed 
 
-Proved by: [[Subset relation is transitive]], [[Axiom of Extensionality]]
+Proved by: [[Subset relation is transitive]], [$\axiext$](Axiom%20of%20Extensionality.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -21,4 +21,4 @@ _Proof_. Observe that the subset relation is transitive, and it is trivial to se
 $$\begin{equation}
     \fa y\l(y\in x_1\Leftrightarrow y\in x_2\r)
 \end{equation}$$
-and thus $x_1=x_2$ by Extensionality.<span style="float:right;">$\blacksquare$</span>
+and thus $x_1=x_2$ by $\axiext$.<span style="float:right;">$\blacksquare$</span>

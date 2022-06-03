@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "08ce0fffd7f07017",
+        "id": "43b1d67243ed50e8",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "08ce0fffd7f07017",
+  "active": "43b1d67243ed50e8",
   "lastOpenFiles": [
-    "Notes/Union of empty set is empty.md",
-    "Notes/Intersection.md",
-    "Notes/Empty set is unique.md",
-    "Notes/Empty Set.md",
-    "Notes/Empty set exists.md",
+    "Notes/ON is a proper class.md",
+    "Notes/Class of Ordinals.md",
+    "Notes/Ordinal (von Neumann).md",
+    "Notes/Universal set is a proper class.md",
+    "Notes/Axiom Schema of Specification.md",
+    "Notes/Replacement image of a set is a set.md",
+    "Notes/Inverse of a relation is a relation.md",
     "Notes/Empty set exists and is unique.md",
-    "Notes/Set-Builder Notation.md",
-    "Notes/Set-builder notation is unique.md",
-    "Notes/Axiom of Infinity.md",
-    "Notes/Empty (Formula).md"
+    "Notes/Composition of relations is a relation.md",
+    "Notes/Set-builder notation is unique.md"
   ]
 }

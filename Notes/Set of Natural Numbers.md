@@ -10,9 +10,9 @@ Constructions: [[Tuples and Sequences]]
 Generalizations: _Not Applicable_
 
 Properties: [[Set of natural numbers is the least limit ordinal]]
-Sufficiencies: [[Principle of Ordinary Induction]]
+Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [$\axiinfty$](Axiom%20of%20Infinity.md), [[Principle of Ordinary Induction]]
 
 ``` ad-Definition
 title: Definition.

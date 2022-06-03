@@ -4,7 +4,7 @@
 Date Created: 15/01/2022 14:02:37
 Tags: #Proposition #Closed 
  
-Proved by: [[Axiom of Extensionality]]
+Proved by: [$\axiext$](Axiom%20of%20Extensionality.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -17,7 +17,7 @@ _Let $u$, $v$, $x$, and $y$ be sets. Then $\tpl{u,v}=\tpl{x,y}$ iff $u=x$ and $v
 
 ```
 
-_Proof_. If $u=x$ and $v=y$, then, by the Axiom of Extensionality, we have $\l\{\l\{u\r\},\l\{u,v\r\}\r\}=\l\{\l\{x\r\},\l\{x,y\r\}\r\}$ and thus $\tpl{u,v}=\tpl{x,y}$. Conversely, suppose that $\tpl{u,v}=\tpl{x,y}$, so $\l\{\l\{u\r\},\l\{u,v\r\}\r\}=\l\{\l\{x\r\},\l\{x,y\r\}\r\}$. There are two cases; either $u=v$ or $u\neq v$:
+_Proof_. If $u=x$ and $v=y$, then, by $\axiext$, we have $\l\{\l\{u\r\},\l\{u,v\r\}\r\}=\l\{\l\{x\r\},\l\{x,y\r\}\r\}$ and thus $\tpl{u,v}=\tpl{x,y}$. Conversely, suppose that $\tpl{u,v}=\tpl{x,y}$, so $\l\{\l\{u\r\},\l\{u,v\r\}\r\}=\l\{\l\{x\r\},\l\{x,y\r\}\r\}$. There are two cases; either $u=v$ or $u\neq v$:
 * If $u=v$, then
 $$\begin{equation}
     \l\{\l\{u\r\},\l\{u,v\r\}\r\}=\l\{\l\{u\r\},\l\{u,u\r\}\r\}=\l\{\l\{u\r\},\l\{u\r\}\r\}=\l\{\l\{u\r\}\r\},

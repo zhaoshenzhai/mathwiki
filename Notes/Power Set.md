@@ -12,12 +12,12 @@ Generalizations: _Not Applicable_
 Properties: [[Power set is monotone w.r.t. subsets]], [[Power set distributes over intersection]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [$\axipow$](Axiom%20of%20Power%20Set.md)
 
 ``` ad-Definition
 title: Definition.
 
-_Let $u$ be a set and let $z$ be any set asserted by the Axiom of Power Set. The **power set of $u$** is the set_
+_Let $u$ be a set and let $z$ be any set asserted by $\axipow$. The **power set of $u$** is the set_
 $$\begin{equation}
     \pow u\coloneqq\l\{x\in z\mid x\subseteq u\r\}.
 \end{equation}$$

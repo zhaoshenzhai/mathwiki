@@ -22,7 +22,7 @@ _Proof_. We shall first construct the set $R^{-1}$ with the prescribed propertie
 $$\begin{equation}
     \fa R\l[R\textrm{ is a binary relation }\Rightarrow\ex!z\l(w\in z\Leftrightarrow\ex x\ex y\l(xRy\land w=\tpl{y,x}\r)\r)\r].
 \end{equation}$$
-Indeed, if $\ex x\ex y\l(xRy\land w=\tpl{y,x}\r)$, we have that $\tpl{x,y}\in\dom R\times\ran R$ and thus $w=\tpl{y,x}\in\ran R\times\dom R$. Specification then justifies the construction
+Indeed, if $\ex x\ex y\l(xRy\land w=\tpl{y,x}\r)$, we have that $\tpl{x,y}\in\dom R\times\ran R$ and thus $w=\tpl{y,x}\in\ran R\times\dom R$. $\axispec$ then justifies the construction
 $$\begin{equation}
     R^{-1}\coloneqq\l\{\tpl{y,x}\mid xRy\r\}\coloneqq\l\{w\in\ran R\times\dom R\mid\ex x\ex y\l(xRy\land w=\tpl{y,x}\r)\r\}.
 \end{equation}$$

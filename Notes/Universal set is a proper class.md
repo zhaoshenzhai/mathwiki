@@ -4,20 +4,20 @@
 Date Created: 14/01/2022 15:01:47
 Tags: #Proposition #Later/Set_Theory
  
-Proved by: [[Axiom Schema of Specification]]
+Proved by: [$\axispec$](Axiom%20Schema%20of%20Specification.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
-title: Proposition.(Russel's Paradox).
+title: Proposition (Russel's Paradox).
 
 _The collection of all sets is a proper class. Formally, $\fa v\ex u\l(u\not\in v\r)$._
 
 ```
 
-_Proof._ Suppose, for contradiction, that such a set $v$ exists, i.e., $\ex v\fa u\l(u\in v\r)$. By the Axiom Schema of Specification with the formula $\phi$ being $x\not\in x$, we have
+_Proof._ Suppose, for contradiction, that such a set $v$ exists, i.e., $\ex v\fa u\l(u\in v\r)$. By $\axispec$ with the formula $\phi$ being $x\not\in x$, we have
 $$\begin{equation}
     \ex z\fa x\l[x\in z\Leftrightarrow\l(x\in v\land x\not\in x\r)\r].
 \end{equation}$$

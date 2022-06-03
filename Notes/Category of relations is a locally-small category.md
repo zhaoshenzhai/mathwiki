@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 25/02/2022 13:16:20
 Tags: #Proposition #Closed 
 
-Proved by: [$\catset$ is a locally-small category](Category%20of%20sets%20is%20a%20locally-small%20category.md)
+Proved by: [$\catset$ is a locally-small category](Category%20of%20sets%20is%20a%20locally-small%20category.md), [$\axispec$](Axiom%20Schema%20of%20Specification.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -25,7 +25,7 @@ _Proof_.  It suffices to check that the identities and composite morphisms are w
 $$\begin{equation}
     \hom\l(\tpl{X,\rho},\tpl{Y,\sigma}\r)\subseteq Y^X
 \end{equation}$$
-and is thus a set by Specification.
+and is thus a set by $\axispec$.
 * Take $\tpl{X,\rho}\in\obj\l(\catrel\r)$ and $x_1,x_2\in X$. If $\tpl{x_1,x_2}\in\rho$, observe that
 $$\begin{equation}
     \tpl{\id_{\tpl{X,\rho}}\l(x_1\r),\id_{\tpl{X,\rho}}\l(x_2\r)}=\tpl{\id_X\l(x_1\r),\id_X\l(x_2\r)}=\tpl{x_1,x_2}\in\rho

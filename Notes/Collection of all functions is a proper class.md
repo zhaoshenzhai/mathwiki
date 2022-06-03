@@ -4,7 +4,7 @@
 Date Created: 28/01/2022 17:27:04
 Tags: #Proposition #Closed 
 
-Proved by: [[Collection of all singletons is a proper class]]
+Proved by: [[Collection of all singletons is a proper class]], [$\axispec$](Axiom%20Schema%20of%20Specification.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -17,7 +17,7 @@ _The collection of all functions form a proper class. Formally, $\fa v,\ex f:f\t
 
 ```
 
-_Proof_. Suppose, for sake of contradiction, that such a set $v$ exists, i.e. $\ex v,\fa\textrm{ functions }f:f\in v$. By Specification, we have
+_Proof_. Suppose, for sake of contradiction, that such a set $v$ exists, i.e. $\ex v,\fa f:\l(f\textrm{ is a function }\Rightarrow f\in v\r)$. By $\axispec$, we have
 $$\begin{equation}
     \fa z\fa f\l[f\in z\Leftrightarrow f\in v\land\ex x:f=\l\{\tpl{x,x}\r\}\r].
 \end{equation}$$

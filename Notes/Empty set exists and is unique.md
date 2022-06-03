@@ -4,7 +4,7 @@
 Date Created: 03/06/2022 12:36:03
 Tags: #Proposition #Closed
 
-Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]]
+Proved by: [$\axispec$](Axiom%20Schema%20of%20Specification.md), [$\axiext$](Axiom%20of%20Extensionality.md)
 Justifications: _Not Applicable_
 
 Generalizations: [[Set-builder notation is unique]]
@@ -18,13 +18,13 @@ _The empty set exists and is unique. Formally, $\ex!e\l[\fa z\l(z\not\in e\r)\r]
 ```
 
 _Proof_.
-* (Existence): Let $\xi$ be a set. Using the Axiom Schema of Specification with the formula $\phi$ being $z\neq z$, we have
+* (Existence): Let $\xi$ be a set. Using $\axispec$ with the formula $\phi$ being $z\neq z$, we have
 $$\begin{equation}
     \ex e\l[\fa z\l(z\in e\r)\Leftrightarrow z\in\xi\land z\neq z\r].
 \end{equation}$$
 Now $z\neq z$ is always false, and so is $z\in\xi\land z\neq z$. Hence, by the definition of the biconditional, we see that $z\in e$ is always false. Therefore, we have $\ex e\l[\fa z\l(z\not\in e\r)\r]$.
 
-* (Uniqueness): Suppose that both $e$ and $e'$ are empty sets, so $\fa z\l(z\not\in e\r)\land\fa z\l(z\not\in e'\r)$. Thus $z\in e$ and $z\in e'$ are both false for all sets $z$, so, by the definition of the biconditional, we see that $z\in e\Leftrightarrow z\in e'$ for all sets $z$. The result follows from them Axiom of Extensionality.<span style="float:right;">$\blacksquare$</span>
+* (Uniqueness): Suppose that both $e$ and $e'$ are empty sets, so $\fa z\l(z\not\in e\r)\land\fa z\l(z\not\in e'\r)$. Thus $z\in e$ and $z\in e'$ are both false for all sets $z$, so, by the definition of the biconditional, we see that $z\in e\Leftrightarrow z\in e'$ for all sets $z$. The result follows from $\axiext$.<span style="float:right;">$\blacksquare$</span>
 
 ---
 

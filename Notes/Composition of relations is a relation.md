@@ -22,7 +22,7 @@ _Proof_. We shall first construct the set $S\circ R$ with the prescribed propert
 $$\begin{equation}
     \fa R,\fa S\l[S\textrm{ and }R\textrm{ are binary relations }\Rightarrow\ex!v\l(w\in v\Leftrightarrow\ex x\ex y\ex z\l(xRy\land ySz\land w=\tpl{x,z}\r)\r)\r].
 \end{equation}$$
-Indeed, if $\ex x\ex y\ex z\l(xRy\land ySz\land w=\tpl{x,z}\r)$, we have that $\tpl{x,y}\in\dom R\times\ran R$ and $\tpl{y,z}\in\dom S\times\ran S$. It follows that $x\in\dom R$ and $z\in\ran S$ and thus $w=\tpl{x,z}\in\dom R\times\ran S$. Specification then justifies the construction
+Indeed, if $\ex x\ex y\ex z\l(xRy\land ySz\land w=\tpl{x,z}\r)$, we have that $\tpl{x,y}\in\dom R\times\ran R$ and $\tpl{y,z}\in\dom S\times\ran S$. It follows that $x\in\dom R$ and $z\in\ran S$ and thus $w=\tpl{x,z}\in\dom R\times\ran S$. $\axispec$ then justifies the construction
 $$\begin{equation}
     S\circ R\coloneqq\l\{\tpl{x,z}\mid\ex y\l(xRy\land ySz\r)\r\}\coloneqq\l\{w\in\dom R\times\ran S\mid\ex x\ex y\ex z\l(xRy\land ySz\land w=\tpl{x,z}\r)\r\}.
 \end{equation}$$

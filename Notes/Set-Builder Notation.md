@@ -17,7 +17,7 @@ Justifications: [[Set-builder notation is unique]]
 ``` ad-Definition
 title: Definition.
 
-_Let $z$ be the set asserted by the Axiom Schema of Specification; that is, let $z$ be a set such that there exists a set $v$ and a formula $\phi\l(x\r)$, not free in $z$, such that $\fa x\l[x\in z\Leftrightarrow\l(x\in v\land\phi\l(x\r)\r)\r]$. Then the set $z$ can be written in **set-builder notation** as_
+_Let $z$ be the set asserted by $\axispec$; that is, let $z$ be a set such that there exists a set $v$ and a formula $\phi\l(x\r)$, not free in $z$, such that $\fa x\l[x\in z\Leftrightarrow\l(x\in v\land\phi\l(x\r)\r)\r]$. Then the set $z$ can be written in **set-builder notation** as_
 $$\begin{equation}
     \l\{x\mid x\in v\land\phi\l(x\r)\r\}\ \ \ \ \ \ \ \ \textrm{\it{or}}\ \ \ \ \ \ \ \ \l\{x\in v\mid\phi\l(x\r)\r\}.
 \end{equation}$$
@@ -28,7 +28,7 @@ $$\begin{equation}
 
 ---
 
-**Remark.** To construct a set $z$ whose elements $x$ are exactly the ones satisfying a certain property $\phi\l(x\r)$, we must show that there exists some set $v$ such that $\phi\l(x\r)\Rightarrow x\in v$ for then the Axiom Schema of Specification shows that $z$ is indeed a set.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** To construct a set $z$ whose elements $x$ are exactly the ones satisfying a certain property $\phi\l(x\r)$, we must show that there exists some set $v$ such that $\phi\l(x\r)\Rightarrow x\in v$ for then $\axispec$ shows that $z$ is indeed a set.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

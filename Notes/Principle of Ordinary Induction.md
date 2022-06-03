@@ -22,7 +22,8 @@ _Proof_. Suppose, for sake of contradiction, that $n$ is a natural number such t
 ---
 
 **Remark.** The Principle of Ordinary Induction plays a dual role.
-* On one hand, it justifies our definition of the set of natural numbers $\omega$: If $n$ is a natural number, then $n\in X$ for any inductive set $X$ whose existence is stipulated by the Axiom of Infinity.
+* On one hand, it justifies our definition of the set of natural numbers $\omega$: If $n$ is a natural number, then $n\in X$ for any inductive set $X$ whose existence is stipulated by $\axiinfty$.
+
 * On the other, it serves as a proof method, called $\textrm{`}$proof by induction$\textrm{'}$: If we wish to prove $\fa n\in\omega:\phi\l(n\r)$, it suffices to prove
 $$\begin{equation}
     \phi\l(\em\r)\ \ \ \ \textrm{and}\ \ \ \ \fa n\in\omega:\phi\l(n\r)\Rightarrow\phi\l(S\l(n\r)\r),
