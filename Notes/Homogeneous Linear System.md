@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [Kernel$\slash$Null Space](Kernel.md)
+Constructions: [Kernel$\slash$Null Space](Kernel;%20Null%20Space.md)
 Generalizations: _Not Applicable_
 
 Properties: [Homogeneous $m\times n$ linear system with $n>m$ has non-trivial solutions](Homogeneous%20linear%20system%20with%20more%20unknowns%20than%20equations%20has%20non-trivial%20solutions.md), [[Solution of linear system in terms of a particular solution]]

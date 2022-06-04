@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Linear Isomorphism]], [[Linear Operator]]
 Examples: [[Left-multiplication of Matrices]], [[Transposition]]
-Constructions: [$\hom_{\catvect[K]}\!\l(V,W\r)$](Vector%20Space%20of%20Linear%20Maps.md), [[Matrix Representation of a Linear Map]], [Kernel$\slash$Null Space](Kernel.md), [Image$\slash$Column Space](Image%20(Linear%20Map).md), [[Composition (Linear Map)]], [$\catvect[K]$](Category%20of%20Vector%20Spaces.md)
+Constructions: [$\hom_{\catvect[K]}\!\l(V,W\r)$](Vector%20Space%20of%20Linear%20Maps.md), [[Matrix Representation of a Linear Map]], [Kernel$\slash$Null Space](Kernel;%20Null%20Space.md), [Image$\slash$Column Space](Image;%20Column%20Space.md), [[Composition (Linear Map)]], [$\catvect[K]$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 
 Properties: [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md), [[Inverse of linear map is linear]], [[Linear map fixes zero vector]]

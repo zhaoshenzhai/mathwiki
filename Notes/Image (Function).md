@@ -5,7 +5,7 @@ Date Created: 26/01/2022 17:41:00
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [Image$\slash$Column Space](Image%20(Linear%20Map).md)
+Examples: [Image$\slash$Column Space](Image;%20Column%20Space.md)
 Constructions: [[Direct Image Function]]
 Generalizations: [[Image (Relation)]]
 
