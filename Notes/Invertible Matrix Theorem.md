@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
-title: Theorem (Matrix Invertibility Criteria).
+title: Theorem (Invertible Matrix Theorem).
 
 _Let $K$ be a field and consider a matrix $A\in\mat{n}{K}$. Then the following statements are equivalent:_
 1. _$A$ is invertible._
