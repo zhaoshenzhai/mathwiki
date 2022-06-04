@@ -5,7 +5,7 @@ Date Created: 26/01/2022 17:41:00
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Image (Linear Map)]], [[Column space is image of induced linear map]]
+Examples: [Image$\slash$Column Space](Image%20(Linear%20Map).md)
 Constructions: [[Direct Image Function]]
 Generalizations: [[Image (Relation)]]
 

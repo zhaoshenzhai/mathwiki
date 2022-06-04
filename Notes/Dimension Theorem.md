@@ -17,6 +17,7 @@ _Let $V$ and $W$ be vector spaces over some field $K$ and consider a linear map 
 $$\begin{equation}
     \dim\ker T+\dim\im T=\dim V.
 \end{equation}$$
+_In other words, we have $\nullity T+\rank T=\dim V$._
 
 ```
 

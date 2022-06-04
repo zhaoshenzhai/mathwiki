@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 04/04/2022 18:26:02
-Tags: #Proposition #Closed
+Tags: #Proposition #Later/Linear_Algebra 
 
 Proved by: [Matrix multiplication (columns$\slash$rows)](Matrix%20multiplication%20(columns%20slash%20rows).md)
 Justifications: _Not Applicable_

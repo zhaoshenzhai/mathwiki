@@ -5,7 +5,7 @@ Date Created: 03/04/2022 20:31:04
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [[Column Space]], [[Row Space]]
+Examples: [Image$\slash$Column Space](Image%20(Linear%20Map).md), [[Row Space]]
 Constructions: [[Spanning Set]], [[Minkowski Sum (Linear Algebra)]]
 Generalizations: _Not Applicable_
 

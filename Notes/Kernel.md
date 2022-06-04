@@ -10,7 +10,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Nullity]]
 Generalizations: _Not Applicable_
 
 Properties: [[Dimension Theorem]], [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md)
@@ -27,6 +27,6 @@ $$\begin{equation}
 \end{equation}$$
 _of $V$._
 
-_If $V$ and $W$ are both finite-dimensional, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, we define the **null space of a matrix** $A\in\mat{m\times n}{K}$ as the kernel of $L_A$; that is, $\nullsp A\coloneqq\ker L_A$._
+_If $V$ and $W$ are both finite-dimensional, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, we define the **null space of a matrix** $A\in\mat{m\times n}{K}$ as the kernel of its associated left-multiplication map $L_A$; that is, $\nullsp A\coloneqq\ker L_A$._
 
 ```
