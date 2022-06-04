@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Dimension Theorem]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [Rank of a linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ rank of its matrix representation](Rank%20of%20a%20linear%20map%20repr%20under%20basis%20rank%20of%20its%20matrix%20representation.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition
