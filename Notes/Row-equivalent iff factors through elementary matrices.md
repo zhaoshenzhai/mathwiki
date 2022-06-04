@@ -6,9 +6,9 @@ alias: auto_aliasing
 <br />
 
 Date Created: 07/04/2022 06:19:06
-Tags: #Proposition #Closed
+Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Left-multiplication by elementary matrix is action by its elementary row operation]], [[Algebraic identities of matrix operations]]
+Proved by: [[Elementary operations act as multiplication by its elementary matrix]], [[Algebraic identities of matrix operations]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

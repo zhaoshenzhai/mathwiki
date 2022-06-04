@@ -1,10 +1,14 @@
+---
+custom_alias: Elementary matrices$\slash$operations have inverses of the same type
+---
+
 <br />
 <br />
 
 Date Created: 23/03/2022 18:38:07
 Tags: #Proposition #Closed 
 
-Proved by: _Not Applicable_
+Proved by: [[Elementary operations act as multiplication by its elementary matrix]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -13,15 +17,15 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. Then each elemenatry row operation_
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then each elementary row operation_
 $$\begin{equation}
     e^\l(1\r),e^\l(2\r),e^\l(3\r):\bigcup_{j\in\N}\mat{m\times j}{K}\to\bigcup_{j\in\N}\mat{m\times j}{K}
 \end{equation}$$
-_has an inverse of the same type._
+_and their corresponding elementary matrices have inverses of the same type. Similarly for elementary column operations._
 
 ```
 
-_Proof_. For each elementary row operation $e^\l(k\r)$, we need an elementary row operation
+_Proof_. We shall prove the statement for rows; the proof is analogous for columns. For each elementary row operation $e^\l(k\r)$, we need an elementary row operation
 $$\begin{equation}
     f^\l(k\r):\bigcup_{j\in\N}\mat{m\times j}{K}\to\bigcup_{j\in\N}\mat{m\times j}{K}
 \end{equation}$$
@@ -31,7 +35,13 @@ $$\begin{equation}
         \l(e^\l(k\r)\circ f^\l(k\r)\r)\l(A\r)_{ij}=a_{ij}=\l(f^\l(k\r)\circ e^\l(k\r)\r)\l(A\r)_{ij}
     \end{aligned}
 \end{equation}$$
-for all $A\in\bigcup_{j\in\N}\mat{m\times j}{K}$.
+for all $A\in\bigcup_{j\in\N}\mat{m\times j}{K}$. Once this is done, we claim that $F\coloneqq f^{\l(k\r)}\l(I\r)$ is the inverse of $E$ for all elementary matrices $E\coloneqq e^{\l(k\r)}\l(I\r)$. To this end, we verify that it is both a left and a right inverse thereof.
+$$\begin{align}
+    FE&=f^{\l(k\r)}\l(E\r) \hspace{1in}EF\hspace{-0.4in}&&=e^{\l(k\r)}\l(F\r) && \textrm{Elementary operations act as multiplication by its elementary matrix} \\
+    &=f^{\l(k\r)}\l(e^{\l(k\r)}\l(I\r)\r) &&=e^{\l(k\r)}\l(f^{\l(k\r)}\l(I\r)\r) && \textrm{Substitution} \\
+    &=\l(f^{\l(k\r)}\circ e^{\l(k\r)}\r)\l(I\r) &&=\l(e^{\l(k\r)}\circ f^{\l(k\r)}\r)\l(I\r) && \textrm{Definition of composition of functions} \\
+    &=I &&=I. && \textrm{Definition of inverse function}
+\end{align}$$
 
 * For $e^\l(1\r)$ multiplying the $s^\textrm{th}$ row by a non-zero constant $c\in K$, consider the elementary row operation $f^\l(1\r)$ defined by
 $$\begin{equation}

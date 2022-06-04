@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Elementary Matrix]]
+Constructions: [Elementary Matrices$\slash$Operations](Elementary%20Matrices%20and%20Operations.md)
 Generalizations: _Not Applicable_
 
 Properties: [[Algebraic identities of matrix operations]]

@@ -5,7 +5,7 @@ Date Created: 28/03/2022 19:11:56
 Tags: #Definition #Closed 
 
 Types: [[Invertible Matrix]], [[Symmetric Matrix]]
-Examples: [[Elementary Matrix]]
+Examples: [Elementary Matrices$\slash$Operations](Elementary%20Matrices%20and%20Operations.md)
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

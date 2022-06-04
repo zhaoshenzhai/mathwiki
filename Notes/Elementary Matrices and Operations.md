@@ -1,3 +1,7 @@
+---
+custom_alias: Elementary Matrices$\slash$Operations
+---
+
 <br />
 <br />
 
@@ -6,12 +10,12 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Row-equivalence of Matrices]], [[Gaussian Algorithm]], [[Gauss-Jordan Algorithm]], [[Elementary Matrix]]
+Constructions: [[Equivalence of Matrices]], [[Gaussian Algorithm]], [[Gauss-Jordan Algorithm]]
 Generalizations: _Not Applicable_
 
-Properties: [[Elementary row operations have inverses of the same type]]
+Properties: [Elementary matrices$\slash$operations have inverses of the same type](Elementary%20matrices%20and%20operations%20have%20inverses%20of%20the%20same%20type.md)
 Sufficiencies: _Not Applicable_
-Equivalences: [[Left-multiplication by elementary matrix is action by its elementary row operation]]
+Equivalences: [[Elementary operations act as multiplication by its elementary matrix]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
@@ -47,6 +51,10 @@ $$\begin{equation}
                 a_{ij} & \textrm{\it{\hspace{0.6in}else.}}
             \end{dcases}\\
 \end{equation}$$
+
+_Similarly for **elementary column operations of types 1, 2, and 3**._
+
+_An **elementary matrix of type 1** (resp. **2**, **3**) is any matrix $E\in\mat{m}{K}$ such that $E=e\l(I_m\r)$ for some elementary matrix operation $e$ of type 1 (resp. 2, 3) with $m$ rows/columns over $K$._
 
 ```
 

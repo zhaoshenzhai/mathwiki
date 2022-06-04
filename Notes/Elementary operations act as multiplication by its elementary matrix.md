@@ -17,10 +17,11 @@ _Let $K$ be a field and fix $m,n\in\N^\ast$. Consider any elementary row operati
 $$\begin{equation}
     e\l(A\r)=EA.
 \end{equation}$$
+_Similarly, if $e$ is an elementary column operation on matrices with $n$ columns, then $e\l(A\r)=AE$._
 
 ```
 
-_Proof_. We wish to show that
+_Proof_. We shall prove the statement for rows; the proof is analogous for columns. We wish to show that
 $$\begin{equation}
     e\l(A\r)_{ik}=\sum_{j=1}^me_{ij}a_{jk}
 \end{equation}$$

@@ -5,7 +5,7 @@ Date Created: 07/04/2022 07:20:30
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [Basis Transition Map$\slash$Matrix](Basis%20Transition%20Map.md), [[Identity Matrix]], [[Elementary matrices have inverses of the same type]]
+Examples: [Basis Transition Map$\slash$Matrix](Basis%20Transition%20Map.md), [[Identity Matrix]], [Elementary Matrices$\slash$Operations](Elementary%20Matrices%20and%20Operations.md)
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
