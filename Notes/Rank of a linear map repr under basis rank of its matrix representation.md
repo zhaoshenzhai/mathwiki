@@ -6,9 +6,9 @@ alias: auto_aliasing
 <br />
 
 Date Created: 04/06/2022 19:32:00
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed
 
-Proved by: _Not Applicable_
+Proved by: [Action of linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ left-multiplication of matrix representation](Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md), [$\phi_\mc{B}:V\simto K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md), [[Linear isomorphism preserve dimensions of subspaces]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -24,4 +24,18 @@ $$\begin{equation}
 
 ```
 
-_Proof_. 
+_Proof_. Let $A\coloneqq\l[T\r]_\mc{B}^\mc{C}$; we wish to prove that $\rank T=\rank L_A$. To this end, observe that the diagram
+
+<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-05-29_220733/image.svg", width=170></center>
+
+commutes, so
+$$\begin{equation}
+    \begin{aligned}
+        \rank L_A&=\dim\im L_A && \textrm{Definition of $\rank$} \\
+        &=\dim\im\l(\phi_\mc{C}\circ T\circ\phi_\mc{B}^{-1}\r) && \textrm{Diagram commutes} \\
+        &=\dim\im_{\phi_\mc{C}}\l(\im_T\l(\im_{\phi_\mc{B}^{-1}}\l(K^n\r)\r)\r) && \textrm{Image of compositions} \\
+        &=\dim\im_{\phi_\mc{C}}\l(\im_T\l(V\r)\r) && \phi_\mc{B}^{-1}:K^n\simto V \\
+        &=\dim\im_{\phi_\mc{C}}\l(\im T\r). && \textrm{Definition of image}
+    \end{aligned}
+\end{equation}$$
+But $\phi_\mc{C}:W\simto K^m$ and $\im T$ is a linear subspace of $W$, so $\dim\im T=\dim\im_{\phi_\mc{C}}\l(\im T\r)$. The result follows.<span style="float:right;">$\blacksquare$</span>
