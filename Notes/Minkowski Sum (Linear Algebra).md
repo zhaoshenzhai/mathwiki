@@ -5,7 +5,7 @@ Date Created: 20/04/2022 17:04:04
 Tags: #Definition #Closed
 
 Types: [[Internal Direct Sum (Linear Algebra)]]
-Examples: _Not Applicable_
+Examples: [Solutions of $A\v{x}=\v{b}$ decompose as $\l\{\textrm{Particular Solution}\r\}+\nullsp A$](Solutions%20of%20a%20linear%20system%20decompose%20as%20sum%20of%20particular%20and%20null.md)
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

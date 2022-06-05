@@ -7,8 +7,24 @@
         "id": "162bd77e160a5372",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Inhomogeneous linear system with more equations than unknowns is inconsistent for some constant terms.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "60557c802cbb6993",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Homogeneous linear system with more unknowns than equations has non-trivial solutions.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Inhomogeneous linear system with more equations than unknowns is inconsistent for some constant terms.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Inhomogeneous linear system with more equations than unknowns is inconsistent for some constant terms.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Inhomogeneous linear system with more equations than unknowns is inconsistent for some constant terms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +196,15 @@
   },
   "active": "162bd77e160a5372",
   "lastOpenFiles": [
-    "Notes/Inhomogeneous Linear System.md",
-    "Notes/Homogeneous Linear System.md",
-    "Notes/Linear System of Equations.md",
-    "Notes/Linear Equation.md",
-    "Notes/Augmented Matrix.md",
-    "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
-    "Notes/Kernel; Null Space.md",
-    "Notes/Basis for null space of matrix.md",
+    "Notes/Inhomogeneous linear system with more equations than unknowns is inconsistent for some constant terms.md",
     "Notes/Homogeneous linear system with more unknowns than equations has non-trivial solutions.md",
-    "Notes/Rank.md"
+    "Notes/Homogeneous Linear System.md",
+    "Notes/Inhomogeneous Linear System.md",
+    "Notes/Linear system is consistent for all constants implies coefficient matrix right-invertible.md",
+    "Notes/Linear System of Equations.md",
+    "Notes/Classification of linear systems of equations (infinite field).md",
+    "Notes/Augmented Matrix.md",
+    "Notes/Solutions of linear system of equations.md",
+    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md"
   ]
 }
