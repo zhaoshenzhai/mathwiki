@@ -7,8 +7,12 @@
         "id": "0be26466e93a8622",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Invertible coefficient matrix implies unique solution.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Invertible coefficient matrix implies unique solution.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Invertible coefficient matrix implies unique solution.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Invertible coefficient matrix implies unique solution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +184,15 @@
   },
   "active": "0be26466e93a8622",
   "lastOpenFiles": [
-    "Notes/Homogeneous linear system with more unknowns than equations has non-trivial solutions.md",
-    "Notes/Inhomogeneous linear system with more equations than unknowns is inconsistent for some constant terms.md",
-    "Notes/Homogeneous Linear System.md",
-    "Notes/Inhomogeneous Linear System.md",
-    "Notes/Linear system is consistent for all constants implies coefficient matrix right-invertible.md",
-    "Notes/Linear System of Equations.md",
-    "Notes/Classification of linear systems of equations (infinite field).md",
-    "Notes/Augmented Matrix.md",
-    "Notes/Solutions of linear system of equations.md",
-    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md"
+    "Notes/Invertible coefficient matrix implies unique solution.md",
+    "Notes/Linear map between vector spaces of same dimension is injective iff surjective.md",
+    "Notes/Matrix invertible iff left-multiplication invertible.md",
+    "Notes/Left-multiplication of Matrices.md",
+    "Notes/Basis transition map acts as left-multiplication by change of basis matrix.md",
+    "Notes/Linear Isomorphism.md",
+    "Notes/Matrix invertible iff row-equivalent to identity.md",
+    "Notes/Linear Map.md",
+    "Notes/Square linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
+    "Notes/Inhomogeneous Linear System.md"
   ]
 }

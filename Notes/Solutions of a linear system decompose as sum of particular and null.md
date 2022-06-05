@@ -1,5 +1,5 @@
 ---
-custom_alias: Solutions of $A\v{x}=\v{b}$ decompose as $\l\{\textrm{Particular Solution}\r\}+\nullsp A$
+custom_alias: Solutions of $A\v{x}=\v{b}$ decompose as $\l\{\v{s}\r\}+\nullsp A$ for any $A\v{s}=\v{b}$
 ---
 
 <br />
