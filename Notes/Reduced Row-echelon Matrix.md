@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Identity Matrix]]
-Constructions: [[Pivot Column]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Full-rank square matrix in RREF is identity]]

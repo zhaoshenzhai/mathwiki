@@ -4,9 +4,9 @@
 Date Created: 22/03/2022 16:12:09
 Tags: #Definition #Closed 
 
-Types: [[Row-echelon Matrix]], [[Square Matrix]], [[Left-invertible Matrix]], [[Right-inverible Matrix]], [[Full-rank Matrix]]
+Types: [[Row-echelon Matrix]], [[Square Matrix]], [[Left-invertible Matrix]], [[Right-inverible Matrix]]
 Examples: [[Augmented Matrix]]
-Constructions: [$\mat{m\times n}{K}$ (Set)](Set%20of%20Matrices.md), [[Left-multiplication of Matrices]], [Kernel$\slash$Null Space](Kernel;%20Null%20Space.md), [Image$\slash$Column Space](Image;%20Column%20Space.md), [[Row Space]], [[Pivot Column]]
+Constructions: [$\mat{m\times n}{K}$ (Set)](Set%20of%20Matrices.md), [[Left-multiplication of Matrices]], [Kernel$\slash$Null Space](Kernel;%20Null%20Space.md), [Image$\slash$Column Space](Image;%20Column%20Space.md)
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

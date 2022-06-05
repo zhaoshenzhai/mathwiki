@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0be26466e93a8622",
+        "id": "40cd4f413733b063",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Invertible coefficient matrix implies unique solution.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "tag:#Later/Linear_Algebra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Invertible coefficient matrix implies unique solution.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Invertible coefficient matrix implies unique solution.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Invertible coefficient matrix implies unique solution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "0be26466e93a8622",
+  "active": "40cd4f413733b063",
   "lastOpenFiles": [
-    "Notes/Invertible coefficient matrix implies unique solution.md",
-    "Notes/Linear map between vector spaces of same dimension is injective iff surjective.md",
-    "Notes/Matrix invertible iff left-multiplication invertible.md",
-    "Notes/Left-multiplication of Matrices.md",
-    "Notes/Basis transition map acts as left-multiplication by change of basis matrix.md",
-    "Notes/Linear Isomorphism.md",
-    "Notes/Matrix invertible iff row-equivalent to identity.md",
-    "Notes/Linear Map.md",
-    "Notes/Square linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
-    "Notes/Inhomogeneous Linear System.md"
+    "Notes/Row Rank.md",
+    "Notes/Matrix.md",
+    "Notes/Kernel; Null Space.md",
+    "Notes/Row Space.md",
+    "Notes/Reduced Row-echelon Matrix.md",
+    "Notes/Full-rank Matrix.md",
+    "Notes/Column Rank.md",
+    "Notes/Column rank is number of pivot columns.md",
+    "Notes/Pivot Column.md",
+    "Notes/Invertible coefficient matrix implies unique solution.md"
   ]
 }
