@@ -17,35 +17,16 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider the linear system_
+_Let $K$ be a field and consider matrices $A\in\mat{m\times n}{K}$ and $B\in\mat{m\times p}{K}$ for some fixed $m,n,p\in\N^\ast$. The **augmented matrix of $B$ after $A$** is the matrix_
 $$\begin{equation}
-    A\v{x}=\v{b}\ \ \ \ \Leftrightarrow\ \ \ \ \l\{\begin{alignedat}{7}
-        &a_{11}x_1&&\,+&&\,\cdots\,&&\,+\,&&a_{1n}x_n&&=\ &&b_1\\
-        &\vdotswithin{a_{11}x_1}&&&&&&&&\vdotswithin{a_{1n}x_n}&&&&\vdotswithin{b_1}\\
-        &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m
-    \end{alignedat}\r.
-\end{equation}$$
-_of equations over $K$ for some fixed $m,n\in\N^\ast$. The **augmented matrix of $A\v{x}=\v{b}$** is the matrix_
-$$\begin{equation}
-    \l[A\mid\v{b}\r]\coloneqq\l[
-        \begin{array}{ccc|c}
-             a_{11} & \cdots & a_{1n} & b_{1}\\
-             \vdotswithin{a_{11}} & \ddots & \vdotswithin{a_{1n}} & \vdotswithin{b_1}\\
-             a_{m1} & \cdots & a_{mn} & b_m
-        \end{array}\r].
+    \l[A\mid B\r]\coloneqq\l[
+        \begin{array}{ccc|ccc}
+             a_{11} & \cdots & a_{1n} & b_{11} & \cdots & b_{1p} \\
+             \vdotswithin{a_{11}} & \ddots & \vdotswithin{a_{1n}} & \vdotswithin{b_{11}} & \ddots & \vdotswithin{b_{1p}} \\
+             a_{m1} & \cdots & a_{mn} & b_{m1} & \cdots & b_{mp}
+        \end{array}\r]\in\mat{m\times\l(n+p\r)}{K}.
 \end{equation}$$
 
 ```
 
-**Remark.** Formally,
-$$\begin{equation}
-    \begin{aligned}
-        \l[A\mid\v{b}\r]:\l\{1,\dots,m\r\}\times\l\{1,\dots,n+1\r\}&\to K\\
-            \tpl{i,j}&\mapsto
-                \begin{dcases}
-                    a_{ij}  & \textrm{if}\ \ j\leq n\\
-                    b_i & \textrm{else.}
-                \end{dcases}
-    \end{aligned}
-\end{equation}$$
-The matrices $A$ and $\v{b}$ are respectively called the **coefficient and constant matrices of $A\v{x}=\v{b}$**.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Augmented matrices can be used to model a linear system of equation since it contains all the data to specify one. Indeed, the $m\times n$ linear system $A\v{x}=\v{b}$ is modelled by the augmented matrix $\l[A\mid\v{b}\r]$, where we view $\v{b}\in\mat{m\times1}{K}$.<span style="float:right;">$\blacklozenge$</span>

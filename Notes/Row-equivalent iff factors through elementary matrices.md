@@ -6,7 +6,7 @@ alias: auto_aliasing
 <br />
 
 Date Created: 07/04/2022 06:19:06
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Later/Linear_Algebra/Systems
 
 Proved by: [[Elementary operations act as multiplication by its elementary matrix]], [[Algebraic identities of matrix operations]]
 Justifications: _Not Applicable_

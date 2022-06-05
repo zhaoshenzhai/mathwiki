@@ -6,7 +6,7 @@ alias: auto_aliasing
 <br />
 
 Date Created: 23/03/2022 22:18:42
-Tags: #Proposition #Closed 
+Tags: #Proposition #Later/Linear_Algebra/Systems
 
 Proved by: [[Solution of system of linear combinations contains solution of original system]], [[Row-equivalence of matrices is an equivalence relation]]
 Justifications: _Not Applicable_
