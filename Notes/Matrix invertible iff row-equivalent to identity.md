@@ -8,7 +8,7 @@ custom_alias: $A$ invertible $\Leftrightarrow$ $A\sim I$
 Date Created: 08/04/2022 12:00:33
 Tags: #Proposition #Closed
 
-Proved by: [$A$ invertible $\Rightarrow$ $A\v{x}=\v{b}$ has a unique solution](Invertible%20coefficient%20matrix%20implies%20unique%20solution.md), [Square linear system $A\v{x}=\v{b}$ has a unique solution $\Leftrightarrow$ $A\sim I$](Square%20linear%20system%20has%20unique%20solution%20iff%20coefficient%20matrix%20row-equivalent%20to%20identity.md), [Row-equivalent $\Leftrightarrow$ factors through elementary matrices](Row-equivalent%20iff%20factors%20through%20elementary%20matrices.md), [Elementary matrices$\slash$operations have inverses of the same type](Elementary%20matrices%20and%20operations%20have%20inverses%20of%20the%20same%20type.md), [Matrix invertible $\Leftrightarrow$ factors invertible](Matrix%20invertible%20iff%20factors%20invertible.md)
+Proved by: [$A$ invertible $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solution](Invertible%20coefficient%20matrix%20iff%20unique%20solution.md), [Square linear system $A\v{x}=\v{b}$ has a unique solution $\Leftrightarrow$ $A\sim I$](Square%20linear%20system%20has%20unique%20solution%20iff%20coefficient%20matrix%20row-equivalent%20to%20identity.md), [Row-equivalent $\Leftrightarrow$ factors through elementary matrices](Row-equivalent%20iff%20factors%20through%20elementary%20matrices.md), [Elementary matrices$\slash$operations have inverses of the same type](Elementary%20matrices%20and%20operations%20have%20inverses%20of%20the%20same%20type.md), [Matrix invertible $\Leftrightarrow$ factors invertible](Matrix%20invertible%20iff%20factors%20invertible.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
