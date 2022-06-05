@@ -25,4 +25,4 @@ _Let $K$ be a field and take a matrix $A\in\mat{m\times n}{K}$ with $m>n$. Then 
 
 ---
 
-_Proof_. Consider the linear map $T:K^n\to K^m:\v{x}\mapsto A\v{x}$. Since $n<m$, we see that $T$ is not surjective, so there exists $\v{b}\in K^m$ such that no $\v{x}\in K^n$ is such that $T\l(\v{x}\r)=A\v{x}=\v{b}$.<span style="float:right;">$\blacksquare$</span>
+_Proof_. Since $n<m$, we see that the linear map $L_A:K^n\to K^m$ is not surjective, so there exists $\v{b}\in K^m$ such that no $\v{s}\in K^n$ is such that $L_A\l(\v{s}\r)=A\v{s}=\v{b}$.<span style="float:right;">$\blacksquare$</span>
