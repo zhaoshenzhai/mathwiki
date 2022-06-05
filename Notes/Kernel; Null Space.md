@@ -10,7 +10,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Nullity]]
+Constructions: [[Nullity]], [[Basis for null space of matrix]]
 Generalizations: _Not Applicable_
 
 Properties: [[Dimension Theorem]], [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md)

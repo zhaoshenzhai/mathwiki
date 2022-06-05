@@ -8,7 +8,7 @@ custom_alias: Homogeneous $m\times n$ linear system with $n>m$ has non-trivial s
 Date Created: 28/03/2022 15:32:39
 Tags: #Proposition #Closed
 
-Proved by: [[Linear map to a lower dimensional space is not injective]]
+Proved by: [[Linear map to a lower dimensional space is not injective]], [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -25,4 +25,4 @@ _Let $K$ be an field and take $A\in\mat{m\times n}{K}$ with $n>m$. Then the homo
 
 ---
 
-_Proof_. Consider the linear map $T:K^n\to K^m:\v{x}\mapsto A\v{x}$. Since $n>m$, we see that $T$ is not injective, so there exists a non-zero $\v{x}\in K^n$ with $T\l(\v{x}\r)=A\v{x}=\v{0}$.<span style="float:right;">$\blacksquare$</span>
+_Proof_. Since $n>m$, the linear map $L_A:K^n\to K^m$ is not injective, and hence $\nullsp A=\ker L_A\neq\l\{\v{0}\r\}$. Thus there exists some $\v{s}\neq\v{0}$ in $K^n$ such that $A\v{s}=\v{0}$; that is, the system has a non-trivial solution.<span style="float:right;">$\blacksquare$</span>
