@@ -18,6 +18,8 @@ while [ ! -z "$1" ]; do
             numMathLinks=$(sed 's/),\ /)\n/g' * | grep -Po "\[.*\]\(.*\)" | wc -l)
             numLinks=$(($numDoubleLinks + $numMathLinks))
 
+            ratio=$(bc -l <<< 'scale=3; '"$numLinks"'/'"$numNotes"'')
+
             cd ..
             cd ./Images
 
@@ -27,6 +29,7 @@ while [ ! -z "$1" ]; do
         ;;
         --print|-p)
             echo -e "${CYAN}$numNotes notes, $numLinks links, $numImages images${NC}"
+            echo -e "${CYAN}    Ratio: $ratio${NC}"
         ;;
         --ghost|-g)
             cd ./Notes
