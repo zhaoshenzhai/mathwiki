@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "16d2cc3eb2e4c0d5",
+        "id": "3db4fe43c6948a92",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Rank of a linear map repr under basis rank of its matrix representation.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Later/Linear_Algebra",
+                "query": "tag:#In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Rank of a linear map repr under basis rank of its matrix representation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Rank of a linear map repr under basis rank of its matrix representation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Rank of a linear map repr under basis rank of its matrix representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "16d2cc3eb2e4c0d5",
+  "active": "3db4fe43c6948a92",
   "lastOpenFiles": [
-    "Notes/Rank.md",
-    "Notes/Action of linear map repr under basis left-multiplication of matrix representation.md",
     "Notes/Rank of a linear map repr under basis rank of its matrix representation.md",
-    "Notes/Matrix Representation of a Linear Map.md",
-    "Notes/Linear isomorphism between linear maps and matrices.md",
-    "Notes/Algebraic identities of left-multiplication of matrices.md",
-    "Notes/Invertible Matrix.md",
-    "Notes/Invertible Matrix Theorem.md",
-    "Notes/Matrix invertible iff left-multiplication invertible.md",
-    "Notes/Left-multiplication of Matrices.md"
+    "Notes/Linear isomorphism preserve dimensions of subspaces.md",
+    "Notes/Linear Subspace.md",
+    "Notes/Dimension (Linear Algebra).md",
+    "Notes/Linear Isomorphism.md",
+    "Notes/Linearly isomorphic iff dimensions coincide (finite-dim.).md",
+    "Notes/Isomorphic Vector Spaces.md",
+    "Notes/Dimension Theorem.md",
+    "Notes/Nullity.md",
+    "Notes/Rank.md"
   ]
 }
