@@ -15,8 +15,8 @@ Constructions: [[Rank]]
 Generalizations: _Not Applicable_
 
 Properties: [[Dimension Theorem]]
-Sufficiencies: [[Image of linear map is spanned by image of spanning set]]
-Equivalences: [[Column space is spanned by columns of matrix]]
+Sufficiencies: [[Image of linear map is spanned by image of spanning set]], [[Column space is spanned by columns of matrix]]
+Equivalences: _Not Applicable_
 Justifications: [[Image of linear map is a subspace of its codomain]]
 
 ``` ad-Definition

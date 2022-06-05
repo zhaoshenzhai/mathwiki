@@ -5,7 +5,7 @@ Date Created: 03/04/2022 14:30:50
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [Kernel$\slash$Null Space](Kernel;%20Null%20Space.md), [Image$\slash$Column Space](Image;%20Column%20Space.md), [$\hom_{\catvect[K]}\!\l(V,W\r)$](Vector%20Space%20of%20Linear%20Maps.md), [$\Diag{n}{K}$](Vector%20Space%20of%20Diagonal%20Matrices.md), [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md), [$\skew{n}{K}$](Vector%20Space%20of%20Skew-symmetric%20Matrices.md), [[Trivial Subspaces (Linear Algebra)]]
+Examples: [$\hom_{\catvect[K]}\!\l(V,W\r)$](Vector%20Space%20of%20Linear%20Maps.md), [Kernel$\slash$Null Space](Kernel;%20Null%20Space.md), [Image$\slash$Column Space](Image;%20Column%20Space.md), [$\Diag{n}{K}$](Vector%20Space%20of%20Diagonal%20Matrices.md), [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md), [$\skew{n}{K}$](Vector%20Space%20of%20Skew-symmetric%20Matrices.md), [[Trivial Subspaces (Linear Algebra)]]
 Constructions: [[Linear Span]], [[Minkowski Sum (Linear Algebra)]], [[Complement (Linear Subspace)]]
 Generalizations: _Not Applicable_
 
