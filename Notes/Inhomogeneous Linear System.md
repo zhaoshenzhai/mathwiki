@@ -17,6 +17,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field. The linear system of equations $A\v{x}=\v{b}$ over $K$ is said to be **inhomogeneous** if $\v{b}\neq\v{0}$._
+_Let $K$ be a field. A linear system $A\v{x}=\v{b}$ of equations over $K$ is said to be **inhomogeneous** if $\v{b}\neq\v{0}$._
 
 ```

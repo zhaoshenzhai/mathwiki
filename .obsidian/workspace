@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6cff69ebdcc73ad1",
+        "id": "162bd77e160a5372",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Homogeneous Linear System.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Homogeneous Linear System.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Homogeneous Linear System.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Homogeneous Linear System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "6cff69ebdcc73ad1",
+  "active": "162bd77e160a5372",
   "lastOpenFiles": [
+    "Notes/Inhomogeneous Linear System.md",
     "Notes/Homogeneous Linear System.md",
+    "Notes/Linear System of Equations.md",
+    "Notes/Linear Equation.md",
+    "Notes/Augmented Matrix.md",
     "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
     "Notes/Kernel; Null Space.md",
     "Notes/Basis for null space of matrix.md",
     "Notes/Homogeneous linear system with more unknowns than equations has non-trivial solutions.md",
-    "Notes/Rank.md",
-    "Notes/Rank is preserved under multiplication by invertible matrices.md",
-    "Notes/Linear map to a lower dimensional space is not injective.md",
-    "Notes/Injection.md",
-    "Notes/Elementary matrices and operations are rank-preserving.md"
+    "Notes/Rank.md"
   ]
 }

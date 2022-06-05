@@ -25,31 +25,22 @@ $$\begin{equation}
         &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m
     \end{alignedat}\r.\tag{$\ast$}
 \end{equation}$$
-_of linear equations of $n$ variables over $K$. Letting_
-$$\begin{equation}
-    f_i\l(\v{x}\r)\coloneqq a_{i1}x_1+\cdots+a_{in}x_n,
-\end{equation}$$
-_a **solution of $\ref{\ast}$** is any tuple $\v{s}\in K^n$ such that $f_i\l(\v{s}\r)=b_i$ for all $i\in\l\{1,\dots,m\r\}$._
+_of linear equations of $n$ variables over $K$. A **solution of $\ref{\ast}$** is any tuple $\v{s}\in K^n$ such that_ $a_{i1}s_1+\cdots+a_{in}s_n=b_i$ _for all $i\in\l\{1,\dots,m\r\}$, and the **solution space of $\ref{\ast}$** is the set of all solutions thereof._
 
-```
-
-**Remark.** Letting
+_The **coefficient matrix of $\ref{\ast}$** and the **constant term of $\ref{\ast}$** are the matrices_
 $$\begin{equation}
     A\coloneqq
         \begin{bmatrix}
             a_{11} & \cdots & a_{1n} \\
             \vdotswithin{a_{11}} & \ddots & \vdotswithin{a_{1n}} \\
             a_{m1} & \cdots & a_{mn} \\
-        \end{bmatrix},\ \ \ \ \ \ \ \ \v{x}\coloneqq
-        \begin{bmatrix}
-            x_1 \\
-            \vdots\\
-            x_n
-        \end{bmatrix},\ \ \ \ \textrm{and}\ \ \ \ \v{b}\coloneqq
+        \end{bmatrix}\in\mat{m\times n}{K}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \v{b}\coloneqq
         \begin{bmatrix}
             b_1 \\
             \vdots\\
             b_m
-        \end{bmatrix},
+        \end{bmatrix}\in\mat{m\times1}{K},
 \end{equation}$$
-we can write the linear system as $A\v{x}=\v{b}$.<span style="float:right;">$\blacklozenge$</span>
+_respectively, and so the system $\ref{\ast}$ can be written as $A\v{x}=\v{b}$._
+
+```
