@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f6418fc4c2f33f3d",
+        "id": "86903f0b6695a6f8",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Augmented Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "2ab58e1bcb33abbe",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear System of Equations.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "d1cbcdf3b9a3c7f1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -97,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Augmented Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Augmented Matrix.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +151,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.08412085533913698,
+                  "scale": 0.03497379605937485,
                   "close": false
                 }
               }
@@ -193,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Augmented Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f6418fc4c2f33f3d",
+  "active": "86903f0b6695a6f8",
   "lastOpenFiles": [
-    "Notes/Augmented Matrix.md",
+    "Notes/Rank.md",
     "Notes/Linear System of Equations.md",
-    "Notes/Linear system is consistent for all constants implies coefficient matrix right-invertible.md",
-    "Notes/Matrix.md",
-    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
-    "Notes/Classification of linear systems of equations (infinite field).md",
+    "Notes/Image; Column Space.md",
     "Notes/Linear system consistent iff rank is preserved when augmented with constant term.md",
-    "Notes/Solutions of linear system of equations.md",
-    "Notes/Row-equivalent iff factors through elementary matrices.md",
-    "Notes/Equivalence of Matrices.md"
+    "Notes/Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper).md",
+    "Notes/Linearly dependent iff exists span redundant element.md",
+    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
+    "Notes/Linear Equation.md",
+    "Notes/Augmented Matrix.md",
+    "Notes/Linear system is consistent for all constants implies coefficient matrix right-invertible.md"
   ]
 }
