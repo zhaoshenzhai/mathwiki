@@ -7,8 +7,24 @@
         "id": "5c15cc3c37b37f00",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Elementary Matrices and Operations.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "4d9c4d455dd789b6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Elementary matrices and operations are rank-preserving.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Elementary matrices and operations are rank-preserving.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Elementary matrices and operations are rank-preserving.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:Notes",
@@ -163,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Elementary matrices and operations are rank-preserving.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "5c15cc3c37b37f00",
+  "active": "4d9c4d455dd789b6",
   "lastOpenFiles": [
-    "Notes/Set of linear maps form a linear subspace of the function space.md",
-    "Notes/Algebraic identities of matrix operations (linear map).md",
-    "Notes/Linear Map.md",
-    "Notes/Matrix.md",
-    "Notes/Column space is image of induced linear map.md",
-    "Notes/Matrix Representation of a Linear Map.md",
+    "Notes/Elementary matrices and operations are rank-preserving.md",
+    "Notes/Elementary Matrices and Operations.md",
+    "Notes/Rank.md",
+    "Notes/Rank is preserved under multiplication by invertible matrices.md",
+    "Notes/Algebraic identities of left-multiplication of matrices.md",
+    "Notes/Matrix invertible iff left-multiplication invertible.md",
     "Notes/Rank of a linear map repr under basis rank of its matrix representation.md",
-    "Notes/Action of linear map repr under basis left-multiplication of matrix representation.md",
     "Notes/Linear isomorphism preserve dimensions of subspaces.md",
-    "Notes/Linear Subspace.md"
+    "Notes/Dimension (Linear Algebra).md",
+    "Notes/Change of basis for linear maps.md"
   ]
 }

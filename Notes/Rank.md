@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Dimension Theorem]]
+Properties: [[Dimension Theorem]], [[Rank is preserved under multiplication by invertible matrices]]
 Sufficiencies: _Not Applicable_
 Equivalences: [Rank of a linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ rank of its matrix representation](Rank%20of%20a%20linear%20map%20repr%20under%20basis%20rank%20of%20its%20matrix%20representation.md)
 Justifications: _Not Applicable_
