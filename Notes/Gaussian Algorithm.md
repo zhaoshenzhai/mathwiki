@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 24/03/2022 14:51:51
-Tags: #Proposition #Closed 
+Tags: #Proposition #In_Progress
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
@@ -13,25 +13,31 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Gaussian Algorithm).
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. Then every matrix $A\in\mat{m\times n}{K}$ is row-equivalent to a matrix $R\in\mat{m\times n}{K}$ in row-echelon form._
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then every matrix $A\in\mat{m\times n}{K}$ is row-equivalent to a matrix $R\in\mat{m\times n}{K}$ in reduced row-echelon form (RREF)._
 
 ```
 
+_Proof_. We shall algorithmically construct $R$ from $A$:
+* _Step 1: (Create a leading 1 in the first row)$\bf{.}$_ For all $i\in\l\{1,\dots,m\r\}$, let $k_i\coloneqq\min\l\{j\in\l\{1,\dots n\r\}\mid a_{ij}\neq0\r\}$ be the column with its leading entry, and let $l$ be any row such that $k\coloneqq k_l\leq k_i$ for all $i\in\l\{1,\dots,m\r\}$. Perform the type 3 elementary row operation
+<br>
+  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-24_185733/image.svg", width=500></center>
+<br>
+which moves said row on top, followed by the type 1 elementary row operation
+<br>
+<br>
+  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-24_201822/image.svg", width=525></center>
+<br>
+
+* _Step 2: (Create zeros below the leading 1)$\bf{.}$_ This is done by performing the type 2 elementary row operations
+<br>
+  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-24_203210/image.svg", width=525></center>
+<br>
+
+  for all $i\in\l\{2,\dots,m\r\}$.
+
+---
+
 _Proof_. We shall algorithmically construct $R$ from $A$.
-* Step 1: If $A=0_{m\times n}$, stop, since $0_{m\times n}$ is in row-echelon form.
-
-* Step 2: For all $i\in\l\{1,\dots,m\r\}$, let $k_i\coloneqq\min\l\{j\in\l\{1,\dots n\r\}\mid a_{ij}\neq0\r\}$ be the column with its leading entry. Consider any row $l$ such that $k\coloneqq k_l\leq k_i$ for all $i\in\l\{1,\dots,r\r\}$; that is, consider any row whose leading entry occurs at the leftmost column. Perform the elementary row operation
-<br>
-  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-24_185733/image.svg", width=600></center>
-<br>
-  which moves said row to the top.
-* Step 3: Divide out the leading entry by performing the elementary row operation
-  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-24_201822
-/image.svg", width=600></center>
-* Step 4: To replace all with red entries with $0$, perform the elementary row operations
-  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-24_203210/image.svg", width=600></center>
-
-  for all $i\in\l\{2,\dots,r\r\}$.
 * Step 5: Let $A'$ be the matrix after Step 4 and let $A_g$ be the green $\textrm{`}$submatrix$\textrm{'}$ shown above; that is, let $A_g\coloneqq\tpl{m-1,n-k,f_g}$ where
 $$\begin{equation}
     \begin{aligned}
