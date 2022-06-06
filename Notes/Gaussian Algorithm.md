@@ -13,12 +13,12 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Gaussian Algorithm).
 
-_Let $K$ be a field and fix $m,n\in\R$. Then every matrix $A\in\mat{m\times n}{K}$ is row-equivalent to a matrix $R\in\mat{m\times n}{K}$ in row-echelon form._
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then every matrix $A\in\mat{m\times n}{K}$ is row-equivalent to a matrix $R\in\mat{m\times n}{K}$ in row-echelon form._
 
 ```
 
 _Proof_. We shall algorithmically construct $R$ from $A$.
-* Step 1: If $A=\v{0}$ is the $m\times n$ zero matrix, stop, since $\v{0}$ is in row-echelon form.
+* Step 1: If $A=0_{m\times n}$, stop, since $0_{m\times n}$ is in row-echelon form.
 
 * Step 2: For all $i\in\l\{1,\dots,m\r\}$, let $k_i\coloneqq\min\l\{j\in\l\{1,\dots n\r\}\mid a_{ij}\neq0\r\}$ be the column with its leading entry. Consider any row $l$ such that $k\coloneqq k_l\leq k_i$ for all $i\in\l\{1,\dots,r\r\}$; that is, consider any row whose leading entry occurs at the leftmost column. Perform the elementary row operation
 <br>

@@ -1,7 +1,7 @@
 <br />
 <br />
 
-Date Created: 24/03/2022 14:12:37
+Date Created: 24/03/2022 13:42:23
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
@@ -10,24 +10,19 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Full-rank square matrix in RREF is identity]]
-Sufficiencies: [[Gauss-Jordan Algorithm]]
+Sufficiencies: [[Gaussian Algorithm]]
 Equivalences: _Not Applicable_
 Justifications: [[RREF of a matrix is unique]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. A matrix $R\in\mat{m\times n}{K}$ is said to be in **reduced row-echelon form (RREF)** if $R$ is in row-echelon form and, assuming that $R$ has $r$ non-zero rows:_
-* $\axirref\bf{.}$ _For every non-zero row $i\in\l\{1,\dots,r\r\}$ of $R$, the leading $1$ is the only non-zero entry in its column:_
-$$\begin{equation}
-    \begin{aligned}
-        \fa i\in\l\{1,\dots,r\r\},\fa i'\in\l\{1,\dots,r\r\}\setminus\l\{i\r\}:r_{i'k_i}=0. && \l(k_i\coloneqq\min\l\{j\in\l\{1,\dots,n\r\}\mid r_{ij}\neq0\r\}\r)
-    \end{aligned}
-\end{equation}$$
+_Let $K$ be a field and fix $m,n\in\N^\ast$. A matrix $R\in\mat{m\times n}{K}$ is said to be in **reduced row-echelon form** if:_
+* _$\axiref[1]$ (Zero-rows)$\bf{.}$ All zero-rows of $R$, if any, are at the bottom._
+
+_Assume now that $R$ has $r$ non-zero rows for some $r\in\l\{0,\dots,m\r\}$._
+* _$\axiref[2]$ (Staircase of 1's)$\bf{.}$ The first non-zero entry from the left in each non-zero row $i\in\l\{1,\dots,r\r\}$, called the **leading entry of $i$** and whose column $k_i$ is called the **pivot column**, is $1$. Furthermore,_ $k_{i-1}<k_i$ _for all $i\in\l\{2,\dots,r\r\}$._
+
+* _$\axiref[3]$ (Pivot columns have only 1's)$\bf{.}$ The leading $1$ in each non-zero row $i\in\l\{1,\dots,r\r\}$ is the only non-zero entry in its colum $k_i$._
 
 ```
-
-**Remark.** Since to every matrix $A\in\mat{m\times n}{K}$ there exists a unique matrix $R=\l(e_k\circ\cdots\circ e_l\r)\l(A\r)$ in reduced row-echelon form, we can consider the function
-$$\begin{equation}
-    \rref:\mat{m\times n}{K}\to\mat{m\times n}{K}\ \ \ \ \textrm{mapping}\ \ \ \ A\mapsto R.\exqedin
-\end{equation}$$
