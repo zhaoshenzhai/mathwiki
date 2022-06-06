@@ -7,8 +7,12 @@
         "id": "2513fc3d80a26e9c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Linear System of Equations.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Linear System of Equations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Linear System of Equations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear System of Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +184,15 @@
   },
   "active": "2513fc3d80a26e9c",
   "lastOpenFiles": [
+    "Notes/Linear System of Equations.md",
+    "Notes/Linear Combination.md",
+    "Notes/Linear Combination (Linear System).md",
+    "Notes/Solution of system of linear combinations contains solution of original system.md",
+    "Notes/RREF of a matrix is unique.md",
+    "Notes/Lexicographical plane convex set (not interval).md",
+    "Notes/Open Interval.md",
+    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
     "Notes/Matrix invertible iff left-multiplication invertible.md",
-    "Notes/Product of invertible matrices is invertible.md",
-    "Notes/Isomorphic Sets.md",
-    "Notes/Isomorphism of sets is an equivalence relation.md",
-    "Notes/Composition of bijections is a bijection.md",
-    "Notes/Invertible Function.md",
-    "Notes/Inverse of bijection is a bijection.md",
-    "Notes/Inverse of a relation is a relation.md",
-    "Notes/Algebraic identities of left-multiplication of matrices.md",
-    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md"
+    "Notes/Product of invertible matrices is invertible.md"
   ]
 }

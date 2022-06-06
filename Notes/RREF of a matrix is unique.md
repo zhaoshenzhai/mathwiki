@@ -2,9 +2,9 @@
 <br />
 
 Date Created: 26/03/2022 14:26:12
-Tags: #Proposition #Closed 
+Tags: #Proposition #Later/Linear_Algebra/Systems
 
-Proved by: [[Solution of system of linear combinations contains solution of original system]], [[Gaussian Elimination]]
+Proved by: [[Gaussian Elimination]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

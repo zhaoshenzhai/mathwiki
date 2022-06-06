@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Homogeneous Linear System]], [[Inhomogeneous Linear System]]
 Examples: _Not Applicable_
-Constructions: [[Augmented Matrix]], [[Linear Combination (Linear System)]]
+Constructions: [[Augmented Matrix]]
 Generalizations: _Not Applicable_
 
 Properties: [[Solutions of linear system of equations]]
