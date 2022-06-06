@@ -10,7 +10,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Equivalence of Matrices]], [[Gaussian Algorithm]], [[Gauss-Jordan Algorithm]]
+Constructions: [[Row-equivalence of Matrices]], [[Gaussian Algorithm]], [[Gauss-Jordan Algorithm]]
 Generalizations: _Not Applicable_
 
 Properties: [Elementary matrices$\slash$operations have inverses of the same type](Elementary%20matrices%20and%20operations%20have%20inverses%20of%20the%20same%20type.md), [Elementary matrices$\slash$operations are rank-preserving](Elementary%20matrices%20and%20operations%20are%20rank-preserving.md)

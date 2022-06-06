@@ -25,7 +25,7 @@ $$\begin{equation}
         &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m
     \end{alignedat}\r.\tag{$\ast$}
 \end{equation}$$
-_of linear equations of $n$ variables over $K$. A **solution of $\ref{\ast}$** is any tuple $\v{s}\in K^n$ such that_ $a_{i1}s_1+\cdots+a_{in}s_n=b_i$ _for all $i\in\l\{1,\dots,m\r\}$, and the **solution space of $\ref{\ast}$** is the set $S$ of all solutions thereof._
+_of linear equations of $n$ variables over $K$. A **solution of $\ref{\ast}$** is any tuple $\v{s}\in K^n$ such that_ $a_{i1}s_1+\cdots+a_{in}s_n=b_i$ _for all $i\in\l\{1,\dots,m\r\}$, and the **solution set of $\ref{\ast}$** is the set $S$ of all solutions thereof._
 * _If $S\neq\em$, the system $\ref{\ast}$ is said to be **consistent**._
 * _Otherwise, $\ref{\ast}$ is said to be **inconsistent**._
 

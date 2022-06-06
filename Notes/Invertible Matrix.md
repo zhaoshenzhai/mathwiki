@@ -9,7 +9,7 @@ Examples: [Basis Transition Map$\slash$Matrix](Basis%20Transition%20Map;%20Chang
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Cancellation laws (invertible matrix)]], [[Inversion anti-respects matrix multiplication]], [[Inversion is an involution]]
+Properties: [[Cancellation laws (invertible matrix)]], [[Product of invertible matrices is invertible]], [[Inversion is an involution]]
 Sufficiencies: [[Left and right inverses coincide (matrix)]], [Matrix with zero-row $\Rightarrow$ not invertible](Matrix%20with%20zero-row%20implies%20not%20invertible.md)
 Equivalences: [[Invertible Matrix Theorem]], [Row-equivalent $\Leftrightarrow$ factors through invertible matrix](Row-equivalent%20iff%20factors%20through%20invertible%20matrix.md)
 Justifications: [[Inverse of matrix is unique]]

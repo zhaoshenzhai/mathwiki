@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ebca730fdd2a94a6",
+        "id": "2513fc3d80a26e9c",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Linear System of Equations.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "9f45166abf3f80a5",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Rank.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "2fd2c3673acf0b42",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Rank is preserved under multiplication by invertible matrices.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -97,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Rank is preserved under multiplication by invertible matrices.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Rank is preserved under multiplication by invertible matrices.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -193,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Rank is preserved under multiplication by invertible matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "2fd2c3673acf0b42",
+  "active": "2513fc3d80a26e9c",
   "lastOpenFiles": [
-    "Notes/Rank is preserved under multiplication by invertible matrices.md",
-    "Notes/Rank.md",
-    "Notes/Linear System of Equations.md",
-    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
-    "Notes/Solutions of linear system of equations.md",
-    "Notes/Inhomogeneous Linear System.md",
-    "Notes/Homogeneous linear system only trivial solution iff columns slash rows of coefficient matrix are linearly independent.md",
-    "Notes/Square linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
-    "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
-    "Notes/Solution of system of linear combinations contains solution of original system.md"
+    "Notes/Matrix invertible iff left-multiplication invertible.md",
+    "Notes/Product of invertible matrices is invertible.md",
+    "Notes/Isomorphic Sets.md",
+    "Notes/Isomorphism of sets is an equivalence relation.md",
+    "Notes/Composition of bijections is a bijection.md",
+    "Notes/Invertible Function.md",
+    "Notes/Inverse of bijection is a bijection.md",
+    "Notes/Inverse of a relation is a relation.md",
+    "Notes/Algebraic identities of left-multiplication of matrices.md",
+    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md"
   ]
 }

@@ -1,3 +1,7 @@
+---
+custom_alias: $\rank A=\rank PAQ$ for $P,Q$ invertible
+---
+
 <br />
 <br />
 
@@ -17,7 +21,7 @@ _Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixe
 $$\begin{equation}
     \rank AQ=\rank A\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \rank PA=\rank A.
 \end{equation}$$
-_Therefore, we also have $\rank PQA=\rank A$._
+_Therefore, we also have $\rank PAQ=\rank A$._
 
 ```
 

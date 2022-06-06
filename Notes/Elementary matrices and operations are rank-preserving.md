@@ -8,7 +8,7 @@ custom_alias: Elementary matrices$\slash$operations are rank-preserving
 Date Created: 05/06/2022 21:02:44
 Tags: #Proposition #Closed
 
-Proved by: [[Elementary operations act as multiplication by its elementary matrix]], [Elementary matrices$\slash$operations have inverses of the same type](Elementary%20matrices%20and%20operations%20have%20inverses%20of%20the%20same%20type.md), [[Rank is preserved under multiplication by invertible matrices]]
+Proved by: [[Elementary operations act as multiplication by its elementary matrix]], [Elementary matrices$\slash$operations have inverses of the same type](Elementary%20matrices%20and%20operations%20have%20inverses%20of%20the%20same%20type.md), [$\rank A=\rank PAQ$ for $P,Q$ invertible](Rank%20is%20preserved%20under%20multiplication%20by%20invertible%20matrices.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
