@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c926ff209a927727",
+        "id": "493362a433c44a1c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Gaussian Elimination.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "e71bbee452cdc7e4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Basis for null space.md",
             "mode": "preview",
             "source": true
           }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "c926ff209a927727",
+  "active": "493362a433c44a1c",
   "lastOpenFiles": [
     "Notes/Gaussian Elimination.md",
     "Notes/Basis for null space.md",
-    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
-    "Notes/Gauss-Jordan Elimination.md",
-    "Notes/Reduced Row-echelon Matrix.md",
-    "Notes/Solutions of a linear system decompose as sum of particular and null.md",
+    "Notes/Rank.md",
+    "Notes/Rank of matrix in RREF is number of pivot columns of non-zero rows.md",
+    "Notes/Hamel Basis.md",
+    "Notes/Set of closed sets equivalent to topology on a set.md",
+    "Notes/Double complement of set is set itself.md",
+    "Notes/Relative Complement.md",
     "Notes/Homogeneous Linear System.md",
-    "Notes/Homogeneous linear system only trivial solution iff columns slash rows of coefficient matrix are linearly independent.md",
-    "Notes/Linear Independence.md",
-    "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md"
+    "Notes/Kernel; Null Space.md"
   ]
 }

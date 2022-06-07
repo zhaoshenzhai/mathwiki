@@ -30,7 +30,7 @@ $$\begin{equation}
             \frac{t_\alpha\delta_{\alpha j}}{t_j} & \textrm{\it{else}}
         \end{dcases}
 \end{equation}$$
-_for all $j\in\mc{J}$. If_ $z_{r+1}=\cdots=z_m=0$_, then $A\v{x}=\v{b}$ is consistent and every solution $\v{s}$ thereof can be expressed in the form_
+_for all $j\in\mc{J}$ and $\alpha\in\l\{1,\dots,n\r\}$. If_ $z_{r+1}=\cdots=z_m=0$_, then $A\v{x}=\v{b}$ is consistent and every solution $\v{s}$ thereof can be expressed in the form_
 $$\begin{equation}
     \v{s}=\v{s}_p+\sum_{j\in\mc{J}}t_j\v{u}_j
 \end{equation}$$
@@ -38,7 +38,12 @@ _for some $t_j\in K$. Otherwise, $A\v{x}=\v{b}$ is inconsistent._
 
 ```
 
-**Remark.** Note that both $\l(\v{s}_p\r)_\alpha$ and $\l(\v{u}_j\r)_\alpha$ are well-defined for all $\alpha\in\l\{1,\dots,n\r\}$, by which we mean that if there exists $i\in\l\{1,\dots,r\r\}$ such that $\alpha=k_i$, then $i$ is unique; this is guaranteed by $\axiref[2]$ of $R$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Note that both $\l(\v{s}_p\r)_\alpha$ and $\l(\v{u}_j\r)_\alpha$ are well-defined for all $\alpha\in\l\{1,\dots,n\r\}$, by which we mean that if there exists $i\in\l\{1,\dots,r\r\}$ such that $\alpha=k_i$, then $i$ is unique; this is guaranteed by $\axiref[2]$ of $R$.
+
+Setting $t_j=0$ for all $j\in\mc{J}$, we see that $\v{s}_p$ is a solution of $A\v{x}=\v{b}$. Indeed, it can be proven that $\rank A=r=\l|\mc{K}\r|$ and that the set $\l\{\v{u}_j\r\}_{j\in\mc{J}}$ form a basis of $\nullsp A$, so Gaussian Elimination can be used to simultaneously
+* test whether the system $A\v{x}=\v{b}$ is consistent, and if it is, obtain the solution set of $A\v{x}=\v{b}$ as a decomposition $\l\{\v{s}_p\r\}+\nullsp A$,
+* obtain a basis for $\nullsp A$, and
+* compute $\rank A$ by counting the number of pivot columns or non-zero rows of $\rref A$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
