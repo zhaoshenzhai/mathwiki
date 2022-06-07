@@ -17,16 +17,19 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field. A linear system $A\v{x}=\v{b}$ of equations over $K$ is said to be **homogeneous** if $\v{b}=\v{0}$._
+_Let $K$ be a field. An $m\times n$ linear system $A\v{x}=\v{b}$ of equations over $K$ is said to be **homogeneous** if $\v{b}=\v{0}$._
 
 ```
 
 **Remark.** The solution set of $A\v{x}=\v{0}$ is $\nullsp A$ since
-$$\begin{align}
-    \v{s}\in\nullsp A&\Leftrightarrow\v{s}\in\ker L_A && \textrm{Definition of $\nullsp$}  \\
-    &\Leftrightarrow L_A\l(\v{s}\r)=\v{0} && \textrm{Definition of $\ker$} \\
-    &\Leftrightarrow A\v{s}=\v{0}. && \textrm{Definition of $L_A$}\exqedin
-\end{align}$$
+$$\begin{equation}
+    \begin{aligned}
+        \v{s}\in\nullsp A&\Leftrightarrow\v{s}\in\ker L_A && \textrm{Definition of $\nullsp$}  \\
+        &\Leftrightarrow L_A\l(\v{s}\r)=\v{0} && \textrm{Definition of $\ker$} \\
+        &\Leftrightarrow A\v{s}=\v{0}. && \textrm{Definition of $L_A$}
+    \end{aligned}
+\end{equation}$$
+From this and the Dimension Theorem, we see that the dimension of the solution set of $A\v{x}=\v{0}$ is $n-\rank A$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
