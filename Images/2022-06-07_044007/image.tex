@@ -1,0 +1,36 @@
+\documentclass{article}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\makeatletter
+\newcommand{\globalcolor}[1]{%
+  \color{#1}\global\let\default@color\current@color
+}
+\makeatother
+
+\AtBeginDocument{\globalcolor{textColor}}
+
+\pagenumbering{gobble}
+
+\begin{document}
+    $\begin{bNiceMatrix}
+        1      & \ast   & \Cdots &        &        & \ast   & \color{drawRed}\ast   & \ast   & \Cdots & \ast   \\
+        0      & \ast   & \Cdots &        &        & \ast   & \Vdots[color=drawRed] & \Vdots &        & \Vdots \\
+        \Vdots & \Ddots & \Ddots &        &        & \Vdots &                       &        &        &        \\
+        0      & \Cdots & 0      & \ast   & \Cdots & \ast   & \color{drawRed}\ast   &        &        &        \\
+        0      & \Cdots &        &        &        & 0      & 1                     & \ast   & \Cdots & \ast
+    \CodeAfter
+        \line{1-8}{5-10}
+    \end{bNiceMatrix}
+    \xrightarrow{-u_{ik}R_l+R_i\to R_i}
+    \begin{bNiceMatrix}
+        \color{drawGreen}1      & \color{drawGreen}\ast   & \Cdots[color=drawGreen] &                         &                         & \color{drawGreen}\ast   & 0      & \ast   & \Cdots & \ast   \\
+        \color{drawGreen}0      & \color{drawGreen}\ast   & \Cdots[color=drawGreen] &                         &                         & \color{drawGreen}\ast   & \Vdots & \Vdots &        & \Vdots \\
+        \Vdots[color=drawGreen] & \Ddots[color=drawGreen] & \Ddots[color=drawGreen] &                         &                         & \Vdots[color=drawGreen] &        &        &        &        \\
+        \color{drawGreen}0      & \Cdots[color=drawGreen] & \color{drawGreen}0      & \color{drawGreen}\ast   & \Cdots[color=drawGreen] & \color{drawGreen}\ast   & 0      &        &        &        \\
+                         0      & \Cdots                  &                         &                         &                         & 0                       & 1      & \ast   & \Cdots & \ast
+    \CodeAfter
+        \line{1-8}{5-10}
+    \end{bNiceMatrix}$
+\end{document}

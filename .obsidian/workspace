@@ -185,14 +185,14 @@
   "active": "6d817a1bab259781",
   "lastOpenFiles": [
     "Notes/Gaussian Algorithm.md",
-    "Notes/Elementary Matrices and Operations.md",
     "Notes/Reduced Row-echelon Matrix.md",
+    "Notes/Matrix.md",
+    "Notes/Elementary Matrices and Operations.md",
     "Notes/Gauss-Jordan Algorithm.md",
     "Notes/Row-equivalent iff factors through invertible matrix.md",
     "Notes/Row-equivalence of Matrices.md",
     "Notes/Row-equivalent iff factors through elementary matrices.md",
     "Notes/Full-rank square matrix in RREF is identity.md",
-    "Notes/RREF of a matrix is unique.md",
-    "Notes/Matrix.md"
+    "Notes/RREF of a matrix is unique.md"
   ]
 }
