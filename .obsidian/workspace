@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "493362a433c44a1c",
+        "id": "78a2a8311bd9ca28",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Gaussian Elimination.md",
+            "file": "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Gaussian Elimination.md",
+                "file": "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Gaussian Elimination.md",
+                "file": "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Gaussian Elimination.md",
+                "file": "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "493362a433c44a1c",
+  "active": "78a2a8311bd9ca28",
   "lastOpenFiles": [
-    "Notes/Gaussian Elimination.md",
+    "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
+    "Notes/Augmented Matrix.md",
+    "Notes/Full-rank square matrix in RREF is identity.md",
     "Notes/Basis for null space.md",
+    "Notes/Gaussian Elimination.md",
     "Notes/Rank.md",
     "Notes/Rank of matrix in RREF is number of pivot columns of non-zero rows.md",
     "Notes/Hamel Basis.md",
     "Notes/Set of closed sets equivalent to topology on a set.md",
-    "Notes/Double complement of set is set itself.md",
-    "Notes/Relative Complement.md",
-    "Notes/Homogeneous Linear System.md",
-    "Notes/Kernel; Null Space.md"
+    "Notes/Double complement of set is set itself.md"
   ]
 }
