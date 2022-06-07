@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 25/03/2022 15:55:27
-Tags: #Theorem #Closed 
+Tags: #Theorem #Later/Linear_Algebra/Systems
 
 Proved by: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
 Justifications: [[Gaussian Algorithm]]

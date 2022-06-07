@@ -6,7 +6,7 @@ alias: auto_aliasing
 <br />
 
 Date Created: 09/04/2022 09:11:03
-Tags: #Proposition #Closed
+Tags: #Proposition #Later/Linear_Algebra/Inverse
 
 Proved by: [[Product of invertible matrices is invertible]], [Homogeneous square system $A\v{x}=\v{0}$ has only trivial solution $\Leftrightarrow$ $A\sim I$](Homogeneous%20square%20linear%20system%20only%20trivial%20solution%20iff%20coefficient%20matrix%20row-equivalent%20to%20identity.md), [$A$ invertible $\Leftrightarrow$ $A\sim I$](Matrix%20invertible%20iff%20row-equivalent%20to%20identity.md)
 Justifications: _Not Applicable_

@@ -6,7 +6,7 @@ custom_alias: Homogeneous square system $A\v{x}=\v{0}$ has only trivial solution
 <br />
 
 Date Created: 06/04/2022 22:54:31
-Tags: #Proposition #Closed
+Tags: #Proposition #Later/Linear_Algebra/Systems
 
 Proved by: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md), [Homogeneous $m\times n$ linear system with $n>m$ has non-trivial solutions](Homogeneous%20linear%20system%20with%20more%20unknowns%20than%20equations%20has%20non-trivial%20solutions.md), [[Full-rank square matrix in RREF is identity]]
 Justifications: _Not Applicable_

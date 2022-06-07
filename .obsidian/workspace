@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "eed451fdc3932809",
+        "id": "c926ff209a927727",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Gaussian Elimination.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "a30e367ca8fb4551",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Solutions of a linear system decompose as sum of particular and null.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Later/Linear_Algebra/Systems",
+                "query": "tag:#Later/Linear_Algebra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Solutions of a linear system decompose as sum of particular and null.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Solutions of a linear system decompose as sum of particular and null.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Solutions of a linear system decompose as sum of particular and null.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "eed451fdc3932809",
+  "active": "a30e367ca8fb4551",
   "lastOpenFiles": [
-    "Notes/Linear System of Equations.md",
-    "Notes/Linear system with more equations than unknowns is inconsistent for some constant terms.md",
-    "Notes/Homogeneous Linear System.md",
-    "Notes/Right-inverible Matrix.md",
-    "Notes/Left-invertible Matrix.md",
-    "Notes/Invertible Matrix.md",
-    "Notes/Product of invertible matrices is invertible.md",
-    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
-    "Notes/Inhomogeneous Linear System.md",
-    "Notes/Augmented Matrix.md"
+    "Notes/Solutions of a linear system decompose as sum of particular and null.md",
+    "Notes/Gaussian Elimination.md",
+    "Notes/Basis for null space.md",
+    "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
+    "Notes/Square linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
+    "Notes/Full-rank square matrix in RREF is identity.md",
+    "Notes/Matrix invertible iff factors invertible.md",
+    "Notes/Matrix invertible iff row-equivalent to identity.md",
+    "Notes/Invertible coefficient matrix iff unique solution.md",
+    "Notes/Row-equivalent iff factors through invertible matrix.md"
   ]
 }

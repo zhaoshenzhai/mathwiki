@@ -6,7 +6,7 @@ custom_alias: Square linear system $A\v{x}=\v{b}$ has a unique solution $\Leftri
 <br />
 
 Date Created: 08/04/2022 07:45:42
-Tags: #Proposition #Closed
+Tags: #Proposition #Later/Linear_Algebra/Systems
 
 Proved by: [[RREF of a matrix is unique]], [[Full-rank square matrix in RREF is identity]]
 Justifications: _Not Applicable_

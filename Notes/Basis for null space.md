@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 13/04/2022 21:05:54
-Tags: #Proposition #Closed
+Tags: #Proposition #Later/Linear_Algebra/Systems
 
 Proved by: [[Gaussian Elimination]]
 Justifications: _Not Applicable_
