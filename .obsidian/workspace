@@ -14,18 +14,6 @@
             "source": true
           }
         }
-      },
-      {
-        "id": "a30e367ca8fb4551",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Solutions of a linear system decompose as sum of particular and null.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Solutions of a linear system decompose as sum of particular and null.md",
+                "file": "Notes/Gaussian Elimination.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Solutions of a linear system decompose as sum of particular and null.md",
+                "file": "Notes/Gaussian Elimination.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Solutions of a linear system decompose as sum of particular and null.md",
+                "file": "Notes/Gaussian Elimination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "a30e367ca8fb4551",
+  "active": "c926ff209a927727",
   "lastOpenFiles": [
-    "Notes/Solutions of a linear system decompose as sum of particular and null.md",
     "Notes/Gaussian Elimination.md",
-    "Notes/Basis for null space.md",
+    "Notes/Solutions of a linear system decompose as sum of particular and null.md",
+    "Notes/Homogeneous Linear System.md",
+    "Notes/Homogeneous linear system only trivial solution iff columns slash rows of coefficient matrix are linearly independent.md",
+    "Notes/Linear Independence.md",
     "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
+    "Notes/Basis for null space.md",
     "Notes/Square linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
     "Notes/Full-rank square matrix in RREF is identity.md",
-    "Notes/Matrix invertible iff factors invertible.md",
-    "Notes/Matrix invertible iff row-equivalent to identity.md",
-    "Notes/Invertible coefficient matrix iff unique solution.md",
-    "Notes/Row-equivalent iff factors through invertible matrix.md"
+    "Notes/Matrix invertible iff factors invertible.md"
   ]
 }

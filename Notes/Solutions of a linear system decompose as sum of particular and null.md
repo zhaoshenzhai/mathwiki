@@ -17,11 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider any consistent $m\times n$-linear system $A\v{x}=\v{b}$. Letting_
-$$\begin{equation}
-    S\coloneqq\l\{\v{s}\in K^n:A\v{s}=\v{b}\r\}
-\end{equation}$$
-_we have_
+_Let $K$ be a field and consider any consistent $m\times n$-linear system $A\v{x}=\v{b}$. Letting $S\coloneqq\l\{\v{s}\in K^n:A\v{s}=\v{b}\r\}$, we have_
 $$\begin{equation}
     S=\l\{\v{s}_p\r\}+\nullsp A
 \end{equation}$$
