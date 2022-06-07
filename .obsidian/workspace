@@ -185,14 +185,14 @@
   "active": "c926ff209a927727",
   "lastOpenFiles": [
     "Notes/Gaussian Elimination.md",
+    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
+    "Notes/Gauss-Jordan Elimination.md",
+    "Notes/Reduced Row-echelon Matrix.md",
     "Notes/Solutions of a linear system decompose as sum of particular and null.md",
     "Notes/Homogeneous Linear System.md",
     "Notes/Homogeneous linear system only trivial solution iff columns slash rows of coefficient matrix are linearly independent.md",
     "Notes/Linear Independence.md",
     "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
-    "Notes/Basis for null space.md",
-    "Notes/Square linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
-    "Notes/Full-rank square matrix in RREF is identity.md",
-    "Notes/Matrix invertible iff factors invertible.md"
+    "Notes/Basis for null space.md"
   ]
 }

@@ -26,3 +26,8 @@ _Assume now that $R$ has $r$ non-zero rows for some $r\in\l\{0,\dots,m\r\}$._
 * _$\axiref[3]$ (Pivot columns have only 1's)$\bf{.}$ The leading $1$ in each non-zero row $i\in\l\{1,\dots,r\r\}$ is the only non-zero entry in its colum $k_i$._
 
 ```
+
+**Remark.** Since the reduced row-echelon form of a matrix is unique, we may consider the function
+$$\begin{equation}
+    \rref:\mat{m\times n}{K}\to\mat{m\times n}{K}\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ A\mapsto\rref A.\exqedin
+\end{equation}$$

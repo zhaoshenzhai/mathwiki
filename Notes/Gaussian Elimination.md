@@ -2,10 +2,10 @@
 <br />
 
 Date Created: 25/03/2022 15:55:27
-Tags: #Theorem #Later/Linear_Algebra/Systems
+Tags: #Theorem #Closed
 
 Proved by: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
-Justifications: [[Gaussian Algorithm]]
+Justifications: [[Gaussian Algorithm]], [[RREF of a matrix is unique]]
 
 Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
@@ -13,56 +13,47 @@ Counterexamples: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Gaussian Elimination).
 
-_Let $K$ be a field and consider any linear system_
+_Let $K$ be a field and let $A\v{x}=\v{b}$ be an $m\times n$ linear system of equations over $K$ for some fixed $m,n\in\N^\ast$. Let $R\coloneqq\rref A$, say with $r$ non-zero rows each with its pivot column $k_i$, and let $\v{z}\in\mat{m\times1}{K}$ be the matrix obtained by applying the same elementary row operations to $\v{b}$ that reduces $A$ to $R$. For convenience, we shall denote_
 $$\begin{equation}
-    A\v{x}=\v{b}\ \ \ \ \Leftrightarrow\ \ \ \ \l\{\begin{alignedat}{7}
-        &a_{11}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{1n}x_n&&=\ &&b_1\\
-        &\vdotswithin{a_{11}x_1}&&&&&&&&\vdotswithin{a_{1n}x_n}&&&&\vdotswithin{b_1}\\
-        &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m
-    \end{alignedat}\r.
+    \fa j\in\l\{1,\dots,n\r\}:\mc{C}_j\coloneqq\l\{j+1,\dots,n\r\}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \mc{K}\coloneqq\l\{k\in\N\mid k\text{\it{ is a pivot column}}\r\}.
 \end{equation}$$
-_of equations over $K$. Let $R\coloneqq\l(e_l\circ\cdots\circ e_1\r)\l(A\r)\sim A$ be any row-echelon matrix, say with $r$ non-zero rows each with its pivot column $k_i$, and let $\v{z}\coloneqq\l(e_l\circ\cdots\circ e_1\r)\l(\v{b}\r)$. For convenience, we shall denote_
+_If_ $z_{r+1}=\cdots=z_m=0$_, then $A\v{x}=\v{b}$ is consistent and every solution thereof can be expressed in the form of $\v{s}\coloneqq\tpl{s_1,\dots,s_n}\in K^n$ where_
 $$\begin{equation}
-    \fa j\in\l\{1,\dots,n\r\}:\mc{C}_j\coloneqq\l\{j+1,\dots,n\r\},\ \ \ \ \ \ \ \ \mc{K}\coloneqq\l\{k\in\N\mid k\text{\it{ is a pivot column}}\r\},\ \ \ \ \textrm{\it{and}}\ \ \ \ \fa k\in\mc{K}:\mc{K}_k\coloneqq\l\{j\in\N\mid j>k\land j\in\mc{K}\r\}.
-\end{equation}$$
-_If_ $z_{r+1}=\cdots=z_m=0$_, then $A\v{x}=\v{b}$ is consistent and all solutions thereof can be expressed in the form of $\tpl{s_1,\dots,s_n}\in K^n$ where_
-$$\begin{equation}
-    \fa\alpha\in\l\{1,\dots,n\r\}:s_\alpha\coloneqq
+    s_\alpha\coloneqq
         \begin{dcases}
-            z_i-\sum_{\mathclap{j\in\mc{C}_\alpha\setminus\mc{K}}}r_{ij}t_j-\sum_{\mathclap{j\in\mc{K}_\alpha}}r_{ij}s_j & \textrm{\it{if}\hspace{0.1in}}\ex i\in\l\{1,\dots,r\r\}:\alpha=k_i\\
+            z_i-\sum_{\mathclap{j\in\mc{C}_\alpha\setminus\mc{K}}}r_{ij}t_j & \textrm{\it{if}\hspace{0.1in}}\ex i\in\l\{1,\dots,r\r\}:\alpha=k_i\\
             t_\alpha & \textrm{\it{else}}
-        \end{dcases}
+        \end{dcases}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \l(t_\alpha\in K\textrm{\it{ arbitrary}}\r)
 \end{equation}$$
-_and each_ $t_\alpha$_, if any, is an arbitrary element of $K$. Otherwise, $A\v{x}=\v{b}$ is inconsistent._
+_for all $\alpha\in\l\{1,\dots,n\r\}$. Otherwise, $A\v{x}=\v{b}$ is inconsistent._
 
 ```
 
-_Proof_. Such a matrix $R$ exists and can be constructed by the Gaussian Algorithm. If there exists some $j\in\l\{r+1,\dots,m\r\}$ such that $z_j\neq0$, then the $j^\textrm{th}$ equation in $R\v{x}=\v{z}$ reads $0+\cdots+0=z_j$ which is a contradiction. Thus the linear system $R\v{x}=\v{z}$, and thus $A\v{x}=\v{b}$, is inconsistent.
+_Proof_. Such a matrix $R$ exists and can be constructed by the Gaussian Algorithm. If there exists some $j\in\l\{r+1,\dots,m\r\}$ such that $z_j\neq0$, then the $j^\textrm{th}$ equation in $R\v{x}=\v{z}$ reads $0+\cdots+0=z_j$ which is a contradiction. Hence the linear system $R\v{x}=\v{z}$, and thus $A\v{x}=\v{b}$, is inconsistent.
 
-Otherwise, we need to show that the tuples $\tpl{s_1,\dots,s_n}$ are solutions of $R\v{x}=\v{z}$, and, moreover, that all solutions can be expressed in this form. Firstly, note that $s_\alpha$ is well-defined for all $\alpha\in\l\{1,\dots,n\r\}$, by which we mean that if there exists $i\in\l\{1,\dots,r\r\}$ such that $\alpha=k_i$, then $i$ is unique; this is guaranteed by $\axiref[3]$ of $R$.
+Otherwise, since $\l[A\mid\v{b}\r]\sim\l[R\mid\v{z}\r]$, we need to show that $R\v{s}=\v{z}$ iff $\v{s}$ is of the form above.
+* Note that $s_\alpha$ is well-defined for all $\alpha\in\l\{1,\dots,n\r\}$, by which we mean that if there exists $i\in\l\{1,\dots,r\r\}$ such that $\alpha=k_i$, then $i$ is unique; this is guaranteed by $\axiref[2]$ of $R$.
 
-Moving on, take $i\in\l\{1,\dots,r\r\}$ and consider the equation
+To this end, it suffices to show that
 $$\begin{equation}
-    \phi_i\l(x_1,\dots,x_n\r)\ \ \ \ \,\colon\!\Leftrightarrow\ \ \ \ \sum_{j=1}^nr_{ij}s_j=z_i;
+    \fa i\in\l\{1,\dots,r\r\}:\sum_{j=1}^nr_{ij}s_j=s_{k_i}+\sum_{\mathclap{j\in\mc{C}_{k_i}\setminus\mc{K}}}r_{ij}s_j,\tag{$\ast$}
 \end{equation}$$
-we wish to show that $\phi_i\l(s_1,\dots,s_n\r)$. By definition of $s_{k_i}$, we have that
-$$\begin{equation}
-    s_{k_i}=z_i-\sum_{\mathclap{j\in\mc{C}_{k_i}\setminus\mc{K}}}r_{ij}t_j-\sum_{\mathclap{j\in\mc{K}_{k_i}}}r_{ij}s_j
-\end{equation}$$
-for arbitrary $t_j\in K$, and thus
+for then
 $$\begin{equation}
     \begin{aligned}
-        z_i&=s_{k_i}+\sum_{\mathclap{j\in\mc{C}_{k_i}\setminus\mc{K}}}r_{ij}t_j+\sum_{\mathclap{j\in\mc{K}_{k_i}}}r_{ij}s_j && \textrm{Rearranging}\\
-        &=s_{k_i}+\sum_{\mathclap{j\in\mc{C}_{k_i}\setminus\mc{K}}}r_{ij}s_j+\sum_{\mathclap{j\in\mc{K}_{k_i}}}r_{ij}s_j && \fa j\in\mc{C}_{k_i}\setminus\mc{K}:s_j=t_j\\
-        &=s_{k_i}+\sum_{\mathclap{j=k_i+1}}^nr_{ij}s_j && \l(\mc{C}_{k_i}\setminus\mc{K}\r)\cup\mc{K}_{k_i}=\l\{k_i+1,\dots,n\r\}\\
-        &=r_{ik_i}s_{k_i}+\sum_{\mathclap{j=k_i+1}}^nr_{ij}s_j && \axiref[2]\textrm{ of }R\\
-        &=\sum_{\mathclap{j=k_1}}^nr_{ij}s_i && \textrm{Combine sums}\\
-        &=\sum_{j=1}^{\mathclap{k_i-1}}r_{ij}s_j+\sum_{\mathclap{j=k_1}}^nr_{ij}s_i && k_i=\min\l\{j\in\l\{1,\dots,n\r\}\mid r_{ij}\neq0\r\}\\
-        &=\sum_{j=1}^nr_{ij}s_j. && \textrm{Combine sums}
+        R\v{s}=\v{z}&\Leftrightarrow\fa i\in\l\{1,\dots,m\r\}:z_i=\sum_{j=1}^nr_{ij}s_j && \textrm{Definition of matrix multiplication} \\
+        &\Leftrightarrow\fa i\in\l\{1,\dots,r\r\}:z_i=\sum_{j=1}^nr_{ij}s_i && \axiref[1]:r_{ij}=z_i=0\textrm{ for all $i>r$ } \\
+        &\Leftrightarrow\fa i\in\l\{1,\dots,r\r\}:z_i=s_{k_i}+\sum_{\mathclap{j\in\mc{C}_{k_i}\setminus\mc{K}}}r_{ij}s_j && \textrm{Substitution} \\
+        &\Leftrightarrow\fa i\in\l\{1,\dots,r\r\}:s_{k_i}=z_i-\sum_{\mathclap{j\in\mc{C}_{k_i}\setminus\mc{K}}}r_{ij}s_j && \textrm{Rearranging} \\
+        &\Leftrightarrow\fa\alpha\in\mc{K}:s_\alpha=z_i-\sum_{\mathclap{j\in\mc{C}_\alpha\setminus\mc{K}}}r_{ij}s_j. && \textrm{Set }\alpha\coloneqq k_i\textrm{; $i\in\l\{1,\dots,r\r\}$ unique}
     \end{aligned}
 \end{equation}$$
-The last equality precisely states that $\phi_i\l(s_1,\dots,s_n\r)$; since $i$ is arbitrary, this holds for all linear equations in $R\v{x}=\v{z}$ and thus $\tpl{s_1,\dots,s_n}$ is a solution thereof. Finally, the proof that all solutions are of the form stated above amounts to observing that all the steps are reversible; if $\phi_1\l(s_1,\dots,s_n\r)$, we can split the sum, observe that $r_{ij}=0$ for all $j\in\l\{1,\dots,k_i-1\r\}$, combine the sums, split off the first term, observe that $r_{ik_i}=1$, split the sum into the leading and non-pivot columns, and make the substitution $t_j\coloneqq s_j$ for all $j\in\mc{C}_{k_i}\setminus\mc{K}$. Rearranging shows that our solution must be of the form we stated here.<span style="float:right;">$\blacksquare$</span>
-
----
-
-**Remark.** When calculating $s_\alpha$, start from $\alpha=n$ and work your way backwards since previous $s_\alpha\textrm{'}$s may depend on this result, but never otherwise; hence this method is also called **back-substitution**. This is guaranteed by $\axiref[3]$ of $R$, which states that $k_i<k_{i+1}$ for all $i\in\l\{1,\dots,r\r\}$.<span style="float:right;">$\blacklozenge$</span>
+We obtain the desired result by setting $t_j\coloneqq s_j$ for all $j\not\in\mc{K}$. To obtain $\ref{\ast}$, fix $i\in\l\{1,\dots,r\r\}$ and compute
+$$\begin{align}
+    \sum_{j=1}^nr_{ij}s_j&=\sum_{j=1}^{\mathclap{k_i-1}}r_{ij}s_j+\sum_{j=k_i}^nr_{ij}s_j && \textrm{Split into sums} \\
+    &=\sum_{j=k_i}^nr_{ij}s_j && \axiref[2]:r_{ij}=0\textrm{ for all }j<k_i \\
+    &=r_{ik_i}s_{k_i}+\sum_{\mathclap{j=k_i+1}}^nr_{ij}s_j && \textrm{Split off first term} \\
+    &=s_{k_i}+\sum_{\mathclap{j=k_i+1}}^nr_{ij}s_j && \axiref[2]:r_{ik_i}=1 \\
+    &=s_{k_i}+\sum_{\mathclap{j\in\mc{C}_{k_i}}}r_{ij}s_j && \textrm{Definition of $\mc{C}_{k_i}$} \\
+    &=s_{k_i}+\sum_{\mathclap{j\in\mc{C}_{k_i}\setminus\mc{K}}}r_{ij}s_i. && \axiref[3]:r_{ij}=0\textrm{ for all }j\in\mc{K}\setminus\l\{k_i\r\}\qedin
+\end{align}$$
