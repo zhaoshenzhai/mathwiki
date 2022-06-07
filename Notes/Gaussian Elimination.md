@@ -17,24 +17,50 @@ _Let $K$ be a field and let $A\v{x}=\v{b}$ be an $m\times n$ linear system of eq
 $$\begin{equation}
     \mc{K}\coloneqq\l\{k\in\N\mid k\text{\it{ is a pivot column}}\r\}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \mc{J}\coloneqq\l\{1,\dots,n\r\}\setminus\mc{K}.
 \end{equation}$$
-_If_ $z_{r+1}=\cdots=z_m=0$_, then $A\v{x}=\v{b}$ is consistent and every solution thereof can be expressed in the form of $\v{s}\coloneqq\tpl{s_1,\dots,s_n}\in K^n$ where_
+_Let $\v{s}_p,\v{u}_j\in K^n$ be defined as_
 $$\begin{equation}
-    s_\alpha\coloneqq
+    \l(\v{s}_p\r)_\alpha\coloneqq
         \begin{dcases}
-            z_i-\sum_{j\in\mc{J}}r_{ij}t_j & \textrm{\it{if}\hspace{0.1in}}\ex i\in\l\{1,\dots,r\r\}:\alpha=k_i\\
-            t_\alpha & \textrm{\it{else}}
-        \end{dcases}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \l(t_\alpha\in K\textrm{\it{ arbitrary}}\r)
+            z_i & \textrm{\it{if}\hspace{0.1in}}\ex i\in\l\{1,\dots,r\r\}:\alpha=k_i\\
+            0 & \textrm{\it{else}}
+        \end{dcases}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ 
+    \l(\v{u}_j\r)_\alpha\coloneqq
+        \begin{dcases}
+            -r_{ij} & \textrm{\it{if}\hspace{0.1in}}\ex i\in\l\{1,\dots,r\r\}:\alpha=k_i\\
+            \frac{t_\alpha\delta_{\alpha j}}{t_j} & \textrm{\it{else}}
+        \end{dcases}
 \end{equation}$$
-_for all $\alpha\in\l\{1,\dots,n\r\}$. Otherwise, $A\v{x}=\v{b}$ is inconsistent._
+_for all $j\in\mc{J}$. If_ $z_{r+1}=\cdots=z_m=0$_, then $A\v{x}=\v{b}$ is consistent and every solution $\v{s}$ thereof can be expressed in the form_
+$$\begin{equation}
+    \v{s}=\v{s}_p+\sum_{j\in\mc{J}}t_j\v{u}_j
+\end{equation}$$
+_for some $t_j\in K$. Otherwise, $A\v{x}=\v{b}$ is inconsistent._
 
 ```
 
+**Remark.** Note that both $\l(\v{s}_p\r)_\alpha$ and $\l(\v{u}_j\r)_\alpha$ are well-defined for all $\alpha\in\l\{1,\dots,n\r\}$, by which we mean that if there exists $i\in\l\{1,\dots,r\r\}$ such that $\alpha=k_i$, then $i$ is unique; this is guaranteed by $\axiref[2]$ of $R$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 _Proof_. Such a matrix $R$ exists and can be constructed by the Gaussian Algorithm. If there exists some $i\in\l\{r+1,\dots,m\r\}$ such that $z_i\neq0$, then the $i^\textrm{th}$ equation in $R\v{x}=\v{z}$ reads $0+\cdots+0=z_i$ which is a contradiction. Hence the linear system $R\v{x}=\v{z}$, and thus $A\v{x}=\v{b}$, is inconsistent.
 
-Otherwise, since $\l[A\mid\v{b}\r]\sim\l[R\mid\v{z}\r]$, we need to show that $R\v{s}=\v{z}$ iff $\v{s}$ is of the form above.
-* Note that $s_\alpha$ is well-defined for all $\alpha\in\l\{1,\dots,n\r\}$, by which we mean that if there exists $i\in\l\{1,\dots,r\r\}$ such that $\alpha=k_i$, then $i$ is unique; this is guaranteed by $\axiref[2]$ of $R$.
-
-To this end, it suffices to show that
+Otherwise, since $\l[A\mid\v{b}\r]\sim\l[R\mid\v{z}\r]$, we need to show that $R\v{s}=\v{z}$ iff $\v{s}=\tpl{s_1,\dots,s_n}$ where
+$$\begin{equation}
+    \begin{aligned}
+        s_\alpha&=\l(\v{s}_p\r)_\alpha+\sum_{j\in\mc{J}}t_j\l(\v{u}_j\r)_\alpha && \textrm{Components} \\
+        &=
+            \begin{dcases}
+                z_i-\sum_{j\in\mc{J}}r_{ij}t_j & \textrm{if }\ex i\in\l\{1,\dots,r\r\}:\alpha=k_i\\
+                \sum_{j\in\mc{J}}t_\alpha\delta_{\alpha j} & \textrm{else}
+            \end{dcases} && \textrm{Substitution} \\
+        &=
+            \begin{dcases}
+                z_i-\sum_{j\in\mc{J}}r_{ij}t_j & \textrm{if }\ex i\in\l\{1,\dots,r\r\}:\alpha=k_i\\
+                t_j & \textrm{else}
+            \end{dcases} && \alpha\in\mc{J}\textrm{ in latter case}
+    \end{aligned}
+\end{equation}$$
+for all $\alpha\in\l\{1,\dots,n\r\}$. To this end, it suffices to show that
 $$\begin{equation}
     \fa i\in\l\{1,\dots,r\r\}:\sum_{j=1}^nr_{ij}s_j=s_{k_i}+\sum_{j\in\mc{J}}r_{ij}s_j,\tag{$\ast$}
 \end{equation}$$
