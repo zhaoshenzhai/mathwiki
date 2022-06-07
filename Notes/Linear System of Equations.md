@@ -4,13 +4,13 @@
 Date Created: 22/03/2022 16:53:18
 Tags: #Definition #Closed 
 
-Types: [[Homogeneous Linear System]], [[Inhomogeneous Linear System]]
+Types: [[Homogeneous Linear System]]
 Examples: _Not Applicable_
 Constructions: [[Augmented Matrix]]
 Generalizations: _Not Applicable_
 
 Properties: [[Solutions of linear system of equations]]
-Sufficiencies: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
+Sufficiencies: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md), [Linear $m\times n$ system $A\v{x}=\v{b}$ with $m>n$ is inconsistent for some $\v{b}\in K^m$](Linear%20system%20with%20more%20equations%20than%20unknowns%20is%20inconsistent%20for%20some%20constant%20terms.md)
 Equivalences: [Linear system $A\v{x}=\v{b}$ consistent $\Leftrightarrow$ $\rank A=\rank\l[A\mid\v{b}\r]$](Linear%20system%20consistent%20iff%20rank%20is%20preserved%20when%20augmented%20with%20constant%20term.md)
 Justifications: _Not Applicable_
 

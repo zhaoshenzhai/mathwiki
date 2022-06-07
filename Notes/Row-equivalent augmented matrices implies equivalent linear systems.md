@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 23/03/2022 22:18:42
 Tags: #Proposition #Closed
 
-Proved by: [[Elementary operations act as multiplication by its elementary matrix]], [[Elementary matrices and operations have inverses of the same type]], [[Product of invertible matrices is invertible]]
+Proved by: [[Elementary operations act as multiplication by its elementary matrix]], [Elementary matrices$\slash$operations have inverses of the same type](Elementary%20matrices%20and%20operations%20have%20inverses%20of%20the%20same%20type.md), [[Product of invertible matrices is invertible]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

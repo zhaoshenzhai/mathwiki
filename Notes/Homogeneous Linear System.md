@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field. An $m\times n$ linear system $A\v{x}=\v{b}$ of equations over $K$ is said to be **homogeneous** if $\v{b}=\v{0}$._
+_Let $K$ be a field. An $m\times n$ linear system $A\v{x}=\v{b}$ of equations over $K$ is said to be **homogeneous** if $\v{b}=\v{0}$. Otherwise, the system is said to be **inhomogeneous**._
 
 ```
 

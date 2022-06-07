@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ebabd3eb13f74822",
+        "id": "eed451fdc3932809",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Kernel; Null Space.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "9ee7959740f69912",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Homogeneous Linear System.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -52,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "tag:#Later/Linear_Algebra/Systems",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Homogeneous Linear System.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Homogeneous Linear System.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Homogeneous Linear System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "9ee7959740f69912",
+  "active": "eed451fdc3932809",
   "lastOpenFiles": [
+    "Notes/Linear System of Equations.md",
+    "Notes/Linear system with more equations than unknowns is inconsistent for some constant terms.md",
     "Notes/Homogeneous Linear System.md",
-    "Notes/Kernel; Null Space.md",
-    "Notes/Homogeneous linear system with more unknowns than equations has non-trivial solutions.md",
-    "Notes/Nullity.md",
-    "Notes/Image; Column Space.md",
-    "Notes/Rank.md",
-    "Notes/Left-multiplication of Matrices.md",
-    "Notes/Gaussian Algorithm.md",
-    "Notes/Gauss-Jordan Elimination.md",
-    "Notes/Square linear system has unique solution iff coefficient matrix row-equivalent to identity.md"
+    "Notes/Right-inverible Matrix.md",
+    "Notes/Left-invertible Matrix.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Product of invertible matrices is invertible.md",
+    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
+    "Notes/Inhomogeneous Linear System.md",
+    "Notes/Augmented Matrix.md"
   ]
 }

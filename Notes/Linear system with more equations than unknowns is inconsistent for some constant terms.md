@@ -1,5 +1,5 @@
 ---
-custom_alias: Inhomogeneous $m\times n$ linear system $A\v{x}=\v{b}$ with $m>n$ is inconsistent for some $\v{b}\in K^m$
+custom_alias: Linear $m\times n$ system $A\v{x}=\v{b}$ with $m>n$ is inconsistent for some $\v{b}\in K^m$
 ---
 
 <br />
@@ -17,11 +17,11 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and take a matrix $A\in\mat{m\times n}{K}$ with $m>n$. Then there exists $\v{b}\in K^m$ such that the inhomogeneous linear system $A\v{x}=\v{b}$ is inconsistent._
+_Let $K$ be a field and take a matrix $A\in\mat{m\times n}{K}$ with $m>n$. Then there exists $\v{b}\in K^m$ such that the (inhomogeneous) linear system $A\v{x}=\v{b}$ is inconsistent._
 
 ```
 
-**Remark.** That is, an inhomogeneous linear system with more equations than unknowns overdetermine the system, so it is inconsistent for some choice of constant terms.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** That is, a linear system with more equations than unknowns overdetermine the system, so it is inconsistent for some choice of (non-zero) constant term.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
