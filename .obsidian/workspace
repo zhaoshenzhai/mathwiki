@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6d817a1bab259781",
+        "id": "1288e9e7208044aa",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Gaussian Algorithm.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Gaussian Algorithm.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Gaussian Algorithm.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Gaussian Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "6d817a1bab259781",
+  "active": "1288e9e7208044aa",
   "lastOpenFiles": [
     "Notes/Gaussian Algorithm.md",
-    "Notes/Reduced Row-echelon Matrix.md",
-    "Notes/Matrix.md",
-    "Notes/Elementary Matrices and Operations.md",
-    "Notes/Gauss-Jordan Algorithm.md",
-    "Notes/Row-equivalent iff factors through invertible matrix.md",
+    "Notes/Gauss-Jordan Elimination.md",
+    "Notes/Square linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
+    "Notes/Solutions of linear system of equations.md",
     "Notes/Row-equivalence of Matrices.md",
-    "Notes/Row-equivalent iff factors through elementary matrices.md",
-    "Notes/Full-rank square matrix in RREF is identity.md",
-    "Notes/RREF of a matrix is unique.md"
+    "Notes/Matrix invertible iff row-equivalent to identity.md",
+    "Notes/Elementary Matrices and Operations.md",
+    "Notes/Basis for null space.md",
+    "Notes/Gauss-Jordan Algorithm.md",
+    "Notes/Reduced Row-echelon Matrix.md"
   ]
 }

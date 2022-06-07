@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 24/03/2022 14:51:51
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Gaussian Algorithm).
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. Then every matrix $A\in\mat{m\times n}{K}$ is row-equivalent to a matrix $R\in\mat{m\times n}{K}$ in reduced row-echelon form (RREF)._
+_Let $K$ be a field and fix $m,n\in\N^\ast$. Then every matrix $A\in\mat{m\times n}{K}$ is row-equivalent to a matrix $R\in\mat{m\times n}{K}$ in reduced row-echelon form._
 
 ```
 
@@ -27,7 +27,6 @@ which moves said row on top, followed by the type 1 elementary row operation
 <br>
   <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-24_201822/image.svg", width=525></center>
 <br>
-
 * _Step 2: (Create zeros below the leading 1)$\bf{.}$_ This is done by performing the type 2 elementary row operations
 <br>
   <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-24_203210/image.svg", width=525></center>
@@ -40,17 +39,17 @@ $$\begin{equation}
 \end{equation}$$
 where $m_g\coloneqq m-1$ and $n_g\coloneqq n-k$. If $m_g\neq0$, repeat steps 1 and 2 with $A_g$, $m_g$, and $n_g$ in place of $A$, $m$, and $n$, respectively; note that all the elementary row operations performed in those steps do not affect any of the columns preceding and including $k$. Otherwise, move on to Step 4; this stopping condition will always occur as $m_g$ strictly decreases after each loop.
 
-Now that all zero-rows are at the bottom, they will not be typesetted. Similarly for all zero-columns on the left (not affected by any elementary row operations).
+Steps 1 to 3 constitute the **forward pass** which ensure that all zero-rows are at the bottom and that the resulting matrix is in an upper-triangular $\textrm{`}$staircase$\textrm{'}$ form. As such, the zero-rows will not be typesetted; similarly for all zero-columns on the left since they will not be affected by any further elementary row operations.
 * _Step 4: (Create zeros above the last leading 1)$\bf{.}$_ Let $l$ be the last non-zero row of the resulting matrix $U$ and let $k$ be its corresponding pivot column. Perform the type 2 elementary row operation
 <br>
   <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-06-07_044007/image.svg", width=750></center>
 <br>
 
-  for all $i\in\l\{1,\dots,l-1\r\}$ which creates zeros above the leading 1.
+  for all $i\in\l\{1,\dots,l-1\r\}$ which create zeros above the leading 1.
+* _Step 5: (Repeat for all green submatrices)$\bf{.}$_ Let $U'$ be the matrix obtained after Step 4 and let $U_g$ be the green $\textrm{`}$submatrix$\textrm{'}$ shown above; that is, let $U_g$ be the $m_g\times n_g$ matrix defined, formally, as
+$$\begin{equation}
+    U_g:\l\{1,\dots,m_g\r\}\times\l\{1,\dots,n_g\r\}\to K\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ \tpl{i,j}\mapsto u'_{ij}
+\end{equation}$$
+where $m_g\coloneqq l-1$ and $n_g\coloneqq k-1$. If $m_g\neq1$, repeat Step 5 with $U_g$, $m_g$, and $n_g$ in place of $U$, $m$, and $n$, respectively; again, note that all the elementary row operations performed do not affect any rows after $l$. Otherwise, stop.
 
----
-
-**Remark.** In summary:
-* Steps 1 to 3 is the **forward pass** which ensures that all zero-rows are at the bottom and that the resulting matrix is in $\textrm{`}$staircase$\textrm{'}$ form.
-
-* Steps 4 to **INSERT** is the **backward pass** which ensures that the only non-zero entry in each pivot column is its leading 1.<span style="float:right;">$\blacklozenge$</span>
+Steps 4 and 5 constitute the **backward pass** which ensure that every pivot column contains only its leading 1. Let $R$ be the resulting matrix; observe that it is in reduced row-echelon form and that only elementary row operations were used to obtain $R$ from $A$.<span style="float:right;">$\blacksquare$</span>

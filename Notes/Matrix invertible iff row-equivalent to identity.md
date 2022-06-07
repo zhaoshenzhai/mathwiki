@@ -47,4 +47,4 @@ and thus
 $$\begin{equation}
     A^{-1}=\l(e_k\circ\dots\circ e_1\r)\l(I\r).
 \end{equation}$$
-This is useful in practice since it allows us to compute $A^{-1}$ using Gauss-Jordan Elimination for any invertible $A\in\mat{n}{K}$.<span style="float:right;">$\blacklozenge$</span>
+This is useful in practice since it allows us to compute $A^{-1}$ using Gaussian Elimination for any invertible $A\in\mat{n}{K}$.<span style="float:right;">$\blacklozenge$</span>

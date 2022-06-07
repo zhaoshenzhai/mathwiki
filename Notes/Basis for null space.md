@@ -4,7 +4,7 @@
 Date Created: 13/04/2022 21:05:54
 Tags: #Proposition #Closed
 
-Proved by: [[Gauss-Jordan Elimination]]
+Proved by: [[Gaussian Elimination]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -45,7 +45,7 @@ $$\begin{equation}
              0 &  0 &  0 &  0 &  0
         \end{bmatrix}.
 \end{equation}$$
-By Gauss-Jordan Elimination, the tuple $\v{s}\in K^n$ is a solution of $A\v{x}=\v{0}$ iff there exist $t_2,t_4,t_5\in K$ (they are usually re-indexed to $t_1$, $t_2$, and $t_3$) such that
+By Gaussian Elimination, the tuple $\v{s}\in K^n$ is a solution of $A\v{x}=\v{0}$ iff there exist $t_2,t_4,t_5\in K$ (they are usually re-indexed to $t_1$, $t_2$, and $t_3$) such that
 $$\begin{equation}
     \v{s}=
         \begin{bmatrix}
@@ -96,7 +96,7 @@ This can be seen as a special case of the Dimension Theorem with $A$ in place of
 ---
 
 _Proof_. We first verify that the tuples $\v{b}_u$ for all $u\in\mc{U}$ are solutions of $A\v{x}=\v{0}$.
-* Take $u\in\mc{U}$. By Gauss-Jordan Elimination, $\v{b}_u\in K^n$ is a solution of $A\v{x}=\v{0}$ iff
+* Take $u\in\mc{U}$. By Gaussian Elimination, $\v{b}_u\in K^n$ is a solution of $A\v{x}=\v{0}$ iff
 $$\begin{equation}
     \l(\v{b}_u\r)_\alpha=
         \begin{dcases}
@@ -128,7 +128,7 @@ $$\begin{equation}
             t_\alpha & \textrm{else}
         \end{dcases}\ \ \ \ \ \ \ \ \l(t_j,t_\alpha\in K\textrm{ arbitrary}\r)
 \end{equation}$$
-by Gauss-Jordan Elimination. In the former case, observe that
+by Gaussian Elimination. In the former case, observe that
 $$\begin{equation}
     \begin{aligned}
         s_{k_i}&=-\sum_{\mathclap{j\in\mc{U}}}r_{ij}t_j && \ex i\in\l\{1,\dots,r\r\}:\alpha=k_i \\

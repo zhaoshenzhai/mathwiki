@@ -2,10 +2,10 @@
 <br />
 
 Date Created: 26/03/2022 14:27:26
-Tags: #Theorem #Closed
+Tags: #Theorem #Later/Linear_Algebra/Systems
 
 Proved by: [[Gaussian Elimination]]
-Justifications: [[Gauss-Jordan Algorithm]], [[RREF of a matrix is unique]]
+Justifications: [[RREF of a matrix is unique]]
 
 Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
