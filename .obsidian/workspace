@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7e224d666144954c",
+        "id": "ed8b693aab8ef3c6",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Invertible Matrix Theorem.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Invertible Matrix Theorem.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Invertible Matrix Theorem.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Invertible Matrix Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,8 +175,10 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "7e224d666144954c",
+  "active": "ed8b693aab8ef3c6",
   "lastOpenFiles": [
+    "Notes/Cocountable topology is a topology.md",
+    "Notes/Cocountable Topology.md",
     "Notes/Invertible Matrix Theorem.md",
     "Notes/Matrix invertible iff factors invertible.md",
     "Notes/Matrix invertible iff row-equivalent to identity.md",
@@ -191,8 +186,6 @@
     "Notes/Row-equivalent iff factors through invertible matrix.md",
     "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
     "Notes/Left-invertible square matrix implies invertible.md",
-    "Notes/Square linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
-    "Notes/RREF of a matrix is unique.md",
-    "Notes/Square Matrix.md"
+    "Notes/Square linear system has unique solution iff coefficient matrix row-equivalent to identity.md"
   ]
 }

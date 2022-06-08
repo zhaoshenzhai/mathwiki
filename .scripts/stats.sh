@@ -34,12 +34,22 @@ while [ ! -z "$1" ]; do
         --ghost|-g)
             cd ./Notes
 
-            allLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | sed 's/\[\[//g' | sed 's/\]\]//g' | sed 's/$/.md/g')
+            allDoubleLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | sed 's/\[\[//g' | sed 's/\]\]//g' | sed 's/$/.md/g' | sort | uniq)
             while IFS= read -r link; do
                 if [ ! -f "$link" ]; then
                     echo -e "${RED}    $link${NC}"
                 fi
-            done <<< "$allLinks"
+            done <<< "$allDoubleLinks"
+
+            allMathLinks=$(grep -Poh '\[((?!\]\(|\]\]).)*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
+            while IFS= read -r link; do
+                link=${link#*](}
+                link=${link::-1}
+                link=$(echo "$link" | sed 's/%20/\ /g')
+                if [ ! -f "$link" ]; then
+                    echo -e "${RED}    $link${NC}"
+                fi
+            done <<< "$allMathLinks"
 
             cd ..
         ;;
