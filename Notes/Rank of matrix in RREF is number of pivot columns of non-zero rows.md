@@ -6,7 +6,7 @@ custom_alias: Rank of matrix in RREF is $|$pivot columns$|\slash|$non-zero rows$
 <br />
 
 Date Created: 07/06/2022 18:06:05
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Closed
 
 Proved by: [Elementary matrices$\slash$operations are rank-preserving](Elementary%20matrices%20and%20operations%20are%20rank-preserving.md), [[Linearly independent subset cannot contain the zero vector]]
 Justifications: [[Gaussian Algorithm]]
@@ -17,9 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. Letting $R\coloneqq\rref A$, we can compute $\rank A$ by_
-* _counting the number of pivot columns of $R$ or_
-* _counting the number of non-zero rows of $R$._
+_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. Letting $R\coloneqq\rref A$, we can compute $\rank A$ by counting the number of non-zero rows or pivot columns of $R$._
 
 ```
 
@@ -30,4 +28,4 @@ $$\begin{equation}
 \end{equation}$$
 so $\alpha_i\l(\v{r}_i\r)_{k_i}=\alpha_i\l(1\r)=\alpha_i=0$. Since linearly independent sets must not contain zero vectors, we see that those rows form a maximally independent subset of all the rows of $R$, and hence a basis thereof. The result follows since $\rank R=\dim\row R=r$.
 
-* (Pivot columns): 
+* (Pivot columns): Since every non-zero row corresponds uniquely to its pivot column, we see that the number of non-zero rows coincides with the number of pivot columns. The result follows.<span style="float:right;">$\blacksquare$</span>
