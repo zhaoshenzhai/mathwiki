@@ -60,7 +60,6 @@ while [[ "$repeat" == "Y" ]]; do
             ~/MathWiki/.scripts/mathLinks.sh -n
         ;;
         "5")
-            printf "\n"
             ~/MathWiki/.scripts/ghost.sh
         ;;
     esac
