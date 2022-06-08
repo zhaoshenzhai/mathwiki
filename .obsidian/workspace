@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "ecf890d337a155af",
+        "id": "3ecd964f47544051",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Invertible Matrix.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "dca6e465eced0c42",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Matrix Invertibility Theorem.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Matrix Invertibility Theorem.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Matrix Invertibility Theorem.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Matrix Invertibility Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "ecf890d337a155af",
+  "active": "dca6e465eced0c42",
   "lastOpenFiles": [
+    "Notes/Matrix Invertibility Theorem.md",
     "Notes/Invertible Matrix.md",
-    "Notes/Matrix with zero-row implies not invertible.md",
-    "Notes/Basis Transition Map; Change of Basis Matrix.md",
-    "Notes/Basis for null space.md",
-    "Notes/Spanning subset with same cardinality as dimension (finite) is a basis.md",
-    "Notes/Matrix Representation of a Linear Map.md",
-    "Notes/Rank.md",
-    "Notes/Right-invertible square matrix implies invertible.md",
-    "Notes/Right-inverible Matrix.md",
-    "Notes/Square Matrix.md"
+    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
+    "Notes/Elementary Matrices and Operations.md",
+    "Notes/Row-equivalence of Matrices.md",
+    "Notes/Product of invertible matrices is invertible.md",
+    "Notes/Inversion is an involution.md",
+    "Notes/Reduced Row-echelon Matrix.md",
+    "Notes/Hamel Basis.md",
+    "Notes/Linearly independent subset with same cardinality as dimension (finite) is a basis.md"
   ]
 }

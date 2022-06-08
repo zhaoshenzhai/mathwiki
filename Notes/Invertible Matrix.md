@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Cancellation laws (invertible matrix)]], [[Product of invertible matrices is invertible]], [[Inversion is an involution]]
 Sufficiencies: [[Left and right inverses coincide (matrix)]]
-Equivalences: [[Invertible Matrix Theorem]]
+Equivalences: [[Matrix Invertibility Theorem]]
 Justifications: [[Inverse of matrix is unique]]
 
 ``` ad-Definition
