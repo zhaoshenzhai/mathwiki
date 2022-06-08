@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "37e74f7a80a5a9b7",
+        "id": "7e224d666144954c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Rank of matrix in RREF is number of pivot columns of non-zero rows.md",
+            "file": "Notes/Invertible Matrix Theorem.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "tag:#Later/Linear_Algebra/Inverse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Rank of matrix in RREF is number of pivot columns of non-zero rows.md",
+                "file": "Notes/Invertible Matrix Theorem.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Rank of matrix in RREF is number of pivot columns of non-zero rows.md",
+                "file": "Notes/Invertible Matrix Theorem.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Rank of matrix in RREF is number of pivot columns of non-zero rows.md",
+                "file": "Notes/Invertible Matrix Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "37e74f7a80a5a9b7",
+  "active": "7e224d666144954c",
   "lastOpenFiles": [
-    "Notes/Rank of matrix in RREF is number of pivot columns of non-zero rows.md",
-    "Notes/Rank.md",
-    "Notes/Linearly independent subset of an arbitrary vector space extends to a basis.md",
-    "Notes/Full-rank square matrix in RREF is identity.md",
-    "Notes/Linearly independent subset of a vector space extends to a basis.md",
-    "Notes/Every vector space has a basis.md",
-    "Notes/Hamel Basis.md",
-    "Notes/Minimal and Maximal Elements.md",
-    "Notes/Least and Greatest Elements.md",
-    "Notes/Enlargement of linearly independent set by adjoining non-spanned vector.md"
+    "Notes/Invertible Matrix Theorem.md",
+    "Notes/Matrix invertible iff factors invertible.md",
+    "Notes/Matrix invertible iff row-equivalent to identity.md",
+    "Notes/Row-equivalence of Matrices.md",
+    "Notes/Row-equivalent iff factors through invertible matrix.md",
+    "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
+    "Notes/Left-invertible square matrix implies invertible.md",
+    "Notes/Square linear system has unique solution iff coefficient matrix row-equivalent to identity.md",
+    "Notes/RREF of a matrix is unique.md",
+    "Notes/Square Matrix.md"
   ]
 }

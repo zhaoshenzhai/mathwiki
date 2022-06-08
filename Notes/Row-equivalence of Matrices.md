@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 23/03/2022 19:32:10
-Tags: #Definition #Later/Linear_Algebra/Systems
+Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
 Sufficiencies: [[Gaussian Algorithm]]
-Equivalences: [Row-equivalent $\Leftrightarrow$ factors through invertible matrix](Row-equivalent%20iff%20factors%20through%20invertible%20matrix.md)
+Equivalences: _Not Applicable_
 Justifications: [[Row-equivalence of matrices is an equivalence relation]], [[Elementary operations act as multiplication by its elementary matrix]]
 
 ``` ad-Definition

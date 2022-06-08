@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 26/03/2022 14:26:12
-Tags: #Proposition #Later/Linear_Algebra/Systems
+Tags: #Proposition #Later/Linear_Algebra/RREF
 
 Proved by: [[Gaussian Elimination]]
 Justifications: _Not Applicable_
