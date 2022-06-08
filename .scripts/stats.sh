@@ -31,28 +31,6 @@ while [ ! -z "$1" ]; do
             echo -e "${CYAN}$numNotes notes, $numLinks links, $numImages images${NC}"
             echo -e "${CYAN}    Ratio: $ratio${NC}"
         ;;
-        --ghost|-g)
-            cd ./Notes
-
-            allDoubleLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | sed 's/\[\[//g' | sed 's/\]\]//g' | sed 's/$/.md/g' | sort | uniq)
-            while IFS= read -r link; do
-                if [ ! -f "$link" ]; then
-                    echo -e "${RED}    $link${NC}"
-                fi
-            done <<< "$allDoubleLinks"
-
-            allMathLinks=$(grep -Poh '\[((?!\]\(|\]\]).)*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
-            while IFS= read -r link; do
-                link=${link#*](}
-                link=${link::-1}
-                link=$(echo "$link" | sed 's/%20/\ /g')
-                if [ ! -f "$link" ]; then
-                    echo -e "${RED}    $link${NC}"
-                fi
-            done <<< "$allMathLinks"
-
-            cd ..
-        ;;
         --readme|-r)
             sed -i 's/[0-9][0-9]*\snotes/'"$numNotes"' notes/g' README.md
             sed -i 's/[0-9][0-9]*\slinks/'"$numLinks"' links/g' README.md

@@ -61,7 +61,7 @@ while [[ "$repeat" == "Y" ]]; do
         ;;
         "5")
             printf "\n"
-            ~/MathWiki/.scripts/stats.sh -g
+            ~/MathWiki/.scripts/ghost.sh
         ;;
     esac
 
