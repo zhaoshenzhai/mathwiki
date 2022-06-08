@@ -20,10 +20,9 @@ while [[ "$repeat" == "Y" ]]; do
     echo -e "${CYAN}    (3): Mass editing${NC}"
     echo -e "${CYAN}    (4): Math links${NC}"
     echo -e "${CYAN}    (5): Ghost links${NC}"
-    echo -e "${CYAN}    (6): Link details${NC}"
     printf "\n"
 
-    read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-6)] "${NC})" action
+    read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-5)] "${NC})" action
     if [[ -z "$action" ]]; then
         action="1"
     fi
@@ -32,7 +31,7 @@ while [[ "$repeat" == "Y" ]]; do
     fi
     re='^[0-9]+$'
     while ! [[ $action =~ $re ]] ; do
-        read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-6)] "${NC})" action
+        read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-5)] "${NC})" action
         if [[ -z "$action" ]]; then
             action="1"
         fi
@@ -40,8 +39,8 @@ while [[ "$repeat" == "Y" ]]; do
             exit
         fi
     done
-    while [ "$action" -lt "1" ] || [ "$action" -gt "6" ]; do
-        read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-6)] "${NC})" action
+    while [ "$action" -lt "1" ] || [ "$action" -gt "5" ]; do
+        read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-5)] "${NC})" action
     done
 
     case $action in
@@ -63,10 +62,6 @@ while [[ "$repeat" == "Y" ]]; do
         "5")
             printf "\n"
             ~/MathWiki/.scripts/stats.sh -g
-        ;;
-        "6")
-            printf "\n"
-            ~/MathWiki/.scripts/stats.sh -l
         ;;
     esac
 

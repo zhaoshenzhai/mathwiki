@@ -6,6 +6,8 @@ RED='\033[0;31m'
 YELLOW='\033[0;33m'
 NC='\033[0m'
 
+cd ~/MathWiki/Notes
+
 Math()
 {
     local r=$(echo "$1" | sed -E 's/\bR\b/\$\\R\$/g')                                         # Real numbers
@@ -46,8 +48,6 @@ Format()
     local r=$(echo "$r" | sed 's/\./\\./g')                                 # Escape .
     echo "$r"
 }
-
-cd ~/MathWiki/Notes
 
 while [ ! -z "$1" ]; do
     case "$1" in

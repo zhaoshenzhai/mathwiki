@@ -6,14 +6,14 @@ RED='\033[0;31m'
 YELLOW='\033[0;33m'
 NC='\033[0m'
 
+cd ~/MathWiki/Notes
+
 Format()
 {
     local r=$(echo "$1" | sed 's/\\/\\\\/g')                                # Escape \
     local r=$(echo "$r" | sed 's/\$/\\\$/g')                                # Escape $
     echo "$r"
 }
-
-cd ~/MathWiki/Notes
 
 printf "\n"
 
