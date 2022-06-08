@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
+            "file": "Notes/Rank of matrix in RREF is number of pivot columns of non-zero rows.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Later/Linear_Algebra",
+                "query": "tag:#In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -61,7 +61,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "e209e1e82c7c4590",
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
+                "file": "Notes/Rank of matrix in RREF is number of pivot columns of non-zero rows.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
+                "file": "Notes/Rank of matrix in RREF is number of pivot columns of non-zero rows.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
+                "file": "Notes/Rank of matrix in RREF is number of pivot columns of non-zero rows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,15 +184,15 @@
   },
   "active": "78a2a8311bd9ca28",
   "lastOpenFiles": [
-    "Notes/Homogeneous square linear system only trivial solution iff coefficient matrix row-equivalent to identity.md",
-    "Notes/Augmented Matrix.md",
-    "Notes/Full-rank square matrix in RREF is identity.md",
-    "Notes/Basis for null space.md",
-    "Notes/Gaussian Elimination.md",
-    "Notes/Rank.md",
     "Notes/Rank of matrix in RREF is number of pivot columns of non-zero rows.md",
+    "Notes/Linearly independent subset of an arbitrary vector space extends to a basis.md",
+    "Notes/Linearly independent subset of a vector space extends to a basis.md",
+    "Notes/Every vector space has a basis.md",
     "Notes/Hamel Basis.md",
-    "Notes/Set of closed sets equivalent to topology on a set.md",
-    "Notes/Double complement of set is set itself.md"
+    "Notes/Minimal and Maximal Elements.md",
+    "Notes/Least and Greatest Elements.md",
+    "Notes/Enlargement of linearly independent set by adjoining non-spanned vector.md",
+    "Notes/Linearly independent subset cannot contain the zero vector.md",
+    "Notes/Linear Independence.md"
   ]
 }
