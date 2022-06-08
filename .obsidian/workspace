@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "b3d13035c65e1b92",
+        "id": "ecf890d337a155af",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Later/Linear_Algebra/Inverse",
+                "query": "tag:#Later/Linear_Algebra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "e209e1e82c7c4590",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b3d13035c65e1b92",
+  "active": "ecf890d337a155af",
   "lastOpenFiles": [
+    "Notes/Invertible Matrix.md",
+    "Notes/Matrix with zero-row implies not invertible.md",
+    "Notes/Basis Transition Map; Change of Basis Matrix.md",
+    "Notes/Basis for null space.md",
+    "Notes/Spanning subset with same cardinality as dimension (finite) is a basis.md",
+    "Notes/Matrix Representation of a Linear Map.md",
+    "Notes/Rank.md",
     "Notes/Right-invertible square matrix implies invertible.md",
     "Notes/Right-inverible Matrix.md",
-    "Notes/Square Matrix.md",
-    "Notes/Invertible Matrix.md",
-    "Notes/Left-invertible Matrix.md",
-    "Notes/Homogeneous Linear System.md",
-    "Notes/Augmented Matrix.md",
-    "Notes/Identity Matrix.md",
-    "Notes/Identity functor is the identity of functor composition.md",
-    "Notes/Invertible Matrix Theorem.md"
+    "Notes/Square Matrix.md"
   ]
 }
