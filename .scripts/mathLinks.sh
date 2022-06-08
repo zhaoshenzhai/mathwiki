@@ -52,6 +52,7 @@ Format()
 while [ ! -z "$1" ]; do
     case "$1" in
         --update|-u)
+            printf "\n"
             echo -e "${CYAN}Updating math links...${NC}"
             allLinks=$(grep -Poh '\[((?!\]\(|\]\]).)*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
 

@@ -9,7 +9,7 @@ Examples: [Elementary Matrices$\slash$Operations](Elementary%20Matrices%20and%20
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [Left-invertible square matrix $\Rightarrow$ invertible](Left-invertible%20square%20matrix%20implies%20invertible.md), [Right-invertible square matrix $\Rightarrow$ invertible](Right-invertible%20square%20matrix%20implies%20invertible.md)
+Properties: [Right-invertible square matrix $\Rightarrow$ invertible](Right-invertible%20square%20matrix%20implies%20invertible.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

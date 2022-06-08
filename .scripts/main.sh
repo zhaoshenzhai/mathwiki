@@ -51,11 +51,9 @@ while [[ "$repeat" == "Y" ]]; do
             ~/MathWiki/.scripts/search.sh
         ;;
         "3")
-            printf "\n"
             ~/MathWiki/.scripts/massEditing.sh
         ;;
         "4")
-            printf "\n"
             ~/MathWiki/.scripts/mathLinks.sh -u
             ~/MathWiki/.scripts/mathLinks.sh -n
         ;;

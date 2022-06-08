@@ -15,6 +15,7 @@ Format()
     echo "$r"
 }
 
+printf "\n"
 read -n 1 -ep "$(echo -e ${CYAN}"Tag [d/p/t/a]: "${NC})" tag
 while [ ! "$tag" == "d" ] && [ ! "$tag" == "p" ] && [ ! "$tag" == "t" ] && [ ! "$tag" == "a" ]; do
     read -n 1 -ep "$(echo -e ${CYAN}"Tag [d/p/t/a]: "${NC})" tag

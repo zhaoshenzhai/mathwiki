@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 09/04/2022 08:10:28
 Tags: #Proposition #Closed
 
-Proved by: [Left-invertible square matrix $\Rightarrow$ invertible](Left-invertible%20square%20matrix%20implies%20invertible.md), [[Inversion is an involution]]
+Proved by: [[Inversion is an involution]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

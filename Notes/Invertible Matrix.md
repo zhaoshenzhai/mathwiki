@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Cancellation laws (invertible matrix)]], [[Product of invertible matrices is invertible]], [[Inversion is an involution]]
 Sufficiencies: [[Left and right inverses coincide (matrix)]], [Matrix with zero-row $\Rightarrow$ not invertible](Matrix%20with%20zero-row%20implies%20not%20invertible.md)
-Equivalences: [[Invertible Matrix Theorem]], [Row-equivalent $\Leftrightarrow$ factors through invertible matrix](Row-equivalent%20iff%20factors%20through%20invertible%20matrix.md)
+Equivalences: [[Invertible Matrix Theorem]]
 Justifications: [[Inverse of matrix is unique]]
 
 ``` ad-Definition
