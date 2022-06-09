@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bf735acf8fd0fa55",
+        "id": "de1de01bf93ff466",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Matrix Invertibility Theorem.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Matrix Invertibility Theorem.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Matrix Invertibility Theorem.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Matrix Invertibility Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,8 +175,10 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "bf735acf8fd0fa55",
+  "active": "de1de01bf93ff466",
   "lastOpenFiles": [
+    "Notes/Abelian Group.md",
+    "Notes/Vector Space.md",
     "Notes/Matrix Invertibility Theorem.md",
     "Notes/Image; Column Space.md",
     "Notes/Homogeneous linear system only trivial solution iff columns slash rows of coefficient matrix are linearly independent.md",
@@ -191,8 +186,6 @@
     "Notes/Invertible coefficient matrix iff unique solution.md",
     "Notes/Inverse of transpose is transpose of inverse.md",
     "Notes/Transposition.md",
-    "Notes/Transposition anti-respects matrix multiplication.md",
-    "Notes/Algebraic identities of matrix operations.md",
-    "Notes/Left and right inverses coincide (matrix).md"
+    "Notes/Transposition anti-respects matrix multiplication.md"
   ]
 }
