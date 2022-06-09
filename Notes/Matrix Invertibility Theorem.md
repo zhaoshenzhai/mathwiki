@@ -2,9 +2,9 @@
 <br />
 
 Date Created: 09/04/2022 09:43:00
-Tags: #Theorem #Later/Linear_Algebra/Inverse
+Tags: #Theorem #Closed
 
-Proved by: [Right-invertible square matrix $\Rightarrow$ invertible](Right-invertible%20square%20matrix%20implies%20invertible.md), [[Inverse of transpose is transpose of inverse]], [Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Leftrightarrow$ columns$\slash$rows of $A$ are linearly independent](Homogeneous%20linear%20system%20only%20trivial%20solution%20iff%20columns%20slash%20rows%20of%20coefficient%20matrix%20are%20linearly%20independent.md), [$A$ invertible $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solution](Invertible%20coefficient%20matrix%20iff%20unique%20solution.md)
+Proved by: [$A$ invertible $\Leftrightarrow$ $L_A$ invertible](Matrix%20invertible%20iff%20left-multiplication%20invertible.md), [Linear map $V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective](Linear%20map%20between%20vector%20spaces%20of%20same%20dimension%20is%20injective%20iff%20surjective.md), [[Dimension Theorem]], [$A$ invertible $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solution](Invertible%20coefficient%20matrix%20iff%20unique%20solution.md), [[Inverse of transpose is transpose of inverse]], [Rank of matrix in RREF is $|$pivot columns$|\slash|$non-zero rows$|$](Rank%20of%20matrix%20in%20RREF%20is%20number%20of%20pivot%20columns%20of%20non-zero%20rows.md), [Elementary matrices$\slash$operations have inverses of the same type](Elementary%20matrices%20and%20operations%20have%20inverses%20of%20the%20same%20type.md), [[Product of invertible matrices is invertible]], [Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Leftrightarrow$ columns$\slash$rows of $A$ are linearly independent](Homogeneous%20linear%20system%20only%20trivial%20solution%20iff%20columns%20slash%20rows%20of%20coefficient%20matrix%20are%20linearly%20independent.md), [[Column space is spanned by columns of matrix]], [[Algebraic identities of matrix operations]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -15,16 +15,33 @@ title: Theorem (Invertible Matrix Theorem).
 
 _Let $K$ be a field and consider a matrix $A\in\mat{n}{K}$. Then the following statements are equivalent:_
 1. _$A$ is invertible._
-2. _$A$ is left-invertible._
-3. _$A$ is right-invertible._
-4. _$A^\trans$ is invertible._
-5. _$A$ is row-equivalent to the identity matrix._
-6. _The homogeneous system $A\v{x}=\v{0}$ has only the trivial solution._
-7. _For all $\v{b}\in K^n$, the linear system $A\v{x}=\v{b}$ has a unique solution._
-    * _It suffices for $A\v{x}=\v{b}$ to be consistent for all $\v{b}\in K^n$._
+2. _$L_A:K^n\to K^n$ is invertible._
+    * _Equivalently: $L_A$ is injective; $L_A$ is surjective._
+3. _$\rank A=n$._
+    * _Equivalently: $\col A=K^n$; $\dim\col A=n$; $\nullsp A=\l\{0\r\}$; $\dim\nullsp A=0$._
+4. _$A\sim I_n$._
+    * _Equivalently: $A$ factors through elementary matrices._
+5. _For all $\v{b}\in K^n$, the linear system $A\v{x}=\v{b}$ has a unique solution._
+6. _The homogeneous linear system $A\v{x}=\v{0}$ has only the trivial solution._
+7. _$A$ is left-invertible._
+8. _$A^\trans$ is invertible._
 
 ```
 
-_Proof_. Refer to the diagram below.
+_Proof_. $1\Leftrightarrow2$, $1\Leftrightarrow5$, and $1\Leftrightarrow8$ are proven; see links above.
+* ($2\Leftrightarrow3$): Observe that $L_A$ is injective iff $\ker L_A=\l\{0\r\}$; its equivalencies are proven by the Dimension Theorem.
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-04-10_123326/image.svg"></center>
+* ($3\Rightarrow 4\Rightarrow1$): Since $\rank A$ is the number of pivot columns of $\rref A$ and $A\in\mat{n}{K}$, we see that $\rref A\in\mat{n}{K}$ and every column of thereof is a pivot column. This forces $\rref A=I_n$, so $A\sim I_n$. Conversely, if $A\sim I_n$, then there exist elementary matrices $E_1,\dots,E_k\in\mat{n}{K}$ for some $k\in\N$ such that
+$$\begin{equation}
+    A=\l(E_k\times\cdots\times E_1\r)\times I_n=E_k\times\cdots\times E_1;
+\end{equation}$$
+incidently, this proves the equivalency. Since each $E_i$ is invertible and products of invertible matrices are invertible, we see that $A$ is invertible.
+* ($1\Rightarrow6\Rightarrow3$): The first implication follows from $1\Rightarrow5$ and the fact that $A\v{0}=\v{0}$. For the second, let $\v{a}_1,\dots,\v{a}_n$ be the columns of $A$ and observe that they are linearly independent. Since $\col A=\span\l\{\v{a}_1,\dots,\v{a}_n\r\}$, we see that $\dim\col A=n$. The result follows.
+* ($1\Rightarrow7\Rightarrow6$): The first implication is trivial. For the second, let $B\in\mat{n}{K}$ be a left-inverse of $A$ and observe that
+$$\begin{align}
+    A\v{x}&=\v{0} && \textrm{Assumption} \\
+    B\l(A\v{x}\r)&=B\v{0} && \textrm{Substitution} \\
+    \l(BA\r)\v{x}&=\v{0} && \textrm{Algebraic identities} \\
+    I\v{x}&=\v{0} && B\textrm{ is a left-inverse of }A \\
+    \v{x}&=\v{0}. && \textrm{Algebraic Identities}\qedin
+\end{align}$$

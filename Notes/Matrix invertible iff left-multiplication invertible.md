@@ -1,5 +1,5 @@
 ---
-alias: auto_aliasing
+custom_alias: $A$ invertible $\Leftrightarrow$ $L_A$ invertible
 ---
 
 <br />

@@ -4,7 +4,7 @@
 Date Created: 08/04/2022 05:00:31
 Tags: #Proposition #Closed
 
-Proved by: [Matrix invertible $\Leftrightarrow$ left-multiplication invertible](Matrix%20invertible%20iff%20left-multiplication%20invertible.md), [[Algebraic identities of left-multiplication of matrices]], [[Composition of bijections is a bijection]]
+Proved by: [$A$ invertible $\Leftrightarrow$ $L_A$ invertible](Matrix%20invertible%20iff%20left-multiplication%20invertible.md), [[Algebraic identities of left-multiplication of matrices]], [[Composition of bijections is a bijection]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -4,19 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "3ecd964f47544051",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Invertible Matrix.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "dca6e465eced0c42",
+        "id": "bf735acf8fd0fa55",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -169,7 +157,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.0545036098651189,
+                  "scale": 0.06180740883639665,
                   "close": true
                 }
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "dca6e465eced0c42",
+  "active": "bf735acf8fd0fa55",
   "lastOpenFiles": [
     "Notes/Matrix Invertibility Theorem.md",
-    "Notes/Invertible Matrix.md",
-    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
-    "Notes/Elementary Matrices and Operations.md",
-    "Notes/Row-equivalence of Matrices.md",
-    "Notes/Product of invertible matrices is invertible.md",
-    "Notes/Inversion is an involution.md",
-    "Notes/Reduced Row-echelon Matrix.md",
-    "Notes/Hamel Basis.md",
-    "Notes/Linearly independent subset with same cardinality as dimension (finite) is a basis.md"
+    "Notes/Image; Column Space.md",
+    "Notes/Homogeneous linear system only trivial solution iff columns slash rows of coefficient matrix are linearly independent.md",
+    "Notes/Homogeneous Linear System.md",
+    "Notes/Invertible coefficient matrix iff unique solution.md",
+    "Notes/Inverse of transpose is transpose of inverse.md",
+    "Notes/Transposition.md",
+    "Notes/Transposition anti-respects matrix multiplication.md",
+    "Notes/Algebraic identities of matrix operations.md",
+    "Notes/Left and right inverses coincide (matrix).md"
   ]
 }

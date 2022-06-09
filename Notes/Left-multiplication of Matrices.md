@@ -9,7 +9,7 @@ Examples: [Basis Transition Map$\slash$Matrix](Basis%20Transition%20Map;%20Chang
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Algebraic identities of left-multiplication of matrices]], [Matrix invertible $\Leftrightarrow$ left-multiplication invertible](Matrix%20invertible%20iff%20left-multiplication%20invertible.md)
+Properties: [[Algebraic identities of left-multiplication of matrices]], [$A$ invertible $\Leftrightarrow$ $L_A$ invertible](Matrix%20invertible%20iff%20left-multiplication%20invertible.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Left-multiplication of a matrix is a linear map]]

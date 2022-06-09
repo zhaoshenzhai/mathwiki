@@ -4,7 +4,7 @@
 Date Created: 27/04/2022 16:04:50
 Tags: #Theorem #Closed
 
-Proved by: [$A$ invertible $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solution](Invertible%20coefficient%20matrix%20iff%20unique%20solution.md), [Solutions of $A\v{x}=\v{b}$ decompose as $\l\{\v{s}\r\}+\nullsp A$ for any $A\v{s}=\v{b}$](Solutions%20of%20a%20linear%20system%20decompose%20as%20sum%20of%20particular%20and%20null.md), [[Gaussian Elimination]]
+Proved by: [$A$ invertible $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solution](Invertible%20coefficient%20matrix%20iff%20unique%20solution.md), [Solutions of $A\v{x}=\v{b}$ decompose as $\l\{\v{s}_p\r\}+\nullsp A$ for any $A\v{s}_p=\v{b}$](Solutions%20of%20a%20linear%20system%20decompose%20as%20sum%20of%20particular%20and%20null.md), [[Gaussian Elimination]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
