@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
 Sufficiencies: [[Gaussian Algorithm]]
-Equivalences: _Not Applicable_
+Equivalences: [Row-equivalence of matrices $\Leftrightarrow$ factors through invertible matrix](Row-equivalence%20of%20matrices%20iff%20factors%20through%20invertible%20matrix.md)
 Justifications: [[Row-equivalence of matrices is an equivalence relation]], [[Elementary operations act as multiplication by its elementary matrix]]
 
 ``` ad-Definition

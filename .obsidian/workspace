@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8a6dec941c5936dc",
+        "id": "c4c4c143847473db",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Later/Set_Theory",
+                "query": "tag:#Later/Linear_Algebra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "e209e1e82c7c4590",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "8a6dec941c5936dc",
+  "active": "c4c4c143847473db",
   "lastOpenFiles": [
+    "Notes/RREF of a matrix is unique.md",
+    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
+    "Notes/Row-equivalence of Matrices.md",
+    "Notes/Row-equivalence of matrices iff factors through invertible matrix.md",
+    "Notes/Linear System of Equations.md",
+    "Notes/Matrix Invertibility Theorem.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Gaussian Algorithm.md",
     "Notes/Left and right inverses coincide (matrix).md",
-    "Notes/Left-invertible Matrix.md",
-    "Notes/Right-inverible Matrix.md",
-    "Notes/Square Matrix.md",
-    "Notes/Symmetric Matrix.md",
-    "Notes/Matrix.md",
-    "Notes/Elementary Matrices and Operations.md",
-    "Notes/Right-invertible square matrix implies invertible.md",
-    "Notes/Invertible Matrix.md",
-    "Notes/Matrix Invertibility Theorem.md"
+    "Notes/Left-invertible Matrix.md"
   ]
 }
