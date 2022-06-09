@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Left and right inverses coincide (matrix)]], [Right-invertible square matrix $\Rightarrow$ invertible](Right-invertible%20square%20matrix%20implies%20invertible.md)
+Properties: [[Left and right inverses coincide (matrix)]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

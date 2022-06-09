@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "de1de01bf93ff466",
+        "id": "8a6dec941c5936dc",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Later/Linear_Algebra",
+                "query": "tag:#Later/Set_Theory",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "e209e1e82c7c4590",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "de1de01bf93ff466",
+  "active": "8a6dec941c5936dc",
   "lastOpenFiles": [
-    "Notes/Abelian Group.md",
-    "Notes/Vector Space.md",
-    "Notes/Matrix Invertibility Theorem.md",
-    "Notes/Image; Column Space.md",
-    "Notes/Homogeneous linear system only trivial solution iff columns slash rows of coefficient matrix are linearly independent.md",
-    "Notes/Homogeneous Linear System.md",
-    "Notes/Invertible coefficient matrix iff unique solution.md",
-    "Notes/Inverse of transpose is transpose of inverse.md",
-    "Notes/Transposition.md",
-    "Notes/Transposition anti-respects matrix multiplication.md"
+    "Notes/Left and right inverses coincide (matrix).md",
+    "Notes/Left-invertible Matrix.md",
+    "Notes/Right-inverible Matrix.md",
+    "Notes/Square Matrix.md",
+    "Notes/Symmetric Matrix.md",
+    "Notes/Matrix.md",
+    "Notes/Elementary Matrices and Operations.md",
+    "Notes/Right-invertible square matrix implies invertible.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Matrix Invertibility Theorem.md"
   ]
 }
