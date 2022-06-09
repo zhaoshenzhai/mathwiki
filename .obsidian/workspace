@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "c4c4c143847473db",
+        "id": "f81e799fe2c31466",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Later/Linear_Algebra",
+                "query": "tag:#In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "c4c4c143847473db",
+  "active": "f81e799fe2c31466",
   "lastOpenFiles": [
-    "Notes/RREF of a matrix is unique.md",
-    "Notes/Row-equivalent augmented matrices implies equivalent linear systems.md",
-    "Notes/Row-equivalence of Matrices.md",
-    "Notes/Row-equivalence of matrices iff factors through invertible matrix.md",
-    "Notes/Linear System of Equations.md",
-    "Notes/Matrix Invertibility Theorem.md",
-    "Notes/Matrix Multiplication.md",
-    "Notes/Gaussian Algorithm.md",
-    "Notes/Left and right inverses coincide (matrix).md",
-    "Notes/Left-invertible Matrix.md"
+    "Notes/Basis for null space.md",
+    "Notes/Image; Column Space.md",
+    "Notes/Basis for column space.md",
+    "Notes/Kronecker Delta.md",
+    "Notes/Nullity.md",
+    "Notes/Linear isomorphism preserve dimensions of subspaces.md",
+    "Notes/Linear Isomorphism.md",
+    "Notes/Basis for the image of a linear map (finite-dim.).md",
+    "Notes/Algebraic identities of left-multiplication of matrices.md",
+    "Notes/Left-multiplication of Matrices.md"
   ]
 }

@@ -11,7 +11,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Rank]]
+Constructions: [[Rank]], [[Basis for column space]]
 Generalizations: _Not Applicable_
 
 Properties: [[Dimension Theorem]]
