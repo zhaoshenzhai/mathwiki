@@ -1,14 +1,10 @@
----
-custom_alias: Basis for image$\slash$column space
----
-
 <br />
 <br />
 
 Date Created: 09/06/2022 12:26:44
 Tags: #Proposition #Closed
 
-Proved by: [[Matrix multiplication (columns slash rows)]]
+Proved by: [Matrix multiplication (columns$\slash$rows)](Matrix%20multiplication%20(columns%20slash%20rows).md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
