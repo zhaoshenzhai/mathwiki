@@ -4,8 +4,8 @@
 Date Created: 13/04/2022 21:05:54
 Tags: #Proposition #Closed
 
-Proved by: [[Gaussian Elimination]], [[Dimension Theorem]], [Rank of matrix in RREF is $|$pivot columns$|\slash|$non-zero rows$|$](Rank%20of%20matrix%20in%20RREF%20is%20number%20of%20pivot%20columns%20of%20non-zero%20rows.md), [Spanning set $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis](Spanning%20subset%20with%20same%20cardinality%20as%20dimension%20(finite)%20is%20a%20basis.md)
-Justifications: _Not Applicable_
+Proved by: [[Dimension Theorem]], [Rank of matrix in RREF is $|$pivot columns$|\slash|$non-zero rows$|$](Rank%20of%20matrix%20in%20RREF%20is%20number%20of%20pivot%20columns%20of%20non-zero%20rows.md), [Spanning set $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis](Spanning%20subset%20with%20same%20cardinality%20as%20dimension%20(finite)%20is%20a%20basis.md)
+Justifications: [[Gaussian Elimination]]
 
 Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
@@ -13,27 +13,19 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$. Let $R\coloneqq\rref\l(A\r)$, say with $r$ non-zero rows each with its pivot column $k_i$. For convenience, we shall denote_
+_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ with $r\coloneqq\rank A$ for some fixed $m,n,r\in\N^\ast$. Set $B\coloneqq\rref A$ and let each $k_i\in K$ for all $i\in\l\{1,\dots,r\r\}$ denote the pivot column in $B$ corresponding to its $i^\textrm{\it{th}}$ row. For convenience, we shall denote_
 $$\begin{equation}
-    \mc{K}\coloneqq\l\{k\in\N\mid k\textrm{\it{ is a pivot column}}\r\}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \mc{J}\coloneqq\l\{1,\dots,n\r\}\setminus\mc{K}.
+    \mc{K}\coloneqq\l\{k\in\N\mid k\textrm{\it{ is a pivot column of }}B\r\}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \mc{J}\coloneqq\l\{1,\dots,n\r\}\setminus\mc{K}.
 \end{equation}$$
-_Then the set_ $\l\{\v{u}_j\r\}_{j\in\mc{J}}$_, defined by_
+_By Gaussian Elimination, there exists a set_ $\l\{\v{u}_j\r\}_{j\in\mc{J}}\subseteq K^n$ _such that every $\v{s}\in\nullsp A$ can be expressed as_
 $$\begin{equation}
-    \l(\v{u}_j\r)_\alpha\coloneqq
-        \begin{dcases}
-            -r_{ij} & \textrm{\it{if\hspace{0.1in}}}\ex i\in\l\{1,\dots,r\r\}:\alpha=k_i \\
-            \frac{t_\alpha\delta_{\alpha j}}{t_j} & \textrm{\it{else}}
-        \end{dcases}
+    \v{s}=\sum_{j\in\mc{J}}t_j\v{u}_j
 \end{equation}$$
-_for all $j\in\mc{J}$ and $\alpha\in\l\{1,\dots,n\r\}$, form a basis for $\nullsp\l(A\r)$._
+_for some $t_j\in K$. We claim that_ $\l\{\v{u}_j\r\}_{j\in\mc{J}}$ _forms a basis for $\nullsp A$._
 
 ```
 
-_Proof_. By Gaussian Elimination, we know that every solution $\v{s}$ of the linear system $A\v{x}=\v{0}$ can be written in the form
-$$\begin{equation}
-    \v{s}=\v{0}+\sum_{j\in\mc{J}}t_j\v{u}_j=\sum_{j\in\mc{J}}t_j\v{u}_j,
-\end{equation}$$
-so the $\l|\mc{J}\r|$-many vectors span $\nullsp A$. But since
+_Proof_. By Gaussian Elimination, the vectors $\l\{\v{u}_j\r\}_{j\in\mc{J}}$ span $\nullsp A$. But since
 $$\begin{equation}
     \begin{aligned}
         \dim\nullsp A&=n-\rank A && \textrm{Dimension Theorem} \\
