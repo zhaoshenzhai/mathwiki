@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. Letting $R\coloneqq\rref A$, we can compute $\rank A$ by counting the number of non-zero rows or pivot columns of $R$._
+_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. Letting $R$ be a reduced row-echelon form of $A$, we can compute $\rank A$ by counting the number of non-zero rows or pivot columns of $R$._
 
 ```
 

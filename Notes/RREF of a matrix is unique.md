@@ -4,7 +4,7 @@
 Date Created: 26/03/2022 14:26:12
 Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Gaussian Elimination]]
+Proved by: [[Basis for column space]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
