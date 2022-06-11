@@ -4,7 +4,7 @@
 Date Created: 02/05/2022 15:10:12
 Tags: #Definition #Closed
 
-Types: _Not Applicable_
+Types: [Diagonalizable Operator$\slash$Matrix](Diagonalizable%20Operator;%20Matrix.md)
 Examples: _Not Applicable_
 Constructions: [$\edm_{\catvect[K]}\!\l(V\r)$](Endomorphism%20Algebra%20(Vector%20Space).md)
 Generalizations: _Not Applicable_

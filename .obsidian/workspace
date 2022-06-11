@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "519683b67c256062",
+        "id": "a8b01a2c79ed8377",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/RREF of a matrix is unique.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/RREF of a matrix is unique.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/RREF of a matrix is unique.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -157,7 +151,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.2960633819871475,
+                  "scale": 0.08197031681996654,
                   "close": true
                 }
               }
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/RREF of a matrix is unique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "519683b67c256062",
+  "active": "a8b01a2c79ed8377",
   "lastOpenFiles": [
-    "Notes/RREF of a matrix is unique.md",
-    "Notes/Basis for column space.md",
-    "Notes/Linearly dependent iff exists span redundant element.md",
-    "Notes/Unique Representation Theorem (Hamel).md",
-    "Notes/Linear Independence.md",
-    "Notes/Matrix in RREF if augmented with tuple is in RREF.md",
-    "Notes/Reduced Row-echelon Matrix.md",
-    "Notes/Augmented Matrix.md",
-    "Notes/Row-equivalence of matrices iff factors through invertible matrix.md",
-    "Notes/Rank of matrix in RREF is number of pivot columns of non-zero rows.md"
+    "Notes/Rank is preserved under multiplication by invertible matrices.md",
+    "Notes/Diagonalizable Operator; Matrix.md",
+    "Notes/Diagonal Matrix.md",
+    "Notes/Square Matrix.md",
+    "Notes/Kernel; Null Space.md",
+    "Notes/Matrix Representation of a Linear Map.md",
+    "Notes/Linear Operator.md",
+    "Notes/Symmetric Matrix.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Matrix.md"
   ]
 }
