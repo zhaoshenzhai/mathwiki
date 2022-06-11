@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [Diagonalizable Operator$\slash$Matrix](Diagonalizable%20Operator;%20Matrix.md), [[Invertible Matrix]], [[Symmetric Matrix]]
 Examples: [Elementary Matrices$\slash$Operations](Elementary%20Matrices%20and%20Operations.md)
-Constructions: _Not Applicable_
+Constructions: [Eigenvector$\slash$value](Eigenvector;%20Eigenvalue.md)
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

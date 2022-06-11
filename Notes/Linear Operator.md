@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [Diagonalizable Operator$\slash$Matrix](Diagonalizable%20Operator;%20Matrix.md)
 Examples: _Not Applicable_
-Constructions: [$\edm_{\catvect[K]}\!\l(V\r)$](Endomorphism%20Algebra%20(Vector%20Space).md)
+Constructions: [$\edm_{\catvect[K]}\!\l(V\r)$](Endomorphism%20Algebra%20(Vector%20Space).md), [Eigenvector$\slash$value](Eigenvector;%20Eigenvalue.md)
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
