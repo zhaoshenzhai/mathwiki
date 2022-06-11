@@ -9,7 +9,7 @@ Examples: [[Identity Matrix]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [$\l[A\mid\v{b}\r]$ in RREF $\Rightarrow$ $A$ in RREF](Matrix%20in%20RREF%20if%20augmented%20with%20tuple%20is%20in%20RREF.md)
 Sufficiencies: [[Gaussian Algorithm]]
 Equivalences: _Not Applicable_
 Justifications: [[RREF of a matrix is unique]]

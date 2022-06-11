@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1d1c9587ae1336c5",
+        "id": "519683b67c256062",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/RREF of a matrix is unique.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Later/Linear_Algebra",
+                "query": "tag:In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/RREF of a matrix is unique.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,10 +105,11 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/RREF of a matrix is unique.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
-                  "localJumps": 5,
+                  "localJumps": 4,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -151,7 +157,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.06180740883639665,
+                  "scale": 0.2960633819871475,
                   "close": true
                 }
               }
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/RREF of a matrix is unique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "1d1c9587ae1336c5",
+  "active": "519683b67c256062",
   "lastOpenFiles": [
-    "Notes/Rank of matrix in RREF is number of pivot columns of non-zero rows.md",
-    "Notes/Basis for column space.md",
-    "Notes/Basis for null space.md",
-    "Notes/Gaussian Elimination.md",
     "Notes/RREF of a matrix is unique.md",
-    "Notes/Linearly independent subset with same cardinality as dimension (finite) is a basis.md",
-    "Notes/Gaussian Algorithm.md",
+    "Notes/Basis for column space.md",
+    "Notes/Linearly dependent iff exists span redundant element.md",
+    "Notes/Unique Representation Theorem (Hamel).md",
+    "Notes/Linear Independence.md",
+    "Notes/Matrix in RREF if augmented with tuple is in RREF.md",
     "Notes/Reduced Row-echelon Matrix.md",
-    "Notes/Matrix Invertibility Theorem.md",
-    "Notes/Image; Column Space.md"
+    "Notes/Augmented Matrix.md",
+    "Notes/Row-equivalence of matrices iff factors through invertible matrix.md",
+    "Notes/Rank of matrix in RREF is number of pivot columns of non-zero rows.md"
   ]
 }

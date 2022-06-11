@@ -17,6 +17,10 @@ _Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ with $r\colon
 
 ```
 
+**Remark.** In particular, if $\v{b}_j=\sum_{i=1}^r\beta_{ij}\v{e}_j$ for some $\beta_{ij}\in K$ (which is always the case), then $\v{a}_j=\sum_{i=1}^r\beta_{ij}\v{a}_{k_i}$. Thus if the coefficients of $\v{a}_j$ are uniquely-determined, so are the coefficients of $\v{b}_j$. Furthermore, if $A$ is unknown but we know the columns corresponding to pivots in its reduced row-echelon form, we can deduce the rest of its columns.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 _Proof_. Firstly, observe that since $B$ is in reduced row-echelon form, we have $\v{b}_{k_i}=\v{e}_i$ for all $i\in\l\{1,\dots,r\r\}$.
 * (Linear independence): Suppose that there are coefficients $\alpha_1,\dots,\alpha_r\in K$ such that $\sum_{i=1}^r\alpha_i\v{a}_{k_i}=\v{0}$. Since $B\sim A$, there exists an invertible matrix $C\in\mat{m}{K}$ such that $B=CA$. Left-multiplying, we see that
 $$\begin{equation}
@@ -30,7 +34,7 @@ $$\begin{equation}
         \v{a}_j&=C^{-1}\v{b}_j && \textrm{Left-multiply by $C^{-1}$} \\
         &=C^{-1}\l(\sum_{i=1}^r\beta_{ij}\v{e}_i\r) && \textrm{Substitution} \\
         &=\sum_{i=1}^r\beta_{ij}C^{-1}\v{b}_{k_i} && \v{b}_{k_i}=\v{e}_i \\
-        &=\sum_{i=1}^n\beta_{ij}\v{a}_{k_i} && C\v{a}_{k_i}=\v{b}_{k_i}
+        &=\sum_{i=1}^r\beta_{ij}\v{a}_{k_i} && C\v{a}_{k_i}=\v{b}_{k_i}
     \end{aligned}
 \end{equation}$$
 for all $j\in\l\{1,\dots,n\r\}$.<span style="float:right;">$\blacksquare$</span>
