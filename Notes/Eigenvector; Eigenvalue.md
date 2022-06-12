@@ -16,7 +16,7 @@ Generalizations: _Not Applicable_
 
 Properties: [Diagonalizable $\Leftrightarrow$ exists basis of eigenvectors](Diagonalizable%20iff%20exists%20basis%20of%20eigenvectors.md)
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [Eigenvalue $\Leftrightarrow$ root of characteristic polynomial](Eigenvalue%20iff%20root%20of%20characteristic%20polynomial.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition

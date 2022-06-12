@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "c0ddd4a5ff9161e8",
+        "id": "944b037da747c168",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "c0ddd4a5ff9161e8",
+  "active": "944b037da747c168",
   "lastOpenFiles": [
     "Notes/Eigenvector; Eigenvalue.md",
-    "Notes/Diagonalizable iff exists basis of eigenvectors.md",
-    "Notes/Diagonalizable Operator; Matrix.md",
-    "Notes/Kronecker Delta.md",
-    "Notes/Diagonal Matrix.md",
-    "Notes/Matrix Representation of a Linear Map.md",
-    "Notes/Square Matrix.md",
-    "Notes/Linear Operator.md",
-    "Notes/Linear Map.md",
-    "Notes/Rank is preserved under multiplication by invertible matrices.md"
+    "Notes/Eigenvalue iff root of characteristic polynomial.md",
+    "Notes/Matrix Invertibility Theorem.md",
+    "Notes/Algebraic identities of matrix operations (linear map).md",
+    "Notes/Cancellation laws (group).md",
+    "Notes/Cancellation laws (invertible matrix).md",
+    "Notes/Algebraic identities of matrix operations.md",
+    "Notes/Linear Span.md",
+    "Notes/Linear map invertible repr under basis matrix representation invertible.md",
+    "Notes/Invertible Matrix.md"
   ]
 }

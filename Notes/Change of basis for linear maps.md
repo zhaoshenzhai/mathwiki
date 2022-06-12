@@ -21,7 +21,7 @@ _where_ $P_{\mc{C}\to\mc{C}'}\in\mat{m}{K}$ _and_ $Q_{\mc{B}'\to\mc{C}}\in\mat{n
 
 ```
 
-**Remark.** Let $A\coloneqq\l[T\r]_\mc{B}^\mc{C}$ and $A'\coloneqq\l[T\r]_{\mc{B}'}^{\mc{C}'}$. The statement can then be rephrase by saying that the diagram
+**Remark.** Let $A\coloneqq\l[T\r]_\mc{B}^\mc{C}$ and $A'\coloneqq\l[T\r]_{\mc{B}'}^{\mc{C}'}$. The statement can then be rephrased by saying that the diagram
 
 <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-06-01_174406/image.svg", width=260></center>
 
