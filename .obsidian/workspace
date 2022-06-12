@@ -7,8 +7,12 @@
         "id": "944b037da747c168",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Eigenvalue iff root of characteristic polynomial.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Eigenvalue iff root of characteristic polynomial.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Eigenvalue iff root of characteristic polynomial.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Eigenvalue iff root of characteristic polynomial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +184,15 @@
   },
   "active": "944b037da747c168",
   "lastOpenFiles": [
-    "Notes/Eigenvector; Eigenvalue.md",
     "Notes/Eigenvalue iff root of characteristic polynomial.md",
+    "Notes/Algebraic identities of vector spaces.md",
+    "Notes/Diagonalizable iff exists basis of eigenvectors.md",
+    "Notes/Eigenvector; Eigenvalue.md",
     "Notes/Matrix Invertibility Theorem.md",
     "Notes/Algebraic identities of matrix operations (linear map).md",
     "Notes/Cancellation laws (group).md",
     "Notes/Cancellation laws (invertible matrix).md",
     "Notes/Algebraic identities of matrix operations.md",
-    "Notes/Linear Span.md",
-    "Notes/Linear map invertible repr under basis matrix representation invertible.md",
-    "Notes/Invertible Matrix.md"
+    "Notes/Linear Span.md"
   ]
 }

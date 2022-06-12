@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 12/06/2022 10:58:02
 Tags: #Proposition #Closed
 
-Proved by: [[Algebraic identities of vector spaces]], [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md), [[Matrix Invertibility Theorem]]
+Proved by: [[Algebraic identities of matrix operations]], [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md), [[Matrix Invertibility Theorem]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
