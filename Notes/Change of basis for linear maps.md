@@ -4,7 +4,7 @@
 Date Created: 01/06/2022 17:22:00
 Tags: #Proposition #Closed
 
-Proved by: [[Composition of linear maps repr under basis matrix product of representations]]
+Proved by: [Composition of linear maps $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ matrix product of representations](Composition%20of%20linear%20maps%20repr%20under%20basis%20matrix%20product%20of%20representations.md), [[Algebraic identities of left-multiplication of matrices]], [$\psi_{\mc{B}\to\mc{B}'}$ is represented under standard basis by $\l[\id_V\r]_\mc{B}^{\mc{B}'}$](Basis%20transition%20map%20acts%20as%20left-multiplication%20by%20change%20of%20basis%20matrix.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -44,4 +44,4 @@ $$\begin{equation}
         &=\phi_{\mc{C}'}\circ\phi_\mc{C}^{-1}\circ L_A\circ\phi_{\mc{B}}\circ\phi_{\mc{B}'}^{-1}. && \textrm{Definition of basis transition maps}
     \end{aligned}
 \end{equation}$$
-Thus the outer loop commutes; the fact that the inner ones commute too are proven. This shows us how to compute $L_{A'}$ in terms of (a perhaps simpler) $L_A$.
+Thus the outer loop commutes; the fact that the inner ones commute too are proven. This shows us how to compute $L_{A'}$ in terms of (a perhaps simpler) $L_A$.<span style="float:right;">$\blacklozenge$</span>
