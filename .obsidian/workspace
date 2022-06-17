@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "050cc51611dec1e8",
+        "id": "25df0f445f83da2e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Change of basis for linear maps.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Change of basis for linear maps.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Change of basis for linear maps.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Change of basis for linear maps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "050cc51611dec1e8",
+  "active": "25df0f445f83da2e",
   "lastOpenFiles": [
-    "Notes/Strict lexicographical order is a strict partial order.md",
-    "Notes/Eigenvector; Eigenvalue.md",
-    "Notes/Eigenvalue iff root of characteristic polynomial.md",
-    "Notes/Algebraic identities of vector spaces.md",
-    "Notes/Diagonalizable iff exists basis of eigenvectors.md",
-    "Notes/Matrix Invertibility Theorem.md",
-    "Notes/Algebraic identities of matrix operations (linear map).md",
-    "Notes/Cancellation laws (group).md",
-    "Notes/Cancellation laws (invertible matrix).md",
-    "Notes/Algebraic identities of matrix operations.md"
+    "Notes/Change of basis for linear maps.md",
+    "Notes/Algebraic identities of left-multiplication of matrices.md",
+    "Notes/Basis transition map acts as left-multiplication by change of basis matrix.md",
+    "Notes/Basis Transition Map; Change of Basis Matrix.md",
+    "Notes/Composition of linear maps repr under basis matrix product of representations.md",
+    "Notes/Matrix Representation of a Linear Map.md",
+    "Notes/Linear map invertible repr under basis matrix representation invertible.md",
+    "Notes/Action of linear map repr under basis left-multiplication of matrix representation.md",
+    "Notes/Identity function on a vector space is represented by the identity matrix.md",
+    "Notes/Matrix invertible iff left-multiplication invertible.md"
   ]
 }
