@@ -18,9 +18,11 @@ Justifications: [[Unit element of a group is unique]], [[Inverse elements in a g
 title: Definition.
 
 _Let $G$ be a set and let $\ast$ be a binary operation on $G$. The pair $\tpl{G,\ast}$ is said to be a **group** if_
-* _$\axigrp[1]$ (Associativity)$\bf{.}$ $\fa g,h,k\in G:\l(g\ast h\r)\ast k=g\ast\l(h\ast k\r)$._
+* _$\axigrp[1]$ (Associativity)$\bf{.}$ $\fa g_1,g_2,g_3\in G:\l(g_1\ast g_2\r)\ast g_3=g_1\ast\l(g_2\ast g_3\r)$._
 * _$\axigrp[2]$ (Unit)$\bf{.}$ $\ex e\in G,\fa g\in G:g\ast e=g=e\ast g$._
 * _$\axigrp[3]$ (Inverse)$\bf{.}$ $\fa g\in G,\ex h\in G:g\ast h=e=h\ast g$._
+
+_The element $e\in G$ is called the **unit element of $G$**, and, for all $g\in G$, the element $g^{-1}\coloneqq h$ in $\axigrp[3]$ is called the **inverse element of $g$**._
 
 ```
 

@@ -7,8 +7,12 @@
         "id": "6ae63fcc9bfad767",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Group.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Group.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Group.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -151,7 +157,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.08197031681996654,
+                  "scale": 0.023628987074546273,
                   "close": true
                 }
               }
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +184,15 @@
   },
   "active": "6ae63fcc9bfad767",
   "lastOpenFiles": [
-    "Notes/Abelian Group.md",
-    "Notes/Linear subspace iff closed under linear combination.md",
     "Notes/Group.md",
-    "Notes/Vector Space.md",
+    "Notes/Inverse elements in a group are unique.md",
+    "Notes/Unit element of a group is unique.md",
     "Notes/Function Group.md",
-    "Notes/Function group is a group.md",
-    "Notes/Eigenvalue iff root of characteristic polynomial.md",
-    "Notes/Cancellation laws (group).md",
-    "Notes/Eigenvector; Eigenvalue.md",
-    "Notes/Diagonalizable Operator; Matrix.md"
+    "Notes/Groupoid.md",
+    "Notes/Bijection.md",
+    "Notes/Semigroup.md",
+    "Notes/Abelian Group.md",
+    "Notes/Trivial Group.md",
+    "Notes/Singleton.md"
   ]
 }
