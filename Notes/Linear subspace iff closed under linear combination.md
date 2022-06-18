@@ -27,9 +27,9 @@ _Let $\tpl{K,+,\cdot,0}$ be a field and consider a vector space $\mc{V}\coloneqq
 _Proof_.
 * ($\Rightarrow$): Assume that $\mc{U}$ is a vector space over $K$, so $\oplus'$ and $\odot'$ are both functions with codomain $U$; the fact that these operations are closed in $U$ follows readily. To see that $0_V\in U$, recall that for all $u\in U$, we have that $0\odot u=0_V$; since scalar-multiplication closes in $U$, the result follows.
 
-* ($\Leftarrow$): Conversely, we need to verify that $\mc{U}$ contains the data of a vector space and that the vector space axioms hold; the former is exactly our assumptions. For the axioms, observe that $\axigrp[1]$, $\axigrp[2]$, $\axiablngrp$, and all $\axivec$ quantify over elements in $V$. Since $U\subseteq V$, these axioms evidently also hold for elements in $U$.
+* ($\Leftarrow$): Conversely, we need to verify that $\mc{U}$ contains the data of a vector space and that the vector space axioms hold; the former is exactly our assumptions. Observe that all axioms that quantify over elements in $V$ quantify over elements in $U$, so they evidently also hold for elements in $U$ too.
 
-    Thus it suffices to check $\axigrp[3]$; that is, we need to verify that every $u\in U$ has an additive inverse $-u\in U$. Existence of such a $-u\in V$ is follows from $\axigrp[3]$ of $\mc{V}$, so it suffices to show that $-u\in U$. Observe, from the algebraic consequences of $\axivec$ on $\mc{V}$, that $-u=\l(-1\r)\odot u$. Since $-1\in K$ and $u\in U$, we see that $\l(-1\r)\odot u=\l(-1\r)\odot'u$ and thus $-u\in U$ because scalar multiplication on $\mc{U}$ is closed.<span style="float:right;">$\blacksquare$</span>
+    Thus it suffices to check that every $u\in U$ has an additive inverse $-u\in U$. Existence of such a $-u\in V$ is follows from its corresponding axiom in $\mc{V}$, so it suffices to show that $-u\in U$. Observe, from the algebraic consequences of the axioms in $\mc{V}$, that $-u=\l(-1\r)\odot u$. Since $-1\in K$ and $u\in U$, we see that $\l(-1\r)\odot u=\l(-1\r)\odot'u$ and thus $-u\in U$ because scalar multiplication on $\mc{U}$ is closed.<span style="float:right;">$\blacksquare$</span>
 
 ---
 
