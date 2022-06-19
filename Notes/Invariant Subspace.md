@@ -17,9 +17,10 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a vector space over some field $K$ and let $T:V\to V$. A linear subspace $U\subseteq V$ is called **$T$-invariant** if $\l.T\r|_U$ closes in $U$; that is, if_
-$$\begin{equation}
-    u\in U\ \ \ \ \Rightarrow\ \ \ \ T\l(u\r)\in U.
-\end{equation}$$
+_Let $V$ be a vector space over some field $K$ and let $T:V\to V$. A linear subspace $U\subseteq V$ is called **$T$-invariant** if $\im_T\l(U\r)\subseteq U$._
 
 ```
+
+**Remark.** Equivalently, $U$ is $T$-invariant if $\l.T\r|_U$ closes in $U$; that is, if $T\l(u\r)\in U$ whenever $u\in U$.
+* ($\Rightarrow$): Take $u\in U$. Since $T\l(u\r)\in\im_T\l(U\r)$, we have $T\l(u\r)\in U$.
+* ($\Leftarrow$): Take $u\in\im_T\l(U\r)$, so $\ex u_0\in U$ such that $T\l(u_0\r)=u$. But then $T\l(u_0\r)\in U$, so $u\in U$.<span style="float:right;">$\blacklozenge$</span>
