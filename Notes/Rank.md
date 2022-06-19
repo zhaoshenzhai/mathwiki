@@ -21,6 +21,7 @@ _Let $V$ and $W$ be vector spaces over some field $K$ and consider a linear map 
 $$\begin{equation}
     \rank T\coloneqq\dim\im T.
 \end{equation}$$
-_If $V$ and $W$ are finite-dimensional, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, we define the **rank of a matrix** $A\in\mat{m\times n}{K}$ as the rank of its associated left-multiplication map $L_A$._
 
 ```
+
+**Remark.** We define the **rank** of a matrix $A\in\mat{m\times n}{K}$ as $\rank A\coloneqq\rank L_A$.<span style="float:right;">$\blacklozenge$</span>

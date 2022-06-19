@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6ae63fcc9bfad767",
+        "id": "29274523e62176bb",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Group.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Group.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Group.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "6ae63fcc9bfad767",
+  "active": "29274523e62176bb",
   "lastOpenFiles": [
-    "Notes/Group.md",
-    "Notes/Inverse elements in a group are unique.md",
-    "Notes/Unit element of a group is unique.md",
-    "Notes/Function Group.md",
-    "Notes/Groupoid.md",
-    "Notes/Bijection.md",
-    "Notes/Semigroup.md",
-    "Notes/Abelian Group.md",
-    "Notes/Trivial Group.md",
-    "Notes/Singleton.md"
+    "Notes/Dimension Theorem.md",
+    "Notes/Nullity.md",
+    "Notes/Kernel; Null Space.md",
+    "Notes/Image; Column Space.md",
+    "Notes/Rank.md",
+    "Notes/Rank is preserved under multiplication by invertible matrices.md",
+    "Notes/Linear Subspace.md",
+    "Notes/Function.md",
+    "Notes/Covariant power set functor is a functor.md",
+    "Notes/Covariant Power Set Functor.md"
   ]
 }

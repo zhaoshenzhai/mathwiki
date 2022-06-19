@@ -24,6 +24,6 @@ title: Definition.
 
 _Let $V$ and $W$ be vector spaces over some field $K$ and consider a linear map $T:V\to W$. The **image of $T$** is the linear subspace $\im T$ of $W$._
 
-_If $V$ and $W$ are finite-dimensional, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, we define the **column space of a matrix** $A\in\mat{m\times n}{K}$ as the image of its associated left-multiplication map $L_A$; that is, $\col A\coloneqq\im L_A$._
-
 ```
+
+**Remark.** We define the **column space** of a matrix $A\in\mat{m\times n}{K}$ as $\col A\coloneqq\im L_A$.<span style="float:right;">$\blacklozenge$</span>
