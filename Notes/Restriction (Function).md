@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Inclusion Function]]
-Constructions: _Not Applicable_
+Constructions: [[Invariant Subspace]]
 Generalizations: [[Restriction (Relation)]]
 
 Properties: _Not Applicable_
