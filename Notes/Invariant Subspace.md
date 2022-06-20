@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [Linear map $T$ has eigenvector $v$ $\Leftrightarrow$ $\span\l\{v\r\}$ is $T$-invariant](Eigenvector%20iff%20span%20is%20invariant%20under%20linear%20map.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition
