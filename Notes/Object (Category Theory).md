@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Product (Category Theory; finite)]]
+Constructions: [[Product (Category Theory; binary)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

@@ -6,8 +6,8 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Projection Maps (Kuratowski)]], [[Product Space (Topology)]]
-Generalizations: [[Cartesian Product (Arbitrary)]], [[Product (Category Theory; finite)]]
+Constructions: [[Projection Maps (Kuratowski)]], [[Product Space (Topology)]], [[Direct Product (Vector Space)]]
+Generalizations: [[Cartesian Product (Arbitrary)]], [[Product (Category Theory; binary)]]
 
 Properties: [[Cartesian product is monotone w.r.t. subsets]], [[Cartesian product of intersections]]
 Sufficiencies: _Not Applicable_
