@@ -4,7 +4,7 @@
 Date Created: 03/04/2022 18:40:47
 Tags: #Proposition #Closed
 
-Proved by: [[Linear subspace iff closed under linear combination]]
+Proved by: [$U\subseteq V$ is a vector space $\Leftrightarrow$ $0\in U$ and restricted operations close in $U$](Linear%20subspace%20iff%20closed%20under%20linear%20combination.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 21/06/2022 08:05:38
 Tags: #Proposition #Closed
 
-Proved by: [[Linearly dependent iff exists span redundant element]]
+Proved by: [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

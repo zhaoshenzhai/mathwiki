@@ -115,7 +115,7 @@ while [ ! -z "$1" ]; do
             printf "\n"
         ;;
         --new|-n)
-            echo -e "${CYAN}Checking for new math links...${NC}"
+            echo -e "${CYAN}Generating math links...${NC}"
             allFiles=$(grep -l 'alias: auto_aliasing\|custom_alias:' *)
             allDoubleCurrent=$(sed 's/^/\[\[/g' <<< "$allFiles")
             allDoubleCurrent=$(sed 's/$/\]\]/g' <<< "$allDoubleCurrent")
