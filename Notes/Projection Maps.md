@@ -9,10 +9,10 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Projection maps are surjections]], [[Preimage under projection of subset]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Projection maps (arbitrary) are surjections]]
+Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.

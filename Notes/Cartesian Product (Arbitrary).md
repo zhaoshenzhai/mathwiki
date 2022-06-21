@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Function Space (Set Theory)]], [[Empty product is singleton of empty set]]
-Constructions: [[Projection Maps (Arbitrary)]], [[Tuples and Sequences]], [$n$-ary Operation](n-ary%20Operation.md)
+Constructions: [[Projection Maps]], [[Tuples and Sequences]], [$n$-ary Operation](n-ary%20Operation.md)
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

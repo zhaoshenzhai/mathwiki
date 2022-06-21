@@ -5,7 +5,7 @@ Date Created: 20/01/2022 09:09:09
 Tags: #Definition #Closed 
 
 Types: [[Bijection]]
-Examples: [[Canonical Projection]], [[Projection Maps (Kuratowski)]], [[Projection Maps (Arbitrary)]], [Linear map $V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective](Linear%20map%20between%20vector%20spaces%20of%20same%20dimension%20is%20injective%20iff%20surjective.md)
+Examples: [[Canonical Projection]], [[Projection Maps]], [Linear map $V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective](Linear%20map%20between%20vector%20spaces%20of%20same%20dimension%20is%20injective%20iff%20surjective.md)
 Constructs: _Not Applicable_
 Generalizations: _Not Applicable_
 
