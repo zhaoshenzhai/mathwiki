@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Product Space (Topology)]], [[Direct Product (Vector Space)]]
+Constructions: [[Product Space (Topology)]]
 Generalizations: [[Cartesian Product (Arbitrary)]], [[Product (Category Theory; binary)]]
 
 Properties: [[Cartesian product is monotone w.r.t. subsets]], [[Cartesian product of intersections]]

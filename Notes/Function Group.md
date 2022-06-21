@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Function group is a group]]
+Justifications: [Direct product of groups$\slash$function groups are groups](Direct%20product%20of%20groups;%20function%20groups%20are%20groups.md)
 
 ``` ad-Definition
 title: Definition.

@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "fac365668776b5e0",
+        "id": "1f50c7e3490c75e8",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "fac365668776b5e0",
+  "active": "1f50c7e3490c75e8",
   "lastOpenFiles": [
-    "Notes/Cartesian Product (Arbitrary).md",
-    "Notes/Cartesian Product (Kuratowski).md",
-    "Notes/Surjection.md",
-    "Notes/Preimage under projection of subset.md",
-    "Notes/Projection Maps.md",
-    "Notes/Binary Relation.md",
-    "Notes/Binary relation iff subset of Cartesian product.md",
-    "Notes/Cartesian product (Kuratowski) is a set (Power Set).md",
-    "Notes/Empty product is singleton of empty set.md",
-    "Notes/n-ary Operation.md"
+    "Notes/Direct Product (Vector Space).md",
+    "Notes/Direct product of vector spaces; function spaces are vector spaces.md",
+    "Notes/Vector Space.md",
+    "Notes/Function Space (Linear Algebra).md",
+    "Notes/Direct product of groups; function groups are groups.md",
+    "Notes/Vector Space of Matrices.md",
+    "Notes/Vector Space of Linear Maps.md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Function Group.md",
+    "Notes/Direct product of vector spaces is a vector space.md"
   ]
 }
