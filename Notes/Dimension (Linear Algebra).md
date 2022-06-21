@@ -9,7 +9,7 @@ Examples: [$\dim V=0$ $\Leftrightarrow$ $V=\l\{0\r\}$](Dimension%20of%20vector%2
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Dimension Theorem]], [$\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$](Dimension%20of%20subspace%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.;%20strict%20iff%20proper).md)
+Properties: [[Dimension Theorem]], [$\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$](Dimension%20of%20subspace%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.;%20strict%20iff%20proper).md), [[Dimension of finite direct product is additive]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Every vector space has a basis]], [[Invariance of cardinality of bases (finite-dim.)]]
