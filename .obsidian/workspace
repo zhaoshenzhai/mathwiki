@@ -4,36 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "63e57c89f96a1c91",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Product (Category Theory).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "4a2e3a643003b2c4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Cartesian Product (Kuratowski).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
         "id": "6bdce850e6daa5d9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Cartesian Product (Arbitrary).md",
+            "file": "Notes/Cartesian Product.md",
             "mode": "preview",
             "source": true
           }
@@ -97,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Product (Category Theory).md",
+                "file": "Notes/Cartesian Product.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Product (Category Theory).md",
+                "file": "Notes/Cartesian Product.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -193,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Product (Category Theory).md",
+                "file": "Notes/Cartesian Product.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "63e57c89f96a1c91",
+  "active": "6bdce850e6daa5d9",
   "lastOpenFiles": [
+    "Notes/Cartesian Product.md",
+    "Notes/Cartesian product is a product in Set.md",
     "Notes/Product (Category Theory).md",
-    "Notes/Category (via Directed Graphs).md",
-    "Notes/Category (via Hom-classes).md",
-    "Notes/Object (Category Theory).md",
-    "Notes/Morphism (Category Theory).md",
-    "Notes/Cartesian Product (Kuratowski).md",
-    "Notes/Cartesian Product (Arbitrary).md",
-    "Notes/Binary relation iff subset of Cartesian product.md",
-    "Notes/Composition of relations is a relation.md",
-    "Notes/Cartesian product of intersections.md"
+    "Notes/Empty product is singleton of empty set.md",
+    "Notes/Cartesian-Kuratowski Product.md",
+    "Notes/Binary Relation.md",
+    "Notes/Cartesian product is monotone w.r.t. subsets.md",
+    "Notes/Cartesian-Kuratowski product is a set (Replacement).md",
+    "Notes/Cartesian-Kuratowski product is a set (Power Set).md",
+    "Notes/Binary relation iff subset of Cartesian-Kuratowski product.md"
   ]
 }

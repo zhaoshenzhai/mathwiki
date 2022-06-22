@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [Binary relation $\Leftrightarrow$ subset of Cartesian product](Binary%20relation%20iff%20subset%20of%20Cartesian%20product.md)
+Equivalences: [Binary relation $\Leftrightarrow$ subset of Cartesian-Kuratowski product](Binary%20relation%20iff%20subset%20of%20Cartesian-Kuratowski%20product.md)
 Justifications: _Not Applicable_
 
 ``` ad-Definition

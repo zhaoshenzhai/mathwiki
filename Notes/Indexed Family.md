@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Tuples and Sequences]]
-Constructions: [[Cartesian Product (Arbitrary)]]
+Constructions: _Not Applicable_
 Generalizations: [[Diagram]]
 
 Properties: _Not Applicable_

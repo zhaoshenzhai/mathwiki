@@ -6,13 +6,13 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Product Space (Topology)]]
-Generalizations: [[Cartesian Product (Arbitrary)]]
+Constructions: _Not Applicable_
+Generalizations: [[Cartesian Product]]
 
 Properties: [[Cartesian product is monotone w.r.t. subsets]], [[Cartesian product of intersections]]
 Sufficiencies: _Not Applicable_
-Equivalences: [Binary relation $\Leftrightarrow$ subset of Cartesian product](Binary%20relation%20iff%20subset%20of%20Cartesian%20product.md)
-Justifications: [[Cartesian product (Kuratowski) is a set (Power Set)]], [[Cartesian product (Kuratowski) is a set (Replacement)]]
+Equivalences: [Binary relation $\Leftrightarrow$ subset of Cartesian-Kuratowski product](Binary%20relation%20iff%20subset%20of%20Cartesian-Kuratowski%20product.md)
+Justifications: [[Cartesian-Kuratowski product is a set (Power Set)]], [[Cartesian-Kuratowski product is a set (Replacement)]]
 
 ``` ad-Definition
 title: Definition.
