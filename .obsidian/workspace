@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Direct Product (Vector Space).md",
+            "file": "Notes/Dimension of finite direct product is additive.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Direct Product (Vector Space).md",
+                "file": "Notes/Dimension of finite direct product is additive.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Direct Product (Vector Space).md",
+                "file": "Notes/Dimension of finite direct product is additive.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Direct Product (Vector Space).md",
+                "file": "Notes/Dimension of finite direct product is additive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,15 +184,15 @@
   },
   "active": "a0d4df014ae8ea9b",
   "lastOpenFiles": [
+    "Notes/Dimension of finite direct product is additive.md",
+    "Notes/Unique Representation Theorem (Hamel).md",
     "Notes/Direct Product (Vector Space).md",
     "Notes/Dimension (Linear Algebra).md",
-    "Notes/Dimension of finite direct product is additive.md",
     "Notes/Commutative Diagram.md",
     "Notes/Diagram.md",
     "Notes/Indexed Family.md",
     "Notes/Cartesian Product (Arbitrary).md",
     "Notes/Lexicographical Order.md",
-    "Notes/Lexicographical order is total if orders are total.md",
-    "Notes/Dimension Theorem.md"
+    "Notes/Lexicographical order is total if orders are total.md"
   ]
 }

@@ -39,9 +39,9 @@ $$\begin{equation}
             0_{V_k} & \textrm{else}
         \end{dcases}
 \end{equation}$$
-is a modified version of the Kronecker Delta in order to obtain the appropriate zeros, and the lexicographical order on $\l\{1,\dots,m\r\}\times\l\{1,\dots,d_i\r\}$ is used to make $\mc{C}$ into an ordered basis.
+is a modified version of the Kronecker Delta in order to obtain the appropriate zeros, and the lexicographical order on $\l\{1,\dots,d_i\r\}\times\l\{1,\dots,m\r\}$ is used to make $\mc{C}$ into an ordered basis.
 
-It remains to show that $\mc{C}$ is a basis of $\prod_{i=1}^mV_i$ which we shall do so by showing that each $v\in\prod_{i=1}^mV_i$ can be written uniquely as a linear combination of elements in $\mc{C}$. Since $v\in\prod_{i=1}^mV_i$, there exist $v_i\in V_i$ for each $i\in\l\{1,\dots,m\r\}$ such that $v=\tpl{v_1,\dots,v_m}$. Since $\mc{B}_i$ is a basis for $V_i$, there exist unique scalars $\alpha_ij\in K$ such that
+It remains to show that $\mc{C}$ is a basis of $\prod_{i=1}^mV_i$, which we shall do so by showing that each $v\in\prod_{i=1}^mV_i$ can be uniquely represented as a linear combination of elements in $\mc{C}$. Since $v\in\prod_{i=1}^mV_i$, we see that $v=\tpl{v_1,\dots,v_m}$ for some unique vectors $v_i\in V_i$, each of which can be uniquely represented as a linear combination of vectors in $\mc{B}_i$ with the scalars $\alpha_{ij}\in K$ as
 $$\begin{equation}
     v_i=\sum_{j=1}^{d_i}\alpha_{ij}b_{ij}.\tag{$\ast$}
 \end{equation}$$
