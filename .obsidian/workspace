@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6bdce850e6daa5d9",
+        "id": "7772153500e0027f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Cartesian Product.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -182,17 +178,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "6bdce850e6daa5d9",
+  "active": "7772153500e0027f",
   "lastOpenFiles": [
     "Notes/Cartesian Product.md",
-    "Notes/Cartesian product is a product in Set.md",
+    "Notes/Projection Maps.md",
+    "Notes/Direct Product (Vector Space).md",
     "Notes/Product (Category Theory).md",
+    "Notes/Direct product of vector spaces is a product in Vect.md",
+    "Notes/Product Space (Topology).md",
+    "Notes/Strict lexicographical order is a strict partial order.md",
+    "Notes/Cartesian product is a product in Set.md",
     "Notes/Empty product is singleton of empty set.md",
-    "Notes/Cartesian-Kuratowski Product.md",
-    "Notes/Binary Relation.md",
-    "Notes/Cartesian product is monotone w.r.t. subsets.md",
-    "Notes/Cartesian-Kuratowski product is a set (Replacement).md",
-    "Notes/Cartesian-Kuratowski product is a set (Power Set).md",
-    "Notes/Binary relation iff subset of Cartesian-Kuratowski product.md"
+    "Notes/Cartesian-Kuratowski Product.md"
   ]
 }

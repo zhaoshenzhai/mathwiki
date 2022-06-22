@@ -5,7 +5,7 @@ Date Created: 12/03/2022 11:37:51
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [[Cartesian Product]]
+Examples: [[Cartesian Product]], [[Direct Product (Vector Space)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

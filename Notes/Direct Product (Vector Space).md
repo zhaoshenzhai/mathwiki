@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: [[Dimension of finite direct product is additive]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [Direct product of vector spaces$\slash$function spaces are vector spaces](Direct%20product%20of%20vector%20spaces;%20function%20spaces%20are%20vector%20spaces.md)
+Justifications: [Direct product of vector spaces$\slash$function spaces are vector spaces](Direct%20product%20of%20vector%20spaces;%20function%20spaces%20are%20vector%20spaces.md), [Direct product of vector spaces is a product in $\catvect[K]$](Direct%20product%20of%20vector%20spaces%20is%20a%20product%20in%20Vect.md)
 
 ``` ad-Definition
 title: Definition.
@@ -22,3 +22,5 @@ _Let_ $\l\{V\r\}_{i\in I}$ _be an indexed family of vector spaces over some fiel
 * _the left $K$-action $\boxdot$ on_ $\prod_{i\in I}V_i$ _defined, for all $\alpha\in K$ and_ $f\in\prod_{i\in I}V_i$_, by $\l(\alpha\boxdot f\r)\l(i\r)\coloneqq\alpha\cdot f\l(i\r)$ for all $i\in I$._
 
 ```
+
+**Remark.** The direct product $\prod_{i\in I}V_i$, equipped with the projection maps $\l\{\pi_i\r\}_{i\in I}$, is a product in $\catvect[K]$.<span style="float:right;">$\blacklozenge$</span>
