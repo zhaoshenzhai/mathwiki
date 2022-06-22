@@ -14,18 +14,6 @@
             "source": true
           }
         }
-      },
-      {
-        "id": "5b343c59a7b9a650",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Dimension of finite direct product is additive.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -85,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Dimension of finite direct product is additive.md",
+                "file": "Notes/Direct Product (Vector Space).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Dimension of finite direct product is additive.md",
+                "file": "Notes/Direct Product (Vector Space).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Dimension of finite direct product is additive.md",
+                "file": "Notes/Direct Product (Vector Space).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "5b343c59a7b9a650",
+  "active": "a0d4df014ae8ea9b",
   "lastOpenFiles": [
-    "Notes/Dimension of finite direct product is additive.md",
     "Notes/Direct Product (Vector Space).md",
     "Notes/Dimension (Linear Algebra).md",
-    "Notes/Dimension Theorem.md",
-    "Notes/Rank.md",
-    "Notes/Direct product of groups; function groups are groups.md",
-    "Notes/Arbitrary intersection of linear subspaces is a linear subspace.md",
-    "Notes/Distinct eigenvalues implies linearly independent eigenvectors.md",
-    "Notes/Vector Space.md",
-    "Notes/Direct product of vector spaces; function spaces are vector spaces.md"
+    "Notes/Dimension of finite direct product is additive.md",
+    "Notes/Commutative Diagram.md",
+    "Notes/Diagram.md",
+    "Notes/Indexed Family.md",
+    "Notes/Cartesian Product (Arbitrary).md",
+    "Notes/Lexicographical Order.md",
+    "Notes/Lexicographical order is total if orders are total.md",
+    "Notes/Dimension Theorem.md"
   ]
 }
