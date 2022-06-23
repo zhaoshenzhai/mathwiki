@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0b441972f3c641dd",
+        "id": "981c2bf3620cc71e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Inner Product Space.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "e504582955774215",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Order Topology.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "a7c74385f2da82af",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Order Space (Topology).md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -97,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Inner Product Space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Inner Product Space.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -193,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Inner Product Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "0b441972f3c641dd",
+  "active": "981c2bf3620cc71e",
   "lastOpenFiles": [
-    "Notes/Inner Product Space.md",
-    "Notes/Vector Space.md",
-    "Notes/Linear Combination.md",
-    "Notes/Linear Map.md",
-    "Notes/Order Topology.md",
     "Notes/Order Space (Topology).md",
-    "Notes/Topological Space.md",
-    "Notes/Topological Subspace.md",
-    "Notes/Topology on a Set.md",
-    "Notes/Cocountable Topology.md"
+    "Notes/Order topology is a topology.md",
+    "Notes/Order Topology.md",
+    "Notes/Lexicographical Order Topology.md",
+    "Notes/Ordered Square.md",
+    "Notes/Standard Topology on N.md",
+    "Notes/Standard topology on N is the discrete topology on N.md",
+    "Notes/Lexicographical Order Topology on R2.md",
+    "Notes/Comparison of topologies on the ordered square.md",
+    "Notes/Restricted order topology subset of subspace topology.md"
   ]
 }
