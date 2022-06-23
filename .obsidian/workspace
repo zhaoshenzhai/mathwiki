@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "7772153500e0027f",
+        "id": "0b441972f3c641dd",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Inner Product Space.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "e504582955774215",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Order Topology.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "a7c74385f2da82af",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Order Space (Topology).md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:In_Progress",
+                "query": "tag:#In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Cartesian Product.md",
+                "file": "Notes/Inner Product Space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Cartesian Product.md",
+                "file": "Notes/Inner Product Space.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -165,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Cartesian Product.md",
+                "file": "Notes/Inner Product Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,17 +206,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "7772153500e0027f",
+  "active": "0b441972f3c641dd",
   "lastOpenFiles": [
-    "Notes/Cartesian Product.md",
-    "Notes/Projection Maps.md",
-    "Notes/Direct Product (Vector Space).md",
-    "Notes/Product (Category Theory).md",
-    "Notes/Direct product of vector spaces is a product in Vect.md",
-    "Notes/Product Space (Topology).md",
-    "Notes/Strict lexicographical order is a strict partial order.md",
-    "Notes/Cartesian product is a product in Set.md",
-    "Notes/Empty product is singleton of empty set.md",
-    "Notes/Cartesian-Kuratowski Product.md"
+    "Notes/Inner Product Space.md",
+    "Notes/Vector Space.md",
+    "Notes/Linear Combination.md",
+    "Notes/Linear Map.md",
+    "Notes/Order Topology.md",
+    "Notes/Order Space (Topology).md",
+    "Notes/Topological Space.md",
+    "Notes/Topological Subspace.md",
+    "Notes/Topology on a Set.md",
+    "Notes/Cocountable Topology.md"
   ]
 }

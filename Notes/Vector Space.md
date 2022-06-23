@@ -4,7 +4,7 @@
 Date Created: 27/03/2022 21:04:03
 Tags: #Definition #Closed 
 
-Types: [[Finite-dimensional Vector Space]]
+Types: [[Finite-dimensional Vector Space]], [[Inner Product Space]]
 Examples: [[Function Space (Linear Algebra)]]
 Constructions: [[Linear Combination]], [[Linear Map]], [[Linear Subspace]], [[Direct Product (Vector Space)]], [$\catvect[K]$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
