@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "bb0034fef2ad2f08",
+        "id": "5e0ba1cc655fb2eb",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Multilinear Map.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Multilinear Map.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Multilinear Map.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Multilinear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "bb0034fef2ad2f08",
+  "active": "5e0ba1cc655fb2eb",
   "lastOpenFiles": [
-    "Notes/Vector Space of Matrices.md",
-    "Notes/Internal Direct Sum (Linear Algebra).md",
-    "Notes/Vector Space of Skew-symmetric Matrices.md",
-    "Notes/Vector Space of Symmetric Matrices.md",
-    "Notes/Function Space (Linear Algebra).md",
-    "Notes/Vector Space.md",
-    "Notes/Trivial Subspaces (Linear Algebra).md",
-    "Notes/Linear subspace iff closed under linear combination.md",
-    "Notes/Linear map fixes zero vector.md",
-    "Notes/Algebraic identities of vector spaces.md"
+    "Notes/Multilinear Map.md",
+    "Notes/Bilinear Map.md",
+    "Notes/Inner Product Space.md",
+    "Notes/Sesquilinear Form.md",
+    "Notes/Linear Map.md",
+    "Notes/Vector Space of Linear Maps.md",
+    "Notes/Function.md",
+    "Notes/Antisymmetric Relation.md",
+    "Notes/Algebraic identities of inner product spaces.md",
+    "Notes/Inner Product.md"
   ]
 }
