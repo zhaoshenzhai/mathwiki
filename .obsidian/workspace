@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "981c2bf3620cc71e",
+        "id": "3cc050dafda3d119",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Euclidean Vector Space.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Euclidean Vector Space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Euclidean Vector Space.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Euclidean Vector Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "981c2bf3620cc71e",
+  "active": "3cc050dafda3d119",
   "lastOpenFiles": [
-    "Notes/Order Space (Topology).md",
-    "Notes/Order topology is a topology.md",
-    "Notes/Order Topology.md",
-    "Notes/Lexicographical Order Topology.md",
-    "Notes/Ordered Square.md",
-    "Notes/Standard Topology on N.md",
-    "Notes/Standard topology on N is the discrete topology on N.md",
-    "Notes/Lexicographical Order Topology on R2.md",
-    "Notes/Comparison of topologies on the ordered square.md",
-    "Notes/Restricted order topology subset of subspace topology.md"
+    "Notes/Euclidean Vector Space.md",
+    "Notes/Real Coordinate Space.md",
+    "Notes/Matrix Multiplication.md",
+    "Notes/Set of Matrices.md",
+    "Notes/Matrix.md",
+    "Notes/Matrix multiplication over R (dot product).md",
+    "Notes/Dot product is an inner product.md",
+    "Notes/Inner Product Space.md",
+    "Notes/Tuple Space (Linear Algebra).md",
+    "Notes/Order Space (Topology).md"
   ]
 }

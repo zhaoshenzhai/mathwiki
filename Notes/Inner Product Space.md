@@ -5,7 +5,7 @@ Date Created: 23/06/2022 08:01:27
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Euclidean Vector Space]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
