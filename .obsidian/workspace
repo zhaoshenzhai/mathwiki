@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e088cd3a7db8b7bb",
+        "id": "5ab631d680068a4c",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Norm.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "9e93fdcb99ef7c93",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Inner product induces a norm.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Inner product induces a norm.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Inner product induces a norm.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +151,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.07759505950448359,
+                  "scale": 0.05226024760733548,
                   "close": true
                 }
               }
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Inner product induces a norm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "9e93fdcb99ef7c93",
+  "active": "5ab631d680068a4c",
   "lastOpenFiles": [
+    "Notes/Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper).md",
     "Notes/Inner product induces a norm.md",
-    "Notes/Norm.md",
-    "Notes/Sesquilinear Form.md",
     "Notes/Inner Product.md",
-    "Notes/Norm Induced by an Inner Prduct.md",
     "Notes/Inner Product Space.md",
+    "Notes/Normed Vector Space.md",
+    "Notes/Norm.md",
     "Notes/Euclidean Vector Space.md",
-    "Notes/Hermitian Form.md",
-    "Notes/Dot product is an inner product.md",
-    "Notes/Hermitian forms are sesquilinear.md"
+    "Notes/Symmetric Relation.md",
+    "Notes/Orthogonality.md",
+    "Notes/Norm Induced by an Inner Prduct.md"
   ]
 }

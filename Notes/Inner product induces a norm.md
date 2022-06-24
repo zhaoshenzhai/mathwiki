@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 24/06/2022 14:07:51
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Later/Linear_Algebra/Orthogonality
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
@@ -30,7 +30,7 @@ $$\begin{equation}
     \begin{aligned}
         \|\alpha v\|^2&=\bilform{\alpha v}{\alpha v} && \textrm{Definition of $\|\slot\|$} \\
         &=\alpha\bar{\alpha}\bilform{v}{v} && \textrm{Sesquilinearity of $\bilform{\slot}{\slot}$} \\
-        &=\l|\alpha\r|^2\bilform{v}{v} && \textrm{Definition of $\l|\slot\r|$} \\
+        &=\l|\alpha\r|^2\bilform{v}{v} && \textrm{Definition of $\l|\,\slot\,\r|$} \\
         &=\l|\alpha\r|^2\|v\|^2; && \textrm{Definition of $\|\slot\|$}
     \end{aligned}
 \end{equation}$$

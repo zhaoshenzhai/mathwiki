@@ -5,7 +5,7 @@ Date Created: 19/01/2022 17:36:50
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Examples: [[Orthogonality]]
 Constructions: [[Equivalence Relation]]
 Generalizations: _Not Applicable_
 
