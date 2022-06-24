@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5e0ba1cc655fb2eb",
+        "id": "e088cd3a7db8b7bb",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Multilinear Map.md",
+            "file": "Notes/Norm.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "9e93fdcb99ef7c93",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Inner product induces a norm.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Multilinear Map.md",
+                "file": "Notes/Inner product induces a norm.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +117,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Multilinear Map.md",
+                "file": "Notes/Inner product induces a norm.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Multilinear Map.md",
+                "file": "Notes/Inner product induces a norm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +194,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "5e0ba1cc655fb2eb",
+  "active": "9e93fdcb99ef7c93",
   "lastOpenFiles": [
-    "Notes/Multilinear Map.md",
-    "Notes/Bilinear Map.md",
-    "Notes/Inner Product Space.md",
+    "Notes/Inner product induces a norm.md",
+    "Notes/Norm.md",
     "Notes/Sesquilinear Form.md",
-    "Notes/Linear Map.md",
-    "Notes/Vector Space of Linear Maps.md",
-    "Notes/Function.md",
-    "Notes/Antisymmetric Relation.md",
-    "Notes/Algebraic identities of inner product spaces.md",
-    "Notes/Inner Product.md"
+    "Notes/Inner Product.md",
+    "Notes/Norm Induced by an Inner Prduct.md",
+    "Notes/Inner Product Space.md",
+    "Notes/Euclidean Vector Space.md",
+    "Notes/Hermitian Form.md",
+    "Notes/Dot product is an inner product.md",
+    "Notes/Hermitian forms are sesquilinear.md"
   ]
 }

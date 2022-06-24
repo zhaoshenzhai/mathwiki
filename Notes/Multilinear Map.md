@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 23/06/2022 10:53:56
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [[Bilinear Map]]

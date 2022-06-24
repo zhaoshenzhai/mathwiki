@@ -19,7 +19,7 @@ title: Definition.
 
 _Fix $n\in\N$. The **Euclidean vector space of dimension $n$** is the real $n$-coordinate space $\R^n$ equipped with the inner product_
 $$\begin{equation}
-    \inpro{\slot}{\slot}:\R^n\times\R^n\to\R\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ \tpl{\v{x},\v{y}}\mapsto\sum_{i=1}^nx_iy_i
+    \bilform{\slot}{\slot}:\R^n\times\R^n\to\R\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ \tpl{\v{x},\v{y}}\mapsto\sum_{i=1}^nx_iy_i
 \end{equation}$$
 _called the **dot product on $\R^n$** (denoted $\v{x}\dotpro\v{y}$). This makes $\R^n$ into an inner product space._
 
