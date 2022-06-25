@@ -5,7 +5,7 @@ Date Created: 14/05/2022 11:14:15
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Orthogonal Complement]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

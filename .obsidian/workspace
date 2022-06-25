@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5ab631d680068a4c",
+        "id": "fcb9172697db77c8",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Orthogonal Decomposition.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Orthogonal Decomposition.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Orthogonal Decomposition.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Orthogonal Decomposition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "5ab631d680068a4c",
+  "active": "fcb9172697db77c8",
   "lastOpenFiles": [
-    "Notes/Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper).md",
+    "Notes/Orthogonal Decomposition.md",
     "Notes/Inner product induces a norm.md",
-    "Notes/Inner Product.md",
+    "Notes/Subspaces of finite-dim. vector spaces have complements.md",
+    "Notes/Complement (Linear Subspace).md",
+    "Notes/Orthogonal Complement.md",
+    "Notes/Symmetric and skew-symmetric decomposition of matrices.md",
+    "Notes/Algebraic identities of orthogonal complements.md",
     "Notes/Inner Product Space.md",
-    "Notes/Normed Vector Space.md",
-    "Notes/Norm.md",
-    "Notes/Euclidean Vector Space.md",
-    "Notes/Symmetric Relation.md",
-    "Notes/Orthogonality.md",
-    "Notes/Norm Induced by an Inner Prduct.md"
+    "Notes/Dimension (Linear Algebra).md",
+    "Notes/Orthogonality.md"
   ]
 }
