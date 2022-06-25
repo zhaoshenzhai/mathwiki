@@ -25,7 +25,7 @@ _such that:_
 * _(Positive-definiteness): $\fa v\in V:\bilform{v}{v}\geq0$; equality holds iff $v=0$._
 
 * _(Linearity in the first slot): $\fa v_1,v_2,w\in V,\fa\alpha\in\C:\bilform{\alpha v_1+v_2}{w}=\alpha\bilform{v_1}{w}+\bilform{v_2}{w}$._
-* _(Conjugate symmetry): $\fa v_1,v_2\in V:\bilform{v_1}{v_2}=\bar{\bilform{v_2}{v_1}}$._
+* _(Conjugate-symmetry): $\fa v_1,v_2\in V:\bilform{v_1}{v_2}=\bar{\bilform{v_2}{v_1}}$._
 
 ```
 

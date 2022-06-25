@@ -6,10 +6,10 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Orthogonal Complement]]
+Constructions: [[Orthogonal Complement]], [[Orthonormal Set]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Algebraic identities of orthogonal vectors]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
