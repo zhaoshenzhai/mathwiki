@@ -8,7 +8,7 @@ custom_alias: $\KtopR$ strictly finer than $\sttopR$
 Date Created: 05/02/2022 11:07:34
 Tags: #Proposition #Closed 
 
-Proved by: [[Criteria for fineness w.r.t. bases]]
+Proved by: [[Criteria for fineness w.r.t. bases]], [[Rationals is dense in reals]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

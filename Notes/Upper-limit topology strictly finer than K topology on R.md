@@ -8,7 +8,7 @@ custom_alias: $\ULtopR$ strictly finer than $\KtopR$
 Date Created: 05/02/2022 10:24:48
 Tags: #Proposition #Closed 
 
-Proved by: [[Criteria for fineness w.r.t. bases]], [$\ULtopR$ strictly finer than $\sttopR$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md)
+Proved by: [[Criteria for fineness w.r.t. bases]], [$\ULtopR$ strictly finer than $\sttopR$](Upper-limit%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R.md), [[Rationals is dense in reals]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

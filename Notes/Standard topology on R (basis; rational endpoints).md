@@ -8,7 +8,7 @@ alias: auto_aliasing
 Date Created: 04/02/2022 14:47:46
 Tags: #Proposition #Closed 
 
-Proved by: [[Criteria for collection to be a basis for an existing topology]]
+Proved by: [[Criteria for collection to be a basis for an existing topology]], [[Rationals is dense in reals]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
