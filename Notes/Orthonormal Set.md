@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 25/06/2022 20:20:50
-Tags: #Definition #In_Progress
+Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. An indexed subset_ $\l\{u_i\r\}_{i\in I}\subseteq V$ _is said to be **orthonormal** if_
+_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. An indexed subset_ $\l\{u_i\r\}_{i\in I}\subseteq V$ _is called an **orthonormal set** if_
 $$\begin{equation}
     \bilform{u_i}{u_j}=
         \begin{dcases}

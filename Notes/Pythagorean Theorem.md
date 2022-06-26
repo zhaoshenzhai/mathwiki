@@ -1,0 +1,40 @@
+<br />
+<br />
+
+Date Created: 26/06/2022 16:54:24
+Tags: #Proposition #Closed
+
+Proved by: _Not Applicable_
+Justifications: _Not Applicable_
+
+Generalizations: _Not Applicable_
+Counterexamples: _Not Applicable_
+
+``` ad-Proposition
+title: Proposition.
+
+_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. For any orthogonal set $\l\{v_1,\dots,v_m\r\}$ in $V$, we have_
+$$\begin{equation}
+    \l\|\sum_{i=1}^mv_i\r\|^2=\sum_{i=1}^m\l\|v_i\r\|^2.
+\end{equation}$$
+
+```
+
+_Proof_. We proceed by induction on $m$. The base case for when $m=1$ is obviously true, so assume that
+$$\begin{equation}
+    \l\|\sum_{i=1}^kv_i\r\|^2=\sum_{i=1}^k\l\|v_i\r\|^2
+\end{equation}$$
+for some $k\in\N^\ast$. Then
+$$\begin{align}
+    \l\|\sum_{i=1}^{k+1}v_i\r\|^2&=\l\|\sum_{i=1}^kv_i+v_{k+1}\r\|^2 && \textrm{Expand the sum} \\
+    &=\bilform{\sum_{i=1}^kv_i+v_{k+1}}{\sum_{i=1}^kv_i+v_{k+1}} && \textrm{Definition of $\|\slot\|$} \\
+    &=\bilform{\sum_{i=1}^kv_i}{\sum_{i=1}^kv_i}+\bilform{\sum_{i=1}^kv_i}{v_{k+1}}+\bilform{v_{k+1}}{\sum_{i=1}^kv_i}+\bilform{v_{k+1}}{v_{k+1}} && \textrm{Additivity} \\
+    &=\l\|\sum_{i=1}^kv_i\r\|^2+\l\|v_{k+1}\r\|^2+\bilform{\sum_{i=1}^kv_i}{v_{k+1}}+\bilform{v_{k+1}}{\sum_{i=1}^kv_i} && \textrm{Definition of $\|\slot\|$} \\
+    &=\sum_{i=1}^k\l\|v_i\r\|^2+\l\|v_{k+1}\r\|^2+\bilform{\sum_{i=1}^kv_i}{v_{k+1}}+\bilform{v_{k+1}}{\sum_{i=1}^kv_i} && \textrm{Induction hypothesis} \\
+    &=\sum_{i=1}^{k+1}\l\|v_i\r\|^2+\bilform{\sum_{i=1}^kv_i}{v_{k+1}}+\bilform{v_{k+1}}{\sum_{i=1}^kv_i} && \textrm{Combine sums} \\
+    &=\sum_{i=1}^{k+1}\l\|v_i\r\|^2+\bilform{\sum_{i=1}^kv_i}{v_{k+1}}+\bar{\bilform{\sum_{i=1}^kv_i}{v_{k+1}}} && \textrm{Conjugate-symmetry} \\
+    &=\sum_{i=1}^{k+1}\l\|v_i\r\|^2+2\Re\bilform{\sum_{i=1}^kv_i}{v_{k+1}} && 2\Re z=z+\bar{z} \\
+    &=\sum_{i=1}^{k+1}\l\|v_i\r\|^2+2\Re\l(\sum_{i=1}^k\bilform{v_i}{v_{k+1}}\r) && \textrm{Additivity} \\
+    &=\sum_{i=1}^{k+1}\l\|v_i\r\|^2+2\Re0 && v_i\perp v_{k+1}\textrm{ for all }i\in I \\
+    &=\sum_{i=1}^{k+1}\l\|v_i\r\|^2. && \textrm{Simplification}\qedin
+\end{align}$$

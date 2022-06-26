@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a88af9cd16280225",
+        "id": "7c956f871624693e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Orthogonal Set.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Orthogonal Set.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Orthogonal Set.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Orthogonal Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "a88af9cd16280225",
+  "active": "7c956f871624693e",
   "lastOpenFiles": [
-    "Notes/Rational convex set (not interval).md",
-    "Notes/Lower and K topologies are not comparable on R.md",
-    "Notes/Upper-limit topology strictly finer than K topology on R.md",
-    "Notes/Comparison of topologies on R.md",
-    "Notes/Upper-limit Topology on R.md",
-    "Notes/K topology strictly finer than standard topology on R.md",
-    "Notes/Standard topology on R (basis; rational endpoints).md",
-    "Notes/Orthonormal Set.md",
+    "Notes/Orthogonal Set.md",
+    "Notes/Pythagorean Theorem.md",
     "Notes/Orthogonality.md",
-    "Notes/Orthogonal Complement.md"
+    "Notes/Norm Induced by an Inner Prduct.md",
+    "Notes/Orthonormal Set.md",
+    "Notes/Orthogonal Decomposition.md",
+    "Notes/Orthogonal Complement.md",
+    "Notes/Inner Product Space.md",
+    "Notes/Inner Product.md",
+    "Notes/Algebraic identities of orthogonal complements.md"
   ]
 }
