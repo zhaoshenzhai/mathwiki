@@ -10,7 +10,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Steinitz Exchange Lemma]], [[Linearly independent subset of a vector space extends to a basis]], [Linearly independent $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis](Linearly%20independent%20subset%20with%20same%20cardinality%20as%20dimension%20(finite)%20is%20a%20basis.md), [[Linearly independent subset cannot contain the zero vector]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Orthonormal sets are linearly independent]]
 Equivalences: [Linearly dependent $\Leftrightarrow$ scalar multiple](Linearly%20dependent%20iff%20scalar%20multiple.md), [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
 Justifications: _Not Applicable_
 

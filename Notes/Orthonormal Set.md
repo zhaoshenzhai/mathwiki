@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Orthonormal sets are linearly independent]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
@@ -19,11 +19,7 @@ title: Definition.
 
 _Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. An indexed subset_ $\l\{u_i\r\}_{i\in I}\subseteq V$ _is called an **orthonormal set** if_
 $$\begin{equation}
-    \bilform{u_i}{u_j}=
-        \begin{dcases}
-            1 & \textrm{\it{if\hspace{0.1in}}}i=j \\
-            0 & \textrm{\it{else}}
-        \end{dcases}
+    \bilform{u_i}{u_j}=\delta_{ij}
 \end{equation}$$
 _for all $i,j\in I$._
 

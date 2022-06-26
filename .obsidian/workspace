@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "58d6a00f1d02ffcf",
+        "id": "8176ed8c1783a891",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "58d6a00f1d02ffcf",
+  "active": "8176ed8c1783a891",
   "lastOpenFiles": [
-    "Notes/Inner product induces a norm.md",
-    "Notes/Cauchy-Schwarz Inequality.md",
-    "Notes/Norm Induced by an Inner Prduct.md",
-    "Notes/Linearly dependent iff scalar multiple.md",
+    "Notes/Orthonormal sets are linearly independent.md",
+    "Notes/Orthonormal Set.md",
+    "Notes/Algebraic identities of orthogonal complements.md",
+    "Notes/Algebraic identities of orthogonal vectors.md",
+    "Notes/Linear Independence.md",
     "Notes/Pythagorean Theorem.md",
     "Notes/Orthogonal Set.md",
-    "Notes/Inner Product Space.md",
-    "Notes/Inner Product.md",
     "Notes/Orthogonality.md",
-    "Notes/Orthonormal Set.md"
+    "Notes/Inner product induces a norm.md",
+    "Notes/Cauchy-Schwarz Inequality.md"
   ]
 }
