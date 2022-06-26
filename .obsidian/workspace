@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8176ed8c1783a891",
+        "id": "b6ac348851f8b040",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,8 +175,9 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "8176ed8c1783a891",
+  "active": "b6ac348851f8b040",
   "lastOpenFiles": [
+    "Notes/Function.md",
     "Notes/Orthonormal sets are linearly independent.md",
     "Notes/Orthonormal Set.md",
     "Notes/Algebraic identities of orthogonal complements.md",
@@ -185,7 +186,6 @@
     "Notes/Pythagorean Theorem.md",
     "Notes/Orthogonal Set.md",
     "Notes/Orthogonality.md",
-    "Notes/Inner product induces a norm.md",
-    "Notes/Cauchy-Schwarz Inequality.md"
+    "Notes/Inner product induces a norm.md"
   ]
 }
