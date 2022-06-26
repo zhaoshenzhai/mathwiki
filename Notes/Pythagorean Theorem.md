@@ -13,14 +13,17 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. For any orthogonal set $\l\{v_1,\dots,v_m\r\}$ in $V$, we have_
+_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. If $\l\{v_1,\dots,v_m\r\}$ is an orthogonal set in $V$, then_
 $$\begin{equation}
-    \l\|\sum_{i=1}^mv_i\r\|^2=\sum_{i=1}^m\l\|v_i\r\|^2.
+    \l\|\sum_{i=1}^m\alpha_iv_i\r\|^2=\sum_{i=1}^m\l|\alpha_i\r|^2\l\|v_i\r\|^2
 \end{equation}$$
+_for all $\alpha_1,\dots,\alpha_m\in K$._
 
 ```
 
-_Proof_. We proceed by induction on $m$. The base case for when $m=1$ is obviously true, so assume that
+_Proof_. It suffices to prove the statement for $\alpha_1=\cdots=\alpha_m=1$, for since $\bilform{v_i}{v_j}=0$ implies $\bilform{\alpha_iv_i}{\alpha_jv_j}=\alpha_i\bar{\alpha_j}\bilform{v_i}{v_j}=0$ for all $i,j\in\l\{1,\dots,m\r\}$, we may apply the result with $w_i\coloneqq\alpha_i v_i$.
+
+We proceed by induction on $m$. The base case for when $m=1$ is obviously true, so assume that
 $$\begin{equation}
     \l\|\sum_{i=1}^kv_i\r\|^2=\sum_{i=1}^k\l\|v_i\r\|^2
 \end{equation}$$

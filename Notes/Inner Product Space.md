@@ -9,7 +9,7 @@ Examples: [[Euclidean Vector Space]]
 Constructions: [[Orthogonality]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Pythagorean Theorem]], [[Cauchy-Schwarz Inequality]]
 Sufficiencies: [$V=U\oplus U^\perp$](Orthogonal%20Decomposition.md)
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
