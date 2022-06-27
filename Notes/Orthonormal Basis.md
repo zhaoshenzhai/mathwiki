@@ -5,12 +5,12 @@ Date Created: 27/06/2022 15:44:20
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Standard Basis of Tuple Space]]
 Constructions: [[Orthonormal Expansion]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Gram-Schmidt Orthonormalization]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

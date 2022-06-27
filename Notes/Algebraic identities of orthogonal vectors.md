@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 25/06/2022 20:35:44
-Tags: #Definition #Closed
+Tags: #Proposition #Closed
 
 Proved by: [[Algebraic identities of complex conjugation]], [[Linear map fixes zero vector]]
 Justifications: _Not Applicable_

@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d9eef12e856df2ba",
+        "id": "781a87a25cfaf285",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Orthonormal Basis.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Orthonormal Basis.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Orthonormal Basis.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Orthonormal Basis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "d9eef12e856df2ba",
+  "active": "781a87a25cfaf285",
   "lastOpenFiles": [
-    "Notes/Orthonormal Basis.md",
-    "Notes/Coordinate Representation of Finite-dim. Vector Spaces.md",
+    "Notes/Algebraic identities of orthogonal vectors.md",
+    "Notes/Gram-Schmidt Orthonormalization.md",
     "Notes/Orthonormal Expansion.md",
-    "Notes/Hamel Basis.md",
-    "Notes/Orthonormal Set.md",
-    "Notes/Basis transition map acts as left-multiplication by change of basis matrix.md",
-    "Notes/Orthogonal Decomposition.md",
-    "Notes/Function.md",
     "Notes/Orthonormal sets are linearly independent.md",
-    "Notes/Algebraic identities of orthogonal complements.md"
+    "Notes/Orthonormal Basis.md",
+    "Notes/Hamel Basis.md",
+    "Notes/Unique Representation Theorem (Hamel).md",
+    "Notes/Existence of unique linear map via action on basis vectors.md",
+    "Notes/Standard basis of tuple space is an ordered basis.md",
+    "Notes/Euclidean Vector Space.md"
   ]
 }
