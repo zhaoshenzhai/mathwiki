@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b6ac348851f8b040",
+        "id": "d9eef12e856df2ba",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Orthonormal Basis.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Orthonormal Basis.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Orthonormal Basis.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Orthonormal Basis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "b6ac348851f8b040",
+  "active": "d9eef12e856df2ba",
   "lastOpenFiles": [
+    "Notes/Orthonormal Basis.md",
+    "Notes/Coordinate Representation of Finite-dim. Vector Spaces.md",
+    "Notes/Orthonormal Expansion.md",
+    "Notes/Hamel Basis.md",
+    "Notes/Orthonormal Set.md",
+    "Notes/Basis transition map acts as left-multiplication by change of basis matrix.md",
+    "Notes/Orthogonal Decomposition.md",
     "Notes/Function.md",
     "Notes/Orthonormal sets are linearly independent.md",
-    "Notes/Orthonormal Set.md",
-    "Notes/Algebraic identities of orthogonal complements.md",
-    "Notes/Algebraic identities of orthogonal vectors.md",
-    "Notes/Linear Independence.md",
-    "Notes/Pythagorean Theorem.md",
-    "Notes/Orthogonal Set.md",
-    "Notes/Orthogonality.md",
-    "Notes/Inner product induces a norm.md"
+    "Notes/Algebraic identities of orthogonal complements.md"
   ]
 }

@@ -9,7 +9,7 @@ Date Created: 15/05/2022 22:31:09
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Orthonormal Expansion]]
 Constructions: [$\phi_\mc{B}:V\simto K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md), [Basis Transition Map$\slash$Matrix](Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md)
 Generalizations: _Not Applicable_
 
