@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
-title: Theorem.
+title: Theorem (Cauchy-Schwarz Inequality).
 
 _Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. Then, for all $v,w\in V$, we have_
 $$\begin{equation}

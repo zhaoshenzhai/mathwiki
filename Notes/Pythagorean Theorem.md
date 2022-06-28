@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
-title: Proposition.
+title: Proposition (Pythagoras).
 
 _Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. If $\l\{v_1,\dots,v_m\r\}$ is an orthogonal set in $V$, then_
 $$\begin{equation}
