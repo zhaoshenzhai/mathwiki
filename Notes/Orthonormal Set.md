@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Orthonormal Basis]]
 Generalizations: _Not Applicable_
 
-Properties: [[Orthonormal sets are linearly independent]]
+Properties: [[Orthonormal sets are linearly independent]], [[Orthonormal set extends to an orthonormal basis]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

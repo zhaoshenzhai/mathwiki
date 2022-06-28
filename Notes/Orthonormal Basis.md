@@ -10,7 +10,7 @@ Constructions: [[Orthonormal Expansion]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Gram-Schmidt Orthonormalization]]
+Sufficiencies: [[Gram-Schmidt Orthonormalization]], [[Orthonormal set extends to an orthonormal basis]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
