@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Orthogonal Projection]]
 Generalizations: _Not Applicable_
 
 Properties: [[Algebraic identities of orthogonal complements]], [$V=U\oplus U^\perp$](Orthogonal%20Decomposition.md), [$U=\l(U^\perp\r)^\perp$](Orthogonal%20complementation%20is%20an%20involution.md)
