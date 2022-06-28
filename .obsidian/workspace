@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "ee6d9033c0e02570",
+        "id": "73b334b5caf11fb7",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "ee6d9033c0e02570",
+  "active": "73b334b5caf11fb7",
   "lastOpenFiles": [
+    "Notes/Pythagorean Theorem.md",
+    "Notes/Hermitian Form.md",
+    "Notes/Sesquilinear Form.md",
+    "Notes/Orthogonal Set.md",
+    "Notes/Orthogonality.md",
+    "Notes/Orthonormal Expansion.md",
     "Notes/Orthogonal Decomposition.md",
     "Notes/Gram-Schmidt Orthonormalization.md",
     "Notes/Orthonormal Set.md",
-    "Notes/Orthonormal Basis.md",
-    "Notes/Orthonormal set extends to an orthonormal basis.md",
-    "Notes/Linearly independent set extends to a basis.md",
-    "Notes/Algebraic identities of orthogonal complements.md",
-    "Notes/Orthonormal Expansion.md",
-    "Notes/Cauchy-Schwarz Inequality.md",
-    "Notes/Pythagorean Theorem.md"
+    "Notes/Orthonormal Basis.md"
   ]
 }
