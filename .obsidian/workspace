@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8598685dee8fa26d",
+        "id": "8c5aa5f5648b523d",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "8598685dee8fa26d",
+  "active": "8c5aa5f5648b523d",
   "lastOpenFiles": [
-    "Notes/Orthogonal Complement.md",
-    "Notes/Orthogonal complementation is an involution.md",
-    "Notes/Algebraic identities of orthogonal complements.md",
-    "Notes/Orthogonal Decomposition.md",
-    "Notes/Orthogonal complement is a linear subspace.md",
-    "Notes/Orthogonal Set.md",
-    "Notes/Fundamental Theorem of Equivalence Relations.md",
-    "Notes/Lower and upper limit topologies are not comparable on R.md",
-    "Notes/Homogeneous linear system only trivial solution iff columns slash rows of coefficient matrix are linearly independent.md",
-    "Notes/Set-builder notation is unique.md"
+    "Notes/Orthogonal Projection.md",
+    "Notes/Category (via Hom-classes).md",
+    "Notes/Locally-small Category.md",
+    "Notes/Upper-limit topology strictly finer than K topology on R.md",
+    "Notes/Criteria for fineness w.r.t. bases.md",
+    "Notes/Subspace topology (basis).md",
+    "Notes/Basis for null space.md",
+    "Notes/Dimension Theorem.md",
+    "Notes/Minkowski sum of subspaces is the span of their union.md",
+    "Notes/Successor Ordinal.md"
   ]
 }

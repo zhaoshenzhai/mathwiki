@@ -11,7 +11,8 @@
     "external_links",
     "links",
     "listsLineBreak",
-    "lists"
+    "lists",
+    "slidingPanes"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": true,
