@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8c5aa5f5648b523d",
+        "id": "cb1e5d668ae87ca9",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "8c5aa5f5648b523d",
+  "active": "cb1e5d668ae87ca9",
   "lastOpenFiles": [
-    "Notes/Orthogonal Projection.md",
-    "Notes/Category (via Hom-classes).md",
-    "Notes/Locally-small Category.md",
-    "Notes/Upper-limit topology strictly finer than K topology on R.md",
-    "Notes/Criteria for fineness w.r.t. bases.md",
-    "Notes/Subspace topology (basis).md",
-    "Notes/Basis for null space.md",
+    "Notes/Untitled.md",
     "Notes/Dimension Theorem.md",
-    "Notes/Minkowski sum of subspaces is the span of their union.md",
-    "Notes/Successor Ordinal.md"
+    "Notes/Linearly isomorphic iff dimensions coincide (finite-dim.).md",
+    "Notes/Linear map is injective iff kernel vanishes.md",
+    "Notes/Linear map invertible repr under basis matrix representation invertible.md",
+    "Notes/Invertible Matrix.md",
+    "Notes/Lexicographical order is a partial order.md",
+    "Notes/Closed intervals are closed.md",
+    "Notes/Matrix Invertibility Theorem.md",
+    "Notes/Product of invertible matrices is invertible.md"
   ]
 }
