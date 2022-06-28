@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "781a87a25cfaf285",
+        "id": "4aebd03f2dbcf9ca",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Orthonormal Basis.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Orthonormal Basis.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Orthonormal Basis.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -151,7 +157,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.05226024760733548,
+                  "scale": 0.07537409056626748,
                   "close": true
                 }
               }
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Orthonormal Basis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "781a87a25cfaf285",
+  "active": "4aebd03f2dbcf9ca",
   "lastOpenFiles": [
-    "Notes/Algebraic identities of orthogonal vectors.md",
-    "Notes/Gram-Schmidt Orthonormalization.md",
-    "Notes/Orthonormal Expansion.md",
-    "Notes/Orthonormal sets are linearly independent.md",
     "Notes/Orthonormal Basis.md",
-    "Notes/Hamel Basis.md",
-    "Notes/Unique Representation Theorem (Hamel).md",
-    "Notes/Existence of unique linear map via action on basis vectors.md",
-    "Notes/Standard basis of tuple space is an ordered basis.md",
-    "Notes/Euclidean Vector Space.md"
+    "Notes/Gram-Schmidt Orthonormalization.md",
+    "Notes/Orthonormal set extends to an orthonormal basis.md",
+    "Notes/Linearly independent set extends to a basis.md",
+    "Notes/Orthonormal Set.md",
+    "Notes/Linear Independence.md",
+    "Notes/Linearly independent set with same cardinality as dimension (finite) is a basis.md",
+    "Notes/Spanning Set.md",
+    "Notes/Spanning set cuts down to a basis.md",
+    "Notes/Kronecker Delta.md"
   ]
 }

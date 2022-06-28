@@ -4,7 +4,7 @@
 Date Created: 07/05/2022 20:28:12
 Tags: #Theorem #Closed
 
-Proved by: [$\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$](Dimension%20of%20subspace%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.;%20strict%20iff%20proper).md), [[Linearly independent subset of a vector space extends to a basis]], [[Image of linear map is spanned by image of spanning set]]
+Proved by: [$\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$](Dimension%20of%20subspace%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.;%20strict%20iff%20proper).md), [[Linearly independent set extends to a basis]], [[Image of linear map is spanned by image of spanning set]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

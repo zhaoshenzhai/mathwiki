@@ -8,7 +8,7 @@ custom_alias: $\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftri
 Date Created: 23/04/2022 12:48:57
 Tags: #Proposition #Closed
 
-Proved by: [[Linearly independent subset of a vector space extends to a basis]], [[Enlargement of linearly independent set by adjoining non-spanned vector]], [[Steinitz Exchange Lemma]]
+Proved by: [[Linearly independent set extends to a basis]], [[Enlargement of linearly independent set by adjoining non-spanned vector]], [[Steinitz Exchange Lemma]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
