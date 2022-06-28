@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be a finite-dimensional inner product space over $K$. If $U\subseteq V$ is a linear subspace, then_
+_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. If $U$ is a finite-dimensional linear subspace of $V$, then_
 $$\begin{equation}
     V=U\oplus U^\perp.
 \end{equation}$$

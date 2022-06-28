@@ -1,0 +1,38 @@
+---
+custom_alias: $U=\l(U^\perp\r)^\perp$
+---
+
+<br />
+<br />
+
+Date Created: 28/06/2022 22:29:13
+Tags: #Proposition #Closed
+
+Proved by: [[Orthogonal complement is a linear subspace]], [$V=U\oplus U^\perp$](Orthogonal%20Decomposition.md), [[Algebraic identities of orthogonal complements]]
+Justifications: _Not Applicable_
+
+Generalizations: _Not Applicable_
+Counterexamples: _Not Applicable_
+
+``` ad-Proposition
+title: Proposition.
+
+_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. If $U$ is a finite-dimensional linear subspace of $V$, then_
+$$\begin{equation}
+    U=\l(U^\perp\r)^\perp.
+\end{equation}$$
+
+```
+
+_Proof_. We proceed by double containment.
+* ($\subseteq$): Take $u\in U$. By definition, every $v\in U^\perp$ is, in particular, orthogonal to $u$, so $u\in\l(U^\perp\r)^\perp$.
+
+* ($\supseteq$): Take $v\in\l(U^\perp\r)^\perp$. By the previous containment, we have the decomposition
+$$\begin{equation}
+    \l(U^\perp\r)^\perp=U\oplus U^\perp
+\end{equation}$$
+since $U$ is a finite-dimensional subspace of the vector space $\l(U^\perp\r)^\perp$. Thus there exist unique $u\in U$ and $w\in U^\perp$ such that $v=u+w$, so $v-u=w\in U^\perp$. By the previous containment, we have $u\in\l(U^\perp\r)^\perp$, so $v-u\in\l(U^\perp\r)^\perp$ too and hence
+$$\begin{equation}
+    v-u\in U^\perp\cap\l(U^\perp\r)^\perp.
+\end{equation}$$
+But then $v-u\in\l\{0\r\}$, so $v=u$ which implies that $v\in U$.<span style="float:right;">$\blacksquare$</span>
