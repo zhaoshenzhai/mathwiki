@@ -31,7 +31,6 @@
       "key": "J"
     }
   ],
-  "obsidian-admonition:insert-admonition": [],
   "app:open-settings": [
     {
       "modifiers": [
@@ -40,7 +39,6 @@
       "key": "S"
     }
   ],
-  "editor:delete-paragraph": [],
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
@@ -98,7 +96,6 @@
       "key": "N"
     }
   ],
-  "workspace:edit-file-title": [],
   "graph:open": [
     {
       "modifiers": [
@@ -107,8 +104,6 @@
       "key": "G"
     }
   ],
-  "editor:follow-link": [],
-  "editor:insert-link": [],
   "app:go-back": [
     {
       "modifiers": [
@@ -125,7 +120,6 @@
       "key": "I"
     }
   ],
-  "editor:open-link-in-new-leaf": [],
   "switcher:open": [
     {
       "modifiers": [
@@ -134,10 +128,6 @@
       "key": "Enter"
     }
   ],
-  "editor:open-search": [],
-  "editor:open-search-replace": [],
-  "editor:save-file": [],
-  "global-search:open": [],
   "workspace:split-vertical": [
     {
       "modifiers": [
@@ -152,10 +142,6 @@
       "key": "ArrowRight"
     }
   ],
-  "editor:toggle-comments": [],
-  "editor:toggle-checklist-status": [],
-  "editor:toggle-bold": [],
-  "editor:toggle-italics": [],
   "workspace:undo-close-pane": [
     {
       "modifiers": [
@@ -195,17 +181,6 @@
       "key": "G"
     }
   ],
-  "obsidian-citation-plugin:open-literature-note": [],
-  "obsidian-citation-plugin:update-bib-data": [],
-  "obsidian-citation-plugin:insert-citation": [],
-  "obsidian-citation-plugin:insert-markdown-citation": [
-    {
-      "modifiers": [
-        "Meta"
-      ],
-      "key": "C"
-    }
-  ],
   "random-note": [
     {
       "modifiers": [
@@ -213,31 +188,6 @@
         "Shift"
       ],
       "key": "R"
-    }
-  ],
-  "obsidian-mind-map:app:markmap-preview": [
-    {
-      "modifiers": [
-        "Meta"
-      ],
-      "key": "M"
-    }
-  ],
-  "juggl:open-vis-global": [
-    {
-      "modifiers": [
-        "Meta"
-      ],
-      "key": "D"
-    }
-  ],
-  "workspace:toggle-pin": [
-    {
-      "modifiers": [
-        "Meta",
-        "Shift"
-      ],
-      "key": "P"
     }
   ]
 }
