@@ -1,9 +1,11 @@
 #!/bin/bash
 
-CYAN='\033[0;36m'
-GREEN='\033[0;32m'
-RED='\033[0;31m'
 YELLOW='\033[0;33m'
+PURPLE='\033[0;35m'
+GREEN='\033[0;32m'
+CYAN='\033[0;36m'
+BLUE='\033[0;34m'
+RED='\033[0;31m'
 NC='\033[0m'
 
 cd ~/MathWiki/Notes
@@ -18,15 +20,15 @@ Format()
 printf "\n"
 
 queryPrompt="Query [string]: "
-read -ep "$(echo -e ${CYAN}$queryPrompt${NC})" query
+read -ep "$(echo -e ${PURPLE}$queryPrompt${NC})" query
 while [ -z "$query" ]; do
-    read -p "$(echo -e ${CYAN}$queryPrompt${NC})" query
+    read -p "$(echo -e ${PURPLE}$queryPrompt${NC})" query
 done
 
 query=$(Format "$query")
 
 sensitivePrompt="Case sensitive? [N/y]: "
-read -ep "$(echo -e ${CYAN}$sensitivePrompt${NC})" sensitive
+read -ep "$(echo -e ${PURPLE}$sensitivePrompt${NC})" sensitive
 while [ -z "$sensitive" ]; do
     sensitive="n"
 done

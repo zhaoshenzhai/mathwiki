@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "cdc9585ba890c3f2",
+        "id": "f25969c082af6935",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Epimorphism (Category Theory).md",
+            "file": "Notes/Orthogonal Decomposition.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#In_Progress",
+                "query": "tag:In_Progress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Epimorphism (Category Theory).md",
+                "file": "Notes/Orthogonal Decomposition.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Epimorphism (Category Theory).md",
+                "file": "Notes/Orthogonal Decomposition.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -157,7 +157,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.3826398079970382,
+                  "scale": 0.1237774903803424,
                   "close": true
                 }
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Epimorphism (Category Theory).md",
+                "file": "Notes/Orthogonal Decomposition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "cdc9585ba890c3f2",
+  "active": "f25969c082af6935",
   "lastOpenFiles": [
-    "Notes/Epimorphism (Category Theory).md",
-    "Notes/Thin Category.md",
-    "Notes/Bounded Open Ray.md",
-    "Notes/Preorder.md",
-    "Notes/Successor of natural number is a natural number.md",
-    "Notes/Isomorphic vector spaces finite-dim. iff finite-dim..md",
-    "Notes/Monomorphism (Category Theory).md",
-    "Notes/Zero Vector Space.md",
+    "Notes/Orthogonal Decomposition.md",
+    "Notes/Class.md",
+    "Notes/Square Matrix.md",
+    "Notes/Axiom of Union.md",
+    "Notes/Vector Space of Matrices.md",
+    "Notes/Inner Product Space.md",
+    "Notes/Inner Product.md",
     "Notes/Change of basis for linear maps.md",
-    "Notes/Basis Transition Map; Change of Basis Matrix.md"
+    "Notes/Open Interval.md",
+    "Notes/Algebraic identities of orthogonal complements.md"
   ]
 }

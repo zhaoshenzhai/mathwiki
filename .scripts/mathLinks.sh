@@ -1,9 +1,11 @@
 #!/bin/bash
 
-CYAN='\033[0;36m'
-GREEN='\033[0;32m'
-RED='\033[0;31m'
 YELLOW='\033[0;33m'
+PURPLE='\033[0;35m'
+GREEN='\033[0;32m'
+CYAN='\033[0;36m'
+BLUE='\033[0;34m'
+RED='\033[0;31m'
 NC='\033[0m'
 
 cd ~/MathWiki/Notes
@@ -53,7 +55,7 @@ while [ ! -z "$1" ]; do
     case "$1" in
         --update|-u)
             printf "\n"
-            echo -e "${CYAN}Updating math links...${NC}"
+            echo -e "${PURPLE}Updating math links...${NC}"
             allLinks=$(grep -Poh '\[((?!\]\(|\]\]).)*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
 
             numberOfLinks=`echo "$allLinks" | wc -l`
@@ -80,7 +82,7 @@ while [ ! -z "$1" ]; do
                         currentTemp=$(echo "$current" | sed -E 's/\\/\\\\/g')
                         new=$(echo "$new" | sed -E 's/\\/\\\\/g')
                         echo -e "${RED}$currentTemp${NC} -> ${GREEN}$new${NC}"
-                        read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
+                        read -u 1 -n 1 -p "$(echo -e '\n'"    ${PURPLE}Proceed? [Y/n]${NC} ")" proceed
                         if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
                             currentFormatted=$(Format "$current")
                             files=$(grep -l "$obsidian" *)
@@ -101,7 +103,7 @@ while [ ! -z "$1" ]; do
                         currentTemp=$(echo "$current" | sed -E 's/\\/\\\\/g')
                         new=$(echo "$new" | sed -E 's/\\/\\\\/g')
                         echo -e "${RED}$currentTemp${NC} -> ${GREEN}$new${NC}"
-                        read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
+                        read -u 1 -n 1 -p "$(echo -e '\n'"    ${PURPLE}Proceed? [Y/n]${NC} ")" proceed
                         if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
                             currentFormatted=$(Format "$current")
                             files=$(grep -l "$obsidian" *)
@@ -121,11 +123,11 @@ while [ ! -z "$1" ]; do
                     echo -ne "    ${YELLOW}$percentage%${NC}\r"
                 fi
             done <<< "$allLinks"
-            echo -e "    ${CYAN}DONE${NC}"
+            echo -e "    ${PURPLE}DONE${NC}"
             printf "\n"
         ;;
         --new|-n)
-            echo -e "${CYAN}Generating math links...${NC}"
+            echo -e "${PURPLE}Generating math links...${NC}"
             allFiles=$(grep -l 'alias: auto_aliasing\|custom_alias:' *)
             allDoubleCurrent=$(sed 's/^/\[\[/g' <<< "$allFiles")
             allDoubleCurrent=$(sed 's/$/\]\]/g' <<< "$allDoubleCurrent")
@@ -153,7 +155,7 @@ while [ ! -z "$1" ]; do
                     new=$left$right
                     new=$(echo "$new" | sed 's/\\/\\\\/g')
                     echo -e "${RED}$current${NC} -> ${GREEN}$new${NC}"
-                    read -u 1 -n 1 -p "$(echo -e '\n'${CYAN}"    Proceed? [Y/n] "${NC})" proceed
+                    read -u 1 -n 1 -p "$(echo -e '\n'"    ${PURPLE}Proceed? [Y/n]${NC} ")" proceed
                     if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
                         allDoubleCurrentFiles=$(grep -Pl "$currentFormatted" *)
 
@@ -172,7 +174,7 @@ while [ ! -z "$1" ]; do
                     echo -ne "    ${YELLOW}$percentage%${NC}\r"
                 fi
             done <<< "$allDoubleCurrent"
-            echo -e "    ${CYAN}DONE${NC}"
+            echo -e "    ${PURPLE}DONE${NC}"
         ;;
     esac
 shift
