@@ -28,4 +28,4 @@ Since $\mc{B}\subseteq\mc{T}_X$ and $\mc{C}\subseteq\mc{T}_Y$, we see that $\mc{
 $$\begin{equation}
     p\in B\times C\subseteq U\times V\subseteq W,
 \end{equation}$$
-so, in particular, it follows that $p\in B\times C\subseteq W$ with $B\times C\in\m{B}_\textrm{pr}'$. Therefore, we see that $\mc{B}_\textrm{pr}'$ is a basis for $\mc{T}_\textrm{pr}$.<span style="float:right;">$\blacksquare$</span>
+so, in particular, it follows that $p\in B\times C\subseteq W$ with $B\times C\in\mc{B}_\textrm{pr}'$. Therefore, we see that $\mc{B}_\textrm{pr}'$ is a basis for $\mc{T}_\textrm{pr}$.<span style="float:right;">$\blacksquare$</span>
