@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "cb1e5d668ae87ca9",
+        "id": "0310205f162e4e7b",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "cb1e5d668ae87ca9",
+  "active": "0310205f162e4e7b",
   "lastOpenFiles": [
-    "Notes/Untitled.md",
-    "Notes/Dimension Theorem.md",
-    "Notes/Linearly isomorphic iff dimensions coincide (finite-dim.).md",
-    "Notes/Linear map is injective iff kernel vanishes.md",
-    "Notes/Linear map invertible repr under basis matrix representation invertible.md",
-    "Notes/Invertible Matrix.md",
-    "Notes/Lexicographical order is a partial order.md",
-    "Notes/Closed intervals are closed.md",
-    "Notes/Matrix Invertibility Theorem.md",
-    "Notes/Product of invertible matrices is invertible.md"
+    "Notes/Orthogonal Projection.md",
+    "Notes/Orthogonal Complement.md",
+    "Notes/Algebraic identities of orthogonal complements.md",
+    "Notes/Orthogonal complement is a linear subspace.md",
+    "Notes/Orthogonal complementation is an involution.md",
+    "Notes/Orthogonal Decomposition.md",
+    "Notes/Algebraic identities of orthogonal vectors.md",
+    "Notes/Complement (Linear Subspace).md",
+    "Notes/Linear Map.md",
+    "Notes/Dimension Theorem.md"
   ]
 }
