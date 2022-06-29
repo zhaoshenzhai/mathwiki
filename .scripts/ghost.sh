@@ -16,7 +16,7 @@ allDoubleLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | sed 's/\[\[//g
 while IFS= read -r link; do
     if [ ! -f "$link" ]; then
         link=$(echo "$link" | sed 's/.md//g')
-        echo -e "${YELLOW}    $link${NC}"
+        echo -e "${PURPLE}    $link${NC}"
         appearsIn=$(grep --color -il "$link" *)
         while IFS= read -r file; do
             file=$(echo "$file" | sed 's/.md//g')
@@ -32,7 +32,7 @@ while IFS= read -r link; do
     linkFind=$(echo "$link" | sed 's/%20/\ /g')
     if [ ! -f "$linkFind" ]; then
         linkFind=$(echo "$linkFind" | sed 's/.md//g')
-        echo -e "${YELLOW}    $linkFind${NC}"
+        echo -e "${PURPLE}    $linkFind${NC}"
         linkFormatted=$(echo "$link" | sed 's/\(.*\).md/\1/')
         appearsIn=$(grep --color -il "$linkFormatted" *)
         while IFS= read -r file; do
