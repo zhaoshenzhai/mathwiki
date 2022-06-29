@@ -9,9 +9,10 @@ NC='\033[0m'
 cd ~/MathWiki/Notes
 
 allFiles=`ls`
+numberOfFiles=`echo "$allFiles" | wc -l`
+counter=0
 
 while IFS= read -r file; do
-    echo -e "${YELLOW}$file${NC}"
     time=`grep "Date Created" "$file" | sed 's/Date\ Created\:\ //g'`
 
     year=`echo "$time" | sed 's/..\/..\///g' | sed 's/\ ..\:..\:..//g'`
@@ -22,7 +23,11 @@ while IFS= read -r file; do
     second=`echo "$time" | sed 's/^.*\ //g' | sed 's/^..\:..\://g' | sed 's/\:.*//g'`
 
     newTime=`echo "$year$month$day$hour$minute.$second"`
+    #touch -m -t "$newTime" "$file"
 
-    touch -m -t "$newTime" "$file"   
+    counter=$((counter + 1))
+    percentage=$(bc -l <<< 'scale=3; '"$counter"'/'"$numberOfFiles"''*100 | sed 's/00$//g')
+    echo -ne "${YELLOW}Updating... $percentage%${NC}\r"
 done <<< "$allFiles"
+echo -ne "\n"
 

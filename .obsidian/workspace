@@ -7,8 +7,12 @@
         "id": "56f3c9f6b6ac5a6e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Zero Vector Space.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Zero Vector Space.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Zero Vector Space.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Zero Vector Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,6 +184,7 @@
   },
   "active": "56f3c9f6b6ac5a6e",
   "lastOpenFiles": [
+    "Notes/Zero Vector Space.md",
     "Notes/Change of basis for linear maps.md",
     "Notes/Basis Transition Map; Change of Basis Matrix.md",
     "Notes/Matrix Representation of a Linear Map.md",
@@ -185,7 +193,6 @@
     "Notes/Orthogonal Projection.md",
     "Notes/Pythagorean Theorem.md",
     "Notes/Norm.md",
-    "Notes/Algebraic identities of orthogonal projections.md",
-    "Notes/Subspaces of finite-dim. vector spaces have complements.md"
+    "Notes/Algebraic identities of orthogonal projections.md"
   ]
 }
