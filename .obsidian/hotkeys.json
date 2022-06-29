@@ -230,5 +230,14 @@
       ],
       "key": "D"
     }
+  ],
+  "workspace:toggle-pin": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "P"
+    }
   ]
 }
