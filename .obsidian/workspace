@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "137cee30ee5f621d",
+        "id": "a0d1a3230af010a1",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,10 +175,10 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "137cee30ee5f621d",
+  "active": "a0d1a3230af010a1",
   "lastOpenFiles": [
+    "Notes/Orthogonal projection minimizes distances.md",
     "Notes/Orthogonal Projection.md",
-    "Notes/Orthogonal projection minimizes norms.md",
     "Notes/Pythagorean Theorem.md",
     "Notes/Norm.md",
     "Notes/Algebraic identities of orthogonal projections.md",
