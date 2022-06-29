@@ -56,6 +56,10 @@ while [ ! -z "$1" ]; do
             echo -e "${CYAN}Updating math links...${NC}"
             allLinks=$(grep -Poh '\[((?!\]\(|\]\]).)*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
 
+            numberOfLinks=`echo "$allLinks" | wc -l`
+            updateInterval=$(("$numberOfLinks"/100))
+            counter=0
+
             while IFS= read -r link; do
                 # Get obsidian link
                 obsidian=${link#*](}
@@ -110,8 +114,14 @@ while [ ! -z "$1" ]; do
                         printf "\n"
                     fi
                 fi
+
+                counter=$(("$counter" + 1))
+                if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
+                    percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfLinks"''*100 | sed 's/\.00$//g')
+                    echo -ne "    ${YELLOW}$percentage%${NC}\r"
+                fi
             done <<< "$allLinks"
-            echo -e "${CYAN}    DONE${NC}"
+            echo -e "    ${CYAN}DONE${NC}"
             printf "\n"
         ;;
         --new|-n)
@@ -120,6 +130,10 @@ while [ ! -z "$1" ]; do
             allDoubleCurrent=$(sed 's/^/\[\[/g' <<< "$allFiles")
             allDoubleCurrent=$(sed 's/$/\]\]/g' <<< "$allDoubleCurrent")
             allDoubleCurrent=$(sed 's/.md//g' <<< "$allDoubleCurrent")
+
+            numberOfDouble=`echo "$allDoubleCurrent" | wc -l`
+            updateInterval=$(("$numberOfDouble"/100))
+            counter=0
 
             while IFS= read -r current; do
                 currentFormatted=$(Format "$current")
@@ -151,8 +165,14 @@ while [ ! -z "$1" ]; do
                     printf "\n"
                 fi
                 allDoubleCurrent=${allDoubleCurrent#*$'\n'}
+
+                counter=$(("$counter" + 1))
+                if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
+                    percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfDouble"''*100 | sed 's/\.00$//g')
+                    echo -ne "    ${YELLOW}$percentage%${NC}\r"
+                fi
             done <<< "$allDoubleCurrent"
-            echo -e "${CYAN}    DONE${NC}"
+            echo -e "    ${CYAN}DONE${NC}"
         ;;
     esac
 shift

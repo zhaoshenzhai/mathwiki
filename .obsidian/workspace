@@ -7,8 +7,12 @@
         "id": "cdc9585ba890c3f2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Epimorphism (Category Theory).md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Epimorphism (Category Theory).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Epimorphism (Category Theory).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Epimorphism (Category Theory).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +184,15 @@
   },
   "active": "cdc9585ba890c3f2",
   "lastOpenFiles": [
+    "Notes/Epimorphism (Category Theory).md",
+    "Notes/Thin Category.md",
+    "Notes/Bounded Open Ray.md",
+    "Notes/Preorder.md",
     "Notes/Successor of natural number is a natural number.md",
     "Notes/Isomorphic vector spaces finite-dim. iff finite-dim..md",
     "Notes/Monomorphism (Category Theory).md",
     "Notes/Zero Vector Space.md",
     "Notes/Change of basis for linear maps.md",
-    "Notes/Basis Transition Map; Change of Basis Matrix.md",
-    "Notes/Matrix Representation of a Linear Map.md",
-    "Notes/Diagonalizable Operator; Matrix.md",
-    "Notes/Orthogonal projection minimizes distances.md",
-    "Notes/Orthogonal Projection.md"
+    "Notes/Basis Transition Map; Change of Basis Matrix.md"
   ]
 }

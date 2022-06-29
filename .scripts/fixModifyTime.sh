@@ -10,7 +10,7 @@ cd ~/MathWiki/Notes
 
 allFiles=`ls`
 numberOfFiles=`echo "$allFiles" | wc -l`
-updateInterval=$((numberOfFiles/100))
+updateInterval=$(("$numberOfFiles"/100))
 counter=0
 
 while IFS= read -r file; do
@@ -24,8 +24,8 @@ while IFS= read -r file; do
     newTime=`echo "$year$month$day$hms"`
     touch -m -t "$newTime" "$file"
 
-    counter=$((counter + 1))
-    if [[ $((counter%updateInterval)) = 0 ]]; then
+    counter=$(("$counter" + 1))
+    if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
         percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfFiles"''*100 | sed 's/\.00$//g')
         echo -ne "${YELLOW}Updating... $percentage%${NC}\r"
     fi
