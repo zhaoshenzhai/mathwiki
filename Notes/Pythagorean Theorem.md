@@ -2,7 +2,7 @@
 <br />
 
 Date Created: 26/06/2022 16:54:24
-Tags: #Proposition #Closed
+Tags: #Theorem #Closed
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
@@ -10,8 +10,8 @@ Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
-``` ad-Proposition
-title: Proposition (Pythagoras).
+``` ad-Theorem
+title: Theorem (Pythagoras).
 
 _Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. If $\l\{v_1,\dots,v_m\r\}$ is an orthogonal set in $V$, then_
 $$\begin{equation}
