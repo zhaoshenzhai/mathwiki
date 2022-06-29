@@ -59,7 +59,7 @@ while [ ! -z "$1" ]; do
             allLinks=$(grep -Poh '\[((?!\]\(|\]\]).)*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
 
             numberOfLinks=`echo "$allLinks" | wc -l`
-            updateInterval=$(("$numberOfLinks"/100))
+            updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfLinks"'/'100')+'0.9'' | sed 's/\..*//g')
             counter=0
 
             while IFS= read -r link; do
@@ -134,7 +134,7 @@ while [ ! -z "$1" ]; do
             allDoubleCurrent=$(sed 's/.md//g' <<< "$allDoubleCurrent")
 
             numberOfDouble=`echo "$allDoubleCurrent" | wc -l`
-            updateInterval=$(("$numberOfDouble"/100))
+            updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfDouble"'/'100')+'0.9'' | sed 's/\..*//g')
             counter=0
 
             while IFS= read -r current; do
