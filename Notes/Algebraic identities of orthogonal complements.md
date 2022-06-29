@@ -20,6 +20,7 @@ _Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $
     * _$U^\perp$ is a linear subspace of $V$._
     * _$U\cap U^\perp\subseteq\l\{0\r\}$._
     * _For all $W\subseteq V$ with $U\subseteq W$, we have $W^\perp\subseteq U^\perp$._
+    * _If $U=\span\l\{u_1,\dots,u_m\r\}$ for some $u_1,\dots,u_m\in U$, then $v\in U^\perp$ iff $v\perp u_j$ for all $j\in\l\{1,\dots,m\r\}$._
 
 ```
 
@@ -41,4 +42,10 @@ Let $U$ be a subset of $V$. Note that if $U$ is a sub_space_ of $V$, then $U\cap
         \end{aligned}
     \end{equation}$$
 * ($U\cap U^\perp\subseteq\l\{0\r\}$): Take $v\in U\cap U^\perp$, so $v\in U$ and $\bilform{v}{u}=0$ for all $u\in U$. In particular, $\bilform{v}{v}=0$, so $v=0$.
-* ($U\subseteq W\Rightarrow W^\perp\subseteq U^\perp$): Take $v\in W^\perp$, so $\bilform{v}{w}=0$ for all $w\in W$. Since $U\subseteq W$, we have $\bilform{v}{u}=0$ for all $u\in U$, so $v\in U^\perp$.<span style="float:right;">$\blacksquare$</span>
+* ($U\subseteq W\Rightarrow W^\perp\subseteq U^\perp$): Take $v\in W^\perp$, so $\bilform{v}{w}=0$ for all $w\in W$. Since $U\subseteq W$, we have $\bilform{v}{u}=0$ for all $u\in U$, so $v\in U^\perp$.
+* ($v\in U^\perp\Leftrightarrow v\perp e_j$ for all $j$): The forward direction is trivial. Conversely, take $u\in U$, so there exist scalars $\alpha_1,\dots,\alpha_m\in K$ such that $u=\sum_{j=1}^m\alpha_je_j$. Observe then that
+$$\begin{align}
+    \bilform{v}{u}&=\bilform{v}{\sum_{j=1}^m\alpha_je_j} && \textrm{Substitution} \\
+    &=\sum_{j=1}^m\bar{\alpha_j}\bilform{v}{e_j} && \textrm{Sesquilinearity} \\
+    &=0. && v\perp e_j\textrm{ for all $j$}\qedin
+\end{align}$$
