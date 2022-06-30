@@ -59,7 +59,7 @@ while [ ! -z "$1" ]; do
             allLinks=$(grep -Poh '\[((?!\]\(|\]\]).)*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
 
             numberOfLinks=`echo "$allLinks" | wc -l`
-            updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfLinks"'/'100')+'0.9'' | sed 's/\..*//g')
+            updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfLinks"'/'100')+'0.5'' | sed 's/\..*//g')
             counter=0
 
             while IFS= read -r link; do
@@ -117,10 +117,12 @@ while [ ! -z "$1" ]; do
                     fi
                 fi
 
-                counter=$(("$counter" + 1))
-                if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
-                    percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfLinks"''*100 | sed 's/\.00$//g')
-                    echo -ne "    ${YELLOW}$percentage%${NC}\r"
+                if [[ ! "$updateInterval" == 0 ]]; then
+                    counter=$(("$counter" + 1))
+                    if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
+                        percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfLinks"''*100 | sed 's/\.00$//g')
+                        echo -ne "    ${YELLOW}$percentage%${NC}\r"
+                    fi
                 fi
             done <<< "$allLinks"
             echo -e "    ${PURPLE}DONE${NC}"
@@ -134,7 +136,7 @@ while [ ! -z "$1" ]; do
             allDoubleCurrent=$(sed 's/.md//g' <<< "$allDoubleCurrent")
 
             numberOfDouble=`echo "$allDoubleCurrent" | wc -l`
-            updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfDouble"'/'100')+'0.9'' | sed 's/\..*//g')
+            updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfDouble"'/'100')+'0.5'' | sed 's/\..*//g')
             counter=0
 
             while IFS= read -r current; do
@@ -168,10 +170,12 @@ while [ ! -z "$1" ]; do
                 fi
                 allDoubleCurrent=${allDoubleCurrent#*$'\n'}
 
-                counter=$(("$counter" + 1))
-                if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
-                    percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfDouble"''*100 | sed 's/\.00$//g')
-                    echo -ne "    ${YELLOW}$percentage%${NC}\r"
+                if [[ ! "$updateInterval" == 0 ]]; then
+                    counter=$(("$counter" + 1))
+                    if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
+                        percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfDouble"''*100 | sed 's/\.00$//g')
+                        echo -ne "    ${YELLOW}$percentage%${NC}\r"
+                    fi
                 fi
             done <<< "$allDoubleCurrent"
             echo -e "    ${PURPLE}DONE${NC}"
