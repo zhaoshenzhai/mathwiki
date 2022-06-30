@@ -117,7 +117,7 @@ while [ ! -z "$1" ]; do
                     fi
                 fi
 
-                if [[ ! "$updateInterval" == 0 ]]; then
+                if [[ ! -z "$updateInterval" ]]; then
                     counter=$(("$counter" + 1))
                     if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
                         percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfLinks"''*100 | sed 's/\.00$//g')
@@ -170,7 +170,7 @@ while [ ! -z "$1" ]; do
                 fi
                 allDoubleCurrent=${allDoubleCurrent#*$'\n'}
 
-                if [[ ! "$updateInterval" == 0 ]]; then
+                if [[ ! -z "$updateInterval" ]]; then
                     counter=$(("$counter" + 1))
                     if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
                         percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfDouble"''*100 | sed 's/\.00$//g')
