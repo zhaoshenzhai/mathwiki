@@ -4,7 +4,7 @@
 Date Created: 24/01/2022 21:00:06
 Tags: #Proposition #Closed 
 
-Proved by: [Algebraic identities of $\bigcup$, $\bigcap$, and $\pow$](Basic%20properties%20of%20unions,%20intersections,%20and%20power%20sets.md), [[Union of finite sets is finite]]
+Proved by: [Basic properties of $\bigcup$, $\bigcap$, and $\pow$](Basic%20properties%20of%20unions,%20intersections,%20and%20power%20sets.md), [[Union of finite sets is finite]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

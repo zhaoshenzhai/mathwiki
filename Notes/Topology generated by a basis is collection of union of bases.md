@@ -4,7 +4,7 @@
 Date Created: 24/01/2022 12:14:51
 Tags: #Proposition #Closed 
 
-Proved by: [[Subset relation is transitive]], [Algebraic identities of $\bigcup$, $\bigcap$, and $\pow$](Basic%20properties%20of%20unions,%20intersections,%20and%20power%20sets.md)
+Proved by: [[Subset relation is transitive]], [Basic properties of $\bigcup$, $\bigcap$, and $\pow$](Basic%20properties%20of%20unions,%20intersections,%20and%20power%20sets.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

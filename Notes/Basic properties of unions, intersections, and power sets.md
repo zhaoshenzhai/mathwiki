@@ -1,5 +1,5 @@
 ---
-custom_alias: Algebraic identities of $\bigcup$, $\bigcap$, and $\pow$
+custom_alias: Basic properties of $\bigcup$, $\bigcap$, and $\pow$
 ---
 
 <br />
