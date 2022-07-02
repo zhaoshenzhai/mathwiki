@@ -8,7 +8,7 @@ custom_alias: $\hom\l(V,W\r)\subseteq W^V$ is a linear subspace
 Date Created: 17/05/2022 16:47:33
 Tags: #Proposition #Closed
 
-Proved by: [[Algebraic identities of vector spaces]]
+Proved by: [[Basic properties of vector spaces]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

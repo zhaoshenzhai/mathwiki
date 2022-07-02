@@ -8,7 +8,7 @@ custom_alias: $U=\l(U^\perp\r)^\perp$
 Date Created: 28/06/2022 22:29:13
 Tags: #Proposition #Closed
 
-Proved by: [[Algebraic identities of orthogonal complements]], [$V=U\oplus U^\perp$](Orthogonal%20Decomposition.md)
+Proved by: [[Basic properties of orthogonal complements]], [$V=U\oplus U^\perp$](Orthogonal%20Decomposition.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

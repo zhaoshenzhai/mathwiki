@@ -4,7 +4,7 @@
 Date Created: 01/04/2022 22:34:08
 Tags: #Proposition #Closed
 
-Proved by: [[Algebraic identities of matrix operations]]
+Proved by: [[Basic properties of matrix operations]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -4,7 +4,7 @@
 Date Created: 25/06/2022 20:35:44
 Tags: #Proposition #Closed
 
-Proved by: [[Algebraic identities of complex conjugation]], [[Linear map fixes zero vector]]
+Proved by: [[Basic properties of complex conjugation]], [[Linear map fixes zero vector]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

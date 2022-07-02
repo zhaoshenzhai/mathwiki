@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: [[Orthogonal projection minimizes distances]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [$V=U\oplus U^\perp$](Orthogonal%20Decomposition.md), [[Algebraic identities of orthogonal projections]]
+Justifications: [$V=U\oplus U^\perp$](Orthogonal%20Decomposition.md), [[Basic properties of orthogonal projections]]
 
 ``` ad-Definition
 title: Definition.

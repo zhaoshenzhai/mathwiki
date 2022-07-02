@@ -8,7 +8,7 @@ custom_alias: $A$ invertible $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solut
 Date Created: 08/04/2022 03:28:32
 Tags: #Proposition #Closed
 
-Proved by: [[Algebraic identities of matrix operations]], [Solutions of $A\v{x}=\v{b}$ decompose as $\l\{\v{s}_p\r\}+\nullsp A$ for any $A\v{s}_p=\v{b}$](Solutions%20of%20a%20linear%20system%20decompose%20as%20sum%20of%20particular%20and%20null.md), [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md), [Linear map $V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective](Linear%20map%20between%20vector%20spaces%20of%20same%20dimension%20is%20injective%20iff%20surjective.md), [$A$ invertible $\Leftrightarrow$ $L_A$ invertible](Matrix%20invertible%20iff%20left-multiplication%20invertible.md)
+Proved by: [[Basic properties of matrix operations]], [Solutions of $A\v{x}=\v{b}$ decompose as $\l\{\v{s}_p\r\}+\nullsp A$ for any $A\v{s}_p=\v{b}$](Solutions%20of%20a%20linear%20system%20decompose%20as%20sum%20of%20particular%20and%20null.md), [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md), [Linear map $V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective](Linear%20map%20between%20vector%20spaces%20of%20same%20dimension%20is%20injective%20iff%20surjective.md), [$A$ invertible $\Leftrightarrow$ $L_A$ invertible](Matrix%20invertible%20iff%20left-multiplication%20invertible.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

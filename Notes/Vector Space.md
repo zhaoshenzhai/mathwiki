@@ -9,7 +9,7 @@ Examples: [[Function Space (Linear Algebra)]]
 Constructions: [[Linear Combination]], [[Linear Map]], [[Linear Subspace]], [[Direct Product (Vector Space)]], [$\catvect[K]$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 
-Properties: [[Algebraic identities of vector spaces]], [[Every vector space has a basis]]
+Properties: [[Basic properties of vector spaces]], [[Every vector space has a basis]]
 Sufficiencies: [[Unique Representation Theorem (Hamel)]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

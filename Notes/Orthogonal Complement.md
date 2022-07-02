@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: [$V=U\oplus U^\perp$](Orthogonal%20Decomposition.md), [$U=\l(U^\perp\r)^\perp$](Orthogonal%20complementation%20is%20an%20involution.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Algebraic identities of orthogonal complements]]
+Justifications: [[Basic properties of orthogonal complements]]
 
 ``` ad-Definition
 title: Definition.

@@ -4,7 +4,7 @@
 Date Created: 18/05/2022 19:46:16
 Tags: #Proposition #Closed
 
-Proved by: [[Algebraic identities of matrix operations (standard)]], [[Algebraic identities of matrix operations (linear map)]]
+Proved by: [[Basic properties of matrix operations (standard)]], [[Basic properties of matrix operations (linear map)]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

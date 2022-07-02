@@ -4,7 +4,7 @@
 Date Created: 24/06/2022 11:32:29
 Tags: #Proposition #Closed
 
-Proved by: [[Algebraic identities of complex conjugation]]
+Proved by: [[Basic properties of complex conjugation]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

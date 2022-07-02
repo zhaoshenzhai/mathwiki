@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Lattice of Subsets]], [[Covariant Power Set Functor]]
 Generalizations: _Not Applicable_
 
-Properties: [Algebraic identities of $\bigcup$, $\bigcap$, and $\pow$](Algebraic%20identities%20of%20unions,%20intersections,%20and%20power%20sets.md)
+Properties: [Algebraic identities of $\bigcup$, $\bigcap$, and $\pow$](Basic%20properties%20of%20unions,%20intersections,%20and%20power%20sets.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [$\axipow$](Axiom%20of%20Power%20Set.md)

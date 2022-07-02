@@ -13,7 +13,7 @@ Examples: _Not Applicable_
 Constructions: [$\catvect[K]$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 
-Properties: [[Algebraic identities of composition of linear maps]]
+Properties: [[Basic properties of composition of linear maps]]
 Sufficiencies: _Not Applicable_
 Equivalences: [$\Phi_\mc{B}^\mc{C}:\hom\l(V,W\r)\simto\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)](Linear%20isomorphism%20between%20linear%20maps%20and%20matrices.md)
 Justifications: [$\hom\l(V,W\r)\subseteq W^V$ is a linear subspace](Set%20of%20linear%20maps%20form%20a%20linear%20subspace%20of%20the%20function%20space.md)

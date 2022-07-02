@@ -9,7 +9,7 @@ Examples: _Not Applicable_
 Constructions: [[Orthogonal Complement]], [[Orthogonal Set]], [[Orthonormal Set]]
 Generalizations: _Not Applicable_
 
-Properties: [[Algebraic identities of orthogonal vectors]]
+Properties: [[Basic properties of orthogonal vectors]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

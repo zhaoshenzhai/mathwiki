@@ -4,7 +4,7 @@
 Date Created: 26/06/2022 19:56:55
 Tags: #Proposition #Closed
 
-Proved by: [[Algebraic identities of orthogonal vectors]]
+Proved by: [[Basic properties of orthogonal vectors]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -4,7 +4,7 @@
 Date Created: 02/04/2022 16:48:29
 Tags: #Proposition #Closed 
 
-Proved by: [[Algebraic identities of vector spaces]]
+Proved by: [[Basic properties of vector spaces]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

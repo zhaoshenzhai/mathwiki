@@ -4,7 +4,7 @@
 Date Created: 27/05/2022 21:46:00
 Tags: #Proposition #Closed
 
-Proved by: [[Algebraic identities of left-multiplication of matrices]], [[Identity function is the identity of function composition]], [Direct product of groups$\slash$function groups are groups](Direct%20product%20of%20groups;%20function%20groups%20are%20groups.md), [[Cancellation laws (group)]], [[Algebraic identities of composition of linear maps]], [[Composition of relations is associative]]
+Proved by: [[Basic properties of left-multiplication of matrices]], [[Identity function is the identity of function composition]], [Direct product of groups$\slash$function groups are groups](Direct%20product%20of%20groups;%20function%20groups%20are%20groups.md), [[Cancellation laws (group)]], [[Basic properties of composition of linear maps]], [[Composition of relations is associative]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

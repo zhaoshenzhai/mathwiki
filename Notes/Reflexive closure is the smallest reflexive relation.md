@@ -4,7 +4,7 @@
 Date Created: 01/02/2022 10:54:47
 Tags: #Proposition #Closed 
 
-Proved by: [Algebraic identities of $\bigcup$, $\bigcap$, and $\pow$](Algebraic%20identities%20of%20unions,%20intersections,%20and%20power%20sets.md)
+Proved by: [Algebraic identities of $\bigcup$, $\bigcap$, and $\pow$](Basic%20properties%20of%20unions,%20intersections,%20and%20power%20sets.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

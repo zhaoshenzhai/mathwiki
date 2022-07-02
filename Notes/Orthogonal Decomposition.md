@@ -8,7 +8,7 @@ custom_alias: $V=U\oplus U^\perp$
 Date Created: 25/06/2022 16:24:44
 Tags: #Proposition #Closed
 
-Proved by: [[Algebraic identities of orthogonal complements]]
+Proved by: [[Basic properties of orthogonal complements]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
