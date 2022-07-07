@@ -12,7 +12,8 @@
     "links",
     "listsLineBreak",
     "lists",
-    "slidingPanes"
+    "slidingPanes",
+    "centerImages"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": true,
