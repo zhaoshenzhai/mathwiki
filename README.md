@@ -54,13 +54,13 @@ This is the main downside of using [MathJax](https://www.mathjax.org/) in Obsidi
 
 My solution is to bind a key in Neovim which [inserts][tikzInsert]
 ```html
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/UNIQUE_IDENTIFIER/image.svg"></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/UNIQUE_IDENTIFIER/image.svg"></center>
 ```
 in the current line and runs a [script](https://github.com/zhaoshenzhai/MathWiki/blob/master/.image/newTikZ.sh) that creates a standalone `image.tex` file from a [template](https://github.com/zhaoshenzhai/MathWiki/blob/master/.image/imageTemplate.tex) where the TikZ code can be written. Once finished, another key can be pressed which [executes][pdfLaTeXExecute]
 ```bash
 pdflatex -shell-escape image.tex && pdfcrop image.pdf image.pdf && pdf2svg image.pdf image.svg
 ```
-The svg images are uploaded to Github instead of linked directly in Obsidian because I couldn't get Obsidian to load local svg images. For those who do not have/want a Github repo for their Obsidian vault, use [Gist](https://gist.github.com/) instead.
+All images are centered and have a `15px` top and bottom margin; see this [obsidian snippet](https://github.com/zhaoshenzhai/MathWiki/blob/master/.obsidian/snippets/centerImages.css). This can be modified to only apply to those images in a certain class.
 
 ## :link: Math links
 
