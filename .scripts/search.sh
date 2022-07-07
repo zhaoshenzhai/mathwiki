@@ -145,7 +145,7 @@ while IFS= read -r matchingLineWithFile; do
     file=$(Format "$file")
     match=$(Format "$match")
 
-    sed -i ''"$line"'s/'"$match"'/'"$replaceString"'/g' "$file"
+    sed -i ''"$line"'s~'"$match"'~'"$replaceString"'~g' "$file"
     lineOnlyMatching=$(("$lineOnlyMatching" + 1))
 
     #### Fix modify time

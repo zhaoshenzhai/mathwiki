@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Upper-limit topology strictly finer than K topology on R.md",
+            "file": "Notes/Identity functor is the identity of functor composition.md",
             "mode": "preview",
             "source": true
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Upper-limit topology strictly finer than K topology on R.md",
+                "file": "Notes/Identity functor is the identity of functor composition.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Upper-limit topology strictly finer than K topology on R.md",
+                "file": "Notes/Identity functor is the identity of functor composition.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Upper-limit topology strictly finer than K topology on R.md",
+                "file": "Notes/Identity functor is the identity of functor composition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,15 +184,15 @@
   },
   "active": "47b65ed72ee753b8",
   "lastOpenFiles": [
-    "Notes/Upper-limit topology strictly finer than K topology on R.md",
-    "Notes/Lower and K topologies are not comparable on R.md",
-    "Notes/K topology strictly finer than standard topology on R.md",
+    "Notes/Identity functor is the identity of functor composition.md",
+    "Notes/Canonical projection is a surjection.md",
     "Notes/Lower-limit topology strictly finer than standard topology on R.md",
-    "Notes/Isomorphism (Category Theory).md",
-    "Notes/Transposition.md",
-    "Notes/Half-infinite open rays are open in the order topology.md",
-    "Notes/Open set in lexicographical order topology of R2.md",
-    "Notes/Quotient Set.md",
-    "Notes/Set-builder notation is unique.md"
+    "Notes/Dedekind-complete bounded convex sets are intervals.md",
+    "Notes/Orthogonal Complement.md",
+    "Notes/Dimension Theorem.md",
+    "Notes/Open set in open subspace is open.md",
+    "Notes/Transitive Set.md",
+    "Notes/Isomorphism of sets is an equivalence relation.md",
+    "Notes/Matrix in RREF if augmented with tuple is in RREF.md"
   ]
 }
