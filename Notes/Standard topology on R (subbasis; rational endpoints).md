@@ -37,4 +37,4 @@ $$\begin{equation}
 
 Pictorially, the proof is:
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-09_223333/image.svg", width=260></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-02-09_223333/image.svg", width=260></center>

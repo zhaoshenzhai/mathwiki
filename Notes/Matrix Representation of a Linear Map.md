@@ -35,7 +35,7 @@ is a linear isomorphism, so this correspondence establishes the isomorphism $\ho
 
 **Remark.** The matrix $\l[T\r]_\mc{B}^\mc{C}=\l[a_{ij}\r]$ is of the form
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-05-16_183714/image.svg", width=150></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-05-16_183714/image.svg", width=150></center>
 
 That is, $\l(\l[T\r]_\mc{B}^\mc{C}\r)_{\!\!\blob;j\!\!}=\l[T\l(b_j\r)\r]_\mc{C}$ where $\l[\slot\r]_\mc{C}$ is the coordinate representation of $W$ relative to $\mc{C}$.
 * If $n=1$, then it is easily seen that $\l[T\r]_\mc{B}^\mc{C}=\l[T\l(b_1\r)\r]_\mc{C}$.

@@ -14,7 +14,7 @@ Counterexamples: _Not Applicable_
 title: Proposition.
 
 _Let $\cat{C}$ be a category and fix $C\in\obj\l(\cat{C}\r)$. Then the coslice category $\l(C\downarrow\cat{C}\r)$ is isomorphic to the comma category_ $\l(\ms{I}\downarrow\Id_\cat{C}\r)$
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-10_173659/image.svg", width=140></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-03-10_173659/image.svg", width=140></center>
 
 where $\ms{I}:\bf{1}\to\cat{C}$ is the inclusion functor and $\bf{1}$ is the discrete category with $\obj\l(\bf{1}\r)\coloneqq\l\{C\r\}$ and $\hom\l(\bf{1}\r)\coloneqq\l\{\id_C\r\}$.
 
@@ -28,7 +28,7 @@ for all $X,X'\in\obj\l(\cat{C}\r)$, $f\in\hom_\cat{C}\!\l(C,X\r)$, $f'\in\hom_\c
 * Note that $\dom\ms{F}^{\obj}$, in the sense of class functions, is indeed the class $\obj\l(C\downarrow\cat{C}\r)$ since $\tpl{X,f}$ is a general element thereof; similarly for $\dom\ms{F}^{\hom}$.
 * For $\cdm\ms{F}^{\obj}$, it is clear that $C\in\obj\l(\bf{1}\r)$, so $f\in\hom_\cat{C}\!\l(C,X\r)=\hom_\cat{C}\!\l(\ms{I}\l(C\r),\Id_\cat{C}\l(X\r)\r)$ and thus $\tpl{C,X,f}\in\obj\l(\ms{I}\downarrow\Id_\cat{C}\r)$.
 * For $\cdm\ms{F}^{\hom}$, we need to verify that the diagram
-  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-10_175541/image.svg", width=200></center>
+  <center><img src="app://local/home/zhao/MathWiki/Images/2022-03-10_175541/image.svg", width=200></center>
 
     commutes, but this reduces to checking that $f'=\psi\circ f$ which holds since $\psi\in\hom_{\l(C\downarrow\cat{C}\r)}\l(\tpl{X,f},\tpl{X',f'}\r)$.
 

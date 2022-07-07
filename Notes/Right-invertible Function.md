@@ -23,6 +23,6 @@ _Let $X$ and $Y$ be sets. A function $f:X\to Y$ is said to be **right-invertible
 
 **Remark.** This relationship can be expressed by stating that the diagram
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-09_223408/image.svg", width=110></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-02-09_223408/image.svg", width=110></center>
 
 commutes.<span style="float:right;">$\blacklozenge$</span>

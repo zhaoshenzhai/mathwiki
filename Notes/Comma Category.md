@@ -18,13 +18,13 @@ Justifications: [[Comma category is a category]]
 title: Definition.
 
 _Let $\cat{C}$, $\cat{D}$, and $\cat{E}$ be categories and fix two covariant functors_
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-07_144906/image.svg", width=140></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-03-07_144906/image.svg", width=140></center>
 
 _The **comma category of $\ms{F}$ over $\ms{G}$** is the category $\l(\ms{F}\downarrow\ms{G}\r)$ defined by the following data:_
 * _The objects are triples $\tpl{E,D,f}$ where $E\in\obj\l(\cat{E}\r)$, $D\in\obj\l(\cat{D}\r)$, and_ $f\in\hom_\cat{C}\!\l(\ms{F}\l(E\r),\ms{G}\l(D\r)\r)$_._
 
 * _For all $\l(\ms{F}\downarrow\ms{G}\r)$-objects $\tpl{E,D,f}$ and $\tpl{E',D',f'}$, the morphisms from $\tpl{E,D,f}$ to $\tpl{E',D',f'}$ are pairs $\tpl{\phi,\psi}$ where $\phi:E\to E'$ and $\psi:D\to D'$ such that the diagram_
-  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-06_170916/image.svg", width=140></center>
+  <center><img src="app://local/home/zhao/MathWiki/Images/2022-03-06_170916/image.svg", width=140></center>
 
     _commutes; that is,_
     $$\begin{equation}

@@ -25,6 +25,6 @@ _Proof_. Since $\mc{T}_\textrm{or}\subseteq\mc{T}_\textrm{sb}$ in general and $\
 
 **Remark.** The relationship between these topologies can be illustrated with the following Hasse diagram:
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-18_163024/image.svg", width=80></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-02-18_163024/image.svg", width=80></center>
 
 A line segment that points upward indicate a subset relation. If any two topologies are not connected with line segments that only point upward, then they are not comparable.<span style="float:right;">$\blacklozenge$</span>

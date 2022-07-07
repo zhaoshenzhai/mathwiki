@@ -26,7 +26,7 @@ $$\begin{equation}
 
 _Proof_. Let $A\coloneqq\l[T\r]_\mc{B}^\mc{C}$; we wish to prove that $\rank T=\rank L_A$. To this end, observe that the diagram
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-05-29_220733/image.svg", width=170></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-05-29_220733/image.svg", width=170></center>
 
 commutes, so
 $$\begin{equation}

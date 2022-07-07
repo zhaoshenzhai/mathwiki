@@ -45,7 +45,7 @@ and since $\mc{B}_V$ is linearly independent, this forces $\beta_1=\cdots\beta_k
 
 **Remark.** Note that the complement $W$ is not necessarily unique. For instance, consider $V\coloneqq\R^3$ and let $U\subseteq V$ be a plane (passing through the origin).
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-05-14_114740/image.svg", width=320></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-05-14_114740/image.svg", width=320></center>
 
 Then $\mc{B}_U=\l\{b_1,b_2\r\}$ is a set of linearly independent vectors lying in the plane, so, to extend this to a basis $\mc{B}_V=\mc{B}_U\cup\l\{b_3\r\}$ of $\R^3$, we may let $b_3$ to be _any_ vector not lying in the plane. That is, we may let $W=\span\l\{b_3\r\}$ to be any line in $\R^3$ (passing through the origin) not contained in the plane. Clearly, there are infinitely-many such lines.<span style="float:right;">$\blacklozenge$</span>
 

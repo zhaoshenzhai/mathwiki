@@ -26,6 +26,6 @@ $$\begin{equation}
 
 **Remark.** The subspace topology on $Y$ can be visualized by the following diagram:
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-11_115828/image.svg", width=260></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-02-11_115828/image.svg", width=260></center>
 
 The thick intervals $V_1$ and $V_2$ are open in $\l.\mc{T}\r|_Y$ since $V_1=U_1\cap Y$ and $V_2=U_2\cap Y$.<span style="float:right;">$\blacklozenge$</span>

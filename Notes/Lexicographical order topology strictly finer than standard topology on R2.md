@@ -34,13 +34,13 @@ $$\begin{equation}
     p=\tpl{x,y}\in\l(\tpl{x,c},\tpl{x,d}\r)\subseteq\l(a,b\r)\times\l(c,d\r),
 \end{equation}$$
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-10_130354/image.svg", width=130></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-02-10_130354/image.svg", width=130></center>
 
 so we have $\sttopR[2]\subseteq\mc{T}^{<_L}_{\R^2}$. The converse does not hold, for take $\tpl{e,f}\in\R^2$ and choose $\l(\tpl{e,c'},\tpl{e,d'}\r)$ for any $c'<f<d'$. Any $B\in\mc{B}_\textrm{st}$ containing $\tpl{e,f}$ must be of the form $\l(a,b\r)\times\l(c,d\r)$ where $a<e<b$ and $c<f<d$. But then observe that
 $$\begin{equation}
     \tpl{\frac{a+e}{2},f}\in\l(a,b\r)\times\l(c,d\r)\ \ \ \ \textrm{but}\ \ \ \ \tpl{\frac{a+e}{2},f}\not\in\l(\tpl{e,c'},\tpl{e,d'}\r),
 \end{equation}$$
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-10_131823/image.svg", width=85></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-02-10_131823/image.svg", width=85></center>
 
 so $\l(a,b\r)\times\l(c,d\r)\not\subseteq\l(\tpl{e,c'},\tpl{e,d'}\r)$ and thus $\mc{T}^{<_L}_{\R^2}\not\subseteq\sttopR[2]$.<span style="float:right;">$\blacksquare$</span>

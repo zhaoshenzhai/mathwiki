@@ -31,7 +31,7 @@ Otherwise, let $B=\l(a,b\r)\setcomp K$; the same analysis above holds for when $
 
 * In the latter case, since $1/n\leq1$ for all $n\in\N$, we see that $\l(1,b\r)\subseteq B$; since $x\in\l(1,b\r)\in\mc{B}_\textrm{st}$ and $\sttopR\subseteq\ULtopR$, we see that there exists $B'\in\mc{B}_\textrm{UL}$ such that $x\in B'\subseteq\l(1,b\r)$ and hence $x\in B'\subseteq B$.
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-09_190923/image.svg", width=210></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-02-09_190923/image.svg", width=210></center>
 
 Thus it suffices to consider any $B=\l(a,b\r)\setcomp K$ containing $x$ such that $x\in\l(0,1\r)$; if $x=1$, then $x\not\in\l(a,b\r)\setcomp K$ for any $a,b\in\R$. Since $1/n$ is not in $B$ for any $n\in\N$, it must be the case that there exists some $m\in\N$ such that
 $$\begin{equation}
@@ -43,6 +43,6 @@ $$\begin{equation}
 \end{equation}$$
 and since $\sttopR\subseteq\ULtopR$, we see that there exists $B'\in\mc{B}_\textrm{UL}$ such that $x\in B'\subseteq I$ and hence $x\in B'\subseteq B$.
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-09_182331/image.svg", width=630></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-02-09_182331/image.svg", width=630></center>
 
 (Justification for $I\subseteq B$): In the figure above, the off-axis intervals represent what $B=\l(a,b\r)\setcomp K$ can be relative to the interval $J$; vertical lines represent $\textrm{`}$holes$\textrm{'}$ in $B$. Observe that in each case, $I=\l(a,b\r)\cap J$ does not contain any points of the form $1/n$ for $n\in\N$, and thus $I\subseteq B$.<span style="float:right;">$\blacksquare$</span>

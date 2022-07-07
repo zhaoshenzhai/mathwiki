@@ -19,18 +19,11 @@ _Let $K$ be a field and fix $m,n\in\N^\ast$. Then every matrix $A\in\mat{m\times
 
 _Proof_. We shall algorithmically construct $R$ from $A$.
 * _Step 1: (Create a leading 1 in the first row)$\bf{.}$_ If $A=0_{m\times n}$, stop. For all non-zero rows $i\in\l\{1,\dots,m\r\}$, let $k_i\coloneqq\min\l\{j\in\l\{1,\dots n\r\}\mid a_{ij}\neq0\r\}$ be the column with its leading entry. Let $l$ be any row such that $k\coloneqq k_l\leq k_i$ for all $i\in\l\{1,\dots,m\r\}$. Perform the type 3 elementary row operation
-<br>
-  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-24_185733/image.svg", width=500></center>
-<br>
+  <center><img src="app://local/home/zhao/MathWiki/Images/2022-03-24_185733/image.svg", width=500></center>
 which moves said row on top, followed by the type 1 elementary row operation
-<br>
-<br>
-  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-24_201822/image.svg", width=525></center>
-<br>
+  <center><img src="app://local/home/zhao/MathWiki/Images/2022-03-24_201822/image.svg", width=525></center>
 * _Step 2: (Create zeros below the leading 1)$\bf{.}$_ This is done by performing the type 2 elementary row operations
-<br>
-  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-03-24_203210/image.svg", width=525></center>
-<br>
+  <center><img src="app://local/home/zhao/MathWiki/Images/2022-03-24_203210/image.svg", width=525></center>
 
   for all $i\in\l\{2,\dots,m\r\}$.
 * _Step 3: (Repeat for all green submatrices)$\bf{.}$_ Let $A'$ be the matrix obtained after Step 2 and let $A_g$ be the green $\textrm{`}$submatrix$\textrm{'}$ shown above; that is, let $A_g$ be the $m_g\times n_g$ matrix defined, formally, as
@@ -41,9 +34,7 @@ where $m_g\coloneqq m-1$ and $n_g\coloneqq n-k$. If $m_g\neq0$, repeat steps 1 a
 
 Steps 1 to 3 constitute the **forward pass** which ensure that all zero-rows are at the bottom and that the resulting matrix is in an upper-triangular $\textrm{`}$staircase$\textrm{'}$ form. As such, the zero-rows will not be typesetted; similarly for all zero-columns on the left since they will not be affected by any further elementary row operations.
 * _Step 4: (Create zeros above the last leading 1)$\bf{.}$_ Let $l$ be the last non-zero row of the resulting matrix $U$ and let $k$ be its corresponding pivot column. Perform the type 2 elementary row operation
-<br>
-  <center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-06-07_044007/image.svg", width=750></center>
-<br>
+  <center><img src="app://local/home/zhao/MathWiki/Images/2022-06-07_044007/image.svg", width=750></center>
 
   for all $i\in\l\{1,\dots,l-1\r\}$ which create zeros above the leading 1.
 * _Step 5: (Repeat for all green submatrices)$\bf{.}$_ Let $U'$ be the matrix obtained after Step 4 and let $U_g$ be the green $\textrm{`}$submatrix$\textrm{'}$ shown above; that is, let $U_g$ be the $m_g\times n_g$ matrix defined, formally, as

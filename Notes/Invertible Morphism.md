@@ -18,7 +18,7 @@ Justifications: [[Inverse of morphism is unique]]
 title: Definition.
 
 _Let $\cat{C}$ be a category and fix $X,Y\in\obj\l(\cat{C}\r)$. A morphism $f:X\to Y$ is said to be **invertible** if there exists a morphism $g:Y\to X$ such that the diagram_
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-09_222557/image.svg", width=150></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-02-09_222557/image.svg", width=150></center>
 
 _commutes; that is, if $g$ is both a left and a right-inverse of $f$, in which case we write $g\coloneqq f^{-1}$ and call it the **inverse of $f$**._
 

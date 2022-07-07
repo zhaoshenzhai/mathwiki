@@ -27,6 +27,6 @@ _in which case we write $g\coloneqq f^{-1}$ and call it the **inverse of $f$**._
 
 **Remark.** This relationship can also be expressed by stating that the diagram
 
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-26_120126/image.svg", width=150></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-02-26_120126/image.svg", width=150></center>
 
 commutes.<span style="float:right;">$\blacklozenge$</span>

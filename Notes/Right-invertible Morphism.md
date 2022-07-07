@@ -18,7 +18,7 @@ Justifications: _Not Applicable_
 title: Definition.
 
 _Let $\cat{C}$ be a category and fix $X,Y\in\obj\l(\cat{C}\r)$. A morphism $f:X\to Y$ is said to be **right-invertible** if there exists a morphism $h:Y\to X$ such that the diagram_
-<center><img src="https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/Images/2022-02-09_223408/image.svg", width=100></center>
+<center><img src="app://local/home/zhao/MathWiki/Images/2022-02-09_223408/image.svg", width=100></center>
 
 _commutes; that is, if $f\circ h=\id_Y$, in which case $h$ is called a **right-inverse of $f$**._
 
