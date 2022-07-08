@@ -8,12 +8,12 @@ BLUE='\033[0;34m'
 RED='\033[0;31m'
 NC='\033[0m'
 
-cd ~/MathWiki/Notes
+cd ~/Dropbox/MathWiki/Notes
 
 repeat="Y"
 while [[ "$repeat" == "Y" ]]; do
-    source ~/MathWiki/.scripts/stats.sh -u
-    source ~/MathWiki/.scripts/stats.sh -p
+    source ~/Dropbox/MathWiki/.scripts/stats.sh -u
+    source ~/Dropbox/MathWiki/.scripts/stats.sh -p
     printf "\n"
 
     echo -e "${CYAN}Actions:${NC}"
@@ -50,17 +50,17 @@ while [[ "$repeat" == "Y" ]]; do
             ~/.config/scripts/gitCommit.sh -m
         ;;
         "2")
-            ~/MathWiki/.scripts/search.sh
+            ~/Dropbox/MathWiki/.scripts/search.sh
         ;;
         "3")
-            ~/MathWiki/.scripts/mathLinks.sh -u
-            ~/MathWiki/.scripts/mathLinks.sh -n
+            ~/Dropbox/MathWiki/.scripts/mathLinks.sh -u
+            ~/Dropbox/MathWiki/.scripts/mathLinks.sh -n
         ;;
         "4")
-            ~/MathWiki/.scripts/ghost.sh
+            ~/Dropbox/MathWiki/.scripts/ghost.sh
         ;;
         "5")
-            ~/MathWiki/.scripts/massEditing.sh
+            ~/Dropbox/MathWiki/.scripts/massEditing.sh
         ;;
     esac
 

@@ -10,7 +10,7 @@ NC='\033[0m'
 
 export GREP_COLORS='fn=33'
 
-cd ~/MathWiki/Notes
+cd ~/Dropbox/MathWiki/Notes
 
 Format()
 {

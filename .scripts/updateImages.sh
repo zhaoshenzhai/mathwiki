@@ -8,7 +8,7 @@ BLUE='\033[0;34m'
 RED='\033[0;31m'
 NC='\033[0m'
 
-cd ~/MathWiki/Images
+cd ~/Dropbox/MathWiki/Images
 
 prompt="Update images containing [(string)/ALL]: "
 

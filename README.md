@@ -54,7 +54,7 @@ This is the main downside of using [MathJax](https://www.mathjax.org/) in Obsidi
 
 My solution is to bind a key in Neovim which [inserts][tikzInsert]
 ```html
-<center><img src="app://local/home/zhao/MathWiki/Images/UNIQUE_IDENTIFIER/image.svg"></center>
+<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/UNIQUE_IDENTIFIER/image.svg"></center>
 ```
 in the current line and runs a [script](https://github.com/zhaoshenzhai/MathWiki/blob/master/.image/newTikZ.sh) that creates a standalone `image.tex` file from a [template](https://github.com/zhaoshenzhai/MathWiki/blob/master/.image/imageTemplate.tex) where the TikZ code can be written. Once finished, another key can be pressed which [executes][pdfLaTeXExecute]
 ```bash

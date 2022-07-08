@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "83bfbb8a5f9276ae",
+        "id": "3d5b700f0649389a",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -175,17 +175,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "83bfbb8a5f9276ae",
+  "active": "3d5b700f0649389a",
   "lastOpenFiles": [
-    "Notes/Identity functor is the identity of functor composition.md",
-    "Notes/Canonical projection is a surjection.md",
-    "Notes/Lower-limit topology strictly finer than standard topology on R.md",
-    "Notes/Dedekind-complete bounded convex sets are intervals.md",
-    "Notes/Orthogonal Complement.md",
-    "Notes/Dimension Theorem.md",
-    "Notes/Open set in open subspace is open.md",
-    "Notes/Transitive Set.md",
-    "Notes/Isomorphism of sets is an equivalence relation.md",
-    "Notes/Matrix in RREF if augmented with tuple is in RREF.md"
+    "Notes/Lattice of topologies is a complete lattice.md",
+    "Notes/Linearly independent subset of an arbitrary vector space extends to a basis.md",
+    "Notes/Half-infinite open rays are open in the order topology.md",
+    "Notes/Diagonalizable Operator; Matrix.md",
+    "Notes/Orthogonal Projection.md",
+    "Notes/Basic properties of orthogonal projections.md",
+    "Notes/Diagonalizable iff exists basis of eigenvectors.md",
+    "Notes/Matrix Representation of a Linear Map.md",
+    "Notes/Orthogonal projection minimizes distances.md",
+    "Notes/Orthogonal Decomposition.md"
   ]
 }
