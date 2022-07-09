@@ -32,7 +32,7 @@ Furthermore, recall that $\mc{S}\subseteq\mc{T}\l(\mc{B}\r)$ since half-infinite
   \end{equation}$$
   Pictorially, this can be seen as:
 
-  <center><img src="app://local/home/zhao/MathWiki/Images/2022-02-09_223333/image.svg", width=260></center>
+  <center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-02-09_223333/image.svg", width=260></center>
 
 * If there exists a minimal element $a_0\in X$ and $B=\l[a_0,b\r)$ for some $b\in X$ with $a_0<b$, then $\l[a_0,b\r)=\l(-\infty,b\r)\in\mc{S}$ and $B=\bigcap\l\{\l[a_0,b\r)\r\}$.
 * If there exists a maximal element $b_0\in X$ and $B=\l(a,b_0\r]$ for some $a\in X$ with $a<b_0$, then $\l(a,b_0\r]=\l(a,+\infty\r)\in\mc{S}$ and $B=\bigcap\l\{\l(a,b_0\r]\r\}$.<span style="float:right;">$\blacksquare$</span>

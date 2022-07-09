@@ -19,7 +19,7 @@ title: Definition.
 
 _Let $\cat{C}$ and $\cat{D}$ be categories and fix two functors $\ms{F},\ms{G}:\cat{C}\to\cat{D}$. A **natural isomorphism from $\ms{F}$ to $\ms{G}$** is a natural transformation_
 
-<center><img src="app://local/home/zhao/MathWiki/Images/2022-03-12_140320/image.svg", width=120></center>
+<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-03-12_140320/image.svg", width=120></center>
 
 _such that for all $X\in\obj\l(\cat{C}\r)$, the components $\eta_X:\ms{F}\l(X\r)\to\ms{G}\l(X\r)$ are isomorphisms in $\cat{D}$._
 

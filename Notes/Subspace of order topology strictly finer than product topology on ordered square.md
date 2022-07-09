@@ -19,7 +19,7 @@ _Let $I\coloneqq\l[0,1\r]\subseteq\R$, $<$ be the standard ordering on $\R$ rest
 
 _Proof_. Let $\mc{B}_\textrm{sb}$ and $\mc{B}_\textrm{pr}$ be bases for $\mc{T}_\textrm{sb}$ and $\mc{T}_\textrm{pr}$, respectively. Take $\tpl{x,y}\in I^2$ and $B_\textrm{pr}\in\mc{B}_\textrm{pr}$ containing $\tpl{x,y}$; it suffices to find some basis element $B_\textrm{sb}\in\mc{B}_\textrm{sb}$ such that $\tpl{x,y}\in B_\textrm{sb}\subseteq B_\textrm{pr}$. This is done graphically below, where the other cases ($\textrm{`}$bottom$\textrm{'}$, $\textrm{`}$right$\textrm{'}$, and the three $\textrm{`}$corners$\textrm{'}$) are also completely analogous.
 
-<center><img src="app://local/home/zhao/MathWiki/Images/2022-02-18_215655/image.svg", width=530></center>
+<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-02-18_215655/image.svg", width=530></center>
 
 The point $\tpl{x,y}$ is indicated in red and the basis $B_\textrm{sb}$ is indicated by green. Let $\mc{B}$ be the basis generating $\mc{T}\l(\sqsubset\r)$.
 

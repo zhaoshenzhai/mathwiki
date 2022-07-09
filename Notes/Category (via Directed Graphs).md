@@ -29,11 +29,11 @@ _satisfying:_
 
 * _$\axicat[Associativity]\bf{.}$ For all $f,g,h\in\mc{H}$ with $\tpl{f,g},\tpl{g,h}\in\mc{C}$, we have that $h\circ\l(g\circ f\r)=\l(h\circ g\r)\circ f$; that is, the following diagram commutes:_
 
-<center><img src="app://local/home/zhao/MathWiki/Images/2022-02-21_142913/image.svg", width=330, width=230></center>
+<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-02-21_142913/image.svg", width=330, width=230></center>
 
 * _$\axicat[Unit]\bf{.}$ For all $f\in\mc{H}$, we have that_ $\id_{\cdm f}\circ f=f=f\circ\id_{\dom f}$_; that is, the following diagram commutes:_
 
-<center><img src="app://local/home/zhao/MathWiki/Images/2022-03-16_175045/image.svg", width=330></center>
+<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-03-16_175045/image.svg", width=330></center>
 
 ```
 

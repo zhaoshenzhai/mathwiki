@@ -23,7 +23,7 @@ title: Definition.
 
 _Let $V$ be a finite dimensional vector space over some field $K$, say with $n\coloneqq\dim V$, and let $\mc{B}$ and $\mc{B}'$ be bases thereof. The **basis transition map from $\mc{B}$ to $\mc{B}'$** is the unique linear isomorphism_ $\psi:K^n\to K^n$ _such that the diagram_
 
-<center><img src="app://local/home/zhao/MathWiki/Images/2022-06-01_153315/image.svg", width=145></center>
+<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-06-01_153315/image.svg", width=145></center>
 
 _commutes; that is,_ $\psi\coloneqq\phi_{\mc{B}'}\circ\phi_\mc{B}^{-1}$_._
 

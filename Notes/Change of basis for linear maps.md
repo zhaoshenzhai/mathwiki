@@ -32,7 +32,7 @@ $$\begin{align}
 
 **Remark.** For ease of notation, let $A\coloneqq\l[T\r]_\mc{B}^\mc{C}$ and $A'\coloneqq\l[T\r]_{\mc{B}'}^{\mc{C}'}$, and consider the function $\mc{L}$ that sends matrices to their left-multiplication map. The statement can then be rephrased to saying that the diagram
 
-<center><img src="app://local/home/zhao/MathWiki/Images/2022-06-01_174406/image.svg", width=260></center>
+<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-06-01_174406/image.svg", width=260></center>
 
 commutes. To see this, let $\mc{S}_n$ and $\mc{S}_m$ denote the standard bases of $K^n$ and $K^m$, respectively, and let $\Phi$ be the matrix representation function. Observe then that
 $$\begin{equation}
