@@ -7,8 +7,12 @@
         "id": "3d5b700f0649389a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Upper-limit Topology on R.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -69,6 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Upper-limit Topology on R.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Upper-limit Topology on R.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Upper-limit Topology on R.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +184,15 @@
   },
   "active": "3d5b700f0649389a",
   "lastOpenFiles": [
+    "Notes/Upper-limit Topology on R.md",
+    "Notes/Least or greatest equals minimal or maximal for totally ordered sets.md",
+    "Notes/Totally Ordered Set.md",
     "Notes/Lattice of topologies is a complete lattice.md",
     "Notes/Linearly independent subset of an arbitrary vector space extends to a basis.md",
     "Notes/Half-infinite open rays are open in the order topology.md",
     "Notes/Diagonalizable Operator; Matrix.md",
     "Notes/Orthogonal Projection.md",
     "Notes/Basic properties of orthogonal projections.md",
-    "Notes/Diagonalizable iff exists basis of eigenvectors.md",
-    "Notes/Matrix Representation of a Linear Map.md",
-    "Notes/Orthogonal projection minimizes distances.md",
-    "Notes/Orthogonal Decomposition.md"
+    "Notes/Diagonalizable iff exists basis of eigenvectors.md"
   ]
 }
