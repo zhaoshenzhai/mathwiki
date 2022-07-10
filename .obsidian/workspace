@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "3d5b700f0649389a",
+        "id": "2d7041244b63c853",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -182,7 +182,7 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "3d5b700f0649389a",
+  "active": "2d7041244b63c853",
   "lastOpenFiles": [
     "Notes/Gaussian Algorithm.md",
     "Notes/Set of Relative Complements.md",
