@@ -4,9 +4,9 @@
   "switcher",
   "graph",
   "backlink",
-  "outgoing-link",
-  "tag-pane",
+  "page-preview",
   "command-palette",
+  "editor-status",
   "random-note",
   "word-count",
   "open-with-default-app"
