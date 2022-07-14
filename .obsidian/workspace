@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "956529003384a48d",
+        "id": "88e830703757713a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Euclidean Vector Space.md",
+            "file": "Notes/Identity functor is the identity of functor composition.md",
             "mode": "preview",
-            "source": true
+            "source": false
           }
         }
       }
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Euclidean Vector Space.md",
+                "file": "Notes/Identity functor is the identity of functor composition.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Euclidean Vector Space.md",
+                "file": "Notes/Identity functor is the identity of functor composition.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -182,17 +182,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "956529003384a48d",
+  "active": "88e830703757713a",
   "lastOpenFiles": [
+    "Notes/Left-invertible Function.md",
+    "Notes/Convex (Order).md",
+    "Notes/Vector Space of Skew-symmetric Matrices.md",
+    "Notes/Inverse of morphism is unique.md",
     "Notes/Euclidean Vector Space.md",
     "Notes/Dot product is an inner product.md",
     "Notes/Topological Subspace.md",
     "Notes/Domain and range of relation are sets (Kuratowski).md",
     "Notes/Gaussian Algorithm.md",
-    "Notes/Set of Relative Complements.md",
-    "Notes/Upper-limit Topology on R.md",
-    "Notes/Least or greatest equals minimal or maximal for totally ordered sets.md",
-    "Notes/Totally Ordered Set.md",
-    "Notes/Lattice of topologies is a complete lattice.md"
+    "Notes/Set of Relative Complements.md"
   ]
 }
