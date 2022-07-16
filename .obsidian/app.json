@@ -1,1 +1,8 @@
-{}
+{
+  "userIgnoreFilters": [
+    "Images/",
+    "README.md"
+  ],
+  "livePreview": false,
+  "defaultViewMode": "preview"
+}
