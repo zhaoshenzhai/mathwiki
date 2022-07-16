@@ -4,7 +4,7 @@
       "modifiers": [
         "Meta"
       ],
-      "key": "L"
+      "key": "K"
     }
   ],
   "editor:focus-left": [
@@ -12,25 +12,11 @@
       "modifiers": [
         "Meta"
       ],
-      "key": "H"
-    }
-  ],
-  "editor:focus-top": [
-    {
-      "modifiers": [
-        "Meta"
-      ],
-      "key": "K"
-    }
-  ],
-  "editor:focus-bottom": [
-    {
-      "modifiers": [
-        "Meta"
-      ],
       "key": "J"
     }
   ],
+  "editor:focus-top": [],
+  "editor:focus-bottom": [],
   "app:open-settings": [
     {
       "modifiers": [
@@ -109,7 +95,7 @@
       "modifiers": [
         "Meta"
       ],
-      "key": "O"
+      "key": "H"
     }
   ],
   "app:go-forward": [
@@ -117,7 +103,7 @@
       "modifiers": [
         "Meta"
       ],
-      "key": "I"
+      "key": "L"
     }
   ],
   "switcher:open": [

@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b48f1024f7e089e7",
+        "id": "4cef5bcbf5dd3297",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Norm.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -73,7 +69,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Norm.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Norm.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -170,17 +164,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "456013859d71f39b",
+  "active": "4cef5bcbf5dd3297",
   "lastOpenFiles": [
-    "Notes/Group.md",
-    "Notes/Norm.md",
-    "Notes/Gaussian Elimination.md",
-    "Notes/Gaussian Algorithm.md",
-    "Notes/Identity functor is the identity of functor composition.md",
-    "Notes/Left-invertible Function.md",
-    "Notes/Convex (Order).md",
-    "Notes/Vector Space of Skew-symmetric Matrices.md",
-    "Notes/Inverse of morphism is unique.md",
-    "Notes/Euclidean Vector Space.md"
+    "Notes/Diagonalizable Operator; Matrix.md",
+    "Notes/Diagram.md",
+    "Notes/Commutative Diagram.md",
+    "Notes/Diagonalizable iff exists basis of eigenvectors.md",
+    "Notes/Orthogonality.md",
+    "Notes/Inner Product Space.md",
+    "Notes/Orthogonal Decomposition.md",
+    "Notes/Orthogonal Projection.md",
+    "Notes/Lexicographical order topology strictly finer than standard topology on R2.md",
+    "Notes/Relation Induced by a Partition.md"
   ]
 }
