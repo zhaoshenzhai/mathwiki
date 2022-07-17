@@ -35,20 +35,52 @@ Math()
 
 Format()
 {
-    local r=$(echo "$1" | sed 's/\\/\\\\/g')                                # Escape \
-    local r=$(echo "$r" | sed 's/\ /\\s/g')                                 # Escape <Space>
-    local r=$(echo "$r" | sed 's/\[/\\\[/g')                                # Escape [
-    local r=$(echo "$r" | sed 's/\]/\\\]/g')                                # Escape ]
-    local r=$(echo "$r" | sed 's/(/\\(/g')                                  # Escape (
-    local r=$(echo "$r" | sed 's/)/\\)/g')                                  # Escape )
-    local r=$(echo "$r" | sed 's/{/\\{/g')                                  # Escape {
-    local r=$(echo "$r" | sed 's/}/\\}/g')                                  # Escape }
-    local r=$(echo "$r" | sed 's/\$/\\\$/g')                                # Escape $
-    local r=$(echo "$r" | sed 's/\^/\\\^/g')                                # Escape ^
-    local r=$(echo "$r" | sed 's/|/\\|/g')                                  # Escape |
-    local r=$(echo "$r" | sed 's/+/\\+/g')                                  # Escape +
-    local r=$(echo "$r" | sed 's/\./\\./g')                                 # Escape .
+    local r=$(echo "$1" | sed 's/\\/\\\\/g')  # Escape \
+    local r=$(echo "$r" | sed 's/\ /\\s/g')   # Escape <Space>
+    local r=$(echo "$r" | sed 's/\[/\\\[/g')  # Escape [
+    local r=$(echo "$r" | sed 's/\]/\\\]/g')  # Escape ]
+    local r=$(echo "$r" | sed 's/(/\\(/g')    # Escape (
+    local r=$(echo "$r" | sed 's/)/\\)/g')    # Escape )
+    local r=$(echo "$r" | sed 's/{/\\{/g')    # Escape {
+    local r=$(echo "$r" | sed 's/}/\\}/g')    # Escape }
+    local r=$(echo "$r" | sed 's/\$/\\\$/g')  # Escape $
+    local r=$(echo "$r" | sed 's/\^/\\\^/g')  # Escape ^
+    local r=$(echo "$r" | sed 's/|/\\|/g')    # Escape |
+    local r=$(echo "$r" | sed 's/+/\\+/g')    # Escape +
+    local r=$(echo "$r" | sed 's/\./\\./g')   # Escape .
     echo "$r"
+}
+
+Update()
+{
+    # Name inputs
+    current="$1"
+    new="$2"
+    obsidian="$3"
+
+    # Escape backslashes
+    currentTemp=$(echo "$current" | sed -E 's/\\/\\\\/g')
+    new=$(echo "$new" | sed -E 's/\\/\\\\/g')
+
+    # Display diff and ask for confirmation
+    echo -e "${RED}$currentTemp${NC} -> ${GREEN}$new${NC}"
+    read -u 1 -n 1 -p "$(echo -e '\n'"    ${PURPLE}Proceed? [Y/n]${NC} ")" proceed
+    if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
+        # Format current for regex stuff
+        currentFormatted=$(Format "$current")
+
+        # Loop through all backlinks
+        backLinks=$(grep -l "$obsidian" *)
+        echo -e "${PURPLE}        Updated:${NC}"
+        while IFS= read -r backLink; do
+            # Replace if link in backlink contains the different current(Formated)
+            if [[ ! -z $(grep "$currentFormatted" "$backLink") ]]; then
+                sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$backLink"
+                echo "            $backLink"
+            fi
+        done <<< "$backLinks"
+    fi
+    printf "\n"
 }
 
 while [ ! -z "$1" ]; do
@@ -56,67 +88,43 @@ while [ ! -z "$1" ]; do
         --update|-u)
             printf "\n"
             echo -e "${PURPLE}Updating math links...${NC}"
-            allLinks=$(grep -Poh '\[((?!\]\(|\]\]).)*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
 
-            numberOfLinks=`echo "$allLinks" | wc -l`
+            # Greps all math links; they are of the form [...](...)
+            allMathLinks=$(grep -Poh '\[((?!\]\(|\]\]).)*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
+
+            # Progress counter; not essential
+            numberOfLinks=`echo "$allMathLinks" | wc -l`
             updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfLinks"'/'100')+'0.5'' | sed 's/\..*//g')
             counter=0
 
+            # Loops through all math links
             while IFS= read -r link; do
-                # Get obsidian link
+                # Get obsidian link, i.e. the one with %20; they are the ones in (...)
                 obsidian=${link#*](}
                 obsidian=${obsidian::-1}
                 obsidianLength=$(echo ${#obsidian})
 
-                # Extract current from obsidian
+                # Get current link, i.e. the displayed MathJax; they are the ones in [...]
                 current=${link::-$obsidianLength}
                 current=${current:1}
                 current=${current::-3}
 
-                # Extract new from obsidian and compare; replace if different
-                new=$(echo "$obsidian" | sed 's/\(.*\).md/\1/' | sed 's/%20/\ /g')
-                custom=$(grep "custom_alias: " "$new.md")
-                if [[ -z $custom ]]; then
-                    new=$(Math "$new")
-                    if [ ! "$current" == "$new" ]; then
-                        currentTemp=$(echo "$current" | sed -E 's/\\/\\\\/g')
-                        new=$(echo "$new" | sed -E 's/\\/\\\\/g')
-                        echo -e "${RED}$currentTemp${NC} -> ${GREEN}$new${NC}"
-                        read -u 1 -n 1 -p "$(echo -e '\n'"    ${PURPLE}Proceed? [Y/n]${NC} ")" proceed
-                        if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
-                            currentFormatted=$(Format "$current")
-                            files=$(grep -l "$obsidian" *)
+                # Extract file name from obsidian
+                file=$(echo "$obsidian" | sed 's/%20/\ /g')
 
-                            while IFS= read -r file; do
-                                sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
-                                echo "        $file"
-                            done <<< "$files"
-                        fi
-                        printf "\n"
-                    fi
+                # Extract new from file in either cases
+                if [[ -z $(grep "custom_alias: " "$file") ]]; then
+                    new=$(Math "$(echo "$file" | sed 's/\(.*\).md/\1/')")
                 else
-                    name=$(echo "$obsidian" | sed 's/%20/\ /g')
-                    currentFile=$(grep "custom_alias: " "$name")
-                    alias=$(echo "$currentFile" | sed 's/^.*:\ //g')
-                    new=$(echo "$alias" | sed 's/.md//g')
-                    if [ ! "$current" == "$new" ]; then
-                        currentTemp=$(echo "$current" | sed -E 's/\\/\\\\/g')
-                        new=$(echo "$new" | sed -E 's/\\/\\\\/g')
-                        echo -e "${RED}$currentTemp${NC} -> ${GREEN}$new${NC}"
-                        read -u 1 -n 1 -p "$(echo -e '\n'"    ${PURPLE}Proceed? [Y/n]${NC} ")" proceed
-                        if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
-                            currentFormatted=$(Format "$current")
-                            files=$(grep -l "$obsidian" *)
-
-                            while IFS= read -r file; do
-                                sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
-                                echo "        $file"
-                            done <<< "$files"
-                        fi
-                        printf "\n"
-                    fi
+                    new=$(grep "custom_alias: " "$file" | sed 's/^.*:\ //g')
                 fi
 
+                # Update if different
+                if [ ! "$current" == "$new" ]; then
+                    Update "$current" "$new" "$obsidian"
+                fi
+
+                # Progress counter; not essential
                 if [[ ! -z "$updateInterval" ]]; then
                     counter=$(("$counter" + 1))
                     if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
@@ -124,7 +132,7 @@ while [ ! -z "$1" ]; do
                         echo -ne "    ${YELLOW}$percentage%${NC}\r"
                     fi
                 fi
-            done <<< "$allLinks"
+            done <<< "$allMathLinks"
             echo -e "    ${PURPLE}DONE${NC}"
             printf "\n"
         ;;
@@ -162,7 +170,7 @@ while [ ! -z "$1" ]; do
                         allDoubleCurrentFiles=$(grep -Pl "$currentFormatted" *)
 
                         while IFS= read -r file; do
-                            sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
+                            #sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
                             echo "        $file"
                         done <<< "$allDoubleCurrentFiles"
                     fi
