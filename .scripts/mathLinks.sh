@@ -69,7 +69,7 @@ Update()
 
         # Loop through all backlinks
         backLinks=$(grep -l "$obsidian" *)
-        echo -e "${PURPLE}        Updated:${NC}"
+        echo -e "${PURPLE}        Updated in:${NC}"
         while IFS= read -r backLink; do
             # Replace if link in backlink contains the different current(Formated)
             if [[ ! -z $(grep "$currentFormatted" "$backLink") ]]; then
@@ -93,9 +93,10 @@ while [ ! -z "$1" ]; do
             # Progress counter; not essential
             numberOfLinks=`echo "$allMathLinks" | wc -l`
             updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfLinks"'/'100')+'0.5'' | sed 's/\..*//g')
+            updateInterval=$((updateInterval*10))
             counter=0
 
-            # Loops through all math links
+            # Loop through all math links
             while IFS= read -r link; do
                 # Get obsidian link, i.e. the one with %20; they are the ones in (...)
                 obsidian=${link#*](}
@@ -112,7 +113,7 @@ while [ ! -z "$1" ]; do
 
                 # Extract new from file in either cases
                 if [[ -z $(grep "custom_alias: " "$file") ]]; then
-                    new=$(Math "$(echo "$file" | sed 's/\(.*\).md/\1/')")
+                    new=$(Math "$(echo "$file" | sed 's/.md//g')")
                 else
                     new=$(grep "custom_alias: " "$file" | sed 's/^.*:\ //g')
                 fi
@@ -124,7 +125,7 @@ while [ ! -z "$1" ]; do
 
                 # Progress counter; not essential
                 if [[ ! -z "$updateInterval" ]]; then
-                    counter=$(("$counter" + 1))
+                    counter=$((++counter))
                     if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
                         percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfLinks"''*100 | sed 's/\.00$//g')
                         echo -ne "    ${YELLOW}$percentage%${NC}\r"
@@ -136,18 +137,30 @@ while [ ! -z "$1" ]; do
         ;;
         --new|-n)
             echo -e "${PURPLE}Generating math links...${NC}"
-            allFiles=$(grep -l 'alias: auto_aliasing\|custom_alias:' *)
-            allDoubleCurrent=$(sed 's/^/\[\[/g' <<< "$allFiles")
-            allDoubleCurrent=$(sed 's/$/\]\]/g' <<< "$allDoubleCurrent")
-            allDoubleCurrent=$(sed 's/.md//g' <<< "$allDoubleCurrent")
 
+            # Greps all files with aliases; they are of the form name.md
+            allAliasedFiles=$(grep -l 'alias: auto_aliasing\|custom_alias:' *)
+
+            # Convert them to links; they are of the form [[name]]
+            allDoubleCurrent=$(echo "$allAliasedFiles" | sed 's/^/\[\[/g' | sed 's/$/\]\]/g' | sed 's/.md//g')
+
+            # Progress counter; not essential
             numberOfDouble=`echo "$allDoubleCurrent" | wc -l`
             updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfDouble"'/'100')+'0.5'' | sed 's/\..*//g')
+            updateInterval=$((updateInterval*10))
             counter=0
 
+            # Loop through all double links
             while IFS= read -r current; do
+                # Format current for regex stuff
                 currentFormatted=$(Format "$current")
-                if [[ ! -z $(grep -P "$currentFormatted" *) ]]; then
+
+                # All files linking to double
+                allDoubleCurrentFiles=$(grep -Pl "$currentFormatted" *)
+
+                # If a double link is found
+                if [[ ! -z "$allDoubleCurrentFiles" ]]; then
+                    # Generate 'left', i.e. the contents in [...]
                     currentTemp=$(echo "$current" | sed 's/\[\[//g' | sed 's/\]\]//g' | sed 's/$/.md/g')
                     currentFile=$(grep "custom_alias: " "$currentTemp")
                     if [[ ! -z $currentFile ]]; then
@@ -157,27 +170,36 @@ while [ ! -z "$1" ]; do
                         left="["$(Math "$currentTemp" | sed 's/.md//g')"]"
                     fi
 
+                    # Generate 'right', i.e. the contents in (...)
                     right=${allDoubleCurrent%%$'\n'*}
                     right=$(echo "$right" | sed 's/\[\[/\(/g' | sed 's/\]\]/.md\)/g' | sed 's/\ /%20/g')
 
-                    new=$left$right
-                    new=$(echo "$new" | sed 's/\\/\\\\/g')
+                    # Concat them and escape backslashes
+                    new=$(echo "$left$right" | sed 's/\\/\\\\/g')
+
+                    # Display diff and ask for confirmation
                     echo -e "${RED}$current${NC} -> ${GREEN}$new${NC}"
                     read -u 1 -n 1 -p "$(echo -e '\n'"    ${PURPLE}Proceed? [Y/n]${NC} ")" proceed
                     if [ -z "$proceed" ] || [ "$proceed" == "Y" ]; then
-                        allDoubleCurrentFiles=$(grep -Pl "$currentFormatted" *)
-
+                        # Loop through all such files
+                        echo -e "${PURPLE}        Generated in:${NC}"
                         while IFS= read -r file; do
-                            #sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
-                            echo "        $file"
+                            # Replace if link in file contains the different current(Formated)
+                            if [[ ! -z $(grep "$currentFormatted" "$file") ]]; then
+                                sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
+                                echo "            $file"
+                            fi
                         done <<< "$allDoubleCurrentFiles"
                     fi
                     printf "\n"
                 fi
+
+                # Next double link
                 allDoubleCurrent=${allDoubleCurrent#*$'\n'}
 
+                # Progress counter; not essential
                 if [[ ! -z "$updateInterval" ]]; then
-                    counter=$(("$counter" + 1))
+                    counter=$((++counter))
                     if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
                         percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfDouble"''*100 | sed 's/\.00$//g')
                         echo -ne "    ${YELLOW}$percentage%${NC}\r"

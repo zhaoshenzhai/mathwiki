@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f66d91e674c85813",
+        "id": "625a1ac59f68ea65",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -163,17 +163,6 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "f66d91e674c85813",
-  "lastOpenFiles": [
-    "Notes/Axiom of Union.md",
-    "Notes/Union.md",
-    "Notes/Invertible iff bijective.md",
-    "Notes/Bijection.md",
-    "Notes/Product topology (binary) is a topology.md",
-    "Notes/Elementary Matrices and Operations.md",
-    "Notes/Invertible Function.md",
-    "Notes/Identity Matrix.md",
-    "Notes/Elementary matrices slash operations have inverses of the same type.md",
-    "Notes/Basic properties of left-multiplication of matrices.md"
-  ]
+  "active": "625a1ac59f68ea65",
+  "lastOpenFiles": []
 }
