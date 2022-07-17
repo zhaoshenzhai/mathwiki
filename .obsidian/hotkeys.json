@@ -136,20 +136,6 @@
       "key": "U"
     }
   ],
-  "workspace:split-horizontal": [
-    {
-      "modifiers": [
-        "Meta"
-      ],
-      "key": "ArrowUp"
-    },
-    {
-      "modifiers": [
-        "Meta"
-      ],
-      "key": "ArrowDown"
-    }
-  ],
   "app:reload": [
     {
       "modifiers": [

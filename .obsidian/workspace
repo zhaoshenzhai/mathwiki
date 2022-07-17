@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "625a1ac59f68ea65",
+        "id": "106d01a874a4fa73",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -163,6 +163,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "625a1ac59f68ea65",
-  "lastOpenFiles": []
+  "active": "106d01a874a4fa73",
+  "lastOpenFiles": [
+    "Notes/Surjection.md",
+    "Notes/Criteria for equality of linear maps via spanning set.md",
+    "Notes/Lexicographical order is reflexive closure of strict lexicographical order.md",
+    "Notes/Inverse of transpose is transpose of inverse.md",
+    "Notes/Thin Category.md",
+    "Notes/Replacement Image.md",
+    "Notes/Composition of bijections is a bijection.md",
+    "Notes/Least and Greatest elements are unique.md",
+    "Notes/Dot product is an inner product.md",
+    "Notes/Cartesian product of intersections.md"
+  ]
 }
