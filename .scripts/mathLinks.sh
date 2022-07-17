@@ -12,43 +12,41 @@ cd ~/Dropbox/MathWiki/Notes
 
 Math()
 {
-    local r=$(echo "$1" | sed -E 's/\bR\b/\$\\R\$/g')                                         # Real numbers
-    local r=$(echo "$r" | sed -E 's/\bN\b/\$\\N\$/g')                                         # Natural numbers
-    local r=$(echo "$r" | sed -E 's/\bR2\b/\$\\R\^2\$/g')                                     # Real numbers squared
-    local r=$(echo "$r" | sed -E 's/\bN2\b/\$\\N\^2\$/g')                                     # Natural numbers squared
-    local r=$(echo "$r" | sed -E 's/\bequals\b/\$=\$/g')                                      # Equals
-    local r=$(echo "$r" | sed -E 's/\bimplies\b/\$\\Rightarrow\$/g')                          # Implies
-    local r=$(echo "$r" | sed -E 's/\biff\b/\$\\Leftrightarrow\$/g')                          # Equivalence
-    local r=$(echo "$r" | sed -E 's/\bON\b/\$\\textrm\{ON\}\$/g')                             # Class of ordinals
-    local r=$(echo "$r" | sed -E 's/\bK\b/\$K\$/g')                                           # K topology
-    local r=$(echo "$r" | sed -E 's/\ slash\ /\$\\slash\$/g')                                 # Slash
-    local r=$(echo "$r" | sed -E 's/\bCategory\sof\sSets\b/\$\\catset\$/gI')                  # Category of Sets
-    local r=$(echo "$r" | sed -E 's/\bCategory\sof\sRelations\b/\$\\catrel\$/gI')             # Category of Relations
-    local r=$(echo "$r" | sed -E 's/\bCategory\sof\sVector\sSpaces\b/\$\\catvect[K]\$/gI')    # Category of Vector Spaces over K
-    local r=$(echo "$r" | sed -E 's/\brepr\sunder\sbasis\b/\$\\Leftrightarrow\^\\textrm\{repr\.\}_\\textrm\{bases\}\$/gI')
-        # ...represented by/represents under a choice of basis
-
-    # Prefix Letters
-    local r=$(echo "$r" | sed -E 's/\bn-\b/\$n\$-/g')                                         # n
-    echo "$r"
+    echo $(echo "$1" |
+        sed -E 's/\bn-\b/\$n\$-/g'                                      | # n (prefix)
+        sed -E 's/\bR\b/\$\\R\$/g'                                      | # Real numbers
+        sed -E 's/\bN\b/\$\\N\$/g'                                      | # Natural numbers
+        sed -E 's/\bR2\b/\$\\R\^2\$/g'                                  | # Real numbers squared
+        sed -E 's/\bN2\b/\$\\N\^2\$/g'                                  | # Natural numbers squared
+        sed -E 's/\bequals\b/\$=\$/g'                                   | # Equals
+        sed -E 's/\bimplies\b/\$\\Rightarrow\$/g'                       | # Implies
+        sed -E 's/\biff\b/\$\\Leftrightarrow\$/g'                       | # Equivalence
+        sed -E 's/\bON\b/\$\\textrm\{ON\}\$/g'                          | # Class of ordinals
+        sed -E 's/\bK\b/\$K\$/g'                                        | # K topology
+        sed -E 's/\ slash\ /\$\\slash\$/g'                              | # Slash
+        sed -E 's/\bCategory\sof\sSets\b/\$\\catset\$/gI'               | # Category of Sets
+        sed -E 's/\bCategory\sof\sRelations\b/\$\\catrel\$/gI'          | # Category of Relations
+        sed -E 's/\bCategory\sof\sVector\sSpaces\b/\$\\catvect[K]\$/gI' | # Category of Vector Spaces over K
+        sed -E 's/\brepr\sunder\sbasis\b/\$\\Leftrightarrow\^\\textrm\{repr\.\}_\\textrm\{bases\}\$/gI')
+                                                                          # represented by/represents under a choice of basis
 }
 
 Format()
 {
-    local r=$(echo "$1" | sed 's/\\/\\\\/g')  # Escape \
-    local r=$(echo "$r" | sed 's/\ /\\s/g')   # Escape <Space>
-    local r=$(echo "$r" | sed 's/\[/\\\[/g')  # Escape [
-    local r=$(echo "$r" | sed 's/\]/\\\]/g')  # Escape ]
-    local r=$(echo "$r" | sed 's/(/\\(/g')    # Escape (
-    local r=$(echo "$r" | sed 's/)/\\)/g')    # Escape )
-    local r=$(echo "$r" | sed 's/{/\\{/g')    # Escape {
-    local r=$(echo "$r" | sed 's/}/\\}/g')    # Escape }
-    local r=$(echo "$r" | sed 's/\$/\\\$/g')  # Escape $
-    local r=$(echo "$r" | sed 's/\^/\\\^/g')  # Escape ^
-    local r=$(echo "$r" | sed 's/|/\\|/g')    # Escape |
-    local r=$(echo "$r" | sed 's/+/\\+/g')    # Escape +
-    local r=$(echo "$r" | sed 's/\./\\./g')   # Escape .
-    echo "$r"
+    echo $(echo "$1" |
+        sed 's/\\/\\\\/g'                                               | # Escape \
+        sed 's/\ /\\s/g'                                                | # Escape <
+        sed 's/\[/\\\[/g'                                               | # Escape [
+        sed 's/\]/\\\]/g'                                               | # Escape ]
+        sed 's/(/\\(/g'                                                 | # Escape (
+        sed 's/)/\\)/g'                                                 | # Escape )
+        sed 's/{/\\{/g'                                                 | # Escape {
+        sed 's/}/\\}/g'                                                 | # Escape }
+        sed 's/\$/\\\$/g'                                               | # Escape $
+        sed 's/\^/\\\^/g'                                               | # Escape ^
+        sed 's/|/\\|/g'                                                 | # Escape |
+        sed 's/+/\\+/g'                                                 | # Escape +
+        sed 's/\./\\./g'                                                ) # Escape .
 }
 
 Update()
