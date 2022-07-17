@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4cef5bcbf5dd3297",
+        "id": "0b025db5047552e9",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -56,15 +56,14 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
-        "id": "e209e1e82c7c4590",
+        "id": "73047de14d5411eb",
         "type": "tabs",
         "children": [
           {
-            "id": "1cb4aa67353d3b68",
+            "id": "a4646cd6c8e03048",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -83,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249,
+    "width": 244,
     "collapsed": true
   },
   "right": {
@@ -151,7 +150,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.08672297324854829,
+                  "scale": 0.029453516571954337,
                   "close": true
                 }
               }
@@ -164,17 +163,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "4cef5bcbf5dd3297",
+  "active": "0b025db5047552e9",
   "lastOpenFiles": [
+    "Notes/Elementary Matrices and Operations.md",
+    "Notes/Invertible Function.md",
+    "Notes/Identity Matrix.md",
+    "Notes/Elementary matrices slash operations have inverses of the same type.md",
+    "Notes/Basic properties of left-multiplication of matrices.md",
+    "Notes/Matrix multiplication (columns slash rows).md",
+    "Notes/Replacement image of a set is a set.md",
+    "Notes/Left-invertible iff injection.md",
     "Notes/Diagonalizable Operator; Matrix.md",
-    "Notes/Diagram.md",
-    "Notes/Commutative Diagram.md",
-    "Notes/Diagonalizable iff exists basis of eigenvectors.md",
-    "Notes/Orthogonality.md",
-    "Notes/Inner Product Space.md",
-    "Notes/Orthogonal Decomposition.md",
-    "Notes/Orthogonal Projection.md",
-    "Notes/Lexicographical order topology strictly finer than standard topology on R2.md",
-    "Notes/Relation Induced by a Partition.md"
+    "Notes/Identity natural transformation is a natural isomorphism.md"
   ]
 }

@@ -13,7 +13,7 @@ Examples: _Not Applicable_
 Constructions: [[Row-equivalence of Matrices]], [[Gaussian Algorithm]]
 Generalizations: _Not Applicable_
 
-Properties: [Elementary matrices$\slash$operations have inverses of the same type](Elementary%20matrices%20and%20operations%20have%20inverses%20of%20the%20same%20type.md), [Elementary matrices$\slash$operations are rank-preserving](Elementary%20matrices%20and%20operations%20are%20rank-preserving.md)
+Properties: [Elementary matrices$\slash$operations have inverses of the same type](Elementary%20matrices%20slash%20operations%20have%20inverses%20of%20the%20same%20type.md), [Elementary matrices$\slash$operations are rank-preserving](Elementary%20matrices%20and%20operations%20are%20rank-preserving.md)
 Sufficiencies: _Not Applicable_
 Equivalences: [[Elementary operations act as multiplication by its elementary matrix]]
 Justifications: _Not Applicable_

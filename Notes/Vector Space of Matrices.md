@@ -2,8 +2,6 @@
 custom_alias: $\mat{m\times n}{K}$ (Vector Space)
 ---
 
-
-
 <br />
 <br />
 

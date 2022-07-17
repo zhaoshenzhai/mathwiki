@@ -1,5 +1,5 @@
 ---
-custom_alias: Elementary matrices$\slash$operations have inverses of the same type
+alias: auto_aliasing
 ---
 
 <br />

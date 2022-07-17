@@ -35,7 +35,7 @@ These templates are automatically [inserted][templatesInsert] whenever a note is
 
 ## :gear: Obsidian configurations
 
-I do not directly write my notes in Obsidian since its Vim mode is not comprehensive (and the formatting is weird); see [dotfiles/nvim](https://github.com/zhaoshenzhai/dotfiles/tree/master/nvim) for my Neovim setup. Therefore, most of my Obsidian customization is on its [appearance](.obsidian/snippets/) and [navigation hotkeys](.obsidian/hotkeys.json).
+I do not directly write my notes in Obsidian since I have my own Neovim setup; see [dotfiles/nvim](https://github.com/zhaoshenzhai/dotfiles/tree/master/nvim). Therefore, most of my Obsidian customization is on its [appearance](.obsidian/snippets/) and [navigation hotkeys](.obsidian/hotkeys.json).
 
 Theme: [Minimal](https://github.com/kepano/obsidian-minimal).
 

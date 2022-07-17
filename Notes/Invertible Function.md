@@ -5,7 +5,7 @@ Date Created: 26/01/2022 18:48:16
 Tags: #Definition #Closed 
 
 Types: [[Linear Isomorphism]]
-Examples: [[Identity Function]], [Elementary matrices$\slash$operations have inverses of the same type](Elementary%20matrices%20and%20operations%20have%20inverses%20of%20the%20same%20type.md)
+Examples: [[Identity Function]], [Elementary Matrices$\slash$Operations](Elementary%20Matrices%20and%20Operations.md)
 Constructions: [[Isomorphic Sets]]
 Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]
 

@@ -4,5 +4,10 @@
     "README.md"
   ],
   "livePreview": false,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Notes",
+  "vimMode": true,
+  "showLineNumber": true
 }
