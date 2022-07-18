@@ -11,7 +11,6 @@ NC='\033[0m'
 export GREP_COLORS='fn=33'
 
 cd ~/Dropbox/MathWiki
-searchIn="Notes/*.md Images/*/*.tex"
 
 Format()
 {
