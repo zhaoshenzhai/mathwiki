@@ -3,6 +3,16 @@
 \input{../../imageconfig.tex}
 \input{../../preamble.sty}
 
+\makeatletter
+\newcommand{\globalcolor}[1]{%
+    \color{#1}\global\let\default@color\current@color
+}
+\makeatother
+
+\AtBeginDocument{\globalcolor{textColor}}
+
+\pagenumbering{gobble}
+
 \begin{document}
     \begin{tikzcd}[color=textColor]
         Y \ar[d, "h"'] \ar[dr, "\id_Y"]&
