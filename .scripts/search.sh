@@ -132,7 +132,7 @@ while [ -z "$replaceString" ]; do
 done
 replaceString=$(Format "$replaceString")
 
-numberOfMatches=`echo "$matchingLinesWithFiles" | wc -l`
+numberOfMatches=$(echo "$matchingLinesWithFiles" | wc -l)
 updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfMatches"'/'100')+'0.5'' | sed 's/\..*//g')
 lineOnlyMatching=1
 
@@ -149,14 +149,14 @@ while IFS= read -r matchingLineWithFile; do
     lineOnlyMatching=$(("$lineOnlyMatching" + 1))
 
     #### Fix modify time
-    time=`grep "Date Created" "$file" | sed 's/Date\ Created\:\ //g'`
+    time=$(grep "Date Created" "$file" | sed 's/Date\ Created\:\ //g')
 
-    year=`echo "$time" | sed 's/..\/..\///g' | sed 's/\ ..\:..\:..//g'`
-    month=`echo "$time" | sed 's/^..\///g' | sed 's/\/.*//g'`
-    day=`echo "$time" | sed 's/\/.*//g'`
-    hms=`echo "$time" | sed 's/^.*\ //g' | sed 's/\://' | sed 's/\:/./'`
+    year=$(echo "$time" | sed 's/..\/..\///g' | sed 's/\ ..\:..\:..//g')
+    month=$(echo "$time" | sed 's/^..\///g' | sed 's/\/.*//g')
+    day=$(echo "$time" | sed 's/\/.*//g')
+    hms=$(echo "$time" | sed 's/^.*\ //g' | sed 's/\://' | sed 's/\:/./')
 
-    newTime=`echo "$year$month$day$hms"`
+    newTime=$(echo "$year$month$day$hms")
     touch -m -t "$newTime" "$file"
     #### Fix modify time
 

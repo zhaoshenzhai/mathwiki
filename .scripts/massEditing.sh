@@ -12,9 +12,9 @@ cd ~/Dropbox/MathWiki/Notes
 
 Format()
 {
-    local r=$(echo "$1" | sed 's/\\/\\\\/g')                                # Escape \
-    local r=$(echo "$r" | sed 's/\$/\\\$/g')                                # Escape $
-    echo "$r"
+    echo $(echo "$1"      |
+        sed 's/\\/\\\\/g' |  # Escape \
+        sed 's/\$/\\\$/g' )  # Escape $
 }
 
 printf "\n"
@@ -108,14 +108,14 @@ while IFS= read -r file; do
 
             #### Fix modify time
             counter=$(("$counter" + 1))
-            time=`grep "Date Created" "$file" | sed 's/Date\ Created\:\ //g'`
+            time=$(grep "Date Created" "$file" | sed 's/Date\ Created\:\ //g')
 
-            year=`echo "$time" | sed 's/..\/..\///g' | sed 's/\ ..\:..\:..//g'`
-            month=`echo "$time" | sed 's/^..\///g' | sed 's/\/.*//g'`
-            day=`echo "$time" | sed 's/\/.*//g'`
-            hms=`echo "$time" | sed 's/^.*\ //g' | sed 's/\://' | sed 's/\:/./'`
+            year=$(echo "$time" | sed 's/..\/..\///g' | sed 's/\ ..\:..\:..//g')
+            month=$(echo "$time" | sed 's/^..\///g' | sed 's/\/.*//g')
+            day=$(echo "$time" | sed 's/\/.*//g')
+            hms=$(echo "$time" | sed 's/^.*\ //g' | sed 's/\://' | sed 's/\:/./')
 
-            newTime=`echo "$year$month$day$hms"`
+            newTime=$(echo "$year$month$day$hms")
             touch -m -t "$newTime" "$file"
 
             percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfFiles"''*100 | sed 's/\.00$//g')

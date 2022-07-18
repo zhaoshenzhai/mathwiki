@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dirName=`date +"%Y-%m-%d_%H%M%S"`
+dirName=$(date +"%Y-%m-%d_%H%M%S")
 
 cd ~/Dropbox/MathWiki/Images
 mkdir $dirName

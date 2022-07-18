@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cff075982fcbf09b",
+        "id": "0e1ee23ad77533f9",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Orthogonal projection minimizes distances.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -68,6 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Orthogonal projection minimizes distances.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +104,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Orthogonal projection minimizes distances.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -163,8 +169,9 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "cff075982fcbf09b",
+  "active": "0e1ee23ad77533f9",
   "lastOpenFiles": [
+    "Notes/Linearly independent set with same cardinality as dimension (finite) is a basis.md",
     "Notes/Symmetric and skew-symmetric decomposition of matrices.md",
     "Notes/Symmetric matrices form a linear subspace of set of matrices.md",
     "Notes/Asymmetric Relation.md",
@@ -173,7 +180,6 @@
     "Notes/Inverse of isomorphism is an isomorphism.md",
     "Notes/Kronecker Delta.md",
     "Notes/Product topology (basis; component from bases).md",
-    "Notes/Cartesian product is monotone w.r.t. subsets.md",
-    "Notes/Lexicographical order is a partial order.md"
+    "Notes/Cartesian product is monotone w.r.t. subsets.md"
   ]
 }

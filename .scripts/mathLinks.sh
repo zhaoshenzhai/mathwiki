@@ -91,7 +91,7 @@ while [ ! -z "$1" ]; do
             allMathLinks=$(grep -Poh '\[((?!\]\(|\]\]).)*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
 
             # Progress counter; not essential
-            numberOfLinks=`echo "$allMathLinks" | wc -l`
+            numberOfLinks=$(echo "$allMathLinks" | wc -l)
             updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfLinks"'/'100')+'0.5'' | sed 's/\..*//g')
             updateInterval=$((updateInterval*10))
             counter=0
@@ -145,7 +145,7 @@ while [ ! -z "$1" ]; do
             allDoubleCurrent=$(echo "$allAliasedFiles" | sed 's/^/\[\[/g' | sed 's/$/\]\]/g' | sed 's/.md//g')
 
             # Progress counter; not essential
-            numberOfDouble=`echo "$allDoubleCurrent" | wc -l`
+            numberOfDouble=$(echo "$allDoubleCurrent" | wc -l)
             updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfDouble"'/'100')+'0.5'' | sed 's/\..*//g')
             updateInterval=$((updateInterval*10))
             counter=0
