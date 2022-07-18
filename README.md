@@ -5,8 +5,8 @@ An [Obsidian.md](https://obsidian.md) vault for my math course notes in universi
 These notes are meant to be a distilled version of the math I've learnt where ideas, formulations, and important results are broken down into their atomic components of definitions, propositions, and theorems for clarity, precision, and accessibility.
 
 ## :bookmark_tabs: Contents
-* [Note Types and Templates](https://github.com/zhaoshenzhai/MathWiki/edit/master/README.md#pencil2-file-structures-and-templates); the basic templates and outgoing links for each type of note.
-* [Configurations and Scripts](https://github.com/zhaoshenzhai/MathWiki/edit/master/README.md#gear-obsidian-configurations); snippets, pluggins, and my bash scripts.
+* [Note Types and Templates](https://github.com/zhaoshenzhai/MathWiki/edit/master/README.md#pencil2-note-types-and-templates); the basic templates and outgoing links for each type of note.
+* [Configurations and Scripts](https://github.com/zhaoshenzhai/MathWiki/edit/master/README.md#gear-configurations-and-scripts); snippets, pluggins, and my bash scripts.
 * [MathJax in Links](https://github.com/zhaoshenzhai/MathWiki/edit/master/README.md#link-mathjax-in-links); a script that handles links with MathJax.
 * [TikZ Images](https://github.com/zhaoshenzhai/MathWiki/edit/master/README.md#art-tikz-images); my workflow invloving TikZ images.
 * [Sample Pages](https://github.com/zhaoshenzhai/MathWiki/edit/master/README.md#page_with_curl-sample-pages); some sample screenshots.
@@ -64,7 +64,7 @@ I wrote a [script](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts
 - `custom_alias`: If the alias is not standard (a one-time alias specific to this note), then it is written manually.
 
 The script can be used to update math links as well as generate new ones.
-- If flagged with `-u`, it updates every math link of the form `[text](link)` by comparing `text` with `alias` of `link`.
+- If flagged with `-u`, it updates every math link of the form `[text](link)` by comparing `text` with the `alias` of `link`.
     - If the note is auto-aliased, it can be run once the note is renamed.
     - If the note has a custom alias, the `alias` also needs to be updated manually in the front matter of the note before it can be run.
 - If flagged with `-n`, it generates a new math link `[text](link)` from all Obsidian-style links `[[...]]` whose note is aliased.
