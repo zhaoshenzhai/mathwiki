@@ -5,11 +5,11 @@ An [Obsidian.md](https://obsidian.md) vault for my math course notes in universi
 These notes are meant to be a distilled version of the math I've learnt where ideas, formulations, and important results are broken down into their atomic components of definitions, propositions, and theorems for clarity, precision, and accessibility.
 
 ## :bookmark_tabs: Contents
-* [Note Types and Templates](https://github.com/zhaoshenzhai/MathWiki/edit/master/README.md#pencil2-note-types-and-templates); the basic templates and outgoing links for each type of note.
-* [Configurations and Scripts](https://github.com/zhaoshenzhai/MathWiki/edit/master/README.md#gear-configurations-and-scripts); snippets, pluggins, and my bash scripts.
-* [MathJax in Links](https://github.com/zhaoshenzhai/MathWiki/edit/master/README.md#link-mathjax-in-links); a script that handles links with MathJax.
-* [TikZ Images](https://github.com/zhaoshenzhai/MathWiki/edit/master/README.md#art-tikz-images); my workflow invloving TikZ images.
-* [Sample Pages](https://github.com/zhaoshenzhai/MathWiki/edit/master/README.md#page_with_curl-sample-pages); some sample screenshots.
+* [Note Types and Templates](https://github.com/zhaoshenzhai/MathWiki#pencil2-note-types-and-templates); the basic templates and outgoing links for each type of note.
+* [Configurations and Scripts](https://github.com/zhaoshenzhai/MathWiki#gear-configurations-and-scripts); snippets, pluggins, and my bash scripts.
+* [MathJax in Links](https://github.com/zhaoshenzhai/MathWiki#link-mathjax-in-links); a script that handles links with MathJax.
+* [TikZ Images](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images); my workflow invloving TikZ images.
+* [Sample Pages](https://github.com/zhaoshenzhai/MathWiki#page_with_curl-sample-pages); some sample screenshots.
 
 ## :telescope: Graph View: ![#63BFEE](https://placeholder.pics/svg/15/63BFEE/63BFEE) Definitions | ![#E665B7](https://placeholder.pics/svg/15/E665B7/E665B7) Propositions | ![#65FB65](https://placeholder.pics/svg/15/65FB65/65FB65) Theorems | ![#F95D5D](https://placeholder.pics/svg/15/F95D5D/F95D5D) Axioms
 
@@ -42,7 +42,7 @@ These templates are automatically [inserted][templatesInsert] whenever a note is
 
 ## :gear: Configurations and Scripts
 
-I do not directly write my notes in Obsidian since I have my own Neovim setup; see [dotfiles/nvim](https://github.com/zhaoshenzhai/dotfiles/tree/master/nvim). Therefore, most of my Obsidian customization is on its [appearance](.obsidian/snippets/) and [navigation hotkeys](.obsidian/hotkeys.json).
+I do not directly write my notes in Obsidian since I have my own Neovim setup; see [dotfiles/nvim](https://github.com/zhaoshenzhai/dotfiles/tree/master/nvim). Therefore, most of my Obsidian customization is on its appearance (via [snippets](.obsidian/snippets/)) and [navigation hotkeys](.obsidian/hotkeys.json).
 
 Theme: [Minimal](https://github.com/kepano/obsidian-minimal).
 
@@ -52,6 +52,15 @@ Pluggins:
 * [Extended MathJax](https://github.com/xldenis/obsidian-latex): Add macros in [`preamble.sty`](preamble.sty).
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
 * [Sliding Panes (Andy's Mode)](https://github.com/deathau/sliding-panes-obsidian): Stack panes side-by-side.
+
+I wrote some bash scripts to (try) maintain the consistency of the notes, [main.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/main.sh) acts as a hub for me to run them.
+* Updating links of the form `[MathJax](link)` is handled by [mathLinks.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/mathLinks.sh); its usage is detailed [below](https://github.com/zhaoshenzhai/MathWiki#link-mathjax-in-links).
+* Images are handled by [newTikz.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/newTikZ.sh), [getCurrentImage.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/getCurrentImage.sh), and [updateImages.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/updateImages.sh); see my workflow [here](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images).
+* Search and replace patterns, including the ability of excluding additional patterns, is handled by [search.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/search.sh).
+* Operations on all lines containing `pattern`, including appending text, inserting a line before/after, and deleting lines, are handled by [massEditing.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/massEditing.sh).
+* Basic stats of the vault (and updating them below) is handled by [stats.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh).
+* Displaying all links that have yet to be created and all notes that have those links, are handled by [ghost.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/ghost.sh).
+* Setting the modification time of each note to its creation time is handled by [fixModifyTime.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/fixModifyTime.sh). This is useful if you want the graph view animation to show notes by the date that they are created. Normally, this isn't an issue but because I use scripts to modify the contents of the notes, their modification times are altered to increase alphabetically. This script resets this behaviour at the cost of forfeiting the actual user modification time.
 
 Some stats: 572 notes, 1364 links, 55 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
