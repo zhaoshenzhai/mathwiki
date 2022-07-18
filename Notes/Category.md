@@ -11,13 +11,13 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [[Category (via Directed Graphs)]]
+Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
 
-_Let $\mb{U}$ be a Grothendieck universe. A **$\mb{U}$-category (via a family of hom-classes)** is a quadruple $\cat{C}\coloneqq\tpl{\mc{O},\hom,\id,\comp}$ consisting of_
+_Let $\mb{U}$ be a Grothendieck universe. A **$\mb{U}$-category** is a quadruple $\cat{C}\coloneqq\tpl{\mc{O},\hom,\id,\comp}$ consisting of_
 * _a $\mb{U}$-class $\obj\l(\cat{C}\r)\coloneqq\mc{O}\subseteq\mb{U}$,_
 * _a function $\hom$ assigning to each $\tpl{X,Y}\in\mc{O}^2$ a $\mb{U}$-class $\hom\l(X,Y\r)\subseteq\mb{U}$,_
 * _a function $\id$ assigning to each $X\in\mc{O}$ an element $\id_X\coloneqq\id\l(X\r)\in\hom\l(X,Y\r)$, and_

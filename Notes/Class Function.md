@@ -6,7 +6,7 @@ Tags: #Definition #Later/Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Category (via Hom-classes)]], [[Functor]], [[Natural Transformation]]
+Constructions: [[Category]], [[Functor]], [[Natural Transformation]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

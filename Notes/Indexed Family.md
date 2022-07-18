@@ -17,7 +17,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $I$ and $\mc{A}$ be sets. an **$I$-indexed family of sets in $\mc{A}$** is a function $f:I\to\mc{A}$._
+_Let $I$ and $\mc{A}$ be sets. An **$I$-indexed family of sets in $\mc{A}$** is a function $f:I\to\mc{A}$._
 
 ```
 

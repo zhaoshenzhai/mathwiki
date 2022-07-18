@@ -15,7 +15,7 @@ Equivalences: _Not Applicable_
 Justifications: [$\textrm{ON}$ is a proper class](ON%20is%20a%20proper%20class.md)
 
 ``` ad-Definition
-title: Definition.(Informal).
+title: Definition (Informal).
 
 _The **class of ordinals** is the proper class $\ord\coloneqq\l\{x\mid x\textrm{ is an ordinal}\r\}$._
 
