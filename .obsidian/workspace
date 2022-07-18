@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0e1ee23ad77533f9",
+        "id": "d0601da0bdd2601f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Natural Isomorphism.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "e9475592cc738607",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Natural Transformation.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -84,7 +68,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Natural Transformation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +99,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Natural Transformation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "path:Notes",
@@ -181,7 +163,7 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "e9475592cc738607",
+  "active": "d0601da0bdd2601f",
   "lastOpenFiles": [
     "Notes/Natural Isomorphism.md",
     "Notes/Natural Transformation.md",
