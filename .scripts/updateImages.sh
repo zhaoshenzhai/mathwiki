@@ -10,11 +10,12 @@ NC='\033[0m'
 
 cd ~/Dropbox/MathWiki/Images
 
+printf "\n"
 prompt="Update images containing [(string)/ALL]: "
 
-read -p "$(echo -e ${CYAN}$prompt${NC})" filter
+read -p "$(echo -e ${PURPLE}$prompt${NC})" filter
 while [ -z "$filter" ]; do
-    read -p "$(echo -e ${CYAN}$prompt${NC})" filter
+    read -p "$(echo -e ${PURPLE}$prompt${NC})" filter
 done
 
 if [[ "$filter" != "ALL" ]]; then
@@ -24,14 +25,17 @@ else
 fi
 
 total=${#dirs[@]}
+counter=1
 
-let i=1
 for d in "${dirs[@]}"; do
     cd $d
     pdflatex -shell-escape image.tex > /dev/null 2>&1 && pdfcrop image.pdf image.pdf > /dev/null 2>&1 && pdf2svg image.pdf image.svg
-    echo "$d ($i/$total)"
-    ((i=i+1))
+
+    echo -e "    $d ($counter/$total)${NC}"
+    counter=$((++counter))
     cd ..
 done
 
-rm *.log
+if [[ -f *.log ]]; then
+    rm *.log
+fi
