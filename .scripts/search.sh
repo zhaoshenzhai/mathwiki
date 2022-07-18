@@ -10,13 +10,14 @@ NC='\033[0m'
 
 export GREP_COLORS='fn=33'
 
-cd ~/Dropbox/MathWiki/Notes
+cd ~/Dropbox/MathWiki
+searchIn="Notes/*.md Images/*/*.tex"
 
 Format()
 {
-    local r=$(echo "$1" | sed 's/\\/\\\\/g')                                # Escape \
-    local r=$(echo "$r" | sed 's/\$/\\\$/g')                                # Escape $
-    echo "$r"
+    echo $(echo "$1"      |
+        sed 's/\\/\\\\/g' |  # Escape \
+        sed 's/\$/\\\$/g' )  # Escape $
 }
 
 printf "\n"
@@ -36,21 +37,47 @@ if [[ "$sensitive" == "q" ]]; then
 fi
 while [[ ! -z "$sensitive" ]] && [[ ! "$sensitive" == y ]]; do
     read -n 1 -ep "$(echo -e "    ${PURPLE}Case sensitive? [N/y]${NC}") " sensitive
+    if [[ "$sensitive" == "q" ]]; then
+        exit
+    fi
 done
 ####Case sensitive
+
+####Notes, images, or both
+read -n 1 -ep "$(echo -e "    ${PURPLE}Search in: [N(otes)/i(mages)/b(oth)]${NC}") " searchIn
+if [[ "$searchIn" == "q" ]]; then
+    exit
+fi
+while [[ ! -z "$searchIn" ]] && [[ ! "$searchIn" == i ]] && [[ ! "$searchIn" == b ]]; do
+    read -n 1 -ep "$(echo -e "    ${PURPLE}Search in: [N(otes)/i(mages)/b(oth)]${NC}") " searchIn
+    if [[ "$searchIn" == "q" ]]; then
+        exit
+    fi
+done
+case "$searchIn" in
+    "i")
+        searchIn="Images/*/*.tex"
+    ;;
+    "b")
+        searchIn="Notes/*.md Images/*/*.tex"
+    ;;
+    *)
+        searchIn="Notes/*.md"
+    ;;
+esac
+####Notes, images, or both
 
 printf "\n"
 
 #### Search
 if [[ "$sensitive" == "y" ]]; then
-    matchingLinesWithFiles=$(grep --color=always -n ''"$query"'' *)
-    matches=$(grep -h ''"$query"'' *)
-    onlyMatching=$(grep -ho ''"$query"'' *)
+    matchingLinesWithFiles=$(grep --color=always -n ''"$query"'' $searchIn)
+    matches=$(grep -h ''"$query"'' $searchIn)
+    onlyMatching=$(grep -ho ''"$query"'' $searchIn)
 else
-    matchingLinesWithFiles=$(grep --color=always -ni ''"$query"'' *)
-    #files=$(grep -rin ''"$query"'' * | cut -d: -f1-2)
-    matches=$(grep -hi ''"$query"'' *)
-    onlyMatching=$(grep -hio ''"$query"'' *)
+    matchingLinesWithFiles=$(grep --color=always -ni ''"$query"'' $searchIn)
+    matches=$(grep -hi ''"$query"'' $searchIn)
+    onlyMatching=$(grep -hio ''"$query"'' $searchIn)
 fi
 #### Search
 
@@ -66,18 +93,22 @@ fi
 #### Replace?
 
 #### Iterate remove matches
-while [[ -z "$remove" ]]; do
+remove="y"
+while [[ "$remove" == "y" ]]; do
     #### Prompt for remove
-    read -n 1 -ep "$(echo -e "    ${PURPLE}Remove matches? [Y/n]${NC}") " remove
+    read -n 1 -ep "$(echo -e "    ${PURPLE}Remove matches? [N/y]${NC}") " remove
     if [[ "$remove" == "q" ]]; then
         exit
     fi
-    while [[ ! -z "$remove" ]] && [[ ! "$remove" == n ]]; do
-        read -n 1 -ep "$(echo -e "    ${PURPLE}Remove matches? [Y/n]${NC}") " remove
+    while [[ ! -z "$remove" ]] && [[ ! "$remove" == y ]]; do
+        read -n 1 -ep "$(echo -e "    ${PURPLE}Remove matches? [N/y]${NC}") " remove
+        if [[ "$remove" == "q" ]]; then
+            exit
+        fi
     done
     #### Prompt for remove
 
-    if [[ -z "$remove" ]]; then
+    if [[ "$remove" == "y" ]]; then
         #### Remove string
         read -ep "$(echo -e "        ${PURPLE}Remove: [string]${NC}") " toRemove
         while [ -z "$toRemove" ]; do
@@ -149,15 +180,17 @@ while IFS= read -r matchingLineWithFile; do
     lineOnlyMatching=$(("$lineOnlyMatching" + 1))
 
     #### Fix modify time
-    time=$(grep "Date Created" "$file" | sed 's/Date\ Created\:\ //g')
+    if [[ ! $(echo "$file" | sed 's/\/.*//g') == "Images" ]]; then
+        time=$(grep "Date Created" "$file" | sed 's/Date\ Created\:\ //g')
 
-    year=$(echo "$time" | sed 's/..\/..\///g' | sed 's/\ ..\:..\:..//g')
-    month=$(echo "$time" | sed 's/^..\///g' | sed 's/\/.*//g')
-    day=$(echo "$time" | sed 's/\/.*//g')
-    hms=$(echo "$time" | sed 's/^.*\ //g' | sed 's/\://' | sed 's/\:/./')
+        year=$(echo "$time" | sed 's/..\/..\///g' | sed 's/\ ..\:..\:..//g')
+        month=$(echo "$time" | sed 's/^..\///g' | sed 's/\/.*//g')
+        day=$(echo "$time" | sed 's/\/.*//g')
+        hms=$(echo "$time" | sed 's/^.*\ //g' | sed 's/\://' | sed 's/\:/./')
 
-    newTime=$(echo "$year$month$day$hms")
-    touch -m -t "$newTime" "$file"
+        newTime=$(echo "$year$month$day$hms")
+        touch -m -t "$newTime" "$file"
+    fi
     #### Fix modify time
 
     if [[ ! -z "$updateInterval" ]]; then
