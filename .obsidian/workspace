@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "106d01a874a4fa73",
+        "id": "cff075982fcbf09b",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -142,15 +142,15 @@
                   ],
                   "collapse-display": true,
                   "showArrow": true,
-                  "textFadeMultiplier": -1.3,
+                  "textFadeMultiplier": -3,
                   "nodeSizeMultiplier": 0.760529506871463,
                   "lineSizeMultiplier": 3.06767886014551,
-                  "collapse-forces": false,
+                  "collapse-forces": true,
                   "centerStrength": 0,
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.029453516571954337,
+                  "scale": 0.46892875608220497,
                   "close": true
                 }
               }
@@ -163,17 +163,17 @@
     "width": 973.6,
     "collapsed": true
   },
-  "active": "106d01a874a4fa73",
+  "active": "cff075982fcbf09b",
   "lastOpenFiles": [
-    "Notes/Surjection.md",
-    "Notes/Criteria for equality of linear maps via spanning set.md",
-    "Notes/Lexicographical order is reflexive closure of strict lexicographical order.md",
-    "Notes/Inverse of transpose is transpose of inverse.md",
-    "Notes/Thin Category.md",
-    "Notes/Replacement Image.md",
-    "Notes/Composition of bijections is a bijection.md",
-    "Notes/Least and Greatest elements are unique.md",
-    "Notes/Dot product is an inner product.md",
-    "Notes/Cartesian product of intersections.md"
+    "Notes/Symmetric and skew-symmetric decomposition of matrices.md",
+    "Notes/Symmetric matrices form a linear subspace of set of matrices.md",
+    "Notes/Asymmetric Relation.md",
+    "Notes/Homogeneous linear system only trivial solution iff columns slash rows of coefficient matrix are linearly independent.md",
+    "Notes/Matrix multiplication (columns slash rows).md",
+    "Notes/Inverse of isomorphism is an isomorphism.md",
+    "Notes/Kronecker Delta.md",
+    "Notes/Product topology (basis; component from bases).md",
+    "Notes/Cartesian product is monotone w.r.t. subsets.md",
+    "Notes/Lexicographical order is a partial order.md"
   ]
 }
