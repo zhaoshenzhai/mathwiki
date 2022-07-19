@@ -7,5 +7,6 @@
   "tag-pane",
   "command-palette",
   "random-note",
-  "word-count"
+  "word-count",
+  "workspaces"
 ]

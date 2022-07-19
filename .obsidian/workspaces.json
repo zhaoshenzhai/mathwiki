@@ -1,129 +1,172 @@
 {
-  "Local Graph": {
-    "main": {
-      "id": "fdd873efe4c7469c",
-      "type": "split",
-      "children": [
-        {
-          "id": "9e05ede6dc43a4c1",
-          "type": "leaf",
-          "state": {
-            "type": "localgraph",
+  "workspaces": {
+    "workspace": {
+      "main": {
+        "id": "0fe41678c7ac177b",
+        "type": "split",
+        "children": [
+          {
+            "id": "28270860c822f933",
+            "type": "leaf",
             "state": {
-              "file": "Notes/Function.md",
-              "options": {
-                "collapse-filter": true,
-                "search": "",
-                "localJumps": 1,
-                "localBacklinks": true,
-                "localForelinks": true,
-                "localInterlinks": false,
-                "showTags": false,
-                "showAttachments": false,
-                "hideUnresolved": false,
-                "collapse-color-groups": true,
-                "colorGroups": [],
-                "collapse-display": true,
-                "showArrow": false,
-                "textFadeMultiplier": 0,
-                "nodeSizeMultiplier": 1,
-                "lineSizeMultiplier": 1,
-                "collapse-forces": true,
-                "centerStrength": 0.518713248970312,
-                "repelStrength": 10,
-                "linkStrength": 1,
-                "linkDistance": 250,
-                "scale": 1,
-                "close": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        }
-      ],
-      "direction": "vertical"
-    },
-    "left": {
-      "id": "9e9df2fc51307510",
-      "type": "split",
-      "children": [
-        {
-          "id": "7bb93677b0e22a40",
-          "type": "tabs",
-          "children": [
-            {
-              "id": "a680674ecae88d20",
-              "type": "leaf",
-              "state": {
-                "type": "file-explorer",
-                "state": {}
-              }
-            },
-            {
-              "id": "664bfc96d1e5a380",
-              "type": "leaf",
-              "state": {
-                "type": "search",
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "4cf92e01085e71c5",
+        "type": "split",
+        "children": [
+          {
+            "id": "9dbb206d8bee415b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2f81a521c97c9b4d",
+                "type": "leaf",
                 "state": {
-                  "query": "tag:#Theorem",
-                  "matchingCase": false,
-                  "explainSearch": true,
-                  "collapseAll": true,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical"
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "838f6345bbb1125e",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:In_Progress",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "456013859d71f39b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
                 }
               }
-            },
-            {
-              "id": "bfc16c4d27238e7c",
-              "type": "leaf",
-              "state": {
-                "type": "tag",
+            ]
+          },
+          {
+            "id": "73047de14d5411eb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a4646cd6c8e03048",
+                "type": "leaf",
                 "state": {
-                  "sortOrder": "frequency",
-                  "useHierarchy": false
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
                 }
               }
-            }
-          ],
-          "currentTab": 1
-        }
-      ],
-      "direction": "horizontal",
-      "width": 165,
-      "collapsed": true
-    },
-    "right": {
-      "id": "9b204813a94e4120",
-      "type": "split",
-      "children": [
-        {
-          "id": "249f54e77061d7f3",
-          "type": "tabs",
-          "children": [
-            {
-              "id": "c44d51b963eb16e7",
-              "type": "leaf",
-              "state": {
-                "type": "backlink",
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 244,
+        "collapsed": true
+      },
+      "right": {
+        "id": "6e128061ec5336cc",
+        "type": "split",
+        "children": [
+          {
+            "id": "f412e060e743cbe4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2389c0c12caa602b",
+                "type": "leaf",
                 "state": {
-                  "file": "Notes/Function.md",
-                  "collapseAll": true,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                  "type": "localgraph",
+                  "state": {
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "path:Notes",
+                      "localJumps": 4,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": true,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [
+                        {
+                          "query": "tag:#Definition",
+                          "color": {
+                            "a": 1,
+                            "rgb": 6537198
+                          }
+                        },
+                        {
+                          "query": "tag:#Proposition",
+                          "color": {
+                            "a": 1,
+                            "rgb": 15099319
+                          }
+                        },
+                        {
+                          "query": "tag:#Theorem",
+                          "color": {
+                            "a": 1,
+                            "rgb": 6683493
+                          }
+                        },
+                        {
+                          "query": "tag:#Axiom",
+                          "color": {
+                            "a": 1,
+                            "rgb": 16342365
+                          }
+                        }
+                      ],
+                      "collapse-display": true,
+                      "showArrow": true,
+                      "textFadeMultiplier": -3,
+                      "nodeSizeMultiplier": 0.760529506871463,
+                      "lineSizeMultiplier": 3.06767886014551,
+                      "collapse-forces": true,
+                      "centerStrength": 0,
+                      "repelStrength": 20,
+                      "linkStrength": 1,
+                      "linkDistance": 30,
+                      "scale": 0.46892875608220497,
+                      "close": true
+                    }
+                  }
                 }
               }
-            }
-          ]
-        }
-      ],
-      "direction": "horizontal",
-      "width": 188.66127014160156,
-      "collapsed": true
-    },
-    "active": "9e05ede6dc43a4c1"
-  }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 973.6,
+        "collapsed": true
+      },
+      "active": "28270860c822f933"
+    }
+  },
+  "active": "workspace"
 }
