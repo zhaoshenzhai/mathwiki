@@ -8,7 +8,7 @@ BLUE='\033[0;34m'
 RED='\033[0;31m'
 NC='\033[0m'
 
-cd ~/Dropbox/MathWiki/Notes
+cd ~/Dropbox/MathWiki
 
 Format()
 {
@@ -19,33 +19,59 @@ Format()
 
 printf "\n"
 
-#### Tag
-read -n 1 -ep "$(echo -e "${PURPLE}Tag: [A/d/p/t/a]${NC} ")" tag
-if [[ "$tag" == q ]]; then
+####Notes, images, or both
+read -n 1 -ep "$(echo -e "${PURPLE}Edit in: [N(otes)/i(mages)/b(oth)]${NC}") " editIn
+if [[ "$editIn" == "q" ]]; then
     exit
 fi
-
-while [ ! -z "$tag" ] && [ ! "$tag" == "A" ] && [ ! "$tag" == "d" ] && [ ! "$tag" == "p" ] && [ ! "$tag" == "t" ] && [ ! "$tag" == "a" ]; do
-    read -n 1 -ep "$(echo -e "${PURPLE}Tag: [A/d/p/t/a]${NC} ")" tag
-    if [[ "$tag" == q ]]; then
+while [[ ! -z "$editIn" ]] && [[ ! "$editIn" == i ]] && [[ ! "$editIn" == b ]]; do
+    read -n 1 -ep "$(echo -e "${PURPLE}Edit in: [N(otes)/i(mages)/b(oth)]${NC}") " editIn
+    if [[ "$editIn" == "q" ]]; then
         exit
     fi
 done
-
-case $tag in
-    "d")
-        tag="#Definition"
+case "$editIn" in
+    "i")
+        editIn="Images/*/*.tex"
     ;;
-    "p")
-        tag="#Proposition"
+    "b")
+        editIn="Notes/*.md Images/*/*.tex"
     ;;
-    "t")
-        tag="#Theorem"
-    ;;
-    "a")
-        tag="#Axiom"
+    *)
+        editIn="Notes/*.md"
     ;;
 esac
+####Notes, images, or both
+
+#### Tag
+if [[ "$editIn" == "Notes/*.md" ]]; then
+    read -n 1 -ep "$(echo -e "${PURPLE}Filter in tags: [A/d/p/t/a]${NC} ")" tag
+    if [[ "$tag" == q ]]; then
+        exit
+    fi
+
+    while [ ! -z "$tag" ] && [ ! "$tag" == "A" ] && [ ! "$tag" == "d" ] && [ ! "$tag" == "p" ] && [ ! "$tag" == "t" ] && [ ! "$tag" == "a" ]; do
+        read -n 1 -ep "$(echo -e "${PURPLE}Filter in tags: [A/d/p/t/a]${NC} ")" tag
+        if [[ "$tag" == q ]]; then
+            exit
+        fi
+    done
+
+    case $tag in
+        "d")
+            tag="#Definition"
+        ;;
+        "p")
+            tag="#Proposition"
+        ;;
+        "t")
+            tag="#Theorem"
+        ;;
+        "a")
+            tag="#Axiom"
+        ;;
+    esac
+fi
 #### Tag
 
 #### Identifier
@@ -54,22 +80,71 @@ read -ep "$(echo -e "${PURPLE}Select line containing [string]: "${NC})" identifi
 while [ -z "$identifier" ];do
     read -ep "$(echo -e "${PURPLE}Select line containing [string]: "${NC})" identifier
 done
+identifier=$(Format "$identifier")
 #### Identifier
 
-#### Get all files with tag and identifier
-allFileWithLines="$(grep -no "$identifier" * | sed 's/:'"$identifier"'//g')"
-allLines=$(echo "$allFileWithLines" | sed 's/^.*://g')
+#### Get all files with identifier and their lines
+allFileWithLines=$(grep -no "$identifier" $editIn | sed 's/:'"$identifier"'//g')
 allFiles=$(echo "$allFileWithLines" | sed 's/:.*$//g')
-#### Get all files with tag and identifier
 
-#### Options
+allLines=$(echo "$allFileWithLines" | sed 's/^.*://g')
+allLinesInsert="$allLines"
+allLinesDelete="$allLines"
+
+allCounts=$(grep -c "$identifier" $editIn | sed 's/^.*://g' | sed '/^0$/d')
+numberOfCounts=$(echo "$allCounts" | wc -l)
+updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfCounts"'/'100')+'0.5'' | sed 's/\..*//g')
+counter=1
+lineNumber=1
+while IFS= read -r count; do
+    for (( i=1; i<=$count; i++ )); do
+        line=$(echo "$allLines" | sed "${lineNumber}q;d")
+        allLinesInsert=$(echo "$allLinesInsert" | sed ''"$lineNumber"'s/^.*$/'"$(($line + $i - 1))"'/')
+        allLinesDelete=$(echo "$allLinesDelete" | sed ''"$lineNumber"'s/^.*$/'"$(($line - $i + 1))"'/')
+        lineNumber=$((++lineNumber))
+    done
+    if [[ ! -z "$updateInterval" ]]; then
+        counter=$((++counter))
+        if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
+            percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfCounts"''*100 | sed 's/\.00$//g')
+            echo -ne "    ${YELLOW}Generating lines... $percentage% ("$counter"/"$numberOfCounts")${NC}\r"
+        fi
+    fi
+done <<< "$allCounts"
+echo -ne "                                                                                                \r"
+#### Get all files with identifier and their lines
+
+#### Change to before/after
 read -n 1 -ep "$(echo -e "    ${PURPLE}Change to before/after? [N/b/a]: "${NC})" lineChange
+if [[ "$lineChange" == q ]]; then
+    exit
+fi
+while [ ! -z "$lineChange" ] && [ ! "$lineChange" == "N" ] && [ ! "$lineChange" == "b" ] && [ ! "$lineChange" == "a" ]; do
+    read -n 1 -ep "$(echo -e "    ${PURPLE}Change to before/after? [N/b/a]: "${NC})" lineChange
+    if [[ "$lineChange" == q ]]; then
+        exit
+    fi
+done
+#### Change to before/after
 printf "\n"
+#### Operation
 read -n 1 -ep "$(echo -e "${PURPLE}Operation on line (append text/insert line after/delete) [a/i/d]: "${NC})" operation
+if [[ "$operation" == q ]]; then
+    exit
+fi
 while [ ! "$operation" == "a" ] && [ ! "$operation" == "i" ] && [ ! "$operation" == "d" ]; do
     read -n 1 -ep "$(echo -e "${PURPLE}Operation on line (append text/insert line after/delete) [a/i/d]: "${NC})" operation
+    if [[ "$operation" == q ]]; then
+        exit
+    fi
 done
-#### Options
+
+if [[ "$operation" == "i" ]]; then
+    allLines="$allLinesInsert"
+elif [[ "$operation" == "d" ]]; then
+    allLines="$allLinesDelete"
+fi
+#### Operation
 
 #### Text to append
 if [[ "$operation" == "a" ]]; then
@@ -77,13 +152,14 @@ if [[ "$operation" == "a" ]]; then
     while [ -z "$text" ];do
         read -ep "$(echo -e "    ${PURPLE}Enter text [string]: "${NC})" text
     done
-    text="\n$(Format "$text")"
+    text=$(Format "$text")
 fi
 #### Text to append
 
 #### Main loop
 numberOfFiles=$(echo "$allFiles" | wc -l)
-counter=0
+updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfFiles"'/'100')+'0.5'' | sed 's/\..*//g')
+counter=1
 while IFS= read -r file; do
     if [[ ! -z "$file" ]]; then
         if [[ -z "$tag" ]] || ([[ ! -z "$tag" ]] && [[ ! -z $(grep "$tag" "$file") ]]); then
@@ -98,7 +174,7 @@ while IFS= read -r file; do
 
             #### Operations
             if [[ "$operation" == "a" ]]; then
-                sed -i 's/$/'"$text"'/g' "$file"
+                sed -i ''"$line"'s/$/'"$text"'/' "$file"
             elif [[ "$operation" == "i" ]]; then
                 sed -i ''"$line"'s.$.'"\n"'.' "$file"
             elif [[ "$operation" == "d" ]]; then
@@ -107,26 +183,32 @@ while IFS= read -r file; do
             #### Operations
 
             #### Fix modify time
-            counter=$(("$counter" + 1))
-            time=$(grep "Date Created" "$file" | sed 's/Date\ Created\:\ //g')
+            if [[ ! $(echo "$file" | sed 's/\/.*//g') == "Images" ]]; then
+                time=$(grep "Date Created" "$file" | sed 's/Date\ Created\:\ //g')
 
-            year=$(echo "$time" | sed 's/..\/..\///g' | sed 's/\ ..\:..\:..//g')
-            month=$(echo "$time" | sed 's/^..\///g' | sed 's/\/.*//g')
-            day=$(echo "$time" | sed 's/\/.*//g')
-            hms=$(echo "$time" | sed 's/^.*\ //g' | sed 's/\://' | sed 's/\:/./')
+                year=$(echo "$time" | sed 's/..\/..\///g' | sed 's/\ ..\:..\:..//g')
+                month=$(echo "$time" | sed 's/^..\///g' | sed 's/\/.*//g')
+                day=$(echo "$time" | sed 's/\/.*//g')
+                hms=$(echo "$time" | sed 's/^.*\ //g' | sed 's/\://' | sed 's/\:/./')
 
-            newTime=$(echo "$year$month$day$hms")
-            touch -m -t "$newTime" "$file"
-
-            percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfFiles"''*100 | sed 's/\.00$//g')
-            echo -en "    ${YELLOW}$percentage%${NC}\r"
+                newTime=$(echo "$year$month$day$hms")
+                touch -m -t "$newTime" "$file"
+            fi
             #### Fix modify time
-        else
-            counter=$(("$counter" + 1))
         fi
+        #### Progress counter
+        if [[ ! -z "$updateInterval" ]]; then
+            counter=$((++counter))
+            if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
+                percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfFiles"''*100 | sed 's/\.00$//g')
+                echo -ne "    ${YELLOW}Editing... $percentage% ("$counter"/"$numberOfFiles")${NC}\r"
+            fi
+        fi
+        #### Progress counter
     fi
     allLines=${allLines#*$'\n'}
 done <<< "$allFiles"
+echo -ne "                                                                                                \r"
 #### Main loop
 
 echo -e "    ${PURPLE}DONE${NC}"
