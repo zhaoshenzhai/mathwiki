@@ -19,7 +19,7 @@ Format()
 
 printf "\n"
 
-####Notes, images, or both
+# Notes, images, or both
 read -n 1 -ep "$(echo -e "${PURPLE}Edit in: [N(otes)/i(mages)/b(oth)]${NC}") " editIn
 if [[ "$editIn" == "q" ]]; then
     exit
@@ -41,9 +41,8 @@ case "$editIn" in
         editIn="Notes/*.md"
     ;;
 esac
-####Notes, images, or both
 
-#### Tag
+# Tag
 if [[ "$editIn" == "Notes/*.md" ]]; then
     read -n 1 -ep "$(echo -e "${PURPLE}Filter in tags: [A/d/p/t/a]${NC} ")" tag
     if [[ "$tag" == q ]]; then
@@ -72,18 +71,39 @@ if [[ "$editIn" == "Notes/*.md" ]]; then
         ;;
     esac
 fi
-#### Tag
 
-#### Identifier
+# Identifier
 printf "\n"
 read -ep "$(echo -e "${PURPLE}Select line containing [string]: "${NC})" identifier
 while [ -z "$identifier" ];do
     read -ep "$(echo -e "${PURPLE}Select line containing [string]: "${NC})" identifier
 done
 identifier=$(Format "$identifier")
-#### Identifier
 
-#### Get all files with identifier and their lines
+# Change to before/after
+read -n 1 -ep "$(echo -e "    ${PURPLE}Change to before/after? [N/b/a]: "${NC})" lineChange
+if [[ "$lineChange" == q ]]; then
+    exit
+fi
+while [ ! -z "$lineChange" ] && [ ! "$lineChange" == "N" ] && [ ! "$lineChange" == "b" ] && [ ! "$lineChange" == "a" ]; do
+    read -n 1 -ep "$(echo -e "    ${PURPLE}Change to before/after? [N/b/a]: "${NC})" lineChange
+    if [[ "$lineChange" == q ]]; then
+        exit
+    fi
+done
+case "$lineChange" in
+    "b")
+        lineChange=-1
+    ;;
+    "a")
+        lineChange=1
+    ;;
+    *)
+        lineChange=0
+    ;;
+esac
+
+# Get all files with identifier and their lines
 allFileWithLines=$(grep -no "$identifier" $editIn | sed 's/:'"$identifier"'//g')
 allFiles=$(echo "$allFileWithLines" | sed 's/:.*$//g')
 
@@ -99,8 +119,8 @@ lineNumber=1
 while IFS= read -r count; do
     for (( i=1; i<=$count; i++ )); do
         line=$(echo "$allLines" | sed "${lineNumber}q;d")
-        allLinesInsert=$(echo "$allLinesInsert" | sed ''"$lineNumber"'s/^.*$/'"$(($line + $i - 1))"'/')
-        allLinesDelete=$(echo "$allLinesDelete" | sed ''"$lineNumber"'s/^.*$/'"$(($line - $i + 1))"'/')
+        allLinesInsert=$(echo "$allLinesInsert" | sed ''"$lineNumber"'s/^.*$/'"$(($line + $lineChange + $i - 1))"'/')
+        allLinesDelete=$(echo "$allLinesDelete" | sed ''"$lineNumber"'s/^.*$/'"$(($line + $lineChange - $i + 1))"'/')
         lineNumber=$((++lineNumber))
     done
     if [[ ! -z "$updateInterval" ]]; then
@@ -112,22 +132,10 @@ while IFS= read -r count; do
     fi
 done <<< "$allCounts"
 echo -ne "                                                                                                \r"
-#### Get all files with identifier and their lines
 
-#### Change to before/after
-read -n 1 -ep "$(echo -e "    ${PURPLE}Change to before/after? [N/b/a]: "${NC})" lineChange
-if [[ "$lineChange" == q ]]; then
-    exit
-fi
-while [ ! -z "$lineChange" ] && [ ! "$lineChange" == "N" ] && [ ! "$lineChange" == "b" ] && [ ! "$lineChange" == "a" ]; do
-    read -n 1 -ep "$(echo -e "    ${PURPLE}Change to before/after? [N/b/a]: "${NC})" lineChange
-    if [[ "$lineChange" == q ]]; then
-        exit
-    fi
-done
-#### Change to before/after
 printf "\n"
-#### Operation
+
+# Operation
 read -n 1 -ep "$(echo -e "${PURPLE}Operation on line (append text/insert line after/delete) [a/i/d]: "${NC})" operation
 if [[ "$operation" == q ]]; then
     exit
@@ -144,9 +152,8 @@ if [[ "$operation" == "i" ]]; then
 elif [[ "$operation" == "d" ]]; then
     allLines="$allLinesDelete"
 fi
-#### Operation
 
-#### Text to append
+# Text to append
 if [[ "$operation" == "a" ]]; then
     read -ep "$(echo -e "    ${PURPLE}Enter text [string]: "${NC})" text
     while [ -z "$text" ];do
@@ -154,25 +161,26 @@ if [[ "$operation" == "a" ]]; then
     done
     text=$(Format "$text")
 fi
-#### Text to append
 
-#### Main loop
+# Main loop
 numberOfFiles=$(echo "$allFiles" | wc -l)
 updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfFiles"'/'100')+'0.5'' | sed 's/\..*//g')
 counter=1
 while IFS= read -r file; do
     if [[ ! -z "$file" ]]; then
         if [[ -z "$tag" ]] || ([[ ! -z "$tag" ]] && [[ ! -z $(grep "$tag" "$file") ]]); then
-            #### Correct lines
+            # Correct lines
             line=${allLines%%$'\n'*}
             if [[ "$lineChange" == "b" ]]; then
                 line=$(($line - 1))
             elif [[ "$lineChange" == "a" ]]; then
                 line=$(($line + 1))
             fi
-            #### Correct lines
 
-            #### Operations
+            # Get modification time
+            modTime=$(date -r "$file" +"%y%m%d%H%M.%S")
+
+            # Operations
             if [[ "$operation" == "a" ]]; then
                 sed -i ''"$line"'s/$/'"$text"'/' "$file"
             elif [[ "$operation" == "i" ]]; then
@@ -180,23 +188,13 @@ while IFS= read -r file; do
             elif [[ "$operation" == "d" ]]; then
                 sed -i ''"$line"'d' "$file"
             fi
-            #### Operations
 
-            #### Fix modify time
+            # Fix modify time
             if [[ ! $(echo "$file" | sed 's/\/.*//g') == "Images" ]]; then
-                time=$(grep "Date Created" "$file" | sed 's/Date\ Created\:\ //g')
-
-                year=$(echo "$time" | sed 's/..\/..\///g' | sed 's/\ ..\:..\:..//g')
-                month=$(echo "$time" | sed 's/^..\///g' | sed 's/\/.*//g')
-                day=$(echo "$time" | sed 's/\/.*//g')
-                hms=$(echo "$time" | sed 's/^.*\ //g' | sed 's/\://' | sed 's/\:/./')
-
-                newTime=$(echo "$year$month$day$hms")
-                touch -m -t "$newTime" "$file"
+                touch -m -t "$modTime" "$file"
             fi
-            #### Fix modify time
         fi
-        #### Progress counter
+        # Progress counter
         if [[ ! -z "$updateInterval" ]]; then
             counter=$((++counter))
             if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
@@ -204,11 +202,8 @@ while IFS= read -r file; do
                 echo -ne "    ${YELLOW}Editing... $percentage% ("$counter"/"$numberOfFiles")${NC}\r"
             fi
         fi
-        #### Progress counter
     fi
     allLines=${allLines#*$'\n'}
 done <<< "$allFiles"
 echo -ne "                                                                                                \r"
-#### Main loop
-
 echo -e "    ${PURPLE}DONE${NC}"

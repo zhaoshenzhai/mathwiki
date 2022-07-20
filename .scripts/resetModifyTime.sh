@@ -10,6 +10,13 @@ NC='\033[0m'
 
 cd ~/Dropbox/MathWiki/Notes
 
+printf "\n"
+
+read -n 1 -ep "$(echo -e "${RED}This will reset the modification time of all notes to its creation time. Proceed? [N/y]${NC}") " proceed
+if [[ ! "$proceed" == y ]]; then
+    exit
+fi
+
 allFiles=$(ls)
 numberOfFiles=$(echo "$allFiles" | wc -l)
 updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfFiles"'/'100')+'0.5'' | sed 's/\..*//g')
@@ -25,15 +32,17 @@ while IFS= read -r file; do
     minute=$(echo "$time" | sed 's/^.*\ //g' | sed 's/^..\://g' | sed 's/\:.*//g')
     second=$(echo "$time" | sed 's/^.*\ //g' | sed 's/^..\:..\://g' | sed 's/\:.*//g')
 
-    newTime=$(echo "$year$month$day$hour$minute.$second")
+    modTime=$(echo "$year$month$day$hour$minute.$second")
 
-    touch -m -t "$newTime" "$file"   
+    touch -m -t "$modTime" "$file"
 
     if [[ ! -z "$updateInterval" ]]; then
         counter=$((++counter))
         if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
             percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfFiles"''*100 | sed 's/\.00$//g')
-            echo -ne "${YELLOW}Updating... $percentage%${NC}\r"
+            echo -ne "${YELLOW}Resetting... $percentage%${NC}\r"
         fi
     fi
 done <<< "$allFiles"
+echo -ne "                                                                                                \r"
+echo -e "    ${PURPLE}DONE${NC}"

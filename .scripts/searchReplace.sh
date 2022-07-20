@@ -175,22 +175,14 @@ while IFS= read -r matchingLineWithFile; do
     file=$(Format "$file")
     match=$(Format "$match")
 
+    modTime=$(date -r "$file" +"%y%m%d%H%M.%S")
     sed -i ''"$line"'s~'"$match"'~'"$replaceString"'~g' "$file"
-    lineOnlyMatching=$(("$lineOnlyMatching" + 1))
 
-    #### Fix modify time
     if [[ ! $(echo "$file" | sed 's/\/.*//g') == "Images" ]]; then
-        time=$(grep "Date Created" "$file" | sed 's/Date\ Created\:\ //g')
-
-        year=$(echo "$time" | sed 's/..\/..\///g' | sed 's/\ ..\:..\:..//g')
-        month=$(echo "$time" | sed 's/^..\///g' | sed 's/\/.*//g')
-        day=$(echo "$time" | sed 's/\/.*//g')
-        hms=$(echo "$time" | sed 's/^.*\ //g' | sed 's/\://' | sed 's/\:/./')
-
-        newTime=$(echo "$year$month$day$hms")
-        touch -m -t "$newTime" "$file"
+        touch -m -t "$modTime" "$file"
     fi
-    #### Fix modify time
+
+    lineOnlyMatching=$(("$lineOnlyMatching" + 1))
 
     if [[ ! -z "$updateInterval" ]]; then
         if [[ $(("$lineOnlyMatching"%"$updateInterval")) = 0 ]]; then
