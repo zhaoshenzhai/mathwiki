@@ -12,7 +12,7 @@ repeat="Y"
 while [[ "$repeat" == "Y" ]]; do
     source ~/Dropbox/MathWiki/.scripts/stats.sh -u
     source ~/Dropbox/MathWiki/.scripts/stats.sh -p
-    printf "\n"
+    echo ""
 
     echo -e "${CYAN}Actions:${NC}"
     echo -e "    ${CYAN}(1): Git${NC}"
@@ -23,7 +23,7 @@ while [[ "$repeat" == "Y" ]]; do
     echo -e "    ${CYAN}(6): Mass editing${NC}"
     echo -e "    ${CYAN}(7): Update images${NC}"
     echo -e "    ${CYAN}(8): Reset modify time${NC}"
-    printf "\n"
+    echo ""
 
     read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-8)]${NC} ")" action
     if [[ -z "$action" ]]; then
@@ -71,9 +71,9 @@ while [[ "$repeat" == "Y" ]]; do
         ;;
     esac
 
-    printf "\n"
+    echo ""
     echo -e "${GREEN}DONE${NC}"
-    printf "\n"
+    echo ""
 
     read -n 1 -ep "$(echo -e ${CYAN}"Press [Y] to return, exiting otherwise...${NC} ")" repeat
     if [[ -z "$repeat" ]]; then

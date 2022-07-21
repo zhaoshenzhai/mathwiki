@@ -10,7 +10,7 @@ NC='\033[0m'
 
 cd ~/Dropbox/MathWiki/Notes
 
-printf "\n"
+echo ""
 
 allDoubleLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | sed 's/\[\[//g' | sed 's/\]\]//g' | sed 's/$/.md/g' | sort | uniq)
 while IFS= read -r link; do

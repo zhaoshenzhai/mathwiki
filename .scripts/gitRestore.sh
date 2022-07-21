@@ -10,7 +10,7 @@ NC='\033[0m'
 
 cd ~/Dropbox/MathWiki
 
-printf "\n"
+echo ""
 
 # Notes, images, or both
 read -n 1 -ep "$(echo -e "${PURPLE}Restore: [N(otes)/i(mages)/b(oth)]${NC}") " restoreIn
@@ -46,7 +46,7 @@ if [[ -z "$restoreIn" ]] || [[ "$restoreIn" == "b" ]]; then
             fi
         fi
     done <<< "$allFiles"
-    echo -ne "                                                                                                \r"
+    echo -ne "\033[0K\r"
     cd ..
 fi
 

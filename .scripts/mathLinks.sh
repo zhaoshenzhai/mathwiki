@@ -80,13 +80,13 @@ Update()
             fi
         done <<< "$backLinks"
     fi
-    printf "\n"
+    echo ""
 }
 
 while [ ! -z "$1" ]; do
     case "$1" in
         --update|-u)
-            printf "\n"
+            echo ""
             echo -e "${PURPLE}Updating math links...${NC}"
 
             # Greps all math links; they are of the form [...](...)
@@ -135,7 +135,7 @@ while [ ! -z "$1" ]; do
                 fi
             done <<< "$allMathLinks"
             echo -e "    ${PURPLE}DONE${NC}"
-            printf "\n"
+            echo ""
         ;;
         --new|-n)
             echo -e "${PURPLE}Generating math links...${NC}"
@@ -195,7 +195,7 @@ while [ ! -z "$1" ]; do
                             fi
                         done <<< "$allDoubleCurrentFiles"
                     fi
-                    printf "\n"
+                    echo ""
                 fi
 
                 # Next double link

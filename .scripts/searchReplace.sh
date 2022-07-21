@@ -19,7 +19,7 @@ Format()
         sed 's/\$/\\\$/g' )  # Escape $
 }
 
-printf "\n"
+echo ""
 
 #### Query
 read -ep "$(echo -e "${PURPLE}Query: [string]${NC}") " query
@@ -66,7 +66,7 @@ case "$searchIn" in
 esac
 ####Notes, images, or both
 
-printf "\n"
+echo ""
 
 #### Search
 if [[ "$sensitive" == "y" ]]; then
@@ -82,7 +82,7 @@ fi
 
 echo "$matchingLinesWithFiles"
 
-printf "\n"
+echo ""
 
 #### Replace?
 read -n 1 -ep "$(echo -e ${PURPLE}Replace? [Y/n]${NC}) " replace
@@ -129,6 +129,9 @@ while [[ "$remove" == "y" ]]; do
         #### New matches
         line=1
         newMatches=$(echo "$matches")
+        numberOfMatches=$(echo "$matches" | wc -l)
+        updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfMatches"'/'100')+'0.5'' | sed 's/\..*//g')
+        counter=1
         while IFS= read -r match; do
             if [[ "$sensitive" == "y" ]]; then
                 checkRemove=$(grep "$toRemove" <<< "$match")
@@ -141,19 +144,28 @@ while [[ "$remove" == "y" ]]; do
                 newMatches=$(echo "$newMatches" | sed ''"$line"'d')
                 onlyMatching=$(echo "$onlyMatching" | sed ''"$line"'d')
             else
-                line=$(("$line" + 1))
+                line=$((++line))
+            fi
+
+            if [[ ! -z "$updateInterval" ]]; then
+                counter=$((++counter))
+                if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
+                    percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfMatches"''*100 | sed 's/\.00$//g')
+                    echo -ne "                ${YELLOW}$percentage%${NC}\r"
+                fi
             fi
         done <<< "$matches"
+        echo -ne "\033[0K\r"
         matches=$(echo "$newMatches")
-        printf "\n"
+        echo ""
         echo "$matchingLinesWithFiles"
-        printf "\n"
+        echo ""
         #### New matches
     fi
 done
 #### Iterate remove matches
 
-printf "\n"
+echo ""
 
 #### Replace
 read -ep "$(echo -e ${PURPLE}Replace with: [string]${NC}) " replaceString
@@ -182,7 +194,7 @@ while IFS= read -r matchingLineWithFile; do
         touch -m -t "$modTime" "$file"
     fi
 
-    lineOnlyMatching=$(("$lineOnlyMatching" + 1))
+    lineOnlyMatching=$((++lineOnlyMatching))
 
     if [[ ! -z "$updateInterval" ]]; then
         if [[ $(("$lineOnlyMatching"%"$updateInterval")) = 0 ]]; then

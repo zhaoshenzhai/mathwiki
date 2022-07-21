@@ -10,7 +10,7 @@ NC='\033[0m'
 
 cd ~/Dropbox/MathWiki/Notes
 
-printf "\n"
+echo ""
 
 read -n 1 -ep "$(echo -e "${RED}This will reset the modification time of all notes to its creation time. Proceed? [N/y]${NC}") " proceed
 if [[ ! "$proceed" == y ]]; then
@@ -44,5 +44,5 @@ while IFS= read -r file; do
         fi
     fi
 done <<< "$allFiles"
-echo -ne "                                                                                                \r"
+echo -ne "\033[0K\r"
 echo -e "    ${PURPLE}DONE${NC}"

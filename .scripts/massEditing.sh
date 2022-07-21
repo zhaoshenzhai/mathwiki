@@ -17,7 +17,7 @@ Format()
         sed 's/\$/\\\$/g' )  # Escape $
 }
 
-printf "\n"
+echo ""
 
 # Notes, images, or both
 read -n 1 -ep "$(echo -e "${PURPLE}Edit in: [N(otes)/i(mages)/b(oth)]${NC}") " editIn
@@ -73,7 +73,7 @@ if [[ "$editIn" == "Notes/*.md" ]]; then
 fi
 
 # Identifier
-printf "\n"
+echo ""
 read -ep "$(echo -e "${PURPLE}Select line containing [string]: "${NC})" identifier
 while [ -z "$identifier" ];do
     read -ep "$(echo -e "${PURPLE}Select line containing [string]: "${NC})" identifier
@@ -131,9 +131,9 @@ while IFS= read -r count; do
         fi
     fi
 done <<< "$allCounts"
-echo -ne "                                                                                                \r"
+echo -ne "\033[0K\r"
 
-printf "\n"
+echo ""
 
 # Operation
 read -n 1 -ep "$(echo -e "${PURPLE}Operation on line (append text/insert line after/delete) [a/i/d]: "${NC})" operation
@@ -205,5 +205,5 @@ while IFS= read -r file; do
     fi
     allLines=${allLines#*$'\n'}
 done <<< "$allFiles"
-echo -ne "                                                                                                \r"
+echo -ne "\033[0K\r"
 echo -e "    ${PURPLE}DONE${NC}"

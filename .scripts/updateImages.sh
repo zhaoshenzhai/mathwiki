@@ -10,7 +10,7 @@ NC='\033[0m'
 
 cd ~/Dropbox/MathWiki/Images
 
-printf "\n"
+echo ""
 prompt="Update images containing [(string)/ALL]: "
 
 read -p "$(echo -e ${PURPLE}$prompt${NC})" filter
