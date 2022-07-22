@@ -10,5 +10,6 @@
   "newFileFolderPath": "Notes",
   "vimMode": true,
   "showLineNumber": true,
-  "trashOption": "none"
+  "trashOption": "none",
+  "useMarkdownLinks": false
 }

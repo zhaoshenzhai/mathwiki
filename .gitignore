@@ -6,4 +6,5 @@
 *.pdf
 *.synctex.gz
 *.svg
+
 .obsidian/workspace
