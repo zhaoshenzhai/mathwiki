@@ -26,28 +26,7 @@ done
 
 # Restore notes
 if [[ -z "$restoreIn" ]] || [[ "$restoreIn" == "b" ]]; then
-    cd Notes
-    allFiles=$(ls)
-    numberOfFiles=$(echo "$allFiles" | wc -l)
-    updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfFiles"'/'100')+'0.5'' | sed 's/\..*//g')
-    counter=1
-    while IFS= read -r file; do
-        if [[ ! -z $(git diff "$file") ]]; then
-            modTime=$(date -r "$file" +"%y%m%d%H%M.%S")
-            git restore "$file"
-            touch -m -t "$modTime" "$file"
-        fi
-
-        if [[ ! -z "$updateInterval" ]]; then
-            counter=$((++counter))
-            if [[ $(("$counter"%"$updateInterval")) = 0 ]]; then
-                percentage=$(bc -l <<< 'scale=2; '"$counter"'/'"$numberOfFiles"''*100 | sed 's/\.00$//g')
-                echo -ne "    ${YELLOW}Restoring... $percentage% ("$counter"/"$numberOfFiles")${NC}\r"
-            fi
-        fi
-    done <<< "$allFiles"
-    echo -ne "\033[0K\r"
-    cd ..
+    git restore Notes/*
 fi
 
 # Restore images
