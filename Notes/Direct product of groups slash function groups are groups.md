@@ -1,5 +1,5 @@
 ---
-mathLink: Direct product of groups$\slash$function groups are groups
+mathLink: auto
 ---
 
 <br />

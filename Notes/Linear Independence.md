@@ -5,7 +5,7 @@ Date Created: 29/04/2022 20:37:44
 Tags: #Definition #Closed
 
 Types: [[Hamel Basis]]
-Examples: [Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Leftrightarrow$ columns$\slash$rows of $A$ are linearly independent](Homogeneous%20linear%20system%20only%20trivial%20solution%20iff%20columns%20slash%20rows%20of%20coefficient%20matrix%20are%20linearly%20independent.md), [Distinct eigenvalues $\Rightarrow$ linearly independent eigenvectors](Distinct%20eigenvalues%20implies%20linearly%20independent%20eigenvectors.md)
+Examples: [Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Leftrightarrow$ columns/rows of $A$ are linearly independent](Homogeneous%20linear%20system%20only%20trivial%20solution%20iff%20columns%20slash%20rows%20of%20coefficient%20matrix%20are%20linearly%20independent.md), [Distinct eigenvalues $\Rightarrow$ linearly independent eigenvectors](Distinct%20eigenvalues%20implies%20linearly%20independent%20eigenvectors.md)
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

@@ -1,0 +1,116 @@
+{
+  "templates": [
+    {
+      "title": "Real Numbers",
+      "replaced": "R",
+      "replacement": "$\\R$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "title": "Natural Numbers",
+      "replaced": "N",
+      "replacement": "$\\N$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "title": "R x R",
+      "replaced": "R2",
+      "replacement": "$\\R^2$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "title": "N x N",
+      "replaced": "N2",
+      "replacement": "$\\N^2$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "title": "Equals",
+      "replaced": "equals",
+      "replacement": "$=$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "title": "Implies",
+      "replaced": "implies",
+      "replacement": "$\\Rightarrow$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "title": "Equivalence",
+      "replaced": "iff",
+      "replacement": "$\\Leftrightarrow$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "title": "K Topology on R",
+      "replaced": "K",
+      "replacement": "$K$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "title": "Slash",
+      "replaced": " slash ",
+      "replacement": "/",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": false
+    },
+    {
+      "title": "Category of Sets",
+      "replaced": "category of sets",
+      "replacement": "$\\catset$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "title": "Category of Relations",
+      "replaced": "category of relations",
+      "replacement": "$\\catrel$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "title": "Category of Vector Spaces",
+      "replaced": "category of vector spaces",
+      "replacement": "$\\catvect[K]$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "title": "Represented by/under a Basis",
+      "replaced": "repr under basis",
+      "replacement": "$\\Leftrightarrow^\\textrm{repr.}_\\textrm{bases}$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "title": "Prefix: n",
+      "replaced": "n-",
+      "replacement": "$n$-",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    }
+  ]
+}

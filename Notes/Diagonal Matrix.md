@@ -10,7 +10,7 @@ Constructions: [$\Diag{n}{K}$](Vector%20Space%20of%20Diagonal%20Matrices.md)
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [Diagonalizable Operator$\slash$Matrix](Diagonalizable%20Operator;%20Matrix.md)
+Sufficiencies: [Diagonalizable Operator/Matrix](Diagonalizable%20Operator%20slash%20Matrix.md)
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

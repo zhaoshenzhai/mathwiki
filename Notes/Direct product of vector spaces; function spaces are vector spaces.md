@@ -1,5 +1,5 @@
 ---
-mathLink: Direct product of vector spaces$\slash$function spaces are vector spaces
+mathLink: Direct product of vector spaces/function spaces are vector spaces
 ---
 
 <br />
@@ -8,7 +8,7 @@ mathLink: Direct product of vector spaces$\slash$function spaces are vector spac
 Date Created: 04/05/2022 12:41:37
 Tags: #Proposition #Closed
 
-Proved by: [Direct product of groups$\slash$function groups are groups](Direct%20product%20of%20groups;%20function%20groups%20are%20groups.md)
+Proved by: [Direct product of groups/function groups are groups](Direct%20product%20of%20groups%20slash%20function%20groups%20are%20groups.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -4,7 +4,7 @@
 Date Created: 26/03/2022 14:26:12
 Tags: #Proposition #Closed
 
-Proved by: [$\l[A\mid\v{b}\r]$ in RREF $\Rightarrow$ $A$ in RREF](Matrix%20in%20RREF%20if%20augmented%20with%20tuple%20is%20in%20RREF.md), [[Basis for column space]], [Elementary matrices$\slash$operations are rank-preserving](Elementary%20matrices%20and%20operations%20are%20rank-preserving.md), [Rank of matrix in RREF is $|$pivot columns$|\slash|$non-zero rows$|$](Rank%20of%20matrix%20in%20RREF%20is%20number%20of%20pivot%20columns%20of%20non-zero%20rows.md), [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md), [[Unique Representation Theorem (Hamel)]]
+Proved by: [$\l[A\mid\v{b}\r]$ in RREF $\Rightarrow$ $A$ in RREF](Matrix%20in%20RREF%20if%20augmented%20with%20tuple%20is%20in%20RREF.md), [[Basis for column space]], [Elementary matrices/operations are rank-preserving](Elementary%20matrices%20slash%20operations%20are%20rank-preserving.md), [Rank of matrix in RREF is $|$pivot columns$|/|$non-zero rows$|$](Rank%20of%20matrix%20in%20RREF%20is%20number%20of%20pivot%20columns%20of%20non-zero%20rows.md), [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md), [[Unique Representation Theorem (Hamel)]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

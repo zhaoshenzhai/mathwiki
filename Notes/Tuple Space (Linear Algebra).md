@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: [Coordinate representation of $V$](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md)
 Equivalences: [$\phi_\mc{B}:V\simto K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md)
-Justifications: [Direct product of vector spaces$\slash$function spaces are vector spaces](Direct%20product%20of%20vector%20spaces;%20function%20spaces%20are%20vector%20spaces.md)
+Justifications: [Direct product of vector spaces/function spaces are vector spaces](Direct%20product%20of%20vector%20spaces;%20function%20spaces%20are%20vector%20spaces.md)
 
 ``` ad-Definition
 title: Definition.

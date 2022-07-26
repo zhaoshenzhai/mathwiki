@@ -1,5 +1,5 @@
 ---
-mathLink: Meet$\slash$Join-semilattice
+mathLink: Meet/Join-semilattice
 ---
 
 <br />

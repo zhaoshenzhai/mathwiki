@@ -4,7 +4,7 @@
 Date Created: 23/05/2022 23:48:31
 Tags: #Proposition #Closed
 
-Proved by: [Matrix multiplication (columns$\slash$rows)](Matrix%20multiplication%20(columns%20slash%20rows).md), [Action of linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ left-multiplication of matrix representation](Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md), [[Inverse of linear map is linear]], [[Criteria for equality of linear maps via spanning set]], [$\l[\id_V\r]_\mc{B}=I_n$ ($\dim V=n$)](Identity%20function%20on%20a%20vector%20space%20is%20represented%20by%20the%20identity%20matrix.md)
+Proved by: [Matrix multiplication (columns/rows)](Matrix%20multiplication%20(columns%20slash%20rows).md), [Action of linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ left-multiplication of matrix representation](Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md), [[Inverse of linear map is linear]], [[Criteria for equality of linear maps via spanning set]], [$\l[\id_V\r]_\mc{B}=I_n$ ($\dim V=n$)](Identity%20function%20on%20a%20vector%20space%20is%20represented%20by%20the%20identity%20matrix.md)
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

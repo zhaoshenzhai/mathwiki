@@ -1,5 +1,5 @@
 ---
-mathLink: Kernel$\slash$Null Space
+mathLink: Kernel/Null Space
 ---
 
 <br />

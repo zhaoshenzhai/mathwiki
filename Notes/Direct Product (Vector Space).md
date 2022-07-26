@@ -12,7 +12,7 @@ Generalizations: _Not Applicable_
 Properties: [[Dimension of finite direct product is additive]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [Direct product of vector spaces$\slash$function spaces are vector spaces](Direct%20product%20of%20vector%20spaces;%20function%20spaces%20are%20vector%20spaces.md), [Direct product of vector spaces is a product in $\catvect[K]$](Direct%20product%20of%20vector%20spaces%20is%20a%20product%20in%20Vect.md)
+Justifications: [Direct product of vector spaces/function spaces are vector spaces](Direct%20product%20of%20vector%20spaces;%20function%20spaces%20are%20vector%20spaces.md), [Direct product of vector spaces is a product in $\catvect[K]$](Direct%20product%20of%20vector%20spaces%20is%20a%20product%20in%20Vect.md)
 
 ``` ad-Definition
 title: Definition.

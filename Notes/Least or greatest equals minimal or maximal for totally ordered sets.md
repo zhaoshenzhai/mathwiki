@@ -1,5 +1,5 @@
 ---
-mathLink: Least$\slash$greatest $=$ minimal$\slash$maximal for totally ordered sets
+mathLink: Least/greatest $=$ minimal/maximal for totally ordered sets
 ---
 
 

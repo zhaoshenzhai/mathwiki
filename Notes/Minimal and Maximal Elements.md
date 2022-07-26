@@ -1,5 +1,5 @@
 ---
-mathLink: Minimal$\slash$Maximal Element
+mathLink: Minimal/Maximal Element
 ---
 
 
@@ -14,7 +14,7 @@ Examples: _Not Applicable_
 Constructions: [[Well-founded Relation]]
 Generalizations: _Not Applicable_
 
-Properties: [Least$\slash$greatest $=$ minimal$\slash$maximal for totally ordered sets](Least%20or%20greatest%20equals%20minimal%20or%20maximal%20for%20totally%20ordered%20sets.md)
+Properties: [Least/greatest $=$ minimal/maximal for totally ordered sets](Least%20or%20greatest%20equals%20minimal%20or%20maximal%20for%20totally%20ordered%20sets.md)
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

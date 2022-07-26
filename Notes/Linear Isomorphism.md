@@ -5,7 +5,7 @@ Date Created: 01/04/2022 19:04:20
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [Coordinate representation of $V$](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md), [[Matrix Representation of a Linear Map]], [Basis Transition Map$\slash$Matrix](Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md), [[Identity Function]]
+Examples: [Coordinate representation of $V$](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md), [[Matrix Representation of a Linear Map]], [Basis Transition Map/Matrix](Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md), [[Identity Function]]
 Constructions: [[Isomorphic Vector Spaces]]
 Generalizations: _Not Applicable_
 

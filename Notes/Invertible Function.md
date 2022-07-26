@@ -5,7 +5,7 @@ Date Created: 26/01/2022 18:48:16
 Tags: #Definition #Closed 
 
 Types: [[Linear Isomorphism]]
-Examples: [[Identity Function]], [Elementary Matrices$\slash$Operations](Elementary%20Matrices%20and%20Operations.md)
+Examples: [[Identity Function]], [Elementary Matrices/Operations](Elementary%20Matrices%20and%20Operations.md)
 Constructions: [[Isomorphic Sets]]
 Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]
 

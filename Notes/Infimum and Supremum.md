@@ -1,5 +1,5 @@
 ---
-mathLink: Infimum$\slash$Supremum
+mathLink: Infimum/Supremum
 ---
 
 <br />
@@ -10,13 +10,13 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [Meet$\slash$Join-semilattice](Meet%20and%20Join-semilattices.md), [[Dedekind-complete Ordered Set]]
+Constructions: [Meet/Join-semilattice](Meet%20and%20Join-semilattices.md), [[Dedekind-complete Ordered Set]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [Supremum$\slash$infimum are unique](Supremum%20and%20infimum%20are%20unique.md)
+Justifications: [Supremum/infimum are unique](Supremum%20slash%20infimum%20are%20unique.md)
 
 ``` ad-Definition
 title: Definition.

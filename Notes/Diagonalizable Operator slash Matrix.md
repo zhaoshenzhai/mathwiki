@@ -1,5 +1,5 @@
 ---
-mathLink: Diagonalizable Operator$\slash$Matrix
+mathLink: auto
 ---
 
 <br />

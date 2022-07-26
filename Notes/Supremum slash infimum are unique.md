@@ -1,5 +1,5 @@
 ---
-mathLink: Supremum$\slash$infimum are unique
+mathLink: auto
 ---
 
 <br />

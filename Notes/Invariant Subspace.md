@@ -5,7 +5,7 @@ Date Created: 19/06/2022 16:20:24
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [Kernel$\slash$Null Space](Kernel;%20Null%20Space.md), [Image$\slash$Column Space](Image;%20Column%20Space.md), [[Trivial Subspaces (Linear Algebra)]]
+Examples: [Kernel/Null Space](Kernel;%20Null%20Space.md), [Image/Column Space](Image;%20Column%20Space.md), [[Trivial Subspaces (Linear Algebra)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

@@ -1,5 +1,5 @@
 ---
-mathLink: Lower$\slash$Upper Bound
+mathLink: Lower/Upper Bound
 ---
 
 <br />
@@ -8,7 +8,7 @@ mathLink: Lower$\slash$Upper Bound
 Date Created: 24/01/2022 15:51:38
 Tags: #Definition #Closed 
 
-Types: [Least$\slash$Greatest Element](Least%20and%20Greatest%20Elements.md), [Infimum$\slash$Supremum](Infimum%20and%20Supremum.md)
+Types: [Least/Greatest Element](Least%20and%20Greatest%20Elements.md), [Infimum/Supremum](Infimum%20and%20Supremum.md)
 Examples: _Not Applicable_ 
 Constructions: [[Bounded Poset]]
 Generalizations: _Not Applicable_

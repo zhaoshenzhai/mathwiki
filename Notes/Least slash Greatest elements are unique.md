@@ -1,5 +1,5 @@
 ---
-mathLink: Least$\slash$greatest elements are unique
+mathLink: auto
 ---
 
 <br />

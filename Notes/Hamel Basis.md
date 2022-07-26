@@ -6,7 +6,7 @@ Tags: #Definition #Closed
 
 Types: [[Orthonormal Basis]]
 Examples: [[Basis for null space]], [[Basis for column space]]
-Constructions: [[Dimension (Linear Algebra)]], [Coordinate representation of $V$](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md), [[Matrix Representation of a Linear Map]], [Basis Transition Map$\slash$Matrix](Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md)
+Constructions: [[Dimension (Linear Algebra)]], [Coordinate representation of $V$](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md), [[Matrix Representation of a Linear Map]], [Basis Transition Map/Matrix](Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md)
 Generalizations: _Not Applicable_
 
 Properties: [[Invariance of cardinality of bases (finite-dim.)]], [[Existence of unique linear map via action on basis vectors]]

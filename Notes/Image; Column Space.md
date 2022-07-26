@@ -1,5 +1,5 @@
 ---
-mathLink: Image$\slash$Column Space
+mathLink: Image/Column Space
 ---
 
 

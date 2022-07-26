@@ -16,7 +16,7 @@ Generalizations: _Not Applicable_
 Properties: [[Basic properties of matrix operations]]
 Sufficiencies: _Not Applicable_
 Equivalences: [$\Phi_\mc{B}^\mc{C}:\hom\l(V,W\r)\simto\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)](Linear%20isomorphism%20between%20linear%20maps%20and%20matrices.md), [$\mat{n}{K}=\sym{n}{K}\oplus\skew{n}{K}$ for $\charfld K\neq2$](Symmetric%20and%20skew-symmetric%20decomposition%20of%20matrices.md)
-Justifications: [Direct product of vector spaces$\slash$function spaces are vector spaces](Direct%20product%20of%20vector%20spaces;%20function%20spaces%20are%20vector%20spaces.md)
+Justifications: [Direct product of vector spaces/function spaces are vector spaces](Direct%20product%20of%20vector%20spaces;%20function%20spaces%20are%20vector%20spaces.md)
 
 ``` ad-Definition
 title: Definition.

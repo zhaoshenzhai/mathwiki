@@ -5,8 +5,8 @@ Date Created: 16/05/2022 18:16:35
 Tags: #Definition #Closed
 
 Types: _Not Applicable_
-Examples: [Basis Transition Map$\slash$Matrix](Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md), [$\l[\id_V\r]_\mc{B}=I_n$ ($\dim V=n$)](Identity%20function%20on%20a%20vector%20space%20is%20represented%20by%20the%20identity%20matrix.md)
-Constructions: [$\Phi_\mc{B}^\mc{C}:\hom\l(V,W\r)\simto\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)](Linear%20isomorphism%20between%20linear%20maps%20and%20matrices.md), [Diagonalizable Operator$\slash$Matrix](Diagonalizable%20Operator;%20Matrix.md)
+Examples: [Basis Transition Map/Matrix](Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md), [$\l[\id_V\r]_\mc{B}=I_n$ ($\dim V=n$)](Identity%20function%20on%20a%20vector%20space%20is%20represented%20by%20the%20identity%20matrix.md)
+Constructions: [$\Phi_\mc{B}^\mc{C}:\hom\l(V,W\r)\simto\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)](Linear%20isomorphism%20between%20linear%20maps%20and%20matrices.md), [Diagonalizable Operator/Matrix](Diagonalizable%20Operator%20slash%20Matrix.md)
 Generalizations: _Not Applicable_
 
 Properties: [Composition of linear maps $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ matrix product of representations](Composition%20of%20linear%20maps%20repr%20under%20basis%20matrix%20product%20of%20representations.md), [Action of linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ left-multiplication of matrix representation](Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md), [Linear map invertible $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ matrix representation invertible](Linear%20map%20invertible%20repr%20under%20basis%20matrix%20representation%20invertible.md), [Rank of a linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ rank of its matrix representation](Rank%20of%20a%20linear%20map%20repr%20under%20basis%20rank%20of%20its%20matrix%20representation.md)

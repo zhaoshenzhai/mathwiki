@@ -5,7 +5,7 @@ Date Created: 30/01/2022 17:43:31
 Tags: #Definition #Closed 
 
 Types: _Not Applicable_
-Examples: [$\textrm{ON}$ is well-ordered by membership](ON%20is%20well-ordered%20by%20membership.md)
+Examples: [ON is well-ordered by membership](ON%20is%20well-ordered%20by%20membership.md)
 Constructions: [[Ordinal (von Neumann)]]
 Generalizations: _Not Applicable_
 
