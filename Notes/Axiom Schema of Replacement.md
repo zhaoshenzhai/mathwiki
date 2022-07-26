@@ -1,5 +1,5 @@
 ---
-custom_alias: $\axirepl$
+mathLink: $\axirepl$
 ---
 
 <br />

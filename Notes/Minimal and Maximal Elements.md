@@ -1,5 +1,5 @@
 ---
-custom_alias: Minimal$\slash$Maximal Element
+mathLink: Minimal$\slash$Maximal Element
 ---
 
 

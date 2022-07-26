@@ -1,5 +1,5 @@
 ---
-custom_alias: $\skew{n}{K}$
+mathLink: $\skew{n}{K}$
 ---
 
 <br />

@@ -1,5 +1,5 @@
 ---
-custom_alias: $\axipairing$
+mathLink: $\axipairing$
 ---
 
 <br />

@@ -1,5 +1,5 @@
 ---
-custom_alias: $\sym{n}{K}$
+mathLink: $\sym{n}{K}$
 ---
 
 <br />

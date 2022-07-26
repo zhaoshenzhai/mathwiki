@@ -1,5 +1,5 @@
 ---
-custom_alias: $\l[\id_V\r]_\mc{B}=I_n$ ($\dim V=n$)
+mathLink: $\l[\id_V\r]_\mc{B}=I_n$ ($\dim V=n$)
 ---
 
 <br />

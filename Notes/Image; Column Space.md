@@ -1,5 +1,5 @@
 ---
-custom_alias: Image$\slash$Column Space
+mathLink: Image$\slash$Column Space
 ---
 
 

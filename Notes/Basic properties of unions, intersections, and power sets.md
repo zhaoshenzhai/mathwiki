@@ -1,5 +1,5 @@
 ---
-custom_alias: Basic properties of $\bigcup$, $\bigcap$, and $\pow$
+mathLink: Basic properties of $\bigcup$, $\bigcap$, and $\pow$
 ---
 
 <br />

@@ -1,5 +1,5 @@
 ---
-custom_alias: Right$\slash$left multiplication by basis vector picks out column$\slash$row
+mathLink: Right$\slash$left multiplication by basis vector picks out column$\slash$row
 ---
 
 <br />

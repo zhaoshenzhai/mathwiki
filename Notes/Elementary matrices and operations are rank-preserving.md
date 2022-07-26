@@ -1,5 +1,5 @@
 ---
-custom_alias: Elementary matrices$\slash$operations are rank-preserving
+mathLink: Elementary matrices$\slash$operations are rank-preserving
 ---
 
 <br />

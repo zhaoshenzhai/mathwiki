@@ -1,5 +1,5 @@
 ---
-custom_alias: $\sym{n}{K}\subseteq\mat{n}{K}$ is a linear subspace
+mathLink: $\sym{n}{K}\subseteq\mat{n}{K}$ is a linear subspace
 ---
 
 <br />

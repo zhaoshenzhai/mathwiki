@@ -1,5 +1,5 @@
 ---
-custom_alias: Basis Transition Map$\slash$Matrix
+mathLink: Basis Transition Map$\slash$Matrix
 ---
 
 <br />

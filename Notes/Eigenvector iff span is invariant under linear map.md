@@ -1,5 +1,5 @@
 ---
-custom_alias: Linear map $T$ has eigenvector $v$ $\Leftrightarrow$ $\span\l\{v\r\}$ is $T$-invariant
+mathLink: Linear map $T$ has eigenvector $v$ $\Leftrightarrow$ $\span\l\{v\r\}$ is $T$-invariant
 ---
 
 <br />

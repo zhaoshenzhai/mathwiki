@@ -1,5 +1,5 @@
 ---
-custom_alias: Linearly independent $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis
+mathLink: Linearly independent $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis
 ---
 
 <br />

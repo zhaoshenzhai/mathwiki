@@ -1,5 +1,5 @@
 ---
-custom_alias: Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$
+mathLink: Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$
 ---
 
 <br />

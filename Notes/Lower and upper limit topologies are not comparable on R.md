@@ -1,5 +1,5 @@
 ---
-custom_alias: $\LLtopR$ and $\ULtopR$ not comparable
+mathLink: $\LLtopR$ and $\ULtopR$ not comparable
 ---
 
 <br />

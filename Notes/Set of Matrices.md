@@ -1,5 +1,5 @@
 ---
-custom_alias: $\mat{m\times n}{K}$ (Set)
+mathLink: $\mat{m\times n}{K}$ (Set)
 ---
 
 <br />

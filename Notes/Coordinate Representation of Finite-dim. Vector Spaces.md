@@ -1,5 +1,5 @@
 ---
-custom_alias: Coordinate representation of $V$
+mathLink: Coordinate representation of $V$
 ---
 
 <br />

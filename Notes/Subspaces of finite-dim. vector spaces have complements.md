@@ -1,5 +1,5 @@
 ---
-custom_alias: Subspaces $U\subseteq V$ with $\dim V<\infty$ have complements
+mathLink: Subspaces $U\subseteq V$ with $\dim V<\infty$ have complements
 ---
 
 <br />

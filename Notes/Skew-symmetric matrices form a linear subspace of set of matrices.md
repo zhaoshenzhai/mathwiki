@@ -1,5 +1,5 @@
 ---
-custom_alias: $\skew{n}{K}\subseteq\mat{n}{K}$ is a linear subspace
+mathLink: $\skew{n}{K}\subseteq\mat{n}{K}$ is a linear subspace
 ---
 
 <br />

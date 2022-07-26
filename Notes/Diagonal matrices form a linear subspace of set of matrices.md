@@ -1,5 +1,5 @@
 ---
-custom_alias: $\Diag{n}{K}\subseteq\mat{n}{K}$ is a linear subspace
+mathLink: $\Diag{n}{K}\subseteq\mat{n}{K}$ is a linear subspace
 ---
 
 <br />

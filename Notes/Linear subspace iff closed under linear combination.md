@@ -1,5 +1,5 @@
 ---
-custom_alias: $U\subseteq V$ is a vector space $\Leftrightarrow$ $0\in U$ and restricted operations close in $U$
+mathLink: $U\subseteq V$ is a vector space $\Leftrightarrow$ $0\in U$ and restricted operations close in $U$
 ---
 
 <br />

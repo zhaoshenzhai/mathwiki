@@ -1,5 +1,5 @@
 ---
-custom_alias: Linear $m\times n$ system $A\v{x}=\v{b}$ with $m>n$ is inconsistent for some $\v{b}\in K^m$
+mathLink: Linear $m\times n$ system $A\v{x}=\v{b}$ with $m>n$ is inconsistent for some $\v{b}\in K^m$
 ---
 
 <br />

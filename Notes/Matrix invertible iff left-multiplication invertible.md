@@ -1,5 +1,5 @@
 ---
-custom_alias: $A$ invertible $\Leftrightarrow$ $L_A$ invertible
+mathLink: $A$ invertible $\Leftrightarrow$ $L_A$ invertible
 ---
 
 <br />

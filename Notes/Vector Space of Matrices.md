@@ -1,5 +1,5 @@
 ---
-custom_alias: $\mat{m\times n}{K}$ (Vector Space)
+mathLink: $\mat{m\times n}{K}$ (Vector Space)
 ---
 
 <br />

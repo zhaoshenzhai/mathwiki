@@ -1,5 +1,5 @@
 ---
-custom_alias: $\rank A=\rank PAQ$ for $P,Q$ invertible
+mathLink: $\rank A=\rank PAQ$ for $P,Q$ invertible
 ---
 
 <br />

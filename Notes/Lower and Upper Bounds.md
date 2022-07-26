@@ -1,5 +1,5 @@
 ---
-custom_alias: Lower$\slash$Upper Bound
+mathLink: Lower$\slash$Upper Bound
 ---
 
 <br />

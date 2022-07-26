@@ -1,5 +1,5 @@
 ---
-custom_alias: Cartesian product is a product in $\catset$
+mathLink: Cartesian product is a product in $\catset$
 ---
 
 <br />

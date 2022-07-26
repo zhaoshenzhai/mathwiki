@@ -1,5 +1,5 @@
 ---
-custom_alias: $\l[A\mid\v{b}\r]$ in RREF $\Rightarrow$ $A$ in RREF
+mathLink: $\l[A\mid\v{b}\r]$ in RREF $\Rightarrow$ $A$ in RREF
 ---
 
 <br />

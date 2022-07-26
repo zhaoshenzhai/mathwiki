@@ -1,5 +1,5 @@
 ---
-custom_alias: Meet$\slash$Join-semilattice
+mathLink: Meet$\slash$Join-semilattice
 ---
 
 <br />

@@ -1,5 +1,5 @@
 ---
-custom_alias: $\edm_{\catvect[K]}\!\l(V\r)$
+mathLink: $\edm_{\catvect[K]}\!\l(V\r)$
 ---
 
 <br />

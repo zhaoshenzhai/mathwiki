@@ -1,5 +1,5 @@
 ---
-custom_alias: Kernel$\slash$Null Space
+mathLink: Kernel$\slash$Null Space
 ---
 
 <br />

@@ -1,5 +1,5 @@
 ---
-custom_alias: Least$\slash$greatest $=$ minimal$\slash$maximal for totally ordered sets
+mathLink: Least$\slash$greatest $=$ minimal$\slash$maximal for totally ordered sets
 ---
 
 

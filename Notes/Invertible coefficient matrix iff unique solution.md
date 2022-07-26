@@ -1,5 +1,5 @@
 ---
-custom_alias: $A$ invertible $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solution
+mathLink: $A$ invertible $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solution
 ---
 
 <br />

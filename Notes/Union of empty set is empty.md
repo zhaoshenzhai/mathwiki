@@ -1,5 +1,5 @@
 ---
-custom_alias: $\bigcup\em=\em$
+mathLink: $\bigcup\em=\em$
 ---
 
 <br />

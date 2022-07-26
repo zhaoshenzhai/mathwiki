@@ -1,5 +1,5 @@
 ---
-custom_alias: Least$\slash$greatest elements are unique
+mathLink: Least$\slash$greatest elements are unique
 ---
 
 <br />

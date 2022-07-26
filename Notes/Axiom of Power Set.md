@@ -1,5 +1,5 @@
 ---
-custom_alias: $\axipow$
+mathLink: $\axipow$
 ---
 
 <br />

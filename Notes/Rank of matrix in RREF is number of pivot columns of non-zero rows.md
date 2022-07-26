@@ -1,5 +1,5 @@
 ---
-custom_alias: Rank of matrix in RREF is $|$pivot columns$|\slash|$non-zero rows$|$
+mathLink: Rank of matrix in RREF is $|$pivot columns$|\slash|$non-zero rows$|$
 ---
 
 <br />

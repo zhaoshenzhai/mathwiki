@@ -1,5 +1,5 @@
 ---
-custom_alias: $\hom\l(V,W\r)\subseteq W^V$ is a linear subspace
+mathLink: $\hom\l(V,W\r)\subseteq W^V$ is a linear subspace
 ---
 
 <br />

@@ -1,5 +1,5 @@
 ---
-custom_alias: $\LLtopR$ and $\KtopR$ not comparable
+mathLink: $\LLtopR$ and $\KtopR$ not comparable
 ---
 
 <br />

@@ -1,5 +1,5 @@
 ---
-custom_alias: $\dim V=0$ $\Leftrightarrow$ $V=\l\{0\r\}$
+mathLink: $\dim V=0$ $\Leftrightarrow$ $V=\l\{0\r\}$
 ---
 
 <br />

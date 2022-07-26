@@ -1,5 +1,5 @@
 ---
-custom_alias: $\axiunion$
+mathLink: $\axiunion$
 ---
 
 <br />

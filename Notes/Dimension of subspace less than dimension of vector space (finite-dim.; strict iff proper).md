@@ -1,5 +1,5 @@
 ---
-custom_alias: $\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$
+mathLink: $\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$
 ---
 
 <br />

@@ -1,5 +1,5 @@
 ---
-custom_alias: $\axiext$
+mathLink: $\axiext$
 ---
 
 <br />

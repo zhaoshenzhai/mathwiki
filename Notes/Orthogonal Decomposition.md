@@ -1,5 +1,5 @@
 ---
-custom_alias: $V=U\oplus U^\perp$
+mathLink: $V=U\oplus U^\perp$
 ---
 
 <br />

@@ -1,5 +1,5 @@
 ---
-custom_alias: Infimum$\slash$Supremum
+mathLink: Infimum$\slash$Supremum
 ---
 
 <br />

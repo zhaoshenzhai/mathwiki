@@ -1,5 +1,5 @@
 ---
-custom_alias: Direct product of groups$\slash$function groups are groups
+mathLink: Direct product of groups$\slash$function groups are groups
 ---
 
 <br />

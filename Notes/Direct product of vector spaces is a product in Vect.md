@@ -1,5 +1,5 @@
 ---
-custom_alias: Direct product of vector spaces is a product in $\catvect[K]$
+mathLink: Direct product of vector spaces is a product in $\catvect[K]$
 ---
 
 <br />

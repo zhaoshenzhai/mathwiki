@@ -1,5 +1,5 @@
 ---
-custom_alias: Elementary Matrices$\slash$Operations
+mathLink: Elementary Matrices$\slash$Operations
 ---
 
 <br />

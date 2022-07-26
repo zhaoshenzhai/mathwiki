@@ -1,5 +1,5 @@
 ---
-custom_alias: Direct product of vector spaces$\slash$function spaces are vector spaces
+mathLink: Direct product of vector spaces$\slash$function spaces are vector spaces
 ---
 
 <br />

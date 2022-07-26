@@ -1,5 +1,5 @@
 ---
-custom_alias: $V\iso W$ $\Leftrightarrow$ $\dim V=\dim W$ ($V,W$ finite-dim.)
+mathLink: $V\iso W$ $\Leftrightarrow$ $\dim V=\dim W$ ($V,W$ finite-dim.)
 ---
 
 <br />

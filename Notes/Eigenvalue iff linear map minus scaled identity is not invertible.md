@@ -1,5 +1,5 @@
 ---
-custom_alias: Linear map $T$ has eigenvalue $\lambda$ $\Leftrightarrow$ $T-\lambda\id$ is not invertible
+mathLink: Linear map $T$ has eigenvalue $\lambda$ $\Leftrightarrow$ $T-\lambda\id$ is not invertible
 ---
 
 <br />

@@ -1,5 +1,5 @@
 ---
-custom_alias: $\Diag{n}{K}$
+mathLink: $\Diag{n}{K}$
 ---
 
 <br />

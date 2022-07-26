@@ -1,5 +1,5 @@
 ---
-custom_alias: Least$\slash$Greatest Element
+mathLink: Least$\slash$Greatest Element
 ---
 
 <br />

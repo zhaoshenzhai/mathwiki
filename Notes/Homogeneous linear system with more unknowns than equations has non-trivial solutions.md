@@ -1,5 +1,5 @@
 ---
-custom_alias: Homogeneous $m\times n$ linear system with $n>m$ has non-trivial solutions
+mathLink: Homogeneous $m\times n$ linear system with $n>m$ has non-trivial solutions
 ---
 
 <br />

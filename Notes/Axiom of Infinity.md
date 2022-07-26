@@ -1,5 +1,5 @@
 ---
-custom_alias: $\axiinfty$
+mathLink: $\axiinfty$
 ---
 
 <br />

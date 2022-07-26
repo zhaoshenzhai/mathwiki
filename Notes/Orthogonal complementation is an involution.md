@@ -1,5 +1,5 @@
 ---
-custom_alias: $U=\l(U^\perp\r)^\perp$
+mathLink: $U=\l(U^\perp\r)^\perp$
 ---
 
 <br />

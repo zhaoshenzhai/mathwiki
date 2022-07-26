@@ -1,5 +1,5 @@
 ---
-alias: auto_aliasing
+mathLink: auto
 ---
 
 <br />

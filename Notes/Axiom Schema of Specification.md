@@ -1,5 +1,5 @@
 ---
-custom_alias: $\axispec$
+mathLink: $\axispec$
 ---
 
 <br />

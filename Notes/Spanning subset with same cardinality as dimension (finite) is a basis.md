@@ -1,5 +1,5 @@
 ---
-custom_alias: Spanning set $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis
+mathLink: Spanning set $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis
 ---
 
 <br />

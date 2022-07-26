@@ -1,5 +1,5 @@
 ---
-custom_alias: $\hom_{\catvect[K]}\!\l(V,W\r)$
+mathLink: $\hom_{\catvect[K]}\!\l(V,W\r)$
 ---
 
 <br />

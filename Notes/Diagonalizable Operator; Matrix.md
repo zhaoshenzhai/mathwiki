@@ -1,5 +1,5 @@
 ---
-custom_alias: Diagonalizable Operator$\slash$Matrix
+mathLink: Diagonalizable Operator$\slash$Matrix
 ---
 
 <br />

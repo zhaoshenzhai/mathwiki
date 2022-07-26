@@ -1,5 +1,5 @@
 ---
-custom_alias: $\KtopR$ strictly finer than $\sttopR$
+mathLink: $\KtopR$ strictly finer than $\sttopR$
 ---
 
 <br />
