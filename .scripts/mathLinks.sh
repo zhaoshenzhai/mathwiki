@@ -114,10 +114,10 @@ while [ ! -z "$1" ]; do
                 file=$(echo "$obsidian" | sed 's/%20/\ /g')
 
                 # Extract new from file in either cases
-                if [[ -z $(grep "custom_alias: " "$file") ]]; then
+                if [[ -z $(grep "mathLink: auto" "$file") ]]; then
                     new=$(Math "$(echo "$file" | sed 's/.md//g')")
                 else
-                    new=$(grep "custom_alias: " "$file" | sed 's/^.*:\ //g')
+                    new=$(grep "mathLink: auto" "$file" | sed 's/^.*:\ //g')
                 fi
 
                 # Update if different
@@ -141,7 +141,7 @@ while [ ! -z "$1" ]; do
             echo -e "${PURPLE}Generating math links...${NC}"
 
             # Greps all files with aliases; they are of the form name.md
-            allAliasedFiles=$(grep -l 'alias: auto_aliasing\|custom_alias:' *)
+            allAliasedFiles=$(grep -l 'mathLink: ' *)
 
             # Convert them to links; they are of the form [[name]]
             allDoubleCurrent=$(echo "$allAliasedFiles" | sed 's/^/\[\[/g' | sed 's/$/\]\]/g' | sed 's/.md//g')
@@ -164,7 +164,7 @@ while [ ! -z "$1" ]; do
                 if [[ ! -z "$allDoubleCurrentFiles" ]]; then
                     # Generate 'left', i.e. the contents in [...]
                     currentTemp=$(echo "$current" | sed 's/\[\[//g' | sed 's/\]\]//g' | sed 's/$/.md/g')
-                    currentFile=$(grep "custom_alias: " "$currentTemp")
+                    currentFile=$(grep "mathLink: auto" "$currentTemp")
                     if [[ ! -z $currentFile ]]; then
                         alias=$(echo "$currentFile" | sed 's/^.*:\ //g')
                         left=$(echo "["$alias"]" | sed 's/.md//g')
