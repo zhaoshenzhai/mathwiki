@@ -177,9 +177,6 @@ while IFS= read -r file; do
                 line=$(($line + 1))
             fi
 
-            # Get modification time
-            modTime=$(date -r "$file" +"%y%m%d%H%M.%S")
-
             # Operations
             if [[ "$operation" == "a" ]]; then
                 sed -i ''"$line"'s/$/'"$text"'/' "$file"
@@ -187,11 +184,6 @@ while IFS= read -r file; do
                 sed -i ''"$line"'s.$.'"\n"'.' "$file"
             elif [[ "$operation" == "d" ]]; then
                 sed -i ''"$line"'d' "$file"
-            fi
-
-            # Fix modify time
-            if [[ ! $(echo "$file" | sed 's/\/.*//g') == "Images" ]]; then
-                touch -m -t "$modTime" "$file"
             fi
         fi
         # Progress counter

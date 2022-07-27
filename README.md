@@ -8,7 +8,7 @@ These notes are meant to be a distilled version of the math I've learnt where id
 * [Note Types and Templates](https://github.com/zhaoshenzhai/MathWiki#pencil2-note-types-and-templates); the basic templates and outgoing links for each type of note.
 * [Configurations and Scripts](https://github.com/zhaoshenzhai/MathWiki#gear-configurations-and-scripts); snippets, pluggins, and my bash scripts.
 * [MathJax in Links](https://github.com/zhaoshenzhai/MathWiki#link-mathjax-in-links); a script that handles links containing [MathJax](https://www.mathjax.org/).
-    * Replacing this with [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks), a work-in-progress Obsidian plugin.
+    * Currently replacing this with [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks), a work-in-progress Obsidian plugin.
 * [TikZ Images](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images); my workflow invloving TikZ images.
 * [Sample Pages](https://github.com/zhaoshenzhai/MathWiki#page_with_curl-sample-pages); some sample screenshots.
 
@@ -62,11 +62,13 @@ I wrote some bash scripts to (try) maintain the consistency of the notes; [main.
 * Operations on all lines containing patterns, including appending text, inserting a line before/after, and deleting lines, are handled by [massEditing.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/massEditing.sh).
 * Basic stats of the vault (and updating them below) is handled by [stats.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh).
 * Displaying all links that have yet to be created and all notes that have those links, are handled by [ghost.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/ghost.sh).
-* Resetting the modification time of each note to its creation time is handled by [resetModifyTime.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/resetModifyTime.sh). This should only be run if [searchReplace.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/searchReplace.sh) and [massEditing.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/massEditing.sh) somehow fail to not change the modification time of the files modified; I only want the modification time changed when a user modifies the file.
+* Resetting the modification time of each note to its creation time is handled by [resetModifyTime.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/resetModifyTime.sh).
 
 Some stats: 572 notes, 1364 links, 55 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
 ## :link: MathJax in Links
+
+**Currently replacing this with [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks), a work-in-progress Obsidian plugin.**
 
 As far as I know, the standard wiki-style links of the form `[[...]]` used in Obsidian does not support MathJax. Instead, one should use markdown-style links which are of the form `[text](link)`; here, `text` can contain `$...$`. However, `text` remains unchanged when `link` is updated, so, if one wishes to have links with math, one needs to update them manually.
 

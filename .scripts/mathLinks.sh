@@ -73,9 +73,7 @@ Update()
         while IFS= read -r backLink; do
             # Replace if link in backlink contains the different current(Formated)
             if [[ ! -z $(grep "$currentFormatted" "$backLink") ]]; then
-                modTime=$(date -r "$file" +"%y%m%d%H%M.%S")
                 sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$backLink"
-                touch -m -t "$modTime" "$file"
                 echo "            $backLink"
             fi
         done <<< "$backLinks"
@@ -188,9 +186,7 @@ while [ ! -z "$1" ]; do
                         while IFS= read -r file; do
                             # Replace if link in file contains the different current(Formated)
                             if [[ ! -z $(grep "$currentFormatted" "$file") ]]; then
-                                modTime=$(date -r "$file" +"%y%m%d%H%M.%S")
                                 sed -Ei 's/'"$currentFormatted"'/'"$new"'/g' "$file"
-                                touch -m -t "$modTime" "$file"
                                 echo "            $file"
                             fi
                         done <<< "$allDoubleCurrentFiles"

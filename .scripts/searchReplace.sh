@@ -187,12 +187,7 @@ while IFS= read -r matchingLineWithFile; do
     file=$(Format "$file")
     match=$(Format "$match")
 
-    modTime=$(date -r "$file" +"%y%m%d%H%M.%S")
     sed -i ''"$line"'s~'"$match"'~'"$replaceString"'~g' "$file"
-
-    if [[ ! $(echo "$file" | sed 's/\/.*//g') == "Images" ]]; then
-        touch -m -t "$modTime" "$file"
-    fi
 
     lineOnlyMatching=$((++lineOnlyMatching))
 
