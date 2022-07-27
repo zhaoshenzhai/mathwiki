@@ -1,14 +1,10 @@
----
-mathLink: auto
----
-
 <br />
 <br />
 
 Date Created: 31/01/2022 17:50:47
 Tags: #Proposition #Closed 
 
-Proved by: [ON is a transitive class](ON%20is%20a%20transitive%20class.md), [ON is well-ordered by membership](ON%20is%20well-ordered%20by%20membership.md)
+Proved by: [[ON is a transitive class]], [[ON is well-ordered by membership]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

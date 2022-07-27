@@ -1,7 +1,3 @@
----
-mathLink: auto
----
-
 <br />
 <br />
 
