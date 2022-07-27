@@ -8,6 +8,7 @@ These notes are meant to be a distilled version of the math I've learnt where id
 * [Note Types and Templates](https://github.com/zhaoshenzhai/MathWiki#pencil2-note-types-and-templates); the basic templates and outgoing links for each type of note.
 * [Configurations and Scripts](https://github.com/zhaoshenzhai/MathWiki#gear-configurations-and-scripts); snippets, pluggins, and my bash scripts.
 * [MathJax in Links](https://github.com/zhaoshenzhai/MathWiki#link-mathjax-in-links); a script that handles links containing [MathJax](https://www.mathjax.org/).
+    * Replacing this with [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks), a work-in-progress Obsidian plugin.
 * [TikZ Images](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images); my workflow invloving TikZ images.
 * [Sample Pages](https://github.com/zhaoshenzhai/MathWiki#page_with_curl-sample-pages); some sample screenshots.
 
@@ -50,6 +51,7 @@ Pluggins:
 * [Admonition](https://github.com/valentine195/obsidian-admonition): A replacement for the `mdframed` package in LaTeX.
 * [Advanced Appearance](https://github.com/kepano/obsidian-advanced-appearance): Set the font to `CMU Serif` (default LaTeX font).
 * [Extended MathJax](https://github.com/xldenis/obsidian-latex): Add macros in [`preamble.sty`](preamble.sty).
+* [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks): Manage and display MathJax in links.
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
 * [Sliding Panes (Andy's Mode)](https://github.com/deathau/sliding-panes-obsidian): Stack panes side-by-side (v3.2.5).
 
