@@ -112,5 +112,12 @@
       "sensitive": true,
       "word": true
     }
-  ]
+  ],
+  "excludedFilePaths": [
+    {
+      "path": "README.md",
+      "isFile": true
+    }
+  ],
+  "autoUpdate": true
 }
