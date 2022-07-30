@@ -6,7 +6,7 @@ mathLink: auto
 <br />
 
 Date Created: 04/02/2022 11:36:30
-Tags: #Definition #Closed  
+Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
