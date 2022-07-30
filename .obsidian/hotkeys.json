@@ -169,5 +169,13 @@
       ],
       "key": "T"
     }
+  ],
+  "obsidian-mathlinks:update_all_mathlinks": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "M"
+    }
   ]
 }
