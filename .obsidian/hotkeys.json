@@ -36,9 +36,10 @@
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
-        "Meta"
+        "Meta",
+        "Shift"
       ],
-      "key": "R"
+      "key": "G"
     }
   ],
   "markdown:toggle-preview": [
@@ -141,16 +142,7 @@
       "modifiers": [
         "Meta"
       ],
-      "key": "Q"
-    }
-  ],
-  "graph:open-local": [
-    {
-      "modifiers": [
-        "Meta",
-        "Shift"
-      ],
-      "key": "G"
+      "key": "R"
     }
   ],
   "random-note": [
