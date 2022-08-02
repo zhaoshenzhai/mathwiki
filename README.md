@@ -7,7 +7,7 @@ These notes are meant to be a distilled version of the math I've learnt where id
 ## :bookmark_tabs: Contents
 * [Note Types and Templates](https://github.com/zhaoshenzhai/MathWiki#pencil2-note-types-and-templates); the basic templates and outgoing links for each type of note.
 * [Configurations and Scripts](https://github.com/zhaoshenzhai/MathWiki#gear-configurations-and-scripts); snippets, pluggins, and my bash scripts.
-* [MathJax in Links](https://github.com/zhaoshenzhai/MathWiki#mathjax-in-links); my plugin that manages and displays [MathJax](https://www.mathjax.org/) in links.
+* [MathLinks](https://github.com/zhaoshenzhai/MathWiki#mathlinks); my plugin that manages and displays [MathJax](https://www.mathjax.org/) in links.
 * [TikZ Images](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images); my workflow invloving TikZ images.
 * [Sample Pages](https://github.com/zhaoshenzhai/MathWiki#page_with_curl-sample-pages); some sample screenshots.
 
@@ -65,7 +65,7 @@ I wrote some bash scripts to (try) maintain the consistency of the notes; [main.
 
 Some stats: 572 notes, 1364 links, 55 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
-## :link: MathJax in Links
+## :link: MathLinks
 
 As far as I know, the standard wiki-style links of the form `[[...]]` used in Obsidian does not support MathJax. Instead, one should use markdown-style links which are of the form `[text](link)`; here, `text` can contain MathJax. However, `text` remains unchanged when `link` is updated, so, if one wishes to have links with math, one needs to update them manually.
 
