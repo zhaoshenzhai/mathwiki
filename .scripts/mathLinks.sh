@@ -23,7 +23,7 @@ Math()
         sed -E 's/\biff\b/\$\\Leftrightarrow\$/g'                       | # Equivalence
         sed -E 's/\bON\b/\$\\textrm\{ON\}\$/g'                          | # Class of ordinals
         sed -E 's/\bK\b/\$K\$/g'                                        | # K topology
-        sed -E 's/\ slash\ /\$\\slash\$/g'                              | # Slash
+        sed -E 's/\ slash\ /\//g'                                       | # Slash
         sed -E 's/\bCategory\sof\sSets\b/\$\\catset\$/gI'               | # Category of Sets
         sed -E 's/\bCategory\sof\sRelations\b/\$\\catrel\$/gI'          | # Category of Relations
         sed -E 's/\bCategory\sof\sVector\sSpaces\b/\$\\catvect[K]\$/gI' | # Category of Vector Spaces over K
@@ -112,10 +112,10 @@ while [ ! -z "$1" ]; do
                 file=$(echo "$obsidian" | sed 's/%20/\ /g')
 
                 # Extract new from file in either cases
-                if [[ -z $(grep "mathLink: auto" "$file") ]]; then
+                if [[ ! -z $(grep "mathLink: auto" "$file") ]]; then
                     new=$(Math "$(echo "$file" | sed 's/.md//g')")
                 else
-                    new=$(grep "mathLink: auto" "$file" | sed 's/^.*:\ //g')
+                    new=$(grep "mathLink: " "$file" | sed 's/^.*:\ //g')
                 fi
 
                 # Update if different

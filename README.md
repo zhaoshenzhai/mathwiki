@@ -7,8 +7,7 @@ These notes are meant to be a distilled version of the math I've learnt where id
 ## :bookmark_tabs: Contents
 * [Note Types and Templates](https://github.com/zhaoshenzhai/MathWiki#pencil2-note-types-and-templates); the basic templates and outgoing links for each type of note.
 * [Configurations and Scripts](https://github.com/zhaoshenzhai/MathWiki#gear-configurations-and-scripts); snippets, pluggins, and my bash scripts.
-* [MathJax in Links](https://github.com/zhaoshenzhai/MathWiki#link-mathjax-in-links); a script that handles links containing [MathJax](https://www.mathjax.org/).
-    * Currently replacing this with [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks), a work-in-progress Obsidian plugin.
+* [MathJax in Links](https://github.com/zhaoshenzhai/MathWiki#mathjax-in-links); my plugin that manages and displays [MathJax](https://www.mathjax.org/) in links.
 * [TikZ Images](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images); my workflow invloving TikZ images.
 * [Sample Pages](https://github.com/zhaoshenzhai/MathWiki#page_with_curl-sample-pages); some sample screenshots.
 
@@ -56,7 +55,7 @@ Pluggins:
 * [Sliding Panes (Andy's Mode)](https://github.com/deathau/sliding-panes-obsidian): Stack panes side-by-side (v3.2.5).
 
 I wrote some bash scripts to (try) maintain the consistency of the notes; [main.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/main.sh) acts as a hub for me to run them.
-* Updating links of the form `[MathJax](link)` is handled by [mathLinks.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/mathLinks.sh); its usage is detailed [below](https://github.com/zhaoshenzhai/MathWiki#link-mathjax-in-links).
+* A command-line version of MathLinks is handled by [mathLinks.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/mathLinks.sh); its usage is detailed [below](https://github.com/zhaoshenzhai/MathWiki#link-mathjax-in-links).
 * Images are handled by [newTikz.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/newTikZ.sh), [getCurrentImage.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/getCurrentImage.sh), and [updateImages.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/updateImages.sh); see my workflow [here](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images).
 * Search and replace patterns, including the ability of excluding additional patterns, is handled by [searchReplace.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/searchReplace.sh).
 * Operations on all lines containing patterns, including appending text, inserting a line before/after, and deleting lines, are handled by [massEditing.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/massEditing.sh).
@@ -68,21 +67,15 @@ Some stats: 572 notes, 1364 links, 55 images ([updated](https://github.com/zhaos
 
 ## :link: MathJax in Links
 
-**Currently replacing this with [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks), a work-in-progress Obsidian plugin.**
+As far as I know, the standard wiki-style links of the form `[[...]]` used in Obsidian does not support MathJax. Instead, one should use markdown-style links which are of the form `[text](link)`; here, `text` can contain MathJax. However, `text` remains unchanged when `link` is updated, so, if one wishes to have links with math, one needs to update them manually.
 
-As far as I know, the standard wiki-style links of the form `[[...]]` used in Obsidian does not support MathJax. Instead, one should use markdown-style links which are of the form `[text](link)`; here, `text` can contain `$...$`. However, `text` remains unchanged when `link` is updated, so, if one wishes to have links with math, one needs to update them manually.
+I wrote an Obsidian plugin, called [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks), that automates this process. Click on the link to see its installation and usage.
 
-I wrote a [script](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/mathLinks.sh) that partially automates this process. Every note whose link should contain math is declared an `alias`; when `link` is updated, `text` is checked against the alias and is updated when they differ. The `alias`es are declared in a YAML front matter and is either written as `alias: auto_aliasing` or `custom_alias: ...`.
-- `auto_aliasing`: This is used when the text that needs to be replaced with math is 'standard'. For instance, "Invertible iff bijective" is auto-aliased into "Invertible $\Leftrightarrow$ bijective", which is what `text` will be checked against. See [here][standardAlias] for a list of standard aliases.
-- `custom_alias`: If the alias is not standard (a one-time alias specific to this note), then it is written manually.
-
-The script can be used to update math links as well as generate new ones.
-- If flagged with `-u`, it updates every math link of the form `[text](link)` by comparing `text` with the `alias` of `link`.
-    - If the note is auto-aliased, it can be run once the note is renamed.
-    - If the note has a custom alias, the `alias` also needs to be updated manually in the front matter of the note before it can be run.
-- If flagged with `-n`, it generates a new math link `[text](link)` from all Obsidian-style links `[[...]]` whose note is aliased.
-
-When run, the script updates/generates math links for _every_ note that links to `link`; for this reason, every update/generation displays the difference and needs to be confirmed (by pressing "Y" or `Enter`) before the script proceeds. If `link` is repeated in many notes (which is the entire point of this script), one does _not_ need to confirm this for every note that links to `link` since the update/generation is the same.
+Alternatively, for a command-line interface independent from MathLinks, see [mathLinks.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/mathLinks.sh).
+- If flagged with `-u`, it updates every link of the form `[text](link)` by comparing `text` with the `mathLink` of `link`.
+    - If `link` contains `mathLink: auto`, it can be run once it is renamed.
+    - If `link` has a custom `mathLink`, it also needs to be updated in the front matter before the script can be run.
+- If flagged with `-n`, it generates a new link of the form `[text](link)` from all wiki-style links `[[...]]` whose note has a `mathLink`.
 
 Here is a sample of how the script interface looks.
 
