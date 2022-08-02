@@ -7,7 +7,7 @@ These notes are meant to be a distilled version of the math I've learnt where id
 ## :bookmark_tabs: Contents
 * [Note Types and Templates](https://github.com/zhaoshenzhai/MathWiki#pencil2-note-types-and-templates); the basic templates and outgoing links for each type of note.
 * [Configurations and Scripts](https://github.com/zhaoshenzhai/MathWiki#gear-configurations-and-scripts); snippets, pluggins, and my bash scripts.
-* [MathLinks](https://github.com/zhaoshenzhai/MathWiki#mathlinks); my plugin that manages and displays [MathJax](https://www.mathjax.org/) in links.
+* [MathLinks](https://github.com/zhaoshenzhai/MathWiki#link-mathlinks); my plugin that manages and displays [MathJax](https://www.mathjax.org/) in links.
 * [TikZ Images](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images); my workflow invloving TikZ images.
 * [Sample Pages](https://github.com/zhaoshenzhai/MathWiki#page_with_curl-sample-pages); some sample screenshots.
 
