@@ -1,6 +1,6 @@
 # :pencil: MathWiki
 
-An [Obsidian.md](https://obsidian.md) vault for my math course notes in university (integrated with my [dotfiles](https://github.com/zhaoshenzhai/dotfiles)).
+An [Obsidian.md](https://obsidian.md) vault for my math course notes in university.
 
 These notes are meant to be a distilled version of the math I've learnt where ideas, formulations, and important results are broken down into their atomic components of definitions, propositions, and theorems for clarity, precision, and accessibility.
 
@@ -47,14 +47,14 @@ I do not directly write my notes in Obsidian since I have my own Neovim setup; s
 Theme: [Minimal](https://github.com/kepano/obsidian-minimal).
 
 Pluggins:
-* [Admonition](https://github.com/valentine195/obsidian-admonition): A replacement for the `mdframed` package in LaTeX.
 * [Advanced Appearance](https://github.com/kepano/obsidian-advanced-appearance): Set the font to `CMU Serif` (default LaTeX font).
+* [Admonition](https://github.com/valentine195/obsidian-admonition): A replacement for the `mdframed` package in LaTeX.
+* [Sliding Panes (Andy's Mode)](https://github.com/deathau/sliding-panes-obsidian): Stack panes side-by-side (v3.2.5).
 * [Extended MathJax](https://github.com/xldenis/obsidian-latex): Add macros in [`preamble.sty`](preamble.sty).
 * [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks): Manage and display MathJax in links.
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
-* [Sliding Panes (Andy's Mode)](https://github.com/deathau/sliding-panes-obsidian): Stack panes side-by-side (v3.2.5).
 
-I wrote some bash scripts to (try) maintain the consistency of the notes; [main.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/main.sh) acts as a hub for me to run them.
+I wrote some bash scripts to (try) maintain the consistency of my notes; [main.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/main.sh) acts as a hub for me to run them.
 * A command-line version of MathLinks is handled by [mathLinks.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/mathLinks.sh); its usage is detailed [below](https://github.com/zhaoshenzhai/MathWiki#link-mathjax-in-links).
 * Images are handled by [newTikz.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/newTikZ.sh), [getCurrentImage.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/getCurrentImage.sh), and [updateImages.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/updateImages.sh); see my workflow [here](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images).
 * Search and replace patterns, including the ability of excluding additional patterns, is handled by [searchReplace.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/searchReplace.sh).
@@ -89,11 +89,11 @@ My solution is to bind a key in Neovim which [inserts][tikzInsert]
 ```html
 <center><img src="app://local/PATH_TO_VAULT/Images/UNIQUE_IDENTIFIER/image.svg"></center>
 ```
-in the current line and runs a [script](https://github.com/zhaoshenzhai/MathWiki/blob/master/.image/newTikZ.sh) that creates a standalone `image.tex` file from a [template](https://github.com/zhaoshenzhai/MathWiki/blob/master/.image/imageTemplate.tex) where the TikZ code can be written. Once finished, another key can be pressed which [executes][pdfLaTeXExecute]
+in the current line and runs a [script](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/newTikZ.sh) that creates the corresponding `.tex` file from a [template](https://github.com/zhaoshenzhai/MathWiki/blob/master/imageTemplate.tex) where the TikZ code can be written. Once finished, another key can be pressed which [executes][pdfLaTeXExecute]
 ```bash
 pdflatex -shell-escape image.tex && pdfcrop image.pdf image.pdf && pdf2svg image.pdf image.svg
 ```
-All images are centered and have a `15px` top and bottom margin; see this [obsidian snippet](https://github.com/zhaoshenzhai/MathWiki/blob/master/.obsidian/snippets/centerImages.css). This can be modified to only apply to those images in a certain class.
+All images are [centered](https://github.com/zhaoshenzhai/MathWiki/blob/master/.obsidian/snippets/centerImages.css) and have a `15px` top and bottom margin. This can be modified to only apply to those images in a certain class.
 
 ## :page_with_curl: Sample Pages
 
