@@ -17,7 +17,7 @@ These notes are meant to be a distilled version of the math I've learnt where id
 
 ## :pencil2: Note Types and Templates
 
-Each note is currently one of four types:
+Each note is currently one of five types (four atomic notes and one [map of content](https://forum.obsidian.md/t/on-the-process-of-making-mocs/1060/11)):
 
 * **Definition**, either of an `object` or of a `notion`, which links to:
     * Types: _Objects/notions of type `object`/`notion` with additional restrictions._
@@ -37,6 +37,10 @@ Each note is currently one of four types:
 * **Axiom**, written as a formal `statement` within a certain framework, which links to:
     * Equivalences: _Equivalent statements - including its proof._
     * Constructions: _Objects/notions that crucially depend on `statement`._
+* **MOC**, summarizing my understanding of a mathematical/physical `theory`, which links to:
+    * Context: _The assumed background formalism(s) of `theory`._
+    * Extensions: _Specializations of `theory` or its intersections with other theories._
+    * Generalizations: _Abstractions of `theory` or its unifications with other theories._
 
 These templates are automatically [inserted][templatesInsert] whenever a note is created. After the links, the main content is written with remarks where appropriate.
 
