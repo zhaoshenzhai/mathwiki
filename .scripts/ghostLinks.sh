@@ -30,7 +30,7 @@ while IFS= read -r link; do
     link=${link#*](}
     link=${link::-1}
     linkFind=$(echo "$link" | sed 's/%20/\ /g')
-    if [ ! -f "$linkFind" ]; then
+    if [[ ! -f "$linkFind" ]] && [[ -z $(echo $link | grep "obsidian\://") ]]; then
         linkFind=$(echo "$linkFind" | sed 's/.md//g')
         echo -e "${PURPLE}    $linkFind${NC}"
         linkFormatted=$(echo "$link" | sed 's/\(.*\).md/\1/')

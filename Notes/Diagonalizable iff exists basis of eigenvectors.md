@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a finite-dimensional vector over some field $K$ and consider a linear operator $T:V\to V$. Then $T$ is diagonalizable iff there exists a basis $\mc{B}\coloneqq\l\{v_1,\dots,v_1\r\}$ of $V$ consisting of eigenvectors of $T$, in which case the $\l(j,j\r)^\textrm{\it{th}}$-entry $\lambda_j$ of_ $\l[T\r]_\mc{B}$ _is the eigenvalue corresponding to $v_j$._
+_Let $V$ be a finite-dimensional vector over some field $K$, say with $n\coloneqq\dim V$, and consider a linear operator $T:V\to V$. Then $T$ is diagonalizable iff there exists a basis $\mc{B}\coloneqq\l\{v_1,\dots,v_n\r\}$ of $V$ consisting of eigenvectors of $T$, in which case the $\l(j,j\r)^\textrm{\it{th}}$-entry $\lambda_j$ of_ $\l[T\r]_\mc{B}$ _is the eigenvalue corresponding to $v_j$._
 
 ```
 
