@@ -1,0 +1,9 @@
+{
+	"id": "vim-reading-view-navigation",
+	"name": "Vim Reading View Navigation",
+	"version": "1.0.3",
+	"minAppVersion": "0.14.15",
+	"description": "Allows scrolling in the reading view with j and k.",
+	"author": "kometenstaub",
+	"isDesktopOnly": false
+}

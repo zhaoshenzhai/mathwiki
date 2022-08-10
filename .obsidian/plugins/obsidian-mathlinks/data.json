@@ -117,6 +117,10 @@
     {
       "path": "README.md",
       "isFile": true
+    },
+    {
+      "path": "Notes/Linear Algebra.md",
+      "isFile": true
     }
   ],
   "autoUpdate": true

@@ -57,6 +57,8 @@ Plugins:
 * [Extended MathJax](https://github.com/xldenis/obsidian-latex): Add macros in [`preamble.sty`](preamble.sty).
 * [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks): Manage and display MathJax in links.
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
+* [BRAT](https://github.com/TfTHacker/obsidian42-brat): Beta Reviewers Auto-update Tester, for:
+    * [Vim Reading View Navigation](https://github.com/kometenstaub/obsidian-vim-reading-view-navigation): Vim-like reading view.
 
 I wrote some bash scripts to (try) maintain the consistency of my notes; [main.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/main.sh) acts as a hub for me to run them.
 * A command-line version of MathLinks is handled by [mathLinks.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/mathLinks.sh); its usage is detailed [below](https://github.com/zhaoshenzhai/MathWiki#link-mathjax-in-links).

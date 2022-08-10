@@ -50,43 +50,6 @@
       "injectColor": true,
       "noTitle": false,
       "copy": false
-    },
-    "Construction": {
-      "type": "Construction",
-      "color": "248, 248, 255",
-      "icon": {
-        "name": "hammer",
-        "type": "font-awesome"
-      },
-      "command": true,
-      "title": "Constructions",
-      "injectColor": true,
-      "noTitle": true
-    },
-    "Characterization": {
-      "type": "Characterization",
-      "color": "248, 248, 255",
-      "icon": {
-        "name": "cubes",
-        "type": "font-awesome"
-      },
-      "command": true,
-      "title": "Characterizations",
-      "injectColor": true,
-      "noTitle": true,
-      "copy": false
-    },
-    "Computation": {
-      "type": "Computation",
-      "color": "248, 248, 255",
-      "icon": {
-        "name": "cogs",
-        "type": "font-awesome"
-      },
-      "command": false,
-      "title": "Computations",
-      "injectColor": true,
-      "noTitle": true
     }
   },
   "syntaxHighlight": false,
