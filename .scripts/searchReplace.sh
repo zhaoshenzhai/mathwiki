@@ -19,6 +19,24 @@ Format()
         sed 's/\$/\\\$/g' )  # Escape $
 }
 
+FormatInput()
+{
+    echo $(echo "$1" |
+        sed 's/\\/\\\\/g'                                               | # Escape \
+        sed 's/\ /\\s/g'                                                | # Escape <
+        sed 's/\[/\\\[/g'                                               | # Escape [
+        sed 's/\]/\\\]/g'                                               | # Escape ]
+        sed 's/(/\\(/g'                                                 | # Escape (
+        sed 's/)/\\)/g'                                                 | # Escape )
+        sed 's/{/\\{/g'                                                 | # Escape {
+        sed 's/}/\\}/g'                                                 | # Escape }
+        sed 's/\$/\\\$/g'                                               | # Escape $
+        sed 's/\^/\\\^/g'                                               | # Escape ^
+        sed 's/|/\\|/g'                                                 | # Escape |
+        sed 's/+/\\+/g'                                                 | # Escape +
+        sed 's/\./\\./g'                                                ) # Escape .
+}
+
 echo ""
 
 #### Query
@@ -26,7 +44,7 @@ read -ep "$(echo -e "${PURPLE}Query: [string]${NC}") " query
 while [ -z "$query" ]; do
     read -ep "$(echo -e "${PURPLE}Query: [string]${NC}") " query
 done
-query=$(Format "$query")
+query=$(FormatInput "$query")
 #### Query
 
 ####Case sensitive
@@ -113,7 +131,7 @@ while [[ "$remove" == "y" ]]; do
         while [ -z "$toRemove" ]; do
             read -ep "$(echo -e "        ${PURPLE}Remove: [string]${NC}") " toRemove
         done
-        toRemove=$(Format "$toRemove")
+        toRemove=$(FormatInput "$toRemove")
         #### Remove string
 
         ####Case sensitive
