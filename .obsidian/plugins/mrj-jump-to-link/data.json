@@ -1,0 +1,5 @@
+{
+  "letters": "qwasdf",
+  "jumpToAnywhereRegex": "\\b\\w{3,}\\b",
+  "lightspeedCaseSensitive": false
+}

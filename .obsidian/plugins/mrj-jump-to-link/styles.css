@@ -1,0 +1,18 @@
+.jl.popover {
+    position: absolute;
+    display: block;
+    z-index: 10000;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 186, 133, 0.8)), to(rgba(255, 186, 66, 0.8)));
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(227, 157, 35);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    color: black;
+    padding: 1px 3px;
+    border-radius: 3px;
+}
+.theme-dark, .theme-light {
+    --jump-to-link-lightspeed-color: var(--text-muted);
+}

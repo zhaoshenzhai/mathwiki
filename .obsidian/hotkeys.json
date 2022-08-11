@@ -169,5 +169,13 @@
       ],
       "key": "M"
     }
+  ],
+  "mrj-jump-to-link:activate-jump-to-link": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "F"
+    }
   ]
 }
