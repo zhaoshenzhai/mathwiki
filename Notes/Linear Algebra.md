@@ -7,20 +7,15 @@ Context: [Zermelo Fraenkel Set Theory](obsidian://open?file=Zermelo%20Fraenkel%2
 Extensions: [Functional Analysis](obsidian://open?file=Functional%20Analysis.md), [Multilinear Algebra](obsidian://open?file=Multilinear%20Algebra.md)
 Abstractions: [Category Theory](obsidian://open?file=Category%20Theory.md)
 
-# $\huge\rm\bf{L}\normalsize\rm\bf{INEAR ALGEBRA}\huge\rm\bf{ | }\Large\rm\bf{A }\small\rm\bf{THEORY OF VECTOR SPACES}$
+$$\begin{align}
+        \huge\rm\bf{L}\normalsize\rm\bf{INEAR ALGEBRA}\huge\rm\bf{ | }\Large\rm\bf{A }\normalsize\rm\bf{THEORY OF VECTOR SPACES} \\
+\end{align}$$
 
 _Linear Algebra_ is the study of the [category of vector spaces](obsidian://open?file=Category%20of%20Vector%20Spaces.md); that is, the study of [vector spaces](obsidian://open?file=Vector%20Space.md) and [linear maps](obsidian://open?file=Linear%20Map.md) between them.
 
 ## $\ul{\textbf{Constructions:}}$
 
-* _[Linear subspaces](obsidian://open?file=Linear%20Subspace.md)_ are the subobjects in $\catvect$.
-* _[Direct products](obsidian://open?file=Direct%20Product%20(Vector%20Space).md)_ of vector spaces are the products in $\catvect$. In the finite-dimensional case, they coincide with their corresponding direct sums.
-* _[Direct sums](obsidian://open?file=Internal%20Direct%20Sum%20(Linear%20Algebra).md)_ of vector spaces are the coproducts in $\catvect$.
-
-## $\ul{\textbf{Constructions:}}$
-
 As with most categories, the [category of vector spaces](obsidian://open?file=Category%20of%20Vector%20Spaces.md) has [subobjects](obsidian://open?file=Linear%20Subspace.md), [products](obsidian://open?file=Direct%20Product%20(Vector%20Space)), [direct sums](obsidian://open?file=Internal%20Direct%20Sum%20(Linear%20Algebra).md), and [quotients](obsidian://open?file=). Unique to Linear Algebra is the concept of the [dimension](obsidian://open?file=Dimension%20(Linear%20Algebra).md) of a [vector space](obsidian://open?file=Vector%20Space.md), defined as the cardinality of any [linearly independent](obsidian://open?file=Linear%20Independence.md) [spanning set](obsidian://open?file=Spanning%20Set.md), aka any [basis](obsidian://open?file=Hamel%20Basis.md), thereof.
-* The definition of subobjects (aka linear subspaces) lead naturally to the _problem of invariant subspaces_. This leads to the study of [eigenvectors](obsidian://open?file=Eigenvector.md), [eigenvalues](obsidian://open?file=Eigenvalue.md), and [diagonalization](obsidian://open?file=Diagonalizable%20Operator%20slash%20Matrix.md).
 
 Similarly, as with most categories, we can define the [kernel](obsidian://open?file=Kernel;%20Null%20Space.md) of a [linear map](obsidian://open?file=Linear%20Map.md) $T:V\to W$. Unique to Linear Algebra is its [rank](obsidian://open?file=Rank.md) (defined as $\dim\im T$); together, they satisfy the [Dimension Theorem](obsidian://open?file=Dimension%20Theorem.md) which states that
 $$\begin{equation}
@@ -29,11 +24,9 @@ $$\begin{equation}
 
 ## $\ul{\textbf{Characterizations:}}$
 
-Vector spaces are characterized by their dimension, in the sense that [two vector spaces are isomorphic $\Leftrightarrow$ their dimensions coincide](obsidian://open?file=Linearly%20isomorphic%20iff%20dimensions%20coincide%20(finite-dim.).md).
-* For a finite-dimensional vector space, we can represent elements thereof by [coordinates](obsidian://open?file=Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md) once a basis is chosen.
-* Similarly, linear maps between finite-dimensional vector spaces can be represented by a [matrix](obsidian://open?file=Matrix.md). Composition [is represented by](obsidian://open?file=Composition%20of%20linear%20maps%20repr%20under%20basis%20matrix%20product%20of%20representations.md) [matrix multiplication](obsidian://open?file=Matrix%20Multiplication.md), and its action on a vector [is represented by](obsidian://open?file=Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md) matrix-vector multiplication.
+Vector spaces are characterized by their dimension, in the sense that they are [linearly isomorphic $\Leftrightarrow$ their dimensions coincide](obsidian://open?file=Linearly%20isomorphic%20iff%20dimensions%20coincide%20(finite-dim.).md). Thus, every vector in a finite-dimensional vector space can be represented, via a choice of basis, by a tuple in $K^n$. Linear maps between finite-dimensional vector spaces can similarly be represented by a [matrix](obsidian://open?file=Matrix.md); their actions on a vector [are represented by](obsidian://open?file=Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md) matrix-vector multiplication, and composition [is represented by](obsidian://open?file=Composition%20of%20linear%20maps%20repr%20under%20basis%20matrix%20product%20of%20representations.md) matrix multiplication.
 
-Both representations depend on the choice of basis, but it is possible to define concepts using this representation if we show that they are invariant under a [change of basis](obsidian://open?file=Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md).
+If a concept is defined via a choice of basis, we must ensure that it is invariant under a [change of basis](obsidian://open?file=Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md).
 
 ## $\ul{\textbf{Calculations:}}$
 
