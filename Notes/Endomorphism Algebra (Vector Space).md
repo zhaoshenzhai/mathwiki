@@ -2,8 +2,7 @@
 mathLink: $\edm_{\catvect[K]}\!\l(V\r)$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 17/05/2022 23:04:48
 Tags: #Definition #Closed

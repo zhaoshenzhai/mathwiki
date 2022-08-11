@@ -2,8 +2,7 @@
 mathLink: $\Phi_\mc{B}^\mc{C}:\hom\l(V,W\r)\simto\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 17/05/2022 10:57:09
 Tags: #Proposition #Closed

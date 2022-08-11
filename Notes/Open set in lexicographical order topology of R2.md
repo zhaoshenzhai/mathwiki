@@ -2,8 +2,7 @@
 mathLink: auto
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 07/02/2022 14:15:40
 Tags: #Proposition #Closed 

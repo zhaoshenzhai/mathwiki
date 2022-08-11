@@ -2,8 +2,7 @@
 mathLink: Kernel/Null Space
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 02/05/2022 18:54:55
 Tags: #Definition #Closed

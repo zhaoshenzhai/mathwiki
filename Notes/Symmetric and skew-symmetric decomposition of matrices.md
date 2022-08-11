@@ -2,8 +2,7 @@
 mathLink: $\mat{n}{K}=\sym{n}{K}\oplus\skew{n}{K}$ for $\charfld K\neq2$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 09/05/2022 18:30:12
 Tags: #Proposition #Closed

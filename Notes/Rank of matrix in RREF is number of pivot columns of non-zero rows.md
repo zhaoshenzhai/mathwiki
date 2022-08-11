@@ -2,8 +2,7 @@
 mathLink: Rank of matrix in RREF is $|$pivot columns$|/|$non-zero rows$|$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 07/06/2022 18:06:05
 Tags: #Proposition #Closed

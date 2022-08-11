@@ -2,8 +2,7 @@
 mathLink: $V=U\oplus U^\perp$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 25/06/2022 16:24:44
 Tags: #Proposition #Closed

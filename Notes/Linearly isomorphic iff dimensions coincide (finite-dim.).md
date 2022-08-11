@@ -2,8 +2,7 @@
 mathLink: $V\iso W$ $\Leftrightarrow$ $\dim V=\dim W$ ($V,W$ finite-dim.)
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 29/05/2022 17:53:10
 Tags: #Proposition #Closed

@@ -1,5 +1,4 @@
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 01/05/2022 20:24:07
 Tags: #Proposition #Later/Set_Theory/Choice

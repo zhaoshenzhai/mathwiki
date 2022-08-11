@@ -2,8 +2,7 @@
 mathLink: Matrix invertible $\Leftrightarrow$ $\l[A\mid I_n\r]\sim\l[I_n\mid A^{-1}\r]$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 10/06/2022 07:20:59
 Tags: #Proposition #Closed

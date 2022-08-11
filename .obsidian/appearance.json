@@ -14,7 +14,8 @@
     "lists",
     "slidingPanes",
     "centerImages",
-    "bgColor"
+    "bgColor",
+    "hideYaml"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": true,

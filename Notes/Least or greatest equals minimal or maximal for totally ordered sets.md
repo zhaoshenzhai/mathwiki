@@ -3,8 +3,7 @@ mathLink: Least/greatest $=$ minimal/maximal for totally ordered sets
 ---
 
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 03/02/2022 17:39:49
 Tags: #Proposition #Closed 

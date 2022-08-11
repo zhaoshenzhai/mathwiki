@@ -2,8 +2,7 @@
 mathLink: $V\iso W$ $\Rightarrow$ ($\dim V<\infty\Leftrightarrow\dim W<\infty$)
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 28/05/2022 16:37:33
 Tags: #Proposition #Closed

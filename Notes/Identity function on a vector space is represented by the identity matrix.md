@@ -2,8 +2,7 @@
 mathLink: $\l[\id_V\r]_\mc{B}=I_n$ ($\dim V=n$)
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 19/05/2022 16:47:19
 Tags: #Proposition #Closed

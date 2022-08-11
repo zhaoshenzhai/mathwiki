@@ -2,8 +2,7 @@
 mathLink: Linear system $A\v{x}=\v{b}$ consistent $\Leftrightarrow$ $\rank A=\rank\l[A\mid\v{b}\r]$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 06/06/2022 01:11:59
 Tags: #Proposition #Closed

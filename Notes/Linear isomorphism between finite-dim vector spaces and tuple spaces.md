@@ -2,8 +2,7 @@
 mathLink: $\phi_\mc{B}:V\simto K^n$ ($\dim V=n$)
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 15/05/2022 22:49:38
 Tags: #Proposition #Closed

@@ -2,8 +2,7 @@
 mathLink: $\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 23/04/2022 12:48:57
 Tags: #Proposition #Closed

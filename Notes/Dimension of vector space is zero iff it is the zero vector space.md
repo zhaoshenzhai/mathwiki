@@ -2,8 +2,7 @@
 mathLink: $\dim V=0$ $\Leftrightarrow$ $V=\l\{0\r\}$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 06/04/2022 22:04:49
 Tags: #Proposition #Closed

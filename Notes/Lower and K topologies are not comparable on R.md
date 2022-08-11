@@ -2,8 +2,7 @@
 mathLink: $\LLtopR$ and $\KtopR$ not comparable
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 05/02/2022 17:43:45
 Tags: #Proposition #Closed 

@@ -2,8 +2,7 @@
 mathLink: $\axispec$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 16/01/2022 12:08:10
 Tags: #Axiom #Later/Set_Theory

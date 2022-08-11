@@ -2,8 +2,7 @@
 mathLink: Meet/Join-semilattice
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 24/01/2022 18:50:40
 Tags: #Definition #Closed 

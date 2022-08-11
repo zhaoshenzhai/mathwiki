@@ -2,8 +2,7 @@
 mathLink: $\axiext$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 16/01/2022 10:57:06
 Tags: #Axiom #Later/Set_Theory

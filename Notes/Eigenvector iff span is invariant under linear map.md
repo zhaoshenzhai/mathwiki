@@ -2,8 +2,7 @@
 mathLink: Linear map $T$ has eigenvector $v$ $\Leftrightarrow$ $\span\l\{v\r\}$ is $T$-invariant
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 19/06/2022 17:36:48
 Tags: #Proposition #Closed

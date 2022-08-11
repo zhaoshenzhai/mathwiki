@@ -2,8 +2,7 @@
 mathLink: Coordinate representation of $V$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 15/05/2022 22:31:09
 Tags: #Definition #Closed

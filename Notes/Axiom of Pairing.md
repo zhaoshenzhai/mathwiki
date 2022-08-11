@@ -2,8 +2,7 @@
 mathLink: $\axipairing$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 16/01/2022 16:34:42
 Tags: #Axiom #Later/Set_Theory

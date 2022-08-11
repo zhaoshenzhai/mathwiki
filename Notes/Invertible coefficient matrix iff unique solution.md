@@ -2,8 +2,7 @@
 mathLink: $A$ invertible $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solution
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 08/04/2022 03:28:32
 Tags: #Proposition #Closed

@@ -2,8 +2,7 @@
 mathLink: Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 13/05/2022 20:25:22
 Tags: #Proposition #Closed

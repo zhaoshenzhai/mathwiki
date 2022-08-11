@@ -2,8 +2,7 @@
 mathLink: Least/Greatest Element
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 03/02/2022 14:47:59
 Tags: #Definition #Closed 

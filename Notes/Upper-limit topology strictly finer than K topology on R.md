@@ -2,8 +2,7 @@
 mathLink: $\ULtopR$ strictly finer than $\KtopR$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 05/02/2022 10:24:48
 Tags: #Proposition #Closed 

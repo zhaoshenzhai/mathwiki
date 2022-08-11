@@ -2,8 +2,7 @@
 mathLink: $\axirepl$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 20/01/2022 10:03:21
 Tags: #Axiom #Later/Set_Theory

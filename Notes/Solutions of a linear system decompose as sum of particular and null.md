@@ -2,8 +2,7 @@
 mathLink: Solutions of $A\v{x}=\v{b}$ decompose as $\l\{\v{s}_p\r\}+\nullsp A$ for any $A\v{s}_p=\v{b}$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 01/04/2022 17:36:28
 Tags: #Proposition #Closed

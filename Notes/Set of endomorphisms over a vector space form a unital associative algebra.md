@@ -2,8 +2,7 @@
 mathLink: $\edm_{\catvect[K]}\!\l(V\r)$ is a unital associative algebra
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 17/05/2022 23:18:49
 Tags: #Proposition #Closed

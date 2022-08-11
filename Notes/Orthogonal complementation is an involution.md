@@ -2,8 +2,7 @@
 mathLink: $U=\l(U^\perp\r)^\perp$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 28/06/2022 22:29:13
 Tags: #Proposition #Closed

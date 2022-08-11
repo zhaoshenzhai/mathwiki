@@ -2,8 +2,7 @@
 mathLink: $\hom\l(V,W\r)\subseteq W^V$ is a linear subspace
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 17/05/2022 16:47:33
 Tags: #Proposition #Closed

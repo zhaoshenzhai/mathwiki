@@ -2,8 +2,7 @@
 mathLink: Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Leftrightarrow$ columns of $A$ are linearly independent
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 30/04/2022 19:44:11
 Tags: #Proposition #Closed

@@ -2,8 +2,7 @@
 mathLink: Basic properties of $\bigcup$, $\bigcap$, and $\pow$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 03/06/2022 14:10:14
 Tags: #Proposition #Closed

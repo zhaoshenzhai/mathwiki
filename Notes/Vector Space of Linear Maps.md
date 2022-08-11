@@ -2,8 +2,7 @@
 mathLink: $\hom_{\catvect[K]}\!\l(V,W\r)$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 16/05/2022 19:38:42
 Tags: #Definition #Closed

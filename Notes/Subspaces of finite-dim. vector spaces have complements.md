@@ -2,8 +2,7 @@
 mathLink: Subspaces $U\subseteq V$ with $\dim V<\infty$ have complements
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 14/05/2022 11:16:58
 Tags: #Proposition #Closed

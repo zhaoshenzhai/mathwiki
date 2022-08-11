@@ -2,8 +2,7 @@
 mathLink: $\mat{m\times n}{K}$ (Set)
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 22/03/2022 21:52:08
 Tags: #Definition #Closed 

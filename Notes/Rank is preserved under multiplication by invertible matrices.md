@@ -2,8 +2,7 @@
 mathLink: $\rank A=\rank PAQ$ for $P,Q$ invertible
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 05/06/2022 20:40:10
 Tags: #Proposition #Closed

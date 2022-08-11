@@ -2,8 +2,7 @@
 mathLink: auto
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 27/01/2022 12:42:19
 Tags: #Proposition #Later/Set_Theory/Choice

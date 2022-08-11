@@ -2,8 +2,7 @@
 mathLink: $\bigcup\em=\em$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 15/01/2022 18:20:59
 Tags: #Proposition #Closed

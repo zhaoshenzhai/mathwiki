@@ -3,8 +3,7 @@ mathLink: Minimal/Maximal Element
 ---
 
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 03/02/2022 13:27:58
 Tags: #Definition #Closed 

@@ -2,8 +2,7 @@
 mathLink: $A$ invertible $\Leftrightarrow$ $L_A$ invertible
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 29/05/2022 17:24:27
 Tags: #Proposition #Closed

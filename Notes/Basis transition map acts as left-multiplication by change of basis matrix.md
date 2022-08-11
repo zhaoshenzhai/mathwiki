@@ -2,8 +2,7 @@
 mathLink: $\psi_{\mc{B}\to\mc{B}'}$ is represented under standard basis by $\l[\id_V\r]_\mc{B}^{\mc{B}'}$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 01/06/2022 15:47:27
 Tags: #Proposition #Closed

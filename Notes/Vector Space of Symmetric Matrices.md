@@ -2,8 +2,7 @@
 mathLink: $\sym{n}{K}$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 05/05/2022 19:09:32
 Tags: #Definition #Closed

@@ -2,8 +2,7 @@
 mathLink: Homogeneous $m\times n$ linear system with $n>m$ has non-trivial solutions
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 28/03/2022 15:32:39
 Tags: #Proposition #Closed

@@ -2,8 +2,7 @@
 mathLink: Linear map $T$ has eigenvalue $\lambda$ $\Leftrightarrow$ $T-\lambda\id$ is not invertible
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 20/06/2022 15:06:29
 Tags: #Proposition #Closed

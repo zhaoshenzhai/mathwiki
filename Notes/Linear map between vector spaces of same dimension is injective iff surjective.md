@@ -2,8 +2,7 @@
 mathLink: Linear map $V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 13/05/2022 21:23:44
 Tags: #Proposition #Closed

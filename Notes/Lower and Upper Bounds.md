@@ -2,8 +2,7 @@
 mathLink: Lower/Upper Bound
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 24/01/2022 15:51:38
 Tags: #Definition #Closed 

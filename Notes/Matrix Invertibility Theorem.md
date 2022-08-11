@@ -1,5 +1,4 @@
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 09/04/2022 09:43:00
 Tags: #Theorem #Closed

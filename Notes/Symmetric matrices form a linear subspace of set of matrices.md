@@ -2,8 +2,7 @@
 mathLink: $\sym{n}{K}\subseteq\mat{n}{K}$ is a linear subspace
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 05/05/2022 19:30:03
 Tags: #Proposition #Closed

@@ -2,8 +2,7 @@
 mathLink: Direct product of vector spaces/function spaces are vector spaces
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 04/05/2022 12:41:37
 Tags: #Proposition #Closed

@@ -2,8 +2,7 @@
 mathLink: Cartesian product is a product in $\catset$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 22/06/2022 14:28:52
 Tags: #Proposition #Later/Category_Theory

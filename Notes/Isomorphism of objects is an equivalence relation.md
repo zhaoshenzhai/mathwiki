@@ -1,5 +1,4 @@
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 23/02/2022 16:57:55
 Tags: #Proposition #Later/Category_Theory

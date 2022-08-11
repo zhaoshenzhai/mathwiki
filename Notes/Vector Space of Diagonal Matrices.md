@@ -2,8 +2,7 @@
 mathLink: $\Diag{n}{K}$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 05/05/2022 22:09:36
 Tags: #Definition #Closed

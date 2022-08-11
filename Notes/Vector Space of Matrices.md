@@ -2,8 +2,7 @@
 mathLink: $\mat{m\times n}{K}$ (Vector Space)
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 31/03/2022 21:03:36
 Tags: #Definition #Closed

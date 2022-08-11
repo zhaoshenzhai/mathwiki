@@ -2,8 +2,7 @@
 mathLink: $\skew{n}{K}$
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 09/05/2022 15:51:59
 Tags: #Definition #Closed

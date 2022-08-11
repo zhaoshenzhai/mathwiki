@@ -2,8 +2,7 @@
 mathLink: Right/left multiplication by basis vector picks out column/row
 ---
 
-<br />
-<br />
+<div class="topSpace"></div>
 
 Date Created: 23/05/2022 17:27:20
 Tags: #Proposition #Closed
