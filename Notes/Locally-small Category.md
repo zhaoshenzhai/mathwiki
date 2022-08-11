@@ -4,7 +4,7 @@ Date Created: 21/02/2022 13:22:50
 Tags: #Definition #Closed 
 
 Types: [[Thin Category]]
-Examples: [$\catset$](Category%20of%20Sets.md), [$\catrel$](Category%20of%20Relations.md), [$\catvect[K]$](Category%20of%20Vector%20Spaces.md)
+Examples: [$\catset$](Category%20of%20Sets.md), [$\catrel$](Category%20of%20Relations.md), [$\catvect$](Category%20of%20Vector%20Spaces.md)
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

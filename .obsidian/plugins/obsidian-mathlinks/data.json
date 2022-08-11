@@ -91,7 +91,7 @@
     {
       "title": "Category of Vector Spaces",
       "replaced": "category of vector spaces",
-      "replacement": "$\\catvect[K]$",
+      "replacement": "$\\catvect$",
       "globalMatch": true,
       "sensitive": false,
       "word": true

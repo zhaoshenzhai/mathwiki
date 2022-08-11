@@ -9,7 +9,7 @@ Tags: #Definition #Closed
 
 Types: [$\edm_{\catvect[K]}\!\l(V\r)$](Endomorphism%20Algebra%20(Vector%20Space).md)
 Examples: _Not Applicable_
-Constructions: [$\catvect[K]$](Category%20of%20Vector%20Spaces.md)
+Constructions: [$\catvect$](Category%20of%20Vector%20Spaces.md)
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of composition of linear maps]]

@@ -5,7 +5,7 @@ Tags: #Definition #Closed
 
 Types: _Not Applicable_
 Examples: [$\l[\id_V\r]_\mc{B}=I_n$ ($\dim V=n$)](Identity%20function%20on%20a%20vector%20space%20is%20represented%20by%20the%20identity%20matrix.md)
-Constructions: [[Reflexive Closure]], [$\catset$](Category%20of%20Sets.md), [$\catrel$](Category%20of%20Relations.md), [$\catvect[K]$](Category%20of%20Vector%20Spaces.md), [[Identity Functor]]
+Constructions: [[Reflexive Closure]], [$\catset$](Category%20of%20Sets.md), [$\catrel$](Category%20of%20Relations.md), [$\catvect$](Category%20of%20Vector%20Spaces.md), [[Identity Functor]]
 Generalizations: [[Identity Morphism]]
 
 Properties: [[Identity function is a bijection]], [[Identity function is the identity of function composition]], [[Identity function is a linear map]]
