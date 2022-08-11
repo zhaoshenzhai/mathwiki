@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/01/2022 10:23:28
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: [[Invertible Function]]
 Examples: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/06/2022 11:32:29
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Basic properties of complex conjugation]]
 Justifications: _Not Applicable_

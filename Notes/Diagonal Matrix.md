@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 05/05/2022 20:03:26
-Tags: #Definition #Closed
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Identity Matrix]]

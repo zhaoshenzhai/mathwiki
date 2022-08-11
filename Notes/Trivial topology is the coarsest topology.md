@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/01/2022 10:11:16
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/04/2022 09:17:55
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Basic properties of matrix operations]], [Homogeneous $m\times n$ linear system with $n>m$ has non-trivial solutions](Homogeneous%20linear%20system%20with%20more%20unknowns%20than%20equations%20has%20non-trivial%20solutions.md)
 Justifications: _Not Applicable_

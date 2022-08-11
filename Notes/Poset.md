@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 15:29:44
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: [[Bounded Poset]], [Meet/Join-semilattice](Meet%20and%20Join-semilattices.md), [[Dedekind-complete Ordered Set]], [[Totally Ordered Set]]
 Examples: [[Inclusion Poset]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/05/2022 14:44:08
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [Invertible $\Leftrightarrow$ bijective](Invertible%20iff%20bijective.md)
 Justifications: _Not Applicable_

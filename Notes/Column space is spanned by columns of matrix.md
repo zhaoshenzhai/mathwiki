@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 05/06/2022 21:30:06
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Image of linear map is spanned by image of spanning set]], [Right/left multiplication by basis vector picks out column/row](Right%20slash%20left%20multiplication%20by%20basis%20vector%20picks%20out%20column%20slash%20row.md)
 Justifications: _Not Applicable_

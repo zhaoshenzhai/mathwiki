@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 21/02/2022 16:40:38
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Composition of relations is a relation]], [[Identity function is the identity of function composition]], [[Function space is a set]]
 Justifications: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/06/2022 17:22:00
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [Composition of linear maps $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ matrix product of representations](Composition%20of%20linear%20maps%20repr%20under%20basis%20matrix%20product%20of%20representations.md), [[Basic properties of left-multiplication of matrices]], [$\psi_{\mc{B}\to\mc{B}'}$ is represented under standard basis by $\l[\id_V\r]_\mc{B}^{\mc{B}'}$](Basis%20transition%20map%20acts%20as%20left-multiplication%20by%20change%20of%20basis%20matrix.md)
 Justifications: _Not Applicable_

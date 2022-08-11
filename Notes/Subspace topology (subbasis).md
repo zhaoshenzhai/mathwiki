@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 11/02/2022 17:57:27
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Criteria for subbasis to generate existing basis]], [[Subspace topology (basis)]]
 Justifications: _Not Applicable_

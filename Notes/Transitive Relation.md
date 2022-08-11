@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 19/01/2022 17:36:50
-Tags: #Definition #Closed
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 15:59:15
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Lattice of Subsets]], [[Lattice of Topologies]]

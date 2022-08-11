@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/01/2022 18:53:33
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [$\bigcup\em=\em$](Union%20of%20empty%20set%20is%20empty.md)
 Justifications: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/01/2022 09:30:37
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Identity function is a bijection]] 

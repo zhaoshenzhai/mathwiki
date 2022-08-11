@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/06/2022 20:35:44
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Basic properties of complex conjugation]], [[Linear map fixes zero vector]]
 Justifications: _Not Applicable_

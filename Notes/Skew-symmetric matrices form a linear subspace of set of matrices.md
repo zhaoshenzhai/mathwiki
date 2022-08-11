@@ -5,7 +5,7 @@ mathLink: $\skew{n}{K}\subseteq\mat{n}{K}$ is a linear subspace
 <div class="topSpace"></div>
 
 Date Created: 09/05/2022 18:18:04
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Transposition is a linear map]]
 Justifications: _Not Applicable_

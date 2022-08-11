@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/04/2022 18:22:52
-Tags: #Definition #Closed
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [Matrix multiplication (columns/rows)](Matrix%20multiplication%20(columns%20slash%20rows).md)

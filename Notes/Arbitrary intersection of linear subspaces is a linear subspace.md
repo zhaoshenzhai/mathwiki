@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/04/2022 18:40:47
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [$U\subseteq V$ is a vector space $\Leftrightarrow$ $0\in U$ and restricted operations close in $U$](Linear%20subspace%20iff%20closed%20under%20linear%20combination.md)
 Justifications: _Not Applicable_

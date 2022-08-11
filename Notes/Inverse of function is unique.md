@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/01/2022 11:05:54
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Identity function is the identity of function composition]], [[Composition of relations is associative]]
 Justifications: _Not Applicable_

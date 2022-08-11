@@ -5,7 +5,7 @@ mathLink: $\sym{n}{K}$
 <div class="topSpace"></div>
 
 Date Created: 05/05/2022 19:09:32
-Tags: #Definition #Closed
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/02/2022 11:40:56
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Successor of an ordinal is the next smallest ordinal]], [[Reflexive closure of ordering on ordinals]]
 Justifications: _Not Applicable_

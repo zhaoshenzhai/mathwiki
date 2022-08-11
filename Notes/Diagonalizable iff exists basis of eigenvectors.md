@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 11/06/2022 18:43:08
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_

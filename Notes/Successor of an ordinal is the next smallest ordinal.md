@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 31/01/2022 16:33:49
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Reflexive closure of ordering on ordinals]],  [[ON is a transitive class]]
 Justifications: _Not Applicable_

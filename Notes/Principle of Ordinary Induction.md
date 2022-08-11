@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/02/2022 13:39:26
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Natural numbers form an initial segment of ON]], [[Well-ordering well-orders subsets]], [[ON is well-ordered by membership]]
 Justifications: _Not Applicable_

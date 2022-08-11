@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 22/03/2022 16:53:18
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: [[Homogeneous Linear System]]
 Examples: _Not Applicable_

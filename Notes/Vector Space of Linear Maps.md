@@ -5,7 +5,7 @@ mathLink: $\hom_{\catvect}\!\l(V,W\r)$
 <div class="topSpace"></div>
 
 Date Created: 16/05/2022 19:38:42
-Tags: #Definition #Closed
+Tags: #Definition
 
 Types: [$\edm_{\catvect}\!\l(V\r)$](Endomorphism%20Algebra%20(Vector%20Space).md)
 Examples: _Not Applicable_

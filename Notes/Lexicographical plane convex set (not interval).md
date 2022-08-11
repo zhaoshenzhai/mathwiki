@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 18/02/2022 10:31:57
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Lexicographical order is total if orders are total]]
 Justifications: _Not Applicable_

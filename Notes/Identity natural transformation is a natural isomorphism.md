@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 12/03/2022 17:39:47
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Identity morphism is an isomorphism]], [[Identity functor is the identity of functor composition]]
 Justifications: _Not Applicable_

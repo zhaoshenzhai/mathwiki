@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 04/05/2022 16:28:18
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Cancellation laws (group)]]
 Justifications: _Not Applicable_

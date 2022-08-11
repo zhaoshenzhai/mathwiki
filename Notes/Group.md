@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 04/05/2022 13:08:40
-Tags: #Definition #Closed
+Tags: #Definition
 
 Types: [[Abelian Group]]
 Examples: [[Function Group]]

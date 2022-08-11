@@ -39,7 +39,7 @@ read -ep "$(echo -e "${PURPLE}Query: [string]${NC}") " query
 while [ -z "$query" ]; do
     read -ep "$(echo -e "${PURPLE}Query: [string]${NC}") " query
 done
-query=$(FormatInput "$query")
+# query=$(FormatInput "$query")
 #### Query
 
 ####Case sensitive
@@ -126,7 +126,7 @@ while [[ "$remove" == "y" ]]; do
         while [ -z "$toRemove" ]; do
             read -ep "$(echo -e "        ${PURPLE}Remove: [string]${NC}") " toRemove
         done
-        toRemove=$(FormatInput "$toRemove")
+        # toRemove=$(FormatInput "$toRemove")
         #### Remove string
 
         ####Case sensitive
@@ -182,10 +182,13 @@ echo ""
 
 #### Replace
 read -ep "$(echo -e ${PURPLE}Replace with: [string]${NC}) " replaceString
-while [ -z "$replaceString" ]; do
-    read -ep "$(echo -e "${PURPLE}Replace with: [string]${NC}") " replaceString
-done
-replaceString=$(FormatInput "$replaceString")
+if [[ -z "$replaceString" ]]; then
+    replaceString=""
+fi
+# while [ -z "$replaceString" ]; do
+#     read -ep "$(echo -e "${PURPLE}Replace with: [string]${NC}") " replaceString
+# done
+# replaceString=$(FormatInput "$replaceString")
 
 numberOfMatches=$(echo "$matchingLinesWithFiles" | wc -l)
 updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfMatches"'/'100')+'0.5'' | sed 's/\..*//g')
@@ -198,12 +201,9 @@ while IFS= read -r matchingLineWithFile; do
     match=$(echo "$onlyMatching" | awk 'NR=='"$lineOnlyMatching"'' | sed -r "s/\x1B\[([0-9]{1,3}(;[0-9]{1,2})?)?[mGK]//g")
 
     file=$(Format "$file")
-    match=$(Format "$match")
-    
-    echo -e "${YELLOW}$file${NC}"
-    echo -e "${YELLOW}$match${NC}"
+    # match=$(Format "$match")
 
-    sed -i ''"$line"'s~'"$match"'~'"$replaceString"'~g' "$file"
+    sed -Ei ''"$line"'s~'"$match"'~'"$replaceString"'~g' "$file"
 
     lineOnlyMatching=$((++lineOnlyMatching))
 

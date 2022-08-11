@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/05/2022 19:40:34
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Linear map fixes zero vector]]
 Justifications: _Not Applicable_

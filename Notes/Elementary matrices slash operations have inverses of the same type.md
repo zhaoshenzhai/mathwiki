@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 23/03/2022 18:38:07
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Elementary operations act as multiplication by its elementary matrix]]
 Justifications: _Not Applicable_

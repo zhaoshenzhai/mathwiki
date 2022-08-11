@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/02/2022 15:32:10
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: [[Automorphism (Category Theory)]]
 Examples: [$\edm_{\catvect}\!\l(V\r)$](Endomorphism%20Algebra%20(Vector%20Space).md)

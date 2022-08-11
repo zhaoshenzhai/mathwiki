@@ -5,7 +5,7 @@ mathLink: Linear map $T$ has eigenvector $v$ $\Leftrightarrow$ $\span\l\{v\r\}$ 
 <div class="topSpace"></div>
 
 Date Created: 19/06/2022 17:36:48
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_

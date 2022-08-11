@@ -5,7 +5,7 @@ mathLink: Linear $m\times n$ system $A\v{x}=\v{b}$ with $m>n$ is inconsistent fo
 <div class="topSpace"></div>
 
 Date Created: 14/05/2022 16:10:29
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Linear map to a larger dimensional space is not surjective]]
 Justifications: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 17/01/2022 13:00:40
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [$\bigcup\em=\em$](Union%20of%20empty%20set%20is%20empty.md)

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 04/02/2022 15:20:08
-Tags: #Proposition #Closed  
+Tags: #Proposition
 
 Proved by: [[Criteria for subbasis to generate existing basis]], [[Half-infinite open rays are open in the order topology]]
 Justifications: _Not Applicable_

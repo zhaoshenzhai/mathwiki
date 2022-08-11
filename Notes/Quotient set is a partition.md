@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/02/2022 19:56:07
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [Same equivalence class $\Leftrightarrow$ related](Same%20equivalence%20class%20iff%20related.md)
 Justifications: _Not Applicable_

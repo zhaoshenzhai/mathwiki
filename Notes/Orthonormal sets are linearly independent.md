@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/06/2022 19:56:55
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Basic properties of orthogonal vectors]]
 Justifications: _Not Applicable_

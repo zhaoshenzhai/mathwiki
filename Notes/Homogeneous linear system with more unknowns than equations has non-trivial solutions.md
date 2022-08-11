@@ -5,7 +5,7 @@ mathLink: Homogeneous $m\times n$ linear system with $n>m$ has non-trivial solut
 <div class="topSpace"></div>
 
 Date Created: 28/03/2022 15:32:39
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Linear map to a lower dimensional space is not injective]], [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md)
 Justifications: _Not Applicable_

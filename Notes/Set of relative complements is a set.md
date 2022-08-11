@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 18/01/2022 16:08:40
-Tags: #Proposition #Closed  
+Tags: #Proposition
 
 Proved by: [$\axispec$](Axiom%20Schema%20of%20Specification.md), [[Set-builder notation is unique]]
 Justifications: _Not Applicable_

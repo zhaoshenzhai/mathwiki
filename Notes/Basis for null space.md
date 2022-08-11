@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 13/04/2022 21:05:54
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Gaussian Elimination]], [[Dimension Theorem]], [Rank of matrix in RREF is $|$pivot columns$|/|$non-zero rows$|$](Rank%20of%20matrix%20in%20RREF%20is%20number%20of%20pivot%20columns%20of%20non-zero%20rows.md), [Spanning set $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis](Spanning%20subset%20with%20same%20cardinality%20as%20dimension%20(finite)%20is%20a%20basis.md)
 Justifications: _Not Applicable_

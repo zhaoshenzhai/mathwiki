@@ -5,7 +5,7 @@ mathLink: $\phi_\mc{B}:V\simto K^n$ ($\dim V=n$)
 <div class="topSpace"></div>
 
 Date Created: 15/05/2022 22:49:38
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [Linear map $V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective](Linear%20map%20between%20vector%20spaces%20of%20same%20dimension%20is%20injective%20iff%20surjective.md), [[Unique Representation Theorem (Hamel)]]
 Justifications: _Not Applicable_

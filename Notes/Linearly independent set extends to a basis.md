@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/05/2022 23:08:55
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Linearly independent subset of a finite-dim. vector space extends to a basis]], [[Linearly independent subset of an arbitrary vector space extends to a basis]]
 Justifications: _Not Applicable_

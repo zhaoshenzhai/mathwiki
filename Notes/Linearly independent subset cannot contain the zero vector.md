@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 04/04/2022 20:55:25
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Basic properties of vector spaces]]
 Justifications: _Not Applicable_

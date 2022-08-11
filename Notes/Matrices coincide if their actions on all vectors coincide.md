@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/04/2022 00:00:19
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [Right/left multiplication by basis vector picks out column/row](Right%20slash%20left%20multiplication%20by%20basis%20vector%20picks%20out%20column%20slash%20row.md)
 Justifications: _Not Applicable_

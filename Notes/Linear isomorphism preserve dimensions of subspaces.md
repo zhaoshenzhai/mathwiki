@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 05/06/2022 19:01:53
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Image of linear map is a subspace of its codomain]], [$V\iso W$ $\Leftrightarrow$ $\dim V=\dim W$ ($V,W$ finite-dim.)](Linearly%20isomorphic%20iff%20dimensions%20coincide%20(finite-dim.).md)
 Justifications: _Not Applicable_

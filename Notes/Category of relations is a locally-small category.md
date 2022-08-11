@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 25/02/2022 13:16:20
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [$\catset$ is a locally-small category](Category%20of%20sets%20is%20a%20locally-small%20category.md), [$\axispec$](Axiom%20Schema%20of%20Specification.md)
 Justifications: _Not Applicable_

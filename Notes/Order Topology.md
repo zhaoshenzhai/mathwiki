@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 04/02/2022 10:39:21
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [Standard Topology on $\R$](Standard%20Topology%20on%20R.md), [Standard Topology on $\N$](Standard%20Topology%20on%20N.md), [[Lexicographical Order Topology]]

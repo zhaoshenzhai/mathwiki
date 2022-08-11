@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 11/03/2022 21:51:28
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Identity functor is the identity of functor composition]], [[Composition of functors is associative]]
 Justifications: _Not Applicable_

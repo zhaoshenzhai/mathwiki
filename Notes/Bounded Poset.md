@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/02/2022 13:15:37
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Bounded Open Ray]]

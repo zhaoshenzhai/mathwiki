@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/05/2022 16:09:47
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Criteria for equality of functions]]
 Justifications: _Not Applicable_

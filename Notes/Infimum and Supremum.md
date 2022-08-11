@@ -5,7 +5,7 @@ mathLink: Infimum/Supremum
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 15:53:19
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 

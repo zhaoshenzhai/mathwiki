@@ -6,7 +6,7 @@ mathLink: Image/Column Space
 <div class="topSpace"></div>
 
 Date Created: 07/05/2022 17:37:51
-Tags: #Definition #Closed
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

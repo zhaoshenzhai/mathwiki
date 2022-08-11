@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/04/2022 22:34:08
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Basic properties of matrix operations]]
 Justifications: _Not Applicable_

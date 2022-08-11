@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 01/04/2022 23:50:42
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by:  [$\catset$ is a locally-small category](Category%20of%20sets%20is%20a%20locally-small%20category.md), [[Identity function is a linear map]], [[Composition of linear maps is a linear map]]
 Justifications: _Not Applicable_

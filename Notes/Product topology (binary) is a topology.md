@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/02/2022 09:34:39
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Cartesian product of intersections]]
 Justifications: _Not Applicable_

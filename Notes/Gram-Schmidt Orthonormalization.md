@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/06/2022 16:08:32
-Tags: #Theorem #Closed
+Tags: #Theorem
 
 Proved by: [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md), [[Basic properties of orthogonal vectors]], [[Orthonormal sets are linearly independent]], [$\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$](Dimension%20of%20subspace%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.;%20strict%20iff%20proper).md), [Linearly independent $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis](Linearly%20independent%20set%20with%20same%20cardinality%20as%20dimension%20(finite)%20is%20a%20basis.md)
 Justifications: _Not Applicable_

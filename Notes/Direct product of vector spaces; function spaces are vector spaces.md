@@ -5,7 +5,7 @@ mathLink: Direct product of vector spaces/function spaces are vector spaces
 <div class="topSpace"></div>
 
 Date Created: 04/05/2022 12:41:37
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [Direct product of groups/function groups are groups](Direct%20product%20of%20groups%20slash%20function%20groups%20are%20groups.md)
 Justifications: _Not Applicable_

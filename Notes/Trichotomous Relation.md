@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/02/2022 18:17:44
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Strict Total Order]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 06/04/2022 21:08:27
-Tags: #Definition #Closed
+Tags: #Definition
 
 Types: [[Hamel Basis]]
 Examples: _Not Applicable_

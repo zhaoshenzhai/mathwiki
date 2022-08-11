@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 10/02/2022 12:07:40
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Real Line (Topology)]], [[Ordered Square]]

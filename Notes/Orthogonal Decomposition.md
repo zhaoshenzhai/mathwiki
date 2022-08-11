@@ -5,7 +5,7 @@ mathLink: $V=U\oplus U^\perp$
 <div class="topSpace"></div>
 
 Date Created: 25/06/2022 16:24:44
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Basic properties of orthogonal complements]]
 Justifications: _Not Applicable_

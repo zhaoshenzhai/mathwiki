@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 07/02/2022 11:29:31
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [Open set in lexicographical order topology of $\R^2$](Open%20set%20in%20lexicographical%20order%20topology%20of%20R2.md), [[Lexicographical plane convex set (not interval)]]

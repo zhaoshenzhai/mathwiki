@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/06/2022 11:21:53
-Tags: #Definition #Closed
+Tags: #Definition
 
 Types: [[Inner Product]]
 Examples: _Not Applicable_

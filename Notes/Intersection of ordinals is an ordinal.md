@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 31/01/2022 11:12:51
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Well-ordering well-orders subsets]]
 Justifications: _Not Applicable_

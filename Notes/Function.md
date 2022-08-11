@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 14/01/2022 14:25:20
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: [[Injection]], [[Surjection]], [[Left-invertible Function]], [[Right-invertible Function]], [$n$-ary Operation](n-ary%20Operation.md), [[Indexed Family]], [[Linear Map]]
 Examples: [[Kronecker Delta]]

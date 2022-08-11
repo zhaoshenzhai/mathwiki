@@ -5,7 +5,7 @@ mathLink: $\skew{n}{K}$
 <div class="topSpace"></div>
 
 Date Created: 09/05/2022 15:51:59
-Tags: #Definition #Closed
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

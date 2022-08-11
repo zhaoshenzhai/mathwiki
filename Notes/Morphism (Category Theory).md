@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/02/2022 15:18:46
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: [[Left-invertible Morphism]], [[Right-invertible Morphism]], [[Isomorphism (Category Theory)]], [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]
 Examples: [[Identity Morphism]], [[Function]], [[Linear Map]]

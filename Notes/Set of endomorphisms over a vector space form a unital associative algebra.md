@@ -5,7 +5,7 @@ mathLink: $\edm_{\catvect}\!\l(V\r)$ is a unital associative algebra
 <div class="topSpace"></div>
 
 Date Created: 17/05/2022 23:18:49
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [$\hom\l(V,W\r)\subseteq W^V$ is a linear subspace](Set%20of%20linear%20maps%20form%20a%20linear%20subspace%20of%20the%20function%20space.md), [[Identity function is the identity of function composition]], [[Composition of relations is associative]], [[Basic properties of composition of linear maps]]
 Justifications: _Not Applicable_

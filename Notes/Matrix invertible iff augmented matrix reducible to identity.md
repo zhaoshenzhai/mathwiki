@@ -5,7 +5,7 @@ mathLink: Matrix invertible $\Leftrightarrow$ $\l[A\mid I_n\r]\sim\l[I_n\mid A^{
 <div class="topSpace"></div>
 
 Date Created: 10/06/2022 07:20:59
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Matrix Invertibility Theorem]], [Row-equivalence of matrices $\Leftrightarrow$ factors through invertible matrix](Row-equivalence%20of%20matrices%20iff%20factors%20through%20invertible%20matrix.md)
 Justifications: _Not Applicable_

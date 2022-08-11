@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/04/2022 07:20:30
-Tags: #Definition #Closed
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [Basis Transition Map/Matrix](Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md), [[Identity Matrix]], [Elementary Matrices/Operations](Elementary%20Matrices%20and%20Operations.md)

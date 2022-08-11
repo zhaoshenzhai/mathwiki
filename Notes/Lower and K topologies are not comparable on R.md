@@ -5,7 +5,7 @@ mathLink: $\LLtopR$ and $\KtopR$ not comparable
 <div class="topSpace"></div>
 
 Date Created: 05/02/2022 17:43:45
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Criteria for fineness w.r.t. bases]], [[Rationals is dense in reals]]
 Justifications: _Not Applicable_

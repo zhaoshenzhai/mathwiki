@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/04/2022 07:10:14
-Tags: #Definition #Closed
+Tags: #Definition
 
 Types: [[Invertible Matrix]]
 Examples: _Not Applicable_

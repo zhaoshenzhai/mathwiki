@@ -6,7 +6,7 @@ mathLink: Minimal/Maximal Element
 <div class="topSpace"></div>
 
 Date Created: 03/02/2022 13:27:58
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: Lower/Upper Bound
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 15:51:38
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: [Least/Greatest Element](Least%20and%20Greatest%20Elements.md), [Infimum/Supremum](Infimum%20and%20Supremum.md)
 Examples: _Not Applicable_ 

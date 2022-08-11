@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 27/01/2022 11:56:26
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [Left-invertible $\Leftrightarrow$ injection](Left-invertible%20iff%20injection.md), [Right-invertible $\Leftrightarrow$ surjection (Choice)](Right-invertible%20iff%20surjection%20(Choice).md), [[Left and right inverses coincide (function)]]
 Justifications: _Not Applicable_

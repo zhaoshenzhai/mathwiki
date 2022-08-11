@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/05/2022 21:46:00
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Basic properties of left-multiplication of matrices]], [[Identity function is the identity of function composition]], [Direct product of groups/function groups are groups](Direct%20product%20of%20groups%20slash%20function%20groups%20are%20groups.md), [[Cancellation laws (group)]], [[Basic properties of composition of linear maps]], [[Composition of relations is associative]]
 Justifications: _Not Applicable_

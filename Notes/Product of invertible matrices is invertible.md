@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 08/04/2022 05:00:31
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [$A$ invertible $\Leftrightarrow$ $L_A$ invertible](Matrix%20invertible%20iff%20left-multiplication%20invertible.md), [[Basic properties of left-multiplication of matrices]], [[Composition of bijections is a bijection]]
 Justifications: _Not Applicable_

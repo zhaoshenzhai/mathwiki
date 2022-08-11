@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 30/01/2022 18:40:57
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Subset relation is transitive]]
 Justifications: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: $\mat{m\times n}{K}$ (Vector Space)
 <div class="topSpace"></div>
 
 Date Created: 31/03/2022 21:03:36
-Tags: #Definition #Closed
+Tags: #Definition
 
 Types: [$\Diag{n}{K}$](Vector%20Space%20of%20Diagonal%20Matrices.md), [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md), [$\skew{n}{K}$](Vector%20Space%20of%20Skew-symmetric%20Matrices.md)
 Examples: _Not Applicable_

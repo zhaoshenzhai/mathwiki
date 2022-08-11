@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 06/03/2022 15:11:37
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: [[Left-invertible Functor]], [[Right-invertible Functor]], [[Diagram]]
 Examples: [[Identity Functor]], [[Inclusion Functor]], [[Constant Functor]], [[Covariant Power Set Functor]]

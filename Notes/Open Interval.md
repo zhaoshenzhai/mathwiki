@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/02/2022 20:06:33
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Rational convex set (not interval)]], [[Lexicographical plane convex set (not interval)]]

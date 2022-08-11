@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 22/03/2022 16:12:09
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: [[Reduced Row-echelon Matrix]], [[Square Matrix]], [[Left-invertible Matrix]], [[Right-inverible Matrix]]
 Examples: [[Augmented Matrix]]

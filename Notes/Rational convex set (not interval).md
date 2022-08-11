@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 17/02/2022 13:22:37
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Rationals is dense in reals]], [[Root 2 is not rational]]
 Justifications: _Not Applicable_

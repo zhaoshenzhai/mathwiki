@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 15/01/2022 14:02:37
-Tags: #Proposition #Closed 
+Tags: #Proposition
  
 Proved by: [$\axiext$](Axiom%20of%20Extensionality.md)
 Justifications: _Not Applicable_

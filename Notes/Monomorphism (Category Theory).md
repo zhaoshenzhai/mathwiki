@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/02/2022 23:04:14
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [Injection $\Leftrightarrow$ monomorphism (Set Theory)](Injection%20iff%20monomorphism%20(Set%20Theory).md)

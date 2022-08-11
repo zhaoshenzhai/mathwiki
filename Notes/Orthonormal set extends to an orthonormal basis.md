@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/06/2022 14:57:29
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Orthonormal sets are linearly independent]], [[Linearly independent set extends to a basis]], [[Gram-Schmidt Orthonormalization]]
 Justifications: _Not Applicable_

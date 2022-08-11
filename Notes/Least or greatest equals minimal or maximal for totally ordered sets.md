@@ -6,7 +6,7 @@ mathLink: Least/greatest $=$ minimal/maximal for totally ordered sets
 <div class="topSpace"></div>
 
 Date Created: 03/02/2022 17:39:49
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_

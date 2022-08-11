@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 22/01/2022 09:43:31
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Inverse of a relation is a relation]]
 Justifications: _Not Applicable_

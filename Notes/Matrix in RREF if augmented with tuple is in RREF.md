@@ -5,7 +5,7 @@ mathLink: $\l[A\mid\v{b}\r]$ in RREF $\Rightarrow$ $A$ in RREF
 <div class="topSpace"></div>
 
 Date Created: 11/06/2022 09:49:16
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_

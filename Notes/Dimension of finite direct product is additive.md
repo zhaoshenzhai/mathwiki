@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/06/2022 14:32:35
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Unique Representation Theorem (Hamel)]]
 Justifications: _Not Applicable_

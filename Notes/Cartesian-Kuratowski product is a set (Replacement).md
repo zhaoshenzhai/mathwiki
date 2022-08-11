@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/01/2022 13:14:26
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Replacement image of a set is a set]]
 Justifications: _Not Applicable_

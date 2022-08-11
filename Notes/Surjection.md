@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/01/2022 09:09:09
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: [[Bijection]]
 Examples: [[Canonical Projection]], [[Projection Maps]], [Linear map $V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective](Linear%20map%20between%20vector%20spaces%20of%20same%20dimension%20is%20injective%20iff%20surjective.md)

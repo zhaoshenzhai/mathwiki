@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/06/2022 12:36:03
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [$\axispec$](Axiom%20Schema%20of%20Specification.md), [$\axiext$](Axiom%20of%20Extensionality.md)
 Justifications: _Not Applicable_

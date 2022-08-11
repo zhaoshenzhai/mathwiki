@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/02/2022 10:54:47
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [Basic properties of $\bigcup$, $\bigcap$, and $\pow$](Basic%20properties%20of%20unions,%20intersections,%20and%20power%20sets.md)
 Justifications: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/06/2022 14:07:51
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Cauchy-Schwarz Inequality]]
 Justifications: _Not Applicable_

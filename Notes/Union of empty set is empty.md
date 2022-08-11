@@ -5,7 +5,7 @@ mathLink: $\bigcup\em=\em$
 <div class="topSpace"></div>
 
 Date Created: 15/01/2022 18:20:59
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Empty set exists and is unique]]
 Justifications: _Not Applicable_

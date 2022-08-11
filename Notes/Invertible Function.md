@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/01/2022 18:48:16
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: [[Linear Isomorphism]]
 Examples: [[Identity Function]], [Elementary Matrices/Operations](Elementary%20Matrices%20and%20Operations.md)

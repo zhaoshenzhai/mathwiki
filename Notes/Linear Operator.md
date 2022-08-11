@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/05/2022 15:10:12
-Tags: #Definition #Closed
+Tags: #Definition
 
 Types: [Diagonalizable Operator/Matrix](Diagonalizable%20Operator%20slash%20Matrix.md)
 Examples: [[Orthogonal Projection]]

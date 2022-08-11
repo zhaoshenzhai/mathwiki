@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/01/2022 17:27:04
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Collection of all singletons is a proper class]], [$\axispec$](Axiom%20Schema%20of%20Specification.md)
 Justifications: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: $U\subseteq V$ is a vector space $\Leftrightarrow$ $0\in U$ and restri
 <div class="topSpace"></div>
 
 Date Created: 03/04/2022 14:39:34
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Basic properties of vector spaces]]
 Justifications: _Not Applicable_

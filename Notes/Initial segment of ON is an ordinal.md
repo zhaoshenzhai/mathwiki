@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/02/2022 15:15:55
-Tags: #Proposition #Closed 
+Tags: #Proposition
 
 Proved by: [[Well-ordering well-orders subsets]], [Transitive set $\Leftrightarrow$ every element is a subset](Transitive%20set%20iff%20every%20element%20is%20a%20subset.md)
 Justifications: _Not Applicable_

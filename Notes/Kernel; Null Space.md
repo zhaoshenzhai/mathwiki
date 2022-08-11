@@ -5,7 +5,7 @@ mathLink: Kernel/Null Space
 <div class="topSpace"></div>
 
 Date Created: 02/05/2022 18:54:55
-Tags: #Definition #Closed
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

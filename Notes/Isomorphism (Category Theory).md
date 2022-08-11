@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 22/02/2022 11:26:30
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: [[Automorphism (Category Theory)]]
 Examples: [[Identity morphism is an isomorphism]], [[Bijection]], [[Linear Isomorphism]]

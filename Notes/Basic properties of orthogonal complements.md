@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/06/2022 15:57:52
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [[Basic properties of orthogonal vectors]], [[Linear map fixes zero vector]]
 Justifications: _Not Applicable_

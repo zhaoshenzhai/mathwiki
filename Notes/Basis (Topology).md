@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/01/2022 21:25:09
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Trivial topology (basis)]], [[Discrete topology (basis)]], [Standard topology on $\R$ (basis; rational endpoints)](Standard%20topology%20on%20R%20(basis;%20rational%20endpoints).md), [[Product topology (basis; component from bases)]], [[Subspace topology (basis)]]

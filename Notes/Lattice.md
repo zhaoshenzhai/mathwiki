@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 15:56:53
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: [[Complete Lattice]]
 Examples: _Not Applicable_

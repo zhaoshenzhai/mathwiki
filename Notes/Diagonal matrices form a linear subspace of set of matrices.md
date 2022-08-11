@@ -5,7 +5,7 @@ mathLink: $\Diag{n}{K}\subseteq\mat{n}{K}$ is a linear subspace
 <div class="topSpace"></div>
 
 Date Created: 05/05/2022 22:10:54
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_

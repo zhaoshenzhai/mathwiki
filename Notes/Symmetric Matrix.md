@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/03/2022 19:17:31
-Tags: #Definition #Closed 
+Tags: #Definition
 
 Types: [[Diagonal Matrix]]
 Examples: _Not Applicable_

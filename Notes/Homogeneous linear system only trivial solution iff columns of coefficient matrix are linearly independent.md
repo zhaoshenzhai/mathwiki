@@ -5,7 +5,7 @@ mathLink: Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Leftrigh
 <div class="topSpace"></div>
 
 Date Created: 30/04/2022 19:44:11
-Tags: #Proposition #Closed
+Tags: #Proposition
 
 Proved by: [Matrix multiplication (columns/rows)](Matrix%20multiplication%20(columns%20slash%20rows).md)
 Justifications: _Not Applicable_
