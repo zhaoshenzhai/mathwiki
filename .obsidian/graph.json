@@ -1,11 +1,11 @@
 {
   "collapse-filter": true,
-  "search": "path:Notes -tag:#MOC",
+  "search": "path:Notes",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#Definition",
@@ -34,18 +34,25 @@
         "a": 1,
         "rgb": 16342365
       }
+    },
+    {
+      "query": "tag:#MOC",
+      "color": {
+        "a": 1,
+        "rgb": 16773058
+      }
     }
   ],
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.44657109647423,
+  "nodeSizeMultiplier": 1.04707477721813,
   "lineSizeMultiplier": 2.71367686943045,
   "collapse-forces": true,
   "centerStrength": 0.101178945037914,
   "repelStrength": 20,
-  "linkStrength": 0.820335418165717,
+  "linkStrength": 0.79548347816461,
   "linkDistance": 30,
-  "scale": 0.030713882915318794,
-  "close": true
+  "scale": 0.027800572755334586,
+  "close": false
 }

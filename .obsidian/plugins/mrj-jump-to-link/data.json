@@ -1,5 +1,5 @@
 {
   "letters": "asdfqwer",
-  "jumpToAnywhereRegex": "\\b\\w{3,}\\b",
+  "jumpToAnywhereRegex": "",
   "lightspeedCaseSensitive": false
 }
