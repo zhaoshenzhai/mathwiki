@@ -14,35 +14,22 @@ cd ~/Dropbox/MathWiki
 
 Format()
 {
-    echo $(echo "$1" |
-        sed 's/\\/\\\\/g'                                               | # Escape \
-        sed 's/\$/\\\$/g'                                               | # Escape $
-        sed 's/\[/\\\[/g'                                               | # Escape [
-        sed 's/\]/\\\]/g'                                               | # Escape ]
-        sed 's/{/\\{/g'                                                 | # Escape {
-        sed 's/}/\\}/g'                                                 | # Escape }
-        sed 's/\$/\\\$/g'                                               | # Escape $
-        sed 's/\^/\\\^/g'                                               | # Escape ^
-        sed 's/|/\\|/g'                                                 | # Escape |
-        sed 's/+/\\+/g'                                                 ) # Escape +
+    echo $(echo "$1"      |
+        sed 's/\\/\\\\/g' | # Escape \
+        sed 's/\$/\\\$/g' | # Escape $
+        sed 's/\[/\\\[/g' | # Escape [
+        sed 's/\]/\\\]/g' | # Escape ]
+        sed 's/{/\\{/g'   | # Escape {
+        sed 's/}/\\}/g'   | # Escape }
+        sed 's/\$/\\\$/g' | # Escape $
+        sed 's/\^/\\\^/g' | # Escape ^
+        sed 's/|/\\|/g'   | # Escape |
+        sed 's/+/\\+/g'   ) # Escape +
 }
 
 FormatInput()
 {
-    echo $(echo "$1" |
-        sed 's/\\/\\\\/g'                                               | # Escape \
-        sed 's/\ /\\s/g'                                                | # Escape <
-        sed 's/\[/\\\[/g'                                               | # Escape [
-        sed 's/\]/\\\]/g'                                               | # Escape ]
-        sed 's/(/\\(/g'                                                 | # Escape (
-        sed 's/)/\\)/g'                                                 | # Escape )
-        sed 's/{/\\{/g'                                                 | # Escape {
-        sed 's/}/\\}/g'                                                 | # Escape }
-        sed 's/\$/\\\$/g'                                               | # Escape $
-        sed 's/\^/\\\^/g'                                               | # Escape ^
-        sed 's/|/\\|/g'                                                 | # Escape |
-        sed 's/+/\\+/g'                                                 | # Escape +
-        sed 's/\./\\./g'                                                ) # Escape .
+    echo $(Format "$1" | sed 's/\./\\./g')
 }
 
 echo ""
