@@ -14,9 +14,17 @@ cd ~/Dropbox/MathWiki
 
 Format()
 {
-    echo $(echo "$1"      |
-        sed 's/\\/\\\\/g' |  # Escape \
-        sed 's/\$/\\\$/g' )  # Escape $
+    echo $(echo "$1" |
+        sed 's/\\/\\\\/g'                                               | # Escape \
+        sed 's/\$/\\\$/g'                                               | # Escape $
+        sed 's/\[/\\\[/g'                                               | # Escape [
+        sed 's/\]/\\\]/g'                                               | # Escape ]
+        sed 's/{/\\{/g'                                                 | # Escape {
+        sed 's/}/\\}/g'                                                 | # Escape }
+        sed 's/\$/\\\$/g'                                               | # Escape $
+        sed 's/\^/\\\^/g'                                               | # Escape ^
+        sed 's/|/\\|/g'                                                 | # Escape |
+        sed 's/+/\\+/g'                                                 ) # Escape +
 }
 
 FormatInput()
@@ -190,7 +198,7 @@ read -ep "$(echo -e ${PURPLE}Replace with: [string]${NC}) " replaceString
 while [ -z "$replaceString" ]; do
     read -ep "$(echo -e "${PURPLE}Replace with: [string]${NC}") " replaceString
 done
-replaceString=$(Format "$replaceString")
+replaceString=$(FormatInput "$replaceString")
 
 numberOfMatches=$(echo "$matchingLinesWithFiles" | wc -l)
 updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfMatches"'/'100')+'0.5'' | sed 's/\..*//g')
@@ -204,6 +212,9 @@ while IFS= read -r matchingLineWithFile; do
 
     file=$(Format "$file")
     match=$(Format "$match")
+    
+    echo -e "${YELLOW}$file${NC}"
+    echo -e "${YELLOW}$match${NC}"
 
     sed -i ''"$line"'s~'"$match"'~'"$replaceString"'~g' "$file"
 

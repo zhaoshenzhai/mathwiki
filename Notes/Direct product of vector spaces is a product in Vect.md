@@ -1,5 +1,5 @@
 ---
-mathLink: Direct product of vector spaces is a product in $\catvect[K]$
+mathLink: Direct product of vector spaces is a product in $\catvect$
 ---
 
 <div class="topSpace"></div>

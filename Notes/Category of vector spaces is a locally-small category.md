@@ -16,8 +16,8 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field. The category of vector spaces $\catvect[K]$ over $K$ is a locally-small category._
+_Let $K$ be a field. The category of vector spaces $\catvect$ over $K$ is a locally-small category._
 
 ```
 
-_Proof_. The axioms of a locally-small category are all inherited from that of $\catset$, and the fact that the identity and composite morphisms in $\catvect[K]$ are linear maps are proved; see links above.<span style="float:right;">$\blacksquare$</span>
+_Proof_. The axioms of a locally-small category are all inherited from that of $\catset$, and the fact that the identity and composite morphisms in $\catvect$ are linear maps are proved; see links above.<span style="float:right;">$\blacksquare$</span>

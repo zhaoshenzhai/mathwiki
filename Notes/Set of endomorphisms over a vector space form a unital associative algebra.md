@@ -1,5 +1,5 @@
 ---
-mathLink: $\edm_{\catvect[K]}\!\l(V\r)$ is a unital associative algebra
+mathLink: $\edm_{\catvect}\!\l(V\r)$ is a unital associative algebra
 ---
 
 <div class="topSpace"></div>

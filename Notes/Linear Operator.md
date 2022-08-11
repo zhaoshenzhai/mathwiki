@@ -5,7 +5,7 @@ Tags: #Definition #Closed
 
 Types: [Diagonalizable Operator/Matrix](Diagonalizable%20Operator%20slash%20Matrix.md)
 Examples: [[Orthogonal Projection]]
-Constructions: [$\edm_{\catvect[K]}\!\l(V\r)$](Endomorphism%20Algebra%20(Vector%20Space).md), [[Eigenvector]], [[Eigenvalue]]
+Constructions: [$\edm_{\catvect}\!\l(V\r)$](Endomorphism%20Algebra%20(Vector%20Space).md), [[Eigenvector]], [[Eigenvalue]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -20,4 +20,4 @@ _Let $K$ be a field and consider a vector space $V$ over $K$. A linear map $T:V\
 
 ```
 
-**Remark.** That is, linear operators are linear maps with $\dom T=\cdm T$. More abstractly, $T\in\edm_{\catvect[K]}\!\l(V\r)$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** That is, linear operators are linear maps with $\dom T=\cdm T$. More abstractly, $T\in\edm_{\catvect}\!\l(V\r)$.<span style="float:right;">$\blacklozenge$</span>

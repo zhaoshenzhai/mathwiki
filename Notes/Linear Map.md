@@ -5,7 +5,7 @@ Tags: #Definition #Closed
 
 Types: [[Linear Isomorphism]], [[Linear Operator]]
 Examples: [[Left-multiplication of Matrices]], [[Transposition]]
-Constructions: [[Matrix Representation of a Linear Map]], [Kernel/Null Space](Kernel;%20Null%20Space.md), [Image/Column Space](Image;%20Column%20Space.md), [[Composition (Linear Map)]], [$\hom_{\catvect[K]}\!\l(V,W\r)$](Vector%20Space%20of%20Linear%20Maps.md)
+Constructions: [[Matrix Representation of a Linear Map]], [Kernel/Null Space](Kernel;%20Null%20Space.md), [Image/Column Space](Image;%20Column%20Space.md), [[Composition (Linear Map)]], [$\hom_{\catvect}\!\l(V,W\r)$](Vector%20Space%20of%20Linear%20Maps.md)
 Generalizations: [[Multilinear Map]]
 
 Properties: [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md), [[Inverse of linear map is linear]], [[Linear map fixes zero vector]]
@@ -20,7 +20,7 @@ _Let $K$ be a field and consider vector spaces $V$ and $W$ over $K$. A **linear 
 * _$\axilin[1]$ (Additivity)$\bf{.}$ $\fa v_1,v_2\in V:T\l(v_1+v_2\r)=T\l(v_1\r)+T\l(v_2\r)$._
 * _$\axilin[2]$ (Homogeneity)$\bf{.}$ $\fa\alpha\in K,\fa v\in V:T\l(\alpha v\r)=\alpha T\l(v\r)$._
 
-_The set of all linear maps from $V$ to $W$ is denoted_ $\hom_{\catvect[K]}\!\l(V,W\r)$_; that is, linear maps are $\l(\catvect[K]\r)$-morphisms._
+_The set of all linear maps from $V$ to $W$ is denoted_ $\hom_{\catvect}\!\l(V,W\r)$_; that is, linear maps are $\l(\catvect\r)$-morphisms._
 
 ```
 

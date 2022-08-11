@@ -20,7 +20,7 @@ Justifications: [$\catvect$ is a locally-small category](Category%20of%20vector%
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field. The **category of vector spaces over $K$** is the (locally-small) category $\catvect[K]$ defined by the following data:_
+_Let $K$ be a field. The **category of vector spaces over $K$** is the (locally-small) category $\catvect$ defined by the following data:_
 * _The objects are vector spaces $\tpl{V,K,+,\cdot,0}$._
 
 * _For all vector spaces $\tpl{V_1,K,+_1,\cdot_1,0_1}$ and $\tpl{V_2,K,+_2,\cdot_2,0_2}$, the morphisms from $\tpl{V_1,K,+_1,\cdot_1,0_1}$ to $\tpl{V_2,K,+_2,\cdot_2,0_2}$ are linear maps $T:V_1\to V_2$._

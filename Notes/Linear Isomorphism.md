@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ and $W$ be vector spaces over some field $K$. A **$K$-linear isomorphism from $V$ to $W$** is an invertible linear map $T:V\to W$. That is, linear isomorphisms are isomorphisms in $\catvect[K]$._
+_Let $V$ and $W$ be vector spaces over some field $K$. A **$K$-linear isomorphism from $V$ to $W$** is an invertible linear map $T:V\to W$. That is, linear isomorphisms are isomorphisms in $\catvect$._
 
 ```
