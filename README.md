@@ -11,7 +11,7 @@ These notes are meant to be a distilled version of the math I've learnt where id
 * [TikZ Images](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images); my workflow involving TikZ images.
 * [Sample Pages](https://github.com/zhaoshenzhai/MathWiki#page_with_curl-sample-pages); some sample screenshots.
 
-## :telescope: Graph View: ![#63BFEE](https://placeholder.pics/svg/15/63BFEE/63BFEE) Definitions | ![#E665B7](https://placeholder.pics/svg/15/E665B7/E665B7) Propositions | ![#65FB65](https://placeholder.pics/svg/15/65FB65/65FB65) Theorems | ![#F95D5D](https://placeholder.pics/svg/15/F95D5D/F95D5D) Axioms
+## :telescope: Graph View
 
 ![Graph view](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/graph_view.png)
 
