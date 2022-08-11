@@ -140,7 +140,8 @@
   "app:reload": [
     {
       "modifiers": [
-        "Meta"
+        "Meta",
+        "Shift"
       ],
       "key": "R"
     }
@@ -148,8 +149,7 @@
   "random-note": [
     {
       "modifiers": [
-        "Meta",
-        "Shift"
+        "Meta"
       ],
       "key": "R"
     }
