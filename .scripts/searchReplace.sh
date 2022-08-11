@@ -9,29 +9,7 @@ RED='\033[0;31m'
 NC='\033[0m'
 
 export GREP_COLORS='fn=33'
-
 cd ~/Dropbox/MathWiki
-
-Format()
-{
-    echo $(echo "$1"      |
-        sed 's/\\/\\\\/g' | # Escape \
-        sed 's/\$/\\\$/g' | # Escape $
-        sed 's/\[/\\\[/g' | # Escape [
-        sed 's/\]/\\\]/g' | # Escape ]
-        sed 's/{/\\{/g'   | # Escape {
-        sed 's/}/\\}/g'   | # Escape }
-        sed 's/\$/\\\$/g' | # Escape $
-        sed 's/\^/\\\^/g' | # Escape ^
-        sed 's/|/\\|/g'   | # Escape |
-        sed 's/+/\\+/g'   ) # Escape +
-}
-
-FormatInput()
-{
-    echo $(Format "$1" | sed 's/\./\\./g')
-}
-
 echo ""
 
 #### Query
@@ -39,7 +17,6 @@ read -ep "$(echo -e "${PURPLE}Query: [string]${NC}") " query
 while [ -z "$query" ]; do
     read -ep "$(echo -e "${PURPLE}Query: [string]${NC}") " query
 done
-# query=$(FormatInput "$query")
 #### Query
 
 ####Case sensitive
@@ -126,7 +103,6 @@ while [[ "$remove" == "y" ]]; do
         while [ -z "$toRemove" ]; do
             read -ep "$(echo -e "        ${PURPLE}Remove: [string]${NC}") " toRemove
         done
-        # toRemove=$(FormatInput "$toRemove")
         #### Remove string
 
         ####Case sensitive
@@ -185,10 +161,6 @@ read -ep "$(echo -e ${PURPLE}Replace with: [string]${NC}) " replaceString
 if [[ -z "$replaceString" ]]; then
     replaceString=""
 fi
-# while [ -z "$replaceString" ]; do
-#     read -ep "$(echo -e "${PURPLE}Replace with: [string]${NC}") " replaceString
-# done
-# replaceString=$(FormatInput "$replaceString")
 
 numberOfMatches=$(echo "$matchingLinesWithFiles" | wc -l)
 updateInterval=$(bc -l <<< 'scale=1; ('"$numberOfMatches"'/'100')+'0.5'' | sed 's/\..*//g')
@@ -199,9 +171,6 @@ while IFS= read -r matchingLineWithFile; do
     file=$(echo "$fileLine" | sed 's/\:.*//g' | sed -r "s/\x1B\[([0-9]{1,3}(;[0-9]{1,2})?)?[mGK]//g")
     line=$(echo "$fileLine" | sed 's/^.*\://g' | sed -r "s/\x1B\[([0-9]{1,3}(;[0-9]{1,2})?)?[mGK]//g")
     match=$(echo "$onlyMatching" | awk 'NR=='"$lineOnlyMatching"'' | sed -r "s/\x1B\[([0-9]{1,3}(;[0-9]{1,2})?)?[mGK]//g")
-
-    file=$(Format "$file")
-    # match=$(Format "$match")
 
     sed -Ei ''"$line"'s~'"$match"'~'"$replaceString"'~g' "$file"
 
