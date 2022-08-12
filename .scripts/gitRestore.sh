@@ -24,6 +24,13 @@ while [[ ! -z "$restoreIn" ]] && [[ ! "$restoreIn" == i ]] && [[ ! "$restoreIn" 
     fi
 done
 
+echo ""
+
+read -n 1 -ep "$(echo -e "${RED}Are you sure? [N/y]${NC}") " proceed
+if [[ ! "$proceed" == y ]]; then
+    exit
+fi
+
 # Restore notes
 if [[ -z "$restoreIn" ]] || [[ "$restoreIn" == "b" ]]; then
     git restore Notes/*

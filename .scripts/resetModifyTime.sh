@@ -12,7 +12,7 @@ cd ~/Dropbox/MathWiki/Notes
 
 echo ""
 
-read -n 1 -ep "$(echo -e "${RED}This will reset the modification time of all notes to its creation time. Proceed? [N/y]${NC}") " proceed
+read -n 1 -ep "$(echo -e "${RED}This will reset the modification time of all notes to their creation time. Proceed? [N/y]${NC}") " proceed
 if [[ ! "$proceed" == y ]]; then
     exit
 fi
