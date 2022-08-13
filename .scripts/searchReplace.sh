@@ -13,9 +13,9 @@ cd ~/Dropbox/MathWiki
 echo ""
 
 #### Query
-read -ep "$(echo -e "${PURPLE}Query: [string]${NC}") " query
+read -rp "$(echo -e "${PURPLE}Query: [string]${NC}") " query
 while [ -z "$query" ]; do
-    read -ep "$(echo -e "${PURPLE}Query: [string]${NC}") " query
+    read -rp "$(echo -e "${PURPLE}Query: [string]${NC}") " query
 done
 #### Query
 
@@ -99,9 +99,9 @@ while [[ "$remove" == "y" ]]; do
 
     if [[ "$remove" == "y" ]]; then
         #### Remove string
-        read -ep "$(echo -e "        ${PURPLE}Remove: [string]${NC}") " toRemove
+        read -rp "$(echo -e "        ${PURPLE}Remove: [string]${NC}") " toRemove
         while [ -z "$toRemove" ]; do
-            read -ep "$(echo -e "        ${PURPLE}Remove: [string]${NC}") " toRemove
+            read -rp "$(echo -e "        ${PURPLE}Remove: [string]${NC}") " toRemove
         done
         #### Remove string
 
@@ -157,7 +157,7 @@ done
 echo ""
 
 #### Replace
-read -ep "$(echo -e ${PURPLE}Replace with: [string]${NC}) " replaceString
+read -rp "$(echo -e ${PURPLE}Replace with: [string]${NC}) " replaceString
 if [[ -z "$replaceString" ]]; then
     replaceString=""
 fi
