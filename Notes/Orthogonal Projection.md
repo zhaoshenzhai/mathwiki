@@ -20,7 +20,7 @@ _Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $
 $$\begin{equation}
     \proj_U\!:V\to V\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ v\mapsto\proj_U\!\l(v\r)
 \end{equation}$$
-_where $\proj_U\!\l(v\r)$ is the unique element in $U$ such that $v-\proj_U\in U^\perp$._
+_where $\proj_U\!\l(v\r)$ is the unique element in $U$ such that $v-\proj_U\!\l(v\r)\in U^\perp$._
 
 ```
 
