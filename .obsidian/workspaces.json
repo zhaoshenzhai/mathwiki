@@ -6,7 +6,7 @@
         "type": "split",
         "children": [
           {
-            "id": "28270860c822f933",
+            "id": "a1a298eae81d00a7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -38,7 +38,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:In_Progress",
+                    "query": "tag:#In_Progress",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": true,
@@ -58,7 +58,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "73047de14d5411eb",
@@ -84,7 +85,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 244,
+        "width": 266.5,
         "collapsed": true
       },
       "right": {
@@ -104,7 +105,7 @@
                     "options": {
                       "collapse-filter": true,
                       "search": "path:Notes",
-                      "localJumps": 4,
+                      "localJumps": 3,
                       "localBacklinks": true,
                       "localForelinks": true,
                       "localInterlinks": true,
@@ -140,6 +141,13 @@
                             "a": 1,
                             "rgb": 16342365
                           }
+                        },
+                        {
+                          "query": "tag:#MOC",
+                          "color": {
+                            "a": 1,
+                            "rgb": 16773058
+                          }
                         }
                       ],
                       "collapse-display": true,
@@ -152,8 +160,8 @@
                       "repelStrength": 20,
                       "linkStrength": 1,
                       "linkDistance": 30,
-                      "scale": 0.46892875608220497,
-                      "close": true
+                      "scale": 0.041524747956219146,
+                      "close": false
                     }
                   }
                 }
@@ -162,10 +170,10 @@
           }
         ],
         "direction": "horizontal",
-        "width": 973.6,
+        "width": 1066.4,
         "collapsed": true
       },
-      "active": "28270860c822f933"
+      "active": "a1a298eae81d00a7"
     }
   },
   "active": "workspace"
