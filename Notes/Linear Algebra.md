@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/08/2022 14:28:31
-Tags: #MOC
+Tags: #MOC #In_Progress
 
 Context: [Zermelo Fraenkel Set Theory](Zermelo%20Fraenkel%20Set%20Theory.md)
 Extensions: [Functional Analysis](Functional%20Analysis.md), [Multilinear Algebra](Multilinear%20Algebra.md)
@@ -9,11 +9,11 @@ Abstractions: [Category Theory](Category%20Theory.md)
 
 $\huge\rm\bf{L}\normalsize\rm\bf{INEAR ALGEBRA}\huge\rm\bf{ | }\Large\rm\bf{A }\normalsize\rm\bf{THEORY OF VECTOR SPACES}$
 
-_Linear Algebra_ is the study of the [$\catvect$](Category%20of%20Vector%20Spaces.md); that is, the study of [vector spaces](Vector%20Space.md) and [linear maps](Linear%20Map.md) between them.
+_Linear Algebra_ is the study of the [category of vector spaces](Category%20of%20Vector%20Spaces.md); that is, the study of [vector spaces](Vector%20Space.md) and [linear maps](Linear%20Map.md) between them.
 
 ## $\ul{\textbf{Constructions:}}$
 
-As with most categories, the [category of vector spaces](Category%20of%20Vector%20Spaces.md) has [subobjects](Linear%20Subspace.md), [products](Direct%20Product%20(Vector%20Space).md), [direct sums](Internal%20Direct%20Sum%20(Linear%20Algebra).md), and [quotients](). Unique to Linear Algebra is the concept of the [dimension](Dimension%20(Linear%20Algebra).md) of a [vector space](Vector%20Space.md), defined as the cardinality of any [linearly independent](Linear%20Independence.md) [spanning set](Spanning%20Set.md), aka any [basis](Hamel%20Basis.md), thereof.
+As with most categories, $\catvect$ has [subobjects](Linear%20Subspace.md), [products](Direct%20Product%20(Vector%20Space).md), [direct sums](Internal%20Direct%20Sum%20(Linear%20Algebra).md), and [quotients](obsidian://open?file=TODO). Unique to Linear Algebra is the concept of the [dimension](Dimension%20(Linear%20Algebra).md) of a [vector space](Vector%20Space.md), defined as the cardinality of any [linearly independent](Linear%20Independence.md) [spanning set](Spanning%20Set.md), aka any [basis](Hamel%20Basis.md), thereof.
 
 Similarly, as with most categories, we can define the [kernel](Kernel;%20Null%20Space.md) of a [linear map](Linear%20Map.md) $T:V\to W$. Unique to Linear Algebra is its [rank](Rank.md) (defined as $\dim\im T$); together, they satisfy the [Dimension Theorem](Dimension%20Theorem.md) which states that
 $$\begin{equation}
