@@ -7,9 +7,7 @@ Context: [Zermelo Fraenkel Set Theory](Zermelo%20Fraenkel%20Set%20Theory.md)
 Extensions: [Functional Analysis](Functional%20Analysis.md), [Multilinear Algebra](Multilinear%20Algebra.md)
 Abstractions: [Category Theory](Category%20Theory.md)
 
-$\huge\rm\bf{L}\normalsize\rm\bf{INEAR ALGEBRA}\huge\rm\bf{ | }\Large\rm\bf{A }\normalsize\rm\bf{THEORY OF VECTOR SPACES}$
-
-_Linear Algebra_ is the study of the [category of vector spaces](Category%20of%20Vector%20Spaces.md); that is, the study of [vector spaces](Vector%20Space.md) and [linear maps](Linear%20Map.md) between them.
+$\huge\rm\bf{L}\normalsize\rm\bf{INEAR ALGEBRA}$ is the study of the [category of vector spaces](Category%20of%20Vector%20Spaces.md); that is, the study of [vector spaces](Vector%20Space.md) and [linear maps](Linear%20Map.md) between them.
 
 ---
 
