@@ -9,3 +9,15 @@ body {
 .vertical-tab-content {
     font-family: 'CMU Serif' !important
 }
+
+.tag {
+    font-family: 'CMU Serif' !important
+}
+
+.prompt-input {
+    font-family: 'CMU Serif' !important
+}
+
+input, textarea {
+    font-family: 'CMU Serif' !important
+}
