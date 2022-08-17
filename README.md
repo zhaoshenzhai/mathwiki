@@ -104,19 +104,20 @@ All images are [centered](https://github.com/zhaoshenzhai/MathWiki/blob/master/.
 
 ## :page_with_curl: Sample Pages
 
-![1](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/linear_algebra.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/linear_algebra.png)
 
-![2](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/linear_map.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/linear_map.png)
 
-![3](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/function.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/function.png)
 
-![4](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/linear_subspace.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/linear_subspace.png)
 
-![5](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/upper_limit_strictly_finer_than_k.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/gaussian_algorithm.png)
 
-![6](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/fundamental_theorem_of_equivalence_relations.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/upper_limit_strictly_finer_than_k.png)
 
-![7](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/gaussian_algorithm.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/fundamental_theorem_of_equivalence_relations.png)
+
 
 [templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/markdown.snippets#L119
 [tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/config/MathWiki.vim#L1
