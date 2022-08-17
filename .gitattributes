@@ -1,3 +1,4 @@
 *.md linguist-detectable=true
 README.md linguist-detectable=false
-.obsidian/plugins/* linguist-vendored
+.obsidian/plugins/**/* linguist-vendored
+.obsidian/themes/Minimal.css linguist-vendored
