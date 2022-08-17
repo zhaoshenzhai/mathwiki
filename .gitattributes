@@ -1,3 +1,3 @@
 *.md linguist-detectable=true
-README.md linguist-vendored
+README.md linguist-detectable=false
 .obsidian/plugins/* linguist-vendored
