@@ -2,7 +2,7 @@
 
 dirName=$(date +"%Y-%m-%d_%H%M%S")
 
-cd ~/Dropbox/MathWiki/Images
+cd $MATHWIKI_DIR/Images
 mkdir $dirName
 cd $dirName
-cp $HOME/Dropbox/MathWiki/imageTemplate.tex $PWD/image.tex
+cp $MATHWIKI_DIR/imageTemplate.tex $PWD/image.tex

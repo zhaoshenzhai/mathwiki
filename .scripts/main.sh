@@ -10,8 +10,8 @@ NC='\033[0m'
 
 repeat="Y"
 while [[ "$repeat" == "Y" ]]; do
-    source ~/Dropbox/MathWiki/.scripts/stats.sh -u
-    source ~/Dropbox/MathWiki/.scripts/stats.sh -p
+    source $MATHWIKI_DIR/.scripts/stats.sh -u
+    source $MATHWIKI_DIR/.scripts/stats.sh -p
     echo ""
 
     echo -e "${CYAN}Actions:${NC}"
@@ -45,29 +45,29 @@ while [[ "$repeat" == "Y" ]]; do
 
     case $action in
         "1")
-            ~/.config/scripts/gitCommit.sh -m
+            $DOTFILES_DIR/scripts/gitCommit.sh -m
         ;;
         "2")
-            ~/Dropbox/MathWiki/.scripts/searchReplace.sh
+            $MATHWIKI_DIR/.scripts/searchReplace.sh
         ;;
         "3")
-            ~/Dropbox/MathWiki/.scripts/gitRestore.sh
+            $MATHWIKI_DIR/.scripts/gitRestore.sh
         ;;
         "4")
-            ~/Dropbox/MathWiki/.scripts/mathLinks.sh -u
-            ~/Dropbox/MathWiki/.scripts/mathLinks.sh -n
+            $MATHWIKI_DIR/.scripts/mathLinks.sh -u
+            $MATHWIKI_DIR/.scripts/mathLinks.sh -n
         ;;
         "5")
-            ~/Dropbox/MathWiki/.scripts/ghostLinks.sh
+            $MATHWIKI_DIR/.scripts/ghostLinks.sh
         ;;
         "6")
-            ~/Dropbox/MathWiki/.scripts/massEditing.sh
+            $MATHWIKI_DIR/.scripts/massEditing.sh
         ;;
         "7")
-            ~/Dropbox/MathWiki/.scripts/updateImages.sh
+            $MATHWIKI_DIR/.scripts/updateImages.sh
         ;;
         "8")
-            ~/Dropbox/MathWiki/.scripts/resetModifyTime.sh
+            $MATHWIKI_DIR/.scripts/resetModifyTime.sh
         ;;
     esac
 

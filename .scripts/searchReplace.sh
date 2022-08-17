@@ -9,7 +9,7 @@ RED='\033[0;31m'
 NC='\033[0m'
 
 export GREP_COLORS='fn=33'
-cd ~/Dropbox/MathWiki
+cd $MATHWIKI_DIR
 echo ""
 
 #### Query

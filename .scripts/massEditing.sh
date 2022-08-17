@@ -8,7 +8,7 @@ BLUE='\033[0;34m'
 RED='\033[0;31m'
 NC='\033[0m'
 
-cd ~/Dropbox/MathWiki
+cd $MATHWIKI_DIR
 
 Format()
 {
