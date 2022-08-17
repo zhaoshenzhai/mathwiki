@@ -1,11 +1,11 @@
 [
   "obsidian-hider",
   "obsidian-latex",
-  "obsidian-admonition",
-  "obsidian-advanced-appearance",
   "sliding-panes-obsidian",
   "obsidian-mathlinks",
   "obsidian42-brat",
   "mrj-jump-to-link",
-  "vim-reading-view-navigation"
+  "vim-reading-view-navigation",
+  "obsidian-advanced-appearance",
+  "obsidian-admonition"
 ]

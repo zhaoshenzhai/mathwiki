@@ -55,7 +55,7 @@
   "syntaxHighlight": false,
   "copyButton": false,
   "version": "9.0.3",
-  "autoCollapse": true,
+  "autoCollapse": false,
   "defaultCollapseType": "open",
   "injectColor": true,
   "parseTitles": true,
@@ -72,11 +72,5 @@
   "rpgDownloadedOnce": false,
   "msDocConverted": false,
   "useSnippet": false,
-  "snippetPath": "custom-admonitions.c3e18c",
-  "syncLinks": false,
-  "allowMSSyntax": false,
-  "msSyntaxIndented": true,
-  "livePreviewMS": false,
-  "warnedAboutNC": true,
-  "enableMarkdownProcessor": true
+  "snippetPath": "custom-admonitions.ff39ef"
 }
