@@ -16,9 +16,9 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A binary relation $f$ is a **function** if for every $x\in\dom f$, there exists a unique $y$ such that $\tpl{x,y}\in f$. Formally,_
+_A binary relation $f$ is a **function** if for every $x\in\dom f$, there exists a unique $y$ such that $\tpl{x,y}\in f$; that is, if_
 $$\begin{equation}
-    f\textrm{\it{ is a function}}\ \ \ \ \Leftrightarrow\ \ \ \ \fa x\in\dom f,\ex!y:\tpl{x,y}\in f.
+    \fa x\in\dom f,\ex!y:\tpl{x,y}\in f.
 \end{equation}$$
 
 ```
