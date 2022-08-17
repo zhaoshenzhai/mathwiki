@@ -1,9 +1,8 @@
 {
-  "baseFontSize": 30,
+  "baseFontSize": 16,
   "translucency": false,
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "font",
     "fonts",
     "snippet",
     "image",
@@ -12,12 +11,14 @@
     "links",
     "listsLineBreak",
     "lists",
-    "slidingPanes",
     "centerImages",
-    "bgColor",
-    "hideYaml"
+    "hideYaml",
+    "slidingPanes",
+    "font"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": true,
-  "interfaceFontFamily": "CMU Serif"
+  "interfaceFontFamily": "CMU Serif",
+  "textFontFamily": "CMU Serif",
+  "monospaceFontFamily": "CMU Serif"
 }

@@ -1,3 +1,11 @@
 ol>li::marker, ul>li::marker {
     color: var(--text);
 }
+
+ul li p {
+    margin: 5px;
+}
+
+ol li p {
+    margin: 5px;
+}

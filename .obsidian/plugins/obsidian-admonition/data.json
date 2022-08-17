@@ -55,7 +55,7 @@
   "syntaxHighlight": false,
   "copyButton": false,
   "version": "9.0.3",
-  "autoCollapse": false,
+  "autoCollapse": true,
   "defaultCollapseType": "open",
   "injectColor": true,
   "parseTitles": true,

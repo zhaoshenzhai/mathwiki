@@ -19,5 +19,6 @@
     "downscalePercent": 75
   },
   "showIndentGuide": false,
-  "showFrontmatter": false
+  "showFrontmatter": false,
+  "readableLineLength": false
 }

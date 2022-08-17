@@ -1,7 +1,0 @@
-.workspace-split.mod-root .view-content {
-    background-color: #1e2127 !important;
-}
-
-.view-header, .workspace-leaf-header, .workspace-leaf.mod-active .view-header, .workspace-split.mod-root>.workspace-leaf:first-of-type:last-of-type .view-header {
-    background-color: #1e2127 !important;
-}
