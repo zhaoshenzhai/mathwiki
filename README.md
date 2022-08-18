@@ -7,7 +7,7 @@ These notes are meant to be a distilled version of the math I've learnt where id
 ## :bookmark_tabs: Contents
 * [Note Types and Templates](https://github.com/zhaoshenzhai/MathWiki#pencil2-note-types-and-templates); the basic templates and outgoing links for each type of note.
 * [Configurations and Scripts](https://github.com/zhaoshenzhai/MathWiki#gear-configurations-and-scripts); snippets, plugins, and my bash scripts.
-* [MathLinks](https://github.com/zhaoshenzhai/MathWiki#link-mathlinks); my plugin that manages and displays [MathJax](https://www.mathjax.org/) in links.
+* [MathLinks](https://github.com/zhaoshenzhai/MathWiki#link-mathlinks); my plugin that renders [MathJax](https://www.mathjax.org/) in links.
 * [TikZ Images](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images); my workflow involving TikZ images.
 * [Sample Pages](https://github.com/zhaoshenzhai/MathWiki#page_with_curl-sample-pages); some sample screenshots.
 
@@ -56,7 +56,7 @@ Plugins:
 * [Style Settings](https://github.com/mgmeyers/obsidian-style-settings): Precise colors.
 * [Jump to Link](https://github.com/mrjackphil/obsidian-jump-to-link): Follow links.
 * [Admonition](https://github.com/valentine195/obsidian-admonition): A replacement for the `mdframed` package in LaTeX.
-* [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks): Manage and display MathJax in links.
+* [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks): Render MathJax in links.
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
 * [BRAT](https://github.com/TfTHacker/obsidian42-brat): Beta Reviewers Auto-update Tester, for:
     * [Vim Reading View Navigation](https://github.com/kometenstaub/obsidian-vim-reading-view-navigation): Vim-like reading view.
@@ -72,21 +72,24 @@ I wrote some bash scripts to (try) maintain the consistency of my notes; [main.s
 
 Some stats: 572 notes, 1381 links, 55 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
-## :link: MathLinks
+## :link: [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks)
 
-As far as I know, the standard wiki-style links of the form `[[...]]` used in Obsidian does not support MathJax. Instead, one should use markdown-style links which are of the form `[text](link)`; here, `text` can contain MathJax. However, `text` remains unchanged when `link` is updated, so, if one wishes to have links with math, one needs to update them manually.
+This plugin renders all links to `fileName.md` by way of a `mathLink`, which is a string of text that can contain inline MathJax. To add a `mathLink` to `fileName.md`, simply insert `mathLink: yourMathLink` to the YAML frontmatter of `fileName.md` like so:
 
-I wrote an Obsidian plugin, called [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks), that automates this process. Click on the link to see its installation and usage.
+```
+---
+mathLink: yourMathLink
+---
 
-Alternatively, for a command-line interface independent from MathLinks, see [mathLinks.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/mathLinks.sh).
-- If flagged with `-u`, it updates every link of the form `[text](link)` by comparing `text` with the `mathLink` of `link`.
-    - If `link` contains `mathLink: auto`, it can be run once it is renamed.
-    - If `link` has a custom `mathLink`, it also needs to be updated in the front matter before the script can be run.
-- If flagged with `-n`, it generates a new link of the form `[text](link)` from all wiki-style links `[[...]]` whose note has a `mathLink`.
+Content starts here.
+```
 
-Here is a sample of how the script interface looks.
+That's it! All links of the form `[[fileName]]` or `[fileName](fileName.md)` will now be displayed as `yourMathLink` rendered in MathJax.
 
-![math_links_demo](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/math_links_demo.png)
+### Templates
+Oftentimes, the `mathLink` of `fileName.md` involves replacing some text with its math counterpart. For instance, all of `Invertible iff bijective.md`, `Linearly dependent iff exists span-redundant element.md`, and `LUB property iff GLB property.md` will have mathLinks of the form '... $\Leftrightarrow$ ...'.
+
+Instead of setting them manually, simply use `mathLink: auto`. This will generate its `mathLink` via a template that replaces `iff` with $\Leftrightarrow$. A _template_ consists of a string to be matched (`iff`), its replacement $(\Leftrightarrow)$, and some options (global match, case sensitive, and match whole words). They are created and maintained in the MathLinks settings window.
 
 ## :art: TikZ Images
 
