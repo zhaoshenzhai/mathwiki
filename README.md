@@ -56,7 +56,7 @@ Plugins:
 * [Style Settings](https://github.com/mgmeyers/obsidian-style-settings): Precise colors.
 * [Jump to Link](https://github.com/mrjackphil/obsidian-jump-to-link): Follow links.
 * [Admonition](https://github.com/valentine195/obsidian-admonition): A replacement for the `mdframed` package in LaTeX.
-* [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks): Render MathJax in links.
+* [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks): Render MathJax in links; see [below](https://github.com/zhaoshenzhai/MathWiki#symbols-mathlinks).
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
 * [BRAT](https://github.com/TfTHacker/obsidian42-brat): Beta Reviewers Auto-update Tester, for:
     * [Vim Reading View Navigation](https://github.com/kometenstaub/obsidian-vim-reading-view-navigation): Vim-like reading view.
@@ -71,9 +71,11 @@ I wrote some bash scripts to (try) maintain the consistency of my notes; [main.s
 
 Some stats: 572 notes, 1381 links, 55 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
-## :symbols: [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks)
+## :symbols: MathLinks
 
-This plugin renders all links to `fileName.md` by way of a `mathLink`, which is a string of text that can contain inline MathJax. To add a `mathLink` to `fileName.md`, simply insert `mathLink: yourMathLink` to the YAML frontmatter of `fileName.md` like so:
+As far as I know, the standard wiki-style links of the form `[[fileName]]` used in Obsidian does not support MathJax. Instead, one should use markdown-style links which are of the form `[displayedText](fileName.md)`; here, `displayedText` can contain MathJax. However, text remains unchanged when link is updated, so, if one wishes to have links with math, one needs to update them manually.
+
+I wrote a plugin, [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks), that aims to solve this issue by assigning `fileName.md` a `mathLink`, i.e. some specified text to be displayed and rendered when a note links to `fileName.md`. It can be done by inserting `mathLink: yourMathLink` to the YAML frontmatter of `fileName.md` like so:
 
 ```
 ---
@@ -83,7 +85,7 @@ mathLink: yourMathLink
 Content starts here.
 ```
 
-That's it! All links of the form `[[fileName]]` or `[fileName](fileName.md)` will now be displayed as `yourMathLink` rendered in MathJax.
+That's it! All links of the form `[[fileName]]` or `[fileName](fileName.md)` will now be displayed as the rendered MathJax of `yourMathLink`.
 
 ### Templates
 Oftentimes, the `mathLink` of `fileName.md` involves replacing some text with its math counterpart. For instance, all of `Invertible iff bijective.md`, `Linearly dependent iff exists span-redundant element.md`, and `LUB property iff GLB property.md` will have mathLinks of the form '... $\Leftrightarrow$ ...'.
