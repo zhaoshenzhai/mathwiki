@@ -7,7 +7,7 @@ These notes are meant to be a distilled version of the math I've learnt where id
 ## :bookmark_tabs: Contents
 * [Note Types and Templates](https://github.com/zhaoshenzhai/MathWiki#pencil2-note-types-and-templates); the basic templates and outgoing links for each type of note.
 * [Configurations and Scripts](https://github.com/zhaoshenzhai/MathWiki#gear-configurations-and-scripts); snippets, plugins, and my bash scripts.
-* [MathLinks](https://github.com/zhaoshenzhai/MathWiki#link-mathlinks); my plugin that renders [MathJax](https://www.mathjax.org/) in links.
+* [MathLinks](https://github.com/zhaoshenzhai/MathWiki#symbols-mathlinks); my plugin that renders [MathJax](https://www.mathjax.org/) in links.
 * [TikZ Images](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images); my workflow involving TikZ images.
 * [Sample Pages](https://github.com/zhaoshenzhai/MathWiki#page_with_curl-sample-pages); some sample screenshots.
 
@@ -71,7 +71,7 @@ I wrote some bash scripts to (try) maintain the consistency of my notes; [main.s
 
 Some stats: 572 notes, 1381 links, 55 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
-## :link: [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks)
+## :symbols: [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks)
 
 This plugin renders all links to `fileName.md` by way of a `mathLink`, which is a string of text that can contain inline MathJax. To add a `mathLink` to `fileName.md`, simply insert `mathLink: yourMathLink` to the YAML frontmatter of `fileName.md` like so:
 
