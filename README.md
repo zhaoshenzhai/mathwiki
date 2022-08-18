@@ -85,7 +85,7 @@ mathLink: yourMathLink
 Content starts here.
 ```
 
-That's it! All links of the form `[[fileName]]` or `[fileName](fileName.md)` will now be displayed as the rendered MathJax of `yourMathLink`. No changes are made to your notes, and updates to `yourMathLink` will be immediately reflected.
+That's it! All links of the form `[[fileName]]` or `[fileName](fileName.md)` will now be displayed as the rendered MathJax of `yourMathLink`. No changes are made to your notes, and updates to `yourMathLink` will be reflected once the note with the link is reopened.
 
 ### Templates
 Oftentimes, the `mathLink` of `fileName.md` involves replacing some text with its math counterpart. For instance, all of `Invertible iff bijective.md`, `Linearly dependent iff exists span-redundant element.md`, and `LUB property iff GLB property.md` will have mathLinks of the form '... $\Leftrightarrow$ ...'.
@@ -126,4 +126,3 @@ All images are [centered](https://github.com/zhaoshenzhai/MathWiki/blob/master/.
 [templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/markdown.snippets#L119
 [tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/config/MathWiki.vim#L1
 [pdfLaTeXExecute]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/config/MathWiki.vim#L2
-[standardAlias]: https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/mathLinks.sh#L13
