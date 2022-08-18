@@ -12,10 +12,10 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [Comparison of topologies on $\R$](Comparison%20of%20topologies%20on%20R.md)
+Properties: [[Comparison of topologies on R]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [Upper-limit topology is a topology on $\R$](Upper-limit%20topology%20is%20a%20topology%20on%20R.md)
+Justifications: [[Upper-limit topology is a topology on R]]
 
 ``` ad-Definition
 title: Definition.

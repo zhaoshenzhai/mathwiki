@@ -9,7 +9,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [$\mat{m\times n}{K}$ (Vector Space)](Vector%20Space%20of%20Matrices.md), [[Matrix Multiplication]], [Elementary Matrices/Operations](Elementary%20Matrices%20and%20Operations.md), [[Transposition]]
+Constructions: [[Vector Space of Matrices]], [[Matrix Multiplication]], [[Elementary Matrices and Operations]], [[Transposition]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

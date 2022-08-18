@@ -4,7 +4,7 @@ Date Created: 26/01/2022 17:41:00
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [Image/Column Space](Image;%20Column%20Space.md)
+Examples: [[Image; Column Space]]
 Constructions: [[Direct Image Function]]
 Generalizations: [[Image (Relation)]]
 

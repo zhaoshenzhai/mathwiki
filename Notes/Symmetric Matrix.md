@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: [[Diagonal Matrix]]
 Examples: _Not Applicable_
-Constructions: [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md)
+Constructions: [[Vector Space of Symmetric Matrices]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

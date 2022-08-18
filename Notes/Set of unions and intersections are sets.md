@@ -3,7 +3,7 @@
 Date Created: 15/01/2022 17:21:16
 Tags: #Proposition
 
-Proved by: [$\axispec$](Axiom%20Schema%20of%20Specification.md), [[Set-builder notation is unique]], [Basic properties of $\bigcup$, $\bigcap$, and $\pow$](Basic%20properties%20of%20unions,%20intersections,%20and%20power%20sets.md)
+Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [[Basic properties of unions, intersections, and power sets]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

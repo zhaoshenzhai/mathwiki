@@ -4,11 +4,11 @@ Date Created: 01/04/2022 22:31:49
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [Basis Transition Map/Matrix](Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md)
+Examples: [[Basis Transition Map; Change of Basis Matrix]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Basic properties of left-multiplication of matrices]], [$A$ invertible $\Leftrightarrow$ $L_A$ invertible](Matrix%20invertible%20iff%20left-multiplication%20invertible.md)
+Properties: [[Basic properties of left-multiplication of matrices]], [[Matrix invertible iff left-multiplication invertible]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Left-multiplication of a matrix is a linear map]]

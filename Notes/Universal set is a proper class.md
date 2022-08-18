@@ -3,7 +3,7 @@
 Date Created: 14/01/2022 15:01:47
 Tags: #Proposition #Later/Set_Theory
  
-Proved by: [$\axispec$](Axiom%20Schema%20of%20Specification.md)
+Proved by: [[Axiom Schema of Specification]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

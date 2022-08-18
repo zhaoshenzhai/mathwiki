@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Orthogonal Projection]]
 Generalizations: _Not Applicable_
 
-Properties: [$V=U\oplus U^\perp$](Orthogonal%20Decomposition.md), [$U=\l(U^\perp\r)^\perp$](Orthogonal%20complementation%20is%20an%20involution.md)
+Properties: [[Orthogonal Decomposition]], [[Orthogonal complementation is an involution]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Basic properties of orthogonal complements]]

@@ -4,13 +4,13 @@ Date Created: 29/04/2022 20:37:44
 Tags: #Definition
 
 Types: [[Hamel Basis]]
-Examples: [Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Leftrightarrow$ columns of $A$ are linearly independent](Homogeneous%20linear%20system%20only%20trivial%20solution%20iff%20columns%20of%20coefficient%20matrix%20are%20linearly%20independent.md), [Distinct eigenvalues $\Rightarrow$ linearly independent eigenvectors](Distinct%20eigenvalues%20implies%20linearly%20independent%20eigenvectors.md)
+Examples: [[Homogeneous linear system only trivial solution iff columns of coefficient matrix are linearly independent]], [[Distinct eigenvalues implies linearly independent eigenvectors]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Steinitz Exchange Lemma]], [[Linearly independent set extends to a basis]], [Linearly independent $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis](Linearly%20independent%20set%20with%20same%20cardinality%20as%20dimension%20(finite)%20is%20a%20basis.md), [[Linearly independent subset cannot contain the zero vector]]
+Properties: [[Steinitz Exchange Lemma]], [[Linearly independent set extends to a basis]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]], [[Linearly independent subset cannot contain the zero vector]]
 Sufficiencies: [[Orthonormal sets are linearly independent]]
-Equivalences: [Linearly dependent $\Leftrightarrow$ scalar multiple](Linearly%20dependent%20iff%20scalar%20multiple.md), [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
+Equivalences: [[Linearly dependent iff scalar multiple]], [[Linearly dependent iff exists span redundant element]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

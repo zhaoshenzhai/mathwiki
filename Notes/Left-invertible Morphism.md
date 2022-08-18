@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Invertible Morphism]]
 Generalizations: _Not Applicable_
 
-Properties: [Left-invertible $\Rightarrow$ monomorphism](Left-invertible%20implies%20monomorphism.md), [[Left and right inverses coincide (morphism)]]
+Properties: [[Left-invertible implies monomorphism]], [[Left and right inverses coincide (morphism)]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

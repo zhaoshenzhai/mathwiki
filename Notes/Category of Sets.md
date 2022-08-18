@@ -15,7 +15,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [$\catset$ is a locally-small category](Category%20of%20sets%20is%20a%20locally-small%20category.md)
+Justifications: [[Category of sets is a locally-small category]]
 
 ``` ad-Definition
 title: Definition.

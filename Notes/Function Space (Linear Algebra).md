@@ -3,15 +3,15 @@
 Date Created: 04/05/2022 11:34:58
 Tags: #Definition
 
-Types: [$\hom_{\catvect}\!\l(V,W\r)$](Vector%20Space%20of%20Linear%20Maps.md)
-Examples: [[Tuple Space (Linear Algebra)]], [$\mat{m\times n}{K}$ (Vector Space)](Vector%20Space%20of%20Matrices.md)
+Types: [[Vector Space of Linear Maps]]
+Examples: [[Tuple Space (Linear Algebra)]], [[Vector Space of Matrices]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [Direct product of vector spaces/function spaces are vector spaces](Direct%20product%20of%20vector%20spaces;%20function%20spaces%20are%20vector%20spaces.md)
+Justifications: [[Direct product of vector spaces; function spaces are vector spaces]]
 
 ``` ad-Definition
 title: Definition.

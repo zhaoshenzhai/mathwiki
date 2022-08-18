@@ -5,13 +5,13 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Function Space (Set Theory)]], [[Empty product is singleton of empty set]]
-Constructions: [[Projection Maps]], [[Tuples and Sequences]], [$n$-ary Operation](n-ary%20Operation.md), [[Direct Product (Vector Space)]], [[Product Space (Topology)]]
+Constructions: [[Projection Maps]], [[Tuples and Sequences]], [[n-ary Operation]], [[Direct Product (Vector Space)]], [[Product Space (Topology)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [Cartesian product is a product in $\catset$](Cartesian%20product%20is%20a%20product%20in%20Set.md)
+Justifications: [[Cartesian product is a product in Set]]
 
 ``` ad-Definition
 title: Definition.

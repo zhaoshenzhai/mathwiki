@@ -4,13 +4,13 @@ Date Created: 04/04/2022 23:35:21
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [[Tuple Space (Linear Algebra)]], [$\mat{m\times n}{K}$ (Vector Space)](Vector%20Space%20of%20Matrices.md), [[Zero Vector Space]]
-Constructions: [Coordinate representation of $V$](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md)
+Examples: [[Tuple Space (Linear Algebra)]], [[Vector Space of Matrices]], [[Zero Vector Space]]
+Constructions: [[Coordinate Representation of Finite-dim. Vector Spaces]]
 Generalizations: _Not Applicable_
 
-Properties: [$\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$](Dimension%20of%20subspace%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.;%20strict%20iff%20proper).md)
-Sufficiencies: [$V\iso W$ $\Rightarrow$ ($\dim V<\infty\Leftrightarrow\dim W<\infty$)](Isomorphic%20vector%20spaces%20finite-dim.%20iff%20finite-dim..md)
-Equivalences: [$\phi_\mc{B}:V\simto K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md)
+Properties: [[Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper)]]
+Sufficiencies: [[Isomorphic vector spaces finite-dim. iff finite-dim.]]
+Equivalences: [[Linear isomorphism between finite-dim vector spaces and tuple spaces]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

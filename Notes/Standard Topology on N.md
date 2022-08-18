@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [Standard topology on $\N$ is the discrete topology on $\N$](Standard%20topology%20on%20N%20is%20the%20discrete%20topology%20on%20N.md)
+Equivalences: [[Standard topology on N is the discrete topology on N]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

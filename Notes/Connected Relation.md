@@ -9,7 +9,7 @@ Constructions: [[Total Order]], [[Strict Total Order]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [Trichotomous $\Leftrightarrow$ asymmetric and connected](Trichotomous%20iff%20asymmetric%20and%20connected.md), [[Reflexive closure of connected relation is connected]]
+Sufficiencies: [[Trichotomous iff asymmetric and connected]], [[Reflexive closure of connected relation is connected]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

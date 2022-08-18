@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 03/02/2022 18:10:42
 Tags: #Proposition
 
-Proved by: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity.md), [Irreflexive and transitive $\Rightarrow$ asymmetric](Irreflexive%20and%20transitive%20implies%20asymmetric.md)
+Proved by: [[Asymmetry implies irreflexivity]], [[Irreflexive and transitive implies asymmetric]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

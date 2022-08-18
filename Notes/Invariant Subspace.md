@@ -4,13 +4,13 @@ Date Created: 19/06/2022 16:20:24
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [Kernel/Null Space](Kernel;%20Null%20Space.md), [Image/Column Space](Image;%20Column%20Space.md), [[Trivial Subspaces (Linear Algebra)]]
+Examples: [[Kernel; Null Space]], [[Image; Column Space]], [[Trivial Subspaces (Linear Algebra)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [Linear map $T$ has eigenvector $v$ $\Leftrightarrow$ $\span\l\{v\r\}$ is $T$-invariant](Eigenvector%20iff%20span%20is%20invariant%20under%20linear%20map.md)
+Equivalences: [[Eigenvector iff span is invariant under linear map]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

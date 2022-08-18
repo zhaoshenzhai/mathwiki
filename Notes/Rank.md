@@ -8,9 +8,9 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Dimension Theorem]], [$\rank A=\rank PAQ$ for $P,Q$ invertible](Rank%20is%20preserved%20under%20multiplication%20by%20invertible%20matrices.md)
+Properties: [[Dimension Theorem]], [[Rank is preserved under multiplication by invertible matrices]]
 Sufficiencies: _Not Applicable_
-Equivalences: [Rank of a linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ rank of its matrix representation](Rank%20of%20a%20linear%20map%20repr%20under%20basis%20rank%20of%20its%20matrix%20representation.md), [Rank of matrix in RREF is $|$pivot columns$|/|$non-zero rows$|$](Rank%20of%20matrix%20in%20RREF%20is%20number%20of%20pivot%20columns%20of%20non-zero%20rows.md)
+Equivalences: [[Rank of a linear map repr under basis rank of its matrix representation]], [[Rank of matrix in RREF is number of pivot columns of non-zero rows]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

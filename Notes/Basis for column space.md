@@ -3,7 +3,7 @@
 Date Created: 09/06/2022 12:26:44
 Tags: #Proposition
 
-Proved by: [Row-equivalence of matrices $\Leftrightarrow$ factors through invertible matrix](Row-equivalence%20of%20matrices%20iff%20factors%20through%20invertible%20matrix.md), [Matrix multiplication (columns/rows)](Matrix%20multiplication%20(columns%20slash%20rows).md), [[Standard basis of tuple space is an ordered basis]], [Rank of matrix in RREF is $|$pivot columns$|/|$non-zero rows$|$](Rank%20of%20matrix%20in%20RREF%20is%20number%20of%20pivot%20columns%20of%20non-zero%20rows.md), [Linearly independent $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis](Linearly%20independent%20set%20with%20same%20cardinality%20as%20dimension%20(finite)%20is%20a%20basis.md)
+Proved by: [[Row-equivalence of matrices iff factors through invertible matrix]], [[Matrix multiplication (columns slash rows)]], [[Standard basis of tuple space is an ordered basis]], [[Rank of matrix in RREF is number of pivot columns of non-zero rows]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -4,13 +4,13 @@ Date Created: 20/04/2022 17:33:40
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [$\mat{n}{K}=\sym{n}{K}\oplus\skew{n}{K}$ for $\charfld K\neq2$](Symmetric%20and%20skew-symmetric%20decomposition%20of%20matrices.md)
+Examples: [[Symmetric and skew-symmetric decomposition of matrices]]
 Constructions: [[Complement (Linear Subspace)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [Internal direct sum $\Leftrightarrow$ unique representation $\Leftrightarrow$ only trivial representation of zero](Internal%20direct%20sum%20iff%20unique%20representation%20iff%20only%20trivial%20representation%20of%20zero.md)
+Equivalences: [[Internal direct sum iff unique representation iff only trivial representation of zero]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

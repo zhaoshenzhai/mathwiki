@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Quotient Set]]
 Generalizations: _Not Applicable_
 
-Properties: [Same equivalence class $\Leftrightarrow$ related](Same%20equivalence%20class%20iff%20related.md)
+Properties: [[Same equivalence class iff related]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

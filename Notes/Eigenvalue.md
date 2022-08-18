@@ -8,9 +8,9 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [Distinct eigenvalues $\Rightarrow$ linearly independent eigenvectors](Distinct%20eigenvalues%20implies%20linearly%20independent%20eigenvectors.md)
+Properties: [[Distinct eigenvalues implies linearly independent eigenvectors]]
 Sufficiencies: _Not Applicable_
-Equivalences: [Linear map $T$ has eigenvalue $\lambda$ $\Leftrightarrow$ $T-\lambda\id$ is not invertible](Eigenvalue%20iff%20linear%20map%20minus%20scaled%20identity%20is%20not%20invertible.md)
+Equivalences: [[Eigenvalue iff linear map minus scaled identity is not invertible]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 03/02/2022 18:24:55
 Tags: #Proposition
 
-Proved by: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity.md)
+Proved by: [[Asymmetry implies irreflexivity]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

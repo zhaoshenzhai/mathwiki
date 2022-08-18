@@ -7,15 +7,15 @@ mathLink: $\mat{m\times n}{K}$ (Vector Space)
 Date Created: 31/03/2022 21:03:36
 Tags: #Definition
 
-Types: [$\Diag{n}{K}$](Vector%20Space%20of%20Diagonal%20Matrices.md), [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md), [$\skew{n}{K}$](Vector%20Space%20of%20Skew-symmetric%20Matrices.md)
+Types: [[Vector Space of Diagonal Matrices]], [[Vector Space of Symmetric Matrices]], [[Vector Space of Skew-symmetric Matrices]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of matrix operations]]
-Sufficiencies: [$\mat{n}{K}=\sym{n}{K}\oplus\skew{n}{K}$ for $\charfld K\neq2$](Symmetric%20and%20skew-symmetric%20decomposition%20of%20matrices.md)
-Equivalences: [$\Phi_\mc{B}^\mc{C}:\hom\l(V,W\r)\simto\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)](Linear%20isomorphism%20between%20linear%20maps%20and%20matrices.md)
-Justifications: [Direct product of vector spaces/function spaces are vector spaces](Direct%20product%20of%20vector%20spaces;%20function%20spaces%20are%20vector%20spaces.md)
+Sufficiencies: [[Symmetric and skew-symmetric decomposition of matrices]]
+Equivalences: [[Linear isomorphism between linear maps and matrices]]
+Justifications: [[Direct product of vector spaces; function spaces are vector spaces]]
 
 ``` ad-Definition
 title: Definition.

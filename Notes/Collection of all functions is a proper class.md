@@ -3,7 +3,7 @@
 Date Created: 28/01/2022 17:27:04
 Tags: #Proposition
 
-Proved by: [[Collection of all singletons is a proper class]], [$\axispec$](Axiom%20Schema%20of%20Specification.md)
+Proved by: [[Collection of all singletons is a proper class]], [[Axiom Schema of Specification]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

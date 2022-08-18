@@ -5,11 +5,11 @@ Tags: #Definition
 
 Types: [[Orthonormal Basis]]
 Examples: [[Basis for null space]], [[Basis for column space]]
-Constructions: [[Dimension (Linear Algebra)]], [Coordinate representation of $V$](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md), [[Matrix Representation of a Linear Map]], [Basis Transition Map/Matrix](Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md)
+Constructions: [[Dimension (Linear Algebra)]], [[Coordinate Representation of Finite-dim. Vector Spaces]], [[Matrix Representation of a Linear Map]], [[Basis Transition Map; Change of Basis Matrix]]
 Generalizations: _Not Applicable_
 
 Properties: [[Invariance of cardinality of bases (finite-dim.)]], [[Existence of unique linear map via action on basis vectors]]
-Sufficiencies: [[Every vector space has a basis]], [Linearly independent $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis](Linearly%20independent%20set%20with%20same%20cardinality%20as%20dimension%20(finite)%20is%20a%20basis.md), [Spanning set $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis](Spanning%20subset%20with%20same%20cardinality%20as%20dimension%20(finite)%20is%20a%20basis.md)
+Sufficiencies: [[Every vector space has a basis]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]], [[Spanning subset with same cardinality as dimension (finite) is a basis]]
 Equivalences: [[Unique Representation Theorem (Hamel)]]
 Justifications: _Not Applicable_
 

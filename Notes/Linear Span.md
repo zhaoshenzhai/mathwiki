@@ -8,10 +8,10 @@ Examples: _Not Applicable_
 Constructions: [[Spanning Set]], [[Minkowski Sum (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
-Properties: [Linearly dependent $\Leftrightarrow$ exists span redundant element](Linearly%20dependent%20iff%20exists%20span%20redundant%20element.md)
+Properties: [[Linearly dependent iff exists span redundant element]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [Linear combination $\Leftrightarrow$ in smallest containing subspace](Linear%20combination%20iff%20in%20smallest%20containing%20subspace.md), [[Arbitrary intersection of linear subspaces is a linear subspace]]
+Justifications: [[Linear combination iff in smallest containing subspace]], [[Arbitrary intersection of linear subspaces is a linear subspace]]
 
 ``` ad-Definition
 title: Definition.

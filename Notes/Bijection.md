@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Inverse of bijection is a bijection]], [[Composition of bijections is a bijection]]
 Sufficiencies: _Not Applicable_
-Equivalences: [Invertible $\Leftrightarrow$ bijective](Invertible%20iff%20bijective.md)
+Equivalences: [[Invertible iff bijective]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

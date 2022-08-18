@@ -4,13 +4,13 @@ Date Created: 26/01/2022 18:48:16
 Tags: #Definition
 
 Types: [[Linear Isomorphism]]
-Examples: [[Identity Function]], [Elementary Matrices/Operations](Elementary%20Matrices%20and%20Operations.md)
+Examples: [[Identity Function]], [[Elementary Matrices and Operations]]
 Constructions: [[Isomorphic Sets]]
 Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]
 
 Properties: [[Inverse of bijection is a bijection]], [[Inverse of linear map is linear]]
 Sufficiencies: [[Left and right inverses coincide (function)]]
-Equivalences: [Invertible $\Leftrightarrow$ bijective](Invertible%20iff%20bijective.md)
+Equivalences: [[Invertible iff bijective]]
 Justifications: [[Inverse of function is unique]]
 
 ``` ad-Definition

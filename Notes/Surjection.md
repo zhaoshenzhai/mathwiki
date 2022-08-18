@@ -4,13 +4,13 @@ Date Created: 20/01/2022 09:09:09
 Tags: #Definition
 
 Types: [[Bijection]]
-Examples: [[Canonical Projection]], [[Projection Maps]], [Linear map $V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective](Linear%20map%20between%20vector%20spaces%20of%20same%20dimension%20is%20injective%20iff%20surjective.md)
+Examples: [[Canonical Projection]], [[Projection Maps]], [[Linear map between vector spaces of same dimension is injective iff surjective]]
 Constructs: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [Right-invertible $\Leftrightarrow$ surjection (Choice)](Right-invertible%20iff%20surjection%20(Choice).md), [Surjection $\Leftrightarrow$ epimorphism (Set Theory)](Surjection%20iff%20epimorphism%20(Set%20Theory).md)
+Equivalences: [[Right-invertible iff surjection (Choice)]], [[Surjection iff epimorphism (Set Theory)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

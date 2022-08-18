@@ -7,15 +7,15 @@ mathLink: $\hom_{\catvect}\!\l(V,W\r)$
 Date Created: 16/05/2022 19:38:42
 Tags: #Definition
 
-Types: [$\edm_{\catvect}\!\l(V\r)$](Endomorphism%20Algebra%20(Vector%20Space).md)
+Types: [[Endomorphism Algebra (Vector Space)]]
 Examples: _Not Applicable_
-Constructions: [$\catvect$](Category%20of%20Vector%20Spaces.md)
+Constructions: [[Category of Vector Spaces]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of composition of linear maps]]
 Sufficiencies: _Not Applicable_
-Equivalences: [$\Phi_\mc{B}^\mc{C}:\hom\l(V,W\r)\simto\mat{m\times n}{K}$ ($\dim V=n$, $\dim W=m$)](Linear%20isomorphism%20between%20linear%20maps%20and%20matrices.md)
-Justifications: [$\hom\l(V,W\r)\subseteq W^V$ is a linear subspace](Set%20of%20linear%20maps%20form%20a%20linear%20subspace%20of%20the%20function%20space.md)
+Equivalences: [[Linear isomorphism between linear maps and matrices]]
+Justifications: [[Set of linear maps form a linear subspace of the function space]]
 
 ``` ad-Definition
 title: Definition.

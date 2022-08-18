@@ -4,12 +4,12 @@ Date Created: 21/02/2022 23:07:45
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [Surjection $\Leftrightarrow$ epimorphism (Set Theory)](Surjection%20iff%20epimorphism%20(Set%20Theory).md)
+Examples: [[Surjection iff epimorphism (Set Theory)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [Right-invertible $\Rightarrow$ epimorphism](Right-invertible%20implies%20epimorphism.md), [[Morphisms in thin category are both monos and epis]]
+Sufficiencies: [[Right-invertible implies epimorphism]], [[Morphisms in thin category are both monos and epis]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

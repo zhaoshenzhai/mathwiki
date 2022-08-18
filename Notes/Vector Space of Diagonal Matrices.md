@@ -15,7 +15,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [$\Diag{n}{K}\subseteq\mat{n}{K}$ is a linear subspace](Diagonal%20matrices%20form%20a%20linear%20subspace%20of%20set%20of%20matrices.md)
+Justifications: [[Diagonal matrices form a linear subspace of set of matrices]]
 
 ``` ad-Definition
 title: Definition.

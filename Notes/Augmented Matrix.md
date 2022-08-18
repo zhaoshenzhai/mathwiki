@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md), [Matrix invertible $\Leftrightarrow$ $\l[A\mid I_n\r]\sim\l[I_n\mid A^{-1}\r]$](Matrix%20invertible%20iff%20augmented%20matrix%20reducible%20to%20identity.md), [$\l[A\mid\v{b}\r]$ in RREF $\Rightarrow$ $A$ in RREF](Matrix%20in%20RREF%20if%20augmented%20with%20tuple%20is%20in%20RREF.md)
+Properties: [[Row-equivalent augmented matrices implies equivalent linear systems]], [[Matrix invertible iff augmented matrix reducible to identity]], [[Matrix in RREF if augmented with tuple is in RREF]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

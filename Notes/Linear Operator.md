@@ -3,9 +3,9 @@
 Date Created: 02/05/2022 15:10:12
 Tags: #Definition
 
-Types: [Diagonalizable Operator/Matrix](Diagonalizable%20Operator%20slash%20Matrix.md)
+Types: [[Diagonalizable Operator slash Matrix]]
 Examples: [[Orthogonal Projection]]
-Constructions: [$\edm_{\catvect}\!\l(V\r)$](Endomorphism%20Algebra%20(Vector%20Space).md), [[Eigenvector]], [[Eigenvalue]]
+Constructions: [[Endomorphism Algebra (Vector Space)]], [[Eigenvector]], [[Eigenvalue]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

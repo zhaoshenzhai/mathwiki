@@ -4,14 +4,14 @@ Date Created: 03/04/2022 14:30:50
 Tags: #Definition
 
 Types: [[Invariant Subspace]]
-Examples: [$\hom_{\catvect}\!\l(V,W\r)$](Vector%20Space%20of%20Linear%20Maps.md), [$\Diag{n}{K}$](Vector%20Space%20of%20Diagonal%20Matrices.md), [$\sym{n}{K}$](Vector%20Space%20of%20Symmetric%20Matrices.md), [$\skew{n}{K}$](Vector%20Space%20of%20Skew-symmetric%20Matrices.md)
+Examples: [[Vector Space of Linear Maps]], [[Vector Space of Diagonal Matrices]], [[Vector Space of Symmetric Matrices]], [[Vector Space of Skew-symmetric Matrices]]
 Constructions: [[Linear Span]], [[Minkowski Sum (Linear Algebra)]], [[Complement (Linear Subspace)]]
 Generalizations: _Not Applicable_
 
-Properties: [$\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$](Dimension%20of%20subspace%20less%20than%20dimension%20of%20vector%20space%20(finite-dim.;%20strict%20iff%20proper).md), [[Arbitrary intersection of linear subspaces is a linear subspace]]
+Properties: [[Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper)]], [[Arbitrary intersection of linear subspaces is a linear subspace]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [$U\subseteq V$ is a vector space $\Leftrightarrow$ $0\in U$ and restricted operations close in $U$](Linear%20subspace%20iff%20closed%20under%20linear%20combination.md)
+Justifications: [[Linear subspace iff closed under linear combination]]
 
 ``` ad-Definition
 title: Definition.

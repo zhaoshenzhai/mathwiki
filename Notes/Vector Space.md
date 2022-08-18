@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: [[Finite-dimensional Vector Space]], [[Inner Product Space]]
 Examples: [[Function Space (Linear Algebra)]]
-Constructions: [[Linear Combination]], [[Linear Subspace]], [[Direct Product (Vector Space)]], [$\catvect$](Category%20of%20Vector%20Spaces.md)
+Constructions: [[Linear Combination]], [[Linear Subspace]], [[Direct Product (Vector Space)]], [[Category of Vector Spaces]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of vector spaces]], [[Every vector space has a basis]]

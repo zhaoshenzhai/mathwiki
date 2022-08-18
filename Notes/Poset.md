@@ -3,9 +3,9 @@
 Date Created: 24/01/2022 15:29:44
 Tags: #Definition
 
-Types: [[Bounded Poset]], [Meet/Join-semilattice](Meet%20and%20Join-semilattices.md), [[Dedekind-complete Ordered Set]], [[Totally Ordered Set]]
+Types: [[Bounded Poset]], [[Meet and Join-semilattices]], [[Dedekind-complete Ordered Set]], [[Totally Ordered Set]]
 Examples: [[Inclusion Poset]]
-Constructions: [Minimal/Maximal Element](Minimal%20and%20Maximal%20Elements.md), [Lower/Upper Bound](Lower%20and%20Upper%20Bounds.md), [[Initial Segment]]
+Constructions: [[Minimal and Maximal Elements]], [[Lower and Upper Bounds]], [[Initial Segment]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

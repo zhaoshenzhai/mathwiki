@@ -7,7 +7,7 @@ mathLink: $\mat{n}{K}=\sym{n}{K}\oplus\skew{n}{K}$ for $\charfld K\neq2$
 Date Created: 09/05/2022 18:30:12
 Tags: #Proposition
 
-Proved by: [[Transposition is a linear map]], [$\sym{n}{K}\subseteq\mat{n}{K}$ is a linear subspace](Symmetric%20matrices%20form%20a%20linear%20subspace%20of%20set%20of%20matrices.md), [$\skew{n}{K}\subseteq\mat{n}{K}$ is a linear subspace](Skew-symmetric%20matrices%20form%20a%20linear%20subspace%20of%20set%20of%20matrices.md)
+Proved by: [[Transposition is a linear map]], [[Symmetric matrices form a linear subspace of set of matrices]], [[Skew-symmetric matrices form a linear subspace of set of matrices]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -3,7 +3,7 @@
 Date Created: 29/01/2022 18:53:33
 Tags: #Proposition
 
-Proved by: [$\bigcup\em=\em$](Union%20of%20empty%20set%20is%20empty.md)
+Proved by: [[Union of empty set is empty]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

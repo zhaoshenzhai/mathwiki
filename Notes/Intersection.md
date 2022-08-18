@@ -8,7 +8,7 @@ Examples: [[Intersection of empty set is a proper class]]
 Constructions: [[Set of Unions and Intersections]]
 Generalizations: _Not Applicable_
 
-Properties: [Basic properties of $\bigcup$, $\bigcap$, and $\pow$](Basic%20properties%20of%20unions,%20intersections,%20and%20power%20sets.md), [[De Morgan's Laws]]
+Properties: [[Basic properties of unions, intersections, and power sets]], [[De Morgan's Laws]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Intersection of a set is a set]]

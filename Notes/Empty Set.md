@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [$\bigcup\em=\em$](Union%20of%20empty%20set%20is%20empty.md)
+Properties: [[Union of empty set is empty]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Empty set exists and is unique]]

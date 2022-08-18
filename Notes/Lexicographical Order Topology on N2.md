@@ -15,7 +15,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [Lexicographical order on $\N^2$ is bounded below](Lexicographical%20order%20on%20N2%20is%20bounded%20below.md)
+Justifications: [[Lexicographical order on N2 is bounded below]]
 
 ``` ad-Definition
 title: Definition.

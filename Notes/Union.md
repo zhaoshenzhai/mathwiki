@@ -4,14 +4,14 @@ Date Created: 17/01/2022 13:00:40
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [$\bigcup\em=\em$](Union%20of%20empty%20set%20is%20empty.md)
+Examples: [[Union of empty set is empty]]
 Constructions: [[Set of Unions and Intersections]], [[Successor]]
 Generalizations: _Not Applicable_
 
-Properties: [Basic properties of $\bigcup$, $\bigcap$, and $\pow$](Basic%20properties%20of%20unions,%20intersections,%20and%20power%20sets.md), [[De Morgan's Laws]]
+Properties: [[Basic properties of unions, intersections, and power sets]], [[De Morgan's Laws]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [$\axiunion$](Axiom%20of%20Union.md)
+Justifications: [[Axiom of Union]]
 
 ``` ad-Definition
 title: Definition.

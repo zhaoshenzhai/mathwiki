@@ -13,9 +13,9 @@ Constructions: [[Change of basis for linear maps]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [$\psi_{\mc{B}\to\mc{B}'}$ is represented under standard basis by $\l[\id_V\r]_\mc{B}^{\mc{B}'}$](Basis%20transition%20map%20acts%20as%20left-multiplication%20by%20change%20of%20basis%20matrix.md)
+Sufficiencies: [[Basis transition map acts as left-multiplication by change of basis matrix]]
 Equivalences: _Not Applicable_
-Justifications: [$\phi_\mc{B}:V\simto K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md), [[Isomorphism of objects is an equivalence relation]]
+Justifications: [[Linear isomorphism between finite-dim vector spaces and tuple spaces]], [[Isomorphism of objects is an equivalence relation]]
 
 ``` ad-Definition
 title: Definition.

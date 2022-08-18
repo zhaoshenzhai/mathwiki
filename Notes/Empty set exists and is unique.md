@@ -3,7 +3,7 @@
 Date Created: 03/06/2022 12:36:03
 Tags: #Proposition
 
-Proved by: [$\axispec$](Axiom%20Schema%20of%20Specification.md), [$\axiext$](Axiom%20of%20Extensionality.md)
+Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]]
 Justifications: _Not Applicable_
 
 Generalizations: [[Set-builder notation is unique]]

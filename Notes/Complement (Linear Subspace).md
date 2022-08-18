@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [Subspaces $U\subseteq V$ with $\dim V<\infty$ have complements](Subspaces%20of%20finite-dim.%20vector%20spaces%20have%20complements.md)
+Sufficiencies: [[Subspaces of finite-dim. vector spaces have complements]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

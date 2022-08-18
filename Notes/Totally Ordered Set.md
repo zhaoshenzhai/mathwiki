@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Open Interval]], [[Half-open Intervals]], [[Closed Interval]], [[Open Ray]]
 Generalizations: _Not Applicable_
 
-Properties: [Least/greatest $=$ minimal/maximal for totally ordered sets](Least%20or%20greatest%20equals%20minimal%20or%20maximal%20for%20totally%20ordered%20sets.md)
+Properties: [[Least or greatest equals minimal or maximal for totally ordered sets]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

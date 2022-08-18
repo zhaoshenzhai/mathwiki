@@ -4,13 +4,13 @@ Date Created: 20/01/2022 09:20:32
 Tags: #Definition
 
 Types: [[Bijection]]
-Examples: [[Inclusion Function]], [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md), [Linear map $V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrightarrow$ surjective](Linear%20map%20between%20vector%20spaces%20of%20same%20dimension%20is%20injective%20iff%20surjective.md)
+Examples: [[Inclusion Function]], [[Linear map is injective iff kernel vanishes]], [[Linear map between vector spaces of same dimension is injective iff surjective]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [Complement of images subset of image of complement; injection $\Rightarrow$ equality](Complement%20of%20images%20subset%20of%20image%20of%20complement;%20injection%20implies%20equality.md)
+Properties: [[Complement of images subset of image of complement; injection implies equality]]
 Sufficiencies: _Not Applicable_
-Equivalences: [Left-invertible $\Leftrightarrow$ injection](Left-invertible%20iff%20injection.md), [Image of intersection subset of intersection of images; equal $\Leftrightarrow$ injection](Image%20of%20intersection%20subset%20of%20intersection%20of%20images;%20equal%20iff%20injection.md), [Injection $\Leftrightarrow$ monomorphism (Set Theory)](Injection%20iff%20monomorphism%20(Set%20Theory).md)
+Equivalences: [[Left-invertible iff injection]], [[Image of intersection subset of intersection of images; equal iff injection]], [[Injection iff monomorphism (Set Theory)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

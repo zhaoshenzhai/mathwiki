@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 01/04/2022 23:50:42
 Tags: #Proposition
 
-Proved by:  [$\catset$ is a locally-small category](Category%20of%20sets%20is%20a%20locally-small%20category.md), [[Identity function is a linear map]], [[Composition of linear maps is a linear map]]
+Proved by:  [[Category of sets is a locally-small category]], [[Identity function is a linear map]], [[Composition of linear maps is a linear map]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

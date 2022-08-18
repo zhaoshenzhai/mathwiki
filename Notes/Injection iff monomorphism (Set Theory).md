@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 20/02/2022 19:16:39
 Tags: #Proposition
 
-Proved by: [Left-invertible $\Leftrightarrow$ injection](Left-invertible%20iff%20injection.md), [Left-invertible $\Rightarrow$ monomorphism](Left-invertible%20implies%20monomorphism.md)
+Proved by: [[Left-invertible iff injection]], [[Left-invertible implies monomorphism]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

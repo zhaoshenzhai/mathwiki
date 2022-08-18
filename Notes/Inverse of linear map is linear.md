@@ -3,7 +3,7 @@
 Date Created: 28/05/2022 14:44:08
 Tags: #Proposition
 
-Proved by: [Invertible $\Leftrightarrow$ bijective](Invertible%20iff%20bijective.md)
+Proved by: [[Invertible iff bijective]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

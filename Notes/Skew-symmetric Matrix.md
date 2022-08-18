@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [$\skew{n}{K}$](Vector%20Space%20of%20Skew-symmetric%20Matrices.md)
+Constructions: [[Vector Space of Skew-symmetric Matrices]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

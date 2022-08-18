@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 09/06/2022 11:12:11
 Tags: #Proposition
 
-Proved by: [Elementary matrices/operations have inverses of the same type](Elementary%20matrices%20slash%20operations%20have%20inverses%20of%20the%20same%20type.md), [[Product of invertible matrices is invertible]], [[Matrix Invertibility Theorem]]
+Proved by: [[Elementary matrices slash operations have inverses of the same type]], [[Product of invertible matrices is invertible]], [[Matrix Invertibility Theorem]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

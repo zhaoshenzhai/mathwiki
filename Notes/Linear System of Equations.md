@@ -9,8 +9,8 @@ Constructions: [[Augmented Matrix]]
 Generalizations: _Not Applicable_
 
 Properties: [[Solutions of linear system of equations]]
-Sufficiencies: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md), [Linear $m\times n$ system $A\v{x}=\v{b}$ with $m>n$ is inconsistent for some $\v{b}\in K^m$](Linear%20system%20with%20more%20equations%20than%20unknowns%20is%20inconsistent%20for%20some%20constant%20terms.md)
-Equivalences: [Linear system $A\v{x}=\v{b}$ consistent $\Leftrightarrow$ $\rank A=\rank\l[A\mid\v{b}\r]$](Linear%20system%20consistent%20iff%20rank%20is%20preserved%20when%20augmented%20with%20constant%20term.md)
+Sufficiencies: [[Row-equivalent augmented matrices implies equivalent linear systems]], [[Linear system with more equations than unknowns is inconsistent for some constant terms]]
+Equivalences: [[Linear system consistent iff rank is preserved when augmented with constant term]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

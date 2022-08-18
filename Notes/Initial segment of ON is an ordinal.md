@@ -3,7 +3,7 @@
 Date Created: 02/02/2022 15:15:55
 Tags: #Proposition
 
-Proved by: [[Well-ordering well-orders subsets]], [Transitive set $\Leftrightarrow$ every element is a subset](Transitive%20set%20iff%20every%20element%20is%20a%20subset.md)
+Proved by: [[Well-ordering well-orders subsets]], [[Transitive set iff every element is a subset]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

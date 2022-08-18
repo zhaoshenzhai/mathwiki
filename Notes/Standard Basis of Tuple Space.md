@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [Right/left multiplication by basis vector picks out column/row](Right%20slash%20left%20multiplication%20by%20basis%20vector%20picks%20out%20column%20slash%20row.md)
+Properties: [[Right slash left multiplication by basis vector picks out column slash row]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Standard basis of tuple space is an ordered basis]]

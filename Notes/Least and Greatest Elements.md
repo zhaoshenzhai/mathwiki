@@ -12,10 +12,10 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [Least/greatest $=$ minimal/maximal for totally ordered sets](Least%20or%20greatest%20equals%20minimal%20or%20maximal%20for%20totally%20ordered%20sets.md)
+Properties: [[Least or greatest equals minimal or maximal for totally ordered sets]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [Least/Greatest elements are unique](Least%20slash%20Greatest%20elements%20are%20unique.md)
+Justifications: [[Least slash Greatest elements are unique]]
 
 ``` ad-Definition
 title: Definition.

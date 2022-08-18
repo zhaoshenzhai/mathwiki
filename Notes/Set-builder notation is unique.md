@@ -3,7 +3,7 @@
 Date Created: 16/01/2022 15:10:26
 Tags: #Proposition
 
-Proved by: [$\axiext$](Axiom%20of%20Extensionality.md)
+Proved by: [[Axiom of Extensionality]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

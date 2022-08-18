@@ -9,13 +9,13 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [Meet/Join-semilattice](Meet%20and%20Join-semilattices.md), [[Dedekind-complete Ordered Set]]
+Constructions: [[Meet and Join-semilattices]], [[Dedekind-complete Ordered Set]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [Supremum/infimum are unique](Supremum%20slash%20infimum%20are%20unique.md)
+Justifications: [[Supremum slash infimum are unique]]
 
 ``` ad-Definition
 title: Definition.

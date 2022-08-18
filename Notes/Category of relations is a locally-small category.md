@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 25/02/2022 13:16:20
 Tags: #Proposition
 
-Proved by: [$\catset$ is a locally-small category](Category%20of%20sets%20is%20a%20locally-small%20category.md), [$\axispec$](Axiom%20Schema%20of%20Specification.md)
+Proved by: [[Category of sets is a locally-small category]], [[Axiom Schema of Specification]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

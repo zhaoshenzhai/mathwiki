@@ -5,12 +5,12 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [Elementary Matrices/Operations](Elementary%20Matrices%20and%20Operations.md)
+Constructions: [[Elementary Matrices and Operations]]
 Generalizations: _Not Applicable_
 
-Properties: [[Basic properties of matrix operations]], [Matrix invertible $\Leftrightarrow$ $\l[A\mid I_n\r]\sim\l[I_n\mid A^{-1}\r]$](Matrix%20invertible%20iff%20augmented%20matrix%20reducible%20to%20identity.md)
+Properties: [[Basic properties of matrix operations]], [[Matrix invertible iff augmented matrix reducible to identity]]
 Sufficiencies: _Not Applicable_
-Equivalences: [$\l[\id_V\r]_\mc{B}=I_n$ ($\dim V=n$)](Identity%20function%20on%20a%20vector%20space%20is%20represented%20by%20the%20identity%20matrix.md)
+Equivalences: [[Identity function on a vector space is represented by the identity matrix]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

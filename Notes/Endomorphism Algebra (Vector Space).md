@@ -15,7 +15,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [$\edm_{\catvect}\!\l(V\r)$ is a unital associative algebra](Set%20of%20endomorphisms%20over%20a%20vector%20space%20form%20a%20unital%20associative%20algebra.md)
+Justifications: [[Set of endomorphisms over a vector space form a unital associative algebra]]
 
 ``` ad-Definition
 title: Definition.

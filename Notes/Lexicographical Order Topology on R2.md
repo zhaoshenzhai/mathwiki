@@ -8,14 +8,14 @@ Date Created: 07/02/2022 11:29:31
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [Open set in lexicographical order topology of $\R^2$](Open%20set%20in%20lexicographical%20order%20topology%20of%20R2.md), [[Lexicographical plane convex set (not interval)]]
+Examples: [[Open set in lexicographical order topology of R2]], [[Lexicographical plane convex set (not interval)]]
 Constructions: [[Ordered Square]]
 Generalizations: _Not Applicable_
 
-Properties: [Lexicographical order topology strictly finer than standard topology on $\R^2$](Lexicographical%20order%20topology%20strictly%20finer%20than%20standard%20topology%20on%20R2.md)
+Properties: [[Lexicographical order topology strictly finer than standard topology on R2]]
 Sufficiencies: _Not Applicable_
-Equivalences: [Lexicographical order topology on $\R^2$ is discrete times standard](Lexicographical%20order%20topology%20on%20R2%20is%20discrete%20times%20standard.md)
-Justifications: [Lexicographical order on $\R^2$ is unbounded](Lexicographical%20order%20on%20R2%20is%20unbounded.md)
+Equivalences: [[Lexicographical order topology on R2 is discrete times standard]]
+Justifications: [[Lexicographical order on R2 is unbounded]]
 
 ``` ad-Definition
 title: Definition.

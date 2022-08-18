@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [Diagonalizable $\Leftrightarrow$ exists basis of eigenvectors](Diagonalizable%20iff%20exists%20basis%20of%20eigenvectors.md)
+Equivalences: [[Diagonalizable iff exists basis of eigenvectors]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

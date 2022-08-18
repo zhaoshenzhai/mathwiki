@@ -10,7 +10,7 @@ Generalizations: [[Right-invertible Morphism]]
 
 Properties: [[Left and right inverses coincide (function)]]
 Sufficiencies: _Not Applicable_
-Equivalences: [Right-invertible $\Leftrightarrow$ surjection (Choice)](Right-invertible%20iff%20surjection%20(Choice).md)
+Equivalences: [[Right-invertible iff surjection (Choice)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

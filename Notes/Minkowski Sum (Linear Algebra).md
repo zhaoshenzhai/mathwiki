@@ -4,7 +4,7 @@ Date Created: 20/04/2022 17:04:04
 Tags: #Definition
 
 Types: [[Internal Direct Sum (Linear Algebra)]]
-Examples: [Solutions of $A\v{x}=\v{b}$ decompose as $\l\{\v{s}_p\r\}+\nullsp A$ for any $A\v{s}_p=\v{b}$](Solutions%20of%20a%20linear%20system%20decompose%20as%20sum%20of%20particular%20and%20null.md)
+Examples: [[Solutions of a linear system decompose as sum of particular and null]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

@@ -4,7 +4,7 @@ Date Created: 21/02/2022 13:22:50
 Tags: #Definition
 
 Types: [[Thin Category]]
-Examples: [$\catset$](Category%20of%20Sets.md), [$\catrel$](Category%20of%20Relations.md), [$\catvect$](Category%20of%20Vector%20Spaces.md)
+Examples: [[Category of Sets]], [[Category of Relations]], [[Category of Vector Spaces]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

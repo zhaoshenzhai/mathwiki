@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: [[Bounded Open Ray]]
 Examples: _Not Applicable_
-Constructions: [Lower-limit Topology on $\R$](Lower-limit%20Topology%20on%20R.md), [Upper-limit Topology on $\R$](Upper-limit%20Topology%20on%20R.md)
+Constructions: [[Lower-limit Topology on R]], [[Upper-limit Topology on R]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

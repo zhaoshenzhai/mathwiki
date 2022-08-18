@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: [[Reduced Row-echelon Matrix]], [[Square Matrix]], [[Left-invertible Matrix]], [[Right-inverible Matrix]]
 Examples: [[Augmented Matrix]]
-Constructions: [$\mat{m\times n}{K}$ (Set)](Set%20of%20Matrices.md), [[Left-multiplication of Matrices]], [Kernel/Null Space](Kernel;%20Null%20Space.md), [Image/Column Space](Image;%20Column%20Space.md)
+Constructions: [[Set of Matrices]], [[Left-multiplication of Matrices]], [[Kernel; Null Space]], [[Image; Column Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

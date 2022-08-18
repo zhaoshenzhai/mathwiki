@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Composition (Linear Map)]]
-Constructions: [$\catset$](Category%20of%20Sets.md)
+Constructions: [[Category of Sets]]
 Generalizations: [[Composition (Relation)]]
 
 Properties: [[Identity function is the identity of function composition]], [[Composition of bijections is a bijection]]

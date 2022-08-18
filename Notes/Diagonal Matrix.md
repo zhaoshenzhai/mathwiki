@@ -5,11 +5,11 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Identity Matrix]]
-Constructions: [$\Diag{n}{K}$](Vector%20Space%20of%20Diagonal%20Matrices.md)
+Constructions: [[Vector Space of Diagonal Matrices]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [Diagonalizable Operator/Matrix](Diagonalizable%20Operator%20slash%20Matrix.md)
+Sufficiencies: [[Diagonalizable Operator slash Matrix]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

@@ -5,12 +5,12 @@ Tags: #Definition
 
 Types: [[Linear Isomorphism]], [[Linear Operator]]
 Examples: [[Left-multiplication of Matrices]], [[Transposition]]
-Constructions: [[Matrix Representation of a Linear Map]], [Kernel/Null Space](Kernel;%20Null%20Space.md), [Image/Column Space](Image;%20Column%20Space.md), [[Composition (Linear Map)]], [$\hom_{\catvect}\!\l(V,W\r)$](Vector%20Space%20of%20Linear%20Maps.md)
+Constructions: [[Matrix Representation of a Linear Map]], [[Kernel; Null Space]], [[Image; Column Space]], [[Composition (Linear Map)]], [[Vector Space of Linear Maps]]
 Generalizations: [[Multilinear Map]]
 
-Properties: [Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$](Linear%20map%20is%20injective%20iff%20kernel%20vanishes.md), [[Inverse of linear map is linear]], [[Linear map fixes zero vector]]
+Properties: [[Linear map is injective iff kernel vanishes]], [[Inverse of linear map is linear]], [[Linear map fixes zero vector]]
 Sufficiencies: [[Existence of unique linear map via action on basis vectors]], [[Criteria for equality of linear maps via spanning set]]
-Equivalences: [Action of linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ left-multiplication of matrix representation](Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md)
+Equivalences: [[Action of linear map repr under basis left-multiplication of matrix representation]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

@@ -9,10 +9,10 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Orthonormal Expansion]]
-Constructions: [$\phi_\mc{B}:V\simto K^n$ ($\dim V=n$)](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md), [Basis Transition Map/Matrix](Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md)
+Constructions: [[Linear isomorphism between finite-dim vector spaces and tuple spaces]], [[Basis Transition Map; Change of Basis Matrix]]
 Generalizations: _Not Applicable_
 
-Properties: [Action of linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ left-multiplication of matrix representation](Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md)
+Properties: [[Action of linear map repr under basis left-multiplication of matrix representation]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Unique Representation Theorem (Hamel)]]

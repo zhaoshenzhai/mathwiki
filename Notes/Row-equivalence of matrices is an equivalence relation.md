@@ -3,7 +3,7 @@
 Date Created: 23/03/2022 19:38:41
 Tags: #Proposition
 
-Proved by: [Elementary matrices/operations have inverses of the same type](Elementary%20matrices%20slash%20operations%20have%20inverses%20of%20the%20same%20type.md)
+Proved by: [[Elementary matrices slash operations have inverses of the same type]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

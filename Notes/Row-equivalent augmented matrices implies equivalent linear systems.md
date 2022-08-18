@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 23/03/2022 22:18:42
 Tags: #Proposition
 
-Proved by: [Row-equivalence of matrices $\Leftrightarrow$ factors through invertible matrix](Row-equivalence%20of%20matrices%20iff%20factors%20through%20invertible%20matrix.md)
+Proved by: [[Row-equivalence of matrices iff factors through invertible matrix]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

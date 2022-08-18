@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [Trichotomous $\Leftrightarrow$ asymmetric and connected](Trichotomous%20iff%20asymmetric%20and%20connected.md)
+Equivalences: [[Trichotomous iff asymmetric and connected]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

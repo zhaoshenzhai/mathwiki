@@ -5,12 +5,12 @@ Tags: #Definition
 
 Types: [[Function]], [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]], [[Irreflexive Relation]], [[Asymmetric Relation]], [[Antisymmetric Relation]], [[Connected Relation]], [[Trichotomous Relation]], [[Well-founded Relation]]
 Examples: _Not Applicable_ 
-Constructions: [[Domain and Range]], [[Restriction (Relation)]], [[Image (Relation)]], [[Inverse (Relation)]], [[Preimage (Relation)]], [[Composition (Relation)]], [[Reflexive Closure]], [$\catrel$](Category%20of%20Relations.md)
+Constructions: [[Domain and Range]], [[Restriction (Relation)]], [[Image (Relation)]], [[Inverse (Relation)]], [[Preimage (Relation)]], [[Composition (Relation)]], [[Reflexive Closure]], [[Category of Relations]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [Binary relation $\Leftrightarrow$ subset of Cartesian-Kuratowski product](Binary%20relation%20iff%20subset%20of%20Cartesian-Kuratowski%20product.md)
+Equivalences: [[Binary relation iff subset of Cartesian-Kuratowski product]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

@@ -3,7 +3,7 @@
 Date Created: 05/06/2022 19:01:53
 Tags: #Proposition
 
-Proved by: [[Image of linear map is a subspace of its codomain]], [$V\iso W$ $\Leftrightarrow$ $\dim V=\dim W$ ($V,W$ finite-dim.)](Linearly%20isomorphic%20iff%20dimensions%20coincide%20(finite-dim.).md)
+Proved by: [[Image of linear map is a subspace of its codomain]], [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

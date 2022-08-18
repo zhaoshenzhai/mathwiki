@@ -7,7 +7,7 @@ mathLink: $A$ invertible $\Leftrightarrow$ $L_A$ invertible
 Date Created: 29/05/2022 17:24:27
 Tags: #Proposition
 
-Proved by: [Linear map invertible $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ matrix representation invertible](Linear%20map%20invertible%20repr%20under%20basis%20matrix%20representation%20invertible.md), [[Basic properties of left-multiplication of matrices]]
+Proved by: [[Linear map invertible repr under basis matrix representation invertible]], [[Basic properties of left-multiplication of matrices]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

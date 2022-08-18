@@ -8,9 +8,9 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [Diagonalizable $\Leftrightarrow$ exists basis of eigenvectors](Diagonalizable%20iff%20exists%20basis%20of%20eigenvectors.md), [Distinct eigenvalues $\Rightarrow$ linearly independent eigenvectors](Distinct%20eigenvalues%20implies%20linearly%20independent%20eigenvectors.md)
+Properties: [[Diagonalizable iff exists basis of eigenvectors]], [[Distinct eigenvalues implies linearly independent eigenvectors]]
 Sufficiencies: _Not Applicable_
-Equivalences: [Linear map $T$ has eigenvector $v$ $\Leftrightarrow$ $\span\l\{v\r\}$ is $T$-invariant](Eigenvector%20iff%20span%20is%20invariant%20under%20linear%20map.md)
+Equivalences: [[Eigenvector iff span is invariant under linear map]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

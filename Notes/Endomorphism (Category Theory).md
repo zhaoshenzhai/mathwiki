@@ -4,7 +4,7 @@ Date Created: 21/02/2022 15:32:10
 Tags: #Definition
 
 Types: [[Automorphism (Category Theory)]]
-Examples: [$\edm_{\catvect}\!\l(V\r)$](Endomorphism%20Algebra%20(Vector%20Space).md)
+Examples: [[Endomorphism Algebra (Vector Space)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

@@ -4,13 +4,13 @@ Date Created: 29/04/2022 18:22:52
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [Matrix multiplication (columns/rows)](Matrix%20multiplication%20(columns%20slash%20rows).md)
+Examples: [[Matrix multiplication (columns slash rows)]]
 Constructions: [[Linear Independence]], [[Linear Span]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: [[Unique Representation Theorem (Hamel)]]
-Equivalences: [Linear combination $\Leftrightarrow$ in smallest containing subspace](Linear%20combination%20iff%20in%20smallest%20containing%20subspace.md)
+Equivalences: [[Linear combination iff in smallest containing subspace]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

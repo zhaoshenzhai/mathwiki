@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [$\axipairing$](Axiom%20of%20Pairing.md)
+Justifications: [[Axiom of Pairing]]
 
 ``` ad-Definition
 title: Definition.

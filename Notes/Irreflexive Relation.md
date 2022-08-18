@@ -8,8 +8,8 @@ Examples: _Not Applicable_
 Constructions: [[Strict Partial Order]]
 Generalizations: _Not Applicable_
 
-Properties: [Irreflexive and transitive $\Rightarrow$ asymmetric](Irreflexive%20and%20transitive%20implies%20asymmetric.md)
-Sufficiencies: [Asymmetry $\Rightarrow$ irreflexivity](Asymmetry%20implies%20irreflexivity.md), [[Well-founded relations are irreflexive]]
+Properties: [[Irreflexive and transitive implies asymmetric]]
+Sufficiencies: [[Asymmetry implies irreflexivity]], [[Well-founded relations are irreflexive]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

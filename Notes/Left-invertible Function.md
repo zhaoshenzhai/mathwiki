@@ -10,7 +10,7 @@ Generalizations: [[Left-invertible Morphism]]
 
 Properties: [[Left and right inverses coincide (function)]]
 Sufficiencies: _Not Applicable_
-Equivalences: [Left-invertible $\Leftrightarrow$ injection](Left-invertible%20iff%20injection.md)
+Equivalences: [[Left-invertible iff injection]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

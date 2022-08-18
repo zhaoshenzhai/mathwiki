@@ -3,7 +3,7 @@
 Date Created: 26/01/2022 12:09:33
 Tags: #Proposition
 
-Proved by: [[Subset relation is transitive]], [$\axiext$](Axiom%20of%20Extensionality.md)
+Proved by: [[Subset relation is transitive]], [[Axiom of Extensionality]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

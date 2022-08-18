@@ -4,13 +4,13 @@ Date Created: 23/03/2022 19:32:10
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [Matrix invertible $\Leftrightarrow$ $\l[A\mid I_n\r]\sim\l[I_n\mid A^{-1}\r]$](Matrix%20invertible%20iff%20augmented%20matrix%20reducible%20to%20identity.md)
+Examples: [[Matrix invertible iff augmented matrix reducible to identity]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [Row-equivalent augmented matrices $\Rightarrow$ equivalent linear systems](Row-equivalent%20augmented%20matrices%20implies%20equivalent%20linear%20systems.md)
+Properties: [[Row-equivalent augmented matrices implies equivalent linear systems]]
 Sufficiencies: [[Gaussian Algorithm]]
-Equivalences: [Row-equivalence of matrices $\Leftrightarrow$ factors through invertible matrix](Row-equivalence%20of%20matrices%20iff%20factors%20through%20invertible%20matrix.md)
+Equivalences: [[Row-equivalence of matrices iff factors through invertible matrix]]
 Justifications: [[Row-equivalence of matrices is an equivalence relation]], [[Elementary operations act as multiplication by its elementary matrix]]
 
 ``` ad-Definition
