@@ -18,11 +18,10 @@ while [[ "$repeat" == "Y" ]]; do
     echo -e "    ${CYAN}(1): Git${NC}"
     echo -e "    ${CYAN}(2): Search${NC}"
     echo -e "    ${CYAN}(3): Restore${NC}"
-    echo -e "    ${CYAN}(4): Math links${NC}"
-    echo -e "    ${CYAN}(5): Ghost links${NC}"
-    echo -e "    ${CYAN}(6): Mass editing${NC}"
-    echo -e "    ${CYAN}(7): Update images${NC}"
-    echo -e "    ${CYAN}(8): Reset modify time${NC}"
+    echo -e "    ${CYAN}(4): Ghost links${NC}"
+    echo -e "    ${CYAN}(5): Mass editing${NC}"
+    echo -e "    ${CYAN}(6): Update images${NC}"
+    echo -e "    ${CYAN}(7): Reset modify time${NC}"
     echo ""
 
     read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-8)]${NC} ")" action
@@ -54,19 +53,15 @@ while [[ "$repeat" == "Y" ]]; do
             $MATHWIKI_DIR/.scripts/gitRestore.sh
         ;;
         "4")
-            $MATHWIKI_DIR/.scripts/mathLinks.sh -u
-            $MATHWIKI_DIR/.scripts/mathLinks.sh -n
-        ;;
-        "5")
             $MATHWIKI_DIR/.scripts/ghostLinks.sh
         ;;
-        "6")
+        "5")
             $MATHWIKI_DIR/.scripts/massEditing.sh
         ;;
-        "7")
+        "6")
             $MATHWIKI_DIR/.scripts/updateImages.sh
         ;;
-        "8")
+        "7")
             $MATHWIKI_DIR/.scripts/resetModifyTime.sh
         ;;
     esac
