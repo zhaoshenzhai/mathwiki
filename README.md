@@ -73,7 +73,7 @@ Some stats: 572 notes, 1381 links, 55 images ([updated](https://github.com/zhaos
 
 ## :symbols: MathLinks
 
-As far as I know, the standard wiki-style links of the form `[[fileName]]` used in Obsidian does not support MathJax. Instead, one should use markdown-style links which are of the form `[displayedText](fileName.md)`; here, `displayedText` can contain MathJax. However, text remains unchanged when link is updated, so, if one wishes to have links with math, one needs to update them manually.
+As far as I know, the standard wiki-style links of the form `[[fileName]]` used in Obsidian does not support MathJax. Instead, one should use markdown-style links which are of the form `[displayedText](fileName.md)`; here, `displayedText` can contain MathJax. However, `displayedText` remains unchanged when link is updated, so, if one wishes to have links with math, one needs to update them manually. This can get out of hand really fast.
 
 I wrote a plugin, [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks), that aims to solve this issue by assigning `fileName.md` a `mathLink`, i.e. some specified text to be displayed and rendered when a note links to `fileName.md`. It can be done by inserting `mathLink: yourMathLink` to the YAML frontmatter of `fileName.md` like so:
 
@@ -85,7 +85,7 @@ mathLink: yourMathLink
 Content starts here.
 ```
 
-That's it! All links of the form `[[fileName]]` or `[fileName](fileName.md)` will now be displayed as the rendered MathJax of `yourMathLink`.
+That's it! All links of the form `[[fileName]]` or `[fileName](fileName.md)` will now be displayed as the rendered MathJax of `yourMathLink`. No changes are made to your notes, and updates to `yourMathLink` will be immediately reflected.
 
 ### Templates
 Oftentimes, the `mathLink` of `fileName.md` involves replacing some text with its math counterpart. For instance, all of `Invertible iff bijective.md`, `Linearly dependent iff exists span-redundant element.md`, and `LUB property iff GLB property.md` will have mathLinks of the form '... $\Leftrightarrow$ ...'.
