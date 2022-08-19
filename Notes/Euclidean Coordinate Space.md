@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Galilean Coordinate Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -16,7 +16,7 @@ Justifications: [[Dot product is an inner product]]
 ``` ad-Definition
 title: Definition.
 
-_Fix $n\in\N$. The **Euclidean vector space of dimension $n$** is the real $n$-coordinate space $\R^n$ equipped with the inner product_
+_Fix $n\in\N^\ast$. The **Euclidean $n$-coordinate space** is the real $n$-coordinate space $\R^n$ equipped with the inner product_
 $$\begin{equation}
     \bilform{\slot}{\slot}:\R^n\times\R^n\to\R\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ \tpl{\v{x},\v{y}}\mapsto\sum_{i=1}^nx_iy_i
 \end{equation}$$

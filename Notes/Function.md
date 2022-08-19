@@ -3,7 +3,7 @@
 Date Created: 14/01/2022 14:25:20
 Tags: #Definition
 
-Types: [[Injection]], [[Surjection]], [[Left-invertible Function]], [[Right-invertible Function]], [[n-ary Operation]], [[Indexed Family]], [[Linear Map]]
+Types: [[Injection]], [[Surjection]], [[Left-invertible Function]], [[Right-invertible Function]], [[n-ary Operation]], [[Indexed Family]], [[Linear Map]], [[Galilean Transformation]]
 Examples: [[Kronecker Delta]]
 Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction (Function)]], [[Composition (Function)]], [[Function Space (Set Theory)]]
 Generalizations: [[Morphism (Category Theory)]], [[Class Function]]

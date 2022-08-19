@@ -1,10 +1,10 @@
 <div class="topSpace"></div>
 
-Date Created: 19/08/2022 16:27:13
-Tags: #Definition #Later/Linear_Algebra
+Date Created: 19/08/2022 17:45:36
+Tags: #Definition #In_Progress
 
 Types: _Not Applicable_
-Examples: [[Galilean Structure; space]]
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

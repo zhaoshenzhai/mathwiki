@@ -4,7 +4,7 @@ Date Created: 23/06/2022 08:01:27
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [[Euclidean Vector Space]]
+Examples: [[Euclidean Coordinate Space]]
 Constructions: [[Orthogonality]]
 Generalizations: _Not Applicable_
 
