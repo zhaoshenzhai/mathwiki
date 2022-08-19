@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/08/2022 14:28:31
-Tags: #MOC #In_Progress
+Tags: #MOC #Later/Linear_Algebra
 
 Context: [Zermelo Fraenkel Set Theory](Zermelo%20Fraenkel%20Set%20Theory.md)
 Extensions: [Functional Analysis](Functional%20Analysis.md), [Multilinear Algebra](Multilinear%20Algebra.md)
