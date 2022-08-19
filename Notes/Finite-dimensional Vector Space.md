@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper)]]
 Sufficiencies: [[Isomorphic vector spaces finite-dim. iff finite-dim.]]
-Equivalences: [[Linear isomorphism between finite-dim vector spaces and tuple spaces]]
+Equivalences: [[Linearly isomorphic iff dimensions coincide (finite-dim.)]], [[Linear isomorphism between finite-dim vector spaces and tuple spaces]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
