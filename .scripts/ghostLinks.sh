@@ -17,27 +17,11 @@ while IFS= read -r link; do
     if [ ! -f "$link" ]; then
         link=$(echo "$link" | sed 's/.md//g')
         echo -e "${PURPLE}    $link${NC}"
-        appearsIn=$(grep --color -il "$link" *)
+        doubleLink=$(echo "$link" | sed 's/^/\\[\\[/g' | sed 's/$/\\]\\]/g')
+        appearsIn=$(grep --color -il "$doubleLink" *)
         while IFS= read -r file; do
             file=$(echo "$file" | sed 's/.md//g')
             echo "        $file"
         done <<< "$appearsIn"
     fi
 done <<< "$allDoubleLinks"
-
-allMathLinks=$(grep -Poh '\[((?!\]\(|\]\]).)*\]\(([^\$^\[^\]]+%20)+[^\$^\[^\]]*(\.md)*\)' * | sort | uniq)
-while IFS= read -r link; do
-    link=${link#*](}
-    link=${link::-1}
-    linkFind=$(echo "$link" | sed 's/%20/\ /g')
-    if [[ ! -f "$linkFind" ]] && [[ -z $(echo $link | grep "obsidian\://") ]]; then
-        linkFind=$(echo "$linkFind" | sed 's/.md//g')
-        echo -e "${PURPLE}    $linkFind${NC}"
-        linkFormatted=$(echo "$link" | sed 's/\(.*\).md/\1/')
-        appearsIn=$(grep --color -il "$linkFormatted" *)
-        while IFS= read -r file; do
-            file=$(echo "$file" | sed 's/.md//g')
-            echo "        $file"
-        done <<< "$appearsIn"
-    fi
-done <<< "$allMathLinks"
