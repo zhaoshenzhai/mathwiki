@@ -28,3 +28,7 @@ _Fix $n\in\N^\ast$. The **Galilean $n$-coordinate space** is the Galilean space 
 **Remark.** Note that $\tpl{t,\bilform{\slot}{\slot}}$ is indeed a Galilean structure since
 * $t=\proj_\R$ is non-zero and surjective, and
 * $\ker t=\ker\proj_\R=\l(\R\times\R^n\r)^\perp=\R^n$, so indeed $\bilform{\slot}{\slot}:\ker t\times\ker t\to\R$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+**Remark.** Usually, we set $n=3$.<span style="float:right;">$\blacklozenge$</span>

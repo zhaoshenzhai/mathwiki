@@ -69,7 +69,7 @@ I wrote some bash scripts to (try) maintain the consistency of my notes; [main.s
 * Displaying all links that have yet to be created and all notes that have those links, are handled by [ghost.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/ghost.sh).
 * Resetting the modification time of each note to its creation time is handled by [resetModifyTime.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/resetModifyTime.sh).
 
-Some stats: 577 notes, 1391 links, 55 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
+Some stats: 578 notes, 1393 links, 55 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
 ## :symbols: MathLinks
 
@@ -123,6 +123,6 @@ All images are [centered](https://github.com/zhaoshenzhai/MathWiki/blob/master/.
 ![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/fundamental_theorem_of_equivalence_relations.png)
 
 
-[templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/markdown.snippets#L119
+[templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/markdown.snippets#L113
 [tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/config/MathWiki.vim#L1
 [pdfLaTeXExecute]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/config/MathWiki.vim#L2

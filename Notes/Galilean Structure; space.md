@@ -8,7 +8,7 @@ Date Created: 19/08/2022 14:33:05
 Tags: #Definition #Later/Classical_Mechanics
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Galilean Coordinate Space]]
 Constructions: [[Galilean Transformation]]
 Generalizations: _Not Applicable_
 
