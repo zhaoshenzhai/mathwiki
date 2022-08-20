@@ -11,10 +11,10 @@
     "links",
     "listsLineBreak",
     "lists",
-    "centerImages",
     "hideYaml",
     "slidingPanes",
-    "font"
+    "font",
+    "imageMargins"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": true,
