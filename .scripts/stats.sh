@@ -47,9 +47,6 @@ while [ ! -z "$1" ]; do
 
             pdfLaTeXExecuteLine=$(grep -n "pdflatex -shell-escape image.tex" $DOTFILES_DIR/config/nvim/config/MathWiki.vim | sed 's/:.*$//g')
             sed -i 's|\[pdfLaTeXExecute\]:.*$|\[pdfLaTeXExecute\]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/config/MathWiki.vim#L'"$pdfLaTeXExecuteLine"'|g' README.md
-
-            autoAliasLine=$(grep -n "Math()" $MATHWIKI_DIR/.scripts/mathLinks.sh | sed 's/:.*$//g')
-            sed -i 's|\[standardAlias\]:.*$|\[standardAlias\]: https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/mathLinks.sh#L'"$autoAliasLine"'|g' README.md
         ;;
     esac
 shift
