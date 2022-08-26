@@ -25,7 +25,7 @@
       "word": true
     },
     {
-      "title": "R x R",
+      "title": "R2",
       "replaced": "R2",
       "replacement": "$\\R^2$",
       "globalMatch": true,
@@ -33,7 +33,7 @@
       "word": true
     },
     {
-      "title": "N x N",
+      "title": "N2",
       "replaced": "N2",
       "replacement": "$\\N^2$",
       "globalMatch": true,
