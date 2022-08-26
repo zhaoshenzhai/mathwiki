@@ -4,7 +4,7 @@ Date Created: 09/02/2022 11:14:58
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [[Standard Topology on R2]]
+Examples: [[Standard Topology on Rn]]
 Constructions: [[Product Space (Topology)]]
 Generalizations: _Not Applicable_
 
@@ -24,3 +24,7 @@ $$\begin{equation}
 ```
 
 **Remark.** Write $\mc{T}_X\times\mc{T}_Y\coloneqq\mc{T}_\textrm{pr}$. Note that this is _not_ the Cartesian product of $\mc{T}_X$ and $\mc{T}_Y$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+**Remark.** Induction extends this to _finite_ products; care must be taken in the infinite case.<span style="float:right;">$\blacklozenge$</span>

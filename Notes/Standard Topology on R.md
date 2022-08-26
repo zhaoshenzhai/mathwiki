@@ -9,7 +9,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Real Line (Topology)]], [[Standard Topology on R2]]
+Constructions: [[Real Line (Topology)]], [[Standard Topology on Rn]]
 Generalizations: _Not Applicable_
 
 Properties: [[Comparison of topologies on R]]

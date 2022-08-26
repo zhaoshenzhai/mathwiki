@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Real Plane (Topology)]]
+Constructions: [[Euclidean Topological Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

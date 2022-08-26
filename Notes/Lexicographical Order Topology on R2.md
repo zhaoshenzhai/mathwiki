@@ -8,7 +8,7 @@ Date Created: 07/02/2022 11:29:31
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [[Open set in lexicographical order topology of R2]], [[Lexicographical plane convex set (not interval)]]
+Examples: [[Open set in lexicographical order topology of R2]]
 Constructions: [[Ordered Square]]
 Generalizations: _Not Applicable_
 

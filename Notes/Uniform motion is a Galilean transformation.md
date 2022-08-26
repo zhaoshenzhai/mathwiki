@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 19/08/2022 22:08:16
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Later/Classical_Mechanics
 
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_

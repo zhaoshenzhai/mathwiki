@@ -4,7 +4,7 @@ Date Created: 09/02/2022 09:28:03
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [[Real Plane (Topology)]]
+Examples: [[Euclidean Topological Space]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
