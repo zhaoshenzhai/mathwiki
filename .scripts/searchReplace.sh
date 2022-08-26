@@ -170,9 +170,9 @@ while IFS= read -r matchingLineWithFile; do
     fileLine=$(echo "$matchingLineWithFile" | cut -f1,2 -d':')
     file=$(echo "$fileLine" | sed 's/\:.*//g' | sed -r "s/\x1B\[([0-9]{1,3}(;[0-9]{1,2})?)?[mGK]//g")
     line=$(echo "$fileLine" | sed 's/^.*\://g' | sed -r "s/\x1B\[([0-9]{1,3}(;[0-9]{1,2})?)?[mGK]//g")
-    match=$(echo "$onlyMatching" | awk 'NR=='"$lineOnlyMatching"'' | sed -r "s/\x1B\[([0-9]{1,3}(;[0-9]{1,2})?)?[mGK]//g")
+    match=$(echo "$onlyMatching" | awk 'NR=='"$lineOnlyMatching"'' | sed 's/\\/\\\\/g' | sed -r "s/\x1B\[([0-9]{1,3}(;[0-9]{1,2})?)?[mGK]//g")
 
-    sed -Ei ''"$line"'s~'"$match"'~'"$replaceString"'~g' "$file"
+    sed -i ''"$line"'s~'"$match"'~'"$replaceString"'~g' "$file"
 
     lineOnlyMatching=$((++lineOnlyMatching))
 

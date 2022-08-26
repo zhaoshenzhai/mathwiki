@@ -13,9 +13,9 @@ cd $MATHWIKI_DIR/Images
 echo ""
 prompt="Update images containing [(string)/ALL]: "
 
-read -p "$(echo -e ${PURPLE}$prompt${NC})" filter
+read -rp "$(echo -e ${PURPLE}$prompt${NC})" filter
 while [ -z "$filter" ]; do
-    read -p "$(echo -e ${PURPLE}$prompt${NC})" filter
+    read -rp "$(echo -e ${PURPLE}$prompt${NC})" filter
 done
 
 if [[ "$filter" != "ALL" ]]; then

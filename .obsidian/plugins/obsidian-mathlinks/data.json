@@ -17,6 +17,14 @@
       "word": true
     },
     {
+      "title": "Rn",
+      "replaced": "Rn",
+      "replacement": "$\\R^n$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
       "title": "R x R",
       "replaced": "R2",
       "replacement": "$\\R^2$",
