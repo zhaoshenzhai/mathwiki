@@ -1,7 +1,7 @@
 {
-	"id": "obsidian-mathlinks",
+	"id": "mathlinks",
 	"name": "MathLinks",
-	"version": "0.2.0",
+	"version": "0.2.2",
 	"minAppVersion": "0.15.9",
 	"description": "Render MathJax in your links",
 	"author": "zhaoshenzhai",
