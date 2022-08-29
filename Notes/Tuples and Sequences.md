@@ -3,8 +3,8 @@
 Date Created: 29/01/2022 11:31:28
 Tags: #Definition
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: [[Convergent Sequence]]
+Examples: [[Sequences in R]]
 Constructions: [[Tuple Space (Linear Algebra)]]
 Generalizations: _Not Applicable_
 

@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Set of Natural Numbers]], [[Tuples and Sequences]]
+Constructions: [[Set of Natural Numbers]]
 Generalizations: _Not Applicable_
 
 Properties: [[Successor of natural number is a natural number]]

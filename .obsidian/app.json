@@ -20,5 +20,6 @@
   },
   "showIndentGuide": false,
   "showFrontmatter": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "promptDelete": false
 }
