@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Basic properties of orthogonal projections]]
+Justifications: [[Basic properties of orthogonal projections]], [[Projection maps are surjections]]
 
 ``` ad-Definition
 title: Definition.
@@ -31,4 +31,4 @@ _Fix $n\in\N^\ast$. The **Galilean $n$-coordinate space** is the Galilean space 
 
 ---
 
-**Remark.** Usually, we set $n=3$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Usually, we have $n\in\l\{1,2,3\r\}$.<span style="float:right;">$\blacklozenge$</span>

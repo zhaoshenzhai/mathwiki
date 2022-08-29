@@ -41,4 +41,4 @@ _The quintuple $\tpl{A,V,\Delta,t,\bilform{\slot}{\slot}}$ is called a **Galilea
         \end{aligned}
     \end{equation}$$
     of $A$. Note that all such $b\in A$ are simultaneous with $a$ since $\tau_{ab}=t\l(b-a\r)=t\l(d\r)=0$, hence the name.
-* For all simultaneous events $a,b\in A$, the **spatial distance between $a$ and $b$** is $d_\textrm{spatial}\!\l(a,b\r)\coloneqq\l\|b-a\r\|\coloneqq\sqrt{\bilform{a-b}{a-b}}$.<span style="float:right;">$\blacklozenge$</span>
+* For all simultaneous events $a,b\in A$, the **spatial distance between $a$ and $b$** is $d_\textrm{spatial}\!\l(a,b\r)\coloneqq\sqrt{\bilform{a-b}{a-b}}$.<span style="float:right;">$\blacklozenge$</span>
