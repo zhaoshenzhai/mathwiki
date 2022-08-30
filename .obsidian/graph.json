@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "path:Notes",
   "showTags": false,
   "showAttachments": false,
@@ -48,11 +48,11 @@
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.04707477721813,
   "lineSizeMultiplier": 2.71367686943045,
-  "collapse-forces": true,
+  "collapse-forces": false,
   "centerStrength": 0.154314496042508,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.014737433050617156,
-  "close": true
+  "scale": 0.015612744713144111,
+  "close": false
 }
