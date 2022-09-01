@@ -3,7 +3,7 @@
 Date Created: 21/01/2022 13:37:59
 Tags: #Proposition
 
-Proved by: [[Binary relation iff subset of Cartesian-Kuratowski product]], [[Set-builder notation is unique]]
+Proved by: [[Binary relation iff subset of Cartesian-Kuratowski product]], [[Axiom Schema of Specification]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

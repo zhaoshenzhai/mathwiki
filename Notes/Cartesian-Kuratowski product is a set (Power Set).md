@@ -3,7 +3,7 @@
 Date Created: 21/01/2022 17:33:37
 Tags: #Proposition
 
-Proved by: [[Axiom Schema of Specification]], [[Set-builder notation is unique]], [[Subset relation is transitive]]
+Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]], [[Subset relation is transitive]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

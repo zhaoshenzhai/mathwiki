@@ -3,7 +3,7 @@
 Date Created: 20/01/2022 13:53:33
 Tags: #Proposition #Later/Set_Theory
 
-Proved by: [[Axiom Schema of Replacement]], [[Axiom Schema of Specification]], [[Set-builder notation is unique]]
+Proved by: [[Axiom Schema of Replacement]], [[Axiom Schema of Specification]], [[Axiom of Extensionality]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

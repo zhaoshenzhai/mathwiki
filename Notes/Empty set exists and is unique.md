@@ -6,7 +6,7 @@ Tags: #Proposition
 Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]]
 Justifications: _Not Applicable_
 
-Generalizations: [[Set-builder notation is unique]]
+Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
