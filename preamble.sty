@@ -13,8 +13,7 @@
         \newcommand{\im}{\operatorname{im}}
         \newcommand{\preim}{\operatorname{preim}}
         \newcommand{\rest}{\!\upharpoonright\!}
-        \newcommand{\comp}{\operatorname{comp}}
-        \newcommand{\setcomp}{\setminus}
+        \newcommand{\comp}{\setminus}
         \newcommand{\rfcl}{\operatorname{rfcl}}
         \newcommand{\ord}{\textrm{ON}}
         \newcommand{\iso}{\cong}
@@ -28,7 +27,6 @@
         \newcommand{\cat}[1]{\textbf{#1}}
         \newcommand{\catset}{\cat{Set}}
         \newcommand{\catrel}{\cat{Rel}}
-        % \newcommand{\catvect}[1][]{{#1}\small{-}\normalsize\cat{Vect}}
         \newcommand{\catvect}[1][K]{\cat{Vect}_#1}
         \newcommand{\Id}{\operatorname{Id}}
         \newcommand{\natid}{\mc{I}\textrm{d}}
@@ -117,26 +115,24 @@
         \newcommand{\axifunctor}[1][]{{\rm\bf{F}{\scriptsize\bf{TR}}}_{\bf{#1}}}
         \newcommand{\axipartition}[1][]{{\rm\bf{P}{\scriptsize\bf{AR}}}_{\bf{#1}}}
 
-    % Typesetting
-        \newcommand{\mc}[1]{\mathcal{#1}}
-        \newcommand{\ms}[1]{\mathscr{#1}}
-        \newcommand{\mb}[1]{\mathbb{#1}}
-        \newcommand{\blob}{\bullet}
-        \newcommand{\slot}{-}
-        \newcommand{\tpl}[1]{\l(#1\r)}
-        \newcommand{\necceqq}{\overset{!}{=}}
-        \renewcommand{\phi}{\varphi}
-        \renewcommand{\epsilon}{\varepsilon}
-        \renewcommand{\mid}{\,\middle\vert\,}
-        \renewcommand{\bar}{\overline}
-        \newcommand{\cref}[1]{\tag{$\,#1\,$}}
-
 % LaTeX/MathJax
+    \newcommand{\mc}[1]{\mathcal{#1}}
+    \newcommand{\ms}[1]{\mathscr{#1}}
+    \newcommand{\mb}[1]{\mathbb{#1}}
+    \newcommand{\ul}[1]{\underline{\smash{#1}}}
+    \newcommand{\tpl}[1]{\l(#1\r)}
+    \newcommand{\blob}{\bullet}
+    \newcommand{\slot}{-}
     \newcommand{\qedin}{\tag*{$\blacksquare$}}
     \newcommand{\exqedin}{\tag*{$\blacklozenge$}}
-    \newcommand{\ul}[1]{\underline{\smash{#1}}}
+    \newcommand{\necceqq}{\overset{!}{=}}
+    \newcommand{\cref}[1]{\tag{$\,#1\,$}}
     \renewcommand{\ref}[1]{\l(\,#1\,\r)}
     \renewcommand{\l}{\left}
     \renewcommand{\r}{\right}
     \renewcommand{\it}[1]{\textit{#1}}
     \renewcommand{\bf}[1]{\textbf{#1}}
+    \renewcommand{\mid}{\,\middle\vert\,}
+    \renewcommand{\bar}{\overline}
+    \renewcommand{\phi}{\varphi}
+    \renewcommand{\epsilon}{\varepsilon}

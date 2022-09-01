@@ -16,11 +16,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\mb{U}$ be a Grothendieck universe. A **$\mb{U}$-category** is a quadruple $\cat{C}\coloneqq\tpl{\mc{O},\hom,\id,\comp}$ consisting of_
+_Let $\mb{U}$ be a Grothendieck universe. A **$\mb{U}$-category** is a quadruple $\cat{C}\coloneqq\tpl{\mc{O},\hom,\id,\operatorname{comp}}$ consisting of_
 * _a $\mb{U}$-class $\obj\l(\cat{C}\r)\coloneqq\mc{O}\subseteq\mb{U}$,_
 * _a function $\hom$ assigning to each $\tpl{X,Y}\in\mc{O}^2$ a $\mb{U}$-class $\hom\l(X,Y\r)\subseteq\mb{U}$,_
 * _a function $\id$ assigning to each $X\in\mc{O}$ an element $\id_X\coloneqq\id\l(X\r)\in\hom\l(X,Y\r)$, and_
-* _a function $\comp$ assigning to each $\tpl{X,Y,Z}\in\mc{O}^3$ a function_
+* _a function $\operatorname{comp}$ assigning to each $\tpl{X,Y,Z}\in\mc{O}^3$ a function_
 $$\begin{equation}
     \begin{aligned}
         \circ:\hom\l(X,Y\r)\times\hom\l(Y,Z\r)&\to\hom\l(X,Z\r)\\

@@ -18,9 +18,9 @@ title: Definition.
 
 _Let $u$ and $v$ be sets. The **relative complement of $u$ w.r.t. $v$** is the set_
 $$\begin{equation}
-    v\setcomp u\coloneqq\l\{x\in v\mid x\not\in u\r\}.
+    v\comp u\coloneqq\l\{x\in v\mid x\not\in u\r\}.
 \end{equation}$$
 
 ```
 
-**Remark.** Trivially, we have $v\setcomp u\subseteq v$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Trivially, we have $v\comp u\subseteq v$.<span style="float:right;">$\blacklozenge$</span>

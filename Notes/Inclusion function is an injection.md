@@ -20,4 +20,4 @@ _Proof_. Take $x,x'\in S$ and observe that $\iota\l(x\r)=\id_X\l(x\r)=x$ and $\i
 
 ---
 
-**Remark.** Note that $\iota$ is genetically _not_ a surjection for if $y\in X$, the corresponding $x$ such that $y=f\l(x\r)$ may lie in $X\setcomp S$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Note that $\iota$ is genetically _not_ a surjection for if $y\in X$, the corresponding $x$ such that $y=f\l(x\r)$ may lie in $X\comp S$.<span style="float:right;">$\blacklozenge$</span>

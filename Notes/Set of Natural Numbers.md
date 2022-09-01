@@ -27,4 +27,4 @@ $$\begin{equation}
 
 ---
 
-**Remark.** Write $\N^\ast\coloneqq\N\setcomp\l\{0\r\}$. If confusion arises, write $\Z^+\coloneqq\N^\ast$ and $\N_0\coloneqq\omega$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Write $\N^\ast\coloneqq\N\comp\l\{0\r\}$. If confusion arises, write $\Z^+\coloneqq\N^\ast$ and $\N_0\coloneqq\omega$.<span style="float:right;">$\blacklozenge$</span>
