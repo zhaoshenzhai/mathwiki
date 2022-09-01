@@ -28,7 +28,7 @@ $$\begin{equation}
         &=\l\{U\in\pow\l(X\r)\mid\ex C\in\mc{C}:X\setcomp U=C\r\}&&C\subseteq X\textrm{ and }X\setcomp U=X\setcomp\l(X\setcomp C\r)=C\\
         &=\l\{U\in\pow\l(X\r)\mid X\setcomp U\in\mc{C}\r\}&&\textrm{Substitution}\\
         &\subseteq\mc{T}.&&\mc{C}\subseteq\mc{F}
-    \end{alignedat}\tag{$\,1\,$}
+    \end{alignedat}\cref{1}
 \end{equation}$$
 $$\begin{equation}
     \begin{alignedat}{2}
@@ -36,7 +36,7 @@ $$\begin{equation}
         &=\l\{C\in\pow\l(X\r)\mid\ex U\in\mc{U}:X\setcomp C=U\r\}&&U\subseteq X\textrm{ and }X\setcomp C=X\setcomp\l(X\setcomp U\r)=U\\
         &=\l\{C\in\pow\l(X\r)\mid X\setcomp C\in\mc{U}\r\}&&\textrm{Substitution}\\
         &\subseteq\mc{F}.&&\mc{U}\subseteq\mc{T}
-    \end{alignedat}\tag{$\,2\,$}
+    \end{alignedat}\cref{2}
 \end{equation}$$
 * ($\Rightarrow$): Assume that $\mc{T}$ satisfies $\axitop[1]$ to $\axitop[3]$, so $\mc{F}$ is the set of closed sets of $X$.
     * ($\axitopcl[1]$): Observe that $X\setcomp\em=X\in\mc{T}$, so $\em\in\mc{F}$. Similarly, we have $X\setcomp X=\em\in\mc{T}$ and thus $X\in\mc{F}$.

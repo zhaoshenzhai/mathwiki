@@ -15,9 +15,21 @@ title: Axiom.
 
 _Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Union** is the $\mc{L}$-formula_
 $$\begin{equation}
-    \axiunion\,\colon\!\Leftrightarrow\fa x\ex z\fa u\fa v\l[\l(u\in v\land v\in x\r)\Rightarrow u\in z\r].
+    \axiunion\,\colon\!\Leftrightarrow\fa\mc{A}\ex U\fa a\l[a\in U\Leftrightarrow\ex A\l(a\in A\land A\in\mc{A}\r)\r].
 \end{equation}$$
 
 ```
 
-**Remark.** This axiom does not directly define the $\textrm{`}$union$\textrm{'}$ $\bigcup u$ of $u$. Rather, it asserts the existence of some superset of the union, from which the union is then constructed from $\axispec$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** By $\axiext$, such a set $U$ is unique and can thus be called the **union of $\mc{A}$**.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+**Remark.** We may weaken this axiom to
+$$\begin{equation}
+    \axiunion'\,\colon\!\Leftrightarrow\fa\mc{A}\ex U'\fa a\fa A\l[\l(a\in A\land A\in\mc{A}\r)\Rightarrow a\in U'\r].
+\end{equation}$$
+Here, $U'$ is no longer the union of $\mc{A}$, but rather a superset thereof. The union $U$ of $\mc{A}$ is then defined as
+$$\begin{equation}
+    U\coloneqq\l\{a\in U'\mid\ex A\l(a\in A\land A\in\mc{A}\r)\r\}
+\end{equation}$$
+using $\axispec$.<span style="float:right;">$\blacklozenge$</span>
