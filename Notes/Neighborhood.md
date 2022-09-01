@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/08/2022 17:01:11
-Tags: #Definition #In_Progress
+Tags: #Definition #Later/Topology
 
 Types: _Not Applicable_
 Examples: [[Epsilon-ball]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/08/2022 16:53:42
-Tags: #Definition #In_Progress
+Tags: #Definition #Later/Analysis
 
 Types: [[Differentiable Function (Real)]]
 Examples: _Not Applicable_

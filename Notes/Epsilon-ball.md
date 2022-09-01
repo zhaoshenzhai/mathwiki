@@ -1,11 +1,11 @@
 ---
-mathLink: $\epsilon$-ball
+mathLink: auto
 ---
 
 <div class="topSpace"></div>
 
 Date Created: 29/08/2022 17:03:17
-Tags: #Definition #In_Progress
+Tags: #Definition #Later/Topology
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

@@ -4,7 +4,7 @@ Date Created: 29/01/2022 11:31:28
 Tags: #Definition
 
 Types: [[Convergent Sequence]]
-Examples: [[Sequences in R]]
+Examples: [[Sequences in R or C]]
 Constructions: [[Tuple Space (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
@@ -17,7 +17,7 @@ Justifications: [[Function space constructed from a Cartesian product]]
 title: Definition.
 
 _Let $X$ be a set and consider an indexed family_ $\l\{x_i\r\}_{i\in I}\subseteq X$_._
-* _If $I=\N$, then_ $\l\{x_i\r\}_{i\in I}$ _is said to be an **infinite sequence in $X$** and is denoted by either_ $\tpl{x_i}_{i\in\N}$ _or_ $\tpl{x_1,x_2,\dots}$_._
+* _If $I=\Z$ (or some infinite subset thereof), then_ $\l\{x_i\r\}_{i\in I}$ _is said to be an **infinite sequence in $X$** and is denoted by either_ $\tpl{x_i}_{i\in I}$ _or_ $\tpl{x_1,x_2,\dots}$_._
 
 * _If $I=\l\{1,\dots,n\r\}$ for some $n\in\N$, then _$\l\{x_i\r\}_{i\in I}$ _is said to be an **$n$-tuple in $X$** (or a **finite sequence in $X$**) and is denoted by $\tpl{x_1,\dots,x_n}$._
 
@@ -56,5 +56,5 @@ $$\begin{equation}
             f:n&\to\bigcup_{j\in n}X_j \\
             j&\mapsto x_j\coloneqq f\l(j\r)
         \end{aligned}
-    \r]\in X_1\times\cdots\times X_n.\exqedin
+    \r]\in\prod_{i=1}^nX_i.\exqedin
 \end{equation}$$
