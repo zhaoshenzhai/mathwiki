@@ -5,7 +5,7 @@ mathLink: $\axiunion$
 <div class="topSpace"></div>
 
 Date Created: 15/01/2022 21:15:56
-Tags: #Axiom #Later/Set_Theory
+Tags: #Axiom
 
 Equivalences: _Not Applicable_
 Constructions: [[Union]]

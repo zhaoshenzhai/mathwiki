@@ -11,14 +11,15 @@ Generalizations: _Not Applicable_
 Properties: [[Basic properties of unions, intersections, and power sets]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Axiom of Power Set]]
+Justifications: [[Axiom of Power Set]], [[Axiom of Extensionality]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $u$ be a set and let $z$ be any set asserted by $\axipow$. The **power set of $u$** is the set_
+_Let $A$ be a set. The **power set of $A$** is the set $\pow\l(A\r)$ whose elements are exactly those that are subsets of $A$. Formally, $\axipow$ posits the existence of a set $\pow\l(A\r)$ such that_
 $$\begin{equation}
-    \pow u\coloneqq\l\{x\in z\mid x\subseteq u\r\}.
+    \fa S\l(S\in\pow\l(A\r)\Leftrightarrow S\subseteq A\r).
 \end{equation}$$
+_Such a set $\pow\l(A\r)$ is unique by $\axiext$._
 
 ```
