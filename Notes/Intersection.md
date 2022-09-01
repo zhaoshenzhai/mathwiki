@@ -11,20 +11,20 @@ Generalizations: _Not Applicable_
 Properties: [[Basic properties of unions, intersections, and power sets]], [[De Morgan's Laws]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Intersection of a set is a set]]
+Justifications: [[Axiom Schema of Specification]], [[Axiom of Extensionality]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $u$ be a non-empty set. The **intersection of $u$** is the set_
+_Let $\mc{A}$ be a non-empty set. The **intersection of $\mc{A}$** is the set_
 $$\begin{equation}
-    \bigcap u\coloneqq\l\{x\mid\fa v\l(v\in u\Rightarrow x\in v\r)\r\}.
+    \bigcap\mc{A}\coloneqq\l\{a\mid\fa A\in\mc{A}:a\in A\r\}.
 \end{equation}$$
 
 ```
 
-**Remark.** For the pair set $\l\{u,v\r\}$, write $u\cap v\coloneqq\bigcap\l\{u,v\r\}$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** The intersection $\bigcap\mc{A}$ exists and is unique by $\axispec$ (since $a\in A$ for any $A\in\mc{A}$) and $\axiext$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** One can also write the intersection $\bigcap u$ using $\textrm{`}$index$\textrm{'}$ notation as $\bigcap_{v\in u}v$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** One can also write the intersection $\bigcap\mc{A}$ using $\textrm{`}$index$\textrm{'}$ notation as $\bigcap_{i\in I}A_i$ This is formalized by viewing $\mc{A}$ as an indexed family $\l\{A_i\r\}_{i\in I}$, so the focus shifts from $\mc{A}$ to its elements $A_i$.<span style="float:right;">$\blacklozenge$</span>
