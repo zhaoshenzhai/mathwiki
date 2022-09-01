@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 18/01/2022 16:48:35
-Tags: #Proposition  #Later/Set_Theory
+Tags: #Proposition
 
-Proved by: _Not Applicable_
+Proved by: [[Double complement of set is set itself]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -12,37 +12,36 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $v$ and $U$ be sets with $U\neq\em$. Then_
+_Let $V$ be a set and let_ $\l\{U_i\r\}_{i\in I}$ _be a non-empty indexed family of sets. Then_
 $$\begin{equation}
-    v\setcomp\bigcup U=\bigcap\l\{v\setcomp u\mid u\in U\r\}\ \ \ \ \textrm{\it{and}}\ \ \ \ v\setcomp\bigcap U=\bigcup\l\{v\setcomp u\mid u\in U\r\}.
+    V\setcomp\bigcup_{i\in I}U_i=\bigcap_{i\in I}V\setcomp U_i\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ V\setcomp\bigcap_{i\in I}U_i=\bigcup_{i\in I}V\setcomp U_i.
 \end{equation}$$
 
 ```
 
-_Proof_. Take $x\in v\setcomp\bigcup U$. The first result follows from the following chain of equivalences:
+_Proof_. We shall prove the first statement, then use it to prove the second.
+* Take $x\in V\setcomp\bigcup_{i\in I}U_i$. The first result follows from the following chain of equivalences:
 $$\begin{equation}
     \begin{alignedat}{2}
-        x\in v\setcomp\bigcup U&\Leftrightarrow x\in v\land x\not\in\bigcup U&&\textrm{Definition of relative complement}\\
-        &\Leftrightarrow x\in v\land\lnot\l(x\in\bigcup U\r)&&\textrm{Definition of }\not\in\\
-        &\Leftrightarrow x\in v\land\lnot\l[\l(\ex u\in U\r)x\in u\r]&&\textrm{Definition of union}\\
-        &\Leftrightarrow x\in v\land\l(\fa u\in U\r)x\not\in u&&\textrm{Negation of quantifier}\\
-        &\Leftrightarrow\l(\fa u\in U\r)\l(x\in v\land x\not\in u\r)&&u\textrm{ is not free in }x\in v\\
-        &\Leftrightarrow\l(\fa u\in U\r)x\in v\setcomp u&&\textrm{Definition of relative complement}\\
-        &\Leftrightarrow\l(\fa y\in\l\{v\setcomp u\mid u\in U\r\}\r)x\in y\ \ \ \ \ \ \ \ &&\textrm{Substitution}\\
-        &\Leftrightarrow x\in\bigcap\l\{v\setcomp u\mid u\in U\r\}.&&U\neq\em\textrm{; definition of intersection}
+        x\in V\setcomp\bigcup_{i\in I}U_i&\Leftrightarrow x\in V\land x\not\in\bigcup_{i\in I}U_i && \textrm{Definition of relative complement} \\
+        &\Leftrightarrow x\in V\land\lnot\l(\ex i\in I:x\in U_i\r) && \textrm{Definition of union} \\
+        &\Leftrightarrow x\in V\land\l(\fa i\in I:x\not\in U_i\r) && \textrm{Negation of quantifier} \\
+        &\Leftrightarrow\fa i\in I:\l(x\in V\land x\not\in U_i\r) && i\textrm{ is not free in }x\in V \\
+        &\Leftrightarrow\fa i\in I:x\in V\setcomp U_i && \textrm{Definition of relative complement} \\
+        &\Leftrightarrow x\in\bigcap_{i\in I}V\setcomp U_i. && \l|I\r|\neq\em\textrm{; definition of intersection}
     \end{alignedat}
 \end{equation}$$
-The last equivalence requires that $U\neq\em$, which ensures that $\l\{v\setminus u\mid u\in U\r\}=\l\{x\mid\l(\ex u\in U\r)x=v\setcomp u\r\}$ is non-empty for the intersection to be defined.
+The last equivalence requires that $\l|I\r|\neq\em$, which ensures that the intersection is defined.
 
-Now take $x\in v\setcomp\bigcap U$. Note that $U\neq\em$ ensures that this expression is a set. The second result follows from the following chain of equivalences:
-
-$\begin{alignat}{2}
-    x\in v\setcomp\bigcap U&\Leftrightarrow x\in v\land x\not\in\bigcap U&&\textrm{Definition of relative complement}\\
-    &\Leftrightarrow x\in v\land\lnot\l(x\in\bigcap U\r)&&\textrm{Definition of }\not\in\\
-    &\Leftrightarrow x\in v\land\lnot\l[\l(\fa u\in U\r)x\in u\r]&&\textrm{Definition of intersection}\\
-    &\Leftrightarrow x\in v\land\l(\ex u\in U\r)x\not\in u&&\textrm{Negation of quantifier}\\
-    &\Leftrightarrow\l(\ex u\in U\r)\l(x\in v\land x\not\in u\r)&&u\textrm{ is not free in }x\in v\\
-    &\Leftrightarrow\l(\ex u\in U\r)x\in v\setcomp u&&\textrm{Definition of relative complement}\\
-    &\Leftrightarrow\l(\ex y\in\l\{v\setcomp u\mid u\in U\r\}\r)x\in y\ \ \ \ \ \ \ \ &&\textrm{Substitution}\\
-    &\Leftrightarrow x\in\bigcup\l\{v\setcomp u\mid u\in U\r\}.&&\textrm{Definition of union}\qedin
-\end{alignat}$
+* Consider the non-empty indexed family $\l\{U'_i\r\}_{i\in I}$ defined by $U_i\coloneqq V\setcomp U_i$ for all $i\in I$. Then
+$$\begin{equation}
+    V\setminus\bigcup_{i\in I}U_i'=\bigcap_{i\in I}V\setcomp U_i'\cref{\ast}
+\end{equation}$$
+by the first result. It follows then that
+$$\begin{align}
+    \bigcup_{i\in I}V\setcomp U_i&=\bigcup_{i\in I}U_i' && \textrm{Definition of $U_i'$} \\
+    &=V\setcomp\l(V\setcomp\bigcup_{i\in I}U_i'\r) && \textrm{Double complement} \\
+    &=V\setcomp\l(\bigcap_{i\in I}V\setcomp U_i'\r) && \ref{\ast} \\
+    &=V\setcomp\l(\bigcap_{i\in I}V\setcomp\l(V\setcomp U_i'\r)\r) && \textrm{Definition of $U_i'$} \\
+    &=V\setcomp\bigcap_{i\in I}U_i. && \textrm{Double complement}\qedin
+\end{align}$$

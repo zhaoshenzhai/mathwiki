@@ -22,7 +22,7 @@ $$\begin{equation}
         &a_{11}x_1&&\,+&&\,\cdots\,&&\,+\,&&a_{1n}x_n&&=\ &&b_1\\
         &\vdotswithin{a_{11}x_1}&&&&&&&&\vdotswithin{a_{1n}x_n}&&&&\vdotswithin{b_1}\\
         &a_{m1}x_1&&\,+\,&&\,\cdots\,&&\,+\,&&a_{mn}x_n&&=&&b_m
-    \end{alignedat}\r.\tag{$\ast$}
+    \end{alignedat}\r.\cref{\ast}
 \end{equation}$$
 _of linear equations of $n$ variables over $K$. A **solution of $\ref{\ast}$** is any tuple $\v{s}\in K^n$ such that_ $a_{i1}s_1+\cdots+a_{in}s_n=b_i$ _for all $i\in\l\{1,\dots,m\r\}$, and the **solution set of $\ref{\ast}$** is the set $S$ of all solutions thereof._
 * _If $S\neq\em$, the system $\ref{\ast}$ is said to be **consistent**._

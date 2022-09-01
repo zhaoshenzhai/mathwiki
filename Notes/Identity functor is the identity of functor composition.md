@@ -31,7 +31,7 @@ $$\begin{equation}
         \cdm\l(\ms{F}\circ\Id_\cat{C}\r)^{\hom}=\cdm\l(\ms{F}^{\hom}\r)=\cdm\l(\Id_\cat{D}\circ\ms{F}\r)^{\hom},\textrm{ and}\\
         \l(\ms{F}\circ\Id_\cat{C}\r)^{\hom}=\ms{F}^{\hom}=\l(\Id_\cat{D}\circ\ms{F}\r)^{\hom}.
     \end{gathered}
-    \tag{$\ast$}
+    \cref{\ast}
 \end{equation}$$
 * Let $\mc{I}_\cat{C}:\obj\l(\cat{C}\r)\to\obj\l(\cat{C}\r)$ be the identity class function on $\cat{C}$; that is, let $\mc{I}\l(X,Y\r)$ be the formula that holds exactly when $X,Y\in\obj\l(\cat{C}\r)$ and $X=Y$. Similarly, define $\mc{I}_\cat{D}:\cat{D}\to\cat{D}$. Take $X\in\obj\l(\cat{C}\r)$ and observe that
 $$\begin{equation}
@@ -41,7 +41,7 @@ $$\begin{equation}
         &=\mc{I}_\cat{D}\l(\ms{F}^{\obj}\l(X\r)\r)&&\ms{F}^{\obj}\l(X\r)\in\obj\l(\cat{D}\r)\textrm{; definition of identity functor}\\
         &=\l(\Id_\cat{D}\circ\ms{F}\r)^{\obj}\l(X\r).\ \ \ \ \ \ \ \ &&\textrm{Definition of composition of functors}
     \end{alignedat}
-    \tag{$\,1\,$}
+    \cref{1}
 \end{equation}$$
 * Take $X,Y\in\obj\l(\cat{C}\r)$ and recall that
 $$\begin{equation}

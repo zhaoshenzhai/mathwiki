@@ -27,7 +27,7 @@ $$\begin{equation}
         &\Leftrightarrow\fa\mc{T}\in\ms{T},\fa U\in\mc{U}:U\in\mc{T}\ \ \ \ \ \ \ \ &&\textrm{Like quantifiers commute}\\
         &\Leftrightarrow\fa\mc{T}\in\ms{T}:U\subseteq\mc{T}.&&\textrm{Definition of subset}\\
     \end{alignedat}
-    \tag{$\ast$}
+    \cref{\ast}
 \end{equation}$$
 * ($\axitop[2]$): Observe that
 $$\begin{equation}

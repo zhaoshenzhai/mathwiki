@@ -27,7 +27,7 @@ _Proof_. We proceed by induction on $j$.
 
 For any $2<j<m$, assume that $\l\{e_1,\dots,e_{j-1}\r\}$ is an orthonormal list of vectors in $V$ such that
 $$\begin{equation}
-    \span\l\{e_1,\dots,e_{j-1}\r\}=\span\l\{v_1,\dots,v_{j-1}\r\};\tag{$\ast$}
+    \span\l\{e_1,\dots,e_{j-1}\r\}=\span\l\{v_1,\dots,v_{j-1}\r\};\cref{\ast}
 \end{equation}$$
 we wish to show that $\l\{e_1,\dots,e_j\r\}$ is an orthonormal list such that $\span\l\{e_1,\dots,e_j\r\}=\span\l\{v_1,\dots,v_j\r\}$.
 * We first note that the expression for $e_j$ is well-defined, for linear independence of $\l\{v_1,\dots,v_m\r\}$ implies that $v_j\not\in\l\{v_1,\dots,v_{j-1}\r\}$ and hence, by $\ref{\ast}$, that $v_j\not\in\l\{e_1,\dots,e_{j-1}\r\}$. It follows then that $v_j$ cannot be written in the form of $\sum_{i=1}^{j-1}\alpha_ie_i$, so the denominator is non-zero.

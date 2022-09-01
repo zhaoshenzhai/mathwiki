@@ -66,7 +66,7 @@ $$\begin{equation}
 \end{equation}$$
 for all $\alpha\in\l\{1,\dots,n\r\}$. To this end, it suffices to show that
 $$\begin{equation}
-    \fa i\in\l\{1,\dots,r\r\}:\sum_{j=1}^nr_{ij}s_j=s_{k_i}+\sum_{j\in\mc{J}}r_{ij}s_j,\tag{$\ast$}
+    \fa i\in\l\{1,\dots,r\r\}:\sum_{j=1}^nr_{ij}s_j=s_{k_i}+\sum_{j\in\mc{J}}r_{ij}s_j,\cref{\ast}
 \end{equation}$$
 for then
 $$\begin{equation}

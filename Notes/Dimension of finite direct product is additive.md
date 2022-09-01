@@ -42,7 +42,7 @@ is a modified version of the Kronecker Delta in order to obtain the appropriate 
 
 It remains to show that $\mc{C}$ is a basis of $\prod_{i=1}^mV_i$, which we shall do so by showing that each $v\in\prod_{i=1}^mV_i$ can be uniquely represented as a linear combination of elements in $\mc{C}$. Since $v\in\prod_{i=1}^mV_i$, we see that $v=\tpl{v_1,\dots,v_m}$ for some unique vectors $v_i\in V_i$, each of which can be uniquely represented as a linear combination of vectors in $\mc{B}_i$ with the scalars $\alpha_{ij}\in K$ as
 $$\begin{equation}
-    v_i=\sum_{j=1}^{d_i}\alpha_{ij}b_{ij}.\tag{$\ast$}
+    v_i=\sum_{j=1}^{d_i}\alpha_{ij}b_{ij}.\cref{\ast}
 \end{equation}$$
 These scalars are precisely the scalars for which the linear combination of vectors in $\mc{C}$ produces $v$, since
 $$\begin{align}

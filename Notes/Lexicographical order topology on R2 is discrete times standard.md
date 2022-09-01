@@ -36,7 +36,7 @@ $$\begin{equation}
         &\Leftrightarrow\ex y\in\l(b,d\r):p=\tpl{a,y}&&\l(b,d\r)\subseteq\R\\
         &\Leftrightarrow\ex x\in\l\{a\r\},\ex y\in\l(b,d\r):p=\tpl{x,y}\ \ \ \ \ \ \ \ &&\textrm{Set }x=a\\
         &\Leftrightarrow p\in\l\{a\r\}\times\l(b,d\r).&&\textrm{Definition of Cartesian product}
-    \end{alignedat}\tag{$\ast$}
+    \end{alignedat}\cref{\ast}
 \end{equation}$$
 ($\mc{T}_<\subseteq\mc{T}_\textrm{discrete}\times\sttopR$): Take $\l(\tpl{a,b},\tpl{c,d}\r)\in\mc{B}_<$ containing $p\in\R^2$, so there exist $x,y\in\R$ such that $p=\tpl{x,y}$. 
 * If $a=c$, observe that $p\in\l\{a\r\}\times\l(b,d\r)=\l(\tpl{a,b},\tpl{a,d}\r)=\l(\tpl{a,b},\tpl{c,d}\r)$.
@@ -47,21 +47,21 @@ $$\begin{equation}
         p=\tpl{a,y}&\in\l\{a\r\}\times\l(b,z\r)&&b<y<z\\
         &=\l(\tpl{a,b},\tpl{a,z}\r)&&\textrm{Lemma (}\ast\textrm{)}\\
         &\subseteq\l(\tpl{a,b},\tpl{c,d}\r).\ \ \ \ \ \ \ \ &&\l(b<y\land a<c\r)\Rightarrow\tpl{a,b}<_L\tpl{a,y}<_L\tpl{c,d}
-      \end{alignedat}\tag{$\color{red}\ast$}
+      \end{alignedat}\cref{\color{red}\ast}
       \end{equation}$$
     * If $p=\tpl{c,y}$ for any $y<d$, observe, for any $z<y$, that$$\begin{equation}
       \begin{alignedat}{2}
         p=\tpl{c,y}&\in\l\{c\r\}\times\l(z,d\r)&&z<y<d\\
         &=\l(\tpl{c,z},\tpl{c,d}\r)&&\textrm{Lemma (}\ast\textrm{)}\\
         &\subseteq\l(\tpl{a,b},\tpl{c,d}\r).\ \ \ \ \ \ \ \ &&\l(a<c\land y<d\r)\Rightarrow\tpl{a,b}<_L\tpl{c,y}<_L\tpl{c,d}
-      \end{alignedat}\tag{$\color{green}\ast$}
+      \end{alignedat}\cref{\color{green}\ast}
       \end{equation}$$
     * If $p=\tpl{x,y}$ for any $a<x<c$, observe, for any $r\in\R^+$, that$$\begin{equation}
       \begin{alignedat}{2}
         p=\tpl{x,y}&\in\l\{x\r\}\times\l(y-r,y+r\r)&&y-r<y<y+r\\
         &=\l(\tpl{x,y-r},\tpl{x,y+r}\r)\ \ \ \ \ \ \ \ &&\textrm{Lemma (}\ast\textrm{)}\\
         &\subseteq\l(\tpl{a,b},\tpl{c,d}\r).&&a<x<c\Rightarrow\tpl{a,b}<_L\tpl{x,y}<_L\tpl{c,d}
-      \end{alignedat}\tag{$\color{blue}\ast$}
+      \end{alignedat}\cref{\color{blue}\ast}
       \end{equation}$$  
 
 <center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-02-10_154054/image.svg", width=260></center>

@@ -31,11 +31,11 @@ $$\begin{equation}
 \end{equation}$$
 so it suffices to show that this is equivalent to $\rank A=\rank\l[A\mid\v{b}\r]$. Note that
 $$\begin{equation}
-    \span\l\{\v{a}_1,\dots,\v{a}_n\r\}\subseteq\span\l\{\v{a}_1,\dots,\v{a}_n,\v{b}\r\}\tag{$\ast$}
+    \span\l\{\v{a}_1,\dots,\v{a}_n\r\}\subseteq\span\l\{\v{a}_1,\dots,\v{a}_n,\v{b}\r\}\cref{\ast}
 \end{equation}$$
 and observe that the converse inclusion holds iff $\v{b}\in\span\l\{\v{a}_1,\dots,\v{a}_n\r\}$. But equality in $\ref{\ast}$ is equivalent to
 $$\begin{equation}
-    \dim\span\l\{\v{a}_1,\dots,\v{a}_n\r\}=\dim\span\l\{\v{a}_1,\dots,\v{a}_n,\v{b}\r\};\tag{$\diamond$}
+    \dim\span\l\{\v{a}_1,\dots,\v{a}_n\r\}=\dim\span\l\{\v{a}_1,\dots,\v{a}_n,\v{b}\r\};\cref{\diamond}
 \end{equation}$$
 the forward direction is trivial, and the backwards direction follows since if the inclusion in $\ref{\ast}$ is strict, then $\ref{\diamond}$ would be an inequality. Observe that this is equivalent to
 $$\begin{equation}

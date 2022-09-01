@@ -48,7 +48,7 @@ $$\begin{equation}
         \mc{L}_{m\times p}\l(0_{m\times p}\r)+0_{mp}&=\mc{L}_{m\times n}\l(0_{m\times p}\r) && 0_{mp}\textrm{ is the neutral element of }\hom\l(K^n,K^m\r) \\
         &=\mc{L}_{m\times p}\l(0_{m\times p}+0_{m\times p}\r) && 0_{m\times p}\textrm{ is the neutral element of }\mat{m\times p}{K} \\
         &=\mc{L}_{m\times p}\l(0_{m\times p}\r)+\mc{L}_{m\times p}\l(0_{m\times p}\r), && \mc{L}\textrm{ is linear}
-    \end{aligned}\tag{$\ast$}
+    \end{aligned}\cref{\ast}
 \end{equation}$$
 which, by the cancellation laws in the group $\hom\l(K^n,K^m\r)$, implies that $\mc{L}_{m\times p}\l(0_{m\times p}\r)=0_{mp}$. Observe then that
 $$\begin{equation}

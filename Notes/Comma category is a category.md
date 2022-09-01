@@ -24,7 +24,7 @@ _Proof_. It suffices to check that the identities and composite morphisms are we
 
 * Take $\tpl{E_i,D_i,f_i}\in\obj\l(\ms{F}\downarrow\ms{G}\r)$ for $i\in\l\{1,2,3\r\}$ and consider the morphisms
 $$\begin{equation}
-    \tpl{\phi,\psi}:\tpl{E_1,D_1,f_1}\to\tpl{E_2,D_2,f_2}\ \ \ \ \textrm{and}\ \ \ \ \tpl{\phi',\psi'}:\tpl{E_2,D_2,f_2}\to\tpl{E_3,D_3,f_3}\tag{$\ast$}
+    \tpl{\phi,\psi}:\tpl{E_1,D_1,f_1}\to\tpl{E_2,D_2,f_2}\ \ \ \ \textrm{and}\ \ \ \ \tpl{\phi',\psi'}:\tpl{E_2,D_2,f_2}\to\tpl{E_3,D_3,f_3}\cref{\ast}
 \end{equation}$$
 in $\hom\l(\ms{F}\downarrow\ms{G}\r)$; we need to prove that $\phi'\circ\phi\in\hom_\cat{C}\!\l(E_1,E_3\r)$, $\psi'\circ\psi\in\hom_\cat{D}\!\l(D_1,D_3\r)$, and that the diagram
   <center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-03-09_101429/image.svg", width=350></center>
@@ -33,10 +33,10 @@ in $\hom\l(\ms{F}\downarrow\ms{G}\r)$; we need to prove that $\phi'\circ\phi\in\
       \ms{G}\l(\psi'\circ\psi\r)\circ f_1=f_3\circ\ms{F}\l(\phi'\circ\phi\r).
   \end{equation}$$
   The first two are evident by the definition of the composite morphisms in $\cat{E}$ and $\cat{D}$. For the third, observe from the definition of ($\,\ast\,$) that$$\begin{equation}
-      \ms{G}\l(\psi\r)\circ f_1=f_2\circ\ms{F}\l(\phi\r)\tag{$\,1\,$}
+      \ms{G}\l(\psi\r)\circ f_1=f_2\circ\ms{F}\l(\phi\r)\cref{1}
   \end{equation}$$
   and$$\begin{equation}
-      \ms{G}\l(\psi'\r)\circ f_2=f_3\circ\ms{F}\l(\phi'\r),\tag{$\,2\,$}
+      \ms{G}\l(\psi'\r)\circ f_2=f_3\circ\ms{F}\l(\phi'\r),\cref{2}
   \end{equation}$$
   respectively. The codomain of the morphisms on each side of $(\,1\,)$ is $\ms{G}\l(D_2\r)$, so we can compose $\ms{G}\l(\psi'\r)$, whose domain is $\ms{G}\l(D_2\r)$, on the left to obtain$$\begin{equation}
       \begin{alignedat}{2}
