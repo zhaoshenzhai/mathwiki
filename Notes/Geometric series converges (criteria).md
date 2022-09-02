@@ -40,14 +40,14 @@ Thus, if $r\neq 1$, we have
 $$\begin{equation}
     s_n=\frac{a_0\l(1-r^{n+1}\r)}{1-r}
 \end{equation}$$
-and thus
+and hence
 $$\begin{equation}
     \begin{aligned}
         \lim_{n\to\infty}\sum_{k=0}^na_0r^n&=\lim_{n\to\infty}\frac{a_0\l(1-r^{n+1}\r)}{1-r} && \textrm{Substitution} \\
         &=\frac{a_0}{1-r}\l(1-\lim_{n\to\infty}r^{n+1}\r). && \textrm{Linearity of $\lim_{n\to\infty}$; $a_0\neq0$}
     \end{aligned}
 \end{equation}$$
-Note that the limit converges iff $\l|r\r|<1$ (assuming $r\neq1$), so the series $\sum_{n=0}^\infty a_0r^n$ converges to
+Note that the limit converges to $0$ iff $\l|r\r|<1$ (assuming $r\neq1$) and diverges otherwise, so the series $\sum_{n=0}^\infty a_0r^n$ converges to
 $$\begin{equation}
     \frac{a_0}{1-r}
 \end{equation}$$

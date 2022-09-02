@@ -24,4 +24,8 @@ _Let $I\subseteq\Z$ be unbounded above and let $K$ denote either $\R$ or $\C$. A
 
 ```
 
+**Remark.** We restrict to $\R$ and $\C$ due to both their algebraic and analytic properties.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 **Remark.** If $I$ is bounded below, we can $\textrm{`}$reindex$\textrm{'}$ the sequence to $\sigma':\N\to K$.<span style="float:right;">$\blacklozenge$</span>
