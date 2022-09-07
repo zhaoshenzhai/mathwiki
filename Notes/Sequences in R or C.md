@@ -5,7 +5,7 @@ mathLink: Sequences in $\R$/$\C$
 <div class="topSpace"></div>
 
 Date Created: 29/08/2022 16:52:42
-Tags: #Definition
+Tags: #Definition #Later/Analysis
 
 Types: _Not Applicable_
 Examples: [[Geometric Sequence]]
@@ -24,7 +24,7 @@ _Let $I\subseteq\Z$ be unbounded above and let $K$ denote either $\R$ or $\C$. A
 
 ```
 
-**Remark.** We restrict to $\R$ and $\C$ due to both their algebraic and analytic properties.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** We restrict to $\R$ and $\C$ since both are complete fields. The index set $I$ is assumed to be unbounded above so that limits to infinity may be taken.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
