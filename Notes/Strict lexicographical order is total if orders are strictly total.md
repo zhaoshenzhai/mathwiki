@@ -3,8 +3,8 @@
 Date Created: 01/02/2022 16:00:16
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Strict lexicographical order is a strict partial order]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -3,8 +3,8 @@
 Date Created: 06/04/2022 22:16:10
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Matrix multiplication (columns slash rows)]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

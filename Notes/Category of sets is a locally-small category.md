@@ -7,8 +7,8 @@ mathLink: auto
 Date Created: 21/02/2022 16:40:38
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Composition of relations is a relation]], [[Identity function is the identity of function composition]], [[Function space is a set]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

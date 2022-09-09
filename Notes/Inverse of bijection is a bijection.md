@@ -3,8 +3,8 @@
 Date Created: 27/01/2022 13:41:57
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Invertible iff bijective]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: [[Inverse of isomorphism is an isomorphism]]

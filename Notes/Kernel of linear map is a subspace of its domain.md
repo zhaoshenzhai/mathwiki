@@ -3,8 +3,8 @@
 Date Created: 02/05/2022 19:40:34
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Linear map fixes zero vector]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

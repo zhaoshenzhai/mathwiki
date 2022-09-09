@@ -3,8 +3,8 @@
 Date Created: 09/02/2022 09:34:39
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Cartesian product of intersections]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

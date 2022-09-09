@@ -3,8 +3,8 @@
 Date Created: 06/04/2022 21:12:19
 Tags: #Theorem
 
-Lemma: _Not Applicable_
 Proved by: [[Linearly dependent iff exists span redundant element]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

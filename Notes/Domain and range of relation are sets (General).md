@@ -3,8 +3,8 @@
 Date Created: 21/01/2022 16:18:54
 Tags: #Proposition #Later/Set_Theory
 
-Lemma: _Not Applicable_
 Proved by: [[Replacement image of a set is a set]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

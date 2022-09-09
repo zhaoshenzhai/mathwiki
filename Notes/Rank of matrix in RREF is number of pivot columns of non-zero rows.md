@@ -7,8 +7,8 @@ mathLink: Rank of matrix in RREF is $|$pivot columns$|/|$non-zero rows$|$
 Date Created: 07/06/2022 18:06:05
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Elementary matrices slash operations are rank-preserving]], [[Linearly independent subset cannot contain the zero vector]]
+References: _Not Applicable_
 Justifications: [[Gaussian Algorithm]]
 
 Generalizations: _Not Applicable_

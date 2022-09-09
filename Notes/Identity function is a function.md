@@ -3,8 +3,8 @@
 Date Created: 21/01/2022 10:09:11
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Formula in replacement image constructs a function]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

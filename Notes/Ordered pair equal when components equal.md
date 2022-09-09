@@ -3,8 +3,8 @@
 Date Created: 15/01/2022 14:02:37
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Axiom of Extensionality]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -7,8 +7,8 @@ mathLink: $\l[A\mid\v{b}\r]$ in RREF $\Rightarrow$ $A$ in RREF
 Date Created: 11/06/2022 09:49:16
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: _Not Applicable_
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -7,8 +7,8 @@ mathLink: auto
 Date Created: 10/02/2022 12:42:39
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Criteria for fineness w.r.t. bases]], [[Product topology (basis; component from bases)]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -3,8 +3,8 @@
 Date Created: 03/04/2022 18:40:47
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Linear subspace iff closed under linear combination]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

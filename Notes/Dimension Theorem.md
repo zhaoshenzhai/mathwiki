@@ -3,8 +3,8 @@
 Date Created: 07/05/2022 20:28:12
 Tags: #Theorem
 
-Lemma: _Not Applicable_
 Proved by: [[Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper)]], [[Linearly independent set extends to a basis]], [[Image of linear map is spanned by image of spanning set]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

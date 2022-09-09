@@ -7,8 +7,8 @@ mathLink: $\Diag{n}{K}\subseteq\mat{n}{K}$ is a linear subspace
 Date Created: 05/05/2022 22:10:54
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: _Not Applicable_
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

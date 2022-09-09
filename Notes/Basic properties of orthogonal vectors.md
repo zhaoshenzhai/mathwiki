@@ -3,8 +3,8 @@
 Date Created: 25/06/2022 20:35:44
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Basic properties of complex conjugation]], [[Linear map fixes zero vector]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

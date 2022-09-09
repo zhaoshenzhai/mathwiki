@@ -3,8 +3,8 @@
 Date Created: 18/01/2022 16:08:40
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

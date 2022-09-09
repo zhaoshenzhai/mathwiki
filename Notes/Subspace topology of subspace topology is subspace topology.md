@@ -3,8 +3,8 @@
 Date Created: 11/02/2022 18:25:41
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Subspace topology (basis)]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

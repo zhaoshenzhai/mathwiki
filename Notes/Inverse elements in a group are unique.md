@@ -3,8 +3,8 @@
 Date Created: 04/05/2022 16:28:18
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Cancellation laws (group)]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

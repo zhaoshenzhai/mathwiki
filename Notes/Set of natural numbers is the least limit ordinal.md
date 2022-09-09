@@ -3,8 +3,8 @@
 Date Created: 02/02/2022 15:26:20
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Natural numbers form an initial segment of ON]], [[Initial segment of ON is an ordinal]], [[ON is well-ordered by membership]], [[Successor of natural number is a natural number]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

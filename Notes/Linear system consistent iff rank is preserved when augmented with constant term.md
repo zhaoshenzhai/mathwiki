@@ -7,8 +7,8 @@ mathLink: Linear system $A\v{x}=\v{b}$ consistent $\Leftrightarrow$ $\rank A=\ra
 Date Created: 06/06/2022 01:11:59
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Column space is spanned by columns of matrix]], [[Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper)]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

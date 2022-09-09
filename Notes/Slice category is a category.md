@@ -3,8 +3,8 @@
 Date Created: 25/02/2022 17:37:38
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: _Not Applicable_
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: [[Comma category is a category]]

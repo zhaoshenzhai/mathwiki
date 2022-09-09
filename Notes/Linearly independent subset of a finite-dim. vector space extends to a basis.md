@@ -3,8 +3,8 @@
 Date Created: 23/04/2022 11:25:09
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Steinitz Exchange Lemma]], [[Enlargement of linearly independent set by adjoining non-spanned vector]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: [[Linearly independent subset of an arbitrary vector space extends to a basis]]

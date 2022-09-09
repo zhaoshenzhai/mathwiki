@@ -3,8 +3,8 @@
 Date Created: 08/04/2022 05:23:47
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Basic properties of matrix operations]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

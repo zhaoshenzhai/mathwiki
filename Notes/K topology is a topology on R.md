@@ -7,8 +7,8 @@ mathLink: auto
 Date Created: 05/02/2022 09:24:52
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: _Not Applicable_
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -7,8 +7,8 @@ mathLink: Direct product of vector spaces/function spaces are vector spaces
 Date Created: 04/05/2022 12:41:37
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Direct product of groups slash function groups are groups]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

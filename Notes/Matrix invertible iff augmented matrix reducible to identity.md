@@ -7,8 +7,8 @@ mathLink: Matrix invertible $\Leftrightarrow$ $\l[A\mid I_n\r]\sim\l[I_n\mid A^{
 Date Created: 10/06/2022 07:20:59
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Matrix Invertibility Theorem]], [[Row-equivalence of matrices iff factors through invertible matrix]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

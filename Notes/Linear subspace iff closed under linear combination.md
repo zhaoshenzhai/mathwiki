@@ -7,8 +7,8 @@ mathLink: $U\subseteq V$ is a vector space $\Leftrightarrow$ $0\in U$ and restri
 Date Created: 03/04/2022 14:39:34
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Basic properties of vector spaces]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

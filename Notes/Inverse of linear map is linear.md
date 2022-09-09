@@ -3,8 +3,8 @@
 Date Created: 28/05/2022 14:44:08
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Invertible iff bijective]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

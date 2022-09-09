@@ -7,8 +7,8 @@ mathLink: $\l[\id_V\r]_\mc{B}=I_n$ ($\dim V=n$)
 Date Created: 19/05/2022 16:47:19
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: _Not Applicable_
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

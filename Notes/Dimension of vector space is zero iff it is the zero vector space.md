@@ -7,8 +7,8 @@ mathLink: $\dim V=0$ $\Leftrightarrow$ $V=\l\{0\r\}$
 Date Created: 06/04/2022 22:04:49
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Linearly independent subset cannot contain the zero vector]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -7,8 +7,8 @@ mathLink: auto
 Date Created: 27/01/2022 12:42:19
 Tags: #Proposition #Later/Set_Theory/Choice
 
-Lemma: _Not Applicable_
 Proved by: [[Exists function in relation iff Choice]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

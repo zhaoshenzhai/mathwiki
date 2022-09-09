@@ -3,8 +3,8 @@
 Date Created: 08/02/2022 12:25:47
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Criteria for subbasis to generate existing basis]], [[Half-infinite open rays are open in the order topology]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

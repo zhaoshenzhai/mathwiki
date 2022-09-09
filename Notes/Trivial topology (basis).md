@@ -3,8 +3,8 @@
 Date Created: 24/01/2022 12:31:06
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Criteria for collection to be a basis for an existing topology]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -3,8 +3,8 @@
 Date Created: 31/01/2022 17:50:47
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[ON is a transitive class]], [[ON is well-ordered by membership]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

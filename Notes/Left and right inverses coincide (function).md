@@ -3,8 +3,8 @@
 Date Created: 26/02/2022 12:04:23
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Composition of relations is associative]], [[Identity function is the identity of function composition]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: [[Left and right inverses coincide (morphism)]]

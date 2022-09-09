@@ -3,8 +3,8 @@
 Date Created: 27/04/2022 16:04:50
 Tags: #Theorem
 
-Lemma: _Not Applicable_
 Proved by: [[Invertible coefficient matrix iff unique solution]], [[Solutions of a linear system decompose as sum of particular and null]], [[Gaussian Elimination]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

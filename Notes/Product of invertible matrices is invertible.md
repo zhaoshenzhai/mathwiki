@@ -3,8 +3,8 @@
 Date Created: 08/04/2022 05:00:31
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Matrix invertible iff left-multiplication invertible]], [[Basic properties of left-multiplication of matrices]], [[Composition of bijections is a bijection]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

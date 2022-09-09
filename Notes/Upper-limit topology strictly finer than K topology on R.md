@@ -7,8 +7,8 @@ mathLink: $\ULtopR$ strictly finer than $\KtopR$
 Date Created: 05/02/2022 10:24:48
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Criteria for fineness w.r.t. bases]], [[Upper-limit topology strictly finer than standard topology on R]], [[Rationals is dense in reals]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

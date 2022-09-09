@@ -3,8 +3,8 @@
 Date Created: 26/06/2022 19:56:55
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Basic properties of orthogonal vectors]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

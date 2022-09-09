@@ -3,8 +3,8 @@
 Date Created: 26/06/2022 17:19:32
 Tags: #Theorem
 
-Lemma: _Not Applicable_
 Proved by: [[Pythagorean Theorem]], [[Linearly dependent iff scalar multiple]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

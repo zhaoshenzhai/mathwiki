@@ -3,8 +3,8 @@
 Date Created: 29/06/2022 12:26:36
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Pythagorean Theorem]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

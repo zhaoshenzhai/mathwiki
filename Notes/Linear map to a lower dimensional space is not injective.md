@@ -3,8 +3,8 @@
 Date Created: 14/05/2022 13:39:47
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Linear map is injective iff kernel vanishes]], [[Dimension of vector space is zero iff it is the zero vector space]], [[Dimension Theorem]], [[Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper)]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -7,8 +7,8 @@ mathLink: $\mat{n}{K}=\sym{n}{K}\oplus\skew{n}{K}$ for $\charfld K\neq2$
 Date Created: 09/05/2022 18:30:12
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Transposition is a linear map]], [[Symmetric matrices form a linear subspace of set of matrices]], [[Skew-symmetric matrices form a linear subspace of set of matrices]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

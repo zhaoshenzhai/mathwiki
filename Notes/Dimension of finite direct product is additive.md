@@ -3,8 +3,8 @@
 Date Created: 21/06/2022 14:32:35
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Unique Representation Theorem (Hamel)]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

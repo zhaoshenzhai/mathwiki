@@ -3,8 +3,8 @@
 Date Created: 23/01/2022 19:12:21
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Cardinality of power set]], [[Union of empty set is empty]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

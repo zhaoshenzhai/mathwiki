@@ -3,8 +3,8 @@
 Date Created: 13/04/2022 21:05:54
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Gaussian Elimination]], [[Dimension Theorem]], [[Rank of matrix in RREF is number of pivot columns of non-zero rows]], [[Spanning subset with same cardinality as dimension (finite) is a basis]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

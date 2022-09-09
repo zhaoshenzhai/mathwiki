@@ -3,8 +3,8 @@
 Date Created: 27/01/2022 10:41:34
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Criteria for equality of functions]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

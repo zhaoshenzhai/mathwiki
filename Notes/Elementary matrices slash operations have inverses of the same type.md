@@ -7,8 +7,8 @@ mathLink: auto
 Date Created: 23/03/2022 18:38:07
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Elementary operations act as multiplication by its elementary matrix]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

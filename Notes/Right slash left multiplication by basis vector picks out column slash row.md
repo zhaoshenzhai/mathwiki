@@ -7,8 +7,8 @@ mathLink: Right/left multiplication by basis vector picks out column/row
 Date Created: 23/05/2022 17:27:20
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Basic properties of matrix operations]], [[Matrix multiplication (columns slash rows)]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

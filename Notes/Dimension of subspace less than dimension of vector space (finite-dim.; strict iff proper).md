@@ -7,8 +7,8 @@ mathLink: $\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrighta
 Date Created: 23/04/2022 12:48:57
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Linearly independent set extends to a basis]], [[Enlargement of linearly independent set by adjoining non-spanned vector]], [[Steinitz Exchange Lemma]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -7,8 +7,8 @@ mathLink: $\LLtopR$ and $\KtopR$ not comparable
 Date Created: 05/02/2022 17:43:45
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Criteria for fineness w.r.t. bases]], [[Rationals is dense in reals]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

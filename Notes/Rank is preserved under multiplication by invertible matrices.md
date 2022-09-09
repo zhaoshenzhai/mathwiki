@@ -7,8 +7,8 @@ mathLink: $\rank A=\rank PAQ$ for $P,Q$ invertible
 Date Created: 05/06/2022 20:40:10
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Basic properties of left-multiplication of matrices]], [[Matrix invertible iff left-multiplication invertible]], [[Linear isomorphism preserve dimensions of subspaces]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

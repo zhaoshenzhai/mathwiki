@@ -3,8 +3,8 @@
 Date Created: 26/06/2022 16:54:24
 Tags: #Theorem
 
-Lemma: _Not Applicable_
 Proved by: _Not Applicable_
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

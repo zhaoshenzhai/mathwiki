@@ -7,8 +7,8 @@ mathLink: auto
 Date Created: 19/05/2022 17:10:55
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Composition of linear maps repr under basis matrix product of representations]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -7,8 +7,8 @@ mathLink: auto
 Date Created: 04/04/2022 22:50:37
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: _Not Applicable_
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: [[Linearly dependent iff exists span redundant element]]

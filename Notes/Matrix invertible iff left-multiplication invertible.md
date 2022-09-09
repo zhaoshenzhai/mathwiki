@@ -7,8 +7,8 @@ mathLink: $A$ invertible $\Leftrightarrow$ $L_A$ invertible
 Date Created: 29/05/2022 17:24:27
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Linear map invertible repr under basis matrix representation invertible]], [[Basic properties of left-multiplication of matrices]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

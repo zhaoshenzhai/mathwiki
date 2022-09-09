@@ -7,8 +7,8 @@ mathLink: auto
 Date Created: 07/02/2022 15:43:53
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Discrete topology (basis)]], [[Criteria for collection to be a basis for an existing topology]], [[Successor of natural number is a natural number]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -7,8 +7,8 @@ mathLink: Homogeneous system $A\v{x}=\v{0}$ has only trivial solution $\Leftrigh
 Date Created: 30/04/2022 19:44:11
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Matrix multiplication (columns slash rows)]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -3,8 +3,8 @@
 Date Created: 26/01/2022 12:09:33
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Subset relation is transitive]], [[Axiom of Extensionality]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

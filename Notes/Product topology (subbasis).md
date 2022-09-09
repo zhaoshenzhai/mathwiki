@@ -3,8 +3,8 @@
 Date Created: 09/02/2022 11:02:01
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Criteria for subbasis to generate existing basis]], [[Preimage under projection of subset]], [[Cartesian product of intersections]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

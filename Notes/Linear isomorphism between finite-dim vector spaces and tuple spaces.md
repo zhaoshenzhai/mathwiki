@@ -7,8 +7,8 @@ mathLink: $\phi_\mc{B}:V\simto K^n$ ($\dim V=n$)
 Date Created: 15/05/2022 22:49:38
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Unique Representation Theorem (Hamel)]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

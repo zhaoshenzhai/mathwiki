@@ -3,8 +3,8 @@
 Date Created: 24/01/2022 12:14:51
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Subset relation is transitive]], [[Basic properties of unions, intersections, and power sets]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

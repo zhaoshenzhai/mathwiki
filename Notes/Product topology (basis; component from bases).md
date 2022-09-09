@@ -3,8 +3,8 @@
 Date Created: 09/02/2022 10:12:02
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Criteria for collection to be a basis for an existing topology]], [[Cartesian product is monotone w.r.t. subsets]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

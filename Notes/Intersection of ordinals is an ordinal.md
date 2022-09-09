@@ -3,8 +3,8 @@
 Date Created: 31/01/2022 11:12:51
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Well-ordering well-orders subsets]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

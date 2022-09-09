@@ -3,8 +3,8 @@
 Date Created: 27/01/2022 10:06:17
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: _Not Applicable_
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: [[Identity morphism is an isomorphism]]

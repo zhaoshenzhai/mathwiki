@@ -3,8 +3,8 @@
 Date Created: 25/01/2022 11:58:09
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Discrete topology (basis)]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

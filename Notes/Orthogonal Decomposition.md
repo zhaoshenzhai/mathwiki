@@ -7,8 +7,8 @@ mathLink: $V=U\oplus U^\perp$
 Date Created: 25/06/2022 16:24:44
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Basic properties of orthogonal complements]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

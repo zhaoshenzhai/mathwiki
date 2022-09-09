@@ -3,8 +3,8 @@
 Date Created: 01/05/2022 20:24:07
 Tags: #Proposition #Later/Set_Theory/Choice
 
-Lemma: _Not Applicable_
 Proved by: [[Enlargement of linearly independent set by adjoining non-spanned vector]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

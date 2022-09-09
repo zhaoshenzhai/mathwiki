@@ -3,8 +3,8 @@
 Date Created: 17/02/2022 13:22:37
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Rationals is dense in reals]], [[Root 2 is not rational]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

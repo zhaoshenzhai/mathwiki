@@ -3,8 +3,8 @@
 Date Created: 01/02/2022 10:38:04
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Binary relation iff subset of Cartesian-Kuratowski product]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

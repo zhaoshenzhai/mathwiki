@@ -3,8 +3,8 @@
 Date Created: 28/06/2022 14:57:29
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Orthonormal sets are linearly independent]], [[Linearly independent set extends to a basis]], [[Gram-Schmidt Orthonormalization]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

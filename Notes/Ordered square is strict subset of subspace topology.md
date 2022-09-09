@@ -3,8 +3,8 @@
 Date Created: 18/02/2022 12:03:13
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: _Not Applicable_
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: [[Restricted order topology subset of subspace topology]]

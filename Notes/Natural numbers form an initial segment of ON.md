@@ -3,8 +3,8 @@
 Date Created: 02/02/2022 11:40:56
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[ON is a transitive class]], [[Reflexive closure of ordering on ordinals]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

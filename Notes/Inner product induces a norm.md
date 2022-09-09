@@ -3,8 +3,8 @@
 Date Created: 24/06/2022 14:07:51
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Cauchy-Schwarz Inequality]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -3,8 +3,8 @@
 Date Created: 07/02/2022 19:56:07
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Same equivalence class iff related]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

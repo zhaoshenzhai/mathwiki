@@ -3,8 +3,8 @@
 Date Created: 19/08/2022 22:08:16
 Tags: #Proposition #Later/Classical_Mechanics
 
-Lemma: _Not Applicable_
 Proved by: _Not Applicable_
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -3,8 +3,8 @@
 Date Created: 04/04/2022 20:55:25
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Basic properties of vector spaces]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

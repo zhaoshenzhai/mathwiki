@@ -3,8 +3,8 @@
 Date Created: 27/01/2022 13:45:27
 Tags: #Proposition
 
-Lemma: [[Composition of injections is an injection]], [[Composition of surjections is a surjection]]
 Proved by: [[Invertible iff bijective]], [[Composition of relations is associative]], [[Identity function is the identity of function composition]]
+References: [[Composition of injections is an injection]], [[Composition of surjections is a surjection]]
 Justifications: _Not Applicable_
 
 Generalizations: [[Composition of isomorphims are isomorphisms]]

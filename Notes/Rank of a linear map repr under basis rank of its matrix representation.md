@@ -7,8 +7,8 @@ mathLink: auto
 Date Created: 04/06/2022 19:32:00
 Tags: #Proposition
 
-Lemma: _Not Applicable_
 Proved by: [[Action of linear map repr under basis left-multiplication of matrix representation]], [[Linear isomorphism between finite-dim vector spaces and tuple spaces]], [[Linear isomorphism preserve dimensions of subspaces]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
