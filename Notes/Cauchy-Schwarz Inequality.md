@@ -3,6 +3,7 @@
 Date Created: 26/06/2022 17:19:32
 Tags: #Theorem
 
+Lemma: _Not Applicable_
 Proved by: [[Pythagorean Theorem]], [[Linearly dependent iff scalar multiple]]
 Justifications: _Not Applicable_
 

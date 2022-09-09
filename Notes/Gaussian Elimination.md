@@ -3,6 +3,7 @@
 Date Created: 25/03/2022 15:55:27
 Tags: #Theorem
 
+Lemma: _Not Applicable_
 Proved by: [[Row-equivalent augmented matrices implies equivalent linear systems]]
 Justifications: [[Gaussian Algorithm]], [[RREF of a matrix is unique]]
 

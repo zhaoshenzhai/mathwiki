@@ -3,6 +3,7 @@
 Date Created: 27/06/2022 16:08:32
 Tags: #Theorem
 
+Lemma: _Not Applicable_
 Proved by: [[Linearly dependent iff exists span redundant element]], [[Basic properties of orthogonal vectors]], [[Orthonormal sets are linearly independent]], [[Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper)]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]]
 Justifications: _Not Applicable_
 

@@ -3,6 +3,7 @@
 Date Created: 29/01/2022 16:31:03
 Tags: #Theorem
 
+Lemma: _Not Applicable_
 Proved by: [[Relation induced by a partition is an equivalence relation]], [[Quotient set is a partition]], [[Same equivalence class iff related]]
 Justifications: _Not Applicable_
 
