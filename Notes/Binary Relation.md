@@ -16,13 +16,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A set $R$ is a **binary relation** if $R$ is a set of ordered pairs. Formally,_
-$$\begin{equation}
-    R\textrm{ \it{is a binary relation}}\ \ \ \ \Leftrightarrow\ \ \ \ \fa u\in R,\ex x,y:u=\tpl{x,y}.
-\end{equation}$$
+_A set $R$ is a **binary relation** if $R$ is a set of ordered pairs. Formally, if $\fa u\in R:\ex x,y:u=\tpl{x,y}$._
 
 ```
 
-**Remark.**
-* If $R$ is a binary relation and $\tpl{x,y}\in R$, write $xRy$.
-* If there exists some set $X$ such that $x,y\in X$, then $R$ is said to be **homogeneous on $X$** or is a **binary relation on $X$**.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If $R$ is a binary relation and $\tpl{x,y}\in R$, write $xRy$.<span style="float:right;">$\blacklozenge$</span>

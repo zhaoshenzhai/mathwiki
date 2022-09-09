@@ -4,14 +4,14 @@ Date Created: 15/01/2022 15:44:35
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Examples: [[Domain and range of inverse relation]]
 Constructions: [[Image (Relation)]], [[Preimage (Relation)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Domain and range of inverse relation]]
+Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Domain and range of relation are sets (Kuratowski)]]
+Justifications: [[Domain and range of relation are sets (Kuratowski)]], [[Domain and range of relation are sets (General)]]
 
 ``` ad-Definition
 title: Definition.

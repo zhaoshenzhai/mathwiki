@@ -20,19 +20,8 @@ _Let $R$ be a set. Then $R$ is a binary relation iff there exist sets $X$ and $Y
 
 ```
 
-_Proof_. ($\Rightarrow$): Let $X\coloneqq\dom R$ and $Y\coloneqq\ran R$; we claim that $R\subseteq\dom R\times\ran R$. To do so, take $u\in R$. The result follows from the following chain of implications:
+_Proof_. ($\Rightarrow$): Let $X\coloneqq\dom R$ and $Y\coloneqq\ran R$; we claim that $R\subseteq\dom R\times\ran R$. To see this, take $u\in R$, so $u=\tpl{x,y}$ for some sets $x$ and $y$. But then $\tpl{x,y}\in R$, so $x\in\dom R$ and $y\in\ran R$ and thus
 $$\begin{equation}
-    \begin{alignedat}{2}
-        u\in R&\Leftrightarrow\ex x,y:u=\tpl{x,y}&&\textrm{Definition of binary relation}\\
-        &\Rightarrow x\in\dom R\land y\in\ran R&&\textrm{Definition of domain and range}\\
-        &\Rightarrow\ex x\in\dom R,\ex y\in\ran R:u=\tpl{x,y}\ \ \ \ \ \ \ \ &&\textrm{Quantification within sets}\\
-        &\Leftrightarrow u\in\dom R\times\ran R.&&\textrm{Definition of Cartesian product}
-    \end{alignedat}
+    u=\tpl{x,y}\in\dom R\times\ran R.
 \end{equation}$$
-($\Leftarrow$): Assume that $\ex X,\ex Y:R\subseteq X\times Y$. The result follows from the following chain of implications:
-
-$\begin{alignat}{2}
-    \ex X,\ex Y:R\subseteq X\times Y&\Leftrightarrow\ex X,\ex Y,\fa u\in R:u\in X\times Y&&\textrm{Definition of subset}\\
-    &\Leftrightarrow\ex X,\ex Y,\fa u\in R:\l(\ex x\in X,\ex y\in Y:u=\tpl{x,y}\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of Cartesian product}\\
-    &\Rightarrow\fa u\in R:\ex x,\ex y:u=\tpl{x,y}.&&\textrm{Existential instantiation}\qedin
-\end{alignat}$
+($\Leftarrow$): Assume that $R\subseteq X\times Y$ for some sets $X$ and $Y$, so $u\in X\times Y$ for all $u\in R$. But the $u=\tpl{x,y}$ for some $x\in X$ and $y\in Y$, so $R$ is a binary relation.<span style="float:right;">$\blacksquare$</span>
