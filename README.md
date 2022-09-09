@@ -31,6 +31,7 @@ Each note is currently one of five types (four atomic notes and one [map of cont
 
 * **Proposition** and **Theorem** (differentiated by 'importance'), including both `statement` and `proof` regarding `object`/`notion`, which links to:
     * Proved by: _Statements in which `proof` depends crucially on._
+    * References: _Notes in which the proofs of `statement` are delegated to._
     * Justifications: _Proofs of implicit assumptions of `object`/`notion` in `statement`._<br/><br/>
     * Generalizations: _Statements and proofs of generalizations of `statement`._
     * Counterexamples: _Illustrations of why hypotheses in `statement` are necessary for `proof`._
@@ -38,7 +39,7 @@ Each note is currently one of five types (four atomic notes and one [map of cont
     * Equivalences: _Equivalent statements - including its proof._
     * Constructions: _Objects/notions that crucially depend on `statement`._
 * **MOC**, summarizing my understanding of a mathematical/physical `theory`, which links to:
-    * Context: _The assumed background formalism(s) of `theory`._
+    * Context: _Assumed background formalism(s) of `theory`._
     * Extensions: _Specializations of `theory` or its intersections with other theories._
     * Generalizations: _Abstractions of `theory` or its unifications with other theories._
 
