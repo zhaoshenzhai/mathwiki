@@ -8,7 +8,7 @@ Examples: [[Composition (Linear Map)]]
 Constructions: [[Category of Sets]]
 Generalizations: [[Composition (Relation)]]
 
-Properties: [[Identity function is the identity of function composition]], [[Composition of bijections is a bijection]]
+Properties: [[Identity function is the identity of function composition]], [[Composition of injections is an injection]], [[Composition of surjections is a surjection]], [[Composition of bijections is a bijection]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Composition of functions is a function]]

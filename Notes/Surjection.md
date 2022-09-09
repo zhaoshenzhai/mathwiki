@@ -8,7 +8,7 @@ Examples: [[Canonical Projection]], [[Projection Maps]], [[Linear map between ve
 Constructs: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Composition of surjections is a surjection]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Right-invertible iff surjection (Choice)]], [[Surjection iff epimorphism (Set Theory)]]
 Justifications: _Not Applicable_

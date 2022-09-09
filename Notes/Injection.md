@@ -8,7 +8,7 @@ Examples: [[Inclusion Function]], [[Linear map is injective iff kernel vanishes]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Complement of images subset of image of complement; injection implies equality]]
+Properties: [[Complement of images subset of image of complement; injection implies equality]], [[Composition of injections is an injection]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Left-invertible iff injection]], [[Image of intersection subset of intersection of images; equal iff injection]], [[Injection iff monomorphism (Set Theory)]]
 Justifications: _Not Applicable_
