@@ -3,6 +3,7 @@
 Date Created: 08/03/2022 14:00:38
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Image of composition is image of image]]
 Justifications: _Not Applicable_
 

@@ -3,6 +3,7 @@
 Date Created: 29/06/2022 10:06:15
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Basic properties of orthogonal complements]], [[Pythagorean Theorem]]
 Justifications: _Not Applicable_
 

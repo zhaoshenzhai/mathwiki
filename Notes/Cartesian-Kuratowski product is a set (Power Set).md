@@ -3,6 +3,7 @@
 Date Created: 21/01/2022 17:33:37
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]], [[Subset relation is transitive]]
 Justifications: _Not Applicable_
 

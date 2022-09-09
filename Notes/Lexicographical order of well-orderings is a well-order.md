@@ -3,6 +3,7 @@
 Date Created: 01/02/2022 10:41:22
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Strict lexicographical order is total if orders are strictly total]], [[Well-ordering well-orders subsets]]
 Justifications: _Not Applicable_
 

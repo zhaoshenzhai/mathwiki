@@ -3,6 +3,7 @@
 Date Created: 23/03/2022 19:38:41
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Elementary matrices slash operations have inverses of the same type]]
 Justifications: _Not Applicable_
 

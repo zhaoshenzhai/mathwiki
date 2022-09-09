@@ -3,6 +3,7 @@
 Date Created: 06/04/2022 21:55:25
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Steinitz Exchange Lemma]]
 Justifications: _Not Applicable_
 

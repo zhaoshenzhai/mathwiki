@@ -7,6 +7,7 @@ mathLink: Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$
 Date Created: 13/05/2022 20:25:22
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Linear map fixes zero vector]]
 Justifications: _Not Applicable_
 

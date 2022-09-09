@@ -7,6 +7,7 @@ mathLink: $V\iso W$ $\Rightarrow$ ($\dim V<\infty\Leftrightarrow\dim W<\infty$)
 Date Created: 28/05/2022 16:37:33
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Image of linear map is spanned by image of spanning set]], [[Inverse of linear map is linear]]
 Justifications: _Not Applicable_
 

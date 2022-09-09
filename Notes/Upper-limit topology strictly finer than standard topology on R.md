@@ -7,6 +7,7 @@ mathLink: $\ULtopR$ strictly finer than $\sttopR$
 Date Created: 05/02/2022 11:01:34
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Criteria for fineness w.r.t. bases]]
 Justifications: _Not Applicable_
 

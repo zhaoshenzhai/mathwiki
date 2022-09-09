@@ -3,6 +3,7 @@
 Date Created: 20/01/2022 07:45:41
 Tags: #Proposition #Later/Set_Theory
 
+Lemma: _Not Applicable_
 Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]]
 Justifications: _Not Applicable_
 

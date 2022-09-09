@@ -3,6 +3,7 @@
 Date Created: 18/02/2022 10:31:57
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Lexicographical order is total if orders are total]]
 Justifications: _Not Applicable_
 

@@ -3,6 +3,7 @@
 Date Created: 03/06/2022 12:36:03
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]]
 Justifications: _Not Applicable_
 

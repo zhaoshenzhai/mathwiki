@@ -3,6 +3,7 @@
 Date Created: 25/01/2022 12:13:46
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Basic properties of unions, intersections, and power sets]]
 Justifications: _Not Applicable_
 

@@ -3,6 +3,7 @@
 Date Created: 25/01/2022 11:58:09
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Discrete topology (basis)]]
 Justifications: _Not Applicable_
 

@@ -3,6 +3,7 @@
 Date Created: 18/01/2022 13:30:01
 Tags: #Proposition #Later/Set_Theory
 
+Lemma: _Not Applicable_
 Proved by: [[Universal set is a proper class]]
 Justifications: _Not Applicable_
 

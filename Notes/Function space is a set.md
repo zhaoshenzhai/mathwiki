@@ -3,6 +3,7 @@
 Date Created: 21/01/2022 18:23:06
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]], [[Cartesian product is monotone w.r.t. subsets]], [[Subset relation is transitive]]
 Justifications: _Not Applicable_
 

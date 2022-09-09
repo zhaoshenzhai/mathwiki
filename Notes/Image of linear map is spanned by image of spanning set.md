@@ -3,6 +3,7 @@
 Date Created: 07/05/2022 17:49:49
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Image of linear map is a subspace of its codomain]]
 Justifications: _Not Applicable_
 

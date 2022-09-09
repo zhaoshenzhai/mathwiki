@@ -7,6 +7,7 @@ mathLink: auto
 Date Created: 28/05/2022 17:05:24
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Linearly isomorphic iff dimensions coincide (finite-dim.)]], [[Identity function on a vector space is represented by the identity matrix]], [[Composition of linear maps repr under basis matrix product of representations]], [[Linear isomorphism between linear maps and matrices]]
 Justifications: _Not Applicable_
 

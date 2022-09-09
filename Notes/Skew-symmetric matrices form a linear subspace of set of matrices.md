@@ -7,6 +7,7 @@ mathLink: $\skew{n}{K}\subseteq\mat{n}{K}$ is a linear subspace
 Date Created: 09/05/2022 18:18:04
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Transposition is a linear map]]
 Justifications: _Not Applicable_
 

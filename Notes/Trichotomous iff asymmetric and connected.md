@@ -7,6 +7,7 @@ mathLink: auto
 Date Created: 03/02/2022 18:24:55
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Asymmetry implies irreflexivity]]
 Justifications: _Not Applicable_
 

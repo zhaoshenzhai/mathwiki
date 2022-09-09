@@ -3,6 +3,7 @@
 Date Created: 29/01/2022 13:58:07
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Same equivalence class iff related]]
 Justifications: _Not Applicable_
 

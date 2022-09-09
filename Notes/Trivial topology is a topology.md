@@ -3,6 +3,7 @@
 Date Created: 23/01/2022 19:12:21
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Cardinality of power set]], [[Union of empty set is empty]]
 Justifications: _Not Applicable_
 

@@ -3,6 +3,7 @@
 Date Created: 06/04/2022 22:16:10
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Matrix multiplication (columns slash rows)]]
 Justifications: _Not Applicable_
 

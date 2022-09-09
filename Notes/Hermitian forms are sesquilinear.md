@@ -3,6 +3,7 @@
 Date Created: 24/06/2022 11:32:29
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Basic properties of complex conjugation]]
 Justifications: _Not Applicable_
 

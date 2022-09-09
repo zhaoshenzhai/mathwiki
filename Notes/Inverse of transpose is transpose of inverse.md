@@ -3,6 +3,7 @@
 Date Created: 08/04/2022 05:48:11
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Transposition anti-respects matrix multiplication]]
 Justifications: _Not Applicable_
 

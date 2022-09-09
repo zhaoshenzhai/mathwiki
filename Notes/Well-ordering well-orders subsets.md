@@ -3,6 +3,7 @@
 Date Created: 30/01/2022 18:40:57
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Subset relation is transitive]]
 Justifications: _Not Applicable_
 

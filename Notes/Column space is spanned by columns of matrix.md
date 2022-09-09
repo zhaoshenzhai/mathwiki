@@ -3,6 +3,7 @@
 Date Created: 05/06/2022 21:30:06
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Image of linear map is spanned by image of spanning set]], [[Right slash left multiplication by basis vector picks out column slash row]]
 Justifications: _Not Applicable_
 

@@ -3,6 +3,7 @@
 Date Created: 18/02/2022 16:17:33
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Criteria for fineness w.r.t. bases]], [[Subspace topology (basis)]], [[Product topology (basis; component from bases)]]
 Justifications: _Not Applicable_
 

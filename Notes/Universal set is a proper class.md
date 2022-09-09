@@ -2,7 +2,8 @@
 
 Date Created: 14/01/2022 15:01:47
 Tags: #Proposition #Later/Set_Theory
- 
+
+Lemma: _Not Applicable_
 Proved by: [[Axiom Schema of Specification]]
 Justifications: _Not Applicable_
 

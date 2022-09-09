@@ -3,6 +3,7 @@
 Date Created: 07/04/2022 07:22:22
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Basic properties of matrix operations]]
 Justifications: _Not Applicable_
 

@@ -3,6 +3,7 @@
 Date Created: 18/01/2022 16:48:35
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Double complement of set is set itself]]
 Justifications: _Not Applicable_
 

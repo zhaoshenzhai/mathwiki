@@ -7,6 +7,7 @@ mathLink: auto
 Date Created: 20/02/2022 19:16:39
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Left-invertible iff injection]], [[Left-invertible implies monomorphism]]
 Justifications: _Not Applicable_
 

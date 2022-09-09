@@ -3,6 +3,7 @@
 Date Created: 15/01/2022 17:21:16
 Tags: #Proposition #Later/Set_Theory
 
+Lemma: _Not Applicable_
 Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]], [[Basic properties of unions, intersections, and power sets]]
 Justifications: _Not Applicable_
 

@@ -3,6 +3,7 @@
 Date Created: 21/06/2022 14:32:35
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Unique Representation Theorem (Hamel)]]
 Justifications: _Not Applicable_
 

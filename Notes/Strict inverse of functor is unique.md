@@ -3,6 +3,7 @@
 Date Created: 11/03/2022 21:51:28
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Identity functor is the identity of functor composition]], [[Composition of functors is associative]]
 Justifications: _Not Applicable_
 

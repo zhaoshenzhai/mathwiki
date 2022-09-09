@@ -3,6 +3,7 @@
 Date Created: 23/01/2022 12:26:56
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Reflexive closure of strict orders is non-strict]], [[Strict lexicographical order is a strict partial order]]
 Justifications: _Not Applicable_
 

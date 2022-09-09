@@ -3,6 +3,7 @@
 Date Created: 29/01/2022 18:53:33
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Union of empty set is empty]]
 Justifications: _Not Applicable_
 

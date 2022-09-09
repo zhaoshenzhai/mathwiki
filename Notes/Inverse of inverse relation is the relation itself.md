@@ -3,6 +3,7 @@
 Date Created: 22/01/2022 09:43:31
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Inverse of a relation is a relation]]
 Justifications: _Not Applicable_
 

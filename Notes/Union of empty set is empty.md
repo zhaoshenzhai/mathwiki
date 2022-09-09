@@ -7,6 +7,7 @@ mathLink: $\bigcup\em=\em$
 Date Created: 15/01/2022 18:20:59
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Empty set exists and is unique]]
 Justifications: _Not Applicable_
 

@@ -7,6 +7,7 @@ mathLink: auto
 Date Created: 25/02/2022 13:16:20
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Category of sets is a locally-small category]], [[Axiom Schema of Specification]]
 Justifications: _Not Applicable_
 

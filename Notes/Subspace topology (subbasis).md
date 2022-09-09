@@ -3,6 +3,7 @@
 Date Created: 11/02/2022 17:57:27
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Criteria for subbasis to generate existing basis]], [[Subspace topology (basis)]]
 Justifications: _Not Applicable_
 

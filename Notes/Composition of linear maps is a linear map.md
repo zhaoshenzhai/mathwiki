@@ -3,6 +3,7 @@
 Date Created: 19/05/2022 20:30:31
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
 

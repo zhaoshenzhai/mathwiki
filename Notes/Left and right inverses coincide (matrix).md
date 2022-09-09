@@ -3,6 +3,7 @@
 Date Created: 07/04/2022 09:17:55
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Basic properties of matrix operations]], [[Homogeneous linear system with more unknowns than equations has non-trivial solutions]]
 Justifications: _Not Applicable_
 

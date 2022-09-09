@@ -3,6 +3,7 @@
 Date Created: 22/01/2022 09:50:41
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Composition of relations is a relation]], [[Cartesian product is monotone w.r.t. subsets]]
 Justifications: _Not Applicable_
 

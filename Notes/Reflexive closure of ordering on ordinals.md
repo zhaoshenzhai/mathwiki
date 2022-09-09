@@ -3,6 +3,7 @@
 Date Created: 31/01/2022 11:53:36
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Transitive set iff every element is a subset]], [[Well-ordering well-orders subsets]]
 Justifications: _Not Applicable_
 

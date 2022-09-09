@@ -3,6 +3,7 @@
 Date Created: 03/04/2022 18:18:22
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Linear map fixes zero vector]]
 Justifications: _Not Applicable_
 

@@ -7,6 +7,7 @@ mathLink: $U=\l(U^\perp\r)^\perp$
 Date Created: 28/06/2022 22:29:13
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Basic properties of orthogonal complements]], [[Orthogonal Decomposition]]
 Justifications: _Not Applicable_
 

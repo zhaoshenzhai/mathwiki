@@ -7,6 +7,7 @@ mathLink: auto
 Date Created: 08/02/2022 13:06:57
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Criteria for collection to be a basis for an existing topology]]
 Justifications: _Not Applicable_
 

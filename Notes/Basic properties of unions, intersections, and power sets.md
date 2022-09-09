@@ -7,6 +7,7 @@ mathLink: Basic properties of $\bigcup$, $\bigcap$, and $\pow$
 Date Created: 03/06/2022 14:10:14
 Tags: #Proposition #Later/Set_Theory
 
+Lemma: _Not Applicable_
 Proved by: [[Subset relation is transitive]]
 Justifications: _Not Applicable_
 

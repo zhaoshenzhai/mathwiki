@@ -3,6 +3,7 @@
 Date Created: 11/02/2022 18:25:41
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Subspace topology (basis)]]
 Justifications: _Not Applicable_
 

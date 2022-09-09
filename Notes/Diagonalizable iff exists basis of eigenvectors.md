@@ -7,6 +7,7 @@ mathLink: auto
 Date Created: 11/06/2022 18:43:08
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
 

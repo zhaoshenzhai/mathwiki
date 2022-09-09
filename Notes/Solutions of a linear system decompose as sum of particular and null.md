@@ -7,6 +7,7 @@ mathLink: Solutions of $A\v{x}=\v{b}$ decompose as $\l\{\v{s}_p\r\}+\nullsp A$ f
 Date Created: 01/04/2022 17:36:28
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Basic properties of matrix operations]]
 Justifications: _Not Applicable_
 

@@ -7,6 +7,7 @@ mathLink: auto
 Date Created: 27/01/2022 11:56:26
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Left-invertible iff injection]], [[Right-invertible iff surjection (Choice)]], [[Left and right inverses coincide (function)]]
 Justifications: _Not Applicable_
 

@@ -7,6 +7,7 @@ mathLink: $\sym{n}{K}\subseteq\mat{n}{K}$ is a linear subspace
 Date Created: 05/05/2022 19:30:03
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Transposition is a linear map]]
 Justifications: _Not Applicable_
 

@@ -3,6 +3,7 @@
 Date Created: 21/01/2022 11:24:19
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Binary relation iff subset of Cartesian-Kuratowski product]], [[Axiom Schema of Specification]]
 Justifications: _Not Applicable_
 

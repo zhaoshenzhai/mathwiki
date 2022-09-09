@@ -7,6 +7,7 @@ mathLink: auto
 Date Created: 09/06/2022 11:12:11
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Elementary matrices slash operations have inverses of the same type]], [[Product of invertible matrices is invertible]], [[Matrix Invertibility Theorem]]
 Justifications: _Not Applicable_
 

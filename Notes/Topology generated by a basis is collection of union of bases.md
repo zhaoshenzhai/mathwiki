@@ -3,6 +3,7 @@
 Date Created: 24/01/2022 12:14:51
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Subset relation is transitive]], [[Basic properties of unions, intersections, and power sets]]
 Justifications: _Not Applicable_
 

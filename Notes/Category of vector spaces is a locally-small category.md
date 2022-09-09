@@ -7,6 +7,7 @@ mathLink: auto
 Date Created: 01/04/2022 23:50:42
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by:  [[Category of sets is a locally-small category]], [[Identity function is a linear map]], [[Composition of linear maps is a linear map]]
 Justifications: _Not Applicable_
 

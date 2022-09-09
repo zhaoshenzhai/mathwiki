@@ -7,6 +7,7 @@ mathLink: auto
 Date Created: 21/02/2022 13:19:31
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Right-invertible iff surjection (Choice)]], [[Right-invertible implies epimorphism]]
 Justifications: _Not Applicable_
 

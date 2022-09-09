@@ -2,7 +2,8 @@
 
 Date Created: 15/01/2022 08:01:47
 Tags: #Proposition
- 
+
+Lemma: _Not Applicable_
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
 

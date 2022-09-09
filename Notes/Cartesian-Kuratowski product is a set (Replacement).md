@@ -3,6 +3,7 @@
 Date Created: 20/01/2022 13:14:26
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Replacement image of a set is a set]]
 Justifications: _Not Applicable_
 

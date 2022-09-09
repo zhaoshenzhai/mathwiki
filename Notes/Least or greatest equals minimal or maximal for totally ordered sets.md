@@ -8,6 +8,7 @@ mathLink: Least/greatest $=$ minimal/maximal for totally ordered sets
 Date Created: 03/02/2022 17:39:49
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: _Not Applicable_
 Justifications: _Not Applicable_
 

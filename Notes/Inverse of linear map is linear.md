@@ -3,6 +3,7 @@
 Date Created: 28/05/2022 14:44:08
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Invertible iff bijective]]
 Justifications: _Not Applicable_
 

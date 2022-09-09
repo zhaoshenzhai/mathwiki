@@ -3,6 +3,7 @@
 Date Created: 31/01/2022 16:33:49
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Reflexive closure of ordering on ordinals]],  [[ON is a transitive class]]
 Justifications: _Not Applicable_
 

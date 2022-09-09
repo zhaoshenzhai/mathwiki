@@ -3,6 +3,7 @@
 Date Created: 02/04/2022 00:00:19
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Right slash left multiplication by basis vector picks out column slash row]]
 Justifications: _Not Applicable_
 

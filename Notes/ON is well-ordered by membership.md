@@ -3,6 +3,7 @@
 Date Created: 31/01/2022 12:28:22
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Intersection of ordinals is an ordinal]], [[Reflexive closure of ordering on ordinals]]
 Justifications: _Not Applicable_
 

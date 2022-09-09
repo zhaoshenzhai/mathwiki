@@ -3,6 +3,7 @@
 Date Created: 12/03/2022 17:39:47
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Identity morphism is an isomorphism]], [[Identity functor is the identity of functor composition]]
 Justifications: _Not Applicable_
 

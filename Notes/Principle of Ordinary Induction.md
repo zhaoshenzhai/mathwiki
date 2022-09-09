@@ -3,6 +3,7 @@
 Date Created: 02/02/2022 13:39:26
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Natural numbers form an initial segment of ON]], [[Well-ordering well-orders subsets]], [[ON is well-ordered by membership]]
 Justifications: _Not Applicable_
 

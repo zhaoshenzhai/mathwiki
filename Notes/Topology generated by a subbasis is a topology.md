@@ -3,6 +3,7 @@
 Date Created: 24/01/2022 21:00:06
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Basic properties of unions, intersections, and power sets]], [[Union of finite sets is finite]]
 Justifications: _Not Applicable_
 

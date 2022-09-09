@@ -3,6 +3,7 @@
 Date Created: 11/02/2022 17:34:35
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Criteria for collection to be a basis for an existing topology]]
 Justifications: _Not Applicable_
 

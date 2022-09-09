@@ -3,6 +3,7 @@
 Date Created: 26/01/2022 18:05:47
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Formula in replacement image constructs a function]]
 Justifications: _Not Applicable_
 

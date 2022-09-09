@@ -7,6 +7,7 @@ mathLink: $\KtopR$ strictly finer than $\sttopR$
 Date Created: 05/02/2022 11:07:34
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Criteria for fineness w.r.t. bases]], [[Rationals is dense in reals]]
 Justifications: _Not Applicable_
 

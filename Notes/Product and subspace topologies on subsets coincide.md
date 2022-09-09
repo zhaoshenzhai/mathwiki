@@ -3,6 +3,7 @@
 Date Created: 12/02/2022 12:30:57
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Subspace topology (basis)]], [[Product topology (basis; component from bases)]], [[Cartesian product of intersections]]
 Justifications: _Not Applicable_
 

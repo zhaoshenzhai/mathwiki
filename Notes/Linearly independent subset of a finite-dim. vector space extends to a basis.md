@@ -3,6 +3,7 @@
 Date Created: 23/04/2022 11:25:09
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Steinitz Exchange Lemma]], [[Enlargement of linearly independent set by adjoining non-spanned vector]]
 Justifications: _Not Applicable_
 

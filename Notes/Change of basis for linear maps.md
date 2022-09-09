@@ -3,6 +3,7 @@
 Date Created: 01/06/2022 17:22:00
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Composition of linear maps repr under basis matrix product of representations]], [[Basic properties of left-multiplication of matrices]], [[Basis transition map acts as left-multiplication by change of basis matrix]]
 Justifications: _Not Applicable_
 

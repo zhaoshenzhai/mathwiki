@@ -3,6 +3,7 @@
 Date Created: 09/06/2022 12:26:44
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Row-equivalence of matrices iff factors through invertible matrix]], [[Matrix multiplication (columns slash rows)]], [[Standard basis of tuple space is an ordered basis]], [[Rank of matrix in RREF is number of pivot columns of non-zero rows]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]]
 Justifications: _Not Applicable_
 

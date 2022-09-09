@@ -7,6 +7,7 @@ mathLink: auto
 Date Created: 05/06/2022 21:02:44
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Elementary operations act as multiplication by its elementary matrix]], [[Elementary matrices slash operations have inverses of the same type]], [[Rank is preserved under multiplication by invertible matrices]]
 Justifications: _Not Applicable_
 

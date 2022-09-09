@@ -3,6 +3,7 @@
 Date Created: 03/04/2022 18:40:47
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Linear subspace iff closed under linear combination]]
 Justifications: _Not Applicable_
 

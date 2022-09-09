@@ -3,6 +3,7 @@
 Date Created: 12/02/2022 15:10:37
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Order topology (subbasis)]], [[Subspace topology (subbasis)]]
 Justifications: _Not Applicable_
 

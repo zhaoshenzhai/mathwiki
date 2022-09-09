@@ -3,6 +3,7 @@
 Date Created: 23/01/2022 19:53:04
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[De Morgan's Laws]], [[Interection of finite sets is finite]], [[Finite union of finite sets is finite]]
 Justifications: _Not Applicable_
 

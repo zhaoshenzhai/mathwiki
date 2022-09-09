@@ -7,6 +7,7 @@ mathLink: $A$ invertible $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solution
 Date Created: 08/04/2022 03:28:32
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Basic properties of matrix operations]], [[Solutions of a linear system decompose as sum of particular and null]], [[Linear map is injective iff kernel vanishes]], [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Matrix invertible iff left-multiplication invertible]]
 Justifications: _Not Applicable_
 

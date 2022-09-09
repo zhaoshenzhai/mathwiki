@@ -3,6 +3,7 @@
 Date Created: 02/05/2022 16:29:57
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Criteria for equality of linear maps via spanning set]], [[Unique Representation Theorem (Hamel)]]
 Justifications: _Not Applicable_
 

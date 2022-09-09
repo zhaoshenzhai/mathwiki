@@ -7,6 +7,7 @@ mathLink: $\edm_{\catvect}\!\l(V\r)$ is a unital associative algebra
 Date Created: 17/05/2022 23:18:49
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Set of linear maps form a linear subspace of the function space]], [[Identity function is the identity of function composition]], [[Composition of relations is associative]], [[Basic properties of composition of linear maps]]
 Justifications: _Not Applicable_
 

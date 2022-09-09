@@ -3,6 +3,7 @@
 Date Created: 23/02/2022 16:57:55
 Tags: #Proposition #Later/Category_Theory
 
+Lemma: _Not Applicable_
 Proved by: [[Identity morphism is an isomorphism]], [[Inverse of isomorphism is an isomorphism]], [[Composition of isomorphims are isomorphisms]]
 Justifications: _Not Applicable_
 

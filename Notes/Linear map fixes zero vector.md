@@ -3,6 +3,7 @@
 Date Created: 02/04/2022 16:48:29
 Tags: #Proposition
 
+Lemma: _Not Applicable_
 Proved by: [[Basic properties of vector spaces]]
 Justifications: _Not Applicable_
 
