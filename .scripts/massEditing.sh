@@ -119,8 +119,8 @@ lineNumber=1
 while IFS= read -r count; do
     for (( i=1; i<=$count; i++ )); do
         line=$(echo "$allLines" | sed "${lineNumber}q;d")
-        allLinesInsert=$(echo "$allLinesInsert" | sed ''"$lineNumber"'s/^.*$/'"$(($line + $lineChange + $i - 1))"'/')
-        allLinesDelete=$(echo "$allLinesDelete" | sed ''"$lineNumber"'s/^.*$/'"$(($line + $lineChange - $i + 1))"'/')
+        allLinesInsert=$(echo "$allLinesInsert" | sed ''"$lineNumber"'s/^.*$/'"$(($line + $i - 1))"'/')
+        allLinesDelete=$(echo "$allLinesDelete" | sed ''"$lineNumber"'s/^.*$/'"$(($line - $i + 1))"'/')
         lineNumber=$((++lineNumber))
     done
     if [[ ! -z "$updateInterval" ]]; then
@@ -171,11 +171,7 @@ while IFS= read -r file; do
         if [[ -z "$tag" ]] || ([[ ! -z "$tag" ]] && [[ ! -z $(grep "$tag" "$file") ]]); then
             # Correct lines
             line=${allLines%%$'\n'*}
-            if [[ "$lineChange" == "b" ]]; then
-                line=$(($line - 1))
-            elif [[ "$lineChange" == "a" ]]; then
-                line=$(($line + 1))
-            fi
+            line=$(($line + $lineChange))
 
             # Operations
             if [[ "$operation" == "a" ]]; then
