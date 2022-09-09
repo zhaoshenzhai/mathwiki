@@ -3,8 +3,8 @@
 Date Created: 09/04/2022 09:43:00
 Tags: #Theorem
 
-Proved by: [[Matrix invertible iff left-multiplication invertible]], [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Dimension Theorem]], [[Invertible coefficient matrix iff unique solution]], [[Inverse of transpose is transpose of inverse]], [[Rank of matrix in RREF is number of pivot columns of non-zero rows]], [[Elementary matrices slash operations have inverses of the same type]], [[Product of invertible matrices is invertible]], [[Homogeneous linear system only trivial solution iff columns of coefficient matrix are linearly independent]], [[Column space is spanned by columns of matrix]], [[Basic properties of matrix operations]]
-References: _Not Applicable_
+Proved by: [[Linear map is injective iff kernel vanishes]], [[Dimension Theorem]], [[Rank of matrix in RREF is number of pivot columns of non-zero rows]], [[Elementary matrices slash operations have inverses of the same type]], [[Product of invertible matrices is invertible]], [[Homogeneous linear system only trivial solution iff columns of coefficient matrix are linearly independent]], [[Column space is spanned by columns of matrix]], [[Basic properties of matrix operations]]
+References: [[Matrix invertible iff left-multiplication invertible]], [[Invertible coefficient matrix iff unique solution]], [[Inverse of transpose is transpose of inverse]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

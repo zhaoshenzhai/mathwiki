@@ -3,8 +3,8 @@
 Date Created: 01/05/2022 23:08:55
 Tags: #Proposition
 
-Proved by: [[Linearly independent subset of a finite-dim. vector space extends to a basis]], [[Linearly independent subset of an arbitrary vector space extends to a basis]]
-References: _Not Applicable_
+Proved by: _Not Applicable_
+References: [[Linearly independent subset of a finite-dim. vector space extends to a basis]], [[Linearly independent subset of an arbitrary vector space extends to a basis]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
