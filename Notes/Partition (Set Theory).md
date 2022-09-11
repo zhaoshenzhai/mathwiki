@@ -16,14 +16,9 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. A **partition of $X$** is a set $\Pi\subseteq\pow\l(X\r)$ satisfying:_
-* _$\axipartition[1]$ (Non-empty)$\bf{.}$ $\fa P\in\Pi:P\neq\em$._
-* _$\axipartition[2]$ (Disjoint)$\bf{.}$ $\fa P,Q\in\Pi:P\neq Q\Rightarrow P\cap Q=\em$._
-* _$\axipartition[3]$ (Cover)$\bf{.}$ $X\subseteq\bigcup\Pi$._
+_Let $X$ be a set. A **partition of $X$** is a set $\Pi\subseteq\pow\l(X\r)$ such that:_
+* _(Non-empty)$\bf{.}$ $\fa P\in\Pi:P\neq\em$._
+* _(Disjoint)$\bf{.}$ $\fa P,Q\in\Pi:P\neq Q\Rightarrow P\cap Q=\em$._
+* _(Cover)$\bf{.}$ $X\subseteq\bigcup\Pi$._
 
 ```
-
-**Remark.** The condition $\Pi\subseteq\pow\l(X\r)$, along with $\axipartition[3]$, implies that $X=\bigcup\Pi$; observe that
-$$\begin{equation}
-    \bigcup\Pi\subseteq\bigcup\pow\l(X\r)=X.\exqedin
-\end{equation}$$
