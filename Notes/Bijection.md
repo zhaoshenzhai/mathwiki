@@ -3,7 +3,7 @@
 Date Created: 20/01/2022 09:30:37
 Tags: #Definition
 
-Types: _Not Applicable_
+Types: [[Permutation]]
 Examples: [[Identity function is a bijection]] 
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_

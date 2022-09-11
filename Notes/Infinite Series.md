@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/09/2022 15:41:10
-Tags: #Definition #Later/Analysis
+Tags: #Definition #Courses/MATH222
 
 Types: _Not Applicable_
 Examples: [[Geometric series converges (criteria)]]
