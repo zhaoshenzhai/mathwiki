@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Binary Relation]], [[Cartesian-Kuratowski Product]]
+Constructions: [[Binary Relation]], [[Cartesian Product (Binary)]]
 Generalizations: [[Tuples and Sequences]]
 
 Properties: [[Ordered pair equal when components equal]]

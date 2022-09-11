@@ -3,7 +3,7 @@
 Date Created: 21/01/2022 13:37:59
 Tags: #Proposition
 
-Proved by: [[Binary relation iff subset of Cartesian-Kuratowski product]], [[Axiom Schema of Specification]]
+Proved by: [[Binary relation iff subset of Cartesian product]], [[Axiom Schema of Specification]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

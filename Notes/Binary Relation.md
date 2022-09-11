@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [[Binary relation iff subset of Cartesian-Kuratowski product]]
+Equivalences: [[Binary relation iff subset of Cartesian product]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

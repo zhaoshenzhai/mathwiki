@@ -8,9 +8,9 @@ Examples: [[Inclusion Function]], [[Linear map is injective iff kernel vanishes]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Complement of images subset of image of complement; injection implies equality]], [[Composition of injections is an injection]]
+Properties: [[Composition of injections is an injection]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Left-invertible iff injection]], [[Image of intersection subset of intersection of images; equal iff injection]], [[Injection iff monomorphism (Set Theory)]]
+Equivalences: [[Left-invertible iff injection]], [[Injection iff monomorphism (Set Theory)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
@@ -20,6 +20,7 @@ _A function $f:X\to Y$ is an **injection** if_
 $$\begin{equation}
     \fa x,x'\in X:f\l(x\r)=f\l(x'\r)\Rightarrow x=x'.
 \end{equation}$$
+_That is, if the relation $f$ is left-unique._
 
 ```
 

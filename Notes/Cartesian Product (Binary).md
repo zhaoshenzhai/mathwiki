@@ -10,8 +10,8 @@ Generalizations: [[Cartesian Product]]
 
 Properties: [[Cartesian product is monotone w.r.t. subsets]], [[Cartesian product of intersections]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Binary relation iff subset of Cartesian-Kuratowski product]]
-Justifications: [[Cartesian-Kuratowski product is a set (Power Set)]], [[Cartesian-Kuratowski product is a set (Replacement)]]
+Equivalences: [[Binary relation iff subset of Cartesian product]]
+Justifications: [[Cartesian product is a set (Power Set)]], [[Cartesian product is a set (Replacement)]]
 
 ``` ad-Definition
 title: Definition.

@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Image of union is union of images]], [[Image of intersection subset of intersection of images; equal iff injection]], [[Complement of images subset of image of complement; injection implies equality]]
+Properties: [[Image of union is union of images]], [[Image of intersection subset of intersection of images; left-unique implies equality]], [[Complement of images subset of image of complement; left-unique implies equality]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

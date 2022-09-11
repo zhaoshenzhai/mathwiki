@@ -3,7 +3,7 @@
 Date Created: 01/02/2022 10:38:04
 Tags: #Proposition
 
-Proved by: [[Binary relation iff subset of Cartesian-Kuratowski product]]
+Proved by: [[Binary relation iff subset of Cartesian product]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

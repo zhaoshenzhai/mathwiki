@@ -8,7 +8,7 @@ Examples: [[Union of empty set is empty]]
 Constructions: [[Set of Unions and Intersections]], [[Successor]]
 Generalizations: _Not Applicable_
 
-Properties: [[Basic properties of unions, intersections, and power sets]], [[De Morgan's Laws]]
+Properties: [[Basic properties of unions, intersections, and power sets]], [[De Morgan's Laws]], [[Image of union is union of images]], [[Preimage of union is union of preimages]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Axiom of Union]], [[Axiom of Extensionality]]

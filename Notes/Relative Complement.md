@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Set of Relative Complements]]
 Generalizations: _Not Applicable_
 
-Properties: [[De Morgan's Laws]], [[Complement is anti-monotone w.r.t. subsets]], [[Double complement of set is set itself]]
+Properties: [[De Morgan's Laws]], [[Complement is anti-monotone w.r.t. subsets]], [[Double complement of set is set itself]], [[Complement of images subset of image of complement; left-unique implies equality]], [[Complement of preimages subset of preimage of complement; right-unique implies equality]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

@@ -8,6 +8,7 @@ Date Created: 10/09/2022 21:37:19
 Tags: #Proposition
 
 Proved by: _Not Applicable_
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
