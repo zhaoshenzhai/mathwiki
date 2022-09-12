@@ -23,6 +23,8 @@ $$\begin{equation}
     \sum_{n=n_0}^\infty ca_n=c\sum_{n=n_0}^\infty a_n.
 \end{equation}$$
 
+_Otherwise, if exactly one of_ $\tpl{a_n}_{n\in I}$ _and_ $\tpl{b_n}_{n\in I}$ _diverges, then_ $\sum_{n=n_0}^\infty\l(a_n+b_n\r)$ _diverges._
+
 ```
 
 _Proof_. 

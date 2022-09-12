@@ -5,7 +5,7 @@ Tags: #Definition #Later/Topology
 
 Types: _Not Applicable_
 Examples: [[Epsilon-ball]]
-Constructions: _Not Applicable_
+Constructions: [[Convergent Sequence]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

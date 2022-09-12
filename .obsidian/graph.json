@@ -1,11 +1,11 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "path:Notes",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#Definition",
@@ -53,6 +53,6 @@
   "repelStrength": 20,
   "linkStrength": 0.827364808767366,
   "linkDistance": 500,
-  "scale": 0.031695846421471635,
+  "scale": 0.05747917455739729,
   "close": true
 }

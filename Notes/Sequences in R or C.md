@@ -5,11 +5,11 @@ mathLink: Sequences in $\R$/$\C$
 <div class="topSpace"></div>
 
 Date Created: 29/08/2022 16:52:42
-Tags: #Definition #Courses/MATH254
+Tags: #Definition #Courses/MATH254 #Courses/MATH222
 
 Types: _Not Applicable_
-Examples: [[Geometric Sequence]]
-Constructions: [[Infinite Series]]
+Examples: [[Geometric Sequence]], [[Alternating Sequence]]
+Constructions: [[Convergent and Divergent Series]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

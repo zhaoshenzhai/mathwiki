@@ -1,16 +1,20 @@
+---
+mathLink: Convergent/Divergent Series
+---
+
 <div class="topSpace"></div>
 
 Date Created: 01/09/2022 15:41:10
 Tags: #Definition #Courses/MATH222
 
-Types: _Not Applicable_
-Examples: [[Geometric series converges (criteria)]]
-Constructions: _Not Applicable_
+Types: [[Absolutely Convergent Series]]
+Examples: [[Geometric series converges (criteria)]], [[Alternating Series Test]]
+Constructions: [[Power Series]]
 Generalizations: _Not Applicable_
 
-Properties: [[Basic properties of convergent series]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Properties: [[Basic properties of infinite series]]
+Sufficiencies: [[Divergence Test]], [[Comparison Test]], [[Ratio Test]], [[Root Test]]
+Equivalences: [[Integral Test]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
@@ -24,7 +28,7 @@ _exists, in which case we write_
 $$\begin{equation}
     \sum_{n=n_0}^{\infty}a_n\coloneqq\lim_{N\to\infty}\sum_{n=n_0}^Na_n.
 \end{equation}$$
-_Otherwise, we say that the_ **_infinite series of_ $\tpl{a_n}_{n\in I}$ _diverges_**.
+_Otherwise, we say that the_ **_infinite series of_ $\tpl{a_n}_{n\in I}$ _diverges_**_._
 
 ```
 
