@@ -27,3 +27,5 @@ f:\mc{D}\to K\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ x\mapsto\sum_{
 _The set $\mc{D}$ is called the **domain of convergence of $f$**._
 
 ```
+
+**Remark.** If $f\l(x\r)$ converges absolutely for all $x$ in some subset $\mc{D}_\textrm{abs}$ of $\mc{D}$, we call $\mc{D}_\textrm{abs}$ the **domain of absolute convergence of $f$**.<span style="float:right;">$\blacklozenge$</span>
