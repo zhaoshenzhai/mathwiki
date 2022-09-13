@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Set of Natural Numbers]]
+Constructions: [[Set of Natural Numbers]], [[Finite Set]]
 Generalizations: _Not Applicable_
 
 Properties: [[Successor of natural number is a natural number]]
@@ -31,8 +31,8 @@ $$\begin{equation}
 
 **Remark.** Observe that $\em$ is (vacuously) an ordinal. It is also a natural number since its only subset is itself. Define
 * $0\coloneqq\em$,
-* $1\coloneqq S\l(0\r)=\l\{\em\r\}$,
-* $2\coloneqq S\l(1\r)=\l\{\em,\l\{\em\r\}\r\}$,
-* $3\coloneqq S\l(2\r)=\l\{\em,\l\{\em\r\},\l\{\em,\l\{\em\r\}\r\}\r\}$,
+* $1\coloneqq S\l(0\r)=\l\{\em\r\}=\l\{0\r\}$,
+* $2\coloneqq S\l(1\r)=\l\{\em,\l\{\em\r\}\r\}=\l\{0,1\r\}$,
+* $3\coloneqq S\l(2\r)=\l\{\em,\l\{\em\r\},\l\{\em,\l\{\em\r\}\r\}\r\}=\l\{0,1,2\r\}$,
 
 and so on.<span style="float:right;">$\blacklozenge$</span>
