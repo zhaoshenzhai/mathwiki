@@ -1,14 +1,14 @@
 <div class="topSpace"></div>
 
-Date Created: 01/02/2022 20:23:34
-Tags: #Definition
+Date Created: 14/09/2022 19:51:10
+Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
-Examples: [[Set of Natural Numbers]]
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Bezout's Identity]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_An ordinal $\alpha$ is called a **limit ordinal** if $\alpha\neq\em$ and $\alpha$ is not a successor ordinal._
+_Two integers $a,b\in\Z$ are said to be **relatively prime** if $\gcd\l(a,b\r)=1$._
 
 ```

@@ -4,7 +4,7 @@ Date Created: 02/02/2022 11:48:34
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [[Natural numbers form an initial segment of ON]]
+Examples: [[Set of Natural Numbers]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

@@ -8,15 +8,15 @@ Examples: _Not Applicable_
 Constructions: [[Tuples and Sequences]]
 Generalizations: _Not Applicable_
 
-Properties: [[Set of natural numbers is the least limit ordinal]]
+Properties: [[Omega is the least limit ordinal]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Axiom of Infinity]], [[Principle of Ordinary Induction]]
+Justifications: [[Axiom of Infinity]], [[Principle of Ordinary Induction]], [[Omega is an ordinal]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $I$ be any inductive set asserted by the Axiom of Infinity. The **set of natural numbers** is the set_
+_Let $I$ be any inductive set asserted by the Axiom of Infinity. The **set of natural numbers** is the ordinal_
 $$\begin{equation}
     \N\coloneqq\omega\coloneqq\l\{n\in I\mid n\textrm{\it{ is a natural number}}\r\}.
 \end{equation}$$

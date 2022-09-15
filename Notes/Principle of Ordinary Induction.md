@@ -3,7 +3,7 @@
 Date Created: 02/02/2022 13:39:26
 Tags: #Proposition
 
-Proved by: [[Natural numbers form an initial segment of ON]], [[Well-ordering well-orders subsets]], [[ON is well-ordered by membership]]
+Proved by: [[Omega is an initial segment of ON]], [[Well-ordering well-orders subsets]], [[ON is well-ordered by membership]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
