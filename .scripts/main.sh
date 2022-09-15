@@ -24,23 +24,19 @@ while [[ "$repeat" == "Y" ]]; do
     echo -e "    ${CYAN}(7): Reset modify time${NC}"
     echo ""
 
-    read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-8)]${NC} ")" action
-    if [[ -z "$action" ]]; then
-        action="1"
-    fi
-    if [[ "$action" == "q" ]]; then
-        exit
-    fi
+    read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-7)]${NC} ")" action
     re='^[0-9]+$'
-    while ( ! [[ $action =~ $re ]] ) || ( [ "$action" -lt "1" ] || [ "$action" -gt "8" ] ); do
-        read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-8)]${NC} ")" action
+    if ( [[ $action =~ $re ]] ) && ( [ "$action" -gt "0" ] && [ "$action" -lt "8" ] ) || [[ -z "$action" ]]; then
         if [[ -z "$action" ]]; then
             action="1"
         fi
-        if [[ "$action" == "q" ]]; then
-            exit
-        fi
-    done
+    elif [[ "$action" == "q" ]]; then
+        exit
+    else
+        clear
+        $MATHWIKI_DIR/.scripts/main.sh
+        exit
+    fi
 
     case $action in
         "1")
