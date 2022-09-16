@@ -7,8 +7,12 @@ mathLink: $\axipairing$
 Date Created: 16/01/2022 16:34:42
 Tags: #Axiom
 
-Equivalences: _Not Applicable_
 Constructions: [[Pair Set]]
+Generalizations: _Not Applicable_
+
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
 
 ``` ad-Axiom
 title: Axiom.

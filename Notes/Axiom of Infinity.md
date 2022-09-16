@@ -7,8 +7,12 @@ mathLink: $\axiinfty$
 Date Created: 02/02/2022 11:09:41
 Tags: #Axiom #Later/Set_Theory
 
-Equivalences: _Not Applicable_
 Constructions: [[Set of Natural Numbers]]
+Generalizations: _Not Applicable_
+
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
 
 ``` ad-Axiom
 title: Axiom.

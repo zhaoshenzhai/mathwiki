@@ -7,8 +7,12 @@ mathLink: $\axiext$
 Date Created: 16/01/2022 10:57:06
 Tags: #Axiom
 
-Equivalences: _Not Applicable_
 Constructions: _Not Applicable_
+Generalizations: _Not Applicable_
+
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
 
 ``` ad-Axiom
 title: Axiom (Extensionality).

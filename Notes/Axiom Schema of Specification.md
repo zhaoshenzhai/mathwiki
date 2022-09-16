@@ -7,8 +7,12 @@ mathLink: $\axispec$
 Date Created: 16/01/2022 12:08:10
 Tags: #Axiom
 
-Equivalences: _Not Applicable_
 Constructions: _Not Applicable_
+Generalizations: _Not Applicable_
+
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
 
 ``` ad-Axiom
 title: Axiom Schema.

@@ -7,8 +7,12 @@ mathLink: $\axiunion$
 Date Created: 15/01/2022 21:15:56
 Tags: #Axiom
 
-Equivalences: _Not Applicable_
 Constructions: [[Union]]
+Generalizations: _Not Applicable_
+
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
 
 ``` ad-Axiom
 title: Axiom.

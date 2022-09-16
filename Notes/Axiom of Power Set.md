@@ -7,8 +7,12 @@ mathLink: $\axipow$
 Date Created: 17/01/2022 19:08:57
 Tags: #Axiom
 
-Equivalences: _Not Applicable_
 Constructions: [[Power Set]]
+Generalizations: _Not Applicable_
+
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
 
 ``` ad-Axiom
 title: Axiom.
