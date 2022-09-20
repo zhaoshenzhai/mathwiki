@@ -9,8 +9,8 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Bezout's Identity]]
-Equivalences: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: [[Bezout's Identity]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

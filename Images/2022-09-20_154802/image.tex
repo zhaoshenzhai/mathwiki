@@ -1,0 +1,36 @@
+\documentclass{article}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\makeatletter
+\newcommand{\globalcolor}[1]{
+    \color{#1}\global\let\default@color\current@color
+}
+\makeatother
+
+\AtBeginDocument{\globalcolor{textColor}}
+
+\pagenumbering{gobble}
+
+\begin{document}
+    \renewcommand{\arraystretch}{1.3}
+    \begin{NiceTabular}{Wc{0.1in}|Wc{0.1in}}
+        $\bullet$ & $e$ \\
+        \hline
+        $e$       & $e$
+    \end{NiceTabular}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+    \begin{NiceTabular}{Wc{0.1in}|Wc{0.1in}Wc{0.1in}}
+        $\bullet$ & $e$ & $g$ \\
+        \hline
+        $e$       & $e$ & $g$ \\
+        $g$       & $g$ & $e$
+    \end{NiceTabular}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+    \begin{NiceTabular}{Wc{0.1in}|Wc{0.1in}Wc{0.1in}Wc{0.1in}}
+        $\bullet$ & $e$ & $g$ & $h$ \\
+        \hline
+        $e$       & $e$ & $g$ & $h$ \\
+        $g$       & $g$ & $h$ & $e$ \\
+        $h$       & $h$ & $e$ & $g$
+    \end{NiceTabular}
+\end{document}

@@ -1,0 +1,46 @@
+\documentclass{article}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\makeatletter\AtBeginDocument{\color{textColor}\global\let\default@color\current@color}\makeatletter
+\pagenumbering{gobble}
+\geometry{landscape}
+
+\begin{document}
+    \begin{center}
+        \renewcommand{\arraystretch}{1.3}
+        \begin{NiceTabular}{Wc{0.1in}|Wc{0.1in}Wc{0.1in}Wc{0.1in}Wc{0.1in}}
+            $\bullet$ & $e$ & $g$ & $h$ & $k$ \\
+            \hline
+            $e$       & $e$ & $g$ & $h$ & $k$ \\
+            $g$       & $g$ & $e$ & $k$ & $h$ \\
+            $h$       & $h$ & $k$ & $e$ & $g$ \\
+            $k$       & $k$ & $h$ & $g$ & $e$
+        \end{NiceTabular}\ \ \ \ \ \ \ \ 
+        \begin{NiceTabular}{Wc{0.1in}|Wc{0.1in}Wc{0.1in}Wc{0.1in}Wc{0.1in}}
+            $\bullet$ & $e$ & $g$ & $h$ & $k$ \\
+            \hline
+            $e$       & $e$ & $g$ & $h$ & $k$ \\
+            $g$       & $g$ & $e$ & $k$ & $h$ \\
+            $h$       & $h$ & $k$ & $g$ & $e$ \\
+            $k$       & $k$ & $h$ & $e$ & $g$
+        \end{NiceTabular}\ \ \ \ \ \ \ \ 
+        \begin{NiceTabular}{Wc{0.1in}|Wc{0.1in}Wc{0.1in}Wc{0.1in}Wc{0.1in}}
+            $\bullet$ & $e$ & $g$ & $h$ & $k$ \\
+            \hline
+            $e$       & $e$ & $g$ & $h$ & $k$ \\
+            $g$       & $g$ & $h$ & $k$ & $e$ \\
+            $h$       & $h$ & $k$ & $e$ & $g$ \\
+            $k$       & $k$ & $e$ & $g$ & $h$
+        \end{NiceTabular}\ \ \ \ \ \ \ \ 
+        \begin{NiceTabular}{Wc{0.1in}|Wc{0.1in}Wc{0.1in}Wc{0.1in}Wc{0.1in}}
+            $\bullet$ & $e$ & $g$ & $h$ & $k$ \\
+            \hline
+            $e$       & $e$ & $g$ & $h$ & $k$ \\
+            $g$       & $g$ & $k$ & $e$ & $h$ \\
+            $h$       & $h$ & $e$ & $k$ & $g$ \\
+            $k$       & $k$ & $h$ & $g$ & $e$
+        \end{NiceTabular}
+    \end{center}
+\end{document}
