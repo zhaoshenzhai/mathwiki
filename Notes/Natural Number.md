@@ -3,7 +3,7 @@
 Date Created: 01/02/2022 20:24:48
 Tags: #Definition
 
-Types: _Not Applicable_
+Types: [[Prime Number]]
 Examples: _Not Applicable_
 Constructions: [[Set of Natural Numbers]], [[Finite Set]]
 Generalizations: _Not Applicable_

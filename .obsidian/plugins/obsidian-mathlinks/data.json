@@ -17,6 +17,14 @@
       "word": true
     },
     {
+      "title": "Complex Numbers",
+      "replaced": "C",
+      "replacement": "$\\C$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
       "title": "Rn",
       "replaced": "Rn",
       "replacement": "$\\R^n$",
@@ -65,20 +73,52 @@
       "word": true
     },
     {
-      "title": "K Topology on R",
-      "replaced": "K",
-      "replacement": "$K$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
       "title": "Slash",
       "replaced": " slash ",
       "replacement": "/",
       "globalMatch": true,
       "sensitive": true,
       "word": false
+    },
+    {
+      "title": "Prefix: n",
+      "replaced": "n-",
+      "replacement": "$n$-",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "title": "Epsilon",
+      "replaced": "Epsilon",
+      "replacement": "$\\epsilon$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "title": "Omega",
+      "replaced": "Omega",
+      "replacement": "$\\omega$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "title": "Apostrophe",
+      "replaced": "'",
+      "replacement": "$\\textrm{'}$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": false
+    },
+    {
+      "title": "K Topology on R",
+      "replaced": "K",
+      "replacement": "$K$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
     },
     {
       "title": "Category of Sets",
@@ -111,46 +151,6 @@
       "globalMatch": true,
       "sensitive": false,
       "word": true
-    },
-    {
-      "title": "Prefix: n",
-      "replaced": "n-",
-      "replacement": "$n$-",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "C",
-      "replaced": "C",
-      "replacement": "$\\C$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Epsilon",
-      "replaced": "Epsilon",
-      "replacement": "$\\epsilon$",
-      "globalMatch": true,
-      "sensitive": false,
-      "word": true
-    },
-    {
-      "title": "Omega",
-      "replaced": "Omega",
-      "replacement": "$\\omega$",
-      "globalMatch": true,
-      "sensitive": false,
-      "word": true
-    },
-    {
-      "title": "Apostrophe",
-      "replaced": "'",
-      "replacement": "$\\textrm{'}$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": false
     }
   ],
   "excludedFilePaths": [
