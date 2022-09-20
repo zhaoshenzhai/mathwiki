@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $n\in\N^\ast$. A matrix $D\in\mat{n}{K}$ is said to be a **diagonal matrix** if_
+_Let $K$ be a field and fix $n\in\N^+$. A matrix $D\in\mat{n}{K}$ is said to be a **diagonal matrix** if_
 $$\begin{equation}
     \fa i,j\in\l\{1,\dots,n\r\}:i\neq j\Rightarrow d_{ij}=0.
 \end{equation}$$

@@ -20,7 +20,7 @@ Justifications: [[Symmetric matrices form a linear subspace of set of matrices]]
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $n\in\N^\ast$. The **vector space of $n\times n$ symmetric matrices over $K$** is the linear subspace_
+_Let $K$ be a field and fix $n\in\N^+$. The **vector space of $n\times n$ symmetric matrices over $K$** is the linear subspace_
 $$\begin{equation}
     \sym{n}{K}\coloneqq\l\{A\in\mat{n}{K}\mid A=A^\trans\r\}
 \end{equation}$$

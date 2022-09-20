@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. A matrix $A\in\mat{m\times n}{K}$ is said to be **symmetric** if $A=A^\trans$._
+_Let $K$ be a field and fix $m,n\in\N^+$. A matrix $A\in\mat{m\times n}{K}$ is said to be **symmetric** if $A=A^\trans$._
 
 ```
 

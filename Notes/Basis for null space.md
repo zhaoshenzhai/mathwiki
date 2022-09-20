@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ with $r\coloneqq\rank A$ for some fixed $m,n,r\in\N^\ast$. Set $B\coloneqq\rref A$ and let each $k_i\in K$ denote the pivot column in $B$ corresponding to its $i^\textrm{\it{th}}$ row. Then there exists a set_ $\l\{\v{u}_1,\dots,\v{u}_{n-r}\r\}$_, called a set of **basic solutions of $A\v{x}=\v{b}$**, that forms a basis for $\nullsp A$._
+_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ with $r\coloneqq\rank A$ for some fixed $m,n,r\in\N^+$. Set $B\coloneqq\rref A$ and let each $k_i\in K$ denote the pivot column in $B$ corresponding to its $i^\textrm{\it{th}}$ row. Then there exists a set_ $\l\{\v{u}_1,\dots,\v{u}_{n-r}\r\}$_, called a set of **basic solutions of $A\v{x}=\v{b}$**, that forms a basis for $\nullsp A$._
 
 ```
 

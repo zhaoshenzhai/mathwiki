@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. Letting $\v{a}_1,\dots,\v{a}_n\in K^m$ be the columns of $A$, we have_
+_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^+$. Letting $\v{a}_1,\dots,\v{a}_n\in K^m$ be the columns of $A$, we have_
 $$\begin{equation}
     \col A=\span\l\{\v{a}_1,\dots,\v{a}_n\r\}.
 \end{equation}$$

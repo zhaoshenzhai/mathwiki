@@ -16,7 +16,7 @@ Justifications: [[Transposition is a linear map]]
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. The **transposition operation from $m\times n$ to $n\times m$ matrices over $K$** is the linear map_
+_Let $K$ be a field and fix $m,n\in\N^+$. The **transposition operation from $m\times n$ to $n\times m$ matrices over $K$** is the linear map_
 $$\begin{equation}
     \begin{aligned}
         \l(-\r)^\trans:\mat{m\times n}{K}&\to\mat{n\times m}{K} \\

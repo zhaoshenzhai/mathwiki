@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $n\in\N^\ast$. Then $\skew{n}{K}\subseteq\mat{n}{K}$ is a linear subspace._
+_Let $K$ be a field and fix $n\in\N^+$. Then $\skew{n}{K}\subseteq\mat{n}{K}$ is a linear subspace._
 
 ```
 

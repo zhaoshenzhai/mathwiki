@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. A matrix $A\in\mat{m\times n}{K}$ is said to be **left-invertible** if there exists a matrix $B\in\mat{n\times m}{K}$ such that $BA=I_n$, in which case $B$ is called a **left-inverse of $A$**._
+_Let $K$ be a field and fix $m,n\in\N^+$. A matrix $A\in\mat{m\times n}{K}$ is said to be **left-invertible** if there exists a matrix $B\in\mat{n\times m}{K}$ such that $BA=I_n$, in which case $B$ is called a **left-inverse of $A$**._
 
 ```

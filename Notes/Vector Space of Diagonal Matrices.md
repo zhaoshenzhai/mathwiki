@@ -20,7 +20,7 @@ Justifications: [[Diagonal matrices form a linear subspace of set of matrices]]
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $n\in\N^\ast$. The **vector space of $n\times n$ diagonal matrices over $K$** is the linear subspace_
+_Let $K$ be a field and fix $n\in\N^+$. The **vector space of $n\times n$ diagonal matrices over $K$** is the linear subspace_
 $$\begin{equation}
     \Diag{n}{K}\coloneqq\l\{D\in\mat{n}{K}\mid D\textrm{\it{ is a diagonal matrix}}\r\}
 \end{equation}$$

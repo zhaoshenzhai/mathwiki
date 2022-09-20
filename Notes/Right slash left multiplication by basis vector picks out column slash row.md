@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. Then, for all $A\in\mat{m\times n}{K}$, we have_
+_Let $K$ be a field and fix $m,n\in\N^+$. Then, for all $A\in\mat{m\times n}{K}$, we have_
 $$\begin{equation}
     A\v{e}_j=\v{a}_{\blob;j}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \v{f}_iA=\v{a}_{i;\blob}
 \end{equation}$$

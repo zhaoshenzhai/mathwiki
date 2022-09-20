@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. An **$m\times n$ matrix over $K$** is a function_
+_Let $K$ be a field and fix $m,n\in\N^+$. An **$m\times n$ matrix over $K$** is a function_
 $$\begin{equation}
     \begin{aligned}
         A:\l\{1,\dots,m\r\}\times\l\{1,\dots,n\r\}&\to K\\

@@ -20,11 +20,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m\in\N^\ast$. The **elementary row operations of types 1, 2, and 3 on matrices with $m$ rows over $K$**, respectively, are the functions_
+_Let $K$ be a field and fix $m\in\N^+$. The **elementary row operations of types 1, 2, and 3 on matrices with $m$ rows over $K$**, respectively, are the functions_
 $$\begin{equation}
-    e^\l(1\r),e^\l(2\r),e^\l(3\r):\bigcup_{j\in\N^\ast}\mat{m\times j}{K}\to\bigcup_{j\in\N^\ast}\mat{m\times j}{K}
+    e^\l(1\r),e^\l(2\r),e^\l(3\r):\bigcup_{j\in\N^+}\mat{m\times j}{K}\to\bigcup_{j\in\N^+}\mat{m\times j}{K}
 \end{equation}$$
-_defined by acting on_ $A\in\bigcup_{j\in\N^\ast}\mat{m\times j}{K}$ _via:_
+_defined by acting on_ $A\in\bigcup_{j\in\N^+}\mat{m\times j}{K}$ _via:_
 * _Multiplying the $s^{th}$ row by a non-zero constant $c\in K$:_
 $$\begin{equation}
     e^\l(1\r)\l(A\r)_{ij}\coloneqq
@@ -73,4 +73,4 @@ If the type is not specified, write $A\xrightarrow{e}B$.<span style="float:right
 $$\begin{equation}
     e:\mat{m\times n}{K}\to\mat{m\times n}{K}
 \end{equation}$$
-for given $m,n\in\N^\ast$ acting on $A\in\mat{m\times n}{K}$ as above shall also be referred to as an elementary row operation.<span style="float:right;">$\blacklozenge$</span>
+for given $m,n\in\N^+$ acting on $A\in\mat{m\times n}{K}$ as above shall also be referred to as an elementary row operation.<span style="float:right;">$\blacklozenge$</span>

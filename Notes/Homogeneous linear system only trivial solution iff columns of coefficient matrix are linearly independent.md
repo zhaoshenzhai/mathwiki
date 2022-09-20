@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider am $m\times n$ linear system $A\v{x}=\v{0}$ for some $m,n\in\N^\ast$. Then the system has only the trivial solution iff the columns_ $\v{a}_{\blob;1},\dots,\v{a}_{\blob;n}$ _of $A$ are linearly independent._
+_Let $K$ be a field and consider am $m\times n$ linear system $A\v{x}=\v{0}$ for some $m,n\in\N^+$. Then the system has only the trivial solution iff the columns_ $\v{a}_{\blob;1},\dots,\v{a}_{\blob;n}$ _of $A$ are linearly independent._
 
 ```
 

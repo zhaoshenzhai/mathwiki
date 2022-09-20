@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{n}{K}$ for some fixed $n\in\N^\ast$. Then $A$ is invertible iff there exists a matrix $B\in\mat{n}{K}$ such that_
+_Let $K$ be a field and consider a matrix $A\in\mat{n}{K}$ for some fixed $n\in\N^+$. Then $A$ is invertible iff there exists a matrix $B\in\mat{n}{K}$ such that_
 $$\begin{equation}
     \l[A\mid I_n\r]\sim\l[I_n\mid B\r],
 \end{equation}$$

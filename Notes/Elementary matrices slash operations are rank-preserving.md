@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. Then_
+_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^+$. Then_
 $$\begin{equation}
     \rank A=\rank\l(\l(e_1\circ\cdots\circ e_k\r)\l(A\r)\r)
 \end{equation}$$

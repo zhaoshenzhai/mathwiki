@@ -16,7 +16,7 @@ Justifications: [[Basic properties of orthogonal projections]], [[Projection map
 ``` ad-Definition
 title: Definition.
 
-_Fix $n\in\N^\ast$. The **Galilean $n$-coordinate space** is the Galilean space $\tpl{\R\times\R^n,\R\times\R^n,+,t,\bilform{\slot}{\slot}}$ consisting of_
+_Fix $n\in\N^+$. The **Galilean $n$-coordinate space** is the Galilean space $\tpl{\R\times\R^n,\R\times\R^n,+,t,\bilform{\slot}{\slot}}$ consisting of_
 
 * _the Euclidean $n$-coordinate space_ $\tpl{\R^n,\bilform{\slot}{\slot}}$_,_
 

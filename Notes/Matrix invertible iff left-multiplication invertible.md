@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{n}{K}$ for some fixed $n\in\N^\ast$. Then $A$ is invertible iff its induced left-multiplication map $L_A$ is invertible, in which case_ $\l(L_A\r)^{-1}=L_{A^{-1}}$_._
+_Let $K$ be a field and consider a matrix $A\in\mat{n}{K}$ for some fixed $n\in\N^+$. Then $A$ is invertible iff its induced left-multiplication map $L_A$ is invertible, in which case_ $\l(L_A\r)^{-1}=L_{A^{-1}}$_._
 
 ```
 

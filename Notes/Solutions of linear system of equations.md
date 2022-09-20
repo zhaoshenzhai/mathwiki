@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Theorem
 title: Theorem.
 
-_Let $K$ be a field and consider an $m\times n$ linear system $A\v{x}=\v{b}$ for some fixed $m,n\in\N^\ast$. Then the following methods may be used to find solution(s) of $A\v{x}=\v{b}$._
+_Let $K$ be a field and consider an $m\times n$ linear system $A\v{x}=\v{b}$ for some fixed $m,n\in\N^+$. Then the following methods may be used to find solution(s) of $A\v{x}=\v{b}$._
 * _If $A$ is invertible, then there exists a unique solution $\v{s}\coloneqq A^{-1}\v{b}$._
     * _This is only useful if $A^{-1}$ is given as reducing $\l[A\mid I\r]$ to $\l[I\mid A^{-1}\r]$ involves elementary row operations (so we may was well use Gaussian Elimination in the first place)._
 

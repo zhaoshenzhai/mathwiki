@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider matrices $A\in\mat{m\times n}{K}$ and $B\in\mat{m\times p}{K}$ for some fixed $m,n,p\in\N^\ast$. The **augmented matrix of $B$ after $A$** is the matrix_
+_Let $K$ be a field and consider matrices $A\in\mat{m\times n}{K}$ and $B\in\mat{m\times p}{K}$ for some fixed $m,n,p\in\N^+$. The **augmented matrix of $B$ after $A$** is the matrix_
 $$\begin{equation}
     \l[A\mid B\r]\coloneqq\l[
         \begin{array}{ccc|ccc}

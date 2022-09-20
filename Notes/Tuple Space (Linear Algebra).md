@@ -16,7 +16,7 @@ Justifications: [[Direct product of vector spaces; function spaces are vector sp
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{K,+,\cdot}$ be a field and fix $n\in\N^\ast$. The **$n$-tuple space over $K$** is the vector space $\tpl{K^n,K,\boxplus,\boxdot,\v{0}}$ over $K$, where $\v{0}\coloneqq\tpl{0,\dots,0}$ and_
+_Let $\tpl{K,+,\cdot}$ be a field and fix $n\in\N^+$. The **$n$-tuple space over $K$** is the vector space $\tpl{K^n,K,\boxplus,\boxdot,\v{0}}$ over $K$, where $\v{0}\coloneqq\tpl{0,\dots,0}$ and_
 $$\begin{equation}
     \begin{aligned}
         \boxplus:K^n\times K^n&\to K^n\\

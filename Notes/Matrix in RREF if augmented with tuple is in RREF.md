@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ and a column vector $\v{b}\in\mat{m\times1}{K}$ for some fixed $m,n\in\N^\ast$. If $\l[A\mid\v{b}\r]$ is in RREF, then $A$ is in RREF too._
+_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ and a column vector $\v{b}\in\mat{m\times1}{K}$ for some fixed $m,n\in\N^+$. If $\l[A\mid\v{b}\r]$ is in RREF, then $A$ is in RREF too._
 
 ```
 

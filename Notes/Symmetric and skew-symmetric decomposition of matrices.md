@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field with $\charfld K\neq2$ and fix $n\in\N^\ast$. Then_
+_Let $K$ be a field with $\charfld K\neq2$ and fix $n\in\N^+$. Then_
 $$\begin{equation}
     \mat{n}{K}=\sym{n}{K}\oplus\skew{n}{K}.
 \end{equation}$$

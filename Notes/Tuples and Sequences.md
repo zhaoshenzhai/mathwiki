@@ -43,7 +43,7 @@ $$\begin{equation}
         \end{aligned}
     \r]\in X^n,
 \end{equation}$$
-though, in both cases, we usually use $\omega$ as $\N^\ast$ (as is done above). Similarly, infinite sequences and $n$-tuples through $\l\{X_j\r\}_{j\in J}$ are functions of the form
+though, in both cases, we usually use $\omega$ as $\N^+$ (as is done above). Similarly, infinite sequences and $n$-tuples through $\l\{X_j\r\}_{j\in J}$ are functions of the form
 $$\begin{equation}
     \l[
         \begin{aligned}

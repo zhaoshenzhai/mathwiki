@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n,p\in\N^\ast$. The **matrix multiplication operation between an $m\times n$ and an $n\times p$ matrix over $K$** is the function_
+_Let $K$ be a field and fix $m,n,p\in\N^+$. The **matrix multiplication operation between an $m\times n$ and an $n\times p$ matrix over $K$** is the function_
 $$\begin{equation}
     \begin{aligned}
         \odot:\mat{m\times n}{K}\times\mat{n\times p}{K}&\to\mat{m\times p}{K} \\

@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ with $r\coloneqq\rank A$ for some fixed $m,n,r\in\N^\ast$. Let $B\in\mat{m\times n}{K}$ be a reduced row-echelon form of $A$, and let each $k_i\in K$ denote the pivot column in $B$ corresponding to its $i^\textrm{\it{th}}$ row. Then the columns_ $\l\{\v{a}_{k_1},\dots,\v{a}_{k_r}\r\}$ _of $A$ form a basis for $\col A$._
+_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ with $r\coloneqq\rank A$ for some fixed $m,n,r\in\N^+$. Let $B\in\mat{m\times n}{K}$ be a reduced row-echelon form of $A$, and let each $k_i\in K$ denote the pivot column in $B$ corresponding to its $i^\textrm{\it{th}}$ row. Then the columns_ $\l\{\v{a}_{k_1},\dots,\v{a}_{k_r}\r\}$ _of $A$ form a basis for $\col A$._
 
 ```
 

@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider an $n\times n$ linear system $A\v{x}=\v{b}$ for some fixed $n\in\N^\ast$. Then $A\in\mat{n}{K}$ is invertible iff the system has a unique solution $\v{s}=A^{-1}\v{b}$._
+_Let $K$ be a field and consider an $n\times n$ linear system $A\v{x}=\v{b}$ for some fixed $n\in\N^+$. Then $A\in\mat{n}{K}$ is invertible iff the system has a unique solution $\v{s}=A^{-1}\v{b}$._
 
 ```
 

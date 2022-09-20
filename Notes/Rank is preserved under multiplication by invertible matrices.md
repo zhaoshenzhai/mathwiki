@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^\ast$. Then, for all invertible matrices $P\in\mat{m}{K}$ and $Q\in\mat{n}{K}$, we have_
+_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^+$. Then, for all invertible matrices $P\in\mat{m}{K}$ and $Q\in\mat{n}{K}$, we have_
 $$\begin{equation}
     \rank AQ=\rank A\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \rank PA=\rank A.
 \end{equation}$$

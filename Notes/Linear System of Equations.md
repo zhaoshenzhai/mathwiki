@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. A **linear system of $m$ equations in $n$ variables over $K$** is a collection_
+_Let $K$ be a field and fix $m,n\in\N^+$. A **linear system of $m$ equations in $n$ variables over $K$** is a collection_
 $$\begin{equation}
     \l\{\begin{alignedat}{7}
         &a_{11}x_1&&\,+&&\,\cdots\,&&\,+\,&&a_{1n}x_n&&=\ &&b_1\\

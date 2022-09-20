@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Consider the field of real numbers $\tpl{\R,+,\cdot}$ and fix $n\in\N^\ast$. The **real $n$-coordinate space** is the $n$-tuple space $\R^n$ over $\R$; that is, it is the vector space $\R^n$ equipped with the component-wise operations._
+_Consider the field of real numbers $\tpl{\R,+,\cdot}$ and fix $n\in\N^+$. The **real $n$-coordinate space** is the $n$-tuple space $\R^n$ over $\R$; that is, it is the vector space $\R^n$ equipped with the component-wise operations._
 
 ```

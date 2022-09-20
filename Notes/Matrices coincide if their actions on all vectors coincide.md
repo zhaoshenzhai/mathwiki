@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. Then, for all $A,B\in\mat{m\times n}{K}$,_
+_Let $K$ be a field and fix $m,n\in\N^+$. Then, for all $A,B\in\mat{m\times n}{K}$,_
 $$\begin{equation}
     \l(\fa\v{x}\in K^n:A\v{x}=B\v{x}\r)\ \ \ \ \Rightarrow\ \ \ \ A=B.
 \end{equation}$$

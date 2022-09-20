@@ -17,11 +17,11 @@ _Let $K$ be a field and consider the function_
 $$\begin{equation}
     \mc{L}_{m\times n}:\mat{m\times n}{K}\to\hom\l(K^n,K^m\r)\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ A\mapsto L_A
 \end{equation}$$
-_for some fixed $m,n\in\N^\ast$. Then the following algebraic identities hold._
+_for some fixed $m,n\in\N^+$. Then the following algebraic identities hold._
 * _($\mc{L}$ is invertible): For all $T\in\hom\l(K^n,K^m\r)$, there exists a unique matrix $A\in\mat{m\times n}{K}$ such that_ $T=\mc{L}_{m\times n}\l(A\r)$_._
 
 * _($\mc{L}$ is linear):_ $\mc{L}\l(\alpha A+B\r)=\alpha\mc{L}\l(A\r)+\mc{L}\l(B\r)$_ for all $A,B\in\mat{m\times n}{K}$ and $\alpha\in K$._
-* _($\mc{L}$ respects matrix multiplication):_ $\mc{L}_{m\times p}\l(AC\r)=\mc{L}_{m\times n}\l(A\r)\circ\mc{L}_{n\times p}\l(C\r)$_ for all $A\in\mat{m\times n}{K}$ and $C\in\mat{n\times p}{K}$ for some fixed $p\in\N^\ast$._
+* _($\mc{L}$ respects matrix multiplication):_ $\mc{L}_{m\times p}\l(AC\r)=\mc{L}_{m\times n}\l(A\r)\circ\mc{L}_{n\times p}\l(C\r)$_ for all $A\in\mat{m\times n}{K}$ and $C\in\mat{n\times p}{K}$ for some fixed $p\in\N^+$._
 * _($\mc{L}$ preserves identity):_ $\mc{L}_n\l(I_n\r)=\id_{K^n}$_ where_ $\mc{L}_n\coloneqq\mc{L}_{n\times n}$_._
 
 ```
@@ -48,7 +48,7 @@ $$\begin{equation}
 \end{equation}$$
 
 * ($\mc{L}$ is linear): This follows from the fact that $\Phi_\mc{B}^\mc{C}$ is linear, so its inverse is also linear.
-* ($\mc{L}$ respects matrix multiplication): Take $A\in\mat{m\times n}{K}$ and $C\in\mat{n\times p}{K}$ for some fixed $p\in\N^\ast$. Observe that
+* ($\mc{L}$ respects matrix multiplication): Take $A\in\mat{m\times n}{K}$ and $C\in\mat{n\times p}{K}$ for some fixed $p\in\N^+$. Observe that
 $$\begin{equation}
     \mc{L}_{m\times p}\l(AC\r)=L_{AC}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \mc{L}_{m\times n}\l(A\r)\circ\mc{L}_{n\times p}\l(C\r)=L_A\circ L_C,
 \end{equation}$$

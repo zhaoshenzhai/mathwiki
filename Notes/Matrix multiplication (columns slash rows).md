@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n,p\in\N^\ast$. Then, for all $A\in\mat{m\times n}{K}$ and $B\in\mat{n\times p}{K}$, the columns_ $\v{c}_k$ _and the rows $\v{r}_i$ of their product $AB$ are given by_
+_Let $K$ be a field and fix $m,n,p\in\N^+$. Then, for all $A\in\mat{m\times n}{K}$ and $B\in\mat{n\times p}{K}$, the columns_ $\v{c}_k$ _and the rows $\v{r}_i$ of their product $AB$ are given by_
 $$\begin{equation}
     \v{c}_k=A\v{b}_{\blob;k}=\sum_{j=1}^nb_{jk}\v{a}_{\blob;j}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \v{r}_i=\v{a}_{i;\blob}B=\sum_{j=1}^na_{ij}\v{b}_{j;\blob}.
 \end{equation}$$

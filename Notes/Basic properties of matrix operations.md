@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n,p,q\in\N^\ast$. Then, for all $A,A'\in\mat{m\times n}{K}$, $B,B'\in\mat{n\times p}{K}$, $C\in\mat{p\times q}{K}$, and $\alpha\in K$, the following algebraic identities hold:_
+_Let $K$ be a field and fix $m,n,p,q\in\N^+$. Then, for all $A,A'\in\mat{m\times n}{K}$, $B,B'\in\mat{n\times p}{K}$, $C\in\mat{p\times q}{K}$, and $\alpha\in K$, the following algebraic identities hold:_
 * _(Unitality of $\times$): $I_mA=A=AI_n$._
 
 * _(Absorption of $0$): _$A 0_{n\times p}=0_{m\times p}=0_{m\times n} B$_._

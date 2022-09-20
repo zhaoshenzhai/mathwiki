@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. A matrix $A\in\mat{m\times n}{K}$ is said to be **skew-symmetric** if $A^\trans=-A$._
+_Let $K$ be a field and fix $m,n\in\N^+$. A matrix $A\in\mat{m\times n}{K}$ is said to be **skew-symmetric** if $A^\trans=-A$._
 
 ```
 

@@ -21,7 +21,7 @@ _Let $V$ be a vector space over some field $K$ and consider a linear operator $T
 
 ```
 
-_Proof_. Suppose, for sake of contradiction, that $\l\{v_1,\dots,v_m\r\}$ is linearly dependent. Thus there exists a span redundant element, so we may let $k\in\N^\ast$ be the smallest number such that $v_k\in\span\l\{v_1,\dots,v_{k-1}\r\}$. Hence there exist scalars $\alpha_1,\dots,\alpha_{k-1}\in K$ such that
+_Proof_. Suppose, for sake of contradiction, that $\l\{v_1,\dots,v_m\r\}$ is linearly dependent. Thus there exists a span redundant element, so we may let $k\in\N^+$ be the smallest number such that $v_k\in\span\l\{v_1,\dots,v_{k-1}\r\}$. Hence there exist scalars $\alpha_1,\dots,\alpha_{k-1}\in K$ such that
 $$\begin{equation}
     v_k=\sum_{i=1}^{k-1}\alpha_iv_i.\cref{\ast}
 \end{equation}$$

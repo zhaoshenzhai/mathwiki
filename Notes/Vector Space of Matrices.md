@@ -20,7 +20,7 @@ Justifications: [[Direct product of vector spaces; function spaces are vector sp
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. The **vector space of $\l(m\times n\r)$-matrices over $K$** is the vector space_
+_Let $K$ be a field and fix $m,n\in\N^+$. The **vector space of $\l(m\times n\r)$-matrices over $K$** is the vector space_
 $$\begin{equation}
     \mat{m\times n}{K}\coloneqq K^{\l\{1,\dots,m\r\}\times\l\{1,\dots,n\r\}}
 \end{equation}$$

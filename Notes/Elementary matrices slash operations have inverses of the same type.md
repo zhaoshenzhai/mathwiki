@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. Then each elementary row operation_
+_Let $K$ be a field and fix $m,n\in\N^+$. Then each elementary row operation_
 $$\begin{equation}
     e^\l(1\r),e^\l(2\r),e^\l(3\r):\bigcup_{j\in\N}\mat{m\times j}{K}\to\bigcup_{j\in\N}\mat{m\times j}{K}
 \end{equation}$$

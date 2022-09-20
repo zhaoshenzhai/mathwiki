@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider the tuple space $K^n$ for some fixed $n\in\N^\ast$. Then the standard basis $\l\{\v{e}_1,\dots,\v{e}_n\r\}$ of $K^n$ is an ordered basis for $K^n$._
+_Let $K$ be a field and consider the tuple space $K^n$ for some fixed $n\in\N^+$. Then the standard basis $\l\{\v{e}_1,\dots,\v{e}_n\r\}$ of $K^n$ is an ordered basis for $K^n$._
 
 ```
 

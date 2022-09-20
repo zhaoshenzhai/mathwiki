@@ -24,7 +24,7 @@ _where $\alpha_i=0$ for all but finitely-many $i\in I$. Otherwise, $U$ is said t
 
 ```
 
-**Remark.** Note that $\em$ is vacuously linearly independent. Observe that if $I=\l\{1,\dots,n\r\}$ for some $n\in\N^\ast$, the sequence of vectors $u_1,\dots,u_n$ is linearly independent if
+**Remark.** Note that $\em$ is vacuously linearly independent. Observe that if $I=\l\{1,\dots,n\r\}$ for some $n\in\N^+$, the sequence of vectors $u_1,\dots,u_n$ is linearly independent if
 $$\begin{equation}
     \fa\tpl{\alpha_i}_{i\in I}\!\in K^n:\l(\sum_{i=1}^n\alpha_iu_i=0\Rightarrow\fa i\in\l\{1,\dots,n\r\}:\alpha_i=0\r).
 \end{equation}$$

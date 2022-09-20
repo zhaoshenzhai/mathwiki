@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $m,n\in\N^\ast$. Then, for all matrices $B,C\in\mat{m\times n}{K}$ and invertible matrices $A\in\mat{m}{K}$, the cancellation laws hold:_
+_Let $K$ be a field and fix $m,n\in\N^+$. Then, for all matrices $B,C\in\mat{m\times n}{K}$ and invertible matrices $A\in\mat{m}{K}$, the cancellation laws hold:_
 * _(Left-cancellation): $AB=AC\Rightarrow B=C$._
 * _(Right-cancellation): $BA=CA\Rightarrow B=C$._
 

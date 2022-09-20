@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Gaussian Elimination).
 
-_Let $K$ be a field and let $A\v{x}=\v{b}$ be an $m\times n$ linear system of equations over $K$ for some fixed $m,n\in\N^\ast$. Let $R\coloneqq\rref A$, say with $r$ non-zero rows each with its pivot column $k_i$, and let $\v{z}\in\mat{m\times1}{K}$ be the matrix obtained by applying the same elementary row operations to $\v{b}$ that reduces $A$ to $R$. For convenience, we shall denote_
+_Let $K$ be a field and let $A\v{x}=\v{b}$ be an $m\times n$ linear system of equations over $K$ for some fixed $m,n\in\N^+$. Let $R\coloneqq\rref A$, say with $r$ non-zero rows each with its pivot column $k_i$, and let $\v{z}\in\mat{m\times1}{K}$ be the matrix obtained by applying the same elementary row operations to $\v{b}$ that reduces $A$ to $R$. For convenience, we shall denote_
 $$\begin{equation}
     \mc{K}\coloneqq\l\{k\in\N\mid k\text{\it{ is a pivot column}}\r\}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \mc{J}\coloneqq\l\{1,\dots,n\r\}\setminus\mc{K}.
 \end{equation}$$
