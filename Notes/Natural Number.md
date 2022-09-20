@@ -9,7 +9,7 @@ Constructions: [[Set of Natural Numbers]], [[Finite Set]]
 Generalizations: _Not Applicable_
 
 Properties: [[Successor of natural number is a natural number]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Fundamental Theorem of Arithmetic]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

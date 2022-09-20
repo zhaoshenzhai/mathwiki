@@ -24,6 +24,10 @@ $$\begin{equation}
 
 ```
 
+**Remark.** In particular, this proves that $\gcd\l(a,b\r)$ exists. However, it does not provide an algorithm to compute it.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 _Proof_. Consider the set $S\coloneqq\l\{c\in\N\mid\ex n_1,n_2\in\Z:c=an_1+bn_2\r\}$. Since $a^2+b^2\in\N$, we see that $S\neq\em$. Hence, by well-ordering of $\N$, there exists a minimal $d=am_1+bm_2\in S$. We claim that $\gcd\l(a,b\r)=d$.
 * ($d\divides a$ and $d\divides b$): By the Division Algorithm, there exist unique integers $q,r\in\Z$ with $0\leq r<d$ such that $a=qd+r$. If $r\neq0$, then
 $$\begin{equation}

@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Congruence modulo n]], [[Common Divisor]]
+Constructions: [[Congruence modulo n]], [[Greatest Common Divisor]], [[Least Common Multiple]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

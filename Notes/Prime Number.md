@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Fundamental Theorem of Arithmetic]]
 Generalizations: _Not Applicable_
 
 Properties: [[Euclid's Lemma]]
