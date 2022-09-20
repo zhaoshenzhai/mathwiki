@@ -17,4 +17,4 @@ _Let $f:X\to Y$ and $g:Y\to Z$ be injections. Then the composite function $g\cir
 
 ```
 
-_Proof_. Take $z_1,z_2\in Z$ such that $\l(g\circ f\r)\l(z_1\r)=\l(g\circ f\r)\l(z_2\r)$. Then $g\l(f\l(z_1\r)\r)=g\l(f\l(z_2\r)\r)$, and since $g$ is an injection, this reduces to $f\l(z_1\r)=f\l(z_2\r)$. Again, since $f$ is an injection, we have $z_1=z_2$.<span style="float:right;">$\blacksquare$</span>
+_Proof_. Take $x_1,x_2\in X$ such that $\l(g\circ f\r)\l(x_1\r)=\l(g\circ f\r)\l(x_2\r)$. Then $g\l(f\l(x_1\r)\r)=g\l(f\l(x_2\r)\r)$, and since $g$ is an injection, this reduces to $f\l(x_1\r)=f\l(x_2\r)$. Again, since $f$ is an injection, we have $x_1=x_2$.<span style="float:right;">$\blacksquare$</span>

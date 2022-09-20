@@ -5,13 +5,13 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Set of Real Numbers]]
 Generalizations: _Not Applicable_
 
 Properties: [[Dedekind-complete bounded convex sets are intervals]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[LUB property iff GLB property]]
-Justifications: _Not Applicable_
+Equivalences: _Not Applicable_
+Justifications: [[LUB property iff GLB property]]
 
 ``` ad-Definition
 title: Definition.

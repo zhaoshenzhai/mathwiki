@@ -16,10 +16,10 @@ while [ ! -z "$1" ]; do
             cd ./Notes
 
             numNotes=$(ls | wc -l)
-            numDoubleLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | wc -l)
-            numMathLinks=$(sed 's/),\ /)\n/g' * | grep -Po "\[.*\]\(.*\)" | wc -l)
+            numObsidianLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | wc -l)
+            numMarkdownLinks=$(sed 's/),\ /)\n/g' * | grep -Po "\[.*\]\(.*\)" | wc -l)
             numExternalLinks=$(sed 's/),\ /)\n/g' * | grep -Po "\[.*\]\(obsidian://.*\)" | wc -l)
-            numLinks=$(($numDoubleLinks + $numMathLinks - $numExternalLinks))
+            numLinks=$(($numObsidianLinks + $numMarkdownLinks - $numExternalLinks))
 
             ratio=$(bc -l <<< 'scale=3; '"$numLinks"'/'"$numNotes"'')
 

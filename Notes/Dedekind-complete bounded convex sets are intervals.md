@@ -17,7 +17,7 @@ _Let $\tpl{X,<}$ be a totally ordered set and fix a Dedekind-complete bounded co
 
 ```
 
-_Proof_. If $Y=\em$, then $Y=\l(x,x\r)_X$ for any $x\in X$. Assume otherwise, so, since $Y$ is bounded and Dedekind-complete, we see that $\inf Y$ and $\sup Y$ exist and are in $Y$. We claim that either $Y=\l(\inf Y,\sup Y\r)$, $Y=\l[\inf Y,\sup Y\r)$, $Y=\l(\inf Y,\sup Y\r]$, or $Y=\l[\inf Y,\sup Y\r]$.
+_Proof_. If $Y=\em$, then $Y=\l(x,x\r)_X$ for any $x\in X$. Assume otherwise, so, since $X$ is Dedekind-complement and $Y$ is bounded, we see that $\inf Y$ and $\sup Y$ exist. We claim that either $Y=\l(\inf Y,\sup Y\r)$, $Y=\l[\inf Y,\sup Y\r)$, $Y=\l(\inf Y,\sup Y\r]$, or $Y=\l[\inf Y,\sup Y\r]$.
 * ($\subseteq$): Take $y\in Y$. Since $\inf Y$ and $\sup Y$ are lower and upper bounds of $Y$, respectively, we see that $\inf Y\leq y\leq\sup Y$ and thus $y\in\l[\inf Y,\sup Y\r]$. If one/both non-strict inequalities are strict, then $y$ is in some other interval variant.
 
-* ($\supseteq$): Take $y\in\l(\inf Y,\sup Y\r)$, so $\inf Y<\sup Y$. Since $Y$ is convex, we see that $\l(\inf Y,\sup Y\r)\subseteq Y$ and thus $y\in Y$. Since $\inf Y,\sup Y\in Y$, the other cases for when $y=\inf Y$ or $y=\sup Y$ are covered too.<span style="float:right;">$\blacksquare$</span>
+* ($\supseteq$): Take $y\in\l(\inf Y,\sup Y\r)$, so $\inf Y<\sup Y$. Since $Y$ is convex, we see that $\l(\inf Y,\sup Y\r)\subseteq Y$ and thus $y\in Y$. The other cases are analogous.<span style="float:right;">$\blacksquare$</span>

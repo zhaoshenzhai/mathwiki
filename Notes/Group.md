@@ -3,9 +3,9 @@
 Date Created: 04/05/2022 13:08:40
 Tags: #Definition
 
-Types: [[Abelian Group]]
-Examples: [[Function Group]]
-Constructions: _Not Applicable_
+Types: [[Abelian Group]], [[Finite Group]]
+Examples: _Not Applicable_
+Constructions: [[Order (Group Theory)]], [[Function Group]]
 Generalizations: [[Groupoid]]
 
 Properties: [[Cancellation laws (group)]]

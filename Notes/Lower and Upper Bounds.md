@@ -26,3 +26,5 @@ $$\begin{equation}
 \end{equation}$$
 
 ```
+
+**Remark.** If $\tpl{X,\leq}$ has a lower bound $l$, we say that $\tpl{X,\leq}$ is **bounded below by $l$**. Similarly, if $\tpl{X,\leq}$ has an upper bound $u$, we say that $\tpl{X,\leq}$ is **bounded above by $u$**. If $\tpl{X,\leq}$ is both bounded above and below, we say that $\tpl{X,\leq}$ is **bounded**.<span style="float:right;">$\blacklozenge$</span>

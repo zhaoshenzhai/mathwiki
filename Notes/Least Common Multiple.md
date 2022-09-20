@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
-Date Created: 14/09/2022 19:51:10
-Tags: #Definition #Courses/MATH235
+Date Created: 16/09/2022 15:05:18
+Tags: #Definition #In_Progress
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Two integers $a,b\in\Z$ are said to be **relatively prime** if $\gcd\l(a,b\r)=1$._
+__
 
 ```

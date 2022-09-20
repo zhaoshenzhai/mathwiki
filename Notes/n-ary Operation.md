@@ -27,3 +27,5 @@ _Let $X$ be a set and fix $n\in\N$. An **operation of arity $n$ on $X$** (or an 
 * _If $n=2$, $f:X\times X\to X$ is a **binary operation on $X$**._
 
 ```
+
+**Remark.** If $\ast$ is a binary operation, we write $x\ast y\coloneqq\ast\l(x,y\r)$ for all $x,y\in X$.<span style="float:right;">$\blacklozenge$</span>

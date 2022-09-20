@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH254
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Cofinite Topology]], [[Countable Set]]
+Constructions: [[Finite Group]], [[Cofinite Topology]], [[Countable Set]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

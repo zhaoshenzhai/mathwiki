@@ -4,7 +4,7 @@ Date Created: 04/05/2022 17:13:39
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [[Trivial Group]]
+Examples: [[Trivial Group]], [[Additive Group of Integers]], [[Additive Group of Rationals]], [[Multiplicative Group of Rationals]]
 Constructions: [[Vector Space]]
 Generalizations: _Not Applicable_
 

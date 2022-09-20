@@ -1,10 +1,10 @@
 <div class="topSpace"></div>
 
-Date Created: 14/09/2022 19:51:10
-Tags: #Definition #Courses/MATH235
+Date Created: 19/09/2022 11:53:54
+Tags: #Definition #In_Progress
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Cyclic Group]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Two integers $a,b\in\Z$ are said to be **relatively prime** if $\gcd\l(a,b\r)=1$._
+_A group $\tpl{G,\ast}$ is said to be a **finite group** if $\l|G\r|<\infty$._
 
 ```
