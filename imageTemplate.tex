@@ -3,15 +3,7 @@
 \input{../../imageConfig.tex}
 \input{../../preamble.sty}
 
-\makeatletter
-\newcommand{\globalcolor}[1]{
-    \color{#1}\global\let\default@color\current@color
-}
-\makeatother
-
-%\AtBeginDocument{\globalcolor{textColor}}
-
-\pagenumbering{gobble}
+%\makeatletter\AtBeginDocument{\color{textColor}\global\let\default@color\current@color}\makeatletter
 
 \begin{document}
 
