@@ -21,6 +21,7 @@ _Let $a,b\in\Z\comp\l\{0\r\}$. Then there exist $m_1,m_2\in\Z$ such that_
 $$\begin{equation}
     \gcd\l(a,b\r)=m_1a+m_2b.
 \end{equation}$$
+_Furthermore, if there exist $m_1,m_2\in\Z$ such that $am_1+bm_2=1$, then $a$ and $b$ are relatively prime._
 
 ```
 
@@ -44,4 +45,14 @@ so $r\in S$. But $r<d$, contradicting the fact that $d$ is minimal in $S$. It fo
 $$\begin{equation}
     d=am_1+bm_2=kd'm_1+ld'm_2=d'\l(km_1+lm_2\r),
 \end{equation}$$
-so $d'\divides d$.<span style="float:right;">$\blacksquare$</span>
+so $d'\divides d$.
+
+For the last claim, it suffices to show that the only common divisors of $a$ and $b$ are $\pm1$, for then $\gcd\l(a,b\r)=1$ and hence $a$ and $b$ are relatively prime. Let $d\in\Z$ be a common divisor of $a$ and $b$, so there exist integers $k,l\in\Z$ such that $dk=a$ and $dl=b$. But then
+$$\begin{equation}
+    \l(dk\r)r+\l(dl\r)s=1,
+\end{equation}$$
+which implies that
+$$\begin{equation}
+    d\l(kr+ls\r)=1.
+\end{equation}$$
+Since both $d$ and $kr+ls$ are integers, this forces them to be either both $1$ or $-1$, so $d=\pm1$ and we are done.<span style="float:right;">$\blacksquare$</span>
