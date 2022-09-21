@@ -3,8 +3,8 @@
 Date Created: 04/05/2022 17:13:39
 Tags: #Definition
 
-Types: _Not Applicable_
-Examples: [[Trivial Group]], [[Additive Group of Integers]], [[Additive Group of Rationals]], [[Multiplicative Group of Rationals]]
+Types: [[Cyclic Group]]
+Examples: [[Trivial Group]]
 Constructions: [[Vector Space]]
 Generalizations: _Not Applicable_
 

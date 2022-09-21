@@ -4,7 +4,7 @@ Date Created: 19/09/2022 11:53:54
 Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
-Examples: [[Trivial Group]], [[Cyclic Group]]
+Examples: [[Trivial Group]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

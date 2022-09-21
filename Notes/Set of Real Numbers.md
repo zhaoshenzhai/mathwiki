@@ -4,7 +4,7 @@ Date Created: 19/09/2022 19:36:44
 Tags: #Definition #Later/Set_Theory
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Existence of nth roots]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
