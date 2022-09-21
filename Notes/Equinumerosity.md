@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Finite Set]]
 Generalizations: _Not Applicable_
 
-Properties: [[Equinumerosity is an equivalence relation]]
+Properties: [[Equinumerosity is an equivalence relation]], [[Cartesian product respects equinumerosity]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

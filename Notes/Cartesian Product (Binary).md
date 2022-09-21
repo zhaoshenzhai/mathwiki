@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: [[Cartesian Product]]
 
-Properties: [[Cartesian product is monotone w.r.t. subsets]], [[Cartesian product of intersections]]
+Properties: [[Cartesian product is monotone w.r.t. subsets]], [[Cartesian product of intersections]], [[Cartesian product respects equinumerosity]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Binary relation iff subset of Cartesian product]]
 Justifications: [[Cartesian product is a set (Power Set)]], [[Cartesian product is a set (Replacement)]]
