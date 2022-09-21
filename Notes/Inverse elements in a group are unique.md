@@ -3,7 +3,7 @@
 Date Created: 04/05/2022 16:28:18
 Tags: #Proposition
 
-Proved by: [[Cancellation laws (group)]]
+Proved by: [[Basic properties of groups]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

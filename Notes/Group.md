@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Order (Group Theory)]], [[Function Group]]
 Generalizations: [[Groupoid]]
 
-Properties: [[Cancellation laws (group)]]
+Properties: [[Basic properties of groups]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Unit element of a group is unique]], [[Inverse elements in a group are unique]]
