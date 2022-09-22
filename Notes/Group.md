@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: [[Abelian Group]], [[Finite Group]]
 Examples: _Not Applicable_
-Constructions: [[Order (Group Theory)]], [[Function Group]]
+Constructions: [[Order (Group Theory)]], [[Function Group]], [[Subgroup]]
 Generalizations: [[Groupoid]]
 
 Properties: [[Basic properties of groups]]

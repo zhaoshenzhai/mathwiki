@@ -15,6 +15,7 @@ title: Proposition.
 
 _Let $\tpl{G,\ast}$ be a group. Then, for all $g,h,k\in G$, the following algebraic identities hold:_
 * _(Cancellation Laws): $gk=hk\Rightarrow g=h$ and $kg=kh\Rightarrow g=h.$_
+
 * _(Division): There exists a unique $x\in G$ such that $gx=h$. Similarly for when $xg=h$._
 * _(Inverse): $\l(gh\r)^{-1}=h^{-1}g^{-1}$._
 
@@ -29,7 +30,7 @@ $$\begin{align}
     g&=h\hspace{1.84in}g\hspace{-0.6in}&&=h. \hspace{1in}&&\textrm{$e$ is the unit element of $G$}
 \end{align}$$
 
-* (Division): Observe that $g\l(g^{-1}h\r)=\l(gg^{-1}\r)h=eh=h$, so set $x\coloneqq g^{-1}h$. For uniqueness, suppose that $k,l\in G$ are both solutions to $gx=h$, so $gk=h=gl$. From the cancellation laws, we see that $g=l$, so we are done. Similarly for when $xg=h$.
+* (Division): Observe that $g\l(g^{-1}h\r)=\l(gg^{-1}\r)h=eh=h$, so set $x\coloneqq g^{-1}h$. For uniqueness, suppose that $k,l\in G$ are both solutions to $gx=h$, so $gk=h=gl$. From the cancellation laws, we see that $g=l$, so we are done. Similarly, if $xg=h$, set $x\coloneqq hg^{-1}$, and for uniqueness, the existence of $k,l\in G$ such that $kg=h=lg$ implies that $k=l$.
 * (Inverse): Observe that
 $$\begin{align}
     \l(gh\r)\l(h^{-1}g^{-1}\r)&=g\l(hh^{-1}\r)g^{-1} && \textrm{Associativity of $\ast$} \\
