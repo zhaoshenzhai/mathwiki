@@ -1,17 +1,33 @@
 {
   "templates": [
     {
-      "title": "Real Numbers",
-      "replaced": "R",
-      "replacement": "$\\R$",
+      "title": "Natural Numbers",
+      "replaced": "N",
+      "replacement": "$\\N$",
       "globalMatch": true,
       "sensitive": true,
       "word": true
     },
     {
-      "title": "Natural Numbers",
-      "replaced": "N",
-      "replacement": "$\\N$",
+      "title": "Integers",
+      "replaced": "Z",
+      "replacement": "$\\Z$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "title": "Rational Numbers",
+      "replaced": "Q",
+      "replacement": "$\\Q$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "title": "Real Numbers",
+      "replaced": "R",
+      "replacement": "$\\R$",
       "globalMatch": true,
       "sensitive": true,
       "word": true
