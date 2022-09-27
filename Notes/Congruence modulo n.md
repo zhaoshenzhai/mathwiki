@@ -5,7 +5,7 @@ mathLink: Congruence modulo $n$
 <div class="topSpace"></div>
 
 Date Created: 10/09/2022 21:28:18
-Tags: #Definition
+Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

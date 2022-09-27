@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Properties: [[Order divides power iff power gives identity]], [[Order of group element is order of generated cyclic group]], [[Order of power of element]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[Omega is an ordinal]]
 
 ``` ad-Definition
 title: Definition.

@@ -5,7 +5,7 @@ mathLink: Congruence modulo $n$ is an equivalence relation
 <div class="topSpace"></div>
 
 Date Created: 10/09/2022 21:37:19
-Tags: #Proposition
+Tags: #Proposition #Courses/MATH235
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

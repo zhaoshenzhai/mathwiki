@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 27/09/2022 14:25:37
-Tags: #Definition
+Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -13,7 +13,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Order of additive group of integers mod n is n]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Generates additive group of integers mod n iff coprime]]
 Equivalences: _Not Applicable_
 Justifications: [[Additive group of integers mod n is an Abelian group]]
 

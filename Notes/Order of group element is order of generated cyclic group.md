@@ -21,9 +21,11 @@ _Let $G$ be a group. Then, for all $g\in G$, we have $\ord{g}=\ord{\l\langle g\r
 
 ```
 
-**Remark.** In particular, if $G$ is cyclic, then there exists some $g\in G$ such that $\l\langle g\r\rangle=G$. Thus $\ord{\l\langle g\r\rangle}=\ord{G}$, but since $\ord{g}=\ord{\l\langle g\r\rangle}$, we see that $\ord{g}=\ord{G}$.
+**Remark.** For a finite group $G$, this shows that $G$ is cyclic iff $\ord{g}=\ord{G}$.
 
-* Note that if $G$ is _finite_, then the converse holds; that is, $G=\l\langle g\r\rangle$ for some $g\in G$. Indeed, since $\ord{g}=\ord{\l\langle g\r\rangle}$, we see that $\ord{\l\langle g\r\rangle}=\ord{G}$. Since $\l\langle g\r\rangle\subseteq G$ and $G$ have the same number of elements, they must coincide.<span style="float:right;">$\blacklozenge$</span>
+* If $G$ is cyclic, then there exists some $g\in G$ such that $\l\langle g\r\rangle=G$. Thus $\ord{\l\langle g\r\rangle}=\ord{G}$, but since $\ord{g}=\ord{\l\langle g\r\rangle}$, we see that $\ord{g}=\ord{G}$.
+
+* If $\ord{g}=\ord{G}$, then, since $\ord{g}=\ord{\l\langle g\r\rangle}$, we see that $\ord{\l\langle g\r\rangle}=\ord{G}$. Since $\l\langle g\r\rangle\subseteq G$ and $G$ have the same number of elements, they must coincide.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
