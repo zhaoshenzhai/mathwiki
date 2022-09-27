@@ -4,7 +4,7 @@ Date Created: 26/09/2022 14:04:28
 Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Additive Group of Integers mod n]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A group $\tpl{G,\ast}$ is said to be a **cyclic group** if $\ex x\in G:G=\l\langle x\r\rangle$._
+_A group $\tpl{G,\ast}$ is said to be a **cyclic group** if $\ex x\in G:G=\l\langle x\r\rangle$, in which case $x$ is said to be the **generator of $G$**._
 
 ```

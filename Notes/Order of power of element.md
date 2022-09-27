@@ -15,7 +15,7 @@ title: Proposition.
 
 _Let $G$ be a group and fix some $g\in G$ of finite order. Then, for all $n\in\N^+$, we have_
 $$\begin{equation}
-    \ord{g^n}=\frac{\lcm\l(n,\ord{g}\r)}{n}=\frac{\l|n\r|}{\gcd\l(n,\ord{g}\r)}.
+    \ord{g^n}=\frac{\lcm\l(n,\ord{g}\r)}{n}=\frac{\l|g\r|}{\gcd\l(n,\ord{g}\r)}.
 \end{equation}$$
 
 ```

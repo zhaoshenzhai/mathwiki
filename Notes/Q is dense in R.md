@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 25/09/2022 19:45:33
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Courses/MATH254
 
 Proved by: [[Archimedean Property of R]], [[Omega is an ordinal]]
 References: _Not Applicable_

@@ -167,6 +167,14 @@
       "globalMatch": true,
       "sensitive": false,
       "word": true
+    },
+    {
+      "title": "Additive group of integers mod n",
+      "replaced": "Additive group of integers mod n",
+      "replacement": "$\\Z/n\\Z$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
     }
   ],
   "excludedFilePaths": [

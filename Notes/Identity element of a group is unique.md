@@ -13,11 +13,11 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{G,\ast}$ be a group. Then the unit element of $G$ is unique._
+_Let $\tpl{G,\ast}$ be a group. Then the identity element of $G$ is unique._
 
 ```
 
-_Proof_. Suppose, for sake of contradiction, that $e,e'\in G$ are both unit elements of $G$; that is, suppose
+_Proof_. Suppose, for sake of contradiction, that $e,e'\in G$ are both identity elements of $G$; that is, suppose
 $$\begin{equation}
     g\ast e=g=e\ast g\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ g\ast e'=g=e'\ast g
 \end{equation}$$

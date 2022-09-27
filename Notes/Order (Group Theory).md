@@ -4,7 +4,7 @@ Date Created: 19/09/2022 11:55:03
 Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Order of additive group of integers mod n is n]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
