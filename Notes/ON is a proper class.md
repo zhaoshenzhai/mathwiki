@@ -13,8 +13,8 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Burali-Forti Paradox).
 
-_The collection of all ordinals $\ord$ is a proper class._
+_The collection of all ordinals $\ordinal$ is a proper class._
 
 ```
 
-_Proof_. Suppose, for sake of contradiction, that $\ord$ is a set. It follows that $\ord$ is a transitive set and that $\in$ well-orders $\ord$, so, by definition, we see that $\ord$ is an ordinal number. But then $\ord\in\ord$, contradicting the fact that $\in$ is irreflexive on $\ord$.<span style="float:right;">$\blacksquare$</span>
+_Proof_. Suppose, for sake of contradiction, that $\ordinal$ is a set. It follows that $\ordinal$ is a transitive set and that $\in$ well-orders $\ordinal$, so, by definition, we see that $\ordinal$ is an ordinal number. But then $\ordinal\in\ordinal$, contradicting the fact that $\in$ is irreflexive on $\ordinal$.<span style="float:right;">$\blacksquare$</span>

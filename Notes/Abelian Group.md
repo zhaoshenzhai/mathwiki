@@ -1,15 +1,15 @@
 <div class="topSpace"></div>
 
 Date Created: 04/05/2022 17:13:39
-Tags: #Definition
+Tags: #Definition #Courses/MATH235
 
-Types: [[Cyclic Group]]
+Types: _Not Applicable_
 Examples: [[Trivial Group]]
 Constructions: [[Vector Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Cyclic groups are Abelian]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

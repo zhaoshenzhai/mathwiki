@@ -21,4 +21,4 @@ _The set of natural numbers $\omega$ is an ordinal._
 
 ```
 
-_Proof_. This follows directly from the fact that $\omega$ is an initial segment of $\ord$, which are themselves ordinals.<span style="float:right;">$\blacksquare$</span>
+_Proof_. This follows directly from the fact that $\omega$ is an initial segment of $\ordinal$, which are themselves ordinals.<span style="float:right;">$\blacksquare$</span>

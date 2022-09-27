@@ -1,6 +1,6 @@
 <div class="topSpace"></div>
 
-Date Created: 21/09/2022 20:37:12
+Date Created: 26/09/2022 14:04:28
 Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
@@ -8,14 +8,14 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Subgroups of cyclic groups are cyclic]]
-Sufficiencies: [[Subgroup Test]]
+Properties: [[Cyclic groups are Abelian]]
+Sufficiencies: [[Subgroups of cyclic groups are cyclic]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{G,\ast}$ be a group and fix a subset $H\subseteq G$. The pair_ $\tpl{H,\ast_{H\times H}}$ _is a **subgroup of $\tpl{G,\ast}$** if it is itself a group._
+_A group $\tpl{G,\ast}$ is said to be a **cyclic group** if $\ex x\in G:G=\l\langle x\r\rangle$._
 
 ```

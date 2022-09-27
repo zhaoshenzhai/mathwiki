@@ -22,8 +22,8 @@ _The set of natural numbers $\omega$ is a limit ordinal whose elements are not l
 ```
 
 _Proof_. Firstly, observe that $\omega$ is an ordinal. We now show that $\omega\neq\em$ and that $\omega$ is not a successor ordinal.
-* Since $\em\in\omega$, it cannot be the case that $\em=\omega$ for then $\omega\in\omega$, contradicting the fact that $\in$ is irreflexive on $\ord$.
+* Since $\em\in\omega$, it cannot be the case that $\em=\omega$ for then $\omega\in\omega$, contradicting the fact that $\in$ is irreflexive on $\ordinal$.
 
-* If there exists an ordinal $\alpha$ such that $\omega=S\l(\alpha\r)$, then, since $\alpha\in S\l(\alpha\r)=\omega$, we see that $\alpha$ is a natural number. It follows that $\omega=S\l(\alpha\r)$ is a natural number and thus $\omega\in\omega$, contradicting that fact that $\in$ is irreflexive on $\ord$.
+* If there exists an ordinal $\alpha$ such that $\omega=S\l(\alpha\r)$, then, since $\alpha\in S\l(\alpha\r)=\omega$, we see that $\alpha$ is a natural number. It follows that $\omega=S\l(\alpha\r)$ is a natural number and thus $\omega\in\omega$, contradicting that fact that $\in$ is irreflexive on $\ordinal$.
 
 Finally, elements of $\omega$ are natural numbers which, by definition, are not limit ordinals.<span style="float:right;">$\blacksquare$</span>
