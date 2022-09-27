@@ -40,6 +40,8 @@ while [[ "$repeat" == "Y" ]]; do
 
     case $action in
         "1")
+            source $MATHWIKI_DIR/.scripts/stats.sh -u
+            source $MATHWIKI_DIR/.scripts/stats.sh -r
             $DOTFILES_DIR/scripts/gitCommit.sh -m
         ;;
         "2")
