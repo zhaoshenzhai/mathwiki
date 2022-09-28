@@ -21,7 +21,7 @@ _Let $G$ be a group. Then, for all $g\in G$, we have $\ord{g}=\ord{\l\langle g\r
 
 ```
 
-**Remark.** For a finite group $G$, this shows that $G$ is cyclic iff $\ord{g}=\ord{G}$.
+**Remark.** For a finite group $G$, this shows that $G$ is cyclic iff there exists some $g\in G$ such that $\ord{g}=\ord{G}$.
 
 * If $G$ is cyclic, then there exists some $g\in G$ such that $\l\langle g\r\rangle=G$. Thus $\ord{\l\langle g\r\rangle}=\ord{G}$, but since $\ord{g}=\ord{\l\langle g\r\rangle}$, we see that $\ord{g}=\ord{G}$.
 
