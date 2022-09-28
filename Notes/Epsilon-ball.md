@@ -22,7 +22,7 @@ title: Definition.
 
 _Let $\tpl{X,d}$ be a metric space and fix $x\in X$. For all $\epsilon\in\R$, the **$\epsilon$-ball centered at $x$** is the set_
 $$\begin{equation}
-    B_x\coloneqq\l\{y\in X\mid d\l(x,y\r)<\epsilon\r\}.
+    B_\epsilon\!\l(x\r)\coloneqq\l\{y\in X\mid d\l(x,y\r)<\epsilon\r\}.
 \end{equation}$$
 
 ```

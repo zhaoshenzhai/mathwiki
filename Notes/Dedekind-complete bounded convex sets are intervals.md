@@ -17,7 +17,5 @@ _Let $\tpl{X,<}$ be a totally ordered set and fix a Dedekind-complete bounded co
 
 ```
 
-_Proof_. If $Y=\em$, then $Y=\l(x,x\r)_X$ for any $x\in X$. Assume otherwise, so, since $X$ is Dedekind-complement and $Y$ is bounded, we see that $\inf Y$ and $\sup Y$ exist. We claim that either $Y=\l(\inf Y,\sup Y\r)$, $Y=\l[\inf Y,\sup Y\r)$, $Y=\l(\inf Y,\sup Y\r]$, or $Y=\l[\inf Y,\sup Y\r]$.
-* ($\subseteq$): Take $y\in Y$. Since $\inf Y$ and $\sup Y$ are lower and upper bounds of $Y$, respectively, we see that $\inf Y\leq y\leq\sup Y$ and thus $y\in\l[\inf Y,\sup Y\r]$. If one/both non-strict inequalities are strict, then $y$ is in some other interval variant.
-
-* ($\supseteq$): Take $y\in\l(\inf Y,\sup Y\r)$, so $\inf Y<\sup Y$. Since $Y$ is convex, we see that $\l(\inf Y,\sup Y\r)\subseteq Y$ and thus $y\in Y$. The other cases are analogous.<span style="float:right;">$\blacksquare$</span>
+_Proof_. If $Y=\em$, then $Y=\l(x,x\r)_X$ for any $x\in X$. Assume otherwise, so, since $X$ is Dedekind-complement and $Y$ is bounded, we see that $\alpha\coloneqq\inf Y$ and $\beta\coloneqq\sup Y$ exist. It suffices to show that $\l(\alpha,\beta\r)\subseteq Y$, for then either $Y=\l(\alpha,\beta\r)$, $Y=\l[\alpha,\beta\r)$, $Y=\l(\alpha,\beta\r]$, or $Y=\l[\alpha,\beta\r]$.
+* ($\subseteq$): Take $y\in\l(\alpha,\beta\r)$. Since $\beta=\sup Y$ and $y<\beta$, we see that $y$ is not an upper bound of $Y$ and hence there exists some $z\in Y$ such that $y<z$. Similarly, there exists some $x\in Y$ such that $x<y$. Since $Y$ is convex, we see that $\l(x,z\r)\subseteq Y$ and hence $y\in Y$.<span style="float:right;">$\blacksquare$</span>

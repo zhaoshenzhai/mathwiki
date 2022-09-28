@@ -9,7 +9,7 @@ Constructions: [[Lower-limit Topology on R]], [[Upper-limit Topology on R]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Dedekind-complete bounded convex sets are intervals]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
