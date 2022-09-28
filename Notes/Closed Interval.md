@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Nested Interval Theorem]]
 Sufficiencies: [[Dedekind-complete bounded convex sets are intervals]]
 Equivalences: _Not Applicable_
 Justifications: [[Closed intervals are closed]]
