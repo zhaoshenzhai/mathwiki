@@ -18,7 +18,7 @@ title: Definition.
 
 _Let $\tpl{X,\mc{T}}$ be a topological space and fix $x\in X$. A sequence_ $\tpl{x_i}_{i\in\N}$ _in $X$ is said to **converge to $x$ w.r.t. $\mc{T}$** if_
 $$\begin{equation}
-    \fa U\in\mc{U}_x,\ex N\in\N,\fa n\geq N:x_n\in U,
+    \fa U\in\mc{U}_x,\fa^\infty n\in\N:x_n\in U,
 \end{equation}$$
 _where $\mc{U}_x$ is the set of all neighborhoods of $x$._
 
