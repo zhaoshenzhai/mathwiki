@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. A **metric on $X$** is a function $d:X\to X\to\R^+_0$ such that:_
+_Let $X$ be a set. A **metric on $X$** is a function $d:X\times X\to\R^+_0$ such that:_
 * _(Positive-definiteness): $\fa x,y\in X:d\l(x,y\r)\geq0$; equality holds iff $x=y$._
 
 * _(Symmetry): $\fa x,y\in X:d\l(x,y\r)=d\l(y,x\r)$._
