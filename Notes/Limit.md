@@ -4,12 +4,12 @@ Date Created: 30/08/2022 15:57:59
 Tags: #Definition #Later/Topology
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[1 over linear converges to 0]], [[a to the n converges to 0]], [[nth root of a converges to 1]]
 Constructions: [[Convergent and Divergent Series]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Squeeze Theorem (Sequences)]]
 Equivalences: _Not Applicable_
 Justifications: [[Limit of a sequence is unique (Hausdorff)]]
 
@@ -20,6 +20,6 @@ _Let $\tpl{X,\mc{T}}$ be a Hausdorff topological space and consider a sequence_ 
 $$\begin{equation}
     \lim_{n\to\infty}x_n=x
 \end{equation}$$
-_or_ $\tpl{x_n}_{n\in\N}\to\infty$ _as $n\to\infty$._
+_or_ $x_n\to\infty$ _as $n\to\infty$._
 
 ```
