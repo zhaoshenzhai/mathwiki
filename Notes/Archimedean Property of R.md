@@ -25,4 +25,4 @@ _Proof_. Consider the set $A\coloneqq\l\{nx\in\R\mid n\in\N\r\}$. Suppose, for s
 
 ---
 
-**Remark.** An often-used corollary of the Archimedean Property is that for all $\epsilon>0$, there exists some $n\in\N^+$ such that $\frac{1}{n}<\epsilon$. To see this, apply the property with $x\coloneqq\epsilon$ and $y=1$ to furnish some $n\in\N$ such that $n\epsilon>1$. Then, since $n\neq0$, we obtain $\frac{1}{n}<\epsilon$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** An often-used corollary of the Archimedean Property is that for all $\epsilon>0$, there exists some $n\in\N^+$ such that $\frac{1}{n}<\epsilon$. To see this, apply the property with $x\coloneqq\epsilon$ and $y\coloneqq1$ to furnish some $n\in\N$ such that $n\epsilon>1$. Then, since $n\neq0$, we obtain $\frac{1}{n}<\epsilon$.<span style="float:right;">$\blacklozenge$</span>
