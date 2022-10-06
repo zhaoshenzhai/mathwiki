@@ -105,6 +105,14 @@
       "word": true
     },
     {
+      "title": "Prefix: k",
+      "replaced": "k-",
+      "replacement": "$k$-",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
       "title": "Epsilon",
       "replaced": "Epsilon",
       "replacement": "$\\epsilon$",

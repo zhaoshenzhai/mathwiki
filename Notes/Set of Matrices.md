@@ -9,7 +9,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Vector Space of Matrices]], [[Matrix Multiplication]], [[Elementary Matrices and Operations]], [[Transposition]]
+Constructions: [[Vector Space of Matrices]], [[Matrix Multiplication]], [[Elementary Matrices and Operations]], [[Transposition (Matrix)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

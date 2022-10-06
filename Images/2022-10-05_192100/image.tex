@@ -1,0 +1,15 @@
+\documentclass{article}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\makeatletter\AtBeginDocument{\color{textColor}\global\let\default@color\current@color}\makeatletter
+
+\begin{document}
+    \begin{tikzcd}
+        x_1 \ar[r, "\sigma"] &
+            x_2 \ar[r, "\sigma"] &
+                \cdots \ar[r, "\sigma"] &
+                    x_k \ar[lll, "\sigma", bend left=15]
+    \end{tikzcd}
+\end{document}

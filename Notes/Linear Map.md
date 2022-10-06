@@ -4,7 +4,7 @@ Date Created: 01/04/2022 18:16:33
 Tags: #Definition
 
 Types: [[Linear Isomorphism]], [[Linear Operator]]
-Examples: [[Left-multiplication of Matrices]], [[Transposition]]
+Examples: [[Left-multiplication of Matrices]], [[Transposition (Matrix)]]
 Constructions: [[Matrix Representation of a Linear Map]], [[Kernel; Null Space]], [[Image; Column Space]], [[Composition (Linear Map)]], [[Vector Space of Linear Maps]]
 Generalizations: [[Multilinear Map]]
 

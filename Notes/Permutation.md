@@ -3,13 +3,13 @@
 Date Created: 10/09/2022 21:13:50
 Tags: #Definition #Courses/MATH235
 
-Types: _Not Applicable_
+Types: [[k-cycle]], [[Even and Odd Permutation]]
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Symmetric Group]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Every permutation is a product of disjoint cycles]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

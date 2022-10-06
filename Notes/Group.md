@@ -4,7 +4,7 @@ Date Created: 04/05/2022 13:08:40
 Tags: #Definition #Courses/MATH235
 
 Types: [[Abelian Group]], [[Finite Group]]
-Examples: _Not Applicable_
+Examples: [[Symmetric Group]]
 Constructions: [[Order (Group Theory)]], [[Function Group]], [[Subgroup]]
 Generalizations: [[Groupoid]]
 
