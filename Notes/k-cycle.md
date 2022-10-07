@@ -13,7 +13,7 @@ Constructions: [[Disjoint Cycles]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Every k-cycle is a product of k-1 transpositions]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

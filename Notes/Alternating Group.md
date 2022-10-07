@@ -11,11 +11,11 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[Alternating group is a subgroup of symmetric group]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $X\coloneqq\l\{1,\dots,n\r\}$. The **alternating group of degree $n$** is the subgroup $A_n\subseteq S_n$ containing all even permutations on $X$._
+_Let $X\coloneqq\l\{1,\dots,n\r\}$. The **alternating group of degree $n$** is the permutation group $A_n\subseteq S_n$ containing all even permutations on $X$._
 
 ```
