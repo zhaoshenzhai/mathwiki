@@ -7,7 +7,7 @@ mathLink: $a^n\to0$
 Date Created: 04/10/2022 14:52:29
 Tags: #Proposition #Courses/MATH254
 
-Proved by: [[Bernoulli's Inequality]], [[Squeeze Theorem (Sequences)]]
+Proved by: [[Bernoulli's Inequality]], [[1 over linear converges to 0]], [[Squeeze Theorem (Sequences)]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

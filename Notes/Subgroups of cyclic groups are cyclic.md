@@ -24,10 +24,10 @@ Assume that $H\neq\l\{e\r\}$, so there exists some $g\in H$ such that $g\neq e$.
 $$\begin{equation}
     S\coloneqq\l\{n\in\N^+\mid x^n\in H\r\}.
 \end{equation}$$
-Now, since both $g=x^k$ and $g^{-1}=x^{-k}$ are in $H$ and one of $k$ and $-k$ are natural numbers, we see that either $g\in S$ or $g^{-1}\in S$. Well-ordering of $\N$ then furnishes a minimal $l\in S$. Set $y\coloneqq x^l$; we claim that $H=\l\langle y\r\rangle$.
-* ($\subseteq$): Take $z\in\l\langle y\r\rangle$, so $z=y^m=\l(x^l\r)^m$ for some $m\in\Z$. Since $x^l=y\in H$ and $H\subseteq G$ is a subgroup, we see that $z\in H$.
+Now, since both $g=x^k$ and $g^{-1}=x^{-k}$ are in $H$ and one of $k$ and $-k$ are natural numbers, we see that either $k\in S$ or $-k\in S$. Thus $S\neq\em$, so well-ordering of $\N$ then furnishes a minimal $l\in S$. Set $y\coloneqq x^l\in H$; we claim that $H=\l\langle y\r\rangle$.
+* ($\supseteq$): Take $z\in\l\langle y\r\rangle$, so $z=y^m$ for some $m\in\Z$. Since $y\in H$ and $H\subseteq G$ is a subgroup, all powers of $y$ are in $H$ and hence $z\in H$.
 
-* ($\supseteq$): Take $h\in H$, so $h\in G$ and hence $h=x^m$ for some $m\in\Z$; we wish to show that $x^m=h=y^q=\l(x^l\r)^q=x^{ql}$ for some $q\in\Z$. The Division Algorithm applied to $m$ and $l$ furnishes unique integers $q,r\in\Z$ with $0\leq r<l$ such that $m=ql+r$. Then
+* ($\subseteq$): Take $h\in H$, so $h\in G$ and hence $h=x^m$ for some $m\in\Z$; we wish to show that $x^m=h=y^q=\l(x^l\r)^q=x^{ql}$ for some $q\in\Z$. The Division Algorithm applied to $m$ and $l$ furnishes unique integers $q,r\in\Z$ with $0\leq r<l$ such that $m=ql+r$. Then
 $$\begin{equation}
     x^m=x^{ql+r}=x^{ql}x^r,
 \end{equation}$$
