@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $a\in\R$. If $0<a<1$, then_ $\lim_{n\to\infty}a^n=0$_._
+_Let $a\in\R$. If $0<a<1$, then_ $\lim\limits_{n\to\infty}a^n=0$_._
 
 ```
 

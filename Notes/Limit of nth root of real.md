@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_For all $a\in\R^+$, we have_ $\lim_{n\to\infty}\sqrt[n]{a}=1$_._
+_For all $a\in\R^+$, we have_ $\lim\limits_{n\to\infty}\sqrt[n]{a}=1$_._
 
 ```
 

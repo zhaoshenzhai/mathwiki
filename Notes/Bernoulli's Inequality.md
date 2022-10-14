@@ -1,3 +1,7 @@
+---
+mathLink: auto
+---
+
 <div class="topSpace"></div>
 
 Date Created: 13/10/2022 08:20:23
@@ -11,7 +15,7 @@ Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
-title: Theorem (Bernoulli's Inequality).
+title: Theorem (Bernoulli$\textrm{'}$s Inequality).
 
 _Let $a\in\R$ and fix $n\in\N^+$. Then, for all $k\in\N^+$ with $k\leq n$, we have_
 $$\begin{equation}
