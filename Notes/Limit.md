@@ -4,7 +4,7 @@ Date Created: 30/08/2022 15:57:59
 Tags: #Definition #Later/Topology
 
 Types: _Not Applicable_
-Examples: [[1 over linear converges to 0]], [[a to the n converges to 0]], [[nth root of a converges to 1]]
+Examples: [[Limit of 1 over linear]], [[Limit of power; base between 0 and 1]], [[Limit of nth root of real]], [[Limit of nth root of n]]
 Constructions: [[Convergent and Divergent Series]]
 Generalizations: _Not Applicable_
 

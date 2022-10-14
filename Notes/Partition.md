@@ -4,7 +4,7 @@ Date Created: 29/01/2022 16:16:37
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Set of cosets partition the group]]
 Constructions: [[Relation Induced by a Partition]]
 Generalizations: _Not Applicable_
 

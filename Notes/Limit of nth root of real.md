@@ -7,9 +7,9 @@ mathLink: $\sqrt[n]{a}\to1$
 Date Created: 04/10/2022 15:11:41
 Tags: #Proposition #Courses/MATH254
 
-Proved by: [[Bernoulli's Inequality]], [[1 over linear converges to 0]], [[Squeeze Theorem (Sequences)]]
+Proved by: [[Bernoulli's Inequality]], [[Limit of 1 over linear]], [[Squeeze Theorem (Sequences)]]
 References: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[Existence of nth roots]]
 
 Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_

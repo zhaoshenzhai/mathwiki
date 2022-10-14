@@ -1,6 +1,6 @@
 <div class="topSpace"></div>
 
-Date Created: 05/10/2022 19:03:19
+Date Created: 13/10/2022 12:25:27
 Tags: #Definition #In_Progress
 
 Types: _Not Applicable_
@@ -16,6 +16,9 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-__
+_Let $G$ be a group and fix $g,h\in G$. Then **$x$ is conjugate to $y$** if_
+$$\begin{equation}
+    \ex g\in G:x=gyg^{-1}.
+\end{equation}$$
 
 ```
