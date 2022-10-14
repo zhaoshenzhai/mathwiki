@@ -1,27 +1,11 @@
-body {
-    font-family: 'CMU Serif' !important
+.markdown-source-view.mod-cm6 {
+    font-family: courier prime !important;
 }
 
-.view-header-title {
-    font-family: 'CMU Serif' !important
+.cm-line {
+    font-size: 13px !important;
 }
 
-.vertical-tab-content {
-    font-family: 'CMU Serif' !important
-}
-
-.tag {
-    font-family: 'CMU Serif' !important
-}
-
-.prompt-input {
-    font-family: 'CMU Serif' !important
-}
-
-.mod-cta {
-    font-family: 'CMU Serif' !important
-}
-
-input, textarea {
-    font-family: 'CMU Serif' !important
+.cm-hashtag {
+    font-family: courier prime !important;
 }

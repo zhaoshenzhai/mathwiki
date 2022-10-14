@@ -308,5 +308,13 @@
   "editor:toggle-comments": [],
   "editor:toggle-italics": [],
   "workspace:goto-last-tab": [],
-  "editor:follow-link": []
+  "editor:follow-link": [],
+  "obsidian-hider:toggle-tab-containers": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "`"
+    }
+  ]
 }

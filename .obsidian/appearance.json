@@ -3,17 +3,17 @@
   "translucency": false,
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "fonts",
-    "hideYaml",
     "imageMargins",
+    "links",
     "lists",
-    "links"
+    "fonts"
   ],
   "theme": "obsidian",
-  "baseFontSizeAction": true,
+  "baseFontSizeAction": false,
   "interfaceFontFamily": "CMU Serif",
   "textFontFamily": "CMU Serif",
-  "monospaceFontFamily": "CMU Serif",
-  "showViewHeader": false,
-  "accentColor": "#56b6c2"
+  "monospaceFontFamily": "Courier Prime",
+  "showViewHeader": true,
+  "accentColor": "#56b6c2",
+  "nativeMenus": true
 }

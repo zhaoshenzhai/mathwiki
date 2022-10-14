@@ -2,6 +2,10 @@ ol>li::marker {
     color: white !important;
 }
 
+ul>li::marker {
+    color: white !important;
+}
+
 .list-bullet:after {
     background-color: var(--text-normal);
 }
