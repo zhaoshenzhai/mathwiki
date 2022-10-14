@@ -4,21 +4,16 @@
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "fonts",
-    "snippet",
-    "image",
-    "stats",
-    "external_links",
-    "links",
-    "listsLineBreak",
-    "lists",
     "hideYaml",
-    "slidingPanes",
-    "font",
-    "imageMargins"
+    "imageMargins",
+    "lists",
+    "links"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": true,
   "interfaceFontFamily": "CMU Serif",
   "textFontFamily": "CMU Serif",
-  "monospaceFontFamily": "CMU Serif"
+  "monospaceFontFamily": "CMU Serif",
+  "showViewHeader": false,
+  "accentColor": "#56b6c2"
 }

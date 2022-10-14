@@ -21,5 +21,6 @@
   "showIndentGuide": false,
   "showFrontmatter": false,
   "readableLineLength": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "showInlineTitle": false
 }

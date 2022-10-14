@@ -1,5 +1,9 @@
-ol>li::marker, ul>li::marker {
-    color: var(--text);
+ol>li::marker {
+    color: white !important;
+}
+
+.list-bullet:after {
+    background-color: var(--text-normal);
 }
 
 ul li p {

@@ -2,38 +2,47 @@
   "workspaces": {
     "workspace": {
       "main": {
-        "id": "0fe41678c7ac177b",
+        "id": "12319c0b10323134",
         "type": "split",
         "children": [
           {
-            "id": "a1a298eae81d00a7",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
+            "id": "f12090be8d28cc7e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "636a7ab84ebecd24",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
           }
         ],
         "direction": "vertical"
       },
       "left": {
-        "id": "4cf92e01085e71c5",
+        "id": "7b81910cd462cacc",
         "type": "split",
         "children": [
           {
-            "id": "9dbb206d8bee415b",
+            "id": "9d00dbe0d1a2729a",
             "type": "tabs",
+            "dimension": 49.65517241379311,
             "children": [
               {
-                "id": "2f81a521c97c9b4d",
+                "id": "3e6bfdd211453c3d",
                 "type": "leaf",
                 "state": {
                   "type": "file-explorer",
-                  "state": {}
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
                 }
               },
               {
-                "id": "838f6345bbb1125e",
+                "id": "7dacb4f488d9842f",
                 "type": "leaf",
                 "state": {
                   "type": "search",
@@ -41,14 +50,14 @@
                     "query": "tag:#In_Progress",
                     "matchingCase": false,
                     "explainSearch": false,
-                    "collapseAll": true,
+                    "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical"
                   }
                 }
               },
               {
-                "id": "456013859d71f39b",
+                "id": "e4f1073403767469",
                 "type": "leaf",
                 "state": {
                   "type": "tag",
@@ -62,11 +71,12 @@
             "currentTab": 1
           },
           {
-            "id": "73047de14d5411eb",
+            "id": "294597bc1a532b30",
             "type": "tabs",
+            "dimension": 50.34482758620689,
             "children": [
               {
-                "id": "a4646cd6c8e03048",
+                "id": "e8c5400882b51657",
                 "type": "leaf",
                 "state": {
                   "type": "backlink",
@@ -89,23 +99,23 @@
         "collapsed": true
       },
       "right": {
-        "id": "6e128061ec5336cc",
+        "id": "5b3c2ad05cc53b8f",
         "type": "split",
         "children": [
           {
-            "id": "f412e060e743cbe4",
+            "id": "0aa6b9202d872b96",
             "type": "tabs",
             "children": [
               {
-                "id": "2389c0c12caa602b",
+                "id": "4a13b5925ef8b07d",
                 "type": "leaf",
                 "state": {
                   "type": "localgraph",
                   "state": {
                     "options": {
                       "collapse-filter": true,
-                      "search": "path:Notes",
-                      "localJumps": 3,
+                      "search": "",
+                      "localJumps": 4,
                       "localBacklinks": true,
                       "localForelinks": true,
                       "localInterlinks": true,
@@ -150,18 +160,18 @@
                           }
                         }
                       ],
-                      "collapse-display": true,
+                      "collapse-display": false,
                       "showArrow": true,
                       "textFadeMultiplier": -3,
-                      "nodeSizeMultiplier": 0.760529506871463,
-                      "lineSizeMultiplier": 3.06767886014551,
-                      "collapse-forces": true,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": false,
                       "centerStrength": 0,
                       "repelStrength": 20,
                       "linkStrength": 1,
-                      "linkDistance": 30,
-                      "scale": 0.041524747956219146,
-                      "close": false
+                      "linkDistance": 500,
+                      "scale": 0.04297645956706045,
+                      "close": true
                     }
                   }
                 }
@@ -173,7 +183,10 @@
         "width": 1066.4,
         "collapsed": true
       },
-      "active": "a1a298eae81d00a7"
+      "ribbon": {
+        "mostRecentAction": ""
+      },
+      "active": "636a7ab84ebecd24"
     }
   },
   "active": "workspace"

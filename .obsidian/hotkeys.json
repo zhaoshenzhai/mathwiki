@@ -1,22 +1,4 @@
 {
-  "editor:focus-right": [
-    {
-      "modifiers": [
-        "Meta"
-      ],
-      "key": "K"
-    }
-  ],
-  "editor:focus-left": [
-    {
-      "modifiers": [
-        "Meta"
-      ],
-      "key": "J"
-    }
-  ],
-  "editor:focus-top": [],
-  "editor:focus-bottom": [],
   "app:open-settings": [
     {
       "modifiers": [
@@ -118,15 +100,17 @@
   "workspace:split-vertical": [
     {
       "modifiers": [
-        "Meta"
+        "Meta",
+        "Shift"
       ],
-      "key": "ArrowLeft"
+      "key": "L"
     },
     {
       "modifiers": [
-        "Meta"
+        "Meta",
+        "Shift"
       ],
-      "key": "ArrowRight"
+      "key": "H"
     }
   ],
   "workspace:undo-close-pane": [
@@ -178,5 +162,151 @@
       "key": "F"
     }
   ],
-  "mrj-jump-to-link:activate-jump-to-anywhere": []
+  "mrj-jump-to-link:activate-jump-to-anywhere": [],
+  "workspace:goto-tab-1": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "1"
+    }
+  ],
+  "workspace:goto-tab-2": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "2"
+    }
+  ],
+  "workspace:goto-tab-3": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "3"
+    }
+  ],
+  "workspace:goto-tab-4": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "4"
+    }
+  ],
+  "workspace:goto-tab-5": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "5"
+    }
+  ],
+  "workspace:goto-tab-6": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "6"
+    }
+  ],
+  "workspace:goto-tab-7": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "7"
+    }
+  ],
+  "workspace:goto-tab-8": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "8"
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "K"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "J"
+    }
+  ],
+  "editor:insert-link": [],
+  "window:zoom-out": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "-"
+    }
+  ],
+  "window:zoom-in": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "="
+    }
+  ],
+  "editor:focus-left": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "J"
+    }
+  ],
+  "workspace:new-tab": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "O"
+    }
+  ],
+  "editor:open-link-in-new-leaf": [],
+  "editor:focus-right": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "K"
+    }
+  ],
+  "workspace:edit-file-title": [],
+  "window:reset-zoom": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "0"
+    }
+  ],
+  "global-search:open": [],
+  "editor:open-search": [],
+  "editor:open-search-replace": [],
+  "editor:save-file": [],
+  "editor:open-link-in-new-split": [],
+  "editor:open-link-in-new-window": [],
+  "app:open-help": [],
+  "editor:toggle-bold": [],
+  "editor:toggle-checklist-status": [],
+  "editor:toggle-comments": [],
+  "editor:toggle-italics": [],
+  "workspace:goto-last-tab": [],
+  "editor:follow-link": []
 }
