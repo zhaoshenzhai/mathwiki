@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Fix $n\in\Z^+$. Then $\ord{\Z/n\Z}=n$._
+_Fix $n\in\N^+$. Then $\ord{\Z/n\Z}=n$._
 
 ```
 

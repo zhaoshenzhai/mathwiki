@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: [[Abelian Group]], [[Finite Group]]
 Examples: [[Symmetric Group]]
-Constructions: [[Order (Group Theory)]], [[Function Group]], [[Subgroup]]
+Constructions: [[Subgroup]], [[Order (Group Theory)]], [[Conjugate slash conjugacy class]], [[Function Group]]
 Generalizations: [[Groupoid]]
 
 Properties: [[Basic properties of groups]]

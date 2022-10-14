@@ -1,3 +1,7 @@
+---
+mathLink: auto
+---
+
 <div class="topSpace"></div>
 
 Date Created: 13/10/2022 12:25:27
@@ -16,9 +20,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $G$ be a group and fix $g,h\in G$. Then **$x$ is conjugate to $y$** if_
-$$\begin{equation}
-    \ex g\in G:x=gyg^{-1}.
-\end{equation}$$
+_Let $G$ be a group and fix $x,y\in G$. Then **$x$ is conjugate to $y$** if there exists some $g\in G$ such that $x=gyg^{-1}$._
 
 ```
