@@ -1,9 +1,9 @@
 ol>li::marker {
-    color: white !important;
+    color: var(--text-normal) !important;
 }
 
 ul>li::marker {
-    color: white !important;
+    color: var(--text-normal) !important;
 }
 
 .list-bullet:after {
