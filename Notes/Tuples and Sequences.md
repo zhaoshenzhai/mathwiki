@@ -3,7 +3,7 @@
 Date Created: 29/01/2022 11:31:28
 Tags: #Definition
 
-Types: [[Convergent Sequence]]
+Types: [[Convergent Sequence]], [[Bounded Sequence]]
 Examples: [[Sequences in R or C]]
 Constructions: [[Tuple Space (Linear Algebra)]]
 Generalizations: _Not Applicable_

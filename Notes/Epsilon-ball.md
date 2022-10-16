@@ -9,7 +9,7 @@ Tags: #Definition #Later/Topology
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Bounded Sequence]]
 Generalizations: _Not Applicable_
 
 Properties: [[Epsilon-ball is a neighborhood]]

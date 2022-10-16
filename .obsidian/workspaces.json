@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "f12090be8d28cc7e",
+            "id": "67921dcf4761b0f9",
             "type": "tabs",
             "children": [
               {
-                "id": "636a7ab84ebecd24",
+                "id": "b833300780878cce",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -42,7 +42,7 @@
                 }
               },
               {
-                "id": "7dacb4f488d9842f",
+                "id": "0f2cba3fb28dc11b",
                 "type": "leaf",
                 "state": {
                   "type": "search",
@@ -50,7 +50,7 @@
                     "query": "tag:#In_Progress",
                     "matchingCase": false,
                     "explainSearch": false,
-                    "collapseAll": false,
+                    "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical"
                   }
@@ -113,7 +113,7 @@
                   "type": "localgraph",
                   "state": {
                     "options": {
-                      "collapse-filter": true,
+                      "collapse-filter": false,
                       "search": "",
                       "localJumps": 4,
                       "localBacklinks": true,
@@ -160,17 +160,17 @@
                           }
                         }
                       ],
-                      "collapse-display": false,
+                      "collapse-display": true,
                       "showArrow": true,
                       "textFadeMultiplier": -3,
                       "nodeSizeMultiplier": 1,
                       "lineSizeMultiplier": 1,
-                      "collapse-forces": false,
+                      "collapse-forces": true,
                       "centerStrength": 0,
                       "repelStrength": 20,
                       "linkStrength": 1,
                       "linkDistance": 500,
-                      "scale": 0.04297645956706045,
+                      "scale": 0.07895243002359893,
                       "close": true
                     }
                   }
@@ -186,7 +186,7 @@
       "ribbon": {
         "mostRecentAction": ""
       },
-      "active": "636a7ab84ebecd24"
+      "active": "b833300780878cce"
     }
   },
   "active": "workspace"

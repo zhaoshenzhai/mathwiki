@@ -8,7 +8,7 @@ Examples: [[Limit of 1 over linear]], [[Limit of power; base between 0 and 1]], 
 Constructions: [[Convergent and Divergent Series]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Basic properties of limits]]
 Sufficiencies: [[Squeeze Theorem (Sequences)]]
 Equivalences: _Not Applicable_
 Justifications: [[Limit of a sequence is unique (Hausdorff)]]
