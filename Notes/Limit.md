@@ -9,7 +9,7 @@ Constructions: [[Convergent and Divergent Series]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of limits]]
-Sufficiencies: [[Squeeze Theorem (Sequences)]]
+Sufficiencies: [[Squeeze Theorem (Distance)]]
 Equivalences: _Not Applicable_
 Justifications: [[Limit of a sequence is unique (Hausdorff)]]
 
