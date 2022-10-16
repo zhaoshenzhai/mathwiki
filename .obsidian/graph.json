@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#Definition",
@@ -49,10 +49,10 @@
   "nodeSizeMultiplier": 1.13413405656722,
   "lineSizeMultiplier": 0.575381399028139,
   "collapse-forces": true,
-  "centerStrength": 0.176517120578596,
+  "centerStrength": 0.10961690586507,
   "repelStrength": 20,
-  "linkStrength": 0.858176065092101,
+  "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.016367442766180247,
-  "close": true
+  "scale": 0.03270921022691698,
+  "close": false
 }

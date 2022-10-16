@@ -21,6 +21,16 @@ _Furthermore, we have_ $X/R_\Pi=\Pi$ _and_ $R_{X/R}=R$_._
 
 ```
 
+**Remark.** The relationship between partitions, their induced relations, equivalences, and their quotient sets, can be visualized with the following schematic diagram.
+
+<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-02-09_222004/image.svg", width=650></center>
+
+The statements $X/R_\Pi=\Pi$ and $R_{X/R}=R$ are then viewed as $\textrm{`}$compatibility statements$\textrm{'}$, guaranteeing that the
+* quotient set of the relation induced by $\Pi$ is $\Pi$ itself, and that the
+* relation induced by the quotient set of a relation $R$ is $R$ itself.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 _Proof_. Statements $\#1$ and $\#2$ are proven; it suffices to show that $X/R_\Pi=\Pi$ and $R_{X/R}=R$.
 
 Proof that $X/R_\Pi=\Pi$:
@@ -32,13 +42,3 @@ Proof that $R_{X/R}=R$:
 * ($\subseteq$): Take $x,y\in X$ such that $\tpl{x,y}\in R_{X/R}$, which, by definition, implies that there exists $P\in X/R$ such that $x,y\in P$. However, the set $P$ is also an equivalence class of the form $\l[t\r]_R$ for some $t\in X$ such that $xRt$ and $yRt$. It follows that $xRy$ and hence $R_{X/R}\subseteq R$.
 
 * ($\supseteq$): Take $x,y\in X$ such that $xRy$ from which it follows that $\l[x\r]_R=\l[y\r]_R$. Since $\l[x\r]_R,\l[y\r]_R\in X/R$ and $X/R$ is a partition on $X$, set $P\coloneqq\l[x\r]_R=\l[y\r]_R\in X/R$ and observe that $x,y\in P$. It follows, by definition of $R_{X/R}$, that $\tpl{x,y}\in R_{X/R}$.<span style="float:right;">$\blacksquare$</span>
-
----
-
-**Remark.** The relationship between partitions, their induced relations, equivalences, and their quotient sets, can be visualized with the following schematic diagram.
-
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-02-09_222004/image.svg", width=650></center>
-
-The statements $X/R_\Pi=\Pi$ and $R_{X/R}=R$ are then viewed as $\textrm{`}$compatibility statements$\textrm{'}$, guaranteeing that the
-* quotient set of the relation induced by $\Pi$ is $\Pi$ itself, and that the
-* relation induced by the quotient set of a relation $R$ is $R$ itself.<span style="float:right;">$\blacklozenge$</span>
