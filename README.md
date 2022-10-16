@@ -117,8 +117,6 @@ All images are [centered](https://github.com/zhaoshenzhai/MathWiki/blob/master/.
 
 ![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/linear_subspace.png)
 
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/gaussian_algorithm.png)
-
 ![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/upper_limit_strictly_finer_than_k.png)
 
 ![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/fundamental_theorem_of_equivalence_relations.png)
