@@ -41,5 +41,5 @@ $$\begin{equation}
 * ($4\Rightarrow5$): Since $g_2\in g_1H$, we see that $\ex h\in H:g_2=g_1h$. Observe then that $g_1^{-1}g_2=h\in H$.
 * ($5\Rightarrow1$): Since $g_1^{-1}g_2\in H$ and $H\subseteq G$ is a subgroup, we see that $\l(g_1^{-1}g_2\r)^{-1}=g_2^{-1}g_1\in H$. We shall prove that $g_1H\subseteq g_2H$; the other direction is similar. Take $x\in g_1H$, so $\ex h_1\in H:x=g_1h_1$. Observe then that
 $$\begin{equation}
-    g_1h_1=\l(g_2g_2^{-1}\r)g_1h=g_2\l(g_2^{-1}g_1\r)h=g_2\l[\l(g_2^{-1}g_1\r)h\r]\in g_2H.\qedin
+    g_1h_1=\l(g_2g_2^{-1}\r)g_1h_1=g_2\l(g_2^{-1}g_1\r)h_1=g_2\l[\l(g_2^{-1}g_1\r)h_1\r]\in g_2H.\qedin
 \end{equation}$$

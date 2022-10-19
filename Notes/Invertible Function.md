@@ -3,7 +3,7 @@
 Date Created: 26/01/2022 18:48:16
 Tags: #Definition
 
-Types: [[Linear Isomorphism]]
+Types: [[Linear Isomorphism]], [[Group Isomorphism]]
 Examples: [[Identity Function]], [[Elementary Matrices and Operations]]
 Constructions: [[Isomorphic Sets]]
 Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]

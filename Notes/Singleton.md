@@ -4,7 +4,7 @@ Date Created: 17/01/2022 12:06:31
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Examples: _Not Applicable_
 Constructions: [[Ordered Pair]], [[Successor]], [[Trivial Group]]
 Generalizations: _Not Applicable_
 

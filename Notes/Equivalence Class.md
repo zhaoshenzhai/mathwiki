@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Quotient Set]]
+Constructions: [[Quotient Set]], [[Conjugate slash conjugacy class]]
 Generalizations: _Not Applicable_
 
 Properties: [[Same equivalence class iff related]]

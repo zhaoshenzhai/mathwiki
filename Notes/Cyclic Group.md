@@ -8,7 +8,7 @@ Examples: [[Additive Group of Integers mod n]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Cyclic groups are Abelian]]
+Properties: [[Cyclic groups are Abelian]], [[Cyclic groups are Z or Zn]]
 Sufficiencies: [[Subgroups of cyclic groups are cyclic]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

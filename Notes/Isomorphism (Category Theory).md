@@ -4,7 +4,7 @@ Date Created: 22/02/2022 11:26:30
 Tags: #Definition
 
 Types: [[Automorphism (Category Theory)]]
-Examples: [[Identity morphism is an isomorphism]], [[Bijection]], [[Linear Isomorphism]]
+Examples: [[Identity morphism is an isomorphism]], [[Bijection]], [[Linear Isomorphism]], [[Group Isomorphism]]
 Constructions: [[Natural Isomorphism]]
 Generalizations: _Not Applicable_
 

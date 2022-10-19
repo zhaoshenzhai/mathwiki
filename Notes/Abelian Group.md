@@ -9,8 +9,8 @@ Constructions: [[Vector Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Cyclic groups are Abelian]]
-Equivalences: _Not Applicable_
+Sufficiencies: [[Cyclic groups are Abelian]], [[Isomorphic groups Abelian iff Abelian]]
+Equivalences: [[Abelian iff inversion is a homomorphism]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
