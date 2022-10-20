@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 04/02/2022 14:47:46
 Tags: #Proposition
 
-Proved by: [[Criteria for collection to be a basis for an existing topology]], [[Rationals is dense in reals]]
+Proved by: [[Criteria for collection to be a basis for an existing topology]], [[Q is dense in R]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

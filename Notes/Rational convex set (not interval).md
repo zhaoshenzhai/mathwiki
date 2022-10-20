@@ -3,7 +3,7 @@
 Date Created: 17/02/2022 13:22:37
 Tags: #Proposition
 
-Proved by: [[Archimedean Property of R]], [[Rationals is dense in reals]], [[Root 2 is not rational]]
+Proved by: [[Archimedean Property of R]], [[Q is dense in R]], [[Root 2 is not rational]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

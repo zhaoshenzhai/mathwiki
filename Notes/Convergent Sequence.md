@@ -9,7 +9,7 @@ Constructions: [[Limit]]
 Generalizations: _Not Applicable_
 
 Properties: [[Convergent implies bounded]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Ratio Test (Sequence)]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
