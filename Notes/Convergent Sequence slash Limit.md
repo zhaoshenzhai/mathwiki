@@ -1,26 +1,30 @@
+---
+mathLink: auto
+---
+
 <div class="topSpace"></div>
 
 Date Created: 29/08/2022 16:59:28
 Tags: #Definition #Courses/MATH254 #Later/Topology
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: [[Limit]]
+Examples: [[Limit of 1 over linear]], [[Limit of power; base between 0 and 1]], [[Limit of nth root of real]], [[Limit of nth root of n]]
+Constructions: [[Convergent and Divergent Series]]
 Generalizations: _Not Applicable_
 
-Properties: [[Convergent implies bounded]]
-Sufficiencies: [[Ratio Test (Sequence)]]
+Properties: [[Convergent implies bounded]], [[Basic properties of limits]]
+Sufficiencies: [[Monotone Convergence Theorem]], [[Squeeze Theorem]], [[Squeeze Lemma]], [[Ratio Test (Sequence)]]
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[Limit of a sequence is unique (Hausdorff)]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and fix $x\in X$. A sequence_ $\tpl{x_n}_{n\in\N}$ _in $X$ is said to **converge to $x$ w.r.t. $\mc{T}$** if_
+_Let $\tpl{X,\mc{T}}$ be a topological space and fix $x\in X$. A sequence_ $\tpl{x_n}_{n\in\N}$ _in $X$ is said to **converge to $x$ w.r.t. $\mc{T}$** and $x$ is said to be a **limit of $\tpl{x_n}$ w.r.t. $\mc{T}$** if_
 $$\begin{equation}
     \fa U\in\mc{U}_x,\fa^\infty n\in\N:x_n\in U,
 \end{equation}$$
-_where $\mc{U}_x$ is the set of all neighborhoods of $x$._
+_where $\mc{U}_x$ is the set of all neighborhoods of $x$. If $\tpl{X,\mc{T}}$ is Hausdorff, then we write_ $\lim\limits_{n\to\infty}x_n=x$ _or $x_n\to x$ as $n\to\infty$._
 
 ```
 

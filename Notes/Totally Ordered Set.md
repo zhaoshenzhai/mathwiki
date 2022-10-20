@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Open Interval]], [[Half-open Intervals]], [[Closed Interval]], [[Open Ray]]
+Constructions: [[Open Interval]], [[Half-open Intervals]], [[Closed Interval]], [[Open Ray]], [[Monotone Sequence]]
 Generalizations: _Not Applicable_
 
 Properties: [[Least or greatest equals minimal or maximal for totally ordered sets]]

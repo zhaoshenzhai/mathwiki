@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Order Space (Topology)]]
-Constructions: [[Product Space (Topology)]], [[Topological Subspace]], [[Convergent Sequence]]
+Constructions: [[Product Space (Topology)]], [[Topological Subspace]], [[Convergent Sequence slash Limit]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

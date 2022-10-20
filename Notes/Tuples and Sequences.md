@@ -3,7 +3,7 @@
 Date Created: 29/01/2022 11:31:28
 Tags: #Definition
 
-Types: [[Convergent Sequence]], [[Bounded Sequence]], [[Convergent to Infinity]]
+Types: [[Bounded Sequence]], [[Monotone Sequence]], [[Convergent Sequence slash Limit]], [[Convergent to Infinity]]
 Examples: [[Sequences in R or C]]
 Constructions: [[Tuple Space (Linear Algebra)]]
 Generalizations: _Not Applicable_
