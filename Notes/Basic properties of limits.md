@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 15/10/2022 20:13:16
-Tags: #Proposition #In_Progress #Courses/MATH254
+Tags: #Proposition #Courses/MATH254
 
 Proved by: [[Convergent implies bounded]]
 References: _Not Applicable_
@@ -16,11 +16,17 @@ title: Proposition.
 _Let $K$ denote either $\R$ or $\C$ and let $\tpl{x_n}$ and $\tpl{y_n}$ be sequences in $K$ such that_ $\lim\limits_{n\to\infty}x_n=x$ _and_ $\lim\limits_{n\to\infty}y_n=y$ _for some $x,y\in K$. Then the following properties hold._
 * _(Linearity): For all $\alpha\in K$,_ $\lim\limits_{n\to\infty}\l(\alpha x_n+y_n\r)=\alpha x+y$_._
 * _(Multiplicativity):_ $\lim\limits_{n\to\infty}\l(x_n\cdot y_n\r)=x\cdot y$_._
+* _(Invertibility): If $x\neq0$, then_ $\lim\limits_{n\to\infty}\frac{1}{x_n}=\frac{1}{x}$ _where $\fa^\infty n\in\N:x_n\neq0$._
+* _(Respects absolute value):_ $\lim\limits_{n\to\infty}\l|x_n\r|=\l|x\r|$_._
+
+_Furthermore, if $K=\R$, then the following order properties hold._
+* _(Respects boundedness): For all $a\in\R$, if $\fa^\infty n\in\N:x_n\geq a$ (resp. $x_n\leq a$), then $x\geq a$ (resp. $x\leq a$)._
+* _(Respects order): If $\fa^\infty n\in\N:x_n\leq y_n$, then $x\leq y$._
 
 ```
 
 _Proof_.
-* If $\alpha=0$, there is nothing to show. Otherwise, let $\epsilon>0$. Since $x_n\to x$ and $y_n\to y$, we see that
+* (Linearity): If $\alpha=0$, there is nothing to show. Otherwise, let $\epsilon>0$. Since $x_n\to x$ and $y_n\to y$, we see that
 $$\begin{equation}
     \fa^\infty n\in\N:d\l(x_n,x\r)<\frac{\epsilon}{2\alpha}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \fa^\infty n\in\N:d\l(y_n,y\r)<\frac{\epsilon}{2}.\cref{\ast}
 \end{equation}$$
@@ -34,7 +40,7 @@ $$\begin{equation}
     \end{aligned}
 \end{equation}$$
 
-* Since $\tpl{x_n}$ converges, it is bounded and hence there exists some $r\in\R$ such that $\l|x_n\r|\leq r$ for all $n\in\N$. Observe then that
+* (Multiplicativity): Since $\tpl{x_n}$ converges, it is bounded and hence there exists some $r\in\R$ such that $\l|x_n\r|\leq r$ for all $n\in\N$. Observe then that
 $$\begin{equation}
     \begin{aligned}
         d\l(x_ny_n,xy\r)&\leq d\l(x_ny_n,x_ny\r)+d\l(x_ny,xy\r) && \textrm{Triangle Inequality} \\
@@ -42,4 +48,32 @@ $$\begin{equation}
         &\leq Bd\l(y_n,y\r)+\l|y\r|d\l(x_n,x\r). && \l|x_n\r|\leq B
     \end{aligned}
 \end{equation}$$
-Since $d\l(x_n,x\r)\to0$ and $d\l(y_n,y\r)\to0$ as $n\to\infty$, we see that any linear combination thereof converges to $0$ as $n\to\infty$.<span style="float:right;">$\blacksquare$</span>
+Since $d\l(x_n,x\r)\to0$ and $d\l(y_n,y\r)\to0$ as $n\to\infty$, we see that any linear combination thereof converges to $0$ as $n\to\infty$.
+* (Invertibility): Since $x\neq0$, we see that $\epsilon\coloneqq2d\l(x,0\r)>0$. Thus, by the Triangle Inequality, we have
+$$\begin{equation}
+    d\l(x_n,0\r)\leq d\l(x,x_n\r)+d\l(x_n,0\r)
+\end{equation}$$
+and hence
+$$\begin{equation}
+    d\l(x_n,0\r)\geq d\l(x,0\r)-d\l(x,x_n\r)>2\epsilon-\epsilon=\epsilon
+\end{equation}$$
+for all eventually $n\in\N$. Observe then that
+$$\begin{equation}
+    d\l(\frac{1}{x_n}-\frac{1}{x}\r)=\l|\frac{1}{x_n}-\frac{1}{x}\r|=\l|\frac{x-x_n}{x_nx}\r|=\frac{\l|x-x_n\r|}{\l|x_n\r|\l|x\r|},
+\end{equation}$$
+which, for all eventually $n\in\N$, can be evaluated to
+$$\begin{equation}
+    d\l(\frac{1}{x_n}-\frac{1}{x}\r)<\frac{\l|x-x_n\r|}{2x^2}<\frac{\epsilon}{2x^2}.
+\end{equation}$$
+* (Respects absolute value): Let $\epsilon>0$, so $d\l(x_n,x\r)=\l|x_n-x\r|<\epsilon$. Then, from the Reverse Triangle Inequality, we see that $\l|\l|x_n\r|-\l|x\r|\r|\leq\l|x_n-x\r|<\epsilon$.
+* (Respects boundedness): If $x<a\leq x_n$, then $\epsilon\coloneqq d\l(x,a\r)>0$. Hence
+$$\begin{equation}
+    d\l(x_n,x\r)=\l|x_n-x\r|=x_n-x<d\l(x,a\r)
+\end{equation}$$
+and thus
+$$\begin{equation}
+    x_n<x+d\l(x,a\r)=x+\l|x-a\r|=x+a-x=a,
+\end{equation}$$
+a contradiction.
+
+* (Respects order): Observe that $x_n-y_n\leq0$, so $\lim\limits_{n\to\infty}\l(x_n-y_n\r)\leq0$. Since the limit is linear, we can split the sum to obtain the desired result.<span style="float:right;">$\blacksquare$</span>

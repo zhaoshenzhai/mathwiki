@@ -7,7 +7,7 @@ mathLink: $\sqrt[n]{a}\to1$
 Date Created: 04/10/2022 15:11:41
 Tags: #Proposition #Courses/MATH254
 
-Proved by: [[Bernoulli's Inequality]], [[Limit of 1 over linear]], [[Squeeze Theorem (Distance)]]
+Proved by: [[Bernoulli's Inequality]], [[Limit of 1 over linear]], [[Squeeze Lemma]]
 References: _Not Applicable_
 Justifications: [[Existence of nth roots]]
 
