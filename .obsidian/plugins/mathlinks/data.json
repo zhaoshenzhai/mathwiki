@@ -183,6 +183,14 @@
       "globalMatch": true,
       "sensitive": false,
       "word": true
+    },
+    {
+      "title": "Infinity",
+      "replaced": "Infinity",
+      "replacement": "$\\infty$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
     }
   ],
   "excludedFilePaths": [

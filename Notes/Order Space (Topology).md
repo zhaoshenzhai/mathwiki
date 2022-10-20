@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Real Line (Topology)]], [[Ordered Square]]
-Constructions: _Not Applicable_
+Constructions: [[Convergent to Infinity]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

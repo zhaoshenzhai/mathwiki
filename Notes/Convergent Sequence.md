@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/08/2022 16:59:28
-Tags: #Definition #Later/Topology
+Tags: #Definition #Courses/MATH254 #Later/Topology
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

@@ -4,7 +4,7 @@ Date Created: 29/08/2022 17:01:11
 Tags: #Definition #Later/Topology
 
 Types: _Not Applicable_
-Examples: [[Epsilon-ball]]
+Examples: [[Epsilon-ball]], [[Neighborhood of Infinity]]
 Constructions: [[Convergent Sequence]]
 Generalizations: _Not Applicable_
 

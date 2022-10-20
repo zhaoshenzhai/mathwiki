@@ -18,6 +18,7 @@ _Let $K$ denote either $\R$ or $\C$ and let $\tpl{x_n}$ and $\tpl{y_n}$ be seque
 * _(Multiplicativity):_ $\lim\limits_{n\to\infty}\l(x_n\cdot y_n\r)=x\cdot y$_._
 * _(Invertibility): If $x\neq0$, then_ $\lim\limits_{n\to\infty}\frac{1}{x_n}=\frac{1}{x}$ _where $\fa^\infty n\in\N:x_n\neq0$._
 * _(Respects absolute value):_ $\lim\limits_{n\to\infty}\l|x_n\r|=\l|x\r|$_._
+* _(Respects root): If $\fa^\infty n\in\N x_n\geq0$, then_ $\lim\limits_{n\to\infty}\sqrt{x_n}=\sqrt{x}$_._
 
 _Furthermore, if $K=\R$, then the following order properties hold._
 * _(Respects boundedness): For all $a\in\R$, if $\fa^\infty n\in\N:x_n\geq a$ (resp. $x_n\leq a$), then $x\geq a$ (resp. $x\leq a$)._
@@ -66,6 +67,11 @@ $$\begin{equation}
     d\l(\frac{1}{x_n}-\frac{1}{x}\r)<\frac{\l|x-x_n\r|}{2x^2}<\frac{\epsilon}{2x^2}.
 \end{equation}$$
 * (Respects absolute value): Let $\epsilon>0$, so $d\l(x_n,x\r)=\l|x_n-x\r|<\epsilon$. Then, from the Reverse Triangle Inequality, we see that $\l|\l|x_n\r|-\l|x\r|\r|\leq\l|x_n-x\r|<\epsilon$.
+* (Respects root): Let $\epsilon>0$. If $x=0$, then $d\l(x_n,0\r)=x_n<\epsilon^2$ for all eventually $n\in\N$, so $d\l(\sqrt{x_n},0\r)=\sqrt{x_n}<\epsilon$ for all eventually $n\in\N$. Otherwise, if $x>0$, then $d\l(x_n,x\r)<\epsilon\sqrt{x}$ for all eventually $n\in\N$ and hence
+$$\begin{equation}
+    d\l(\sqrt{x_n},\sqrt{x}\r)=\l|\sqrt{x_n}-\sqrt{x}\r|=\frac{\l|\sqrt{x_n}-\sqrt{x}\r|\l|\sqrt{x_n}+\sqrt{x}\r|}{\l|\sqrt{x_n}+\sqrt{x}\r|}=\frac{\l|x_n-x\r|}{\l|\sqrt{x_n}+\sqrt{x}\r|}\leq\frac{d\l(x_n,x\r)}{\sqrt{x}}<\epsilon
+\end{equation}$$
+for all eventually $n\in\N$.
 * (Respects boundedness): If $x<a\leq x_n$, then $\epsilon\coloneqq d\l(x,a\r)>0$. Hence
 $$\begin{equation}
     d\l(x_n,x\r)=\l|x_n-x\r|=x_n-x<d\l(x,a\r)

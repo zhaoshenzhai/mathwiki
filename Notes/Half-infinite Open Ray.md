@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Neighborhood of Infinity]]
 Generalizations: _Not Applicable_
 
 Properties: [[Half-infinite open rays are open in the order topology]], [[Standard topology on R (subbasis; rational endpoints)]], [[Order topology (subbasis)]]

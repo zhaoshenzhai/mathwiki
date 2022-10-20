@@ -22,5 +22,6 @@
   "showFrontmatter": false,
   "readableLineLength": false,
   "promptDelete": false,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "foldIndent": true
 }
