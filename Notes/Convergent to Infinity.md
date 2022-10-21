@@ -13,7 +13,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Monotone Convergence Theorem]], [[Ratio Test (Sequence)]]
+Sufficiencies: [[Monotone Convergence Theorem]], [[Ratio Test (Sequence)]], [[Comparison Test (Sequence)]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

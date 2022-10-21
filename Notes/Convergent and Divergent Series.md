@@ -13,7 +13,7 @@ Constructions: [[Power Series]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of infinite series]]
-Sufficiencies: [[Divergence Test]], [[Comparison Test]], [[Ratio Test]], [[Root Test]]
+Sufficiencies: [[Divergence Test]], [[Comparison Test (Series)]], [[Ratio Test (Series)]], [[Root Test]]
 Equivalences: [[Integral Test]]
 Justifications: _Not Applicable_
 

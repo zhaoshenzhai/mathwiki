@@ -7,7 +7,7 @@ mathLink: Geometric series converges $\Leftrightarrow$ $\l|r\r|<1$
 Date Created: 01/09/2022 17:00:29
 Tags: #Proposition
 
-Proved by: _Not Applicable_
+Proved by: [[Basic properties of limits]], [[Limit of power; base between 0 and 1]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

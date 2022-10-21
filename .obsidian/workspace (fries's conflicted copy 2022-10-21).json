@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "12319c0b10323134",
+    "type": "split",
+    "children": [
+      {
+        "id": "71f1e9819c811cc3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61befa27adeacfcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Ratio Test (Sequence).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7b81910cd462cacc",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d00dbe0d1a2729a",
+        "type": "tabs",
+        "dimension": 49.65517241379311,
+        "children": [
+          {
+            "id": "3e6bfdd211453c3d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0f2cba3fb28dc11b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#In_Progress",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e4f1073403767469",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "294597bc1a532b30",
+        "type": "tabs",
+        "dimension": 50.34482758620689,
+        "children": [
+          {
+            "id": "e8c5400882b51657",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Ratio Test (Sequence).md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 266.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "5b3c2ad05cc53b8f",
+    "type": "split",
+    "children": [
+      {
+        "id": "0aa6b9202d872b96",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a13b5925ef8b07d",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Notes/Ratio Test (Sequence).md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 4,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [
+                    {
+                      "query": "tag:#Definition",
+                      "color": {
+                        "a": 1,
+                        "rgb": 6537198
+                      }
+                    },
+                    {
+                      "query": "tag:#Proposition",
+                      "color": {
+                        "a": 1,
+                        "rgb": 15099319
+                      }
+                    },
+                    {
+                      "query": "tag:#Theorem",
+                      "color": {
+                        "a": 1,
+                        "rgb": 6683493
+                      }
+                    },
+                    {
+                      "query": "tag:#Axiom",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16342365
+                      }
+                    },
+                    {
+                      "query": "tag:#MOC",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16773058
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -3,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0,
+                  "repelStrength": 20,
+                  "linkStrength": 1,
+                  "linkDistance": 500,
+                  "scale": 0.08863140034966713,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 1066.4,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "61befa27adeacfcc",
+  "lastOpenFiles": [
+    "Notes/Bounded Sequence.md",
+    "Notes/Ratio Test (Sequence).md",
+    "Notes/Monotone Convergence Theorem.md",
+    "Notes/Permutation Group.md",
+    "Notes/Symmetric Group.md",
+    "Notes/Convergent Sequence slash Limit.md",
+    "Notes/Convergent Sequence.md",
+    "Notes/Axiom of Extensionality.md",
+    "Notes/Basis for null space.md",
+    "Notes/Limit.md"
+  ]
+}
