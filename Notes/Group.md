@@ -9,7 +9,7 @@ Constructions: [[Group Homomorphism]], [[Subgroup]], [[Order (Group Theory)]], [
 Generalizations: [[Groupoid]]
 
 Properties: [[Basic properties of groups]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Cayley's Theorem]]
 Equivalences: _Not Applicable_
 Justifications: [[Identity element of a group is unique]], [[Inverse elements in a group are unique]]
 

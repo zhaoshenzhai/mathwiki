@@ -4,7 +4,7 @@ Date Created: 17/10/2022 11:58:01
 Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
-Examples: [[Cyclic groups are Z or Zn]]
+Examples: [[Cayley's Theorem]], [[Cyclic groups are Z or Zn]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
