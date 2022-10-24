@@ -52,7 +52,6 @@ I do not directly write my notes in Obsidian since I have my own Neovim setup; s
 Theme: [Minimal](https://github.com/kepano/obsidian-minimal).
 
 Plugins:
-* [Sliding Panes (Andy's Mode)](https://github.com/deathau/sliding-panes-obsidian): Stack panes side-by-side (v3.2.5).
 * [Extended MathJax](https://github.com/xldenis/obsidian-latex): Add macros in [`preamble.sty`](preamble.sty).
 * [Style Settings](https://github.com/mgmeyers/obsidian-style-settings): Precise colors.
 * [Jump to Link](https://github.com/mrjackphil/obsidian-jump-to-link): Follow links.
@@ -86,7 +85,7 @@ mathLink: yourMathLink
 Content starts here.
 ```
 
-That's it! All links of the form `[[fileName]]` or `[fileName](fileName.md)` will now be displayed as the rendered MathJax of `yourMathLink`. No changes are made to your notes, and updates to `yourMathLink` will be reflected once the note with the link is reopened.
+That's it! All links of the form `[[fileName]]` or `[fileName](fileName.md)` will now be displayed as the rendered MathJax of `yourMathLink`. _**No changes are made to your notes**_, and updates to `yourMathLink` will be reflected once the note with the link is reopened.
 
 ### Templates
 Oftentimes, the `mathLink` of `fileName.md` involves replacing some text with its math counterpart. For instance, all of `Invertible iff bijective.md`, `Linearly dependent iff exists span-redundant element.md`, and `LUB property iff GLB property.md` will have mathLinks of the form '... $\Leftrightarrow$ ...'.
