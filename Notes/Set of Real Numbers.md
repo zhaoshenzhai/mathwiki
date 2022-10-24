@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH254 #Later/Set_Theory
 
 Types: _Not Applicable_
 Examples: [[Existence of nth roots]]
-Constructions: _Not Applicable_
+Constructions: [[Real Line (Topology)]]
 Generalizations: _Not Applicable_
 
 Properties: [[Archimedean Property of R]], [[Q is dense in R]]

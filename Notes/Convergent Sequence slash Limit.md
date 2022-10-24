@@ -12,8 +12,8 @@ Examples: [[Limit of 1 over linear]], [[Limit of power; base between 0 and 1]], 
 Constructions: [[Convergent and Divergent Series]]
 Generalizations: _Not Applicable_
 
-Properties: [[Convergent implies bounded]], [[Basic properties of limits]]
-Sufficiencies: [[Monotone Convergence Theorem]], [[Squeeze Theorem]], [[Squeeze Lemma]], [[Ratio Test (Sequence)]]
+Properties: [[Convergent implies bounded]], [[Sequence converges implies all subsequences converge]], [[Basic properties of limits in R]]
+Sufficiencies: [[Monotone Convergence Theorem]], [[Bolzano-Weierstrass Theorem]], [[Squeeze Theorem]], [[Squeezed Distance Lemma]], [[Ratio Test (Sequence)]]
 Equivalences: _Not Applicable_
 Justifications: [[Limit of a sequence is unique (Hausdorff)]]
 

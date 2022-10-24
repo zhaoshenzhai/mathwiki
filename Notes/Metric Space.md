@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH254
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Epsilon-ball]]
+Constructions: [[Epsilon-ball]], [[Sequences in a Metric Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

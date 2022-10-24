@@ -7,7 +7,7 @@ mathLink: $a^n\to0$
 Date Created: 04/10/2022 14:52:29
 Tags: #Proposition #Courses/MATH254
 
-Proved by: [[Bernoulli's Inequality]], [[Limit of 1 over linear]], [[Squeeze Lemma]]
+Proved by: [[Bernoulli's Inequality]], [[Limit of 1 over linear]], [[Squeezed Distance Lemma]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

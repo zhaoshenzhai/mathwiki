@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
-title: Proposition.
+title: Proposition (Squeezed Distance Lemma).
 
 _Let $\tpl{X,d}$ be a metric space and consider a sequence_ $\tpl{x_n}_{n\in\N}$ _ in $X$. If there exist a sequence_ $\tpl{a_n}_{n\in\N}$ _of positive reals that converges to $0$ such that_
 $$\begin{equation}

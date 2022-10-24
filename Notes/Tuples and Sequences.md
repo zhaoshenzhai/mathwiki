@@ -3,9 +3,9 @@
 Date Created: 29/01/2022 11:31:28
 Tags: #Definition
 
-Types: [[Bounded Sequence]], [[Monotone Sequence]], [[Convergent Sequence slash Limit]], [[Convergent to Infinity]]
-Examples: [[Sequences in R or C]]
-Constructions: [[Tuple Space (Linear Algebra)]]
+Types: [[Sequences in a Topological Space]], [[Sequences in an Ordered Space]]
+Examples: _Not Applicable_
+Constructions: [[Subsequences]], [[Tuple Space (Linear Algebra)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
