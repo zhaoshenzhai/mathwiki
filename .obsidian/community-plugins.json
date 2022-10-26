@@ -1,9 +1,9 @@
 [
   "obsidian-hider",
   "obsidian-admonition",
-  "obsidian-latex",
   "mathlinks",
   "obsidian42-brat",
   "obsidian-style-settings",
-  "vim-reading-view-navigation"
+  "vim-reading-view-navigation",
+  "obsidian-latex"
 ]

@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Cyclic Group]]
 Generalizations: _Not Applicable_
 
 Properties: [[Order of group element is order of generated cyclic group]]

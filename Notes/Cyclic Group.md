@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A group $\tpl{G,\ast}$ is said to be a **cyclic group** if $\ex x\in G:G=\l\langle x\r\rangle$, in which case $x$ is said to be the **generator of $G$**._
+_A group $\tpl{G,\ast}$ is said to be a **cyclic group** if $\ex x\in G:G=\l\langle x\r\rangle$, in which case $x$ is said to be a **generator of $G$**._
 
 ```
