@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: [[Abelian Group]], [[Finite Group]]
 Examples: [[Symmetric Group]]
-Constructions: [[Group Homomorphism]], [[Subgroup]], [[Order (Group Theory)]], [[Conjugate slash conjugacy class]], [[Function Group]]
+Constructions: [[Order (Group Theory)]], [[Group Homomorphism]], [[Subgroup]], [[Conjugate slash conjugacy class]], [[External Direct Product (Group)]]
 Generalizations: [[Groupoid]]
 
 Properties: [[Basic properties of groups]]
@@ -21,7 +21,7 @@ _Let $G$ be a set and let $\ast$ be a binary operation on $G$. The pair $\tpl{G,
 * _$\axigrp[2]$ (Identity)$\bf{.}$ $\ex e\in G,\fa g\in G:g\ast e=g=e\ast g$._
 * _$\axigrp[3]$ (Inverse)$\bf{.}$ $\fa g\in G,\ex h\in G:g\ast h=e=h\ast g$._
 
-_The element $e\in G$ is called the **unit element of $G$**, and, for all $g\in G$, the element $g^{-1}\coloneqq h$ in $\axigrp[3]$ is called the **inverse element of $g$**._
+_The element $e\in G$ is called the **identity element of $G$**, and, for all $g\in G$, the element $g^{-1}\coloneqq h$ in $\axigrp[3]$ is called the **inverse element of $g$**._
 
 ```
 
@@ -33,6 +33,6 @@ That is, we remove the existential quantifier in $\axigrp[2]$. We can similarly 
 $$\begin{equation}
     \axigrp[3]'\bf{.}\ \fa g\in G,g\ast i\l(g\r)=e=i\l(g\r)\ast g.
 \end{equation}$$
-We need to verify that all three definitions are equivalent in the sense that they can be constructed from the other. Indeed, it suffices to check that the unit element $e$ and inverse elements $g^{-1}$ for each $g\in G$ are unique, for then they may be fixed (as a constant and a unary operation, respectively) and incorporated into the structure of the group itself.
+We need to verify that all three definitions are equivalent in the sense that they can be constructed from the other. Indeed, it suffices to check that the identity element $e$ and inverse elements $g^{-1}$ for each $g\in G$ are unique, for then they may be fixed (as a constant and a unary operation, respectively) and incorporated into the structure of the group itself.
 
 Conversely, the two types of groups defined here reduce to the $\textrm{`}$official$\textrm{'}$ definition by forgetting the $e\textrm{'}$s and the $i\textrm{'}$s; this can be done since they are fixed by construction and hence exist with the desired properties $\axigrp[2]$ and $\axigrp[3]$. In more detail, $\axigrp[2]$ holds since $e$ is fixed to begin with and satisfies $\axigrp[2]'$. The unary operation $i$ is a function, so $i\l(g\r)$ is defined for all $g\in G$ and may be distinct. Thus $\axigrp[3]$ holds with the existential quantifier occurring after fixing $g\in G$.<span style="float:right;">$\blacklozenge$</span>

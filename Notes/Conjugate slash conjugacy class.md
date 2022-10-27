@@ -20,7 +20,7 @@ Justifications: [[Conjugacy is an equivalence relation]]
 ``` ad-Definition
 title: Definition.
 
-_Let $G$ be a group and fix $x,y\in G$. Then **$x$ is conjugate to $y$** if there exists some $g\in G$ such that $x=g^{-1}yg$. The call the equivalence class $\l[x\r]$ the **conjugacy class of $x$ in $G$**._
+_Let $G$ be a group and fix $x,y\in G$. Then **$x$ is conjugate to $y$** if there exists some $g\in G$ such that $x=g^{-1}yg$, in which case we call the equivalence class $\l[x\r]$ the **conjugacy class of $x$ in $G$**._
 
 ```
 

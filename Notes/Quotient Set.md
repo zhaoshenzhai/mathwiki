@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Additive Group of Integers mod n]]
-Constructions: [[Canonical Projection]]
+Constructions: [[Canonical Projection]], [[Quotient Group]]
 Generalizations: _Not Applicable_
 
 Properties: [[Quotient set is a partition]]

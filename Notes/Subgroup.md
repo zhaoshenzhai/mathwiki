@@ -3,9 +3,9 @@
 Date Created: 21/09/2022 20:37:12
 Tags: #Definition #Courses/MATH235
 
-Types: _Not Applicable_
-Examples: [[Cyclic Subgroup]]
-Constructions: _Not Applicable_
+Types: [[Normal Subgroup]]
+Examples: [[Cyclic Subgroup]], [[Image (Group Theory)]]
+Constructions: [[Internal Direct Product (Group Theory)]]
 Generalizations: _Not Applicable_
 
 Properties: [[Subgroups of cyclic groups are cyclic]]

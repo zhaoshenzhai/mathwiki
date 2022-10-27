@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Function Space (Set Theory)]], [[Empty product is singleton of empty set]]
-Constructions: [[Projection Maps]], [[Tuples and Sequences]], [[n-ary Operation]], [[Direct Product (Vector Space)]], [[Product Space (Topology)]]
+Constructions: [[Projection Maps]], [[Tuples and Sequences]], [[n-ary Operation]], [[External Direct Product (Vector Space)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

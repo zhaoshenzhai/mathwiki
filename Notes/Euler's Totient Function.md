@@ -20,7 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_**Euler$\textrm{'}$s Totient Function** is the function $\phi:\N^+\to\N^+$ defined by $\phi\l(n\r)\coloneqq\ord{\l(\Z/n\Z\r)^\times}$ for all $n\in\N^+$; that is_
+_**Euler$\textrm{'}$s Totient Function** is the function $\phi:\N^+\to\N^+$ defined by $\phi\l(n\r)\coloneqq\ord{\l(\Z_n\r)^\times}$ for all $n\in\N^+$; that is_
 $$\begin{equation}
     \phi\l(n\r)\coloneqq\l|\l\{m\in\l\{1,\dots,n\r\}\mid\gcd\l(m,n\r)=1\r\}\r|.
 \end{equation}$$

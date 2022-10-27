@@ -28,9 +28,9 @@ _Otherwise, if $\tpl{x_n}$ is eventually monotone but not bounded, then it conve
 ---
 
 _Proof_. Let $\epsilon>0$.
-* Set $\beta\coloneqq\sup\limits_{n\in\N}x_n$. Since $\beta$ is the _least_ upper bound of the sequence, there exists some $N\in\N$ such that $x_N>\beta-\epsilon$. But $\tpl{x_n}$ is eventually increasing, so $x_n\geq x_N$ for all $n\geq N$ and hence $x_n>\beta-\epsilon$ for all $n\geq N$. Then $-\epsilon<x_n-\beta$, and since $x_n-\beta<0<\epsilon$, we see that $\l|x_n-\beta\r|<\epsilon$. Thus $\lim\limits_{n\to\infty}x_n=\alpha$.
+* Set $\beta\coloneqq\sup\limits_{n\in\N}x_n$. Since $\beta$ is the _least_ upper bound of the sequence, there exists some $N\in\N$ such that $x_N>\beta-\epsilon$. But $\tpl{x_n}$ is eventually increasing, so $x_n\geq x_N$ for all $n\geq N$ and hence $x_n>\beta-\epsilon$ for all $n\geq N$. Then $-\epsilon<x_n-\beta$, and since $x_n-\beta<0<\epsilon$, we see that $\l|x_n-\beta\r|<\epsilon$. Thus $\lim\limits_{n\to\infty}x_n=\beta$.
 
-* Set $\alpha\coloneqq\inf\limits_{n\in\N}x_n$. Since $\alpha$ is the _greatest_ lower bound of the sequence, there exists some $N\in\N$ such that $x_N<\alpha+\epsilon$. But $\tpl{x_n}$ is eventually decreasing, so $x_n\leq x_N$ for all $n\geq N$ and hence $x_n<\alpha+\epsilon$ for all $n\geq N$. Then $x_n-\alpha<\epsilon$, and since $-\epsilon<0<x_n-\alpha$, we see that $\l|x_n-\alpha\r|<\epsilon$. Thus $\lim\limits_{n\to\infty}x_n=\beta$.
+* Set $\alpha\coloneqq\inf\limits_{n\in\N}x_n$. Since $\alpha$ is the _greatest_ lower bound of the sequence, there exists some $N\in\N$ such that $x_N<\alpha+\epsilon$. But $\tpl{x_n}$ is eventually decreasing, so $x_n\leq x_N$ for all $n\geq N$ and hence $x_n<\alpha+\epsilon$ for all $n\geq N$. Then $x_n-\alpha<\epsilon$, and since $-\epsilon<0<x_n-\alpha$, we see that $\l|x_n-\alpha\r|<\epsilon$. Thus $\lim\limits_{n\to\infty}x_n=\alpha$.
 
 Assume now that $\tpl{x_n}$ is eventually monotone but not bounded.
 * If $\tpl{x_n}$ is eventually increasing and unbounded above, then $\fa B\in\R,\ex N\in\N:x_N>B$ and $\fa n\geq N:x_n\geq x_N$. Thus we see that

@@ -21,7 +21,7 @@ _Let $a,b\in\Z\comp\l\{0\r\}$. Then there exist $m_1,m_2\in\Z$ such that_
 $$\begin{equation}
     \gcd\l(a,b\r)=m_1a+m_2b.
 \end{equation}$$
-_Furthermore, if there exist $m_1,m_2\in\Z$ such that $am_1+bm_2=1$, then $a$ and $b$ are relatively prime._
+_Furthermore, if there exist $m_1,m_2\in\Z$ such that $am_1+bm_2=1$, then $a$ and $b$ are coprime._
 
 ```
 
@@ -47,7 +47,7 @@ $$\begin{equation}
 \end{equation}$$
 so $d'\divides d$.
 
-For the last claim, it suffices to show that the only common divisors of $a$ and $b$ are $\pm1$, for then $\gcd\l(a,b\r)=1$ and hence $a$ and $b$ are relatively prime. Let $d\in\Z$ be a common divisor of $a$ and $b$, so there exist integers $k,l\in\Z$ such that $dk=a$ and $dl=b$. But then
+For the last claim, it suffices to show that the only common divisors of $a$ and $b$ are $\pm1$, for then $\gcd\l(a,b\r)=1$ and hence $a$ and $b$ are coprime. Let $d\in\Z$ be a common divisor of $a$ and $b$, so there exist integers $k,l\in\Z$ such that $dk=a$ and $dl=b$. But then
 $$\begin{equation}
     \l(dk\r)m_1+\l(dl\r)m_2=1,
 \end{equation}$$

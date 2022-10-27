@@ -4,7 +4,7 @@ Date Created: 12/03/2022 11:37:51
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [[Cartesian Product]], [[Direct Product (Vector Space)]]
+Examples: [[Cartesian Product]], [[External Direct Product (Vector Space)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

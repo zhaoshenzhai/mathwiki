@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: _Not Applicable_
+Constructions: [[External Direct Product (Group)]], [[Product Space (Topology)]]
 Generalizations: [[Cartesian Product]]
 
 Properties: [[Cartesian product is monotone w.r.t. subsets]], [[Cartesian product of intersections]], [[Cartesian product respects equinumerosity]]

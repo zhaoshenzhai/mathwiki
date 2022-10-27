@@ -17,11 +17,11 @@ Counterexamples: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Euler$\textrm{'}$s Theorem).
 
-_Let $n\in\N^+$ and let $\l[a\r]\in\l(\Z/n\Z\r)^\times$. Then $a^{\phi\l(n\r)}\mod{n}1$._
+_Let $n\in\N^+$ and let $\l[a\r]\in\l(\Z_n\r)^\times$. Then $a^{\phi\l(n\r)}\mod{n}1$._
 
 ```
 
-_Proof_. By Lagrange$\textrm{'}$s Theorem, we see that $\ord{\l[a\r]}$ divides $\ord{\l(\Z/n\Z\r)^\times}=\phi\l(n\r)$. Hence $\l[a\r]^{\phi\l(n\r)}=\l[1\r]$, and since
+_Proof_. By Lagrange$\textrm{'}$s Theorem, we see that $\ord{\l[a\r]}$ divides $\ord{\l(\Z_n\r)^\times}=\phi\l(n\r)$. Hence $\l[a\r]^{\phi\l(n\r)}=\l[1\r]$, and since
 $$\begin{equation}
     \l[a^{\phi\l(n\r)}\r]=\l[a\r]^{\phi\l(n\r)}=\l[1\r],
 \end{equation}$$

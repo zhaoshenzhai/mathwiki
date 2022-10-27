@@ -4,7 +4,7 @@ Date Created: 26/01/2022 17:41:00
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [[Image; Column Space]]
+Examples: [[Image; Column Space]], [[Image (Group Theory)]]
 Constructions: [[Direct Image Function]]
 Generalizations: [[Image (Relation)]]
 

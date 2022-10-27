@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Limit of power; base between 0 and 1]], [[Geometric series converges (criteria)]]
+Properties: [[Limit of geometric]], [[Geometric series converges (criteria)]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

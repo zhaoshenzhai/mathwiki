@@ -8,7 +8,7 @@ Examples: [[Order of additive group of integers mod n is n]], [[Euler's Totient 
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Order divides power iff power gives identity]], [[Order of group element is order of generated cyclic group]], [[Order of power of element]]
+Properties: [[Order divides power iff power gives identity]], [[Order of group element is order of generated cyclic group]], [[Order of power of element]], [[Order of element in product]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Omega is an ordinal]]

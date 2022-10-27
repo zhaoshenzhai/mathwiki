@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Lagrange's Theorem]]
+Properties: [[Lagrange's Theorem]], [[Index two implies normal]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Number of left-cosets equals number of right-cosets]]

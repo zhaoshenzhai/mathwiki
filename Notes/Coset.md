@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Index]]
+Constructions: [[Index]], [[Quotient Group]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of cosets]], [[Set of cosets partition the group]], [[Number of left-cosets equals number of right-cosets]], [[Cosets have the same cardinality]]

@@ -8,7 +8,7 @@ Date Created: 29/08/2022 16:59:28
 Tags: #Definition #Courses/MATH254 #Later/Topology
 
 Types: _Not Applicable_
-Examples: [[Limit of 1 over linear]], [[Limit of power; base between 0 and 1]], [[Limit of nth root of real]], [[Limit of nth root of n]]
+Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth root of real]], [[Limit of nth root of n]]
 Constructions: [[Convergent and Divergent Series]]
 Generalizations: _Not Applicable_
 

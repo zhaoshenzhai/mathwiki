@@ -20,7 +20,7 @@ title: Proposition.
 _Let_ $\l\{\mc{G}_i\r\}_{i\in I}\coloneqq\l\{\tpl{G_i,\ast_i,e_i}\r\}_{i\in I}$ _be an indexed family of groups. Then the group_ $\mc{G}\coloneqq\tpl{\prod_{i\in I}G_i,\blob,u}$_, consisting of_
 * _the Cartesian product_ $\prod_{i\in I}G_i$_,_
 * _the binary operation $\blob$ on_ $\prod_{i\in I}G_i$ _defined, for all_ $f,g\in\prod_{i\in I}G_i$_, by $\l(f\blob g\r)\l(i\r)\coloneqq f\l(i\r)\ast_ig\l(i\r)$ for all $i\in I$, and_
-* _the unit function_ $u\in\prod_{i\in I}G_i$ _defined by $u\l(i\r)\coloneqq e_i$ for all $i\in I$,_
+* _the identity element_ $u\in\prod_{i\in I}G_i$ _defined by $u\l(i\r)\coloneqq e_i$ for all $i\in I$,_
 
 _is a group. Furthermore, if each $\mc{G}_i$ is Abelian, then $\mc{G}$ is Abelian too._
 
@@ -43,7 +43,7 @@ $$\begin{equation}
 \end{equation}$$
 for all $i\in I$, so $\l(f\blob g\r)\blob h=f\blob\l(g\blob h\r)$.
 
-* (Unit): Take $f\in\prod_{i\in I}G_i$ and observe that
+* (Identity): Take $f\in\prod_{i\in I}G_i$ and observe that
 $$\begin{equation}
     \begin{aligned}
         \l(f\blob u\r)\l(i\r)&=f\l(i\r)\ast_iu\l(i\r) \\
@@ -53,7 +53,7 @@ $$\begin{equation}
     \begin{aligned}
         \l(u\blob f\r)\l(i\r)&=u\l(i\r)\ast_if\l(i\r) && \textrm{Definition of $\blob$}\\
         &=e_i\ast_if\l(i\r) && \textrm{Definition of $u$} \\
-        &=f\l(i\r) && \textrm{$e_i$ is the unit of $G_i$}
+        &=f\l(i\r) && \textrm{$e_i$ is the identity of $G_i$}
     \end{aligned}
 \end{equation}$$
 for all $i\in I$, so $f\blob u=f=u\blob f$.

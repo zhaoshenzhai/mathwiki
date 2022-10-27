@@ -4,7 +4,7 @@ Date Created: 20/10/2022 18:34:42
 Tags: #Definition #Courses/MATH254
 
 Types: _Not Applicable_
-Examples: [[Limit of 1 over linear]], [[Limit of power; base between 0 and 1]], [[Limit of nth root of real]], [[Limit of nth root of n]]
+Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth root of real]], [[Limit of nth root of n]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

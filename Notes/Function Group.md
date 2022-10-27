@@ -19,7 +19,7 @@ title: Definition.
 _Let $X$ be a non-empty set and let $\tpl{G,\ast,e}$ be a group. The **function group from $X$ into $G$** is the group $\tpl{G^X,\blob,u}$ consisting of_
 * _the function space $G^X$,_
 * _the binary operation $\blob$ on $G^X$ defined, for all $f,g\in G^X$, by $\l(f\blob g\r)\l(x\r)\coloneqq f\l(x\r)\ast g\l(x\r)$ for all $x\in X$, and_
-* _the unit function $u\in G^X$ defined by $u\l(x\r)\coloneqq e$ for all $x\in X$._
+* _the identity element $u\in G^X$ defined by $u\l(x\r)\coloneqq e$ for all $x\in X$._
 
 ```
 
