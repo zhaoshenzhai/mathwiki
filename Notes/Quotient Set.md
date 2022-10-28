@@ -4,7 +4,7 @@ Date Created: 29/01/2022 11:58:15
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [[Additive Group of Integers mod n]]
+Examples: _Not Applicable_
 Constructions: [[Canonical Projection]], [[Quotient Group]]
 Generalizations: _Not Applicable_
 
