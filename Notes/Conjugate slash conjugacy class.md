@@ -9,7 +9,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: [[All k-cycles are conjugate]]
-Constructions: _Not Applicable_
+Constructions: [[Normal iff stable under conjuation]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

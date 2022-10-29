@@ -8,9 +8,9 @@ Examples: _Not Applicable_
 Constructions: [[Quotient Group]]
 Generalizations: _Not Applicable_
 
-Properties: [[Basic properties of normal subgroups]]
+Properties: _Not Applicable_
 Sufficiencies: [[Index two implies normal]], [[Preimage of homomomorphism is a (normal) subroup of its domain]]
-Equivalences: _Not Applicable_
+Equivalences: [[Normal iff stable under conjuation]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

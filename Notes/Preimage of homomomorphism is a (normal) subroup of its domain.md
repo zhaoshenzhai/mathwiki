@@ -3,7 +3,7 @@
 Date Created: 28/10/2022 15:06:25
 Tags: #Proposition #Courses/MATH235
 
-Proved by: [[Subgroup Test]], [[Basic properties of group homomorphisms]], [[Basic properties of normal subgroups]]
+Proved by: [[Subgroup Test]], [[Basic properties of group homomorphisms]], [[Normal iff stable under conjuation]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
