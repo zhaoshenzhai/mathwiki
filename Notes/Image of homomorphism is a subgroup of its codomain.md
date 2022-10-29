@@ -19,11 +19,11 @@ _Let $\tpl{G_1,e_1}$ and $\tpl{G_2,e_2}$ be groups and consider a homomorphism $
 
 _Proof_. We use the Subgroup Test.
 * (Identity): Since $e_1\in H_1$, we have that $e_2=\phi\l(e_1\r)\in\im_\phi\!\l(H_1\r)$.
-* (Closed under operation): Take $g_2,g_2'\in\im_\phi!\l(H_1\r)$, so $g_2=\phi\l(g_1\r)$ and $g_2'=\phi\l(g_1'\r)$ for some $g_1,g_1'\in H_1$. Hence $g_1g_1'\in H_1$, so
+* (Closed under operation): Take $g_2,g_2'\in\im_\phi\!\l(H_1\r)$, so $g_2=\phi\l(g_1\r)$ and $g_2'=\phi\l(g_1'\r)$ for some $g_1,g_1'\in H_1$. Hence $g_1g_1'\in H_1$, so
 $$\begin{equation}
-    g_1g_2'=\phi\l(g_1\r)\phi\l(g_1'\r)=\phi\l(g_1g_1'\r)\in\im_\phi!\l(H_1\r).
+    g_1g_2'=\phi\l(g_1\r)\phi\l(g_1'\r)=\phi\l(g_1g_1'\r)\in\im_\phi\!\l(H_1\r).
 \end{equation}$$
-* (Closed under inversion): Take $g_2\in\im_\phi!\l(H_1\r)$, so $g_2=\phi\l(g_1\r)$ for some $g_1\in H_1$. Hence $g_1^{-1}\in H_1$, so
+* (Closed under inversion): Take $g_2\in\im_\phi\!\l(H_1\r)$, so $g_2=\phi\l(g_1\r)$ for some $g_1\in H_1$. Hence $g_1^{-1}\in H_1$, so
 $$\begin{equation}
-    g_2^{-1}=\l[\phi\l(g_1\r)\r]^{-1}=\phi\l(g_1^{-1}\r)\in\im_\phi!\l(H_1\r).\qedin
+    g_2^{-1}=\l[\phi\l(g_1\r)\r]^{-1}=\phi\l(g_1^{-1}\r)\in\im_\phi\!\l(H_1\r).\qedin
 \end{equation}$$

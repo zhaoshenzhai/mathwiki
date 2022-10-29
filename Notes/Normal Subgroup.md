@@ -9,7 +9,7 @@ Constructions: [[Quotient Group]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of normal subgroups]]
-Sufficiencies: [[Index two implies normal]]
+Sufficiencies: [[Index two implies normal]], [[Preimage of homomomorphism is a (normal) subroup of its domain]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
