@@ -8,7 +8,7 @@ Date Created: 20/10/2022 17:10:25
 Tags: #Definition #Courses/MATH254 #Later/Topology
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Limit of geometric]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

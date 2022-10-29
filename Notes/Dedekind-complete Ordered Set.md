@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Set of Real Numbers]]
 Generalizations: _Not Applicable_
 
-Properties: [[Dedekind-complete bounded convex sets are intervals]], [[Nested Interval Theorem]]
+Properties: [[Dedekind-complete bounded convex sets are intervals]], [[Nested Interval Theorem]], [[Monotone Convergence Theorem]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[LUB property iff GLB property]]
