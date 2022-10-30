@@ -5,11 +5,11 @@ Tags: #Definition #Courses/MATH254
 
 Types: _Not Applicable_
 Examples: [[Monotone Subsequence Theorem]]
-Constructions: _Not Applicable_
+Constructions: [[Subsequential Limit]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Sequence converges implies all subsequences converge]]
+Sufficiencies: [[Subsequences converge to the same limit]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

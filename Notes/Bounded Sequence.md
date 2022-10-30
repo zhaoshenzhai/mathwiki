@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH254
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Limit Superior slash Inferior]]
 Generalizations: _Not Applicable_
 
 Properties: [[Monotone Convergence Theorem]], [[Bolzano-Weierstrass Theorem]]

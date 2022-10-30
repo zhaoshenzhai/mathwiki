@@ -8,7 +8,7 @@ Date Created: 24/01/2022 15:53:19
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Examples: [[Limit Superior slash Inferior]]
 Constructions: [[Meet and Join-semilattices]], [[Dedekind-complete Ordered Set]]
 Generalizations: _Not Applicable_
 

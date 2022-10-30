@@ -9,7 +9,7 @@ Tags: #Definition #Courses/MATH254
 
 Types: [[Geometric Sequence]], [[Alternating Sequence]]
 Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth root of real]], [[Limit of nth root of n]]
-Constructions: [[Euler's Number]], [[Convergent and Divergent Series]]
+Constructions: [[Euler's Number]], [[Limit Superior slash Inferior]], [[Convergent and Divergent Series]]
 Generalizations: _Not Applicable_
 
 Properties: [[Bolzano-Weierstrass Theorem]], [[Basic properties of limits in R]]

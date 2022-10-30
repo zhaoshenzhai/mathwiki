@@ -1,7 +1,3 @@
----
-mathLink: $x_n\to x$ $\Rightarrow$ $x_{n_k}\to x$ for all $\tpl{n_k}$
----
-
 <div class="topSpace"></div>
 
 Date Created: 23/10/2022 16:18:55
