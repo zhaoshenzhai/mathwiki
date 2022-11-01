@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH254
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Limit Superior slash Inferior]]
+Constructions: [[Limit Superior slash Inferior]], [[Convergence Criteria in R]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

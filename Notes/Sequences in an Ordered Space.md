@@ -9,7 +9,7 @@ Constructions: [[Convergent to Infinity]]
 Generalizations: _Not Applicable_
 
 Properties: [[Monotone Subsequence Theorem]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Monotone Convergence Theorem]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

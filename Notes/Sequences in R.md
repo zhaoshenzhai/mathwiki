@@ -12,9 +12,9 @@ Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth roo
 Constructions: [[Euler's Number]], [[Limit Superior slash Inferior]], [[Convergent and Divergent Series]]
 Generalizations: _Not Applicable_
 
-Properties: [[Bolzano-Weierstrass Theorem]], [[Basic properties of limits in R]]
-Sufficiencies: [[Squeeze Theorem]], [[Ratio Test (Sequence)]]
-Equivalences: [[Divergence Test in R]]
+Properties: [[Basic properties of limits in R]]
+Sufficiencies: [[Bolzano-Weierstrass Theorem]], [[Squeeze Theorem]], [[Ratio Test (Sequence)]]
+Equivalences: [[Convergence Criteria in R]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

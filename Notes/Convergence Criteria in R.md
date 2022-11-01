@@ -15,11 +15,18 @@ Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
-title: Theorem (Divergence Test).
+title: Theorem (Convergence Criteria in $\R$).
 
 _Let $\tpl{x_n}$ be a sequence in $\R$. Then $\tpl{x_n}$ diverges iff either it is unbounded or it admits two subsequential limits._
 
 ```
+
+**Remark.** In other words, a sequence $\tpl{x_n}$ converges iff it is bounded and admits only one subsequential limit. In terms of limit superior and inferior, a bounded sequence $\tpl{x_n}$ converges iff
+$$\begin{equation}
+    \liminf\limits_{n\to\infty}x_n=\limsup\limits_{n\to\infty}x_n.\exqedin
+\end{equation}$$
+
+---
 
 _Proof_. The backwards direction follows from its contrapositive, stating that if $\tpl{x_n}$ converges, then all subsequences thereof converge to the same limit. Suppose now that $\tpl{x_n}$ diverges. If it is unbounded, we are done. Otherwise, Bolzano-Weierstrass furnishes a convergent subsequence $\tpl{x_{n_k}}$ of $\tpl{x_n}$ with some limit $l\in\R$. Since $\tpl{x_n}$ diverges, we have that
 $$\begin{equation}

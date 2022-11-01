@@ -9,7 +9,7 @@ Tags: #Definition #Courses/MATH254
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Convergence Criteria in R]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -26,3 +26,5 @@ $$\begin{equation}
 \end{equation}$$
 
 ```
+
+**Remark.** For an unbounded sequence $\tpl{x_n}$, we adopt the convention that $\sup S=+\infty$ if $S$ is unbounded above, and $\inf S=-\infty$ if $S$ is unbounded below.<span style="float:right;">$\blacklozenge$</span>

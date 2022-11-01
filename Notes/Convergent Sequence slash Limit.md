@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Convergent implies bounded]], [[Subsequences converge to the same limit]], [[Basic properties of limits in R]]
 Sufficiencies: [[Monotone Convergence Theorem]], [[Bolzano-Weierstrass Theorem]], [[Squeeze Theorem]], [[Squeezed Distance Lemma]], [[Ratio Test (Sequence)]]
-Equivalences: _Not Applicable_
+Equivalences: [[Convergence Criteria in R]]
 Justifications: [[Limit of a sequence is unique (Hausdorff)]]
 
 ``` ad-Definition
