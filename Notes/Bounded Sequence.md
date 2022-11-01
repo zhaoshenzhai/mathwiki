@@ -9,7 +9,7 @@ Constructions: [[Limit Superior slash Inferior]]
 Generalizations: _Not Applicable_
 
 Properties: [[Monotone Convergence Theorem]], [[Bolzano-Weierstrass Theorem]]
-Sufficiencies: [[Convergent implies bounded]]
+Sufficiencies: [[Convergent implies bounded]], [[Cauchy implies bounded]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

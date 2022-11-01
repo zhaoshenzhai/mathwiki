@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of limits in R]]
 Sufficiencies: [[Bolzano-Weierstrass Theorem]], [[Squeeze Theorem]], [[Ratio Test (Sequence)]]
-Equivalences: [[Convergence Criteria in R]]
+Equivalences: [[Convergence Criteria in R]], [[Metric-completeness of R]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

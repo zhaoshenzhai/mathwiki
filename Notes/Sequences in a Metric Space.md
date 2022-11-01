@@ -3,7 +3,7 @@
 Date Created: 23/10/2022 19:26:07
 Tags: #Definition #Courses/MATH254 #Later/Topology
 
-Types: [[Bounded Sequence]]
+Types: [[Bounded Sequence]], [[Cauchy Sequence]], [[Contractive Sequence]]
 Examples: [[Sequences in R]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_

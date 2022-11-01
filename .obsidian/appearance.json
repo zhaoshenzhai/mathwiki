@@ -6,7 +6,8 @@
     "imageMargins",
     "links",
     "lists",
-    "fonts"
+    "fonts",
+    "admonition"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": false,
