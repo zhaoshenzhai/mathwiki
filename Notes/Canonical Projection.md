@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Canonical projection is a surjection]]
+Properties: [[Canonical projection is a surjection]], [[Canonical projection is a homomorphism]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Canonical projection is a function]]

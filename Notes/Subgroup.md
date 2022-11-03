@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: [[Normal Subgroup]]
 Examples: [[Cyclic Subgroup]], [[Image (Group Theory)]]
-Constructions: [[Internal Direct Product (Group Theory)]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Subgroups of cyclic groups are cyclic]]

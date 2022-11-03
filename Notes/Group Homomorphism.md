@@ -4,7 +4,7 @@ Date Created: 17/10/2022 11:39:24
 Tags: #Definition #Courses/MATH235
 
 Types: [[Group Isomorphism]]
-Examples: _Not Applicable_
+Examples: [[Canonical Projection]]
 Constructions: [[Image (Group Theory)]], [[Kernel (Group Theory)]]
 Generalizations: _Not Applicable_
 

@@ -4,8 +4,8 @@ Date Created: 26/10/2022 11:35:20
 Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: [[Quotient Group]]
+Examples: [[Kernel (Group Theory)]]
+Constructions: [[Quotient Group]], [[Internal Direct Product (Group Theory)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
