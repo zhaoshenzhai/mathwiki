@@ -9,7 +9,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Group]], [[Vector Space]]
+Constructions: [[Group]], [[Ring]], [[Vector Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

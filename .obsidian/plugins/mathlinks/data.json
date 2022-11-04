@@ -177,14 +177,6 @@
       "word": true
     },
     {
-      "title": "Additive group of integers mod n",
-      "replaced": "Additive group of integers mod n",
-      "replacement": "$\\Z_n$",
-      "globalMatch": true,
-      "sensitive": false,
-      "word": true
-    },
-    {
       "title": "Infinity",
       "replaced": "Infinity",
       "replacement": "$\\infty$",

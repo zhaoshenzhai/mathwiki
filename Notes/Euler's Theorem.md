@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Euler$\textrm{'}$s Theorem).
 
-_Let $n\in\N^+$ and let $\l[a\r]\in\l(\Z_n\r)^\times$. Then $a^{\phi\l(n\r)}\mod{n}1$._
+_Let $n\in\N^+$ and let $\l[a\r]\in\Z_n^\times$. Then $a^{\phi\l(n\r)}\mod{n}1$._
 
 ```
 

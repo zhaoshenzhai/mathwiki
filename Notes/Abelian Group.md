@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: [[Trivial Group]], [[Additive Group of Integers mod n]]
-Constructions: [[Vector Space]]
+Constructions: [[Ring]], [[Vector Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -16,7 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A group $\tpl{G,\ast}$ is said to be **Abelian** if the binary operation $\ast$ commutes; that is, if_
-* _(Commutativity)$\bf{.}$ $\fa g,h\in G:g\ast h=h\ast g$._
+_A group $\tpl{G,\ast}$ is said to be **Abelian** if the binary operation $\ast$ commutes._
 
 ```

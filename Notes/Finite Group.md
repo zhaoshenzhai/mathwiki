@@ -4,7 +4,7 @@ Date Created: 19/09/2022 11:53:54
 Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
-Examples: [[Trivial Group]], [[Additive Group of Integers mod n]]
+Examples: [[Trivial Group]], [[Additive Group of Integers mod n]], [[Multiplicative Group of Integers mod n]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
