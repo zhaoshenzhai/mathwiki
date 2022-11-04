@@ -22,6 +22,14 @@ _Conversely, consider a collection $\mc{F}\subseteq\pow\l(X\r)$ and define $\mc{
 
 ```
 
+**Remark.** This allows us to instead define a topology on $X$ as a collection of subsets $\mc{F}\subseteq\pow\l(X\r)$ satisfying $\axitopcl[1]$ to $\axitopcl[3]$; its elements are called closed sets. The original definition can then be recovered by defining
+$$\begin{equation}
+    \mc{T}\coloneqq\l\{U\in\pow\l(X\r)\mid X\comp U\in\mc{F}\r\},
+\end{equation}$$
+that is, by defining open sets as relative complements of closed sets.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 _Proof_. Take any $\mc{C}\subseteq\mc{F}$ and $\mc{U}\subseteq\mc{T}$. We need the following two lemmas:
 $$\begin{equation}
     \begin{alignedat}{2}
@@ -57,11 +65,3 @@ $$\begin{equation}
     * ($\axitop[3]$): Take a non-empty finite collection $\mc{U}\subseteq\mc{T}$. Using De Morgan's Laws and $\axitopcl[3]$, we see that$$\begin{equation}
             X\comp\bigcap\mc{U}=\bigcup\underbrace{\l\{X\comp U\mid U\in\mc{U}\r\}}_{\mathclap{\subseteq\mc{F}\textrm{ from (2)}}}\in\mc{F}\ \ \ \ \Rightarrow\ \ \ \ \bigcap\mc{U}\in\mc{T}.\qedin
         \end{equation}$$
-
----
-
-**Remark.** This allows us to instead define a topology on $X$ as a collection of subsets $\mc{F}\subseteq\pow\l(X\r)$ satisfying $\axitopcl[1]$ to $\axitopcl[3]$; its elements are called closed sets. The original definition can then be recovered by defining
-$$\begin{equation}
-    \mc{T}\coloneqq\l\{U\in\pow\l(X\r)\mid X\comp U\in\mc{F}\r\},
-\end{equation}$$
-that is, by defining open sets as relative complements of closed sets.<span style="float:right;">$\blacklozenge$</span>
