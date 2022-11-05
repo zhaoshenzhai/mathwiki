@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Closure]]
 Equivalences: [[Set of closed sets equivalent to topology on a set]]
 Justifications: _Not Applicable_
 

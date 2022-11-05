@@ -5,7 +5,7 @@ Tags: #Definition #Later/Topology
 
 Types: _Not Applicable_
 Examples: [[Epsilon-ball]], [[Neighborhood of Infinity]]
-Constructions: [[Convergent Sequence slash Limit]]
+Constructions: [[Convergent Sequence slash Limit]], [[Closure]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
