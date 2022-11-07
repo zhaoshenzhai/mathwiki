@@ -2,6 +2,7 @@
     % Set Theory
         \newcommand{\fa}{\forall}
         \newcommand{\ex}{\exists}
+        \newcommand{\tpl}[1]{\l(#1\r)}
         \newcommand{\pow}{\mathcal{P}}
         \newcommand{\id}{\operatorname{id}}
         \newcommand{\iv}{\operatorname{iv}}
@@ -21,6 +22,7 @@
         \newcommand{\simto}{\rightleftarrows}
         \newcommand{\eqnum}{\approx}
         \renewcommand{\em}{\varnothing}
+        \renewcommand{\mid}{\,\middle\vert\,}
         \renewcommand{\min}{\operatorname{min}}
         \renewcommand{\max}{\operatorname{max}}
 
@@ -40,16 +42,12 @@
     % Geometry
         % Analysis
             \newcommand{\diam}{\operatorname{diam}}
-            \newcommand{\uniflim}{\operatorname{unif\,lim}}
             \newcommand{\del}{\partial}
             \renewcommand{\d}{\mathrm{d}}
             \renewcommand{\Re}{\operatorname{Re}}
             \renewcommand{\Im}{\operatorname{Im}}
 
         % Topology
-            \newcommand{\interior}{\operatorname{int}}
-            \newcommand{\clo}{\operatorname{clo}}
-            \newcommand{\bnd}{\operatorname{bnd}}
             \newcommand{\sttopR}[1][]{\mc{T}^\textrm{st}_{\R^{#1}}}
             \newcommand{\ULtopR}{\mc{T}^\textrm{UL}_\R}
             \newcommand{\LLtopR}{\mc{T}^\textrm{LL}_\R}
@@ -57,30 +55,31 @@
 
     % Algebra
         % Linear Algebra
-            \newcommand{\rank}{\operatorname{rank}}
-            \newcommand{\nullity}{\operatorname{nullity}}
-            \newcommand{\bilform}[2]{\l\langle{#1},{#2}\r\rangle}
-            \newcommand{\proj}{\operatorname{proj}}
-            \newcommand{\gl}{\operatorname{GL}}
-            \newcommand{\mat}[2]{\mathcal{M}_{#1}\!\l(#2\r)}
-            \newcommand{\sym}[2]{\operatorname{Sym}_{#1}\!\l(#2\r)}
-            \newcommand{\Diag}[2]{\operatorname{Diag}_{#1}\!\l(#2\r)}
-            \newcommand{\diag}{\operatorname{diag}}
-            \newcommand{\trans}{\mathsf{T}}
-            \newcommand{\rref}{\operatorname{rref}}
-            \newcommand{\row}{\operatorname{row}}
-            \newcommand{\col}{\operatorname{col}}
-            \newcommand{\dotpro}{\boldsymbol\cdot}
-            \newcommand{\cropro}{\boldsymbol\times}
-            \newcommand{\reflection}{\operatorname{reflection}}
-            \newcommand{\rotation}{\operatorname{rotation}}
-            \newcommand{\nullsp}{\operatorname{null}}
-            \renewcommand{\skew}[2]{\operatorname{Skew}_{#1}\!\l(#2\r)}
-            \renewcommand{\span}{\operatorname{span}}
-            \renewcommand{\v}[1]{\mathbf{#1}}
+            % Core
+                \newcommand{\rank}{\operatorname{rank}}
+                \newcommand{\nullity}{\operatorname{nullity}}
+                \newcommand{\bilform}[2]{\l\langle{#1},{#2}\r\rangle}
+                \newcommand{\proj}{\operatorname{proj}}
+                \renewcommand{\span}{\operatorname{span}}
+            % Classes of Matrices
+                \newcommand{\mat}[2]{\mathcal{M}_{#1}\!\l(#2\r)}
+                \newcommand{\GL}{\operatorname{GL}}
+                \renewcommand{\SL}{\operatorname{SL}}
+                \newcommand{\Diag}{\operatorname{Diag}}
+                \renewcommand{\Skew}{\operatorname{Skew}}
+            % Matrix
+                \newcommand{\diag}{\operatorname{diag}}
+                \newcommand{\trans}{\mathsf{T}}
+                \newcommand{\rref}{\operatorname{rref}}
+                \newcommand{\row}{\operatorname{row}}
+                \newcommand{\col}{\operatorname{col}}
+                \newcommand{\nullsp}{\operatorname{null}}
+            % Vector
+                \newcommand{\dotpro}{\boldsymbol\cdot}
+                \newcommand{\cropro}{\boldsymbol\times}
+                \renewcommand{\v}[1]{\mathbf{#1}}
 
         % Group Theory
-            \newcommand{\inn}{\operatorname{Inn}}
             \newcommand{\ord}[1]{\l|#1\r|}
             \newcommand{\Sym}{\operatorname{Sym}}
             \newcommand{\nsubgrpeq}{\trianglelefteq}
@@ -124,23 +123,21 @@
         \newcommand{\axipartition}[1][]{{\rm\bf{P}{\scriptsize\bf{AR}}}_{\bf{#1}}}
 
 % LaTeX/MathJax
-    \newcommand{\mc}[1]{\mathcal{#1}}
-    \newcommand{\ms}[1]{\mathscr{#1}}
-    \newcommand{\mb}[1]{\mathbb{#1}}
-    \newcommand{\ul}[1]{\underline{\smash{#1}}}
-    \newcommand{\tpl}[1]{\l(#1\r)}
-    \newcommand{\blob}{\bullet}
-    \newcommand{\slot}{-}
-    \newcommand{\qedin}{\tag*{$\blacksquare$}}
-    \newcommand{\exqedin}{\tag*{$\blacklozenge$}}
-    \newcommand{\necceqq}{\overset{!}{=}}
-    \newcommand{\cref}[1]{\tag{$\,#1\,$}}
-    \renewcommand{\ref}[1]{\l(\,#1\,\r)}
-    \renewcommand{\l}{\left}
-    \renewcommand{\r}{\right}
-    \renewcommand{\it}[1]{\textit{#1}}
-    \renewcommand{\bf}[1]{\textbf{#1}}
-    \renewcommand{\mid}{\,\middle\vert\,}
-    \renewcommand{\bar}{\overline}
-    \renewcommand{\phi}{\varphi}
-    \renewcommand{\epsilon}{\varepsilon}
+    % Fonts
+        \newcommand{\mc}[1]{\mathcal{#1}}
+        \newcommand{\ms}[1]{\mathscr{#1}}
+        \newcommand{\mb}[1]{\mathbb{#1}}
+        \renewcommand{\it}[1]{\textit{#1}}
+        \renewcommand{\bf}[1]{\textbf{#1}}
+        \renewcommand{\phi}{\varphi}
+        \renewcommand{\epsilon}{\varepsilon}
+    % Meta
+        \newcommand{\qedin}{\tag*{$\blacksquare$}}
+        \newcommand{\exqedin}{\tag*{$\blacklozenge$}}
+        \newcommand{\blob}{\bullet}
+        \newcommand{\slot}{-}
+        \newcommand{\cref}[1]{\tag{$\,#1\,$}}
+        \renewcommand{\ref}[1]{\l(\,#1\,\r)}
+        \renewcommand{\bar}{\overline}
+        \renewcommand{\l}{\left}
+        \renewcommand{\r}{\right}

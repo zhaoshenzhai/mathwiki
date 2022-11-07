@@ -1,5 +1,5 @@
 ---
-mathLink: $\sym{n}{K}$
+mathLink: $\Sym_n\!\l(K\r)$
 ---
 
 <div class="topSpace"></div>
@@ -22,7 +22,7 @@ title: Definition.
 
 _Let $K$ be a field and fix $n\in\N^+$. The **vector space of $n\times n$ symmetric matrices over $K$** is the linear subspace_
 $$\begin{equation}
-    \sym{n}{K}\coloneqq\l\{A\in\mat{n}{K}\mid A=A^\trans\r\}
+    \Sym_n\!\l(K\r)\coloneqq\l\{A\in\mat{n}{K}\mid A=A^\trans\r\}
 \end{equation}$$
 _of $\mat{n}{K}$._
 

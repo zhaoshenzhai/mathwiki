@@ -1,5 +1,5 @@
 ---
-mathLink: $\mat{n}{K}=\sym{n}{K}\oplus\skew{n}{K}$ for $\charfld K\neq2$
+mathLink: $\mat{n}{K}=\Sym_n\!\l(K\r)\oplus\Skew_n\!\l(K\r)$ for $\charfld K\neq2$
 ---
 
 <div class="topSpace"></div>
@@ -19,17 +19,17 @@ title: Proposition.
 
 _Let $K$ be a field with $\charfld K\neq2$ and fix $n\in\N^+$. Then_
 $$\begin{equation}
-    \mat{n}{K}=\sym{n}{K}\oplus\skew{n}{K}.
+    \mat{n}{K}=\Sym_n\!\l(K\r)\oplus\Skew_n\!\l(K\r).
 \end{equation}$$
 
 ```
 
-_Proof_. It suffices to show that $\mat{n}{K}=\sym{n}{K}+\skew{n}{K}$ and $\sym{n}{K}\cap\skew{n}{K}=\l\{0_n\r\}$.
-* ($\mat{n}{K}=\sym{n}{K}+\skew{n}{K}$): Take $A\in\mat{n}{K}$ and observe that
+_Proof_. It suffices to show that $\mat{n}{K}=\Sym_n\!\l(K\r)+\Skew_n\!\l(K\r)$ and $\Sym_n\!\l(K\r)\cap\Skew_n\!\l(K\r)=\l\{0_n\r\}$.
+* ($\mat{n}{K}=\Sym_n\!\l(K\r)+\Skew_n\!\l(K\r)$): Take $A\in\mat{n}{K}$ and observe that
 $$\begin{equation}
     A=\frac{A+A^\trans}{2}+\frac{A-A^\trans}{2},
 \end{equation}$$
-so it suffices to show that $A+A^\trans\in\sym{n}{K}$ and $A-A^\trans\in\skew{n}{K}$. Indeed, observe that
+so it suffices to show that $A+A^\trans\in\Sym_n\!\l(K\r)$ and $A-A^\trans\in\Skew_n\!\l(K\r)$. Indeed, observe that
 $$\begin{equation}
     \begin{aligned}
         \l(A+A^\trans\r)^\trans&=A^\trans+\l(A^\trans\r)^\trans \\
@@ -43,7 +43,7 @@ $$\begin{equation}
     \end{aligned}
 \end{equation}$$
 
-* ($\sym{n}{K}\cap\skew{n}{K}=\l\{0_n\r\}$): Take $\l[t_{ij}\r]\in\sym{n}{K}\cap\skew{n}{K}$, so
+* ($\Sym_n\!\l(K\r)\cap\Skew_n\!\l(K\r)=\l\{0_n\r\}$): Take $\l[t_{ij}\r]\in\Sym_n\!\l(K\r)\cap\Skew_n\!\l(K\r)$, so
 $$\begin{equation}
     \l[t_{ij}\r]=\l[t_{ij}\r]^\trans=-\l[t_{ij}\r].
 \end{equation}$$

@@ -1,5 +1,5 @@
 ---
-mathLink: $\Diag{n}{K}$
+mathLink: $\Diag_n\!\l(K\r)$
 ---
 
 <div class="topSpace"></div>
@@ -22,10 +22,10 @@ title: Definition.
 
 _Let $K$ be a field and fix $n\in\N^+$. The **vector space of $n\times n$ diagonal matrices over $K$** is the linear subspace_
 $$\begin{equation}
-    \Diag{n}{K}\coloneqq\l\{D\in\mat{n}{K}\mid D\textrm{\it{ is a diagonal matrix}}\r\}
+    \Diag_n\!\l(K\r)\coloneqq\l\{D\in\mat{n}{K}\mid D\textrm{\it{ is a diagonal matrix}}\r\}
 \end{equation}$$
 _of $\mat{n}{K}$._
 
 ```
 
-**Remark.** Indeed, since all diagonal matrices are symmetric, $\Diag{n}{K}\subseteq\sym{n}{K}$ as a linear subspace too.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Indeed, since all diagonal matrices are symmetric, $\Diag_n\!\l(K\r)\subseteq\Sym_n\!\l(K\r)$ as a linear subspace too.<span style="float:right;">$\blacklozenge$</span>
