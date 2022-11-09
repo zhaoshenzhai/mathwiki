@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 19/02/2022 15:00:15
-Tags: #Definition
+Tags: #Definition #Courses/MATH254
 
 Types: _Not Applicable_
 Examples: [[Closed Interval]]
@@ -9,7 +9,7 @@ Constructions: [[Set of Closed Sets]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Closure]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
