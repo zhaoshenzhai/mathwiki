@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Convergent implies bounded]], [[Subsequences converge to the same limit]], [[Basic properties of limits in R]]
 Sufficiencies: [[Monotone Convergence Theorem]], [[Bolzano-Weierstrass Theorem]], [[Squeeze Theorem]], [[Squeezed Distance Lemma]], [[Ratio Test (Sequence)]]
-Equivalences: [[Convergence Criteria in R]]
+Equivalences: [[Convergence Criteria in R]], [[Metric-completeness of R]]
 Justifications: [[Limit of a sequence is unique (Hausdorff)]]
 
 ``` ad-Definition
@@ -28,7 +28,7 @@ _where $\mc{U}_x$ is the set of all neighborhoods of $x$. If $\tpl{X,\mc{T}}$ is
 
 ```
 
-**Remark.** Since convergence is a $\textrm{`}$tail property$\textrm{'}$ of the sequence, the sequence $\tpl{x_n}_{n\in\N}$ converges iff $\tpl{x_i}_{n\geq n_0}$ converges for any $n_0\in\N$. Similarly, if $\tpl{x_n'}_{n\in\N}$ is a sequence such that $\fa^\infty n\in\N:x_n'=x_n$, then $\tpl{x}_{n\in\N}$ converges iff $\tpl{x'}_{n\in\N}$ converges.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Since convergence is a $\textrm{`}$tail property$\textrm{'}$ of the sequence, the sequence $\tpl{x_n}_{n\in\N}$ converges iff $\tpl{x_n}_{n\geq n_0}$ converges for any $n_0\in\N$. Similarly, if $\tpl{x_n'}_{n\in\N}$ is a sequence such that $\fa^\infty n\in\N:x_n'=x_n$, then $\tpl{x_n}_{n\in\N}$ converges iff $\tpl{x'_n}_{n\in\N}$ converges.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
