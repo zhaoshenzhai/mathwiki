@@ -22,3 +22,8 @@ $$\begin{equation}
 \end{equation}$$
 
 ```
+
+**Remark.** Equivalently, a sequence $\tpl{x_n}$ is Cauchy if
+$$\begin{equation}
+    \lim\limits_{N\to\infty}\underbrace{\sup_{m,n\geq N}d\l(x_n,x_m\r)}_{\diam\l\{x_N,x_{N+1},\dots\r\}}=0.\exqedin
+\end{equation}$$
