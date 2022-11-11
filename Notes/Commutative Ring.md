@@ -3,7 +3,7 @@
 Date Created: 03/11/2022 19:05:54
 Tags: #Definition #Courses/MATH235
 
-Types: [[Integral Domain]], [[Division Ring]]
+Types: [[Integral Domain]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_

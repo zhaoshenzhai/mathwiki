@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{R,+,\cdot,0,1}$ be a ring. An element $r\in R$ is said to be a **left** (resp. **right**) **zero-divisor of $R$** if_
+_Let $\tpl{R,+,\cdot,0}$ be a ring. An element $r\in R$ is said to be a **left** (resp. **right**) **zero-divisor of $R$** if_
 $$\begin{equation}
     \ex s\in\R\comp\l\{0\r\}:r\cdot s=0\ \ \ \ \ \ \ \ \textrm{\it{(resp.} } \ex s\in\R\comp\l\{0\r\}:s\cdot r=0\textrm{\it{)}}.
 \end{equation}$$

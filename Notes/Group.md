@@ -4,7 +4,7 @@ Date Created: 04/05/2022 13:08:40
 Tags: #Definition #Courses/MATH235
 
 Types: [[Abelian Group]], [[Finite Group]]
-Examples: [[Symmetric Group]]
+Examples: [[Symmetric Group]], [[Unit slash Group of Units]]
 Constructions: [[Order (Group Theory)]], [[Group Homomorphism]], [[Subgroup]], [[Conjugate slash conjugacy class]], [[External Direct Product (Group)]]
 Generalizations: [[Groupoid]]
 

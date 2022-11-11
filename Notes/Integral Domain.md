@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A ring $\tpl{R,+,\cdot,0,1}$ is said to be an **integral domain** if_
+_A ring $\tpl{R,+,\cdot,0}$ is said to be an **integral domain** if it is commutative and_
 $$\begin{equation}
     \fa r,s\in R:\l[rs=0\Rightarrow\l(r=0\lor s=0\r)\r].
 \end{equation}$$

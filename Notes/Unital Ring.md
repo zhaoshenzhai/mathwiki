@@ -1,11 +1,11 @@
 <div class="topSpace"></div>
 
-Date Created: 03/11/2022 19:59:00
-Tags: #Definition #Courses/MATH235
+Date Created: 11/11/2022 08:58:31
+Tags: #Definition #In_Progress
 
-Types: _Not Applicable_
+Types: [[Division Ring]]
 Examples: _Not Applicable_
-Constructions: [[Group of Units]]
+Constructions: [[Unit slash Group of Units]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -16,9 +16,9 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{R,+,\cdot,0,1}$ be a ring. An element $u\in R$ is said to be a **unit in $R$** if_
+_A ring $\tpl{R,+,\cdot}$ is said to be a **unital ring** if it has a multiplicative identity; that is, if_
 $$\begin{equation}
-    \ex s\in R:r\cdot s=1=s\cdot r.
+    \ex1\in R,\fa r\in R:1\cdot r=r=r\cdot1.
 \end{equation}$$
 
 ```
