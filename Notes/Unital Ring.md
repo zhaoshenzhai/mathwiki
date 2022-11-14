@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 11/11/2022 08:58:31
-Tags: #Definition #In_Progress
+Tags: #Definition #Courses/MATH235
 
 Types: [[Division Ring]]
 Examples: _Not Applicable_
