@@ -9,7 +9,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Field of Integers mod p]]
+Constructions: [[Ring or Field of Integers mod n]]
 Generalizations: _Not Applicable_
 
 Properties: [[Order of additive group of integers mod n is n]]

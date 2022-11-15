@@ -9,8 +9,8 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Subgroups of cyclic groups are cyclic]]
-Sufficiencies: [[Subgroup Test]]
-Equivalences: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: [[Subgroup Test]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

@@ -3,12 +3,12 @@
 Date Created: 11/11/2022 08:58:31
 Tags: #Definition #Courses/MATH235
 
-Types: [[Division Ring]]
-Examples: _Not Applicable_
+Types: [[Integral Domain]], [[Division Ring]]
+Examples: [[Ring or Field of Integers mod n]]
 Constructions: [[Unit slash Group of Units]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Characteristic of unital ring is order of 1]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

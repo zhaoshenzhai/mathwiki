@@ -4,12 +4,12 @@ Date Created: 03/11/2022 19:11:26
 Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
-Examples: [[Field of Integers mod p]]
+Examples: [[Ring or Field of Integers mod n]]
 Constructions: [[Vector Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Finite integral domain implies field]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

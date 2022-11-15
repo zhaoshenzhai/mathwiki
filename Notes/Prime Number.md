@@ -5,11 +5,11 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Fundamental Theorem of Arithmetic]], [[Field of Integers mod p]]
+Constructions: [[Fundamental Theorem of Arithmetic]], [[Ring or Field of Integers mod n]]
 Generalizations: _Not Applicable_
 
 Properties: [[Euclid's Lemma]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Characteristic of integral domain is zero of prime]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
