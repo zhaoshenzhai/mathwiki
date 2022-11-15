@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Zero-divisor]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Basic properties of rings]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

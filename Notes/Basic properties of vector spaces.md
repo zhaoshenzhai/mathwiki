@@ -15,14 +15,12 @@ title: Proposition.
 
 _Let $\tpl{K,+,\cdot,0,1}$ be a field and consider any vector space $\tpl{V,K,\boxplus,\boxdot,0_V}$ over $K$. Then the following algebraic identities hold:_
 * _(Right-absorbing element of $\boxdot$): $\fa\alpha\in K:\alpha\boxdot0_V=0_V$._
-
 * _(Left-absorbing element of $\boxdot$): $\fa v\in V:0\boxdot v=0_V$._
 * _(Dichotomy of $0_V$ w.r.t. $\boxdot$): $\fa\alpha\in K,\fa v\in V:\alpha\boxdot v=0_V\Rightarrow\l(\alpha=0\lor v=0_V\r)$._
 * _(Compatibility of $K$-additive inverse and $\boxdot$): $\fa v\in V:\l(-1\r)\boxdot v=-v=1\boxdot\l(-v\r)$._
 
 _In addition, we have the following cancellation laws:_
 * _(Left-cancellation of scalars): $\fa\alpha\in K,\fa v,w\in V:\alpha\neq0\Rightarrow\l(\alpha\boxdot v=\alpha\boxdot w\Rightarrow v=w\r)$._
-
 * _(Right-cancellation of vectors): $\fa\alpha,\beta\in K,\fa v\in V:v\neq0_V\Rightarrow\l(\alpha\boxdot v=\beta\boxdot v\Rightarrow\alpha=\beta\r)$._
 
 ```
@@ -74,6 +72,7 @@ $$\begin{equation}
         &=-v. && \textrm{$0_V$ is the neutral element of $\boxplus$}
     \end{aligned}
 \end{equation}$$
+
 Now for the cancellation laws.
 * Take $v,w\in V$ and $\alpha\in K$ non-zero. Observe then that $\alpha\boxdot v=\alpha\boxdot w$ implies
 $$\begin{equation}
