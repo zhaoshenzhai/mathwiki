@@ -1,6 +1,6 @@
 <div class="topSpace"></div>
 
-Date Created: 15/11/2022 21:06:05
+Date Created: 16/11/2022 15:09:42
 Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
@@ -11,15 +11,14 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Basic properties of ring homomorphisms]]
+Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ and $S$ be rings and consider a homomorphism $\phi:R\to S$. The **kernel of $\phi$** is the ideal_
+_Let $I\subseteq R$ be an ideal of a ring $R$. Then $I$ is said to be a **maximal ideal in $R$** if_
 $$\begin{equation}
-    \ker\phi\coloneqq\preim_\phi\!\l\{0\r\}=\l\{r\in R\mid\phi\l(r\r)=0\r\}
+    \fa\textrm{ ideals }J\textrm{ in }R:\l(I\subseteq J\subseteq R\Rightarrow J=I\lor J=R\r).
 \end{equation}$$
-_of $R$._
 
 ```

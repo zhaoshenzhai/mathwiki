@@ -3,7 +3,7 @@
 Date Created: 14/11/2022 21:30:12
 Tags: #Definition #Courses/MATH235
 
-Types: _Not Applicable_
+Types: [[Ideal]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
