@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: [[Group Isomorphism]]
 Examples: [[Canonical Projection]]
-Constructions: [[Image (Group Theory)]], [[Kernel (Group Theory)]]
+Constructions: [[Kernel (Group Theory)]], [[Ring Homomorphism]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of group homomorphisms]]

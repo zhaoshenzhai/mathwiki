@@ -1,7 +1,3 @@
----
-mathLink: $U\subseteq V$ is a vector space $\Leftrightarrow$ $0\in U$ and restricted operations close in $U$
----
-
 <div class="topSpace"></div>
 
 Date Created: 03/04/2022 14:39:34
@@ -15,7 +11,7 @@ Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
-title: Proposition.
+title: Proposition (Linear Subspace Test).
 
 _Let $\tpl{K,+,\cdot,0}$ be a field and consider a vector space $\mc{V}\coloneqq\tpl{V,K,\boxplus,\boxdot,0_V}$. Let_ $\boxplus'\coloneqq\l.\boxplus\r|_{U\times U}$ _and_ $\boxdot'\coloneqq\l.\boxdot\r|_{K\times U}$_. Then, for every subset $U\subseteq V$, the quintuple $\mc{U}\coloneqq\tpl{U,K,\boxplus',\boxdot',0_V}$ is a vector space over $K$ iff_
 * _$0_V\in U$,_

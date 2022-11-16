@@ -4,7 +4,7 @@ Date Created: 21/09/2022 20:37:12
 Tags: #Definition #Courses/MATH235
 
 Types: [[Normal Subgroup]]
-Examples: [[Cyclic Subgroup]], [[Image (Group Theory)]]
+Examples: [[Cyclic Subgroup]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

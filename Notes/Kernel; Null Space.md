@@ -22,7 +22,7 @@ title: Definition.
 
 _Let $V$ and $W$ be vector spaces over some field $K$ and consider a linear map $T:V\to W$. The **kernel of $T$** is the linear subspace_
 $$\begin{equation}
-    \ker T\coloneqq\l\{v\in V\mid T\l(v\r)=0\r\}=\preim_T\!\l\{0\r\}.
+    \ker T\coloneqq\preim_T\!\l\{0\r\}=\l\{v\in V\mid T\l(v\r)=0\r\}.
 \end{equation}$$
 _of $V$._
 

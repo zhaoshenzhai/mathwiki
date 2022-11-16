@@ -4,7 +4,7 @@ Date Created: 26/01/2022 17:44:17
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [[Kernel (Group Theory)]], [[Kernel; Null Space]], [[Preimage under projection of subset]]
+Examples: [[Kernel (Group Theory)]], [[Kernel (Ring Theory)]], [[Kernel; Null Space]], [[Preimage under projection of subset]]
 Constructions: _Not Applicable_
 Generalizations: [[Preimage (Relation)]]
 

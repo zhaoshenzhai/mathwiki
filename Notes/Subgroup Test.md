@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
-title: Proposition.
+title: Proposition (Subgroup Test).
 
 _Let $\tpl{G,\ast,e,i}$ be a group and fix a subset $H\subseteq G$. Let_ $\ast'\coloneqq\l.\ast\r|_{H\times H}$ and $i'\coloneqq\l.i\r|_{H}$, and fix $e'\in H$_. Then $\tpl{H,\ast',e',i'}$ is a subgroup of $\tpl{G,\ast,e,i}$ iff_
 * $e\in H$.

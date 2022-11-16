@@ -3,7 +3,7 @@
 Date Created: 03/04/2022 18:40:47
 Tags: #Proposition
 
-Proved by: [[Linear subspace iff closed under linear combination]]
+Proved by: [[Linear Subspace Test]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

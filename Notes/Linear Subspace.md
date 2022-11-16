@@ -4,14 +4,14 @@ Date Created: 03/04/2022 14:30:50
 Tags: #Definition
 
 Types: [[Invariant Subspace]]
-Examples: [[Vector Space of Linear Maps]], [[Vector Space of Diagonal Matrices]], [[Vector Space of Symmetric Matrices]], [[Vector Space of Skew-symmetric Matrices]]
+Examples: [[Vector Space of Linear Maps]], [[Vector Space of Diagonal Matrices]], [[Vector Space of Symmetric Matrices]], [[Vector Space of Skew-symmetric Matrices]], [[Image; Column Space]]
 Constructions: [[Linear Span]], [[Minkowski Sum (Linear Algebra)]], [[Complement (Linear Subspace)]]
 Generalizations: _Not Applicable_
 
 Properties: [[Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper)]], [[Arbitrary intersection of linear subspaces is a linear subspace]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Linear subspace iff closed under linear combination]]
+Justifications: [[Linear Subspace Test]]
 
 ``` ad-Definition
 title: Definition.

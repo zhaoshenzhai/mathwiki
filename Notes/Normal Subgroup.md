@@ -9,7 +9,7 @@ Constructions: [[Quotient Group]], [[Internal Direct Product (Group Theory)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Index two implies normal]], [[Preimage of homomomorphism is a (normal) subroup of its domain]]
+Sufficiencies: [[Index two implies normal]]
 Equivalences: [[Normal iff stable under conjuation]]
 Justifications: _Not Applicable_
 
