@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH254
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Cluster Point]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\langle X,\mc{T}\r\rangle$ be a topological space and fix $S\subseteq X$. The **closure of $S$ in $\tpl{X,\mc{T}}$** is the intersection of all closed sets that contain $S$; that is,_
+_Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. The **closure of $S$ in $\tpl{X,\mc{T}}$** is the intersection of all closed sets that contain $S$; that is,_
 $$\begin{equation}
     \bar{S}\coloneqq\bigcap\l\{C\in\mc{F}\mid S\subseteq S\r\}
 \end{equation}$$

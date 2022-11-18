@@ -3,8 +3,8 @@
 Date Created: 29/01/2022 11:31:28
 Tags: #Definition
 
-Types: [[Sequences in a Topological Space]], [[Sequences in an Ordered Space]]
-Examples: _Not Applicable_
+Types: _Not Applicable_
+Examples: [[Sequences in a Topological Space]], [[Sequences in an Ordered Space]]
 Constructions: [[Subsequences]], [[Tuple Space (Linear Algebra)]]
 Generalizations: _Not Applicable_
 

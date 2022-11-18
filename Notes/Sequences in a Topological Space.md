@@ -1,11 +1,11 @@
 <div class="topSpace"></div>
 
 Date Created: 23/10/2022 19:23:18
-Tags: #Definition #Courses/MATH254 #Later/Topology
+Tags: #Definition #Courses/MATH254
 
-Types: [[Sequences in a Metric Space]]
-Examples: _Not Applicable_
-Constructions: [[Convergent Sequence slash Limit]], [[Convergent to Infinity]]
+Types: _Not Applicable_
+Examples: [[Sequences in a Metric Space]]
+Constructions: [[Sequential Limits]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

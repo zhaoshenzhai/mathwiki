@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH254 #Later/Topology
 
 Types: [[Monotone Sequence]]
 Examples: [[Sequences in R]]
-Constructions: [[Convergent to Infinity]]
+Constructions: [[Sequential Limits to Infinity]]
 Generalizations: _Not Applicable_
 
 Properties: [[Monotone Subsequence Theorem]]

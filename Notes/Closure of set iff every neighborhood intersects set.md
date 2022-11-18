@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle X,\mc{T}\r\rangle$ be a topological space and fix $S\subseteq X$. Then, for all $x\in X$, $x\in\bar{S}$ iff every neighborhood of $x$ intersects $S$._
+_Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. Then, for all $x\in X$, $x\in\bar{S}$ iff every neighborhood of $x$ intersects $S$._
 
 ```
 

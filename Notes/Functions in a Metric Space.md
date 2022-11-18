@@ -1,11 +1,11 @@
 <div class="topSpace"></div>
 
-Date Created: 27/09/2022 18:49:17
+Date Created: 17/11/2022 20:46:30
 Tags: #Definition #Courses/MATH254
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: [[Epsilon-ball]], [[Sequences in a Metric Space]], [[Functions in a Metric Space]]
+Examples: [[Complex Function]], [[Real Function]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. Then $X$, equipped with a metric $d:X\times X\to\R^+_0$, is said to be a **metric space**._
+_Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces. A **function from $X$ to $Y$** is a function $f:X\to Y$._
 
 ```

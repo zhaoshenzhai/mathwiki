@@ -1,3 +1,7 @@
+---
+mathLink: auto
+---
+
 <div class="topSpace"></div>
 
 Date Created: 19/10/2022 21:46:36
@@ -13,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\l\langle X,\mc{T}\r\rangle$ be a Hausdorff topological space. Then any sequence $\tpl{x_n}_{n\in\N}$ in $X$ converges to at most one point._
+_Let $\tpl{X,\mc{T}}$ be a Hausdorff topological space. Then any sequence_ $\tpl{x_n}_{n\in\N}$ _in $X$ converges to at most one point._
 
 ```
 

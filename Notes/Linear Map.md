@@ -8,7 +8,7 @@ Examples: [[Left-multiplication of Matrices]], [[Transposition (Matrix)]]
 Constructions: [[Matrix Representation of a Linear Map]], [[Kernel; Null Space]], [[Image; Column Space]], [[Composition (Linear Map)]], [[Vector Space of Linear Maps]]
 Generalizations: [[Multilinear Map]]
 
-Properties: [[Linear map is injective iff kernel vanishes]], [[Inverse of linear map is linear]], [[Image of linear map is a subspace of its codomain]], [[Linear map fixes zero vector]]
+Properties: [[Linear map is injective iff kernel vanishes]], [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Inverse of linear map is linear]], [[Image of linear map is a subspace of its codomain]], [[Linear map fixes zero vector]]
 Sufficiencies: [[Existence of unique linear map via action on basis vectors]], [[Criteria for equality of linear maps via spanning set]]
 Equivalences: [[Action of linear map repr under basis left-multiplication of matrix representation]]
 Justifications: _Not Applicable_
