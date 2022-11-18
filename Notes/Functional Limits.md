@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Sequential Criteria for Functional Convergence]]
 Justifications: [[Hausdorff implies limits are unique]]
 
 ``` ad-Definition

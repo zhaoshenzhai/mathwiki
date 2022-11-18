@@ -1,3 +1,7 @@
+---
+mathLink: auto
+---
+
 <div class="topSpace"></div>
 
 Date Created: 26/08/2022 16:53:42
@@ -16,6 +20,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X,Y$ be sets. A function $f:X\to Y$ is said to be a **real function** if $X,Y\subseteq\R$; that is, if $f$ is a real-valued function of a real variable._
+_Let $X,Y$ be sets. A function $f:X\to Y$ is said to be a **function in $\R$** if $X,Y\subseteq\R$; that is, if $f$ is a real-valued function of a real variable._
 
 ```
