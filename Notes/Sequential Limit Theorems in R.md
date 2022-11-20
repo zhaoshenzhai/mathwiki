@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 15/10/2022 20:13:16
-Tags: #Proposition #Courses/MATH254
+Tags: #Theorem #Courses/MATH254
 
 Proved by: [[Convergent implies bounded]]
 References: _Not Applicable_
@@ -14,8 +14,8 @@ Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
-``` ad-Proposition
-title: Proposition.
+``` ad-Theorem
+title: Theorem (Sequential Limit Theorems in $\R$).
 
 _Let $\tpl{x_n}$ and $\tpl{y_n}$ be sequences in $\R$ such that_ $\lim\limits_{n\to\infty}x_n=x$ _and_ $\lim\limits_{n\to\infty}y_n=y$ _for some $x,y\in \R$. Then the following properties hold:_
 * _(Linearity): For all $\alpha\in\R$,_ $\lim\limits_{n\to\infty}\l(\alpha x_n+y_n\r)=\alpha x+y$_._
@@ -25,6 +25,7 @@ _Let $\tpl{x_n}$ and $\tpl{y_n}$ be sequences in $\R$ such that_ $\lim\limits_{n
 * _(Respects root): If $\fa^\infty n\in\N:x_n\geq0$, then_ $\lim\limits_{n\to\infty}\sqrt{x_n}=\sqrt{x}$_._
 * _(Respects boundedness): For all $a\in\R$, if $\fa^\infty n\in\N:x_n\geq a$ (resp. $x_n\leq a$), then $x\geq a$ (resp. $x\leq a$)._
 * _(Respects order): If $\fa^\infty n\in\N:x_n\leq y_n$, then $x\leq y$._
+* _(Squeeze Theorem): If $x=y$ and $\tpl{z_n}$ is a sequence in $\R$ such that $\fa^\infty n\in\N:x_n\leq z_n\leq y_n$, then_ $\lim\limits_{n\to\infty}z_n=l$_._
 
 ```
 
@@ -84,4 +85,13 @@ $$\begin{equation}
 \end{equation}$$
 a contradiction.
 
-* (Respects order): Observe that $x_n-y_n\leq0$, so $\lim\limits_{n\to\infty}\l(x_n-y_n\r)\leq0$. Since the limit is linear, we can split the sum to obtain the desired result.<span style="float:right;">$\blacksquare$</span>
+* (Respects order): Observe that $x_n-y_n\leq0$, so $\lim\limits_{n\to\infty}\l(x_n-y_n\r)\leq0$. Since the limit is linear, we can split the sum to obtain the desired result.
+* (Squeeze Theorem): By the Triangle Inequality, we see that
+$$\begin{equation}
+    d\l(z_n,l\r)\leq d\l(z_n,x_n\r)+d\l(x_n,l\r)
+\end{equation}$$
+for all $n\in\N$. But since $z_n\leq y_n$ for all eventually $n\in\N$, we have $\l|z_n-x_n\r|\leq\l|y_n-x_n\r|$ and hence
+$$\begin{equation}
+    d\l(z_n,l\r)\leq d\l(y_n,x_n\r)+d\l(x_n,l\r)\leq2d\l(x_n,l\r)+d\l(y_n,l\r)
+\end{equation}$$
+for all eventually $n\in\N$. Then, for all $\epsilon>0$, we have $d\l(x_n,l\r)<\epsilon/4$ and $d\l(y_n,l\r)<\epsilon/2$ for all eventually $n\in\N$ and hence $d\l(z_n,l\r)<\epsilon$ for all eventually $n\in\N$.<span style="float:right;">$\blacksquare$</span>

@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 18/11/2022 19:27:11
 Tags: #Proposition #Courses/MATH254
 
-Proved by: [[Sequential Criterion for Functional Limits]], [[Basic properties of sequential limits in R]]
+Proved by: [[Sequential Criterion for Functional Limits]], [[Sequential Limit Theorems in R]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -25,6 +25,7 @@ _Let $\Omega_1,\Omega_2\subseteq\R$ be such that $\Omega\coloneqq\Omega_1\cap\Om
 * _(Respects root): Let $\Omega_1'\coloneqq\l\{x\in\Omega_1\mid f\l(x\r)\geq0\r\}$ and assume that $L_1\geq0$. Then_ $\lim\limits_{x\to p}\sqrt{f}\l(x\r)=\sqrt{L_1}$ _where the limit is taken over $\Omega_1'$._
 * _(Respects boundedness): For all $A\in\R$, if $\fa x\in\Omega_1\comp\l\{p\r\}:f\l(x\r)\geq A$ (resp. $f\l(x\r)\leq A$), then $L_1\geq A$ (resp. $L_1\leq A$)._
 * _(Respects order): If $\fa x\in\Omega\comp\l\{p\r\}:f\l(x\r)\leq g\l(x\r)$, then $L_1\leq L_2$._
+* _(Squeeze Theorem): If $L\coloneqq L_1=L_2$ and $h:\Omega\to\R$ is such that $\fa x\in\Omega\comp\l\{p\r\}:f\l(x\r)\leq h\l(x\r)\leq g\l(x\r)$, then_ $\lim\limits_{x\to p}h\l(x\r)=L$_._
 
 ```
 

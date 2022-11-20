@@ -12,8 +12,8 @@ Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth roo
 Constructions: [[Euler's Number]], [[Limit Superior slash Inferior]], [[Convergent and Divergent Series]]
 Generalizations: _Not Applicable_
 
-Properties: [[Basic properties of sequential limits in R]]
-Sufficiencies: [[Bolzano-Weierstrass Theorem]], [[Squeeze Theorem]], [[Ratio Test (Sequence)]]
+Properties: [[Sequential Limit Theorems in R]]
+Sufficiencies: [[Bolzano-Weierstrass Theorem]], [[Ratio Test (Sequence)]]
 Equivalences: [[Convergence Criteria in R]], [[Metric-completeness of R]]
 Justifications: _Not Applicable_
 

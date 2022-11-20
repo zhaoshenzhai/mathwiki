@@ -7,7 +7,7 @@ mathLink: Geometric series converges $\Leftrightarrow$ $\l|r\r|<1$
 Date Created: 01/09/2022 17:00:29
 Tags: #Proposition
 
-Proved by: [[Basic properties of sequential limits in R]], [[Limit of geometric]]
+Proved by: [[Sequential Limit Theorems in R]], [[Limit of geometric]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

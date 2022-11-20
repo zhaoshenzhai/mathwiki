@@ -3,7 +3,7 @@
 Date Created: 20/10/2022 17:41:09
 Tags: #Theorem #Courses/MATH254
 
-Proved by: [[Basic properties of sequential limits in R]], [[Limit of geometric]], [[Squeezed Distance Lemma]], [[Comparison Test (Sequence)]]
+Proved by: [[Sequential Limit Theorems in R]], [[Limit of geometric]], [[Squeezed Distance Lemma]], [[Comparison Test (Sequence)]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
