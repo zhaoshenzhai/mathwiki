@@ -8,7 +8,7 @@ Examples: [[Sequences in R]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Convergent implies bounded]]
+Properties: [[Convergent implies bounded (sequential)]]
 Sufficiencies: [[Squeezed Distance Lemma]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

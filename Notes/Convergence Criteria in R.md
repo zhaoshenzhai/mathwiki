@@ -8,7 +8,7 @@ Date Created: 29/10/2022 18:32:31
 Tags: #Theorem #Courses/MATH254
 
 Proved by: [[Bolzano-Weierstrass Theorem]]
-References: [[Convergent implies bounded]], [[Subsequences converge to the same limit]]
+References: [[Convergent implies bounded (sequential)]], [[Subsequences converge to the same limit]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_

@@ -12,7 +12,7 @@ Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth roo
 Constructions: [[Sequential Criterion for Functional Limits]], [[Convergent and Divergent Series]]
 Generalizations: [[Sequential Limits to Infinity]]
 
-Properties: [[Convergent implies bounded]], [[Subsequences converge to the same limit]], [[Sequential Limit Theorems in R]]
+Properties: [[Convergent implies bounded (sequential)]], [[Subsequences converge to the same limit]], [[Sequential Limit Theorems in R]]
 Sufficiencies: [[Monotone Convergence Theorem]], [[Bolzano-Weierstrass Theorem]], [[Squeezed Distance Lemma]], [[Ratio Test (Sequence)]]
 Equivalences: [[Convergence Criteria in R]], [[Metric-completeness of R]]
 Justifications: [[Hausdorff implies limits are unique]]

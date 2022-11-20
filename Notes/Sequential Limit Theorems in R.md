@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 15/10/2022 20:13:16
 Tags: #Theorem #Courses/MATH254
 
-Proved by: [[Convergent implies bounded]]
+Proved by: [[Convergent implies bounded (sequential)]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

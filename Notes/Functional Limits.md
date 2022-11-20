@@ -1,14 +1,14 @@
 <div class="topSpace"></div>
 
 Date Created: 16/11/2022 17:44:54
-Tags: #Definition #Courses/MATH254
+Tags: #Definition #Courses/MATH254 #Later/Topology
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Functional Limit Theorems in R]]
+Properties: [[Convergent implies bounded (functional)]], [[Functional Limit Theorems in R]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Sequential Criterion for Functional Limits]]
 Justifications: [[Hausdorff implies limits are unique]]
