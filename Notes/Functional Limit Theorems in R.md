@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 18/11/2022 19:27:11
-Tags: #Proposition #Courses/MATH254
+Tags: #Theorem #Courses/MATH254
 
 Proved by: [[Sequential Criterion for Functional Limits]], [[Sequential Limit Theorems in R]]
 References: _Not Applicable_
@@ -14,8 +14,8 @@ Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
-``` ad-Proposition
-title: Proposition.
+``` ad-Theorem
+title: Theorem (Functional Limit Theorems in $\R$).
 
 _Let $\Omega_1,\Omega_2\subseteq\R$ be such that $\Omega\coloneqq\Omega_1\cap\Omega_2\neq\em$, fix a cluster point $p\in\Omega$, and let $L_1,L_2\in\R$. For functions $f:\Omega_1\to\R$ and $g:\Omega_2\to\R$ such that_ $\lim\limits_{x\to p}f\l(x\r)=L_1$ _and_ $\lim\limits_{x\to p}g\l(x\r)=L_2$_, the following properties hold:_
 * _(Linearity): For all $\alpha\in\R$,_ $\lim\limits_{x\to p}\l(\alpha f+g\r)\l(x\r)=\alpha L_1+L_2$ _where the limit is taken is taken over $\Omega$._
