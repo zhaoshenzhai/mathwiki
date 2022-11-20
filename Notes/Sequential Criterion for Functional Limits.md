@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
-title: Proposition (Sequential Criteria for Functional Convergence).
+title: Proposition (Sequential Criterion for Functional Limits).
 
 _Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces, fix a cluster point $p\in\Omega\subseteq X$, and let $L\in Y$. For a function $f:\Omega\to Y$,_
 $$\begin{equation}

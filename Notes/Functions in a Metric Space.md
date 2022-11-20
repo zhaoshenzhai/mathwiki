@@ -8,7 +8,7 @@ Examples: [[Functions in C]], [[Functions in R]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Sequential Criteria for Functional Convergence]]
+Properties: [[Sequential Criterion for Functional Limits]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

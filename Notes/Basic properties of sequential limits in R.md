@@ -17,12 +17,12 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{x_n}$ and $\tpl{y_n}$ be sequences in $\R$ such that_ $\lim\limits_{n\to\infty}x_n=x$ _and_ $\lim\limits_{n\to\infty}y_n=y$ _for some $x,y\in \R$. Then the following properties hold._
+_Let $\tpl{x_n}$ and $\tpl{y_n}$ be sequences in $\R$ such that_ $\lim\limits_{n\to\infty}x_n=x$ _and_ $\lim\limits_{n\to\infty}y_n=y$ _for some $x,y\in \R$. Then the following properties hold:_
 * _(Linearity): For all $\alpha\in\R$,_ $\lim\limits_{n\to\infty}\l(\alpha x_n+y_n\r)=\alpha x+y$_._
 * _(Multiplicativity):_ $\lim\limits_{n\to\infty}\l(x_n\cdot y_n\r)=x\cdot y$_._
 * _(Invertibility): If $x\neq0$, then_ $\lim\limits_{n\to\infty}\frac{1}{x_n}=\frac{1}{x}$ _where $\fa^\infty n\in\N:x_n\neq0$._
 * _(Respects absolute value):_ $\lim\limits_{n\to\infty}\l|x_n\r|=\l|x\r|$_._
-* _(Respects root): If $\fa^\infty n\in\N x_n\geq0$, then_ $\lim\limits_{n\to\infty}\sqrt{x_n}=\sqrt{x}$_._
+* _(Respects root): If $\fa^\infty n\in\N:x_n\geq0$, then_ $\lim\limits_{n\to\infty}\sqrt{x_n}=\sqrt{x}$_._
 * _(Respects boundedness): For all $a\in\R$, if $\fa^\infty n\in\N:x_n\geq a$ (resp. $x_n\leq a$), then $x\geq a$ (resp. $x\leq a$)._
 * _(Respects order): If $\fa^\infty n\in\N:x_n\leq y_n$, then $x\leq y$._
 

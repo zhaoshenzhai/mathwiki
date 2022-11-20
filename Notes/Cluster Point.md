@@ -10,13 +10,13 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Cluster point iff exist converging sequence]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. A point $x\in S$ is said to be a **cluster point of $S$** if $x\in\bar{S\comp\l\{x\r\}}$._
+_Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. A point $p\in S$ is said to be a **cluster point of $S$** if $p\in\bar{S\comp\l\{p\r\}}$._
 
 ```
 

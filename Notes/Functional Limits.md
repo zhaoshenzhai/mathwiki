@@ -8,9 +8,9 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Basic properties of functional limits in R]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Sequential Criteria for Functional Convergence]]
+Equivalences: [[Sequential Criterion for Functional Limits]]
 Justifications: [[Hausdorff implies limits are unique]]
 
 ``` ad-Definition
