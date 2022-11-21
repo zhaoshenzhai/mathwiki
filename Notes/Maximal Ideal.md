@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $I\subseteq R$ be an ideal of a ring $R$. Then $I$ is said to be a **maximal ideal in $R$** if_
+_Let $I\subset R$ be a proper ideal of a ring $R$. Then $I$ is said to be a **maximal ideal in $R$** if_
 $$\begin{equation}
     \fa\textrm{ ideals }J\textrm{ in }R:\l(I\subseteq J\subseteq R\Rightarrow J=I\lor J=R\r).
 \end{equation}$$

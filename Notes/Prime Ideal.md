@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $I\subseteq R$ be an ideal of a commutative ring $R$. Then $I$ is said to be a **prime ideal in $R$** if_
+_Let $I\subset R$ be a proper ideal of a commutative ring $R$. Then $I$ is said to be a **prime ideal in $R$** if_
 $$\begin{equation}
     \fa r,s\in R:rs\in I\Rightarrow r\in I\lor s\in I.
 \end{equation}$$
