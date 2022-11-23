@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Maximal implies prime]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Ideal is maximal iff quotient is a field]]
 Justifications: _Not Applicable_
