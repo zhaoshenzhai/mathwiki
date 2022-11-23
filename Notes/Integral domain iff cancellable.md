@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a unital commutative ring. Then $R$ is an integral domain iff_
+_Let $R$ be a commutative ring with unit $1\neq0$. Then $R$ is an integral domain iff_
 $$\begin{equation}
     \fa s,t\in R,\fa a\in R\comp\l\{0\r\}:rs=rt\Rightarrow s=t.
 \end{equation}$$

@@ -20,7 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{R,+,\cdot,0,1}$ be a unital ring. An element $u\in R$ is said to be a **unit in $R$** if_
+_Let $\tpl{R,+,\cdot,0,1}$ be a ring with unit. An element $u\in R$ is said to be a **unit in $R$** if_
 $$\begin{equation}
     \ex r\in R:u\cdot r=1=r\cdot u.
 \end{equation}$$

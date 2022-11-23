@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A ring $\tpl{R,+,\cdot,0,1}$ is said to be a **field** if it is a commutative division ring such that $0\neq1$._
+_A ring $\tpl{R,+,\cdot,0}$ is said to be a **field** if it is a commutative division ring with unit $1\neq0$._
 
 ```
 

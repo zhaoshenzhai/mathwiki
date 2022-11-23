@@ -14,7 +14,7 @@ Counterexamples: _Not Applicable_
 title: Proposition.
 
 _Let $R_1$ and $R_2$ be rings and consider a homomorphism $\phi:R_1\to R_2$. Let $S_1\subseteq R_1$ and $S_2\subseteq R_2$ be subrings. Then the following properties hold._
-* _(Preserves identity): If $R_1$ and $R_2$ are unital, and $\phi$ is surjective, then $\phi\l(1_1\r)=1_2$._
+* _(Preserves identity): If $R_1$ and $R_2$ have units, and $\phi$ is surjective, then $\phi\l(1_1\r)=1_2$._
 * _(Image preserve subrings):_ $\im_\phi\!\l(S_1\r)\subseteq R_2$ _is a subring._
 * _(Image preserve commutativity): If $S_1$ is commutative, then_ $\im_\phi\!\l(S_1\r)\subseteq R_2$ _is commutative._
 * _(Image preserve field): If $S_1$ is a field, then_ $\im_\phi\!\l(S_1\r)\subseteq R_2$ _is either $\l\{0\r\}$ or a field._

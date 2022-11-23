@@ -3,7 +3,7 @@
 Date Created: 03/11/2022 19:00:21
 Tags: #Definition #Courses/MATH235
 
-Types: [[Commutative Ring]], [[Unital Ring]]
+Types: [[Commutative Ring]], [[Ring with Unit]]
 Examples: _Not Applicable_
 Constructions: [[Characteristic]], [[Polynomial Ring]], [[Ring Homomorphism]], [[Zero-divisor]], [[Subring]]
 Generalizations: _Not Applicable_

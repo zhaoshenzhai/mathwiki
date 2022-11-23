@@ -1,5 +1,5 @@
 ---
-mathLink: $R$ unital $\Rightarrow$ $\char R=\ord{1}$
+mathLink: $R$ with unit $\Rightarrow$ $\char R=\ord{1}$
 ---
 
 <div class="topSpace"></div>
@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a ring. If $R$ is unital, then $\char R=\ord{1}$ where the order is w.r.t. the additive group $\tpl{R,+}$._
+_Let $R$ be a ring. If $R$ has a unit, then $\char R=\ord{1}$ where the order is w.r.t. the additive group $\tpl{R,+}$._
 
 ```
 

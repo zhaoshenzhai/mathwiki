@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Evaluation Homomorphism]], [[Root (Polynomial)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be a ring and fix $n\in\N$. A **polynomial over $R$ with degree $n$ and indeterminant $x$** is an expression of the form_
+_Let $R$ be a commutative ring with unit and fix $n\in\N$. A **polynomial over $R$ with degree $n$ and indeterminant $x$** is an expression of the form_
 $$\begin{equation}
     f\coloneqq a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0\ \ \ \ \ \ \ \ \textrm{\it{or}}\ \ \ \ \ \ \ \ f\coloneqq \sum_{i=0}^na_ix^i
 \end{equation}$$

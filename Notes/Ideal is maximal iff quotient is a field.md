@@ -17,11 +17,11 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a unital commutative ring and let $I\subset R$ be a proper ideal. Then $I$ is maximal iff $R/I$ is a field._
+_Let $R$ be a commutative ring with unit and let $I\subset R$ be a proper ideal. Then $I$ is maximal iff $R/I$ is a field._
 
 ```
 
-_Proof_. Since $R$ is a unital commutative ring, we see that $R/I$ is also a unital commutative ring.
+_Proof_. Since $R$ is a commutative ring with unit, we see that $R/I$ is also a commutative ring with unit.
 * ($\Rightarrow$) Take $a+I\in R/I$ such that $a+I\neq0+I$, so $a\not\in I$. Let
 $$\begin{equation}
     J\coloneqq\l\{j\in R\mid\ex i\in I,\ex r\in R:j=i+ra\r\},

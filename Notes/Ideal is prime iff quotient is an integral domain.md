@@ -17,11 +17,11 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a unital commutative ring and let $I\subset R$ be a proper ideal. Then $I$ is prime iff $R/I$ is an integral domain._
+_Let $R$ be a commutative ring with unit and let $I\subset R$ be a proper ideal. Then $I$ is prime iff $R/I$ is an integral domain._
 
 ```
 
-_Proof_. Since $R$ is a unital commutative ring, we see that $R/I$ is also a unital commutative ring.
+_Proof_. Since $R$ is a commutative ring with unit, we see that $R/I$ is also a commutative ring with unit.
 * ($\Rightarrow$): Take $r+I,s+I\in R/I$ such that $\l(r+I\r)\l(s+I\r)=0+I$. Then $rs+I=0+I$, so $rs\in I$. But $I$ is prime, so either $r\in I$ or $s\in I$. Thus either $r+I=0+I$ or $s+I=0+I$.
 
 * ($\Leftarrow$) Take $r,s\in I$ such that $rs\in I$. Then $rs+I=0+I$, so $\l(r+I\r)\l(s+I\r)=0+I$. But $R/I$ is an integral domain, so either $r+I=0+I$ or $s+I=0+I$. Thus either $r\in I$ or $s\in I$.<span style="float:right;">$\blacksquare$</span>

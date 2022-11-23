@@ -3,7 +3,7 @@
 Date Created: 03/11/2022 19:05:54
 Tags: #Definition #Courses/MATH235
 
-Types: [[Integral Domain]]
+Types: [[Integral Domain]], [[Field]]
 Examples: [[Ring or Field of Integers mod n]]
 Constructions: [[Principal Ideal]]
 Generalizations: _Not Applicable_
