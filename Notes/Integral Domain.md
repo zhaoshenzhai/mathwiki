@@ -3,7 +3,7 @@
 Date Created: 03/11/2022 19:08:25
 Tags: #Definition #Courses/MATH235
 
-Types: [[Principal Ideal Domain]]
+Types: [[Principal Ideal Domain (PID)]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_

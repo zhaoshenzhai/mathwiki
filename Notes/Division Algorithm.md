@@ -7,7 +7,7 @@ Proved by: [[Omega is an ordinal]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
-Generalizations: _Not Applicable_
+Generalizations: [[Euclidean Domain]]
 Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
