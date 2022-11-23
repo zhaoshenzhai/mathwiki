@@ -1,5 +1,5 @@
 ---
-mathLink: $\mat{n}{K}=\Sym_n\!\l(K\r)\oplus\Skew_n\!\l(K\r)$ for $\charfld K\neq2$
+mathLink: $\mat{n}{K}=\Sym_n\!\l(K\r)\oplus\Skew_n\!\l(K\r)$ for $\char K\neq2$
 ---
 
 <div class="topSpace"></div>
@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field with $\charfld K\neq2$ and fix $n\in\N^+$. Then_
+_Let $K$ be a field with $\char K\neq2$ and fix $n\in\N^+$. Then_
 $$\begin{equation}
     \mat{n}{K}=\Sym_n\!\l(K\r)\oplus\Skew_n\!\l(K\r).
 \end{equation}$$
@@ -47,7 +47,7 @@ $$\begin{equation}
 $$\begin{equation}
     \l[t_{ij}\r]=\l[t_{ij}\r]^\trans=-\l[t_{ij}\r].
 \end{equation}$$
-It follows then that $\l[t_{ij}\r]=-\l[t_{ij}\r]$, so $t_{ij}=-t_{ij}$ for all $i,j\in\l\{1,\dots,n\r\}$. Since $t_{ij}\in K$ and $\charfld K\neq2$, we see that
+It follows then that $\l[t_{ij}\r]=-\l[t_{ij}\r]$, so $t_{ij}=-t_{ij}$ for all $i,j\in\l\{1,\dots,n\r\}$. Since $t_{ij}\in K$ and $\char K\neq2$, we see that
 $$\begin{equation}
     t_{ij}+t_{ij}=0\ \ \ \ \Rightarrow\ \ \ \ t_{ij}=0
 \end{equation}$$
