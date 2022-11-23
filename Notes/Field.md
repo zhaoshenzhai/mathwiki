@@ -9,7 +9,7 @@ Constructions: [[Vector Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Finite integral domain implies field]]
+Sufficiencies: [[Ideal is maximal iff quotient is a field]], [[Finite integral domain implies field]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
