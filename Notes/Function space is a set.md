@@ -22,7 +22,7 @@ $$\begin{equation}
 
 _Proof_. Let $\phi\l(f\r)$ denote the formula $f:X\to Y$; we claim that
 $$\begin{equation}
-    \phi\l(f\r)\Rightarrow x\in\pow\l(X\times Y\r)
+    \phi\l(f\r)\Rightarrow x\in\pow\l(X\times Y\r).
 \end{equation}$$
 To this end, take a function $f:X\to Y$. By definition, we have that $f$ is a binary relation with $\dom f=X$ and $\ran f\subseteq Y$. Observe that
 $$\begin{equation}
