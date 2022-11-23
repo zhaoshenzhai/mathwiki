@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Polynomial ring over an integral domain is an integral domain]], [[Finite integral domain implies field]], [[Characteristic of integral domain is zero of prime]]
+Properties: [[Finite integral domain implies field]], [[Characteristic of integral domain is zero of prime]], [[Basic properties of polynomial rings (integral domain)]]
 Sufficiencies: [[Ideal is prime iff quotient is an integral domain]]
 Equivalences: [[Integral domain iff cancellable]]
 Justifications: _Not Applicable_

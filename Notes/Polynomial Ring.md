@@ -8,8 +8,8 @@ Examples: _Not Applicable_
 Constructions: [[Evaluation Homomorphism]], [[Root (Polynomial)]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
-Sufficiencies: [[Polynomial ring over an integral domain is an integral domain]]
+Properties: [[Basic properties of polynomial rings (integral domain)]]
+Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -20,7 +20,7 @@ _Let $R$ be a commutative ring with unit and fix $n\in\N$. A **polynomial over $
 $$\begin{equation}
     f\coloneqq a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0\ \ \ \ \ \ \ \ \textrm{\it{or}}\ \ \ \ \ \ \ \ f\coloneqq \sum_{i=0}^na_ix^i
 \end{equation}$$
-_where each $a_i\in R$ and $a_n\neq0$. We call $a_n$ the **leading coefficient of $f$**, and write $\deg f\coloneqq n$._
+_where each $a_i\in R$ and $a_n\neq0$. We call $a_n$ the **leading coefficient of $f$**, and write $\deg f\coloneqq n$. If $a_n=1$, the polynomial $f$ is said to be **monic**._
 
 _The **polynomial ring over $R$** is the ring $\tpl{R\l[x\r],+,\cdot}$ consisting of all polynomials over $R$ equipped with the operations $+$ and $\cdot$, defined, for all_ $f\coloneqq\sum_{i=0}^{n}a_ix^i$ _and_ $g\coloneqq\sum_{i=0}^{m}b_ix_i$_, by_
 $$\begin{equation}
