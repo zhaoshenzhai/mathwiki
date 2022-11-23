@@ -1,7 +1,3 @@
----
-mathLink: $K$ field $\Rightarrow$ $K\l[x\r]$ Euclidean Domain
----
-
 <div class="topSpace"></div>
 
 Date Created: 23/11/2022 09:55:11
@@ -15,7 +11,7 @@ Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
-title: Theorem.
+title: Theorem (Division Algorithm for Polynomials).
 
 _Let $K$ be a field. Then for all $a,b\in K\l[x\r]$ with $b\neq0$, there exist unique polynomials $q,r\in K\l[x\r]$ with either $r=0$ or $\deg r<\deg b$ such that $a=qb+r$._
 

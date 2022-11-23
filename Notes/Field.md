@@ -8,7 +8,7 @@ Examples: [[Ring or Field of Integers mod n]]
 Constructions: [[Vector Space]]
 Generalizations: _Not Applicable_
 
-Properties: [[Field implies PID]], [[Polynomial ring over a field is a Euclidean Domain]]
+Properties: [[Field implies PID]], [[Division Algorithm (Polynomials)]]
 Sufficiencies: [[Ideal is maximal iff quotient is a field]], [[Finite integral domain implies field]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
