@@ -4,55 +4,35 @@ mathLink: B$\acute{\textrm{e}}$zout$\textrm{'}$s Identity
 
 <div class="topSpace"></div>
 
-Date Created: 14/09/2022 19:57:04
-Tags: #Theorem #Courses/MATH235
+Date Created: 23/11/2022 15:13:45
+Tags: #Proposition #Courses/MATH235
 
-Proved by: [[Omega is an ordinal]], [[Division Algorithm]]
-References: _Not Applicable_
+Proved by: _Not Applicable_
+References: [[Ring of integers is a PID]], [[Polynomial ring over fields are PIDs]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
-``` ad-Theorem
-title: Theorem (B$\acute{\textrm{e}}$zout$\textrm{'}$s Identity).
+``` ad-Proposition
+title: Proposition (B$\acute{\textbf{e}}$zout$\textbf{'}$s Identity).
 
-_Let $a,b\in\Z\comp\l\{0\r\}$. Then there exist $m_1,m_2\in\Z$ such that_
-$$\begin{equation}
-    \gcd\l(a,b\r)=m_1a+m_2b.
-\end{equation}$$
-_Furthermore, if there exist $m_1,m_2\in\Z$ such that $am_1+bm_2=1$, then $a$ and $b$ are relatively prime._
+_Let $R$ be a commutative ring and fix $a,b\in R\comp\l\{0\r\}$. If there exists some $d\in R$ such that $\l\langle a,b\r\rangle=\l\langle d\r\rangle$, then $d=\gcd\l(a,b\r)$._
 
 ```
 
-**Remark.** In particular, this proves that $\gcd\l(a,b\r)$ exists. However, it does not provide an algorithm to compute it.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** In particular, this shows that $\gcd\l(a,b\r)$ exists for every $a$ and $b$ in any principal ideal domain; indeed, $\gcd\l(a,b\r)=ax+by$ for some $x,y\in R$. Specifically:
+* For all $a,b\in\Z\comp\l\{0\r\}$, there exist $x,y\in\Z$ such that $\gcd\l(a,b\r)=ax+by$.
+* If $K$ is a field, then, for all $a,b\in K\l[x\r]$, there exist $f,g\in K\l[x\r]$ such that $\gcd\l(a,b\r)=af+by$.
+
+However, this does _not_ give an algorithm to compute $\gcd\l(a,b\r)$ in general PIDs; such an algorithm exists only in a Euclidean Domain, which $\Z$ and $K\l[x\r]$ are.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-_Proof_. Consider the set $S\coloneqq\l\{c\in\N^+\mid\ex n_1,n_2\in\Z:c=an_1+bn_2\r\}$. Since $a^2+b^2\in\N^+$, we see that $S\neq\em$. Hence, by well-ordering of $\N$, there exists a minimal $d=am_1+bm_2\in S$. We claim that $\gcd\l(a,b\r)=d$.
-* ($d\divides a$ and $d\divides b$): By the Division Algorithm, there exist unique integers $q,r\in\Z$ with $0\leq r<d$ such that $a=qd+r$. If $r\neq0$, then
-$$\begin{equation}
-    \begin{aligned}
-        r&=a-qd \\
-        &=a-q\l(am_1+bm_2\r) \\
-        &=a-\l(qm_1\r)a-b\l(qm_2\r) \\
-        &=a\l(1-qm_1\r)-b\l(qm_2\r),
-    \end{aligned}
-\end{equation}$$
-so $r\in S$. But $r<d$, contradicting the fact that $d$ is minimal in $S$. It follows that $r=0$, so $d\divides a$. Similarly, $d\divides a$.
+_Proof_. We show that $d$ is a common divisor of $a$ and $b$ that divides every other divisor thereof.
+* Since $a\in\l\langle a,b\r\rangle$, we see that $a\in\l\langle d\r\rangle$ and hence $d\divides a$. Similarly, $d\divides b$.
 
-* ($d$ is the greatest such common divisor): Suppose that $d'$ is common divisor of $a$ and $b$, so there exist $k,l\in\Z$ such that $a=kd'$ and $b=ld'$. It follows that
+* Let $d'\in R\comp\l\{0\r\}$ such that $d'\divides a$ and $d'\divides b$. Then $a\in\l\langle d'\r\rangle$ and $b\in\l\langle d'\r\rangle$, so $a=d'r$ and $b=d's$ for some $r,s\in R$. It suffices to show that $\l\langle d\r\rangle=\l\langle a,b\r\rangle\subseteq\l\langle d'\r\rangle$, for then $d'\divides d$. Take $x,y\in R$, and observe that
 $$\begin{equation}
-    d=am_1+bm_2=kd'm_1+ld'm_2=d'\l(km_1+lm_2\r),
+    ax+by=\l(d'r\r)x+\l(d's\r)y=\l(rx+sy\r)d'\in\l\langle d'\r\rangle.\qedin
 \end{equation}$$
-so $d'\divides d$.
-
-For the last claim, it suffices to show that the only common divisors of $a$ and $b$ are $\pm1$, for then $\gcd\l(a,b\r)=1$ and hence $a$ and $b$ are relatively prime. Let $d\in\Z$ be a common divisor of $a$ and $b$, so there exist integers $k,l\in\Z$ such that $dk=a$ and $dl=b$. But then
-$$\begin{equation}
-    \l(dk\r)m_1+\l(dl\r)m_2=1,
-\end{equation}$$
-which implies that
-$$\begin{equation}
-    d\l(km_1+lm_2\r)=1.
-\end{equation}$$
-Thus $d\divides1$, and since the only divisors of $1$ are $-1$ and itself, we see that $d=\pm1$.<span style="float:right;">$\blacksquare$</span>
