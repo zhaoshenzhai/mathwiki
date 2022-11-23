@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Two integers $a,b\in\Z$ are said to be **coprime** if $\gcd\l(a,b\r)=1$._
+_Let $R$ be a commutative ring with unit $1\neq0$ and fix $a,b\in R$. We say that $a$ and $b$ are **relatively prime** if $\gcd\l(a,b\r)=1$._
 
 ```

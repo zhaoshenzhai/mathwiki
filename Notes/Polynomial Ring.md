@@ -9,7 +9,7 @@ Constructions: [[Evaluation Homomorphism]], [[Root (Polynomial)]]
 Generalizations: _Not Applicable_
 
 Properties: [[Division Algorithm (Polynomials)]], [[Polynomial has at most degree-many roots]], [[Basic properties of polynomial rings (integral domain)]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Polynomial ring over fields are PIDs]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

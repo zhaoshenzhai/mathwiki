@@ -13,7 +13,7 @@ Constructions: [[Ring or Field of Integers mod n]]
 Generalizations: _Not Applicable_
 
 Properties: [[Order of additive group of integers mod n is n]]
-Sufficiencies: [[Generates additive group of integers mod n iff coprime]], [[Decomposition of additive group of integers mod n if coprime]]
+Sufficiencies: [[Generates additive group of integers mod n iff relatively prime]], [[Decomposition of additive group of integers mod n if relatively prime]]
 Equivalences: _Not Applicable_
 Justifications: [[Quotient group is a group]]
 

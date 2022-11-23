@@ -1,14 +1,14 @@
 ---
-mathLink: $\tpl{\Z,+,\cdot}$ is a PID
+mathLink: $K$ field $\Rightarrow$ $K\l[x\r]$ is a PID
 ---
 
 <div class="topSpace"></div>
 
-Date Created: 16/11/2022 14:22:11
+Date Created: 23/11/2022 14:24:46
 Tags: #Proposition #Courses/MATH235
 
 Proved by: _Not Applicable_
-References: [[Division Algorithm]], [[Euclidean Domain implies PID]]
+References: [[Division Algorithm (Polynomials)]], [[Euclidean Domain implies PID]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -17,7 +17,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_The ring $\tpl{\Z,+,\cdot}$ is a PID. That is, every ideal in $\Z$ is a principal ideal._
+_Let $K$ be a field. Then the polynomial ring $K\l[x\r]$ is a PID._
 
 ```
 

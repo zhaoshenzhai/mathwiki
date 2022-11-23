@@ -4,12 +4,12 @@ Date Created: 22/11/2022 21:01:55
 Tags: #Definition #Courses/MATH235
 
 Types: [[Field]]
-Examples: [[Ring of integers is a PID]]
+Examples: [[Ring of integers is a PID]], [[Polynomial ring over fields are PIDs]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Euclidean Domain implies PID]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
