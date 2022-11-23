@@ -3,7 +3,7 @@
 Date Created: 23/11/2022 09:56:13
 Tags: #Definition #Courses/MATH235
 
-Types: _Not Applicable_
+Types: [[Field]]
 Examples: [[Division Algorithm]], [[Division Algorithm (Polynomials)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_

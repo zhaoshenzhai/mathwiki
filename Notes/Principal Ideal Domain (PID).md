@@ -3,7 +3,7 @@
 Date Created: 22/11/2022 21:01:55
 Tags: #Definition #Courses/MATH235
 
-Types: [[Field]]
+Types: [[Euclidean Domain]]
 Examples: [[Ring of integers is a PID]], [[Polynomial ring over fields are PIDs]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_

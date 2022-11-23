@@ -8,7 +8,7 @@ Date Created: 22/11/2022 22:39:00
 Tags: #Proposition #Courses/MATH235
 
 Proved by: _Not Applicable_
-References: _Not Applicable_
+References: [[Euclidean Domain implies PID]]
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
@@ -21,7 +21,7 @@ _Let $R$ be a field. Then every ideal $I\subseteq R$ is either $\l\{0\r\}$ or $R
 
 ```
 
-**Remark.** In particular, this shows that fields are principle ideal domains.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** In particular, this shows that fields are principal ideal domains. Alternatively, every field is a Euclidean Domain (with any Euclidean function, and with remainder $0$), so every field is a PID.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
