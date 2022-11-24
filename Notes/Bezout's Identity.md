@@ -23,9 +23,9 @@ _Let $R$ be a commutative ring and fix $a,b\in R\comp\l\{0\r\}$. If there exists
 
 **Remark.** In particular, this shows that $\gcd\l(a,b\r)$ exists for every $a$ and $b$ in any principal ideal domain; indeed, $\gcd\l(a,b\r)=ax+by$ for some $x,y\in R$. Specifically:
 * For all $a,b\in\Z\comp\l\{0\r\}$, there exist $x,y\in\Z$ such that $\gcd\l(a,b\r)=ax+by$.
-* If $K$ is a field, then, for all $a,b\in K\l[x\r]$, there exist $f,g\in K\l[x\r]$ such that $\gcd\l(a,b\r)=af+by$.
+* If $K$ is a field, then, for all $a,b\in K\l[x\r]$, there exist $f,g\in K\l[x\r]$ such that $\gcd\l(a,b\r)=af+bg$.
 
-However, this does _not_ give an algorithm to compute $\gcd\l(a,b\r)$ in general PIDs; such an algorithm exists only in a Euclidean Domain, which $\Z$ and $K\l[x\r]$ are.<span style="float:right;">$\blacklozenge$</span>
+However, this does _not_ give an algorithm to compute $\gcd\l(a,b\r)$ in general PIDs; such an algorithm only exist in Euclidean Domains, which $\Z$ and $K\l[x\r]$ are.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
