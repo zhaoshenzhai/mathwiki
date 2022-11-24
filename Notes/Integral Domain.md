@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: [[Principal Ideal Domain (PID)]]
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Irreducible Element]], [[Prime Element]]
 Generalizations: _Not Applicable_
 
 Properties: [[Finite integral domain implies field]], [[Characteristic of integral domain is zero of prime]], [[Basic properties of polynomial rings (integral domain)]]

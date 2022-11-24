@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: [[Commutative Ring]], [[Ring with Unit]]
 Examples: _Not Applicable_
-Constructions: [[Characteristic]], [[Polynomial Ring]], [[Ring Homomorphism]], [[Zero-divisor]], [[Subring]]
+Constructions: [[Characteristic]], [[Ring Homomorphism]], [[Zero-divisor]], [[Subring]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of rings]]

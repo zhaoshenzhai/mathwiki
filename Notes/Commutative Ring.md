@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: [[Integral Domain]], [[Field]]
 Examples: [[Ring or Field of Integers mod n]]
-Constructions: [[Principal Ideal]]
+Constructions: [[Principal Ideal]], [[Polynomial Ring]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

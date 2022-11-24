@@ -9,7 +9,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: [[Multiplicative Group of Integers mod n]]
-Constructions: _Not Applicble_
+Constructions: [[Irreducible Element]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

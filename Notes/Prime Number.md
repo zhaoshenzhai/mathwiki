@@ -6,7 +6,7 @@ Tags: #Definition
 Types: _Not Applicable_
 Examples: _Not Applicable_
 Constructions: [[Fundamental Theorem of Arithmetic]], [[Ring or Field of Integers mod n]]
-Generalizations: _Not Applicable_
+Generalizations: [[Prime Element]]
 
 Properties: [[Euclid's Lemma]]
 Sufficiencies: [[Characteristic of integral domain is zero of prime]]

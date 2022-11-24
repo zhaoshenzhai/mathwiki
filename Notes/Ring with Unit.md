@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH235
 
 Types: [[Integral Domain]], [[Division Ring]]
 Examples: [[Ring or Field of Integers mod n]]
-Constructions: [[Unit slash Group of Units]]
+Constructions: [[Unit slash Group of Units]], [[Polynomial Ring]]
 Generalizations: _Not Applicable_
 
 Properties: [[Characteristic of ring with unit is order of 1]]

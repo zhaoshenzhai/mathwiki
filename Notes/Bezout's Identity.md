@@ -5,7 +5,7 @@ mathLink: B$\acute{\textrm{e}}$zout$\textrm{'}$s Identity
 <div class="topSpace"></div>
 
 Date Created: 23/11/2022 15:13:45
-Tags: #Proposition #Courses/MATH235
+Tags: #Theorem #Courses/MATH235
 
 Proved by: _Not Applicable_
 References: [[Ring of integers is a PID]], [[Polynomial ring over fields are PIDs]]
@@ -14,8 +14,8 @@ Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
-``` ad-Proposition
-title: Proposition (B$\acute{\textbf{e}}$zout$\textbf{'}$s Identity).
+``` ad-Theorem
+title: Theorem (B$\acute{\textbf{e}}$zout$\textbf{'}$s Identity).
 
 _Let $R$ be a commutative ring and fix $a,b\in R\comp\l\{0\r\}$. If there exists some $d\in R$ such that $\l\langle a,b\r\rangle=\l\langle d\r\rangle$, then $d=\gcd\l(a,b\r)$._
 
