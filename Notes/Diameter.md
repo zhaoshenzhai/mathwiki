@@ -1,11 +1,11 @@
 <div class="topSpace"></div>
 
-Date Created: 27/09/2022 18:49:17
+Date Created: 25/11/2022 09:19:04
 Tags: #Definition #Courses/MATH254
 
-Types: [[Bounded Space]]
+Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Epsilon-ball]], [[Sequences in a Metric Space]], [[Functions in a Metric Space]]
+Constructions: [[Cauchy Sequence]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -16,6 +16,9 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. Then $X$, equipped with a metric $d:X\times X\to\R^+_0$, is said to be a **metric space**._
+_Let $\tpl{X,d}$ be a bounded metric space. The **diameter of $X$** is_
+$$\begin{equation}
+    \diam X\coloneqq\sup\limits_{\mathclap{x,y\in X}}d\l(x,y\r).
+\end{equation}$$
 
 ```

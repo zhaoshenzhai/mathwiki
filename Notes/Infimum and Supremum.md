@@ -9,7 +9,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Limit Superior slash Inferior]]
-Constructions: [[Meet and Join-semilattices]], [[Dedekind-complete Ordered Set]]
+Constructions: [[Meet and Join-semilattices]], [[Dedekind-complete Ordered Set]], [[Diameter]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
