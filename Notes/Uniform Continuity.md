@@ -3,7 +3,7 @@
 Date Created: 25/11/2022 09:51:45
 Tags: #Definition #Courses/MATH254
 
-Types: _Not Applicable_
+Types: [[Lipschitz Continuity]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
