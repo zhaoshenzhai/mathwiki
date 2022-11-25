@@ -8,7 +8,7 @@ Examples: [[Kernel (Group Theory)]], [[Kernel (Ring Theory)]], [[Kernel; Null Sp
 Constructions: _Not Applicable_
 Generalizations: [[Preimage (Relation)]]
 
-Properties: _Not Applicable_
+Properties: [[Image slash preimage of compositions]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

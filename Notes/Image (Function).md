@@ -8,7 +8,7 @@ Examples: [[Image; Column Space]]
 Constructions: [[Direct Image Function]]
 Generalizations: [[Image (Relation)]]
 
-Properties: [[Image of composition is image of image]]
+Properties: [[Image slash preimage of compositions]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

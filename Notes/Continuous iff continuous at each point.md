@@ -25,9 +25,5 @@ _where_ $\mc{U}_{f\l(p\r)}$ _and_ $\mc{U}_p$ _are the set of all neighborhoods o
 
 ```
 
-**Remark.** Fix $p\in X$. If $\fa V\in\mc{U}_{f\l(p\r)},\ex U\in\mc{U}_p:\im_f\!\l(U\r)\subseteq V$, then $f$ is said to be **continuous at $p$**. This shows that a function is continuous iff it is continuous at each point in its domain.<span style="float:right;">$\blacklozenge$</span>
-
----
-
 _Proof_.
 * ($\Rightarrow$): Take $p\in X$ and any $V\in\mc{T}_Y$ containing $f\l(p\r)$. Then $p\in\preim_f\l(V\r)$ is open
