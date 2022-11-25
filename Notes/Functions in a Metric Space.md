@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Sequential Criterion for Functional Limits]], [[Convergent implies bounded (functional)]]
+Properties: [[Sequential Criterion for Functional Limits]], [[Sequential slash limit characterizations of continuity]], [[Convergent implies bounded (functional)]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

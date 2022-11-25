@@ -9,7 +9,7 @@ Constructions: [[Closed Set]], [[Neighborhood]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Set is open if covered by open subsets]], [[Open set in open subspace is open]]
+Sufficiencies: [[Open if covered by open subsets]], [[Open set in open subspace is open]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
