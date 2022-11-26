@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Cauchy implies bounded]]
-Sufficiencies: [[Contractive implies Cauchy]]
+Sufficiencies: [[Convergent implies Cauchy]], [[Contractive implies Cauchy]], [[Uniform continuity preserve Cauchyness]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

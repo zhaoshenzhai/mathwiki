@@ -8,9 +8,9 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Uniform continuity preserve Cauchyness]]
 Sufficiencies: [[Heine-Cantor Theorem]]
-Equivalences: _Not Applicable_
+Equivalences: [[Continuous Extension Theorem]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
