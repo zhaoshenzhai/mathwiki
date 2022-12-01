@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Uniform continuity preserve Cauchyness]]
+Properties: [[Uniform continuity preserve Cauchyness]], [[Composition of uniformly continuous functions are uniformly continuous]]
 Sufficiencies: [[Heine-Cantor Theorem]]
 Equivalences: [[Continuous Extension Theorem]]
 Justifications: _Not Applicable_
