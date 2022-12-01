@@ -8,19 +8,19 @@ Date Created: 29/08/2022 16:59:28
 Tags: #Definition #Courses/MATH254 #Later/Topology
 
 Types: _Not Applicable_
-Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth root of real]], [[Limit of nth root of n]]
-Constructions: [[Sequential Criterion for Functional Limits]], [[Convergent and Divergent Series]]
+Examples: [[Sequential Limits in R]]
+Constructions: [[Sequential Criterion for Functional Limits]]
 Generalizations: [[Sequential Limits to Infinity]]
 
-Properties: [[Convergent implies bounded (sequential)]], [[Convergent implies Cauchy]], [[Subsequences converge to the same limit]], [[Sequential Limit Theorems in R]]
-Sufficiencies: [[Monotone Convergence Theorem]], [[Bolzano-Weierstrass Theorem]], [[Squeezed Distance Lemma]], [[Ratio Test (Sequence)]]
-Equivalences: [[Convergence Criteria in R]], [[Metric-completeness of R]]
+Properties: [[Convergent implies bounded (sequential)]], [[Convergent implies Cauchy]], [[Subsequences converge to the same limit]]
+Sufficiencies: [[Monotone Convergence Theorem]], [[Squeezed Distance Lemma]]
+Equivalences: _Not Applicable_
 Justifications: [[Hausdorff implies limits are unique]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and fix $x\in X$. A sequence_ $\tpl{x_n}_{n\in\N}$ _in $X$ is said to **converge to $x$ w.r.t. $\mc{T}$** and $x$ is said to be a **limit of $\tpl{x_n}$ w.r.t. $\mc{T}$** if_
+_Let $\tpl{X,\mc{T}}$ be a topological space and fix $x\in X$. A sequence_ $\tpl{x_n}_{n\in\N}$ _in $X$ is said to **converge to $x$ w.r.t. $\mc{T}$**, and $x$ is said to be a **limit of $\tpl{x_n}$ w.r.t. $\mc{T}$**, if_
 $$\begin{equation}
     \fa U\in\mc{U}_x,\fa^\infty n\in\N:x_n\in U,
 \end{equation}$$

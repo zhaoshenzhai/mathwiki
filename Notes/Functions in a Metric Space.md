@@ -4,7 +4,7 @@ Date Created: 17/11/2022 20:46:30
 Tags: #Definition #Courses/MATH254
 
 Types: [[Bounded Function]]
-Examples: _Not Applicable_
+Examples: [[Functions in R]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
