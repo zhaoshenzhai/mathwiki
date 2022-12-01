@@ -3,14 +3,14 @@
 Date Created: 24/11/2022 13:48:28
 Tags: #Definition #Courses/MATH254
 
-Types: [[Uniform Continuity]]
-Examples: _Not Applicable_
+Types: _Not Applicable_
+Examples: [[Continuous Function in a Metric Space]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Composition of continuous functions are continuous]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Sequential slash limit characterizations of continuity]]
+Equivalences: _Not Applicable_
 Justifications: [[Continuous iff continuous at each point]]
 
 ``` ad-Definition
@@ -27,8 +27,3 @@ $$\begin{equation}
 _where_ $\mc{U}_{f\l(p\r)}$ _and_ $\mc{U}_p$ _are the set of all neighborhoods of $f\l(p\r)$ and $p$, respectively._
 
 ```
-
-**Remark.** In metric spaces $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$, a function $f:X\to Y$ is continuous iff
-$$\begin{equation}
-    \fa p\in X,\fa\epsilon>0,\ex\delta>0,\fa q\in X:d_X\!\l(p,q\r)<\delta\Rightarrow d_Y\!\l(f\l(p\r),f\l(q\r)\r)<\epsilon.\exqedin
-\end{equation}$$

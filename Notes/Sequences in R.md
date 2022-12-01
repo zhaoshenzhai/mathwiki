@@ -8,13 +8,13 @@ Date Created: 29/08/2022 16:52:42
 Tags: #Definition #Courses/MATH254
 
 Types: [[Geometric Sequence]], [[Alternating Sequence]]
-Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth root of real]], [[Limit of nth root of n]]
-Constructions: [[Euler's Number]], [[Limit Superior slash Inferior]], [[Convergent and Divergent Series]]
-Generalizations: _Not Applicable_
+Examples: _Not Applicable_
+Constructions: [[Sequential Limits in R]]
+Generalizations: [[Sequences in a Metric Space]]
 
-Properties: [[Sequential Limit Theorems in R]]
-Sufficiencies: [[Bolzano-Weierstrass Theorem]], [[Ratio Test (Sequence)]]
-Equivalences: [[Convergence Criteria in R]], [[Metric-completeness of R]]
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
+Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
 ``` ad-Definition

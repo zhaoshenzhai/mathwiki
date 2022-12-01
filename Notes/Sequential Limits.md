@@ -8,12 +8,12 @@ Date Created: 29/08/2022 16:59:28
 Tags: #Definition #Courses/MATH254 #Later/Topology
 
 Types: _Not Applicable_
-Examples: [[Sequential Limits in R]]
-Constructions: [[Sequential Criterion for Functional Limits]]
-Generalizations: [[Sequential Limits to Infinity]]
+Examples: [[Sequential Limits in a Metric Space]], [[Sequential Limits in an Ordered Space]]
+Constructions: _Not Applicable_
+Generalizations: _Not Applicable_
 
-Properties: [[Convergent implies bounded (sequential)]], [[Convergent implies Cauchy]], [[Subsequences converge to the same limit]]
-Sufficiencies: [[Monotone Convergence Theorem]], [[Squeezed Distance Lemma]]
+Properties: [[Subsequences converge to the same limit]]
+Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Hausdorff implies limits are unique]]
 

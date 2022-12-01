@@ -5,11 +5,11 @@ Tags: #Definition #Courses/MATH254 #Later/Topology
 
 Types: [[Bounded Sequence]], [[Cauchy Sequence]], [[Contractive Sequence]]
 Examples: [[Sequences in R]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: [[Sequential Limits in a Metric Space]]
+Generalizations: [[Sequences in a Topological Space]]
 
-Properties: [[Convergent implies bounded (sequential)]]
-Sufficiencies: [[Squeezed Distance Lemma]]
+Properties: _Not Applicable_
+Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

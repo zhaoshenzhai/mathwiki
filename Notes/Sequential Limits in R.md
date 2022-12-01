@@ -9,8 +9,8 @@ Tags: #Definition #Courses/MATH254
 
 Types: _Not Applicable_
 Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth root of real]], [[Limit of nth root of n]]
-Constructions: [[Convergent and Divergent Series]]
-Generalizations: _Not Applicable_
+Constructions: [[Euler's Number]], [[Limit Superior slash Inferior]], [[Convergent and Divergent Series]]
+Generalizations: [[Sequential Limits in a Metric Space]]
 
 Properties: [[Sequential Limit Theorems in R]]
 Sufficiencies: [[Bolzano-Weierstrass Theorem]], [[Ratio Test (Sequence)]]

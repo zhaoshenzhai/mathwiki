@@ -10,7 +10,7 @@ Tags: #Definition #Courses/MATH254
 Types: _Not Applicable_
 Examples: _Not Applicable_
 Constructions: [[Differentiable Function in R]]
-Generalizations: [[Functional Limits]]
+Generalizations: [[Functional Limits in a Metric Space]]
 
 Properties: [[Functional Limit Theorems in R]]
 Sufficiencies: _Not Applicable_

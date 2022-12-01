@@ -4,13 +4,13 @@ Date Created: 16/11/2022 17:44:54
 Tags: #Definition #Courses/MATH254 #Later/Topology
 
 Types: _Not Applicable_
-Examples: [[Functional Limits in R]]
+Examples: [[Functional Limits in a Metric Space]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Convergent implies bounded (functional)]]
+Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [[Sequential Criterion for Functional Limits]]
+Equivalences: _Not Applicable_
 Justifications: [[Hausdorff implies limits are unique]]
 
 ``` ad-Definition
@@ -23,8 +23,3 @@ $$\begin{equation}
 _where $\mc{U}_L$ and $\mc{U}_p$ are the set of all neighborhoods of $L$ and $p$, respectively. If $\tpl{Y,\mc{T}_Y}$ is Hausdorff, then $L$ is unique so we write_ $\lim\limits_{x\to p}f\l(x\r)=L$_._
 
 ```
-
-**Remark.** If $X$ and $Y$ are metric spaces with metrics $d_X$ and $d_Y$, respectively, then $\lim\limits_{x\to p}f\l(x\r)=L$ iff
-$$\begin{equation}
-    \fa\epsilon>0,\ex\delta>0,\fa x\in\Omega:0<d_X\!\l(x,p\r)<\delta\Rightarrow d_Y\!\l(f\l(x\r),L\r)<\epsilon.\exqedin
-\end{equation}$$
