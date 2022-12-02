@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 24/11/2022 14:20:17
-Tags: #Proposition #Courses/MATH254
+Tags: #Theorem #Courses/MATH254
 
 Proved by: [[Continuous iff continuous at each point]], [[Sequential Criterion for Functional Limits]], [[Closure of set iff every neighborhood intersects set]]
 References: _Not Applicable_
@@ -14,8 +14,8 @@ Justifications: _Not Applicable_
 Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_
 
-``` ad-Proposition
-title: Proposition.
+``` ad-Theorem
+title: Theorem (Sequential$\textbf{/}$limit characterizations of continuity).
 
 _Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces and fix $\Omega\subseteq X$. For a function $f:\Omega\to Y$, the following are equivalent:_
 1. $f$ _is continuous._

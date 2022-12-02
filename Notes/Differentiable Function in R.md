@@ -8,13 +8,13 @@ Date Created: 30/11/2022 23:11:36
 Tags: #Definition #Courses/MATH254
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Power Rule]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Differentiable implies continuous]], [[Differentiation Theorems in R]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Fundamental Increment Lemma]]
+Equivalences: [[Fundamental Increment Lemma]], [[Caratheodory's Differentation Criterion]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
