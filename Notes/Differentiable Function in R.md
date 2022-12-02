@@ -12,7 +12,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Differentiable implies continuous]]
+Properties: [[Differentiable implies continuous]], [[Differentiation Theorems in R]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Fundamental Increment Lemma]]
 Justifications: _Not Applicable_
