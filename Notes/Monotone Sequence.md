@@ -20,5 +20,6 @@ _Let $\tpl{X,<}$ be a totally ordered set. A sequence_ $\tpl{x_n}_{n\in\N}$ _in 
 $$\begin{equation}
     \fa n\in\N:x_n\leq x_{n+1}\ \ \ \ \ \ \ \ \textrm{\it{(resp.} } \fa n\in\N:x_n\geq x_{n+1}\textrm{\it{)}}
 \end{equation}$$
+_If the inequalities are strict, the sequence is said to be **strictly increasing** (resp. **decreasing**)._
 
 ```
