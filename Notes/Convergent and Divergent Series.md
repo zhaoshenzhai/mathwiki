@@ -5,7 +5,7 @@ mathLink: Convergent/Divergent Series
 <div class="topSpace"></div>
 
 Date Created: 01/09/2022 15:41:10
-Tags: #Definition #Courses/MATH222
+Tags: #Definition #Courses/MATH222 #Courses/MATH255
 
 Types: [[Absolutely Convergent Series]]
 Examples: [[Geometric series converges (criteria)]], [[Alternating Series Test]]

@@ -4,7 +4,7 @@ Date Created: 16/02/2022 16:38:51
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: [[Rational convex set (not interval)]], [[Lexicographical plane convex set (not interval)]]
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

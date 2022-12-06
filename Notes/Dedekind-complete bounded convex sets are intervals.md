@@ -8,7 +8,7 @@ References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Generalizations: _Not Applicable_
-Counterexamples: [[Rational convex set (not interval)]], [[Lexicographical plane convex set (not interval)]]
+Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.
