@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/02/2022 12:18:48
-Tags: #Proposition
+Tags: #Proposition #Later/Category_Theory
 
 Proved by: _Not Applicable_
 References: _Not Applicable_
@@ -13,7 +13,7 @@ Counterexamples: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ be a category and fix a left and right-invertible morphism $f:X\to Y$ with one-sided inverses $g,h:Y\to X$, respectively. Then $g=h$ and thus $f$ is invertible._
+_Let $\cat{C}$ be a category and let $f:X\to Y$ be both left and right-invertible with one-sided inverses $g,h:Y\to X$, respectively. Then $g=h$ and thus $f$ is invertible._
 
 ```
 

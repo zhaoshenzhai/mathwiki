@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH254
 
 Types: [[Bounded Function]]
 Examples: [[Functions in R]]
-Constructions: _Not Applicable_
+Constructions: [[Local slash Global Extrema]]
 Generalizations: _Not Applicable_
 
 Properties: [[Sequential Criterion for Functional Limits]], [[Sequential slash functional limit characterizations of continuity]], [[Convergent implies bounded (functional)]]

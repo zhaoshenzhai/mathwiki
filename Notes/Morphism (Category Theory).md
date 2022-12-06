@@ -1,10 +1,10 @@
 <div class="topSpace"></div>
 
 Date Created: 21/02/2022 15:18:46
-Tags: #Definition
+Tags: #Definition #Later/Category_Theory
 
 Types: [[Left-invertible Morphism]], [[Right-invertible Morphism]], [[Isomorphism (Category Theory)]], [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]
-Examples: [[Identity Morphism]], [[Function]], [[Linear Map]]
+Examples: [[Identity Morphism]], [[Function]], [[Linear Map]], [[Group Homomorphism]], [[Ring Homomorphism]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
@@ -21,6 +21,8 @@ _Let $\cat{C}$ be a category and fix $X,Y\in\obj\l(\cat{C}\r)$. A **$\cat{C}$-mo
 ```
 
 **Remark.** If $f\in\hom\l(X,Y\r)$, write $f:X\to Y$ and define $\dom f\coloneqq X$ and $\cdm f\coloneqq Y$. Other $\textrm{`}$functional$\textrm{'}$ notations (like $\mapsto$) need not apply.<span style="float:right;">$\blacklozenge$</span>
+
+---
 
 **Remark.** If there exist $X,Y\in\obj\l(\cat{C}\r)$ such that $f$ is a morphism from $X$ to $Y$, write $f\in\hom\l(\cat{C}\r)$. In other words, write, _informally_,
 $$\begin{equation}

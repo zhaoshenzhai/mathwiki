@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 25/02/2022 13:16:20
-Tags: #Proposition
+Tags: #Proposition #Later/Category_Theory
 
 Proved by: [[Category of sets is a locally-small category]], [[Axiom Schema of Specification]]
 References: _Not Applicable_

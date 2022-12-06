@@ -3,7 +3,7 @@
 Date Created: 22/03/2022 16:12:09
 Tags: #Definition
 
-Types: [[Reduced Row-echelon Matrix]], [[Square Matrix]], [[Left-invertible Matrix]], [[Right-inverible Matrix]]
+Types: [[Reduced Row-echelon Matrix]], [[Square Matrix]], [[Invertible Matrix]]
 Examples: [[Augmented Matrix]]
 Constructions: [[Set of Matrices]], [[Left-multiplication of Matrices]], [[Kernel; Null Space]], [[Image; Column Space]]
 Generalizations: _Not Applicable_

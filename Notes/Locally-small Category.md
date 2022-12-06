@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/02/2022 13:22:50
-Tags: #Definition
+Tags: #Definition #Later/Category_Theory
 
 Types: [[Thin Category]]
 Examples: [[Category of Sets]], [[Category of Relations]], [[Category of Vector Spaces]]

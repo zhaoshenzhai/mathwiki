@@ -20,6 +20,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\R$ be the set of real numbers. A function $f$ is said to be a **real-value function of a real variable** if $f:S\to\R$ for some $S\subseteq\R$._
+_Let $\R$ be the set of real numbers. A function $f$ is said to be a **real-valued function of a real variable** if $f:S\to\R$ for some $S\subseteq\R$._
 
 ```

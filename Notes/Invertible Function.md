@@ -9,18 +9,18 @@ Constructions: [[Isomorphic Sets]]
 Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]
 
 Properties: [[Inverse of bijection is a bijection]], [[Inverse of linear map is linear]]
-Sufficiencies: [[Left and right inverses coincide (function)]]
-Equivalences: [[Invertible iff bijective]]
-Justifications: [[Inverse of function is unique]]
+Sufficiencies: _Not Applicable_
+Equivalences: [[Left-invertible iff injection]], [[Right-invertible iff surjection (Choice)]], [[Invertible iff bijective]]
+Justifications: [[Inverse of function is unique]], [[Left and right inverses coincide (function)]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ and $Y$ be sets. A function $f:X\to Y$ is said to be **invertible** if there exists $g:Y\to X$ such that $g$ is both a left and right-inverse of $f$; that is, if_
-$$\begin{equation}
-    g\circ f=\id_X\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ f\circ g=\id_Y,
-\end{equation}$$
-_in which case we write $g\coloneqq f^{-1}$ and call it the **inverse of $f$**._
+_Let $X$ and $Y$ be sets and consider a function $f:X\to Y$._
+* _If there exists a function $g:Y\to X$ such that $g\circ f=\id_X$, then $f$ is said to be **left-invertible** and $g$ is called a **left-inverse of $f$**._
+* _If there exists a function $h:Y\to X$ such that $f\circ h=\id_Y$, then $f$ is said to be **right-invertible** and $h$ is called a **right-inverse of $f$**._
+
+_If $f$ has both a left and right inverse, then $f$ is said to be **invertible** and $f^{-1}\coloneqq g=h$ is called the **inverse of $f$**._
 
 ```
 

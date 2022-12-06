@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/03/2022 14:43:42
-Tags: #Definition
+Tags: #Definition #Later/Category_Theory
 
 Types: [[Invertible Functor]]
 Examples: _Not Applicable_

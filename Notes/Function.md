@@ -3,7 +3,7 @@
 Date Created: 14/01/2022 14:25:20
 Tags: #Definition
 
-Types: [[Injection]], [[Surjection]], [[Left-invertible Function]], [[Right-invertible Function]], [[n-ary Operation]], [[Group Homomorphism]], [[Ring Homomorphism]], [[Linear Map]]
+Types: [[Injection]], [[Surjection]], [[Invertible Function]], [[n-ary Operation]], [[Group Homomorphism]], [[Ring Homomorphism]], [[Linear Map]]
 Examples: [[Functions in a Topological Space]], [[Kronecker Delta]]
 Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction slash Extension (Function)]], [[Composition (Function)]], [[Function Space (Set Theory)]], [[Indexed Family]]
 Generalizations: [[Morphism (Category Theory)]], [[Class Function]]

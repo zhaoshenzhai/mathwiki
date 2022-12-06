@@ -4,7 +4,7 @@ Date Created: 17/11/2022 20:34:29
 Tags: #Definition #Courses/MATH254
 
 Types: _Not Applicable_
-Examples: [[Functions in a Metric Space]]
+Examples: [[Functions in a Metric Space]], [[Functions in an Ordered Space]]
 Constructions: [[Functional Limits]]
 Generalizations: _Not Applicable_
 

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 01/04/2022 23:50:42
-Tags: #Proposition
+Tags: #Proposition #Later/Category_Theory
 
 Proved by: _Not Applicable_
 References:  [[Category of sets is a locally-small category]], [[Identity function is a linear map]], [[Composition of linear maps is a linear map]]
