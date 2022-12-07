@@ -22,7 +22,7 @@ _Let $G$ be a group. Then $G$ is Abelian iff the map $\phi:G\to G:g\mapsto g^{-1
 ```
 
 _Proof_. Take $g_1,g_2\in G$.
-* ($\Rightarrow$): Since $G$ is Abelian, we see that
+* ($\Rightarrow$): It is obvious that $\phi$ is a bijection. Since $G$ is Abelian, we see that
 $$\begin{equation}
     \phi\l(g_1g_2\r)=\l(g_1g_2\r)^{-1}=g_2^{-1}g_1^{-1}=g_1^{-1}g_2^{-1}=\phi\l(g_1\r)\phi\l(g_2\r).
 \end{equation}$$
