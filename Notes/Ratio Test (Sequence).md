@@ -17,7 +17,7 @@ _Let_ $\tpl{x_n}_{n\in\N}$ _be a sequence in $\R$ such that $\fa^\infty n\in\N:x
 $$\begin{equation}
     L\coloneqq\lim\limits_{n\to\infty}\l|\frac{x_{n+1}}{x_n}\r|.
 \end{equation}$$
-_If $L<1$, then_ $\lim\limits_{n\to\infty}x_n=0$_. Otherwise, if $L>1$, then_ $\lim\limits_{n\to\infty}x_n=\pm\infty$_._
+_If $L<1$, then_ $\lim\limits_{n\to\infty}x_n=0$_. Otherwise, if $L>1$, then_ $\lim\limits_{n\to\infty}\l|x_n\r|=+\infty$_._
 
 ```
 
@@ -64,4 +64,4 @@ of inequalities, so
 $$\begin{equation}
     d\l(x_n,0\r)=\l|x_n\r|>\l|x_N\r|\lambda^{n-N}=\frac{\l|x_N\r|}{\lambda^N}\lambda^n.
 \end{equation}$$
-But since $\frac{\l|x_N\r|}{\lambda^N}\lambda^n\to+\infty$ as $n\to\infty$ and $d\l(x_n,0\r)>\frac{\l|x_N\r|}{\lambda^N}\lambda^n$ for sufficiently large $n\in\N$, we see that $\tpl{\l|x_n\r|}$ converges to $+\infty$. Thus $\lim\limits_{n\to\infty}x_n=\pm\infty$.<span style="float:right;">$\blacksquare$</span>
+But since $\frac{\l|x_N\r|}{\lambda^N}\lambda^n\to+\infty$ as $n\to\infty$ and $d\l(x_n,0\r)>\frac{\l|x_N\r|}{\lambda^N}\lambda^n$ for sufficiently large $n\in\N$, we see that $\tpl{\l|x_n\r|}$ converges to $+\infty$.<span style="float:right;">$\blacksquare$</span>

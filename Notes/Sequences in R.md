@@ -10,7 +10,7 @@ Tags: #Definition #Courses/MATH254
 Types: [[Geometric Sequence]], [[Alternating Sequence]]
 Examples: _Not Applicable_
 Constructions: [[Sequential Limits in R]]
-Generalizations: [[Sequences in a Metric Space]]
+Generalizations: [[Sequences in a Metric Space]], [[Sequences in an Ordered Space]]
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_

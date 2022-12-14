@@ -18,7 +18,7 @@ title: Definition.
 
 _Let $\tpl{X,\mc{T}_X}$ and $\tpl{Y,\mc{T}_Y}$ be topological spaces. A function $f:X\to Y$ is said to be **continuous w.r.t $\mc{T}_X$ and $\mc{T}_Y$** if preimages of open sets are open; that is, if_
 $$\begin{equation}
-    \fa V\in\mc{T}_Y,\preim_f\l(V\r)\in\mc{T}_X.
+    \fa V\in\mc{T}_Y:\preim_f\l(V\r)\in\mc{T}_X.
 \end{equation}$$
 _In particular, for all fixed $p\in X$, we say that $f$ is **continuous at $p$ w.r.t. $\mc{T}_X$ and $\mc{T}_Y$** if_
 $$\begin{equation}
