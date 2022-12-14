@@ -7,8 +7,8 @@ Proved by: [[Identity function is a bijection]], [[Inverse of bijection is a bij
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: [[Isomorphism of objects is an equivalence relation]]
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

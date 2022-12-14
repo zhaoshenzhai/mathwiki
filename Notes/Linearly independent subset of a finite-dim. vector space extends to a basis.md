@@ -7,8 +7,8 @@ Proved by: [[Steinitz Exchange Lemma]], [[Enlargement of linearly independent se
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
-Generalizations: [[Linearly independent subset of an arbitrary vector space extends to a basis]]
-Counterexamples: _Not Applicable_
+Specializations: _Not Applicable_
+Generalizations: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

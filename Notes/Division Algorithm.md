@@ -7,8 +7,8 @@ Proved by: [[Omega is an ordinal]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: [[Euclidean Domain]]
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Division Algorithm).

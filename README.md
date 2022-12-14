@@ -31,10 +31,10 @@ Each note is currently one of five types (four atomic notes and one [map of cont
 
 * **Proposition** and **Theorem** (differentiated by 'importance'), including both `statement` and `proof` regarding `object`/`notion`, which links to:
     * Proved by: _Statements in which `proof` depends crucially on._
-    * References: _Notes in which the proofs of `statement` are delegated to._
+    * References: _Notes in which the proofs of `statement` (or corollaries thereof) are delegated to._
     * Justifications: _Proofs of implicit assumptions of `object`/`notion` in `statement`._<br/><br/>
-    * Generalizations: _Statements and proofs of generalizations of `statement`._
-    * Counterexamples: _Illustrations of why hypotheses in `statement` are necessary for `proof`._
+    * Specializations: _Reformulations/proofs of instances of `statement`._
+    * Generalizations: _Statements and proofs of abstractions of `statement`._
 * **Axiom**, written as a formal `statement` within a certain framework, which links to:
     * Equivalences: _Equivalent statements - including its proof._
     * Constructions: _Objects/notions that crucially depend on `statement`._
@@ -69,7 +69,7 @@ I wrote some bash scripts to (try) maintain the consistency of my notes; [main.s
 * Displaying all links that have yet to be created and all notes that have those links, are handled by [ghost.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/ghost.sh).
 * Resetting the modification time of each note to its creation time is handled by [resetModifyTime.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/resetModifyTime.sh).
 
-Some stats: 791 notes, 1951 links, 60 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
+Some stats: 790 notes, 1947 links, 59 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
 ## :symbols: MathLinks
 

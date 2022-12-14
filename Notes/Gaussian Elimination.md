@@ -7,8 +7,8 @@ Proved by: [[Row-equivalent augmented matrices implies equivalent linear systems
 References: _Not Applicable_
 Justifications: [[Gaussian Algorithm]], [[RREF of a matrix is unique]]
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Gaussian Elimination).

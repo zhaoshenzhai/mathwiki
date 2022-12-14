@@ -7,8 +7,8 @@ Proved by: [[Basic properties of left-multiplication of matrices]], [[Identity f
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

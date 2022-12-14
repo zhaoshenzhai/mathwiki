@@ -7,8 +7,8 @@ Proved by: [[Right slash left multiplication by basis vector picks out column sl
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

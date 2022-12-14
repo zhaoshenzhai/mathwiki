@@ -7,8 +7,8 @@ Proved by: [[Invertible iff bijective]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: [[Inverse of isomorphism is an isomorphism]]
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

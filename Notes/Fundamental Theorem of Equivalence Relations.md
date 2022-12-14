@@ -7,8 +7,8 @@ Proved by: [[Same equivalence class iff related]]
 References: [[Relation induced by a partition is an equivalence relation]], [[Quotient set is a partition]]
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Fundamental Theorem of Equivalence Relations).

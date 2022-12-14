@@ -11,8 +11,8 @@ Proved by: [[Bernoulli's Inequality]], [[Limit of 1 over linear]], [[Squeezed Di
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

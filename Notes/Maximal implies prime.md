@@ -11,8 +11,8 @@ Proved by: _Not Applicable_
 References: [[Ideal is maximal iff quotient is a field]], [[Ideal is prime iff quotient is an integral domain]]
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

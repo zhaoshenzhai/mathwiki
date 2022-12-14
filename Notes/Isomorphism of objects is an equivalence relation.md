@@ -7,8 +7,8 @@ Proved by: [[Identity morphism is an isomorphism]], [[Inverse of isomorphism is 
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 **Remark.** Here, $\iso$ is taken as a $\textrm{`}$binary relation$\textrm{'}$ defined by $X\iso Y$ iff there exists a morphism $f:X\to Y$; it is _not_ a binary relation in the strict sense since $X$ and $Y$ need not be sets.<span style="float:right;">$\blacklozenge$</span>
 

@@ -4,11 +4,11 @@ Date Created: 25/11/2022 10:27:10
 Tags: #Theorem #Later/Topology
 
 Proved by: _Not Applicable_
-References: [[Heine-Cantor Theorem in R]], [[Heine-Cantor Theorem (General)]]
+References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: [[Heine-Cantor Theorem in R]]
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Heine-Cantor).

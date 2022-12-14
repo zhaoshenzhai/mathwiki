@@ -11,8 +11,8 @@ Proved by: [[Linear isomorphism between finite-dim vector spaces and tuple space
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

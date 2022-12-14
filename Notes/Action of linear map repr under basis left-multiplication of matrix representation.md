@@ -11,8 +11,8 @@ Proved by: [[Composition of linear maps repr under basis matrix product of repre
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

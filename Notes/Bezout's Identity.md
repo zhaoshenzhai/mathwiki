@@ -11,8 +11,8 @@ Proved by: _Not Applicable_
 References: [[Ring of integers is a PID]], [[Polynomial ring over fields are PIDs]]
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (B$\acute{\textbf{e}}$zout$\textbf{'}$s Identity).

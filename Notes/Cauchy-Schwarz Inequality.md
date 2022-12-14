@@ -7,8 +7,8 @@ Proved by: [[Pythagorean Theorem]], [[Linearly dependent iff scalar multiple]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Cauchy-Schwarz Inequality).

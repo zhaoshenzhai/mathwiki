@@ -11,8 +11,8 @@ Proved by: _Not Applicable_
 References: [[Set of linear maps form a linear subspace of the function space]], [[Identity function is the identity of function composition]], [[Composition of relations is associative]], [[Basic properties of composition of linear maps]]
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

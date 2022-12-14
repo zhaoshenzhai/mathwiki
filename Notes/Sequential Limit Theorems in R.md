@@ -11,8 +11,8 @@ Proved by: [[Convergent implies bounded (sequential)]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Sequential Limit Theorems in $\R$).

@@ -11,8 +11,8 @@ Proved by: [[Linearly independent set extends to a basis]], [[Invariance of card
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

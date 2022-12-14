@@ -11,8 +11,8 @@ Proved by: [[Set of cosets partition the group]], [[Cosets have the same cardina
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Lagrange$\textrm{'}$s Theorem).

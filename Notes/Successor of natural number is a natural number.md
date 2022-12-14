@@ -7,8 +7,8 @@ Proved by: [[Successor of an ordinal is the next smallest ordinal]], [[Reflexive
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

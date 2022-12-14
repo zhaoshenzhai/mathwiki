@@ -11,8 +11,8 @@ Proved by: _Not Applicable_
 References:  [[Category of sets is a locally-small category]], [[Identity function is a linear map]], [[Composition of linear maps is a linear map]]
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

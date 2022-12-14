@@ -7,8 +7,8 @@ Proved by: [[Invertible iff bijective]], [[Composition of relations is associati
 References: [[Composition of injections is an injection]], [[Composition of surjections is a surjection]]
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: [[Composition of isomorphims are isomorphisms]]
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

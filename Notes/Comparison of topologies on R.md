@@ -11,8 +11,8 @@ Proved by: _Not Applicable_
 References: [[Upper-limit topology strictly finer than standard topology on R]], [[Lower-limit topology strictly finer than standard topology on R]], [[K topology strictly finer than standard topology on R]], [[Upper-limit topology strictly finer than K topology on R]], [[Lower and upper limit topologies are not comparable on R]], [[Lower and K topologies are not comparable on R]]
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

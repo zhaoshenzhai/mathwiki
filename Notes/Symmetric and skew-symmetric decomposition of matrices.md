@@ -11,8 +11,8 @@ Proved by: [[Transposition is a linear map]], [[Symmetric matrices form a linear
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

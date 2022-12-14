@@ -11,8 +11,8 @@ Proved by: [[Basic properties of groups]], [[Criteria for equality of functions]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Cayley$\textrm{'}$s Theorem).

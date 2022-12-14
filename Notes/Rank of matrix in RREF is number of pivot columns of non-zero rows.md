@@ -11,8 +11,8 @@ Proved by: [[Elementary matrices slash operations are rank-preserving]], [[Linea
 References: _Not Applicable_
 Justifications: [[Gaussian Algorithm]]
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

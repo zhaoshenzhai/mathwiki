@@ -7,8 +7,8 @@ Proved by: [[Omega is an initial segment of ON]], [[Well-ordering well-orders su
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

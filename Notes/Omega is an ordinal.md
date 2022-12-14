@@ -11,8 +11,8 @@ Proved by: _Not Applicable_
 References: [[Omega is an initial segment of ON]], [[Initial segment of ON is an ordinal]]
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

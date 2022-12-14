@@ -11,8 +11,8 @@ Proved by: [[Convergent implies Cauchy]], [[Cauchy implies bounded]], [[Bolzano-
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Metric-completeness of $\R$).

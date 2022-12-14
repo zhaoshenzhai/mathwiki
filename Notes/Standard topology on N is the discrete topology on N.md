@@ -11,8 +11,8 @@ Proved by: [[Discrete topology (basis)]], [[Criteria for collection to be a basi
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

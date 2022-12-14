@@ -7,8 +7,8 @@ Proved by: [[Composition of relations is associative]], [[Identity function is t
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: [[Left and right inverses coincide (morphism)]]
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

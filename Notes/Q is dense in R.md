@@ -11,8 +11,8 @@ Proved by: [[Archimedean Property of R]], [[Omega is an ordinal]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition ($\Q$ is dense in $\R$).

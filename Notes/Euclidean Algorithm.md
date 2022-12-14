@@ -7,8 +7,8 @@ Proved by: _Not Applicable_
 References: _Not Applicable_
 Justifications: [[Division Algorithm]]
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Euclidean Algorithm).

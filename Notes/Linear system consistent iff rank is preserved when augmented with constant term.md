@@ -11,8 +11,8 @@ Proved by: [[Column space is spanned by columns of matrix]], [[Dimension of subs
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

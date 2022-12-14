@@ -7,8 +7,8 @@ Proved by: _Not Applicable_
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: [[Restricted order topology subset of subspace topology]]
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

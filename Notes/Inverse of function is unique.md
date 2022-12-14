@@ -7,8 +7,8 @@ Proved by: [[Identity function is the identity of function composition]], [[Comp
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: [[Inverse of morphism is unique]]
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

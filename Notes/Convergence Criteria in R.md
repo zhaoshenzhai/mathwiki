@@ -11,8 +11,8 @@ Proved by: [[Bolzano-Weierstrass Theorem]]
 References: [[Convergent implies bounded (sequential)]], [[Subsequences converge to the same limit]]
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Convergence Criteria in $\R$).

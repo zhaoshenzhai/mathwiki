@@ -7,8 +7,8 @@ Proved by: [[Linear map is injective iff kernel vanishes]], [[Dimension Theorem]
 References: [[Matrix invertible iff left-multiplication invertible]], [[Invertible coefficient matrix iff unique solution]], [[Inverse of transpose is transpose of inverse]]
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Invertible Matrix Theorem).

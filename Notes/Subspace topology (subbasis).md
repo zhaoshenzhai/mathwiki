@@ -7,8 +7,8 @@ Proved by: [[Criteria for subbasis to generate existing basis]], [[Subspace topo
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

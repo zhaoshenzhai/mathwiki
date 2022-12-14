@@ -7,11 +7,11 @@ Proved by: _Not Applicable_
 References: [[Subgroup Test]]
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
-title: Proposition.
+title: Proposition (Subring Test).
 
 _Let $\tpl{R,+,\cdot,0}$ be a ring and fix a subset $S\subseteq R$. Let_ $+'\coloneqq\l.+\r|_{S\times S}$ _and_ $\cdot'\coloneqq\l.\cdot\r|_{S\times S}$_, and fix $0'\in S$. Then $\tpl{S,+',\cdot',0'}$ is a subring of $\tpl{R,+,\cdot,0}$ iff_
 * _$\tpl{S,+',0'}$ is a subgroup of $\tpl{R,+,0}$, and_

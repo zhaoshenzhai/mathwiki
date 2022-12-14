@@ -7,8 +7,8 @@ Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: [[Absolute complement of a set is a proper class]]
 
 ``` ad-Proposition
 title: Proposition.

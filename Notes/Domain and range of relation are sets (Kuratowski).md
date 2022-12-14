@@ -7,8 +7,8 @@ Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: [[Domain and range of relation are sets (General)]]
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

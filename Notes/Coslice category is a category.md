@@ -7,8 +7,8 @@ Proved by: _Not Applicable_
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: [[Comma category is a category]]
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

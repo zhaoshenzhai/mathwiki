@@ -11,8 +11,8 @@ Proved by: [[Function space is a set]]
 References: [[Composition of relations is a relation]], [[Identity function is the identity of function composition]]
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

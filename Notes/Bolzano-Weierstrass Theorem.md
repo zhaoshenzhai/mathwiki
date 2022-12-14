@@ -7,8 +7,8 @@ Proved by: [[Union of finite sets is finite]], [[Nested Interval Theorem]], [[Sq
 References: [[Monotone Subsequence Theorem]], [[Monotone Convergence Theorem]]
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Bolzano-Weierstrass Theorem).

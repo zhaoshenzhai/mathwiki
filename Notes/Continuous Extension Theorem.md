@@ -7,8 +7,8 @@ Proved by: [[Heine-Borel Theorem]], [[Heine-Cantor Theorem]], [[Sequential slash
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Continuous Extension Theorem).

@@ -74,9 +74,9 @@ fi
 
 # Identifier
 echo ""
-read -ep "$(echo -e "${PURPLE}Select line containing [string]: "${NC})" identifier
+read -rp "$(echo -e "${PURPLE}Select line containing [string]: "${NC})" identifier
 while [ -z "$identifier" ];do
-    read -ep "$(echo -e "${PURPLE}Select line containing [string]: "${NC})" identifier
+    read -rp "$(echo -e "${PURPLE}Select line containing [string]: "${NC})" identifier
 done
 identifier=$(Format "$identifier")
 
