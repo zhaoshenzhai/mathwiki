@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Euler's Theorem]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Multiplicative group iff coprime]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

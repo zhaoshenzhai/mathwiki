@@ -7,7 +7,7 @@ mathLink: $\tpl{\Z_n,+,\cdot}$ is a field $\Leftrightarrow$ $n$ prime
 Date Created: 03/11/2022 19:37:42
 Tags: #Proposition #Courses/MATH235
 
-Proved by: _Not Applicable_
+Proved by: [[Multiplicative group iff coprime]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
