@@ -21,7 +21,7 @@ _Let $R$ be an integral domain. Then its characteristic is either prime or $0$._
 
 ```
 
-_Proof_. Let $n\coloneqq\charac R$. If $n\neq0$, then, in particular, we have that $n1=0$. Suppose, for sake of contradiction, that $m$ is not prime. Thus there exist integers $1<a,b<n$ such that $n=ab$. But then
+_Proof_. Let $n\coloneqq\charac R$. If $n\neq0$, then, in particular, we have that $n1=0$. Suppose, for sake of contradiction, that $n$ is not prime. Thus there exist integers $1<a,b<n$ such that $n=ab$. But then
 $$\begin{equation}
     a1\cdot b1=\l(ab\r)1=n1=0,
 \end{equation}$$

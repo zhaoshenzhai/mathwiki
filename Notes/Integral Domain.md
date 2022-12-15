@@ -16,9 +16,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A ring $\tpl{R,+,\cdot,0}$ is said to be an **integral domain** if it is a commutative ring with unit $1\neq0$, and is such that_
+_A commutative ring with unit $\tpl{R,+,\cdot,0}$ is said to be an **integral domain** if_
 $$\begin{equation}
     \fa r,s\in R:\l[rs=0\Rightarrow\l(r=0\lor s=0\r)\r].
 \end{equation}$$
 
 ```
+
+**Remark.** Equivalently, $R$ is an integral domain if it does not have any zero-divisors.<span style="float:right;">$\blacklozenge$</span>

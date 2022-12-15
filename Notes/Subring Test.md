@@ -22,4 +22,4 @@ _Let $\tpl{R,+,\cdot,0}$ be a ring and fix a subset $S\subseteq R$. Let_ $+'\col
 _Proof_.
 * ($\Rightarrow$): Since $S$ is a subring of $R$, we see that $\tpl{S,+',\cdot',0'}$ is a ring and hence $\tpl{S,+',0'}$ is a group. As in the proof for the Subgroup Test, we see that $0'=0$ and hence $\tpl{S,+',0}$ is a subgroup of $\tpl{R,+,0}$. Now, the fact that $\cdot'$ closes in $S$ follows readily from the fact that $\tpl{S,+',\cdot',0}$ is a ring.
 
-* ($\Rightarrow$): Being a subgroup, we see that $\tpl{S,+',\cdot',0}$ is an Abelian group. Now, since $\cdot':S\times S\to S$ closes and is associative, we see that $\l(S,\cdot'\r)$ is a monoid. The distributive laws hold trivially.<span style="float:right;">$\blacksquare$</span>
+* ($\Leftarrow$): Being a subgroup, we see that $\tpl{S,+',\cdot',0}$ is an Abelian group. Now, since $\cdot':S\times S\to S$ closes and is associative, we see that $\l(S,\cdot'\r)$ is a monoid. The distributive laws hold trivially.<span style="float:right;">$\blacksquare$</span>
