@@ -40,8 +40,8 @@ Each note is currently one of five types (four atomic notes and one [map of cont
     * Constructions: _Objects/notions that crucially depend on `statement`._
 * **MOC**, summarizing my understanding of a mathematical `theory`, which links to:
     * Context: _Assumed background formalism(s) of `theory`._
-    * Extensions: _Specializations of `theory` or its intersections with other theories._
-    * Generalizations: _Abstractions of `theory` or its unifications with other theories._
+    * Excursions: _Subtheories of `theory` or its intersections with other theories._
+    * Abstractions: _Abstractions of `theory` or its unifications with other theories._
 
 These templates are automatically [inserted][templatesInsert] whenever a note is created. After the links, the main content is written with remarks where appropriate.
 
@@ -69,7 +69,7 @@ I wrote some bash scripts to (try) maintain the consistency of my notes; [main.s
 * Displaying all links that have yet to be created and all notes that have those links, are handled by [ghost.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/ghost.sh).
 * Resetting the modification time of each note to its creation time is handled by [resetModifyTime.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/resetModifyTime.sh).
 
-Some stats: 792 notes, 1975 links, 60 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
+Some stats: 790 notes, 1963 links, 60 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
 ## :symbols: MathLinks
 

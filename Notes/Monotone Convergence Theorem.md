@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Monotone Convergence Theorem).
 
-_Let $\tpl{X,\mc{T}}$ be an Dedekind-complete ordered topological space. If $\tpl{x_n}$ is an eventually monotone and bounded sequence in $X$, then it converges. In fact,_
+_Let $\tpl{x_n}$ be a sequence in $\R$. If $\tpl{x_n}$ is eventually monotone and bounded in $X$, then it converges. In fact,_
 * _if $\tpl{x_n}$ is eventually monotonically increasing and bounded above, then_ $\lim\limits_{n\to\infty}x_n=\sup\limits_{n\in\N}x_n$_, and_
 * _if $\tpl{x_n}$ is eventually monotonically decreasing and bounded below, then_ $\lim\limits_{n\to\infty}x_n=\inf\limits_{n\in\N}x_n$_._
 

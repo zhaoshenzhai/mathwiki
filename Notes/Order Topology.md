@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: [[Standard Topology on R]], [[Standard Topology on N]], [[Lexicographical Order Topology]]
-Constructions: [[Order Space (Topology)]], [[Sequential Limits in an Ordered Space]]
+Constructions: [[Order Space (Topology)]]
 Generalizations: _Not Applicable_
 
 Properties: [[Restricted order topology subset of subspace topology]], [[Restricted order and subspace topologies coincide for convex sets]]

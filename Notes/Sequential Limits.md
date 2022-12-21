@@ -8,7 +8,7 @@ Date Created: 29/08/2022 16:59:28
 Tags: #Definition #Courses/MATH254 #Later/Topology
 
 Types: _Not Applicable_
-Examples: [[Sequential Limits in a Metric Space]], [[Sequential Limits in an Ordered Space]]
+Examples: [[Sequential Limits in a Metric Space]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

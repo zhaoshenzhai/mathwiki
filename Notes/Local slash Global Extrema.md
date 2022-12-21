@@ -20,7 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a metric space, $Y$ be a totally ordered set, and $f:X\to Y$. A point $p\in X$ is said to be a **local maximum** (resp. **local minimum**) **of $f$** if_
+_Let $X$ be a metric space and let $f:X\to\R$. A point $p\in X$ is said to be a **local maximum** (resp. **local minimum**) **of $f$** if_
 $$\begin{equation}
     \ex\delta>0,\fa x\in B_\delta\!\l(p\r)\cap X:f\l(x\r)\leq f\l(p\r)\ \ \ \ \ \ \ \ \textrm{\it{(resp.} } f\l(x\r)\geq f\l(p\r)\textrm{\it{)}}.
 \end{equation}$$

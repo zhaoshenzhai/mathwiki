@@ -4,7 +4,7 @@ Date Created: 07/08/2022 14:28:31
 Tags: #MOC #Later/Linear_Algebra
 
 Context: [Zermelo Fraenkel Set Theory](obsidian://open?file=TODO)
-Extensions: [Functional Analysis](obsidian://open?file=TODO), [Multilinear Algebra](obsidian://open?file=TODO)
+Excursions: [Functional Analysis](obsidian://open?file=TODO), [Multilinear Algebra](obsidian://open?file=TODO)
 Abstractions: [Category Theory](obsidian://open?file=TODO)
 
 $\huge\rm\bf{L}\normalsize\rm\bf{INEAR ALGEBRA}$ is the study of the [category of vector spaces](Category%20of%20Vector%20Spaces.md); that is, the study of [vector spaces](Vector%20Space.md) and [linear maps](Linear%20Map.md) between them.

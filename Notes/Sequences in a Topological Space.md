@@ -4,7 +4,7 @@ Date Created: 23/10/2022 19:23:18
 Tags: #Definition #Courses/MATH254
 
 Types: _Not Applicable_
-Examples: [[Sequences in a Metric Space]], [[Sequences in an Ordered Space]]
+Examples: [[Sequences in a Metric Space]]
 Constructions: [[Sequential Limits]]
 Generalizations: [[Tuples and Sequences]]
 

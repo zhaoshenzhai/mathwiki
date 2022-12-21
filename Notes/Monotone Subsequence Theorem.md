@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Monotone Subsequence Theorem).
 
-_Let $\tpl{X,<}$ be a totally ordered set and consider a sequence_ $\tpl{x_n}_{n\in\N}$ _in $X$. Then there exists a monotone subsequence_ $\tpl{x_{n_l}}_{k\in\N}$ _of $\tpl{x_n}$._
+_Let_ $\tpl{x_n}_{n\in\N}$ _be a sequence in $\R$. Then there exists a monotone subsequence_ $\tpl{x_{n_k}}_{k\in\N}$ _of $\tpl{x_n}$._
 
 ```
 

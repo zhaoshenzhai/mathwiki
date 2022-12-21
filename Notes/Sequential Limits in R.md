@@ -10,10 +10,10 @@ Tags: #Definition #Courses/MATH254
 Types: _Not Applicable_
 Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth root of real]], [[Limit of nth root of n]]
 Constructions: [[Euler's Number]], [[Limit Superior slash Inferior]], [[Convergent and Divergent Series]]
-Generalizations: [[Sequential Limits in a Metric Space]], [[Sequential Limits in an Ordered Space]]
+Generalizations: [[Sequential Limits in a Metric Space]], [[Sequential Limits to Infinity]]
 
 Properties: [[Sequential Limit Theorems in R]]
-Sufficiencies: [[Bolzano-Weierstrass Theorem]], [[Ratio Test (Sequence)]]
+Sufficiencies: [[Bolzano-Weierstrass Theorem]], [[Monotone Convergence Theorem]], [[Ratio Test (Sequence)]]
 Equivalences: [[Convergence Criteria in R]], [[Metric-completeness of R]]
 Justifications: [[Hausdorff implies limits are unique]]
 

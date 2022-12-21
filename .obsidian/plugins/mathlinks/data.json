@@ -201,6 +201,10 @@
     {
       "path": "Notes/Ring Theory.md",
       "isFile": true
+    },
+    {
+      "path": "Notes/Real Analysis.md",
+      "isFile": true
     }
   ],
   "autoUpdate": false

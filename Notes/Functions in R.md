@@ -7,9 +7,9 @@ mathLink: auto
 Date Created: 30/11/2022 23:06:10
 Tags: #Definition #Courses/MATH254
 
-Types: [[Continuous Function in R]]
+Types: [[Continuous Function in R]], [[Monotone Function]]
 Examples: _Not Applicable_
-Constructions: [[Functional Limits in R]]
+Constructions: [[Functional Limits in R]], [[Local slash Global Extrema]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

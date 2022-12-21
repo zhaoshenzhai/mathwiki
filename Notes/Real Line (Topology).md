@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Euclidean Topological Space]]
 Generalizations: _Not Applicable_
 
-Properties: [[Sequential Limit Theorems in R]]
+Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
