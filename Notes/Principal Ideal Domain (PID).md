@@ -8,7 +8,7 @@ Examples: [[Ring of integers is a PID]], [[Polynomial ring over fields are PIDs]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Bezout's Identity]]
 Sufficiencies: [[Euclidean Domain implies PID]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
