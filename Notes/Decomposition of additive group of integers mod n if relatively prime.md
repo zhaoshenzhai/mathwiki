@@ -1,5 +1,5 @@
 ---
-mathLink: $\Z_m\times\Z_n\iso\Z_{mn}$ (relatively prime)
+mathLink: $\Z_m\times\Z_n\iso\Z_{mn}$ ($m\perp n$)
 ---
 
 <div class="topSpace"></div>

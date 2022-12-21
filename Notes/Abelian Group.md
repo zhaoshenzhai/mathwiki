@@ -4,7 +4,7 @@ Date Created: 04/05/2022 17:13:39
 Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
-Examples: [[Trivial Group]], [[Additive Group of Integers mod n]]
+Examples: [[Additive Group of Integers mod n]]
 Constructions: [[Ring]], [[Vector Space]]
 Generalizations: _Not Applicable_
 

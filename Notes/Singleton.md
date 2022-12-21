@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Ordered Pair]], [[Successor]], [[Trivial Group]]
+Constructions: [[Ordered Pair]], [[Successor]]
 Generalizations: _Not Applicable_
 
 Properties: [[Collection of all singletons is a proper class]]

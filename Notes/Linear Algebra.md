@@ -3,9 +3,9 @@
 Date Created: 07/08/2022 14:28:31
 Tags: #MOC #Later/Linear_Algebra
 
-Context: [Zermelo Fraenkel Set Theory](Zermelo%20Fraenkel%20Set%20Theory.md)
-Extensions: [Functional Analysis](Functional%20Analysis.md), [Multilinear Algebra](Multilinear%20Algebra.md)
-Abstractions: [Category Theory](Category%20Theory.md)
+Context: [Zermelo Fraenkel Set Theory](obsidian://open?file=TODO)
+Extensions: [Functional Analysis](obsidian://open?file=TODO), [Multilinear Algebra](obsidian://open?file=TODO)
+Abstractions: [Category Theory](obsidian://open?file=TODO)
 
 $\huge\rm\bf{L}\normalsize\rm\bf{INEAR ALGEBRA}$ is the study of the [category of vector spaces](Category%20of%20Vector%20Spaces.md); that is, the study of [vector spaces](Vector%20Space.md) and [linear maps](Linear%20Map.md) between them.
 
@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ---
 
-**Characterizations.** Vector spaces are characterized by their dimension, in the sense that they are [linearly isomorphic $\Leftrightarrow$ their dimensions coincide](Linearly%20isomorphic%20iff%20dimensions%20coincide%20(finite-dim.).md). Thus in the finite-dimensional case, we can, under a choice of basis:
+**Characterizations.** As with most categories, vector spaces are [identified](Isomorphic%20Vector%20Spaces.md) up to [isomorphism](Linear%20Isomorphism.md). Indeed, they are characterized by their dimension, in the sense that they are [linearly isomorphic $\Leftrightarrow$ their dimensions coincide](Linearly%20isomorphic%20iff%20dimensions%20coincide%20(finite-dim.).md). Thus in the finite-dimensional case, we can, under a choice of basis:
 * [Represent](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md) vectors by tuples in $K^n$ (thereby establishing a [coordinate system](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md)).
 * [Represent](Linear%20isomorphism%20between%20linear%20maps%20and%20matrices.md) linear maps by [matrices](Matrix.md) (their actions on a vector [are represented by](Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md) matrix-vector multiplication, and compositions between linear maps [are represented by](Composition%20of%20linear%20maps%20repr%20under%20basis%20matrix%20product%20of%20representations.md) matrix multiplication).
 
