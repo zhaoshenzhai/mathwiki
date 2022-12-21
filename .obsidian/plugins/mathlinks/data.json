@@ -197,6 +197,10 @@
     {
       "path": "Notes/Group Theory.md",
       "isFile": true
+    },
+    {
+      "path": "Notes/Ring Theory.md",
+      "isFile": true
     }
   ],
   "autoUpdate": false
