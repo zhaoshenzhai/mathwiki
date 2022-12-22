@@ -16,6 +16,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_An ordered field $\tpl{X,+,\cdot,<}$ is said to be an **ordered field of real numbers** if $\tpl{X,<}$ is Dedekind-complete._
+_A totally ordered field $\tpl{R,+,\cdot,0,1,<}$ is said to be an **ordered field of real numbers** if $\tpl{R,<}$ is Dedekind-complete._
 
 ```
+
+**Remark.** Since any two models of the real numbers are isomorphic, we shall call any model thereof the **real numbers** and denote it by $\R$.<span style="float:right;">$\blacklozenge$</span>

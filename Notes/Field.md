@@ -4,7 +4,7 @@ Date Created: 03/11/2022 19:11:26
 Tags: #Definition #Courses/MATH235
 
 Types: _Not Applicable_
-Examples: [[Ring or Field of Integers mod n]]
+Examples: [[Ring or Field of Integers mod n]], [[Real Numbers]]
 Constructions: [[Vector Space]]
 Generalizations: _Not Applicable_
 

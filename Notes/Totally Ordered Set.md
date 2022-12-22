@@ -4,7 +4,7 @@ Date Created: 24/01/2022 15:31:46
 Tags: #Definition
 
 Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Examples: [[Real Numbers]]
 Constructions: [[Open Interval]], [[Half-open Intervals]], [[Closed Interval]], [[Open Ray]], [[Functions in an Ordered Space]]
 Generalizations: _Not Applicable_
 

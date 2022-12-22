@@ -5,7 +5,7 @@ Tags: #Definition
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Set of Real Numbers]]
+Constructions: [[Real Numbers]]
 Generalizations: _Not Applicable_
 
 Properties: [[Dedekind-complete bounded convex sets are intervals]], [[Nested Interval Theorem]], [[Monotone Convergence Theorem]]
