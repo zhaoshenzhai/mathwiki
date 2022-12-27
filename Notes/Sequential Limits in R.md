@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 30/11/2022 23:46:56
-Tags: #Definition #Courses/MATH254
+Tags: #Definition #Analysis #Courses/MATH254
 
 Types: _Not Applicable_
 Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth root of real]], [[Limit of nth root of n]]

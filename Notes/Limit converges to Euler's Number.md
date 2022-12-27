@@ -5,7 +5,7 @@ mathLink: $\l(1+\frac{1}{n}\r)^n$ converges
 <div class="topSpace"></div>
 
 Date Created: 23/10/2022 16:01:56
-Tags: #Proposition #Courses/MATH254
+Tags: #Proposition #Analysis #Courses/MATH254
 
 Proved by: [[Binomial Theorem]], [[Monotone Convergence Theorem]]
 References: _Not Applicable_

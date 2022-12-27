@@ -7,7 +7,7 @@ mathLink: Subspaces $U\subseteq V$ with $\dim V<\infty$ have complements
 Date Created: 14/05/2022 11:16:58
 Tags: #Proposition
 
-Proved by: [[Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper)]], [[Linearly independent set extends to a basis]]
+Proved by: [[Dimension of subspace]], [[Linearly independent set extends to a basis]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

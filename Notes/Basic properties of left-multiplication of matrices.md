@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/05/2022 23:48:31
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Matrix multiplication (columns slash rows)]], [[Action of linear map repr under basis left-multiplication of matrix representation]], [[Inverse of linear map is linear]], [[Criteria for equality of linear maps via spanning set]], [[Identity function on a vector space is represented by the identity matrix]]
 References: _Not Applicable_

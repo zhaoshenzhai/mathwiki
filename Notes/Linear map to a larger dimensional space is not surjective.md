@@ -3,7 +3,7 @@
 Date Created: 14/05/2022 14:20:01
 Tags: #Proposition
 
-Proved by: [[Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper)]], [[Dimension Theorem]]
+Proved by: [[Dimension of subspace]], [[Dimension Theorem]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

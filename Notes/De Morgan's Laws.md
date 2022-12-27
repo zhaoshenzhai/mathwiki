@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 18/01/2022 16:48:35
-Tags: #Proposition
+Tags: #Proposition #Set_Theory
 
 Proved by: [[Double complement of set is set itself]]
 References: _Not Applicable_

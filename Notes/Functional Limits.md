@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/11/2022 17:44:54
-Tags: #Definition #Courses/MATH254 #Later/Topology
+Tags: #Definition #Analysis #Courses/MATH254 #Later/Topology
 
 Types: _Not Applicable_
 Examples: [[Functional Limits in a Metric Space]]

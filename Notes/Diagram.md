@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 15/03/2022 10:32:36
-Tags: #Definition
+Tags: #Definition #Later/Category_Theory
 
 Types: [[Commutative Diagram]]
 Examples: _Not Applicable_

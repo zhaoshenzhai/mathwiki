@@ -5,7 +5,7 @@ mathLink: $\sqrt[n]{n}\to1$
 <div class="topSpace"></div>
 
 Date Created: 13/10/2022 08:32:51
-Tags: #Proposition #Courses/MATH254
+Tags: #Proposition #Analysis #Courses/MATH254
 
 Proved by: [[Bernoulli's Inequality]]
 References: _Not Applicable_

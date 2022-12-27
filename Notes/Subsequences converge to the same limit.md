@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/10/2022 16:18:55
-Tags: #Proposition #Courses/MATH254
+Tags: #Proposition #Analysis #Courses/MATH254
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

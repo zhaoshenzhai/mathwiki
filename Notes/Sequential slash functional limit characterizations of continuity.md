@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 24/11/2022 14:20:17
-Tags: #Theorem #Courses/MATH254
+Tags: #Theorem #Analysis #Courses/MATH254
 
 Proved by: [[Continuous iff continuous at each point]], [[Sequential Criterion for Functional Limits]], [[Closure of set iff every neighborhood intersects set]]
 References: _Not Applicable_

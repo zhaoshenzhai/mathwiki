@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/10/2022 20:52:38
-Tags: #Theorem #Courses/MATH254
+Tags: #Theorem #Analysis #Courses/MATH254
 
 Proved by: [[Union of finite sets is finite]], [[Nested Interval Theorem]], [[Squeezed Distance Lemma]]
 References: [[Monotone Subsequence Theorem]], [[Monotone Convergence Theorem]]

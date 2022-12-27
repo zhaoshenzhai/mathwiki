@@ -1,13 +1,13 @@
 <div class="topSpace"></div>
 
 Date Created: 20/01/2022 13:14:26
-Tags: #Proposition
+Tags: #Proposition #Later/Set_Theory
 
 Proved by: [[Replacement image of a set is a set]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
-Specializations: _Not Applicable_
+Specializations: [[Cartesian product is a set (Kuratowski)]]
 Generalizations: _Not Applicable_
 
 ``` ad-Proposition
@@ -19,6 +19,10 @@ $$\begin{equation}
 \end{equation}$$
 
 ```
+
+**Remark.** Note that this proof does not rely on the specific Kuratowski definition of the ordered pair.<span style="float:right;">$\blacklozenge$</span>
+
+---
 
 _Proof_. This proof consists of three steps:
 1. Fix $s\in X$. We shall construct the set
@@ -41,7 +45,3 @@ $\begin{alignat}{2}
     &\Leftrightarrow\ex x\in X:u\in\l\{x\r\}\times Y&&\textrm{Substitution}\\
     &\Leftrightarrow\ex x\in X,\ex y\in Y:u=\tpl{x,y}.&&\textrm{Definition of }\l\{x\r\}\times Y\qedin
 \end{alignat}$
-
----
-
-**Remark.** Note that this proof does not rely on the specific Kuratowski definition of the ordered pair.<span style="float:right;">$\blacklozenge$</span>

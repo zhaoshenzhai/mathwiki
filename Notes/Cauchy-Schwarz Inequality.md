@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/06/2022 17:19:32
-Tags: #Theorem
+Tags: #Theorem #Later/Linear_Algebra
 
 Proved by: [[Pythagorean Theorem]], [[Linearly dependent iff scalar multiple]]
 References: _Not Applicable_

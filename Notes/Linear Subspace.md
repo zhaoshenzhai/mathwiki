@@ -8,7 +8,7 @@ Examples: [[Vector Space of Linear Maps]], [[Vector Space of Diagonal Matrices]]
 Constructions: [[Linear Span]], [[Minkowski Sum (Linear Algebra)]], [[Complement (Linear Subspace)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper)]], [[Arbitrary intersection of linear subspaces is a linear subspace]]
+Properties: [[Dimension of subspace]], [[Arbitrary intersection of linear subspaces is a linear subspace]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Linear Subspace Test]]

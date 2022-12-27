@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/01/2022 18:53:33
-Tags: #Proposition
+Tags: #Proposition #Later/Set_Theory
 
 Proved by: [[Union of empty set is empty]]
 References: _Not Applicable_

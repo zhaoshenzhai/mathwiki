@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/11/2022 00:44:38
-Tags: #Definition #Courses/MATH254
+Tags: #Definition #Analysis #Courses/MATH254
 
 Types: _Not Applicable_
 Examples: [[Metric-completeness of R]]

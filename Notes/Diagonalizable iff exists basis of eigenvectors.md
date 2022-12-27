@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 11/06/2022 18:43:08
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

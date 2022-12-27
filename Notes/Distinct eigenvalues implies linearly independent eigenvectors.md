@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 21/06/2022 08:05:38
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Linearly dependent iff exists span redundant element]]
 References: _Not Applicable_

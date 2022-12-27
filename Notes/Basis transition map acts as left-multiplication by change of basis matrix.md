@@ -5,7 +5,7 @@ mathLink: $\psi_{\mc{B}\to\mc{B}'}$ is represented under standard basis by $\l[\
 <div class="topSpace"></div>
 
 Date Created: 01/06/2022 15:47:27
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Linear isomorphism between finite-dim vector spaces and tuple spaces]], [[Action of linear map repr under basis left-multiplication of matrix representation]]
 References: _Not Applicable_

@@ -1,10 +1,10 @@
 <div class="topSpace"></div>
 
 Date Created: 21/06/2022 08:45:27
-Tags: #Definition
+Tags: #Definition #Later/Linear_Algebra
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Function Space (Linear Algebra)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

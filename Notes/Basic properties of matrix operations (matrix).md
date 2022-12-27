@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/05/2022 21:44:16
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: _Not Applicable_
 References: _Not Applicable_
@@ -15,7 +15,6 @@ title: Proposition.
 
 _Let $K$ be a field and fix $m,n,p,q\in\N^+$. Then, for all $A,A'\in\mat{m\times n}{K}$, $B,B'\in\mat{n\times p}{K}$, $C\in\mat{p\times q}{K}$, and $\alpha\in K$, the following algebraic identities hold:_
 * _(Unitality of $\times$): $I_mA=A=AI_n$._
-
 * _(Absorption of $0$): _$A 0_{n\times p}=0_{m\times p}=0_{m\times n} B$_._
 * _(Left-distributivity of $\times$ over $+$): $A\l(B+B'\r)=A B+A B'$._
 * _(Right-distributivity of $\times$ over $+$): $\l(A+A'\r) B=A B+A' B$._

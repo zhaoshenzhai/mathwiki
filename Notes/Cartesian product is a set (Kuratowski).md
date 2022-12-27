@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/01/2022 17:33:37
-Tags: #Proposition
+Tags: #Proposition #Later/Set_Theory
 
 Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]], [[Subset relation is transitive]]
 References: _Not Applicable_

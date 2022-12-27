@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/05/2022 16:29:57
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Criteria for equality of linear maps via spanning set]], [[Unique Representation Theorem (Hamel)]]
 References: _Not Applicable_

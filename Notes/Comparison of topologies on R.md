@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 08/02/2022 11:24:30
-Tags: #Proposition
+Tags: #Proposition #Later/Topology
 
 Proved by: _Not Applicable_
 References: [[Upper-limit topology strictly finer than standard topology on R]], [[Lower-limit topology strictly finer than standard topology on R]], [[K topology strictly finer than standard topology on R]], [[Upper-limit topology strictly finer than K topology on R]], [[Lower and upper limit topologies are not comparable on R]], [[Lower and K topologies are not comparable on R]]

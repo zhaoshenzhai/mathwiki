@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/05/2022 16:43:17
-Tags: #Theorem
+Tags: #Theorem #Later/Linear_Algebra
 
 Proved by: [[Spanning set cuts down to a basis]], [[Linearly independent set extends to a basis]]
 References: _Not Applicable_

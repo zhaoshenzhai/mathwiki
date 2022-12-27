@@ -5,7 +5,7 @@ mathLink: $\axipow$
 <div class="topSpace"></div>
 
 Date Created: 17/01/2022 19:08:57
-Tags: #Axiom
+Tags: #Axiom #Later/Set_Theory
 
 Constructions: [[Power Set]]
 Generalizations: _Not Applicable_

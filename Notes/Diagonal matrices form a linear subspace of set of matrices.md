@@ -5,7 +5,7 @@ mathLink: $\Diag_n\!\l(K\r)\subseteq\mat{n}{K}$ is a linear subspace
 <div class="topSpace"></div>
 
 Date Created: 05/05/2022 22:10:54
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

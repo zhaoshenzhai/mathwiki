@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/06/2022 11:21:53
-Tags: #Definition
+Tags: #Definition #Later/Linear_Algebra
 
 Types: [[Inner Product]]
 Examples: _Not Applicable_
@@ -22,7 +22,6 @@ $$\begin{equation}
 \end{equation}$$
 _such that:_
 * _(Linearity in the first slot): $\fa v_1,v_2,w\in V,\fa\alpha\in\C:\bilform{\alpha v_1+v_2}{w}=\alpha\bilform{v_1}{w}+\bilform{v_2}{w}$._
-
 * _(Conjugate-symmetry): $\fa v,w\in V:\bilform{v}{w}=\bar{\bilform{w}{v}}$._
 
 ```

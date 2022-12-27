@@ -7,7 +7,7 @@ mathLink: Linear map $V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrig
 Date Created: 13/05/2022 21:23:44
 Tags: #Proposition
 
-Proved by: [[Dimension Theorem]], [[Linear map is injective iff kernel vanishes]], [[Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper)]], [[Dimension of vector space is zero iff it is the zero vector space]]
+Proved by: [[Dimension Theorem]], [[Linear map is injective iff kernel vanishes]], [[Dimension of subspace]], [[Dimension of vector space is zero iff it is the zero vector space]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

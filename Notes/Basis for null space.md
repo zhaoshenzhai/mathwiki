@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 13/04/2022 21:05:54
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Gaussian Elimination]], [[Dimension Theorem]], [[Rank of matrix in RREF is number of pivot columns of non-zero rows]], [[Spanning subset with same cardinality as dimension (finite) is a basis]]
 References: _Not Applicable_

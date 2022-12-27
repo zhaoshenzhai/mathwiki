@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 07/05/2022 20:28:12
-Tags: #Theorem
+Tags: #Theorem #Later/Linear_Algebra
 
-Proved by: [[Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper)]], [[Linearly independent set extends to a basis]], [[Image of linear map is spanned by image of spanning set]]
+Proved by: [[Dimension of subspace]], [[Linearly independent set extends to a basis]], [[Image of linear map is spanned by image of spanning set]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

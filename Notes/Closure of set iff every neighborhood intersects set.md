@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 05/11/2022 15:51:36
-Tags: #Proposition #Courses/MATH254
+Tags: #Proposition #Analysis #Courses/MATH254
 
 Proved by: [[Basic properties of unions, intersections, and power sets]]
 References: _Not Applicable_

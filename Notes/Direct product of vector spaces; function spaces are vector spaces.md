@@ -5,10 +5,10 @@ mathLink: Direct product of vector spaces/function spaces are vector spaces
 <div class="topSpace"></div>
 
 Date Created: 04/05/2022 12:41:37
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Direct product of groups slash function groups are groups]]
-References: _Not Applicable_
+References: [[Function space constructed from a Cartesian product]]
 Justifications: _Not Applicable_
 
 Specializations: _Not Applicable_

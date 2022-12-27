@@ -1,14 +1,14 @@
 <div class="topSpace"></div>
 
 Date Created: 04/04/2022 23:35:21
-Tags: #Definition
+Tags: #Definition #Later/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Tuple Space (Linear Algebra)]], [[Vector Space of Matrices]], [[Zero Vector Space]]
 Constructions: [[Coordinate Representation of Finite-dim. Vector Spaces]]
 Generalizations: _Not Applicable_
 
-Properties: [[Dimension of subspace less than dimension of vector space (finite-dim.; strict iff proper)]]
+Properties: [[Dimension of subspace]]
 Sufficiencies: [[Isomorphic vector spaces finite-dim. iff finite-dim.]]
 Equivalences: [[Linearly isomorphic iff dimensions coincide (finite-dim.)]], [[Linear isomorphism between finite-dim vector spaces and tuple spaces]]
 Justifications: _Not Applicable_

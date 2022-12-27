@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/03/2022 15:55:27
-Tags: #Theorem
+Tags: #Theorem #Later/Linear_Algebra
 
 Proved by: [[Row-equivalent augmented matrices implies equivalent linear systems]]
 References: _Not Applicable_

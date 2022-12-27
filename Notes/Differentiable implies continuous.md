@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 01/12/2022 13:10:10
-Tags: #Proposition #Courses/MATH254
+Tags: #Proposition #Analysis #Courses/MATH254
 
 Proved by: [[Sequential slash functional limit characterizations of continuity]], [[Functional Limit Theorems in R]]
 References: _Not Applicable_

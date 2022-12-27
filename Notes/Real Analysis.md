@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/12/2022 22:56:42
-Tags: #MOC #Courses/MATH254 #Later/Analysis
+Tags: #MOC #Analysis #Courses/MATH254 #Later/Analysis
 
 Context: [Zermelo Fraenkel Set Theory](obsidian://open?file=TODO)
 Excursions: _Not Applicable_

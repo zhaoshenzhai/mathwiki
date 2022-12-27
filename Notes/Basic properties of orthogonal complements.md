@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/06/2022 15:57:52
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Basic properties of orthogonal vectors]], [[Linear map fixes zero vector]]
 References: _Not Applicable_
@@ -13,14 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. Then the following algebraic identities hold:_
-* $\l\{0\r\}^\perp=V$ _and_ $V^\perp=\l\{0\r\}$_._
-
-* _For all subsets $U\subseteq V$:_
-    * _$U^\perp$ is a linear subspace of $V$._
-    * _$U\cap U^\perp\subseteq\l\{0\r\}$._
-    * _For all $W\subseteq V$ with $U\subseteq W$, we have $W^\perp\subseteq U^\perp$._
-    * _If $U=\span\l\{u_1,\dots,u_m\r\}$ for some $u_1,\dots,u_m\in U$, then $v\in U^\perp$ iff $v\perp u_j$ for all $j\in\l\{1,\dots,m\r\}$._
+_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. Then $\l\{0\r\}^\perp=V$, $V^\perp=\l\{0\r\}$, and, for all subsets $U\subseteq V$:_
+* _$U^\perp$ is a linear subspace of $V$._
+* _$U\cap U^\perp\subseteq\l\{0\r\}$._
+* _For all $W\subseteq V$ with $U\subseteq W$, we have $W^\perp\subseteq U^\perp$._
+* _If $U=\span\l\{u_1,\dots,u_m\r\}$ for some $u_1,\dots,u_m\in U$, then $v\in U^\perp$ iff $v\perp u_j$ for all $j\in\l\{1,\dots,m\r\}$._
 
 ```
 

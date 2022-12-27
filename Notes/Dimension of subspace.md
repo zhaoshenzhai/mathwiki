@@ -1,11 +1,7 @@
----
-mathLink: $\dim U\leq\dim V$ for $U\subseteq V$ finite-dim.; strict $\Leftrightarrow$ $U\subset V$
----
-
 <div class="topSpace"></div>
 
 Date Created: 23/04/2022 12:48:57
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Linearly independent set extends to a basis]], [[Enlargement of linearly independent set by adjoining non-spanned vector]], [[Steinitz Exchange Lemma]]
 References: _Not Applicable_

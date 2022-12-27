@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/01/2022 16:31:03
-Tags: #Theorem
+Tags: #Theorem #Set_Theory #Courses/MATH235
 
 Proved by: [[Same equivalence class iff related]]
 References: [[Relation induced by a partition is an equivalence relation]], [[Quotient set is a partition]]

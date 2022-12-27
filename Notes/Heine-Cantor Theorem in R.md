@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 25/11/2022 10:34:48
-Tags: #Proposition #Courses/MATH254
+Tags: #Proposition #Analysis #Courses/MATH254
 
 Proved by: [[Heine-Borel Theorem]], [[Bolzano-Weierstrass Theorem]], [[Sequential slash functional limit characterizations of continuity]]
 References: _Not Applicable_

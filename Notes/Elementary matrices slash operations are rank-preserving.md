@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 05/06/2022 21:02:44
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Elementary operations act as multiplication by its elementary matrix]], [[Elementary matrices slash operations have inverses of the same type]], [[Rank is preserved under multiplication by invertible matrices]]
 References: _Not Applicable_
