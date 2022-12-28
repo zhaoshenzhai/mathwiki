@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 17/10/2022 11:39:24
-Tags: #Definition #Group_Theory #Courses/MATH235
+Tags: #Definition #Group_Theory
 
 Types: [[Group Isomorphism]]
 Examples: [[Canonical Projection]]

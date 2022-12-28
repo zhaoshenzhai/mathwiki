@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 06/10/2022 14:04:08
-Tags: #Proposition #Group_Theory #Courses/MATH235
+Tags: #Proposition #Group_Theory
 
 Proved by: [[Omega is an ordinal]]
 References: _Not Applicable_

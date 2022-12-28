@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 30/11/2022 23:11:36
-Tags: #Definition #Analysis #Courses/MATH254
+Tags: #Definition #Analysis
 
 Types: _Not Applicable_
 Examples: [[Power Rule]]

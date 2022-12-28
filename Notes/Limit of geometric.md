@@ -5,7 +5,7 @@ mathLink: $a^n\to0$ or $+\infty$
 <div class="topSpace"></div>
 
 Date Created: 04/10/2022 14:52:29
-Tags: #Proposition #Analysis #Courses/MATH254
+Tags: #Proposition #Analysis
 
 Proved by: [[Bernoulli's Inequality]], [[Limit of 1 over linear]], [[Squeezed Distance Lemma]], [[Monotone Convergence Theorem]]
 References: _Not Applicable_

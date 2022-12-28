@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 19/02/2022 15:00:15
-Tags: #Definition #Analysis #Courses/MATH254
+Tags: #Definition #Analysis
 
 Types: _Not Applicable_
 Examples: [[Closed Interval]]

@@ -5,7 +5,7 @@ mathLink: $a\in\Z_n^\times$ $\Leftrightarrow$ $a\perp n$
 <div class="topSpace"></div>
 
 Date Created: 14/12/2022 14:49:10
-Tags: #Proposition #Ring_Theory #Courses/MATH235
+Tags: #Proposition #Ring_Theory
 
 Proved by: [[Bezout's Identity]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 04/05/2022 13:08:40
-Tags: #Definition #Group_Theory #Courses/MATH235
+Tags: #Definition #Group_Theory
 
 Types: [[Abelian Group]], [[Finite Group]]
 Examples: [[Symmetric Group]], [[Unit slash Group of Units]]

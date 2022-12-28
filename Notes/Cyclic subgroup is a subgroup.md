@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/09/2022 12:42:09
-Tags: #Proposition #Group_Theory #Courses/MATH235
+Tags: #Proposition #Group_Theory
 
 Proved by: [[Subgroup Test]]
 References: _Not Applicable_

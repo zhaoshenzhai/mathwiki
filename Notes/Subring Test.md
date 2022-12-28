@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 14/11/2022 21:33:46
-Tags: #Proposition #Ring_Theory #Courses/MATH235
+Tags: #Proposition #Ring_Theory
 
 Proved by: _Not Applicable_
 References: [[Subgroup Test]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 13/09/2022 15:11:38
-Tags: #Definition #Set_Theory #Courses/MATH254
+Tags: #Definition #Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

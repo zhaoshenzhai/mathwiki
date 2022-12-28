@@ -5,7 +5,7 @@ mathLink: $R$ integral domain $\Rightarrow$ $\charac R$ prime or $0$
 <div class="topSpace"></div>
 
 Date Created: 15/11/2022 13:10:05
-Tags: #Proposition #Ring_Theory #Courses/MATH235
+Tags: #Proposition #Ring_Theory
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

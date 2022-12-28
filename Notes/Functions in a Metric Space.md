@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 17/11/2022 20:46:30
-Tags: #Definition #Analysis #Courses/MATH254
+Tags: #Definition #Analysis
 
 Types: [[Bounded Function]]
 Examples: [[Functions in R]]

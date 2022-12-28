@@ -5,7 +5,7 @@ mathLink: $I$ prime $\Leftrightarrow$ $R/I$ integral domain
 <div class="topSpace"></div>
 
 Date Created: 22/11/2022 19:23:49
-Tags: #Proposition #Ring_Theory #Courses/MATH235
+Tags: #Proposition #Ring_Theory
 
 Proved by: [[Basic properties of cosets]]
 References: _Not Applicable_

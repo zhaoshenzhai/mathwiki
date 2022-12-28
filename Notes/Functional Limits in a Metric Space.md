@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/12/2022 13:32:31
-Tags: #Definition #Analysis #Courses/MATH254
+Tags: #Definition #Analysis
 
 Types: _Not Applicable_
 Examples: [[Functional Limits in R]]

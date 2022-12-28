@@ -5,7 +5,7 @@ mathLink: Existence of $n^\textrm{th}$ roots
 <div class="topSpace"></div>
 
 Date Created: 20/09/2022 16:48:58
-Tags: #Proposition #Analysis #Courses/MATH254
+Tags: #Proposition #Analysis
 
 Proved by: [[Difference of powers (with estimate)]], [[Archimedean Property of R]]
 References: _Not Applicable_

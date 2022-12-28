@@ -5,7 +5,7 @@ mathLink: Every $k$-cycle is a product of $\l(k-1\r)$-many transpositions
 <div class="topSpace"></div>
 
 Date Created: 07/10/2022 13:28:00
-Tags: #Proposition #Group_Theory #Courses/MATH235
+Tags: #Proposition #Group_Theory
 
 Proved by: [[Criteria for equality of functions]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/09/2022 15:05:18
-Tags: #Definition #Later/Ring_Theory #Courses/MATH235
+Tags: #Definition #Later/Ring_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

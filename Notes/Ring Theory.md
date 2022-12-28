@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/12/2022 21:45:27
-Tags: #MOC #Courses/MATH235 #Later/Ring_Theory
+Tags: #MOC #Later/Ring_Theory
 
 Context: [Zermelo Fraenkel Set Theory](obsidian://open?file=TODO)
 Excursions: _Not Applicable_

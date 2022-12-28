@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 23/11/2022 10:56:36
-Tags: #Proposition #Ring_Theory #Courses/MATH235
+Tags: #Proposition #Ring_Theory
 
 Proved by: [[Division Algorithm (Polynomials)]]
 References: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: $g^k=e$ $\Leftrightarrow$ $\ord{g}$ divides $k$
 <div class="topSpace"></div>
 
 Date Created: 26/09/2022 23:49:34
-Tags: #Proposition #Group_Theory #Courses/MATH235
+Tags: #Proposition #Group_Theory
 
 Proved by: [[Division Algorithm]]
 References: _Not Applicable_

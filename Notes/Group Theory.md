@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/12/2022 18:20:50
-Tags: #MOC #Courses/MATH235
+Tags: #MOC
 
 Context: [Zermelo Fraenkel Set Theory](obsidian://open?file=TODO)
 Excursions: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 13/10/2022 12:18:15
-Tags: #Theorem #Group_Theory #Courses/MATH235
+Tags: #Theorem #Group_Theory
 
 Proved by: [[Lagrange's Theorem]], [[Order divides power iff power gives identity]]
 References: _Not Applicable_

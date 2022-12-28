@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/09/2022 20:37:12
-Tags: #Definition #Group_Theory #Courses/MATH235
+Tags: #Definition #Group_Theory
 
 Types: [[Normal Subgroup]]
 Examples: [[Cyclic Subgroup]]

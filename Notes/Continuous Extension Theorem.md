@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/11/2022 19:29:46
-Tags: #Theorem #Analysis #Courses/MATH254
+Tags: #Theorem #Analysis
 
 Proved by: [[Heine-Borel Theorem]], [[Heine-Cantor Theorem]], [[Sequential slash functional limit characterizations of continuity]], [[Uniform continuity preserve Cauchyness]], [[Metric-completeness of R]], [[Sequential Limit Theorems in R]]
 References: _Not Applicable_

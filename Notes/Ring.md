@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/11/2022 19:00:21
-Tags: #Definition #Ring_Theory #Courses/MATH235
+Tags: #Definition #Ring_Theory
 
 Types: [[Commutative Ring]], [[Ring with Unit]]
 Examples: _Not Applicable_

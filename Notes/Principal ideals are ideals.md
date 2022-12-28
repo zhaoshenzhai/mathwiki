@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/11/2022 14:09:23
-Tags: #Proposition #Ring_Theory #Courses/MATH235
+Tags: #Proposition #Ring_Theory
 
 Proved by: [[Subring Test]], [[Basic properties of rings]]
 References: _Not Applicable_

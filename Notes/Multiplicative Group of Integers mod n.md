@@ -5,7 +5,7 @@ mathLink: $\tpl{\Z_n^\times,\cdot}$
 <div class="topSpace"></div>
 
 Date Created: 03/11/2022 20:04:02
-Tags: #Definition #Group_Theory #Ring_Theory #Courses/MATH235
+Tags: #Definition #Group_Theory #Ring_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

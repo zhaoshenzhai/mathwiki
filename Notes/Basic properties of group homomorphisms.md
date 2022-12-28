@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/10/2022 20:59:39
-Tags: #Proposition #Group_Theory #Courses/MATH235
+Tags: #Proposition #Group_Theory
 
 Proved by: [[Basic properties of groups]], [[Subgroup Test]], [[Normal iff stable under conjuation]]
 References: _Not Applicable_

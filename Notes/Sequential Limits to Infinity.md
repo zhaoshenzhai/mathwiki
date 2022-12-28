@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 20/10/2022 17:10:25
-Tags: #Definition #Analysis #Courses/MATH254 #Later/Topology
+Tags: #Definition #Analysis #Later/Topology
 
 Types: _Not Applicable_
 Examples: [[Limit of geometric]]

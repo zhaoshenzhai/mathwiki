@@ -5,7 +5,7 @@ mathLink: $\Z_n=\l\langle m\r\rangle$ $\Leftrightarrow$ $m\perp n$
 <div class="topSpace"></div>
 
 Date Created: 27/09/2022 18:26:12
-Tags: #Proposition #Group_Theory #Courses/MATH235
+Tags: #Proposition #Group_Theory
 
 Proved by: [[Order of power of element]], [[Order of additive group of integers mod n is n]], [[Order of group element is order of generated cyclic group]]
 References: _Not Applicable_

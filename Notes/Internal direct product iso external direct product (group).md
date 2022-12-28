@@ -5,7 +5,7 @@ mathLink: $N_1N_2\iso N_1\times N_2$ for $N_1,N_2$ subgroups
 <div class="topSpace"></div>
 
 Date Created: 27/10/2022 17:33:07
-Tags: #Proposition #Group_Theory #Courses/MATH235
+Tags: #Proposition #Group_Theory
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

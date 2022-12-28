@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 15/11/2022 14:00:50
-Tags: #Definition #Ring_Theory #Courses/MATH235
+Tags: #Definition #Ring_Theory
 
 Types: [[Ring Isomorphism]]
 Examples: _Not Applicable_
