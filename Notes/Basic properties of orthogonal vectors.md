@@ -3,7 +3,7 @@
 Date Created: 25/06/2022 20:35:44
 Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Basic properties of complex conjugation]], [[Linear map fixes zero vector]]
+Proved by: [[Basic properties of complex conjugation]], [[Basic properties of linear maps]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

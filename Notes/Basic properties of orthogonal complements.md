@@ -3,7 +3,7 @@
 Date Created: 25/06/2022 15:57:52
 Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Basic properties of orthogonal vectors]], [[Linear map fixes zero vector]]
+Proved by: [[Basic properties of orthogonal vectors]], [[Basic properties of linear maps]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

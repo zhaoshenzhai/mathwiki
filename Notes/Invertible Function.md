@@ -8,7 +8,7 @@ Examples: [[Identity Function]], [[Elementary Matrices and Operations]]
 Constructions: [[Isomorphic Sets]]
 Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]
 
-Properties: [[Inverse of linear map is linear]]
+Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: [[Left-invertible iff injection]], [[Right-invertible iff surjection (Choice)]], [[Invertible iff bijective]]
 Justifications: [[Inverse of function is unique]], [[Left and right inverses coincide (function)]]

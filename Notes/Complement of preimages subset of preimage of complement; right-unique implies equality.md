@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 10/09/2022 23:55:17
-Tags: #Proposition #Later/Set_Theory
+Tags: #Proposition #Topics/Set_Theory
 
 Proved by: [[Domain and range of inverse relation]]
 References: _Not Applicable_
@@ -26,6 +26,8 @@ _Equality holds if for all $x\in\dom R$, there exists a unique $y$ such that $xR
 ```
 
 **Remark.** If $R$ is a function, then equality always hold.<span style="float:right;">$\blacklozenge$</span>
+
+---
 
 _Proof_. Take $x\in\preim_R\l(B_1\r)\comp\preim_R\l(B_2\r)$. The result follows from the following chain of implications:
 $$\begin{equation}

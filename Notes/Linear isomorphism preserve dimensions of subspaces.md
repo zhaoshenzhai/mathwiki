@@ -3,7 +3,7 @@
 Date Created: 05/06/2022 19:01:53
 Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Image of linear map is a subspace of its codomain]], [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
+Proved by: [[Basic properties of linear maps]], [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

@@ -7,7 +7,7 @@ mathLink: Linear map $T$ has eigenvalue $\lambda$ $\Leftrightarrow$ $T-\lambda\i
 Date Created: 20/06/2022 15:06:29
 Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Linear map fixes zero vector]], [[Linear map between vector spaces of same dimension is injective iff surjective]]
+Proved by: [[Basic properties of linear maps]], [[Linear map between vector spaces of same dimension is injective iff surjective]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
