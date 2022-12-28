@@ -24,7 +24,7 @@ _Let $\tpl{X,\mc{T}}$ be a topological space and fix $x\in X$. A sequence_ $\tpl
 $$\begin{equation}
     \fa U\in\mc{U}_x,\fa^\infty n\in\N:x_n\in U,
 \end{equation}$$
-_where $\mc{U}_x$ is the set of all neighborhoods of $x$. If $\tpl{X,\mc{T}}$ is Hausdorff, then we write_ $\lim\limits_{n\to\infty}x_n=x$ _or $x_n\to x$ as $n\to\infty$._
+_where $\mc{U}_x$ is the set of all neighborhoods of $x$. If $\tpl{X,\mc{T}}$ is Hausdorff, then $x$ is unique and we write_ $\lim\limits_{n\to\infty}x_n\coloneqq x$ _or $x_n\to x$ as $n\to\infty$._
 
 ```
 

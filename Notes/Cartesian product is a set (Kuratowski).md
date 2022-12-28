@@ -3,7 +3,7 @@
 Date Created: 21/01/2022 17:33:37
 Tags: #Proposition #Later/Set_Theory
 
-Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]], [[Subset relation is transitive]]
+Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

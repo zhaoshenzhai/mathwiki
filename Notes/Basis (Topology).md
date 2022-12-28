@@ -16,9 +16,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. A **basis for a topology on $X$** is a cover $\mc{B}\subseteq\pow\l(X\r)$ of $X$ such that_
-$$\begin{equation}
-    \fa B_1,B_2\in\mc{B},\fa x\in B_1\cap B_2:\l(\ex B_3\in\mc{B}:x\in B_3\land B_3\subseteq B_1\cap B_2\r).
-\end{equation}$$
+_Let $X$ be a set. A **basis for a topology on $X$** is a set $\mc{B}\subseteq\pow\l(X\r)$ of $X$ such that:_
+* $\axibasis[1]\bf{.}$ _$\mc{B}$ covers $X$; that is, $\fa x\in X,\ex B\in\mc{B}:x\in B$._
+* $\axibasis[2]\bf{.}$ _$\fa B_1,B_2\in\mc{B},\fa x\in B_1\cap B_2:\l(\ex B_3\in\mc{B}:x\in B_3\land B_3\subseteq B_1\cap B_2\r)$._
 
 ```

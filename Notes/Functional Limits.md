@@ -20,6 +20,6 @@ _Let $\tpl{X,\mc{T}_X}$ and $\tpl{Y,\mc{T}_Y}$ be topological spaces, fix a clus
 $$\begin{equation}
     \fa V\in\mc{U}_L,\ex U\in\mc{U}_p:\im_f\!\l(U\cap\Omega\comp\l\{p\r\}\r)\subseteq V,
 \end{equation}$$
-_where $\mc{U}_L$ and $\mc{U}_p$ are the set of all neighborhoods of $L$ and $p$, respectively. If $\tpl{Y,\mc{T}_Y}$ is Hausdorff, then $L$ is unique so we write_ $\lim\limits_{x\to p}f\l(x\r)=L$_._
+_where $\mc{U}_L$ and $\mc{U}_p$ are the set of all neighborhoods of $L$ and $p$, respectively. If $\tpl{Y,\mc{T}_Y}$ is Hausdorff, then $L$ is unique and we write_ $\lim\limits_{x\to p}f\l(x\r)\coloneqq L$_._
 
 ```

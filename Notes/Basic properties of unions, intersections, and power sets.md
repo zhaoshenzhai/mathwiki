@@ -5,7 +5,7 @@ mathLink: Basic properties of $\bigcup$, $\bigcap$, and $\pow$
 <div class="topSpace"></div>
 
 Date Created: 03/06/2022 14:10:14
-Tags: #Proposition #Later/Set_Theory
+Tags: #Proposition #Set_Theory
 
 Proved by: [[Subset relation is transitive]]
 References: _Not Applicable_
@@ -34,7 +34,8 @@ _Let $A$ and $B$ be sets. Then the following algebraic identities hold:_
     1. _(Power set is monotone w.r.t. subsets): If $A\subseteq B$, then $\pow A\subseteq\pow B$._
 * _Regarding their interplay:_
     1. _(Union distributes over binary intersection): $\l(\bigcup A\r)\cap\l(\bigcup B\r)=\bigcup\l\{a\cap b\mid a\in A\land b\in B\r\}$._
-    2. _(Intersection of intersection is intersection of union): If $A,B\neq\em$, then $\bigcap A\cap\bigcap B=\bigcap\l(A\cup B\r)$._
+    2. _(Intersection distributes over binary union): $\l(\bigcap A\r)\cup\l(\bigcap B\r)=\bigcap\l\{a\cup b\mid a\in A\land b\in B\r\}$._
+    3. _(Intersection of intersection is intersection of union): If $A,B\neq\em$, then $\bigcap A\cap\bigcap B=\bigcap\l(A\cup B\r)$._
 
 ```
 
@@ -117,7 +118,19 @@ $$\begin{equation}
         &\Leftrightarrow\l(\ex a\in A\r)\l(\ex b\in B\r)\l(x\in a\land x\in b\r) && b\textrm{ is not free in }x\in a \\
         &\Leftrightarrow\l(\ex a\in A\r)\l(\ex b\in B\r)x\in a\cap b && \textrm{Definition of intersection} \\
         &\Leftrightarrow\l(\ex y\in\l\{a\cap b\mid a\in A\land b\in B\r\}\r)x\in y && \textrm{Substitution} \\
-        &\Leftrightarrow x\in\bigcup\l\{a\in b\mid a\in A\land b\in B\r\}. && \textrm{Definition of union}
+        &\Leftrightarrow x\in\bigcup\l\{a\cap b\mid a\in A\land b\in B\r\}. && \textrm{Definition of union}
 	\end{aligned}
 \end{equation}$$
-2. Take $x\in\bigcap A\cap\bigcap B$, so $x\in\bigcap A$ and $x\in\bigcap B$. Note that $x\in y$ for any $y\in A\cup B$, so $x\in\bigcap\l(A\cup B\r)$. Conversely, take $x\in\bigcap\l(A\cup B\r)$, so $x\in y$ for all $y\in A\cup B$. In particular, $x\in y$ for all $y\in A$, so $x\in\bigcap A$. Similarly, $x\in\bigcap B$, so $x\in\bigcap A\cap\bigcap B$.<span style="float:right;">$\blacksquare$</span>
+2. Take $x\in\l(\bigcap A\r)\cup\l(\bigcap B\r)$. The result follows from the following chain of equivalences:
+$$\begin{equation}
+	\begin{aligned}
+        x\in\l(\bigcap A\r)\cup\l(\bigcap B\r)&\Leftrightarrow x\in\bigcap A\lor x\in\bigcap B && \textrm{Definition of union} \\
+        &\Leftrightarrow\l[\l(\fa a\in A\r)x\in a\r]\lor\l[\l(\fa b\in B\r)x\in b\r] && \textrm{Definition of intersection} \\
+        &\Leftrightarrow\l(\fa a\in A\r)\l[x\in a\lor\l[\l(\fa b\in B\r)x\in b\r]\r] && a\textrm{ is not free in }\l[\l(\fa b\in B\r)x\in b\r] \\
+        &\Leftrightarrow\l(\fa a\in A\r)\l(\fa b\in B\r)\l(x\in a\lor x\in b\r) && b\textrm{ is not free in }x\in a \\
+        &\Leftrightarrow\l(\fa a\in A\r)\l(\fa b\in B\r)x\in a\cup b && \textrm{Definition of union} \\
+        &\Leftrightarrow\l(\fa y\in\l\{a\cup b\mid a\in A\land b\in B\r\}\r)x\in y && \textrm{Substitution} \\
+        &\Leftrightarrow x\in\bigcap\l\{a\cup b\mid a\in A\land b\in B\r\}. && \textrm{Definition of intersection}
+	\end{aligned}
+\end{equation}$$
+3. Take $x\in\bigcap A\cap\bigcap B$, so $x\in\bigcap A$ and $x\in\bigcap B$. Note that $x\in y$ for any $y\in A\cup B$, so $x\in\bigcap\l(A\cup B\r)$. Conversely, take $x\in\bigcap\l(A\cup B\r)$, so $x\in y$ for all $y\in A\cup B$. In particular, $x\in y$ for all $y\in A$, so $x\in\bigcap A$. Similarly, $x\in\bigcap B$, so $x\in\bigcap A\cap\bigcap B$.<span style="float:right;">$\blacksquare$</span>

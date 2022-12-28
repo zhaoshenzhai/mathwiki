@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 01/12/2022 14:15:44
 Tags: #Theorem #Topics/Analysis
 
-Proved by: [[Functional Limit Theorems in R]], [[Differentiable implies continuous]], [[Cluster point iff exist converging sequence]], [[Composition of continuous functions are continuous]]
+Proved by: [[Functional Limit Theorems in R]], [[Differentiable implies continuous]], [[Sequential characterization of cluster points]], [[Composition of continuous functions are continuous]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
