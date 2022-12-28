@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 24/11/2022 14:01:58
 Tags: #Proposition #Later/Topology
 
-Proved by: _Not Applicable_
+Proved by: [[Compositions of images slash preimages]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -26,4 +26,10 @@ _where_ $\mc{U}_{f\l(p\r)}$ _and_ $\mc{U}_p$ _are the set of all neighborhoods o
 ```
 
 _Proof_.
-* ($\Rightarrow$): Take $p\in X$ and any $V\in\mc{T}_Y$ containing $f\l(p\r)$. Then $p\in\preim_f\l(V\r)$ is open
+* ($\Rightarrow$): Take $p\in X$ and any $V\in\mc{T}_Y$ containing $f\l(p\r)$. Then $\preim_f\l(V\r)$ is a neighborhood of $p$ with $\im_f\!\l(\preim_f\!\l(V\r)\r)\subseteq V$.
+
+* ($\Leftarrow$): Let $V\in\mc{T}_Y$. Then, for any $p\in\preim_f\!\l(V\r)$, we see that $f\l(p\r)\in V$ and hence there exists a neighborhood $U_p$ of $p$ such that $\im_f\!\l(U_p\r)\subseteq V$. We claim that
+$$\begin{equation}
+    \preim_f\!\l(V\r)=\bigcup_{p\in X}U_p,
+\end{equation}$$
+so it is open. The forward direction follows immediately since $p\in U_p$. The backwards direction is also clear, for $U_p\subseteq\preim_f\!\l(\im_f\!\l(U_p\r)\r)\subseteq\preim_f\!\l(V\r)$.<span style="float:right;">$\blacksquare$</span>
