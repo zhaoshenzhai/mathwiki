@@ -3,7 +3,7 @@
 Date Created: 26/02/2022 12:04:23
 Tags: #Proposition #Set_Theory
 
-Proved by: [[Composition of relations is associative]], [[Basic properties of identity functions]]
+Proved by: [[Composition of relations is associative]], [[Identity function is the identity of function composition]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

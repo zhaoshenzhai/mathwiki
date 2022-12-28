@@ -3,7 +3,7 @@
 Date Created: 27/01/2022 17:19:03
 Tags: #Proposition #Later/Set_Theory
 
-Proved by: [[Basic properties of identity functions]]
+Proved by: [[Identity function is the identity of function composition]]
 References: [[Universal set is a proper class]]
 Justifications: _Not Applicable_
 

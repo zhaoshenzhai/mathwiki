@@ -8,7 +8,7 @@ Date Created: 21/02/2022 16:40:38
 Tags: #Proposition #Later/Category_Theory
 
 Proved by: [[Function space is a set]]
-References: [[Composition of relations is a relation]], [[Basic properties of identity functions]]
+References: [[Composition of relations is a relation]], [[Identity function is the identity of function composition]]
 Justifications: _Not Applicable_
 
 Specializations: _Not Applicable_

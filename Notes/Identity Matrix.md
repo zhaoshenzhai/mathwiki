@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of matrix operations]], [[Matrix invertible iff augmented matrix reducible to identity]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Basic properties of identity functions]]
+Equivalences: [[Identity function repr under basis by identity matrix]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

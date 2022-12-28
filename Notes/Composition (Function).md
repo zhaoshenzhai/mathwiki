@@ -8,7 +8,7 @@ Examples: [[Composition (Linear Map)]]
 Constructions: [[Category of Sets]]
 Generalizations: [[Composition (Relation)]]
 
-Properties: [[Image slash preimage of compositions]], [[Composition of injections is an injection]], [[Composition of surjections is a surjection]], [[Composition of continuous functions are continuous]], [[Composition of uniformly continuous functions are uniformly continuous]], [[Composition of Lipschitz functions are Lipschitz]]
+Properties: [[Image slash preimage of compositions]], [[Identity function is the identity of function composition]], [[Composition of injections is an injection]], [[Composition of surjections is a surjection]], [[Composition of continuous functions are continuous]], [[Composition of uniformly continuous functions are uniformly continuous]], [[Composition of Lipschitz functions are Lipschitz]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Composition of functions is a function]]
