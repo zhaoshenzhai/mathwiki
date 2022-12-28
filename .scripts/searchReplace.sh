@@ -74,13 +74,6 @@ echo "$matchingLinesWithFiles"
 
 echo ""
 
-#### Replace?
-read -n 1 -ep "$(echo -e ${PURPLE}Replace? [Y/n]${NC}) " replace
-if [[ ! -z "$replace" ]]; then
-    exit
-fi
-#### Replace?
-
 #### Iterate remove matches
 remove="y"
 while [[ "$remove" == "y" ]]; do
@@ -156,8 +149,15 @@ done
 
 echo ""
 
+#### Replace?
+read -n 1 -ep "$(echo -e "    ${PURPLE}Replace? [Y/n]${NC}") " replace
+if [[ ! -z "$replace" ]]; then
+    exit
+fi
+#### Replace?
+
 #### Replace
-read -rp "$(echo -e ${PURPLE}Replace with: [string]${NC}) " replaceString
+read -rp "$(echo -e "        ${PURPLE}Replace with: [string]${NC}") " replaceString
 if [[ -z "$replaceString" ]]; then
     replaceString=""
 fi
