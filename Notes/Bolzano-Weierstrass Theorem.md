@@ -3,7 +3,7 @@
 Date Created: 23/10/2022 20:52:38
 Tags: #Theorem #Topics/Analysis
 
-Proved by: [[Union of finite sets is finite]], [[Nested Interval Theorem]], [[Squeezed Distance Lemma]]
+Proved by: [[Nested Interval Theorem]], [[Squeezed Distance Lemma]]
 References: [[Monotone Subsequence Theorem]], [[Monotone Convergence Theorem]]
 Justifications: _Not Applicable_
 

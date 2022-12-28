@@ -5,7 +5,7 @@ Tags: #Definition #Later/Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Binary Relation]], [[Cartesian Product (Binary)]]
+Constructions: [[Binary Relation]], [[Cartesian Product (Finite)]]
 Generalizations: [[Tuples and Sequences]]
 
 Properties: [[Ordered pair equal when components equal]]

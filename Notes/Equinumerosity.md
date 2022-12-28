@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Finite Set]]
+Constructions: [[Finite Set]], [[Countable Set]]
 Generalizations: _Not Applicable_
 
 Properties: [[Cartesian product respects equinumerosity]]

@@ -3,7 +3,7 @@
 Date Created: 23/01/2022 19:53:04
 Tags: #Proposition #Later/Topology
 
-Proved by: [[De Morgan's Laws]], [[Interection of finite sets is finite]], [[Finite union of finite sets is finite]]
+Proved by: [[De Morgan's Laws]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

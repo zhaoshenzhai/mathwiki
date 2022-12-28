@@ -12,7 +12,7 @@ Examples: _Not Applicable_
 Constructions: [[Bounded Sequence]]
 Generalizations: _Not Applicable_
 
-Properties: [[Epsilon-ball is a neighborhood]]
+Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

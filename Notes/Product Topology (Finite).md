@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Properties: [[Product of topologies is monotone w.r.t. subsets]], [[Product and subspace topologies on subsets coincide]] 
 Sufficiencies: _Not Applicable_
 Equivalences: [[Product topology (basis; component from bases)]], [[Product topology (subbasis)]]
-Justifications: [[Product topology (binary) is a topology]]
+Justifications: [[Product topology (finite) is a topology]]
 
 ``` ad-Definition
 title: Definition.

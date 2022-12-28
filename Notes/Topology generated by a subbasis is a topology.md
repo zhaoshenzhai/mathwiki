@@ -3,7 +3,7 @@
 Date Created: 24/01/2022 21:00:06
 Tags: #Proposition #Later/Topology
 
-Proved by: [[Basic properties of unions, intersections, and power sets]], [[Union of finite sets is finite]]
+Proved by: [[Basic properties of unions, intersections, and power sets]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

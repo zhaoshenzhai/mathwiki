@@ -5,7 +5,7 @@ Tags: #Definition #Later/Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Tuples and Sequences]]
+Constructions: [[Tuples and Sequences]], [[Countable Set]]
 Generalizations: _Not Applicable_
 
 Properties: [[Omega is the least limit ordinal]]
