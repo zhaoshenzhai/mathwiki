@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Isomorphism (Category Theory)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Inverse of isomorphism is an isomorphism]]
+Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Inverse of morphism is unique]]

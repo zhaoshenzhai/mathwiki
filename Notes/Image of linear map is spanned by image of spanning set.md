@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 07/05/2022 17:49:49
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Image of linear map is a subspace of its codomain]]
+Proved by: [[Basic properties of linear maps]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

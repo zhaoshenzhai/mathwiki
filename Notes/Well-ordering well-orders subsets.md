@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 30/01/2022 18:40:57
-Tags: #Proposition
+Tags: #Proposition #Later/Set_Theory
 
 Proved by: [[Subset relation is transitive]]
 References: _Not Applicable_

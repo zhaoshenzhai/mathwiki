@@ -1,14 +1,14 @@
 <div class="topSpace"></div>
 
 Date Created: 07/04/2022 09:17:55
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Basic properties of matrix operations]], [[Homogeneous linear system with more unknowns than equations has non-trivial solutions]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Generalizations: [[Left and right inverses coincide (function)]]
 
 ``` ad-Proposition
 title: Proposition.

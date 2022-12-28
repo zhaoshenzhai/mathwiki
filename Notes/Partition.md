@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/01/2022 16:16:37
-Tags: #Definition
+Tags: #Definition #Set_Theory
 
 Types: _Not Applicable_
 Examples: [[Set of cosets partition the group]]

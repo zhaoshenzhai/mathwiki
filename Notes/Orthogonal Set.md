@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/06/2022 16:57:24
-Tags: #Definition
+Tags: #Definition #Later/Linear_Algebra
 
 Types: [[Orthonormal Set]]
 Examples: _Not Applicable_

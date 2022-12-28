@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/03/2022 19:32:10
-Tags: #Definition
+Tags: #Definition #Later/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Matrix invertible iff augmented matrix reducible to identity]]

@@ -1,14 +1,14 @@
 <div class="topSpace"></div>
 
 Date Created: 07/04/2022 07:20:30
-Tags: #Definition
+Tags: #Definition #Later/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Basis Transition Map; Change of Basis Matrix]], [[Identity Matrix]], [[Elementary Matrices and Operations]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Cancellation laws (invertible matrix)]], [[Product of invertible matrices is invertible]], [[Inversion is an involution]]
+Properties: [[Cancellation laws (invertible matrix)]], [[Product of invertible matrices is invertible]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Linear map invertible repr under basis matrix representation invertible]], [[Matrix Invertibility Theorem]], [[Matrix invertible iff augmented matrix reducible to identity]]
 Justifications: [[Inverse of matrix is unique]], [[Left and right inverses coincide (matrix)]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 08/04/2022 05:48:11
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Transposition anti-respects matrix multiplication]]
 References: _Not Applicable_
@@ -20,14 +20,13 @@ $$\begin{equation}
 
 ```
 
-_Proof_. We verify that $\l(A^{-1}\r)^\trans$ is both a left and a right inverse of $A^\trans$.
+**Remark.** It follows then that for all $A\in\mat{n}{K}$, $A$ is invertible iff $A^\trans$ is.<span style="float:right;">$\blacklozenge$</span>
 
+---
+
+_Proof_. We verify that $\l(A^{-1}\r)^\trans$ is both a left and a right inverse of $A^\trans$.
 $\begin{align}
     \l(A^{-1}\r)^\trans A^\trans&=\l(AA^{-1}\r)^\trans \hspace{0.6in}A^\trans\l(A^{-1}\r)^\trans\hspace{-0.4in}&&=\l(A^{-1}A\r)^\trans && \textrm{Transposition anti-respects matrix multiplication} \\
     &=I^\trans &&=I^\trans && \textrm{Definition of inverse matrix} \\
     &=I &&=I. && \textrm{Identity matrix is symmetric}\qedin
 \end{align}$
-
----
-
-**Remark.** It follows then that for all $A\in\mat{n}{K}$, $A$ is invertible iff $A^\trans$ is.<span style="float:right;">$\blacklozenge$</span>

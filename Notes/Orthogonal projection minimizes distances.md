@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/06/2022 12:26:36
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Pythagorean Theorem]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 22/03/2022 16:12:09
-Tags: #Definition
+Tags: #Definition #Later/Linear_Algebra
 
 Types: [[Reduced Row-echelon Matrix]], [[Square Matrix]], [[Invertible Matrix]]
 Examples: [[Augmented Matrix]]

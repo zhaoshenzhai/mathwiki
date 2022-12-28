@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/01/2022 17:44:17
-Tags: #Definition
+Tags: #Definition #Set_Theory
 
 Types: _Not Applicable_
 Examples: [[Kernel (Group Theory)]], [[Kernel (Ring Theory)]], [[Kernel; Null Space]], [[Preimage under projection of subset]]

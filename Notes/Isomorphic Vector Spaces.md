@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/05/2022 20:08:44
-Tags: #Definition
+Tags: #Definition #Later/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Linear isomorphism between finite-dim vector spaces and tuple spaces]], [[Linear isomorphism between linear maps and matrices]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/01/2022 13:28:47
-Tags: #Proposition
+Tags: #Proposition #Set_Theory #Courses/MATH254
 
 Proved by: _Not Applicable_
 References: _Not Applicable_
@@ -19,6 +19,10 @@ $$\begin{equation}
 \end{equation}$$
 
 ```
+
+**Remark.** If $\mc{A}=\l\{A,B\r\}$, then the above reads $\im_R\!\l(A\cup B\r)=\im_R\!\l(A\r)\cup\im_R\!\l(B\r)$.<span style="float:right;">$\blacklozenge$</span>
+
+---
 
 _Proof_. Take $y\in\im_R\l(\bigcup\mc{A}\r)$. The result follows from the following chain of equivalences:
 

@@ -37,7 +37,7 @@ $$\begin{equation}
 and observe that the results follow from cancellation.
 
 * We use the Subgroup Test.
-    * (Identity): Since $e_1\in H_1$, we have that $e_2=\phi\l(e_1\r)\in\im_\phi\!\l(H_1\r)$.
+    * (Identity): Since $e_1\in H_1$, we see that $e_2=\phi\l(e_1\r)\in\im_\phi\!\l(H_1\r)$.
     * (Closed under operation): Take $g_2,g_2'\in\im_\phi\!\l(H_1\r)$, so $g_2=\phi\l(g_1\r)$ and $g_2'=\phi\l(g_1'\r)$ for some $g_1,g_1'\in H_1$. Hence $g_1g_1'\in H_1$, so
     $$\begin{equation}
         g_1g_2'=\phi\l(g_1\r)\phi\l(g_1'\r)=\phi\l(g_1g_1'\r)\in\im_\phi\!\l(H_1\r).
@@ -47,7 +47,7 @@ and observe that the results follow from cancellation.
         g_2^{-1}=\l[\phi\l(g_1\r)\r]^{-1}=\phi\l(g_1^{-1}\r)\in\im_\phi\!\l(H_1\r).
     \end{equation}$$
 * We use the Subgroup Test.
-    * (Identity): Since $\phi\l(e_1\r)=e_2$, we see that $e_1\in\preim_\phi\!\l(H_2\r)$.
+    * (Identity): Since $\phi\l(e_1\r)=e_2\in H_2$, we see that $e_1\in\preim_\phi\!\l(H_2\r)$.
     * (Closed under operation): Take $g_1,g_1'\in\preim_\phi\!\l(H_2\r)$, so there exist $g_2,g_2'\in H_2$ such that $\phi\l(g_1\r)=g_2$ and $\phi\l(g_1'\r)=g_2'$. Hence
     $$\begin{equation}
         \phi\l(g_1g_1'\r)=\phi\l(g_1\r)\phi\l(g_1'\r)=g_2g_2'\in H_2.

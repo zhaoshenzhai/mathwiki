@@ -5,7 +5,7 @@ mathLink: $\KtopR$ strictly finer than $\sttopR$
 <div class="topSpace"></div>
 
 Date Created: 05/02/2022 11:07:34
-Tags: #Proposition
+Tags: #Proposition #Later/Topology
 
 Proved by: [[Criteria for fineness w.r.t. bases]], [[Q is dense in R]]
 References: _Not Applicable_

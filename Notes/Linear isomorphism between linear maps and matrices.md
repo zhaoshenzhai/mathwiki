@@ -5,7 +5,7 @@ mathLink: $\Phi_\mc{B}^\mc{C}:\hom\l(V,W\r)\simto\mat{m\times n}{K}$ ($\dim V=n$
 <div class="topSpace"></div>
 
 Date Created: 17/05/2022 10:57:09
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Unique Representation Theorem (Hamel)]], [[Existence of unique linear map via action on basis vectors]]
 References: _Not Applicable_

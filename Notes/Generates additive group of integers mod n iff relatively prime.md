@@ -1,5 +1,5 @@
 ---
-mathLink: $\Z_n=\l\langle m\r\rangle$ $\Leftrightarrow$ $\gcd\l(m,n\r)=1$
+mathLink: $\Z_n=\l\langle m\r\rangle$ $\Leftrightarrow$ $m\perp n$
 ---
 
 <div class="topSpace"></div>

@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 26/02/2022 13:09:53
-Tags: #Definition
+Tags: #Definition #Set_Theory
 
-Types: [[Isomorphic Vector Spaces]], [[Isomorphic Groups]]
+Types: [[Isomorphic Groups]], [[Isomorphic Rings]], [[Isomorphic Vector Spaces]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: [[Isomorphism (Category Theory)]]

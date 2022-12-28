@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/02/2022 11:02:01
-Tags: #Proposition
+Tags: #Proposition #Later/Topology
 
 Proved by: [[Criteria for subbasis to generate existing basis]], [[Preimage under projection of subset]], [[Cartesian product of intersections]]
 References: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: $\mat{n}{K}=\Sym_n\!\l(K\r)\oplus\Skew_n\!\l(K\r)$ for $\charac K\neq2
 <div class="topSpace"></div>
 
 Date Created: 09/05/2022 18:30:12
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Transposition is a linear map]], [[Symmetric matrices form a linear subspace of set of matrices]], [[Skew-symmetric matrices form a linear subspace of set of matrices]]
 References: _Not Applicable_

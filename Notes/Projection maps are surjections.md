@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 30/01/2022 13:03:07
-Tags: #Proposition
+Tags: #Proposition #Later/Set_Theory
 
 Proved by: _Not Applicable_
 References: _Not Applicable_
@@ -21,11 +21,7 @@ _is surjective._
 
 ```
 
-_Proof_. Fix $j\in I$. We first need to prove that $\pi_j$ is indeed a function; that is, we need
-$$\begin{equation}
-    \fa f\in\prod\limits_{i\in I}X_i,\ex!x:\pi_j\l(f\r)=x.
-\end{equation}$$
-But $\pi_j\l(f\r)=f\l(j\r)$, so the existence and uniqueness of $x$ follows directly from the fact that $f$ is a function. We now need to prove that $\ran\pi_j=X_j$.
+_Proof_. We shall show $\ran\pi_j=X_j$ by double inclusion.
 * ($\subseteq$): Take $x\in\ran\pi_j$, so there exists $f\in\prod_{i\in I}X_i$ such that $x=\pi_j\l(f\r)=f\l(j\r)$. By definition of the Cartesian product, we see that $f\l(j\r)\in X_j$ and thus $x\in X_j$.
 
 * ($\supseteq$): Take $x\in X_j$ and, for all $i\in I\comp\l\{j\r\}$, let $x_i\in X_i$ be arbitrary; they exist because each $X_i\neq\em$. Let

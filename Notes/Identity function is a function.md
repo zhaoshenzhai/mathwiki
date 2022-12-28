@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/01/2022 10:09:11
-Tags: #Proposition
+Tags: #Proposition #Later/Set_Theory
 
 Proved by: [[Formula in replacement image constructs a function]]
 References: _Not Applicable_

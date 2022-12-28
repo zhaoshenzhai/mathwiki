@@ -6,7 +6,7 @@ mathLink: Image/Column Space
 <div class="topSpace"></div>
 
 Date Created: 07/05/2022 17:37:51
-Tags: #Definition
+Tags: #Definition #Later/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -16,7 +16,7 @@ Generalizations: _Not Applicable_
 Properties: [[Dimension Theorem]]
 Sufficiencies: [[Image of linear map is spanned by image of spanning set]], [[Column space is spanned by columns of matrix]]
 Equivalences: _Not Applicable_
-Justifications: [[Image of linear map is a subspace of its codomain]]
+Justifications: [[Basic properties of linear maps]]
 
 ``` ad-Definition
 title: Definition.

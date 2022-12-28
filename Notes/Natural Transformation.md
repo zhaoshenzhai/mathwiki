@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 12/03/2022 12:53:12
-Tags: #Definition
+Tags: #Definition #Later/Category_Theory
 
 Types: [[Natural Isomorphism]]
 Examples: [[Identity Natural Transformation]]

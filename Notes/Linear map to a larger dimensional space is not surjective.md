@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 14/05/2022 14:20:01
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Dimension of subspace]], [[Dimension Theorem]]
 References: _Not Applicable_

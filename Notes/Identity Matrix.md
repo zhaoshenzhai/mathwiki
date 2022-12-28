@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 31/03/2022 17:08:19
-Tags: #Definition
+Tags: #Definition #Later/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of matrix operations]], [[Matrix invertible iff augmented matrix reducible to identity]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Identity function on a vector space is represented by the identity matrix]]
+Equivalences: [[Basic properties of identity functions]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

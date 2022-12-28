@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 06/04/2022 22:16:10
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Matrix multiplication (columns slash rows)]]
 References: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: Linear system $A\v{x}=\v{b}$ consistent $\Leftrightarrow$ $\rank A=\ra
 <div class="topSpace"></div>
 
 Date Created: 06/06/2022 01:11:59
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Column space is spanned by columns of matrix]], [[Dimension of subspace]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/03/2022 14:26:12
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Matrix in RREF if augmented with tuple is in RREF]], [[Basis for column space]], [[Elementary matrices slash operations are rank-preserving]], [[Rank of matrix in RREF is number of pivot columns of non-zero rows]], [[Linearly dependent iff exists span redundant element]], [[Unique Representation Theorem (Hamel)]]
 References: _Not Applicable_

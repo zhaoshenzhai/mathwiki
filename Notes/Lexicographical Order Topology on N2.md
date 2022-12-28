@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 07/02/2022 16:26:29
-Tags: #Definition
+Tags: #Definition #Later/Topology
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -15,7 +15,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Lexicographical order on N2 is bounded below]]
+Justifications: _Not Appicable_
 
 ``` ad-Definition
 title: Definition.

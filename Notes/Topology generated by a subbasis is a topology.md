@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 21:00:06
-Tags: #Proposition
+Tags: #Proposition #Later/Topology
 
 Proved by: [[Basic properties of unions, intersections, and power sets]], [[Union of finite sets is finite]]
 References: _Not Applicable_

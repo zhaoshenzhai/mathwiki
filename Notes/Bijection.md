@@ -4,11 +4,11 @@ Date Created: 20/01/2022 09:30:37
 Tags: #Definition #Later/Set_Theory
 
 Types: [[Permutation]]
-Examples: [[Identity function is a bijection]] 
+Examples: [[Identity Function]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Inverse of bijection is a bijection]], [[Composition of bijections is a bijection]]
+Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: [[Invertible iff bijective]]
 Justifications: _Not Applicable_

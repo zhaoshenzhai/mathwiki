@@ -1,10 +1,10 @@
 <div class="topSpace"></div>
 
 Date Created: 16/05/2022 18:16:35
-Tags: #Definition
+Tags: #Definition #Later/Linear_Algebra
 
 Types: _Not Applicable_
-Examples: [[Basis Transition Map; Change of Basis Matrix]], [[Identity function on a vector space is represented by the identity matrix]]
+Examples: [[Basis Transition Map; Change of Basis Matrix]]
 Constructions: [[Linear isomorphism between linear maps and matrices]], [[Diagonalizable Operator slash Matrix]]
 Generalizations: _Not Applicable_
 

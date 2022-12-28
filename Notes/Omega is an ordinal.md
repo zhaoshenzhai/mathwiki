@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 15/09/2022 12:59:51
-Tags: #Proposition
+Tags: #Proposition #Later/Set_Theory
 
 Proved by: _Not Applicable_
 References: [[Omega is an initial segment of ON]], [[Initial segment of ON is an ordinal]]

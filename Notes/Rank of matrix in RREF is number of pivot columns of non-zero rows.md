@@ -5,7 +5,7 @@ mathLink: Rank of matrix in RREF is $|$pivot columns$|/|$non-zero rows$|$
 <div class="topSpace"></div>
 
 Date Created: 07/06/2022 18:06:05
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Elementary matrices slash operations are rank-preserving]], [[Linearly independent subset cannot contain the zero vector]]
 References: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: $V\iso W$ $\Leftrightarrow$ $\dim V=\dim W$ ($V,W$ finite-dim.)
 <div class="topSpace"></div>
 
 Date Created: 29/05/2022 17:53:10
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Dimension Theorem]], [[Linear map is injective iff kernel vanishes]], [[Existence of unique linear map via action on basis vectors]], [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Image of linear map is spanned by image of spanning set]]
 References: _Not Applicable_

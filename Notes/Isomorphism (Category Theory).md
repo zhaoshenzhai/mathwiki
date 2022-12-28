@@ -4,11 +4,11 @@ Date Created: 22/02/2022 11:26:30
 Tags: #Definition #Later/Category_Theory
 
 Types: [[Automorphism (Category Theory)]]
-Examples: [[Bijection]], [[Linear Isomorphism]], [[Group Isomorphism]], [[Ring Isomorphism]], [[Identity morphism is an isomorphism]]
+Examples: [[Bijection]], [[Linear Isomorphism]], [[Group Isomorphism]], [[Ring Isomorphism]], [[Identity Morphism]]
 Constructions: [[Natural Isomorphism]]
 Generalizations: _Not Applicable_
 
-Properties: [[Inverse of isomorphism is an isomorphism]], [[Composition of isomorphims are isomorphisms]], [[Isomorphism of objects is an equivalence relation]]
+Properties: [[Isomorphism of objects is an equivalence relation]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

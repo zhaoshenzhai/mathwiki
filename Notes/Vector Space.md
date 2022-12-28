@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/03/2022 21:04:03
-Tags: #Definition
+Tags: #Definition #Later/Linear_Algebra
 
 Types: [[Finite-dimensional Vector Space]], [[Inner Product Space]]
 Examples: [[Function Space (Linear Algebra)]]

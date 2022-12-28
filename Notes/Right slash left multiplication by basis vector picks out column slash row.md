@@ -5,7 +5,7 @@ mathLink: Right/left multiplication by basis vector picks out column/row
 <div class="topSpace"></div>
 
 Date Created: 23/05/2022 17:27:20
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Basic properties of matrix operations]], [[Matrix multiplication (columns slash rows)]]
 References: _Not Applicable_

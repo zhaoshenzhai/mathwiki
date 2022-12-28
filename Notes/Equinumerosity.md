@@ -1,17 +1,17 @@
 <div class="topSpace"></div>
 
 Date Created: 13/09/2022 15:11:38
-Tags: #Definition #Analysis #Courses/MATH254
+Tags: #Definition #Set_Theory #Courses/MATH254
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
 Constructions: [[Finite Set]]
 Generalizations: _Not Applicable_
 
-Properties: [[Equinumerosity is an equivalence relation]], [[Cartesian product respects equinumerosity]]
+Properties: [[Cartesian product respects equinumerosity]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[Isomorphism of sets is an equivalence relation]]
 
 ``` ad-Definition
 title: Definition.

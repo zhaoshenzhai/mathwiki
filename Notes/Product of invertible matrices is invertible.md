@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 08/04/2022 05:00:31
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Matrix invertible iff left-multiplication invertible]], [[Basic properties of left-multiplication of matrices]], [[Composition of bijections is a bijection]]
+Proved by: [[Matrix invertible iff left-multiplication invertible]], [[Basic properties of left-multiplication of matrices]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

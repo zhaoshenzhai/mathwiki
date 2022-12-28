@@ -5,9 +5,9 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 28/05/2022 17:05:24
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Linearly isomorphic iff dimensions coincide (finite-dim.)]], [[Identity function on a vector space is represented by the identity matrix]], [[Composition of linear maps repr under basis matrix product of representations]], [[Linear isomorphism between linear maps and matrices]]
+Proved by: [[Linearly isomorphic iff dimensions coincide (finite-dim.)]], [[Basic properties of identity functions]], [[Composition of linear maps repr under basis matrix product of representations]], [[Linear isomorphism between linear maps and matrices]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/02/2022 16:51:32
-Tags: #Proposition
+Tags: #Proposition #Later/Topology
 
 Proved by: [[Restricted order topology subset of subspace topology]], [[Order topology (subbasis)]], [[Subspace topology (subbasis)]], [[Half-infinite open rays are open in the order topology]]
 References: _Not Applicable_

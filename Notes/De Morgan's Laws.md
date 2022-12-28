@@ -1,7 +1,11 @@
+---
+mathLink: auto
+---
+
 <div class="topSpace"></div>
 
 Date Created: 18/01/2022 16:48:35
-Tags: #Proposition #Set_Theory
+Tags: #Theorem #Set_Theory
 
 Proved by: [[Double complement of set is set itself]]
 References: _Not Applicable_
@@ -10,8 +14,8 @@ Justifications: _Not Applicable_
 Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
-``` ad-Proposition
-title: Proposition.
+``` ad-Theorem
+title: Theorem (De Morgan$\textrm{'}$s Laws).
 
 _Let $V$ be a set and let_ $\l\{U_i\r\}_{i\in I}$ _be a non-empty indexed family of sets. Then_
 $$\begin{equation}

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 30/01/2022 18:58:15
-Tags: #Definition
+Tags: #Definition #Later/Set_Theory
 
 Types: [[Successor Ordinal]], [[Limit Ordinal]], [[Natural Number]]
 Examples: [[Initial segment of ON is an ordinal]]

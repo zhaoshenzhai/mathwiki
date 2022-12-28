@@ -1,13 +1,13 @@
 <div class="topSpace"></div>
 
 Date Created: 22/02/2022 14:37:24
-Tags: #Proposition
+Tags: #Proposition #Later/Category_Theory
 
 Proved by: _Not Applicable_
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
-Specializations: _Not Applicable_
+Specializations: [[Inverse of function is unique]]
 Generalizations: _Not Applicable_
 
 ``` ad-Proposition

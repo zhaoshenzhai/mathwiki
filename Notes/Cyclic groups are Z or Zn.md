@@ -1,5 +1,5 @@
 ---
-mathLink: $G$ cyclic $\Rightarrow$ $G\iso\Z$ or $G\iso\Z_n$
+mathLink: $G$ cyclic $\Rightarrow$ ($G\iso\Z\lor G\iso\Z_n$)
 ---
 
 <div class="topSpace"></div>

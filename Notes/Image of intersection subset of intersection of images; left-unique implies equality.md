@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 28/01/2022 13:54:27
-Tags: #Proposition
+Tags: #Proposition #Set_Theory #Courses/MATH254
 
 Proved by: _Not Applicable_
 References: _Not Applicable_
@@ -25,7 +25,8 @@ _Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xR
 
 ```
 
-**Remark.** If $R$ is a function, then equality holds if $f$ is injective.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Let $f\coloneqq R$ be a function. Then equality holds if $f$ is injective.
+* If $\mc{A}=\l\{A,B\r\}$, then the above reads $\im_R\!\l(A\cap B\r)\subseteq\im_R\!\l(A\r)\cap\im_R\!\l(B\r)$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

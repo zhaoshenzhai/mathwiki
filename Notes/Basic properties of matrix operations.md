@@ -3,7 +3,7 @@
 Date Created: 18/05/2022 19:46:16
 Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Basic properties of left-multiplication of matrices]], [[Identity function is the identity of function composition]], [[Direct product of groups slash function groups are groups]], [[Basic properties of groups]], [[Basic properties of composition of linear maps]], [[Composition of relations is associative]]
+Proved by: [[Basic properties of left-multiplication of matrices]], [[Basic properties of identity functions]], [[Direct product of groups slash function groups are groups]], [[Basic properties of groups]], [[Basic properties of composition of linear maps]], [[Composition of relations is associative]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

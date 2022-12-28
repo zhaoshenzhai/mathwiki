@@ -5,7 +5,7 @@ mathLink: $\mat{m\times n}{K}$ (Vector Space)
 <div class="topSpace"></div>
 
 Date Created: 31/03/2022 21:03:36
-Tags: #Definition
+Tags: #Definition #Later/Linear_Algebra
 
 Types: [[Vector Space of Diagonal Matrices]], [[Vector Space of Symmetric Matrices]], [[Vector Space of Skew-symmetric Matrices]]
 Examples: _Not Applicable_

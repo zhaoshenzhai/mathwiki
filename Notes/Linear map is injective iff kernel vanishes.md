@@ -5,9 +5,9 @@ mathLink: Linear map $T$ is injective $\Leftrightarrow$ $\ker T=\l\{0\r\}$
 <div class="topSpace"></div>
 
 Date Created: 13/05/2022 20:25:22
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Linear map fixes zero vector]]
+Proved by: _Not Applicable_
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

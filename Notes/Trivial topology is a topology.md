@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/01/2022 19:12:21
-Tags: #Proposition
+Tags: #Proposition #Later/Topology
 
 Proved by: [[Cardinality of power set]], [[Union of empty set is empty]]
 References: _Not Applicable_

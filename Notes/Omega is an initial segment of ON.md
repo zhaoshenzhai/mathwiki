@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 02/02/2022 11:40:56
-Tags: #Proposition
+Tags: #Proposition #Later/Set_Theory
 
 Proved by: [[ON is a transitive class]], [[Reflexive closure of ordering on ordinals]]
 References: _Not Applicable_

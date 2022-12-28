@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 07/02/2022 11:29:31
-Tags: #Definition
+Tags: #Definition #Later/Topology
 
 Types: _Not Applicable_
 Examples: [[Open set in lexicographical order topology of R2]]
@@ -15,7 +15,7 @@ Generalizations: _Not Applicable_
 Properties: [[Lexicographical order topology strictly finer than standard topology on R2]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Lexicographical order topology on R2 is discrete times standard]]
-Justifications: [[Lexicographical order on R2 is unbounded]]
+Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.

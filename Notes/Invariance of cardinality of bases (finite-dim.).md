@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 06/04/2022 21:55:25
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Steinitz Exchange Lemma]]
 References: _Not Applicable_

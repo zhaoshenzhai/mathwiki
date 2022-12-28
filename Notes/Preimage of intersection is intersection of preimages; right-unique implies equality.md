@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 10/09/2022 23:22:23
-Tags: #Proposition
+Tags: #Proposition #Set_Theory #Courses/MATH254
 
 Proved by: [[Domain and range of inverse relation]]
 References: _Not Applicable_
@@ -25,7 +25,8 @@ _Equality holds if for all $x\in\dom R$, there exists a unique $y$ such that $xR
 
 ```
 
-**Remark.** If $R$ is a function, then equality always hold.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If $R$ is a function, then equality always hold.
+* If $\mc{B}=\l\{A,B\r\}$, then the above reads $\preim_R\!\l(A\cap B\r)\subseteq\preim_R\!\l(A\r)\cap\preim_R\!\l(B\r)$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

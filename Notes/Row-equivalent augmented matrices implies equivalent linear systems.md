@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 23/03/2022 22:18:42
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Row-equivalence of matrices iff factors through invertible matrix]]
 References: _Not Applicable_

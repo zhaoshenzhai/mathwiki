@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/02/2022 20:19:37
-Tags: #Definition
+Tags: #Definition #Later/Topology
 
 Types: [[Bounded Open Ray]], [[Half-infinite Open Ray]]
 Examples: _Not Applicable_

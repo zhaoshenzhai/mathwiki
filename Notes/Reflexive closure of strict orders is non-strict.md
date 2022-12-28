@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/02/2022 11:05:40
-Tags: #Proposition
+Tags: #Proposition #Later/Set_Theory
 
 Proved by: [[Reflexive closure of connected relation is connected]], [[Reflexive closure is the smallest reflexive relation]]
 References: _Not Applicable_

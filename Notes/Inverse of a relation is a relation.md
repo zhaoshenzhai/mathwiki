@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/01/2022 11:24:19
-Tags: #Proposition
+Tags: #Proposition #Later/Set_Theory
 
 Proved by: [[Binary relation iff subset of Cartesian product]], [[Axiom Schema of Specification]]
 References: _Not Applicable_
@@ -18,7 +18,7 @@ _Let $R$ be a binary relation. Then there exists a unique binary relation $R^{-1
 ```
 
 _Proof_. We shall first construct the set $R^{-1}$ with the prescribed properties and then prove that this set is indeed a binary relation.
-* Formally, the set $R^{-1}$ is justified with the following statement:
+* Formally, the existence of the set $R^{-1}$ is justified with the following statement:
 $$\begin{equation}
     \fa R\l[R\textrm{ is a binary relation }\Rightarrow\ex!z\l(w\in z\Leftrightarrow\ex x\ex y\l(xRy\land w=\tpl{y,x}\r)\r)\r].
 \end{equation}$$

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/04/2022 00:00:19
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Right slash left multiplication by basis vector picks out column slash row]]
 References: _Not Applicable_

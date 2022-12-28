@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 20/02/2022 19:16:39
-Tags: #Proposition
+Tags: #Proposition #Later/Category_Theory
 
 Proved by: [[Left-invertible iff injection]], [[Left-invertible implies monomorphism]]
 References: _Not Applicable_

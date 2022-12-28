@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/04/2022 11:25:09
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Steinitz Exchange Lemma]], [[Enlargement of linearly independent set by adjoining non-spanned vector]]
 References: _Not Applicable_

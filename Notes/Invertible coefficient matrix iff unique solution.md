@@ -5,7 +5,7 @@ mathLink: $A$ invertible $\Leftrightarrow$ $A\v{x}=\v{b}$ has a unique solution
 <div class="topSpace"></div>
 
 Date Created: 08/04/2022 03:28:32
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Basic properties of matrix operations]], [[Solutions of a linear system decompose as sum of particular and null]], [[Linear map is injective iff kernel vanishes]], [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Matrix invertible iff left-multiplication invertible]]
 References: _Not Applicable_

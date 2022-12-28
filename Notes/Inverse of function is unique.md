@@ -1,13 +1,13 @@
 <div class="topSpace"></div>
 
 Date Created: 27/01/2022 11:05:54
-Tags: #Proposition
+Tags: #Proposition #Set_Theory
 
-Proved by: [[Identity function is the identity of function composition]], [[Composition of relations is associative]]
+Proved by: [[Basic properties of identity functions]], [[Composition of relations is associative]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
-Specializations: _Not Applicable_
+Specializations: [[Inverse of matrix is unique]]
 Generalizations: [[Inverse of morphism is unique]]
 
 ``` ad-Proposition

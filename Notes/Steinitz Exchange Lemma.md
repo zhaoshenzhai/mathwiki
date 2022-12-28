@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 06/04/2022 21:12:19
-Tags: #Theorem
+Tags: #Theorem #Later/Linear_Algebra
 
 Proved by: [[Linearly dependent iff exists span redundant element]]
 References: _Not Applicable_

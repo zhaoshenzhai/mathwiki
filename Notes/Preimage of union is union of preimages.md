@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 10/09/2022 22:49:51
-Tags: #Proposition
+Tags: #Proposition #Set_Theory #Courses/MATH254
 
 Proved by: _Not Applicable_
 References: _Not Applicable_
@@ -19,6 +19,10 @@ $$\begin{equation}
 \end{equation}$$
 
 ```
+
+**Remark.** If $\mc{B}=\l\{A,B\r\}$, then the above reads $\preim_R\!\l(A\cup B\r)=\preim_R\!\l(A\r)\cup\preim_R\!\l(B\r)$.<span style="float:right;">$\blacklozenge$</span>
+
+---
 
 _Proof_. Take $x\in\preim_R\l(\bigcup\mc{B}\r)$. The result follows from the following chain of equivalences:
 

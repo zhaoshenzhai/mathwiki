@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/04/2022 17:33:40
-Tags: #Definition
+Tags: #Definition #Later/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Symmetric and skew-symmetric decomposition of matrices]]

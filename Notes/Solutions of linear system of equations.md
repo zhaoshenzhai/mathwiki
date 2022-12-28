@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/04/2022 16:04:50
-Tags: #Theorem
+Tags: #Theorem #Later/Linear_Algebra
 
 Proved by: _Not Applicable_
 References: [[Invertible coefficient matrix iff unique solution]], [[Solutions of a linear system decompose as sum of particular and null]], [[Gaussian Elimination]]

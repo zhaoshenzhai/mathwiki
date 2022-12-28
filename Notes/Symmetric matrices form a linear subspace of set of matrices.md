@@ -5,7 +5,7 @@ mathLink: $\Sym_n\!\l(K\r)\subseteq\mat{n}{K}$ is a linear subspace
 <div class="topSpace"></div>
 
 Date Created: 05/05/2022 19:30:03
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Transposition is a linear map]]
 References: _Not Applicable_

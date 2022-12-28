@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 09/06/2022 11:12:11
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Elementary matrices slash operations have inverses of the same type]], [[Product of invertible matrices is invertible]], [[Matrix Invertibility Theorem]]
 References: _Not Applicable_

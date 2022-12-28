@@ -5,7 +5,7 @@ mathLink: Linearly independent $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a 
 <div class="topSpace"></div>
 
 Date Created: 02/05/2022 14:12:33
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Linearly independent set extends to a basis]], [[Invariance of cardinality of bases (finite-dim.)]]
 References: _Not Applicable_

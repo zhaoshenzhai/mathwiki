@@ -1,11 +1,11 @@
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 15:31:46
-Tags: #Definition
+Tags: #Definition #Later/Set_Theory
 
 Types: _Not Applicable_
 Examples: [[Real Numbers]]
-Constructions: [[Open Interval]], [[Half-open Intervals]], [[Closed Interval]], [[Open Ray]], [[Functions in an Ordered Space]]
+Constructions: [[Open Interval]], [[Half-open Intervals]], [[Closed Interval]], [[Open Ray]]
 Generalizations: _Not Applicable_
 
 Properties: [[Least or greatest equals minimal or maximal for totally ordered sets]]

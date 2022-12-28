@@ -5,7 +5,7 @@ mathLink: $U=\l(U^\perp\r)^\perp$
 <div class="topSpace"></div>
 
 Date Created: 28/06/2022 22:29:13
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Basic properties of orthogonal complements]], [[Orthogonal Decomposition]]
 References: _Not Applicable_

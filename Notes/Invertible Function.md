@@ -1,14 +1,14 @@
 <div class="topSpace"></div>
 
 Date Created: 26/01/2022 18:48:16
-Tags: #Definition
+Tags: #Definition #Set_Theory
 
 Types: [[Linear Isomorphism]], [[Group Isomorphism]], [[Ring Isomorphism]]
 Examples: [[Identity Function]], [[Elementary Matrices and Operations]]
 Constructions: [[Isomorphic Sets]]
 Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]
 
-Properties: [[Inverse of bijection is a bijection]], [[Inverse of linear map is linear]]
+Properties: [[Inverse of linear map is linear]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Left-invertible iff injection]], [[Right-invertible iff surjection (Choice)]], [[Invertible iff bijective]]
 Justifications: [[Inverse of function is unique]], [[Left and right inverses coincide (function)]]

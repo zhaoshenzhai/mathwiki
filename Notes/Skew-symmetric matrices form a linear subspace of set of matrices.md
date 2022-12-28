@@ -5,7 +5,7 @@ mathLink: $\Skew_n\!\l(K\r)\subseteq\mat{n}{K}$ is a linear subspace
 <div class="topSpace"></div>
 
 Date Created: 09/05/2022 18:18:04
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Transposition is a linear map]]
 References: _Not Applicable_

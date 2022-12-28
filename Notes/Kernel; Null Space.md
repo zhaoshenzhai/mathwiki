@@ -5,7 +5,7 @@ mathLink: Kernel/Null Space
 <div class="topSpace"></div>
 
 Date Created: 02/05/2022 18:54:55
-Tags: #Definition
+Tags: #Definition #Later/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -15,7 +15,7 @@ Generalizations: _Not Applicable_
 Properties: [[Dimension Theorem]], [[Linear map is injective iff kernel vanishes]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Kernel of linear map is a subspace of its domain]]
+Justifications: [[Basic properties of linear maps]]
 
 ``` ad-Definition
 title: Definition.
