@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 01/11/2022 01:28:24
-Tags: #Proposition #Analysis
+Tags: #Proposition #Topics/Analysis
 
 Proved by: [[Limit of geometric]]
 References: _Not Applicable_

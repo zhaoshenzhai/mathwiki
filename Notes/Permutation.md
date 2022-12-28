@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 10/09/2022 21:13:50
-Tags: #Definition #Group_Theory
+Tags: #Definition #Topics/Group_Theory
 
 Types: [[k-cycle]], [[Even and Odd Permutation]]
 Examples: _Not Applicable_

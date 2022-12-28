@@ -5,7 +5,7 @@ mathLink: $R$ with unit $\Rightarrow$ $\charac R=\ord{1}$
 <div class="topSpace"></div>
 
 Date Created: 15/11/2022 13:01:45
-Tags: #Proposition #Ring_Theory
+Tags: #Proposition #Topics/Ring_Theory
 
 Proved by: [[Basic properties of rings]]
 References: _Not Applicable_

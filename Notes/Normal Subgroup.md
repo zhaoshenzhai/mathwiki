@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/10/2022 11:35:20
-Tags: #Definition #Group_Theory
+Tags: #Definition #Topics/Group_Theory
 
 Types: _Not Applicable_
 Examples: [[Kernel (Group Theory)]]

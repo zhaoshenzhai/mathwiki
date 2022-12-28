@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/11/2022 09:56:13
-Tags: #Definition #Ring_Theory
+Tags: #Definition #Topics/Ring_Theory
 
 Types: [[Field]]
 Examples: [[Division Algorithm]], [[Division Algorithm (Polynomials)]]

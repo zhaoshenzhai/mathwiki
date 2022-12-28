@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/09/2022 00:04:17
-Tags: #Proposition #Group_Theory
+Tags: #Proposition #Topics/Group_Theory
 
 Proved by: [[Order divides power iff power gives identity]]
 References: _Not Applicable_

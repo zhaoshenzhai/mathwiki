@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 17/10/2022 11:58:01
-Tags: #Definition #Group_Theory
+Tags: #Definition #Topics/Group_Theory
 
 Types: _Not Applicable_
 Examples: [[Cayley's Theorem]], [[Cyclic groups are Z or Zn]]

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 10/09/2022 23:22:23
-Tags: #Proposition #Set_Theory
+Tags: #Proposition #Topics/Set_Theory
 
 Proved by: [[Domain and range of inverse relation]]
 References: _Not Applicable_

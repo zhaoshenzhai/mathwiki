@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 13/10/2022 08:20:23
-Tags: #Theorem #Analysis
+Tags: #Theorem #Topics/Analysis
 
 Proved by: [[Binomial Theorem]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 19/02/2022 15:00:15
-Tags: #Definition #Analysis
+Tags: #Definition #Topics/Analysis
 
 Types: _Not Applicable_
 Examples: [[Closed Interval]]

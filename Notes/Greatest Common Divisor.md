@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 14/09/2022 19:47:03
-Tags: #Definition #Ring_Theory
+Tags: #Definition #Topics/Ring_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

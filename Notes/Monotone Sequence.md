@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/10/2022 18:34:42
-Tags: #Definition #Analysis
+Tags: #Definition #Topics/Analysis
 
 Types: _Not Applicable_
 Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth root of real]], [[Limit of nth root of n]]

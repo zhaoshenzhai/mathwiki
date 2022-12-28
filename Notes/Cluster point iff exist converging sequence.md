@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 19/11/2022 18:27:11
-Tags: #Proposition #Analysis #Later/Topology
+Tags: #Proposition #Topics/Analysis #Later/Topology
 
 Proved by: [[Closure of set iff every neighborhood intersects set]]
 References: _Not Applicable_

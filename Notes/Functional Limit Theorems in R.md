@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 18/11/2022 19:27:11
-Tags: #Theorem #Analysis
+Tags: #Theorem #Topics/Analysis
 
 Proved by: [[Sequential Criterion for Functional Limits]], [[Sequential Limit Theorems in R]]
 References: _Not Applicable_

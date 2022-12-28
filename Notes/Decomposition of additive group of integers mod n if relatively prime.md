@@ -5,7 +5,7 @@ mathLink: $\Z_m\times\Z_n\iso\Z_{mn}$ ($m\perp n$)
 <div class="topSpace"></div>
 
 Date Created: 27/10/2022 15:53:31
-Tags: #Proposition #Group_Theory
+Tags: #Proposition #Topics/Group_Theory
 
 Proved by: [[Cyclic groups are Z or Zn]], [[Order of additive group of integers mod n is n]], [[Order of element in product]]
 References: _Not Applicable_

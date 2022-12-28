@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/10/2022 19:16:14
-Tags: #Proposition #Group_Theory
+Tags: #Proposition #Topics/Group_Theory
 
 Proved by: [[Basic properties of cosets]]
 References: _Not Applicable_

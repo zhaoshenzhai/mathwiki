@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 27/10/2022 18:37:38
-Tags: #Proposition #Group_Theory
+Tags: #Proposition #Topics/Group_Theory
 
 Proved by: [[Basic properties of groups]]
 References: _Not Applicable_

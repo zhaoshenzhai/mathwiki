@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/01/2022 09:20:32
-Tags: #Definition #Set_Theory
+Tags: #Definition #Topics/Set_Theory
 
 Types: [[Bijection]]
 Examples: [[Inclusion Function]], [[Linear map is injective iff kernel vanishes]], [[Linear map between vector spaces of same dimension is injective iff surjective]]

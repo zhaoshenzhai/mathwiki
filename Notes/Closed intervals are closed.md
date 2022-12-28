@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/02/2022 17:30:20
-Tags: #Proposition #Analysis
+Tags: #Proposition #Topics/Analysis
 
 Proved by: [[Half-infinite open rays are open in the order topology]]
 References: _Not Applicable_

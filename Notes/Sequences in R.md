@@ -5,7 +5,7 @@ mathLink: Sequences in $\R$
 <div class="topSpace"></div>
 
 Date Created: 29/08/2022 16:52:42
-Tags: #Definition #Analysis
+Tags: #Definition #Topics/Analysis
 
 Types: [[Monotone Sequence]], [[Geometric Sequence]], [[Alternating Sequence]]
 Examples: _Not Applicable_

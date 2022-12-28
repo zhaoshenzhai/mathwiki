@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 01/12/2022 13:19:01
-Tags: #Definition #Analysis
+Tags: #Definition #Topics/Analysis
 
 Types: [[Differentiable Function in R]]
 Examples: _Not Applicable_

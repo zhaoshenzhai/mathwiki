@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/01/2022 18:48:16
-Tags: #Definition #Set_Theory
+Tags: #Definition #Topics/Set_Theory
 
 Types: [[Linear Isomorphism]], [[Group Isomorphism]], [[Ring Isomorphism]]
 Examples: [[Identity Function]], [[Elementary Matrices and Operations]]

@@ -5,7 +5,7 @@ mathLink: $A_n\subseteq S_n$ is a permutation group
 <div class="topSpace"></div>
 
 Date Created: 07/10/2022 13:16:10
-Tags: #Proposition #Group_Theory
+Tags: #Proposition #Topics/Group_Theory
 
 Proved by: [[Subgroup Test]], [[Every k-cycle is a product of k-1 transpositions]]
 References: _Not Applicable_

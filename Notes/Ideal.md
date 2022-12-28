@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/11/2022 14:06:35
-Tags: #Definition #Ring_Theory
+Tags: #Definition #Topics/Ring_Theory
 
 Types: [[Maximal Ideal]], [[Prime Ideal]]
 Examples: [[Principal Ideal]]

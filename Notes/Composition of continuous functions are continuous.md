@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/11/2022 08:35:12
-Tags: #Proposition #Analysis
+Tags: #Proposition #Topics/Analysis
 
 Proved by: [[Image slash preimage of compositions]]
 References: _Not Applicable_

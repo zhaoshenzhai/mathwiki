@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 17/11/2022 20:34:29
-Tags: #Definition #Analysis
+Tags: #Definition #Topics/Analysis
 
 Types: _Not Applicable_
 Examples: [[Functions in a Metric Space]]

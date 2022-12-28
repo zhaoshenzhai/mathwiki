@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 21/10/2022 10:49:46
-Tags: #Theorem #Group_Theory
+Tags: #Theorem #Topics/Group_Theory
 
 Proved by: [[Basic properties of groups]], [[Criteria for equality of functions]]
 References: _Not Applicable_

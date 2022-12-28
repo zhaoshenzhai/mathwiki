@@ -5,7 +5,7 @@ mathLink: $\tpl{\Z,+,\cdot}$ is a PID
 <div class="topSpace"></div>
 
 Date Created: 16/11/2022 14:22:11
-Tags: #Proposition #Ring_Theory
+Tags: #Proposition #Topics/Ring_Theory
 
 Proved by: _Not Applicable_
 References: [[Division Algorithm]], [[Euclidean Domain implies PID]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 14/01/2022 15:43:46
-Tags: #Definition #Set_Theory
+Tags: #Definition #Topics/Set_Theory
 
 Types: _Not Applicable_
 Examples: [[Intersection of empty set is a proper class]] 

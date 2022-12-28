@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 15/11/2022 14:07:45
-Tags: #Proposition #Ring_Theory
+Tags: #Proposition #Topics/Ring_Theory
 
 Proved by: [[Subring Test]], [[Basic properties of group homomorphisms]]
 References: _Not Applicable_

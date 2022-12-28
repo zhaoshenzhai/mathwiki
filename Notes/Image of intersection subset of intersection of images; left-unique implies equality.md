@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 28/01/2022 13:54:27
-Tags: #Proposition #Set_Theory
+Tags: #Proposition #Topics/Set_Theory
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

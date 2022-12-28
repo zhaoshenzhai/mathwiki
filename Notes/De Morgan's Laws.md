@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 18/01/2022 16:48:35
-Tags: #Theorem #Set_Theory
+Tags: #Theorem #Topics/Set_Theory
 
 Proved by: [[Double complement of set is set itself]]
 References: _Not Applicable_

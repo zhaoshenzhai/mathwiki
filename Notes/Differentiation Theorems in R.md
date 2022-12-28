@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 01/12/2022 14:15:44
-Tags: #Theorem #Analysis
+Tags: #Theorem #Topics/Analysis
 
 Proved by: [[Functional Limit Theorems in R]], [[Differentiable implies continuous]], [[Cluster point iff exist converging sequence]], [[Composition of continuous functions are continuous]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 06/10/2022 15:08:15
-Tags: #Definition #Group_Theory
+Tags: #Definition #Topics/Group_Theory
 
 Types: _Not Applicable_
 Examples: [[Alternating Group]]

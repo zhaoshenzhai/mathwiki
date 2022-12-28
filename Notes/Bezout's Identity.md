@@ -5,7 +5,7 @@ mathLink: B$\acute{\textrm{e}}$zout$\textrm{'}$s Identity
 <div class="topSpace"></div>
 
 Date Created: 23/11/2022 15:13:45
-Tags: #Theorem #Ring_Theory
+Tags: #Theorem #Topics/Ring_Theory
 
 Proved by: _Not Applicable_
 References: [[Ring of integers is a PID]], [[Polynomial ring over fields are PIDs]]

@@ -5,7 +5,7 @@ mathLink: $G\iso H$ $\Rightarrow$ ($G$ Abelian $\Leftrightarrow$ $H$ Abelian)
 <div class="topSpace"></div>
 
 Date Created: 17/10/2022 12:16:08
-Tags: #Proposition #Group_Theory
+Tags: #Proposition #Topics/Group_Theory
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

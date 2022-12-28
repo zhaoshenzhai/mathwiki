@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/11/2022 19:05:54
-Tags: #Definition #Ring_Theory
+Tags: #Definition #Topics/Ring_Theory
 
 Types: [[Integral Domain]], [[Field]]
 Examples: [[Ring or Field of Integers mod n]]

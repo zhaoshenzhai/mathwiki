@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 01/11/2022 00:52:54
-Tags: #Theorem #Analysis
+Tags: #Theorem #Topics/Analysis
 
 Proved by: [[Convergent implies Cauchy]], [[Cauchy implies bounded]], [[Bolzano-Weierstrass Theorem]]
 References: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 04/05/2022 12:14:10
-Tags: #Proposition #Group_Theory
+Tags: #Proposition #Topics/Group_Theory
 
 Proved by: _Not Applicable_
 References: [[Function space constructed from a Cartesian product]]

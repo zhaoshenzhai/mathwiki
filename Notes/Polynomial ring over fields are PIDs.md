@@ -5,7 +5,7 @@ mathLink: $K$ field $\Rightarrow$ $K\l[x\r]$ is a PID
 <div class="topSpace"></div>
 
 Date Created: 23/11/2022 14:24:46
-Tags: #Proposition #Ring_Theory
+Tags: #Proposition #Topics/Ring_Theory
 
 Proved by: _Not Applicable_
 References: [[Division Algorithm (Polynomials)]], [[Euclidean Domain implies PID]]

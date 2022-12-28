@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/02/2022 13:09:53
-Tags: #Definition #Set_Theory
+Tags: #Definition #Topics/Set_Theory
 
 Types: [[Isomorphic Groups]], [[Isomorphic Rings]], [[Isomorphic Vector Spaces]]
 Examples: _Not Applicable_

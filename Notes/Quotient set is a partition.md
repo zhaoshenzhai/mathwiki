@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/02/2022 19:56:07
-Tags: #Proposition #Set_Theory
+Tags: #Proposition #Topics/Set_Theory
 
 Proved by: [[Same equivalence class iff related]]
 References: _Not Applicable_
