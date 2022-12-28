@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 11/11/2022 08:58:31
-Tags: #Definition #Courses/MATH235
+Tags: #Definition #Ring_Theory #Courses/MATH235
 
 Types: [[Integral Domain]], [[Division Ring]]
 Examples: [[Ring or Field of Integers mod n]]

@@ -5,7 +5,7 @@ mathLink: $\tpl{\Z_n,+,\cdot}$
 <div class="topSpace"></div>
 
 Date Created: 03/11/2022 19:37:02
-Tags: #Definition #Courses/MATH235
+Tags: #Definition #Ring_Theory #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 14/11/2022 21:55:48
-Tags: #Proposition #Courses/MATH235
+Tags: #Proposition #Ring_Theory #Courses/MATH235
 
 Proved by: [[Integral domain iff cancellable]]
 References: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: $\ord{\Z_n}=n$
 <div class="topSpace"></div>
 
 Date Created: 27/09/2022 14:34:47
-Tags: #Proposition #Courses/MATH235
+Tags: #Proposition #Group_Theory #Courses/MATH235
 
 Proved by: [[Order of group element is order of generated cyclic group]], [[Same equivalence class iff related]]
 References: _Not Applicable_

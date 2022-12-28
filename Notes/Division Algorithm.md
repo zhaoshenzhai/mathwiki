@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 14/09/2022 22:46:36
-Tags: #Theorem #Courses/MATH235
+Tags: #Theorem #Ring_Theory #Courses/MATH235
 
 Proved by: [[Omega is an ordinal]]
 References: _Not Applicable_

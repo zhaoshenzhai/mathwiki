@@ -5,7 +5,7 @@ mathLink: Even/Odd Permutation
 <div class="topSpace"></div>
 
 Date Created: 06/10/2022 15:14:33
-Tags: #Definition #Courses/MATH235
+Tags: #Definition #Group_Theory #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

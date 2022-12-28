@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 22/11/2022 19:40:28
-Tags: #Proposition #Courses/MATH235
+Tags: #Proposition #Group_Theory #Courses/MATH235
 
 Proved by: _Not Applicable_
 References: [[Ideal is maximal iff quotient is a field]], [[Ideal is prime iff quotient is an integral domain]]

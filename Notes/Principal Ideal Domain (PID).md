@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 22/11/2022 21:01:55
-Tags: #Definition #Courses/MATH235
+Tags: #Definition #Group_Theory #Courses/MATH235
 
 Types: [[Euclidean Domain]]
 Examples: [[Ring of integers is a PID]], [[Polynomial ring over fields are PIDs]]

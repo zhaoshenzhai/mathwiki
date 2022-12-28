@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/11/2022 19:08:25
-Tags: #Definition #Courses/MATH235
+Tags: #Definition #Group_Theory #Courses/MATH235
 
 Types: [[Principal Ideal Domain (PID)]]
 Examples: _Not Applicable_

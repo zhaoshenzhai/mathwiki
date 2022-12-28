@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/11/2022 09:56:13
-Tags: #Definition #Courses/MATH235
+Tags: #Definition #Group_Theory #Courses/MATH235
 
 Types: [[Field]]
 Examples: [[Division Algorithm]], [[Division Algorithm (Polynomials)]]

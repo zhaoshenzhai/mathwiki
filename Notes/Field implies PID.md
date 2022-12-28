@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 22/11/2022 22:39:00
-Tags: #Proposition #Courses/MATH235
+Tags: #Proposition #Ring_Theory #Courses/MATH235
 
 Proved by: _Not Applicable_
 References: [[Euclidean Domain implies PID]]

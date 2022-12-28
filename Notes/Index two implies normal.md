@@ -5,7 +5,7 @@ mathLink: $\l[G:N\r]=2\Rightarrow N\nsubgrpeq G$
 <div class="topSpace"></div>
 
 Date Created: 27/10/2022 18:19:43
-Tags: #Proposition #Courses/MATH235
+Tags: #Proposition #Group_Theory #Courses/MATH235
 
 Proved by: [[Set of cosets partition the group]], [[Basic properties of cosets]]
 References: _Not Applicable_

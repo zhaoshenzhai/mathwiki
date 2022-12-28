@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 13/10/2022 12:14:03
-Tags: #Definition #Courses/MATH235
+Tags: #Definition #Group_Theory #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

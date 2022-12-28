@@ -5,7 +5,7 @@ mathLink: Polynomial $p$ has at most $\deg p$ roots
 <div class="topSpace"></div>
 
 Date Created: 23/11/2022 13:43:40
-Tags: #Proposition #Courses/MATH235
+Tags: #Proposition #Ring_Theory #Courses/MATH235
 
 Proved by: [[Division Algorithm (Polynomials)]], [[Root iff factor]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 14/09/2022 19:41:39
-Tags: #Definition #Courses/MATH235
+Tags: #Definition #Ring_Theory #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: [[Additive Group of Integers mod n]], [[Root iff factor]]

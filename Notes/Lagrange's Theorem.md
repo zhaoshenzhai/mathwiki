@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 13/10/2022 12:03:14
-Tags: #Theorem #Courses/MATH235
+Tags: #Theorem #Group_Theory #Courses/MATH235
 
 Proved by: [[Set of cosets partition the group]], [[Cosets have the same cardinality]]
 References: _Not Applicable_

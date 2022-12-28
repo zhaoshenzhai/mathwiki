@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 19/09/2022 11:55:03
-Tags: #Definition #Courses/MATH235
+Tags: #Definition #Group_Theory #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: [[Order of additive group of integers mod n is n]], [[Euler's Totient Function]], [[Characteristic of ring with unit is order of 1]]

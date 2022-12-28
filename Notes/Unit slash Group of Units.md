@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 03/11/2022 19:59:00
-Tags: #Definition #Courses/MATH235
+Tags: #Definition #Group_Theory #Ring_Theory #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: [[Multiplicative Group of Integers mod n]]

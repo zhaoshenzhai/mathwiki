@@ -5,7 +5,7 @@ mathLink: $\ord{g}=\ord{\l\langle g\r\rangle}$
 <div class="topSpace"></div>
 
 Date Created: 26/09/2022 17:57:49
-Tags: #Proposition #Courses/MATH235
+Tags: #Proposition #Group_Theory #Courses/MATH235
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

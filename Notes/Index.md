@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 13/10/2022 13:50:58
-Tags: #Definition #Courses/MATH235
+Tags: #Definition #Group_Theory #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
