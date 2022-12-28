@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/03/2022 19:38:41
-Tags: #Proposition
+Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: [[Elementary matrices slash operations have inverses of the same type]]
 References: _Not Applicable_

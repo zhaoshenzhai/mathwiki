@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/11/2022 19:11:26
-Tags: #Definition #Group_Theory #Courses/MATH235
+Tags: #Definition #Ring_Theory #Courses/MATH235
 
 Types: _Not Applicable_
 Examples: [[Ring or Field of Integers mod n]], [[Real Numbers]]

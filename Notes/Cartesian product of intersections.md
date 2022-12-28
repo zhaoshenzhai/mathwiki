@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/02/2022 09:43:00
-Tags: #Proposition
+Tags: #Proposition #Set_Theory
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

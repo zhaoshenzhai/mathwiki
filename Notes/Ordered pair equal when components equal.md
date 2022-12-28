@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 15/01/2022 14:02:37
-Tags: #Proposition #Set_Theory
+Tags: #Proposition #Later/Set_Theory
 
 Proved by: [[Axiom of Extensionality]]
 References: _Not Applicable_

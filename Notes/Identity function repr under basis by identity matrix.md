@@ -9,7 +9,7 @@ Tags: #Proposition #Later/Linear_Algebra
 
 Proved by: _Not Applicable_
 References: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[Identity function is linear]]
 
 Generalizations: _Not Applicable_
 Counterexamples: _Not Applicable_

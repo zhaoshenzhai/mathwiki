@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/11/2022 14:06:35
-Tags: #Definition #Group_Theory #Courses/MATH235
+Tags: #Definition #Ring_Theory #Courses/MATH235
 
 Types: [[Maximal Ideal]], [[Prime Ideal]]
 Examples: [[Principal Ideal]]

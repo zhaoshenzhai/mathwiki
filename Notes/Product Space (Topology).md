@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/02/2022 09:28:03
-Tags: #Definition
+Tags: #Definition #Later/Topology
 
 Types: _Not Applicable_
 Examples: [[Euclidean Topological Space]]
