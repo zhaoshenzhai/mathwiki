@@ -37,7 +37,7 @@ which, as $n\to\infty$, is arbitrarily small. Thus $d\l(\alpha,\alpha'\r)=0$, so
 $$\begin{equation}
     n_{k+1}\coloneqq\min\l\{n\in\N\comp\l\{n_0,\dots,n_k\r\}\mid x_n\in I_{k+1}\r\},
 \end{equation}$$
-where the set is non-empty, and hence the minimum is defined, since $\ex^\infty n\in\N:x_n\in I_{k+1}$ by construction. Thus $n_0<n_1<\cdots$, so we obtain a subsequence $\tpl{x_{k_n}}$ of $\tpl{x_n}$ such that $x_{n_k}\in I_k$ for all $k\in\N$. Finally, observe that $\lim\limits_{k\to\infty}x_{n_k}=\alpha$ since
+where the set is non-empty, and hence the minimum is defined, since $\ex^\infty n\in\N:x_n\in I_{k+1}$ by construction. Thus $n_0<n_1<\cdots$, so we obtain a subsequence $\tpl{x_{n_k}}$ of $\tpl{x_n}$ such that $x_{n_k}\in I_k$ for all $k\in\N$. Finally, observe that $\lim\limits_{k\to\infty}x_{n_k}=\alpha$ since
 $$\begin{equation}
     d\l(x_{n_k},\alpha\r)\leq\diam I_k=\frac{b-a}{2^k}\to0
 \end{equation}$$

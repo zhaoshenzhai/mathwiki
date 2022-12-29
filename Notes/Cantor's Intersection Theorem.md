@@ -26,12 +26,12 @@ _Let_ $\l\{K_\alpha\r\}_{\alpha\in\mc{A}}$ _be a collection of compact subsets o
 
 ---
 
-_Proof_. Assume, for sake of contradiction, that $\bigcap_{\alpha\in\mc{A}}K_\alpha=\em$. For every $\alpha\in\mc{A}$, set $U_\alpha\coloneqq X\comp K_\alpha$, which is open, and observe that
+_Proof_. Fix any $K\in\l\{K_\alpha\r\}$ and assume, for sake of contradiction, that $\bigcap_{\alpha\in\mc{A}}K_\alpha=\em$. For every $\alpha\in\mc{A}$, set $U_\alpha\coloneqq X\comp K_\alpha$, which is open, and observe that
 $$\begin{equation}
-    \bigcup_{\alpha\in\mc{A}}U_\alpha=\bigcup_{\alpha\in\mc{A}}X\comp K_\alpha=X\comp\bigcap_{\alpha\in\mc{A}}K_\alpha=X.
+    \bigcup_{\alpha\in\mc{A}}U_\alpha=\bigcup_{\alpha\in\mc{A}}X\comp K_\alpha=X\comp\bigcap_{\alpha\in\mc{A}}K_\alpha=X\supseteq K.
 \end{equation}$$
-Thus $\l\{U_\alpha\r\}$ is an open cover of $X$, and since $X$ is compact, there exist finitely-many indices $\alpha_1,\dots,\alpha_k$ such that $X=\bigcup_{i=1}^{k}U_{\alpha_i}$. But then
+Thus $\l\{U_\alpha\r\}$ is an open cover of $K$, so compactness of $K$ furnishes indices $\alpha_1,\dots,\alpha_k\in\mc{A}$ such that $K=\bigcup_{i=1}^{k}U_{\alpha_i}$. But then
 $$\begin{equation}
-    \bigcap_{i=1}^{k}K_{\alpha_1}=\bigcap_{i=1}^{k}X\comp U_{\alpha_i}=X\comp\bigcup_{i=1}^{k}U_{\alpha_i}=X\comp X=\em,
+    K\cap\bigcap_{i=1}^{k}K_{\alpha_1}=K\cap\bigcap_{i=1}^{k}X\comp U_{\alpha_i}=K\cap X\comp\bigcup_{i=1}^{k}U_{\alpha_i}=K\cap\l(X\comp K\r)=\em,
 \end{equation}$$
-a contradiction.<span style="float:right;">$\blacksquare$</span>
+contradicting the $\textrm{`}$finite-intersection property$\textrm{'}$ of $\l\{K_\alpha\r\}$.<span style="float:right;">$\blacksquare$</span>

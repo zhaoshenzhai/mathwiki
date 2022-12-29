@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Compact implies closed (Hausdorff)]], [[Cantor's Intersection Theorem]], [[Extreme Value Theorem]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Finite Intersection Theorem]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
