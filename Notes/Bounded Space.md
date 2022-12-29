@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/11/2022 09:40:40
-Tags: #Definition #Later/Topology
+Tags: #Definition #Topics/Analysis
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -9,7 +9,7 @@ Constructions: [[Diameter]]
 Generalizations: _Not Applicable_
 
 Properties: [[Continuous Extension Theorem]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Compact implies bounded]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

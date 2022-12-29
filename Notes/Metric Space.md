@@ -3,7 +3,7 @@
 Date Created: 27/09/2022 18:49:17
 Tags: #Definition #Topics/Analysis
 
-Types: [[Bounded Space]]
+Types: [[Bounded Space]], [[Compact Metric Space]]
 Examples: _Not Applicable_
 Constructions: [[Epsilon-ball]], [[Sequences in a Metric Space]], [[Functions in a Metric Space]]
 Generalizations: _Not Applicable_

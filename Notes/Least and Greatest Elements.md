@@ -13,7 +13,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Least or greatest equals minimal or maximal for totally ordered sets]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Least slash greatest on compacta of R]]
 Equivalences: _Not Applicable_
 Justifications: [[Least slash Greatest elements are unique]]
 
