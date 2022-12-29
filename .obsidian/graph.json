@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#Definition",
@@ -53,6 +53,6 @@
   "repelStrength": 20,
   "linkStrength": 0.731608091309753,
   "linkDistance": 500,
-  "scale": 0.03613691888232169,
-  "close": true
+  "scale": 0.020188254062228718,
+  "close": false
 }

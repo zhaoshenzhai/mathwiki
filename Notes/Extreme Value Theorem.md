@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/12/2022 21:42:50
-Tags: #Proposition #Topics/Topology
+Tags: #Theorem #Topics/Topology
 
 Proved by: [[Image of union is union of images]], [[Compositions of images slash preimages]]
 References: [[Least slash greatest on compacta of R]]

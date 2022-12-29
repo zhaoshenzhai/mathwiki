@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 29/12/2022 12:34:09
-Tags: #Proposition #Topics/Analysis
+Tags: #Theorem #Topics/Analysis
 
 Proved by: [[Extreme Value Theorem]]
 References: _Not Applicable_
