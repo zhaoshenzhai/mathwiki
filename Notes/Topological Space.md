@@ -3,7 +3,7 @@
 Date Created: 23/01/2022 19:05:00
 Tags: #Definition #Later/Topology
 
-Types: [[Compact Space]]
+Types: [[Compact Space]], [[Connected Space]]
 Examples: [[Order Space (Topology)]]
 Constructions: [[Product Space (Topology)]], [[Topological Subspace]], [[Sequences in a Topological Space]]
 Generalizations: _Not Applicable_
