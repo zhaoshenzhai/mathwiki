@@ -11,8 +11,8 @@ Proved by: [[Sequential slash functional limit characterizations of continuity]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Continuity Theorems in $\R$).

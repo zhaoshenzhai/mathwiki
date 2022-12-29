@@ -8,7 +8,7 @@ Examples: [[Compact Metric Space]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Extreme Value Theorem]]
+Properties: [[Compact implies closed (Hausdorff)]], [[Cantor's Intersection Theorem]], [[Extreme Value Theorem]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

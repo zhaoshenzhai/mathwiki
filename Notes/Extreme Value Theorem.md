@@ -7,8 +7,8 @@ Proved by: [[Image of union is union of images]], [[Compositions of images slash
 References: [[Least slash greatest on compacta of R]]
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Theorem
 title: Theorem (Extreme Value Theorem).

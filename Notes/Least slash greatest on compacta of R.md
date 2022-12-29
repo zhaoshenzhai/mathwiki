@@ -7,12 +7,12 @@ mathLink: auto
 Date Created: 28/12/2022 21:25:31
 Tags: #Proposition #Topics/Analysis
 
-Proved by: [[Compact implies bounded]], [[Compact implies closed]], [[Sequential Limit Theorems in R]]
+Proved by: [[Compact implies bounded]], [[Compact implies closed (Hausdorff)]], [[Sequential Limit Theorems in R]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

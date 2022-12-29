@@ -9,7 +9,7 @@ Constructions: [[Set of Closed Sets]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Closure]], [[Compact implies closed]]
+Sufficiencies: [[Closure]], [[Compact implies closed (Hausdorff)]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

@@ -11,8 +11,8 @@ Proved by: _Not Applicable_
 References: _Not Applicable_
 Justifications: [[Identity function is linear]]
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

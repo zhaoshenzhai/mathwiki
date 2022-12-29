@@ -7,8 +7,8 @@ Proved by: [[Countable iff injects into naturals]], [[Fundamental Theorem of Ari
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.

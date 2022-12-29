@@ -5,14 +5,14 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 28/12/2022 20:34:50
-Tags: #Proposition #Topics/Topology
+Tags: #Proposition #Topics/Analysis
 
 Proved by: _Not Applicable_
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
-Counterexamples: _Not Applicable_
 
 ``` ad-Proposition
 title: Proposition.
