@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "67921dcf4761b0f9",
+            "id": "a3ecd1c8a6a08cb1",
             "type": "tabs",
             "children": [
               {
-                "id": "b833300780878cce",
+                "id": "b57ee067743a18f7",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -29,7 +29,7 @@
           {
             "id": "9d00dbe0d1a2729a",
             "type": "tabs",
-            "dimension": 49.65517241379311,
+            "dimension": 56.41379310344827,
             "children": [
               {
                 "id": "3e6bfdd211453c3d",
@@ -68,12 +68,12 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "294597bc1a532b30",
             "type": "tabs",
-            "dimension": 50.34482758620689,
+            "dimension": 43.58620689655173,
             "children": [
               {
                 "id": "e8c5400882b51657",
@@ -170,7 +170,7 @@
                       "repelStrength": 20,
                       "linkStrength": 1,
                       "linkDistance": 500,
-                      "scale": 0.07895243002359893,
+                      "scale": 0.09240681501007922,
                       "close": true
                     }
                   }
@@ -183,10 +183,17 @@
         "width": 1066.4,
         "collapsed": true
       },
-      "ribbon": {
-        "mostRecentAction": ""
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian42-brat:BRAT": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
+          "random-note:Open random note": false,
+          "workspaces:Manage workspace layouts": false
+        }
       },
-      "active": "b833300780878cce"
+      "active": "b57ee067743a18f7"
     }
   },
   "active": "workspace"
