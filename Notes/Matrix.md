@@ -30,11 +30,11 @@ _The numbers_ $a_{ij}$ _are called the **entries of $A$**, and we write_ $\l[a_{
 **Remark.** Informally, an $m\times n$ matrix $A$ contains the data of an $m\times n$ block of numbers in $K$, visualized as
 $$\begin{equation}
     A=
-        \begin{bmatrix}
+        \begin{pmatrix}
             a_{11} & \cdots & a_{1n}\\
             \vdotswithin{a_{11}} & \ddots & \vdotswithin{a_{1n}} \\
             a_{m1} & \cdots & a_{mn}
-        \end{bmatrix}.
+        \end{pmatrix}.
 \end{equation}$$
 Write $\v{a}_{i;\blob}$ and $\v{a}_{\blob;j}$ for the $i^\textrm{th}$ row and $j^\textrm{th}$ column of $A$, respectively.<span style="float:right;">$\blacklozenge$</span>
 
