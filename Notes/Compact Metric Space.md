@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Compact implies bounded]], [[Epsilon-neighborhood Theorem]]
+Properties: [[Compact implies bounded]], [[Epsilon-neighborhood Theorem]], [[Heine-Cantor Theorem]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

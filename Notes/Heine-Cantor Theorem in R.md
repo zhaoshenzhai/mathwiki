@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 25/11/2022 10:34:48
 Tags: #Proposition #Topics/Analysis
 
-Proved by: [[Heine-Borel Theorem]], [[Bolzano-Weierstrass Theorem]], [[Sequential slash functional limit characterizations of continuity]]
+Proved by: [[Heine-Borel Theorem]], [[Bolzano-Weierstrass Theorem]], [[Sequential characterization of closed sets (metric)]], [[Sequential slash functional limit characterizations of continuity]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
