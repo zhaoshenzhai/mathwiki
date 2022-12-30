@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/10/2022 20:52:38
-Tags: #Theorem #In_Progress
+Tags: #Theorem #Topics/Analysis
 
 Proved by: [[Nested Interval Theorem]], [[Squeezed Distance Lemma]]
 References: [[Monotone Subsequence Theorem]], [[Monotone Convergence Theorem]]
@@ -27,13 +27,9 @@ $$\begin{equation}
 \end{equation}$$
 each of which is closed, nonempty, and has diameter
 $$\begin{equation}
-    \diam I_n=\frac{b-a}{2^n}.
+    \diam I_n=\frac{b-a}{2^n}\to0.
 \end{equation}$$
-Thus, by the Nested Interval Theorem, there exists some $\alpha\in\bigcap_{n\in\N}I_n$. In fact, we claim that $\bigcap_{n\in\N}I_n=\l\{\alpha\r\}$, since if there exists some $\alpha'\in\bigcap_{n\in\N}I_n$, then
-$$\begin{equation}
-    d\l(\alpha,\alpha'\r)\leq\diam I_n=\frac{b-a}{2^n}
-\end{equation}$$
-which, as $n\to\infty$, is arbitrarily small. Thus $d\l(\alpha,\alpha'\r)=0$, so $\alpha=\alpha'$. It remains to find a subsequence $\tpl{x_{n_k}}$ of $\tpl{x_n}$ that converges to $\alpha$. By Recursion, let $n_0\coloneqq0$ and let
+Thus, by the Nested Interval Theorem, $\bigcap_{n\in\N}I_n=\l\{\alpha\r\}$ for some $\alpha\in\R$. It remains to find a subsequence $\tpl{x_{n_k}}$ of $\tpl{x_n}$ that converges to $\alpha$. By Recursion, let $n_0\coloneqq0$ and let
 $$\begin{equation}
     n_{k+1}\coloneqq\min\l\{n\in\N\comp\l\{n_0,\dots,n_k\r\}\mid x_n\in I_{k+1}\r\},
 \end{equation}$$
