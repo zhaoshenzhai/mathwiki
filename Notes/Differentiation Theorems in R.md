@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 01/12/2022 14:15:44
 Tags: #Theorem #Topics/Analysis
 
-Proved by: [[Functional Limit Theorems in R]], [[Differentiable implies continuous]], [[Sequential characterization of cluster points]], [[Composition of continuous functions are continuous]], [[Continuity Theorems in R]]
+Proved by: [[Functional Limit Theorems in R]], [[Differentiable implies continuous]], [[Sequential characterization of closure (metric)]], [[Composition of continuous functions are continuous]], [[Continuity Theorems in R]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
