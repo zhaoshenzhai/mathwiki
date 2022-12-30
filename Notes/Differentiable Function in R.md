@@ -12,8 +12,8 @@ Examples: [[Power Rule]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Differentiable implies continuous]], [[Differentiation Theorems in R]]
-Sufficiencies: _Not Applicable_
+Properties: [[Differentiation Theorems in R]], [[Mean Value Theorems]], [[Differentiable implies continuous]]
+Sufficiencies: [[Fermat's Theorem on Stationary Points]]
 Equivalences: [[Fundamental Increment Lemma]], [[Caratheodory's Differentation Criterion]]
 Justifications: _Not Applicable_
 

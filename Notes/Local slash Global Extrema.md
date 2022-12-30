@@ -12,7 +12,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Fermat's Theorem on Stationary Points]]
 Sufficiencies: [[Extreme Value Theorem]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
