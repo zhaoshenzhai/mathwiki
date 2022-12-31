@@ -20,6 +20,10 @@ $$\begin{equation}
 
 ```
 
+**Remark.** In particular, if $V$ and $W$ are finite-dimensional and $A_1\coloneqq\l[T_1\r]$ and $A_2\coloneqq\l[T_2\r]$, then $A_1=A_2$ implies that $T_1=T_2$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 _Proof_. It suffices to show that $T_1\l(v\r)=T_2\l(v\r)$ for all $v\in V$. To this end, take $v\in V$ and observe that
 $$\begin{equation}
     v=\sum\limits_{i\in I}\alpha_is_i

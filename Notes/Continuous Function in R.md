@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 01/12/2022 13:19:01
 Tags: #Definition #Topics/Analysis
 
-Types: [[Differentiable Function in R]]
+Types: [[Differentiable Function slash Derivative in R]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: [[Continuous Function in a Metric Space]]

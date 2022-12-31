@@ -10,7 +10,7 @@ Tags: #Definition #Topics/Analysis
 Types: _Not Applicable_
 Examples: [[Power Rule]]
 Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Generalizations: [[Differentiable Function slash Derivative in Rn]]
 
 Properties: [[Differentiation Theorems in R]], [[Mean Value Theorems]], [[First Derivative Test]], [[Differentiable implies continuous]]
 Sufficiencies: [[Fermat's Theorem on Stationary Points]], [[Derivatives and monotoniticity]]
@@ -28,11 +28,11 @@ _exists, in which case $f'\l(c\r)$ is said to be the **derivative of $f$ at $c$*
 
 ```
 
-**Remark.** If $f$ is differentiable at $c\in\R$, the line $l:\R\to\R:x\mapsto f'\l(c\r)\l(x-c\r)+f\l(c\r)$ is said to be **tangent to $f$ at $c$**. Indeed, one may reformulate differentiability at $c$ as the existence of a linear function whose error $f\l(x\r)-l\l(x\r)$ convergences to $0$ superlinearly.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-**Remark.** If $\Omega$ has no isolated points (most commonly an interval, or $\R$ itself) and $f$ is differentiable at all $c\in\Omega$, then we may define the **derivative of $f$** as the function
+**Remark.** If $\Omega$ has no isolated points and $f$ is differentiable at all $c\in\Omega$, then we may define the **derivative of $f$** as the function
 $$\begin{equation}
     f':\Omega\to\R\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ c\mapsto f'\l(c\r).\exqedin
 \end{equation}$$
+
+---
+
+**Remark.** If $f$ is differentiable at $c\in\R$, the line $l:\R\to\R:x\mapsto f'\l(c\r)\l(x-c\r)+f\l(c\r)$ is said to be **tangent to $f$ at $c$**. Indeed, one may reformulate differentiability at $c$ as the existence of a linear function whose error $f\l(x\r)-l\l(x\r)$ convergences to $0$ superlinearly.<span style="float:right;">$\blacklozenge$</span>

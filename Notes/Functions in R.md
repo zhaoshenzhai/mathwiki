@@ -10,7 +10,7 @@ Tags: #Definition #Topics/Analysis
 Types: [[Continuous Function in R]], [[Monotone Function]]
 Examples: _Not Applicable_
 Constructions: [[Functional Limits in R]], [[Local slash Global Extrema]]
-Generalizations: _Not Applicable_
+Generalizations: [[Functions in Rn]]
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_

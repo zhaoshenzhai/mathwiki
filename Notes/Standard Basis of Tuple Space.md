@@ -5,7 +5,7 @@ Tags: #Definition #Later/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Directional slash Partial Derivative]]
 Generalizations: _Not Applicable_
 
 Properties: [[Right slash left multiplication by basis vector picks out column slash row]]

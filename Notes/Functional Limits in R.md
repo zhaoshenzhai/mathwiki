@@ -9,7 +9,7 @@ Tags: #Definition #Topics/Analysis
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Differentiable Function in R]]
+Constructions: [[Differentiable Function slash Derivative in R]]
 Generalizations: [[Functional Limits in a Metric Space]]
 
 Properties: [[Functional Limit Theorems in R]]

@@ -35,6 +35,10 @@ commutes. Thus, after identifying $V\iso K^n$ and $W\iso K^m$ via the maps $\phi
 
 ---
 
+**Remark.** In particular, if $V=K^n$ and $W=K^m$ and $\mc{B}$ and $\mc{C}$ are the standard bases, then $T\l(\v{v}\r)=\l[T\r]_\mc{B}^\mc{C}\v{v}$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 _Proof_. Fix $v\in V$. For any linear map $f:\dom f\to V$ (with $\dom f$ being an $\l|\mc{A}\r|$-dimensional vector space), we know that
 $$\begin{equation}
     \l[T\circ f\r]_\mc{A}^\mc{C}=\l[T\r]_\mc{B}^\mc{C}\l[f\r]_\mc{A}^\mc{B};
