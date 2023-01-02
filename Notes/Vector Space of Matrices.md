@@ -38,11 +38,11 @@ $$\begin{equation}
 _and whose zero vector is_
 $$\begin{equation}
     0_{m\times n}\coloneqq
-        \begin{pmatrix}
+        \begin{bmatrix}
             0_K & \cdots & 0_K \\
             \vdots & & \vdots \\
             0_K & \cdots & 0_K
-        \end{pmatrix}.
+        \end{bmatrix}.
 \end{equation}$$
 
 ```

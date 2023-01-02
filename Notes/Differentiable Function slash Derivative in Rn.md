@@ -12,7 +12,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Differentiable implies existence of directional derivatives]]
+Properties: [[Differentiable implies existence of directional derivatives]], [[Differentiable implies represented by Jacobian]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Derivative in Rn is unique]]

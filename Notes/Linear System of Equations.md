@@ -31,16 +31,16 @@ _of linear equations of $n$ variables over $K$. A **solution of $\ref{\ast}$** i
 _The **coefficient matrix of $\ref{\ast}$** and the **constant term of $\ref{\ast}$** are the matrices_
 $$\begin{equation}
     A\coloneqq
-        \begin{pmatrix}
+        \begin{bmatrix}
             a_{11} & \cdots & a_{1n} \\
             \vdotswithin{a_{11}} & \ddots & \vdotswithin{a_{1n}} \\
             a_{m1} & \cdots & a_{mn} \\
-        \end{pmatrix}\in\mat{m\times n}{K}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \v{b}\coloneqq
-        \begin{pmatrix}
+        \end{bmatrix}\in\mat{m\times n}{K}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \v{b}\coloneqq
+        \begin{bmatrix}
             b_1 \\
             \vdots\\
             b_m
-        \end{pmatrix}\in\mat{m\times1}{K},
+        \end{bmatrix}\in\mat{m\times1}{K},
 \end{equation}$$
 _respectively, and so the system $\ref{\ast}$ can be written as $A\v{x}=\v{b}$._
 

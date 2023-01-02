@@ -4,7 +4,7 @@ Date Created: 22/03/2022 16:12:09
 Tags: #Definition #Later/Linear_Algebra
 
 Types: [[Reduced Row-echelon Matrix]], [[Square Matrix]], [[Invertible Matrix]]
-Examples: [[Augmented Matrix]]
+Examples: [[Augmented Matrix]], [[Jacobian Matrix]]
 Constructions: [[Set of Matrices]], [[Left-multiplication of Matrices]], [[Kernel; Null Space]], [[Image; Column Space]]
 Generalizations: _Not Applicable_
 
@@ -30,11 +30,11 @@ _The numbers_ $a_{ij}$ _are called the **entries of $A$**, and we write_ $\l[a_{
 **Remark.** Informally, an $m\times n$ matrix $A$ contains the data of an $m\times n$ block of numbers in $K$, visualized as
 $$\begin{equation}
     A=
-        \begin{pmatrix}
+        \begin{bmatrix}
             a_{11} & \cdots & a_{1n}\\
             \vdotswithin{a_{11}} & \ddots & \vdotswithin{a_{1n}} \\
             a_{m1} & \cdots & a_{mn}
-        \end{pmatrix}.
+        \end{bmatrix}.
 \end{equation}$$
 Write $\v{a}_{i;\blob}$ and $\v{a}_{\blob;j}$ for the $i^\textrm{th}$ row and $j^\textrm{th}$ column of $A$, respectively.<span style="float:right;">$\blacklozenge$</span>
 
