@@ -9,7 +9,7 @@ Tags: #Definition #Topics/Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Group]], [[Ring]], [[Vector Space]]
+Constructions: [[Semigroup]], [[Group]], [[Ring]], [[Vector Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
