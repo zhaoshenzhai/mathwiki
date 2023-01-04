@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Topology
 
 Types: _Not Applicable_
 Examples: [[Closed Interval]]
-Constructions: [[Set of Closed Sets]]
+Constructions: [[Set of Closed Sets]], [[Perfect Set]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
