@@ -13,10 +13,10 @@ $\huge\rm\bf{G}\normalsize\rm\bf{ROUP THEORY}$ is the study of the [category of 
 
 **Constructions.** As with most categories, $\catgrp$ has [subobjects](Subgroup.md), [products](External%20Direct%20Product%20(Group).md), [direct sums](obsidian://open?file=TODO), and [quotients](Quotient%20Group.md). Unique to Group Theory is the concept of a [normal subgroup](Normal%20Subgroup.md) $N\nsubgrpeq G$, defined as subgroups that are [stable](Normal%20iff%20stable%20under%20conjuation.md) under [conjugation](Conjugate%20slash%20conjugacy%20class.md). These are precisely the subgroups that furnishes a compatible group structure on its quotient.
 
-Similarly, as with most categories, we can define the [kernel](Kernel%20(Group%20Theory).md) and the image of a [homomorphism](Group%20Homomorphism.md) $\phi:G\to H$. Furthermore, $\ker\phi\nsubgrpeq G$, so $\phi$ decomposes into
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-12-20_191047/image.svg", width=300></center>
+Similarly, as with most categories, we can define the [kernel](Kernel%20(Group%20Theory).md) and the image of a [homomorphism](Group%20Homomorphism.md) $\phi:G\to H$. Furthermore, $\ker\phi\nsubgrpeq G$, so $\phi$ [decomposes](Canonical%20Decomposition%20of%20Group%20Homomorphisms.md) into
+<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2023-01-03_225322/image.svg", width=300></center>
 
-which, in particular, implies the [First Isomorphism Theorem](obsidian://open?file=TODO).<span style="float:right;">$\blacklozenge$</span>
+which, in particular, implies the [Isomorphism Theorems](obsidian://open?file=TODO).<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

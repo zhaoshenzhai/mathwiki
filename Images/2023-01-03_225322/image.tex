@@ -1,0 +1,12 @@
+\documentclass{article}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\makeatletter\AtBeginDocument{\color{textColor}\global\let\default@color\current@color}\makeatletter
+
+\begin{document}
+    \begin{tikzcd}
+        G \ar[rrr, "\phi", bend left=20] \ar[r, "\pi"', twoheadrightarrow] & G/\ker\phi \ar[r, "\ex!\tilde{\phi}"', two heads, hook] & \im\phi \ar[r, "\iota"', hookrightarrow] & H
+    \end{tikzcd}
+\end{document}
