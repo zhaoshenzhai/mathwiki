@@ -1,0 +1,13 @@
+\documentclass{article}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\makeatletter\AtBeginDocument{\color{textColor}\global\let\default@color\current@color}\makeatletter
+
+\begin{document}
+    \begin{tikzcd}
+        & X \ar[dl, "\pi"'] \ar[dr, "\phi"] & \\
+        X/\!\sim \ar[rr, "\ex!\tilde{\phi}"'] & & Z
+    \end{tikzcd}
+\end{document}

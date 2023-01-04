@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Canonical Projection]], [[Quotient Group]]
 Generalizations: _Not Applicable_
 
-Properties: [[Quotient set is a partition]]
+Properties: [[Universal Property of Quotient Sets]], [[Quotient set is a partition]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Fundamental Theorem of Equivalence Relations]]
 Justifications: _Not Applicable_

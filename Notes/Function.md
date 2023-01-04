@@ -9,7 +9,7 @@ Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction slas
 Generalizations: [[Morphism (Category Theory)]], [[Class Function]]
 
 Properties: [[Collection of all functions is a proper class]]
-Sufficiencies: [[Criteria for equality of functions]], [[Formula in replacement image constructs a function]]
+Sufficiencies: [[Canonical Decomposition of Functions]], [[Criteria for equality of functions]], [[Formula in replacement image constructs a function]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
