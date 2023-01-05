@@ -9,7 +9,7 @@ Tags: #Definition #Later/Topology
 
 Types: _Not Applicable_
 Examples: [[Epsilon-ball]], [[Neighborhood of Infinity]]
-Constructions: [[Closed Set]], [[Sequential Limits]], [[Functional Limits]], [[Continuous Function]]
+Constructions: [[Closed Set]], [[Boundary Point slash Boundary]], [[Sequential Limits]], [[Functional Limits]], [[Continuous Function]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

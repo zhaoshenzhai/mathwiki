@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Extreme Value Theorem]], [[Cantor's Intersection Theorem]], [[Compact implies limit point compact]], [[Compact implies closed (Hausdorff)]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Closed subset of compact set is compact]]
 Equivalences: [[Finite Intersection Theorem]]
 Justifications: _Not Applicable_
 

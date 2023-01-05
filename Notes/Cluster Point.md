@@ -16,8 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. A point $p\in X$ is said to be a **cluster point of $S$ in $X$** if $p\in\bar{S\comp\l\{p\r\}}$._
-* _If $p\in S$, then $p$ is simply said to be a **cluster point of $S$**._
+_Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. A point $p\in X$ is said to be a **cluster point of $S$** if $p\in\bar{S\comp\l\{p\r\}}$._
 
 ```
 

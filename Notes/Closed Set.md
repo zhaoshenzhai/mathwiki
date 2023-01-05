@@ -8,7 +8,7 @@ Examples: [[Closed Interval]]
 Constructions: [[Set of Closed Sets]], [[Perfect Set]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Closed subset of compact set is compact]]
 Sufficiencies: [[Closure]], [[Compact implies closed (Hausdorff)]]
 Equivalences: [[Sequential characterization of closed sets (metric)]]
 Justifications: _Not Applicable_

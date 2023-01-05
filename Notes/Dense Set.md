@@ -4,7 +4,7 @@ Date Created: 04/01/2023 15:45:07
 Tags: #Definition #Topics/Analysis
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Q is dense in R]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
