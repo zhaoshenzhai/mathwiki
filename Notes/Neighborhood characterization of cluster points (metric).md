@@ -17,7 +17,7 @@ _Let $\tpl{X,d}$ be a metric space and fix $S\subseteq X$. Then $x$ is a cluster
 
 ```
 
-_Proof_. The backwards direction is trivial, for if every neighborhood of $x$ contains infinite-many points in $S$, then very neighborhood of $x$ intersects $S$ and hence $x\in\bar{S\comp\l\{x\r\}}$. For the forwards, suppose, for sake of contradiction, that $U\cap S$ is finite for some neighborhood $U$ of $x$. Take $\delta\in\R$ such that $B_\delta\!\l(x\r)\subseteq U$, so $B_\delta\!\l(x\r)\cap S=\l\{x_1,\dots,x_n\r\}$ for some $x_1,\dots,x_n\in X$. Set
+_Proof_. The backwards direction is trivial, for if every neighborhood of $x$ contains infinite-many points in $S$, then every neighborhood of $x$ intersects $S$ and hence $x\in\bar{S\comp\l\{x\r\}}$. For the forwards, suppose, for sake of contradiction, that $U\cap S$ is finite for some neighborhood $U$ of $x$. Take $\delta\in\R$ such that $B_\delta\!\l(x\r)\subseteq U$, so $B_\delta\!\l(x\r)\cap S=\l\{x_1,\dots,x_n\r\}$ for some $x_1,\dots,x_n\in X$. Set
 $$\begin{equation}
     \epsilon\coloneqq\min\l\{d\l(x,x_i\r)\in\R\mid1\leq i\leq n\r\}.
 \end{equation}$$

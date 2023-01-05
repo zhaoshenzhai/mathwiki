@@ -5,11 +5,11 @@ Tags: #Definition #Topics/Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Cocountable Topology]]
+Constructions: [[Cocountable Topology]], [[Uncountable Set]]
 Generalizations: _Not Applicable_
 
 Properties: [[Countable union of countable sets is countable]], [[Finite product of countable sets is countable]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Perfect set in Rn implies uncountable]]
 Equivalences: [[Countable iff injects into naturals]]
 Justifications: _Not Applicable_
 
