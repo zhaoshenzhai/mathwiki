@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/04/2022 20:31:04
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -16,8 +16,8 @@ Justifications: [[Linear combination iff in smallest containing subspace]], [[Ar
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider an indexed subset_ $S\subseteq V$ _of a vector space $V$ over $K$. The **linear subspace spaned by $S$** is, equivalently:_
-* _The $\textrm{`}$smallest$\textrm{'}$ subspace of $V$ containing $S$ (in the sense that if $W$ is a subspace continaining $S$, then $\span S\subseteq W$):_
+_Let $K$ be a field and consider an indexed subset_ $S\subseteq V$ _of a vector space $V$ over $K$. The **linear subspace spanned by $S$** is, equivalently:_
+* _The $\textrm{`}$smallest$\textrm{'}$ subspace of $V$ containing $S$ (in the sense that if $W$ is a subspace containing $S$, then $\span S\subseteq W$):_
 $$\begin{equation}
     \span S\coloneqq\bigcap\l\{U\subseteq V\mid S\subseteq U\land U\textrm{\it{ is a linear subspace of }}V\r\}.
 \end{equation}$$

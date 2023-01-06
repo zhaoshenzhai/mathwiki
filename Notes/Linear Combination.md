@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/04/2022 18:22:52
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Matrix multiplication (columns slash rows)]]
@@ -36,4 +36,4 @@ Redefining $I=\l\{1,\dots,n\r\}$, we see that $I$ carries an order structure and
 
 ---
 
-**Remark.** If each $\alpha_i=0$, then $v$ is said to be the **trivial linear combination of vectors in $U$**. Observe that if $U$ has duplicate elements, then $v$ need not be the zero vector.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If each $\alpha_i=0$, then $v$ is said to be the **trivial linear combination of vectors in $U$**.<span style="float:right;">$\blacklozenge$</span>
