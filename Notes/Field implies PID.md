@@ -8,7 +8,7 @@ Date Created: 22/11/2022 22:39:00
 Tags: #Proposition #Topics/Ring_Theory
 
 Proved by: _Not Applicable_
-References: [[Euclidean Domain implies PID]]
+References: [[EUD implies PID]]
 Justifications: _Not Applicable_
 
 Specializations: _Not Applicable_

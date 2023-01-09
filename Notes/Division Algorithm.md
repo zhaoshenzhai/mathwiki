@@ -8,7 +8,7 @@ References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Specializations: _Not Applicable_
-Generalizations: [[Euclidean Domain]]
+Generalizations: [[Euclidean Domain (EUD)]]
 
 ``` ad-Theorem
 title: Theorem (Division Algorithm).

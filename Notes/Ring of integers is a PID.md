@@ -8,7 +8,7 @@ Date Created: 16/11/2022 14:22:11
 Tags: #Proposition #Topics/Ring_Theory
 
 Proved by: _Not Applicable_
-References: [[Division Algorithm]], [[Euclidean Domain implies PID]]
+References: [[Division Algorithm]], [[EUD implies PID]]
 Justifications: _Not Applicable_
 
 Specializations: _Not Applicable_
