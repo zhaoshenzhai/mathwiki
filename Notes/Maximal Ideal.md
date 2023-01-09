@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Maximal implies prime]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Krull's Theorem]]
 Equivalences: [[Ideal is maximal iff quotient is a field]]
 Justifications: _Not Applicable_
 

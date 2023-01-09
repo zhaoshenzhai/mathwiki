@@ -23,4 +23,8 @@ $$\begin{equation}
 
 ```
 
+**Remark.** If one takes rings as having unity, then ideals are defined to be sub_group_ of $R$ that is stable under multiplication. Otherwise, the only ideal of $R$ is the trivial ideal $\ideal{0}$ and $R$ itself.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 **Remark.** Since the additive group of $R$ is Abelian, we see that every ideal in $R$ is a normal subgroup thereof.<span style="float:right;">$\blacklozenge$</span>
