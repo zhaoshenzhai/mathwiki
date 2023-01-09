@@ -17,7 +17,7 @@ _Let $G$ be a group. If $G$ is cyclic, then $G$ is Abelian._
 
 ```
 
-_Proof_. Since $G$ is cyclic, there exists some $x\in G$ such that $G=\l\langle x\r\rangle$. Take $g,h\in H$, so there exist $m,n\in\Z$ such that $g=x^n$ and $h=x^m$. Then
+_Proof_. Since $G$ is cyclic, there exists some $x\in G$ such that $G=\cyclic{x}$. Take $g,h\in H$, so there exist $m,n\in\Z$ such that $g=x^n$ and $h=x^m$. Then
 $$\begin{equation}
     hk=g^ng^m=g^{n+m}=g^{m+n}g^mg^n=hg.\qedin
 \end{equation}$$
