@@ -25,16 +25,13 @@ _Proof_. Let $n\coloneqq\deg a$ and $m\coloneqq\deg b$. We first prove existence
 * If $a=0$, then, since $0=0b+0$, take $q,r\coloneqq0$.
 * If $n<m$, then, since $a=0b+a$, take $q\coloneqq0$ and $r\coloneqq a$.
 
-Hence we may assume that $m\leq n$. Let $a\coloneqq\sum_{i=0}^{n}a_ix^i$ and $b\coloneqq\sum_{i=0}^{m}b_ix^i$, so, since the leading term of the polynomial $\frac{a_n}{b_m}x^{n-m}b$ is $a_nx^n$, we see that the polynomial
-$$\begin{equation}
-    \tilde{a}\coloneqq a-\frac{a_n}{b_m}x^{n-m}b
-\end{equation}$$
-has degree less than $n$. By (strong) induction, there exist polynomials $\tilde{q},r\in K\l[x\r]$ with either $r=0$ or $\deg r<\deg b$ such that $\tilde{a}=\tilde{q}b+r$. Then, letting
-$$\begin{equation}
-    q\coloneqq\tilde{q}+\frac{a_n}{b_m}x^{n-m},
-\end{equation}$$
-we see that $a=qb+r$ with either $r=0$ or $\deg r<\deg b$.
+Hence we may assume that $m\leq n$. Let $a\coloneqq\sum_{i=0}^{n}a_ix^i$ and $b\coloneqq\sum_{i=0}^{m}b_ix^i$; we induct on $n-m$. Set $q_0\coloneqq a_nb_m^{-1}x^{n-m}$ and $r_0\coloneqq a-bq_0$. Observe that the leading term of $bq_0$ is $a_nx^n$, so $\deg r_0<\deg a$.
+* If $n=m$, then $\deg r_0<\deg b$, so take $q\coloneqq q_0$ and $r\coloneqq r_0$ and observe that $a=qb+r$.
 
+Otherwise, we apply induction to $r_0$ and $b$ to find $q_1,r\in K\l[x\r]$ with either $r=0$ or $\deg r<\deg b$ such that $r_0=q_1b+r$. Then
+$$\begin{equation}
+    a=q_0b+r_0=q_0b+\l(q_1b+r\r)=\l(q_0+q_1\r)b+r.
+\end{equation}$$
 For uniqueness, suppose further that there exist polynomials $q',r'\in K\l[x\r]$ with either $r'=0$ or $\deg r'<\deg b$ such that $a=q'b+r'$. Then the polynomials
 $$\begin{equation}
     a-q'b\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ a-qb

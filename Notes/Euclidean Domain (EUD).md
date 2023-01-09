@@ -4,7 +4,7 @@ Date Created: 23/11/2022 09:56:13
 Tags: #Definition #Topics/Ring_Theory
 
 Types: [[Field]]
-Examples: [[Division Algorithm]], [[Division Algorithm (Polynomials)]]
+Examples: [[Division Algorithm]], [[Polynomial Ring]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
