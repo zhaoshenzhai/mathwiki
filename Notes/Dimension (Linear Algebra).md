@@ -1,10 +1,10 @@
 <div class="topSpace"></div>
 
 Date Created: 04/04/2022 23:26:15
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
-Examples: [[Dimension of vector space is zero iff it is the zero vector space]], [[Rank]], [[Nullity]]
+Examples: [[Rank]], [[Nullity]], [[Dimension of vector space is zero iff it is the zero vector space]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
@@ -16,11 +16,11 @@ Justifications: [[Every vector space has a basis]], [[Invariance of cardinality 
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a vector space $V$ over $K$. The **dimension of $V$** is $\dim V\coloneqq\l|\mc{B}\r|$ where $\mc{B}\subseteq V$ is any basis for $V$._
+_Let $K$ be a field and consider a vector space $V$ over $K$. The **dimension of $V$** is $\dim_K\!V\coloneqq\l|\mc{B}\r|$ where $\mc{B}\subseteq V$ is any basis for $V$._
 
 ```
 
-**Remark.** This definition is justified by the following:
+**Remark.** Depending on how one defines a basis $\mc{B}$ for $V$, this definition is justified by the following:
 1. Every vector space has a basis, so we may talk about _a_ cardinality.
 2. All bases of a vector space have the same cardinality, so we may talk about _the_ cardinality.
 

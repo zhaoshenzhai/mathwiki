@@ -4,12 +4,12 @@ Date Created: 27/03/2022 21:04:03
 Tags: #Definition #Topics/Linear_Algebra
 
 Types: [[Finite-dimensional Vector Space]], [[Inner Product Space]]
-Examples: [[Function Space (Linear Algebra)]]
+Examples: [[Function Space (Linear Algebra)]], [[Vector Space of Polynomials]]
 Constructions: [[Linear Combination]], [[Linear Map]], [[Linear Subspace]], [[External Direct Product (Vector Space)]], [[Category of Vector Spaces]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of vector spaces]], [[Every vector space has a basis]]
-Sufficiencies: [[Unique Representation Theorem (Hamel)]]
+Sufficiencies: [[Unique Representation Theorem (algebraic basis)]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

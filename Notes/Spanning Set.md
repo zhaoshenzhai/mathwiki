@@ -3,7 +3,7 @@
 Date Created: 06/04/2022 21:08:27
 Tags: #Definition #Later/Linear_Algebra
 
-Types: [[Hamel Basis]]
+Types: [[Basis (Algebraic)]]
 Examples: _Not Applicable_
 Constructions: [[Finite-dimensional Vector Space]]
 Generalizations: _Not Applicable_

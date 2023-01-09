@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 04/04/2022 23:35:21
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Tuple Space (Linear Algebra)]], [[Vector Space of Matrices]], [[Zero Vector Space]]

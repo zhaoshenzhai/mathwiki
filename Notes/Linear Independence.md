@@ -3,7 +3,7 @@
 Date Created: 29/04/2022 20:37:44
 Tags: #Definition #Topics/Linear_Algebra
 
-Types: [[Hamel Basis]]
+Types: [[Basis (Algebraic)]]
 Examples: [[Homogeneous linear system only trivial solution iff columns of coefficient matrix are linearly independent]], [[Distinct eigenvalues implies linearly independent eigenvectors]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_

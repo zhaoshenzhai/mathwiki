@@ -11,9 +11,9 @@ Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
 ``` ad-Theorem
-title: Theorem (Unique Representation Theorem w.r.t. Hamel basis).
+title: Theorem (Unique Representation Theorem w.r.t. algebraic basis).
 
-_Let $K$ be a field and consider an indexed subset_ $\mc{B}\coloneqq\l\{b_i\r\}_{i\in I}\!\subseteq V$ _of a vector space $V$ over $K$. Then $\mc{B}$ is a (Hamel) basis of $V$ iff every vector $v\in V$ can be uniquely represented as a linear combination of vectors in $\mc{B}$; formally, iff_
+_Let $K$ be a field and consider an indexed subset_ $\mc{B}\coloneqq\l\{b_i\r\}_{i\in I}\!\subseteq V$ _of a vector space $V$ over $K$. Then $\mc{B}$ is a (algebraic) basis of $V$ iff every vector $v\in V$ can be uniquely represented as a linear combination of vectors in $\mc{B}$; formally, iff_
 $$\begin{equation}
     \fa v\in V,\ex!\l\{\alpha_i\r\}_{i\in I}\!\subseteq K:v=\sum\limits_{i\in I}\alpha_ib_i.
 \end{equation}$$
@@ -44,7 +44,7 @@ so if $\sum_{i\in I}\alpha_ib_i=0$ for any $\l\{\alpha_i\r\}\subseteq K$, unique
 $$\begin{equation}
     \fa v\in V,\ex!n\in\N,\ex!\alpha_1,\dots,\alpha_n\in K\setminus\l\{0\r\}:v=\sum_{i=1}^n\alpha_ib_i.
 \end{equation}$$
-Note that the zero vector is uniquely represented by choosing $n=0$, so the sum is trivial. An important special case is if $\mc{B}=\tpl{b_1,\dots,b_n}$ for some $n\in\N$; then $\mc{B}$ is a (Hamel) basis of $V$ iff
+Note that the zero vector is uniquely represented by choosing $n=0$, so the sum is trivial. An important special case is if $\mc{B}=\tpl{b_1,\dots,b_n}$ for some $n\in\N$; then $\mc{B}$ is a (algebraic) basis of $V$ iff
 $$\begin{equation}
     \fa v\in V,\ex!\alpha_1,\dots,\alpha_n\in K:v=\sum\limits_{i=1}^n\alpha_ib_i.
 \end{equation}$$
