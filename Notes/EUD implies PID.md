@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a Euclidean Domain. If $I$ is any non-zero ideal of $R$, then there exists $d\in R$ such that $I=\l\langle d\r\rangle$._
+_Let $R$ be a Euclidean Domain. If $I$ is any non-zero ideal of $R$, then there exists $d\in R$ such that $I=\ideal{d}$._
 
 ```
 
@@ -30,6 +30,6 @@ $$\begin{equation}
     S\coloneqq\l\{N\l(i\r)\in\N\mid i\in I\r\}.
 \end{equation}$$
 Then, since $I$ is non-zero, there exists some non-zero $i\in I$. Thus $S\neq\em$, so there exists an element $d\in I$ such that $N\l(d\r)$ is minimal.
-* Since $d\in I$, we see that $\l\langle d\r\rangle\subseteq I$.
+* Since $d\in I$, we see that $\ideal{d}\subseteq I$.
 
-It suffices to show that $I\subseteq\l\langle d\r\rangle$, so take $a\in I$. Since $R$ is a Euclidean Domain, there exist $q,r\in R$, with either $r=0$ or $N\l(r\r)<N\l(d\r)$, such that $a=qd+r$. Then $r=a-qd$, and since $a\in I$, we see that $r\in I$. But $d$ has minimal norm in $I$, so $r=0$ and hence $a=qd$. Thus $a\in\l\langle d\r\rangle$, so we are done.<span style="float:right;">$\blacksquare$</span>
+It suffices to show that $I\subseteq\ideal{d}$, so take $a\in I$. Since $R$ is a Euclidean Domain, there exist $q,r\in R$, with either $r=0$ or $N\l(r\r)<N\l(d\r)$, such that $a=qd+r$. Then $r=a-qd$, and since $a\in I$, we see that $r\in I$. But $d$ has minimal norm in $I$, so $r=0$ and hence $a=qd$. Thus $a\in\ideal{d}$, so we are done.<span style="float:right;">$\blacksquare$</span>

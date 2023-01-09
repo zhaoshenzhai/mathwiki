@@ -20,4 +20,4 @@ _Let $R$ be a commutative ring and fix $a,b\in R$ with $b\neq0$. Then **$b$ divi
 
 ```
 
-**Remark.** In terms of ideals, we have $b\divides a$ iff $a\in\l\langle b\r\rangle$ iff $\l\langle a\r\rangle\subseteq\l\langle b\r\rangle$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** In terms of ideals, we have $b\divides a$ iff $a\in\ideal{b}$ iff $\ideal{a}\subseteq\ideal{b}$.<span style="float:right;">$\blacklozenge$</span>

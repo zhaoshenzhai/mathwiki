@@ -24,4 +24,4 @@ _The greatest common divisor of $a$ and $b$ is, up to a unit, unique; write $\gc
 
 ```
 
-**Remark.** Let $I\coloneqq\l\langle a,b\r\rangle$. Then $d$ is a greatest common divisor of $a$ and $b$ iff $I\subseteq\l\langle d\r\rangle$ and $\l\langle d\r\rangle\subseteq\l\langle d'\r\rangle$ for any principal ideal $\l\langle d'\r\rangle$ containing $I$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Let $I\coloneqq\ideal{a,b}$. Then $d$ is a greatest common divisor of $a$ and $b$ iff $I\subseteq\ideal{d}$ and $\ideal{d}\subseteq\ideal{d'}$ for any principal ideal $\ideal{d'}$ containing $I$.<span style="float:right;">$\blacklozenge$</span>

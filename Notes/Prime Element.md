@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be an integral domain and fix a non-zero $p\in R$. We say that $p$ is **prime in $R$** if the ideal $\l\langle p\r\rangle$ is a prime ideal; that is, if $p$ is not a unit and_
+_Let $R$ be an integral domain and fix a non-zero $p\in R$. We say that $p$ is **prime in $R$** if the ideal $\ideal{p}$ is a prime ideal; that is, if $p$ is not a unit and_
 $$\begin{equation}
     \fa a,b\in R:p\divides\!\l(ab\r)\Rightarrow p\divides a\lor p\divides b.
 \end{equation}$$
