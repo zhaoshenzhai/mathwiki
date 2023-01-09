@@ -32,4 +32,4 @@ $$\begin{equation}
 Then, since $I$ is non-zero, there exists some non-zero $i\in I$. Thus $S\neq\em$, so there exists an element $d\in I$ such that $N\l(d\r)$ is minimal.
 * Since $d\in I$, we see that $\ideal{d}\subseteq I$.
 
-It suffices to show that $I\subseteq\ideal{d}$, so take $a\in I$. Since $R$ is a Euclidean Domain, there exist $q,r\in R$, with either $r=0$ or $N\l(r\r)<N\l(d\r)$, such that $a=qd+r$. Then $r=a-qd$, and since $a\in I$, we see that $r\in I$. But $d$ has minimal norm in $I$, so $r=0$ and hence $a=qd$. Thus $a\in\ideal{d}$, so we are done.<span style="float:right;">$\blacksquare$</span>
+It suffices to show that $I\subseteq\ideal{d}$, so take $a\in I$. Since $R$ is a Euclidean Domain, there exist $q,r\in R$, with either $r=0$ or $N\l(r\r)<N\l(d\r)$, such that $a=qd+r$. Then $r=a-qd$, and since $a,d\in I$, we see that $r\in I$. But $d$ has minimal norm in $I$, so $r=0$ and hence $a=qd$. Thus $a\in\ideal{d}$, so we are done.<span style="float:right;">$\blacksquare$</span>

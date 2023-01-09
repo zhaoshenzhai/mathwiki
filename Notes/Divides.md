@@ -5,10 +5,10 @@ Tags: #Definition #Topics/Ring_Theory
 
 Types: _Not Applicable_
 Examples: [[Additive Group of Integers mod n]], [[Root iff factor]]
-Constructions: [[Greatest Common Divisor]], [[Least Common Multiple]]
+Constructions: [[Greatest Common Divisor]], [[Least Common Multiple]], [[Associates]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Basic properties of divisibility and associates]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
@@ -19,5 +19,3 @@ title: Definition.
 _Let $R$ be a commutative ring and fix $a,b\in R$ with $b\neq0$. Then **$b$ divides $a$** if there exists some $r\in R$ such that $a=br$, in which case we write $b\divides a$._
 
 ```
-
-**Remark.** In terms of ideals, we have $b\divides a$ iff $a\in\ideal{b}$ iff $\ideal{a}\subseteq\ideal{b}$.<span style="float:right;">$\blacklozenge$</span>
