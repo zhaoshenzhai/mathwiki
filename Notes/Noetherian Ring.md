@@ -10,8 +10,8 @@ Generalizations: _Not Applicable_
 
 Properties: [[Hilbert's Basis Theorem]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: [[Equivalences of Noetherian rings]]
+Equivalences: [[Equivalences for Noetherian rings]]
+Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.

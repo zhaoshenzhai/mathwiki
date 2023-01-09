@@ -3,7 +3,7 @@
 Date Created: 27/12/2022 17:35:44
 Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Linear Subspace Test]], [[Basic properties of group homomorphisms]]
+Proved by: [[Basic properties of group homomorphisms]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
