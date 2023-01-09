@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be an integral domain and fix $a\in R$ that is non-zero and is not a unit. We say that $a$ is **irreducible in $R$** if for all $r,s\in R$, $a=rs$ implies that either $r$ or $s$ is a unit in $R$._
+_Let $R$ be an integral domain. An element $a\in R$ is said to be **irreducible in $R$** if it is non-zero, is not a unit, and if for all $r,s\in R$, $a=rs$ implies that either $r$ or $s$ is a unit in $R$._
 
 ```

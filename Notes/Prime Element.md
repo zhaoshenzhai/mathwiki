@@ -11,12 +11,12 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[Basic properties of divisibility and associates]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be an integral domain and fix a non-zero $p\in R$. We say that $p$ is **prime in $R$** if the ideal $\ideal{p}$ is a prime ideal; that is, if $p$ is not a unit and_
+_Let $R$ be an integral domain. An element $p\in R$ is said to be **prime in $R$** if it is non-zero, not a unit, and the ideal $\ideal{p}$ is a prime ideal; that is, if_
 $$\begin{equation}
     \fa a,b\in R:p\divides\!\l(ab\r)\Rightarrow p\divides a\lor p\divides b.
 \end{equation}$$
