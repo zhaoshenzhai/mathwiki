@@ -7,7 +7,7 @@ mathLink: $\lcm\l(a,b\r)$ exists
 Date Created: 20/09/2022 13:32:27
 Tags: #Proposition #Later/Ring_Theory
 
-Proved by: [[Omega is an ordinal]], [[Division Algorithm]]
+Proved by: [[Omega is an ordinal]], [[Ring of integers is a EUD]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

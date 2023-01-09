@@ -7,7 +7,7 @@ mathLink: $g^k=e$ $\Leftrightarrow$ $\ord{g}$ divides $k$
 Date Created: 26/09/2022 23:49:34
 Tags: #Proposition #Topics/Group_Theory
 
-Proved by: [[Division Algorithm]]
+Proved by: [[Ring of integers is a EUD]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

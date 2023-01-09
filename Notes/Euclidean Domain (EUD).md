@@ -4,7 +4,7 @@ Date Created: 23/11/2022 09:56:13
 Tags: #Definition #Topics/Ring_Theory
 
 Types: [[Field]]
-Examples: [[Division Algorithm]], [[Polynomial Ring]]
+Examples: [[Ring of Integers]], [[Polynomial ring over fields is a EUD]], [[Gaussian Integers]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

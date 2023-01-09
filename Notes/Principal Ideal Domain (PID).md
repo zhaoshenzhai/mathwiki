@@ -4,9 +4,9 @@ Date Created: 22/11/2022 21:01:55
 Tags: #Definition #Topics/Ring_Theory
 
 Types: [[Euclidean Domain (EUD)]]
-Examples: [[Ring of integers is a PID]], [[Polynomial ring over fields are PIDs]]
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Generalizations: [[Noetherian Ring]]
 
 Properties: [[Bezout's Identity]]
 Sufficiencies: [[EUD implies PID]]

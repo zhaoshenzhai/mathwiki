@@ -8,7 +8,7 @@ Date Created: 23/11/2022 15:13:45
 Tags: #Theorem #Topics/Ring_Theory
 
 Proved by: _Not Applicable_
-References: [[Ring of integers is a PID]], [[Polynomial ring over fields are PIDs]]
+References: [[Ring of integers is a EUD]], [[Polynomial ring over fields is a EUD]], [[EUD implies PID]]
 Justifications: _Not Applicable_
 
 Specializations: _Not Applicable_

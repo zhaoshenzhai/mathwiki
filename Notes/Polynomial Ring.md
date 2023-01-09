@@ -8,8 +8,8 @@ Examples: _Not Applicable_
 Constructions: [[Evaluation Homomorphism]], [[Root (Polynomial)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Division Algorithm (Polynomials)]], [[Polynomial has at most degree-many roots]], [[Basic properties of polynomial rings (integral domain)]]
-Sufficiencies: [[Polynomial ring over fields are PIDs]], [[Hilbert's Basis Theorem]]
+Properties: [[Polynomial has at most degree-many roots]], [[Basic properties of polynomial rings (integral domain)]]
+Sufficiencies: [[Polynomial ring over fields is a EUD]], [[Hilbert's Basis Theorem]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

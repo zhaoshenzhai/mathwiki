@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 23/11/2022 10:56:36
 Tags: #Proposition #Topics/Ring_Theory
 
-Proved by: [[Division Algorithm (Polynomials)]]
+Proved by: [[Polynomial ring over fields is a EUD]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

@@ -1,3 +1,7 @@
+---
+mathLink: $K$ field $\Rightarrow$ $K\l[x\r]$ is a EUD
+---
+
 <div class="topSpace"></div>
 
 Date Created: 23/11/2022 09:55:11

@@ -5,7 +5,7 @@ Tags: #Theorem #Later/Ring_Theory
 
 Proved by: _Not Applicable_
 References: _Not Applicable_
-Justifications: [[Division Algorithm]]
+Justifications: [[Ring of integers is a EUD]]
 
 Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
