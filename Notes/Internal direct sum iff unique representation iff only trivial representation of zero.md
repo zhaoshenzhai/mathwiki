@@ -22,11 +22,11 @@ _Let_ $\l\{U_i\r\}_{i\in I}$ _be an indexed family of distinct linear subspaces 
 $$\begin{equation}
     V=\bigoplus_{i\in I}U_i.
 \end{equation}$$
-2. _The zero vector admits only the trivial decomposition as a sum of vectors in_ $\l\{U_i\r\}_{i\in I}$:
+2. _The zero vector admits only the trivial decomposition as a sum of vectors in_ $\l\{U_i\r\}_{i\in I}$_:_
 $$\begin{equation}
     \fa i\in I,\fa u_i\in U_i:\sum\limits_{i\in I}u_i=0\ \ \ \ \Rightarrow\ \ \ \ \fa i\in I:u_i=0.
 \end{equation}$$
-3. _Every $v\in V$ admits a unique representation as a sum of vectors in_ $\l\{U_i\r\}_{i\in I}$:
+3. _Every $v\in V$ admits a unique representation as a sum of vectors in_ $\l\{U_i\r\}_{i\in I}$_:_
 $$\begin{equation}
     \fa v\in V,\fa i\in I,\ex!u_i\in U_i:v=\sum\limits_{i\in I}u_i.
 \end{equation}$$

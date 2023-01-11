@@ -3,7 +3,7 @@
 Date Created: 26/06/2022 17:19:32
 Tags: #Theorem #Later/Linear_Algebra
 
-Proved by: [[Pythagorean Theorem]], [[Linearly dependent iff scalar multiple]]
+Proved by: [[Pythagorean Theorem]], [[Linearly dependent iff exists span redundant element]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

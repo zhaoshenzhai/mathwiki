@@ -19,6 +19,7 @@ title: Definition.
 _Let $K$ be a field and consider a vector space $V$ over $K$. An indexed subset_ $\mc{B}\coloneqq\l\{b_i\r\}_{i\in I}\subseteq V$ _is said to be a **(algebraic) basis for $V$** if any of the following equivalent conditions hold:_
 * _$\mc{B}$ is a linearly independent spanning set of $V$._
 * _$\mc{B}$ is a spanning set of $V$ of minimal size._
+* _$\mc{B}$ is a linearly independent set in $V$ of maximal size._
 * _Every $v\in V$ can be uniquely represented as a (finite) linear combination of vectors in $\mc{B}$._
 
 ```
