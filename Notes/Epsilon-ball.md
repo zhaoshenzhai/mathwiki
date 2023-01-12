@@ -9,10 +9,10 @@ Tags: #Definition #Later/Topology
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Bounded Sequence]]
+Constructions: [[Metric Topology]], [[Bounded Sequence]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Epsilon-balls are open]], [[Epsilon-balls form a basis for a topology]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

@@ -4,7 +4,7 @@ Date Created: 27/09/2022 18:49:17
 Tags: #Definition #Topics/Analysis
 
 Types: [[Bounded Space]], [[Compact Metric Space]]
-Examples: _Not Applicable_
+Examples: [[Euclidean Metric Space]], [[lp Space]]
 Constructions: [[Epsilon-ball]], [[Sequences in a Metric Space]], [[Functions in a Metric Space]]
 Generalizations: _Not Applicable_
 
@@ -16,6 +16,9 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. Then $X$, equipped with a metric $d:X\times X\to\R^+_0$, is said to be a **metric space**._
+_A **metric space** is a pair $\tpl{X,d}$ where $X$ is a set and $d:X\times X\to\R$ is a function, called the **metric**, such that_
+* _(Positive-definiteness): $\fa x,y\in X:d\l(x,y\r)\geq0$; equality holds iff $x=y$._
+* _(Symmetry): $\fa x,y\in X:d\l(x,y\r)=d\l(y,x\r)$._
+* _(Triangle-inequality): $\fa x,y,z\in X:d\l(x,z\r)\leq d\l(x,y\r)+d\l(y,z\r)$._
 
 ```

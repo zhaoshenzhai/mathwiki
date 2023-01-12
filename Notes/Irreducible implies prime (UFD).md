@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 11/01/2023 17:02:49
-Tags: #Proposition #In_Progress
+Tags: #Proposition #Topics/Ring_Theory #Courses/MATH457
 
 Proved by: [[Basic properties of divisibility and associates]]
 References: _Not Applicable_

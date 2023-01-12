@@ -4,7 +4,7 @@ Date Created: 24/01/2022 10:45:00
 Tags: #Definition #Later/Topology
 
 Types: _Not Applicable_
-Examples: [[Order Topology]]
+Examples: [[Order Topology]], [[Metric Topology]]
 Constructions: [[Topology on a Set]]
 Generalizations: _Not Applicable_
 
