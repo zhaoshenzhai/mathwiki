@@ -5,10 +5,10 @@ Tags: #Definition #Topics/Ring_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Irreducible Element]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Basic properties of irreducible and prime elements]], [[Irreducible implies prime (UFD)]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
