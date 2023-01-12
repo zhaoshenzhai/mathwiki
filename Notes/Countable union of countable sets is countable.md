@@ -21,4 +21,4 @@ _Proof_. Set $X\coloneqq\bigcup_{n\in\omega}X_n$. For each $n\in\omega$, there e
 $$\begin{equation}
     \phi:X\to\omega\times\omega\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ x\mapsto\tpl{m,\phi_m\l(x\r)}
 \end{equation}$$
-where $m\in\omega$ is the (unique) minimal element of the set $\l\{n\in\omega\mid x\in X_n\r\}$. It suffices to show that $\phi$ is an injection, for then $X\into\omega\times\omega\into\omega$. Indeed, for all $x_1,x_2\in X$, $\tpl{m_1,f_{m_1}\l(x_1\r)}=\tpl{m_2,f_{m_2}\l(x_2\r)}$ implies that $m\coloneqq m_1=m_2$, so injectivity of $f_m$ establishes $x_1=x_2$.<span style="float:right;">$\blacksquare$</span>
+where $m\in\omega$ is the (unique) minimal element of the set $\l\{n\in\omega\mid x\in X_n\r\}$. It suffices to show that $\phi$ is an injection, for then $X\into\omega\times\omega\into\omega$. Indeed, for all $x_1,x_2\in X$, $\tpl{m_1,\phi_{m_1}\l(x_1\r)}=\tpl{m_2,\phi_{m_2}\l(x_2\r)}$ implies that $m\coloneqq m_1=m_2$, so injectivity of $\phi_m$ establishes $x_1=x_2$.<span style="float:right;">$\blacksquare$</span>
