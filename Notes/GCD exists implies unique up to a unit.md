@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a integral domain and fix $a,b\in R$. If $\gcd\l(a,b\r)$ exists, then it is unique up to a unit._
+_Let $R$ be a integral domain and fix $a,b\in R\comp\l\{0\r\}$. If $\gcd\l(a,b\r)$ exists, then it is unique up to a unit._
 
 ```
 
