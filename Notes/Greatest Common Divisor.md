@@ -11,12 +11,12 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: [[Bezout's Identity]], [[Euclidean Algorithm]]
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[GCD exists implies unique up to a unit]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be a commutative ring and fix $a,b\in R$ with $b\neq0$. An element $d\in R\comp\l\{0\r\}$ is said to be a **greatest common divisor of $a$ and $b$** if_
+_Let $R$ be a integral domain and fix $a,b\in R$. An element $d\in R\comp\l\{0\r\}$ is said to be a **greatest common divisor of $a$ and $b$** if_
 * _$d$ is a common divisor of $a$ and $b$; that is, if $d\divides a$ and $d\divides b$, and_
 * _for all common divisors $d'$ of $a$ and $b$, $d'\divides d$._
 
