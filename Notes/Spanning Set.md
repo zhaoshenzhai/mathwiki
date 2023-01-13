@@ -3,13 +3,13 @@
 Date Created: 06/04/2022 21:08:27
 Tags: #Definition #Later/Linear_Algebra
 
-Types: [[Basis (Algebraic)]]
+Types: [[Basis (Linear Algebra)]]
 Examples: _Not Applicable_
 Constructions: [[Finite-dimensional Vector Space]]
 Generalizations: _Not Applicable_
 
 Properties: [[Steinitz Exchange Lemma]], [[Spanning set cuts down to a basis]], [[Spanning subset with same cardinality as dimension (finite) is a basis]], [[Criteria for equality of linear maps via spanning set]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Basis iff minimal spanning set]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

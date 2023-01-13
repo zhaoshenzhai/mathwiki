@@ -3,7 +3,7 @@
 Date Created: 21/06/2022 14:32:35
 Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Unique Representation Theorem (algebraic basis)]]
+Proved by: [[Unique Representation Theorem (Linear Algebra)]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

@@ -11,7 +11,7 @@ Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
 ``` ad-Theorem
-title: Theorem (Unique Representation Theorem w.r.t. algebraic basis).
+title: Theorem (Unique Representation Theorem).
 
 _Let $K$ be a field and consider an indexed subset_ $\mc{B}\coloneqq\l\{b_i\r\}_{i\in I}\!\subseteq V$ _of a vector space $V$ over $K$. Then $\mc{B}$ is a (algebraic) basis of $V$ iff every vector $v\in V$ can be uniquely represented as a linear combination of vectors in $\mc{B}$; formally, iff_
 $$\begin{equation}

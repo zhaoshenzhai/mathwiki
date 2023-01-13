@@ -3,13 +3,13 @@
 Date Created: 29/04/2022 20:37:44
 Tags: #Definition #Topics/Linear_Algebra
 
-Types: [[Basis (Algebraic)]]
+Types: [[Basis (Linear Algebra)]]
 Examples: [[Homogeneous linear system only trivial solution iff columns of coefficient matrix are linearly independent]], [[Distinct eigenvalues implies linearly independent eigenvectors]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Steinitz Exchange Lemma]], [[Linearly independent set extends to a basis]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]], [[Linearly independent subset cannot contain the zero vector]]
-Sufficiencies: [[Orthonormal sets are linearly independent]]
+Sufficiencies: [[Orthonormal sets are linearly independent]], [[Basis iff maximal linearly independent set]]
 Equivalences: [[Linearly dependent iff exists span redundant element]]
 Justifications: _Not Applicable_
 

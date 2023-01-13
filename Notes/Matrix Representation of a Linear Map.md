@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Properties: [[Composition of linear maps repr under basis matrix product of representations]], [[Action of linear map repr under basis left-multiplication of matrix representation]], [[Linear map invertible repr under basis matrix representation invertible]], [[Rank of a linear map repr under basis rank of its matrix representation]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Unique Representation Theorem (algebraic basis)]]
+Justifications: [[Unique Representation Theorem (Linear Algebra)]]
 
 ``` ad-Definition
 title: Definition.

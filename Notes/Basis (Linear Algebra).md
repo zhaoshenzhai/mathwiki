@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Invariance of cardinality of bases (finite-dim.)]], [[Existence of unique linear map via action on basis vectors]]
 Sufficiencies: [[Every vector space has a basis]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]], [[Spanning subset with same cardinality as dimension (finite) is a basis]]
-Equivalences: [[Unique Representation Theorem (algebraic basis)]]
+Equivalences: [[Unique Representation Theorem (Linear Algebra)]], [[Basis iff minimal spanning set]], [[Basis iff maximal linearly independent set]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

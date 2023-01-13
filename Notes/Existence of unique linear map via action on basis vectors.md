@@ -3,7 +3,7 @@
 Date Created: 02/05/2022 16:29:57
 Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Criteria for equality of linear maps via spanning set]], [[Unique Representation Theorem (algebraic basis)]]
+Proved by: [[Criteria for equality of linear maps via spanning set]], [[Unique Representation Theorem (Linear Algebra)]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

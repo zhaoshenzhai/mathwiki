@@ -11,7 +11,7 @@ $\huge\rm\bf{L}\normalsize\rm\bf{INEAR ALGEBRA}$ is the study of the [category o
 
 ---
 
-**Constructions.** As with most categories, $\catvect$ has [subobjects](Linear%20Subspace.md), [products](External%20Direct%20Product%20(Vector%20Space).md), [direct sums](Internal%20Direct%20Sum%20(Linear%20Algebra).md), and [quotients](obsidian://open?file=TODO). Unique to Linear Algebra is the concept of the [dimension](Dimension%20(Linear%20Algebra).md) of a [vector space](Vector%20Space.md), defined as the cardinality of any [linearly independent](Linear%20Independence.md) [spanning set](Spanning%20Set.md), aka any [basis](Basis%20(Algebraic).md), thereof.
+**Constructions.** As with most categories, $\catvect$ has [subobjects](Linear%20Subspace.md), [products](External%20Direct%20Product%20(Vector%20Space).md), [direct sums](Internal%20Direct%20Sum%20(Linear%20Algebra).md), and [quotients](obsidian://open?file=TODO). Unique to Linear Algebra is the concept of the [dimension](Dimension%20(Linear%20Algebra).md) of a [vector space](Vector%20Space.md), defined as the cardinality of any [linearly independent](Linear%20Independence.md) [spanning set](Spanning%20Set.md), aka any [basis](Basis%20(Linear%20Algebra).md), thereof.
 
 Similarly, as with most categories, we can define the [kernel](Kernel;%20Null%20Space.md) of a [linear map](Linear%20Map.md) $T:V\to W$. Unique to Linear Algebra is its [rank](Rank.md) (defined as $\dim\im T$); together, they satisfy the [Dimension Theorem](Dimension%20Theorem.md) which states that
 $$\begin{equation}
@@ -26,7 +26,7 @@ $$\begin{equation}
 
 If a concept is defined via a choice of basis, we must ensure that it is invariant under a [change of basis](Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md).
 
-Bases themselves can be characterized as both [maximally linearly independent sets](obsidian://open?file=TODO) and as [minimal spanning sets](obsidian://open?file=TODO). Indeed, every linearly independent set [extends to](Linearly%20independent%20set%20extends%20to%20a%20basis.md) a basis, and every spanning set [cuts down](Spanning%20set%20cuts%20down%20to%20a%20basis.md) to a basis. This shows, under the assumption of Choice, that [every vector space has a basis](Every%20vector%20space%20has%20a%20basis.md).<span style="float:right;">$\blacklozenge$</span>
+Bases themselves can be characterized as both [maximally linearly independent sets](Basis%20iff%20maximal%20linearly%20independent%20set.md) and as [minimal spanning sets](Basis%20iff%20minimal%20spanning%20set.md). Indeed, every linearly independent set [extends to](Linearly%20independent%20set%20extends%20to%20a%20basis.md) a basis, and every spanning set [cuts down](Spanning%20set%20cuts%20down%20to%20a%20basis.md) to a basis. This shows, under the assumption of Choice, that [every vector space has a basis](Every%20vector%20space%20has%20a%20basis.md).<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

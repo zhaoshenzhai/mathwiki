@@ -9,7 +9,7 @@ Constructions: [[Linear Combination]], [[Linear Map]], [[Linear Subspace]], [[Ex
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of vector spaces]], [[Every vector space has a basis]]
-Sufficiencies: [[Unique Representation Theorem (algebraic basis)]]
+Sufficiencies: [[Unique Representation Theorem (Linear Algebra)]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
