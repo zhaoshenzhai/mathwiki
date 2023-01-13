@@ -22,10 +22,10 @@ _Let $K$ be a field and let $V$ be a finite-dimensional vector space over $K$. I
 ---
 
 _Proof_. We first observe that any linearly independent subset $U\subseteq V$ must contain no more than $\dim V$ elements, for if not, then any spanning set, and thus any basis, will contain more than $\dim V$ elements. Therefore, we may let $U=\l\{u_1,\dots,u_n\r\}$ for some $n\leq\dim V$. We proceed algorithmically as follows.
-* Step 1: If $\span U=V$, then $\mc{B}\coloneqq U$ is a basis of $V$ and we are done. Otherwise, there exists some $s_1\in V$ that is not spanned by $U$ and so $U_1\coloneqq U\cup\l\{s_1\r\}$ is linearly independent.
+* Step 1: If $\span U=V$, then $\mc{B}\coloneqq U$ is a basis for $V$ and we are done. Otherwise, there exists some $s_1\in V$ that is not spanned by $U$ and so $U_1\coloneqq U\cup\l\{s_1\r\}$ is linearly independent.
 
 For all $j>1$:
-* Step $j$: If $\span U_{j-1}=V$, then $\mc{B}\coloneqq U_{j-1}=U\cup\l\{s_1,\dots,s_{j-1}\r\}$  is a basis of $V$ and we are done since $U_{j-1}$ is linearly dependent. Otherwise, there exists some $s_j\in V$ that is not spanned by $U$ and so $U_j\coloneqq U_{j-1}\cup\l\{s_j\r\}$ is linearly independent.
+* Step $j$: If $\span U_{j-1}=V$, then $\mc{B}\coloneqq U_{j-1}=U\cup\l\{s_1,\dots,s_{j-1}\r\}$  is a basis for $V$ and we are done since $U_{j-1}$ is linearly dependent. Otherwise, there exists some $s_j\in V$ that is not spanned by $U$ and so $U_j\coloneqq U_{j-1}\cup\l\{s_j\r\}$ is linearly independent.
 
 Observe that this process terminates in step $j=\dim V-n+1$ since
 $$\begin{equation}
@@ -35,4 +35,4 @@ must span $V$. If not, then $U_{\dim V-n+1}=U\cup\l\{s_1,\dots,s_{\dim V-n+1}\r\
 $$\begin{equation}
    \mc{B}\coloneqq U\cup\l\{s_1,\dots,s_{\dim V-n}\r\}
 \end{equation}$$
-is a (finite) basis of $V$ containing $U$.<span style="float:right;">$\blacksquare$</span>
+is a (finite) basis for $V$ containing $U$.<span style="float:right;">$\blacksquare$</span>

@@ -21,7 +21,7 @@ _Let $V$ be a finite-dimensional vector space over some field $K$ and consider a
 
 ```
 
-_Proof_. Since $U$ is a subspace of a finite-dimensional vector space, we see that $U$ is finite-dimensional too. Thus we may let $\mc{B}_U\coloneqq\l\{b_1,\dots,b_k\r\}$ be a basis of $U$, and since it is linearly independent, we may extend this to a basis $\mc{B}_V\coloneqq\mc{B}_U\cup\l\{b_{k+1},\dots,b_n\r\}$ of $V$. Let $W\coloneqq\span\l\{b_{k+1},\dots,b_n\r\}$; we claim that $V=U\oplus W$.
+_Proof_. Since $U$ is a subspace of a finite-dimensional vector space, we see that $U$ is finite-dimensional too. Thus we may let $\mc{B}_U\coloneqq\l\{b_1,\dots,b_k\r\}$ be a basis for $U$, and since it is linearly independent, we may extend this to a basis $\mc{B}_V\coloneqq\mc{B}_U\cup\l\{b_{k+1},\dots,b_n\r\}$ of $V$. Let $W\coloneqq\span\l\{b_{k+1},\dots,b_n\r\}$; we claim that $V=U\oplus W$.
 * ($V=U+W$): Take $v\in V$, so there exists $\alpha_1,\dots,\alpha_n\in K$ such that
 $$\begin{equation}
     \begin{aligned}

@@ -21,7 +21,7 @@ _In other words, $\rank A=\dim\col A=\dim\span\l\{\v{a}_1,\dots,\v{a}_n\r\}$ is 
 
 ```
 
-_Proof_. Let $\mc{B}\coloneqq\l\{\v{e}_1,\dots,\v{e}_n\r\}$ be the standard basis of $K^n$ and observe that
+_Proof_. Let $\mc{B}\coloneqq\l\{\v{e}_1,\dots,\v{e}_n\r\}$ be the standard basis for $K^n$ and observe that
 $$\begin{align}
     \col A&=\im L_A && \textrm{Definition of $\col$} \\
     &=\span\im_{L_A}\!\mc{B} && \textrm{Image is spanned by image of spanning set} \\

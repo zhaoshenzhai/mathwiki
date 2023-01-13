@@ -25,8 +25,8 @@ _for some fixed $m,n\in\N^+$. Then the following algebraic identities hold._
 
 ```
 
-_Proof_. Let $\mc{B}\coloneqq\l\{\v{e}_1,\dots,\v{e}_n\r\}$ be the standard basis of $K^n$.
-* ($\mc{L}$ is invertible): We claim that $\l(\mc{L}_{m\times n}\r)^{-1}=\Phi_\mc{B}^\mc{C}$ where $\mc{C}$ is the standard basis of $K^m$.
+_Proof_. Let $\mc{B}\coloneqq\l\{\v{e}_1,\dots,\v{e}_n\r\}$ be the standard basis for $K^n$.
+* ($\mc{L}$ is invertible): We claim that $\l(\mc{L}_{m\times n}\r)^{-1}=\Phi_\mc{B}^\mc{C}$ where $\mc{C}$ is the standard basis for $K^m$.
   * ($\Phi_\mc{B}^\mc{C}\circ\mc{L}_{m\times n}=\id_{\mat{m\times n}{K}}$): Take $A\in\mat{m\times n}{K}$; we wish to show that $\l[L_A\r]_\mc{B}^\mc{C}=A$. By definition, the $j^\textrm{th}$ column of $\l[L_A\r]_\mc{B}^\mc{C}$ is
 $$\begin{equation}
     \begin{aligned}
@@ -51,7 +51,7 @@ $$\begin{equation}
 $$\begin{equation}
     \mc{L}_{m\times p}\l(AC\r)=L_{AC}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \mc{L}_{m\times n}\l(A\r)\circ\mc{L}_{n\times p}\l(C\r)=L_A\circ L_C,
 \end{equation}$$
-so it suffices to show that $L_{AC}=L_A\circ L_C$. Since $\mc{B}$ is a basis of $K^n$, it further suffices to show that
+so it suffices to show that $L_{AC}=L_A\circ L_C$. Since $\mc{B}$ is a basis for $K^n$, it further suffices to show that
 $$\begin{equation}
     L_{AC}\l(\v{e}_j\r)=\l(L_A\circ L_C\r)\l(\v{e}_j\r)
 \end{equation}$$

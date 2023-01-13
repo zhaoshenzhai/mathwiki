@@ -21,11 +21,11 @@ _In other words, we have $\nullity T+\rank T=\dim V$._
 
 ```
 
-_Proof_. Let $\iota\coloneqq\dim\im T$, $\kappa\coloneqq\dim\ker T$, and $\delta\coloneqq\dim V$. Since $\ker T$ is a subspace of $V$, we see that $\kappa\leq\delta$ is finite so we may let $\mc{B}_\kappa\coloneqq\l\{b_1,\dots,b_\kappa\r\}$ be a basis of $\ker T$ and extend $\mc{B}_\kappa$ to a basis $\mc{B}_\delta\coloneqq\mc{B}_\kappa\cup\l\{b_{\kappa+1},\dots,b_\delta\r\}$ of $V$. It suffices to show that
+_Proof_. Let $\iota\coloneqq\dim\im T$, $\kappa\coloneqq\dim\ker T$, and $\delta\coloneqq\dim V$. Since $\ker T$ is a subspace of $V$, we see that $\kappa\leq\delta$ is finite so we may let $\mc{B}_\kappa\coloneqq\l\{b_1,\dots,b_\kappa\r\}$ be a basis for $\ker T$ and extend $\mc{B}_\kappa$ to a basis $\mc{B}_\delta\coloneqq\mc{B}_\kappa\cup\l\{b_{\kappa+1},\dots,b_\delta\r\}$ of $V$. It suffices to show that
 $$\begin{equation}
     \mc{B}_\iota\coloneqq\l\{T\l(b_{\kappa+1}\r),\dots,T\l(b_\delta\r)\r\}
 \end{equation}$$
-forms a basis of $\im T$, for then each $T\l(b_i\r)$ is distinct and $\dim\im T=\dim V-\dim\ker T$.
+forms a basis for $\im T$, for then each $T\l(b_i\r)$ is distinct and $\dim\im T=\dim V-\dim\ker T$.
 * ($\span\mc{B}_\iota=\im T$): Observe that
 $$\begin{equation}
     \begin{aligned}
@@ -57,4 +57,4 @@ so
 $$\begin{equation}
     \sum\limits_{i=1}^\kappa\beta_ib_i+\sum_{\mathclap{i=\kappa+1}}^\delta\l(-\alpha_i\r)b_i=0.
 \end{equation}$$
-Since $\mc{B}_\delta$ is a basis of $V$, it is linearly independent and hence $\alpha_i=0$ for all $i\in\l\{\kappa+1,\dots,\delta\r\}$. The result follows.<span style="float:right;">$\blacksquare$</span>
+Since $\mc{B}_\delta$ is a basis for $V$, it is linearly independent and hence $\alpha_i=0$ for all $i\in\l\{\kappa+1,\dots,\delta\r\}$. The result follows.<span style="float:right;">$\blacksquare$</span>

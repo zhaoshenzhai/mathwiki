@@ -40,7 +40,7 @@ _for all $j\in\mc{J}$ and $\alpha\in\l\{1,\dots,n\r\}$. Otherwise, $A\v{x}=\v{b}
 
 **Remark.** Note that both $\l(\v{s}_p\r)_\alpha$ and $\l(\v{u}_j\r)_\alpha$ are well-defined for all $\alpha\in\l\{1,\dots,n\r\}$, by which we mean that if there exists $i\in\l\{1,\dots,r\r\}$ such that $\alpha=k_i$, then $i$ is unique; this is guaranteed by $\axiref[2]$ of $R$.
 
-Setting $t_j=0$ for all $j\in\mc{J}$, we see that $\v{s}_p$ is a solution of $A\v{x}=\v{b}$. Indeed, it can be proven that $\rank A=r=\l|\mc{K}\r|$ and that the set $\l\{\v{u}_j\r\}_{j\in\mc{J}}$ forms a basis of $\nullsp A$, so Gaussian Elimination can be used to simultaneously
+Setting $t_j=0$ for all $j\in\mc{J}$, we see that $\v{s}_p$ is a solution of $A\v{x}=\v{b}$. Indeed, it can be proven that $\rank A=r=\l|\mc{K}\r|$ and that the set $\l\{\v{u}_j\r\}_{j\in\mc{J}}$ forms a basis for $\nullsp A$, so Gaussian Elimination can be used to simultaneously
 * test whether the system $A\v{x}=\v{b}$ is consistent, and if it is, obtain the solution set of $A\v{x}=\v{b}$ as a decomposition $\l\{\v{s}_p\r\}+\nullsp A$,
 * obtain a basis for $\nullsp A$, and
 * compute $\rank A$ by counting the number of pivot columns or non-zero rows of $\rref A$.<span style="float:right;">$\blacklozenge$</span>

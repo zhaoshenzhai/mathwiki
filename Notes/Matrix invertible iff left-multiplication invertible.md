@@ -21,7 +21,7 @@ _Let $K$ be a field and consider a matrix $A\in\mat{n}{K}$ for some fixed $n\in\
 
 ```
 
-_Proof_. Observe that $L_A:K^n\to K^n$ is invertible iff its matrix representation $\l[L_A\r]$ (relative to the standard basis of $K^n$) is invertible, but since $\l[L_A\r]=A$, it suffices to prove that the inverse of $L_A$ is given by $L_{A^{-1}}$. To this end, compute
+_Proof_. Observe that $L_A:K^n\to K^n$ is invertible iff its matrix representation $\l[L_A\r]$ (relative to the standard basis for $K^n$) is invertible, but since $\l[L_A\r]=A$, it suffices to prove that the inverse of $L_A$ is given by $L_{A^{-1}}$. To this end, compute
 $$\begin{align}
     L_A\circ L_{A^{-1}}&=L_{AA^{-1}}\ \ \ &&\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ L_{A^{-1}}\circ L_A\!\!\!\!\!\!\!\!\!\!\!\!&&=L_{A^{-1}A} && \textrm{Left-multiplication respects matrix multiplication} \\
     &=L_{I_n}&&\textrm{and}\ \ \ \ \ \ \ \ &&=L_{I_n} && \textrm{Definition of $A^{-1}$} \\

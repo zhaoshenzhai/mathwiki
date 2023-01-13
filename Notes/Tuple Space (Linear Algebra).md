@@ -5,7 +5,7 @@ Tags: #Definition #Later/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Real Coordinate Space]]
-Constructions: [[Standard Basis of Tuple Space]]
+Constructions: [[Standard Basis for Tuple Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

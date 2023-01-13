@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. For each $i\in\l\{1,\dots,m\r\}$, let $d_i\coloneqq\dim V_i$ and let $\mc{B}_i\coloneqq\l\{b_{i1},\dots,b_{id_i}\r\}$ be a basis of $V_i$. We claim that the indexed set
+_Proof_. For each $i\in\l\{1,\dots,m\r\}$, let $d_i\coloneqq\dim V_i$ and let $\mc{B}_i\coloneqq\l\{b_{i1},\dots,b_{id_i}\r\}$ be a basis for $V_i$. We claim that the indexed set
 $$\begin{equation}
     \mc{C}\coloneqq\l\{c_{ij}\r\}_{
     \begin{aligned}
@@ -30,7 +30,7 @@ $$\begin{equation}
     }\in\prod_{i=1}^mV_i\ \ \ \ \ \ \ \ \textrm{where}\ \ \ \ \ \ \ \ 
     c_{ij}\coloneqq\tpl{\delta_{i1}^1b_{ij},\dots,\delta_{im}^mb_{ij}}
 \end{equation}$$
-containing $\l(\sum_{i=1}^md_i\r)$-many vectors form a basis of $\prod_{i=1}^mV_i$, from which the result follows. Intuitively, each $c_{ij}$ is the $m$-tuple whose $i^\textrm{th}$ component is the $j^\textrm{th}$ basis vector of $V_i$ and is zero everywhere else. Note that the function
+containing $\l(\sum_{i=1}^md_i\r)$-many vectors form a basis for $\prod_{i=1}^mV_i$, from which the result follows. Intuitively, each $c_{ij}$ is the $m$-tuple whose $i^\textrm{th}$ component is the $j^\textrm{th}$ basis vector of $V_i$ and is zero everywhere else. Note that the function
 $$\begin{equation}
     \delta^k:\l\{1,\dots,m\r\}\times\l\{1,\dots,m\r\}\to\l\{0_{V_k},1\r\}\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ 
     \tpl{i,k}\mapsto
@@ -41,7 +41,7 @@ $$\begin{equation}
 \end{equation}$$
 is a modified version of the Kronecker Delta in order to obtain the appropriate zeros, and the lexicographical order on $\l\{1,\dots,d_i\r\}\times\l\{1,\dots,m\r\}$ is used to make $\mc{C}$ into an ordered basis.
 
-It remains to show that $\mc{C}$ is a basis of $\prod_{i=1}^mV_i$, which we shall do so by showing that each $v\in\prod_{i=1}^mV_i$ can be uniquely represented as a linear combination of elements in $\mc{C}$. Since $v\in\prod_{i=1}^mV_i$, we see that $v=\tpl{v_1,\dots,v_m}$ for some unique vectors $v_i\in V_i$, each of which can be uniquely represented as a linear combination of vectors in $\mc{B}_i$ with the scalars $\alpha_{ij}\in K$ as
+It remains to show that $\mc{C}$ is a basis for $\prod_{i=1}^mV_i$, which we shall do so by showing that each $v\in\prod_{i=1}^mV_i$ can be uniquely represented as a linear combination of elements in $\mc{C}$. Since $v\in\prod_{i=1}^mV_i$, we see that $v=\tpl{v_1,\dots,v_m}$ for some unique vectors $v_i\in V_i$, each of which can be uniquely represented as a linear combination of vectors in $\mc{B}_i$ with the scalars $\alpha_{ij}\in K$ as
 $$\begin{equation}
     v_i=\sum_{j=1}^{d_i}\alpha_{ij}b_{ij}.\cref{\ast}
 \end{equation}$$

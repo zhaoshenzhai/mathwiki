@@ -11,12 +11,12 @@ Generalizations: _Not Applicable_
 Properties: [[Right slash left multiplication by basis vector picks out column slash row]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Standard basis of tuple space is an ordered basis]]
+Justifications: [[Standard basis for tuple space is an ordered basis]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and conider the tuple space $K^n$ for some fixed $n\in\N^+$. The **standard basis of $K^n$** is the ordered basis $\l\{\v{e}_1,\dots,\v{e}_n\r\}$ where_
+_Let $K$ be a field and conider the tuple space $K^n$ for some fixed $n\in\N^+$. The **standard basis for $K^n$** is the ordered basis $\l\{\v{e}_1,\dots,\v{e}_n\r\}$ where_
 $$\begin{equation}
     \v{e}_i\coloneqq\tpl{\delta_{1i},\dots,\delta_{ni}}
 \end{equation}$$

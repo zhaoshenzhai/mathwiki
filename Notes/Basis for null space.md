@@ -41,4 +41,4 @@ $$\begin{equation}
         &=\l|\mc{J}\r|, && \textrm{Definition of $\mc{J}$}
     \end{aligned}
 \end{equation}$$
-those vectors form a basis of $\nullsp A$. The result follows after reindexing.<span style="float:right;">$\blacksquare$</span>
+those vectors form a basis for $\nullsp A$. The result follows after reindexing.<span style="float:right;">$\blacksquare$</span>

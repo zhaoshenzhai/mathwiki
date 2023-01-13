@@ -18,6 +18,6 @@ _Let $K$ be a field and consider a vector space $V$ over $K$. Then $V$ has a bas
 ```
 
 _Proof_. Let $U\subseteq V$. We may proceed in two ways:
-* If $U$ is linearly independent, then we can extend it to a basis of $V$. Indeed, if $V=\l\{0\r\}$, then $U=\em$ is linearly independent; otherwise, let $v\in V$ and observe that $\l\{v\r\}$ is linearly independent. Thus for every vector space $V$, a linearly independent subset $U$ thereof always exists and we can extend it to a basis of $V$.
+* If $U$ is linearly independent, then we can extend it to a basis for $V$. Indeed, if $V=\l\{0\r\}$, then $U=\em$ is linearly independent; otherwise, let $v\in V$ and observe that $\l\{v\r\}$ is linearly independent. Thus for every vector space $V$, a linearly independent subset $U$ thereof always exists and we can extend it to a basis for $V$.
 
-* If $\span U=V$, we can cut it down to a basis of $V$. Indeed, since $\span V=V$ trivially, we can cut $V$ down into a basis.<span style="float:right;">$\blacksquare$</span>
+* If $\span U=V$, we can cut it down to a basis for $V$. Indeed, since $\span V=V$ trivially, we can cut $V$ down into a basis.<span style="float:right;">$\blacksquare$</span>

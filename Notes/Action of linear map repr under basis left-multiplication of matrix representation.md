@@ -51,7 +51,7 @@ so we need $\l|\mc{A}\r|=1$; set $\mc{A}\coloneqq\l\{\alpha\r\}$ for some $\alph
 $$\begin{equation}
     f:K\to V \ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ k\mapsto v
 \end{equation}$$
-where $K$ is regarded as a vector space over itself; it is obviously linear. Observe that $\mc{A}=\l\{1\r\}$ is a basis of $K$, so
+where $K$ is regarded as a vector space over itself; it is obviously linear. Observe that $\mc{A}=\l\{1\r\}$ is a basis for $K$, so
 $$\begin{align}
     \l[T\circ f\r]_\mc{A}^\mc{C}&=\l[\l(T\circ f\r)\l(1\r)\r]_\mc{C} && \l|\mc{A}\r|=1 \\
     &=\l[T\l(f\l(1\r)\r)\r]_\mc{C} && \textrm{Definition of $\circ$} \\
