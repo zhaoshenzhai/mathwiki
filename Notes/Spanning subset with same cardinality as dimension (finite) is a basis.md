@@ -7,7 +7,7 @@ mathLink: Spanning set $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis
 Date Created: 02/05/2022 14:36:38
 Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Spanning set cuts down to a basis]], [[Invariance of cardinality of bases (finite-dim.)]]
+Proved by: [[Spanning set cuts down to a basis]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
