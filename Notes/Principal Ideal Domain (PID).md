@@ -8,8 +8,8 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: [[Noetherian Ring]]
 
-Properties: [[Bezout's Identity]]
-Sufficiencies: [[EUD implies PID]]
+Properties: [[Bezout's Identity]], [[PID implies UFD]]
+Sufficiencies: [[EUD implies PID]], [[Field implies PID]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
