@@ -1,16 +1,16 @@
 <div class="topSpace"></div>
 
 Date Created: 20/04/2022 17:33:40
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Symmetric and skew-symmetric decomposition of matrices]]
 Constructions: [[Complement (Linear Subspace)]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Basis slash dimension for direct sum]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Internal direct sum iff unique representation iff only trivial representation of zero]]
+Equivalences: [[Unique Representation Theorem (Direct Sum)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

@@ -1,10 +1,10 @@
 <div class="topSpace"></div>
 
 Date Created: 30/04/2022 12:00:55
-Tags: #Theorem #Later/Linear_Algebra
+Tags: #Theorem #Topics/Linear_Algebra
 
 Proved by: _Not Applicable_
-References: _Not Applicable_
+References: [[Unique Representation Theorem (Direct Sum)]]
 Justifications: _Not Applicable_
 
 Specializations: _Not Applicable_
@@ -20,6 +20,10 @@ $$\begin{equation}
 _where $\alpha_i=0$ for all but finitely-many $i\in I$._
 
 ```
+
+**Remark.** Using direct sums, we may rephrase the above by saying that $\mc{B}$ is a basis for $V$ iff $V=\bigoplus_{i\in I}\span\l\{b_i\r\}$.<span style="float:right;">$\blacklozenge$</span>
+
+---
 
 _Proof_.
 * ($\Rightarrow$): Take $v\in V$. Since $\span\mc{B}=V$, we know that $v$ can be expressed as a linear combination of vectors in $\mc{B}$; we wish to prove that such a representation is unique. Assume, for sake of contradiction, that

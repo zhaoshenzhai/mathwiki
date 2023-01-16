@@ -15,7 +15,7 @@ Generalizations: _Not Applicable_
 Properties: [[Action of linear map repr under basis left-multiplication of matrix representation]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Unique Representation Theorem (Linear Algebra)]]
+Justifications: [[Unique Representation Theorem (Basis)]]
 
 ``` ad-Definition
 title: Definition.

@@ -9,7 +9,7 @@ Constructions: [[Linear Independence]], [[Linear Span]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Unique Representation Theorem (Linear Algebra)]]
+Sufficiencies: [[Unique Representation Theorem (Basis)]]
 Equivalences: [[Linear combination iff in smallest containing subspace]]
 Justifications: _Not Applicable_
 

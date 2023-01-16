@@ -1,11 +1,7 @@
----
-mathLink: auto
----
-
 <div class="topSpace"></div>
 
 Date Created: 08/05/2022 21:12:31
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: _Not Applicable_
 References: _Not Applicable_
@@ -42,7 +38,7 @@ $$\begin{equation}
 \end{equation}$$
 but since $-u_i\in U_i$, we see that their intersection is non-trivial, a contradiction.
 
-* ($2\Rightarrow3$): Take $v\in V$ and suppose that there exist $a_i,b_i\in U_i$ for all $i\in I$ (with $a_i=0$ and $b_{i'}=0$ for all but finite-many $i,i'\in I$) such that
+* ($2\Rightarrow3$): Take $v\in V$ and suppose that there exist $a_i,b_i\in U_i$ for all $i\in I$ (with $a_i=0$ and $b_{i'}=0$ for all but finitely-many $i,i'\in I$) such that
 $$\begin{equation}
     v=\sum_{i\in I}a_i\ \ \ \ \textrm{and}\ \ \ \ v=\sum_{i\in I}b_i;
 \end{equation}$$
