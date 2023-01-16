@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Universal Property of Localization]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Localization of a ring is a ring]]
@@ -31,5 +31,8 @@ $$\begin{equation}
         \tpl{\frac{r_1}{s_1},\frac{r_2}{s_2}}&\mapsto\frac{r_1r_2}{s_1s_2}.
     \end{aligned}
 \end{equation}$$
+_If $S=R\comp\l\{0\r\}$, then $S^{-1}R$ is called the **field of fractions of $R$**._
 
 ```
+
+**Remark.** There is a canonical embedding $\iota:R\into S^{-1}R:r\mapsto\frac{r}{1}$.<span style="float:right;">$\blacklozenge$</span>

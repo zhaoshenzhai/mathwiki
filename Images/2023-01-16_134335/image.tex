@@ -1,0 +1,13 @@
+\documentclass{article}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\makeatletter\AtBeginDocument{\color{textColor}\global\let\default@color\current@color}\makeatletter
+
+\begin{document}
+    \begin{tikzcd}
+        S^{-1}R \ar[dr, "\ex!\psi", dashrightarrow] \\
+        R \ar[u, "\iota", hookrightarrow] \ar[r, "\phi"'] & Z
+    \end{tikzcd}
+\end{document}
