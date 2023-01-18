@@ -51,6 +51,58 @@
       "injectColor": true,
       "noTitle": true,
       "copy": false
+    },
+    "Axiom_Dark": {
+      "type": "Axiom",
+      "color": "0, 0, 0",
+      "icon": {
+        "name": "lock",
+        "type": "font-awesome"
+      },
+      "command": true,
+      "title": "Axiom.",
+      "injectColor": true,
+      "noTitle": true,
+      "copy": false
+    },
+    "Definition_Dark": {
+      "type": "Definition",
+      "color": "0, 0, 0",
+      "icon": {
+        "name": "book",
+        "type": "font-awesome"
+      },
+      "command": true,
+      "title": "Definition.",
+      "injectColor": true,
+      "noTitle": true,
+      "copy": false
+    },
+    "Theorem_Dark": {
+      "type": "Theorem",
+      "color": "0, 0, 0",
+      "icon": {
+        "name": "magic",
+        "type": "font-awesome"
+      },
+      "command": true,
+      "title": "Theorem.",
+      "injectColor": true,
+      "noTitle": true,
+      "copy": false
+    },
+    "Proposition_Dark": {
+      "type": "Proposition",
+      "color": "0, 0, 0",
+      "icon": {
+        "name": "calculator",
+        "type": "font-awesome"
+      },
+      "command": true,
+      "title": "Proposition",
+      "injectColor": true,
+      "noTitle": true,
+      "copy": false
     }
   },
   "syntaxHighlight": false,

@@ -21,10 +21,11 @@ while [[ "$repeat" == "Y" ]]; do
     echo -e "    ${CYAN}(4): Ghost links${NC}"
     echo -e "    ${CYAN}(5): Mass editing${NC}"
     echo -e "    ${CYAN}(6): Update images${NC}"
-    echo -e "    ${CYAN}(7): Reset modify time${NC}"
+    echo -e "    ${CYAN}(7): Toggle dark mode${NC}"
+    echo -e "    ${CYAN}(8): Reset modify time${NC}"
     echo ""
 
-    read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-7)]${NC} ")" action
+    read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-8)]${NC} ")" action
     re='^[0-9]+$'
     if ( [[ $action =~ $re ]] ) && ( [ "$action" -gt "0" ] && [ "$action" -lt "8" ] ) || [[ -z "$action" ]]; then
         if [[ -z "$action" ]]; then
@@ -58,6 +59,9 @@ while [[ "$repeat" == "Y" ]]; do
             $MATHWIKI_DIR/.scripts/updateImages.sh
         ;;
         "7")
+            $MATHWIKI_DIR/.scripts/toggleDark.sh
+        ;;
+        "8")
             $MATHWIKI_DIR/.scripts/resetModifyTime.sh
         ;;
     esac
