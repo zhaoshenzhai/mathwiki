@@ -7,7 +7,7 @@ mathLink: $\phi_\mc{B}:V\simto K^n$ ($\dim V=n$)
 Date Created: 15/05/2022 22:49:38
 Tags: #Proposition #Topics/Linear_Algebra
 
-Proved by: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Unique Representation Theorem (Basis)]]
+Proved by: [[Unique Representation Theorem (Basis)]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -25,7 +25,7 @@ _is a linear isomorphism. In particular, we have $V\iso K^n$._
 
 ```
 
-_Proof_. Since $\dim V=n=\dim K^n$, it suffices to prove that $\phi_\mc{B}$ is a surjective linear map.
+_Proof_. It is obvious that $\phi_\mc{B}$ is invertible, so it suffices to show that it is a linear map.
 * (Linearity): Take $v_1,v_2\in V$ and $\alpha\in K$, so there exist unique coefficients $\beta_{11},\dots,\beta_{1n},\beta_{21},\dots,\beta_{2n}\in K$ such that
 $$\begin{equation}
     v_1=\sum_{i=1}^n\beta_{1i}b_i\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ v_2=\sum_{i=1}^n\beta_{2i}b_i.
@@ -38,13 +38,9 @@ $$\begin{equation}
     \end{aligned}
 \end{equation}$$
 and since $\gamma_i\coloneqq\alpha\beta_{1i}+\beta_{2i}$ are the unique set of coefficients such that $\alpha v_1+v_2=\sum_{i=1}^n\gamma_ib_i$, we see that
-$$\begin{equation}
-    \begin{aligned}
-        \phi_\mc{B}\l(\alpha v_1+v_2\r)&=\tpl{\gamma_1,\dots,\gamma_n} && \textrm{Definition of $\phi_\mc{B}$} \\
-        &=\tpl{\alpha\beta_{11}+\beta_{21},\dots,\alpha\beta_{1n}+\beta_{2n}} && \textrm{Substitution} \\
-        &=\alpha\tpl{\beta_{11},\dots,\beta_{1n}}+\tpl{\beta_{21},\dots,\beta_{2n}} && \textrm{Vector operations on $K^n$} \\
-        &=\alpha\phi_\mc{B}\l(v_1\r)+\phi_\mc{B}\l(v_2\r). && \textrm{Definition of $\phi_\mc{B}$}
-    \end{aligned}
-\end{equation}$$
-
-* (Surjection): Take $\v{v}\coloneqq\tpl{\alpha_1,\dots,\alpha_n}\in K^n$ and observe that $\phi_\mc{B}\l(v\r)$, where $v\coloneqq\sum_{i=1}^n\alpha_ib_i$, is $\v{v}$.<span style="float:right;">$\blacksquare$</span>
+$$\begin{align}
+    \phi_\mc{B}\l(\alpha v_1+v_2\r)&=\tpl{\gamma_1,\dots,\gamma_n} && \textrm{Definition of $\phi_\mc{B}$} \\
+    &=\tpl{\alpha\beta_{11}+\beta_{21},\dots,\alpha\beta_{1n}+\beta_{2n}} && \textrm{Substitution} \\
+    &=\alpha\tpl{\beta_{11},\dots,\beta_{1n}}+\tpl{\beta_{21},\dots,\beta_{2n}} && \textrm{Vector operations on $K^n$} \\
+    &=\alpha\phi_\mc{B}\l(v_1\r)+\phi_\mc{B}\l(v_2\r). && \textrm{Definition of $\phi_\mc{B}$}\qedin
+\end{align}$$
