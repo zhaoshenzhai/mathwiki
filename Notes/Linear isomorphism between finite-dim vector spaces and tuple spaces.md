@@ -5,7 +5,7 @@ mathLink: $\phi_\mc{B}:V\simto K^n$ ($\dim V=n$)
 <div class="topSpace"></div>
 
 Date Created: 15/05/2022 22:49:38
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Unique Representation Theorem (Basis)]]
 References: _Not Applicable_

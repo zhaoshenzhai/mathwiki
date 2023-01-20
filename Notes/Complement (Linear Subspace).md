@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 14/05/2022 11:14:15
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Orthogonal Complement]]

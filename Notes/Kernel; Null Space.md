@@ -12,7 +12,7 @@ Examples: _Not Applicable_
 Constructions: [[Nullity]], [[Basis for null space]]
 Generalizations: _Not Applicable_
 
-Properties: [[Dimension Theorem]], [[Linear map is injective iff kernel vanishes]]
+Properties: [[Dimension Theorem]], [[Linear map is injective iff kernel vanishes]], [[Restriction on complement of kernel is injective]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Basic properties of linear maps]]

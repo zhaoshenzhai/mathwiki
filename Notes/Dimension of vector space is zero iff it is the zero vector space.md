@@ -5,7 +5,7 @@ mathLink: $\dim V=0$ $\Leftrightarrow$ $V=\l\{0\r\}$
 <div class="topSpace"></div>
 
 Date Created: 06/04/2022 22:04:49
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: [[Linearly independent subset cannot contain the zero vector]]
 References: _Not Applicable_

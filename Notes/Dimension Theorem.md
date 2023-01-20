@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/05/2022 20:28:12
-Tags: #Theorem #Later/Linear_Algebra
+Tags: #Theorem #Topics/Linear_Algebra
 
 Proved by: [[Dimension of subspace]], [[Linearly independent set extends to a basis]], [[Image of linear map is spanned by image of spanning set]]
 References: _Not Applicable_
@@ -11,13 +11,13 @@ Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
 ``` ad-Theorem
-title: Theorem.
+title: Theorem (Dimension Theorem).
 
 _Let $V$ and $W$ be vector spaces over some field $K$ and consider a linear map $T:V\to W$. If $V$ is finite-dimensional, then_
 $$\begin{equation}
-    \dim\ker T+\dim\im T=\dim V.
+    \dim V=\dim\ker T+\dim\im T.
 \end{equation}$$
-_In other words, we have $\nullity T+\rank T=\dim V$._
+_In other words, we have $\dim V=\nullity T+\rank T$._
 
 ```
 

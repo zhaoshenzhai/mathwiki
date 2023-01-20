@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/12/2022 17:35:44
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: [[Basic properties of group homomorphisms]]
 References: _Not Applicable_
