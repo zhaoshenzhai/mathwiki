@@ -28,7 +28,7 @@ _is a linear isomorphism. In particular, we have $V\iso K^n$._
 _Proof_. Since $\dim V=n=\dim K^n$, it suffices to prove that $\phi_\mc{B}$ is a surjective linear map.
 * (Linearity): Take $v_1,v_2\in V$ and $\alpha\in K$, so there exist unique coefficients $\beta_{11},\dots,\beta_{1n},\beta_{21},\dots,\beta_{2n}\in K$ such that
 $$\begin{equation}
-    v_1=\sum_{i=1}^n\beta_{1i}b_i\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ v_2=\sum_{i=1}^n\beta_{2n}b_i.
+    v_1=\sum_{i=1}^n\beta_{1i}b_i\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ v_2=\sum_{i=1}^n\beta_{2i}b_i.
 \end{equation}$$
 Observe then that
 $$\begin{equation}
