@@ -3,7 +3,7 @@
 Date Created: 25/11/2022 09:40:40
 Tags: #Definition #Topics/Analysis
 
-Types: _Not Applicable_
+Types: [[Totally Bounded Space]]
 Examples: _Not Applicable_
 Constructions: [[Diameter]]
 Generalizations: _Not Applicable_
