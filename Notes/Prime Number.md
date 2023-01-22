@@ -9,7 +9,7 @@ Constructions: [[Fundamental Theorem of Arithmetic]], [[Ring or Field of Integer
 Generalizations: [[Prime Element]]
 
 Properties: [[Euclid's Lemma]]
-Sufficiencies: [[Characteristic of integral domain is zero of prime]]
+Sufficiencies: [[Characteristic of integral domain is prime]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

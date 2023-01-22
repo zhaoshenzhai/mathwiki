@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Characteristic of ring with unit is order of 1]], [[Characteristic of integral domain is zero of prime]]
+Sufficiencies: [[Characteristic of ring with unit is order of 1]], [[Characteristic of integral domain is prime]]
 Equivalences: _Not Applicable_
 Justifications: [[Omega is an ordinal]]
 
