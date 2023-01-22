@@ -3,7 +3,7 @@
 Date Created: 28/06/2022 14:57:29
 Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Orthonormal sets are linearly independent]], [[Linearly independent set extends to a basis]], [[Gram-Schmidt Orthonormalization]]
+Proved by: [[Orthonormal sets are linearly independent]], [[Basis Extension Theorem]], [[Gram-Schmidt Orthonormalization]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

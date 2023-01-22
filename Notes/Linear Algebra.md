@@ -26,7 +26,7 @@ $$\begin{equation}
 
 If a concept is defined via a choice of basis, we must ensure that it is invariant under a [change of basis](Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md).
 
-Bases themselves can be characterized as both [maximally linearly independent sets](Basis%20iff%20maximal%20linearly%20independent%20set.md) and as [minimal spanning sets](Basis%20iff%20minimal%20spanning%20set.md). Indeed, every linearly independent set [extends to](Linearly%20independent%20set%20extends%20to%20a%20basis.md) a basis, and every spanning set [cuts down](Spanning%20set%20cuts%20down%20to%20a%20basis.md) to a basis. This shows, under the assumption of Choice, that [every vector space has a basis](Every%20vector%20space%20has%20a%20basis.md).<span style="float:right;">$\blacklozenge$</span>
+Bases themselves can be characterized as both [maximally linearly independent sets](Basis%20iff%20maximal%20linearly%20independent%20set.md) and as [minimal spanning sets](Basis%20iff%20minimal%20spanning%20set.md). Indeed, every linearly independent set [extends to](Basis%20Extension%20Theorem.md) a basis, and every spanning set [cuts down](Basis%20Extraction%20Theorem.md) to a basis. This shows, under the assumption of Choice, that [every vector space has a basis](Every%20vector%20space%20has%20a%20basis.md).<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

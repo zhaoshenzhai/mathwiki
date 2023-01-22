@@ -8,7 +8,7 @@ Examples: [[Homogeneous linear system only trivial solution iff columns of coeff
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Steinitz Exchange Lemma]], [[Linearly independent set extends to a basis]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]], [[Linearly independent subset cannot contain the zero vector]]
+Properties: [[Steinitz Exchange Lemma]], [[Basis Extension Theorem]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]], [[Linearly independent subset cannot contain the zero vector]]
 Sufficiencies: [[Orthonormal sets are linearly independent]], [[Basis iff maximal linearly independent set]]
 Equivalences: [[Linearly dependent iff exists span redundant element]]
 Justifications: _Not Applicable_

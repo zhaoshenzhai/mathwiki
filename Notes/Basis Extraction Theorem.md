@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/05/2022 17:26:24
-Tags: #Proposition #Later/Set_Theory/Choice
+Tags: #Theorem #Later/Set_Theory/Choice
 
 Proved by: [[Enlargement of linearly independent set by adjoining non-spanned vector]]
 References: _Not Applicable_
@@ -10,8 +10,8 @@ Justifications: _Not Applicable_
 Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
-``` ad-Proposition
-title: Proposition.
+``` ad-Theorem
+title: Theorem (Basis Extraction Theorem).
 
 _Let $K$ be a field and let $V$ be a vector space over $K$. If $U\subseteq V$ is a spanning set of $V$, then there exists a basis $\mc{B}$ of $V$ with $\mc{B}\subseteq U$._
 

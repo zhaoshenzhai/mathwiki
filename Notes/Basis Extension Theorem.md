@@ -1,17 +1,17 @@
 <div class="topSpace"></div>
 
 Date Created: 01/05/2022 23:08:55
-Tags: #Proposition #Later/Set_Theory/Choice
+Tags: #Theorem #Later/Set_Theory/Choice
 
 Proved by: [[Enlargement of linearly independent set by adjoining non-spanned vector]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
-Specializations: [[Linearly independent subset of a finite-dim. vector space extends to a basis]]
+Specializations: [[Basis Extension Theorem (Finite)]]
 Generalizations: _Not Applicable_
 
-``` ad-Proposition
-title: Proposition.
+``` ad-Theorem
+title: Theorem (Basis Extension Theorem).
 
 _Let $K$ be a field and let $V$ be a vector space over $K$. If $U\subseteq V$ is linearly independent, then there exists a basis $\mc{B}$ of $V$ with $U\subseteq\mc{B}$._
 

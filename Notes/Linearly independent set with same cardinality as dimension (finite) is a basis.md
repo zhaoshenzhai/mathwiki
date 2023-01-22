@@ -7,7 +7,7 @@ mathLink: Linearly independent $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a 
 Date Created: 02/05/2022 14:12:33
 Tags: #Proposition #Later/Linear_Algebra
 
-Proved by: [[Linearly independent set extends to a basis]]
+Proved by: [[Basis Extension Theorem]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

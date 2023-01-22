@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/04/2022 11:25:09
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Theorem #Topics/Linear_Algebra
 
 Proved by: [[Steinitz Exchange Lemma]], [[Enlargement of linearly independent set by adjoining non-spanned vector]]
 References: _Not Applicable_
@@ -10,8 +10,8 @@ Justifications: _Not Applicable_
 Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
-``` ad-Proposition
-title: Proposition.
+``` ad-Theorem
+title: Theorem (Basis Extension Theorem).
 
 _Let $K$ be a field and let $V$ be a finite-dimensional vector space over $K$. If $U\subseteq V$ is a linearly independent subset of $V$, then there exists a finite basis_ $\mc{B}$ _of $V$ with $U\subseteq\mc{B}$._
 
