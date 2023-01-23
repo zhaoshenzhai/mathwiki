@@ -3,12 +3,12 @@
 Date Created: 11/01/2023 16:56:35
 Tags: #Definition #Topics/Ring_Theory #Courses/MATH457
 
-Types: _Not Applicable_
+Types: [[Principal Ideal Domain (PID)]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[GCDs exist in UFDs]]
+Properties: [[GCDs exist in UFDs]], [[Polynomial rings over UFDs are UFDs]]
 Sufficiencies: [[PID implies UFD]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

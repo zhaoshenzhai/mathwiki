@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Ring_Theory
 
 Types: _Not Applicable_
 Examples: [[Additive Group of Integers mod n]], [[Root iff factor]]
-Constructions: [[Greatest Common Divisor]], [[Least Common Multiple]], [[Associates]]
+Constructions: [[Greatest Common Divisor (GCD)]], [[Least Common Multiple]], [[Associates]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of divisibility and associates]]

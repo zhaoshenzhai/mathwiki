@@ -8,8 +8,8 @@ Examples: _Not Applicable_
 Constructions: [[Evaluation Homomorphism]], [[Root (Polynomial)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Polynomial has at most degree-many roots]], [[Basic properties of polynomial rings (integral domain)]]
-Sufficiencies: [[Polynomial ring over fields is a EUD]], [[Hilbert's Basis Theorem]]
+Properties: [[Gauss's Lemma (Irreducibility)]], [[Polynomial has at most degree-many roots]], [[Basic properties of polynomial rings (integral domain)]]
+Sufficiencies: [[Hilbert's Basis Theorem]], [[Polynomial ring over fields is a EUD]], [[Polynomial rings over UFDs are UFDs]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

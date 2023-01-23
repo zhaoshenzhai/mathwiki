@@ -24,7 +24,7 @@ $$\begin{equation}
 ```
 
 **Remark.** Setting $i\coloneqq x+I$, we have that $i^2=\l(x+I\r)^2=-1+I$. This is usually written as $\textrm{`}i^2=-1\textrm{'}$, which is justified as follows.
-* Observe that $\C=\l\{\alpha+\beta x+I\mid\alpha,\beta\in\R\r\}\iso\R^2$, so we may identify each complex number as a pair $\tpl{\alpha,\beta}$ of real numbers. Indeed, this isomorphism may be into a ring isomorphism if we define
+* Observe that $\C=\l\{\alpha+\beta x+I\mid\alpha,\beta\in\R\r\}\iso\R^2$, so we may identify each complex number as a pair $\tpl{\alpha,\beta}$ of real numbers. Indeed, this isomorphism may be turned into a ring isomorphism if we define
 $$\begin{align}
     \tpl{\alpha_1,\beta_1}+\tpl{\alpha_2,\beta_2}&\coloneqq\tpl{\alpha_1+\beta_1,\alpha_2+\beta_2} \\
     \tpl{\alpha_1,\beta_1}\cdot\tpl{\alpha_2,\beta_2}&\coloneqq\tpl{\alpha_1\beta_1-\alpha_2\beta_2,\alpha_1\beta_2+\alpha_2\beta_1}.

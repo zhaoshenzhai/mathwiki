@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Ring_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Vector Space of Polynomials]], [[Polynomial Ring]]
+Constructions: [[Polynomial Ring]], [[Vector Space of Polynomials]], [[Content slash primitive polynomials]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
