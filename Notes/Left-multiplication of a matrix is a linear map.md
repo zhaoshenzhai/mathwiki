@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/04/2022 22:34:08
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: [[Basic properties of matrix operations]]
 References: _Not Applicable_

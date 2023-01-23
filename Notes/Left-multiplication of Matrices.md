@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/04/2022 22:31:49
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Basis Transition Map; Change of Basis Matrix]]

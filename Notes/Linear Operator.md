@@ -4,7 +4,7 @@ Date Created: 02/05/2022 15:10:12
 Tags: #Definition #Later/Linear_Algebra
 
 Types: [[Diagonalizable Operator slash Matrix]]
-Examples: [[Orthogonal Projection]]
+Examples: _Not Applicable_
 Constructions: [[Endomorphism Algebra (Vector Space)]], [[Eigenvector]], [[Eigenvalue]]
 Generalizations: _Not Applicable_
 

@@ -45,7 +45,7 @@ $$\begin{equation}
 and since $\gamma_{ij}\coloneqq k\alpha_{ij}+\beta_{ij}$ are the unique set of coefficients such that $\l(kT_1+T_2\r)\l(b_j\r)=\sum_{i=1}^m\gamma_{ij}c_i$, we see that
 $$\begin{equation}
     \begin{aligned}
-        \Phi_\mc{B}^\mc{C}\l(\alpha T_1+T_2\r)&=\l[\gamma_{ij}\r] && \textrm{Definition of $\Phi_\mc{B}^\mc{C}$} \\
+        \Phi_\mc{B}^\mc{C}\l(kT_1+T_2\r)&=\l[\gamma_{ij}\r] && \textrm{Definition of $\Phi_\mc{B}^\mc{C}$} \\
         &=\l[k\alpha_{ij}+\beta_{ij}\r] && \textrm{Substitution} \\
         &=k\l[\alpha_{ij}\r]+\l[\beta_{ij}\r] && \textrm{Definitions of matrix operations} \\
         &=k\Phi_\mc{B}^\mc{C}\l(T_1\r)+\Phi_\mc{B}^\mc{C}\l(T_2\r). && \textrm{Definition of $\Phi_\mc{B}^\mc{C}$}
