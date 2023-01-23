@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of divisibility and associates]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Associate primitive polynomials in fraction field are associate]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Gauss$\textrm{'}$s Lemma for Irreducibility of Polynomial Rings).
 
-_Let $R$ be a UFD and let $F$ be the field of fractions of $R$. For all non-trivial $f\in R\l[x\r]$, $f$ is irreducible in $R\l[x\r]$ iff $f$ is both primitive and irreducible in $F\l[x\r]$._
+_Let $R$ be a UFD and let $F$ be the field of fractions of $R$. For all non-trivial $f\in R\l[x\r]$, $f$ is irreducible in $R\l[x\r]$ iff $f$ is primitive in $R\l[x\r]$ and irreducible in $F\l[x\r]$._
 
 ```
 

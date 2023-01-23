@@ -12,7 +12,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Gauss's Lemma (Primitivity)]], [[Gauss's Lemma (Irreducibility)]]
+Properties: [[Gauss's Lemma (Primitivity)]], [[Gauss's Lemma (Irreducibility)]], [[Associate primitive polynomials in fraction field are associate]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[GCDs exist in UFDs]], [[GCD exists implies unique up to a unit]]
