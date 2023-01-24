@@ -16,14 +16,19 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be a ring. A subring $I\subseteq R$ is an **ideal in $R$** if it is stable under multiplication; that is, if_
+_Let $R$ be a ring. A subring $I\subseteq R$ is a **left ideal in $R$** if it is stable under left multiplication; that is, if_
 $$\begin{equation}
-    \fa r\in R:rI,Ir\subseteq I.
+    \fa r\in R:rI\subseteq I.
 \end{equation}$$
+_Similarly for a **right ideal in $R$**. A two-sided ideal in $R$ is called an **ideal in $R$**._
 
 ```
 
 **Remark.** If one takes rings as having unity, then ideals are defined to be sub_group_ of $R$ that is stable under multiplication. Otherwise, the only ideal of $R$ is the trivial ideal $\ideal{0}$ and $R$ itself.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+**Remark.** A left ideal $I\subseteq R$ is a left $R$-module via the action $R\times I\to I:\tpl{r,i}\mapsto ri$; being a left-ideal ensures that $ri\in I$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

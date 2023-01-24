@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/03/2022 22:00:57
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Real Coordinate Space]]
@@ -16,15 +16,15 @@ Justifications: [[Direct product of vector spaces; function spaces are vector sp
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{K,+,\cdot}$ be a field and fix $n\in\N^+$. The **$n$-tuple space over $K$** is the vector space $\tpl{K^n,K,\boxplus,\boxdot,\v{0}}$ over $K$, where $\v{0}\coloneqq\tpl{0,\dots,0}$ and_
+_Let $K$ be a field and fix $n\in\N^+$. The **$n$-tuple space over $K$** is the $K$-vector space $K^n$, where $\v{0}\coloneqq\tpl{0,\dots,0}$ and_
 $$\begin{equation}
     \begin{aligned}
-        \boxplus:K^n\times K^n&\to K^n\\
+        +:K^n\times K^n&\to K^n\\
         \tpl{\v{x},\v{y}}&\mapsto\tpl{x_1+y_1,\dots,x_n+y_n}
     \end{aligned}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ 
     \begin{aligned}
-        \boxdot:K\times K^n&\to K^n\\
-        \tpl{\alpha,\v{x}}&\mapsto\tpl{\alpha\cdot x_1,\dots,\alpha\cdot x_n}.
+        \cdot:K\times K^n&\to K^n\\
+        \tpl{\alpha,\v{x}}&\mapsto\tpl{\alpha x_1,\dots,\alpha x_n}.
     \end{aligned}
 \end{equation}$$
 

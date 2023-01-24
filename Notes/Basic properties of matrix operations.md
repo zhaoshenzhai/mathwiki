@@ -23,6 +23,10 @@ _Let $K$ be a field and fix $m,n,p,q\in\N^+$. Then, for all $A,A'\in\mat{m\times
 
 ```
 
+**Remark.** In particular, this shows that the tuple space $K^n$ is a left $\mat{n}{K}$-module via the action $\mat{m}{K}\times K^n\to K^n:\tpl{A,v}\mapsto Av$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 **Remark.** We shall provide two proofs for each of the assertions above.
 * The standard proof applies the definition of each matrix operation, resulting in sums of elements in $K$ and thus reduces each statement to that of $K$. This can become very messy and unappealing, especially for the associativity of matrix multiplication.
 

@@ -4,7 +4,7 @@ Date Created: 23/01/2023 17:40:02
 Tags: #Definition #In_Progress
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Abelian Group]], [[Ideal]], [[Quotient Ring]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
