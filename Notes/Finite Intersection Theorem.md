@@ -24,7 +24,7 @@ $$\begin{equation}
 \end{equation}$$
 Thus $\l\{U_\alpha\r\}$ is an open cover of $X$, so compactness of $X$ furnishes indices $\alpha_1,\dots,\alpha_k\in\mc{A}$ such that $X=\bigcup_{i=1}^{k}U_{\alpha_i}$. But then
 $$\begin{equation}
-    \bigcap_{i=1}^{k}F_{\alpha_1}=\bigcap_{i=1}^{k}X\comp U_{\alpha_i}=X\comp\bigcup_{i=1}^{k}U_{\alpha_i}=X\comp X=\em,
+    \bigcap_{i=1}^{k}F_{\alpha_i}=\bigcap_{i=1}^{k}X\comp U_{\alpha_i}=X\comp\bigcup_{i=1}^{k}U_{\alpha_i}=X\comp X=\em,
 \end{equation}$$
 contradicting the $\textrm{`}$finite-intersection property$\textrm{'}$ of $\l\{F_\alpha\r\}$.
 

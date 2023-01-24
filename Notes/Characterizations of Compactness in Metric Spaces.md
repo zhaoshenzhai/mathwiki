@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/12/2022 21:53:42
-Tags: #Theorem #Later/Topology
+Tags: #Theorem #In_Progress
 
 Proved by: [[Sequential characterization of closure (metric)]]
 References: [[Compact implies limit point compact]]

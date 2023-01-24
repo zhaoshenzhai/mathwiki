@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Analysis
 
 Types: _Not Applicable_
 Examples: [[Sequences in a Metric Space]]
-Constructions: [[Sequential Limits]]
+Constructions: [[Sequential Limits]], [[Sequentially Compact Space]]
 Generalizations: [[Tuples and Sequences]]
 
 Properties: _Not Applicable_

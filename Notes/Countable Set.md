@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Cocountable Topology]]
+Constructions: [[Countably Compact Space]], [[Separable Space]], [[Cocountable Topology]]
 Generalizations: _Not Applicable_
 
 Properties: [[Countable union of countable sets is countable]], [[Finite product of countable sets is countable]]

@@ -9,7 +9,7 @@ Constructions: [[Subsequential Limit]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Subsequences converge to the same limit]]
+Sufficiencies: [[Subsequences converge to the same limit]], [[Sequentially Compact Space]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
