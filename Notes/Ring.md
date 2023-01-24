@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Ring_Theory
 
 Types: [[Commutative Ring]], [[Ring with Unit]]
 Examples: _Not Applicable_
-Constructions: [[Characteristic]], [[Ring Homomorphism]], [[Zero-divisor]], [[Subring]], [[Polynomial Ring]]
+Constructions: [[Characteristic]], [[Ring Homomorphism]], [[Zero-divisor]], [[Subring]], [[Polynomial Ring]], [[Module]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of rings]]
