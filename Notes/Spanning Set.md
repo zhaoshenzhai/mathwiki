@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a $K$-vector space $V$. An indexed subset_ $S\subseteq V$ _is said to be a **spanning set of $V$** if $\span\l(S\r)=V$._
+_Let $V$ be a $K$-vector space. An indexed subset_ $S\subseteq V$ _is said to be a **spanning set of $V$** if $\span\l(S\r)=V$._
 
 ```
 

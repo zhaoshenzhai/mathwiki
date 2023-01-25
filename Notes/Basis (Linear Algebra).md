@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a $K$-vector space $V$. An indexed subset_ $\mc{B}\coloneqq\l\{b_i\r\}_{i\in I}\subseteq V$ _is said to be a **(algebraic) basis for $V$** if $\mc{B}$ is a linearly independent spanning set of $V$._
+_Let $V$ be a $K$-vector space. An indexed subset_ $\mc{B}\coloneqq\l\{b_i\r\}_{i\in I}\subseteq V$ _is said to be a **(algebraic) basis for $V$** if $\mc{B}$ is a linearly independent spanning set of $V$._
 
 ```
 
