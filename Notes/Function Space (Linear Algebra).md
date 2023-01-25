@@ -16,8 +16,8 @@ Justifications: [[Direct product of vector spaces; function spaces are vector sp
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a non-empty set and let $K$ be a field. The **vector space of functions from $X$ to $K$** is the vector space $\tpl{K^X,K,\boxplus,\boxdot,0_f}$ over $K$ consisting of_
-* _the Abelian group of function $\tpl{K^X,\boxplus,0_f}$ and_
-* _the left $K$-action $\boxdot$ on $K^X$ defined, for all $\alpha\in K$ and $f\in K^X$, by $\l(\alpha\boxdot f\r)\l(x\r)\coloneqq\alpha\cdot f\l(x\r)$ for all $x\in X$._
+_Let $X$ be a non-empty set and let $K$ be a field. The **vector space of functions from $X$ to $K$** is the vector space $K^X$ over $K$ consisting of_
+* _the Abelian group of function $\tpl{K^X,+,0_f}$ and_
+* _the left $K$-action $\cdot$ on $K^X$ defined, for all $\alpha\in K$ and $f\in K^X$, by $\l(\alpha\cdot f\r)\l(x\r)\coloneqq\alpha f\l(x\r)$ for all $x\in X$._
 
 ```

@@ -1,5 +1,5 @@
 ---
-mathLink: $\hom_{\catvect}\!\l(V,W\r)$
+mathLink: $\hom\l(V,W\r)$
 ---
 
 <div class="topSpace"></div>
@@ -7,7 +7,7 @@ mathLink: $\hom_{\catvect}\!\l(V,W\r)$
 Date Created: 16/05/2022 19:38:42
 Tags: #Definition #Later/Linear_Algebra
 
-Types: [[Endomorphism Algebra (Vector Space)]]
+Types: [[Endomorphism Algebra (Vector Space)]], [[Dual Space]]
 Examples: _Not Applicable_
 Constructions: [[Category of Vector Spaces]]
 Generalizations: _Not Applicable_
@@ -22,7 +22,7 @@ title: Definition.
 
 _Let $V$ and $W$ be vector spaces over some field $K$. The **vector space of linear maps from $V$ to $W$** is the linear subspace_
 $$\begin{equation}
-    \hom_{\catvect}\!\l(V,W\r)\coloneqq\l\{T\in W^V\mid T\textrm{ \it{is a linear map}}\r\}
+    \hom\l(V,W\r)\coloneqq\l\{T\in W^V\mid T\textrm{ \it{is a linear map}}\r\}
 \end{equation}$$
 _of the function space $W^V$._
 

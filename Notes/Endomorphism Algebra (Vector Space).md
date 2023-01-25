@@ -1,5 +1,5 @@
 ---
-mathLink: $\edm_{\catvect}\!\l(V\r)$
+mathLink: $\edm\l(V\r)$
 ---
 
 <div class="topSpace"></div>
