@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a vector space $V$ over $K$. If $S\subseteq V$ is linearly independent, then $S\cup\l\{v\r\}$ is linearly independent for all $v\not\in\span\l(S\r)$._
+_Let $K$ be a field and consider a $K$-vector space $V$. If $S\subseteq V$ is linearly independent, then $S\cup\l\{v\r\}$ is linearly independent for all $v\not\in\span\l(S\r)$._
 
 ```
 

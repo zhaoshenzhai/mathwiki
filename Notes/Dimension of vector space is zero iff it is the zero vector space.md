@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a vector space $V$ over $K$. Then $\dim V=0$ iff $V$ is the zero vector space._
+_Let $K$ be a field and consider a $K$-vector space $V$. Then $\dim V=0$ iff $V$ is the zero vector space._
 
 ```
 

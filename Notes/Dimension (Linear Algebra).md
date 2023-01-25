@@ -16,7 +16,7 @@ Justifications: [[Every vector space has a basis]], [[Basis iff minimal spanning
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a vector space $V$ over $K$. The **dimension of $V$** is $\dim_K\!V\coloneqq\l|\mc{B}\r|$ where $\mc{B}\subseteq V$ is any basis for $V$._
+_Let $K$ be a field and consider a $K$-vector space $V$. The **dimension of $V$** is $\dim_K\!V\coloneqq\l|\mc{B}\r|$ where $\mc{B}\subseteq V$ is any basis for $V$._
 
 ```
 

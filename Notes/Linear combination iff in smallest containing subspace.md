@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider an indexed subset_ $S\coloneqq\l\{s_i\r\}_{i\in I}\!\subseteq V$ _of a vector space $V$ over $K$. Then $v\in V$ is a linear combination of vectors in $S$ iff_
+_Let $K$ be a field and consider an indexed subset_ $S\coloneqq\l\{s_i\r\}_{i\in I}\!\subseteq V$ _of a $K$-vector space $V$. Then $v\in V$ is a linear combination of vectors in $S$ iff_
 $$\begin{equation}
     v\in\bigcap\l\{U\subseteq V\mid S\subseteq U\land U\textrm{\it{ is a linear subspace of }}V\r\}.
 \end{equation}$$

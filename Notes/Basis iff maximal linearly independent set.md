@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider an indexed subset_ $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}$ _of a vector space $V$ over $K$. Then $\mc{B}$ is an basis for $V$ iff it is a maximal linearly independent set in $V$._
+_Let $K$ be a field and consider an indexed subset_ $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}$ _of a $K$-vector space $V$. Then $\mc{B}$ is an basis for $V$ iff it is a maximal linearly independent set in $V$._
 
 ```
 

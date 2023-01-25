@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and let $V$ be a vector space over $K$. If_ $\l\{U_i\r\}_{i\in I}$ _is an indexed family of $K$-linear subspaces of $V$, then its intersection_
+_Let $V$ be a $K$-vector space. If_ $\l\{U_i\r\}_{i\in I}$ _is an indexed family of $K$-linear subspaces of $V$, then its intersection_
 $$\begin{equation}
     U\coloneqq\bigcap_{i\in I}U_i,
 \end{equation}$$

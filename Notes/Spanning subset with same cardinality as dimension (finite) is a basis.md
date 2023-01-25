@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a finite-dimensional vector space $V$ over $K$. If $U\subseteq V$ is a spanning set of $V$ with $\l|U\r|=\dim V$, then $U$ is a basis for $V$._
+_Let $V$ be a finite-dimensional $K$-vector space. If $U\subseteq V$ is a spanning set of $V$ with $\l|U\r|=\dim V$, then $U$ is a basis for $V$._
 
 ```
 

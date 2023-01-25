@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and let $V$ be a vector space over $K$, say with $n\coloneqq\dim V$. If $\mc{B}=\l\{b_1,\dots,b_n\r\}$ is a basis for $V$, then_ $\l[\id_V\r]_\mc{B}=I_n$_._
+_Let $V$ be a $K$-vector space, say with $n\coloneqq\dim V$. If $\mc{B}=\l\{b_1,\dots,b_n\r\}$ is a basis for $V$, then_ $\l[\id_V\r]_\mc{B}=I_n$_._
 
 ```
 

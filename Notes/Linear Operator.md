@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider a vector space $V$ over $K$. A linear map $T:V\to V$ is said to be a **linear operator**._
+_Let $K$ be a field and consider a $K$-vector space $V$. A linear map $T:V\to V$ is said to be a **linear operator**._
 
 ```
 

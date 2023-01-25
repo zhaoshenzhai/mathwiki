@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and let $V$ be a vector space over $K$. Then $\id_V$ is a linear map on $V$._
+_Let $V$ be a $K$-vector space. Then $\id_V$ is a linear map on $V$._
 
 ```
 
