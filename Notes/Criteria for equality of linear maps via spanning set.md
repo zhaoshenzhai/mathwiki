@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be vector spaces over some field $K$ and consider linear maps $T_1,T_2:V\to W$. If_ $S\coloneqq\l\{s_i\r\}_{i\in I}$ _is a spanning set of $V$, then_
+_Let $V$ and $W$ be $K$-vector spaces and consider linear maps $T_1,T_2:V\to W$. If_ $S\coloneqq\l\{s_i\r\}_{i\in I}$ _is a spanning set of $V$, then_
 $$\begin{equation}
     \fa i\in I:T_1\l(s_i\r)=T_2\l(s_i\r) \ \ \ \ \ \ \ \ \Rightarrow\ \ \ \ \ \ \ \ T_1=T_2.
 \end{equation}$$

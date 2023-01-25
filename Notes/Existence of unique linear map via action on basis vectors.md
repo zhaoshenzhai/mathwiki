@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be vector spaces over some field $K$ and let_ $\mc{B}\coloneqq\l\{b_i\r\}_{i\in I}$ _be a basis for $V$. Given arbitrary vectors_ $\l\{w_i\r\}_{i\in I}\subseteq W$_, there exists a unique linear map_
+_Let $V$ and $W$ be $K$-vector spaces and let_ $\mc{B}\coloneqq\l\{b_i\r\}_{i\in I}$ _be a basis for $V$. Given arbitrary vectors_ $\l\{w_i\r\}_{i\in I}\subseteq W$_, there exists a unique linear map_
 $$\begin{equation}
     T:V\to W\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ \fa i\in I:T\l(b_i\r)=w_i.
 \end{equation}$$

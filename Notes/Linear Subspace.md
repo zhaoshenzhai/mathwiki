@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a vector space over some field $K$ and fix a subset $U\subseteq V$. Then $U$ is a **($K$-linear) subspace of $V$** if any of the following equivalent conditions hold:_
+_Let $V$ be a $K$-vector space and fix a subset $U\subseteq V$. Then $U$ is a **($K$-linear) subspace of $V$** if any of the following equivalent conditions hold:_
 * _(Stability): $U$ is a vector space under the induced operations._
 * _(Closure): For all $u_1,u_2\in U$ and all $\alpha\in K$, $\alpha u_1+u_2\in U$._
 * _(Span): There exists some $S\subseteq U$ such that $U=\span S$._

@@ -16,7 +16,7 @@ Justifications: [[Composition of linear maps is a linear map]]
 ``` ad-Definition
 title: Definition.
 
-_Let $V,W,Z$ be vector spaces over some field $K$ and consider linear maps $T:V\to W$ and $U:W\to Z$. The **composition of $U$ after $T$** is the linear map_
+_Let $V,W,Z$ be $K$-vector spaces and consider linear maps $T:V\to W$ and $U:W\to Z$. The **composition of $U$ after $T$** is the linear map_
 $$\begin{equation}
     U\circ T:V\to Z\ \ \ \ \textrm{\it{mapping}}\ \ \ \ v\mapsto U\l(T\l(v\r)\r).
 \end{equation}$$

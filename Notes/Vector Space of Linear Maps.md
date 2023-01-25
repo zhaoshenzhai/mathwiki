@@ -20,7 +20,7 @@ Justifications: [[Set of linear maps form a linear subspace of the function spac
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ and $W$ be vector spaces over some field $K$. The **vector space of linear maps from $V$ to $W$** is the linear subspace_
+_Let $V$ and $W$ be $K$-vector spaces. The **vector space of linear maps from $V$ to $W$** is the linear subspace_
 $$\begin{equation}
     \hom\l(V,W\r)\coloneqq\l\{T\in W^V\mid T\textrm{ \it{is a linear map}}\r\}
 \end{equation}$$

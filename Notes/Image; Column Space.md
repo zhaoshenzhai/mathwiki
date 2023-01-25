@@ -21,7 +21,7 @@ Justifications: [[Basic properties of linear maps]]
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ and $W$ be vector spaces over some field $K$ and consider a linear map $T:V\to W$. The **image of $T$** is the linear subspace $\im T$ of $W$._
+_Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. The **image of $T$** is the linear subspace $\im T$ of $W$._
 
 ```
 

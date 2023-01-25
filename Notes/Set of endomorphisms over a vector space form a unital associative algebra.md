@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a vector space over some field $K$. Then $\edm\l(V\r)$, together with the composition operation $\circ$, is a unital associative algebra over $K$._
+_Let $V$ be a $K$-vector space. Then $\edm\l(V\r)$, together with the composition operation $\circ$, is a unital associative algebra over $K$._
 
 ```
 

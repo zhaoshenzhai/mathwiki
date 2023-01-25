@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a vector space over some field $K$ and consider a linear operator $T:V\to V$. Then a nonzero vector $v\in V$ is an eigenvector of $T$ iff $\span\l\{v\r\}$ is $T$-invariant._
+_Let $V$ be a $K$-vector space and consider a linear operator $T:V\to V$. Then a nonzero vector $v\in V$ is an eigenvector of $T$ iff $\span\l\{v\r\}$ is $T$-invariant._
 
 ```
 

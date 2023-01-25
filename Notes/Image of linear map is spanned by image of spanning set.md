@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be vector spaces over some field $K$ and consider a linear map $T:V\to W$. If $S$ is a spanning set of $V$, then_
+_Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. If $S$ is a spanning set of $V$, then_
 $$\begin{equation}
     \im T=\span\l(\im_TS\r).
 \end{equation}$$

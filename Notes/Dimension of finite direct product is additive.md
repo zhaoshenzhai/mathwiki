@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V_1,\dots,V_m$ be finite-dimensional vector spaces over some field $K$. Then_
+_Let $V_1,\dots,V_m$ be finite-dimensional $K$-vector spaces. Then_
 $$\begin{equation}
     \dim\prod_{i=1}^mV_m=\sum_{i=1}^m\dim V_i.
 \end{equation}$$

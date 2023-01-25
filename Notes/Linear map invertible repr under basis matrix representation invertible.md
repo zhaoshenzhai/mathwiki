@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be finite-dimensional vector spaces over some field $K$ with bases $\mc{B}$ and $\mc{C}$, respectively, and consider a linear map $T:V\to W$. Then $T$ is invertible iff_ $\l[T\r]_\mc{B}^\mc{C}$ _is invertible, in which case_ $\l(\l[T\r]_\mc{B}^\mc{C}\r)^{-1}=\l[T^{-1}\r]_\mc{C}^\mc{B}$_._
+_Let $V$ and $W$ be finite-dimensional $K$-vector spaces with bases $\mc{B}$ and $\mc{C}$, respectively, and consider a linear map $T:V\to W$. Then $T$ is invertible iff_ $\l[T\r]_\mc{B}^\mc{C}$ _is invertible, in which case_ $\l(\l[T\r]_\mc{B}^\mc{C}\r)^{-1}=\l[T^{-1}\r]_\mc{C}^\mc{B}$_._
 
 ```
 

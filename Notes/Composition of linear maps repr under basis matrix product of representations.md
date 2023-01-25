@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V,W,Z$ be finite-dimensional vector spaces over some field $K$ with bases_
+_Let $V,W,Z$ be finite-dimensional $K$-vector spaces with bases_
 $$\begin{equation}
     \mc{B}\coloneqq\l\{b_1,\dots,b_m\r\},\ \ \ \ \ \ \ \ \mc{C}\coloneqq\l\{c_1,\dots,c_n\r\}, \ \ \ \ \textrm{\it{and}}\ \ \ \  \mc{D}\coloneqq\l\{d_1,\dots,d_p\r\},
 \end{equation}$$

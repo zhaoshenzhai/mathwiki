@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be finite-dimensional vector spaces over some field $K$ and consider a linear map $T:V\to W$. If $\dim V=\dim W$, then $T$ is injective iff it is surjective._
+_Let $V$ and $W$ be finite-dimensional $K$-vector spaces and consider a linear map $T:V\to W$. If $\dim V=\dim W$, then $T$ is injective iff it is surjective._
 
 ```
 

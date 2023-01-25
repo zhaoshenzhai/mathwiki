@@ -16,7 +16,7 @@ Justifications: [[Isomorphism of objects is an equivalence relation]]
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ and $W$ be vector spaces over some field $K$. We say that $V$ is **linearly isomorphic to $W$** if there exists a linear isomorphism $T:V\to W$._
+_Let $V$ and $W$ be $K$-vector spaces. We say that $V$ is **linearly isomorphic to $W$** if there exists a linear isomorphism $T:V\to W$._
 
 ```
 

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a vector space over some field $K$ and consider a linear operator $T:V\to V$. Then a scalar $\lambda\in K$ is an eigenvalue of $T$ iff the linear map $T-\lambda\id_V:V\to V$ is, equivalently:_
+_Let $V$ be a $K$-vector space and consider a linear operator $T:V\to V$. Then a scalar $\lambda\in K$ is an eigenvalue of $T$ iff the linear map $T-\lambda\id_V:V\to V$ is, equivalently:_
 * _not injective,_
 * _not surjective, or_
 * _not invertible._

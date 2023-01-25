@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Dimension Theorem).
 
-_Let $V$ and $W$ be vector spaces over some field $K$ and consider a linear map $T:V\to W$. If $V$ is finite-dimensional, then_
+_Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. If $V$ is finite-dimensional, then_
 $$\begin{equation}
     \dim V=\dim\ker T+\dim\im T.
 \end{equation}$$

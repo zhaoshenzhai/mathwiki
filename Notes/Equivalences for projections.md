@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a vector space over some field $K$ and let $P:V\to V$ be a projection on $V$. Then $V=\im P\oplus\ker P$ and, for all $v\in V$, writing $v=v_1+v_2$ for some unique $v_1\in\im P$ and $v_2\in\ker P$ implies that $P\l(v\r)=v_1$._
+_Let $V$ be a $K$-vector space and let $P:V\to V$ be a projection on $V$. Then $V=\im P\oplus\ker P$ and, for all $v\in V$, writing $v=v_1+v_2$ for some unique $v_1\in\im P$ and $v_2\in\ker P$ implies that $P\l(v\r)=v_1$._
 
 _Conversely, if $V=V_1\oplus V_2$ and $P:V\to V$ is the linear operator defined by $P\l(v\r)\coloneqq v_1$ where $v_1\in V_1$ is the unique vector such that $v-v_1\in V_2$, then $P$ is a projection on $V$._
 

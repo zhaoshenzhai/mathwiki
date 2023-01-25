@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ and $W$ be vector spaces over some field $K$ and consider a linear map $T:V\to W$. The **nullity of $T$** is_
+_Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. The **nullity of $T$** is_
 $$\begin{equation}
     \nullity T\coloneqq\dim\ker T.
 \end{equation}$$

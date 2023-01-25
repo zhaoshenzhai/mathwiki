@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be vector spaces over some field $K$. Then $\hom\l(V,W\r)\subseteq W^V$ is a linear subspace._
+_Let $V$ and $W$ be $K$-vector spaces. Then $\hom\l(V,W\r)\subseteq W^V$ is a linear subspace._
 
 ```
 

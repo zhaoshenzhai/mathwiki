@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be finite-dimensional vector spaces over some field $K$, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, and let $T:V\to W$ be a linear isomorphism. Then, for every linear subspace $V_0\subseteq V$, we have_
+_Let $V$ and $W$ be finite-dimensional $K$-vector spaces, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, and let $T:V\to W$ be a linear isomorphism. Then, for every linear subspace $V_0\subseteq V$, we have_
 $$\begin{equation}
     \dim V_0=\dim\im_T\l(V_0\r).
 \end{equation}$$

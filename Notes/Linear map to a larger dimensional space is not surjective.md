@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be finite-dimensional vector spaces over some field $K$ with $\dim V<\dim W$. Then no linear map $T:V\to W$ is surjective._
+_Let $V$ and $W$ be finite-dimensional $K$-vector spaces with $\dim V<\dim W$. Then no linear map $T:V\to W$ is surjective._
 
 ```
 

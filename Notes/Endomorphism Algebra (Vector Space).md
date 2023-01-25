@@ -20,7 +20,7 @@ Justifications: [[Set of endomorphisms over a vector space form a unital associa
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a vector space over some field $K$. The **endomorphism algebra over $V$** is the unital associative algebra_
+_Let $V$ be a $K$-vector space. The **endomorphism algebra over $V$** is the unital associative algebra_
 $$\begin{equation}
     \edm_{\catvect}\!\l(V\r)\coloneqq\hom_{\catvect}\!\l(V,V\r)
 \end{equation}$$

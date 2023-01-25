@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be finite-dimensional vector spaces over some field $K$, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, and let $\mc{B},\mc{B}'$ and $\mc{C},\mc{C}'$ be bases for $V$ and $W$, respectively. Then, for all $T:V\to W$, we have_
+_Let $V$ and $W$ be finite-dimensional $K$-vector spaces, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, and let $\mc{B},\mc{B}'$ and $\mc{C},\mc{C}'$ be bases for $V$ and $W$, respectively. Then, for all $T:V\to W$, we have_
 $$\begin{equation}
     \l[T\r]_{\mc{B}'}^{\mc{C}'}=P_{\mc{C}\to\mc{C}'}\l[T\r]_\mc{B}^\mc{C}Q_{\mc{B}'\to\mc{B}},
 \end{equation}$$

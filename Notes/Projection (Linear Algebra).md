@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a vector space over some field $K$. A **projection on $V$** is a linear operator $P:V\to V$ such that $P^2=P$._
+_Let $V$ be a $K$-vector space. A **projection on $V$** is a linear operator $P:V\to V$ such that $P^2=P$._
 
 ```
