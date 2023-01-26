@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Ratio Test (Series)]], [[Root Test]]
+Sufficiencies: [[Ratio Test (Series)]], [[Root Test (Series)]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

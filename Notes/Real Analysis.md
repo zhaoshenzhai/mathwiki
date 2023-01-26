@@ -11,7 +11,7 @@ $\huge\rm\bf{R}\normalsize\rm\bf{EAL ANALYSIS}$ is the study of limiting behavio
 
 ---
 
-**Constructions.** As with all metric spaces, one can define [sequential](Sequential%20Limits%20in%20R.md)/[functional](Functional%20Limits%20in%20R.md) limits in $\R$, ([uniform](Uniform%20Continuity.md)/[Lipschitz](Lipschitz%20Continuity.md)) [continuous](Continuous%20Function%20in%20R.md) functions in $\R$, and other topological properties such that [compactness](obsidian://open?file=TODO) and [connectedness](obsidian://open?file=TODO). Furthermore, as with all normed vector spaces, one can define [differentiable](Differentiable%20Function%20slash%20Derivative%20in%20R.md) functions in $\R$.
+**Constructions.** As with all metric spaces, one can define [sequential](Sequential%20Limits%20in%20R.md)/[functional](Functional%20Limits%20in%20R.md) limits in $\R$, ([uniform](Uniform%20Continuity.md)/[Lipschitz](Lipschitz%20Continuity.md)) [continuous](Continuous%20Function%20in%20R.md) functions in $\R$, and other topological properties such that [compactness](Compact%20Space.md) and [connectedness](obsidian://open?file=TODO). Furthermore, as with all normed vector spaces, one can define [differentiable](Differentiable%20Function%20slash%20Derivative%20in%20R.md) functions in $\R$.
 
 Unique to $\R$ is a that it is a [Dedekind-complete](Dedekind-complete%20Ordered%20Set.md) ordered field, allowing us to establish the [Nested Interval Theorem](Nested%20Interval%20Theorem.md), [Monotone Convergence Theorem](Monotone%20Convergence%20Theorem.md), and the [Bolzano-Weierstrass Theorem](Bolzano-Weierstrass%20Theorem.md).<span style="float:right;">$\blacklozenge$</span>
 

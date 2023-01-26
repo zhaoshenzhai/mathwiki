@@ -3,7 +3,7 @@
 Date Created: 27/09/2022 12:42:09
 Tags: #Proposition #Topics/Group_Theory
 
-Proved by: [[Subgroup Test]]
+Proved by: _Not Applicable_
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

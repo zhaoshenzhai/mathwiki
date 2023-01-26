@@ -6,7 +6,7 @@ Tags: #Definition #Topics/Linear_Algebra
 Types: [[Linear Isomorphism]], [[Linear Operator]]
 Examples: [[Left-multiplication of Matrices]], [[Transposition (Matrix)]], [[Differentiable Function slash Derivative in Rn]]
 Constructions: [[Matrix Representation of a Linear Map]], [[Kernel; Null Space]], [[Image; Column Space]], [[Composition (Linear Map)]], [[Vector Space of Linear Maps]]
-Generalizations: [[Multilinear Map]]
+Generalizations: [[Multilinear Map]], [[Module Homomorphism]]
 
 Properties: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Linear map is injective iff kernel vanishes]], [[Restriction on complement of kernel is injective]], [[Basic properties of linear maps]]
 Sufficiencies: [[Existence of unique linear map via action on basis vectors]], [[Criteria for equality of linear maps via spanning set]]
@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and let $V$ and $W$ be vector spaces over $K$. A **linear map from $V$ to $W$** is an additive group homomorphism $T:V\to W$ such that:_
+_Let $V$ and $W$ be $K$-vector spaces. A **linear map from $V$ to $W$** is an additive group homomorphism $T:V\to W$ such that:_
 $$\begin{equation}
     \fa\alpha\in K,\fa v\in V:T\l(\alpha v\r)=\alpha T\l(v\r).
 \end{equation}$$

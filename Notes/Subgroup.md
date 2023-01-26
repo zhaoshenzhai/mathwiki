@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Subgroups of cyclic groups are cyclic]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Subgroup Test]]
+Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
 ``` ad-Definition
@@ -20,4 +20,4 @@ _Let $\tpl{G,\ast}$ be a group and fix a subset $H\subseteq G$. The pair_ $\tpl{
 
 ```
 
-**Remark.** Subgroups of $G$ must be subsets of $G$ equipped with the _restricted_ binary operation, not just any binary operation.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Subgroups of $G$ must be subsets of $G$ equipped with the _restricted_ binary operation, not just any binary operation. It is clear that $H\subseteq G$ is a subgroup of $G$ iff $0\in H$ and that $H$ is closed under $\ast$ and inversion.<span style="float:right;">$\blacklozenge$</span>

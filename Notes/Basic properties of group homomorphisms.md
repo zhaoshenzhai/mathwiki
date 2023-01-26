@@ -3,7 +3,7 @@
 Date Created: 27/10/2022 20:59:39
 Tags: #Proposition #Topics/Group_Theory
 
-Proved by: [[Basic properties of groups]], [[Subgroup Test]], [[Normal iff stable under conjuation]]
+Proved by: [[Basic properties of groups]], [[Normal iff stable under conjuation]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

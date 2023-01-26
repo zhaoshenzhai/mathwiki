@@ -4,7 +4,7 @@ Date Created: 21/02/2022 15:18:46
 Tags: #Definition #Later/Category_Theory
 
 Types: [[Left-invertible Morphism]], [[Right-invertible Morphism]], [[Isomorphism (Category Theory)]], [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]
-Examples: [[Identity Morphism]], [[Function]], [[Linear Map]], [[Group Homomorphism]], [[Ring Homomorphism]]
+Examples: [[Identity Morphism]], [[Function]], [[Linear Map]], [[Group Homomorphism]], [[Ring Homomorphism]], [[Module Homomorphism]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

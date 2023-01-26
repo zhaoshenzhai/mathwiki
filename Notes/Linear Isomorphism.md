@@ -6,7 +6,7 @@ Tags: #Definition #Topics/Linear_Algebra
 Types: _Not Applicable_
 Examples: [[Coordinate Representation of Finite-dim. Vector Spaces]], [[Matrix Representation of a Linear Map]], [[Basis Transition Map; Change of Basis Matrix]], [[Identity Function]]
 Constructions: [[Isomorphic Vector Spaces]]
-Generalizations: _Not Applicable_
+Generalizations: [[Module Isomorphism]]
 
 Properties: [[Linear isomorphism preserve dimensions of subspaces]]
 Sufficiencies: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Linear map to a lower dimensional space is not injective]], [[Linear map to a larger dimensional space is not surjective]]

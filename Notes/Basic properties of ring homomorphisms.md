@@ -3,7 +3,7 @@
 Date Created: 15/11/2022 14:07:45
 Tags: #Proposition #Topics/Ring_Theory
 
-Proved by: [[Subring Test]], [[Basic properties of group homomorphisms]]
+Proved by: [[Basic properties of group homomorphisms]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

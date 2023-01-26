@@ -3,7 +3,7 @@
 Date Created: 26/09/2022 22:50:21
 Tags: #Proposition #Topics/Group_Theory
 
-Proved by: [[Omega is an ordinal]], [[Ring of integers is a EUD]], [[Subgroup Test]]
+Proved by: [[Omega is an ordinal]], [[Ring of integers is a EUD]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

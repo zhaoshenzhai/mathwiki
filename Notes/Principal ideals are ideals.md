@@ -3,7 +3,7 @@
 Date Created: 16/11/2022 14:09:23
 Tags: #Proposition #Topics/Ring_Theory
 
-Proved by: [[Subring Test]], [[Basic properties of rings]]
+Proved by: [[Basic properties of rings]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

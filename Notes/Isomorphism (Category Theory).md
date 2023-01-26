@@ -4,7 +4,7 @@ Date Created: 22/02/2022 11:26:30
 Tags: #Definition #Later/Category_Theory
 
 Types: [[Automorphism (Category Theory)]]
-Examples: [[Bijection]], [[Linear Isomorphism]], [[Group Isomorphism]], [[Ring Isomorphism]], [[Identity Morphism]]
+Examples: [[Bijection]], [[Linear Isomorphism]], [[Group Isomorphism]], [[Ring Isomorphism]], [[Module Isomorphism]], [[Identity Morphism]]
 Constructions: [[Natural Isomorphism]]
 Generalizations: _Not Applicable_
 

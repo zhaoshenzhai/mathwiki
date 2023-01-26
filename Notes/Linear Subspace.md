@@ -10,15 +10,14 @@ Generalizations: _Not Applicable_
 
 Properties: [[Dimension of subspace]], [[Arbitrary intersection of linear subspaces is a linear subspace]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Equivalences for linear subspaces]]
+Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a $K$-vector space and fix a subset $U\subseteq V$. Then $U$ is a **($K$-linear) subspace of $V$** if any of the following equivalent conditions hold:_
-* _(Stability): $U$ is a vector space under the induced operations._
-* _(Closure): For all $u_1,u_2\in U$ and all $\alpha\in K$, $\alpha u_1+u_2\in U$._
-* _(Span): There exists some $S\subseteq U$ such that $U=\span S$._
+_Let $V$ be a $K$-vector space and fix a subset $U\subseteq V$. Then $U$ is a **($K$-linear) subspace of $V$** $U$ is a vector space under the induced operations._
 
 ```
+
+**Remark.** It is clear that $U\subseteq V$ is a subspace of $V$ if $0\in U$ and $H$ is closed under linear combinations.<span style="float:right;">$\blacklozenge$</span>
