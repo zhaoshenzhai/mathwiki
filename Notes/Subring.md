@@ -16,8 +16,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{R,+,\cdot}$ be a ring and fix a subset $S\subseteq R$. The pair_ $\tpl{S,\l.+\r|_{S\times S},\l.\cdot\r|_{S\times S}}$ _is a **subring of $\tpl{R,+,\cdot}$** if it is itself a ring._
+_Let $R$ be a ring and fix a subset $S\subseteq R$. Then $S$ is a **subring of $R$** if $S$ is a ring under the induced operations._
 
 ```
 
-**Remark.** Subrings of $R$ must be subsets of $R$ equipped with the _restricted_ binary operation, not just any binary operation. It is clear that $S\subseteq R$ is a subring of $R$ iff it is a subgroup that is closed under multiplication. If rings are taken to have a unit, then we must have $1\in S$ too.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** It is clear that $S\subseteq R$ is a subring of $R$ iff it is a subgroup that is closed under multiplication. If rings are taken to have a unit, then we must have $1\in S$ too.<span style="float:right;">$\blacklozenge$</span>

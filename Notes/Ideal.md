@@ -28,7 +28,7 @@ _Similarly for a **right ideal in $R$**. A two-sided ideal in $R$ is called an *
 
 ---
 
-**Remark.** A left ideal $I\subseteq R$ is a left $R$-module via the action $R\times I\to I:\tpl{r,i}\mapsto ri$; being a left-ideal ensures that $ri\in I$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** A left ideal $I\subseteq R$ is a left $R$-module via the action $R\times I\to I:\tpl{r,i}\mapsto ri$; being a left-ideal ensures that $ri\in I$. Indeed $I$ is a left $R$-submodule of $R$, where $R$ is viewed as a left $R$-module over itself.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

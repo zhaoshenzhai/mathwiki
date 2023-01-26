@@ -16,8 +16,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{G,\ast}$ be a group and fix a subset $H\subseteq G$. The pair_ $\tpl{H,\l.\ast\r|_{H\times H}}$ _is a **subgroup of $\tpl{G,\ast}$** if it is itself a group._
+_Let $G$ be a group and fix a subset $H\subseteq G$. Then $H$ is a **subgroup of $G$** if $H$ is a group under the induced operations._
 
 ```
 
-**Remark.** Subgroups of $G$ must be subsets of $G$ equipped with the _restricted_ binary operation, not just any binary operation. It is clear that $H\subseteq G$ is a subgroup of $G$ iff $0\in H$ and that $H$ is closed under $\ast$ and inversion.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** It is clear that $H\subseteq G$ is a subgroup of $G$ iff $0\in H$ and that $H$ is closed under $\ast$ and inversion.<span style="float:right;">$\blacklozenge$</span>

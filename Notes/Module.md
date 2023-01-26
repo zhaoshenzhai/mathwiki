@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Module_Theory
 
 Types: _Not Applicable_
 Examples: [[Abelian Group]], [[Ideal]], [[Quotient Ring]]
-Constructions: [[Module Homomorphism]]
+Constructions: [[Module Homomorphism]], [[Submodule]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of modules]]
