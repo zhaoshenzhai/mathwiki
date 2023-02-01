@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Transposition anti-respects matrix multiplication]], [[Inverse of transpose is transpose of inverse]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Matrix representation of dual map is the transpose]]
 Justifications: [[Transposition is a linear map]]
 
 ``` ad-Definition

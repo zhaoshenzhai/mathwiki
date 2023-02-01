@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Linear_Algebra
 
 Types: [[Linear Isomorphism]], [[Linear Operator]]
 Examples: [[Left-multiplication of Matrices]], [[Transposition (Matrix)]], [[Differentiable Function slash Derivative in Rn]]
-Constructions: [[Matrix Representation of a Linear Map]], [[Kernel; Null Space]], [[Image; Column Space]], [[Composition (Linear Map)]], [[Vector Space of Linear Maps]]
+Constructions: [[Matrix Representation of a Linear Map]], [[Kernel; Null Space]], [[Image; Column Space]], [[Dual Map]], [[Composition (Linear Map)]], [[Vector Space of Linear Maps]]
 Generalizations: [[Multilinear Map]], [[Module Homomorphism]]
 
 Properties: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Linear map is injective iff kernel vanishes]], [[Restriction on complement of kernel is injective]], [[Basic properties of linear maps]]

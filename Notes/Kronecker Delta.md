@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Identity Matrix]], [[Standard Basis for Tuple Space]], [[Orthonormal Set]]
+Constructions: [[Identity Matrix]], [[Standard Basis for Tuple Space]], [[Dual Basis]], [[Orthonormal Set]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

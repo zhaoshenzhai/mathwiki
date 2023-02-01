@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH251
 
 Types: [[Orthonormal Basis]]
 Examples: [[Basis for null space]], [[Basis for column space]], [[Basis slash dimension for direct sum]]
-Constructions: [[Dimension (Linear Algebra)]], [[Coordinate Representation of Finite-dim. Vector Spaces]], [[Matrix Representation of a Linear Map]], [[Basis Transition Map; Change of Basis Matrix]]
+Constructions: [[Dimension (Linear Algebra)]], [[Dual Basis]], [[Coordinate Representation of Finite-dim. Vector Spaces]], [[Matrix Representation of a Linear Map]], [[Basis Transition Map; Change of Basis Matrix]]
 Generalizations: _Not Applicable_
 
 Properties: [[Existence of unique linear map via action on basis vectors]]

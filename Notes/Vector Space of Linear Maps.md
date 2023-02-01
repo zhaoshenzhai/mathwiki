@@ -15,7 +15,7 @@ Generalizations: _Not Applicable_
 Properties: [[Basic properties of composition of linear maps]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Linear isomorphism between linear maps and matrices]]
-Justifications: [[Set of linear maps form a linear subspace of the function space]]
+Justifications: [[Set of linear maps form a linear subspace of the function space]], [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
 
 ``` ad-Definition
 title: Definition.
@@ -27,3 +27,8 @@ $$\begin{equation}
 _of the function space $W^V$._
 
 ```
+
+**Remark.** If $n\coloneqq\dim V$ and $m\coloneqq\dim W$ are finite, then, since $\hom\l(V,W\r)\iso\mat{m\times n}{K}$ and $\dim\mat{m\times n}{K}=mn$, we see that
+$$\begin{equation}
+    \dim\hom\l(V,W\r)=\dim V\cdot\dim W.\exqedin
+\end{equation}$$
