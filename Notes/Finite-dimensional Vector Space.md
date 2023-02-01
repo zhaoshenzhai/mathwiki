@@ -8,7 +8,7 @@ Examples: [[Tuple Space (Linear Algebra)]], [[Vector Space of Matrices]], [[Zero
 Constructions: [[Coordinate Representation of Finite-dim. Vector Spaces]]
 Generalizations: _Not Applicable_
 
-Properties: [[Dimension of subspace]]
+Properties: [[Dimension of subspace]], [[Vector space isomorphic to double dual (finite-dim.)]]
 Sufficiencies: [[Isomorphic vector spaces finite-dim. iff finite-dim.]]
 Equivalences: [[Linearly isomorphic iff dimensions coincide (finite-dim.)]], [[Linear isomorphism between finite-dim vector spaces and tuple spaces]]
 Justifications: _Not Applicable_

@@ -1,5 +1,5 @@
 ---
-mathLink: $V\iso W$ $\Leftrightarrow$ $\dim V=\dim W$ ($V,W$ finite-dim.)
+mathLink: $V\iso W$ $\Leftrightarrow$ $\dim V=\dim W$ (finite-dim.)
 ---
 
 <div class="topSpace"></div>
