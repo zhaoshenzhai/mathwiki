@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Limit Superior slash Inferior]], [[Convergence Criteria in R]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Subsequential limits are closed]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

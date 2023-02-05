@@ -3,7 +3,7 @@
 Date Created: 25/11/2022 10:27:10
 Tags: #Theorem #Topics/Analysis
 
-Proved by: [[Characterizations of Compactness in Metric Spaces]], [[Sequential slash functional limit characterizations of continuity]]
+Proved by: _Not Applicable_
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -17,16 +17,19 @@ _Let $X$ and $Y$ be metric spaces. If $X$ is compact, then any continuous functi
 
 ```
 
-_Proof_. Suppose, for sake of contradiction, that $f$ is not uniformly continuous. Then
-$$\begin{equation}
-    \ex\epsilon>0,\fa\delta>0,\ex p,q\in X:d_X\!\l(p,q\r)<\delta\land d_Y\!\l(f\l(p\r),f\l(q\r)\r)\geq\epsilon.
-\end{equation}$$
-Taking $\delta\coloneqq1/n$ for all $n\in\N^+$, we obtain sequences $\tpl{p_n}$ and $\tpl{q_n}$ in $X$ such that, for all $n\in\N^+$, $d_X\!\l(p_n,q_n\r)<1/n$ despite $d_Y\!\l(f\l(p_n\r),f\l(q_n\r)\r)\geq\epsilon$. But $X$ is compact, so it is sequentially compact and thus there exists a subsequence $\tpl{p_{n_k}}$ of $\tpl{p_n}$ converging to some $p\in X$. Then, since
-$$\begin{equation}
-    d_X\!\l(q_{n_k},p\r)\leq d_X\!\l(q_{n_k},p_{n_k}\r)+d_X\!\l(p_{n_k},p\r)\to0+0=0,
-\end{equation}$$
-we see that $\tpl{q_{n_k}}$ converges to $p$ too. Furthermore, by continuity of $f$, we have that
-$$\begin{equation}
-    \lim\limits_{k\to\infty}f\l(p_{n_k}\r)=f\l(p\r)=\lim\limits_{k\to\infty}f\l(q_{n_k}\r).
-\end{equation}$$
-Thus $\lim\limits_{k\to\infty}\l(f\l(p_{n_k}\r)-f\l(q_{n_k}\r)\r)=0$, so $d_Y\!\l(f\l(p_{n_k}\r),f\l(q_{n_k}\r)\r)<\epsilon$ for all eventually $k\in\N$, a contradiction.<span style="float:right;">$\blacksquare$</span>
+_Proof_. Take $\epsilon>0$. Since $f$ is continuous,
+$$\begin{equation*}
+    \fa p\in X,\ex\delta_p>0,\fa q\in X:d\l(p,q\r)<\delta_p\Rightarrow d\l(f\l(p\r)-f\l(q\r)\r)<\epsilon/2.
+\end{equation*}$$
+Observe that $\l\{B\l(p,\delta_p/2\r)\r\}_{p\in X}$ is an open cover of $X$, so compactness of $X$ furnishes $p_1,\ldots,p_n\in X$ such that
+$$\begin{equation*}
+    X\subseteq\bigcup_{i=1}^{n}B\l(p_i,\delta_{p_i}/2\r).
+\end{equation*}$$
+Set $\delta\coloneqq\frac{1}{2}\min\l\{\delta_{p_1},\ldots,\delta_{p_n}\r\}>0$ and take $p,q\in X$ with $d\l(p,q\r)<\delta$. Then there exists $j\in\l\{1,\dots,n\r\}$ such that $p\in B\l(p_j,\delta_{p_j}/2\r)$, so $d\l(p-p_j\r)<\delta_{p_j}/2$. Observe then that
+$$\begin{equation*}
+    d\l(q-p_j\r)\leq d\l(p,q\r)+d\l(p-p_j\r)<\delta+\frac{\delta_{p_j}}{2}\leq\delta_{p_j},
+\end{equation*}$$
+so continuity of $f$ implies that
+$$\begin{equation*}
+    d\l(f\l(p\r)-f\l(q\r)\r)\leq d\l(f\l(p\r)-f\l(p_j\r)\r)+d\l(f\l(q\r)-f\l(p_j\r)\r)<\frac{\epsilon}{2}+\frac{\epsilon}{2}=\epsilon.\qedin
+\end{equation*}$$

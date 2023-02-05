@@ -4,8 +4,8 @@ Date Created: 01/11/2022 00:44:38
 Tags: #Definition #Topics/Analysis
 
 Types: _Not Applicable_
-Examples: [[Metric-completeness of R]]
-Constructions: _Not Applicable_
+Examples: _Not Applicable_
+Constructions: [[Complete Metric Space]]
 Generalizations: _Not Applicable_
 
 Properties: [[Cauchy implies bounded]]

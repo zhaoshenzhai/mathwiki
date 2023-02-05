@@ -20,7 +20,7 @@ _Let $a,b\in\R$ and let $f,g:\l[a,b\r]\to\R$ be continuous on $\l[a,b\r]$ and di
 
 ```
 
-**Remark.** Lagrange$\textrm{'}$s MVT follows from Cauchy$\textrm{'}$s MVT by setting $g\l(x\r)\coloneqq c$ for all $x\in\l[a,b\r]$, but we give a separate proof here.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Lagrange$\textrm{'}$s MVT follows from Cauchy$\textrm{'}$s MVT by setting $g\l(x\r)\coloneqq x$ for all $x\in\l[a,b\r]$, but we give a separate proof here.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

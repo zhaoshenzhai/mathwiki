@@ -8,7 +8,7 @@ Examples: [[Existence of nth roots]]
 Constructions: [[Real Line (Topology)]], [[Sequences in R]], [[Functions in R]], [[Complex Numbers]]
 Generalizations: _Not Applicable_
 
-Properties: [[Archimedean Property of R]], [[Q is dense in R]], [[Metric-completeness of R]]
+Properties: [[Archimedean Property of R]], [[Q is dense in R]], [[Metric-completeness of R]], [[Heine-Borel Theorem]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
