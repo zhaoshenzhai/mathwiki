@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 05/06/2022 19:01:53
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: [[Basic properties of linear maps]], [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
 References: _Not Applicable_

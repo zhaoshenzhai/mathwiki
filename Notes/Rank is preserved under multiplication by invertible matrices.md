@@ -5,7 +5,7 @@ mathLink: $\rank A=\rank PAQ$ for $P,Q$ invertible
 <div class="topSpace"></div>
 
 Date Created: 05/06/2022 20:40:10
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: [[Basic properties of left-multiplication of matrices]], [[Matrix invertible iff left-multiplication invertible]], [[Linear isomorphism preserve dimensions of subspaces]]
 References: _Not Applicable_

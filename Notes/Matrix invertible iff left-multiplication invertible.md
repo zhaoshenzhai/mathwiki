@@ -5,7 +5,7 @@ mathLink: $A$ invertible $\Leftrightarrow$ $L_A$ invertible
 <div class="topSpace"></div>
 
 Date Created: 29/05/2022 17:24:27
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: [[Linear map invertible repr under basis matrix representation invertible]], [[Basic properties of left-multiplication of matrices]]
 References: _Not Applicable_
