@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/05/2022 18:16:35
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Basis Transition Map; Change of Basis Matrix]], [[Matrix representation of dual map is the transpose]]

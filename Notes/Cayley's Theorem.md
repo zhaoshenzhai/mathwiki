@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 21/10/2022 10:49:46
 Tags: #Theorem #Topics/Group_Theory
 
-Proved by: [[Basic properties of groups]], [[Criteria for equality of functions]]
+Proved by: [[Basic properties of groups]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

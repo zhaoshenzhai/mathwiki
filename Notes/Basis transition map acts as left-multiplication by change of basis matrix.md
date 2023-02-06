@@ -5,7 +5,7 @@ mathLink: $\psi_{\mc{B}\to\mc{B}'}$ is represented under standard basis by $\l[\
 <div class="topSpace"></div>
 
 Date Created: 01/06/2022 15:47:27
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: [[Linear isomorphism between finite-dim vector spaces and tuple spaces]], [[Action of linear map repr under basis left-multiplication of matrix representation]]
 References: _Not Applicable_
@@ -29,7 +29,7 @@ $$\begin{equation}
         \psi\l(\v{v}\r)&=\psi\l(\l[v\r]_\mc{B}\r) && \textrm{Substitution} \\
         &=\l(\phi_{\mc{B}'}\circ\phi_\mc{B}^{-1}\r)\l(\l[v\r]_\mc{B}\r) && \textrm{Definition of $\psi$} \\
         &=\phi_{\mc{B}'}\l(\phi_\mc{B}^{-1}\l(\l[v\r]_\mc{B}\r)\r) && \textrm{Definition of $\circ$} \\
-        &=\phi_{\mc{B}'}\l(v\r) && \l[v\r]_\mc{B}=\phi_\mc{B} \\
+        &=\phi_{\mc{B}'}\l(v\r) && \l[v\r]_\mc{B}=\phi_\mc{B}\l(v\r) \\
         &=\l[v\r]_{\mc{B}'} && \textrm{Definition of $\phi_{\mc{B}'}$} \\
         &=\l[\id_V\l(v\r)\r]_{\mc{B}'} && \textrm{Definition of $\id_V$} \\
         &=\l[\id_V\r]_\mc{B}^{\mc{B}'}\l[v\r]_\mc{B} && \textrm{Action of linear map} \\
