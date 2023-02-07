@@ -23,9 +23,9 @@ $$\begin{equation}
 _Proof_.
 * ($\Rightarrow$): Suppose $\lim\limits_{x\to p}f\l(x\r)=L$ and take a sequence $\tpl{x_n}$ in $\Omega\comp\l\{p\r\}$ such that $x_n\to p$. Let $\epsilon>0$, so
 $$\begin{equation}
-    \ex\delta>0:\im_f\!\l(B_\delta\!\l(c\r)\cap\Omega\comp\l\{p\r\}\r)\subseteq B_\epsilon\!\l(L\r).
+    \ex\delta>0:\im_f\!\l(B_\delta\!\l(p\r)\cap\Omega\comp\l\{p\r\}\r)\subseteq B_\epsilon\!\l(L\r).
 \end{equation}$$
-But $x_n\to p$, so $\fa^\infty n\in\N:x_n\in B_\delta\!\l(c\r)$, and since $\tpl{x_n}$ is in $\Omega\comp\l\{p\r\}$, we see that $x_n\in B_\delta\!\l(c\r)\cap\Omega\comp\l\{p\r\}$ for all eventually $n\in\N$. Thus $f\l(x_n\r)\in B_\epsilon\!\l(L\r)$ eventually, so $f\l(x_n\r)\to L$.
+But $x_n\to p$, so $\fa^\infty n\in\N:x_n\in B_\delta\!\l(p\r)$, and since $\tpl{x_n}$ is in $\Omega\comp\l\{p\r\}$, we see that $x_n\in B_\delta\!\l(p\r)\cap\Omega\comp\l\{p\r\}$ for all eventually $n\in\N$. Thus $f\l(x_n\r)\in B_\epsilon\!\l(L\r)$ eventually, so $f\l(x_n\r)\to L$.
 
 * ($\Leftarrow$): We prove the contrapositive, so suppose that $\lim\limits_{x\to p}f\l(x\r)\neq L$. Thus
 $$\begin{equation}
