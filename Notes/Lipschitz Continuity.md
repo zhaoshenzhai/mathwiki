@@ -3,7 +3,7 @@
 Date Created: 25/11/2022 10:57:59
 Tags: #Definition #Topics/Analysis
 
-Types: _Not Applicable_
+Types: [[Contractive Function]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_

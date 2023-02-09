@@ -3,7 +3,7 @@
 Date Created: 17/11/2022 20:34:29
 Tags: #Definition #Topics/Analysis
 
-Types: _Not Applicable_
+Types: [[Continuous Function]]
 Examples: [[Functions in a Metric Space]]
 Constructions: [[Functional Limits]]
 Generalizations: _Not Applicable_

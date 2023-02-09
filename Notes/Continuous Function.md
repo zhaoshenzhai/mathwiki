@@ -8,7 +8,7 @@ Examples: [[Continuous Function in a Metric Space]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Extreme Value Theorem]], [[Intermediate Value Theorem]], [[Composition of continuous functions are continuous]]
+Properties: [[Extreme Value Theorem]], [[Intermediate Value Theorem]], [[Inverse of continuous functions]], [[Composition of continuous functions are continuous]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Continuous iff continuous at each point]]

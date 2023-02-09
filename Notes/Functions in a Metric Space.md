@@ -3,7 +3,7 @@
 Date Created: 17/11/2022 20:46:30
 Tags: #Definition #Topics/Analysis
 
-Types: [[Bounded Function]]
+Types: [[Continuous Function in a Metric Space]], [[Bounded Function]], [[Contractive Function]]
 Examples: [[Functions in R]], [[Functions in Rn]]
 Constructions: [[Local slash Global Extrema]]
 Generalizations: _Not Applicable_
