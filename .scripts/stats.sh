@@ -21,7 +21,7 @@ while [ ! -z "$1" ]; do
             numExternalLinks=$(sed 's/),\ /)\n/g' * | grep -Po "\[.*\]\(obsidian://.*\)" | wc -l)
             numLinks=$(($numObsidianLinks + $numMarkdownLinks - $numExternalLinks))
 
-            ratio=$(bc -l <<< 'scale=3; '"$numLinks"'/'"$numNotes"'')
+            ratio=$(echo "scale=3; $numLinks/$numNotes" | bc)
 
             cd ..
             cd ./Images
