@@ -29,7 +29,7 @@ For convenience, set $A\coloneqq\l[T\r]_\mc{B}^\mc{C}\in\mat{m\times n}{K}$ and 
 $$\begin{equation}
     T^\dual\l(\eta_j\r)=\eta_j\circ T=\sum_{i=1}^{n}\l(\eta_j\circ T\r)\l(e_i\r)\epsilon_i
 \end{equation}$$
-where we have expanded $\eta_j\circ T$ in components. Since $\mc{B}^\dual$ is a basis for $W^\dual$, we equate components to obtain
+where we have expanded $\eta_j\circ T$ in components. Since $\mc{B}^\dual$ is a basis for $V^\dual$, we equate components to obtain
 $$\begin{equation}
     B_{ij}=\l(\eta_j\circ T\r)\l(e_i\r)=\eta_j\l(T\l(e_i\r)\r)=\eta_j\l(\sum_{k=1}^{m}A_{ki}f_k\r)=\sum_{k=1}^{m}A_{ki}\eta_j\l(f_k\r)=\sum_{k=1}^{m}A_{ki}\delta_{jk}=A_{ji}.\qedin
 \end{equation}$$
