@@ -4,7 +4,7 @@ Date Created: 27/09/2022 18:49:17
 Tags: #Definition #Topics/Analysis
 
 Types: [[Compact Metric Space]], [[Complete Metric Space]], [[Bounded Space]]
-Examples: [[Euclidean Metric Space]], [[lp Space]]
+Examples: [[Euclidean Metric Space]]
 Constructions: [[Epsilon-ball]], [[Diameter]], [[Sequences in a Metric Space]], [[Functions in a Metric Space]]
 Generalizations: _Not Applicable_
 

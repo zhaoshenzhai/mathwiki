@@ -4,7 +4,7 @@ Date Created: 24/06/2022 21:36:42
 Tags: #Definition #Topics/Functional_Analysis
 
 Types: [[Banach Space]]
-Examples: _Not Applicable_
+Examples: [[lp Space]]
 Constructions: [[Norm induces a metric]]
 Generalizations: _Not Applicable_
 

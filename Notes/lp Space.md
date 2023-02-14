@@ -20,10 +20,10 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Fix $p\in\l[1,+\infty\r)$ and let $X\subseteq\R^\N$ be the space of sequences for which_ $\sum_{n=1}^{\infty}\l|x_n\r|^p<\infty$_. The **$\ell^p$ space** is the metric space $\tpl{X,d}$ where_
+_Fix $p\in\l[1,+\infty\r]$ and let $\ell^p\subseteq\R^\N$ be the space of sequences for which_ $\sum_{n=1}^{\infty}\l|x_n\r|^p<\infty$ _if $p<+\infty$, and $\sup_n\l|x_n\r|<+\infty$ if $p=+\infty$. The **$\ell^p$ norm** is the norm $\|\slot\|_p:\ell^p\to\R$ defined by_
 $$\begin{equation}
-    d\l(\tpl{x_n},\tpl{y_n}\r)\coloneqq\l(\sum_{n=1}^{\infty}\l|x_n-y_n\r|^p\r)^{1/p}
+    \|\!\tpl{x_n}\|_p\coloneqq\l(\sum_{n=1}^{\infty}\l|x_n\r|^p\r)^{1/p}\ \ \ \ \textrm{\it{if }}p<+\infty\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \|\!\tpl{x_n}\|_p\coloneqq\sup_{n=1}^\infty\l|x_n\r|\ \ \ \ \textrm{\it{else}}
 \end{equation}$$
-for all $\tpl{x_n},\tpl{y_n}\in X$.
+_for all $\tpl{x_n}\in\ell^p$._
 
 ```
