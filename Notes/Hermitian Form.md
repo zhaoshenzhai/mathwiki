@@ -3,7 +3,7 @@
 Date Created: 24/06/2022 11:21:53
 Tags: #Definition #Later/Linear_Algebra
 
-Types: [[Inner Product]]
+Types: [[Inner Product Space]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
