@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Young's Inequality for Products]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
@@ -23,3 +23,5 @@ $$\begin{equation}
 _is called the **conjugate exponent of $p$**._
 
 ```
+
+**Remark.** If $p=1$, we formally its conjugate exponent as $q\coloneqq+\infty$.<span style="float:right;">$\blacklozenge$</span>

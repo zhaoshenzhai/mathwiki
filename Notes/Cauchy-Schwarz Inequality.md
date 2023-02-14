@@ -8,7 +8,7 @@ References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Generalizations: [[Hölder's Inequality]]
 
 ``` ad-Theorem
 title: Theorem (Cauchy-Schwarz Inequality).
