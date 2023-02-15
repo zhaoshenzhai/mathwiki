@@ -1,5 +1,5 @@
 ---
-mathLink: auto
+mathLink: Hölder$\textrm{'}$s Inequality
 ---
 
 <div class="topSpace"></div>
