@@ -24,11 +24,11 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Let $s_n\coloneqq\sum_{k=0}^na_0r^n$ be the sequence of partial sums of $\tpl{a_n}$, and observe that
+_Proof_. Let $s_n\coloneqq\sum_{k=0}^na_0r^k$ be the sequence of partial sums of $\tpl{a_n}$, and observe that
 $$\begin{equation}
     \begin{aligned}
-        \l(1-r\r)s_n&=\l(1-r\r)\sum_{k=0}^na_0r^n && \textrm{Substitution} \\
-        &=\sum_{k=0}^na_0r^n-\sum_{k=0}^na_0r^{n+1} && \textrm{Distribution} \\
+        \l(1-r\r)s_n&=\l(1-r\r)\sum_{k=0}^na_0r^k && \textrm{Substitution} \\
+        &=\sum_{k=0}^na_0r^k-\sum_{k=0}^na_0r^{k+1} && \textrm{Distribution} \\
         &=
             \begin{aligned}
                 a_0&+a_0r^1+\cdots+a_0r^n \\
