@@ -4,7 +4,7 @@ Date Created: 27/03/2022 22:00:57
 Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
-Examples: [[Real Coordinate Space]]
+Examples: _Not Applicable_
 Constructions: [[Standard Basis for Tuple Space]]
 Generalizations: _Not Applicable_
 

@@ -1,5 +1,5 @@
 ---
-mathLink: $\ell^p$ Space
+mathLink: auto
 ---
 
 <div class="topSpace"></div>
@@ -12,10 +12,10 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Holder's Inequality]], [[Minkowski Inequality]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[lp norm is a norm]]
 
 ``` ad-Definition
 title: Definition.

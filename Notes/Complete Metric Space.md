@@ -3,7 +3,7 @@
 Date Created: 04/02/2023 21:08:59
 Tags: #Definition #Topics/Analysis
 
-Types: _Not Applicable_
+Types: [[Banach Space]]
 Examples: [[Metric-completeness of R]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_

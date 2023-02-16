@@ -191,6 +191,14 @@
       "globalMatch": true,
       "sensitive": true,
       "word": true
+    },
+    {
+      "title": "lp",
+      "replaced": "lp",
+      "replacement": "$\\ell^p$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
     }
   ],
   "excludedFilePaths": [
