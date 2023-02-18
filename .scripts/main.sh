@@ -27,7 +27,7 @@ while [[ "$repeat" == "Y" ]]; do
 
     read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-8)]${NC} ")" action
     re='^[0-9]+$'
-    if ( [[ $action =~ $re ]] ) && ( [ "$action" -gt "0" ] && [ "$action" -lt "8" ] ) || [[ -z "$action" ]]; then
+    if ( [[ $action =~ $re ]] ) && ( [ "$action" -ge "1" ] && [ "$action" -le "8" ] ) || [[ -z "$action" ]]; then
         if [[ -z "$action" ]]; then
             action="1"
         fi
