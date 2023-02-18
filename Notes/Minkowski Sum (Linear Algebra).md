@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Dimension for Minkowski sum]]
+Properties: [[Dimension of Minkowski sum]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Minkowski sum of subspaces is the span of their union]]
 Justifications: _Not Applicable_
