@@ -20,4 +20,4 @@ _Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. A point $p\
 
 ```
 
-**Remark.** Cluster points of $S$ are also called **limit points** or **accumulation points** of $S$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Cluster points of $S$ are also called **limit points** or **$\omega$-accumulation points** of $S$.<span style="float:right;">$\blacklozenge$</span>
