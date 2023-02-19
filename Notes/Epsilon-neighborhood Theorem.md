@@ -35,11 +35,11 @@ $$\begin{equation}
 is continuous.
 * Indeed, take $x,y\in X$ and observe that
 $$\begin{equation}
-    d\l(x,S\r)-\l|x-y\r|\leq\l|x-s\r|-\l|x-y\r|\leq\l|y-s\r|
+    d\l(x,S\r)-d\l(x,y\r)\leq d\l(x,s\r)-d\l(x,y\r)\leq d\l(y,s\r)
 \end{equation}$$
-for all $s\in S$, so $d\l(x,S\r)-\l|x-y\r|\leq d\l(y,S\r)$ and hence $d\l(x,S\r)-d\l(y,S\r)\leq\l|x-y\r|$. The same inequality holds with $x$ and $y$ are interchanged, so
+for all $s\in S$, so $d\l(x,S\r)-d\l(x,y\r)\leq d\l(y,S\r)$ and hence $d\l(x,S\r)-d\l(y,S\r)\leq d\l(x,y\r)$. The same inequality holds with $x$ and $y$ are interchanged, so
 $$\begin{equation}
-    \l|f\l(x\r)-f\l(y\r)\r|=\l|d\l(x,S\r)-d\l(y,S\r)\r|\leq\l|x-y\r|.
+    \l|f\l(x\r)-f\l(y\r)\r|=\l|d\l(x,S\r)-d\l(y,S\r)\r|\leq d\l(x,y\r).
 \end{equation}$$
 This shows that $f$ is Lipschitz, whence it is continuous.
 
