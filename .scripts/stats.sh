@@ -40,13 +40,13 @@ while [ ! -z "$1" ]; do
             sed -i 's/[0-9][0-9]*\simages/'"$numImages"' images/g' README.md
 
             templatesInsertLine=$(grep -n "#### Templates" $DOTFILES_DIR/config/nvim/UltiSnips/markdown.snippets | sed 's/:.*$//g')
-            sed -i 's|\[templatesInsert\]:.*$|\[templatesInsert\]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/UltiSnips/markdown.snippets#L'"$templatesInsertLine"'|g' README.md
+            sed -i 's|\[templatesInsert\]:.*$|\[templatesInsert\]: https://github.com/zhaoshenzhai/dotfiles/blob/tree/master/config/nvim/UltiSnips/markdown.snippets#L'"$templatesInsertLine"'|g' README.md
 
             tikzInsertLine=$(grep -n "newTikZ.sh" $DOTFILES_DIR/config/nvim/config/MathWiki.vim | sed 's/:.*$//g')
-            sed -i 's|\[tikzInsert\]:.*$|\[tikzInsert\]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/config/MathWiki.vim#L'"$tikzInsertLine"'|g' README.md
+            sed -i 's|\[tikzInsert\]:.*$|\[tikzInsert\]: https://github.com/zhaoshenzhai/dotfiles/blob/tree/master/config/nvim/config/MathWiki.vim#L'"$tikzInsertLine"'|g' README.md
 
             pdfLaTeXExecuteLine=$(grep -n "pdflatex -shell-escape image.tex" $DOTFILES_DIR/config/nvim/config/MathWiki.vim | sed 's/:.*$//g')
-            sed -i 's|\[pdfLaTeXExecute\]:.*$|\[pdfLaTeXExecute\]: https://github.com/zhaoshenzhai/dotfiles/blob/master/nvim/config/MathWiki.vim#L'"$pdfLaTeXExecuteLine"'|g' README.md
+            sed -i 's|\[pdfLaTeXExecute\]:.*$|\[pdfLaTeXExecute\]: https://github.com/zhaoshenzhai/dotfiles/blob/tree/master/config/nvim/config/MathWiki.vim#L'"$pdfLaTeXExecuteLine"'|g' README.md
         ;;
     esac
 shift
