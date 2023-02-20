@@ -3,7 +3,7 @@
 Date Created: 28/12/2022 18:12:46
 Tags: #Definition #Topics/Topology
 
-Types: _Not Applicable_
+Types: [[Countably Compact Space]]
 Examples: [[Compact Metric Space]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_

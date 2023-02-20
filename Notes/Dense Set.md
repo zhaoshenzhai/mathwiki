@@ -11,11 +11,11 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[Neighborhood characterization of closure]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space. A subset $S\subseteq X$ is said to be **dense in $X$** if $\bar{S}=X$._
+_Let $\tpl{X,\mc{T}}$ be a topological space. A subset $S\subseteq X$ is said to be **dense in $X$** if $\bar{S}=X$; that is, if $B\l(p,\epsilon\r)\cap S\neq\em$ for all $p\in X$ and $\epsilon>0$._
 
 ```

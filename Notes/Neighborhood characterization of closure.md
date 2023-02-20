@@ -17,7 +17,7 @@ _Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. Then, for a
 
 ```
 
-_Proof_. We shall prove the binconditional contrapositive statement, which states that $x\not\in\bar{S}$ iff there exists a neighborhood of $x$ that is disjoint from $S$.
+_Proof_. We shall prove the biconditional contrapositive statement, which states that $x\not\in\bar{S}$ iff there exists a neighborhood of $x$ that is disjoint from $S$.
 * $\l(\Rightarrow\r)$: Suppose that $x\not\in\bar{S}$, so there exists a closed set $F\supseteq S$ such that $x\not\in F$. Then $x\in U\coloneqq X\comp F$, which is open and $U\cap S\subseteq U\cap F=\em$.
 * $\l(\Leftarrow\r)$: Suppose that there exists some neighborhood $U$ of $x$ disjoint from $S$. Then $x\not\in F\coloneqq X\comp U$, which is closed and contains $S$. Thus $x\not\in\bar{S}$.<span style="float:right;">$\blacksquare$</span>
 
