@@ -105,7 +105,7 @@ in the current line and runs a [script](https://github.com/zhaoshenzhai/MathWiki
 ```bash
 pdflatex -shell-escape image.tex && pdfcrop image.pdf image.pdf && pdf2svg image.pdf image.svg
 ```
-All images are [centered](https://github.com/zhaoshenzhai/MathWiki/blob/master/.obsidian/snippets/centerImages.css) and have a `15px` top and bottom margin. This can be modified to only apply to those images in a certain class.
+All images are centered and have a `15px` top and bottom [margin](https://github.com/zhaoshenzhai/MathWiki/blob/master/.obsidian/snippets/imageMargins.css). This can be modified to only apply to those images in a certain class.
 
 ## :page_with_curl: Sample Pages
 
