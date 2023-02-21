@@ -4,7 +4,7 @@ Date Created: 27/01/2022 17:19:03
 Tags: #Proposition #Later/Set_Theory
 
 Proved by: [[Identity function is the identity of function composition]]
-References: [[Universal set is a proper class]]
+References: [[Russel's Paradox]]
 Justifications: _Not Applicable_
 
 Specializations: _Not Applicable_

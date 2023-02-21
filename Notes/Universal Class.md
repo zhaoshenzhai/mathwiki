@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Universal set is a proper class]]
+Justifications: [[Russel's Paradox]]
 
 ``` ad-Definition
 title: Definition.(Informal).

@@ -3,7 +3,7 @@
 Date Created: 19/01/2022 16:57:32
 Tags: #Proposition #Later/Set_Theory
 
-Proved by: [[Universal set is a proper class]]
+Proved by: [[Russel's Paradox]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

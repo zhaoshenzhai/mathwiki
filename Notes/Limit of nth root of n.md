@@ -25,7 +25,7 @@ _Proof_. Let $\epsilon>0$ and set
 $$\begin{equation*}
     N\coloneqq\l\lceil\frac{2}{\epsilon^2}\r\rceil,
 \end{equation*}$$
-so in particular $N>2/\epsilon^2$ and thus $\sqrt{2/N}<\epsilon$. We claim that $d_n\coloneqq\sqrt[n]{n}-1\geq0$ for all $n\geq N$. Since $N\geq1$, every $n\geq N$ is $\geq1$. Hence if $\sqrt[n]{n}<1$, then $n<1^n=1$ which is a contradiction. Thus $\sqrt[n]{n}\geq1$, so $d_n\geq0$. Furthermore, by the Bernoulli's Inequality, we see that
+so in particular $N>2/\epsilon^2$ and thus $\sqrt{2/N}<\epsilon$. We claim that $d_n\coloneqq\sqrt[n]{n}-1\geq0$ for all $n\geq N$. Since $N\geq1$, every $n\geq N$ is $\geq1$. Hence if $\sqrt[n]{n}<1$, then $n<1^n=1$ which is a contradiction. Thus $\sqrt[n]{n}\geq1$, so $d_n\geq0$. Furthermore, by the Bernoulli$\textrm{'}$s Inequality, we see that
 $$\begin{equation*}
     n=\l(1+d_n\r)^n\geq1+\frac{n\l(n-1\r)}{2}d_n^2.
 \end{equation*}$$
