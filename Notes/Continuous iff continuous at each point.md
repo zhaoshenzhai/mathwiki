@@ -32,4 +32,7 @@ _Proof_.
 $$\begin{equation}
     \preim_f\!\l(V\r)=\bigcup_{p\in X}U_p,
 \end{equation}$$
-so it is open. The forward direction follows immediately since $p\in U_p$. The backwards direction is also clear, for $U_p\subseteq\preim_f\!\l(\im_f\!\l(U_p\r)\r)\subseteq\preim_f\!\l(V\r)$.<span style="float:right;">$\blacksquare$</span>
+so it is open. The forward direction follows immediately since $p\in U_p$. The backwards direction is also clear, for
+$$\begin{equation}
+    U_p\subseteq\preim_f\!\l(\im_f\!\l(U_p\r)\r)\subseteq\preim_f\!\l(V\r).\qedin
+\end{equation}$$
