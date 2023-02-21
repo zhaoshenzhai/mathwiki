@@ -21,4 +21,4 @@ _In other words, we have $\dim V=\nullity T+\rank T$._
 
 ```
 
-_Proof_. Write $V=\ker T+V'$ for some $V'\subseteq V$. Note that the restriction $\l.T\r|_{V'}:V'\to\im T$ is an isomorphism, so $\dim V'=\dim\im T$. But $\dim V'=\dim V-\dim\ker T$, so the result follows.<span style="float:right;">$\blacksquare$</span>
+_Proof_. Write $V=\ker T\oplus V'$ for some $V'\subseteq V$. Note that the restriction $\l.T\r|_{V'}:V'\to\im T$ is an isomorphism, so $\dim V'=\dim\im T$. But $\dim V'=\dim V-\dim\ker T$, so the result follows.<span style="float:right;">$\blacksquare$</span>

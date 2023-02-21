@@ -17,7 +17,7 @@ _Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. Writ
 
 ```
 
-**Remark.** In particular, this shows that the map $\l.T\r|_{V'}:V'\to\im T$ is an isomorphism (since $\im T=\im_T\!\l(U'\r)$).<span style="float:right;">$\blacklozenge$</span>
+**Remark.** In particular, this shows that the map $\l.T\r|_{V'}:V'\to\im T$ is an isomorphism (since $\im T=\im_T\!\l(V'\r)$).<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
