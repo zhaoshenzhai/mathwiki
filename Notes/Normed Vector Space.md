@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: [[Inner product induces a norm]]
-Equivalences: _Not Applicable_
+Equivalences: [[Equivalent Norms]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
