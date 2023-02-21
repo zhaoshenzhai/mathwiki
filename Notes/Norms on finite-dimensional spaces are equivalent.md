@@ -3,7 +3,7 @@
 Date Created: 21/02/2023 10:19:11
 Tags: #Theorem #Topics/Analysis
 
-Proved by: [[Criteria for equivalent norms]], [[Heine-Borel Theorem]], [[Extreme Value Theorem]]
+Proved by: [[Heine-Borel Theorem]], [[Extreme Value Theorem]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

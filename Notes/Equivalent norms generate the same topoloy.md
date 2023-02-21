@@ -13,11 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a $K$-vector space. Two norms $\|\slot\|_1$ and $\|\slot\|_2$ on $V$ are equivalent iff there exist $c_1,c_2>0$ such that_
-$$\begin{equation}
-    \|v\|_1\leq c_1\|v\|_2\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \|v\|_2\leq c_2\|v\|_1
-\end{equation}$$
-_for all $v\in V$._
+_Let $V$ be a $K$-vector space. Then any two equivalent norms $\|\slot\|_1$ and $\|\slot\|_2$ on $V$ generate the same topology on $V$._
 
 ```
 
