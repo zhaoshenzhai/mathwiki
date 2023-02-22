@@ -3,7 +3,7 @@
 Date Created: 20/01/2023 09:44:56
 Tags: #Proposition #Topics/Linear_Algebra
 
-Proved by: [[Subspaces of finite-dim. vector spaces have complements]], [[Basis slash dimension for direct sum]], [[Unique Representation Theorem (Direct Sum)]]
+Proved by: [[Dimension Theorem]], [[Basis slash dimension for direct sum]], [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -13,22 +13,19 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a finite-dimensional vector space over some field $K$ and consider subspaces $U_1,U_2\subseteq V$. Then_
+_Let $V$ be a finite-dimensional $K$-vector space and consider subspaces $U_1,U_2\subseteq V$. Then_
 $$\begin{equation}
     \dim\l(U_1+U_2\r)=\dim U_1+\dim U_2-\dim\l(U_1\cap U_2\r).
 \end{equation}$$
 
 ```
 
-_Proof_. Write $U_1=\l(U_1\cap U_2\r)\oplus U_1'$ and $U_2=\l(U_1\cap U_2\r)\oplus U_2'$ for some $U_1'\subseteq U_1$ and $U_2'\subseteq U_2$. Then
+_Proof_. Consider the function
 $$\begin{equation}
-    U_1+U_2=\l[\l(U_1\cap U_2\r)\oplus U_1'\r]+\l[\l(U_1\cap U_2\r)\oplus U_2'\r]=\l(U_1\cap U_2\r)+U_1'+U_2'.
+    T:U_1\oplus U_2\to U_1+U_2\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ \tpl{u_1,u_2}\mapsto u_1+u_2.
 \end{equation}$$
-We claim that the latter sum is direct, for then
+It is clearly linear and surjective, so the Dimension Theorem gives
 $$\begin{equation}
-    \begin{aligned}
-        \dim\l(U_1+U_2\r)&=\dim\l(U_1\cap U_2\r)+\dim U_1-\dim\l(U_1\cap U_2\r)+\dim U_2-\dim\l(U_1\cap U_2\r) \\
-        &=\dim U_1+\dim U_2-\dim\l(U_1\cap U_2\r).
-    \end{aligned}
+    \dim\l(U_1\oplus U_2\r)=\dim\ker T+\dim\l(U_1+U_2\r).
 \end{equation}$$
-* Take $v\in U_1\cap U_2$, $u_1\in U_1'\subseteq U_1$, and $u_2\in U_2'\subseteq U_2$, and suppose that $v+u_1+u_2=0$. Then $u_1=-v-u_2\in U_2$, so $u_1\in U_1\cap U_2$. But $\l(U_1\cap U_2\r)\cap U_1'=\l\{0\r\}$, so $u_1=0$. Similarly, $u_2=0$, so $v=0$ too.<span style="float:right;">$\blacksquare$</span>
+But $\dim\l(U_1\oplus U_2\r)=\dim U_1+\dim U_2$, so the result follows if we show that $\ker T\iso U_1\cap U_2$. Indeed, for all $u\in U_1\cap U_2$, we see that $\tpl{u,-u}\in U_1\oplus U_2$ with $T\l(u,-u\r)=u+\l(-u\r)=0$. Thus we may consider the map $\phi: U_1\cap U_2\to\ker T:u\mapsto\tpl{u,-u}$, which is clearly linear and injective. It is also surjective, since for all $\tpl{u_1,u_2}\in\ker T$, we have $u_1+u_2=0$ and hence $u_1=-u_2\in U_2$. Thus $u_1\in U_1\cap U_2$ is such that $\phi\l(u_1\r)=\tpl{u_1,-u_1}=\tpl{u_1,u_2}$.<span style="float:right;">$\blacksquare$</span>
