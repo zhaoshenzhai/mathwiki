@@ -4,7 +4,7 @@ Date Created: 24/06/2022 21:36:42
 Tags: #Definition #Courses/MATH255
 
 Types: [[Banach Space]]
-Examples: [[lp Space]]
+Examples: [[lp Space]], [[Operator Norm]]
 Constructions: [[Norm induces a metric]], [[Bounded Linear Map]]
 Generalizations: _Not Applicable_
 

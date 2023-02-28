@@ -5,7 +5,7 @@ mathLink: $\hom\l(V,W\r)$
 <div class="topSpace"></div>
 
 Date Created: 16/05/2022 19:38:42
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: [[Endomorphism Algebra (Vector Space)]], [[Dual Space]]
 Examples: _Not Applicable_
