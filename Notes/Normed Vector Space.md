@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH255
 
 Types: [[Banach Space]]
 Examples: [[lp Space]]
-Constructions: [[Norm induces a metric]]
+Constructions: [[Norm induces a metric]], [[Bounded Linear Map]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

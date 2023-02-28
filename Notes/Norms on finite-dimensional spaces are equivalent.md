@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem.
 
-_Let $V$ be a finite-dimensional $\R$-vector space. Then any two norms $\|\slot\|_1$ and $\|\slot\|_2$ on $V$ are equivalent._
+_Let $V$ be a finite-dimensional vector space over $\R$ or $\C$. Then any two norms $\|\slot\|_1$ and $\|\slot\|_2$ on $V$ are equivalent._
 
 ```
 
@@ -21,7 +21,7 @@ _Proof_. Since $V$ is finite-dimensional, it admits a basis $\l\{e_1,\dots,e_n\r
 $$\begin{equation}
     \|v\|_\infty\coloneqq\underset{1\leq i\leq n}{\max}\l|\alpha_i\r|
 \end{equation}$$
-for all $v\in V$ where $\alpha_i\in\R$ are the unique scalars such that $v=\sum_{i=1}^{n}\alpha_ie_i$. Indeed, for all $v\in V$, we have that
+for all $v\in V$ where $\alpha_i\in\C$ are the unique scalars such that $v=\sum_{i=1}^{n}\alpha_ie_i$. Indeed, for all $v\in V$, we have that
 $$\begin{equation}
     \|v\|=\l\|\sum_{i=1}^{n}\alpha_ie_i\r\|\leq\sum_{i=1}^{n}\l|\alpha_i\r|\|e_i\|\leq\l(N\underset{1\leq i\leq n}{\max}\|e_i\|\r)\underset{1\leq i\leq n}{\max}\l|\alpha_i\r|=\underbrace{\l(N\underset{1\leq i\leq n}{\max}\|e_i\|\r)}_{c_1\coloneqq}\|v\|_\infty.
 \end{equation}$$
@@ -29,7 +29,7 @@ Conversely, we need to find some $c_2>0$ such that $\|v\|_\infty\leq c_2\|v\|$ f
 $$\begin{equation}
     \l|f\l(v\r)-f\l(w\r)\r|=\l|\|v\|-\|w\|\r|\leq\|v-w\|\leq c_1\|v-w\|_\infty.
 \end{equation}$$
-Letting $\v{v}\coloneqq\tpl{\alpha_1,\dots,\alpha_n}$ be the coordinate representation of $v$, consider the unit sphere $S\coloneqq\l\{\v{v}\in\R^n\mid\|v\|_\infty=1\r\}$. It is clearly closed and bounded w.r.t $\|\slot\|_\infty$, and since the norms $\|\slot\|_\infty$ and $\|\slot\|_2$ are equivalent, Heine-Borel shows that $S$ is compact in $\|\slot\|_\infty$. By the Extreme Value Theorem, $\l.f\r|_S$ attains its minimum at some $\v{v}_0\in S$. Pulling $\v{v}_0$ back to $v_0\in V$, let
+Letting $\v{v}\coloneqq\tpl{\alpha_1,\dots,\alpha_n}$ be the coordinate representation of $v$, consider the unit sphere $S\coloneqq\l\{\v{v}\in\C^n\mid\|v\|_\infty=1\r\}$. It is clearly closed and bounded w.r.t $\|\slot\|_\infty$, and since the norms $\|\slot\|_\infty$ and $\|\slot\|_2$ are equivalent, Heine-Borel shows that $S$ is compact in $\|\slot\|_\infty$. By the Extreme Value Theorem, $\l.f\r|_S$ attains its minimum at some $\v{v}_0\in S$. Pulling $\v{v}_0$ back to $v_0\in V$, let
 $$\begin{equation}
     c_2\coloneqq\frac{1}{\|v_0\|}>0.
 \end{equation}$$

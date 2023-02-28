@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Composition of Lipschitz functions are Lipschitz]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Bounded iff Lipschitz iff continuous (normed vector space)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
