@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Ring_Theory #Topics/Complex_Analysis
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Complex conjugate]]
+Constructions: [[Complex Conjugate]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
