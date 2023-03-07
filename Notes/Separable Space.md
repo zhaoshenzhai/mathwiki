@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Separable implies admits countable subcover]]
 Sufficiencies: [[Sequentially compact implies separable]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Perfect set in Rn implies uncountable]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Basic properties of condensation points]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

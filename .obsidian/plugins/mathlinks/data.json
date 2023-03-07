@@ -199,6 +199,14 @@
       "globalMatch": true,
       "sensitive": true,
       "word": true
+    },
+    {
+      "title": "Aleph1",
+      "replaced": "aleph1",
+      "replacement": "$\\aleph_1$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
     }
   ],
   "excludedFilePaths": [
