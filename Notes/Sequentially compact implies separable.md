@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 26/01/2023 10:20:09
 Tags: #Proposition #Topics/Analysis
 
-Proved by: [[Sequentially compact implies bounded]], [[Neighborhood characterization of closure]], [[Convergent implies Cauchy]]
+Proved by: [[Sequentially compact implies bounded]], [[Convergent implies Cauchy]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

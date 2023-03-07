@@ -3,7 +3,7 @@
 Date Created: 29/12/2022 20:34:06
 Tags: #Proposition #Topics/Analysis
 
-Proved by: [[Neighborhood characterization of closure]]
+Proved by: [[Characterizations of closure]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

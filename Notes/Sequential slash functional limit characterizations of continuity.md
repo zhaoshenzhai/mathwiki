@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 24/11/2022 14:20:17
 Tags: #Theorem #Topics/Analysis
 
-Proved by: [[Continuous iff continuous at each point]], [[Sequential Criterion for Functional Limits]], [[Neighborhood characterization of closure]]
+Proved by: [[Continuous iff continuous at each point]], [[Sequential Criterion for Functional Limits]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

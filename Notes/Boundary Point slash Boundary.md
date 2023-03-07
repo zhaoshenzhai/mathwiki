@@ -9,7 +9,7 @@ Tags: #Definition #Later/Topology
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Closure]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

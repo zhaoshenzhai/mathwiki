@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: [[Neighborhood characterization of cluster points (metric)]]
-Justifications: _Not Applicable_
+Justifications: [[Characterizations of closure]]
 
 ``` ad-Definition
 title: Definition.
@@ -20,4 +20,4 @@ _Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. A point $p\
 
 ```
 
-**Remark.** Cluster points of $S$ are also called **limit points** or **$\omega$-accumulation points** of $S$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Cluster points of $S$ are also called **limit points** or **accumulation points** of $S$. Equivalently, $p\in X$ is a cluster point of $S$ if every neighborhood of $p$ intersects $S$ at some point $q\neq p$.<span style="float:right;">$\blacklozenge$</span>

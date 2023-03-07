@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 29/12/2022 21:18:52
 Tags: #Proposition #Topics/Topology
 
-Proved by: [[Neighborhood characterization of closure]]
+Proved by: _Not Applicable_
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
