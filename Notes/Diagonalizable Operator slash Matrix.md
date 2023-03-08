@@ -27,8 +27,8 @@ _Let $V$ be a finite-dimensional vector space over some field $K$. A linear oper
 **Remark.** We say that a matrix $A\in\mat{n}{K}$ is **diagonalizable** if $L_A$ is. Observe, by changing basis from the standard basis $\mc{S}$ of $K^n$ to $\mc{B}$, that
 $$\begin{equation}
     \begin{aligned}
-        \l[L_A\r]_\mc{B}&=Q_{\mc{B}\to\mc{S}}^{-1}\l[L_A\r]_\mc{S}Q_{\mc{B}\to\mc{S}} && Q_{\mc{B}\to\mc{S}}\coloneqq\l[\id_{K^n}\r]_\mc{B}^\mc{S} \\
-        &=Q_{\mc{B}\to\mc{S}}^{-1}AQ_{\mc{B}\to\mc{S}}, && \l[L_A\r]_\mc{S}=A
+        \l[L_A\r]_\mc{B}&=P_{\mc{B}\to\mc{S}}^{-1}\l[L_A\r]_\mc{S}P_{\mc{B}\to\mc{S}} && P_{\mc{B}\to\mc{S}}\coloneqq\l[\id_{K^n}\r]_\mc{B}^\mc{S} \\
+        &=P_{\mc{B}\to\mc{S}}^{-1}AP_{\mc{B}\to\mc{S}}, && \l[L_A\r]_\mc{S}=A
     \end{aligned}
 \end{equation}$$
-so the statement that there exists a basis $\mc{B}$ of $K^n$ such that $\l[L_A\r]_\mc{B}$ is diagonal is equivalent to saying that there exists a matrix $Q\in\mat{n}{K}$ such that $Q^{-1}AQ$ is diagonal.<span style="float:right;">$\blacklozenge$</span>
+so the statement that there exists a basis $\mc{B}$ of $K^n$ such that $\l[L_A\r]_\mc{B}$ is diagonal is equivalent to saying that there exists a matrix $P\in\mat{n}{K}$ such that $P^{-1}AP$ is diagonal.<span style="float:right;">$\blacklozenge$</span>
