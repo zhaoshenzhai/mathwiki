@@ -1,11 +1,11 @@
 <div class="topSpace"></div>
 
 Date Created: 20/06/2022 15:01:38
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Eigenspace]]
 Generalizations: _Not Applicable_
 
 Properties: [[Distinct eigenvalues implies linearly independent eigenvectors]]
@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a $K$-vector space and consider a linear operator $T:V\to V$. A scalar $\lambda\in K$ is called an **eigenvalue of $T$** if there exists some nonzero $v\in V$ such that $T\l(v\r)=\lambda v$._
+_Let $V$ be a finite dimensional $K$-vector space and consider a linear operator $T:V\to V$. A scalar $\lambda\in K$ is called an **eigenvalue of $T$** if there exists some nonzero $v\in V$ such that $T\l(v\r)=\lambda v$._
 
 ```
 

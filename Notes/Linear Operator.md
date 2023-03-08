@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Linear_Algebra
 
 Types: [[Nilpotent Operator]], [[Diagonalizable Operator slash Matrix]]
 Examples: _Not Applicable_
-Constructions: [[Endomorphism Algebra (Vector Space)]], [[Eigenvector]], [[Eigenvalue]]
+Constructions: [[Eigenvector]], [[Eigenvalue]], [[Characteristic Polynomial]], [[Endomorphism Algebra (Vector Space)]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

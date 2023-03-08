@@ -5,14 +5,14 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 11/06/2022 18:08:57
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Projection (Linear Algebra)]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Characteristic polynomial for a diagonalizable operator]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Diagonalizable iff exists basis for eigenvectors]]
 Justifications: _Not Applicable_
