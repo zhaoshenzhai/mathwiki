@@ -8,7 +8,7 @@ Examples: [[Characteristic polynomial for a diagonalizable operator]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Eigenvalue iff root of characteristic polynomial]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Characteristic polynomial is a polynomial]], [[Identity function repr under basis by identity matrix]]

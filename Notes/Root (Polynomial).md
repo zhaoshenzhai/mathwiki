@@ -4,7 +4,7 @@ Date Created: 22/11/2022 23:48:21
 Tags: #Definition #Topics/Ring_Theory
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Eigenvalue iff root of characteristic polynomial]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

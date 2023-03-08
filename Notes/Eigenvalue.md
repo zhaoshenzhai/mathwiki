@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Distinct eigenvalues implies linearly independent eigenvectors]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Eigenvalue iff linear map minus scaled identity is not invertible]]
+Equivalences: [[Eigenvalue iff root of characteristic polynomial]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

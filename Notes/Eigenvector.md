@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 11/06/2022 18:17:22
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -20,7 +20,7 @@ _Let $V$ be a finite-dimensional $K$-vector space and consider a linear operator
 
 ```
 
-**Remark.** Since $T\l(v\r)=\lambda v$ is equivalent to $\l(T-\lambda\id_V\r)\l(v\r)=0$, we see that a vector $v\in V\comp\l\{0\r\}$ is an eigenvector of $T$ corresponding to $\lambda$ iff $v\in\ker\l(T-\lambda\id_V\r)$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Since $T\l(v\r)=\lambda v$ is equivalent to $\l(\lambda\id_V-T\r)\l(v\r)=0$, we see that a vector $v\in V\comp\l\{0\r\}$ is an eigenvector of $T$ corresponding to $\lambda$ iff $v\in\ker\l(\lambda\id_V-T\r)$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
