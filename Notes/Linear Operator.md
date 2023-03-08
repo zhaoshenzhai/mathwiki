@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 02/05/2022 15:10:12
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
-Types: [[Diagonalizable Operator slash Matrix]]
+Types: [[Nilpotent Operator]], [[Diagonalizable Operator slash Matrix]]
 Examples: _Not Applicable_
 Constructions: [[Endomorphism Algebra (Vector Space)]], [[Eigenvector]], [[Eigenvalue]]
 Generalizations: _Not Applicable_
@@ -20,4 +20,4 @@ _Let $V$ be a $K$-vector space. A linear map $T:V\to V$ is said to be a **linear
 
 ```
 
-**Remark.** That is, linear operators are linear maps with $\dom T=\cdm T$. More abstractly, $T\in\edm_{\catvect}\!\l(V\r)$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** The set of all linear operators $T:V\to V$ is denoted $\edm\l(V\r)$.<span style="float:right;">$\blacklozenge$</span>
