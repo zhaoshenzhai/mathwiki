@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Banach Fixed Point Theorem]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Compact implies complete]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

@@ -18,7 +18,7 @@ title: Definition.
 
 _Let $V$ and $W$ be normed vector spaces. The **operator norm** on the vector space $B\l(V,W\r)\subseteq\hom\l(V,W\r)$ of all bounded linear maps is the norm_
 $$\begin{equation}
-    \|\slot\|_\textrm{op}:B\l(V,W\r)\to\R\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ T\mapsto\sup\limits_{v\neq 0}\frac{\|Tv\|}{\|v\|}.
+    \|\slot\|_\textrm{op}:B\l(V,W\r)\to\R\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ T\mapsto\|T\|_\textrm{op}\coloneqq\sup\limits_{v\neq 0}\frac{\|Tv\|}{\|v\|}.
 \end{equation}$$
 _This makes $B\l(V,W\r)$ into a normed vector space._
 

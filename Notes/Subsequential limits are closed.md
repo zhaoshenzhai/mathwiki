@@ -3,7 +3,7 @@
 Date Created: 04/02/2023 22:08:01
 Tags: #Proposition #Topics/Analysis
 
-Proved by: _Not Applicable_
+Proved by: [[Limit of 1 over linear]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
