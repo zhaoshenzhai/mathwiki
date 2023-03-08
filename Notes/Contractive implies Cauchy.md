@@ -21,7 +21,7 @@ _Let $\tpl{X,d}$ be a metric space and consider a sequence $\tpl{x_n}$ in $X$. I
 
 ```
 
-**Remark.** Therefore, every contractive sequence in $\R$ is convergent.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Therefore, every contractive sequence in a complete metric space is convergent.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

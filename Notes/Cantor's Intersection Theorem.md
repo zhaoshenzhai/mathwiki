@@ -30,8 +30,8 @@ _Proof_. Fix any $K\in\l\{K_\alpha\r\}$ and assume, for sake of contradiction, t
 $$\begin{equation}
     \bigcup_{\alpha\in\mc{A}}U_\alpha=\bigcup_{\alpha\in\mc{A}}X\comp K_\alpha=X\comp\bigcap_{\alpha\in\mc{A}}K_\alpha=X\supseteq K.
 \end{equation}$$
-Thus $\l\{U_\alpha\r\}$ is an open cover of $K$, so compactness of $K$ furnishes indices $\alpha_1,\dots,\alpha_k\in\mc{A}$ such that $K=\bigcup_{i=1}^{k}U_{\alpha_i}$. But then
+Thus $\l\{U_\alpha\r\}$ is an open cover of $K$, so compactness of $K$ furnishes indices $\alpha_1,\dots,\alpha_k\in\mc{A}$ such that $K\subseteq\bigcup_{i=1}^{k}U_{\alpha_i}$. But then
 $$\begin{equation}
-    K\cap\bigcap_{i=1}^{k}K_{\alpha_1}=K\cap\bigcap_{i=1}^{k}X\comp U_{\alpha_i}=K\cap X\comp\bigcup_{i=1}^{k}U_{\alpha_i}=K\cap\l(X\comp K\r)=\em,
+    K\cap\bigcap_{i=1}^{k}K_{\alpha_1}=K\cap\bigcap_{i=1}^{k}X\comp U_{\alpha_i}=K\cap X\comp\bigcup_{i=1}^{k}U_{\alpha_i}\subseteq K\cap\l(X\comp K\r)=\em,
 \end{equation}$$
 contradicting the $\textrm{`}$finite-intersection property$\textrm{'}$ of $\l\{K_\alpha\r\}$.<span style="float:right;">$\blacksquare$</span>
