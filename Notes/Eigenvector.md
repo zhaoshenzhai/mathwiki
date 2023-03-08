@@ -8,8 +8,8 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Diagonalizable iff exists basis for eigenvectors]], [[Distinct eigenvalues implies linearly independent eigenvectors]]
-Sufficiencies: _Not Applicable_
+Properties: [[Diagonalizable iff exists basis for eigenvectors]]
+Sufficiencies: [[Distinct eigenvalues implies linearly independent eigenvectors]]
 Equivalences: [[Eigenvector iff span is invariant under linear map]]
 Justifications: _Not Applicable_
 
