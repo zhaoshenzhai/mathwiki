@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 19/06/2022 16:20:24
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Kernel; Null Space]], [[Image; Column Space]], [[Trivial Subspaces (Linear Algebra)]]

@@ -5,7 +5,7 @@ Tags: #Definition #Later/Linear_Algebra
 
 Types: [[Diagonalizable Operator slash Matrix]], [[Invertible Matrix]], [[Symmetric Matrix]]
 Examples: [[Elementary Matrices and Operations]]
-Constructions: [[Eigenvector]], [[Eigenvalue]]
+Constructions: [[Eigenvalue]], [[Eigenvector slash eigenspace]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
