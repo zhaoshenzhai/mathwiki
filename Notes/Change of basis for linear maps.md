@@ -21,12 +21,11 @@ _where_ $P_{\mc{C}\to\mc{C}'}\!\coloneqq\l[\id_W\r]_\mc{C}^{\mc{C}'}$ _and_ $Q_{
 
 ```
 
-_Proof_. Simply insert identities and expand:
-$$\begin{align}
-    \l[T\r]_{\mc{B}'}^{\mc{C}'}&=\l[\id_W\circ\ T\!\circ\id_V\r]_{\mc{B}'}^{\mc{C}'} && \textrm{Insert identities} \\
-    &=\l[\id_W\r]_\mc{C}^{\mc{C}'}\l[T\r]_\mc{B}^\mc{C}\l[\id_V\r]_{\mc{B}'}^\mc{B} && \textrm{Composition repr. as matrix multiplication} \\
-    &=P_{\mc{C}\to\mc{C}'}\l[T\r]_\mc{B}^\mc{C}Q_{\mc{B}'\to\mc{B}}. && \textrm{Definitions of }P_{\mc{C}\to\mc{C}'}\textrm{ and }Q_{\mc{B}'\to\mc{B}}\qedin
-\end{align}$$
+**Remark.** A useful special case is when $V=W=K^n$, $T=L_A$ for some $A\in\mat{n}{K}$, $\mc{S}\coloneqq\mc{B}=\mc{C}$ is the standard basis for $K^n$, and $\mc{B}'=\mc{C}'$. Then $\l[T\r]_\mc{B}^\mc{C}=\l[L_A\r]_\mc{S}=A$, so
+$$\begin{equation}
+    \l[L_A\r]_{\mc{B}'}=Q^{-1}AQ
+\end{equation}$$
+where $Q\coloneqq Q_{\mc{B}'\to\mc{S}}=\l[\id_{K^n}\r]_{\mc{B}'}^\mc{S}$ is the change of basis matrix whose $j^\textrm{th}$ column is precisely the $j^\textrm{th}$ vector of $\mc{B}'$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
@@ -45,3 +44,12 @@ $$\begin{equation}
     \end{aligned}
 \end{equation}$$
 Thus the outer loop commutes; the fact that the inner ones commute too are proven. This shows us how to compute $L_{A'}$ in terms of (a perhaps simpler) $L_A$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+_Proof_. Simply insert identities and expand:
+$$\begin{align}
+    \l[T\r]_{\mc{B}'}^{\mc{C}'}&=\l[\id_W\circ\ T\!\circ\id_V\r]_{\mc{B}'}^{\mc{C}'} && \textrm{Insert identities} \\
+    &=\l[\id_W\r]_\mc{C}^{\mc{C}'}\l[T\r]_\mc{B}^\mc{C}\l[\id_V\r]_{\mc{B}'}^\mc{B} && \textrm{Composition repr. as matrix multiplication} \\
+    &=P_{\mc{C}\to\mc{C}'}\l[T\r]_\mc{B}^\mc{C}Q_{\mc{B}'\to\mc{B}}. && \textrm{Definitions of }P_{\mc{C}\to\mc{C}'}\textrm{ and }Q_{\mc{B}'\to\mc{B}}\qedin
+\end{align}$$
