@@ -4,7 +4,7 @@ Date Created: 27/02/2023 20:47:10
 Tags: #Definition #Topics/Functional_Analysis
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Frechet Differentiability]]
 Constructions: [[Operator Norm]]
 Generalizations: _Not Applicable_
 

@@ -20,15 +20,15 @@ Justifications: [[Derivative in Rn is unique]]
 ``` ad-Definition
 title: Definition.
 
-_Fix $m,n\in\N^+$ and let $U\subseteq\R^n$ be open. A function $f:U\to\R^m$ is **differentiable at $\v{a}\in U$** if there exists a linear map $L:\R^n\to\R^m$ such that_
+_Let $X$ and $Y$ be Banach spaces and let $U\subseteq X$ be open. A function $f:U\to Y$ is **(Fréchet) differentiable at $p\in U$** if there exists a bounded linear map $T:X\to Y$ such that_
 $$\begin{equation}
-    \lim\limits_{\v{h}\to\v{0}}\frac{\l\|f\l(\v{a}+\v{h}\r)-f\l(\v{a}\r)-L\l(\v{h}\r)\r\|_m}{\l\|\v{h}\r\|_n}=0,
+    \lim\limits_{h\to0}\frac{\l\|f\l(p+h\r)-f\l(p\r)-Th\r\|_Y}{\|h\|_X}=0,
 \end{equation}$$
-_in which case $Df\l(\v{a}\r)\coloneqq L$ is said to be the **derivative of $f$ at $\v{a}$**._
+_in which case $Df\l(p\r)\coloneqq T$ is said to be the **(Fréchet) derivative of $f$ at $p$**._
 
 ```
 
-**Remark.** If $f$ is differentiable for all $\v{a}\in U$, then we may define the **derivative of $f$** as the function
+**Remark.** If $f$ is differentiable at all $at\in U$, then we may define the **(Fréchet) derivative of $f$** as the function
 $$\begin{equation}
-    Df:U\to\R^m\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ \v{a}\to Df\l(\v{a}\r).\exqedin
+    Df:U\to Y\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ p\to Df\l(p\r).\exqedin
 \end{equation}$$

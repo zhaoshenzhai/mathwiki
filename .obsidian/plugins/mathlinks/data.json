@@ -207,6 +207,22 @@
       "globalMatch": true,
       "sensitive": false,
       "word": true
+    },
+    {
+      "title": "Holder",
+      "replaced": "Holder",
+      "replacement": "Hölder",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "title": "Frechet",
+      "replaced": "Frechet",
+      "replacement": "Fréchet",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
     }
   ],
   "excludedFilePaths": [

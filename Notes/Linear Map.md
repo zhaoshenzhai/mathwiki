@@ -4,7 +4,7 @@ Date Created: 01/04/2022 18:16:33
 Tags: #Definition #Topics/Linear_Algebra
 
 Types: [[Linear Isomorphism]], [[Linear Operator]], [[Bounded Linear Map]]
-Examples: [[Left-multiplication of Matrices]], [[Transposition (Matrix)]], [[Differentiable Function slash Derivative in Rn]]
+Examples: [[Left-multiplication of Matrices]], [[Transposition (Matrix)]]
 Constructions: [[Matrix Representation of a Linear Map]], [[Kernel; Null Space]], [[Image; Column Space]], [[Dual Map]], [[Composition (Linear Map)]], [[Vector Space of Linear Maps]]
 Generalizations: [[Multilinear Map]], [[Module Homomorphism]]
 

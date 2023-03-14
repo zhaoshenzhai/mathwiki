@@ -7,7 +7,7 @@ Context: [Zermelo Fraenkel Set Theory](obsidian://open?file=TODO)
 Excursions: _Not Applicable_
 Abstractions: [Topology](obsidian://open?file=TODO), [Measure Theory](obsidian://open?file=TODO)
 
-$\huge\rm\bf{R}\normalsize\rm\bf{EAL ANALYSIS}$ is the study of limiting behaviours of [sequences](Sequences%20in%20R.md), [series](Convergent%20and%20Divergent%20Series.md), and [functions](Functions%20in%20R.md) in [$\R$](Real%20Numbers.md); that is, the study of [sequential](Sequential%20Limits%20in%20R.md)/[functional](Functional%20Limits%20in%20R.md) convergence, [continuity](Continuous%20Function%20in%20R.md), [differentiability](Differentiable%20Function%20slash%20Derivative%20in%20R.md), and [integrability](obsidian://open?file=TODO) in $\R$.
+$\huge\rm\bf{R}\normalsize\rm\bf{EAL ANALYSIS}$ is the study of limiting behaviours of [sequences](Sequences%20in%20R.md), [series](Infinite%20Series.md), and [functions](Functions%20in%20R.md) in [$\R$](Real%20Numbers.md); that is, the study of [sequential](Sequential%20Limits%20in%20R.md)/[functional](Functional%20Limits%20in%20R.md) convergence, [continuity](Continuous%20Function%20in%20R.md), [differentiability](Differentiable%20Function%20slash%20Derivative%20in%20R.md), and [integrability](obsidian://open?file=TODO) in $\R$.
 
 ---
 
