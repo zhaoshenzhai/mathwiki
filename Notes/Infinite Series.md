@@ -1,7 +1,3 @@
----
-mathLink: Convergent/Divergent Series
----
-
 <div class="topSpace"></div>
 
 Date Created: 01/09/2022 15:41:10
