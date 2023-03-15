@@ -1,5 +1,5 @@
 ---
-mathLink: $T$ has eigenvalue $\lambda$ $\Leftrightarrow$ $\upchi_T\!\l(\lambda\r)=0$
+mathLink: $T$ has eigenvalue $\lambda$ $\Leftrightarrow$ $\cchi_T\!\l(\lambda\r)=0$
 ---
 
 <div class="topSpace"></div>
@@ -20,15 +20,15 @@ title: Proposition.
 _Let $V$ be a finite-dimensional $K$-vector space and consider a linear operator $T:V\to V$. For a fixed $\lambda\in K$, the following are equivalent._
 * _$\lambda$ is an eigenvalue of $T$._
 * _$\lambda\id_V-T:V\to V$ is not injective/surjective/invertible._
-* _$\upchi_T\!\l(\lambda\r)=0$._
+* _$\cchi_T\!\l(\lambda\r)=0$._
 
 ```
 
-**Remark.** Since $\upchi_T$ is a polynomial with degree $\dim V$ whose roots are exactly the eigenvalues of $T$, we see that $T$ has at most $\dim V$-many eigenvalues.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Since $\cchi_T$ is a polynomial with degree $\dim V$ whose roots are exactly the eigenvalues of $T$, we see that $T$ has at most $\dim V$-many eigenvalues.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
 _Proof_. If $\lambda$ is an eigenvalue of $T$, then $T\l(v\r)=\lambda v$ for some non-zero $v\in V$. But this is equivalent to $\l(\lambda\id_V-T\r)\l(v\r)=0$ for some non-zero $v\in V$, so the map $T-\lambda\id_V$ is not injective.
 * The three equivalences hold since $T$ is a linear operator, so it is injective iff it is surjective.
 
-The converse is clear, since if $\lambda\id_V-T$ is not injective, then $\l(\lambda\id_V-T\r)\l(v\r)=0$ for some non-zero $v\in V$. Hence $T\l(v\r)=\lambda v$, so $\lambda$ is an eigenvalue of $T$. Finally, the last equivalent holds since $\lambda\id_V-T$ is not invertible iff $\upchi_T\!\l(\lambda\r)=\det\l(\lambda\id_V-T\r)=0$.<span style="float:right;">$\blacksquare$</span>
+The converse is clear, since if $\lambda\id_V-T$ is not injective, then $\l(\lambda\id_V-T\r)\l(v\r)=0$ for some non-zero $v\in V$. Hence $T\l(v\r)=\lambda v$, so $\lambda$ is an eigenvalue of $T$. Finally, the last equivalent holds since $\lambda\id_V-T$ is not invertible iff $\cchi_T\!\l(\lambda\r)=\det\l(\lambda\id_V-T\r)=0$.<span style="float:right;">$\blacksquare$</span>
