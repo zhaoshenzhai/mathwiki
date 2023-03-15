@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 30/12/2022 16:43:15
 Tags: #Definition #Topics/Analysis #Courses/MATH358
 
-Types: [[Frechet Differentiability]]
+Types: [[Frechet Differentiability slash Derivative]]
 Examples: _Not Applicable_
 Constructions: [[Directional slash Partial Derivative]]
 Generalizations: _Not Applicable_

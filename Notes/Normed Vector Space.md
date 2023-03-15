@@ -5,7 +5,7 @@ Tags: #Definition #Courses/MATH255
 
 Types: [[Banach Space]]
 Examples: [[lp Space]], [[Operator Norm]]
-Constructions: [[Norm induces a metric]], [[Bounded Linear Map]]
+Constructions: [[Norm induces a metric]], [[Bounded Linear Map]], [[Frechet Differentiability slash Derivative]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
