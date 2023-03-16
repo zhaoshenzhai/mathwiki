@@ -5,9 +5,9 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 21/06/2022 08:05:38
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
-Proved by: [[Linearly dependent iff exists span redundant element]]
+Proved by: _Not Applicable_
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -21,28 +21,11 @@ _Let $V$ be a $K$-vector space and consider a linear operator $T:V\to V$. If $\l
 
 ```
 
-_Proof_. Suppose, for sake of contradiction, that $\l\{v_1,\dots,v_m\r\}$ is linearly dependent. Thus there exists a span redundant element, so we may let $k\in\N^+$ be the smallest number such that $v_k\in\span\l\{v_1,\dots,v_{k-1}\r\}$. Hence there exist scalars $\alpha_1,\dots,\alpha_{k-1}\in K$ such that
+_Proof_. We proceed by induction on $m$.
+* If $m=1$, then, since $v_1\neq0$, we see that $\l\{v_1\r\}$ is linearly independent.
+
+Suppose now that $\l\{v_1,\dots,v_{m-1}\r\}$ is linearly independent for some $m-1\geq1$. If $\sum_{i=1}^{m}\alpha_iv_i=0$ for some $\alpha_i\in K$, then, applying $T-\lambda_m\id_V$ on both sides, we see that
 $$\begin{equation}
-    v_k=\sum_{i=1}^{k-1}\alpha_iv_i.\cref{\ast}
+    \sum_{i=1}^{m}\alpha_iT\l(v_i\r)-\alpha_i\lambda_mv_i=\sum_{i=1}^{m}\alpha_i\l(\lambda_i-\lambda_m\r)v_i=\sum_{i=1}^{m-1}\alpha_i\l(\lambda_i-\lambda_m\r)v_i=0.
 \end{equation}$$
-Applying $T$ to both sides, we see that
-$$\begin{equation}
-    T\l(v_k\r)=T\l(\sum_{i=1}^{k-1}\alpha_iv_i\r)=\sum_{i=1}^{k-1}\alpha_iT\l(v_i\r),
-\end{equation}$$
-but since each $v_i$ is an eigenvector of $T$ with eigenvalue $\lambda_i$, this reduces to
-$$\begin{equation}
-    \lambda_kv_k=\sum_{i=1}^{k-1}\alpha_i\lambda_iv_i.
-\end{equation}$$
-We may also multiply both sides of $\ref{\ast}$ by $\lambda_k$ to obtain
-$$\begin{equation}
-    \lambda_kv_k=\lambda_k\sum_{i=1}^{k-1}\alpha_iv_i=\sum_{i=1}^{k-1}\alpha_i\lambda_kv_i,
-\end{equation}$$
-so, equating the expressions for $\lambda_kv_k$ and rearranging, we obtain
-$$\begin{equation}
-    \sum_{i=1}^{k-1}\alpha_i\l(\lambda_k-\lambda_i\r)v_i=0.
-\end{equation}$$
-Since $k$ is the smallest number such that $v_k$ is span-redundant, we see that $\l\{v_1,\dots,v_{k-1}\r\}$ is linearly independent and hence the preceding equation implies that each
-$$\begin{equation}
-    \alpha_i\l(\lambda_k-\lambda_i\r)=0.
-\end{equation}$$
-But since each $\lambda_i\neq\lambda_k$, this forces each $\alpha_i=0$. Hence $v_k=0$ by $\ref{\ast}$, contradicting the hypothesis that $v_k$ is an eigenvector of $T$.<span style="float:right;">$\blacksquare$</span>
+Linear independence of $\l\{v_1,\dots,v_{m-1}\r\}$ shows that $\alpha_i\l(\lambda_i-\lambda_m\r)=0$ for all $1\leq i\leq m-1$, but since $\lambda_i\neq\lambda_m$ for all $1\leq i\leq m-1$, we see that each $\alpha_i=0$. Thus $\alpha_mv_m=0$, so $\alpha_m=0$ too.<span style="float:right;">$\blacksquare$</span>
