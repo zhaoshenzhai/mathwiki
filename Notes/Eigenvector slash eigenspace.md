@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Diagonalizable iff exists basis for eigenvectors]]
 Sufficiencies: [[Distinct eigenvalues implies linearly independent eigenvectors]]
-Equivalences: [[Eigenvector iff span is invariant under linear map]]
+Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
 ``` ad-Definition

@@ -4,12 +4,12 @@ Date Created: 08/03/2023 15:50:44
 Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
-Examples: [[Characteristic polynomial for a diagonalizable operator]]
+Examples: [[Characteristic polynomial of restriction to invatiant subspace]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Eigenvalue iff root of characteristic polynomial]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Characteristic polynomial for a diagonalizable operator]]
 Equivalences: _Not Applicable_
 Justifications: [[Characteristic polynomial is a polynomial]], [[Identity function repr under basis by identity matrix]]
 
