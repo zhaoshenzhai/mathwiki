@@ -7,7 +7,7 @@ mathLink: Sequences in $\R$
 Date Created: 29/08/2022 16:52:42
 Tags: #Definition #Topics/Analysis
 
-Types: [[Monotone Sequence]], [[Geometric Sequence]], [[Alternating Sequence]]
+Types: [[Monotone Sequence]]
 Examples: _Not Applicable_
 Constructions: [[Sequential Limits in R]]
 Generalizations: [[Sequences in a Metric Space]]

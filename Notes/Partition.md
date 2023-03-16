@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Set_Theory
 
 Types: _Not Applicable_
 Examples: [[Set of cosets partition the group]]
-Constructions: [[Relation Induced by a Partition]]
+Constructions: [[Relation Induced by a Partition]], [[Regrouping of Series]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

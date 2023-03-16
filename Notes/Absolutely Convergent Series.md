@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 11/09/2022 11:16:02
-Tags: #Definition #Later/Analysis #Later/Analysis
+Tags: #Definition #Topics/Analysis
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -9,17 +9,15 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Ratio Test (Series)]], [[Root Test (Series)]]
+Sufficiencies: [[Ratio Tests (Series)]], [[Root Test (Series)]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
 
-_Let $I\coloneqq\l[n_0,\infty\r)\subseteq\Z$ and consider a convergent sequence_ $\tpl{a_n}_{n\in I}$ _in either $\R$ or $\C$. We say that the_ **_infinite series of_ $\tpl{a_n}_{n\in I}$ _converges absolutely_** _if_
-$$\begin{equation}
-    \lim_{N\to\infty}\sum_{n=n_0}^{N}\l|a_n\r|
-\end{equation}$$
-_exists. Otherwise, we say that the_ **_infinite series of_ $\tpl{a_n}_{n\in I}$ _converges conditionally_**_._
+_Let $\tpl{a_k}$ be a sequence in either $\R$ or $\C$. We say that_ **$\sum_{k=0}^{\infty}a_k$ _converges absolutely_** _if_ $\sum_{k=0}^{\infty}\l|a_k\r|$ _converges too. Otherwise, if_ $\sum_{k=0}^{\infty}a_k$ _converges but_ $\sum_{k=0}^{\infty}\l|a_k\r|$ _does not, we say that_ **$\sum_{k=0}^{\infty}a_k$ _converges conditionally_**_._
 
 ```
+
+**Remark.** It is clear that if $\sum_{k=0}^{\infty}a_k$ converges absolutely, then it converges.<span style="float:right;">$\blacklozenge$</span>

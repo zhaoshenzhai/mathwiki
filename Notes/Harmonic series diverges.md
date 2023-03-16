@@ -8,12 +8,12 @@ References: _Not Applicable_
 Justifications: _Not Applicable_
 
 Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Generalizations: [[p series converges iff p>1]]
 
 ``` ad-Proposition
 title: Proposition.
 
-_The infinite series_ $\sum_{n=1}^{\infty}1/n$ _diverges._
+_The infinite series_ $\sum_{k=1}^{\infty}1/k$ _diverges._
 
 ```
 
