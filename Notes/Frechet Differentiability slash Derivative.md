@@ -27,8 +27,3 @@ $$\begin{equation}
 _in which case $Df\l(p\r)\coloneqq T$ is said to be the **(Fréchet) derivative of $f$ at $p$**._
 
 ```
-
-**Remark.** If $f$ is differentiable at all $p\in U$, then we may define the **(Fréchet) derivative of $f$** as the function
-$$\begin{equation}
-    Df:U\to Y\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ p\to Df\l(p\r).\exqedin
-\end{equation}$$
