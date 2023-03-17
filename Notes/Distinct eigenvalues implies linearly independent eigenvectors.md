@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a $K$-vector space and consider a linear operator $T:V\to V$. If $\lambda_1,\dots,\lambda_m\in K$ are distinct eigenvalues of $T$ and $v_1,\dots,v_m\in V$ are their corresponding eigenvectors, then $\l\{v_1,\dots,v_m\r\}$ is linearly independent._
+_Let $T:V\to V$ be a linear operator on a $K$-vector space $V$. If $\lambda_1,\dots,\lambda_m\in K$ are distinct eigenvalues of $T$ and $v_1,\dots,v_m\in V$ are their corresponding eigenvectors, then $\l\{v_1,\dots,v_m\r\}$ is linearly independent._
 
 ```
 

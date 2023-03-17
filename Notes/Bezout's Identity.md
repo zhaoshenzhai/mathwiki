@@ -1,5 +1,5 @@
 ---
-mathLink: B$\acute{\textrm{e}}$zout$\textrm{'}$s Identity
+mathLink: Bézout$\textrm{'}$s Identity
 ---
 
 <div class="topSpace"></div>
@@ -15,7 +15,7 @@ Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
 ``` ad-Theorem
-title: Theorem (B$\acute{\textbf{e}}$zout$\textbf{'}$s Identity).
+title: Theorem (Bézout$\textbf{'}$s Identity).
 
 _Let $R$ be a commutative ring and fix $a,b\in R\comp\l\{0\r\}$. If there exists some $d\in R$ such that $\ideal{a,b}=\ideal{d}$, then $d=\gcd\l(a,b\r)$._
 

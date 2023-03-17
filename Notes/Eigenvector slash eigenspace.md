@@ -10,7 +10,7 @@ Tags: #Definition #Topics/Linear_Algebra
 Types: _Not Applicable_
 Examples: _Not Applicable_
 Constructions: [[Diagonalization Test]]
-Generalizations: _Not Applicable_
+Generalizations: [[Generalized Eigenvector slash Eigenspace]]
 
 Properties: _Not Applicable_
 Sufficiencies: [[Distinct eigenvalues implies linearly independent eigenvectors]]
@@ -20,7 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a finite-dimensional $K$-vector space and consider a linear operator $T:V\to V$. If $\lambda\in K$ is an eigenvalue of $T$, then_
+_Let $T:V\to V$ be a linear operator on a $K$-vector space $V$. If $\lambda\in K$ is an eigenvalue of $T$, then_
 $$\begin{equation}
     E_\lambda\coloneqq\ker\l(\lambda\id_V-T\r)=\l\{v\in V\mid T\l(v\r)=\lambda v\r\}
 \end{equation}$$
