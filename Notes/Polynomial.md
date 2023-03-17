@@ -4,7 +4,7 @@ Date Created: 09/01/2023 10:28:01
 Tags: #Definition #Topics/Ring_Theory
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Characteristic Polynomial]], [[Minimal Polynomial]]
 Constructions: [[Polynomial Ring]], [[Vector Space of Polynomials]], [[Content slash primitive polynomials]]
 Generalizations: _Not Applicable_
 
