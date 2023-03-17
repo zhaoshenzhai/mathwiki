@@ -8,7 +8,7 @@ Examples: [[Eigenvector slash eigenspace]], [[Cyclic Subspace]], [[Kernel; Null 
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Basic properties of characteristic polynomial and invariant subspaces]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

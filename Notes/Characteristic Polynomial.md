@@ -4,11 +4,11 @@ Date Created: 08/03/2023 15:50:44
 Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
-Examples: [[Characteristic polynomial of restriction to invatiant subspace]]
+Examples: _Not Applicable_
 Constructions: [[Algebraic slash geometric multiplicity]]
 Generalizations: _Not Applicable_
 
-Properties: [[Eigenvalue iff root of characteristic polynomial]]
+Properties: [[Eigenvalue iff root of characteristic polynomial]], [[Basic properties of characteristic polynomial and invariant subspaces]]
 Sufficiencies: [[Characteristic polynomial for a diagonalizable operator]]
 Equivalences: _Not Applicable_
 Justifications: [[Characteristic polynomial is a polynomial]], [[Identity function repr under basis by identity matrix]]
