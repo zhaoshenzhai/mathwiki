@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Characteristic polynomial of restriction to invatiant subspace]]
-Constructions: _Not Applicable_
+Constructions: [[Algebraic slash geometric multiplicity]]
 Generalizations: _Not Applicable_
 
 Properties: [[Eigenvalue iff root of characteristic polynomial]]

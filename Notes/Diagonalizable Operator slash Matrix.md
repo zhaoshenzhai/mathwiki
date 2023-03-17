@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Characteristic polynomial for a diagonalizable operator]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Diagonalizable iff exists basis for eigenvectors]]
+Equivalences: [[Diagonalization Test]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

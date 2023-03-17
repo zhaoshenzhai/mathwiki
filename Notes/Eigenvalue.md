@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Eigenvector slash eigenspace]]
+Constructions: [[Eigenvector slash eigenspace]], [[Algebraic slash geometric multiplicity]]
 Generalizations: _Not Applicable_
 
 Properties: [[Distinct eigenvalues implies linearly independent eigenvectors]]

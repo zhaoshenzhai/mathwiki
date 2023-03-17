@@ -9,10 +9,10 @@ Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Diagonalization Test]]
 Generalizations: _Not Applicable_
 
-Properties: [[Diagonalizable iff exists basis for eigenvectors]]
+Properties: _Not Applicable_
 Sufficiencies: [[Distinct eigenvalues implies linearly independent eigenvectors]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
