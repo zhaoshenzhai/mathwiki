@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$. For any eigenvalue $\lambda\in K$ of $T$, its geometric multiplicity is not more than its algebraic multiplicity._
+_Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$. For any eigenvalue $\lambda\in K$ of $T$, its geometric multiplicity is no more than its algebraic multiplicity._
 
 ```
 
