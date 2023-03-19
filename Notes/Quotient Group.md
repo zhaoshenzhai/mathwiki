@@ -16,7 +16,7 @@ Justifications: [[Quotient group is a group]]
 ``` ad-Definition
 title: Definition.
 
-_Let $N\nsubgrpeq G$ be a normal subgroup of a group $\tpl{G,\ast}$. Then the **quotient group of $G$ under $N$** is the group $\tpl{G/N,\blob}$ where $G/N\coloneqq G/\!\sim$ is the quotient set of the equivalence relation $\sim$ on $G$ defined by_
+_Let $N\nsgrpeq G$ be a normal subgroup of a group $\tpl{G,\ast}$. Then the **quotient group of $G$ under $N$** is the group $\tpl{G/N,\blob}$ where $G/N\coloneqq G/\!\sim$ is the quotient set of the equivalence relation $\sim$ on $G$ defined by_
     $$\begin{equation}
         g_1\sim g_2\ \ \ \ \ \ \ \ \,\colon\!\Leftrightarrow\ \ \ \ \ \ \ \ g_1N=g_2N
     \end{equation}$$

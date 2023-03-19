@@ -1,5 +1,5 @@
 ---
-mathLink: $\ord{g}=\ord{\cyclic{g}}$
+mathLink: $\ord{g}=\ord{\sgrp{g}}$
 ---
 
 <div class="topSpace"></div>
@@ -17,19 +17,19 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G$ be a group. Then, for all $g\in G$, we have $\ord{g}=\ord{\cyclic{g}}$._
+_Let $G$ be a group. Then, for all $g\in G$, we have $\ord{g}=\ord{\sgrp{g}}$._
 
 ```
 
 **Remark.** For a finite group $G$, this shows that $G$ is cyclic iff there exists some $g\in G$ such that $\ord{g}=\ord{G}$.
 
-* If $G$ is cyclic, then there exists some $g\in G$ such that $\cyclic{g}=G$. Thus $\ord{\cyclic{g}}=\ord{G}$, but since $\ord{g}=\ord{\cyclic{g}}$, we see that $\ord{g}=\ord{G}$.
-* If $\ord{g}=\ord{G}$, then, since $\ord{g}=\ord{\cyclic{g}}$, we see that $\ord{\cyclic{g}}=\ord{G}$. Since $\cyclic{g}\subseteq G$ and $G$ have the same number of elements, they must coincide.<span style="float:right;">$\blacklozenge$</span>
+* If $G$ is cyclic, then there exists some $g\in G$ such that $\sgrp{g}=G$. Thus $\ord{\sgrp{g}}=\ord{G}$, but since $\ord{g}=\ord{\sgrp{g}}$, we see that $\ord{g}=\ord{G}$.
+* If $\ord{g}=\ord{G}$, then, since $\ord{g}=\ord{\sgrp{g}}$, we see that $\ord{\sgrp{g}}=\ord{G}$. Since $\sgrp{g}\subseteq G$ and $G$ have the same number of elements, they must coincide.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-_Proof_. Consider the function $\phi:\cyclic{g}\to\l\{0,\dots,\ord{g}-1\r\}$ mapping $g^n\mapsto r$ where $0\leq r<n$ is the unique integer furnished by the Division Algorithm applied to $n$ and $\ord{g}$ such that $n=q\ord{g}+r$ for some unique $q\in\Z$. We claim that $\phi$ is a bijection, which proves that $\ord{\cyclic{g}}=\ord{g}$.
-* (Injection): Take $g^n,g^m\in\cyclic{g}$ such that $\phi\l(g^n\r)=\phi\l(g^m\r)$. Then
+_Proof_. Consider the function $\phi:\sgrp{g}\to\l\{0,\dots,\ord{g}-1\r\}$ mapping $g^n\mapsto r$ where $0\leq r<n$ is the unique integer furnished by the Division Algorithm applied to $n$ and $\ord{g}$ such that $n=q\ord{g}+r$ for some unique $q\in\Z$. We claim that $\phi$ is a bijection, which proves that $\ord{\sgrp{g}}=\ord{g}$.
+* (Injection): Take $g^n,g^m\in\sgrp{g}$ such that $\phi\l(g^n\r)=\phi\l(g^m\r)$. Then
 $$\begin{equation}
     n=q_1\ord{g}+r\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ m=q_2\ord{g}+r
 \end{equation}$$

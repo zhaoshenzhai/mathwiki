@@ -18,7 +18,7 @@ Generalizations: _Not Applicable_
 title: Proposition.
 
 _Let $N\subseteq G$ be a subgroup of a group $G$. Then the following are equivalent._
-1. $N\nsubgrpeq G$.
+1. $N\nsgrpeq G$.
 2. $\fa g\in G:gNg^{-1}\subseteq N$.
 3. $\fa g\in G:gNg^{-1}=N$.
 

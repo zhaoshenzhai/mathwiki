@@ -20,7 +20,7 @@ Justifications: [[Quotient group is a group]]
 ``` ad-Definition
 title: Definition.
 
-_Fix $n\in\N^+$ and consider the normal subgroup $n\Z\nsubgrpeq\Z$ defined as_
+_Fix $n\in\N^+$ and consider the normal subgroup $n\Z\nsgrpeq\Z$ defined as_
 $$\begin{equation}
     n\Z\coloneqq\l\{a\in\Z\mid n\textrm{\it{ divides }}a\r\}.
 \end{equation}$$

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $N\nsubgrpeq G$ be a normal subgroup of a group $G$. Then the canonical projection $\pi:G\to G/N:g\to gN$ is a homomorphism._
+_Let $N\nsgrpeq G$ be a normal subgroup of a group $G$. Then the canonical projection $\pi:G\to G/N:g\to gN$ is a homomorphism._
 
 ```
 

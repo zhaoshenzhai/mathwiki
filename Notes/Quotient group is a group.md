@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $N\nsubgrpeq G$ be a normal subgroup of a group $\tpl{G,\ast}$ and consider the quotient set $G/N\coloneqq G/\!\sim$ of $G$ under the equivalence relation $\sim$ defined by_
+_Let $N\nsgrpeq G$ be a normal subgroup of a group $\tpl{G,\ast}$ and consider the quotient set $G/N\coloneqq G/\!\sim$ of $G$ under the equivalence relation $\sim$ defined by_
 $$\begin{equation}
     g_1\sim g_2\ \ \ \ \ \ \ \ \,\colon\!\Leftrightarrow\ \ \ \ \ \ \ \ g_1N=g_2N
 \end{equation}$$

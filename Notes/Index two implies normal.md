@@ -1,5 +1,5 @@
 ---
-mathLink: $\l[G:N\r]=2\Rightarrow N\nsubgrpeq G$
+mathLink: $\l[G:N\r]=2\Rightarrow N\nsgrpeq G$
 ---
 
 <div class="topSpace"></div>
@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $N\subseteq G$ be a subgroup of a group $G$. If $\l[G:N\r]=2$, then $N\nsubgrpeq G$._
+_Let $N\subseteq G$ be a subgroup of a group $G$. If $\l[G:N\r]=2$, then $N\nsgrpeq G$._
 
 ```
 

@@ -19,6 +19,6 @@ title: Definition.
 _Let $N_1$ and $N_2$ be subgroups of a group $G$. Then $G$ is said to be an **(internal) direct product of $N_1$ and $N_2$** if_
 * _(Generating): $G=N_1N_2\coloneqq\l\{n_1n_2\in G\mid n_1\in N_1\land n_2\in N_2\r\}$._
 * _(Trivial intersection): $N_1\cap N_2=\l\{e\r\}$._
-* _(Normality): $N_1,N_2\nsubgrpeq G$._
+* _(Normality): $N_1,N_2\nsgrpeq G$._
 
 ```

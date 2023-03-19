@@ -21,7 +21,7 @@ _Fix $n\in\N^+$. Then $\ord{\Z_n}=n$._
 
 ```
 
-_Proof_. We claim that $\ord{\l[1\r]}=n$, for then since $\cyclic{\l[1\r]}=\Z_n$, we have $\ord{\Z_n}=\ord{\l[1\r]}=n$. First, observe that
+_Proof_. We claim that $\ord{\l[1\r]}=n$, for then since $\sgrp{\l[1\r]}=\Z_n$, we have $\ord{\Z_n}=\ord{\l[1\r]}=n$. First, observe that
 $$\begin{equation}
     n\cdot\l[1\r]=\underbrace{\l[1\r]\!+\!\cdots+\!\l[1\r]}_{\mathclap{n\textrm{\ times}}}=[\underbrace{1+\cdots+1}_{\mathclap{n\textrm{\ times}}}]=\l[n\r]=\l[0\r],
 \end{equation}$$

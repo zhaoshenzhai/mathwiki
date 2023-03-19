@@ -18,11 +18,11 @@ _Let $G_1$ and $G_2$ be groups and consider a homomorphism $\phi:G_1\to G_2$. Le
 * _(Preserve inverses): $\fa g\in G_1:\l[\phi\l(g\r)\r]^{-1}=\phi\l(g^{-1}\r)$._
 * _(Image preserve subgroups):_ $\im_\phi\!\l(H_1\r)\subseteq G_2$ _is a subgroup._
 * _(Preimage preserve subgroups):_ $\preim_\phi\!\l(H_2\r)\subseteq G_1$ _is a subgroup._
-* _(Preimage preserve normality): If $H_2\nsubgrpeq G_2$, then_ $\preim_\phi\!\l(H_2\r)\nsubgrpeq G_1$_._
+* _(Preimage preserve normality): If $H_2\nsgrpeq G_2$, then_ $\preim_\phi\!\l(H_2\r)\nsgrpeq G_1$_._
 
 ```
 
-**Remark.** In particular, $\im\phi\subseteq G_2$ and $\ker\phi\nsubgrpeq G_1$ are subgroups.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** In particular, $\im\phi\subseteq G_2$ and $\ker\phi\nsgrpeq G_1$ are subgroups.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
@@ -57,8 +57,8 @@ and observe that the results follow from cancellation.
         \phi\l(g_1^{-1}\r)=\l[\phi\l(g_1\r)\r]^{-1}=g_2^{-1}\in H_2.
     \end{equation}$$
 
-    Assume now that $H_2\nsubgrpeq G_2$; it suffices to show that $g_1\l[\preim_\phi\!\l(H_2\r)\r]g_1^{-1}\subseteq\preim_\phi\!\l(H_2\r)$. Indeed, take $k\in\preim_\phi\!\l(H_2\r)$, so $\phi\l(k\r)=k'$ for some $k'\in H_2$. Then
+    Assume now that $H_2\nsgrpeq G_2$; it suffices to show that $g_1\l[\preim_\phi\!\l(H_2\r)\r]g_1^{-1}\subseteq\preim_\phi\!\l(H_2\r)$. Indeed, take $k\in\preim_\phi\!\l(H_2\r)$, so $\phi\l(k\r)=k'$ for some $k'\in H_2$. Then
     $$\begin{equation}
         \phi\l(g_1kg_1^{-1}\r)=\phi\l(g_1\r)\phi\l(k\r)\phi\l(g^{-1}\r)=\phi\l(g_1\r)k'\l[\phi\l(g_1\r)\r]^{-1}\in H_2,
     \end{equation}$$
-    where the membership follows from the fact that $H_2\nsubgrpeq G_2$. Thus $g_1kg_1^{-1}\in\preim_\phi\!\l(H_2\r)$.<span style="float:right;">$\blacksquare$</span>
+    where the membership follows from the fact that $H_2\nsgrpeq G_2$. Thus $g_1kg_1^{-1}\in\preim_\phi\!\l(H_2\r)$.<span style="float:right;">$\blacksquare$</span>
