@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Absolute convergence implies rearrangements coincide]]
 Sufficiencies: [[Ratio Tests (Series)]], [[Root Test (Series)]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

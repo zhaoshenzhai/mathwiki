@@ -5,11 +5,11 @@ Tags: #Definition #Topics/Analysis
 
 Types: [[Absolutely Convergent Series]]
 Examples: [[Geometric series converes iff r<1]], [[Harmonic series diverges]], [[p series converges iff p>1]]
-Constructions: [[Regrouping of Series]], [[Power Series]]
+Constructions: [[Regrouping of Series]], [[Rearrangement of Series]], [[Power Series]]
 Generalizations: _Not Applicable_
 
-Properties: [[Basic properties of infinite series]]
-Sufficiencies: [[Comparison Tests (Series)]], [[Alternating Series Test]]
+Properties: [[Riemann's Rearrangement Theorem]], [[Basic properties of infinite series]]
+Sufficiencies: [[Comparison Tests (Series)]], [[Dirichlet's Test]], [[Alternating Series Test]]
 Equivalences: [[Integral Test]]
 Justifications: [[Monotone Convergence Theorem]], [[Metric-completeness of R]]
 
