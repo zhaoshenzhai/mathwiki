@@ -11,7 +11,7 @@ Proved by: [[Abel's Summation Formula]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
-Specializations: _Not Applicable_
+Specializations: [[Alternating Series Test]]
 Generalizations: _Not Applicable_
 
 ``` ad-Proposition

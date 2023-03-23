@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Group_Theory
 
 Types: [[k-cycle]], [[Even and Odd Permutation]]
 Examples: _Not Applicable_
-Constructions: [[Symmetric Group]]
+Constructions: [[Symmetric Group]], [[Rearrangement of Series]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
