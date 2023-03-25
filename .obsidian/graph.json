@@ -1,11 +1,11 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "path:Notes",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#Definition",
@@ -46,13 +46,13 @@
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.80688778393039,
+  "nodeSizeMultiplier": 1.6296926206351,
   "lineSizeMultiplier": 1.29302181037405,
   "collapse-forces": true,
   "centerStrength": 0.102440953780088,
   "repelStrength": 20,
-  "linkStrength": 0.858176065092101,
+  "linkStrength": 0.572550570685953,
   "linkDistance": 500,
-  "scale": 0.013409691151478642,
-  "close": true
+  "scale": 0.01789393893624328,
+  "close": false
 }
