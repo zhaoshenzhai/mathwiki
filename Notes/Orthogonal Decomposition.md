@@ -26,15 +26,15 @@ $$\begin{equation}
 
 _Proof_. It suffices to show that $V=U+U^\perp$ since $U\cap U^\perp=\l\{0\r\}$. To this end, let $\l\{e_1,\dots,e_m\r\}$ be an orthonormal basis for $U$. Take $v\in V$ and observe that
 $$\begin{equation}
-    v=\underbrace{\sum_{i=1}^m\bilform{v}{e_i}e_i}_{u\,\coloneqq}+\underbrace{v-\sum_{i=1}^m\bilform{v}{e_i}e_i}_{w\,\coloneqq}.
+    v=\underbrace{\sum_{i=1}^m\inprod{v}{e_i}e_i}_{u\,\coloneqq}+\underbrace{v-\sum_{i=1}^m\inprod{v}{e_i}e_i}_{w\,\coloneqq}.
 \end{equation}$$
 Clearly $u\in U$. Observe that
 $$\begin{equation}
     \begin{aligned}
-        \bilform{w}{e_j}&=\bilform{v-\sum_{i=1}^m\bilform{v}{e_i}e_i}{e_j} && \textrm{Substitution} \\
-        &=\bilform{v}{e_j}-\sum_{i=1}^n\bilform{v}{e_i}\bilform{e_i}{e_j} && \textrm{Linearity in the first slot} \\
-        &=\bilform{v}{e_j}-\sum_{i=1}^n\bilform{v}{e_i}\delta_{ij} && \bilform{e_i}{e_j}=\delta_{ij} \\
-        &=\bilform{v}{e_j}-\bilform{v}{e_j} && \delta_{ij}=0\textrm{ for all }i\neq j \\
+        \inprod{w}{e_j}&=\inprod{v-\sum_{i=1}^m\inprod{v}{e_i}e_i}{e_j} && \textrm{Substitution} \\
+        &=\inprod{v}{e_j}-\sum_{i=1}^n\inprod{v}{e_i}\inprod{e_i}{e_j} && \textrm{Linearity in the first slot} \\
+        &=\inprod{v}{e_j}-\sum_{i=1}^n\inprod{v}{e_i}\delta_{ij} && \inprod{e_i}{e_j}=\delta_{ij} \\
+        &=\inprod{v}{e_j}-\inprod{v}{e_j} && \delta_{ij}=0\textrm{ for all }i\neq j \\
         &=0 && \textrm{Simplification}
     \end{aligned}
 \end{equation}$$

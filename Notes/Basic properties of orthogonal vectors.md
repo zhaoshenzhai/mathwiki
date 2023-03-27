@@ -23,12 +23,12 @@ _Proof_. Take $v,w\in V$.
 * The result follows from the following chain of equivalences:
 $$\begin{equation}
     \begin{aligned}
-        v\perp w&\Leftrightarrow\bilform{v}{w}=0 && \textrm{Definition of $\perp$} \\
-        &\Leftrightarrow\bar{\bilform{w}{v}}=0 && \textrm{Conjugate-symmetry} \\
-        &\Leftrightarrow\bilform{w}{v}=0 && \textrm{Properties of $\bar{\l(\slot\r)}$} \\
+        v\perp w&\Leftrightarrow\inprod{v}{w}=0 && \textrm{Definition of $\perp$} \\
+        &\Leftrightarrow\bar{\inprod{w}{v}}=0 && \textrm{Conjugate-symmetry} \\
+        &\Leftrightarrow\inprod{w}{v}=0 && \textrm{Properties of $\bar{\l(\slot\r)}$} \\
         &\Leftrightarrow w\perp v. && \textrm{Definition of $\perp$}
     \end{aligned}
 \end{equation}$$
 
-* Observe that $0\perp v\Leftrightarrow\bilform{0}{v}=0$, and since the function $\bilform{\slot}{v}:V\to K$ is linear, we see that $\bilform{0}{v}=0$.
-* If $v\perp v$, then $\bilform{v}{v}=0$ and hence $v=0$ since $\bilform{\slot}{\slot}$ is positive-definite.<span style="float:right;">$\blacksquare$</span>
+* Observe that $0\perp v\Leftrightarrow\inprod{0}{v}=0$, and since the function $\inprod{\slot}{v}:V\to K$ is linear, we see that $\inprod{0}{v}=0$.
+* If $v\perp v$, then $\inprod{v}{v}=0$ and hence $v=0$ since $\inprod{\slot}{\slot}$ is positive-definite.<span style="float:right;">$\blacksquare$</span>

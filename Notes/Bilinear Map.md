@@ -17,7 +17,6 @@ Justifications: _Not Applicable_
 title: Definition.
 
 _Let $V_1,V_2,W$ be $K$-vector spaces. A function $f:V_1\times V_2\to W$ is said to be a **bilinear map** if it is linear in both slots; that is, if, for all fixed $u_1\in V_1$ and $u_2\in V_2$, the functions $f\l(u_1,\slot\r)$ and $f\l(\slot,u_2\r)$ are linear._
-
-_If $W=K$, then $f$ is said to be a **bilinear form**._
+* _If $W=K$, then $f$ is said to be a **bilinear form**._
 
 ```

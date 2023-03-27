@@ -18,7 +18,7 @@ title: Definition.
 
 _Fix $n\in\N^+$. The **Euclidean $n$-coordinate space** is the real $n$-coordinate space $\R^n$ equipped with the inner product_
 $$\begin{equation}
-    \bilform{\slot}{\slot}:\R^n\times\R^n\to\R\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ \tpl{\v{x},\v{y}}\mapsto\sum_{i=1}^nx_iy_i
+    \inprod{\slot}{\slot}:\R^n\times\R^n\to\R\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ \tpl{\v{x},\v{y}}\mapsto\sum_{i=1}^nx_iy_i
 \end{equation}$$
 _called the **dot product on $\R^n$** (denoted $\v{x}\dotpro\v{y}$). This makes $\R^n$ into an inner product space._
 

@@ -16,12 +16,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a complex vector space. A **Hermitian form on $V$** is a function_
-$$\begin{equation}
-    \bilform{\slot}{\slot}:V\times V\to\C
-\end{equation}$$
-_such that:_
-* _(Linearity in the first slot): $\fa v_1,v_2,w\in V,\fa\alpha\in\C:\bilform{\alpha v_1+v_2}{w}=\alpha\bilform{v_1}{w}+\bilform{v_2}{w}$._
-* _(Conjugate-symmetry): $\fa v,w\in V:\bilform{v}{w}=\bar{\bilform{w}{v}}$._
+_Let $V$ be a complex vector space. A **Hermitian form on $V$** is a function $\inprod{\slot}{\slot}:V\times V\to\C$ such that:_
+* _(Linearity in the first slot): $\fa v_1,v_2,w\in V,\fa\alpha\in\C:\inprod{\alpha v_1+v_2}{w}=\alpha\inprod{v_1}{w}+\inprod{v_2}{w}$._
+* _(Conjugate-symmetry): $\fa v,w\in V:\inprod{v}{w}=\bar{\inprod{w}{v}}$._
 
 ```

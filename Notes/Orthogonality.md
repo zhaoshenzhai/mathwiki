@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. Two vectors $u,w\in V$ are said to be **orthogonal** if $\bilform{u}{w}=0$, in which case we write $u\perp w$._
+_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. Two vectors $u,w\in V$ are said to be **orthogonal** if $\inprod{u}{w}=0$, in which case we write $u\perp w$._
 
 ```
 

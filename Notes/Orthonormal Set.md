@@ -18,7 +18,7 @@ title: Definition.
 
 _Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. An indexed subset_ $\l\{u_i\r\}_{i\in I}\subseteq V$ _is called an **orthonormal set** if each vector has unit norm and if the vectors are pairwise orthogonal; that is, if_
 $$\begin{equation}
-    \bilform{u_i}{u_j}=\delta_{ij}
+    \inprod{u_i}{u_j}=\delta_{ij}
 \end{equation}$$
 _for all $i,j\in I$._
 
