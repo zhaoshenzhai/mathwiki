@@ -3,7 +3,7 @@
 Date Created: 16/03/2023 11:19:33
 Tags: #Proposition #Topics/Analysis
 
-Proved by: [[Geometric series converges iff r less than 1]], [[Comparison Tests (Series)]], [[Limit Superior slash Inferior]]
+Proved by: [[Geometric series converges iff r less than 1]], [[Comparison Tests (Series)]], [[Criteria for limit superior slash inferior]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -11,13 +11,13 @@ Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
 ``` ad-Proposition
-title: Proposition (Ratio Tests).
+title: Proposition (Ratio Tests for Series).
 
 _Let $\tpl{a_n}$ be a non-zero sequence in $\R$._
 * _(Direct Ratio Test): If _ $\l|a_{n+1}/a_n\r|<1$ _eventually, then_ $\sum_{n=0}^{\infty}a_n$ _converges absolutely. Otherwise, if_ $\l|a_{n+1}/a_n\r|\geq1$ _eventually, then_ $\sum_{n=0}^{\infty}a_n$ _diverges._
 
 _We strengthen the test to the Limit Ratio Test as follows:_
-* _If_ $\limsup\limits_{n\to\infty}\l|\frac{a_{n+1}}{a_n}\r|<1$_, then_ $\sum_{n=0}^{\infty}a_n$ _converges._
+* _If_ $\limsup\limits_{n\to\infty}\l|\frac{a_{n+1}}{a_n}\r|<1$_, then_ $\sum_{n=0}^{\infty}a_n$ _converges absolutely._
 * _If_ $\liminf\limits_{n\to\infty}\l|\frac{a_{n+1}}{a_n}\r|>1$_, then_ $\sum_{n=0}^{\infty}a_n$ _diverges._
 
 ```

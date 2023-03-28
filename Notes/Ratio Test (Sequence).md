@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/10/2022 17:41:09
-Tags: #Theorem #Topics/Analysis
+Tags: #Proposition #Topics/Analysis
 
 Proved by: [[Sequential Limit Theorems in R]], [[Limit of geometric]], [[Squeezed Distance Lemma]], [[Comparison Test (Sequence)]]
 References: _Not Applicable_
@@ -10,8 +10,8 @@ Justifications: _Not Applicable_
 Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
-``` ad-Theorem
-title: Theorem (Ratio Test).
+``` ad-Proposition
+title: Proposition (Ratio Test for Sequences).
 
 _Let_ $\tpl{x_n}_{n\in\N}$ _be a sequence in $\R$ such that $\fa^\infty n\in\N:x_n\neq0$ and set_
 $$\begin{equation}
