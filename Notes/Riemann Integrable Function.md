@@ -8,9 +8,9 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Riemann integrable implies bounded]]
+Properties: [[Riemann integrable implies bounded]], [[Basic properties of Riemann integrable functions]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Cauchy Integrability Criterion]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
@@ -20,7 +20,11 @@ _Let $\l[a,b\r]\subseteq\R$ be an integral and consider a function $f:\l[a,b\r]\
 $$\begin{equation}
     S\l(f,\mc{P}\r)\coloneqq\sum_{i=1}^{n}f\l(t_i\r)\l(x_i-x_{i-1}\r).
 \end{equation}$$
-_We say that $f$ is **Riemann integrable** if there exists some $L\in\R$ such that for all $\epsilon>0$, there exists $\delta>0$ such that if $\|\mc{P}\|<\delta$, then $\l|S\l(f,\mc{P}\r)<L\r|$. In this case, we write $f\in\RI{\l[a,b\r]}$ and_
+_Letting $\ms{P}$ be the set of all partitions of $\l[a,b\r]$, we say that $f$ is **Riemann integrable on $\l[a,b\r]$** if_
+$$\begin{equation}
+    \ex L\in\R,\fa\epsilon>0,\ex\delta>0,\fa\mc{P}\in\ms{P}:\|\mc{P}\|<\delta\Rightarrow\l|S\l(f,\mc{P}\r)-L\r|<\epsilon.
+\end{equation}$$
+_In this case, we write $f\in\RI{\l[a,b\r]}$ and_
 $$\begin{equation}
     \int_{a}^{b}f\coloneqq\int_{a}^{b}f\l(x\r)\d x\coloneqq L.
 \end{equation}$$
