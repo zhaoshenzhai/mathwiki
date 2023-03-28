@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 30/11/2022 23:06:10
 Tags: #Definition #Topics/Analysis
 
-Types: [[Continuous Function in R]], [[Monotone Function]]
+Types: [[Continuous Function in R]], [[Riemann Integrable Function]], [[Monotone Function]]
 Examples: _Not Applicable_
 Constructions: [[Functional Limits in R]], [[Local slash Global Extrema]]
 Generalizations: [[Functions in Rn]]

@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Convergent implies bounded (functional)]]
+Sufficiencies: [[Convergent implies bounded (functional)]], [[Riemann integrable implies bounded]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
