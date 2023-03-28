@@ -3,7 +3,7 @@
 Date Created: 16/03/2023 11:19:33
 Tags: #Proposition #Topics/Analysis
 
-Proved by: [[Geometric series converes iff r<1]], [[Comparison Tests (Series)]]
+Proved by: [[Geometric series converges iff r less than 1]], [[Comparison Tests (Series)]], [[Limit Superior slash Inferior]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -13,13 +13,19 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Ratio Tests).
 
-_Let $\tpl{a_k}$ be a non-zero sequence in $\R$._
-* _(Direct Ratio): If _ $\l|a_{k+1}/a_k\r|<1$ _eventually, then_ $\sum_{k=0}^{\infty}a_k$ _converges absolutely. Otherwise, if_ $\l|a_{k+1}/a_k\r|\geq1$ _eventually, then_ $\sum_{k=0}^{\infty}a_k$ _diverges._
-* _(Limit Ratio): Suppose that_ $r\coloneqq\lim\limits_{k\to\infty}\l|a_{k+1}/a_k\r|$ _exists. If $r<1$, then_ $\sum_{k=0}^{\infty}a_k$ _converges absolutely. If $r>1$, then_ $\sum_{k=0}^{\infty}a_k$ _diverges._
+_Let $\tpl{a_n}$ be a non-zero sequence in $\R$._
+* _(Direct Ratio Test): If _ $\l|a_{n+1}/a_n\r|<1$ _eventually, then_ $\sum_{n=0}^{\infty}a_n$ _converges absolutely. Otherwise, if_ $\l|a_{n+1}/a_n\r|\geq1$ _eventually, then_ $\sum_{n=0}^{\infty}a_n$ _diverges._
+
+_We strengthen the test to the Limit Ratio Test as follows:_
+* _If_ $\limsup\limits_{n\to\infty}\l|\frac{a_{n+1}}{a_n}\r|<1$_, then_ $\sum_{n=0}^{\infty}a_n$ _converges._
+* _If_ $\liminf\limits_{n\to\infty}\l|\frac{a_{n+1}}{a_n}\r|>1$_, then_ $\sum_{n=0}^{\infty}a_n$ _diverges._
 
 ```
 
-_Proof_.
-* Suppose that $\l|a_{k+1}/a_k\r|<1$ eventually, so there exist some $\alpha<1$ such that $\l|a_{k+1}\r|<\alpha\l|a_k\r|$ eventually, say for all $k\geq K$. Then $\l|a_{K+i}\r|<\alpha^i\l|a_K\r|$ for all $i\geq1$, so $\l|a_k\r|<\l|a_K\r|\alpha^{-K}\alpha^k$ for all $k\geq K$. Observe that $\sum_{k=0}^{\infty}\alpha^k$ is a geometric series that converges, so the result follows. Otherwise, there exists some $\beta\geq1$ such that $\l|a_{k+1}\r|\geq\beta\l|a_k\r|$ eventually, say for all $k\geq K$. Then $\l|a_{K+i}\r|\geq\beta^i\l|a_K\r|$ for all $i\geq1$, so $\l|a_k\r|\geq\l|a_K\r|\beta^{-K}\beta^k$. Observe that $\sum_{k=0}^{\infty}\beta^k$ is a geometric series that diverges, so the result follows.
+_Proof_. We first prove the Direct Ratio Test, from which the Limit Ratio Test follows.
+* Suppose that $\l|a_{n+1}/a_n\r|<1$ eventually, so there exist some $\alpha<1$ such that $\l|a_{n+1}\r|<\alpha\l|a_n\r|$ eventually, say for all $n\geq N$. Then $\l|a_{N+i}\r|<\alpha^i\l|a_N\r|$ for all $i\geq1$, so $\l|a_n\r|<\l|a_N\r|\alpha^{-N}\alpha^n$ for all $n\geq N$. Observe that $\sum_{n=0}^{\infty}\alpha^n$ is a geometric series that converges, so the result follows. Otherwise, $\l|a_{n+1}\r|\geq\l|a_n\r|$ eventually, so $\sum_{n=0}^{\infty}a_n$ diverges.
 
-* Take $\epsilon>0$. Since $r<1$, $\l|a_{k+1}/a_k\r|<1-\epsilon<1$ eventually, so the result follows the direct ratio test. Otherwise, if $r>1$, then clearly $\l|a_{k+1}/a_k\r|\geq1$ eventually.<span style="float:right;">$\blacksquare$</span>
+Now, set $R\coloneqq\limsup\limits_{n\to\infty}\l|\frac{a_{n+1}}{a_n}\r|$ and $r\coloneqq\liminf\limits_{n\to\infty}\l|\frac{a_{n+1}}{a_n}\r|$.
+* Let $b_n\coloneqq\sup_{m\geq n}\l\{\l|a_{m+1}/a_m\r|\r\}$, so $\lim\limits_{n\to\infty}b_n=R<1$. Thus $b_N=\sup_{n\geq N}\l\{\l|a_{n+1}/a_n\r|\r\}<1$ for some $N\in\N$ large enough, so $\l|a_{n+1}/a_n\r|<1$ eventually.
+
+* Similarly, let $b_n\coloneqq\inf_{m\geq n}\l\{\l|a_{m+1}/a_m\r|\r\}$, so $\lim\limits_{n\to\infty}b_n=r>1$. Thus $b_N=\inf_{n\geq N}\l\{\l|a_{n+1}/a_n\r|\r\}>1$ for some $N\in\N$ large enough, so $\l|a_{n+1}/a_n\r|>1$ eventually.<span style="float:right;">$\blacksquare$</span>
