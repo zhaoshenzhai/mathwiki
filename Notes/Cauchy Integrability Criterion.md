@@ -3,7 +3,7 @@
 Date Created: 28/03/2023 16:14:26
 Tags: #Theorem #Topics/Analysis
 
-Proved by: _Not Applicable_
+Proved by: [[Metric-completeness of R]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
