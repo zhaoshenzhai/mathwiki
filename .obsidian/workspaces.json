@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "a3ecd1c8a6a08cb1",
+            "id": "aa0ea2b552f669b1",
             "type": "tabs",
             "children": [
               {
-                "id": "b57ee067743a18f7",
+                "id": "3f6fcc045dced974",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -47,7 +47,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:#In_Progress",
+                    "query": "tag:#In_Progress OR tag:#Lecture",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": true,
@@ -68,7 +68,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "294597bc1a532b30",
@@ -170,7 +170,7 @@
                       "repelStrength": 20,
                       "linkStrength": 1,
                       "linkDistance": 500,
-                      "scale": 0.09240681501007922,
+                      "scale": 0.13480820409941188,
                       "close": true
                     }
                   }
@@ -193,7 +193,7 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "b57ee067743a18f7"
+      "active": "3f6fcc045dced974"
     }
   },
   "active": "workspace"
