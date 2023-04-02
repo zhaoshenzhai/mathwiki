@@ -4,13 +4,13 @@ Date Created: 01/09/2022 15:41:10
 Tags: #Definition #Topics/Analysis
 
 Types: [[Absolutely Convergent Series]]
-Examples: [[Geometric series converges iff r less than 1]], [[Harmonic series diverges]], [[p series converges iff p>1]]
+Examples: [[Geometric series converges iff r less than 1]], [[p series converges iff p>1]]
 Constructions: [[Regrouping of Series]], [[Rearrangement of Series]], [[Power Series]]
 Generalizations: _Not Applicable_
 
 Properties: [[Riemann's Rearrangement Theorem]], [[Basic properties of infinite series]]
 Sufficiencies: [[Comparison Tests (Series)]], [[Dirichlet's Test]], [[Alternating Series Test]]
-Equivalences: [[Integral Test]]
+Equivalences: [[Cauchy's Condensation Test]], [[Integral Test]]
 Justifications: [[Monotone Convergence Theorem]], [[Metric-completeness of R]]
 
 ``` ad-Definition
