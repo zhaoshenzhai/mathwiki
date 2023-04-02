@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Orthogonality]], [[Inner product induces a norm]]
 Generalizations: _Not Applicable_
 
-Properties: [[Pythagorean Theorem]], [[Cauchy-Schwarz Inequality]]
+Properties: [[Cauchy-Schwarz Inequality]], [[Pythagorean Theorem]]
 Sufficiencies: [[Orthogonal Decomposition]]
 Equivalences: _Not Applicable_
 Justifications: [[Hermitian forms are sesquilinear]]

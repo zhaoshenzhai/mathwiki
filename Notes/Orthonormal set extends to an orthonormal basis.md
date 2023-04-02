@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/06/2022 14:57:29
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: [[Orthonormal sets are linearly independent]], [[Basis Extension Theorem]], [[Gram-Schmidt Orthonormalization]]
 References: _Not Applicable_

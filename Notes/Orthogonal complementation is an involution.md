@@ -5,7 +5,7 @@ mathLink: $U=\l(U^\perp\r)^\perp$
 <div class="topSpace"></div>
 
 Date Created: 28/06/2022 22:29:13
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: [[Basic properties of orthogonal complements]], [[Orthogonal Decomposition]]
 References: _Not Applicable_
@@ -17,10 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. If $U$ is a finite-dimensional linear subspace of $V$, then_
-$$\begin{equation}
-    U=\l(U^\perp\r)^\perp.
-\end{equation}$$
+_Let $V$ be an inner product space. If $U$ is a finite-dimensional linear subspace of $V$, then $U=\l(U^\perp\r)^\perp$._
 
 ```
 

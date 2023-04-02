@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/06/2022 12:26:36
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: [[Pythagorean Theorem]]
 References: _Not Applicable_
@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. Take $v\in V$. For $U$ a finite-dimensional linear subspace of $V$, we have the estimate_
+_Let $V$ be an inner product space. Take $v\in V$. For $U$ a finite-dimensional linear subspace of $V$, we have the estimate_
 $$\begin{equation}
     \l\|v-\proj_U\!\l(v\r)\r\|\leq\|v-u\|
 \end{equation}$$

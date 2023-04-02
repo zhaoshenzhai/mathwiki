@@ -19,3 +19,5 @@ title: Definition.
 _Let $\tpl{X,d}$ be a metric space. A function $f:X\to X$ is called a **contraction** if there exists some $\alpha\in\l(0,1\r)$ such that $d\l(f\l(x\r),f\l(y\r)\r)\leq\alpha f\l(x,y\r)$ for all $x,y\in X$._
 
 ```
+
+**Remark.** For a normed vector space $\tpl{V,\|\slot\|}$ and a linear operator $T:V\to V$, this is equivalent to saying that $\|Tv\|\leq\alpha\|v\|$ for all $v\in V$.<span style="float:right;">$\blacklozenge$</span>

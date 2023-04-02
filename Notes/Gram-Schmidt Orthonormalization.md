@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 27/06/2022 16:08:32
-Tags: #Theorem #Later/Linear_Algebra
+Tags: #Theorem #Topics/Linear_Algebra
 
-Proved by: [[Linearly dependent iff exists span redundant element]], [[Basic properties of orthogonal vectors]], [[Orthonormal sets are linearly independent]], [[Dimension of subspace]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]]
+Proved by: [[Linearly dependent iff exists span redundant element]], [[Orthonormal sets are linearly independent]], [[Dimension of subspace]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -43,10 +43,6 @@ $$\begin{equation}
 	\end{aligned}
 \end{equation}$$
 which evaluates to $0$. It remains to show that $\span\l\{e_1,\dots,e_j\r\}=\span\l\{v_1,\dots,v_j\r\}$, for which it suffices to show one containment; the other follows from the fact that $\l\{e_1,\dots,e_j\r\}$ is linearly independent and is hence a basis for $\span\l\{e_1,\dots,e_j\r\}$, so $\dim\span\l\{e_1,\dots,e_j\r\}=j$ which coincides with $\dim\span\l\{v_1,\dots,v_j\r\}$, showing that the sets themselves coincide.
-* To show one containment, observe that $v_j\in\span\l\{e_1,\dots,e_j\r\}$ from the definition of $e_j$, so
-$$\begin{equation}
-    \span\l\{v_1,\dots,v_j\r\}\subseteq\span\l\{e_1,\dots,e_j\r\}
-\end{equation}$$
-when combined with $\ref{\ast}$.
+* To show one containment, observe that $v_j\in\span\l\{e_1,\dots,e_j\r\}$ from the definition of $e_j$, so $\span\l\{v_1,\dots,v_j\r\}\subseteq\span\l\{e_1,\dots,e_j\r\}$ when combined with $\ref{\ast}$.
 
-Finally, if $m=\dim V$, then $\l\{v_1,\dots,v_{\dim V}\r\}$ is a basis for $V$. Hence $\l\{e_1,\dots,e_{\dim V}\r\}$ is an orthonormal spanning set for $V$, showing that it is an orthonormal basis for $V$.<span style="float:right;">$\blacksquare$</span>
+Finally, if $m=\dim V$, then $\l\{v_1,\dots,v_{\dim V}\r\}$ is a basis for $V$. Thus $\l\{e_1,\dots,e_{\dim V}\r\}$ is an orthonormal spanning set, and hence an orthonormal basis, for $V$.<span style="float:right;">$\blacksquare$</span>

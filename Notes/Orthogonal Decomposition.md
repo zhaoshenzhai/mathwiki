@@ -5,9 +5,9 @@ mathLink: $V=U\oplus U^\perp$
 <div class="topSpace"></div>
 
 Date Created: 25/06/2022 16:24:44
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
-Proved by: [[Basic properties of orthogonal complements]]
+Proved by: [[Gram-Schmidt Orthonormalization]], [[Basic properties of orthogonal complements]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -17,14 +17,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. If $U$ is a finite-dimensional linear subspace of $V$, then_
-$$\begin{equation}
-    V=U\oplus U^\perp.
-\end{equation}$$
+_Let $V$ be an inner product space. If $U$ is a finite-dimensional linear subspace of $V$, then $V=U\oplus U^\perp$._
 
 ```
 
-_Proof_. It suffices to show that $V=U+U^\perp$ since $U\cap U^\perp=\l\{0\r\}$. To this end, let $\l\{e_1,\dots,e_m\r\}$ be an orthonormal basis for $U$. Take $v\in V$ and observe that
+_Proof_. Since $U\cap U^\perp=\l\{0\r\}$, it suffices to show that $V=U+U^\perp$. To this end, let $\l\{e_1,\dots,e_m\r\}$ be an orthonormal basis for $U$. Take $v\in V$ and observe that
 $$\begin{equation}
     v=\underbrace{\sum_{i=1}^m\inprod{v}{e_i}e_i}_{u\,\coloneqq}+\underbrace{v-\sum_{i=1}^m\inprod{v}{e_i}e_i}_{w\,\coloneqq}.
 \end{equation}$$

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/06/2022 10:06:15
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: [[Basic properties of orthogonal complements]], [[Equivalences for projections]], [[Pythagorean Theorem]]
 References: _Not Applicable_
@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. If $U$ is a finite-dimensional linear subspace of $V$, then the following algebraic identities hold:_
+_Let $V$ be an inner product space. If $U$ is a finite-dimensional linear subspace of $V$, then the following algebraic identities hold:_
 * _$\proj_U\!:V\to V$ is a linear operator._
 * _$\proj_U^2=\proj_U$._
 * _$\im\proj_U=U$ with $\proj_U\!\l(u\r)=u$ for all $u\in U$._
@@ -37,9 +37,6 @@ $$\begin{equation}
 
 * The next three properties holds since $V=U\oplus U^\perp$, so, by definition of $\proj_U$, it is a projection on $V$ (in the sense that $\proj_U^2=\proj_U$).
 * Take $v\in V$, so $v=u+w$ with $u\in U$ and $w\in U^\perp$. Observe then that
-$$\begin{align}
-    \l\|\proj_U\!\l(v\r)\r\|&=\|u\| && \textrm{Definition of $\proj_U$} \\
-    &\leq\|u\|+\|w\| && \|w\|\geq0 \\
-    &=\|u+w\| && u\perp w\textrm{; Pythagoras} \\
-    &=\|v\|. && \textrm{Substitution}\qedin
-\end{align}$$
+$$\begin{equation}
+    \l\|\proj_U\!\l(v\r)\r\|=\|u\|\leq\|u\|+\|w\|=\|u+w\|=\|v\|.\qedin
+\end{equation}$$
