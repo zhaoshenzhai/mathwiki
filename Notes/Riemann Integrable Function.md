@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Riemann integrable implies bounded]], [[Basic properties of Riemann integrable functions]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Cauchy Integrability Criterion]]
+Equivalences: [[Cauchy Integrability Criterion]], [[Squeeze Theorem (Riemann Integration)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
@@ -31,4 +31,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** It is clear, by the triangle inequality, that if $f\in\RI{\l[a,b\r]}$, then such an $L$ is unique.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** By the triangle inequality, it is clear that if $f\in\RI{\l[a,b\r]}$, then such an $L$ is unique.<span style="float:right;">$\blacklozenge$</span>
