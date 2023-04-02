@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/06/2022 14:07:51
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: [[Cauchy-Schwarz Inequality]]
 References: _Not Applicable_
@@ -13,11 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. Then the function_
-$$\begin{equation}
-    \|\slot\|:V\to\R\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ v\mapsto\sqrt{\inprod{v}{v}}
-\end{equation}$$
-_is a norm on $V$._
+_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. Then the function $\|\slot\|:V\to\R$ mapping $v\mapsto\sqrt{\inprod{v}{v}}$ is a norm on $V$._
 
 ```
 

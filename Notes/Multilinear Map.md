@@ -1,12 +1,12 @@
 <div class="topSpace"></div>
 
 Date Created: 23/06/2022 10:53:56
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
-Examples: [[Bilinear Map]]
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Generalizations: [[Sesquilinear Form]], [[Hermitian Form]]
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
@@ -21,7 +21,7 @@ $$\begin{equation}
     f_i:V_i\to W\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ v\mapsto f\l(u_1,\dots,u_{i-1},v,u_{i+1},\dots,u_n\r)
 \end{equation}$$
 _is linear._
-
-_If $W=K$, then $f$ is said to be a **multilinear form**._
+* _If $W=K$, then $f$ is said to be a **multilinear form**._
+* _If $n=2$, then $f:V_1\times V_2\to K$ is said to **bilinear map**. Similarly, if $W=K$, then $f$ is a **bilinear form**._
 
 ```

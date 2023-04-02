@@ -1,10 +1,10 @@
 <div class="topSpace"></div>
 
 Date Created: 23/06/2022 08:01:27
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
-Examples: [[Euclidean Coordinate Space]]
+Examples: _Not Applicable_
 Constructions: [[Orthogonality]], [[Inner product induces a norm]]
 Generalizations: _Not Applicable_
 

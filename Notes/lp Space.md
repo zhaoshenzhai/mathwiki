@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 12/01/2023 11:58:17
-Tags: #Definition #Courses/MATH255
+Tags: #Definition #Later/Analysis
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

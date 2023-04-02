@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/06/2022 11:21:53
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: [[Inner Product Space]]
 Examples: _Not Applicable_
@@ -21,3 +21,5 @@ _Let $V$ be a complex vector space. A **Hermitian form on $V$** is a function $\
 * _(Conjugate-symmetry): $\fa v,w\in V:\inprod{v}{w}=\bar{\inprod{w}{v}}$._
 
 ```
+
+**Remark.** Since all Hermitian forms are sesquilinear, they reduce to bilinear forms for when $V$ is a real vector space.<span style="float:right;">$\blacklozenge$</span>

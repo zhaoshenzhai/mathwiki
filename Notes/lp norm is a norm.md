@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 16/02/2023 11:00:59
-Tags: #Proposition #Courses/MATH255
+Tags: #Proposition #Later/Analysis
 
 Proved by: [[Minkowski Inequality]]
 References: _Not Applicable_
