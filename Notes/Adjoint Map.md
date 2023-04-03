@@ -16,6 +16,6 @@ Justifications: [[Existence of adjoint operators]]
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ and $W$ be inner product spaces and let $T:V\to W$ be a linear map. The **adjoint of $T$** is the unique linear map $T^\ast:W\to V$ such that $\inprod{Tv}{w}=\inprod{v}{T^\ast w}$ for all $v\in V$ and $w\in W$._
+_Let $V$ and $W$ be inner product spaces and let $T:V\to W$ be a linear map. The **adjoint of $T$** is the unique linear map $T^\adj:W\to V$ such that $\inprod{Tv}{w}=\inprod{v}{T^\ast w}$ for all $v\in V$ and $w\in W$._
 
 ```

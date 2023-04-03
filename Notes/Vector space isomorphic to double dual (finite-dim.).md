@@ -1,5 +1,5 @@
 ---
-mathLink: $V\iso V^\ddual$ (finite-dim.)
+mathLink: $V\iso V^{\dual\dual}$ (finite-dim.)
 ---
 
 <div class="topSpace"></div>
@@ -17,11 +17,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a finite-dimensional $K$-vector space. Then the map $\phi:V\to V^\ddual:v\mapsto\hat{v}$ where $\hat{v}:V^\dual\to K:\omega\mapsto\omega\l(v\r)$ is a linear isomorphism._
+_Let $V$ be a finite-dimensional $K$-vector space. Then the map $\phi:V\to V^{\dual\dual}:v\mapsto\hat{v}$ where $\hat{v}:V^\dual\to K:\omega\mapsto\omega\l(v\r)$ is a linear isomorphism._
 
 ```
 
-**Remark.** This shows that $V\iso V^\ddual$ naturally; that is, there exists a linear isomorphism $\phi:V\to V^\ddual$ that does not depend on a choice of basis. This is contrasted by $V\iso V^\dual$, where the isomorphism here is _not_ natural unless additional structure is imposed.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** This shows that $V\iso V^{\dual\dual}$ naturally; that is, there exists a linear isomorphism $\phi:V\to V^{\dual\dual}$ that does not depend on a choice of basis. This is contrasted by $V\iso V^\dual$, where the isomorphism here is _not_ natural unless additional structure is imposed.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
@@ -31,6 +31,6 @@ $$\begin{equation}
 \end{equation}$$
 for all $\omega\in V^\dual$. To show that $\phi$ is an isomorphism, it suffices to show that it is injective since
 $$\begin{equation}
-    \dim V^\ddual=\dim V^\dual=\dim V\eqqcolon n.
+    \dim V^{\dual\dual}=\dim V^\dual=\dim V\eqqcolon n.
 \end{equation}$$
 Take $v\in\ker\phi$, so $\phi\l(v\r)=0$ and hence $\phi\l(v\r)\l(\omega\r)=\omega\l(v\r)=0$ for all $\omega\in V^\dual$. Suppose that $v\neq0$, so we may extend $\l\{v\r\}$ to a basis $\mc{B}_v\coloneqq\l\{v,e_2,\dots,e_n\r\}$ for $V$. Let $\mc{B}_v^\dual\coloneqq\l\{\psi,\epsilon_2,\dots,\epsilon_n\r\}$ be the dual basis of $\mc{B}_v$, so $\psi\l(v\r)=1$. But $\psi\in V^\dual$, a contradiction.<span style="float:right;">$\blacksquare$</span>

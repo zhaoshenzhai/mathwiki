@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/03/2023 18:38:56
-Tags: #Theorem #Topics/Linear_Algebra
+Tags: #Theorem #Later/Linear_Algebra
 
 Proved by: [[Distinct eigenvalues implies linearly independent eigenvectors]], [[Geometric multiplicity no more than algebraic multiplicity]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]], [[Unique Representation Theorem (Basis)]], [[Basis slash dimension for direct sum]]
 References: _Not Applicable_
@@ -17,7 +17,8 @@ _Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V
 1. _$T$ is diagonalizable; that is, there is a basis $\mc{B}$ of $V$ such that_ $\l[T\r]_\mc{B}$ _is a diagonal matrix._
 2. _There is a basis $\mc{B}$ of $V$ consisting of eigenvectors of $T$._
 3. _For all $1\leq i\leq k$, the algebraic multiplicity of $\lambda_i$ is_ $\dim E_{\lambda_i}$_._
-4. $V=\bigoplus_{i=1}^{k}E_{\lambda_i}$_._
+4. _The minimal polynomial $\mu_T$ splits into distinct linear factors._
+5. $V=\bigoplus_{i=1}^{k}E_{\lambda_i}$_._
 
 _If any of the above hold, then_ $\l[T\r]_\mc{B}=\diag\l(\lambda_1,\dots,\lambda_k\r)$ _and_ $\mc{B}=\coprod_{i=1}^{k}\mc{B}_i$ _where each $\mc{B}_i$ is a basis for_ $E_{\lambda_i}$_._
 
@@ -38,7 +39,7 @@ so $\lambda_j=t_{jj}$ and hence $\l[T\r]_\mc{B}=\diag\l(\lambda_1,\dots,\lambda_
             n=\sum_{i=1}^{k}n_i\leq\sum_{i=1}^{k}d_i\leq\sum_{i=1}^{k}m_i=n,
         \end{equation}$$
   so $\sum_{i=1}^{k}\l(m_i-d_i\r)=0$. Since $d_i\leq m_i$ for all $1\leq i\leq k$, we see that they coincide for all $1\leq i\leq k$. Conversely, suppose that $m_i=d_i$ for all $1\leq i\leq k$. For each $1\leq i\leq k$, let $\mc{B}_i$ be an ordered basis for $E_{\lambda_i}$, and set $\mc{B}\coloneqq\coprod_{i=1}^{k}\mc{B}_i$. Observe then that $\sum_{i=1}^{k}d_i=\sum_{i=1}^{k}m_i=n$, so $\l|\mc{B}\r|=n$. Clearly $\mc{B}$ is linearly independent, so this shows that $\mc{B}$ is a basis for $V$.
-* ($2\Leftrightarrow4$): Let $\mc{B}$ be a basis consisting of eigenvectors of $T$, so $\mc{B}=\bigcup_{i=1}^{k}\mc{B}_i$ where each $\mc{B}_i$ is a basis for $E_{\lambda_i}$. Then
+* ($2\Leftrightarrow5$): Let $\mc{B}$ be a basis consisting of eigenvectors of $T$, so $\mc{B}=\bigcup_{i=1}^{k}\mc{B}_i$ where each $\mc{B}_i$ is a basis for $E_{\lambda_i}$. Then
 $$\begin{equation}
     V=\span\mc{B}=\span\bigcup_{i=1}^{k}\mc{B}_i=\sum_{i=1}^{k}\span\mc{B}_i=\sum_{i=1}^{k}E_{\lambda_i},
 \end{equation}$$
