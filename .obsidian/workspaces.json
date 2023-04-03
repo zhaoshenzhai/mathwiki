@@ -47,7 +47,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:#In_Progress OR tag:#Lecture",
+                    "query": "tag:#In_Progress",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": true,
@@ -193,7 +193,7 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "3f6fcc045dced974"
+      "active": "0f2cba3fb28dc11b"
     }
   },
   "active": "workspace"

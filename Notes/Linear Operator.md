@@ -9,7 +9,7 @@ Constructions: [[Eigenvalue]], [[Characteristic Polynomial]], [[Minimal Polynomi
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Schur's Theorem]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

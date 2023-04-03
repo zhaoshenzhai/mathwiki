@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Dual Basis]], [[Dual Map]]
 Generalizations: _Not Applicable_
 
-Properties: [[Vector space isomorphic to double dual (finite-dim.)]]
+Properties: [[Vector space isomorphic to double dual (finite-dim.)]], [[Riesz Representation Theorem]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
