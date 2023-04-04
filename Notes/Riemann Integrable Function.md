@@ -8,9 +8,9 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Riemann integrable implies bounded]], [[Basic properties of Riemann integrable functions]]
+Properties: [[Riemann integrable implies bounded]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Cauchy Integrability Criterion]], [[Squeeze Theorem (Riemann Integration)]]
+Equivalences: [[Lebesgue Integrability Criterion]], [[Cauchy Integrability Criterion]], [[Squeeze Theorem (Riemann Integration)]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
