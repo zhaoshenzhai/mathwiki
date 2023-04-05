@@ -9,3 +9,13 @@
 .cm-hashtag {
     font-family: courier prime !important;
 }
+
+@media print {
+    body {
+        --font-text: CMU Serif !important;
+    }
+
+    h1 {
+        font-family: CMU Serif !important;
+    }
+}
