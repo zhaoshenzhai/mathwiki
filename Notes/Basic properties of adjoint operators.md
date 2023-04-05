@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/04/2023 16:06:38
-Tags: #Proposition #Topics/Functional_Analysis
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

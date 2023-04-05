@@ -1,11 +1,11 @@
 <div class="topSpace"></div>
 
 Date Created: 03/04/2023 15:47:36
-Tags: #Definition #Topics/Functional_Analysis
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Self-adjoint Operator]], [[Positive Operator]], [[Unitary Operator]], [[Normal Operator]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of adjoint operators]]

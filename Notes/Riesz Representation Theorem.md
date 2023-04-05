@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/04/2023 10:42:47
-Tags: #Theorem #Topics/Functional_Analysis
+Tags: #Theorem #Topics/Linear_Algebra
 
 Proved by: [[Dimension Theorem]], [[Orthogonal Decomposition]]
 References: _Not Applicable_

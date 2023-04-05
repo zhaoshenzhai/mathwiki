@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Eigenvector slash eigenspace]], [[Algebraic slash geometric multiplicity]]
 Generalizations: _Not Applicable_
 
-Properties: [[Distinct eigenvalues implies linearly independent eigenvectors]]
+Properties: [[Distinct eigenvalues implies linearly independent eigenvectors]], [[Eigenvalues of linear operators on inner product spaces]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Eigenvalue iff root of characteristic polynomial]]
 Justifications: _Not Applicable_

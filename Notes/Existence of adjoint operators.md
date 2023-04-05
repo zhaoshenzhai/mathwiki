@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/04/2023 15:49:50
-Tags: #Proposition #Topics/Functional_Analysis
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: [[Riesz Representation Theorem]]
 References: _Not Applicable_
