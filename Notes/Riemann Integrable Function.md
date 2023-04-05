@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Riemann integrable implies bounded]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Continuous implies Riemann Integrable]]
 Equivalences: [[Lebesgue Integrability Criterion]], [[Cauchy Integrability Criterion]], [[Squeeze Theorem (Riemann Integration)]]
 Justifications: _Not Applicable_
 

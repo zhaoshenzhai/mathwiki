@@ -12,7 +12,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: [[Continuous Function in a Metric Space]]
 
-Properties: [[Continuity Theorems in R]]
+Properties: [[Continuity Theorems in R]], [[Continuous implies Riemann Integrable]]
 Sufficiencies: [[Differentiable implies continuous]]
 Equivalences: _Not Applicable_
 Justifications: [[Sequential slash functional limit characterizations of continuity]]
