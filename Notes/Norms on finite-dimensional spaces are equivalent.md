@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem.
 
-_Let $V$ be a finite-dimensional vector space over $\R$ or $\C$. Then any two norms $\|\slot\|_1$ and $\|\slot\|_2$ on $V$ are equivalent._
+_Let $V$ be a finite-dimensional normed vector space. Then any two norms $\|\slot\|_1$ and $\|\slot\|_2$ on $V$ are equivalent._
 
 ```
 
