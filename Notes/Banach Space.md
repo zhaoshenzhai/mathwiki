@@ -4,7 +4,7 @@ Date Created: 16/02/2023 11:14:46
 Tags: #Definition #Topics/Analysis
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Continuous functions on Hausdorff compact space with sup norm is Banach]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

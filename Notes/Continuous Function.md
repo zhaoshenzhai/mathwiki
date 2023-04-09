@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Analysis
 
 Types: _Not Applicable_
 Examples: [[Continuous Function in a Metric Space]]
-Constructions: _Not Applicable_
+Constructions: [[Space of Continuous Functions]]
 Generalizations: _Not Applicable_
 
 Properties: [[Extreme Value Theorem]], [[Intermediate Value Theorem]], [[Inverse of continuous functions]], [[Composition of continuous functions are continuous]]
