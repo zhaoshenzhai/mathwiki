@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 27/02/2023 21:06:03
-Tags: #Theorem #Topics/Functional_Analysis
+Tags: #Theorem #Topics/Analysis
 
 Proved by: _Not Applicable_
 References: _Not Applicable_
