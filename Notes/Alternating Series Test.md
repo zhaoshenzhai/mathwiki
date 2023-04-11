@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{a_k}$ be a sequence in $\R$ such that $a_k\geq0$ eventually. If $\tpl{a_k}$ is non-increasing and_ $\lim_{k\to\infty}a_k=0$_, then_ $\sum_{k=0}^{\infty}\l(-1\r)^{k+1}a_k$ _converges._
+_Let $\tpl{a_k}$ be a sequence in $\R$ such that $a_k\geq0$ eventually. If $\tpl{a_k}$ is non-increasing and_ $a_k\to0$_, then_ $\sum_{k=0}^{\infty}\l(-1\r)^{k+1}a_k$ _converges._
 
 ```
 
