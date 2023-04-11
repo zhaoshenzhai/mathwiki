@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 16/02/2023 11:00:59
 Tags: #Proposition #Later/Analysis
 
-Proved by: [[Minkowski Inequality]]
+Proved by: [[Minkowski's Inequality]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -29,4 +29,4 @@ _Proof_. Positive-definiteness and absolute homogeneity are clear. For the trian
 $$\begin{equation}
     \|\v{x}+\v{y}\|_p=\l(\sum_{i=1}^{n}\l|x_i+y_i\r|^p\r)^{1/p}\leq\l(\sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^p\r)^{1/p}\leq\l(\sum_{i=1}^{n}\l|x_n\r|^p\r)^{1/p}\!+\l(\sum_{i=1}^{n}\l|y_n\r|^p\r)^{1/p}=\|\v{x}\|_p+\|\v{y}\|_p
 \end{equation}$$
-where the second inequality follows from the Minkowski Inequality.<span style="float:right;">$\blacksquare$</span>
+where the second inequality follows from the Minkowski$\textrm{'}$s Inequality.<span style="float:right;">$\blacksquare$</span>

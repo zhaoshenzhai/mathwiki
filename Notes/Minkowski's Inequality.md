@@ -1,3 +1,7 @@
+---
+mathLink: auto
+---
+
 <div class="topSpace"></div>
 
 Date Created: 16/02/2023 10:42:25
@@ -11,7 +15,7 @@ Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
 ``` ad-Theorem
-title: Theorem (Minkowski Inequality).
+title: Theorem (Minkowski$\textrm{'}$s Inequality).
 
 _Fix $n\in\N^+$ and take $\v{x}\coloneqq\tpl{x_1,\dots,x_n}$ and $\v{y}\coloneqq\tpl{y_1,\dots,y_n}$ in $\R^n$. For all $p\geq1$, we have_
 $$\begin{equation}
