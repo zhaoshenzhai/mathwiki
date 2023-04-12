@@ -3,7 +3,7 @@
 Date Created: 03/04/2023 10:42:47
 Tags: #Theorem #Topics/Linear_Algebra
 
-Proved by: [[Dimension Theorem]], [[Orthogonal Decomposition]]
+Proved by: [[Dimension Theorem]], [[Orthogonal Decomposition]], [[Orthonormal Expansion]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
