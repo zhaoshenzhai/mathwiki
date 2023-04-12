@@ -4,7 +4,7 @@ Date Created: 05/04/2023 11:34:56
 Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: _Not Applicable_
-References: _Not Applicable_
+References: [[Eigenvalue iff root of characteristic polynomial]]
 Justifications: _Not Applicable_
 
 Specializations: _Not Applicable_
@@ -20,6 +20,10 @@ _Let $T:V\to V$ be a linear operator on an inner product space $V$ and let $\lam
 * _If $T$ is unitary, then $\l|\lambda\r|=1$._
 
 ```
+
+**Remark.** In particular, this shows that the characteristic polynomial $\cchi$ of a self-adjoint operator $T$ splits over $\R$ (since $\cchi$ splits over $\C$ and all roots are real).<span style="float:right;">$\blacklozenge$</span>
+
+---
 
 _Proof_. Take a non-zero vector $v\in V$ such that $Tv=\lambda v$, so $\lambda\inprod{v}{v}=\inprod{\lambda v}{v}=\inprod{Tv}{v}$.
 * If $T$ is self-adjoint, then $\lambda\inprod{v}{v}=\inprod{Tv}{v}=\inprod{v}{T^\adj v}=\inprod{v}{Tv}=\inprod{v}{\lambda v}=\bar{\lambda}\inprod{v}{v}$, so $\lambda=\bar{\lambda}$ and hence $\lambda\in\R$.

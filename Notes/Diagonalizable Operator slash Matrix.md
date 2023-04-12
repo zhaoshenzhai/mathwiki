@@ -13,7 +13,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Characteristic polynomial for a diagonalizable operator]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Spectral Theorem]]
 Equivalences: [[Diagonalization Test]]
 Justifications: _Not Applicable_
 

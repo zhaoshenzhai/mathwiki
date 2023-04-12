@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Orthogonal Projection]]
 Generalizations: _Not Applicable_
 
-Properties: [[Orthogonal Decomposition]], [[Orthogonal complementation is an involution]]
+Properties: [[Orthogonal Decomposition]], [[Orthogonal complementation is an involution]], [[Orthogonal complement of invariant subspace is invariant under self-adjoint operator]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Basic properties of orthogonal complements]]
