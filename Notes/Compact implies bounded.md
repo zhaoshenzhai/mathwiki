@@ -21,9 +21,9 @@ _Let $\tpl{X,d}$ be a metric space. If $\tpl{X,d}$ is compact, then it is bounde
 
 ```
 
-_Proof_. Fix any $p\in X$, and, for each $n\in\N$, consider the ball $B_n\l(p\r)$. Then $X=\bigcup_{n\in\N}B_n\l(p\r)$, so since $X$ is compact, there exists a subcollection $B_{n_1}\!\l(p\r),\dots,B_{n_k}\!\l(p\r)$ such that
+_Proof_. Fix any $p\in X$ and observe that $X=\bigcup_{n\in\N}B\l(p,n\r)$. Since $X$ is compact, there exists a subcollection $B\l(p,n_1\r),\dots,B\l(p,n_k\r)$ such that
 $$\begin{equation}
-    X=\bigcup_{i=1}^kB_{n_i}\!\l(p\r)\subseteq B_{m}\l(p\r)
+    X=\bigcup_{i=1}^kB\l(p,n_i\r)\subseteq B\l(p,m\r)
 \end{equation}$$
 where $m\coloneqq\max\l\{n_1,\dots,n_k\r\}$. Then, for any $x,y\in X$, we see that
 $$\begin{equation}
