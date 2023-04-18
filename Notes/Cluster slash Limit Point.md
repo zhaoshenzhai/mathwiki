@@ -1,3 +1,7 @@
+---
+mathLink: auto
+---
+
 <div class="topSpace"></div>
 
 Date Created: 16/11/2022 16:57:22
