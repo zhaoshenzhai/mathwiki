@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be finite-dimensional $K$-vector spaces with bases_ $\mc{B}\coloneqq\l\{e_i\r\}_{i=1}^n$ _and_ $\mc{C}\coloneqq\l\{f_j\r\}_{j=1}^m$, _respectively, with dual bases_ $\mc{B}^\dual\coloneqq\l\{\epsilon_i\r\}_{i=1}^n$ _and_ $\mc{C}^\dual\coloneqq\l\{\eta_j\r\}_{j=1}^m$_. Then, for any linear map $T:V\to W$, we have_ $\l[T^\dual\r]_{\mc{C}^\dual}^{\mc{B}^\dual}=\l(\l[T\r]_\mc{B}^\mc{C}\r)^\trans$ _where $T^\dual:W^\dual\to V^\dual:\gamma\mapsto\gamma\circ T$ is the dual map of $T$._
+_Let $V$ and $W$ be finite-dimensional $K$-vector spaces with respective bases_ $\mc{B}\coloneqq\l\{e_i\r\}_{i=1}^n$ _and_ $\mc{C}\coloneqq\l\{f_j\r\}_{j=1}^m$ _and dual bases_ $\mc{B}^\dual\coloneqq\l\{\epsilon_i\r\}_{i=1}^n$ _and_ $\mc{C}^\dual\coloneqq\l\{\eta_j\r\}_{j=1}^m$_. Then, for any linear map $T:V\to W$, we have_ $\l[T^\dual\r]_{\mc{C}^\dual}^{\mc{B}^\dual}=\l(\l[T\r]_\mc{B}^\mc{C}\r)^\trans$ _where $T^\dual:W^\dual\to V^\dual:\gamma\mapsto\gamma\circ T$ is the dual map of $T$._
 
 ```
 
