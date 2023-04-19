@@ -11,7 +11,7 @@ Proved by: [[Abel's Summation Formula]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
-Specializations: [[Alternating Series Test]]
+Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
 ``` ad-Proposition
@@ -20,6 +20,10 @@ title: Proposition (Dirichlet$\textrm{'}$s Test).
 _Let $\tpl{a_k}$ and $\tpl{b_k}$ be sequences in $\R$. If $\tpl{a_k}$ is non-increasing, $a_k\to0$, and the partial sums of $\tpl{b_k}$ are bounded, then_ $\sum_{k=1}^{\infty}a_kb_k$ _converges._
 
 ```
+
+**Remark.** In particular, setting $b_k\coloneqq\l(-1\r)^k$ yields the **alternating series test**.<span style="float:right;">$\blacklozenge$</span>
+
+---
 
 _Proof_. Let $s_n$ be the sequence of partial sums of $b_k$. Since $s_n$ is bounded, there exists some $B\in\R$ such that $\l|s_n\r|\leq B$ for all $n\in\N$. By Abel$\textrm{'}$s formula, we see that
 $$\begin{equation}

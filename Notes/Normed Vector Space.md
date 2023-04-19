@@ -4,7 +4,7 @@ Date Created: 24/06/2022 21:36:42
 Tags: #Definition #Topics/Analysis
 
 Types: [[Banach Space]]
-Examples: [[lp Space]], [[Operator Norm]]
+Examples: [[Space of Continuous Functions]], [[lp Space]], [[Operator Norm]]
 Constructions: [[Norm induces a metric]], [[Bounded Linear Map]], [[Frechet Differentiability slash Derivative]]
 Generalizations: _Not Applicable_
 

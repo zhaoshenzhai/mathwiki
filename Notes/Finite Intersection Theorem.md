@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Finite Intersection Theorem).
 
-_Let $X$ be a topological space. Then $X$ is compact iff for any collection_ $\l\{F_\alpha\r\}_{\alpha\in\mc{A}}$ _of closed sets such that the intersection of any finite subcollection is non-empty, then_ $\bigcap_{\alpha\in\mc{A}}F_\alpha\neq\em$_._
+_Let $X$ be a topological space. Then $X$ is compact iff for every collection_ $\l\{F_\alpha\r\}_{\alpha\in\mc{A}}$ _of closed sets such that the intersection of any finite subcollection is non-empty, then_ $\bigcap_{\alpha\in\mc{A}}F_\alpha\neq\em$_._
 
 ```
 

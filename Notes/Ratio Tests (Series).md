@@ -11,7 +11,7 @@ Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
 ``` ad-Proposition
-title: Proposition (Ratio Tests for Series).
+title: Proposition (Ratio Tests).
 
 _Let $\tpl{a_n}$ be a non-zero sequence in $\R$._
 * _(Direct Ratio Test): If _ $\l|a_{n+1}/a_n\r|<1$ _eventually, then_ $\sum_{n=0}^{\infty}a_n$ _converges absolutely. Otherwise, if_ $\l|a_{n+1}/a_n\r|\geq1$ _eventually, then_ $\sum_{n=0}^{\infty}a_n$ _diverges._

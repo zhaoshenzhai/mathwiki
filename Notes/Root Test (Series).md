@@ -11,7 +11,7 @@ Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
 ``` ad-Proposition
-title: Proposition (Root Tests for Series).
+title: Proposition (Root Tests).
 
 _Let $\tpl{a_n}$ be a non-zero sequence in $\R$._
 * _(Direct Root Test): If $\sqrt[n]{\l|a_n\r|}<1$ eventually, then_ $\sum_{n=0}^{\infty}a_n$ _converges absolutely. Otherwise, if $\sqrt[n]{\l|a_n\r|}\geq1$ eventually, then_ $\sum_{n=0}^{\infty}a_n$ _diverges._

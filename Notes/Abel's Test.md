@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Abel$\textrm{'}$s Test).
 
-_Let $\tpl{a_k}$ and $\tpl{b_k}$ be sequences in $\R$. If $\tpl{a_k}$ is monotone and convergent and_ $\sum_{k=1}^{\infty}b_k$ _converges, then_ $\sum_{k=1}^{\infty}a_kb_k$_._
+_Let $\tpl{a_k}$ and $\tpl{b_k}$ be sequences in $\R$. If $\tpl{a_k}$ is monotone and convergent and_ $\sum_{k=1}^{\infty}b_k$ _converges, then_ $\sum_{k=1}^{\infty}a_kb_k$ _converges too._
 
 ```
 

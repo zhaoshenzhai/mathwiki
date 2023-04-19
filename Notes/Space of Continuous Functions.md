@@ -20,6 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a topological space. We denote by $\CONT{\l(X\r)}$ the **space of real/complex-valued functions on $X$**._
+_Let $X$ be a topological space. We denote by $\CONT{\l(X\r)}$ the **space of real/complex-valued continuous functions on $X$** equipped with one of the following norms:_
+* _(Supremum norm): For any $f\in\CONT{\l(X\r)}$, let_ $\|f\|_\infty\coloneqq\sup_{x\in X}\l|f\l(x\r)\r|$_._
 
 ```

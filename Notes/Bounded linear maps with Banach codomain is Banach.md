@@ -36,8 +36,8 @@ $$\begin{equation}
 \end{equation}$$
 so taking the limit $n\to\infty$ gives us $\|Tv\|\leq M\|v\|$.
 
-Finally, it suffices to show for each $v\in V$, there exists $N\in\N$ such that for all $n\geq N$, we have $\|T_nv-Tv\|\leq3\epsilon\|v\|/4$, for then taking the supremum over all $v\in V$ gives the desired result. But this is clear, for fix $v\in V$ and observe that $\|T_{N_v}v-Tv\|\leq\epsilon\|v\|/4$ for some large enough $N_v\in\N$. Then, using the triangle inequality, we have
+Finally, it suffices to show that there exists $N\in\N$ such that for each $v\in V$ and for all $n\geq N$, we have $\|T_nv-Tv\|\leq3\epsilon\|v\|/4$, for then taking the supremum over all $v\in V$ gives the desired result. But this is clear, for fix $v\in V$ and observe that $\|T_{N_v}v-Tv\|\leq\epsilon\|v\|/4$ for some large enough $N_v\in\N$. Then
 $$\begin{equation}
-    \|T_nv-Tv\|\leq\|T_nv-T_{N_v}v\|+\|T_{N_v}v-T_v\|\leq\frac{\epsilon}{2}\|v\|+\frac{\epsilon}{4}\|v\|=\frac{3\epsilon}{4}\|v\|,
+    \|T_nv-Tv\|\leq\|T_nv-T_{N_v}v\|+\|T_{N_v}v-T_v\|\leq\frac{\epsilon}{2}\|v\|+\frac{\epsilon}{4}\|v\|=\frac{3\epsilon}{4}\|v\|
 \end{equation}$$
-as desired.<span style="float:right;">$\blacksquare$</span>
+eventually, as desired.<span style="float:right;">$\blacksquare$</span>

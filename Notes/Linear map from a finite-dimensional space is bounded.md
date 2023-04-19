@@ -25,7 +25,7 @@ _Proof_. Take $v\in V$ and let $\l\{e_1,\dots,e_n\r\}$ be a basis for $V$, so $v
 $$\begin{equation}
     \|Tv\|=\l\|T\l(\sum_{i=1}^{n}\alpha_ie_i\r)\r\|=\l\|\sum_{i=1}^{n}\alpha_iTe_i\r\|\leq\sum_{i=1}^{n}\l|\alpha_i\r|\|Te_i\|\leq\l(\underset{1\leq i\leq n}{\max}\l|\alpha_i\r|\r)\sum_{i=1}^{n}\|Te_i\|.
 \end{equation}$$
-Note that the function $\|\slot\|':V\to\R:v\mapsto\underset{1\leq i\leq n}{\max}\l|\alpha_i\r|$ is a norm on $V$, so it is equivalent to $\|\slot\|$ and hence $\underset{1\leq i\leq n}{\max}\l|\alpha_i\r|\leq C_1\|v\|$ for some $C_1>0$. But then
+Note that the function $v\mapsto\underset{1\leq i\leq n}{\max}\l|\alpha_i\r|$ is a norm on $V$, so it is equivalent to $\|\slot\|$ and hence $\underset{1\leq i\leq n}{\max}\l|\alpha_i\r|\leq C_1\|v\|$ for some $C_1>0$. But then
 $$\begin{equation}
     \|Tv\|\leq\underbrace{\l(C_1\sum_{i=1}^{n}\|Te_i\|\r)}_{\mathclap{C\coloneqq}}\|v\|,
 \end{equation}$$

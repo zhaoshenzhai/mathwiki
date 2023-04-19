@@ -9,7 +9,7 @@ Constructions: [[Regrouping of Series]], [[Rearrangement of Series]]
 Generalizations: _Not Applicable_
 
 Properties: [[Riemann's Rearrangement Theorem]]
-Sufficiencies: [[Comparison Tests (Series)]], [[Dirichlet's Test]], [[Abel's Test]], [[Alternating Series Test]]
+Sufficiencies: [[Comparison Tests (Series)]], [[Dirichlet's Test]], [[Abel's Test]]
 Equivalences: [[Cauchy's Condensation Test]]
 Justifications: [[Monotone Convergence Theorem]], [[Metric-completeness of R]]
 
