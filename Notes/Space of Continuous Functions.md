@@ -12,7 +12,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Continuous functions on Hausdorff compact space with sup norm is Banach]]
+Properties: [[Continuous functions on a compact metric space with sup norm is Banach]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
