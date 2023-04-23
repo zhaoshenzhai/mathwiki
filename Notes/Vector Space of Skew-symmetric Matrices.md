@@ -1,5 +1,5 @@
 ---
-mathLink: $\Skew_n\!\l(K\r)$
+mathLink: $\Skew{n}{K}$
 ---
 
 <div class="topSpace"></div>
@@ -22,7 +22,7 @@ title: Definition.
 
 _Let $K$ be a field and fix $n\in\N^+$. The **vector space of $n\times n$ skew-symmetric matrices over $K$** is the linear subspace_
 $$\begin{equation}
-    \Skew_n\!\l(K\r)\coloneqq\l\{A\in\mat{n}{K}\mid A^\trans=-A\r\}
+    \Skew{n}{K}\coloneqq\l\{A\in\mat{n}{K}\mid A^\trans=-A\r\}
 \end{equation}$$
 _of $\mat{n}{K}$._
 
