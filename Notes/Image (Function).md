@@ -4,7 +4,7 @@ Date Created: 26/01/2022 17:41:00
 Tags: #Definition #Topics/Set_Theory
 
 Types: _Not Applicable_
-Examples: [[Image; Column Space]]
+Examples: [[Image slash Rank]]
 Constructions: [[Covariant Power Set Functor]]
 Generalizations: [[Image (Relation)]]
 

@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Basis Transition Map; Change of Basis Matrix]], [[Matrix representation of dual map is the transpose]]
-Constructions: [[Linear isomorphism between linear maps and matrices]], [[Diagonalizable Operator slash Matrix]]
+Constructions: [[Linear isomorphism between linear maps and matrices]], [[Diagonalizable Operator]]
 Generalizations: _Not Applicable_
 
 Properties: [[Composition of linear maps repr under basis matrix product of representations]], [[Action of linear map repr under basis left-multiplication of matrix representation]], [[Linear map invertible repr under basis matrix representation invertible]], [[Rank of a linear map repr under basis rank of its matrix representation]]

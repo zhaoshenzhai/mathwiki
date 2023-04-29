@@ -4,8 +4,8 @@ Date Created: 01/04/2022 18:16:33
 Tags: #Definition #Topics/Linear_Algebra
 
 Types: [[Linear Isomorphism]], [[Linear Operator]], [[Bounded Linear Map]]
-Examples: [[Left-multiplication of Matrices]], [[Transposition (Matrix)]]
-Constructions: [[Matrix Representation of a Linear Map]], [[Kernel; Null Space]], [[Image; Column Space]], [[Dual Map]], [[Adjoint Map]], [[Composition (Linear Map)]], [[Vector Space of Linear Maps]]
+Examples: _Not Applicable_
+Constructions: [[Matrix Representation of a Linear Map]], [[Kernel slash Nullity]], [[Image slash Rank]], [[Dual Map]], [[Adjoint Map]], [[Vector Space of Linear Maps]]
 Generalizations: [[Antilinear Map]], [[Multilinear Map]], [[Module Homomorphism]]
 
 Properties: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Linear map is injective iff kernel vanishes]], [[Restriction on complement of kernel is injective]], [[Linear map from a finite-dimensional space is bounded]], [[Basic properties of linear maps]]
@@ -23,7 +23,8 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Equivalently, a function $T:V\to W$ is a linear map if
-$$\begin{equation}
-    \fa\alpha\in K,\fa v_1,v_2\in V:T\l(\alpha v_1+v_2\r)=\alpha T\l(v_1\r)+T\l(v_2\r).\exqedin
-\end{equation}$$
+**Remark.** Equivalently, a function $T:V\to W$ is a linear map if $\fa\alpha\in K,\fa v_1,v_2\in V:T\l(\alpha v_1+v_2\r)=\alpha T\l(v_1\r)+T\l(v_2\r)$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+**Remark.** Let $V$ and $W$ are finite-dimensional and fix bases for $V$ and $W$, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$. Then any linear map can be represented by an $m\times n$ matrix $A\in\mat{m\times n}{K}$, and if we define _matrix multiplication_ as composition of linear maps, the action of $T$ on $v$ is given by left multiplication of $A$ on the coordinate representation of $v$.<span style="float:right;">$\blacklozenge$</span>

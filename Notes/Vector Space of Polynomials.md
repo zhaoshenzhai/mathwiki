@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Basis for vector space of polynomials]]
+Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -23,3 +23,5 @@ $$\begin{equation}
 _where $u\coloneqq\max\l\{m,n\r\}$ (so if $m>n$,_ $a_{n+1},\dots,a_m\coloneqq0$_, and if $n>m$,_ $b_{m+1},\dots,b_n\coloneqq0$_)._
 
 ```
+
+**Remark.** Clearly the set $\l\{1,x,x^2,x^3,\dots\r\}$ is a basis for $K\l[x\r]$. Thus $\dim K\l[x\r]=\infty$.<span style="float:right;">$\blacklozenge$</span>

@@ -5,7 +5,7 @@ Tags: #Definition #Later/Linear_Algebra
 
 Types: [[Reduced Row-echelon Matrix]], [[Square Matrix]], [[Invertible Matrix]]
 Examples: [[Augmented Matrix]], [[Jacobian Matrix]]
-Constructions: [[Set of Matrices]], [[Left-multiplication of Matrices]], [[Kernel; Null Space]], [[Image; Column Space]]
+Constructions: [[Set of Matrices]], [[Left-multiplication of Matrices]], [[Kernel slash Nullity]], [[Image slash Rank]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

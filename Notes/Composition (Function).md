@@ -4,7 +4,7 @@ Date Created: 26/01/2022 18:27:58
 Tags: #Definition #Later/Set_Theory
 
 Types: _Not Applicable_
-Examples: [[Composition (Linear Map)]]
+Examples: _Not Applicable_
 Constructions: [[Category of Sets]]
 Generalizations: [[Composition (Relation)]]
 

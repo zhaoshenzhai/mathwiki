@@ -4,7 +4,7 @@ Date Created: 03/04/2022 14:30:50
 Tags: #Definition #Topics/Linear_Algebra
 
 Types: [[Invariant Subspace]]
-Examples: [[Vector Space of Linear Maps]], [[Vector Space of Diagonal Matrices]], [[Vector Space of Symmetric Matrices]], [[Vector Space of Skew-symmetric Matrices]], [[Image; Column Space]]
+Examples: [[Vector Space of Linear Maps]], [[Image slash Rank]]
 Constructions: [[Linear Span]], [[Minkowski Sum (Linear Algebra)]], [[Complement (Linear Subspace)]]
 Generalizations: _Not Applicable_
 

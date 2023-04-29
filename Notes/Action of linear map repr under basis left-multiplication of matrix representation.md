@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 19/05/2022 17:10:55
 Tags: #Proposition #Topics/Linear_Algebra
 
-Proved by: [[Composition of linear maps repr under basis matrix product of representations]]
+Proved by: _Not Applicable_
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
