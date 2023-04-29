@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ and $W$ be normed vector spaces. The **operator norm** on the vector space $\BDD{\l(V,W\r)}\subseteq\hom\l(V,W\r)$ of all bounded linear maps is the norm_
+_Let $V$ and $W$ be normed vector spaces. The **operator norm** on the vector space $\BDD{\l(V,W\r)}\subseteq\Hom\l(V,W\r)$ of all bounded linear maps is the norm_
 $$\begin{equation}
     \|\slot\|_\textrm{op}:B\l(V,W\r)\to\R\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ T\mapsto\|T\|_\textrm{op}\coloneqq\sup\limits_{v\neq 0}\frac{\|Tv\|}{\|v\|}.
 \end{equation}$$

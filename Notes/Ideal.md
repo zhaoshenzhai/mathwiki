@@ -24,7 +24,7 @@ _Similarly for a **right ideal in $R$**. A two-sided ideal in $R$ is called an *
 
 ```
 
-**Remark.** If one takes rings as having unity, then ideals are defined to be sub_group_ of $R$ that is stable under multiplication. Otherwise, the only ideal of $R$ is the trivial ideal $\ideal{0}$ and $R$ itself.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If one takes rings as having unity, then ideals are defined to be sub_group_ of $R$ that is stable under multiplication. Otherwise, the only ideal of $R$ is the trivial ideal $\sring{0}$ and $R$ itself.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

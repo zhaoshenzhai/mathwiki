@@ -1,25 +1,27 @@
 <div class="topSpace"></div>
 
 Date Created: 21/06/2022 08:45:27
-Tags: #Definition #Later/Linear_Algebra
+Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
-Examples: [[Function Space (Linear Algebra)]]
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Dimension of finite direct product is additive]]
+Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Direct product of vector spaces; function spaces are vector spaces]], [[Direct product of vector spaces is a product in Vect]]
+Justifications: [[Function space constructed from a Cartesian product]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let_ $\l\{V\r\}_{i\in I}$ _be an indexed family of $K$-vector spaces. The_ **_(external) direct product of_ $\l\{V_i\r\}_{i\in I}$** _is the vector space_ $\tpl{\prod_{i\in I}V_i,K,\boxplus,\boxdot,0}$ _consisting of_
-* _the direct product_ $\tpl{\prod_{i\in I}V_i,\boxplus,0}$ _of groups_ $\l\{V_i\r\}_{i\in I}$ _and_
-* _the left $K$-action $\boxdot$ on_ $\prod_{i\in I}V_i$ _defined, for all $\alpha\in K$ and_ $f\in\prod_{i\in I}V_i$_, by $\l(\alpha\boxdot f\r)\l(i\r)\coloneqq\alpha\cdot f\l(i\r)$ for all $i\in I$._
+_Let_ $\l\{V_i\r\}$ _be a family of $K$-vector spaces. The_ **_(external) direct product of_ $\l\{V_i\r\}$** _is the direct product $\prod V_i$ of groups equipped with the component-wise defined left $K$-action._
 
 ```
 
-**Remark.** The direct product $\prod_{i\in I}V_i$, equipped with the projection maps $\l\{\pi_i\r\}_{i\in I}$, is a product in $\catvect$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** The direct product $\prod V_i$, equipped with the projection maps $\l\{\pi_i\r\}$, is a product in $\catvect$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+**Remark.** In particular, if $X$ is a non-empty set, then $\prod_{x\in X}K=K^X$, where $K$ is viewed as a vector space over itself, is the function space of $X$ into $K$.<span style="float:right;">$\blacklozenge$</span>

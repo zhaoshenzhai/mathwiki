@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category and fix $X,Y\in\obj\l(\cat{C}\r)$. A morphism $f:X\to Y$ is an **epimorphism** if for all $Z\in\obj\l(\cat{C}\r)$ and morphisms $\alpha_1,\alpha_2:Y\to Z$,_
+_Let $\cat{C}$ be a category and fix $X,Y\in\Obj\l(\cat{C}\r)$. A morphism $f:X\to Y$ is an **epimorphism** if for all $Z\in\Obj\l(\cat{C}\r)$ and morphisms $\alpha_1,\alpha_2:Y\to Z$,_
 $$\begin{equation}
     \alpha_1\circ f=\alpha_2\circ f\ \ \ \ \Rightarrow\ \ \ \ \alpha_1=\alpha_2.
 \end{equation}$$

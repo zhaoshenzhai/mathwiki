@@ -9,8 +9,8 @@ Constructions: [[Isomorphic Vector Spaces]]
 Generalizations: [[Module Isomorphism]]
 
 Properties: [[Linear isomorphism preserve dimensions of subspaces]]
-Sufficiencies: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Linear map to a lower dimensional space is not injective]], [[Linear map to a larger dimensional space is not surjective]]
-Equivalences: [[Linear map invertible repr under basis matrix representation invertible]]
+Sufficiencies: [[Linear map between vector spaces of same dimension is injective iff surjective]]
+Equivalences: [[Matrix Invertibility Theorem]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Bézout$\textbf{'}$s Identity).
 
-_Let $R$ be a commutative ring and fix $a,b\in R\comp\l\{0\r\}$. If there exists some $d\in R$ such that $\ideal{a,b}=\ideal{d}$, then $d=\gcd\l(a,b\r)$._
+_Let $R$ be a commutative ring and fix $a,b\in R\comp\l\{0\r\}$. If there exists some $d\in R$ such that $\sring{a,b}=\sring{d}$, then $d=\gcd\l(a,b\r)$._
 
 ```
 
@@ -30,9 +30,9 @@ However, this does _not_ give an algorithm to compute $\gcd\l(a,b\r)$ in general
 ---
 
 _Proof_. We show that $d$ is a common divisor of $a$ and $b$ that divides every other divisor thereof.
-* Since $a\in\ideal{a,b}$, we see that $a\in\ideal{d}$ and hence $d\divides a$. Similarly, $d\divides b$.
+* Since $a\in\sring{a,b}$, we see that $a\in\sring{d}$ and hence $d\divides a$. Similarly, $d\divides b$.
 
-* Let $d'\in R\comp\l\{0\r\}$ such that $d'\divides a$ and $d'\divides b$. Then $a\in\ideal{d}$ and $b\in\ideal{d'}$, so $a=d'r$ and $b=d's$ for some $r,s\in R$. It suffices to show that $\ideal{d}=\ideal{a,b}\subseteq\ideal{d'}$, for then $d'\divides d$. Take $x,y\in R$, and observe that
+* Let $d'\in R\comp\l\{0\r\}$ such that $d'\divides a$ and $d'\divides b$. Then $a\in\sring{d}$ and $b\in\sring{d'}$, so $a=d'r$ and $b=d's$ for some $r,s\in R$. It suffices to show that $\sring{d}=\sring{a,b}\subseteq\sring{d'}$, for then $d'\divides d$. Take $x,y\in R$, and observe that
 $$\begin{equation}
-    ax+by=\l(d'r\r)x+\l(d's\r)y=\l(rx+sy\r)d'\in\ideal{d'}.\qedin
+    ax+by=\l(d'r\r)x+\l(d's\r)y=\l(rx+sy\r)d'\in\sring{d'}.\qedin
 \end{equation}$$

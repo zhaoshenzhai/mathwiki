@@ -11,15 +11,17 @@ Generalizations: _Not Applicable_
 Properties: [[Order of element in product]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Internal direct product iso external direct product (group)]]
-Justifications: [[Direct product of groups slash function groups are groups]]
+Justifications: [[Function space constructed from a Cartesian product]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{G_1,\ast_1}$ and $\tpl{G_2,\ast_2}$ be groups. The **(external) direct product of $G_1$ and $G_2$** is the group $\tpl{G_1\times G_2,\blob}$ consisting of_
-* _the Cartesian product $G_1\times G_2$ and_
-* _the binary operation $\blob$ on $G_1\times G_2$ defined, for all $\tpl{g_1,g_2},\tpl{g_1',g_2'}\in G_1\times G_2$ by $\tpl{g_1,g_2}\blob\tpl{g_1',g_2'}\coloneqq\tpl{g_1\ast_1g_1',g_2\ast_2g_2'}$._
+_Let $\l\{G_i\r\}$ be a family of groups. The **(external) direct product of $\l\{G_i\r\}$** is the Cartesian product $\prod G_i$ equipped with the component-wise defined binary operation._
 
 ```
 
-**Remark.** The direct product $\tpl{G_1\times G_2,\blob}$ is a product in $\catgrp$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** The direct product $\prod G_i$, equipped with the projection maps $\l\{\pi_i\r\}$, is a product in $\catgrp$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+**Remark.** In particular, if $X$ is a non-empty set, then $\prod_{x\in X}G=G^X$ is the function group from $X$ into $G$.<span style="float:right;">$\blacklozenge$</span>

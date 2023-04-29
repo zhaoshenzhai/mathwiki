@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category and fix $X,Y\in\obj\l(\cat{C}\r)$. A morphism $f:X\to Y$ is an **isomorphism in $\cat{C}$** if $f$ has an inverse._
+_Let $\cat{C}$ be a category and fix $X,Y\in\Obj\l(\cat{C}\r)$. A morphism $f:X\to Y$ is an **isomorphism in $\cat{C}$** if $f$ has an inverse._
 
 ```
 

@@ -17,11 +17,11 @@ _Let $\cat{C}$ be a category. Then the relation $\iso$ on any collection of $\ca
 
 ```
 
-**Remark.** Here, $\iso$ is taken as a $\textrm{`}$binary relation$\textrm{'}$ defined by $X\iso Y$ iff there exists an isomorphism $f:X\to Y$; it is _not_ a binary relation in the strict sense since $\obj\l(\cat{C}\r)$ need not be a set.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Here, $\iso$ is taken as a $\textrm{`}$binary relation$\textrm{'}$ defined by $X\iso Y$ iff there exists an isomorphism $f:X\to Y$; it is _not_ a binary relation in the strict sense since $\Obj\l(\cat{C}\r)$ need not be a set.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-_Proof_. Let $X,Y,Z\in\obj\l(\cat{C}\r)$.
+_Proof_. Let $X,Y,Z\in\Obj\l(\cat{C}\r)$.
 * (Reflexivity): Since $\id_X\circ\id_X=\id_X$, we see that $\id_X$ is invertible with $\id_X^{-1}=\id_X$.
 
 * (Symmetry): If $X\iso Y$, then there exists an invertible function $f:X\to Y$. It suffices to show that $f^{-1}$ has both a left and right-inverse, but this follows directly from the fact that $f^{-1}$ is the inverse of $f$, which states

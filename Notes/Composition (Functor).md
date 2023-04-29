@@ -17,12 +17,12 @@ Justifications: _Not Applicable_
 title: Definition.
 
 _Let $\cat{C}$, $\cat{D}$, and $\cat{E}$ be categories and consider two functors $\ms{F}:\cat{C}\to\cat{D}$ and $\ms{G}:\cat{D}\to\cat{E}$. The **composite functor of $\ms{G}$ after $\ms{F}$** is the functor $\ms{G}\circ\ms{F}:\cat{C}\to\cat{E}$ defined by:_
-* _The (class) function_ $\l(\ms{G}\circ\ms{F}\r)^{\obj}$ _which sends each $X\in\obj\l(\cat{C}\r)$ to_ $\ms{G}^{\obj}\l(\ms{F}^{\obj}\l(X\r)\r)$_._
-* _For all objects $X,Y\in\obj\l(\cat{C}\r)$, the function_
+* _The (class) function_ $\l(\ms{G}\circ\ms{F}\r)^{\Obj}$ _which sends each $X\in\Obj\l(\cat{C}\r)$ to_ $\ms{G}^{\Obj}\l(\ms{F}^{\Obj}\l(X\r)\r)$_._
+* _For all objects $X,Y\in\Obj\l(\cat{C}\r)$, the function_
 $$\begin{equation}
     \begin{aligned}
-        \l(\ms{G}\circ\ms{F}\r)^{\hom}:\hom_\cat{C}\!\l(X,Y\r)&\to\hom_\cat{E}\!\l(\l(\ms{G}\circ\ms{F}\r)^{\obj}\l(X\r),\l(\ms{G}\circ\ms{F}\r)^{\obj}\l(Y\r)\r)\\
-        f&\mapsto\ms{G}^{\hom}\l(\ms{F}^{\hom}\l(f\r)\r).
+        \l(\ms{G}\circ\ms{F}\r)^{\Hom}:\Hom_\cat{C}\!\l(X,Y\r)&\to\Hom_\cat{E}\!\l(\l(\ms{G}\circ\ms{F}\r)^{\Obj}\l(X\r),\l(\ms{G}\circ\ms{F}\r)^{\Obj}\l(Y\r)\r)\\
+        f&\mapsto\ms{G}^{\Hom}\l(\ms{F}^{\Hom}\l(f\r)\r).
     \end{aligned}
 \end{equation}$$
 

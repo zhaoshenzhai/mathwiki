@@ -29,4 +29,4 @@ $$\begin{equation}
 \end{equation}$$
 for all $u\in U$, so $Tv\in E_\lambda^\perp$.
 
-With respect to the bases of $E_\lambda$ and $E_\lambda^\perp$, we see that $T\sim\diag\l(\lambda\id,R\r)$ where $R\coloneqq\l.T\r|_{E_\lambda^\perp}\in\edm\l(E_\lambda^\perp\r)$ is normal, so the result follows by induction.<span style="float:right;">$\blacksquare$</span>
+With respect to the bases of $E_\lambda$ and $E_\lambda^\perp$, we see that $T\sim\diag\l(\lambda\id,R\r)$ where $R\coloneqq\l.T\r|_{E_\lambda^\perp}\in\End\l(E_\lambda^\perp\r)$ is normal, so the result follows by induction.<span style="float:right;">$\blacksquare$</span>

@@ -16,8 +16,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category and fix $X\in\obj\l(\cat{C}\r)$. An **automorphism of $X$** is an endomorphism of $X$ that is also an isomorphism._
+_Let $\cat{C}$ be a category and fix $X\in\Obj\l(\cat{C}\r)$. An **automorphism of $X$** is an endomorphism of $X$ that is also an isomorphism._
 
 ```
 
-**Remark.** Denote the set of all automorphisms of $X$ as $\aut\l(X\r)$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Denote the set of all automorphisms of $X$ as $\Aut\l(X\r)$.<span style="float:right;">$\blacklozenge$</span>

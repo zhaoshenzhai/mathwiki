@@ -18,5 +18,5 @@ _Let $\cat{C}$ be a category. Then the identity functor_ $\Id_\cat{C}:\cat{C}\to
 ```
 
 _Proof_. It suffices to verify the axioms of a covariant functor.
-* ($\axifunctor[1]$): Take $X\in\obj\l(\cat{C}\r)$. The fact that $\Id\l(\id_X\r)=\id_{\Id\l(X\r)}$ follows directly since both evaluate to $\id_X$.
-* ($\axifunctor[2]$): Take $f\in\hom\l(X,Y\r)$ and $g\in\hom\l(Y,Z\r)$ for any $X,Y,Z\in\obj\l(\cat{C}\r)$. The fact that $\Id\l(g\circ f\r)=\Id\l(g\r)\circ\Id\l(f\r)$ follows directly since both evaluate to $g\circ f$.<span style="float:right;">$\blacksquare$</span>
+* ($\axifunctor[1]$): Take $X\in\Obj\l(\cat{C}\r)$. The fact that $\Id\l(\id_X\r)=\id_{\Id\l(X\r)}$ follows directly since both evaluate to $\id_X$.
+* ($\axifunctor[2]$): Take $f\in\Hom\l(X,Y\r)$ and $g\in\Hom\l(Y,Z\r)$ for any $X,Y,Z\in\Obj\l(\cat{C}\r)$. The fact that $\Id\l(g\circ f\r)=\Id\l(g\r)\circ\Id\l(f\r)$ follows directly since both evaluate to $g\circ f$.<span style="float:right;">$\blacksquare$</span>

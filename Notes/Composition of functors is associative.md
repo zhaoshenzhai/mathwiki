@@ -25,11 +25,11 @@ _commutes._
 
 ```
 
-_Proof_. We shall prove that $\l[\l(\ms{H}\circ\ms{G}\r)\circ\ms{F}\r]^{\obj}=\l[\ms{H}\circ\l(\ms{G}\circ\ms{F}\r)\r]^{\obj}$; the proof for the morphisms part is identical. Take $X\in\obj\l(\cat{C}\r)$; the result follows by repeated application of the definition:
+_Proof_. We shall prove that $\l[\l(\ms{H}\circ\ms{G}\r)\circ\ms{F}\r]^{\Obj}=\l[\ms{H}\circ\l(\ms{G}\circ\ms{F}\r)\r]^{\Obj}$; the proof for the morphisms part is identical. Take $X\in\Obj\l(\cat{C}\r)$; the result follows by repeated application of the definition:
 
 $\begin{align}
-    \l[\l(\ms{H}\circ\ms{G}\r)\circ\ms{F}\r]^{\obj}\l(X\r)&=\l(\ms{H}\circ\ms{G}\r)^{\obj}\l[\ms{F}^{\obj}\l(X\r)\r]\\
-    &=\ms{H}^{\obj}\l(\ms{G}^{\obj}\l(\ms{F}^{\obj}\l(X\r)\r)\r)\\
-    &=\ms{H}^{\obj}\l[\l(\ms{G}\circ\ms{F}\r)^{\obj}\l(X\r)\r]\\
-    &=\l[\ms{H}\circ\l(\ms{G}\circ\ms{F}\r)\r]^{\obj}\l(X\r).\qedin
+    \l[\l(\ms{H}\circ\ms{G}\r)\circ\ms{F}\r]^{\Obj}\l(X\r)&=\l(\ms{H}\circ\ms{G}\r)^{\Obj}\l[\ms{F}^{\Obj}\l(X\r)\r]\\
+    &=\ms{H}^{\Obj}\l(\ms{G}^{\Obj}\l(\ms{F}^{\Obj}\l(X\r)\r)\r)\\
+    &=\ms{H}^{\Obj}\l[\l(\ms{G}\circ\ms{F}\r)^{\Obj}\l(X\r)\r]\\
+    &=\l[\ms{H}\circ\l(\ms{G}\circ\ms{F}\r)\r]^{\Obj}\l(X\r).\qedin
 \end{align}$

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/05/2022 16:43:17
-Tags: #Theorem #Later/Linear_Algebra
+Tags: #Theorem #Topics/Linear_Algebra
 
 Proved by: [[Basis Extraction Theorem]], [[Basis Extension Theorem]]
 References: _Not Applicable_

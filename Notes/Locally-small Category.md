@@ -16,4 +16,4 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\mb{U}$ be a Grothendieck universe. A $\mb{U}$-category $\cat{C}$ is said to be **locally $\mb{U}$-small** if $\hom\l(X,Y\r)$ is $\mb{U}$-small for all $X,Y\in\obj\l(\cat{C}\r)$._
+_Let $\mb{U}$ be a Grothendieck universe. A $\mb{U}$-category $\cat{C}$ is said to be **locally $\mb{U}$-small** if $\Hom\l(X,Y\r)$ is $\mb{U}$-small for all $X,Y\in\Obj\l(\cat{C}\r)$._

@@ -23,14 +23,14 @@ _The category of relations $\catrel$ (with objects $\tpl{X,\rho}$ and morphisms 
 
 _Proof_.  It suffices to check that the identities and composite morphisms are well-defined since the axioms are inherited directly from that of $\catset$; $\catrel$ is locally-small follows from the fact that for all pairs $\tpl{X,\rho}$ and $\tpl{Y,\sigma}$, we have that
 $$\begin{equation}
-    \hom\l(\tpl{X,\rho},\tpl{Y,\sigma}\r)\subseteq Y^X
+    \Hom\l(\tpl{X,\rho},\tpl{Y,\sigma}\r)\subseteq Y^X
 \end{equation}$$
 and is thus a set by $\axispec$.
-* Take $\tpl{X,\rho}\in\obj\l(\catrel\r)$ and $x_1,x_2\in X$. If $\tpl{x_1,x_2}\in\rho$, observe that
+* Take $\tpl{X,\rho}\in\Obj\l(\catrel\r)$ and $x_1,x_2\in X$. If $\tpl{x_1,x_2}\in\rho$, observe that
 $$\begin{equation}
     \tpl{\id_{\tpl{X,\rho}}\l(x_1\r),\id_{\tpl{X,\rho}}\l(x_2\r)}=\tpl{\id_X\l(x_1\r),\id_X\l(x_2\r)}=\tpl{x_1,x_2}\in\rho
 \end{equation}$$
-too and thus $\id_{\tpl{X,\rho}}\in\hom\l(X,X\r)$.
+too and thus $\id_{\tpl{X,\rho}}\in\Hom\l(X,X\r)$.
 
 * Take morphisms $f:\tpl{X,\rho}\to\tpl{Y,\sigma}$ and $g:\tpl{Y,\sigma}\to\tpl{Z,\tau}$; we need to prove that for all $x_1,x_2\in X$,
 $$\begin{equation}

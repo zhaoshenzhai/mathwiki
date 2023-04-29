@@ -17,13 +17,13 @@ Justifications: [[Opposite category is a category]]
 title: Definition.
 
 _Let $\cat{C}$ be a category. The **opposite category of $\cat{C}$** is the category $\cat{C}^\textrm{op}$ whose objects are $\cat{C}$-objects and whose morphisms are $\cat{C}$-morphisms with arrows reversed. Formally,_
-* $\obj\l(\cat{C}^\textrm{op}\r)\coloneqq\obj\l(\cat{C}\r)$,
-* _for all_ $X,Y\in\obj\l(\cat{C}^\textrm{op}\r)$_,_ $\hom_{\cat{C}^\textrm{op}}\!\l(X,Y\r)\coloneqq\hom_\cat{C}\!\l(Y,X\r)$_,_
-* _for all_ $X\in\obj\l(\cat{C}^\textrm{op}\r)$_, the $\cat{C}^\textrm{op}$-identity on $X$ is the $\cat{C}$-identity on $X$, and_
-* _for all $X,Y,Z\in\obj\l(\cat{C}^\textrm{op}\r)$, the composition function is_
+* $\Obj\l(\cat{C}^\textrm{op}\r)\coloneqq\Obj\l(\cat{C}\r)$,
+* _for all_ $X,Y\in\Obj\l(\cat{C}^\textrm{op}\r)$_,_ $\Hom_{\cat{C}^\textrm{op}}\!\l(X,Y\r)\coloneqq\Hom_\cat{C}\!\l(Y,X\r)$_,_
+* _for all_ $X\in\Obj\l(\cat{C}^\textrm{op}\r)$_, the $\cat{C}^\textrm{op}$-identity on $X$ is the $\cat{C}$-identity on $X$, and_
+* _for all $X,Y,Z\in\Obj\l(\cat{C}^\textrm{op}\r)$, the composition function is_
 $$\begin{equation}
     \begin{aligned}
-        \ast:\hom_{\cat{C}^\textrm{op}}\!\l(X,Y\r)\times\hom_{\cat{C}^\textrm{op}}\!\l(Y,Z\r)&\to\hom_{\cat{C}^\textrm{op}}\!\l(X,Z\r)\\
+        \ast:\Hom_{\cat{C}^\textrm{op}}\!\l(X,Y\r)\times\Hom_{\cat{C}^\textrm{op}}\!\l(Y,Z\r)&\to\Hom_{\cat{C}^\textrm{op}}\!\l(X,Z\r)\\
         \tpl{f,g}&\mapsto\ast\l(f,g\r)\eqqcolon g\ast f\coloneqq f\circ g
     \end{aligned}
 \end{equation}$$

@@ -1,31 +1,50 @@
+% Operators
+    \newcommand{\id}{\operatorname{id}}
+    \newcommand{\iv}{\operatorname{iv}}
+    \newcommand{\dom}{\operatorname{dom}}
+    \newcommand{\ran}{\operatorname{ran}}
+    \newcommand{\cdm}{\operatorname{cdm}}
+    \newcommand{\im}{\operatorname{im}}
+    \newcommand{\preim}{\operatorname{preim}}
+    \newcommand{\rfcl}{\operatorname{rfcl}}
+    \newcommand{\ON}{\operatorname{ON}}
+    \newcommand{\Obj}{\operatorname{Obj}}
+    \newcommand{\Aut}{\operatorname{Aut}}
+    \newcommand{\End}{\operatorname{End}}
+    \newcommand{\Hom}{\operatorname{Hom}}
+    \newcommand{\Id}{\operatorname{Id}}
+    \newcommand{\diam}{\operatorname{diam}}
+    \newcommand{\rank}{\operatorname{rank}}
+    \newcommand{\nullity}{\operatorname{nullity}}
+    \newcommand{\proj}{\operatorname{proj}}
+    \newcommand{\span}{\operatorname{span}}
+    \newcommand{\diag}{\operatorname{diag}}
+    \newcommand{\Sym}{\operatorname{Sym}}
+    \newcommand{\Skew}{\operatorname{Skew}}
+    \newcommand{\sgn}{\operatorname{sgn}}
+    \newcommand{\lcm}{\operatorname{lcm}}
+    \newcommand{\eval}{\operatorname{eval}}
+    \newcommand{\cont}{\operatorname{cont}}
+    \newcommand{\char}{\operatorname{char}}
+    \renewcommand{\Re}{\operatorname{Re}}
+    \renewcommand{\Im}{\operatorname{Im}}
+
 % Math notations
     % Set Theory
         \newcommand{\fa}{\forall}
         \newcommand{\ex}{\exists}
         \newcommand{\tpl}[1]{\l(#1\r)}
         \newcommand{\pow}{\mathcal{P}}
-        \newcommand{\id}{\operatorname{id}}
-        \newcommand{\iv}{\operatorname{iv}}
-        \newcommand{\dom}{\operatorname{dom}}
-        \newcommand{\ran}{\operatorname{ran}}
-        \newcommand{\cdm}{\operatorname{cdm}}
-        \newcommand{\fld}{\operatorname{fld}}
-        \newcommand{\im}{\operatorname{im}}
-        \newcommand{\preim}{\operatorname{preim}}
         \newcommand{\rest}{\!\upharpoonright\!}
         \newcommand{\comp}{\setminus}
-        \newcommand{\rfcl}{\operatorname{rfcl}}
-        \newcommand{\ordinal}{\textrm{ON}}
         \newcommand{\iso}{\cong}
         \newcommand{\into}{\hookrightarrow}
         \newcommand{\onto}{\twoheadrightarrow}
         \newcommand{\simto}{\rightleftarrows}
         \newcommand{\eqnum}{\approx}
-        \newcommand{\ubar}[1]{\underline{#1}}
+        \renewcommand{\bar}{\overline}
         \renewcommand{\em}{\varnothing}
         \renewcommand{\mid}{\,\middle\vert\,}
-        \renewcommand{\min}{\operatorname{min}}
-        \renewcommand{\max}{\operatorname{max}}
 
     % Category Theory
         \newcommand{\cat}[1]{\textbf{#1}}
@@ -35,76 +54,43 @@
         \newcommand{\catring}{\cat{Ring}}
         \newcommand{\catvect}[1][K]{\cat{Vect}_#1}
         \newcommand{\catmod}[1][R]{\cat{Mod}_#1}
-        \newcommand{\Id}{\operatorname{Id}}
         \newcommand{\natid}{\mc{I}\textrm{d}}
-        \newcommand{\obj}{\operatorname{Obj}}
-        \newcommand{\aut}{\operatorname{Aut}}
-        \newcommand{\edm}{\operatorname{End}}
-        \renewcommand{\hom}{\operatorname{Hom}}
 
-    % Geometry
-        % Analysis
-            \newcommand{\diam}{\operatorname{diam}}
-            \newcommand{\del}{\partial}
-            \newcommand{\RI}[1][]{\ms{R}#1}
-            \newcommand{\CONT}[1][]{\ms{C}#1}
-            \newcommand{\BDD}[1][]{\ms{B}#1}
-            \renewcommand{\d}{\,\mathrm{d}}
-            \renewcommand{\Re}{\operatorname{Re}}
-            \renewcommand{\Im}{\operatorname{Im}}
+    % Analysis
+        \newcommand{\del}{\partial}
+        \newcommand{\RI}[1][]{\ms{R}#1}
+        \newcommand{\CONT}[1][]{\ms{C}#1}
+        \newcommand{\BDD}[1][]{\ms{B}#1}
+        \renewcommand{\d}{\,\mathrm{d}}
 
-        % Topology
-            \newcommand{\sttopR}[1][]{\mc{T}^\textrm{st}_{\R^{#1}}}
-            \newcommand{\ULtopR}{\mc{T}^\textrm{UL}_\R}
-            \newcommand{\LLtopR}{\mc{T}^\textrm{LL}_\R}
-            \newcommand{\KtopR}{\mc{T}^K_\R}
+    % Topology
+        \newcommand{\sttopR}[1][]{\mc{T}^\textrm{st}_{\R^{#1}}}
+        \newcommand{\ULtopR}{\mc{T}^\textrm{UL}_\R}
+        \newcommand{\LLtopR}{\mc{T}^\textrm{LL}_\R}
+        \newcommand{\KtopR}{\mc{T}^K_\R}
 
-    % Algebra
-        % Linear Algebra
-            % Core
-                \newcommand{\rank}{\operatorname{rank}}
-                \newcommand{\nullity}{\operatorname{nullity}}
-                \newcommand{\inprod}[2]{\l\langle{#1},{#2}\r\rangle}
-                \newcommand{\proj}{\operatorname{proj}}
-                \newcommand{\dual}{\wedge}
-                \newcommand{\adj}{\ast}
-                \renewcommand{\span}{\operatorname{span}}
-            % Classes of Matrices
-                \newcommand{\mat}[2]{\mathcal{M}_{#1}\!\l(#2\r)}
-                \newcommand{\GL}[2]{\operatorname{GL}_{#1}\!\l(#2\r)}
-                \newcommand{\SL}[2]{\operatorname{SL}_{#1}\!\l(#2\r)}
-                \newcommand{\Diag}[2]{\operatorname{Diag}_{#1}\!\l(#2\r)}
-                \newcommand{\Skew}[2]{\operatorname{Skew}_{#1}\!\l(#2\r)}
-            % Matrix
-                \newcommand{\diag}{\operatorname{diag}}
-                \newcommand{\trans}{\mathsf{T}}
-                \newcommand{\rref}{\operatorname{rref}}
-                \newcommand{\row}{\operatorname{row}}
-                \newcommand{\col}{\operatorname{col}}
-                \newcommand{\nullsp}{\operatorname{null}}
-            % Vector
-                \newcommand{\dotpro}{\boldsymbol\cdot}
-                \newcommand{\cropro}{\boldsymbol\times}
-                \renewcommand{\v}[1]{\mathbf{#1}}
+    % Linear Algebra
+        \newcommand{\mat}[2]{\operatorname{Mat}_{#1}\!\l(#2\r)}
+        \newcommand{\GL}[2]{\operatorname{GL}_{#1}\!\l(#2\r)}
+        \newcommand{\SL}[2]{\operatorname{SL}_{#1}\!\l(#2\r)}
+        \newcommand{\inprod}[2]{\l\langle{#1},{#2}\r\rangle}
+        \newcommand{\dual}{\wedge}
+        \newcommand{\adj}{\ast}
+        \newcommand{\trans}{\mathsf{T}}
+        \renewcommand{\v}[1]{\mathbf{#1}}
 
-        % Group Theory
-            \newcommand{\ord}[1]{\l|#1\r|}
-            \newcommand{\Sym}{\operatorname{Sym}}
-            \newcommand{\sgn}{\operatorname{sgn}}
-            \newcommand{\nsgrpeq}{\trianglelefteq}
-            \newcommand{\sgrp}[1]{\l\langle#1\r\rangle}
+    % Group Theory
+        \newcommand{\ord}[1]{\l|#1\r|}
+        \newcommand{\nsgrpeq}{\trianglelefteq}
+        \newcommand{\sgrp}[1]{\l\langle#1\r\rangle}
 
-        % Number Theory
-            \newcommand{\lcm}{\operatorname{lcm}}
-            \newcommand{\divides}{\,|\,}
-            \newcommand{\ndivides}{\nmid}
-            \renewcommand{\mod}[1]{\equiv_{#1}}
+    % Number Theory
+        \newcommand{\divides}{\,|\,}
+        \newcommand{\ndivides}{\nmid}
+        \renewcommand{\mod}[1]{\equiv_{#1}}
 
-        % Ring Theory
-            \newcommand{\charac}{\operatorname{char}}
-            \newcommand{\eval}{\operatorname{eval}}
-            \newcommand{\cont}{\operatorname{cont}}
-            \newcommand{\ideal}[1]{\l(#1\r)}
+    % Ring Theory
+        \newcommand{\sring}[1]{\l\langle#1\r\rangle}
 
 % Math others
     % Number Systems
@@ -150,6 +136,7 @@
         \renewcommand{\phi}{\varphi}
         \renewcommand{\epsilon}{\varepsilon}
         \newcommand{\cchi}{\raise 1pt {\chi}}
+
     % Meta
         \newcommand{\qedin}{\tag*{$\blacksquare$}}
         \newcommand{\exqedin}{\tag*{$\blacklozenge$}}
@@ -157,6 +144,5 @@
         \newcommand{\slot}{-}
         \newcommand{\cref}[1]{\tag{$\,#1\,$}}
         \renewcommand{\ref}[1]{\l(\,#1\,\r)}
-        \renewcommand{\bar}{\overline}
         \renewcommand{\l}{\left}
         \renewcommand{\r}{\right}

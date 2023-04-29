@@ -21,7 +21,7 @@ _Let $\cat{C}$ be a category and fix a morphism $f:X\to Y$. If $f$ is right-inve
 
 ```
 
-_Proof_. Let $g:Y\to X$ be a right-inverse of $f$ and take $Z\in\obj\l(\cat{C}\r)$. Consider any morphism $\alpha_1,\alpha_2:Y\to Z$ such that $\alpha_1\circ f=\alpha_2\circ f$ and compute
+_Proof_. Let $g:Y\to X$ be a right-inverse of $f$ and take $Z\in\Obj\l(\cat{C}\r)$. Consider any morphism $\alpha_1,\alpha_2:Y\to Z$ such that $\alpha_1\circ f=\alpha_2\circ f$ and compute
 $$\begin{equation}
     \begin{alignedat}{2}
         \alpha_1&=\alpha_1\circ\id_Y&&\axicat[2]\\
@@ -37,4 +37,4 @@ from which it follows that $f$ is an epimorphism.<span style="float:right;">$\bl
 
 ---
 
-**Remark.** The converse does not generically hold. Take, for instance, the preorder category induced by $\tpl{\Z,\leq}$ where $\leq$ is the standard ordering on $\mb{Z}$. Every morphism $\tpl{m,n}$ where $m,n\in\Z$ is an epimorphism since for all $k\in\Z$, if there exists $\alpha_1,\alpha_2:n\to k$, then necessarily $\alpha_1=\alpha_2$ as $\hom\l(n,k\r)=\l\{\tpl{n,k}\r\}$ is a singleton. However, for any $a,b\in\Z$ with $a<b$, the morphism $\tpl{a,b}$ does not have a right-inverse (nor a left one, in fact) since $b\not\leq a$ and thus $\hom\l(b,a\r)=\em$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** The converse does not generically hold. Take, for instance, the preorder category induced by $\tpl{\Z,\leq}$ where $\leq$ is the standard ordering on $\mb{Z}$. Every morphism $\tpl{m,n}$ where $m,n\in\Z$ is an epimorphism since for all $k\in\Z$, if there exists $\alpha_1,\alpha_2:n\to k$, then necessarily $\alpha_1=\alpha_2$ as $\Hom\l(n,k\r)=\l\{\tpl{n,k}\r\}$ is a singleton. However, for any $a,b\in\Z$ with $a<b$, the morphism $\tpl{a,b}$ does not have a right-inverse (nor a left one, in fact) since $b\not\leq a$ and thus $\Hom\l(b,a\r)=\em$.<span style="float:right;">$\blacklozenge$</span>

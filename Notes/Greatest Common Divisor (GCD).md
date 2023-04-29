@@ -20,8 +20,8 @@ _Let $R$ be a integral domain and fix $a,b\in R\comp\l\{0\r\}$. An element $d\in
 * _$d$ is a common divisor of $a$ and $b$; that is, if $d\divides a$ and $d\divides b$, and_
 * _for all common divisors $d'$ of $a$ and $b$, $d'\divides d$._
 
-_The greatest common divisor of $a$ and $b$ is, up to a unit, unique; write $\gcd\l(a,b\r)\coloneqq d$ and let the **GCD ideal of $a$ and $b$** be $\ideal{d}$._
+_The greatest common divisor of $a$ and $b$ is, up to a unit, unique; write $\gcd\l(a,b\r)\coloneqq d$ and let the **GCD ideal of $a$ and $b$** be $\sring{d}$._
 
 ```
 
-**Remark.** Rephrasing in terms of ideals, $d$ is a greatest common divisor of $a$ and $b$ iff $\ideal{a,b}\subseteq\ideal{d}$ and $\ideal{d}\subseteq\ideal{d'}$ for any ideal $\ideal{d'}$ containing $\ideal{a,b}$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Rephrasing in terms of ideals, $d$ is a greatest common divisor of $a$ and $b$ iff $\sring{a,b}\subseteq\sring{d}$ and $\sring{d}\subseteq\sring{d'}$ for any ideal $\sring{d'}$ containing $\sring{a,b}$.<span style="float:right;">$\blacklozenge$</span>

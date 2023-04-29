@@ -5,7 +5,7 @@ Tags: #Definition #Later/Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[External Direct Product (Group)]], [[Product Space (Topology)]]
+Constructions: [[Product Space (Topology)]]
 Generalizations: [[Cartesian Product]]
 
 Properties: [[Cartesian product is monotone w.r.t. subsets]], [[Cartesian product of intersections]], [[Cartesian product respects equinumerosity]]

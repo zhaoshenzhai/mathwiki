@@ -20,7 +20,7 @@ _Let $\cat{C}$ and $\cat{D}$ be categories and fix two functors $\ms{F},\ms{G}:\
 
 <center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-03-12_140320/image.svg", width=120></center>
 
-_such that for all $X\in\obj\l(\cat{C}\r)$, the components $\eta_X:\ms{F}\l(X\r)\to\ms{G}\l(X\r)$ are isomorphisms in $\cat{D}$._
+_such that for all $X\in\Obj\l(\cat{C}\r)$, the components $\eta_X:\ms{F}\l(X\r)\to\ms{G}\l(X\r)$ are isomorphisms in $\cat{D}$._
 
 ```
 

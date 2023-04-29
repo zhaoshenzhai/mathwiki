@@ -16,15 +16,15 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category and fix $X,Y\in\obj\l(\cat{C}\r)$. A **$\cat{C}$-morphism from $X$ to $Y$** is an element $f\in\hom\l(X,Y\r)$._
+_Let $\cat{C}$ be a category and fix $X,Y\in\Obj\l(\cat{C}\r)$. A **$\cat{C}$-morphism from $X$ to $Y$** is an element $f\in\Hom\l(X,Y\r)$._
 
 ```
 
-**Remark.** If $f\in\hom\l(X,Y\r)$, write $f:X\to Y$ and define $\dom f\coloneqq X$ and $\cdm f\coloneqq Y$. Other $\textrm{`}$functional$\textrm{'}$ notations (like $\mapsto$) need not apply.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If $f\in\Hom\l(X,Y\r)$, write $f:X\to Y$ and define $\dom f\coloneqq X$ and $\cdm f\coloneqq Y$. Other $\textrm{`}$functional$\textrm{'}$ notations (like $\mapsto$) need not apply.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** If there exist $X,Y\in\obj\l(\cat{C}\r)$ such that $f$ is a morphism from $X$ to $Y$, write $f\in\hom\l(\cat{C}\r)$. In other words, write, _informally_,
+**Remark.** If there exist $X,Y\in\Obj\l(\cat{C}\r)$ such that $f$ is a morphism from $X$ to $Y$, write $f\in\Hom\l(\cat{C}\r)$. In other words, write, _informally_,
 $$\begin{equation}
-    \hom\l(\cat{C}\r)\coloneqq\bigcup\l\{\hom\l(X,Y\r)\mid X,Y\in\obj\l(\cat{C}\r)\r\}.\exqedin
+    \Hom\l(\cat{C}\r)\coloneqq\bigcup\l\{\Hom\l(X,Y\r)\mid X,Y\in\Obj\l(\cat{C}\r)\r\}.\exqedin
 \end{equation}$$
