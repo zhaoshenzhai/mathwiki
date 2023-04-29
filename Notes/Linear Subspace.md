@@ -8,7 +8,7 @@ Examples: [[Vector Space of Linear Maps]], [[Vector Space of Diagonal Matrices]]
 Constructions: [[Linear Span]], [[Minkowski Sum (Linear Algebra)]], [[Complement (Linear Subspace)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Dimension of subspace]], [[Arbitrary intersection of linear subspaces is a linear subspace]]
+Properties: [[Dimension of subspace]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
@@ -16,8 +16,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a $K$-vector space and fix a subset $U\subseteq V$. Then $U$ is a **$K$-linear subspace of $V$** if $U$ is a vector space under the induced operations._
+_Let $V$ be a $K$-vector space and fix a subset $U\subseteq V$. Then $U$ is a **($K$-linear) subspace of $V$** if $U$ is a vector space under the induced operations._
 
 ```
 
-**Remark.** It is clear that $U\subseteq V$ is a subspace of $V$ if $0\in U$ and $H$ is closed under linear combinations.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** It is clear that $U\subseteq V$ is a subspace of $V$ if $0\in U$ and $U$ is closed under linear combinations.<span style="float:right;">$\blacklozenge$</span>

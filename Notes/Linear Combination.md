@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: [[Unique Representation Theorem (Basis)]]
-Equivalences: [[Linear combination iff in smallest containing subspace]]
+Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
 ``` ad-Definition
