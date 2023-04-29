@@ -21,10 +21,10 @@ $$\begin{equation}
 ---
 
 **Characterizations.** As with most categories, vector spaces are [identified](Isomorphic%20Vector%20Spaces.md) up to [isomorphism](Linear%20Isomorphism.md). Indeed, they are characterized by their dimension, in the sense that they are [linearly isomorphic $\Leftrightarrow$ their dimensions coincide](Linearly%20isomorphic%20iff%20dimensions%20coincide%20(finite-dim.).md). Thus in the finite-dimensional case, we can, under a choice of basis:
-* [Represent](Linear%20isomorphism%20between%20finite-dim%20vector%20spaces%20and%20tuple%20spaces.md) vectors by tuples in $K^n$ (thereby establishing a [coordinate system](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md)).
-* [Represent](Linear%20isomorphism%20between%20linear%20maps%20and%20matrices.md) linear maps by [matrices](Matrix.md) (their actions on a vector [are represented by](Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md) matrix-vector multiplication, and compositions between linear maps [are represented by](Composition%20of%20linear%20maps%20repr%20under%20basis%20matrix%20product%20of%20representations.md) matrix multiplication).
+* [Represent](Coordinate%20representation%20of%20vector%20spaces.md) vectors by tuples in $K^n$ (thereby establishing a [coordinate system](Coordinate%20Representation%20of%20Finite-dim.%20Vector%20Spaces.md)).
+* [Represent](Matrix%20representation%20of%20linear%20maps.md) linear maps by [matrices](Matrix.md) (their actions on a vector [are represented by](Action%20of%20linear%20map%20repr%20under%20basis%20left-multiplication%20of%20matrix%20representation.md) matrix-vector multiplication, and compositions between linear maps [are represented by](Composition%20of%20linear%20maps%20repr%20under%20basis%20matrix%20product%20of%20representations.md) matrix multiplication).
 
-If a concept is defined via a choice of basis, we must ensure that it is invariant under a [change of basis](Basis%20Transition%20Map;%20Change%20of%20Basis%20Matrix.md).
+If a concept is defined via a choice of basis, we must ensure that it is invariant under a [change of basis](Basis%20Transition%20Map.md).
 
 Bases themselves can be characterized as both [maximally linearly independent sets](Basis%20iff%20maximal%20linearly%20independent%20set.md) and as [minimal spanning sets](Basis%20iff%20minimal%20spanning%20set.md). Indeed, every linearly independent set [extends to](Basis%20Extension%20Theorem.md) a basis, and every spanning set [cuts down](Basis%20Extraction%20Theorem.md) to a basis. This shows, under the assumption of Choice, that [every vector space has a basis](Every%20vector%20space%20has%20a%20basis.md).<span style="float:right;">$\blacklozenge$</span>
 

@@ -4,18 +4,20 @@ Date Created: 01/04/2022 19:04:20
 Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
-Examples: [[Coordinate Representation of Finite-dim. Vector Spaces]], [[Matrix Representation of a Linear Map]], [[Basis Transition Map; Change of Basis Matrix]], [[Identity Function]]
-Constructions: [[Isomorphic Vector Spaces]]
+Examples: [[Coordinate representation of vector spaces]], [[Matrix representation of linear maps]], [[Basis Transition Map]]
+Constructions: _Not Applicable_
 Generalizations: [[Module Isomorphism]]
 
-Properties: [[Linear isomorphism preserve dimensions of subspaces]]
+Properties: [[Linearly isomorphic implies finite-dim. iff finite-dim.]], [[Linear isomorphism preserve dimensions of subspaces]]
 Sufficiencies: [[Linear map between vector spaces of same dimension is injective iff surjective]]
-Equivalences: [[Matrix Invertibility Theorem]]
-Justifications: _Not Applicable_
+Equivalences: [[Matrix Invertibility Theorem]], [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
+Justifications: [[Isomorphism of objects is an equivalence relation]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ and $W$ be $K$-vector spaces. A **$K$-linear isomorphism from $V$ to $W$** is an invertible linear map $T:V\to W$. That is, linear isomorphisms are isomorphisms in $\catvect$._
+_Let $V$ and $W$ be $K$-vector spaces. We say that $V$ and $W$ are **linearly isomorphic** if there exists an invertible linear map $T:V\to W$, called a **linear isomorphism**._
 
 ```
+
+**Remark.** That is, linear isomorphisms are isomorphisms in $\catvect$. Since $\textrm{`}$is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $V\iso W$.<span style="float:right;">$\blacklozenge$</span>

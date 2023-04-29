@@ -5,7 +5,7 @@ mathLink: $\Hom\l(V,W\r)\subseteq W^V$ is a linear subspace
 <div class="topSpace"></div>
 
 Date Created: 17/05/2022 16:47:33
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: [[Basic properties of vector spaces]]
 References: _Not Applicable_
@@ -24,12 +24,7 @@ _Let $V$ and $W$ be $K$-vector spaces. Then $\Hom\l(V,W\r)\subseteq W^V$ is a li
 _Proof_. It suffices to show that $0\in\Hom\l(V,W\r)$ and, for every $T,U\in\Hom\l(V,W\r)$ and $\alpha\in K$, that $\alpha T+U\in\Hom\l(V,W\r)$.
 * ($0\in\Hom\l(V,W\r)$): This amounts to showing that $0:V\to W$ is a linear map, so take $v_1,v_2\in V$ and $k\in K$, and observe that
 $$\begin{equation}
-    \begin{aligned}
-        0\l(kv_1+v_2\r)&=0_W && \textrm{Definition of $0$} \\
-        &=0_W+0_W && \textrm{$0_W$ is the neutral element of $+$} \\
-        &=k0_W+0_W && \textrm{$0_W$ is the right-absorbing element of $\cdot$} \\
-        &=k0\l(v_1\r)+0\l(v_2\r). && \textrm{Definition of $0$}
-    \end{aligned}
+    0\l(kv_1+v_2\r)=0_W=0_W+0_W=k0_W+0_W=k0\l(v_1\r)+0\l(v_2\r).
 \end{equation}$$
 
 * ($\alpha T+U\in\Hom\l(V,W\r)$): This amounts to showing that $\alpha T+U:V\to W$ is a linear map, so take $v_1,v_2\in V$ and $k\in K$, and observe that

@@ -5,10 +5,10 @@ Tags: #Definition #Topics/Linear_Algebra
 
 Types: [[Linear Isomorphism]], [[Linear Operator]], [[Bounded Linear Map]]
 Examples: _Not Applicable_
-Constructions: [[Matrix Representation of a Linear Map]], [[Kernel slash Nullity]], [[Image slash Rank]], [[Dual Map]], [[Adjoint Map]], [[Vector Space of Linear Maps]]
+Constructions: [[Kernel slash Nullity]], [[Image slash Rank]], [[Dual Map]], [[Adjoint Map]], [[Vector Space of Linear Maps]]
 Generalizations: [[Antilinear Map]], [[Multilinear Map]], [[Module Homomorphism]]
 
-Properties: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Linear map is injective iff kernel vanishes]], [[Restriction on complement of kernel is injective]], [[Linear map from a finite-dimensional space is bounded]], [[Basic properties of linear maps]]
+Properties: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Linear map is injective iff kernel vanishes]], [[Restriction on complement of kernel is injective]], [[Linear map from a finite-dimensional space is bounded]], [[Change of basis for linear maps]], [[Basic properties of linear maps]]
 Sufficiencies: [[Existence of unique linear map via action on basis vectors]], [[Criteria for equality of linear maps via spanning set]]
 Equivalences: [[Action of linear map repr under basis left-multiplication of matrix representation]]
 Justifications: _Not Applicable_

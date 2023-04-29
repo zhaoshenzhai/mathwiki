@@ -5,17 +5,19 @@ Tags: #Definition #Topics/Ring_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Isomorphic Rings]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[Isomorphism of objects is an equivalence relation]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ and $S$ be rings. A **ring isomorphism from $R$ to $S$** is an invertible ring isomorphism $\phi:R\to S$._
+_Let $R$ and $S$ be rings. We say that $R$ and $S$ are **isomorphic as rings** if there exists an invertible ring homomorphism $\phi:R\to S$, called a **ring isomorphism**._
 
 ```
+
+**Remark.** That is, ring isomorphisms are isomorphisms in $\catring$. Since $\textrm{`}$is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $R\iso S$.<span style="float:right;">$\blacklozenge$</span>

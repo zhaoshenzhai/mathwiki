@@ -3,7 +3,7 @@
 Date Created: 16/03/2023 18:38:56
 Tags: #Theorem #Later/Linear_Algebra
 
-Proved by: [[Distinct eigenvalues implies linearly independent eigenvectors]], [[Geometric multiplicity no more than algebraic multiplicity]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]], [[Unique Representation Theorem (Basis)]], [[Basis slash dimension for direct sum]]
+Proved by: [[Distinct eigenvalues implies linearly independent eigenvectors]], [[Geometric multiplicity no more than algebraic multiplicity]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]], [[Unique Representation Theorem (Basis)]], [[Basis slash dimension for direct sum]], [[Minkowski sum of subspaces is the span of their union]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

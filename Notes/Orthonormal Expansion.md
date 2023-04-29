@@ -3,7 +3,7 @@
 Date Created: 27/06/2022 15:48:46
 Tags: #Proposition #Topics/Linear_Algebra
 
-Proved by: _Not Applicable_
+Proved by: [[Coordinate representation of vector spaces]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

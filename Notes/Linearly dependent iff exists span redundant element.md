@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 05/04/2022 20:13:04
-Tags: #Proposition #Later/Linear_Algebra
+Tags: #Proposition #Topics/Linear_Algebra
 
 Proved by: _Not Applicable_
 References: _Not Applicable_
@@ -17,10 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a $K$-vector space and consider a set $S\coloneqq\l\{s_1,\dots,s_n\r\}$ of non-zero vectors in $V$ for some $n\in\N^+$. Then $S$ is linearly dependent iff there exists some $l\in\l\{2,\dots,n\r\}$ such that_
-$$\begin{equation}
-    s_l\in\span\l\{s_1,\dots,s_{l-1}\r\}.
-\end{equation}$$
+_Let $V$ be a $K$-vector space and consider a set $S\coloneqq\l\{s_1,\dots,s_n\r\}$ of non-zero vectors in $V$ for some $n\in\N^+$. Then $S$ is linearly dependent iff there exists some $l\in\l\{2,\dots,n\r\}$ such that_ $s_l\in\span\l\{s_1,\dots,s_{l-1}\r\}$_._
 
 ```
 

@@ -4,8 +4,8 @@ Date Created: 04/04/2022 23:21:59
 Tags: #Definition #Topics/Linear_Algebra
 
 Types: [[Orthonormal Basis]]
-Examples: [[Basis for null space]], [[Basis for column space]], [[Basis slash dimension for direct sum]]
-Constructions: [[Dimension (Linear Algebra)]], [[Dual Basis]], [[Coordinate Representation of Finite-dim. Vector Spaces]], [[Matrix Representation of a Linear Map]], [[Basis Transition Map; Change of Basis Matrix]]
+Examples: [[Basis slash dimension for direct sum]]
+Constructions: [[Dimension (Linear Algebra)]], [[Dual Basis]], [[Basis Transition Map]], [[Coordinate representation of vector spaces]], [[Matrix representation of linear maps]]
 Generalizations: _Not Applicable_
 
 Properties: [[Existence of unique linear map via action on basis vectors]]

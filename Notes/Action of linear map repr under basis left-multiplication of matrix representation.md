@@ -1,5 +1,5 @@
 ---
-mathLink: auto
+mathLink: Action of linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ left-multiplication of matrix representation
 ---
 
 <div class="topSpace"></div>
@@ -17,14 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be finite-dimensional $K$-vector spaces, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, and fix two choices of bases_
-$$\begin{equation}
-    \mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}\ \ \ \ \textrm{\it{and}}\ \ \ \ \mc{C}\coloneqq\l\{c_1,\dots,c_m\r\}
-\end{equation}$$
-_of $V$ and $W$, respectively. Consider a linear map $T:V\to W$. Then, for each $v\in V$, we have_
-$$\begin{equation}
-    \l[T\l(v\r)\r]_\mc{C}=\l[T\r]_\mc{B}^\mc{C}\l[v\r]_\mc{B}.
-\end{equation}$$
+_Let $V$ and $W$ be finite-dimensional $K$-vector spaces, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, and fix two choices of bases $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}$ and $\mc{C}\coloneqq\l\{c_1,\dots,c_m\r\}$ of $V$ and $W$, respectively. Then, for every linear map $T:V\to W$ and $v\in V$, we have_ $\l[T\l(v\r)\r]_\mc{C}=\l[T\r]_\mc{B}^\mc{C}\l[v\r]_\mc{B}$_._
 
 ```
 
@@ -39,11 +32,7 @@ commutes. Thus, after identifying $V\iso K^n$ and $W\iso K^m$ via the maps $\phi
 
 ---
 
-_Proof_. Fix $v\in V$. For any linear map $f:\dom f\to V$ (with $\dom f$ being an $\l|\mc{A}\r|$-dimensional vector space), we know that
-$$\begin{equation}
-    \l[T\circ f\r]_\mc{A}^\mc{C}=\l[T\r]_\mc{B}^\mc{C}\l[f\r]_\mc{A}^\mc{B};
-\end{equation}$$
-it suffices to find suitable $\dom f$, $\mc{A}$, and $f$ such that $\l[T\circ f\r]_\mc{A}^\mc{C}=\l[T\l(v\r)\r]_\mc{C}$ and $\l[f\r]_\mc{A}^\mc{B}=\l[v\r]_\mc{B}$. Observe that
+_Proof_. Fix $v\in V$. For any linear map $f:\dom f\to V$ (with $\dom f$ being an $\l|\mc{A}\r|$-dimensional vector space), we have that $\l[T\circ f\r]_\mc{A}^\mc{C}=\l[T\r]_\mc{B}^\mc{C}\l[f\r]_\mc{A}^\mc{B}$, so it suffices to find suitable $\dom f$, $\mc{A}$, and $f$ such that $\l[T\circ f\r]_\mc{A}^\mc{C}=\l[T\l(v\r)\r]_\mc{C}$ and $\l[f\r]_\mc{A}^\mc{B}=\l[v\r]_\mc{B}$. Observe that
 $$\begin{equation}
     \l[T\circ f\r]_\mc{A}^\mc{C}\in\mat{m\times\l|\mc{A}\r|}{K}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \l[T\l(v\r)\r]_\mc{C}\in\mat{m\times1}{K},
 \end{equation}$$
@@ -52,8 +41,6 @@ $$\begin{equation}
     f:K\to V \ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ k\mapsto v
 \end{equation}$$
 where $K$ is regarded as a vector space over itself; it is obviously linear. Observe that $\mc{A}=\l\{1\r\}$ is a basis for $K$, so
-$$\begin{align}
-    \l[T\circ f\r]_\mc{A}^\mc{C}&=\l[\l(T\circ f\r)\l(1\r)\r]_\mc{C} && \l|\mc{A}\r|=1 \\
-    &=\l[T\l(f\l(1\r)\r)\r]_\mc{C} && \textrm{Definition of $\circ$} \\
-    &=\l[T\l(v\r)\r]_\mc{C}. && f\l(1\r)=v\qedin
-\end{align}$$
+$$\begin{equation}
+    \l[T\circ f\r]_\mc{A}^\mc{C}=\l[\l(T\circ f\r)\l(1\r)\r]_\mc{C}=\l[T\l(f\l(1\r)\r)\r]_\mc{C}=\l[T\l(v\r)\r]_\mc{C}.\qedin
+\end{equation}$$

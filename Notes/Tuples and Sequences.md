@@ -5,7 +5,7 @@ Tags: #Definition #Later/Set_Theory
 
 Types: _Not Applicable_
 Examples: [[Sequences in a Topological Space]]
-Constructions: [[Subsequences]], [[Tuple Space (Linear Algebra)]], [[Polynomial]]
+Constructions: [[Subsequences]], [[Polynomial]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of composition of linear maps]]
 Sufficiencies: [[Symmetric and skew-symmetric decomposition of matrices]]
-Equivalences: [[Linear isomorphism between linear maps and matrices]]
+Equivalences: [[Matrix representation of linear maps]]
 Justifications: [[Set of linear maps form a linear subspace of the function space]], [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
 
 ``` ad-Definition
