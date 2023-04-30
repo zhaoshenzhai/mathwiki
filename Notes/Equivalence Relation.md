@@ -4,7 +4,7 @@ Date Created: 19/01/2022 17:48:10
 Tags: #Definition #Topics/Set_Theory
 
 Types: _Not Applicable_
-Examples: [[Isomorphism of sets is an equivalence relation]], [[Isomorphism of objects is an equivalence relation]], [[Row-equivalence of matrices is an equivalence relation]], [[Equinumerosity]], [[Conjugate slash conjugacy class]]
+Examples: [[Isomorphism of sets is an equivalence relation]], [[Isomorphism of objects is an equivalence relation]], [[Equinumerosity]], [[Conjugate slash conjugacy class]]
 Constructions: [[Equivalence Class]]
 Generalizations: _Not Applicable_
 

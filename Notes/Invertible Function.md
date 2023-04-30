@@ -11,7 +11,7 @@ Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: [[Left-invertible iff injection]], [[Right-invertible iff surjection (Choice)]], [[Invertible iff bijective]]
-Justifications: [[Inverse of function is unique]], [[Isomorphism of sets is an equivalence relation]]
+Justifications: [[Isomorphism of sets is an equivalence relation]]
 
 ``` ad-Definition
 title: Definition.
@@ -24,3 +24,7 @@ _commutes; that is, if $g$ is both a left and a right-inverse of $f$, in which c
 ```
 
 **Remark.** That is, invertible functions are isomorphisms in $\catset$. Since $\textrm{`}$is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $X\iso Y$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+**Remark.** We may relax the condition for $f$ to have both left and right inverses, since they coincide. Also, if $g,g':Y\to X$ are both inverses of $f$, then $g=g\circ\id_Y=g\circ\l(f\circ g'\r)=\l(g\circ f\r)\circ g=\id_X\circ g=g'$. Thus the inverse of a function is unique.<span style="float:right;">$\blacklozenge$</span>

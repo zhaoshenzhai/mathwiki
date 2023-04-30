@@ -4,7 +4,7 @@ Date Created: 27/06/2022 15:44:20
 Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
-Examples: [[Standard Basis for Tuple Space]]
+Examples: _Not Applicable_
 Constructions: [[Orthonormal Expansion]]
 Generalizations: _Not Applicable_
 

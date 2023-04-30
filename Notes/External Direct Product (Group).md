@@ -4,7 +4,7 @@ Date Created: 27/10/2022 13:01:39
 Tags: #Definition #Topics/Group_Theory
 
 Types: _Not Applicable_
-Examples: [[Function Group]]
+Examples: _Not Applicable_
 Constructions: [[External Direct Product (Vector Space)]]
 Generalizations: _Not Applicable_
 

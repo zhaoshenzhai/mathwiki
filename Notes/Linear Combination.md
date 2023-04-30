@@ -4,7 +4,7 @@ Date Created: 29/04/2022 18:22:52
 Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
-Examples: [[Matrix multiplication (columns slash rows)]]
+Examples: _Not Applicable_
 Constructions: [[Linear Independence]], [[Linear Span]]
 Generalizations: _Not Applicable_
 
@@ -16,11 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider an indexed subset_ $U\coloneqq\l\{u_i\r\}_{i\in I}\subseteq V$ _of a $K$-vector space $V$. A vector $v\in V$ is said to be a **$K$-linear combination of vectors in $U$** if_
-$$\begin{equation}
-    \fa i\in I,\ex\alpha_i\in K:v=\sum\limits_{i\in I}\alpha_iu_i
-\end{equation}$$
-_where $\alpha_i=0$ for all but finitely-many $i\in I$._
+_Let $K$ be a field and consider an indexed subset_ $U\coloneqq\l\{u_i\r\}_{i\in I}\subseteq V$ _of a $K$-vector space $V$. A vector $v\in V$ is said to be a **$K$-linear combination of vectors in $U$** if for all $i\in I$, there exists $\alpha_i\in K$ such that_ $v=\sum_{i\in I}\alpha_iu_i$ _where $\alpha_i=0$ for all but finitely-many $i\in I$._
 
 ```
 

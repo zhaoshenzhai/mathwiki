@@ -4,7 +4,7 @@ Date Created: 29/01/2022 10:31:01
 Tags: #Definition #Later/Set_Theory
 
 Types: _Not Applicable_
-Examples: [[Function Space (Set Theory)]], [[Empty product is singleton of empty set]]
+Examples: _Not Applicable_
 Constructions: [[Projection Maps]], [[Tuples and Sequences]], [[n-ary Operation]], [[External Direct Product (Group)]], [[External Direct Product (Vector Space)]]
 Generalizations: _Not Applicable_
 

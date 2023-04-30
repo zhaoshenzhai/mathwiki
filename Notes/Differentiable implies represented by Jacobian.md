@@ -7,7 +7,7 @@ mathLink: Differentiable $\Rightarrow$ $\l[Df\l(\v{a}\r)\r]=Jf\l(\v{a}\r)$
 Date Created: 02/01/2023 15:25:20
 Tags: #Proposition #Topics/Analysis #Courses/MATH358
 
-Proved by: [[Differentiable implies existence of directional derivatives]], [[Right slash left multiplication by basis vector picks out column slash row]]
+Proved by: [[Differentiable implies existence of directional derivatives]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -17,10 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Fix $m,n\in\N^+$, let $U\subseteq\R^n$ be open, and fix $\v{a}\in U$. For a function $f:U\to\R^m$, if $f$ is differentiable at $\v{a}$, then_
-$$\begin{equation}
-    \l[Df\l(\v{a}\r)\r]=Jf\l(\v{a}\r).
-\end{equation}$$
+_Fix $m,n\in\N^+$, let $U\subseteq\R^n$ be open, and fix $\v{a}\in U$. For a function $f:U\to\R^m$, if $f$ is differentiable at $\v{a}$, then $\l[Df\l(\v{a}\r)\r]=Jf\l(\v{a}\r)$._
 
 ```
 

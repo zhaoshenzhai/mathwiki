@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Properties: [[Left-invertible implies monomorphism]], [[Right-invertible implies epimorphism]], [[Isomorphism of objects is an equivalence relation]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Inverse of morphism is unique]], [[Isomorphism of objects is an equivalence relation]]
+Justifications: [[Isomorphism of objects is an equivalence relation]]
 
 ``` ad-Definition
 title: Definition.
@@ -27,4 +27,8 @@ _commutes; that is, if $g$ is both a left and a right-inverse of $f$, in which c
 
 ---
 
-**Remark.** We may relax the condition for $f$ to have both left and right inverses, since they coincide.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** We may relax the condition for $f$ to have both left and right inverses, since they coincide. Also, if $g,g':Y\to X$ are both inverses of $f$, then
+$$\begin{equation}
+    g=g\circ\id_Y=g\circ\l(f\circ g'\r)=\l(g\circ f\r)\circ g=\id_X\circ g=g'.
+\end{equation}$$
+Thus the inverse of a morphism is unique.<span style="float:right;">$\blacklozenge$</span>

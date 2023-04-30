@@ -9,7 +9,7 @@ Tags: #Definition #Topics/Linear_Algebra
 
 Types: [[Endomorphism Algebra (Vector Space)]], [[Dual Space]]
 Examples: _Not Applicable_
-Constructions: [[Category of Vector Spaces]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of composition of linear maps]]

@@ -4,7 +4,7 @@ Date Created: 19/06/2022 16:20:24
 Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
-Examples: [[Eigenvector slash eigenspace]], [[Generalized Eigenvector slash Eigenspace]], [[Cyclic Subspace]], [[Kernel slash Nullity]], [[Image slash Rank]], [[Trivial Subspaces (Linear Algebra)]]
+Examples: [[Eigenvector slash eigenspace]], [[Generalized Eigenvector slash Eigenspace]], [[Cyclic Subspace]], [[Kernel slash Nullity]], [[Image slash Rank]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

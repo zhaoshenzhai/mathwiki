@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Union of empty set is empty]]
+Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Empty set exists and is unique]]

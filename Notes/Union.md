@@ -4,7 +4,7 @@ Date Created: 17/01/2022 13:00:40
 Tags: #Definition #Later/Set_Theory
 
 Types: _Not Applicable_
-Examples: [[Union of empty set is empty]]
+Examples: _Not Applicable_
 Constructions: [[Set of Unions and Intersections]], [[Successor]]
 Generalizations: _Not Applicable_
 
