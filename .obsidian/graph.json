@@ -1,11 +1,11 @@
 {
-  "collapse-filter": true,
-  "search": "path:Notes",
+  "collapse-filter": false,
+  "search": "tag:#Topics/Linear_Algebra",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#Definition",
@@ -53,6 +53,6 @@
   "repelStrength": 20,
   "linkStrength": 0.836535201717708,
   "linkDistance": 500,
-  "scale": 0.020188254972978575,
+  "scale": 0.6781481391805977,
   "close": false
 }

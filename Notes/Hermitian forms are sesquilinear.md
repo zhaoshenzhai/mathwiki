@@ -3,7 +3,7 @@
 Date Created: 24/06/2022 11:32:29
 Tags: #Proposition #Topics/Linear_Algebra
 
-Proved by: [[Basic properties of complex conjugation]]
+Proved by: _Not Applicable_
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
