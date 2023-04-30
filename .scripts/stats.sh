@@ -32,7 +32,7 @@ while [ ! -z "$1" ]; do
         ;;
         --print|-p)
             echo -e "${CYAN}$numNotes notes, $numLinks links, $numImages images${NC}"
-            echo -e "${CYAN}    Ratio: $ratio${NC}"
+            echo -e "    ${CYAN}Ratio: $ratio${NC}"
         ;;
         --readme|-r)
             sed -i 's/[0-9][0-9]*\snotes/'"$numNotes"' notes/g' README.md
