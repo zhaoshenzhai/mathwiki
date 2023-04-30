@@ -10,7 +10,7 @@ Generalizations: [[Module Isomorphism]]
 
 Properties: [[Linearly isomorphic implies finite-dim. iff finite-dim.]], [[Linear isomorphism preserve dimensions of subspaces]]
 Sufficiencies: [[Linear map between vector spaces of same dimension is injective iff surjective]]
-Equivalences: [[Matrix Invertibility Theorem]], [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
+Equivalences: [[Linear Invertibility Theorem]], [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
 Justifications: [[Isomorphism of objects is an equivalence relation]]
 
 ``` ad-Definition

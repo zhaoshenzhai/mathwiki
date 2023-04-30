@@ -1,5 +1,5 @@
 ---
-mathLink: $\rank A=\rank PAQ$ for $P,Q$ invertible
+mathLink: $\rank T=\rank PTQ$ for $P,Q$ invertible
 ---
 
 <div class="topSpace"></div>
@@ -7,7 +7,7 @@ mathLink: $\rank A=\rank PAQ$ for $P,Q$ invertible
 Date Created: 05/06/2022 20:40:10
 Tags: #Proposition #Topics/Linear_Algebra
 
-Proved by: [[Basic properties of left-multiplication of matrices]], [[Matrix invertible iff left-multiplication invertible]], [[Linear isomorphism preserve dimensions of subspaces]]
+Proved by: [[Linear Invertibility Theorem]], [[Linear isomorphism preserve dimensions of subspaces]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
@@ -17,36 +17,17 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and consider a matrix $A\in\mat{m\times n}{K}$ for some fixed $m,n\in\N^+$. Then, for all invertible matrices $P\in\mat{m}{K}$ and $Q\in\mat{n}{K}$, we have_
-$$\begin{equation}
-    \rank AQ=\rank A\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \rank PA=\rank A.
-\end{equation}$$
-_Therefore, we also have $\rank PAQ=\rank A$._
+_Let $V$ and $W$ be finite-dimensional vector spaces, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, and let $T\in\Hom\l(V,W\r)$. Then, for all $Q\in\End\l(V\r)$ and $P\in\End\l(W\r)$, we have $\rank TQ=\rank T$ and $\rank PT=\rank T$. Therefore, we also have $\rank PTQ=\rank T$._
 
 ```
 
-_Proof_. The last result follows directly since
+_Proof_. The last result follows directly since $\rank PTQ=\rank PT=\rank T$.
+* ($\rank TQ=\rank T$): Observe that
 $$\begin{equation}
-    \rank PAQ=\rank PA=\rank A.
+    \rank TQ=\dim\im\l(TQ\r)=\dim\im_T\!\l(\im_Q\!\l(V\r)\r)=\dim\im_T\!\l(V\r)=\dim\im T=\rank T.
 \end{equation}$$
-* ($\rank AQ=\rank A$): Since $\rank AQ=\rank L_{AQ}$, we have
+* ($\rank PT=\rank T$): Similarly, we have $\rank PT=\dim\im_P\!\l(\im_T\!\l(V\r)\r)$. But $P$ is invertible, and since $\im_T\!\l(V\r)$ is a linear subspace of $W$, we see that
 $$\begin{equation}
-    \begin{aligned}
-        \rank AQ&=\dim\im L_{AQ} && \textrm{Definition of $\rank$} \\
-        &=\dim\im\l(L_A\circ L_Q\r) && \textrm{Left-multiplication respects matrix multiplication} \\
-        &=\dim\im_{L_A}\!\l(\im_{L_Q}\!\l(K^n\r)\r) && \textrm{Image of composition} \\
-        &=\dim\im_{L_A}\!\l(K^n\r) && L_Q\textrm{ is invertible since $Q$ is invertible} \\
-        &=\dim\im L_A && \textrm{Definition of image} \\
-        &=\rank A. && \textrm{Definition of $\rank$}
-    \end{aligned}
+    \dim\im_P\!\l(\im_T\!\l(V\r)\r)=\dim\im_T\!\l(V\r)
 \end{equation}$$
-
-* ($\rank PA=\rank A$): Similarly, we have
-$$\begin{equation}
-    \rank PA=\dim\im_{L_P}\!\l(\im_{L_A}\!\l(K^n\r)\r).
-\end{equation}$$
-Observe that $L_P:K^m\to K^m$ is invertible, and since $\im_{L_A}\!\l(K^n\r)$ is a linear subspace of $K^m$, we see that
-$$\begin{equation}
-    \dim\im_{L_P}\!\l(\im_{L_A}\!\l(K^n\r)\r)=\dim\im_{L_A}\!\l(K^n\r)
-\end{equation}$$
-and hence the result follows as before.<span style="float:right;">$\blacksquare$</span>
+and the result follows as before.<span style="float:right;">$\blacksquare$</span>

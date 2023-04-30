@@ -28,11 +28,7 @@ $$\begin{equation}
 \end{equation}$$
 so $v=u+w$ for $u\coloneqq\sum_{i=1}^k\alpha_ib_i\in U$ and $w\coloneqq\sum_{i=k+1}^n\alpha_ib_i\in W$.
 
-* ($U\cap W=\l\{0\r\}$): Take $v\in U\cap W$, so
-$$\begin{equation}
-    v=\sum_{i=1}^k\beta_ib_i\ \ \ \ \textrm{and}\ \ \ \ v=\sum_{\mathclap{i=k+1}}^n\gamma_ib_i
-\end{equation}$$
-for some $\beta_1,\dots,\beta_k,\gamma_{k+1},\dots,\gamma_n\in K$. Observe then that
+* ($U\cap W=\l\{0\r\}$): Take $v\in U\cap W$, so $v=\sum_{i=1}^k\beta_ib_i$ and $v=\sum_{i=k+1}^n\gamma_ib_i$ for some $\beta_1,\dots,\beta_k,\gamma_{k+1},\dots,\gamma_n\in K$. Observe then that
 $$\begin{equation}
     \sum_{i=1}^k\beta_ib_i-\sum_{\mathclap{i=k+1}}^n\gamma_ib_i=0,
 \end{equation}$$
