@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G$ be a cyclic group. Then every subgroup $H\subseteq G$ is also a cyclic group._
+_Let $G$ be a cyclic group. Then every subgroup $H\subgrpeq G$ is also a cyclic group._
 
 ```
 

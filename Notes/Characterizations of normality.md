@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $H\subseteq G$ be a subgroup of a group $G$. Then the following are equivalent._
+_Let $H\subgrpeq G$ be a subgroup of a group $G$. Then the following are equivalent._
 1. $H\nsubgrpeq G$_; that is, $gH=Hg$ for all $g\in G$_
 2. $gHg^{-1}\subseteq H$ _for all $g\in G$._
 3. $gHg^{-1}=H$ _for all $g\in G$._

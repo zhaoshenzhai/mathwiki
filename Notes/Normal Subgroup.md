@@ -4,7 +4,7 @@ Date Created: 26/10/2022 11:35:20
 Tags: #Definition #Topics/Group_Theory
 
 Types: _Not Applicable_
-Examples: [[Kernel (Group Theory)]]
+Examples: [[Kernel (Group Theory)]], [[Centralizer slash Center]]
 Constructions: [[Quotient Group]], [[Internal Direct Product (Group Theory)]]
 Generalizations: _Not Applicable_
 
@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $G$ be a group. A subgroup $N\subseteq G$ is said to be a **normal in $G$** if $gN=Ng$ for all $g\in G$, in which case we write $N\nsubgrpeq G$._
+_Let $G$ be a group. A subgroup $N\subgrpeq G$ is said to be a **normal in $G$** if $gN=Ng$ for all $g\in G$, in which case we write $N\nsubgrpeq G$._
 
 ```
 

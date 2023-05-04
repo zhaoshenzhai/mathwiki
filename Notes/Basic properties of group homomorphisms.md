@@ -16,15 +16,15 @@ title: Proposition.
 _Let $G_1$ and $G_2$ be groups and consider a homomorphism $\phi:G_1\to G_2$. Let $H_1\subseteq G_1$ and $H_2\subseteq G_2$ be subgroups. Then the following properties hold._
 * _(Preserves identity): $\phi\l(e_1\r)=e_2$._
 * _(Preserve inverses): $\fa g\in G_1:\l[\phi\l(g\r)\r]^{-1}=\phi\l(g^{-1}\r)$._
-* _(Image preserve subgroups):_ $\im_\phi\!\l(H_1\r)\subseteq G_2$ _is a subgroup._
-* _(Preimage preserve subgroups):_ $\preim_\phi\!\l(H_2\r)\subseteq G_1$ _is a subgroup._
+* _(Image preserve subgroups):_ $\im_\phi\!\l(H_1\r)\subgrpeq G_2$_._
+* _(Preimage preserve subgroups):_ $\preim_\phi\!\l(H_2\r)\subgrpeq G_1$_._
 * _(Preimage preserve normality): If $H_2\nsubgrpeq G_2$, then_ $\preim_\phi\!\l(H_2\r)\nsubgrpeq G_1$_._
 
 _Furthermore, $\phi$ is injective iff $\ker\phi=\l\{e_1\r\}$._
 
 ```
 
-**Remark.** In particular, $\im\phi\subseteq G_2$ and $\ker\phi\nsubgrpeq G_1$ are subgroups.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** In particular, we have $\im\phi\subgrpeq G_2$ and $\ker\phi\nsubgrpeq G_1$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

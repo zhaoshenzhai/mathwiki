@@ -4,7 +4,7 @@ Date Created: 21/09/2022 20:37:12
 Tags: #Definition #Topics/Group_Theory
 
 Types: [[Normal Subgroup]]
-Examples: [[Generated Subgroup]]
+Examples: [[Generated Subgroup]], [[Normalizer]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $G$ be a group and fix a subset $H\subseteq G$. Then $H$ is a **subgroup of $G$** if $H$ is a group under the induced operations._
+_Let $G$ be a group and fix a subset $H\subseteq G$. Then $H$ is a **subgroup of $G$** if $H$ is a group under the induced operations, in which case we write $H\subgrpeq G$._
 
 ```
 
