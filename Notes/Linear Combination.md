@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Linear Independence]], [[Linear Span]]
+Constructions: [[Linear Independence]], [[Generated Linear Subspace]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

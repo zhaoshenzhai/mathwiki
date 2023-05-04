@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A group $\tpl{G,\ast}$ is said to be a **cyclic group** if $\ex x\in G:G=\sgrp{x}$, in which case $x$ is said to be a **generator of $G$**._
+_A group $G$ is said to be **cyclic** if $G=\gen{g}$ for some $g\in G$, in which case $x$ is said to be a **generator of $G$**._
 
 ```

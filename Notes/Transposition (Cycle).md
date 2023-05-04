@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Group_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Even and Odd Permutation]]
+Constructions: [[Even slash Odd Permutation]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

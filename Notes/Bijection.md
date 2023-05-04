@@ -1,15 +1,15 @@
 <div class="topSpace"></div>
 
 Date Created: 20/01/2022 09:30:37
-Tags: #Definition #Later/Set_Theory
+Tags: #Definition #Topics/Set_Theory
 
-Types: [[Permutation]]
+Types: [[k-cycle]], [[Even slash Odd Permutation]]
 Examples: [[Identity Function]]
-Constructions: _Not Applicable_
+Constructions: [[Symmetric Group]], [[Rearrangement of Series]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Every permutation is a product of disjoint cycles]]
 Equivalences: [[Invertible iff bijective]]
 Justifications: _Not Applicable_
 

@@ -20,7 +20,7 @@ which, in particular, implies the [First Isomorphism Theorem](obsidian://open?fi
 
 ---
 
-**Characterizations.** As with most categories, rings are [identified](Isomorphic%20Rings.md) up to [isomorphism](Ring%20Isomorphism.md).<span style="float:right;">$\blacklozenge$</span>
+**Characterizations.** As with most categories, rings are identified up to [isomorphism](Ring%20Isomorphism.md).<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-mathLink: Even/Odd Permutation
+mathLink: auto
 ---
 
 <div class="topSpace"></div>

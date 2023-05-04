@@ -4,8 +4,8 @@ Date Created: 03/04/2022 14:30:50
 Tags: #Definition #Topics/Linear_Algebra
 
 Types: [[Invariant Subspace]]
-Examples: [[Vector Space of Linear Maps]], [[Image slash Rank]]
-Constructions: [[Linear Span]], [[Minkowski Sum (Linear Algebra)]], [[Complement (Linear Subspace)]]
+Examples: [[Generated Linear Subspace]]
+Constructions: [[Minkowski Sum (Linear Algebra)]], [[Complement (Linear Subspace)]]
 Generalizations: _Not Applicable_
 
 Properties: [[Dimension of subspace]]

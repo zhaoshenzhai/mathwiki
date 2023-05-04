@@ -7,7 +7,7 @@ mathLink: $\Hom\l(V,W\r)$
 Date Created: 16/05/2022 19:38:42
 Tags: #Definition #Topics/Linear_Algebra
 
-Types: [[Endomorphism Algebra (Vector Space)]], [[Dual Space]]
+Types: [[General Linear Group]], [[Special Linear Group]], [[Endomorphism Algebra (Vector Space)]], [[Dual Space]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
@@ -20,11 +20,7 @@ Justifications: [[Set of linear maps form a linear subspace of the function spac
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ and $W$ be $K$-vector spaces. The **vector space of linear maps from $V$ to $W$** is the linear subspace_
-$$\begin{equation}
-    \Hom\l(V,W\r)\coloneqq\l\{T\in W^V\mid T\textrm{ \it{is a linear map}}\r\}
-\end{equation}$$
-_of the function space $W^V$._
+_Let $V$ and $W$ be $K$-vector spaces. The **vector space of linear maps from $V$ to $W$** is the hom-set $\Hom\l(V,W\r)$ of all linear maps $T:V\to W$._
 
 ```
 

@@ -1,5 +1,5 @@
 ---
-mathLink: $\Z_n=\sgrp{m}$ $\Leftrightarrow$ $m\perp n$
+mathLink: $\Z_n=\gen{m}$ $\Leftrightarrow$ $m\perp n$
 ---
 
 <div class="topSpace"></div>
@@ -25,4 +25,4 @@ _Proof_. Note that
 $$\begin{equation}
     \ord{\l[m\r]}=\ord{\l[m\cdot1\r]}=\ord{m\l[1\r]}=\frac{\ord{\l[1\r]}}{\gcd\l(\ord{\l[1\r]},m\r)}=\frac{n}{\gcd\l(n,m\r)},
 \end{equation}$$
-so $\gcd\l(m,n\r)=1$ iff $\ord{\l[m\r]}=n=\ord{\Z_n}$. But since $\Z_n$ is finite, this is equivalent to $\Z_n=\sgrp{\l[m\r]}$.<span style="float:right;">$\blacksquare$</span>
+so $\gcd\l(m,n\r)=1$ iff $\ord{\l[m\r]}=n=\ord{\Z_n}$. But since $\Z_n$ is finite, this is equivalent to $\Z_n=\gen{\l[m\r]}$.<span style="float:right;">$\blacksquare$</span>
