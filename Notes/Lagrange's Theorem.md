@@ -7,8 +7,8 @@ mathLink: auto
 Date Created: 13/10/2022 12:03:14
 Tags: #Theorem #Topics/Group_Theory
 
-Proved by: [[Set of cosets partition the group]], [[Cosets have the same cardinality]]
-References: _Not Applicable_
+Proved by: _Not Applicable_
+References: [[Order of group element is order of generated cyclic group]]
 Justifications: _Not Applicable_
 
 Specializations: _Not Applicable_
@@ -17,10 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Lagrange$\textrm{'}$s Theorem).
 
-_Let $H\subseteq G$ be a subgroup of a finite group $G$. Then_
-$$\begin{equation}
-    \l[G:H\r]\cdot\ord{H}=\ord{G}.
-\end{equation}$$
+_Let $H\subseteq G$ be a subgroup of a finite group $G$. Then $\l[G:H\r]\cdot\ord{H}=\ord{G}$._
 
 ```
 
@@ -35,11 +32,4 @@ $$\begin{equation}
 
 ---
 
-_Proof_. Let $n\coloneqq\l[G:H\r]$ be the number of left-cosets of $H$ in $G$. Since the left-cosets of $H$ in $G$ partition $G$, we see that
-$$\begin{equation}
-    G=\bigsqcup_{i=1}^ng_iH.
-\end{equation}$$
-But every coset of $H$ has the same cardinality as $H$, so $\l|g_iH\r|=\ord{H}$ for all $i\in\l\{1,\dots,n\r\}$. Thus
-$$\begin{equation}
-    \ord{G}=n\ord{H}=\l[G:H\r]\cdot\ord{H}.\qedin
-\end{equation}$$
+_Proof_. Let $n\coloneqq\l[G:H\r]$ be the number of left-cosets of $H$ in $G$. Since the left-cosets of $H$ in $G$ partition $G$, we see that $G=\bigsqcup_{i=1}^ng_iH$. But every coset of $H$ has the same cardinality as $H$, so $\l|g_iH\r|=\ord{H}$ for all $i\in\l\{1,\dots,n\r\}$. Thus $\ord{G}=n\ord{H}=\l[G:H\r]\cdot\ord{H}$.<span style="float:right;">$\blacksquare$</span>

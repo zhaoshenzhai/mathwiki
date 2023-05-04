@@ -16,9 +16,6 @@ Justifications: [[Number of left-cosets equals number of right-cosets]]
 ``` ad-Definition
 title: Definition.
 
-_Let $H\subseteq G$ be a subgroup of a group $G$. The **index of $H$ in $G$**, denoted $\l[G:H\r]$, is the number of left (or right) cosets of $H$ in $G$; that is_
-$$\begin{equation}
-    \l[G:H\r]\coloneqq\l|\l\{L\in\pow\l(G\r)\mid\ex g\in G:L=gH\r\}\r|.
-\end{equation}$$
+_Let $H\subseteq G$ be a subgroup of a group $G$. The **index of $H$ in $G$**, denoted $\l[G:H\r]$, is the number of left (or right) cosets of $H$ in $G$._
 
 ```

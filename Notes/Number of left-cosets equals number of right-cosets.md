@@ -21,11 +21,7 @@ _Let $H\subseteq G$ be a subgroup of a group $G$. Then the number of left-cosets
 
 ```
 
-_Proof_. Let $\ms{L}$ and $\ms{R}$ be the set of all left and right-cosets of $H$ in $G$, respectively, and consider the function
-$$\begin{equation}
-    \phi:\ms{L}\to\ms{R}:gH\mapsto Hg^{-1}.
-\end{equation}$$
-We claim that $\phi$ is a bijection.
+_Proof_. Let $\ms{L}$ and $\ms{R}$ be the set of all left and right-cosets of $H$ in $G$, respectively, and consider the function $\phi:\ms{L}\to\ms{R}:gH\mapsto Hg^{-1}$. We claim that $\phi$ is a bijection.
 * (Well-defined): Since $L\in\ms{L}$ iff there exists some $g\in G$ such that $L=gH$, we need to show that $\phi$ is well-defined; that is, if $g_1H=g_2H$, then $\phi\l(g_1H\r)=\phi\l(g_2H\r)$. But $g_1H=g_2H$ implies that $Hg_1^{-1}=Hg_2^{-1}$, so we are done.
 
 * (Injection): Take $g_1H,g_2H\in\ms{L}$ such that $\phi\l(g_1H\r)=\phi\l(g_2H\r)$. Then $Hg_1^{-1}=Hg_2^{-1}$, so $g_1H=g_2H$.

@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Order of element in product]]
 Sufficiencies: _Not Applicable_
-Equivalences: [[Internal direct product iso external direct product (group)]]
+Equivalences: _Not Applicable_
 Justifications: [[Function space constructed from a Cartesian product]]
 
 ``` ad-Definition

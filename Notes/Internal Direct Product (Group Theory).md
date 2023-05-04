@@ -10,15 +10,19 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [[Internal direct product iso external direct product (group)]]
+Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
 
-_Let $N_1$ and $N_2$ be subgroups of a group $G$. Then $G$ is said to be an **(internal) direct product of $N_1$ and $N_2$** if_
-* _(Generating): $G=N_1N_2\coloneqq\l\{n_1n_2\in G\mid n_1\in N_1\land n_2\in N_2\r\}$._
-* _(Trivial intersection): $N_1\cap N_2=\l\{e\r\}$._
-* _(Normality): $N_1,N_2\nsgrpeq G$._
+_Let $H_1,\dots,H_n$ be subgroups of a group $G$. Then $G$ is said to be an **(internal) direct product of $H_1,\dots,H_n$** if_
+* _(Generating): $G=H_1\cdots H_n\coloneqq\l\{H_1\cdots H_n\in G\mid h_i\in H_i\r\}$._
+* _(Trivial intersection): $H_j\cap\l(H_1\cdots H_n\r)=\l\{e\r\}$ for all $j$._
+* _(Normality): $H_i\nsgrpeq G$ for all $i$._
 
 ```
+
+**Remark.** The internal direct product $G=N_1N_2$ is isomorphic to the external direct product $N_1\times N_2$ via $\phi:N_1\times N_2\to G$ mapping $\tpl{n_1,n_2}\mapsto n_1n_2$. Indeed, it is a homomorphism since $N_1,N_2\nsgrpeq G$, and is also surjective since $G=N_1N_2$. For injectivity, take $\tpl{n_1,n_2}\in\ker\phi$, so $n_1=n_2^{-1}$. But then $n_1\in N_1\cap N_2=\l\{e\r\}$, which forces $n_1=n_2=e$ and so $\phi$ is an isomorphism.
+
+This isomorphism generalizes to all finite products by induction, but does _not_ generalize to infinite products.<span style="float:right;">$\blacklozenge$</span>

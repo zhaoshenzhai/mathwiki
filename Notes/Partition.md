@@ -4,7 +4,7 @@ Date Created: 29/01/2022 16:16:37
 Tags: #Definition #Topics/Set_Theory
 
 Types: _Not Applicable_
-Examples: [[Set of cosets partition the group]], [[Partition (Integration)]]
+Examples: [[Coset]], [[Partition (Integration)]]
 Constructions: [[Relation Induced by a Partition]], [[Regrouping of Series]]
 Generalizations: _Not Applicable_
 

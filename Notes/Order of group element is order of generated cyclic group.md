@@ -7,7 +7,7 @@ mathLink: $\ord{g}=\ord{\gen{g}}$
 Date Created: 26/09/2022 17:57:49
 Tags: #Proposition #Topics/Group_Theory
 
-Proved by: _Not Applicable_
+Proved by: [[Ring of integers is a EUD]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

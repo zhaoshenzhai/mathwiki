@@ -20,7 +20,8 @@ _Let $\tpl{G,\ast,e}$ be a group and take $g\in G$. If there exists some $n\in\N
 $$\begin{equation}
     \l|g\r|\coloneqq\min\l\{n\in\N^+\mid g^n=e\r\}.
 \end{equation}$$
+_Otherwise, $g$ is said to have **infinite order**._
 
 ```
 
-**Remark.** We define the **order of $G$** to be its cardinality $\l|G\r|$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** We define the **order of $G$** to be its cardinality $\l|G\r|$, or, equivalently, the index of the its trivial subgroup in itself.<span style="float:right;">$\blacklozenge$</span>
