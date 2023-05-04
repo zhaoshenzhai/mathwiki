@@ -22,3 +22,5 @@ $$\begin{equation}
 \end{equation}$$
 
 ```
+
+**Remark.** If $S\subseteq G$ generates $G$ and $f:S\to H$ is a function, then any two homomorphisms $\phi_1,\phi_2:G\to H$ that agree on $S$ must agree everywhere.<span style="float:right;">$\blacklozenge$</span>

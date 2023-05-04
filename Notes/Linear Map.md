@@ -8,8 +8,8 @@ Examples: _Not Applicable_
 Constructions: [[Kernel slash Nullity]], [[Image slash Rank]], [[Dual Map]], [[Adjoint Map]], [[Vector Space of Linear Maps]], [[Category of Vector Spaces]]
 Generalizations: [[Antilinear Map]], [[Multilinear Map]], [[Module Homomorphism]]
 
-Properties: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Linear map is injective iff kernel vanishes]], [[Restriction on complement of kernel is injective]], [[Linear map from a finite-dimensional space is bounded]], [[Change of basis for linear maps]], [[Basic properties of linear maps]]
-Sufficiencies: [[Existence of unique linear map via action on basis vectors]], [[Criteria for equality of linear maps via spanning set]]
+Properties: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Restriction on complement of kernel is injective]], [[Linear map from a finite-dimensional space is bounded]], [[Change of basis for linear maps]], [[Basic properties of linear maps]]
+Sufficiencies: [[Existence of unique linear map via action on basis vectors]]
 Equivalences: [[Action of linear map repr under basis left-multiplication of matrix representation]]
 Justifications: _Not Applicable_
 

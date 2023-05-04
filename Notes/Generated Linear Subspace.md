@@ -12,7 +12,7 @@ Examples: _Not Applicable_
 Constructions: [[Finite-dimensional Vector Space]]
 Generalizations: _Not Applicable_
 
-Properties: [[Steinitz Exchange Lemma]], [[Basis Extraction Theorem]], [[Spanning subset with same cardinality as dimension (finite) is a basis]], [[Criteria for equality of linear maps via spanning set]], [[Linearly dependent iff exists span redundant element]]
+Properties: [[Steinitz Exchange Lemma]], [[Basis Extraction Theorem]], [[Spanning subset with same cardinality as dimension (finite) is a basis]], [[Linearly dependent iff exists span redundant element]]
 Sufficiencies: [[Basis iff minimal spanning set]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

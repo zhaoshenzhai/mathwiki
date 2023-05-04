@@ -7,7 +7,7 @@ mathLink: $V\iso V^{\dual\dual}$ (finite-dim.)
 Date Created: 01/02/2023 15:04:52
 Tags: #Proposition #Topics/Linear_Algebra
 
-Proved by: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Linear map is injective iff kernel vanishes]], [[Basis Extension Theorem]]
+Proved by: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Basis Extension Theorem]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

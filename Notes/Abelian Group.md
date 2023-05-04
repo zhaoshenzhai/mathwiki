@@ -4,12 +4,12 @@ Date Created: 04/05/2022 17:13:39
 Tags: #Definition #Topics/Group_Theory
 
 Types: _Not Applicable_
-Examples: [[Additive Group of Integers mod n]]
+Examples: [[Cyclic Group]], [[Additive Group of Integers mod n]]
 Constructions: [[Ring]], [[Vector Space]]
 Generalizations: [[Module]]
 
 Properties: _Not Applicable_
-Sufficiencies: [[Cyclic groups are Abelian]], [[Isomorphic groups Abelian iff Abelian]]
+Sufficiencies: [[Isomorphic groups Abelian iff Abelian]]
 Equivalences: [[Abelian iff inversion is a homomorphism]]
 Justifications: _Not Applicable_
 

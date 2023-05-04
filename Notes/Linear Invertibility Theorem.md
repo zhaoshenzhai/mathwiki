@@ -3,7 +3,7 @@
 Date Created: 09/04/2022 09:43:00
 Tags: #Theorem #Later/Linear_Algebra
 
-Proved by: [[Dimension Theorem]], [[Linear map is injective iff kernel vanishes]], [[Linear map between vector spaces of same dimension is injective iff surjective]]
+Proved by: [[Dimension Theorem]], [[Linear map between vector spaces of same dimension is injective iff surjective]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
