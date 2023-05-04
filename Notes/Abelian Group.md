@@ -10,7 +10,7 @@ Generalizations: [[Module]]
 
 Properties: _Not Applicable_
 Sufficiencies: [[Isomorphic groups Abelian iff Abelian]]
-Equivalences: [[Abelian iff inversion is a homomorphism]]
+Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
 ``` ad-Definition
