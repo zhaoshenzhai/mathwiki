@@ -19,10 +19,10 @@ title: Definition.
 _Let $H_1,\dots,H_n$ be subgroups of a group $G$. Then $G$ is said to be an **(internal) direct product of $H_1,\dots,H_n$** if_
 * _(Generating): $G=H_1\cdots H_n\coloneqq\l\{H_1\cdots H_n\in G\mid h_i\in H_i\r\}$._
 * _(Trivial intersection): $H_j\cap\l(H_1\cdots H_n\r)=\l\{e\r\}$ for all $j$._
-* _(Normality): $H_i\nsgrpeq G$ for all $i$._
+* _(Normality): $H_i\nsubgrpeq G$ for all $i$._
 
 ```
 
-**Remark.** The internal direct product $G=N_1N_2$ is isomorphic to the external direct product $N_1\times N_2$ via $\phi:N_1\times N_2\to G$ mapping $\tpl{n_1,n_2}\mapsto n_1n_2$. Indeed, it is a homomorphism since $N_1,N_2\nsgrpeq G$, and is also surjective since $G=N_1N_2$. For injectivity, take $\tpl{n_1,n_2}\in\ker\phi$, so $n_1=n_2^{-1}$. But then $n_1\in N_1\cap N_2=\l\{e\r\}$, which forces $n_1=n_2=e$ and so $\phi$ is an isomorphism.
+**Remark.** The internal direct product $G=N_1N_2$ is isomorphic to the external direct product $N_1\times N_2$ via $\phi:N_1\times N_2\to G$ mapping $\tpl{n_1,n_2}\mapsto n_1n_2$. Indeed, it is a homomorphism since $N_1,N_2\nsubgrpeq G$, and is also surjective since $G=N_1N_2$. For injectivity, take $\tpl{n_1,n_2}\in\ker\phi$, so $n_1=n_2^{-1}$. But then $n_1\in N_1\cap N_2=\l\{e\r\}$, which forces $n_1=n_2=e$ and so $\phi$ is an isomorphism.
 
 This isomorphism generalizes to all finite products by induction, but does _not_ generalize to infinite products.<span style="float:right;">$\blacklozenge$</span>

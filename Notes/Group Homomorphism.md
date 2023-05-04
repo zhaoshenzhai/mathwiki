@@ -4,7 +4,7 @@ Date Created: 17/10/2022 11:39:24
 Tags: #Definition #Topics/Group_Theory
 
 Types: [[Group Isomorphism]]
-Examples: [[Canonical Projection]]
+Examples: _Not Applicable_
 Constructions: [[Kernel (Group Theory)]], [[Ring Homomorphism]], [[Linear Map]]
 Generalizations: _Not Applicable_
 

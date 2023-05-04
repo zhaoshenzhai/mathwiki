@@ -15,12 +15,12 @@ Generalizations: _Not Applicable_
 Properties: [[Order of additive group of integers mod n is n]], [[Decomposition of additive group of integers mod n if relatively prime]]
 Sufficiencies: [[Generates additive group of integers mod n iff relatively prime]], [[Cyclic groups are Z or Zn]]
 Equivalences: _Not Applicable_
-Justifications: [[Quotient group is a group]]
+Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
 
-_Fix $n\in\N^+$ and consider the normal subgroup $n\Z\nsgrpeq\Z$ defined as_
+_Fix $n\in\N^+$ and consider the normal subgroup $n\Z\nsubgrpeq\Z$ defined as_
 $$\begin{equation}
     n\Z\coloneqq\l\{a\in\Z\mid n\textrm{\it{ divides }}a\r\}.
 \end{equation}$$

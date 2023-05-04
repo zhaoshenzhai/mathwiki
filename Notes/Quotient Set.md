@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Canonical Projection]], [[Quotient Group]]
+Constructions: [[Quotient Group]]
 Generalizations: _Not Applicable_
 
 Properties: [[Universal Property of Quotient Sets]], [[Quotient set is a partition]]
@@ -20,5 +20,8 @@ _Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. The **quotie
 $$\begin{equation}
     X/\!\sim\,\coloneqq\l\{\l[x\r]_\sim\in\pow\l(X\r)\mid x\in X\r\}.
 \end{equation}$$
+_The map $\pi:X\to X/\!\sim$ sending_ $x\mapsto\l[x\r]_\sim$ _is called the **canonical projection**._
 
 ```
+
+**Remark.** Clearly $\pi$ is surjective.<span style="float:right;">$\blacklozenge$</span>

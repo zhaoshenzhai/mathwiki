@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 06/10/2022 13:06:52
-Tags: #Proposition #Topics/Group_Theory
+Tags: #Proposition #Later/Group_Theory/Cycles
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

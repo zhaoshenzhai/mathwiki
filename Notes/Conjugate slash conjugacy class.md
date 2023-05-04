@@ -9,7 +9,7 @@ Tags: #Definition #Topics/Group_Theory
 
 Types: _Not Applicable_
 Examples: [[All k-cycles are conjugate]]
-Constructions: [[Normal iff stable under conjuation]]
+Constructions: [[Characterizations of normality]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

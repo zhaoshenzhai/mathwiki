@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 06/10/2022 14:04:08
-Tags: #Proposition #Topics/Group_Theory
+Tags: #Proposition #Later/Group_Theory/Cycles
 
 Proved by: [[Omega is an ordinal]]
 References: _Not Applicable_

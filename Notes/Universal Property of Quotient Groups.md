@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Universal Property of Quotient Groups).
 
-_Let $N\nsgrpeq G$ be a normal subgroup of a group $G$. Then the projection $\pi:G\to G/N$ is universal among homomorphisms that map $N$ to the identity. That is, for any group $H$ and any homomorphism $\phi:G\to H$ such that $N\subseteq\ker\phi$, the following diagram commutes:_
+_Let $N\nsubgrpeq G$ be a normal subgroup of a group $G$. Then the projection $\pi:G\to G/N$ is universal among homomorphisms that map $N$ to the identity. That is, for any group $H$ and any homomorphism $\phi:G\to H$ such that $N\subseteq\ker\phi$, the following diagram commutes:_
 <center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2023-01-03_224316/image.svg", width=175></center>
 
 ```

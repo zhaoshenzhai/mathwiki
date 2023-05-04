@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 05/10/2022 19:18:12
-Tags: #Definition #Topics/Group_Theory
+Tags: #Definition #Later/Group_Theory/Cycles
 
 Types: [[Transposition (Cycle)]]
 Examples: _Not Applicable_

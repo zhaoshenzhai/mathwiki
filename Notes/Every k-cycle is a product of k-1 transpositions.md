@@ -5,7 +5,7 @@ mathLink: Every $k$-cycle is a product of $\l(k-1\r)$-many transpositions
 <div class="topSpace"></div>
 
 Date Created: 07/10/2022 13:28:00
-Tags: #Proposition #Topics/Group_Theory
+Tags: #Proposition #Later/Group_Theory/Cycles
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

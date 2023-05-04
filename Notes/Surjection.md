@@ -4,7 +4,7 @@ Date Created: 20/01/2022 09:09:09
 Tags: #Definition #Topics/Set_Theory
 
 Types: [[Bijection]]
-Examples: [[Canonical Projection]], [[Projection Maps]], [[Linear map between vector spaces of same dimension is injective iff surjective]]
+Examples: [[Projection Maps]], [[Linear map between vector spaces of same dimension is injective iff surjective]]
 Constructs: _Not Applicable_
 Generalizations: _Not Applicable_
 

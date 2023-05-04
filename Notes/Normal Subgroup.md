@@ -10,13 +10,13 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: [[Index two implies normal]]
-Equivalences: [[Normal iff stable under conjuation]]
+Equivalences: [[Characterizations of normality]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
 
-_Let $G$ be a group. A subgroup $N\subseteq G$ is said to be a **normal in $G$** if $gN=Ng$ for all $g\in G$, in which case we write $N\nsgrpeq G$._
+_Let $G$ be a group. A subgroup $N\subseteq G$ is said to be a **normal in $G$** if $gN=Ng$ for all $g\in G$, in which case we write $N\nsubgrpeq G$._
 
 ```
 
