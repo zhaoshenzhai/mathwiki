@@ -7,7 +7,7 @@ mathLink: $\Z_n=\gen{m}$ $\Leftrightarrow$ $m\perp n$
 Date Created: 27/09/2022 18:26:12
 Tags: #Proposition #Topics/Group_Theory
 
-Proved by: [[Order of power of element]], [[Order of additive group of integers mod n is n]], [[Order of group element is order of generated cyclic group]]
+Proved by: [[Basic properties of order]], [[Order of additive group of integers mod n is n]], [[Basic properties of order]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

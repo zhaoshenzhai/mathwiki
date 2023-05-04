@@ -21,8 +21,4 @@ _Let $R$ be a ring. If $R$ has a unit, then $\char R=\ord{1}$ where the order is
 
 ```
 
-_Proof_. Let $n\coloneqq\l|1\r|$, so $\char R\geq n$. But then $n1=0$, so
-$$\begin{equation}
-    nr=n\l(1\cdot r\r)=n1\cdot r=0\cdot r=0
-\end{equation}$$
-for all $r\in R$ and thus $\char R=n$.<span style="float:right;">$\blacksquare$</span>
+_Proof_. Let $n\coloneqq\l|1\r|$, so $\char R\geq n$. But then $n1=0$, so $nr=n\l(1\cdot r\r)=n1\cdot r=0\cdot r=0$ for all $r\in R$ and thus $\char R=n$.<span style="float:right;">$\blacksquare$</span>

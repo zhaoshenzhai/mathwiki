@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Cyclic Group]]
 Generalizations: _Not Applicable_
 
-Properties: [[Order of group element is order of generated cyclic group]]
+Properties: [[Basic properties of order]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Cyclic subgroup is a subgroup]]

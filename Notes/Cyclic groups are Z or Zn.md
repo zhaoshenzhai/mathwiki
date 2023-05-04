@@ -7,7 +7,7 @@ mathLink: $G$ cyclic $\Rightarrow$ ($G\iso\Z\lor G\iso\Z_n$)
 Date Created: 17/10/2022 12:47:21
 Tags: #Proposition #Topics/Group_Theory
 
-Proved by: [[Order divides power iff power gives identity]], [[Order of group element is order of generated cyclic group]]
+Proved by: [[Basic properties of order]], [[Basic properties of order]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

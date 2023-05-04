@@ -22,8 +22,4 @@ _Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. Then the pro
 
 ```
 
-_Proof_. Take any set $Z$ and any function $\phi:X\to Z$ such that $\phi\l(x_1\r)=\phi\l(x_2\r)$ for all $x_1,x_2\in X$ such that $x_1\sim x_2$. For the diagram to commute, we need to find some $\tilde{\phi}:X/\!\sim\,\to Z$ such that $\phi=\tilde{\phi}\circ\pi$, which forces
-$$\begin{equation}
-    \tilde{\phi}\l(\l[x\r]\r)\coloneqq\phi\l(x\r)
-\end{equation}$$
-for all $x\in X$. Thus it suffices to show that $\tilde{\phi}$ is well-defined. To do so, take $x_1,x_2\in X$ such that $\l[x_1\r]=\l[x_2\r]$. Then $x_1\sim x_2$, so $\phi\l(x_1\r)=\phi\l(x_2\r)$.<span style="float:right;">$\blacksquare$</span>
+_Proof_. Take any set $Z$ and any function $\phi:X\to Z$ such that $\phi\l(x_1\r)=\phi\l(x_2\r)$ for all $x_1,x_2\in X$ such that $x_1\sim x_2$. For the diagram to commute, we need to find some $\tilde{\phi}:X/\!\sim\,\to Z$ such that $\phi=\tilde{\phi}\circ\pi$, which forces $\tilde{\phi}\l(\l[x\r]\r)\coloneqq\phi\l(x\r)$ for all $x\in X$. Thus it suffices to show that $\tilde{\phi}$ is well-defined. To do so, take $x_1,x_2\in X$ such that $\l[x_1\r]=\l[x_2\r]$. Then $x_1\sim x_2$, so $\phi\l(x_1\r)=\phi\l(x_2\r)$.<span style="float:right;">$\blacksquare$</span>

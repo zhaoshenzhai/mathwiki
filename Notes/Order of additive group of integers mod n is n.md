@@ -7,7 +7,7 @@ mathLink: $\ord{\Z_n}=n$
 Date Created: 27/09/2022 14:34:47
 Tags: #Proposition #Topics/Group_Theory
 
-Proved by: [[Order of group element is order of generated cyclic group]z]
+Proved by: [[Basic properties of order]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

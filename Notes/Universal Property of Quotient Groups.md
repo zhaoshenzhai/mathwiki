@@ -22,7 +22,7 @@ _Let $N\nsubgrpeq G$ be a normal subgroup of a group $G$. Then the projection $\
 
 ```
 
-_Proof_. Observe that $G/N=G/\!\sim$ where $\sim$ is the equivalence relation on $G$ defined by $g_1\sim g_1$ iff $g_1N=g_2N$. Thus, for any $g_1,g_2\in G$ such that $g_1\sim g_2$, we have that $g_1^{-1}g_2\in N\subseteq\ker\phi$, so $\phi\l(g_1^{-1}g_2\r)=e$. But then $\phi\l(g_1\r)=\phi\l(g_2\r)$, so, by universality of $\pi:G\to G/\!\sim$, there exists a unique function $\tilde{\phi}:X/\!\sim\,\to H$ given by $\tilde{\phi}\l(\l[g\r]\r)=\phi\l(g\r)$ for all $g\in G$. Indeed, $\tilde{\phi}$ is a homomorphism since
+_Proof_. Observe that $G/N=G/\!\sim$ where $\sim$ is the equivalence relation on $G$ defined by $g_1\sim g_1$ iff $g_1N=g_2N$. Thus, for any $g_1,g_2\in G$ such that $g_1\sim g_2$, we have that $g_1^{-1}g_2\in N\subgrpeq\ker\phi$, so $\phi\l(g_1^{-1}g_2\r)=e$. But then $\phi\l(g_1\r)=\phi\l(g_2\r)$, so, by universality of $\pi:G\to G/\!\sim$, there exists a unique function $\tilde{\phi}:X/\!\sim\,\to H$ given by $\tilde{\phi}\l(gN\r)=\phi\l(g\r)$ for all $g\in G$. Indeed, $\tilde{\phi}$ is a homomorphism since
 $$\begin{equation}
-    \tilde{\phi}\l(\l[g_1\r]\l[g_2\r]\r)=\tilde{\phi}\l(\l[g_1g_2\r]\r)=\phi\l(g_1g_2\r)=\phi\l(g_1\r)\phi\l(g_2\r)=\tilde{\phi}\l(\l[g_1\r]\r)\tilde{\phi}\l(\l[g_2\r]\r).\qedin
+    \tilde{\phi}\l(g_1Ng_2N\r)=\tilde{\phi}\l(g_1g_2N\r)=\phi\l(g_1g_2\r)=\phi\l(g_1\r)\phi\l(g_2\r)=\tilde{\phi}\l(g_1N\r)\tilde{\phi}\l(g_2N\r).\qedin
 \end{equation}$$

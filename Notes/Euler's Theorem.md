@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 13/10/2022 12:18:15
 Tags: #Theorem #Topics/Group_Theory
 
-Proved by: [[Lagrange's Theorem]], [[Order divides power iff power gives identity]]
+Proved by: [[Lagrange's Theorem]], [[Basic properties of order]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

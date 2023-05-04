@@ -8,7 +8,7 @@ Date Created: 13/10/2022 12:03:14
 Tags: #Theorem #Topics/Group_Theory
 
 Proved by: _Not Applicable_
-References: [[Order of group element is order of generated cyclic group]]
+References: [[Basic properties of order]]
 Justifications: _Not Applicable_
 
 Specializations: _Not Applicable_

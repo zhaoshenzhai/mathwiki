@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[External Direct Product (Vector Space)]]
 Generalizations: _Not Applicable_
 
-Properties: [[Order of element in product]]
+Properties: [[Basic properties of order]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Function space constructed from a Cartesian product]]
