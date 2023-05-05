@@ -9,7 +9,7 @@ Tags: #Definition #Later/Group_Theory/Cycles
 
 Types: [[Transposition (Cycle)]]
 Examples: _Not Applicable_
-Constructions: [[Disjoint Cycles]]
+Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[All k-cycles are conjugate]]

@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Properties: [[Orbit-Stabilizer Theorem]], [[Class Equation]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[Fundamental Theorem of Equivalence Relations]]
 
 ``` ad-Definition
 title: Definition.
@@ -20,4 +20,4 @@ _Let $G$ be a group acting on a set $X$. The **orbit of $x$ under $G$** is the s
 
 ```
 
-**Remark.** Orbits induce a canonical equivalence relation on $X$ by defining $x\sim y$ iff $y=gx$ for some $g\in G$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Orbits induce a canonical equivalence relation on $X$ by defining $x\sim y$ iff $y=gx$ for some $g\in G$, which makes them the equivalence classes under this relation. Thus the orbits $Gx$ are elements in the quotient set $G/\!\sim$, so we have a partition $X=\coprod_{i\in I}Gx_i$.<span style="float:right;">$\blacklozenge$</span>

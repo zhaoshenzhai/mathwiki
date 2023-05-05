@@ -9,7 +9,7 @@ Constructions: [[Symmetric Group]], [[Rearrangement of Series]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
-Sufficiencies: [[Every permutation is a product of disjoint cycles]]
+Sufficiencies: _Not Applicable_
 Equivalences: [[Invertible iff bijective]]
 Justifications: _Not Applicable_
 
