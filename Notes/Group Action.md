@@ -1,10 +1,10 @@
 <div class="topSpace"></div>
 
 Date Created: 04/05/2023 22:12:02
-Tags: #Definition #In_Progress
+Tags: #Definition #Topics/Group_Theory
 
-Types: [[Faithful Action]]
-Examples: [[Conjugate slash conjugacy class]]
+Types: [[Faithful Action]], [[Transitive Action]]
+Examples: [[Conjugation Action]]
 Constructions: [[Orbit]], [[Stabilizer]], [[Vector Space]]
 Generalizations: _Not Applicable_
 
@@ -24,4 +24,4 @@ _Let $G$ be a group and $X$ a be a set. A **(left) $G$-action on $X$** is a homo
 
 ---
 
-**Remark.** Note that $\ker\phi=\bigcap_{x\in X}G_x$ is the intersection of all stabilizers.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Note that $\ker\phi=\l\{g\in G\mid\fa x\in X:gx=x\r\}=\bigcap_{x\in X}G_x$ is the intersection of all stabilizers.<span style="float:right;">$\blacklozenge$</span>

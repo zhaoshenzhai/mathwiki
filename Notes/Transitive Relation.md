@@ -5,7 +5,7 @@ Tags: #Definition #Later/Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Equivalence Relation]], [[Preorder]], [[Strict Partial Order]]
+Constructions: [[Equivalence Relation slash Class]], [[Preorder]], [[Strict Partial Order]]
 Generalizations: _Not Applicable_
 
 Properties: [[Irreflexive and transitive implies asymmetric]]

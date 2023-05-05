@@ -3,7 +3,7 @@
 Date Created: 29/01/2022 16:31:03
 Tags: #Theorem #Topics/Set_Theory
 
-Proved by: [[Same equivalence class iff related]]
+Proved by: _Not Applicable_
 References: [[Relation induced by a partition is an equivalence relation]], [[Quotient set is a partition]]
 Justifications: _Not Applicable_
 

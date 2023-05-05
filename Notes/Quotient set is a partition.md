@@ -3,7 +3,7 @@
 Date Created: 07/02/2022 19:56:07
 Tags: #Proposition #Topics/Set_Theory
 
-Proved by: [[Same equivalence class iff related]]
+Proved by: _Not Applicable_
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

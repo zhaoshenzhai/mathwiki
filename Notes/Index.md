@@ -4,7 +4,7 @@ Date Created: 13/10/2022 13:50:58
 Tags: #Definition #Topics/Group_Theory
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Orbit-Stabilizer Theorem]], [[Class Equation]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

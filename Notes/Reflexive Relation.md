@@ -5,7 +5,7 @@ Tags: #Definition #Later/Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Equivalence Relation]], [[Preorder]]
+Constructions: [[Equivalence Relation slash Class]], [[Preorder]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

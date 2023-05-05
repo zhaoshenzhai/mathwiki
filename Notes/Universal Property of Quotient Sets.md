@@ -7,7 +7,7 @@ mathLink: Universal Property of $\pi:X\to X/\!\sim$
 Date Created: 03/01/2023 21:56:47
 Tags: #Theorem #Topics/Set_Theory
 
-Proved by: [[Same equivalence class iff related]]
+Proved by: _Not Applicable_
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
