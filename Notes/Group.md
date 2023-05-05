@@ -5,7 +5,7 @@ Tags: #Definition #Topics/Group_Theory
 
 Types: [[Abelian Group]], [[Cyclic Group]]
 Examples: [[Symmetric Group]], [[Unit slash Group of Units]]
-Constructions: [[Group Homomorphism]], [[Subgroup]], [[External Direct Product (Group)]], [[Order (Group Theory)]], [[Conjugate slash conjugacy class]]
+Constructions: [[Group Homomorphism]], [[Subgroup]], [[Group Action]], [[External Direct Product (Group)]], [[Order (Group Theory)]]
 Generalizations: [[Groupoid]]
 
 Properties: [[Basic properties of groups]]
