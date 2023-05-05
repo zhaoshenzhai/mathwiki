@@ -25,3 +25,7 @@ _Let $G$ be a group and $X$ a be a set. A **(left) $G$-action on $X$** is a homo
 ---
 
 **Remark.** Note that $\ker\phi=\l\{g\in G\mid\fa x\in X:gx=x\r\}=\bigcap_{x\in X}G_x$ is the intersection of all stabilizers.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+**Remark.** Every group admits the **trivial action** $\phi:G\to\Aut\l(G\r):g\mapsto\phi_g$ by $\phi_h\!\l(h\r)\coloneqq gh$ for all $g,h\in G$. The fact that it is faithful is Cayley$\textrm{'}$s Theorem.<span style="float:right;">$\blacklozenge$</span>
