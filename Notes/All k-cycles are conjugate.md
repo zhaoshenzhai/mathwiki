@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 17/10/2022 11:34:16
-Tags: #Proposition #Later/Group_Theory/Cycles
+Tags: #Proposition #In_Progress
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

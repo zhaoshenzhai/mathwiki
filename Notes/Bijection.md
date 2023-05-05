@@ -3,7 +3,7 @@
 Date Created: 20/01/2022 09:30:37
 Tags: #Definition #Topics/Set_Theory
 
-Types: [[k-cycle]], [[Even slash Odd Permutation]]
+Types: _Not Applicable_
 Examples: [[Identity Function]]
 Constructions: [[Symmetric Group]], [[Rearrangement of Series]]
 Generalizations: _Not Applicable_
