@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 04/05/2023 14:13:26
-Tags: #Proposition #In_Progress
+Tags: #Proposition #In_Progress/Alternating_Group
 
 Proved by: [[Lagrange's Theorem]]
 References: _Not Applicable_

@@ -5,9 +5,9 @@ mathLink: $\Z_m\times\Z_n\iso\Z_{mn}$ ($m\perp n$)
 <div class="topSpace"></div>
 
 Date Created: 27/10/2022 15:53:31
-Tags: #Proposition #Topics/Group_Theory
+Tags: #Proposition #In_Progress
 
-Proved by: [[Cyclic groups are Z or Zn]], [[Order of additive group of integers mod n is n]], [[Basic properties of order]]
+Proved by: [[Basic properties of cyclic groups]], [[Basic properties of order]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
