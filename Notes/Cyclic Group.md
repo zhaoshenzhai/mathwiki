@@ -4,12 +4,12 @@ Date Created: 26/09/2022 14:04:28
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: _Not Applicable_
-Examples: [[Additive Group of Integers mod n]]
+Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of cyclic groups]]
-Sufficiencies: [[Subgroups of cyclic groups are cyclic]]
+Sufficiencies: [[At most one dividing subgroup implies cyclic]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

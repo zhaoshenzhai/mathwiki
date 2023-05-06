@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Properties: [[Basic properties of order]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Omega is an ordinal]]
+Justifications: [[Omega is an ordinal]], [[Lagrange's Theorem]]
 
 ``` ad-Definition
 title: Definition.
@@ -24,4 +24,4 @@ _Otherwise, $g$ is said to have **infinite order**._
 
 ```
 
-**Remark.** We define the **order of $G$** to be its cardinality $\l|G\r|$, or, equivalently, the index of the its trivial subgroup in itself.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** We define the **order of $G$** to be its cardinality $\l|G\r|$. By Lagrange$\textrm{'}$s Theorem, we see that $g^{\l|G\r|}=e$.<span style="float:right;">$\blacklozenge$</span>

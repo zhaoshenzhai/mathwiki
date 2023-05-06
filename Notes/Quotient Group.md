@@ -4,7 +4,7 @@ Date Created: 27/10/2022 18:45:49
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: _Not Applicable_
-Examples: [[Additive Group of Integers mod n]]
+Examples: _Not Applicable_
 Constructions: [[Quotient Ring]]
 Generalizations: _Not Applicable_
 

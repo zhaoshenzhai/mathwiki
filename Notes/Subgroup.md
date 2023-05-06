@@ -8,7 +8,7 @@ Examples: [[Generated Subgroup]], [[Normalizer]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Subgroups of cyclic groups are cyclic]]
+Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

@@ -4,7 +4,7 @@ Date Created: 04/05/2022 17:13:39
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: _Not Applicable_
-Examples: [[Cyclic Group]], [[Additive Group of Integers mod n]]
+Examples: [[Cyclic Group]]
 Constructions: [[Ring]], [[Vector Space]]
 Generalizations: [[Module]]
 

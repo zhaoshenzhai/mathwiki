@@ -4,7 +4,7 @@ Date Created: 14/09/2022 19:41:39
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: _Not Applicable_
-Examples: [[Additive Group of Integers mod n]], [[Root iff factor]]
+Examples: [[Root iff factor]]
 Constructions: [[Greatest Common Divisor (GCD)]], [[Least Common Multiple]], [[Associates]]
 Generalizations: _Not Applicable_
 
