@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/01/2022 20:05:39
-Tags: #Proposition #Later/Topology
+Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[De Morgan's Laws]], [[Countable union of countable sets is countable]]
 References: _Not Applicable_

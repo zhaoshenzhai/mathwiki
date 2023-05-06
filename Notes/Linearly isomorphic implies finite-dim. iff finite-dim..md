@@ -5,7 +5,7 @@ mathLink: $V\iso W$ $\Rightarrow$ ($\dim V<\infty\Leftrightarrow\dim W<\infty$)
 <div class="topSpace"></div>
 
 Date Created: 28/05/2022 16:37:33
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Image of linear map is spanned by image of spanning set]], [[Basic properties of linear maps]]
 References: _Not Applicable_

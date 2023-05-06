@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/01/2023 12:50:01
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Orthogonal Projection]]
 Examples: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 31/01/2022 17:50:47
-Tags: #Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[ON is a transitive class]], [[ON is well-ordered by membership]]
 References: _Not Applicable_

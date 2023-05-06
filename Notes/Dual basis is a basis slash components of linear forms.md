@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 01/02/2023 12:39:19
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Spanning subset with same cardinality as dimension (finite) is a basis]]
 References: _Not Applicable_

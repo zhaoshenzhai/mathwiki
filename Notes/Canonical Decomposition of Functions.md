@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/01/2023 22:14:39
-Tags: #Theorem #Topics/Set_Theory
+Tags: #Type/Theorem #Topic/Set_Theory
 
 Proved by: [[Universal Property of Quotient Sets]], [[Terminal objects are isomorphic]]
 References: _Not Applicable_

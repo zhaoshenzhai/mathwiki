@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/01/2022 09:09:09
-Tags: #Definition #Topics/Set_Theory
+Tags: #Type/Definition #Topic/Set_Theory
 
 Types: [[Bijection]]
 Examples: [[Projection Maps]], [[Linear map between vector spaces of same dimension is injective iff surjective]]

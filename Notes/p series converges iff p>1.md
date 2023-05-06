@@ -5,7 +5,7 @@ mathLink: $p$-series converges $\Leftrightarrow$ $p>1$
 <div class="topSpace"></div>
 
 Date Created: 16/03/2023 10:15:25
-Tags: #Proposition #Topics/Analysis
+Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Cauchy's Condensation Test]], [[Geometric series converges iff r less than 1]]
 References: _Not Applicable_

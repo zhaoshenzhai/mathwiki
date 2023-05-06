@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 22/11/2022 21:01:55
-Tags: #Definition #Topics/Ring_Theory
+Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Euclidean Domain (EUD)]]
 Examples: _Not Applicable_

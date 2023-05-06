@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 05/04/2023 10:36:43
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Unitary Operator]], [[Self-adjoint Operator]]
 Examples: _Not Applicable_

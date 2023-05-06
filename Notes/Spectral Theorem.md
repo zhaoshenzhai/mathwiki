@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 12/04/2023 10:08:49
-Tags: #Theorem #Topics/Linear_Algebra
+Tags: #Type/Theorem #Topic/Linear_Algebra
 
 Proved by: [[Orthogonal complement of invariant subspace is invariant under self-adjoint operator]], [[Basic properties of normal operators]]
 References: [[Gram-Schmidt Orthonormalization]], [[Eigenvalues of linear operators on inner product spaces]]

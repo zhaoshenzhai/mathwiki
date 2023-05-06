@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 27/01/2022 11:56:26
-Tags: #Proposition #Topics/Set_Theory
+Tags: #Type/Proposition #Topic/Set_Theory
 
 Proved by: [[Left-invertible iff injection]], [[Right-invertible iff surjection (Choice)]]
 References: _Not Applicable_

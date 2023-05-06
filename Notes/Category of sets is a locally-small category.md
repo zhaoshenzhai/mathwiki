@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 21/02/2022 16:40:38
-Tags: #Proposition #Later/Category_Theory
+Tags: #Type/Proposition #Later/Category_Theory
 
 Proved by: [[Function space is a set]]
 References: [[Composition of relations is a relation]], [[Identity function is the identity of function composition]]

@@ -5,7 +5,7 @@ mathLink: $\Sym\l(X\r)$
 <div class="topSpace"></div>
 
 Date Created: 05/10/2022 19:09:54
-Tags: #Definition #Topics/Group_Theory
+Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Alternating Group]]
 Examples: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/09/2022 14:04:28
-Tags: #Definition #Topics/Group_Theory
+Tags: #Type/Definition #Topic/Group_Theory
 
 Types: _Not Applicable_
 Examples: [[Additive Group of Integers mod n]]

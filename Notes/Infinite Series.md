@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/09/2022 15:41:10
-Tags: #Definition #Topics/Analysis
+Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Absolutely Convergent Series]]
 Examples: [[Geometric series converges iff r less than 1]], [[p series converges iff p>1]]

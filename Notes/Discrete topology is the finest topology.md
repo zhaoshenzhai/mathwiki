@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/01/2022 11:58:09
-Tags: #Proposition #Later/Topology
+Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[Discrete topology (basis)]]
 References: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 04/02/2022 14:47:46
-Tags: #Proposition #Later/Topology
+Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[Criteria for collection to be a basis for an existing topology]], [[Q is dense in R]]
 References: _Not Applicable_

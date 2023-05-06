@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 10/02/2022 12:42:39
-Tags: #Proposition #Later/Topology
+Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[Criteria for fineness w.r.t. bases]], [[Product topology (basis; component from bases)]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/02/2023 20:47:10
-Tags: #Definition #Topics/Analysis
+Tags: #Type/Definition #Topic/Analysis
 
 Types: _Not Applicable_
 Examples: [[Frechet Differentiability slash Derivative]]

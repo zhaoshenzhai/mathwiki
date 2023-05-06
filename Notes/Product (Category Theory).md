@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 12/03/2022 11:37:51
-Tags: #Definition #Later/Category_Theory
+Tags: #Type/Definition #Later/Category_Theory
 
 Types: _Not Applicable_
 Examples: [[Cartesian Product]], [[External Direct Product (Group)]], [[External Direct Product (Vector Space)]]

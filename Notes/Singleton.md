@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 17/01/2022 12:06:31
-Tags: #Definition #Later/Set_Theory
+Tags: #Type/Definition #Later/Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/01/2023 12:56:32
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

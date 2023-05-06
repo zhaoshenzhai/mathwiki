@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 13/10/2022 13:50:58
-Tags: #Definition #Topics/Group_Theory
+Tags: #Type/Definition #Topic/Group_Theory
 
 Types: _Not Applicable_
 Examples: [[Orbit-Stabilizer Theorem]], [[Class Equation]]

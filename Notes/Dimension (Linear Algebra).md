@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 04/04/2022 23:26:15
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Image slash Rank]], [[Kernel slash Nullity]], [[Basis slash dimension for direct sum]], [[Dimension of Minkowski sum]], [[Dimension of vector space is zero iff it is the zero vector space]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/10/2022 19:26:07
-Tags: #Definition #Topics/Analysis
+Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Bounded Sequence]], [[Cauchy Sequence]], [[Contractive Sequence]]
 Examples: [[Sequences in R]]

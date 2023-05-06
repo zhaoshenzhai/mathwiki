@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 31/01/2022 11:12:51
-Tags: #Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Well-ordering well-orders subsets]]
 References: _Not Applicable_

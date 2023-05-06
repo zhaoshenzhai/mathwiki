@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 05/05/2023 20:14:42
-Tags: #Proposition #In_Progress
+Tags: #Type/Proposition #In_Progress
 
 Proved by: [[Basic properties of order]]
 References: _Not Applicable_

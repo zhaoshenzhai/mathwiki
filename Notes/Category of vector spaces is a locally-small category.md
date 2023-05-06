@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 01/04/2022 23:50:42
-Tags: #Proposition #Later/Category_Theory
+Tags: #Type/Proposition #Later/Category_Theory
 
 Proved by: [[Category of sets is a locally-small category]]
 References: _Not Applicable_

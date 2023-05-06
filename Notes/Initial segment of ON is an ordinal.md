@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/02/2022 15:15:55
-Tags: #Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Well-ordering well-orders subsets]], [[Transitive set iff every element is a subset]]
 References: _Not Applicable_

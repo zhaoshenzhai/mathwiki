@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 24/01/2023 11:48:43
-Tags: #Proposition #Topics/Analysis
+Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Neighborhood characterization of cluster points (metric)]]
 References: _Not Applicable_

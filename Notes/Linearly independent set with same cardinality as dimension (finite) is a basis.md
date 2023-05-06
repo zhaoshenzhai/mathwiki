@@ -5,7 +5,7 @@ mathLink: Linearly independent $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a 
 <div class="topSpace"></div>
 
 Date Created: 02/05/2022 14:12:33
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Basis Extension Theorem]]
 References: _Not Applicable_

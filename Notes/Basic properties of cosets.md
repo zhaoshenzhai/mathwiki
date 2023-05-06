@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 13/10/2022 13:43:43
-Tags: #Proposition #Topics/Group_Theory
+Tags: #Type/Proposition #Topic/Group_Theory
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

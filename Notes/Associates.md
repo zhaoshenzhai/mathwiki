@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/01/2023 16:07:56
-Tags: #Definition #Topics/Ring_Theory #Courses/MATH457
+Tags: #Type/Definition #Topic/Ring_Theory #Courses/MATH457
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

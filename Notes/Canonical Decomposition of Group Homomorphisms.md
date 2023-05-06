@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/01/2023 22:52:08
-Tags: #Theorem #Topics/Group_Theory
+Tags: #Type/Theorem #Topic/Group_Theory
 
 Proved by: [[Universal Property of Quotient Groups]], [[Basic properties of cosets]], [[Canonical Decomposition of Functions]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/01/2023 17:40:02
-Tags: #Definition #Topics/Module_Theory
+Tags: #Type/Definition #Topic/Module_Theory
 
 Types: _Not Applicable_
 Examples: [[Abelian Group]], [[Ideal]], [[Quotient Ring]]

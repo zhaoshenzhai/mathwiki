@@ -5,7 +5,7 @@ mathLink: $\Z_m\times\Z_n\iso\Z_{mn}$ ($m\perp n$)
 <div class="topSpace"></div>
 
 Date Created: 27/10/2022 15:53:31
-Tags: #Proposition #In_Progress
+Tags: #Type/Proposition #In_Progress
 
 Proved by: [[Basic properties of cyclic groups]], [[Basic properties of order]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/03/2023 12:43:07
-Tags: #Proposition #Later/Topology
+Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[Separable implies admits countable subcover]]
 References: _Not Applicable_

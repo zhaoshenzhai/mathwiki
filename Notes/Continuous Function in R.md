@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 01/12/2022 13:19:01
-Tags: #Definition #Topics/Analysis
+Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Differentiable Function slash Derivative in R]]
 Examples: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/06/2022 16:08:32
-Tags: #Theorem #Topics/Linear_Algebra
+Tags: #Type/Theorem #Topic/Linear_Algebra
 
 Proved by: [[Linearly dependent iff exists span redundant element]], [[Orthonormal sets are linearly independent]], [[Dimension of subspace]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]]
 References: _Not Applicable_

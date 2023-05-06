@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/10/2022 19:23:18
-Tags: #Definition #Topics/Analysis
+Tags: #Type/Definition #Topic/Analysis
 
 Types: _Not Applicable_
 Examples: [[Sequences in a Metric Space]]

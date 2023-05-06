@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 04/04/2022 23:21:59
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Orthonormal Basis]]
 Examples: [[Basis slash dimension for direct sum]]

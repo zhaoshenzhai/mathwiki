@@ -5,7 +5,7 @@ mathLink: $\Z$ is a EUD
 <div class="topSpace"></div>
 
 Date Created: 14/09/2022 22:46:36
-Tags: #Theorem #Topics/Ring_Theory
+Tags: #Type/Theorem #Topic/Ring_Theory
 
 Proved by: [[Omega is an ordinal]]
 References: _Not Applicable_

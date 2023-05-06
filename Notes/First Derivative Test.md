@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 30/12/2022 00:08:16
-Tags: #Theorem #Topics/Analysis
+Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

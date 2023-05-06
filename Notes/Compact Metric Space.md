@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/12/2022 18:21:41
-Tags: #Definition #Topics/Topology #Topics/Analysis
+Tags: #Type/Definition #Topic/Topology #Topic/Analysis
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

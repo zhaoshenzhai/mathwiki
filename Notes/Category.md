@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 12/03/2022 17:41:32
-Tags: #Definition #Later/Category_Theory
+Tags: #Type/Definition #Later/Category_Theory
 
 Types: [[Locally-small Category]], [[Groupoid]]
 Examples: _Not Applicable_

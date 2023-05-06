@@ -5,7 +5,7 @@ mathLink: Polynomial $p$ has at most $\deg p$ roots
 <div class="topSpace"></div>
 
 Date Created: 23/11/2022 13:43:40
-Tags: #Proposition #Topics/Ring_Theory
+Tags: #Type/Proposition #Topic/Ring_Theory
 
 Proved by: [[Polynomial ring over fields is a EUD]], [[Root iff factor]]
 References: _Not Applicable_

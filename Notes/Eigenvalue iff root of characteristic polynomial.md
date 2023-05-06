@@ -5,7 +5,7 @@ mathLink: $T$ has eigenvalue $\lambda$ $\Leftrightarrow$ $\cchi_T\!\l(\lambda\r)
 <div class="topSpace"></div>
 
 Date Created: 20/06/2022 15:06:29
-Tags: #Proposition #Later/Linear_Algebra/Determinant
+Tags: #Type/Proposition #Later/Linear_Algebra/Determinant
 
 Proved by: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Invertible iff determinant non-zero]]
 References: [[Characteristic polynomial is a polynomial]], [[Polynomial has at most degree-many roots]]

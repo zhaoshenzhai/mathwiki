@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/04/2022 18:16:33
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Linear Isomorphism]], [[Linear Operator]], [[Bounded Linear Map]]
 Examples: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: $\dim V<\infty$ $\Rightarrow$ $\dim C_T\l(v\r)<\infty$
 <div class="topSpace"></div>
 
 Date Created: 16/03/2023 13:32:37
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

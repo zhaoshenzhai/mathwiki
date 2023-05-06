@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 04/05/2023 18:37:34
-Tags: #Proposition #Topics/Group_Theory
+Tags: #Type/Proposition #Topic/Group_Theory
 
 Proved by: [[Ring of integers is a EUD]], [[Basic properties of group homomorphisms]]
 References: _Not Applicable_

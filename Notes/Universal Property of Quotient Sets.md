@@ -5,7 +5,7 @@ mathLink: Universal Property of $\pi:X\to X/\!\sim$
 <div class="topSpace"></div>
 
 Date Created: 03/01/2023 21:56:47
-Tags: #Theorem #Topics/Set_Theory
+Tags: #Type/Theorem #Topic/Set_Theory
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

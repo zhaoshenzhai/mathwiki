@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/01/2022 12:26:56
-Tags: #Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Reflexive closure of strict orders is non-strict]], [[Strict lexicographical order is a strict partial order]]
 References: _Not Applicable_

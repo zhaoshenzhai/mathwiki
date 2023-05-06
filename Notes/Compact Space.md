@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/12/2022 18:12:46
-Tags: #Definition #Topics/Topology
+Tags: #Type/Definition #Topic/Topology
 
 Types: [[Countably Compact Space]]
 Examples: [[Compact Metric Space]]

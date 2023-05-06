@@ -5,7 +5,7 @@ mathLink: $R$ UFD $\Rightarrow$ $R\l[x\r]$ UFD
 <div class="topSpace"></div>
 
 Date Created: 22/01/2023 23:34:37
-Tags: #Theorem #Topics/Ring_Theory #Courses/MATH457
+Tags: #Type/Theorem #Topic/Ring_Theory #Courses/MATH457
 
 Proved by: [[Gauss's Lemma (Irreducibility)]], [[Polynomial ring over fields is a EUD]], [[EUD implies PID]], [[PID implies UFD]], [[Irreducible implies prime (UFD)]], [[Basic properties of divisibility and associates]], [[Associate primitive polynomials in fraction field are associate]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/01/2022 17:27:04
-Tags: #Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Collection of all singletons is a proper class]], [[Axiom Schema of Specification]]
 References: _Not Applicable_

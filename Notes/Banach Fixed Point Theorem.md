@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/02/2023 10:46:58
-Tags: #Theorem #Topics/Analysis
+Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Contractive implies Cauchy]], [[Sequential slash functional limit characterizations of continuity]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/01/2022 11:24:19
-Tags: #Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Binary relation iff subset of Cartesian product]], [[Axiom Schema of Specification]]
 References: _Not Applicable_

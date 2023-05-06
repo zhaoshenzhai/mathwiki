@@ -5,7 +5,7 @@ mathLink: Lower/Upper Bound
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 15:51:38
-Tags: #Definition #Topics/Set_Theory
+Tags: #Type/Definition #Topic/Set_Theory
 
 Types: [[Least and Greatest Elements]], [[Infimum and Supremum]]
 Examples: _Not Applicable_ 

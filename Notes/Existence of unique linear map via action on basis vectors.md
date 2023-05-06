@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/05/2022 16:29:57
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Unique Representation Theorem (Basis)]]
 References: _Not Applicable_

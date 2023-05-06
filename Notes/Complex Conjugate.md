@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 04/01/2023 14:25:39
-Tags: #Definition #Topics/Complex_Analysis
+Tags: #Type/Definition #Topic/Complex_Analysis
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

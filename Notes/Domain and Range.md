@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 15/01/2022 15:44:35
-Tags: #Definition #Later/Set_Theory
+Tags: #Type/Definition #Later/Set_Theory
 
 Types: _Not Applicable_
 Examples: [[Domain and range of inverse relation]]

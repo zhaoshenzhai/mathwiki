@@ -5,7 +5,7 @@ mathLink: Meet/Join-semilattice
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 18:50:40
-Tags: #Definition #Later/Set_Theory
+Tags: #Type/Definition #Later/Set_Theory
 
 Types: [[Lattice]]
 Examples: _Not Applicable_ 

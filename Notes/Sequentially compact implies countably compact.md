@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 24/01/2023 12:06:15
-Tags: #Proposition #Topics/Analysis
+Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Sequential characterization of closure (metric)]], [[Neighborhood characterization of cluster points (metric)]]
 References: _Not Applicable_

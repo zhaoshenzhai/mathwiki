@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/03/2023 22:43:08
-Tags: #Theorem #Topics/Linear_Algebra
+Tags: #Type/Theorem #Topic/Linear_Algebra
 
 Proved by: [[Cyclic subspace of finite-dimensional is finite-dimensional]], [[Basic properties of characteristic polynomial and invariant subspaces]]
 References: _Not Applicable_

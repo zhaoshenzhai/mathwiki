@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 30/12/2022 17:15:17
-Tags: #Definition #Topics/Analysis #Courses/MATH358
+Tags: #Type/Definition #Topic/Analysis #Courses/MATH358
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

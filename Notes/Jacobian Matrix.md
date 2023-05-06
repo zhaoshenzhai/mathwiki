@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/01/2023 15:35:10
-Tags: #Definition #Topics/Analysis #Courses/MATH358
+Tags: #Type/Definition #Topic/Analysis #Courses/MATH358
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

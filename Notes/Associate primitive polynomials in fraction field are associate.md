@@ -5,7 +5,7 @@ mathLink: Primitive $f\sim g$ in $F\l[x\r]$ $\Rightarrow$ $f\sim g$ in $R\l[x\r]
 <div class="topSpace"></div>
 
 Date Created: 23/01/2023 07:50:34
-Tags: #Proposition #Topics/Ring_Theory #Courses/MATH457
+Tags: #Type/Proposition #Topic/Ring_Theory #Courses/MATH457
 
 Proved by: [[Basic properties of divisibility and associates]]
 References: _Not Applicable_

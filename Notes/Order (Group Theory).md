@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 19/09/2022 11:55:03
-Tags: #Definition #Topics/Group_Theory
+Tags: #Type/Definition #Topic/Group_Theory
 
 Types: _Not Applicable_
 Examples: [[Euler's Totient Function]], [[Characteristic of ring with unit is order of 1]]

@@ -5,7 +5,7 @@ mathLink: $\l[T^\dual\r]=\l[T\r]^\trans$
 <div class="topSpace"></div>
 
 Date Created: 01/02/2023 13:39:36
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Basic properties of composition of linear maps]], [[Dual basis is a basis slash components of linear forms]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/10/2022 20:52:38
-Tags: #Theorem #Topics/Analysis
+Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Nested Interval Theorem]], [[Squeezed Distance Lemma]]
 References: [[Monotone Subsequence Theorem]], [[Monotone Convergence Theorem]]

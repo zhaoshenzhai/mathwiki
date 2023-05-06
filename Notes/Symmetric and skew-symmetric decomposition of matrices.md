@@ -5,7 +5,7 @@ mathLink: $\mat{n}{K}=\Sym_n\!\l(K\r)\oplus\Skew_n\!\l(K\r)$ for $\char K\neq2$
 <div class="topSpace"></div>
 
 Date Created: 09/05/2022 18:30:12
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

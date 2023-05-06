@@ -5,7 +5,7 @@ mathLink: $\axirepl$
 <div class="topSpace"></div>
 
 Date Created: 20/01/2022 10:03:21
-Tags: #Axiom #Later/Set_Theory
+Tags: #Type/Axiom #Later/Set_Theory
 
 Constructions: [[Replacement Image]]
 Generalizations: _Not Applicable_

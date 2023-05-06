@@ -5,7 +5,7 @@ mathLink: Geometric multiplicity $\leq$ algebraic multiplicity
 <div class="topSpace"></div>
 
 Date Created: 16/03/2023 16:51:21
-Tags: #Proposition #Later/Linear_Algebra/Determinant
+Tags: #Type/Proposition #Later/Linear_Algebra/Determinant
 
 Proved by: [[Basis Extension Theorem]]
 References: _Not Applicable_

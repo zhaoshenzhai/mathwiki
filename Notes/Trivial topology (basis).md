@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 12:31:06
-Tags: #Proposition #Later/Topology
+Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[Criteria for collection to be a basis for an existing topology]]
 References: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 22/01/2023 23:31:02
-Tags: #Proposition #Topics/Ring_Theory #Courses/MATH457
+Tags: #Type/Proposition #Topic/Ring_Theory #Courses/MATH457
 
 Proved by: [[Basic properties of divisibility and associates]]
 References: [[Ideal is maximal iff quotient is a field]], [[Polynomial rings over UFDs are UFDs]], [[Irreducible implies prime (UFD)]]

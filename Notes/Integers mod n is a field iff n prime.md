@@ -5,7 +5,7 @@ mathLink: $\tpl{\Z_n,+,\cdot}$ is a field $\Leftrightarrow$ $n$ prime
 <div class="topSpace"></div>
 
 Date Created: 03/11/2022 19:37:42
-Tags: #Proposition #Topics/Ring_Theory
+Tags: #Type/Proposition #Topic/Ring_Theory
 
 Proved by: [[Multiplicative group iff coprime]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/11/2022 14:09:23
-Tags: #Proposition #Topics/Ring_Theory
+Tags: #Type/Proposition #Topic/Ring_Theory
 
 Proved by: [[Basic properties of rings]]
 References: _Not Applicable_

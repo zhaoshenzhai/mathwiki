@@ -5,7 +5,7 @@ mathLink: $\frac{1}{an+b}\to0$
 <div class="topSpace"></div>
 
 Date Created: 04/10/2022 13:01:40
-Tags: #Proposition #Topics/Analysis
+Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Archimedean Property of R]], [[Squeezed Distance Lemma]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 19/09/2022 23:00:47
-Tags: #Definition #Topics/Number_Theory
+Tags: #Type/Definition #Topic/Number_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

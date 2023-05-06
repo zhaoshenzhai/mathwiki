@@ -5,7 +5,7 @@ mathLink: $X$ countable $\Leftrightarrow$ $X\into\omega$
 <div class="topSpace"></div>
 
 Date Created: 13/09/2022 15:29:17
-Tags: #Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Inclusion function is an injection]], [[Composition of injections is an injection]]
 References: _Not Applicable_

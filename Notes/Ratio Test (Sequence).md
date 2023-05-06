@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/10/2022 17:41:09
-Tags: #Proposition #Topics/Analysis
+Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Sequential Limit Theorems in R]], [[Limit of geometric]], [[Squeezed Distance Lemma]], [[Comparison Test (Sequence)]]
 References: _Not Applicable_

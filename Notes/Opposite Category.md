@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 22/02/2022 12:14:26
-Tags: #Definition #Later/Category_Theory
+Tags: #Type/Definition #Later/Category_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

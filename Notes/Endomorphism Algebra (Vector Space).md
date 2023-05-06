@@ -5,7 +5,7 @@ mathLink: $\End\l(V\r)$
 <div class="topSpace"></div>
 
 Date Created: 17/05/2022 23:04:48
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

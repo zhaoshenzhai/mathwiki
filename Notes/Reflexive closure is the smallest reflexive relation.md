@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/02/2022 10:54:47
-Tags: #Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Basic properties of unions, intersections, and power sets]]
 References: _Not Applicable_

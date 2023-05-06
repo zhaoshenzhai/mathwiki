@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 17/11/2022 20:46:30
-Tags: #Definition #Topics/Analysis
+Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Continuous Function in a Metric Space]], [[Bounded Function]], [[Contractive Function]]
 Examples: [[Functions in R]], [[Functions in Rn]]

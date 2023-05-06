@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/04/2022 19:04:20
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Coordinate representation of vector spaces]], [[Matrix representation of linear maps]], [[Basis Transition Map]]

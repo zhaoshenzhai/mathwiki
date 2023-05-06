@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/12/2022 16:47:16
-Tags: #Theorem #Topics/Topology
+Tags: #Type/Theorem #Topic/Topology
 
 Proved by: [[De Morgan's Laws]]
 References: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 13/01/2023 09:43:23
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Steinitz Exchange Lemma]], [[Linearly dependent iff exists span redundant element]]
 References: _Not Applicable_

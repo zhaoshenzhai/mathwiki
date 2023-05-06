@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 21/03/2023 11:08:06
-Tags: #Theorem #Topics/Analysis
+Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Monotone Convergence Theorem]], [[Convergent implies bounded (sequential)]]
 References: _Not Applicable_

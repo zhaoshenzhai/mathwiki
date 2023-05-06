@@ -5,7 +5,7 @@ mathLink: $\tpl{\Z,+,\cdot}$
 <div class="topSpace"></div>
 
 Date Created: 09/01/2023 15:29:16
-Tags: #Definition #Later/Set_Theory
+Tags: #Type/Definition #Later/Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

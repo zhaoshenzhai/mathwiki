@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/09/2022 20:37:12
-Tags: #Definition #Topics/Group_Theory
+Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Normal Subgroup]]
 Examples: [[Generated Subgroup]], [[Normalizer]]

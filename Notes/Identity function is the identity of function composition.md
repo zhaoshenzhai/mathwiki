@@ -5,7 +5,7 @@ mathLink: $f\circ\id_X=f=\id_Y\circ f$
 <div class="topSpace"></div>
 
 Date Created: 27/12/2022 20:23:02
-Tags: #Proposition #Topics/Set_Theory
+Tags: #Type/Proposition #Topic/Set_Theory
 
 Proved by: [[Criteria for equality of functions]]
 References: _Not Applicable_

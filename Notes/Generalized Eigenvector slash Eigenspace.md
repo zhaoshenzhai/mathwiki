@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 16/03/2023 10:25:46
-Tags: #Definition #Later/Linear_Algebra/Module
+Tags: #Type/Definition #Later/Linear_Algebra/Module
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

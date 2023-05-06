@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 14/11/2022 21:13:19
-Tags: #Proposition #Topics/Ring_Theory
+Tags: #Type/Proposition #Topic/Ring_Theory
 
 Proved by: [[Basic properties of groups]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/02/2022 20:23:34
-Tags: #Definition #Later/Set_Theory
+Tags: #Type/Definition #Later/Set_Theory
 
 Types: _Not Applicable_
 Examples: [[Set of Natural Numbers]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/03/2023 16:14:26
-Tags: #Theorem #Topics/Analysis
+Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Metric-completeness of R]]
 References: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 22/01/2023 22:29:15
-Tags: #Theorem #Topics/Ring_Theory #Courses/MATH457
+Tags: #Type/Theorem #Topic/Ring_Theory #Courses/MATH457
 
 Proved by: [[Irreducible implies prime (UFD)]], [[Basic properties of irreducible and prime elements]], [[Ideal is prime iff quotient is an integral domain]], [[Basic properties of polynomial rings (integral domain)]]
 References: _Not Applicable_

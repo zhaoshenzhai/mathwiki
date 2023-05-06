@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/04/2022 14:30:50
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Invariant Subspace]]
 Examples: [[Generated Linear Subspace]]

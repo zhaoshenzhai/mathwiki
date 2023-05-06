@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 04/02/2023 21:16:35
-Tags: #Theorem #Topics/Analysis
+Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Bolzano-Weierstrass Theorem]], [[Sequential characterization of closed sets (metric)]], [[Characterizations of Compactness in Metric Spaces]]
 References: [[Compact implies closed (Hausdorff)]], [[Compact implies bounded]]

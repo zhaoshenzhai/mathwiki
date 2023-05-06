@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 18/02/2022 16:18:53
-Tags: #Proposition #Later/Topology
+Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[Criteria for fineness w.r.t. bases]], [[Product topology (basis; component from bases)]]
 References: _Not Applicable_

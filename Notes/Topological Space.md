@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/01/2022 19:05:00
-Tags: #Definition #Later/Topology
+Tags: #Type/Definition #Later/Topology
 
 Types: [[Compact Space]], [[Connected Space]]
 Examples: [[Order Space (Topology)]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 31/01/2022 12:28:22
-Tags: #Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Intersection of ordinals is an ordinal]], [[Reflexive closure of ordering on ordinals]]
 References: _Not Applicable_

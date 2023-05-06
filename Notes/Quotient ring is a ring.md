@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/11/2022 14:32:10
-Tags: #Proposition #Topics/Ring_Theory
+Tags: #Type/Proposition #Topic/Ring_Theory
 
 Proved by: [[Basic properties of cosets]]
 References: _Not Applicable_

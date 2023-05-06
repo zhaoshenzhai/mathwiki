@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/03/2023 10:15:47
-Tags: #Proposition #Topics/Analysis
+Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Geometric series converges iff r less than 1]], [[Comparison Tests (Series)]], [[Criteria for limit superior slash inferior]]
 References: _Not Applicable_

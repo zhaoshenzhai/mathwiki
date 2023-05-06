@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/11/2022 09:56:13
-Tags: #Definition #Topics/Ring_Theory
+Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Field]]
 Examples: [[Ring of Integers]], [[Polynomial ring over fields is a EUD]], [[Gaussian Integers]]

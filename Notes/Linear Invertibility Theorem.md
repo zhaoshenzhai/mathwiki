@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/04/2022 09:43:00
-Tags: #Theorem #Later/Linear_Algebra
+Tags: #Type/Theorem #Later/Linear_Algebra
 
 Proved by: [[Dimension Theorem]], [[Linear map between vector spaces of same dimension is injective iff surjective]]
 References: _Not Applicable_

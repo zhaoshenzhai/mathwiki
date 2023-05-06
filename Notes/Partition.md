@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/01/2022 16:16:37
-Tags: #Definition #Topics/Set_Theory
+Tags: #Type/Definition #Topic/Set_Theory
 
 Types: _Not Applicable_
 Examples: [[Coset]], [[Partition (Integration)]]

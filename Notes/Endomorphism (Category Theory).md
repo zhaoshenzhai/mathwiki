@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/02/2022 15:32:10
-Tags: #Definition #Later/Category_Theory
+Tags: #Type/Definition #Later/Category_Theory
 
 Types: [[Automorphism (Category Theory)]]
 Examples: [[Endomorphism Algebra (Vector Space)]]

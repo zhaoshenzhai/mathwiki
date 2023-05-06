@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/11/2022 09:51:45
-Tags: #Definition #Topics/Analysis
+Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Lipschitz Continuity]]
 Examples: _Not Applicable_

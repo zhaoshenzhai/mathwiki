@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/03/2022 21:04:03
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Finite-dimensional Vector Space]], [[Inner Product Space]]
 Examples: [[Vector Space of Polynomials]]

@@ -5,7 +5,7 @@ mathLink: $I$ maximal $\Leftrightarrow$ $R/I$ field
 <div class="topSpace"></div>
 
 Date Created: 22/11/2022 19:29:25
-Tags: #Proposition #Topics/Ring_Theory
+Tags: #Type/Proposition #Topic/Ring_Theory
 
 Proved by: [[Basic properties of cosets]]
 References: _Not Applicable_

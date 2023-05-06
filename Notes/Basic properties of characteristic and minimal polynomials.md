@@ -5,7 +5,7 @@ mathLink: Basic properties of $\cchi$ and $\mu$
 <div class="topSpace"></div>
 
 Date Created: 17/03/2023 00:22:19
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Polynomial rings over UFDs are UFDs]], [[Irreducible implies prime (UFD)]]
 References: _Not Applicable_

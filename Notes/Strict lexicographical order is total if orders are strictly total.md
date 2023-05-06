@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/02/2022 16:00:16
-Tags: #Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Strict lexicographical order is a strict partial order]]
 References: _Not Applicable_

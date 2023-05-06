@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 12:14:51
-Tags: #Proposition #Later/Topology
+Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[Basic properties of unions, intersections, and power sets]]
 References: _Not Applicable_

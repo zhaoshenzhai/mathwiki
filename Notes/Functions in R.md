@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 30/11/2022 23:06:10
-Tags: #Definition #Topics/Analysis
+Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Continuous Function in R]], [[Riemann Integrable Function]], [[Monotone Function]]
 Examples: _Not Applicable_

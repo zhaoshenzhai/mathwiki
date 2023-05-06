@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/12/2022 20:34:06
-Tags: #Proposition #Topics/Analysis
+Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Characterizations of closure]]
 References: _Not Applicable_

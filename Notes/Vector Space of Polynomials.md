@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/01/2023 11:30:55
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/01/2022 16:31:03
-Tags: #Theorem #Topics/Set_Theory
+Tags: #Type/Theorem #Topic/Set_Theory
 
 Proved by: _Not Applicable_
 References: [[Relation induced by a partition is an equivalence relation]], [[Quotient set is a partition]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/02/2022 11:31:18
-Tags: #Definition #Later/Topology
+Tags: #Type/Definition #Later/Topology
 
 Types: _Not Applicable_
 Examples: [[Lexicographical Order Topology on R2]], [[Lexicographical Order Topology on N2]]

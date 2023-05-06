@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/02/2023 11:14:46
-Tags: #Definition #Topics/Analysis
+Tags: #Type/Definition #Topic/Analysis
 
 Types: _Not Applicable_
 Examples: [[Continuous functions on a compact metric space with sup norm is Banach]], [[Bounded linear maps with Banach codomain is Banach]]

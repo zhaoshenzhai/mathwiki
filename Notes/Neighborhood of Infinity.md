@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 20/10/2022 16:37:23
-Tags: #Definition #Later/Topology
+Tags: #Type/Definition #Later/Topology
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

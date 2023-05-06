@@ -5,7 +5,7 @@ mathLink: $\Hom\l(V,W\r)\iso\mat{m\times n}{K}$
 <div class="topSpace"></div>
 
 Date Created: 17/05/2022 10:57:09
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Unique Representation Theorem (Basis)]], [[Existence of unique linear map via action on basis vectors]]
 References: _Not Applicable_

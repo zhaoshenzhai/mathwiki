@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 16/02/2023 10:42:25
-Tags: #Theorem #Later/Analysis
+Tags: #Type/Theorem #Later/Analysis
 
 Proved by: [[Holder's Inequality]]
 References: _Not Applicable_

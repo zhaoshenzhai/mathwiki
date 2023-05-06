@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/02/2022 09:34:39
-Tags: #Proposition #Later/Topology
+Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[Cartesian product of intersections]]
 References: _Not Applicable_

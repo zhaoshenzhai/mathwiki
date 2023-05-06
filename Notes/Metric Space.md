@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/09/2022 18:49:17
-Tags: #Definition #Topics/Analysis
+Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Compact Metric Space]], [[Complete Metric Space]], [[Bounded Space]]
 Examples: _Not Applicable_

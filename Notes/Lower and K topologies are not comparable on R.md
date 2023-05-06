@@ -5,7 +5,7 @@ mathLink: $\LLtopR$ and $\KtopR$ not comparable
 <div class="topSpace"></div>
 
 Date Created: 05/02/2022 17:43:45
-Tags: #Proposition #Later/Topology
+Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[Criteria for fineness w.r.t. bases]], [[Q is dense in R]]
 References: _Not Applicable_

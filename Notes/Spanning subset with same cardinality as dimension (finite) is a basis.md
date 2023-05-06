@@ -5,7 +5,7 @@ mathLink: Spanning set $U\subseteq V$ with $\l|U\r|=\dim V<\infty$ is a basis
 <div class="topSpace"></div>
 
 Date Created: 02/05/2022 14:36:38
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Basis Extraction Theorem]]
 References: _Not Applicable_

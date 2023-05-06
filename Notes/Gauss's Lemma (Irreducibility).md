@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 22/01/2023 23:44:19
-Tags: #Theorem #Topics/Ring_Theory #Courses/MATH457
+Tags: #Type/Theorem #Topic/Ring_Theory #Courses/MATH457
 
 Proved by: [[Gauss's Lemma (Primitivity)]], [[Basic properties of divisibility and associates]]
 References: _Not Applicable_

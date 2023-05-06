@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/04/2022 20:37:44
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Basis (Linear Algebra)]]
 Examples: [[Distinct eigenvalues implies linearly independent eigenvectors]]

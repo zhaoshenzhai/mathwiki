@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 13/10/2022 12:03:14
-Tags: #Theorem #Topics/Group_Theory
+Tags: #Type/Theorem #Topic/Group_Theory
 
 Proved by: _Not Applicable_
 References: [[Basic properties of order]]

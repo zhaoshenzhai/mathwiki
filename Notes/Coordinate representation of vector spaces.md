@@ -5,7 +5,7 @@ mathLink: $V\iso K^n$ ($\dim V=n$)
 <div class="topSpace"></div>
 
 Date Created: 15/05/2022 22:49:38
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Unique Representation Theorem (Basis)]]
 References: _Not Applicable_

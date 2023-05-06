@@ -5,7 +5,7 @@ mathLink: $\sigma$-algebra
 <div class="topSpace"></div>
 
 Date Created: 04/04/2023 11:05:36
-Tags: #Definition #Later/Analysis
+Tags: #Type/Definition #Later/Analysis
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

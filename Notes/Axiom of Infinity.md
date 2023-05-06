@@ -5,7 +5,7 @@ mathLink: $\axiinfty$
 <div class="topSpace"></div>
 
 Date Created: 02/02/2022 11:09:41
-Tags: #Axiom #Later/Set_Theory
+Tags: #Type/Axiom #Later/Set_Theory
 
 Constructions: [[Set of Natural Numbers]]
 Generalizations: _Not Applicable_

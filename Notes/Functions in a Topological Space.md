@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 17/11/2022 20:34:29
-Tags: #Definition #Topics/Analysis
+Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Continuous Function]]
 Examples: [[Functions in a Metric Space]]

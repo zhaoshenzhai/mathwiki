@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/05/2022 23:08:55
-Tags: #Theorem #Later/Set_Theory/Choice
+Tags: #Type/Theorem #Later/Set_Theory/Choice
 
 Proved by: [[Enlargement of linearly independent set by adjoining non-spanned vector]]
 References: _Not Applicable_

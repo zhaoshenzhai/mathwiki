@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 03/02/2022 18:10:42
-Tags: #Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Asymmetry implies irreflexivity]], [[Irreflexive and transitive implies asymmetric]]
 References: _Not Applicable_

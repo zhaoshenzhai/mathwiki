@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/01/2023 12:43:49
-Tags: #Definition #Topics/Module_Theory
+Tags: #Type/Definition #Topic/Module_Theory
 
 Types: [[Module Isomorphism]]
 Examples: _Not Applicable_

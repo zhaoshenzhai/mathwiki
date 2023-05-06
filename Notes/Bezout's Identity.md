@@ -5,7 +5,7 @@ mathLink: Bézout$\textrm{'}$s Identity
 <div class="topSpace"></div>
 
 Date Created: 23/11/2022 15:13:45
-Tags: #Theorem #Topics/Ring_Theory
+Tags: #Type/Theorem #Topic/Ring_Theory
 
 Proved by: _Not Applicable_
 References: [[Ring of integers is a EUD]], [[Polynomial ring over fields is a EUD]], [[EUD implies PID]]

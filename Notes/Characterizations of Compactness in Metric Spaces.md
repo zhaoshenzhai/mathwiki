@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/12/2022 21:53:42
-Tags: #Theorem #Topics/Analysis
+Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Sequential characterization of closure (metric)]], [[Sequentially compact implies separable]], [[Separable implies admits countable subcover]], [[Sequentially compact implies countably compact]]
 References: [[Compact implies limit point compact]]

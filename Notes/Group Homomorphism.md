@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 17/10/2022 11:39:24
-Tags: #Definition #Topics/Group_Theory
+Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Group Isomorphism]]
 Examples: _Not Applicable_

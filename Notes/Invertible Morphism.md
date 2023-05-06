@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 22/02/2022 14:27:06
-Tags: #Definition #Later/Category_Theory
+Tags: #Type/Definition #Later/Category_Theory
 
 Types: [[Automorphism (Category Theory)]]
 Examples: [[Bijection]], [[Group Isomorphism]], [[Ring Isomorphism]], [[Linear Isomorphism]], [[Module Isomorphism]], [[Identity Morphism]]

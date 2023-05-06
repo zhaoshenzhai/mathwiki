@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 12/03/2022 18:33:26
-Tags: #Proposition #Later/Category_Theory
+Tags: #Type/Proposition #Later/Category_Theory
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

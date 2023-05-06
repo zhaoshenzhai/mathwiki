@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/02/2022 10:12:02
-Tags: #Proposition #Later/Topology
+Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[Criteria for collection to be a basis for an existing topology]], [[Cartesian product is monotone w.r.t. subsets]]
 References: _Not Applicable_

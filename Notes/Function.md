@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 14/01/2022 14:25:20
-Tags: #Definition #Topics/Set_Theory
+Tags: #Type/Definition #Topic/Set_Theory
 
 Types: [[Injection]], [[Surjection]], [[Invertible Function]], [[n-ary Operation]], [[Group Homomorphism]], [[Ring Homomorphism]], [[Linear Map]], [[Module Homomorphism]]
 Examples: [[Functions in a Topological Space]]

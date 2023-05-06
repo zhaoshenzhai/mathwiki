@@ -5,7 +5,7 @@ mathLink: Universal Property of $\pi:G\to G/N$
 <div class="topSpace"></div>
 
 Date Created: 03/01/2023 22:40:59
-Tags: #Theorem #Topics/Group_Theory
+Tags: #Type/Theorem #Topic/Group_Theory
 
 Proved by: [[Basic properties of cosets]], [[Universal Property of Quotient Sets]]
 References: _Not Applicable_

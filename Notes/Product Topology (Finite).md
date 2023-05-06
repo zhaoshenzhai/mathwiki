@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/02/2022 11:14:58
-Tags: #Definition #Later/Topology
+Tags: #Type/Definition #Later/Topology
 
 Types: _Not Applicable_
 Examples: [[Standard Topology on Rn]]

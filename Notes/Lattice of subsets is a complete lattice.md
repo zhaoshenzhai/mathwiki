@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/01/2022 18:38:44
-Tags: #Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Set ordered by inclusion is a poset]], [[Basic properties of unions, intersections, and power sets]]
 References: _Not Applicable_

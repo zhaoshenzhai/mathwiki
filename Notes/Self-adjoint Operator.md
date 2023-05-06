@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 05/04/2023 10:32:12
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Positive Operator]]
 Examples: _Not Applicable_

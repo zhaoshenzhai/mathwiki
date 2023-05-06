@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/06/2022 10:06:15
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Basic properties of orthogonal complements]], [[Equivalences for projections]], [[Pythagorean Theorem]]
 References: _Not Applicable_

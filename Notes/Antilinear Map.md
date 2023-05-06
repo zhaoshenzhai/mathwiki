@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/04/2023 16:11:43
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: [[Riesz Representation Theorem]], [[Adjoint Map]]

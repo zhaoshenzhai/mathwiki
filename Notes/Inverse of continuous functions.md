@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/02/2023 10:10:17
-Tags: #Proposition #Topics/Analysis
+Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Closed subset of compact set is compact]], [[Extreme Value Theorem]], [[Compact implies closed (Hausdorff)]]
 References: _Not Applicable_

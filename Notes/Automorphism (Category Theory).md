@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/02/2022 13:55:48
-Tags: #Definition #Later/Category_Theory
+Tags: #Type/Definition #Later/Category_Theory
 
 Types: _Not Applicable_
 Examples: [[Symmetric Group]], [[General Linear Group]]

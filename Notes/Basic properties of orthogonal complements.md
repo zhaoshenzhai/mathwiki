@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/06/2022 15:57:52
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Basic properties of linear maps]]
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 15:29:44
-Tags: #Definition #Later/Set_Theory
+Tags: #Type/Definition #Later/Set_Theory
 
 Types: [[Bounded Poset]], [[Meet and Join-semilattices]], [[Dedekind-complete Ordered Set]], [[Totally Ordered Set]]
 Examples: [[Inclusion Poset]]

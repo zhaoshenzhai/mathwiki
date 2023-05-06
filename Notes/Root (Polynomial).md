@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 22/11/2022 23:48:21
-Tags: #Definition #Topics/Ring_Theory
+Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: _Not Applicable_
 Examples: [[Eigenvalue iff root of characteristic polynomial]]

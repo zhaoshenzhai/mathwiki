@@ -5,7 +5,7 @@ mathLink: $V\iso W$ $\Leftrightarrow$ $\dim V=\dim W$ (finite-dim.)
 <div class="topSpace"></div>
 
 Date Created: 29/05/2022 17:53:10
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Existence of unique linear map via action on basis vectors]], [[Image of linear map is spanned by image of spanning set]]
 References: _Not Applicable_

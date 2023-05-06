@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/02/2022 15:18:46
-Tags: #Definition #Later/Category_Theory
+Tags: #Type/Definition #Later/Category_Theory
 
 Types: [[Invertible Morphism]], [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]
 Examples: [[Identity Morphism]], [[Function]], [[Linear Map]], [[Group Homomorphism]], [[Ring Homomorphism]], [[Module Homomorphism]]

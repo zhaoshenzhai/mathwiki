@@ -5,7 +5,7 @@ mathLink: Action of linear map $\Leftrightarrow^\textrm{repr.}_\textrm{bases}$ l
 <div class="topSpace"></div>
 
 Date Created: 19/05/2022 17:10:55
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

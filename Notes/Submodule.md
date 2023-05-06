@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/01/2023 14:07:56
-Tags: #Definition #Topics/Module_Theory
+Tags: #Type/Definition #Topic/Module_Theory
 
 Types: _Not Applicable_
 Examples: [[Ideal]]

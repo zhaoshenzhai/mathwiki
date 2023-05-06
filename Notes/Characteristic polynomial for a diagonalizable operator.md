@@ -5,7 +5,7 @@ mathLink: $T$ diagonalizable $\Rightarrow$ $\cchi_T$ splits
 <div class="topSpace"></div>
 
 Date Created: 08/03/2023 16:43:04
-Tags: #Proposition #Later/Linear_Algebra/Determinant
+Tags: #Type/Proposition #Later/Linear_Algebra/Determinant
 
 Proved by: [[Leibniz Formula]]
 References: _Not Applicable_

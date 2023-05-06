@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 15/01/2022 17:21:16
-Tags: #Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]], [[Basic properties of unions, intersections, and power sets]]
 References: _Not Applicable_

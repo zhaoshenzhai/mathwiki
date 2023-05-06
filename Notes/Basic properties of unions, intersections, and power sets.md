@@ -5,7 +5,7 @@ mathLink: Basic properties of $\bigcup$, $\bigcap$, and $\pow$
 <div class="topSpace"></div>
 
 Date Created: 03/06/2022 14:10:14
-Tags: #Proposition #Topics/Set_Theory
+Tags: #Type/Proposition #Topic/Set_Theory
 
 Proved by: [[Subset relation is transitive]]
 References: _Not Applicable_

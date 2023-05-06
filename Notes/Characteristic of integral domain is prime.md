@@ -5,7 +5,7 @@ mathLink: $R$ integral domain $\Rightarrow$ $\char R$ prime
 <div class="topSpace"></div>
 
 Date Created: 15/11/2022 13:10:05
-Tags: #Proposition #Topics/Ring_Theory
+Tags: #Type/Proposition #Topic/Ring_Theory
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

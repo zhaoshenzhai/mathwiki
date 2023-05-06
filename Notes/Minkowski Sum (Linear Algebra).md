@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/04/2022 17:04:04
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Internal Direct Sum (Linear Algebra)]]
 Examples: _Not Applicable_

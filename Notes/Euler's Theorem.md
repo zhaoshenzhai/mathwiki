@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 13/10/2022 12:18:15
-Tags: #Theorem #Topics/Group_Theory
+Tags: #Type/Theorem #Topic/Group_Theory
 
 Proved by: [[Lagrange's Theorem]], [[Basic properties of order]]
 References: _Not Applicable_

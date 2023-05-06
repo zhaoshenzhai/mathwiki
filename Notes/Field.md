@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/11/2022 19:11:26
-Tags: #Definition #Topics/Ring_Theory
+Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: _Not Applicable_
 Examples: [[Ring or Field of Integers mod n]], [[Real Numbers]]

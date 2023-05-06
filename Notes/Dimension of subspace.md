@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/04/2022 12:48:57
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Basis Extension Theorem]], [[Enlargement of linearly independent set by adjoining non-spanned vector]], [[Steinitz Exchange Lemma]]
 References: _Not Applicable_

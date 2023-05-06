@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/05/2022 15:10:12
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Nilpotent Operator]], [[Diagonalizable Operator]], [[Normal Operator]]
 Examples: _Not Applicable_

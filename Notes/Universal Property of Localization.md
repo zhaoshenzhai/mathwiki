@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/01/2023 13:35:39
-Tags: #Theorem #Topics/Ring_Theory #Courses/MATH457
+Tags: #Type/Theorem #Topic/Ring_Theory #Courses/MATH457
 
 Proved by: _Not Applicable_
 References: _Not Applicable_

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 05/05/2023 14:59:43
-Tags: #Theorem #Topics/Group_Theory
+Tags: #Type/Theorem #Topic/Group_Theory
 
 Proved by: [[Orbit-Stabilizer Theorem]]
 References: _Not Applicable_

@@ -5,7 +5,7 @@ mathLink: $\SL\l(V\r)$
 <div class="topSpace"></div>
 
 Date Created: 03/05/2023 23:00:37
-Tags: #Definition #Topics/Linear_Algebra
+Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

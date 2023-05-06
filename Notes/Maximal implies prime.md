@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 22/11/2022 19:40:28
-Tags: #Proposition #Topics/Ring_Theory
+Tags: #Type/Proposition #Topic/Ring_Theory
 
 Proved by: _Not Applicable_
 References: [[Ideal is maximal iff quotient is a field]], [[Ideal is prime iff quotient is an integral domain]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/06/2022 15:48:46
-Tags: #Proposition #Topics/Linear_Algebra
+Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Coordinate representation of vector spaces]]
 References: _Not Applicable_

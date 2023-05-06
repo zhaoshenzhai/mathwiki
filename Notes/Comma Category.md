@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 06/03/2022 16:54:42
-Tags: #Definition #Later/Category_Theory
+Tags: #Type/Definition #Later/Category_Theory
 
 Types: _Not Applicable_
 Examples: [[Slice category is comma category of identity over inclusion]], [[Coslice category is comma category of inclusion over identity]]

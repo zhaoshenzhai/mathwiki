@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 05/05/2023 12:55:38
-Tags: #Definition #Topics/Group_Theory
+Tags: #Type/Definition #Topic/Group_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_

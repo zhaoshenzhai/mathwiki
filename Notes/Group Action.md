@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 04/05/2023 22:12:02
-Tags: #Definition #Topics/Group_Theory
+Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Faithful Action]], [[Transitive Action]]
 Examples: [[Conjugation Action]]

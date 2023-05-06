@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/12/2022 13:16:28
-Tags: #Definition #Topics/Analysis
+Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Uniform Continuity]]
 Examples: [[Continuous Function in R]]

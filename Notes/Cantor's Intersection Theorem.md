@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 29/12/2022 11:05:26
-Tags: #Theorem #Topics/Topology
+Tags: #Type/Theorem #Topic/Topology
 
 Proved by: [[Compact implies closed (Hausdorff)]], [[De Morgan's Laws]]
 References: _Not Applicable_

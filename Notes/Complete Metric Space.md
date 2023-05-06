@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 04/02/2023 21:08:59
-Tags: #Definition #Topics/Analysis
+Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Banach Space]]
 Examples: [[Metric-completeness of R]]

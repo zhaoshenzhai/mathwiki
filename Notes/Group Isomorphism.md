@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 17/10/2022 11:37:39
-Tags: #Definition #Topics/Group_Theory
+Tags: #Type/Definition #Topic/Group_Theory
 
 Types: _Not Applicable_
 Examples: [[Cayley's Theorem]]
