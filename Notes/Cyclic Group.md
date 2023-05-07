@@ -4,7 +4,7 @@ Date Created: 26/09/2022 14:04:28
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Group of units of finite field is a cyclic group]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

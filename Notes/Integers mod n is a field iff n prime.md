@@ -1,5 +1,5 @@
 ---
-mathLink: $\tpl{\Z_n,+,\cdot}$ is a field $\Leftrightarrow$ $n$ prime
+mathLink: $\Z_n$ is a field $\Leftrightarrow$ $n$ prime
 ---
 
 <div class="topSpace"></div>

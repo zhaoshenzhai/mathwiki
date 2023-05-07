@@ -8,7 +8,7 @@ Examples: [[Integers mod n is a field iff n prime]], [[Real Numbers]]
 Constructions: [[Vector Space]]
 Generalizations: _Not Applicable_
 
-Properties: [[Field implies PID]]
+Properties: [[Field implies PID]], [[Group of units of finite field is a cyclic group]]
 Sufficiencies: [[Ideal is maximal iff quotient is a field]], [[Finite integral domain implies field]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

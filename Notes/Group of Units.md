@@ -8,7 +8,7 @@ Date Created: 03/11/2022 19:59:00
 Tags: #Type/Definition #Topic/Group_Theory #Topic/Ring_Theory
 
 Types: _Not Applicable_
-Examples: [[Multiplicative Group of Integers mod n]]
+Examples: [[Multiplicative Group of Integers mod n]], [[Group of units of finite field is a cyclic group]]
 Constructions: [[Irreducible Element]]
 Generalizations: _Not Applicable_
 
