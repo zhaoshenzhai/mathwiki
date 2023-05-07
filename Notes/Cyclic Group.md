@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of cyclic groups]]
 Sufficiencies: [[At most one dividing subgroup implies cyclic]]
-Equivalences: _Not Applicable_
+Equivalences: [[Classification of Cyclic Groups]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
