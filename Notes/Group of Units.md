@@ -20,15 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{R,+,\cdot,0,1}$ be a ring with unit. An element $u\in R$ is said to be a **unit in $R$** if_
-$$\begin{equation}
-    \ex r\in R:u\cdot r=1=r\cdot u.
-\end{equation}$$
-_The **group of units of $R$** is the group $\tpl{R^\times,\cdot}$ where_
-$$\begin{equation}
-    R^\times\coloneqq\l\{u\in R\mid\ex r\in\R:u\cdot r=1=r\cdot u\r\}
-\end{equation}$$
-_is the set containing all units in $R$._
+_Let $R$ be a ring with unit. The **group of units of $R$** is the group $R^\times\coloneqq\l\{u\in R\mid\ex r\in R:ur=1=ru\r\}$. Elements of $R^\times$ are called **units**._
 
 ```
 

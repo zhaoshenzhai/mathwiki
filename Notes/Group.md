@@ -4,14 +4,14 @@ Date Created: 04/05/2022 13:08:40
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Abelian Group]], [[Cyclic Group]]
-Examples: [[Symmetric Group]], [[Unit slash Group of Units]]
+Examples: [[Symmetric Group]], [[Group of Units]]
 Constructions: [[Group Homomorphism]], [[Subgroup]], [[Group Action]], [[External Direct Product (Group)]], [[Order (Group Theory)]]
 Generalizations: [[Groupoid]]
 
 Properties: [[Basic properties of groups]]
 Sufficiencies: [[Cayley's Theorem]]
 Equivalences: _Not Applicable_
-Justifications: [[Identity element of a group is unique]], [[Inverse elements in a group are unique]]
+Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.

@@ -4,7 +4,7 @@ Date Created: 03/11/2022 19:11:26
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: _Not Applicable_
-Examples: [[Ring or Field of Integers mod n]], [[Real Numbers]]
+Examples: [[Integers mod n is a field iff n prime]], [[Real Numbers]]
 Constructions: [[Vector Space]]
 Generalizations: _Not Applicable_
 

@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Integral Domain]], [[Division Ring]]
 Examples: [[Ring or Field of Integers mod n]]
-Constructions: [[Unit slash Group of Units]], [[Multiplicative Set]]
+Constructions: [[Group of Units]], [[Multiplicative Set]]
 Generalizations: _Not Applicable_
 
 Properties: [[Characteristic of ring with unit is order of 1]]
