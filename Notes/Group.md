@@ -3,9 +3,9 @@
 Date Created: 04/05/2022 13:08:40
 Tags: #Type/Definition #Topic/Group_Theory
 
-Types: [[Abelian Group]], [[Cyclic Group]]
+Types: [[Abelian Group]], [[Cyclic Group]], [[Simple Group]]
 Examples: [[Symmetric Group]], [[Group of Units]]
-Constructions: [[Group Homomorphism]], [[Subgroup]], [[Group Action]], [[External Direct Product (Group)]], [[Order (Group Theory)]]
+Constructions: [[Group Homomorphism]], [[Subgroup]], [[Group Action]], [[External Direct Product (Group)]], [[Order (Group Theory)]], [[Abelianization]]
 Generalizations: [[Groupoid]]
 
 Properties: [[Basic properties of groups]]

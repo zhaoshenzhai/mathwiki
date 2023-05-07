@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A **ring** is a triple $\tpl{R,+,\cdot}$ such that $\tpl{R,+}$ is an Abelian group, $\tpl{R,\cdot}$ is a semigroup, and_
+_A **ring** is a triple $\tpl{R,+,\cdot}$ such that $\tpl{R,+}$ is an abelian group, $\tpl{R,\cdot}$ is a semigroup, and_
 * _(Left-distributivity of $\cdot$ over $+$): $\fa r,s,t\in R:r\cdot\l(s+t\r)=\l(r\cdot s\r)+\l(r\cdot t\r)$._
 * _(Right-distributivity of $\cdot$ over $+$): $\fa r,s,t\in R:\l(r+s\r)\cdot t=\l(r\cdot t\r)+\l(s\cdot t\r)$._
 

@@ -32,4 +32,4 @@ _Similarly for a **right ideal in $R$**. A two-sided ideal in $R$ is called an *
 
 ---
 
-**Remark.** Since the additive group of $R$ is Abelian, we see that every ideal in $R$ is a normal subgroup thereof.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Since the additive group of $R$ is abelian, we see that every ideal in $R$ is a normal subgroup thereof.<span style="float:right;">$\blacklozenge$</span>

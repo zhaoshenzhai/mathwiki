@@ -8,7 +8,7 @@ Examples: [[Cayley's Theorem]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Isomorphic groups Abelian iff Abelian]]
+Properties: [[Isomorphic groups abelian iff abelian]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Isomorphism of objects is an equivalence relation]]

@@ -20,7 +20,7 @@ _Let $S\subseteq G$ be a subset of a group $G$. The **centralizer of $S$ in $G$*
 
 ```
 
-**Remark.** For any subset $S\subseteq G$, we have $C_G\!\l(S\r)\subgrpeq N_G\!\l(S\r)$ since commuting pointwise in $S$ is a stronger condition than commuting with $S$ as a set. Note that if $S=\l\{s\r\}$, then $C_G\!\l(S\r)=N_G\!\l(S\r)$. If $G$ is Abelian, then $C_G\!\l(S\r)=N_G\!\l(S\r)=G$ for all $S\subseteq G$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** For any subset $S\subseteq G$, we have $C_G\!\l(S\r)\subgrpeq N_G\!\l(S\r)$ since commuting pointwise in $S$ is a stronger condition than commuting with $S$ as a set. Note that if $S=\l\{s\r\}$, then $C_G\!\l(S\r)=N_G\!\l(S\r)$. If $G$ is abelian, then $C_G\!\l(S\r)=N_G\!\l(S\r)=G$ for all $S\subseteq G$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

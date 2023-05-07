@@ -32,4 +32,4 @@ Generalizing, we let $G$ act on $\pow\l(G\r)$ by $\phi_g\!\l(S\r)\coloneqq gSg^{
 
 ---
 
-**Remark.** If $G$ is Abelian, then $\phi_g\!\l(h\r)=h$ is the trivial action of $G$ on itself.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If $G$ is abelian, then $\phi_g\!\l(h\r)=h$ is the trivial action of $G$ on itself.<span style="float:right;">$\blacklozenge$</span>

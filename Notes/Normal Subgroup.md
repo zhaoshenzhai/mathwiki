@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: _Not Applicable_
 Examples: [[Kernel (Group Theory)]], [[Centralizer slash Center]]
-Constructions: [[Quotient Group]], [[Internal Direct Product (Group Theory)]]
+Constructions: [[Quotient Group]], [[Internal Direct Product (Group Theory)]], [[Simple Group]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
@@ -20,4 +20,4 @@ _Let $G$ be a group. A subgroup $N\subgrpeq G$ is said to be a **normal in $G$**
 
 ```
 
-**Remark.** Every subgroup of an Abelian group is normal.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Every subgroup of an abelian group is normal.<span style="float:right;">$\blacklozenge$</span>

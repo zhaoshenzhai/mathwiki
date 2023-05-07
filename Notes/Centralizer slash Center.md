@@ -25,8 +25,8 @@ _Let $S\subseteq G$ be a subset of a group $G$. The **centralizer of $S$ in $G$*
 
 ```
 
-**Remark.** Clearly $Z\l(G\r)\subgrpeq C_G\!\l(S\r)$ for all $S\subseteq G$. If $G$ is Abelian, then $Z\l(G\r)=C_G\!\l(S\r)=G$ for all $S\subseteq G$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Clearly $Z\l(G\r)\subgrpeq C_G\!\l(S\r)$ for all $S\subseteq G$. If $G$ is abelian, then $Z\l(G\r)=C_G\!\l(S\r)=G$ for all $S\subseteq G$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** For a subgroup $H\subgrpeq G$, we have $H\subgrpeq C_G\!\l(H\r)$ iff $H$ is Abelian.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** For a subgroup $H\subgrpeq G$, we have $H\subgrpeq C_G\!\l(H\r)$ iff $H$ is abelian.<span style="float:right;">$\blacklozenge$</span>
