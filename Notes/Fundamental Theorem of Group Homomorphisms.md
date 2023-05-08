@@ -11,7 +11,7 @@ Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
 ``` ad-Theorem
-title: Theorem (Canonical Decomposition of Group Homomorphisms).
+title: Theorem (Fundamental Theorem of Group Homomorphisms).
 
 _Let $G$ and $H$ be groups and consider a group homomorphism $\phi:G\to H$. Then the following diagram commutes:_
 <center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2023-01-03_225322/image.svg", width=280></center>

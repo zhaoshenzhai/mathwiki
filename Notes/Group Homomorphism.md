@@ -9,7 +9,7 @@ Constructions: [[Kernel (Group Theory)]], [[Ring Homomorphism]], [[Linear Map]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of group homomorphisms]]
-Sufficiencies: [[Canonical Decomposition of Group Homomorphisms]]
+Sufficiencies: [[Fundamental Theorem of Group Homomorphisms]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
