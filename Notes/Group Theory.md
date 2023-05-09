@@ -16,7 +16,7 @@ $\huge\rm\bf{G}\normalsize\rm\bf{ROUP THEORY}$ is the study of the [category of 
 Similarly, as with most categories, we can define the [kernel](Kernel%20(Group%20Theory).md) and the image of a [homomorphism](Group%20Homomorphism.md) $\phi:G\to H$. Furthermore, $\ker\phi\nsubgrpeq G$, so $\phi$ [decomposes](Fundamental%20Theorem%20of%20Group%20Homomorphisms.md) into
 <center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2023-01-03_225322/image.svg", width=300></center>
 
-which, in particular, implies the [Isomorphism Theorems](obsidian://open?file=TODO).<span style="float:right;">$\blacklozenge$</span>
+which, in particular, implies the [Isomorphism Theorems](Isomorphism%20Theorems%20(Group).md).<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

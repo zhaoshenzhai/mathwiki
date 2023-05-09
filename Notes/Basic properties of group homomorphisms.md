@@ -16,9 +16,8 @@ title: Proposition.
 _Let $G_1$ and $G_2$ be groups and consider a homomorphism $\phi:G_1\to G_2$. Let $H_1\subseteq G_1$ and $H_2\subseteq G_2$ be subgroups. Then the following properties hold._
 * _(Preserves identity): $\phi\l(e_1\r)=e_2$._
 * _(Preserve inverses): $\fa g\in G_1:\l[\phi\l(g\r)\r]^{-1}=\phi\l(g^{-1}\r)$._
-* _(Image preserve subgroups):_ $\im_\phi\!\l(H_1\r)\subgrpeq G_2$_._
-* _(Preimage preserve subgroups):_ $\preim_\phi\!\l(H_2\r)\subgrpeq G_1$_._
-* _(Preimage preserve normality): If $H_2\nsubgrpeq G_2$, then_ $\preim_\phi\!\l(H_2\r)\nsubgrpeq G_1$_._
+* _(Image preserve subgroups):_ $\im_\phi\!\l(H_1\r)\subgrpeq G_2$_. Furthermore, if $\phi$ is surjective and $H_1\nsubgrpeq G_1$, then_ $\im_\phi\!\l(H_1\r)\nsubgrpeq G_2$_._
+* _(Preimage preserve subgroups):_ $\preim_\phi\!\l(H_2\r)\subgrpeq G_1$_. Furthermore, if $H_2\nsubgrpeq G_2$, then_ $\preim_\phi\!\l(H_2\r)\nsubgrpeq G_1$_._
 
 _Furthermore, $\phi$ is injective iff $\ker\phi=\l\{e_1\r\}$._
 
@@ -34,7 +33,11 @@ _Proof_.
     $$\begin{equation}
         g_1g_2'=\phi\l(g_1\r)\phi\l(g_1'\r)=\phi\l(g_1g_1'\r)\in\im_\phi\!\l(H_1\r).
     \end{equation}$$
-Also, $g_1^{-1}\in H_1$, so $g_2^{-1}=\l[\phi\l(g_1\r)\r]^{-1}=\phi\l(g_1^{-1}\r)\in\im_\phi\!\l(H_1\r)$.
+Also, $g_1^{-1}\in H_1$, so $g_2^{-1}=\l[\phi\l(g_1\r)\r]^{-1}=\phi\l(g_1^{-1}\r)\in\im_\phi\!\l(H_1\r)$. Assume now that $\phi$ is surjective and that $H_1\nsubgrpeq G_1$; it suffices to show that $g_2\l[\im_\phi\!\l(H_1\r)\r]g_2^{-1}\subseteq\im_\phi\!\l(H_1\r)$. Indeed, take $k\in\im_\phi\!\l(H_1\r)$, so $\phi\l(k'\r)=k$ for some $k'\in H_1$. Furthermore, since $\phi$ is surjective, $\phi\l(g_1\r)=g_2$ for some $g_1\in G_1$. Then
+$$\begin{equation}
+    g_2kg_2^{-1}=\phi\l(g_1\r)\phi\l(k'\r)\phi\l(g_1\r)^{-1}=\phi\l(g_1kg_1^{-1}\r)\in\im\phi\!\l(H_1\r)
+\end{equation}$$
+where the membership follows from the fact that $H_1\nsubgrpeq G_1$. Thus $g_1kg_1^{-1}\in\im_\phi\!\l(H_1\r)$.
 * Since $\phi\l(e_1\r)=e_2\in H_2$, we see that $e_1\in\preim_\phi\!\l(H_2\r)$. For closure, take $g_1,g_1'\in\preim_\phi\!\l(H_2\r)$, so $\phi\l(g_1\r)=g_2$ and $\phi\l(g_1'\r)=g_2'$ for some $g_2,g_2'\in H_2$. Then
     $$\begin{equation}
         \phi\l(g_1g_1'\r)=\phi\l(g_1\r)\phi\l(g_1'\r)=g_2g_2'\in H_2.
