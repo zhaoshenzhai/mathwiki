@@ -8,7 +8,7 @@ Examples: [[Cyclic Group]]
 Constructions: [[Ring]], [[Vector Space]]
 Generalizations: [[Module]]
 
-Properties: _Not Applicable_
+Properties: [[Abelian group is simple iff cyclic of prime order]]
 Sufficiencies: [[Abelianization]], [[Isomorphic groups abelian iff abelian]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
