@@ -8,10 +8,10 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Universal Property of Abelianization]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Characterization of abelianization]]
+Justifications: [[Abelianization is abelian]]
 
 ``` ad-Definition
 title: Definition.

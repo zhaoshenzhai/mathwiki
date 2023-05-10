@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G$ be a group. Then $\l[G,G\r]\nsubgrpeq G$ and the quotient $G^\textrm{ab}\coloneqq G/\l[G,G\r]$ is abelian. Furthermore, for any $N\nsubgrpeq G$, the quotient $G/N$ is abelian iff $\l[G,G\r]\subgrpeq N$._
+_Let $G$ be a group. Then $\l[G,G\r]\nsubgrpeq G$ and the quotient $G^\textrm{ab}\coloneqq G/\l[G,G\r]$ is abelian._
 
 ```
 
@@ -31,6 +31,5 @@ $$\begin{equation}
 \end{equation}$$
 To check that $G^\textrm{ab}$ is abelian, take $x,y\in G$ and observe that
 $$\begin{equation}
-    x\l[G,G\r]\cdot y\l[G,G\r]=\l(xy\r)\l[G,G\r]=\l(xyy^{-1}x^{-1}yx\r)\l[G,G\r]=\l(yx\r)\l[G,G\r]=y\l[G,G\r]\cdot x\l[G,G\r].
+    x\l[G,G\r]\cdot y\l[G,G\r]=\l(xy\r)\l[G,G\r]=\l(xyy^{-1}x^{-1}yx\r)\l[G,G\r]=\l(yx\r)\l[G,G\r]=y\l[G,G\r]\cdot x\l[G,G\r].\qedin
 \end{equation}$$
-Finally, take $N\nsubgrpeq G$. Note that $G/N$ is abelian iff $xN\cdot yN=yN\cdot xN$ for all $x,y\in G$, which occurs iff $xyN=yxN$. Equivalently, we have $xyx^{-1}y^{-1}\in N$ for all $x,y\in G$, iff $\l[G,G\r]\subgrpeq N$.<span style="float:right;">$\blacksquare$</span>
