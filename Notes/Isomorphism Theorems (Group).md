@@ -23,6 +23,10 @@ _Let $G$ and $G'$ be groups. We have the following $\textrm{`}$isomorphism theor
 
 ```
 
+**Remark.** The First Isomorphism Theorem shows that the sequence $0\longrightarrow A\overset{\phi}{\longrightarrow}B\overset{\psi}{\longrightarrow} C\longrightarrow0$ is exact iff $C\iso B/A$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 _Proof_. The First Isomorphism Theorem is simply a restatement of the Fundamental Theorem of Homomorphisms. The Second and Third Isomorphism Theorems are easy consequences of the first.
 * That $HK\subgrpeq G$, $K\nsubgrpeq HK$, and $H\cap K\nsubgrpeq H$ are all easily verified. Consider the sequence $0\rightarrow H\cap K\overset{\iota}{\rightarrow}H\overset{\phi}{\rightarrow}HK/K\rightarrow0$ where $\phi\l(h\r)\coloneqq hK$. Clearly $\iota$ is injective and $\phi$ is surjective. Since $\im\iota=H\cap K=\ker\phi$, we see that the sequence is exact and the result follows.
 * That $H\nsubgrpeq K$ and $K/H\nsubgrpeq G/H$ are easily verified. Consider the sequence $0\rightarrow K/H\overset{\iota}{\rightarrow}G/H\overset{\phi}{\rightarrow}G/K\rightarrow0$ where $\phi\l(gH\r)\coloneqq gK$, which is well-defined. Clearly $\iota$ is injective and $\phi$ is surjective. Since $\im\iota=K/H=\ker\phi$, we see that the sequence is exact and the result follows.
