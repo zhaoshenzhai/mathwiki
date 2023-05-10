@@ -16,10 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,d}$ be a metric space. The **diameter of $X$** is_
-$$\begin{equation}
-    \diam X\coloneqq\sup\limits_{\mathclap{x,y\in X}}d\l(x,y\r),
-\end{equation}$$
-_where we take $\diam X\coloneqq\infty$ if the supremum does not exist._
+_Let $\tpl{X,d}$ be a metric space. The **diameter of $X$** is_ $\diam X\coloneqq\sup_{x,y\in X}d\l(x,y\r)$_, where we take $\diam X\coloneqq\infty$ if the supremum does not exist._
 
 ```
