@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Universal Property of Abelianization]]
+Properties: [[Universal Property of Abelianization]], [[Abelianization of product is product of abelianization]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Abelianization is abelian]]
