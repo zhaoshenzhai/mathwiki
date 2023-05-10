@@ -1,0 +1,15 @@
+\documentclass{article}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\makeatletter\AtBeginDocument{\color{textColor}\global\let\default@color\current@color}\makeatletter
+
+\begin{document}
+    \begin{equation*}
+        \begin{tikzcd}
+            F\l(X\r) \ar[r, "\ex!\phi", dashed] & G \\
+            X \ar[u, "j"] \ar[ur, "f"']
+        \end{tikzcd}
+    \end{equation*}
+\end{document}

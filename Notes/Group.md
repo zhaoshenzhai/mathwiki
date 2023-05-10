@@ -9,7 +9,7 @@ Constructions: [[Group Homomorphism]], [[Subgroup]], [[Group Action]], [[Externa
 Generalizations: [[Groupoid]]
 
 Properties: [[Basic properties of groups]]
-Sufficiencies: [[Cayley's Theorem]]
+Sufficiencies: [[Cayley's Theorem]], [[Free Group]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 
