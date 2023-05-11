@@ -3,7 +3,7 @@
 Date Created: 05/05/2023 14:32:11
 Tags: #Type/Theorem #Topic/Group_Theory
 
-Proved by: [[Universal Property of Quotient Sets]]
+Proved by: [[Transitive action iff left-multiplication on quotient by stabilizer]]
 References: [[Lagrange's Theorem]]
 Justifications: _Not Applicable_
 
@@ -21,8 +21,4 @@ _Let $G$ be a group acting on a set $X$ and fix $x\in X$. Then there is a biject
 
 ---
 
-_Proof_. Consider the function $f:G\to Gx$ mapping $g\mapsto gx$. Then, for all $g,h\in G$, we see that
-$$\begin{equation}
-    f\l(g\r)=f\l(h\r)\ \ \ \ \Leftrightarrow\ \ \ \ gx=hx\ \ \ \ \Leftrightarrow\ \ \ \ h^{-1}gx=x\ \ \ \ \Leftrightarrow\ \ \ \ h^{-1}g\in Gx\ \ \ \ \Leftrightarrow\ \ \ \ g\in hGx,
-\end{equation}$$
-so the universal property of the quotient set furnishes a (unique) bijection $\tilde{f}:G/G_x\to Gx$. Thus $\l|Gx\r|=\l[G:G_x\r]$, and if $G$ is finite, then $\l[G:G_x\r]=\l|G\r|/\l|G_x\r|$ by Lagrange$\textrm{'}$s Theorem.<span style="float:right;">$\blacksquare$</span>
+_Proof_. Restricting the action on $X$ to transitively act on the orbit $Gx$, we see that $Gx$ is equivariant to $G/G_x$ with the left-multiplication action. In particular, we have $\l|Gx\r|=\l|G/G_x\r|$ and the result follows.<span style="float:right;">$\blacksquare$</span>
