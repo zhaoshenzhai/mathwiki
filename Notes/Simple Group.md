@@ -4,7 +4,7 @@ Date Created: 07/05/2023 18:58:15
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Simplicity of alternating group]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

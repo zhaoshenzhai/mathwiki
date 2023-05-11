@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Alternating Group]]
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Sign of a Permutation]]
 Generalizations: _Not Applicable_
 
 Properties: [[Cayley's Theorem]], [[Basic properties of symmetric groups]]
@@ -29,7 +29,3 @@ _Let $X$ be a set. The **symmetric group on $X$** is the automorphism group $\Sy
 ---
 
 **Remark.** If $X=\l\{1,\dots,n\r\}$, as is usually the case, we denote $S_n\coloneqq\Sym\l(\l\{1,\dots,n\r\}\r)$. For all $i\in X$, its stabilizer $G_i$ (where $G\coloneqq S_n$) is isomorphic to $S_{n-1}$.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-**Remark.** It can be proved that there is a unique homomorphism $\epsilon:S_n\to\l\{\pm1\r\}$ such that $\epsilon\l(\tau\r)=-1$ for all transpositions $\tau\in S_n$. For all $\sigma\in S_n$, the image $\epsilon\l(\sigma\r)$ is called the **sign of $\sigma$**. If $\epsilon\l(\sigma\r)=1$, then $\sigma$ is said to be **even**, and otherwise $\sigma$ is said to be **odd**.<span style="float:right;">$\blacklozenge$</span>
