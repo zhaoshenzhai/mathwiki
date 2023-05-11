@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Faithful Action]], [[Transitive Action]]
 Examples: [[Conjugation Action]]
-Constructions: [[Orbit]], [[Stabilizer]], [[Vector Space]]
+Constructions: [[Orbit]], [[Stabilizer]], [[Vector Space]], [[Category of G-Sets]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

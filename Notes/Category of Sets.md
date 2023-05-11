@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 21/02/2022 15:37:23
-Tags: #Type/Definition #Later/Category_Theory
+Tags: #Type/Definition #Topic/Category_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
@@ -15,7 +15,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Category of sets is a locally-small category]]
+Justifications: [[Function space is a set]], [[Composition of functions is a function]], [[Composition of relations is associative]], [[Identity function is the identity of function composition]]
 
 ``` ad-Definition
 title: Definition.

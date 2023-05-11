@@ -1,0 +1,15 @@
+\documentclass{article}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\makeatletter\AtBeginDocument{\color{textColor}\global\let\default@color\current@color}\makeatletter
+
+\begin{document}
+    \begin{equation*}
+        \begin{tikzcd}[column sep = 0.5in, row sep = 0.3in]
+            G\times X \ar[r, "\id_G\times f"] \ar[d, "\phi"'] & G\times X' \ar[d, "\phi'"] \\
+            X \ar[r, "f"] & X
+        \end{tikzcd}
+    \end{equation*}
+\end{document}
