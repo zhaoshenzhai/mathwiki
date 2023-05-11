@@ -8,35 +8,35 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "tag:#Definition",
+      "query": "tag:#Type/Definition",
       "color": {
         "a": 1,
         "rgb": 6537198
       }
     },
     {
-      "query": "tag:#Proposition",
+      "query": "tag:#Type/Proposition",
       "color": {
         "a": 1,
         "rgb": 15099319
       }
     },
     {
-      "query": "tag:#Theorem",
+      "query": "tag:#Type/Theorem",
       "color": {
         "a": 1,
         "rgb": 6683493
       }
     },
     {
-      "query": "tag:#Axiom",
+      "query": "tag:#Type/Axiom",
       "color": {
         "a": 1,
         "rgb": 16342365
       }
     },
     {
-      "query": "tag:#MOC",
+      "query": "tag:#Type/MOC",
       "color": {
         "a": 1,
         "rgb": 16773058
@@ -48,11 +48,11 @@
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.73600971861227,
   "lineSizeMultiplier": 1.29302181037405,
-  "collapse-forces": true,
+  "collapse-forces": false,
   "centerStrength": 0.102440953780088,
   "repelStrength": 20,
-  "linkStrength": 0.655723810600068,
+  "linkStrength": 0.731664594869477,
   "linkDistance": 500,
-  "scale": 0.0078125,
+  "scale": 0.01497116874075219,
   "close": true
 }
