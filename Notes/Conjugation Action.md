@@ -12,7 +12,7 @@ Examples: [[All k-cycles are conjugate]]
 Constructions: [[Centralizer slash Center]], [[Normalizer]], [[Normal Subgroup]]
 Generalizations: _Not Applicable_
 
-Properties: [[Class Equation]]
+Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_

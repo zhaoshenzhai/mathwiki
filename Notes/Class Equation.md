@@ -13,15 +13,20 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Class Equation).
 
-_Let $G$ be a finite group acting on a set $X$ and let $x_1,\dots,x_r$ be representatives of distinct conjugacy classes of $G$ not contained in $Z\l(G\r)$. Then_
+_Let $G$ be a group acting on a finite set $X$ and let $Z\coloneqq\l\{x\in X\mid\fa g\in G:gx=x\r\}$ be the set of fixed points of the action. Then_
 $$\begin{equation}
-    \l|G\r|=\l|Z\l(G\r)\r|+\sum_{i=1}^{r}\l[G:C_G\!\l(x_i\r)\r].
+    \l|X\r|=\l|Z\r|+\sum_{x\in A}\l[G:G_x\r]
 \end{equation}$$
+_where $A\subseteq X\comp Z$ is the set of representatives of distinct non-trivial orbits._
 
 ```
 
-_Proof_. Let $Z\l(G\r)\coloneqq\l\{x_{r+1},\dots,x_{r+s}\r\}$ and note that $x\in Z\l(G\r)$ iff $gx=xg$ for all $g\in G$, which occurs iff $Gx=\l\{x\r\}$. The decomposition $X=\coprod_{i=1}^{r+s}Gx_i$ gives us
+**Remark.** In the case where $G=X$ is finite and $G$ acts on itself by conjugation, $Z=Z\l(G\r)$ is the center and we have $\l|G\r|=\l|Z\l(G\r)\r|+\sum_{x\in A}\l[G:G_x\r]$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+_Proof_. The partition $X=\coprod Gx$ where $x\in A\cup Z$ gives us
 $$\begin{equation}
-    \l|G\r|=\sum_{i=1}^{r+s}\l|Gx_i\r|=\sum_{i=1}^{r}\l[G:G_{x_i}\r]+\sum_{i=r+1}^{s}1=\l|Z\l(G\r)\r|+\sum_{i=1}^{r}\l[G:G_{x_i}\r]=\l|Z\l(G\r)\r|+\sum_{i=1}^{r}\l[G:C_G\!\l(x_i\r)\r],
+    \l|X\r|=\sum_{x\in Z}\l|Gx\r|+\sum_{x\in A}\l|Gx\r|=\sum_{x\in Z}1+\sum_{x\in A}\l|Gx\r|=\l|Z\r|+\sum_{x\in A}\l|Gx\r|,
 \end{equation}$$
-where $G_{x_i}=C_G\!\l(x_i\r)$ since the stabilizers of $x_i$ is the set of all $g\in G$ such that $gx_i=x_ig$, which is exactly the centralizer $C_G\!\l(x_i\r)$.<span style="float:right;">$\blacksquare$</span>
+so the result follows from the Orbit-Stabilizer Theorem.<span style="float:right;">$\blacksquare$</span>
