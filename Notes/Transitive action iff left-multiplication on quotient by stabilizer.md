@@ -5,7 +5,7 @@ mathLink: Transitive action on $G$ $\Leftrightarrow$ left-multiplication on $G/G
 <div class="topSpace"></div>
 
 Date Created: 10/05/2023 20:15:03
-Tags: #Type/Proposition #In_Progress
+Tags: #Type/Proposition #Topic/Group_Theory
 
 Proved by: _Not Applicable_
 References: _Not Applicable_
@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G$ be a group and fix $x\in X$. Then every transitive left-action $\phi$ on a set $X$ is equivariant to the left-multiplication action on $G/G_x$._
+_Let $G$ be a group, let $X$ be a set, and fix $x\in X$. Then every transitive left-action $\phi$ on a set $X$ is equivariant to the left-multiplication action on $G/G_x$._
 
 ```
 
