@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Transitive Action]]
 Generalizations: _Not Applicable_
 
-Properties: [[Orbit-Stabilizer Theorem]], [[Class Equation]]
+Properties: [[Orbit-Stabilizer Theorem]], [[Class Equation]], [[Cauchy-Frobenius Formula]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Fundamental Theorem of Equivalence Relations]]
