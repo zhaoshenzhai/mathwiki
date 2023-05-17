@@ -125,28 +125,28 @@
                       "collapse-color-groups": true,
                       "colorGroups": [
                         {
-                          "query": "tag:#Definition",
+                          "query": "tag:#Type/Definition",
                           "color": {
                             "a": 1,
                             "rgb": 6537198
                           }
                         },
                         {
-                          "query": "tag:#Proposition",
+                          "query": "tag:#Type/Proposition",
                           "color": {
                             "a": 1,
                             "rgb": 15099319
                           }
                         },
                         {
-                          "query": "tag:#Theorem",
+                          "query": "tag:#Type/Theorem",
                           "color": {
                             "a": 1,
                             "rgb": 6683493
                           }
                         },
                         {
-                          "query": "tag:#Axiom",
+                          "query": "tag:#Type/Axiom",
                           "color": {
                             "a": 1,
                             "rgb": 16342365

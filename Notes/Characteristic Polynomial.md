@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Properties: [[Cayley-Hamilton Theorem]], [[Eigenvalue iff root of characteristic polynomial]], [[Schur's Theorem]], [[Basic properties of characteristic polynomial and invariant subspaces]], [[Basic properties of characteristic and minimal polynomials]]
 Sufficiencies: [[Characteristic polynomial for a diagonalizable operator]]
 Equivalences: _Not Applicable_
-Justifications: [[Characteristic polynomial is a polynomial]], [[Identity function repr under basis by identity matrix]]
+Justifications: [[Characteristic polynomial is a polynomial]]
 
 ``` ad-Definition
 title: Definition.
