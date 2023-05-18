@@ -42,6 +42,6 @@ $$\begin{equation}
 so $\cchi_R\divides\cchi_T$.
 
 Now, since $\mc{B}\coloneqq\l\{v,Tv,T^2v,\dots,T^{k-1}v\r\}$ is a basis for $W$, write $T^kv=\sum_{i=0}^{k-1}\alpha_iT^iv$ for some $\alpha_i\in K$. Then $\l[R\r]_\mc{B}$ has the following form.
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2023-03-16_220647/image.svg", width=175></center>
+![[Images/2023-03-16_220647/image.svg|175]]
 
 Calculating its characteristic polynomial, we obtain the desired result.<span style="float:right;">$\blacksquare$</span>

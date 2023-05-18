@@ -29,6 +29,6 @@ _Proof_. See links above.<span style="float:right;">$\blacksquare$</span>
 
 **Remark.** The relationship between these topologies can be illustrated with the following Hasse diagram:
 
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-02-09_212228/image.svg", width=120></center>
+![[Images/2022-02-09_212228/image.svg|120]]
 
 A line segment that points upward indicate a subset relation. If any two topologies are not connected with line segments that only point upward, then they are not comparable.<span style="float:right;">$\blacklozenge$</span>

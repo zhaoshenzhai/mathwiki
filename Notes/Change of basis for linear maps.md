@@ -26,7 +26,7 @@ _and_ $A'=P_{\mc{C}\to\mc{C}'}AQ_{\mc{B}'\to\mc{B}}$ _where_ $P_{\mc{C}\to\mc{C}
 ---
 
 **Remark.** The statement can then be rephrased to saying that the diagram
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-06-01_174406/image.svg", width=260></center>
+![[Images/2022-06-01_174406/image.svg|260]]
 
 commutes.<span style="float:right;">$\blacklozenge$</span>
 

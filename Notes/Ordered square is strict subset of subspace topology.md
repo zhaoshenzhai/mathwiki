@@ -19,6 +19,6 @@ _Let_ $\tpl{I^2,\mc{T}_\textrm{or}}$ _be the ordered square and let_ $\mc{T}_\te
 
 _Proof_. Consider the set $A\coloneqq\l(\tpl{0.5,0.5},\tpl{0.5,1}\r]$ and let $U\coloneqq\l(\tpl{0.5,0.5},\tpl{0.5,1.25}\r)$. Clearly $A=U\cap I^2$, and since $U\in\mc{T}\l(\sqsubset\r)$, we see that $A\in\mc{T}_\textrm{sb}$.
 
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-02-18_160458/image.svg", width=265></center>
+![[Images/2022-02-18_160458/image.svg|265]]
 
 We claim that $A\not\in\mc{T}_\textrm{or}$. To show this, it suffices to show that every open interval w.r.t. $\l.\sqsubset\r|_{I^2}$ contains some point $p\in I^2$ such that $p\not\in A$, for then $A$ cannot be an open interval nor a union thereof. Take an open interval $\l(a,b\r)_{I^2}$; if $\tpl{0.5,1}\in\l(a,b\r)_{I^2}$, then it must necessarily contain some $p\coloneqq\tpl{x,0}$ where $x>0.5$. Observe that $p\in\l(a,b\r)_{I^2}$ but $p\not\in A$.<span style="float:right;">$\blacksquare$</span>

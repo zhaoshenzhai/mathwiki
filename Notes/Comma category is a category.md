@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 title: Proposition.
 
 _Let $\cat{C}$, $\cat{D}$, and $\cat{E}$ be categories and fix two functors_
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-03-07_144906/image.svg", width=140></center>
+![[Images/2022-03-07_144906/image.svg|140]]
 
 _Then the comma category $\l(\ms{F}\downarrow\ms{G}\r)$ is a category._
 
@@ -28,7 +28,7 @@ $$\begin{equation}
     \tpl{\phi,\psi}:\tpl{E_1,D_1,f_1}\to\tpl{E_2,D_2,f_2}\ \ \ \ \textrm{and}\ \ \ \ \tpl{\phi',\psi'}:\tpl{E_2,D_2,f_2}\to\tpl{E_3,D_3,f_3}\cref{\ast}
 \end{equation}$$
 in $\Hom\l(\ms{F}\downarrow\ms{G}\r)$; we need to prove that $\phi'\circ\phi\in\Hom_\cat{C}\!\l(E_1,E_3\r)$, $\psi'\circ\psi\in\Hom_\cat{D}\!\l(D_1,D_3\r)$, and that the diagram
-  <center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-03-09_101429/image.svg", width=350></center>
+  ![[Images/2022-03-09_101429/image.svg|350]]
 
   commutes; that is, that$$\begin{equation}
       \ms{G}\l(\psi'\circ\psi\r)\circ f_1=f_3\circ\ms{F}\l(\phi'\circ\phi\r).

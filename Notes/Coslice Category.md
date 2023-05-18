@@ -22,7 +22,7 @@ $$\begin{equation}
     \Obj\l(C\downarrow\cat{C}\r)\coloneqq\l\{f\in\Hom_\cat{C}\!\l(C,X\r)\mid X\in\Obj\l(\cat{C}\r)\r\}.
 \end{equation}$$
 * _For all $\l(C\downarrow\cat{C}\r)$-objects $\tpl{X,f}$ and $\tpl{X',f'}$, the morphisms from $\tpl{X,f}$ to $\tpl{X',f'}$ are $\cat{C}$-morphisms $\psi:X\to X'$ such that the diagram_
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-03-07_161830/image.svg", width=180></center>
+![[Images/2022-03-07_161830/image.svg|180]]
 
   _commutes; that is,_$$\begin{equation}
       \Hom_{\l(C\downarrow\cat{C}\r)}\!\l(\tpl{X,f},\tpl{X',f'}\r)\coloneqq\l\{\psi\in\Hom_\cat{C}\!\l(X,X'\r)\mid f'=\psi\circ f\r\}.

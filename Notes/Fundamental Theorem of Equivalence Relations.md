@@ -23,7 +23,7 @@ _Furthermore, we have_ $X/R_\Pi=\Pi$ _and_ $R_{X/R}=R$_._
 
 **Remark.** The relationship between partitions, their induced relations, equivalences, and their quotient sets, can be visualized with the following schematic diagram.
 
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-02-09_222004/image.svg", width=650></center>
+![[Images/2022-02-09_222004/image.svg|650]]
 
 The statements $X/R_\Pi=\Pi$ and $R_{X/R}=R$ are then viewed as $\textrm{`}$compatibility statements$\textrm{'}$, guaranteeing that the
 * quotient set of the relation induced by $\Pi$ is $\Pi$ itself, and that the

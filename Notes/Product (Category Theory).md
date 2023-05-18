@@ -22,7 +22,7 @@ _Let $\cat{C}$ be a category and consider an indexed family_ $\l\{X_i\r\}_{i\in 
 
 _such that for every object $Y\in\Obj\l(\cat{C}\r)$ and family of morphisms $\l\{\tau_i:Y\to X_i\r\}$, there exists a unique morphism $\phi:Y\to X$ making each diagram_
 
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-03-12_114225/image.svg", width=120></center>
+![[Images/2022-03-12_114225/image.svg|120]]
 
 _commute; that is, if each $\tau_i$ factors uniquely as $\tau_i=\pi_i\circ\phi$._
 

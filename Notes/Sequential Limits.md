@@ -33,6 +33,6 @@ _where $\mc{U}_x$ is the set of all neighborhoods of $x$. If $\tpl{X,\mc{T}}$ is
 ---
 
 **Remark.** Convergence to $x$ can be visualized as:
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-08-29_171208/image.svg", width=100></center>
+![[Images/2022-08-29_171208/image.svg|100]]
 
 Each dot represents some $x_n$, and the neighborhoods around $x$ are represented by circles for simplicity.<span style="float:right;">$\blacklozenge$</span>

@@ -30,10 +30,10 @@ $$\begin{equation}
 
 _such that, for all $X,Y,Z,W\in\mc{O}$:_
 * _$\axicat[1]$ (Associativity)$\bf{.}$ For all $f\in\Hom\l(X,Y\r)$, $g\in\Hom\l(Y,Z\r)$, and $h\in\Hom\l(Z,W\r)$, the following diagram commutes._
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-02-21_142913/image.svg", width=230></center>
+![[Images/2022-02-21_142913/image.svg|230]]
 
 * _$\axicat[2]$ (Unit)$\bf{.}$ For all $f\in\Hom\l(X,Y\r)$, the following diagram commutes._
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-02-09_213021/image.svg", width=230></center>
+![[Images/2022-02-09_213021/image.svg|230]]
 * _$\axicat[3]$ (Disjoint)$\bf{.}$ If $X\neq Z$ or $Y\neq W$, then $\Hom\l(X,Y\r)\cap\Hom\l(Z,W\r)=\em$._
 
 ```

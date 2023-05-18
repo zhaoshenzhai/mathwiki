@@ -20,7 +20,7 @@ _Let $\cat{C}$ and $\cat{D}$ be categories. A **(covariant) functor $\ms{F}$ fro
 * _$\axifunctor[1]$ (Unitality)$\bf{.}$ For all $X\in\Obj\l(\cat{C}\r)$,_ $\ms{F}^{\Hom}\l(\id_X\r)=\id_{\ms{F}^{\Obj}\l(X\r)}$_._
 
 * _$\axifunctor[2]$ (Compositionality)$\bf{.}$ For all $X,Y,Z\in\Obj\l(\cat{C}\r)$,_ $f\in\Hom_\cat{C}\!\l(X,Y\r)$_, and_ $g\in\Hom_\cat{C}\!\l(Y,Z\r)$_, the following diagram commutes._
-  <center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-03-06_160504/image.svg", width=300></center>
+  ![[Images/2022-03-06_160504/image.svg|300]]
 
   _That is,_ $\ms{F}^{\Hom}\l(g\circ_\cat{C}\!f\r)=\ms{F}^{\Hom}\l(g\r)\circ_\cat{D}\!\ms{F}^{\Hom}\l(f\r)$_._
 

@@ -22,7 +22,7 @@ _Let $V$ and $W$ be finite-dimensional $K$-vector spaces, say with $n\coloneqq\d
 ```
 
 **Remark.** Letting $A\coloneqq\l[T\r]_\mc{B}^\mc{C}$, this relationship can be interpreted by saying that the diagram
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-05-29_220733/image.svg", width=170></center>
+![[Images/2022-05-29_220733/image.svg|170]]
 
 commutes. Thus, after identifying $V\iso K^n$ and $W\iso K^m$ via the maps $\phi_\mc{B}$ and $\phi_\mc{C}$, respectively, we may identify $T$ with the left-multiplication map $L_A$. This is useful since it allows us to reduce abstract statements about $T$ to maps between tuple spaces.<span style="float:right;">$\blacklozenge$</span>
 

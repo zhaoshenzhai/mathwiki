@@ -70,7 +70,7 @@ I wrote some bash scripts to (try) maintain the consistency of my notes; [main.s
 * Toggling between light and dark mode is handled by [toggleDark.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/toggleDark.sh).
 * Resetting the modification time of each note to its creation time is handled by [resetModifyTime.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/resetModifyTime.sh).
 
-Some stats: 818 notes, 2018 links, 56 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
+Some stats: 818 notes, 2076 links, 55 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
 ## :symbols: MathLinks
 
@@ -98,8 +98,8 @@ Instead of setting them manually, simply use `mathLink: auto`. This will generat
 This is the main downside of using MathJax in Obsidian since it [sanitizes HTML](https://help.obsidian.md/Advanced+topics/HTML+sanitization) which ignores `<script>` tags and prevents one from using [this](https://github.com/kisonecat/tikzjax) tool.
 
 My solution is to bind a key in Neovim which [inserts][tikzInsert]
-```html
-<center><img src="app://local/PATH_TO_VAULT/Images/UNIQUE_IDENTIFIER/image.svg"></center>
+```
+![[Images/UNIQUE_IDENTIFIER/image.svg]]
 ```
 in the current line and runs a [script](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/newTikZ.sh) that creates the corresponding `.tex` file from a [template](https://github.com/zhaoshenzhai/MathWiki/blob/master/imageTemplate.tex) where the TikZ code can be written. Once finished, another key can be pressed which [executes][pdfLaTeXExecute]
 ```bash

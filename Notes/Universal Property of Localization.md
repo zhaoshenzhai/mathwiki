@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 title: Theorem (Universal Property of Localization).
 
 _Let $R$ be an integral domain and let $S\subseteq R$ be multiplicative. Then the embedding $\iota:R\to S^{-1}R:r\mapsto\frac{r}{1}$ is universal among homomorphisms that map $S$ to units. That is, for any commutative ring $Z$ and any homomorphism $\phi:R\to Z$ such that $\im_S\!\l(\phi\r)\subseteq Z^\times$, the following diagram commutes:_
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2023-01-16_134335/image.svg", width=125></center>
+![[Images/2023-01-16_134335/image.svg|125]]
 
 ```
 

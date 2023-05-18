@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 title: Proposition.
 
 _Let $\cat{C}$ be a category and fix $C\in\Obj\l(\cat{C}\r)$. Then the slice category $\l(\cat{C}\downarrow C\r)$ is isomorphic to the comma category_ $\l(\Id_\cat{C}\downarrow\ms{I}\r)$
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-03-10_135528/image.svg", width=140></center>
+![[Images/2022-03-10_135528/image.svg|140]]
 
 _where $\ms{I}:\bf{1}\to\cat{C}$ is the inclusion functor and $\bf{1}$ is the discrete category with $\Obj\l(\bf{1}\r)\coloneqq\l\{C\r\}$ and $\Hom\l(\bf{1}\r)\coloneqq\l\{\id_C\r\}$._
 
@@ -28,7 +28,7 @@ for all $X,X'\in\Obj\l(\cat{C}\r)$, $f\in\Hom_\cat{C}\!\l(X,C\r)$, $f'\in\Hom_\c
 * Note that $\dom\ms{F}^{\Obj}$, in the sense of class functions, is indeed the class $\Obj\l(\cat{C}\downarrow C\r)$ since $\tpl{X,f}$ is a general element thereof; similarly for $\dom\ms{F}^{\Hom}$.
 * For $\cdm\ms{F}^{\Obj}$, it is clear that $C\in\Obj\l(\bf{1}\r)$, so $f\in\Hom_\cat{C}\!\l(X,C\r)=\Hom_\cat{C}\!\l(\Id_\cat{C}\l(X\r),\ms{I}\l(C\r)\r)$ and thus $\tpl{X,C,f}\in\Obj\l(\Id_\cat{C}\downarrow\ms{I}\r)$.
 * For $\cdm\ms{F}^{\Hom}$, we need to verify that the diagram
-  <center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-03-10_164625/image.svg", width=200></center>
+  ![[Images/2022-03-10_164625/image.svg|200]]
 
     commutes, but this reduces to checking that $f=f'\circ\phi$ which holds since $\phi\in\Hom_{\l(\cat{C}\downarrow C\r)}\l(\tpl{X,f},\tpl{X',f'}\r)$.
 

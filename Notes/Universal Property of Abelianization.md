@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 title: Theorem (Universal Property of Abelianization).
 
 _Let $G$ be a group. Then the abelianization $\pi:G\to G^\textrm{ab}$ is universal among homomorphisms into abelian groups. That is, for any abelian group $H$ and homomorphism $\phi:G\to H$, the following diagram commutes:_
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2023-05-10_114112/image.svg", width=175></center>
+![[Images/2023-05-10_114112/image.svg|175]]
 
 ```
 

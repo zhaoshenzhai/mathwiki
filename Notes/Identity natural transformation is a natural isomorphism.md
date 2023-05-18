@@ -19,7 +19,7 @@ _Let $\cat{C}$ and $\cat{D}$ be categories and fix a functor $\ms{F}:\cat{C}\to\
 
 _Proof_. It suffices to prove that $\natid_\ms{F}$ is a natural transformation since for all $X\in\Obj\l(\cat{C}\r)$, the morphism $\id_{\ms{F}\l(X\r)}$ are isomorphisms. To this end, take $\alpha:X\to Y$ for any $X,Y\in\Obj\l(\cat{C}\r)$; we need to prove that the diagram
 
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-03-12_184050/image.svg", width=220></center>
+![[Images/2022-03-12_184050/image.svg|220]]
 
 commutes. This is seen by the following computation:
 

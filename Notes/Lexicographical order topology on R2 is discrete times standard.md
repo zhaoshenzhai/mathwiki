@@ -65,7 +65,7 @@ $$\begin{equation}
       \end{alignedat}\cref{\color{blue}\ast}
       \end{equation}$$  
 
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-02-10_154054/image.svg", width=260></center>
+![[Images/2022-02-10_154054/image.svg|260]]
 
 In all cases, we see that there exists $B\in\mc{B}_\textrm{pr}$ such that $p\in B\subseteq\l(\tpl{a,b},\tpl{c,d}\r)$, so $\mc{T}_<\subseteq\mc{T}_\textrm{discrete}\times\sttopR$.
 

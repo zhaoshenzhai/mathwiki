@@ -18,7 +18,7 @@ Generalizations: _Not Applicable_
 title: Proposition.
 
 _Let $f:X\to Y$. Then $f\circ\id_X=f$ and $\id_Y\circ f=f$; in other words, the following diagram commutes._
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-02-09_213021/image.svg", width=240></center>
+![[Images/2022-02-09_213021/image.svg|240]]
 
 ```
 

@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 title: Theorem (Canonical Decomposition of Functions).
 
 _Let $f:X\to Y$ and let $\sim$ be an equivalence relation on $X$ defined by $x_1\sim x_2$ iff $f\l(x_1\r)=f\l(x_2\r)$. Then the following diagram commutes:_
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2023-01-03_221630/image.svg", width=275></center>
+![[Images/2023-01-03_221630/image.svg|275]]
 
 ```
 

@@ -14,7 +14,7 @@ echo ""
 
 allDoubleLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | sed 's/\[\[//g' | sed 's/\]\]//g' | sed 's/$/.md/g' | sort | uniq)
 while IFS= read -r link; do
-    if [[ ! -f "$link" ]]; then
+    if [[ ! -f "$link" ]] && [[ ! "$link" == Images\/* ]]; then
         link=$(echo "$link" | sed 's/.md//g')
         echo -e "    ${PURPLE}$link${NC}"
         doubleLink=$(echo "$link" | sed 's/^/\\[\\[/g' | sed 's/$/\\]\\]/g')
@@ -26,7 +26,7 @@ while IFS= read -r link; do
     fi
 done <<< "$allDoubleLinks"
 
-allLinkedImages=$(grep -P "MathWiki\/Images" * | sed 's/^.*Images\///g' | sed 's/\/image\.svg.*//g' | sort | uniq)
+allLinkedImages=$(grep -P "Images/" * | sed 's/^.*Images\///g' | sed 's/\/image\.svg.*//g' | sort | uniq)
 allActualImages=$(ls "$MATHWIKI_DIR/Images/" | sort | uniq)
 ghostImages=$(echo -e "${allLinkedImages[@]} ${allActualImages[@]}" | tr ' ' '\n' | sort | uniq -u)
 

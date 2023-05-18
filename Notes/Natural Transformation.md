@@ -25,7 +25,7 @@ $$\begin{equation}
 \end{equation}$$
 _such that for all morphisms $\alpha:X\to Y$ in $\cat{C}$, the diagrams_
 
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-03-12_130843/image.svg", width=300></center>
+![[Images/2022-03-12_130843/image.svg|300]]
 
 _commute._
 
@@ -33,7 +33,7 @@ _commute._
 
 **Remark.** A natural transformation $\eta$ from $\ms{F}$ to $\ms{G}$ can be represented pictorially as
 
-<center><img src="app://local/home/zhao/Dropbox/MathWiki/Images/2022-03-12_134415/image.svg", width=120></center>
+![[Images/2022-03-12_134415/image.svg|120]]
 
 or simply $\eta:\ms{F}\Rightarrow\ms{G}$ if the categories are understood.<span style="float:right;">$\blacklozenge$</span>
 
