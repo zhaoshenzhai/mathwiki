@@ -11,12 +11,13 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: [[Basic properties of homotopies of paths]]
+Justifications: [[Basic properties of homotopies of paths]], [[Independence of base point]]
 
 ``` ad-Definition
 title: Definition.
 
 _Let $X$ be a topological space and fix $x_0\in X$. The **fundamental group of $X$ based at $x_0$** is the group $\pi_1\l(X,x_0\r)$ of homotopy classes of loops at $x_0$ under concatenation._
+* _If $X$ is path-connected, then the **fundamental group of $X$** is $\pi_1\l(X\r)\coloneqq\pi_1\l(X,x_0\r)$, independent of the base point._
 
 ```
 
