@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Algebraic_Topology
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Homotopy of Paths]]
+Constructions: [[Homotopy of Paths]], [[Path-connected Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

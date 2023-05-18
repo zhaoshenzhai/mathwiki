@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of homotopies of paths]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Simply-connected iff homotopic paths]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
