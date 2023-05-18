@@ -4,7 +4,7 @@ Date Created: 24/11/2022 13:48:28
 Tags: #Type/Definition #Topic/Analysis
 
 Types: _Not Applicable_
-Examples: [[Continuous Function in a Metric Space]]
+Examples: [[Continuous Function in a Metric Space]], [[Path]]
 Constructions: [[Space of Continuous Functions]]
 Generalizations: _Not Applicable_
 

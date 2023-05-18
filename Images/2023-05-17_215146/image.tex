@@ -1,0 +1,22 @@
+\documentclass{article}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\makeatletter\AtBeginDocument{\color{textColor}\global\let\default@color\current@color}\makeatletter
+
+\begin{document}
+    \begin{tikzpicture}
+        \draw (0,0) grid (4,4);
+        \draw[ultra thick] (0,0) -- (2,0);
+        \draw[ultra thick] (2,0) -- (4,4);
+        \draw (2,0) circle (0) node[below=0.25cm]{\large Graph of $\phi$};
+
+        \begin{scope}[xshift=8cm]
+            \draw (0,0) grid (4,4);
+            \draw[ultra thick] (0,0) -- (2,4);
+            \draw[ultra thick] (2,4) -- (4,4);
+            \draw (2,0) circle (0) node[below=0.25cm]{\large Graph of $\phi'$};
+        \end{scope}
+    \end{tikzpicture}
+\end{document}
