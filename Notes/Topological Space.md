@@ -5,7 +5,7 @@ Tags: #Type/Definition #Later/Topology
 
 Types: [[Compact Space]], [[Connected Space]]
 Examples: [[Order Space (Topology)]]
-Constructions: [[Product Space (Topology)]], [[Topological Subspace]], [[Sequences in a Topological Space]]
+Constructions: [[Product Space (Topology)]], [[Topological Subspace]], [[Sequences in a Topological Space]], [[Covering Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
