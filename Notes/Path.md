@@ -20,7 +20,7 @@ _Let $X$ be a topological space. A **path in $X$** is a continuous map $\gamma:\
 
 ```
 
-**Remark.** If $x_0\coloneqq\gamma\l(0\r)=\gamma\l(1\r)$, then $\gamma$ is said to be a **loop at $x_0$**. Equivalently, a loop is a continuous map $\gamma:S^1\to X$ since $S^1$ is the quotient space of $\l[0,1\r]$ when $0\sim1$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** If $x_0\coloneqq\gamma\l(0\r)=\gamma\l(1\r)$, then $\gamma$ is said to be **closed**, or a **loop at $x_0$**. Equivalently, a loop is a continuous map $\gamma:S^1\to X$ since $S^1$ is the quotient space of $\l[0,1\r]$ when $0\sim1$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

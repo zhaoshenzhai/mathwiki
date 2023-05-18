@@ -20,7 +20,7 @@ _Let $X$ be a topological space and let $\gamma_0,\gamma_1:\l[0,1\r]\to X$ be pa
 * _$\gamma_0=H\l(\slot,0\r)$ and $\gamma_1=H\l(\slot,1\r)$._
 * _For all $t\in\l[0,1\r]$, the paths $\gamma_t\coloneqq H\l(\slot,t\r)$ have the same start and end points._
 
-_If there exists a homotopy $H$ from $\gamma_0$ to $\gamma_1$, then $\gamma_0$ and $\gamma_1$ are said to be **homotopic**._
+_If there exists a homotopy $H$ from $\gamma_0$ to $\gamma_1$, then $\gamma_0$ and $\gamma_1$ are said to be **homotopic** and we write $\gamma_0\sim\gamma_1$._
 
 ```
 
@@ -33,3 +33,7 @@ $$\begin{equation}
     \end{dcases}
 \end{equation}$$
 is a homotopy from $\gamma_0$ to $\gamma_2$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+**Remark.** Let $\gamma$ be a closed curve, say at $x_0$, and let $\epsilon$ be the constant curve at $x_0$. If $\gamma\sim x_0$, then $\gamma$ is said to be **null-homotopic**.<span style="float:right;">$\blacklozenge$</span>

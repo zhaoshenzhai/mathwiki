@@ -16,7 +16,7 @@ title: Proposition.
 _Let $X$ be a topological space. Then the following properties hold._
 * _If $\gamma:\l[0,1\r]\to X$ is a path and $\phi:\l[0,1\r]\to\l[0,1\r]$ is a continuous map with $\phi\l(0\r)=0$ and $\phi\l(1\r)=1$, then $\gamma$ and $\gamma\circ\phi$ are homotopic._
 * _If $\gamma_0,\gamma_1:\l[0,1\r]\to X$ are homotopic paths from $x_0$ to $x_1$, then $-\gamma_0$ and $-\gamma_1$ are homotopic paths from $x_1$ to $x_0$. Furthermore, if $\delta_0,\delta_1:\l[0,1\r]\to X$ are homotopic paths from $x_1$ to $x_2$, then $\gamma_0\ast\delta_0$ and $\gamma_1\ast\delta_1$ are homotopic paths from $x_0$ to $x_2$._
-* _If $\gamma_0,\gamma_1,\gamma_2:\l[0,1\r]\to X$ are paths joining each other at $x_0$, $x_1$, $x_2$, and $x_3$, and $\epsilon_0$ and $\epsilon_1$ are constant curves at $x_0$ and $x_1$, respectively, then_
+* _If $\gamma_0,\gamma_1,\gamma_2:\l[0,1\r]\to X$ are paths such that $x_0\overset{\gamma_0}{\rightsquigarrow}x_1\overset{\gamma_1}{\rightsquigarrow}x_2\overset{\gamma_2}{\rightsquigarrow}x_3$ and $\epsilon_0$ and $\epsilon_1$ are constant curves at $x_0$ and $x_1$, respectively, then the following hold:_
     * _$\epsilon_0\ast\gamma_0\sim\gamma_0\sim\gamma_0\ast\epsilon_1$._
     * _$\gamma_0\ast\gamma_0^-\sim\epsilon_0$._
     * _$\l(\gamma_0\ast\gamma_1\r)\ast\gamma_2\sim\gamma_0\ast\l(\gamma_1\ast\gamma_2\r)$._
