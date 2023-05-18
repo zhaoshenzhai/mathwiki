@@ -32,4 +32,4 @@ $$\begin{equation}
 
 ---
 
-_Proof_. Let $n\coloneqq\l[G:H\r]$ be the number of left-cosets of $H$ in $G$. Since the left-cosets of $H$ in $G$ partition $G$, we see that $G=\bigsqcup_{i=1}^ng_iH$. But every coset of $H$ has the same cardinality as $H$, so $\l|g_iH\r|=\ord{H}$ for all $i\in\l\{1,\dots,n\r\}$. Thus $\ord{G}=n\ord{H}=\l[G:H\r]\cdot\ord{H}$.<span style="float:right;">$\blacksquare$</span>
+_Proof_. Let $n\coloneqq\l[G:H\r]$ be the number of left-cosets of $H$ in $G$. Since the left-cosets of $H$ in $G$ partition $G$, we see that $G=\coprod_{i=1}^ng_iH$. But every coset of $H$ has the same cardinality as $H$, so $\l|g_iH\r|=\ord{H}$ for all $i\in\l\{1,\dots,n\r\}$. Thus $\ord{G}=n\ord{H}=\l[G:H\r]\cdot\ord{H}$.<span style="float:right;">$\blacksquare$</span>

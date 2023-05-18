@@ -1,10 +1,10 @@
 <div class="topSpace"></div>
 
 Date Created: 17/05/2023 20:22:08
-Tags: #Type/Definition #Topic/Algebraic_Topology
+Tags: #Type/Definition #Topic/Topology
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Fundamental group of the circle]]
 Constructions: [[Simply-connected Space]]
 Generalizations: _Not Applicable_
 

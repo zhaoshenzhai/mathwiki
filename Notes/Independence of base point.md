@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 17/05/2023 23:27:46
-Tags: #Type/Proposition #Topic/Algebraic_Topology
+Tags: #Type/Proposition #Topic/Topology
 
 Proved by: [[Basic properties of homotopies of paths]]
 References: _Not Applicable_
