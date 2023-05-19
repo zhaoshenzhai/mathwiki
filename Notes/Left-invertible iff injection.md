@@ -23,15 +23,7 @@ _Let $f:X\to Y$ with $X\neq\em$. Then $f$ is left-invertible iff $f$ is injectiv
 
 _Proof_. ($\Rightarrow$): Let $g:Y\to X$ be a left-inverse of $f$ and take any $x,x'\in X$ such that $f\l(x\r)=f\l(x'\r)$. Observe that
 $$\begin{equation}
-    \begin{alignedat}{2}
-        x&=\id_X\l(x\r)&&\textrm{Definition of the identity function}\\
-        &=\l(g\circ f\r)\l(x\r)&&g\textrm{ is a left-inverse of }f\\
-        &=g\l(f\l(x\r)\r)&&\textrm{Definition of composition of functions}\\
-        &=g\l(f\l(x'\r)\r)&&\textrm{Hypothesis}\\
-        &=\l(g\circ f\r)\l(x'\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of composition of functions}\\
-        &=\id_X\l(x'\r)&&g\textrm{ is a left-inverse of }f\\
-        &=x',&&\textrm{Definition of the identity function}
-    \end{alignedat}
+    x=\id_X\l(x\r)=\l(g\circ f\r)\l(x\r)=g\l(f\l(x\r)\r)=g\l(f\l(x'\r)\r)=\l(g\circ f\r)\l(x'\r)=\id_X\l(x'\r)=x',
 \end{equation}$$
 so $f$ is an injection.
 
