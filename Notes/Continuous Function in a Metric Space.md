@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Uniform Continuity]]
 Examples: [[Continuous Function in R]]
-Constructions: _Not Applicable_
+Constructions: [[Space of Continuous Functions]]
 Generalizations: [[Continuous Function]]
 
 Properties: _Not Applicable_

@@ -5,13 +5,13 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Homotopy of Paths]], [[Path-connected Space]]
+Constructions: [[Path-connected Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[Continuous functions is a sheaf]]
 
 ``` ad-Definition
 title: Definition.
@@ -32,4 +32,4 @@ $$\begin{equation}
         \gamma_1\l(2t-1\r) & \textrm{if}\ \ 1/2\leq t\leq1,
     \end{dcases}
 \end{equation}$$
-which is clearly continuous. The **inverse path of $\gamma_0$** is the path $\gamma_0^-$ defined by $\gamma_0^-\l(t\r)\coloneqq\gamma_0\l(1-t\r)$ for all $t\in\l[0,1\r]$.<span style="float:right;">$\blacklozenge$</span>
+which is continuous by glueing. The **inverse path of $\gamma_0$** is the path $\gamma_0^-$ defined by $\gamma_0^-\l(t\r)\coloneqq\gamma_0\l(1-t\r)$ for all $t\in\l[0,1\r]$.<span style="float:right;">$\blacklozenge$</span>
