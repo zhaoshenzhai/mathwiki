@@ -115,7 +115,7 @@ All images are centered and have a `15px` top and bottom [margin](https://github
 
 ![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/function.png)
 
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/linear_subspace.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/abelianization.png)
 
 ![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/upper_limit_strictly_finer_than_k.png)
 
