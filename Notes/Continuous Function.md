@@ -3,7 +3,7 @@
 Date Created: 24/11/2022 13:48:28
 Tags: #Type/Definition #Topic/Analysis
 
-Types: _Not Applicable_
+Types: [[Homotopy Equivalence]]
 Examples: [[Continuous Function in a Metric Space]], [[Path]]
 Constructions: [[Homotopy]], [[Lift]]
 Generalizations: _Not Applicable_

@@ -5,7 +5,7 @@ Tags: #Type/Definition #In_Progress
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Fundamental Group]]
+Constructions: [[Fundamental Group]], [[Homotopy Equivalence]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of homotopies of paths]]
