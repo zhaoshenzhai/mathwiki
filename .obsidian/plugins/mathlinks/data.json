@@ -215,6 +215,22 @@
       "globalMatch": true,
       "sensitive": true,
       "word": true
+    },
+    {
+      "title": "Bezout",
+      "replaced": "Bezout",
+      "replacement": "Bézout",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "title": "Category of Topological Spaces",
+      "replaced": "category of topological space",
+      "replacement": "$\\cattop$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
     }
   ],
   "excludedFilePaths": [

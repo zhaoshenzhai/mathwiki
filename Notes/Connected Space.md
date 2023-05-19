@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Intermediate Value Theorem]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Path-connected implies connected]]
 Equivalences: _Not Applicable_
 Justifications: _Not Applicable_
 

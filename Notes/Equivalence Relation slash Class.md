@@ -4,7 +4,7 @@ Date Created: 19/01/2022 17:48:10
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: _Not Applicable_
-Examples: [[Isomorphism of sets is an equivalence relation]], [[Isomorphism of objects is an equivalence relation]], [[Equinumerosity]], [[Orbit]]
+Examples: [[Isomorphism of sets is an equivalence relation]], [[Isomorphism of objects is an equivalence relation]], [[Equinumerosity]], [[Orbit]], [[Homotopy]]
 Constructions: [[Quotient Set]]
 Generalizations: _Not Applicable_
 

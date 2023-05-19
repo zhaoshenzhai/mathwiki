@@ -1,5 +1,5 @@
 ---
-mathLink: Bézout$\textrm{'}$s Identity
+mathLink: auto
 ---
 
 <div class="topSpace"></div>
