@@ -8,7 +8,7 @@ Examples: [[Fundamental group of the circle]]
 Constructions: [[Simply-connected Space]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Fundamental group respect products]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Basic properties of homotopies of paths]], [[Independence of base point]]
