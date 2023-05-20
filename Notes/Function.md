@@ -3,9 +3,9 @@
 Date Created: 14/01/2022 14:25:20
 Tags: #Type/Definition #Topic/Set_Theory
 
-Types: [[Injection]], [[Surjection]], [[Invertible Function]], [[n-ary Operation]], [[Group Homomorphism]], [[Ring Homomorphism]], [[Linear Map]], [[Module Homomorphism]]
-Examples: [[Functions in a Topological Space]]
-Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction slash Extension (Function)]], [[Composition (Function)]], [[Indexed Family]], [[Category of Sets]]
+Types: [[Injection]], [[Surjection]], [[Invertible Function]], [[n-ary Operation]], [[Group Homomorphism]], [[Ring Homomorphism]], [[Linear Map]], [[Module Homomorphism]], [[Continuous Function]], [[Bounded Function]], [[Contractive Function]], [[Riemann Integrable Function]], [[Monotone Function]]
+Examples: _Not Applicable_
+Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction slash Extension (Function)]], [[Composition (Function)]], [[Indexed Family]], [[Category of Sets]], [[Functional Limits]], [[Local slash Global Extrema]]
 Generalizations: [[Morphism (Category Theory)]], [[Class Function]]
 
 Properties: [[Collection of all functions is a proper class]]

@@ -29,8 +29,4 @@ $$\begin{equation}
 
 ---
 
-**Remark.** Observe that $\mc{B}\subseteq\mc{T}\l(\mc{B}\r)$; take $B\in\mc{B}$ and for all $x\in B$, the tautology
-$$\begin{equation}
-    \ex B\in\mc{B}:x\in B\land B\subseteq B
-\end{equation}$$
-implies that $B\in\mc{T}\l(\mc{B}\r)$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Observe that $\mc{B}\subseteq\mc{T}\l(\mc{B}\r)$; take $B\in\mc{B}$ and for all $x\in B$, the tautology $\ex B\in\mc{B}:x\in B\land B\subseteq B$ implies that $B\in\mc{T}\l(\mc{B}\r)$.<span style="float:right;">$\blacklozenge$</span>

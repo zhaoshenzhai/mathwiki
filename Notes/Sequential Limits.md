@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Analysis #Later/Topology
 
 Types: _Not Applicable_
 Examples: [[Sequential Limits in a Metric Space]]
-Constructions: _Not Applicable_
+Constructions: [[Sequentially Compact Space]]
 Generalizations: _Not Applicable_
 
 Properties: [[Subsequences converge to the same limit]]

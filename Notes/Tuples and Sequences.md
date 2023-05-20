@@ -3,9 +3,9 @@
 Date Created: 29/01/2022 11:31:28
 Tags: #Type/Definition #Later/Set_Theory
 
-Types: _Not Applicable_
-Examples: [[Sequences in a Topological Space]]
-Constructions: [[Subsequences]], [[Polynomial]]
+Types: [[Bounded Sequence]], [[Cauchy Sequence]], [[Contractive Sequence]], [[Monotone Sequence]]
+Examples: _Not Applicable_
+Constructions: [[Sequential Limits]], [[Subsequences]], [[Polynomial]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

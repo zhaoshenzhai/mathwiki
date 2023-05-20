@@ -8,15 +8,15 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Lattice of topologies is a complete lattice]], [[Criteria for fineness w.r.t. bases]]
+Properties: [[Criteria for fineness w.r.t. bases]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[Lattice of topologies is a complete lattice]]
 
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. The **lattice of topologies on $X$** is the pair $\tpl{\Sigma,\subseteq}$ where $\Sigma$ is the set of all topologies on $X$._
+_Let $X$ be a set. The **lattice of topologies on $X$** is the complete lattice $\tpl{\Sigma,\subseteq}$ where $\Sigma$ is the set of all topologies on $X$._
 
 ```
 

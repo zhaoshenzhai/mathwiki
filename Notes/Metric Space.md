@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Compact Metric Space]], [[Complete Metric Space]], [[Bounded Space]]
 Examples: _Not Applicable_
-Constructions: [[Epsilon-ball]], [[Diameter]], [[Sequences in a Metric Space]], [[Functions in a Metric Space]]
+Constructions: [[Epsilon-ball]], [[Diameter]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
