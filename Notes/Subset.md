@@ -5,7 +5,7 @@ Tags: #Type/Definition #Later/Set_Theory
 
 Types: _Not Applicable_
 Examples: _Not Applicable_ 
-Constructions: [[Lattice of Subsets]], [[Topological Subspace]]
+Constructions: [[Lattice of Subsets]]
 Generalizations: _Not Applicable_
 
 Properties: [[Subset relation is transitive]]

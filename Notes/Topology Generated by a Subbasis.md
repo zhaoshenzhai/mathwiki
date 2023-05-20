@@ -5,7 +5,7 @@ Tags: #Type/Definition #Later/Topology
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Topology on a Set]]
+Constructions: [[Topological Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
