@@ -4,7 +4,7 @@ Date Created: 20/05/2023 19:46:38
 Tags: #Type/Definition #Topic/Topology
 
 Types: _Not Applicable_
-Examples: _Not Applicable_
+Examples: [[Punctured space deformation retracts to a sphere]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
@@ -16,7 +16,10 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a topological space. A **deformation retraction** is a homotopy from $\id_X$ to a retraction $r$ on $X$._
-* _If $\id_X\htopeq r\rel\im r$, that is, the homotopy leaves $\im r$ invariant, then the deformation retraction is said to be **strong**._
+_Let $X$ be a topological space. A **deformation retraction** is a homotopy from $\id_X$ to a retraction $r:X\to X$._
+* _If the deformation retraction is relative to $\im r$, then it is said to be **strong**._
+* _A subspace $S\subseteq X$ is a **(strong) deformation retract of $X$** if there exists a (strong) deformation retraction $r$ with $\im r=S$._
 
 ```
+
+**Remark.** Equivalently, $S\subseteq X$ is a deformation retract of $X$ if there exists a continuous map $r:X\to S$ such that $r\circ\iota=\id_S$ and $\iota\circ r\htopeq\id_X$ where $\iota:S\to X$ is the inclusion. Thus deformation retracts of $X$ are homotopic equivalent to $X$.<span style="float:right;">$\blacklozenge$</span>

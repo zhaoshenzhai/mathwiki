@@ -3,7 +3,7 @@
 Date Created: 19/05/2023 15:21:00
 Tags: #Type/Definition #Topic/Topology
 
-Types: _Not Applicable_
+Types: [[Deformation Retraction]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
