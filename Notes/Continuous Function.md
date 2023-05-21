@@ -3,7 +3,7 @@
 Date Created: 24/11/2022 13:48:28
 Tags: #Type/Definition #Topic/Analysis
 
-Types: [[Retraction]], [[Homotopy Equivalence]]
+Types: [[Homeomorphism]], [[Homotopy Equivalence]], [[Retraction]]
 Examples: [[Continuous Function in a Metric Space]], [[Path]]
 Constructions: [[Homotopy]], [[Lift]], [[Mapping Cylinder]]
 Generalizations: _Not Applicable_
@@ -16,14 +16,7 @@ Justifications: [[Continuous iff continuous at each point]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\mc{T}_X}$ and $\tpl{Y,\mc{T}_Y}$ be topological spaces. A function $f:X\to Y$ is said to be **continuous w.r.t $\mc{T}_X$ and $\mc{T}_Y$** if preimages of open sets are open; that is, if_
-$$\begin{equation}
-    \fa V\in\mc{T}_Y:\preim_f\l(V\r)\in\mc{T}_X.
-\end{equation}$$
-_In particular, for all fixed $p\in X$, we say that $f$ is **continuous at $p$ w.r.t. $\mc{T}_X$ and $\mc{T}_Y$** if_
-$$\begin{equation}
-    \fa V\in\mc{U}_{f\l(p\r)},\ex U\in\mc{U}_p:\im_f\!\l(U\r)\subseteq V,
-\end{equation}$$
-_where_ $\mc{U}_{f\l(p\r)}$ _and_ $\mc{U}_p$ _are the set of all neighborhoods of $f\l(p\r)$ and $p$, respectively._
+_Let $X$ and $Y$ be topological spaces. A function $f:X\to Y$ is said to be **continuous** if preimages of open sets are open; that is, if for all open sets $V\subseteq Y$, the preimage $f^{-1}\!\l(V\r)$ is open in $X$._
+* _For all fixed $p\in X$, we say that $f$ is **continuous at $p$** if for every neighborhood $V$ of $f\l(p\r)$, there exists a neighborhood $U$ of $p$ such that $f\l(U\r)\subseteq V$._
 
 ```

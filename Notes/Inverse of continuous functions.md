@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/02/2023 10:10:17
-Tags: #Type/Proposition #Topic/Analysis
+Tags: #Type/Proposition #Topic/Topology
 
 Proved by: [[Closed subset of compact set is compact]], [[Extreme Value Theorem]], [[Compact implies closed (Hausdorff)]]
 References: _Not Applicable_
@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\mc{T}_X}$ and $\tpl{Y,\mc{T}_Y}$ be Hausdorff spaces and consider an invertible continuous function $f:X\to Y$. If $X$ is compact, then $f^{-1}:Y\to X$ is also continuous._
+_Let $X$ and $Y$ be Hausdorff spaces and consider an invertible continuous function $f:X\to Y$. If $X$ is compact, then $f^{-1}:Y\to X$ is also continuous._
 
 ```
 
