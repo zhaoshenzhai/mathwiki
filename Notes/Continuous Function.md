@@ -3,9 +3,9 @@
 Date Created: 24/11/2022 13:48:28
 Tags: #Type/Definition #Topic/Analysis
 
-Types: [[Homotopy Equivalence]]
+Types: [[Retraction]], [[Homotopy Equivalence]]
 Examples: [[Continuous Function in a Metric Space]], [[Path]]
-Constructions: [[Homotopy]], [[Lift]]
+Constructions: [[Homotopy]], [[Lift]], [[Mapping Cylinder]]
 Generalizations: _Not Applicable_
 
 Properties: [[Extreme Value Theorem]], [[Intermediate Value Theorem]], [[Inverse of continuous functions]], [[Composition of continuous functions are continuous]]

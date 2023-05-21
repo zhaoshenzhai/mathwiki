@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 19/05/2023 13:01:16
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Topology
 
-Types: _Not Applicable_
+Types: [[Deformation Retraction]]
 Examples: _Not Applicable_
 Constructions: [[Fundamental Group]], [[Homotopy Equivalence]]
 Generalizations: _Not Applicable_
