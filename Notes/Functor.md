@@ -4,7 +4,7 @@ Date Created: 06/03/2022 15:11:37
 Tags: #Type/Definition #Later/Category_Theory
 
 Types: [[Left-invertible Functor]], [[Right-invertible Functor]], [[Diagram]]
-Examples: [[Identity Functor]], [[Inclusion Functor]], [[Constant Functor]], [[Covariant Power Set Functor]]
+Examples: [[Path Components]], [[Fundamental Group]], [[Identity Functor]], [[Inclusion Functor]], [[Constant Functor]], [[Covariant Power Set Functor]]
 Constructions: [[Natural Transformation]], [[Comma Category]], [[Composition (Functor)]]
 Generalizations: _Not Applicable_
 
