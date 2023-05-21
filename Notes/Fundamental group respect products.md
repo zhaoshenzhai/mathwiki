@@ -1,5 +1,5 @@
 ---
-mathLink: $\pi_1\l(X\times Y\r)\iso\pi_1\l(X\r)\times\pi_1\l(Y\r)$
+mathLink: $\pi_1\!\l(X\times Y\r)\iso\pi_1\!\l(X\r)\times\pi_1\!\l(Y\r)$
 ---
 
 <div class="topSpace"></div>
@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ and $Y$ be path-connected topological spaces. Then $\pi_1\l(X\times Y\r)\iso\pi_1\l(X\r)\times\pi_1\l(Y\r)$._
+_Let $X$ and $Y$ be path-connected topological spaces. Then $\pi_1\!\l(X\times Y\r)\iso\pi_1\!\l(X\r)\times\pi_1\!\l(Y\r)$._
 
 ```
 

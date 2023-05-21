@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A topological space $X$ is said to be **simply-connected** if it is path-connected and $\pi_1\l(X\r)=0$._
+_A topological space $X$ is said to be **simply-connected** if it is path-connected and $\pi_1\!\l(X\r)=0$._
 
 ```

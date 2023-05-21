@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: [[Complex Conjugate]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Fundamental Theorem of Algebra]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Ideal is maximal iff quotient is a field]], [[Irreducible polynomial iff ideal maximal]]

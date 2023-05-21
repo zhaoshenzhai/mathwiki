@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Polynomial has at most degree-many roots]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: [[Fundamental Theorem of Algebra]]
 Equivalences: [[Root iff factor]]
 Justifications: _Not Applicable_
 

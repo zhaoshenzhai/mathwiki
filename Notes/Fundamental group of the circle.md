@@ -1,5 +1,5 @@
 ---
-mathLink: $\pi_1\l(S^1\r)\iso\Z$
+mathLink: $\pi_1\!\l(S^1\r)\iso\Z$
 ---
 
 <div class="topSpace"></div>
