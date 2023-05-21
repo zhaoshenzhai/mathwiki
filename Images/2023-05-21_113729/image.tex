@@ -1,0 +1,15 @@
+\documentclass{article}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\makeatletter\AtBeginDocument{\color{textColor}\global\let\default@color\current@color}\makeatletter
+
+\begin{document}
+    \begin{equation*}
+        \begin{tikzcd}
+            \pi_1\l(X,x_0\r) \ar[r, "f_{1\ast}"] \ar[dr, "f_{0\ast}"'] & \pi_1\l(Y,f_1\!\l(x_0\r)\r) \ar[d, "\beta_\sigma"] \\
+                                                                       & \pi_1\l(Y,f_0\!\l(x_0\r)\r)
+        \end{tikzcd}
+    \end{equation*}
+\end{document}

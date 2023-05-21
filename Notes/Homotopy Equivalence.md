@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Justifications: [[Basic properties of fundamental group]]
 
 ``` ad-Definition
 title: Definition.
@@ -21,3 +21,6 @@ _Let $X$ and $Y$ be topological spaces. A continuous map $f:X\to Y$ is a **homot
 * _If $X$ is homotopic to a point, we say that $X$ is **contractible**._
 
 ```
+
+**Remark.** If $X$ and $Y$ are path-connected and are homotopy equivalent, then $\pi_1\l(X,x_0\r)\iso\pi_1\l(Y,y_0\r)$ for every $x_0\in X$ and $y_0\in Y$.
+* In particular, if $X$ is contractible, then $\pi_1\l(X,x_0\r)$ vanishes for all $x_0\in X$.<span style="float:right;">$\blacklozenge$</span>
