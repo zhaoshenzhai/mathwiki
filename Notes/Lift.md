@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: [[Covering maps are fibrations]]
-Equivalences: _Not Applicable_
+Equivalences: [[Lifting Criterion]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
