@@ -9,7 +9,7 @@ Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
 Properties: [[Intermediate Value Theorem]], [[Connected implies well-defined number of sheets]]
-Sufficiencies: [[Path-connected implies connected]]
+Sufficiencies: _Not Applicable_
 Equivalences: [[Connected iff only empty and entire set is clopen]]
 Justifications: _Not Applicable_
 
