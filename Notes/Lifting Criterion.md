@@ -3,7 +3,7 @@
 Date Created: 22/05/2023 23:14:21
 Tags: #Type/Theorem #Topic/Topology
 
-Proved by: [[Covering maps are fibrations]], [[Basic properties of covering maps]]
+Proved by: [[Covering Homotopy Theorem]], [[Basic properties of covering maps]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

@@ -7,7 +7,7 @@ mathLink: $\pi_1\!\l(S^1\r)\iso\Z$
 Date Created: 18/05/2023 14:02:12
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Simply-connected iff homotopic paths]], [[Covering maps are fibrations]]
+Proved by: [[Simply-connected iff homotopic paths]], [[Covering Homotopy Theorem]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

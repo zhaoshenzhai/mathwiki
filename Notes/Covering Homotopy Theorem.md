@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 18/05/2023 14:50:14
-Tags: #Type/Proposition #Topic/Topology
+Tags: #Type/Theorem #Topic/Topology
 
 Proved by: [[Continuous functions is a sheaf]], [[Intermediate Value Theorem]]
 References: _Not Applicable_
@@ -10,8 +10,8 @@ Justifications: _Not Applicable_
 Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
-``` ad-Proposition
-title: Proposition.
+``` ad-Theorem
+title: Theorem (Covering Homotopy Theorem).
 
 _Let $X$ be a topological space. Then every covering map $p:\widetilde{X}\to X$ is a fibration. More specifically, for any topological space $Y$, any homotopy $F:Y\times I\to X$, and any continuous map $\widetilde{f}_0:Y\times\l\{0\r\}\to\widetilde{X}$ lifting_ $f_0\coloneqq\l.F\r|_{Y\times\l\{0\r\}}$_, there exists a unique homotopy $\widetilde{F}:Y\times I\to\widetilde{X}$ lifting $F$ such that_ $\widetilde{f}_0=\l.\widetilde{F}\r|_{Y\times\l\{0\r\}}$_._
 ![[Images/2023-05-22_132245/image.svg|150]]

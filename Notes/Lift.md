@@ -8,8 +8,8 @@ Examples: _Not Applicable_
 Constructions: [[Fibration]]
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
-Sufficiencies: [[Covering maps are fibrations]]
+Properties: [[Unique Lifting Property]]
+Sufficiencies: [[Covering Homotopy Theorem]]
 Equivalences: [[Lifting Criterion]]
 Justifications: _Not Applicable_
 

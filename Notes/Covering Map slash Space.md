@@ -12,7 +12,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: [[Covering maps are fibrations]], [[Basic properties of covering maps]]
+Properties: [[Covering Homotopy Theorem]], [[Basic properties of covering maps]]
 Sufficiencies: _Not Applicable_
 Equivalences: _Not Applicable_
 Justifications: [[Connected implies well-defined number of sheets]]
