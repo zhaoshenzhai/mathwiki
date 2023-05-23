@@ -21,7 +21,3 @@ _Let $p:E\to B$ be a continuous map. For a topological space $X$, we say that $\
 * _If $p$ has this property for all topological spaces $X$, then $p$ is said to be a **fibration**._
 
 ```
-
-**Remark.** Under obvious identifications, we obtain some special cases.
-* If $X$ is a point, then for each path $\gamma:I\to B$ starting at some point $x_0\in B$ and each $\tilde{x}_0\in p^{-1}\!\l(x_0\r)$, there exists a lift $\tilde{\gamma}:I\to E$ starting at $\tilde{x}_0$.
-* If $X=I$, then for each homotopy $H:I\times I\to B$ of paths starting at some path $\gamma_0:I\to B$ and every lift $\tilde{\gamma}_0:I\to E$ of $\gamma_0$, there exists a homotopy $\tilde{H}:I\times I\to E$ lifting $H$.<span style="float:right;">$\blacklozenge$</span>
