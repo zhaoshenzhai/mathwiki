@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $p:E\to B$ be a continuous map. For a topological space $X$, we say that $\tpl{X,p}$ has the **homotopy lifting property** if for any homotopy $F:X\times I\to B$ and any continuous map $\tilde{f}_0:X\times\l\{0\r\}\to E$ lifting_ $f_0\coloneqq\l.F\r|_{X\times\l\{0\r\}}$_, there exists a homotopy $\tilde{F}:X\times I\to E$ lifting $F$ such that_ $\tilde{f}_0=\l.\tilde{F}\r|_{X\times\l\{0\r\}}$_._
+_Let $p:E\to B$ be a continuous map. For a topological space $X$, we say that $\tpl{X,p}$ has the **homotopy lifting property** if for any homotopy $F:X\times I\to B$ and any continuous map $\widetilde{f}_0:X\times\l\{0\r\}\to E$ lifting_ $f_0\coloneqq\l.F\r|_{X\times\l\{0\r\}}$_, there exists a homotopy $\widetilde{F}:X\times I\to E$ lifting $F$ such that_ $\widetilde{f}_0=\l.\widetilde{F}\r|_{X\times\l\{0\r\}}$_._
 ![[Images/2023-05-18_172053/image.svg|150]]
 * _If $p$ has this property for all topological spaces $X$, then $p$ is said to be a **fibration**._
 

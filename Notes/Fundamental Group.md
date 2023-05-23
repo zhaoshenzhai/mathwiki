@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: _Not Applicable_
 Examples: [[Fundamental group of the circle]]
-Constructions: [[Simply-connected Space]]
+Constructions: [[Simply-connected Space]], [[Lifting Criterion]]
 Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of fundamental group]]

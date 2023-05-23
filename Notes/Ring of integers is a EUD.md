@@ -21,7 +21,7 @@ _Let $a,b\in\Z$ with $b\neq0$. Then there exist unique integers $q,r\in\Z$ with 
 
 ```
 
-_Proof_. We shall first prove the statement for when $b>0$, for then if $b<0$, the Division Algorithm with $a$ and $-b$ furnishes unique integers $\tilde{q},\tilde{r}\in\Z$ with $0\leq\tilde{r}<-b$ such that $a=\tilde{q}\l(-b\r)+\tilde{r}$. Setting $q\coloneqq-\tilde{q}$ and $r\coloneqq\tilde{r}$ gives the desired result.
+_Proof_. We shall first prove the statement for when $b>0$, for then if $b<0$, the Division Algorithm with $a$ and $-b$ furnishes unique integers $\widetilde{q},\widetilde{r}\in\Z$ with $0\leq\widetilde{r}<-b$ such that $a=\widetilde{q}\l(-b\r)+\widetilde{r}$. Setting $q\coloneqq-\widetilde{q}$ and $r\coloneqq\widetilde{r}$ gives the desired result.
 
 Assume now that $b>0$.
 * (Existence): Consider the set $S\coloneqq\l\{r\in\N\mid\ex k\in\Z:r=a-kb\r\}$. Since

@@ -24,7 +24,7 @@ _Let $f:X\to Y$ and fix $S\subseteq X$. The **restriction of $f$ to $S$** is the
 $$\begin{equation}
     \l.f\r|_S:S\to Y\ \ \ \ \textrm{\it{mapping}}\ \ \ \ x\mapsto f\l(x\r)
 \end{equation}$$
-_for all $x\in S$. Moreover, for all $\tilde{X}\supseteq X$, a function $\tilde{f}:\tilde{X}\to Y$ is an **extension of $f$ to $\tilde{X}$** if $\l.\tilde{f}\r|_X=f$._
+_for all $x\in S$. Moreover, for all $\widetilde{X}\supseteq X$, a function $\widetilde{f}:\widetilde{X}\to Y$ is an **extension of $f$ to $\widetilde{X}$** if $\l.\widetilde{f}\r|_X=f$._
 
 ```
 

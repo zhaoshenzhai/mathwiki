@@ -25,7 +25,7 @@ _Proof_. We first verify that $\rfcl R$ is indeed a binary relation. To this end
 * If $u\in R$, then, since $R$ is a binary relation $X$, we see that $\ex x_1,x_2\in X:u=\tpl{x_1,x_2}$.
 * If $u\in\id_X$, then, by definition of the identity function, we see that $\ex x\in X:u=\tpl{x,x}$.
 
-To show that $\rfcl R$ is reflexive, that $x\in X$ and observe that $\tpl{x,x}\in\id_X\subseteq\,\prec\cup\id_X=\rfcl\prec\,=\,\preceq$. Finally, let $\tilde{R}$ be any reflexive binary relation containing $R$, so $R\subseteq\tilde{R}$ and $\id_X\subseteq\tilde{R}$. It follows that
+To show that $\rfcl R$ is reflexive, that $x\in X$ and observe that $\tpl{x,x}\in\id_X\subseteq\,\prec\cup\id_X=\rfcl\prec\,=\,\preceq$. Finally, let $\widetilde{R}$ be any reflexive binary relation containing $R$, so $R\subseteq\widetilde{R}$ and $\id_X\subseteq\widetilde{R}$. It follows that
 $$\begin{equation}
-    \rfcl R=R\cup\id_X\subseteq\tilde{R}\cup\tilde{R}=\tilde{R}.\qedin
+    \rfcl R=R\cup\id_X\subseteq\widetilde{R}\cup\widetilde{R}=\widetilde{R}.\qedin
 \end{equation}$$
