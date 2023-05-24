@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/05/2023 21:55:54
-Tags: #Type/Proposition #In_Progress
+Tags: #Type/Proposition #Topic/Topology
 
 Proved by: [[Basic properties of covering maps]]
 References: _Not Applicable_

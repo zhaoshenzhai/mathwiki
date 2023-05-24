@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Covering Homotopy Theorem]], [[Basic properties of covering maps]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Galois Correspondence of Covering Spaces]]
 Justifications: [[Connected implies well-defined number of sheets]]
 
 ``` ad-Definition
