@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 18/05/2023 00:45:42
 Tags: #Type/Definition #Topic/Topology
 
-Types: _Not Applicable_
+Types: [[Universal Cover]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
