@@ -23,5 +23,6 @@
   "readableLineLength": false,
   "promptDelete": false,
   "showInlineTitle": false,
-  "foldIndent": true
+  "foldIndent": true,
+  "spellcheck": false
 }

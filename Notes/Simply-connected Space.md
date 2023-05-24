@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [[Simply-connected iff homotopic paths]]
+Equivalences: [[Simply-connected iff homotopic paths]], [[Existence of universal covers]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
