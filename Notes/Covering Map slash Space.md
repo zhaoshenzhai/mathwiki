@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: [[Universal Cover]]
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Covering Map Isomorphism]]
 Generalizations: _Not Applicable_
 
 Properties: [[Covering Homotopy Theorem]], [[Basic properties of covering maps]]

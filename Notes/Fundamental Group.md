@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: [[Basic properties of fundamental group]]
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Galois Correspondence of Covering Spaces]]
 Justifications: [[Basic properties of homotopies of paths]]
 
 ``` ad-Definition
