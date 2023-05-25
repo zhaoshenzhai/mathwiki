@@ -11,7 +11,7 @@ Generalizations: _Not Applicable_
 Properties: [[Basic properties of fundamental group]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Galois Correspondence of Covering Spaces]]
-Justifications: [[Basic properties of homotopies of paths]]
+Justifications: [[Basic properties of homotopies of paths]], [[Independence of base point]]
 
 ``` ad-Definition
 title: Definition.

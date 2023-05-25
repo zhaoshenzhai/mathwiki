@@ -1,0 +1,15 @@
+\documentclass{article}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\makeatletter\AtBeginDocument{\color{textColor}\global\let\default@color\current@color}\makeatletter
+
+\begin{document}
+    \begin{equation*}
+        \begin{tikzcd}[column sep = 1cm, row sep = 1cm]
+            \pi_1\,(\widetilde{X},\widetilde{x}) \ar[r, "\beta_{\widetilde{\sigma}}"] \ar[d, "p_\ast"'] & \pi_1\,(\widetilde{X},\widetilde{x}') \ar[d, "p_\ast"] \\
+            \pi_1\l(X,x_0\r) \ar[r, "\beta_\sigma"] & \pi_1\l(X,x_0\r)
+        \end{tikzcd}
+    \end{equation*}
+\end{document}
