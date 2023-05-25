@@ -20,8 +20,4 @@ _Let $p:\widetilde{X}\to X$ be covering of a topological space $X$. The **coveri
 
 ```
 
-**Remark.**  By the Unique Lifting Property, we see that if $\widetilde{X}$ is connected, then a covering transformation is determined by where it sends a single point. In other words, only the identity map fixes a point.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-**Remark.** Covering transformations are also called **deck transformations**. We sometimes write $\Cov\l(p\r)$ for $\Cov\,(\widetilde{X}/X)$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.**  By the Unique Lifting Property, we see that a covering transformation is determined by where it sends a single point. In other words, only the identity map fixes a point. Covering transformations are also called **deck transformations**. We sometimes write $\Cov\l(p\r)$ for $\Cov\,(\widetilde{X}/X)$.<span style="float:right;">$\blacklozenge$</span>

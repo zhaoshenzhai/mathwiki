@@ -13,15 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,x_0}$ be a pointed topological space. For all $x_1\in X$, if there is a path $\sigma$ from $x_0$ to $x_1$, then $\pi_1\l(X,x_0\r)\iso\pi_1\l(X,x_1\r)$. Moreover, if $p:\widetilde{X}\to X$ is a path-connected covering of $X$, then we have the following properties._
+_Let $\tpl{X,x_0}$ be a path-connected pointed space. Then $\pi_1\l(X,x_0\r)\iso\pi_1\l(X,x_1\r)$ for all $x_1\in X$. Moreover, if $p:\widetilde{X}\to X$ is a covering of $X$, we have the following properties._
 * _For all $\widetilde{x},\widetilde{x}'\in p^{-1}\!\l(x_0\r)$, the subgroups_ $p_\ast\pi_1\,(\widetilde{X},\widetilde{x})$ _and_ $p_\ast\pi_1\,(\widetilde{X},\widetilde{x}')$ _are conjugate._
 * _If $H\subgrpeq\pi_1\l(X,x_0\r)$ is conjugate to_ $p_\ast\pi_1\,(\widetilde{X},\widetilde{x})$ _for some $\widetilde{x}\in p^{-1}\!\l(x_0\r)$, then_ $H=p_\ast\pi_1\,(\widetilde{X},\widetilde{x}')$ _for some_ $\widetilde{x}'\in p^{-1}\!\l(x_0\r)$_._
 
 ```
-
-**Remark.** In particular, if $X$ is path-connected, then $\pi_1\l(X\r)\coloneqq\pi_1\l(X,x_0\r)$ is independent of the basepoint.<span style="float:right;">$\blacklozenge$</span>
-
----
 
 _Proof_. Consider the map $\beta_\sigma:\pi_1\l(X,x_0\r)\to\pi_1\l(X,x_1\r)$ mapping $\l[\gamma\r]\mapsto\l[\sigma^-\ast\gamma\ast\sigma\r]$, which is well-defined. To see that $\beta_\sigma$ is a homomorphism, let $\gamma_0$ and $\gamma_1$ be loops at $x_0$ and compute
 $$\begin{equation}
