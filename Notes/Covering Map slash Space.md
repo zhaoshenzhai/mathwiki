@@ -7,9 +7,9 @@ mathLink: auto
 Date Created: 18/05/2023 00:45:42
 Tags: #Type/Definition #Topic/Topology
 
-Types: [[Universal Cover]]
+Types: [[Universal Cover]], [[Normal Cover]]
 Examples: _Not Applicable_
-Constructions: [[Covering Map Isomorphism]]
+Constructions: [[Covering Map Isomorphism]], [[Category of Covering Maps]]
 Generalizations: _Not Applicable_
 
 Properties: [[Covering Homotopy Theorem]], [[Basic properties of covering maps]]

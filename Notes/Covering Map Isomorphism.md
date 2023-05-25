@@ -3,7 +3,7 @@
 Date Created: 24/05/2023 15:21:28
 Tags: #Type/Definition #Topic/Topology
 
-Types: _Not Applicable_
+Types: [[Covering Transformation]]
 Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
@@ -21,4 +21,4 @@ _Let $p_i:\widetilde{X}_i\to X$ be covering spaces of a topological space $X$ fo
 
 ```
 
-**Remark.** That is, covering space isomorphisms are isomorphism in $\catcov$. Since $\textrm{`}$is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $(\widetilde{X}_1,p_1)\iso(\widetilde{X}_2,p_2)$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** That is, covering space isomorphisms are isomorphisms in $\catcov$. Since $\textrm{`}$is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $(\widetilde{X}_1,p_1)\iso(\widetilde{X}_2,p_2)$.<span style="float:right;">$\blacklozenge$</span>
