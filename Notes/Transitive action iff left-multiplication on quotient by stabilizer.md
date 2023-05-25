@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G$ be a group, let $X$ be a set, and fix $x\in X$. Then every transitive left-action on a set $X$ is equivariant to the left-multiplication action on $G/G_x$._
+_Let $G$ be a group, let $X$ be a set, and fix $x\in X$. Then every transitive left-action on a set $X$ is $G$-isomorphic to the left-multiplication action on $G/G_x$._
 
 ```
 
