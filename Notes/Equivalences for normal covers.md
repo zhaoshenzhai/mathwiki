@@ -3,7 +3,7 @@
 Date Created: 25/05/2023 18:30:27
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Independence of base point]], [[Characterization of equivalent covering maps]], [[Basic properties of covering maps]], [[Basic properties of stabilizers]]
+Proved by: [[Independence of base point]], [[Characterization of equivalent covering maps]], [[Basic properties of covering maps]], [[Basic properties of stabilizers and transitive actions]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

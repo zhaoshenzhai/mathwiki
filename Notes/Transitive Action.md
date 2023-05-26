@@ -8,7 +8,7 @@ Examples: _Not Applicable_
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 
-Properties: _Not Applicable_
+Properties: [[Basic properties of stabilizers and transitive actions]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Transitive action iff left-multiplication on quotient by stabilizer]]
 Justifications: _Not Applicable_

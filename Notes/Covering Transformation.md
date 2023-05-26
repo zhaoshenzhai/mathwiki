@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Isomorphisms of covering maps]]
 Justifications: [[Unique Lifting Property]]
 
 ``` ad-Definition
