@@ -5,7 +5,7 @@ Tags: #Type/Definition #Later/Topology
 
 Types: [[Compact Space]], [[Sequentially Compact Space]], [[Limit-point Compact Space]], [[Connected Space]]
 Examples: [[Order Space (Topology)]], [[Trivial Topology]], [[Discrete Topology]], [[Cofinite Topology]], [[Cocountable Topology]]
-Constructions: [[Open Set]], [[Lattice of Topologies]], [[Product Space (Topology)]], [[Topological Subspace]], [[Sequential Limits]], [[Functional Limits]], [[Covering Map slash Space]]
+Constructions: [[Open Set]], [[Lattice of Topologies]], [[Product Space (Topology)]], [[Topological Subspace]], [[Sequential Limits]], [[Functional Limits]], [[Covering Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

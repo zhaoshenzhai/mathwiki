@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Constructions: [[Universal Cover]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

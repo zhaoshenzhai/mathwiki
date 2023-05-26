@@ -3,7 +3,7 @@
 Date Created: 22/05/2023 23:14:21
 Tags: #Type/Theorem #Topic/Topology
 
-Proved by: [[Unique Lifting Property]], [[Basic properties of path-connectedness]], [[Covering Homotopy Theorem]], [[Basic properties of covering maps]]
+Proved by: [[Unique Lifting Property]], [[Basic properties of path-connectedness]], [[Covering Homotopy Theorem]], [[Basic properties of covering spaces]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

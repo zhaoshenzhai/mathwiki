@@ -9,10 +9,10 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: [[Universal Cover]], [[Normal Cover]]
 Examples: _Not Applicable_
-Constructions: [[Covering Map Isomorphism]], [[Category of Covering Maps]]
+Constructions: [[Covering Space Isomorphism]], [[Category of Covering Maps]]
 Generalizations: _Not Applicable_
 
-Properties: [[Covering Homotopy Theorem]], [[Basic properties of covering maps]]
+Properties: [[Covering Homotopy Theorem]], [[Basic properties of covering spaces]]
 Sufficiencies: _Not Applicable_
 Equivalences: [[Galois Correspondence of Covering Spaces]]
 Justifications: [[Connected implies well-defined number of sheets]]

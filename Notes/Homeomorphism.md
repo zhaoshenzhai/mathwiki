@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: _Not Applicable_
 Examples: _Not Applicable_
-Constructions: [[Covering Map slash Space]]
+Constructions: [[Covering Space]]
 Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_

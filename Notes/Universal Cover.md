@@ -16,9 +16,9 @@ Justifications: [[Lifting Criterion]]
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a connected locally path-connected space. A **universal cover of $X$** is a cover $p:\widetilde{X}\to X$ such that for every cover $q:E\to X$, there exists a unique continuous map $\sigma:\widetilde{X}\to E$ making the diagram below commute._
-![[Images/2023-05-23_213854/image.svg|125]]
+_Let $X$ be a locally path-connected space. A **universal cover of $X$** is a simply-connected cover $p:\widetilde{X}\to X$._
 
 ```
 
-**Remark.** If $\widetilde{X}$ is simply-connected and locally path-connected, then the Lifting Criterion shows that $p:\widetilde{X}\to X$ is a universal cover of $X$. Conversely, it can be shown that any universal covering of a connected, locally path-connected, and semilocally simply-connected space is simply-connected.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Since $\widetilde{X}$ is simply-connected, the Lifting Criterion shows that for every other cover $q:E\to X$, there exists a unique continuous map $\sigma:\widetilde{X}\to E$ that lifts $p$.
+![[Images/2023-05-23_213854/image.svg|125]] This justifies the name $\textrm{`}$universal cover$\textrm{'}$, and as with all universal objects, it is unique up to isomorphism.<span style="float:right;">$\blacklozenge$</span>

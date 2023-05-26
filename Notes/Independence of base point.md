@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,x_0}$ be a path-connected pointed space. Then $\pi_1\l(X,x_0\r)\iso\pi_1\l(X,x_1\r)$ for all $x_1\in X$. Moreover, if $p:\widetilde{X}\to X$ is a covering of $X$, we have the following properties._
+_Let $X$ be a path-connected space. Then $\pi_1\l(X,x_0\r)\iso\pi_1\l(X,x_1\r)$ for all $x_0,x_1\in X$. Moreover, if $p:\widetilde{X}\to X$ is a covering of $X$ and $x_0\in X$, we have the following properties._
 * _For all $\widetilde{x},\widetilde{x}'\in p^{-1}\!\l(x_0\r)$, the subgroups_ $p_\ast\pi_1\,(\widetilde{X},\widetilde{x})$ _and_ $p_\ast\pi_1\,(\widetilde{X},\widetilde{x}')$ _are conjugate._
 * _If $H\subgrpeq\pi_1\l(X,x_0\r)$ is conjugate to_ $p_\ast\pi_1\,(\widetilde{X},\widetilde{x})$ _for some $\widetilde{x}\in p^{-1}\!\l(x_0\r)$, then_ $H=p_\ast\pi_1\,(\widetilde{X},\widetilde{x}')$ _for some_ $\widetilde{x}'\in p^{-1}\!\l(x_0\r)$_._
 

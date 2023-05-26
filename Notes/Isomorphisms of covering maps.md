@@ -3,7 +3,7 @@
 Date Created: 25/05/2023 21:49:31
 Tags: #Type/Theorem #In_Progress
 
-Proved by: [[Covering Homotopy Theorem]], [[Basic properties of covering maps]], [[Basic properties of stabilizers and transitive actions]], [[Characterizations of normal covers]]
+Proved by: [[Covering Homotopy Theorem]], [[Basic properties of covering spaces]], [[Basic properties of stabilizers and transitive actions]], [[Characterizations of normal covers]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 

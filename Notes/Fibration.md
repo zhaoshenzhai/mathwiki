@@ -4,7 +4,7 @@ Date Created: 18/05/2023 15:08:53
 Tags: #Type/Definition #Topic/Topology
 
 Types: _Not Applicable_
-Examples: [[Covering Map slash Space]]
+Examples: [[Covering Space]]
 Constructions: _Not Applicable_
 Generalizations: _Not Applicable_
 

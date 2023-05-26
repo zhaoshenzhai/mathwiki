@@ -3,7 +3,7 @@
 Date Created: 24/05/2023 14:06:39
 Tags: #Type/Theorem #Topic/Topology
 
-Proved by: [[Existence of universal covers]], [[Basic properties of covering maps]], [[Characterizations of equivalent covering maps]]
+Proved by: [[Existence of universal covers]], [[Basic properties of covering spaces]], [[Characterizations of equivalent covering maps]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
