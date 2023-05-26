@@ -10,13 +10,13 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Equivalences: [[Equivalences for normal covers]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
 
-_A covering map $p:\widetilde{X}\to X$ of a topological space $X$ is said to be **normal** if for each $x\in X$ and $\widetilde{x},\widetilde{x}'\in p^{-1}\!\l(x\r)$, there is a covering transformation taking $\widetilde{x}\mapsto\widetilde{x}'$._
+_A covering map $p:\widetilde{X}\to X$ of a topological space $X$ is said to be **normal** if $\Cov\,(\widetilde{X}/X)$ acts transitively on every fiber $p^{-1}\!\l(x\r)$._
 
 ```
 
