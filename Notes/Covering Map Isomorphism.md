@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [[Characterization of equivalent covering maps]]
+Equivalences: [[Characterizations of equivalent covering maps]]
 Justifications: [[Isomorphism of objects is an equivalence relation]]
 
 ``` ad-Definition

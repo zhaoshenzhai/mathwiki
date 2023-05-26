@@ -3,7 +3,7 @@
 Date Created: 04/02/2023 21:16:35
 Tags: #Type/Theorem #Topic/Analysis
 
-Proved by: [[Bolzano-Weierstrass Theorem]], [[Sequential characterization of closed sets (metric)]], [[Characterizations of Compactness in Metric Spaces]]
+Proved by: [[Bolzano-Weierstrass Theorem]], [[Sequential characterization of closed sets (metric)]], [[Characterizations of compactness (metric space)]]
 References: [[Compact implies closed (Hausdorff)]], [[Compact implies bounded]]
 Justifications: _Not Applicable_
 

@@ -10,7 +10,7 @@ Generalizations: _Not Applicable_
 
 Properties: _Not Applicable_
 Sufficiencies: _Not Applicable_
-Equivalences: [[Equivalences for projections]]
+Equivalences: [[Characterizations of projections]]
 Justifications: [[Diagonalization Test]]
 
 ``` ad-Definition

@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 08/03/2023 12:42:15
 Tags: #Type/Proposition #Topic/Analysis
 
-Proved by: [[Characterizations of Compactness in Metric Spaces]]
+Proved by: [[Characterizations of compactness (metric space)]]
 References: _Not Applicable_
 Justifications: _Not Applicable_
 
