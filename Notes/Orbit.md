@@ -20,4 +20,4 @@ _Let $G$ be a group acting on a set $X$. The **orbit of $x$ under $G$** is the s
 
 ```
 
-**Remark.** Orbits induce a canonical equivalence relation on $X$ by defining $x\sim y$ iff $y=gx$ for some $g\in G$, which makes them the equivalence classes under this relation. Thus the orbits $Gx$ are elements in the quotient set $G/\!\sim$, so we have a partition $X=\coprod_{i\in I}Gx_i$ of $X$ into its $\textrm{`}$connected components$\textrm{'}$. Within any one $Gx_i$, the restricted action is transitive.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Orbits induce a canonical equivalence relation on $X$ by defining $x\sim y$ iff $y=gx$ for some $g\in G$, which makes them the equivalence classes under this relation. Thus the orbits $Gx$ are elements in the quotient set $X/G\coloneqq X/\!\sim$, called the **orbit space**, so we have a partition $X=\coprod_{i\in I}Gx_i$ of $X$ into its $\textrm{`}$connected components$\textrm{'}$. Within any one $Gx_i$, the restricted action is transitive.<span style="float:right;">$\blacklozenge$</span>

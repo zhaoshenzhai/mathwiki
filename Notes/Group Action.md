@@ -20,7 +20,7 @@ _Let $G$ be a group and $X$ a be a set. A **(left) $G$-action on $X$** is a homo
 
 ```
 
-**Remark.** Instead of such a homomorphism, a $G$-action on $X$ can equivalently be given as a map $\cdot:G\times X\to X$ given by $g\cdot x\coloneqq\phi_g\!\l(x\r)$. In this way, that $\phi$ is a homomorphism translates to $g\cdot\l(h\cdot x\r)=\l(gh\r)\cdot x$ and $e\cdot x=x$ for all $g,h\in G$ and $x\in X$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Instead of such a homomorphism, a $G$-action on $X$ can equivalently be given as a map $\cdot:G\times X\to X$ given by $g\cdot x\coloneqq\phi_g\!\l(x\r)$. In this way, that $\phi$ is a homomorphism translates to $g\cdot\l(h\cdot x\r)=\l(gh\r)\cdot x$ for all $g,h\in G$ and $x\in X$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

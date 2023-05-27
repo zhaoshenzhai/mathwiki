@@ -14,7 +14,7 @@ Generalizations: _Not Applicable_
 title: Proposition.
 
 _Let $p:\widetilde{X}\to X$ be a covering space of a locally path-connected space $X$. Then the covering space $\,(\widetilde{X},p)$ is normal iff the subgroup_ $p_\ast\pi_1\,(\widetilde{X},\widetilde{x}_0)$ _is normal in $\pi_1\l(X,x_0\r)$ for all $x_0\in X$ and $\widetilde{x}_0\in p^{-1}\!\l(x_0\r)$._
-* _Moreover, for all $\widetilde{x}_0,\widetilde{x}_1\in\widetilde{X}$, there is a covering transformation $f$ mapping $\widetilde{x}_0$ to $\widetilde{x}_1$ iff there is an automorphism $\phi$ on $p^{-1}\!\l(x_0\r)$ mapping $\widetilde{x}_0$ to $\widetilde{x}_1$._
+* _Moreover, for all $\widetilde{x}_0,\widetilde{x}_1\in p^{-1}\!\l(x_0\r)$, there is a covering transformation $f$ mapping $\widetilde{x}_0$ to $\widetilde{x}_1$ iff there is an automorphism $\phi$ on $p^{-1}\!\l(x_0\r)$ mapping $\widetilde{x}_0$ to $\widetilde{x}_1$._
 
 ```
 

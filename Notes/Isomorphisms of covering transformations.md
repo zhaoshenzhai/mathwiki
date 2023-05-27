@@ -1,7 +1,12 @@
+---
+mathLink: Isomorphisms of $\Cov\,(\widetilde{X}/X)$
+---
+
+
 <div class="topSpace"></div>
 
 Date Created: 25/05/2023 21:49:31
-Tags: #Type/Theorem #In_Progress
+Tags: #Type/Theorem #Topic/Topology
 
 Proved by: [[Covering Homotopy Theorem]], [[Basic properties of covering spaces]], [[Basic properties of stabilizers and transitive actions]], [[Characterizations of normal covers]]
 References: _Not Applicable_
@@ -11,7 +16,7 @@ Specializations: _Not Applicable_
 Generalizations: _Not Applicable_
 
 ``` ad-Theorem
-title: Theorem.
+title: Theorem (Isomorphisms of $\Cov\,(\widetilde{X}/X)$).
 
 _Let $p:\widetilde{X}\to X$ be covering space of a locally path-connected space $X$. Fix $x_0\in X$ and $\widetilde{x}_0\in p^{-1}\!\l(x_0\r)$. Setting $G\coloneqq\pi_1\l(X,x_0\r)$, we have the isomorphisms_
 $$\begin{equation}
