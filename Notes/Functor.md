@@ -26,7 +26,7 @@ Let $\cat{C}$ and $\cat{D}$ be categories. A **(covariant) functor $\ms{F}$ from
 
 ```
 
-**Remark.** Formally, $\ms{F}\coloneqq\tpl{\ms{F}^{\Obj},\l\{\ms{F}^{\Hom}_{X,Y}\r\}_{X,Y\in\Obj\l(\cat{C}\r)}}$ where
+<b>Remark.</b> Formally, $\ms{F}\coloneqq\tpl{\ms{F}^{\Obj},\l\{\ms{F}^{\Hom}_{X,Y}\r\}_{X,Y\in\Obj\l(\cat{C}\r)}}$ where
 $$\begin{equation}
     \ms{F}^{\Obj}:\Obj\l(\cat{C}\r)\to\Obj\l(\cat{D}\r)
 \end{equation}$$
@@ -37,4 +37,4 @@ $$\begin{equation}
 
 ---
 
-**Remark.** If $\ms{F}$ is a functor from $\cat{C}$ to $\cat{D}$, write $\ms{F}:\cat{C}\to\cat{D}$. By abuse of notation, denote $\ms{F}^{\Obj}$ and all $\ms{F}^{\Hom}_{X,Y}$ by $\ms{F}$ itself.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $\ms{F}$ is a functor from $\cat{C}$ to $\cat{D}$, write $\ms{F}:\cat{C}\to\cat{D}$. By abuse of notation, denote $\ms{F}^{\Obj}$ and all $\ms{F}^{\Hom}_{X,Y}$ by $\ms{F}$ itself.<span style="float:right;">$\blacklozenge$</span>

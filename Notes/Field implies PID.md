@@ -21,7 +21,7 @@ Let $R$ be a field. Then every ideal $I\subseteq R$ is either $\l\{0\r\}$ or $R$
 
 ```
 
-**Remark.** In particular, this shows that fields are principal ideal domains. Alternatively, every field is a Euclidean Domain (with any Euclidean function, and with remainder $0$), so every field is a PID.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, this shows that fields are principal ideal domains. Alternatively, every field is a Euclidean Domain (with any Euclidean function, and with remainder $0$), so every field is a PID.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -21,7 +21,7 @@ Fix $n\in\N^+$. For every $x\in\R^+$, there exists a unique $y\in\R^+$ such that
 
 ```
 
-**Remark.** Thus we may write $\sqrt[n]{x}\coloneqq y$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Thus we may write $\sqrt[n]{x}\coloneqq y$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

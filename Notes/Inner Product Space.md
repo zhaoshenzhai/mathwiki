@@ -25,4 +25,4 @@ A vector space $V$, equipped with an inner product $\inprod{\slot}{\slot}:V\time
 
 ```
 
-**Remark.** When $K=\R$, an inner product reduces to a positive-definite symmetric bilinear form.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> When $K=\R$, an inner product reduces to a positive-definite symmetric bilinear form.<span style="float:right;">$\blacklozenge$</span>

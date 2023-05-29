@@ -23,8 +23,8 @@ $$\begin{equation}
 
 ```
 
-**Remark.** The standard order on $\omega$ is, of course, the membership relation $\in$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The standard order on $\omega$ is, of course, the membership relation $\in$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** Write $\N^+\coloneqq\N\comp\l\{0\r\}$. If confusion arises, write $\Z^+\coloneqq\N^+$ and $\N_0\coloneqq\omega$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Write $\N^+\coloneqq\N\comp\l\{0\r\}$. If confusion arises, write $\Z^+\coloneqq\N^+$ and $\N_0\coloneqq\omega$.<span style="float:right;">$\blacklozenge$</span>

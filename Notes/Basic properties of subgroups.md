@@ -20,7 +20,7 @@ Let $G$ be a group and $H,K\subgrpeq G$. Then the following basic properties hol
 
 ```
 
-**Remark.** Since $HK\subseteq\gen{H,K}$, we see that $\l|\gen{H,K}\r|\geq\l|H\r|\l|K\r|/\l|H\cap K\r|$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Since $HK\subseteq\gen{H,K}$, we see that $\l|\gen{H,K}\r|\geq\l|H\r|\l|K\r|/\l|H\cap K\r|$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

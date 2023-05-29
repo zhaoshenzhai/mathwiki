@@ -20,7 +20,7 @@ Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$
 
 ```
 
-**Remark.** The characteristic polynomial of a matrix $A\in\mat{n}{K}$ is defined as $\cchi_A\!\l(x\r)\coloneqq\det\l(xI-A\r)$. This agrees with the above, since if $V$ is finite-dimensional, say with $n\coloneqq\dim V$, and $\mc{B}$ is a basis for $V$, then
+<b>Remark.</b> The characteristic polynomial of a matrix $A\in\mat{n}{K}$ is defined as $\cchi_A\!\l(x\r)\coloneqq\det\l(xI-A\r)$. This agrees with the above, since if $V$ is finite-dimensional, say with $n\coloneqq\dim V$, and $\mc{B}$ is a basis for $V$, then
 $$\begin{equation}
     \cchi_T\!\l(x\r)=\det\l(x\id_V-T\r)=\det\l(\l[x\id_V-T\r]_\mc{B}\r)=\det\l(xI-A\r)=\cchi_A\!\l(x\r)
 \end{equation}$$

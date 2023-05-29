@@ -29,13 +29,13 @@ In any case, for a continuous map $f:X\to Y$, the **homotopy class of $f$** is t
 
 ```
 
-**Remark.** A homotopy $F:X\times I\to Y$ induces a family of functions $f_t\coloneqq F\l(\slot,t\r):X\to Y$, called a **deformation from $f_0$ to $f_1$**.
+<b>Remark.</b> A homotopy $F:X\times I\to Y$ induces a family of functions $f_t\coloneqq F\l(\slot,t\r):X\to Y$, called a **deformation from $f_0$ to $f_1$**.
 * We also denote a homotopy $F:X\times I\to Y$ from $f_0$ to $f_1$ by $F:f_0\htopeq f_1$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** If $\gamma_0,\gamma_1:I\to Y$ are paths, then $\gamma_0\htopeq\gamma_1$ will always mean that they are homotopic rel $\del I$. In a path-connected space, the contractibility of $I$ shows that all paths $\gamma:I\to Y$ are freely homotopic, so no confusion shall arise.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $\gamma_0,\gamma_1:I\to Y$ are paths, then $\gamma_0\htopeq\gamma_1$ will always mean that they are homotopic rel $\del I$. In a path-connected space, the contractibility of $I$ shows that all paths $\gamma:I\to Y$ are freely homotopic, so no confusion shall arise.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** A function $f:X\to Y$ is **null-homotopic** if there is a constant function $c$ such that $f\htopeq c$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A function $f:X\to Y$ is **null-homotopic** if there is a constant function $c$ such that $f\htopeq c$.<span style="float:right;">$\blacklozenge$</span>

@@ -21,7 +21,7 @@ Let $R$ be a commutative ring and fix $a,b\in R\comp\l\{0\r\}$. If there exists 
 
 ```
 
-**Remark.** In particular, this shows that $\gcd\l(a,b\r)$ can be written as an integral combination $\gcd\l(a,b\r)=ax+by$ for some $x,y\in R$. Specifically:
+<b>Remark.</b> In particular, this shows that $\gcd\l(a,b\r)$ can be written as an integral combination $\gcd\l(a,b\r)=ax+by$ for some $x,y\in R$. Specifically:
 * For all $a,b\in\Z\comp\l\{0\r\}$, there exist $x,y\in\Z$ such that $\gcd\l(a,b\r)=ax+by$.
 * If $K$ is a field, then, for all $a,b\in K\l[x\r]$, there exist $f,g\in K\l[x\r]$ such that $\gcd\l(a,b\r)=af+bg$.
 

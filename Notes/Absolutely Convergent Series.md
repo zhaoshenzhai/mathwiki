@@ -20,4 +20,4 @@ Let $\tpl{a_k}$ be a sequence in either $\R$ or $\C$. We say that **$\sum_{k=0}^
 
 ```
 
-**Remark.** It is clear that if $\sum_{k=0}^{\infty}a_k$ converges absolutely, then it converges.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> It is clear that if $\sum_{k=0}^{\infty}a_k$ converges absolutely, then it converges.<span style="float:right;">$\blacklozenge$</span>

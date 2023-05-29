@@ -20,4 +20,4 @@ Let $V$ be a $K$-vector space and fix a subset $U\subseteq V$. Then $U$ is a **(
 
 ```
 
-**Remark.** It is clear that $U\subseteq V$ is a subspace of $V$ if $0\in U$ and $U$ is closed under linear combinations.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> It is clear that $U\subseteq V$ is a subspace of $V$ if $0\in U$ and $U$ is closed under linear combinations.<span style="float:right;">$\blacklozenge$</span>

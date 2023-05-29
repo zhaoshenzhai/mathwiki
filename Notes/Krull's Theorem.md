@@ -21,7 +21,7 @@ Let $R$ be a nontrivial commutative ring with unity. If $I\subset R$ is a proper
 
 ```
 
-**Remark.** In particular, every nontrivial commutative ring has a maximal ideal.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, every nontrivial commutative ring has a maximal ideal.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -20,4 +20,4 @@ A natural number $p\in\N$ with $p>1$ is said to be a **prime number** if the onl
 
 ```
 
-**Remark.** Otherwise, $p$ is said to be a **composite number**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Otherwise, $p$ is said to be a **composite number**.<span style="float:right;">$\blacklozenge$</span>

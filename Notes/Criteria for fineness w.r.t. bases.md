@@ -26,7 +26,7 @@ $$\begin{equation}
 
 ---
 
-**Remark.** To prove that $\mc{T}_1\not\subseteq\mc{T}_2$, we can use the biconditional contrapositive
+<b>Remark.</b> To prove that $\mc{T}_1\not\subseteq\mc{T}_2$, we can use the biconditional contrapositive
 $$\begin{equation}
     \mc{T}_1\not\subseteq\mc{T}_2\ \ \ \ \Leftrightarrow\ \ \ \ \ex x\in X,\ex B_1\in\mc{B}_1:\l[x\in B_1\land\l(\fa B_2\in\mc{B}_2:x\not\in B_2\lor B_2\not\subseteq B_1\r)\r],
 \end{equation}$$

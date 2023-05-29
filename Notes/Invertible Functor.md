@@ -20,4 +20,4 @@ Let $\cat{C}$ and $\cat{D}$ be categories. A functor $\ms{F}:\cat{C}\to\cat{D}$ 
 
 ```
 
-**Remark.** If $\ms{G}$ is both a strict left and a strict right inverse, we say that $\ms{F}$ is **strictly invertible**, in which case we write $\ms{G}\coloneqq\ms{F}^{-1}$ and call it the **strict inverse of $\ms{F}$**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $\ms{G}$ is both a strict left and a strict right inverse, we say that $\ms{F}$ is **strictly invertible**, in which case we write $\ms{G}\coloneqq\ms{F}^{-1}$ and call it the **strict inverse of $\ms{F}$**.<span style="float:right;">$\blacklozenge$</span>

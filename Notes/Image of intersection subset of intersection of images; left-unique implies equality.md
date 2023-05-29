@@ -25,7 +25,7 @@ Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xRy
 
 ```
 
-**Remark.** Let $f\coloneqq R$ be a function. Then equality holds if $f$ is injective.
+<b>Remark.</b> Let $f\coloneqq R$ be a function. Then equality holds if $f$ is injective.
 * If $\mc{A}=\l\{A,B\r\}$, then the above reads $\im_R\!\l(A\cap B\r)\subseteq\im_R\!\l(A\r)\cap\im_R\!\l(B\r)$.<span style="float:right;">$\blacklozenge$</span>
 
 ---

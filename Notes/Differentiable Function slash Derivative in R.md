@@ -28,11 +28,11 @@ exists, in which case $f'\l(c\r)$ is said to be the **derivative of $f$ at $c$**
 
 ```
 
-**Remark.** If $\Omega$ has no isolated points and $f$ is differentiable at all $c\in\Omega$, then we may define the **derivative of $f$** as the function
+<b>Remark.</b> If $\Omega$ has no isolated points and $f$ is differentiable at all $c\in\Omega$, then we may define the **derivative of $f$** as the function
 $$\begin{equation}
     f':\Omega\to\R\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ c\mapsto f'\l(c\r).\exqedin
 \end{equation}$$
 
 ---
 
-**Remark.** If $f$ is differentiable at $c\in\R$, the line $l:\R\to\R:x\mapsto f'\l(c\r)\l(x-c\r)+f\l(c\r)$ is said to be **tangent to $f$ at $c$**. Indeed, one may reformulate differentiability at $c$ as the existence of a linear function whose error $f\l(x\r)-l\l(x\r)$ convergences to $0$ superlinearly.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $f$ is differentiable at $c\in\R$, the line $l:\R\to\R:x\mapsto f'\l(c\r)\l(x-c\r)+f\l(c\r)$ is said to be **tangent to $f$ at $c$**. Indeed, one may reformulate differentiability at $c$ as the existence of a linear function whose error $f\l(x\r)-l\l(x\r)$ convergences to $0$ superlinearly.<span style="float:right;">$\blacklozenge$</span>

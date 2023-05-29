@@ -20,4 +20,4 @@ A set $X$ is said to be **finite** if $X\eqnum n$ for some $n\in\omega$.
 
 ```
 
-**Remark.** Here, $n=\l\{0,\dots,n-1\r\}$ is interpreted set-theoretically.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Here, $n=\l\{0,\dots,n-1\r\}$ is interpreted set-theoretically.<span style="float:right;">$\blacklozenge$</span>

@@ -20,4 +20,4 @@ Let $V$ be a vector space. A **projection on $V$** is a linear operator $P:V\to 
 
 ```
 
-**Remark.** Every projection is diagonalizable, for consider the polynomial $f\coloneqq x^2-x\in K\l[x\r]$ and observe that $f\l(P\r)=P^2-P=0$. Then the minimal polynomial of $P$ divides $x\l(x-1\r)$, so it splits into distinct linear factors.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Every projection is diagonalizable, for consider the polynomial $f\coloneqq x^2-x\in K\l[x\r]$ and observe that $f\l(P\r)=P^2-P=0$. Then the minimal polynomial of $P$ divides $x\l(x-1\r)$, so it splits into distinct linear factors.<span style="float:right;">$\blacklozenge$</span>

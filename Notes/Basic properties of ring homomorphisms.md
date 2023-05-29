@@ -23,7 +23,7 @@ Let $R_1$ and $R_2$ be rings and consider a homomorphism $\phi:R_1\to R_2$. Let 
 
 ```
 
-**Remark.**
+<b>Remark.</b>
 * For the multiplicative identity, surjectivity is a necessary condition for the ring homomorphism $\phi:r\mapsto0$ does not map $1$ to $1$.
 * In particular, $\im\phi\subseteq R_2$ and $\ker\phi\subseteq R_1$ are subrings, and that $\ker\phi$ is an ideal in $R_1$.<span style="float:right;">$\blacklozenge$</span>
 

@@ -18,7 +18,7 @@ Let $f:X\to Y$ and let $\sim$ be an equivalence relation on $X$ defined by $x_1\
 
 ```
 
-**Remark.** In other words, every function $f:X\to Y$ can be canonically decomposed into $f=\iota\circ\widetilde{f}\circ\pi$ for $\pi$ a surjection, $\widetilde{f}$ a (unique) bijection, and $\iota$ an injection.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, every function $f:X\to Y$ can be canonically decomposed into $f=\iota\circ\widetilde{f}\circ\pi$ for $\pi$ a surjection, $\widetilde{f}$ a (unique) bijection, and $\iota$ an injection.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

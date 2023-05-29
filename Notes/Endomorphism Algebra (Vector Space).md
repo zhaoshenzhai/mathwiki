@@ -24,7 +24,7 @@ Let $V$ be a $K$-vector space. The **endomorphism algebra over $V$** is the unit
 
 ```
 
-**Remark.** From the links above, we see that $\End\l(V\r)$ is a $K$-vector space with the component-wise addition and scalar-multiplication, and that the composition
+<b>Remark.</b> From the links above, we see that $\End\l(V\r)$ is a $K$-vector space with the component-wise addition and scalar-multiplication, and that the composition
 $$\begin{equation}
     \circ:\End\l(V\r)\times\End\l(V\r)\to\End\l(V\r)
 \end{equation}$$

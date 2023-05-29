@@ -24,8 +24,8 @@ is a basis for a topology on $X$.
 
 ```
 
-**Remark.** If $\mc{B}_1$ and $\mc{B}_2$ are bases generated (in the above sense) by the subbases $\mc{S}_1$ and $\mc{S}_2$, respectively, then $\mc{S}_1\subseteq\mc{S}_2\Rightarrow\mc{B}_1\subseteq\mc{B}_2$. To see this, simply take $B\in\mc{B}_1$ so there exists $\mc{R}\subseteq\mc{S}_1$ and hence $\mc{R}\subseteq\mc{S}_2$ such that $B=\bigcap\mc{R}$. It follows then that $B\in\mc{B}_2$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $\mc{B}_1$ and $\mc{B}_2$ are bases generated (in the above sense) by the subbases $\mc{S}_1$ and $\mc{S}_2$, respectively, then $\mc{S}_1\subseteq\mc{S}_2\Rightarrow\mc{B}_1\subseteq\mc{B}_2$. To see this, simply take $B\in\mc{B}_1$ so there exists $\mc{R}\subseteq\mc{S}_1$ and hence $\mc{R}\subseteq\mc{S}_2$ such that $B=\bigcap\mc{R}$. It follows then that $B\in\mc{B}_2$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** Observe that $\mc{S}\subseteq\mc{B}$, for $S=\bigcap\l\{S\r\}$. It follows that $\mc{S}\subseteq\mc{T}\l(\mc{S}\r)$. However, note that there may be other bases $\mc{B}'$ of $\mc{T}\l(\mc{B}\r)$ that do not contain $\mc{S}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Observe that $\mc{S}\subseteq\mc{B}$, for $S=\bigcap\l\{S\r\}$. It follows that $\mc{S}\subseteq\mc{T}\l(\mc{S}\r)$. However, note that there may be other bases $\mc{B}'$ of $\mc{T}\l(\mc{B}\r)$ that do not contain $\mc{S}$.<span style="float:right;">$\blacklozenge$</span>

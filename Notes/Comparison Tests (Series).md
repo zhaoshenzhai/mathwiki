@@ -19,7 +19,7 @@ Let $\tpl{a_k}$ and $\tpl{b_k}$ be eventually positive sequences in $\R$.
 
 ```
 
-**Remark.** If $r'\coloneqq\lim_{k\to\infty}\l|a_k/b_k\r|$ and the same assumptions of the limit comparison test are assumed, then we can also conclude absolute convergence.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $r'\coloneqq\lim_{k\to\infty}\l|a_k/b_k\r|$ and the same assumptions of the limit comparison test are assumed, then we can also conclude absolute convergence.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

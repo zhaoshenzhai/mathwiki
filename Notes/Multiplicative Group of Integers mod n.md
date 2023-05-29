@@ -24,4 +24,4 @@ Fix $n\in\N^+$. The **multiplicative group of integers modulo $n$** is the group
 
 ```
 
-**Remark.** If $n$ is prime, then $\tpl{\Z_n,+,\cdot}$ is a field and hence, as sets, $\Z_n=\Z_n^\times$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $n$ is prime, then $\tpl{\Z_n,+,\cdot}$ is a field and hence, as sets, $\Z_n=\Z_n^\times$.<span style="float:right;">$\blacklozenge$</span>

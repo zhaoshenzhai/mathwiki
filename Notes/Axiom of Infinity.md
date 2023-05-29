@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Letting $\mc{L}'\coloneqq\mc{L}\cup\l\{\em,S\r\}$ where $\em$ is a constant symbol interpreted as the empty set and $S$ is a function symbol interpreted as the successor, we can rewrite Infinity as the $\mc{L}'$-formula
+<b>Remark.</b> Letting $\mc{L}'\coloneqq\mc{L}\cup\l\{\em,S\r\}$ where $\em$ is a constant symbol interpreted as the empty set and $S$ is a function symbol interpreted as the successor, we can rewrite Infinity as the $\mc{L}'$-formula
 $$\begin{equation}
     \ex I\l(\em\in I\land\fa y\in I:S\l(y\r)\in I\r).
 \end{equation}$$
@@ -28,4 +28,4 @@ That is, it is the statement that there exists an inductive set $I$.<span style=
 
 ---
 
-**Remark.** This axiom does not directly define the $\textrm{`}$set of all natural numbers$\textrm{'}$ $\omega$. Rather, it asserts the existence of some inductive set that, by the Principle of Ordinary Induction, contains $\omega$ as a subset.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> This axiom does not directly define the $\textrm{`}$set of all natural numbers$\textrm{'}$ $\omega$. Rather, it asserts the existence of some inductive set that, by the Principle of Ordinary Induction, contains $\omega$ as a subset.<span style="float:right;">$\blacklozenge$</span>

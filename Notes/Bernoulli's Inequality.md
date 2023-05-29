@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ```
 
-**Remark.** In particular, with $k=1$ and $k=2$, we obtain
+<b>Remark.</b> In particular, with $k=1$ and $k=2$, we obtain
 $$\begin{equation}
     \l(1+a\r)^n\geq 1+an\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \l(1+a\r)^n\geq1+\frac{n\l(n-1\r)}{2}a^2.\exqedin
 \end{equation}$$

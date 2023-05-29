@@ -23,4 +23,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** If $X$ carries a vector space structure, we may choose $x_0=0$. Thus $\tpl{x_n}$ is bounded if there exists some $r>0$ such that $d\l(x_n,0\r)<r$ for all $n\in\N$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $X$ carries a vector space structure, we may choose $x_0=0$. Thus $\tpl{x_n}$ is bounded if there exists some $r>0$ such that $d\l(x_n,0\r)<r$ for all $n\in\N$.<span style="float:right;">$\blacklozenge$</span>

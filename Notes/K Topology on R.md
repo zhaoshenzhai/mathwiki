@@ -31,4 +31,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** In other words, $\mc{B}_K$ is the set of open intervals and sets of the form $\l(a,b\r)\comp K$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, $\mc{B}_K$ is the set of open intervals and sets of the form $\l(a,b\r)\comp K$.<span style="float:right;">$\blacklozenge$</span>

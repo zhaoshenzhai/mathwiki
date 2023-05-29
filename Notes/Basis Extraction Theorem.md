@@ -17,7 +17,7 @@ Let $V$ be a $K$-vector space. If $U\subseteq V$ is a spanning set of $V$, then 
 
 ```
 
-**Remark.** In other words, every spanning set of a vector space can be cut down to a basis. This proof requires Zorn$\textrm{'}$s Lemma.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, every spanning set of a vector space can be cut down to a basis. This proof requires Zorn$\textrm{'}$s Lemma.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

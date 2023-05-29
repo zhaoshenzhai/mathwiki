@@ -17,7 +17,7 @@ Let $\tpl{X,d}$ be a metric space and fix $S\subseteq X$. Then $x$ is a cluster 
 
 ```
 
-**Remark.** For this reason, cluster points in a metric space are also called **$\omega$-accumulation points**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> For this reason, cluster points in a metric space are also called **$\omega$-accumulation points**.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

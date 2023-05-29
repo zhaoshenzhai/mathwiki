@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-**Remark.** If $\mc{A}=\l\{A,B\r\}$, then the above reads $\im_R\!\l(A\cup B\r)=\im_R\!\l(A\r)\cup\im_R\!\l(B\r)$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $\mc{A}=\l\{A,B\r\}$, then the above reads $\im_R\!\l(A\cup B\r)=\im_R\!\l(A\r)\cup\im_R\!\l(B\r)$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

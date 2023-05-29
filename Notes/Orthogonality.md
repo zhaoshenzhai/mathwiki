@@ -20,6 +20,6 @@ Let $V$ be an inner product space. Two vectors $u,w\in V$ are said to be **ortho
 
 ```
 
-**Remark.** Other derived notions are:
+<b>Remark.</b> Other derived notions are:
 * A vector $u\in V$ is said to be **orthogonal** to a subspace $W\subseteq V$ if $u\perp w$ for all $w\in W$, in which case we write $u\perp W$. This is equivalent to saying that $u\in W^\perp$.
 * Two subspaces $U,W\subseteq V$ are said to be **orthogonal** if $u\perp w$ for all $u\in U$ and $w\in W$, in which case we write $U\perp W$. This is equivalent to saying that $U=W^\perp$.<span style="float:right;">$\blacklozenge$</span>

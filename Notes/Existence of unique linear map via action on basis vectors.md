@@ -17,7 +17,7 @@ Let $V$ and $W$ be vector spaces and let $\mc{B}\coloneqq\l\{b_i\r\}$ be a basis
 
 ```
 
-**Remark.** That is, in order to specify a linear map $T:V\to W$, it suffices to know its action on a basis $\mc{B}$ of $V$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That is, in order to specify a linear map $T:V\to W$, it suffices to know its action on a basis $\mc{B}$ of $V$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

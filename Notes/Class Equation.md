@@ -21,7 +21,7 @@ where $A\subseteq X\comp Z$ is the set of representatives of distinct non-trivia
 
 ```
 
-**Remark.** In the case where $G=X$ is finite and $G$ acts on itself by conjugation, $Z=Z\l(G\r)$ is the center and we have $\l|G\r|=\l|Z\l(G\r)\r|+\sum_{x\in A}\l[G:G_x\r]$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In the case where $G=X$ is finite and $G$ acts on itself by conjugation, $Z=Z\l(G\r)$ is the center and we have $\l|G\r|=\l|Z\l(G\r)\r|+\sum_{x\in A}\l[G:G_x\r]$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

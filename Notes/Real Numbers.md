@@ -20,4 +20,4 @@ A totally ordered field $\tpl{R,+,\cdot,0,1,<}$ is said to be an **ordered field
 
 ```
 
-**Remark.** Since any two models of the real numbers are isomorphic, we shall call any model thereof the **real numbers** and denote it by $\R$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Since any two models of the real numbers are isomorphic, we shall call any model thereof the **real numbers** and denote it by $\R$.<span style="float:right;">$\blacklozenge$</span>

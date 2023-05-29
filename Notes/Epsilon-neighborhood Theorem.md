@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ```
 
-**Remark.** In other words, given any compact set $K$ and any open set $U\supseteq K$, an $\textrm{`}\epsilon$-neighborhood of $K\textrm{'}$ is still contained in $U$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, given any compact set $K$ and any open set $U\supseteq K$, an $\textrm{`}\epsilon$-neighborhood of $K\textrm{'}$ is still contained in $U$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -20,4 +20,4 @@ Let $X$ be a set and let $\mc{T}$ be a topology on $X$. An **open set of $X$ in 
 
 ```
 
-**Remark.** Fix $x\in X$. An open set $U\in\mc{T}$ is said to be a **neighborhood of $x$** if $x\in U$. The set of all neighborhoods of $x$ is denoted by $\mc{U}_x$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Fix $x\in X$. An open set $U\in\mc{T}$ is said to be a **neighborhood of $x$** if $x\in U$. The set of all neighborhoods of $x$ is denoted by $\mc{U}_x$.<span style="float:right;">$\blacklozenge$</span>

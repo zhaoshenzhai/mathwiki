@@ -20,4 +20,4 @@ Let $R$ be an integral domain. We say that $R$ is a **unique factorization domai
 
 ```
 
-**Remark.** Asking $a_i=b_{\sigma\l(i\r)}$ is too strong since if $r=a_1a_2\cdots a_n$ is a factorization into irreducible, then, for any $u\in R^\times$, so is $r=\l(ua_1\r)\l(u^{-1}a_2\r)a_3\cdots a_n$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Asking $a_i=b_{\sigma\l(i\r)}$ is too strong since if $r=a_1a_2\cdots a_n$ is a factorization into irreducible, then, for any $u\in R^\times$, so is $r=\l(ua_1\r)\l(u^{-1}a_2\r)a_3\cdots a_n$.<span style="float:right;">$\blacklozenge$</span>

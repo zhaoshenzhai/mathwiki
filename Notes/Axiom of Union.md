@@ -20,11 +20,11 @@ $$\begin{equation}
 
 ```
 
-**Remark.** By Extensionality, such a set $U$ is unique and can thus be called the **union of $\mc{A}$**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> By Extensionality, such a set $U$ is unique and can thus be called the **union of $\mc{A}$**.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** We may weaken this axiom to
+<b>Remark.</b> We may weaken this axiom to
 $$\begin{equation}
     \fa\mc{A}\ex U':\l(\fa A\in\mc{A},\fa a\in A:a\in U'\r).
 \end{equation}$$

@@ -24,4 +24,4 @@ for every $x\in S$.
 
 ```
 
-**Remark.** In other words, $\iota=\l.\id_X\r|_S$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, $\iota=\l.\id_X\r|_S$.<span style="float:right;">$\blacklozenge$</span>

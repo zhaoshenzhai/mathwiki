@@ -24,4 +24,4 @@ The map $\pi:X\to X/\!\sim$ sending $x\mapsto\l[x\r]_\sim$ is called the **canon
 
 ```
 
-**Remark.** Clearly $\pi$ is surjective.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Clearly $\pi$ is surjective.<span style="float:right;">$\blacklozenge$</span>

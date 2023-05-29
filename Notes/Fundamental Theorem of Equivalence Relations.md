@@ -21,7 +21,7 @@ Furthermore, we have $X/R_\Pi=\Pi$ and $R_{X/R}=R$.
 
 ```
 
-**Remark.** The relationship between partitions, their induced relations, equivalences, and their quotient sets, can be visualized with the following schematic diagram.
+<b>Remark.</b> The relationship between partitions, their induced relations, equivalences, and their quotient sets, can be visualized with the following schematic diagram.
 
 ![[Images/2022-02-09_222004/image.svg|650]]
 

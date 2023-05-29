@@ -27,4 +27,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** If $X$ carries a vector space structure, we may choose $x_0=0$. Then $f$ is bounded if there exists some $r>0$ such that $\im f\subseteq B_r\l(0\r)$; that is, if $d\l(f\l(x\r),0\r)<r$ for all $x\in X$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $X$ carries a vector space structure, we may choose $x_0=0$. Then $f$ is bounded if there exists some $r>0$ such that $\im f\subseteq B_r\l(0\r)$; that is, if $d\l(f\l(x\r),0\r)<r$ for all $x\in X$.<span style="float:right;">$\blacklozenge$</span>

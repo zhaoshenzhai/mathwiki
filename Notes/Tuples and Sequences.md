@@ -26,7 +26,7 @@ More generally, let $\l\{X_j\r\}_{j\in J}$ be an indexed family of sets and cons
 
 ```
 
-**Remark.** In other words, infinite sequences and $n$-tuples in $X$ are functions of the form
+<b>Remark.</b> In other words, infinite sequences and $n$-tuples in $X$ are functions of the form
 $$\begin{equation}
     \l[
         \begin{aligned}

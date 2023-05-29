@@ -20,4 +20,4 @@ Let $X$ be a set. The **trivial topology on $X$** is the topology $\mc{T}_\textr
 
 ```
 
-**Remark.** The fact that $\mc{T}_\textrm{trivial}$ is a topology on $X$ can be checked by cases.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The fact that $\mc{T}_\textrm{trivial}$ is a topology on $X$ can be checked by cases.<span style="float:right;">$\blacklozenge$</span>

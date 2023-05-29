@@ -23,4 +23,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** The Cartesian product $\prod_{i\in I}X_i$, equipped with the projection maps $\l\{\pi_i\r\}_{i\in I}$, is a product in $\catset$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The Cartesian product $\prod_{i\in I}X_i$, equipped with the projection maps $\l\{\pi_i\r\}_{i\in I}$, is a product in $\catset$.<span style="float:right;">$\blacklozenge$</span>

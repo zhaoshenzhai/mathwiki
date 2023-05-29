@@ -20,4 +20,4 @@ Let $\cat{C}$ and $\cat{D}$ be categories. A functor $\ms{F}:\cat{C}\to\cat{D}$ 
 
 ```
 
-**Remark.** If equality holds; that is, if $\ms{G}\circ\ms{F}=\Id_\cat{C}$, then $\ms{F}$ is **strictly invertible** and $\ms{G}$ is called a **strict left-inverse of $\ms{F}$**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If equality holds; that is, if $\ms{G}\circ\ms{F}=\Id_\cat{C}$, then $\ms{F}$ is **strictly invertible** and $\ms{G}$ is called a **strict left-inverse of $\ms{F}$**.<span style="float:right;">$\blacklozenge$</span>

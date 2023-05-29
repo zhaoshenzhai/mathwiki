@@ -25,7 +25,7 @@ where $\l[v\r]_\mc{B}\coloneqq\tpl{\alpha_1,\dots,\alpha_n}\in K^n$ is the uniqu
 
 ```
 
-**Remark.** In particular, we have $V\iso K^n$. However, it is <i>not</i> a natural isomorphism as a choice of basis is required.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, we have $V\iso K^n$. However, it is <i>not</i> a natural isomorphism as a choice of basis is required.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

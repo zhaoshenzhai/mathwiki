@@ -17,7 +17,7 @@ Let $X$ and $Y$ be topological spaces, and consider a continuous function $f:X\t
 
 ```
 
-**Remark.** In particular, this shows that for a continuous function $f:X\to\R$ with connected domain and any $y\in\R$, if $f\l(x_0\r)<y<f\l(x_1\r)$ for some $x_0,x_1\in X$, then there exists some $c\in X$ such that $f\l(c\r)=y$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, this shows that for a continuous function $f:X\to\R$ with connected domain and any $y\in\R$, if $f\l(x_0\r)<y<f\l(x_1\r)$ for some $x_0,x_1\in X$, then there exists some $c\in X$ such that $f\l(c\r)=y$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

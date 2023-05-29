@@ -31,4 +31,4 @@ where $f\circ g$ is the $\cat{C}$-composite of $f$ after $g$.
 
 ```
 
-**Remark.** It is obvious that $\l(\cat{C}^\textrm{op}\r)^\textrm{op}=\cat{C}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> It is obvious that $\l(\cat{C}^\textrm{op}\r)^\textrm{op}=\cat{C}$.<span style="float:right;">$\blacklozenge$</span>

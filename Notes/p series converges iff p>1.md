@@ -21,7 +21,7 @@ Fix $p\in\R$. Then the infinite series $\sum_{k=1}^{\infty}1/k^p$ converges iff 
 
 ```
 
-**Remark.** In particular, with $p=1$, the **harmonic series** $\sum_{k=1}^{\infty}1/k$ diverges.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, with $p=1$, the **harmonic series** $\sum_{k=1}^{\infty}1/k$ diverges.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

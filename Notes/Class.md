@@ -20,8 +20,8 @@ The formula $\phi\l(x\r)$ is referred to as a **class** if we wish to consider t
 
 ```
 
-**Remark.** Let $x$ be a set. If $\phi\l(x\r)$, write, <i>informally</i>, the expression $x\in\l\{x\mid\phi\l(x\r)\r\}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Let $x$ be a set. If $\phi\l(x\r)$, write, <i>informally</i>, the expression $x\in\l\{x\mid\phi\l(x\r)\r\}$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** Let $z\coloneqq\l\{x\mid\phi\l(x\r)\r\}$ be a class. If all such objects $x$ are elements of some set $v$, then we have $\fa x\l[x\in z\Leftrightarrow\l(x\in v\land\phi\l(x\r)\r)\r]$. Thus the class $z$ is, by Specification, a set. Otherwise, $z$ is said to be a **proper class**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Let $z\coloneqq\l\{x\mid\phi\l(x\r)\r\}$ be a class. If all such objects $x$ are elements of some set $v$, then we have $\fa x\l[x\in z\Leftrightarrow\l(x\in v\land\phi\l(x\r)\r)\r]$. Thus the class $z$ is, by Specification, a set. Otherwise, $z$ is said to be a **proper class**.<span style="float:right;">$\blacklozenge$</span>

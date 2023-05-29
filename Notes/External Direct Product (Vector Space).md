@@ -20,8 +20,8 @@ Let $\l\{V_i\r\}$ be a family of $K$-vector spaces. The **(external) direct prod
 
 ```
 
-**Remark.** The direct product $\prod V_i$, equipped with the projection maps $\l\{\pi_i\r\}$, is a product in $\catvect$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The direct product $\prod V_i$, equipped with the projection maps $\l\{\pi_i\r\}$, is a product in $\catvect$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** In particular, if $X$ is a non-empty set, then $\prod_{x\in X}K=K^X$, where $K$ is viewed as a vector space over itself, is the function space of $X$ into $K$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, if $X$ is a non-empty set, then $\prod_{x\in X}K=K^X$, where $K$ is viewed as a vector space over itself, is the function space of $X$ into $K$.<span style="float:right;">$\blacklozenge$</span>

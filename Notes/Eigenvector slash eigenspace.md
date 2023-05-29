@@ -28,4 +28,4 @@ is called the **eigenspace of $T$ corresponding to $\lambda$**. A vector $v\in E
 
 ```
 
-**Remark.** Eigenspaces and eigenvectors of a matrix $A\in\mat{n}{K}$ are defined as those of $L_A$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Eigenspaces and eigenvectors of a matrix $A\in\mat{n}{K}$ are defined as those of $L_A$.<span style="float:right;">$\blacklozenge$</span>

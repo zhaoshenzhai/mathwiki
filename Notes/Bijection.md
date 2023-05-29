@@ -20,4 +20,4 @@ A function $f:X\to Y$ is a **bijection** if $f:X\to Y$ is both an injection and 
 
 ```
 
-**Remark.** If $f:X\to Y$ is a bijection (or a **bijective function**, or a **one-to-one correspondence**), write $f:X\rightleftarrows Y$ and say that the sets $X$ and $Y$ are **in one-to-one correspondence**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $f:X\to Y$ is a bijection (or a **bijective function**, or a **one-to-one correspondence**), write $f:X\rightleftarrows Y$ and say that the sets $X$ and $Y$ are **in one-to-one correspondence**.<span style="float:right;">$\blacklozenge$</span>

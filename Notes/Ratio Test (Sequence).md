@@ -21,7 +21,7 @@ If $L<1$, then $\lim\limits_{n\to\infty}x_n=0$. Otherwise, if $L>1$, then $\lim\
 
 ```
 
-**Remark.** If $L=1$, then the test is inconclusive.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $L=1$, then the test is inconclusive.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

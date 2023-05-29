@@ -24,7 +24,7 @@ A function $f:X\to Y$ is said to be **Lipschitz continuous** if there exists $k\
 
 ```
 
-**Remark.** In other words, $f:X\to Y$ is $k$-Lipschitz continuous if $\fa S\subseteq X:\diam\im_f\l(S\r)\leq k\cdot\diam S$. Indeed, every $k$-Lipschitz continuous function is uniformly continuous since the latter requires the existence of a function
+<b>Remark.</b> In other words, $f:X\to Y$ is $k$-Lipschitz continuous if $\fa S\subseteq X:\diam\im_f\l(S\r)\leq k\cdot\diam S$. Indeed, every $k$-Lipschitz continuous function is uniformly continuous since the latter requires the existence of a function
 $$\begin{equation}
     \delta:\R^+\to\R^+\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ \epsilon\mapsto\delta_\epsilon
 \end{equation}$$

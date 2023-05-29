@@ -20,4 +20,4 @@ Let $V$ be a finite-dimensional vector space over some field $K$. A linear opera
 
 ```
 
-**Remark.** Observe that $T$ is diagonalizable iff $T\sim\diag\l(\lambda_1,\dots,\lambda_n\r)$ for some $\lambda_1,\dots,\lambda_n\in K$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Observe that $T$ is diagonalizable iff $T\sim\diag\l(\lambda_1,\dots,\lambda_n\r)$ for some $\lambda_1,\dots,\lambda_n\in K$.<span style="float:right;">$\blacklozenge$</span>

@@ -20,8 +20,8 @@ A linear operator $T:V\to V$ on an inner product space $V$ is said to be **self-
 
 ```
 
-**Remark.** Self-adjoint operators are analogous to complex numbers $z\in\C$ such that $z=\bar{z}$, which occurs iff $z\in\R$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Self-adjoint operators are analogous to complex numbers $z\in\C$ such that $z=\bar{z}$, which occurs iff $z\in\R$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** Every self-adjoint operator is clear normal.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Every self-adjoint operator is clear normal.<span style="float:right;">$\blacklozenge$</span>

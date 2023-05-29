@@ -21,7 +21,7 @@ Let $K$ be a field and let $f\in K\l[x\r]$. Then $f$ is irreducible iff the idea
 
 ```
 
-**Remark.** It follows then that $K\l[x\r]/\sring{f}$ is a field iff $f$ is irreducible. Since $K\l[x\r]$ is a UFD, this also holds iff $p$ is prime.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> It follows then that $K\l[x\r]/\sring{f}$ is a field iff $f$ is irreducible. Since $K\l[x\r]$ is a UFD, this also holds iff $p$ is prime.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

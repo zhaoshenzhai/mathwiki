@@ -17,7 +17,7 @@ Let $V$ be an inner product space. Then, for all $u,v\in V$, we have $\l|\inprod
 
 ```
 
-**Remark.** When the ground field $K$ is $\R$, this shows us that $-1\leq\frac{\inprod{u}{v}}{\|u\|\|v\|}\leq1$, which enables us to define the **angle between $u$ and $v$** as the unique $\theta_{u,v}\in\l[0,\pi\r]$ such that $\cos\theta_{u,v}=\frac{\inprod{u}{v}}{\|u\|\|v\|}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> When the ground field $K$ is $\R$, this shows us that $-1\leq\frac{\inprod{u}{v}}{\|u\|\|v\|}\leq1$, which enables us to define the **angle between $u$ and $v$** as the unique $\theta_{u,v}\in\l[0,\pi\r]$ such that $\cos\theta_{u,v}=\frac{\inprod{u}{v}}{\|u\|\|v\|}$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

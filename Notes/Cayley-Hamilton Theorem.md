@@ -17,7 +17,7 @@ Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$
 
 ```
 
-**Remark.** In other words, if $\mu_T\in K\l[x\r]$ denotes the minimal polynomial of $T$, then $\mu_T\divides\cchi_T$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, if $\mu_T\in K\l[x\r]$ denotes the minimal polynomial of $T$, then $\mu_T\divides\cchi_T$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

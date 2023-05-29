@@ -22,4 +22,4 @@ Let $I\subseteq R$ be an ideal of a ring $R$. Then the **quotient ring of $R$ un
 
 ```
 
-**Remark.** If $I$ is only a left-ideal of $R$, then the quotient group $R/I$ no longer has a ring structure. However, it is still a left $R$-module via the action $R\times R/I\to R/I:\tpl{r,x+I}\mapsto rx+I$. This map is well-defined since for any $x+I=y+I\in R/I$ and any $r\in R$, we have that $rx-ry=r\l(x-y\r)\in I$, and hence $rx+I=ry+I$. The $R$-module axioms then follow from the ring axioms for $R$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $I$ is only a left-ideal of $R$, then the quotient group $R/I$ no longer has a ring structure. However, it is still a left $R$-module via the action $R\times R/I\to R/I:\tpl{r,x+I}\mapsto rx+I$. This map is well-defined since for any $x+I=y+I\in R/I$ and any $r\in R$, we have that $rx-ry=r\l(x-y\r)\in I$, and hence $rx+I=ry+I$. The $R$-module axioms then follow from the ring axioms for $R$.<span style="float:right;">$\blacklozenge$</span>

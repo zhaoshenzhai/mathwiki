@@ -23,4 +23,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Observe that $xRy\Leftrightarrow yR^{-1}x$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Observe that $xRy\Leftrightarrow yR^{-1}x$.<span style="float:right;">$\blacklozenge$</span>

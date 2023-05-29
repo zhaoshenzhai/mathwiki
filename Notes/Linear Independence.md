@@ -24,7 +24,7 @@ where $\alpha_i=0$ for all but finitely-many $i\in I$. Otherwise, $U$ is said to
 
 ```
 
-**Remark.** Note that $\em$ is vacuously linearly independent. Observe that if $I=\l\{1,\dots,n\r\}$ for some $n\in\N^+$, the sequence of vectors $u_1,\dots,u_n$ is linearly independent if
+<b>Remark.</b> Note that $\em$ is vacuously linearly independent. Observe that if $I=\l\{1,\dots,n\r\}$ for some $n\in\N^+$, the sequence of vectors $u_1,\dots,u_n$ is linearly independent if
 $$\begin{equation}
     \fa\tpl{\alpha_i}_{i\in I}\!\in K^n:\l(\sum_{i=1}^n\alpha_iu_i=0\Rightarrow\fa i\in\l\{1,\dots,n\r\}:\alpha_i=0\r).
 \end{equation}$$
@@ -32,7 +32,7 @@ We may then redefine linear independence for arbitrary $I$ by saying that $\l\{u
 
 ---
 
-**Remark.** Here, we need to define linear independence/dependence for indexed subsets of $V$ rather than for sets. To illustrate, consider the set $\l\{u\r\}$, which is obviously linearly independent. Letting $u_1,u_2\coloneqq u$, we see that $\l\{u_1,u_2\r\}=\l\{u\r\}$ is also linearly independent even though
+<b>Remark.</b> Here, we need to define linear independence/dependence for indexed subsets of $V$ rather than for sets. To illustrate, consider the set $\l\{u\r\}$, which is obviously linearly independent. Letting $u_1,u_2\coloneqq u$, we see that $\l\{u_1,u_2\r\}=\l\{u\r\}$ is also linearly independent even though
 $$\begin{equation}
     1\cdot u_1+\l(-1\r)\cdot u_2=0.
 \end{equation}$$

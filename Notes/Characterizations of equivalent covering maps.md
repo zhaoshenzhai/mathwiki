@@ -20,7 +20,7 @@ Let $\tpl{X,x_0}$ be a locally path-connected pointed space and let $p_i:(\widet
 
 ```
 
-**Remark.** Note that the isomorphism $f:\widetilde{X}_1\to\widetilde{X}_2$ takes $\widetilde{x}_1$ to $\widetilde{x}_2$ iff $p_{1\ast}\pi_1\,(\widetilde{X}_1,\widetilde{x}_1)=p_{2\ast}\pi_1\,(\widetilde{X}_2,\widetilde{x}_2)$. In general, this may not be the case and the two subgroups are only conjugate.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Note that the isomorphism $f:\widetilde{X}_1\to\widetilde{X}_2$ takes $\widetilde{x}_1$ to $\widetilde{x}_2$ iff $p_{1\ast}\pi_1\,(\widetilde{X}_1,\widetilde{x}_1)=p_{2\ast}\pi_1\,(\widetilde{X}_2,\widetilde{x}_2)$. In general, this may not be the case and the two subgroups are only conjugate.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

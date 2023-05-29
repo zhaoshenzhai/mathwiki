@@ -28,4 +28,4 @@ Now $z\neq z$ is always false, and so is $z\in\xi\land z\neq z$. Hence, by the d
 
 ---
 
-**Remark.** The existence of a set $\xi$ can be proven in pure logic by invoking the axiom $\fa x\l(x=x\r)$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The existence of a set $\xi$ can be proven in pure logic by invoking the axiom $\fa x\l(x=x\r)$.<span style="float:right;">$\blacklozenge$</span>

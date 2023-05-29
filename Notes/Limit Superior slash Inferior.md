@@ -27,4 +27,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** For an unbounded sequence $\tpl{x_n}$, we adopt the convention that $\sup S=+\infty$ if $S$ is unbounded above, and $\inf S=-\infty$ if $S$ is unbounded below.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> For an unbounded sequence $\tpl{x_n}$, we adopt the convention that $\sup S=+\infty$ if $S$ is unbounded above, and $\inf S=-\infty$ if $S$ is unbounded below.<span style="float:right;">$\blacklozenge$</span>

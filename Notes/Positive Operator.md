@@ -21,8 +21,8 @@ A linear operator $T:V\to V$ on an inner product space $V$ is said to be **posit
 
 ```
 
-**Remark.** Positive operators are analogous to complex numbers $z\in\C$ such that $z=w\bar{w}=\l|w\r|^2\geq0$ for some $w\in\C$. Definiteness is when $w\neq0$, so $z>0$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Positive operators are analogous to complex numbers $z\in\C$ such that $z=w\bar{w}=\l|w\r|^2\geq0$ for some $w\in\C$. Definiteness is when $w\neq0$, so $z>0$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** Every positive operator is self-adjoint since $T^\adj=\l(SS^\adj\r)^\adj=S^{\adj\adj}S^\adj=SS^\adj=T$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Every positive operator is self-adjoint since $T^\adj=\l(SS^\adj\r)^\adj=S^{\adj\adj}S^\adj=SS^\adj=T$.<span style="float:right;">$\blacklozenge$</span>

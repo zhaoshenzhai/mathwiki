@@ -31,7 +31,7 @@ commute.
 
 ```
 
-**Remark.** A natural transformation $\eta$ from $\ms{F}$ to $\ms{G}$ can be represented pictorially as
+<b>Remark.</b> A natural transformation $\eta$ from $\ms{F}$ to $\ms{G}$ can be represented pictorially as
 
 ![[Images/2022-03-12_134415/image.svg|120]]
 
@@ -39,4 +39,4 @@ or simply $\eta:\ms{F}\Rightarrow\ms{G}$ if the categories are understood.<span 
 
 ---
 
-**Remark.** In other words, a natural transformation $\eta$ is given by an indexed family $\l\{\eta_X\r\}_{X\in\Obj\l(\cat{C}\r)}$ where $\eta_X:\ms{F}\l(X\r)\to\ms{G}\l(X\r)$ are morphisms in $\cat{D}$, called the **component morphisms of $\eta$**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, a natural transformation $\eta$ is given by an indexed family $\l\{\eta_X\r\}_{X\in\Obj\l(\cat{C}\r)}$ where $\eta_X:\ms{F}\l(X\r)\to\ms{G}\l(X\r)$ are morphisms in $\cat{D}$, called the **component morphisms of $\eta$**.<span style="float:right;">$\blacklozenge$</span>

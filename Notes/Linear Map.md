@@ -23,8 +23,8 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Equivalently, a function $T:V\to W$ is a linear map if $\fa\alpha\in K,\fa v_1,v_2\in V:T\l(\alpha v_1+v_2\r)=\alpha T\l(v_1\r)+T\l(v_2\r)$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Equivalently, a function $T:V\to W$ is a linear map if $\fa\alpha\in K,\fa v_1,v_2\in V:T\l(\alpha v_1+v_2\r)=\alpha T\l(v_1\r)+T\l(v_2\r)$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** Let $V$ and $W$ are finite-dimensional and fix bases for $V$ and $W$, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$. Then any linear map can be represented by an $m\times n$ matrix $A\in\mat{m\times n}{K}$, and if we define _matrix multiplication_ as composition of linear maps, the action of $T$ on $v$ is given by left multiplication of $A$ on the coordinate representation of $v$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Let $V$ and $W$ are finite-dimensional and fix bases for $V$ and $W$, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$. Then any linear map can be represented by an $m\times n$ matrix $A\in\mat{m\times n}{K}$, and if we define _matrix multiplication_ as composition of linear maps, the action of $T$ on $v$ is given by left multiplication of $A$ on the coordinate representation of $v$.<span style="float:right;">$\blacklozenge$</span>

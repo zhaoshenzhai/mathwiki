@@ -24,7 +24,7 @@ Such a set $\bigcup\mc{A}$ is unique by $\axiext$.
 
 ```
 
-**Remark.** One can also write the union $\bigcup\mc{A}$ using $\textrm{`}$index$\textrm{'}$ notation as $\bigcup_{i\in I}A_i$. This is formalized by viewing $\mc{A}$ as an indexed family $\l\{A_i\r\}_{i\in I}$, so the focus shifts from $\mc{A}$ to its elements $A_i$. Note that $\axiunion$ now takes the form
+<b>Remark.</b> One can also write the union $\bigcup\mc{A}$ using $\textrm{`}$index$\textrm{'}$ notation as $\bigcup_{i\in I}A_i$. This is formalized by viewing $\mc{A}$ as an indexed family $\l\{A_i\r\}_{i\in I}$, so the focus shifts from $\mc{A}$ to its elements $A_i$. Note that $\axiunion$ now takes the form
 $$\begin{equation}
     \fa a\l(a\in\bigcup_{i\in I}A_i\Leftrightarrow\ex i\in I:a\in A_i\r),
 \end{equation}$$

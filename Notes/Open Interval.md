@@ -23,4 +23,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** If the set $X$ needs to be explicitly specified, write the open interval as $\l(a,b\r)_X$. Other (reasonable) notations apply too.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If the set $X$ needs to be explicitly specified, write the open interval as $\l(a,b\r)_X$. Other (reasonable) notations apply too.<span style="float:right;">$\blacklozenge$</span>

@@ -20,4 +20,4 @@ A set $R$ is a **binary relation** if $R$ is a set of ordered pairs. Formally, i
 
 ```
 
-**Remark.** If $R$ is a binary relation and $\tpl{x,y}\in R$, write $xRy$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $R$ is a binary relation and $\tpl{x,y}\in R$, write $xRy$.<span style="float:right;">$\blacklozenge$</span>

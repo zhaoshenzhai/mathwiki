@@ -21,7 +21,7 @@ Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$
 
 ```
 
-**Remark.** That is, there are at most $m_a\!\l(\lambda\r)$ linearly independent eigenvectors for any eigenvector $\lambda$ of $T$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That is, there are at most $m_a\!\l(\lambda\r)$ linearly independent eigenvectors for any eigenvector $\lambda$ of $T$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

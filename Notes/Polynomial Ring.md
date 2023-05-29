@@ -24,7 +24,7 @@ where $u\coloneqq\max\l\{m,n\r\}$ (so if $m>n$, $a_{n+1},\dots,a_m\coloneqq0$, a
 
 ```
 
-**Remark.** Multiplication can be defined in accordance with the distributive law. Indeed, we may first define it for monomials $f_i\coloneqq a_ix^i$ and $g_j\coloneqq b^jx^j$ as $f_i\cdot g_j\coloneqq a_ib_jx^{i+j}$. Now, letting
+<b>Remark.</b> Multiplication can be defined in accordance with the distributive law. Indeed, we may first define it for monomials $f_i\coloneqq a_ix^i$ and $g_j\coloneqq b^jx^j$ as $f_i\cdot g_j\coloneqq a_ib_jx^{i+j}$. Now, letting
 $$\begin{equation}
     f\coloneqq\sum_{i=0}^{n}f_i=\sum_{i=0}^{n}a_ix^i\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ g\coloneqq\sum_{j=0}^{m}g_j=\sum_{j=0}^{m}b_jx^j,
 \end{equation}$$

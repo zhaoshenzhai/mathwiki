@@ -20,4 +20,4 @@ Let $V$ be a $K$-vector space. An indexed subset $\mc{B}\coloneqq\l\{b_i\r\}_{i\
 
 ```
 
-**Remark.** If $I$ carries a total order, then $\mc{B}$ inherits this order and is hence said to be an **ordered (algebraic) basis for $V$**. Abusing notation, if $I=\l\{1,\dots,n\r\}$ for some $n\in\N$, we write $\mc{B}=\l\{b_1,\dots,b_n\r\}$ which is understood to be ordered. Similarly, if $I=\N$, we write $\mc{B}=\l\{b_1,b_2,\dots\r\}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $I$ carries a total order, then $\mc{B}$ inherits this order and is hence said to be an **ordered (algebraic) basis for $V$**. Abusing notation, if $I=\l\{1,\dots,n\r\}$ for some $n\in\N$, we write $\mc{B}=\l\{b_1,\dots,b_n\r\}$ which is understood to be ordered. Similarly, if $I=\N$, we write $\mc{B}=\l\{b_1,b_2,\dots\r\}$.<span style="float:right;">$\blacklozenge$</span>

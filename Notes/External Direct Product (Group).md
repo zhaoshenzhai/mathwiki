@@ -20,8 +20,8 @@ Let $\l\{G_i\r\}$ be a family of groups. The **(external) direct product of $\l\
 
 ```
 
-**Remark.** The direct product $\prod G_i$, equipped with the projection maps $\l\{\pi_i\r\}$, is a product in $\catgrp$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The direct product $\prod G_i$, equipped with the projection maps $\l\{\pi_i\r\}$, is a product in $\catgrp$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** In particular, if $X$ is a non-empty set, then $\prod_{x\in X}G=G^X$ is the function group from $X$ into $G$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, if $X$ is a non-empty set, then $\prod_{x\in X}G=G^X$ is the function group from $X$ into $G$.<span style="float:right;">$\blacklozenge$</span>

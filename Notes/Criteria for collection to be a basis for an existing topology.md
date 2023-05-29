@@ -25,4 +25,4 @@ We now prove that $\mc{T}=\mc{T}\l(\mc{B}\r)$; recall that $\mc{T}\l(\mc{B}\r)$ 
 
 ---
 
-**Remark.** Given a topology on $X$, this allows us to check whether a collection of open subsets is a basis for that topology.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Given a topology on $X$, this allows us to check whether a collection of open subsets is a basis for that topology.<span style="float:right;">$\blacklozenge$</span>

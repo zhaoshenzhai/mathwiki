@@ -20,6 +20,6 @@ Let $V$ be a $K$-vector space and let $T:V\to V$. A linear subspace $U\subseteq 
 
 ```
 
-**Remark.** Equivalently, $U$ is $T$-invariant if $\l.T\r|_U$ closes in $U$; that is, if $T\l(u\r)\in U$ whenever $u\in U$.
+<b>Remark.</b> Equivalently, $U$ is $T$-invariant if $\l.T\r|_U$ closes in $U$; that is, if $T\l(u\r)\in U$ whenever $u\in U$.
 * ($\Rightarrow$): Take $u\in U$. Since $T\l(u\r)\in\im_T\l(U\r)$, we have $T\l(u\r)\in U$.
 * ($\Leftarrow$): Take $u\in\im_T\l(U\r)$, so $\ex u_0\in U$ such that $T\l(u_0\r)=u$. But then $T\l(u_0\r)\in U$, so $u\in U$.<span style="float:right;">$\blacklozenge$</span>

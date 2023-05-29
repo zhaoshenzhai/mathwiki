@@ -21,7 +21,7 @@ Let $T:V\to V$ be a linear operator on an inner product space $V$ and let $\lamb
 
 ```
 
-**Remark.** In particular, this shows that the characteristic polynomial $\cchi$ of a self-adjoint operator $T$ splits over $\R$ (since $\cchi$ splits over $\C$ and all roots are real).<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, this shows that the characteristic polynomial $\cchi$ of a self-adjoint operator $T$ splits over $\R$ (since $\cchi$ splits over $\C$ and all roots are real).<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

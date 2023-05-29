@@ -24,17 +24,17 @@ Otherwise, we say that the **infinite series of $\tpl{a_k}_{k\in\N}$ diverges**.
 
 ```
 
-**Remark.** Two elementary conditions for convergence.
+<b>Remark.</b> Two elementary conditions for convergence.
 * (Necessary Condition for Convergence): If $\sum_{k=0}^{\infty}a_k$ converges, then $\lim\limits_{k\to\infty}a_k=0$. Indeed, since $a_k=s_k-s_{k-1}$, taking the limit yields the result.
 * (Cauchy Criterion for Convergence): Since $\R$ is complete, we see that $\sum_{k=0}^{\infty}a_k$ converges iff for every $\epsilon>0$, $\l|s_m-s_n\r|<\epsilon$ for all eventually $m,n\in\N$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** If $a_k\geq0$ for all eventually $k\in\N$, then $s_n$ is a monotone sequence and hence converges iff it is bounded, in which case
+<b>Remark.</b> If $a_k\geq0$ for all eventually $k\in\N$, then $s_n$ is a monotone sequence and hence converges iff it is bounded, in which case
 $$\begin{equation}
     \sum_{k=0}^{\infty}a_k=\lim\limits_{n\to\infty}s_n=\sup\limits_{n\in\N}s_n.\exqedin
 \end{equation}$$
 
 ---
 
-**Remark.** One can similarly define infinite series where the $\textrm{`}$base point$\textrm{'}$ starts at some $n_0\neq0$. We will be informal and call $\sum_{k=0}^\infty a_k$ the infinite series of $\tpl{a_k}_{k\in\N}$, even if it does not converge.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> One can similarly define infinite series where the $\textrm{`}$base point$\textrm{'}$ starts at some $n_0\neq0$. We will be informal and call $\sum_{k=0}^\infty a_k$ the infinite series of $\tpl{a_k}_{k\in\N}$, even if it does not converge.<span style="float:right;">$\blacklozenge$</span>

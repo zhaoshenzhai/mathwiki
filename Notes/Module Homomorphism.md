@@ -23,7 +23,7 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Equivalently, a function $\phi:M\to N$ is an $R$-module homomorphism if
+<b>Remark.</b> Equivalently, a function $\phi:M\to N$ is an $R$-module homomorphism if
 $$\begin{equation}
     \fa r\in R,\fa m_1,m_2\in M:\phi\l(rm_1+m_2\r)=r\phi\l(m_1\r)+\phi\l(m_2\r).\exqedin
 \end{equation}$$

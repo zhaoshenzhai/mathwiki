@@ -35,4 +35,4 @@ If $S=R\comp\l\{0\r\}$, then $S^{-1}R$ is called the **field of fractions of $R$
 
 ```
 
-**Remark.** There is a canonical embedding $\iota:R\into S^{-1}R:r\mapsto\frac{r}{1}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> There is a canonical embedding $\iota:R\into S^{-1}R:r\mapsto\frac{r}{1}$.<span style="float:right;">$\blacklozenge$</span>

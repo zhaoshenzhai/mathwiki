@@ -24,4 +24,4 @@ where $\mc{F}$ is the set of all closed sets of $X$.
 
 ```
 
-**Remark.** Obviously, $S\subseteq\bar{S}$; the converse holds iff $S$ is closed.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Obviously, $S\subseteq\bar{S}$; the converse holds iff $S$ is closed.<span style="float:right;">$\blacklozenge$</span>

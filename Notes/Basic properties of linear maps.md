@@ -20,7 +20,7 @@ Let $V_1$ and $V_2$ be $K$-vector spaces and consider a linear map $T:V_1\to V_2
 
 ```
 
-**Remark.** In particular, $\im T\subseteq V_2$ and $\ker T\subseteq V_1$ are subspaces.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, $\im T\subseteq V_2$ and $\ker T\subseteq V_1$ are subspaces.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

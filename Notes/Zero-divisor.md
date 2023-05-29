@@ -23,4 +23,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Observe that if $R$ does not have any zero-divisors, then it is an integral domain.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Observe that if $R$ does not have any zero-divisors, then it is an integral domain.<span style="float:right;">$\blacklozenge$</span>

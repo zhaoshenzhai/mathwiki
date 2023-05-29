@@ -20,7 +20,7 @@ The <b>class of ordinals</b> is the proper class $\ON\coloneqq\l\{x\mid x\textrm
 
 ```
 
-**Remark.** Some notations:
+<b>Remark.</b> Some notations:
 * $x\in\ON\,\colon\!\Leftrightarrow x\textrm{ is an ordinal}$.
 * $x\subseteq\ON\,\colon\!\Leftrightarrow\fa y\in x:y\textrm{ is an ordinal}$.
 * $x\cap\ON\,\colon\!\Leftrightarrow\l\{y\in x\mid y\textrm{ is an ordinal}\r\}$.<span style="float:right;">$\blacklozenge$</span>

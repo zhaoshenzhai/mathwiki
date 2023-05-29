@@ -28,7 +28,7 @@ Then there exists some $n\in\N$ such that $r_{n-1}\neq0$ and $r_n=0$, which whic
 
 ```
 
-**Remark.** This shows that $\gcd\l(a,b\r)$ exists and provides an algorithm to compute it.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> This shows that $\gcd\l(a,b\r)$ exists and provides an algorithm to compute it.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

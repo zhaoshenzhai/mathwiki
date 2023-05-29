@@ -28,4 +28,4 @@ If $\gen{S}=V$, then $S$ is said to **span/generate $V$**.
 
 ```
 
-**Remark.** Equivalently $\gen{S}\coloneqq\l\{v\in V\mid\ex\alpha_i\in K\land s_i\in S:v=\alpha_1s_1+\cdots\alpha_n\r\}$ contains all elements $v\in V$ that can be expressed as a (finite) linear combination of vectors in $V$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Equivalently $\gen{S}\coloneqq\l\{v\in V\mid\ex\alpha_i\in K\land s_i\in S:v=\alpha_1s_1+\cdots\alpha_n\r\}$ contains all elements $v\in V$ that can be expressed as a (finite) linear combination of vectors in $V$.<span style="float:right;">$\blacklozenge$</span>

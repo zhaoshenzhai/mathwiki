@@ -21,7 +21,7 @@ Let $R$ be a UFD and let $F$ be the field of fractions of $R$. For all non-trivi
 
 ```
 
-**Remark.** If $f$ is monic, then $f$ is irreducible in $R\l[x\r]$ iff it is irreducible in $F\l[x\r]$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $f$ is monic, then $f$ is irreducible in $R\l[x\r]$ iff it is irreducible in $F\l[x\r]$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

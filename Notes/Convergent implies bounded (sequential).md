@@ -21,7 +21,7 @@ Let $\tpl{X,d}$ be a metric space and consider a sequence $\tpl{x_n}_{n\in\N}$ i
 
 ```
 
-**Remark.** Thus if a sequence is unbounded, then it diverges.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Thus if a sequence is unbounded, then it diverges.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

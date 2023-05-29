@@ -21,7 +21,7 @@ Let $\tpl{x_n}$ be a sequence in $\R$. Then $\tpl{x_n}$ diverges iff either it i
 
 ```
 
-**Remark.** In other words, a sequence $\tpl{x_n}$ converges iff it is bounded and admits only one subsequential limit. In terms of limit superior and inferior, a bounded sequence $\tpl{x_n}$ converges iff
+<b>Remark.</b> In other words, a sequence $\tpl{x_n}$ converges iff it is bounded and admits only one subsequential limit. In terms of limit superior and inferior, a bounded sequence $\tpl{x_n}$ converges iff
 $$\begin{equation}
     \liminf\limits_{n\to\infty}x_n=\limsup\limits_{n\to\infty}x_n.\exqedin
 \end{equation}$$

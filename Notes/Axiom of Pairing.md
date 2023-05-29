@@ -20,11 +20,11 @@ $$\begin{equation}
 
 ```
 
-**Remark.** By Extensionality, such a set $P$ is unique and can thus be called the **pair set of $A$ and $B$**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> By Extensionality, such a set $P$ is unique and can thus be called the **pair set of $A$ and $B$**.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** We may weaken this axiom to
+<b>Remark.</b> We may weaken this axiom to
 $$\begin{equation}
     \fa A\fa B\ex P'\l(A\in P'\land B\in P'\r).
 \end{equation}$$

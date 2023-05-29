@@ -27,4 +27,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** If $S=X$, write $\im f\coloneqq\im_f\!\l(X\r)$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $S=X$, write $\im f\coloneqq\im_f\!\l(X\r)$.<span style="float:right;">$\blacklozenge$</span>

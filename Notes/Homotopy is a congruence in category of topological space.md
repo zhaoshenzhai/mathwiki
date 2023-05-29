@@ -23,7 +23,7 @@ Let $X$ and $Y$ be topological spaces and fix $S\subseteq X$. The $\textrm{`}$is
 
 ```
 
-**Remark.** Taking $S=\em$ shows that being freely homotopic is also a congruence relation.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Taking $S=\em$ shows that being freely homotopic is also a congruence relation.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

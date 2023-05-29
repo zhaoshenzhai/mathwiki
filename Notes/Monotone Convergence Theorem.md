@@ -23,7 +23,7 @@ Otherwise, if $\tpl{x_n}$ is eventually monotone but not bounded, then it conver
 
 ```
 
-**Remark.** If we make the convention that $\sup\limits_{n\in\N}x_n=+\infty$ if $\tpl{x_n}$ is unbounded above, and similarly if $\tpl{x_n}$ is unbounded below, then we may restate the theorem as: If $\tpl{x_n}$ is an eventually monotonically increasing (resp. decreasing) sequence in $X$, then $\lim\limits_{n\to\infty}x_n=\sup\limits_{n\in\N}x_n$ (resp. $\lim\limits_{n\to\infty}x_n=\inf\limits_{n\in\N}x_n$).<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If we make the convention that $\sup\limits_{n\in\N}x_n=+\infty$ if $\tpl{x_n}$ is unbounded above, and similarly if $\tpl{x_n}$ is unbounded below, then we may restate the theorem as: If $\tpl{x_n}$ is an eventually monotonically increasing (resp. decreasing) sequence in $X$, then $\lim\limits_{n\to\infty}x_n=\sup\limits_{n\in\N}x_n$ (resp. $\lim\limits_{n\to\infty}x_n=\inf\limits_{n\in\N}x_n$).<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

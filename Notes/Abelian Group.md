@@ -20,7 +20,7 @@ A group $\tpl{G,\ast}$ is said to be **abelian** if the binary operation $\ast$ 
 
 ```
 
-**Remark.** Every abelian group $M$ can be equipped with a $\Z$-module structure. Indeed, for the $\Z$-module axioms to be satisfied, we need to define, for all $m\in M$, the $\Z$-action on $m$ by $0m\coloneqq0$,
+<b>Remark.</b> Every abelian group $M$ can be equipped with a $\Z$-module structure. Indeed, for the $\Z$-module axioms to be satisfied, we need to define, for all $m\in M$, the $\Z$-action on $m$ by $0m\coloneqq0$,
 $$\begin{equation}
     nm\coloneqq\underbrace{m+\cdots+m}_{\mathclap{n\textrm{ times}}}
 \end{equation}$$

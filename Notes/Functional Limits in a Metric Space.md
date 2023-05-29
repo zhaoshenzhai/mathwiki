@@ -23,4 +23,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** We may rephrase this statement as $\fa\epsilon>0,\ex\delta>0:\im_f\!\l(B_\delta\!\l(p\r)\cap\Omega\comp\l\{p\r\}\r)\subseteq B_\epsilon\!\l(L\r)$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> We may rephrase this statement as $\fa\epsilon>0,\ex\delta>0:\im_f\!\l(B_\delta\!\l(p\r)\cap\Omega\comp\l\{p\r\}\r)\subseteq B_\epsilon\!\l(L\r)$.<span style="float:right;">$\blacklozenge$</span>

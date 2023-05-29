@@ -25,7 +25,7 @@ Equality holds if for all $x\in\dom R$, there exists a unique $y$ such that $xRy
 
 ```
 
-**Remark.** If $R$ is a function, then equality always hold.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $R$ is a function, then equality always hold.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -21,7 +21,7 @@ where $\alpha_i=0$ for all but finitely-many $i\in I$.
 
 ```
 
-**Remark.** Using direct sums, we may rephrase the above by saying that $\mc{B}$ is a basis for $V$ iff $V=\bigoplus_{i\in I}\span\l\{b_i\r\}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Using direct sums, we may rephrase the above by saying that $\mc{B}$ is a basis for $V$ iff $V=\bigoplus_{i\in I}\span\l\{b_i\r\}$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
@@ -44,7 +44,7 @@ so if $\sum_{i\in I}\alpha_ib_i=0$ for any $\l\{\alpha_i\r\}\subseteq K$, unique
 
 ---
 
-**Remark.** We may rephrase the equivalent statement by letting $n\in\N$ be the unique number of basis elements whose coefficients are non-zero (it is finite as $\alpha_i=0$ for all but finitely-many $i\in I$). Thus it may be rewritten as
+<b>Remark.</b> We may rephrase the equivalent statement by letting $n\in\N$ be the unique number of basis elements whose coefficients are non-zero (it is finite as $\alpha_i=0$ for all but finitely-many $i\in I$). Thus it may be rewritten as
 $$\begin{equation}
     \fa v\in V,\ex!n\in\N,\ex!\alpha_1,\dots,\alpha_n\in K\setminus\l\{0\r\}:v=\sum_{i=1}^n\alpha_ib_i.
 \end{equation}$$

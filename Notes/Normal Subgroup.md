@@ -20,4 +20,4 @@ Let $G$ be a group. A subgroup $N\subgrpeq G$ is said to be a **normal in $G$** 
 
 ```
 
-**Remark.** Every subgroup of an abelian group is normal.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Every subgroup of an abelian group is normal.<span style="float:right;">$\blacklozenge$</span>

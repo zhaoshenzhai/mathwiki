@@ -24,4 +24,4 @@ Let $K$ be a field. The **category of vector spaces over $K$** is the (locally-s
 
 ```
 
-**Remark.** That $\catvect$ is a category follows from the fact that identities and compositions of linear maps are linear.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That $\catvect$ is a category follows from the fact that identities and compositions of linear maps are linear.<span style="float:right;">$\blacklozenge$</span>

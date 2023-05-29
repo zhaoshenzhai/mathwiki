@@ -24,4 +24,4 @@ is called the **conjugate exponent of $p$**.
 
 ```
 
-**Remark.** If $p=1$, we formally its conjugate exponent as $q\coloneqq+\infty$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $p=1$, we formally its conjugate exponent as $q\coloneqq+\infty$.<span style="float:right;">$\blacklozenge$</span>

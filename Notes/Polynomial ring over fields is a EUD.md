@@ -21,7 +21,7 @@ Let $K$ be a field. Then for all $a,b\in K\l[x\r]$ with $b\neq0$, there exist un
 
 ```
 
-**Remark.** In particular, $K\l[x\r]$ is a Euclidean Domain.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, $K\l[x\r]$ is a Euclidean Domain.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

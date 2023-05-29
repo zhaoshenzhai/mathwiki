@@ -21,11 +21,11 @@ and $A'=P_{\mc{C}\to\mc{C}'}AQ_{\mc{B}'\to\mc{B}}$ where $P_{\mc{C}\to\mc{C}'}\!
 
 ```
 
-**Remark.** A useful special case is when $V=W=K^n$ and we wish to change from the standard basis $\mc{S}$ of $K^n$ to some other basis $\mc{B}$ of $K^n$. In this case, we have $A'=Q^{-1}AQ$ where $Q\coloneqq Q_{\mc{B}\to\mc{S}}=\l[\id_{K^n}\r]_\mc{B}^\mc{S}$ is the change of basis matrix whose $j^\textrm{th}$ column is precisely the $j^\textrm{th}$ vector of $\mc{B}'$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A useful special case is when $V=W=K^n$ and we wish to change from the standard basis $\mc{S}$ of $K^n$ to some other basis $\mc{B}$ of $K^n$. In this case, we have $A'=Q^{-1}AQ$ where $Q\coloneqq Q_{\mc{B}\to\mc{S}}=\l[\id_{K^n}\r]_\mc{B}^\mc{S}$ is the change of basis matrix whose $j^\textrm{th}$ column is precisely the $j^\textrm{th}$ vector of $\mc{B}'$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** The statement can then be rephrased to saying that the diagram
+<b>Remark.</b> The statement can then be rephrased to saying that the diagram
 ![[Images/2022-06-01_174406/image.svg|260]]
 
 commutes.<span style="float:right;">$\blacklozenge$</span>

@@ -20,5 +20,5 @@ A function $f:X\to Y$ is a **surjection** if $\ran f=Y$. That is, if the relatio
 
 ```
 
-**Remark.** If $f:X\to Y$ is a surjection (or an **surjective function**, or an **onto function**), write $f:X\onto Y$.
+<b>Remark.</b> If $f:X\to Y$ is a surjection (or an **surjective function**, or an **onto function**), write $f:X\onto Y$.
 * Sometimes, it is convenient to write $X\onto Y$ to indicate that there exists a surjection $f:X\onto Y$, in which case we read **$X$ surjects onto $Y$**.<span style="float:right;">$\blacklozenge$</span>

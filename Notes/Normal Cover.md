@@ -20,8 +20,8 @@ A covering map $p:\widetilde{X}\to X$ of a topological space $X$ is said to be *
 
 ```
 
-**Remark.** Since $\Cov\,(\widetilde{X}/X)$ acts transitively on each fiber $p^{-1}\!\l(x\r)$, we see that the fibers are the orbits of $\widetilde{X}$ under $\Cov\,(\widetilde{X}/X)$. But since $p$ is a local homeomorphism, the map $p^{-1}\!\l(x\r)\mapsto x$ is a bijection and thus $\widetilde{X}/\Cov\,(\widetilde{X}/X)\iso X$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Since $\Cov\,(\widetilde{X}/X)$ acts transitively on each fiber $p^{-1}\!\l(x\r)$, we see that the fibers are the orbits of $\widetilde{X}$ under $\Cov\,(\widetilde{X}/X)$. But since $p$ is a local homeomorphism, the map $p^{-1}\!\l(x\r)\mapsto x$ is a bijection and thus $\widetilde{X}/\Cov\,(\widetilde{X}/X)\iso X$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** Normal covering spaces are also said to be **regular**, or **Galois**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Normal covering spaces are also said to be **regular**, or **Galois**.<span style="float:right;">$\blacklozenge$</span>

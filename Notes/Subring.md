@@ -20,4 +20,4 @@ Let $R$ be a ring and fix a subset $S\subseteq R$. Then $S$ is a **subring of $R
 
 ```
 
-**Remark.** It is clear that $S\subseteq R$ is a subring of $R$ iff it is a subgroup that is closed under multiplication. If rings are taken to have a unit, then we must have $1\in S$ too.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> It is clear that $S\subseteq R$ is a subring of $R$ iff it is a subgroup that is closed under multiplication. If rings are taken to have a unit, then we must have $1\in S$ too.<span style="float:right;">$\blacklozenge$</span>

@@ -25,7 +25,7 @@ Equality holds if for all $x\in\dom R$, there exists a unique $y$ such that $xRy
 
 ```
 
-**Remark.** If $R$ is a function, then equality always hold.
+<b>Remark.</b> If $R$ is a function, then equality always hold.
 * If $\mc{B}=\l\{A,B\r\}$, then the above reads $\preim_R\!\l(A\cap B\r)\subseteq\preim_R\!\l(A\r)\cap\preim_R\!\l(B\r)$.<span style="float:right;">$\blacklozenge$</span>
 
 ---

@@ -23,4 +23,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** If $K=\R$, then the simply reduces to a linear map.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $K=\R$, then the simply reduces to a linear map.<span style="float:right;">$\blacklozenge$</span>

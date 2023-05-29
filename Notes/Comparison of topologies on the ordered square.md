@@ -23,7 +23,7 @@ Furthermore, $\mc{T}_\textrm{or}$ and $\mc{T}_\textrm{pr}$ are not comparable.
 
 ---
 
-**Remark.** The relationship between these topologies can be illustrated with the following Hasse diagram:
+<b>Remark.</b> The relationship between these topologies can be illustrated with the following Hasse diagram:
 
 ![[Images/2022-02-18_163024/image.svg|80]]
 

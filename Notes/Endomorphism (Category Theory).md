@@ -20,7 +20,7 @@ Let $\cat{C}$ be a category and fix $X\in\Obj\l(\cat{C}\r)$. An **endomorphism o
 
 ```
 
-**Remark.** If there exists $X\in\Obj\l(\cat{C}\r)$ such that $f\in\End\l(X\r)$, write $f\in\End\l(\cat{C}\r)$. In other words, write, <i>informally</i>,
+<b>Remark.</b> If there exists $X\in\Obj\l(\cat{C}\r)$ such that $f\in\End\l(X\r)$, write $f\in\End\l(\cat{C}\r)$. In other words, write, <i>informally</i>,
 $$\begin{equation}
     \End\l(\cat{C}\r)\coloneqq\bigcup\l\{\End\l(X\r)\mid X\in\Obj\l(\cat{C}\r)\r\}.\exqedin
 \end{equation}$$

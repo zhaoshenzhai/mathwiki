@@ -24,5 +24,5 @@ That is, if the relation $f$ is left-unique.
 
 ```
 
-**Remark.** If $f:X\to Y$ is an injection (or an **injective function**, or a **1-1 function**), write $f:X\into Y$.
+<b>Remark.</b> If $f:X\to Y$ is an injection (or an **injective function**, or a **1-1 function**), write $f:X\into Y$.
 * Sometimes, it is convenient to write $X\into Y$ to indicate that there exists an injection $f:X\into Y$, in which case we read **$X$ injects into $Y$**.<span style="float:right;">$\blacklozenge$</span>

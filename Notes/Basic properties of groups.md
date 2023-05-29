@@ -20,7 +20,7 @@ Let $G$ be a group. Then, for all $g,h,k\in G$, the following algebraic identiti
 
 ```
 
-**Remark.** That the identity element is unique follows from division with $h\coloneqq g$. Similarly, for all $g\in G$, that the inverse of $g$ is unique follows by setting $h\coloneqq e$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That the identity element is unique follows from division with $h\coloneqq g$. Similarly, for all $g\in G$, that the inverse of $g$ is unique follows by setting $h\coloneqq e$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -21,7 +21,7 @@ Let $X$ be a set. If $X$ is inductive, then $X$ contains all natural numbers.
 
 ---
 
-**Remark.** The Principle of Ordinary Induction plays a dual role.
+<b>Remark.</b> The Principle of Ordinary Induction plays a dual role.
 * On one hand, it justifies our definition of the set of natural numbers $\omega$: If $n$ is a natural number, then $n\in X$ for any inductive set $X$ whose existence is stipulated by $\axiinfty$.
 
 * On the other, it serves as a proof method, called $\textrm{`}$proof by induction$\textrm{'}$: If we wish to prove $\fa n\in\omega:\phi\l(n\r)$, it suffices to prove

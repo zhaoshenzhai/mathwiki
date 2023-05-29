@@ -23,11 +23,11 @@ commutes; that is, if $g$ is both a left and a right-inverse of $f$, in which ca
 
 ```
 
-**Remark.** Since $\textrm{`}$is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $X\iso Y$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Since $\textrm{`}$is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $X\iso Y$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** We may relax the condition for $f$ to have both left and right inverses, since they coincide. Also, if $g,g':Y\to X$ are both inverses of $f$, then
+<b>Remark.</b> We may relax the condition for $f$ to have both left and right inverses, since they coincide. Also, if $g,g':Y\to X$ are both inverses of $f$, then
 $$\begin{equation}
     g=g\circ\id_Y=g\circ\l(f\circ g'\r)=\l(g\circ f\r)\circ g=\id_X\circ g=g'.
 \end{equation}$$

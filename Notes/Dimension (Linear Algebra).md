@@ -20,7 +20,7 @@ Let $V$ be a $K$-vector space. The **dimension of $V$** is $\dim_K\!V\coloneqq\l
 
 ```
 
-**Remark.** Depending on how one defines a basis $\mc{B}$ for $V$, this definition is justified by the following:
+<b>Remark.</b> Depending on how one defines a basis $\mc{B}$ for $V$, this definition is justified by the following:
 1. Every vector space has a basis, so we may talk about <i>a</i> cardinality.
 2. All bases of a vector space, being minimal spanning sets/maximal linearly independent sets, have the same cardinality, so we may talk about <i>the</i> cardinality.
 

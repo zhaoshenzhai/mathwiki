@@ -22,5 +22,5 @@ Let $X$ and $Y$ be topological spaces. A continuous map $f:X\to Y$ is a **homoto
 
 ```
 
-**Remark.** If $X$ and $Y$ are path-connected and are homotopy equivalent, then $\pi_1\l(X,x_0\r)\iso\pi_1\l(Y,y_0\r)$ for every $x_0\in X$ and $y_0\in Y$.
+<b>Remark.</b> If $X$ and $Y$ are path-connected and are homotopy equivalent, then $\pi_1\l(X,x_0\r)\iso\pi_1\l(Y,y_0\r)$ for every $x_0\in X$ and $y_0\in Y$.
 * In particular, if $X$ is contractible, then $\pi_1\l(X,x_0\r)$ vanishes for all $x_0\in X$.<span style="float:right;">$\blacklozenge$</span>

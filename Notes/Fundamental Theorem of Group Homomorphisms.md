@@ -18,7 +18,7 @@ Let $G$ and $H$ be groups and consider a group homomorphism $\phi:G\to H$. Then 
 
 ```
 
-**Remark.** In other words, every homomorphism $\phi:G\to H$ can be decomposed into $\phi=\iota\circ\widetilde{\phi}\circ\pi$ for $\pi$ a surjective homomorphism, $\widetilde{\phi}$ a (unique) isomorphism, and $\iota$ an injective homomorphism.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, every homomorphism $\phi:G\to H$ can be decomposed into $\phi=\iota\circ\widetilde{\phi}\circ\pi$ for $\pi$ a surjective homomorphism, $\widetilde{\phi}$ a (unique) isomorphism, and $\iota$ an injective homomorphism.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -22,7 +22,7 @@ If $X$ is a (separable) metric space, then every condensation point $x$ of $S$ a
 
 ```
 
-**Remark.** In particular, this shows that if $X$ is a separable metric space, then $C$ is a perfect set.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, this shows that if $X$ is a separable metric space, then $C$ is a perfect set.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

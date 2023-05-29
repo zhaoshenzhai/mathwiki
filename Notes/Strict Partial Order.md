@@ -20,4 +20,4 @@ Let $X$ be a set. A binary relation $<$ on $X$ is a **strict partial order on $X
 
 ```
 
-**Remark.** Write $>\,\coloneqq\,<^{-1}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Write $>\,\coloneqq\,<^{-1}$.<span style="float:right;">$\blacklozenge$</span>

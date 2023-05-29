@@ -24,4 +24,4 @@ Let $G$ be a group. The **category of $G$-sets** is the (locally-small) category
 
 ```
 
-**Remark.** That $\catgset$ is a category follows from the fact that identities and compositions of $G$-equivariant maps are $G$-equivariant.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That $\catgset$ is a category follows from the fact that identities and compositions of $G$-equivariant maps are $G$-equivariant.<span style="float:right;">$\blacklozenge$</span>

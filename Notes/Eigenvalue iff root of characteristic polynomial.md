@@ -24,7 +24,7 @@ Let $V$ be a finite-dimensional $K$-vector space and consider a linear operator 
 
 ```
 
-**Remark.** Since $\cchi_T$ is a polynomial with degree $\dim V$ whose roots are exactly the eigenvalues of $T$, we see that $T$ has at most $\dim V$-many eigenvalues.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Since $\cchi_T$ is a polynomial with degree $\dim V$ whose roots are exactly the eigenvalues of $T$, we see that $T$ has at most $\dim V$-many eigenvalues.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

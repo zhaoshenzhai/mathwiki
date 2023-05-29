@@ -24,4 +24,4 @@ If $\gen{S}=G$, then $S$ is said to **generate $G$**.
 
 ```
 
-**Remark.** Equivalently, $\gen{S}\coloneqq\l\{g\in G\mid\ex s_i\in S\land\ex\epsilon_i=\pm1:g=s_1^{\epsilon_1}\cdots s_n^{\epsilon_n}\r\}$ contains all elements $g\in G$ that can be expressed as a (finite) product of elements in $S$ and their inverses. If $S=\l\{s_1,\dots,s_n\r\}$, we write $\gen{s_1,\dots,s_n}\coloneqq\gen{S}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Equivalently, $\gen{S}\coloneqq\l\{g\in G\mid\ex s_i\in S\land\ex\epsilon_i=\pm1:g=s_1^{\epsilon_1}\cdots s_n^{\epsilon_n}\r\}$ contains all elements $g\in G$ that can be expressed as a (finite) product of elements in $S$ and their inverses. If $S=\l\{s_1,\dots,s_n\r\}$, we write $\gen{s_1,\dots,s_n}\coloneqq\gen{S}$.<span style="float:right;">$\blacklozenge$</span>

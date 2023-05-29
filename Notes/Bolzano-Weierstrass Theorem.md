@@ -17,11 +17,11 @@ Every bounded sequence $\tpl{x_n}$ in $\R$ contains a convergent subsequence.
 
 ```
 
-**Remark.** It follows then that for any $d\in\N^+$, every bounded sequence $\tpl{x_n}$ in $\R^d$ has a convergent subsequence.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> It follows then that for any $d\in\N^+$, every bounded sequence $\tpl{x_n}$ in $\R^d$ has a convergent subsequence.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** One can prove this directly by invoking the Monotone Subsequence and Convergence Theorems. Indeed, by the Monotone Subsequence Theorem, the sequence $\tpl{x_n}$ has a monotone subsequence $\tpl{x_{n_k}}$. But $\tpl{x_n}$ is bounded, so $\tpl{x_{n_k}}$ is bounded too and hence converges by the Monotone Convergence Theorem.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> One can prove this directly by invoking the Monotone Subsequence and Convergence Theorems. Indeed, by the Monotone Subsequence Theorem, the sequence $\tpl{x_n}$ has a monotone subsequence $\tpl{x_{n_k}}$. But $\tpl{x_n}$ is bounded, so $\tpl{x_{n_k}}$ is bounded too and hence converges by the Monotone Convergence Theorem.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -23,4 +23,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Monomorphisms are also referred to as **monic** or **left-cancellative** morphisms.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Monomorphisms are also referred to as **monic** or **left-cancellative** morphisms.<span style="float:right;">$\blacklozenge$</span>

@@ -20,18 +20,18 @@ $$\begin{equation}
 
 ```
 
-**Remark.** By Extensionality, such a set $P$ is unique and can thus be called the **power set of $A$**.
+<b>Remark.</b> By Extensionality, such a set $P$ is unique and can thus be called the **power set of $A$**.
 
 ---
 
-**Remark.** Letting $\mc{L}'\coloneqq\mc{L}\cup\l\{\subseteq\r\}$ where $\subseteq$ is a binary relation interpreted as the subset relation, we can rewrite Power Set as the $\mc{L}'$-formula
+<b>Remark.</b> Letting $\mc{L}'\coloneqq\mc{L}\cup\l\{\subseteq\r\}$ where $\subseteq$ is a binary relation interpreted as the subset relation, we can rewrite Power Set as the $\mc{L}'$-formula
 $$\begin{equation}
     \fa A\ex P\fa S\l(S\in P\Leftrightarrow S\subseteq A\r).\exqedin
 \end{equation}$$
 
 ---
 
-**Remark.** We may weaken this axiom to
+<b>Remark.</b> We may weaken this axiom to
 $$\begin{equation}
     \fa A\ex P'\fa S\l(S\subseteq A\Rightarrow S\in P'\r).
 \end{equation}$$

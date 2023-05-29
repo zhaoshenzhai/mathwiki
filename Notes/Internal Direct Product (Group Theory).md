@@ -23,6 +23,6 @@ Let $H_1,\dots,H_n$ be subgroups of a group $G$. Then $G$ is said to be an **(in
 
 ```
 
-**Remark.** The internal direct product $G=N_1N_2$ is isomorphic to the external direct product $N_1\times N_2$ via $\phi:N_1\times N_2\to G$ mapping $\tpl{n_1,n_2}\mapsto n_1n_2$. Indeed, it is a homomorphism since $N_1,N_2\nsubgrpeq G$, and is also surjective since $G=N_1N_2$. For injectivity, take $\tpl{n_1,n_2}\in\ker\phi$, so $n_1=n_2^{-1}$. But then $n_1\in N_1\cap N_2=\l\{e\r\}$, which forces $n_1=n_2=e$ and so $\phi$ is an isomorphism.
+<b>Remark.</b> The internal direct product $G=N_1N_2$ is isomorphic to the external direct product $N_1\times N_2$ via $\phi:N_1\times N_2\to G$ mapping $\tpl{n_1,n_2}\mapsto n_1n_2$. Indeed, it is a homomorphism since $N_1,N_2\nsubgrpeq G$, and is also surjective since $G=N_1N_2$. For injectivity, take $\tpl{n_1,n_2}\in\ker\phi$, so $n_1=n_2^{-1}$. But then $n_1\in N_1\cap N_2=\l\{e\r\}$, which forces $n_1=n_2=e$ and so $\phi$ is an isomorphism.
 
 This isomorphism generalizes to all finite products by induction, but does <i>not</i> generalize to infinite products.<span style="float:right;">$\blacklozenge$</span>

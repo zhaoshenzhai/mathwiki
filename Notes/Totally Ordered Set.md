@@ -20,4 +20,4 @@ Let $X$ be a set and $\leq$ be a total order on $X$. The pair $\tpl{X,\leq}$ is 
 
 ```
 
-**Remark.** Note that the pair $\tpl{X,<}$ is also called a totally ordered set; one can be constructed from the other.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Note that the pair $\tpl{X,<}$ is also called a totally ordered set; one can be constructed from the other.<span style="float:right;">$\blacklozenge$</span>

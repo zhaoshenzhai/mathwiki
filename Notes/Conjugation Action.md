@@ -24,7 +24,7 @@ Let $G$ be a group. The **conjugation action on $G$** is the left $G$-action $\p
 
 ```
 
-**Remark.** Observe that $\ker\phi$ consists of all $g\in G$ such that $xg=gx$ for all $x\in G$; that is, $\ker\phi=Z\l(G\r)$. Furthermore, for all $x\in G$, we have:
+<b>Remark.</b> Observe that $\ker\phi$ consists of all $g\in G$ such that $xg=gx$ for all $x\in G$; that is, $\ker\phi=Z\l(G\r)$. Furthermore, for all $x\in G$, we have:
 * The orbit $Gx$ consists of all $y\in G$ such that $y=gxg^{-1}$ for some $g\in G$. An element $y\in Gx$ is said to be **conjugate to $x$** and $Gx$ is the **conjugacy class of $x$**.
 * The stabilizer $G_x$ consists of all $g\in G$ such that $xgx^{-1}=g$; that is, $G_x=C_G\!\l(x\r)=N_G\!\l(x\r)$.
 
@@ -32,4 +32,4 @@ Generalizing, we let $G$ act on $\pow\l(G\r)$ by $\phi_g\!\l(S\r)\coloneqq gSg^{
 
 ---
 
-**Remark.** If $G$ is abelian, then $\phi_g\!\l(h\r)=h$ is the trivial action of $G$ on itself.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $G$ is abelian, then $\phi_g\!\l(h\r)=h$ is the trivial action of $G$ on itself.<span style="float:right;">$\blacklozenge$</span>

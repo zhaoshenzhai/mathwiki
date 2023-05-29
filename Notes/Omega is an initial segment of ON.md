@@ -25,4 +25,4 @@ Let $n$ be a natural number. Then every element $m\in n$ is also a natural numbe
 
 ---
 
-**Remark.** Once the set of natural numbers $\omega$ is defined, this states that $\omega$ is an initial segment of $\ON$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Once the set of natural numbers $\omega$ is defined, this states that $\omega$ is an initial segment of $\ON$.<span style="float:right;">$\blacklozenge$</span>

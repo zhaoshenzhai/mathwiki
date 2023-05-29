@@ -24,12 +24,12 @@ Similarly for a **right ideal in $R$**. A two-sided ideal in $R$ is called an **
 
 ```
 
-**Remark.** If one takes rings as having unity, then ideals are defined to be sub<i>groups</i> of $R$ that are stable under multiplication. Otherwise, the only ideal of $R$ is the trivial ideal $\sring{0}$ and $R$ itself.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If one takes rings as having unity, then ideals are defined to be sub<i>groups</i> of $R$ that are stable under multiplication. Otherwise, the only ideal of $R$ is the trivial ideal $\sring{0}$ and $R$ itself.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** A left ideal $I\subseteq R$ is a left $R$-module via the action $R\times I\to I:\tpl{r,i}\mapsto ri$; being a left-ideal ensures that $ri\in I$. Indeed $I$ is a left $R$-submodule of $R$, where $R$ is viewed as a left $R$-module over itself.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A left ideal $I\subseteq R$ is a left $R$-module via the action $R\times I\to I:\tpl{r,i}\mapsto ri$; being a left-ideal ensures that $ri\in I$. Indeed $I$ is a left $R$-submodule of $R$, where $R$ is viewed as a left $R$-module over itself.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** Since the additive group of $R$ is abelian, we see that every ideal in $R$ is a normal subgroup thereof.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Since the additive group of $R$ is abelian, we see that every ideal in $R$ is a normal subgroup thereof.<span style="float:right;">$\blacklozenge$</span>

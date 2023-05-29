@@ -22,4 +22,4 @@ Let $X$ be a topological space. A **deformation retraction** is a homotopy from 
 
 ```
 
-**Remark.** Equivalently, $S\subseteq X$ is a deformation retract of $X$ if there exists a continuous map $r:X\to S$ such that $r\circ\iota=\id_S$ and $\iota\circ r\htopeq\id_X$ where $\iota:S\to X$ is the inclusion. Thus deformation retracts of $X$ are homotopic equivalent to $X$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Equivalently, $S\subseteq X$ is a deformation retract of $X$ if there exists a continuous map $r:X\to S$ such that $r\circ\iota=\id_S$ and $\iota\circ r\htopeq\id_X$ where $\iota:S\to X$ is the inclusion. Thus deformation retracts of $X$ are homotopic equivalent to $X$.<span style="float:right;">$\blacklozenge$</span>

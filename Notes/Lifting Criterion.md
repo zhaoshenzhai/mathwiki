@@ -18,7 +18,7 @@ Let $f:\tpl{Y,y_0}\to\tpl{X,x_0}$ be a continuous map between pointed topologica
 
 ```
 
-**Remark.** In particular, if $Y$ is simply-connected, then $\pi_1\l(Y,y_0\r)=0$ and $f_\ast\!\l(\pi_1\l(Y,y_0\r)\r)=0\subseteq p_\ast\big(\pi_1(\widetilde{X},\widetilde{x}_0)\big)$ obviously holds. Thus every map $f:\tpl{Y,y_0}\to\tpl{X,x_0}$ has a unique lift $\widetilde{f}:\tpl{Y,y_0}\to(\widetilde{X},\widetilde{x}_0)$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, if $Y$ is simply-connected, then $\pi_1\l(Y,y_0\r)=0$ and $f_\ast\!\l(\pi_1\l(Y,y_0\r)\r)=0\subseteq p_\ast\big(\pi_1(\widetilde{X},\widetilde{x}_0)\big)$ obviously holds. Thus every map $f:\tpl{Y,y_0}\to\tpl{X,x_0}$ has a unique lift $\widetilde{f}:\tpl{Y,y_0}\to(\widetilde{X},\widetilde{x}_0)$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

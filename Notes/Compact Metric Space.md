@@ -20,4 +20,4 @@ A metric space $\tpl{X,d}$ is said to be **compact** if every open cover has a f
 
 ```
 
-**Remark.** In other words, $\tpl{X,d}$ is compact if its induced topological space is.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, $\tpl{X,d}$ is compact if its induced topological space is.<span style="float:right;">$\blacklozenge$</span>

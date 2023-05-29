@@ -17,7 +17,7 @@ Let $X\coloneqq\l\{1,\dots,n\r\}$. There exists a unique homomorphism $\epsilon:
 
 ```
 
-**Remark.** Since every cycle $\sigma\coloneqq\tpl{a_1\ \cdots\ a_n}$ can be decomposed into ($n-1$)-many transpositions, we see that $\epsilon\l(\sigma\r)=\l(-1\r)^{n-1}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Since every cycle $\sigma\coloneqq\tpl{a_1\ \cdots\ a_n}$ can be decomposed into ($n-1$)-many transpositions, we see that $\epsilon\l(\sigma\r)=\l(-1\r)^{n-1}$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

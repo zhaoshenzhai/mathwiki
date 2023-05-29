@@ -17,7 +17,7 @@ Every non-constant polynomial $p\in\C\l[z\r]$ has a root in $\C$.
 
 ```
 
-**Remark.** Successively applying polynomial division, this is equivalent to the factorization $p=c\prod_{i\in I}\l(x-r_i\r)^{n_i}$ for some $c\in\C$, distinct $r_i\in\C$, and $n_i\in\N^+$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Successively applying polynomial division, this is equivalent to the factorization $p=c\prod_{i\in I}\l(x-r_i\r)^{n_i}$ for some $c\in\C$, distinct $r_i\in\C$, and $n_i\in\N^+$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

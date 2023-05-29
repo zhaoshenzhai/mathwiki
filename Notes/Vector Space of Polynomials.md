@@ -24,4 +24,4 @@ where $u\coloneqq\max\l\{m,n\r\}$ (so if $m>n$, $a_{n+1},\dots,a_m\coloneqq0$, a
 
 ```
 
-**Remark.** Clearly the set $\l\{1,x,x^2,x^3,\dots\r\}$ is a basis for $K\l[x\r]$. Thus $\dim K\l[x\r]=\infty$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Clearly the set $\l\{1,x,x^2,x^3,\dots\r\}$ is a basis for $K\l[x\r]$. Thus $\dim K\l[x\r]=\infty$.<span style="float:right;">$\blacklozenge$</span>

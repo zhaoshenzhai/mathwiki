@@ -25,4 +25,4 @@ Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. The **infimum of $S$ in $X
 
 ```
 
-**Remark.** If $l$ is the infimum of $S$, write $\inf S\coloneqq l$. Similarly, if $u$ is the supremum of $S$, write $\sup S\coloneqq u$. In the context of lattice theory, the infimum is also called the **meet of $S$**, denoted by $\bigwedge S$, and the supremum is also called the **join of $S$**, denoted by $\bigvee S$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $l$ is the infimum of $S$, write $\inf S\coloneqq l$. Similarly, if $u$ is the supremum of $S$, write $\sup S\coloneqq u$. In the context of lattice theory, the infimum is also called the **meet of $S$**, denoted by $\bigwedge S$, and the supremum is also called the **join of $S$**, denoted by $\bigvee S$.<span style="float:right;">$\blacklozenge$</span>

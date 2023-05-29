@@ -20,4 +20,4 @@ Let $X$ be a set. A binary relation $\leq$ on $X$ is a **preorder on $X$** if $\
 
 ```
 
-**Remark.** Write $\geq\,\coloneqq\,\leq^{-1}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Write $\geq\,\coloneqq\,\leq^{-1}$.<span style="float:right;">$\blacklozenge$</span>

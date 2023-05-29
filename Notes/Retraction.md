@@ -21,4 +21,4 @@ Let $X$ be a topological space. A continuous map $r:X\to X$ is said to be a **re
 
 ```
 
-**Remark.** Since $r\l(r\l(x\r)\r)=r\l(x\r)$ for all $x\in X$, we see that retractions act as $\id$ on its image $S\coloneqq\im r$. Thus, equivalently, a retraction is a continuous map $r:X\to S$ such that $r\circ\iota=\id_S$ where $\iota:S\into X$ is the inclusion.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Since $r\l(r\l(x\r)\r)=r\l(x\r)$ for all $x\in X$, we see that retractions act as $\id$ on its image $S\coloneqq\im r$. Thus, equivalently, a retraction is a continuous map $r:X\to S$ such that $r\circ\iota=\id_S$ where $\iota:S\into X$ is the inclusion.<span style="float:right;">$\blacklozenge$</span>

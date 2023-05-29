@@ -20,4 +20,4 @@ A set $u$ is an **empty set** if $\fa z\l(z\not\in u\r)$.
 
 ```
 
-**Remark.** Since the empty set exists and is unique, it can be denoted by $\em$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Since the empty set exists and is unique, it can be denoted by $\em$.<span style="float:right;">$\blacklozenge$</span>

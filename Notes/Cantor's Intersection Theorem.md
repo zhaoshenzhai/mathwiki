@@ -21,7 +21,7 @@ Let $\l\{K_\alpha\r\}_{\alpha\in\mc{A}}$ be a collection of compact subsets of a
 
 ```
 
-**Remark.** In particular, if $\l\{K_n\r\}$ is a sequence of non-empty compact subsets of $X$ such that $K_n\supseteq K_{n+1}$ for all $n\in\N$, then $\bigcap_{i=1}^\infty K_n\neq\em$.
+<b>Remark.</b> In particular, if $\l\{K_n\r\}$ is a sequence of non-empty compact subsets of $X$ such that $K_n\supseteq K_{n+1}$ for all $n\in\N$, then $\bigcap_{i=1}^\infty K_n\neq\em$.
 * Note that instead of the Hausdorff condition on $X$, one can impose that each $K_\alpha$ is closed.<span style="float:right;">$\blacklozenge$</span>
 
 ---

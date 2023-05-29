@@ -21,7 +21,7 @@ Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces, fix a cluster point $p\in\
 
 ```
 
-**Remark.** Thus if a function is not bounded on a neighborhood of $p$, then $\lim\limits_{x\to p}f\l(x\r)$ does not exist.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Thus if a function is not bounded on a neighborhood of $p$, then $\lim\limits_{x\to p}f\l(x\r)$ does not exist.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

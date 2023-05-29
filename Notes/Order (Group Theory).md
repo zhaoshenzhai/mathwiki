@@ -24,4 +24,4 @@ Otherwise, $g$ is said to have **infinite order**.
 
 ```
 
-**Remark.** We define the **order of $G$** to be its cardinality $\l|G\r|$. By Lagrange$\textrm{'}$s Theorem, we see that $g^{\l|G\r|}=e$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> We define the **order of $G$** to be its cardinality $\l|G\r|$. By Lagrange$\textrm{'}$s Theorem, we see that $g^{\l|G\r|}=e$.<span style="float:right;">$\blacklozenge$</span>

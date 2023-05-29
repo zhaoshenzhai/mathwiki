@@ -24,8 +24,8 @@ Let $R$ be a ring with unit. The **group of units of $R$** is the group $R^\time
 
 ```
 
-**Remark.** Observe that $R^\times=R\comp\l\{0\r\}$ iff $R$ is a division ring.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Observe that $R^\times=R\comp\l\{0\r\}$ iff $R$ is a division ring.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** Since $\cdot$ is an associative binary operation on $R$ with an identity, and we restrict to only those elements with a multiplicative inverse, we see that $\tpl{R^\times,\cdot}$ is a group.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Since $\cdot$ is an associative binary operation on $R$ with an identity, and we restrict to only those elements with a multiplicative inverse, we see that $\tpl{R^\times,\cdot}$ is a group.<span style="float:right;">$\blacklozenge$</span>

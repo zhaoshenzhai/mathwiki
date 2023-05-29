@@ -20,4 +20,4 @@ Let $\tpl{a_k}$ be a sequence in $\R$. Consider the infinite series $\sum_{k=0}^
 
 ```
 
-**Remark.** By $\textrm{`}$in-order$\textrm{'}$ partition, we mean that the order in which we sum the terms $a_i$ is unchanged. It is clear that if $\sum_{k=0}^{\infty}a_k$ converges, then so does every of its regroupings.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> By $\textrm{`}$in-order$\textrm{'}$ partition, we mean that the order in which we sum the terms $a_i$ is unchanged. It is clear that if $\sum_{k=0}^{\infty}a_k$ converges, then so does every of its regroupings.<span style="float:right;">$\blacklozenge$</span>

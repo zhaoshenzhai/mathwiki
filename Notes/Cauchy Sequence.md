@@ -23,4 +23,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Equivalently, a sequence $\tpl{x_n}$ is Cauchy if $\lim\limits_{N\to\infty}\diam\l\{x_N,x_{N+1},\dots\r\}=0$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Equivalently, a sequence $\tpl{x_n}$ is Cauchy if $\lim\limits_{N\to\infty}\diam\l\{x_N,x_{N+1},\dots\r\}=0$.<span style="float:right;">$\blacklozenge$</span>

@@ -21,7 +21,7 @@ Let $\tpl{a_k}$ and $\tpl{b_k}$ be sequences in $\R$. If $\tpl{a_k}$ is non-incr
 
 ```
 
-**Remark.** In particular, setting $b_k\coloneqq\l(-1\r)^k$ yields the **alternating series test**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, setting $b_k\coloneqq\l(-1\r)^k$ yields the **alternating series test**.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -24,4 +24,4 @@ Let $V$ be a vector space. The **special linear group over $V$** is the kernel o
 
 ```
 
-**Remark.** If $V$ is finite-dimensional, say with $n\coloneqq\dim V$, then the group of $n\times n$ matrices over $K$ corresponding to $\SL\l(V\r)$ is denoted by $\SL\l(n,K\r)$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $V$ is finite-dimensional, say with $n\coloneqq\dim V$, then the group of $n\times n$ matrices over $K$ corresponding to $\SL\l(V\r)$ is denoted by $\SL\l(n,K\r)$.<span style="float:right;">$\blacklozenge$</span>

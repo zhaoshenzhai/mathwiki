@@ -22,7 +22,7 @@ Let $G$ be a group and take $g\in G$ of finite order. Then the following propert
 
 ```
 
-**Remark.** For a finite group $G$, this shows that $G$ is cyclic iff there exists some $g\in G$ such that $\ord{g}=\ord{G}$.
+<b>Remark.</b> For a finite group $G$, this shows that $G$ is cyclic iff there exists some $g\in G$ such that $\ord{g}=\ord{G}$.
 
 * If $G$ is cyclic, then there exists some $g\in G$ such that $\gen{g}=G$. Thus $\ord{\gen{g}}=\ord{G}$, but since $\ord{g}=\ord{\gen{g}}$, we see that $\ord{g}=\ord{G}$.
 * If $\ord{g}=\ord{G}$, then, since $\ord{g}=\ord{\gen{g}}$, we see that $\ord{\gen{g}}=\ord{G}$. Since $\gen{g}\subseteq G$ and $G$ have the same number of elements, they must coincide.<span style="float:right;">$\blacklozenge$</span>

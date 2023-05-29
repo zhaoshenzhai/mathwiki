@@ -24,7 +24,7 @@ The element $e\in G$ is called the **identity element of $G$**, and, for all $g\
 
 ```
 
-**Remark.** Alternatively, we can define groups as triples $\tpl{G,\ast,e}$ for some fixed $e\in G$ where $\tpl{G,\ast}$ is a semigroup satisfying $\axigrp[2]$ as above, but with $\axigrp[1]$ replaced with
+<b>Remark.</b> Alternatively, we can define groups as triples $\tpl{G,\ast,e}$ for some fixed $e\in G$ where $\tpl{G,\ast}$ is a semigroup satisfying $\axigrp[2]$ as above, but with $\axigrp[1]$ replaced with
 $$\begin{equation}
     \axigrp[1]'\bf{.}\ \fa g\in G:g\ast e=g=e\ast g.
 \end{equation}$$

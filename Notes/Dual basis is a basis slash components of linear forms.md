@@ -28,7 +28,7 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Thus, for every $v\in V$, we have
+<b>Remark.</b> Thus, for every $v\in V$, we have
 $$\begin{equation}
     \omega\l(v\r)=\l(\sum_{i=1}^{n}\omega\l(e_i\r)\epsilon_i\r)\l(\sum_{j=1}^{n}v_ie_i\r)=\sum_{i=1}^{n}\sum_{j=1}^{n}\omega\l(e_i\r)v_j\delta_{ij}=\sum_{i=1}^{n}\omega\l(e_i\r)v_i.\exqedin
 \end{equation}$$

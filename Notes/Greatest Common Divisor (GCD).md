@@ -24,4 +24,4 @@ The greatest common divisor of $a$ and $b$ is, up to a unit, unique; write $\gcd
 
 ```
 
-**Remark.** Rephrasing in terms of ideals, $d$ is a greatest common divisor of $a$ and $b$ iff $\sring{a,b}\subseteq\sring{d}$ and $\sring{d}\subseteq\sring{d'}$ for any ideal $\sring{d'}$ containing $\sring{a,b}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Rephrasing in terms of ideals, $d$ is a greatest common divisor of $a$ and $b$ iff $\sring{a,b}\subseteq\sring{d}$ and $\sring{d}\subseteq\sring{d'}$ for any ideal $\sring{d'}$ containing $\sring{a,b}$.<span style="float:right;">$\blacklozenge$</span>

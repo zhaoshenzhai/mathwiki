@@ -21,7 +21,7 @@ in which case $\lambda=f'\l(c\r)$.
 
 ```
 
-**Remark.** This makes explicit how the function $l\l(h\r)\coloneqq\lambda h$ is the $\textrm{`}$best linear approximation$\textrm{'}$ to the $\textrm{`}$increment function$\textrm{'}$ $i_c\!\l(h\r)\coloneqq f\l(c+h\r)-f\l(c\r)$, in the sense that the error $\epsilon_c\!\l(h\r)\coloneqq i_c\!\l(h\r)-l\l(h\r)$ converges to $0$ superlinearly.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> This makes explicit how the function $l\l(h\r)\coloneqq\lambda h$ is the $\textrm{`}$best linear approximation$\textrm{'}$ to the $\textrm{`}$increment function$\textrm{'}$ $i_c\!\l(h\r)\coloneqq f\l(c+h\r)-f\l(c\r)$, in the sense that the error $\epsilon_c\!\l(h\r)\coloneqq i_c\!\l(h\r)-l\l(h\r)$ converges to $0$ superlinearly.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

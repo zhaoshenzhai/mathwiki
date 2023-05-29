@@ -21,7 +21,7 @@ Let $G$ be a group. Then there exists an injective group homomorphism $\phi:G\in
 
 ```
 
-**Remark.** That is, every group is isomorphic to some permutation group.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That is, every group is isomorphic to some permutation group.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -21,7 +21,7 @@ Let $R$ be a Euclidean Domain. If $I$ is any non-zero ideal of $R$, then there e
 
 ```
 
-**Remark.** In particular, this shows that every Euclidean Domain is a PID.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, this shows that every Euclidean Domain is a PID.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

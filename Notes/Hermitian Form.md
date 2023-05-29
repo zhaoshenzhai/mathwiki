@@ -22,4 +22,4 @@ Let $V$ be a complex vector space. A **Hermitian form on $V$** is a function $\i
 
 ```
 
-**Remark.** Since all Hermitian forms are sesquilinear, they reduce to bilinear forms for when $V$ is a real vector space.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Since all Hermitian forms are sesquilinear, they reduce to bilinear forms for when $V$ is a real vector space.<span style="float:right;">$\blacklozenge$</span>

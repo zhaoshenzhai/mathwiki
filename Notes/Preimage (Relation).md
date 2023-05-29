@@ -23,4 +23,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Expanding, we see that $\preim_R\l(T\r)=\l\{x\mid\ex y\in T:xRy\r\}$. Observe that $\preim_R\l(\ran R\r)=\dom R$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Expanding, we see that $\preim_R\l(T\r)=\l\{x\mid\ex y\in T:xRy\r\}$. Observe that $\preim_R\l(\ran R\r)=\dom R$.<span style="float:right;">$\blacklozenge$</span>

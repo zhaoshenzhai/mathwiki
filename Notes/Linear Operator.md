@@ -20,4 +20,4 @@ Let $V$ be a $K$-vector space. A linear map $T:V\to V$ is said to be a **linear 
 
 ```
 
-**Remark.** The set of all linear operators $T:V\to V$ is denoted $\End\l(V\r)$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The set of all linear operators $T:V\to V$ is denoted $\End\l(V\r)$.<span style="float:right;">$\blacklozenge$</span>

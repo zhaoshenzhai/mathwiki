@@ -20,4 +20,4 @@ Let $\cat{C}$ and $\cat{D}$ be categories. A functor $\ms{F}:\cat{C}\to\cat{D}$ 
 
 ```
 
-**Remark.** If equality holds; that is, if $\ms{F}\circ\ms{H}=\Id_\cat{D}$, then $\ms{F}$ is strictly right-invertible and $\ms{H}$ is called a **strict right-inverse of $\ms{F}$**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If equality holds; that is, if $\ms{F}\circ\ms{H}=\Id_\cat{D}$, then $\ms{F}$ is strictly right-invertible and $\ms{H}$ is called a **strict right-inverse of $\ms{F}$**.<span style="float:right;">$\blacklozenge$</span>

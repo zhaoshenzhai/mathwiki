@@ -27,7 +27,7 @@ Let $X$ be a topological space. A **covering map of $X$** is a continuous map $p
 
 ```
 
-**Remark.** Covering maps are stronger than fibrations in the sense that the lifting is unique. We have the following unique lifting properties.
+<b>Remark.</b> Covering maps are stronger than fibrations in the sense that the lifting is unique. We have the following unique lifting properties.
 * For each path $\gamma:I\to X$ starting at some point $x_0\in X$ and each $\widetilde{x}_0\in p^{-1}\!\l(x_0\r)$ there exists a unique path $\widetilde{\gamma}:I\to\widetilde{E}$ starting at $\widetilde{x}_0$ lifting $\gamma$.
 * For each homotopy $\gamma_t:I\to X$ of paths and each lift $\widetilde{\gamma}_0:I\to\widetilde{X}$ of $\gamma_0$, there exists a unique homotopy $\widetilde{\gamma}_t:I\to\widetilde{X}$ of paths lifting $\gamma_t$.
 
@@ -35,4 +35,4 @@ The resulting homotopy $\widetilde{\gamma}_t$ is a homotopy _of paths_ since as 
 
 ---
 
-**Remark.** We define covering spaces to be path-connected. If not, we can always restrict to path-components. This implies that $X$ is path-connected too. Also, note that any local property of $X$ is inherited by $\widetilde{X}$. In particular, if $X$ is locally path-connected, then so is $\widetilde{X}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> We define covering spaces to be path-connected. If not, we can always restrict to path-components. This implies that $X$ is path-connected too. Also, note that any local property of $X$ is inherited by $\widetilde{X}$. In particular, if $X$ is locally path-connected, then so is $\widetilde{X}$.<span style="float:right;">$\blacklozenge$</span>

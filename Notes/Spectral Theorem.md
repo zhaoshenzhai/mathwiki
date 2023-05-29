@@ -18,7 +18,7 @@ Let $T:V\to V$ be a linear operator on a finite-dimensional inner product space 
 
 ```
 
-**Remark.** In particular, this shows that Hermitian matrices and real symmetric matrices are orthonormally diagonalizable.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, this shows that Hermitian matrices and real symmetric matrices are orthonormally diagonalizable.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -31,4 +31,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** By the triangle inequality, it is clear that if $f\in\RI{\l[a,b\r]}$, then such an $L$ is unique.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> By the triangle inequality, it is clear that if $f\in\RI{\l[a,b\r]}$, then such an $L$ is unique.<span style="float:right;">$\blacklozenge$</span>

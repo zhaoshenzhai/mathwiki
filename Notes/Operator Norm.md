@@ -24,4 +24,4 @@ This makes $\BDD{\l(V,W\r)}$ into a normed vector space.
 
 ```
 
-**Remark.** It is clear, by definition of $\|T\|_\textrm{op}$, that $\|Tv\|\leq\|T\|_\textrm{op}\|v\|$ for all $v\in V$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> It is clear, by definition of $\|T\|_\textrm{op}$, that $\|Tv\|\leq\|T\|_\textrm{op}\|v\|$ for all $v\in V$.<span style="float:right;">$\blacklozenge$</span>

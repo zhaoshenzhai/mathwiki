@@ -23,4 +23,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Observe that $\tpl{x,y}\in X\times Y\Leftrightarrow\tpl{y,x}\in Y\times X$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Observe that $\tpl{x,y}\in X\times Y\Leftrightarrow\tpl{y,x}\in Y\times X$.<span style="float:right;">$\blacklozenge$</span>

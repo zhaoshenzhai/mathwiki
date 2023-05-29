@@ -24,4 +24,4 @@ Let $\Z$ denote the ring of integers and let $i\in\C$. The **Gaussian integers**
 
 ```
 
-**Remark.** It is easily seen that $\Z\l[i\r]^\times=\l\{\pm1,\pm i\r\}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> It is easily seen that $\Z\l[i\r]^\times=\l\{\pm1,\pm i\r\}$.<span style="float:right;">$\blacklozenge$</span>

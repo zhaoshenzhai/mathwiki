@@ -20,4 +20,4 @@ Let $V$ be a finite dimensional $K$-vector space and consider a linear operator 
 
 ```
 
-**Remark.** Eigenvalues of a matrix $A\in\mat{n}{K}$ are defined as eigenvalues of $L_A$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Eigenvalues of a matrix $A\in\mat{n}{K}$ are defined as eigenvalues of $L_A$.<span style="float:right;">$\blacklozenge$</span>

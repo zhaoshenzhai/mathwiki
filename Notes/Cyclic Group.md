@@ -20,4 +20,4 @@ A group $G$ is said to be **cyclic** if $G=\gen{x}$ for some $x\in G$, in which 
 
 ```
 
-**Remark.** It is clear that every cyclic group is abelian, for if $g,h\in G$, then $g=x^m$ and $h=x^n$ for some $n,m\in\Z$. Then $gh=x^mx^n=x^nx^m=hg$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> It is clear that every cyclic group is abelian, for if $g,h\in G$, then $g=x^m$ and $h=x^n$ for some $n,m\in\Z$. Then $gh=x^mx^n=x^nx^m=hg$.<span style="float:right;">$\blacklozenge$</span>

@@ -21,7 +21,7 @@ Let $T:V\to V$ be a linear operator on a $K$-vector space $V$. For all $f_1,f_2\
 
 ```
 
-**Remark.** In particular, with $f_1\!\l(T\r)\coloneqq\cchi_T\!\l(\lambda_1\r)^n$ and $f_2\!\l(T\r)\coloneqq\cchi_T\!\l(\lambda_2\r)^m$ for any $\lambda_1\neq\lambda_2$, this shows that $\hat{E}_{\lambda_1}\cap\hat{E}_{\lambda_2}=\l\{0\r\}$. Indeed, observe that $f_1\!\l(x\r)=\l(x-\lambda_1\r)^n$ and $f_2\l(x\r)=\l(x-\lambda_2\r)^m$ are coprime.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, with $f_1\!\l(T\r)\coloneqq\cchi_T\!\l(\lambda_1\r)^n$ and $f_2\!\l(T\r)\coloneqq\cchi_T\!\l(\lambda_2\r)^m$ for any $\lambda_1\neq\lambda_2$, this shows that $\hat{E}_{\lambda_1}\cap\hat{E}_{\lambda_2}=\l\{0\r\}$. Indeed, observe that $f_1\!\l(x\r)=\l(x-\lambda_1\r)^n$ and $f_2\l(x\r)=\l(x-\lambda_2\r)^m$ are coprime.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

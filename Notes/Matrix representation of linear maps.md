@@ -25,7 +25,7 @@ where $\l[T\r]_\mc{B}^\mc{C}\coloneqq\l[\alpha_{ij}\r]\in\mat{m\times n}{K}$ is 
 
 ```
 
-**Remark.** In particular, we have $\Hom\l(V,W\r)\iso\mat{m\times n}{K}$. However, it is _not_ a natural isomorphism as choices of bases are required.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, we have $\Hom\l(V,W\r)\iso\mat{m\times n}{K}$. However, it is _not_ a natural isomorphism as choices of bases are required.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

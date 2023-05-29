@@ -26,4 +26,4 @@ The **category of relations** is the (locally-small) category $\catrel$ defined 
 
 ```
 
-**Remark.** That $\catrel$ is a category follows from the fact that identities and compositions of relation-preserving maps are also relation-preserving.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That $\catrel$ is a category follows from the fact that identities and compositions of relation-preserving maps are also relation-preserving.<span style="float:right;">$\blacklozenge$</span>

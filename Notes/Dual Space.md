@@ -20,4 +20,4 @@ Let $V$ be a $K$-vector space. The **dual space of $V$** is the vector space $V^
 
 ```
 
-**Remark.** If $V$ is finite-dimensional, we have that $\dim V^\dual=\dim\Hom\l(V,K\r)=\dim V\cdot\dim K=\dim V$, so $V\iso V^\dual$. However, this isomorphism depends on a choice of basis (since we used the matrix representation $\Phi_\mc{B}:\omega\mapsto\l[\omega\r]_\mc{B}$ where $\mc{B}$ is a basis for $V$), and a hence not $\textrm{`}$natural$\textrm{'}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $V$ is finite-dimensional, we have that $\dim V^\dual=\dim\Hom\l(V,K\r)=\dim V\cdot\dim K=\dim V$, so $V\iso V^\dual$. However, this isomorphism depends on a choice of basis (since we used the matrix representation $\Phi_\mc{B}:\omega\mapsto\l[\omega\r]_\mc{B}$ where $\mc{B}$ is a basis for $V$), and a hence not $\textrm{`}$natural$\textrm{'}$.<span style="float:right;">$\blacklozenge$</span>

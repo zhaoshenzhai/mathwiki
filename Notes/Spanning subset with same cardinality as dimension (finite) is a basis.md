@@ -21,7 +21,7 @@ Let $V$ be a finite-dimensional $K$-vector space. If $U\subseteq V$ is a spannin
 
 ```
 
-**Remark.** Note that $\dim V<\infty$ is crucial here; if this is dropped, non-trivial reductions of $U$ may still have cardinality $\dim V$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Note that $\dim V<\infty$ is crucial here; if this is dropped, non-trivial reductions of $U$ may still have cardinality $\dim V$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

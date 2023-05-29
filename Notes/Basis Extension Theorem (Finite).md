@@ -17,7 +17,7 @@ Let $K$ be a field and let $V$ be a finite-dimensional vector space over $K$. If
 
 ```
 
-**Remark.** In other words, every linearly independent subset of a finite-dimensional vector space can be extended to a (finite) basis. This holds for the infinite-dimensional case too, but the below proof fails as it relies on induction.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, every linearly independent subset of a finite-dimensional vector space can be extended to a (finite) basis. This holds for the infinite-dimensional case too, but the below proof fails as it relies on induction.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

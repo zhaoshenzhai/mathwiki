@@ -24,4 +24,4 @@ such that for all $X\in\Obj\l(\cat{C}\r)$, the components $\eta_X:\ms{F}\l(X\r)\
 
 ```
 
-**Remark.** If there exists a natural isomorphism $\eta:\ms{F}\Rightarrow\ms{G}$, then $\ms{F}$ and $\ms{G}$ are said to be **naturally isomorphic** and we write $\ms{F}\iso\ms{G}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If there exists a natural isomorphism $\eta:\ms{F}\Rightarrow\ms{G}$, then $\ms{F}$ and $\ms{G}$ are said to be **naturally isomorphic** and we write $\ms{F}\iso\ms{G}$.<span style="float:right;">$\blacklozenge$</span>

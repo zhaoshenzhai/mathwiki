@@ -21,4 +21,4 @@ Let $X$ be a set. The inclusion function on $X$ is an injection.
 
 ---
 
-**Remark.** Note that $\iota$ is genetically <i>not</i> a surjection for if $y\in X$, the corresponding $x$ such that $y=f\l(x\r)$ may lie in $X\comp S$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Note that $\iota$ is genetically <i>not</i> a surjection for if $y\in X$, the corresponding $x$ such that $y=f\l(x\r)$ may lie in $X\comp S$.<span style="float:right;">$\blacklozenge$</span>

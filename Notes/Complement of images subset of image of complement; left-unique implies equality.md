@@ -25,7 +25,7 @@ Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xRy
 
 ```
 
-**Remark.** If $R$ is a function, then equality holds if $f$ is injective.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $R$ is a function, then equality holds if $f$ is injective.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

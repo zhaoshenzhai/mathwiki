@@ -22,7 +22,7 @@ Let $V$ be a $K$-vector space. Consider a linear operator $T:V\to V$ and fix $v\
 
 ```
 
-**Remark.** Equivalently, $C_T\l(v\r)$ is the smallest $T$-invariant subspace of $V$ containing $v$. That is,
+<b>Remark.</b> Equivalently, $C_T\l(v\r)$ is the smallest $T$-invariant subspace of $V$ containing $v$. That is,
 $$\begin{equation}
     C_T\l(v\r)\coloneqq\bigcap\l\{C\subseteq V\mid v\in C\land C\textrm{ is $T$-invariant}\r\}.
 \end{equation}$$

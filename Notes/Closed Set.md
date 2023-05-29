@@ -20,4 +20,4 @@ Let $\tpl{X,\mc{T}}$ be a topological space. A subset $C\subseteq X$ is said to 
 
 ```
 
-**Remark.** Note that $C$ is closed iff $C=\bar{C}$. Indeed, if $C$ is closed, then, since $C$ is the smallest closed set containing itself, $C=\bar{C}$. Conversely, $\bar{C}$ is closed, so $C$ is also closed.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Note that $C$ is closed iff $C=\bar{C}$. Indeed, if $C$ is closed, then, since $C$ is the smallest closed set containing itself, $C=\bar{C}$. Conversely, $\bar{C}$ is closed, so $C$ is also closed.<span style="float:right;">$\blacklozenge$</span>

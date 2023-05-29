@@ -21,7 +21,7 @@ Let $V$ be a finite-dimensional $K$-vector space. Then the map $\phi:V\to V^{\du
 
 ```
 
-**Remark.** This shows that $V\iso V^{\dual\dual}$ naturally; that is, there exists a linear isomorphism $\phi:V\to V^{\dual\dual}$ that does not depend on a choice of basis. This is contrasted by $V\iso V^\dual$, where the isomorphism here is <i>not</i> natural unless additional structure is imposed.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> This shows that $V\iso V^{\dual\dual}$ naturally; that is, there exists a linear isomorphism $\phi:V\to V^{\dual\dual}$ that does not depend on a choice of basis. This is contrasted by $V\iso V^\dual$, where the isomorphism here is <i>not</i> natural unless additional structure is imposed.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

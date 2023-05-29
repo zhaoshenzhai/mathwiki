@@ -25,7 +25,7 @@ Let $R$ be a UFD and take a nonzero $f\coloneqq\sum_{i=0}^{n}a_ix^i\in R\l[x\r]$
 
 ```
 
-**Remark.** It is clear that $\cont\l(\alpha f\r)=\alpha\cont\l(f\r)$ for all $a\in R\comp\l\{0\r\}$. Furthermore, given any non-zero $f\in R\l[x\r]$ with $\sring{\alpha}=\cont\l(f\r)$, we can always write $f=\alpha f'$ for some primitive $f'\in R\l[x\r]$. Indeed, such an $f'$ exists since $\alpha$ is the GCD of the coefficients of $f$ and can thus be factored out, and $f'$ is primitive since
+<b>Remark.</b> It is clear that $\cont\l(\alpha f\r)=\alpha\cont\l(f\r)$ for all $a\in R\comp\l\{0\r\}$. Furthermore, given any non-zero $f\in R\l[x\r]$ with $\sring{\alpha}=\cont\l(f\r)$, we can always write $f=\alpha f'$ for some primitive $f'\in R\l[x\r]$. Indeed, such an $f'$ exists since $\alpha$ is the GCD of the coefficients of $f$ and can thus be factored out, and $f'$ is primitive since
 $$\begin{equation}
     \sring{\alpha}=\cont\l(f\r)=\cont\l(\alpha f'\r)=\alpha\cont\l(f'\r),
 \end{equation}$$

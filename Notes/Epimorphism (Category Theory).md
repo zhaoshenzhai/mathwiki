@@ -23,4 +23,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Epimorphisms are also referred to as **epic** or **right-cancellative** morphisms.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Epimorphisms are also referred to as **epic** or **right-cancellative** morphisms.<span style="float:right;">$\blacklozenge$</span>

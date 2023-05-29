@@ -28,7 +28,7 @@ for all $x\in S$. Moreover, for all $\widetilde{X}\supseteq X$, a function $\wid
 
 ```
 
-**Remark.** Formally, $\l.f\r|_S\coloneqq\l\{z\mid\ex x\in S:z=\tpl{x,f\l(x\r)}\r\}$. Note that $\l.f\r|_S$ is also the restriction of $f$, _viewed as a relation_, since
+<b>Remark.</b> Formally, $\l.f\r|_S\coloneqq\l\{z\mid\ex x\in S:z=\tpl{x,f\l(x\r)}\r\}$. Note that $\l.f\r|_S$ is also the restriction of $f$, _viewed as a relation_, since
 $$\begin{align}
     \l.f\r|_S&=\l\{z\mid\ex x\in S:x=\tpl{x,f\l(x\r)}\r\}\\
     &=\l\{z\mid\ex x:x\in S\land z=\tpl{x,f\l(x\r)}\r\}\\

@@ -20,4 +20,4 @@ Let $X$ be a set. The **identity function on $X$** is the function $\id_X\!:X\to
 
 ```
 
-**Remark.** Formally, $\id_X\!\coloneqq\l\{z\mid\ex x\in X:z=\tpl{x,x}\r\}$, and we need to prove that it is a function.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Formally, $\id_X\!\coloneqq\l\{z\mid\ex x\in X:z=\tpl{x,x}\r\}$, and we need to prove that it is a function.<span style="float:right;">$\blacklozenge$</span>

@@ -27,4 +27,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** If $I=\l\{1,2\r\}$, then $V=U_1\oplus U_2$ iff $V=U_1+U_2$ and $U_1\cap U_2=\l\{0\r\}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $I=\l\{1,2\r\}$, then $V=U_1\oplus U_2$ iff $V=U_1+U_2$ and $U_1\cap U_2=\l\{0\r\}$.<span style="float:right;">$\blacklozenge$</span>

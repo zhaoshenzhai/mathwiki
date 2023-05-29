@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-**Remark.** If $\mc{B}=\l\{A,B\r\}$, then the above reads $\preim_R\!\l(A\cup B\r)=\preim_R\!\l(A\r)\cup\preim_R\!\l(B\r)$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $\mc{B}=\l\{A,B\r\}$, then the above reads $\preim_R\!\l(A\cup B\r)=\preim_R\!\l(A\r)\cup\preim_R\!\l(B\r)$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

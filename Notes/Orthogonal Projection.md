@@ -24,11 +24,11 @@ where $\proj_U\!\l(v\r)$ is the unique element in $U$ such that $v-\proj_U\!\l(v
 
 ```
 
-**Remark.** In other words, decomposing $V$ into $U\oplus U^\perp$, we may write every $v\in V$ uniquely as a sum $v=u+w$ with $u\in U$ and $w\in U^\perp$. The orthogonal projection is then $\proj_U\!\l(v\r)\coloneqq u$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, decomposing $V$ into $U\oplus U^\perp$, we may write every $v\in V$ uniquely as a sum $v=u+w$ with $u\in U$ and $w\in U^\perp$. The orthogonal projection is then $\proj_U\!\l(v\r)\coloneqq u$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** If $U=\span\l\{u\r\}$ for some $u$, then $P_u\coloneqq\proj_U\!\l(v\r)=\frac{\inprod{v}{u}}{\inprod{u}{u}}u$. Indeed, it is clear that $P_u$ is a linear map onto $U$, so it remains to show that $v-P_u\!\l(v\r)\in U^\perp$. But this is clear since
+<b>Remark.</b> If $U=\span\l\{u\r\}$ for some $u$, then $P_u\coloneqq\proj_U\!\l(v\r)=\frac{\inprod{v}{u}}{\inprod{u}{u}}u$. Indeed, it is clear that $P_u$ is a linear map onto $U$, so it remains to show that $v-P_u\!\l(v\r)\in U^\perp$. But this is clear since
 $$\begin{equation}
     \inprod{v-\frac{\inprod{v}{u}}{\inprod{u}{u}}u}{\alpha u}=\bar{\alpha}\l(\inprod{v}{u}-\frac{\inprod{v}{u}}{\inprod{u}{u}}\inprod{u}{u}\r)=0
 \end{equation}$$

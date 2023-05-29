@@ -21,7 +21,7 @@ Let $H\subseteq G$ be a subgroup of a finite group $G$. Then $\l[G:H\r]\cdot\ord
 
 ```
 
-**Remark.** Thus the order of every subgroup $H\subseteq G$ divides the order of $G$. Some immediate corollaries:
+<b>Remark.</b> Thus the order of every subgroup $H\subseteq G$ divides the order of $G$. Some immediate corollaries:
 * For all $g\in G$, $\ord{g}$ divides $\ord{G}$. Indeed, since $\ord{g}=\ord{\gen{g}}$ and $\ord{\gen{g}}$ divides $\ord{G}$, we are done.
 
 * If $p\coloneqq\l|G\r|$ is prime, then $G=\gen{x}$ for each non-trivial $x\in G$. Indeed, since $\ord{x}$ divides $p$ and $p$ is prime, either $\ord{x}=1$ or $\ord{x}=p$. But $x$ is non-trivial, so $\ord{x}=p$ and hence $\gen{x}=G$.

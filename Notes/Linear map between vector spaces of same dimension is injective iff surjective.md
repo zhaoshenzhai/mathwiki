@@ -21,7 +21,7 @@ Let $V$ and $W$ be finite-dimensional $K$-vector spaces and consider a linear ma
 
 ```
 
-**Remark.** In particular, for a linear map $T:V\to W$ with $\dim V=\dim W$, $T$ is an isomorphism iff it is injective iff it is surjective.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, for a linear map $T:V\to W$ with $\dim V=\dim W$, $T$ is an isomorphism iff it is injective iff it is surjective.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

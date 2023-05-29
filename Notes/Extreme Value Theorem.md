@@ -17,7 +17,7 @@ Let $X$ and $Y$ be topological spaces, and consider a continuous function $f:X\t
 
 ```
 
-**Remark.** In particular, this shows that for a continuous function $f:X\to\R$ with compact domain, $f$ has a least and greatest value.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, this shows that for a continuous function $f:X\to\R$ with compact domain, $f$ has a least and greatest value.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ```
 
-**Remark.** We thus obtain a basis $\mc{B}$ of $U$ by $\textrm{`}$glueing$\textrm{'}$ together bases for each $U_i$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> We thus obtain a basis $\mc{B}$ of $U$ by $\textrm{`}$glueing$\textrm{'}$ together bases for each $U_i$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

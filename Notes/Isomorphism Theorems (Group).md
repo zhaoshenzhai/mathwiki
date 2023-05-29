@@ -23,7 +23,7 @@ Let $G$ and $G'$ be groups. We have the following $\textrm{`}$isomorphism theore
 
 ```
 
-**Remark.** The First Isomorphism Theorem shows that the sequence $0\longrightarrow A\overset{\phi}{\longrightarrow}B\overset{\psi}{\longrightarrow} C\longrightarrow0$ is exact iff $C\iso B/A$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The First Isomorphism Theorem shows that the sequence $0\longrightarrow A\overset{\phi}{\longrightarrow}B\overset{\psi}{\longrightarrow} C\longrightarrow0$ is exact iff $C\iso B/A$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
@@ -37,4 +37,4 @@ We now prove the Lattice Theorem.
 
 ---
 
-**Remark.** That $\l(G/H\r)/\!\l(K/H\r)\iso G/K$ can be deduced from the Lattice Theorem by setting $G'\coloneqq G/H$ and $\phi\coloneqq\pi:G\to G/H$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That $\l(G/H\r)/\!\l(K/H\r)\iso G/K$ can be deduced from the Lattice Theorem by setting $G'\coloneqq G/H$ and $\phi\coloneqq\pi:G\to G/H$.<span style="float:right;">$\blacklozenge$</span>

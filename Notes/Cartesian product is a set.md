@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Note that this proof does not rely on the specific Kuratowski definition of the ordered pair.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Note that this proof does not rely on the specific Kuratowski definition of the ordered pair.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

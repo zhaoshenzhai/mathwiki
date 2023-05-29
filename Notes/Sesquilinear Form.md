@@ -22,4 +22,4 @@ Let $V$ be a complex vector space. A **sesquilinear form on $V$** is a function 
 
 ```
 
-**Remark.** This reduces to a bilinear form for when $V$ is a real vector space.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> This reduces to a bilinear form for when $V$ is a real vector space.<span style="float:right;">$\blacklozenge$</span>

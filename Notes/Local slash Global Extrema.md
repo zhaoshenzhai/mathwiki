@@ -28,4 +28,4 @@ If the statement holds for all $x\in X$, then $p$ is said to be a **global maxim
 
 ```
 
-**Remark.** If $f$ has either a minimum or maximum and $p$, then $p$ is said to be an **extremum of $f$**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $f$ has either a minimum or maximum and $p$, then $p$ is said to be an **extremum of $f$**.<span style="float:right;">$\blacklozenge$</span>

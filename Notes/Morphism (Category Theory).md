@@ -20,11 +20,11 @@ Let $\cat{C}$ be a category and fix $X,Y\in\Obj\l(\cat{C}\r)$. A **$\cat{C}$-mor
 
 ```
 
-**Remark.** If $f\in\Hom\l(X,Y\r)$, write $f:X\to Y$ and define $\dom f\coloneqq X$ and $\cdm f\coloneqq Y$. Other $\textrm{`}$functional$\textrm{'}$ notations (like $\mapsto$) need not apply.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $f\in\Hom\l(X,Y\r)$, write $f:X\to Y$ and define $\dom f\coloneqq X$ and $\cdm f\coloneqq Y$. Other $\textrm{`}$functional$\textrm{'}$ notations (like $\mapsto$) need not apply.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** If there exist $X,Y\in\Obj\l(\cat{C}\r)$ such that $f$ is a morphism from $X$ to $Y$, write $f\in\Hom\l(\cat{C}\r)$. In other words, write, <i>informally</i>,
+<b>Remark.</b> If there exist $X,Y\in\Obj\l(\cat{C}\r)$ such that $f$ is a morphism from $X$ to $Y$, write $f\in\Hom\l(\cat{C}\r)$. In other words, write, <i>informally</i>,
 $$\begin{equation}
     \Hom\l(\cat{C}\r)\coloneqq\bigcup\l\{\Hom\l(X,Y\r)\mid X,Y\in\Obj\l(\cat{C}\r)\r\}.\exqedin
 \end{equation}$$

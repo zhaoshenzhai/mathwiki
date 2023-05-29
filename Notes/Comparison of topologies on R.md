@@ -27,7 +27,7 @@ Furthermore, $\ULtopR$ is strictly finer than $\KtopR$, and $\LLtopR$ is not com
 
 ---
 
-**Remark.** The relationship between these topologies can be illustrated with the following Hasse diagram:
+<b>Remark.</b> The relationship between these topologies can be illustrated with the following Hasse diagram:
 
 ![[Images/2022-02-09_212228/image.svg|120]]
 

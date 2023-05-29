@@ -26,7 +26,7 @@ Conversely, consider a collection $\mc{F}\subseteq\pow\l(X\r)$ and define $\mc{T
 
 ```
 
-**Remark.** This allows us to instead define a topology on $X$ as a collection of subsets $\mc{F}\subseteq\pow\l(X\r)$ satisfying $\axitopcl[1]$ to $\axitopcl[3]$; its elements are called closed sets. The original definition can then be recovered by defining
+<b>Remark.</b> This allows us to instead define a topology on $X$ as a collection of subsets $\mc{F}\subseteq\pow\l(X\r)$ satisfying $\axitopcl[1]$ to $\axitopcl[3]$; its elements are called closed sets. The original definition can then be recovered by defining
 $$\begin{equation}
     \mc{T}\coloneqq\l\{U\in\pow\l(X\r)\mid X\comp U\in\mc{F}\r\},
 \end{equation}$$

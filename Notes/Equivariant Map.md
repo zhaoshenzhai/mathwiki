@@ -21,4 +21,4 @@ Let $G$ be a group acting on sets $X$ and $Y$ via $\phi$ and $\phi'$. A **$G$-eq
 
 ```
 
-**Remark.** Suppressing notation, equivariant maps are functions $f:X\to Y$ such that $f\l(g\cdot x\r)=g\cdot f\l(x\r)$ for all $g\in G$ and $x\in X$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Suppressing notation, equivariant maps are functions $f:X\to Y$ such that $f\l(g\cdot x\r)=g\cdot f\l(x\r)$ for all $g\in G$ and $x\in X$.<span style="float:right;">$\blacklozenge$</span>

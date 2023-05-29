@@ -21,7 +21,7 @@ Let $R$ be a Noetherian integral domain such that every irreducible element is p
 
 ```
 
-**Remark.** In particular, this shows that every PID is a UFD.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, this shows that every PID is a UFD.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

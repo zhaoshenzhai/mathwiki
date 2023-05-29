@@ -20,4 +20,4 @@ A category $\cat{C}$ is said to be **thin** if for all $X,Y\in\Obj\l(\cat{C}\r)$
 
 ```
 
-**Remark.** Thin categories are locally-small.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Thin categories are locally-small.<span style="float:right;">$\blacklozenge$</span>

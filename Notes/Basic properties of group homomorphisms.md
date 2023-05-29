@@ -23,7 +23,7 @@ Furthermore, $\phi$ is injective iff $\ker\phi=\l\{e_1\r\}$.
 
 ```
 
-**Remark.** In particular, we have $\im\phi\subgrpeq G_2$ and $\ker\phi\nsubgrpeq G_1$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, we have $\im\phi\subgrpeq G_2$ and $\ker\phi\nsubgrpeq G_1$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -24,7 +24,7 @@ Let $V$ and $W$ be $K$-vector spaces. The **vector space of linear maps from $V$
 
 ```
 
-**Remark.** If $n\coloneqq\dim V$ and $m\coloneqq\dim W$ are finite, then, since $\Hom\l(V,W\r)\iso\mat{m\times n}{K}$ and $\dim\mat{m\times n}{K}=mn$, we see that
+<b>Remark.</b> If $n\coloneqq\dim V$ and $m\coloneqq\dim W$ are finite, then, since $\Hom\l(V,W\r)\iso\mat{m\times n}{K}$ and $\dim\mat{m\times n}{K}=mn$, we see that
 $$\begin{equation}
     \dim\Hom\l(V,W\r)=\dim V\cdot\dim W.\exqedin
 \end{equation}$$

@@ -20,4 +20,4 @@ Let $X$ be a set. A binary relation $\sim$ is an **equivalence relation on $X$**
 
 ```
 
-**Remark.** Note that $x\sim y$ iff $\l[x\r]_\sim=\l[y\r]_\sim$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Note that $x\sim y$ iff $\l[x\r]_\sim=\l[y\r]_\sim$.<span style="float:right;">$\blacklozenge$</span>

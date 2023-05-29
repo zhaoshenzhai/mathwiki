@@ -23,7 +23,7 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Equivalently, $f:X\to Y$ is uniformly continuous if
+<b>Remark.</b> Equivalently, $f:X\to Y$ is uniformly continuous if
 $$\begin{equation}
     \fa\epsilon>0,\ex\delta>0,\fa S\subseteq X:\diam S\leq\delta\Rightarrow\diam\im_f\l(S\r)\leq\epsilon;
 \end{equation}$$

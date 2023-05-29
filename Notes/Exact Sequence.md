@@ -22,6 +22,6 @@ Let $G_1,\dots,G_n$ be groups. A sequence $G_1\rightarrow G_2\rightarrow\cdots\r
 
 ```
 
-**Remark.** The First Isomorphism Theorem, which states that $G/\ker\phi\iso\im\phi$, shows that the sequence $0\longrightarrow A\overset{\phi}{\longrightarrow}B\overset{\psi}{\longrightarrow} C\longrightarrow0$ is exact iff $C\iso B/A$.
+<b>Remark.</b> The First Isomorphism Theorem, which states that $G/\ker\phi\iso\im\phi$, shows that the sequence $0\longrightarrow A\overset{\phi}{\longrightarrow}B\overset{\psi}{\longrightarrow} C\longrightarrow0$ is exact iff $C\iso B/A$.
 * If the sequence is exact, then $\phi$ is injective and hence $A\iso\phi\l(A\r)$. But $\phi\l(A\r)\iso\ker\psi$ by exactness, so $B/\phi\l(A\r)\iso B/\ker\psi\iso\psi\l(B\r)$. Since $\psi$ is surjective, we see that $B/A\iso B/\phi\l(A\r)\iso C$.
 * Conversely, suppose $C\iso B/A$. Let $\phi:A\into B$ be the inclusion and let $\psi:B\onto B/\phi\l(A\r)$ be the projection. Then $\ker\psi=\phi\l(A\r)=\im\phi$, as desired.<span style="float:right;">$\blacklozenge$</span>

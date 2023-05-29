@@ -17,7 +17,7 @@ Let $V$ be a $K$-vector space. If $U\subseteq V$ is linearly independent, then t
 
 ```
 
-**Remark.** In other words, every linearly independent subset of a vector space can be extended to a basis. The finite-dimensional case can be proved using just induction (in fact, it is constructive), but the infinite-dimensional case requires Zorn$\textrm{'}$s Lemma.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, every linearly independent subset of a vector space can be extended to a basis. The finite-dimensional case can be proved using just induction (in fact, it is constructive), but the infinite-dimensional case requires Zorn$\textrm{'}$s Lemma.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

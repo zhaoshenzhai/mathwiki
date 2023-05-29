@@ -24,7 +24,7 @@ The subset $Y\subseteq X$, equipped with the subspace topology $\l.\mc{T}\r|_Y$,
 
 ```
 
-**Remark.** The subspace topology on $Y$ can be visualized by the following diagram:
+<b>Remark.</b> The subspace topology on $Y$ can be visualized by the following diagram:
 
 ![[Images/2022-02-11_115828/image.svg|260]]
 

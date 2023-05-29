@@ -20,4 +20,4 @@ Let $M$ be a left $R$-module and fix a subset $N\subseteq M$. Then $N$ is a **le
 
 ```
 
-**Remark.** It is clear that $N\subseteq M$ is a left $R$-submodule of $M$ iff it is a subgroup that is closed under scalar multiplication.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> It is clear that $N\subseteq M$ is a left $R$-submodule of $M$ iff it is a subgroup that is closed under scalar multiplication.<span style="float:right;">$\blacklozenge$</span>

@@ -36,7 +36,7 @@ and since $\mc{B}_V$ is linearly independent, this forces $\beta_1=\cdots\beta_k
 
 ---
 
-**Remark.** Note that the complement $W$ is not necessarily unique. For instance, consider $V\coloneqq\R^3$ and let $U\subseteq V$ be a plane (passing through the origin).
+<b>Remark.</b> Note that the complement $W$ is not necessarily unique. For instance, consider $V\coloneqq\R^3$ and let $U\subseteq V$ be a plane (passing through the origin).
 
 ![[Images/2022-05-14_114740/image.svg|320]]
 

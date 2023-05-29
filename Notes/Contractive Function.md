@@ -20,4 +20,4 @@ Let $\tpl{X,d}$ be a metric space. A function $f:X\to X$ is called a **contracti
 
 ```
 
-**Remark.** For a normed vector space $\tpl{V,\|\slot\|}$ and a linear operator $T:V\to V$, this is equivalent to saying that $\|Tv\|\leq\alpha\|v\|$ for all $v\in V$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> For a normed vector space $\tpl{V,\|\slot\|}$ and a linear operator $T:V\to V$, this is equivalent to saying that $\|Tv\|\leq\alpha\|v\|$ for all $v\in V$.<span style="float:right;">$\blacklozenge$</span>

@@ -23,4 +23,4 @@ $$\begin{equation}
 
 ```
 
-**Remark.** Trivially, we have $v\comp u\subseteq v$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Trivially, we have $v\comp u\subseteq v$.<span style="float:right;">$\blacklozenge$</span>

@@ -20,7 +20,7 @@ Let $R$ be an integral domain and let $a\in R\comp\l\{0\r\}$. Then the following
 
 ```
 
-**Remark.** In particular, this proves that $a$ is prime iff $a$ is irreducible in a PID. The forwards direction always holds, so let $a$ be irreducible. Then $\sring{a}$ is maximal (since $R$ is a PID), so $\sring{a}$ is a prime ideal. Hence $a$ is prime.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, this proves that $a$ is prime iff $a$ is irreducible in a PID. The forwards direction always holds, so let $a$ be irreducible. Then $\sring{a}$ is maximal (since $R$ is a PID), so $\sring{a}$ is a prime ideal. Hence $a$ is prime.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

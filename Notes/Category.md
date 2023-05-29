@@ -38,4 +38,4 @@ such that, for all $X,Y,Z,W\in\mc{O}$:
 
 ```
 
-**Remark.** The last axiom can be $\textrm{`}$forced$\textrm{'}$ to hold since one can replace morphisms $f\in\Hom\l(X,Y\r)$ with the triple $\tpl{f,X,Y}$; this is done, for instance, in $\catset$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The last axiom can be $\textrm{`}$forced$\textrm{'}$ to hold since one can replace morphisms $f\in\Hom\l(X,Y\r)$ with the triple $\tpl{f,X,Y}$; this is done, for instance, in $\catset$.<span style="float:right;">$\blacklozenge$</span>

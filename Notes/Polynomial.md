@@ -24,5 +24,5 @@ where each $a_i\in R$ and $a_n\neq0$. We call $a_n$ the **leading coefficient of
 
 ```
 
-**Remark.** Formally, a polynomial over $R$ with degree $n$ is an $n$-tuple $f\coloneqq\tpl{a_n,a_{n-1},\dots,a_1,a_0}$ where each $a_i\in R$ and $a_n\neq0$.
+<b>Remark.</b> Formally, a polynomial over $R$ with degree $n$ is an $n$-tuple $f\coloneqq\tpl{a_n,a_{n-1},\dots,a_1,a_0}$ where each $a_i\in R$ and $a_n\neq0$.
 * The **zero polynomial** is the element $0\in R$; it is said to have degree $-\infty$.<span style="float:right;">$\blacklozenge$</span>
