@@ -1,7 +1,3 @@
----
-mathLink: $\axispec$
----
-
 <div class="topSpace"></div>
 
 Date Created: 16/01/2022 12:08:10
@@ -19,7 +15,7 @@ title: Axiom Schema.
 
 _Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$ and let $\phi\l(x\r)$ be any $\mc{L}$-logical formula without $z$ free. The **Axiom Schema of Specification** is the $\mc{L}$-scheme_
 $$\begin{equation}
-    \axispec\,\colon\!\Leftrightarrow\fa A\ex S\fa x\l[x\in S\Leftrightarrow\l(x\in A\land\phi\l(x\r)\r)\r].
+    \fa A\ex S\fa x\l[x\in S\Leftrightarrow\l(x\in A\land\phi\l(x\r)\r)\r].
 \end{equation}$$
 
 ```
@@ -28,11 +24,11 @@ $$\begin{equation}
 
 ---
 
-**Remark.** To construct a set $S$ whose elements $x$ are exactly the ones satisfying a certain property $\phi\l(x\r)$, we must show that there exists some set $A$ such that $\phi\l(x\r)\Rightarrow x\in A$, for then $\axispec$ shows that $S$ is indeed a set.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** To construct a set $S$ whose elements $x$ are exactly the ones satisfying a certain property $\phi\l(x\r)$, we must show that there exists some set $A$ such that $\phi\l(x\r)\Rightarrow x\in A$, for then Specification shows that $S$ is indeed a set.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-**Remark.** By $\axiext$, such a set $S$ is unique and can thus be written as
+**Remark.** By Extensionality, such a set $S$ is unique and can thus be written as
 $$\begin{equation}
     \l\{x\mid x\in A\land\phi\l(x\r)\r\}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \l\{x\in A\mid\phi\l(x\r)\r\}.
 \end{equation}$$

@@ -22,13 +22,13 @@ _is a topology on $X$._
 ```
 
 _Proof_. We verify the axioms for a topology on $X$:
-* ($\axitop[1]$): $\em\in\mc{T}_\textrm{cc}$ by definition and $X\comp X=\em$ is countable.
-* ($\axitop[2]$): Let $\mc{U}\subseteq\mc{T}_\textrm{cc}$. If $\mc{U}=\em$, then $\bigcup\mc{U}=\em\in\mc{T}_\textrm{cc}$. Otherwise, using De Morgan$\textrm{'}$s Laws, we have
+* $\em\in\mc{T}_\textrm{cc}$ by definition and $X\comp X=\em$ is countable.
+* Let $\mc{U}\subseteq\mc{T}_\textrm{cc}$. If $\mc{U}=\em$, then $\bigcup\mc{U}=\em\in\mc{T}_\textrm{cc}$. Otherwise, using De Morgan$\textrm{'}$s Laws, we have
 $$\begin{equation}
     X\comp\bigcup\mc{U}=\bigcap\l\{X\comp U\mid U\in\mc{U}\r\}.
 \end{equation}$$
 An arbitrary intersection of countable sets is countable, so $\bigcup\mc{U}\in\mc{T}_\textrm{cc}$.
-* ($\axitop[3]$): Let $\mc{U}\subseteq\mc{T}_\textrm{cc}$ be non-empty and finite. Using De Morgan's Laws again, we have
+* Let $\mc{U}\subseteq\mc{T}_\textrm{cc}$ be non-empty and finite. Using De Morgan's Laws again, we have
 $$\begin{equation}
     X\comp\bigcap\mc{U}=\bigcup\l\{X\comp U\mid U\in\mc{U}\r\}.
 \end{equation}$$

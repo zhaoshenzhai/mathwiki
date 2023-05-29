@@ -17,7 +17,7 @@ _The collection of all functions form a proper class. Formally, $\fa v,\ex f:f\t
 
 ```
 
-_Proof_. Suppose, for sake of contradiction, that such a set $v$ exists, i.e. $\ex v,\fa f:\l(f\textrm{ is a function }\Rightarrow f\in v\r)$. By $\axispec$, we have
+_Proof_. Suppose, for sake of contradiction, that such a set $v$ exists, i.e. $\ex v,\fa f:\l(f\textrm{ is a function }\Rightarrow f\in v\r)$. By Specification, we have
 $$\begin{equation}
     \fa z\fa f\l[f\in z\Leftrightarrow f\in v\land\ex x:f=\l\{\tpl{x,x}\r\}\r].
 \end{equation}$$

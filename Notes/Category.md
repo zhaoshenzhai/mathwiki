@@ -29,13 +29,13 @@ $$\begin{equation}
 \end{equation}$$
 
 _such that, for all $X,Y,Z,W\in\mc{O}$:_
-* _$\axicat[1]$ (Associativity)$\bf{.}$ For all $f\in\Hom\l(X,Y\r)$, $g\in\Hom\l(Y,Z\r)$, and $h\in\Hom\l(Z,W\r)$, the following diagram commutes._
+* _(Associativity)$\bf{.}$ For all $f\in\Hom\l(X,Y\r)$, $g\in\Hom\l(Y,Z\r)$, and $h\in\Hom\l(Z,W\r)$, the following diagram commutes._
 ![[Images/2022-02-21_142913/image.svg|230]]
 
-* _$\axicat[2]$ (Unit)$\bf{.}$ For all $f\in\Hom\l(X,Y\r)$, the following diagram commutes._
+* _(Unit)$\bf{.}$ For all $f\in\Hom\l(X,Y\r)$, the following diagram commutes._
 ![[Images/2022-02-09_213021/image.svg|230]]
-* _$\axicat[3]$ (Disjoint)$\bf{.}$ If $X\neq Z$ or $Y\neq W$, then $\Hom\l(X,Y\r)\cap\Hom\l(Z,W\r)=\em$._
+* _(Disjoint)$\bf{.}$ If $X\neq Z$ or $Y\neq W$, then $\Hom\l(X,Y\r)\cap\Hom\l(Z,W\r)=\em$._
 
 ```
 
-**Remark.** $\axicat[3]$ can be $\textrm{`}$forced$\textrm{'}$ to hold since one can replace morphisms $f\in\Hom\l(X,Y\r)$ with the triple $\tpl{f,X,Y}$; this is done, for instance, in $\catset$. Thus $\axicat[3]$ can be disregarded when verifying the axioms of a category.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** The last axiom can be $\textrm{`}$forced$\textrm{'}$ to hold since one can replace morphisms $f\in\Hom\l(X,Y\r)$ with the triple $\tpl{f,X,Y}$; this is done, for instance, in $\catset$.<span style="float:right;">$\blacklozenge$</span>
