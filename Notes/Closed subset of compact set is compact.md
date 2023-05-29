@@ -17,7 +17,7 @@ Let $\tpl{X,\mc{T}}$ be a topological space and let $S\subseteq K$ be a closed s
 
 ```
 
-_Proof_. Let $\l\{U_\alpha\r\}_{\alpha\in\mc{A}}$ be an open cover of $S$. Note that $X\comp S$ is open and
+<i>Proof.</i> Let $\l\{U_\alpha\r\}_{\alpha\in\mc{A}}$ be an open cover of $S$. Note that $X\comp S$ is open and
 $$\begin{equation}
     K\subseteq X=\l(X\comp S\r)\cup S\subseteq\l(X\comp S\r)\cup\bigcup_{\alpha\in\mc{A}}U_\alpha
 \end{equation}$$

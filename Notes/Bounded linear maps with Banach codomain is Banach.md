@@ -21,7 +21,7 @@ Let $V$ and $W$ be normed vector spaces. If $W$ is Banach, then $\BDD{\l(V,W\r)}
 
 ```
 
-_Proof_. Fix $\epsilon>0$ and let $\tpl{T_n}$ be a Cauchy sequence in $\BDD{\l(V,W\r)}$, so $\|T_n-T_m\|_\textrm{op}<\epsilon$ for all eventually $n,m\in\N$. Since
+<i>Proof.</i> Fix $\epsilon>0$ and let $\tpl{T_n}$ be a Cauchy sequence in $\BDD{\l(V,W\r)}$, so $\|T_n-T_m\|_\textrm{op}<\epsilon$ for all eventually $n,m\in\N$. Since
 $$\begin{equation}
     \|T_n-T_m\|_\textrm{op}=\sup\limits_{\|v\|=1}\|T_nv-T_mv\|,
 \end{equation}$$

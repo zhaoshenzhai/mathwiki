@@ -17,4 +17,4 @@ Let $X$ be a set. The trivial topology $\mc{T}_\textrm{trivial}$ on $X$ can be g
 
 ```
 
-_Proof_. Observe that $\mc{B}=\l\{X\r\}\subseteq\l\{\em,X\r\}=\mc{T}_\textrm{trivial}$, so it suffices to take $U\in\mc{T}_\textrm{trivial}$ and $x\in U$ and show that there exists $B\in\mc{B}$ such that $x\in B\subseteq U$. If $U=\em$, then this is vacuously true; otherwise, take $U\in X$ and set $B=X$. It follows that $\mc{B}$ is indeed a basis for a topology on $X$ and that $\mc{T}_\textrm{trivial}=\mc{T}\l(\mc{B}\r)$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Observe that $\mc{B}=\l\{X\r\}\subseteq\l\{\em,X\r\}=\mc{T}_\textrm{trivial}$, so it suffices to take $U\in\mc{T}_\textrm{trivial}$ and $x\in U$ and show that there exists $B\in\mc{B}$ such that $x\in B\subseteq U$. If $U=\em$, then this is vacuously true; otherwise, take $U\in X$ and set $B=X$. It follows that $\mc{B}$ is indeed a basis for a topology on $X$ and that $\mc{T}_\textrm{trivial}=\mc{T}\l(\mc{B}\r)$.<span style="float:right;">$\blacksquare$</span>

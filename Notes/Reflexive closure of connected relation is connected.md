@@ -17,7 +17,7 @@ Let $X$ be a set and let $R$ be a binary relation on $X$. If $R$ is connected on
 
 ```
 
-_Proof_. Take $x_1,x_2\in X$, so, since $R$ is connected on $X$, we see that either $x_1Rx_2$, $x_2Rx_1$, or $x_1=x_2$. In the former cases, we have that
+<i>Proof.</i> Take $x_1,x_2\in X$, so, since $R$ is connected on $X$, we see that either $x_1Rx_2$, $x_2Rx_1$, or $x_1=x_2$. In the former cases, we have that
 $$\begin{equation}
     \tpl{x_1,x_2}\in R\subseteq R\cup\id_X=\rfcl R\ \ \ \ \textrm{or}\ \ \ \ \tpl{x_2,x_1}\in R\subseteq R\cup\id_X=\rfcl R
 \end{equation}$$

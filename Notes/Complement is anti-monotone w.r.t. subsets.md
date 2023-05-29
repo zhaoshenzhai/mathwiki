@@ -17,7 +17,7 @@ Let $A$ and $B$ be sets. If $A\subseteq B$, then $C\comp B\subseteq C\comp A$ fo
 
 ```
 
-_Proof_. Take $x\in C\comp B$. The result follows from the following chain of implications:
+<i>Proof.</i> Take $x\in C\comp B$. The result follows from the following chain of implications:
 
 $\begin{alignat}{2}
     x\in C\comp B&\Leftrightarrow x\in C\land x\not\in B\ \ \ \ \ \ \ \ &&\textrm{Definition of relative complement}\\

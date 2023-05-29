@@ -39,7 +39,7 @@ Let $A$ and $B$ be sets. Then the following algebraic identities hold:
 
 ```
 
-_Proof_. Regarding unions:
+<i>Proof.</i> Regarding unions:
 1. Take $x\in\bigcup\l(A\cup B\r)$. The result follows from the following chain of equivalences:
 $$\begin{equation}
     \begin{aligned}
@@ -74,7 +74,7 @@ $$\begin{equation}
 
 ---
 
-_Proof_. Regarding intersections:
+<i>Proof.</i> Regarding intersections:
 1. Take $x\in\bigcap A\cap\bigcap B$. The result follows from the following chain of equivalences:
 $$\begin{equation}
 	\begin{aligned}
@@ -103,12 +103,12 @@ $$\begin{equation}
 
 ---
 
-_Proof_. Regarding power sets:
+<i>Proof.</i> Regarding power sets:
 1. Take $x\in\pow A$, so $x\subseteq A$. Since $A\subseteq B$, we see that $x\subseteq B$ and thus $x\in\pow B$. The result follows since $x$ is arbitrary.<span style="float:right;">$\blacksquare$</span>
 
 ---
 
-_Proof_. Regarding their interplay:
+<i>Proof.</i> Regarding their interplay:
 1. Take $x\in\l(\bigcup A\r)\cap\l(\bigcup B\r)$. The result follows from the following chain of equivalences:
 $$\begin{equation}
 	\begin{aligned}

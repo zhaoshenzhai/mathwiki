@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Note that this set is well-defined since $\preim_{\pi_X}\!\l(U\r)=U\times Y\subseteq X\times Y$ and $\preim_{\pi_Y}\!\l(V\r)=X\times V\subseteq X\times Y$, so indeed $\mc{S}\subseteq\pow\l(X\times Y\r)$.
+<i>Proof.</i> Note that this set is well-defined since $\preim_{\pi_X}\!\l(U\r)=U\times Y\subseteq X\times Y$ and $\preim_{\pi_Y}\!\l(V\r)=X\times V\subseteq X\times Y$, so indeed $\mc{S}\subseteq\pow\l(X\times Y\r)$.
 * To see that $\mc{S}$ covers $X$, take $p\in X\times Y$, so there exist $x\in X$ and $y\in Y$ such that $p=\tpl{x,y}$. Set $S\coloneqq\preim_{\pi_X}\!\l(\l\{x\r\}\r)\in\mc{S}$ and observe that
 $$\begin{equation}
     p\in X\times Y\land\pi_X\l(p\r)\in\l\{x\r\}\ \ \ \ \Rightarrow\ \ \ \ p\in\preim_{\pi_X}\!\l(\l\{x\r\}\r)=S.

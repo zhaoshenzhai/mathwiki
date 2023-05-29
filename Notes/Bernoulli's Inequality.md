@@ -31,7 +31,7 @@ $$\begin{equation}
 
 ---
 
-_Proof_. By the Binomial Theorem, we have
+<i>Proof.</i> By the Binomial Theorem, we have
 $$\begin{equation}
     \l(1+b\r)^n=\sum_{i=0}^{n}\binom{n}{i}b^i.
 \end{equation}$$

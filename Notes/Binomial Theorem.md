@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Take $n,k\in\N$. We shall use the facts that $\binom{n}{k}=0$ for all $n<k$ and that
+<i>Proof.</i> Take $n,k\in\N$. We shall use the facts that $\binom{n}{k}=0$ for all $n<k$ and that
 $$\begin{equation}
     \binom{n+1}{k+1}=\binom{n}{k+1}+\binom{n}{k}.\cref{\ast}
 \end{equation}$$

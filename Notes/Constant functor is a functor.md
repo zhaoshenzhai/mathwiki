@@ -17,7 +17,7 @@ Let $\cat{J}$ and $\cat{C}$ be categories and fix $C\in\Obj\l(\cat{C}\r)$. Then 
 
 ```
 
-_Proof_. It suffices to verify the axioms of a covariant functor.
+<i>Proof.</i> It suffices to verify the axioms of a covariant functor.
 * Take $j\in\Obj\l(\cat{J}\r)$ and observe that $\ms{C}_C\l(\id_j\r)=\id_C=\id_{\ms{C}_C\l(j\r)}$.
 * Take $f:j\to k$ and $g:k\to l$ for any $j,k,l\in\Obj\l(\cat{J}\r)$ and observe that
 $$\begin{equation}

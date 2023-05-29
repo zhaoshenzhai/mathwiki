@@ -25,7 +25,7 @@ in which case $\lambda=f'\l(c\r)$.
 
 ---
 
-_Proof_.
+<i>Proof.</i>
 * ($\Rightarrow$): Suppose that $f$ is differentiable at $c$, and take $\lambda\coloneqq f'\l(c\r)$. Observe then that
 $$\begin{equation}
     \lim\limits_{h\to0}\frac{f\l(c+h\r)-f\l(c\r)-\lambda h}{h}=\lim\limits_{h\to0}\l[\frac{f\l(c+h\r)-f\l(c\r)}{h}-\lambda\r]=0.

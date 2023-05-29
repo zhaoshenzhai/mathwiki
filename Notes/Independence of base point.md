@@ -19,7 +19,7 @@ Let $X$ be a path-connected space. Then $\pi_1\l(X,x_0\r)\iso\pi_1\l(X,x_1\r)$ f
 
 ```
 
-_Proof_. Consider the map $\beta_\sigma:\pi_1\l(X,x_0\r)\to\pi_1\l(X,x_1\r)$ mapping $\l[\gamma\r]\mapsto\l[\sigma^-\ast\gamma\ast\sigma\r]$, which is well-defined. To see that $\beta_\sigma$ is a homomorphism, let $\gamma_0$ and $\gamma_1$ be loops at $x_0$ and compute
+<i>Proof.</i> Consider the map $\beta_\sigma:\pi_1\l(X,x_0\r)\to\pi_1\l(X,x_1\r)$ mapping $\l[\gamma\r]\mapsto\l[\sigma^-\ast\gamma\ast\sigma\r]$, which is well-defined. To see that $\beta_\sigma$ is a homomorphism, let $\gamma_0$ and $\gamma_1$ be loops at $x_0$ and compute
 $$\begin{equation}
    \beta_\sigma\!\l(\l[\gamma_0\r]\l[\gamma_1\r]\r)=\beta_\sigma\!\l[\gamma_0\ast\gamma_1\r]=\l[\sigma^-\ast\gamma_0\ast\gamma_1\ast\sigma\r]=\l[\sigma^-\ast\gamma_0\ast\sigma\ast\sigma^-\ast\gamma_1\ast\sigma\r]=\l[\sigma^-\ast\gamma_0\ast\sigma\r]\l[\sigma^-\ast\gamma_1\ast\sigma\r]=\beta_\sigma\!\l[\gamma_0\r]\beta_\sigma\!\l[\gamma_1\r].
 \end{equation}$$

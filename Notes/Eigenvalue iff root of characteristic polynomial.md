@@ -28,7 +28,7 @@ Let $V$ be a finite-dimensional $K$-vector space and consider a linear operator 
 
 ---
 
-_Proof_. If $\lambda$ is an eigenvalue of $T$, then $T\l(v\r)=\lambda v$ for some non-zero $v\in V$. But this is equivalent to $\l(\lambda\id_V-T\r)\l(v\r)=0$ for some non-zero $v\in V$, so the map $T-\lambda\id_V$ is not injective.
+<i>Proof.</i> If $\lambda$ is an eigenvalue of $T$, then $T\l(v\r)=\lambda v$ for some non-zero $v\in V$. But this is equivalent to $\l(\lambda\id_V-T\r)\l(v\r)=0$ for some non-zero $v\in V$, so the map $T-\lambda\id_V$ is not injective.
 * The three equivalences hold since $T$ is a linear operator, so it is injective iff it is surjective.
 
 The converse is clear, since if $\lambda\id_V-T$ is not injective, then $\l(\lambda\id_V-T\r)\l(v\r)=0$ for some non-zero $v\in V$. Hence $T\l(v\r)=\lambda v$, so $\lambda$ is an eigenvalue of $T$. Finally, the last equivalent holds since $\lambda\id_V-T$ is not invertible iff $\cchi_T\!\l(\lambda\r)=\det\l(\lambda\id_V-T\r)=0$.<span style="float:right;">$\blacksquare$</span>

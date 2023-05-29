@@ -21,7 +21,7 @@ for all $x_1,x_2\in X$ and $y_1,y_2\in Y$ is the reflexive closure of the strict
 
 ```
 
-_Proof_. We shall show that $\sqsubseteq\,=\rfcl\sqsubset=\,\sqsubset\cup\id_{X\times Y}$.
+<i>Proof.</i> We shall show that $\sqsubseteq\,=\rfcl\sqsubset=\,\sqsubset\cup\id_{X\times Y}$.
 * ($\subseteq$): Take $\tpl{x_1,y_1},\tpl{x_2,y_2}$ such that $\tpl{x_1,y_1}\sqsubseteq\tpl{x_2,y_2}$.
     * If $x_1<x_2$, then $\tpl{x_1,y_1}\sqsubset\tpl{x_2,y_2}$ follows immediately.
     * If $x_1=x_2\land y_1\preceq y_2$, then either $x_1=x_2\land y_1\prec y_2$ from which we have $\tpl{x_1,y_1}\sqsubset\tpl{x_2,y_2}$, or $x_1=x_2\land y_1=y_2$ from which we have $\tpl{\tpl{x_1,y_1},\tpl{x_2,y_2}}\in\id_{X\times Y}$.

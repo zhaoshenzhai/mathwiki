@@ -21,7 +21,7 @@ Let $\tpl{X,\mc{T}}$ be a Hausdorff topological space. Then any sequence $\tpl{x
 
 ```
 
-_Proof_. Suppose that $\lim\limits_{n\to\infty}x_n=x$ for some $x\in X$. Then, for all other $y\in X$, let $U,V$ be disjoint neighborhoods of $x$ and $y$, respectively. Thus
+<i>Proof.</i> Suppose that $\lim\limits_{n\to\infty}x_n=x$ for some $x\in X$. Then, for all other $y\in X$, let $U,V$ be disjoint neighborhoods of $x$ and $y$, respectively. Thus
 $$\begin{equation}
     \fa^\infty n\in\N:x_n\in U,
 \end{equation}$$

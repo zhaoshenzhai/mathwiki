@@ -25,4 +25,4 @@ Let $V$ be a finite-dimensional $K$-vector space. If $U\subseteq V$ is a spannin
 
 ---
 
-_Proof_. Since $U$ spans $V$, we can cut if down to a basis $\mc{B}$ of $V$. Since $\l|U\r|=\dim V<\infty$, any non-trivial reduction of $U$ will result in a set with cardinality less than $\dim V$, so the reduction $\mc{B}$ of $U$ must be the trivial one; that is, $U=\mc{B}$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Since $U$ spans $V$, we can cut if down to a basis $\mc{B}$ of $V$. Since $\l|U\r|=\dim V<\infty$, any non-trivial reduction of $U$ will result in a set with cardinality less than $\dim V$, so the reduction $\mc{B}$ of $U$ must be the trivial one; that is, $U=\mc{B}$.<span style="float:right;">$\blacksquare$</span>

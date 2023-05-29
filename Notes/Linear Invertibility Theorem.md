@@ -22,6 +22,6 @@ Let $V$ be a finite-dimensional vector space, say with $n\coloneqq\dim V$, and l
 
 ```
 
-_Proof_. Clearly $1\Rightarrow2$ and $1\Rightarrow3$. Conversely, $2\Leftrightarrow3$ by the Dimension Theorem and they each imply $1$. It remains to show that $1\Leftrightarrow4$ and $1\Leftrightarrow5$.
+<i>Proof.</i> Clearly $1\Rightarrow2$ and $1\Rightarrow3$. Conversely, $2\Leftrightarrow3$ by the Dimension Theorem and they each imply $1$. It remains to show that $1\Leftrightarrow4$ and $1\Leftrightarrow5$.
 * ($1\Leftrightarrow4$): 
 * ($1\Leftrightarrow5$): 

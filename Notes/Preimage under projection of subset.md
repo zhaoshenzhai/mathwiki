@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. First observe that
+<i>Proof.</i> First observe that
 $$\begin{equation}
     U\times\prod\limits_{i\neq j}X_i=\l\{f:I\to U\cup\bigcup\limits_{i\neq j}X_i\mid f\l(j\r)\in U\land\fa i\in I:f\l(i\r)\in X_i\r\},
 \end{equation}$$

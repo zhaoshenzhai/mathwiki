@@ -21,7 +21,7 @@ is surjective.
 
 ```
 
-_Proof_. We shall show $\ran\pi_j=X_j$ by double inclusion.
+<i>Proof.</i> We shall show $\ran\pi_j=X_j$ by double inclusion.
 * ($\subseteq$): Take $x\in\ran\pi_j$, so there exists $f\in\prod_{i\in I}X_i$ such that $x=\pi_j\l(f\r)=f\l(j\r)$. By definition of the Cartesian product, we see that $f\l(j\r)\in X_j$ and thus $x\in X_j$.
 
 * ($\supseteq$): Take $x\in X_j$ and, for all $i\in I\comp\l\{j\r\}$, let $x_i\in X_i$ be arbitrary; they exist because each $X_i\neq\em$. Let

@@ -21,7 +21,7 @@ Let $\tpl{X,d}$ be a metric space. If $\tpl{X,d}$ is compact, then it is bounded
 
 ```
 
-_Proof_. Fix any $p\in X$ and observe that $X=\bigcup_{n\in\N}B\l(p,n\r)$. Since $X$ is compact, there exists a subcollection $B\l(p,n_1\r),\dots,B\l(p,n_k\r)$ such that
+<i>Proof.</i> Fix any $p\in X$ and observe that $X=\bigcup_{n\in\N}B\l(p,n\r)$. Since $X$ is compact, there exists a subcollection $B\l(p,n_1\r),\dots,B\l(p,n_k\r)$ such that
 $$\begin{equation}
     X=\bigcup_{i=1}^kB\l(p,n_i\r)\subseteq B\l(p,m\r)
 \end{equation}$$

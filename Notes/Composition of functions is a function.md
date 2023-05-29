@@ -17,7 +17,7 @@ Let $f:X\to Y$ and $g:Y'\to Z$ be functions with $Y\subseteq Y'$. Then the relat
 
 ```
 
-_Proof_. To prove that $g\circ f$ is a function, take $x\in\dom\l(g\circ f\r)$; we need to prove that there exists a unique set $z$ such that $\tpl{x,z}\in g\circ f$. Suppose otherwise that $\tpl{x,z},\tpl{x,z'}\in g\circ f$, so, by definition of composition, there exist $y$ and $y'$ such that
+<i>Proof.</i> To prove that $g\circ f$ is a function, take $x\in\dom\l(g\circ f\r)$; we need to prove that there exists a unique set $z$ such that $\tpl{x,z}\in g\circ f$. Suppose otherwise that $\tpl{x,z},\tpl{x,z'}\in g\circ f$, so, by definition of composition, there exist $y$ and $y'$ such that
 $$\begin{equation}
     \tpl{x,y}\in f\land\tpl{y,z}\in g\ \ \ \ \textrm{and}\ \ \ \ \tpl{x,y'}\in f\land\tpl{y',z'}\in g.
 \end{equation}$$

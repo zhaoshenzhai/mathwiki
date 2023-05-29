@@ -17,7 +17,7 @@ Let $X$ be a set and let $\l\{X_i\r\}_{i\in I}$ be an indexed family with $X_i=X
 
 ```
 
-_Proof_. Observe that
+<i>Proof.</i> Observe that
 $$\begin{equation}
     \bigcup\limits_{i\in I}X_i=\bigcup\l\{X_i\mid i\in I\r\}=\bigcup\l\{X\mid i\in I\r\}=\bigcup\l\{X\r\}=X,
 \end{equation}$$

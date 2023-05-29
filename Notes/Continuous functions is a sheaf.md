@@ -17,4 +17,4 @@ title: Proposition.
 
 ```
 
-_Proof_. 
+<i>Proof.</i> 

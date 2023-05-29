@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * ($\Rightarrow$): Suppose $\lim\limits_{x\to p}f\l(x\r)=L$ and take a sequence $\tpl{x_n}$ in $\Omega\comp\l\{p\r\}$ such that $x_n\to p$. Let $\epsilon>0$, so
 $$\begin{equation}
     \ex\delta>0:\im_f\!\l(B_\delta\!\l(p\r)\cap\Omega\comp\l\{p\r\}\r)\subseteq B_\epsilon\!\l(L\r).

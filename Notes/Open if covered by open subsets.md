@@ -20,6 +20,6 @@ $$\begin{equation}
 
 ```
 
-_Proof_. For all $y\in Y$, let $U_y$ by any open set satisfying the hypothesis. We claim that $Y=\bigcup_{y\in Y}U_y$; since each $U_y$ is open, we see that $Y$ is open too.
+<i>Proof.</i> For all $y\in Y$, let $U_y$ by any open set satisfying the hypothesis. We claim that $Y=\bigcup_{y\in Y}U_y$; since each $U_y$ is open, we see that $Y$ is open too.
 * ($Y\subseteq\bigcup_{y\in Y}U_y$): Take $y_0\in Y$, so, by hypothesis, there exists an open set $U_{y_0}$ such that $y_0\in U_{y_0}$. Thus the forward inclusion holds by definition of the union.
 * ($\bigcup_{y\in Y}U_y\subseteq Y$): Take $y_0\in\bigcup_{y\in Y}U_y$, so there exists $y\in Y$ such that $y_0\in U_y$. Since $U_y\subseteq Y$, we see that $y_0\in Y$.<span style="float:right;">$\blacksquare$</span>

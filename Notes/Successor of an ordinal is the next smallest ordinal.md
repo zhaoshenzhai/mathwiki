@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Obviously $\alpha\in\l\{\alpha\r\}\subseteq\alpha\cup\l\{\alpha\r\}=S\l(\alpha\r)$. Take $\gamma\in\ON$; the fact that $S\l(\alpha\r)$ is the smallest such ordinal follows from the following chain of equivalences:
+<i>Proof.</i> Obviously $\alpha\in\l\{\alpha\r\}\subseteq\alpha\cup\l\{\alpha\r\}=S\l(\alpha\r)$. Take $\gamma\in\ON$; the fact that $S\l(\alpha\r)$ is the smallest such ordinal follows from the following chain of equivalences:
 $$\begin{equation}
     \begin{alignedat}{2}
         \gamma\in S\l(\alpha\r)&\Leftrightarrow\gamma\in\alpha\cup\l\{\alpha\r\}&&\textrm{Definition of successor ordinal}\\

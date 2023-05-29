@@ -22,7 +22,7 @@ Let $K$ be a field and let $V$ be a $K$-vector space. Then, for all $\alpha,\bet
 
 ```
 
-_Proof_. Note that the first two hold more generally in modules, so it suffices to prove the rest.
+<i>Proof.</i> Note that the first two hold more generally in modules, so it suffices to prove the rest.
 * (Integral domain): Consider the equation $\alpha v=0_V$. If $\alpha=0$, there is nothing to show. Assume $\alpha\neq0$ and observe that
 $$\begin{equation}
     v=1v=\l(\alpha^{-1}\alpha\r)v=\alpha^{-1}\l(\alpha v\r)=\alpha^{-1}0_V=0_V.

@@ -21,6 +21,6 @@ Let $X$ be a set and let $<$ be binary relation on $X$. Then $<$ is a total orde
 
 ```
 
-_Proof_. ($\Rightarrow$): If $<$ is a strict total order on $X$, then $<$ is transitive and irreflexive on $X$. Together, this implies that $<$ is asymmetric on $X$.
+<i>Proof.</i> ($\Rightarrow$): If $<$ is a strict total order on $X$, then $<$ is transitive and irreflexive on $X$. Together, this implies that $<$ is asymmetric on $X$.
 
 ($\Leftarrow$): If $<$ is transitive and asymmetric on $X$, then, since asymmetry implies irreflexivity, we see that $<$ is irreflexive on $X$.<span style="float:right;">$\blacksquare$</span>

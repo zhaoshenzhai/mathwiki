@@ -17,7 +17,7 @@ Let $R$ and $S$ be binary relations. Then $\l(S\circ R\r)^{-1}=R^{-1}\circ S^{-1
 
 ```
 
-_Proof_. Take $\tpl{x,y}\in \l(S\circ R\r)^{-1}$. The result follows from the following chain of equivalences:
+<i>Proof.</i> Take $\tpl{x,y}\in \l(S\circ R\r)^{-1}$. The result follows from the following chain of equivalences:
 $$\begin{equation}
     \begin{alignedat}{2}
         \tpl{x,y}\in \l(S\circ R\r)^{-1}&\Leftrightarrow\tpl{y,x}\in S\circ R&&\textrm{Definition of inverse relation}\\

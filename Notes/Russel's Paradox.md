@@ -21,7 +21,7 @@ The collection of all sets is a proper class. Formally, $\fa v\ex u\l(u\not\in v
 
 ```
 
-_Proof._ Suppose, for contradiction, that such a set $v$ exists, i.e., $\ex v\fa u\l(u\in v\r)$. By $\axispec$ with the formula $\phi$ being $x\not\in x$, we have
+<i>Proof.</i> Suppose, for contradiction, that such a set $v$ exists, i.e., $\ex v\fa u\l(u\in v\r)$. By $\axispec$ with the formula $\phi$ being $x\not\in x$, we have
 $$\begin{equation}
     \ex z\fa x\l[x\in z\Leftrightarrow\l(x\in v\land x\not\in x\r)\r].
 \end{equation}$$

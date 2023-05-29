@@ -19,7 +19,7 @@ Furthermore, there exists a subset $T\subseteq S$ with $\l|T\r|=\l|S\r|-\l|L\r|$
 
 ```
 
-_Proof_. We proceed by induction on $m$.
+<i>Proof.</i> We proceed by induction on $m$.
 * If $m=0$, then $L=\em$ and thus $\l|L\r|\leq\l|S\r|$ trivially. Take $T\coloneqq S$ and observe that $\span\l(L\cup T\r)=\span T=\span S=V$.
 
 Assume now that the theorem holds for some $m\in\N$ and let $L=\l\{l_1,\dots,l_{m+1}\r\}$ be linearly independent. It follows then that $L'\coloneqq\l\{l_1,\dots,l_m\r\}$ is linearly independent, so, by our induction hypothesis, we see that $m=\l|L'\r|\leq\l|S\r|=n$ and there is some subset $T'\coloneqq\l\{s_1,\dots,s_{n-m}\r\}\subseteq S$ such that $\span\l(L'\cup T'\r)=V$. Thus there exist coefficients $\alpha_1,\dots,\alpha_m,\beta_1,\dots,\beta_{n-m}$ such that

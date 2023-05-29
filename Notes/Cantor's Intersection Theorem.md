@@ -26,7 +26,7 @@ Let $\l\{K_\alpha\r\}_{\alpha\in\mc{A}}$ be a collection of compact subsets of a
 
 ---
 
-_Proof_. Fix any $K\in\l\{K_\alpha\r\}$ and assume, for sake of contradiction, that $\bigcap_{\alpha\in\mc{A}}K_\alpha=\em$. For every $\alpha\in\mc{A}$, set $U_\alpha\coloneqq X\comp K_\alpha$, which is open, and observe that
+<i>Proof.</i> Fix any $K\in\l\{K_\alpha\r\}$ and assume, for sake of contradiction, that $\bigcap_{\alpha\in\mc{A}}K_\alpha=\em$. For every $\alpha\in\mc{A}$, set $U_\alpha\coloneqq X\comp K_\alpha$, which is open, and observe that
 $$\begin{equation}
     \bigcup_{\alpha\in\mc{A}}U_\alpha=\bigcup_{\alpha\in\mc{A}}X\comp K_\alpha=X\comp\bigcap_{\alpha\in\mc{A}}K_\alpha=X\supseteq K.
 \end{equation}$$

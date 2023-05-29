@@ -17,7 +17,7 @@ Let $f:X\to Y$ and $g:Y\to Z$ be surjections. Then the composite function $g\cir
 
 ```
 
-_Proof_. Take $z\in Z$, so there exists $y\in Y$ such that $z=g\l(y\r)$. But then there exists $x\in X$ such that $y=f\l(x\r)$, so
+<i>Proof.</i> Take $z\in Z$, so there exists $y\in Y$ such that $z=g\l(y\r)$. But then there exists $x\in X$ such that $y=f\l(x\r)$, so
 $$\begin{equation}
     z=g\l(y\r)=g\l(f\l(x\r)\r)=\l(g\circ f\r)\l(x\r).\qedin
 \end{equation}$$

@@ -17,7 +17,7 @@ Let $f:X\to Y$ and fix $S\subseteq X$. The restriction function $\l.f\r|_S=\l\{z
 
 ```
 
-_Proof_. Consider the formula $\phi\l(x,y\r)\,\colon\!\Leftrightarrow x\in S\land\tpl{x,y}\in f$. Observe that
+<i>Proof.</i> Consider the formula $\phi\l(x,y\r)\,\colon\!\Leftrightarrow x\in S\land\tpl{x,y}\in f$. Observe that
 $$\begin{equation}
     \begin{alignedat}{2}
         f\textrm{ is a function }&\Leftrightarrow\fa x\in X,\ex!y:\tpl{x,y}\in f&&\textrm{Definition of function}\\

@@ -17,7 +17,7 @@ Let $R$ and $S$ be binary relations. Then there exists a unique binary relation 
 
 ```
 
-_Proof_. We shall first construct the set $S\circ R$ with the prescribed properties and then prove that this set is indeed a binary relation.
+<i>Proof.</i> We shall first construct the set $S\circ R$ with the prescribed properties and then prove that this set is indeed a binary relation.
 * Formally, the set $S\circ R$ is justified with the following statement:
 $$\begin{equation}
     \fa R,\fa S\l[S\textrm{ and }R\textrm{ are binary relations }\Rightarrow\ex!v\l(w\in v\Leftrightarrow\ex x\ex y\ex z\l(xRy\land ySz\land w=\tpl{x,z}\r)\r)\r].

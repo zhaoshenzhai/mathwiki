@@ -19,7 +19,7 @@ Let $R$ be a ring and let $M$ be a left $R$-module. Then, for all $r\in R$ and $
 
 ```
 
-_Proof_. Take $r\in R$ and $m\in M$.
+<i>Proof.</i> Take $r\in R$ and $m\in M$.
 * Observe that
 $$\begin{equation}
     r0_M=r\l(0_M+0_M\r)=r0_M+r0_M\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ 0_Rm=\l(0_R+0_R\r)m=0_Rm+0_Rm,

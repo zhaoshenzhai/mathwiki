@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. We first verify that $\mc{B}$ is indeed a basis for a topology on $X$:
+<i>Proof.</i> We first verify that $\mc{B}$ is indeed a basis for a topology on $X$:
 * ($\axibasis[1]$): Observe that $X\subseteq\bigcup_{x\in X}\l\{x\r\}=X$.
 * ($\axibasis[2]$): Elements of $\mc{B}$ are of the form $\l\{x_1\r\}$ and $\l\{x_2\r\}$. If $x_1\neq x_2$, then $\l\{x_1\r\}\cap\l\{x_2\r\}=\em$ and so the condition is vacuously true. Otherwise, set $x=x_1=x_2$ and observe that the only element of $\l\{x\r\}$ is $x$. Simply take $B_3=\l\{x\r\}$.
 

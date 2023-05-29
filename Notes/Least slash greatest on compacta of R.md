@@ -21,7 +21,7 @@ Let $X\subseteq\R$ be compact. Then $X$ has a least and a greatest element.
 
 ```
 
-_Proof_. Since $X$ is compact, it is closed and bounded. Being bounded, Dedekind-completeness of $\R$ furnishes a supremum $\alpha\coloneqq\sup X\in\R$ and an infimum $\beta\coloneqq\inf X\in\R$. Now, for each $n\in\N^+$, since $\alpha$ (resp. $\beta$) is the _least_ upper bound (resp. _greatest_ upper bound) of $X$, there exist some $x_n,y_n\in X$ such that
+<i>Proof.</i> Since $X$ is compact, it is closed and bounded. Being bounded, Dedekind-completeness of $\R$ furnishes a supremum $\alpha\coloneqq\sup X\in\R$ and an infimum $\beta\coloneqq\inf X\in\R$. Now, for each $n\in\N^+$, since $\alpha$ (resp. $\beta$) is the _least_ upper bound (resp. _greatest_ upper bound) of $X$, there exist some $x_n,y_n\in X$ such that
 $$\begin{equation*}
     \alpha-\frac{1}{n}<x_n<\alpha\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \beta<y_n<\beta+\frac{1}{n}.
 \end{equation*}$$

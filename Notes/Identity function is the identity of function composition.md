@@ -22,7 +22,7 @@ Let $f:X\to Y$. Then $f\circ\id_X=f$ and $\id_Y\circ f=f$; in other words, the f
 
 ```
 
-_Proof_. Observe that
+<i>Proof.</i> Observe that
 $$\begin{equation}
     \dom f=\dom\l(f\circ\id_X\r)=\dom\l(\id_Y\circ f\r)=X,
 \end{equation}$$

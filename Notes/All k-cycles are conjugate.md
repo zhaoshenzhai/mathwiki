@@ -21,7 +21,7 @@ Let $X$ be a set and fix $k\in\N^+$. Then any two $k$-cycles in $\Sym\l(X\r)$ ar
 
 ```
 
-_Proof_. Let $\alpha\coloneqq\l(a_1\ \cdots\ a_k\r)$ and $\beta\coloneqq\l(b_1\ \cdots\ b_k\r)$ be two $k$-cycles in $\Sym\l(X\r)$ and set
+<i>Proof.</i> Let $\alpha\coloneqq\l(a_1\ \cdots\ a_k\r)$ and $\beta\coloneqq\l(b_1\ \cdots\ b_k\r)$ be two $k$-cycles in $\Sym\l(X\r)$ and set
 $$\begin{equation}
     \sigma:X\to X\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ x\mapsto
     \begin{dcases}

@@ -17,7 +17,7 @@ Let $X$ be a set. Then the pair $\tpl{X,\subseteq}$ is a poset.
 
 ```
 
-_Proof_. Observe that the subset relation is transitive, and it is trivial to see that $x\subseteq x$ for all $x\in X$. For antisymmetry, take $x_1,x_2\in X$ such that $x_1\subseteq x_2$ and $x_2\subseteq x_1$. By definition of subsets and the biconditional, we see that
+<i>Proof.</i> Observe that the subset relation is transitive, and it is trivial to see that $x\subseteq x$ for all $x\in X$. For antisymmetry, take $x_1,x_2\in X$ such that $x_1\subseteq x_2$ and $x_2\subseteq x_1$. By definition of subsets and the biconditional, we see that
 $$\begin{equation}
     \fa y\l(y\in x_1\Leftrightarrow y\in x_2\r)
 \end{equation}$$

@@ -21,7 +21,7 @@ Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$
 
 ```
 
-_Proof_. We proceed by induction on $n\coloneqq\dim V$.
+<i>Proof.</i> We proceed by induction on $n\coloneqq\dim V$.
 * If $n=1$, then any basis will do.
 
 Suppose that every linear operator $R$ between $\l(n-1\r)$-dimensional vector spaces whose $\cchi_R$ splits admits a triangularization. Let $\lambda_1\in K$ be a root of $\cchi_T$. Then $\lambda_1$ is an eigenvalue of $T$, so there exists a non-zero vector $v_1\in V$ such that $Tv_1=\lambda_1v_1$. Extending $\l\{v_1\r\}$ to a basis $\mc{B}_0\coloneqq\l\{v_1,\dots,v_n\r\}$ of $V$, we see that the first column of $\l[T\r]_{\mc{B}_0}$ has $\lambda_1$ as its first entry and zeros everywhere else. Set $W\coloneqq\span\l\{v_2,\dots,v_n\r\}$ and consider the linear operator $R:W\to W$ obtained as left-multiplication of the bottom-right $\l(n-1\r)\times\l(n-1\r)$ block of $\l[T\r]_{\mc{B}_0}$. Then

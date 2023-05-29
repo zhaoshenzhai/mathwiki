@@ -25,7 +25,7 @@ If $L<1$, then $\lim\limits_{n\to\infty}x_n=0$. Otherwise, if $L>1$, then $\lim\
 
 ---
 
-_Proof_. Since $\l|x_{n+1}/x_n\r|\geq0$ for all $n\in\N$, we see that $L\geq0$.
+<i>Proof.</i> Since $\l|x_{n+1}/x_n\r|\geq0$ for all $n\in\N$, we see that $L\geq0$.
 * ($L<1$). Let $\lambda\in\R$ be such that $L<\lambda<1$ and set $\epsilon\coloneqq\lambda-L>0$. Then, since $\l|x_{n+1}/x_n\r|$ converges to $L$, we see that
 $$\begin{equation}
     \l|\l|\frac{x_{n+1}}{x_n}\r|-L\r|<\epsilon

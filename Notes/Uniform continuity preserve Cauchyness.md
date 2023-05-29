@@ -17,7 +17,7 @@ Let $f:X\to Y$ be a uniformly continuous function between metric spaces. If a se
 
 ```
 
-_Proof_. Let $\tpl{x_n}$ be a Cauchy sequence in $X$ and take $\epsilon>0$. Then, since $f$ is uniformly continuous,
+<i>Proof.</i> Let $\tpl{x_n}$ be a Cauchy sequence in $X$ and take $\epsilon>0$. Then, since $f$ is uniformly continuous,
 $$\begin{equation}
     \ex\delta>0,\fa S\subseteq X:\diam S\leq\delta\Rightarrow\diam\im_f\l(S\r)\leq\epsilon.
 \end{equation}$$

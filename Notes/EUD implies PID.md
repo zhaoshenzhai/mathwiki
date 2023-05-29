@@ -25,7 +25,7 @@ Let $R$ be a Euclidean Domain. If $I$ is any non-zero ideal of $R$, then there e
 
 ---
 
-_Proof_. Take a non-zero ideal $I$ of $R$. Let $N:R\to\N$ be a Euclidean function on $R$ and consider the set
+<i>Proof.</i> Take a non-zero ideal $I$ of $R$. Let $N:R\to\N$ be a Euclidean function on $R$ and consider the set
 $$\begin{equation}
     S\coloneqq\l\{N\l(i\r)\in\N\mid i\in I\r\}.
 \end{equation}$$

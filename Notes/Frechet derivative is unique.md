@@ -25,7 +25,7 @@ then $T_1=T_2$.
 
 ```
 
-_Proof_. Take $\epsilon>0$, so there exist $\delta_1,\delta_2>0$ such that
+<i>Proof.</i> Take $\epsilon>0$, so there exist $\delta_1,\delta_2>0$ such that
 $$\begin{equation*}
     \frac{\l\|F\l(p+h\r)-F\l(p\r)-T_1h\r\|}{\l\|h\r\|}<\frac{\epsilon}{2}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \frac{\l\|F\l(p+h\r)-F\l(p\r)-T_2h\r\|}{\l\|h\r\|}<\frac{\epsilon}{2}
 \end{equation*}$$

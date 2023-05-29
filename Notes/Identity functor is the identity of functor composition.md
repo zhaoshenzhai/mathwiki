@@ -21,7 +21,7 @@ commutes.
 
 ```
 
-_Proof_. We need to prove that
+<i>Proof.</i> We need to prove that
 $$\begin{equation}
     \l(\ms{F}\circ\Id_\cat{C}\r)^{\Obj}=\ms{F}^{\Obj}=\l(\Id_\cat{D}\circ\ms{F}\r)^{\Obj}
 \end{equation}$$

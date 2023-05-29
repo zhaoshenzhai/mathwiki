@@ -22,7 +22,7 @@ is a topology on $X$.
 
 ```
 
-_Proof_. It suffices to verify that $\mc{B}$ is a basis for a topology on $X$.
+<i>Proof.</i> It suffices to verify that $\mc{B}$ is a basis for a topology on $X$.
 * ($\axibasis[1]$): There are four cases to consider.
     * If there exists a lower bound $a_0\in X$ but not an upper bound, then any other $x\neq a_0$ lies in $\l[a_0,y\r)$ where $y\in X$ is any element greater than $x$. The lower bound itself lies in $\l[a_0,b\r)$ for any $b\in X$.
     * Similarly if there exists an upper but not a lower bound in $X$.

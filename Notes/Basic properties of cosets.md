@@ -24,7 +24,7 @@ Similarly for right-cosets.
 
 ```
 
-_Proof_. We shall prove that $1\Rightarrow2\Rightarrow3\Rightarrow4\Rightarrow5\Rightarrow1$, so all five statements are equivalent.
+<i>Proof.</i> We shall prove that $1\Rightarrow2\Rightarrow3\Rightarrow4\Rightarrow5\Rightarrow1$, so all five statements are equivalent.
 * ($1\Rightarrow2$): We shall prove that $Hg_1^{-1}\subseteq Hg_2^{-1}$; the other direction is similar. Take $x\in Hg_1^{-1}$, so $\ex h_1\in H:x=h_1g_1^{-1}$. Then $\l(h_1g_1^{-1}\r)^{-1}=g_1h_1^{-1}\in g_1H$, so $g_1h_1^{-1}\in g_2H$ and hence $\ex h_2\in H:g_1h_1^{-1}=g_2h_2$. Observe then that
 $$\begin{equation}
     x=h_1g_1^{-1}=\l(g_1h_1^{-1}\r)^{-1}=\l(g_2h_2\r)^{-1}=h_2^{-1}g_2^{-1}\in Hg_2^{-1}.

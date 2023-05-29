@@ -21,7 +21,7 @@ Let $V$ be a $K$-vector space and consider a set $S\coloneqq\l\{s_1,\dots,s_n\r\
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * ($\Rightarrow$): Since $S$ is linearly dependent, there exist $\alpha_1,\dots,\alpha_n\in K$, not all of which are zero, such that $\sum_{i=1}^n\alpha_is_i=0_V$; we claim that
 $$\begin{equation}
     l=\max\l\{i\in\l\{1,\dots,n\r\}\mid\alpha_i\neq0\r\}.

@@ -21,7 +21,7 @@ is a topology on $X$.
 
 ```
 
-_Proof_. We verify the axioms for a topology on $X$:
+<i>Proof.</i> We verify the axioms for a topology on $X$:
 * ($\axitop[1]$): If $U=\em$, then the condition is vacuously true. If $U=X$, observe that $\mc{B}$ covers $X$, so
 $$\begin{equation}
     \fa x\in X,\ex B\in\mc{B}:x\in B.

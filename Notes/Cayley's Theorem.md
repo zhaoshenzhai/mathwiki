@@ -25,4 +25,4 @@ Let $G$ be a group. Then there exists an injective group homomorphism $\phi:G\in
 
 ---
 
-_Proof_. Consider the trivial action $\phi:G\to\Aut\l(G\r)$, where for all $h\in G$, we see that $g\in G_h$ iff $gh=h$ and hence $G_h=\l\{e\r\}$. Thus $\ker\phi=\l\{e\r\}$, so $\phi:G\into\Aut\l(G\r)$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Consider the trivial action $\phi:G\to\Aut\l(G\r)$, where for all $h\in G$, we see that $g\in G_h$ iff $gh=h$ and hence $G_h=\l\{e\r\}$. Thus $\ker\phi=\l\{e\r\}$, so $\phi:G\into\Aut\l(G\r)$.<span style="float:right;">$\blacksquare$</span>

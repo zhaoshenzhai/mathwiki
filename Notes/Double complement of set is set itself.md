@@ -17,7 +17,7 @@ Let $v$ be a set and fix a subset $u\subseteq v$. Then $v\comp\l(v\comp u\r)=u$.
 
 ```
 
-_Proof_. Take $x\in v\comp\l(v\comp u\r)$. The result follows from the following chain of equivalences:
+<i>Proof.</i> Take $x\in v\comp\l(v\comp u\r)$. The result follows from the following chain of equivalences:
 
 $\begin{alignat}{2}
     x\in v\comp\l(v\comp u\r)&\Leftrightarrow x\in v\land x\not\in v\comp u&&\textrm{Definition of relative complement}\\

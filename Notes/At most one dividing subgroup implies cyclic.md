@@ -21,7 +21,7 @@ Let $G$ be a finite group of order $n$. If every $m\divides n$ admits at most on
 
 ```
 
-_Proof_. For any $g\in G$ be of order $m$ (which may not exist), consider the unique cyclic subgroup $\gen{g}\subgrpeq G$ of order $m$ that it generates. Since this is the unique subgroup of order $m$, every element of order $m$ in $G$ generates the same subgroup $\gen{g}$. Those elements are of the form $g^l$ for some $l\in\Z$, which generate $\gen{g}$ iff $l\perp m$, so there are $\phi\l(m\r)$-many elements in $G$ of order $m$. By Lagrange$\textrm{'}$s Theorem, the order of every element divides $n$, so
+<i>Proof.</i> For any $g\in G$ be of order $m$ (which may not exist), consider the unique cyclic subgroup $\gen{g}\subgrpeq G$ of order $m$ that it generates. Since this is the unique subgroup of order $m$, every element of order $m$ in $G$ generates the same subgroup $\gen{g}$. Those elements are of the form $g^l$ for some $l\in\Z$, which generate $\gen{g}$ iff $l\perp m$, so there are $\phi\l(m\r)$-many elements in $G$ of order $m$. By Lagrange$\textrm{'}$s Theorem, the order of every element divides $n$, so
 $$\begin{equation}
     n=\sum_{m\divides n}\#\l\{g\in G\mid\ord{g}=m\r\}=\sum_{m\divides n}\phi\l(m\r)\epsilon_m
 \end{equation}$$

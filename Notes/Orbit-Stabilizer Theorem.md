@@ -21,4 +21,4 @@ Let $G$ be a group acting on a set $X$ and fix $x\in X$. Then there is a bijecti
 
 ---
 
-_Proof_. Restricting the action on $X$ to transitively act on the orbit $Gx$, we see that $Gx$ is equivariant to $G/G_x$ with the left-multiplication action. In particular, we have $\l|Gx\r|=\l|G/G_x\r|$ and the result follows.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Restricting the action on $X$ to transitively act on the orbit $Gx$, we see that $Gx$ is equivariant to $G/G_x$ with the left-multiplication action. In particular, we have $\l|Gx\r|=\l|G/G_x\r|$ and the result follows.<span style="float:right;">$\blacksquare$</span>

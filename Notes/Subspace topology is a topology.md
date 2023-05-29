@@ -17,7 +17,7 @@ Let $\tpl{X,\mc{T}}$ be a topological space and fix a subset $Y\subseteq X$. The
 
 ```
 
-_Proof_. We verify the axioms for a topology on $Y$.
+<i>Proof.</i> We verify the axioms for a topology on $Y$.
 * ($\axitop[1]$): Since $\em,X\in\mc{T}$, we see that $\em\cap Y=\em\in\l.\mc{T}\r|_Y$ and $X\cap Y=Y\in\l.\mc{T}\r|_Y$.
 
 * ($\axitop[2]$): Let $\mc{A}$ be an (arbitrary) index set and consider the collection $\l\{V_\alpha\r\}_{\alpha\in\mc{A}}\subseteq\l.\mc{T}\r|_Y$. For every $V_\alpha\in\l.\mc{T}\r|_Y$, there exist, by definition, some $U_\alpha\in\mc{T}$ such that $V_\alpha=U_\alpha\cap Y$. It follows then that

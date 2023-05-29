@@ -24,7 +24,7 @@ Let $a,b\in\R$ and let $f,g:\l[a,b\r]\to\R$ be continuous on $\l[a,b\r]$ and dif
 
 ---
 
-_Proof_.
+<i>Proof.</i>
 * (Rolle$\textrm{'}$s MVT): It suffices to show that $f$ attains a global extremum at some $c\in\l(a,b\r)$, for then $f'\l(c\r)=0$. Indeed, either $f$ is constant, whence $f'\l(c\r)=0$ for all $c\in\l(a,b\r)$, or not, in which case one of its global extrema is not an endpoint. Observe that $\l[a,b\r]$ is compact, so, by the Extreme Value Theorem, $f$ attains a global extrema at some $c\in\l[a,b\r]$. But then $c\in\l(a,b\r)$, so we are done.
 
 * (Lagrange$\textrm{'}$s MVT): Consider the function $h:\l[a,b\r]\to\R$ defined by

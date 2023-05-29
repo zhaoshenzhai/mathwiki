@@ -17,7 +17,7 @@ Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$
 
 ```
 
-_Proof_. Let $g\coloneqq f_1^{n_1}$ and $h\coloneqq f_2^{n_2}\cdots f_r^{n_r}$, so $g\perp h$ and $f=gh$. By Bézout$\textrm{'}$s Identity, there exist $a,b\in K\l[x\r]$ such that $ag+bh=1$. Applied to $T$ and $v$, we get
+<i>Proof.</i> Let $g\coloneqq f_1^{n_1}$ and $h\coloneqq f_2^{n_2}\cdots f_r^{n_r}$, so $g\perp h$ and $f=gh$. By Bézout$\textrm{'}$s Identity, there exist $a,b\in K\l[x\r]$ such that $ag+bh=1$. Applied to $T$ and $v$, we get
 $$\begin{equation}
     v=\underbrace{a\l(T\r)g\l(T\r)v}_{\mathclap{\coloneqq v_1}}+\underbrace{b\l(T\r)h\l(T\r)v}_{\mathclap{\coloneqq v_2}}.
 \end{equation}$$

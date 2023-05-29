@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Take $z\in\im_{g\circ f}\l(S\r)$. The result follows from the following chain of equivalences:
+<i>Proof.</i> Take $z\in\im_{g\circ f}\l(S\r)$. The result follows from the following chain of equivalences:
 $$\begin{equation}
     \begin{aligned}
         z\in\im_{g\circ f}\l(S\r)&\Leftrightarrow z\in Z\land\ex x\in S:z=\l(g\circ f\r)\l(x\r) && \textrm{Definition of image} \\

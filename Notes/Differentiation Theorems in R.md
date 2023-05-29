@@ -25,7 +25,7 @@ Let $\Omega_1,\Omega_2\subseteq\R$ be such that $\Omega\coloneqq\Omega_1\cap\Ome
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * (Linearity): Observe that
 $$\begin{equation}
     \begin{aligned}

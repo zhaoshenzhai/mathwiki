@@ -29,7 +29,7 @@ However, this does <i>not</i> give an algorithm to compute $\gcd\l(a,b\r)$ in ge
 
 ---
 
-_Proof_. We show that $d$ is a common divisor of $a$ and $b$ that divides every other divisor thereof.
+<i>Proof.</i> We show that $d$ is a common divisor of $a$ and $b$ that divides every other divisor thereof.
 * Since $a\in\sring{a,b}$, we see that $a\in\sring{d}$ and hence $d\divides a$. Similarly, $d\divides b$.
 
 * Let $d'\in R\comp\l\{0\r\}$ such that $d'\divides a$ and $d'\divides b$. Then $a\in\sring{d}$ and $b\in\sring{d'}$, so $a=d'r$ and $b=d's$ for some $r,s\in R$. It suffices to show that $\sring{d}=\sring{a,b}\subseteq\sring{d'}$, for then $d'\divides d$. Take $x,y\in R$, and observe that

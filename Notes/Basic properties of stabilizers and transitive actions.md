@@ -20,7 +20,7 @@ Let $G$ be a group acting on a set $X$ and let $x,y\in X$. Then the following pr
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * If $y=gx$ for some $g\in G$, then for all $h\in G_x$, we see that $hx=x$ and hence $\l(ghg^{-1}\r)y=\l(ghg^{-1}\r)gx=ghx=gx=y$. Thus $ghg^{-1}\in G_y$. Conversely, for all $h\in G_y$, we see that $hy=y$ and hence $hgx=gx$. Then $\l(g^{-1}hg\r)x=x$, so $g^{-1}hg\in G_x$ and hence $h\in gG_xg^{-1}$.
 * For all $z\in X$, there is some $g\in G$ such that $z=gx$ and we define $\phi\l(z\r)\coloneqq gy$. This is well-defined since if $z=gx=g'x$, then $g^{-1}g'x=x$ and hence $g^{-1}g'y=y$ by assumption. Thus $gy=g'y$, as desired. Clearly $\phi\l(x\r)=y$, and it is equivariant since $\phi\l(az\r)=\phi\l(agx\r)=agy=a\phi\l(z\r)$ for all $a\in G$ and $z\in X$. Finally, $\phi$ is invertible with inverse $\phi^{-1}\!\l(g'y\r)=g'x$. Conversely, if $gx=x$, then $gy=g\phi\l(x\r)=\phi\l(gx\r)=\phi\l(x\r)=y$ and some $g\in G_y$. That $G_y\subseteq G_x$ is similar, so $G_x=G_y$.
 * We define a map $\Gamma:N_G\!\l(G_x\r)\to\Aut\l(X\r)$ whose kernel is $G_x$, from which the result follows. Take $g\in N_g\!\l(G_x\r)$ and define a map $\phi_g\in\Aut\l(X\r)$ as follows. For all $z\in X$, let $h\in G$ be such that $z=hx$, and define $\phi_g\!\l(z\r)\coloneqq hg^{-1}x$. This is well-defined, for if $hx=h'x$, then $h^{-1}h'\in G_x$ and hence $gh^{-1}h'g^{-1}\in gG_xg^{-1}=G_x$. Thus $hg^{-1}G_x=h'g^{-1}G_x$ as desired. Similarly as above, it is an equivariant bijection. Define $\Gamma\l(g\r)\coloneqq\phi_g$, which makes $\Gamma$ a homomorphism since

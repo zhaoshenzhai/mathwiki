@@ -17,7 +17,7 @@ Fix $n\in\N^+$ and consider the function $f_n\!:\R\to\R:x\mapsto x^n$. Then $f_n
 
 ```
 
-_Proof_. We proceed by induction on $n$.
+<i>Proof.</i> We proceed by induction on $n$.
 * If $n=1$, then $f_1\!\l(c\r)=c$ for all $c\in\R$ and hence
 $$\begin{equation}
     f_1'\!\l(c\r)=\lim\limits_{x\to c}\frac{f_1\!\l(x\r)-f_1\!\l(c\r)}{x-c}=\lim\limits_{x\to c}\frac{x-c}{x-c}=1.

@@ -24,7 +24,7 @@ Furthermore, if $x_0\overset{\gamma_0}{\rightsquigarrow}x_1\overset{\gamma_1}{\r
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * Define $H\l(s,t\r)\coloneqq\gamma\l(\l(1-t\r)s+t\phi\l(s\r)\r)$, which is a homotopy from $\gamma$ to $\gamma\circ\phi$.
 * If $H$ is a homotopy from $\gamma_0$ to $\gamma_1$, then $H'\l(s,t\r)\coloneqq H\l(1-s,t\r)$ is a homotopy from $-\gamma_0$ to $-\gamma_1$. Furthermore, if $H_1$ and $H_2$ are homotopies from $\gamma_0$ to $\gamma_1$ and $\delta_0$ to $\delta_1$, respectively, then $H\l(s,t\r)\coloneqq H_1\l(2s,t\r)$ for $1\leq s\leq1/2$ and $H\l(s,t\r)\coloneqq H_2\l(2s-1,t\r)$ for $1/2\leq s\leq1$ is a homotopy from $\gamma_0\ast\delta_0$ to $\gamma_1\ast\delta_1$.
 

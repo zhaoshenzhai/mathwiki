@@ -23,7 +23,7 @@ Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space. Th
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * Let $\mu\l(x\r)=\sum_{i=0}^{k}\alpha_ix^i$ for some $\alpha_i\in K$ and consider the operator $\mu\l(x\r)\id_V:V\to V$.
 $$\begin{equation}
     \mu\l(x\r)\id_V=\mu\l(x\r)\id_V-\mu\l(T\r)=\sum_{i=0}^{k}\alpha_i\l(x^i\id_V-T^i\r).

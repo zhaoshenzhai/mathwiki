@@ -21,4 +21,4 @@ Let $\R$ be the set of real numbers. Then the upper limit topology $\ULtopR$ is 
 
 ```
 
-_Proof_. Take $\l(a,b\r)\in\mc{B}_\textrm{st}$ and $x\in\l(a,b\r)$. Let $\l(a,x\r]\in\mc{B}_\textrm{UL}$ and observe that $x\in\l(a,x\r]\subseteq\l(a,b\r)$, so $\sttopR\subseteq\ULtopR$. The converse does not hold, for let $\l(c,d\r]\in\mc{B}_\textrm{UL}$ and choose $x=d$. Any $\l(e,f\r)\in\mc{B}_\textrm{st}$ containing $x$ necessarily implies that $d<f$, so $\l(e,f\r)\not\subseteq\l(c,d\r]$. Thus $\sttopR\subset\ULtopR$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Take $\l(a,b\r)\in\mc{B}_\textrm{st}$ and $x\in\l(a,b\r)$. Let $\l(a,x\r]\in\mc{B}_\textrm{UL}$ and observe that $x\in\l(a,x\r]\subseteq\l(a,b\r)$, so $\sttopR\subseteq\ULtopR$. The converse does not hold, for let $\l(c,d\r]\in\mc{B}_\textrm{UL}$ and choose $x=d$. Any $\l(e,f\r)\in\mc{B}_\textrm{st}$ containing $x$ necessarily implies that $d<f$, so $\l(e,f\r)\not\subseteq\l(c,d\r]$. Thus $\sttopR\subset\ULtopR$.<span style="float:right;">$\blacksquare$</span>

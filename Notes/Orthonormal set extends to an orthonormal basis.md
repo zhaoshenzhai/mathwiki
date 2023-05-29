@@ -17,4 +17,4 @@ Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K
 
 ```
 
-_Proof_. Since $\mc{E}$ is an orthonormal set, it is linearly independent and hence extends to a basis $\mc{B}_0\coloneqq\l\{e_1,\dots,e_m,v_1,\dots,v_n\r\}$ for $V$. Applying Gram-Schmidt Orthonormalization to $\mc{B}_0$, we obtain an orthonormal basis $\mc{B}$ for $V$. Note that the first $m$ vectors $e_j$ in $\mc{B}_0$ remain unchanged since they are already orthonormal, so $\mc{B}$ contains $\mc{E}$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Since $\mc{E}$ is an orthonormal set, it is linearly independent and hence extends to a basis $\mc{B}_0\coloneqq\l\{e_1,\dots,e_m,v_1,\dots,v_n\r\}$ for $V$. Applying Gram-Schmidt Orthonormalization to $\mc{B}_0$, we obtain an orthonormal basis $\mc{B}$ for $V$. Note that the first $m$ vectors $e_j$ in $\mc{B}_0$ remain unchanged since they are already orthonormal, so $\mc{B}$ contains $\mc{E}$.<span style="float:right;">$\blacksquare$</span>

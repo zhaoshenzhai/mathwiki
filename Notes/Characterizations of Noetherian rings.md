@@ -20,7 +20,7 @@ Let $R$ be a commutative ring. The following are equivalent.
 
 ```
 
-_Proof_. We shall prove $1\Rightarrow2\Rightarrow3\Rightarrow1$.
+<i>Proof.</i> We shall prove $1\Rightarrow2\Rightarrow3\Rightarrow1$.
 * ($1\Rightarrow2$): Let $\mc{F}$ be a non-empty set of ideals in $R$ and suppose, for sake of contradiction, that it does not have a maximal element. Choose $I_1\in\mc{F}$, so there exists some $I_2\in\mc{F}$ such that $I_1\subset I_2$. By induction, we obtain a (properly) ascending chain $I_1\subset I_2\subset\cdots$ of ideals in $\mc{F}$, contradicting that it stabilizes.
 
 * ($2\Rightarrow3$): Let $I$ be an ideal in $R$ and let $\mc{F}$ be the set of all finitely-generated ideals $J\subseteq I$. Since $\sring{0}\in\mc{F}$, $\mc{F}\neq\em$ and hence has a maximal element $M\subseteq I$. We shall show that $I=M$ and hence $I$ is finitely-generated. Assume otherwise, so there exists some $x\in I\comp M$. Then $M+Rx=\sring{x_1,\dots,x_k,x}\subseteq I$ is finitely-generated with $M\subset M+Rx$, contradicting the maximality of $M$ in $\mc{F}$.

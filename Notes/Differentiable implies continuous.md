@@ -21,7 +21,7 @@ Fix $\Omega\subseteq\R$ and a cluster point $c\in\Omega\subseteq\R$. If a functi
 
 ```
 
-_Proof_. Simply observe that
+<i>Proof.</i> Simply observe that
 $$\begin{equation}
     \lim\limits_{x\to c}\l[f\l(x\r)-f\l(c\r)\r]=\lim\limits_{x\to c}\l[\frac{f\l(x\r)-f\l(c\r)}{x-c}\cdot\l(x-c\r)\r]=\l(\lim\limits_{x\to c}\frac{f\l(x\r)-f\l(c\r)}{x-c}\r)\cdot\l(\lim\limits_{x\to c}x-c\r)=f'\l(c\r)\cdot0=0.\qedin
 \end{equation}$$

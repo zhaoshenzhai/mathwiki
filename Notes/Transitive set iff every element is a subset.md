@@ -21,7 +21,7 @@ A set $z$ is a transitive set iff $\fa y\in z:y\subseteq z$.
 
 ```
 
-_Proof_. The result follows from the following chain of equivalences:
+<i>Proof.</i> The result follows from the following chain of equivalences:
 
 $\begin{alignat}{2}
     \fa y\in z:y\subseteq z&\Leftrightarrow\fa y:\l(y\in z\Rightarrow\fa x:x\in y\Rightarrow x\in z\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of subset}\\

@@ -17,7 +17,7 @@ Let $X$ be a topological space. Then $X$ is compact iff for every collection $\l
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * ($\Rightarrow$): Assume that $X$ is compact and suppose, for sake of contradiction, that $\bigcap_{\alpha\in\mc{A}}F_\alpha=\em$. For each $\alpha\in\mc{A}$, set $U_\alpha\coloneqq X\comp U_\alpha$, which is open, and observe that
 $$\begin{equation}
     \bigcup_{\alpha\in\mc{A}}U_\alpha=\bigcup_{\alpha\in\mc{A}}X\comp F_\alpha=X\comp\bigcap_{\alpha\in\mc{A}}F_\alpha=X.

@@ -21,7 +21,7 @@ Let $V$ and $W$ be finite-dimensional $K$-vector spaces with respective bases $\
 
 ```
 
-_Proof_. We first show that $T^\dual$ is linear. Indeed, for any $\gamma_1,\gamma_2\in W^\dual$ and $\lambda\in K$, we have
+<i>Proof.</i> We first show that $T^\dual$ is linear. Indeed, for any $\gamma_1,\gamma_2\in W^\dual$ and $\lambda\in K$, we have
 $$\begin{equation}
     T^\dual\l(\lambda\gamma_1+\gamma_2\r)=\l(\lambda\gamma_1+\gamma_2\r)\circ T=\lambda\l(\gamma_1\circ T\r)+\l(\gamma_2\circ T\r)=\lambda T^\dual\l(\gamma_1\r)+T^\dual\l(\gamma_2\r).
 \end{equation}$$

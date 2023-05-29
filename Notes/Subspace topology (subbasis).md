@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Since $\mc{S}\subseteq\mc{T}$, we see that $\l.\mc{S}\r|_Y\subseteq\l.\mc{T}\r|_Y$ too. Recall that the set
+<i>Proof.</i> Since $\mc{S}\subseteq\mc{T}$, we see that $\l.\mc{S}\r|_Y\subseteq\l.\mc{T}\r|_Y$ too. Recall that the set
 $$\begin{equation}
     \l.\mc{B}\r|_Y\coloneqq\l\{C\in\pow\l(Y\r)\mid\ex B\in\mc{B}:C=B\cap Y\r\},
 \end{equation}$$

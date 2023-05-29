@@ -21,7 +21,7 @@ Let $X$ be a metric space. If $X$ is compact, then $\CONT{\l(X\r)}$, equipped wi
 
 ```
 
-_Proof_. Fix $\epsilon>0$ and let $\tpl{f_n}$ be a Cauchy sequence in $\CONT{\l(X\r)}$, so $\max_{x\in X}\l|f_n\!\l(x\r)-f_m\!\l(x\r)\r|<\epsilon$ for all eventually $m,n\in\N$. Fixing $x\in X$, we see that $\l|f_n\!\l(x\r)-f_m\!\l(x\r)\r|<\epsilon$ eventually and so $\tpl{f_n\!\l(x\r)}$ is a Cauchy sequence in $\R$. Since $\R$ is complete, this sequence converges to some $f\l(x\r)\in\R$.
+<i>Proof.</i> Fix $\epsilon>0$ and let $\tpl{f_n}$ be a Cauchy sequence in $\CONT{\l(X\r)}$, so $\max_{x\in X}\l|f_n\!\l(x\r)-f_m\!\l(x\r)\r|<\epsilon$ for all eventually $m,n\in\N$. Fixing $x\in X$, we see that $\l|f_n\!\l(x\r)-f_m\!\l(x\r)\r|<\epsilon$ eventually and so $\tpl{f_n\!\l(x\r)}$ is a Cauchy sequence in $\R$. Since $\R$ is complete, this sequence converges to some $f\l(x\r)\in\R$.
 * First, note that $\sup_{x\in X}\l|f_n\!\l(x\r)-f\l(x\r)\r|<\epsilon$ for all eventually $n\in\N$. Indeed, for all $x\in X$, we have $f\l(x\r)=\lim_{m\to\infty}f_m\!\l(x\r)$ and since $\l|f_n\!\l(x\r)-f_m\!\l(x\r)\r|<\epsilon/2$ for all eventually $m,n\in\N$, we take the limit so that
 $$\begin{equation}
     \l|f_n\!\l(x\r)-f\l(x\r)\r|=\lim\limits_{m\to\infty}\l|f_n\!\l(x\r)-f_m\!\l(x\r)\r|\leq\frac{\epsilon}{2}.

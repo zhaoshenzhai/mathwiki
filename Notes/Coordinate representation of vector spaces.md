@@ -29,7 +29,7 @@ where $\l[v\r]_\mc{B}\coloneqq\tpl{\alpha_1,\dots,\alpha_n}\in K^n$ is the uniqu
 
 ---
 
-_Proof_. It is obvious that $\phi_\mc{B}$ is invertible, so it suffices to show that it is a linear map. Take $v_1,v_2\in V$ and $\lambda\in K$, so there exist unique coefficients $\alpha_1,\dots,\alpha_n\in K$ and $\beta_1,\dots,\beta_n\in K$ such that $v_1=\sum_{i=1}^n\alpha_ib_i$ and $v_2=\sum_{i=1}^{n}\beta_ib_i$. Observe then that
+<i>Proof.</i> It is obvious that $\phi_\mc{B}$ is invertible, so it suffices to show that it is a linear map. Take $v_1,v_2\in V$ and $\lambda\in K$, so there exist unique coefficients $\alpha_1,\dots,\alpha_n\in K$ and $\beta_1,\dots,\beta_n\in K$ such that $v_1=\sum_{i=1}^n\alpha_ib_i$ and $v_2=\sum_{i=1}^{n}\beta_ib_i$. Observe then that
 $$\begin{equation}
     \lambda v_1+v_2=\lambda\sum_{i=1}^n\alpha_ib_i+\sum_{i=1}^n\beta_ib_i=\sum_{i=1}^n\l(\lambda\alpha_i+\beta_i\r)b_i,
 \end{equation}$$

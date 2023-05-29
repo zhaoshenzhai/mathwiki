@@ -21,7 +21,7 @@ Fix some $\Omega\subseteq\R$ and a point $c\in\Omega^\circ$. For a function $f:\
 
 ```
 
-_Proof_. Suppose that $c$ is a local minimum, so there exists some $\delta>0$ such that $f\l(c\r)\leq f\l(x\r)$ for all $x\in B_\delta\!\l(x\r)$. Observe then that
+<i>Proof.</i> Suppose that $c$ is a local minimum, so there exists some $\delta>0$ such that $f\l(c\r)\leq f\l(x\r)$ for all $x\in B_\delta\!\l(x\r)$. Observe then that
 $$\begin{equation}
     \frac{f\l(x\r)-f\l(c\r)}{x-c}\leq0\ \ \ \ \textrm{if}\ \ \ \ x<c\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \frac{f\l(x\r)-f\l(c\r)}{x-c}\geq0\ \ \ \ \textrm{if}\ \ \ \ x>c,
 \end{equation}$$

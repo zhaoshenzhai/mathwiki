@@ -17,7 +17,7 @@ Let $n\in\mb{N}$ with $n>1$. Then, for some $k\geq1$, there exist prime numbers 
 
 ```
 
-_Proof_. We proceed by strong induction. For $n=2$, we have $2=2^1$ and it is not the product of powers of any other primes. Now let $n>2$ and assume that the result holds true for all $m\in\mb{N}$ with $2\leq m<n$. If $n$ is prime, then $n=n^1$ and since $n$ does not have any other positive factors (other than $1$), this is the unique factorization and we are done. Thus assume that there exist $n_1,n_2\in\mb{N}$ with $1<n_1,n_2<n$ such that $n=n_1n_2$. By the induction hypothesis, there exist unique primes $\pi_1<\cdots<\pi_r$ and $\tau_1<\cdots<\tau_s$ and unique positive integers $a_1,\dots,a_r$ and $b_1,\dots,b_s$ such that
+<i>Proof.</i> We proceed by strong induction. For $n=2$, we have $2=2^1$ and it is not the product of powers of any other primes. Now let $n>2$ and assume that the result holds true for all $m\in\mb{N}$ with $2\leq m<n$. If $n$ is prime, then $n=n^1$ and since $n$ does not have any other positive factors (other than $1$), this is the unique factorization and we are done. Thus assume that there exist $n_1,n_2\in\mb{N}$ with $1<n_1,n_2<n$ such that $n=n_1n_2$. By the induction hypothesis, there exist unique primes $\pi_1<\cdots<\pi_r$ and $\tau_1<\cdots<\tau_s$ and unique positive integers $a_1,\dots,a_r$ and $b_1,\dots,b_s$ such that
 $$\begin{equation}
     n_1=\pi_1^{a_1}\cdots\pi_r^{a_r}\ \ \ \ \mathrm{and}\ \ \ \ n_2=\tau_1^{b_1}\cdots\tau_s^{b_s}.
 \end{equation}$$

@@ -17,7 +17,7 @@ Let $X$ be a set. Then the discrete topology $\mc{T}_\textrm{discrete}=\pow\l(X\
 
 ```
 
-_Proof_. We verify the axioms for a topology on $X$:
+<i>Proof.</i> We verify the axioms for a topology on $X$:
 * ($\axitop[1]$): Vacuously, we have $\em\subseteq X$ and thus $\em\in\mc{T}_\textrm{discrete}$. Observe that, in particular, we have $X\subseteq X$, and thus $X\in\mc{T}_\textrm{discrete}$.
 * ($\axitop[2]$): Take any $\mc{U}\subseteq\pow\l(X\r)$; it suffices to prove that $\bigcup\mc{U}\subseteq X$. To this end, take $x\in\bigcup\mc{U}$. The result follows from the following chain of implications:
 $$\begin{equation}

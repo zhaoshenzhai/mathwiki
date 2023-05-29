@@ -27,7 +27,7 @@ Furthermore, $\phi$ is injective iff $\ker\phi=\l\{e_1\r\}$.
 
 ---
 
-_Proof_. 
+<i>Proof.</i> 
 * Note that $e_2\phi\l(e_1\r)=\phi\l(e_1\r)=\phi\l(e_1e_1\r)=\phi\l(e_1\r)\phi\l(e_1\r)$ and $\phi\l(g\r)\phi\l(g\r)^{-1}\!=e_2\!=\phi\l(e_1\r)=\phi\l(gg^{-1}\r)=\phi\l(g\r)\phi\l(g^{-1}\r)$, so the results follow by cancellation.
 * Since $e_1\in H_1$, we see that $e_2=\phi\l(e_1\r)\in\im_\phi\!\l(H_1\r)$. For closure, take $g_2,g_2'\in\im_\phi\!\l(H_1\r)$, so $g_2=\phi\l(g_1\r)$ and $g_2'=\phi\l(g_1'\r)$ for some $g_1,g_1'\in H_1$. Hence $g_1g_1'\in H_1$, so
     $$\begin{equation}

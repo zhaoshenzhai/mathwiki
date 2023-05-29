@@ -25,7 +25,7 @@ where $A\subseteq X\comp Z$ is the set of representatives of distinct non-trivia
 
 ---
 
-_Proof_. The partition $X=\coprod Gx$ where $x\in A\cup Z$ gives us
+<i>Proof.</i> The partition $X=\coprod Gx$ where $x\in A\cup Z$ gives us
 $$\begin{equation}
     \l|X\r|=\sum_{x\in Z}\l|Gx\r|+\sum_{x\in A}\l|Gx\r|=\sum_{x\in Z}1+\sum_{x\in A}\l|Gx\r|=\l|Z\r|+\sum_{x\in A}\l|Gx\r|,
 \end{equation}$$

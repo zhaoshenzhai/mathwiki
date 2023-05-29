@@ -21,7 +21,7 @@ Let $V$ and $W$ be isomorphic $K$-vector spaces. Then $V$ is finite-dimensional 
 
 ```
 
-_Proof_. Since $V\iso W$, there exists an invertible linear map $T:V\to W$. If $V$ is finite-dimensional, let $\mc{B}\coloneqq\l\{e_1,\dots,e_n\r\}$ be a basis thereof. Then $W$ has a finite spanning set, since
+<i>Proof.</i> Since $V\iso W$, there exists an invertible linear map $T:V\to W$. If $V$ is finite-dimensional, let $\mc{B}\coloneqq\l\{e_1,\dots,e_n\r\}$ be a basis thereof. Then $W$ has a finite spanning set, since
 $$\begin{equation}
     W=\im T=\span\l(\im_T\mc{B}\r)=\span\l\{T\l(e_1\r),\dots,T\l(e_n\r)\r\}.
 \end{equation}$$

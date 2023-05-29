@@ -21,7 +21,7 @@ Let $X$ and $Y$ be topological spaces, and consider a continuous function $f:X\t
 
 ---
 
-_Proof_. Let $\l\{V_\alpha\r\}$ be a collection of open sets of $Y$ that covers $\im f$. Since $f$ is continuous, each $\preim_f\!\l(V_\alpha\r)$ is open and hence $\l\{\preim_f\!\l(V_\alpha\r)\r\}$ is an open cover of $X$. But $X$ is compact, so there exist finitely-many indices $\alpha_1,\dots,\alpha_k$ such that $X=\bigcup_{i=1}^k\preim_f\!\l(V_{\alpha_i}\r)$. Observe then that
+<i>Proof.</i> Let $\l\{V_\alpha\r\}$ be a collection of open sets of $Y$ that covers $\im f$. Since $f$ is continuous, each $\preim_f\!\l(V_\alpha\r)$ is open and hence $\l\{\preim_f\!\l(V_\alpha\r)\r\}$ is an open cover of $X$. But $X$ is compact, so there exist finitely-many indices $\alpha_1,\dots,\alpha_k$ such that $X=\bigcup_{i=1}^k\preim_f\!\l(V_{\alpha_i}\r)$. Observe then that
 $$\begin{equation}
     \im f=\im_f\!\l(X\r)=\im_f\!\l(\bigcup_{i=1}^k\preim_f\!\l(V_{\alpha_i}\r)\r)=\bigcup_{i=1}^k\im_f\!\l(\preim_f\!\l(V_{\alpha_i}\r)\r)\subseteq\bigcup_{i=1}^k V_{\alpha_i},
 \end{equation}$$

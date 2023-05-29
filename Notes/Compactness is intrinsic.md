@@ -21,7 +21,7 @@ Let $\tpl{X,\mc{T}}$ be a topological space and let $Y\subseteq X$ be a subspace
 
 ---
 
-_Proof_.
+<i>Proof.</i>
 * ($\Rightarrow$) Let $\l\{V_\alpha\r\}_{\alpha\in\mc{A}}$ be a cover of $K$ open in $Y$. Then, for all $\alpha\in\mc{A}$, there exists $U_\alpha$ open in $X$ such that $V_\alpha=Y\cap U_\alpha$. But $K\subseteq Y$, so $\l\{U_\alpha\r\}$ is an cover of $K$ open in $X$. Compactness of $K$ in $X$ then furnishes indices $\alpha_1,\dots,\alpha_n$ such that $K\subseteq\bigcup_{i=1}^nU_{\alpha_i}$, but this implies that
 $$\begin{equation}
     K=Y\cap K=Y\cap\bigcup_{i=1}^{n}U_{\alpha_i}=\bigcup_{i=1}^{n}Y\cap U_{\alpha_i}=\bigcup_{i=1}^{n}V_{\alpha_i},

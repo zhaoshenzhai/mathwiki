@@ -21,7 +21,7 @@ for some $c\in\R^+$, then $\lim\limits_{n\to\infty}x_n=x$.
 
 ```
 
-_Proof_. Let $\epsilon>0$. Then, since $\lim\limits_{n\to\infty}a_n=0$, we see that
+<i>Proof.</i> Let $\epsilon>0$. Then, since $\lim\limits_{n\to\infty}a_n=0$, we see that
 $$\begin{equation}
     \ex N_1\in\N,\fa n\geq N_1:\l|a_n\r|<\epsilon/c.
 \end{equation}$$

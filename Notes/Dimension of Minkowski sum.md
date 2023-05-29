@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Consider the function
+<i>Proof.</i> Consider the function
 $$\begin{equation}
     T:U_1\oplus U_2\to U_1+U_2\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ \tpl{u_1,u_2}\mapsto u_1+u_2.
 \end{equation}$$

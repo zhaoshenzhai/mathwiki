@@ -29,7 +29,7 @@ Equality holds if for all $x\in\dom R$, there exists a unique $y$ such that $xRy
 
 ---
 
-_Proof_. Take $x\in\preim_R\l(B_1\r)\comp\preim_R\l(B_2\r)$. The result follows from the following chain of implications:
+<i>Proof.</i> Take $x\in\preim_R\l(B_1\r)\comp\preim_R\l(B_2\r)$. The result follows from the following chain of implications:
 $$\begin{equation}
     \begin{alignedat}{2}
         x\in\preim_R\l(B_1\r)\comp\preim_R\l(B_2\r)&\Leftrightarrow x\in\preim_R\l(B_1\r)\land\lnot x\in\preim_R\l(B_2\r)&&\textrm{Definition of relative complement}\\

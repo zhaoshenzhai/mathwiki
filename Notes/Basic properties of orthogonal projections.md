@@ -22,7 +22,7 @@ Let $V$ be an inner product space. If $U$ is a finite-dimensional linear subspac
 
 ```
 
-_Proof_. 
+<i>Proof.</i> 
 * Take $v_1,v_2\in V$ and $\alpha\in K$, so there exist unique vectors $u_1,u_2\in U$ and $w_1,w_2\in U^\perp$ such that $v_1=u_1+w_1$ and $v_2=u_2+w_2$. Observe then that
 $$\begin{equation}
     \alpha v_1+v_2=\l(\alpha u_1+u_2\r)+\l(\alpha w_1+w_2\r),

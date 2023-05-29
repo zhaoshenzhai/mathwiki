@@ -17,7 +17,7 @@ The membership relation $\in$ is a well-order on $\ON$.
 
 ```
 
-_Proof_. We need to prove that $\in$ is a transitive, irreflexive, connected, and well-founded relation on $\ON$.
+<i>Proof.</i> We need to prove that $\in$ is a transitive, irreflexive, connected, and well-founded relation on $\ON$.
 * ($\in$ is transitive on $\ON$; formally: $\fa\alpha,\beta,\gamma\in\ON:\l(\alpha\in\beta\land\beta\in\gamma\r)\Rightarrow\alpha\in\gamma$): Since $\gamma\in\ON$, this is the statement that $\gamma$ is a transitive set.
 
 * ($\in$ is irreflexive on $\ON$; formally: $\fa\alpha\in\ON:\alpha\not\in\alpha$): Since $\in$ is a strict total order on $\alpha$, it is, in particular, also irreflexive on $\alpha$ and hence $\fa x\in\alpha:x\not\in x$. It follows that if $\alpha\in\alpha$, then $\alpha\not\in\alpha$ which is contradictory.

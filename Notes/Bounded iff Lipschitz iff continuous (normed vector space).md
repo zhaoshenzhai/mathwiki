@@ -25,7 +25,7 @@ Let $V$ and $W$ be normed vector spaces and consider a linear map $T:V\to W$. Th
 
 ```
 
-_Proof_. It is clear that if $T$ is bounded, then it is Lipschitz, for $\|T\l(w\r)-T\l(v\r)\|=\|T\l(w-v\r)\|\leq C\|w-v\|$ for some $C>0$. Also, the fact $T$ is Lipschitz implies that it is continuous at some $v\in V$ is obvious.
+<i>Proof.</i> It is clear that if $T$ is bounded, then it is Lipschitz, for $\|T\l(w\r)-T\l(v\r)\|=\|T\l(w-v\r)\|\leq C\|w-v\|$ for some $C>0$. Also, the fact $T$ is Lipschitz implies that it is continuous at some $v\in V$ is obvious.
 * ($3\Rightarrow4$): Since $T$ is continuous at some $v\in V$, there exists some $\delta_1>0$ such that $\|T\l(w\r)-T\l(v\r)\|\leq1$ for all $w\in\bar{B}\l(v,\delta_1\r)$. Take $\epsilon>0$, set $\delta\coloneqq\delta_1\epsilon$, and take $w\in\bar{B}\l(0,\delta\r)$. If $w=0$, the fact that $\|T\l(w\r)-T\l(0\r)\|<\epsilon$ is clear. Otherwise, consider $u\coloneqq v+\delta_1w/\|w\|$. Then $\|u-v\|=\|\delta_1w/\|w\|\|=\delta_1$, so $u\in\bar{B}\l(v,\delta_1\r)$ and hence
     $$\begin{equation}
         \|T\l(u\r)-T\l(v\r)\|=\|T\l(u-v\r)\|=\l\|T\l(\frac{\delta_1w}{\|w\|}\r)\r\|\leq1.

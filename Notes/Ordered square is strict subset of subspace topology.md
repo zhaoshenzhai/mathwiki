@@ -17,7 +17,7 @@ Let $\tpl{I^2,\mc{T}_\textrm{or}}$ be the ordered square and let $\mc{T}_\textrm
 
 ```
 
-_Proof_. Consider the set $A\coloneqq\l(\tpl{0.5,0.5},\tpl{0.5,1}\r]$ and let $U\coloneqq\l(\tpl{0.5,0.5},\tpl{0.5,1.25}\r)$. Clearly $A=U\cap I^2$, and since $U\in\mc{T}\l(\sqsubset\r)$, we see that $A\in\mc{T}_\textrm{sb}$.
+<i>Proof.</i> Consider the set $A\coloneqq\l(\tpl{0.5,0.5},\tpl{0.5,1}\r]$ and let $U\coloneqq\l(\tpl{0.5,0.5},\tpl{0.5,1.25}\r)$. Clearly $A=U\cap I^2$, and since $U\in\mc{T}\l(\sqsubset\r)$, we see that $A\in\mc{T}_\textrm{sb}$.
 
 ![[Images/2022-02-18_160458/image.svg|265]]
 

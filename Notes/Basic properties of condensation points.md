@@ -26,7 +26,7 @@ If $X$ is a (separable) metric space, then every condensation point $x$ of $S$ a
 
 ---
 
-_Proof_. We first show that if $S$ is uncountable, then it has a condensation point in $S$. Suppose, for sake of contradiction, that $S$ has no condensation point in $S$. Then for all $x\in S$, there exists some neighborhood $U_x$ of $x$ such that $U_x\cap S$ is countable. Note that $\l\{U_x\r\}_{x\in S}$ is an open cover of $S$, so, since $X$ is separable, there exist $s_1,s_2,s_3,\ldots\in S$ such that $S\subseteq\bigcup_{i=1}^{\infty}U_{s_i}$. Observe then that
+<i>Proof.</i> We first show that if $S$ is uncountable, then it has a condensation point in $S$. Suppose, for sake of contradiction, that $S$ has no condensation point in $S$. Then for all $x\in S$, there exists some neighborhood $U_x$ of $x$ such that $U_x\cap S$ is countable. Note that $\l\{U_x\r\}_{x\in S}$ is an open cover of $S$, so, since $X$ is separable, there exist $s_1,s_2,s_3,\ldots\in S$ such that $S\subseteq\bigcup_{i=1}^{\infty}U_{s_i}$. Observe then that
 $$\begin{equation*}
     S\subseteq S\cap\bigcup_{i=1}^{\infty}U_{s_i}=\bigcup_{i=1}^{\infty}\underbrace{U_{s_i}\cap S}_{\mathclap{\textrm{countable}}}.
 \end{equation*}$$

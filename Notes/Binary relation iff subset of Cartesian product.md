@@ -21,7 +21,7 @@ Let $R$ be a set. Then $R$ is a binary relation iff there exist sets $X$ and $Y$
 
 ```
 
-_Proof_. ($\Rightarrow$): Let $X\coloneqq\dom R$ and $Y\coloneqq\ran R$; we claim that $R\subseteq\dom R\times\ran R$. To see this, take $u\in R$, so $u=\tpl{x,y}$ for some sets $x$ and $y$. But then $\tpl{x,y}\in R$, so $x\in\dom R$ and $y\in\ran R$ and thus
+<i>Proof.</i> ($\Rightarrow$): Let $X\coloneqq\dom R$ and $Y\coloneqq\ran R$; we claim that $R\subseteq\dom R\times\ran R$. To see this, take $u\in R$, so $u=\tpl{x,y}$ for some sets $x$ and $y$. But then $\tpl{x,y}\in R$, so $x\in\dom R$ and $y\in\ran R$ and thus
 $$\begin{equation}
     u=\tpl{x,y}\in\dom R\times\ran R.
 \end{equation}$$

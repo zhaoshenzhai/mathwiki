@@ -35,7 +35,7 @@ $$\begin{equation}
 
 ---
 
-_Proof_. Since $\dim V=\dim V^\dual$, it suffices to show that $\omega=\sum_{i=1}^{n}\omega\l(e_i\r)\epsilon_i$ for all $\omega\in V^\ast$, for then $\mc{B}^\dual$ spans $V^\dual$ and is hence a basis for $V^\dual$. But this follows by applying both sides on $e_j$ for any $1\leq j\leq n$ to obtain
+<i>Proof.</i> Since $\dim V=\dim V^\dual$, it suffices to show that $\omega=\sum_{i=1}^{n}\omega\l(e_i\r)\epsilon_i$ for all $\omega\in V^\ast$, for then $\mc{B}^\dual$ spans $V^\dual$ and is hence a basis for $V^\dual$. But this follows by applying both sides on $e_j$ for any $1\leq j\leq n$ to obtain
 $$\begin{equation}
     \l(\sum_{i=1}^{n}\omega\l(e_i\r)\epsilon_i\r)\l(e_j\r)=\sum_{i=1}^{n}\omega\l(e_i\r)\epsilon_i\l(e_j\r)=\sum_{i=1}^{n}\omega\l(e_i\r)\delta_{ij}=\omega\l(e_j\r).\qedin
 \end{equation}$$

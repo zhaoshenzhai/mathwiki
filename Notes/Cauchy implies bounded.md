@@ -21,7 +21,7 @@ Let $\tpl{X,d}$ be a metric space and consider a sequence $\tpl{x_n}$ in $X$. If
 
 ```
 
-_Proof_. Take $\epsilon\coloneqq1$, so $d\l(x_n,x_m\r)<1$ for all eventually $m,n\in\N$, say for all $m,n\geq N$ for some $N\in\N$. In particular, we have $d\l(x_n,x_N\r)<1$, so
+<i>Proof.</i> Take $\epsilon\coloneqq1$, so $d\l(x_n,x_m\r)<1$ for all eventually $m,n\in\N$, say for all $m,n\geq N$ for some $N\in\N$. In particular, we have $d\l(x_n,x_N\r)<1$, so
 $$\begin{equation}
     \l|x_n\r|=\l|x_n-x_N+x_N\r|\leq\l|x_n-x_N\r|+\l|x_N\r|<\l|x_N\r|+1
 \end{equation}$$

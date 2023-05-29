@@ -25,4 +25,4 @@ Let $K$ be a field and let $f\in K\l[x\r]$. Then $f$ is irreducible iff the idea
 
 ---
 
-_Proof_. Observe that $\sring{f}$ is maximal iff $\sring{f}\not\subset\sring{g}$ for any $\sring{g}\neq R$. But this occurs iff $g\ndivides f$ for any $g\in R\comp R^\times$, iff $f$ is irreducible.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Observe that $\sring{f}$ is maximal iff $\sring{f}\not\subset\sring{g}$ for any $\sring{g}\neq R$. But this occurs iff $g\ndivides f$ for any $g\in R\comp R^\times$, iff $f$ is irreducible.<span style="float:right;">$\blacksquare$</span>

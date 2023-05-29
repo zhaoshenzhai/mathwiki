@@ -25,7 +25,7 @@ Let $R$ be a field. Then every ideal $I\subseteq R$ is either $\l\{0\r\}$ or $R$
 
 ---
 
-_Proof_. Let $I\subseteq R$ be an ideal of $R$ such that $I\neq\l\{0\r\}$; we wish to show that $R\subseteq I$, for then $I=R$ and so the only ideals of $R$ are $\l\{0\r\}$ and $R$. Indeed, $I\neq\l\{0\r\}$ implies that there exists some non-zero $i\in I$, so it has a multiplicative inverse $i^{-1}\in R$. Take $r\in R$. Since $I$ is an ideal and $ri^{-1}\in R$, we see that
+<i>Proof.</i> Let $I\subseteq R$ be an ideal of $R$ such that $I\neq\l\{0\r\}$; we wish to show that $R\subseteq I$, for then $I=R$ and so the only ideals of $R$ are $\l\{0\r\}$ and $R$. Indeed, $I\neq\l\{0\r\}$ implies that there exists some non-zero $i\in I$, so it has a multiplicative inverse $i^{-1}\in R$. Take $r\in R$. Since $I$ is an ideal and $ri^{-1}\in R$, we see that
 $$\begin{equation*}
     \l(ri^{-1}\r)I\subseteq I.
 \end{equation*}$$

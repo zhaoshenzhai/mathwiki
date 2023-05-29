@@ -20,7 +20,7 @@ where $\ms{I}:\bf{1}\to\cat{C}$ is the inclusion functor and $\bf{1}$ is the dis
 
 ```
 
-_Proof_. The obvious functor to consider is $\ms{F}:\l(\cat{C}\downarrow C\r)\to\l(\Id_\cat{C}\downarrow\ms{I}\r)$ mapping
+<i>Proof.</i> The obvious functor to consider is $\ms{F}:\l(\cat{C}\downarrow C\r)\to\l(\Id_\cat{C}\downarrow\ms{I}\r)$ mapping
 $$\begin{equation}
     \ms{F}^{\Obj}\tpl{X,f}\coloneqq\tpl{X,C,f}\ \ \ \ \textrm{and}\ \ \ \ \ms{F}^{\Hom}\l(\phi\r)\coloneqq\tpl{\phi,\id_C}
 \end{equation}$$

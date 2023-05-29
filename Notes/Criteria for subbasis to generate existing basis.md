@@ -21,7 +21,7 @@ then $\mc{T}\l(\mc{S}\r)=\mc{T}\l(\mc{B}\r)$.
 
 ```
 
-_Proof_. Define the set
+<i>Proof.</i> Define the set
 $$\begin{equation}
     \mc{B}'\coloneqq\l\{B\in\pow\l(X\r)\mid\ex\mc{R}\subseteq\mc{S}:0<\l|\mc{R}\r|<\infty\land B=\bigcap\mc{R}\r\},
 \end{equation}$$

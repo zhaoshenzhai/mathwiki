@@ -21,7 +21,7 @@ Let $\tpl{a_k}$ be a non-increasing sequence in $\R$. Then $\sum_{k=1}^{\infty}a
 
 ```
 
-_Proof_. Let $\tpl{s_n}$ and $\tpl{t_m}$ be the sequence of partial sums of $\tpl{a_k}$ and $\tpl{2^ka_{2^k}}$, respectively.
+<i>Proof.</i> Let $\tpl{s_n}$ and $\tpl{t_m}$ be the sequence of partial sums of $\tpl{a_k}$ and $\tpl{2^ka_{2^k}}$, respectively.
 * Choosing $m,n\in\N$ so that $n>2^m$, we may regroup the terms of $s_n$ as
 $$\begin{equation}
     s_n\geq a_1+a_2+\l(a_3+a_4\r)+\cdots+\l(a_{2^{m-1}+1}+\cdots a_{2^m}\r)\geq\frac{1}{2}a_1+a_2+2a_4+\cdots+2^{m-1}a_{2m}=\frac{1}{2}t_m.

@@ -19,7 +19,7 @@ Furthermore, $\mc{T}_\textrm{or}$ and $\mc{T}_\textrm{pr}$ are not comparable.
 
 ```
 
-_Proof_. Since $\mc{T}_\textrm{or}\subseteq\mc{T}_\textrm{sb}$ in general and $\mc{T}_\textrm{or}\neq\mc{T}_\textrm{sb}$ for the ordered square, we see that $\mc{T}_\textrm{sb}$ is strictly finer than $\mc{T}_\textrm{or}$. The other results follow from the links above.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Since $\mc{T}_\textrm{or}\subseteq\mc{T}_\textrm{sb}$ in general and $\mc{T}_\textrm{or}\neq\mc{T}_\textrm{sb}$ for the ordered square, we see that $\mc{T}_\textrm{sb}$ is strictly finer than $\mc{T}_\textrm{or}$. The other results follow from the links above.<span style="float:right;">$\blacksquare$</span>
 
 ---
 

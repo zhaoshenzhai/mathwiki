@@ -21,7 +21,7 @@ for all $x_1,x_2\in X$ and $y_1,y_2\in Y$ is a strict partial order on $X\times 
 
 ```
 
-_Proof_. We shall first prove that $\sqsubset$ is a binary relation and then that $\sqsubset$ is a strict partial order on $X\times Y$.
+<i>Proof.</i> We shall first prove that $\sqsubset$ is a binary relation and then that $\sqsubset$ is a strict partial order on $X\times Y$.
 * ($\sqsubset$ is a binary relation): Formally, $\sqsubset$ is defined as
 $$\begin{equation}
     \sqsubset\,\coloneqq\l\{u\mid\ex x_1,x_2\in X,\ex y_1,y_2\in Y:u=\tpl{\tpl{x_1,y_2},\tpl{x_2,y_2}}\land x_1<x_2\lor\l(x_1=x_2\land y_1\prec y_2\r)\r\}.

@@ -34,7 +34,7 @@ that is, by defining open sets as relative complements of closed sets.<span styl
 
 ---
 
-_Proof_. Take any $\mc{C}\subseteq\mc{F}$ and $\mc{U}\subseteq\mc{T}$. We need the following two lemmas:
+<i>Proof.</i> Take any $\mc{C}\subseteq\mc{F}$ and $\mc{U}\subseteq\mc{T}$. We need the following two lemmas:
 $$\begin{equation}
     \begin{alignedat}{2}
         \l\{X\comp C\mid C\in\mc{C}\r\}&=\l\{U\in\pow\l(X\r)\mid\ex C\in\mc{C}:U=X\comp C\r\}\ \ \ \ \ \ \ \ &&\textrm{Definition of set of relative complements}\\

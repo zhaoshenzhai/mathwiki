@@ -21,7 +21,7 @@ Let $f:X\to Y$ with $X\neq\em$. Then $f$ is left-invertible iff $f$ is injective
 
 ```
 
-_Proof_. ($\Rightarrow$): Let $g:Y\to X$ be a left-inverse of $f$ and take any $x,x'\in X$ such that $f\l(x\r)=f\l(x'\r)$. Observe that
+<i>Proof.</i> ($\Rightarrow$): Let $g:Y\to X$ be a left-inverse of $f$ and take any $x,x'\in X$ such that $f\l(x\r)=f\l(x'\r)$. Observe that
 $$\begin{equation}
     x=\id_X\l(x\r)=\l(g\circ f\r)\l(x\r)=g\l(f\l(x\r)\r)=g\l(f\l(x'\r)\r)=\l(g\circ f\r)\l(x'\r)=\id_X\l(x'\r)=x',
 \end{equation}$$

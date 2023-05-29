@@ -25,7 +25,7 @@ containing open intervals with rational endpoints.
 
 ```
 
-_Proof_. First observe that if $\l(a,b\r)\in\mc{B}'$, then $a,b\in\R$ too. It follows that $\mc{B}'\subseteq\mc{B}\subseteq\mc{T}\l(\mc{B}\r)=\mc{T}\l(<\r)$ where
+<i>Proof.</i> First observe that if $\l(a,b\r)\in\mc{B}'$, then $a,b\in\R$ too. It follows that $\mc{B}'\subseteq\mc{B}\subseteq\mc{T}\l(\mc{B}\r)=\mc{T}\l(<\r)$ where
 $$\begin{equation}
     \mc{B}\coloneqq\l\{B\in\pow\l(\R\r)\mid\ex a,b\in\R:a<b\land B=\l(a,b\r)\r\}.
 \end{equation}$$

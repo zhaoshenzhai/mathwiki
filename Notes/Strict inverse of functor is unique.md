@@ -17,7 +17,7 @@ Let $\cat{C}$ and $\cat{D}$ be categories and fix a strictly invertible functor 
 
 ```
 
-_Proof_. If $\ms{G},\ms{G}':\cat{D}\to\cat{C}$ are both strict inverses of $\ms{F}$, then
+<i>Proof.</i> If $\ms{G},\ms{G}':\cat{D}\to\cat{C}$ are both strict inverses of $\ms{F}$, then
 
 $\begin{align}
     \ms{G}&=\ms{G}\circ\Id_\cat{D}&&\textrm{Identity functor is the identity of functor composition}\\

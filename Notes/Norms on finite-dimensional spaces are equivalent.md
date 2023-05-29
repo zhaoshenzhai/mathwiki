@@ -17,7 +17,7 @@ Let $V$ be a finite-dimensional normed vector space. Then any two norms $\|\slot
 
 ```
 
-_Proof_. Since $V$ is finite-dimensional, it admits a basis $\l\{e_1,\dots,e_n\r\}$ for some $n\in\N^+$. To show that all norms on $V$ are equivalent, it suffices to take any norm $\|\slot\|$ on $V$ and show that it is equivalent to the sup norm defined by
+<i>Proof.</i> Since $V$ is finite-dimensional, it admits a basis $\l\{e_1,\dots,e_n\r\}$ for some $n\in\N^+$. To show that all norms on $V$ are equivalent, it suffices to take any norm $\|\slot\|$ on $V$ and show that it is equivalent to the sup norm defined by
 $$\begin{equation}
     \|v\|_\infty\coloneqq\underset{1\leq i\leq n}{\max}\l|\alpha_i\r|
 \end{equation}$$

@@ -23,7 +23,7 @@ In particular, if $m=\dim V$, then $\l\{e_1,\dots,e_{\dim V}\r\}$ is an orthonor
 
 ```
 
-_Proof_. We proceed by induction on $j$.
+<i>Proof.</i> We proceed by induction on $j$.
 * When $j=1$, we have $\span\l\{v_1\r\}=\span\l\{\l\|v_1\r\|e_1\r\}=\span\l\{e_1\r\}$, and since $v_1\neq0$, the expression for $e_1$ is well-defined with $\l\|e_1\r\|=1$.
 
 For any $2<j<m$, assume that $\l\{e_1,\dots,e_{j-1}\r\}$ is an orthonormal list of vectors in $V$ such that

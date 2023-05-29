@@ -28,7 +28,7 @@ $$\begin{equation}
 
 ---
 
-_Proof_. We first show that give any $S\subseteq X$, the function $f:X\to\R$ defined by
+<i>Proof.</i> We first show that give any $S\subseteq X$, the function $f:X\to\R$ defined by
 $$\begin{equation}
     f\l(x\r)\coloneqq d\l(x,S\r)\coloneqq\inf\limits_{s\in S}d\l(x,s\r)
 \end{equation}$$

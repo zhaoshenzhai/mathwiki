@@ -17,7 +17,7 @@ Let $\tpl{X_n}_{n\in\omega}$ be a sequence of countable sets. Then $\bigcup_{n\i
 
 ```
 
-_Proof_. Set $X\coloneqq\bigcup_{n\in\omega}X_n$. For each $n\in\omega$, there exists an injection $\phi_n:X_n\into\omega$, so consider the function
+<i>Proof.</i> Set $X\coloneqq\bigcup_{n\in\omega}X_n$. For each $n\in\omega$, there exists an injection $\phi_n:X_n\into\omega$, so consider the function
 $$\begin{equation}
     \phi:X\to\omega\times\omega\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ x\mapsto\tpl{m,\phi_m\l(x\r)}
 \end{equation}$$

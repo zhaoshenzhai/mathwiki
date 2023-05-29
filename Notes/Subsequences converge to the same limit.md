@@ -17,4 +17,4 @@ Let $\tpl{X,\mc{T}}$ be a topological space and let $\tpl{x_n}$ be a sequence in
 
 ```
 
-_Proof_. For all $U\in\mc{U}_x$, $x_n\to x$ implies that $\fa^\infty n\in\N:x_n\in U$. But since $n_{k+1}>n_k$ for all $k\in\N$, we see that $\fa^\infty k\in\N:x_{n_k}\in U$ and thus $x_{n_k}\to x$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> For all $U\in\mc{U}_x$, $x_n\to x$ implies that $\fa^\infty n\in\N:x_n\in U$. But since $n_{k+1}>n_k$ for all $k\in\N$, we see that $\fa^\infty k\in\N:x_{n_k}\in U$ and thus $x_{n_k}\to x$.<span style="float:right;">$\blacksquare$</span>

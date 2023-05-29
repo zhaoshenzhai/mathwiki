@@ -21,7 +21,7 @@ For all $n\in\N^+$, the sphere $S^n$ is a (strong) deformation retract of $\R^{n
 
 ```
 
-_Proof_. Let $X\coloneqq\R^{n+1}\comp\l\{0\r\}$ and consider the homotopy $F\l(x,t\r):X\times I\to X$ defined by
+<i>Proof.</i> Let $X\coloneqq\R^{n+1}\comp\l\{0\r\}$ and consider the homotopy $F\l(x,t\r):X\times I\to X$ defined by
 $$\begin{equation}
     F\l(x,t\r)\coloneqq\l(\l(1-t\r)+\frac{t}{\|x\|}\r)x
 \end{equation}$$

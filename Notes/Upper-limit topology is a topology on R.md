@@ -25,6 +25,6 @@ is a topology on $\R$.
 
 ```
 
-_Proof_. It suffices to prove that $\mc{B}_\textrm{UL}$ is a basis for a topology on $\R$.
+<i>Proof.</i> It suffices to prove that $\mc{B}_\textrm{UL}$ is a basis for a topology on $\R$.
 * ($\axibasis[1]$): For any $x\in\R$, take $B=\l(x-r,x\r]$ for any $r\in\R^+$. Observe that $x\in B$.
 * ($\axibasis[2]$): Take any $B_1=\l(a,b\r]$ and $B_2=\l(c,d\r]$ in $\mc{B}_\textrm{UL}$. Observe that either $c<b$ or $b\leq c$; in the latter case, their intersection is empty. Otherwise, $B_1\cap B_2=\l(c,b\r]$ is again in $\mc{B}_\textrm{UL}$.<span style="float:right;">$\blacksquare$</span>

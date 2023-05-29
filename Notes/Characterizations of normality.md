@@ -28,7 +28,7 @@ If any of the above hold, then $H$ is the kernel of some homomorphism $\phi:G\to
 
 ```
 
-_Proof_. We shall prove $1\Rightarrow2\Rightarrow3\Rightarrow1$ and $2\Leftrightarrow5$; the equivalence $1\Leftrightarrow4$ follows from the fact that $N_G\!\l(H\r)$ is the largest subgroup of $G$ that $H$ is normal in, which is $G$ itself iff $H\nsubgrpeq G$. Take $g\in G$.
+<i>Proof.</i> We shall prove $1\Rightarrow2\Rightarrow3\Rightarrow1$ and $2\Leftrightarrow5$; the equivalence $1\Leftrightarrow4$ follows from the fact that $N_G\!\l(H\r)$ is the largest subgroup of $G$ that $H$ is normal in, which is $G$ itself iff $H\nsubgrpeq G$. Take $g\in G$.
 * ($1\Rightarrow2$): Take $x\in gHg^{-1}$, so $x=ghg^{-1}$ for some $h\in H$. Then $xg=gh$, so $xg\in gH=Hg$ and thus $xg=h'g$ for some $h'\in H$. Observe then that $x=h'\in H$.
 
 * ($2\Rightarrow3$): Take $h\in H$, so $g^{-1}hg\in g^{-1}H\l(g^{-1}\r)^{-1}\subseteq H$. Thus $g^{-1}hg=h'$ for some $h'\in H$, so $h=gh'g^{-1}\in gHg^{-1}$.

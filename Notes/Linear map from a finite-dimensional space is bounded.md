@@ -21,7 +21,7 @@ Let $V$ and $W$ be normed vector spaces. If $V$ is finite-dimensional, then any 
 
 ```
 
-_Proof_. Take $v\in V$ and let $\l\{e_1,\dots,e_n\r\}$ be a basis for $V$, so $v=\sum_{i=1}^{n}\alpha_ie_i$ for some $\alpha_i\in\C$. Then
+<i>Proof.</i> Take $v\in V$ and let $\l\{e_1,\dots,e_n\r\}$ be a basis for $V$, so $v=\sum_{i=1}^{n}\alpha_ie_i$ for some $\alpha_i\in\C$. Then
 $$\begin{equation}
     \|Tv\|=\l\|T\l(\sum_{i=1}^{n}\alpha_ie_i\r)\r\|=\l\|\sum_{i=1}^{n}\alpha_iTe_i\r\|\leq\sum_{i=1}^{n}\l|\alpha_i\r|\|Te_i\|\leq\l(\underset{1\leq i\leq n}{\max}\l|\alpha_i\r|\r)\sum_{i=1}^{n}\|Te_i\|.
 \end{equation}$$

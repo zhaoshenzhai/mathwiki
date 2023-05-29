@@ -24,7 +24,7 @@ Let $R$ be an integral domain and let $a\in R\comp\l\{0\r\}$. Then the following
 
 ---
 
-_Proof_.
+<i>Proof.</i>
 * Observe that
 $$\begin{equation}
     \begin{aligned}

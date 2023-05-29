@@ -21,7 +21,7 @@ Let $a\in\R^+$. If $0\leq a<1$, then $\lim\limits_{n\to\infty}a^n=0$. Otherwise,
 
 ```
 
-_Proof_. If $a=0$, we are done. Otherwise, if $0<a<1$, set $b\coloneqq\frac{1}{a}-1$, so $a=\frac{1}{1+b}$. Observe then that
+<i>Proof.</i> If $a=0$, we are done. Otherwise, if $0<a<1$, set $b\coloneqq\frac{1}{a}-1$, so $a=\frac{1}{1+b}$. Observe then that
 $$\begin{equation}
     d\l(a^n,0\r)=\l|a^n\r|=a^n=\l(\frac{1}{1+b}\r)^n=\frac{1}{\l(1+b\r)^n}\leq\frac{1}{1+bn}
 \end{equation}$$

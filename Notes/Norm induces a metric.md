@@ -21,7 +21,7 @@ is a metric on $V$.
 
 ```
 
-_Proof_. We verify the axioms for a metric on $V$. Indeed, they translate directly from the corresponding axioms for $\|\slot\|$.
+<i>Proof.</i> We verify the axioms for a metric on $V$. Indeed, they translate directly from the corresponding axioms for $\|\slot\|$.
 * (Positive-definiteness): Take $v,w\in V$. Obviously $d\l(v,w\r)=\|v-w\|\geq0$, and $d\l(v,w\r)=0$ iff $\|v-w\|=0$ iff $v-w=0$ iff $v=w$.
 * (Symmetry): Take $v,w\in V$ and observe that $d\l(v,w\r)=\|v-w\|=\l|-1\r|\|v-w\|=\|\l(-1\r)\l(v-w\r)\|=\|w-v\|=d\l(w,v\r)$.
 * (Triangle-inequality): Take $u,v,w\in V$ and observe that

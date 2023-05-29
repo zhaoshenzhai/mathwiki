@@ -17,4 +17,4 @@ Fix $d\in\N^+$ and a subset $K\subseteq\R^d$. Then $K$ is compact iff it is clos
 
 ```
 
-_Proof_. It is true in general that compact (Hausdorff) spaces are both closed and bounded, so it suffices to prove the converse. Let $\tpl{x_n}$ be a sequence in $K$, so it is bounded and hence admits a subsequence converging to some $x\in\R^d$. But $K$ is closed, so $x\in K$. Thus $K$ is sequentially compact, and hence compact.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> It is true in general that compact (Hausdorff) spaces are both closed and bounded, so it suffices to prove the converse. Let $\tpl{x_n}$ be a sequence in $K$, so it is bounded and hence admits a subsequence converging to some $x\in\R^d$. But $K$ is closed, so $x\in K$. Thus $K$ is sequentially compact, and hence compact.<span style="float:right;">$\blacksquare$</span>

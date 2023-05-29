@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Note that $b_k=s_k-s_{k-1}$ for all $k\in\N^+$, so
+<i>Proof.</i> Note that $b_k=s_k-s_{k-1}$ for all $k\in\N^+$, so
 $$\begin{equation}
     \sum_{k=n+1}^{m}a_kb_k=\sum_{k=n+1}^{m}a_ks_k-\sum_{k=n+1}^{m}a_ks_{k-1}.
 \end{equation}$$

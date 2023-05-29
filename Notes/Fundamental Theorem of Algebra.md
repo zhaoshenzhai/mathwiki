@@ -21,7 +21,7 @@ Every non-constant polynomial $p\in\C\l[z\r]$ has a root in $\C$.
 
 ---
 
-_Proof_. W.l.o.g., let $p\l(z\r)\coloneqq z^n+a_1z^{n-1}+\cdots+a_n$ and suppose that $p$ does not have any complex roots. For all $r\geq0$, consider the loop $f_r:\l[0,1\r]\to S^1$ defined by
+<i>Proof.</i> W.l.o.g., let $p\l(z\r)\coloneqq z^n+a_1z^{n-1}+\cdots+a_n$ and suppose that $p$ does not have any complex roots. For all $r\geq0$, consider the loop $f_r:\l[0,1\r]\to S^1$ defined by
 $$\begin{equation}
     f_r\!\l(s\r)\coloneqq\frac{p\l(re^{2\pi is}\r)/p\l(r\r)}{\l|p\l(re^{2\pi is}\r)/p\l(r\r)\r|},\cref{\ast}
 \end{equation}$$

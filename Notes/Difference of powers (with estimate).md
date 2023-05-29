@@ -25,7 +25,7 @@ holds, and is strict if $n>1$.
 
 ```
 
-_Proof_. We proceed by induction.
+<i>Proof.</i> We proceed by induction.
 * ($n=1$): Observe that $\l(b-a\r)\sum_{k=0}^0b^{1-k-1}a^k=\l(b-a\r)b^0a^0=b-a$.
 
 Assume now that the identity holds for some $m\in\N$. Then

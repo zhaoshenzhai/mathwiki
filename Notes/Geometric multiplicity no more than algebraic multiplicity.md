@@ -25,7 +25,7 @@ Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$
 
 ---
 
-_Proof_. Let $n\coloneqq\dim V$ and let $\mc{B}=\l\{v_1,\dots,v_k\r\}$ be a basis for $E_\lambda$. Extending it to a basis $\mc{C}$ of $V$, we see that $T\l(v_i\r)=\lambda v_i$ for all $1\leq i\leq k$. Thus the matrix of $T$ w.r.t. $\mc{C}$ is of the form
+<i>Proof.</i> Let $n\coloneqq\dim V$ and let $\mc{B}=\l\{v_1,\dots,v_k\r\}$ be a basis for $E_\lambda$. Extending it to a basis $\mc{C}$ of $V$, we see that $T\l(v_i\r)=\lambda v_i$ for all $1\leq i\leq k$. Thus the matrix of $T$ w.r.t. $\mc{C}$ is of the form
 $$\begin{equation}
     A\coloneqq\l[T\r]_\mc{C}=
     \begin{bmatrix}

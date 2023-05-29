@@ -21,7 +21,7 @@ are (non-strict) partial and total orders on $X$, respectively.
 
 ```
 
-_Proof_. It suffices to show that $\preceq$ is a partial order on $X$ since the reflexive closure of connected relations remain connected. To do so, we check that $\preceq$ is transitive and antisymmetric on $X$; reflexivity is already ensured.
+<i>Proof.</i> It suffices to show that $\preceq$ is a partial order on $X$ since the reflexive closure of connected relations remain connected. To do so, we check that $\preceq$ is transitive and antisymmetric on $X$; reflexivity is already ensured.
 * (Transitive): Take $x_1,x_2,x_3\in X$ with such that $x_1\preceq x_2$ and $x_2\preceq x_3$.
     * If $x_1=x_2$ or $x_2=x_3$, then $x_1\preceq x_3$ by substitution.
     * If $x_1\prec x_2$ and $x_2\prec x_3$, then $x_1\prec x_3$ since $\prec$ is transitive on $X$. It follows that$$\begin{equation}

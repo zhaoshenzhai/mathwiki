@@ -29,7 +29,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. We shall prove the statement for $z_1$; the proof for $z_2$ is analogous. Firstly, observe that
+<i>Proof.</i> We shall prove the statement for $z_1$; the proof for $z_2$ is analogous. Firstly, observe that
 $$\begin{equation}
     \begin{aligned}
         \ex y:xRy&\Leftrightarrow\ex y:\l[\!\l[x,y\r]\!\r]\in R&&\textrm{Notation}\\

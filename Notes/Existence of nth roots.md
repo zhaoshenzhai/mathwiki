@@ -25,7 +25,7 @@ Fix $n\in\N^+$. For every $x\in\R^+$, there exists a unique $y\in\R^+$ such that
 
 ---
 
-_Proof_. Uniqueness follows immediately since $0<y_1<y_2$ implies $y_1^n<y_2^n$ and similarly for when $0<y_2<y_1$. The contrapositive then states that $y_1^n=y_2^n$ implies $y_1=y_2$. For existence, consider the set
+<i>Proof.</i> Uniqueness follows immediately since $0<y_1<y_2$ implies $y_1^n<y_2^n$ and similarly for when $0<y_2<y_1$. The contrapositive then states that $y_1^n=y_2^n$ implies $y_1=y_2$. For existence, consider the set
 $$\begin{equation}
     T\coloneqq\l\{t\in\R\mid t^n<x\r\}.
 \end{equation}$$

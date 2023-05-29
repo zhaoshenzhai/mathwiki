@@ -21,7 +21,7 @@ $\lim\limits_{n\to\infty}\sqrt[n]{n}=1$.
 
 ```
 
-_Proof_. Let $\epsilon>0$ and set
+<i>Proof.</i> Let $\epsilon>0$ and set
 $$\begin{equation*}
     N\coloneqq\l\lceil\frac{2}{\epsilon^2}\r\rceil,
 \end{equation*}$$

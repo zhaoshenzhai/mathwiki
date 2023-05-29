@@ -21,7 +21,7 @@ Let $R$ be a UFD. Then $R\l[x\r]$ is also a UFD.
 
 ```
 
-_Proof_. Let $f\in R\l[x\r]\comp R^\times$ be non-zero. For existence, we induct on $n\coloneqq\deg f$.
+<i>Proof.</i> Let $f\in R\l[x\r]\comp R^\times$ be non-zero. For existence, we induct on $n\coloneqq\deg f$.
 * If $n=0$, then $f\in R$ and hence can be factored into irreducibles $p_1,\dots,p_k\in R$. But then $p_1,\dots,p_k$ are irreducible in $R\l[x\r]$, so we are done.
 
 Assume now that $n>0$ and write $f=\alpha f'$ for some primitive $f'\in R\l[x\r]$ and some $\alpha\in R$. If $f'$ is irreducible in $R\l[x\r]$, we are done. Otherwise, $f'=gh$ for some $g,h\not\in R\l[x\r]^\times=R^\times$. Note that $f'$ is primitive, so both $g,h\not\in R$ lest $\cont\l(f\r)=\cont\l(gh\r)=g\cont\l(h\r)\neq R$. Thus $\deg g,\deg h<n$, so the result follows from induction.

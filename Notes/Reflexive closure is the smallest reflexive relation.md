@@ -21,7 +21,7 @@ is the reflexive binary relation on $X$ contained in every reflexive binary rela
 
 ```
 
-_Proof_. We first verify that $\rfcl R$ is indeed a binary relation. To this end, take $u\in\rfcl R$, so either $u\in R$ or $u\in\id_X$.
+<i>Proof.</i> We first verify that $\rfcl R$ is indeed a binary relation. To this end, take $u\in\rfcl R$, so either $u\in R$ or $u\in\id_X$.
 * If $u\in R$, then, since $R$ is a binary relation $X$, we see that $\ex x_1,x_2\in X:u=\tpl{x_1,x_2}$.
 * If $u\in\id_X$, then, by definition of the identity function, we see that $\ex x\in X:u=\tpl{x,x}$.
 

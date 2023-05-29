@@ -21,7 +21,7 @@ Let $K$ be a field and fix $p\in K\l[x\r]\comp\l\{0\r\}$. Then $p$ has at most $
 
 ```
 
-_Proof_. We proceed by induction on $\deg p$.
+<i>Proof.</i> We proceed by induction on $\deg p$.
 * If $\deg p=0$, then $p\in K\comp\l\{0\r\}$ and hence $\eval_x\!\l(p\r)\neq0$ for all $x\in K$.
 
 Suppose now that the statement holds for when the degree of a polynomial is $k$ for some $k\in\N$, and take $p\in K\l[x\r]$ with $\deg p=k+1$. If $p$ has no roots, we are done. Otherwise, let $\alpha$ be a root of $\alpha$, so $p=\l(x-\alpha\r)q$ for some $q\in K\l[x\r]$. Observe then that

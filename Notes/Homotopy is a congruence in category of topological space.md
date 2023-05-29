@@ -27,7 +27,7 @@ Let $X$ and $Y$ be topological spaces and fix $S\subseteq X$. The $\textrm{`}$is
 
 ---
 
-_Proof_. Let $f_0,f_1,f_2:X\to Y$ be continuous functions agreeing on $S$. We first verify that $\htopeq$ is an equivalence relation.
+<i>Proof.</i> Let $f_0,f_1,f_2:X\to Y$ be continuous functions agreeing on $S$. We first verify that $\htopeq$ is an equivalence relation.
 * (Reflexive): Let $F\l(x,t\r)\coloneqq f_0\l(x\r)$ for all $x\in X$ and $t\in I$, which defines a homotopy from $f_0$ to itself rel $S$.
 * (Symmetry): If $F:f_0\htopeq f_1\rel S$, then $F'\!\l(x,t\r)\coloneqq F\l(x,1-t\r)$ defines a homotopy from $f_1$ to $f_0$ rel $S$.
 * (Transitive): Let $F:f_0\htopeq f_1\rel S$ and $G:f_1\htopeq f_2\rel S$ be homotopies. Then the function $H:X\times I\to Y$ defined by $H\l(x,t\r)\coloneqq F\l(x,2t\r)$ for $0\leq t\leq1/2$ and $H\l(x,t\r)\coloneqq G\l(x,2t-1\r)$ for $1/2\leq t\leq 1$ glues to a continuous function and is a homotopy from $f_0$ to $f_2$ rel $S$.

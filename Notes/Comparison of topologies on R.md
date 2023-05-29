@@ -23,7 +23,7 @@ Furthermore, $\ULtopR$ is strictly finer than $\KtopR$, and $\LLtopR$ is not com
 
 ```
 
-_Proof_. See links above.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> See links above.<span style="float:right;">$\blacksquare$</span>
 
 ---
 

@@ -22,7 +22,7 @@ Let $V$ be a finite-dimensional $K$-vector space and consider a linear map $T:V\
 
 ```
 
-_Proof_. Let $\mc{B}$ be a basis for $V$ and let $A\coloneqq\l[T\r]_\mc{B}$. Then $\cchi_T\l(x\r)=\det\l(x\id_V-T\r)=\det\l(xI-A\r)$, so, by the Leibniz formula for determinants, we obtain
+<i>Proof.</i> Let $\mc{B}$ be a basis for $V$ and let $A\coloneqq\l[T\r]_\mc{B}$. Then $\cchi_T\l(x\r)=\det\l(x\id_V-T\r)=\det\l(xI-A\r)$, so, by the Leibniz formula for determinants, we obtain
 $$\begin{equation}
     \cchi_T\l(x\r)=\sum_{\sigma\in S_n}\sgn\l(\sigma\r)b_{\sigma\l(1\r)1}\cdots b_{\sigma\l(n\r)n}
 \end{equation}$$

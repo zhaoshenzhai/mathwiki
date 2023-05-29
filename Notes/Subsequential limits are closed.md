@@ -17,7 +17,7 @@ Let $\tpl{X,d}$ be a metric space and consider a sequence $\tpl{p_n}$ in $X$. Th
 
 ```
 
-_Proof_. The set $S$ is closed iff $\bar{S}\subseteq S$, so it suffices to take $s\in\bar{S}$ and show that $s\in S$. Take $s\in\bar{S}$, so there exists a sequence $\tpl{s_k}$ in $S$ such that $s_k\to s$ as $k\to\infty$. We now construct a subsequence $\tpl{p_{n_k}}$ of $\tpl{p_n}$ that converges to $s$ as follows:
+<i>Proof.</i> The set $S$ is closed iff $\bar{S}\subseteq S$, so it suffices to take $s\in\bar{S}$ and show that $s\in S$. Take $s\in\bar{S}$, so there exists a sequence $\tpl{s_k}$ in $S$ such that $s_k\to s$ as $k\to\infty$. We now construct a subsequence $\tpl{p_{n_k}}$ of $\tpl{p_n}$ that converges to $s$ as follows:
 * Since $s_0\in S$, there exists some $n_0\in\N$ such that $d\l(p_{n_0},s_0\r)<1$.
 
 Suppose now that the indices $n_0,n_1,\dots,n_{k-1}$ are defined for some $k\in\N^+$. Then, since $s_k\in S$,

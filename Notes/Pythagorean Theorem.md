@@ -17,7 +17,7 @@ Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K
 
 ```
 
-_Proof_. Simply observe that
+<i>Proof.</i> Simply observe that
 $$\begin{equation}
     \|u+v\|^2=\inprod{u+v}{u+v}=\inprod{u}{u}+\inprod{u}{v}+\bar{\inprod{u}{v}}+\inprod{v}{v}=\|u\|^2+\|v\|^2+2\Re\inprod{u}{v}.
 \end{equation}$$

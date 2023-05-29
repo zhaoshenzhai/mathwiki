@@ -17,7 +17,7 @@ Let $\tpl{I^2,\mc{T}_\textrm{or}}$ be the ordered square and let $<$ be the stan
 
 ```
 
-_Proof_. Let $\mc{B}_\textrm{or}$ and $\mc{B}_\textrm{pr}$ be bases for $\mc{T}_\textrm{or}$ and $\mc{T}_\textrm{pr}$, respectively. Here, their elements are represented by blue and green intervals, respectively.
+<i>Proof.</i> Let $\mc{B}_\textrm{or}$ and $\mc{B}_\textrm{pr}$ be bases for $\mc{T}_\textrm{or}$ and $\mc{T}_\textrm{pr}$, respectively. Here, their elements are represented by blue and green intervals, respectively.
 * ($\mc{T}_\textrm{or}\not\subseteq\mc{T}_\textrm{pr}$): Take $\tpl{x,y}\coloneqq\tpl{0.5,0.5}\in I^2$ and let
 $$\begin{equation}
     B_\textrm{or}\coloneqq\l(\tpl{0.5,0.2},\tpl{0.5,0.8}\r)\in\mc{B}_\textrm{or}

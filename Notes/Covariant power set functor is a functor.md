@@ -17,7 +17,7 @@ The covariant power set functor $\ms{P}:\catset\to\catset$ is a covariant functo
 
 ```
 
-_Proof_. It suffices to verify the axioms of a covariant functor.
+<i>Proof.</i> It suffices to verify the axioms of a covariant functor.
 * ($\axifunctor[1]$): Take a set $X$; we need to prove that $\ms{P}\l(\id_X\r)=\id_{\pow\l(X\r)}$. To do so, we simply compare their domains, codomains, and their function values:
 
     * Recall that $\ms{P}\l(\id_X\r)$ is defined as the function $\im:\pow\l(X\r)\to\pow\l(X\r)$ that sends each subset $S\subseteq X$ to the image $\im_{\id_X}\l(S\r)$ which, by the definition of the identity function, is $S$ itself. Thus$$\begin{equation}

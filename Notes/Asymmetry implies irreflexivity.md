@@ -21,4 +21,4 @@ Let $X$ be a set and let $R$ be a binary relation. If $R$ is asymmetric on $X$, 
 
 ```
 
-_Proof_. Take $x\in X$. Since $R$ is asymmetric on $X$, we see that $\lnot\l(xRx\land xRx\r)$ which implies that $\lnot xRx$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Take $x\in X$. Since $R$ is asymmetric on $X$, we see that $\lnot\l(xRx\land xRx\r)$ which implies that $\lnot xRx$.<span style="float:right;">$\blacksquare$</span>

@@ -21,7 +21,7 @@ Let $\tpl{X,d}$ be a metric space. If $X$ is sequentially compact, then it is bo
 
 ```
 
-_Proof_. Suppose not, so for any $p\in X$ and any $n\in\N^+$, there exists some $p_n\in X$ such that $d\l(p,p_n\r)\geq n$. We shall show that the sequence $\tpl{p_n}_{n=1}^\infty$ does not have a cluster point in $X$. For sake of contradiction, suppose that $q\in X$ is a cluster point of $\tpl{p_n}$. Letting $\epsilon\coloneqq d\l(p,q\r)$, we see that the ball $B\l(q,\epsilon\r)$ contains infinitely-many points in $\im\tpl{p_n}$. But for any such point $r\in B\l(q,\epsilon\r)$, we have that
+<i>Proof.</i> Suppose not, so for any $p\in X$ and any $n\in\N^+$, there exists some $p_n\in X$ such that $d\l(p,p_n\r)\geq n$. We shall show that the sequence $\tpl{p_n}_{n=1}^\infty$ does not have a cluster point in $X$. For sake of contradiction, suppose that $q\in X$ is a cluster point of $\tpl{p_n}$. Letting $\epsilon\coloneqq d\l(p,q\r)$, we see that the ball $B\l(q,\epsilon\r)$ contains infinitely-many points in $\im\tpl{p_n}$. But for any such point $r\in B\l(q,\epsilon\r)$, we have that
 $$\begin{equation}
     d\l(p,r\r)\leq d\l(p,q\r)+d\l(q,r\r)\leq\epsilon+\epsilon=2\epsilon,
 \end{equation}$$

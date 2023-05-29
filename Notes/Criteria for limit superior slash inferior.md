@@ -27,7 +27,7 @@ Similarly for limit inferior.
 
 ```
 
-_Proof_. We shall prove that $1\Rightarrow2\Rightarrow3\Rightarrow4\Rightarrow1$, for then they are all equivalent.
+<i>Proof.</i> We shall prove that $1\Rightarrow2\Rightarrow3\Rightarrow4\Rightarrow1$, for then they are all equivalent.
 * ($1\Rightarrow2$): Let $U\coloneqq\l\{u\in\R\mid\fa^\infty n\in\N:x_n<u\r\}$ and let $l\coloneqq\inf U$. It suffices to show that $d\l(x^\ast,l\r)\leq\epsilon$ for all $\epsilon>0$, for then they coincide.
     * ($x^\ast+\epsilon\geq l$): It suffices to show that $x^\ast+\epsilon\in U$; that is, that $\fa^\infty n\in\N:x_n<x^\ast+\epsilon$. Indeed, if $\ex^\infty n\in\N:x^\ast+\epsilon<x_n$, then there exists a subsequence $\tpl{x_{n_k}}$ of $\tpl{x_n}$ such that $x_{n_k}>x^\ast+\epsilon$ for all $k\in\N$. By Bolzano-Weierstrass, there exists a convergent subsequence thereof, say to $s\in S$. Thus $s>x^\ast+\epsilon$, so $s-\epsilon>x^\ast$, contradicting the fact that $x^\ast$ is an upper bound of $S$.
 

@@ -21,7 +21,7 @@ Let $R$ be a UFD. Then any irreducible element is prime.
 
 ```
 
-_Proof_. Let $c\in R$ be irreducible and take $a,b\in R$ such that $c\divides\!\l(ab\r)$. Then $ab=cd$ for some $d\in R$. Since $R$ is a UFD, we can write $a=x_1x_2\cdots x_n$, $b=y_1y_2\cdots y_m$, and $d=z_1z_2\cdots z_k$ with all $x_i,y_j,z_k\in R$ irreducible. Then
+<i>Proof.</i> Let $c\in R$ be irreducible and take $a,b\in R$ such that $c\divides\!\l(ab\r)$. Then $ab=cd$ for some $d\in R$. Since $R$ is a UFD, we can write $a=x_1x_2\cdots x_n$, $b=y_1y_2\cdots y_m$, and $d=z_1z_2\cdots z_k$ with all $x_i,y_j,z_k\in R$ irreducible. Then
 $$\begin{equation}
     \l(x_1x_2\cdots x_n\r)\l(y_1y_2\cdots y_m\r)=c\l(z_1z_2\cdots z_k\r),
 \end{equation}$$

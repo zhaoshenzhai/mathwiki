@@ -21,4 +21,4 @@ Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. Writi
 
 ---
 
-_Proof_. Take $u,v\in V'$ such that $T\l(u\r)=T\l(v\r)$. Then $T\l(u-v\r)=0$, so $u-v\in V'\cap\ker T$. But then $u-v\in\l\{0\r\}$, so $u=v$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Take $u,v\in V'$ such that $T\l(u\r)=T\l(v\r)$. Then $T\l(u-v\r)=0$, so $u-v\in V'\cap\ker T$. But then $u-v\in\l\{0\r\}$, so $u=v$.<span style="float:right;">$\blacksquare$</span>

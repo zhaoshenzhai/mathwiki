@@ -25,7 +25,7 @@ Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces, fix a cluster point $p\in\
 
 ---
 
-_Proof_. Let $L\coloneqq\lim\limits_{x\to p}f\l(x\r)$, so there exists $\delta>0$ such that $\im_f\!\l(B_\delta\!\l(p\r)\cap\Omega\comp\l\{p\r\}\r)\subseteq B_1\!\l(L\r)$. Also, if $p\in\Omega$, then $f\l(p\r)\in B_{f\l(p\r)-L}\!\l(L\r)$, so take $r\coloneqq\max\l\{1,f\l(p\r)-L\r\}$. It follows then that
+<i>Proof.</i> Let $L\coloneqq\lim\limits_{x\to p}f\l(x\r)$, so there exists $\delta>0$ such that $\im_f\!\l(B_\delta\!\l(p\r)\cap\Omega\comp\l\{p\r\}\r)\subseteq B_1\!\l(L\r)$. Also, if $p\in\Omega$, then $f\l(p\r)\in B_{f\l(p\r)-L}\!\l(L\r)$, so take $r\coloneqq\max\l\{1,f\l(p\r)-L\r\}$. It follows then that
 $$\begin{equation}
     \im_f\!\l(B_\delta\!\l(p\r)\cap\Omega\r)\subseteq B_r\!\l(L\r),
 \end{equation}$$

@@ -25,7 +25,7 @@ containing half-infinite open rays with rational endpoints.
 
 ```
 
-_Proof_. We first need to show that $\mc{S}$ is indeed a subbasis for a topology on $\R$.
+<i>Proof.</i> We first need to show that $\mc{S}$ is indeed a subbasis for a topology on $\R$.
 * Observe that $\mc{S}\subseteq\pow\l(\R\r)$. Take $x\in\R$. If $x\geq0$, observe that $x\in\l(-1,+\infty\r)$; otherwise, observe that $x\in\l(-\infty,1\r)$. It follows that $\mc{S}$ covers $\R$.
 
 Furthermore, recall that $\mc{S}\subseteq\mc{T}\l(\mc{B}\r)$ since half-infinite open rays are open in the order topology. It remains to show that for any $B\in\mc{B}$, there exists $\mc{R}\subseteq\mc{S}$ such that $0<\l|\mc{R}\r|<\infty$ and $B=\bigcap\mc{R}$. To this end, take $B=\l(a,b\r)\in\mc{B}$ with $a,b\in\Q$ and let $\mc{R}\coloneqq\l\{R_1,R_2\r\}\subseteq\mc{S}$ where $R_1\coloneqq\l(-\infty,b\r)$ and $R_2\coloneqq\l(a,+\infty\r)$. Observe then that $0<\l|\mc{R}\r|=2<\infty$ and that

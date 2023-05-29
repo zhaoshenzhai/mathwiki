@@ -21,7 +21,7 @@ Let $\R$ be the set of real numbers. Then the upper limit topology $\ULtopR$ is 
 
 ```
 
-_Proof_. It is easy to show that $\ULtopR\not\subseteq\KtopR$, simply fix $a<0$ and consider $\l(a,0\r]\in\mc{B}_\textrm{UL}$ with $x=0$. Any $B\in\mc{B}_K$ containing $x$ necessarily contains some positive $c\in\R$ with $c\neq1/n$ for all $n\in\N$, so $c\in B$ but $c\not\in\l(a,0\r]$ and thus $B\not\subseteq\l(a,0\r]$.
+<i>Proof.</i> It is easy to show that $\ULtopR\not\subseteq\KtopR$, simply fix $a<0$ and consider $\l(a,0\r]\in\mc{B}_\textrm{UL}$ with $x=0$. Any $B\in\mc{B}_K$ containing $x$ necessarily contains some positive $c\in\R$ with $c\neq1/n$ for all $n\in\N$, so $c\in B$ but $c\not\in\l(a,0\r]$ and thus $B\not\subseteq\l(a,0\r]$.
 
 Thus it suffices to show that $\KtopR\subseteq\ULtopR$. To this end, take $B\in\mc{B}_K$ and $x\in B$.
 * The case when $B=\l(a,b\r)\in\mc{B}_\textrm{st}$ for some $a,b\in\R$ is easy; recall that $\sttopR\subseteq\ULtopR$. It follows then that there exists some $B'\in\mc{B}_\textrm{UL}$ such that $x\in B'\subseteq B$.

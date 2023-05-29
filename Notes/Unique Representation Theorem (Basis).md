@@ -25,7 +25,7 @@ where $\alpha_i=0$ for all but finitely-many $i\in I$.
 
 ---
 
-_Proof_.
+<i>Proof.</i>
 * ($\Rightarrow$): Take $v\in V$. Since $\span\mc{B}=V$, we know that $v$ can be expressed as a linear combination of vectors in $\mc{B}$; we wish to prove that such a representation is unique. Assume, for sake of contradiction, that
 $$\begin{equation}
     v=\sum\limits_{i\in I}\alpha_ib_i=\sum\limits_{i\in I}\beta_ib_i

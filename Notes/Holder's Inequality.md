@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Let $A\coloneqq\l(\sum_{i=1}^{n}\l|x_i\r|^p\r)^{1/p}$ and $B\coloneqq\l(\sum_{i=1}^{n}\l|y_i\r|^q\r)^{1/q}$, and assume, w.l.o.g., that $A,B>0$. For each $i\in\N^+$, let $a_i\coloneqq\l|x_i\r|/A$ and $b_i\coloneqq\l|y_i\r|/B$. Applying Young$\textrm{'}$s Inequality for Products, we obtain
+<i>Proof.</i> Let $A\coloneqq\l(\sum_{i=1}^{n}\l|x_i\r|^p\r)^{1/p}$ and $B\coloneqq\l(\sum_{i=1}^{n}\l|y_i\r|^q\r)^{1/q}$, and assume, w.l.o.g., that $A,B>0$. For each $i\in\N^+$, let $a_i\coloneqq\l|x_i\r|/A$ and $b_i\coloneqq\l|y_i\r|/B$. Applying Young$\textrm{'}$s Inequality for Products, we obtain
 $$\begin{equation}
     \frac{\l|x_i\r|}{A}\frac{\l|y_i\r|}{B}\leq\frac{1}{p}\frac{\l|x_i\r|^p}{A^p}+\frac{1}{q}\frac{\l|y_i\r|^q}{B^q}.
 \end{equation}$$

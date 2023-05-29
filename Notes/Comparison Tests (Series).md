@@ -23,7 +23,7 @@ Let $\tpl{a_k}$ and $\tpl{b_k}$ be eventually positive sequences in $\R$.
 
 ---
 
-_Proof_. We prove the direct comparison test, from which the limit comparison test follows. Indeed, since $\sum_{k=0}^{\infty}b_k$ converges, let $\epsilon>0$. Then
+<i>Proof.</i> We prove the direct comparison test, from which the limit comparison test follows. Indeed, since $\sum_{k=0}^{\infty}b_k$ converges, let $\epsilon>0$. Then
 $$\begin{equation}
     \l|\sum_{k=0}^{m}b_k-\sum_{k=0}^{n}b_k\r|=\l|\sum_{k=n+1}^{m}b_k\r|<\epsilon
 \end{equation}$$

@@ -21,7 +21,7 @@ for all $u\in U$; equality holds iff $u=\proj_U\!\l(v\r)$.
 
 ```
 
-_Proof_. First, observe that $v-\proj_U\!\l(v\r)\in U^\perp$ and $\proj_U\!\l(v\r)-u\in U$, so they are orthogonal. Thus we may apply the Pythagorean Theorem to obtain
+<i>Proof.</i> First, observe that $v-\proj_U\!\l(v\r)\in U^\perp$ and $\proj_U\!\l(v\r)-u\in U$, so they are orthogonal. Thus we may apply the Pythagorean Theorem to obtain
 $$\begin{equation}
     \begin{aligned}
         \l\|v-\proj_U\!\l(v\r)\r\|^2&\leq\l\|v-\proj_U\!\l(v\r)\r\|^2+\l\|\proj_U\!\l(v\r)-u\r\|^2 && \l\|\proj_U\!\l(v\r)-u\r\|^2\geq0 \\

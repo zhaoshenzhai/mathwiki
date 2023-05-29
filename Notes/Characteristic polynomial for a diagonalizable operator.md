@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. We shall prove that $\cchi_D\!\l(\lambda\r)=\prod_{i=1}^{n}\l(\lambda-\lambda_i\r)$, from which the result follows since $\cchi_T\!\l(\lambda\r)=\det\l(\lambda\id_V-T\r)=\det\l(\lambda I-D\r)=\cchi_D\!\l(\lambda\r)$.
+<i>Proof.</i> We shall prove that $\cchi_D\!\l(\lambda\r)=\prod_{i=1}^{n}\l(\lambda-\lambda_i\r)$, from which the result follows since $\cchi_T\!\l(\lambda\r)=\det\l(\lambda\id_V-T\r)=\det\l(\lambda I-D\r)=\cchi_D\!\l(\lambda\r)$.
 * Let $D'\coloneqq\diag\l(\lambda-\lambda_1,\dots,\lambda-\lambda_n\r)$. By the Leibniz formula for determinants, we see that
 $$\begin{equation}
     \cchi_D\!\l(\lambda\r)=\det\l(\lambda I-D\r)=\det D'=\sum_{\sigma\in S_n}\sgn\l(\sigma\r)d'_{\sigma\l(1\r)1}\cdots d'_{\sigma\l(n\r)n}.

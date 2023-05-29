@@ -21,7 +21,7 @@ Fix $m,n\in\N^+$, let $U\subseteq\R^n$ be open, and fix $\v{a}\in U$. For a func
 
 ```
 
-_Proof_. Let $\l\{\v{e}_1,\dots,\v{e}_n\r\}$ and $\l\{\widetilde{\v{e}}_1,\dots,\widetilde{\v{e}}_m\r\}$ be the standard bases for $\R^n$ and $\R^m$, respectively. For all $j\in\l\{1,\dots,n\r\}$, observe that
+<i>Proof.</i> Let $\l\{\v{e}_1,\dots,\v{e}_n\r\}$ and $\l\{\widetilde{\v{e}}_1,\dots,\widetilde{\v{e}}_m\r\}$ be the standard bases for $\R^n$ and $\R^m$, respectively. For all $j\in\l\{1,\dots,n\r\}$, observe that
 $$\begin{equation}
     \l[Df\l(\v{a}\r)\r]\v{e}_j=D_jf\l(\v{a}\r)=\lim\limits_{t\to0}\frac{f\l(\v{a}+t\v{e}_j\r)-f\l(\v{a}\r)}{t}=\sum_{i=1}^{m}\lim\limits_{t\to0}\frac{f_i\l(\v{a}+t\v{e}_j\r)-f_i\l(\v{a}\r)}{t}\widetilde{\v{e}}_i=\sum_{i=1}^{m}\l(D_jf_i\r)\l(\v{a}\r)\widetilde{\v{e}}_i.
 \end{equation}$$

@@ -25,7 +25,7 @@ Let $\tpl{X,d}$ be a metric space and consider a sequence $\tpl{x_n}$ in $X$. If
 
 ---
 
-_Proof_. First, note that there exists some $c\in\l(0,1\r)$ such that
+<i>Proof.</i> First, note that there exists some $c\in\l(0,1\r)$ such that
 $$\begin{equation}
     d\l(x_n,x_{n+1}\r)\leq cd\l(x_{n-1},x_n\r)\leq c^2d\l(x_{n-2},x_{n-1}\r)\leq\cdots\leq c^nd\l(x_0,x_1\r)
 \end{equation}$$

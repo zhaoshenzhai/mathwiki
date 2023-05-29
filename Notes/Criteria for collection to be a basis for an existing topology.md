@@ -17,7 +17,7 @@ Let $\tpl{X,\mc{T}}$ be a topological space and let $\mc{B}\subseteq\mc{T}$ be s
 
 ```
 
-_Proof_. We first prove that $\mc{B}$ is a basis for a topology on $X$:
+<i>Proof.</i> We first prove that $\mc{B}$ is a basis for a topology on $X$:
 * ($\axibasis[1]$): Take $x\in X$. Since $X\in\mc{T}$, there exists, by hypothesis, some $B\in\mc{B}$ such that $x\in B$.
 * ($\axibasis[2]$): Take $x\in B_1\cap B_2$ for some $B_1,B_2\in\mc{B}$. Since both $B_1$ and $B_2$ are open, it follows from $\axitop[3]$ that $B_1\cap B_2\in\mc{T}$ too. Hence there exists $B_3\in\mc{B}$ such that $x\in B_3\subseteq B_1\cap B_2$.
 

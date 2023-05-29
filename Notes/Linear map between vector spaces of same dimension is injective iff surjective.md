@@ -25,7 +25,7 @@ Let $V$ and $W$ be finite-dimensional $K$-vector spaces and consider a linear ma
 
 ---
 
-_Proof_.
+<i>Proof.</i>
 * ($\Rightarrow$): Since $T$ is injective, we see that $\ker T=\l\{0\r\}$ and thus $\dim\ker=0$. By the Dimension Theorem, it follows that $\dim\im T=\dim V$, and since $\im T\subseteq V$ is a subspace, it cannot be a proper subspace. Thus $\im T=V$, so $T$ is surjective.
 
 * ($\Leftarrow$): Since $T$ is surjective, we see that $\im T=V$ and hence $\dim\im T=\dim V$. By the Dimension Theorem, it follows that $\dim\ker T=0$, so $\ker T=\l\{0\r\}$. Thus $T$ is injective.<span style="float:right;">$\blacksquare$</span>

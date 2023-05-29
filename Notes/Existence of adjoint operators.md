@@ -17,7 +17,7 @@ Let $V$ and $W$ be inner product spaces and let $T:V\to W$ be a linear map. Then
 
 ```
 
-_Proof_. We first prove uniqueness.
+<i>Proof.</i> We first prove uniqueness.
 * If $T^\adj_1,T^\adj_2:W\to V$ are both adjoints of $T$, then $\inprod{Tv}{w}=\inprod{T^\adj_1v}{w}=\inprod{T^\adj_2v}{w}$ for all $v,w\in V$. Then $\inprod{T^\adj_1v-T^\adj_2v}{w}=0$, so, taking $w\coloneqq T^\adj_1v-T^\adj_2v$, we see that $T^\adj_1v=T^\adj_2v$ for all $v\in V$. The result follows.
 
 For existence, fix $w\in W$ and consider the linear form $\eta_w\in V^\adj$ defined by $\eta_w\!\l(v\r)\coloneqq\inprod{Tv}{w}$ for all $v\in V$, which is clearly linear. By the Riesz Representation Theorem, there exists a unique $u\in V$ such that $\eta_w\!\l(v\r)=\inprod{Tv}{w}=\inprod{v}{u}$ for all $v\in V$. Set $T^\adj w\coloneqq u$, which defines a map $T^\adj:V\to V$ such that $\inprod{Tv}{w}=\inprod{v}{T^\adj w}$ for all $v,w\in V$. It remains to show that $T^\adj$ is linear.

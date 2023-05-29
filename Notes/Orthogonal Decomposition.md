@@ -21,7 +21,7 @@ Let $V$ be an inner product space. If $U$ is a finite-dimensional linear subspac
 
 ```
 
-_Proof_. Since $U\cap U^\perp=\l\{0\r\}$, it suffices to show that $V=U+U^\perp$. To this end, let $\l\{e_1,\dots,e_m\r\}$ be an orthonormal basis for $U$. Take $v\in V$ and observe that
+<i>Proof.</i> Since $U\cap U^\perp=\l\{0\r\}$, it suffices to show that $V=U+U^\perp$. To this end, let $\l\{e_1,\dots,e_m\r\}$ be an orthonormal basis for $U$. Take $v\in V$ and observe that
 $$\begin{equation}
     v=\underbrace{\sum_{i=1}^m\inprod{v}{e_i}e_i}_{u\,\coloneqq}+\underbrace{v-\sum_{i=1}^m\inprod{v}{e_i}e_i}_{w\,\coloneqq}.
 \end{equation}$$

@@ -17,7 +17,7 @@ Let $V$ be a complex vector space. Then every hermitian form $\inprod{\slot}{\sl
 
 ```
 
-_Proof_. It suffices to prove that $\inprod{\slot}{\slot}$ is conjugate-linear is in second slot. Indeed, for all $v,w_1,w_2\in V$ and $\alpha\in\C$, we have
+<i>Proof.</i> It suffices to prove that $\inprod{\slot}{\slot}$ is conjugate-linear is in second slot. Indeed, for all $v,w_1,w_2\in V$ and $\alpha\in\C$, we have
 $$\begin{equation}
     \inprod{v}{w_1+\alpha w_2}=\bar{\inprod{w_1+\alpha w_2}{v}}=\bar{\inprod{w_1}{v}+\alpha\inprod{w_2}{v}}=\bar{\inprod{w_1}{v}}+\bar{\alpha}\bar{\inprod{w_2}{v}}=\inprod{v}{w_1}+\bar{\alpha}\inprod{v}{w_2}.\qedin
 \end{equation}$$

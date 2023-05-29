@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Recall that a twice differentiable function $f:\R\to\R$ with $f''\l(x\r)\geq0$ for all $x$ is convex; that is
+<i>Proof.</i> Recall that a twice differentiable function $f:\R\to\R$ with $f''\l(x\r)\geq0$ for all $x$ is convex; that is
 $$\begin{equation}
     f\l(\alpha t+\beta\l(1-t\r)\r)\leq tf\l(\alpha\r)+\l(1-t\r)f\l(\beta\r)
 \end{equation}$$

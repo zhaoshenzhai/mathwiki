@@ -21,7 +21,7 @@ Let $R$ be a UFD and let $F$ be its field of fractions. For all non-constant pri
 
 ```
 
-_Proof_. Note that $F\l[x\r]^\times=F\l[x\r]$, so $f\sim g$ in $F\l[x\r]$ implies that $f=\alpha g$ for some $\alpha\in F^\times$. Writing $\alpha=\frac{a}{b}$ for $a,b\in R$, we see that $bf=ag$ and hence
+<i>Proof.</i> Note that $F\l[x\r]^\times=F\l[x\r]$, so $f\sim g$ in $F\l[x\r]$ implies that $f=\alpha g$ for some $\alpha\in F^\times$. Writing $\alpha=\frac{a}{b}$ for $a,b\in R$, we see that $bf=ag$ and hence
 $$\begin{equation}
     \sring{a}=a\cont\l(g\r)=\cont\l(ag\r)=\cont\l(bf\r)=b\cont\l(f\r)=\sring{b}.
 \end{equation}$$

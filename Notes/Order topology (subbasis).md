@@ -21,7 +21,7 @@ containing half-infinite open rays (or bounded open rays, if they exist).
 
 ```
 
-_Proof_. We first need to show that $\mc{S}$ is indeed a subbasis for a topology on $X$. Observe that $\mc{S}\subseteq\pow\l(X\r)$. To see that $\mc{S}$ covers $X$, take $x\in X$.
+<i>Proof.</i> We first need to show that $\mc{S}$ is indeed a subbasis for a topology on $X$. Observe that $\mc{S}\subseteq\pow\l(X\r)$. To see that $\mc{S}$ covers $X$, take $x\in X$.
 * If $x$ is not minimal in $X$, then there exists $a\in X$ such that $a<x$. Observe then that $x\in\l(a,+\infty\r)\in\mc{S}$.
 * If $x$ is minimal in $X$, then, for all $b\in X$, the open ray $\l(-\infty,b\r)=\l[x,b\r)$; observe that $x\in\l[x,b\r)\in\mc{S}$.
 

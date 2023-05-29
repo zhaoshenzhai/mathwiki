@@ -32,7 +32,7 @@ commutes. Thus, after identifying $V\iso K^n$ and $W\iso K^m$ via the maps $\phi
 
 ---
 
-_Proof_. Fix $v\in V$. For any linear map $f:\dom f\to V$ (with $\dom f$ being an $\l|\mc{A}\r|$-dimensional vector space), we have that $\l[T\circ f\r]_\mc{A}^\mc{C}=\l[T\r]_\mc{B}^\mc{C}\l[f\r]_\mc{A}^\mc{B}$, so it suffices to find suitable $\dom f$, $\mc{A}$, and $f$ such that $\l[T\circ f\r]_\mc{A}^\mc{C}=\l[T\l(v\r)\r]_\mc{C}$ and $\l[f\r]_\mc{A}^\mc{B}=\l[v\r]_\mc{B}$. Observe that
+<i>Proof.</i> Fix $v\in V$. For any linear map $f:\dom f\to V$ (with $\dom f$ being an $\l|\mc{A}\r|$-dimensional vector space), we have that $\l[T\circ f\r]_\mc{A}^\mc{C}=\l[T\r]_\mc{B}^\mc{C}\l[f\r]_\mc{A}^\mc{B}$, so it suffices to find suitable $\dom f$, $\mc{A}$, and $f$ such that $\l[T\circ f\r]_\mc{A}^\mc{C}=\l[T\l(v\r)\r]_\mc{C}$ and $\l[f\r]_\mc{A}^\mc{B}=\l[v\r]_\mc{B}$. Observe that
 $$\begin{equation}
     \l[T\circ f\r]_\mc{A}^\mc{C}\in\mat{m\times\l|\mc{A}\r|}{K}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \l[T\l(v\r)\r]_\mc{C}\in\mat{m\times1}{K},
 \end{equation}$$

@@ -21,7 +21,7 @@ Let $\cat{C}$ be a category and fix a morphism $f:X\to Y$. If $f$ is left-invert
 
 ```
 
-_Proof_. Let $g:Y\to X$ be a left-inverse of $f$ and take $Z\in\Obj\l(\cat{C}\r)$. Consider any morphisms $\alpha_1,\alpha_2:Z\to X$ such that $f\circ\alpha_1=f\circ\alpha_2$ and compute
+<i>Proof.</i> Let $g:Y\to X$ be a left-inverse of $f$ and take $Z\in\Obj\l(\cat{C}\r)$. Consider any morphisms $\alpha_1,\alpha_2:Z\to X$ such that $f\circ\alpha_1=f\circ\alpha_2$ and compute
 $$\begin{equation}
     \begin{alignedat}{2}
         \alpha_1&=\id_X\circ\alpha_1&&\axicat[2]\\

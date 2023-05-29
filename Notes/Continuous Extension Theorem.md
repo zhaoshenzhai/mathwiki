@@ -17,7 +17,7 @@ Fix $k\in\N^+$ and some $\Omega\subseteq\R^k$. If $f:\R^k\to\R$ is uniformly con
 
 ```
 
-_Proof_. For the converse, suppose that $\Omega$ is bounded and let $\bar{f}:\bar{\Omega}\to\R$ be a continuous extension of $f$. Then, by Heine-Borel, $\bar{\Omega}$ is compact, so $\bar{f}$ is uniformly continuous on $\bar{\Omega}$. But then so is any restriction of it, so $f$ is uniformly continuous on $\Omega$.
+<i>Proof.</i> For the converse, suppose that $\Omega$ is bounded and let $\bar{f}:\bar{\Omega}\to\R$ be a continuous extension of $f$. Then, by Heine-Borel, $\bar{\Omega}$ is compact, so $\bar{f}$ is uniformly continuous on $\bar{\Omega}$. But then so is any restriction of it, so $f$ is uniformly continuous on $\Omega$.
 
 Now for the forward direction. Indeed, if $f$ has a continuous extension, then it is unique; for suppose $\bar{f}_1$ and $\bar{f}_2$ are both continuous extensions for $f$ to $\bar{\Omega}$, and let $x\in\bar{\Omega}$. Then there exists a sequence $\tpl{x_n}$ in $\Omega$ such that $x_n\to x$, so
 $$\begin{equation}

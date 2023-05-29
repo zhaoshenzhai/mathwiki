@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Take $p\in\l(X_1\cap X_2\r)\times\l(Y_1\cap Y_2\r)$. The result follows from the following chain of equivalences:
+<i>Proof.</i> Take $p\in\l(X_1\cap X_2\r)\times\l(Y_1\cap Y_2\r)$. The result follows from the following chain of equivalences:
 
 $\begin{alignat}{2}
     p\in\l(X_1\cap X_2\r)\times\l(Y_1\cap Y_2\r)&\Leftrightarrow\ex x\in X_1\cap X_2,\ex y\in Y_1\cap Y_2:p=\tpl{x,y}&&\textrm{Definition of Cartesian product}\\

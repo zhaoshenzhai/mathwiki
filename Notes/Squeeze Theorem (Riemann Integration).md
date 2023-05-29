@@ -17,7 +17,7 @@ Let $f:\l[a,b\r]\to\R$. Then $f\in\RI{\l[a,b\r]}$ iff for all $\epsilon>0$, ther
 
 ```
 
-_Proof_. The forward direction is obvious by taking $\alpha_\epsilon\coloneqq f\eqqcolon\beta_\epsilon$. Conversely, let $\epsilon>0$, so there exist $\delta>0$ such that if $\mc{P}$ is any partition of $\l[a,b\r]$ with $\|\mc{P}\|<\delta$, then
+<i>Proof.</i> The forward direction is obvious by taking $\alpha_\epsilon\coloneqq f\eqqcolon\beta_\epsilon$. Conversely, let $\epsilon>0$, so there exist $\delta>0$ such that if $\mc{P}$ is any partition of $\l[a,b\r]$ with $\|\mc{P}\|<\delta$, then
 $$\begin{equation}
     \int_{a}^{b}\alpha_\epsilon-\frac{\epsilon}{3}<S\l(\alpha_\epsilon,\mc{P}\r)\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ S\l(\beta_\epsilon,\mc{P}\r)<\int_{a}^{b}\beta_\epsilon+\frac{\epsilon}{3}.
 \end{equation}$$

@@ -17,7 +17,7 @@ Let $\tpl{X,<}$ be a totally ordered set. If $X$ has no minimal element, then th
 
 ```
 
-_Proof_. Suppose that $X$ has no minimal element and take $b\in X$. Observe then that
+<i>Proof.</i> Suppose that $X$ has no minimal element and take $b\in X$. Observe then that
 $$\begin{equation}
     \l(-\infty,b\r)=\bigcup\underbrace{\l\{U\in\pow\l(X\r)\mid\ex a\in X:a<b\land U=\l(a,b\r)\r\}}_{\mathclap{\subseteq\mc{B}}}
 \end{equation}$$

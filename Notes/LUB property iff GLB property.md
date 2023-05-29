@@ -21,7 +21,7 @@ A poset $\tpl{X,\leq}$ satisfies the least upper bound property iff it satisfies
 
 ```
 
-_Proof_. We shall prove the forwards direction; the backwards direction is completely analogous. To this end, take a non-empty subset $B\subseteq X$ that is bounded below. Define the set
+<i>Proof.</i> We shall prove the forwards direction; the backwards direction is completely analogous. To this end, take a non-empty subset $B\subseteq X$ that is bounded below. Define the set
 $$\begin{equation}
     A\coloneqq\l\{a\in X\mid\fa b\in B:a\leq b\r\},
 \end{equation}$$

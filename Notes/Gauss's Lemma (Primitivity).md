@@ -21,7 +21,7 @@ Let $R$ be a UFD. For all $f,g\in R\l[x\r]$, we have $\cont\l(fg\r)=\cont\l(f\r)
 
 ```
 
-_Proof_. We first show that for all $f'$ and $g'$ primitive, their product $f'g'$ is also primitive. Then, since $f=\alpha f'$ and $g=\beta g'$ for some primitives $f',g'\in R\l[x\r]$ where $\sring{\alpha}=\cont\l(f\r)$ and $\sring{\beta}=\cont\l(g\r)$, we see that
+<i>Proof.</i> We first show that for all $f'$ and $g'$ primitive, their product $f'g'$ is also primitive. Then, since $f=\alpha f'$ and $g=\beta g'$ for some primitives $f',g'\in R\l[x\r]$ where $\sring{\alpha}=\cont\l(f\r)$ and $\sring{\beta}=\cont\l(g\r)$, we see that
 $$\begin{equation}
     \cont\l(fg\r)=\cont\l(\alpha\beta f'g'\r)=\alpha\beta\cont\l(f'g'\r)=\alpha\beta\sring{1}=\sring{\alpha\beta}=\sring{\alpha}\sring{\beta}=\cont\l(f\r)\cont\l(g\r).
 \end{equation}$$

@@ -22,7 +22,7 @@ Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$
 
 ```
 
-_Proof_. We first prove that $\cchi_R\divides\cchi_T$.
+<i>Proof.</i> We first prove that $\cchi_R\divides\cchi_T$.
 * Let $\mc{B}\coloneqq\l\{v_1,\dots,v_k\r\}$ be a basis for $W$ and extend it to a basis $\mc{C}\coloneqq\l\{v_1,\dots,v_n\r\}$ of $V$. Then, since $W$ is $T$-invariant, we see that
 $$\begin{equation}
     A\coloneqq\l[T\r]_\mc{C}=

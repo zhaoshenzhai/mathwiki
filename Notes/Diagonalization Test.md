@@ -24,7 +24,7 @@ If any of the above hold, then $\l[T\r]_\mc{B}=\diag\l(\lambda_1,\dots,\lambda_k
 
 ```
 
-_Proof_. Let $n\coloneqq\dim V$. For all $1\leq i\leq k$, let $m_i$ and $d_i\coloneqq\dim E_{\lambda_i}$ denote the algebraic and geometric multiplicities of $\lambda_i$, respectively.
+<i>Proof.</i> Let $n\coloneqq\dim V$. For all $1\leq i\leq k$, let $m_i$ and $d_i\coloneqq\dim E_{\lambda_i}$ denote the algebraic and geometric multiplicities of $\lambda_i$, respectively.
 * ($1\Leftrightarrow2$): Since $T$ is diagonalizable, there exists a basis $\mc{B}\coloneqq\l\{v_1,\dots,v_n\r\}$ of $V$ such that $\l[T\r]_\mc{B}$ is a diagonal matrix, say $\l[T\r]_\mc{B}\coloneqq\l[t_{ij}\r]$ for some $t_{ij}\in K$. Then
 $$\begin{equation}
         T\l(v_j\r)=\sum_{i=1}^nt_{ij}v_i=t_{jj}v_j,

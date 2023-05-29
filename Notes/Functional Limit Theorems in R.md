@@ -29,7 +29,7 @@ Let $X$ be a metric space, let $\Omega_1,\Omega_2\subseteq X$ be such that $\Ome
 
 ```
 
-_Proof_. Let $\tpl{x_n}$ and $\tpl{y_n}$ respectively be sequences in $\Omega_1\comp\l\{p\r\}$ and $\Omega_2\comp\l\{p\r\}$ such that $x_n,y_n\to c$. Then $f\l(x_n\r)$ and $g\l(y_n\r)$ are both sequences in $\R$, and
+<i>Proof.</i> Let $\tpl{x_n}$ and $\tpl{y_n}$ respectively be sequences in $\Omega_1\comp\l\{p\r\}$ and $\Omega_2\comp\l\{p\r\}$ such that $x_n,y_n\to c$. Then $f\l(x_n\r)$ and $g\l(y_n\r)$ are both sequences in $\R$, and
 $$\begin{equation}
     \lim\limits_{n\to\infty}f\l(x_n\r)=\lim\limits_{x\to p}f\l(x\r)\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \lim\limits_{n\to\infty}g\l(y_n\r)=\lim\limits_{x\to p}g\l(x\r),
 \end{equation}$$

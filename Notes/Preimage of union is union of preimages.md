@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ---
 
-_Proof_. Take $x\in\preim_R\l(\bigcup\mc{B}\r)$. The result follows from the following chain of equivalences:
+<i>Proof.</i> Take $x\in\preim_R\l(\bigcup\mc{B}\r)$. The result follows from the following chain of equivalences:
 
 $\begin{align}
     x\in\preim_R\l(\bigcup\mc{B}\r)&\Leftrightarrow x\in\ran\l(R^{-1}\rest\bigcup\mc{B}\r) && \textrm{Definition of preimage} \\

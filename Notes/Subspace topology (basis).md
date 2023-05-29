@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Since $\mc{B}\subseteq\mc{T}$, we see that $\l.\mc{B}\r|_Y\subseteq\l.\mc{T}\r|_Y$ too. Take $V\in\l.\mc{T}\r|_Y$ and $y\in V$, so there exists $U\in\mc{T}$ such that $y\in V=U\cap Y$. It particular, observe that $y\in U$; since $\mc{B}$ generates $\mc{T}$, there exists $B\in\mc{B}$ such that $y\in B\subseteq U$. It follows that
+<i>Proof.</i> Since $\mc{B}\subseteq\mc{T}$, we see that $\l.\mc{B}\r|_Y\subseteq\l.\mc{T}\r|_Y$ too. Take $V\in\l.\mc{T}\r|_Y$ and $y\in V$, so there exists $U\in\mc{T}$ such that $y\in V=U\cap Y$. It particular, observe that $y\in U$; since $\mc{B}$ generates $\mc{T}$, there exists $B\in\mc{B}$ such that $y\in B\subseteq U$. It follows that
 $$\begin{equation}
     y\in B\cap Y\subseteq U\cap Y,
 \end{equation}$$

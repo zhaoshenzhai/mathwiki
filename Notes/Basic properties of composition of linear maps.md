@@ -20,7 +20,7 @@ Let $V$, $W$, and $Z$ be $K$-vector spaces. Then the following algebraic identit
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * (Left-distributivity of $\circ$ over $+$): Take $T_1,T_2\in\Hom\l(V,W\r)$ and $U\in\Hom\l(W,Z\r)$, and observe that
 $$\begin{equation}
     \begin{aligned}

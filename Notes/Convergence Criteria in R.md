@@ -28,7 +28,7 @@ $$\begin{equation}
 
 ---
 
-_Proof_. The backwards direction follows from its contrapositive, stating that if $\tpl{x_n}$ converges, then all subsequences thereof converge to the same limit. Suppose now that $\tpl{x_n}$ diverges. If it is unbounded, we are done. Otherwise, Bolzano-Weierstrass furnishes a convergent subsequence $\tpl{x_{n_k}}$ of $\tpl{x_n}$ with some limit $l\in\R$. Since $\tpl{x_n}$ diverges, we have that
+<i>Proof.</i> The backwards direction follows from its contrapositive, stating that if $\tpl{x_n}$ converges, then all subsequences thereof converge to the same limit. Suppose now that $\tpl{x_n}$ diverges. If it is unbounded, we are done. Otherwise, Bolzano-Weierstrass furnishes a convergent subsequence $\tpl{x_{n_k}}$ of $\tpl{x_n}$ with some limit $l\in\R$. Since $\tpl{x_n}$ diverges, we have that
 $$\begin{equation}
     \ex\epsilon>0,\ex^\infty n\in\N:x_n\not\in\l(l-\epsilon,l+\epsilon\r).
 \end{equation}$$

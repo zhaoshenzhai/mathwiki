@@ -17,7 +17,7 @@ Let $\tpl{X,d_X}$, $\tpl{Y,d_Y}$, and $\tpl{Z,d_Z}$ be metric spaces. If $f:X\to
 
 ```
 
-_Proof_. Take $\epsilon>0$, so, since $g$ is uniformly continuous, there exists some $\delta_1>0$ such that
+<i>Proof.</i> Take $\epsilon>0$, so, since $g$ is uniformly continuous, there exists some $\delta_1>0$ such that
 $$\begin{equation}
     d_Y\l(y_1,y_2\r)<\delta_1\Rightarrow d_Z\l(g\l(y_1\r),g\l(y_2\r)\r)<\epsilon
 \end{equation}$$

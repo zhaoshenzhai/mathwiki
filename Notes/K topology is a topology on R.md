@@ -29,7 +29,7 @@ is a topology on $\R$.
 
 ```
 
-_Proof_. It suffices to prove that $\mc{B}_K$ is a basis for a topology on $\R$.
+<i>Proof.</i> It suffices to prove that $\mc{B}_K$ is a basis for a topology on $\R$.
 * ($\axibasis[1]$): Since $\mc{B}_\textrm{st}$ covers $X$, it is obvious that $\mc{B}_K\supseteq\mc{B}_\textrm{st}$ covers $X$ too.
 * ($\axibasis[2]$): Recall that the intersection of two open intervals is at most an open interval again. Take $B_1\coloneqq\l(a,b\r)$ and $B_2\coloneqq\l(c,d\r)$ for some $a,b,c,d\in\R$ and observe that
 $$\begin{equation}

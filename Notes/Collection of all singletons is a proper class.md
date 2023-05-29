@@ -17,7 +17,7 @@ The collection of all singletons form a proper class. Formally, $\fa v\ex u\l(\l
 
 ```
 
-_Proof_. Suppose, for sake of contradiction, that such a set $v$ exists, i.e. $\ex v\fa u\l(\l\{u\r\}\in v\r)$. Consider the union $\bigcup v$. For any set $x$, we have
+<i>Proof.</i> Suppose, for sake of contradiction, that such a set $v$ exists, i.e. $\ex v\fa u\l(\l\{u\r\}\in v\r)$. Consider the union $\bigcup v$. For any set $x$, we have
 $$\begin{equation}
     x\in\bigcup v\Leftrightarrow\ex z\l(x\in z\land z\in v\r)
 \end{equation}$$

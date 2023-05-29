@@ -19,7 +19,7 @@ Conversely, if $V=V_1\oplus V_2$ and $P:V\to V$ is the linear operator defined b
 
 ```
 
-_Proof_. Take $v\in V$ and observe that $v=P\l(v\r)+\l(v-P\l(v\r)\r)$. Obvious $P\l(v\r)\in\im P$, and since $P^2=P$, we have that
+<i>Proof.</i> Take $v\in V$ and observe that $v=P\l(v\r)+\l(v-P\l(v\r)\r)$. Obvious $P\l(v\r)\in\im P$, and since $P^2=P$, we have that
 $$\begin{equation}
     P\l(v-P\l(v\r)\r)=P\l(v\r)-P\l(P\l(v\r)\r)=P\l(v\r)-P\l(v\r)-0.
 \end{equation}$$

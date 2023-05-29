@@ -17,7 +17,7 @@ Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. If $S
 
 ```
 
-_Proof_. Let $S\coloneqq\l\{s_i\r\}_{i\in I}$ for some index set $I$. We proceed by double containment.
+<i>Proof.</i> Let $S\coloneqq\l\{s_i\r\}_{i\in I}$ for some index set $I$. We proceed by double containment.
 * $\l(\supseteq\r)$: Since $T\l(s_i\r)\in\im T$ for all $i\in I$, we see that $\im_TS\subseteq\im T$. But since $\im T$ is a subspace of $W$, we see that $\span\l(\im_TS\r)\subseteq\im T$.
 
 * $\l(\subseteq\r)$: Take $w\in\im T$, so $T\l(v\r)=w$ for some $v\in V$. Since $\span S=V$, $v=\sum_{i\in I}\alpha_is_i$ for some $\l\{\alpha_i\r\}_{i\in I}\!\subseteq K^n$ with $\alpha_i=0$ for all but finitely-many $i\in I$. Observe then that

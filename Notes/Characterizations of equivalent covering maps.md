@@ -24,7 +24,7 @@ Let $\tpl{X,x_0}$ be a locally path-connected pointed space and let $p_i:(\widet
 
 ---
 
-_Proof_. Note that since $X$ is locally path-connected, then so are $\widetilde{X}_1$ and $\widetilde{X}_2$.
+<i>Proof.</i> Note that since $X$ is locally path-connected, then so are $\widetilde{X}_1$ and $\widetilde{X}_2$.
 * ($1\Rightarrow2$): A homeomorphism $f:\widetilde{X}_1\to\widetilde{X}_2$ with $p_1=p_2\circ f$ induces an isomorphism $f_\ast:\pi_1\,(\widetilde{X}_1,\widetilde{x}_1)\to\pi_1\,(\widetilde{X}_2,f\l(\widetilde{x}_1\r))$ which makes the diagram below commute.
 ![[Images/2023-05-25_143528/image.svg|600]] Then $p_2\l(f\l(\widetilde{x}_1\r)\r)=p_1\l(\widetilde{x}_1\r)=x_0$, so $f\l(\widetilde{x}_1\r)\in p^{-1}\!\l(x_0\r)$ and $p_{1\ast}\pi_1\,(\widetilde{X}_1,\widetilde{x}_1)=p_{2\ast}\pi_1\,(\widetilde{X}_2,f\l(\widetilde{x}_1\r))$, the latter being conjugate to $p_{2\ast}\pi_1\,(\widetilde{X}_2,\widetilde{x}_2)$.
 * ($2\Leftrightarrow3$): Let $G\coloneqq\pi_1\l(X,x_0\r)$. Since $p_1^{-1}\!\l(x_0\r)$ is a transitive $G$-set and the stabilizer of $\widetilde{x}_1$ is $p_\ast\pi_1\,(\widetilde{X}_1,\widetilde{x}_1)$, we see that $p^{-1}\!\l(x_0\r)$ is $G$-isomorphic to the quotient of $p_\ast\pi_1\,(\widetilde{X}_1,\widetilde{x}_1)$ in $G$. But $p_{1\ast}\pi_1\,(\widetilde{X}_1,\widetilde{x}_1)$ and $p_{2\ast}\pi_1\,(\widetilde{X}_2,\widetilde{x}_2)$ are conjugate, so their quotients are $G$-isomorphic. Repeating the same argument for $p_2^{-1}\!\l(x_0\r)$ gives the desired result.

@@ -17,7 +17,7 @@ Fix $n\in\omega$ and let $X_1,\dots,X_n$ be countable sets. Then $\prod_{i=1}^nX
 
 ```
 
-_Proof_. By induction, it suffices to show that $X_1\times X_2$ is countable. Since $X_1$ and $X_2$ are countable, there exist injections $\phi_1:X_1\into\omega$ and $\phi_2:X_2\into\omega$. Then
+<i>Proof.</i> By induction, it suffices to show that $X_1\times X_2$ is countable. Since $X_1$ and $X_2$ are countable, there exist injections $\phi_1:X_1\into\omega$ and $\phi_2:X_2\into\omega$. Then
 $$\begin{equation}
     \phi:X_1\times X_2\to\omega\times\omega\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ \tpl{x_1,x_2}\mapsto\tpl{\phi_1\l(x_1\r),\phi_2\l(x_2\r)}
 \end{equation}$$

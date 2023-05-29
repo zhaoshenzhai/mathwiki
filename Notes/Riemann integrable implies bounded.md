@@ -21,7 +21,7 @@ Let $f:\l[a,b\r]\to\R$ be Riemann integrable. Then $f$ is bounded on $\l[a,b\r]$
 
 ```
 
-_Proof_. Let $L$ be the integral of $f$ and suppose, for sake of contradiction, that $f$ is unbounded on $\l[a,b\r]$. Then for all $\epsilon>0$, there exists some $\delta>0$ such that for any tagged partition $\mc{P}$ with $\|\mc{P}\|<\delta$, we have $\l|S\l(f,\mc{P}\r)-L\r|<\epsilon$. Choose $\epsilon\coloneqq1$, so $\l|S\l(f,\mc{P}\r)-L\r|<1$ and hence
+<i>Proof.</i> Let $L$ be the integral of $f$ and suppose, for sake of contradiction, that $f$ is unbounded on $\l[a,b\r]$. Then for all $\epsilon>0$, there exists some $\delta>0$ such that for any tagged partition $\mc{P}$ with $\|\mc{P}\|<\delta$, we have $\l|S\l(f,\mc{P}\r)-L\r|<\epsilon$. Choose $\epsilon\coloneqq1$, so $\l|S\l(f,\mc{P}\r)-L\r|<1$ and hence
 $$\begin{equation}
     \l|S\l(f,\mc{P}\r)\r|<\l|L\r|+1.
 \end{equation}$$

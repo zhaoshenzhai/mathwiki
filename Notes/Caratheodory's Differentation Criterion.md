@@ -25,7 +25,7 @@ for all $x\in\Omega$, in which case $\phi\l(c\r)=f'\l(c\r)$.
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * ($\Rightarrow$): Define $\phi:\Omega\to\R$ by mapping
 $$\begin{equation}
     \phi\l(x\r)\coloneqq\begin{dcases}

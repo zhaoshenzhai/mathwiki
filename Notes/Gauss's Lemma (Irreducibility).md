@@ -25,7 +25,7 @@ Let $R$ be a UFD and let $F$ be the field of fractions of $R$. For all non-trivi
 
 ---
 
-_Proof_. The converse is easy, for if $f=gh$ with $g,h\in R\l[x\r]$, then $g,h\in F\l[x\r]$ and so one of $g,h\in F\l[x\r]^\times=F^\times$. W.l.o.g., assume that $g\in F^\times$. But $g\in R\l[x\r]$, so this forces $g\in R$. Observe then that
+<i>Proof.</i> The converse is easy, for if $f=gh$ with $g,h\in R\l[x\r]$, then $g,h\in F\l[x\r]$ and so one of $g,h\in F\l[x\r]^\times=F^\times$. W.l.o.g., assume that $g\in F^\times$. But $g\in R\l[x\r]$, so this forces $g\in R$. Observe then that
 $$\begin{equation}
     R=\cont\l(f\r)=\cont\l(gh\r)=g\cont\l(h\r)=\sring{g},
 \end{equation}$$

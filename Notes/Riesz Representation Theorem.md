@@ -17,7 +17,7 @@ Let $V$ be a finite-dimensional inner product space. Then the map $\phi:V\to V^\
 
 ```
 
-_Proof_. For every $v\in V$, the map $\inprod{\slot}{v}:V\to V$ is linear since $\inprod{u_1+\alpha u_2}{v}=\inprod{u_1}{v}+\alpha\inprod{u_2}{v}$ for all $u_1,u_2\in V$ and $\alpha\in K$. Thus $\phi\l(v\r)\in V^\ast$, as claimed. Furthermore, $\phi$ is antilinear since
+<i>Proof.</i> For every $v\in V$, the map $\inprod{\slot}{v}:V\to V$ is linear since $\inprod{u_1+\alpha u_2}{v}=\inprod{u_1}{v}+\alpha\inprod{u_2}{v}$ for all $u_1,u_2\in V$ and $\alpha\in K$. Thus $\phi\l(v\r)\in V^\ast$, as claimed. Furthermore, $\phi$ is antilinear since
 $$\begin{equation}
     \phi\l(v_1+\lambda v_2\r)=\inprod{\slot}{v_1+\lambda v_2}=\inprod{\slot}{v_1}+\bar{\lambda}\inprod{\slot}{v_2}=\phi\l(v_1\r)+\bar{\lambda}\phi\l(v_2\r).
 \end{equation}$$

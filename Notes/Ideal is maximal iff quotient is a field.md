@@ -21,7 +21,7 @@ Let $R$ be a commutative ring with unit and let $I\subset R$ be a proper ideal. 
 
 ```
 
-_Proof_. Since $R$ is a commutative ring with unit, we see that $R/I$ is also a commutative ring with unit.
+<i>Proof.</i> Since $R$ is a commutative ring with unit, we see that $R/I$ is also a commutative ring with unit.
 * ($\Rightarrow$) Take $a+I\in R/I$ such that $a+I\neq0+I$, so $a\not\in I$. Let
 $$\begin{equation}
     J\coloneqq\l\{j\in R\mid\ex i\in I,\ex r\in R:j=i+ra\r\},

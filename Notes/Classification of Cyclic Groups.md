@@ -17,7 +17,7 @@ Let $G=\gen{g}$ be a non-trivial cyclic group. If $G$ is finite, then $G\iso\Z_n
 
 ```
 
-_Proof_. If $G$ is finite, set $n\coloneqq\l|G\r|$ and so $n=\l|\gen{g}\r|=\ord{g}$. We claim that $\phi:G\to\Z_n:g^i\mapsto\l[i\r]$ is an isomorphism.
+<i>Proof.</i> If $G$ is finite, set $n\coloneqq\l|G\r|$ and so $n=\l|\gen{g}\r|=\ord{g}$. We claim that $\phi:G\to\Z_n:g^i\mapsto\l[i\r]$ is an isomorphism.
 * (Well-defined): If $g^i=g^j$ for some $i\neq j$, say $i>j$, then $g^{i-j}=e$. Observe then that $\ord{g}$ divides $i-j$, so $n\divides\!\l(i-j\r)$. Hence $i\mod{n}j$, so $\l[i\r]=\l[j\r]$.
 * (Injective): If $\phi\l(g^i\r)=\phi\l(g^j\r)$, then $\l[i\r]=\l[j\r]$ and so $j=i+kn$ for some $k\in\Z$. Observe then that $g^j=g^{i+kn}=g^i\l(g^n\r)^k=g^ie^k=g^i$.
 * (Surjective): For all $a\in\Z_n$, there exists some $i\in\Z$ such that $a=\l[i\r]$. Observe then that $\phi\l(g^i\r)=\l[i\r]=a$.

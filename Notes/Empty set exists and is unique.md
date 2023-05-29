@@ -17,7 +17,7 @@ The empty set exists and is unique. Formally, $\ex!e\l[\fa z\l(z\not\in e\r)\r]$
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * (Existence): Let $\xi$ be a set. Using $\axispec$ with the formula $\phi$ being $z\neq z$, we have
 $$\begin{equation}
     \ex e\l[\fa z\l(z\in e\r)\Leftrightarrow z\in\xi\land z\neq z\r].

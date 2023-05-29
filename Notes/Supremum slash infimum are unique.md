@@ -21,4 +21,4 @@ Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. If $u$ and $u'$ are both s
 
 ```
 
-_Proof_. If $u$ and $u'$ are suprema of $S$, then, by definition, we have $u\leq u'$ and $u'\leq u$. Since $\leq$ is antisymmetric on $X$, we see that $u=u'$. Similarly for infima.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> If $u$ and $u'$ are suprema of $S$, then, by definition, we have $u\leq u'$ and $u'\leq u$. Since $\leq$ is antisymmetric on $X$, we see that $u=u'$. Similarly for infima.<span style="float:right;">$\blacksquare$</span>

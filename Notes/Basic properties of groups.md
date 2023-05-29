@@ -24,7 +24,7 @@ Let $G$ be a group. Then, for all $g,h,k\in G$, the following algebraic identiti
 
 ---
 
-_Proof_.
+<i>Proof.</i>
 * (Cancellation Laws): Let $k'$ be an inverse of $k$. Multiplying, we see that $\l(gk\r)k'=\l(hk\r)k'$ and hence $g\l(kk'\r)=h\l(kk'\r)$. Thus $ge=he$, so $g=h$. Similarly for left-cancellation.
 * (Division): Observe that $g\l(g^{-1}h\r)=\l(gg^{-1}\r)h=eh=h$, so set $x\coloneqq g^{-1}h$. For uniqueness, suppose that $k,l\in G$ are both solutions to $gx=h$, so $gk=h=gl$. From the cancellation laws, we see that $g=l$, so we are done. Similarly for when $xg=h$.
 * (Inverse): Observe that $\l(gh\r)\l(h^{-1}g^{-1}\r)=g\l(hh^{-1}\r)g^{-1}=geg^{-1}=gg^{-1}=e$ and similarly that $\l(h^{-1}g^{-1}\r)\l(gh\r)=e$.<span style="float:right;">$\blacksquare$</span>

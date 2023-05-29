@@ -21,7 +21,7 @@ Let $\tpl{a_k}$ be a sequence in $\R$ such that $\sum_{k=0}^{\infty}a_k$ converg
 
 ```
 
-_Proof_. Since $\sum_{k=0}^{\infty}a_k$ converges conditionally, the sequence $\tpl{a_k}$ must have infinitely-many positive and negative terms. Thus we have the sequences $\tpl{a_k^+}$ and $\tpl{a_k^-}$ defined by
+<i>Proof.</i> Since $\sum_{k=0}^{\infty}a_k$ converges conditionally, the sequence $\tpl{a_k}$ must have infinitely-many positive and negative terms. Thus we have the sequences $\tpl{a_k^+}$ and $\tpl{a_k^-}$ defined by
 $$\begin{equation}
     a_k^+\coloneqq
     \begin{dcases}

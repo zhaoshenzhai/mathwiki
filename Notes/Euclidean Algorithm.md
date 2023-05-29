@@ -32,7 +32,7 @@ Then there exists some $n\in\N$ such that $r_{n-1}\neq0$ and $r_n=0$, which whic
 
 ---
 
-_Proof_. The existence and uniqueness of the integers $q_0,q_1,\dots$ and $r_0,r_1,\dots$ are guaranteed by the Division Algorithm. Note that
+<i>Proof.</i> The existence and uniqueness of the integers $q_0,q_1,\dots$ and $r_0,r_1,\dots$ are guaranteed by the Division Algorithm. Note that
 $$\begin{equation}
     b>r_0>r_1>\cdots\geq0,
 \end{equation}$$

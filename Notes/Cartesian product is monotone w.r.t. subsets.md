@@ -17,7 +17,7 @@ Let $A,B,C,D$ be sets. Then $A\subseteq C$ and $B\subseteq D$ iff $A\times B\sub
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * ($\Rightarrow$): Take $x\in A\times B$. The result follows from the following chain of implications:
 $$\begin{equation}
     \begin{alignedat}{2}

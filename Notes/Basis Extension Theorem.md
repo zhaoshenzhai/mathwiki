@@ -21,7 +21,7 @@ Let $V$ be a $K$-vector space. If $U\subseteq V$ is linearly independent, then t
 
 ---
 
-_Proof_. Consider the collection
+<i>Proof.</i> Consider the collection
 $$\begin{equation}
     \ms{L}\coloneqq\l\{\mc{L}\in\pow\l(V\r)\mid U\subseteq\mc{L}\land\mc{L}\textrm{ is linearly independent}\r\}
 \end{equation}$$

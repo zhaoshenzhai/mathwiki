@@ -21,7 +21,7 @@ Let $T:V\to V$ be a linear operator on a $K$-vector space $V$. If $\lambda_1,\do
 
 ```
 
-_Proof_. We proceed by induction on $m$.
+<i>Proof.</i> We proceed by induction on $m$.
 * If $m=1$, then, since $v_1\neq0$, we see that $\l\{v_1\r\}$ is linearly independent.
 
 Suppose now that $\l\{v_1,\dots,v_{m-1}\r\}$ is linearly independent for some $m-1\geq1$. If $\sum_{i=1}^{m}\alpha_iv_i=0$ for some $\alpha_i\in K$, then, applying $T-\lambda_m\id_V$ on both sides, we see that

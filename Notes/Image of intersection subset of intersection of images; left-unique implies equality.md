@@ -30,7 +30,7 @@ Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xRy
 
 ---
 
-_Proof_. Take $y\in\im_R\l(\bigcap\mc{A}\r)$. The result follows from the following chain of implications:
+<i>Proof.</i> Take $y\in\im_R\l(\bigcap\mc{A}\r)$. The result follows from the following chain of implications:
 
 $$\begin{align}
     y\in\im_R\l(\bigcap\mc{A}\r)&\Leftrightarrow y\in\ran\l(R\rest\bigcap\mc{A}\r)&&\textrm{Definition of image}\\

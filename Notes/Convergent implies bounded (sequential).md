@@ -25,7 +25,7 @@ Let $\tpl{X,d}$ be a metric space and consider a sequence $\tpl{x_n}_{n\in\N}$ i
 
 ---
 
-_Proof_. Suppose $\lim\limits_{n\to\infty}x_n=x$, so there exists some $N\in\N$ such that $d\l(x_n,x\r)<1$ for all $n\geq N$. Set
+<i>Proof.</i> Suppose $\lim\limits_{n\to\infty}x_n=x$, so there exists some $N\in\N$ such that $d\l(x_n,x\r)<1$ for all $n\geq N$. Set
 $$\begin{equation}
     r\coloneqq\max\l\{1,d\l(x_1,x\r),\dots,d\l(x_{N-1},x\r)\r\}
 \end{equation}$$

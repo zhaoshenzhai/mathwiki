@@ -31,7 +31,7 @@ All sums $\sum_{i\in I}u_i$ are assumed to have $u_i=0$ for all but finitely-man
 
 ```
 
-_Proof_. We shall prove $1\Rightarrow2\Rightarrow3\Rightarrow1$.
+<i>Proof.</i> We shall prove $1\Rightarrow2\Rightarrow3\Rightarrow1$.
 * ($1\Rightarrow2$): Suppose, for sake of contradiction, that some $u_i\neq0$ despite $0=\sum_{j\in I}u_j$. It follows then that
 $$\begin{equation}
     -u_i=\sum_{j\neq i}u_j\in\sum_{j\neq i}U_j,

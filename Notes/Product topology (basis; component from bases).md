@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Recall that $\mc{T}_\textrm{pr}\coloneqq\mc{T}\l(\mc{B}_\textrm{pr}\r)$ where
+<i>Proof.</i> Recall that $\mc{T}_\textrm{pr}\coloneqq\mc{T}\l(\mc{B}_\textrm{pr}\r)$ where
 $$\begin{equation}
     \mc{B}_\textrm{pr}\coloneqq\l\{U\times V\in\pow\l(X\times Y\r)\mid U\in\mc{T}_X\land V\in\mc{T}_Y\r\}.
 \end{equation}$$

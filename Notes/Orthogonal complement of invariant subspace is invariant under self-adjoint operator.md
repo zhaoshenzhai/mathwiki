@@ -21,4 +21,4 @@ Let $T:V\to V$ be a linear operator on an inner product space $V$. If $T$ is sel
 
 ```
 
-_Proof_. Take $v\in U^\perp$, so $\inprod{u}{v}=0$ for all $u\in U$. Then $\inprod{u}{Tv}=\inprod{Tu}{v}$ for all $u\in U$, so, since $Tu\in U$, we see that $\inprod{u}{Tv}=0$ for all $u\in U$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Take $v\in U^\perp$, so $\inprod{u}{v}=0$ for all $u\in U$. Then $\inprod{u}{Tv}=\inprod{Tu}{v}$ for all $u\in U$, so, since $Tu\in U$, we see that $\inprod{u}{Tv}=0$ for all $u\in U$.<span style="float:right;">$\blacksquare$</span>

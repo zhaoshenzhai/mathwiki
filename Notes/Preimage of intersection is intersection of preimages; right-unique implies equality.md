@@ -30,7 +30,7 @@ Equality holds if for all $x\in\dom R$, there exists a unique $y$ such that $xRy
 
 ---
 
-_Proof_. Take $x\in\preim_R\l(\bigcap\mc{B}\r)$. The result follows from the following chain of implications:
+<i>Proof.</i> Take $x\in\preim_R\l(\bigcap\mc{B}\r)$. The result follows from the following chain of implications:
 
 $$\begin{align}
     x\in\preim_R\l(\bigcap\mc{B}\r)&\Leftrightarrow x\in\ran\l(R^{-1}\rest\bigcap\mc{B}\r)&&\textrm{Definition of preimage}\\

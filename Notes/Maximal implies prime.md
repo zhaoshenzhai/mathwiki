@@ -21,4 +21,4 @@ Let $I\subset R$ be a proper ideal of a commutative ring with unit $R$. If $I$ i
 
 ```
 
-_Proof_. See links above.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> See links above.<span style="float:right;">$\blacksquare$</span>

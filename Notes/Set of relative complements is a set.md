@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Let $\phi\l(x\r)$ denote the formula $\l(\ex u\in U\r)x=v\comp u$; we claim that
+<i>Proof.</i> Let $\phi\l(x\r)$ denote the formula $\l(\ex u\in U\r)x=v\comp u$; we claim that
 $$\begin{equation}
     \phi\l(x\r)\Rightarrow x\in\pow v.
 \end{equation}$$

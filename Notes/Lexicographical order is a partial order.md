@@ -21,4 +21,4 @@ for all $x_1,x_2\in X$ and $y_1,y_2\in Y$ is a partial order on $X\times Y$.
 
 ```
 
-_Proof_. Since $\sqsubseteq\,=\rfcl\sqsubset$ and $\sqsubset$ is a strict partial order, we see that $\sqsubseteq$ is a partial order on $X\times Y$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Since $\sqsubseteq\,=\rfcl\sqsubset$ and $\sqsubset$ is a strict partial order, we see that $\sqsubseteq$ is a partial order on $X\times Y$.<span style="float:right;">$\blacksquare$</span>

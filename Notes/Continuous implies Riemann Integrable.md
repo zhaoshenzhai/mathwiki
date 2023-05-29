@@ -21,7 +21,7 @@ If $f:\l[a,b\r]\to\R$ is continuous, then $f\in\RI{\l[a,b\r]}$.
 
 ```
 
-_Proof_. Let $\epsilon>0$. Since $f$ is uniformly continuous on $\l[a,b\r]$, there exists $\delta>0$ such that if $u,v\in\l[a,b\r]$ are such that $\l|u-v\r|>\delta$, then $\l|f\l(u\r)-f\l(v\r)\r|<\frac{\epsilon}{b-a}$. Let $\mc{P}$ be a partition with $\|\mc{P}\|<\delta$. On each interval $I_i\coloneqq\l[x_{i-1},x_i\r]$, $f$ attains its extrema, so let $u_i,v_i\in I_i$ be any points where $f$ attains its min/max in $I_i$. Define
+<i>Proof.</i> Let $\epsilon>0$. Since $f$ is uniformly continuous on $\l[a,b\r]$, there exists $\delta>0$ such that if $u,v\in\l[a,b\r]$ are such that $\l|u-v\r|>\delta$, then $\l|f\l(u\r)-f\l(v\r)\r|<\frac{\epsilon}{b-a}$. Let $\mc{P}$ be a partition with $\|\mc{P}\|<\delta$. On each interval $I_i\coloneqq\l[x_{i-1},x_i\r]$, $f$ attains its extrema, so let $u_i,v_i\in I_i$ be any points where $f$ attains its min/max in $I_i$. Define
 $$\begin{equation}
     \alpha_\epsilon\coloneqq
     \begin{dcases}

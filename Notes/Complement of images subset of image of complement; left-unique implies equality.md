@@ -29,7 +29,7 @@ Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xRy
 
 ---
 
-_Proof_. Take $y\in\im_R\l(A_1\r)\comp\im_R\l(A_2\r)$. The result follows from the following chain of implications:
+<i>Proof.</i> Take $y\in\im_R\l(A_1\r)\comp\im_R\l(A_2\r)$. The result follows from the following chain of implications:
 $$\begin{equation}
     \begin{alignedat}{2}
         y\in\im_R\l(A_1\r)\comp\im_R\l(A_2\r)&\Leftrightarrow y\in\im_R\l(A_1\r)\land\lnot y\in\im_R\l(A_2\r)&&\textrm{Definition of relative complement}\\

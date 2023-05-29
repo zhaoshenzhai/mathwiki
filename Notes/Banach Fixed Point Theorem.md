@@ -19,7 +19,7 @@ Furthermore, $x$ can be found as the limit of any sequence $\tpl{x_n}$ defined b
 
 ```
 
-_Proof_. Since $f$ is contractive, there exists some $\alpha\in\l(0,1\r)$ such that $d\l(f\l(x\r),f\l(y\r)\r)\leq\alpha d\l(x,y\r)$ for all $x,y\in X$. Thus $f$ is $\alpha$-Lipschitz, so it is uniformly continuous and hence continuous on $X$. Consider any sequence $\tpl{x_n}$ defined by $x_n\coloneqq f\l(x_{n-1}\r)$ for all $n\geq1$. Then $\tpl{x_n}$ a contractive sequence, so it is Cauchy and hence converges to some $x\in X$ since $X$ is complete. Indeed, $x$ is a fixed point of $f$ since
+<i>Proof.</i> Since $f$ is contractive, there exists some $\alpha\in\l(0,1\r)$ such that $d\l(f\l(x\r),f\l(y\r)\r)\leq\alpha d\l(x,y\r)$ for all $x,y\in X$. Thus $f$ is $\alpha$-Lipschitz, so it is uniformly continuous and hence continuous on $X$. Consider any sequence $\tpl{x_n}$ defined by $x_n\coloneqq f\l(x_{n-1}\r)$ for all $n\geq1$. Then $\tpl{x_n}$ a contractive sequence, so it is Cauchy and hence converges to some $x\in X$ since $X$ is complete. Indeed, $x$ is a fixed point of $f$ since
 $$\begin{equation}
     x=\lim\limits_{n\to\infty}x_n=\lim\limits_{n\to\infty}f\l(x_{n-1}\r)=f\l(\lim\limits_{n\to\infty}x_{n-1}\r)=f\l(x\r).
 \end{equation}$$

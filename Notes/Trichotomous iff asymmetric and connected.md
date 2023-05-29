@@ -21,7 +21,7 @@ Let $X$ be a set and let $R$ be a binary relation. Then $R$ is trichotomous on $
 
 ```
 
-_Proof_. ($\Rightarrow$): If exactly one of $xRy$, $yRx$, or $x=y$ holds, then at least one of them hold and $\lnot\l(xRy\land yRx\r)$. Thus $<$ is asymmetric and connected on $X$.
+<i>Proof.</i> ($\Rightarrow$): If exactly one of $xRy$, $yRx$, or $x=y$ holds, then at least one of them hold and $\lnot\l(xRy\land yRx\r)$. Thus $<$ is asymmetric and connected on $X$.
 
 ($\Leftarrow$): We shall prove that if one of $xRy$, $yRx$, or $x=y$ holds, then the other two doesn't.
 * If $xRy$, then, since $R$ is asymmetric on $X$, we have $y\not Rx$. If $x=y$, then $xRx$ which is contradictory since asymmetric relations are irreflexive. Similarly for if $yRx$.

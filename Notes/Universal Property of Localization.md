@@ -18,7 +18,7 @@ Let $R$ be an integral domain and let $S\subseteq R$ be multiplicative. Then the
 
 ```
 
-_Proof_. For any homomorphism $\psi:S^{-1}R\to Z$ and any $\frac{r}{s}\in S^{-1}R$, observe that
+<i>Proof.</i> For any homomorphism $\psi:S^{-1}R\to Z$ and any $\frac{r}{s}\in S^{-1}R$, observe that
 $$\begin{equation}
     \psi\l(\frac{r}{s}\r)=\psi\l(\frac{r}{1}\cdot\frac{1}{s}\r)=\psi\l(\frac{r}{1}\r)\cdot\psi\l(\frac{1}{s}\r)=\psi\l(\frac{r}{1}\r)\cdot\psi\l(\frac{s}{1}\r)^{-1}.
 \end{equation}$$

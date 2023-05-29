@@ -22,4 +22,4 @@ Let $G$ be a group. Then the abelianization $\pi:G\to G^\textrm{ab}$ is universa
 
 ---
 
-_Proof_. Observe that $\l[G,G\r]\subgrpeq\ker\phi$ since $\phi\l(xyx^{-1}y^{-1}\r)=\phi\l(x\r)\phi\l(y\r)\phi\l(x\r)^{-1}\phi\l(y\r)^{-1}=e$ for all $x,y\in G$, so the result follows by universality of the quotient.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Observe that $\l[G,G\r]\subgrpeq\ker\phi$ since $\phi\l(xyx^{-1}y^{-1}\r)=\phi\l(x\r)\phi\l(y\r)\phi\l(x\r)^{-1}\phi\l(y\r)^{-1}=e$ for all $x,y\in G$, so the result follows by universality of the quotient.<span style="float:right;">$\blacksquare$</span>

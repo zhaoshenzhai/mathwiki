@@ -21,7 +21,7 @@ Let $\tpl{X,d}$ be a metric space. If $X$ is sequentially compact, then it is se
 
 ```
 
-_Proof_. We shall construct a countably dense subset of $X$ by induction. Let $p_0\in X$ be arbitrary and suppose, for some $n\in\N$, that $p_0,\dots,p_n\in X$ have been chosen. Since $X$ is bounded, set
+<i>Proof.</i> We shall construct a countably dense subset of $X$ by induction. Let $p_0\in X$ be arbitrary and suppose, for some $n\in\N$, that $p_0,\dots,p_n\in X$ have been chosen. Since $X$ is bounded, set
 $$\begin{equation}
     \delta_{n+1}\coloneqq\sup_{p\in X}\min_\limits{0\leq i\leq n}\l\{d\l(p,p_i\r)\r\}>0
 \end{equation}$$

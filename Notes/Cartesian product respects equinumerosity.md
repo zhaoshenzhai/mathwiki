@@ -17,7 +17,7 @@ Let $X,X',Y,Y'$ be sets. If $X\eqnum X'$ and $Y\eqnum Y'$, then $X\times Y\eqnum
 
 ```
 
-_Proof_. Since $X\eqnum X'$, there exists a bijection $f:X\to X'$. Similarly, there exists a bijection $g:Y\to Y'$. Define the function
+<i>Proof.</i> Since $X\eqnum X'$, there exists a bijection $f:X\to X'$. Similarly, there exists a bijection $g:Y\to Y'$. Define the function
 $$\begin{equation}
     \phi:X\times Y\to X'\times Y'\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ \tpl{x,y}\mapsto\l(f\l(x\r),g\l(y\r)\r).
 \end{equation}$$

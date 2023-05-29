@@ -24,4 +24,4 @@ Let $X$ be a metric space, let $\Omega_1,\Omega_2\subseteq X$ be such that $\Ome
 
 ```
 
-_Proof_. If $p$ is not a cluster point of $\Omega$, then the assertions are trivial. Otherwise, since $f$ and $g$ are continuous at $p$, we see that $\lim\limits_{x\to p}f\l(x\r)=f\l(p\r)$ and $\lim\limits_{x\to p}g\l(x\r)=g\l(p\r)$. Thus everything follows by functional limit theorems.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> If $p$ is not a cluster point of $\Omega$, then the assertions are trivial. Otherwise, since $f$ and $g$ are continuous at $p$, we see that $\lim\limits_{x\to p}f\l(x\r)=f\l(p\r)$ and $\lim\limits_{x\to p}g\l(x\r)=g\l(p\r)$. Thus everything follows by functional limit theorems.<span style="float:right;">$\blacksquare$</span>

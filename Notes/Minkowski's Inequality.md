@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. First, observe that the case for $p=1$ is trivial. For $p>1$, let $1<q<+\infty$ be its conjugate exponent. Observe that
+<i>Proof.</i> First, observe that the case for $p=1$ is trivial. For $p>1$, let $1<q<+\infty$ be its conjugate exponent. Observe that
 $$\begin{equation}
     \sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^p=\sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^{p-1}\l(\l|x_i\r|+\l|y_i\r|\r)=\sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^{p-1}\l|x_i\r|+\sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^{p-1}\l|y_i\r|.
 \end{equation}$$

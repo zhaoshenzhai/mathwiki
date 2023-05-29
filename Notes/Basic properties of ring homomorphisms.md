@@ -29,7 +29,7 @@ Let $R_1$ and $R_2$ be rings and consider a homomorphism $\phi:R_1\to R_2$. Let 
 
 ---
 
-_Proof_.
+<i>Proof.</i>
 * (Preserves identity): Since $\phi$ is surjective, there exists some $x\in R$ such that $\phi\l(x\r)=1_2$. Then, since $\phi$ is a ring homomorphism, we have
 $$\begin{equation}
     \phi\l(x\r)=\phi\l(x\cdot1_1\r)=\phi\l(x\r)\cdot\phi\l(1_1\r)=1_2\cdot\phi\l(1_1\r)=\phi\l(1_1\r),

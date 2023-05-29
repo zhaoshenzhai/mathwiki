@@ -28,7 +28,7 @@ $$\begin{equation}
 
 ---
 
-_Proof_. Clearly $\span\mc{B}=U$, so it suffices to show that $\mc{B}$ is linearly independent. Indeed, suppose that $\sum_{b\in\mc{B}}\alpha_b b=0$ where $\alpha_b\in K$ is such that $\alpha_b=0$ for all but finitely-many $b\in\mc{B}$. Note that $\mc{B}=\coprod_{i\in I}\mc{B}_i$, so we may write this as
+<i>Proof.</i> Clearly $\span\mc{B}=U$, so it suffices to show that $\mc{B}$ is linearly independent. Indeed, suppose that $\sum_{b\in\mc{B}}\alpha_b b=0$ where $\alpha_b\in K$ is such that $\alpha_b=0$ for all but finitely-many $b\in\mc{B}$. Note that $\mc{B}=\coprod_{i\in I}\mc{B}_i$, so we may write this as
 $$\begin{equation}
     \sum_{i\in I}\l(\sum_{b\in\mc{B}_i}\alpha_bb\r)=0.
 \end{equation}$$

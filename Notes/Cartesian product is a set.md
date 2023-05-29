@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ---
 
-_Proof_. This proof consists of three steps:
+<i>Proof.</i> This proof consists of three steps:
 1. Fix $s\in X$. We shall construct the set
 $$\begin{equation}
     \l\{s\r\}\times Y\coloneqq\l\{v\mid\ex y\in Y:v=\tpl{x,y}\r\}.

@@ -21,7 +21,7 @@ Fix $x,y\in\R$ such that $x<y$. Then there exists some $q\in\Q$ such that $x<q<y
 
 ```
 
-_Proof_. By Archimedeanity of $\R$, there exists some $m\in\N$ such that $m\l(y-x\r)>1$. This shows that $x$ and $y$ are at least $1/m$ apart, and in particular
+<i>Proof.</i> By Archimedeanity of $\R$, there exists some $m\in\N$ such that $m\l(y-x\r)>1$. This shows that $x$ and $y$ are at least $1/m$ apart, and in particular
 $$\begin{equation}
     x<y-\frac{1}{m}.\cref{\ast}
 \end{equation}$$

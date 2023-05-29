@@ -17,7 +17,7 @@ Let $G$ be a group. Then $\l[G,G\r]\nsubgrpeq G$ and the quotient $G^\textrm{ab}
 
 ```
 
-_Proof_. To show that $\l[G,G\r]\nsubgrpeq G$, we first note that $g\l[x,y\r]g^{-1}=\l[gxg^{-1},gyg^{-1}\r]$ and that $\l[x,y\r]^{-1}=\l[y,x\r]$. Thus $g\l[x,y\r]^{-1}g^{-1}=\l[gxg^{-1},gyg^{-1}\r]^{-1}$ too. Then since
+<i>Proof.</i> To show that $\l[G,G\r]\nsubgrpeq G$, we first note that $g\l[x,y\r]g^{-1}=\l[gxg^{-1},gyg^{-1}\r]$ and that $\l[x,y\r]^{-1}=\l[y,x\r]$. Thus $g\l[x,y\r]^{-1}g^{-1}=\l[gxg^{-1},gyg^{-1}\r]^{-1}$ too. Then since
 $$\begin{equation}
     \l[G,G\r]=\l\{\l[x_1,y_1\r]^{\epsilon_i}\cdots\l[x_n,y_n\r]^{\epsilon_n}\mid x_i,y_i\in G\land\epsilon_i=\pm1\r\},
 \end{equation}$$

@@ -24,7 +24,7 @@ Let $V_1$ and $V_2$ be $K$-vector spaces and consider a linear map $T:V_1\to V_2
 
 ---
 
-_Proof_.
+<i>Proof.</i>
 * (Image preserve subspaces): We apply the Subspace Test.
     * (Identity): Since $0_{V_1}\in W_1$, we see that $0_{V_2}=T\l(0_{V_1}\r)\in\im_T\l(W_1\r)$.
     * (Closed): Take $\alpha\in K$ and $w_2,w_2'\in\im_T\l(W_2\r)$, so there exist $w_1,w_1'\in W_1$ such that $T\l(w_1\r)=w_2$ and $T\l(w_1'\r)=w_2'$. Observe then that

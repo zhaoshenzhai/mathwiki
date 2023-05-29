@@ -17,7 +17,7 @@ Let $\tpl{x_n}_{n\in\N}$ be a sequence in $\R$. Then there exists a monotone sub
 
 ```
 
-_Proof_. Call a term $x_m$ in $\tpl{x_n}$ a **peak** if $x_m\geq x_n$ for all $n\geq m$.
+<i>Proof.</i> Call a term $x_m$ in $\tpl{x_n}$ a **peak** if $x_m\geq x_n$ for all $n\geq m$.
 * If $\tpl{x_n}$ contains infinitely-many peaks, say $\tpl{x_{m_k}}_{k\in\N}$, then
 $$\begin{equation}
     x_{m_1}\geq x_{m_2}\geq\cdots\geq x_{m_{k}}\geq\cdots.

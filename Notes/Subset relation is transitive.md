@@ -17,7 +17,7 @@ Let $A$, $B$, and $C$ be sets. If $A\subseteq B$ and $B\subseteq C$, then $A\sub
 
 ```
 
-_Proof_. The result follows from the following chain of logical equivalences:
+<i>Proof.</i> The result follows from the following chain of logical equivalences:
 
 $\begin{alignat}{2}
     A\subseteq B\land B\subseteq C&\Leftrightarrow\fa x\l(x\in A\Rightarrow x\in B\r)\land\fa x\l(x\in B\Rightarrow x\in C\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of subset}\\

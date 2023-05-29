@@ -17,7 +17,7 @@ Let $X$, $Y$, and $Z$ be topological spaces. If $f:X\to Y$ and $g:Y\to Z$ are co
 
 ```
 
-_Proof_. Take an open set $W\subseteq Z$, so, since $g$ is continuous, we see that $\preim_g\l(W\r)$ is open in $Y$. But $f$ is continuous, so
+<i>Proof.</i> Take an open set $W\subseteq Z$, so, since $g$ is continuous, we see that $\preim_g\l(W\r)$ is open in $Y$. But $f$ is continuous, so
 $$\begin{equation}
     \preim_{g\circ f}\l(W\r)=\preim_f\l(\preim_g\l(W\r)\r)
 \end{equation}$$

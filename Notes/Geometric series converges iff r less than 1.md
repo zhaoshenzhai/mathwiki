@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Let $s_n\coloneqq\sum_{k=0}^na_0r^k$ be the sequence of partial sums of $\tpl{a_n}$. Note that $\l(1-r\r)s_n=a_0\l(1-r^{n+1}\r)$, so, if $r\neq 1$, we have
+<i>Proof.</i> Let $s_n\coloneqq\sum_{k=0}^na_0r^k$ be the sequence of partial sums of $\tpl{a_n}$. Note that $\l(1-r\r)s_n=a_0\l(1-r^{n+1}\r)$, so, if $r\neq 1$, we have
 $$\begin{equation}
     s_n=\frac{a_0\l(1-r^{n+1}\r)}{1-r}.
 \end{equation}$$

@@ -17,7 +17,7 @@ Let $\tpl{X,\leq}$ be a preordered set. Then the preorder category $\cat{C}\tpl{
 
 ```
 
-_Proof_. We first need to check that the composition is closed; that is, if $f\in\Hom\l(x,y\r)$ and $g\in\Hom\l(y,z\r)$ for $x,y,z\in X$, then $g\circ f\in\Hom\l(x,z\r)$. This statement is vacuously true if $x\not\leq y$ or $y\not\leq z$, so assume otherwise and thus $f=\tpl{x,y}$ and $g=\tpl{y,z}$. Since $\leq$ is transitive on $X$, we see that $x\leq z$ from which it follows that $\Hom\l(x,z\r)=\l\{\tpl{x,z}\r\}$. Observe then that $g\circ f\coloneqq\tpl{x,z}\in\Hom\l(x,z\r)$. Furthermore, for all $x\in X$, the morphism $\id_x$ is indeed in $\Hom\l(x,x\r)$ since $\leq$ is reflexive.
+<i>Proof.</i> We first need to check that the composition is closed; that is, if $f\in\Hom\l(x,y\r)$ and $g\in\Hom\l(y,z\r)$ for $x,y,z\in X$, then $g\circ f\in\Hom\l(x,z\r)$. This statement is vacuously true if $x\not\leq y$ or $y\not\leq z$, so assume otherwise and thus $f=\tpl{x,y}$ and $g=\tpl{y,z}$. Since $\leq$ is transitive on $X$, we see that $x\leq z$ from which it follows that $\Hom\l(x,z\r)=\l\{\tpl{x,z}\r\}$. Observe then that $g\circ f\coloneqq\tpl{x,z}\in\Hom\l(x,z\r)$. Furthermore, for all $x\in X$, the morphism $\id_x$ is indeed in $\Hom\l(x,x\r)$ since $\leq$ is reflexive.
 
 We now verify the axioms of a category.
 * ($\axicat[1]$): Take $x,y,z,w\in X$ and consider morphisms $f\in\Hom\l(x,y\r)$, $g\in\Hom\l(y,z\r)$, and $h\in\Hom\l(z,w\r)$. It follows that $g\circ f\in\Hom\l(x,z\r)$ and $h\circ g\in\Hom\l(y,w\r)$, and, similarly, that$$\begin{equation}

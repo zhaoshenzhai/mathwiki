@@ -21,7 +21,7 @@ is well-defined and makes $\tpl{R/I,+,\cdot}$ into a ring. Furthermore, if $R$ i
 
 ```
 
-_Proof_. It suffices to show that $\cdot$ is well-defined; the fact that it is associative is trivial. Indeed, if $r_1+I=r_1'+I$ and $r_2+I=r_2'+I$ for some $r_1,r_1',r_2,r_2'\in R$, then $r_1'=r_1+\alpha$ and $r_2'=r_2+\beta$ for some $\alpha,\beta\in I$. Observe then that
+<i>Proof.</i> It suffices to show that $\cdot$ is well-defined; the fact that it is associative is trivial. Indeed, if $r_1+I=r_1'+I$ and $r_2+I=r_2'+I$ for some $r_1,r_1',r_2,r_2'\in R$, then $r_1'=r_1+\alpha$ and $r_2'=r_2+\beta$ for some $\alpha,\beta\in I$. Observe then that
 $$\begin{equation}
     r_1'r_2'=\l(r_1+\alpha\r)\l(r_2+\beta\r)=r_1r_2+\underbrace{r_1\beta+r_2\alpha+\alpha\beta}_{\mathclap{\in I}},
 \end{equation}$$

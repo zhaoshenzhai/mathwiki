@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ---
 
-_Proof_. Take $y\in\im_R\l(\bigcup\mc{A}\r)$. The result follows from the following chain of equivalences:
+<i>Proof.</i> Take $y\in\im_R\l(\bigcup\mc{A}\r)$. The result follows from the following chain of equivalences:
 
 $\begin{alignat}{2}
     y\in\im_R\l(\bigcup\mc{A}\r)&\Leftrightarrow y\in\ran\l(R\rest\bigcup\mc{A}\r)&&\textrm{Definition of image}\\

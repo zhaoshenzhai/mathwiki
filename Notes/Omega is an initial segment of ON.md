@@ -21,7 +21,7 @@ Let $n$ be a natural number. Then every element $m\in n$ is also a natural numbe
 
 ```
 
-_Proof_. Since $\ON$ is a transitive class and $n\in\ON$, we see that $m\in\ON$ too and thus $m\in n$ implies $m\subseteq n$. Take $\alpha\in\ON$ such that $\alpha\subseteq m$, so we have $\alpha\subseteq n$. Since $n$ is a natural number, we see that either $\alpha=\em$ or $\alpha$ is a successor ordinal.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Since $\ON$ is a transitive class and $n\in\ON$, we see that $m\in\ON$ too and thus $m\in n$ implies $m\subseteq n$. Take $\alpha\in\ON$ such that $\alpha\subseteq m$, so we have $\alpha\subseteq n$. Since $n$ is a natural number, we see that either $\alpha=\em$ or $\alpha$ is a successor ordinal.<span style="float:right;">$\blacksquare$</span>
 
 ---
 

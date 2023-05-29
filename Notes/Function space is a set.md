@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Let $\phi\l(f\r)$ denote the formula $f:X\to Y$; we claim that
+<i>Proof.</i> Let $\phi\l(f\r)$ denote the formula $f:X\to Y$; we claim that
 $$\begin{equation}
     \phi\l(f\r)\Rightarrow x\in\pow\l(X\times Y\r).
 \end{equation}$$

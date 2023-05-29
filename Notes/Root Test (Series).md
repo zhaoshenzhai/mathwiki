@@ -22,7 +22,7 @@ We strengthen the test to the Limit Root Test as follows:
 
 ```
 
-_Proof_. We first prove the Direct Root Test, from which the Limit Root Test follows.
+<i>Proof.</i> We first prove the Direct Root Test, from which the Limit Root Test follows.
 * Suppose that $\sqrt[n]{\l|a_n\r|}<1$ eventually, so there exist some $\alpha<1$ such that $\l|a_n\r|<\alpha^n$ eventually. Observe that $\sum_{n=0}^{\infty}\alpha^n$ is a geometric series that converges, so the result follows. Otherwise, $\l|a_n\r|\geq1$ eventually, so $\sum_{n=0}^{\infty}a_n$ diverges.
 
 Now, set $R\coloneqq\limsup\limits_{n\to\infty}\sqrt[n]{\l|a_n\r|}$ and $r\coloneqq\liminf\limits_{n\to\infty}\sqrt[n]{\l|a_n\r|}$.

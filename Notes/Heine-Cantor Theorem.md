@@ -17,7 +17,7 @@ Let $X$ and $Y$ be metric spaces. If $X$ is compact, then any continuous functio
 
 ```
 
-_Proof_. Take $\epsilon>0$. Since $f$ is continuous,
+<i>Proof.</i> Take $\epsilon>0$. Since $f$ is continuous,
 $$\begin{equation*}
     \fa p\in X,\ex\delta_p>0,\fa q\in X:d\l(p,q\r)<\delta_p\Rightarrow d\l(f\l(p\r)-f\l(q\r)\r)<\epsilon/2.
 \end{equation*}$$

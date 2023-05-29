@@ -17,7 +17,7 @@ Let $R$ be a commutative ring and fix $a\in R$. Then the set $\sring{a}\coloneqq
 
 ```
 
-_Proof_. We use the Subring Test.
+<i>Proof.</i> We use the Subring Test.
 * The set $\sring{a}\subseteq R$ is a subgroup since $a0=0\in R$, and, for all $ar_1,ar_2\in\sring{a}$, we have that
 $$\begin{equation}
     ar_1+ar_2=a\l(r_1+r_2\r)\in\sring{a}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ -\l(ar_1\r)=a\l(-r_1\r)\in\sring{a}.

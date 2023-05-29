@@ -17,7 +17,7 @@ Let $R$ be a UFD. Then, for all $a,b\in R\comp\l\{0\r\}$, their greatest common 
 
 ```
 
-_Proof_. Since $R$ is a UFD, we may write $a=u\prod_{i=1}^{n}p_i^{\alpha_i}$ and $b=v\prod_{i=1}^{m}q_j^{\beta_j}$ for $p_i,q_j\in R$ irreducible, $\alpha_i,\beta_j\geq0$, and $u,v\in R^\times$. Let $\mu_i\coloneqq\min\l\{\alpha_i,\beta_i\r\}$ and set $d\coloneqq\prod_{i=1}^{n}p_i^{\mu_i}$. Observe that
+<i>Proof.</i> Since $R$ is a UFD, we may write $a=u\prod_{i=1}^{n}p_i^{\alpha_i}$ and $b=v\prod_{i=1}^{m}q_j^{\beta_j}$ for $p_i,q_j\in R$ irreducible, $\alpha_i,\beta_j\geq0$, and $u,v\in R^\times$. Let $\mu_i\coloneqq\min\l\{\alpha_i,\beta_i\r\}$ and set $d\coloneqq\prod_{i=1}^{n}p_i^{\mu_i}$. Observe that
 $$\begin{equation}
     a=u\prod_{i=1}^{n}p_i^{\alpha_i}=u\prod_{i=1}^{n}p_i^{\mu_i}\cdot\prod_{i=1}^{n}p_i^{\alpha_i-\mu_i}
 \end{equation}$$

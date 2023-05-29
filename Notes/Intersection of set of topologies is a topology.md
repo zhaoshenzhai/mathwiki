@@ -17,7 +17,7 @@ Let $X$ be a set and $\ms{T}$ be a non-empty collection of topologies on $X$. Th
 
 ```
 
-_Proof_. We verify the axioms for a topology on $X$:
+<i>Proof.</i> We verify the axioms for a topology on $X$:
 * ($\axitop[1]$): Since $\em$ and $X$ are in $\mc{T}$ for all $\mc{T}\in\ms{T}$, they are in $\bigcap\ms{T}$ too.
 
 Let $\mc{U}\in\bigcap\ms{T}$. We have the following chain of equivalences:

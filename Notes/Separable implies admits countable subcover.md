@@ -21,7 +21,7 @@ Let $\tpl{X,\mc{T}}$ be a separable topological space. If $\l\{U_\alpha\r\}_{\al
 
 ```
 
-_Proof_. Since $X$ is separable, there exists a countably dense subset $D\coloneqq\tpl{p_n}$. Then the set $\ms{B}$ of all balls with center $p_n$ and rational radii is countable, so we may let
+<i>Proof.</i> Since $X$ is separable, there exists a countably dense subset $D\coloneqq\tpl{p_n}$. Then the set $\ms{B}$ of all balls with center $p_n$ and rational radii is countable, so we may let
 $$\begin{equation}
     \mc{B}\coloneqq\l\{B_1,B_2,\dots\r\}\coloneqq\l\{B\in\ms{B}\mid\ex\alpha\in\mc{A}:B\subseteq U_\alpha\r\}.
 \end{equation}$$

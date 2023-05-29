@@ -20,7 +20,7 @@ Let $U$, $V$, and $W$ be inner product spaces. Then the following properties hol
 
 ```
 
-_Proof_. Let $S$ and $T$ be the appropriate linear maps and take $\lambda\in K$. Observe then that
+<i>Proof.</i> Let $S$ and $T$ be the appropriate linear maps and take $\lambda\in K$. Observe then that
 $$\begin{gathered}
     \inprod{v}{\l(S+\lambda T\r)^\adj w}=\inprod{\l(S+\lambda T\r)v}{w}=\inprod{Sv}{w}+\lambda\inprod{Tv}{w}=\inprod{v}{S^\adj w}+\lambda\inprod{v}{T^\adj w}=\inprod{v}{S^\adj w+\lambda T^\adj w} \\
     \inprod{u}{\l(ST\r)^\adj w}=\inprod{\l(ST\r)u}{w}=\inprod{S\l(Tu\r)}{w}=\inprod{Tu}{S^\adj w}=\inprod{u}{\l(T^\adj S^\adj\r)w} \\

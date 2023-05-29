@@ -21,7 +21,7 @@ Let $V$ be a $K$-vector space. Consider a linear operator $T:V\to V$ and fix $v\
 
 ```
 
-_Proof_. Clearly this holds for $v=0$, so suppose otherwise. Then $\l\{v\r\}$ is linearly independent, so there exists some $j\in\N^+$ such that $\mc{B}\coloneqq\l\{v,Tv,T^2v,\dots,T^{j-1}v\r\}$ is linearly independent. Since $V$ is finite-dimensional, there is a largest such $j$, call it $j_0$. Letting $W\coloneqq\span\mc{B}$, we see that $\mc{B}$ is a basis for $W$. Clearly $W\subseteq C_T\l(v\r)$, so it suffices to show that $W$ is a $T$-invariant subspace of $V$.
+<i>Proof.</i> Clearly this holds for $v=0$, so suppose otherwise. Then $\l\{v\r\}$ is linearly independent, so there exists some $j\in\N^+$ such that $\mc{B}\coloneqq\l\{v,Tv,T^2v,\dots,T^{j-1}v\r\}$ is linearly independent. Since $V$ is finite-dimensional, there is a largest such $j$, call it $j_0$. Letting $W\coloneqq\span\mc{B}$, we see that $\mc{B}$ is a basis for $W$. Clearly $W\subseteq C_T\l(v\r)$, so it suffices to show that $W$ is a $T$-invariant subspace of $V$.
 * Take $w\in W$, so $w=\sum_{i=0}^{j-1}\alpha_iT^iv$ for some $\alpha_i\in K$. Then
 $$\begin{equation}
     T\l(w\r)=T\l(\sum_{i=0}^{j-1}\alpha_iT^iv\r)=\sum_{i=1}^{j}\alpha_iT^iv.

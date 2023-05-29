@@ -17,7 +17,7 @@ Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K
 
 ```
 
-_Proof_. We verify the axioms for a norm on $V$.
+<i>Proof.</i> We verify the axioms for a norm on $V$.
 * (Positive-definiteness): Take $v\in V$. Obviously $\|v\|=\sqrt{\inprod{v}{v}}\geq0$, and $\|v\|=0$ iff $\sqrt{\inprod{v}{v}}=0$ iff $\inprod{v}{v}=0$ iff $v=0$.
 
 * (Triangle inequality): Take $v,w\in V$ and observe that

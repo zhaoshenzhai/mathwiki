@@ -18,7 +18,7 @@ Let $p:\widetilde{X}\to X$ be a covering space of a locally path-connected space
 
 ```
 
-_Proof_. Fix $x_0\in X$ and let $H\subgrpeq\pi_1\l(X,x_0\r)$ be conjugate to $p_\ast\pi_1\,(\widetilde{X},\widetilde{x}_0)$, so $H=p_\ast\pi_1\,(\widetilde{X},\widetilde{x}_1)$ for some $\widetilde{x}_1\in p^{-1}\!\l(x_0\r)$. Since $p$ is normal, let $f\in\Cov\,(\widetilde{X}/X)$ send $\widetilde{x}_0$ to $\widetilde{x}_1$. Thus the induced map $f_\ast$ takes loops at $\widetilde{x}_0$ to loops at $\widetilde{x}_1$, so $f_\ast:\pi_1\,(\widetilde{X},\widetilde{x}_0)\to\,(\widetilde{X},\widetilde{x}_1)$. But $f$ is a covering transformation, so $p\circ f=p$ and so $p_\ast\circ f_\ast=p_\ast$. Thus
+<i>Proof.</i> Fix $x_0\in X$ and let $H\subgrpeq\pi_1\l(X,x_0\r)$ be conjugate to $p_\ast\pi_1\,(\widetilde{X},\widetilde{x}_0)$, so $H=p_\ast\pi_1\,(\widetilde{X},\widetilde{x}_1)$ for some $\widetilde{x}_1\in p^{-1}\!\l(x_0\r)$. Since $p$ is normal, let $f\in\Cov\,(\widetilde{X}/X)$ send $\widetilde{x}_0$ to $\widetilde{x}_1$. Thus the induced map $f_\ast$ takes loops at $\widetilde{x}_0$ to loops at $\widetilde{x}_1$, so $f_\ast:\pi_1\,(\widetilde{X},\widetilde{x}_0)\to\,(\widetilde{X},\widetilde{x}_1)$. But $f$ is a covering transformation, so $p\circ f=p$ and so $p_\ast\circ f_\ast=p_\ast$. Thus
 $$\begin{equation}
     H=p_\ast\pi_1\,(\widetilde{X},\widetilde{x}_1)=p_\ast f_\ast\pi_1\,(\widetilde{X},\widetilde{x}_1)=p_\ast\pi_1\,(\widetilde{X},\widetilde{x}_0),
 \end{equation}$$

@@ -21,7 +21,7 @@ Let $n\in\N^+$ and let $\l[a\r]\in\Z_n^\times$. Then $a^{\phi\l(n\r)}\mod{n}1$.
 
 ```
 
-_Proof_. By Lagrange$\textrm{'}$s Theorem, we see that $\ord{\l[a\r]}$ divides $\ord{\l(\Z_n\r)^\times}=\phi\l(n\r)$. Hence $\l[a\r]^{\phi\l(n\r)}=\l[1\r]$, and since
+<i>Proof.</i> By Lagrange$\textrm{'}$s Theorem, we see that $\ord{\l[a\r]}$ divides $\ord{\l(\Z_n\r)^\times}=\phi\l(n\r)$. Hence $\l[a\r]^{\phi\l(n\r)}=\l[1\r]$, and since
 $$\begin{equation}
     \l[a^{\phi\l(n\r)}\r]=\l[a\r]^{\phi\l(n\r)}=\l[1\r],
 \end{equation}$$

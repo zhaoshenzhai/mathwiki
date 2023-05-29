@@ -17,7 +17,7 @@ Let $\l\{U_i\r\}_{i\in I}$ be an indexed family of linear subspaces of a vector 
 
 ```
 
-_Proof_. It suffices to show that $U$ is the smallest subspace of $V$ containing each $U_i$.
+<i>Proof.</i> It suffices to show that $U$ is the smallest subspace of $V$ containing each $U_i$.
 * ($U\subseteq V$ is a subspace): Since $0\in U_i$ for all $i\in I$, we see that $0\in U$. Take $u,w\in U$ and $\alpha\in K$, so there exist $u_i,w_i\in U_i$ for all $i\in I$, with $u_i=w_{i'}=0$ for all but finitely-many $i,i'\in I$, such that $u=\sum_{i\in I}u_i$ and $w=\sum_{i\in I}w_i$. Observe then that
 $$\begin{equation}
     \alpha u+w=\alpha\sum\limits_{i\in I}u_i+\sum\limits_{i\in I}w_i=\sum\limits_{i\in I}\alpha u_i+w_i,

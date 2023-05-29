@@ -17,4 +17,4 @@ Let $\tpl{X,\mc{T}}$ be a topological space and let $\tpl{Y,\l.\mc{T}\r|_Y}$ be 
 
 ```
 
-_Proof_. Since $V\in\l.\mc{T}\r|_Y$, there exists $U\in\mc{T}$ such that $V=U\cap Y$. Since $Y\in\mc{T}$, we see, from $\axitop[3]$ for $\mc{T}$, that $V\in\mc{T}$ too.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Since $V\in\l.\mc{T}\r|_Y$, there exists $U\in\mc{T}$ such that $V=U\cap Y$. Since $Y\in\mc{T}$, we see, from $\axitop[3]$ for $\mc{T}$, that $V\in\mc{T}$ too.<span style="float:right;">$\blacksquare$</span>

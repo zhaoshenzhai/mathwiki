@@ -21,4 +21,4 @@ Let $X$ be a set and let $R$ be a binary relation. If $R$ is irreflexive and tra
 
 ```
 
-_Proof_. If $xRy$ and $yRx$, then, by transitivity, we have $xRx$. This contradicts the fact that $R$ is irreflexive on $X$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> If $xRy$ and $yRx$, then, by transitivity, we have $xRx$. This contradicts the fact that $R$ is irreflexive on $X$.<span style="float:right;">$\blacksquare$</span>

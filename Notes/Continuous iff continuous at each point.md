@@ -21,7 +21,7 @@ Let $X$ and $Y$ be topological spaces. Then a function $f:X\to Y$ is continuous 
 
 ```
 
-_Proof_. Fix $p\in X$.
+<i>Proof.</i> Fix $p\in X$.
 * ($\Rightarrow$): Take any neighborhood $V$ of $f\l(p\r)$ and observe that $f^{-1}\!\l(V\r)$ is a neighborhood of $p$ with $f\l(f^{-1}\!\l(V\r)\r)\subseteq V$.
 
 * ($\Leftarrow$): Let $V$ be a neighborhood of $f\l(p\r)$, so there exists a neighborhood $U_p$ of $p$ such that $f\l(U_p\r)\subseteq V$. We claim that $f^{-1}\!\l(V\r)=\bigcup_{p\in X}U_p$, so it is open. The forward direction follows immediately since $p\in U_p$. The backwards direction is also clear, for $U_p\subseteq f^{-1}\!\l(f\l(U_p\r)\r)\subseteq f^{-1}\l(V\r)$.<span style="float:right;">$\blacksquare$</span>

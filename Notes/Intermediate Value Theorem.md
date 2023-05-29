@@ -21,4 +21,4 @@ Let $X$ and $Y$ be topological spaces, and consider a continuous function $f:X\t
 
 ---
 
-_Proof_. Suppose, for sake of contradiction, that $\im f=V_1\cup V_2$ for non-empty disjoint open sets $V_1,V_2$ in $Y$. Then $\preim_f\!\l(V_1\r)$ and $\preim_f\!\l(V_2\r)$ are non-empty, and they are disjoint since if there exists some $x\in\preim_f\!\l(V_1\r)\cap\preim_f\!\l(V_2\r)$, then $f\l(x\r)\in V_1\cap V_2$. By continuity of $f$, the two sets are also open in $X$, contradicting the connectedness of $X$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Suppose, for sake of contradiction, that $\im f=V_1\cup V_2$ for non-empty disjoint open sets $V_1,V_2$ in $Y$. Then $\preim_f\!\l(V_1\r)$ and $\preim_f\!\l(V_2\r)$ are non-empty, and they are disjoint since if there exists some $x\in\preim_f\!\l(V_1\r)\cap\preim_f\!\l(V_2\r)$, then $f\l(x\r)\in V_1\cap V_2$. By continuity of $f$, the two sets are also open in $X$, contradicting the connectedness of $X$.<span style="float:right;">$\blacksquare$</span>

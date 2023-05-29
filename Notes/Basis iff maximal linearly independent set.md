@@ -21,7 +21,7 @@ Let $V$ be a $K$-vector space and consider an indexed subset $\mc{B}\coloneqq\l\
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * ($\Rightarrow$): Suppose that $\mc{C}\coloneqq\l\{c_1,\dots,c_m\r\}$ is a linearly independent set in $V$. Then, since $\mc{B}$ spans $V$, we see that $m\leq n$. But $\mc{C}$ was arbitrary, so $\mc{B}$ is a maximal linearly independent set in $V$.
 
 * $\l(\Leftarrow\r)$: Let $\mc{B}$ be a maximal linearly independent set in $V$ and suppose, for sake of contradiction, that $\mc{B}$ does not span $V$. Thus there exists some $b_{n+1}\in V$ such that $b_{n+1}\not\in\span\mc{B}$, so $\mc{B}\cup\l\{b_{n+1}\r\}$ is linearly independent, a contradiction.<span style="float:right;">$\blacksquare$</span>

@@ -25,7 +25,7 @@ Let $V$ be a finite-dimensional $K$-vector space. Then the map $\phi:V\to V^{\du
 
 ---
 
-_Proof_. Firstly, $\phi$ is linear since for all $v_1,v_2\in V$ and $\lambda\in K$, we have
+<i>Proof.</i> Firstly, $\phi$ is linear since for all $v_1,v_2\in V$ and $\lambda\in K$, we have
 $$\begin{equation}
     \phi\l(\lambda v_1+v_2\r)\l(\omega\r)=\omega\l(\lambda v_1+v_2\r)=\lambda\omega\l(v_1\r)+\omega\l(v_2\r)=\lambda\phi\l(v_1\r)\l(\omega\r)+\phi\l(v_2\r)\l(\omega\r)=\l[\lambda\phi\l(v_1\r)+\phi\l(v_2\r)\r]\l(\omega\r)
 \end{equation}$$

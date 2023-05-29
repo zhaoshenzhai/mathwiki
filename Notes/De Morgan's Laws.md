@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. We shall prove the first statement, then use it to prove the second.
+<i>Proof.</i> We shall prove the first statement, then use it to prove the second.
 * Take $x\in V\comp\bigcup_{i\in I}U_i$. The first result follows from the following chain of equivalences:
 $$\begin{equation}
     \begin{alignedat}{2}

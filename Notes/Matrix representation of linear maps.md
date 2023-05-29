@@ -29,7 +29,7 @@ where $\l[T\r]_\mc{B}^\mc{C}\coloneqq\l[\alpha_{ij}\r]\in\mat{m\times n}{K}$ is 
 
 ---
 
-_Proof_. We need to prove that $\Phi_\mc{B}^\mc{C}$ is a bijective linear map. To show linearity, take $T_1,T_2\in\Hom\l(V,W\r)$ and $\lambda\in K$, so there exist unique coefficients $\alpha_{ij},\beta_{ij}\in K$ for all $i\in\l\{1,\dots,m\r\}$ and $j\in\l\{1,\dots,n\r\}$ such that
+<i>Proof.</i> We need to prove that $\Phi_\mc{B}^\mc{C}$ is a bijective linear map. To show linearity, take $T_1,T_2\in\Hom\l(V,W\r)$ and $\lambda\in K$, so there exist unique coefficients $\alpha_{ij},\beta_{ij}\in K$ for all $i\in\l\{1,\dots,m\r\}$ and $j\in\l\{1,\dots,n\r\}$ such that
 $$\begin{equation}
     T_1\l(b_j\r)=\sum_{i=1}^m\alpha_{ij}c_i\ \ \ \ \textrm{and}\ \ \ \ T_2\l(b_j\r)=\sum_{i=1}^m\beta_{ij}c_i
 \end{equation}$$

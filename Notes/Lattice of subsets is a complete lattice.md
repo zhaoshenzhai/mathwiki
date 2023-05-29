@@ -17,7 +17,7 @@ Let $X$ be a set. Then the pair $\tpl{\pow\l(X\r),\subseteq}$ is a complete latt
 
 ```
 
-_Proof_. Observe that $\tpl{\pow\l(X\r),\subseteq}$ is a poset, so it suffices to prove that every subset of $\pow\l(X\r)$ has both a join and a meet. To this end, take $\mc{Y}\subseteq\pow\l(X\r)$.
+<i>Proof.</i> Observe that $\tpl{\pow\l(X\r),\subseteq}$ is a poset, so it suffices to prove that every subset of $\pow\l(X\r)$ has both a join and a meet. To this end, take $\mc{Y}\subseteq\pow\l(X\r)$.
 * If $\mc{Y}=\em$, then every $W\in\pow\l(X\r)$ is vacuously an upper and lower bound of $\mc{Y}$.
     * For the join of $\em$, we need to find an upper bound that is a subset of every subset of $X$; simply take $\em$ itself.
     * For the meet of $\em$, observe that every lower bound is a subset of $X$, so $X$ is the greatest such lower bound.

@@ -21,7 +21,7 @@ is a topology on $X$.
 
 ```
 
-_Proof_. We verify the axioms for a topology on $X$:
+<i>Proof.</i> We verify the axioms for a topology on $X$:
 * $\em\in\mc{T}_\textrm{cc}$ by definition and $X\comp X=\em$ is countable.
 * Let $\mc{U}\subseteq\mc{T}_\textrm{cc}$. If $\mc{U}=\em$, then $\bigcup\mc{U}=\em\in\mc{T}_\textrm{cc}$. Otherwise, using De Morgan$\textrm{'}$s Laws, we have
 $$\begin{equation}

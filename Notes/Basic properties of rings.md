@@ -20,7 +20,7 @@ Let $R$ be a ring. Then, for all $r,s\in R$, the following properties hold.
 
 ```
 
-_Proof_. Take $r,s\in R$ and observe that
+<i>Proof.</i> Take $r,s\in R$ and observe that
 $$\begin{equation}
     \begin{gathered}
         r0=r\l(0+0\r)=r0+r0\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ 0r=\l(0+0\r)r=0r+0r \\

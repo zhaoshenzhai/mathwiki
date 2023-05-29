@@ -17,4 +17,4 @@ A bounded function $f:\l[a,b\r]\to\R$ is Riemann integrable iff $f$ is continuou
 
 ```
 
-_Proof_. 
+<i>Proof.</i> 

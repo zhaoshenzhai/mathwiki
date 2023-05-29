@@ -22,7 +22,7 @@ Let $G=\gen{g}$ be finite cyclic group, say with $G\iso\Z_n$. The following prop
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 1. Observe that $\ord{g^m}=\ord{g}/\gcd\l(m,\ord{g}\r)=n/\gcd\l(m,n\r)$, so $\l|\gen{g^m}\r|=n$ iff $m\perp n$. But $G$ is finite and $\gen{g^m}\subgrpeq G$, so $\gen{g^m}=G$ iff $m\perp n$.
 2. Let $\phi\in\Aut\l(G\r)$, which is uniquely determined by $\phi\l(g\r)$. But $\ord{\phi\l(g\r)}=\ord{g}=\l|G\r|=n$, so $\gen{\phi\l(g\r)}=G$ and hence $\phi\l(g\r)=g^m$ for some unique $1\leq m<n$ satisfying $m\perp n$. We claim that the map $\alpha:\Aut\l(G\r)\to\Z_n^\times$ mapping $\phi\mapsto m$, which clearly is a homomorphism, is an isomorphism. For all $m\in\Z_n^\times$, let $\phi\in\Aut\l(G\r)$ be defined by $\phi\l(g\r)\coloneqq g^m$. Then $\alpha\l(\phi\r)=m$, so $\alpha$ is surjective. For injectivity, note that $\alpha\l(\phi\r)=1$ iff $\phi\l(g\r)=g$, so $\phi=\id$. That $\Aut\l(\Z\r)\iso\Z_2$ is easy, for since automorphisms preserve generators, either $\phi\l(1\r)=1$ or $\phi'\l(1\r)=-1$. Thus $\phi\mapsto0$ and $\phi'\mapsto1$ is an isomorphism, as desired.
 3. It suffices to show that $\Z_n\times\Z_m$ is cyclic, for then it is cyclic with order $\l|\Z_n\times\Z_m\r|=mn$ and $G_1\times G_2\iso\Z_{mn}$. Indeed, $\ord{\tpl{1,1}}=\lcm\l(\ord{1},\ord{1}\r)=\lcm\l(m,n\r)=mn$ where the last equality holds since $m\perp n$, so $\gen{\tpl{1,1}}=\Z_m\times\Z_n$.

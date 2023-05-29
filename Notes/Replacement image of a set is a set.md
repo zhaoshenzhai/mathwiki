@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. The existence of a superset of $z$ is established by $\axirepl$:
+<i>Proof.</i> The existence of a superset of $z$ is established by $\axirepl$:
 $$\begin{equation}
     \ex z',\fa x\in v,\ex y\in z':\phi\l(x,y\r).
 \end{equation}$$

@@ -20,7 +20,7 @@ Let $R$ be an integral domain. Then the following properties hold:
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * If either $f=0$ or $g=0$, then the equation holds by definition since $\deg\l(fg\r)=-\infty$. Otherwise, let the leading terms of $f$ and $g$ be $a_nx^n$ and $b_mx^m$, respectively. Then the leading term of $fg$ is $a_nb_mx^{n+m}$, and since $a_n,b_m\neq0$, we see that $a_nb_m\neq0$. Thus $fg\neq0$, so $R\l[x\r]$ is an integral domain with $\deg\l(fg\r)=n+m=\deg f+\deg g$.
 
 * Obviously $R^\times\subseteq\l(R\l[x\r]\r)^\times$, so take $f\in\l(R\l[x\r]\r)^\times$. Thus $fg=1$ for some $g\in R\l[x\r]$, so

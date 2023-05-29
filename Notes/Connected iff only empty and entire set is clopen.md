@@ -21,6 +21,6 @@ Let $X$ be a topological space. Then $X$ is connected iff only $\em$ and $X$ are
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * ($\Rightarrow$): If $U\subseteq X$ is both open and closed, then, in particular, $X\comp U$ is open. Then $X=U\cup\l(X\comp U\r)$ is a disjoint union of two open sets, so either $U=\em$ or $X\comp U=\em$. Thus the only open and closed sets in $X$ are $\em$ and $X$, as desired.
 * ($\Leftarrow$): If $X=U\cup V$ for disjoint open sets $U,V\subseteq X$, then $V=X\comp U$ is closed. Thus either $V=\em$ or $V=X$, and similarly either $U=\em$ or $U=X$.<span style="float:right;">$\blacklozenge$</span>

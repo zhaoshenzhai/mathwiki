@@ -25,4 +25,4 @@ Let $V$ be a finite-dimensional $K$-vector space. If $U\subseteq V$ is linearly 
 
 ---
 
-_Proof_. Since $U$ is linearly independent, we can extend it to a basis $\mc{B}$ of $V$. Since $\l|U\r|=\dim V<\infty$, any non-trivial extension of $U$ will result in a set with cardinality greater than $\dim V$, so the extension $\mc{B}$ of $U$ must be the trivial one; that is, $U=\mc{B}$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Since $U$ is linearly independent, we can extend it to a basis $\mc{B}$ of $V$. Since $\l|U\r|=\dim V<\infty$, any non-trivial extension of $U$ will result in a set with cardinality greater than $\dim V$, so the extension $\mc{B}$ of $U$ must be the trivial one; that is, $U=\mc{B}$.<span style="float:right;">$\blacksquare$</span>

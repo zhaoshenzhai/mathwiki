@@ -21,7 +21,7 @@ Let $X\coloneqq\l\{1,\dots,n\r\}$ for some $n\in\N^+$ and consider the symmetric
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * Let $H$ be the stabilizer subgroup of $n$, so $H\iso S_{n-1}$. Then, for $1\leq i\leq n$, the elements $\sigma_i\in S_n$ such that $\sigma_i\!\l(n\r)=i$ lie in distinct cosets of $H$ and thus
 $$\begin{equation}
     \l|S_n\r|=\l[S_n:H\r]\cdot\l|H\r|=n\l|H\r|=n\l(n-1\r)!=n!

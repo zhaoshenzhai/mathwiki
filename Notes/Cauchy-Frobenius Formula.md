@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ---
 
-_Proof_. Consider the function $f:G\times X\to\l\{0,1\r\}$ by $f\l(g,x\r)\coloneqq1$ if $gx=x$ and $0$ otherwise. Clearly $I\l(g\r)=\sum_{x\in X}f\l(g,x\r)$ for all $g\in G$, and $\l|G_x\r|=\sum_{g\in G}f\l(g,x\r)$ for all $x\in X$. Letting $x_1,\dots,x_N$ be representatives of distinct orbits of the action, we see that
+<i>Proof.</i> Consider the function $f:G\times X\to\l\{0,1\r\}$ by $f\l(g,x\r)\coloneqq1$ if $gx=x$ and $0$ otherwise. Clearly $I\l(g\r)=\sum_{x\in X}f\l(g,x\r)$ for all $g\in G$, and $\l|G_x\r|=\sum_{g\in G}f\l(g,x\r)$ for all $x\in X$. Letting $x_1,\dots,x_N$ be representatives of distinct orbits of the action, we see that
 $$\begin{equation}
     \begin{aligned}
         \sum_{g\in G}I\l(g\r)&=\sum_{g\in G}\sum_{x\in X}f\l(g,x\r)=\sum_{x\in X}\sum_{g\in G}f\l(g,x\r)=\sum_{x\in X}\l|G_x\r|=\sum_{x\in X}\l|G\r|/\l|Gx\r|=

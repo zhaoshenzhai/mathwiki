@@ -21,7 +21,7 @@ Let $K$ be a field and let $V$ be a finite-dimensional vector space over $K$. If
 
 ---
 
-_Proof_. We first observe that any linearly independent subset $U\subseteq V$ must contain no more than $\dim V$ elements, for if not, then any spanning set, and thus any basis, will contain more than $\dim V$ elements. Therefore, we may let $U=\l\{u_1,\dots,u_n\r\}$ for some $n\leq\dim V$. We proceed algorithmically as follows.
+<i>Proof.</i> We first observe that any linearly independent subset $U\subseteq V$ must contain no more than $\dim V$ elements, for if not, then any spanning set, and thus any basis, will contain more than $\dim V$ elements. Therefore, we may let $U=\l\{u_1,\dots,u_n\r\}$ for some $n\leq\dim V$. We proceed algorithmically as follows.
 * Step 1: If $\span U=V$, then $\mc{B}\coloneqq U$ is a basis for $V$ and we are done. Otherwise, there exists some $s_1\in V$ that is not spanned by $U$ and so $U_1\coloneqq U\cup\l\{s_1\r\}$ is linearly independent.
 
 For all $j>1$:

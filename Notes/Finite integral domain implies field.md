@@ -21,7 +21,7 @@ Let $R$ be a finite integral domain such that $0\neq1$. Then $R$ is a field.
 
 ```
 
-_Proof_. It suffices to show that $R$ is a division ring, so take $r\in R\comp\l\{0\r\}$. Consider the function
+<i>Proof.</i> It suffices to show that $R$ is a division ring, so take $r\in R\comp\l\{0\r\}$. Consider the function
 $$\begin{equation}
     \phi_r\!:R\comp\l\{0\r\}\to R\comp\l\{0\r\}:s\mapsto r\cdot s;
 \end{equation}$$

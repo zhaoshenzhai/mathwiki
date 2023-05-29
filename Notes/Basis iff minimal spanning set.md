@@ -21,7 +21,7 @@ Let $V$ be a $K$-vector space and consider an indexed subset $\mc{B}\coloneqq\l\
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * ($\Rightarrow$): Suppose that $\mc{C}\coloneqq\l\{c_1,\dots,c_m\r\}$ spans $V$ for some $m\in\N^+$. Then, since $\mc{B}$ is linearly independent, we see that $n\leq m$. But $\mc{C}$ was arbitrary, so $\mc{B}$ is a minimal spanning set for $V$.
 
 * ($\Leftarrow$): Let $\mc{B}$ be a minimal spanning set of $V$ and suppose, for sake of contradiction, that $\mc{B}$ is linearly dependent. Then there exists some $2\leq l\leq n$ such that $b_l\in\span\l\{b_1,\dots,b_{l-1}\r\}$, so $\span\l\{b_1,\dots,b_{l-1}\r\}=V$, a contradiction.<span style="float:right;">$\blacksquare$</span>

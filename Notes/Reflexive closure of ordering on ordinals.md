@@ -17,7 +17,7 @@ For all ordinals $\alpha$ and $\beta$, we have $\alpha\subseteq\beta\Leftrightar
 
 ```
 
-_Proof_. ($\Leftarrow$): If $\alpha\in\beta$, then $\alpha\subseteq\beta$ follows from the fact that $\beta$ is transitive. If $\alpha=\beta$, then trivially $\alpha\subseteq\beta$.
+<i>Proof.</i> ($\Leftarrow$): If $\alpha\in\beta$, then $\alpha\subseteq\beta$ follows from the fact that $\beta$ is transitive. If $\alpha=\beta$, then trivially $\alpha\subseteq\beta$.
 
 ($\Rightarrow$): Assume that $\alpha\subseteq\beta$ but $\alpha\neq\beta$; we shall show that $\alpha\in\beta$. Let $X\coloneqq\beta\comp\alpha$, and since $\alpha\subset\beta$, there exists $x\in\beta$ such that $x\not\in\alpha$; in other words, $X\neq\em$. Since $\in$ well-orders $\beta$, it also well-orders $X=\beta\comp\alpha\subseteq\beta$ and hence $\in$ is well-founded on $X$. It follows that there exists some $\in$-minimal element $\xi\in X$. Observe that $\xi\in\beta$, so it suffices to show that $\xi=\alpha$.
 * ($\xi\subseteq\alpha$): Take $\mu\in\xi$. Since $\xi\in\beta$ and $\beta$ is transitive, we see that $\mu\in\beta$ too. Also, $\mu\not\in X$, for if it were, then $\xi$ would not be $\in$-minimal. It follows that $\mu\in\alpha$ and hence $\xi\subseteq\alpha$.

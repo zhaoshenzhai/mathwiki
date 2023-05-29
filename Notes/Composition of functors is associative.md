@@ -25,7 +25,7 @@ commutes.
 
 ```
 
-_Proof_. We shall prove that $\l[\l(\ms{H}\circ\ms{G}\r)\circ\ms{F}\r]^{\Obj}=\l[\ms{H}\circ\l(\ms{G}\circ\ms{F}\r)\r]^{\Obj}$; the proof for the morphisms part is identical. Take $X\in\Obj\l(\cat{C}\r)$; the result follows by repeated application of the definition:
+<i>Proof.</i> We shall prove that $\l[\l(\ms{H}\circ\ms{G}\r)\circ\ms{F}\r]^{\Obj}=\l[\ms{H}\circ\l(\ms{G}\circ\ms{F}\r)\r]^{\Obj}$; the proof for the morphisms part is identical. Take $X\in\Obj\l(\cat{C}\r)$; the result follows by repeated application of the definition:
 
 $\begin{align}
     \l[\l(\ms{H}\circ\ms{G}\r)\circ\ms{F}\r]^{\Obj}\l(X\r)&=\l(\ms{H}\circ\ms{G}\r)^{\Obj}\l[\ms{F}^{\Obj}\l(X\r)\r]\\

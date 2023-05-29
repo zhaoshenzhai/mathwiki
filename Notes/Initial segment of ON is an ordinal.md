@@ -20,4 +20,4 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Since $\in$ is well-orders $\ON$ and $X\subseteq\ON$, we see that $\in$ well-orders $X$ too. Our hypothesis that $X$ is an initial segment simply states that every $\beta\in X$ is a subset of $X$, so $X$ is a transitive set.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Since $\in$ is well-orders $\ON$ and $X\subseteq\ON$, we see that $\in$ well-orders $X$ too. Our hypothesis that $X$ is an initial segment simply states that every $\beta\in X$ is a subset of $X$, so $X$ is a transitive set.<span style="float:right;">$\blacksquare$</span>

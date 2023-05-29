@@ -22,7 +22,7 @@ Let $T:V\to V$ be a linear operator on a finite-dimensional inner product space 
 
 ---
 
-_Proof_. Since $\cchi$ splits, $T$ has an eigenvector $\lambda$. We claim that $E_\lambda^\perp$ is $T$-invariant.
+<i>Proof.</i> Since $\cchi$ splits, $T$ has an eigenvector $\lambda$. We claim that $E_\lambda^\perp$ is $T$-invariant.
 * First, note that this holds automatically for self-adjoint operators. In general, let $v\in E_\lambda^\perp$, so $\inprod{u}{v}=0$ for all $u\in E_\lambda$. Then
 $$\begin{equation}
     \inprod{u}{Tv}=\inprod{T^\ast u}{v}=\inprod{\bar{\lambda}u}{v}=\bar{\lambda}\inprod{u}{v}=0

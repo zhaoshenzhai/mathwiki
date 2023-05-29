@@ -21,7 +21,7 @@ Let $G$ be a group and fix $H,K\subgrpeq G$. Then the quotient sets $G/H$ and $G
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * ($\Rightarrow$): Let $f:G/H\to G/K$ be a $G$-isomorphism, say with $f\l(H\r)=gK$ for some $g\in G$. For all $h\in H$, we have that
 $$\begin{equation}
     gK=f\l(H\r)=f\l(hH\r)=hf\l(H\r)=hgK,

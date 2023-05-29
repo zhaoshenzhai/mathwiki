@@ -21,4 +21,4 @@ Let $\l\{X_i\r\}_{i\in I}$ be an indexed family of sets. Then $\prod_{i\in I}X_i
 
 ```
 
-_Proof_. 
+<i>Proof.</i> 

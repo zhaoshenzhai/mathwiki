@@ -17,7 +17,7 @@ Let $\tpl{X,\mc{T}}$ be a topological space and let $\tpl{Y,\l.\mc{T}\r|_Y}$ be 
 
 ```
 
-_Proof_. It suffices to show that their respective bases $\l.\l.\mc{B}\r|_Y\r|_Z$ and $\l.\mc{B}\r|_Z$ coincide.
+<i>Proof.</i> It suffices to show that their respective bases $\l.\l.\mc{B}\r|_Y\r|_Z$ and $\l.\mc{B}\r|_Z$ coincide.
 * ($\l.\l.\mc{B}\r|_Y\r|_Z\subseteq\l.\mc{B}\r|_Z$): Take $D\in\l.\l.\mc{B}\r|_Y\r|_Z$, so there exists $C\in\l.\mc{B}\r|_Y$ such that $D=C\cap Z$. Similarly, there exists $B\in\mc{B}$ such that $C=B\cap Y$. Observe then that
 $$\begin{equation}
     \begin{alignedat}{2}

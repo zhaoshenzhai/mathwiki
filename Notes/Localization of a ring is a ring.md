@@ -32,7 +32,7 @@ are well-defined and makes $\tpl{S^{-1}R,+,\cdot}$ into an integral domain. Furt
 
 ```
 
-_Proof_. We first prove that $\sim$ is an equivalence relation. That $\sim$ is reflexive and symmetric is obvious, so we prove that it is transitive. Take $\l[\tpl{r_i,s_i}\r]\in S^{-1}R$ for $i\in\l\{1,2,3\r\}$ such that $\tpl{r_1,s_1}\sim\tpl{r_2,s_2}$ and $\tpl{r_2,s_2}\sim\tpl{r_3,s_3}$. Then $r_1s_2=r_2s_1$ and $r_2s_3=r_3s_2$, so
+<i>Proof.</i> We first prove that $\sim$ is an equivalence relation. That $\sim$ is reflexive and symmetric is obvious, so we prove that it is transitive. Take $\l[\tpl{r_i,s_i}\r]\in S^{-1}R$ for $i\in\l\{1,2,3\r\}$ such that $\tpl{r_1,s_1}\sim\tpl{r_2,s_2}$ and $\tpl{r_2,s_2}\sim\tpl{r_3,s_3}$. Then $r_1s_2=r_2s_1$ and $r_2s_3=r_3s_2$, so
 $$\begin{equation}
     r_1s_2s_3=r_2s_1s_3=r_3s_1s_2.
 \end{equation}$$

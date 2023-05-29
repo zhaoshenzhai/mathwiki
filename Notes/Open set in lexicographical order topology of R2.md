@@ -21,7 +21,7 @@ Let $\tpl{\R^2,\mc{T}}$ be the topological space where $\mc{T}\coloneqq\mc{T}\l(
 
 ```
 
-_Proof_. To show that $U\in\mc{T}\l(\mc{B}\r)$, it suffices to find some subset $\mc{A}\subseteq\mc{B}$ with $U=\bigcup\mc{A}$. Indeed, let
+<i>Proof.</i> To show that $U\in\mc{T}\l(\mc{B}\r)$, it suffices to find some subset $\mc{A}\subseteq\mc{B}$ with $U=\bigcup\mc{A}$. Indeed, let
 $$\begin{equation}
     \mc{A}\coloneqq\l\{A\in\pow\l(\R^2\r)\mid\ex a,b,c,d\in\R:m<a\leq c<n\land A=\l(\tpl{a,b},\tpl{c,d}\r)\r\}
 \end{equation}$$

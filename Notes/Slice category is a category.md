@@ -17,7 +17,7 @@ Let $\cat{C}$ be a category and fix $C\in\Obj\l(\cat{C}\r)$. Then the slice cate
 
 ```
 
-_Proof_. It suffices to check that the identities and composite morphisms are well-defined since the axioms are inherited directly from that of $\cat{C}$.
+<i>Proof.</i> It suffices to check that the identities and composite morphisms are well-defined since the axioms are inherited directly from that of $\cat{C}$.
 * Take $\tpl{X,f}\in\Obj\l(\cat{C}\downarrow C\r)$ and consider the identity $\id_{\tpl{X,f}}\coloneqq\id_X$. The fact that $f=f\circ\id_X$ follows directly from $\axicat[2]$ of $\cat{C}$ and thus $\id_\tpl{X,f}\in\End\l(\tpl{X,f}\r)$.
 * Take $\tpl{X_i,f_i}\in\Obj\l(\cat{C}\downarrow C\r)$ for $i\in\l\{1,2,3\r\}$ and consider the morphisms $\phi:X_1\to X_2$ and $\phi':X_2\to X_3$; we need to prove that the diagram
     ![[Images/2022-02-25_175305/image.svg|220]]

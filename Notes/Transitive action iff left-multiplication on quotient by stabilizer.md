@@ -21,7 +21,7 @@ Let $G$ be a group, let $X$ be a set, and fix $x\in X$. Then every transitive le
 
 ```
 
-_Proof_. Consider the function $f:G\to X$ mapping $g\mapsto gx$. Then, for all $g_1,g_2\in G$, we have
+<i>Proof.</i> Consider the function $f:G\to X$ mapping $g\mapsto gx$. Then, for all $g_1,g_2\in G$, we have
 $$\begin{equation}
     f\l(g_1\r)=f\l(g_2\r)\ \ \ \ \Leftrightarrow\ \ \ \ g_1x=g_2x\ \ \ \ \Leftrightarrow\ \ \ \ g_2^{-1}g_1x=x\ \ \ \ \Leftrightarrow\ \ \ \ g_2^{-1}g_1\in G_x\ \ \ \ \Leftrightarrow\ \ \ \ g_1\in g_2G_x,
 \end{equation}$$

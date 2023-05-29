@@ -23,7 +23,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. We shall prove the statement for $z_1$; the proof for $z_2$ is analogous. Let $\phi\l(x\r)$ denote the formula $\ex y:xRy$; we claim that
+<i>Proof.</i> We shall prove the statement for $z_1$; the proof for $z_2$ is analogous. Let $\phi\l(x\r)$ denote the formula $\ex y:xRy$; we claim that
 $$\begin{equation}
     \phi\l(x\r)\Rightarrow x\in\bigcup\bigcup R.
 \end{equation}$$

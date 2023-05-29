@@ -17,7 +17,7 @@ Let $X$ be a set. The discrete topology is the finest topology on $X$.
 
 ```
 
-_Proof_. Let $\mc{T}$ be any topology on $X$ and take $U\in\mc{T}$. Recall that we have
+<i>Proof.</i> Let $\mc{T}$ be any topology on $X$ and take $U\in\mc{T}$. Recall that we have
 $$\begin{equation}
     U=\bigcup\limits_{x\in U}\l\{x\r\}=\bigcup\underbrace{\l\{\l\{x\r\}\in\pow\l(x\r)\mid x\in U\r\}}_{\mathclap{\subseteq\mc{B}_\textrm{discrete}}}\in\mc{T}_\textrm{discrete}
 \end{equation}$$

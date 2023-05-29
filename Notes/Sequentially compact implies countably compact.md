@@ -21,7 +21,7 @@ Let $\tpl{X,d}$ be a metric space. If $X$ is sequentially compact, then it is co
 
 ```
 
-_Proof_. Let $\l\{U_i\r\}_{i=0}^\infty$ be a countable open cover of $X$ and suppose, for sake of contradiction, that for each $n\in\N$ there is some $p_n\in X$ such that
+<i>Proof.</i> Let $\l\{U_i\r\}_{i=0}^\infty$ be a countable open cover of $X$ and suppose, for sake of contradiction, that for each $n\in\N$ there is some $p_n\in X$ such that
 $$\begin{equation}
     p_n\not\in\bigcup_{i=0}^{n}U_i.
 \end{equation}$$

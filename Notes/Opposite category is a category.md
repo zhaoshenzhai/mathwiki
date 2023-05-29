@@ -17,7 +17,7 @@ Let $\cat{C}$ be a category. Then its opposite category $\cat{C}^\textrm{op}$ is
 
 ```
 
-_Proof_. We verify the axioms of a category.
+<i>Proof.</i> We verify the axioms of a category.
 * ($\axicat[1]$): Take $X,Y,Z,W\in\Obj\l(\cat{C}^\textrm{op}\r)$ and $\cat{C}^\textrm{op}$-morphisms $f:X\to Y$, $g:Y\to Z$, and $h:Z\to W$. Observe then that
 $$\begin{equation}
     \begin{alignedat}{2}

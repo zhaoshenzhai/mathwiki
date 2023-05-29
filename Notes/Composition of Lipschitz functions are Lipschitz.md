@@ -17,7 +17,7 @@ Let $\tpl{X,d_X}$, $\tpl{Y,d_Y}$, and $\tpl{Z,d_Z}$ be metric spaces. If $f:X\to
 
 ```
 
-_Proof_. Take $x_1,x_2\in X$. Then, since $f\l(x_1\r),f\l(x_2\r)\in Y$ and $g$ is Lipschitz with constant $L_g$, we see that
+<i>Proof.</i> Take $x_1,x_2\in X$. Then, since $f\l(x_1\r),f\l(x_2\r)\in Y$ and $g$ is Lipschitz with constant $L_g$, we see that
 $$\begin{equation}
     d_Z\l(g\l(f\l(x_1\r)\r),g\l(f\l(x_2\r)\r)\r)\leq L_g\cdot d_Y\l(f\l(x_1\r),f\l(x_2\r)\r).
 \end{equation}$$

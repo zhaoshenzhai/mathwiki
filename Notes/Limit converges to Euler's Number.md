@@ -21,7 +21,7 @@ The sequence $\tpl{\l(1+\frac{1}{n}\r)^n}_{n\in\N^+}$ in $\R$ converges to some 
 
 ```
 
-_Proof_. We shall prove that the sequence $e_n\coloneqq\l(1+\frac{1}{n}\r)^n$ is increasing by comparing consecutive terms. Indeed, by the Binomial Theorem, we see that
+<i>Proof.</i> We shall prove that the sequence $e_n\coloneqq\l(1+\frac{1}{n}\r)^n$ is increasing by comparing consecutive terms. Indeed, by the Binomial Theorem, we see that
 $$\begin{equation}
     \begin{aligned}
         e_n&=\l(1+\frac{1}{n}\r)^n && \textrm{Definition} \\

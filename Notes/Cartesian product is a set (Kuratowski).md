@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Let $\phi\l(u\r)$ denote the formula $\l[u\in z\Leftrightarrow\ex x\in X,\ex y\in Y:u=\tpl{x,y}\r]$; we claim that
+<i>Proof.</i> Let $\phi\l(u\r)$ denote the formula $\l[u\in z\Leftrightarrow\ex x\in X,\ex y\in Y:u=\tpl{x,y}\r]$; we claim that
 $$\begin{equation}
     \phi\l(u\r)\Rightarrow u\in\pow \pow\l(X\cup Y\r).
 \end{equation}$$

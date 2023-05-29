@@ -21,7 +21,7 @@ Let $V$ be a $K$-vector space. If $U\subseteq V$ is a spanning set of $V$, then 
 
 ---
 
-_Proof_. Consider the collection
+<i>Proof.</i> Consider the collection
 $$\begin{equation}
     \ms{L}\coloneqq\l\{\mc{L}\in\pow\l(U\r)\mid\mc{L}\textrm{ is linearly independent}\r\}
 \end{equation}$$

@@ -24,7 +24,7 @@ $$\begin{equation}
 
 ```
 
-_Proof_. Let $A\coloneqq\l[Df\l(\v{a}\r)\r]$ w.r.t the standard bases. Since $f$ is differentiable at $\v{a}$, we see that
+<i>Proof.</i> Let $A\coloneqq\l[Df\l(\v{a}\r)\r]$ w.r.t the standard bases. Since $f$ is differentiable at $\v{a}$, we see that
 $$\begin{equation}
     \lim\limits_{\v{h}\to\v{0}}\frac{\l\|f\l(\v{a}+\v{h}\r)-f\l(\v{a}\r)-A\v{h}\r\|_m}{\l\|\v{h}\r\|_n}=0.
 \end{equation}$$

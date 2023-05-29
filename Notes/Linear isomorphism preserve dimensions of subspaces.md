@@ -17,7 +17,7 @@ Let $V$ and $W$ be finite-dimensional $K$-vector spaces, say with $n\coloneqq\di
 
 ```
 
-_Proof_. Observe that $\im_T\l(V_0\r)$ is a linear subspace of $W$, so we may talk about its dimension in the first place. Consider the linear map
+<i>Proof.</i> Observe that $\im_T\l(V_0\r)$ is a linear subspace of $W$, so we may talk about its dimension in the first place. Consider the linear map
 $$\begin{equation}
     \widehat{T}:V_0\to\im_T\l(V_0\r)\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ v\mapsto T\l(v\r),
 \end{equation}$$

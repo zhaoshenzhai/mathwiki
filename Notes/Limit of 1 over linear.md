@@ -21,7 +21,7 @@ For all $a,b\in\R^+$, we have $\lim\limits_{n\to\infty}\frac{1}{an+b}=0$.
 
 ```
 
-_Proof_. We shall first prove that $\lim\limits_{n\to\infty}1/n=0$.
+<i>Proof.</i> We shall first prove that $\lim\limits_{n\to\infty}1/n=0$.
 * Let $\epsilon>0$. Then, by Archimedeanity of $\R$, there exists some $N\in\N$ such that $1/N<\epsilon$. Then $N>1/\epsilon$, so set
 $$\begin{equation}
     N\coloneqq\l\lceil\frac{1}{\epsilon}\r\rceil.

@@ -17,7 +17,7 @@ Let $R,S,T$ be binary relations. Then $\l(R\circ S\r)\circ T=R\circ\l(S\circ T\r
 
 ```
 
-_Proof_. Take $\tpl{x,y}\in\l(R\circ S\r)\circ T$. The result follows from the following chain of equivalences:
+<i>Proof.</i> Take $\tpl{x,y}\in\l(R\circ S\r)\circ T$. The result follows from the following chain of equivalences:
 
 $\begin{alignat}{2}
     \tpl{x,y}\in\l(R\circ S\r)\circ T&\Leftrightarrow\ex w\l[xTw\land w\l(R\circ S\r)y\r]&&\textrm{Definition of composition}\\

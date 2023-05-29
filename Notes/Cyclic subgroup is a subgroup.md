@@ -17,7 +17,7 @@ Let $\tpl{G,\ast}$ be a group and fix $x\in G$. Then $\gen{x}$ is the smallest s
 
 ```
 
-_Proof_. We shall first apply the Subgroup Test to show that $\gen{x}\subseteq G$ is indeed a subgroup.
+<i>Proof.</i> We shall first apply the Subgroup Test to show that $\gen{x}\subseteq G$ is indeed a subgroup.
 * Since $e=g^0$ and $0\in\Z$, we see that $e\in\gen{x}$.
 
 * Take $g_1,g_2\in\gen{x}$, so there exist integers $n_1,n_2\in\Z$ such that $g_1=x^{n_1}$ and $g_2=x^{n_2}$. Then

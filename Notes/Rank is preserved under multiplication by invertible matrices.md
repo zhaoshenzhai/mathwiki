@@ -21,7 +21,7 @@ Let $V$ and $W$ be finite-dimensional vector spaces, say with $n\coloneqq\dim V$
 
 ```
 
-_Proof_. The last result follows directly since $\rank PTQ=\rank PT=\rank T$.
+<i>Proof.</i> The last result follows directly since $\rank PTQ=\rank PT=\rank T$.
 * ($\rank TQ=\rank T$): Observe that
 $$\begin{equation}
     \rank TQ=\dim\im\l(TQ\r)=\dim\im_T\!\l(\im_Q\!\l(V\r)\r)=\dim\im_T\!\l(V\r)=\dim\im T=\rank T.

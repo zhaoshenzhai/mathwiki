@@ -21,4 +21,4 @@ Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. If $g$ and $g'$ are both g
 
 ```
 
-_Proof_. If $g$ and $g'$ are both greatest elements of $S$, then, by definition, we have $g\leq g'$ and $g'\leq g$. Since $\leq$ is antisymmetric on $X$, it is antisymmetric on $S$ and hence we see that $g=g'$. Similarly for least elements.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> If $g$ and $g'$ are both greatest elements of $S$, then, by definition, we have $g\leq g'$ and $g'\leq g$. Since $\leq$ is antisymmetric on $X$, it is antisymmetric on $S$ and hence we see that $g=g'$. Similarly for least elements.<span style="float:right;">$\blacksquare$</span>

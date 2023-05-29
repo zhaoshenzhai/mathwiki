@@ -17,7 +17,7 @@ Let $V$ be an inner product space. If $\mc{B}\coloneqq\l\{e_i\r\}_{i\in I}$ is a
 
 ```
 
-_Proof_. Since $\mc{B}$ is a basis for $V$, there exist scalars $\alpha_1,\dots,\alpha_n\in K$ such that $v=\sum_{i=1}^n\alpha_ie_i$. For all $j\in\l\{1,\dots,n\r\}$, take the inner product of both sides with $e_j$ to obtain
+<i>Proof.</i> Since $\mc{B}$ is a basis for $V$, there exist scalars $\alpha_1,\dots,\alpha_n\in K$ such that $v=\sum_{i=1}^n\alpha_ie_i$. For all $j\in\l\{1,\dots,n\r\}$, take the inner product of both sides with $e_j$ to obtain
 $$\begin{equation}
     \inprod{v}{e_j}=\inprod{\sum_{i=1}^n\alpha_ie_i}{e_j}=\sum_{i=1}^n\alpha_i\inprod{e_i}{e_j}=\alpha_j
 \end{equation}$$

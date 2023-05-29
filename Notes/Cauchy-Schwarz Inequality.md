@@ -21,7 +21,7 @@ Let $V$ be an inner product space. Then, for all $u,v\in V$, we have $\l|\inprod
 
 ---
 
-_Proof_. If $v=0$, then both sides reduce to $0$. Otherwise, the projection $P_v$ onto $\span\l\{v\r\}$ is a contraction and hence
+<i>Proof.</i> If $v=0$, then both sides reduce to $0$. Otherwise, the projection $P_v$ onto $\span\l\{v\r\}$ is a contraction and hence
 $$\begin{equation}
     \|P_v\!\l(u\r)\|=\l\|\frac{\inprod{u}{v}}{\inprod{v}{v}}v\r\|=\l|\frac{\inprod{u}{v}}{\inprod{v}{v}}\r|\|v\|\leq\|u\|,
 \end{equation}$$

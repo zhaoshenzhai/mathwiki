@@ -20,7 +20,7 @@ Let $a,b\in\R$ and let $f:\l(a,b\r)\to\R$ be differentiable. Then:
 
 ```
 
-_Proof_. For all $x_1,x_2\in\l(a,b\r)$, the Mean Value Theorem furnishes some $x\in\l(x_1,x_2\r)$ such that
+<i>Proof.</i> For all $x_1,x_2\in\l(a,b\r)$, the Mean Value Theorem furnishes some $x\in\l(x_1,x_2\r)$ such that
 $$\begin{equation}
     f\l(x_2\r)-f\l(x_1\r)=\l(x_2-x_1\r)f'\l(x\r),
 \end{equation}$$

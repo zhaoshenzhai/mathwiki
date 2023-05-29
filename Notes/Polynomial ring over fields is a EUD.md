@@ -25,7 +25,7 @@ Let $K$ be a field. Then for all $a,b\in K\l[x\r]$ with $b\neq0$, there exist un
 
 ---
 
-_Proof_. Let $n\coloneqq\deg a$ and $m\coloneqq\deg b$. We first prove existence.
+<i>Proof.</i> Let $n\coloneqq\deg a$ and $m\coloneqq\deg b$. We first prove existence.
 * If $a=0$, then, since $0=0b+0$, take $q,r\coloneqq0$.
 * If $n<m$, then, since $a=0b+a$, take $q\coloneqq0$ and $r\coloneqq a$.
 

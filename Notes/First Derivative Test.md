@@ -19,7 +19,7 @@ Let $a,b\in\R$ and let $f:\l[a,b\r]\to\R$ be continuous. Fix $c\in\l(a,b\r)$ and
 
 ```
 
-_Proof_. We prove the first statement; the second is similar. Observe that $f$ is increasing on $\l(c-\delta,c\r)$, so
+<i>Proof.</i> We prove the first statement; the second is similar. Observe that $f$ is increasing on $\l(c-\delta,c\r)$, so
 $$\begin{equation}
     f\l(c\r)=\lim\limits_{x\to c^-}f\l(x\r)=\sup\limits_{x\in\l(c-\delta,c\r)}f\l(x\r).
 \end{equation}$$

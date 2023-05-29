@@ -29,7 +29,7 @@ Let $\tpl{x_n}$ and $\tpl{y_n}$ be sequences in $\R$ such that $\lim\limits_{n\t
 
 ```
 
-_Proof_.
+<i>Proof.</i>
 * (Linearity): If $\alpha=0$, there is nothing to show. Otherwise, let $\epsilon>0$. Since $x_n\to x$ and $y_n\to y$, we see that
 $$\begin{equation}
     \fa^\infty n\in\N:d\l(x_n,x\r)<\frac{\epsilon}{2\alpha}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \fa^\infty n\in\N:d\l(y_n,y\r)<\frac{\epsilon}{2}.\cref{\ast}

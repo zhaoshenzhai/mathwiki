@@ -25,7 +25,7 @@ Consider the functor $\pi_1:\catptop\to\catgrp$ mapping each pointed topological
 
 ```
 
-_Proof_. The map $f_\ast$ is well-defined since if $\gamma_0\htopeq\gamma_1$, then $f\circ\gamma_0\htopeq f\circ\gamma_1$, and it is a homomorphism since the loops $f\circ\l(\gamma\ast\delta\r)$ and $\l(f\circ\gamma\r)\ast\l(f\circ\delta\r)$ are both given by $\l(f\circ\gamma\r)\l(2s\r)$ for $0\leq s\leq1/2$ and $\l(f\circ\delta\r)\l(2s-1\r)$ for $1/2\leq s\leq1$. To see that $\pi_1$ is a functor, let $\tpl{X,x_0}\overset{f}{\rightarrow}\tpl{Y,y_0}\overset{g}{\rightarrow}\tpl{Z,z_0}$. For all loops $\gamma:I\to X$ at $x_0$, we have,
+<i>Proof.</i> The map $f_\ast$ is well-defined since if $\gamma_0\htopeq\gamma_1$, then $f\circ\gamma_0\htopeq f\circ\gamma_1$, and it is a homomorphism since the loops $f\circ\l(\gamma\ast\delta\r)$ and $\l(f\circ\gamma\r)\ast\l(f\circ\delta\r)$ are both given by $\l(f\circ\gamma\r)\l(2s\r)$ for $0\leq s\leq1/2$ and $\l(f\circ\delta\r)\l(2s-1\r)$ for $1/2\leq s\leq1$. To see that $\pi_1$ is a functor, let $\tpl{X,x_0}\overset{f}{\rightarrow}\tpl{Y,y_0}\overset{g}{\rightarrow}\tpl{Z,z_0}$. For all loops $\gamma:I\to X$ at $x_0$, we have,
 $$\begin{equation}
     \l(f\circ g\r)_\ast\l[\gamma\r]=\l[\l(f\circ g\r)\circ\gamma\r]=\l[f\circ\l(g\circ\gamma\r)\r]=f_\ast\l[g\circ\gamma\r]=\l(f_\ast\circ g_\ast\r)\l[\gamma\r].
 \end{equation}$$

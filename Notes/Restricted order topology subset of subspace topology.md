@@ -17,7 +17,7 @@ Let $\tpl{X,<}$ be a totally ordered set and fix a subset $Y\subseteq X$. Then $
 
 ```
 
-_Proof_. Recall that the collections
+<i>Proof.</i> Recall that the collections
 $$\begin{equation}
     \mc{S}_\textrm{or}\coloneqq\l\{S\in\pow\l(Y\r)\mid\l[\ex a\in Y:S=\l(a,+\infty\r)_Y\r]\lor\l[\ex b\in Y:S=\l(-\infty,b\r)_Y\r]\r\}
 \end{equation}$$

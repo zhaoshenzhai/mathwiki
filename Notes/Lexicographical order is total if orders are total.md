@@ -17,4 +17,4 @@ Let $\leq$ and $\preceq$ be total orders on the sets $X$ and $Y$, respectively. 
 
 ```
 
-_Proof_. Since $\sqsubseteq\,=\rfcl\sqsubset$ and $\sqsubset$ is a strict total order, we see that $\sqsubseteq$ is a total order on $X\times Y$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Since $\sqsubseteq\,=\rfcl\sqsubset$ and $\sqsubset$ is a strict total order, we see that $\sqsubseteq$ is a total order on $X\times Y$.<span style="float:right;">$\blacksquare$</span>

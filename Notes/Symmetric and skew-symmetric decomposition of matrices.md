@@ -21,7 +21,7 @@ Let $K$ be a field with $\charac K\neq2$ and fix $n\in\N^+$. Then $\mat{n}{K}=\S
 
 ```
 
-_Proof_. It suffices to show that $\mat{n}{K}=\Sym_n\!\l(K\r)+\Skew_n\!\l(K\r)$ and $\Sym_n\!\l(K\r)\cap\Skew_n\!\l(K\r)=\l\{0_n\r\}$.
+<i>Proof.</i> It suffices to show that $\mat{n}{K}=\Sym_n\!\l(K\r)+\Skew_n\!\l(K\r)$ and $\Sym_n\!\l(K\r)\cap\Skew_n\!\l(K\r)=\l\{0_n\r\}$.
 * Take $A\in\mat{n}{K}$ and observe that
 $$\begin{equation}
     A=\frac{A+A^\trans}{2}+\frac{A-A^\trans}{2},
