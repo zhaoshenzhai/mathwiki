@@ -17,7 +17,7 @@ The relation $\iso$ on any collection of sets is an equivalence relation.
 
 ```
 
-**Remark.** Here, $\iso$ is taken as a $\textrm{`}$binary relation$\textrm{'}$ defined by $X\iso Y$ iff there exists an isomorphism $f:X\to Y$; it is _not_ a binary relation in the strict sense since the universal class $V$ is not a set.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Here, $\iso$ is taken as a $\textrm{`}$binary relation$\textrm{'}$ defined by $X\iso Y$ iff there exists an isomorphism $f:X\to Y$; it is <i>not</i> a binary relation in the strict sense since the universal class $V$ is not a set.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

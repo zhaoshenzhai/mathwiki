@@ -28,4 +28,4 @@ in which case we write $\lim\limits_{n\to\infty}x_n=\pm\infty$ or $x_n\to\pm\inf
 
 ```
 
-**Remark.** A sequence that converges to $\pm\infty$ _diverges_ in the regular sense of convergence, since it is unbounded.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** A sequence that converges to $\pm\infty$ <i>diverges</i> in the regular sense of convergence, since it is unbounded.<span style="float:right;">$\blacklozenge$</span>

@@ -26,7 +26,7 @@ $$\begin{equation}
     \cont\l(fg\r)=\cont\l(\alpha\beta f'g'\r)=\alpha\beta\cont\l(f'g'\r)=\alpha\beta\sring{1}=\sring{\alpha\beta}=\sring{\alpha}\sring{\beta}=\cont\l(f\r)\cont\l(g\r).
 \end{equation}$$
 Suppose now that $f$ and $g$ are primitive.
-* To show that $fg$ is also primitive, we need to show that for all $p\in R$, $p$ does not divide at least one coefficient of $fg$. But $R$ is a UFD, so it suffices to prove this for $p\in R$ prime since every $r\in R\comp R^\times$ can be factored into irreducibles, which are prime in a UFD; we do not need to prove it for units $u\in R^\times$ since contents are defined as GCD _ideals_, which are invariant under units.
+* To show that $fg$ is also primitive, we need to show that for all $p\in R$, $p$ does not divide at least one coefficient of $fg$. But $R$ is a UFD, so it suffices to prove this for $p\in R$ prime since every $r\in R\comp R^\times$ can be factored into irreducibles, which are prime in a UFD; we do not need to prove it for units $u\in R^\times$ since contents are defined as GCD <i>ideals</i>, which are invariant under units.
 
 Let $p$ be prime in $R$, so $\sring{p}$ is a prime ideal. Then $\bar{R}\coloneqq R/\sring{p}$ is an integral domain, and the homomorphism $\phi:R\to\bar{R}:r\mapsto\bar{r}$ mapping $r+\sring{p}$ extends to a homomorphism
 $$\begin{equation}

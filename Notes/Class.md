@@ -20,7 +20,7 @@ The formula $\phi\l(x\r)$ is referred to as a **class** if we wish to consider t
 
 ```
 
-**Remark.** Let $x$ be a set. If $\phi\l(x\r)$, write, _informally_, the expression $x\in\l\{x\mid\phi\l(x\r)\r\}$.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Let $x$ be a set. If $\phi\l(x\r)$, write, <i>informally</i>, the expression $x\in\l\{x\mid\phi\l(x\r)\r\}$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

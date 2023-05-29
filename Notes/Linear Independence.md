@@ -38,4 +38,4 @@ $$\begin{equation}
 \end{equation}$$
 This $\textrm{`}$contradiction$\textrm{'}$ is resolved by allowing for duplicates in $U$ which distinguishes between $\tpl{u}=\l\{u_i\r\}_{i\in\l\{1\r\}}$ and $\tpl{u,u}=\l\{u_i\r\}_{i\in\l\{1,2\r\}}$.
 
-From this we also see that if $U$ is linearly independent, then it must not contain duplicate elements. Furthermore, the order structure of $I$, if any, can be ignored as vector addition is commutative. Thus we may consider $U$ as a sub_set_ of $V$ and say that $U$ is linearly independent if any indexed set $\l\{u'_i\r\}_{i\in I}$ where each $u'_i\in U$ (without duplicates) is linearly independent.<span style="float:right;">$\blacklozenge$</span>
+From this we also see that if $U$ is linearly independent, then it must not contain duplicate elements. Furthermore, the order structure of $I$, if any, can be ignored as vector addition is commutative. Thus we may consider $U$ as a sub<i>set</i> of $V$ and say that $U$ is linearly independent if any indexed set $\l\{u'_i\r\}_{i\in I}$ where each $u'_i\in U$ (without duplicates) is linearly independent.<span style="float:right;">$\blacklozenge$</span>

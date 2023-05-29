@@ -45,5 +45,5 @@ Since $g^r=e$ and $0\leq r<\ord{g}$, this forces $r=0$ and hence $\ord{g}$ divid
 $$\begin{equation}
     \tpl{g,h}^l=\tpl{g^l,h^l}=\tpl{g^{\ord{g}\cdot l/\ord{g}},g^{\ord{h}\cdot l/\ord{h}}}=\tpl{e_G^{l/\ord{g}},e_H^{l/\ord{h}}}=\tpl{e_G,e_H},
 \end{equation}$$
-so $\ord{\tpl{g,h}}$ divides $l$. Now, suppose that $\tpl{g,h}^d=\tpl{e_G,e_H}$ for some $d\in\N^+$; it suffices to show that $l\leq d$. Note that $g^d=e_G$ and $h^d=e_H$, so $\ord{g}$ and $\ord{h}$ both divide $d$. But $l$ is the _least_ common multiple of $\ord{g}$ and $\ord{h}$, so $l\divides d$ and hence $l\leq d$.
+so $\ord{\tpl{g,h}}$ divides $l$. Now, suppose that $\tpl{g,h}^d=\tpl{e_G,e_H}$ for some $d\in\N^+$; it suffices to show that $l\leq d$. Note that $g^d=e_G$ and $h^d=e_H$, so $\ord{g}$ and $\ord{h}$ both divide $d$. But $l$ is the <i>least</i> common multiple of $\ord{g}$ and $\ord{h}$, so $l\divides d$ and hence $l\leq d$.
 * Observe that $\l(\phi\l(g\r)\r)^\ord{g}=\phi\l(g^\ord{g}\r)=\phi\l(e\r)=e$, so $\ord{\phi\l(g\r)}$ divides $\ord{g}$. If $\phi$ is an isomorphism, then $\phi^{-1}$ is a homomorphism and hence $\ord{\phi^{-1}\l(\phi\l(g\r)\r)}$ divides $\ord{\phi\l(g\r)}$, from which the result follows.<span style="float:right;">$\blacksquare$</span>

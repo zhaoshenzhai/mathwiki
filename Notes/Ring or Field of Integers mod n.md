@@ -25,4 +25,4 @@ The **ring of integers modulo $n$** is the quotient ring $\tpl{\Z_n,+,\cdot}$ of
 
 ```
 
-**Remark.** Indeed, $\tpl{\Z_n,+,\cdot}$ is a commutative ring with unity, but, unless $n$ is prime, is _not_ an integral domain nor a division ring.<span style="float:right;">$\blacklozenge$</span>
+**Remark.** Indeed, $\tpl{\Z_n,+,\cdot}$ is a commutative ring with unity, but, unless $n$ is prime, is <i>not</i> an integral domain nor a division ring.<span style="float:right;">$\blacklozenge$</span>

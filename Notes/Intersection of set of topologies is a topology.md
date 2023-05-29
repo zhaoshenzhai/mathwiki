@@ -48,7 +48,7 @@ $\begin{alignat}{2}
 
 ---
 
-**Remark.** It is generically _not_ the case that $\bigcup\ms{T}$ is a topology on $X$. For a counterexample, consider the set $X=\l\{a,b,c\r\}$ and the topologies
+**Remark.** It is generically <i>not</i> the case that $\bigcup\ms{T}$ is a topology on $X$. For a counterexample, consider the set $X=\l\{a,b,c\r\}$ and the topologies
 $$\begin{equation}
     \mc{T}_1=\l\{\em,X,\l\{a,b\r\}\r\}\ \ \ \ \textrm{and}\ \ \ \ \mc{T}_2=\l\{\em,X,\l\{b,c\r\}\r\}.
 \end{equation}$$

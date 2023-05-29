@@ -23,8 +23,8 @@ $$\begin{equation}
 
 ```
 
-**Remark.** To emphasize that we are _not_ just $\textrm{`}$replacing$\textrm{'}$ $x$$\textrm{'}$s with $r$$\textrm{'}$s, we may write the polynomial as $\tpl{a_0,\dots,a_n}$, so
+**Remark.** To emphasize that we are <i>not</i> just $\textrm{`}$replacing$\textrm{'}$ $x$$\textrm{'}$s with $r$$\textrm{'}$s, we may write the polynomial as $\tpl{a_0,\dots,a_n}$, so
 $$\begin{equation}
     \eval_r\!\tpl{a_0,\dots,a_n}\coloneqq\sum_{i=0}^{n}a_nr^n
 \end{equation}$$
-where the sum is an _actual_ sum that is an element in $R$, and _not_ a polynomial.<span style="float:right;">$\blacklozenge$</span>
+where the sum is an <i>actual</i> sum that is an element in $R$, and _not_ a polynomial.<span style="float:right;">$\blacklozenge$</span>

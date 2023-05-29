@@ -34,8 +34,8 @@ $$\begin{equation}
     \l[\alpha,\beta\r]\subseteq\mc{I}.
 \end{equation}$$
 Conversely, take $x\in\mc{I}$, so $a_n\leq x\leq b_n$ for all $n\in\N$. But since $a_n\leq\alpha\leq\beta\leq b_n$ too, we have three cases:
-* If $a_n\leq x<\alpha$, then, since $\alpha$ is the _least_ upper bound of $A$, there exists some $a_k\in A$ such that $x<a_k$. But then $x\not\in\l[a_k,b_k\r]$, a contradiction.
-* If $\beta<x\leq b_n$, then, since $\beta$ is the _greatest_ lower bound of $B$, there exists some $b_l\in B$ such that $x>b_l$. But then $x\not\in\l[a_l,b_l\r]$, a contradiction.
+* If $a_n\leq x<\alpha$, then, since $\alpha$ is the <i>least</i> upper bound of $A$, there exists some $a_k\in A$ such that $x<a_k$. But then $x\not\in\l[a_k,b_k\r]$, a contradiction.
+* If $\beta<x\leq b_n$, then, since $\beta$ is the <i>greatest</i> lower bound of $B$, there exists some $b_l\in B$ such that $x>b_l$. But then $x\not\in\l[a_l,b_l\r]$, a contradiction.
 
 Thus $a_n\leq\alpha\leq x\leq\beta\leq b_n$, so $x\in\l[\alpha,\beta\r]$.
 

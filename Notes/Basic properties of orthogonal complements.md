@@ -26,7 +26,7 @@ _Proof_. The first two assertions seem to be $\textrm{`}$dual$\textrm{'}$.
 
 * ($V^\perp=\l\{0\r\}$): By definition, $v\in V^\perp$ iff $\inprod{v}{u}=0$ for all $u\in V$, so, in particular, $\inprod{v}{v}=0$. This forces $v=0$. Conversely, $0$ is orthogonal to every vector $v\in V$.
 
-Let $U$ be a subset of $V$. Note that if $U$ is a sub_space_ of $V$, then $U\cap U^\perp=\l\{0\r\}$.
+Let $U$ be a subset of $V$. Note that if $U$ is a sub<i>space</i> of $V$, then $U\cap U^\perp=\l\{0\r\}$.
 * ($U^\perp$ is a subspace of $V$): It suffices to show that $0\in U^\perp$ and, for all $v_1,v_2\in U^\perp$ and $\alpha\in K$, that $\alpha v_1+v_2\in U^\perp$.
     * ($0\in U^\perp$): Since the function $\inprod{\slot}{u}:V\to K$ is linear for all $u\in U$, we see that $\inprod{0}{u}=0$ for all $u\in U$. Thus $0\in U^\perp$.
 
