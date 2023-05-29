@@ -16,11 +16,11 @@ Justifications: [[Subspace topology is a topology]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and fix a subset $Y\subseteq X$. Then the **subspace topology on $Y$ inherited from $X$** is the topology_
+Let $\tpl{X,\mc{T}}$ be a topological space and fix a subset $Y\subseteq X$. Then the **subspace topology on $Y$ inherited from $X$** is the topology
 $$\begin{equation}
     \l.\mc{T}\r|_Y\coloneqq\l\{V\in\pow\l(Y\r)\mid\ex U\in\mc{T}:V=U\cap Y\r\}.
 \end{equation}$$
-_The subset $Y\subseteq X$, equipped with the subspace topology $\l.\mc{T}\r|_Y$, is a **(topological) subspace of $X$**._
+The subset $Y\subseteq X$, equipped with the subspace topology $\l.\mc{T}\r|_Y$, is a **(topological) subspace of $X$**.
 
 ```
 

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\mc{T}}$ be a separable topological space. If_ $\l\{U_\alpha\r\}_{\alpha\in\mc{A}}$ _is an open cover for $X$, then $X$ admits a countable subcover._
+Let $\tpl{X,\mc{T}}$ be a separable topological space. If $\l\{U_\alpha\r\}_{\alpha\in\mc{A}}$ is an open cover for $X$, then $X$ admits a countable subcover.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set. Then the pair $\tpl{\Sigma,\subseteq}$, where $\Sigma$ is the set of all topologies on $X$, is a complete lattice._
+Let $X$ be a set. Then the pair $\tpl{\Sigma,\subseteq}$, where $\Sigma$ is the set of all topologies on $X$, is a complete lattice.
 
 ```
 

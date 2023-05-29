@@ -13,7 +13,7 @@ Equivalences: _Not Applicable_
 ``` ad-Axiom
 title: Axiom.
 
-_Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Power Set** is the $\mc{L}$-formula_
+Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Power Set** is the $\mc{L}$-formula
 $$\begin{equation}
     \fa A\ex P\fa S\l(S\in P\Leftrightarrow\fa s\in S:s\in A\r).
 \end{equation}$$

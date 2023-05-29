@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a commutative ring with unit and let $I\subset R$ be a proper ideal. Then $I$ is maximal iff $R/I$ is a field._
+Let $R$ be a commutative ring with unit and let $I\subset R$ be a proper ideal. Then $I$ is maximal iff $R/I$ is a field.
 
 ```
 

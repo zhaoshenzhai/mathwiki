@@ -13,12 +13,12 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G=\gen{g}$ be finite cyclic group, say with $G\iso\Z_n$. The following properties hold._
-1. _For all $m\in\N$, $G=\gen{g^m}$ iff $m\perp n$._
-2. _$\Aut\l(G\r)\iso\Z_n^\times$. Furthermore, $\Aut\l(\Z\r)\iso\Z_2$._
-3. _Let $G_1\iso\Z_n$ and $G_2\iso\Z_m$. If $m\perp n$, then $G_1\times G_2$ is cyclic of order $mn$._
-4. _Every subgroup of $G$ is cyclic._
-5. _For all $m\divides n$, there exists a unique (cyclic) subgroup $H\subgrpeq G$ of order $m$._
+Let $G=\gen{g}$ be finite cyclic group, say with $G\iso\Z_n$. The following properties hold.
+1. For all $m\in\N$, $G=\gen{g^m}$ iff $m\perp n$.
+2. $\Aut\l(G\r)\iso\Z_n^\times$. Furthermore, $\Aut\l(\Z\r)\iso\Z_2$.
+3. Let $G_1\iso\Z_n$ and $G_2\iso\Z_m$. If $m\perp n$, then $G_1\times G_2$ is cyclic of order $mn$.
+4. Every subgroup of $G$ is cyclic.
+5. For all $m\divides n$, there exists a unique (cyclic) subgroup $H\subgrpeq G$ of order $m$.
 
 ```
 

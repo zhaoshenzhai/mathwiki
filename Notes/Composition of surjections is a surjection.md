@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:X\to Y$ and $g:Y\to Z$ be surjections. Then the composite function $g\circ f:X\to Z$ is a surjection._
+Let $f:X\to Y$ and $g:Y\to Z$ be surjections. Then the composite function $g\circ f:X\to Z$ is a surjection.
 
 ```
 

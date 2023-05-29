@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be a binary relation and let $T$ be a set. The **preimage of $T$ under $R$** is the set_
+Let $R$ be a binary relation and let $T$ be a set. The **preimage of $T$ under $R$** is the set
 $$\begin{equation}
     \preim_R\l(T\r)\coloneqq R^{-1}\l[T\r]\coloneqq\ran\l(R^{-1}\rest T\r).
 \end{equation}$$

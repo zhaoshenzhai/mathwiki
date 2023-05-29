@@ -13,14 +13,14 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a commutative ring and take $a,a_1,a_2,b\in R$ with $b\neq0$. Then the following properties hold._
-* _$b\divides a_1$ and $b\divides a_2$ implies $b\divides\!\l(a_1\pm a_2\r)$._
-* _$b\divides a$ implies $b\divides\!\l(ra\r)$ for any $r\in R$._
-* _$1\divides a$ and $b\divides0$._
-* _$u\divides a$ for all $u\in R^\times$._
-* _$b\divides a$ iff $a\in\sring{b}$ iff $\sring{a}\subseteq\sring{b}$._
-* _$a\sim b$ iff $\sring{a}=\sring{b}$._
-* _If $a=bu$ for some $u\in R^\times$, then $a\sim b$. The converse holds if $R$ is an integral domain._
+Let $R$ be a commutative ring and take $a,a_1,a_2,b\in R$ with $b\neq0$. Then the following properties hold.
+* $b\divides a_1$ and $b\divides a_2$ implies $b\divides\!\l(a_1\pm a_2\r)$.
+* $b\divides a$ implies $b\divides\!\l(ra\r)$ for any $r\in R$.
+* $1\divides a$ and $b\divides0$.
+* $u\divides a$ for all $u\in R^\times$.
+* $b\divides a$ iff $a\in\sring{b}$ iff $\sring{a}\subseteq\sring{b}$.
+* $a\sim b$ iff $\sring{a}=\sring{b}$.
+* If $a=bu$ for some $u\in R^\times$, then $a\sim b$. The converse holds if $R$ is an integral domain.
 
 ```
 

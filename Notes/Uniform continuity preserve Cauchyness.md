@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:X\to Y$ be a uniformly continuous function between metric spaces. If a sequence $\tpl{x_n}$ in $X$ is Cauchy, then so is the sequence $\tpl{f\l(x_n\r)}$ in $Y$._
+Let $f:X\to Y$ be a uniformly continuous function between metric spaces. If a sequence $\tpl{x_n}$ in $X$ is Cauchy, then so is the sequence $\tpl{f\l(x_n\r)}$ in $Y$.
 
 ```
 

@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ and $W$ be $K$-vector spaces. A **linear map from $V$ to $W$** is an additive group homomorphism $T:V\to W$ such that:_
+Let $V$ and $W$ be $K$-vector spaces. A **linear map from $V$ to $W$** is an additive group homomorphism $T:V\to W$ such that:
 $$\begin{equation}
     \fa\alpha\in K,\fa v\in V:T\l(\alpha v\r)=\alpha T\l(v\r).
 \end{equation}$$

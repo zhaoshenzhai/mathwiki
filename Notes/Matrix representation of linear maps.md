@@ -17,11 +17,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Matrix Representation).
 
-_Let $V$ and $W$ be finite-dimensional $K$-vector spaces, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, and fix two choices of bases $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}$ and $\mc{C}\coloneqq\l\{c_1,\dots,c_m\r\}$ of $V$ and $W$, respectively. Then the matrix representation_
+Let $V$ and $W$ be finite-dimensional $K$-vector spaces, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, and fix two choices of bases $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}$ and $\mc{C}\coloneqq\l\{c_1,\dots,c_m\r\}$ of $V$ and $W$, respectively. Then the matrix representation
 $$\begin{equation}
     \Phi_\mc{B}^\mc{C}:\Hom\l(V,W\r)\to\mat{m\times n}{K}\ \ \ \ \textrm{\it{mapping}}\ \ \ \ T\mapsto\l[T\r]_\mc{B}^\mc{C},
 \end{equation}$$
-_where_ $\l[T\r]_\mc{B}^\mc{C}\coloneqq\l[\alpha_{ij}\r]\in\mat{m\times n}{K}$ _is the unique matrix such that_ $T\l(b_j\r)=\sum_{i=1}^{m}\alpha_{ij}c_i$ _for all $j\in\l\{1,\dots,n\r\}$, is a linear isomorphism._
+where $\l[T\r]_\mc{B}^\mc{C}\coloneqq\l[\alpha_{ij}\r]\in\mat{m\times n}{K}$ is the unique matrix such that $T\l(b_j\r)=\sum_{i=1}^{m}\alpha_{ij}c_i$ for all $j\in\l\{1,\dots,n\r\}$, is a linear isomorphism.
 
 ```
 

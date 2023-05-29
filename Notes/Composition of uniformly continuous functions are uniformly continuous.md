@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,d_X}$, $\tpl{Y,d_Y}$, and $\tpl{Z,d_Z}$ be metric spaces. If $f:X\to Y$ and $g:Y\to Z$ are uniformly continuous, then so is $g\circ f:X\to Z$._
+Let $\tpl{X,d_X}$, $\tpl{Y,d_Y}$, and $\tpl{Z,d_Z}$ be metric spaces. If $f:X\to Y$ and $g:Y\to Z$ are uniformly continuous, then so is $g\circ f:X\to Z$.
 
 ```
 

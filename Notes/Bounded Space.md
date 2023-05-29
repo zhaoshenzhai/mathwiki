@@ -16,10 +16,10 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,d}$ be a metric space and fix $S\subseteq X$. Then **$S$ is bounded in $X$ w.r.t. $d$** if $\diam X<\infty$; that is, if_
+Let $\tpl{X,d}$ be a metric space and fix $S\subseteq X$. Then **$S$ is bounded in $X$ w.r.t. $d$** if $\diam X<\infty$; that is, if
 $$\begin{equation}
     \ex r>0,\fa x,y\in S:d\l(x,y\r)<r.
 \end{equation}$$
-_Equivalently, $S$ is bounded if $\ex x\in X,\ex r>0,\fa y\in X:d\l(x,y\r)<r$._
+Equivalently, $S$ is bounded if $\ex x\in X,\ex r>0,\fa y\in X:d\l(x,y\r)<r$.
 
 ```

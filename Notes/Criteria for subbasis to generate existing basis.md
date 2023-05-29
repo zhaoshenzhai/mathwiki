@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set and let $\mc{B}$ be a basis for a topology on $X$. If $\mc{S}$ is a subbasis for a topology on $X$ such that $\mc{S}\subseteq\mc{T}\l(\mc{B}\r)$ and_
+Let $X$ be a set and let $\mc{B}$ be a basis for a topology on $X$. If $\mc{S}$ is a subbasis for a topology on $X$ such that $\mc{S}\subseteq\mc{T}\l(\mc{B}\r)$ and
 $$\begin{equation}
     \fa B\in\mc{B},\ex\mc{R}\subseteq\mc{S}:0<\l|\mc{R}\r|<\infty\land B=\bigcap\mc{R},
 \end{equation}$$
-_then $\mc{T}\l(\mc{S}\r)=\mc{T}\l(\mc{B}\r)$._
+then $\mc{T}\l(\mc{S}\r)=\mc{T}\l(\mc{B}\r)$.
 
 ```
 

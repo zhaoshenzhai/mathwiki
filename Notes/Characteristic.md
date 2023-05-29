@@ -16,7 +16,7 @@ Justifications: [[Omega is an ordinal]]
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be a ring. If there exists some $n\in\N^+$ such that $\fa r\in R:nr=0$, then $R$ is said to have **nonzero characteristic**, in which case the **characteristic of $R$** is_
+Let $R$ be a ring. If there exists some $n\in\N^+$ such that $\fa r\in R:nr=0$, then $R$ is said to have **nonzero characteristic**, in which case the **characteristic of $R$** is
 $$\begin{equation}
     \charac R\coloneqq\min\l\{n\in\N^+\mid\fa r\in R:nr=0\r\}.
 \end{equation}$$

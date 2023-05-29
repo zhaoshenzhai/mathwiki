@@ -16,7 +16,7 @@ Justifications: [[Continuous functions is a sheaf]]
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a topological space and fix $x_0,x_1\in X$. A **path from $x_0$ to $x_1$** is a continuous map $\gamma:\l[0,1\r]\to X$ such that $\gamma\l(0\r)=x_0$ and $\gamma\l(1\r)=x_1$, which we denote pictorially by $x_0\overset{\gamma}{\rightsquigarrow}x_1$._
+Let $X$ be a topological space and fix $x_0,x_1\in X$. A **path from $x_0$ to $x_1$** is a continuous map $\gamma:\l[0,1\r]\to X$ such that $\gamma\l(0\r)=x_0$ and $\gamma\l(1\r)=x_1$, which we denote pictorially by $x_0\overset{\gamma}{\rightsquigarrow}x_1$.
 
 ```
 

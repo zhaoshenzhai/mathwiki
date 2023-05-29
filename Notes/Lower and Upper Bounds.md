@@ -20,7 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. A **lower** (resp. **upper**) **bound of $S$ in $X$** is an element $l\in X$ (resp. $u\in X$) such that_
+Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. A **lower** (resp. **upper**) **bound of $S$ in $X$** is an element $l\in X$ (resp. $u\in X$) such that
 $$\begin{equation}
     \fa s\in S:l\leq s\ \ \ \ \ \ \ \ \textrm{\it{(resp. }}\fa s\in S:s\leq u\textrm{\it{)}}.
 \end{equation}$$

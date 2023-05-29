@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a commutative ring and fix $a\in R$. Then the set $\sring{a}\coloneqq\l\{ar\in R\mid r\in R\r\}$ is an ideal in $R$._
+Let $R$ be a commutative ring and fix $a\in R$. Then the set $\sring{a}\coloneqq\l\{ar\in R\mid r\in R\r\}$ is an ideal in $R$.
 
 ```
 

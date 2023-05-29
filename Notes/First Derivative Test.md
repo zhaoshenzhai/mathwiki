@@ -13,9 +13,9 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (First Derivative Test for Local Extrema).
 
-_Let $a,b\in\R$ and let $f:\l[a,b\r]\to\R$ be continuous. Fix $c\in\l(a,b\r)$ and suppose that $f$ is differentiable on $\l(a,c\r)\cup\l(c,b\r)$._
-* _If there exists some $\delta>0$ such that $f'\l(x\r)\geq0$ for all $x\in\l(c-\delta,c\r)$ and $f'\l(x\r)\leq0$ for all $x\in\l(c,c+\delta\r)$, then $c$ is a local maximum of $f$._
-* _If there exists some $\delta>0$ such that $f'\l(x\r)\leq0$ for all $x\in\l(c-\delta,c\r)$ and $f'\l(x\r)\geq0$ for all $x\in\l(c,c+\delta\r)$, then $c$ is a local minimum of $f$._
+Let $a,b\in\R$ and let $f:\l[a,b\r]\to\R$ be continuous. Fix $c\in\l(a,b\r)$ and suppose that $f$ is differentiable on $\l(a,c\r)\cup\l(c,b\r)$.
+* If there exists some $\delta>0$ such that $f'\l(x\r)\geq0$ for all $x\in\l(c-\delta,c\r)$ and $f'\l(x\r)\leq0$ for all $x\in\l(c,c+\delta\r)$, then $c$ is a local maximum of $f$.
+* If there exists some $\delta>0$ such that $f'\l(x\r)\leq0$ for all $x\in\l(c-\delta,c\r)$ and $f'\l(x\r)\geq0$ for all $x\in\l(c,c+\delta\r)$, then $c$ is a local minimum of $f$.
 
 ```
 

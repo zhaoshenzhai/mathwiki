@@ -13,15 +13,15 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $a,b\in\R$ and fix $n\in\N^+$. Then the following identity holds:_
+Let $a,b\in\R$ and fix $n\in\N^+$. Then the following identity holds:
 $$\begin{equation}
     b^n-a^n=\l(b-a\r)\sum_{k=0}^{n-1}b^{n-k-1}a^k.
 \end{equation}$$
-_Furthermore, if $0<a<b$, the estimate_
+Furthermore, if $0<a<b$, the estimate
 $$\begin{equation}
     b^n-a^n\leq\l(b-a\r)nb^{n-1}
 \end{equation}$$
-_holds, and is strict if $n>1$._
+holds, and is strict if $n>1$.
 
 ```
 

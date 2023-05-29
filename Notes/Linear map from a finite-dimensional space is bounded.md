@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be normed vector spaces. If $V$ is finite-dimensional, then any linear map $T:V\to W$ is bounded._
+Let $V$ and $W$ be normed vector spaces. If $V$ is finite-dimensional, then any linear map $T:V\to W$ is bounded.
 
 ```
 

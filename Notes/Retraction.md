@@ -16,8 +16,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a topological space. A continuous map $r:X\to X$ is said to be a **retraction** if $r^2=r$._
-* _A subspace $S\subseteq X$ is a **retract of $X$** if there exists a retraction $r$ with $\im r=S$._
+Let $X$ be a topological space. A continuous map $r:X\to X$ is said to be a **retraction** if $r^2=r$.
+* A subspace $S\subseteq X$ is a **retract of $X$** if there exists a retraction $r$ with $\im r=S$.
 
 ```
 

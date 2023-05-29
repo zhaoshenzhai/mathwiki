@@ -13,10 +13,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G$ be a group. Then, for all $g,h,k\in G$, the following algebraic identities hold:_
-* _(Cancellation): $gk=hk\Rightarrow g=h$ and $kg=kh\Rightarrow g=h.$_
-* _(Division): There exists a unique $x\in G$ such that $gx=h$. Similarly for when $xg=h$._
-* _(Inverse): $\l(gh\r)^{-1}=h^{-1}g^{-1}$._
+Let $G$ be a group. Then, for all $g,h,k\in G$, the following algebraic identities hold:
+* (Cancellation): $gk=hk\Rightarrow g=h$ and $kg=kh\Rightarrow g=h.$
+* (Division): There exists a unique $x\in G$ such that $gx=h$. Similarly for when $xg=h$.
+* (Inverse): $\l(gh\r)^{-1}=h^{-1}g^{-1}$.
 
 ```
 

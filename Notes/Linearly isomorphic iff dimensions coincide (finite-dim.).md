@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be finite-dimensional $K$-vector spaces. Then $V\iso W$ iff $\dim V=\dim W$._
+Let $V$ and $W$ be finite-dimensional $K$-vector spaces. Then $V\iso W$ iff $\dim V=\dim W$.
 
 ```
 

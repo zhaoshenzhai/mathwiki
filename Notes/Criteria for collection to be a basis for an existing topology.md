@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and let $\mc{B}\subseteq\mc{T}$ be such that for each $U\in\mc{T}$ and $x\in U$, there exists $B\in\mc{B}$ such that $x\in B\subseteq U$. Then $\mc{B}$ is a basis for a topology on $X$ and, in particular, $\mc{T}=\mc{T}\l(\mc{B}\r)$._
+Let $\tpl{X,\mc{T}}$ be a topological space and let $\mc{B}\subseteq\mc{T}$ be such that for each $U\in\mc{T}$ and $x\in U$, there exists $B\in\mc{B}$ such that $x\in B\subseteq U$. Then $\mc{B}$ is a basis for a topology on $X$ and, in particular, $\mc{T}=\mc{T}\l(\mc{B}\r)$.
 
 ```
 

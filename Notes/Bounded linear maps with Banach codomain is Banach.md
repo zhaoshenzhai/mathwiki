@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be normed vector spaces. If $W$ is Banach, then $\BDD{\l(V,W\r)}$, equipped with the operator norm_ $\|\slot\|_\textrm{op}$_, is Banach._
+Let $V$ and $W$ be normed vector spaces. If $W$ is Banach, then $\BDD{\l(V,W\r)}$, equipped with the operator norm $\|\slot\|_\textrm{op}$, is Banach.
 
 ```
 

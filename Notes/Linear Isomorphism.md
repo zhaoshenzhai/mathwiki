@@ -16,7 +16,7 @@ Justifications: [[Isomorphism of objects is an equivalence relation]]
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ and $W$ be $K$-vector spaces. We say that $V$ and $W$ are **linearly isomorphic** if there exists an invertible linear map $T:V\to W$, called a **linear isomorphism**._
+Let $V$ and $W$ be $K$-vector spaces. We say that $V$ and $W$ are **linearly isomorphic** if there exists an invertible linear map $T:V\to W$, called a **linear isomorphism**.
 
 ```
 

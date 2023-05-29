@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G$ and $H$ be groups. Then $\l(G\times H\r)^\textrm{ab}\iso G^\textrm{ab}\times H^\textrm{ab}$._
+Let $G$ and $H$ be groups. Then $\l(G\times H\r)^\textrm{ab}\iso G^\textrm{ab}\times H^\textrm{ab}$.
 
 ```
 

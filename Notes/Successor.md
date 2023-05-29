@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $x$ be a set. The **successor of $x$** is the set $S\l(x\r)\coloneqq x\cup\l\{x\r\}$._
+Let $x$ be a set. The **successor of $x$** is the set $S\l(x\r)\coloneqq x\cup\l\{x\r\}$.
 
 ```

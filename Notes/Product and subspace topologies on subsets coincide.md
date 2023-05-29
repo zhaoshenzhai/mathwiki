@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\mc{T}_X}$ and $\tpl{Y,\mc{T}_Y}$ be topological spaces and fix $S\subseteq X$ and $T\subseteq Y$. Then_ $\l.\l(\mc{T}_X\times\mc{T}_Y\r)\r|_{S\times T}=\l.\mc{T}_X\r|_S\times\l.\mc{T}_Y\r|_T$_._
+Let $\tpl{X,\mc{T}_X}$ and $\tpl{Y,\mc{T}_Y}$ be topological spaces and fix $S\subseteq X$ and $T\subseteq Y$. Then $\l.\l(\mc{T}_X\times\mc{T}_Y\r)\r|_{S\times T}=\l.\mc{T}_X\r|_S\times\l.\mc{T}_Y\r|_T$.
 
 ```
 

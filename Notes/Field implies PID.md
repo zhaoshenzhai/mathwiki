@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a field. Then every ideal $I\subseteq R$ is either $\l\{0\r\}$ or $R$ itself._
+Let $R$ be a field. Then every ideal $I\subseteq R$ is either $\l\{0\r\}$ or $R$ itself.
 
 ```
 

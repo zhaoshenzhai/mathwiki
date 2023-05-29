@@ -20,7 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a vector space. The **general linear group of $V$** is the automorphism group $\GL\l(V\r)\coloneqq\Aut\l(V\r)$._
+Let $V$ be a vector space. The **general linear group of $V$** is the automorphism group $\GL\l(V\r)\coloneqq\Aut\l(V\r)$.
 
 ```
 

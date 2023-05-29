@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ and $\cat{D}$ be categories and consider a covariant functor $\ms{F}:\cat{C}\to\cat{D}$. Then_ $\ms{F}\circ\Id_\cat{C}=\ms{F}=\Id_\cat{D}\circ\ms{F}$_. In other words, the diagram_
+Let $\cat{C}$ and $\cat{D}$ be categories and consider a covariant functor $\ms{F}:\cat{C}\to\cat{D}$. Then $\ms{F}\circ\Id_\cat{C}=\ms{F}=\Id_\cat{D}\circ\ms{F}$. In other words, the diagram
 
 ![[Images/2022-03-09_122512/image.svg|230]]
 
-_commutes._
+commutes.
 
 ```
 

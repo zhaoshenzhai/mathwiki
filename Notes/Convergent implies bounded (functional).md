@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces, fix a cluster point $p\in\Omega\subseteq X$, and consider a function $f:\Omega\to Y$. If_ $\lim\limits_{x\to p}f\l(x\r)$ _exists, then $f$ is bounded on a neighborhood of $p$._
+Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces, fix a cluster point $p\in\Omega\subseteq X$, and consider a function $f:\Omega\to Y$. If $\lim\limits_{x\to p}f\l(x\r)$ exists, then $f$ is bounded on a neighborhood of $p$.
 
 ```
 

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\mc{T}}$ be a Hausdorff topological space. Then any sequence_ $\tpl{x_n}_{n\in\N}$ _in $X$ converges to at most one point._
+Let $\tpl{X,\mc{T}}$ be a Hausdorff topological space. Then any sequence $\tpl{x_n}_{n\in\N}$ in $X$ converges to at most one point.
 
 ```
 

@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Two categories $\cat{C}$ and $\cat{D}$ are said to be **isomorphic** if there exists a strictly invertible functor $\ms{F}:\cat{C}\to\cat{D}$._
+Two categories $\cat{C}$ and $\cat{D}$ are said to be **isomorphic** if there exists a strictly invertible functor $\ms{F}:\cat{C}\to\cat{D}$.
 
 ```

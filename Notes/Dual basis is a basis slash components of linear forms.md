@@ -17,11 +17,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a finite-dimensional $K$-vector space and let $\mc{B}\coloneqq\l\{e_1,\dots,e_n\r\}$ be a basis for $V$. Then the set $\mc{B}^\dual\coloneqq\l\{\epsilon_1,\dots,\epsilon_n\r\}$, where_
+Let $V$ be a finite-dimensional $K$-vector space and let $\mc{B}\coloneqq\l\{e_1,\dots,e_n\r\}$ be a basis for $V$. Then the set $\mc{B}^\dual\coloneqq\l\{\epsilon_1,\dots,\epsilon_n\r\}$, where
 $$\begin{equation}
     \epsilon_i:V\to K\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ e_j\mapsto\delta_{ij}
 \end{equation}$$
-_for all $1\leq i\leq n$, is a basis for $V^\dual$. Indeed, for any $\omega\in V^\dual$, we have_
+for all $1\leq i\leq n$, is a basis for $V^\dual$. Indeed, for any $\omega\in V^\dual$, we have
 $$\begin{equation}
     \omega=\sum_{i=1}^{n}\omega\l(e_i\r)\epsilon_i.
 \end{equation}$$

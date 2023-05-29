@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $<$ and $\prec$ be strict total orders on the sets $X$ and $Y$ respectively. Then their lexicographical order $\sqsubset$ is a strict total order on $X\times Y$._
+Let $<$ and $\prec$ be strict total orders on the sets $X$ and $Y$ respectively. Then their lexicographical order $\sqsubset$ is a strict total order on $X\times Y$.
 
 ```
 

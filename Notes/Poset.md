@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set and $\leq$ be a partial order on $X$. The pair $\tpl{X,\leq}$ is called a **partially ordered set** or a **poset**._
+Let $X$ be a set and $\leq$ be a partial order on $X$. The pair $\tpl{X,\leq}$ is called a **partially ordered set** or a **poset**.
 
 ```
 

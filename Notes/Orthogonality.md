@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be an inner product space. Two vectors $u,w\in V$ are said to be **orthogonal** if $\inprod{u}{w}=0$, in which case we write $u\perp w$._
+Let $V$ be an inner product space. Two vectors $u,w\in V$ are said to be **orthogonal** if $\inprod{u}{w}=0$, in which case we write $u\perp w$.
 
 ```
 

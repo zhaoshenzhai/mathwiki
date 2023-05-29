@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Euclidean Algorithm).
 
-_Let $a,b\in\Z\comp\l\{0\r\}$ and consider the sequence of divisions as shown below:_
+Let $a,b\in\Z\comp\l\{0\r\}$ and consider the sequence of divisions as shown below:_
 $$\begin{equation}
     \begin{aligned}
               a&=q_0b+r_0 \\
@@ -24,7 +24,7 @@ $$\begin{equation}
                &\vdotswithin{=}
     \end{aligned}
 \end{equation}$$
-_Then there exists some $n\in\N$ such that_ $r_{n-1}\neq0$ _and $r_n=0$, which which case_ $\gcd\l(a,b\r)=r_{n-1}$_._
+Then there exists some $n\in\N$ such that $r_{n-1}\neq0$ and $r_n=0$, which which case $\gcd\l(a,b\r)=r_{n-1}$.
 
 ```
 

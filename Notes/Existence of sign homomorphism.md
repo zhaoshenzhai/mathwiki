@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X\coloneqq\l\{1,\dots,n\r\}$. There exists a unique homomorphism $\epsilon:S_n\to\l\{\pm1\r\}$ such that $\epsilon\l(\tau\r)=-1$ for every transposition $\tau\in S_n$._
+Let $X\coloneqq\l\{1,\dots,n\r\}$. There exists a unique homomorphism $\epsilon:S_n\to\l\{\pm1\r\}$ such that $\epsilon\l(\tau\r)=-1$ for every transposition $\tau\in S_n$.
 
 ```
 

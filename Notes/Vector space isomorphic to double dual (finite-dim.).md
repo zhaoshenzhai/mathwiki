@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a finite-dimensional $K$-vector space. Then the map $\phi:V\to V^{\dual\dual}:v\mapsto\hat{v}$ where $\hat{v}:V^\dual\to K:\omega\mapsto\omega\l(v\r)$ is a linear isomorphism._
+Let $V$ be a finite-dimensional $K$-vector space. Then the map $\phi:V\to V^{\dual\dual}:v\mapsto\hat{v}$ where $\hat{v}:V^\dual\to K:\omega\mapsto\omega\l(v\r)$ is a linear isomorphism.
 
 ```
 

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Bernoulli$\textrm{'}$s Inequality).
 
-_Let $a\in\R$ and fix $n\in\N^+$. Then, for all $k\in\N^+$ with $k\leq n$, we have_
+Let $a\in\R$ and fix $n\in\N^+$. Then, for all $k\in\N^+$ with $k\leq n$, we have
 $$\begin{equation}
     \l(1+a\r)^n\geq1+\binom{n}{k}a^k.
 \end{equation}$$

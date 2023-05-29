@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{a_k}$ be a sequence in $\R$. Consider the infinite series_ $\sum_{k=0}^{\infty}a_k$_ and fix an in-order partition_ $\Pi\coloneqq\l\{P_i\r\}_{i=1}^\infty$ _of $\N$. The_ **_$\Pi$-regrouping of_ $\sum_{k=0}^{\infty}a_k$** _is the infinite series_ $\sum_{k=1}^{\infty}\l(\sum_{i\in P_k}a_i\r)$_._
+Let $\tpl{a_k}$ be a sequence in $\R$. Consider the infinite series $\sum_{k=0}^{\infty}a_k$ and fix an in-order partition $\Pi\coloneqq\l\{P_i\r\}_{i=1}^\infty$ _of $\N$. The **$\Pi$-regrouping of $\sum_{k=0}^{\infty}a_k$** is the infinite series $\sum_{k=1}^{\infty}\l(\sum_{i\in P_k}a_i\r)$.
 
 ```
 

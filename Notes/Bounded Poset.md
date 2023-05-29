@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\leq}$ be a poset and fix a subset $Y\subseteq X$. Then $Y$ is said to be **bounded in $X$ w.r.t. $<$** if there exist $u,l\in X$ such that $\fa y\in Y:l\leq y\leq u$; that is, if $Y$ has both upper and lower bounds in $X$._
+Let $\tpl{X,\leq}$ be a poset and fix a subset $Y\subseteq X$. Then $Y$ is said to be **bounded in $X$ w.r.t. $<$** if there exist $u,l\in X$ such that $\fa y\in Y:l\leq y\leq u$; that is, if $Y$ has both upper and lower bounds in $X$.
 
 ```

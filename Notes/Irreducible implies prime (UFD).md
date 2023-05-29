@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a UFD. Then any irreducible element is prime._
+Let $R$ be a UFD. Then any irreducible element is prime.
 
 ```
 

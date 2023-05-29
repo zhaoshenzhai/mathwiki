@@ -16,11 +16,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A **group** is a semigroup $\tpl{G,\ast}$ such that_
-* _$\axigrp[1]$ (Identity)$\bf{.}$ $\ex e\in G,\fa g\in G:g\ast e=g=e\ast g$._
-* _$\axigrp[2]$ (Inverse)$\bf{.}$ $\fa g\in G,\ex h\in G:g\ast h=e=h\ast g$._
+A **group** is a semigroup $\tpl{G,\ast}$ such that
+* $\axigrp[1]$ (Identity)$\bf{.}$ $\ex e\in G,\fa g\in G:g\ast e=g=e\ast g$.
+* $\axigrp[2]$ (Inverse)$\bf{.}$ $\fa g\in G,\ex h\in G:g\ast h=e=h\ast g$.
 
-_The element $e\in G$ is called the **identity element of $G$**, and, for all $g\in G$, the element $g^{-1}\coloneqq h$ in $\axigrp[2]$ is called the **inverse element of $g$**._
+The element $e\in G$ is called the **identity element of $G$**, and, for all $g\in G$, the element $g^{-1}\coloneqq h$ in $\axigrp[2]$ is called the **inverse element of $g$**.
 
 ```
 

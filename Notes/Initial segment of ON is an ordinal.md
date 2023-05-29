@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be an initial segment of $\ON$. Then $X$ is itself an ordinal. Formally,_
+Let $X$ be an initial segment of $\ON$. Then $X$ is itself an ordinal. Formally,
 $$\begin{equation}
     \fa\beta\in X,\fa\alpha\in\ON:\alpha\in\beta\Rightarrow\alpha\in X\ \ \ \ \Rightarrow\ \ \ \ X\in\ON.
 \end{equation}$$

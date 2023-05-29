@@ -17,7 +17,7 @@ Generalizations: [[Euclidean Domain (EUD)]]
 ``` ad-Theorem
 title: Theorem (Division Algorithm).
 
-_Let $a,b\in\Z$ with $b\neq0$. Then there exist unique integers $q,r\in\Z$ with $0\leq r<\l|b\r|$ such that $a=qb+r$._
+Let $a,b\in\Z$ with $b\neq0$. Then there exist unique integers $q,r\in\Z$ with $0\leq r<\l|b\r|$ such that $a=qb+r$.
 
 ```
 

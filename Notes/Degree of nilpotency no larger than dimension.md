@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a finite-dimensional $K$-vector space, say with $n\coloneqq\dim V$. If $T:V\to V$ is nilpotent, then $T^n=0$._
+Let $V$ be a finite-dimensional $K$-vector space, say with $n\coloneqq\dim V$. If $T:V\to V$ is nilpotent, then $T^n=0$.
 
 ```
 

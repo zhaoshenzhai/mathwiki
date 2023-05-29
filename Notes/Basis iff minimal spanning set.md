@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a $K$-vector space and consider an indexed subset_ $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}$ _of $V$. Then $\mc{B}$ is an basis for $V$ iff it is a minimal spanning set of $V$._
+Let $V$ be a $K$-vector space and consider an indexed subset $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}$ of $V$. Then $\mc{B}$ is an basis for $V$ iff it is a minimal spanning set of $V$.
 
 ```
 

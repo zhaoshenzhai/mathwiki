@@ -13,9 +13,9 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Steinitz Exchange Lemma).
 
-_Let $S\coloneqq\l\{s_1,\dots,s_n\r\}$ and $L\coloneqq\l\{l_1,\dots,l_m\r\}$ be finite subsets of a (finite-dimensional) vector space $V$ over a field $K$. If $L$ is a linearly independent set and $\span S=V$, then $\l|L\r|\leq\l|S\r|$._
+Let $S\coloneqq\l\{s_1,\dots,s_n\r\}$ and $L\coloneqq\l\{l_1,\dots,l_m\r\}$ be finite subsets of a (finite-dimensional) vector space $V$ over a field $K$. If $L$ is a linearly independent set and $\span S=V$, then $\l|L\r|\leq\l|S\r|$.
 
-_Furthermore, there exists a subset $T\subseteq S$ with $\l|T\r|=\l|S\r|-\l|L\r|$ such that $\span\l(L\cup T\r)=V$._
+Furthermore, there exists a subset $T\subseteq S$ with $\l|T\r|=\l|S\r|-\l|L\r|$ such that $\span\l(L\cup T\r)=V$.
 
 ```
 

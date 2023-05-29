@@ -20,11 +20,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a vector space and fix a subset $S\subseteq V$. The **linear subspace spanned by $S$** is the smallest subspace of $V$ containing $S$:_
+Let $V$ be a vector space and fix a subset $S\subseteq V$. The **linear subspace spanned by $S$** is the smallest subspace of $V$ containing $S$:
 $$\begin{equation}
     \span S\coloneqq\gen{S}\coloneqq\bigcap\l\{U\subseteq V\mid S\subseteq U\land U\textrm{\it{ is a linear subspace of }}V\r\}.
 \end{equation}$$
-_If $\gen{S}=V$, then $S$ is said to **span/generate $V$**._
+If $\gen{S}=V$, then $S$ is said to **span/generate $V$**.
 
 ```
 

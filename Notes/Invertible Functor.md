@@ -16,7 +16,7 @@ Justifications: [[Strict inverse of functor is unique]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ and $\cat{D}$ be categories. A functor $\ms{F}:\cat{C}\to\cat{D}$ is said to be **(weakly) invertible** if there exists a functor $\ms{G}:\cat{D}\to\cat{C}$ such that $\ms{G}$ is both a (weak) left and a (weak) right inverse of $\ms{F}$._
+Let $\cat{C}$ and $\cat{D}$ be categories. A functor $\ms{F}:\cat{C}\to\cat{D}$ is said to be **(weakly) invertible** if there exists a functor $\ms{G}:\cat{D}\to\cat{C}$ such that $\ms{G}$ is both a (weak) left and a (weak) right inverse of $\ms{F}$.
 
 ```
 

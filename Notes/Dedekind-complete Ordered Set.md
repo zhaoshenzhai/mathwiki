@@ -16,7 +16,7 @@ Justifications: [[LUB property iff GLB property]]
 ``` ad-Definition
 title: Definition.
 
-_A partially ordered set $\tpl{X,\leq}$ is said to be **Dedekind-complete** or satisfies the **least upper bound property** if every non-empty subset $S\subseteq X$ that is bounded above admits a supremum in $X$._
+A partially ordered set $\tpl{X,\leq}$ is said to be **Dedekind-complete** or satisfies the **least upper bound property** if every non-empty subset $S\subseteq X$ that is bounded above admits a supremum in $X$.
 
 ```
 

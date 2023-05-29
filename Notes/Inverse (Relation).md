@@ -16,7 +16,7 @@ Justifications: [[Inverse of a relation is a relation]]
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be a binary relation. The **inverse of $R$** is the relation_
+Let $R$ be a binary relation. The **inverse of $R$** is the relation
 $$\begin{equation}
     R^{-1}\coloneqq\l\{\tpl{y,x}\mid xRy\r\}.
 \end{equation}$$

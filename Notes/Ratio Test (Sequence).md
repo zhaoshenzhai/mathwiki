@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Ratio Test for Sequences).
 
-_Let_ $\tpl{x_n}_{n\in\N}$ _be a sequence in $\R$ such that $\fa^\infty n\in\N:x_n\neq0$ and set_
+Let $\tpl{x_n}_{n\in\N}$ be a sequence in $\R$ such that $\fa^\infty n\in\N:x_n\neq0$ and set
 $$\begin{equation}
     L\coloneqq\lim\limits_{n\to\infty}\l|\frac{x_{n+1}}{x_n}\r|.
 \end{equation}$$
-_If $L<1$, then_ $\lim\limits_{n\to\infty}x_n=0$_. Otherwise, if $L>1$, then_ $\lim\limits_{n\to\infty}\l|x_n\r|=+\infty$_._
+If $L<1$, then $\lim\limits_{n\to\infty}x_n=0$. Otherwise, if $L>1$, then $\lim\limits_{n\to\infty}\l|x_n\r|=+\infty$.
 
 ```
 

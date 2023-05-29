@@ -13,8 +13,8 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Spectral Theorem).
 
-_Let $T:V\to V$ be a linear operator on a finite-dimensional inner product space $V$. If $T$ is normal and $\cchi$ splits, then $T$ is orthonormally diagonalizable._
-* _If $T$ is self-adjoint, we may drop the hypothesis that $\cchi$ splits._
+Let $T:V\to V$ be a linear operator on a finite-dimensional inner product space $V$. If $T$ is normal and $\cchi$ splits, then $T$ is orthonormally diagonalizable.
+* If $T$ is self-adjoint, we may drop the hypothesis that $\cchi$ splits.
 
 ```
 

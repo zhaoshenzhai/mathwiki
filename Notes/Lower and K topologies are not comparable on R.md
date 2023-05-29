@@ -17,8 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\R$ be the set of real numbers. Then the lower limit and $K$ topologies_ $\LLtopR$ _and_ $\KtopR$_ on $\R$, respectively, are not comparable._
-
+Let $\R$ be the set of real numbers. Then the lower limit and $K$ topologies $\LLtopR$ and $\KtopR$ on $\R$, respectively, are not comparable.
 
 ```
 

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Krull).
 
-_Let $R$ be a nontrivial commutative ring with unity. If $I\subset R$ is a proper ideal, then there is a maximal ideal $M\subset R$ containing $I$._
+Let $R$ be a nontrivial commutative ring with unity. If $I\subset R$ is a proper ideal, then there is a maximal ideal $M\subset R$ containing $I$.
 
 ```
 

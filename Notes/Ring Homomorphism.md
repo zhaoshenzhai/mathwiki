@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{R,+_R,\cdot_R}$ and $\tpl{S,+_S,\cdot_S}$ be rings. A **ring homomorphism** from $R$ to $S$ is a group homomorphism $\phi:R\to S$ such that_
+Let $\tpl{R,+_R,\cdot_R}$ and $\tpl{S,+_S,\cdot_S}$ be rings. A **ring homomorphism** from $R$ to $S$ is a group homomorphism $\phi:R\to S$ such that
 $$\begin{equation}
     \fa r_1,r_2\in R:\phi\l(r_1\cdot_Rr_2\r)=\phi\l(r_1\r)\cdot_S\phi\l(r_2\r).
 \end{equation}$$

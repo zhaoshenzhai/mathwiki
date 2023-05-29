@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Fix $\Omega\subseteq\R$ and a cluster point $c\in\Omega\subseteq\R$. If a function $f:\Omega\to\R$ is differentiable at $c$, then it is continuous at $c$._
+Fix $\Omega\subseteq\R$ and a cluster point $c\in\Omega\subseteq\R$. If a function $f:\Omega\to\R$ is differentiable at $c$, then it is continuous at $c$.
 
 ```
 

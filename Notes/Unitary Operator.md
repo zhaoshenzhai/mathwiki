@@ -16,7 +16,7 @@ Justifications: [[Linear map between vector spaces of same dimension is injectiv
 ``` ad-Definition
 title: Definition.
 
-_A linear operator $T:V\to V$ on an inner product space $V$ is said to be **unitary** if $T^\adj T=TT^\adj=\id$._
+A linear operator $T:V\to V$ on an inner product space $V$ is said to be **unitary** if $T^\adj T=TT^\adj=\id$.
 
 ```
 

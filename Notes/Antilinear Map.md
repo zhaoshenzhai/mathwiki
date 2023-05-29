@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ and $W$ be a $K$-vector spaces. An **antilinear map from $V$ to $W$** is an additive group homomorphism$T:V\to W$ such that_
+Let $K$ denote either $\R$ or $\C$ and let $V$ and $W$ be a $K$-vector spaces. An **antilinear map from $V$ to $W$** is an additive group homomorphism$T:V\to W$ such that
 $$\begin{equation}
     \fa\alpha\in K,\fa v\in V:T\l(\alpha v\r)=\bar{\alpha}T\l(v\r).
 \end{equation}$$

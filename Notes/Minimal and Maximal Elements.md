@@ -21,7 +21,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,<}$ be a poset and fix $S\subseteq X$. A **$<$-minimal** (resp. **$<$-maximal**) **element of $S$** is an element $m\in S$ such that_
+Let $\tpl{X,<}$ be a poset and fix $S\subseteq X$. A **$<$-minimal** (resp. **$<$-maximal**) **element of $S$** is an element $m\in S$ such that
 $$\begin{equation}
     \fa s\in S:s\not<m\ \ \ \ \ \ \ \ \textrm{\it{(resp. }}\fa s\in S:m\not<s\textrm{\it{)}}.
 \end{equation}$$

@@ -13,18 +13,18 @@ Constructions: _Not Applicable_
 Generalizations: [[Frechet Differentiability slash Derivative]]
 
 Properties: [[Differentiation Theorems in R]], [[Mean Value Theorems]], [[First Derivative Test]], [[Differentiable implies continuous]]
-Sufficiencies: [[Fermat's Theorem on Stationary Points]], [[Derivatives and monotoniticity]]
+Sufficiencies: [[Fermat's Theorem on Stationary Points]], [[Derivatives and monotonicity]]
 Equivalences: [[Fundamental Increment Lemma]], [[Caratheodory's Differentation Criterion]]
 Justifications: _Not Applicable_
 
 ``` ad-Definition
 title: Definition.
 
-_Fix some $\Omega\subseteq\R$ and a cluster point $c\in\Omega$. A function $f:\Omega\to\R$ is said to be **differentiable at $c$** if the limit_
+Fix some $\Omega\subseteq\R$ and a cluster point $c\in\Omega$. A function $f:\Omega\to\R$ is said to be **differentiable at $c$** if the limit
 $$\begin{equation}
     f'\l(c\r)\coloneqq\lim\limits_{x\to c}\frac{f\l(x\r)-f\l(c\r)}{x-c}=\lim\limits_{h\to0}\frac{f\l(c+h\r)-f\l(c\r)}{h}
 \end{equation}$$
-_exists, in which case $f'\l(c\r)$ is said to be the **derivative of $f$ at $c$**._
+exists, in which case $f'\l(c\r)$ is said to be the **derivative of $f$ at $c$**.
 
 ```
 

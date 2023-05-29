@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be an integral domain and let $S\subseteq R$ be multiplicative. Define the relation $\sim$ on $R\times S$ by_
+Let $R$ be an integral domain and let $S\subseteq R$ be multiplicative. Define the relation $\sim$ on $R\times S$ by
 $$\begin{equation}
     \tpl{r_1,s_1}\sim\tpl{r_2,s_2}\ \ \ \ \ \ \ \ \,\colon\!\Leftrightarrow\ \ \ \ \ \ \ \ r_1s_2=r_2s_1
 \end{equation}$$
-_for all $r_1,r_2\in R$ and $s_1,s_2\in S$. Then $\sim$ is an equivalence relation on $R\times S$. Furthermore, letting $\frac{r}{s}\coloneqq\l[\tpl{r,s}\r]$ and $S^{-1}R$ denote the set of all equivalence classes, the operations_
+for all $r_1,r_2\in R$ and $s_1,s_2\in S$. Then $\sim$ is an equivalence relation on $R\times S$. Furthermore, letting $\frac{r}{s}\coloneqq\l[\tpl{r,s}\r]$ and $S^{-1}R$ denote the set of all equivalence classes, the operations
 $$\begin{equation}
     \begin{aligned}
         +:S^{-1}R\times S^{-1}R&\to S^{-1}R \\
@@ -28,7 +28,7 @@ $$\begin{equation}
         \tpl{\frac{r_1}{s_1},\frac{r_2}{s_2}}&\mapsto\frac{r_1r_2}{s_1s_2}
     \end{aligned}
 \end{equation}$$
-_are well-defined and makes $\tpl{S^{-1}R,+,\cdot}$ into an integral domain. Furthermore, if $S=R\comp\l\{0\r\}$, then $S^{-1}R$ is a field._
+are well-defined and makes $\tpl{S^{-1}R,+,\cdot}$ into an integral domain. Furthermore, if $S=R\comp\l\{0\r\}$, then $S^{-1}R$ is a field.
 
 ```
 

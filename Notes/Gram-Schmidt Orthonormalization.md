@@ -13,13 +13,13 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Gram-Schmidt Orthonormalization).
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. If $\l\{v_1,\dots,v_m\r\}$ is a linearly independent set of vectors in $V$, then the list $\l\{e_1,\dots,e_m\r\}$, defined inductively by_
+Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. If $\l\{v_1,\dots,v_m\r\}$ is a linearly independent set of vectors in $V$, then the list $\l\{e_1,\dots,e_m\r\}$, defined inductively by
 $$\begin{equation}
     e_1\coloneqq\frac{v_1}{\l\|v_1\r\|}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ e_j\coloneqq\frac{v_j-\sum_{i=1}^{j-1}\inprod{v_j}{e_i}e_i}{\l\|v_j-\sum_{i=1}^{j-1}\inprod{v_j}{e_i}e_i\r\|}\ \ \ \ \textrm{\it{for}}\ \ \ \ j\in\l\{2,\dots,m\r\},
 \end{equation}$$
-_is an orthonormal list of vectors in $V$ such that $\span\l\{e_1,\dots,e_j\r\}=\span\l\{v_1,\dots,v_j\r\}$ for all $j\in\l\{1,\dots,m\r\}$._
+is an orthonormal list of vectors in $V$ such that $\span\l\{e_1,\dots,e_j\r\}=\span\l\{v_1,\dots,v_j\r\}$ for all $j\in\l\{1,\dots,m\r\}$.
 
-_In particular, if $m=\dim V$, then_ $\l\{e_1,\dots,e_{\dim V}\r\}$ _is an orthonormal basis for $V$._
+In particular, if $m=\dim V$, then $\l\{e_1,\dots,e_{\dim V}\r\}$ is an orthonormal basis for $V$.
 
 ```
 

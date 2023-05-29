@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Sequential Criterion for Functional Limits).
 
-_Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces, fix a cluster point $p\in\Omega\subseteq X$, and let $L\in Y$. For a function $f:\Omega\to Y$,_
+Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces, fix a cluster point $p\in\Omega\subseteq X$, and let $L\in Y$. For a function $f:\Omega\to Y$,
 $$\begin{equation}
     \lim\limits_{x \to p}f\l(x\r)=L\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ \fa\tpl{x_n}\subseteq\Omega\comp\l\{p\r\}:x_n\to p\Rightarrow f\l(x_n\r)\to L.
 \end{equation}$$

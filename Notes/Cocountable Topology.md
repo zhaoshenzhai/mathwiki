@@ -16,7 +16,7 @@ Justifications: [[Cocountable topology is a topology]]
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. The **cocountable topology on $X$** is the topology_
+Let $X$ be a set. The **cocountable topology on $X$** is the topology
 $$\begin{equation}
     \mc{T}_\textrm{cc}\coloneqq\l\{U\in\pow\l(X\r)\mid\l(U=\em\r)\lor\l(X\comp U\textrm{\it{ is countable}}\r)\r\}.
 \end{equation}$$

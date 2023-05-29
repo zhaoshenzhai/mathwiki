@@ -17,8 +17,8 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a finite-dimensional $K$-vector space and consider a linear map $T:V\to V$. Then $\cchi_T\l(x\r)\coloneqq\det\l(x\id_V-T\r)$ is a polynomial; that is, $\cchi\in K\l[x\r]$._
-* _Furthermore, $\cchi_T$ is monic of degree of degree $n\coloneqq\dim V$._
+Let $V$ be a finite-dimensional $K$-vector space and consider a linear map $T:V\to V$. Then $\cchi_T\l(x\r)\coloneqq\det\l(x\id_V-T\r)$ is a polynomial; that is, $\cchi\in K\l[x\r]$.
+* Furthermore, $\cchi_T$ is monic of degree of degree $n\coloneqq\dim V$.
 
 ```
 

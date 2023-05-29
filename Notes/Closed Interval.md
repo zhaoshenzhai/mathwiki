@@ -16,7 +16,7 @@ Justifications: [[Closed intervals are closed]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,<}$ be a totally ordered set. A **closed interval in $X$ w.r.t. $<$** is a set of the form_
+Let $\tpl{X,<}$ be a totally ordered set. A **closed interval in $X$ w.r.t. $<$** is a set of the form
 $$\begin{equation}
     \l[a,b\r]\coloneqq\l\{x\in X\mid\ex a,b\in X:a\leq x\leq b\r\}.
 \end{equation}$$

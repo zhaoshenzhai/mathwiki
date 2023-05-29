@@ -16,11 +16,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a $K$-vector space. A indexed subset_ $U\coloneqq\l\{u_i\r\}_{i\in I}\subseteq V$ _is said to be **linearly independent** if the only vanishing linear combination thereof is the trivial one. Formally, if_
+Let $V$ be a $K$-vector space. A indexed subset $U\coloneqq\l\{u_i\r\}_{i\in I}\subseteq V$ is said to be **linearly independent** if the only vanishing linear combination thereof is the trivial one. Formally, if
 $$\begin{equation}
     \fa\l\{\alpha_i\r\}_{i\in I}\!\subseteq K:\l(\sum\limits_{i\in I}\alpha_iu_i=0\Rightarrow\fa i\in I:\alpha_i=0\r)
 \end{equation}$$
-_where $\alpha_i=0$ for all but finitely-many $i\in I$. Otherwise, $U$ is said to be **linearly dependent**._
+where $\alpha_i=0$ for all but finitely-many $i\in I$. Otherwise, $U$ is said to be **linearly dependent**.
 
 ```
 

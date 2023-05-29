@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $n\in\N$ with $n\geq2$. Then $\tpl{\Z_n,+,\cdot}$ is a field iff $n$ is prime._
+Let $n\in\N$ with $n\geq2$. Then $\tpl{\Z_n,+,\cdot}$ is a field iff $n$ is prime.
 
 ```
 

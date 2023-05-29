@@ -13,10 +13,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V_1$ and $V_2$ be $K$-vector spaces and consider a linear map $T:V_1\to V_2$. Let $W_1\subseteq V_1$ and $W_2\subseteq V_2$ be linear subspaces. Then the following properties hold._
-* _(Image preserve subspaces): $\im_T\l(W_1\r)\subseteq V_2$ is a subspace._
-* _(Preimage preserve subspace): $\preim_T\l(W_2\r)\subseteq V_1$ is a subspace._
-* _(Inverse preserve linearity): If $T$ is invertible, then $T^{-1}:V_2\to V_1$ is a linear map._
+Let $V_1$ and $V_2$ be $K$-vector spaces and consider a linear map $T:V_1\to V_2$. Let $W_1\subseteq V_1$ and $W_2\subseteq V_2$ be linear subspaces. Then the following properties hold.
+* (Image preserve subspaces): $\im_T\l(W_1\r)\subseteq V_2$ is a subspace.
+* (Preimage preserve subspace): $\preim_T\l(W_2\r)\subseteq V_1$ is a subspace.
+* (Inverse preserve linearity): If $T$ is invertible, then $T^{-1}:V_2\to V_1$ is a linear map.
 
 ```
 

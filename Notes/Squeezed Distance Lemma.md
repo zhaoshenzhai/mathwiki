@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Squeezed Distance Lemma).
 
-_Let $\tpl{X,d}$ be a metric space and consider a sequence_ $\tpl{x_n}_{n\in\N}$ _ in $X$. If there exist a sequence_ $\tpl{a_n}_{n\in\N}$ _of positive reals that converges to $0$ such that_
+Let $\tpl{X,d}$ be a metric space and consider a sequence $\tpl{x_n}_{n\in\N}$ in $X$. If there exist a sequence $\tpl{a_n}_{n\in\N}$ of positive reals that converges to $0$ such that
 $$\begin{equation}
     \fa^\infty n\in\N:d\l(x_n,x\r)\leq ca_n
 \end{equation}$$
-_for some $c\in\R^+$, then_ $\lim\limits_{n\to\infty}x_n=x$_._
+for some $c\in\R^+$, then $\lim\limits_{n\to\infty}x_n=x$.
 
 ```
 

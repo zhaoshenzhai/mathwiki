@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G$ be a group. Then $\l[G,G\r]\nsubgrpeq G$ and the quotient $G^\textrm{ab}\coloneqq G/\l[G,G\r]$ is abelian._
+Let $G$ be a group. Then $\l[G,G\r]\nsubgrpeq G$ and the quotient $G^\textrm{ab}\coloneqq G/\l[G,G\r]$ is abelian.
 
 ```
 

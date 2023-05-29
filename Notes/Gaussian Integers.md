@@ -20,7 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\Z$ denote the ring of integers and let $i\in\C$. The **Gaussian integers** is the subring $\Z\l[i\r]\coloneqq\l\{a+bi\in\C\mid a,b\in\Z\r\}$ of $\C$._
+Let $\Z$ denote the ring of integers and let $i\in\C$. The **Gaussian integers** is the subring $\Z\l[i\r]\coloneqq\l\{a+bi\in\C\mid a,b\in\Z\r\}$ of $\C$.
 
 ```
 

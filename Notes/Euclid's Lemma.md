@@ -17,7 +17,7 @@ Generalizations: [[Prime Element]]
 ``` ad-Theorem
 title: Theorem (Euclid$\textrm{'}$s Lemma).
 
-_Let $a,b\in\Z$ and let $p$ be a prime number. If $p\divides\!\l(ab\r)$, then either $p\divides a$ or $p\divides b$._
+Let $a,b\in\Z$ and let $p$ be a prime number. If $p\divides\!\l(ab\r)$, then either $p\divides a$ or $p\divides b$.
 
 ```
 

@@ -16,8 +16,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A topological space $X$ is said to be **simply-connected** if it is path-connected and $\pi_1\!\l(X\r)=0$._
-* _We say that $X$ is **locally simply-connected** if for all $x\in X$ and all neighborhoods $U$ of $x$, there exists a simply-connected neighborhood $V\subseteq U$ of $x$._
-* _We say that $X$ is **semilocally simply-connected** if each $x\in X$ admits a neighborhood $U$ such that_ $\iota_\ast:\pi_1\l(U,x\r)\to\pi_1\l(X,x\r)$ _is trivial._
+A topological space $X$ is said to be **simply-connected** if it is path-connected and $\pi_1\!\l(X\r)=0$.
+* We say that $X$ is **locally simply-connected** if for all $x\in X$ and all neighborhoods $U$ of $x$, there exists a simply-connected neighborhood $V\subseteq U$ of $x$.
+* We say that $X$ is **semilocally simply-connected** if each $x\in X$ admits a neighborhood $U$ such that $\iota_\ast:\pi_1\l(U,x\r)\to\pi_1\l(X,x\r)$ is trivial.
 
 ```

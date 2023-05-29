@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:X\to Y$ and $g:Y\to Z$ be injections. Then the composite function $g\circ f:X\to Z$ is also an injection._
+Let $f:X\to Y$ and $g:Y\to Z$ be injections. Then the composite function $g\circ f:X\to Z$ is also an injection.
 
 ```
 

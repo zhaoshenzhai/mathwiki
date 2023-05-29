@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Convergence Criteria in $\R$).
 
-_Let $\tpl{x_n}$ be a sequence in $\R$. Then $\tpl{x_n}$ diverges iff either it is unbounded or it admits two subsequential limits._
+Let $\tpl{x_n}$ be a sequence in $\R$. Then $\tpl{x_n}$ diverges iff either it is unbounded or it admits two subsequential limits.
 
 ```
 

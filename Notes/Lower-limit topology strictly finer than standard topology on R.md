@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\R$ be the set of real numbers. Then the lower limit topology_ $\LLtopR$ _is strictly finer than the standard topology_ $\sttopR$ _on $\R$._
+Let $\R$ be the set of real numbers. Then the lower limit topology $\LLtopR$ is strictly finer than the standard topology $\sttopR$ on $\R$.
 
 ```
 

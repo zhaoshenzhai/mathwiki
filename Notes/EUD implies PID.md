@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a Euclidean Domain. If $I$ is any non-zero ideal of $R$, then there exists $d\in R$ such that $I=\sring{d}$._
+Let $R$ be a Euclidean Domain. If $I$ is any non-zero ideal of $R$, then there exists $d\in R$ such that $I=\sring{d}$.
 
 ```
 

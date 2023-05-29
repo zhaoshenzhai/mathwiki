@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a UFD and let $F$ be its field of fractions. For all non-constant primitive polynomials $f,g\in R\l[x\r]$, if $f\sim g$ in $F\l[x\r]$, then $f\sim g$ in $R\l[x\r]$._
+Let $R$ be a UFD and let $F$ be its field of fractions. For all non-constant primitive polynomials $f,g\in R\l[x\r]$, if $f\sim g$ in $F\l[x\r]$, then $f\sim g$ in $R\l[x\r]$.
 
 ```
 

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Fix $n\in\N^+$ and $\l[a\r]\in\Z_n$. Then $\l[a\r]\in\Z_n^\times$ iff $a\perp n$._
+Fix $n\in\N^+$ and $\l[a\r]\in\Z_n$. Then $\l[a\r]\in\Z_n^\times$ iff $a\perp n$.
 
 ```
 

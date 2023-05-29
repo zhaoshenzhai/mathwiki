@@ -20,8 +20,8 @@ Justifications: [[Supremum slash infimum are unique]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. The **infimum of $S$ in $X$** is a lower bound $l$ of $S$ in $X$ such that $l'\leq l$ for all lower bounds $l'$ of $S$ in $X$._
-* _Similarly, the **supremum of $S$ in $X$** is an upper bound $u$ of $S$ in $X$ such that $u\leq u'$ for all upper bounds $u'$ of $S$ in $X$._
+Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. The **infimum of $S$ in $X$** is a lower bound $l$ of $S$ in $X$ such that $l'\leq l$ for all lower bounds $l'$ of $S$ in $X$.
+* Similarly, the **supremum of $S$ in $X$** is an upper bound $u$ of $S$ in $X$ such that $u\leq u'$ for all upper bounds $u'$ of $S$ in $X$.
 
 ```
 

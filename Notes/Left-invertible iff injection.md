@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:X\to Y$ with $X\neq\em$. Then $f$ is left-invertible iff $f$ is injective._
+Let $f:X\to Y$ with $X\neq\em$. Then $f$ is left-invertible iff $f$ is injective.
 
 ```
 

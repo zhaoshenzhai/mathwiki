@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field with $\charac K\neq2$ and fix $n\in\N^+$. Then $\mat{n}{K}=\Sym_n\!\l(K\r)\oplus\Skew_n\!\l(K\r)$._
+Let $K$ be a field with $\charac K\neq2$ and fix $n\in\N^+$. Then $\mat{n}{K}=\Sym_n\!\l(K\r)\oplus\Skew_n\!\l(K\r)$.
 
 ```
 

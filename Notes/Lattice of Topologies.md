@@ -16,7 +16,7 @@ Justifications: [[Lattice of topologies is a complete lattice]]
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. The **lattice of topologies on $X$** is the complete lattice $\tpl{\Sigma,\subseteq}$ where $\Sigma$ is the set of all topologies on $X$._
+Let $X$ be a set. The **lattice of topologies on $X$** is the complete lattice $\tpl{\Sigma,\subseteq}$ where $\Sigma$ is the set of all topologies on $X$.
 
 ```
 

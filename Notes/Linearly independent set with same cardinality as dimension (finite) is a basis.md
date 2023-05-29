@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a finite-dimensional $K$-vector space. If $U\subseteq V$ is linearly independent with $\l|U\r|=\dim V$, then $U$ is a basis for $V$._
+Let $V$ be a finite-dimensional $K$-vector space. If $U\subseteq V$ is linearly independent with $\l|U\r|=\dim V$, then $U$ is a basis for $V$.
 
 ```
 

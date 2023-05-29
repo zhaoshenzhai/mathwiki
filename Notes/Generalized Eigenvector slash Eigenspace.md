@@ -20,11 +20,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $T:V\to V$ be a linear operator on a $K$-vector space $V$. For $\lambda\in K$, the subspace_
+Let $T:V\to V$ be a linear operator on a $K$-vector space $V$. For $\lambda\in K$, the subspace
 $$\begin{equation}
     \hat{E}_\lambda\coloneqq\l\{v\in V\mid\ex n\in\N^+:\l(\lambda\id_V-T\r)^nv=0\r\}
 \end{equation}$$
-_is called the **generalized eigenspace of $T$ corresponding to $\lambda$**. A vector_ $v\in\hat{E}_\lambda$ _is said to be a **generalized eigenvector of $T$ corresponding to $\lambda$**._
+is called the **generalized eigenspace of $T$ corresponding to $\lambda$**. A vector $v\in\hat{E}_\lambda$ is said to be a **generalized eigenvector of $T$ corresponding to $\lambda$**.
 
 ```
 

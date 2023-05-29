@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $I\subset R$ be a proper ideal of a commutative ring with unit $R$. If $I$ is maximal, then it is prime._
+Let $I\subset R$ be a proper ideal of a commutative ring with unit $R$. If $I$ is maximal, then it is prime.
 
 ```
 

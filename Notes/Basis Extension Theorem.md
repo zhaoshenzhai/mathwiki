@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Basis Extension Theorem).
 
-_Let $V$ be a $K$-vector space. If $U\subseteq V$ is linearly independent, then there exists a basis $\mc{B}$ of $V$ with $U\subseteq\mc{B}$._
+Let $V$ be a $K$-vector space. If $U\subseteq V$ is linearly independent, then there exists a basis $\mc{B}$ of $V$ with $U\subseteq\mc{B}$.
 
 ```
 

@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A topological space $\tpl{X,\mc{T}}$ is said to be **sequentially compact** if every sequence $\tpl{x_n}$ in $X$ has a subsequence converging to a point in $X$._
+A topological space $\tpl{X,\mc{T}}$ is said to be **sequentially compact** if every sequence $\tpl{x_n}$ in $X$ has a subsequence converging to a point in $X$.
 
 ```

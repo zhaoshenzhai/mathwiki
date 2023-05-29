@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A function $f:X\to Y$ is a **bijection** if $f:X\to Y$ is both an injection and a surjection._
+A function $f:X\to Y$ is a **bijection** if $f:X\to Y$ is both an injection and a surjection.
 
 ```
 

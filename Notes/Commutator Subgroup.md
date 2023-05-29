@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $G$ be a group. The **commutator subgroup of $G$** is the subgroup $\l[G,G\r]\coloneqq\gen{ghg^{-1}h^{-1}\mid g,h\in G}$._
-* _An element $\l[g,h\r]\coloneqq ghg^{-1}h^{-1}\in\l[G,G\r]$ is called a **commutator**._
+Let $G$ be a group. The **commutator subgroup of $G$** is the subgroup $\l[G,G\r]\coloneqq\gen{ghg^{-1}h^{-1}\mid g,h\in G}$.
+* An element $\l[g,h\r]\coloneqq ghg^{-1}h^{-1}\in\l[G,G\r]$ is called a **commutator**.
 
 ```

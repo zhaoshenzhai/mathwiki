@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $a,b\in\Z\comp\l\{0\r\}$. Then a least common multiple of $a$ and $b$ exists._
+Let $a,b\in\Z\comp\l\{0\r\}$. Then a least common multiple of $a$ and $b$ exists.
 
 ```
 

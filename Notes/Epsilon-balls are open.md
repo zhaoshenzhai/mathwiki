@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,d}$ be a metric space. Then, for all $x\in X$ and $\epsilon>0$, the $\epsilon$-ball_ $B_\epsilon\!\l(x\r)$ _is open in $X$._
+Let $\tpl{X,d}$ be a metric space. Then, for all $x\in X$ and $\epsilon>0$, the $\epsilon$-ball $B_\epsilon\!\l(x\r)$ is open in $X$.
 
 ```
 

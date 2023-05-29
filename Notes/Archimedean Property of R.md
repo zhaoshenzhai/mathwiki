@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Archimedean Property of $\R$).
 
-_Take $x,y\in\R$. If $x>0$, there there exists some $n\in\N$ such that $nx>y$._
+Take $x,y\in\R$. If $x>0$, there there exists some $n\in\N$ such that $nx>y$.
 
 ```
 

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\R$ be the set of real numbers. Then the lower and upper limit topologies_ $\LLtopR$ _and_ $\ULtopR$_ on $\R$, respectively, are not comparable._
+Let $\R$ be the set of real numbers. Then the lower and upper limit topologies $\LLtopR$ and $\ULtopR$ on $\R$, respectively, are not comparable.
 
 ```
 

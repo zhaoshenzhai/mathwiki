@@ -13,12 +13,12 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G$ be a group and take $g\in G$ of finite order. Then the following properties hold._
-* _$\ord{g}=\ord{\gen{g}}$._
-* _For all $n\in\N^+$, we have $g^n=e$ iff $\ord{g}$ divides $n$._
-* _For all $n\in\N^+$, we have $\ord{g^n}=\lcm\l(n,\ord{g}\r)/n=\ord{g}/\gcd\l(n,\ord{g}\r)$._
-* _If $H$ is a group and $h\in H$ is of finite order, then $\ord{\tpl{g,h}}=\lcm\l(\ord{g},\ord{h}\r)$._
-* _If $\phi:G\to H$ is a homomorphism, then $\ord{\phi\l(g\r)}$ divides $\ord{g}$. Equality holds if further $\phi$ is an isomorphism._
+Let $G$ be a group and take $g\in G$ of finite order. Then the following properties hold.
+* $\ord{g}=\ord{\gen{g}}$.
+* For all $n\in\N^+$, we have $g^n=e$ iff $\ord{g}$ divides $n$.
+* For all $n\in\N^+$, we have $\ord{g^n}=\lcm\l(n,\ord{g}\r)/n=\ord{g}/\gcd\l(n,\ord{g}\r)$.
+* If $H$ is a group and $h\in H$ is of finite order, then $\ord{\tpl{g,h}}=\lcm\l(\ord{g},\ord{h}\r)$.
+* If $\phi:G\to H$ is a homomorphism, then $\ord{\phi\l(g\r)}$ divides $\ord{g}$. Equality holds if further $\phi$ is an isomorphism.
 
 ```
 

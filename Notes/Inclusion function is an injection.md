@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set. The inclusion function on $X$ is an injection._
+Let $X$ be a set. The inclusion function on $X$ is an injection.
 
 ```
 

@@ -16,10 +16,10 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A sequence_ $\tpl{x_n}_{n\in\N}$ _in $\R$ is said to be **monotonically increasing** (resp. **decreasing**) if_
+A sequence $\tpl{x_n}_{n\in\N}$ in $\R$ is said to be **monotonically increasing** (resp. **decreasing**) if
 $$\begin{equation}
     \fa n\in\N:x_n\leq x_{n+1}\ \ \ \ \ \ \ \ \textrm{\it{(resp.} } \fa n\in\N:x_n\geq x_{n+1}\textrm{\it{)}}.
 \end{equation}$$
-_If the inequalities are strict, the sequence is said to be **strictly increasing** (resp. **decreasing**)._
+If the inequalities are strict, the sequence is said to be **strictly increasing** (resp. **decreasing**).
 
 ```

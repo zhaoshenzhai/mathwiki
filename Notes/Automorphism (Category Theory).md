@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category and fix $X\in\Obj\l(\cat{C}\r)$. An **automorphism of $X$** is an endomorphism of $X$ that is also an isomorphism. The set of all automorphisms forms a group $\Aut\l(X\r)$ under composition._
+Let $\cat{C}$ be a category and fix $X\in\Obj\l(\cat{C}\r)$. An **automorphism of $X$** is an endomorphism of $X$ that is also an isomorphism. The set of all automorphisms forms a group $\Aut\l(X\r)$ under composition.
 
 ```

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\leq}$ be a complete lattice. Then $\tpl{X,\leq}$ is bounded._
+Let $\tpl{X,\leq}$ be a complete lattice. Then $\tpl{X,\leq}$ is bounded.
 
 ```
 

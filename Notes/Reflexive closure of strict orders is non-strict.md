@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set and let $\prec$ and $<$ be strict partial and total orders on $X$, respectively. Then_
+Let $X$ be a set and let $\prec$ and $<$ be strict partial and total orders on $X$, respectively. Then
 $$\begin{equation}
     \preceq\,\coloneqq\rfcl\prec\ \ \ \ \textrm{\it{and}}\ \ \ \ \leq\,\coloneqq\rfcl<
 \end{equation}$$
-_are (non-strict) partial and total orders on $X$, respectively._
+are (non-strict) partial and total orders on $X$, respectively.
 
 ```
 

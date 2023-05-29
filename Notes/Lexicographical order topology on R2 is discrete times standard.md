@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $<_L$ be the lexicographical order on $\R^2$ and let_ $\sttopR$_ be the standard topology on $\R$. Then the lexicographical order topology_ $\mc{T}_<$ _on $\R^2$ is the product topology on $\R^2$ w.r.t._ $\mc{T}_\textrm{discrete}$ _and_ $\sttopR$_. That is,_ $\mc{T}_<=\mc{T}_\textrm{discrete}\times\sttopR$_._
+Let $<_L$ be the lexicographical order on $\R^2$ and let $\sttopR$_ be the standard topology on $\R$. Then the lexicographical order topology $\mc{T}_<$ on $\R^2$ is the product topology on $\R^2$ w.r.t. $\mc{T}_\textrm{discrete}$ and $\sttopR$. That is, $\mc{T}_<=\mc{T}_\textrm{discrete}\times\sttopR$.
 
 ```
 

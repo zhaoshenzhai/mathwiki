@@ -13,13 +13,13 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Isomorphism Theorems).
 
-_Let $G$ and $G'$ be groups. We have the following $\textrm{`}$isomorphism theorems$\textrm{'}$:_
-* _(First Isomorphism Theorem): If $\phi:G\to G'$ is a homomorphism, then $G/\ker\phi\iso\im\phi$._
-* _(Second Isomorphism Theorem): If $H,K\subgrpeq G$ and $H\subgrpeq N_G\!\l(K\r)$, then $HK/K\iso H/\l(H\cap K\r)$._
-* _(Third Isomorphism Theorem): If $H,K\nsubgrpeq G$ and $H\subgrpeq K$, then $\l(G/H\r)/\!\l(K/H\r)\iso G/K$._
-* _(Lattice Theorem): Let $\phi:G\to G'$ is a surjective homomorphism._
-    * _The map $H\mapsto\phi\l(H\r)$ is a bijection between the subgroups of $G$ containing $\ker\phi$ and the subgroups of $G'$._
-    * _If $\ker\phi\subgrpeq H\subgrpeq K$, then $H\nsubgrpeq K$ iff $\phi\l(H\r)\nsubgrpeq\phi\l(K\r)$, in which case $K/H\iso\phi\l(K\r)/\phi\l(H\r)$._
+Let $G$ and $G'$ be groups. We have the following $\textrm{`}$isomorphism theorems$\textrm{'}$:
+* (First Isomorphism Theorem): If $\phi:G\to G'$ is a homomorphism, then $G/\ker\phi\iso\im\phi$.
+* (Second Isomorphism Theorem): If $H,K\subgrpeq G$ and $H\subgrpeq N_G\!\l(K\r)$, then $HK/K\iso H/\l(H\cap K\r)$.
+* (Third Isomorphism Theorem): If $H,K\nsubgrpeq G$ and $H\subgrpeq K$, then $\l(G/H\r)/\!\l(K/H\r)\iso G/K$.
+* (Lattice Theorem): Let $\phi:G\to G'$ is a surjective homomorphism.
+    * The map $H\mapsto\phi\l(H\r)$ is a bijection between the subgroups of $G$ containing $\ker\phi$ and the subgroups of $G'$.
+    * If $\ker\phi\subgrpeq H\subgrpeq K$, then $H\nsubgrpeq K$ iff $\phi\l(H\r)\nsubgrpeq\phi\l(K\r)$, in which case $K/H\iso\phi\l(K\r)/\phi\l(H\r)$.
 
 ```
 

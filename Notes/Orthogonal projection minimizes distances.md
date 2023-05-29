@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be an inner product space. Take $v\in V$. For $U$ a finite-dimensional linear subspace of $V$, we have the estimate_
+Let $V$ be an inner product space. Take $v\in V$. For $U$ a finite-dimensional linear subspace of $V$, we have the estimate
 $$\begin{equation}
     \l\|v-\proj_U\!\l(v\r)\r\|\leq\|v-u\|
 \end{equation}$$
-_for all $u\in U$; equality holds iff $u=\proj_U\!\l(v\r)$._
+for all $u\in U$; equality holds iff $u=\proj_U\!\l(v\r)$.
 
 ```
 

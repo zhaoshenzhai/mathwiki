@@ -16,11 +16,11 @@ Justifications: [[Omega is an ordinal]], [[Lagrange's Theorem]]
 ``` ad-Definition
 title: Definition.
 
-_Let $G$ be a group and take $g\in G$. If there exists some $n\in\N^+$ such that $g^n=e$, then $g$ is said to have **finite order**, in which case the **order of $g$** is_
+Let $G$ be a group and take $g\in G$. If there exists some $n\in\N^+$ such that $g^n=e$, then $g$ is said to have **finite order**, in which case the **order of $g$** is
 $$\begin{equation}
     \l|g\r|\coloneqq\min\l\{n\in\N^+\mid g^n=e\r\}.
 \end{equation}$$
-_Otherwise, $g$ is said to have **infinite order**._
+Otherwise, $g$ is said to have **infinite order**.
 
 ```
 

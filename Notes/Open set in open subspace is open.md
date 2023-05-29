@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and let $\tpl{Y,\l.\mc{T}\r|_Y}$ be a subspace thereof. If $V\in\l.\mc{T}\r|_Y$ and $Y\in\mc{T}$, then $V\in\mc{T}$._
+Let $\tpl{X,\mc{T}}$ be a topological space and let $\tpl{Y,\l.\mc{T}\r|_Y}$ be a subspace thereof. If $V\in\l.\mc{T}\r|_Y$ and $Y\in\mc{T}$, then $V\in\mc{T}$.
 
 ```
 

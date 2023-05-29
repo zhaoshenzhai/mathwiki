@@ -16,9 +16,9 @@ Justifications: [[Basic properties of homotopies of paths]], [[Independence of b
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a topological space and fix $x_0\in X$. The **fundamental group of $X$ based at $x_0$** is the group $\pi_1\!\l(X,x_0\r)$ of homotopy classes of loops at $x_0$ under concatenation._
-* _If $X$ is path-connected, then the **fundamental group of $X$** is $\pi_1\!\l(X\r)\coloneqq\pi_1\!\l(X,x_0\r)$, independent of the basepoint._
+Let $X$ be a topological space and fix $x_0\in X$. The **fundamental group of $X$ based at $x_0$** is the group $\pi_1\!\l(X,x_0\r)$ of homotopy classes of loops at $x_0$ under concatenation.
+* If $X$ is path-connected, then the **fundamental group of $X$** is $\pi_1\!\l(X\r)\coloneqq\pi_1\!\l(X,x_0\r)$, independent of the basepoint.
 
-_This induces a functor $\pi_1:\catptop\to\catgrp$ by mapping each morphism $f:\tpl{X,x_0}\to\tpl{Y,y_0}$ to the morphism_ $f_\ast:\pi_1\l(X,x_0\r)\to\pi_1\l(Y,y_0\r):\l[\gamma\r]\mapsto\l[f\circ\gamma\r]$_._
+This induces a functor $\pi_1:\catptop\to\catgrp$ by mapping each morphism $f:\tpl{X,x_0}\to\tpl{Y,y_0}$ to the morphism $f_\ast:\pi_1\l(X,x_0\r)\to\pi_1\l(Y,y_0\r):\l[\gamma\r]\mapsto\l[f\circ\gamma\r]$.
 
 ```

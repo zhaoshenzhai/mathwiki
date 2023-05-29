@@ -20,6 +20,6 @@ Justifications: [[Sequential slash functional limit characterizations of continu
 ``` ad-Definition
 title: Definition.
 
-_Fix $\Omega\subseteq\R$. A function $f:\Omega\to\R$ is **continuous on $\Omega$** if_ $\lim\limits_{x\to p}f\l(x\r)=f\l(p\r)$ _for all cluster points $p\in\Omega$._
+Fix $\Omega\subseteq\R$. A function $f:\Omega\to\R$ is **continuous on $\Omega$** if $\lim\limits_{x\to p}f\l(x\r)=f\l(p\r)$ for all cluster points $p\in\Omega$.
 
 ```

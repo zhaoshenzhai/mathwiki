@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Basis Extraction Theorem).
 
-_Let $V$ be a $K$-vector space. If $U\subseteq V$ is a spanning set of $V$, then there exists a basis $\mc{B}$ of $V$ with $\mc{B}\subseteq U$._
+Let $V$ be a $K$-vector space. If $U\subseteq V$ is a spanning set of $V$, then there exists a basis $\mc{B}$ of $V$ with $\mc{B}\subseteq U$.
 
 ```
 

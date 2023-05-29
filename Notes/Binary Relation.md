@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A set $R$ is a **binary relation** if $R$ is a set of ordered pairs. Formally, if $\fa u\in R:\ex x,y:u=\tpl{x,y}$._
+A set $R$ is a **binary relation** if $R$ is a set of ordered pairs. Formally, if $\fa u\in R:\ex x,y:u=\tpl{x,y}$.
 
 ```
 

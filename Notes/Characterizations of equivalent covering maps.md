@@ -13,10 +13,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,x_0}$ be a locally path-connected pointed space and let $p_i:(\widetilde{X}_i,\widetilde{x}_i)\to\tpl{X,x_0}$ be covering maps for $i=1,2$. Then the following are equivalent._
-1. _The covering maps $(\widetilde{X}_1,p_1)$ and $(\widetilde{X}_2,p_2)$ are equivalent._
-2. _The subgroups_ $p_{1\ast}\pi_1\,(\widetilde{X}_1,\widetilde{x}_1)$ _and_ $p_{2\ast}\pi_1\,(\widetilde{X}_2,\widetilde{x}_2)$ _are conjugate in $\pi_1\l(X,x_0\r)$._
-3. _The fibers $p_1^{-1}\!\l(x_0\r)$ and $p_2^{-1}\!\l(x_0\r)$ are equivariant $\pi_1\l(X,x_0\r)$-sets._
+Let $\tpl{X,x_0}$ be a locally path-connected pointed space and let $p_i:(\widetilde{X}_i,\widetilde{x}_i)\to\tpl{X,x_0}$ be covering maps for $i=1,2$. Then the following are equivalent.
+1. The covering maps $(\widetilde{X}_1,p_1)$ and $(\widetilde{X}_2,p_2)$ are equivalent.
+2. The subgroups $p_{1\ast}\pi_1\,(\widetilde{X}_1,\widetilde{x}_1)$ and $p_{2\ast}\pi_1\,(\widetilde{X}_2,\widetilde{x}_2)$ are conjugate in $\pi_1\l(X,x_0\r)$.
+3. The fibers $p_1^{-1}\!\l(x_0\r)$ and $p_2^{-1}\!\l(x_0\r)$ are equivariant $\pi_1\l(X,x_0\r)$-sets.
 
 ```
 

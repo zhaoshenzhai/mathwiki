@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Squeeze Theorem).
 
-_Let $f:\l[a,b\r]\to\R$. Then $f\in\RI{\l[a,b\r]}$ iff for all $\epsilon>0$, there exist_ $\alpha_\epsilon,\beta_\epsilon\in\RI{\l[a,b\r]}$ _with_ $\alpha_\epsilon\!\l(x\r)\leq f\l(x\r)\leq\beta_\epsilon\!\l(x\r)$ _for all $x\in\l[a,b\r]$ such that_ $\int_{a}^{b}\beta_\epsilon-\alpha_\epsilon<\epsilon$_._
+Let $f:\l[a,b\r]\to\R$. Then $f\in\RI{\l[a,b\r]}$ iff for all $\epsilon>0$, there exist $\alpha_\epsilon,\beta_\epsilon\in\RI{\l[a,b\r]}$ with $\alpha_\epsilon\!\l(x\r)\leq f\l(x\r)\leq\beta_\epsilon\!\l(x\r)$ for all $x\in\l[a,b\r]$ such that $\int_{a}^{b}\beta_\epsilon-\alpha_\epsilon<\epsilon$.
 
 ```
 

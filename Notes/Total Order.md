@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. A binary relation $\leq$ on $X$ is a **total order on $X$** if $\leq$ is connected and is a partial order on $X$._
+Let $X$ be a set. A binary relation $\leq$ on $X$ is a **total order on $X$** if $\leq$ is connected and is a partial order on $X$.
 
 ```

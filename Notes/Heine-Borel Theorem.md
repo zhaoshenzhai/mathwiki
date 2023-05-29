@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Heine-Borel Theorem).
 
-_Fix $d\in\N^+$ and a subset $K\subseteq\R^d$. Then $K$ is compact iff it is closed and bounded._
+Fix $d\in\N^+$ and a subset $K\subseteq\R^d$. Then $K$ is compact iff it is closed and bounded.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_The class of ordinal numbers $\ON$ is a transitive class. That is,_
+The class of ordinal numbers $\ON$ is a transitive class. That is,
 $$\begin{equation}
     \fa z,\alpha:\l(z\in\alpha\land\alpha\in\ON\Rightarrow z\in\ON\r).
 \end{equation}$$

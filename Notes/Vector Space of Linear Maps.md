@@ -20,7 +20,7 @@ Justifications: [[Set of linear maps form a linear subspace of the function spac
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ and $W$ be $K$-vector spaces. The **vector space of linear maps from $V$ to $W$** is the hom-set $\Hom\l(V,W\r)$ of all linear maps $T:V\to W$._
+Let $V$ and $W$ be $K$-vector spaces. The **vector space of linear maps from $V$ to $W$** is the hom-set $\Hom\l(V,W\r)$ of all linear maps $T:V\to W$.
 
 ```
 

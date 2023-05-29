@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G=\gen{g}$ be a non-trivial cyclic group. If $G$ is finite, then $G\iso\Z_n$ for some $n\geq2$. Otherwise $G\iso\Z$._
+Let $G=\gen{g}$ be a non-trivial cyclic group. If $G$ is finite, then $G\iso\Z_n$ for some $n\geq2$. Otherwise $G\iso\Z$.
 
 ```
 

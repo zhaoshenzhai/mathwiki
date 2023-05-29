@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Abel$\textrm{'}$s Summation Formula).
 
-_Let_ $\tpl{a_k}_{k=1}^\infty$ _and_ $\tpl{b_k}_{k=1}^\infty$ _be sequences in $\R$ and let $\tpl{s_n}$ be the sequence of partial sums of $b_k$, say with $s_0\coloneqq0$. Then, for any $m>n$, we have_
+Let $\tpl{a_k}_{k=1}^\infty$ and $\tpl{b_k}_{k=1}^\infty$ be sequences in $\R$ and let $\tpl{s_n}$ be the sequence of partial sums of $b_k$, say with $s_0\coloneqq0$. Then, for any $m>n$, we have
 $$\begin{equation}
     \sum_{k=n+1}^{m}a_kb_k=\l(a_ms_m-a_{n+1}s_n\r)+\sum_{k=n+1}^{m-1}\l(a_k-a_{k+1}\r)s_k.
 \end{equation}$$

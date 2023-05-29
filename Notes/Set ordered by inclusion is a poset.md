@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set. Then the pair $\tpl{X,\subseteq}$ is a poset._
+Let $X$ be a set. Then the pair $\tpl{X,\subseteq}$ is a poset.
 
 ```
 

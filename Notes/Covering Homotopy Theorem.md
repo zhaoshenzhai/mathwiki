@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Covering Homotopy Theorem).
 
-_Let $X$ be a topological space. Then every covering map $p:\widetilde{X}\to X$ is a fibration. More specifically, for any topological space $Y$, any homotopy $F:Y\times I\to X$, and any continuous map $\widetilde{f}_0:Y\times\l\{0\r\}\to\widetilde{X}$ lifting_ $f_0\coloneqq\l.F\r|_{Y\times\l\{0\r\}}$_, there exists a unique homotopy $\widetilde{F}:Y\times I\to\widetilde{X}$ lifting $F$ such that_ $\widetilde{f}_0=\l.\widetilde{F}\r|_{Y\times\l\{0\r\}}$_._
+Let $X$ be a topological space. Then every covering map $p:\widetilde{X}\to X$ is a fibration. More specifically, for any topological space $Y$, any homotopy $F:Y\times I\to X$, and any continuous map $\widetilde{f}_0:Y\times\l\{0\r\}\to\widetilde{X}$ lifting $f_0\coloneqq\l.F\r|_{Y\times\l\{0\r\}}$, there exists a unique homotopy $\widetilde{F}:Y\times I\to\widetilde{X}$ lifting $F$ such that $\widetilde{f}_0=\l.\widetilde{F}\r|_{Y\times\l\{0\r\}}$.
 ![[Images/2023-05-22_132245/image.svg|150]]
 
 ```

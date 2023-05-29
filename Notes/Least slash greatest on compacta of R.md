@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X\subseteq\R$ be compact. Then $X$ has a least and a greatest element._
+Let $X\subseteq\R$ be compact. Then $X$ has a least and a greatest element.
 
 ```
 

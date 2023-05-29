@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A diagram $\ms{D}:\cat{J}\to\cat{C}$ is said to **commute** if $\cat{J}$ is a preorder category._
+A diagram $\ms{D}:\cat{J}\to\cat{C}$ is said to **commute** if $\cat{J}$ is a preorder category.
 
 ```
 

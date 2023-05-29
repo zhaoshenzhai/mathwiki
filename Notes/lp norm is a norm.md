@@ -17,11 +17,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Fix $p\in\l[1,+\infty\r)$ and consider the function $\|\slot\|:\ell^p\to\R$ defined by_
+Fix $p\in\l[1,+\infty\r)$ and consider the function $\|\slot\|:\ell^p\to\R$ defined by
 $$\begin{equation}
     \|\v{x}\|_p\coloneqq\l(\sum_{i=1}^{n}\l|x_i\r|^p\r)^{1/p}
 \end{equation}$$
-_for all $\v{x}\coloneqq\tpl{x_1,\dots,x_n}\in\R^n$._
+for all $\v{x}\coloneqq\tpl{x_1,\dots,x_n}\in\R^n$.
 
 ```
 

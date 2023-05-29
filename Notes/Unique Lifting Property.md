@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Unique Lifting Property).
 
-_Let $f:Y\to X$ be a continuous map between topological spaces and let $p:\widetilde{X}\to X$ be a covering map. If $Y$ is connected and two lifts $\widetilde{f}_1,\widetilde{f}_2:Y\to\widetilde{X}$ agree at one point in $Y$, then $\widetilde{f}_1=\widetilde{f}_2$._
+Let $f:Y\to X$ be a continuous map between topological spaces and let $p:\widetilde{X}\to X$ be a covering map. If $Y$ is connected and two lifts $\widetilde{f}_1,\widetilde{f}_2:Y\to\widetilde{X}$ agree at one point in $Y$, then $\widetilde{f}_1=\widetilde{f}_2$.
 
 ```
 

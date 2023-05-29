@@ -17,11 +17,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Consider the functor $\pi_1:\catptop\to\catgrp$ mapping each pointed topological space $\tpl{X,x_0}$ to $\pi_1\l(X,x_0\r)$ and each morphism $f:\tpl{X,x_0}\to\tpl{Y,y_0}$ to the morphism_ $f_\ast:\pi_1\l(X,x_0\r)\to\pi_1\l(Y,y_0\r):\l[\gamma\r]\mapsto\l[f\circ\gamma\r]$_. Then the following properties hold._
-* _If $\tpl{X,x_0}$ and $\tpl{Y,y_0}$ are pointed topological spaces, then $\pi_1\l(X\times Y,\tpl{x_0,y_0}\r)\iso\pi_1\l(X,x_0\r)\times\pi_1\l(Y,y_0\r)$._
-* _If $f_t:X\to Y$ is a homotopy, $x_0\in X$, and $\sigma:I\to Y:t\mapsto f_t\!\l(x_0\r)$ is the path traced by $x_0$, then the following diagram commutes._
-![[Images/2023-05-21_113729/image.svg|230]] _Here,_ $\beta_\sigma\!\l[\gamma\r]\coloneqq\l[\sigma\ast\gamma\ast\sigma^-\r]$ _for all loops $\gamma$ at $f_1\!\l(x_0\r)$ is an isomorphism._
-* _If $f:X\to Y$ is a homotopy equivalence, then_ $f_\ast:\pi_1\l(X,x_0\r)\to\pi_1\l(Y,f\l(x_0\r)\r)$ _is an isomorphism for all $x_0\in X$._
+Consider the functor $\pi_1:\catptop\to\catgrp$ mapping each pointed topological space $\tpl{X,x_0}$ to $\pi_1\l(X,x_0\r)$ and each morphism $f:\tpl{X,x_0}\to\tpl{Y,y_0}$ to the morphism $f_\ast:\pi_1\l(X,x_0\r)\to\pi_1\l(Y,y_0\r):\l[\gamma\r]\mapsto\l[f\circ\gamma\r]$. Then the following properties hold.
+* If $\tpl{X,x_0}$ and $\tpl{Y,y_0}$ are pointed topological spaces, then $\pi_1\l(X\times Y,\tpl{x_0,y_0}\r)\iso\pi_1\l(X,x_0\r)\times\pi_1\l(Y,y_0\r)$.
+* If $f_t:X\to Y$ is a homotopy, $x_0\in X$, and $\sigma:I\to Y:t\mapsto f_t\!\l(x_0\r)$ is the path traced by $x_0$, then the following diagram commutes.
+![[Images/2023-05-21_113729/image.svg|230]] Here, $\beta_\sigma\!\l[\gamma\r]\coloneqq\l[\sigma\ast\gamma\ast\sigma^-\r]$ for all loops $\gamma$ at $f_1\!\l(x_0\r)$ is an isomorphism.
+* If $f:X\to Y$ is a homotopy equivalence, then $f_\ast:\pi_1\l(X,x_0\r)\to\pi_1\l(Y,f\l(x_0\r)\r)$ is an isomorphism for all $x_0\in X$.
 
 ```
 

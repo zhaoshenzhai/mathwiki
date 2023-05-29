@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A group $\tpl{G,\ast}$ is said to be **abelian** if the binary operation $\ast$ commutes._
+A group $\tpl{G,\ast}$ is said to be **abelian** if the binary operation $\ast$ commutes.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: [[Comma category is a category]]
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ be a category and fix $C\in\Obj\l(\cat{C}\r)$. Then the slice category $\l(\cat{C}\downarrow C\r)$ is a category._
+Let $\cat{C}$ be a category and fix $C\in\Obj\l(\cat{C}\r)$. Then the slice category $\l(\cat{C}\downarrow C\r)$ is a category.
 
 ```
 
@@ -23,7 +23,7 @@ _Proof_. It suffices to check that the identities and composite morphisms are we
     ![[Images/2022-02-25_175305/image.svg|220]]
 
     commutes; that is, we need $f_1=f_3\circ\l(\phi'\circ\phi\r)$. To do so, observe that
-    
+
 $\begin{align}
     f_1&=f_2\circ\phi&&\phi\in\Hom\l(\tpl{X_1,f_1},\tpl{X_2,f_2}\r)\\
     &=\l(f_3\circ\phi'\r)\circ\phi&&\phi'\in\Hom\l(\tpl{X_2,f_2},\tpl{X_3,f_3}\r)\\

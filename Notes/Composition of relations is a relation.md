@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ and $S$ be binary relations. Then there exists a unique binary relation $S\circ R$ whose elements are exactly the pairs $\tpl{x,z}$ for which there exists a set $y$ such that $xRy$ and $ySz$._
+Let $R$ and $S$ be binary relations. Then there exists a unique binary relation $S\circ R$ whose elements are exactly the pairs $\tpl{x,z}$ for which there exists a set $y$ such that $xRy$ and $ySz$.
 
 ```
 

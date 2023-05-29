@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,d}$ be a metric space and fix $S\subseteq X$. Then, for all, $x\in X$, $x\in\bar{S}$ iff there exists a sequence $\tpl{x_n}$ in $S$ such that $x_n\to x$._
+Let $\tpl{X,d}$ be a metric space and fix $S\subseteq X$. Then, for all, $x\in X$, $x\in\bar{S}$ iff there exists a sequence $\tpl{x_n}$ in $S$ such that $x_n\to x$.
 
 ```
 

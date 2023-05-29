@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,d}$ be a metric space and fix $S\subseteq X$. Then $S$ is closed iff for all sequences $\tpl{x_n}$ in $S$ that converge, its limit is in $S$._
+Let $\tpl{X,d}$ be a metric space and fix $S\subseteq X$. Then $S$ is closed iff for all sequences $\tpl{x_n}$ in $S$ that converge, its limit is in $S$.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Pythagoras).
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. If $u\perp v$, then $\|u+v\|^2=\|u\|^2+\|v\|^2$. The converse holds if $K=\R$._
+Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. If $u\perp v$, then $\|u+v\|^2=\|u\|^2+\|v\|^2$. The converse holds if $K=\R$.
 
 ```
 

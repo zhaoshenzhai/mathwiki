@@ -20,7 +20,7 @@ Justifications: [[Characterizations of closure]], [[Sequential characterization 
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. A point $p\in X$ is said to be a **cluster point of $S$** if $p\in\bar{S\comp\l\{p\r\}}$._
+Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. A point $p\in X$ is said to be a **cluster point of $S$** if $p\in\bar{S\comp\l\{p\r\}}$.
 
 ```
 

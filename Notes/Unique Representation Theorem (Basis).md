@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Unique Representation Theorem).
 
-_Let $K$ be a field and consider an indexed subset_ $\mc{B}\coloneqq\l\{b_i\r\}_{i\in I}\!\subseteq V$ _of a $K$-vector space $V$. Then $\mc{B}$ is a (algebraic) basis for $V$ iff every vector $v\in V$ can be uniquely represented as a linear combination of vectors in $\mc{B}$; formally, iff_
+Let $K$ be a field and consider an indexed subset $\mc{B}\coloneqq\l\{b_i\r\}_{i\in I}\!\subseteq V$ of a $K$-vector space $V$. Then $\mc{B}$ is a (algebraic) basis for $V$ iff every vector $v\in V$ can be uniquely represented as a linear combination of vectors in $\mc{B}$; formally, iff
 $$\begin{equation}
     \fa v\in V,\ex!\l\{\alpha_i\r\}_{i\in I}\!\subseteq K:v=\sum\limits_{i\in I}\alpha_ib_i.
 \end{equation}$$
-_where $\alpha_i=0$ for all but finitely-many $i\in I$._
+where $\alpha_i=0$ for all but finitely-many $i\in I$.
 
 ```
 

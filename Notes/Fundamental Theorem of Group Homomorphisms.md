@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Fundamental Theorem of Group Homomorphisms).
 
-_Let $G$ and $H$ be groups and consider a group homomorphism $\phi:G\to H$. Then the following diagram commutes:_
+Let $G$ and $H$ be groups and consider a group homomorphism $\phi:G\to H$. Then the following diagram commutes:
 ![[Images/2023-01-03_225322/image.svg|280]]
 
 ```

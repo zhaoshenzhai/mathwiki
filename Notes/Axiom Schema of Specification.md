@@ -13,7 +13,7 @@ Equivalences: _Not Applicable_
 ``` ad-Axiom
 title: Axiom Schema.
 
-_Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$ and let $\phi\l(x\r)$ be any $\mc{L}$-logical formula without $z$ free. The **Axiom Schema of Specification** is the $\mc{L}$-scheme_
+Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$ and let $\phi\l(x\r)$ be any $\mc{L}$-logical formula without $z$ free. The **Axiom Schema of Specification** is the $\mc{L}$-scheme
 $$\begin{equation}
     \fa A\ex S\fa x\l[x\in S\Leftrightarrow\l(x\in A\land\phi\l(x\r)\r)\r].
 \end{equation}$$

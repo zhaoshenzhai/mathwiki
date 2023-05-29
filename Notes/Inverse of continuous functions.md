@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ and $Y$ be Hausdorff spaces and consider an invertible continuous function $f:X\to Y$. If $X$ is compact, then $f^{-1}:Y\to X$ is also continuous._
+Let $X$ and $Y$ be Hausdorff spaces and consider an invertible continuous function $f:X\to Y$. If $X$ is compact, then $f^{-1}:Y\to X$ is also continuous.
 
 ```
 

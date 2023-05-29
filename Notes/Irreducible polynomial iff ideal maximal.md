@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and let $f\in K\l[x\r]$. Then $f$ is irreducible iff the ideal $\sring{f}$ is maximal._
+Let $K$ be a field and let $f\in K\l[x\r]$. Then $f$ is irreducible iff the ideal $\sring{f}$ is maximal.
 
 ```
 

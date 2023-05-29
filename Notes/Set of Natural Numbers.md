@@ -16,7 +16,7 @@ Justifications: [[Axiom of Infinity]], [[Principle of Ordinary Induction]], [[Om
 ``` ad-Definition
 title: Definition.
 
-_Let $I$ be any inductive set asserted by the Axiom of Infinity. The **set of natural numbers** is the ordinal_
+Let $I$ be any inductive set asserted by the Axiom of Infinity. The **set of natural numbers** is the ordinal
 $$\begin{equation}
     \N\coloneqq\omega\coloneqq\l\{n\in I\mid n\textrm{\it{ is a natural number}}\r\}.
 \end{equation}$$

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\F$ be a finite field. Then $\F^\times$ is cyclic._
+Let $\F$ be a finite field. Then $\F^\times$ is cyclic.
 
 ```
 

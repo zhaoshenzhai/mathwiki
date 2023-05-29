@@ -13,12 +13,12 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be an inner product space. If $U$ is a finite-dimensional linear subspace of $V$, then the following algebraic identities hold:_
-* _$\proj_U\!:V\to V$ is a linear operator._
-* _$\proj_U^2=\proj_U$._
-* _$\im\proj_U=U$ with $\proj_U\!\l(u\r)=u$ for all $u\in U$._
-* _$\ker\proj_U=U^\perp$._
-* _$\l\|\proj_U\l(v\r)\r\|\leq\|v\|$ for all $v\in V$._
+Let $V$ be an inner product space. If $U$ is a finite-dimensional linear subspace of $V$, then the following algebraic identities hold:
+* $\proj_U\!:V\to V$ is a linear operator.
+* $\proj_U^2=\proj_U$.
+* $\im\proj_U=U$ with $\proj_U\!\l(u\r)=u$ for all $u\in U$.
+* $\ker\proj_U=U^\perp$.
+* $\l\|\proj_U\l(v\r)\r\|\leq\|v\|$ for all $v\in V$.
 
 ```
 

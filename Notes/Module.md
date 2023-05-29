@@ -16,11 +16,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be a ring. A **left $R$-module** is an abelian group $\tpl{M,+}$ equipped with a left $R$-action $\cdot:R\times M\to M$ such that:_
-* _(Distribution over module addition)$\bf{.}$ $\fa r\in R:\fa m,n\in M:r\cdot\l(m+n\r)=\l(r\cdot m\r)+\l(r\cdot n\r)$._
-* _(Distribution over field addition)$\bf{.}$ $\fa r_1,r_2\in R:\fa m\in M:\l(r_1+r_2\r)\cdot m=\l(r_1\cdot m\r)+\l(r_2\cdot m\r)$._
+Let $R$ be a ring. A **left $R$-module** is an abelian group $\tpl{M,+}$ equipped with a left $R$-action $\cdot:R\times M\to M$ such that:
+* (Distribution over module addition)$\bf{.}$ $\fa r\in R:\fa m,n\in M:r\cdot\l(m+n\r)=\l(r\cdot m\r)+\l(r\cdot n\r)$.
+* (Distribution over field addition)$\bf{.}$ $\fa r_1,r_2\in R:\fa m\in M:\l(r_1+r_2\r)\cdot m=\l(r_1\cdot m\r)+\l(r_2\cdot m\r)$.
 
-_Similarly for a **right $R$-module**._
+Similarly for a **right $R$-module**.
 
 ```
 

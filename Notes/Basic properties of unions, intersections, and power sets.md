@@ -17,25 +17,25 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $A$ and $B$ be sets. Then the following algebraic identities hold:_
-* _Regarding unions:_
-    1. _(Unions of unions): $\bigcup\l(A\cup B\r)=\bigcup A\cup\bigcup B$._
-    2. _(Union is monotone w.r.t. subsets): If $A\subseteq B$, then $\bigcup A\subseteq\bigcup B$._
-    3. _(Union of subsets is subset of union): If $A\subseteq B$ and $C\subseteq D$ for any sets $C$ and $D$, then  $A\cup C\subseteq B\cup D$._
-    4. _(Union of set of subsets is a subset): If every $a\in A$ is a subset of some set $a'$, then $\bigcup A\subseteq a'$._
-    5. _(Element of a set is a subset of its union): For all $a\in A$, we have $a\subseteq\bigcup A$._
-* _Regarding intersections:_
-    1. _(Intersections of intersections): If $A,B\neq\em$, then $\bigcap A\cap\bigcap B=\bigcap\l\{a\cap b\mid a\in A\land b\in B\r\}$._
-    2. _(Intersection is anti-monotone w.r.t subsets): If $A\neq\em$ and $A\subseteq B$, then $\bigcap B\subseteq\bigcap A$._
-    3. _(Intersection of subsets is subset of intersection): If $A\subseteq B$ and $C\subseteq D$ for any sets $C$ and $D$, then $A\cap C\subseteq B\cap D$._
-    4. _(Intersection of set of supersets is a superset): If every $a\in A$ is a superset of some set $a'$, then $a'\subseteq\bigcap A$._
-    5. _(Element of a set is a superset of its intersection): If $A\neq\em$, then, for all $a\in A$, we have $\bigcap A\subseteq a$._
-* _Regarding power sets:_
-    1. _(Power set is monotone w.r.t. subsets): If $A\subseteq B$, then $\pow A\subseteq\pow B$._
-* _Regarding their interplay:_
-    1. _(Union distributes over binary intersection): $\l(\bigcup A\r)\cap\l(\bigcup B\r)=\bigcup\l\{a\cap b\mid a\in A\land b\in B\r\}$._
-    2. _(Intersection distributes over binary union): $\l(\bigcap A\r)\cup\l(\bigcap B\r)=\bigcap\l\{a\cup b\mid a\in A\land b\in B\r\}$._
-    3. _(Intersection of intersection is intersection of union): If $A,B\neq\em$, then $\bigcap A\cap\bigcap B=\bigcap\l(A\cup B\r)$._
+Let $A$ and $B$ be sets. Then the following algebraic identities hold:
+* Regarding unions:
+    1. (Unions of unions): $\bigcup\l(A\cup B\r)=\bigcup A\cup\bigcup B$.
+    2. (Union is monotone w.r.t. subsets): If $A\subseteq B$, then $\bigcup A\subseteq\bigcup B$.
+    3. (Union of subsets is subset of union): If $A\subseteq B$ and $C\subseteq D$ for any sets $C$ and $D$, then  $A\cup C\subseteq B\cup D$.
+    4. (Union of set of subsets is a subset): If every $a\in A$ is a subset of some set $a'$, then $\bigcup A\subseteq a'$.
+    5. (Element of a set is a subset of its union): For all $a\in A$, we have $a\subseteq\bigcup A$.
+* Regarding intersections:
+    1. (Intersections of intersections): If $A,B\neq\em$, then $\bigcap A\cap\bigcap B=\bigcap\l\{a\cap b\mid a\in A\land b\in B\r\}$.
+    2. (Intersection is anti-monotone w.r.t subsets): If $A\neq\em$ and $A\subseteq B$, then $\bigcap B\subseteq\bigcap A$.
+    3. (Intersection of subsets is subset of intersection): If $A\subseteq B$ and $C\subseteq D$ for any sets $C$ and $D$, then $A\cap C\subseteq B\cap D$.
+    4. (Intersection of set of supersets is a superset): If every $a\in A$ is a superset of some set $a'$, then $a'\subseteq\bigcap A$.
+    5. (Element of a set is a superset of its intersection): If $A\neq\em$, then, for all $a\in A$, we have $\bigcap A\subseteq a$.
+* Regarding power sets:
+    1. (Power set is monotone w.r.t. subsets): If $A\subseteq B$, then $\pow A\subseteq\pow B$.
+* Regarding their interplay:
+    1. (Union distributes over binary intersection): $\l(\bigcup A\r)\cap\l(\bigcup B\r)=\bigcup\l\{a\cap b\mid a\in A\land b\in B\r\}$.
+    2. (Intersection distributes over binary union): $\l(\bigcap A\r)\cup\l(\bigcap B\r)=\bigcap\l\{a\cup b\mid a\in A\land b\in B\r\}$.
+    3. (Intersection of intersection is intersection of union): If $A,B\neq\em$, then $\bigcap A\cap\bigcap B=\bigcap\l(A\cup B\r)$.
 
 ```
 

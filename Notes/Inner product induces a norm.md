@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. Then the function $\|\slot\|:V\to\R$ mapping $v\mapsto\sqrt{\inprod{v}{v}}$ is a norm on $V$._
+Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. Then the function $\|\slot\|:V\to\R$ mapping $v\mapsto\sqrt{\inprod{v}{v}}$ is a norm on $V$.
 
 ```
 

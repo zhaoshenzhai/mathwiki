@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Cantor$\textrm{'}$s Intersection Theorem).
 
-_Let_ $\l\{K_\alpha\r\}_{\alpha\in\mc{A}}$ _be a collection of compact subsets of a Hausdorff space $X$. If the intersection every finite subcollection of_ $\l\{K_\alpha\r\}$ _is non-empty, then_ $\bigcap_{\alpha\in\mc{A}}K_\alpha\neq\em$_._
+Let $\l\{K_\alpha\r\}_{\alpha\in\mc{A}}$ be a collection of compact subsets of a Hausdorff space $X$. If the intersection every finite subcollection of $\l\{K_\alpha\r\}$ is non-empty, then $\bigcap_{\alpha\in\mc{A}}K_\alpha\neq\em$.
 
 ```
 

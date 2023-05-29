@@ -13,7 +13,7 @@ Generalizations: [[Isomorphism of objects is an equivalence relation]]
 ``` ad-Proposition
 title: Proposition.
 
-_The relation $\iso$ on any collection of sets is an equivalence relation._
+The relation $\iso$ on any collection of sets is an equivalence relation.
 
 ```
 

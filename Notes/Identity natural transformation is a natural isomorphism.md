@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ and $\cat{D}$ be categories and fix a functor $\ms{F}:\cat{C}\to\cat{D}$. Then the identity natural transformation_ $\natid_\ms{F}$ _is a natural isomorphism on $\ms{F}$._
+Let $\cat{C}$ and $\cat{D}$ be categories and fix a functor $\ms{F}:\cat{C}\to\cat{D}$. Then the identity natural transformation $\natid_\ms{F}$ is a natural isomorphism on $\ms{F}$.
 
 ```
 

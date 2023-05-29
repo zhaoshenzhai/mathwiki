@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $T:V\to V$ be a linear operator on an inner product space $V$ and let $\lambda\in K$ be an eigenvalue of $T$._
-* _If $T$ is self-adjoint, then $\lambda\in\R$._
-* _If $T$ is positive, then $\lambda\geq0$._
-* _If $T$ is positive-definite, then $\lambda>0$._
-* _If $T$ is unitary, then $\l|\lambda\r|=1$._
+Let $T:V\to V$ be a linear operator on an inner product space $V$ and let $\lambda\in K$ be an eigenvalue of $T$.
+* If $T$ is self-adjoint, then $\lambda\in\R$.
+* If $T$ is positive, then $\lambda\geq0$.
+* If $T$ is positive-definite, then $\lambda>0$.
+* If $T$ is unitary, then $\l|\lambda\r|=1$.
 
 ```
 

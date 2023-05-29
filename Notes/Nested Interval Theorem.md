@@ -13,15 +13,15 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Nested Interval Theorem).
 
-_Let $\tpl{X,<}$ be a Dedekind-complete totally ordered set and consider a sequence $I_n\coloneqq\l[a_n,b_n\r]$ of non-empty closed intervals in $X$ such that_
+Let $\tpl{X,<}$ be a Dedekind-complete totally ordered set and consider a sequence $I_n\coloneqq\l[a_n,b_n\r]$ of non-empty closed intervals in $X$ such that
 $$\begin{equation}
     \fa n\in\N:I_{n+1}\subseteq I_n.
 \end{equation}$$
-_Then_ $\alpha\coloneqq\sup_{n\in\N}\l\{a_n\r\}$ _and_ $\beta\coloneqq\inf_{n\in\N}\l\{b_n\r\}$_ exist and_
+Then $\alpha\coloneqq\sup_{n\in\N}\l\{a_n\r\}$ and $\beta\coloneqq\inf_{n\in\N}\l\{b_n\r\}$ exist and
 $$\begin{equation}
     \bigcap_{n\in\N}I_n=\l[\alpha,\beta\r]\neq\em.
 \end{equation}$$
-_Furthermore, if $\diam I_n\to0$, then_ $\l|\bigcap_{n\in\N}I_n\r|=1$_._
+Furthermore, if $\diam I_n\to0$, then $\l|\bigcap_{n\in\N}I_n\r|=1$.
 
 ```
 

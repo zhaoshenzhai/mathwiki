@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Binomial Theorem).
 
-_Let $a,b\in\R$ and fix $n\in\N$. Then_
+Let $a,b\in\R$ and fix $n\in\N$. Then
 $$\begin{equation}
     \l(a+b\r)^n=\sum_{k=0}^{n}\binom{n}{k}a^kb^{n-k}.
 \end{equation}$$

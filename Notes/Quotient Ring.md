@@ -16,9 +16,9 @@ Justifications: [[Quotient ring is a ring]], [[Basic properties of cosets]]
 ``` ad-Definition
 title: Definition.
 
-_Let $I\subseteq R$ be an ideal of a ring $R$. Then the **quotient ring of $R$ under $I$** is the ring $\tpl{R/I,+,\cdot}$, where_
-* _$\tpl{R/I,+}$ is the quotient group of $R$ under $I$ and_
-* _$\cdot$ is the binary operation on $R/I$ defined by $\l(r_1+I\r)\cdot\l(r_2+I\r)\coloneqq r_1r_2+I$ for all $r_1,r_2\in R$._
+Let $I\subseteq R$ be an ideal of a ring $R$. Then the **quotient ring of $R$ under $I$** is the ring $\tpl{R/I,+,\cdot}$, where
+* $\tpl{R/I,+}$ is the quotient group of $R$ under $I$ and
+* $\cdot$ is the binary operation on $R/I$ defined by $\l(r_1+I\r)\cdot\l(r_2+I\r)\coloneqq r_1r_2+I$ for all $r_1,r_2\in R$.
 
 ```
 

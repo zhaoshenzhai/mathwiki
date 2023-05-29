@@ -13,12 +13,12 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\mc{T}}$ be a separable topological space and fix $S\subseteq X$. Letting $C\subseteq X$ denote the set of all condensation points of $S$, the following properties hold._
-* _If $S$ is uncountable, then it has a condensation point in $S$._
-* _$C$ is closed._
-* _$S\comp C$ is countable._
+Let $\tpl{X,\mc{T}}$ be a separable topological space and fix $S\subseteq X$. Letting $C\subseteq X$ denote the set of all condensation points of $S$, the following properties hold.
+* If $S$ is uncountable, then it has a condensation point in $S$.
+* $C$ is closed.
+* $S\comp C$ is countable.
 
-_If $X$ is a (separable) metric space, then every condensation point $x$ of $S$ admits a non-constant sequence $\tpl{x_n}$ in $C$ such that $x_n\to x$. In other words, every condensation point of $S$ is a cluster point of $C$._
+If $X$ is a (separable) metric space, then every condensation point $x$ of $S$ admits a non-constant sequence $\tpl{x_n}$ in $C$ such that $x_n\to x$. In other words, every condensation point of $S$ is a cluster point of $C$.
 
 ```
 

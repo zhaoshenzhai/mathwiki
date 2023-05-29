@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Cauchy-Frobenius).
 
-_Let $G$ be a finite group acting on a finite set $X$. If $N$ denotes the number of orbits of the action on $S$ and $I\l(g\r)$ is the number of elements in $X$ fixed by $g$, then_
+Let $G$ be a finite group acting on a finite set $X$. If $N$ denotes the number of orbits of the action on $S$ and $I\l(g\r)$ is the number of elements in $X$ fixed by $g$, then
 $$\begin{equation}
     N=\frac{1}{\l|G\r|}\sum_{g\in G}I\l(g\r).
 \end{equation}$$

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Fix $p\in\R$. Then the infinite series_ $\sum_{k=1}^{\infty}1/k^p$ _converges iff $p>1$._
+Fix $p\in\R$. Then the infinite series $\sum_{k=1}^{\infty}1/k^p$ converges iff $p>1$.
 
 ```
 

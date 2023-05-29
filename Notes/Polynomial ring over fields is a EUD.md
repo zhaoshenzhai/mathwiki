@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Division Algorithm for Polynomials).
 
-_Let $K$ be a field. Then for all $a,b\in K\l[x\r]$ with $b\neq0$, there exist unique polynomials $q,r\in K\l[x\r]$ with either $r=0$ or $\deg r<\deg b$ such that $a=qb+r$._
+Let $K$ be a field. Then for all $a,b\in K\l[x\r]$ with $b\neq0$, there exist unique polynomials $q,r\in K\l[x\r]$ with either $r=0$ or $\deg r<\deg b$ such that $a=qb+r$.
 
 ```
 

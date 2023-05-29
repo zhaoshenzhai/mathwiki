@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set. The discrete topology is the finest topology on $X$._
+Let $X$ be a set. The discrete topology is the finest topology on $X$.
 
 ```
 

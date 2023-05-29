@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition ($\Q$ is dense in $\R$).
 
-_Fix $x,y\in\R$ such that $x<y$. Then there exists some $q\in\Q$ such that $x<q<y$._
+Fix $x,y\in\R$ such that $x<y$. Then there exists some $q\in\Q$ such that $x<q<y$.
 
 ```
 

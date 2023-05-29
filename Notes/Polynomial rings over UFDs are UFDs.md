@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem.
 
-_Let $R$ be a UFD. Then $R\l[x\r]$ is also a UFD._
+Let $R$ be a UFD. Then $R\l[x\r]$ is also a UFD.
 
 ```
 

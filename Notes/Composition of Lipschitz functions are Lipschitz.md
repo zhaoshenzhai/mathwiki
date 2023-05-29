@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,d_X}$, $\tpl{Y,d_Y}$, and $\tpl{Z,d_Z}$ be metric spaces. If $f:X\to Y$ and $g:Y\to Z$ are Lipschitz, then so is $g\circ f:X\to Z$. In particular, if $L_f$ and $L_g$ are Lipschitz constants for $f$ and $g$ respectively, then $g\circ f$ as Lipschitz constant $L_g\cdot L_f$._
+Let $\tpl{X,d_X}$, $\tpl{Y,d_Y}$, and $\tpl{Z,d_Z}$ be metric spaces. If $f:X\to Y$ and $g:Y\to Z$ are Lipschitz, then so is $g\circ f:X\to Z$. In particular, if $L_f$ and $L_g$ are Lipschitz constants for $f$ and $g$ respectively, then $g\circ f$ as Lipschitz constant $L_g\cdot L_f$.
 
 ```
 

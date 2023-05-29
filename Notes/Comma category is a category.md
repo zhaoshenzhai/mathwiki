@@ -13,10 +13,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$, $\cat{D}$, and $\cat{E}$ be categories and fix two functors_
+Let $\cat{C}$, $\cat{D}$, and $\cat{E}$ be categories and fix two functors
 ![[Images/2022-03-07_144906/image.svg|140]]
 
-_Then the comma category $\l(\ms{F}\downarrow\ms{G}\r)$ is a category._
+Then the comma category $\l(\ms{F}\downarrow\ms{G}\r)$ is a category.
 
 ```
 

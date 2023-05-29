@@ -20,10 +20,10 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set and fix $n\in\N$. An **operation of arity $n$ on $X$** (or an **$n$-ary operation on $X$**) is a function $f:X^n\to X$._
-* _If $n=0$,_ $X^0=X^\em=\prod_{i\in\em}X_i=\l\{\em\r\}$ _and so $f:\l\{\em\r\}\to X$. The $\textrm{`}$information$\textrm{'}$ in $f$ is essentially just $f\l(\em\r)\in X$, so a **nullary operation on $X$** can be viewed as a fixed but arbitrary constant $x_0\in X$._
-* _If $n=1$, $f:X\to X$ is a **unary operation on $X$**._
-* _If $n=2$, $f:X\times X\to X$ is a **binary operation on $X$**._
+Let $X$ be a set and fix $n\in\N$. An **operation of arity $n$ on $X$** (or an **$n$-ary operation on $X$**) is a function $f:X^n\to X$.
+* If $n=0$, $X^0=X^\em=\prod_{i\in\em}X_i=\l\{\em\r\}$ and so $f:\l\{\em\r\}\to X$. The $\textrm{`}$information$\textrm{'}$ in $f$ is essentially just $f\l(\em\r)\in X$, so a **nullary operation on $X$** can be viewed as a fixed but arbitrary constant $x_0\in X$.
+* If $n=1$, $f:X\to X$ is a **unary operation on $X$**.
+* If $n=2$, $f:X\times X\to X$ is a **binary operation on $X$**.
 
 ```
 

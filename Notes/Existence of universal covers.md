@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a path-connected and locally path-connected space. Then $X$ admits a universal cover $p:\widetilde{X}\to X$ iff $X$ is semilocally simply-connected._
+Let $X$ be a path-connected and locally path-connected space. Then $X$ admits a universal cover $p:\widetilde{X}\to X$ iff $X$ is semilocally simply-connected.
 
 ```
 

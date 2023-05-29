@@ -17,8 +17,8 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$. For any $T$-invariant subspace $W\subseteq V$ and $R\coloneqq\l.T\r|_W$, we have $\cchi_R\divides\cchi_T$._
-* _Consider $W\coloneqq C_T\!\l(v\r)$ for a fixed $v\in V\comp\l\{0\r\}$ and set $k\coloneqq\dim W$. If_ $T^kv=\sum_{i=0}^{k-1}\alpha_iT^iv$_ for some $\alpha_i\in K$, then_ $\cchi_R\!\l(x\r)=x^k-\sum_{i=0}^{k-1}\alpha_ix^i$_._
+Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$. For any $T$-invariant subspace $W\subseteq V$ and $R\coloneqq\l.T\r|_W$, we have $\cchi_R\divides\cchi_T$.
+* Consider $W\coloneqq C_T\!\l(v\r)$ for a fixed $v\in V\comp\l\{0\r\}$ and set $k\coloneqq\dim W$. If $T^kv=\sum_{i=0}^{k-1}\alpha_iT^iv$ for some $\alpha_i\in K$, then $\cchi_R\!\l(x\r)=x^k-\sum_{i=0}^{k-1}\alpha_ix^i$.
 
 ```
 

@@ -16,6 +16,6 @@ Justifications: [[Basic properties of group homomorphisms]]
 ``` ad-Definition
 title: Definition.
 
-_Let $G$ and $H$ be groups and consider a homomorphism $\phi:G\to H$. The **kernel of $\phi$** is the normal subgroup_ $\ker\phi\coloneqq\preim_\phi\!\l\{e\r\}=\l\{g\in G\mid\phi\l(g\r)=e\r\}$ _of $G$._
+Let $G$ and $H$ be groups and consider a homomorphism $\phi:G\to H$. The **kernel of $\phi$** is the normal subgroup $\ker\phi\coloneqq\preim_\phi\!\l\{e\r\}=\l\{g\in G\mid\phi\l(g\r)=e\r\}$ of $G$.
 
 ```

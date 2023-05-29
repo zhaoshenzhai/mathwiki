@@ -13,21 +13,21 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let_ $\l\{U_i\r\}_{i\in I}$ _be an indexed family of distinct linear subspaces of a vector space $V$ over some field $K$ such that _$V=\sum_{i\in I}U_i$_. Then the following statements are equivalent:_
-1. _$V$ is an internal direct sum of_ $\l\{U_i\r\}_{i\in I}$_:_
+Let $\l\{U_i\r\}_{i\in I}$ be an indexed family of distinct linear subspaces of a vector space $V$ over some field $K$ such that $V=\sum_{i\in I}U_i$. Then the following statements are equivalent:
+1. $V$ is an internal direct sum of $\l\{U_i\r\}_{i\in I}$:
 $$\begin{equation}
     V=\bigoplus_{i\in I}U_i.
 \end{equation}$$
-2. _The zero vector admits only the trivial decomposition as a sum of vectors in_ $\l\{U_i\r\}_{i\in I}$_:_
+2. The zero vector admits only the trivial decomposition as a sum of vectors in $\l\{U_i\r\}_{i\in I}$:
 $$\begin{equation}
     \fa i\in I,\fa u_i\in U_i:\sum\limits_{i\in I}u_i=0\ \ \ \ \Rightarrow\ \ \ \ \fa i\in I:u_i=0.
 \end{equation}$$
-3. _Every $v\in V$ admits a unique representation as a sum of vectors in_ $\l\{U_i\r\}_{i\in I}$_:_
+3. Every $v\in V$ admits a unique representation as a sum of vectors in $\l\{U_i\r\}_{i\in I}$:
 $$\begin{equation}
     \fa v\in V,\fa i\in I,\ex!u_i\in U_i:v=\sum\limits_{i\in I}u_i.
 \end{equation}$$
 
-_All sums_ $\sum_{i\in I}u_i$ _are assumed to have $u_i=0$ for all but finitely-many $i\in I$._
+All sums $\sum_{i\in I}u_i$ are assumed to have $u_i=0$ for all but finitely-many $i\in I$.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and let $Y\subseteq X$ be a subspace. For all $K\subseteq Y$, $K$ is compact relative to $X$ iff it is compact relative to $Y$._
+Let $\tpl{X,\mc{T}}$ be a topological space and let $Y\subseteq X$ be a subspace. For all $K\subseteq Y$, $K$ is compact relative to $X$ iff it is compact relative to $Y$.
 
 ```
 

@@ -16,6 +16,6 @@ Justifications: [[Norm induces a metric]]
 ``` ad-Definition
 title: Definition.
 
-_A normed vector space $\tpl{X,\|\slot\|}$ with induced metric $d:X\times X\to\R$ is said to be a **Banach space** if $\tpl{X,d}$ is complete._
+A normed vector space $\tpl{X,\|\slot\|}$ with induced metric $d:X\times X\to\R$ is said to be a **Banach space** if $\tpl{X,d}$ is complete.
 
 ```

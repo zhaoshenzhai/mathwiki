@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ and $S$ be binary relations. Then $\l(S\circ R\r)^{-1}=R^{-1}\circ S^{-1}$._
+Let $R$ and $S$ be binary relations. Then $\l(S\circ R\r)^{-1}=R^{-1}\circ S^{-1}$.
 
 ```
 

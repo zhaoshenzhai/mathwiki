@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. A binary relation $R$ is **asymmetric on $X$** if_
+Let $X$ be a set. A binary relation $R$ is **asymmetric on $X$** if
 $$\begin{equation}
     \fa x,y\in X:\lnot\l(xRy\land yRx\r).
 \end{equation}$$

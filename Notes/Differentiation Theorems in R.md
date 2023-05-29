@@ -17,11 +17,11 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Differentiation Theorems in $\R$).
 
-_Let $\Omega_1,\Omega_2\subseteq\R$ be such that $\Omega\coloneqq\Omega_1\cap\Omega_2\neq\em$, and fix a cluster point $c\in\Omega$. If $f:\Omega_1\to\R$ and $g:\Omega_2\to\R$ are differentiable at $c$, then the following properties hold:_
-* _(Linearity): For all $\alpha\in\R$, $\alpha f+g$ is differentiable at $c$ and $\l(\alpha f+g\r)'\l(c\r)=\alpha f'\l(c\r)+g'\l(c\r)$._
-* _(Product Rule): $f\cdot g$ is differentiable at $c$ and $\l(f\cdot g\r)'\l(c\r)=f'\l(c\r)g\l(c\r)+f\l(c\r)g'\l(c\r)$._
-* _(Quotient Rule): If $g\l(c\r)\neq0$, then $c$ is a cluster point of $\Omega'\coloneqq\l\{x\in\Omega\mid g\l(x\r)\neq0\r\}$, $f/g$ is differentiable at $c$, and $\l(f/g\r)'\l(c\r)=\frac{f'\l(c\r)g\l(c\r)-f\l(c\r)g'\l(c\r)}{g\l(c\r)^2}$._
-* _(Chain Rule): If $\im f\subseteq\Omega_2$ and $g$ is differentiable at $f\l(c\r)$, then $g\circ f$ is differentiable at $c$ and $\l(g\circ f\r)'\l(c\r)=g'\l(f\l(c\r)\r)f'\l(c\r)$._
+Let $\Omega_1,\Omega_2\subseteq\R$ be such that $\Omega\coloneqq\Omega_1\cap\Omega_2\neq\em$, and fix a cluster point $c\in\Omega$. If $f:\Omega_1\to\R$ and $g:\Omega_2\to\R$ are differentiable at $c$, then the following properties hold:
+* (Linearity): For all $\alpha\in\R$, $\alpha f+g$ is differentiable at $c$ and $\l(\alpha f+g\r)'\l(c\r)=\alpha f'\l(c\r)+g'\l(c\r)$.
+* (Product Rule): $f\cdot g$ is differentiable at $c$ and $\l(f\cdot g\r)'\l(c\r)=f'\l(c\r)g\l(c\r)+f\l(c\r)g'\l(c\r)$.
+* (Quotient Rule): If $g\l(c\r)\neq0$, then $c$ is a cluster point of $\Omega'\coloneqq\l\{x\in\Omega\mid g\l(x\r)\neq0\r\}$, $f/g$ is differentiable at $c$, and $\l(f/g\r)'\l(c\r)=\frac{f'\l(c\r)g\l(c\r)-f\l(c\r)g'\l(c\r)}{g\l(c\r)^2}$.
+* (Chain Rule): If $\im f\subseteq\Omega_2$ and $g$ is differentiable at $f\l(c\r)$, then $g\circ f$ is differentiable at $c$ and $\l(g\circ f\r)'\l(c\r)=g'\l(f\l(c\r)\r)f'\l(c\r)$.
 
 ```
 

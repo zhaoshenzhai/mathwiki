@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and consider a sequence $\tpl{x_n}$ in $X$. If_ $\tpl{x_{n_k}}$ _is any converging subsequence of $\tpl{x_n}$, then_ $\lim\limits_{k\to\infty}x_{n_k}$ _is said to be a **subsequential limit of $\tpl{x_n}$**._
+Let $\tpl{X,\mc{T}}$ be a topological space and consider a sequence $\tpl{x_n}$ in $X$. If $\tpl{x_{n_k}}$ is any converging subsequence of $\tpl{x_n}$, then $\lim\limits_{k\to\infty}x_{n_k}$ is said to be a **subsequential limit of $\tpl{x_n}$**.
 
 ```

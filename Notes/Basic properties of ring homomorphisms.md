@@ -13,13 +13,13 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R_1$ and $R_2$ be rings and consider a homomorphism $\phi:R_1\to R_2$. Let $S_1\subseteq R_1$ and $S_2\subseteq R_2$ be subrings. Then the following properties hold._
-* _(Preserves identity): If $R_1$ and $R_2$ have units, and $\phi$ is surjective, then $\phi\l(1_1\r)=1_2$._
-* _(Image preserve subrings):_ $\im_\phi\!\l(S_1\r)\subseteq R_2$ _is a subring._
-* _(Image preserve commutativity): If $S_1$ is commutative, then_ $\im_\phi\!\l(S_1\r)\subseteq R_2$ _is commutative._
-* _(Image preserve field): If $S_1$ is a field, then_ $\im_\phi\!\l(S_1\r)\subseteq R_2$ _is either $\l\{0\r\}$ or a field._
-* _(Preimage preserve subrings):_ $\preim_\phi\!\l(S_2\r)\subseteq R_1$ _is a subring._
-* _(Preimage preserve ideals): If $S_2\subseteq R_2$ is an ideal, then_ $\preim_\phi\!\l(S_2\r)\subseteq R_1$ _is an ideal._
+Let $R_1$ and $R_2$ be rings and consider a homomorphism $\phi:R_1\to R_2$. Let $S_1\subseteq R_1$ and $S_2\subseteq R_2$ be subrings. Then the following properties hold.
+* (Preserves identity): If $R_1$ and $R_2$ have units, and $\phi$ is surjective, then $\phi\l(1_1\r)=1_2$.
+* (Image preserve subrings): $\im_\phi\!\l(S_1\r)\subseteq R_2$ is a subring.
+* (Image preserve commutativity): If $S_1$ is commutative, then $\im_\phi\!\l(S_1\r)\subseteq R_2$ is commutative.
+* (Image preserve field): If $S_1$ is a field, then $\im_\phi\!\l(S_1\r)\subseteq R_2$ is either $\l\{0\r\}$ or a field.
+* (Preimage preserve subrings): $\preim_\phi\!\l(S_2\r)\subseteq R_1$ is a subring.
+* (Preimage preserve ideals): If $S_2\subseteq R_2$ is an ideal, then $\preim_\phi\!\l(S_2\r)\subseteq R_1$ is an ideal.
 
 ```
 

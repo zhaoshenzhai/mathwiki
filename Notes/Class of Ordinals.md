@@ -16,7 +16,7 @@ Justifications: [[ON is a proper class]]
 ``` ad-Definition
 title: Definition (Informal).
 
-_The **class of ordinals** is the proper class $\ON\coloneqq\l\{x\mid x\textrm{ is an ordinal}\r\}$._
+The **class of ordinals** is the proper class $\ON\coloneqq\l\{x\mid x\textrm{ is an ordinal}\r\}$.
 
 ```
 

@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ and $\cat{D}$ be categories. A functor $\ms{F}:\cat{C}\to\cat{D}$ is said to be **(weakly) right-invertible** if there exists a functor $\ms{H}:\cat{D}\to\cat{C}$ such that $\ms{F}\circ\ms{H}$ is naturally isomorphic to_ $\Id_\cat{D}$_, in which case $\ms{H}$ is called a **(weak) right-inverse of $\ms{F}$**._
+Let $\cat{C}$ and $\cat{D}$ be categories. A functor $\ms{F}:\cat{C}\to\cat{D}$ is said to be **(weakly) right-invertible** if there exists a functor $\ms{H}:\cat{D}\to\cat{C}$ such that $\ms{F}\circ\ms{H}$ is naturally isomorphic to $\Id_\cat{D}$, in which case $\ms{H}$ is called a **(weak) right-inverse of $\ms{F}$**.
 
 ```
 

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be finite-dimensional $K$-vector spaces, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, and fix two choices of bases $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}$ and $\mc{C}\coloneqq\l\{c_1,\dots,c_m\r\}$ of $V$ and $W$, respectively. Then, for every linear map $T:V\to W$ and $v\in V$, we have_ $\l[T\l(v\r)\r]_\mc{C}=\l[T\r]_\mc{B}^\mc{C}\l[v\r]_\mc{B}$_._
+Let $V$ and $W$ be finite-dimensional $K$-vector spaces, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, and fix two choices of bases $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}$ and $\mc{C}\coloneqq\l\{c_1,\dots,c_m\r\}$ of $V$ and $W$, respectively. Then, for every linear map $T:V\to W$ and $v\in V$, we have $\l[T\l(v\r)\r]_\mc{C}=\l[T\r]_\mc{B}^\mc{C}\l[v\r]_\mc{B}$.
 
 ```
 

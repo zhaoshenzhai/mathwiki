@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\mc{T}_1$ and $\mc{T}_2$ be topologies on a set $X$ and let $\mc{O}_1$ and $\mc{O}_2$ be topologies on a set $Y$. Then_
+Let $\mc{T}_1$ and $\mc{T}_2$ be topologies on a set $X$ and let $\mc{O}_1$ and $\mc{O}_2$ be topologies on a set $Y$. Then
 $$\begin{equation}
     \mc{T}_1\subseteq\mc{T}_2\land\mc{O}_1\subseteq\mc{O}_2\ \ \ \ \Leftrightarrow\ \ \ \ \mc{T}_1\times\mc{O}_1\subseteq\mc{T}_2\times\mc{O}_2.
 \end{equation}$$

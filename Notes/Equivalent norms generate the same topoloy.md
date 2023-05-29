@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a $K$-vector space. Then any two equivalent norms $\|\slot\|_1$ and $\|\slot\|_2$ on $V$ generate the same topology on $V$._
+Let $V$ be a $K$-vector space. Then any two equivalent norms $\|\slot\|_1$ and $\|\slot\|_2$ on $V$ generate the same topology on $V$.
 
 ```
 

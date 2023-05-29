@@ -17,9 +17,9 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:X\to Y$ and fix $A\subseteq X$ and $B\subseteq Y$. Then_
-* _$A\subseteq\preim_f\l(\im_f\l(A\r)\r)$; equality holds if $f$ is injective, and_
-* _$\im_f\l(\preim_f\l(B\r)\r)\subseteq B$; equality holds if $f$ is surjective._
+Let $f:X\to Y$ and fix $A\subseteq X$ and $B\subseteq Y$. Then
+* $A\subseteq\preim_f\l(\im_f\l(A\r)\r)$; equality holds if $f$ is injective, and
+* $\im_f\l(\preim_f\l(B\r)\r)\subseteq B$; equality holds if $f$ is surjective.
 
 ```
 

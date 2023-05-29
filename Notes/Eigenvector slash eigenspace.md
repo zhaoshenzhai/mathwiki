@@ -20,11 +20,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $T:V\to V$ be a linear operator on a $K$-vector space $V$. If $\lambda\in K$ is an eigenvalue of $T$, then_
+Let $T:V\to V$ be a linear operator on a $K$-vector space $V$. If $\lambda\in K$ is an eigenvalue of $T$, then
 $$\begin{equation}
     E_\lambda\coloneqq\ker\l(\lambda\id_V-T\r)=\l\{v\in V\mid T\l(v\r)=\lambda v\r\}
 \end{equation}$$
-_is called the **eigenspace of $T$ corresponding to $\lambda$**. A vector _$v\in E_\lambda$ _is said to be an **eigenvector of $T$ corresponding to $\lambda$**._
+is called the **eigenspace of $T$ corresponding to $\lambda$**. A vector $v\in E_\lambda$ is said to be an **eigenvector of $T$ corresponding to $\lambda$**.
 
 ```
 

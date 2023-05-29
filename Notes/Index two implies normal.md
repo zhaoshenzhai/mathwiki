@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $H\subseteq G$ be a subgroup of a group $G$. If $\l[G:H\r]=2$, then $H\nsubgrpeq G$._
+Let $H\subseteq G$ be a subgroup of a group $G$. If $\l[G:H\r]=2$, then $H\nsubgrpeq G$.
 
 ```
 

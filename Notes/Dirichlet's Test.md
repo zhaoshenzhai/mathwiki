@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Dirichlet$\textrm{'}$s Test).
 
-_Let $\tpl{a_k}$ and $\tpl{b_k}$ be sequences in $\R$. If $\tpl{a_k}$ is non-increasing, $a_k\to0$, and the partial sums of $\tpl{b_k}$ are bounded, then_ $\sum_{k=1}^{\infty}a_kb_k$ _converges._
+Let $\tpl{a_k}$ and $\tpl{b_k}$ be sequences in $\R$. If $\tpl{a_k}$ is non-increasing, $a_k\to0$, and the partial sums of $\tpl{b_k}$ are bounded, then $\sum_{k=1}^{\infty}a_kb_k$ converges.
 
 ```
 

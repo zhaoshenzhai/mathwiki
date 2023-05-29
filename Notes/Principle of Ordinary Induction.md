@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set. If $X$ is inductive, then $X$ contains all natural numbers._
+Let $X$ be a set. If $X$ is inductive, then $X$ contains all natural numbers.
 
 ```
 

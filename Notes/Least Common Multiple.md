@@ -16,10 +16,10 @@ Justifications: [[Least common multiple exists]]
 ``` ad-Definition
 title: Definition.
 
-_Let $a,b\in\Z\comp\l\{0\r\}$. An element $m\in\Z\comp\l\{0\r\}$ is said to be a **least common multiple of $a$ and $b$** if_
-* _$m$ is a common multiple of $a$ and $b$; that is, if $a\divides m$ and $b\divides m$, and_
-* _for all common multiples $m'$ of $a$ and $b$, $m\divides m'$._
+Let $a,b\in\Z\comp\l\{0\r\}$. An element $m\in\Z\comp\l\{0\r\}$ is said to be a **least common multiple of $a$ and $b$** if
+* $m$ is a common multiple of $a$ and $b$; that is, if $a\divides m$ and $b\divides m$, and
+* for all common multiples $m'$ of $a$ and $b$, $m\divides m'$.
 
-_The least common multiple of $a$ and $b$, is, up to sign, unique; write $\lcm\l(a,b\r)\coloneqq\l|m\r|$._
+The least common multiple of $a$ and $b$, is, up to sign, unique; write $\lcm\l(a,b\r)\coloneqq\l|m\r|$.
 
 ```

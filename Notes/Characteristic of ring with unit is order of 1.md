@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a ring. If $R$ has a unit, then $\charac R=\ord{1}$ where the order is w.r.t. the additive group $\tpl{R,+}$._
+Let $R$ be a ring. If $R$ has a unit, then $\charac R=\ord{1}$ where the order is w.r.t. the additive group $\tpl{R,+}$.
 
 ```
 

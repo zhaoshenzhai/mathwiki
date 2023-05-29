@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be vector spaces and let_ $\mc{B}\coloneqq\l\{b_i\r\}$ _be a basis for $V$. For any function $f:\mc{B}\to W$, there exists a unique linear map $T:V\to W$ such that_ $\l.T\r|_\mc{B}=f$_._
+Let $V$ and $W$ be vector spaces and let $\mc{B}\coloneqq\l\{b_i\r\}$ be a basis for $V$. For any function $f:\mc{B}\to W$, there exists a unique linear map $T:V\to W$ such that $\l.T\r|_\mc{B}=f$.
 
 ```
 

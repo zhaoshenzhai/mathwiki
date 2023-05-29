@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set and let $R$ be a binary relation. If $R$ is asymmetric on $X$, then $R$ is irreflexive on $X$._
+Let $X$ be a set and let $R$ be a binary relation. If $R$ is asymmetric on $X$, then $R$ is irreflexive on $X$.
 
 ```
 

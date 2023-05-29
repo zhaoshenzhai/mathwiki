@@ -16,10 +16,10 @@ Justifications: [[Field implies PID]]
 ``` ad-Definition
 title: Definition.
 
-_Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$ and consider the proper ideal_
+Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$ and consider the proper ideal
 $$\begin{equation}
     I_T\coloneqq\l\{f\in K\l[x\r]\mid f\l(T\r)=0\r\}.
 \end{equation}$$
-_The **minimal polynomial of $T$** is the unique monic polynomial $\mu_T\in K\l[x\r]$ such that $\sring{\mu_T}=I_T$._
+The **minimal polynomial of $T$** is the unique monic polynomial $\mu_T\in K\l[x\r]$ such that $\sring{\mu_T}=I_T$.
 
 ```

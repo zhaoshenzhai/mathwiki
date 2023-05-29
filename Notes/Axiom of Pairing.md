@@ -13,7 +13,7 @@ Equivalences: _Not Applicable_
 ``` ad-Axiom
 title: Axiom.
 
-_Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Pairing** is the $\mc{L}$-formula_
+Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Pairing** is the $\mc{L}$-formula
 $$\begin{equation}
     \fa A\fa B\ex P\l[x\in P\Leftrightarrow\l(x\in A\lor x\in B\r)\r].
 \end{equation}$$

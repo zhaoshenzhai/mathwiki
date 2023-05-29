@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and let $\tpl{x_n}$ be a sequence in $X$. If $x_n\to x$ for some $x\in X$, then_ $x_{n_k}\to x$ _for all subsequences_ $\tpl{x_{n_k}}$ _of $\tpl{x_n}$._
+Let $\tpl{X,\mc{T}}$ be a topological space and let $\tpl{x_n}$ be a sequence in $X$. If $x_n\to x$ for some $x\in X$, then $x_{n_k}\to x$ for all subsequences $\tpl{x_{n_k}}$ of $\tpl{x_n}$.
 
 ```
 

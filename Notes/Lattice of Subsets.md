@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. The **lattice of subsets of $X$** is the pair $\tpl{\pow\l(X\r),\subseteq}$._
+Let $X$ be a set. The **lattice of subsets of $X$** is the pair $\tpl{\pow\l(X\r),\subseteq}$.
 
 ```

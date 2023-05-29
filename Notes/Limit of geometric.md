@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $a\in\R^+$. If $0\leq a<1$, then_ $\lim\limits_{n\to\infty}a^n=0$_. Otherwise, if $a\geq1$, then_ $\lim\limits_{n\to\infty}a^n=+\infty$_._
+Let $a\in\R^+$. If $0\leq a<1$, then $\lim\limits_{n\to\infty}a^n=0$. Otherwise, if $a\geq1$, then $\lim\limits_{n\to\infty}a^n=+\infty$.
 
 ```
 

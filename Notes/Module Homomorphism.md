@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $M$ and $N$ be left $R$-modules. An **$R$-module homomorphism from $M$ to $N$** is an additive group homomorphism $\phi:M\to N$ such that_
+Let $M$ and $N$ be left $R$-modules. An **$R$-module homomorphism from $M$ to $N$** is an additive group homomorphism $\phi:M\to N$ such that
 $$\begin{equation}
     \fa r\in R,\fa m\in M:\phi\l(rm\r)=r\phi\l(m\r).
 \end{equation}$$

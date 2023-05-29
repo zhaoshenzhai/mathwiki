@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $S\subseteq G$ be a subset of a group $G$. The **normalizer of $S$ in $G$** is the subgroup $N_G\!\l(S\r)\coloneqq\l\{g\in G\mid gS=Sg\r\}$ of $G$._
+Let $S\subseteq G$ be a subset of a group $G$. The **normalizer of $S$ in $G$** is the subgroup $N_G\!\l(S\r)\coloneqq\l\{g\in G\mid gS=Sg\r\}$ of $G$.
 
 ```
 

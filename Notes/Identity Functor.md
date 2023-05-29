@@ -16,7 +16,7 @@ Justifications: [[Identity functor is a functor]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category. The **identity functor on $\cat{C}$** is the covariant functor_ $\Id_\cat{C}:\cat{C}\to\cat{C}$ _sending all objects and all morphisms to themselves. Formally,_ $\Id_\cat{C}\coloneqq\tpl{\Id_\cat{C}^{\Obj},\l\{\l(\Id_\cat{C}^{\Hom}\r)_{C,D}\r\}_{C,D\in\Obj\l(\cat{C}\r)}}$ _where_
+Let $\cat{C}$ be a category. The **identity functor on $\cat{C}$** is the covariant functor $\Id_\cat{C}:\cat{C}\to\cat{C}$ sending all objects and all morphisms to themselves. Formally, $\Id_\cat{C}\coloneqq\tpl{\Id_\cat{C}^{\Obj},\l\{\l(\Id_\cat{C}^{\Hom}\r)_{C,D}\r\}_{C,D\in\Obj\l(\cat{C}\r)}}$ where
 $$\begin{equation}
     \l[\begin{aligned}
         \Id_\cat{C}^{\Obj}:\Obj\l(\cat{C}\r)&\to\Obj\l(\cat{C}\r)\\

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Basis Extension Theorem).
 
-_Let $K$ be a field and let $V$ be a finite-dimensional vector space over $K$. If $U\subseteq V$ is a linearly independent subset of $V$, then there exists a finite basis_ $\mc{B}$ _of $V$ with $U\subseteq\mc{B}$._
+Let $K$ be a field and let $V$ be a finite-dimensional vector space over $K$. If $U\subseteq V$ is a linearly independent subset of $V$, then there exists a finite basis $\mc{B}$ of $V$ with $U\subseteq\mc{B}$.
 
 ```
 

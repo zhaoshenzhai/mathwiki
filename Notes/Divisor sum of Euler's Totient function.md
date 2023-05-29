@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_For all $n\in\N^+$, we have_ $n=\sum_{m\divides n}\phi\l(m\r)$_._
+For all $n\in\N^+$, we have $n=\sum_{m\divides n}\phi\l(m\r)$.
 
 ```
 

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Lagrange$\textrm{'}$s Theorem).
 
-_Let $H\subseteq G$ be a subgroup of a finite group $G$. Then $\l[G:H\r]\cdot\ord{H}=\ord{G}$._
+Let $H\subseteq G$ be a subgroup of a finite group $G$. Then $\l[G:H\r]\cdot\ord{H}=\ord{G}$.
 
 ```
 

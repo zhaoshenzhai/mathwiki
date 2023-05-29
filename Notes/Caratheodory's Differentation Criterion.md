@@ -17,11 +17,11 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Carath$\acute{\textbf{e}}$odory$\textrm{'}$s Differentiation Criterion).
 
-_Fix some $\Omega\subseteq\R$ and a cluster point $c\in\Omega$. A function $f:\Omega\to\R$ is differentiable at $c$ iff there exists a function $\phi:\Omega\to\R$, continuous at $c$, such that_
+Fix some $\Omega\subseteq\R$ and a cluster point $c\in\Omega$. A function $f:\Omega\to\R$ is differentiable at $c$ iff there exists a function $\phi:\Omega\to\R$, continuous at $c$, such that
 $$\begin{equation}
     f\l(x\r)-f\l(c\r)=\phi\l(x\r)\l(x-c\r)
 \end{equation}$$
-_for all $x\in\Omega$, in which case $\phi\l(c\r)=f'\l(c\r)$._
+for all $x\in\Omega$, in which case $\phi\l(c\r)=f'\l(c\r)$.
 
 ```
 

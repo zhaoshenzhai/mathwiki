@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Fix $n\in\N^+$. For every $x\in\R^+$, there exists a unique $y\in\R^+$ such that $y^n=x$._
+Fix $n\in\N^+$. For every $x\in\R^+$, there exists a unique $y\in\R^+$ such that $y^n=x$.
 
 ```
 

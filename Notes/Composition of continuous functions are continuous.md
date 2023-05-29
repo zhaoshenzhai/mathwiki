@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$, $Y$, and $Z$ be topological spaces. If $f:X\to Y$ and $g:Y\to Z$ are continuous, then so is $g\circ f:X\to Z$. In particular, if $f$ is continuous at $p$ and $g$ is continuous at $f\l(p\r)$, then $g\circ f$ is continuous at $p$._
+Let $X$, $Y$, and $Z$ be topological spaces. If $f:X\to Y$ and $g:Y\to Z$ are continuous, then so is $g\circ f:X\to Z$. In particular, if $f$ is continuous at $p$ and $g$ is continuous at $f\l(p\r)$, then $g\circ f$ is continuous at $p$.
 
 ```
 

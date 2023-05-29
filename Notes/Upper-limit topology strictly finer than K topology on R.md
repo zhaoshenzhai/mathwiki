@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\R$ be the set of real numbers. Then the upper limit topology_ $\ULtopR$ _is strictly finer than $K$ topology_ $\KtopR$ _on $\R$._
+Let $\R$ be the set of real numbers. Then the upper limit topology $\ULtopR$ is strictly finer than $K$ topology $\KtopR$ on $\R$.
 
 ```
 

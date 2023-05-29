@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,d}$ be a metric space. A sequence $\tpl{x_n}$ in $X$ is said to be **contractive** if there exists some $c\in\l(0,1\r)$ such that_
+Let $\tpl{X,d}$ be a metric space. A sequence $\tpl{x_n}$ in $X$ is said to be **contractive** if there exists some $c\in\l(0,1\r)$ such that
 $$\begin{equation}
     \fa n\in\N:d\l(x_{n+1},x_{n+2}\r)\leq cd\l(x_n,x_{n+1}\r).
 \end{equation}$$

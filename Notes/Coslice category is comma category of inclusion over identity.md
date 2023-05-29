@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ be a category and fix $C\in\Obj\l(\cat{C}\r)$. Then the coslice category $\l(C\downarrow\cat{C}\r)$ is isomorphic to the comma category_ $\l(\ms{I}\downarrow\Id_\cat{C}\r)$
+Let $\cat{C}$ be a category and fix $C\in\Obj\l(\cat{C}\r)$. Then the coslice category $\l(C\downarrow\cat{C}\r)$ is isomorphic to the comma category $\l(\ms{I}\downarrow\Id_\cat{C}\r)$
 ![[Images/2022-03-10_173659/image.svg|140]]
 
 where $\ms{I}:\bf{1}\to\cat{C}$ is the inclusion functor and $\bf{1}$ is the discrete category with $\Obj\l(\bf{1}\r)\coloneqq\l\{C\r\}$ and $\Hom\l(\bf{1}\r)\coloneqq\l\{\id_C\r\}$.

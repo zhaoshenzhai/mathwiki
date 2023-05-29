@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set and let $R$ be a binary relation. Then $R$ is trichotomous on $X$ iff it is asymmetric and connected on $X$._
+Let $X$ be a set and let $R$ be a binary relation. Then $R$ is trichotomous on $X$ iff it is asymmetric and connected on $X$.
 
 ```
 

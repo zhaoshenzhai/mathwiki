@@ -16,9 +16,9 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $G_1,\dots,G_n$ be groups. A sequence $G_1\rightarrow G_2\rightarrow\cdots\rightarrow G_n$ of homomorphisms_ $\phi_i:G_i\to G_{i+1}$ _is said to be **exact** if_ $\im\phi_i=\ker\phi_{i+1}$ _for all $i$._
-* _A **short exact sequence** is an exact sequence $0\rightarrow G_1\overset{\phi_1}{\rightarrow}G_2\overset{\phi_2}{\rightarrow}G_2\rightarrow0$; that is, a sequence for which $\phi_1$ is injective, $\phi_2$ is surjective, and $\im\phi_1=\ker\phi_2$._
-* _A **long exact sequence** is an exact sequence that is not short._
+Let $G_1,\dots,G_n$ be groups. A sequence $G_1\rightarrow G_2\rightarrow\cdots\rightarrow G_n$ of homomorphisms $\phi_i:G_i\to G_{i+1}$ is said to be **exact** if $\im\phi_i=\ker\phi_{i+1}$ for all $i$.
+* A **short exact sequence** is an exact sequence $0\rightarrow G_1\overset{\phi_1}{\rightarrow}G_2\overset{\phi_2}{\rightarrow}G_2\rightarrow0$; that is, a sequence for which $\phi_1$ is injective, $\phi_2$ is surjective, and $\im\phi_1=\ker\phi_2$.
+* A **long exact sequence** is an exact sequence that is not short.
 
 ```
 

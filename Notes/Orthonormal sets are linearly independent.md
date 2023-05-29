@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. Then every orthonormal list of vectors_ $\l\{e_i\r\}_{i\in I}\subseteq V$ _is linearly independent._
+Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. Then every orthonormal list of vectors $\l\{e_i\r\}_{i\in I}\subseteq V$ is linearly independent.
 
 ```
 

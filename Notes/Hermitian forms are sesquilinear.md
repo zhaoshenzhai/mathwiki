@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a complex vector space. Then every hermitian form $\inprod{\slot}{\slot}:V\times V\to\C$ on $V$ is sesquilinear._
+Let $V$ be a complex vector space. Then every hermitian form $\inprod{\slot}{\slot}:V\times V\to\C$ on $V$ is sesquilinear.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Orbit-Stabilizer).
 
-_Let $G$ be a group acting on a set $X$ and fix $x\in X$. Then there is a bijection between the orbit $Gx$ and cosets $G/G_x$ of the stabilizer $G_x$, so $\l|Gx\r|=\l[G:G_x\r]$._
+Let $G$ be a group acting on a set $X$ and fix $x\in X$. Then there is a bijection between the orbit $Gx$ and cosets $G/G_x$ of the stabilizer $G_x$, so $\l|Gx\r|=\l[G:G_x\r]$.
 
 ```
 

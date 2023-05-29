@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be finite-dimensional $K$-vector spaces, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$. For a linear map $T:V\to W$, let $A,A'\in\mat{m\times n}{K}$ be the matrix representations of $T$ under bases $\mc{B}$, $\mc{B}'$ and $\mc{C}$, $\mc{C}'$ of $V$ and $W$, respectively. Then the left-multiplication maps have the form_
+Let $V$ and $W$ be finite-dimensional $K$-vector spaces, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$. For a linear map $T:V\to W$, let $A,A'\in\mat{m\times n}{K}$ be the matrix representations of $T$ under bases $\mc{B}$, $\mc{B}'$ and $\mc{C}$, $\mc{C}'$ of $V$ and $W$, respectively. Then the left-multiplication maps have the form
 $$\begin{equation}
     L_A=\phi_\mc{C}\circ T\circ\phi_\mc{B}^{-1}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ L_{A'}=\phi_{\mc{C}'}\circ T\circ\phi_{\mc{B}'}^{-1},
 \end{equation}$$
-_and_ $A'=P_{\mc{C}\to\mc{C}'}AQ_{\mc{B}'\to\mc{B}}$ _where_ $P_{\mc{C}\to\mc{C}'}\!\coloneqq\l[\id_W\r]_\mc{C}^{\mc{C}'}$ _and_ $Q_{\mc{B}'\to\mc{B}}\!\coloneqq\l[\id_V\r]_{\mc{B}'}^\mc{B}$ _are the change of basis matrices from $\mc{C}$ to $\mc{C}'$ and from $\mc{B}'$ to $\mc{B}$, respectively._
+and $A'=P_{\mc{C}\to\mc{C}'}AQ_{\mc{B}'\to\mc{B}}$ where $P_{\mc{C}\to\mc{C}'}\!\coloneqq\l[\id_W\r]_\mc{C}^{\mc{C}'}$ and $Q_{\mc{B}'\to\mc{B}}\!\coloneqq\l[\id_V\r]_{\mc{B}'}^\mc{B}$ are the change of basis matrices from $\mc{C}$ to $\mc{C}'$ and from $\mc{B}'$ to $\mc{B}$, respectively.
 
 ```
 

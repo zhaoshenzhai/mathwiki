@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:\l[a,b\r]\to\R$ be Riemann integrable. Then $f$ is bounded on $\l[a,b\r]$._
+Let $f:\l[a,b\r]\to\R$ be Riemann integrable. Then $f$ is bounded on $\l[a,b\r]$.
 
 ```
 

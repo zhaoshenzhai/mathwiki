@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set and $\mc{B}$ be a basis for the topology $\mc{T}\l(\mc{B}\r)$ on $X$. Then $\mc{T}\l(\mc{B}\r)$ is the set of all unions of elements of $\mc{B}$. That is,_
+Let $X$ be a set and $\mc{B}$ be a basis for the topology $\mc{T}\l(\mc{B}\r)$ on $X$. Then $\mc{T}\l(\mc{B}\r)$ is the set of all unions of elements of $\mc{B}$. That is,
 $$\begin{equation}
     \mc{T}\l(\mc{B}\r)=\l\{U\in\pow\l(X\r)\mid\ex\mc{A}\subseteq\mc{B}:U=\bigcup\mc{A}\r\}.
 \end{equation}$$

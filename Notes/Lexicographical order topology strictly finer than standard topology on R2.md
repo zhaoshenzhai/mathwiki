@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $<_L$ be the lexicographical order on $\R^2$. Then the lexicographical order topology_ $\mc{T}^{<_L}_{\R^2}$ _on $\R^2$ is strictly finer than the standard topology_ $\sttopR[2]$ _on $\R^2$._
+Let $<_L$ be the lexicographical order on $\R^2$. Then the lexicographical order topology $\mc{T}^{<_L}_{\R^2}$ on $\R^2$ is strictly finer than the standard topology $\sttopR[2]$ on $\R^2$.
 
 ```
 

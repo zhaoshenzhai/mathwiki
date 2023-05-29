@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set and let $R$ be a binary relation on $X$. Then the set_
+Let $X$ be a set and let $R$ be a binary relation on $X$. Then the set
 $$\begin{equation}
     \rfcl R=R\cup\id_X
 \end{equation}$$
-_is the reflexive binary relation on $X$ contained in every reflexive binary relation that contains $R$._
+is the reflexive binary relation on $X$ contained in every reflexive binary relation that contains $R$.
 
 ```
 

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Fermat$\textrm{'}$s Theorem on Stationary Points).
 
-_Fix some $\Omega\subseteq\R$ and a point $c\in\Omega^\circ$. For a function $f:\Omega\to\R$, if $c$ is a local extremum of $f$ and $f$ is differentiable at $c$, then $f'\l(c\r)=0$._
+Fix some $\Omega\subseteq\R$ and a point $c\in\Omega^\circ$. For a function $f:\Omega\to\R$, if $c$ is a local extremum of $f$ and $f$ is differentiable at $c$, then $f'\l(c\r)=0$.
 
 ```
 

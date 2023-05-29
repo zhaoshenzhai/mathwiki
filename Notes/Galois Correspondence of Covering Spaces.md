@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Galois Correspondence of Covering Spaces).
 
-_Let $\tpl{X,x_0}$ be a path-connected, locally path-connected, and semilocally simply-connected pointed space. For every subgroup $H\subgrpeq\pi_1\l(X,x_0\r)$, there exists a covering map $q:\widetilde{X}_H\to X$ and a point $\widetilde{x}_0$ such that_ $q_\ast\pi_1(\widetilde{X}_H,\widetilde{x}_0)=H$_. Furthermore, we have the following bijections._
+Let $\tpl{X,x_0}$ be a path-connected, locally path-connected, and semilocally simply-connected pointed space. For every subgroup $H\subgrpeq\pi_1\l(X,x_0\r)$, there exists a covering map $q:\widetilde{X}_H\to X$ and a point $\widetilde{x}_0$ such that $q_\ast\pi_1(\widetilde{X}_H,\widetilde{x}_0)=H$. Furthermore, we have the following bijections.
 $$\begin{equation}
     \begin{gathered}
         &\textrm{Basepoint-preserving isomorphism classes of covering maps of }X&&\longleftrightarrow&&\textrm{Subgroups of }\pi_1\l(X,x_0\r) \\

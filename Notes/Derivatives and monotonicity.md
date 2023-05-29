@@ -13,10 +13,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $a,b\in\R$ and let $f:\l(a,b\r)\to\R$ be differentiable. Then:_
-* _$f'\l(x\r)\geq0$ for all $x\in\l(a,b\r)$ iff $f$ is monotonically increasing._
-* _$f'\l(x\r)=0$ for all $x\in\l(a,b\r)$ iff $f$ is constant._
-* _$f'\l(x\r)\leq0$ for all $x\in\l(a,b\r)$ iff $f$ is monotonically decreasing._
+Let $a,b\in\R$ and let $f:\l(a,b\r)\to\R$ be differentiable. Then:
+* $f'\l(x\r)\geq0$ for all $x\in\l(a,b\r)$ iff $f$ is monotonically increasing.
+* $f'\l(x\r)=0$ for all $x\in\l(a,b\r)$ iff $f$ is constant.
+* $f'\l(x\r)\leq0$ for all $x\in\l(a,b\r)$ iff $f$ is monotonically decreasing.
 
 ```
 

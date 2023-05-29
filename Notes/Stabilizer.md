@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $G$ be a group acting on a set $X$ and fix $x\in X$. The **stabilizer/isotropy subgroup of $x$ under $G$** is the subgroup $G_x\coloneqq\l\{g\in G\mid gx=x\r\}$._
+Let $G$ be a group acting on a set $X$ and fix $x\in X$. The **stabilizer/isotropy subgroup of $x$ under $G$** is the subgroup $G_x\coloneqq\l\{g\in G\mid gx=x\r\}$.
 
 ```

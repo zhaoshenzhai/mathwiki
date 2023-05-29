@@ -20,11 +20,11 @@ Justifications: [[Hausdorff implies limits are unique]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and fix $x\in X$. A sequence_ $\tpl{x_n}_{n\in\N}$ _in $X$ is said to **converge to $x$ w.r.t. $\mc{T}$**, and $x$ is said to be a **limit of $\tpl{x_n}$ w.r.t. $\mc{T}$**, if_
+Let $\tpl{X,\mc{T}}$ be a topological space and fix $x\in X$. A sequence $\tpl{x_n}_{n\in\N}$ in $X$ is said to **converge to $x$ w.r.t. $\mc{T}$**, and $x$ is said to be a **limit of $\tpl{x_n}$ w.r.t. $\mc{T}$**, if
 $$\begin{equation}
     \fa U\in\mc{U}_x,\fa^\infty n\in\N:x_n\in U,
 \end{equation}$$
-_where $\mc{U}_x$ is the set of all neighborhoods of $x$. If $\tpl{X,\mc{T}}$ is Hausdorff, then $x$ is unique and we write_ $\lim\limits_{n\to\infty}x_n\coloneqq x$ _or $x_n\to x$ as $n\to\infty$._
+where $\mc{U}_x$ is the set of all neighborhoods of $x$. If $\tpl{X,\mc{T}}$ is Hausdorff, then $x$ is unique and we write $\lim\limits_{n\to\infty}x_n\coloneqq x$ or $x_n\to x$ as $n\to\infty$.
 
 ```
 

@@ -16,17 +16,17 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category and fix a subcategory $\cat{S}$ of $\cat{C}$. The **inclusion functor of $\cat{S}$ to $\cat{C}$** is the covariant functor $\ms{I}:\cat{S}\to\cat{C}$ sending all objects and morphisms to themselves (in $\cat{C}$). Formally, _ $\ms{I}\coloneqq\tpl{\ms{I}^{\Obj},\l\{\ms{I}^{\Hom}_{X,Y}\r\}_{X,Y\in\Obj\l(\cat{S}\r)}}$ _where_
+Let $\cat{C}$ be a category and fix a subcategory $\cat{S}$ of $\cat{C}$. The **inclusion functor of $\cat{S}$ to $\cat{C}$** is the covariant functor $\ms{I}:\cat{S}\to\cat{C}$ sending all objects and morphisms to themselves (in $\cat{C}$). Formally, $\ms{I}\coloneqq\tpl{\ms{I}^{\Obj},\l\{\ms{I}^{\Hom}_{X,Y}\r\}_{X,Y\in\Obj\l(\cat{S}\r)}}$ where
 $$\begin{equation}
     \begin{aligned}
-        \ms{I}^{\Obj}:\Obj\l(\cat{S}\r)&\to\Obj\l(\cat{C}\r)\\
+        \ms{I}^{\Obj}:\Obj\l(\cat{S}\r)&\to\Obj\l(\cat{C}\r) \\
         X&\mapsto X
     \end{aligned}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \fa X,Y\in\Obj\l(\cat{S}\r):
     \l[\begin{aligned}
-        \ms{I}^{\Hom}_{X,Y}:\Hom_\cat{S}\!\l(X,Y\r)&\to\Hom_\cat{C}\!\l(X,Y\r)\\
+        \ms{I}^{\Hom}_{X,Y}:\Hom_\cat{S}\!\l(X,Y\r)&\to\Hom_\cat{C}\!\l(X,Y\r) \\
         f&\mapsto f
     \end{aligned}\r]
 \end{equation}$$
-_are the appropriate inclusion functions._
+are the appropriate inclusion functions.
 
 ```

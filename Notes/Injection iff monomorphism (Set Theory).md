@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Consider the category $\catset$ and let $f:X\to Y$ be a function. Then $f$ is an injection iff $f$ is a monomorphism._
+Consider the category $\catset$ and let $f:X\to Y$ be a function. Then $f$ is an injection iff $f$ is a monomorphism.
 
 ```
 

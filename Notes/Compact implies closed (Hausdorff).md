@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a Hausdorff space and consider a subspace $Y\subseteq X$. If $Y$ is compact, then it is closed._
+Let $X$ be a Hausdorff space and consider a subspace $Y\subseteq X$. If $Y$ is compact, then it is closed.
 
 ```
 

@@ -20,11 +20,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\mc{T}}$ be an ordered topological space. A sequence_ $\tpl{x_n}_{n\in\N}$ _in $X$ is said to **converge to $\pm\infty$ w.r.t. $\mc{T}$** if_
+Let $\tpl{X,\mc{T}}$ be an ordered topological space. A sequence $\tpl{x_n}_{n\in\N}$ in $X$ is said to **converge to $\pm\infty$ w.r.t. $\mc{T}$** if
 $$\begin{equation}
-    \fa a\in X,\fa^\infty n\in\N: x_n\in\l(a,+\infty\r)\ \ \ \ \ \ \ \ \textrm{\it{(resp. }}\fa b\in X,\fa^\infty n\in\N:x_n\in\l(-\infty,b\r)\textrm{\it),}
+    \fa a\in X,\fa^\infty n\in\N:x_n\in\l(a,+\infty\r)\ \ \ \ \ \ \ \ \textrm{\it{(resp. }}\fa b\in X,\fa^\infty n\in\N:x_n\in\l(-\infty,b\r)\textrm{\it),}
 \end{equation}$$
-_in which case we write_ $\lim\limits_{n\to\infty}x_n=\pm\infty$_ or $x_n\to\pm\infty$ as $n\to\infty$._
+in which case we write $\lim\limits_{n\to\infty}x_n=\pm\infty$ or $x_n\to\pm\infty$ as $n\to\infty$.
 
 ```
 

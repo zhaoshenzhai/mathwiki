@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and let $\tpl{Y,\l.\mc{T}\r|_Y}$ be a subspace thereof. Then for every $Z\subseteq Y$, we have $\l.\l.\mc{T}\r|_Y\r|_Z=\l.\mc{T}\r|_Z$._
+Let $\tpl{X,\mc{T}}$ be a topological space and let $\tpl{Y,\l.\mc{T}\r|_Y}$ be a subspace thereof. Then for every $Z\subseteq Y$, we have $\l.\l.\mc{T}\r|_Y\r|_Z=\l.\mc{T}\r|_Z$.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Lebesgue Integrability Criterion).
 
-_A bounded function $f:\l[a,b\r]\to\R$ is Riemann integrable iff $f$ is continuous a.e._
+A bounded function $f:\l[a,b\r]\to\R$ is Riemann integrable iff $f$ is continuous a.e.
 
 ```
 

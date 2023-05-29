@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a path-connected topological space and fix $x_0,x_1\in X$. Then $\pi_1\!\l(X\r)=0$ iff every pair of paths $\gamma_0,\gamma_1:\l[0,1\r]\to X$ from $x_0$ to $x_1$ are homotopic._
+Let $X$ be a path-connected topological space and fix $x_0,x_1\in X$. Then $\pi_1\!\l(X\r)=0$ iff every pair of paths $\gamma_0,\gamma_1:\l[0,1\r]\to X$ from $x_0$ to $x_1$ are homotopic.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set and $\ms{T}$ be a non-empty collection of topologies on $X$. Then $\bigcap\ms{T}$ is a topology on $X$._
+Let $X$ be a set and $\ms{T}$ be a non-empty collection of topologies on $X$. Then $\bigcap\ms{T}$ is a topology on $X$.
 
 ```
 

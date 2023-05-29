@@ -13,10 +13,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $U$, $V$, and $W$ be inner product spaces. Then the following properties holds._
-1. _For all linear maps $S,T:V\to W$ and $\lambda\in K$, we have $\l(S+\lambda T\r)^\adj=S^\adj+\bar{\lambda}T^\adj$._
-2. _For all linear maps $S:V\to W$ and $T:U\to V$, we have $\l(ST\r)^\adj=T^\adj S^\adj$._
-3. _For all linear maps $T:V\to W$, we have $T^{\adj\adj}=T$._
+Let $U$, $V$, and $W$ be inner product spaces. Then the following properties holds.
+1. For all linear maps $S,T:V\to W$ and $\lambda\in K$, we have $\l(S+\lambda T\r)^\adj=S^\adj+\bar{\lambda}T^\adj$.
+2. For all linear maps $S:V\to W$ and $T:U\to V$, we have $\l(ST\r)^\adj=T^\adj S^\adj$.
+3. For all linear maps $T:V\to W$, we have $T^{\adj\adj}=T$.
 
 ```
 

@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_A linear operator $T:V\to V$ on an inner product space is normal iff $\inprod{Tu}{Tv}=\inprod{T^\adj u}{T^\adj v}$ for every $u,v\in V$, in which case:_
-* $T^\adj$ _is normal, $\|Tv\|=\|T^\adj v\|$ for all $v\in V$, and $v\in\ker T$ iff $v\in\ker T^\adj$._
-* _For all $\lambda\in K$, the operator $\l(T-\lambda\id\r)$ is normal._
-* _For all $\lambda\in K$, $v$ is an $\lambda$-eigenvector of $T$ iff it is an $\bar{\lambda}$-eigenvector of $T^\adj$._
-* _If $\lambda,\lambda'\in K$ are distinct eigenvalues, then_ $E_\lambda\perp E_{\lambda'}$_._
+A linear operator $T:V\to V$ on an inner product space is normal iff $\inprod{Tu}{Tv}=\inprod{T^\adj u}{T^\adj v}$ for every $u,v\in V$, in which case:
+* $T^\adj$ is normal, $\|Tv\|=\|T^\adj v\|$ for all $v\in V$, and $v\in\ker T$ iff $v\in\ker T^\adj$.
+* For all $\lambda\in K$, the operator $\l(T-\lambda\id\r)$ is normal.
+* For all $\lambda\in K$, $v$ is an $\lambda$-eigenvector of $T$ iff it is an $\bar{\lambda}$-eigenvector of $T^\adj$.
+* If $\lambda,\lambda'\in K$ are distinct eigenvalues, then $E_\lambda\perp E_{\lambda'}$.
 
 ```
 

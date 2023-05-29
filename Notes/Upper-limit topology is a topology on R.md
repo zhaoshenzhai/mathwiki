@@ -17,11 +17,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\R$ be the set of real numbers. Then the upper limit topology_ $\ULtopR\coloneqq\mc{T}\l(\mc{B}_\textrm{UL}\r)$ _where_
+Let $\R$ be the set of real numbers. Then the upper limit topology $\ULtopR\coloneqq\mc{T}\l(\mc{B}_\textrm{UL}\r)$ where
 $$\begin{equation}
     \mc{B}_\textrm{UL}\coloneqq\l\{B\in\pow\l(\R\r)\mid \ex a,b\in\R:a<b\land B=\l(a,b\r]\r\}.
 \end{equation}$$
-_is a topology on $\R$._
+is a topology on $\R$.
 
 ```
 

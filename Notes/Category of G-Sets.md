@@ -20,7 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $G$ be a group. The **category of $G$-sets** is the (locally-small) category $\catgset$ whose objects are $G$-sets and whose morphisms are $G$-equivariant maps._
+Let $G$ be a group. The **category of $G$-sets** is the (locally-small) category $\catgset$ whose objects are $G$-sets and whose morphisms are $G$-equivariant maps.
 
 ```
 

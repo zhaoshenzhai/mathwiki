@@ -13,10 +13,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a ring. Then, for all $r,s\in R$, the following properties hold._
-* _$r0=0=0r$._
-* _$r\l(-s\r)=-\l(rs\r)=\l(-r\r)s$._
-* _$\l(-r\r)\l(-s\r)=rs$._
+Let $R$ be a ring. Then, for all $r,s\in R$, the following properties hold.
+* $r0=0=0r$.
+* $r\l(-s\r)=-\l(rs\r)=\l(-r\r)s$.
+* $\l(-r\r)\l(-s\r)=rs$.
 
 ```
 

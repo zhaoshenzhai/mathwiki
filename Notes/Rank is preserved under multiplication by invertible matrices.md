@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be finite-dimensional vector spaces, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, and let $T\in\Hom\l(V,W\r)$. Then, for all $Q\in\End\l(V\r)$ and $P\in\End\l(W\r)$, we have $\rank TQ=\rank T$ and $\rank PT=\rank T$. Therefore, we also have $\rank PTQ=\rank T$._
+Let $V$ and $W$ be finite-dimensional vector spaces, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$, and let $T\in\Hom\l(V,W\r)$. Then, for all $Q\in\End\l(V\r)$ and $P\in\End\l(W\r)$, we have $\rank TQ=\rank T$ and $\rank PT=\rank T$. Therefore, we also have $\rank PTQ=\rank T$.
 
 ```
 

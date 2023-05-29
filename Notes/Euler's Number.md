@@ -20,7 +20,7 @@ Justifications: [[Limit converges to Euler's Number]]
 ``` ad-Definition
 title: Definition (Euler$\textrm{'}$s Number).
 
-_The sequence_ $\tpl{\l(1+\frac{1}{n}\r)^n}_{n\in\N^+}$ _in $\R$ converges to **Euler$\textrm{'}$s Number**_
+The sequence $\tpl{\l(1+\frac{1}{n}\r)^n}_{n\in\N^+}$ in $\R$ converges to **Euler$\textrm{'}$s Number**
 $$\begin{equation}
     e\coloneqq\lim\limits_{n\to\infty}\l(1+\frac{1}{n}\r)^n.
 \end{equation}$$

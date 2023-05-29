@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_The Gaussian integers $\Z\l[i\r]$ under the Euclidean function $N\l(z\r)\coloneqq z\bar{z}$ is a EUD._
+The Gaussian integers $\Z\l[i\r]$ under the Euclidean function $N\l(z\r)\coloneqq z\bar{z}$ is a EUD.
 
 ```
 

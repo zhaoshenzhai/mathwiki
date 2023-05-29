@@ -20,7 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A poset $\tpl{X,\leq}$ is called a **meet-semilattice** (resp. **join-semilattice**) if_
+A poset $\tpl{X,\leq}$ is called a **meet-semilattice** (resp. **join-semilattice**) if
 $$\begin{equation}
     \fa x,y\in X,\ex l\in X:l=\inf\l\{x,y\r\}\eqqcolon x\wedge y\ \ \ \ \ \ \ \ \textrm{\it{(resp. }}\fa x,y\in X,\ex u\in X:u=\sup\l\{x,y\r\}\eqqcolon x\vee y\textrm{\it{)}}.
 \end{equation}$$

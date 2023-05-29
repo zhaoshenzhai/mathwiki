@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Lifting Criterion).
 
-_Let $f:\tpl{Y,y_0}\to\tpl{X,x_0}$ be a continuous map between pointed topological spaces and let $p:(\widetilde{X},\widetilde{x}_0)\to\tpl{X,x_0}$ be a covering map. If $Y$ is connected and locally path-connected, then there exists a lift $\widetilde{f}:\tpl{Y,y_0}\to(\widetilde{X},\widetilde{x}_0)$ of $f$ iff_ $f_\ast\!\l(\pi_1\l(Y,y_0\r)\r)\subseteq p_\ast\big(\pi_1(\widetilde{X},\widetilde{x}_0)\big)$_, in which case the lift is unique._
+Let $f:\tpl{Y,y_0}\to\tpl{X,x_0}$ be a continuous map between pointed topological spaces and let $p:(\widetilde{X},\widetilde{x}_0)\to\tpl{X,x_0}$ be a covering map. If $Y$ is connected and locally path-connected, then there exists a lift $\widetilde{f}:\tpl{Y,y_0}\to(\widetilde{X},\widetilde{x}_0)$ of $f$ iff $f_\ast\!\l(\pi_1\l(Y,y_0\r)\r)\subseteq p_\ast\big(\pi_1(\widetilde{X},\widetilde{x}_0)\big)$, in which case the lift is unique.
 ![[Images/2023-05-22_233431/image.svg|150]]
 
 ```

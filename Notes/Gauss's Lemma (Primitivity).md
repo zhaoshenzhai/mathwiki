@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Gauss$\textrm{'}$s Lemma for Primitivity of Polynomials).
 
-_Let $R$ be a UFD. For all $f,g\in R\l[x\r]$, we have $\cont\l(fg\r)=\cont\l(f\r)\cont\l(g\r)$._
+Let $R$ be a UFD. For all $f,g\in R\l[x\r]$, we have $\cont\l(fg\r)=\cont\l(f\r)\cont\l(g\r)$.
 
 ```
 

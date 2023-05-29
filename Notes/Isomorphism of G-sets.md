@@ -20,7 +20,7 @@ Justifications: [[Isomorphism of objects is an equivalence relation]]
 ``` ad-Definition
 title: Definition.
 
-_Let $G$ be a group acting on sets $X$ and $Y$. We say that $X$ and $Y$ are **isomorphic as $G$-sets** if there exists an invertible $G$-equivariant map $f:X\to Y$, called a **$G$-isomorphism**._
+Let $G$ be a group acting on sets $X$ and $Y$. We say that $X$ and $Y$ are **isomorphic as $G$-sets** if there exists an invertible $G$-equivariant map $f:X\to Y$, called a **$G$-isomorphism**.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_For all ordinals $\alpha$ and $\beta$, we have $\alpha\cap\beta\in\ON$._
+For all ordinals $\alpha$ and $\beta$, we have $\alpha\cap\beta\in\ON$.
 
 ```
 

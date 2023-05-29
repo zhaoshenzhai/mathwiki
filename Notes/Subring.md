@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be a ring and fix a subset $S\subseteq R$. Then $S$ is a **subring of $R$** if $S$ is a ring under the induced operations._
+Let $R$ be a ring and fix a subset $S\subseteq R$. Then $S$ is a **subring of $R$** if $S$ is a ring under the induced operations.
 
 ```
 

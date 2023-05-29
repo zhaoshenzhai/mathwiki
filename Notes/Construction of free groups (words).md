@@ -13,18 +13,18 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $A$ be a set. Construct a set $F\l(A\r)$ as follows._
-* _Let $A^{-1}\iso A$ be any set disjoint from $A$ and write $a^{-1}$ for the corresponding element of $a$ in $A^{-1}$. Fix any set $e\not\in A\cup A^{-1}$ and let $A\coloneqq A\cup A^{-1}\cup\l\{e\r\}$ be the set of **alphabets**._
-* _A **word over $A$** is a sequence $\tpl{a_1,a_2,\dots}$ in $A$ such that $a_i=e$ eventually. The maximum $n\in\N$ such that $a_n\neq e$ is the **length of $w$**. Let $W$ denote the set of all words over $A$._
-* _An **elementary reduction over $W$** is a function $r:W\to W$ defined as follows. Let $w\coloneqq\tpl{a_1,a_2\dots}$ be a word over $A$._
-    * _If $a_i=e$ for some $i$ and $a_j\neq e$ for some $j>i$, then_ $r\l(w\r)\coloneqq\tpl{a_1,\dots,a_{i-1},a_{i+1},\dots}$_._
-    * _If_ $a_{i+1}=a_i^{-1}$ _for some $i$, then_ $r\l(w\r)\coloneqq\tpl{a_1,\dots,a_{i-1},a_{i+2},\dots}$_._
-    * _Otherwise, $r\l(w\r)\coloneqq w$._
-* _The **reduction over $W$** is the function $R:W\to W$ defined as follows. Let $\tpl{a_1,\dots,a_n,e,e,\dots}\in W$ and set $R\l(w\r)\coloneqq r^n\!\l(w\r)$._
-* _Let $F\l(A\r)\coloneqq\im R$ be the set of reduced words on $A$ and let $j:A\to F\l(A\r)$ be the embedding that maps $a\mapsto\tpl{a,e,e,\dots}$._
-* _Define the binary operation $\ast:F\l(A\r)\times F\l(A\r)\to F\l(A\r)$ as follows. For reduced words $w\coloneqq\tpl{a_1,\dots,a_k,e,e,\dots}$ and $w'\coloneqq\tpl{a_1',\dots,a_l',e,e,\dots}$, define $w\ast w'$ by reducing the juxtaposition; that is, let $w\ast w'\coloneqq R\tpl{a_1,\dots,a_k,a_1',\dots,a_l',e,e,\dots}\eqqcolon R\l(ww'\r)$._
+Let $A$ be a set. Construct a set $F\l(A\r)$ as follows.
+* Let $A^{-1}\iso A$ be any set disjoint from $A$ and write $a^{-1}$ for the corresponding element of $a$ in $A^{-1}$. Fix any set $e\not\in A\cup A^{-1}$ and let $A\coloneqq A\cup A^{-1}\cup\l\{e\r\}$ be the set of **alphabets**.
+* A **word over $A$** is a sequence $\tpl{a_1,a_2,\dots}$ in $A$ such that $a_i=e$ eventually. The maximum $n\in\N$ such that $a_n\neq e$ is the **length of $w$**. Let $W$ denote the set of all words over $A$.
+* An **elementary reduction over $W$** is a function $r:W\to W$ defined as follows. Let $w\coloneqq\tpl{a_1,a_2\dots}$ be a word over $A$.
+    * If $a_i=e$ for some $i$ and $a_j\neq e$ for some $j>i$, then $r\l(w\r)\coloneqq\tpl{a_1,\dots,a_{i-1},a_{i+1},\dots}$.
+    * If $a_{i+1}=a_i^{-1}$ for some $i$, then $r\l(w\r)\coloneqq\tpl{a_1,\dots,a_{i-1},a_{i+2},\dots}$.
+    * Otherwise, $r\l(w\r)\coloneqq w$.
+* The **reduction over $W$** is the function $R:W\to W$ defined as follows. Let $\tpl{a_1,\dots,a_n,e,e,\dots}\in W$ and set $R\l(w\r)\coloneqq r^n\!\l(w\r)$.
+* Let $F\l(A\r)\coloneqq\im R$ be the set of reduced words on $A$ and let $j:A\to F\l(A\r)$ be the embedding that maps $a\mapsto\tpl{a,e,e,\dots}$.
+* Define the binary operation $\ast:F\l(A\r)\times F\l(A\r)\to F\l(A\r)$ as follows. For reduced words $w\coloneqq\tpl{a_1,\dots,a_k,e,e,\dots}$ and $w'\coloneqq\tpl{a_1',\dots,a_l',e,e,\dots}$, define $w\ast w'$ by reducing the juxtaposition; that is, let $w\ast w'\coloneqq R\tpl{a_1,\dots,a_k,a_1',\dots,a_l',e,e,\dots}\eqqcolon R\l(ww'\r)$.
 
-_Then $F\l(A\r)$, equipped with $\ast$ and the map $j:A\to F\l(A\r)$, is a free group on $A$._
+Then $F\l(A\r)$, equipped with $\ast$ and the map $j:A\to F\l(A\r)$, is a free group on $A$.
 
 ```
 

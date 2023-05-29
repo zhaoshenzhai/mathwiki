@@ -16,9 +16,9 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. A **partition of $X$** is a set $\Pi\subseteq\pow\l(X\r)$ such that:_
-* _(Non-empty)$\bf{.}$ $\fa P\in\Pi:P\neq\em$._
-* _(Disjoint)$\bf{.}$ $\fa P,Q\in\Pi:P\neq Q\Rightarrow P\cap Q=\em$._
-* _(Cover)$\bf{.}$ $X\subseteq\bigcup\Pi$._
+_Let $X$ be a set. A **partition of $X$** is a set $\Pi\subseteq\pow\l(X\r)$ such that:
+* (Non-empty)$\bf{.}$ $\fa P\in\Pi:P\neq\em$.
+* (Disjoint)$\bf{.}$ $\fa P,Q\in\Pi:P\neq Q\Rightarrow P\cap Q=\em$.
+* (Cover)$\bf{.}$ $X\subseteq\bigcup\Pi$.
 
 ```

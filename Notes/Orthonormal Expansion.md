@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be an inner product space. If_ $\mc{B}\coloneqq\l\{e_i\r\}_{i\in I}$ _is an orthonormal basis for $V$ and $v\in V$, then_ $v=\sum_{i=1}^n\inprod{v}{e_i}e_i$_. In other words,_ $\l[v\r]_\mc{B}=\tpl{\inprod{v}{e_1},\dots,\inprod{v}{e_n}}$_._
+Let $V$ be an inner product space. If $\mc{B}\coloneqq\l\{e_i\r\}_{i\in I}$ is an orthonormal basis for $V$ and $v\in V$, then $v=\sum_{i=1}^n\inprod{v}{e_i}e_i$. In other words, $\l[v\r]_\mc{B}=\tpl{\inprod{v}{e_1},\dots,\inprod{v}{e_n}}$.
 
 ```
 

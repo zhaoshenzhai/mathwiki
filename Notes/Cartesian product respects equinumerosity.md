@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X,X',Y,Y'$ be sets. If $X\eqnum X'$ and $Y\eqnum Y'$, then $X\times Y\eqnum X'\times Y'$._
+Let $X,X',Y,Y'$ be sets. If $X\eqnum X'$ and $Y\eqnum Y'$, then $X\times Y\eqnum X'\times Y'$.
 
 ```
 

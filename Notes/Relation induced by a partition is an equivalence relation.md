@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set and let $\Pi$ be a partition on $X$. Then the binary relation_ $R_\Pi$ _induced by  $\Pi$ is an equivalence relation on $X$._
+Let $X$ be a set and let $\Pi$ be a partition on $X$. Then the binary relation $R_\Pi$ induced by $\Pi$ is an equivalence relation on $X$.
 
 ```
 

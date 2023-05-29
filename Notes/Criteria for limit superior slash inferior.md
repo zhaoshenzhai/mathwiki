@@ -17,13 +17,13 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{x_n}$ be a bounded sequence in $\R$. Then, for all $x^\ast\in\R$, the following are equivalent._
-1. $x^\ast=\limsup\limits_{n\to\infty}x_n$_._
-2. $x^\ast=\inf\l\{u\in\R\mid\fa^\infty n\in\N:x_n<u\r\}$_._
-3. _For all $\epsilon>0$,_ $\fa^\infty n\in\N:x^\ast+\epsilon>x_n$ _and_ $\ex^\infty n\in\N:x^\ast-\epsilon<x_n$_._
-4. $x^\ast=\inf_\limits{n\in\N}t_n=\lim\limits_{n\to\infty}t_n$ _where_ $t_n\coloneqq\sup_\limits{m\geq n}x_m$ _is the supremum of the $n$-tail of $\tpl{x_n}$._
+Let $\tpl{x_n}$ be a bounded sequence in $\R$. Then, for all $x^\ast\in\R$, the following are equivalent.
+1. $x^\ast=\limsup\limits_{n\to\infty}x_n$.
+2. $x^\ast=\inf\l\{u\in\R\mid\fa^\infty n\in\N:x_n<u\r\}$.
+3. For all $\epsilon>0$, $\fa^\infty n\in\N:x^\ast+\epsilon>x_n$ and $\ex^\infty n\in\N:x^\ast-\epsilon<x_n$.
+4. $x^\ast=\inf_\limits{n\in\N}t_n=\lim\limits_{n\to\infty}t_n$ where $t_n\coloneqq\sup_\limits{m\geq n}x_m$ is the supremum of the $n$-tail of $\tpl{x_n}$.
 
-_Similarly for limit inferior._
+Similarly for limit inferior.
 
 ```
 

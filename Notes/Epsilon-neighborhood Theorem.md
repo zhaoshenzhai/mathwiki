@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem ($\epsilon$-neighborhood Theorem).
 
-_Let $K\subseteq X$ be a compact subset of a metric space $X$ and let $U\supseteq K$ be an open set. Then there exists some $\epsilon>0$ such that_
+Let $K\subseteq X$ be a compact subset of a metric space $X$ and let $U\supseteq K$ be an open set. Then there exists some $\epsilon>0$ such that
 $$\begin{equation}
     \bigcup_{k\in K}B_\epsilon\!\l(k\r)\subseteq U.
 \end{equation}$$

@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{J}$ and $\cat{C}$ be categories. A **diagram of type $\cat{J}$ in $\cat{C}$** is a functor $\ms{D}:\cat{J}\to\cat{C}$._
+Let $\cat{J}$ and $\cat{C}$ be categories. A **diagram of type $\cat{J}$ in $\cat{C}$** is a functor $\ms{D}:\cat{J}\to\cat{C}$.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and fix a subset $Y\subseteq X$. Then the subspace topology $\l.\mc{T}\r|_Y$ on $Y$ inherited from $X$ is a topology on $Y$._
+Let $\tpl{X,\mc{T}}$ be a topological space and fix a subset $Y\subseteq X$. Then the subspace topology $\l.\mc{T}\r|_Y$ on $Y$ inherited from $X$ is a topology on $Y$.
 
 ```
 

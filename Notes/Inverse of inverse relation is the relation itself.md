@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a binary relation. Then $\l(R^{-1}\r)^{-1}=R$._
+Let $R$ be a binary relation. Then $\l(R^{-1}\r)^{-1}=R$.
 
 ```
 

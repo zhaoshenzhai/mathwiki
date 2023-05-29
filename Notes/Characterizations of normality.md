@@ -17,14 +17,14 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $H\subgrpeq G$ be a subgroup of a group $G$. Then the following are equivalent._
-1. $H\nsubgrpeq G$_; that is, $gH=Hg$ for all $g\in G$_
-2. $gHg^{-1}\subgrpeq H$ _for all $g\in G$._
-3. $gHg^{-1}=H$ _for all $g\in G$._
-4. _$N_G\!\l(H\r)=G$._
-5. $H=\bigcup_{h\in H}\l[h\r]$ _where $\l[h\r]$ is the conjugacy class of $h$._
+Let $H\subgrpeq G$ be a subgroup of a group $G$. Then the following are equivalent.
+1. $H\nsubgrpeq G$; that is, $gH=Hg$ for all $g\in G$
+2. $gHg^{-1}\subgrpeq H$ for all $g\in G$.
+3. $gHg^{-1}=H$ for all $g\in G$.
+4. $N_G\!\l(H\r)=G$.
+5. $H=\bigcup_{h\in H}\l[h\r]$ where $\l[h\r]$ is the conjugacy class of $h$.
 
-_If any of the above hold, then $H$ is the kernel of some homomorphism $\phi:G\to G'$._
+If any of the above hold, then $H$ is the kernel of some homomorphism $\phi:G\to G'$.
 
 ```
 

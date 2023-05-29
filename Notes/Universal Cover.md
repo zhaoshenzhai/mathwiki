@@ -16,7 +16,7 @@ Justifications: [[Lifting Criterion]]
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a locally path-connected space. A **universal cover of $X$** is a simply-connected cover $p:\widetilde{X}\to X$._
+Let $X$ be a locally path-connected space. A **universal cover of $X$** is a simply-connected cover $p:\widetilde{X}\to X$.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{J}$ and $\cat{C}$ be categories and fix $C\in\Obj\l(\cat{C}\r)$. Then the constant functor $\ms{C}_C:\cat{J}\to\cat{C}$ is a covariant functor._
+Let $\cat{J}$ and $\cat{C}$ be categories and fix $C\in\Obj\l(\cat{C}\r)$. Then the constant functor $\ms{C}_C:\cat{J}\to\cat{C}$ is a covariant functor.
 
 ```
 

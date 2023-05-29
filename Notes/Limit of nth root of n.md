@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-$\lim\limits_{n\to\infty}\sqrt[n]{n}=1$_._
+$\lim\limits_{n\to\infty}\sqrt[n]{n}=1$.
 
 ```
 

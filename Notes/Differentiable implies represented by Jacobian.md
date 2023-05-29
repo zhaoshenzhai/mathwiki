@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Fix $m,n\in\N^+$, let $U\subseteq\R^n$ be open, and fix $\v{a}\in U$. For a function $f:U\to\R^m$, if $f$ is differentiable at $\v{a}$, then $\l[Df\l(\v{a}\r)\r]=Jf\l(\v{a}\r)$._
+Fix $m,n\in\N^+$, let $U\subseteq\R^n$ be open, and fix $\v{a}\in U$. For a function $f:U\to\R^m$, if $f$ is differentiable at $\v{a}$, then $\l[Df\l(\v{a}\r)\r]=Jf\l(\v{a}\r)$.
 
 ```
 

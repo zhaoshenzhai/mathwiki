@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G$ and $H$ be isomorphic groups. Then $G$ is abelian iff $H$ is abelian._
+Let $G$ and $H$ be isomorphic groups. Then $G$ is abelian iff $H$ is abelian.
 
 ```
 

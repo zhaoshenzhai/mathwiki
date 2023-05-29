@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem.
 
-_Fix $n\in\N^+$ and consider a non-empty subset $S\subseteq\R^n$. If $S$ is perfect, then $S$ is uncountable._
+Fix $n\in\N^+$ and consider a non-empty subset $S\subseteq\R^n$. If $S$ is perfect, then $S$ is uncountable.
 
 ```
 

@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A ring $\tpl{R,+,\cdot,0,1}$ is said to be a **division ring** if every non-zero element has a multiplicative inverse; that is, if_
+A ring $\tpl{R,+,\cdot,0,1}$ is said to be a **division ring** if every non-zero element has a multiplicative inverse; that is, if
 $$\begin{equation}
     \fa r\in R:\l(r\neq0\Rightarrow\ex r^{-1}\in R:r\cdot r^{-1}=1=r^{-1}\cdot r\r).
 \end{equation}$$

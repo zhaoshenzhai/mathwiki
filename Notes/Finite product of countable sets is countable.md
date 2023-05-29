@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Fix $n\in\omega$ and let_ $X_1,\dots,X_n$ _be countable sets. Then_ $\prod_{i=1}^nX_i$ _is countable._
+Fix $n\in\omega$ and let $X_1,\dots,X_n$ be countable sets. Then $\prod_{i=1}^nX_i$ is countable.
 
 ```
 

@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition (Informal).
 
-_The formula $\phi\l(x\r)$ is referred to as a **class** if we wish to consider the collection of all elements $x$ satisfying $\phi\l(x\r)$, in which case we write $\l\{x\mid\phi\l(x\r)\r\}\coloneqq\phi\l(x\r)$._
+The formula $\phi\l(x\r)$ is referred to as a **class** if we wish to consider the collection of all elements $x$ satisfying $\phi\l(x\r)$, in which case we write $\l\{x\mid\phi\l(x\r)\r\}\coloneqq\phi\l(x\r)$.
 
 ```
 

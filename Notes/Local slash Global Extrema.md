@@ -20,11 +20,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a metric space and let $f:X\to\R$. A point $p\in X$ is said to be a **local maximum** (resp. **local minimum**) **of $f$** if_
+Let $X$ be a metric space and let $f:X\to\R$. A point $p\in X$ is said to be a **local maximum** (resp. **local minimum**) **of $f$** if
 $$\begin{equation}
     \ex\delta>0,\fa x\in B_\delta\!\l(p\r)\cap X:f\l(x\r)\leq f\l(p\r)\ \ \ \ \ \ \ \ \textrm{\it{(resp.} } f\l(x\r)\geq f\l(p\r)\textrm{\it{)}}.
 \end{equation}$$
-_If the statement holds for all $x\in X$, then $p$ is said to be a **global maximum** (resp. **global minimum**) **of $f$**._
+If the statement holds for all $x\in X$, then $p$ is said to be a **global maximum** (resp. **global minimum**) **of $f$**.
 
 ```
 

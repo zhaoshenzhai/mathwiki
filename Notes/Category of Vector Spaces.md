@@ -20,7 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field. The **category of vector spaces over $K$** is the (locally-small) category $\catvect$ whose objects are vector spaces and whose morphisms are linear maps._
+Let $K$ be a field. The **category of vector spaces over $K$** is the (locally-small) category $\catvect$ whose objects are vector spaces and whose morphisms are linear maps.
 
 ```
 

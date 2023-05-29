@@ -16,7 +16,7 @@ Justifications: [[Fundamental Theorem of Equivalence Relations]]
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a topological space. The **path components of $X$** is the partition $\pi_0\l(X\r)$ induced by the equivalence relation $x\sim y$ iff there exists a path $\gamma:x\rightsquigarrow y$._
+Let $X$ be a topological space. The **path components of $X$** is the partition $\pi_0\l(X\r)$ induced by the equivalence relation $x\sim y$ iff there exists a path $\gamma:x\rightsquigarrow y$.
 
 ```
 

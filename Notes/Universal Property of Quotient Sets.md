@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Universal Property of Quotient Sets).
 
-_Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. Then the projection $\pi:X\to X/\!\sim$ is universal among functions that map equivalent elements to the same image. That is, for any set $Z$ and any function $\phi:X\to Z$ such that $\phi\l(x_1\r)=\phi\l(x_2\r)$ for all $x_1\sim x_2$, the following diagram commutes:_
+Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. Then the projection $\pi:X\to X/\!\sim$ is universal among functions that map equivalent elements to the same image. That is, for any set $Z$ and any function $\phi:X\to Z$ such that $\phi\l(x_1\r)=\phi\l(x_2\r)$ for all $x_1\sim x_2$, the following diagram commutes:
 ![[Images/2023-01-03_220428/image.svg|175]]
 
 ```

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $p:\widetilde{X}\to X$ be a covering map of a topological space $X$. If $X$ is connected, then the fibers $p^{-1}\!\l(x\r)$ at each $x\in X$ are equinumerous._
+Let $p:\widetilde{X}\to X$ be a covering map of a topological space $X$. If $X$ is connected, then the fibers $p^{-1}\!\l(x\r)$ at each $x\in X$ are equinumerous.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $I\coloneqq\l[0,1\r]\subseteq\R$, $<$ be the standard ordering on $\R$ restricted to $I$, and let $\sqsubset$ be the lexicographical ordering on $\R^2$. Then the subspace topology_ $\mc{T}_\textrm{sb}\coloneqq\l.\mc{T}\l(\sqsubset\r)\r|_{I^2}$ _on $I^2$ is strictly finer than the product topology_ $\mc{T}_\textrm{pr}\coloneqq\mc{T}\l(<\r)^2$ on $I^2$_._
+Let $I\coloneqq\l[0,1\r]\subseteq\R$, $<$ be the standard ordering on $\R$ restricted to $I$, and let $\sqsubset$ be the lexicographical ordering on $\R^2$. Then the subspace topology $\mc{T}_\textrm{sb}\coloneqq\l.\mc{T}\l(\sqsubset\r)\r|_{I^2}$ on $I^2$ is strictly finer than the product topology $\mc{T}_\textrm{pr}\coloneqq\mc{T}\l(<\r)^2$ on $I^2$.
 
 ```
 

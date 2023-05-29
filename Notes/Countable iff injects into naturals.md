@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set. Then $X$ is countable iff $X\into\omega$._
+Let $X$ be a set. Then $X$ is countable iff $X\into\omega$.
 
 ```
 

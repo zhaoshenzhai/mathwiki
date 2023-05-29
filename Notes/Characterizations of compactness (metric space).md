@@ -13,10 +13,10 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Characterizations of Compactness in Metric Spaces).
 
-_Let $\tpl{X,d}$ be a metric space and fix a subspace $K\subseteq X$. Then the following are equivalent._
-1. _$K$ is compact._
-2. _$K$ is limit point compact; that is, every infinite subset of $K$ has a cluster (limit) point in $K$._
-3. _$K$ is sequentially compact; that is, every sequence in $K$ has a subsequence converging to $K$._
+Let $\tpl{X,d}$ be a metric space and fix a subspace $K\subseteq X$. Then the following are equivalent.
+1. $K$ is compact.
+2. $K$ is limit point compact; that is, every infinite subset of $K$ has a cluster (limit) point in $K$.
+3. $K$ is sequentially compact; that is, every sequence in $K$ has a subsequence converging to $K$.
 
 ```
 

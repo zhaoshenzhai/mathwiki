@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be an integral domain. Then its characteristic $\charac R$ is prime._
+Let $R$ be an integral domain. Then its characteristic $\charac R$ is prime.
 
 ```
 

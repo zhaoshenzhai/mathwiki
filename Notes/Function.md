@@ -16,7 +16,7 @@ Justifications: [[Function space is a set]]
 ``` ad-Definition
 title: Definition.
 
-_A binary relation $f$ is a **function** if for all $x\in\dom f$, there exists a unique $y$ such that $\tpl{x,y}\in f$._
+A binary relation $f$ is a **function** if for all $x\in\dom f$, there exists a unique $y$ such that $\tpl{x,y}\in f$.
 
 ```
 

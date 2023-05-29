@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a UFD. Then, for all $a,b\in R\comp\l\{0\r\}$, their greatest common divisor exists._
+Let $R$ be a UFD. Then, for all $a,b\in R\comp\l\{0\r\}$, their greatest common divisor exists.
 
 ```
 

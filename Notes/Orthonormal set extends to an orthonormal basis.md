@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. If $\mc{E}\coloneqq\l\{e_1,\dots,e_m\r\}$ is an orthonormal set of vectors in $V$, then there exists an orthonormal basis $\mc{B}$ containing $\mc{E}$._
+Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. If $\mc{E}\coloneqq\l\{e_1,\dots,e_m\r\}$ is an orthonormal set of vectors in $V$, then there exists an orthonormal basis $\mc{B}$ containing $\mc{E}$.
 
 ```
 

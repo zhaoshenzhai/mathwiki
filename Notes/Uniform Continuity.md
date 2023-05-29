@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces. A function $f:X\to Y$ is said to be **uniformly continuous** if_
+Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces. A function $f:X\to Y$ is said to be **uniformly continuous** if
 $$\begin{equation}
     \fa\epsilon>0,\ex\delta>0,\fa x,y\in X:d_X\!\l(x,y\r)<\delta\Rightarrow d_Y\!\l(f\l(x\r),f\l(y\r)\r)<\epsilon.
 \end{equation}$$

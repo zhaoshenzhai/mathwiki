@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$ and let $f\in K\l[x\r]$ be such that $f\l(T\r)=0$. Decomposing $f=f_1^{n_1}\cdots f_r^{n_r}$ into irreducibles, we have that_ $V=\bigoplus_{i=0}^{r}\hat{K}_{f_i}^T$_._
+Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$ and let $f\in K\l[x\r]$ be such that $f\l(T\r)=0$. Decomposing $f=f_1^{n_1}\cdots f_r^{n_r}$ into irreducibles, we have that $V=\bigoplus_{i=0}^{r}\hat{K}_{f_i}^T$.
 
 ```
 

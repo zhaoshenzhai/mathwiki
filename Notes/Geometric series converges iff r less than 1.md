@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ denote either $\R$ or $\C$ and consider a geometric sequence $a_n\coloneqq a_0r^n$ for some fixed $a_0,r\in K\comp\l\{0\r\}$. Then the geometric series_ $\sum_{n=0}^\infty a_0r^n$ _converges iff $\l|r\r|<1$, in which case_
+Let $K$ denote either $\R$ or $\C$ and consider a geometric sequence $a_n\coloneqq a_0r^n$ for some fixed $a_0,r\in K\comp\l\{0\r\}$. Then the geometric series $\sum_{n=0}^\infty a_0r^n$ converges iff $\l|r\r|<1$, in which case
 $$\begin{equation}
     \sum_{n=0}^\infty a_0r^n=\frac{a_0}{1-r}.
 \end{equation}$$

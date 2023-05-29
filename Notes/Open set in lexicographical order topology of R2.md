@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{\R^2,\mc{T}}$ be the topological space where $\mc{T}\coloneqq\mc{T}\l(\mc{B}\r)$ is the lexicographical order topology on $\R^2$. Then sets of the form $U\coloneqq\l(m,n\r)\times\R$ where $m,n\in\R$ are open but not basis elements in $\mc{B}$._
+Let $\tpl{\R^2,\mc{T}}$ be the topological space where $\mc{T}\coloneqq\mc{T}\l(\mc{B}\r)$ is the lexicographical order topology on $\R^2$. Then sets of the form $U\coloneqq\l(m,n\r)\times\R$ where $m,n\in\R$ are open but not basis elements in $\mc{B}$.
 
 ```
 

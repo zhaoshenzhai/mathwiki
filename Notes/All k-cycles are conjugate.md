@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set and fix $k\in\N^+$. Then any two $k$-cycles in $\Sym\l(X\r)$ are conjugate._
+Let $X$ be a set and fix $k\in\N^+$. Then any two $k$-cycles in $\Sym\l(X\r)$ are conjugate.
 
 ```
 

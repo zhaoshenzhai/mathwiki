@@ -17,10 +17,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a finite-dimensional $K$-vector space and consider a linear operator $T:V\to V$. For a fixed $\lambda\in K$, the following are equivalent._
-* _$\lambda$ is an eigenvalue of $T$._
-* _$\lambda\id_V-T:V\to V$ is not injective/surjective/invertible._
-* _$\cchi_T\!\l(\lambda\r)=0$._
+Let $V$ be a finite-dimensional $K$-vector space and consider a linear operator $T:V\to V$. For a fixed $\lambda\in K$, the following are equivalent.
+* $\lambda$ is an eigenvalue of $T$.
+* $\lambda\id_V-T:V\to V$ is not injective/surjective/invertible.
+* $\cchi_T\!\l(\lambda\r)=0$.
 
 ```
 

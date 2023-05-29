@@ -13,7 +13,7 @@ Generalizations: [[Comma category is a category]]
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ be a category and fix $C\in\Obj\l(\cat{C}\r)$. Then the coslice category $\l(C\downarrow\cat{C}\r)$ is a category._
+Let $\cat{C}$ be a category and fix $C\in\Obj\l(\cat{C}\r)$. Then the coslice category $\l(C\downarrow\cat{C}\r)$ is a category.
 
 ```
 

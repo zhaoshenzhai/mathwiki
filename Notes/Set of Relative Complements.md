@@ -16,7 +16,7 @@ Justifications: [[Set of relative complements is a set]]
 ``` ad-Definition
 title: Definition.
 
-_Let $v$ and $U$ be sets. The **set of relative complements of elements in $U$ w.r.t. $v$** is the set_
+Let $v$ and $U$ be sets. The **set of relative complements of elements in $U$ w.r.t. $v$** is the set
 $$\begin{equation}
     \l\{v\comp u\mid u\in U\r\}\coloneqq\l\{x\mid\l(\ex u\in U\r)x=v\comp u\r\}.
 \end{equation}$$

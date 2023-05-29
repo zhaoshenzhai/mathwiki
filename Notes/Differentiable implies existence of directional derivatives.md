@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Fix $m,n\in\N^+$, let $U\subseteq\R^n$ be open, and fix $\v{a},\v{u}\in\R^n$ with $\v{u}\neq\v{0}$. For a function $f:U\to\R^m$ differentiable at $\v{a}$, its directional derivative_ $D_\v{u}f\l(\v{a}\r)$ _exists and_
+Fix $m,n\in\N^+$, let $U\subseteq\R^n$ be open, and fix $\v{a},\v{u}\in\R^n$ with $\v{u}\neq\v{0}$. For a function $f:U\to\R^m$ differentiable at $\v{a}$, its directional derivative $D_\v{u}f\l(\v{a}\r)$ exists and
 $$\begin{equation}
     D_\v{u}f\l(\v{a}\r)=\l[Df\l(\v{a}\r)\r]\v{u}.
 \end{equation}$$

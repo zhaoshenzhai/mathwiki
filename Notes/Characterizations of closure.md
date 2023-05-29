@@ -13,13 +13,13 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. Then, for all $x\in X$, the following are equivalent._
-1. _Every neighborhood of $x$ intersects $S$._
-2. _$x\in\bar{S}$._
-3. _$x\in S\cup S'$ where $S'$ is the set of all cluster points of $S$._
-4. _$x\in S\cup\del S$._
+Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. Then, for all $x\in X$, the following are equivalent.
+1. Every neighborhood of $x$ intersects $S$.
+2. $x\in\bar{S}$.
+3. $x\in S\cup S'$ where $S'$ is the set of all cluster points of $S$.
+4. $x\in S\cup\del S$.
 
-_In particular, $\bar{S}=S\cup S'=S\cup\del S$._
+In particular, $\bar{S}=S\cup S'=S\cup\del S$.
 
 ```
 

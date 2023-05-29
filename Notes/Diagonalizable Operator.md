@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a finite-dimensional vector space over some field $K$. A linear operator $T:V\to V$ is said to be **diagonalizable** if there exists a basis $\mc{B}$ of $V$ consisting of eigenvectors of $T$._
+Let $V$ be a finite-dimensional vector space over some field $K$. A linear operator $T:V\to V$ is said to be **diagonalizable** if there exists a basis $\mc{B}$ of $V$ consisting of eigenvectors of $T$.
 
 ```
 

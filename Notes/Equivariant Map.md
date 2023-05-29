@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $G$ be a group acting on sets $X$ and $Y$ via $\phi$ and $\phi'$. A **$G$-equivariant map from $X$ to $Y$** is a function $f:X\to Y$ such that $f\l(\phi_g\!\l(x\r)\r)=\phi'_g\!\l(f\l(x\r)\r)$ for all $g\in G$ and $x\in X$._
+Let $G$ be a group acting on sets $X$ and $Y$ via $\phi$ and $\phi'$. A **$G$-equivariant map from $X$ to $Y$** is a function $f:X\to Y$ such that $f\l(\phi_g\!\l(x\r)\r)=\phi'_g\!\l(f\l(x\r)\r)$ for all $g\in G$ and $x\in X$.
 ![[Images/2023-05-10_194110/image.svg|175]]
 
 ```

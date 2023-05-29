@@ -13,14 +13,14 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Diagonalization Test).
 
-_Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$. Let $\lambda_1,\dots,\lambda_k\in K$ be the eigenvalues of $T$ and suppose that $\cchi_T$ splits. Then the following are equivalent._
-1. _$T$ is diagonalizable; that is, there is a basis $\mc{B}$ of $V$ such that_ $\l[T\r]_\mc{B}$ _is a diagonal matrix._
-2. _There is a basis $\mc{B}$ of $V$ consisting of eigenvectors of $T$._
-3. _For all $1\leq i\leq k$, the algebraic multiplicity of $\lambda_i$ is_ $\dim E_{\lambda_i}$_._
-4. _The minimal polynomial $\mu_T$ splits into distinct linear factors._
-5. $V=\bigoplus_{i=1}^{k}E_{\lambda_i}$_._
+Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$. Let $\lambda_1,\dots,\lambda_k\in K$ be the eigenvalues of $T$ and suppose that $\cchi_T$ splits. Then the following are equivalent.
+1. $T$ is diagonalizable; that is, there is a basis $\mc{B}$ of $V$ such that $\l[T\r]_\mc{B}$ is a diagonal matrix.
+2. There is a basis $\mc{B}$ of $V$ consisting of eigenvectors of $T$.
+3. For all $1\leq i\leq k$, the algebraic multiplicity of $\lambda_i$ is $\dim E_{\lambda_i}$.
+4. The minimal polynomial $\mu_T$ splits into distinct linear factors.
+5. $V=\bigoplus_{i=1}^{k}E_{\lambda_i}$.
 
-_If any of the above hold, then_ $\l[T\r]_\mc{B}=\diag\l(\lambda_1,\dots,\lambda_k\r)$ _and_ $\mc{B}=\coprod_{i=1}^{k}\mc{B}_i$ _where each $\mc{B}_i$ is a basis for_ $E_{\lambda_i}$_._
+If any of the above hold, then $\l[T\r]_\mc{B}=\diag\l(\lambda_1,\dots,\lambda_k\r)$ and $\mc{B}=\coprod_{i=1}^{k}\mc{B}_i$ where each $\mc{B}_i$ is a basis for $E_{\lambda_i}$.
 
 ```
 

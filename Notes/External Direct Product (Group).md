@@ -16,7 +16,7 @@ Justifications: [[Function space constructed from a Cartesian product]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\l\{G_i\r\}$ be a family of groups. The **(external) direct product of $\l\{G_i\r\}$** is the Cartesian product $\prod G_i$ equipped with the component-wise defined binary operation._
+Let $\l\{G_i\r\}$ be a family of groups. The **(external) direct product of $\l\{G_i\r\}$** is the Cartesian product $\prod G_i$ equipped with the component-wise defined binary operation.
 
 ```
 

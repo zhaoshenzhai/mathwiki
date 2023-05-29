@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_The collection of all functions form a proper class. Formally, $\fa v,\ex f:f\textrm{\it{ is a function}}\land f\not\in v$._
+The collection of all functions form a proper class. Formally, $\fa v,\ex f:f\textrm{\it{ is a function}}\land f\not\in v$.
 
 ```
 

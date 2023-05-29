@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,d}$ be a metric space and consider a sequence $\tpl{x_n}$ in $X$. If $\tpl{x_n}$ is Cauchy, then it is bounded._
+Let $\tpl{X,d}$ be a metric space and consider a sequence $\tpl{x_n}$ in $X$. If $\tpl{x_n}$ is Cauchy, then it is bounded.
 
 ```
 

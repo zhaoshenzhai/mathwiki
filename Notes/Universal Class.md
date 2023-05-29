@@ -16,6 +16,6 @@ Justifications: [[Russel's Paradox]]
 ``` ad-Definition
 title: Definition.(Informal).
 
-_The **universal class** is the proper class $V\coloneqq\l\{x\mid x\textrm{\it{ is a set}}\r\}$._
+The **universal class** is the proper class $V\coloneqq\l\{x\mid x\textrm{\it{ is a set}}\r\}$.
 
 ```

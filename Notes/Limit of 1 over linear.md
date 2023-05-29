@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_For all $a,b\in\R^+$, we have_ $\lim\limits_{n\to\infty}\frac{1}{an+b}=0$_._
+For all $a,b\in\R^+$, we have $\lim\limits_{n\to\infty}\frac{1}{an+b}=0$.
 
 ```
 

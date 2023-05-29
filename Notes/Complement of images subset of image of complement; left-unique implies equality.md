@@ -17,11 +17,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a binary relation and fix subsets $A_1,A_2\subseteq\dom R$. Then_
+Let $R$ be a binary relation and fix subsets $A_1,A_2\subseteq\dom R$. Then
 $$\begin{equation}
     \im_R\l(A_1\r)\comp\im_R\l(A_2\r)\subseteq\im_R\l(A_1\comp A_2\r).
 \end{equation}$$
-_Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xRy$._
+Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xRy$.
 
 ```
 

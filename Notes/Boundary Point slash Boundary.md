@@ -20,10 +20,10 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. A point $p\in X$ is a **boundary point of $S$** if_
+Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. A point $p\in X$ is a **boundary point of $S$** if
 $$\begin{equation}
     \fa U\in\mc{U}_p:U\cap S\neq\em\land U\cap\l(X\comp S\r)\neq\em.
 \end{equation}$$
-_The **boundary of $S$** is the set $\del S$ of all boundary points of $S$._
+The **boundary of $S$** is the set $\del S$ of all boundary points of $S$.
 
 ```

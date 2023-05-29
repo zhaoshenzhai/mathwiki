@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be an integral domain. We say that $R$ is a **principal ideal domain (PID)** if every ideal is principal; that is,_
+Let $R$ be an integral domain. We say that $R$ is a **principal ideal domain (PID)** if every ideal is principal; that is,
 $$\begin{equation}
     \fa\textrm{ \it{ideals} }I\subseteq R,\ex a\in R:I=\sring{a}.
 \end{equation}$$

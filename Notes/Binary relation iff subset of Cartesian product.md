@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a set. Then $R$ is a binary relation iff there exist sets $X$ and $Y$ such that $R\subseteq X\times Y$._
+Let $R$ be a set. Then $R$ is a binary relation iff there exist sets $X$ and $Y$ such that $R\subseteq X\times Y$.
 
 ```
 

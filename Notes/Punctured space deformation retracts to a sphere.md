@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_For all $n\in\N^+$, the sphere $S^n$ is a (strong) deformation retract of $\R^{n+1}\comp\l\{0\r\}$._
+For all $n\in\N^+$, the sphere $S^n$ is a (strong) deformation retract of $\R^{n+1}\comp\l\{0\r\}$.
 
 ```
 

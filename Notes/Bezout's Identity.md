@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Bézout$\textbf{'}$s Identity).
 
-_Let $R$ be a commutative ring and fix $a,b\in R\comp\l\{0\r\}$. If there exists some $d\in R$ such that $\sring{a,b}=\sring{d}$, then $d=\gcd\l(a,b\r)$._
+Let $R$ be a commutative ring and fix $a,b\in R\comp\l\{0\r\}$. If there exists some $d\in R$ such that $\sring{a,b}=\sring{d}$, then $d=\gcd\l(a,b\r)$.
 
 ```
 

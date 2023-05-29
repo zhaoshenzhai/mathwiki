@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_The covariant power set functor $\ms{P}:\catset\to\catset$ is a covariant functor._
+The covariant power set functor $\ms{P}:\catset\to\catset$ is a covariant functor.
 
 ```
 

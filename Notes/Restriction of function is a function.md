@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:X\to Y$ and fix $S\subseteq X$. The restriction function $\l.f\r|_S=\l\{z\mid\ex x\in S:z=\tpl{x,f\l(x\r)}\r\}$ is a function._
+Let $f:X\to Y$ and fix $S\subseteq X$. The restriction function $\l.f\r|_S=\l\{z\mid\ex x\in S:z=\tpl{x,f\l(x\r)}\r\}$ is a function.
 
 ```
 

@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be a commutative ring with unit and fix a polynomial $f\in R\l[x\r]$. An element $\alpha\in R$ is said to be a **root of $f$** if_ $f\in\ker\eval_\alpha$_; that is, if_ $\eval_\alpha\!\l(f\r)=0$_._
+Let $R$ be a commutative ring with unit and fix a polynomial $f\in R\l[x\r]$. An element $\alpha\in R$ is said to be a **root of $f$** if $f\in\ker\eval_\alpha$; that is, if $\eval_\alpha\!\l(f\r)=0$.
 
 ```

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and let $V$ be a finite-dimensional vector space over $K$. If $W$ is a subspace of $V$, then $W$ is finite-dimensional and $\dim W\leq\dim V$. Furthermore, $\dim W<\dim V$ iff $W\subset V$._
+Let $K$ be a field and let $V$ be a finite-dimensional vector space over $K$. If $W$ is a subspace of $V$, then $W$ is finite-dimensional and $\dim W\leq\dim V$. Furthermore, $\dim W<\dim V$ iff $W\subset V$.
 
 ```
 

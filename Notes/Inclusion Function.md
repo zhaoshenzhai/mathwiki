@@ -16,11 +16,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set and fix $S\subseteq X$. The **inclusion function of $S$ into $X$** is the function_
+Let $X$ be a set and fix $S\subseteq X$. The **inclusion function of $S$ into $X$** is the function
 $$\begin{equation}
     \iota:S\to X\ \ \ \ \textrm{\it{mapping}}\ \ \ \ x\mapsto\id_X\l(x\r)=x
 \end{equation}$$
-_for every $x\in S$._
+for every $x\in S$.
 
 ```
 

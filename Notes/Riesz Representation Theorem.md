@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Riesz Representation Theorem).
 
-_Let $V$ be a finite-dimensional inner product space. Then the map $\phi:V\to V^\ast:v\mapsto\inprod{\slot}{v}$ is a canonical antilinear isomorphism. That is, for every $\omega\in V^\ast$, there exists a unique $v\in V$ such that $\omega\l(u\r)=\inprod{u}{v}$ for all $u\in V$._
+Let $V$ be a finite-dimensional inner product space. Then the map $\phi:V\to V^\ast:v\mapsto\inprod{\slot}{v}$ is a canonical antilinear isomorphism. That is, for every $\omega\in V^\ast$, there exists a unique $v\in V$ such that $\omega\l(u\r)=\inprod{u}{v}$ for all $u\in V$.
 
 ```
 

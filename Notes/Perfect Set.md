@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space. A subset $S\subseteq X$ is said to be **perfect** if it is closed and every point in $S$ is a cluster point of $S$._
+Let $\tpl{X,\mc{T}}$ be a topological space. A subset $S\subseteq X$ is said to be **perfect** if it is closed and every point in $S$ is a cluster point of $S$.
 
 ```

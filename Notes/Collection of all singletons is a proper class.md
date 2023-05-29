@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_The collection of all singletons form a proper class. Formally, $\fa v\ex u\l(\l\{u\r\}\not\in v\r)$._
+The collection of all singletons form a proper class. Formally, $\fa v\ex u\l(\l\{u\r\}\not\in v\r)$.
 
 ```
 

@@ -16,11 +16,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Fix $p\in\l(1,+\infty\r)$. The unique $q\in\l(1,+\infty\r)$ defined by_
+Fix $p\in\l(1,+\infty\r)$. The unique $q\in\l(1,+\infty\r)$ defined by
 $$\begin{equation}
     \frac{1}{p}+\frac{1}{q}=1
 \end{equation}$$
-_is called the **conjugate exponent of $p$**._
+is called the **conjugate exponent of $p$**.
 
 ```
 

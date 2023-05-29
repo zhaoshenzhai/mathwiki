@@ -18,12 +18,12 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Isomorphisms of $\Cov\,(\widetilde{X}/X)$).
 
-_Let $p:\widetilde{X}\to X$ be covering space of a locally path-connected space $X$. Fix $x_0\in X$ and $\widetilde{x}_0\in p^{-1}\!\l(x_0\r)$. Setting $G\coloneqq\pi_1\l(X,x_0\r)$, we have the isomorphisms_
+Let $p:\widetilde{X}\to X$ be covering space of a locally path-connected space $X$. Fix $x_0\in X$ and $\widetilde{x}_0\in p^{-1}\!\l(x_0\r)$. Setting $G\coloneqq\pi_1\l(X,x_0\r)$, we have the isomorphisms
 $$\begin{equation}
     \Cov\,(\widetilde{X}/X)\iso\Aut\!\l(p^{-1}\!\l(x_0\r)\r)\iso N_G\big(p_\ast\pi_1\,(\widetilde{X},\widetilde{x}_0)\big)/p_\ast\pi_1\,(\widetilde{X},\widetilde{x}_0).
 \end{equation}$$
-* _If $\,(\widetilde{X},p)$ is a normal cover of $X$, then for all $\widetilde{x}_0\in p^{-1}\!\l(x_0\r)$, we have_ $\Cov\,(\widetilde{X}/X)\iso\pi_1\l(X,x_0\r)/p_\ast\pi_1\,(\widetilde{X},\widetilde{x}_0)$_._
-* _If $\,(\widetilde{X},p)$ is a universal cover of $X$, then $\Cov\,(\widetilde{X}/X)\iso\pi_1\l(X,x_0\r)$._
+* If $\,(\widetilde{X},p)$ is a normal cover of $X$, then for all $\widetilde{x}_0\in p^{-1}\!\l(x_0\r)$, we have $\Cov\,(\widetilde{X}/X)\iso\pi_1\l(X,x_0\r)/p_\ast\pi_1\,(\widetilde{X},\widetilde{x}_0)$.
+* If $\,(\widetilde{X},p)$ is a universal cover of $X$, then $\Cov\,(\widetilde{X}/X)\iso\pi_1\l(X,x_0\r)$.
 
 ```
 

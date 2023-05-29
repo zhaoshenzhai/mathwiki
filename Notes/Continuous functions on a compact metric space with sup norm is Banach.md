@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a metric space. If $X$ is compact, then $\CONT{\l(X\r)}$, equipped with the sup norm_ $\|\slot\|_\infty$_, is Banach._
+Let $X$ be a metric space. If $X$ is compact, then $\CONT{\l(X\r)}$, equipped with the sup norm $\|\slot\|_\infty$, is Banach.
 
 ```
 

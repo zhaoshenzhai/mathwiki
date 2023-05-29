@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A set $X$ is said to be **finite** if $X\eqnum n$ for some $n\in\omega$._
+A set $X$ is said to be **finite** if $X\eqnum n$ for some $n\in\omega$.
 
 ```
 

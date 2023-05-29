@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a metric space and consider a sequence $\tpl{x_n}$ in $X$. If $\tpl{x_n}$ converges, then it is Cauchy._
+Let $X$ be a metric space and consider a sequence $\tpl{x_n}$ in $X$. If $\tpl{x_n}$ converges, then it is Cauchy.
 
 ```
 

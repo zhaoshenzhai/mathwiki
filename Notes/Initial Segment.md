@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,<}$ be a poset. A subset $Y\subseteq X$ is called an **initial segment of $X$ w.r.t. $<$** if_
+Let $\tpl{X,<}$ be a poset. A subset $Y\subseteq X$ is called an **initial segment of $X$ w.r.t. $<$** if
 $$\begin{equation}
     \fa y\in Y,\fa x\in X:x<y\Rightarrow x\in Y.
 \end{equation}$$

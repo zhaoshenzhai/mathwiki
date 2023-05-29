@@ -16,7 +16,7 @@ Justifications: [[Identity function is a function]]
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. The **identity function on $X$** is the function $\id_X\!:X\to X$ mapping $x\mapsto x$._
+Let $X$ be a set. The **identity function on $X$** is the function $\id_X\!:X\to X$ mapping $x\mapsto x$.
 
 ```
 

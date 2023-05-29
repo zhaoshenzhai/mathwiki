@@ -16,10 +16,10 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,<}$ be a totally ordered set. If there does not exist a minimal element (resp. a maximal element) in $X$, then the open ray_
+Let $\tpl{X,<}$ be a totally ordered set. If there does not exist a minimal element (resp. a maximal element) in $X$, then the open ray
 $$\begin{equation}
     \l(-\infty,b\r)\coloneqq\l\{x\in X\mid\ex b\in X:x<b\r\}\ \ \ \ \ \ \ \ \textrm{\it{(resp. }}\l(a,+\infty\r)\coloneqq\l\{x\in X\mid\ex a\in X:x>a\r\}\textrm{\it{)}}
 \end{equation}$$
-_is said to be a **half-infinite open ray**._
+is said to be a **half-infinite open ray**.
 
 ```

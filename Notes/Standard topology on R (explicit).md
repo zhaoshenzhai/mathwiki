@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_The standard topology $\mc{T}\l(<\r)$ on $\R$ can be explicitly given as_
+The standard topology $\mc{T}\l(<\r)$ on $\R$ can be explicitly given as
 $$\begin{equation}
     \sttopR\coloneqq\l\{U\in\pow\l(\R\r)\mid\fa x\in U,\ex r\in\R^+:\l(x-r,x+r\r)\subseteq U\r\}.
 \end{equation}$$

@@ -19,3 +19,7 @@
         font-family: CMU Serif !important;
     }
 }
+
+.admonition-content {
+    font-style: italic !important;
+}

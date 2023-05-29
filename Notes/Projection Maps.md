@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let_ $\l\{X_i\r\}_{i\in I}$ _be an indexed family. The **projection map onto the $j^\textrm{\it{th}}$ coordinate** is the function_
+Let $\l\{X_i\r\}_{i\in I}$ be an indexed family. The **projection map onto the $j^\textrm{\it{th}}$ coordinate** is the function
 $$\begin{equation}
     \pi_j:\prod\limits_{i\in I}X_i\to X_j\ \ \ \ \textrm{\it{mapping}}\ \ \ \ f\mapsto f\l(j\r).
 \end{equation}$$

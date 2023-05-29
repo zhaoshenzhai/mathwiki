@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a $K$-vector space. Consider a linear operator $T:V\to V$ and fix $v\in V$. If $V$ is finite-dimensional, then so is $C_T\l(v\r)$._
+Let $V$ be a $K$-vector space. Consider a linear operator $T:V\to V$ and fix $v\in V$. If $V$ is finite-dimensional, then so is $C_T\l(v\r)$.
 
 ```
 

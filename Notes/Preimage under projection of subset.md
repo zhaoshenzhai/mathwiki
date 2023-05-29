@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let_ $\l\{X_i\r\}_{i\in I}$ _be an indexed family of sets and fix $j\in I$. Then_
+Let $\l\{X_i\r\}_{i\in I}$ be an indexed family of sets and fix $j\in I$. Then
 $$\begin{equation}
     \fa U\subseteq X_j:\preim_{\pi_j}\!\l(U\r)=U\times\prod\limits_{i\neq j}X_j.
 \end{equation}$$

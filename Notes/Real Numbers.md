@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A totally ordered field $\tpl{R,+,\cdot,0,1,<}$ is said to be an **ordered field of real numbers** if $\tpl{R,<}$ is Dedekind-complete._
+A totally ordered field $\tpl{R,+,\cdot,0,1,<}$ is said to be an **ordered field of real numbers** if $\tpl{R,<}$ is Dedekind-complete.
 
 ```
 

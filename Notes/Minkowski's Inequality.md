@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Minkowski$\textrm{'}$s Inequality).
 
-_Fix $n\in\N^+$ and take $\v{x}\coloneqq\tpl{x_1,\dots,x_n}$ and $\v{y}\coloneqq\tpl{y_1,\dots,y_n}$ in $\R^n$. For all $p\geq1$, we have_
+Fix $n\in\N^+$ and take $\v{x}\coloneqq\tpl{x_1,\dots,x_n}$ and $\v{y}\coloneqq\tpl{y_1,\dots,y_n}$ in $\R^n$. For all $p\geq1$, we have
 $$\begin{equation}
     \l(\sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^p\r)^{1/p}\leq\l(\sum_{i=1}^{n}\l|x_i\r|^p\r)^{1/p}\!+\l(\sum_{i=1}^{n}\l|y_i\r|^p\r)^{1/p}=\|\v{x}\|_p+\|\v{y}\|_p.
 \end{equation}$$

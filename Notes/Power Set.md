@@ -16,10 +16,10 @@ Justifications: [[Axiom of Power Set]], [[Axiom of Extensionality]]
 ``` ad-Definition
 title: Definition.
 
-_Let $A$ be a set. The **power set of $A$** is the set $\pow\l(A\r)$ whose elements are exactly those that are subsets of $A$. Formally, $\axipow$ posits the existence of a set $\pow\l(A\r)$ such that_
+Let $A$ be a set. The **power set of $A$** is the set $\pow\l(A\r)$ whose elements are exactly those that are subsets of $A$. Formally, $\axipow$ posits the existence of a set $\pow\l(A\r)$ such that
 $$\begin{equation}
     \fa S\l(S\in\pow\l(A\r)\Leftrightarrow S\subseteq A\r).
 \end{equation}$$
-_Such a set $\pow\l(A\r)$ is unique by $\axiext$._
+Such a set $\pow\l(A\r)$ is unique by $\axiext$.
 
 ```

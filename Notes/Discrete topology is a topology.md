@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set. Then the discrete topology_ $\mc{T}_\textrm{discrete}=\pow\l(X\r)$ _is a topology on $X$._
+Let $X$ be a set. Then the discrete topology $\mc{T}_\textrm{discrete}=\pow\l(X\r)$ is a topology on $X$.
 
 ```
 

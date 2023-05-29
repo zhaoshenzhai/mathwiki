@@ -16,6 +16,6 @@ Justifications: [[Characterizations of closure]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space. A subset $S\subseteq X$ is said to be **dense in $X$** if $\bar{S}=X$; that is, if $U\cap S\neq\em$ for all neighborhoods $U$ of $x\in X$._
+Let $\tpl{X,\mc{T}}$ be a topological space. A subset $S\subseteq X$ is said to be **dense in $X$** if $\bar{S}=X$; that is, if $U\cap S\neq\em$ for all neighborhoods $U$ of $x\in X$.
 
 ```

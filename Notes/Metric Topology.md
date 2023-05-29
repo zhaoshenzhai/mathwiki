@@ -16,7 +16,7 @@ Justifications: [[Epsilon-balls form a basis for a topology]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,d}$ be a metric space. The **topology induced by $d$** is the topology_
+Let $\tpl{X,d}$ be a metric space. The **topology induced by $d$** is the topology
 $$\begin{equation}
     \mc{T}_d\coloneqq\l\{U\in\pow\l(X\r)\mid\fa x\in U,\ex\epsilon>0:B_\epsilon\!\l(x\r)\subseteq U\r\}.
 \end{equation}$$

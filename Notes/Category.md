@@ -16,11 +16,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\mb{U}$ be a Grothendieck universe. A **$\mb{U}$-category** is a quadruple $\cat{C}\coloneqq\tpl{\mc{O},\Hom,\id,\operatorname{comp}}$ consisting of_
-* _a $\mb{U}$-class $\Obj\l(\cat{C}\r)\coloneqq\mc{O}\subseteq\mb{U}$,_
-* _a function $\Hom$ assigning to each $\tpl{X,Y}\in\mc{O}^2$ a $\mb{U}$-class $\Hom\l(X,Y\r)\subseteq\mb{U}$,_
-* _a function $\id$ assigning to each $X\in\mc{O}$ an element $\id_X\coloneqq\id\l(X\r)\in\Hom\l(X,Y\r)$, and_
-* _a function $\operatorname{comp}$ assigning to each $\tpl{X,Y,Z}\in\mc{O}^3$ a function_
+Let $\mb{U}$ be a Grothendieck universe. A **$\mb{U}$-category** is a quadruple $\cat{C}\coloneqq\tpl{\mc{O},\Hom,\id,\operatorname{comp}}$ consisting of
+* a $\mb{U}$-class $\Obj\l(\cat{C}\r)\coloneqq\mc{O}\subseteq\mb{U}$,
+* a function $\Hom$ assigning to each $\tpl{X,Y}\in\mc{O}^2$ a $\mb{U}$-class $\Hom\l(X,Y\r)\subseteq\mb{U}$,
+* a function $\id$ assigning to each $X\in\mc{O}$ an element $\id_X\coloneqq\id\l(X\r)\in\Hom\l(X,Y\r)$, and
+* a function $\operatorname{comp}$ assigning to each $\tpl{X,Y,Z}\in\mc{O}^3$ a function
 $$\begin{equation}
     \begin{aligned}
         \circ:\Hom\l(X,Y\r)\times\Hom\l(Y,Z\r)&\to\Hom\l(X,Z\r)\\
@@ -28,13 +28,13 @@ $$\begin{equation}
     \end{aligned}
 \end{equation}$$
 
-_such that, for all $X,Y,Z,W\in\mc{O}$:_
-* _(Associativity)$\bf{.}$ For all $f\in\Hom\l(X,Y\r)$, $g\in\Hom\l(Y,Z\r)$, and $h\in\Hom\l(Z,W\r)$, the following diagram commutes._
+such that, for all $X,Y,Z,W\in\mc{O}$:
+* (Associativity)$\bf{.}$ For all $f\in\Hom\l(X,Y\r)$, $g\in\Hom\l(Y,Z\r)$, and $h\in\Hom\l(Z,W\r)$, the following diagram commutes.
 ![[Images/2022-02-21_142913/image.svg|230]]
 
-* _(Unit)$\bf{.}$ For all $f\in\Hom\l(X,Y\r)$, the following diagram commutes._
+* (Unit)$\bf{.}$ For all $f\in\Hom\l(X,Y\r)$, the following diagram commutes.
 ![[Images/2022-02-09_213021/image.svg|230]]
-* _(Disjoint)$\bf{.}$ If $X\neq Z$ or $Y\neq W$, then $\Hom\l(X,Y\r)\cap\Hom\l(Z,W\r)=\em$._
+* (Disjoint)$\bf{.}$ If $X\neq Z$ or $Y\neq W$, then $\Hom\l(X,Y\r)\cap\Hom\l(Z,W\r)=\em$.
 
 ```
 

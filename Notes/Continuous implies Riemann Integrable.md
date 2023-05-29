@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_If $f:\l[a,b\r]\to\R$ is continuous, then $f\in\RI{\l[a,b\r]}$._
+If $f:\l[a,b\r]\to\R$ is continuous, then $f\in\RI{\l[a,b\r]}$.
 
 ```
 

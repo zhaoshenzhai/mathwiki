@@ -16,11 +16,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces and fix $\Omega\subseteq X$. A function $f:\Omega\to Y$ is **bounded** if there exists an open ball containing its image; that is, if_
+Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces and fix $\Omega\subseteq X$. A function $f:\Omega\to Y$ is **bounded** if there exists an open ball containing its image; that is, if
 $$\begin{equation}
     \ex x_0\in\Omega,\ex r>0:\im f\subseteq B_r\!\l(x_0\r).
 \end{equation}$$
-_If $p$ is a cluster point of $\Omega$, then **$f$ is bounded on a neighborhood of $p$** if there exists some $\delta>0$ such that_ $\l.f\r|_{\Omega\cap B_\delta\l(p\r)}$ _is bounded; that is, if_
+If $p$ is a cluster point of $\Omega$, then **$f$ is bounded on a neighborhood of $p$** if there exists some $\delta>0$ such that $\l.f\r|_{\Omega\cap B_\delta\l(p\r)}$ is bounded; that is, if
 $$\begin{equation}
     \ex\delta>0,\ex x_0\in\Omega\cap B_\delta\!\l(p\r),\ex r>0:\im_f\l(\Omega\cap B_\delta\!\l(p\r)\r)\subseteq B_r\!\l(x_0\r).
 \end{equation}$$

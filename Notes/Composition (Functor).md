@@ -16,9 +16,9 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$, $\cat{D}$, and $\cat{E}$ be categories and consider two functors $\ms{F}:\cat{C}\to\cat{D}$ and $\ms{G}:\cat{D}\to\cat{E}$. The **composite functor of $\ms{G}$ after $\ms{F}$** is the functor $\ms{G}\circ\ms{F}:\cat{C}\to\cat{E}$ defined by:_
-* _The (class) function_ $\l(\ms{G}\circ\ms{F}\r)^{\Obj}$ _which sends each $X\in\Obj\l(\cat{C}\r)$ to_ $\ms{G}^{\Obj}\l(\ms{F}^{\Obj}\l(X\r)\r)$_._
-* _For all objects $X,Y\in\Obj\l(\cat{C}\r)$, the function_
+Let $\cat{C}$, $\cat{D}$, and $\cat{E}$ be categories and consider two functors $\ms{F}:\cat{C}\to\cat{D}$ and $\ms{G}:\cat{D}\to\cat{E}$. The **composite functor of $\ms{G}$ after $\ms{F}$** is the functor $\ms{G}\circ\ms{F}:\cat{C}\to\cat{E}$ defined by:
+* The (class) function $\l(\ms{G}\circ\ms{F}\r)^{\Obj}$ which sends each $X\in\Obj\l(\cat{C}\r)$ to $\ms{G}^{\Obj}\l(\ms{F}^{\Obj}\l(X\r)\r)$.
+* For all objects $X,Y\in\Obj\l(\cat{C}\r)$, the function
 $$\begin{equation}
     \begin{aligned}
         \l(\ms{G}\circ\ms{F}\r)^{\Hom}:\Hom_\cat{C}\!\l(X,Y\r)&\to\Hom_\cat{E}\!\l(\l(\ms{G}\circ\ms{F}\r)^{\Obj}\l(X\r),\l(\ms{G}\circ\ms{F}\r)^{\Obj}\l(Y\r)\r)\\

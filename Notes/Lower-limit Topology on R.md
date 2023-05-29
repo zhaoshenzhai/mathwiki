@@ -20,7 +20,7 @@ Justifications: [[Lower-limit topology is a topology on R]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\R$ be the set of real numbers. The **lower-limit topology on $\R$** is the topology_ $\LLtopR\coloneqq\mc{T}\l(\mc{B}_\textrm{LL}\r)$ _where_
+Let $\R$ be the set of real numbers. The **lower-limit topology on $\R$** is the topology $\LLtopR\coloneqq\mc{T}\l(\mc{B}_\textrm{LL}\r)$ where
 $$\begin{equation}
     \mc{B}_\textrm{LL}\coloneqq\l\{B\in\pow\l(\R\r)\mid \ex a,b\in\R:a<b\land B=\l[a,b\r)\r\}.
 \end{equation}$$

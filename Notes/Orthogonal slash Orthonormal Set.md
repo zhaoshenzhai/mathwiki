@@ -20,7 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. An indexed subset_ $\l\{u_i\r\}_{i\in I}\subseteq V$ _is called an **orthogonal set** if $u_i\perp u_j$ for all $i\neq j$._
-* _If further $\|u_i\|=1$ for all $i\in I$, then $\l\{u_i\r\}$ is said to be an **orthonormal set**._
+Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K$. An indexed subset $\l\{u_i\r\}_{i\in I}\subseteq V$ is called an **orthogonal set** if $u_i\perp u_j$ for all $i\neq j$.
+* If further $\|u_i\|=1$ for all $i\in I$, then $\l\{u_i\r\}$ is said to be an **orthonormal set**.
 
 ```

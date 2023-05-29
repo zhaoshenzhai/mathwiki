@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Comparison Test).
 
-_Let $\tpl{X,\mc{T}}$ be an ordered topological space and consider two sequences $\tpl{a_n}$ and $\tpl{b_n}$ in $X$ such that $\fa^\infty n\in\N:a_n\leq b_n$. Then_
+Let $\tpl{X,\mc{T}}$ be an ordered topological space and consider two sequences $\tpl{a_n}$ and $\tpl{b_n}$ in $X$ such that $\fa^\infty n\in\N:a_n\leq b_n$. Then
 $$\begin{equation}
     \lim\limits_{n\to\infty}a_n=+\infty\ \ \ \ \ \ \ \ \Rightarrow\ \ \ \ \ \ \ \ \lim\limits_{n\to\infty}b_n=+\infty
 \end{equation}$$
-_and_
+and
 $$\begin{equation}
     \lim\limits_{n\to\infty}b_n=-\infty\ \ \ \ \ \ \ \ \Rightarrow\ \ \ \ \ \ \ \ \lim\limits_{n\to\infty}a_n=-\infty.
 \end{equation}$$

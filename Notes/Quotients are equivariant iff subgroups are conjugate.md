@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G$ be a group and fix $H,K\subgrpeq G$. Then the quotient sets $G/H$ and $G/K$, acted upon by left-multiplication, are $G$-isomorphic iff $H$ and $K$ are conjugate._
+Let $G$ be a group and fix $H,K\subgrpeq G$. Then the quotient sets $G/H$ and $G/K$, acted upon by left-multiplication, are $G$-isomorphic iff $H$ and $K$ are conjugate.
 
 ```
 

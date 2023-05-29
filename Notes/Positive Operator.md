@@ -16,8 +16,8 @@ Justifications: [[Basic properties of adjoint operators]]
 ``` ad-Definition
 title: Definition.
 
-_A linear operator $T:V\to V$ on an inner product space $V$ is said to be **positive** if there exists an operator $S:V\to V$ such that $T=SS^\adj$._
-* _If such an $S$ is invertible, then $T$ is said to be **positive-definite**._
+A linear operator $T:V\to V$ on an inner product space $V$ is said to be **positive** if there exists an operator $S:V\to V$ such that $T=SS^\adj$.
+* If such an $S$ is invertible, then $T$ is said to be **positive-definite**.
 
 ```
 

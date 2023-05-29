@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,d}$ be a metric space. A sequence_ $\tpl{x_n}_{n\in\N}$ _in $X$ is **bounded** if there exists an open ball containing it; that is, if_
+Let $\tpl{X,d}$ be a metric space. A sequence $\tpl{x_n}_{n\in\N}$ in $X$ is **bounded** if there exists an open ball containing it; that is, if
 $$\begin{equation}
     \ex x_0\in X,\ex r>0,\fa n\in\N:x_n\in B_r\!\l(x_0\r).
 \end{equation}$$

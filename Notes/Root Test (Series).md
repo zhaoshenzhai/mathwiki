@@ -13,12 +13,12 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Root Tests).
 
-_Let $\tpl{a_n}$ be a non-zero sequence in $\R$._
-* _(Direct Root Test): If $\sqrt[n]{\l|a_n\r|}<1$ eventually, then_ $\sum_{n=0}^{\infty}a_n$ _converges absolutely. Otherwise, if $\sqrt[n]{\l|a_n\r|}\geq1$ eventually, then_ $\sum_{n=0}^{\infty}a_n$ _diverges._
+Let $\tpl{a_n}$ be a non-zero sequence in $\R$.
+* (Direct Root Test): If $\sqrt[n]{\l|a_n\r|}<1$ eventually, then $\sum_{n=0}^{\infty}a_n$ converges absolutely. Otherwise, if $\sqrt[n]{\l|a_n\r|}\geq1$ eventually, then $\sum_{n=0}^{\infty}a_n$ diverges.
 
-_We strengthen the test to the Limit Root Test as follows:_
-* _If_ $\limsup\limits_{n\to\infty}\sqrt[n]{\l|a_n\r|}<1$_, then_ $\sum_{n=0}^{\infty}a_n$ _converges absolutely._
-* _If_ $\liminf\limits_{n\to\infty}\sqrt[n]{\l|a_n\r|}>1$_, then_ $\sum_{n=0}^{\infty}a_n$ _diverges._
+We strengthen the test to the Limit Root Test as follows:
+* If $\limsup\limits_{n\to\infty}\sqrt[n]{\l|a_n\r|}<1$, then $\sum_{n=0}^{\infty}a_n$ converges absolutely.
+* If $\liminf\limits_{n\to\infty}\sqrt[n]{\l|a_n\r|}>1$, then $\sum_{n=0}^{\infty}a_n$ diverges.
 
 ```
 

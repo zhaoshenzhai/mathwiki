@@ -20,7 +20,7 @@ Justifications: [[Bolzano-Weierstrass Theorem]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{x_n}$ be a bounded sequence in $\R$ and let $S$ be the set of all of its subsequential limits. The **limit superior** (resp. **inferior**) **of $X$** is_
+Let $\tpl{x_n}$ be a bounded sequence in $\R$ and let $S$ be the set of all of its subsequential limits. The **limit superior** (resp. **inferior**) **of $X$** is
 $$\begin{equation}
     \limsup_\limits{n\to\infty}x_n\coloneqq\sup S\ \ \ \ \ \ \ \ \textrm{\it{(resp.} } \liminf_\limits{n\to\infty}x_n\coloneqq\inf S\textrm{\it{)}}.
 \end{equation}$$

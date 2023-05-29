@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Fundamental Theorem of Algebra).
 
-_Every non-constant polynomial $p\in\C\l[z\r]$ has a root in $\C$._
+Every non-constant polynomial $p\in\C\l[z\r]$ has a root in $\C$.
 
 ```
 

@@ -13,14 +13,14 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $H\subseteq G$ be a subgroup of a group $G$ and fix $g_1,g_2\in G$. Then the following are equivalent._
+Let $H\subseteq G$ be a subgroup of a group $G$ and fix $g_1,g_2\in G$. Then the following are equivalent.
 1. $g_1H=g_2H$.
 2. $Hg_1^{-1}=Hg_2^{-1}$.
 3. $g_1H\subseteq g_2H$.
 4. $g_2\in g_1H$.
 5. $g_1^{-1}g_2\in H$.
 
-_Similarly for right-cosets._
+Similarly for right-cosets.
 
 ```
 

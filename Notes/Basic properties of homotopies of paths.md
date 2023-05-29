@@ -13,14 +13,14 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\gamma_0,\gamma_1:\l[0,1\r]\to X$ be paths in a topological space $X$. Then the following properties hold._
-* _If $\phi:\l[0,1\r]\to\l[0,1\r]$ is a continuous map with $\phi\l(0\r)=0$ and $\phi\l(1\r)=1$, then $\gamma$ and $\gamma\circ\phi$ are homotopic._
-* _If $\gamma_0,\gamma_1:x_0\rightsquigarrow x_1$ are homotopic, then $-\gamma_0$ and $-\gamma_1$ are homotopic paths from $x_1$ to $x_0$. Furthermore, if $\delta_0,\delta_1:x_1\rightsquigarrow x_2$ are homotopic, then $\gamma_0\ast\delta_0$ and $\gamma_1\ast\delta_1$ are homotopic paths from $x_0$ to $x_2$._
+Let $\gamma_0,\gamma_1:\l[0,1\r]\to X$ be paths in a topological space $X$. Then the following properties hold.
+* If $\phi:\l[0,1\r]\to\l[0,1\r]$ is a continuous map with $\phi\l(0\r)=0$ and $\phi\l(1\r)=1$, then $\gamma$ and $\gamma\circ\phi$ are homotopic.
+* If $\gamma_0,\gamma_1:x_0\rightsquigarrow x_1$ are homotopic, then $-\gamma_0$ and $-\gamma_1$ are homotopic paths from $x_1$ to $x_0$. Furthermore, if $\delta_0,\delta_1:x_1\rightsquigarrow x_2$ are homotopic, then $\gamma_0\ast\delta_0$ and $\gamma_1\ast\delta_1$ are homotopic paths from $x_0$ to $x_2$.
 
-_Furthermore, if $x_0\overset{\gamma_0}{\rightsquigarrow}x_1\overset{\gamma_1}{\rightsquigarrow}x_2\overset{\gamma_2}{\rightsquigarrow}x_3$ and $\epsilon_0$ and $\epsilon_1$ are constant paths at $x_0$ and $x_1$, respectively, then the following hold:_
-* _$\epsilon_0\ast\gamma_0\htopeq\gamma_0\htopeq\gamma_0\ast\epsilon_1$._
-* _$\gamma_0\ast\gamma_0^-\htopeq\epsilon_0$._
-* _$\l(\gamma_0\ast\gamma_1\r)\ast\gamma_2\htopeq\gamma_0\ast\l(\gamma_1\ast\gamma_2\r)$._
+Furthermore, if $x_0\overset{\gamma_0}{\rightsquigarrow}x_1\overset{\gamma_1}{\rightsquigarrow}x_2\overset{\gamma_2}{\rightsquigarrow}x_3$ and $\epsilon_0$ and $\epsilon_1$ are constant paths at $x_0$ and $x_1$, respectively, then the following hold:
+* $\epsilon_0\ast\gamma_0\htopeq\gamma_0\htopeq\gamma_0\ast\epsilon_1$.
+* $\gamma_0\ast\gamma_0^-\htopeq\epsilon_0$.
+* $\l(\gamma_0\ast\gamma_1\r)\ast\gamma_2\htopeq\gamma_0\ast\l(\gamma_1\ast\gamma_2\r)$.
 
 ```
 

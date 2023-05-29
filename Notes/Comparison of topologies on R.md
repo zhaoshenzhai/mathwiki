@@ -17,9 +17,9 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\R$ be the set of real numbers. Then the upper-limit topology_ $\ULtopR$_, lower-limit topology_ $\LLtopR$_, and the $K$ topology_ $\KtopR$ _on $\R$ are all strictly finer than the standard topology_ $\sttopR$ _on $\R$._
+Let $\R$ be the set of real numbers. Then the upper-limit topology $\ULtopR$, lower-limit topology $\LLtopR$, and the $K$ topology $\KtopR$ on $\R$ are all strictly finer than the standard topology $\sttopR$ on $\R$.
 
-_Furthermore,_ $\ULtopR$ _is strictly finer than_ $\KtopR$_, and_ $\LLtopR$ _is not comparable with either_ $\ULtopR$ _or_ $\KtopR$_._
+Furthermore, $\ULtopR$ is strictly finer than $\KtopR$, and $\LLtopR$ is not comparable with either $\ULtopR$ or $\KtopR$.
 
 ```
 

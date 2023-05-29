@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ be a field and consider an indexed subset_ $U\coloneqq\l\{u_i\r\}_{i\in I}\subseteq V$ _of a $K$-vector space $V$. A vector $v\in V$ is said to be a **$K$-linear combination of vectors in $U$** if for all $i\in I$, there exists $\alpha_i\in K$ such that_ $v=\sum_{i\in I}\alpha_iu_i$ _where $\alpha_i=0$ for all but finitely-many $i\in I$._
+Let $K$ be a field and consider an indexed subset $U\coloneqq\l\{u_i\r\}_{i\in I}\subseteq V$ of a $K$-vector space $V$. A vector $v\in V$ is said to be a **$K$-linear combination of vectors in $U$** if for all $i\in I$, there exists $\alpha_i\in K$ such that $v=\sum_{i\in I}\alpha_iu_i$ where $\alpha_i=0$ for all but finitely-many $i\in I$.
 
 ```
 

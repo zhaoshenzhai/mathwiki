@@ -13,12 +13,12 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and let $V$ be a $K$-vector space. Then, for all $\alpha,\beta\in K$ and $v,w\in V$, the following properties hold._
-* _(Absorbing element of $\cdot$): $\alpha0_V=0_V=0_Kv$._
-* _(Compatibility of additive inverse and $\cdot$): $\l(-\alpha\r)v=-\l(\alpha v\r)=\alpha\l(-v\r)$._
-* _(Integral domain): If $\alpha v=0_V$, then either $\alpha=0_K$ or $v=0_V$._
-* _(Cancellation of scalars): If $\alpha\neq0_K$, then $\alpha v=\alpha w$ implies $v=w$._
-* _(Cancellation of vectors): If $v\neq0_V$, then $\alpha v=\beta v$ implies $\alpha=\beta$._
+Let $K$ be a field and let $V$ be a $K$-vector space. Then, for all $\alpha,\beta\in K$ and $v,w\in V$, the following properties hold.
+* (Absorbing element of $\cdot$): $\alpha0_V=0_V=0_Kv$.
+* (Compatibility of additive inverse and $\cdot$): $\l(-\alpha\r)v=-\l(\alpha v\r)=\alpha\l(-v\r)$.
+* (Integral domain): If $\alpha v=0_V$, then either $\alpha=0_K$ or $v=0_V$.
+* (Cancellation of scalars): If $\alpha\neq0_K$, then $\alpha v=\alpha w$ implies $v=w$.
+* (Cancellation of vectors): If $v\neq0_V$, then $\alpha v=\beta v$ implies $\alpha=\beta$.
 
 ```
 

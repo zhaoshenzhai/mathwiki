@@ -18,8 +18,8 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ and $Y$ be topological spaces and fix $S\subseteq X$. The $\textrm{`}$is homotopic to rel $S$$\textrm{'}$ relation is an equivalence relation._
-* _Furthermore, let $T\subseteq Z$ be a subset of a topological space $Z$. Suppose that $f_0,f_1:X\to Y$ agree on $S$, $g_0,g_1:Y\to Z$ agree on $T$, and $f_i\l(S\r)\subseteq T$. If $f_0\htopeq f_1\rel S$ and $g_0\htopeq g_1\rel T$, then $g_0\circ f_0\htopeq g_1\circ f_1\rel S$._
+Let $X$ and $Y$ be topological spaces and fix $S\subseteq X$. The $\textrm{`}$is homotopic to rel $S$$\textrm{'}$ relation is an equivalence relation.
+* Furthermore, let $T\subseteq Z$ be a subset of a topological space $Z$. Suppose that $f_0,f_1:X\to Y$ agree on $S$, $g_0,g_1:Y\to Z$ agree on $T$, and $f_i\l(S\r)\subseteq T$. If $f_0\htopeq f_1\rel S$ and $g_0\htopeq g_1\rel T$, then $g_0\circ f_0\htopeq g_1\circ f_1\rel S$.
 
 ```
 

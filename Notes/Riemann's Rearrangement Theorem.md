@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Riemann$\textrm{'}$s Rearrangement Theorem).
 
-_Let $\tpl{a_k}$ be a sequence in $\R$ such that_ $\sum_{k=0}^{\infty}a_k$ _converges conditionally. For any $\alpha\in\bar{\R}$, there exists a rearrangement $\sigma:\N\to\N$ of_ $\sum_{k=0}^{\infty}a_k$ _that converges to $\alpha$._
+Let $\tpl{a_k}$ be a sequence in $\R$ such that $\sum_{k=0}^{\infty}a_k$ converges conditionally. For any $\alpha\in\bar{\R}$, there exists a rearrangement $\sigma:\N\to\N$ of $\sum_{k=0}^{\infty}a_k$ that converges to $\alpha$.
 
 ```
 

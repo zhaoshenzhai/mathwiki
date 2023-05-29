@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set and $\leq$ be a preorder on $X$. The pair $\tpl{X,\leq}$ is called a **preordered set** or a **proset**._
+Let $X$ be a set and $\leq$ be a preorder on $X$. The pair $\tpl{X,\leq}$ is called a **preordered set** or a **proset**.
 
 ```

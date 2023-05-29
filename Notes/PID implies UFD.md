@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a Noetherian integral domain such that every irreducible element is prime. Then $R$ is a UFD._
+Let $R$ be a Noetherian integral domain such that every irreducible element is prime. Then $R$ is a UFD.
 
 ```
 

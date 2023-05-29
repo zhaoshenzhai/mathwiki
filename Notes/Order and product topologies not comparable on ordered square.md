@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let_ $\tpl{I^2,\mc{T}_\textrm{or}}$ _be the ordered square and let $<$ be the standard ordering on $\R$ restricted to $I$. Then_ $\mc{T}_\textrm{or}$ _is not comparable with the product topology_ $\mc{T}_\textrm{pr}\coloneqq\mc{T}\l(<\r)^2$ _on $I^2$._
+Let $\tpl{I^2,\mc{T}_\textrm{or}}$ be the ordered square and let $<$ be the standard ordering on $\R$ restricted to $I$. Then $\mc{T}_\textrm{or}$ is not comparable with the product topology $\mc{T}_\textrm{pr}\coloneqq\mc{T}\l(<\r)^2$ on $I^2$.
 
 ```
 

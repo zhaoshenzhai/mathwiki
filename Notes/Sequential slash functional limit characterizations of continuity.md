@@ -17,10 +17,10 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Sequential$\textbf{/}$functional limit characterizations of continuity).
 
-_Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces and fix $\Omega\subseteq X$. For a function $f:\Omega\to Y$, the following are equivalent:_
-1. $f$ _is continuous._
-2. $\lim\limits_{x\to p}f\l(x\r)=f\l(p\r)$ _for all cluster points $p$ of $\Omega$._
-3. _For all $p\in\Omega$ and all sequences $\tpl{x_n}$ in $\Omega$ such that $x_n\to p$, we have $f\l(x_n\r)\to f\l(p\r)$._
+Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces and fix $\Omega\subseteq X$. For a function $f:\Omega\to Y$, the following are equivalent:
+1. $f$ is continuous.
+2. $\lim\limits_{x\to p}f\l(x\r)=f\l(p\r)$ for all cluster points $p$ of $\Omega$.
+3. For all $p\in\Omega$ and all sequences $\tpl{x_n}$ in $\Omega$ such that $x_n\to p$, we have $f\l(x_n\r)\to f\l(p\r)$.
 
 ```
 

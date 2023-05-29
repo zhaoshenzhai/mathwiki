@@ -13,13 +13,13 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Monotone Convergence Theorem).
 
-_Let $\tpl{x_n}$ be a sequence in $\R$. If $\tpl{x_n}$ is eventually monotone and bounded in $\R$, then it converges. In fact,_
-* _if $\tpl{x_n}$ is eventually monotonically increasing and bounded above, then_ $\lim\limits_{n\to\infty}x_n=\sup\limits_{n\in\N}x_n$_, and_
-* _if $\tpl{x_n}$ is eventually monotonically decreasing and bounded below, then_ $\lim\limits_{n\to\infty}x_n=\inf\limits_{n\in\N}x_n$_._
+Let $\tpl{x_n}$ be a sequence in $\R$. If $\tpl{x_n}$ is eventually monotone and bounded in $\R$, then it converges. In fact,
+* if $\tpl{x_n}$ is eventually monotonically increasing and bounded above, then $\lim\limits_{n\to\infty}x_n=\sup\limits_{n\in\N}x_n$, and
+* if $\tpl{x_n}$ is eventually monotonically decreasing and bounded below, then $\lim\limits_{n\to\infty}x_n=\inf\limits_{n\in\N}x_n$.
 
-_Otherwise, if $\tpl{x_n}$ is eventually monotone but not bounded, then it converges to $\pm\infty$. In fact,_
-* _if $\tpl{x_n}$ is eventually monotonically increasing and unbounded above, then_ $\lim\limits_{n\to\infty}x_n=+\infty$_, and_
-* _if $\tpl{x_n}$ is eventually monotonically decreasing and unbounded below, then_ $\lim\limits_{n\to\infty}x_n=-\infty$_._
+Otherwise, if $\tpl{x_n}$ is eventually monotone but not bounded, then it converges to $\pm\infty$. In fact,
+* if $\tpl{x_n}$ is eventually monotonically increasing and unbounded above, then $\lim\limits_{n\to\infty}x_n=+\infty$, and
+* if $\tpl{x_n}$ is eventually monotonically decreasing and unbounded below, then $\lim\limits_{n\to\infty}x_n=-\infty$.
 
 ```
 

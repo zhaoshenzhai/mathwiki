@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Extreme Value Theorem).
 
-_Let $X$ and $Y$ be topological spaces, and consider a continuous function $f:X\to Y$. If $X$ is compact, then $\im f$ is compact._
+Let $X$ and $Y$ be topological spaces, and consider a continuous function $f:X\to Y$. If $X$ is compact, then $\im f$ is compact.
 
 ```
 

@@ -20,8 +20,8 @@ Justifications: [[Integers mod n is a field iff n prime]]
 ``` ad-Definition
 title: Definition.
 
-_The **ring of integers modulo $n$** is the quotient ring $\tpl{\Z_n,+,\cdot}$ of $\Z$ by the ideal $n\Z\coloneqq\l\{na\in\Z\mid a\in\Z\r\}$._
-* _If $n$ is prime, then $\tpl{\Z_n,+,\cdot}$ is the **field of integers modulo $n$**._
+The **ring of integers modulo $n$** is the quotient ring $\tpl{\Z_n,+,\cdot}$ of $\Z$ by the ideal $n\Z\coloneqq\l\{na\in\Z\mid a\in\Z\r\}$.
+* If $n$ is prime, then $\tpl{\Z_n,+,\cdot}$ is the **field of integers modulo $n$**.
 
 ```
 

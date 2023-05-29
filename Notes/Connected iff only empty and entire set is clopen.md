@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a topological space. Then $X$ is connected iff only $\em$ and $X$ are both open and closed._
+Let $X$ be a topological space. Then $X$ is connected iff only $\em$ and $X$ are both open and closed.
 
 ```
 

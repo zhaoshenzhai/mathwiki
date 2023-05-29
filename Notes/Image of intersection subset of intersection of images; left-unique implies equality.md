@@ -17,11 +17,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a binary relation and fix a non-empty subset $\mc{A}\subseteq\pow\l(\dom R\r)$; that is, fix a non-empty collection of subsets of $\dom R$. Then_
+Let $R$ be a binary relation and fix a non-empty subset $\mc{A}\subseteq\pow\l(\dom R\r)$; that is, fix a non-empty collection of subsets of $\dom R$. Then
 $$\begin{equation}
     \im_R\l(\bigcap\mc{A}\r)\subseteq\bigcap\l\{\im_R\l(A\r)\mid A\in\mc{A}\r\}.
 \end{equation}$$
-_Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xRy$._
+Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xRy$.
 
 ```
 

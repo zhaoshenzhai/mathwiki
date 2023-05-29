@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be isomorphic $K$-vector spaces. Then $V$ is finite-dimensional iff $W$ is finite-dimensional._
+Let $V$ and $W$ be isomorphic $K$-vector spaces. Then $V$ is finite-dimensional iff $W$ is finite-dimensional.
 
 ```
 

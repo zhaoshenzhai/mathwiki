@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Simplicity of $A_n$).
 
-_If $n\geq 5$, then the alternating group $A_n$ is simple._
+If $n\geq 5$, then the alternating group $A_n$ is simple.
 
 ```
 

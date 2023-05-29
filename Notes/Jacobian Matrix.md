@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Fix $m,n\in\N^+$, let $U\subseteq\R^n$ be open, and fix $\v{a}\in U$. For a function $f:U\to\R^n$ such that all partial derivatives $D_if\l(\v{a}\r)$ exist, its **Jacobian matrix at $\v{a}$** is the $m\times n$ matrix_
+Fix $m,n\in\N^+$, let $U\subseteq\R^n$ be open, and fix $\v{a}\in U$. For a function $f:U\to\R^n$ such that all partial derivatives $D_if\l(\v{a}\r)$ exist, its **Jacobian matrix at $\v{a}$** is the $m\times n$ matrix
 $$\begin{equation}
     Jf\l(\v{a}\r)\coloneqq\l[\l(D_jf_i\r)\l(\v{a}\r)\r]=
     \begin{bmatrix}

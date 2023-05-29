@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a finite-dimensional vector space over some field $K$ and consider a linear subspace $U\subseteq V$. Then there exists a linear subspace $W\subseteq V$ such that $V=U\oplus W$._
+Let $V$ be a finite-dimensional vector space over some field $K$ and consider a linear subspace $U\subseteq V$. Then there exists a linear subspace $W\subseteq V$ such that $V=U\oplus W$.
 
 ```
 

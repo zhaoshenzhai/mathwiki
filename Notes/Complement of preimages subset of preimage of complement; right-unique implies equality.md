@@ -17,11 +17,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a binary relation and fix subsets $B_1,B_2\in\ran R$. Then_
+Let $R$ be a binary relation and fix subsets $B_1,B_2\in\ran R$. Then
 $$\begin{equation}
     \preim_R\l(B_1\r)\comp\preim_R\l(B_2\r)\subseteq\preim_R\l(B_1\comp B_2\r).
 \end{equation}$$
-_Equality holds if for all $x\in\dom R$, there exists a unique $y$ such that $xRy$._
+Equality holds if for all $x\in\dom R$, there exists a unique $y$ such that $xRy$.
 
 ```
 

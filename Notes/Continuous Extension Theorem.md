@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Continuous Extension Theorem).
 
-_Fix $k\in\N^+$ and some $\Omega\subseteq\R^k$. If $f:\R^k\to\R$ is uniformly continuous, then it admits a unique continuous extension to $\bar{\Omega}$. Furthermore, if $\Omega$ is bounded, then the converse holds._
+Fix $k\in\N^+$ and some $\Omega\subseteq\R^k$. If $f:\R^k\to\R$ is uniformly continuous, then it admits a unique continuous extension to $\bar{\Omega}$. Furthermore, if $\Omega$ is bounded, then the converse holds.
 
 ```
 

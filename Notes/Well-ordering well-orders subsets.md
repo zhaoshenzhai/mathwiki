@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set and let $R$ be a well-order on $X$. If $S\subseteq X$, then $R$ well-orders $S$ too._
+Let $X$ be a set and let $R$ be a well-order on $X$. If $S\subseteq X$, then $R$ well-orders $S$ too.
 
 ```
 

@@ -16,11 +16,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. The **quotient set of $X$ under $\sim$** is the set_
+Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. The **quotient set of $X$ under $\sim$** is the set
 $$\begin{equation}
     X/\!\sim\,\coloneqq\l\{\l[x\r]_\sim\in\pow\l(X\r)\mid x\in X\r\}.
 \end{equation}$$
-_The map $\pi:X\to X/\!\sim$ sending_ $x\mapsto\l[x\r]_\sim$ _is called the **canonical projection**._
+The map $\pi:X\to X/\!\sim$ sending $x\mapsto\l[x\r]_\sim$ is called the **canonical projection**.
 
 ```
 

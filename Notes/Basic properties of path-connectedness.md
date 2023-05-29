@@ -17,10 +17,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a topological space. Then the following properties hold._
-* _If $X$ is path-connected, then it is connected._
-* _$X$ is locally path-connected iff path components of open subsets of $X$ are open._
-* _If $X$ is connected and locally path-connected, then it is path-connected._
+Let $X$ be a topological space. Then the following properties hold.
+* If $X$ is path-connected, then it is connected.
+* $X$ is locally path-connected iff path components of open subsets of $X$ are open.
+* If $X$ is connected and locally path-connected, then it is path-connected.
 
 ```
 

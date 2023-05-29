@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $H\subseteq G$ be a subgroup of a group $G$. Then the number of left-cosets of $H$ in $G$ equals the number of right-cosets of $H$ is $G$._
+Let $H\subseteq G$ be a subgroup of a group $G$. Then the number of left-cosets of $H$ in $G$ equals the number of right-cosets of $H$ is $G$.
 
 ```
 

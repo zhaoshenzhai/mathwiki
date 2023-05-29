@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,d}$ be a metric space. If $\tpl{X,d}$ is compact, then it is bounded._
+Let $\tpl{X,d}$ be a metric space. If $\tpl{X,d}$ is compact, then it is bounded.
 
 ```
 

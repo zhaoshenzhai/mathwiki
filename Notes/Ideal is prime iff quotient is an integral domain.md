@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a commutative ring with unit and let $I\subset R$ be a proper ideal. Then $I$ is prime iff $R/I$ is an integral domain._
+Let $R$ be a commutative ring with unit and let $I\subset R$ be a proper ideal. Then $I$ is prime iff $R/I$ is an integral domain.
 
 ```
 

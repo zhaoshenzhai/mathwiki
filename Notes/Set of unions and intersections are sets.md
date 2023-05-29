@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $v$ and $U$ be sets. Then there exists a unique set $z_1$ whose elements are exactly the sets $v\cup u$ for all sets $u\in U$. Similarly, there exists a unique set $z_2$ whose elements are exactly the sets $v\cap u$ for all sets $u\in U$. Formally, _
+Let $v$ and $U$ be sets. Then there exists a unique set $z_1$ whose elements are exactly the sets $v\cup u$ for all sets $u\in U$. Similarly, there exists a unique set $z_2$ whose elements are exactly the sets $v\cap u$ for all sets $u\in U$. Formally,
 $$\begin{equation}
     \begin{gathered}
         \fa v\fa U\ex!z_1\fa x\l[x\in z_1\Leftrightarrow\l(\ex u\in U\r)x=v\cup u\r]\\

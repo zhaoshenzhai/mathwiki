@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Monotone Subsequence Theorem).
 
-_Let_ $\tpl{x_n}_{n\in\N}$ _be a sequence in $\R$. Then there exists a monotone subsequence_ $\tpl{x_{n_k}}_{k\in\N}$ _of $\tpl{x_n}$._
+Let $\tpl{x_n}_{n\in\N}$ be a sequence in $\R$. Then there exists a monotone subsequence $\tpl{x_{n_k}}_{k\in\N}$ of $\tpl{x_n}$.
 
 ```
 

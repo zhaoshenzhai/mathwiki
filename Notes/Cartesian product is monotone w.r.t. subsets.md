@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $A,B,C,D$ be sets. Then $A\subseteq C$ and $B\subseteq D$ iff $A\times B\subseteq C\times D$._
+Let $A,B,C,D$ be sets. Then $A\subseteq C$ and $B\subseteq D$ iff $A\times B\subseteq C\times D$.
 
 ```
 

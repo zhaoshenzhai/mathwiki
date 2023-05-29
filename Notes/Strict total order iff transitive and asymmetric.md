@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set and let $<$ be binary relation on $X$. Then $<$ is a total order on $X$ iff $<$ is transitive and asymmetric on $X$._
+Let $X$ be a set and let $<$ be binary relation on $X$. Then $<$ is a total order on $X$ iff $<$ is transitive and asymmetric on $X$.
 
 ```
 

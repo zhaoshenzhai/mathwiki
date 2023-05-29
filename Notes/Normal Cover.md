@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A covering map $p:\widetilde{X}\to X$ of a topological space $X$ is said to be **normal** if $\Cov\,(\widetilde{X}/X)$ acts transitively on every fiber $p^{-1}\!\l(x\r)$._
+A covering map $p:\widetilde{X}\to X$ of a topological space $X$ is said to be **normal** if $\Cov\,(\widetilde{X}/X)$ acts transitively on every fiber $p^{-1}\!\l(x\r)$.
 
 ```
 

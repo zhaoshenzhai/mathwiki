@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. A binary relation $R$ **well-orders $X$** if $R$ is a strict total order and a well-founded relation on $X$._
+Let $X$ be a set. A binary relation $R$ **well-orders $X$** if $R$ is a strict total order and a well-founded relation on $X$.
 
 ```

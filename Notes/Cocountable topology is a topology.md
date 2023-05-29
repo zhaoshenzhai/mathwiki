@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set. Then the cocountable topology_
+Let $X$ be a set. Then the cocountable topology
 $$\begin{equation}
     \mc{T}_\textrm{cc}=\l\{U\in\pow\l(X\r)\mid\l(U=\em\r)\lor\l(X\comp U\textrm{\it{ is countable}}\r)\r\}
 \end{equation}$$
-_is a topology on $X$._
+is a topology on $X$.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $A$ and $B$ be sets. If $A\subseteq B$, then $C\comp B\subseteq C\comp A$ for any set $C$._
+Let $A$ and $B$ be sets. If $A\subseteq B$, then $C\comp B\subseteq C\comp A$ for any set $C$.
 
 ```
 

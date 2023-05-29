@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_The sequence_ $\tpl{\l(1+\frac{1}{n}\r)^n}_{n\in\N^+}$ _in $\R$ converges to some real $e$ between $2$ and $3$._
+The sequence $\tpl{\l(1+\frac{1}{n}\r)^n}_{n\in\N^+}$ in $\R$ converges to some real $e$ between $2$ and $3$.
 
 ```
 

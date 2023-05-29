@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $u$, $v$, $x$, and $y$ be sets. Then $\tpl{u,v}=\tpl{x,y}$ iff $u=x$ and $v=y$._
+Let $u$, $v$, $x$, and $y$ be sets. Then $\tpl{u,v}=\tpl{x,y}$ iff $u=x$ and $v=y$.
 
 ```
 

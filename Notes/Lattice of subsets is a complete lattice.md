@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set. Then the pair $\tpl{\pow\l(X\r),\subseteq}$ is a complete lattice._
+Let $X$ be a set. Then the pair $\tpl{\pow\l(X\r),\subseteq}$ is a complete lattice.
 
 ```
 
@@ -24,7 +24,7 @@ _Proof_. Observe that $\tpl{\pow\l(X\r),\subseteq}$ is a poset, so it suffices t
 * Assume now that $\mc{Y}\neq\em$.
     * Recall that $\fa Y\in\mc{Y}:Y\subseteq\bigcup\mc{Y}$, so $\bigcup\mc{Y}$ is an upper bound of $\mc{Y}$. Furthermore, we have $\bigcup\mc{Y}\subseteq U$ for every $U\in\pow\l(X\r)$ such that $\fa Y\in\mc{Y}:Y\subseteq U$. To see this, take $W\in\bigcup\mc{Y}$, so there exists $Y\in\mc{Y}$ such that $W\in Y$. But $Y\subseteq U$, so $W\in U$ too.
     * Recall that $\fa Y\in\mc{Y}:\bigcap\mc{Y}\subseteq Y$, so $\bigcap\mc{Y}$ is a lower bound of $\mc{Y}$. Furthermore, we have $U\subseteq\bigcap\mc{Y}$ for every $U\in\pow\l(X\r)$ such that $\fa Y\in\mc{Y}:U\subseteq Y$. To see this, take $W\in U$, so $W\in Y$ for all $Y\in\mc{Y}$ and thus $W\in\bigcap\mc{Y}$ by definition of the intersection.
-    
+
 Overall, we have
 $$\begin{equation}
     \bigvee\mc{Y}=

@@ -13,7 +13,7 @@ Generalizations: [[Holder's Inequality]]
 ``` ad-Theorem
 title: Theorem (Cauchy-Schwarz Inequality).
 
-_Let $V$ be an inner product space. Then, for all $u,v\in V$, we have $\l|\inprod{u}{v}\r|\leq\|u\|\|v\|$, where equality holds iff $\l\{u,v\r\}$ is linearly dependent._
+Let $V$ be an inner product space. Then, for all $u,v\in V$, we have $\l|\inprod{u}{v}\r|\leq\|u\|\|v\|$, where equality holds iff $\l\{u,v\r\}$ is linearly dependent.
 
 ```
 

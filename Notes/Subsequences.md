@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set and let_ $\tpl{x_n}_{n\in\N}$ _be a sequence in $X$. A_ **_subsequence of_ $\tpl{x_n}_{n\in\N}$ _in $X$_** _is a sequence_ $\tpl{x_{n_k}}_{n_k\in I}$_ where $I\coloneqq\l\{n_1,n_2,\dots\r\}$ is infinite and_ $n_k<n_{k+1}$ _for all $k\in\N$._
+Let $X$ be a set and let $\tpl{x_n}_{n\in\N}$ be a sequence in $X$. A **subsequence of $\tpl{x_n}_{n\in\N}$ in $X$** is a sequence $\tpl{x_{n_k}}_{n_k\in I}$ where $I\coloneqq\l\{n_1,n_2,\dots\r\}$ is infinite and $n_k<n_{k+1}$ for all $k\in\N$._
 
 ```

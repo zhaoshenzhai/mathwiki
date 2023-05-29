@@ -16,18 +16,18 @@ Justifications: [[Opposite category is a category]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ be a category. The **opposite category of $\cat{C}$** is the category $\cat{C}^\textrm{op}$ whose objects are $\cat{C}$-objects and whose morphisms are $\cat{C}$-morphisms with arrows reversed. Formally,_
+Let $\cat{C}$ be a category. The **opposite category of $\cat{C}$** is the category $\cat{C}^\textrm{op}$ whose objects are $\cat{C}$-objects and whose morphisms are $\cat{C}$-morphisms with arrows reversed. Formally,
 * $\Obj\l(\cat{C}^\textrm{op}\r)\coloneqq\Obj\l(\cat{C}\r)$,
-* _for all_ $X,Y\in\Obj\l(\cat{C}^\textrm{op}\r)$_,_ $\Hom_{\cat{C}^\textrm{op}}\!\l(X,Y\r)\coloneqq\Hom_\cat{C}\!\l(Y,X\r)$_,_
-* _for all_ $X\in\Obj\l(\cat{C}^\textrm{op}\r)$_, the $\cat{C}^\textrm{op}$-identity on $X$ is the $\cat{C}$-identity on $X$, and_
-* _for all $X,Y,Z\in\Obj\l(\cat{C}^\textrm{op}\r)$, the composition function is_
+* for all $X,Y\in\Obj\l(\cat{C}^\textrm{op}\r)$, $\Hom_{\cat{C}^\textrm{op}}\!\l(X,Y\r)\coloneqq\Hom_\cat{C}\!\l(Y,X\r)$,
+* for all $X\in\Obj\l(\cat{C}^\textrm{op}\r)$, the $\cat{C}^\textrm{op}$-identity on $X$ is the $\cat{C}$-identity on $X$, and
+* for all $X,Y,Z\in\Obj\l(\cat{C}^\textrm{op}\r)$, the composition function is
 $$\begin{equation}
     \begin{aligned}
         \ast:\Hom_{\cat{C}^\textrm{op}}\!\l(X,Y\r)\times\Hom_{\cat{C}^\textrm{op}}\!\l(Y,Z\r)&\to\Hom_{\cat{C}^\textrm{op}}\!\l(X,Z\r)\\
         \tpl{f,g}&\mapsto\ast\l(f,g\r)\eqqcolon g\ast f\coloneqq f\circ g
     \end{aligned}
 \end{equation}$$
-_where $f\circ g$ is the $\cat{C}$-composite of $f$ after $g$._
+where $f\circ g$ is the $\cat{C}$-composite of $f$ after $g$.
 
 ```
 

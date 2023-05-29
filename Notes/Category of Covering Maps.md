@@ -20,7 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a topological space. The **category of covering maps of $X$** is the (locally-small) category $\catcov$ whose objects are covering maps $p:\widetilde{X}\to X$ and whose morphisms are continuous maps $f:\widetilde{X}_1\to\widetilde{X}_2$ such that $p_1=p_2\circ f$._
+Let $X$ be a topological space. The **category of covering maps of $X$** is the (locally-small) category $\catcov$ whose objects are covering maps $p:\widetilde{X}\to X$ and whose morphisms are continuous maps $f:\widetilde{X}_1\to\widetilde{X}_2$ such that $p_1=p_2\circ f$.
 ![[Images/2023-05-24_152618/image.svg|150]]
 
 ```

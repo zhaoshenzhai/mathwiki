@@ -16,11 +16,11 @@ Justifications: [[Orthogonal Decomposition]], [[Basic properties of orthogonal p
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be an inner product space. For $U$ a finite-dimensional linear subspace of $V$, the **orthogonal projection of $V$ onto $U$** is the linear operator_
+Let $V$ be an inner product space. For $U$ a finite-dimensional linear subspace of $V$, the **orthogonal projection of $V$ onto $U$** is the linear operator
 $$\begin{equation}
     \proj_U\!:V\to U\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ v\mapsto\proj_U\!\l(v\r)
 \end{equation}$$
-_where $\proj_U\!\l(v\r)$ is the unique element in $U$ such that $v-\proj_U\!\l(v\r)\in U^\perp$._
+where $\proj_U\!\l(v\r)$ is the unique element in $U$ such that $v-\proj_U\!\l(v\r)\in U^\perp$.
 
 ```
 

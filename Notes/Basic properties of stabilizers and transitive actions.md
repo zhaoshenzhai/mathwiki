@@ -13,10 +13,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G$ be a group acting on a set $X$ and let $x,y\in X$. Then the following properties hold._
-* _If $x$ and $y$ are in the same orbit, then $G_x$ is conjugate to $G_y$._
-* _If $G$ acts transitively on $X$, then $G_x=G_y$ iff there exists a $G$-automorphism $\phi:X\to X$ such that $\phi\l(x\r)=y$._
-* _If $G$ acts transitively on $X$, then $\Aut\l(X\r)\iso N_G\!\l(G_x\r)/G_x$ as groups._
+Let $G$ be a group acting on a set $X$ and let $x,y\in X$. Then the following properties hold.
+* If $x$ and $y$ are in the same orbit, then $G_x$ is conjugate to $G_y$.
+* If $G$ acts transitively on $X$, then $G_x=G_y$ iff there exists a $G$-automorphism $\phi:X\to X$ such that $\phi\l(x\r)=y$.
+* If $G$ acts transitively on $X$, then $\Aut\l(X\r)\iso N_G\!\l(G_x\r)/G_x$ as groups.
 
 ```
 

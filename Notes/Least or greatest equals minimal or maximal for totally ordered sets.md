@@ -18,7 +18,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\leq}$ be a totally ordered set and fix $S\subseteq X$. Then $m\in S$ is the least (resp. greatest) element of $S$ iff it is the $<$-minimal (resp. maximal) element of $S$._
+Let $\tpl{X,\leq}$ be a totally ordered set and fix $S\subseteq X$. Then $m\in S$ is the least (resp. greatest) element of $S$ iff it is the $<$-minimal (resp. maximal) element of $S$.
 
 ```
 

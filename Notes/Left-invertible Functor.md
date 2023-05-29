@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ and $\cat{D}$ be categories. A functor $\ms{F}:\cat{C}\to\cat{D}$ is said to be **(weakly) left-invertible** if there exists a functor $\ms{G}:\cat{D}\to\cat{C}$ such that $\ms{G}\circ\ms{F}$ is naturally isomorphic to_ $\Id_\cat{C}$_, in which case $\ms{G}$ is called a **(weak) left-inverse of $\ms{F}$**._
+Let $\cat{C}$ and $\cat{D}$ be categories. A functor $\ms{F}:\cat{C}\to\cat{D}$ is said to be **(weakly) left-invertible** if there exists a functor $\ms{G}:\cat{D}\to\cat{C}$ such that $\ms{G}\circ\ms{F}$ is naturally isomorphic to $\Id_\cat{C}$, in which case $\ms{G}$ is called a **(weak) left-inverse of $\ms{F}$**.
 
 ```
 

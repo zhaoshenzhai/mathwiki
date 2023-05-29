@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $x$ be a set. The **singleton set of $x$** is the set $\l\{x\r\}\coloneqq\l\{x,x\r\}$._
+Let $x$ be a set. The **singleton set of $x$** is the set $\l\{x\r\}\coloneqq\l\{x,x\r\}$.
 
 ```

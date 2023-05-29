@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Metric-completeness of $\R$).
 
-_Let $\tpl{x_n}$ be a sequence in $\R$. Then $\tpl{x_n}$ converges iff it is Cauchy._
+Let $\tpl{x_n}$ be a sequence in $\R$. Then $\tpl{x_n}$ converges iff it is Cauchy.
 
 ```
 

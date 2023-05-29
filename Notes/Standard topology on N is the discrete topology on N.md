@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\N$ be the set of natural numbers. Then the standard topology_ $\mc{T}\coloneqq\mc{T}\l(<\r)\coloneqq\mc{T}\l(\mc{B}_\textrm{or}\r)$ _on $\N$ is the discrete topology on $\N$._
+Let $\N$ be the set of natural numbers. Then the standard topology $\mc{T}\coloneqq\mc{T}\l(<\r)\coloneqq\mc{T}\l(\mc{B}_\textrm{or}\r)$ on $\N$ is the discrete topology on $\N$.
 
 ```
 

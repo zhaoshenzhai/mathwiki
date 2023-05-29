@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a finite integral domain such that $0\neq1$. Then $R$ is a field._
+Let $R$ be a finite integral domain such that $0\neq1$. Then $R$ is a field.
 
 ```
 

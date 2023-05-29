@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $p:\widetilde{X}\to X$ be a covering space of a connected space $X$. Then $\Cov\,(\widetilde{X}/X)$ acts properly-discontinuously on $\widetilde{X}$, and conversely, if $G$ is any group acting properly-discontinuously on $X$, then $p:X\to X/G$ is a normal covering space._
+Let $p:\widetilde{X}\to X$ be a covering space of a connected space $X$. Then $\Cov\,(\widetilde{X}/X)$ acts properly-discontinuously on $\widetilde{X}$, and conversely, if $G$ is any group acting properly-discontinuously on $X$, then $p:X\to X/G$ is a normal covering space.
 
 ```
 

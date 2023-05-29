@@ -16,11 +16,11 @@ Justifications: [[Equivalent norms generate the same topoloy]]
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be a $K$-vector space. Two norms $\|\slot\|_1$ and $\|\slot\|_2$ on $V$ are **equivalent** if there exist $c_1,c_2>0$ such that_
+Let $V$ be a $K$-vector space. Two norms $\|\slot\|_1$ and $\|\slot\|_2$ on $V$ are **equivalent** if there exist $c_1,c_2>0$ such that
 $$\begin{equation}
     \|v\|_1\leq c_1\|v\|_2\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \|v\|_2\leq c_2\|v\|_1
 \end{equation}$$
-_for all $v\in V$._
+for all $v\in V$.
 
 ```
 

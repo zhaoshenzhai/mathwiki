@@ -16,6 +16,6 @@ Justifications: [[Isomorphism of sets is an equivalence relation]]
 ``` ad-Definition
 title: Definition.
 
-_Two sets $X$ and $Y$ are said to be **equinumerous** if there exists a bijection $f:X\to Y$, in which case we write $X\eqnum Y$._
+Two sets $X$ and $Y$ are said to be **equinumerous** if there exists a bijection $f:X\to Y$, in which case we write $X\eqnum Y$.
 
 ```

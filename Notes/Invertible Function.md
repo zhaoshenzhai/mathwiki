@@ -16,10 +16,10 @@ Justifications: [[Isomorphism of sets is an equivalence relation]]
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ and $Y$ be sets. A function $f:X\to Y$ is said to be **invertible** if there exists a function $g:Y\to X$ such that the diagram_
+Let $X$ and $Y$ be sets. A function $f:X\to Y$ is said to be **invertible** if there exists a function $g:Y\to X$ such that the diagram
 ![[Images/2022-02-09_222557/image.svg|150]]
 
-_commutes; that is, if $g$ is both a left and a right-inverse of $f$, in which case we write $g\coloneqq f^{-1}$ and call it the **inverse of $f$**. If such a function $f$ exists, then $X$ and $Y$ are said to be **isomorphic as sets**._
+commutes; that is, if $g$ is both a left and a right-inverse of $f$, in which case we write $g\coloneqq f^{-1}$ and call it the **inverse of $f$**. If such a function $f$ exists, then $X$ and $Y$ are said to be **isomorphic as sets**.
 
 ```
 

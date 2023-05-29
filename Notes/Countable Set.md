@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A set $X$ is said to be **countable** if either $X$ is finite or $X\eqnum\omega$._
+A set $X$ is said to be **countable** if either $X$ is finite or $X\eqnum\omega$.
 
 ```

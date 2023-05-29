@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix a polynomial $p\in K\l[x\r]$. Then, for all $\alpha\in K$, $\alpha$ is a root of $p$ iff $\l(x-\alpha\r)\divides p$._
+Let $K$ be a field and fix a polynomial $p\in K\l[x\r]$. Then, for all $\alpha\in K$, $\alpha$ is a root of $p$ iff $\l(x-\alpha\r)\divides p$.
 
 ```
 

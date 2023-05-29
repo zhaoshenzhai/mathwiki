@@ -16,6 +16,6 @@ Justifications: [[Basic properties of orthogonal complements]]
 ``` ad-Definition
 title: Definition.
 
-_Let $V$ be an inner product space. For all subsets $U\subseteq V$, the **orthogonal complement of $U$ in $V$** is the linear subspace $U^\perp\coloneqq\l\{v\in V\mid\fa u\in U:v\perp u\r\}$ of $V$._
+Let $V$ be an inner product space. For all subsets $U\subseteq V$, the **orthogonal complement of $U$ in $V$** is the linear subspace $U^\perp\coloneqq\l\{v\in V\mid\fa u\in U:v\perp u\r\}$ of $V$.
 
 ```

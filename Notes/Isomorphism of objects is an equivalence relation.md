@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ be a category. Then the relation $\iso$ on any collection of $\cat{C}$-objects is an equivalence relation._
+Let $\cat{C}$ be a category. Then the relation $\iso$ on any collection of $\cat{C}$-objects is an equivalence relation.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a binary relation. Then_
+Let $R$ be a binary relation. Then
 $$\begin{equation}
     \dom R^{-1}=\ran R\ \ \ \ \textrm{\it{and}}\ \ \ \ \ran R^{-1}=\dom R.
 \end{equation}$$

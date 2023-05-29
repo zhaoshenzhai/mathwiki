@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,<}$ be a totally ordered set. If $X$ has no minimal element, then the half-infinite open rays of the form $\l(-\infty,b\r)$ are open in the order topology $\mc{T}\l(<\r)$. Similarly for if $X$ has no maximal element._
+Let $\tpl{X,<}$ be a totally ordered set. If $X$ has no minimal element, then the half-infinite open rays of the form $\l(-\infty,b\r)$ are open in the order topology $\mc{T}\l(<\r)$. Similarly for if $X$ has no maximal element.
 
 ```
 

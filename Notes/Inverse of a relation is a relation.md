@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a binary relation. Then there exists a unique binary relation $R^{-1}$ whose elements are exactly the pairs $\tpl{y,x}$ where $\tpl{x,y}\in R$._
+Let $R$ be a binary relation. Then there exists a unique binary relation $R^{-1}$ whose elements are exactly the pairs $\tpl{y,x}$ where $\tpl{x,y}\in R$.
 
 ```
 

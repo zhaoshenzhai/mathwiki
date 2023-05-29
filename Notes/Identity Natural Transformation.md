@@ -16,7 +16,7 @@ Justifications: [[Identity natural transformation is a natural isomorphism]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\cat{C}$ and $\cat{D}$ be categories and fix a functor $\ms{F}:\cat{C}\to\cat{D}$. The **identity natural transformation on $\ms{F}$** is the natural transformation_ $\natid_\ms{F}:\ms{F}\Rightarrow\ms{F}$ _given by the (class) function_
+Let $\cat{C}$ and $\cat{D}$ be categories and fix a functor $\ms{F}:\cat{C}\to\cat{D}$. The **identity natural transformation on $\ms{F}$** is the natural transformation $\natid_\ms{F}:\ms{F}\Rightarrow\ms{F}$ given by the (class) function
 $$\begin{equation}
     \begin{aligned}
         \natid_\ms{F}:\Obj\l(\cat{C}\r)&\to\End\l(\cat{D}\r)\\

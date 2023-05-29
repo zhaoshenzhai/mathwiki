@@ -13,10 +13,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be an integral domain. Then the following properties hold:_
-* _For all $f,g\in R\l[x\r]$, we have $\deg\l(fg\r)=\deg f+\deg g$._
-* _$R\l[x\r]$ is an integral domain._
-* _$\l(R\l[x\r]\r)^\times=R^\times$._
+Let $R$ be an integral domain. Then the following properties hold:
+* For all $f,g\in R\l[x\r]$, we have $\deg\l(fg\r)=\deg f+\deg g$.
+* $R\l[x\r]$ is an integral domain.
+* $\l(R\l[x\r]\r)^\times=R^\times$.
 
 ```
 

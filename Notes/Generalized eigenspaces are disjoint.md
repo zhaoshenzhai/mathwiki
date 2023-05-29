@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $T:V\to V$ be a linear operator on a $K$-vector space $V$. For all $f_1,f_2\in K\l[x\r]$, if $f_1\perp f_2$, then_ $\hat{K}_{f_1}^T\cap\hat{K}_{f_2}^T=\l\{0\r\}$_._
+Let $T:V\to V$ be a linear operator on a $K$-vector space $V$. For all $f_1,f_2\in K\l[x\r]$, if $f_1\perp f_2$, then $\hat{K}_{f_1}^T\cap\hat{K}_{f_2}^T=\l\{0\r\}$.
 
 ```
 

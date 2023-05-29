@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Fix $n\in\N^+$ and consider the function $f_n\!:\R\to\R:x\mapsto x^n$. Then $f_n'\!\l(c\r)=nc^{n-1}$ for all $c\in\R$._
+Fix $n\in\N^+$ and consider the function $f_n\!:\R\to\R:x\mapsto x^n$. Then $f_n'\!\l(c\r)=nc^{n-1}$ for all $c\in\R$.
 
 ```
 

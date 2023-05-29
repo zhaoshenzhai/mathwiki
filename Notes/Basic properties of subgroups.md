@@ -13,10 +13,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G$ be a group and $H,K\subgrpeq G$. Then the following basic properties hold._
-* _$HK\subgrpeq G$ iff $HK=KH$._
-* _If $H\subgrpeq N_G\!\l(K\r)$, then $HK\subgrpeq G$._
-* _If $H$ and $K$ are finite, then $\l|HK\r|=\l|H\r|\l|K\r|/\l|H\cap K\r|$._
+Let $G$ be a group and $H,K\subgrpeq G$. Then the following basic properties hold.
+* $HK\subgrpeq G$ iff $HK=KH$.
+* If $H\subgrpeq N_G\!\l(K\r)$, then $HK\subgrpeq G$.
+* If $H$ and $K$ are finite, then $\l|HK\r|=\l|H\r|\l|K\r|/\l|H\cap K\r|$.
 
 ```
 

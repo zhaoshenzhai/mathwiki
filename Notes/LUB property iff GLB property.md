@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_A poset $\tpl{X,\leq}$ satisfies the least upper bound property iff it satisfies the greatest lower bound property._
+A poset $\tpl{X,\leq}$ satisfies the least upper bound property iff it satisfies the greatest lower bound property.
 
 ```
 

@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be an inner product space. Then $\l\{0\r\}^\perp=V$, $V^\perp=\l\{0\r\}$, and, for all subsets $U\subseteq V$:_
-* _$U^\perp$ is a linear subspace of $V$._
-* _$U\cap U^\perp\subseteq\l\{0\r\}$._
-* _For all $W\subseteq V$ with $U\subseteq W$, we have $W^\perp\subseteq U^\perp$._
-* _If $U=\span\l\{u_1,\dots,u_m\r\}$ for some $u_1,\dots,u_m\in U$, then $v\in U^\perp$ iff $v\perp u_j$ for all $j\in\l\{1,\dots,m\r\}$._
+Let $V$ be an inner product space. Then $\l\{0\r\}^\perp=V$, $V^\perp=\l\{0\r\}$, and, for all subsets $U\subseteq V$:
+* $U^\perp$ is a linear subspace of $V$.
+* $U\cap U^\perp\subseteq\l\{0\r\}$.
+* For all $W\subseteq V$ with $U\subseteq W$, we have $W^\perp\subseteq U^\perp$.
+* If $U=\span\l\{u_1,\dots,u_m\r\}$ for some $u_1,\dots,u_m\in U$, then $v\in U^\perp$ iff $v\perp u_j$ for all $j\in\l\{1,\dots,m\r\}$.
 
 ```
 

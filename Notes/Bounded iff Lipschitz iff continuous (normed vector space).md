@@ -17,11 +17,11 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem.
 
-_Let $V$ and $W$ be normed vector spaces and consider a linear map $T:V\to W$. Then the following are equivalent._
-1. _$T$ is bounded._
-2. _$T$ is Lipschitz._
-3. _$T$ is continuous at some $v\in V$._
-4. _$T$ is continuous at $0$._
+Let $V$ and $W$ be normed vector spaces and consider a linear map $T:V\to W$. Then the following are equivalent.
+1. $T$ is bounded.
+2. $T$ is Lipschitz.
+3. $T$ is continuous at some $v\in V$.
+4. $T$ is continuous at $0$.
 
 ```
 

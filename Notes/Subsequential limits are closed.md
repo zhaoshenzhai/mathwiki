@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,d}$ be a metric space and consider a sequence $\tpl{p_n}$ in $X$. Then the set $S$ of all subsequential limits of $\tpl{p_n}$ is closed._
+Let $\tpl{X,d}$ be a metric space and consider a sequence $\tpl{p_n}$ in $X$. Then the set $S$ of all subsequential limits of $\tpl{p_n}$ is closed.
 
 ```
 

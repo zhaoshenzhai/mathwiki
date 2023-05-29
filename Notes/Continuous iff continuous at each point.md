@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ and $Y$ be topological spaces. Then a function $f:X\to Y$ is continuous iff for all $p\in X$ and all neighborhoods $V$ of $f\l(p\r)$, there exists a neighborhood $U$ of $p$ such that $f\l(U\r)\subseteq V$._
+Let $X$ and $Y$ be topological spaces. Then a function $f:X\to Y$ is continuous iff for all $p\in X$ and all neighborhoods $V$ of $f\l(p\r)$, there exists a neighborhood $U$ of $p$ such that $f\l(U\r)\subseteq V$.
 
 ```
 

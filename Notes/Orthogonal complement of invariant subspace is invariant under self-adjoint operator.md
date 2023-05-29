@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $T:V\to V$ be a linear operator on an inner product space $V$. If $T$ is self-adjoint and $U\subseteq V$ is $T$-invariant, then so is $U^\perp$._
+Let $T:V\to V$ be a linear operator on an inner product space $V$. If $T$ is self-adjoint and $U\subseteq V$ is $T$-invariant, then so is $U^\perp$.
 
 ```
 

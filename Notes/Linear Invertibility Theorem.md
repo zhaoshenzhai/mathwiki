@@ -13,12 +13,12 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Linear Invertibility Theorem).
 
-_Let $V$ be a finite-dimensional vector space, say with $n\coloneqq\dim V$, and let $T\in\End\l(V\r)$. The following are equivalent:_
-1. _$T$ is invertible._
-2. _$\im T=V$ (equivalently, $\rank T=n$)._
-3. _$\ker T=\l\{0\r\}$ (equivalently, $\nullity T=0$)._
-4. _$\det T\neq0$._
-5. _$T^\dual$ is invertible._
+Let $V$ be a finite-dimensional vector space, say with $n\coloneqq\dim V$, and let $T\in\End\l(V\r)$. The following are equivalent:
+1. $T$ is invertible.
+2. $\im T=V$ (equivalently, $\rank T=n$).
+3. $\ker T=\l\{0\r\}$ (equivalently, $\nullity T=0$).
+4. $\det T\neq0$.
+5. $T^\dual$ is invertible.
 
 ```
 

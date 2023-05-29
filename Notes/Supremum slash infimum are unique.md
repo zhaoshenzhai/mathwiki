@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. If $u$ and $u'$ are both suprema of $S$, then $u=u'$. Similarly for infima._
+Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. If $u$ and $u'$ are both suprema of $S$, then $u=u'$. Similarly for infima.
 
 ```
 

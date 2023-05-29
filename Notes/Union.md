@@ -16,11 +16,11 @@ Justifications: [[Axiom of Union]], [[Axiom of Extensionality]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\mc{A}$ be a set. The **union of $\mc{A}$** is the set $\bigcup\mc{A}$ whose elements are exactly those that belong to some $A\in\mc{A}$. Formally, $\axiunion$ posits the existence of a set $\bigcup\mc{A}$ such that_
+Let $\mc{A}$ be a set. The **union of $\mc{A}$** is the set $\bigcup\mc{A}$ whose elements are exactly those that belong to some $A\in\mc{A}$. Formally, $\axiunion$ posits the existence of a set $\bigcup\mc{A}$ such that
 $$\begin{equation}
     \fa a\l(a\in\bigcup\mc{A}\Leftrightarrow\ex A\in\mc{A}:a\in A\r).
 \end{equation}$$
-_Such a set $\bigcup\mc{A}$ is unique by $\axiext$._
+Such a set $\bigcup\mc{A}$ is unique by $\axiext$.
 
 ```
 

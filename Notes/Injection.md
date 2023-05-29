@@ -16,11 +16,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A function $f:X\to Y$ is an **injection** if_
+A function $f:X\to Y$ is an **injection** if
 $$\begin{equation}
     \fa x,x'\in X:f\l(x\r)=f\l(x'\r)\Rightarrow x=x'.
 \end{equation}$$
-_That is, if the relation $f$ is left-unique._
+That is, if the relation $f$ is left-unique.
 
 ```
 

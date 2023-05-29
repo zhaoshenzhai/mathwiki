@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a finite-dimensional $K$-vector space and consider subspaces $U_1,U_2\subseteq V$. Then_
+Let $V$ be a finite-dimensional $K$-vector space and consider subspaces $U_1,U_2\subseteq V$. Then
 $$\begin{equation}
     \dim\l(U_1+U_2\r)=\dim U_1+\dim U_2-\dim\l(U_1\cap U_2\r).
 \end{equation}$$

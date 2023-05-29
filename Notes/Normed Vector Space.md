@@ -16,11 +16,11 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be a vector space over $K$. A **norm on $V$** is a function $\|\slot\|:V\to\R$ such that_
-* _(Positive-definiteness): $\fa v\in V:\|v\|\geq0$; equality holds iff $v=0$._
-* _(Triangle inequality): $\fa v,w\in V:\|v+w\|\leq\|v\|+\|w\|$._
-* _(Absolute homogeneity): $\fa v\in V,\fa\alpha\in K:\|\alpha v\|=\l|\alpha\r|\|v\|$._
+Let $K$ denote either $\R$ or $\C$ and let $V$ be a vector space over $K$. A **norm on $V$** is a function $\|\slot\|:V\to\R$ such that
+* (Positive-definiteness): $\fa v\in V:\|v\|\geq0$; equality holds iff $v=0$.
+* (Triangle inequality): $\fa v,w\in V:\|v+w\|\leq\|v\|+\|w\|$.
+* (Absolute homogeneity): $\fa v\in V,\fa\alpha\in K:\|\alpha v\|=\l|\alpha\r|\|v\|$.
 
-_A vector space $V$, equipped with a norm $\|\slot\|:V\to\R$, is said to be a **normed vector space over $K$**._
+A vector space $V$, equipped with a norm $\|\slot\|:V\to\R$, is said to be a **normed vector space over $K$**.
 
 ```

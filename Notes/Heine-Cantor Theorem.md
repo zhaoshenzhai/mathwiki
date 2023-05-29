@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Heine-Cantor).
 
-_Let $X$ and $Y$ be metric spaces. If $X$ is compact, then any continuous function $f:X\to Y$ is uniformly continuous._
+Let $X$ and $Y$ be metric spaces. If $X$ is compact, then any continuous function $f:X\to Y$ is uniformly continuous.
 
 ```
 

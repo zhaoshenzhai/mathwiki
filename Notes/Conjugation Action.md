@@ -20,7 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $G$ be a group. The **conjugation action on $G$** is the left $G$-action $\phi:G\to\Aut\l(G\r):g\mapsto\phi_g$ given by $\phi_g\!\l(x\r)\coloneqq gxg^{-1}$ for all $x,g\in G$._
+Let $G$ be a group. The **conjugation action on $G$** is the left $G$-action $\phi:G\to\Aut\l(G\r):g\mapsto\phi_g$ given by $\phi_g\!\l(x\r)\coloneqq gxg^{-1}$ for all $x,g\in G$.
 
 ```
 

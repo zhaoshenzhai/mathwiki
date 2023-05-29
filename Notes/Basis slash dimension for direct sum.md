@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let_ $\l\{U_i\r\}_{i\in I}$ _be an indexed family of distinct linear subspaces of a vector space $V$ over some field $K$, and, for all $i\in I$, let $\mc{B}_i$ be a basis for $U_i$. Then_ $\mc{B}\coloneqq\coprod_{i\in I}\mc{B}_i$ _is a basis for_ $U\coloneqq\bigoplus_{i\in I} U_i$_. In particular, if $I=\l\{1,\dots,n\r\}$ for some $n\in\N^+$, we have_
+Let $\l\{U_i\r\}_{i\in I}$ be an indexed family of distinct linear subspaces of a vector space $V$ over some field $K$, and, for all $i\in I$, let $\mc{B}_i$ be a basis for $U_i$. Then $\mc{B}\coloneqq\coprod_{i\in I}\mc{B}_i$ is a basis for $U\coloneqq\bigoplus_{i\in I} U_i$. In particular, if $I=\l\{1,\dots,n\r\}$ for some $n\in\N^+$, we have
 $$\begin{equation}
     \dim\bigoplus_{i=1}^nU_i=\sum_{i=1}^{n}\dim U_i.
 \end{equation}$$

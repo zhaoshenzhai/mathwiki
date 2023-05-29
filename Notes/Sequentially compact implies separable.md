@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,d}$ be a metric space. If $X$ is sequentially compact, then it is separable._
+Let $\tpl{X,d}$ be a metric space. If $X$ is sequentially compact, then it is separable.
 
 ```
 

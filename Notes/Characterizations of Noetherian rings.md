@@ -13,10 +13,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a commutative ring. The following are equivalent._
-1. _Every ascending chain $I_1\subseteq I_2\subseteq\cdots$ of ideals in $R$ stabilizes._
-2. _Every non-empty set $\mc{F}$ of ideals in $R$ has a $\subseteq$-maximal element._
-3. _Every ideal $I$ in $R$ is finitely-generated._
+Let $R$ be a commutative ring. The following are equivalent.
+1. Every ascending chain $I_1\subseteq I_2\subseteq\cdots$ of ideals in $R$ stabilizes.
+2. Every non-empty set $\mc{F}$ of ideals in $R$ has a $\subseteq$-maximal element.
+3. Every ideal $I$ in $R$ is finitely-generated.
 
 ```
 

@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Dimension Theorem).
 
-_Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. If $V$ is finite-dimensional, then_
+Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. If $V$ is finite-dimensional, then
 $$\begin{equation}
     \dim V=\dim\ker T+\dim\im T.
 \end{equation}$$
-_In other words, we have $\dim V=\nullity T+\rank T$._
+In other words, we have $\dim V=\nullity T+\rank T$.
 
 ```
 

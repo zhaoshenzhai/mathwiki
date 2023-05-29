@@ -20,8 +20,8 @@ Justifications: [[Half-infinite open rays are open in the order topology]]
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,\mc{T}}$ be an ordered topological space._
-* _If $X$ is unbounded above, then half-infinite open ray of the form $\l(a,+\infty\r)$ where $a\in X$ is said to be a **neighborhood of $+\infty$**._
-* _If $X$ is unbounded below, then half-infinite open ray of the form $\l(-\infty,b\r)$ where $b\in X$ is said to be a **neighborhood of $-\infty$**._
+Let $\tpl{X,\mc{T}}$ be an ordered topological space.
+* If $X$ is unbounded above, then half-infinite open ray of the form $\l(a,+\infty\r)$ where $a\in X$ is said to be a **neighborhood of $+\infty$**.
+* If $X$ is unbounded below, then half-infinite open ray of the form $\l(-\infty,b\r)$ where $b\in X$ is said to be a **neighborhood of $-\infty$**.
 
 ```

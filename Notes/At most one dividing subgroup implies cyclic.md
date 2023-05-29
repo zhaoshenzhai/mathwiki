@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G$ be a finite group of order $n$. If every $m\divides n$ admits at most one subgroup of order $m$, then $G$ is cyclic._
+Let $G$ be a finite group of order $n$. If every $m\divides n$ admits at most one subgroup of order $m$, then $G$ is cyclic.
 
 ```
 

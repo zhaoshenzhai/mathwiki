@@ -13,9 +13,9 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Banach Fixed Point Theorem).
 
-_Let $\tpl{X,d}$ be a (non-empty) complete metric space and consider a contractive map $f:X\to X$. Then there exists a unique fixed point $x\in X$; that is, there exists a unique $x\in X$ such that $f\l(x\r)=x$._
+Let $\tpl{X,d}$ be a (non-empty) complete metric space and consider a contractive map $f:X\to X$. Then there exists a unique fixed point $x\in X$; that is, there exists a unique $x\in X$ such that $f\l(x\r)=x$.
 
-_Furthermore, $x$ can be found as the limit of any sequence $\tpl{x_n}$ defined by_ $x_n\coloneqq f\l(x_{n-1}\r)$ _for all $n\geq1$._
+Furthermore, $x$ can be found as the limit of any sequence $\tpl{x_n}$ defined by $x_n\coloneqq f\l(x_{n-1}\r)$ for all $n\geq1$.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ be a category. Then the identity functor_ $\Id_\cat{C}:\cat{C}\to\cat{C}$ _is a covariant functor._
+Let $\cat{C}$ be a category. Then the identity functor $\Id_\cat{C}:\cat{C}\to\cat{C}$ is a covariant functor.
 
 ```
 

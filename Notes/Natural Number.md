@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_An ordinal $\beta$ is called a **natural number** if_
+An ordinal $\beta$ is called a **natural number** if
 $$\begin{equation}
     \fa\alpha\in\ON:\alpha\subseteq\beta\Rightarrow\l(\alpha=\em\lor\alpha\textrm{\it{ is a successor ordinal}}\r).
 \end{equation}$$

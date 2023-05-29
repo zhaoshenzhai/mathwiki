@@ -16,8 +16,8 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $X$ be a set. A **basis for a topology on $X$** is a set $\mc{B}\subseteq\pow\l(X\r)$ of $X$ such that:_
-* _$\mc{B}$ covers $X$; that is, $\fa x\in X,\ex B\in\mc{B}:x\in B$._
-* _$\fa B_1,B_2\in\mc{B},\fa x\in B_1\cap B_2:\l(\ex B_3\in\mc{B}:x\in B_3\land B_3\subseteq B_1\cap B_2\r)$._
+Let $X$ be a set. A **basis for a topology on $X$** is a set $\mc{B}\subseteq\pow\l(X\r)$ of $X$ such that:
+* $\mc{B}$ covers $X$; that is, $\fa x\in X,\ex B\in\mc{B}:x\in B$.
+* $\fa B_1,B_2\in\mc{B},\fa x\in B_1\cap B_2:\l(\ex B_3\in\mc{B}:x\in B_3\land B_3\subseteq B_1\cap B_2\r)$.
 
 ```

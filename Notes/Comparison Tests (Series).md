@@ -13,9 +13,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Comparison Tests).
 
-_Let $\tpl{a_k}$ and $\tpl{b_k}$ be eventually positive sequences in $\R$._
-* _(Direct Comparison): If_ $\sum_{k=0}^{\infty}b_k$ _converges, so does_ $\sum_{k=0}^{\infty}a_k$_, and if_ $\sum_{k=0}^{\infty}a_k$ _diverges, so does_ $\sum_{k=0}^{\infty}b_k$_._
-* _(Limit Comparison): Suppose that_ $r\coloneqq\lim_{k\to\infty}a_k/b_k$ _exists. If $r\neq0$, then_ $\sum_{k=0}^{\infty}a_k$ _converges iff_ $\sum_{k=0}^{\infty}b_k$ _does. Otherwise, if $r=0$ and_ $\sum_{k=0}^{\infty}b_k$ _converges, then_ $\sum_{k=0}^{\infty}a_k$ _converges too._
+Let $\tpl{a_k}$ and $\tpl{b_k}$ be eventually positive sequences in $\R$.
+* (Direct Comparison): If $\sum_{k=0}^{\infty}b_k$ converges, so does $\sum_{k=0}^{\infty}a_k$, and if $\sum_{k=0}^{\infty}a_k$ diverges, so does $\sum_{k=0}^{\infty}b_k$.
+* (Limit Comparison): Suppose that $r\coloneqq\lim_{k\to\infty}a_k/b_k$ exists. If $r\neq0$, then $\sum_{k=0}^{\infty}a_k$ converges iff $\sum_{k=0}^{\infty}b_k$ does. Otherwise, if $r=0$ and $\sum_{k=0}^{\infty}b_k$ converges, then $\sum_{k=0}^{\infty}a_k$ _converges too.
+
 ```
 
 **Remark.** If $r'\coloneqq\lim_{k\to\infty}\l|a_k/b_k\r|$ and the same assumptions of the limit comparison test are assumed, then we can also conclude absolute convergence.<span style="float:right;">$\blacklozenge$</span>

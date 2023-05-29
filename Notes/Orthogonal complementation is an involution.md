@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be an inner product space. If $U$ is a finite-dimensional linear subspace of $V$, then $U=\l(U^\perp\r)^\perp$._
+Let $V$ be an inner product space. If $U$ is a finite-dimensional linear subspace of $V$, then $U=\l(U^\perp\r)^\perp$.
 
 ```
 

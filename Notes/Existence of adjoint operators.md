@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be inner product spaces and let $T:V\to W$ be a linear map. Then there exists a unique linear operator $T^\adj:W\to V$ such that $\inprod{Tv}{w}=\inprod{v}{T^\adj w}$ for all $v\in V$ and $w\in W$._
+Let $V$ and $W$ be inner product spaces and let $T:V\to W$ be a linear map. Then there exists a unique linear operator $T^\adj:W\to V$ such that $\inprod{Tv}{w}=\inprod{v}{T^\adj w}$ for all $v\in V$ and $w\in W$.
 
 ```
 

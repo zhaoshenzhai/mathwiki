@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:X\to Y$. Then $f$ is a bijection iff it is invertible._
+Let $f:X\to Y$. Then $f$ is a bijection iff it is invertible.
 
 ```
 

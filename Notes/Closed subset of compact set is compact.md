@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\mc{T}}$ be a topological space and let $S\subseteq K$ be a closed subset of a compact set $K\subseteq X$. Then $S$ is compact._
+Let $\tpl{X,\mc{T}}$ be a topological space and let $S\subseteq K$ be a closed subset of a compact set $K\subseteq X$. Then $S$ is compact.
 
 ```
 

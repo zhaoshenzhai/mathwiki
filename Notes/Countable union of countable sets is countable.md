@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let_ $\tpl{X_n}_{n\in\omega}$ _be a sequence of countable sets. Then_ $\bigcup_{n\in\omega}X_n$ _is countable._
+Let $\tpl{X_n}_{n\in\omega}$ be a sequence of countable sets. Then $\bigcup_{n\in\omega}X_n$ is countable.
 
 ```
 

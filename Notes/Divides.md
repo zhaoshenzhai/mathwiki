@@ -16,6 +16,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be a commutative ring and fix $a,b\in R$ with $b\neq0$. Then **$b$ divides $a$** if there exists some $r\in R$ such that $a=br$, in which case we write $b\divides a$._
+Let $R$ be a commutative ring and fix $a,b\in R$ with $b\neq0$. Then **$b$ divides $a$** if there exists some $r\in R$ such that $a=br$, in which case we write $b\divides a$.
 
 ```

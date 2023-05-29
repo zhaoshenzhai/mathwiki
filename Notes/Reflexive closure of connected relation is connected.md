@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set and let $R$ be a binary relation on $X$. If $R$ is connected on $X$, then so is $\rfcl R$._
+Let $X$ be a set and let $R$ be a binary relation on $X$. If $R$ is connected on $X$, then so is $\rfcl R$.
 
 ```
 

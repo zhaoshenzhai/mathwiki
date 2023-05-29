@@ -13,11 +13,11 @@ Generalizations: [[Frechet Differentiability slash Derivative]]
 ``` ad-Theorem
 title: Theorem (Fundamental Increment Lemma).
 
-_Fix some $\Omega\subseteq\R$ and a cluster point $c\in\Omega$. A function $f:\Omega\to\R$ is differentiable at $c$ iff there exists some $\lambda\in\R$ such that_
+Fix some $\Omega\subseteq\R$ and a cluster point $c\in\Omega$. A function $f:\Omega\to\R$ is differentiable at $c$ iff there exists some $\lambda\in\R$ such that
 $$\begin{equation}
     \lim\limits_{h\to0}\frac{f\l(c+h\r)-f\l(c\r)-\lambda h}{h}=0,
 \end{equation}$$
-_in which case $\lambda=f'\l(c\r)$._
+in which case $\lambda=f'\l(c\r)$.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: [[Unique Factorization Domain (UFD)]]
 ``` ad-Theorem
 title: Theorem (Fundamental Theorem of Arithmetic).
 
-_Let $n\in\mb{N}$ with $n>1$. Then, for some $k\geq1$, there exist prime numbers $p_1<\cdots<p_k$ and positive integers $\alpha_1,\dots,\alpha_k$ such that $n=p_1^{\alpha_1}\cdots p_k^{\alpha_k}$. Moreover, if $n=q_1^{\beta_1}\cdots q_l^{\beta_l}$ for prime numbers $q_1<\cdots<q_l$ and positive integers $\beta_1,\dots,\beta_l$, then $k=l$ and, for all $i\in\l\{1,\dots,k\r\}$, we have $p_i=q_i$ and $\alpha_i=\beta_i$._
+Let $n\in\mb{N}$ with $n>1$. Then, for some $k\geq1$, there exist prime numbers $p_1<\cdots<p_k$ and positive integers $\alpha_1,\dots,\alpha_k$ such that $n=p_1^{\alpha_1}\cdots p_k^{\alpha_k}$. Moreover, if $n=q_1^{\beta_1}\cdots q_l^{\beta_l}$ for prime numbers $q_1<\cdots<q_l$ and positive integers $\beta_1,\dots,\beta_l$, then $k=l$ and, for all $i\in\l\{1,\dots,k\r\}$, we have $p_i=q_i$ and $\alpha_i=\beta_i$.
 
 ```
 

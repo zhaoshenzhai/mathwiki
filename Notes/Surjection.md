@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A function $f:X\to Y$ is a **surjection** if $\ran f=Y$. That is, if the relation $f$ is right-total._
+A function $f:X\to Y$ is a **surjection** if $\ran f=Y$. That is, if the relation $f$ is right-total.
 
 ```
 

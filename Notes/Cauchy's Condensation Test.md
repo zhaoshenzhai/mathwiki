@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Cauchy$\textrm{'}$s Condensation Test).
 
-_Let $\tpl{a_k}$ be a non-increasing sequence in $\R$. Then_ $\sum_{k=1}^{\infty}a_k$ _converges iff_ $\sum_{k=0}^{\infty}2^ka_{2^k}$ _converges, in which case_ $\sum_{k=0}^{\infty}2^ka_{2^k}\leq2\sum_{k=1}^{\infty}a_k$_._
+Let $\tpl{a_k}$ be a non-increasing sequence in $\R$. Then $\sum_{k=1}^{\infty}a_k$ converges iff $\sum_{k=0}^{\infty}2^ka_{2^k}$ converges, in which case $\sum_{k=0}^{\infty}2^ka_{2^k}\leq2\sum_{k=1}^{\infty}a_k$.
 
 ```
 

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a topological space and consider an infinite subset $S\subseteq X$. If $X$ is compact, then $S$ has a cluster (limit) point in $X$._
+Let $X$ be a topological space and consider an infinite subset $S\subseteq X$. If $X$ is compact, then $S$ has a cluster (limit) point in $X$.
 
 ```
 

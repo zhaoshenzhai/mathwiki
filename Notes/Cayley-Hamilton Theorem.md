@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Cayley-Hamilton).
 
-_Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$. Then $\cchi_T\!\l(T\r)=0$._
+Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$. Then $\cchi_T\!\l(T\r)=0$.
 
 ```
 

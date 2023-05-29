@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ be a field and fix $p\in K\l[x\r]\comp\l\{0\r\}$. Then $p$ has at most $\deg p$ distinct roots._
+Let $K$ be a field and fix $p\in K\l[x\r]\comp\l\{0\r\}$. Then $p$ has at most $\deg p$ distinct roots.
 
 ```
 

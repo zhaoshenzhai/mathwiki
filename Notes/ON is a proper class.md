@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Burali-Forti Paradox).
 
-_The collection of all ordinals $\ON$ is a proper class._
+The collection of all ordinals $\ON$ is a proper class.
 
 ```
 

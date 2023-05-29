@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,<}$ be a totally ordered set and fix a Dedekind-complete bounded convex subset $Y\subseteq X$. Then $Y$ can be written in the form of an interval in $X$._
+Let $\tpl{X,<}$ be a totally ordered set and fix a Dedekind-complete bounded convex subset $Y\subseteq X$. Then $Y$ can be written in the form of an interval in $X$.
 
 ```
 

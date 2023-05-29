@@ -16,6 +16,6 @@ Justifications: [[Abelianization is abelian]]
 ``` ad-Definition
 title: Definition.
 
-_Let $G$ be a group. The **abelianization of $G$** is the quotient group $G^\textrm{ab}\coloneqq G/\l[G,G\r]$._
+Let $G$ be a group. The **abelianization of $G$** is the quotient group $G^\textrm{ab}\coloneqq G/\l[G,G\r]$.
 
 ```

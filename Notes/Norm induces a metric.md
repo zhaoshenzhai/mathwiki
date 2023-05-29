@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $K$ denote either $\R$ or $\C$ and let $V$ be a normed vector space over $K$. Then the function_
+Let $K$ denote either $\R$ or $\C$ and let $V$ be a normed vector space over $K$. Then the function
 $$\begin{equation}
     d:V\times V\to\R\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ \tpl{x,y}\mapsto\|x-y\|
 \end{equation}$$
-_is a metric on $V$._
+is a metric on $V$.
 
 ```
 

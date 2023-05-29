@@ -13,8 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\leq}$ be a preordered set. Then the preorder category_ $\cat{C}\tpl{X,\leq}$ _it incudes is a category._
-
+Let $\tpl{X,\leq}$ be a preordered set. Then the preorder category $\cat{C}\tpl{X,\leq}$ it includes is a category.
 
 ```
 

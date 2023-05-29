@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,d}$ be a metric space and fix $S\subseteq X$. Then $x$ is a cluster point of $S$ iff every neighborhood of $x$ contains infinitely-many points in $S$._
+Let $\tpl{X,d}$ be a metric space and fix $S\subseteq X$. Then $x$ is a cluster point of $S$ iff every neighborhood of $x$ contains infinitely-many points in $S$.
 
 ```
 

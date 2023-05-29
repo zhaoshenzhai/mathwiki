@@ -20,6 +20,6 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\Z$ denote the set of integers. The **ring of integers** is the ring $\tpl{\Z,+,\cdot}$ where_
+Let $\Z$ denote the set of integers. The **ring of integers** is the ring $\tpl{\Z,+,\cdot}$ where
 
 ```

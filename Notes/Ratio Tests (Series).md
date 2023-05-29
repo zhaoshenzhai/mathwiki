@@ -13,12 +13,12 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Ratio Tests).
 
-_Let $\tpl{a_n}$ be a non-zero sequence in $\R$._
-* _(Direct Ratio Test): If _ $\l|a_{n+1}/a_n\r|<1$ _eventually, then_ $\sum_{n=0}^{\infty}a_n$ _converges absolutely. Otherwise, if_ $\l|a_{n+1}/a_n\r|\geq1$ _eventually, then_ $\sum_{n=0}^{\infty}a_n$ _diverges._
+Let $\tpl{a_n}$ be a non-zero sequence in $\R$.
+* (Direct Ratio Test): If  $\l|a_{n+1}/a_n\r|<1$ eventually, then $\sum_{n=0}^{\infty}a_n$ converges absolutely. Otherwise, if $\l|a_{n+1}/a_n\r|\geq1$ eventually, then $\sum_{n=0}^{\infty}a_n$ diverges.
 
-_We strengthen the test to the Limit Ratio Test as follows:_
-* _If_ $\limsup\limits_{n\to\infty}\l|\frac{a_{n+1}}{a_n}\r|<1$_, then_ $\sum_{n=0}^{\infty}a_n$ _converges absolutely._
-* _If_ $\liminf\limits_{n\to\infty}\l|\frac{a_{n+1}}{a_n}\r|>1$_, then_ $\sum_{n=0}^{\infty}a_n$ _diverges._
+We strengthen the test to the Limit Ratio Test as follows:
+* If $\limsup\limits_{n\to\infty}\l|\frac{a_{n+1}}{a_n}\r|<1$, then $\sum_{n=0}^{\infty}a_n$ converges absolutely.
+* If $\liminf\limits_{n\to\infty}\l|\frac{a_{n+1}}{a_n}\r|>1$, then $\sum_{n=0}^{\infty}a_n$ diverges.
 
 ```
 

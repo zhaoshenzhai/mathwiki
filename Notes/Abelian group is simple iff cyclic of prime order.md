@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $G$ be an abelian group. Then $G$ is simple iff $G=\gen{g}$ for some $g\in G$ with $\ord{g}$ prime._
+Let $G$ be an abelian group. Then $G$ is simple iff $G=\gen{g}$ for some $g\in G$ with $\ord{g}$ prime.
 
 ```
 

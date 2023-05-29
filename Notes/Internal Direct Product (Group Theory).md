@@ -16,10 +16,10 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $H_1,\dots,H_n$ be subgroups of a group $G$. Then $G$ is said to be an **(internal) direct product of $H_1,\dots,H_n$** if_
-* _(Generating): $G=H_1\cdots H_n\coloneqq\l\{H_1\cdots H_n\in G\mid h_i\in H_i\r\}$._
-* _(Trivial intersection): $H_j\cap\l(H_1\cdots H_n\r)=\l\{e\r\}$ for all $j$._
-* _(Normality): $H_i\nsubgrpeq G$ for all $i$._
+Let $H_1,\dots,H_n$ be subgroups of a group $G$. Then $G$ is said to be an **(internal) direct product of $H_1,\dots,H_n$** if
+* (Generating): $G=H_1\cdots H_n\coloneqq\l\{H_1\cdots H_n\in G\mid h_i\in H_i\r\}$.
+* (Trivial intersection): $H_j\cap\l(H_1\cdots H_n\r)=\l\{e\r\}$ for all $j$.
+* (Normality): $H_i\nsubgrpeq G$ for all $i$.
 
 ```
 

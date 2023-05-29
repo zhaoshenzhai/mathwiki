@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Bolzano-Weierstrass Theorem).
 
-_Every bounded sequence $\tpl{x_n}$ in $\R$ contains a convergent subsequence._
+Every bounded sequence $\tpl{x_n}$ in $\R$ contains a convergent subsequence.
 
 ```
 

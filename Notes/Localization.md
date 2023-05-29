@@ -16,11 +16,11 @@ Justifications: [[Localization of a ring is a ring]]
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be an integral domain and let $S\subseteq R$ be multiplicative. Define the equivalence relation $\sim$ on $R\times S$ by_
+Let $R$ be an integral domain and let $S\subseteq R$ be multiplicative. Define the equivalence relation $\sim$ on $R\times S$ by
 $$\begin{equation}
     \tpl{r_1,s_1}\sim\tpl{r_2,s_2}\ \ \ \ \ \ \ \ \,\colon\!\Leftrightarrow\ \ \ \ \ \ \ \ r_1s_2=r_2s_1
 \end{equation}$$
-_for all $r_1,r_2\in R$ and $s_1,s_2\in S$. Write $\frac{r}{s}\coloneqq\l[\tpl{r,s}\r]$. The **localization of $R$ by $S$** is the commutative ring $S^{-1}R\coloneqq\l\{\frac{r}{s}\mid r\in R\land s\in S\r\}$ equipped with the operations_
+for all $r_1,r_2\in R$ and $s_1,s_2\in S$. Write $\frac{r}{s}\coloneqq\l[\tpl{r,s}\r]$. The **localization of $R$ by $S$** is the commutative ring $S^{-1}R\coloneqq\l\{\frac{r}{s}\mid r\in R\land s\in S\r\}$ equipped with the operations
 $$\begin{equation}
     \begin{aligned}
         +:S^{-1}R\times S^{-1}R&\to S^{-1}R \\
@@ -31,7 +31,7 @@ $$\begin{equation}
         \tpl{\frac{r_1}{s_1},\frac{r_2}{s_2}}&\mapsto\frac{r_1r_2}{s_1s_2}.
     \end{aligned}
 \end{equation}$$
-_If $S=R\comp\l\{0\r\}$, then $S^{-1}R$ is called the **field of fractions of $R$**._
+If $S=R\comp\l\{0\r\}$, then $S^{-1}R$ is called the **field of fractions of $R$**.
 
 ```
 

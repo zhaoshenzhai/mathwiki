@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{G,\ast}$ be a group and fix $x\in G$. Then $\gen{x}$ is the smallest subgroup of $G$ containing $x$ in the sense that if $H\subseteq G$ is a subgroup containing $x$, then $\gen{x}\subseteq H$._
+Let $\tpl{G,\ast}$ be a group and fix $x\in G$. Then $\gen{x}$ is the smallest subgroup of $G$ containing $x$ in the sense that if $H\subseteq G$ is a subgroup containing $x$, then $\gen{x}\subseteq H$.
 
 ```
 

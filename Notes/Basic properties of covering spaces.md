@@ -13,12 +13,12 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,x_0}$ be a pointed topological space and consider a covering map $p:(\widetilde{X},\widetilde{x}_0)\to\tpl{X,x_0}$ for a fixed $\widetilde{x}_0\in p^{-1}\!\l(x_0\r)$. Consider the action of $\pi_1\l(X,x_0\r)$ on $p^{-1}\!\l(x_0\r)$ given by $\l[\gamma\r]\cdot\widetilde{x}\coloneqq\widetilde{\gamma}\l(0\r)$ where $\widetilde{\gamma}$ is the lift of $\gamma$ ending at $\widetilde{x}$. Then the following properties hold._
-* _The covering map $p:\widetilde{X}\to X$ is open._
-* _The induced map_ $p_\ast:\pi_1(\widetilde{X},\widetilde{x}_0)\to\pi_1\l(X,x_0\r)$ _is injective._
-* _The subgroup_ $p_\ast\pi_1(\widetilde{X},\widetilde{x}_0)$ _of $\pi_1\l(X,x_0\r)$ consists of loops in $X$ whose lifts to $\widetilde{X}$ are loops based at $\widetilde{x}_0$. That is, the stabilizer of $\widetilde{x}_0$ is_ $p_\ast\pi_1(\widetilde{X},\widetilde{x}_0)$_._
-* _The action of $\pi_1\l(X,x_0\r)$ on $p^{-1}\!\l(x_0\r)$ is transitive._
-* _The number of sheets of $p$ is the index of_ $p_\ast\pi_1(\widetilde{X},\widetilde{x}_0)$ _in $\pi_1\l(X,x_0\r)$._
+Let $\tpl{X,x_0}$ be a pointed topological space and consider a covering map $p:(\widetilde{X},\widetilde{x}_0)\to\tpl{X,x_0}$ for a fixed $\widetilde{x}_0\in p^{-1}\!\l(x_0\r)$. Consider the action of $\pi_1\l(X,x_0\r)$ on $p^{-1}\!\l(x_0\r)$ given by $\l[\gamma\r]\cdot\widetilde{x}\coloneqq\widetilde{\gamma}\l(0\r)$ where $\widetilde{\gamma}$ is the lift of $\gamma$ ending at $\widetilde{x}$. Then the following properties hold.
+* The covering map $p:\widetilde{X}\to X$ is open.
+* The induced map $p_\ast:\pi_1(\widetilde{X},\widetilde{x}_0)\to\pi_1\l(X,x_0\r)$ is injective.
+* The subgroup $p_\ast\pi_1(\widetilde{X},\widetilde{x}_0)$ of $\pi_1\l(X,x_0\r)$ consists of loops in $X$ whose lifts to $\widetilde{X}$ are loops based at $\widetilde{x}_0$. That is, the stabilizer of $\widetilde{x}_0$ is $p_\ast\pi_1(\widetilde{X},\widetilde{x}_0)$.
+* The action of $\pi_1\l(X,x_0\r)$ on $p^{-1}\!\l(x_0\r)$ is transitive.
+* The number of sheets of $p$ is the index of $p_\ast\pi_1(\widetilde{X},\widetilde{x}_0)$ in $\pi_1\l(X,x_0\r)$.
 
 ```
 

@@ -20,7 +20,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let_ $\sttopR$ _be the standard topology on the real numbers $\R$. The **standard topology on $\R^n$** is the product topology_ $\sttopR[n]\coloneqq\prod_{i=1}^n\sttopR$_ on $\R^n$._
+Let $\sttopR$ be the standard topology on the real numbers $\R$. The **standard topology on $\R^n$** is the product topology $\sttopR[n]\coloneqq\prod_{i=1}^n\sttopR$ on $\R^n$.
 
 ```
 

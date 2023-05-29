@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ be a $K$-vector space. Then $\dim V=0$ iff $V$ is the zero vector space._
+Let $V$ be a $K$-vector space. Then $\dim V=0$ iff $V$ is the zero vector space.
 
 ```
 

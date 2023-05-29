@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition (Schur).
 
-_Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$. If $\cchi_T$ splits, then there exists a basis $\mc{B}$ of $V$ such that_ $\l[T\r]_\mc{B}$ _is upper-triangular._
+Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$. If $\cchi_T$ splits, then there exists a basis $\mc{B}$ of $V$ such that $\l[T\r]_\mc{B}$ is upper-triangular.
 
 ```
 

@@ -13,10 +13,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be an integral domain and let $a\in R\comp\l\{0\r\}$. Then the following properties hold._
-* _$a$ is prime iff $\sring{a}$ is a prime ideal._
-* _$a$ is irreducible iff $\sring{a}$ is maximal in the set of all proper principal ideals of $R$._
-* _$a$ is prime implies $a$ is irreducible._
+Let $R$ be an integral domain and let $a\in R\comp\l\{0\r\}$. Then the following properties hold.
+* $a$ is prime iff $\sring{a}$ is a prime ideal.
+* $a$ is irreducible iff $\sring{a}$ is maximal in the set of all proper principal ideals of $R$.
+* $a$ is prime implies $a$ is irreducible.
 
 ```
 

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces. A function $f:X\to Y$ is continuous iff for every open set $V$ in $Y$, $\preim_f\!\l(V\r)$ is open in $X$._
+Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces. A function $f:X\to Y$ is continuous iff for every open set $V$ in $Y$, $\preim_f\!\l(V\r)$ is open in $X$.
 
 ```
 

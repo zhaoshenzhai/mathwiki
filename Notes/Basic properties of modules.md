@@ -13,9 +13,9 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a ring and let $M$ be a left $R$-module. Then, for all $r\in R$ and $m\in M$, the following properties hold._
-* _(Absorbing element of $\cdot$): $r0_M=0_M=0_Rm$._
-* _(Compatibility of additive inverse and $\cdot$): $\l(-r\r)m=-\l(rm\r)=r\l(-m\r)$._
+Let $R$ be a ring and let $M$ be a left $R$-module. Then, for all $r\in R$ and $m\in M$, the following properties hold.
+* (Absorbing element of $\cdot$): $r0_M=0_M=0_Rm$.
+* (Compatibility of additive inverse and $\cdot$): $\l(-r\r)m=-\l(rm\r)=r\l(-m\r)$.
 
 ```
 

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. Writing $V=\ker T\oplus V'$, the restriction_ $\l.T\r|_{V'}:V'\to W$ _is injective._
+Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. Writing $V=\ker T\oplus V'$, the restriction $\l.T\r|_{V'}:V'\to W$ is injective.
 
 ```
 

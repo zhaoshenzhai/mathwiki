@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $\tpl{X,d}$ be a metric space and fix $S\subseteq X$. Then $S$ is **totally bounded in $X$** if_
+Let $\tpl{X,d}$ be a metric space and fix $S\subseteq X$. Then $S$ is **totally bounded in $X$** if
 $$\begin{equation}
     \fa\epsilon>0,\ex n\in\N^+,\ex x_1,\dots,x_n\in S:S\subseteq\bigcup_{i=1}^{n}B_\epsilon\!\l(x_i\r).
 \end{equation}$$

@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ be a category. Then its opposite category $\cat{C}^\textrm{op}$ is a category._
+Let $\cat{C}$ be a category. Then its opposite category $\cat{C}^\textrm{op}$ is a category.
 
 ```
 

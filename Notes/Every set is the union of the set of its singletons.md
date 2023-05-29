@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set. Then_ $X=\bigcup_{x\in X}\l\{x\r\}=\bigcup\l\{\l\{x\r\}\in\pow\l(X\r)\mid x\in X\r\}$_._
+Let $X$ be a set. Then $X=\bigcup_{x\in X}\l\{x\r\}=\bigcup\l\{\l\{x\r\}\in\pow\l(X\r)\mid x\in X\r\}$.
 
 ```
 

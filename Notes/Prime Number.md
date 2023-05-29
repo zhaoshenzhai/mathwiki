@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_A natural number $p\in\N$ with $p>1$ is said to be a **prime number** if the only divisors of $p$ are $1$ and itself._
+A natural number $p\in\N$ with $p>1$ is said to be a **prime number** if the only divisors of $p$ are $1$ and itself.
 
 ```
 

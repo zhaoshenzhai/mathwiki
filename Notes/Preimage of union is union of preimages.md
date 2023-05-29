@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a binary relation and fix $\mc{B}\subseteq\pow\l(\ran R\r)$; that is, fix a collection of subsets of $\ran R$. Then_
+Let $R$ be a binary relation and fix $\mc{B}\subseteq\pow\l(\ran R\r)$; that is, fix a collection of subsets of $\ran R$. Then
 $$\begin{equation}
     \preim_R\l(\bigcup\mc{B}\r)=\bigcup\l\{\preim_R\l(B\r)\mid B\in\mc{B}\r\}.
 \end{equation}$$

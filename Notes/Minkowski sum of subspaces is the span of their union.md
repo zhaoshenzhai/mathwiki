@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let_ $\l\{U_i\r\}_{i\in I}$ _be an indexed family of linear subspaces of a vector space $V$ over some field $K$. Then_ $U\coloneqq\sum_{i\in I}U_i=\span\bigcup_{i\in I}U_i$_, where $u_i=0$ for all but finitely-many $i\in I$._
+Let $\l\{U_i\r\}_{i\in I}$ be an indexed family of linear subspaces of a vector space $V$ over some field $K$. Then $U\coloneqq\sum_{i\in I}U_i=\span\bigcup_{i\in I}U_i$, where $u_i=0$ for all but finitely-many $i\in I$.
 
 ```
 

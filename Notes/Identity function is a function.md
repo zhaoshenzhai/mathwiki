@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $X$ be a set. The identity function $\id_X\!=\l\{z\mid \ex x\in X:z=\tpl{x,x}\r\}$ is a function._
+Let $X$ be a set. The identity function $\id_X\!=\l\{z\mid \ex x\in X:z=\tpl{x,x}\r\}$ is a function.
 
 ```
 

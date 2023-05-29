@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_The empty set exists and is unique. Formally, $\ex!e\l[\fa z\l(z\not\in e\r)\r]$._
+The empty set exists and is unique. Formally, $\ex!e\l[\fa z\l(z\not\in e\r)\r]$.
 
 ```
 

@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_The set of natural numbers $\omega$ is an ordinal._
+The set of natural numbers $\omega$ is an ordinal.
 
 ```
 

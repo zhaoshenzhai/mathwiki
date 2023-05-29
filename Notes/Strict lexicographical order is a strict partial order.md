@@ -13,11 +13,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $<$ and $\prec$ be strict partial orders on the sets $X$ and $Y$, respectively. Then the binary relation defined by_
+Let $<$ and $\prec$ be strict partial orders on the sets $X$ and $Y$, respectively. Then the binary relation defined by
 $$\begin{equation}
     \tpl{x_1,y_1}\sqsubset\tpl{x_2,y_2}\ \ \ \ \Leftrightarrow\ \ \ \ \l[x_1<x_2\lor\l(x_1=x_2\land y_1\prec y_2\r)\r]
 \end{equation}$$
-_for all $x_1,x_2\in X$ and $y_1,y_2\in Y$ is a strict partial order on $X\times Y$._
+for all $x_1,x_2\in X$ and $y_1,y_2\in Y$ is a strict partial order on $X\times Y$.
 
 ```
 

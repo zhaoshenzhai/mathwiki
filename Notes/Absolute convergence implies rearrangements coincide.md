@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{a_k}$ be a sequence in $\R$ such that_ $S\coloneqq\sum_{k=0}^{\infty}a_k$ _converges absolutely. Then every rearrangement thereof converges to $S$._
+Let $\tpl{a_k}$ be a sequence in $\R$ such that $S\coloneqq\sum_{k=0}^{\infty}a_k$ converges absolutely. Then every rearrangement thereof converges to $S$.
 
 ```
 

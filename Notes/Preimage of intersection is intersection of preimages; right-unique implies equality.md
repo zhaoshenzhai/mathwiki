@@ -17,11 +17,11 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $R$ be a binary relation and fix a non-empty subset $\mc{B}\subseteq\pow\l(\ran R\r)$; that is, fix a non-empty collection of subsets of $\ran R$. Then_
+Let $R$ be a binary relation and fix a non-empty subset $\mc{B}\subseteq\pow\l(\ran R\r)$; that is, fix a non-empty collection of subsets of $\ran R$. Then
 $$\begin{equation}
     \preim_R\l(\bigcap\mc{B}\r)\subseteq\bigcap\l\{\preim_R\l(B\r)\mid B\in\mc{B}\r\}.
 \end{equation}$$
-_Equality holds if for all $x\in\dom R$, there exists a unique $y$ such that $xRy$._
+Equality holds if for all $x\in\dom R$, there exists a unique $y$ such that $xRy$.
 
 ```
 

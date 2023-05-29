@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. If $g$ and $g'$ are both greatest elements of $S$, then $g=g'$. Similarly for least elements._
+Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. If $g$ and $g'$ are both greatest elements of $S$, then $g=g'$. Similarly for least elements.
 
 ```
 

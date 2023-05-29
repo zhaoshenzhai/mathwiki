@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Cauchy Integrability Criterion).
 
-_Let $f:\l[a,b\r]\to\R$ and let $\ms{P}$ be the set of all partitions of $\l[a,b\r]$. Then $f\in\RI{\l[a,b\r]}$ iff_
+Let $f:\l[a,b\r]\to\R$ and let $\ms{P}$ be the set of all partitions of $\l[a,b\r]$. Then $f\in\RI{\l[a,b\r]}$ iff
 $$\begin{equation}
     \fa\epsilon>0,\ex\delta>0,\fa\mc{P},\mc{Q}\in\ms{P}:\|\mc{P}\|,\|\mc{Q}\|<\delta\Rightarrow\l|S\l(f,\mc{P}\r)-S\l(f,\mc{Q}\r)\r|<\epsilon.
 \end{equation}$$

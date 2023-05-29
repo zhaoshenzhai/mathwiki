@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $f:X\to Y$ and $g:Y'\to Z$ be functions with $Y\subseteq Y'$. Then the relation $g\circ f$ is a function such that $g\circ f:X\to Z$._
+Let $f:X\to Y$ and $g:Y'\to Z$ be functions with $Y\subseteq Y'$. Then the relation $g\circ f$ is a function such that $g\circ f:X\to Z$.
 
 ```
 

@@ -20,8 +20,8 @@ Justifications: [[GCDs exist in UFDs]], [[GCD exists implies unique up to a unit
 ``` ad-Definition
 title: Definition.
 
-_Let $R$ be a UFD and take a nonzero_ $f\coloneqq\sum_{i=0}^{n}a_ix^i\in R\l[x\r]$_. The **content of $f$** is the GCD ideal $\cont\l(f\r)\coloneqq\sring{\gcd\l(a_0,\dots,a_n\r)}$ of the coefficients of $f$._
-* _If $\cont\l(f\r)=R$, then $f$ is said to be **primitive**._
+Let $R$ be a UFD and take a nonzero $f\coloneqq\sum_{i=0}^{n}a_ix^i\in R\l[x\r]$. The **content of $f$** is the GCD ideal $\cont\l(f\r)\coloneqq\sring{\gcd\l(a_0,\dots,a_n\r)}$ of the coefficients of $f$.
+* If $\cont\l(f\r)=R$, then $f$ is said to be **primitive**.
 
 ```
 

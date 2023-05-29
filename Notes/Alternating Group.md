@@ -16,7 +16,7 @@ Justifications: [[Existence of sign homomorphism]]
 ``` ad-Definition
 title: Definition.
 
-_Let $X\coloneqq\l\{1,\dots,n\r\}$. The **alternating group of degree $n$** is the permutation group $A_n\coloneqq\ker\epsilon$ where $\epsilon:S_n\to\l\{\pm1\r\}$ is the sign homomorphism._
+Let $X\coloneqq\l\{1,\dots,n\r\}$. The **alternating group of degree $n$** is the permutation group $A_n\coloneqq\ker\epsilon$ where $\epsilon:S_n\to\l\{\pm1\r\}$ is the sign homomorphism.
 
 ```
 

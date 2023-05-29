@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $\cat{C}$ be a thin category. Then all morphisms $f:X\to Y$ are both monomorphisms and epimorphisms._
+Let $\cat{C}$ be a thin category. Then all morphisms $f:X\to Y$ are both monomorphisms and epimorphisms.
 
 ```
 

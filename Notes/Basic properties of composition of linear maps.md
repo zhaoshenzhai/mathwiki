@@ -13,10 +13,10 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $V$, $W$, and $Z$ be $K$-vector spaces. Then the following algebraic identities hold:_
-* _(Left-distributivity of $\circ$ over $+$): $U\circ\l(T_1+T_2\r)=\l(U\circ T_1\r)+\l(U\circ T_2\r)$ for all $T_1,T_2\in\Hom\l(V,W\r)$ and $U\in\Hom\l(W,Z\r)$._
-* _(Right-distributivity of $\circ$ over $+$): $\l(U_1+U_2\r)\circ T=\l(U_1\circ T\r)+\l(U_2\circ T\r)$ for all $T\in\Hom\l(V,W\r)$ and $U_1,U_2\in\Hom\l(W,Z\r)$._
-* _(Compatibility between $\circ$ and $\cdot$): $\alpha\cdot\l(U\circ T\r)=\l(\alpha\cdot U\r)\circ T=U\circ\l(\alpha\cdot T\r)$ for all $T\in\Hom\l(V,W\r)$, $U\in\Hom\l(W,Z\r)$, and $\alpha\in K$._
+Let $V$, $W$, and $Z$ be $K$-vector spaces. Then the following algebraic identities hold:
+* (Left-distributivity of $\circ$ over $+$): $U\circ\l(T_1+T_2\r)=\l(U\circ T_1\r)+\l(U\circ T_2\r)$ for all $T_1,T_2\in\Hom\l(V,W\r)$ and $U\in\Hom\l(W,Z\r)$.
+* (Right-distributivity of $\circ$ over $+$): $\l(U_1+U_2\r)\circ T=\l(U_1\circ T\r)+\l(U_2\circ T\r)$ for all $T\in\Hom\l(V,W\r)$ and $U_1,U_2\in\Hom\l(W,Z\r)$.
+* (Compatibility between $\circ$ and $\cdot$): $\alpha\cdot\l(U\circ T\r)=\l(\alpha\cdot U\r)\circ T=U\circ\l(\alpha\cdot T\r)$ for all $T\in\Hom\l(V,W\r)$, $U\in\Hom\l(W,Z\r)$, and $\alpha\in K$.
 
 ```
 

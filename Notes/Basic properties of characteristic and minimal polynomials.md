@@ -17,9 +17,9 @@ Generalizations: _Not Applicable_
 ``` ad-Proposition
 title: Proposition.
 
-_Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space. Then the following properties holds._
-* _$\cchi\divides\mu^n$ where $n\coloneqq\dim V$._
-* _$\cchi$ and $\mu$ have the same irreducible factors._
+Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space. Then the following properties holds.
+* $\cchi\divides\mu^n$ where $n\coloneqq\dim V$.
+* $\cchi$ and $\mu$ have the same irreducible factors.
 
 ```
 

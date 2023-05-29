@@ -13,7 +13,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem.
 
-_Let $V$ be a $K$-vector space. Then $V$ has a basis._
+Let $V$ be a $K$-vector space. Then $V$ has a basis.
 
 ```
 

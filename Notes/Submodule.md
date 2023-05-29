@@ -16,7 +16,7 @@ Justifications: _Not Applicable_
 ``` ad-Definition
 title: Definition.
 
-_Let $M$ be a left $R$-module and fix a subset $N\subseteq M$. Then $N$ is a **left $R$-submodule of $M$** if $N$ is an $R$-module under the induced operations._
+Let $M$ be a left $R$-module and fix a subset $N\subseteq M$. Then $N$ is a **left $R$-submodule of $M$** if $N$ is an $R$-module under the induced operations.
 
 ```
 

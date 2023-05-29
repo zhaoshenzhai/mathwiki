@@ -17,7 +17,7 @@ Generalizations: _Not Applicable_
 ``` ad-Theorem
 title: Theorem (Hilbert$\textrm{'}$s Basis Theorem).
 
-_Let $R$ be a commutative ring. If $R$ is Noetherian, then $R\l[x\r]$ is also Noetherian._
+Let $R$ be a commutative ring. If $R$ is Noetherian, then $R\l[x\r]$ is also Noetherian.
 
 ```
 
