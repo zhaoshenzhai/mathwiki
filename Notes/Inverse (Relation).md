@@ -3,14 +3,14 @@
 Date Created: 21/01/2022 11:22:20
 Tags: #Type/Definition #Later/Set_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i> 
 Constructions: [[Preimage (Relation)]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Domain and range of inverse relation]], [[Inverse of inverse relation is the relation itself]], [[Inverse of composition of relations]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Inverse of a relation is a relation]]
 
 ``` ad-Definition

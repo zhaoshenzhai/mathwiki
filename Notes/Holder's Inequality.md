@@ -8,11 +8,11 @@ Date Created: 14/02/2023 11:03:20
 Tags: #Type/Theorem #Later/Analysis
 
 Proved by: [[Young's Inequality for Products]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Hölder$\textrm{'}$s Inequality).

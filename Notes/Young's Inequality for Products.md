@@ -7,12 +7,12 @@ mathLink: auto
 Date Created: 14/02/2023 11:14:24
 Tags: #Type/Proposition #Topic/Analysis
 
-Proved by: _Not Applicable_
-References: _Not Applicable_
-Justifications: _Not Applicable_
+Proved by: <i>Not Applicable</i>
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition (Young$\textrm{'}$s Inequality for Products).

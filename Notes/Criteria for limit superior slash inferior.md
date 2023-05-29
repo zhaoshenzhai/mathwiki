@@ -8,11 +8,11 @@ Date Created: 29/10/2022 20:36:51
 Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Bolzano-Weierstrass Theorem]], [[Sequential Limit Theorems in R]], [[Monotone Convergence Theorem]], [[Subsequences converge to the same limit]], [[Limit of 1 over linear]], [[Squeezed Distance Lemma]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

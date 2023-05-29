@@ -8,14 +8,14 @@ Date Created: 24/01/2022 15:51:38
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: [[Least and Greatest Elements]], [[Infimum and Supremum]]
-Examples: _Not Applicable_ 
+Examples: <i>Not Applicable</i> 
 Constructions: [[Bounded Poset]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

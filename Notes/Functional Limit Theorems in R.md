@@ -8,11 +8,11 @@ Date Created: 18/11/2022 19:27:11
 Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Sequential Criterion for Functional Limits]], [[Sequential Limit Theorems in R]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Functional Limit Theorems in $\R$).

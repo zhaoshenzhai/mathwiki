@@ -3,15 +3,15 @@
 Date Created: 19/01/2022 17:45:32
 Tags: #Type/Definition #Later/Set_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i> 
 Constructions: [[Total Order]], [[Strict Total Order]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Trichotomous iff asymmetric and connected]], [[Reflexive closure of connected relation is connected]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

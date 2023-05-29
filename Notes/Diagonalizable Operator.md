@@ -3,15 +3,15 @@
 Date Created: 11/06/2022 18:08:57
 Tags: #Type/Definition #Topic/Linear_Algebra
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Projection (Linear Algebra)]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Characteristic polynomial for a diagonalizable operator]]
 Sufficiencies: [[Spectral Theorem]]
 Equivalences: [[Diagonalization Test]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

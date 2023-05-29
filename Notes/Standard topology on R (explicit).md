@@ -8,11 +8,11 @@ Date Created: 08/02/2022 13:06:57
 Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[Criteria for collection to be a basis for an existing topology]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

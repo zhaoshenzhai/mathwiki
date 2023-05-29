@@ -4,14 +4,14 @@ Date Created: 17/05/2023 23:41:42
 Tags: #Type/Definition #Topic/Topology
 
 Types: [[Simply-connected Space]]
-Examples: _Not Applicable_
+Examples: <i>Not Applicable</i>
 Constructions: [[Fundamental Group]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of path-connectedness]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

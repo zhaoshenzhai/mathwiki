@@ -3,14 +3,14 @@
 Date Created: 16/11/2022 14:08:21
 Tags: #Type/Definition #Topic/Ring_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Principal Ideal Domain (PID)]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Principal ideals are ideals]]
 
 ``` ad-Definition

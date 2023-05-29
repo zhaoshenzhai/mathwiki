@@ -8,11 +8,11 @@ Date Created: 06/04/2022 22:04:49
 Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Basic properties of vector spaces]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

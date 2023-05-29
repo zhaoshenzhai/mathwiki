@@ -3,14 +3,14 @@
 Date Created: 21/01/2022 10:05:12
 Tags: #Type/Definition #Topic/Set_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Reflexive Closure]], [[Category of Sets]], [[Category of Relations]], [[Category of Vector Spaces]], [[Identity Functor]]
 Generalizations: [[Identity Morphism]]
 
 Properties: [[Identity function is the identity of function composition]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Identity function is a function]]
 
 ``` ad-Definition

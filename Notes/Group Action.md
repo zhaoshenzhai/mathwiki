@@ -6,12 +6,12 @@ Tags: #Type/Definition #Topic/Group_Theory
 Types: [[Faithful Action]], [[Transitive Action]]
 Examples: [[Conjugation Action]]
 Constructions: [[Orbit]], [[Stabilizer]], [[Equivariant Map]], [[Vector Space]], [[Category of G-Sets]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

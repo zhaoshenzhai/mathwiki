@@ -9,10 +9,10 @@ Tags: #Type/Proposition #Later/Linear_Algebra/Determinant
 
 Proved by: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Invertible iff determinant non-zero]]
 References: [[Characteristic polynomial is a polynomial]], [[Polynomial has at most degree-many roots]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

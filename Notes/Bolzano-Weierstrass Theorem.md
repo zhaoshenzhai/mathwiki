@@ -5,10 +5,10 @@ Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Nested Interval Theorem]], [[Squeezed Distance Lemma]]
 References: [[Monotone Subsequence Theorem]], [[Monotone Convergence Theorem]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Bolzano-Weierstrass Theorem).

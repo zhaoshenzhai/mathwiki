@@ -6,12 +6,12 @@ Tags: #Type/Definition #Later/Set_Theory
 Types: [[Successor Ordinal]], [[Limit Ordinal]], [[Natural Number]]
 Examples: [[Initial segment of ON is an ordinal]]
 Constructions: [[Class of Ordinals]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Successor of an ordinal is the next smallest ordinal]]
 Sufficiencies: [[Intersection of ordinals is an ordinal]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

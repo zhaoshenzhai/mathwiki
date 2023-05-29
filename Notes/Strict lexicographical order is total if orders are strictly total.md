@@ -4,11 +4,11 @@ Date Created: 01/02/2022 16:00:16
 Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Strict lexicographical order is a strict partial order]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

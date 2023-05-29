@@ -8,11 +8,11 @@ Date Created: 27/02/2023 21:42:09
 Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Norms on finite-dimensional spaces are equivalent]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

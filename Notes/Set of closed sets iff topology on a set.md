@@ -8,11 +8,11 @@ Date Created: 19/02/2022 14:36:08
 Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[Double complement of set is set itself]], [[De Morgan's Laws]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

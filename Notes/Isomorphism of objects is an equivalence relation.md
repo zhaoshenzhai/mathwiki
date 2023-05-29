@@ -3,12 +3,12 @@
 Date Created: 23/02/2022 16:57:55
 Tags: #Type/Proposition #Later/Category_Theory
 
-Proved by: _Not Applicable_
-References: _Not Applicable_
-Justifications: _Not Applicable_
+Proved by: <i>Not Applicable</i>
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 Specializations: [[Isomorphism of sets is an equivalence relation]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

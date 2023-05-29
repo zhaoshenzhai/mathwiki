@@ -7,14 +7,14 @@ mathLink: $\tpl{\Z_n,+,\cdot}$
 Date Created: 03/11/2022 19:37:02
 Tags: #Type/Definition #Topic/Ring_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Multiplicative Group of Integers mod n]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Integers mod n is a field iff n prime]]
 
 ``` ad-Definition

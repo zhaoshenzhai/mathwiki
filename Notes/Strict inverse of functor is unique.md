@@ -4,11 +4,11 @@ Date Created: 11/03/2022 21:51:28
 Tags: #Type/Proposition #Later/Category_Theory
 
 Proved by: [[Identity functor is the identity of functor composition]], [[Composition of functors is associative]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

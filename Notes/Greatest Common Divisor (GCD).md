@@ -3,14 +3,14 @@
 Date Created: 14/09/2022 19:47:03
 Tags: #Type/Definition #Topic/Ring_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Content slash primitive polynomials]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[GCDs exist in UFDs]], [[Bezout's Identity]], [[Euclidean Algorithm]]
-Equivalences: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
 Justifications: [[GCD exists implies unique up to a unit]], [[Basic properties of divisibility and associates]]
 
 ``` ad-Definition

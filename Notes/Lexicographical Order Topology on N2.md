@@ -7,14 +7,14 @@ mathLink: auto
 Date Created: 07/02/2022 16:26:29
 Tags: #Type/Definition #Later/Topology
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: _Not Appicable_
 
 ``` ad-Definition

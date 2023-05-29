@@ -8,11 +8,11 @@ Date Created: 13/10/2022 12:18:15
 Tags: #Type/Theorem #Topic/Group_Theory
 
 Proved by: [[Lagrange's Theorem]], [[Basic properties of order]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Euler$\textrm{'}$s Theorem).

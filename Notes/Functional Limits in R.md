@@ -7,14 +7,14 @@ mathLink: auto
 Date Created: 30/11/2022 23:37:27
 Tags: #Type/Definition #Topic/Analysis
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Differentiable Function slash Derivative in R]]
 Generalizations: [[Functional Limits in a Metric Space]]
 
 Properties: [[Functional Limit Theorems in R]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Hausdorff implies limits are unique]]
 
 ``` ad-Definition

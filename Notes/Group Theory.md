@@ -4,7 +4,7 @@ Date Created: 20/12/2022 18:20:50
 Tags: #Type/MOC #Topic/Group_Theory
 
 Context: [Zermelo Fraenkel Set Theory](obsidian://open?file=TODO)
-Excursions: _Not Applicable_
+Excursions: <i>Not Applicable</i>
 Abstractions: [Category Theory](obsidian://open?file=TODO)
 
 $\huge\rm\bf{G}\normalsize\rm\bf{ROUP THEORY}$ is the study of the [category of groups](obsidian://open?file=TODO); that is, the study of [groups](Group.md) and [homomorphisms](Group%20Homomorphism.md) between them.

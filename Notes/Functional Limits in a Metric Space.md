@@ -3,13 +3,13 @@
 Date Created: 01/12/2022 13:32:31
 Tags: #Type/Definition #Topic/Analysis
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Functional Limits in R]]
 Constructions: [[Sequential slash functional limit characterizations of continuity]], [[Frechet Differentiability slash Derivative]]
 Generalizations: [[Functional Limits]]
 
 Properties: [[Convergent implies bounded (functional)]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Sequential Criterion for Functional Limits]]
 Justifications: [[Hausdorff implies limits are unique]]
 

@@ -8,11 +8,11 @@ Date Created: 14/11/2022 21:50:14
 Tags: #Type/Proposition #Topic/Ring_Theory
 
 Proved by: [[Basic properties of rings]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

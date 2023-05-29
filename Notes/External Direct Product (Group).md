@@ -3,14 +3,14 @@
 Date Created: 27/10/2022 13:01:39
 Tags: #Type/Definition #Topic/Group_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[External Direct Product (Vector Space)]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Abelianization of product is product of abelianization]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Function space constructed from a Cartesian product]]
 
 ``` ad-Definition

@@ -3,14 +3,14 @@
 Date Created: 23/01/2022 19:48:14
 Tags: #Type/Definition #Later/Topology
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
-Constructions: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i> 
+Constructions: <i>Not Applicable</i>
 Generalizations: [[Cocountable Topology]]
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Cofinite topology is a topology]]
 
 ``` ad-Definition

@@ -3,14 +3,14 @@
 Date Created: 03/04/2023 15:47:36
 Tags: #Type/Definition #Topic/Linear_Algebra
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Self-adjoint Operator]], [[Positive Operator]], [[Unitary Operator]], [[Normal Operator]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of adjoint operators]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Existence of adjoint operators]]
 
 ``` ad-Definition

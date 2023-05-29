@@ -3,15 +3,15 @@
 Date Created: 16/11/2022 15:08:43
 Tags: #Type/Definition #Topic/Ring_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Prime Element]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Maximal implies prime]]
 Equivalences: [[Ideal is prime iff quotient is an integral domain]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

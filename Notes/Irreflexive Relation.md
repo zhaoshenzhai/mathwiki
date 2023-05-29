@@ -3,15 +3,15 @@
 Date Created: 30/01/2022 17:38:06
 Tags: #Type/Definition #Later/Set_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Strict Partial Order]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Irreflexive and transitive implies asymmetric]]
 Sufficiencies: [[Asymmetry implies irreflexivity]], [[Well-founded relations are irreflexive]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

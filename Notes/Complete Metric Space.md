@@ -5,13 +5,13 @@ Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Banach Space]]
 Examples: [[Metric-completeness of R]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Banach Fixed Point Theorem]]
 Sufficiencies: [[Compact implies complete]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

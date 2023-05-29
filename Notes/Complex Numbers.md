@@ -3,14 +3,14 @@
 Date Created: 04/01/2023 13:53:37
 Tags: #Type/Definition #Topic/Ring_Theory #Topic/Complex_Analysis
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Complex Conjugate]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Fundamental Theorem of Algebra]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Ideal is maximal iff quotient is a field]], [[Irreducible polynomial iff ideal maximal]]
 
 ``` ad-Definition

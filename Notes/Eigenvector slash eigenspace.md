@@ -7,15 +7,15 @@ mathLink: auto
 Date Created: 11/06/2022 18:17:22
 Tags: #Type/Definition #Topic/Linear_Algebra
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Diagonalization Test]]
 Generalizations: [[Generalized Eigenvector slash Eigenspace]]
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Distinct eigenvalues implies linearly independent eigenvectors]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

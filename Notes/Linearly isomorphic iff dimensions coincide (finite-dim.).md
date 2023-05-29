@@ -8,11 +8,11 @@ Date Created: 29/05/2022 17:53:10
 Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Existence of unique linear map via action on basis vectors]], [[Image of linear map is spanned by image of spanning set]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

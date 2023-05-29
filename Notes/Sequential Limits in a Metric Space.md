@@ -3,14 +3,14 @@
 Date Created: 01/12/2022 13:45:22
 Tags: #Type/Definition #Topic/Analysis
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Sequential Limits in R]]
 Constructions: [[Sequential Criterion for Functional Limits]], [[Sequential slash functional limit characterizations of continuity]]
 Generalizations: [[Sequential Limits]]
 
 Properties: [[Convergent implies bounded (sequential)]], [[Convergent implies Cauchy]]
 Sufficiencies: [[Squeezed Distance Lemma]]
-Equivalences: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Hausdorff implies limits are unique]]
 
 ``` ad-Definition

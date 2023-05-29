@@ -3,14 +3,14 @@
 Date Created: 16/11/2022 14:28:08
 Tags: #Type/Definition #Topic/Ring_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Ideal is prime iff quotient is an integral domain]], [[Ideal is maximal iff quotient is a field]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Quotient ring is a ring]], [[Basic properties of cosets]]
 
 ``` ad-Definition

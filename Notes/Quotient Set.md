@@ -3,15 +3,15 @@
 Date Created: 29/01/2022 11:58:15
 Tags: #Type/Definition #Topic/Set_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Quotient Group]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Universal Property of Quotient Sets]], [[Quotient set is a partition]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Fundamental Theorem of Equivalence Relations]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

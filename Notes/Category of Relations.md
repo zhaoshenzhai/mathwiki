@@ -7,15 +7,15 @@ mathLink: auto
 Date Created: 25/02/2022 12:02:58
 Tags: #Type/Definition #Topic/Category_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

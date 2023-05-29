@@ -7,14 +7,14 @@ mathLink: Least/Greatest Element
 Date Created: 03/02/2022 14:47:59
 Tags: #Type/Definition #Topic/Set_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Least or greatest equals minimal or maximal for totally ordered sets]]
 Sufficiencies: [[Least slash greatest on compacta of R]]
-Equivalences: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Least slash Greatest elements are unique]]
 
 ``` ad-Definition

@@ -4,12 +4,12 @@ Date Created: 23/01/2023 12:50:01
 Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Orthogonal Projection]]
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Characterizations of projections]]
 Justifications: [[Diagonalization Test]]
 

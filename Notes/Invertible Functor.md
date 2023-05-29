@@ -3,14 +3,14 @@
 Date Created: 09/03/2022 14:57:45
 Tags: #Type/Definition #Later/Category_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Isomorphism of Categories]], [[Equivalence of Categories]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Strict inverse of functor is unique]]
 
 ``` ad-Definition

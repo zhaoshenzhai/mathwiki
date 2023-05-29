@@ -5,13 +5,13 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Field]]
 Examples: [[Ring of Integers]], [[Polynomial ring over fields is a EUD]], [[Gaussian Integers]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[EUD implies PID]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

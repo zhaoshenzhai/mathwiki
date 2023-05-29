@@ -5,11 +5,11 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: [[Linear Isomorphism]], [[Group Isomorphism]], [[Ring Isomorphism]], [[Module Isomorphism]]
 Examples: [[Identity Function]]
-Constructions: _Not Applicable_
+Constructions: <i>Not Applicable</i>
 Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Left-invertible iff injection]], [[Right-invertible iff surjection (Choice)]], [[Invertible iff bijective]]
 Justifications: [[Isomorphism of sets is an equivalence relation]]
 

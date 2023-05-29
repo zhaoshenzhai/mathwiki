@@ -3,15 +3,15 @@
 Date Created: 20/06/2022 15:01:38
 Tags: #Type/Definition #Topic/Linear_Algebra
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Eigenvector slash eigenspace]], [[Algebraic slash geometric multiplicity]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Distinct eigenvalues implies linearly independent eigenvectors]], [[Eigenvalues of linear operators on inner product spaces]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Eigenvalue iff root of characteristic polynomial]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

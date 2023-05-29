@@ -3,15 +3,15 @@
 Date Created: 19/01/2022 17:48:10
 Tags: #Type/Definition #Topic/Set_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Isomorphism of sets is an equivalence relation]], [[Isomorphism of objects is an equivalence relation]], [[Equinumerosity]], [[Orbit]], [[Homotopy]]
 Constructions: [[Quotient Set]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Relation induced by a partition is an equivalence relation]]
 Equivalences: [[Fundamental Theorem of Equivalence Relations]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

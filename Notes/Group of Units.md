@@ -7,15 +7,15 @@ mathLink: auto
 Date Created: 03/11/2022 19:59:00
 Tags: #Type/Definition #Topic/Group_Theory #Topic/Ring_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Multiplicative Group of Integers mod n]], [[Group of units of finite field is a cyclic group]]
 Constructions: [[Irreducible Element]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

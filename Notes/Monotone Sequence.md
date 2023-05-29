@@ -3,15 +3,15 @@
 Date Created: 20/10/2022 18:34:42
 Tags: #Type/Definition #Topic/Analysis
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth root of real]], [[Limit of nth root of n]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Monotone Convergence Theorem]]
 Sufficiencies: [[Monotone Subsequence Theorem]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

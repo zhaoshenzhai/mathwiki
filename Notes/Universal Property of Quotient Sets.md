@@ -7,12 +7,12 @@ mathLink: Universal Property of $\pi:X\to X/\!\sim$
 Date Created: 03/01/2023 21:56:47
 Tags: #Type/Theorem #Topic/Set_Theory
 
-Proved by: _Not Applicable_
-References: _Not Applicable_
-Justifications: _Not Applicable_
+Proved by: <i>Not Applicable</i>
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Universal Property of Quotient Sets).

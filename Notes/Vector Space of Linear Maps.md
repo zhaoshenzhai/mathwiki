@@ -8,9 +8,9 @@ Date Created: 16/05/2022 19:38:42
 Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[General Linear Group]], [[Special Linear Group]], [[Endomorphism Algebra (Vector Space)]], [[Dual Space]]
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of composition of linear maps]]
 Sufficiencies: [[Symmetric and skew-symmetric decomposition of matrices]]

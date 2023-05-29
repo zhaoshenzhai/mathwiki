@@ -3,15 +3,15 @@
 Date Created: 24/01/2022 15:31:46
 Tags: #Type/Definition #Later/Set_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Real Numbers]]
 Constructions: [[Open Interval]], [[Half-open Intervals]], [[Closed Interval]], [[Open Ray]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Least or greatest equals minimal or maximal for totally ordered sets]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

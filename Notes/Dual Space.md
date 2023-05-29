@@ -3,14 +3,14 @@
 Date Created: 25/01/2023 09:37:02
 Tags: #Type/Definition #Topic/Linear_Algebra
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Dual Basis]], [[Dual Map]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Vector space isomorphic to double dual (finite-dim.)]], [[Riesz Representation Theorem]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
 
 ``` ad-Definition

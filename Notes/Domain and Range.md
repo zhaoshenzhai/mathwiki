@@ -3,14 +3,14 @@
 Date Created: 15/01/2022 15:44:35
 Tags: #Type/Definition #Later/Set_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Domain and range of inverse relation]]
 Constructions: [[Image (Relation)]], [[Preimage (Relation)]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Domain and range of relation are sets (Kuratowski)]], [[Domain and range of relation are sets (General)]]
 
 ``` ad-Definition

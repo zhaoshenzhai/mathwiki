@@ -6,12 +6,12 @@ Tags: #Type/Definition #Topic/Linear_Algebra
 Types: [[Invariant Subspace]]
 Examples: [[Generated Linear Subspace]]
 Constructions: [[Minkowski Sum (Linear Algebra)]], [[Complement (Linear Subspace)]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Dimension of subspace]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

@@ -4,11 +4,11 @@ Date Created: 24/05/2023 15:28:53
 Tags: #Type/Proposition #Topic/Topology
 
 Proved by: [[Lifting Criterion]], [[Unique Lifting Property]], [[Basic properties of covering spaces]], [[Transitive action iff left-multiplication on quotient by stabilizer]], [[Quotients are equivariant iff subgroups are conjugate]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

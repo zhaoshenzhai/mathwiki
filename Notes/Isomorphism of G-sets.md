@@ -7,13 +7,13 @@ mathLink: Isomorphism of $G$-sets
 Date Created: 25/05/2023 16:10:37
 Tags: #Type/Definition #Topic/Group_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Transitive action iff left-multiplication on quotient by stabilizer]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Quotients are equivariant iff subgroups are conjugate]]
 Justifications: [[Isomorphism of objects is an equivalence relation]]
 

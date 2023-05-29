@@ -3,14 +3,14 @@
 Date Created: 17/10/2022 11:37:39
 Tags: #Type/Definition #Topic/Group_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Cayley's Theorem]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Isomorphic groups abelian iff abelian]]
 Sufficiencies: [[Isomorphism Theorems (Group)]]
-Equivalences: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Isomorphism of objects is an equivalence relation]]
 
 ``` ad-Definition

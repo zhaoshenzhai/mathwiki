@@ -3,14 +3,14 @@
 Date Created: 03/02/2022 20:14:35
 Tags: #Type/Definition #Topic/Analysis
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Nested Interval Theorem]]
 Sufficiencies: [[Dedekind-complete bounded convex sets are intervals]]
-Equivalences: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Closed intervals are closed]]
 
 ``` ad-Definition

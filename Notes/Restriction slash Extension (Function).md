@@ -7,14 +7,14 @@ mathLink: auto
 Date Created: 26/01/2022 17:46:40
 Tags: #Type/Definition #Later/Set_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Inclusion Function]]
-Constructions: _Not Applicable_
+Constructions: <i>Not Applicable</i>
 Generalizations: [[Restriction (Relation)]]
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Continuous Extension Theorem]]
-Equivalences: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Restriction of function is a function]]
 
 ``` ad-Definition

@@ -5,10 +5,10 @@ Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Sequential characterization of closure (metric)]], [[Sequentially compact implies separable]], [[Separable implies admits countable subcover]], [[Sequentially compact implies countably compact]]
 References: [[Compact implies limit point compact]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Characterizations of Compactness in Metric Spaces).

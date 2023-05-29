@@ -3,12 +3,12 @@
 Date Created: 16/01/2023 13:35:39
 Tags: #Type/Theorem #Topic/Ring_Theory #Courses/MATH457
 
-Proved by: _Not Applicable_
-References: _Not Applicable_
-Justifications: _Not Applicable_
+Proved by: <i>Not Applicable</i>
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Universal Property of Localization).

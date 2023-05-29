@@ -6,12 +6,12 @@ Tags: #Type/Definition #Topic/Ring_Theory
 Types: [[Integral Domain]], [[Division Ring]]
 Examples: [[Ring or Field of Integers mod n]]
 Constructions: [[Group of Units]], [[Multiplicative Set]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Characteristic of ring with unit is order of 1]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

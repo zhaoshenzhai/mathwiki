@@ -3,14 +3,14 @@
 Date Created: 17/01/2022 11:58:11
 Tags: #Type/Definition #Later/Set_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i> 
 Constructions: [[Singleton]], [[Ordered Pair]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Axiom of Pairing]], [[Axiom of Extensionality]]
 
 ``` ad-Definition

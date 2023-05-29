@@ -8,11 +8,11 @@ Date Created: 14/12/2022 14:49:10
 Tags: #Type/Proposition #Topic/Ring_Theory
 
 Proved by: [[Bezout's Identity]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

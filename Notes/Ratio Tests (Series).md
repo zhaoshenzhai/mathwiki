@@ -4,11 +4,11 @@ Date Created: 16/03/2023 11:19:33
 Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Geometric series converges iff r less than 1]], [[Comparison Tests (Series)]], [[Criteria for limit superior slash inferior]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition (Ratio Tests).

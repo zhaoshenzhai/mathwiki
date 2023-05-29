@@ -4,11 +4,11 @@ Date Created: 28/03/2023 16:14:26
 Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Metric-completeness of R]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Cauchy Integrability Criterion).

@@ -3,15 +3,15 @@
 Date Created: 15/10/2022 19:54:30
 Tags: #Type/Definition #Topic/Analysis
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Limit Superior slash Inferior]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Monotone Convergence Theorem]], [[Bolzano-Weierstrass Theorem]]
 Sufficiencies: [[Convergent implies bounded (sequential)]], [[Cauchy implies bounded]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

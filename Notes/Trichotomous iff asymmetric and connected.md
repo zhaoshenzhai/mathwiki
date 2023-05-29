@@ -8,11 +8,11 @@ Date Created: 03/02/2022 18:24:55
 Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Asymmetry implies irreflexivity]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

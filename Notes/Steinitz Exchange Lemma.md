@@ -4,11 +4,11 @@ Date Created: 06/04/2022 21:12:19
 Tags: #Type/Theorem #Topic/Linear_Algebra
 
 Proved by: [[Linearly dependent iff exists span redundant element]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Steinitz Exchange Lemma).

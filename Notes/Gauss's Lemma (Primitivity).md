@@ -8,11 +8,11 @@ Date Created: 22/01/2023 22:29:15
 Tags: #Type/Theorem #Topic/Ring_Theory #Courses/MATH457
 
 Proved by: [[Irreducible implies prime (UFD)]], [[Basic properties of irreducible and prime elements]], [[Ideal is prime iff quotient is an integral domain]], [[Basic properties of polynomial rings (integral domain)]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Gauss$\textrm{'}$s Lemma for Primitivity of Polynomials).

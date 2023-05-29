@@ -6,12 +6,12 @@ Tags: #Type/Definition #Topic/Linear_Algebra
 Types: [[Orthonormal Basis]]
 Examples: [[Basis slash dimension for direct sum]]
 Constructions: [[Dimension (Linear Algebra)]], [[Dual Basis]], [[Basis Transition Map]], [[Coordinate representation of vector spaces]], [[Matrix representation of linear maps]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Existence of unique linear map via action on basis vectors]]
 Sufficiencies: [[Every vector space has a basis]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]], [[Spanning subset with same cardinality as dimension (finite) is a basis]]
 Equivalences: [[Unique Representation Theorem (Basis)]], [[Basis iff minimal spanning set]], [[Basis iff maximal linearly independent set]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

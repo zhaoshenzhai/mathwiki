@@ -8,11 +8,11 @@ Date Created: 27/10/2022 18:19:43
 Tags: #Type/Proposition #Topic/Group_Theory
 
 Proved by: [[Orbit-Stabilizer Theorem]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

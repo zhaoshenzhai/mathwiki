@@ -3,11 +3,11 @@
 Date Created: 18/02/2022 12:03:13
 Tags: #Type/Proposition #Later/Topology
 
-Proved by: _Not Applicable_
-References: _Not Applicable_
-Justifications: _Not Applicable_
+Proved by: <i>Not Applicable</i>
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
 Generalizations: [[Restricted order topology subset of subspace topology]]
 
 ``` ad-Proposition

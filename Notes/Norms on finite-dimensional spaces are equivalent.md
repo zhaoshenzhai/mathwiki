@@ -4,11 +4,11 @@ Date Created: 21/02/2023 10:19:11
 Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Heine-Borel Theorem]], [[Extreme Value Theorem]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem.

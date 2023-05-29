@@ -8,12 +8,12 @@ Date Created: 18/05/2023 00:45:42
 Tags: #Type/Definition #Topic/Topology
 
 Types: [[Universal Cover]], [[Normal Cover]]
-Examples: _Not Applicable_
+Examples: <i>Not Applicable</i>
 Constructions: [[Covering Space Isomorphism]], [[Category of Covering Maps]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Covering Homotopy Theorem]], [[Basic properties of covering spaces]], [[Independence of base point]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Galois Correspondence of Covering Spaces]]
 Justifications: [[Connected implies well-defined number of sheets]]
 

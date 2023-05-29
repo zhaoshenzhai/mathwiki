@@ -3,15 +3,15 @@
 Date Created: 18/01/2022 13:10:47
 Tags: #Type/Definition #Topic/Set_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i> 
 Constructions: [[Set of Relative Complements]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[De Morgan's Laws]], [[Complement is anti-monotone w.r.t. subsets]], [[Double complement of set is set itself]], [[Complement of images subset of image of complement; left-unique implies equality]], [[Complement of preimages subset of preimage of complement; right-unique implies equality]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

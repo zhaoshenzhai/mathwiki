@@ -8,11 +8,11 @@ Date Created: 24/11/2022 14:20:17
 Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Continuous iff continuous at each point]], [[Sequential Criterion for Functional Limits]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Sequential$\textbf{/}$functional limit characterizations of continuity).

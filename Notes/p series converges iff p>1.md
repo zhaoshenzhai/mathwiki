@@ -8,11 +8,11 @@ Date Created: 16/03/2023 10:15:25
 Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Cauchy's Condensation Test]], [[Geometric series converges iff r less than 1]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

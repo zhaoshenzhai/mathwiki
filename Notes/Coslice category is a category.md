@@ -3,11 +3,11 @@
 Date Created: 07/03/2022 16:24:13
 Tags: #Type/Proposition #Later/Category_Theory
 
-Proved by: _Not Applicable_
-References: _Not Applicable_
-Justifications: _Not Applicable_
+Proved by: <i>Not Applicable</i>
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
 Generalizations: [[Comma category is a category]]
 
 ``` ad-Proposition

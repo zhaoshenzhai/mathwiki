@@ -7,14 +7,14 @@ mathLink: auto
 Date Created: 20/10/2022 16:37:23
 Tags: #Type/Definition #Later/Topology
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Sequential Limits to Infinity]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Half-infinite open rays are open in the order topology]]
 
 ``` ad-Definition

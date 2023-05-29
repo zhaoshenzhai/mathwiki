@@ -3,13 +3,13 @@
 Date Created: 11/02/2022 11:45:28
 Tags: #Type/Definition #Later/Topology
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Open set in open subspace is open]], [[Subspace topology of subspace topology is subspace topology]], [[Product and subspace topologies on subsets coincide]], [[Restricted order topology subset of subspace topology]], [[Restricted order and subspace topologies coincide for convex sets]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Subspace topology (basis)]], [[Subspace topology (subbasis)]]
 Justifications: [[Subspace topology is a topology]]
 

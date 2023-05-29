@@ -8,14 +8,14 @@ Date Created: 05/10/2022 19:09:54
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Alternating Group]]
-Examples: _Not Applicable_
+Examples: <i>Not Applicable</i>
 Constructions: [[Sign of a Permutation]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Cayley's Theorem]], [[Basic properties of symmetric groups]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

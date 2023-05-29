@@ -4,14 +4,14 @@ Date Created: 02/05/2022 15:10:12
 Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Nilpotent Operator]], [[Diagonalizable Operator]], [[Normal Operator]]
-Examples: _Not Applicable_
+Examples: <i>Not Applicable</i>
 Constructions: [[Eigenvalue]], [[Characteristic Polynomial]], [[Minimal Polynomial]], [[Cyclic Subspace]], [[Endomorphism Algebra (Vector Space)]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Schur's Theorem]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

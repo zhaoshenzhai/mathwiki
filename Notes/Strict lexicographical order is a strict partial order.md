@@ -4,11 +4,11 @@ Date Created: 01/02/2022 10:38:04
 Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Binary relation iff subset of Cartesian product]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

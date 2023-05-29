@@ -4,11 +4,11 @@ Date Created: 27/06/2022 16:08:32
 Tags: #Type/Theorem #Topic/Linear_Algebra
 
 Proved by: [[Linearly dependent iff exists span redundant element]], [[Orthonormal sets are linearly independent]], [[Dimension of subspace]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Gram-Schmidt Orthonormalization).

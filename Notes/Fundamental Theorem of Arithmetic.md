@@ -4,10 +4,10 @@ Date Created: 20/09/2022 12:48:40
 Tags: #Type/Theorem #Topic/Number_Theory
 
 Proved by: [[Euclid's Lemma]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
 Generalizations: [[Unique Factorization Domain (UFD)]]
 
 ``` ad-Theorem

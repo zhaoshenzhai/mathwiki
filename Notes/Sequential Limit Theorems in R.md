@@ -8,11 +8,11 @@ Date Created: 15/10/2022 20:13:16
 Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Convergent implies bounded (sequential)]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Sequential Limit Theorems in $\R$).

@@ -8,11 +8,11 @@ Date Created: 04/01/2023 17:46:25
 Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Neighborhood characterization of cluster points (metric)]], [[Heine-Borel Theorem]], [[Cantor's Intersection Theorem]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem.

@@ -3,15 +3,15 @@
 Date Created: 19/09/2022 19:36:44
 Tags: #Type/Definition #Topic/Analysis #Later/Set_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Existence of nth roots]]
 Constructions: [[Real Line (Topology)]], [[Complex Numbers]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Archimedean Property of R]], [[Q is dense in R]], [[Metric-completeness of R]], [[Heine-Borel Theorem]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

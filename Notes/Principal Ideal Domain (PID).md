@@ -4,14 +4,14 @@ Date Created: 22/11/2022 21:01:55
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Euclidean Domain (EUD)]]
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
 Generalizations: [[Noetherian Ring]]
 
 Properties: [[Bezout's Identity]], [[PID implies UFD]]
 Sufficiencies: [[EUD implies PID]], [[Field implies PID]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

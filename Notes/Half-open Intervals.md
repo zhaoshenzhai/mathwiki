@@ -4,14 +4,14 @@ Date Created: 03/02/2022 20:11:33
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: [[Bounded Open Ray]]
-Examples: _Not Applicable_
+Examples: <i>Not Applicable</i>
 Constructions: [[Lower-limit Topology on R]], [[Upper-limit Topology on R]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Dedekind-complete bounded convex sets are intervals]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

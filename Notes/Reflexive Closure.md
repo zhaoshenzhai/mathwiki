@@ -3,15 +3,15 @@
 Date Created: 01/02/2022 10:41:48
 Tags: #Type/Definition #Later/Set_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Lexicographical order is reflexive closure of strict lexicographical order]], [[Reflexive closure of ordering on ordinals]]
 Constructions: [[Reflexive Relation]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Reflexive closure is the smallest reflexive relation]], [[Reflexive closure of connected relation is connected]], [[Reflexive closure of strict orders is non-strict]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

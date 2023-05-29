@@ -3,14 +3,14 @@
 Date Created: 13/01/2023 14:38:57
 Tags: #Type/Definition #Topic/Ring_Theory #Courses/MATH457
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Universal Property of Localization]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Localization of a ring is a ring]]
 
 ``` ad-Definition

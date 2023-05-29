@@ -4,10 +4,10 @@ Date Created: 01/12/2022 10:12:50
 Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Functional Limit Theorems in R]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
 Generalizations: [[Frechet Differentiability slash Derivative]]
 
 ``` ad-Theorem

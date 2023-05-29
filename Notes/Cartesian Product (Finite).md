@@ -3,13 +3,13 @@
 Date Created: 20/01/2022 13:11:23
 Tags: #Type/Definition #Later/Set_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i> 
 Constructions: [[Product Space (Topology)]]
 Generalizations: [[Cartesian Product]]
 
 Properties: [[Cartesian product is monotone w.r.t. subsets]], [[Cartesian product of intersections]], [[Cartesian product respects equinumerosity]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Binary relation iff subset of Cartesian product]]
 Justifications: [[Cartesian product is a set]]
 

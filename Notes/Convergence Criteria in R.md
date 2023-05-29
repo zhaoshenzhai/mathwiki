@@ -9,10 +9,10 @@ Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Bolzano-Weierstrass Theorem]]
 References: [[Convergent implies bounded (sequential)]], [[Subsequences converge to the same limit]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Convergence Criteria in $\R$).

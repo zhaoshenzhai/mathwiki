@@ -8,11 +8,11 @@ Date Created: 16/02/2023 11:00:59
 Tags: #Type/Proposition #Later/Analysis
 
 Proved by: [[Minkowski's Inequality]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

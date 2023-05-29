@@ -8,11 +8,11 @@ Date Created: 22/01/2023 23:44:19
 Tags: #Type/Theorem #Topic/Ring_Theory #Courses/MATH457
 
 Proved by: [[Gauss's Lemma (Primitivity)]], [[Basic properties of divisibility and associates]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Gauss$\textrm{'}$s Lemma for Irreducibility of Polynomial Rings).

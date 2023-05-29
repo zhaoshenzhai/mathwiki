@@ -8,11 +8,11 @@ Date Created: 02/01/2023 15:25:20
 Tags: #Type/Proposition #Topic/Analysis #Courses/MATH358
 
 Proved by: [[Differentiable implies existence of directional derivatives]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

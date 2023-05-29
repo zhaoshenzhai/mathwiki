@@ -7,15 +7,15 @@ mathLink: auto
 Date Created: 20/10/2022 17:10:25
 Tags: #Type/Definition #Topic/Analysis #Later/Topology
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Limit of geometric]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Monotone Convergence Theorem]], [[Ratio Test (Sequence)]], [[Comparison Test (Sequence)]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

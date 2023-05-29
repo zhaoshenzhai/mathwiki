@@ -4,12 +4,12 @@ Date Created: 24/05/2023 15:21:28
 Tags: #Type/Definition #Topic/Topology
 
 Types: [[Covering Transformation]]
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Characterizations of equivalent covering maps]]
 Justifications: [[Isomorphism of objects is an equivalence relation]]
 

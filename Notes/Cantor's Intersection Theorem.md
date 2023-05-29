@@ -8,11 +8,11 @@ Date Created: 29/12/2022 11:05:26
 Tags: #Type/Theorem #Topic/Topology
 
 Proved by: [[Compact implies closed (Hausdorff)]], [[De Morgan's Laws]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 Specializations: [[Nested Interval Theorem]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Cantor$\textrm{'}$s Intersection Theorem).

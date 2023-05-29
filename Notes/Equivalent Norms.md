@@ -3,14 +3,14 @@
 Date Created: 21/02/2023 10:10:39
 Tags: #Type/Definition #Topic/Analysis
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Norms on finite-dimensional spaces are equivalent]]
-Equivalences: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Equivalent norms generate the same topoloy]]
 
 ``` ad-Definition

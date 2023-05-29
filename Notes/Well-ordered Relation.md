@@ -3,15 +3,15 @@
 Date Created: 30/01/2022 17:43:31
 Tags: #Type/Definition #Later/Set_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[ON is well-ordered by membership]]
 Constructions: [[Ordinal (von Neumann)]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Well-ordering well-orders subsets]], [[Lexicographical order of well-orderings is a well-order]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

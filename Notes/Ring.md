@@ -4,14 +4,14 @@ Date Created: 03/11/2022 19:00:21
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Commutative Ring]], [[Ring with Unit]]
-Examples: _Not Applicable_
+Examples: <i>Not Applicable</i>
 Constructions: [[Characteristic]], [[Ring Homomorphism]], [[Zero-divisor]], [[Subring]], [[Polynomial Ring]], [[Module]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of rings]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

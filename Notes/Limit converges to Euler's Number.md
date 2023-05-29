@@ -8,11 +8,11 @@ Date Created: 23/10/2022 16:01:56
 Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Binomial Theorem]], [[Monotone Convergence Theorem]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

@@ -8,11 +8,11 @@ Date Created: 28/12/2022 17:34:11
 Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Sequential slash functional limit characterizations of continuity]], [[Functional Limit Theorems in R]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Continuity Theorems in $\R$).

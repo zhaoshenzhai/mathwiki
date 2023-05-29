@@ -8,11 +8,11 @@ Date Created: 27/01/2022 11:56:26
 Tags: #Type/Proposition #Topic/Set_Theory
 
 Proved by: [[Left-invertible iff injection]], [[Right-invertible iff surjection (Choice)]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

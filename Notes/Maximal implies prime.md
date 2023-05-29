@@ -7,12 +7,12 @@ mathLink: auto
 Date Created: 22/11/2022 19:40:28
 Tags: #Type/Proposition #Topic/Ring_Theory
 
-Proved by: _Not Applicable_
+Proved by: <i>Not Applicable</i>
 References: [[Ideal is maximal iff quotient is a field]], [[Ideal is prime iff quotient is an integral domain]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

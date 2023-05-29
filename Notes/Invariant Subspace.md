@@ -3,15 +3,15 @@
 Date Created: 19/06/2022 16:20:24
 Tags: #Type/Definition #Topic/Linear_Algebra
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Eigenvector slash eigenspace]], [[Generalized Eigenvector slash Eigenspace]], [[Cyclic Subspace]], [[Kernel slash Nullity]], [[Image slash Rank]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of characteristic polynomial and invariant subspaces]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

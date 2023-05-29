@@ -4,11 +4,11 @@ Date Created: 29/12/2022 23:23:37
 Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Fermat's Theorem on Stationary Points]], [[Heine-Borel Theorem]], [[Extreme Value Theorem]], [[Differentiation Theorems in R]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Mean Value Theorems).

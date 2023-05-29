@@ -8,11 +8,11 @@ Date Created: 03/11/2022 19:37:42
 Tags: #Type/Proposition #Topic/Ring_Theory
 
 Proved by: [[Multiplicative group iff coprime]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

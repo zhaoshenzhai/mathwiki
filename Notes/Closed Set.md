@@ -3,15 +3,15 @@
 Date Created: 19/02/2022 15:00:15
 Tags: #Type/Definition #Topic/Topology
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Closed Interval]]
 Constructions: [[Set of Closed Sets]], [[Perfect Set]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Closed subset of compact set is compact]]
 Sufficiencies: [[Closure]], [[Compact implies closed (Hausdorff)]]
 Equivalences: [[Sequential characterization of closed sets (metric)]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

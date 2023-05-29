@@ -5,10 +5,10 @@ Tags: #Type/Theorem #Topic/Topology #Topic/Ring_Theory
 
 Proved by: [[Fundamental group of the circle]]
 References: [[Polynomial ring over fields is a EUD]], [[Root iff factor]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Fundamental Theorem of Algebra).

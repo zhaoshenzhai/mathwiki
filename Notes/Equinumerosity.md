@@ -3,14 +3,14 @@
 Date Created: 13/09/2022 15:11:38
 Tags: #Type/Definition #Topic/Set_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Finite Set]], [[Countable Set]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Cartesian product respects equinumerosity]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Isomorphism of sets is an equivalence relation]]
 
 ``` ad-Definition

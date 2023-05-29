@@ -7,13 +7,13 @@ mathLink: auto
 Date Created: 29/10/2022 19:38:07
 Tags: #Type/Definition #Topic/Analysis
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Convergence Criteria in R]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Criteria for limit superior slash inferior]]
 Justifications: [[Bolzano-Weierstrass Theorem]]
 

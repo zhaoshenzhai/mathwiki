@@ -3,14 +3,14 @@
 Date Created: 29/01/2022 10:31:01
 Tags: #Type/Definition #Later/Set_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Projection Maps]], [[Tuples and Sequences]], [[n-ary Operation]], [[External Direct Product (Group)]], [[External Direct Product (Vector Space)]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Cartesian product is a product in Set]]
 
 ``` ad-Definition

@@ -4,14 +4,14 @@ Date Created: 27/09/2022 18:49:17
 Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Compact Metric Space]], [[Complete Metric Space]], [[Bounded Space]]
-Examples: _Not Applicable_
+Examples: <i>Not Applicable</i>
 Constructions: [[Epsilon-ball]], [[Diameter]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Norm induces a metric]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

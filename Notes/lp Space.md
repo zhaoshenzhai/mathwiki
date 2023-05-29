@@ -7,14 +7,14 @@ mathLink: auto
 Date Created: 12/01/2023 11:58:17
 Tags: #Type/Definition #Later/Analysis
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Holder's Inequality]], [[Minkowski's Inequality]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[lp norm is a norm]]
 
 ``` ad-Definition

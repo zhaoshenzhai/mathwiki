@@ -4,11 +4,11 @@ Date Created: 25/05/2023 18:30:27
 Tags: #Type/Proposition #Topic/Topology
 
 Proved by: [[Independence of base point]], [[Characterizations of equivalent covering maps]], [[Basic properties of covering spaces]], [[Basic properties of stabilizers and transitive actions]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

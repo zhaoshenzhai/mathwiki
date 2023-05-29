@@ -3,12 +3,12 @@
 Date Created: 16/09/2022 12:00:27
 Tags: #Type/Theorem #Later/Ring_Theory
 
-Proved by: _Not Applicable_
-References: _Not Applicable_
+Proved by: <i>Not Applicable</i>
+References: <i>Not Applicable</i>
 Justifications: [[Ring of integers is a EUD]]
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Euclidean Algorithm).

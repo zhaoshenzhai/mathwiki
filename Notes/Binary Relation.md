@@ -4,14 +4,14 @@ Date Created: 14/01/2022 17:57:16
 Tags: #Type/Definition #Later/Set_Theory
 
 Types: [[Function]], [[Reflexive Relation]], [[Symmetric Relation]], [[Transitive Relation]], [[Irreflexive Relation]], [[Asymmetric Relation]], [[Antisymmetric Relation]], [[Connected Relation]], [[Trichotomous Relation]], [[Well-founded Relation]]
-Examples: _Not Applicable_ 
+Examples: <i>Not Applicable</i> 
 Constructions: [[Domain and Range]], [[Restriction (Relation)]], [[Image (Relation)]], [[Inverse (Relation)]], [[Preimage (Relation)]], [[Composition (Relation)]], [[Reflexive Closure]], [[Category of Relations]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Binary relation iff subset of Cartesian product]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

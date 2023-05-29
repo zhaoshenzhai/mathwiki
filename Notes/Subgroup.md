@@ -5,13 +5,13 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Normal Subgroup]]
 Examples: [[Generated Subgroup]], [[Centralizer slash Center]], [[Normalizer]], [[Commutator Subgroup]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of subgroups]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

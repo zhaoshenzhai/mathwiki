@@ -3,15 +3,15 @@
 Date Created: 03/11/2022 19:11:26
 Tags: #Type/Definition #Topic/Ring_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Integers mod n is a field iff n prime]], [[Real Numbers]]
 Constructions: [[Vector Space]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Field implies PID]], [[Group of units of finite field is a cyclic group]]
 Sufficiencies: [[Ideal is maximal iff quotient is a field]], [[Finite integral domain implies field]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

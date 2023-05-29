@@ -9,11 +9,11 @@ Date Created: 25/05/2023 21:49:31
 Tags: #Type/Theorem #Topic/Topology
 
 Proved by: [[Covering Homotopy Theorem]], [[Basic properties of covering spaces]], [[Basic properties of stabilizers and transitive actions]], [[Characterizations of normal covers]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Isomorphisms of $\Cov\,(\widetilde{X}/X)$).

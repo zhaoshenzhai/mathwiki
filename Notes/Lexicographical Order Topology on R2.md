@@ -7,15 +7,15 @@ mathLink: auto
 Date Created: 07/02/2022 11:29:31
 Tags: #Type/Definition #Later/Topology
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Open set in lexicographical order topology of R2]]
 Constructions: [[Ordered Square]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Lexicographical order topology strictly finer than standard topology on R2]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Lexicographical order topology on R2 is discrete times standard]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

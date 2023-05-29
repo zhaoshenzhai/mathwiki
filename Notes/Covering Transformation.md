@@ -3,13 +3,13 @@
 Date Created: 24/05/2023 19:12:23
 Tags: #Type/Definition #Topic/Topology
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Normal Cover]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Covering space action iff properly-discontinous action]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Isomorphisms of covering transformations]]
 Justifications: [[Unique Lifting Property]]
 

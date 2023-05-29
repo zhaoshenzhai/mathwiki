@@ -8,11 +8,11 @@ Date Created: 04/10/2022 15:11:41
 Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Bernoulli's Inequality]], [[Limit of 1 over linear]], [[Squeezed Distance Lemma]]
-References: _Not Applicable_
+References: <i>Not Applicable</i>
 Justifications: [[Existence of nth roots]]
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

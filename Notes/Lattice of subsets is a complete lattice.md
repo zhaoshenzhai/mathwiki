@@ -4,11 +4,11 @@ Date Created: 25/01/2022 18:38:44
 Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Set ordered by inclusion is a poset]], [[Basic properties of unions, intersections, and power sets]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

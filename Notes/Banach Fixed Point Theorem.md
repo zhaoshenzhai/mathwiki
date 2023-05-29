@@ -4,11 +4,11 @@ Date Created: 09/02/2023 10:46:58
 Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Contractive implies Cauchy]], [[Sequential slash functional limit characterizations of continuity]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Banach Fixed Point Theorem).

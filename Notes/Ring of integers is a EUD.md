@@ -8,10 +8,10 @@ Date Created: 14/09/2022 22:46:36
 Tags: #Type/Theorem #Topic/Ring_Theory
 
 Proved by: [[Omega is an ordinal]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
 Generalizations: [[Euclidean Domain (EUD)]]
 
 ``` ad-Theorem

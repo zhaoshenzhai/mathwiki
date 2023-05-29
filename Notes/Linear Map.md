@@ -4,14 +4,14 @@ Date Created: 01/04/2022 18:16:33
 Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Linear Isomorphism]], [[Linear Operator]], [[Bounded Linear Map]]
-Examples: _Not Applicable_
+Examples: <i>Not Applicable</i>
 Constructions: [[Kernel slash Nullity]], [[Image slash Rank]], [[Dual Map]], [[Adjoint Map]], [[Vector Space of Linear Maps]], [[Category of Vector Spaces]]
 Generalizations: [[Antilinear Map]], [[Multilinear Map]], [[Module Homomorphism]]
 
 Properties: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Restriction on complement of kernel is injective]], [[Linear map from a finite-dimensional space is bounded]], [[Change of basis for linear maps]], [[Basic properties of linear maps]]
 Sufficiencies: [[Existence of unique linear map via action on basis vectors]]
 Equivalences: [[Action of linear map repr under basis left-multiplication of matrix representation]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

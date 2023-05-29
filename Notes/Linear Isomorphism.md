@@ -3,9 +3,9 @@
 Date Created: 01/04/2022 19:04:20
 Tags: #Type/Definition #Topic/Linear_Algebra
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Coordinate representation of vector spaces]], [[Matrix representation of linear maps]], [[Basis Transition Map]]
-Constructions: _Not Applicable_
+Constructions: <i>Not Applicable</i>
 Generalizations: [[Module Isomorphism]]
 
 Properties: [[Linearly isomorphic implies finite-dim. iff finite-dim.]], [[Linear isomorphism preserve dimensions of subspaces]]

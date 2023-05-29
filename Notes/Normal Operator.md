@@ -4,14 +4,14 @@ Date Created: 05/04/2023 10:36:43
 Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Unitary Operator]], [[Self-adjoint Operator]]
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Spectral Theorem]], [[Basic properties of normal operators]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

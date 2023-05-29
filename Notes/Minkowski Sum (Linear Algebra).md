@@ -4,14 +4,14 @@ Date Created: 20/04/2022 17:04:04
 Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Internal Direct Sum (Linear Algebra)]]
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Dimension of Minkowski sum]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Minkowski sum of subspaces is the span of their union]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

@@ -6,11 +6,11 @@ Tags: #Type/Definition #Topic/Analysis
 Types: [[Homeomorphism]], [[Homotopy Equivalence]], [[Retraction]]
 Examples: [[Continuous Function in a Metric Space]], [[Path]]
 Constructions: [[Homotopy]], [[Lift]], [[Mapping Cylinder]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Extreme Value Theorem]], [[Intermediate Value Theorem]], [[Inverse of continuous functions]], [[Composition of continuous functions are continuous]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Continuous iff continuous at each point]]
 
 ``` ad-Definition

@@ -3,14 +3,14 @@
 Date Created: 27/09/2022 12:38:49
 Tags: #Type/Definition #Topic/Group_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Cyclic Group]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of order]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Cyclic subgroup is a subgroup]]
 
 ``` ad-Definition

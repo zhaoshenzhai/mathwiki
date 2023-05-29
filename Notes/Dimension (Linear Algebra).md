@@ -3,14 +3,14 @@
 Date Created: 04/04/2022 23:26:15
 Tags: #Type/Definition #Topic/Linear_Algebra
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Image slash Rank]], [[Kernel slash Nullity]], [[Basis slash dimension for direct sum]], [[Dimension of Minkowski sum]], [[Dimension of vector space is zero iff it is the zero vector space]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Dimension Theorem]], [[Dimension of subspace]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Every vector space has a basis]], [[Basis iff minimal spanning set]], [[Basis iff maximal linearly independent set]]
 
 ``` ad-Definition

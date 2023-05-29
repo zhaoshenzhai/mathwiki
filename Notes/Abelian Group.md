@@ -3,15 +3,15 @@
 Date Created: 04/05/2022 17:13:39
 Tags: #Type/Definition #Topic/Group_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Cyclic Group]]
 Constructions: [[Ring]], [[Vector Space]]
 Generalizations: [[Module]]
 
 Properties: [[Abelian group is simple iff cyclic of prime order]]
 Sufficiencies: [[Abelianization]], [[Isomorphic groups abelian iff abelian]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

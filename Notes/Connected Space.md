@@ -4,14 +4,14 @@ Date Created: 28/12/2022 22:22:37
 Tags: #Type/Definition #Later/Topology
 
 Types: [[Path-connected Space]]
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Intermediate Value Theorem]], [[Connected implies well-defined number of sheets]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Connected iff only empty and entire set is clopen]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

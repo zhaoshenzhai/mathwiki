@@ -3,15 +3,15 @@
 Date Created: 29/01/2022 16:16:37
 Tags: #Type/Definition #Topic/Set_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Coset]], [[Partition (Integration)]]
 Constructions: [[Relation Induced by a Partition]], [[Regrouping of Series]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Quotient set is a partition]]
 Equivalences: [[Fundamental Theorem of Equivalence Relations]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

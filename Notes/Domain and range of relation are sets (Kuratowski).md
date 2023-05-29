@@ -4,10 +4,10 @@ Date Created: 20/01/2022 07:45:41
 Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Axiom Schema of Specification]], [[Axiom of Extensionality]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
 Generalizations: [[Domain and range of relation are sets (General)]]
 
 ``` ad-Proposition

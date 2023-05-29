@@ -5,13 +5,13 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: [[Bijection]]
 Examples: [[Projection Maps]], [[Linear map between vector spaces of same dimension is injective iff surjective]]
-Constructs: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructs: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Composition of surjections is a surjection]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Right-invertible iff surjection (Choice)]], [[Surjection iff epimorphism (Set Theory)]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

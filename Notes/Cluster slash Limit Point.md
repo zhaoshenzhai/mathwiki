@@ -8,12 +8,12 @@ Date Created: 16/11/2022 16:57:22
 Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Condensation Point slash aleph1-accumulation Point]]
-Examples: _Not Applicable_
+Examples: <i>Not Applicable</i>
 Constructions: [[Perfect Set]], [[Limit-point Compact Space]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Neighborhood characterization of cluster points (metric)]]
 Justifications: [[Characterizations of closure]], [[Sequential characterization of closure (metric)]]
 

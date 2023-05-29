@@ -7,15 +7,15 @@ mathLink: auto
 Date Created: 04/02/2022 11:36:30
 Tags: #Type/Definition #Later/Topology
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Real Line (Topology)]], [[Standard Topology on Rn]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Comparison of topologies on R]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Standard topology on R (explicit)]], [[Standard topology on R (basis; rational endpoints)]], [[Standard topology on R (subbasis; rational endpoints)]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

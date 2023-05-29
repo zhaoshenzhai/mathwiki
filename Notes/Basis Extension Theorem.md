@@ -4,11 +4,11 @@ Date Created: 01/05/2022 23:08:55
 Tags: #Type/Theorem #Later/Set_Theory/Choice
 
 Proved by: [[Enlargement of linearly independent set by adjoining non-spanned vector]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 Specializations: [[Basis Extension Theorem (Finite)]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Basis Extension Theorem).

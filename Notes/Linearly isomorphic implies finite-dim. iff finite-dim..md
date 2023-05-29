@@ -8,11 +8,11 @@ Date Created: 28/05/2022 16:37:33
 Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Image of linear map is spanned by image of spanning set]], [[Basic properties of linear maps]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

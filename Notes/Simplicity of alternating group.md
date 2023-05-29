@@ -8,11 +8,11 @@ Date Created: 11/05/2023 11:02:50
 Tags: #Type/Theorem #Topic/Group_Theory
 
 Proved by: [[Characterizations of normality]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Simplicity of $A_n$).

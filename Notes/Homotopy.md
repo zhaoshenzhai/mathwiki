@@ -3,13 +3,13 @@
 Date Created: 19/05/2023 13:01:16
 Tags: #Type/Definition #Topic/Topology
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Deformation Retraction]]
 Constructions: [[Fundamental Group]], [[Homotopy Equivalence]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of homotopies of paths]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Simply-connected iff homotopic paths]]
 Justifications: [[Homotopy is a congruence in category of topological space]]
 

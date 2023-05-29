@@ -4,7 +4,7 @@ Date Created: 20/12/2022 22:56:42
 Tags: #Type/MOC #Later/Analysis
 
 Context: [Zermelo Fraenkel Set Theory](obsidian://open?file=TODO)
-Excursions: _Not Applicable_
+Excursions: <i>Not Applicable</i>
 Abstractions: [Topology](obsidian://open?file=TODO), [Measure Theory](obsidian://open?file=TODO)
 
 $\huge\rm\bf{R}\normalsize\rm\bf{EAL ANALYSIS}$ is the study of limiting behaviours of [sequences](Sequences%20in%20R.md), [series](Infinite%20Series.md), and [functions](Functions%20in%20R.md) in [$\R$](Real%20Numbers.md); that is, the study of [sequential](Sequential%20Limits%20in%20R.md)/[functional](Functional%20Limits%20in%20R.md) convergence, [continuity](Continuous%20Function%20in%20R.md), [differentiability](Differentiable%20Function%20slash%20Derivative%20in%20R.md), and [integrability](obsidian://open?file=TODO) in $\R$.

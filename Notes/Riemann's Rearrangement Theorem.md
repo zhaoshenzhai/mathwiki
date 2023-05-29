@@ -8,11 +8,11 @@ Date Created: 21/03/2023 11:08:06
 Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Monotone Convergence Theorem]], [[Convergent implies bounded (sequential)]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Riemann$\textrm{'}$s Rearrangement Theorem).

@@ -8,8 +8,8 @@ Examples: [[Continuous Function in R]]
 Constructions: [[Space of Continuous Functions]]
 Generalizations: [[Continuous Function]]
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Sequential slash functional limit characterizations of continuity]], [[Bounded iff Lipschitz iff continuous (normed vector space)]]
 Justifications: [[Continuous iff preimages of open sets are open]], [[Continuous iff continuous at each point]]
 

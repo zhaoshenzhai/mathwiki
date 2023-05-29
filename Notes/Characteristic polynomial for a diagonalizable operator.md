@@ -8,11 +8,11 @@ Date Created: 08/03/2023 16:43:04
 Tags: #Type/Proposition #Later/Linear_Algebra/Determinant
 
 Proved by: [[Leibniz Formula]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

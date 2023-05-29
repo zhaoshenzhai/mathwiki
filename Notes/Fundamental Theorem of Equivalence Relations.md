@@ -3,12 +3,12 @@
 Date Created: 29/01/2022 16:31:03
 Tags: #Type/Theorem #Topic/Set_Theory
 
-Proved by: _Not Applicable_
+Proved by: <i>Not Applicable</i>
 References: [[Relation induced by a partition is an equivalence relation]], [[Quotient set is a partition]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Fundamental Theorem of Equivalence Relations).

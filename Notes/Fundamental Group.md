@@ -3,13 +3,13 @@
 Date Created: 17/05/2023 20:22:08
 Tags: #Type/Definition #Topic/Topology
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Fundamental group of the circle]]
 Constructions: [[Simply-connected Space]], [[Lifting Criterion]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of fundamental group]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Galois Correspondence of Covering Spaces]]
 Justifications: [[Basic properties of homotopies of paths]], [[Independence of base point]]
 

@@ -4,14 +4,14 @@ Date Created: 01/02/2022 20:24:48
 Tags: #Type/Definition #Later/Set_Theory
 
 Types: [[Prime Number]]
-Examples: _Not Applicable_
+Examples: <i>Not Applicable</i>
 Constructions: [[Set of Natural Numbers]], [[Finite Set]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Successor of natural number is a natural number]]
 Sufficiencies: [[Fundamental Theorem of Arithmetic]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

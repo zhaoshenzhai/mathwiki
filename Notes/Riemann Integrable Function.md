@@ -3,15 +3,15 @@
 Date Created: 28/03/2023 11:00:46
 Tags: #Type/Definition #Topic/Analysis
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Riemann integrable implies bounded]]
 Sufficiencies: [[Continuous implies Riemann Integrable]]
 Equivalences: [[Lebesgue Integrability Criterion]], [[Cauchy Integrability Criterion]], [[Squeeze Theorem (Riemann Integration)]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

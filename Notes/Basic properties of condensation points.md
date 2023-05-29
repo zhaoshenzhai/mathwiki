@@ -4,11 +4,11 @@ Date Created: 07/03/2023 12:43:07
 Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[Separable implies admits countable subcover]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

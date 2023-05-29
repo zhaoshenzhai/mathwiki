@@ -4,14 +4,14 @@ Date Created: 17/10/2022 11:39:24
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Group Isomorphism]]
-Examples: _Not Applicable_
+Examples: <i>Not Applicable</i>
 Constructions: [[Exact Sequence]], [[Kernel (Group Theory)]], [[Ring Homomorphism]], [[Linear Map]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Isomorphism Theorems (Group)]], [[Basic properties of group homomorphisms]]
 Sufficiencies: [[Fundamental Theorem of Group Homomorphisms]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

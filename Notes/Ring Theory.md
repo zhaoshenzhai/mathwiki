@@ -4,7 +4,7 @@ Date Created: 20/12/2022 21:45:27
 Tags: #Type/MOC #Later/Ring_Theory
 
 Context: [Zermelo Fraenkel Set Theory](obsidian://open?file=TODO)
-Excursions: _Not Applicable_
+Excursions: <i>Not Applicable</i>
 Abstractions: [Category Theory](obsidian://open?file=TODO)
 
 $\huge\rm\bf{R}\normalsize\rm\bf{ING THEORY}$ is the study of the [category of rings](obsidian://open?file=TODO); that is, the study of [rings](Ring.md) and [homomorphisms](Ring%20Homomorphism.md) between them.

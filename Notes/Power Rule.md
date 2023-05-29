@@ -4,11 +4,11 @@ Date Created: 02/12/2022 00:13:05
 Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Differentiation Theorems in R]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

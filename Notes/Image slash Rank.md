@@ -7,14 +7,14 @@ mathLink: auto
 Date Created: 07/05/2022 17:37:51
 Tags: #Type/Definition #Topic/Linear_Algebra
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Dimension Theorem]], [[Rank is preserved under multiplication by invertible matrices]]
 Sufficiencies: [[Image of linear map is spanned by image of spanning set]]
-Equivalences: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Basic properties of linear maps]]
 
 ``` ad-Definition

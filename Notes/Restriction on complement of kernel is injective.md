@@ -3,12 +3,12 @@
 Date Created: 20/01/2023 10:05:52
 Tags: #Type/Proposition #Topic/Linear_Algebra
 
-Proved by: _Not Applicable_
-References: _Not Applicable_
+Proved by: <i>Not Applicable</i>
+References: <i>Not Applicable</i>
 Justifications: [[Subspaces of finite-dim. vector spaces have complements]]
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

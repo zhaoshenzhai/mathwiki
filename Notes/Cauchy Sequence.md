@@ -3,15 +3,15 @@
 Date Created: 01/11/2022 00:44:38
 Tags: #Type/Definition #Topic/Analysis
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Complete Metric Space]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Cauchy implies bounded]]
 Sufficiencies: [[Convergent implies Cauchy]], [[Contractive implies Cauchy]], [[Uniform continuity preserve Cauchyness]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

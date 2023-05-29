@@ -5,10 +5,10 @@ Tags: #Type/Theorem #Topic/Topology
 
 Proved by: [[Image of union is union of images]], [[Compositions of images slash preimages]]
 References: [[Least slash greatest on compacta of R]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Extreme Value Theorem).

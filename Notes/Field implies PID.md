@@ -7,12 +7,12 @@ mathLink: auto
 Date Created: 22/11/2022 22:39:00
 Tags: #Type/Proposition #Topic/Ring_Theory
 
-Proved by: _Not Applicable_
+Proved by: <i>Not Applicable</i>
 References: [[EUD implies PID]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

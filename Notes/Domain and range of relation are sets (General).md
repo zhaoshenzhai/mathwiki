@@ -4,11 +4,11 @@ Date Created: 21/01/2022 16:18:54
 Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Replacement image of a set is a set]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 <b>Remark.</b> Let $x$ and $y$ be sets and let $\l[\!\l[x,y\r]\!\r]$ be any set such that if $\l[\!\l[x,y\r]\!\r]=\l[\!\l[u,v\r]\!\r]$, then $x=u$ and $v=y$; this captures the essence of what it means for $\l[\!\l[\cdot,\cdot\r]\!\r]$ to be an $\textrm{`}$ordered pair$\textrm{'}$. A set $R$ is then a $\textrm{`}$binary relation$\textrm{'}$ if
 $$\begin{equation}

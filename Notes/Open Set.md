@@ -3,15 +3,15 @@
 Date Created: 04/02/2022 12:27:22
 Tags: #Type/Definition #Later/Topology
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Epsilon-ball]], [[Neighborhood of Infinity]]
 Constructions: [[Closed Set]], [[Boundary Point slash Boundary]], [[Sequential Limits]], [[Functional Limits]], [[Continuous Function]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Open if covered by open subsets]], [[Open set in open subspace is open]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

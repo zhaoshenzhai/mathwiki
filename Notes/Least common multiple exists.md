@@ -8,11 +8,11 @@ Date Created: 20/09/2022 13:32:27
 Tags: #Type/Proposition #Later/Ring_Theory
 
 Proved by: [[Omega is an ordinal]], [[Ring of integers is a EUD]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

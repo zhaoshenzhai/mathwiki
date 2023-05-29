@@ -4,11 +4,11 @@ Date Created: 16/01/2022 16:34:42
 Tags: #Type/Axiom #Later/Set_Theory
 
 Constructions: [[Pair Set]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 
 ``` ad-Axiom
 title: Axiom.

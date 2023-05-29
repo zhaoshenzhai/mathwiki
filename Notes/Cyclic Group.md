@@ -3,15 +3,15 @@
 Date Created: 26/09/2022 14:04:28
 Tags: #Type/Definition #Topic/Group_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Group of units of finite field is a cyclic group]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of cyclic groups]]
 Sufficiencies: [[At most one dividing subgroup implies cyclic]]
 Equivalences: [[Classification of Cyclic Groups]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

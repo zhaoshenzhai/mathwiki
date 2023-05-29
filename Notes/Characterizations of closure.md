@@ -4,11 +4,11 @@ Date Created: 05/11/2022 15:51:36
 Tags: #Type/Proposition #Topic/Topology
 
 Proved by: [[Basic properties of unions, intersections, and power sets]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

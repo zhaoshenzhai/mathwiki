@@ -3,15 +3,15 @@
 Date Created: 26/10/2022 11:35:20
 Tags: #Type/Definition #Topic/Group_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Kernel (Group Theory)]], [[Centralizer slash Center]]
 Constructions: [[Quotient Group]], [[Internal Direct Product (Group Theory)]], [[Simple Group]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Index two implies normal]]
 Equivalences: [[Characterizations of normality]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

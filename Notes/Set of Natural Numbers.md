@@ -3,14 +3,14 @@
 Date Created: 02/02/2022 13:46:50
 Tags: #Type/Definition #Later/Set_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Tuples and Sequences]], [[Countable Set]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Omega is the least limit ordinal]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Axiom of Infinity]], [[Principle of Ordinary Induction]], [[Omega is an ordinal]]
 
 ``` ad-Definition

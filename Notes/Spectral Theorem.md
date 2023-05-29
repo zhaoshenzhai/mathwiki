@@ -5,10 +5,10 @@ Tags: #Type/Theorem #Topic/Linear_Algebra
 
 Proved by: [[Orthogonal complement of invariant subspace is invariant under self-adjoint operator]], [[Basic properties of normal operators]]
 References: [[Gram-Schmidt Orthonormalization]], [[Eigenvalues of linear operators on inner product spaces]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Spectral Theorem).

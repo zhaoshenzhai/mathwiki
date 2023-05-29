@@ -3,15 +3,15 @@
 Date Created: 18/05/2023 19:04:23
 Tags: #Type/Definition #Topic/Topology
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Fibration]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Unique Lifting Property]]
 Sufficiencies: [[Covering Homotopy Theorem]]
 Equivalences: [[Lifting Criterion]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

@@ -4,11 +4,11 @@ Date Created: 25/01/2022 11:58:09
 Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[Discrete topology (basis)]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

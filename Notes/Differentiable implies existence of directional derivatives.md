@@ -7,12 +7,12 @@ mathLink: Differentiable $\Rightarrow$ $D_\v{u}f\l(\v{a}\r)=\l[Df\l(\v{a}\r)\r]\
 Date Created: 30/12/2022 17:42:40
 Tags: #Type/Proposition #Topic/Analysis #Courses/MATH358
 
-Proved by: _Not Applicable_
-References: _Not Applicable_
-Justifications: _Not Applicable_
+Proved by: <i>Not Applicable</i>
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

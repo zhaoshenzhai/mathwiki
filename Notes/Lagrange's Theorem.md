@@ -7,12 +7,12 @@ mathLink: auto
 Date Created: 13/10/2022 12:03:14
 Tags: #Type/Theorem #Topic/Group_Theory
 
-Proved by: _Not Applicable_
+Proved by: <i>Not Applicable</i>
 References: [[Basic properties of order]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Lagrange$\textrm{'}$s Theorem).

@@ -4,14 +4,14 @@ Date Created: 25/11/2022 09:51:45
 Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Lipschitz Continuity]]
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Uniform continuity preserve Cauchyness]], [[Composition of uniformly continuous functions are uniformly continuous]]
 Sufficiencies: [[Heine-Cantor Theorem]]
 Equivalences: [[Continuous Extension Theorem]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

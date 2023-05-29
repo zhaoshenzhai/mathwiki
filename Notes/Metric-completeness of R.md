@@ -8,11 +8,11 @@ Date Created: 01/11/2022 00:52:54
 Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Convergent implies Cauchy]], [[Cauchy implies bounded]], [[Bolzano-Weierstrass Theorem]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Metric-completeness of $\R$).

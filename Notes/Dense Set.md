@@ -3,14 +3,14 @@
 Date Created: 04/01/2023 15:45:07
 Tags: #Type/Definition #Topic/Analysis
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Q is dense in R]]
 Constructions: [[Separable Space]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Characterizations of closure]]
 
 ``` ad-Definition

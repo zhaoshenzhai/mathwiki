@@ -8,11 +8,11 @@ Date Created: 03/01/2023 22:40:59
 Tags: #Type/Theorem #Topic/Group_Theory
 
 Proved by: [[Basic properties of cosets]], [[Universal Property of Quotient Sets]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Universal Property of Quotient Groups).

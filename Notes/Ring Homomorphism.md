@@ -4,14 +4,14 @@ Date Created: 15/11/2022 14:00:50
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Ring Isomorphism]]
-Examples: _Not Applicable_
+Examples: <i>Not Applicable</i>
 Constructions: [[Kernel (Ring Theory)]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of ring homomorphisms]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

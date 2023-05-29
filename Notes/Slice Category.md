@@ -3,13 +3,13 @@
 Date Created: 25/02/2022 14:25:38
 Tags: #Type/Definition #Later/Category_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
 Generalizations: [[Comma Category]]
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Slice category is comma category of identity over inclusion]]
 Justifications: [[Slice category is a category]]
 

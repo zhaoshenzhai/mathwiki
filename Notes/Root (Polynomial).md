@@ -3,15 +3,15 @@
 Date Created: 22/11/2022 23:48:21
 Tags: #Type/Definition #Topic/Ring_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Eigenvalue iff root of characteristic polynomial]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Polynomial has at most degree-many roots]]
 Sufficiencies: [[Fundamental Theorem of Algebra]]
 Equivalences: [[Root iff factor]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

@@ -4,11 +4,11 @@ Date Created: 21/05/2023 14:41:58
 Tags: #Type/Proposition #Topic/Topology
 
 Proved by: [[Covering Homotopy Theorem]], [[Orbit-Stabilizer Theorem]]
-References: _Not Applicable_
+References: <i>Not Applicable</i>
 Justifications: [[Connected implies well-defined number of sheets]]
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

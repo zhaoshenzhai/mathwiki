@@ -4,11 +4,11 @@ Date Created: 25/05/2023 12:57:37
 Tags: #Type/Proposition #Topic/Topology
 
 Proved by: [[Basic properties of homotopies of paths]], [[Covering Homotopy Theorem]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

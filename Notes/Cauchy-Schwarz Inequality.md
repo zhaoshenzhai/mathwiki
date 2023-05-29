@@ -4,10 +4,10 @@ Date Created: 26/06/2022 17:19:32
 Tags: #Type/Theorem #Topic/Linear_Algebra
 
 Proved by: [[Basic properties of orthogonal projections]], [[Linearly dependent iff exists span redundant element]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
 Generalizations: [[Holder's Inequality]]
 
 ``` ad-Theorem

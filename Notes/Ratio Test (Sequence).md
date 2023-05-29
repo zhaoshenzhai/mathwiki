@@ -4,11 +4,11 @@ Date Created: 20/10/2022 17:41:09
 Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Sequential Limit Theorems in R]], [[Limit of geometric]], [[Squeezed Distance Lemma]], [[Comparison Test (Sequence)]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition (Ratio Test for Sequences).

@@ -4,11 +4,11 @@ Date Created: 09/02/2023 10:10:17
 Tags: #Type/Proposition #Topic/Topology
 
 Proved by: [[Closed subset of compact set is compact]], [[Extreme Value Theorem]], [[Compact implies closed (Hausdorff)]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

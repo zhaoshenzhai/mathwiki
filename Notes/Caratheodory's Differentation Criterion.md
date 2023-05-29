@@ -8,11 +8,11 @@ Date Created: 02/12/2022 00:20:34
 Tags: #Type/Theorem #Topic/Analysis
 
 Proved by: [[Sequential slash functional limit characterizations of continuity]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Carath$\acute{\textbf{e}}$odory$\textrm{'}$s Differentiation Criterion).

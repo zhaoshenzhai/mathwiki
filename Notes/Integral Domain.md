@@ -4,14 +4,14 @@ Date Created: 03/11/2022 19:08:25
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Principal Ideal Domain (PID)]]
-Examples: _Not Applicable_
+Examples: <i>Not Applicable</i>
 Constructions: [[Irreducible Element]], [[Prime Element]], [[Localization]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Finite integral domain implies field]], [[Characteristic of integral domain is prime]], [[Basic properties of polynomial rings (integral domain)]]
 Sufficiencies: [[Ideal is prime iff quotient is an integral domain]]
 Equivalences: [[Integral domain iff cancellable]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

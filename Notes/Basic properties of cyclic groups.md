@@ -4,11 +4,11 @@ Date Created: 05/05/2023 20:14:42
 Tags: #Type/Proposition #Topic/Group_Theory
 
 Proved by: [[Basic properties of order]], [[Multiplicative group iff coprime]], [[Ring of integers is a EUD]]
-References: _Not Applicable_
+References: <i>Not Applicable</i>
 Justifications: [[Classification of Cyclic Groups]]
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

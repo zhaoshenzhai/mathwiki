@@ -6,7 +6,7 @@ Tags: #Type/Definition #Topic/Analysis
 Types: [[Absolutely Convergent Series]]
 Examples: [[Geometric series converges iff r less than 1]], [[p series converges iff p>1]]
 Constructions: [[Regrouping of Series]], [[Rearrangement of Series]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Riemann's Rearrangement Theorem]]
 Sufficiencies: [[Comparison Tests (Series)]], [[Dirichlet's Test]], [[Abel's Test]]

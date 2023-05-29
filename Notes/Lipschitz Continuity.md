@@ -4,14 +4,14 @@ Date Created: 25/11/2022 10:57:59
 Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Contractive Function]]
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Composition of Lipschitz functions are Lipschitz]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Bounded iff Lipschitz iff continuous (normed vector space)]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

@@ -4,11 +4,11 @@ Date Created: 20/01/2022 13:14:26
 Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Replacement image of a set is a set]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 Specializations: [[Cartesian product is a set (Kuratowski)]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

@@ -4,13 +4,13 @@ Date Created: 29/01/2022 11:31:28
 Tags: #Type/Definition #Later/Set_Theory
 
 Types: [[Bounded Sequence]], [[Cauchy Sequence]], [[Contractive Sequence]], [[Monotone Sequence]]
-Examples: _Not Applicable_
+Examples: <i>Not Applicable</i>
 Constructions: [[Sequential Limits]], [[Subsequences]], [[Polynomial]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Function space constructed from a Cartesian product]]
 
 ``` ad-Definition

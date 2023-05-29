@@ -8,11 +8,11 @@ Date Created: 04/10/2022 13:01:40
 Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Archimedean Property of R]], [[Squeezed Distance Lemma]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

@@ -7,15 +7,15 @@ mathLink: auto
 Date Created: 30/11/2022 23:11:36
 Tags: #Type/Definition #Topic/Analysis
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Power Rule]]
-Constructions: _Not Applicable_
+Constructions: <i>Not Applicable</i>
 Generalizations: [[Frechet Differentiability slash Derivative]]
 
 Properties: [[Differentiation Theorems in R]], [[Mean Value Theorems]], [[First Derivative Test]], [[Differentiable implies continuous]]
 Sufficiencies: [[Fermat's Theorem on Stationary Points]], [[Derivatives and monotonicity]]
 Equivalences: [[Fundamental Increment Lemma]], [[Caratheodory's Differentation Criterion]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

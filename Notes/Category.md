@@ -4,14 +4,14 @@ Date Created: 12/03/2022 17:41:32
 Tags: #Type/Definition #Later/Category_Theory
 
 Types: [[Locally-small Category]], [[Groupoid]]
-Examples: _Not Applicable_
+Examples: <i>Not Applicable</i>
 Constructions: [[Morphism (Category Theory)]], [[Functor]], [[Opposite Category]], [[Slice Category]], [[Coslice Category]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

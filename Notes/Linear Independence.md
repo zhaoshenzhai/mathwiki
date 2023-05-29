@@ -5,13 +5,13 @@ Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Basis (Linear Algebra)]]
 Examples: [[Distinct eigenvalues implies linearly independent eigenvectors]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Steinitz Exchange Lemma]], [[Basis Extension Theorem]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]]
 Sufficiencies: [[Orthonormal sets are linearly independent]], [[Basis iff maximal linearly independent set]]
 Equivalences: [[Linearly dependent iff exists span redundant element]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

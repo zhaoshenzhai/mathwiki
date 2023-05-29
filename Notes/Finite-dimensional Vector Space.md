@@ -3,15 +3,15 @@
 Date Created: 04/04/2022 23:35:21
 Tags: #Type/Definition #Topic/Linear_Algebra
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Dimension of subspace]], [[Vector space isomorphic to double dual (finite-dim.)]]
 Sufficiencies: [[Linearly isomorphic implies finite-dim. iff finite-dim.]]
 Equivalences: [[Linearly isomorphic iff dimensions coincide (finite-dim.)]], [[Coordinate representation of vector spaces]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

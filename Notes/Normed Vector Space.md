@@ -6,12 +6,12 @@ Tags: #Type/Definition #Topic/Analysis
 Types: [[Banach Space]]
 Examples: [[Space of Continuous Functions]], [[lp Space]], [[Operator Norm]]
 Constructions: [[Norm induces a metric]], [[Bounded Linear Map]], [[Frechet Differentiability slash Derivative]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Inner product induces a norm]]
 Equivalences: [[Equivalent Norms]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

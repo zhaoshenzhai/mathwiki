@@ -3,13 +3,13 @@
 Date Created: 09/02/2022 09:28:03
 Tags: #Type/Definition #Later/Topology
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Euclidean Topological Space]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Product of topologies is monotone w.r.t. subsets]], [[Product and subspace topologies on subsets coincide]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Product topology (basis; component from bases)]], [[Product topology (subbasis)]]
 Justifications: [[Product topology (finite) is a topology]]
 

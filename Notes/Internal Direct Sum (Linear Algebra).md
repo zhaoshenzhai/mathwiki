@@ -3,15 +3,15 @@
 Date Created: 20/04/2022 17:33:40
 Tags: #Type/Definition #Topic/Linear_Algebra
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Symmetric and skew-symmetric decomposition of matrices]]
 Constructions: [[Complement (Linear Subspace)]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basis slash dimension for direct sum]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Unique Representation Theorem (Direct Sum)]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

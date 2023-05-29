@@ -4,11 +4,11 @@ Date Created: 20/01/2023 09:44:56
 Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Dimension Theorem]], [[Basis slash dimension for direct sum]], [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

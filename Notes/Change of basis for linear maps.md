@@ -4,11 +4,11 @@ Date Created: 01/06/2022 17:22:00
 Tags: #Type/Proposition #Topic/Linear_Algebra
 
 Proved by: [[Action of linear map repr under basis left-multiplication of matrix representation]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

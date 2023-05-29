@@ -8,11 +8,11 @@ Date Created: 21/05/2023 11:31:25
 Tags: #Type/Proposition #Topic/Topology
 
 Proved by: [[Basic properties of homotopies of paths]]
-References: _Not Applicable_
+References: <i>Not Applicable</i>
 Justifications: [[Independence of base point]]
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

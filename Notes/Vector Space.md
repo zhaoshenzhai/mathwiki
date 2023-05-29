@@ -10,8 +10,8 @@ Generalizations: [[Module]]
 
 Properties: [[Basic properties of vector spaces]], [[Every vector space has a basis]]
 Sufficiencies: [[Unique Representation Theorem (Basis)]]
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

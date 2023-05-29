@@ -7,12 +7,12 @@ mathLink: auto
 Date Created: 15/09/2022 12:59:51
 Tags: #Type/Proposition #Later/Set_Theory
 
-Proved by: _Not Applicable_
+Proved by: <i>Not Applicable</i>
 References: [[Omega is an initial segment of ON]], [[Initial segment of ON is an ordinal]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

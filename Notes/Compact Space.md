@@ -5,8 +5,8 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: [[Countably Compact Space]]
 Examples: [[Compact Metric Space]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Extreme Value Theorem]], [[Cantor's Intersection Theorem]], [[Compact implies limit point compact]], [[Compact implies closed (Hausdorff)]]
 Sufficiencies: [[Closed subset of compact set is compact]]

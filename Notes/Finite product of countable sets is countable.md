@@ -4,11 +4,11 @@ Date Created: 28/12/2022 16:06:39
 Tags: #Type/Proposition #Topic/Set_Theory
 
 Proved by: [[Countable iff injects into naturals]], [[Fundamental Theorem of Arithmetic]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

@@ -8,11 +8,11 @@ Date Created: 08/03/2023 12:42:15
 Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Characterizations of compactness (metric space)]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

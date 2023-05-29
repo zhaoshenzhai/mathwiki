@@ -3,10 +3,10 @@
 Date Created: 04/02/2022 10:39:21
 Tags: #Type/Definition #Later/Topology
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Standard Topology on R]], [[Standard Topology on N]], [[Lexicographical Order Topology]]
 Constructions: [[Order Space (Topology)]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Restricted order topology subset of subspace topology]], [[Restricted order and subspace topologies coincide for convex sets]]
 Sufficiencies: [[Half-infinite open rays are open in the order topology]]

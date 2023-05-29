@@ -8,11 +8,11 @@ Date Created: 05/02/2022 10:24:48
 Tags: #Type/Proposition #Later/Topology
 
 Proved by: [[Criteria for fineness w.r.t. bases]], [[Upper-limit topology strictly finer than standard topology on R]], [[Q is dense in R]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

@@ -6,12 +6,12 @@ Tags: #Type/Definition #Later/Category_Theory
 Types: [[Left-invertible Functor]], [[Right-invertible Functor]], [[Diagram]]
 Examples: [[Path Components]], [[Fundamental Group]], [[Identity Functor]], [[Inclusion Functor]], [[Constant Functor]], [[Covariant Power Set Functor]]
 Constructions: [[Natural Transformation]], [[Comma Category]], [[Composition (Functor)]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

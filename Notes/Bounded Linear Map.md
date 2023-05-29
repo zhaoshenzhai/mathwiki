@@ -3,15 +3,15 @@
 Date Created: 27/02/2023 20:47:10
 Tags: #Type/Definition #Topic/Analysis
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Frechet Differentiability slash Derivative]]
 Constructions: [[Operator Norm]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Linear map from a finite-dimensional space is bounded]]
 Equivalences: [[Bounded iff Lipschitz iff continuous (normed vector space)]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

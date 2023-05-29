@@ -7,15 +7,15 @@ mathLink: auto
 Date Created: 13/10/2022 12:25:27
 Tags: #Type/Definition #Topic/Group_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[All k-cycles are conjugate]]
 Constructions: [[Centralizer slash Center]], [[Normalizer]], [[Normal Subgroup]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Class Equation]]
-Sufficiencies: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Quotients are equivariant iff subgroups are conjugate]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

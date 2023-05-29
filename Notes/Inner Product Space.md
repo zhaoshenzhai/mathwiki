@@ -3,14 +3,14 @@
 Date Created: 23/06/2022 08:01:27
 Tags: #Type/Definition #Topic/Linear_Algebra
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Orthogonality]], [[Inner product induces a norm]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Cauchy-Schwarz Inequality]], [[Pythagorean Theorem]]
 Sufficiencies: [[Orthogonal Decomposition]]
-Equivalences: _Not Applicable_
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Hermitian forms are sesquilinear]]
 
 ``` ad-Definition

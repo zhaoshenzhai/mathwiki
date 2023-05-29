@@ -4,11 +4,11 @@ Date Created: 24/05/2023 14:06:39
 Tags: #Type/Theorem #Topic/Topology
 
 Proved by: [[Existence of universal covers]], [[Basic properties of covering spaces]], [[Characterizations of equivalent covering maps]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Galois Correspondence of Covering Spaces).

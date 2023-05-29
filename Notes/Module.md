@@ -3,15 +3,15 @@
 Date Created: 23/01/2023 17:40:02
 Tags: #Type/Definition #Topic/Module_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Abelian Group]], [[Ideal]], [[Quotient Ring]]
 Constructions: [[Module Homomorphism]], [[Submodule]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of modules]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

@@ -7,12 +7,12 @@ mathLink: Basic properties of $\cchi_T$ and $T$-invariant subspaces
 Date Created: 16/03/2023 21:48:25
 Tags: #Type/Proposition #Later/Linear_Algebra/Determinant
 
-Proved by: _Not Applicable_
-References: _Not Applicable_
+Proved by: <i>Not Applicable</i>
+References: <i>Not Applicable</i>
 Justifications: [[Cyclic subspace of finite-dimensional is finite-dimensional]]
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

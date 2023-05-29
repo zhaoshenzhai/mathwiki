@@ -7,14 +7,14 @@ mathLink: Infimum/Supremum
 Date Created: 24/01/2022 15:53:19
 Tags: #Type/Definition #Topic/Set_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Limit Superior slash Inferior]]
 Constructions: [[Meet and Join-semilattices]], [[Dedekind-complete Ordered Set]], [[Diameter]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Supremum slash infimum are unique]]
 
 ``` ad-Definition

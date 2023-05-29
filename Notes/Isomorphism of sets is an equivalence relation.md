@@ -5,9 +5,9 @@ Tags: #Type/Proposition #Later/Set_Theory
 
 Proved by: [[Identity function is the identity of function composition]]
 References: [[Russel's Paradox]]
-Justifications: _Not Applicable_
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
 Generalizations: [[Isomorphism of objects is an equivalence relation]]
 
 ``` ad-Proposition

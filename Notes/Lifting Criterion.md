@@ -4,11 +4,11 @@ Date Created: 22/05/2023 23:14:21
 Tags: #Type/Theorem #Topic/Topology
 
 Proved by: [[Unique Lifting Property]], [[Basic properties of path-connectedness]], [[Covering Homotopy Theorem]], [[Basic properties of covering spaces]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Lifting Criterion).

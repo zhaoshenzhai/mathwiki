@@ -8,11 +8,11 @@ Date Created: 28/12/2022 21:25:31
 Tags: #Type/Proposition #Topic/Analysis
 
 Proved by: [[Compact implies bounded]], [[Compact implies closed (Hausdorff)]], [[Sequential Limit Theorems in R]], [[Sequential characterization of closed sets (metric)]]
-References: _Not Applicable_
-Justifications: _Not Applicable_
+References: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
-Specializations: _Not Applicable_
-Generalizations: _Not Applicable_
+Specializations: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
 title: Proposition.

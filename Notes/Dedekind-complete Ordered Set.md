@@ -3,14 +3,14 @@
 Date Created: 16/02/2022 20:34:24
 Tags: #Type/Definition #Topic/Analysis
 
-Types: _Not Applicable_
-Examples: _Not Applicable_
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: [[Real Numbers]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Dedekind-complete bounded convex sets are intervals]], [[Nested Interval Theorem]], [[Monotone Convergence Theorem]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[LUB property iff GLB property]]
 
 ``` ad-Definition

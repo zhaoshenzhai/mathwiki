@@ -3,15 +3,15 @@
 Date Created: 18/01/2022 14:52:36
 Tags: #Type/Definition #Later/Set_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Universal Class]], [[Intersection of empty set is a proper class]], [[Absolute complement of a set is a proper class]], [[Collection of all functions is a proper class]], [[Class of Ordinals]]
 Constructions: [[Class Function]], [[Category]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
-Properties: _Not Applicable_
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
-Justifications: _Not Applicable_
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition (Informal).

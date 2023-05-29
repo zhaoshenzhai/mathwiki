@@ -3,14 +3,14 @@
 Date Created: 13/10/2022 13:50:58
 Tags: #Type/Definition #Topic/Group_Theory
 
-Types: _Not Applicable_
+Types: <i>Not Applicable</i>
 Examples: [[Orbit-Stabilizer Theorem]], [[Class Equation]]
-Constructions: _Not Applicable_
-Generalizations: _Not Applicable_
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Lagrange's Theorem]], [[Index two implies normal]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Number of left-cosets equals number of right-cosets]]
 
 ``` ad-Definition

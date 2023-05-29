@@ -3,14 +3,14 @@
 Date Created: 17/01/2022 19:19:48
 Tags: #Type/Definition #Later/Set_Theory
 
-Types: _Not Applicable_
-Examples: _Not Applicable_ 
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i> 
 Constructions: [[Lattice of Subsets]], [[Covariant Power Set Functor]]
-Generalizations: _Not Applicable_
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of unions, intersections, and power sets]]
-Sufficiencies: _Not Applicable_
-Equivalences: _Not Applicable_
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Axiom of Power Set]], [[Axiom of Extensionality]]
 
 ``` ad-Definition
