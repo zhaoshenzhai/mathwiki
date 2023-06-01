@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{C}$ be a category and fix $X\in\Obj\l(\cat{C}\r)$. An **endomorphism of $X$** is a morphism $f\in\End\l(X\r)\coloneqq\Hom\l(X,X\r)$.
+Let $\cat{C}$ be a category and fix $X\in\Obj\l(\cat{C}\r)$. An <b>endomorphism of $X$</b> is a morphism $f\in\End\l(X\r)\coloneqq\Hom\l(X,X\r)$.
 
 ```
 

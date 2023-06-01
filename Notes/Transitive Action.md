@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $G$ be a group acting on a set $X$ via $\phi:G\to\Aut\l(X\r)$. The action $\phi$ is said to be **transitive** if for all $x,y\in X$, there is some $g\in G$ such that $y=gx$.
+Let $G$ be a group acting on a set $X$ via $\phi:G\to\Aut\l(X\r)$. The action $\phi$ is said to be <b>transitive</b> if for all $x,y\in X$, there is some $g\in G$ such that $y=gx$.
 
 ```
 

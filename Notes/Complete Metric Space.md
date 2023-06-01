@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A metric space $\tpl{X,d}$ is **complete** if every Cauchy sequence in $X$ converges.
+A metric space $\tpl{X,d}$ is <b>complete</b> if every Cauchy sequence in $X$ converges.
 
 ```

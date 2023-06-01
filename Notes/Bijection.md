@@ -16,8 +16,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A function $f:X\to Y$ is a **bijection** if $f:X\to Y$ is both an injection and a surjection.
+A function $f:X\to Y$ is a <b>bijection</b> if $f:X\to Y$ is both an injection and a surjection.
 
 ```
 
-<b>Remark.</b> If $f:X\to Y$ is a bijection (or a **bijective function**, or a **one-to-one correspondence**), write $f:X\rightleftarrows Y$ and say that the sets $X$ and $Y$ are **in one-to-one correspondence**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $f:X\to Y$ is a bijection (or a <b>bijective function</b>, or a <b>one-to-one correspondence</b>), write $f:X\rightleftarrows Y$ and say that the sets $X$ and $Y$ are <b>in one-to-one correspondence</b>.<span style="float:right;">$\blacklozenge$</span>

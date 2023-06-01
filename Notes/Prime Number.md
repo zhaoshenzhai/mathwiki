@@ -16,8 +16,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A natural number $p\in\N$ with $p>1$ is said to be a **prime number** if the only divisors of $p$ are $1$ and itself.
+A natural number $p\in\N$ with $p>1$ is said to be a <b>prime number</b> if the only divisors of $p$ are $1$ and itself.
 
 ```
 
-<b>Remark.</b> Otherwise, $p$ is said to be a **composite number**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Otherwise, $p$ is said to be a <b>composite number</b>.<span style="float:right;">$\blacklozenge$</span>

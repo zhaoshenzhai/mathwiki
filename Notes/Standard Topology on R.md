@@ -20,7 +20,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $<$ be the standard ordering on the real numbers $\R$. The **standard topology on $\R$** is the order topology $\sttopR\coloneqq\mc{T}(<)$.
+Let $<$ be the standard ordering on the real numbers $\R$. The <b>standard topology on $\R$</b> is the order topology $\sttopR\coloneqq\mc{T}(<)$.
 
 ```
 

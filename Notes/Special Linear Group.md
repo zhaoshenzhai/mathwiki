@@ -20,7 +20,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be a vector space. The **special linear group over $V$** is the kernel of $\det:\GL\l(V\r)\to K^\times$, denoted $\SL\l(V\r)$.
+Let $V$ be a vector space. The <b>special linear group over $V$</b> is the kernel of $\det:\GL\l(V\r)\to K^\times$, denoted $\SL\l(V\r)$.
 
 ```
 

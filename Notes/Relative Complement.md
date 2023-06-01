@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $u$ and $v$ be sets. The **relative complement of $u$ w.r.t. $v$** is the set
+Let $u$ and $v$ be sets. The <b>relative complement of $u$ w.r.t. $v$</b> is the set
 $$\begin{equation}
     v\comp u\coloneqq\l\{x\in v\mid x\not\in u\r\}.
 \end{equation}$$

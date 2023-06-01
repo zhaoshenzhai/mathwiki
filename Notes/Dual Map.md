@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $V$ and $W$ be $K$-vector spaces and fix a linear map $T:V\to W$. The **dual map of $T$** is the linear map
+Let $V$ and $W$ be $K$-vector spaces and fix a linear map $T:V\to W$. The <b>dual map of $T$</b> is the linear map
 $$\begin{equation}
     T^\dual:W^\dual\to V^\dual\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ \gamma\mapsto\gamma\circ T.
 \end{equation}$$

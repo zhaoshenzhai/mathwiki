@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $K$ be a field. The **vector space of polynomials over $K$** is the vector space $\tpl{K\l[x\r],K,+,\cdot,0}$ consisting of all polynomials over $K$ equipped with the operations $+$ and $\cdot$, defined, for all $f\coloneqq\sum_{i=0}^{n}a_ix^1$, $g\coloneqq\sum_{i=0}^{m}b_ix_i$, and $\alpha\in K$, by
+Let $K$ be a field. The <b>vector space of polynomials over $K$</b> is the vector space $\tpl{K\l[x\r],K,+,\cdot,0}$ consisting of all polynomials over $K$ equipped with the operations $+$ and $\cdot$, defined, for all $f\coloneqq\sum_{i=0}^{n}a_ix^1$, $g\coloneqq\sum_{i=0}^{m}b_ix_i$, and $\alpha\in K$, by
 $$\begin{equation}
     f+g\coloneqq\sum_{i=0}^{u}\l(a_i+b_i\r)x^i\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \alpha\cdot f\coloneqq\sum_{i=0}^{n}\l(\alpha a_i\r)x^i
 \end{equation}$$

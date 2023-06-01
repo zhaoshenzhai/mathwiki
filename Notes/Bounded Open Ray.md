@@ -20,6 +20,6 @@ Let $\tpl{X,<}$ be a totally ordered set. If there exists a minimal element $a_0
 $$\begin{equation}
     \l[a_0,b\r)=\l\{x\in X\mid\ex b\in X:x<b\r\}\ \ \ \ \ \ \ \ \textrm{\it{(resp. }}\l(a,b_0\r]=\l\{x\in X\mid\ex a\in X:x>a\r\}\textrm{\it{)}}
 \end{equation}$$
-is said to be **bounded below** (resp. **above**).
+is said to be <b>bounded below</b> (resp. <b>above</b>).
 
 ```

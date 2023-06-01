@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{C}$ and $\cat{D}$ be categories and fix two functors $\ms{F},\ms{G}:\cat{C}\to\cat{D}$. A **natural transformation from $\ms{F}$ to $\ms{G}$** is a class function
+Let $\cat{C}$ and $\cat{D}$ be categories and fix two functors $\ms{F},\ms{G}:\cat{C}\to\cat{D}$. A <b>natural transformation from $\ms{F}$ to $\ms{G}$</b> is a class function
 $$\begin{equation}
     \begin{aligned}
         \eta:\Obj\l(\cat{C}\r)&\to\Hom\l(\cat{D}\r)\\
@@ -39,4 +39,4 @@ or simply $\eta:\ms{F}\Rightarrow\ms{G}$ if the categories are understood.<span 
 
 ---
 
-<b>Remark.</b> In other words, a natural transformation $\eta$ is given by an indexed family $\l\{\eta_X\r\}_{X\in\Obj\l(\cat{C}\r)}$ where $\eta_X:\ms{F}\l(X\r)\to\ms{G}\l(X\r)$ are morphisms in $\cat{D}$, called the **component morphisms of $\eta$**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, a natural transformation $\eta$ is given by an indexed family $\l\{\eta_X\r\}_{X\in\Obj\l(\cat{C}\r)}$ where $\eta_X:\ms{F}\l(X\r)\to\ms{G}\l(X\r)$ are morphisms in $\cat{D}$, called the <b>component morphisms of $\eta$</b>.<span style="float:right;">$\blacklozenge$</span>

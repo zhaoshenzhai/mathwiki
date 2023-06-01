@@ -16,7 +16,7 @@ Justifications: [[Constant functor is a functor]]
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{J}$ and $\cat{C}$ be categories and fix $C\in\Obj\l(\cat{C}\r)$. The **constant functor at $C$** is the covariant functor $\ms{C}_C:\cat{J}\to\cat{C}$ sending all objects to $C$ and all morphisms to $\id_C$. Formally, $\ms{C}_C\coloneqq\tpl{\ms{C}_C^{\Obj},\l\{\l(\ms{C}_C^{\Hom}\r)_{j,k}\r\}_{j,k\in\Obj\l(\cat{J}\r)}}$ where
+Let $\cat{J}$ and $\cat{C}$ be categories and fix $C\in\Obj\l(\cat{C}\r)$. The <b>constant functor at $C$</b> is the covariant functor $\ms{C}_C:\cat{J}\to\cat{C}$ sending all objects to $C$ and all morphisms to $\id_C$. Formally, $\ms{C}_C\coloneqq\tpl{\ms{C}_C^{\Obj},\l\{\l(\ms{C}_C^{\Hom}\r)_{j,k}\r\}_{j,k\in\Obj\l(\cat{J}\r)}}$ where
 $$\begin{equation}
     \begin{aligned}
         \ms{C}_C^{\Obj}:\Obj\l(\cat{J}\r)&\to\Obj\l(\cat{C}\r)\\

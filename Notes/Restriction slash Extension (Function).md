@@ -20,11 +20,11 @@ Justifications: [[Restriction of function is a function]]
 ``` ad-Definition
 title: Definition.
 
-Let $f:X\to Y$ and fix $S\subseteq X$. The **restriction of $f$ to $S$** is the function
+Let $f:X\to Y$ and fix $S\subseteq X$. The <b>restriction of $f$ to $S$</b> is the function
 $$\begin{equation}
     \l.f\r|_S:S\to Y\ \ \ \ \textrm{\it{mapping}}\ \ \ \ x\mapsto f\l(x\r)
 \end{equation}$$
-for all $x\in S$. Moreover, for all $\widetilde{X}\supseteq X$, a function $\widetilde{f}:\widetilde{X}\to Y$ is an **extension of $f$ to $\widetilde{X}$** if $\l.\widetilde{f}\r|_X=f$.
+for all $x\in S$. Moreover, for all $\widetilde{X}\supseteq X$, a function $\widetilde{f}:\widetilde{X}\to Y$ is an <b>extension of $f$ to $\widetilde{X}$</b> if $\l.\widetilde{f}\r|_X=f$.
 
 ```
 

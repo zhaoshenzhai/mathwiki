@@ -13,14 +13,14 @@ Equivalences: <i>Not Applicable</i>
 ``` ad-Axiom
 title: Axiom.
 
-Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Union** is the $\mc{L}$-formula
+Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The <b>Axiom of Union</b> is the $\mc{L}$-formula
 $$\begin{equation}
     \fa\mc{A}\ex U\fa a\l(a\in U\Leftrightarrow\ex A\in\mc{A}:a\in A\r).
 \end{equation}$$
 
 ```
 
-<b>Remark.</b> By Extensionality, such a set $U$ is unique and can thus be called the **union of $\mc{A}$**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> By Extensionality, such a set $U$ is unique and can thus be called the <b>union of $\mc{A}$</b>.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

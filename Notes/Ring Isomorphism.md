@@ -16,7 +16,7 @@ Justifications: [[Isomorphism of objects is an equivalence relation]]
 ``` ad-Definition
 title: Definition.
 
-Let $R$ and $S$ be rings. We say that $R$ and $S$ are **isomorphic as rings** if there exists an invertible ring homomorphism $\phi:R\to S$, called a **ring isomorphism**.
+Let $R$ and $S$ be rings. We say that $R$ and $S$ are <b>isomorphic as rings</b> if there exists an invertible ring homomorphism $\phi:R\to S$, called a <b>ring isomorphism</b>.
 
 ```
 

@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition (Informal).
 
-Let $X\coloneqq\l\{x\mid\psi\l(x\r)\r\}$ be a class. The formula $\phi\l(x,y\r)$ is referred to as a **class function** if
+Let $X\coloneqq\l\{x\mid\psi\l(x\r)\r\}$ be a class. The formula $\phi\l(x,y\r)$ is referred to as a <b>class function</b> if
 $$\begin{equation}
     \fa x:\l[\psi\l(x\r)\Rightarrow\ex!y:\phi\l(x,y\r)\r]
 \end{equation}$$

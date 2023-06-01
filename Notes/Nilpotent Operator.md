@@ -16,7 +16,7 @@ Justifications: [[Omega is an ordinal]]
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be a $K$-vector space. A linear operator $T:V\to V$ is said to be **nilpotent** if there exists some $n\in\N$ such that $T^n=0$.
-* If $T$ is nilpotent, then the least $m\in\N$ such that $T^m=0$ is said to be the **degree of nilpotency of $T$**.
+Let $V$ be a $K$-vector space. A linear operator $T:V\to V$ is said to be <b>nilpotent</b> if there exists some $n\in\N$ such that $T^n=0$.
+* If $T$ is nilpotent, then the least $m\in\N$ such that $T^m=0$ is said to be the <b>degree of nilpotency of $T$</b>.
 
 ```

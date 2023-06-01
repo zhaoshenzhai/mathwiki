@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{a_k}$ be a sequence in $\R$ or $\C$ and fix a bijection $\sigma:\N\to\N$. The **$\sigma$-rearrangement of $\sum_{k=0}^{\infty}a_k$** is the infinite series $\sum_{k=0}^{\infty}a_{\sigma\l(k\r)}$.
+Let $\tpl{a_k}$ be a sequence in $\R$ or $\C$ and fix a bijection $\sigma:\N\to\N$. The <b>$\sigma$-rearrangement of $\sum_{k=0}^{\infty}a_k$</b> is the infinite series $\sum_{k=0}^{\infty}a_{\sigma\l(k\r)}$.
 
 ```

@@ -20,7 +20,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a non-empty set. A **$\sigma$-algebra on $X$** is a collection $\mc{M}$ of subsets of $X$ that is closed under complements and countable unions. That is,
+Let $X$ be a non-empty set. A <b>$\sigma$-algebra on $X$</b> is a collection $\mc{M}$ of subsets of $X$ that is closed under complements and countable unions. That is,
 * if $E\in\mc{M}$, then $E^c\in\mc{M}$, and
 * if $\mc{E}\subseteq\mc{M}$ is countable, then $\bigcup\mc{E}\in\mc{M}$.
 

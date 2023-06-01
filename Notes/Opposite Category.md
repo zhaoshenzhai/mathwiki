@@ -16,7 +16,7 @@ Justifications: [[Opposite category is a category]]
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{C}$ be a category. The **opposite category of $\cat{C}$** is the category $\cat{C}^\textrm{op}$ whose objects are $\cat{C}$-objects and whose morphisms are $\cat{C}$-morphisms with arrows reversed. Formally,
+Let $\cat{C}$ be a category. The <b>opposite category of $\cat{C}$</b> is the category $\cat{C}^\textrm{op}$ whose objects are $\cat{C}$-objects and whose morphisms are $\cat{C}$-morphisms with arrows reversed. Formally,
 * $\Obj\l(\cat{C}^\textrm{op}\r)\coloneqq\Obj\l(\cat{C}\r)$,
 * for all $X,Y\in\Obj\l(\cat{C}^\textrm{op}\r)$, $\Hom_{\cat{C}^\textrm{op}}\!\l(X,Y\r)\coloneqq\Hom_\cat{C}\!\l(Y,X\r)$,
 * for all $X\in\Obj\l(\cat{C}^\textrm{op}\r)$, the $\cat{C}^\textrm{op}$-identity on $X$ is the $\cat{C}$-identity on $X$, and

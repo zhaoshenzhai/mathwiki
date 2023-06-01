@@ -16,11 +16,11 @@ Justifications: [[GCD exists implies unique up to a unit]], [[Basic properties o
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a integral domain and fix $a,b\in R\comp\l\{0\r\}$. An element $d\in R\comp\l\{0\r\}$ is said to be a **greatest common divisor (GCD) of $a$ and $b$** if
+Let $R$ be a integral domain and fix $a,b\in R\comp\l\{0\r\}$. An element $d\in R\comp\l\{0\r\}$ is said to be a <b>greatest common divisor (GCD) of $a$ and $b$</b> if
 * $d$ is a common divisor of $a$ and $b$; that is, if $d\divides a$ and $d\divides b$, and
 * for all common divisors $d'$ of $a$ and $b$, $d'\divides d$.
 
-The greatest common divisor of $a$ and $b$ is, up to a unit, unique; write $\gcd\l(a,b\r)\coloneqq d$ and let the **GCD ideal of $a$ and $b$** be $\sring{d}$.
+The greatest common divisor of $a$ and $b$ is, up to a unit, unique; write $\gcd\l(a,b\r)\coloneqq d$ and let the <b>GCD ideal of $a$ and $b$</b> be $\sring{d}$.
 
 ```
 

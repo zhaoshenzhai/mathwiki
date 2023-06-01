@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\mb{U}$ be a Grothendieck universe. A **$\mb{U}$-category** is a quadruple $\cat{C}\coloneqq\tpl{\mc{O},\Hom,\id,\operatorname{comp}}$ consisting of
+Let $\mb{U}$ be a Grothendieck universe. A <b>$\mb{U}$-category</b> is a quadruple $\cat{C}\coloneqq\tpl{\mc{O},\Hom,\id,\operatorname{comp}}$ consisting of
 * a $\mb{U}$-class $\Obj\l(\cat{C}\r)\coloneqq\mc{O}\subseteq\mb{U}$,
 * a function $\Hom$ assigning to each $\tpl{X,Y}\in\mc{O}^2$ a $\mb{U}$-class $\Hom\l(X,Y\r)\subseteq\mb{U}$,
 * a function $\id$ assigning to each $X\in\mc{O}$ an element $\id_X\coloneqq\id\l(X\r)\in\Hom\l(X,Y\r)$, and

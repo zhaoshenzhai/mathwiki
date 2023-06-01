@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A group $G$ is said to be **simple** if it has no non-trivial normal subgroups.
+A group $G$ is said to be <b>simple</b> if it has no non-trivial normal subgroups.
 
 ```

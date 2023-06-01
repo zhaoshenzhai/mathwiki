@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A metric space $\tpl{X,d}$ is said to be **compact** if every open cover has a finite subcover; that is, if $\mc{U}$ is a collection of open sets of $X$ such that $X\subseteq\bigcup\mc{U}$, then there exists some finite $\mc{U}'\subseteq\mc{U}$ such that $X\subseteq\mc{U}'$.
+A metric space $\tpl{X,d}$ is said to be <b>compact</b> if every open cover has a finite subcover; that is, if $\mc{U}$ is a collection of open sets of $X$ such that $X\subseteq\bigcup\mc{U}$, then there exists some finite $\mc{U}'\subseteq\mc{U}$ such that $X\subseteq\mc{U}'$.
 
 ```
 

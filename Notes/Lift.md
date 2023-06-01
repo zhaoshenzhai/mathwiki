@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $Y\overset{f}{\rightarrow}X\overset{p}{\leftarrow}E$ be continuous maps between topological spaces. A map $\widetilde{f}:Y\to E$ is said to be a **lifting of $f$ w.r.t. $p$** if $p\circ\widetilde{f}=f$.
+Let $Y\overset{f}{\rightarrow}X\overset{p}{\leftarrow}E$ be continuous maps between topological spaces. A map $\widetilde{f}:Y\to E$ is said to be a <b>lifting of $f$ w.r.t. $p$</b> if $p\circ\widetilde{f}=f$.
 ![[Images/2023-05-18_190903/image.svg|95]]
 
 ```

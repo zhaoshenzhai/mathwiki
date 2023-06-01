@@ -17,12 +17,12 @@ Justifications: [[Function space constructed from a Cartesian product]]
 title: Definition.
 
 Let $X$ be a set and consider an indexed family $\l\{x_i\r\}_{i\in I}\subseteq X$.
-* If $I=\Z$ (or some infinite subset thereof), then $\l\{x_i\r\}_{i\in I}$ is said to be an **infinite sequence in $X$** and is denoted by either $\tpl{x_i}_{i\in I}$ or $\tpl{x_1,x_2,\dots}$.
-* If $I=\l\{1,\dots,n\r\}$ for some $n\in\N$, then $\l\{x_i\r\}_{i\in I}$ is said to be an **$n$-tuple in $X$** (or a **finite sequence in $X$**) and is denoted by $\tpl{x_1,\dots,x_n}$.
+* If $I=\Z$ (or some infinite subset thereof), then $\l\{x_i\r\}_{i\in I}$ is said to be an <b>infinite sequence in $X$</b> and is denoted by either $\tpl{x_i}_{i\in I}$ or $\tpl{x_1,x_2,\dots}$.
+* If $I=\l\{1,\dots,n\r\}$ for some $n\in\N$, then $\l\{x_i\r\}_{i\in I}$ is said to be an <b>$n$-tuple in $X$</b> (or a <b>finite sequence in $X$</b>) and is denoted by $\tpl{x_1,\dots,x_n}$.
 
 More generally, let $\l\{X_j\r\}_{j\in J}$ be an indexed family of sets and consider an indexed family $\l\{x_j\r\}_{j\in J}$ where $x_j\in X_j$ for all $j\in J$.
-* If $J=\N$, then $\l\{x_j\r\}_{j\in J}$ is said to be an **infinite sequence through $\l\{X_j\r\}_{j\in J}$**.
-* If $J=\l\{1,\dots,n\r\}$ for some $n\in\N$, then $\l\{x_j\r\}_{j\in J}$ is said to be an **$n$-tuple through $\l\{X_j\r\}_{j\in J}$**.
+* If $J=\N$, then $\l\{x_j\r\}_{j\in J}$ is said to be an <b>infinite sequence through $\l\{X_j\r\}_{j\in J}$</b>.
+* If $J=\l\{1,\dots,n\r\}$ for some $n\in\N$, then $\l\{x_j\r\}_{j\in J}$ is said to be an <b>$n$-tuple through $\l\{X_j\r\}_{j\in J}$</b>.
 
 ```
 

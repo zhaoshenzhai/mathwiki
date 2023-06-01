@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,\mc{T}}$ be a topological space. The **set of closed sets of $X$ w.r.t. $\mc{T}$** is the set
+Let $\tpl{X,\mc{T}}$ be a topological space. The <b>set of closed sets of $X$ w.r.t. $\mc{T}$</b> is the set
 $$\begin{equation}
     \mc{F}\coloneqq\l\{C\in\pow\l(X\r)\mid X\comp C\in\mc{T}\r\}.
 \end{equation}$$

@@ -16,7 +16,7 @@ Justifications: [[Axiom Schema of Specification]], [[Axiom of Extensionality]]
 ``` ad-Definition
 title: Definition.
 
-Let $\mc{A}$ be a non-empty set. The **intersection of $\mc{A}$** is the set
+Let $\mc{A}$ be a non-empty set. The <b>intersection of $\mc{A}$</b> is the set
 $$\begin{equation}
     \bigcap\mc{A}\coloneqq\l\{a\mid\fa A\in\mc{A}:a\in A\r\}.
 \end{equation}$$

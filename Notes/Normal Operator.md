@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A linear operator $T:V\to V$ on an inner product space $V$ is said to be **normal** if $T^\adj T=TT^\adj$.
+A linear operator $T:V\to V$ on an inner product space $V$ is said to be <b>normal</b> if $T^\adj T=TT^\adj$.
 
 ```

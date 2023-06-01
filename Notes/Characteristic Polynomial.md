@@ -16,7 +16,7 @@ Justifications: [[Characteristic polynomial is a polynomial]]
 ``` ad-Definition
 title: Definition.
 
-Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$. The **characteristic polynomial of $T$** is the polynomial $\cchi_T\in K\l[x\r]$ given by $\cchi_T\!\l(x\r)\coloneqq\det\l(x\id_V-T\r)$.
+Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$. The <b>characteristic polynomial of $T$</b> is the polynomial $\cchi_T\in K\l[x\r]$ given by $\cchi_T\!\l(x\r)\coloneqq\det\l(x\id_V-T\r)$.
 
 ```
 

@@ -16,11 +16,11 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. A **topology on $X$** is a family $\mc{T}\subseteq\pow\l(X\r)$ such that
+Let $X$ be a set. A <b>topology on $X$</b> is a family $\mc{T}\subseteq\pow\l(X\r)$ such that
 * $\em,X\in\mc{T}$.
 * Arbitrary unions of elements in $\mc{T}$ are in $\mc{T}$.
 * Finite intersections of elements in $\mc{T}$ are in $\mc{T}$.
 
-The set $X$, equipped with a topology $\mc{T}$ on $X$, is called a **topological space**.
+The set $X$, equipped with a topology $\mc{T}$ on $X$, is called a <b>topological space</b>.
 
 ```

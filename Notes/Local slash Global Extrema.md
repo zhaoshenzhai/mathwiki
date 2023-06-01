@@ -20,12 +20,12 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a metric space and let $f:X\to\R$. A point $p\in X$ is said to be a **local maximum** (resp. **local minimum**) **of $f$** if
+Let $X$ be a metric space and let $f:X\to\R$. A point $p\in X$ is said to be a <b>local maximum</b> (resp. <b>local minimum</b>) <b>of $f$</b> if
 $$\begin{equation}
     \ex\delta>0,\fa x\in B_\delta\!\l(p\r)\cap X:f\l(x\r)\leq f\l(p\r)\ \ \ \ \ \ \ \ \textrm{\it{(resp.} } f\l(x\r)\geq f\l(p\r)\textrm{\it{)}}.
 \end{equation}$$
-If the statement holds for all $x\in X$, then $p$ is said to be a **global maximum** (resp. **global minimum**) **of $f$**.
+If the statement holds for all $x\in X$, then $p$ is said to be a <b>global maximum</b> (resp. <b>global minimum</b>) <b>of $f$</b>.
 
 ```
 
-<b>Remark.</b> If $f$ has either a minimum or maximum and $p$, then $p$ is said to be an **extremum of $f$**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $f$ has either a minimum or maximum and $p$, then $p$ is said to be an <b>extremum of $f$</b>.<span style="float:right;">$\blacklozenge$</span>

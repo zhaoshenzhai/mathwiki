@@ -20,7 +20,7 @@ Justifications: [[Hausdorff implies limits are unique]]
 ``` ad-Definition
 title: Definition.
 
-Fix $x\in\R$. A sequence $\tpl{x_n}_{n\in\N}$ in $\R$ is said to **converge to $x$**, and $x$ is said to be the **limit of $\tpl{x_n}$**, if
+Fix $x\in\R$. A sequence $\tpl{x_n}_{n\in\N}$ in $\R$ is said to <b>converge to $x$</b>, and $x$ is said to be the <b>limit of $\tpl{x_n}$</b>, if
 $$\begin{equation}
     \fa\epsilon>0,\fa^\infty n\in\N:\l|x_n-x\r|<\epsilon,
 \end{equation}$$

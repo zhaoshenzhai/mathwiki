@@ -16,7 +16,7 @@ Justifications: [[Diagonalization Test]]
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be a vector space. A **projection on $V$** is a linear operator $P:V\to V$ such that $P^2=P$.
+Let $V$ be a vector space. A <b>projection on $V$</b> is a linear operator $P:V\to V$ such that $P^2=P$.
 
 ```
 

@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $f:X\to Y$ and fix $T\subseteq Y$. The **preimage of $T$ under $f$** is the set
+Let $f:X\to Y$ and fix $T\subseteq Y$. The <b>preimage of $T$ under $f$</b> is the set
 $$\begin{equation}
     \preim_f\l(T\r)\coloneqq\l\{x\in X\mid f\l(x\r)\in T\r\}.
 \end{equation}$$

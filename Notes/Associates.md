@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a commutative ring and fix $a,b\in R\comp\l\{0\r\}$. Then **$a$ and $b$ are associate** if $a\divides b$ and $b\divides a$, in which case we write $a\sim b$.
+Let $R$ be a commutative ring and fix $a,b\in R\comp\l\{0\r\}$. Then <b>$a$ and $b$ are associate</b> if $a\divides b$ and $b\divides a$, in which case we write $a\sim b$.
 
 ```

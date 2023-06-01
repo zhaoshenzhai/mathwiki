@@ -16,11 +16,11 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $K$ denote either $\R$ or $\C$ and let $V$ be a vector space over $K$. A **norm on $V$** is a function $\|\slot\|:V\to\R$ such that
+Let $K$ denote either $\R$ or $\C$ and let $V$ be a vector space over $K$. A <b>norm on $V$</b> is a function $\|\slot\|:V\to\R$ such that
 * (Positive-definiteness): $\fa v\in V:\|v\|\geq0$; equality holds iff $v=0$.
 * (Triangle inequality): $\fa v,w\in V:\|v+w\|\leq\|v\|+\|w\|$.
 * (Absolute homogeneity): $\fa v\in V,\fa\alpha\in K:\|\alpha v\|=\l|\alpha\r|\|v\|$.
 
-A vector space $V$, equipped with a norm $\|\slot\|:V\to\R$, is said to be a **normed vector space over $K$**.
+A vector space $V$, equipped with a norm $\|\slot\|:V\to\R$, is said to be a <b>normed vector space over $K$</b>.
 
 ```

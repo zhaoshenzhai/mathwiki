@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set and $\leq$ be a total order on $X$. The pair $\tpl{X,\leq}$ is called a **totally ordered set** or an **ordered set**.
+Let $X$ be a set and $\leq$ be a total order on $X$. The pair $\tpl{X,\leq}$ is called a <b>totally ordered set</b> or an <b>ordered set</b>.
 
 ```
 

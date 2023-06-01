@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. A binary relation $R$ is **well-founded on $X$** if there exists an $R$-minimal element in each non-empty subset of $X$. Formally,
+Let $X$ be a set. A binary relation $R$ is <b>well-founded on $X$</b> if there exists an $R$-minimal element in each non-empty subset of $X$. Formally,
 $$\begin{equation}
     R\textrm{\it{ is well-founded on }}X\ \ \ \ \Leftrightarrow\ \ \ \ \fa S\subseteq X:\l[S\neq\em\Rightarrow\l(\ex m\in S,\fa s\in S:\lnot sRm\r)\r].
 \end{equation}$$

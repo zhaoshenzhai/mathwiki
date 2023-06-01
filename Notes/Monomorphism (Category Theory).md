@@ -16,11 +16,11 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{C}$ be a category and fix $X,Y\in\Obj\l(\cat{C}\r)$. A morphism $f:X\to Y$ is a **monomorphism** if for all $Z\in\Obj\l(\cat{C}\r)$ and morphisms $\alpha_1,\alpha_2:Z\to X$,
+Let $\cat{C}$ be a category and fix $X,Y\in\Obj\l(\cat{C}\r)$. A morphism $f:X\to Y$ is a <b>monomorphism</b> if for all $Z\in\Obj\l(\cat{C}\r)$ and morphisms $\alpha_1,\alpha_2:Z\to X$,
 $$\begin{equation}
     f\circ\alpha_1=f\circ\alpha_2\ \ \ \ \Rightarrow\ \ \ \ \alpha_1=\alpha_2.
 \end{equation}$$
 
 ```
 
-<b>Remark.</b> Monomorphisms are also referred to as **monic** or **left-cancellative** morphisms.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Monomorphisms are also referred to as <b>monic</b> or <b>left-cancellative</b> morphisms.<span style="float:right;">$\blacklozenge$</span>

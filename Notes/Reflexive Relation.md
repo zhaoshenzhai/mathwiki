@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. A binary relation $R$ is **reflexive on $X$** if
+Let $X$ be a set. A binary relation $R$ is <b>reflexive on $X$</b> if
 $$\begin{equation}
     \fa x\in X:xRx.
 \end{equation}$$

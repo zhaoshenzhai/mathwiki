@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A ring $\tpl{R,+,\cdot}$ is said to be a **ring with unit** if it has a (nonzero) multiplicative identity; that is, if
+A ring $\tpl{R,+,\cdot}$ is said to be a <b>ring with unit</b> if it has a (nonzero) multiplicative identity; that is, if
 $$\begin{equation}
     \ex1\in R\comp\l\{0\r\},\fa r\in R:1\cdot r=r=r\cdot1.
 \end{equation}$$

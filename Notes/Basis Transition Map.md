@@ -16,7 +16,7 @@ Justifications: [[Coordinate representation of vector spaces]], [[Isomorphism of
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be a finite dimensional vector space over some field $K$, say with $n\coloneqq\dim V$, and let $\mc{B}$ and $\mc{B}'$ be bases thereof. The **basis transition map from $\mc{B}$ to $\mc{B}'$** is the unique linear isomorphism $\psi:K^n\to K^n$ such that the diagram
+Let $V$ be a finite dimensional vector space over some field $K$, say with $n\coloneqq\dim V$, and let $\mc{B}$ and $\mc{B}'$ be bases thereof. The <b>basis transition map from $\mc{B}$ to $\mc{B}'$</b> is the unique linear isomorphism $\psi:K^n\to K^n$ such that the diagram
 
 ![[Images/2022-06-01_153315/image.svg|145]]
 

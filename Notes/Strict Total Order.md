@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. A binary relation $<$ on $X$ is a **strict total order on $X$** if $<$ is connected and is a strict partial order on $X$.
+Let $X$ be a set. A binary relation $<$ on $X$ is a <b>strict total order on $X$</b> if $<$ is connected and is a strict partial order on $X$.
 
 ```

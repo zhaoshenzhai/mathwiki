@@ -20,7 +20,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,\mc{T}}$ be an ordered topological space. A sequence $\tpl{x_n}_{n\in\N}$ in $X$ is said to **converge to $\pm\infty$ w.r.t. $\mc{T}$** if
+Let $\tpl{X,\mc{T}}$ be an ordered topological space. A sequence $\tpl{x_n}_{n\in\N}$ in $X$ is said to <b>converge to $\pm\infty$ w.r.t. $\mc{T}$</b> if
 $$\begin{equation}
     \fa a\in X,\fa^\infty n\in\N:x_n\in\l(a,+\infty\r)\ \ \ \ \ \ \ \ \textrm{\it{(resp. }}\fa b\in X,\fa^\infty n\in\N:x_n\in\l(-\infty,b\r)\textrm{\it),}
 \end{equation}$$

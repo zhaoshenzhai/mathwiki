@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A commutative ring with unit $\tpl{R,+,\cdot,0}$ is said to be an **integral domain** if
+A commutative ring with unit $\tpl{R,+,\cdot,0}$ is said to be an <b>integral domain</b> if
 $$\begin{equation}
     \fa r,s\in R:\l[rs=0\Rightarrow\l(r=0\lor s=0\r)\r].
 \end{equation}$$

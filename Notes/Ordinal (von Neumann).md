@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A set $\alpha$ is a **(von Neumann) ordinal** if $\alpha$ is a transitive set and $\alpha$ is well-ordered by $\in$.
+A set $\alpha$ is a <b>(von Neumann) ordinal</b> if $\alpha$ is a transitive set and $\alpha$ is well-ordered by $\in$.
 
 ```

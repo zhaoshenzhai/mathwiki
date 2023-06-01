@@ -16,7 +16,7 @@ Justifications: [[Coslice category is a category]]
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{C}$ be a category and fix $C\in\Obj\l(\cat{C}\r)$. The **coslice category of $\cat{C}$ under $C$** is the category $\l(C\downarrow\cat{C}\r)$ defined by the following data:
+Let $\cat{C}$ be a category and fix $C\in\Obj\l(\cat{C}\r)$. The <b>coslice category of $\cat{C}$ under $C$</b> is the category $\l(C\downarrow\cat{C}\r)$ defined by the following data:
 * The objects are pairs $\tpl{X,f}$ where $X\in\Obj\l(\cat{C}\r)$ and $f$ is a $\cat{C}$-morphisms with $\dom f=C$; that is,
 $$\begin{equation}
     \Obj\l(C\downarrow\cat{C}\r)\coloneqq\l\{f\in\Hom_\cat{C}\!\l(C,X\r)\mid X\in\Obj\l(\cat{C}\r)\r\}.

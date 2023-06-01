@@ -16,7 +16,7 @@ Justifications: [[Continuous iff preimages of open sets are open]], [[Continuous
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces and fix $\Omega\subseteq X$. A function $f:\Omega\to Y$ is said to be **continuous on $\Omega$ w.r.t. $d_X$ and $d_Y$** if
+Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces and fix $\Omega\subseteq X$. A function $f:\Omega\to Y$ is said to be <b>continuous on $\Omega$ w.r.t. $d_X$ and $d_Y$</b> if
 $$\begin{equation}
     \fa p\in\Omega,\fa\epsilon>0,\ex\delta>0,\fa q\in\Omega:d_X\!\l(p,q\r)<\delta\Rightarrow d_Y\!\l(f\l(p\r),f\l(q\r)\r)<\epsilon.
 \end{equation}$$

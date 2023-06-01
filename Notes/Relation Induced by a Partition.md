@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set and let $\Pi$ be a partition on $X$. The **relation induced by $\Pi$** is the relation $R_\Pi$ defined by
+Let $X$ be a set and let $\Pi$ be a partition on $X$. The <b>relation induced by $\Pi$</b> is the relation $R_\Pi$ defined by
 $$\begin{equation}
     xR_\Pi y\ \ \ \ \Leftrightarrow\ \ \ \ \ex P\in\Pi:x\in P\land y\in P
 \end{equation}$$

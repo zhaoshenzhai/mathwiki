@@ -16,11 +16,11 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\l\{U_i\r\}_{i\in I}$ be an indexed family of distinct linear subspaces of a vector space $V$ over some field $K$ such that $V=\sum_{i\in I}U_i$. Then $V$ is said to be the **(internal) direct sum of $\l\{U_i\r\}_{i\in I}$**, denoted by
+Let $\l\{U_i\r\}_{i\in I}$ be an indexed family of distinct linear subspaces of a vector space $V$ over some field $K$ such that $V=\sum_{i\in I}U_i$. Then $V$ is said to be the <b>(internal) direct sum of $\l\{U_i\r\}_{i\in I}$</b>, denoted by
 $$\begin{equation}
     \bigoplus_{i\in I}U_i\coloneqq\sum_{i\in I}U_i=V,
 \end{equation}$$
-and each $U_i$ is said to be a **direct summand of $V$**, if the family $\l\{U_i\r\}_{i\in I}$ is independent; that is, if
+and each $U_i$ is said to be a <b>direct summand of $V$</b>, if the family $\l\{U_i\r\}_{i\in I}$ is independent; that is, if
 $$\begin{equation}
     \fa i\in I:U_i\cap\sum_{j\neq i}U_j=\l\{0\r\}.
 \end{equation}$$

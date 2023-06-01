@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{V,\|\slot\|_V}$ and $\tpl{V,\|\slot\|_W}$ be normed vector spaces. A linear map $T:V\to W$ is said to be **bounded** if there exists some $C\in\R^+$ such that
+Let $\tpl{V,\|\slot\|_V}$ and $\tpl{V,\|\slot\|_W}$ be normed vector spaces. A linear map $T:V\to W$ is said to be <b>bounded</b> if there exists some $C\in\R^+$ such that
 $$\begin{equation}
     \sup\limits_{v\neq0}\frac{\|Tv\|_W}{\|v\|_V}\leq C,
 \end{equation}$$

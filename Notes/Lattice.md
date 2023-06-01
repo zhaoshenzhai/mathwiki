@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A poset $\tpl{X,\leq}$ is called a **lattice** if it is both a join and a meet semilattice.
+A poset $\tpl{X,\leq}$ is called a <b>lattice</b> if it is both a join and a meet semilattice.
 
 ```

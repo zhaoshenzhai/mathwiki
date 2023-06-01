@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be a finite dimensional $K$-vector space and consider a linear operator $T:V\to V$. A scalar $\lambda\in K$ is called an **eigenvalue of $T$** if there exists some nonzero $v\in V$ such that $T\l(v\r)=\lambda v$.
+Let $V$ be a finite dimensional $K$-vector space and consider a linear operator $T:V\to V$. A scalar $\lambda\in K$ is called an <b>eigenvalue of $T$</b> if there exists some nonzero $v\in V$ such that $T\l(v\r)=\lambda v$.
 
 ```
 

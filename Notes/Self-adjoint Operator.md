@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A linear operator $T:V\to V$ on an inner product space $V$ is said to be **self-adjoint** if $T=T^\adj$.
+A linear operator $T:V\to V$ on an inner product space $V$ is said to be <b>self-adjoint</b> if $T=T^\adj$.
 
 ```
 

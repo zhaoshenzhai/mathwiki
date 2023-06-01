@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be a $K$-vector space and fix a subset $U\subseteq V$. Then $U$ is a **($K$-linear) subspace of $V$** if $U$ is a vector space under the induced operations.
+Let $V$ be a $K$-vector space and fix a subset $U\subseteq V$. Then $U$ is a <b>($K$-linear) subspace of $V$</b> if $U$ is a vector space under the induced operations.
 
 ```
 

@@ -20,9 +20,9 @@ Justifications: [[Characterizations of closure]], [[Sequential characterization 
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. A point $p\in X$ is said to be a **cluster point of $S$** if $p\in\bar{S\comp\l\{p\r\}}$.
+Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. A point $p\in X$ is said to be a <b>cluster point of $S$</b> if $p\in\bar{S\comp\l\{p\r\}}$.
 
 ```
 
-<b>Remark.</b> Cluster points of $S$ are also called **limit points** or **accumulation points** of $S$. Equivalently, $p\in X$ is a cluster point of $S$ iff every neighborhood of $p$ intersects $S$ at some point $q\neq p$.
+<b>Remark.</b> Cluster points of $S$ are also called <b>limit points</b> or <b>accumulation points</b> of $S$. Equivalently, $p\in X$ is a cluster point of $S$ iff every neighborhood of $p$ intersects $S$ at some point $q\neq p$.
 * If $X$ is a metric space, then $p\in X$ is a cluster point of $S$ iff there exists a non-constant sequence $\tpl{p_n}$ in $S$ such that $p_n\to p$.<span style="float:right;">$\blacklozenge$</span>

@@ -20,7 +20,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Fix $n\in\N^+$. The **multiplicative group of integers modulo $n$** is the group of units of the ring $\tpl{\Z_n,+,\cdot}$, denoted $\Z_n^\times$.
+Fix $n\in\N^+$. The <b>multiplicative group of integers modulo $n$</b> is the group of units of the ring $\tpl{\Z_n,+,\cdot}$, denoted $\Z_n^\times$.
 
 ```
 

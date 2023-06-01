@@ -20,7 +20,7 @@ Justifications: [[Upper-limit topology is a topology on R]]
 ``` ad-Definition
 title: Definition.
 
-Let $\R$ be the set of real numbers. The **upper-limit topology on $\R$** is the topology $\ULtopR\coloneqq\mc{T}\l(\mc{B}_\textrm{UL}\r)$ where
+Let $\R$ be the set of real numbers. The <b>upper-limit topology on $\R$</b> is the topology $\ULtopR\coloneqq\mc{T}\l(\mc{B}_\textrm{UL}\r)$ where
 $$\begin{equation}
     \mc{B}_\textrm{UL}\coloneqq\l\{B\in\pow\l(\R\r)\mid \ex a,b\in\R:a<b\land B=\l(a,b\r]\r\}.
 \end{equation}$$

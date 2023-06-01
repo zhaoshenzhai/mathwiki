@@ -16,7 +16,7 @@ Justifications: [[Basic properties of cosets]]
 ``` ad-Definition
 title: Definition.
 
-Let $G$ be a group acting on a set $X$ via $\phi:G\to\Aut\l(X\r)$. The action $\phi$ is said to be **faithful** if $\ker\phi=\l\{e\r\}$.
+Let $G$ be a group acting on a set $X$ via $\phi:G\to\Aut\l(X\r)$. The action $\phi$ is said to be <b>faithful</b> if $\ker\phi=\l\{e\r\}$.
 
 ```
 

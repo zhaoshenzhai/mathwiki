@@ -16,7 +16,7 @@ Justifications: [[Least common multiple exists]]
 ``` ad-Definition
 title: Definition.
 
-Let $a,b\in\Z\comp\l\{0\r\}$. An element $m\in\Z\comp\l\{0\r\}$ is said to be a **least common multiple of $a$ and $b$** if
+Let $a,b\in\Z\comp\l\{0\r\}$. An element $m\in\Z\comp\l\{0\r\}$ is said to be a <b>least common multiple of $a$ and $b$</b> if
 * $m$ is a common multiple of $a$ and $b$; that is, if $a\divides m$ and $b\divides m$, and
 * for all common multiples $m'$ of $a$ and $b$, $m\divides m'$.
 

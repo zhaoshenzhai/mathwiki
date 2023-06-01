@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A topological space $\tpl{X,\mc{T}}$ is said to be **countably compact** if every countable open cover has a finite subcover; that is, if for all countable $\mc{O}\subseteq\mc{T}$ such that $X=\bigcup\mc{O}$, then there exists some finite $\mc{O}'\subseteq\mc{O}$ such that $X=\bigcup\mc{O}'$.
+A topological space $\tpl{X,\mc{T}}$ is said to be <b>countably compact</b> if every countable open cover has a finite subcover; that is, if for all countable $\mc{O}\subseteq\mc{T}$ such that $X=\bigcup\mc{O}$, then there exists some finite $\mc{O}'\subseteq\mc{O}$ such that $X=\bigcup\mc{O}'$.
 
 ```

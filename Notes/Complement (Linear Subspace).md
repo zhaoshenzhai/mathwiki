@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be a $K$-vector space and consider a linear subspace $U\subseteq V$. A **complement of $U$ in $V$** is a linear subspace $W\subseteq V$ such that $V=U\oplus W$.
+Let $V$ be a $K$-vector space and consider a linear subspace $U\subseteq V$. A <b>complement of $U$ in $V$</b> is a linear subspace $W\subseteq V$ such that $V=U\oplus W$.
 
 ```

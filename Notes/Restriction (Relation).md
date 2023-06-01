@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a binary relation and let $S$ be a set. The **restriction of $R$ to $S$** is the binary relation
+Let $R$ be a binary relation and let $S$ be a set. The <b>restriction of $R$ to $S$</b> is the binary relation
 $$\begin{equation}
     R\rest S\coloneqq\l\{u\in R\mid\ex x,y:u=\tpl{x,y}\land x\in S\r\}.
 \end{equation}$$

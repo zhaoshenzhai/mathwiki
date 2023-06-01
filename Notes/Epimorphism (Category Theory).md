@@ -16,11 +16,11 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{C}$ be a category and fix $X,Y\in\Obj\l(\cat{C}\r)$. A morphism $f:X\to Y$ is an **epimorphism** if for all $Z\in\Obj\l(\cat{C}\r)$ and morphisms $\alpha_1,\alpha_2:Y\to Z$,
+Let $\cat{C}$ be a category and fix $X,Y\in\Obj\l(\cat{C}\r)$. A morphism $f:X\to Y$ is an <b>epimorphism</b> if for all $Z\in\Obj\l(\cat{C}\r)$ and morphisms $\alpha_1,\alpha_2:Y\to Z$,
 $$\begin{equation}
     \alpha_1\circ f=\alpha_2\circ f\ \ \ \ \Rightarrow\ \ \ \ \alpha_1=\alpha_2.
 \end{equation}$$
 
 ```
 
-<b>Remark.</b> Epimorphisms are also referred to as **epic** or **right-cancellative** morphisms.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Epimorphisms are also referred to as <b>epic</b> or <b>right-cancellative</b> morphisms.<span style="float:right;">$\blacklozenge$</span>

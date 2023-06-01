@@ -20,6 +20,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. A point $p\in X$ is said to be a **condensation point** or an **$\aleph_1$-accumulation point of $S$** if every neighborhood of $x$ contains uncountably-many points in $S$.
+Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. A point $p\in X$ is said to be a <b>condensation point</b> or an <b>$\aleph_1$-accumulation point of $S$</b> if every neighborhood of $x$ contains uncountably-many points in $S$.
 
 ```

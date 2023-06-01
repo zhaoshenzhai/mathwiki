@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $H_1,\dots,H_n$ be subgroups of a group $G$. Then $G$ is said to be an **(internal) direct product of $H_1,\dots,H_n$** if
+Let $H_1,\dots,H_n$ be subgroups of a group $G$. Then $G$ is said to be an <b>(internal) direct product of $H_1,\dots,H_n$</b> if
 * (Generating): $G=H_1\cdots H_n\coloneqq\l\{H_1\cdots H_n\in G\mid h_i\in H_i\r\}$.
 * (Trivial intersection): $H_j\cap\l(H_1\cdots H_n\r)=\l\{e\r\}$ for all $j$.
 * (Normality): $H_i\nsubgrpeq G$ for all $i$.

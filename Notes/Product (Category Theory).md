@@ -16,9 +16,9 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{C}$ be a category and consider an indexed family $\l\{X_i\r\}_{i\in I}$ of objects in $\cat{C}$. A **(categorical) product of $\l\{X_i\r\}$** is a pair $\tpl{X,\l\{\pi_i\r\}}$ consisting of
+Let $\cat{C}$ be a category and consider an indexed family $\l\{X_i\r\}_{i\in I}$ of objects in $\cat{C}$. A <b>(categorical) product of $\l\{X_i\r\}$</b> is a pair $\tpl{X,\l\{\pi_i\r\}}$ consisting of
 * an object $X$, denoted by $\prod_{i\in I}X_i$, and
-* a family of morphisms $\pi_i:X\to X_i$, called **canonical projections**,
+* a family of morphisms $\pi_i:X\to X_i$, called <b>canonical projections</b>,
 
 such that for every object $Y\in\Obj\l(\cat{C}\r)$ and family of morphisms $\l\{\tau_i:Y\to X_i\r\}$, there exists a unique morphism $\phi:Y\to X$ making each diagram
 

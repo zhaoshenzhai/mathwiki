@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{C}$ and $\cat{D}$ be categories. A **(covariant) functor $\ms{F}$ from $\cat{C}$ to $\cat{D}$** is an assignment that maps each $X\in\Obj\l(\cat{C}\r)$ to some $\ms{F}^{\Obj}\l(X\r)\in\Obj\l(\cat{D}\r)$ and each $f:X\to Y$ to some $\ms{F}^{\Hom}\l(f\r):\ms{F}^{\Obj}\l(X\r)\to\ms{F}^{\Obj}\l(Y\r)$, satisfying:
+Let $\cat{C}$ and $\cat{D}$ be categories. A <b>(covariant) functor $\ms{F}$ from $\cat{C}$ to $\cat{D}$</b> is an assignment that maps each $X\in\Obj\l(\cat{C}\r)$ to some $\ms{F}^{\Obj}\l(X\r)\in\Obj\l(\cat{D}\r)$ and each $f:X\to Y$ to some $\ms{F}^{\Hom}\l(f\r):\ms{F}^{\Obj}\l(X\r)\to\ms{F}^{\Obj}\l(Y\r)$, satisfying:
 * $\axifunctor[1]$ (Unitality)$\bf{.}$ For all $X\in\Obj\l(\cat{C}\r)$, $\ms{F}^{\Hom}\l(\id_X\r)=\id_{\ms{F}^{\Obj}\l(X\r)}$.
 
 * $\axifunctor[2]$ (Compositionality)$\bf{.}$ For all $X,Y,Z\in\Obj\l(\cat{C}\r)$, $f\in\Hom_\cat{C}\!\l(X,Y\r)$, and $g\in\Hom_\cat{C}\!\l(Y,Z\r)$, the following diagram commutes.

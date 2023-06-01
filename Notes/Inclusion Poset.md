@@ -16,6 +16,6 @@ Justifications: [[Set ordered by inclusion is a poset]]
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. The **inclusion poset of $X$** is the pair $\tpl{X,\subseteq}$.
+Let $X$ be a set. The <b>inclusion poset of $X$</b> is the pair $\tpl{X,\subseteq}$.
 
 ```

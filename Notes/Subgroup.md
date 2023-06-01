@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $G$ be a group and fix a subset $H\subseteq G$. Then $H$ is a **subgroup of $G$** if $H$ is a group under the induced operations, in which case we write $H\subgrpeq G$.
+Let $G$ be a group and fix a subset $H\subseteq G$. Then $H$ is a <b>subgroup of $G$</b> if $H$ is a group under the induced operations, in which case we write $H\subgrpeq G$.
 
 ```
 

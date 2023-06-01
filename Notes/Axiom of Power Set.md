@@ -13,14 +13,14 @@ Equivalences: <i>Not Applicable</i>
 ``` ad-Axiom
 title: Axiom.
 
-Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Power Set** is the $\mc{L}$-formula
+Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The <b>Axiom of Power Set</b> is the $\mc{L}$-formula
 $$\begin{equation}
     \fa A\ex P\fa S\l(S\in P\Leftrightarrow\fa s\in S:s\in A\r).
 \end{equation}$$
 
 ```
 
-<b>Remark.</b> By Extensionality, such a set $P$ is unique and can thus be called the **power set of $A$**.
+<b>Remark.</b> By Extensionality, such a set $P$ is unique and can thus be called the <b>power set of $A$</b>.
 
 ---
 

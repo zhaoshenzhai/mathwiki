@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. A binary relation $<$ on $X$ is a **strict partial order on $X$** if $<$ is transitive and irreflexive on $X$.
+Let $X$ be a set. A binary relation $<$ on $X$ is a <b>strict partial order on $X$</b> if $<$ is transitive and irreflexive on $X$.
 
 ```
 

@@ -16,7 +16,7 @@ Justifications: [[Hausdorff implies limits are unique]]
 ``` ad-Definition
 title: Definition.
 
-Let $X$ and $Y$ be metric spaces, fix a cluster point $p\in\Omega\subseteq X$, and let $L\in Y$. For a function $f:\Omega\to Y$, we say that **$f\to L$ as $x\to p$** or **$L$ is a limit of $f$**, and write $\lim\limits_{x\to p}f\l(x\r)=L$, if
+Let $X$ and $Y$ be metric spaces, fix a cluster point $p\in\Omega\subseteq X$, and let $L\in Y$. For a function $f:\Omega\to Y$, we say that <b>$f\to L$ as $x\to p$</b> or <b>$L$ is a limit of $f$</b>, and write $\lim\limits_{x\to p}f\l(x\r)=L$, if
 $$\begin{equation}
     \fa\epsilon>0,\ex\delta>0,\fa x\in\Omega:0<d_X\!\l(x,p\r)<\delta\Rightarrow d_Y\!\l(f\l(x\r),L\r)<\epsilon.
 \end{equation}$$

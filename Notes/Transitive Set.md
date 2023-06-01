@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A set $z$ is a **transitive set** if $\fa x,y\l(x\in y\land y\in z\Rightarrow x\in z\r)$.
+A set $z$ is a <b>transitive set</b> if $\fa x,y\l(x\in y\land y\in z\Rightarrow x\in z\r)$.
 
 ```

@@ -16,7 +16,7 @@ Justifications: [[Function space constructed from a Cartesian product]]
 ``` ad-Definition
 title: Definition.
 
-Let $\l\{V_i\r\}$ be a family of $K$-vector spaces. The **(external) direct product of $\l\{V_i\r\}$** is the direct product $\prod V_i$ of groups equipped with the component-wise defined left $K$-action.
+Let $\l\{V_i\r\}$ be a family of $K$-vector spaces. The <b>(external) direct product of $\l\{V_i\r\}$</b> is the direct product $\prod V_i$ of groups equipped with the component-wise defined left $K$-action.
 
 ```
 

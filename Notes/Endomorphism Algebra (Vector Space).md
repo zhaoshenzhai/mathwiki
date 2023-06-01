@@ -20,7 +20,7 @@ Justifications: [[Set of linear maps form a linear subspace of the function spac
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be a $K$-vector space. The **endomorphism algebra over $V$** is the unital associative algebra $\End\l(V\r)$ under composition.
+Let $V$ be a $K$-vector space. The <b>endomorphism algebra over $V$</b> is the unital associative algebra $\End\l(V\r)$ under composition.
 
 ```
 

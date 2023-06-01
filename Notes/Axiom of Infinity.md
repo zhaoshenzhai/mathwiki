@@ -13,7 +13,7 @@ Equivalences: <i>Not Applicable</i>
 ``` ad-Axiom
 title: Axiom.
 
-Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Infinity** is the $\mc{L}$-formula
+Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The <b>Axiom of Infinity</b> is the $\mc{L}$-formula
 $$\begin{equation}
     \ex I\l[\l[\ex e\l(\fa x\lnot\l(x\in e\r)\land e\in I\r)\r]\land\l[\fa y\in I:\l(\ex s\l(\fa x\l(x\in s\Leftrightarrow x\in y\lor x=y\r)\land s\in I\r)\r)\r]\r].
 \end{equation}$$

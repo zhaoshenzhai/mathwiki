@@ -16,7 +16,7 @@ Justifications: [[Covariant power set functor is a functor]]
 ``` ad-Definition
 title: Definition.
 
-Consider the category $\catset$. The **(covariant) power set functor on $\catset$** is the covariant functor $\ms{P}:\catset\to\catset$ sending each set $X$ to its power set $\pow\l(X\r)$ and each function $f:X\to Y$ to the direct image function $\im_f$. Formally, $\ms{P}\coloneqq\tpl{\ms{P}^{\Obj},\l\{\ms{P}^{\Hom}_{X,Y}\r\}_{X,Y\in\Obj\l(\catset\r)}}$ where
+Consider the category $\catset$. The <b>(covariant) power set functor on $\catset$</b> is the covariant functor $\ms{P}:\catset\to\catset$ sending each set $X$ to its power set $\pow\l(X\r)$ and each function $f:X\to Y$ to the direct image function $\im_f$. Formally, $\ms{P}\coloneqq\tpl{\ms{P}^{\Obj},\l\{\ms{P}^{\Hom}_{X,Y}\r\}_{X,Y\in\Obj\l(\catset\r)}}$ where
 $$\begin{equation}
     \begin{aligned}
         \ms{P}^{\Obj}:\Obj\l(\catset\r)&\to\Obj\l(\catset\r)\\

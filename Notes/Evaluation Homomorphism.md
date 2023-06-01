@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a commutative ring with unit and fix $r\in R$. The **evaluation polynomial at $r$** is the ring homomorphism
+Let $R$ be a commutative ring with unit and fix $r\in R$. The <b>evaluation polynomial at $r$</b> is the ring homomorphism
 $$\begin{equation}
     \eval_r\!:R\l[x\r]\to R\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ \sum_{i=0}^{n}a_nx^n\mapsto\sum_{i=0}^{n}a_nr^n.
 \end{equation}$$

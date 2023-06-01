@@ -16,8 +16,8 @@ Justifications: [[Unique Lifting Property]]
 ``` ad-Definition
 title: Definition.
 
-Let $p:\widetilde{X}\to X$ be covering of a topological space $X$. The **covering transformations of $p$** is the automorphism group $\Cov(\widetilde{X}/X)\coloneqq\Aut\,(\widetilde{X},p)$ in $\catcov$.
+Let $p:\widetilde{X}\to X$ be covering of a topological space $X$. The <b>covering transformations of $p$</b> is the automorphism group $\Cov(\widetilde{X}/X)\coloneqq\Aut\,(\widetilde{X},p)$ in $\catcov$.
 
 ```
 
-<b>Remark.</b>  By the Unique Lifting Property, we see that if $X$ is connected, then a covering transformation is determined by where it sends a single point. In other words, only the identity map fixes a point. Covering transformations are also called **deck transformations**. We sometimes write $\Cov\l(p\r)$ for $\Cov\,(\widetilde{X}/X)$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b>  By the Unique Lifting Property, we see that if $X$ is connected, then a covering transformation is determined by where it sends a single point. In other words, only the identity map fixes a point. Covering transformations are also called <b>deck transformations</b>. We sometimes write $\Cov\l(p\r)$ for $\Cov\,(\widetilde{X}/X)$.<span style="float:right;">$\blacklozenge$</span>

@@ -16,11 +16,11 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a ring. A subring $I\subseteq R$ is a **left ideal in $R$** if it is stable under left multiplication; that is, if
+Let $R$ be a ring. A subring $I\subseteq R$ is a <b>left ideal in $R$</b> if it is stable under left multiplication; that is, if
 $$\begin{equation}
     \fa r\in R:rI\subseteq I.
 \end{equation}$$
-Similarly for a **right ideal in $R$**. A two-sided ideal in $R$ is called an **ideal in $R$**.
+Similarly for a <b>right ideal in $R$</b>. A two-sided ideal in $R$ is called an <b>ideal in $R$</b>.
 
 ```
 

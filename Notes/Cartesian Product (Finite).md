@@ -16,7 +16,7 @@ Justifications: [[Cartesian product is a set]]
 ``` ad-Definition
 title: Definition.
 
-Let $X$ and $Y$ be sets. The **Cartesian product of $X$ and $Y$** is the set
+Let $X$ and $Y$ be sets. The <b>Cartesian product of $X$ and $Y$</b> is the set
 $$\begin{equation}
     X\times Y\coloneqq\l\{u\mid\ex x\in X,\ex y\in Y:u=\tpl{x,y}\r\}.
 \end{equation}$$

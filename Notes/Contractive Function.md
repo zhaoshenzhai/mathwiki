@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,d}$ be a metric space. A function $f:X\to X$ is called a **contraction** if there exists some $\alpha\in\l(0,1\r)$ such that $d\l(f\l(x\r),f\l(y\r)\r)\leq\alpha f\l(x,y\r)$ for all $x,y\in X$.
+Let $\tpl{X,d}$ be a metric space. A function $f:X\to X$ is called a <b>contraction</b> if there exists some $\alpha\in\l(0,1\r)$ such that $d\l(f\l(x\r),f\l(y\r)\r)\leq\alpha f\l(x,y\r)$ for all $x,y\in X$.
 
 ```
 

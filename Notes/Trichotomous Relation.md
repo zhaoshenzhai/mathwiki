@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. A binary relation $R$ is **trichotomous on $X$** if for all $x,y\in X$, exactly one of
+Let $X$ be a set. A binary relation $R$ is <b>trichotomous on $X$</b> if for all $x,y\in X$, exactly one of
 $$\begin{equation}
     xRy,\ \ \ \ yRx,\ \ \ \ \textrm{\it{or}}\ \ \ \ x=y
 \end{equation}$$

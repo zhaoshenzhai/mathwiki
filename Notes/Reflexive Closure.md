@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set and let $R$ be a binary relation on $X$. The **reflexive closure of $R$ w.r.t. $X$** is the binary relation
+Let $X$ be a set and let $R$ be a binary relation on $X$. The <b>reflexive closure of $R$ w.r.t. $X$</b> is the binary relation
 $$\begin{equation}
     \rfcl R\coloneqq R\cup\id_X.
 \end{equation}$$

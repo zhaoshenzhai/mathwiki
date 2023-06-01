@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $G$ be a group. A subgroup $N\subgrpeq G$ is said to be a **normal in $G$** if $gN=Ng$ for all $g\in G$, in which case we write $N\nsubgrpeq G$.
+Let $G$ be a group. A subgroup $N\subgrpeq G$ is said to be a <b>normal in $G$</b> if $gN=Ng$ for all $g\in G$, in which case we write $N\nsubgrpeq G$.
 
 ```
 

@@ -16,7 +16,7 @@ Justifications: [[Basic properties of groups]]
 ``` ad-Definition
 title: Definition.
 
-Let $H\subseteq G$ be a subgroup of a group $G$. Fix $g\in G$. The **left-coset** (resp. **right-coset**) **of $H$ in $G$ represented by $g$** is the set
+Let $H\subseteq G$ be a subgroup of a group $G$. Fix $g\in G$. The <b>left-coset</b> (resp. <b>right-coset</b>) <b>of $H$ in $G$ represented by $g$</b> is the set
 $$\begin{equation}
     gH\coloneqq\l\{x\in G\mid\ex h\in H:x=gh\r\}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textrm{\it{(resp.} }Hg\coloneqq\l\{x\in G\mid\ex h\in H:x=hg\r\}\textrm{).}
 \end{equation}$$

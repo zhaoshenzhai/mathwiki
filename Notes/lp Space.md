@@ -20,7 +20,7 @@ Justifications: [[lp norm is a norm]]
 ``` ad-Definition
 title: Definition.
 
-Fix $p\in\l[1,\infty\r]$ and let $\ell^p\subseteq\R^\N$ be the space of sequences for which $\sum_{n=1}^{\infty}\l|x_n\r|^p<\infty$ if $p<\infty$, and $\sup_n\l|x_n\r|<\infty$ if $p=\infty$. The **$\ell^p$ norm** is the norm $\|\slot\|_p:\ell^p\to\R$ defined by
+Fix $p\in\l[1,\infty\r]$ and let $\ell^p\subseteq\R^\N$ be the space of sequences for which $\sum_{n=1}^{\infty}\l|x_n\r|^p<\infty$ if $p<\infty$, and $\sup_n\l|x_n\r|<\infty$ if $p=\infty$. The <b>$\ell^p$ norm</b> is the norm $\|\slot\|_p:\ell^p\to\R$ defined by
 $$\begin{equation}
     \|\!\tpl{x_n}\|_p\coloneqq\l(\sum_{n=1}^{\infty}\l|x_n\r|^p\r)^{1/p}\ \ \ \ \textrm{\it{if}}\ \ \ \ p<\infty\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \|\!\tpl{x_n}\|_p\coloneqq\sup_{n=1}^\infty\l|x_n\r|\ \ \ \ \textrm{\it{else}}
 \end{equation}$$

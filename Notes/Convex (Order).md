@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,<}$ be a totally ordered set. A subset $Y\subseteq X$ is said to be **convex (in $X$)** if
+Let $\tpl{X,<}$ be a totally ordered set. A subset $Y\subseteq X$ is said to be <b>convex (in $X$)</b> if
 $$\begin{equation}
     \fa a,b\in Y:a<b\Rightarrow\l(a,b\r)_X\subseteq Y.
 \end{equation}$$

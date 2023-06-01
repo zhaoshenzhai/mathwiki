@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,d}$ be a metric space. A sequence $\tpl{x_n}$ in $X$ is said to be **Cauchy** if
+Let $\tpl{X,d}$ be a metric space. A sequence $\tpl{x_n}$ in $X$ is said to be <b>Cauchy</b> if
 $$\begin{equation}
     \fa\epsilon>0,\fa^\infty m,n\in\N:d\l(x_m,x_n\r)<\epsilon.
 \end{equation}$$

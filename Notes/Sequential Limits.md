@@ -20,7 +20,7 @@ Justifications: [[Hausdorff implies limits are unique]]
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,\mc{T}}$ be a topological space and fix $x\in X$. A sequence $\tpl{x_n}_{n\in\N}$ in $X$ is said to **converge to $x$ w.r.t. $\mc{T}$**, and $x$ is said to be a **limit of $\tpl{x_n}$ w.r.t. $\mc{T}$**, if
+Let $\tpl{X,\mc{T}}$ be a topological space and fix $x\in X$. A sequence $\tpl{x_n}_{n\in\N}$ in $X$ is said to <b>converge to $x$ w.r.t. $\mc{T}$</b>, and $x$ is said to be a <b>limit of $\tpl{x_n}$ w.r.t. $\mc{T}$</b>, if
 $$\begin{equation}
     \fa U\in\mc{U}_x,\fa^\infty n\in\N:x_n\in U,
 \end{equation}$$

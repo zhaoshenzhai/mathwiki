@@ -16,7 +16,7 @@ Justifications: [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be a $K$-vector space. The **dual space of $V$** is the vector space $V^\dual\coloneqq\Hom\l(V,K\r)$, whose elements $\omega:V\to K$ are said to be **linear forms**.
+Let $V$ be a $K$-vector space. The <b>dual space of $V$</b> is the vector space $V^\dual\coloneqq\Hom\l(V,K\r)$, whose elements $\omega:V\to K$ are said to be <b>linear forms</b>.
 
 ```
 

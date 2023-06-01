@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A topological space $\tpl{X,\mc{T}}$ is said to be **limit-point compact** if every infinite subset $S\subseteq X$ has a limit point in $X$.
+A topological space $\tpl{X,\mc{T}}$ is said to be <b>limit-point compact</b> if every infinite subset $S\subseteq X$ has a limit point in $X$.
 
 ```

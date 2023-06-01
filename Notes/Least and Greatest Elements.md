@@ -20,7 +20,7 @@ Justifications: [[Least slash Greatest elements are unique]]
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. The **least** (resp. **greatest**) **element of $S$** is an element $l\in S$ (resp. $g\in S$) such that
+Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. The <b>least</b> (resp. <b>greatest</b>) <b>element of $S$</b> is an element $l\in S$ (resp. $g\in S$) such that
 $$\begin{equation}
     \fa s\in S:l\leq s\ \ \ \ \ \ \ \ \textrm{\it{(resp. }}\fa s\in S:s\leq g\textrm{\it{)}}.
 \end{equation}$$

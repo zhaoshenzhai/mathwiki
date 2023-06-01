@@ -16,7 +16,7 @@ Justifications: [[Axiom of Union]], [[Axiom of Extensionality]]
 ``` ad-Definition
 title: Definition.
 
-Let $\mc{A}$ be a set. The **union of $\mc{A}$** is the set $\bigcup\mc{A}$ whose elements are exactly those that belong to some $A\in\mc{A}$. Formally, $\axiunion$ posits the existence of a set $\bigcup\mc{A}$ such that
+Let $\mc{A}$ be a set. The <b>union of $\mc{A}$</b> is the set $\bigcup\mc{A}$ whose elements are exactly those that belong to some $A\in\mc{A}$. Formally, $\axiunion$ posits the existence of a set $\bigcup\mc{A}$ such that
 $$\begin{equation}
     \fa a\l(a\in\bigcup\mc{A}\Leftrightarrow\ex A\in\mc{A}:a\in A\r).
 \end{equation}$$

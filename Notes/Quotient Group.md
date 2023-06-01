@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $N\nsubgrpeq G$ be a normal subgroup of a group $G$. Then the **quotient group of $G$ under $N$** is the group $\tpl{G/N,\ast}$ where
+Let $N\nsubgrpeq G$ be a normal subgroup of a group $G$. Then the <b>quotient group of $G$ under $N$</b> is the group $\tpl{G/N,\ast}$ where
 * $G/N\coloneqq G/\!\sim$ is the quotient set under the equivalence relation $\sim$ on $G$ defined by $g_1\sim g_2$ iff $g_1N=g_2N$ for all $g_1,g_2\in G$, and
 * $\ast$ is the binary relation defined by $g_1N\ast g_2N\coloneqq\l(g_1g_2\r)N$ for all $g_1,g_2\in G$.
 

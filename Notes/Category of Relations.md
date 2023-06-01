@@ -20,9 +20,9 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-The **category of relations** is the (locally-small) category $\catrel$ defined by the following data:
+The <b>category of relations</b> is the (locally-small) category $\catrel$ defined by the following data:
 * The objects are pairs $\tpl{X,\rho}$ where $X$ is a set and $\rho$ is a (binary) relation on $X$.
-* The morphisms are **relation-preserving maps**; that is, maps $f:X\to X'$ such that $\tpl{x_1,x_2}\in\rho$ implies $\tpl{f\l(x_1\r),f\l(x_2\r)}\in\rho'$ for all $x_1,x_2\in X$.
+* The morphisms are <b>relation-preserving maps</b>; that is, maps $f:X\to X'$ such that $\tpl{x_1,x_2}\in\rho$ implies $\tpl{f\l(x_1\r),f\l(x_2\r)}\in\rho'$ for all $x_1,x_2\in X$.
 
 ```
 

@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ and $Y$ be topological spaces. A continuous map $f:X\to Y$ is a **homeomorphism** if there exists a continuous map $g:Y\to X$ such that $g\circ f=\id_X$ and $f\circ g=\id_Y$.
-* If such a function exists, then $X$ and $Y$ are said to be **homeomorphic**, and we write $X\iso Y$.
+Let $X$ and $Y$ be topological spaces. A continuous map $f:X\to Y$ is a <b>homeomorphism</b> if there exists a continuous map $g:Y\to X$ such that $g\circ f=\id_X$ and $f\circ g=\id_Y$.
+* If such a function exists, then $X$ and $Y$ are said to be <b>homeomorphic</b>, and we write $X\iso Y$.
 
 ```

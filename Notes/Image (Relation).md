@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a binary relation and let $S$ be a set. The **image of $S$ under $R$** is the set
+Let $R$ be a binary relation and let $S$ be a set. The <b>image of $S$ under $R$</b> is the set
 $$\begin{equation}
     \im_R\l(S\r)\coloneqq R\l[S\r]\coloneqq\ran\l(R\rest S\r).
 \end{equation}$$

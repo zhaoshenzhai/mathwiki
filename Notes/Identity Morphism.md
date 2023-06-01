@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{C}$ be a category and fix $X\in\Obj\l(\cat{C}\r)$. The **identity morphism on $X$** is the morphism $\id_X:X\to X$.
+Let $\cat{C}$ be a category and fix $X\in\Obj\l(\cat{C}\r)$. The <b>identity morphism on $X$</b> is the morphism $\id_X:X\to X$.
 
 ```

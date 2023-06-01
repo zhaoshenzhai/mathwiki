@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,<}$ be a totally ordered set. The **(topological) order space on $X$ w.r.t. $<$** is the pair $\tpl{X,\mc{T}\l(<\r)}$ where $\mc{T}\l(<\r)$ is the order topology induced by $<$.
+Let $\tpl{X,<}$ be a totally ordered set. The <b>(topological) order space on $X$ w.r.t. $<$</b> is the pair $\tpl{X,\mc{T}\l(<\r)}$ where $\mc{T}\l(<\r)$ is the order topology induced by $<$.
 
 ```

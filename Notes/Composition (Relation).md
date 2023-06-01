@@ -16,7 +16,7 @@ Justifications: [[Composition of relations is a relation]]
 ``` ad-Definition
 title: Definition.
 
-Let $R$ and $S$ be binary relations. The **composition of $S$ after $R$** is the relation
+Let $R$ and $S$ be binary relations. The <b>composition of $S$ after $R$</b> is the relation
 $$\begin{equation}
     S\circ R\coloneqq\l\{\tpl{x,z}\mid\ex y\l(xRy\land ySz\r)\r\}.
 \end{equation}$$

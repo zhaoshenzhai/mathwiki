@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. A **subbasis for a topology on $X$** is a set $\mc{S}\subseteq\pow\l(X\r)$ such that $\mc{S}$ covers $X$. That is, if
+Let $X$ be a set. A <b>subbasis for a topology on $X$</b> is a set $\mc{S}\subseteq\pow\l(X\r)$ such that $\mc{S}$ covers $X$. That is, if
 $$\begin{equation}
     \fa x\in X:\ex S\in\mc{S}:x\in S.
 \end{equation}$$

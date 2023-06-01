@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $z=x+iy\in\C$. The **complex conjugate of $z$** is the complex number $\bar{z}\coloneqq x-iy$.
+Let $z=x+iy\in\C$. The <b>complex conjugate of $z$</b> is the complex number $\bar{z}\coloneqq x-iy$.
 
 ```

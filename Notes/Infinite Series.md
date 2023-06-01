@@ -16,11 +16,11 @@ Justifications: [[Monotone Convergence Theorem]], [[Metric-completeness of R]]
 ``` ad-Definition
 title: Definition.
 
-Consider a sequence $\tpl{a_k}_{k\in\N}$ in either $\R$ or $\C$ and let $s_n\coloneqq\sum_{k=0}^{n}a_k$ be its sequence of **partial sums**. We say that the **infinite series of $\tpl{a_k}_{k\in\N}$ converges** if $\lim_{n\to\infty}s_n$ exists, in which case we write
+Consider a sequence $\tpl{a_k}_{k\in\N}$ in either $\R$ or $\C$ and let $s_n\coloneqq\sum_{k=0}^{n}a_k$ be its sequence of <b>partial sums</b>. We say that the <b>infinite series of $\tpl{a_k}_{k\in\N}$ converges</b> if $\lim_{n\to\infty}s_n$ exists, in which case we write
 $$\begin{equation}
     \sum_{k=0}^{\infty}a_k\coloneqq\lim_{n\to\infty}s_n=\lim\limits_{n\to\infty}\sum_{k=0}^{n}a_k.
 \end{equation}$$
-Otherwise, we say that the **infinite series of $\tpl{a_k}_{k\in\N}$ diverges**.
+Otherwise, we say that the <b>infinite series of $\tpl{a_k}_{k\in\N}$ diverges</b>.
 
 ```
 

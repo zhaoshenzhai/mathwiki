@@ -16,7 +16,7 @@ Justifications: [[Slice category is a category]]
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{C}$ be a category and fix $C\in\Obj\l(\cat{C}\r)$. The **slice category of $\cat{C}$ over $C$** is the category $\l(\cat{C}\downarrow C\r)$ defined by the following data:
+Let $\cat{C}$ be a category and fix $C\in\Obj\l(\cat{C}\r)$. The <b>slice category of $\cat{C}$ over $C$</b> is the category $\l(\cat{C}\downarrow C\r)$ defined by the following data:
 * The objects are pairs $\tpl{X,f}$ where $X\in\Obj\l(\cat{C}\r)$ and $f$ is a $\cat{C}$-morphisms with $\cdm f=C$; that is,
 $$\begin{equation}
     \Obj\l(\cat{C}\downarrow C\r)\coloneqq\l\{f\in\Hom_\cat{C}\!\l(X,C\r)\mid X\in\Obj\l(\cat{C}\r)\r\}.

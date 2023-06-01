@@ -16,8 +16,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be a $K$-vector space. An indexed subset $\mc{B}\coloneqq\l\{b_i\r\}_{i\in I}\subseteq V$ is said to be a **(algebraic) basis for $V$** if $\mc{B}$ is a linearly independent spanning set of $V$.
+Let $V$ be a $K$-vector space. An indexed subset $\mc{B}\coloneqq\l\{b_i\r\}_{i\in I}\subseteq V$ is said to be a <b>(algebraic) basis for $V$</b> if $\mc{B}$ is a linearly independent spanning set of $V$.
 
 ```
 
-<b>Remark.</b> If $I$ carries a total order, then $\mc{B}$ inherits this order and is hence said to be an **ordered (algebraic) basis for $V$**. Abusing notation, if $I=\l\{1,\dots,n\r\}$ for some $n\in\N$, we write $\mc{B}=\l\{b_1,\dots,b_n\r\}$ which is understood to be ordered. Similarly, if $I=\N$, we write $\mc{B}=\l\{b_1,b_2,\dots\r\}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $I$ carries a total order, then $\mc{B}$ inherits this order and is hence said to be an <b>ordered (algebraic) basis for $V$</b>. Abusing notation, if $I=\l\{1,\dots,n\r\}$ for some $n\in\N$, we write $\mc{B}=\l\{b_1,\dots,b_n\r\}$ which is understood to be ordered. Similarly, if $I=\N$, we write $\mc{B}=\l\{b_1,b_2,\dots\r\}$.<span style="float:right;">$\blacklozenge$</span>

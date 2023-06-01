@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be an integral domain. An element $p\in R$ is said to be **prime in $R$** if it is not a unit and if
+Let $R$ be an integral domain. An element $p\in R$ is said to be <b>prime in $R$</b> if it is not a unit and if
 $$\begin{equation}
     \fa a,b\in R:p\divides\!\l(ab\r)\Rightarrow p\divides a\lor p\divides b.
 \end{equation}$$

@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. The **closure of $S$ in $\tpl{X,\mc{T}}$** is the intersection of all closed sets that contain $S$; that is,
+Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. The <b>closure of $S$ in $\tpl{X,\mc{T}}$</b> is the intersection of all closed sets that contain $S$; that is,
 $$\begin{equation}
     \bar{S}\coloneqq\bigcap\l\{C\in\mc{F}\mid S\subseteq C\r\}
 \end{equation}$$

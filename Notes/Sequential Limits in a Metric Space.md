@@ -16,7 +16,7 @@ Justifications: [[Hausdorff implies limits are unique]]
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,d}$ be a metric space and fix $x\in X$. A sequence $\tpl{x_n}_{n\in\N}$ in $X$ is said to **converge to $x$ w.r.t. $d$**, and $x$ is said to be the **limit of $\tpl{x_n}$ w.r.t. $d$**, if
+Let $\tpl{X,d}$ be a metric space and fix $x\in X$. A sequence $\tpl{x_n}_{n\in\N}$ in $X$ is said to <b>converge to $x$ w.r.t. $d$</b>, and $x$ is said to be the <b>limit of $\tpl{x_n}$ w.r.t. $d$</b>, if
 $$\begin{equation}
     \fa\epsilon>0,\fa^\infty n\in\N:d\l(x_n,x\r)<\epsilon,
 \end{equation}$$

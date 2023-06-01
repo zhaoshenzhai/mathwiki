@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{C}$ be a category and fix $X,Y\in\Obj\l(\cat{C}\r)$. A **$\cat{C}$-morphism from $X$ to $Y$** is an element $f\in\Hom\l(X,Y\r)$.
+Let $\cat{C}$ be a category and fix $X,Y\in\Obj\l(\cat{C}\r)$. A <b>$\cat{C}$-morphism from $X$ to $Y$</b> is an element $f\in\Hom\l(X,Y\r)$.
 
 ```
 

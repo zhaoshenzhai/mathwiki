@@ -16,11 +16,11 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $f:X\to Y$ and fix $S\subseteq X$. The **image of $S$ under $f$** is the set
+Let $f:X\to Y$ and fix $S\subseteq X$. The <b>image of $S$ under $f$</b> is the set
 $$\begin{equation}
     \im_f\!\l(S\r)\coloneqq\l\{y\in Y\mid\ex x\in S:y=f\l(x\r)\r\}.
 \end{equation}$$
-The **direct image function under $f$** is the function
+The <b>direct image function under $f$</b> is the function
 $$\begin{equation}
     \im_f\!:\pow\l(X\r)\to\pow\l(Y\r)\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ S\mapsto\im_f\!\l(S\r).
 \end{equation}$$

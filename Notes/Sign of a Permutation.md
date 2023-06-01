@@ -16,7 +16,7 @@ Justifications: [[Existence of sign homomorphism]]
 ``` ad-Definition
 title: Definition.
 
-Let $X\coloneqq\l\{1,\dots,n\r\}$. The **sign homomorphism** unique homomorphism $\epsilon:S_n\to\l\{\pm1\r\}$ such that $\epsilon\l(\tau\r)=-1$ for all transpositions $\tau\in S_n$.
-* For all $\sigma\in S_n$, $\epsilon\l(\sigma\r)$ is the **sign of $\sigma$**. If $\epsilon\l(\alpha\r)=1$, then $\sigma$ is said to be **even**, and otherwise $\sigma$ is said to be **odd**.
+Let $X\coloneqq\l\{1,\dots,n\r\}$. The <b>sign homomorphism</b> unique homomorphism $\epsilon:S_n\to\l\{\pm1\r\}$ such that $\epsilon\l(\tau\r)=-1$ for all transpositions $\tau\in S_n$.
+* For all $\sigma\in S_n$, $\epsilon\l(\sigma\r)$ is the <b>sign of $\sigma$</b>. If $\epsilon\l(\alpha\r)=1$, then $\sigma$ is said to be <b>even</b>, and otherwise $\sigma$ is said to be <b>odd</b>.
 
 ```

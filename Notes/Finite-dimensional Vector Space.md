@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $K$ be a field. A $K$-vector space $V$ is said to be **finite-dimensional** if $V$ has a finite spanning set.
+Let $K$ be a field. A $K$-vector space $V$ is said to be <b>finite-dimensional</b> if $V$ has a finite spanning set.
 
 ```
 

@@ -16,8 +16,8 @@ Justifications: [[Lattice of topologies is a complete lattice]]
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. The **lattice of topologies on $X$** is the complete lattice $\tpl{\Sigma,\subseteq}$ where $\Sigma$ is the set of all topologies on $X$.
+Let $X$ be a set. The <b>lattice of topologies on $X$</b> is the complete lattice $\tpl{\Sigma,\subseteq}$ where $\Sigma$ is the set of all topologies on $X$.
 
 ```
 
-<b>Remark.</b> Let $\mc{T}_1$ and $\mc{T}_2$ be topologies on $X$. If $\mc{T}_1\subseteq\mc{T}_2$, then $\mc{T}_2$ is **finer** than $\mc{T}_1$ and $\mc{T}_1$ is **coarser** than $\mc{T}_2$. They are **comparable** if either $\mc{T}_1\subseteq\mc{T}_2$ or $\mc{T}_2\subseteq\mc{T}_1$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Let $\mc{T}_1$ and $\mc{T}_2$ be topologies on $X$. If $\mc{T}_1\subseteq\mc{T}_2$, then $\mc{T}_2$ is <b>finer</b> than $\mc{T}_1$ and $\mc{T}_1$ is <b>coarser</b> than $\mc{T}_2$. They are <b>comparable</b> if either $\mc{T}_1\subseteq\mc{T}_2$ or $\mc{T}_2\subseteq\mc{T}_1$.<span style="float:right;">$\blacklozenge$</span>

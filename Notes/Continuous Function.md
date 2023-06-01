@@ -16,7 +16,7 @@ Justifications: [[Continuous iff continuous at each point]]
 ``` ad-Definition
 title: Definition.
 
-Let $X$ and $Y$ be topological spaces. A function $f:X\to Y$ is said to be **continuous** if preimages of open sets are open; that is, if for all open sets $V\subseteq Y$, the preimage $f^{-1}\!\l(V\r)$ is open in $X$.
-* For all fixed $p\in X$, we say that $f$ is **continuous at $p$** if for every neighborhood $V$ of $f\l(p\r)$, there exists a neighborhood $U$ of $p$ such that $f\l(U\r)\subseteq V$.
+Let $X$ and $Y$ be topological spaces. A function $f:X\to Y$ is said to be <b>continuous</b> if preimages of open sets are open; that is, if for all open sets $V\subseteq Y$, the preimage $f^{-1}\!\l(V\r)$ is open in $X$.
+* For all fixed $p\in X$, we say that $f$ is <b>continuous at $p$</b> if for every neighborhood $V$ of $f\l(p\r)$, there exists a neighborhood $U$ of $p$ such that $f\l(U\r)\subseteq V$.
 
 ```

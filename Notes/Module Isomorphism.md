@@ -16,7 +16,7 @@ Justifications: [[Isomorphism of objects is an equivalence relation]]
 ``` ad-Definition
 title: Definition.
 
-Let $M$ and $N$ be $R$-modules. We say that $M$ and $N$ are **isomorphic as $R$-modules** if there exists an invertible $R$-module homomorphism $\phi:M\to N$, called an **$R$-module isomorphism**.
+Let $M$ and $N$ be $R$-modules. We say that $M$ and $N$ are <b>isomorphic as $R$-modules</b> if there exists an invertible $R$-module homomorphism $\phi:M\to N$, called an <b>$R$-module isomorphism</b>.
 
 ```
 

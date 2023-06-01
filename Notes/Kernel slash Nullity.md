@@ -20,7 +20,7 @@ Justifications: [[Basic properties of linear maps]]
 ``` ad-Definition
 title: Definition.
 
-Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. The **kernel of $T$** is the linear subspace $\ker T$ of $V$ and the **nullity of $T$** is
+Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. The <b>kernel of $T$</b> is the linear subspace $\ker T$ of $V$ and the <b>nullity of $T$</b> is
 $$\begin{equation}
     \nullity T\coloneqq\dim\ker T.
 \end{equation}$$

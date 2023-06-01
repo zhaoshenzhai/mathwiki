@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\l\{U_i\r\}_{i\in I}$ be an indexed family of linear subspaces of a $K$-vector space $V$. The **Minkowski sum of $\l\{U_i\r\}_{i\in I}$** is the linear subspace
+Let $\l\{U_i\r\}_{i\in I}$ be an indexed family of linear subspaces of a $K$-vector space $V$. The <b>Minkowski sum of $\l\{U_i\r\}_{i\in I}$</b> is the linear subspace
 $$\begin{equation}
     \sum_{i\in I}U_i\coloneqq\l\{u\in V\mid\fa i\in I,\ex u_i\in U_i:u=\sum_{i\in I}u_i\r\}
 \end{equation}$$

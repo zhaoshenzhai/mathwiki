@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A topological space $X$ is said to be **connected** if it cannot be written as a union of two non-empty disjoint open sets in $X$.
+A topological space $X$ is said to be <b>connected</b> if it cannot be written as a union of two non-empty disjoint open sets in $X$.
 
 ```

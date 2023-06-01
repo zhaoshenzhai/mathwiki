@@ -13,7 +13,7 @@ Equivalences: <i>Not Applicable</i>
 ``` ad-Axiom
 title: Axiom Schema.
 
-Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$ and let $\phi\l(x,y\r)$ be any $\mc{L}$-logical formula without $z$ free. The **Axiom Schema of Replacement** is the $\mc{L}$-scheme
+Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$ and let $\phi\l(x,y\r)$ be any $\mc{L}$-logical formula without $z$ free. The <b>Axiom Schema of Replacement</b> is the $\mc{L}$-scheme
 $$\begin{equation}
     \fa D\l[\fa x\in D,\ex!y:\phi\l(x,y\r)\Rightarrow\ex I,\fa x\in D,\ex y:y\in I\land\phi\l(x,y\r)\r].
 \end{equation}$$

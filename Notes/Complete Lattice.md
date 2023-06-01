@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A lattice $\tpl{X,\leq}$ is **complete** if every subset has a join and a meet.
+A lattice $\tpl{X,\leq}$ is <b>complete</b> if every subset has a join and a meet.
 
 ```

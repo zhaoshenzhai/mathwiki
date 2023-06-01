@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be an inner product space. A basis $\mc{B}\coloneqq\l\{e_i\r\}_{i\in I}$ of $V$ is said to be an **orthonormal basis for $V$** if $\mc{B}$ is an orthonormal set.
+Let $V$ be an inner product space. A basis $\mc{B}\coloneqq\l\{e_i\r\}_{i\in I}$ of $V$ is said to be an <b>orthonormal basis for $V$</b> if $\mc{B}$ is an orthonormal set.
 
 ```

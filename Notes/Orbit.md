@@ -16,7 +16,7 @@ Justifications: [[Fundamental Theorem of Equivalence Relations]]
 ``` ad-Definition
 title: Definition.
 
-Let $G$ be a group acting on a set $X$. The **orbit of $x$ under $G$** is the set $Gx\coloneqq\l\{gx\in X\mid g\in G\r\}$.
+Let $G$ be a group acting on a set $X$. The <b>orbit of $x$ under $G$</b> is the set $Gx\coloneqq\l\{gx\in X\mid g\in G\r\}$.
 
 ```
 

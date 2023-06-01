@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Two categories $\cat{C}$ and $\cat{D}$ are said to be **equivalent** if there exists a (weakly) invertible functor $\ms{F}:\cat{C}\to\cat{D}$.
+Two categories $\cat{C}$ and $\cat{D}$ are said to be <b>equivalent</b> if there exists a (weakly) invertible functor $\ms{F}:\cat{C}\to\cat{D}$.
 
 ```

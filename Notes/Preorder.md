@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. A binary relation $\leq$ on $X$ is a **preorder on $X$** if $\leq$ is reflexive and transitive on $X$.
+Let $X$ be a set. A binary relation $\leq$ on $X$ is a <b>preorder on $X$</b> if $\leq$ is reflexive and transitive on $X$.
 
 ```
 

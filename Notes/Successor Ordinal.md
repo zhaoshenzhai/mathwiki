@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-An ordinal $\beta$ is called a **successor ordinal** if $\ex\alpha\in\ON:\beta=S\l(\alpha\r)$.
+An ordinal $\beta$ is called a <b>successor ordinal</b> if $\ex\alpha\in\ON:\beta=S\l(\alpha\r)$.
 
 ```

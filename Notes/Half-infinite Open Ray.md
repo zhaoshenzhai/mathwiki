@@ -20,6 +20,6 @@ Let $\tpl{X,<}$ be a totally ordered set. If there does not exist a minimal elem
 $$\begin{equation}
     \l(-\infty,b\r)\coloneqq\l\{x\in X\mid\ex b\in X:x<b\r\}\ \ \ \ \ \ \ \ \textrm{\it{(resp. }}\l(a,+\infty\r)\coloneqq\l\{x\in X\mid\ex a\in X:x>a\r\}\textrm{\it{)}}
 \end{equation}$$
-is said to be a **half-infinite open ray**.
+is said to be a <b>half-infinite open ray</b>.
 
 ```

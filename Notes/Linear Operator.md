@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be a $K$-vector space. A linear map $T:V\to V$ is said to be a **linear operator**.
+Let $V$ be a $K$-vector space. A linear map $T:V\to V$ is said to be a <b>linear operator</b>.
 
 ```
 

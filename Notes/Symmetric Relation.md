@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. A binary relation $R$ is **symmetric on $X$** if
+Let $X$ be a set. A binary relation $R$ is <b>symmetric on $X$</b> if
 $$\begin{equation}
     \fa x,y\in X:xRy\Leftrightarrow yRx.
 \end{equation}$$

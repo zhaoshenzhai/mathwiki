@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be a $K$-vector space and let $T:V\to V$. A linear subspace $U\subseteq V$ is called **$T$-invariant** if $\im_T\l(U\r)\subseteq U$.
+Let $V$ be a $K$-vector space and let $T:V\to V$. A linear subspace $U\subseteq V$ is called <b>$T$-invariant</b> if $\im_T\l(U\r)\subseteq U$.
 
 ```
 

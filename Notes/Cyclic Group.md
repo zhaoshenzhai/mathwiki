@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A group $G$ is said to be **cyclic** if $G=\gen{x}$ for some $x\in G$, in which case $x$ is said to be a **generator of $G$**.
+A group $G$ is said to be <b>cyclic</b> if $G=\gen{x}$ for some $x\in G$, in which case $x$ is said to be a <b>generator of $G$</b>.
 
 ```
 

@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. A binary relation $R$ is **connected on $X$** if
+Let $X$ be a set. A binary relation $R$ is <b>connected on $X$</b> if
 $$\begin{equation}
     \fa x,y\in X:xRy\lor yRx\lor x=y.
 \end{equation}$$

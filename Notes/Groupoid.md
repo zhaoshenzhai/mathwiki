@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A category $\cat{C}$ is called a **groupoid** if every morphism is an isomorphism.
+A category $\cat{C}$ is called a <b>groupoid</b> if every morphism is an isomorphism.
 
 ```

@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A topological space $X$ is said to be **path-connected** if for all $x_0,x_1\in X$, there exists a path $\gamma:\l[0,1\r]\to X$ with $\gamma\l(0\r)=x_0$ and $\gamma\l(1\r)=x_1$.
-* We say that $X$ is **locally path-connected** if for all $x\in X$ and all neighborhoods $U$ of $x$, there exists a path-connected neighborhood $V\subseteq U$ of $x$.
+A topological space $X$ is said to be <b>path-connected</b> if for all $x_0,x_1\in X$, there exists a path $\gamma:\l[0,1\r]\to X$ with $\gamma\l(0\r)=x_0$ and $\gamma\l(1\r)=x_1$.
+* We say that $X$ is <b>locally path-connected</b> if for all $x\in X$ and all neighborhoods $U$ of $x$, there exists a path-connected neighborhood $V\subseteq U$ of $x$.
 
 ```

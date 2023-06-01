@@ -13,14 +13,14 @@ Equivalences: <i>Not Applicable</i>
 ``` ad-Axiom
 title: Axiom.
 
-Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Pairing** is the $\mc{L}$-formula
+Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The <b>Axiom of Pairing</b> is the $\mc{L}$-formula
 $$\begin{equation}
     \fa A\fa B\ex P\l[x\in P\Leftrightarrow\l(x\in A\lor x\in B\r)\r].
 \end{equation}$$
 
 ```
 
-<b>Remark.</b> By Extensionality, such a set $P$ is unique and can thus be called the **pair set of $A$ and $B$**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> By Extensionality, such a set $P$ is unique and can thus be called the <b>pair set of $A$ and $B$</b>.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

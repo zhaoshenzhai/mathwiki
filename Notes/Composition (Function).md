@@ -16,7 +16,7 @@ Justifications: [[Composition of functions is a function]]
 ``` ad-Definition
 title: Definition.
 
-Let $f:X\to Y$ and $g:Y'\to Z$ be functions with $Y\subseteq Y'$. The **composition of $g$ after $f$** is the function
+Let $f:X\to Y$ and $g:Y'\to Z$ be functions with $Y\subseteq Y'$. The <b>composition of $g$ after $f$</b> is the function
 $$\begin{equation}
     g\circ f:X\to Z\ \ \ \ \textrm{\it{mapping}}\ \ \ \ x\mapsto g\l(f\l(x\r)\r).
 \end{equation}$$

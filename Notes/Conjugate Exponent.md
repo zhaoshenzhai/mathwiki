@@ -20,7 +20,7 @@ Fix $p\in\l(1,+\infty\r)$. The unique $q\in\l(1,+\infty\r)$ defined by
 $$\begin{equation}
     \frac{1}{p}+\frac{1}{q}=1
 \end{equation}$$
-is called the **conjugate exponent of $p$**.
+is called the <b>conjugate exponent of $p$</b>.
 
 ```
 

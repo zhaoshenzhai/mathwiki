@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $f:X\to Y$ be continuous. The **mapping cylinder of $f$** is the topological space $M_f\coloneqq\l(\l(X\times\l[0,1\r]\r)\coprod Y\r)/\!\sim$ by glueing $\tpl{x,0}\sim f\l(x\r)$.
+Let $f:X\to Y$ be continuous. The <b>mapping cylinder of $f$</b> is the topological space $M_f\coloneqq\l(\l(X\times\l[0,1\r]\r)\coprod Y\r)/\!\sim$ by glueing $\tpl{x,0}\sim f\l(x\r)$.
 
 ```
 

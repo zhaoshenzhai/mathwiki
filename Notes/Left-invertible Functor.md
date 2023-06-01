@@ -16,8 +16,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{C}$ and $\cat{D}$ be categories. A functor $\ms{F}:\cat{C}\to\cat{D}$ is said to be **(weakly) left-invertible** if there exists a functor $\ms{G}:\cat{D}\to\cat{C}$ such that $\ms{G}\circ\ms{F}$ is naturally isomorphic to $\Id_\cat{C}$, in which case $\ms{G}$ is called a **(weak) left-inverse of $\ms{F}$**.
+Let $\cat{C}$ and $\cat{D}$ be categories. A functor $\ms{F}:\cat{C}\to\cat{D}$ is said to be <b>(weakly) left-invertible</b> if there exists a functor $\ms{G}:\cat{D}\to\cat{C}$ such that $\ms{G}\circ\ms{F}$ is naturally isomorphic to $\Id_\cat{C}$, in which case $\ms{G}$ is called a <b>(weak) left-inverse of $\ms{F}$</b>.
 
 ```
 
-<b>Remark.</b> If equality holds; that is, if $\ms{G}\circ\ms{F}=\Id_\cat{C}$, then $\ms{F}$ is **strictly invertible** and $\ms{G}$ is called a **strict left-inverse of $\ms{F}$**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If equality holds; that is, if $\ms{G}\circ\ms{F}=\Id_\cat{C}$, then $\ms{F}$ is <b>strictly invertible</b> and $\ms{G}$ is called a <b>strict left-inverse of $\ms{F}$</b>.<span style="float:right;">$\blacklozenge$</span>

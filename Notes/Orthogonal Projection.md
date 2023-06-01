@@ -16,7 +16,7 @@ Justifications: [[Orthogonal Decomposition]], [[Basic properties of orthogonal p
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be an inner product space. For $U$ a finite-dimensional linear subspace of $V$, the **orthogonal projection of $V$ onto $U$** is the linear operator
+Let $V$ be an inner product space. For $U$ a finite-dimensional linear subspace of $V$, the <b>orthogonal projection of $V$ onto $U$</b> is the linear operator
 $$\begin{equation}
     \proj_U\!:V\to U\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ v\mapsto\proj_U\!\l(v\r)
 \end{equation}$$

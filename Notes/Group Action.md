@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $G$ be a group and $X$ a be a set. A **(left) $G$-action on $X$** is a homomorphism $\phi:G\to\Aut\l(X\r)$. The set $X$, together with the action $\phi$, is called a **$G$-set**.
+Let $G$ be a group and $X$ a be a set. A <b>(left) $G$-action on $X$</b> is a homomorphism $\phi:G\to\Aut\l(X\r)$. The set $X$, together with the action $\phi$, is called a <b>$G$-set</b>.
 
 ```
 
@@ -28,4 +28,4 @@ Let $G$ be a group and $X$ a be a set. A **(left) $G$-action on $X$** is a homom
 
 ---
 
-<b>Remark.</b> Every group admits the **trivial action** $\phi:G\to\Aut\l(G\r):g\mapsto\phi_g$ by $\phi_h\!\l(h\r)\coloneqq gh$ for all $g,h\in G$. The fact that it is faithful is Cayley$\textrm{'}$s Theorem.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Every group admits the <b>trivial action</b> $\phi:G\to\Aut\l(G\r):g\mapsto\phi_g$ by $\phi_h\!\l(h\r)\coloneqq gh$ for all $g,h\in G$. The fact that it is faithful is Cayley$\textrm{'}$s Theorem.<span style="float:right;">$\blacklozenge$</span>

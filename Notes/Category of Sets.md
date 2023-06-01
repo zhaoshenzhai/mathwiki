@@ -20,7 +20,7 @@ Justifications: [[Function space is a set]], [[Composition of functions is a fun
 ``` ad-Definition
 title: Definition.
 
-The **category of sets** is the (locally-small) category $\catset$ defined by the following data:
+The <b>category of sets</b> is the (locally-small) category $\catset$ defined by the following data:
 * The objects are sets; that is, $\Obj\l(\catset\r)\coloneqq V$ where $V$ is the universal class.
 * For all sets $X$ and $Y$, the morphisms from $X$ to $Y$ are functions $\tpl{\Gamma_{\mathclap{f}}\ ,X,Y}$; that is, $\Hom\l(X,Y\r)\coloneqq Y^X$.
 * For all sets $X$, the identity morphism on $X$ is the identity function $\id_X:X\to X$.

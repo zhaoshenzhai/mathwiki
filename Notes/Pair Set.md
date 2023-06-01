@@ -16,7 +16,7 @@ Justifications: [[Axiom of Pairing]], [[Axiom of Extensionality]]
 ``` ad-Definition
 title: Definition.
 
-Let $A$ and $B$ be sets. The **pair set of $A$ and $B$** is the set whose elements are exactly $A$ or $B$. Formally, $\axipairing$ posits the existence of a set $\l\{A,B\r\}$ such that
+Let $A$ and $B$ be sets. The <b>pair set of $A$ and $B$</b> is the set whose elements are exactly $A$ or $B$. Formally, $\axipairing$ posits the existence of a set $\l\{A,B\r\}$ such that
 $$\begin{equation}
     \fa x\l(x\in\l\{A,B\r\}\Leftrightarrow x\in A\lor x\in B\r).
 \end{equation}$$

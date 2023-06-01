@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a ring with unit. A subset $S\subseteq R$ is a **multiplicative set** if $1\in S$ and $xy\in S$ for all $x,y\in S$.
+Let $R$ be a ring with unit. A subset $S\subseteq R$ is a <b>multiplicative set</b> if $1\in S$ and $xy\in S$ for all $x,y\in S$.
 
 ```

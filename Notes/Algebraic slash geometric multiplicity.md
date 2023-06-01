@@ -21,7 +21,7 @@ Justifications: <i>Not Applicable</i>
 title: Definition.
 
 Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$. Fix an eigenvalue $\lambda\in K$ of $T$.
-* The **algebraic multiplicity of $\lambda$** is the largest $k\in\N$ for which $\l(x-\lambda\r)^k\divides\cchi_T\!\l(x\r)$.
-* The **geometric multiplicity of $\lambda$** is the dimension of its eigenspace.
+* The <b>algebraic multiplicity of $\lambda$</b> is the largest $k\in\N$ for which $\l(x-\lambda\r)^k\divides\cchi_T\!\l(x\r)$.
+* The <b>geometric multiplicity of $\lambda$</b> is the dimension of its eigenspace.
 
 ```

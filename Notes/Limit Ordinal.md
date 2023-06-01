@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-An ordinal $\alpha$ is called a **limit ordinal** if $\alpha\neq\em$ and $\alpha$ is not a successor ordinal.
+An ordinal $\alpha$ is called a <b>limit ordinal</b> if $\alpha\neq\em$ and $\alpha$ is not a successor ordinal.
 
 ```

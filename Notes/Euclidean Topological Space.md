@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\sttopR[n]$ be the standard topology on $\R^n$. The **Euclidean $n$-topological space** is the topological space $\tpl{\R^n,\sttopR[n]}$.
+Let $\sttopR[n]$ be the standard topology on $\R^n$. The <b>Euclidean $n$-topological space</b> is the topological space $\tpl{\R^n,\sttopR[n]}$.
 
 ```

@@ -16,11 +16,11 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{J}$ and $\cat{C}$ be categories. A **diagram of type $\cat{J}$ in $\cat{C}$** is a functor $\ms{D}:\cat{J}\to\cat{C}$.
+Let $\cat{J}$ and $\cat{C}$ be categories. A <b>diagram of type $\cat{J}$ in $\cat{C}$</b> is a functor $\ms{D}:\cat{J}\to\cat{C}$.
 
 ```
 
-<b>Remark.</b> The category $\cat{J}$ is, in this context, referred to as the **index category**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The category $\cat{J}$ is, in this context, referred to as the <b>index category</b>.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

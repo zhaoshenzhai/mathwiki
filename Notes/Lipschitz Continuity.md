@@ -16,11 +16,11 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces, and fix $k\geq0$. A function $f:X\to Y$ is said to **$k$-Lipschitz continuous** if
+Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces, and fix $k\geq0$. A function $f:X\to Y$ is said to <b>$k$-Lipschitz continuous</b> if
 $$\begin{equation}
     \fa x,y\in X:d_Y\!\l(f\l(x\r),f\l(y\r)\r)\leq k\cdot d_X\!\l(x,y\r).
 \end{equation}$$
-A function $f:X\to Y$ is said to be **Lipschitz continuous** if there exists $k\geq0$ such that $f$ is $k$-Lipschitz continuous.
+A function $f:X\to Y$ is said to be <b>Lipschitz continuous</b> if there exists $k\geq0$ such that $f$ is $k$-Lipschitz continuous.
 
 ```
 

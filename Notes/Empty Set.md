@@ -16,7 +16,7 @@ Justifications: [[Empty set exists and is unique]]
 ``` ad-Definition
 title: Definition.
 
-A set $u$ is an **empty set** if $\fa z\l(z\not\in u\r)$.
+A set $u$ is an <b>empty set</b> if $\fa z\l(z\not\in u\r)$.
 
 ```
 

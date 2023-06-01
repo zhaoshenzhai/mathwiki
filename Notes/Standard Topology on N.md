@@ -20,6 +20,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $<$ be the standard ordering on the natural numbers $\N$. The **standard topology on $\N$** is the order topology $\mc{T}\l(<\r)$.
+Let $<$ be the standard ordering on the natural numbers $\N$. The <b>standard topology on $\N$</b> is the order topology $\mc{T}\l(<\r)$.
 
 ```

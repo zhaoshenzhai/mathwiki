@@ -16,9 +16,9 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a topological space. A **deformation retraction** is a homotopy from $\id_X$ to a retraction $r:X\to X$.
-* If the deformation retraction is relative to $\im r$, then it is said to be **strong**.
-* A subspace $S\subseteq X$ is a **(strong) deformation retract of $X$** if there exists a (strong) deformation retraction $r$ with $\im r=S$.
+Let $X$ be a topological space. A <b>deformation retraction</b> is a homotopy from $\id_X$ to a retraction $r:X\to X$.
+* If the deformation retraction is relative to $\im r$, then it is said to be <b>strong</b>.
+* A subspace $S\subseteq X$ is a <b>(strong) deformation retract of $X$</b> if there exists a (strong) deformation retraction $r$ with $\im r=S$.
 
 ```
 

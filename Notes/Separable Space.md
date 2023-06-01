@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A topological space $\tpl{X,\mc{T}}$ is said to be **separable** if it contains a countable dense subset.
+A topological space $\tpl{X,\mc{T}}$ is said to be <b>separable</b> if it contains a countable dense subset.
 
 ```

@@ -24,7 +24,7 @@ Let $T:V\to V$ be a linear operator on a $K$-vector space $V$. For $\lambda\in K
 $$\begin{equation}
     \hat{E}_\lambda\coloneqq\l\{v\in V\mid\ex n\in\N^+:\l(\lambda\id_V-T\r)^nv=0\r\}
 \end{equation}$$
-is called the **generalized eigenspace of $T$ corresponding to $\lambda$**. A vector $v\in\hat{E}_\lambda$ is said to be a **generalized eigenvector of $T$ corresponding to $\lambda$**.
+is called the <b>generalized eigenspace of $T$ corresponding to $\lambda$</b>. A vector $v\in\hat{E}_\lambda$ is said to be a <b>generalized eigenvector of $T$ corresponding to $\lambda$</b>.
 
 ```
 
@@ -36,7 +36,7 @@ is called the **generalized eigenspace of $T$ corresponding to $\lambda$**. A ve
 $$\begin{equation}
     K_T^f\coloneqq\l\{v\in V\mid f\l(T\r)v=0\r\}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \hat{K}_T^f\coloneqq\l\{v\in V\mid\ex n\in\N^+:f\l(T\r)^nv=0\r\}
 \end{equation}$$
-be the **$f$-kernel of $T$** and **generalized $f$-kernel of $T$**, respectively. We then see that eigenspaces (generalized or not) are obtained by taking $f\l(T\r)\coloneqq\cchi_T$.<span style="float:right;">$\blacklozenge$</span>
+be the <b>$f$-kernel of $T$</b> and <b>generalized $f$-kernel of $T$</b>, respectively. We then see that eigenspaces (generalized or not) are obtained by taking $f\l(T\r)\coloneqq\cchi_T$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

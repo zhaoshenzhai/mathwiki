@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. A binary relation $\sim$ is an **equivalence relation on $X$** if $\sim$ is reflexive, symmetric, and transitive on $X$. For all $x\in X$, the **equivalence class of $x$ under $\sim$** is the set $\l[x\r]_\sim\coloneqq\l\{y\in X\mid x\sim y\r\}$.
+Let $X$ be a set. A binary relation $\sim$ is an <b>equivalence relation on $X$</b> if $\sim$ is reflexive, symmetric, and transitive on $X$. For all $x\in X$, the <b>equivalence class of $x$ under $\sim$</b> is the set $\l[x\r]_\sim\coloneqq\l\{y\in X\mid x\sim y\r\}$.
 
 ```
 

@@ -16,7 +16,7 @@ Justifications: [[Domain and range of relation are sets (Kuratowski)]], [[Domain
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a binary relation. The **domain and range of $R$** are the sets
+Let $R$ be a binary relation. The <b>domain and range of $R$</b> are the sets
 $$\begin{equation}
     \dom R\coloneqq\l\{x\mid\ex y:xRy\r\}\ \ \ \ \textrm{\it{and}}\ \ \ \ \ran R\coloneqq\l\{y\mid\ex x:xRy\r\},
 \end{equation}$$

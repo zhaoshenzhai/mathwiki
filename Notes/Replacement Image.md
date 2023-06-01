@@ -16,7 +16,7 @@ Justifications: [[Replacement image of a set is a set]]
 ``` ad-Definition
 title: Definition.
 
-Let $D$ be a set and let $\phi\l(x,y\r)$ be a formula such that $\fa x\in D,\ex!y:\phi\l(x,y\r)$. The **replacement image of $D$ under $\phi\l(x,y\r)$** is the set
+Let $D$ be a set and let $\phi\l(x,y\r)$ be a formula such that $\fa x\in D,\ex!y:\phi\l(x,y\r)$. The <b>replacement image of $D$ under $\phi\l(x,y\r)$</b> is the set
 $$\begin{equation}
     \im_\phi\!\l(D\r)\coloneqq\l\{y\mid\ex x\in D:\phi\l(x,y\r)\r\}.
 \end{equation}$$

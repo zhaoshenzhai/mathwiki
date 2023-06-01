@@ -16,8 +16,8 @@ Justifications: [[LUB property iff GLB property]]
 ``` ad-Definition
 title: Definition.
 
-A partially ordered set $\tpl{X,\leq}$ is said to be **Dedekind-complete** or satisfies the **least upper bound property** if every non-empty subset $S\subseteq X$ that is bounded above admits a supremum in $X$.
+A partially ordered set $\tpl{X,\leq}$ is said to be <b>Dedekind-complete</b> or satisfies the <b>least upper bound property</b> if every non-empty subset $S\subseteq X$ that is bounded above admits a supremum in $X$.
 
 ```
 
-<b>Remark.</b> Dually, a poset $\tpl{X,\leq}$ is said to satisfy the **greatest lower bound property** if every non-empty subset $S\subseteq X$ that is bounded below admits an infimum. The terminology $\textrm{`}$Dedekind-complete$\textrm{'}$, which does not differentiate between the two, is justified by the fact that they are equivalent.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Dually, a poset $\tpl{X,\leq}$ is said to satisfy the <b>greatest lower bound property</b> if every non-empty subset $S\subseteq X$ that is bounded below admits an infimum. The terminology $\textrm{`}$Dedekind-complete$\textrm{'}$, which does not differentiate between the two, is justified by the fact that they are equivalent.<span style="float:right;">$\blacklozenge$</span>

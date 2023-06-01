@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. A binary relation $\leq$ on $X$ is a **partial order on $X$** if $\leq$ an antisymmetric preorder on $X$.
+Let $X$ be a set. A binary relation $\leq$ on $X$ is a <b>partial order on $X$</b> if $\leq$ an antisymmetric preorder on $X$.
 
 ```

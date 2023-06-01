@@ -13,7 +13,7 @@ Equivalences: <i>Not Applicable</i>
 ``` ad-Axiom
 title: Axiom (Extensionality).
 
-Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The **Axiom of Extensionality** is the $\mc{L}$-formula
+Consider the first-order language $\mc{L}$ consisting of one binary relation symbol $\in$. The <b>Axiom of Extensionality</b> is the $\mc{L}$-formula
 $$\begin{equation}
     \fa A\fa B\l[\fa x\l(x\in A\Leftrightarrow x\in B\r)\Rightarrow A=B\r].
 \end{equation}$$

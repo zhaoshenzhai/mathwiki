@@ -16,7 +16,7 @@ Justifications: [[Isomorphism of objects is an equivalence relation]]
 ``` ad-Definition
 title: Definition.
 
-Let $G$ and $H$ be groups. We say that $G$ and $H$ are **isomorphic as groups** if there exists an invertible group homomorphism $\phi:G\to H$, called a **group isomorphism**.
+Let $G$ and $H$ be groups. We say that $G$ and $H$ are <b>isomorphic as groups</b> if there exists an invertible group homomorphism $\phi:G\to H$, called a <b>group isomorphism</b>.
 
 ```
 

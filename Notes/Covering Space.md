@@ -20,10 +20,10 @@ Justifications: [[Connected implies well-defined number of sheets]]
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a topological space. A **covering map of $X$** is a continuous map $p:\widetilde{X}\to X$ from a path-connected space $\widetilde{X}$ such that for all $x_0\in X$, there exists a neighborhood $U$ of $x_0$ in $X$ where $p^{-1}\!\l(U\r)=\coprod_{i\in I}V_i$ for some disjoint open sets $V_i$ of $\widetilde{X}$ and where each $\l.p\r|_{V_i}:V_i\to U$ is a homeomorphism.
-* If $p:\widetilde{X}\to X$ is a covering map, then $\widetilde{X}$ is said to be a **covering space of $X$**, the neighborhood $U$ is said to be **evenly-covered** by the **sheets** $V_i\subseteq\widetilde{X}$.
-* The cardinality $n\coloneqq\l|p^{-1}\!\l(x_0\r)\r|$ is independent of $x_0$ and is said to be the **number of sheets of $p$**. We say that $p$ is an **$n$-sheeted covering**.
-* The **monodromy action of $\pi_1\l(X,x_0\r)$ on fibers** is the action $\phi:\pi_1\l(X,x_0\r)\to\Aut\!\l(p^{-1}\!\l(x_0\r)\r)\!$ given by $\l[\gamma\r]\cdot\widetilde{x}\coloneqq\widetilde{\gamma}\l(0\r)$ where $\widetilde{\gamma}$ is the lift of $\gamma$ ending at $\widetilde{x}$.
+Let $X$ be a topological space. A <b>covering map of $X$</b> is a continuous map $p:\widetilde{X}\to X$ from a path-connected space $\widetilde{X}$ such that for all $x_0\in X$, there exists a neighborhood $U$ of $x_0$ in $X$ where $p^{-1}\!\l(U\r)=\coprod_{i\in I}V_i$ for some disjoint open sets $V_i$ of $\widetilde{X}$ and where each $\l.p\r|_{V_i}:V_i\to U$ is a homeomorphism.
+* If $p:\widetilde{X}\to X$ is a covering map, then $\widetilde{X}$ is said to be a <b>covering space of $X$</b>, the neighborhood $U$ is said to be <b>evenly-covered</b> by the <b>sheets</b> $V_i\subseteq\widetilde{X}$.
+* The cardinality $n\coloneqq\l|p^{-1}\!\l(x_0\r)\r|$ is independent of $x_0$ and is said to be the <b>number of sheets of $p$</b>. We say that $p$ is an <b>$n$-sheeted covering</b>.
+* The <b>monodromy action of $\pi_1\l(X,x_0\r)$ on fibers</b> is the action $\phi:\pi_1\l(X,x_0\r)\to\Aut\!\l(p^{-1}\!\l(x_0\r)\r)\!$ given by $\l[\gamma\r]\cdot\widetilde{x}\coloneqq\widetilde{\gamma}\l(0\r)$ where $\widetilde{\gamma}$ is the lift of $\gamma$ ending at $\widetilde{x}$.
 
 ```
 

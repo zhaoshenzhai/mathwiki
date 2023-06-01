@@ -16,7 +16,7 @@ Justifications: [[Ideal is maximal iff quotient is a field]], [[Irreducible poly
 ``` ad-Definition
 title: Definition.
 
-Let $I\coloneqq\sring{x^2+1}$ be an ideal in the ring $\R\l[x\r]$. The **field of complex numbers** is the field
+Let $I\coloneqq\sring{x^2+1}$ be an ideal in the ring $\R\l[x\r]$. The <b>field of complex numbers</b> is the field
 $$\begin{equation}
     \C\coloneqq\R\l[x\r]/I.
 \end{equation}$$

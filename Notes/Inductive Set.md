@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A set $I$ is said to be **inductive** if $\em\in I$ and it contains all its successors. Formally $I$ is inductive if,
+A set $I$ is said to be <b>inductive</b> if $\em\in I$ and it contains all its successors. Formally $I$ is inductive if,
 $$\begin{equation}
     \em\in I\land\fa i\in I:S\l(i\r)\in I.
 \end{equation}$$

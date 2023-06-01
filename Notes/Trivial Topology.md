@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. The **trivial topology on $X$** is the topology $\mc{T}_\textrm{trivial}\coloneqq\l\{\em,X\r\}$.
+Let $X$ be a set. The <b>trivial topology on $X$</b> is the topology $\mc{T}_\textrm{trivial}\coloneqq\l\{\em,X\r\}$.
 
 ```
 

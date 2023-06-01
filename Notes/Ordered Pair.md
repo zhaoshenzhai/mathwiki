@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $x$ and $y$ be sets. An **ordered pair of $x$ and $y$** is the set $\tpl{x,y}\coloneqq\l\{\l\{x\r\},\l\{x,y\r\}\r\}$.
+Let $x$ and $y$ be sets. An <b>ordered pair of $x$ and $y$</b> is the set $\tpl{x,y}\coloneqq\l\{\l\{x\r\},\l\{x,y\r\}\r\}$.
 
 ```

@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A covering map $p:\widetilde{X}\to X$ of a topological space $X$ is said to be **normal** if $\Cov\,(\widetilde{X}/X)$ acts transitively on every fiber $p^{-1}\!\l(x\r)$.
+A covering map $p:\widetilde{X}\to X$ of a topological space $X$ is said to be <b>normal</b> if $\Cov\,(\widetilde{X}/X)$ acts transitively on every fiber $p^{-1}\!\l(x\r)$.
 
 ```
 
@@ -24,4 +24,4 @@ A covering map $p:\widetilde{X}\to X$ of a topological space $X$ is said to be *
 
 ---
 
-<b>Remark.</b> Normal covering spaces are also said to be **regular**, or **Galois**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Normal covering spaces are also said to be <b>regular</b>, or <b>Galois</b>.<span style="float:right;">$\blacklozenge$</span>

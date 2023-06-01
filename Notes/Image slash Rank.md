@@ -20,7 +20,7 @@ Justifications: [[Basic properties of linear maps]]
 ``` ad-Definition
 title: Definition.
 
-Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. The **image of $T$** is the linear subspace $\im T$ of $W$ and the **rank of $T$** is
+Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. The <b>image of $T$</b> is the linear subspace $\im T$ of $W$ and the <b>rank of $T$</b> is
 $$\begin{equation}
     \rank T\coloneqq\dim\im T.
 \end{equation}$$

@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A function $f:X\to Y$ is an **injection** if
+A function $f:X\to Y$ is an <b>injection</b> if
 $$\begin{equation}
     \fa x,x'\in X:f\l(x\r)=f\l(x'\r)\Rightarrow x=x'.
 \end{equation}$$
@@ -24,5 +24,5 @@ That is, if the relation $f$ is left-unique.
 
 ```
 
-<b>Remark.</b> If $f:X\to Y$ is an injection (or an **injective function**, or a **1-1 function**), write $f:X\into Y$.
-* Sometimes, it is convenient to write $X\into Y$ to indicate that there exists an injection $f:X\into Y$, in which case we read **$X$ injects into $Y$**.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $f:X\to Y$ is an injection (or an <b>injective function</b>, or a <b>1-1 function</b>), write $f:X\into Y$.
+* Sometimes, it is convenient to write $X\into Y$ to indicate that there exists an injection $f:X\into Y$, in which case we read <b>$X$ injects into $Y$</b>.<span style="float:right;">$\blacklozenge$</span>

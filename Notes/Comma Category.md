@@ -19,7 +19,7 @@ title: Definition.
 Let $\cat{C}$, $\cat{D}$, and $\cat{E}$ be categories and fix two covariant functors
 ![[Images/2022-03-07_144906/image.svg|140]]
 
-The **comma category of $\ms{F}$ over $\ms{G}$** is the category $\l(\ms{F}\downarrow\ms{G}\r)$ defined by the following data:
+The <b>comma category of $\ms{F}$ over $\ms{G}$</b> is the category $\l(\ms{F}\downarrow\ms{G}\r)$ defined by the following data:
 * The objects are triples $\tpl{E,D,f}$ where $E\in\Obj\l(\cat{E}\r)$, $D\in\Obj\l(\cat{D}\r)$, and $f\in\Hom_\cat{C}\!\l(\ms{F}\l(E\r),\ms{G}\l(D\r)\r)$.
 
 * For all $\l(\ms{F}\downarrow\ms{G}\r)$-objects $\tpl{E,D,f}$ and $\tpl{E',D',f'}$, the morphisms from $\tpl{E,D,f}$ to $\tpl{E',D',f'}$ are pairs $\tpl{\phi,\psi}$ where $\phi:E\to E'$ and $\psi:D\to D'$ such that the diagram

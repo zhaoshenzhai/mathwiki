@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{G,\ast_G}$ and $\tpl{H,\ast_H}$ be groups. A **group homomorphism from $G$ to $H$** is a function $\phi:G\to H$ such that
+Let $\tpl{G,\ast_G}$ and $\tpl{H,\ast_H}$ be groups. A <b>group homomorphism from $G$ to $H$</b> is a function $\phi:G\to H$ such that
 $$\begin{equation}
     \fa g_1,g_2\in G:\phi\l(g_1\ast_Gg_2\r)=\phi\l(g_1\r)\ast_H\phi\l(g_2\r).
 \end{equation}$$

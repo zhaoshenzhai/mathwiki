@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $S$ be a set and let $\cdot$ be a binary operation on $S$. The pair $\tpl{S,\cdot}$ is said to be a **semigroup** if $\cdot$ is associative; that is, if
+Let $S$ be a set and let $\cdot$ be a binary operation on $S$. The pair $\tpl{S,\cdot}$ is said to be a <b>semigroup</b> if $\cdot$ is associative; that is, if
 $$\begin{equation}
     \fa x,y,z\in S:\l(x\cdot y\r)\cdot z=x\cdot\l(y\cdot z\r).
 \end{equation}$$
