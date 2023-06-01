@@ -20,4 +20,4 @@ Let $R$ and $S$ be rings. We say that $R$ and $S$ are <b>isomorphic as rings</b>
 
 ```
 
-<b>Remark.</b> That is, ring isomorphisms are isomorphisms in $\catring$. Since ‘is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $R\iso S$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That is, ring isomorphisms are isomorphisms in $\catring$. Since ‘is isomorphic to’ is an equivalence relation, we shall write $R\iso S$.<span style="float:right;">$\blacklozenge$</span>

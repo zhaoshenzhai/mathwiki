@@ -24,4 +24,4 @@ for all $v\in V$.
 
 ```
 
-<b>Remark.</b> It is clear that ‘equivalent of norms$\textrm{'}$ is an equivalence relation on the set of all norms on $V$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> It is clear that ‘equivalent of norms’ is an equivalence relation on the set of all norms on $V$.<span style="float:right;">$\blacklozenge$</span>

@@ -13,7 +13,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Isomorphism Theorems).
 
-Let $G$ and $G'$ be groups. We have the following ‘isomorphism theorems$\textrm{'}$:
+Let $G$ and $G'$ be groups. We have the following ‘isomorphism theorems’:
 * (First Isomorphism Theorem): If $\phi:G\to G'$ is a homomorphism, then $G/\ker\phi\iso\im\phi$.
 * (Second Isomorphism Theorem): If $H,K\subgrpeq G$ and $H\subgrpeq N_G\!\l(K\r)$, then $HK/K\iso H/\l(H\cap K\r)$.
 * (Third Isomorphism Theorem): If $H,K\nsubgrpeq G$ and $H\subgrpeq K$, then $\l(G/H\r)/\!\l(K/H\r)\iso G/K$.

@@ -37,4 +37,4 @@ $$\begin{equation}
 
 ---
 
-<b>Remark.</b> One can similarly define infinite series where the ‘base point$\textrm{'}$ starts at some $n_0\neq0$. We will be informal and call $\sum_{k=0}^\infty a_k$ the infinite series of $\tpl{a_k}_{k\in\N}$, even if it does not converge.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> One can similarly define infinite series where the ‘base point’ starts at some $n_0\neq0$. We will be informal and call $\sum_{k=0}^\infty a_k$ the infinite series of $\tpl{a_k}_{k\in\N}$, even if it does not converge.<span style="float:right;">$\blacklozenge$</span>

@@ -20,4 +20,4 @@ A partially ordered set $\tpl{X,\leq}$ is said to be <b>Dedekind-complete</b> or
 
 ```
 
-<b>Remark.</b> Dually, a poset $\tpl{X,\leq}$ is said to satisfy the <b>greatest lower bound property</b> if every non-empty subset $S\subseteq X$ that is bounded below admits an infimum. The terminology ‘Dedekind-complete$\textrm{'}$, which does not differentiate between the two, is justified by the fact that they are equivalent.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Dually, a poset $\tpl{X,\leq}$ is said to satisfy the <b>greatest lower bound property</b> if every non-empty subset $S\subseteq X$ that is bounded below admits an infimum. The terminology ‘Dedekind-complete’, which does not differentiate between the two, is justified by the fact that they are equivalent.<span style="float:right;">$\blacklozenge$</span>

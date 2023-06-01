@@ -21,4 +21,4 @@ Let $X$ be a locally path-connected space. A <b>universal cover of $X$</b> is a 
 ```
 
 <b>Remark.</b> Since $\widetilde{X}$ is simply-connected, the Lifting Criterion shows that for every other cover $q:E\to X$, there exists a unique continuous map $\sigma:\widetilde{X}\to E$ that lifts $p$.
-![[Images/2023-05-23_213854/image.svg|125]] This justifies the name ‘universal cover$\textrm{'}$, and as with all universal objects, it is unique up to isomorphism.<span style="float:right;">$\blacklozenge$</span>
+![[Images/2023-05-23_213854/image.svg|125]] This justifies the name ‘universal cover’, and as with all universal objects, it is unique up to isomorphism.<span style="float:right;">$\blacklozenge$</span>

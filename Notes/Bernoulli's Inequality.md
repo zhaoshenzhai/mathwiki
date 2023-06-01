@@ -15,7 +15,7 @@ Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
-title: Theorem (Bernoulli$\textrm{'}$s Inequality).
+title: Theorem (Bernoulli’s Inequality).
 
 Let $a\in\R$ and fix $n\in\N^+$. Then, for all $k\in\N^+$ with $k\leq n$, we have
 $$\begin{equation}

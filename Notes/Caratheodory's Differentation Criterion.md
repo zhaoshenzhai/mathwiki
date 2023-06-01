@@ -1,5 +1,5 @@
 ---
-mathLink: Carath$\acute{\textrm{e}}$odory$\textrm{'}$s Differentiation Criterion
+mathLink: Carath$\acute{\textrm{e}}$odory’s Differentiation Criterion
 ---
 
 <div class="topSpace"></div>
@@ -15,7 +15,7 @@ Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
-title: Theorem (Carath$\acute{\textbf{e}}$odory$\textrm{'}$s Differentiation Criterion).
+title: Theorem (Carath$\acute{\textbf{e}}$odory’s Differentiation Criterion).
 
 Fix some $\Omega\subseteq\R$ and a cluster point $c\in\Omega$. A function $f:\Omega\to\R$ is differentiable at $c$ iff there exists a function $\phi:\Omega\to\R$, continuous at $c$, such that
 $$\begin{equation}

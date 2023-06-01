@@ -45,4 +45,4 @@ and since $\sttopR\subseteq\ULtopR$, we see that there exists $B'\in\mc{B}_\text
 
 ![[Images/2022-02-09_182331/image.svg|630]]
 
-(Justification for $I\subseteq B$): In the figure above, the off-axis intervals represent what $B=\l(a,b\r)\comp K$ can be relative to the interval $J$; vertical lines represent ‘holes$\textrm{'}$ in $B$. Observe that in each case, $I=\l(a,b\r)\cap J$ does not contain any points of the form $1/n$ for $n\in\N$, and thus $I\subseteq B$.<span style="float:right;">$\blacksquare$</span>
+(Justification for $I\subseteq B$): In the figure above, the off-axis intervals represent what $B=\l(a,b\r)\comp K$ can be relative to the interval $J$; vertical lines represent ‘holes’ in $B$. Observe that in each case, $I=\l(a,b\r)\cap J$ does not contain any points of the form $1/n$ for $n\in\N$, and thus $I\subseteq B$.<span style="float:right;">$\blacksquare$</span>

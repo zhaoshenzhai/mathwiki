@@ -15,7 +15,7 @@ Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
-title: Theorem (Minkowski$\textrm{'}$s Inequality).
+title: Theorem (Minkowski’s Inequality).
 
 Fix $n\in\N^+$ and take $\v{x}\coloneqq\tpl{x_1,\dots,x_n}$ and $\v{y}\coloneqq\tpl{y_1,\dots,y_n}$ in $\R^n$. For all $p\geq1$, we have
 $$\begin{equation}
@@ -28,7 +28,7 @@ $$\begin{equation}
 $$\begin{equation}
     \sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^p=\sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^{p-1}\l(\l|x_i\r|+\l|y_i\r|\r)=\sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^{p-1}\l|x_i\r|+\sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^{p-1}\l|y_i\r|.
 \end{equation}$$
-Applying Hölder$\textrm{'}$s Inequality, we see that
+Applying Hölder’s Inequality, we see that
 $$\begin{equation}
     \sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^{p-1}\l|x_i\r|\leq\l(\sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^{\l(p-1\r)q}\r)^{1/q}\l(\sum_{i=1}^{n}\l|x_i\r|^p\r)^{1/p}.
 \end{equation}$$
@@ -36,7 +36,7 @@ But $p$ and $q$ being conjugate exponents imply that $p=q\l(p-1\r)$, so we have
 $$\begin{equation}
     \sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^{p-1}\l|x_i\r|\leq\l(\sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^p\r)^{1/q}\l(\sum_{i=1}^{n}\l|x_i\r|^p\r)^{1/p}.
 \end{equation}$$
-Similarly, Hölder$\textrm{'}$s Inequality on the second factor gives
+Similarly, Hölder’s Inequality on the second factor gives
 $$\begin{equation}
     \sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^{p-1}\l|y_i\r|\leq\l(\sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^p\r)^{1/q}\l(\sum_{i=1}^{n}\l|y_i\r|^p\r)^{1/p},
 \end{equation}$$

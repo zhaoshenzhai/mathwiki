@@ -15,7 +15,7 @@ Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
-title: Theorem (Gauss$\textrm{'}$s Lemma for Irreducibility of Polynomial Rings).
+title: Theorem (Gauss’s Lemma for Irreducibility of Polynomial Rings).
 
 Let $R$ be a UFD and let $F$ be the field of fractions of $R$. For all non-trivial $f\in R\l[x\r]$, $f$ is irreducible in $R\l[x\r]$ iff $f$ is primitive in $R\l[x\r]$ and irreducible in $F\l[x\r]$.
 
@@ -38,4 +38,4 @@ Thus we may write $f=\alpha\beta g'h'$ for some $\alpha,\beta\in F^\times$ and $
 $$\begin{equation}
     \sring{bd}=bd\cont\l(f\r)=\cont\l(bdf\r)=\cont\l(acg'h'\r)=ac\cont\l(g'h'\r)=ac\cont\l(g'\r)\cont\l(h'\r)=\sring{ac}
 \end{equation}$$
-by Gauss$\textrm{'}$s Lemma for Primitivity. Then $bd\sim ac$, so there exists some $u\in R^\times$ such that $ac=ubd$. Then $f=ug'h'$, and since $f$ is irreducible in $R\l[x\r]$, one of $g',h'\in R^\times\subseteq F^\times$.<span style="float:right;">$\blacksquare$</span>
+by Gauss’s Lemma for Primitivity. Then $bd\sim ac$, so there exists some $u\in R^\times$ such that $ac=ubd$. Then $f=ug'h'$, and since $f$ is irreducible in $R\l[x\r]$, one of $g',h'\in R^\times\subseteq F^\times$.<span style="float:right;">$\blacksquare$</span>

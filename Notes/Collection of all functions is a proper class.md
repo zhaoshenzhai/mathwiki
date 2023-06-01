@@ -25,4 +25,4 @@ In other words, the set $z$ contains all functions of the form
 $$\begin{equation}
     f=\l\{\tpl{x,x}\r\}=\l\{\l\{\l\{x\r\},\l\{x,x\r\}\r\}\r\}=\l\{\l\{\l\{x\r\}\r\}\r\}.
 \end{equation}$$
-Observe that $\bigcup\bigcup z=\l\{\l\{x\r\}\r\}$; since $x$ is arbitrary, this set is the ‘set of all singletons$\textrm{'}$ which contradicts the fact that there is none.<span style="float:right;">$\blacksquare$</span>
+Observe that $\bigcup\bigcup z=\l\{\l\{x\r\}\r\}$; since $x$ is arbitrary, this set is the ‘set of all singletons’ which contradicts the fact that there is none.<span style="float:right;">$\blacksquare$</span>

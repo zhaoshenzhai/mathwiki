@@ -25,4 +25,4 @@ Let $T:V\to V$ be a linear operator on a $K$-vector space $V$. For all $f_1,f_2\
 
 ---
 
-<i>Proof.</i> Suppose $v\in\hat{K}_{f_1}^T\cap\hat{K}_{f_2}^T$, so $f_1\!\l(T\r)^nv=0$ and $f_2\!\l(T\r)^mv=0$ for some $n,m\in\N$. But $f_1$ and $f_2$ are coprime, so Bézout$\textrm{'}$s Identity furnish polynomials $a,b\in K\l[x\r]$ such that $af_1^n\!\l(T\r)+bf_2^m\!\l(T\r)=\id_V$. Applying $v$ on both sides, we see that $v=0$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Suppose $v\in\hat{K}_{f_1}^T\cap\hat{K}_{f_2}^T$, so $f_1\!\l(T\r)^nv=0$ and $f_2\!\l(T\r)^mv=0$ for some $n,m\in\N$. But $f_1$ and $f_2$ are coprime, so Bézout’s Identity furnish polynomials $a,b\in K\l[x\r]$ such that $af_1^n\!\l(T\r)+bf_2^m\!\l(T\r)=\id_V$. Applying $v$ on both sides, we see that $v=0$.<span style="float:right;">$\blacksquare$</span>

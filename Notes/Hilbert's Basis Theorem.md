@@ -15,7 +15,7 @@ Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
-title: Theorem (Hilbert$\textrm{'}$s Basis Theorem).
+title: Theorem (Hilbert’s Basis Theorem).
 
 Let $R$ be a commutative ring. If $R$ is Noetherian, then $R\l[x\r]$ is also Noetherian.
 

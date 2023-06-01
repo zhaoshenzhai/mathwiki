@@ -60,7 +60,7 @@ $$\begin{align}
     &=\frac{1}{g\l(c\r)^2}\l[g\l(c\r)\l(\lim\limits_{x\to p}\frac{f\l(x\r)-f\l(c\r)}{x-c}\r)-f\l(c\r)\l(\lim\limits_{x\to p}\frac{g\l(x\r)-g\l(c\r)}{x-c}\r)\r] && \textrm{Continuity of $f$ and $g$} \\
     &=\frac{f'\l(c\r)g\l(c\r)-f\l(c\r)g'\l(c\r)}{g\l(c\r)^2}. && \textrm{Definitions of $f'\l(c\r)$ and $g'\l(c\r)$}
 \end{align}$$
-* (Chain Rule): Since $f$ is differentiable at $c$, Carath$\acute{\textrm{e}}$odory$\textrm{'}$s Criterion furnishes a function $\phi:\Omega_1\to\R$, continuous at $c$, such that $\phi\l(c\r)=f'\l(c\r)$ and
+* (Chain Rule): Since $f$ is differentiable at $c$, Carath$\acute{\textrm{e}}$odory’s Criterion furnishes a function $\phi:\Omega_1\to\R$, continuous at $c$, such that $\phi\l(c\r)=f'\l(c\r)$ and
 $$\begin{equation}
     f\l(x\r)-f\l(c\r)=\phi\l(x\r)\l(x-c\r)
 \end{equation}$$
@@ -72,7 +72,7 @@ for all $y\in\Omega_2$. Then, for all $x\in\Omega_1$, let $y\coloneqq f\l(x\r)\i
 $$\begin{equation}
     g\l(f\l(x\r)\r)-g\l(f\l(c\r)\r)=\psi\l(f\l(x\r)\r)\l[f\l(x\r)-f\l(c\r)\r]=\psi\l(f\l(x\r)\r)\phi\l(x\r)\l(x-c\r).
 \end{equation}$$
-Since $\phi$ is continuous at $c$ and $\psi$ is continuous at $f\l(c\r)$, we see that the function $\l(\psi\circ f\r)\cdot\phi$ is continuous at $c$ too. Thus, by Carath$\acute{\textrm{e}}$odory$\textrm{'}$s Criterion, $g\circ f$ is differentiable at $c$ with
+Since $\phi$ is continuous at $c$ and $\psi$ is continuous at $f\l(c\r)$, we see that the function $\l(\psi\circ f\r)\cdot\phi$ is continuous at $c$ too. Thus, by Carath$\acute{\textrm{e}}$odory’s Criterion, $g\circ f$ is differentiable at $c$ with
 $$\begin{equation}
     \l(g\circ f\r)'\l(c\r)=\l[\l(\psi\circ f\r)\cdot\phi\r]\l(c\r)=\psi\l(f\l(c\r)\r)\phi\l(c\r)=g'\l(f\l(c\r)\r)f'\l(c\r).\qedin
 \end{equation}$$

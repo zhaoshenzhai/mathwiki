@@ -32,4 +32,4 @@ $\begin{alignat}{2}
 
 ---
 
-<b>Remark.</b> In other words, the two ‘standard$\textrm{'}$ topologies that one can impose on $S\times T$, either by considering the product topology on $X\times Y$ then restricting to $S\times T\subseteq X\times Y$ or first restricting to $S\subseteq X$ and $T\subseteq Y$ then taking the product, coincide.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, the two ‘standard’ topologies that one can impose on $S\times T$, either by considering the product topology on $X\times Y$ then restricting to $S\times T\subseteq X\times Y$ or first restricting to $S\subseteq X$ and $T\subseteq Y$ then taking the product, coincide.<span style="float:right;">$\blacklozenge$</span>

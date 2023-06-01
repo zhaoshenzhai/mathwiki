@@ -17,7 +17,7 @@ Let $V$ be a $K$-vector space. If $U\subseteq V$ is a spanning set of $V$, then 
 
 ```
 
-<b>Remark.</b> In other words, every spanning set of a vector space can be cut down to a basis. This proof requires Zorn$\textrm{'}$s Lemma.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, every spanning set of a vector space can be cut down to a basis. This proof requires Zorn’s Lemma.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
@@ -29,6 +29,6 @@ of all linearly independent subsets of $U$, and let $\mc{B}\in\ms{L}$ be of grea
 $$\begin{equation}
     \fa\mc{L}\in\ms{L}:\l|\mc{B}\r|\geq\l|\mc{L}\r|.
 \end{equation}$$
-We claim that $\mc{B}$ is a basis for $V$. (<b>Insert Zorn$\textrm{'}$s Lemma</b>)
+We claim that $\mc{B}$ is a basis for $V$. (<b>Insert Zorn’s Lemma</b>)
 
 Since $\mc{B}\in\ms{L}$, we see that $\mc{B}$ is linearly independent and so it suffices to show that $\span\mc{B}=V$. Assume, for sake of contradiction, that $\span\mc{B}\neq V$. Certainly then there exists some $v\in V$ not spanned by $\mc{B}$; we claim that there exists such an element $u\in U$ too. Indeed, the fact that $\span U=V$ implies that $U\subseteq\span\mc{B}\Rightarrow\span\mc{B}=V$, so there must exist some $u\in U$ such that $u\not\in\span\mc{B}$; observe that $u\not\in\mc{B}$ too. But then $\mc{B}\cup\l\{u\r\}$ is a linearly independent subset of $U$ with $\l|\mc{B}\cup\l\{u\r\}\r|>\l|\mc{B}\r|$, contradicting that fact that $\mc{B}$ has the greatest cardinality.<span style="float:right;">$\blacksquare$</span>

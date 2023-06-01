@@ -43,7 +43,7 @@ Observe then that $p_1<\cdots<p_k$ are all distinct and that $n=p_1^{\alpha_1}\c
 $$\begin{equation}
     q_1^{\beta_1}\cdots q_l^{\beta_l}=p_1\l(p_1^{\alpha_1-1}\cdots p_k^{\alpha_k}\r)\ \ \ \ \Rightarrow\ \ \ \ p_1\l|\l(q_1^{\beta_1}\cdots q_l^{\beta_l}\r)\r..
 \end{equation}$$
-By Euclid$\textrm{'}$s Lemma, there exists $j\in\l\{1,\dots,l\r\}$ such that $p_1\divides q_j$. But since $p$ is prime, it must be the case that $p_1=q_j$. Similarly, there exists $i\in\l\{1,\dots,k\r\}$ such that $q_1\divides p_i$ which implies that $q_1=p_i$. Thus we obtain
+By Euclid’s Lemma, there exists $j\in\l\{1,\dots,l\r\}$ such that $p_1\divides q_j$. But since $p$ is prime, it must be the case that $p_1=q_j$. Similarly, there exists $i\in\l\{1,\dots,k\r\}$ such that $q_1\divides p_i$ which implies that $q_1=p_i$. Thus we obtain
 $$\begin{equation}
     p_1\leq p_i=q_1\leq q_j=p_1,
 \end{equation}$$

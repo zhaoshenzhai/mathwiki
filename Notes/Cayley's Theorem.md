@@ -15,7 +15,7 @@ Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
-title: Theorem (Cayley$\textrm{'}$s Theorem).
+title: Theorem (Cayley’s Theorem).
 
 Let $G$ be a group. Then there exists an injective group homomorphism $\phi:G\into\Aut\l(G\r)$.
 

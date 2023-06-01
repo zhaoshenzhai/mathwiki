@@ -29,7 +29,7 @@ $$\begin{equation}
         \phi\l(x\r) & \textrm{else}
     \end{dcases}
 \end{equation}$$
-where $\phi:X\comp\l\{a_1,\dots,a_k\r\}\to X\comp\l\{b_1,\dots,b_k\r\}$ is an arbitrary bijection that exist since the cardinalities coincide. Since $\alpha$ is a cycle, we see that the $a_i$$\textrm{'}$s are all distinct and hence $\sigma$ is well-defined; we claim that $\sigma\in\Sym\l(X\r)$ and that $\alpha=\sigma^{-1}\beta\sigma$.
+where $\phi:X\comp\l\{a_1,\dots,a_k\r\}\to X\comp\l\{b_1,\dots,b_k\r\}$ is an arbitrary bijection that exist since the cardinalities coincide. Since $\alpha$ is a cycle, we see that the $a_i$’s are all distinct and hence $\sigma$ is well-defined; we claim that $\sigma\in\Sym\l(X\r)$ and that $\alpha=\sigma^{-1}\beta\sigma$.
 * ($\sigma\in\Sym\l(X\r)$): To show that $\sigma$ is injective, take $x_1,x_2\in X$ such that $\sigma\l(x_1\r)=\sigma\l(x_2\r)$. We first note that $x_1=a_i$ for some $i$ iff $x_2=a_j$ for some $j$. Assume that $x_1=a_i$ for some $i$; the converse is analogous. If $x_2\neq a_j$ for any $j$, then $\sigma\l(x_2\r)=\phi\l(x_2\r)\not\in B\ni\sigma\l(x_1\r)$ and so $\sigma\l(x_1\r)\neq\sigma\l(x_2\r)$. Thus we have two cases, instead of four.
     * If $x_1=a_i$ for some $i$, then there exist $j$ such that $x_2=a_j$. Thus $\sigma\l(x_1\r)=b_i$ and $\sigma\l(x_2\r)=b_j$, but this forces $i=j$, so $x_1=a_i=a_j=x_2$.
     * If $x_1\neq a_i$ for any $i$, then $x_2\neq a_j$ for any $j$. Thus $\sigma\l(x_1\r)=\phi\l(x_2\r)$ and $\sigma\l(x_2\r)=\phi\l(x_2\r)$, so $\phi\l(x_1\r)=\phi\l(x_2\r)$. Since $\phi$ is a bijection, we have $x_1=x_2$.

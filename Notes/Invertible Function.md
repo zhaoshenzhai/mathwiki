@@ -23,7 +23,7 @@ commutes; that is, if $g$ is both a left and a right-inverse of $f$, in which ca
 
 ```
 
-<b>Remark.</b> That is, invertible functions are isomorphisms in $\catset$. Since ‘is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $X\iso Y$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That is, invertible functions are isomorphisms in $\catset$. Since ‘is isomorphic to’ is an equivalence relation, we shall write $X\iso Y$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

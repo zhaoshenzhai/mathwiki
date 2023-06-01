@@ -20,7 +20,7 @@ Unique to $\R$ is a that it is a [Dedekind-complete](Dedekind-complete%20Ordered
 <b>Characterizations.</b> As with all metric spaces, functional limits can be [characterized](Sequential%20Criterion%20for%20Functional%20Limits.md) in terms of sequential limits, which, in turn, [characterizes](Sequential%20slash%20functional%20limit%20characterizations%20of%20continuity.md) continuous functions. Unique to $\R$ is that it is [metric-complete](Metric-completeness%20of%20R.md), so a sequence converges $\Leftrightarrow$ it is Cauchy.
 * Furthermore, one may use the order structure on $\R$ to define the [limit superior$/$inferior](Limit%20Superior%20slash%20Inferior.md) of a bounded sequence, which can be [characterized](Criteria%20for%20limit%20superior%20slash%20inferior.md) in several ways, and the [limits coincide $\Leftrightarrow$ the sequence converges](Convergence%20Criteria%20in%20R.md).
 
-Differentiable functions in $\R$ can also be characterized in terms of the [Fundamental Increment Lemma](Fundamental%20Increment%20Lemma.md) and [Carath$\acute{\textrm{e}}$odory$\textrm{'}$s Criterion](Caratheodory's%20Differentation%20Criterion.md).<span style="float:right;">$\blacklozenge$</span>
+Differentiable functions in $\R$ can also be characterized in terms of the [Fundamental Increment Lemma](Fundamental%20Increment%20Lemma.md) and [Carath$\acute{\textrm{e}}$odory’s Criterion](Caratheodory's%20Differentation%20Criterion.md).<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -15,7 +15,7 @@ Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
-title: Proposition (Young$\textrm{'}$s Inequality for Products).
+title: Proposition (Young’s Inequality for Products).
 
 Let $a,b\in\R_0^+$ and let $1<p,q<+\infty$ be conjugate exponents. Then
 $$\begin{equation}

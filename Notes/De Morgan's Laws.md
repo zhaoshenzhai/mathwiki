@@ -15,7 +15,7 @@ Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
-title: Theorem (De Morgan$\textrm{'}$s Laws).
+title: Theorem (De Morgan’s Laws).
 
 Let $V$ be a set and let $\l\{U_i\r\}_{i\in I}$ be a non-empty indexed family of sets. Then
 $$\begin{equation}

@@ -29,4 +29,4 @@ for all $\v{x}\coloneqq\tpl{x_1,\dots,x_n}\in\R^n$.
 $$\begin{equation}
     \|\v{x}+\v{y}\|_p=\l(\sum_{i=1}^{n}\l|x_i+y_i\r|^p\r)^{1/p}\leq\l(\sum_{i=1}^{n}\l(\l|x_i\r|+\l|y_i\r|\r)^p\r)^{1/p}\leq\l(\sum_{i=1}^{n}\l|x_n\r|^p\r)^{1/p}\!+\l(\sum_{i=1}^{n}\l|y_n\r|^p\r)^{1/p}=\|\v{x}\|_p+\|\v{y}\|_p
 \end{equation}$$
-where the second inequality follows from the Minkowski$\textrm{'}$s Inequality.<span style="float:right;">$\blacksquare$</span>
+where the second inequality follows from the Minkowski’s Inequality.<span style="float:right;">$\blacksquare$</span>

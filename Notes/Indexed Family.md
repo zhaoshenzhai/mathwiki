@@ -20,7 +20,7 @@ Let $I$ and $\mc{A}$ be sets. An <b>$I$-indexed family of sets in $\mc{A}$</b> i
 
 ```
 
-<b>Remark.</b> If $f:I\to\mc{A}$ is an indexed family, write $A_i\coloneqq f\l(i\r)$ and $\l\{A_i\r\}_{i\in I}\coloneqq f$ instead. A function is considered to be an indexed family if the focus is on the set $\mc{A}$ where we allow duplicate elements. The set $\mc{A}$ by itself excludes this possibility, so we need to ‘index$\textrm{'}$ the elements $A\in\mc{A}$ to differentiate duplicate elements.
+<b>Remark.</b> If $f:I\to\mc{A}$ is an indexed family, write $A_i\coloneqq f\l(i\r)$ and $\l\{A_i\r\}_{i\in I}\coloneqq f$ instead. A function is considered to be an indexed family if the focus is on the set $\mc{A}$ where we allow duplicate elements. The set $\mc{A}$ by itself excludes this possibility, so we need to ‘index’ the elements $A\in\mc{A}$ to differentiate duplicate elements.
 * Indeed, we shall sometimes call $\l\{A_i\r\}$ an <b>indexed set</b> and, if $\mc{A}\subseteq\mc{B}$ for some set $\mc{B}$, we say that $\l\{A_i\r\}$ is an <b>indexed subset of $\mc{B}$</b>. Abusing notation, we write $\l\{A_i\r\}\subseteq\mc{B}$.<span style="float:right;">$\blacklozenge$</span>
 
 ---

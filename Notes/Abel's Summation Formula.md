@@ -15,7 +15,7 @@ Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
-title: Proposition (Abel$\textrm{'}$s Summation Formula).
+title: Proposition (Abel’s Summation Formula).
 
 Let $\tpl{a_k}_{k=1}^\infty$ and $\tpl{b_k}_{k=1}^\infty$ be sequences in $\R$ and let $\tpl{s_n}$ be the sequence of partial sums of $b_k$, say with $s_0\coloneqq0$. Then, for any $m>n$, we have
 $$\begin{equation}

@@ -28,7 +28,7 @@ is called the <b>generalized eigenspace of $T$ corresponding to $\lambda$</b>. A
 
 ```
 
-<b>Remark.</b> Clearly $E_\lambda\subseteq\hat{E}_\lambda$. Also, there are no ‘generalized eigenvalues$\textrm{'}$, since, if $\hat{E}_\lambda\neq\l\{0\r\}$, then $\lambda$ is an eigenvalue in the regular sense. Indeed, let $0\neq v\in\hat{E}_\lambda$, so there exists a smallest $n\in\N^+$ such that $\l(\lambda\id_V-T\r)^nv=0$. Then $0\neq v'\coloneqq\l(\lambda\id_V-T\r)^{n-1}v$, so $\l(\lambda-\id_VT\r)v'=0$. Thus $\lambda$ is an eigenvalue in the usual sense.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Clearly $E_\lambda\subseteq\hat{E}_\lambda$. Also, there are no ‘generalized eigenvalues’, since, if $\hat{E}_\lambda\neq\l\{0\r\}$, then $\lambda$ is an eigenvalue in the regular sense. Indeed, let $0\neq v\in\hat{E}_\lambda$, so there exists a smallest $n\in\N^+$ such that $\l(\lambda\id_V-T\r)^nv=0$. Then $0\neq v'\coloneqq\l(\lambda\id_V-T\r)^{n-1}v$, so $\l(\lambda-\id_VT\r)v'=0$. Thus $\lambda$ is an eigenvalue in the usual sense.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

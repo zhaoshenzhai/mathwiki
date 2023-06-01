@@ -17,7 +17,7 @@ Let $G$ be a group acting on a set $X$ and fix $x\in X$. Then there is a bijecti
 
 ```
 
-<b>Remark.</b> If $G$ is finite, then $\l|Gx\r|=\l[G:G_x\r]=\l|G\r|/\l|G_x\r|$ by Lagrange$\textrm{'}$s Theorem. Thus $\l|Gx\r|$ divides $\l|G\r|$, which is a strong constraint.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $G$ is finite, then $\l|Gx\r|=\l[G:G_x\r]=\l|G\r|/\l|G_x\r|$ by Lagrange’s Theorem. Thus $\l|Gx\r|$ divides $\l|G\r|$, which is a strong constraint.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -21,7 +21,7 @@ For all $n\in\N^+$, we have $n=\sum_{m\divides n}\phi\l(m\r)$.
 
 ```
 
-<i>Proof.</i> Let $G$ be a cyclic group of order $n$ and observe, by Lagrange$\textrm{'}$s Theorem, that
+<i>Proof.</i> Let $G$ be a cyclic group of order $n$ and observe, by Lagrange’s Theorem, that
 $$\begin{equation}
     n=\l|G\r|=\sum_{1\leq m\leq n}\#\l\{g\in G\mid\ord{g}=m\r\}=\sum_{m\divides n}\#\l\{g\in G\mid\ord{g}=m\r\}.
 \end{equation}$$

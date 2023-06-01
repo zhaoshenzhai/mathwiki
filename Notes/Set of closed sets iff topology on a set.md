@@ -54,18 +54,18 @@ $$\begin{equation}
 * ($\Rightarrow$): Assume that $\mc{T}$ satisfies $\axitop[1]$ to $\axitop[3]$, so $\mc{F}$ is the set of closed sets of $X$.
     * ($\axitopcl[1]$): Observe that $X\comp\em=X\in\mc{T}$, so $\em\in\mc{F}$. Similarly, we have $X\comp X=\em\in\mc{T}$ and thus $X\in\mc{F}$.
 
-    * ($\axitopcl[2]$): Take a non-empty collection $\mc{C}\subseteq\mc{F}$. Using De Morgan$\textrm{'}$s Laws and $\axitop[2]$, we see that$$\begin{equation}
+    * ($\axitopcl[2]$): Take a non-empty collection $\mc{C}\subseteq\mc{F}$. Using De Morgan’s Laws and $\axitop[2]$, we see that$$\begin{equation}
             X\comp\bigcap\mc{C}=\bigcup\underbrace{\l\{X\comp C\mid C\in\mc{C}\r\}}_{\mathclap{\subseteq\mc{T}\textrm{ from (1)}}}\in\mc{T}\ \ \ \ \Rightarrow\ \ \ \ \bigcap\mc{C}\in\mc{F}.
         \end{equation}$$
-    * ($\axitopcl[3]$): Take a finite collection $\mc{C}\subseteq\mc{F}$. If $\mc{C}=\em$, then $\bigcup\mc{C}=\em\in\mc{F}$ from $\axitopcl[1]$. Otherwise, using De Morgan$\textrm{'}$s Laws and $\axitop[3]$, we see that$$\begin{equation}
+    * ($\axitopcl[3]$): Take a finite collection $\mc{C}\subseteq\mc{F}$. If $\mc{C}=\em$, then $\bigcup\mc{C}=\em\in\mc{F}$ from $\axitopcl[1]$. Otherwise, using De Morgan’s Laws and $\axitop[3]$, we see that$$\begin{equation}
             X\comp\bigcup\mc{C}=\bigcap\underbrace{\l\{X\comp C\mid C\in\mc{C}\r\}}_{\mathclap{\subseteq\mc{T}\textrm{ from (1)}}}\in\mc{T}\ \ \ \ \Rightarrow\ \ \ \ \bigcup\mc{C}\in\mc{F}.
         \end{equation}$$
 * ($\Leftarrow$): Assume that $\mc{F}$ satisfies $\axitopcl[1]$ to $\axitopcl[3]$.
     * ($\axitop[1]$): Observe that $X\comp\em=X\in\mc{F}$, so $\em\in\mc{T}$. Similarly, we have $X\comp X=\em\in\mc{F}$ and thus $X\in\mc{T}$.
 
-    * ($\axitop[2]$): Take a collection $\mc{U}\subseteq\mc{T}$. If $\mc{U}=\em$, then $\bigcup\mc{U}=\em\in\mc{T}$ from $\axitop[1]$. Otherwise, using De Morgan$\textrm{'}$s Laws and $\axitopcl[2]$, we see that$$\begin{equation}
+    * ($\axitop[2]$): Take a collection $\mc{U}\subseteq\mc{T}$. If $\mc{U}=\em$, then $\bigcup\mc{U}=\em\in\mc{T}$ from $\axitop[1]$. Otherwise, using De Morgan’s Laws and $\axitopcl[2]$, we see that$$\begin{equation}
             X\comp\bigcup\mc{U}=\bigcap\underbrace{\l\{X\comp U\mid U\in\mc{U}\r\}}_{\mathclap{\subseteq\mc{F}\textrm{ from (2)}}}\in\mc{F}\ \ \ \ \Rightarrow\ \ \ \ \bigcup\mc{U}\in\mc{T}.
         \end{equation}$$
-    * ($\axitop[3]$): Take a non-empty finite collection $\mc{U}\subseteq\mc{T}$. Using De Morgan$\textrm{'}$s Laws and $\axitopcl[3]$, we see that$$\begin{equation}
+    * ($\axitop[3]$): Take a non-empty finite collection $\mc{U}\subseteq\mc{T}$. Using De Morgan’s Laws and $\axitopcl[3]$, we see that$$\begin{equation}
             X\comp\bigcap\mc{U}=\bigcup\underbrace{\l\{X\comp U\mid U\in\mc{U}\r\}}_{\mathclap{\subseteq\mc{F}\textrm{ from (2)}}}\in\mc{F}\ \ \ \ \Rightarrow\ \ \ \ \bigcap\mc{U}\in\mc{T}.\qedin
         \end{equation}$$

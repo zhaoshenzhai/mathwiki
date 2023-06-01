@@ -20,7 +20,7 @@ $$\begin{equation}
 
 ```
 
-<b>Remark.</b> Thus the number of orbits is the ‘average$\textrm{'}$ over $g\in G$ of the number of points $x\in X$ fixed by $g$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Thus the number of orbits is the ‘average’ over $g\in G$ of the number of points $x\in X$ fixed by $g$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
