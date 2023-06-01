@@ -131,7 +131,7 @@
     {
       "title": "Apostrophe",
       "replaced": "'",
-      "replacement": "$\\textrm{'}$",
+      "replacement": "’",
       "globalMatch": true,
       "sensitive": true,
       "word": false
