@@ -21,4 +21,4 @@ The collection of all singletons form a proper class. Formally, $\fa v\ex u\l(\l
 $$\begin{equation}
     x\in\bigcup v\Leftrightarrow\ex z\l(x\in z\land z\in v\r)
 \end{equation}$$
-by definition of union. But the latter formula is always true; simply take $z=\l\{x\r\}$. Obviously $x\in\l\{x\r\}$ and, by assumption, we have $\l\{x\r\}\in v$. Thus $\bigcup v$ is $\textrm{`}$set of all sets$\textrm{'}$, which contradicts the fact that there is none.<span style="float:right;">$\blacksquare$</span>
+by definition of union. But the latter formula is always true; simply take $z=\l\{x\r\}$. Obviously $x\in\l\{x\r\}$ and, by assumption, we have $\l\{x\r\}\in v$. Thus $\bigcup v$ is ‘set of all sets$\textrm{'}$, which contradicts the fact that there is none.<span style="float:right;">$\blacksquare$</span>

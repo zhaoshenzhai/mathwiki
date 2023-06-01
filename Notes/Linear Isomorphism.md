@@ -20,4 +20,4 @@ Let $V$ and $W$ be $K$-vector spaces. We say that $V$ and $W$ are <b>linearly is
 
 ```
 
-<b>Remark.</b> That is, linear isomorphisms are isomorphisms in $\catvect$. Since $\textrm{`}$is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $V\iso W$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That is, linear isomorphisms are isomorphisms in $\catvect$. Since ‘is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $V\iso W$.<span style="float:right;">$\blacklozenge$</span>

@@ -26,7 +26,7 @@ Thus $\l\{U_\alpha\r\}$ is an open cover of $X$, so compactness of $X$ furnishes
 $$\begin{equation}
     \bigcap_{i=1}^{k}F_{\alpha_i}=\bigcap_{i=1}^{k}X\comp U_{\alpha_i}=X\comp\bigcup_{i=1}^{k}U_{\alpha_i}=X\comp X=\em,
 \end{equation}$$
-contradicting the $\textrm{`}$finite-intersection property$\textrm{'}$ of $\l\{F_\alpha\r\}$.
+contradicting the ‘finite-intersection property$\textrm{'}$ of $\l\{F_\alpha\r\}$.
 
 * ($\Leftarrow$): Let $\l\{U_\alpha\r\}_{\alpha\in\mc{A}}$ be an open cover of $X$ and suppose, for sake of contradiction, that it has no finite subcover. For each $\alpha\in\mc{A}$, set $F_\alpha\coloneqq X\comp U_\alpha$, which is closed, and observe that
 $$\begin{equation}

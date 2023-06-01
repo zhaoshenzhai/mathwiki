@@ -28,4 +28,4 @@ That is, it is the statement that there exists an inductive set $I$.<span style=
 
 ---
 
-<b>Remark.</b> This axiom does not directly define the $\textrm{`}$set of all natural numbers$\textrm{'}$ $\omega$. Rather, it asserts the existence of some inductive set that, by the Principle of Ordinary Induction, contains $\omega$ as a subset.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> This axiom does not directly define the ‘set of all natural numbers$\textrm{'}$ $\omega$. Rather, it asserts the existence of some inductive set that, by the Principle of Ordinary Induction, contains $\omega$ as a subset.<span style="float:right;">$\blacklozenge$</span>

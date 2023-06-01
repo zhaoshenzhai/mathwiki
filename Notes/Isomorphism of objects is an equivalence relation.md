@@ -17,7 +17,7 @@ Let $\cat{C}$ be a category. Then the relation $\iso$ on any collection of $\cat
 
 ```
 
-<b>Remark.</b> Here, $\iso$ is taken as a $\textrm{`}$binary relation$\textrm{'}$ defined by $X\iso Y$ iff there exists an isomorphism $f:X\to Y$; it is <i>not</i> a binary relation in the strict sense since $\Obj\l(\cat{C}\r)$ need not be a set.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Here, $\iso$ is taken as a ‘binary relation$\textrm{'}$ defined by $X\iso Y$ iff there exists an isomorphism $f:X\to Y$; it is <i>not</i> a binary relation in the strict sense since $\Obj\l(\cat{C}\r)$ need not be a set.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

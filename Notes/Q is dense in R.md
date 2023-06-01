@@ -25,7 +25,7 @@ Fix $x,y\in\R$ such that $x<y$. Then there exists some $q\in\Q$ such that $x<q<y
 $$\begin{equation}
     x<y-\frac{1}{m}.\cref{\ast}
 \end{equation}$$
-Fix any $l\in\Q$ with $l<x$, and consider the set $A\coloneqq\l\{q\in\Q\mid\ex n\in\N:q=n/m\land l\leq q<y\r\}$. The idea is to $\textrm{`}$sweep$\textrm{'}$ through all rationals starting from $l$, with each step size being $1/n$, until we reach some rational $n/m$ between $x$ and $y$. Formalizing this, let $I\coloneqq\l\{i\in\N\mid i\geq my\r\}$. Archimedeanity of $\R$ furnishes some $j\in\N$ such that $j>my$, so $I\neq\em$. Hence, by well-ordering of $\N$, there exists a minimal element $k\in I$; that is, $k\geq my$ but $k-1<my$. Set
+Fix any $l\in\Q$ with $l<x$, and consider the set $A\coloneqq\l\{q\in\Q\mid\ex n\in\N:q=n/m\land l\leq q<y\r\}$. The idea is to ‘sweep$\textrm{'}$ through all rationals starting from $l$, with each step size being $1/n$, until we reach some rational $n/m$ between $x$ and $y$. Formalizing this, let $I\coloneqq\l\{i\in\N\mid i\geq my\r\}$. Archimedeanity of $\R$ furnishes some $j\in\N$ such that $j>my$, so $I\neq\em$. Hence, by well-ordering of $\N$, there exists a minimal element $k\in I$; that is, $k\geq my$ but $k-1<my$. Set
 $$\begin{equation}
     p\coloneqq\frac{k-1}{m}.
 \end{equation}$$

@@ -27,4 +27,4 @@ $$\begin{equation}
 
 ---
 
-<b>Remark.</b> One can also write the intersection $\bigcap\mc{A}$ using $\textrm{`}$index$\textrm{'}$ notation as $\bigcap_{i\in I}A_i$ This is formalized by viewing $\mc{A}$ as an indexed family $\l\{A_i\r\}_{i\in I}$, so the focus shifts from $\mc{A}$ to its elements $A_i$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> One can also write the intersection $\bigcap\mc{A}$ using ‘index$\textrm{'}$ notation as $\bigcap_{i\in I}A_i$ This is formalized by viewing $\mc{A}$ as an indexed family $\l\{A_i\r\}_{i\in I}$, so the focus shifts from $\mc{A}$ to its elements $A_i$.<span style="float:right;">$\blacklozenge$</span>

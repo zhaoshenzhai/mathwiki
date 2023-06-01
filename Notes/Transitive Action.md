@@ -20,4 +20,4 @@ Let $G$ be a group acting on a set $X$ via $\phi:G\to\Aut\l(X\r)$. The action $\
 
 ```
 
-<b>Remark.</b> In other words, $\phi$ is transitive iff there is only one orbit; that is, $X$ is $\textrm{`}$connected$\textrm{'}$ via actions.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, $\phi$ is transitive iff there is only one orbit; that is, $X$ is ‘connected$\textrm{'}$ via actions.<span style="float:right;">$\blacklozenge$</span>

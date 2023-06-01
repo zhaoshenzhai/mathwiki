@@ -30,7 +30,7 @@ $$\begin{equation}
     T\coloneqq\l\{t\in\R\mid t^n<x\r\}.
 \end{equation}$$
 Since $0\in T$, we see that $T\neq\em$. Also, $T$ is bounded above by $x+1$, so, since $\R$ is Dedekind-complete, $T$ admits a supremum $y\coloneqq\sup T$. We claim that $y^n=x$, for which we proceed by contradiction.
-* ($y^n<x$): It suffices to find some $\epsilon>0$ such that $y+\epsilon\in T$, which will then contradict the fact that $y$ is an upper bound of $T$. In other words, we need $\epsilon>0$ such that $\l(y+\epsilon\r)^n<x$. Indeed, since $\l(y+\epsilon\r)^n-y^n$ is intuitively $\textrm{`}$small$\textrm{'}$, we consider the estimate
+* ($y^n<x$): It suffices to find some $\epsilon>0$ such that $y+\epsilon\in T$, which will then contradict the fact that $y$ is an upper bound of $T$. In other words, we need $\epsilon>0$ such that $\l(y+\epsilon\r)^n<x$. Indeed, since $\l(y+\epsilon\r)^n-y^n$ is intuitively ‘small$\textrm{'}$, we consider the estimate
 $$\begin{equation}
     \begin{aligned}
         \l(y+\epsilon\r)^n-y^n&\leq\epsilon n\l(y+\epsilon\r)^{n-1} && \textrm{Difference of powers} \\

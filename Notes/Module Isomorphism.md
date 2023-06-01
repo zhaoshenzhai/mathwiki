@@ -20,4 +20,4 @@ Let $M$ and $N$ be $R$-modules. We say that $M$ and $N$ are <b>isomorphic as $R$
 
 ```
 
-<b>Remark.</b> That is, $R$-module isomorphisms are isomorphisms in $\catmod$. Since $\textrm{`}$is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $M\iso N$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That is, $R$-module isomorphisms are isomorphisms in $\catmod$. Since ‘is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $M\iso N$.<span style="float:right;">$\blacklozenge$</span>

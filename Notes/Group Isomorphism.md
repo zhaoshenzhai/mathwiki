@@ -20,4 +20,4 @@ Let $G$ and $H$ be groups. We say that $G$ and $H$ are <b>isomorphic as groups</
 
 ```
 
-<b>Remark.</b> That is, group isomorphisms are isomorphisms in $\catgrp$. Since $\textrm{`}$is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $G\iso H$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That is, group isomorphisms are isomorphisms in $\catgrp$. Since ‘is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $G\iso H$.<span style="float:right;">$\blacklozenge$</span>

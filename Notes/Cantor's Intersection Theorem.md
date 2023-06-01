@@ -34,4 +34,4 @@ Thus $\l\{U_\alpha\r\}$ is an open cover of $K$, so compactness of $K$ furnishes
 $$\begin{equation}
     K\cap\bigcap_{i=1}^{k}K_{\alpha_1}=K\cap\bigcap_{i=1}^{k}X\comp U_{\alpha_i}=K\cap X\comp\bigcup_{i=1}^{k}U_{\alpha_i}\subseteq K\cap\l(X\comp K\r)=\em,
 \end{equation}$$
-contradicting the $\textrm{`}$finite-intersection property$\textrm{'}$ of $\l\{K_\alpha\r\}$.<span style="float:right;">$\blacksquare$</span>
+contradicting the ‘finite-intersection property$\textrm{'}$ of $\l\{K_\alpha\r\}$.<span style="float:right;">$\blacksquare$</span>

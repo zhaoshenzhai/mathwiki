@@ -20,7 +20,7 @@ Let $\cat{C}$ be a category and fix $X,Y\in\Obj\l(\cat{C}\r)$. A <b>$\cat{C}$-mo
 
 ```
 
-<b>Remark.</b> If $f\in\Hom\l(X,Y\r)$, write $f:X\to Y$ and define $\dom f\coloneqq X$ and $\cdm f\coloneqq Y$. Other $\textrm{`}$functional$\textrm{'}$ notations (like $\mapsto$) need not apply.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $f\in\Hom\l(X,Y\r)$, write $f:X\to Y$ and define $\dom f\coloneqq X$ and $\cdm f\coloneqq Y$. Other ‘functional$\textrm{'}$ notations (like $\mapsto$) need not apply.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

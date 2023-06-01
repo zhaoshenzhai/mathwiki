@@ -17,7 +17,7 @@ Let $\tpl{X,\mc{T}}$ be a topological space and let $Y\subseteq X$ be a subspace
 
 ```
 
-<b>Remark.</b> This shows that compactness of $K$ is an $\textrm{`}$intrinsic notion$\textrm{'}$; it does not depend on the ambient space of $K$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> This shows that compactness of $K$ is an ‘intrinsic notion$\textrm{'}$; it does not depend on the ambient space of $K$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

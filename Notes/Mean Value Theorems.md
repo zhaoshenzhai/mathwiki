@@ -13,7 +13,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Mean Value Theorems).
 
-Let $a,b\in\R$ and let $f,g:\l[a,b\r]\to\R$ be continuous on $\l[a,b\r]$ and differentiable on $\l(a,b\r)$. Then the following $\textrm{`}$Mean Value Theorems$\textrm{'}$ hold:
+Let $a,b\in\R$ and let $f,g:\l[a,b\r]\to\R$ be continuous on $\l[a,b\r]$ and differentiable on $\l(a,b\r)$. Then the following ‘Mean Value Theorems$\textrm{'}$ hold:
 * (Rolle$\textrm{'}$s MVT): If $f\l(a\r)=f\l(b\r)$, then there exists some $c\in\l(a,b\r)$ such that $f'\l(c\r)=0$.
 * (Lagrange$\textrm{'}$s MVT): There exists some $c\in\l(a,b\r)$ such that $f\l(b\r)-f\l(a\r)=f'\l(c\r)\l(b-a\r)$.
 * (Cauchy$\textrm{'}$s MVT): There exists some $c\in\l(a,b\r)$ such that $\l[f\l(b\r)-f\l(a\r)\r]g'\l(c\r)=\l[g\l(b\r)-g\l(a\r)\r]f'\l(c\r)$.

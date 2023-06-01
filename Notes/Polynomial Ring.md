@@ -28,4 +28,4 @@ where $u\coloneqq\max\l\{m,n\r\}$ (so if $m>n$, $a_{n+1},\dots,a_m\coloneqq0$, a
 $$\begin{equation}
     f\coloneqq\sum_{i=0}^{n}f_i=\sum_{i=0}^{n}a_ix^i\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ g\coloneqq\sum_{j=0}^{m}g_j=\sum_{j=0}^{m}b_jx^j,
 \end{equation}$$
-define $f\cdot g$ by distributing terms and $\textrm{`}$collecting like terms$\textrm{'}$.<span style="float:right;">$\blacklozenge$</span>
+define $f\cdot g$ by distributing terms and ‘collecting like terms$\textrm{'}$.<span style="float:right;">$\blacklozenge$</span>

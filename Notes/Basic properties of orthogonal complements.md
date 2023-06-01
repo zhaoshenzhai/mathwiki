@@ -21,7 +21,7 @@ Let $V$ be an inner product space. Then $\l\{0\r\}^\perp=V$, $V^\perp=\l\{0\r\}$
 
 ```
 
-<i>Proof.</i> The first two assertions seem to be $\textrm{`}$dual$\textrm{'}$.
+<i>Proof.</i> The first two assertions seem to be ‘dual$\textrm{'}$.
 * ($\l\{0\r\}^\perp=V$): By definition, $v\in\l\{0\r\}^\perp$ iff $\inprod{v}{u}=0$ for all $u\in\l\{0\r\}$, which reduces to $\inprod{v}{0}=0$. But this is true for all $v\in V$ since $0$ is orthogonal to every vector in $V$. Conversely, every $v\in V$ is orthogonal to $0$.
 
 * ($V^\perp=\l\{0\r\}$): By definition, $v\in V^\perp$ iff $\inprod{v}{u}=0$ for all $u\in V$, so, in particular, $\inprod{v}{v}=0$. This forces $v=0$. Conversely, $0$ is orthogonal to every vector $v\in V$.

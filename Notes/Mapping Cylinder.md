@@ -20,4 +20,4 @@ Let $f:X\to Y$ be continuous. The <b>mapping cylinder of $f$</b> is the topologi
 
 ```
 
-<b>Remark.</b> The $\textrm{`}$top$\textrm{'}$ of the cylinder $X\times\l\{1\r\}$ is homeomorphic to $X$, and the bottom $X\times\l\{0\r\}$ is identified with $\im f\subseteq Y$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The ‘top$\textrm{'}$ of the cylinder $X\times\l\{1\r\}$ is homeomorphic to $X$, and the bottom $X\times\l\{0\r\}$ is identified with $\im f\subseteq Y$.<span style="float:right;">$\blacklozenge$</span>

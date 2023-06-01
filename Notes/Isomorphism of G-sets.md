@@ -24,4 +24,4 @@ Let $G$ be a group acting on sets $X$ and $Y$. We say that $X$ and $Y$ are <b>is
 
 ```
 
-<b>Remark.</b> That is, $G$-isomorphisms are isomorphisms in $\catgset$. Since $\textrm{`}$is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $X\iso Y$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That is, $G$-isomorphisms are isomorphisms in $\catgset$. Since ‘is isomorphic to$\textrm{'}$ is an equivalence relation, we shall write $X\iso Y$.<span style="float:right;">$\blacklozenge$</span>

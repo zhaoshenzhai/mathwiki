@@ -21,7 +21,7 @@ Justifications: <i>Not Applicable</i>
 title: Definition.
 
 Let $X$ be a set and fix $n\in\N$. An <b>operation of arity $n$ on $X$</b> (or an <b>$n$-ary operation on $X$</b>) is a function $f:X^n\to X$.
-* If $n=0$, $X^0=X^\em=\prod_{i\in\em}X_i=\l\{\em\r\}$ and so $f:\l\{\em\r\}\to X$. The $\textrm{`}$information$\textrm{'}$ in $f$ is essentially just $f\l(\em\r)\in X$, so a <b>nullary operation on $X$</b> can be viewed as a fixed but arbitrary constant $x_0\in X$.
+* If $n=0$, $X^0=X^\em=\prod_{i\in\em}X_i=\l\{\em\r\}$ and so $f:\l\{\em\r\}\to X$. The ‘information$\textrm{'}$ in $f$ is essentially just $f\l(\em\r)\in X$, so a <b>nullary operation on $X$</b> can be viewed as a fixed but arbitrary constant $x_0\in X$.
 * If $n=1$, $f:X\to X$ is a <b>unary operation on $X$</b>.
 * If $n=2$, $f:X\times X\to X$ is a <b>binary operation on $X$</b>.
 

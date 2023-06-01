@@ -25,7 +25,7 @@ Furthermore, we have $X/R_\Pi=\Pi$ and $R_{X/R}=R$.
 
 ![[Images/2022-02-09_222004/image.svg|650]]
 
-The statements $X/R_\Pi=\Pi$ and $R_{X/R}=R$ are then viewed as $\textrm{`}$compatibility statements$\textrm{'}$, guaranteeing that the
+The statements $X/R_\Pi=\Pi$ and $R_{X/R}=R$ are then viewed as ‘compatibility statements$\textrm{'}$, guaranteeing that the
 * quotient set of the relation induced by $\Pi$ is $\Pi$ itself, and that the
 * relation induced by the quotient set of a relation $R$ is $R$ itself.<span style="float:right;">$\blacklozenge$</span>
 
