@@ -2,8 +2,7 @@
 ---
 
 @import
-  "skins/{{ site.skin | default: 'classic' }}",
-  "initialize";
+  "skins/{{ site.minima.skin | default: 'classic' }}", "init";
 
 body {
     background-color: #1E2127;
