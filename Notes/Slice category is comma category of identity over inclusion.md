@@ -28,9 +28,7 @@ for all $X,X'\in\Obj\l(\cat{C}\r)$, $f\in\Hom_\cat{C}\!\l(X,C\r)$, $f'\in\Hom_\c
 * Note that $\dom\ms{F}^{\Obj}$, in the sense of class functions, is indeed the class $\Obj\l(\cat{C}\downarrow C\r)$ since $\tpl{X,f}$ is a general element thereof; similarly for $\dom\ms{F}^{\Hom}$.
 * For $\cdm\ms{F}^{\Obj}$, it is clear that $C\in\Obj\l(\bf{1}\r)$, so $f\in\Hom_\cat{C}\!\l(X,C\r)=\Hom_\cat{C}\!\l(\Id_\cat{C}\l(X\r),\ms{I}\l(C\r)\r)$ and thus $\tpl{X,C,f}\in\Obj\l(\Id_\cat{C}\downarrow\ms{I}\r)$.
 * For $\cdm\ms{F}^{\Hom}$, we need to verify that the diagram
-  ![[Images/2022-03-10_164625/image.svg|200]]
-
-    commutes, but this reduces to checking that $f=f'\circ\phi$ which holds since $\phi\in\Hom_{\l(\cat{C}\downarrow C\r)}\l(\tpl{X,f},\tpl{X',f'}\r)$.
+![[Images/2022-03-10_164625/image.svg|200]]commutes, but this reduces to checking that $f=f'\circ\phi$ which holds since $\phi\in\Hom_{\l(\cat{C}\downarrow C\r)}\l(\tpl{X,f},\tpl{X',f'}\r)$.
 
 We now need to check the axioms of a covariant functor.
 * ($\axifunctor[1]$): Take $\tpl{X,f}\in\Obj\l(\cat{C}\downarrow C\r)$; we need to prove that $\ms{F}^{\Hom}\l(\id_{\tpl{X,f}}\r)=\id_{\ms{F}^{\Obj}\tpl{X,f}}$. This is readily seen via

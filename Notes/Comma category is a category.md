@@ -28,29 +28,33 @@ $$\begin{equation}
     \tpl{\phi,\psi}:\tpl{E_1,D_1,f_1}\to\tpl{E_2,D_2,f_2}\ \ \ \ \textrm{and}\ \ \ \ \tpl{\phi',\psi'}:\tpl{E_2,D_2,f_2}\to\tpl{E_3,D_3,f_3}\cref{\ast}
 \end{equation}$$
 in $\Hom\l(\ms{F}\downarrow\ms{G}\r)$; we need to prove that $\phi'\circ\phi\in\Hom_\cat{C}\!\l(E_1,E_3\r)$, $\psi'\circ\psi\in\Hom_\cat{D}\!\l(D_1,D_3\r)$, and that the diagram
-  ![[Images/2022-03-09_101429/image.svg|350]]
-
-  commutes; that is, that$$\begin{equation}
-      \ms{G}\l(\psi'\circ\psi\r)\circ f_1=f_3\circ\ms{F}\l(\phi'\circ\phi\r).
-  \end{equation}$$
-  The first two are evident by the definition of the composite morphisms in $\cat{E}$ and $\cat{D}$. For the third, observe from the definition of ($\,\ast\,$) that$$\begin{equation}
-      \ms{G}\l(\psi\r)\circ f_1=f_2\circ\ms{F}\l(\phi\r)\cref{1}
-  \end{equation}$$
-  and$$\begin{equation}
-      \ms{G}\l(\psi'\r)\circ f_2=f_3\circ\ms{F}\l(\phi'\r),\cref{2}
-  \end{equation}$$
-  respectively. The codomain of the morphisms on each side of $(\,1\,)$ is $\ms{G}\l(D_2\r)$, so we can compose $\ms{G}\l(\psi'\r)$, whose domain is $\ms{G}\l(D_2\r)$, on the left to obtain$$\begin{equation}
-      \begin{alignedat}{2}
-          \ms{G}\l(\psi'\r)\circ\l[\ms{G}\l(\psi\r)\circ f_1\r]&=\ms{G}\l(\psi'\r)\circ\l[f_2\circ\ms{F}\l(\phi\r)\r]&&(\,1\,)\\
-          \l[\ms{G}\l(\psi'\r)\circ\ms{G}\l(\psi\r)\r]\circ f_1&=\l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r)\\
-          \ms{G}\l(\psi'\circ\psi\r)\circ f_1&=\l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r).\ \ \ \ \ \ \ \ 
-      \end{alignedat}
-  \end{equation}$$
-  For the right hand side of the last equation, we have$$\begin{equation}
-      \begin{alignedat}{2}
-          \l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r)&=\l[f_3\circ\ms{F}\l(\phi\r)'\r]\circ\ms{F}\l(\phi\r)&&(\,2\,)\\
-          &=f_3\circ\l[\ms{F}\l(\phi'\r)\circ\ms{F}\l(\phi\r)\r]\ \ \ \ \ \ \ \\\
-          &=f_3\circ\ms{F}\l(\phi'\circ\phi\r)
-      \end{alignedat}
-  \end{equation}$$
-  and thus equality holds. It follows then that $\tpl{\phi'\circ\phi,\psi'\circ\psi}$ is indeed a morphism from $\tpl{E_1,D_1,f_1}$ to $\tpl{E_3,D_3,f_3}$.<span style="float:right;">$\blacksquare$</span>
+![[Images/2022-03-09_101429/image.svg|350]]
+commutes; that is, that
+$$\begin{equation}
+    \ms{G}\l(\psi'\circ\psi\r)\circ f_1=f_3\circ\ms{F}\l(\phi'\circ\phi\r).
+\end{equation}$$
+The first two are evident by the definition of the composite morphisms in $\cat{E}$ and $\cat{D}$. For the third, observe from the definition of ($\,\ast\,$) that
+$$\begin{equation}
+    \ms{G}\l(\psi\r)\circ f_1=f_2\circ\ms{F}\l(\phi\r)\cref{1}
+\end{equation}$$
+and
+$$\begin{equation}
+    \ms{G}\l(\psi'\r)\circ f_2=f_3\circ\ms{F}\l(\phi'\r),\cref{2}
+\end{equation}$$
+respectively. The codomain of the morphisms on each side of $(\,1\,)$ is $\ms{G}\l(D_2\r)$, so we can compose $\ms{G}\l(\psi'\r)$, whose domain is $\ms{G}\l(D_2\r)$, on the left to obtain
+$$\begin{equation}
+    \begin{alignedat}{2}
+        \ms{G}\l(\psi'\r)\circ\l[\ms{G}\l(\psi\r)\circ f_1\r]&=\ms{G}\l(\psi'\r)\circ\l[f_2\circ\ms{F}\l(\phi\r)\r]&&(\,1\,)\\
+        \l[\ms{G}\l(\psi'\r)\circ\ms{G}\l(\psi\r)\r]\circ f_1&=\l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r)\\
+        \ms{G}\l(\psi'\circ\psi\r)\circ f_1&=\l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r).\ \ \ \ \ \ \ \ 
+    \end{alignedat}
+\end{equation}$$
+For the right hand side of the last equation, we have
+$$\begin{equation}
+    \begin{alignedat}{2}
+        \l[\ms{G}\l(\psi'\r)\circ f_2\r]\circ\ms{F}\l(\phi\r)&=\l[f_3\circ\ms{F}\l(\phi\r)'\r]\circ\ms{F}\l(\phi\r)&&(\,2\,)\\
+        &=f_3\circ\l[\ms{F}\l(\phi'\r)\circ\ms{F}\l(\phi\r)\r]\ \ \ \ \ \ \ \\
+        &=f_3\circ\ms{F}\l(\phi'\circ\phi\r)
+    \end{alignedat}
+\end{equation}$$
+and thus equality holds. It follows then that $\tpl{\phi'\circ\phi,\psi'\circ\psi}$ is indeed a morphism from $\tpl{E_1,D_1,f_1}$ to $\tpl{E_3,D_3,f_3}$.<span style="float:right;">$\blacksquare$</span>
