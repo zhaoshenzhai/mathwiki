@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Normal Cover]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Covering space action iff properly-discontinous action]]
+Properties: [[Covering space action iff properly-discontinuous action]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Isomorphisms of covering transformations]]
 Justifications: [[Unique Lifting Property]]
