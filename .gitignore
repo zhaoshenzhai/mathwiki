@@ -9,3 +9,10 @@
 
 .obsidian/workspace.json
 Lectures/
+
+.site/.jekyll-cache
+.site/.jekyll-metadata
+.site/_posts
+.site/_site
+.site/images
+.site/Gemfile.lock
