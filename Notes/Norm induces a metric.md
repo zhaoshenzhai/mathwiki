@@ -15,7 +15,7 @@ title: Proposition.
 
 Let $K$ denote either $\R$ or $\C$ and let $V$ be a normed vector space over $K$. Then the function
 $$\begin{equation}
-    d:V\times V\to\R\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ \tpl{x,y}\mapsto\|x-y\|
+    d:V\times V\to\R\ \ \ \ \ \ \ \ \mathit{mapping}\ \ \ \ \ \ \ \ \tpl{x,y}\mapsto\|x-y\|
 \end{equation}$$
 is a metric on $V$.
 

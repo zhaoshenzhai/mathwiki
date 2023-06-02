@@ -19,7 +19,7 @@ title: Theorem (De Morgan’s Laws).
 
 Let $V$ be a set and let $\l\{U_i\r\}_{i\in I}$ be a non-empty indexed family of sets. Then
 $$\begin{equation}
-    V\comp\bigcup_{i\in I}U_i=\bigcap_{i\in I}V\comp U_i\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ V\comp\bigcap_{i\in I}U_i=\bigcup_{i\in I}V\comp U_i.
+    V\comp\bigcup_{i\in I}U_i=\bigcap_{i\in I}V\comp U_i\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ V\comp\bigcap_{i\in I}U_i=\bigcup_{i\in I}V\comp U_i.
 \end{equation}$$
 
 ```

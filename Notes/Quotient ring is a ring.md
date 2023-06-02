@@ -15,7 +15,7 @@ title: Proposition.
 
 Let $I\subseteq R$ be an ideal of a ring $R$ and consider the quotient group $\tpl{R/I,+}$ of $R$ over $I$. Then the binary operation
 $$\begin{equation}
-    \cdot:R/I\times R/I\to R/I\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ \tpl{r_1+I,r_2+I}\mapsto r_1r_2+I
+    \cdot:R/I\times R/I\to R/I\ \ \ \ \ \ \ \ \mathit{mapping}\ \ \ \ \ \ \ \ \tpl{r_1+I,r_2+I}\mapsto r_1r_2+I
 \end{equation}$$
 is well-defined and makes $\tpl{R/I,+,\cdot}$ into a ring. Furthermore, if $R$ is commutative, then $R/I$ is commutative too.
 

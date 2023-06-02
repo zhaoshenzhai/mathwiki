@@ -18,7 +18,7 @@ title: Definition.
 
 Let $R$ be a ring and fix $n\in\N$. A <b>polynomial over $R$ with degree $n$ and indeterminant $x$</b> is an expression of the form
 $$\begin{equation}
-    f\coloneqq a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0\ \ \ \ \ \ \ \ \textrm{\it{or}}\ \ \ \ \ \ \ \ f\coloneqq \sum_{i=0}^na_ix^i
+    f\coloneqq a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0\ \ \ \ \ \ \ \ \mathit{or}\ \ \ \ \ \ \ \ f\coloneqq \sum_{i=0}^na_ix^i
 \end{equation}$$
 where each $a_i\in R$ and $a_n\neq0$. We call $a_n$ the <b>leading coefficient of $f$</b>, and write $\deg f\coloneqq n$. If $a_n=1$, the polynomial $f$ is said to be <b>monic</b>.
 

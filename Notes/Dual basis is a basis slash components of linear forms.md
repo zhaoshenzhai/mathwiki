@@ -19,7 +19,7 @@ title: Proposition.
 
 Let $V$ be a finite-dimensional $K$-vector space and let $\mc{B}\coloneqq\l\{e_1,\dots,e_n\r\}$ be a basis for $V$. Then the set $\mc{B}^\dual\coloneqq\l\{\epsilon_1,\dots,\epsilon_n\r\}$, where
 $$\begin{equation}
-    \epsilon_i:V\to K\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ e_j\mapsto\delta_{ij}
+    \epsilon_i:V\to K\ \ \ \ \ \ \ \ \mathit{mapping}\ \ \ \ \ \ \ \ e_j\mapsto\delta_{ij}
 \end{equation}$$
 for all $1\leq i\leq n$, is a basis for $V^\dual$. Indeed, for any $\omega\in V^\dual$, we have
 $$\begin{equation}

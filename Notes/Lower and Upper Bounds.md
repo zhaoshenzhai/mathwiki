@@ -22,7 +22,7 @@ title: Definition.
 
 Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. A <b>lower</b> (resp. <b>upper</b>) <b>bound of $S$ in $X$</b> is an element $l\in X$ (resp. $u\in X$) such that
 $$\begin{equation}
-    \fa s\in S:l\leq s\ \ \ \ \ \ \ \ \textrm{\it{(resp. }}\fa s\in S:s\leq u\textrm{\it{)}}.
+    \fa s\in S:l\leq s\ \ \ \ \ \ \ \ \textrm{\it{(resp. }}\fa s\in S:s\leq u\mathit{)}.
 \end{equation}$$
 
 ```

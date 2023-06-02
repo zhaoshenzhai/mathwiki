@@ -21,7 +21,7 @@ $$\begin{equation}
     \begin{aligned}
         \ms{C}_C^{\Obj}:\Obj\l(\cat{J}\r)&\to\Obj\l(\cat{C}\r)\\
         j&\mapsto C
-    \end{aligned}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \fa j,k\in\Obj\l(\cat{J}\r):\l[
+    \end{aligned}\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ \fa j,k\in\Obj\l(\cat{J}\r):\l[
     \begin{aligned}
         \l(\ms{C}_C^{\Hom}\r)_{j,k}:\Hom_\cat{J}\!\l(j,k\r)&\to\Hom_\cat{C}\!\l(C,C\r)\\
         f&\mapsto\id_C

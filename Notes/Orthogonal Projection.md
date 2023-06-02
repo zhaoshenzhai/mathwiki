@@ -18,7 +18,7 @@ title: Definition.
 
 Let $V$ be an inner product space. For $U$ a finite-dimensional linear subspace of $V$, the <b>orthogonal projection of $V$ onto $U$</b> is the linear operator
 $$\begin{equation}
-    \proj_U\!:V\to U\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ v\mapsto\proj_U\!\l(v\r)
+    \proj_U\!:V\to U\ \ \ \ \ \ \ \ \mathit{mapping}\ \ \ \ \ \ \ \ v\mapsto\proj_U\!\l(v\r)
 \end{equation}$$
 where $\proj_U\!\l(v\r)$ is the unique element in $U$ such that $v-\proj_U\!\l(v\r)\in U^\perp$.
 

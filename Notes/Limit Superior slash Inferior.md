@@ -22,7 +22,7 @@ title: Definition.
 
 Let $\tpl{x_n}$ be a bounded sequence in $\R$ and let $S$ be the set of all of its subsequential limits. The <b>limit superior</b> (resp. <b>inferior</b>) <b>of $X$</b> is
 $$\begin{equation}
-    \limsup_\limits{n\to\infty}x_n\coloneqq\sup S\ \ \ \ \ \ \ \ \textrm{\it{(resp.} } \liminf_\limits{n\to\infty}x_n\coloneqq\inf S\textrm{\it{)}}.
+    \limsup_\limits{n\to\infty}x_n\coloneqq\sup S\ \ \ \ \ \ \ \ \textrm{\it{(resp.} } \liminf_\limits{n\to\infty}x_n\coloneqq\inf S\mathit{)}.
 \end{equation}$$
 
 ```

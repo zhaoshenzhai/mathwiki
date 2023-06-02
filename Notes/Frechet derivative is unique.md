@@ -19,7 +19,7 @@ title: Proposition.
 
 Let $X$ and $Y$ be normed vector spaces and let $U\subseteq X$ be open. Fix $p\in U$. For a function $f:U\to Y$, if there exist bounded linear maps $T_1,T_2:X\to Y$ such that
 $$\begin{equation}
-    \lim\limits_{h\to0}\frac{\l\|f\l(p+h\r)-f\l(p\r)-T_1h\r\|}{\|h\|}=0\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \lim\limits_{h\to0}\frac{\l\|f\l(p+h\r)-f\l(p\r)-T_2h\r\|}{\|h\|}=0,
+    \lim\limits_{h\to0}\frac{\l\|f\l(p+h\r)-f\l(p\r)-T_1h\r\|}{\|h\|}=0\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ \lim\limits_{h\to0}\frac{\l\|f\l(p+h\r)-f\l(p\r)-T_2h\r\|}{\|h\|}=0,
 \end{equation}$$
 then $T_1=T_2$.
 

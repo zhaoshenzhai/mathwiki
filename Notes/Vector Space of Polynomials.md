@@ -18,7 +18,7 @@ title: Definition.
 
 Let $K$ be a field. The <b>vector space of polynomials over $K$</b> is the vector space $\tpl{K\l[x\r],K,+,\cdot,0}$ consisting of all polynomials over $K$ equipped with the operations $+$ and $\cdot$, defined, for all $f\coloneqq\sum_{i=0}^{n}a_ix^1$, $g\coloneqq\sum_{i=0}^{m}b_ix_i$, and $\alpha\in K$, by
 $$\begin{equation}
-    f+g\coloneqq\sum_{i=0}^{u}\l(a_i+b_i\r)x^i\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \alpha\cdot f\coloneqq\sum_{i=0}^{n}\l(\alpha a_i\r)x^i
+    f+g\coloneqq\sum_{i=0}^{u}\l(a_i+b_i\r)x^i\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ \alpha\cdot f\coloneqq\sum_{i=0}^{n}\l(\alpha a_i\r)x^i
 \end{equation}$$
 where $u\coloneqq\max\l\{m,n\r\}$ (so if $m>n$, $a_{n+1},\dots,a_m\coloneqq0$, and if $n>m$, $b_{m+1},\dots,b_n\coloneqq0$).
 

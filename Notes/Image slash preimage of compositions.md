@@ -19,7 +19,7 @@ title: Proposition.
 
 Let $f:X\to Y$ and $g:Y\to Z$ and fix subsets $S\subseteq X$ and $T\subseteq Z$. Then
 $$\begin{equation}
-    \im_{g\circ f}\l(S\r)=\im_g\l(\im_f\l(S\r)\r)\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \preim_{g\circ f}\l(T\r)=\preim_f\l(\preim_g\l(T\r)\r).
+    \im_{g\circ f}\l(S\r)=\im_g\l(\im_f\l(S\r)\r)\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ \preim_{g\circ f}\l(T\r)=\preim_f\l(\preim_g\l(T\r)\r).
 \end{equation}$$
 
 ```

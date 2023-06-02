@@ -18,7 +18,7 @@ title: Definition.
 
 Let $R$ be a ring. The <b>polynomial ring over $R$</b> is the ring $\tpl{R\l[x\r],+,\cdot}$ consisting of all polynomials over $R$ equipped with the operations $+$ and $\cdot$, defined, for all $f\coloneqq\sum_{i=0}^{n}a_ix^i$ and $g\coloneqq\sum_{i=0}^{m}b_ix_i$, by
 $$\begin{equation}
-    f+g\coloneqq\sum_{i=0}^{u}\l(a_i+b_i\r)x^i\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ f\cdot g\coloneqq\sum_{i=0}^{m+n}\l(\sum_{k=0}^ia_kb_{i-k}\r)x^i
+    f+g\coloneqq\sum_{i=0}^{u}\l(a_i+b_i\r)x^i\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ f\cdot g\coloneqq\sum_{i=0}^{m+n}\l(\sum_{k=0}^ia_kb_{i-k}\r)x^i
 \end{equation}$$
 where $u\coloneqq\max\l\{m,n\r\}$ (so if $m>n$, $a_{n+1},\dots,a_m\coloneqq0$, and if $n>m$, $b_{m+1},\dots,b_n\coloneqq0$).
 

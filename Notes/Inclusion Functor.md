@@ -21,7 +21,7 @@ $$\begin{equation}
     \begin{aligned}
         \ms{I}^{\Obj}:\Obj\l(\cat{S}\r)&\to\Obj\l(\cat{C}\r) \\
         X&\mapsto X
-    \end{aligned}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \fa X,Y\in\Obj\l(\cat{S}\r):
+    \end{aligned}\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ \fa X,Y\in\Obj\l(\cat{S}\r):
     \l[\begin{aligned}
         \ms{I}^{\Hom}_{X,Y}:\Hom_\cat{S}\!\l(X,Y\r)&\to\Hom_\cat{C}\!\l(X,Y\r) \\
         f&\mapsto f

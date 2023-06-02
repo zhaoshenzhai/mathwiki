@@ -19,7 +19,7 @@ title: Proposition (Coordinate Representation).
 
 Let $V$ be a finite-dimensional $K$-vector space, say with $n\coloneqq\dim V$, and fix a choice of basis $\mc{B}\coloneqq\l\{b_1,\dots,b_n\r\}$ of $V$. Then the coordinate representation
 $$\begin{equation}
-    \phi_\mc{B}:V\to K^n\ \ \ \ \textrm{\it{mapping}}\ \ \ \ v\mapsto\l[v\r]_\mc{B},
+    \phi_\mc{B}:V\to K^n\ \ \ \ \mathit{mapping}\ \ \ \ v\mapsto\l[v\r]_\mc{B},
 \end{equation}$$
 where $\l[v\r]_\mc{B}\coloneqq\tpl{\alpha_1,\dots,\alpha_n}\in K^n$ is the unique tuple such that $v=\sum_{i=1}^{n}\alpha_ib_i$, is a linear isomorphism.
 

@@ -22,7 +22,7 @@ $$\begin{equation}
     \begin{aligned}
         +:S^{-1}R\times S^{-1}R&\to S^{-1}R \\
         \tpl{\frac{r_1}{s_1},\frac{r_2}{s_2}}&\mapsto\frac{r_1s_2+r_2s_1}{s_1s_2}
-    \end{aligned}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ 
+    \end{aligned}\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ 
     \begin{aligned}
         \cdot:S^{-1}R\times S^{-1}R&\to S^{-1}R \\
         \tpl{\frac{r_1}{s_1},\frac{r_2}{s_2}}&\mapsto\frac{r_1r_2}{s_1s_2}

@@ -18,7 +18,7 @@ title: Definition.
 
 Let $X$ be a set and fix $S\subseteq X$. The <b>inclusion function of $S$ into $X$</b> is the function
 $$\begin{equation}
-    \iota:S\to X\ \ \ \ \textrm{\it{mapping}}\ \ \ \ x\mapsto\id_X\l(x\r)=x
+    \iota:S\to X\ \ \ \ \mathit{mapping}\ \ \ \ x\mapsto\id_X\l(x\r)=x
 \end{equation}$$
 for every $x\in S$.
 

@@ -18,7 +18,7 @@ title: Definition.
 
 Let $X$ be a set. A binary relation $R$ is <b>trichotomous on $X$</b> if for all $x,y\in X$, exactly one of
 $$\begin{equation}
-    xRy,\ \ \ \ yRx,\ \ \ \ \textrm{\it{or}}\ \ \ \ x=y
+    xRy,\ \ \ \ yRx,\ \ \ \ \mathit{or}\ \ \ \ x=y
 \end{equation}$$
 holds. Formally,
 $$\begin{equation}

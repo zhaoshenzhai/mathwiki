@@ -22,7 +22,7 @@ $$\begin{equation}
 \end{equation}$$
 The <b>direct image function under $f$</b> is the function
 $$\begin{equation}
-    \im_f\!:\pow\l(X\r)\to\pow\l(Y\r)\ \ \ \ \ \ \ \ \textrm{\it{mapping}}\ \ \ \ \ \ \ \ S\mapsto\im_f\!\l(S\r).
+    \im_f\!:\pow\l(X\r)\to\pow\l(Y\r)\ \ \ \ \ \ \ \ \mathit{mapping}\ \ \ \ \ \ \ \ S\mapsto\im_f\!\l(S\r).
 \end{equation}$$
 
 ```

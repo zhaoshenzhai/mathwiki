@@ -21,7 +21,7 @@ $$\begin{equation}
     \l[\begin{aligned}
         \Id_\cat{C}^{\Obj}:\Obj\l(\cat{C}\r)&\to\Obj\l(\cat{C}\r)\\
         C&\mapsto C
-    \end{aligned}\r]=\id_{\Obj\l(\cat{C}\r)}\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ \fa C,D\in\Obj\l(\cat{C}\r):\l[
+    \end{aligned}\r]=\id_{\Obj\l(\cat{C}\r)}\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ \fa C,D\in\Obj\l(\cat{C}\r):\l[
     \begin{aligned}
         \l(\Id_\cat{C}^{\Hom}\r)_{C,D}:\Hom_\cat{C}\!\l(C,D\r)&\to\Hom_\cat{D}\l(C,D\r)\\
         f&\mapsto f
