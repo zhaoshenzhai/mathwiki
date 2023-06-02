@@ -14,7 +14,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Lexicographical order topology strictly finer than standard topology on R2]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Lexicographical order topology on R2 is discrete times standard]]
+Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

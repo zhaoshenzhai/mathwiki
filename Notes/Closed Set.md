@@ -5,10 +5,10 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
 Examples: [[Closed Interval]]
-Constructions: [[Set of Closed Sets]], [[Perfect Set]]
+Constructions: [[Perfect Set]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Closed subset of compact set is compact]]
+Properties: [[Closed subset of compact set is compact]], [[Set of closed sets iff topology on a set]]
 Sufficiencies: [[Closure]], [[Compact implies closed (Hausdorff)]]
 Equivalences: [[Sequential characterization of closed sets (metric)]]
 Justifications: <i>Not Applicable</i>

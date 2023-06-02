@@ -18,19 +18,15 @@ Generalizations: <i>Not Applicable</i>
 title: Proposition.
 
 Let $X$ be a set. Consider a collection $\mc{T}\subseteq\pow\l(X\r)$ and define $\mc{F}\coloneqq\l\{C\in\pow\l(X\r)\mid X\comp C\in\mc{T}\r\}$. If $\mc{T}$ is a topology on $X$, then
-* ($\axitopcl[1]$): $\em\in\mc{F}$ and $X\in\mc{F}$.
-* ($\axitopcl[2]$): Arbitrary intersections of elements of $\mc{F}$ are in $\mc{F}$: $\fa\mc{C}\subseteq\mc{F}:\mc{C}\neq\em\Rightarrow\bigcap\mc{C}\in\mc{F}$.
-* ($\axitopcl[3]$): Finite unions of elements of $\mc{F}$ are in $\mc{F}$: $\fa\mc{C}\subseteq\mc{F}:\mc{C}\textrm{\it{ is finite}}\Rightarrow\bigcup\mc{C}\in\mc{F}.$
+* $\em\in\mc{F}$ and $X\in\mc{F}$.
+* Arbitrary intersections of elements of $\mc{F}$ are in $\mc{F}$.
+* Finite unions of elements of $\mc{F}$ are in $\mc{F}$.
 
-Conversely, consider a collection $\mc{F}\subseteq\pow\l(X\r)$ and define $\mc{T}\coloneqq\l\{U\in\pow\l(X\r)\mid X\comp U\in\mc{F}\r\}$. If $\axitopcl[1]$ to $\axitopcl[3]$ hold for $\mc{F}$, then $\mc{T}$ is a topology on $X$.
+Conversely, consider a collection $\mc{F}\subseteq\pow\l(X\r)$ and define $\mc{T}\coloneqq\l\{U\in\pow\l(X\r)\mid X\comp U\in\mc{F}\r\}$. If the above hold for $\mc{F}$, then $\mc{T}$ is a topology on $X$.
 
 ```
 
-<b>Remark.</b> This allows us to instead define a topology on $X$ as a collection of subsets $\mc{F}\subseteq\pow\l(X\r)$ satisfying $\axitopcl[1]$ to $\axitopcl[3]$; its elements are called closed sets. The original definition can then be recovered by defining
-$$\begin{equation}
-    \mc{T}\coloneqq\l\{U\in\pow\l(X\r)\mid X\comp U\in\mc{F}\r\},
-\end{equation}$$
-that is, by defining open sets as relative complements of closed sets.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> This allows us to instead define a topology on $X$ as a collection of subsets $\mc{F}\subseteq\pow\l(X\r)$ satisfying the above axioms; its elements are called closed sets. The original definition can then be recovered by defining $\mc{T}\coloneqq\l\{U\in\pow\l(X\r)\mid X\comp U\in\mc{F}\r\}$, that is, by defining open sets as relative complements of closed sets.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
@@ -51,21 +47,18 @@ $$\begin{equation}
         &\subseteq\mc{F}.&&\mc{U}\subseteq\mc{T}
     \end{alignedat}\cref{2}
 \end{equation}$$
-* ($\Rightarrow$): Assume that $\mc{T}$ satisfies $\axitop[1]$ to $\axitop[3]$, so $\mc{F}$ is the set of closed sets of $X$.
-    * ($\axitopcl[1]$): Observe that $X\comp\em=X\in\mc{T}$, so $\em\in\mc{F}$. Similarly, we have $X\comp X=\em\in\mc{T}$ and thus $X\in\mc{F}$.
-
-    * ($\axitopcl[2]$): Take a non-empty collection $\mc{C}\subseteq\mc{F}$. Using De Morgan’s Laws and $\axitop[2]$, we see that$$\begin{equation}
-            X\comp\bigcap\mc{C}=\bigcup\underbrace{\l\{X\comp C\mid C\in\mc{C}\r\}}_{\mathclap{\subseteq\mc{T}\textrm{ from (1)}}}\in\mc{T}\ \ \ \ \Rightarrow\ \ \ \ \bigcap\mc{C}\in\mc{F}.
-        \end{equation}$$
-    * ($\axitopcl[3]$): Take a finite collection $\mc{C}\subseteq\mc{F}$. If $\mc{C}=\em$, then $\bigcup\mc{C}=\em\in\mc{F}$ from $\axitopcl[1]$. Otherwise, using De Morgan’s Laws and $\axitop[3]$, we see that$$\begin{equation}
+* ($\Rightarrow$): Assume that $\mc{T}$ satisfies the axioms of a topological space, so $\mc{F}$ is the set of closed sets of $X$. Observe that $X\comp\em=X\in\mc{T}$, so $\em\in\mc{F}$. Similarly, we have $X\comp X=\em\in\mc{T}$ and thus $X\in\mc{F}$. Now, take a non-empty collection $\mc{C}\subseteq\mc{F}$. Using De Morgan’s Laws, we see that
+$$\begin{equation}
+    X\comp\bigcap\mc{C}=\bigcup\underbrace{\l\{X\comp C\mid C\in\mc{C}\r\}}_{\mathclap{\subseteq\mc{T}\textrm{ from (1)}}}\in\mc{T}\ \ \ \ \Rightarrow\ \ \ \ \bigcap\mc{C}\in\mc{F}.
+\end{equation}$$
+Finally, take a finite collection $\mc{C}\subseteq\mc{F}$. If $\mc{C}=\em$, then $\bigcup\mc{C}=\em\in\mc{F}$. Otherwise, using De Morgan’s Laws, we see that$$\begin{equation}
             X\comp\bigcup\mc{C}=\bigcap\underbrace{\l\{X\comp C\mid C\in\mc{C}\r\}}_{\mathclap{\subseteq\mc{T}\textrm{ from (1)}}}\in\mc{T}\ \ \ \ \Rightarrow\ \ \ \ \bigcup\mc{C}\in\mc{F}.
         \end{equation}$$
-* ($\Leftarrow$): Assume that $\mc{F}$ satisfies $\axitopcl[1]$ to $\axitopcl[3]$.
-    * ($\axitop[1]$): Observe that $X\comp\em=X\in\mc{F}$, so $\em\in\mc{T}$. Similarly, we have $X\comp X=\em\in\mc{F}$ and thus $X\in\mc{T}$.
-
-    * ($\axitop[2]$): Take a collection $\mc{U}\subseteq\mc{T}$. If $\mc{U}=\em$, then $\bigcup\mc{U}=\em\in\mc{T}$ from $\axitop[1]$. Otherwise, using De Morgan’s Laws and $\axitopcl[2]$, we see that$$\begin{equation}
-            X\comp\bigcup\mc{U}=\bigcap\underbrace{\l\{X\comp U\mid U\in\mc{U}\r\}}_{\mathclap{\subseteq\mc{F}\textrm{ from (2)}}}\in\mc{F}\ \ \ \ \Rightarrow\ \ \ \ \bigcup\mc{U}\in\mc{T}.
-        \end{equation}$$
-    * ($\axitop[3]$): Take a non-empty finite collection $\mc{U}\subseteq\mc{T}$. Using De Morgan’s Laws and $\axitopcl[3]$, we see that$$\begin{equation}
-            X\comp\bigcap\mc{U}=\bigcup\underbrace{\l\{X\comp U\mid U\in\mc{U}\r\}}_{\mathclap{\subseteq\mc{F}\textrm{ from (2)}}}\in\mc{F}\ \ \ \ \Rightarrow\ \ \ \ \bigcap\mc{U}\in\mc{T}.\qedin
-        \end{equation}$$
+* ($\Leftarrow$): Assume that $\mc{F}$ satisfies the three axioms above. Observe that $X\comp\em=X\in\mc{F}$, so $\em\in\mc{T}$. Similarly, we have $X\comp X=\em\in\mc{F}$ and thus $X\in\mc{T}$. Now, take a collection $\mc{U}\subseteq\mc{T}$. If $\mc{U}=\em$, then $\bigcup\mc{U}=\em\in\mc{T}$. Otherwise, using De Morgan’s Laws, we see that
+$$\begin{equation}
+    X\comp\bigcup\mc{U}=\bigcap\underbrace{\l\{X\comp U\mid U\in\mc{U}\r\}}_{\mathclap{\subseteq\mc{F}\textrm{ from (2)}}}\in\mc{F}\ \ \ \ \Rightarrow\ \ \ \ \bigcup\mc{U}\in\mc{T}.
+\end{equation}$$
+Finally, take a non-empty finite collection $\mc{U}\subseteq\mc{T}$. Using De Morgan’s Laws, we see that
+$$\begin{equation}
+    X\comp\bigcap\mc{U}=\bigcup\underbrace{\l\{X\comp U\mid U\in\mc{U}\r\}}_{\mathclap{\subseteq\mc{F}\textrm{ from (2)}}}\in\mc{F}\ \ \ \ \Rightarrow\ \ \ \ \bigcap\mc{U}\in\mc{T}.\qedin
+\end{equation}$$

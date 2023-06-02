@@ -5,10 +5,10 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Intersection of empty set is a proper class]] 
-Constructions: [[Set of Unions and Intersections]]
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Basic properties of unions, intersections, and power sets]], [[De Morgan's Laws]], [[Image of intersection subset of intersection of images; left-unique implies equality]], [[Preimage of intersection is intersection of preimages; right-unique implies equality]], [[Cartesian product of intersections]]
+Properties: [[De Morgan's Laws]], [[Image of intersection subset of intersection of images; left-unique implies equality]], [[Preimage of intersection is intersection of preimages; right-unique implies equality]], [[Cartesian product of intersections]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Axiom Schema of Specification]], [[Axiom of Extensionality]]

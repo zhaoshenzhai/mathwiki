@@ -14,7 +14,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Comparison of topologies on R]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Standard topology on R (explicit)]], [[Standard topology on R (basis; rational endpoints)]], [[Standard topology on R (subbasis; rational endpoints)]]
+Equivalences: [[Standard topology on R (basis; rational endpoints)]], [[Standard topology on R (subbasis; rational endpoints)]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

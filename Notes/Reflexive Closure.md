@@ -4,7 +4,7 @@ Date Created: 01/02/2022 10:41:48
 Tags: #Type/Definition #Later/Set_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Lexicographical order is reflexive closure of strict lexicographical order]], [[Reflexive closure of ordering on ordinals]]
+Examples: [[Reflexive closure of ordering on ordinals]]
 Constructions: [[Reflexive Relation]]
 Generalizations: <i>Not Applicable</i>
 

@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Lattice of Subsets]], [[Covariant Power Set Functor]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Basic properties of unions, intersections, and power sets]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Axiom of Power Set]], [[Axiom of Extensionality]]

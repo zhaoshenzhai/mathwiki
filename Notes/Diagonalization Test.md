@@ -31,10 +31,7 @@ $$\begin{equation}
 \end{equation}$$
 so $\lambda_j=t_{jj}$ and hence $\l[T\r]_\mc{B}=\diag\l(\lambda_1,\dots,\lambda_k\r)$. Conversely, let $\mc{B}\coloneqq\l\{v_1,\dots,v_n\r\}$ be a set of eigenvectors of $T$. Then $T\l(v_j\r)=\lambda_{j'}v_j$ for some $1\leq j'\leq k$, so the $\l(i,j\r)^\textrm{th}$-entry of $\l[T\r]_\mc{B}$ is $\lambda_{j'}\delta_{ij}$. Thus $\l[T\r]_\mc{B}$ is a diagonal matrix.
 
-* ($2\Leftrightarrow3$): For each $1\leq i\leq k$, set $\mc{B}_i\coloneqq\mc{B}\cap E_{\lambda_i}$ and $n_i\coloneqq\l|\mc{B}_i\r|$. Note that $\mc{B}_i$ is the set of vectors in $\mc{B}$ that are eigenvectors corresponding to $\lambda_i$, so, since $\mc{B}_i$ is linearly independent, we see that $n_i\leq d_i\leq m_i$.
-    * Clearly $E_{\lambda_j}\cap E_{\lambda_{j'}}=\l\{0\r\}$ for all $1\leq j,j'<k$, so the union $\bigcup_{i=1}^{k}\mc{B}_i$ is disjoint and hence $\sum_{i=1}^{k}n_i=n$. Also, since $\cchi_T$ splits, we also have that $\sum_{i=1}^{k}m_i=n$.
-
-  It follows then that
+* ($2\Leftrightarrow3$): For each $1\leq i\leq k$, set $\mc{B}_i\coloneqq\mc{B}\cap E_{\lambda_i}$ and $n_i\coloneqq\l|\mc{B}_i\r|$. Note that $\mc{B}_i$ is the set of vectors in $\mc{B}$ that are eigenvectors corresponding to $\lambda_i$, so, since $\mc{B}_i$ is linearly independent, we see that $n_i\leq d_i\leq m_i$. Clearly $E_{\lambda_j}\cap E_{\lambda_{j'}}=\l\{0\r\}$ for all $1\leq j,j'<k$, so the union $\bigcup_{i=1}^{k}\mc{B}_i$ is disjoint and hence $\sum_{i=1}^{k}n_i=n$. Also, since $\cchi_T$ splits, we also have that $\sum_{i=1}^{k}m_i=n$. It follows then that
         $$\begin{equation}
             n=\sum_{i=1}^{k}n_i\leq\sum_{i=1}^{k}d_i\leq\sum_{i=1}^{k}m_i=n,
         \end{equation}$$

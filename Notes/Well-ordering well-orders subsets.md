@@ -3,7 +3,7 @@
 Date Created: 30/01/2022 18:40:57
 Tags: #Type/Proposition #Later/Set_Theory
 
-Proved by: [[Subset relation is transitive]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

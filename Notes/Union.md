@@ -5,10 +5,10 @@ Tags: #Type/Definition #Later/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Set of Unions and Intersections]], [[Successor]]
+Constructions: [[Successor]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Basic properties of unions, intersections, and power sets]], [[De Morgan's Laws]], [[Image of union is union of images]], [[Preimage of union is union of preimages]]
+Properties: [[De Morgan's Laws]], [[Image of union is union of images]], [[Preimage of union is union of preimages]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Axiom of Union]], [[Axiom of Extensionality]]

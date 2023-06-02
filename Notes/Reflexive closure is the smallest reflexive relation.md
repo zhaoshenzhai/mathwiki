@@ -3,7 +3,7 @@
 Date Created: 01/02/2022 10:54:47
 Tags: #Type/Proposition #Later/Set_Theory
 
-Proved by: [[Basic properties of unions, intersections, and power sets]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
