@@ -15,8 +15,8 @@ title: Proposition.
 
 Let $\tpl{X,<}$ be a totally ordered set. Then the order topology on $X$, $\mc{T}(<)=\mc{T}\l(\mc{B}\r)$ where $\mc{B}\subseteq\pow\l(X\r)$ is such that
 * $\fa a,b\in X:a<b\Rightarrow\l(a,b\r)\in\mc{B}$,
-* $\l(\ex a_0\in X:a_0\textrm{\it{ is a lower bound of }}X\r)\Rightarrow\fa b:\l[a_0,b\r)\in\mc{B}$, and
-* $\l(\ex b_0\in X:b_0\textrm{\it{ is an upper bound of }}X\r)\Rightarrow\fa a:\l(a,b_0\r]\in\mc{B}$,
+* $\l(\ex a_0\in X:a_0\ \mathit{is\ a\ lower\ bound\ of\ }X\r)\Rightarrow\fa b:\l[a_0,b\r)\in\mc{B}$, and
+* $\l(\ex b_0\in X:b_0\ \mathit{is\ an\ upper\ bound\ of\ }X\r)\Rightarrow\fa a:\l(a,b_0\r]\in\mc{B}$,
 
 is a topology on $X$.
 

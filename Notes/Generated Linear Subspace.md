@@ -22,7 +22,7 @@ title: Definition.
 
 Let $V$ be a vector space and fix a subset $S\subseteq V$. The <b>linear subspace spanned by $S$</b> is the smallest subspace of $V$ containing $S$:
 $$\begin{equation}
-    \span S\coloneqq\gen{S}\coloneqq\bigcap\l\{U\subseteq V\mid S\subseteq U\land U\textrm{\it{ is a linear subspace of }}V\r\}.
+    \span S\coloneqq\gen{S}\coloneqq\bigcap\l\{U\subseteq V\mid S\subseteq U\land U\ \mathit{is\ a\ linear\ subspace\ of\ }V\r\}.
 \end{equation}$$
 If $\gen{S}=V$, then $S$ is said to <b>span/generate $V$</b>.
 

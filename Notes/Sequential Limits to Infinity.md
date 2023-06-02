@@ -22,7 +22,7 @@ title: Definition.
 
 Let $\tpl{X,\mc{T}}$ be an ordered topological space. A sequence $\tpl{x_n}_{n\in\N}$ in $X$ is said to <b>converge to $\pm\infty$ w.r.t. $\mc{T}$</b> if
 $$\begin{equation}
-    \fa a\in X,\fa^\infty n\in\N:x_n\in\l(a,+\infty\r)\ \ \ \ \ \ \ \ \textrm{\it{(resp. }}\fa b\in X,\fa^\infty n\in\N:x_n\in\l(-\infty,b\r)\textrm{\it),}
+    \fa a\in X,\fa^\infty n\in\N:x_n\in\l(a,+\infty\r)\ \ \ \ \ \ \ \ \mathit{(resp.}\ \fa b\in X,\fa^\infty n\in\N:x_n\in\l(-\infty,b\r)\mathit{),}
 \end{equation}$$
 in which case we write $\lim\limits_{n\to\infty}x_n=\pm\infty$ or $x_n\to\pm\infty$ as $n\to\infty$.
 

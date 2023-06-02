@@ -18,7 +18,7 @@ title: Definition.
 
 Let $X$ be a set. The <b>cofinite topology on $X$</b> is the topology
 $$\begin{equation}
-    \mc{T}_\textrm{cf}\coloneqq\l\{U\in\pow\l(X\r)\mid\l(U=\em\r)\lor\l(X\comp U\textrm{\it{ is finite}}\r)\r\}.
+    \mc{T}_\textrm{cf}\coloneqq\l\{U\in\pow\l(X\r)\mid\l(U=\em\r)\lor\l(X\comp U\ \mathit{is}\ \mathit{finite}\r)\r\}.
 \end{equation}$$
 
 ```

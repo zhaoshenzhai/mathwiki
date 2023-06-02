@@ -23,7 +23,7 @@ title: Definition.
 
 Let $\tpl{X,<}$ be a poset and fix $S\subseteq X$. A <b>$<$-minimal</b> (resp. <b>$<$-maximal</b>) <b>element of $S$</b> is an element $m\in S$ such that
 $$\begin{equation}
-    \fa s\in S:s\not<m\ \ \ \ \ \ \ \ \textrm{\it{(resp. }}\fa s\in S:m\not<s\mathit{)}.
+    \fa s\in S:s\not<m\ \ \ \ \ \ \ \ \mathit{(resp.}\ \fa s\in S:m\not<s\mathit{)}.
 \end{equation}$$
 
 ```

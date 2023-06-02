@@ -18,7 +18,7 @@ title: Definition.
 
 A sequence $\tpl{x_n}_{n\in\N}$ in $\R$ is said to be <b>monotonically increasing</b> (resp. <b>decreasing</b>) if
 $$\begin{equation}
-    \fa n\in\N:x_n\leq x_{n+1}\ \ \ \ \ \ \ \ \textrm{\it{(resp.} } \fa n\in\N:x_n\geq x_{n+1}\mathit{)}.
+    \fa n\in\N:x_n\leq x_{n+1}\ \ \ \ \ \ \ \ \mathit{(resp.}\ \fa n\in\N:x_n\geq x_{n+1}\mathit{)}.
 \end{equation}$$
 If the inequalities are strict, the sequence is said to be <b>strictly increasing</b> (resp. <b>decreasing</b>).
 

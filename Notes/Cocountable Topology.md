@@ -18,7 +18,7 @@ title: Definition.
 
 Let $X$ be a set. The <b>cocountable topology on $X$</b> is the topology
 $$\begin{equation}
-    \mc{T}_\textrm{cc}\coloneqq\l\{U\in\pow\l(X\r)\mid\l(U=\em\r)\lor\l(X\comp U\textrm{\it{ is countable}}\r)\r\}.
+    \mc{T}_\textrm{cc}\coloneqq\l\{U\in\pow\l(X\r)\mid\l(U=\em\r)\lor\l(X\comp U\ \mathit{is}\ \mathit{countable}\r)\r\}.
 \end{equation}$$
 
 ```
