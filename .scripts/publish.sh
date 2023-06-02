@@ -120,7 +120,7 @@ MD_TO_HTML() {
 
         if [[ "${unorderedRanges: -1}" == ',' ]]; then
             lastLine=$(wc -l "$destFile" | sed 's/ .*//g')
-            unorderedRanges="$unorderedRanges$((lastLine + 1))\n"
+            unorderedRanges="$unorderedRanges$((lastLine - 1))\n"
         fi
 
         previous=-1
@@ -178,7 +178,7 @@ MD_TO_HTML() {
 
         if [[ "${orderedRanges: -1}" == ',' ]]; then
             lastLine=$(wc -l "$destFile" | sed 's/ .*//g')
-            orderedRanges="$orderedRanges$((lastLine + 1))\n"
+            orderedRanges="$orderedRanges$((lastLine - 1))\n"
         fi
 
         previous=-1
