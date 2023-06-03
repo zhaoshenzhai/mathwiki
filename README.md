@@ -53,13 +53,11 @@ Theme: [Minimal](https://github.com/kepano/obsidian-minimal).
 
 Plugins:
 * [Extended MathJax](https://github.com/xldenis/obsidian-latex): Add macros in [`preamble.sty`](preamble.sty).
+* [Vim Navigation](https://github.com/kometenstaub/obsidian-vim-reading-view-navigation): Vim-like reading view navigation.
 * [Style Settings](https://github.com/mgmeyers/obsidian-style-settings): Precise colors.
-* [Jump to Link](https://github.com/mrjackphil/obsidian-jump-to-link): Follow links.
 * [Admonition](https://github.com/valentine195/obsidian-admonition): A replacement for the `mdframed` package in LaTeX.
 * [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks): Render MathJax in links; see [below](https://github.com/zhaoshenzhai/MathWiki#symbols-mathlinks).
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
-* [BRAT](https://github.com/TfTHacker/obsidian42-brat): Beta Reviewers Auto-update Tester, for:
-    * [Vim Reading View Navigation](https://github.com/kometenstaub/obsidian-vim-reading-view-navigation): Vim-like reading view.
 
 I wrote some bash scripts to (try) maintain the consistency of my notes; [main.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/main.sh) acts as a hub for me to run them.
 * Images are handled by [newTikZ.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/newTikZ.sh), [getCurrentImage.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/getCurrentImage.sh), and [updateImages.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/updateImages.sh); see my workflow [here](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images).
