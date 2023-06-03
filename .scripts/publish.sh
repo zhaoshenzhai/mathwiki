@@ -220,7 +220,7 @@ MD_TO_HTML() {
         while [[ ! -z $line ]]; do
             previousLineNumber=$((line - 1))
             previousLine=$(sed "${previousLineNumber}q;d" "$destFile")
-            if [[ ! $(echo "$previousLine" | grep '<li>') ]]; then
+            if [[ ! $(echo "$previousLine" | grep -e '<li>' -e '</li>') ]]; then
                 $(sed -i ''"$line"'s/$/<br><br>/' "$destFile")
             fi
 
