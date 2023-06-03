@@ -76,7 +76,7 @@ MD_TO_HTML() {
     $(sed -i -e $'$a\\\n\\<\/div\>' "$destFile")
 
     # Breaks
-    $(sed -z 's/\n\n---\n\n/\n\n<hr class="hr-rule">\n\n/g' -i "$destFile")
+    $(sed -z 's/\n\n---\n\n/\n<hr class="hr-rule">\n/g' -i "$destFile")
 
     # Images
     images=$(grep '!\[\[Images/' "$destFile" | sed 's/!\[\[Images\///g' | sed 's/]].*//g')
