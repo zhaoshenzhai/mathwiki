@@ -4,7 +4,7 @@ Date Created: 01/09/2022 15:41:10
 Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Absolutely Convergent Series]]
-Examples: [[Geometric series converges iff r less than 1]], [[p series converges iff p>1]]
+Examples: [[Geometric series converges iff r less than 1]], [[p series converges iff p greater than 1]]
 Constructions: [[Regrouping of Series]], [[Rearrangement of Series]]
 Generalizations: <i>Not Applicable</i>
 
