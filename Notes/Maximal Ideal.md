@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A proper ideal $\mf{m}\subset R$ is said to be <b>maximal</b> if no other proper ideal of $R$ properly contains $\mf{m}$.
+A proper ideal $\mf{m}\ideal R$ is said to be <b>maximal</b> if no other proper ideal of $R$ properly contains $\mf{m}$.
 
 ```

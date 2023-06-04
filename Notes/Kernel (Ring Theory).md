@@ -16,10 +16,6 @@ Justifications: [[Basic properties of ring homomorphisms]]
 ``` ad-Definition
 title: Definition.
 
-Let $R$ and $S$ be rings and consider a homomorphism $\phi:R\to S$. The <b>kernel of $\phi$</b> is the ideal
-$$\begin{equation}
-    \ker\phi\coloneqq\preim_\phi\!\l\{0\r\}=\l\{r\in R\mid\phi\l(r\r)=0\r\}
-\end{equation}$$
-of $R$.
+Let $R$ and $S$ be rings and consider a homomorphism $\phi:R\to S$. The <b>kernel of $\phi$</b> is the ideal $\ker\phi\coloneqq\phi^{-1}\!\l(0\r)=\l\{r\in R\mid\phi\l(r\r)=0\r\}$ of $R$.
 
 ```

@@ -16,9 +16,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{R,+_R,\cdot_R}$ and $\tpl{S,+_S,\cdot_S}$ be rings. A <b>ring homomorphism</b> from $R$ to $S$ is a group homomorphism $\phi:R\to S$ such that
-$$\begin{equation}
-    \fa r_1,r_2\in R:\phi\l(r_1\cdot_Rr_2\r)=\phi\l(r_1\r)\cdot_S\phi\l(r_2\r).
-\end{equation}$$
+Let $R$ and $S$ be rings. A <b>ring homomorphism</b> from $R$ to $S$ is a group homomorphism $\phi:R\to S$ such that $\phi\l(1\r)=1$ and $\phi\l(r_1r_2\r)=\phi\l(r_1\r)\phi\l(r_2\r)$ for all $r_1,r_2\in R$.
 
 ```
+
+<b>Remark.</b> That $\phi\l(1\r)=1$ does not hold in general, since the zero map is multiplicative, so it must be enforced.<span style="float:right;">$\blacklozenge$</span>

@@ -9,7 +9,7 @@ Constructions: [[Irreducible Element]], [[Prime Element]], [[Localization]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Finite integral domain implies field]], [[Characteristic of integral domain is prime]], [[Basic properties of polynomial rings (integral domain)]]
-Sufficiencies: [[Ideal is prime iff quotient is an integral domain]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

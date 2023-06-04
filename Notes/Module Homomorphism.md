@@ -16,14 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $M$ and $N$ be left $R$-modules. An <b>$R$-module homomorphism from $M$ to $N$</b> is an additive group homomorphism $\phi:M\to N$ such that
-$$\begin{equation}
-    \fa r\in R,\fa m\in M:\phi\l(rm\r)=r\phi\l(m\r).
-\end{equation}$$
+Let $M$ and $N$ be left $R$-modules. An <b>$R$-module homomorphism from $M$ to $N$</b> is a function $\phi:M\to N$ such that $\phi\l(rm+n\r)=r\phi\l(m\r)+\phi\l(n\r)$ for all $r\in R$ and $m,n\in M$.
 
 ```
-
-<b>Remark.</b> Equivalently, a function $\phi:M\to N$ is an $R$-module homomorphism if
-$$\begin{equation}
-    \fa r\in R,\fa m_1,m_2\in M:\phi\l(rm_1+m_2\r)=r\phi\l(m_1\r)+\phi\l(m_2\r).\exqedin
-\end{equation}$$

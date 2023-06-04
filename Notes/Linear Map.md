@@ -16,15 +16,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $V$ and $W$ be $K$-vector spaces. A <b>linear map from $V$ to $W$</b> is an additive group homomorphism $T:V\to W$ such that:
-$$\begin{equation}
-    \fa\alpha\in K,\fa v\in V:T\l(\alpha v\r)=\alpha T\l(v\r).
-\end{equation}$$
+Let $V$ and $W$ be $K$-vector spaces. A <b>linear map from $V$ to $W$</b> is a function $T:V\to W$ such that $T\l(\alpha v+w\r)=\alpha T\l(v\r)+T\l(w\r)$ for all $\alpha\in K$ and $v,w\in V$.
 
 ```
-
-<b>Remark.</b> Equivalently, a function $T:V\to W$ is a linear map if $\fa\alpha\in K,\fa v_1,v_2\in V:T\l(\alpha v_1+v_2\r)=\alpha T\l(v_1\r)+T\l(v_2\r)$.<span style="float:right;">$\blacklozenge$</span>
-
----
 
 <b>Remark.</b> Let $V$ and $W$ are finite-dimensional and fix bases for $V$ and $W$, say with $n\coloneqq\dim V$ and $m\coloneqq\dim W$. Then any linear map can be represented by an $m\times n$ matrix $A\in\mat{m\times n}{K}$, and if we define _matrix multiplication_ as composition of linear maps, the action of $T$ on $v$ is given by left multiplication of $A$ on the coordinate representation of $v$.<span style="float:right;">$\blacklozenge$</span>

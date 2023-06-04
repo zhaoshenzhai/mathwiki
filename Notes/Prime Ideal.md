@@ -10,12 +10,14 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: [[Maximal implies prime]]
-Equivalences: [[Ideal is prime iff quotient is an integral domain]]
+Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.
 
-A proper ideal $\mf{p}\subset R$ is said to be <b>prime</b> if $rs\in\mf{p}$ implies either $r\in\mf{p}$ or $s\in\mf{p}$ for all $r,s\in R$.
+A proper ideal $\mf{p}\ideal R$ is said to be <b>prime</b> if $rs\in\mf{p}$ implies either $r\in\mf{p}$ or $s\in\mf{p}$ for all $r,s\in R$.
 
 ```
+
+<b>Remark.</b> Equivalently, $\mf{p}\ideal R$ is prime iff the quotient $R/\mf{p}$ is an integral domain.<span style="float:right;">$\blacklozenge$</span>
