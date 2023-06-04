@@ -24,7 +24,7 @@ which, in particular, implies the [First Isomorphism Theorem](obsidian://open?fi
 
 ---
 
-<b>Computations.</b> Computations are easier in special classes of rings, all of which are modelled around the arithmetic structure of $\Z$ and [polynomial rings](Polynomial%20Ring.md) $K[x]$:
+<b>Computations.</b> Computations are easier in special classes of rings, all of which are modelled around the arithmetic structure of $\Z$ and [polynomial rings](Polynomials.md) $K[x]$:
 * In a [commutative ring](Commutative%20Ring.md), one can define [principal ideals](Principal%20Ideal.md), ideals ‘generated’ as multiples of some element. Furthermore, the quotient [$R/I$ is a field $\Leftrightarrow$ $I$ is maximal](Ideal%20is%20maximal%20iff%20quotient%20is%20a%20field.md) and [$R/I$ is an integral domain $\Leftrightarrow$ $I$ is prime](Ideal%20is%20prime%20iff%20quotient%20is%20an%20integral%20domain.md). Thus, in a commutative ring, [‘maximal $\Rightarrow$ prime’](Maximal%20implies%20prime.md).
 * In an [integral domain](Integral%20Domain.md), its [characteristic](Characteristic.md) is either prime or $0$, and the [cancellation law](Integral%20domain%20iff%20cancellable.md) holds.
 * In a [principal ideal domain](Principal%20Ideal%20Domain%20(PID).md), one can, via [Bézout’s Identity](Bezout's%20Identity.md), define the [greatest common divisor](Greatest%20Common%20Divisor%20(GCD).md) for any two ring elements.

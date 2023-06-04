@@ -5,7 +5,7 @@ Tags: #Type/Definition #Later/Set_Theory
 
 Types: [[Bounded Sequence]], [[Cauchy Sequence]], [[Contractive Sequence]], [[Monotone Sequence]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Sequential Limits]], [[Subsequences]], [[Polynomial]]
+Constructions: [[Sequential Limits]], [[Subsequences]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

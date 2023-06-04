@@ -4,7 +4,7 @@ Date Created: 27/03/2022 21:04:03
 Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Finite-dimensional Vector Space]], [[Inner Product Space]]
-Examples: [[Vector Space of Polynomials]]
+Examples: [[Polynomials]]
 Constructions: [[Linear Combination]], [[Linear Map]], [[Linear Subspace]], [[Dual Space]], [[External Direct Product (Vector Space)]], [[Category of Vector Spaces]]
 Generalizations: [[Module]]
 
