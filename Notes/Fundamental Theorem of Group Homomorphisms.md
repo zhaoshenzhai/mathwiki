@@ -3,7 +3,7 @@
 Date Created: 03/01/2023 22:52:08
 Tags: #Type/Theorem #Topic/Group_Theory
 
-Proved by: [[Universal Property of Quotient Groups]], [[Basic properties of cosets]], [[Canonical Decomposition of Functions]]
+Proved by: [[Universal Property of Quotient Groups]], [[Canonical Decomposition of Functions]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

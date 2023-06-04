@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 13/10/2022 13:54:36
 Tags: #Type/Proposition #Topic/Group_Theory
 
-Proved by: [[Basic properties of cosets]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

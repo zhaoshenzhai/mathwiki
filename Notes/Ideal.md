@@ -25,4 +25,8 @@ Let $R$ be a ring. A subset $\mf{a}\subseteq R$ is a <b>left ideal in $R$</b> if
 
 ---
 
+<b>Remark.</b> If $\mf{a}\idealeq R$ is an ideal, then it is the kernel of the projection $\pi:R\to R/\mf{a}$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 <b>Remark.</b> Since the additive group of $R$ is abelian, we see that every ideal in $R$ is a normal subgroup thereof. Also, it is clear that the intersection of an arbitrary family of ideals is also an ideal.<span style="float:right;">$\blacklozenge$</span>

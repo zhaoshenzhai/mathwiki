@@ -7,7 +7,7 @@ mathLink: Universal Property of $\pi:G\to G/N$
 Date Created: 03/01/2023 22:40:59
 Tags: #Type/Theorem #Topic/Group_Theory
 
-Proved by: [[Basic properties of cosets]], [[Universal Property of Quotient Sets]]
+Proved by: [[Universal Property of Quotient Sets]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -17,7 +17,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Universal Property of Quotient Groups).
 
-Let $N\nsubgrpeq G$ be a normal subgroup of a group $G$. Then the projection $\pi:G\to G/N$ is universal among homomorphisms that map $N$ to the identity. That is, for any group $H$ and any homomorphism $\phi:G\to H$ such that $N\subgrpeq\ker\phi$, the following diagram commutes:
+Let $N\nsubgrpeq G$ be a normal subgroup of a group $G$. Then the projection $\pi:G\to G/N$ is universal among homomorphisms whose kernel contains $N$. That is, for any group $H$ and any homomorphism $\phi:G\to H$ such that $N\subgrpeq\ker\phi$, there is a unique homomorphism $\widetilde{\phi}:G/N\to H$ making the diagram below commute:
 ![[Images/2023-01-03_224316/image.svg|175]]
 
 ```

@@ -3,7 +3,7 @@
 Date Created: 08/05/2023 13:17:19
 Tags: #Type/Proposition #Topic/Group_Theory
 
-Proved by: [[Basic properties of cosets]], [[Lagrange's Theorem]]
+Proved by: [[Lagrange's Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

@@ -3,7 +3,7 @@
 Date Created: 07/05/2023 19:09:47
 Tags: #Type/Proposition #Topic/Group_Theory
 
-Proved by: [[Characterizations of normality]], [[Basic properties of cosets]]
+Proved by: [[Characterizations of normality]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

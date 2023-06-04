@@ -20,4 +20,8 @@ Let $G$ be a group. A subgroup $N\subgrpeq G$ is said to be a <b>normal in $G$</
 
 ```
 
+<b>Remark.</b> If $N\nsubgrpeq G$ is normal, then it is the kernel of the projection $\pi:G\to G/N$. Indeed, for all $n\in N$, we have $nN=N$, which occurs iff $n\in\ker\pi$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 <b>Remark.</b> Every subgroup of an abelian group is normal.<span style="float:right;">$\blacklozenge$</span>

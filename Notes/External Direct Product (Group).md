@@ -10,7 +10,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Abelianization of product is product of abelianization]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: <i>Not Applicable</i>
+Equivalences: [[Internal Direct Product (Group Theory)]]
 Justifications: [[Function space constructed from a Cartesian product]]
 
 ``` ad-Definition
