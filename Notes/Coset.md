@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Basic properties of cosets]], [[Number of left-cosets equals number of right-cosets]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Basic properties of groups]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

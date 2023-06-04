@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 14/11/2022 21:50:14
 Tags: #Type/Proposition #Topic/Ring_Theory
 
-Proved by: [[Basic properties of rings]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

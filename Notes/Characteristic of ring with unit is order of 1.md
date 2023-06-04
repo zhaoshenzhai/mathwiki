@@ -5,9 +5,9 @@ mathLink: $R$ with unit $\Rightarrow$ $\charac R=\ord{1}$
 <div class="topSpace"></div>
 
 Date Created: 15/11/2022 13:01:45
-Tags: #Type/Proposition #Topic/Ring_Theory
+Tags: #Type/Proposition #In_Progress
 
-Proved by: [[Basic properties of rings]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

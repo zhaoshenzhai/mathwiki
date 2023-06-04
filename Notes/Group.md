@@ -8,7 +8,7 @@ Examples: [[Symmetric Group]], [[Fundamental Group]], [[Group of Units]]
 Constructions: [[Group Homomorphism]], [[Subgroup]], [[Group Action]], [[External Direct Product (Group)]], [[Order (Group Theory)]], [[Abelianization]], [[Exact Sequence]]
 Generalizations: [[Groupoid]]
 
-Properties: [[Basic properties of groups]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Cayley's Theorem]], [[Free Group]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
@@ -16,22 +16,15 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A <b>group</b> is a semigroup $\tpl{G,\ast}$ such that
-* $\axigrp[1]$ (Identity)$\bf{.}$ $\ex e\in G,\fa g\in G:g\ast e=g=e\ast g$.
-* $\axigrp[2]$ (Inverse)$\bf{.}$ $\fa g\in G,\ex h\in G:g\ast h=e=h\ast g$.
-
-The element $e\in G$ is called the <b>identity element of $G$</b>, and, for all $g\in G$, the element $g^{-1}\coloneqq h$ in $\axigrp[2]$ is called the <b>inverse element of $g$</b>.
+A <b>group</b> is a monoid $\tpl{G,\ast,e}$ such that every element is invertible. That is, for all $g\in G$, there is some $h\in G$ such that $g\ast h=e=h\ast g$.
 
 ```
 
-<b>Remark.</b> Alternatively, we can define groups as triples $\tpl{G,\ast,e}$ for some fixed $e\in G$ where $\tpl{G,\ast}$ is a semigroup satisfying $\axigrp[2]$ as above, but with $\axigrp[1]$ replaced with
-$$\begin{equation}
-    \axigrp[1]'\bf{.}\ \fa g\in G:g\ast e=g=e\ast g.
-\end{equation}$$
-That is, we remove the existential quantifier in $\axigrp[1]$. We can similarly define groups as a quadruples $\tpl{G,\ast,e,i}$ for some $i:G\to G$ where $\tpl{G,\ast}$ is a semigroup satisfying $\axigrp[1]'$ as above, but with $\axigrp[2]$ replaced with
-$$\begin{equation}
-    \axigrp[2]'\bf{.}\ \fa g\in G,g\ast i\l(g\r)=e=i\l(g\r)\ast g.
-\end{equation}$$
-We need to verify that all three definitions are equivalent in the sense that they can be constructed from the other. Indeed, it suffices to check that the identity element $e$ and inverse elements $g^{-1}$ for each $g\in G$ are unique, for then they may be fixed (as a constant and a unary operation, respectively) and incorporated into the structure of the group itself.
+<b>Remark.</b> For all $g\in G$, the element $g^{-1}\coloneqq h$ such that $g\ast g^{-1}=e=g^{-1}\ast g$ is unique and is called the <b>inverse element of $g$</b>.<span style="float:right;">$\blacklozenge$</span>
 
-Conversely, the two types of groups defined here reduce to the ‘official’ definition by forgetting the $e\textrm{'}$s and the $i\textrm{'}$s; this can be done since they are fixed by construction and hence exist with the desired properties $\axigrp[1]$ and $\axigrp[2]$. In more detail, $\axigrp[1]$ holds since $e$ is fixed to begin with and satisfies $\axigrp[1]'$. The unary operation $i$ is a function, so $i\l(g\r)$ is defined for all $g\in G$ and may be distinct. Thus $\axigrp[2]$ holds with the existential quantifier occurring after fixing $g\in G$.<span style="float:right;">$\blacklozenge$</span>
+---
+
+<b>Remark.</b> Inverses satisfy the following properties.
+* For all $g,h\in G$, we have $\l(gh\r)^{-1}=h^{-1}g^{-1}$. This is analogous to the inverse of functional compositions.
+* We have ‘cancellation’: if either $gk=hk$ or $kg=kh$, then $g=h$.
+* We have ‘division’: for all $g,h\in G$, there exists a unique $x\in G$ such that $gx=h$ given by $x\coloneqq g^{-1}h$.<span style="float:right;">$\blacklozenge$</span>

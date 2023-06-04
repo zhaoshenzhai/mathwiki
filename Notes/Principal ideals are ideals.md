@@ -3,7 +3,7 @@
 Date Created: 16/11/2022 14:09:23
 Tags: #Type/Proposition #Topic/Ring_Theory
 
-Proved by: [[Basic properties of rings]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

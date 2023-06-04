@@ -3,12 +3,12 @@
 Date Created: 03/11/2022 19:00:21
 Tags: #Type/Definition #Topic/Ring_Theory
 
-Types: [[Commutative Ring]], [[Ring with Unit]]
-Examples: <i>Not Applicable</i>
-Constructions: [[Characteristic]], [[Ring Homomorphism]], [[Zero-divisor]], [[Subring]], [[Polynomial Ring]], [[Module]]
+Types: [[Commutative Ring]], [[Division Ring]]
+Examples: [[Ring of Integers]], [[Ring or Field of Integers mod n]]
+Constructions: [[Characteristic]], [[Ring Homomorphism]], [[Zero-divisor]], [[Multiplicative Subset]], [[Ideal]], [[Polynomial Ring]], [[Module]], [[Group of Units]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Basic properties of rings]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
@@ -16,8 +16,12 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A <b>ring</b> is a triple $\tpl{R,+,\cdot}$ such that $\tpl{R,+}$ is an abelian group, $\tpl{R,\cdot}$ is a semigroup, and
-* (Left-distributivity of $\cdot$ over $+$): $\fa r,s,t\in R:r\cdot\l(s+t\r)=\l(r\cdot s\r)+\l(r\cdot t\r)$.
-* (Right-distributivity of $\cdot$ over $+$): $\fa r,s,t\in R:\l(r+s\r)\cdot t=\l(r\cdot t\r)+\l(s\cdot t\r)$.
+A <b>ring</b> is a triple $\tpl{R,+,\cdot}$ where $\tpl{R,+}$ is an abelian group, $\tpl{R,\cdot}$ is a monoid, and where $\cdot$ distributes over $+$ on both sides.
 
 ```
+
+<b>Remark.</b> Some authors do not require $\tpl{R,\cdot}$ to be a monoid, only that it is a semigroup. That is, $R$ is not required to have a multiplicative identity.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> The additive and multiplicative structure are compatible in the sense that $r0=0=0r$, $r\l(-s\r)=-\l(rs\r)=\l(-r\r)s$, and $\l(-r\r)\l(-s\r)=rs$ for all $r,s\in R$.<span style="float:right;">$\blacklozenge$</span>

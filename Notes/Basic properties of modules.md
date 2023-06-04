@@ -3,7 +3,7 @@
 Date Created: 23/01/2023 17:51:43
 Tags: #Type/Proposition #Topic/Module_Theory
 
-Proved by: [[Basic properties of groups]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

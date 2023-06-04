@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 13/01/2023 14:37:39
-Tags: #Type/Definition #Topic/Ring_Theory #Courses/MATH457
+Tags: #Type/Definition #Topic/Ring_Theory
 
-Types: <i>Not Applicable</i>
+Types: [[Subring]]
 Examples: <i>Not Applicable</i>
 Constructions: [[Localization]]
 Generalizations: <i>Not Applicable</i>
@@ -16,6 +16,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a ring with unit. A subset $S\subseteq R$ is a <b>multiplicative set</b> if $1\in S$ and $xy\in S$ for all $x,y\in S$.
+A subset $S\subseteq R$ is a <b>multiplicative subset</b> if $1\in S$ and if $r,s\in R$ implies $rs\in S$.
 
 ```
+
+<b>Remark.</b> That is, $S\subseteq R$ is multiplicative if it is a submonoid of $R$, viewed as a multiplicative monoid.<span style="float:right;">$\blacklozenge$</span>

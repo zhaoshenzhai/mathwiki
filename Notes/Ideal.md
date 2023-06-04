@@ -16,19 +16,12 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a ring. A subring $I\subseteq R$ is a <b>left ideal in $R$</b> if it is stable under left multiplication; that is, if
-$$\begin{equation}
-    \fa r\in R:rI\subseteq I.
-\end{equation}$$
-Similarly for a <b>right ideal in $R$</b>. A two-sided ideal in $R$ is called an <b>ideal in $R$</b>.
+Let $R$ be a ring. A subset $\mf{a}\subseteq R$ is a <b>left ideal ix $R$</b> if it is an additive subgroup of $R$ such that $R\mf{a}\subseteq\mf{a}$.
+* Similarly for a <b>right ideal in $R$</b>. A two-sided ideal in $R$ is called an <b>ideal in $R$</b>. If $R$ is commutative, then every ideal is two-sided.
 
 ```
 
-<b>Remark.</b> If one takes rings as having unity, then ideals are defined to be sub<i>groups</i> of $R$ that are stable under multiplication. Otherwise, the only ideal of $R$ is the trivial ideal $\sring{0}$ and $R$ itself.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-<b>Remark.</b> A left ideal $I\subseteq R$ is a left $R$-module via the action $R\times I\to I:\tpl{r,i}\mapsto ri$; being a left-ideal ensures that $ri\in I$. Indeed $I$ is a left $R$-submodule of $R$, where $R$ is viewed as a left $R$-module over itself.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A left ideal $\mf{a}\subseteq R$ is a left $R$-module via the action $R\times\mf{a}\to\mf{a}:\tpl{r,i}\mapsto ri$; being a left-ideal ensures that $ri\in\mf{a}$. Indeed $\mf{a}$ is a left $R$-submodule of $R$, where $R$ is viewed as a left $R$-module over itself.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

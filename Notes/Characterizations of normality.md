@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 27/10/2022 18:37:38
 Tags: #Type/Proposition #Topic/Group_Theory
 
-Proved by: [[Basic properties of groups]]
+Proved by: <it>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
