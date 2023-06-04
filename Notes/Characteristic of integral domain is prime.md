@@ -21,8 +21,4 @@ Let $R$ be an integral domain. Then its characteristic $\charac R$ is prime.
 
 ```
 
-<i>Proof.</i> Let $n\coloneqq\charac R$. In particular, we have that $n1=0$. Suppose, for sake of contradiction, that $n$ is not prime, so there exist integers $1<a,b<n$ such that $n=ab$. But then
-$$\begin{equation}
-    a1\cdot b1=\l(ab\r)1=n1=0,
-\end{equation}$$
-so either $a1=0$ or $b1=0$. But $a,b<n$ and $n=\charac R$, so this forces $a=0$ or $b=0$, a contradiction.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Let $n\coloneqq\charac R$. In particular, we have that $n1=0$. Suppose, for sake of contradiction, that $n$ is not prime, so there exist integers $1<a,b<n$ such that $n=ab$. But then $a1\cdot b1=\l(ab\r)1=n1=0$, so either $a1=0$ or $b1=0$. But $a,b<n$ and $n=\charac R$, so this forces $a=0$ or $b=0$, a contradiction.<span style="float:right;">$\blacksquare$</span>

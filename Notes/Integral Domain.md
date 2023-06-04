@@ -20,4 +20,4 @@ A ring $R$ is an <b>integral domain</b> if it is a commutative ring with $0\neq1
 
 ```
 
-<b>Remark.</b> Equivalently, a commutative ring with $0\neq1$ is an integral domain if $rs=rt$ implies $s=t$ for all $s,t\in R$ and non-zero $r\in R$.
+<b>Remark.</b> Equivalently, a commutative ring with $0\neq1$ is an integral domain if $rs=rt$ implies $s=t$ for all $s,t\in R$ and non-zero $r\in R$.<span style="float:right;">$\blacklozenge$</span>
