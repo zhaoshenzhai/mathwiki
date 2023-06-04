@@ -3,7 +3,7 @@
 Date Created: 11/01/2023 15:53:00
 Tags: #Type/Proposition #Topic/Ring_Theory
 
-Proved by: [[Basic properties of divisibility and associates]], [[Integral domain iff cancellable]]
+Proved by: [[Basic properties of divisibility and associates]]
 References: [[Maximal implies prime]]
 Justifications: <i>Not Applicable</i>
 

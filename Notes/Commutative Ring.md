@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A ring $\tpl{R,+,\cdot}$ is said to be a <b>commutative ring</b> if the binary operation $\cdot$ commutes.
+A ring $R$ is said to be <b>commutative</b> if the $rs=sr$ for all $r,s\in R$.
 
 ```

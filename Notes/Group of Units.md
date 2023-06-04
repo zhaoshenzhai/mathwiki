@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Group_Theory #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Multiplicative Group of Integers mod n]], [[Group of units of finite field is a cyclic group]]
-Constructions: [[Irreducible Element]]
+Constructions: [[Division Ring]], [[Irreducible Element]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -20,12 +20,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a ring with unit. The <b>group of units of $R$</b> is the group $R^\times\coloneqq\l\{u\in R\mid\ex r\in R:ur=1=ru\r\}$. Elements of $R^\times$ are called <b>units</b>.
+Let $R$ be a ring. The <b>group of units of $R$</b> is the group $R^\times\coloneqq\l\{u\in R\mid\ex r\in R:ur=1=ru\r\}$, whose elements are called <b>units</b>.
 
 ```
 
 <b>Remark.</b> Observe that $R^\times=R\comp\l\{0\r\}$ iff $R$ is a division ring.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-<b>Remark.</b> Since $\cdot$ is an associative binary operation on $R$ with an identity, and we restrict to only those elements with a multiplicative inverse, we see that $\tpl{R^\times,\cdot}$ is a group.<span style="float:right;">$\blacklozenge$</span>

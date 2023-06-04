@@ -8,7 +8,7 @@ Examples: [[Principal Ideal]]
 Constructions: [[Quotient Ring]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Basic properties of ideals]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a ring. A subset $\mf{a}\subseteq R$ is a <b>left ideal ix $R$</b> if it is an additive subgroup of $R$ such that $R\mf{a}\subseteq\mf{a}$.
+Let $R$ be a ring. A subset $\mf{a}\subseteq R$ is a <b>left ideal in $R$</b> if it is an additive subgroup of $R$ such that $R\mf{a}\subseteq\mf{a}$.
 * Similarly for a <b>right ideal in $R$</b>. A two-sided ideal in $R$ is called an <b>ideal in $R$</b>. If $R$ is commutative, then every ideal is two-sided.
 
 ```
@@ -25,4 +25,4 @@ Let $R$ be a ring. A subset $\mf{a}\subseteq R$ is a <b>left ideal ix $R$</b> if
 
 ---
 
-<b>Remark.</b> Since the additive group of $R$ is abelian, we see that every ideal in $R$ is a normal subgroup thereof.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Since the additive group of $R$ is abelian, we see that every ideal in $R$ is a normal subgroup thereof. Also, it is clear that the intersection of an arbitrary family of ideals is also an ideal.<span style="float:right;">$\blacklozenge$</span>

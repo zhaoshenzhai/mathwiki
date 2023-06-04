@@ -10,17 +10,14 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Finite integral domain implies field]], [[Characteristic of integral domain is prime]], [[Basic properties of polynomial rings (integral domain)]]
 Sufficiencies: [[Ideal is prime iff quotient is an integral domain]]
-Equivalences: [[Integral domain iff cancellable]]
+Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.
 
-A commutative ring with unit $\tpl{R,+,\cdot,0}$ is said to be an <b>integral domain</b> if
-$$\begin{equation}
-    \fa r,s\in R:\l[rs=0\Rightarrow\l(r=0\lor s=0\r)\r].
-\end{equation}$$
+A ring $R$ is an <b>integral domain</b> if it is a commutative ring with $0\neq1$ having no <b>zero divisors</b>; that is, non-zero elements $r,s\in R$ whose product vanishes.
 
 ```
 
-<b>Remark.</b> Equivalently, $R$ is an integral domain if it does not have any zero-divisors.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Equivalently, a commutative ring with $0\neq1$ is an integral domain if $rs=rt$ implies $s=t$ for all $s,t\in R$ and non-zero $r\in R$.

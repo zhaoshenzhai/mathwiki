@@ -16,8 +16,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A ring $\tpl{R,+,\cdot,0}$ is said to be a <b>field</b> if it is a commutative division ring with unit.
+A ring $R$ is a <b>field</b> if it is a commutative division ring.
 
 ```
 
-<b>Remark.</b> Every field is an integral domain, for take $r,s\in R$ such that $rs=0$. Suppose that $r\neq0$. Then, being a division ring, we see that there exists some $r^{-1}\in R$ such that $r^{-1}r=1$. Observe then that $r^{-1}\l(rs\r)=\l(r^{-1}r\r)s=1s=s$, but since $rs=0$, we have that $s=0$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Every field is an integral domain since for every $r,s\in R$ such that $rs=0$, if $r\neq0$, then $s=\l(r^{-1}r\r)s=r^{-1}\l(rs\r)=0$.<span style="float:right;">$\blacklozenge$</span>

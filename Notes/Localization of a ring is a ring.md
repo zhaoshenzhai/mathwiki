@@ -3,7 +3,7 @@
 Date Created: 13/01/2023 14:48:08
 Tags: #Type/Proposition #Topic/Ring_Theory #Courses/MATH457
 
-Proved by: [[Integral domain iff cancellable]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
