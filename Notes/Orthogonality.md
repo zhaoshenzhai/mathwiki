@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Orthogonal Complement]], [[Orthogonal slash Orthonormal Set]]
+Constructions: [[Orthogonal Complement]], [[Orthogonal and Orthonormal Set]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

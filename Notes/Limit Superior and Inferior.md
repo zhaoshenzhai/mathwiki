@@ -14,7 +14,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Criteria for limit superior slash inferior]]
+Equivalences: [[Criteria for limit superior and inferior]]
 Justifications: [[Bolzano-Weierstrass Theorem]]
 
 ``` ad-Definition

@@ -1,5 +1,5 @@
 ---
-mathLink: Least/Greatest Element
+mathLink: auto
 ---
 
 <div class="topSpace"></div>
@@ -13,9 +13,9 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Least or greatest equals minimal or maximal for totally ordered sets]]
-Sufficiencies: [[Least slash greatest on compacta of R]]
+Sufficiencies: [[Least and greatest on compacta of R]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Least slash Greatest elements are unique]]
+Justifications: [[Least and Greatest elements are unique]]
 
 ``` ad-Definition
 title: Definition.

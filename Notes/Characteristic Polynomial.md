@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Algebraic slash geometric multiplicity]]
+Constructions: [[Algebraic and geometric multiplicity]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Cayley-Hamilton Theorem]], [[Eigenvalue iff root of characteristic polynomial]], [[Schur's Theorem]], [[Basic properties of characteristic polynomial and invariant subspaces]], [[Basic properties of characteristic and minimal polynomials]]

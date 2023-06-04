@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Analysis
 
 Types: <i>Not Applicable</i>
 Examples: [[Functional Limits in R]]
-Constructions: [[Sequential slash functional limit characterizations of continuity]], [[Frechet Differentiability slash Derivative]]
+Constructions: [[Sequential and functional limit characterizations of continuity]], [[Frechet Differentiability and Derivative]]
 Generalizations: [[Functional Limits]]
 
 Properties: [[Convergent implies bounded (functional)]]

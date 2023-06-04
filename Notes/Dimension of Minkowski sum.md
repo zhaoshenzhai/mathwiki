@@ -3,7 +3,7 @@
 Date Created: 20/01/2023 09:44:56
 Tags: #Type/Proposition #Topic/Linear_Algebra
 
-Proved by: [[Dimension Theorem]], [[Basis slash dimension for direct sum]], [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
+Proved by: [[Dimension Theorem]], [[Basis and dimension for direct sum]], [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

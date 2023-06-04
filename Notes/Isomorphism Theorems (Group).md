@@ -3,7 +3,7 @@
 Date Created: 09/05/2023 12:40:54
 Tags: #Type/Theorem #Topic/Group_Theory
 
-Proved by: [[Basic properties of subgroups]], [[Compositions of images slash preimages]], [[Basic properties of group homomorphisms]]
+Proved by: [[Basic properties of subgroups]], [[Compositions of images and preimages]], [[Basic properties of group homomorphisms]]
 References: [[Fundamental Theorem of Group Homomorphisms]]
 Justifications: <i>Not Applicable</i>
 

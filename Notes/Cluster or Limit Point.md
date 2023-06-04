@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 16/11/2022 16:57:22
 Tags: #Type/Definition #Topic/Analysis
 
-Types: [[Condensation Point slash aleph1-accumulation Point]]
+Types: [[Condensation Point or aleph1-accumulation Point]]
 Examples: <i>Not Applicable</i>
 Constructions: [[Perfect Set]], [[Limit-point Compact Space]]
 Generalizations: <i>Not Applicable</i>

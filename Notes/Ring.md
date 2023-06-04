@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Commutative Ring]], [[Division Ring]]
 Examples: [[Ring of Integers]], [[Ring or Field of Integers mod n]]
-Constructions: [[Ring Homomorphism]], [[Multiplicative Subset]], [[Ideal]], [[Group of Units]], [[Polynomial Ring]], [[Characteristic]], [[Module]]
+Constructions: [[Ring Homomorphism]], [[Multiplicative Subset]], [[Ideal]], [[Group of Units]], [[Monoid Ring or Algebra]], [[Polynomial Ring]], [[Characteristic]], [[Module]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

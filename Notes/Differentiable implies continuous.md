@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 01/12/2022 13:10:10
 Tags: #Type/Proposition #Topic/Analysis
 
-Proved by: [[Sequential slash functional limit characterizations of continuity]], [[Functional Limit Theorems in R]]
+Proved by: [[Sequential and functional limit characterizations of continuity]], [[Functional Limit Theorems in R]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

@@ -1,5 +1,5 @@
 ---
-mathLink: Lower/Upper Bound
+mathLink: auto
 ---
 
 <div class="topSpace"></div>

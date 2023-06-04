@@ -8,7 +8,7 @@ References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
-Generalizations: [[Frechet Differentiability slash Derivative]]
+Generalizations: [[Frechet Differentiability and Derivative]]
 
 ``` ad-Theorem
 title: Theorem (Fundamental Increment Lemma).

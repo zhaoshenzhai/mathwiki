@@ -10,7 +10,7 @@ Tags: #Type/Definition #Topic/Analysis
 Types: <i>Not Applicable</i>
 Examples: [[Power Rule]]
 Constructions: <i>Not Applicable</i>
-Generalizations: [[Frechet Differentiability slash Derivative]]
+Generalizations: [[Frechet Differentiability and Derivative]]
 
 Properties: [[Differentiation Theorems in R]], [[Mean Value Theorems]], [[First Derivative Test]], [[Differentiable implies continuous]]
 Sufficiencies: [[Fermat's Theorem on Stationary Points]], [[Derivatives and monotonicity]]

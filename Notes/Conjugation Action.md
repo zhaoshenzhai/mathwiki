@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[All k-cycles are conjugate]]
-Constructions: [[Centralizer slash Center]], [[Normalizer]], [[Normal Subgroup]]
+Constructions: [[Centralizer and Center]], [[Normalizer]], [[Normal Subgroup]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Class Equation]]

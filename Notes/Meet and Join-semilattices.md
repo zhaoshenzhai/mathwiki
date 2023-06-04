@@ -1,5 +1,5 @@
 ---
-mathLink: Meet/Join-semilattice
+mathLink: auto
 ---
 
 <div class="topSpace"></div>

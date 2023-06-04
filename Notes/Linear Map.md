@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Linear Isomorphism]], [[Linear Operator]], [[Bounded Linear Map]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Kernel slash Nullity]], [[Image slash Rank]], [[Dual Map]], [[Adjoint Map]], [[Vector Space of Linear Maps]], [[Category of Vector Spaces]]
+Constructions: [[Kernel and Nullity]], [[Image and Rank]], [[Dual Map]], [[Adjoint Map]], [[Vector Space of Linear Maps]], [[Category of Vector Spaces]]
 Generalizations: [[Antilinear Map]], [[Multilinear Map]], [[Module Homomorphism]]
 
 Properties: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Restriction on complement of kernel is injective]], [[Linear map from a finite-dimensional space is bounded]], [[Change of basis for linear maps]], [[Basic properties of linear maps]]

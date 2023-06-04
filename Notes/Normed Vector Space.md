@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Analysis
 
 Types: [[Banach Space]]
 Examples: [[Space of Continuous Functions]], [[lp Space]], [[Operator Norm]]
-Constructions: [[Norm induces a metric]], [[Bounded Linear Map]], [[Frechet Differentiability slash Derivative]]
+Constructions: [[Norm induces a metric]], [[Bounded Linear Map]], [[Frechet Differentiability and Derivative]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

@@ -1,5 +1,5 @@
 ---
-mathLink: auto
+mathLink: Strict total order $\Leftrightarrow$ transitive and asymmetric
 ---
 
 <div class="topSpace"></div>

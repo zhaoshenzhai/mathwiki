@@ -1,5 +1,5 @@
 ---
-mathLink: Least/greatest $=$ minimal/maximal for totally ordered sets
+mathLink: auto
 ---
 
 

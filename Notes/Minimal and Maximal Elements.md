@@ -1,7 +1,6 @@
 ---
-mathLink: Minimal/Maximal Element
+mathLink: auto
 ---
-
 
 <div class="topSpace"></div>
 

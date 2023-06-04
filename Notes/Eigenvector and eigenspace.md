@@ -10,7 +10,7 @@ Tags: #Type/Definition #Topic/Linear_Algebra
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: [[Diagonalization Test]]
-Generalizations: [[Generalized Eigenvector slash Eigenspace]]
+Generalizations: [[Generalized Eigenvector and Eigenspace]]
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: [[Distinct eigenvalues implies linearly independent eigenvectors]]

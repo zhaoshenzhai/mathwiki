@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Limit Superior slash Inferior]]
+Constructions: [[Limit Superior and Inferior]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Monotone Convergence Theorem]], [[Bolzano-Weierstrass Theorem]]

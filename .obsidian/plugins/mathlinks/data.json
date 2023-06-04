@@ -89,14 +89,6 @@
       "word": true
     },
     {
-      "title": "Slash",
-      "replaced": " slash ",
-      "replacement": "/",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": false
-    },
-    {
       "title": "Prefix: n",
       "replaced": "n-",
       "replacement": "$n$-",
@@ -178,8 +170,16 @@
     },
     {
       "title": "And",
-      "replaced": "and",
-      "replacement": "$\\land$",
+      "replaced": " and ",
+      "replacement": "/",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "title": "Or",
+      "replaced": " or ",
+      "replacement": "/",
       "globalMatch": true,
       "sensitive": true,
       "word": true

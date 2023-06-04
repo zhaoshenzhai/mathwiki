@@ -1,5 +1,5 @@
 ---
-mathLink: Infimum/Supremum
+mathLink: auto
 ---
 
 <div class="topSpace"></div>
@@ -8,14 +8,14 @@ Date Created: 24/01/2022 15:53:19
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Limit Superior slash Inferior]]
+Examples: [[Limit Superior and Inferior]]
 Constructions: [[Meet and Join-semilattices]], [[Dedekind-complete Ordered Set]], [[Diameter]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Supremum slash infimum are unique]]
+Justifications: [[Supremum and infimum are unique]]
 
 ``` ad-Definition
 title: Definition.

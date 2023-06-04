@@ -5,7 +5,7 @@ Tags: #Type/Definition #Later/Topology
 
 Types: <i>Not Applicable</i>
 Examples: [[Epsilon-ball]], [[Neighborhood of Infinity]]
-Constructions: [[Closed Set]], [[Boundary Point slash Boundary]], [[Sequential Limits]], [[Functional Limits]], [[Continuous Function]]
+Constructions: [[Closed Set]], [[Boundary Point and Boundary]], [[Sequential Limits]], [[Functional Limits]], [[Continuous Function]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

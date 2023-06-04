@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Limit Superior slash Inferior]], [[Convergence Criteria in R]]
+Constructions: [[Limit Superior and Inferior]], [[Convergence Criteria in R]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Subsequential limits are closed]]

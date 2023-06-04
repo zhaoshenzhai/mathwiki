@@ -5,7 +5,7 @@ Tags: #Type/Definition #Later/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Orthogonality]]
-Constructions: [[Equivalence Relation slash Class]]
+Constructions: [[Equivalence Relation and Class]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

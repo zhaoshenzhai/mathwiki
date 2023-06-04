@@ -4,7 +4,7 @@ Date Created: 04/04/2022 23:21:59
 Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Orthonormal Basis]]
-Examples: [[Basis slash dimension for direct sum]]
+Examples: [[Basis and dimension for direct sum]]
 Constructions: [[Dimension (Linear Algebra)]], [[Dual Basis]], [[Basis Transition Map]], [[Coordinate representation of vector spaces]], [[Matrix representation of linear maps]]
 Generalizations: <i>Not Applicable</i>
 

@@ -3,7 +3,7 @@
 Date Created: 28/03/2023 10:15:47
 Tags: #Type/Proposition #Topic/Analysis
 
-Proved by: [[Geometric series converges iff r less than 1]], [[Comparison Tests (Series)]], [[Criteria for limit superior slash inferior]]
+Proved by: [[Geometric series converges iff r less than 1]], [[Comparison Tests (Series)]], [[Criteria for limit superior and inferior]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

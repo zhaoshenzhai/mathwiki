@@ -1,5 +1,5 @@
 ---
-mathLink: auto
+mathLink: Irreflexive and transitive $\Rightarrow$ asymmetric
 ---
 
 <div class="topSpace"></div>

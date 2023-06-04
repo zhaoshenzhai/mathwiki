@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Analysis
 
 Types: <i>Not Applicable</i>
 Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth root of real]], [[Limit of nth root of n]]
-Constructions: [[Euler's Number]], [[Limit Superior slash Inferior]], [[Infinite Series]]
+Constructions: [[Euler's Number]], [[Limit Superior and Inferior]], [[Infinite Series]]
 Generalizations: [[Sequential Limits in a Metric Space]], [[Sequential Limits to Infinity]]
 
 Properties: [[Sequential Limit Theorems in R]]

@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: [[Injection]], [[Surjection]], [[Invertible Function]], [[Group Homomorphism]], [[Ring Homomorphism]], [[Linear Map]], [[Module Homomorphism]], [[Continuous Function]], [[Bounded Function]], [[Contractive Function]], [[Riemann Integrable Function]], [[Monotone Function]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction slash Extension (Function)]], [[Composition (Function)]], [[Indexed Family]], [[Category of Sets]], [[Functional Limits]], [[Local slash Global Extrema]]
+Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction and Extension (Function)]], [[Composition (Function)]], [[Indexed Family]], [[Category of Sets]], [[Functional Limits]], [[Local and Global Extrema]]
 Generalizations: [[Morphism (Category Theory)]], [[Class Function]]
 
 Properties: [[Collection of all functions is a proper class]]

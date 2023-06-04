@@ -4,11 +4,11 @@ Date Created: 26/01/2022 17:41:00
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Image slash Rank]]
+Examples: [[Image and Rank]]
 Constructions: [[Covariant Power Set Functor]]
 Generalizations: [[Image (Relation)]]
 
-Properties: [[Image slash preimage of compositions]], [[Compositions of images slash preimages]]
+Properties: [[Image and preimage of compositions]], [[Compositions of images and preimages]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

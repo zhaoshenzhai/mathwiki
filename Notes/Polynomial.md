@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Characteristic Polynomial]], [[Minimal Polynomial]]
-Constructions: [[Polynomial Ring]], [[Vector Space of Polynomials]], [[Content slash primitive polynomials]]
+Constructions: [[Polynomial Ring]], [[Vector Space of Polynomials]], [[Content and primitive polynomials]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

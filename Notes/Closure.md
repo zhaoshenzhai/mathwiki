@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Cluster slash Limit Point]], [[Dense Set]]
+Constructions: [[Cluster or Limit Point]], [[Dense Set]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

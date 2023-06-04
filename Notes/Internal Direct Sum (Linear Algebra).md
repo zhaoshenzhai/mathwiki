@@ -8,7 +8,7 @@ Examples: [[Symmetric and skew-symmetric decomposition of matrices]]
 Constructions: [[Complement (Linear Subspace)]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Basis slash dimension for direct sum]]
+Properties: [[Basis and dimension for direct sum]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Unique Representation Theorem (Direct Sum)]]
 Justifications: <i>Not Applicable</i>
