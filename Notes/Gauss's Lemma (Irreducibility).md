@@ -27,15 +27,15 @@ Let $R$ be a UFD and let $F$ be the field of fractions of $R$. For all non-trivi
 
 <i>Proof.</i> The converse is easy, for if $f=gh$ with $g,h\in R\l[x\r]$, then $g,h\in F\l[x\r]$ and so one of $g,h\in F\l[x\r]^\times=F^\times$. W.l.o.g., assume that $g\in F^\times$. But $g\in R\l[x\r]$, so this forces $g\in R$. Observe then that
 $$\begin{equation}
-    R=\cont\l(f\r)=\cont\l(gh\r)=g\cont\l(h\r)=\sring{g},
+    R=\cont\l(f\r)=\cont\l(gh\r)=g\cont\l(h\r)=\gen{g},
 \end{equation}$$
 so $g\in R^\times$.
 
-For the main direction, let $f$ be irreducible in $R\l[x\r]$ and write $f=\gamma f'$ for some primitive $f'\in R\l[x\r]$ where $\sring{\gamma}=\cont\l(f\r)$. Note that $f'$ is non-constant, so $f'\not\in R^\times$. But since $f$ is irreducible in $R\l[x\r]$, this forces $\gamma\in R^\times$. Observe then that $\cont\l(f\r)=\sring{\gamma}=R$, so $f$ is primitive. To show that $f$ is irreducible in $F\l[x\r]$, suppose that $f=gh$ for some $g,h\in F\l[x\r]$.
-* Note that any non-zero $p\in F\l[x\r]$ can be written as $p=\alpha p'$ for some primitive $p'\in R\l[x\r]$ and $\alpha\in F^\times$: First, let $a\in R\comp\l\{0\r\}$ be the product of all the denominators of the coefficients of $g$. Then $ap\in R\l[x\r]$, so $ap=bp'$ for some primitive $p'\in R\l[x\r]$ where $\sring{b}=\cont\l(ap\r)$. Set $\alpha\coloneqq b/a\in F^\times$ to obtain $p=\alpha p'$.
+For the main direction, let $f$ be irreducible in $R\l[x\r]$ and write $f=\gamma f'$ for some primitive $f'\in R\l[x\r]$ where $\gen{\gamma}=\cont\l(f\r)$. Note that $f'$ is non-constant, so $f'\not\in R^\times$. But since $f$ is irreducible in $R\l[x\r]$, this forces $\gamma\in R^\times$. Observe then that $\cont\l(f\r)=\gen{\gamma}=R$, so $f$ is primitive. To show that $f$ is irreducible in $F\l[x\r]$, suppose that $f=gh$ for some $g,h\in F\l[x\r]$.
+* Note that any non-zero $p\in F\l[x\r]$ can be written as $p=\alpha p'$ for some primitive $p'\in R\l[x\r]$ and $\alpha\in F^\times$: First, let $a\in R\comp\l\{0\r\}$ be the product of all the denominators of the coefficients of $g$. Then $ap\in R\l[x\r]$, so $ap=bp'$ for some primitive $p'\in R\l[x\r]$ where $\gen{b}=\cont\l(ap\r)$. Set $\alpha\coloneqq b/a\in F^\times$ to obtain $p=\alpha p'$.
 
 Thus we may write $f=\alpha\beta g'h'$ for some $\alpha,\beta\in F^\times$ and $g',h'\in R\l[x\r]$ primitive. Letting $\frac{a}{b}\coloneqq\alpha$ and $\frac{c}{d}\coloneqq\beta$, we have that $bdf=acg'h'$ and thus
 $$\begin{equation}
-    \sring{bd}=bd\cont\l(f\r)=\cont\l(bdf\r)=\cont\l(acg'h'\r)=ac\cont\l(g'h'\r)=ac\cont\l(g'\r)\cont\l(h'\r)=\sring{ac}
+    \gen{bd}=bd\cont\l(f\r)=\cont\l(bdf\r)=\cont\l(acg'h'\r)=ac\cont\l(g'h'\r)=ac\cont\l(g'\r)\cont\l(h'\r)=\gen{ac}
 \end{equation}$$
 by Gauss’s Lemma for Primitivity. Then $bd\sim ac$, so there exists some $u\in R^\times$ such that $ac=ubd$. Then $f=ug'h'$, and since $f$ is irreducible in $R\l[x\r]$, one of $g',h'\in R^\times\subseteq F^\times$.<span style="float:right;">$\blacksquare$</span>

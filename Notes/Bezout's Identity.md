@@ -17,7 +17,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Bézout$\textbf{'}$s Identity).
 
-Let $R$ be a commutative ring and fix $a,b\in R\comp\l\{0\r\}$. If there exists some $d\in R$ such that $\sring{a,b}=\sring{d}$, then $d=\gcd\l(a,b\r)$.
+Let $R$ be a commutative ring and fix $a,b\in R\comp\l\{0\r\}$. If there exists some $d\in R$ such that $\gen{a,b}=\gen{d}$, then $d=\gcd\l(a,b\r)$.
 
 ```
 
@@ -30,9 +30,9 @@ However, this does <i>not</i> give an algorithm to compute $\gcd\l(a,b\r)$ in ge
 ---
 
 <i>Proof.</i> We show that $d$ is a common divisor of $a$ and $b$ that divides every other divisor thereof.
-* Since $a\in\sring{a,b}$, we see that $a\in\sring{d}$ and hence $d\divides a$. Similarly, $d\divides b$.
+* Since $a\in\gen{a,b}$, we see that $a\in\gen{d}$ and hence $d\divides a$. Similarly, $d\divides b$.
 
-* Let $d'\in R\comp\l\{0\r\}$ such that $d'\divides a$ and $d'\divides b$. Then $a\in\sring{d}$ and $b\in\sring{d'}$, so $a=d'r$ and $b=d's$ for some $r,s\in R$. It suffices to show that $\sring{d}=\sring{a,b}\subseteq\sring{d'}$, for then $d'\divides d$. Take $x,y\in R$, and observe that
+* Let $d'\in R\comp\l\{0\r\}$ such that $d'\divides a$ and $d'\divides b$. Then $a\in\gen{d}$ and $b\in\gen{d'}$, so $a=d'r$ and $b=d's$ for some $r,s\in R$. It suffices to show that $\gen{d}=\gen{a,b}\subseteq\gen{d'}$, for then $d'\divides d$. Take $x,y\in R$, and observe that
 $$\begin{equation}
-    ax+by=\l(d'r\r)x+\l(d's\r)y=\l(rx+sy\r)d'\in\sring{d'}.\qedin
+    ax+by=\l(d'r\r)x+\l(d's\r)y=\l(rx+sy\r)d'\in\gen{d'}.\qedin
 \end{equation}$$
