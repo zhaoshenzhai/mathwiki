@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Irreducible Element]], [[Prime Element]], [[Localization]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Finite integral domain implies field]], [[Characteristic of integral domain is prime]], [[Basic properties of polynomial rings (integral domain)]]
+Properties: [[Finite integral domain implies field]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

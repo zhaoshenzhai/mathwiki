@@ -4,7 +4,7 @@ Date Created: 19/09/2022 11:55:03
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Euler's Totient Function]], [[Characteristic of ring with unit is order of 1]]
+Examples: [[Euler's Totient Function]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

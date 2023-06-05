@@ -4,7 +4,7 @@ Date Created: 03/11/2022 19:00:21
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Commutative Ring]], [[Division Ring]]
-Examples: [[Ring of Integers]], [[Ring or Field of Integers mod n]]
+Examples: <i>Not Applicable</i>
 Constructions: [[Ring Homomorphism]], [[Multiplicative Subset]], [[Ideal]], [[Group of Units]], [[Monoid Ring or Algebra]], [[Characteristic]], [[Module]]
 Generalizations: <i>Not Applicable</i>
 

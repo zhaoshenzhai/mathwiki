@@ -1,15 +1,15 @@
 <div class="topSpace"></div>
 
 Date Created: 19/09/2022 23:00:47
-Tags: #Type/Definition #Topic/Number_Theory
+Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Fundamental Theorem of Arithmetic]], [[Ring or Field of Integers mod n]]
+Constructions: [[Fundamental Theorem of Arithmetic]], [[Prime Field]]
 Generalizations: [[Prime Element]]
 
 Properties: [[Euclid's Lemma]]
-Sufficiencies: [[Characteristic of integral domain is prime]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

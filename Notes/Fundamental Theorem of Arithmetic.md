@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/09/2022 12:48:40
-Tags: #Type/Theorem #Topic/Number_Theory
+Tags: #Type/Theorem #Topic/Ring_Theory
 
 Proved by: [[Euclid's Lemma]]
 References: <i>Not Applicable</i>

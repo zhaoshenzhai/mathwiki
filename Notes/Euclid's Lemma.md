@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 19/09/2022 23:07:24
-Tags: #Type/Theorem #Topic/Number_Theory
+Tags: #Type/Theorem #Topic/Ring_Theory
 
 Proved by: [[Bezout's Identity]]
 References: <i>Not Applicable</i>

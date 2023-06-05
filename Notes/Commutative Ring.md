@@ -4,7 +4,7 @@ Date Created: 03/11/2022 19:05:54
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Integral Domain]], [[Field]]
-Examples: [[Ring or Field of Integers mod n]]
+Examples: [[Ring of Integers]]
 Constructions: [[Principal Ideal]], [[Polynomials]]
 Generalizations: <i>Not Applicable</i>
 
