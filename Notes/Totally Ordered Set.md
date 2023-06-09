@@ -9,7 +9,7 @@ Constructions: [[Open Interval]], [[Half-open Intervals]], [[Closed Interval]], 
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Least or greatest equals minimal or maximal for totally ordered sets]]
-Sufficiencies: <i>Not Applicable</i>
+Sufficiencies: [[Chain]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

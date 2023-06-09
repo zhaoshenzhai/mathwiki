@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Linear Independence]], [[Generated Linear Subspace]]
+Constructions: [[Linear Independence]], [[Generating Set (Vector Space)]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

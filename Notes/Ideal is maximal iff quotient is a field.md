@@ -1,5 +1,5 @@
 ---
-mathLink: $I$ maximal $\Leftrightarrow$ $R/I$ field
+mathLink: Ideal $\mf{a}$ maximal $\Leftrightarrow$ quotient $R/\mf{a}$ field
 ---
 
 <div class="topSpace"></div>
@@ -17,21 +17,14 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition.
 
-Let $R$ be a commutative ring and let $I\subset R$ be a proper ideal. Then $I$ is maximal iff $R/I$ is a field.
+Let $\mf{a}\ideal R$ be a proper ideal in a commutative ring $R$. Then $\mf{a}$ is maximal iff $R/\mf{a}$ is a field.
 
 ```
 
-<i>Proof.</i> Since $R$ is a commutative ring, we see that $R/I$ is also a commutative ring.
-* ($\Rightarrow$) Take $a+I\in R/I$ such that $a+I\neq0+I$, so $a\not\in I$. Let
+<i>Proof.</i> Since $R$ is a commutative ring, we see that $R/\mf{a}$ is also a commutative ring. Let $\bar{x}\coloneqq x+\mf{a}$ for all $x\in R$.
+* ($\Rightarrow$) Take a non-zero $\bar{x}\in R/\mf{a}$, so $x\not\in\mf{a}$. Then $\mf{a}+\gen{x}$ is an ideal of $R$ properly containing $\mf{a}$, so $R=\mf{a}+\gen{x}$. Thus $1=a+rx$ for some $a\in\mf{a}$ and $r\in R$, so
 $$\begin{equation}
-    J\coloneqq\l\{j\in R\mid\ex i\in I,\ex r\in R:j=i+ra\r\},
+    \bar{x}\bar{y}=\bar{xy}=\bar{1-a}=\bar{1},
 \end{equation}$$
-so $J$ is an ideal of $R$ containing $I$. But $I$ is maximal, so either $J=I$ or $J=R$. But $a=0+1a\in J$, so $J\neq I$ and hence $J=R$. Thus $1\in J$, so there exist $i\in I$ and $r\in R$ such that $1=i+ra$, so
-$$\begin{equation}
-    \l(a+I\r)\l(r+I\r)=ar+I=\l(1-i\r)+I=\l(1+I\r)+\l(-i+I\r)=1+I.
-\end{equation}$$
-* ($\Leftarrow$): Let $J$ be an ideal such that $I\subset J\subseteq R$, so there exists $a\in J$ such that $a\not\in I$. Thus $a+I\neq0+I$, and since $R/I$ is a field, we see that it has an inverse $b+I\in R/I$. Then
-$$\begin{equation}
-    ab+I=\l(a+I\r)\l(b+I\r)=1+I,
-\end{equation}$$
-so $1=ab+i$ for some $i\in I\subset J$. But $a\in J$ implies that $ab\in J$, so $1\in J$. Then, since $r=r\cdot1\in J$ for all $r\in R$, we see that $J=R$.<span style="float:right;">$\blacksquare$</span>
+as desired.
+* ($\Leftarrow$): Let $\mf{b}\idealeq R$ be an ideal properly containing $\mf{a}$, so there exists $a\in\mf{b}$ such that $a\not\in\mf{a}$. Thus $\bar{a}\neq\bar{0}$, and since $R/\mf{a}$ is a field, it admits an inverse $\bar{b}\in R/\mf{a}$. Then $\bar{ab}=\bar{a}\bar{b}=\bar{1}$, so $1=ab+i$ for some $i\in\mf{a}\subset\mf{b}$ and hence $1\in\mf{b}$. Thus $\mf{b}=R$, as desired.<span style="float:right;">$\blacksquare$</span>

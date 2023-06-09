@@ -10,7 +10,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Polynomial has at most degree-many roots]]
 Sufficiencies: [[Fundamental Theorem of Algebra]]
-Equivalences: [[Root iff factor]]
+Equivalences: [[Root iff factor (field)]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

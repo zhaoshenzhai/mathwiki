@@ -8,11 +8,11 @@ Date Created: 03/11/2022 19:59:00
 Tags: #Type/Definition #Topic/Group_Theory #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Multiplicative Group of Integers mod n]], [[Group of units of finite field is a cyclic group]]
+Examples: [[Multiplicative Group of Integers mod n]]
 Constructions: [[Division Ring]], [[Irreducible Element]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Group of units of finite field is a cyclic group]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

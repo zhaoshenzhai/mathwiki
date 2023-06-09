@@ -5,7 +5,7 @@ Tags: #Type/Definition #Later/Set_Theory
 
 Types: [[Bounded Poset]], [[Meet and Join-semilattices]], [[Dedekind-complete Ordered Set]], [[Totally Ordered Set]]
 Examples: [[Inclusion Poset]]
-Constructions: [[Minimal and Maximal Elements]], [[Lower and Upper Bounds]], [[Initial Segment]]
+Constructions: [[Minimal and Maximal Elements]], [[Lower and Upper Bounds]], [[Initial Segment]], [[Chain]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

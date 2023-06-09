@@ -4,8 +4,8 @@ Date Created: 14/09/2022 19:41:39
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Root iff factor]]
-Constructions: [[Greatest Common Divisor (GCD)]], [[Least Common Multiple]], [[Associates]]
+Examples: [[Root iff factor (field)]]
+Constructions: [[Greatest Common Divisor]], [[Associates]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of divisibility and associates]]
@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a commutative ring and fix $a,b\in R$ with $b\neq0$. Then <b>$b$ divides $a$</b> if there exists some $r\in R$ such that $a=br$, in which case we write $b\divides a$.
+Let $R$ be a commutative ring and fix $a,b\in R$ with $b\neq0$. Then <b>$b$ divides $a$</b> if $a=br$ for some $r\in R$, in which case we write $b\divides a$.
 
 ```

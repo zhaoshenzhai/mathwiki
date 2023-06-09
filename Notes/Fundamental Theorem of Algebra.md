@@ -4,7 +4,7 @@ Date Created: 21/05/2023 08:06:03
 Tags: #Type/Theorem #Topic/Topology #Topic/Ring_Theory
 
 Proved by: [[Fundamental group of the circle]]
-References: [[Polynomial ring over fields is a EUD]], [[Root iff factor]]
+References: [[Polynomial ring over fields is a EUD]], [[Root iff factor (field)]]
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>

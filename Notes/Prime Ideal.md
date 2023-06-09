@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A proper ideal $\mf{p}\ideal R$ is said to be <b>prime</b> if $rs\in\mf{p}$ implies either $r\in\mf{p}$ or $s\in\mf{p}$ for all $r,s\in R$.
+A proper ideal $\mf{p}\ideal R$ in a commutative ring $R$ is said to be <b>prime</b> if $rs\in\mf{p}$ implies either $r\in\mf{p}$ or $s\in\mf{p}$ for all $r,s\in R$.
 
 ```
 

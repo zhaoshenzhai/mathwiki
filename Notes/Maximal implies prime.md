@@ -7,8 +7,8 @@ mathLink: auto
 Date Created: 22/11/2022 19:40:28
 Tags: #Type/Proposition #Topic/Ring_Theory
 
-Proved by: <i>Not Applicable</i>
-References: [[Ideal is maximal iff quotient is a field]]
+Proved by: [[Ideal is maximal iff quotient is a field]]
+References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>

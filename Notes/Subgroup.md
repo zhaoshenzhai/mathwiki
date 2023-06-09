@@ -4,12 +4,12 @@ Date Created: 21/09/2022 20:37:12
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Normal Subgroup]]
-Examples: [[Generated Subgroup]], [[Centralizer and Center]], [[Normalizer]], [[Commutator Subgroup]]
+Examples: [[Centralizer and Center]], [[Normalizer]], [[Commutator Subgroup]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of subgroups]]
-Sufficiencies: <i>Not Applicable</i>
+Sufficiencies: [[Generating Set (Group)]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
