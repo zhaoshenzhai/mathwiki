@@ -20,6 +20,6 @@ Justifications: [[Multiplicative group iff coprime]]
 ``` ad-Definition
 title: Definition.
 
-<b>Euler’s Totient Function</b> is the function $\phi:\N^+\to\N^+$ defined by $\phi\l(n\r)\coloneqq\ord{\Z_n^\times}$ for all $n\in\N^+$; that is $\phi\l(n\r)\coloneqq\l|\l\{1\leq m\leq n\mid m\perp n\r\}\r|$.
+<b>Euler’s Totient Function</b> is the function $\phi:\N^+\to\N^+$ defined by $\phi\l(n\r)\coloneqq\ord{\Z_n^\times}$ for all $n\in\N^+$; that is $\phi\l(n\r)\coloneqq\#\l\{1\leq m\leq n\mid m\perp n\r\}$.
 
 ```
