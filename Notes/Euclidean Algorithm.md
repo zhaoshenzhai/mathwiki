@@ -13,7 +13,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Euclidean Algorithm).
 
-Let $a,b\in\Z\comp\l\{0\r\}$ and consider the sequence of divisions as shown below:_
+Let $a,b\in\Z\comp\l\{0\r\}$ and consider the sequence of divisions as shown below:
 $$\begin{equation}
     \begin{aligned}
               a&=q_0b+r_0 \\

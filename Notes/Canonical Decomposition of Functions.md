@@ -3,7 +3,7 @@
 Date Created: 03/01/2023 22:14:39
 Tags: #Type/Theorem #Topic/Set_Theory
 
-Proved by: [[Universal Property of Quotient Sets]], [[Terminal objects are isomorphic]]
+Proved by: [[Universal Property of Quotients]], [[Terminal objects are isomorphic]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -13,8 +13,8 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Canonical Decomposition of Functions).
 
-Let $f:X\to Y$ and let $\sim$ be an equivalence relation on $X$ defined by $x_1\sim x_2$ iff $f\l(x_1\r)=f\l(x_2\r)$. Then the following diagram commutes:
-![[Images/2023-01-03_221630/image.svg|275]]
+Let $f:X\to Y$ and let $\sim$ be an equivalence relation on $X$ defined by $x_1\sim x_2$ iff $f\l(x_1\r)=f\l(x_2\r)$. Then there is a unique bijection $\widetilde{f}:X/\!\sim\,\to\im f$ such that
+![[Images/2023-01-03_221630/image.svg|275]]commutes.
 
 ```
 

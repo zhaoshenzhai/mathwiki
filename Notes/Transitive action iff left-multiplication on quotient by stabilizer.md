@@ -7,7 +7,7 @@ mathLink: Transitive action on $G$ $\Leftrightarrow$ left-multiplication on $G/G
 Date Created: 10/05/2023 20:15:03
 Tags: #Type/Proposition #Topic/Group_Theory
 
-Proved by: [[Universal Property of Quotient Sets]]
+Proved by: [[Universal Property of Quotients]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

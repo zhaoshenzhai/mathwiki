@@ -3,7 +3,7 @@
 Date Created: 10/05/2023 11:39:52
 Tags: #Type/Theorem #Topic/Group_Theory
 
-Proved by: [[Universal Property of Quotient Groups]]
+Proved by: [[Universal Property of Quotients]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

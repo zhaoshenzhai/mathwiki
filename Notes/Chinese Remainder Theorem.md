@@ -3,7 +3,7 @@
 Date Created: 09/06/2023 16:45:24
 Tags: #Type/Theorem #Topic/Ring_Theory
 
-Proved by: [[Isomorphism Theorems (Ring)]]
+Proved by: [[Isomorphism Theorems]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

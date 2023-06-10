@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Quotient Ring]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Universal Property of Quotient Groups]]
+Properties: [[Universal Property of Quotients]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

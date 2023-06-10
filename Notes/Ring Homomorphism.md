@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Kernel (Ring Theory)]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Basic properties of ring homomorphisms]]
+Properties: [[Isomorphism Theorems]], [[Basic properties of ring homomorphisms]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

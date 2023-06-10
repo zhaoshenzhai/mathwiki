@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Quotient Group]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Universal Property of Quotient Sets]], [[Quotient set is a partition]]
+Properties: [[Universal Property of Quotients]], [[Quotient set is a partition]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Fundamental Theorem of Equivalence Relations]]
 Justifications: <i>Not Applicable</i>

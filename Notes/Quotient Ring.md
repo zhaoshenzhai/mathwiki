@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Universal Property of Quotient Rings]], [[Ideal is maximal iff quotient is a field]]
+Properties: [[Universal Property of Quotients]], [[Ideal is maximal iff quotient is a field]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

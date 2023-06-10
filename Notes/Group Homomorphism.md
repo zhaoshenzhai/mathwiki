@@ -8,8 +8,8 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Exact Sequence]], [[Kernel (Group Theory)]], [[Endomorphism Ring]], [[Ring Homomorphism]], [[Linear Map]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Isomorphism Theorems (Group)]], [[Basic properties of group homomorphisms]]
-Sufficiencies: [[Fundamental Theorem of Group Homomorphisms]]
+Properties: [[Isomorphism Theorems]], [[Basic properties of group homomorphisms]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
