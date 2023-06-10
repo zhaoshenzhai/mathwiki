@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Kernel (Group Theory)]], [[Centralizer and Center]], [[Commutator Subgroup]]
-Constructions: [[Quotient Group]], [[Internal Direct Product (Group Theory)]], [[Simple Group]]
+Constructions: [[Quotient Group]], [[Simple Group]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

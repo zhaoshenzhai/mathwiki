@@ -11,7 +11,7 @@ $\huge\rm\bf{L}\normalsize\rm\bf{INEAR ALGEBRA}$ is the study of the [category o
 
 ---
 
-<b>Constructions.</b> As with most categories, $\catvect$ has [subobjects](Linear%20Subspace.md), [products](External%20Direct%20Product%20(Vector%20Space).md), [direct sums](Internal%20Direct%20Sum%20(Linear%20Algebra).md), and [quotients](obsidian://open?file=TODO). Unique to Linear Algebra is the concept of the [dimension](Dimension%20(Linear%20Algebra).md) of a [vector space](Vector%20Space.md), defined as the cardinality of any [linearly independent](Linear%20Independence.md) [spanning set](Generating%20Set%20(Vector%20Space).md), aka any [basis](Basis%20(Linear%20Algebra).md), thereof.
+<b>Constructions.</b> As with most categories, $\catvect$ has [subobjects](Linear%20Subspace.md), [products](Direct%20Product.md), [direct sums](Internal%20Direct%20Sum%20(Linear%20Algebra).md), and [quotients](obsidian://open?file=TODO). Unique to Linear Algebra is the concept of the [dimension](Dimension%20(Linear%20Algebra).md) of a [vector space](Vector%20Space.md), defined as the cardinality of any [linearly independent](Linear%20Independence.md) [spanning set](Generating%20Set%20(Vector%20Space).md), aka any [basis](Basis%20(Linear%20Algebra).md), thereof.
 
 Similarly, as with most categories, we can define the [kernel](Kernel%20and%20Nullity.md) of a [linear map](Linear%20Map.md) $T:V\to W$. Unique to Linear Algebra is its [rank](Image%20and%20Rank.md) (defined as $\dim\im T$); together, they satisfy the [Dimension Theorem](Dimension%20Theorem.md) which states that $\dim V=\dim\ker T+\dim\im T$.<span style="float:right;">$\blacklozenge$</span>
 

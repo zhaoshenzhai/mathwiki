@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: [[Finite-dimensional Vector Space]], [[Inner Product Space]]
 Examples: [[Polynomials]]
-Constructions: [[Linear Combination]], [[Linear Map]], [[Linear Subspace]], [[Dual Space]], [[External Direct Product (Vector Space)]], [[Category of Vector Spaces]]
+Constructions: [[Linear Combination]], [[Linear Map]], [[Linear Subspace]], [[Dual Space]], [[Direct Product]], [[Category of Vector Spaces]]
 Generalizations: [[Module]]
 
 Properties: [[Basic properties of vector spaces]], [[Every vector space has a basis]]
