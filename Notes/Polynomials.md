@@ -24,7 +24,7 @@ If $K\coloneqq R$ is a field, then $K\l[M\r]$ is the <b>vector space of polynomi
 
 ```
 
-<b>Remark.</b> Univariate polynomials $f\in R\l[x\r]$ can be written uniquely in the form $f=\sum_{i=0}^ka_ix^i$ for some unique $\deg f\coloneqq k\in\N$ with $a_k\neq0$, called the <b>degree of $f$</b>. Indeed, the monoid $M$ is of the form $M=\l\{x^0,x^1,\dots,\r\}$, so we may write any $a_y$ for $y\coloneqq x^i$ as $a_i$. Similarly for multivariate polynomials.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Univariate polynomials $f\in R\l[x\r]$ can be written uniquely in the form $f=\sum_{i=0}^ka_ix^i$ for some unique $\deg f\coloneqq k\in\N$ with $a_k\neq0$, called the <b>degree of $f$</b>. Indeed, the monoid $M$ is of the form $M=\l\{x^0,x^1,\dots\r\}$, so we may write any $a_y$ for $y\coloneqq x^i$ as $a_i$. Similarly for multivariate polynomials.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

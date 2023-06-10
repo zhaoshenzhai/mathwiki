@@ -14,7 +14,7 @@ Generalizations: <i>Not Applicable</i>
 title: Proposition.
 
 Let $\mf{a}$ and $\mf{b}$ be ideals in a ring $R$. With the operations $\mf{a}+\mf{b}\coloneqq\l\{a+b\in R\mid a\in\mf{a},b\in\mf{b}\r\}$ and $\mf{a}\mf{b}\coloneqq\l\{a_1b_1+\cdots+a_nb_n\in R\mid a_i\in\mf{a},b_i\in\mf{b}\r\}$, the set of ideals in $R$ becomes both and additive and a multiplicative monoid that distributes on both sides.
-* Furthermore, we have $\mf{a}\mf{b}\subseteq\mf{a}\cap\mf{b}$, where equality holds if $R$ is commutative and $\mf{a}+\mf{b}=R$.
+* Furthermore, we have $\mf{a}\mf{b}\subseteq\mf{a}\cap\mf{b}$, where equality holds if $R$ is commutative and $\mf{a}$ is coprime with $\mf{b}$.
 
 ```
 

@@ -8,8 +8,8 @@ Examples: [[Principal Ideal]]
 Constructions: [[Quotient Ring]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Basic properties of ideals]]
-Sufficiencies: <i>Not Applicable</i>
+Properties: [[Chinese Remainder Theorem]], [[Basic properties of ideals]]
+Sufficiencies: [[Generating Set (Ideal)]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -18,6 +18,8 @@ title: Definition.
 
 Let $R$ be a ring. A subset $\mf{a}\subseteq R$ is a <b>left ideal in $R$</b> if it is an additive subgroup of $R$ such that $R\mf{a}\subseteq\mf{a}$, in which case we write $\mf{a}\idealeq R$.
 * Similarly for a <b>right ideal in $R$</b>. A two-sided ideal in $R$ is called an <b>ideal in $R$</b>. If $R$ is commutative, then every ideal is two-sided.
+
+Two ideals $\mf{a},\mf{b}\ideal R$ are said to be <b>coprime/comaximal</b> if $\mf{a}+\mf{b}=R$.
 
 ```
 
