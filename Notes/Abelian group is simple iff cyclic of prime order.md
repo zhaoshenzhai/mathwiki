@@ -7,7 +7,7 @@ mathLink: Abelian $G$ is simple $\Leftrightarrow$ $G=\gen{g}$ for $\ord{g}$ prim
 Date Created: 09/05/2023 18:07:48
 Tags: #Type/Proposition #Topic/Group_Theory
 
-Proved by: [[Classification of Cyclic Groups]], [[Basic properties of cyclic groups]], [[Lagrange's Theorem]]
+Proved by: [[Classification of Cyclic Groups]], [[Subgroups of cyclic groups]], [[Lagrange's Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

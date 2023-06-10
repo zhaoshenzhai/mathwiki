@@ -7,7 +7,7 @@ mathLink: Divisor sum of $\phi\l(n\r)$
 Date Created: 06/05/2023 02:13:30
 Tags: #Type/Proposition #Topic/Group_Theory #Topic/Number_Theory
 
-Proved by: [[Lagrange's Theorem]], [[Basic properties of cyclic groups]]
+Proved by: [[Lagrange's Theorem]], [[Subgroups of cyclic groups]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

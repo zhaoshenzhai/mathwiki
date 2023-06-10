@@ -4,7 +4,7 @@ Date Created: 03/11/2022 19:00:21
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Commutative Ring]], [[Division Ring]]
-Examples: <i>Not Applicable</i>
+Examples: [[Endomorphism Ring]]
 Constructions: [[Ring Homomorphism]], [[Multiplicative Subset]], [[Ideal]], [[Group of Units]], [[Monoid Ring or Algebra]], [[Characteristic]], [[Module]]
 Generalizations: <i>Not Applicable</i>
 

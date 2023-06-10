@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Identity Function]]
-Constructions: [[Symmetric Group]], [[Rearrangement of Series]]
+Constructions: [[Automorphism or Symmetric Group]], [[Rearrangement of Series]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

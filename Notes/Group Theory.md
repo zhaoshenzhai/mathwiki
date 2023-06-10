@@ -20,7 +20,7 @@ which, in particular, implies the [Isomorphism Theorems](Isomorphism%20Theorems%
 
 ---
 
-<b>Characterizations.</b> As with most categories, groups are identified up to [isomorphism](Group%20Isomorphism.md). A crude estimate is given by [Cayley’s Theorem](Cayley's%20Theorem.md), which states that every group is isomorphic to a [permutation group](Symmetric%20Group.md). However, permutation groups are very rich, so we restrict to [cyclic](Cyclic%20Group.md) or [Abelian](Abelian%20Group.md) groups.
+<b>Characterizations.</b> As with most categories, groups are identified up to [isomorphism](Group%20Isomorphism.md). A crude estimate is given by [Cayley’s Theorem](Cayley's%20Theorem.md), which states that every group is isomorphic to a [permutation group](Automorphism%20or%20Symmetric%20Group.md). However, permutation groups are very rich, so we restrict to [cyclic](Cyclic%20Group.md) or [Abelian](Abelian%20Group.md) groups.
 * The [Fundamental Theorem of Finite abelian Groups](obsidian://open?file=TODO) states that every finite abelian group is isomorphic to a direct sum of cyclic groups of prime-power order.
 * In turn, every cyclic group [is isomorphic to](Basic%20properties%20of%20cyclic%20groups.md) to either $\Z$ or $\Z_n\coloneqq\Z/n\Z$.<span style="float:right;">$\blacklozenge$</span>
 

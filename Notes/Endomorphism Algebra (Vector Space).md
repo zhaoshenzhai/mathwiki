@@ -1,7 +1,3 @@
----
-mathLink: $\End\l(V\r)$
----
-
 <div class="topSpace"></div>
 
 Date Created: 17/05/2022 23:04:48
