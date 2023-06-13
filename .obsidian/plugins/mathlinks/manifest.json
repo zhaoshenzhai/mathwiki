@@ -1,7 +1,7 @@
 {
 	"id": "mathlinks",
 	"name": "MathLinks",
-	"version": "0.2.6",
+	"version": "0.2.7",
 	"minAppVersion": "1.1.15",
 	"description": "Render MathJax in your links",
 	"author": "zhaoshenzhai",
