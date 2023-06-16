@@ -316,5 +316,14 @@
       ],
       "key": "F"
     }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": " "
+    }
   ]
 }
