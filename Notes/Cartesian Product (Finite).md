@@ -5,7 +5,7 @@ Tags: #Type/Definition #Later/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i> 
-Constructions: [[Product Space (Topology)]]
+Constructions: [[Product Space (Topology)]], [[Semidirect Product]]
 Generalizations: [[Cartesian Product]]
 
 Properties: [[Cartesian product is monotone w.r.t. subsets]], [[Cartesian product of intersections]], [[Cartesian product respects equinumerosity]]

@@ -20,7 +20,7 @@ Let $G$ be a group and $H,K\subgrpeq G$. Then the following basic properties hol
 
 ```
 
-<b>Remark.</b> Since $HK\subseteq\gen{H,K}$, we see that $\l|\gen{H,K}\r|\geq\l|H\r|\l|K\r|/\l|H\cap K\r|$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Since $HK\subseteq\gen{H,K}$, we see that $\l|\gen{H,K}\r|\geq\l|H\r|\l|K\r|/\l|H\cap K\r|$. Also, now that $\l|HK\r|=\l|H\r|\l|K\r|$ if $\l|H\cap K\r|=1$, in which case every element of $HK$ can be written uniquely as $hk$ for some $h\in H$ and $k\in K$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

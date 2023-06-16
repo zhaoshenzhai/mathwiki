@@ -18,7 +18,7 @@ Let $G$ be a group. Then the abelianization $\pi:G\to G^\textrm{ab}$ is universa
 
 ```
 
-<b>Remark.</b> In other words, for any $N\nsubgrpeq G$, the quotient $G/N$ is abelian iff $\l[G,G\r]\subgrpeq N$,  for consider the homomorphism $\phi:G\to G/N$. If $G/N$ is abelian, the universality of $G^\textrm{ab}$ furnishes a homomorphism $\widetilde{\phi}:G/\l[G,G\r]\to G/N$. Thus $\l[G,G\r]\subgrpeq N$. The converse is clear.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, $G^\textrm{ab}$ is the largest abelian quotient of $G$, in the sense that $G/N$ is abelian iff $\l[G,G\r]\subgrpeq N$. Indeed, suppose that $G/N$ is abelian. Then, since the projection $\phi:G\to G/N$ has kernel $N$, we see from the proof below that $\l[G,G\r]\leq N$. The converse is clear.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

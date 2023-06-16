@@ -28,4 +28,4 @@ Let $G$ be a group and $X$ a be a set. A <b>(left) $G$-action on $X$</b> is a ho
 
 ---
 
-<b>Remark.</b> Every group admits the <b>trivial action</b> $\phi:G\to\Aut\l(G\r):g\mapsto\phi_g$ by $\phi_h\!\l(h\r)\coloneqq gh$ for all $g,h\in G$. The fact that it is faithful is Cayley’s Theorem.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Every group admits the <b>left-multiplication action</b> $\phi:G\to\Aut\l(G\r)$ by $\phi_g\!\l(h\r)\coloneqq gh$ for all $g,h\in G$, which is faithful.<span style="float:right;">$\blacklozenge$</span>
