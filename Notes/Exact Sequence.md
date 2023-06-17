@@ -22,8 +22,8 @@ Let $G_1,\dots,G_n$ be groups. A sequence $G_1\to G_2\to\cdots\to G_n$ of homomo
 
 ```
 
-<b>Remark.</b> The First Isomorphism Theorem, which states that $G/\ker\phi\iso\im\phi$, shows that the sequence $1\to A\overset{\phi}{\to}B\overset{\psi}{\to} C\to1$ is exact iff $C\iso B/A$.
-* If the sequence is exact, then $\phi$ is injective and hence $A\iso\phi\l(A\r)$. But $\phi\l(A\r)=\ker\psi$ by exactness, so $B/\phi\l(A\r)\iso B/\ker\psi\iso\psi\l(B\r)$. Since $\psi$ is surjective, we see that $B/A\iso B/\phi\l(A\r)\iso C$.
+<b>Remark.</b> The First Isomorphism Theorem shows that the sequence $1\to A\overset{\phi}{\to}B\overset{\psi}{\to} C\to1$ is exact iff $C\iso B/A$.
+* We have $B/\ker\psi\iso\psi\l(B\r)$ by the First Isomorphism Theorem, so exactness of the sequence shows that $B/A\iso B/\im\phi=B/\ker\psi\iso\psi\l(B\r)\iso C$.
 * Conversely, suppose $C\iso B/A$. Let $\phi:A\into B$ be the inclusion and let $\psi:B\onto B/\phi\l(A\r)$ be the projection. Then $\ker\psi=\phi\l(A\r)=\im\phi$, as desired.
 
-This justifies the terminology that if $0\to A\to B\to C\to0$ is exact, then $B$ is an <b>extension of $C$ by $A$</b>.<span style="float:right;">$\blacklozenge$</span>
+This justifies the terminology that if $1\to A\to B\to C\to1$ is exact, then $B$ is an <b>extension of $C$ by $A$</b>.<span style="float:right;">$\blacklozenge$</span>

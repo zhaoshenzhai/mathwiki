@@ -14,7 +14,7 @@ Generalizations: <i>Not Applicable</i>
 title: Theorem (Isomorphism Theorems).
 
 Let $G$ and $G'$ be groups. We have the following ‘Isomorphism Theorems’:
-* (First Isomorphism Theorem): If $\phi:G\to G'$ is a homomorphism, then $G/\ker\phi\iso\im\phi$.
+* (First Isomorphism Theorem): If $\phi:G\to G'$ is a homomorphism, then $G/\ker\phi\iso\im\phi$ via $g\ker\phi\mapsto\phi\l(g\r)$.
 * (Second Isomorphism Theorem): If $H,K\subgrpeq G$ and $H\subgrpeq N_G\!\l(K\r)$, then $HK/K\iso H/\l(H\cap K\r)$.
 * (Third Isomorphism Theorem): If $H,K\nsubgrpeq G$ and $H\subgrpeq K$, then $\l(G/H\r)/\!\l(K/H\r)\iso G/K$.
 
@@ -26,8 +26,8 @@ Similar results hold for rings and modules (with ‘normal subgroup’ replaced 
 
 ```
 
-<b>Remark.</b> The First Isomorphism Theorem shows that the sequence $1\to A\overset{\phi}{\to}B\overset{\psi}{\to} C\longrightarrow1$ of groups is exact iff $C\iso B/A$.
-* If the sequence is exact, then $\phi$ is injective and hence $A\iso\phi\l(A\r)$. But $\phi\l(A\r)=\ker\psi$ by exactness, so $B/\phi\l(A\r)= B/\ker\psi\iso\psi\l(B\r)$. Since $\psi$ is surjective, we see that $B/A\iso B/\phi\l(A\r)\iso C$.
+<b>Remark.</b> The First Isomorphism Theorem shows that the sequence $1\to A\overset{\phi}{\to}B\overset{\psi}{\to} C\to1$ is exact iff $C\iso B/A$.
+* We have $B/\ker\psi\iso\psi\l(B\r)$ by the First Isomorphism Theorem, so exactness of the sequence shows that $B/A\iso B/\im\phi=B/\ker\psi\iso\psi\l(B\r)\iso C$.
 * Conversely, suppose $C\iso B/A$. Let $\phi:A\into B$ be the inclusion and let $\psi:B\onto B/\phi\l(A\r)$ be the projection. Then $\ker\psi=\phi\l(A\r)=\im\phi$, as desired.<span style="float:right;">$\blacklozenge$</span>
 
 ---
