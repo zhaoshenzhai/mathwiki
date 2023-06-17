@@ -1,6 +1,6 @@
 {
   "collapse-filter": true,
-  "search": "path:Notes",
+  "search": "path:Notes -tag:#Type/MOC",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -46,13 +46,13 @@
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.80688778393039,
+  "nodeSizeMultiplier": 1.77144875127133,
   "lineSizeMultiplier": 1.29302181037405,
-  "collapse-forces": false,
-  "centerStrength": 0.102440953780088,
+  "collapse-forces": true,
+  "centerStrength": 0.0770708554638942,
   "repelStrength": 20,
-  "linkStrength": 0.294101028364787,
+  "linkStrength": 0.691886088823596,
   "linkDistance": 500,
-  "scale": 0.015049901337467315,
+  "scale": 0.015288592158858662,
   "close": false
 }
