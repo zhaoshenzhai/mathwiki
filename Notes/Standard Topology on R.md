@@ -26,5 +26,5 @@ Let $<$ be the standard ordering on the real numbers $\R$. The <b>standard topol
 
 <b>Remark.</b> Since $\R$ is unbounded (in both directions), we see that $\mc{T}\l(<\r)\coloneqq\mc{T}\l(\mc{B}\r)$ where
 $$\begin{equation}
-    \mc{B}\coloneqq\l\{B\in\pow\l(\R\r)\mid\ex a,b\in\R:a<b\land B=\l(a,b\r)\r\}.\exqedin
+    \mc{B}\coloneqq\l\{B\in\pow\l(\R\r)\st\ex a,b\in\R:a<b\land B=\l(a,b\r)\r\}.\exqedin
 \end{equation}$$

@@ -13,7 +13,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition.
 
-The expression $\bigcap\em\coloneqq\l\{x\mid\fa v\l(v\in\em\Rightarrow x\in v\r)\r\}$ is a proper class.
+The expression $\bigcap\em\coloneqq\l\{x\st\fa v\l(v\in\em\Rightarrow x\in v\r)\r\}$ is a proper class.
 
 ```
 

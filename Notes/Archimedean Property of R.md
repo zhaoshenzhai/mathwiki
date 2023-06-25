@@ -21,7 +21,7 @@ Take $x,y\in\R$. If $x>0$, there there exists some $n\in\N$ such that $nx>y$.
 
 ```
 
-<i>Proof.</i> Consider the set $A\coloneqq\l\{nx\in\R\mid n\in\N\r\}$. Suppose, for sake of contradiction, that $y\geq nx$ for all $n\in\N$. Thus $A$ is bounded above by $y$, and since $A\neq\em$, we see that there exists a supremum $\alpha\coloneqq\sup A$ in $\R$. Since $x>0$, we see that $\alpha-x<\alpha$ and hence $\alpha-x$ cannot be an upper bound for $A$. Thus $\alpha-x<mx$ for some $mx\in A$, so $\alpha<\l(m+1\r)x\in A$. But since $\alpha$ is an upper bound of $A$, this is impossible.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> Consider the set $A\coloneqq\l\{nx\in\R\st n\in\N\r\}$. Suppose, for sake of contradiction, that $y\geq nx$ for all $n\in\N$. Thus $A$ is bounded above by $y$, and since $A\neq\em$, we see that there exists a supremum $\alpha\coloneqq\sup A$ in $\R$. Since $x>0$, we see that $\alpha-x<\alpha$ and hence $\alpha-x$ cannot be an upper bound for $A$. Thus $\alpha-x<mx$ for some $mx\in A$, so $\alpha<\l(m+1\r)x\in A$. But since $\alpha$ is an upper bound of $A$, this is impossible.<span style="float:right;">$\blacksquare$</span>
 
 ---
 

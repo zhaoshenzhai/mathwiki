@@ -18,7 +18,7 @@ title: Definition.
 
 Let $R$ be a binary relation. The <b>inverse of $R$</b> is the relation
 $$\begin{equation}
-    R^{-1}\coloneqq\l\{\tpl{y,x}\mid xRy\r\}.
+    R^{-1}\coloneqq\l\{\tpl{y,x}\st xRy\r\}.
 \end{equation}$$
 
 ```

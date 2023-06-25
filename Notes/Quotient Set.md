@@ -18,7 +18,7 @@ title: Definition.
 
 Let $X$ be a set and let $\sim$ be an equivalence relation on $X$. The <b>quotient set of $X$ under $\sim$</b> is the set
 $$\begin{equation}
-    X/\!\sim\,\coloneqq\l\{\l[x\r]_\sim\in\pow\l(X\r)\mid x\in X\r\}.
+    X/\!\sim\,\coloneqq\l\{\l[x\r]_\sim\in\pow\l(X\r)\st x\in X\r\}.
 \end{equation}$$
 The map $\pi:X\to X/\!\sim$ sending $x\mapsto\l[x\r]_\sim$ is called the <b>canonical projection</b>.
 

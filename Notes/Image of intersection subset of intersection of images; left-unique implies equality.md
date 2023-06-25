@@ -19,7 +19,7 @@ title: Proposition.
 
 Let $R$ be a binary relation and fix a non-empty subset $\mc{A}\subseteq\pow\l(\dom R\r)$; that is, fix a non-empty collection of subsets of $\dom R$. Then
 $$\begin{equation}
-    \im_R\l(\bigcap\mc{A}\r)\subseteq\bigcap\l\{\im_R\l(A\r)\mid A\in\mc{A}\r\}.
+    \im_R\l(\bigcap\mc{A}\r)\subseteq\bigcap\l\{\im_R\l(A\r)\st A\in\mc{A}\r\}.
 \end{equation}$$
 Equality holds if for all $y\in\ran R$, there exists a unique $x$ such that $xRy$.
 
@@ -42,7 +42,7 @@ $$\begin{align}
     &\Leftrightarrow\fa A\in\mc{A},\ex x:\tpl{x,y}\in R\rest A&&\textrm{Definition of restriction}\\
     &\Leftrightarrow\fa A\in\mc{A}:y\in\ran\l(R\rest A\r)&&\textrm{Definition of range}\\
     &\Leftrightarrow\fa A\in\mc{A}:y\in\im_R\l(A\r)&&\textrm{Definition of image}\\
-    &\Leftrightarrow y\in\bigcap\l\{\im_R\l(A\r)\mid A\in\mc{A}\r\}.&&\textrm{Definition of intersection}
+    &\Leftrightarrow y\in\bigcap\l\{\im_R\l(A\r)\st A\in\mc{A}\r\}.&&\textrm{Definition of intersection}
 \end{align}$$
 Assume now that $R$ satisfies the additional requirement. We claim that
 $$\begin{equation}

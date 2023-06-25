@@ -18,7 +18,7 @@ title: Definition.
 
 Let $v$ and $U$ be sets. The <b>set of relative complements of elements in $U$ w.r.t. $v$</b> is the set
 $$\begin{equation}
-    \l\{v\comp u\mid u\in U\r\}\coloneqq\l\{x\mid\l(\ex u\in U\r)x=v\comp u\r\}.
+    \l\{v\comp u\st u\in U\r\}\coloneqq\l\{x\st\l(\ex u\in U\r)x=v\comp u\r\}.
 \end{equation}$$
 
 ```

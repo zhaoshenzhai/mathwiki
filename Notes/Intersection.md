@@ -18,7 +18,7 @@ title: Definition.
 
 Let $\mc{A}$ be a non-empty set. The <b>intersection of $\mc{A}$</b> is the set
 $$\begin{equation}
-    \bigcap\mc{A}\coloneqq\l\{a\mid\fa A\in\mc{A}:a\in A\r\}.
+    \bigcap\mc{A}\coloneqq\l\{a\st\fa A\in\mc{A}:a\in A\r\}.
 \end{equation}$$
 
 ```

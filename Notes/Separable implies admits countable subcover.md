@@ -23,9 +23,9 @@ Let $\tpl{X,\mc{T}}$ be a separable topological space. If $\l\{U_\alpha\r\}_{\al
 
 <i>Proof.</i> Since $X$ is separable, there exists a countably dense subset $D\coloneqq\tpl{p_n}$. Then the set $\ms{B}$ of all balls with center $p_n$ and rational radii is countable, so we may let
 $$\begin{equation}
-    \mc{B}\coloneqq\l\{B_1,B_2,\dots\r\}\coloneqq\l\{B\in\ms{B}\mid\ex\alpha\in\mc{A}:B\subseteq U_\alpha\r\}.
+    \mc{B}\coloneqq\l\{B_1,B_2,\dots\r\}\coloneqq\l\{B\in\ms{B}\st\ex\alpha\in\mc{A}:B\subseteq U_\alpha\r\}.
 \end{equation}$$
-Now, for all $\alpha\in\mc{A}$, let $\mc{B}_\alpha\coloneqq\l\{B\in\mc{B}\mid B\subseteq U_\alpha\r\}$. We now show that $U_\alpha=\bigcup\mc{B}_\alpha$. Clearly $\bigcup\mc{B}_\alpha\subseteq U_\alpha$, so we prove the other direction.
+Now, for all $\alpha\in\mc{A}$, let $\mc{B}_\alpha\coloneqq\l\{B\in\mc{B}\st B\subseteq U_\alpha\r\}$. We now show that $U_\alpha=\bigcup\mc{B}_\alpha$. Clearly $\bigcup\mc{B}_\alpha\subseteq U_\alpha$, so we prove the other direction.
   * Take $p\in U_\alpha$, so there exists some $r\in\R$ such that $B\l(p,r\r)\subseteq U_\alpha$. Since $D$ is dense in $X$, we have $d\l(p,p_m\r)<r/3$ for some $m\in\N$. But density of $\Q$ in $\R$ furnishes some $s\in\Q$ such that $r/3<s<r/2$, so $d\l(p,p_m\r)<s$. Then $p\in B\l(p_m,s\r)$, so it suffices to show that $B\l(p_m,s\r)\subseteq B\l(p,r\r)$. But this is immediate, for if $q\in B\l(p_m,s\r)$, then
       $$\begin{equation}
           d\l(p,q\r)\leq d\l(p,p_m\r)+d\l(p_m,q\r)<s+s<2s<r.

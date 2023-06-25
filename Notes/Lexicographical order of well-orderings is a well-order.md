@@ -19,7 +19,7 @@ Let $<$ and $\prec$ be well-orders on the sets $X$ and $Y$, respectively, Then t
 
 <i>Proof.</i> Since $<$ and $\prec$ are strict total orders on $X$ and $Y$, respectively, we see that $\sqsubset$ is a strict total order on $X\times Y$. Hence it suffices to show that $\sqsubset$ is well-founded on $X\times Y$. To this end, take a non-empty subset $S\subseteq X\times Y$. Observe then that $S$ is a binary relation with $\dom S\subseteq X$, so $<$ is a well-ordering on $\dom S$ too. Therefore, there exists a $<$-minimal element $x_0\in\dom S$. Observe also that
 $$\begin{equation}
-    \widetilde{Y}\coloneqq\l\{y\mid\tpl{x_0,y}\in S\r\}\subseteq\ran S\subseteq Y,
+    \widetilde{Y}\coloneqq\l\{y\st\tpl{x_0,y}\in S\r\}\subseteq\ran S\subseteq Y,
 \end{equation}$$
 so there exists a $\prec$-minimal element $y_0\in\widetilde{Y}$; we claim that $\tpl{x_0,y_0}$ is a $\sqsubset$-minimal element in $S$. Suppose, for sake of contradiction, that
 $$\begin{equation}

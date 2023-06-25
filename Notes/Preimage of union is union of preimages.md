@@ -15,7 +15,7 @@ title: Proposition.
 
 Let $R$ be a binary relation and fix $\mc{B}\subseteq\pow\l(\ran R\r)$; that is, fix a collection of subsets of $\ran R$. Then
 $$\begin{equation}
-    \preim_R\l(\bigcup\mc{B}\r)=\bigcup\l\{\preim_R\l(B\r)\mid B\in\mc{B}\r\}.
+    \preim_R\l(\bigcup\mc{B}\r)=\bigcup\l\{\preim_R\l(B\r)\st B\in\mc{B}\r\}.
 \end{equation}$$
 
 ```
@@ -36,5 +36,5 @@ $\begin{align}
     &\Leftrightarrow\ex B\in\mc{B},\ex y:\tpl{y,x}\in R^{-1}\rest B && \textrm{Definition of restriction} \\
     &\Leftrightarrow\ex B\in\mc{B}:x\in\ran\l(R^{-1}\rest B\r) && \textrm{Definition of range} \\
     &\Leftrightarrow\ex B\in\mc{B}:x\in\preim_R\l(B\r) && \textrm{Definition of preimage} \\
-    &\Leftrightarrow x\in\bigcup\l\{\preim_R\l(B\r)\mid B\in\mc{B}\r\}. && \textrm{Definitionf of union}\qedin
+    &\Leftrightarrow x\in\bigcup\l\{\preim_R\l(B\r)\st B\in\mc{B}\r\}. && \textrm{Definitionf of union}\qedin
 \end{align}$

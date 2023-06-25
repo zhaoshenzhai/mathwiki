@@ -43,7 +43,7 @@ where the last sum is taken over all $\tpl{u,v,y}$ such that $uvy=z$. Similarly 
 $$\begin{equation}
     \l(\sum_{x\in M}\alpha_xx\r)+\l(\sum_{x\in M}\beta_xx\r)=\sum_{x\in G}\l(\alpha_x+\beta_x\r)x\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \l(\sum_{x\in M}\alpha_xx\r)\ast\l(\sum_{y\in M}\beta_yy\r)=\sum_{x,y\in M}\alpha_x\beta_yxy.
 \end{equation}$$
-This also makes it clear that $R\l[M\r]$ is free with basis $\l\{\delta_m\mid m\in M\r\}\iso M$, where $\delta_m\!\l(m\r)\coloneqq1$ and vanishes otherwise.<span style="float:right;">$\blacklozenge$</span>
+This also makes it clear that $R\l[M\r]$ is free with basis $\l\{\delta_m\st m\in M\r\}\iso M$, where $\delta_m\!\l(m\r)\coloneqq1$ and vanishes otherwise.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

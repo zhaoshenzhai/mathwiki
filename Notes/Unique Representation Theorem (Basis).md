@@ -30,7 +30,7 @@ where $\alpha_i=0$ for all but finitely-many $i\in I$.
 $$\begin{equation}
     v=\sum\limits_{i\in I}\alpha_ib_i=\sum\limits_{i\in I}\beta_ib_i
 \end{equation}$$
-for some distinct $\l\{\alpha_i\r\},\l\{\beta_i\r\}\subseteq K$ where $\alpha_i=0$ and $\beta_j=0$ for all but finitely-many $i,j\in I$. Let $I'\coloneqq\l\{i\in I\mid\alpha_i=\beta_i=0\r\}$ and observe that $\alpha_i-\beta_i=0-0=0$ for all $i\in I'$; since $\l|I\setminus I'\r|<\infty$, we see that $\alpha_i-\beta_i=0$ for all but finitely-many $i\in I$. Thus we may rearrange the sum into
+for some distinct $\l\{\alpha_i\r\},\l\{\beta_i\r\}\subseteq K$ where $\alpha_i=0$ and $\beta_j=0$ for all but finitely-many $i,j\in I$. Let $I'\coloneqq\l\{i\in I\st\alpha_i=\beta_i=0\r\}$ and observe that $\alpha_i-\beta_i=0-0=0$ for all $i\in I'$; since $\l|I\setminus I'\r|<\infty$, we see that $\alpha_i-\beta_i=0$ for all but finitely-many $i\in I$. Thus we may rearrange the sum into
 $$\begin{equation}
     0=\sum\limits_{i\in I}\l(\alpha_i-\beta_i\r)b_i,
 \end{equation}$$

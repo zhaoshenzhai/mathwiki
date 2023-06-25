@@ -18,7 +18,7 @@ title: Definition.
 
 Let $\tpl{X,\mc{T}}$ be a topological space and fix a subset $Y\subseteq X$. Then the <b>subspace topology on $Y$ inherited from $X$</b> is the topology
 $$\begin{equation}
-    \l.\mc{T}\r|_Y\coloneqq\l\{V\in\pow\l(Y\r)\mid\ex U\in\mc{T}:V=U\cap Y\r\}.
+    \l.\mc{T}\r|_Y\coloneqq\l\{V\in\pow\l(Y\r)\st\ex U\in\mc{T}:V=U\cap Y\r\}.
 \end{equation}$$
 The subset $Y\subseteq X$, equipped with the subspace topology $\l.\mc{T}\r|_Y$, is a <b>(topological) subspace of $X$</b>.
 

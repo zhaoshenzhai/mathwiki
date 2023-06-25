@@ -27,7 +27,7 @@ Let $R$ be a Euclidean Domain. If $I$ is any non-zero ideal of $R$, then there e
 
 <i>Proof.</i> Take a non-zero ideal $I$ of $R$. Let $N:R\to\N$ be a Euclidean function on $R$ and consider the set
 $$\begin{equation}
-    S\coloneqq\l\{N\l(i\r)\in\N\mid i\in I\r\}.
+    S\coloneqq\l\{N\l(i\r)\in\N\st i\in I\r\}.
 \end{equation}$$
 Then, since $I$ is non-zero, there exists some non-zero $i\in I$. Thus $S\neq\em$, so there exists an element $d\in I$ such that $N\l(d\r)$ is minimal.
 * Since $d\in I$, we see that $\gen{d}\subseteq I$.

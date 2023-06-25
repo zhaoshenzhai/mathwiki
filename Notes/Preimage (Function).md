@@ -18,7 +18,7 @@ title: Definition.
 
 Let $f:X\to Y$ and fix $T\subseteq Y$. The <b>preimage of $T$ under $f$</b> is the set
 $$\begin{equation}
-    \preim_f\l(T\r)\coloneqq\l\{x\in X\mid f\l(x\r)\in T\r\}.
+    \preim_f\l(T\r)\coloneqq\l\{x\in X\st f\l(x\r)\in T\r\}.
 \end{equation}$$
 
 ```

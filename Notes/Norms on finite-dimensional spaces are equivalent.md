@@ -29,7 +29,7 @@ Conversely, we need to find some $c_2>0$ such that $\|v\|_\infty\leq c_2\|v\|$ f
 $$\begin{equation}
     \l|f\l(v\r)-f\l(w\r)\r|=\l|\|v\|-\|w\|\r|\leq\|v-w\|\leq c_1\|v-w\|_\infty.
 \end{equation}$$
-Letting $\v{v}\coloneqq\tpl{\alpha_1,\dots,\alpha_n}$ be the coordinate representation of $v$, consider the unit sphere $S\coloneqq\l\{\v{v}\in\C^n\mid\|v\|_\infty=1\r\}$. It is clearly closed and bounded w.r.t $\|\slot\|_\infty$, and since the norms $\|\slot\|_\infty$ and $\|\slot\|_2$ are equivalent, Heine-Borel shows that $S$ is compact in $\|\slot\|_\infty$. By the Extreme Value Theorem, $\l.f\r|_S$ attains its minimum at some $\v{v}_0\in S$. Pulling $\v{v}_0$ back to $v_0\in V$, let
+Letting $\v{v}\coloneqq\tpl{\alpha_1,\dots,\alpha_n}$ be the coordinate representation of $v$, consider the unit sphere $S\coloneqq\l\{\v{v}\in\C^n\st\|v\|_\infty=1\r\}$. It is clearly closed and bounded w.r.t $\|\slot\|_\infty$, and since the norms $\|\slot\|_\infty$ and $\|\slot\|_2$ are equivalent, Heine-Borel shows that $S$ is compact in $\|\slot\|_\infty$. By the Extreme Value Theorem, $\l.f\r|_S$ attains its minimum at some $\v{v}_0\in S$. Pulling $\v{v}_0$ back to $v_0\in V$, let
 $$\begin{equation}
     c_2\coloneqq\frac{1}{\|v_0\|}>0.
 \end{equation}$$

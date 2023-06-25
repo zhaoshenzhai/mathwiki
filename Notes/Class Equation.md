@@ -13,7 +13,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Class Equation).
 
-Let $G$ be a group acting on a finite set $X$ and let $Z\coloneqq\l\{x\in X\mid\fa g\in G:gx=x\r\}$ be the set of fixed points of the action. Then
+Let $G$ be a group acting on a finite set $X$ and let $Z\coloneqq\l\{x\in X\st\fa g\in G:gx=x\r\}$ be the set of fixed points of the action. Then
 $$\begin{equation}
     \l|X\r|=\l|Z\r|+\sum_{x\in A}\l[G:G_x\r]
 \end{equation}$$

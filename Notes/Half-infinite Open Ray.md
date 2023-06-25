@@ -18,7 +18,7 @@ title: Definition.
 
 Let $\tpl{X,<}$ be a totally ordered set. If there does not exist a minimal element (resp. a maximal element) in $X$, then the open ray
 $$\begin{equation}
-    \l(-\infty,b\r)\coloneqq\l\{x\in X\mid\ex b\in X:x<b\r\}\ \ \ \ \ \ \ \ \mathit{(resp.}\ \l(a,+\infty\r)\coloneqq\l\{x\in X\mid\ex a\in X:x>a\r\}\mathit{)}
+    \l(-\infty,b\r)\coloneqq\l\{x\in X\st\ex b\in X:x<b\r\}\ \ \ \ \ \ \ \ \mathit{(resp.}\ \l(a,+\infty\r)\coloneqq\l\{x\in X\st\ex a\in X:x>a\r\}\mathit{)}
 \end{equation}$$
 is said to be a <b>half-infinite open ray</b>.
 

@@ -18,7 +18,7 @@ title: Definition.
 
 Let $\tpl{X,\mc{T}}$ be a topological space and fix $S\subseteq X$. The <b>closure of $S$ in $\tpl{X,\mc{T}}$</b> is the intersection of all closed sets that contain $S$; that is,
 $$\begin{equation}
-    \bar{S}\coloneqq\bigcap\l\{C\in\mc{F}\mid S\subseteq C\r\}
+    \bar{S}\coloneqq\bigcap\l\{C\in\mc{F}\st S\subseteq C\r\}
 \end{equation}$$
 where $\mc{F}$ is the set of all closed sets of $X$.
 

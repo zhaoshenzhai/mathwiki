@@ -25,7 +25,7 @@ Furthermore, if $\diam I_n\to0$, then $\l|\bigcap_{n\in\N}I_n\r|=1$.
 
 ```
 
-<i>Proof.</i> Set $\mc{I}\coloneqq\bigcap_{n\in\N}I_n$, and let $A\coloneqq\l\{a_i\in X\mid i\in\N\r\}$ and $B\coloneqq\l\{b_i\in X\mid i\in\N\r\}$. We claim that $A$ is bounded above by every $b_n\in B$. Fix $a_m\in A$.
+<i>Proof.</i> Set $\mc{I}\coloneqq\bigcap_{n\in\N}I_n$, and let $A\coloneqq\l\{a_i\in X\st i\in\N\r\}$ and $B\coloneqq\l\{b_i\in X\st i\in\N\r\}$. We claim that $A$ is bounded above by every $b_n\in B$. Fix $a_m\in A$.
 * If $n\leq m$, then $a_m\leq b_m\leq b_n$, where the second inequality follows from the fact that $I_m\subseteq I_n$.
 * If $n>m$, then $a_m\leq a_n\leq b_n$, where the first inequality follows from the fact that $I_n\subseteq I_m$.
 

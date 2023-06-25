@@ -15,7 +15,7 @@ title: Proposition.
 
 Let $R$ be a binary relation and fix $\mc{A}\subseteq\pow\l(\dom R\r)$; that is, fix a collection of subsets of $\dom R$. Then
 $$\begin{equation}
-    \im_R\l(\bigcup\mc{A}\r)=\bigcup\l\{\im_R\l(A\r)\mid A\in\mc{A}\r\}.
+    \im_R\l(\bigcup\mc{A}\r)=\bigcup\l\{\im_R\l(A\r)\st A\in\mc{A}\r\}.
 \end{equation}$$
 
 ```
@@ -36,5 +36,5 @@ $\begin{alignat}{2}
     &\Leftrightarrow\ex A\in\mc{A},\ex x:\tpl{x,y}\in R\rest A&&\textrm{Definition of restriction}\\
     &\Leftrightarrow\ex A\in\mc{A}:y\in\ran\l(R\rest A\r)&&\textrm{Definition of range}\\
     &\Leftrightarrow\ex A\in\mc{A}:y\in\im_R\l(A\r)&&\textrm{Definition of image}\\
-    &\Leftrightarrow y\in\bigcup\l\{\im_R\l(A\r)\mid A\in\mc{A}\r\}.&&\textrm{Definition of union}\qedin
+    &\Leftrightarrow y\in\bigcup\l\{\im_R\l(A\r)\st A\in\mc{A}\r\}.&&\textrm{Definition of union}\qedin
 \end{alignat}$

@@ -22,7 +22,7 @@ title: Definition.
 
 Let $T:V\to V$ be a linear operator on a $K$-vector space $V$. For $\lambda\in K$, the subspace
 $$\begin{equation}
-    \hat{E}_\lambda\coloneqq\l\{v\in V\mid\ex n\in\N^+:\l(\lambda\id_V-T\r)^nv=0\r\}
+    \hat{E}_\lambda\coloneqq\l\{v\in V\st\ex n\in\N^+:\l(\lambda\id_V-T\r)^nv=0\r\}
 \end{equation}$$
 is called the <b>generalized eigenspace of $T$ corresponding to $\lambda$</b>. A vector $v\in\hat{E}_\lambda$ is said to be a <b>generalized eigenvector of $T$ corresponding to $\lambda$</b>.
 
@@ -34,7 +34,7 @@ is called the <b>generalized eigenspace of $T$ corresponding to $\lambda$</b>. A
 
 <b>Remark.</b> We may further generalize the notion of an eigenspace of $T$. Indeed, for any $f\in K\l[x\r]$, let
 $$\begin{equation}
-    K_T^f\coloneqq\l\{v\in V\mid f\l(T\r)v=0\r\}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \hat{K}_T^f\coloneqq\l\{v\in V\mid\ex n\in\N^+:f\l(T\r)^nv=0\r\}
+    K_T^f\coloneqq\l\{v\in V\st f\l(T\r)v=0\r\}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \hat{K}_T^f\coloneqq\l\{v\in V\st\ex n\in\N^+:f\l(T\r)^nv=0\r\}
 \end{equation}$$
 be the <b>$f$-kernel of $T$</b> and <b>generalized $f$-kernel of $T$</b>, respectively. We then see that eigenspaces (generalized or not) are obtained by taking $f\l(T\r)\coloneqq\cchi_T$.<span style="float:right;">$\blacklozenge$</span>
 

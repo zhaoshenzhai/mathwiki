@@ -22,11 +22,11 @@ $$\begin{equation}
 
 <i>Proof.</i> First observe that
 $$\begin{equation}
-    U\times\prod\limits_{i\neq j}X_i=\l\{f:I\to U\cup\bigcup\limits_{i\neq j}X_i\mid f\l(j\r)\in U\land\fa i\in I:f\l(i\r)\in X_i\r\},
+    U\times\prod\limits_{i\neq j}X_i=\l\{f:I\to U\cup\bigcup\limits_{i\neq j}X_i\st f\l(j\r)\in U\land\fa i\in I:f\l(i\r)\in X_i\r\},
 \end{equation}$$
 but since $U\subseteq X_j$, the statement $f:I\to U\cup\bigcup_{i\neq j}X_i$ is equivalent to $f:I\to\bigcup_{i\in I}X_i$. Thus
 $$\begin{equation}
-    U\times\prod\limits_{i\neq j}X_i=\l\{f:I\to\bigcup\limits_{i\in I}X_i\mid f\l(j\r)\in U\land\fa i\in I:f\l(i\r)\in X_i\r\}.\cref{\ast}
+    U\times\prod\limits_{i\neq j}X_i=\l\{f:I\to\bigcup\limits_{i\in I}X_i\st f\l(j\r)\in U\land\fa i\in I:f\l(i\r)\in X_i\r\}.\cref{\ast}
 \end{equation}$$
 Now take $f\in\preim_{\pi_j}\!\l(U\r)$ and observe that
 $$\begin{align}

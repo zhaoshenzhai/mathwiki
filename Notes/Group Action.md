@@ -24,7 +24,7 @@ Let $G$ be a group and $X$ a be a set. A <b>(left) $G$-action on $X$</b> is a ho
 
 ---
 
-<b>Remark.</b> Note that $\ker\phi=\l\{g\in G\mid\fa x\in X:gx=x\r\}=\bigcap_{x\in X}G_x$ is the intersection of all stabilizers.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Note that $\ker\phi=\l\{g\in G\st\fa x\in X:gx=x\r\}=\bigcap_{x\in X}G_x$ is the intersection of all stabilizers.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

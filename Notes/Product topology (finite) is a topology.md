@@ -15,7 +15,7 @@ title: Proposition.
 
 Let $\tpl{X,\mc{T}_X}$ and $\tpl{Y,\mc{T}_Y}$ be topological spaces. Then the product topology $\mc{T}_\textrm{pr}\coloneqq\mc{T}\l(\mc{B}\r)$ where
 $$\begin{equation}
-    \mc{B}\coloneqq\l\{B\in\pow\l(X\times Y\r)\mid\ex U\in\mc{T}_X,\ex V\in\mc{T}_Y:B=U\times V\r\}
+    \mc{B}\coloneqq\l\{B\in\pow\l(X\times Y\r)\st\ex U\in\mc{T}_X,\ex V\in\mc{T}_Y:B=U\times V\r\}
 \end{equation}$$
 is a topology on $X\times Y$.
 

@@ -16,7 +16,7 @@ Justifications: [[Basic properties of group homomorphisms]], [[Characterizations
 ``` ad-Definition
 title: Definition.
 
-Let $G$ and $H$ be groups and consider a homomorphism $\phi:G\to H$. The <b>kernel of $\phi$</b> is the subgroup $\ker\phi\coloneqq\phi^{-1}\!\l(e\r)=\l\{g\in G\mid\phi\l(g\r)=e\r\}$ of $G$.
+Let $G$ and $H$ be groups and consider a homomorphism $\phi:G\to H$. The <b>kernel of $\phi$</b> is the subgroup $\ker\phi\coloneqq\phi^{-1}\!\l(e\r)=\l\{g\in G\st\phi\l(g\r)=e\r\}$ of $G$.
 
 ```
 

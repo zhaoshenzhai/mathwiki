@@ -18,7 +18,7 @@ title: Definition.
 
 Let $I$ be any inductive set asserted by the Axiom of Infinity. The <b>set of natural numbers</b> is the ordinal
 $$\begin{equation}
-    \N\coloneqq\omega\coloneqq\l\{n\in I\mid n\ \mathit{is\ a\ natural\ number}\r\}.
+    \N\coloneqq\omega\coloneqq\l\{n\in I\st n\ \mathit{is\ a\ natural\ number}\r\}.
 \end{equation}$$
 
 ```

@@ -21,4 +21,4 @@ Let $\tpl{X_n}_{n\in\omega}$ be a sequence of countable sets. Then $\bigcup_{n\i
 $$\begin{equation}
     \phi:X\to\omega\times\omega\ \ \ \ \ \ \ \ \mathit{mapping}\ \ \ \ \ \ \ \ x\mapsto\tpl{m,\phi_m\l(x\r)}
 \end{equation}$$
-where $m\in\omega$ is the (unique) minimal element of the set $\l\{n\in\omega\mid x\in X_n\r\}$. It suffices to show that $\phi$ is an injection, for then $X\into\omega\times\omega\into\omega$. Indeed, for all $x_1,x_2\in X$, $\tpl{m_1,\phi_{m_1}\l(x_1\r)}=\tpl{m_2,\phi_{m_2}\l(x_2\r)}$ implies that $m\coloneqq m_1=m_2$, so injectivity of $\phi_m$ establishes $x_1=x_2$.<span style="float:right;">$\blacksquare$</span>
+where $m\in\omega$ is the (unique) minimal element of the set $\l\{n\in\omega\st x\in X_n\r\}$. It suffices to show that $\phi$ is an injection, for then $X\into\omega\times\omega\into\omega$. Indeed, for all $x_1,x_2\in X$, $\tpl{m_1,\phi_{m_1}\l(x_1\r)}=\tpl{m_2,\phi_{m_2}\l(x_2\r)}$ implies that $m\coloneqq m_1=m_2$, so injectivity of $\phi_m$ establishes $x_1=x_2$.<span style="float:right;">$\blacksquare$</span>

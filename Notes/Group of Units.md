@@ -20,7 +20,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a ring. The <b>group of units of $R$</b> is the group $R^\times\coloneqq\l\{u\in R\mid\ex r\in R:ur=1=ru\r\}$, whose elements are called <b>units</b>.
+Let $R$ be a ring. The <b>group of units of $R$</b> is the group $R^\times\coloneqq\l\{u\in R\st\ex r\in R:ur=1=ru\r\}$, whose elements are called <b>units</b>.
 
 ```
 

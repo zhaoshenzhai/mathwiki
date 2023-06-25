@@ -18,7 +18,7 @@ title: Definition.
 
 Let $\l\{U_i\r\}_{i\in I}$ be an indexed family of linear subspaces of a $K$-vector space $V$. The <b>Minkowski sum of $\l\{U_i\r\}_{i\in I}$</b> is the linear subspace
 $$\begin{equation}
-    \sum_{i\in I}U_i\coloneqq\l\{u\in V\mid\fa i\in I,\ex u_i\in U_i:u=\sum_{i\in I}u_i\r\}
+    \sum_{i\in I}U_i\coloneqq\l\{u\in V\st\fa i\in I,\ex u_i\in U_i:u=\sum_{i\in I}u_i\r\}
 \end{equation}$$
 of $V$ where $u_i=0$ for all but finitely-many $i\in I$.
 

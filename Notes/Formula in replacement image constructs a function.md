@@ -19,7 +19,7 @@ Let $v$ be a set and let $\phi\l(x,y\r)$ be a formula such that $\fa x\in v,\ex!
 
 <i>Proof.</i> Let $\psi\l(x,z\r)\,\colon\!\Leftrightarrow\ex y\l[\phi\l(x,y\r)\land z=\tpl{x,y}\r]$ and construct the set
 $$\begin{equation}
-    f\coloneqq\l\{z\mid\ex x\in v:\psi\l(x,z\r)\r\}.
+    f\coloneqq\l\{z\st\ex x\in v:\psi\l(x,z\r)\r\}.
 \end{equation}$$
 * ($f$ is a set): To do so, we verify that $\fa x\in v,\ex!z:\psi\l(x,z\r)$. Take $x\in v$; by hypothesis, there exists a unique set $y$ such that $\phi\l(x,y\r)$, so set $z=\tpl{x,y}$ which is trivially unique.
 

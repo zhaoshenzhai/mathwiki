@@ -24,7 +24,7 @@ Let $V$ be a $K$-vector space. Consider a linear operator $T:V\to V$ and fix $v\
 
 <b>Remark.</b> Equivalently, $C_T\l(v\r)$ is the smallest $T$-invariant subspace of $V$ containing $v$. That is,
 $$\begin{equation}
-    C_T\l(v\r)\coloneqq\bigcap\l\{C\subseteq V\mid v\in C\land C\textrm{ is $T$-invariant}\r\}.
+    C_T\l(v\r)\coloneqq\bigcap\l\{C\subseteq V\st v\in C\land C\textrm{ is $T$-invariant}\r\}.
 \end{equation}$$
 Indeed, let $C$ be the smallest $T$-invariant subspace of $V$ containing $v$. Then $v\in C$ implies that $T^kv\in C$ for every $k\in\N$, so $C_T\l(v\r)=\span\l\{v,Tv,T^2v,\dots\r\}\subseteq C$. To show that $C\subseteq C_T\l(v\r)$, it suffices to show that $C_T\l(v\r)$ is $T$-invariant.
 * Indeed, for all $u\in C_T\l(v\r)$, we see that $u=\sum_{i\in I}\alpha_iT^iv$ where $\alpha_i=0$ for all but finitely-many $i\in I$. Observe then that $T\l(u\r)=\sum_{i\in I}\alpha_iT^{i+1}v\in C$.<span style="float:right;">$\blacklozenge$</span>

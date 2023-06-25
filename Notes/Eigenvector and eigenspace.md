@@ -22,7 +22,7 @@ title: Definition.
 
 Let $T:V\to V$ be a linear operator on a $K$-vector space $V$. If $\lambda\in K$ is an eigenvalue of $T$, then
 $$\begin{equation}
-    E_\lambda\coloneqq\ker\l(\lambda\id_V-T\r)=\l\{v\in V\mid T\l(v\r)=\lambda v\r\}
+    E_\lambda\coloneqq\ker\l(\lambda\id_V-T\r)=\l\{v\in V\st T\l(v\r)=\lambda v\r\}
 \end{equation}$$
 is called the <b>eigenspace of $T$ corresponding to $\lambda$</b>. A vector $v\in E_\lambda$ is said to be an <b>eigenvector of $T$ corresponding to $\lambda$</b>.
 

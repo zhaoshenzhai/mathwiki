@@ -30,6 +30,6 @@ $$\begin{equation}
 \end{equation}$$
 Here $P'$ is no longer the pair set of $A$ and $B$, but rather a superset thereof. The pair set $P$ of $A$ and $B$ is then defined as
 $$\begin{equation}
-    P\coloneqq\l\{x\in P'\mid x\in A\lor x\in B\r\}
+    P\coloneqq\l\{x\in P'\st x\in A\lor x\in B\r\}
 \end{equation}$$
 using Specification.<span style="float:right;">$\blacklozenge$</span>

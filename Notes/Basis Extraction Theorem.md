@@ -23,7 +23,7 @@ Let $V$ be a $K$-vector space. If $U\subseteq V$ is a spanning set of $V$, then 
 
 <i>Proof.</i> Consider the collection
 $$\begin{equation}
-    \ms{L}\coloneqq\l\{\mc{L}\in\pow\l(U\r)\mid\mc{L}\textrm{ is linearly independent}\r\}
+    \ms{L}\coloneqq\l\{\mc{L}\in\pow\l(U\r)\st\mc{L}\textrm{ is linearly independent}\r\}
 \end{equation}$$
 of all linearly independent subsets of $U$, and let $\mc{B}\in\ms{L}$ be of greatest cardinality; that is, let $\mc{B}\in\ms{L}$ be such that
 $$\begin{equation}

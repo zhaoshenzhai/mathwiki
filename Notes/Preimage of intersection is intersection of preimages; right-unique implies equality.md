@@ -19,7 +19,7 @@ title: Proposition.
 
 Let $R$ be a binary relation and fix a non-empty subset $\mc{B}\subseteq\pow\l(\ran R\r)$; that is, fix a non-empty collection of subsets of $\ran R$. Then
 $$\begin{equation}
-    \preim_R\l(\bigcap\mc{B}\r)\subseteq\bigcap\l\{\preim_R\l(B\r)\mid B\in\mc{B}\r\}.
+    \preim_R\l(\bigcap\mc{B}\r)\subseteq\bigcap\l\{\preim_R\l(B\r)\st B\in\mc{B}\r\}.
 \end{equation}$$
 Equality holds if for all $x\in\dom R$, there exists a unique $y$ such that $xRy$.
 
@@ -42,7 +42,7 @@ $$\begin{align}
     &\Leftrightarrow\fa B\in\mc{B},\ex y:\tpl{y,x}\in R^{-1}\rest B&&\textrm{Definition of restriction}\\
     &\Leftrightarrow\fa B\in\mc{B}:y\in\ran\l(R\rest B\r)&&\textrm{Definition of range}\\
     &\Leftrightarrow\fa B\in\mc{B}:y\in\preim_R\l(B\r)&&\textrm{Definition of preimage}\\
-    &\Leftrightarrow y\in\bigcap\l\{\preim_R\l(B\r)\mid B\in\mc{B}\r\}.&&\textrm{Definition of intersection}
+    &\Leftrightarrow y\in\bigcap\l\{\preim_R\l(B\r)\st B\in\mc{B}\r\}.&&\textrm{Definition of intersection}
 \end{align}$$
 Assume now that $R$ satisfies the additional requirement. We claim that
 $$\begin{equation}

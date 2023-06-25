@@ -37,6 +37,6 @@ $$\begin{equation}
 \end{equation}$$
 Here $P'$ is no longer the power set of $A$, but rather a superset thereof. Thus power set $P$ of $A$ is then defined as
 $$\begin{equation}
-    P\coloneqq\l\{S\in P'\mid S\subseteq A\r\}
+    P\coloneqq\l\{S\in P'\st S\subseteq A\r\}
 \end{equation}$$
 using Specification.<span style="float:right;">$\blacklozenge$</span>

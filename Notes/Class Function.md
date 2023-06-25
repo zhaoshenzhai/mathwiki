@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition (Informal).
 
-Let $X\coloneqq\l\{x\mid\psi\l(x\r)\r\}$ be a class. The formula $\phi\l(x,y\r)$ is referred to as a <b>class function</b> if
+Let $X\coloneqq\l\{x\st\psi\l(x\r)\r\}$ be a class. The formula $\phi\l(x,y\r)$ is referred to as a <b>class function</b> if
 $$\begin{equation}
     \fa x:\l[\psi\l(x\r)\Rightarrow\ex!y:\phi\l(x,y\r)\r]
 \end{equation}$$
@@ -24,6 +24,6 @@ and we wish to consider the collection of all pairs $\tpl{x,y}$ satisfying $\phi
 $$\begin{equation}
     \fa y:\l[\xi\l(y\r)\Rightarrow\l(\ex x:\psi\l(x\r)\land\phi\l(x,y\r)\r)\r],
 \end{equation}$$
-write $\cdm\phi\coloneqq Y\coloneqq\l\{y\mid\xi\l(y\r)\r\}$ and $\phi:X\to Y$.
+write $\cdm\phi\coloneqq Y\coloneqq\l\{y\st\xi\l(y\r)\r\}$ and $\phi:X\to Y$.
 
 ```

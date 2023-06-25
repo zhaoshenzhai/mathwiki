@@ -22,7 +22,7 @@ title: Definition.
 
 Let $R$ be a binary relation. The <b>domain and range of $R$</b> are the sets
 $$\begin{equation}
-    \dom R\coloneqq\l\{x\mid\ex y:xRy\r\}\ \ \ \ \mathit{and}\ \ \ \ \ran R\coloneqq\l\{y\mid\ex x:xRy\r\},
+    \dom R\coloneqq\l\{x\st\ex y:xRy\r\}\ \ \ \ \mathit{and}\ \ \ \ \ran R\coloneqq\l\{y\st\ex x:xRy\r\},
 \end{equation}$$
 respectively.
 

@@ -18,7 +18,7 @@ title: Definition.
 
 Let $G$ be a group and take $g\in G$. If there exists some $n\in\N^+$ such that $g^n=e$, then $g$ is said to have <b>finite order</b>, in which case the <b>order of $g$</b> is
 $$\begin{equation}
-    \l|g\r|\coloneqq\min\l\{n\in\N^+\mid g^n=e\r\}.
+    \l|g\r|\coloneqq\min\l\{n\in\N^+\st g^n=e\r\}.
 \end{equation}$$
 Otherwise, $g$ is said to have <b>infinite order</b>.
 

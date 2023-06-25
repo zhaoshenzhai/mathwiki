@@ -19,9 +19,9 @@ Let $\tpl{X,<}$ be a totally ordered set. If $X$ has no minimal element, then th
 
 <i>Proof.</i> Suppose that $X$ has no minimal element and take $b\in X$. Observe then that
 $$\begin{equation}
-    \l(-\infty,b\r)=\bigcup\underbrace{\l\{U\in\pow\l(X\r)\mid\ex a\in X:a<b\land U=\l(a,b\r)\r\}}_{\mathclap{\subseteq\mc{B}}}
+    \l(-\infty,b\r)=\bigcup\underbrace{\l\{U\in\pow\l(X\r)\st\ex a\in X:a<b\land U=\l(a,b\r)\r\}}_{\mathclap{\subseteq\mc{B}}}
 \end{equation}$$
 where $\mc{B}$ is the basis that generates $\mc{T}\l(<\r)$. Similarly, if $X$ has no maximal element, take $a\in X$ and observe that
 $$\begin{equation}
-    \l(a,+\infty\r)=\bigcup\underbrace{\l\{U\in\pow\l(X\r)\mid\ex b\in X:a<b\land U=\l(a,b\r)\r\}}_{\mathclap{\subseteq\mc{B}}}.\qedin
+    \l(a,+\infty\r)=\bigcup\underbrace{\l\{U\in\pow\l(X\r)\st\ex b\in X:a<b\land U=\l(a,b\r)\r\}}_{\mathclap{\subseteq\mc{B}}}.\qedin
 \end{equation}$$

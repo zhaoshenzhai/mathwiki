@@ -20,7 +20,7 @@ Let $R$ be an integral domain and let $S\subseteq R$ be multiplicative. Define t
 $$\begin{equation}
     \tpl{r_1,s_1}\sim\tpl{r_2,s_2}\ \ \ \ \ \ \ \ \,\colon\!\Leftrightarrow\ \ \ \ \ \ \ \ r_1s_2=r_2s_1
 \end{equation}$$
-for all $r_1,r_2\in R$ and $s_1,s_2\in S$. Write $\frac{r}{s}\coloneqq\l[\tpl{r,s}\r]$. The <b>localization of $R$ by $S$</b> is the commutative ring $S^{-1}R\coloneqq\l\{\frac{r}{s}\mid r\in R\land s\in S\r\}$ equipped with the operations
+for all $r_1,r_2\in R$ and $s_1,s_2\in S$. Write $\frac{r}{s}\coloneqq\l[\tpl{r,s}\r]$. The <b>localization of $R$ by $S$</b> is the commutative ring $S^{-1}R\coloneqq\l\{\frac{r}{s}\st r\in R\land s\in S\r\}$ equipped with the operations
 $$\begin{equation}
     \begin{aligned}
         +:S^{-1}R\times S^{-1}R&\to S^{-1}R \\

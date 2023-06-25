@@ -43,5 +43,5 @@ $$\begin{equation}
 \end{equation}$$
 Let $\phi\l(u,x\r)\,\colon\!\Leftrightarrow\ex y:u=\l[\!\l[x,y\r]\!\r]$; we wish to show that $\fa u\in R,\ex!x\phi\l(u,x\r)$. To this end, fix $u\in R$ and suppose that there exist sets $x$ and $x'$ such that $\phi\l(u,x\r)$ and $\phi\l(u,x'\r)$. Hence there exist $y$ and $y'$ such that $\l[\!\l[x,y\r]\!\r]=u=\l[\!\l[x',y'\r]\!\r]$. It follows that $x=x'$ and hence we can form the replacement image of $R$ under $\phi\l(u,x\r)$ as the set
 $$\begin{equation}
-    \dom R\coloneqq\l\{x\mid\ex u\in R,\ex y:u=\l[\!\l[x,y\r]\!\r]\r\}=\l\{x\mid\ex y:xRy\r\}.\qedin
+    \dom R\coloneqq\l\{x\st\ex u\in R,\ex y:u=\l[\!\l[x,y\r]\!\r]\r\}=\l\{x\st\ex y:xRy\r\}.\qedin
 \end{equation}$$

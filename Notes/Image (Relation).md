@@ -23,4 +23,4 @@ $$\begin{equation}
 
 ```
 
-<b>Remark.</b> Expanding, we see that $\im_R\l(S\r)=\l\{y\mid\ex x\in S:xRy\r\}$. Usually, the set $S$ is a subset of $\dom R$. Observe that $\im_R\l(\dom R\r)=\ran R$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Expanding, we see that $\im_R\l(S\r)=\l\{y\st\ex x\in S:xRy\r\}$. Usually, the set $S$ is a subset of $\dom R$. Observe that $\im_R\l(\dom R\r)=\ran R$.<span style="float:right;">$\blacklozenge$</span>

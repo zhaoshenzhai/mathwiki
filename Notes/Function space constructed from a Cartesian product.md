@@ -19,13 +19,13 @@ Let $X$ be a set and let $\l\{X_i\r\}_{i\in I}$ be an indexed family with $X_i=X
 
 <i>Proof.</i> Observe that
 $$\begin{equation}
-    \bigcup\limits_{i\in I}X_i=\bigcup\l\{X_i\mid i\in I\r\}=\bigcup\l\{X\mid i\in I\r\}=\bigcup\l\{X\r\}=X,
+    \bigcup\limits_{i\in I}X_i=\bigcup\l\{X_i\st i\in I\r\}=\bigcup\l\{X\st i\in I\r\}=\bigcup\l\{X\r\}=X,
 \end{equation}$$
 so we have
 
 $\begin{alignat}{2}
-    \prod\limits_{i\in I}X_i&=\l\{f:I\to\bigcup\limits_{i\in I}X_i\mid\fa i\in I:f\l(i\r)\in X_i\r\}\ \ \ \ \ \ \ \ &&\textrm{Definition of Cartesian product}\\
-    &=\l\{f:I\to X\mid\fa i\in I:f\l(i\r)\in X\r\}&&\textrm{Substitution}\\
+    \prod\limits_{i\in I}X_i&=\l\{f:I\to\bigcup\limits_{i\in I}X_i\st\fa i\in I:f\l(i\r)\in X_i\r\}\ \ \ \ \ \ \ \ &&\textrm{Definition of Cartesian product}\\
+    &=\l\{f:I\to X\st\fa i\in I:f\l(i\r)\in X\r\}&&\textrm{Substitution}\\
     &=\l\{f:I\to X\r\}&&\ran f\subseteq X\\
     &=X^I.&&\textrm{Definition of function space}\qedin
 \end{alignat}$

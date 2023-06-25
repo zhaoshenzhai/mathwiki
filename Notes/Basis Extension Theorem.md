@@ -23,7 +23,7 @@ Let $V$ be a $K$-vector space. If $U\subseteq V$ is linearly independent, then t
 
 <i>Proof.</i> Consider the collection
 $$\begin{equation}
-    \ms{L}\coloneqq\l\{\mc{L}\in\pow\l(V\r)\mid U\subseteq\mc{L}\land\mc{L}\textrm{ is linearly independent}\r\}
+    \ms{L}\coloneqq\l\{\mc{L}\in\pow\l(V\r)\st U\subseteq\mc{L}\land\mc{L}\textrm{ is linearly independent}\r\}
 \end{equation}$$
 of all linearly independent subsets of $V$ containing $U$ (which is non-empty since $U$ is linearly independent), and let $\mc{B}\in\ms{L}$ be of greatest cardinality; that is, let $\mc{B}\in\ms{L}$ be such that
 $$\begin{equation}

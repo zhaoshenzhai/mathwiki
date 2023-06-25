@@ -26,6 +26,6 @@ $$\begin{equation}
 
 <i>Proof.</i> Simply compute:
 $$\begin{gather}
-    \dom R^{-1}=\l\{y\mid\ex x:yR^{-1}x\r\}=\l\{y\mid\ex x:xRy\r\}=\dom R\\
-    \ran R^{-1}=\l\{x\mid\ex y:yR^{-1}x\r\}=\l\{x\mid\ex y:xRy\r\}=\dom R.\qedin
+    \dom R^{-1}=\l\{y\st\ex x:yR^{-1}x\r\}=\l\{y\st\ex x:xRy\r\}=\dom R\\
+    \ran R^{-1}=\l\{x\st\ex y:yR^{-1}x\r\}=\l\{x\st\ex y:xRy\r\}=\dom R.\qedin
 \end{gather}$$

@@ -19,11 +19,11 @@ Let $\tpl{X,<}$ be a totally ordered set and fix a subset $Y\subseteq X$. Then $
 
 <i>Proof.</i> Recall that the collections
 $$\begin{equation}
-    \mc{S}_\textrm{or}\coloneqq\l\{S\in\pow\l(Y\r)\mid\l[\ex a\in Y:S=\l(a,+\infty\r)_Y\r]\lor\l[\ex b\in Y:S=\l(-\infty,b\r)_Y\r]\r\}
+    \mc{S}_\textrm{or}\coloneqq\l\{S\in\pow\l(Y\r)\st\l[\ex a\in Y:S=\l(a,+\infty\r)_Y\r]\lor\l[\ex b\in Y:S=\l(-\infty,b\r)_Y\r]\r\}
 \end{equation}$$
 and
 $$\begin{equation}
-    \mc{S}_\textrm{sb}\coloneqq\l\{S\in\pow\l(Y\r)\mid\l[\ex a\in X:S=\l(a,+\infty\r)_X\cap Y\r]\lor\l[\ex b\in X:S=\l(-\infty,b\r)_X\cap Y\r]\r\}
+    \mc{S}_\textrm{sb}\coloneqq\l\{S\in\pow\l(Y\r)\st\l[\ex a\in X:S=\l(a,+\infty\r)_X\cap Y\r]\lor\l[\ex b\in X:S=\l(-\infty,b\r)_X\cap Y\r]\r\}
 \end{equation}$$
 are subbases for the topologies $\mc{T}\l(\l.<\r|_Y\r)$ and $\l.\mc{T}\l(<\r)\r|_Y$, respectively. It suffices to show that $\mc{S}_\textrm{or}\subseteq\l.\mc{T}\l(<\r)\r|_Y$, for then every $U\in\mc{T}\l(\l.<\r|_Y\r)$ can be written as an arbitrary union of finite intersections of open sets in $\l.\mc{T}\l(<\r)\r|_Y$ and are thus also open in $\l.\mc{T}\l(<\r)\r|_Y$.
 * (Informal): Every half-infinite open ray in $Y$ is a half-infinite open ray in $X$ intersected with $Y$, and since half-infinite open rays in $X$ are open in $\mc{T}\l(<\r)$, its intersection with $Y$ is open in $\l.\mc{T}\l(<\r)\r|_Y$.

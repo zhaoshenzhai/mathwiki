@@ -30,10 +30,10 @@ $$\begin{equation}
 
 <b>Remark.</b> By Extensionality, such a set $S$ is unique and can thus be written as
 $$\begin{equation}
-    \l\{x\mid x\in A\land\phi\l(x\r)\r\}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \l\{x\in A\mid\phi\l(x\r)\r\}.
+    \l\{x\st x\in A\land\phi\l(x\r)\r\}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \l\{x\in A\st\phi\l(x\r)\r\}.
 \end{equation}$$
 It is also convenient to introduce the notation
 $$\begin{equation}
-    \l\{\psi\l(x_1,\dots,x_2\r)\mid\phi\l(x\r)\r\}\coloneqq\l\{x\mid\ex x_1,\dots,x_n:x=\psi\l(x_1,\dots,x_2\r)\land\phi\l(x\r)\r\}
+    \l\{\psi\l(x_1,\dots,x_2\r)\st\phi\l(x\r)\r\}\coloneqq\l\{x\st\ex x_1,\dots,x_n:x=\psi\l(x_1,\dots,x_2\r)\land\phi\l(x\r)\r\}
 \end{equation}$$
 where $\psi\l(x_1,\dots,x_n\r)$ is some pre-defined expression involving the sets $x_1,\dots,x_n$.<span style="float:right;">$\blacklozenge$</span>

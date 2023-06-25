@@ -13,7 +13,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition.
 
-Let $f:X\to Y$ and fix $S\subseteq X$. The restriction function $\l.f\r|_S=\l\{z\mid\ex x\in S:z=\tpl{x,f\l(x\r)}\r\}$ is a function.
+Let $f:X\to Y$ and fix $S\subseteq X$. The restriction function $\l.f\r|_S=\l\{z\st\ex x\in S:z=\tpl{x,f\l(x\r)}\r\}$ is a function.
 
 ```
 
@@ -29,7 +29,7 @@ $$\begin{equation}
 so there exists a function $\l.f\r|_S$ with $\dom\l.f\r|_S=S$ and $\fa x\in S:\phi\l(x,f\l(x\r)\r)$. This function is constructed as the set
 
 $\begin{alignat}{2}
-    \l.f\r|_S&=\l\{z\mid\ex x\in S,\ex y:\l(\phi\l(x,y\r)\land z=\tpl{x,y}\r)\r\}&&\textrm{Replace image is a function}\\
-    &=\l\{z\mid\ex x\in S,\ex y,\l(x\in S\land\tpl{x,y}\in f\land z=\tpl{x,y}\r)\r\}\ \ \ \ \ \ \ \ &&\textrm{Substitution}\\
-    &=\l\{z\mid\ex x\in S:z=\tpl{x,f\l(x\r)}\r\}.&&\textrm{Simplification and substitution}\qedin
+    \l.f\r|_S&=\l\{z\st\ex x\in S,\ex y:\l(\phi\l(x,y\r)\land z=\tpl{x,y}\r)\r\}&&\textrm{Replace image is a function}\\
+    &=\l\{z\st\ex x\in S,\ex y,\l(x\in S\land\tpl{x,y}\in f\land z=\tpl{x,y}\r)\r\}\ \ \ \ \ \ \ \ &&\textrm{Substitution}\\
+    &=\l\{z\st\ex x\in S:z=\tpl{x,f\l(x\r)}\r\}.&&\textrm{Simplification and substitution}\qedin
 \end{alignat}$

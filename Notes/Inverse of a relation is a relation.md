@@ -24,6 +24,6 @@ $$\begin{equation}
 \end{equation}$$
 Indeed, if $\ex x\ex y\l(xRy\land w=\tpl{y,x}\r)$, we have that $\tpl{x,y}\in\dom R\times\ran R$ and thus $w=\tpl{y,x}\in\ran R\times\dom R$. $\axispec$ then justifies the construction
 $$\begin{equation}
-    R^{-1}\coloneqq\l\{\tpl{y,x}\mid xRy\r\}\coloneqq\l\{w\in\ran R\times\dom R\mid\ex x\ex y\l(xRy\land w=\tpl{y,x}\r)\r\}.
+    R^{-1}\coloneqq\l\{\tpl{y,x}\st xRy\r\}\coloneqq\l\{w\in\ran R\times\dom R\st\ex x\ex y\l(xRy\land w=\tpl{y,x}\r)\r\}.
 \end{equation}$$
 * Observe that $R^{-1}\subseteq\ran R\times\dom R$, so $R^{-1}$ is a binary relation.<span style="float:right;">$\blacksquare$</span>

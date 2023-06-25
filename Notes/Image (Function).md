@@ -18,7 +18,7 @@ title: Definition.
 
 Let $f:X\to Y$ and fix $S\subseteq X$. The <b>image of $S$ under $f$</b> is the set
 $$\begin{equation}
-    \im_f\!\l(S\r)\coloneqq\l\{y\in Y\mid\ex x\in S:y=f\l(x\r)\r\}.
+    \im_f\!\l(S\r)\coloneqq\l\{y\in Y\st\ex x\in S:y=f\l(x\r)\r\}.
 \end{equation}$$
 The <b>direct image function under $f$</b> is the function
 $$\begin{equation}

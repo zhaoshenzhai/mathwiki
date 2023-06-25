@@ -30,6 +30,6 @@ $$\begin{equation}
 \end{equation}$$
 Here, $U'$ is no longer the union of $\mc{A}$, but rather a superset thereof. The union $U$ of $\mc{A}$ is then defined as
 $$\begin{equation}
-    U\coloneqq\l\{a\in U'\mid\ex A\in\mc{A}:a\in A\r\}
+    U\coloneqq\l\{a\in U'\st\ex A\in\mc{A}:a\in A\r\}
 \end{equation}$$
 using Specification.<span style="float:right;">$\blacklozenge$</span>
