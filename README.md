@@ -122,5 +122,5 @@ All images are centered and have a `15px` top and bottom [margin](https://github
 ![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/fundamental_theorem_of_equivalence_relations.png)
 
 [templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/UltiSnips/markdown.snippets#L111
-[tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/MathWiki.vim#L1
-[pdfLaTeXExecute]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/MathWiki.vim#L2
+[tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/fileTypeDefaults.vim#L10
+[pdfLaTeXExecute]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/fileTypeDefaults.vim#L12
