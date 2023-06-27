@@ -1,4 +1,4 @@
-# :pencil: MathWiki
+# MathWiki
 
 An [Obsidian.md](https://obsidian.md) vault for my math course notes in university.
 
@@ -6,18 +6,18 @@ These notes are meant to be a distilled version of the math I've learnt where id
 
 > A statically-generated site containing this vault is currently work in progress.
 
-## :bookmark_tabs: Contents
+## Contents
 * [Note Types and Templates](https://github.com/zhaoshenzhai/MathWiki#pencil2-note-types-and-templates); the basic templates and outgoing links for each type of note.
 * [Configurations and Scripts](https://github.com/zhaoshenzhai/MathWiki#gear-configurations-and-scripts); snippets, plugins, and my bash scripts.
 * [MathLinks](https://github.com/zhaoshenzhai/MathWiki#symbols-mathlinks); my plugin that renders [MathJax](https://www.mathjax.org/) in links.
 * [TikZ Images](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images); my workflow involving TikZ images.
 * [Sample Pages](https://github.com/zhaoshenzhai/MathWiki#page_with_curl-sample-pages); some sample screenshots.
 
-## :telescope: Graph View
+## Graph View
 
 ![Graph view](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/graph_view.png)
 
-## :pencil2: Note Types and Templates
+## Note Types and Templates
 
 Each note is currently one of five types (four atomic notes and one [map of content](https://forum.obsidian.md/t/on-the-process-of-making-mocs/1060/11)):
 
@@ -47,7 +47,7 @@ Each note is currently one of five types (four atomic notes and one [map of cont
 
 These templates are automatically [inserted][templatesInsert] whenever a note is created. After the links, the main content is written with remarks where appropriate.
 
-## :gear: Configurations and Scripts
+## Configurations and Scripts
 
 I do not directly write my notes in Obsidian since I have my own Neovim setup; see [dotfiles/nvim](https://github.com/zhaoshenzhai/dotfiles/tree/master/config/nvim). Therefore, most of my Obsidian customization is on its appearance (via [snippets](.obsidian/snippets/)) and [navigation hotkeys](.obsidian/hotkeys.json).
 
@@ -72,11 +72,21 @@ I wrote some bash scripts to (try) maintain the consistency of my notes; [main.s
 
 Some stats: 828 notes, 2109 links, 65 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
-## :symbols: MathLinks
+## MathLinks
 
-As far as I know, the standard wiki-style links of the form `[[fileName]]` used in Obsidian does not support MathJax. Instead, one should use markdown-style links which are of the form `[displayedText](fileName.md)`; here, `displayedText` can contain MathJax. However, `displayedText` remains unchanged when link is updated, so, if one wishes to have links with math, one needs to update them manually. This can get out of hand really fast.
+An [Obsidian.md](https://obsidian.md) plugin to render and manage [MathJax](https://www.mathjax.org/) in your links.
 
-I wrote a plugin, [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks), that aims to solve this issue by assigning `fileName.md` a `mathLink`, i.e. some specified text to be displayed and rendered when a note links to `fileName.md`. It can be done by inserting `mathLink: yourMathLink` to the YAML frontmatter of `fileName.md` like so:
+Associate a `mathLink` to your note, containing arbitrary MathJax, and have it displayed in all links to the note.
+* Works in both reading and live-preview modes, as well as canvases.
+* Add custom [templates](https://github.com/zhaoshenzhai/obsidian-mathlinks/tree/master#templates) for `mathLinks`.
+* Render MathJax in aliases for both Wikilinks and Markdown Links.
+* Compatible with [Extended MathJax](https://github.com/xldenis/obsidian-latex) and [Dataview](https://github.com/blacksmithgu/obsidian-dataview).
+
+![](https://raw.githubusercontent.com/zhaoshenzhai/obsidian-mathlinks/master/.github/sample.png)
+
+## Description and Usage
+
+Assigning a `mathLink` in the YAML frontmatter of `note.md` as shown below will make all links of them form `[[note]]` and `[note](note.md)` display as the rendered MathJax of `yourMathLink`. No changes are made to your notes, and updates to `yourMathLink` will be reflected once the note with the link is reopened.
 
 ```
 ---
@@ -86,14 +96,14 @@ mathLink: yourMathLink
 Content starts here.
 ```
 
-That's it! All links of the form `[[fileName]]` or `[fileName](fileName.md)` will now be displayed as the rendered MathJax of `yourMathLink`. _**No changes are made to your notes**_, and updates to `yourMathLink` will be reflected once the note with the link is reopened.
+This plugin also makes Wikilinks and Markdown Links compatible with MathJax, so links like `[[note|yourAlias]]` and `[yourAlias](note.md)` will be displayed as the rendered MathJax of `yourAlias`. A `mathLink` in `note`, if present, will be overridden by `yourAlias`.
 
 ### Templates
-Oftentimes, the `mathLink` of `fileName.md` involves replacing some text with its math counterpart. For instance, all of `Invertible iff bijective.md`, `Linearly dependent iff exists span-redundant element.md`, and `LUB property iff GLB property.md` will have mathLinks of the form '... $\Leftrightarrow$ ...'.
+Oftentimes, `mathLinks` of notes involve replacing some text with its math counterpart. For instance, you might have many notes whose title is of the form `... iff ...`.
 
-Instead of setting them manually, simply use `mathLink: auto`. This will generate its `mathLink` via a template that replaces `iff` with $\Leftrightarrow$. A _template_ consists of a string to be matched (`iff`), its replacement $(\Leftrightarrow)$, and some options (global match, case sensitive, and match whole words). They are created and maintained in the MathLinks settings window.
+Instead of setting the `mathLinks` of each note manually as `... $\Leftrightarrow$ ...`, simply use `mathLink: auto`. This will generate its `mathLink` via a template that replaces `iff` with `$\Leftrightarrow$`. A _template_ consists of a string to be matched (`iff`), its replacement (`$\Leftrightarrow$`), and some options (global match, case sensitive, and match whole words). They are created and maintained in the MathLinks settings window.
 
-## :art: TikZ Images
+## TikZ Images
 
 This is the main downside of using MathJax in Obsidian since it [sanitizes HTML](https://help.obsidian.md/Advanced+topics/HTML+sanitization) which ignores `<script>` tags and prevents one from using [this](https://github.com/kisonecat/tikzjax) tool.
 
@@ -107,7 +117,7 @@ pdflatex -shell-escape image.tex && pdfcrop image.pdf image.pdf && pdf2svg image
 ```
 All images are centered and have a `15px` top and bottom [margin](https://github.com/zhaoshenzhai/MathWiki/blob/master/.obsidian/snippets/imageMargins.css). This can be modified to only apply to those images in a certain class.
 
-## :page_with_curl: Sample Pages
+## Sample Pages
 
 ![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/linear_algebra.png)
 
