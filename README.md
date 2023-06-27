@@ -84,7 +84,7 @@ Associate a `mathLink` to your note, containing arbitrary MathJax, and have it d
 
 ![](https://raw.githubusercontent.com/zhaoshenzhai/obsidian-mathlinks/master/.github/sample.png)
 
-## Description and Usage
+### Description and Usage
 
 Assigning a `mathLink` in the YAML frontmatter of `note.md` as shown below will make all links of them form `[[note]]` and `[note](note.md)` display as the rendered MathJax of `yourMathLink`. No changes are made to your notes, and updates to `yourMathLink` will be reflected once the note with the link is reopened.
 
