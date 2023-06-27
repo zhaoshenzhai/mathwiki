@@ -20,12 +20,8 @@ Let $G$ be a group and $X$ a be a set. A <b>(left) $G$-action on $X$</b> is a ho
 
 ```
 
-<b>Remark.</b> Instead of such a homomorphism, a $G$-action on $X$ can equivalently be given as a map $\cdot:G\times X\to X$ given by $g\cdot x\coloneqq\phi_g\!\l(x\r)$. In this way, that $\phi$ is a homomorphism translates to $g\cdot\l(h\cdot x\r)=\l(gh\r)\cdot x$ for all $g,h\in G$ and $x\in X$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Instead of such a homomorphism, a $G$-action on $X$ can equivalently be given as a map $\cdot:G\times X\to X$ given by $g\cdot x\coloneqq\phi_g\!\l(x\r)$. In this way, that $\phi$ is a homomorphism translates to $g\cdot\l(h\cdot x\r)=\l(gh\r)\cdot x$ for all $g,h\in G$ and $x\in X$. Conversely, every such map $\cdot$ defines a $G$-action $\phi$ by $\phi_g\!\l(x\r)\coloneqq g\cdot x$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
 <b>Remark.</b> Note that $\ker\phi=\l\{g\in G\st\fa x\in X:gx=x\r\}=\bigcap_{x\in X}G_x$ is the intersection of all stabilizers.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-<b>Remark.</b> Every group admits the <b>left-multiplication action</b> $\phi:G\to\Aut\l(G\r)$ by $\phi_g\!\l(h\r)\coloneqq gh$ for all $g,h\in G$, which is faithful.<span style="float:right;">$\blacklozenge$</span>

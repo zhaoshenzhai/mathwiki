@@ -20,7 +20,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $S\subseteq G$ be a subset of a group $G$. The <b>centralizer of $S$ in $G$</b> is the normal subgroup $C_G\!\l(S\r)\coloneqq\l\{g\in G\st\fa s\in S:gs=sg\r\}$ of $G$.
+Let $S\subseteq G$ be a subset of a group $G$. The <b>centralizer of $S$ in $G$</b> is the subgroup $C_G\!\l(S\r)\coloneqq\l\{g\in G\st\fa s\in S:gs=sg\r\}$ of $G$.
 * If $S=G$, then $Z\l(G\r)\coloneqq C_G\!\l(G\r)$ is the <b>center of $G$</b>.
 
 ```

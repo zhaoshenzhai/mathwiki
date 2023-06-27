@@ -4,7 +4,7 @@ Date Created: 17/10/2022 11:37:39
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Cayley's Theorem]]
+Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

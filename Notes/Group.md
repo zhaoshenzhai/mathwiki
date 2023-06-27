@@ -4,12 +4,12 @@ Date Created: 04/05/2022 13:08:40
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Abelian Group]], [[Cyclic Group]], [[Simple Group]]
-Examples: [[Automorphism or Symmetric Group]], [[Fundamental Group]], [[Group of Units]]
+Examples: [[Symmetric Group]], [[Fundamental Group]], [[Group of Units]]
 Constructions: [[Group Homomorphism]], [[Subgroup]], [[Group Action]], [[Direct Product]], [[Order (Group Theory)]], [[Abelianization]], [[Exact Sequence]]
 Generalizations: [[Groupoid]]
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: [[Cayley's Theorem]], [[Free Group]]
+Sufficiencies: [[Free Group]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

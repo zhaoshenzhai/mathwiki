@@ -12,7 +12,7 @@ Examples: [[Automorphisms and endomorphisms of cyclic groups]]
 Constructions: [[Sign of a Permutation]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Cayley's Theorem]], [[Basic properties of symmetric groups]]
+Properties: [[Basic properties of symmetric groups]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

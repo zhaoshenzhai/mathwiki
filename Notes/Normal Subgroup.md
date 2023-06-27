@@ -4,7 +4,7 @@ Date Created: 26/10/2022 11:35:20
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Kernel (Group Theory)]], [[Centralizer and Center]], [[Commutator Subgroup]]
+Examples: [[Kernel (Group Theory)]], [[Commutator Subgroup]]
 Constructions: [[Quotient Group]], [[Simple Group]]
 Generalizations: <i>Not Applicable</i>
 
