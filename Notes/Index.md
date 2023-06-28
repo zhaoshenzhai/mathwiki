@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Lagrange's Theorem]], [[Orbit-Stabilizer Theorem]], [[Coset Representation Theorem]], [[Class Equation]], [[Index two implies normal]]
+Properties: [[Lagrange's Theorem]], [[Orbit-Stabilizer Theorem]], [[Coset Representation Theorem]], [[Class Equation]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Number of left-cosets equals number of right-cosets]]

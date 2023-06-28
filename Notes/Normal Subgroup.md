@@ -9,18 +9,22 @@ Constructions: [[Quotient Group]], [[Simple Group]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: [[Index two implies normal]]
+Sufficiencies: [[Coset Representation Theorem]]
 Equivalences: [[Characterizations of normality]]
-Justifications: <i>Not Applicable</i>
+Justifications: [[Orbit-Stabilizer Theorem]]
 
 ``` ad-Definition
 title: Definition.
 
-Let $G$ be a group. A subgroup $N\subgrpeq G$ is said to be a <b>normal in $G$</b> if $gN=Ng$ for all $g\in G$, in which case we write $N\nsubgrpeq G$.
+Let $G$ be a group. A subgroup $H\subgrpeq G$ is said to be a <b>normal in $G$</b> if $gH=Hg$ for all $g\in G$, in which case we write $H\nsubgrpeq G$.
 
 ```
 
-<b>Remark.</b> If $N\nsubgrpeq G$ is normal, then it is the kernel of the projection $\pi:G\to G/N$. Indeed, for all $n\in N$, we have $nN=N$, which occurs iff $n\in\ker\pi$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $H\nsubgrpeq G$ is normal, then it is the kernel of the projection $\pi:G\to G/H$. Indeed, for all $h\in H$, we have $hH=H$, which occurs iff $h\in\ker\pi$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> Every subgroup $H\subgrpeq G$ of index $2$ is normal. Indeed, $H$ is the kernel of the left-multiplication action $\phi:G\to\Aut\l(G/H\r)$, which can be proved by noting that $G/H=\l\{H,xH\r\}$ for some $x\not\in H$ and checking cases.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
