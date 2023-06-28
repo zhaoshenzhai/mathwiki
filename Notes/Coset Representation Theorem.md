@@ -20,6 +20,10 @@ Let $G$ be a group and fix $n\in\N$. Then the set of all subgroups $H\subgrpeq G
 
 ```
 
+<b>Remark.</b> In particular, if $H\subgrpeq G$ is of index $2$, then $H$ is normal.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 <i>Proof.</i> Let $H\subgrpeq G$ be of index $n$ and consider the left-multiplication action of $G$ on $G/H$ given by $\phi_g\!\l(xH\r)\coloneqq\l(gx\r)H$ for all $g,x\in G$. This is a transitive action since for all $xH,yH\in G/H$, we have $yH=\l(yx^{-1}\r)xH$. Observe that $\l|G/H\r|=\l[G:H\r]=n$, as desired. Conversely, let $\tpl{S,s_0}$ be a pointed transitive $G$-set of size $n$ and set $H\coloneqq\Stab_G\!\l(s_0\r)\subgrpeq G$. Then $\l[G:H\r]=\l[G:\Stab_G\!\l(s_0\r)\r]=\l|\Orb_G\!\l(s_0\r)\r|=S$ by the Orbit-Stabilizer Theorem, as desired.
 * It suffices to show that the collection of all pointed transitive $G$-sets $\tpl{S,s_0}$ of size $n$ is finite. Indeed, such a $G$-set is given by an action $\phi:G\to\Aut\l(S\r)$, and since $G=\gen{x_1,\dots,x_r}$, this homomorphism is uniquely determined by where it sends its generators. Since $\phi\l(x_i\r)\in\Aut\l(S\r)=S_n$ for each $x_i$, there are $n!$ choices for each generator and hence there are $\l(n!\r)^r$ choices for $\phi$.
 * Let $\phi:G\to\Aut\l(G/H\r)$ be its associated action and set $K\coloneqq\ker\phi$. Then $K\nsubgrpeq G$ is contained in $H$, and $\phi$ descends to an injection $G/K\into\Aut\l(G/H\r)=S_n$.

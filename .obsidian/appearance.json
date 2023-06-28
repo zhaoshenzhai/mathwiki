@@ -7,7 +7,8 @@
     "links",
     "lists",
     "fonts",
-    "admonition"
+    "admonition",
+    "margins"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": false,
