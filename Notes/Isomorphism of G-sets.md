@@ -8,7 +8,7 @@ Date Created: 25/05/2023 16:10:37
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Transitive action iff left-multiplication on quotient by stabilizer]]
+Examples: [[Orbit-Stabilizer Theorem]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

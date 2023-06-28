@@ -32,6 +32,10 @@ Similar results hold for rings and modules (with ‘normal subgroup’ replaced 
 
 ---
 
+<b>Remark.</b> The Third Isomorphism Theorem can also be deduced from the Lattice Isomorphism Theorem. Indeed, take $H,K\nsubgrpeq G$ with $H\leq K$ and consider the projection $\pi:G\to G/H$. Since $H=\ker\pi\subgrpeq K\nsubgrpeq G$, we see that $G/K\iso\pi\l(G\r)/\pi\l(K\r)=\l(G/H\r)/\!\l(K/H\r)$, as desired.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 <i>Proof.</i> For the First Isomorphism Theorem, we use the universality of $\pi:G\to G/\ker\phi$ to furnish a unique homomorphism $\widetilde{\phi}:G/\ker\phi\to\im\phi$ such that $\phi=\widetilde{\phi}\circ\pi$. To show that $\widetilde{\phi}$ is an isomorphism, observe that $G/\ker\phi=G/\!\sim$ where $\sim$ is the equivalence relation on $G$ defined by
 $$\begin{equation}
     g_1\sim g_2\ \ \ \ \ \ \ \ \,\colon\!\Leftrightarrow\ \ \ \ \ \ \ \ g_1\ker\phi=g_2\ker\phi\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1^{-1}g_2\in\ker\phi\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ \phi\l(g_1^{-1}g_2\r)=e\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ \phi\l(g_1\r)=\phi\l(g_2\r).
@@ -43,7 +47,3 @@ By the Canonical Decomposition of Functions, we see that $\widetilde{\phi}$ is a
 Finally, we prove the Lattice Isomorphism Theorem.
 * Since $\phi$ is surjective, we see that $\phi\l(\phi^{-1}\l(H'\r)\r)=H'$ for all $H'\subgrpeq G'$, so it suffices to show that $\phi^{-1}\l(\phi\l(H\r)\r)=H$ for all  $H\subgrpeq G$ containing $\ker\phi$. The reverse containment holds in general, so take $g\in\phi^{-1}\l(\phi\l(H\r)\r)$. Then $\phi\l(g\r)\in\phi\l(H\r)$, so $\phi\l(g\r)=\phi\l(h\r)$ for some $h\in H$. Then $\phi\l(h^{-1}g\r)=e$, so $h^{-1}g\in\ker\phi\subgrpeq H$. Writing $g=h\l(h^{-1}g\r)$ shows that $g\in H$, as desired.
 * Consider the restriction $\phi:K\to\phi\l(K\r)$, which is surjective, so $H\nsubgrpeq K$ implies that $\phi\l(H\r)\nsubgrpeq\phi\l(K\r)$. Conversely, $\phi\l(H\r)\nsubgrpeq\phi\l(K\r)$ implies that $\phi^{-1}\l(\phi\l(H\r)\r)\nsubgrpeq K$. But the induced map $H\mapsto\phi\l(H\r)$ is a bijection, so $H\nsubgrpeq K$. In this case, consider the homomorphism $\psi:K\to\phi\l(K\r)/\phi\l(H\r)$ obtained by composing $\phi:K\to\phi\l(K\r)$ with the projection $\pi:\phi\l(K\r)\to\phi\l(K\r)/\phi\l(H\r)$. Then $\psi$ is surjective with kernel $\phi^{-1}\l(\phi\l(H\r)\r)=H$, from which the result follows.<span style="float:right;">$\blacksquare$</span>
-
----
-
-<b>Remark.</b> The Third Isomorphism Theorem can also be deduced from the Lattice Isomorphism Theorem. Indeed, take $H,K\nsubgrpeq G$ with $H\leq K$ and consider the projection $\pi:G\to G/H$. Since $H=\ker\pi\subgrpeq K\nsubgrpeq G$, we see that $G/K\iso\pi\l(G\r)/\pi\l(K\r)=\l(G/H\r)/\!\l(K/H\r)$, as desired.<span style="float:right;">$\blacklozenge$</span>

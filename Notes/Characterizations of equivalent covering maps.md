@@ -3,7 +3,7 @@
 Date Created: 24/05/2023 15:28:53
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Lifting Criterion]], [[Unique Lifting Property]], [[Basic properties of covering spaces]], [[Transitive action iff left-multiplication on quotient by stabilizer]], [[Quotients are equivariant iff subgroups are conjugate]]
+Proved by: [[Lifting Criterion]], [[Unique Lifting Property]], [[Basic properties of covering spaces]], [[Orbit-Stabilizer Theorem]], [[Quotients are equivariant iff subgroups are conjugate]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

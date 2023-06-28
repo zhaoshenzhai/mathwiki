@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Transitive action iff left-multiplication on quotient by stabilizer]], [[Orbit-Stabilizer Theorem]], [[Basic properties of stabilizers and transitive actions]]
+Properties: [[Orbit-Stabilizer Theorem]], [[Basic properties of stabilizers and transitive actions]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
