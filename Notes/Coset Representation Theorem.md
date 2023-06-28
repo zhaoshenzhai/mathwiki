@@ -20,7 +20,7 @@ Let $G$ be a group and fix $n\in\N$. Then the set of all subgroups $H\subgrpeq G
 
 ```
 
-<b>Remark.</b> In particular, if $H\subgrpeq G$ is of index $2$, then $H$ is normal.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, if $H\subgrpeq G$ is of index $2$, then $H$ is normal. Also, if $G$ is simple and has a subgroup of index $n>1$, then $\l|G\r|$ divides $n!$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -4,7 +4,7 @@ Date Created: 04/05/2023 23:03:17
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Normalizer]], [[Centralizer and Center]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

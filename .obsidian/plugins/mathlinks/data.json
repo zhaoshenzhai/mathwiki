@@ -41,30 +41,6 @@
       "word": true
     },
     {
-      "title": "Rn",
-      "replaced": "Rn",
-      "replacement": "$\\R^n$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "R2",
-      "replaced": "R2",
-      "replacement": "$\\R^2$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "N2",
-      "replaced": "N2",
-      "replacement": "$\\N^2$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
       "title": "Equals",
       "replaced": "equals",
       "replacement": "$=$",
@@ -105,6 +81,14 @@
       "word": true
     },
     {
+      "title": "Prefix: p",
+      "replaced": "p-",
+      "replacement": "$p$-",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
       "title": "Epsilon",
       "replaced": "Epsilon",
       "replacement": "$\\epsilon$",
@@ -129,14 +113,6 @@
       "word": false
     },
     {
-      "title": "K Topology on R",
-      "replaced": "K",
-      "replacement": "$K$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
       "title": "Category of Sets",
       "replaced": "category of sets",
       "replacement": "$\\catset$",
@@ -156,6 +132,14 @@
       "title": "Category of Vector Spaces",
       "replaced": "category of vector spaces",
       "replacement": "$\\catvect$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "title": "Category of Topological Spaces",
+      "replaced": "category of topological space",
+      "replacement": "$\\cattop$",
       "globalMatch": true,
       "sensitive": false,
       "word": true
@@ -222,14 +206,6 @@
       "replacement": "Bézout",
       "globalMatch": true,
       "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Category of Topological Spaces",
-      "replaced": "category of topological space",
-      "replacement": "$\\cattop$",
-      "globalMatch": true,
-      "sensitive": false,
       "word": true
     }
   ],
