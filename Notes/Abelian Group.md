@@ -9,7 +9,7 @@ Constructions: [[Ring]], [[Vector Space]]
 Generalizations: [[Module]]
 
 Properties: [[Abelian group is simple iff cyclic of prime order]]
-Sufficiencies: [[Abelianization]]
+Sufficiencies: [[Abelianization]], [[Quotient by center cyclic implies abelian]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
