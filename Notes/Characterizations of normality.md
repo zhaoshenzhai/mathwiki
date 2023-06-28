@@ -22,7 +22,7 @@ Let $H\subgrpeq G$ be a subgroup of a group $G$. Then the following are equivale
 2. $gHg^{-1}\subseteq H$ for all $g\in G$.
 3. $gHg^{-1}=H$ for all $g\in G$.
 4. $N_G\!\l(H\r)=G$.
-5. $H=\bigcup_{h\in H}\l[h\r]$ where $\l[h\r]$ is the conjugacy class of $h$.
+5. $H=\coprod_{h\in H}\l[h\r]$ where $\l[h\r]$ is the conjugacy class of $h$.
 
 ```
 

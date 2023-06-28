@@ -24,12 +24,11 @@ Let $S\subseteq G$ be a subset of a group $G$. The <b>normalizer of $S$ in $G$</
 
 ---
 
-<b>Remark.</b> We clearly have $H\nsubgrpeq N_G\!\l(H\r)$. Note that $N_G\!\l(H\r)$ is _not necessarily_ a normal subgroup of $G$. A counterexample is with $H\coloneqq\l\{e,\l(1\ 2\r)\r\}\subgrpeq S_3\eqqcolon G$, where
-$$\begin{equation}
-    \l(1\ 2\ 3\r)H=\l\{\l(1\ 3\r),\l(1\ 2\ 3\r)\r\}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ H\l(1\ 2\ 3\r)=\l\{\l(2\ 3\r),\l(1\ 2\ 3\r)\r\}.\exqedin
-\end{equation}$$
+<b>Remark.</b> We clearly have $H\nsubgrpeq N_G\!\l(H\r)$. If $H\nsubgrpeq K\subgrpeq G$, then $K\subgrpeq N_G\!\l(H\r)$, which shows that $N_G\!\l(H\r)$ is the largest subgroup of $G$ in which $H$ is normal in.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-
-<b>Remark.</b> If $H\nsubgrpeq K\subgrpeq G$, then $K\subgrpeq N_G\!\l(H\r)$, which shows that $N_G\!\l(H\r)$ is the largest subgroup of $G$ in which $H$ is normal in.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Note that $N_G\!\l(H\r)$ is _not necessarily_ a normal subgroup of $G$. A counterexample is with $H\coloneqq\l\{e,\l(1\ 2\r)\r\}\subgrpeq S_3\eqqcolon G$, where
+$$\begin{equation}
+    \l(1\ 2\ 3\r)H=\l\{\l(1\ 3\r),\l(1\ 2\ 3\r)\r\}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ H\l(1\ 2\ 3\r)=\l\{\l(2\ 3\r),\l(1\ 2\ 3\r)\r\}.\exqedin
+\end{equation}$$
