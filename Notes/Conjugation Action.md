@@ -8,7 +8,7 @@ Date Created: 13/10/2022 12:25:27
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[All k-cycles are conjugate]]
+Examples: [[Permutations are conjugate iff same cycle type]]
 Constructions: [[Centralizer and Center]], [[Normalizer]], [[Normal Subgroup]]
 Generalizations: <i>Not Applicable</i>
 

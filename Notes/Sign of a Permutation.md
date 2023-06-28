@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: <i>Not Applicable</i>
+Constructions: [[Alternating Group]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
