@@ -12,7 +12,7 @@ References: [[Basic properties of order]]
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
-Generalizations: <i>Not Applicable</i>
+Generalizations: [[Orbit-Stabilizer Theorem]]
 
 ``` ad-Theorem
 title: Theorem (Lagrange’s Theorem).

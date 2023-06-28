@@ -8,7 +8,7 @@ Date Created: 05/10/2022 19:09:54
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Alternating Group]]
-Examples: [[Automorphisms and endomorphisms of cyclic groups]]
+Examples: <i>Not Applicable</i>
 Constructions: [[Sign of a Permutation]]
 Generalizations: <i>Not Applicable</i>
 

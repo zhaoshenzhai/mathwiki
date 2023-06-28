@@ -4,7 +4,7 @@ Date Created: 25/02/2022 13:55:48
 Tags: #Type/Definition #Later/Category_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Symmetric Group]], [[General Linear Group]]
+Examples: [[Symmetric Group]], [[Automorphism Group]], [[General Linear Group]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
