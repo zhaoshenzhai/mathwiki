@@ -4,7 +4,7 @@ Date Created: 05/05/2023 12:55:38
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Symmetric Group]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
