@@ -17,7 +17,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition.
 
-Let $G$ be a non-trivial $p$-group. If $H\nsubgrpeq G$ is non-trivial, then $H\cap Z\l(G\r)$ is also non-trivial. We have the following corollaries:
+Let $G$ be a non-trivial $p$-group. If $H\nsubgrpeq G$ is non-trivial, then $H\cap Z\l(G\r)$ is also non-trivial. Furthermore, we have the following properties.
 * If $H\nsubgrpeq G$ is of order $p$, then $H\subgrpeq Z\l(G\r)$.
 * If $H\nsubgrp G$ is proper, then there is a subgroup $K\nsubgrp G$ containing $H$ such that $\l[K:H\r]=p$.
 * If $\l|G\r|=p^n$, then there is a chain $\l\{e\r\}=H_0\subgrp\cdots\subgrp H_n=G$ of subgroups such that each $H_i\nsubgrp G$ and $\l|H_i\r|=p^i$.

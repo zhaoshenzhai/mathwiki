@@ -19,12 +19,14 @@ Let $G$ be a finite group whose order is divisible by a prime $p$. Then $G$ cont
 
 <b>Remark.</b> This is a corollary of the Sylow Theorems. Indeed, the First Sylow Theorem shows that if $\l|G\r|=p^rm$ for some $r,m\in\N$ with $p\ndivides m$, then $G$ has a Sylow $p$-subgroup $H$ of order $p^r$. Since $p$-groups are solvable, $H$ admits subgroups of order $p^i$ for all $0\leq i\leq r$, and in particular $H$ has a subgroup of order $p$.
 
-However, the Sylow Theorems require the abelian case of Cauchy’s Theorem as a lemma, so a separate proof is warranted. Here is the proof of the abelian case.
-* We proceed by induction on $\l|G\r|$. Let $H\subgrp G$ be a maximal proper subgroup of $G$. If $p$ divides $\l|H\r|$, then we are done by induction. Otherwise, let $x\not\in H$ and set $K\coloneqq\gen{x}$. Since $G$ is abelian, we see that $H\subgrp HK\subgrpeq G$, so maximality of $H$ forces $HK=G$. Then $\l|G\r|=\l|HK\r|=\l|H\r|\l|K\r|/\l|H\cap K\r|$, so $p$ divides $\l|H\r|\l|K\r|$. By Euclid’s Lemma, $p$ divides $\l|K\r|$, so $\ord{x}=pk$ for some $k\in\N$. Thus $\ord{x^k}=\ord{x}/\gcd\l(\ord{x},k\r)=p$, as desired.<span style="float:right;">$\blacklozenge$</span>
+However, the Sylow Theorems require the abelian case of Cauchy’s Theorem as a lemma, so a separate proof is warranted.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<i>Proof.</i> In general, we consider the subgroup $Z\l(G\r)$ of $G$, which is abelian. If $p$ divides $\l|Z\l(G\r)\r|$, then $Z\l(G\r)$ contains an element of order $p$ by the abelian case above, so we are done. Otherwise, the class equation gives us
+<i>Proof.</i> We first prove the theorem for when $G$ is abelian.
+* We proceed by induction on $\l|G\r|$. Let $H\subgrp G$ be a maximal proper subgroup of $G$. If $p$ divides $\l|H\r|$, then we are done by induction. Otherwise, let $x\not\in H$ and set $K\coloneqq\gen{x}$. Since $G$ is abelian, we see that $H\subgrp HK\subgrpeq G$, so maximality of $H$ forces $HK=G$. Then $\l|G\r|=\l|HK\r|=\l|H\r|\l|K\r|/\l|H\cap K\r|$, so $p$ divides $\l|H\r|\l|K\r|$. By Euclid’s Lemma, $p$ divides $\l|K\r|$, so $\ord{x}=pk$ for some $k\in\N$. Thus $\ord{x^k}=\ord{x}/\gcd\l(\ord{x},k\r)=p$, as desired.
+
+In general, we consider the subgroup $Z\l(G\r)$ of $G$, which is abelian. If $p$ divides $\l|Z\l(G\r)\r|$, then $Z\l(G\r)$ contains an element of order $p$ by the abelian case above, so we are done. Otherwise, the class equation gives us
 $$\begin{equation}
     \l|G\r|=\l|Z\l(G\r)\r|+\sum_{x\in A}\l[G:C_G\!\l(x\r)\r],
 \end{equation}$$
