@@ -4,7 +4,7 @@ Date Created: 28/06/2023 19:31:14
 Tags: #Type/Theorem #Topic/Group_Theory
 
 Proved by: [[Cauchy's Theorem]], [[Isomorphism Theorems]], [[Class Equation]], [[Basic properties of subgroups]], [[Orbit-Stabilizer Theorem]], [[Lagrange's Theorem]]
-References: <i>Not Applicable</i>
+References: [[Basic properties of p-groups]]
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
@@ -19,6 +19,8 @@ Let $G$ be a finite group and write $\l|G\r|=p^rm$ for some $r,m\in\N$ and some 
 * (Third Sylow Theorem): Let $n_p$ be the number of Sylow $p$-subgroups of $G$. Then $n_p\equiv1\mod p$ and $n_p\divides m$.
 
 ```
+
+<b>Remark.</b> The Sylow Theorems provide the strongest converse to Lagrange’s Theorem. Namely, if $\l|G\r|=p^rm$ is of the form above, then $G$ admits subgroups of order $p^i$ for every $0\leq i\leq r$. Indeed, $G$ has a Sylow $p$-group of order $p^r$, and since $p$-groups are solvable, it itself admit subgroups $H_i$ of order $p^i$ for every $0\leq i\leq r$.<span style="float:right;">$\blacklozenge$</span>
 
 <i>Proof.</i> We first show that $G$ admits a Sylow $p$-subgroup $P\subgrpeq G$, which will be fixed throughout the proof.
 * We proceed by induction on $\l|G\r|$. If $p$ divides $\l|Z\l(G\r)\r|$, then Cauchy’s Theorem furnishes an element $z\in Z\l(G\r)$ of order $p$. Let $N\coloneqq\gen{z}$, which is normal in $G$. Then $G/N$ has order $p^{r-1}m$, so, by induction, it has a Sylow $p$-subgroup $P_0$ of order $p^{r-1}$. Its preimage $P\coloneqq\pi^{-1}\!\l(P_0\r)$ is a normal subgroup of $G$ containing $N$ since $\pi\l(n\r)=0\in P_0$ for all $n\in N$. Now, since $\ker\pi=N\subgrpeq P$ and $\pi\l(N\r)=\l\{e\r\}\nsubgrpeq P_0=\pi\l(P\r)$, we see from the Lattice Isomorphism Theorem that
