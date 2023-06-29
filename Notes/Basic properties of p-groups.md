@@ -22,6 +22,8 @@ Let $G$ be a non-trivial $p$-group. If $H\nsubgrpeq G$ is non-trivial, then $H\c
 * If $H\nsubgrp G$ is proper, then there is a subgroup $K\nsubgrp G$ containing $H$ such that $\l[K:H\r]=p$.
 * If $\l|G\r|=p^n$, then there is a chain $\l\{e\r\}=H_0\subgrp\cdots\subgrp H_n=G$ of subgroups such that each $H_i\nsubgrp G$ and $\l|H_i\r|=p^i$.
 
+Furthermore, if $G$ acts on a finite set $X$, then the number of fixed points under this action is congruent to $\l|X\r|$ modulo $p$.
+
 ```
 
 <i>Proof.</i> Let $G$ act on $H$ by conjugation. Then $H\cap Z\l(G\r)=\l\{h\in H\mid\fa g\in G:gh=hg\r\}$ is the set of fixed points of the action, so, letting $A\subseteq H\comp Z\l(G\r)$ be the set of representatives of distinct non-trivial orbits, the Class Equation gives
@@ -35,4 +37,6 @@ $$\begin{equation}
     K/H\iso\pi\l(K\r)/\pi\l(H\r)=K_0/\l\{e\r\}\iso K_0.
 \end{equation}$$
 Thus $\l[K:H\r]=\l|K/H\r|=\l|K_0\r|=p$, as desired.
-* Induct with base case $H_0\coloneqq\l\{e\r\}\nsubgrp G$. If $H_i$ is constructed, then there is a subgroup $H_{i+1}\nsubgrp G$ such that $\l|H_{i+1}\r|/\l|H_i\r|=p$.<span style="float:right;">$\blacksquare$</span>
+* Induct with base case $H_0\coloneqq\l\{e\r\}\nsubgrp G$. If $H_i$ is constructed, then there is a subgroup $H_{i+1}\nsubgrp G$ such that $\l|H_{i+1}\r|/\l|H_i\r|=p$.
+
+Let $G$ act on a finite set $X$ and fixes $N$ points. The class equation gives us the decomposition $\l|X\r|=N+\sum_{x\in A}\l[G:\Stab_G\!\l(x\r)\r]=\sum_{x\in A}\l|G\r|/\l|\Stab_G\!\l(x\r)\r|$, where $A\subseteq X$ is the set of representatives of distinct non-trivial orbits. For all $x\in A$, we see that $\Stab_G\!\l(x\r)\subgrp G$ and hence $\l|G\r|/\l|\Stab_G\!\l(x\r)\r|$ is divisible by $p$. Thus $\l|X\r|=N+kp$ for some $k\in\N$, so the result follows.<span style="float:right;">$\blacksquare$</span>

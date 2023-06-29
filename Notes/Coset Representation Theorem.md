@@ -16,7 +16,7 @@ title: Theorem (Coset Representation Theorem).
 Let $G$ be a group and fix $n\in\N$. Then the set of all subgroups $H\subgrpeq G$ with index $n$ is in bijection with the set of all pointed transitive $G$-sets $\tpl{S,s_0}$ of size $n$.
 * If $G$ is finitely-generated, say with $G=\gen{x_1,\dots,x_r}$, then there at most $\l(n!\r)^r$-many subgroups $H\subgrpeq G$ of index $n$.
 * If $H\subgrpeq G$ is of index $n$, then $H$ contains a normal subgroup $K\nsubgrpeq G$ such that $\l[G:K\r]$ divides $n!$.
-* If $G$ is a finite group and $p$ is the small prime dividing $\l|G\r|$, then every subgroup $H\subgrpeq G$ of index $p$ is normal.
+* If $G$ is a finite group and $p$ is the smallest prime dividing $\l|G\r|$, then every subgroup $H\subgrpeq G$ of index $p$ is normal.
 
 ```
 
