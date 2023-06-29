@@ -3,12 +3,12 @@
 Date Created: 29/06/2023 11:21:45
 Tags: #Type/Theorem #Topic/Group_Theory
 
-Proved by: [[Basic properties of subgroups]], [[Basic properties of order]], [[Euclid's Lemma]], [[Basic properties of order]], [[Class Equation]], [[Lagrange's Theorem]]
+Proved by: [[Basic properties of subgroups]], [[Basic properties of order]], [[Euclid's Lemma]], [[Class Equation]], [[Lagrange's Theorem]]
 References: [[Sylow Theorems]], [[Basic properties of p-groups]]
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
-Generalizations: <i>Not Applicable</i>
+Generalizations: [[Sylow Theorems]]
 
 ``` ad-Theorem
 title: Theorem (Cauchy’s Theorem).
@@ -17,7 +17,7 @@ Let $G$ be a finite group whose order is divisible by a prime $p$. Then $G$ cont
 
 ```
 
-<b>Remark.</b> This is a corollary of the Sylow Theorems. Indeed, the First Sylow Theorem shows that if $\l|G\r|=p^rm$ for some $r,m\in\N$ with $p\ndivides m$, then $G$ has a Sylow $p$-subgroup $H$ of order $p^r$. Since $p$-groups are solvable, $H$ admits subgroups of order $p^i$ for all $0\leq i\leq r$, and in particular $H$ has a subgroup of order $p$.
+<b>Remark.</b> This can be deduced from the First Sylow Theorem, which states that if $\l|G\r|=p^rm$ for some $r,m\in\N$ with $p\ndivides m$, then $G$ has a Sylow $p$-subgroup $H$ of order $p^r$. Since $p$-groups are solvable, $H$ admits subgroups of order $p^i$ for all $0\leq i\leq r$, and in particular $H$ has a subgroup of order $p$.
 
 However, the Sylow Theorems require the abelian case of Cauchy’s Theorem as a lemma, so a separate proof is warranted.<span style="float:right;">$\blacklozenge$</span>
 
