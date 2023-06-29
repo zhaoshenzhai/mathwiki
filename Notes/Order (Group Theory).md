@@ -9,7 +9,7 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of order]]
-Sufficiencies: <i>Not Applicable</i>
+Sufficiencies: [[Cauchy's Theorem]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Omega is an ordinal]], [[Lagrange's Theorem]]
 

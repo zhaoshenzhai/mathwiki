@@ -3,7 +3,7 @@
 Date Created: 28/06/2023 19:31:14
 Tags: #Type/Theorem #Topic/Group_Theory
 
-Proved by: [[Basic properties of subgroups]], [[Euclid's Lemma]], [[Basic properties of order]], [[Isomorphism Theorems]], [[Class Equation]], [[Basic properties of p-groups]], [[Orbit-Stabilizer Theorem]], [[Lagrange's Theorem]]
+Proved by: [[Cauchy's Theorem]], [[Isomorphism Theorems]], [[Class Equation]], [[Basic properties of p-groups]], [[Orbit-Stabilizer Theorem]], [[Lagrange's Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -13,18 +13,15 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Sylow Theorems).
 
-Let $G$ be a finite group and write $\l|G\r|=p^rm$ for some $r\in\N$ and some prime $p$ with $p\ndivides m$. We have the following ‘Sylow Theorems’:
-* (First Sylow Theorem): Any $p$-subgroup $H\subgrpeq G$ is contained in a Sylow $p$-subgroup. In particular, $G$ admits a Sylow $p$-subgroup.
+Let $G$ be a finite group and write $\l|G\r|=p^rm$ for some $r,m\in\N$ and some prime $p$ with $p\ndivides m$. We have the following ‘Sylow Theorems’:
+* (First Sylow Theorem): Any $p$-subgroup $H\subgrpeq G$ is contained in a Sylow $p$-subgroup.
 * (Second Sylow Theorem): All Sylow $p$-subgroups of $G$ are conjugate.
 * (Third Sylow Theorem): Let $n_p$ be the number of Sylow $p$-subgroups of $G$. Then $n_p\equiv1\mod p$ and $n_p\divides m$.
 
 ```
 
-<i>Proof.</i> We first prove the abelian case of <i>Cauchy’s Theorem</i>, which states that if $G$ is a finite abelian group and $p$ divides $\l|G\r|$, then $G$ contains an element of order $p$.
-* We proceed by induction on $\l|G\r|$. Let $H\subgrp G$ be a maximal proper subgroup of $G$, so if $p$ divides $\l|H\r|$, then we are done by induction. Otherwise, let $x\not\in H$ and set $K\coloneqq\gen{x}$. Since $G$ is abelian, we see in particular that $HK=KH$ and hence $H\subgrp HK\subgrpeq G$. Maximality of $H$ then forces $HK=G$. Observe that $H\cap K=\l\{e\r\}$, so $\l|HK\r|=\l|H\r|\l|K\r|/\l|H\cap K\r|=\l|H\r|\l|K\r|$. Thus $p$ divides $\l|H\r|\l|K\r|$, so, by Euclid’s Lemma, $p$ divides $\l|K\r|$. Then $\ord{x}=pk$ for some $k\in\N$, so $\ord{x^k}=\ord{x}/\gcd\l(\ord{x},k\r)=p$, as desired.
-
-Next, we show that $G$ admits a Sylow $p$-subgroup $P\subgrpeq G$:
-* We proceed by induction on $\l|G\r|$. If $p$ divides $\l|Z\l(G\r)\r|$, then Cauchy’s Theorem above furnishes an element $z\in Z\l(G\r)$ of order $p$. Let $N\coloneqq\gen{z}$, which is normal in $G$. Then $G/N$ has order $p^{r-1}m$, so, by induction, it has a Sylow $p$-subgroup $P_0$ of order $p^{r-1}$. Its preimage $P\coloneqq\pi^{-1}\!\l(P_0\r)$ is a normal subgroup of $G$ containing $N$ since $\pi\l(n\r)=0\in P_0$ for all $n\in N$. Now, since $\ker\pi=N\subgrpeq P$ and $\pi\l(N\r)=\l\{e\r\}\nsubgrpeq P_0=\pi\l(P\r)$, we see from the Lattice Isomorphism Theorem that
+<i>Proof.</i> We first show that $G$ admits a Sylow $p$-subgroup $P\subgrpeq G$.
+* We proceed by induction on $\l|G\r|$. If $p$ divides $\l|Z\l(G\r)\r|$, then Cauchy’s Theorem furnishes an element $z\in Z\l(G\r)$ of order $p$. Let $N\coloneqq\gen{z}$, which is normal in $G$. Then $G/N$ has order $p^{r-1}m$, so, by induction, it has a Sylow $p$-subgroup $P_0$ of order $p^{r-1}$. Its preimage $P\coloneqq\pi^{-1}\!\l(P_0\r)$ is a normal subgroup of $G$ containing $N$ since $\pi\l(n\r)=0\in P_0$ for all $n\in N$. Now, since $\ker\pi=N\subgrpeq P$ and $\pi\l(N\r)=\l\{e\r\}\nsubgrpeq P_0=\pi\l(P\r)$, we see from the Lattice Isomorphism Theorem that
 $$\begin{equation}
     P/N\iso\pi\l(P\r)/\pi\l(N\r)=P_0/\l\{e\r\}\iso P_0.
 \end{equation}$$
