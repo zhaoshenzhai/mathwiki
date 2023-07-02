@@ -21,7 +21,7 @@ Let $G$ be a finite group and write $\l|G\r|=p^rm$ for some $r,m\in\N$ and some 
 ```
 
 <b>Remark.</b> The Sylow Theorems provide the strongest converse to Lagrange’s Theorem. Namely, if $\l|G\r|=p^rm$ is of the form above, then $G$ admits subgroups of order $p^i$ for every $0\leq i\leq r$.
-* If $G$ admits exactly one Sylow $p$-subgroup $P$, then it is normal. Indeed, we have $\l[G:N_G\!\l(P\r)\r]=1$ from the proof below, so $N_G\!\l(P\r)=G$.
+* If $G$ admits exactly one Sylow $p$-subgroup $P$, then it is normal. Indeed, we have $\l[G:N_G\!\l(P\r)\r]=1$ from the proof below, so $N_G\!\l(P\r)=G$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

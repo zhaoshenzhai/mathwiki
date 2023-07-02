@@ -18,7 +18,7 @@ Generalizations: <i>Not Applicable</i>
 title: Proposition.
 
 Let $H\subgrp G$ be a non-trivial proper subgroup of a finite group $G$ and let $p$ be prime. Then the following results hold:
-* If $G$ is a $p$-group, then $H\cap Z\l(G\r)$ is non-trivial. Furthermore, if $\l|H\r|=p$, then $H\subgrpeq Z\l(G\r)$.
+* If $G$ is a $p$-group and $H\nsubgrp G$, then $H\cap Z\l(G\r)$ is non-trivial. Furthermore, if $\l|H\r|=p$, then $H\subgrpeq Z\l(G\r)$.
 * If $H$ is a $p$-group, then $\l[N_G\!\l(H\r):H\r]\equiv\l[G:H\r]\mod p$.
 * If $H$ is a $p$-group but is not Sylow, then there is a $p$-group $K\subgrpeq G$ containing $H$ such that $\l[K:H\r]=p$ and $H\nsubgrp K$.
 * If $G$ is a $p$-group, say $\l|G\r|=p^n$ for some $n\in\N^+$, then there is a chain $\l\{e\r\}=G_0\subgrp\cdots\subgrp G_n\coloneqq G$ such that $\l|G_i\r|=p^i$ and each $G_i\nsubgrpeq G$.

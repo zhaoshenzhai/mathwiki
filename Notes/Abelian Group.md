@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Cyclic Group]]
-Constructions: [[Ring]], [[Vector Space]]
+Constructions: [[Ring]], [[Vector Space]], [[Subgroup Series]]
 Generalizations: [[Module]]
 
 Properties: [[Abelian group is simple iff cyclic of prime order]]

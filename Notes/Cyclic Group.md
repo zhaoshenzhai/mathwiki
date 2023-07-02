@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Group of units of finite field is a cyclic group]]
-Constructions: <i>Not Applicable</i>
+Constructions: [[Subgroup Series]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Subgroups of cyclic groups]], [[Automorphisms and endomorphisms of cyclic groups]]
