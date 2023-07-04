@@ -1,15 +1,11 @@
 #!/bin/bash
 
-cd $MATHWIKI_DIR/Notes
+cd $MATHWIKI_DIR
 
-if [[ ! -z $(grep 'ad-Definition_Dark' *) ]]; then
-    sed -i 's/ad-Definition_Dark/ad-Definition/g' *
-    sed -i 's/ad-Proposition_Dark/ad-Proposition/g' *
-    sed -i 's/ad-Theorem_Dark/ad-Theorem/g' *
-    sed -i 's/ad-Axiom_Dark/ad-Axiom/g' *
+if [[ ! -z $(grep 'obsidian' .obsidian/appearance.json) ]]; then
+    sed -i 's/248, 248, 255/0, 0, 0/g' .obsidian/plugins/obsidian-admonition/data.json
+    sed -i 's/obsidian/moonstone/g' .obsidian/appearance.json
 else
-    sed -i 's/ad-Definition/ad-Definition_Dark/g' *
-    sed -i 's/ad-Proposition/ad-Proposition_Dark/g' *
-    sed -i 's/ad-Theorem/ad-Theorem_Dark/g' *
-    sed -i 's/ad-Axiom/ad-Axiom_Dark/g' *
+    sed -i 's/0, 0, 0/248, 248, 255/g' .obsidian/plugins/obsidian-admonition/data.json
+    sed -i 's/moonstone/obsidian/g' .obsidian/appearance.json
 fi

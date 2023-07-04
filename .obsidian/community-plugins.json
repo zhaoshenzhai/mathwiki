@@ -1,8 +1,8 @@
 [
   "obsidian-hider",
   "obsidian-admonition",
-  "obsidian-style-settings",
   "vim-reading-view-navigation",
   "obsidian-latex",
-  "mathlinks"
+  "mathlinks",
+  "obsidian-style-settings"
 ]
