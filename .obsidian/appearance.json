@@ -6,9 +6,9 @@
     "imageMargins",
     "links",
     "lists",
-    "fonts",
     "admonition",
-    "margins"
+    "margins",
+    "fonts"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": false,
