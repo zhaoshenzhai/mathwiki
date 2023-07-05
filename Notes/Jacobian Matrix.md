@@ -16,13 +16,13 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Fix $m,n\in\N^+$, let $U\subseteq\R^n$ be open, and fix $\v{a}\in U$. For a function $f:U\to\R^n$ such that all partial derivatives $D_if\l(\v{a}\r)$ exist, its <b>Jacobian matrix at $\v{a}$</b> is the $m\times n$ matrix
+Fix $m,n\in\N^+$, let $U\subseteq\R^n$ be open, and fix $\vec{a}\in U$. For a function $f:U\to\R^n$ such that all partial derivatives $D_if\l(\vec{a}\r)$ exist, its <b>Jacobian matrix at $\vec{a}$</b> is the $m\times n$ matrix
 $$\begin{equation}
-    Jf\l(\v{a}\r)\coloneqq\l[\l(D_jf_i\r)\l(\v{a}\r)\r]=
+    Jf\l(\vec{a}\r)\coloneqq\l[\l(D_jf_i\r)\l(\vec{a}\r)\r]=
     \begin{bmatrix}
-        \l(D_1f_1\r)\l(\v{a}\r) & \cdots & \l(D_nf_1\r)\l(\v{a}\r) \\
-        \vdots & \ddots & \vdots \\
-        \l(D_1f_m\r)\l(\v{a}\r) & \cdots & \l(D_nf_m\r)\l(\v{a}\r)
+        \l(D_1f_1\r)\l(\vec{a}\r) & \cdots & \l(D_nf_1\r)\l(\vec{a}\r) \\
+        \vecdots & \ddots & \vecdots \\
+        \l(D_1f_m\r)\l(\vec{a}\r) & \cdots & \l(D_nf_m\r)\l(\vec{a}\r)
     \end{bmatrix}.
 \end{equation}$$
 

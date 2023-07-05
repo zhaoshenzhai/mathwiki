@@ -1,5 +1,5 @@
 ---
-mathLink: Differentiable $\Rightarrow$ $\l[Df\l(\v{a}\r)\r]=Jf\l(\v{a}\r)$
+mathLink: Differentiable $\Rightarrow$ $\l[Df\l(\vec{a}\r)\r]=Jf\l(\vec{a}\r)$
 ---
 
 <div class="topSpace"></div>
@@ -17,12 +17,12 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition.
 
-Fix $m,n\in\N^+$, let $U\subseteq\R^n$ be open, and fix $\v{a}\in U$. For a function $f:U\to\R^m$, if $f$ is differentiable at $\v{a}$, then $\l[Df\l(\v{a}\r)\r]=Jf\l(\v{a}\r)$.
+Fix $m,n\in\N^+$, let $U\subseteq\R^n$ be open, and fix $\vec{a}\in U$. For a function $f:U\to\R^m$, if $f$ is differentiable at $\vec{a}$, then $\l[Df\l(\vec{a}\r)\r]=Jf\l(\vec{a}\r)$.
 
 ```
 
-<i>Proof.</i> Let $\l\{\v{e}_1,\dots,\v{e}_n\r\}$ and $\l\{\widetilde{\v{e}}_1,\dots,\widetilde{\v{e}}_m\r\}$ be the standard bases for $\R^n$ and $\R^m$, respectively. For all $j\in\l\{1,\dots,n\r\}$, observe that
+<i>Proof.</i> Let $\l\{\vec{e}_1,\dots,\vec{e}_n\r\}$ and $\l\{\widetilde{\vec{e}}_1,\dots,\widetilde{\vec{e}}_m\r\}$ be the standard bases for $\R^n$ and $\R^m$, respectively. For all $j\in\l\{1,\dots,n\r\}$, observe that
 $$\begin{equation}
-    \l[Df\l(\v{a}\r)\r]\v{e}_j=D_jf\l(\v{a}\r)=\lim\limits_{t\to0}\frac{f\l(\v{a}+t\v{e}_j\r)-f\l(\v{a}\r)}{t}=\sum_{i=1}^{m}\lim\limits_{t\to0}\frac{f_i\l(\v{a}+t\v{e}_j\r)-f_i\l(\v{a}\r)}{t}\widetilde{\v{e}}_i=\sum_{i=1}^{m}\l(D_jf_i\r)\l(\v{a}\r)\widetilde{\v{e}}_i.
+    \l[Df\l(\vec{a}\r)\r]\vec{e}_j=D_jf\l(\vec{a}\r)=\lim\limits_{t\to0}\frac{f\l(\vec{a}+t\vec{e}_j\r)-f\l(\vec{a}\r)}{t}=\sum_{i=1}^{m}\lim\limits_{t\to0}\frac{f_i\l(\vec{a}+t\vec{e}_j\r)-f_i\l(\vec{a}\r)}{t}\widetilde{\vec{e}}_i=\sum_{i=1}^{m}\l(D_jf_i\r)\l(\vec{a}\r)\widetilde{\vec{e}}_i.
 \end{equation}$$
-Thus the $j^\textrm{th}$ column of $\l[Df\l(\v{a}\r)\r]$ is the vector $\sum_{i=1}^{m}\l(D_jf_i\r)\l(\v{a}\r)\widetilde{\v{e}}_i$, so the result follows.<span style="float:right;">$\blacksquare$</span>
+Thus the $j^\textrm{th}$ column of $\l[Df\l(\vec{a}\r)\r]$ is the vector $\sum_{i=1}^{m}\l(D_jf_i\r)\l(\vec{a}\r)\widetilde{\vec{e}}_i$, so the result follows.<span style="float:right;">$\blacksquare$</span>

@@ -28,7 +28,7 @@ commutes. Thus, after identifying $V\iso K^n$ and $W\iso K^m$ via the maps $\phi
 
 ---
 
-<b>Remark.</b> In particular, if $V=K^n$ and $W=K^m$ and $\mc{B}$ and $\mc{C}$ are the standard bases, then $T\l(\v{v}\r)=\l[T\r]_\mc{B}^\mc{C}\v{v}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, if $V=K^n$ and $W=K^m$ and $\mc{B}$ and $\mc{C}$ are the standard bases, then $T\l(\vec{v}\r)=\l[T\r]_\mc{B}^\mc{C}\vec{v}$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

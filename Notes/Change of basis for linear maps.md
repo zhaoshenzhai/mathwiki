@@ -32,9 +32,9 @@ commutes.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<i>Proof.</i> For all $\v{v}\in K^n$, there exists a unique $v\in V$ such that $\v{v}=\phi_\mc{B}\!\l(v\r)$. Then
+<i>Proof.</i> For all $\vec{v}\in K^n$, there exists a unique $v\in V$ such that $\vec{v}=\phi_\mc{B}\!\l(v\r)$. Then
 $$\begin{equation}
-    L_A\!\l(\v{v}\r)=A\v{v}=A\phi_\mc{B}\l(v\r)=\l[T\r]_\mc{B}^\mc{C}\l[v\r]_\mc{B}=\l[T\l(v\r)\r]_\mc{C}=\phi_\mc{C}\!\l(T\l(v\r)\r)=\l(\phi_\mc{C}\circ T\circ\phi_\mc{B}^{-1}\r)\l(\v{v}\r),
+    L_A\!\l(\vec{v}\r)=A\vec{v}=A\phi_\mc{B}\l(v\r)=\l[T\r]_\mc{B}^\mc{C}\l[v\r]_\mc{B}=\l[T\l(v\r)\r]_\mc{C}=\phi_\mc{C}\!\l(T\l(v\r)\r)=\l(\phi_\mc{C}\circ T\circ\phi_\mc{B}^{-1}\r)\l(\vec{v}\r),
 \end{equation}$$
 so $L_A=\phi_\mc{C}\circ T\circ\phi_\mc{B}^{-1}$. Similarly, we have that $L_{A'}=\phi_{\mc{C}'}\circ T\circ\phi_{\mc{B}'}^{-1}$. Note then that
 $$\begin{equation}
