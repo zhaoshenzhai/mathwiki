@@ -5,20 +5,20 @@ cd $MATHWIKI_DIR
 while [ ! -z "$1" ]; do
     case "$1" in
         --update|-u)
+            cd ./Images
+
+            numImages=$(($(find -type d | wc -l) - 1))
+
+            cd ..
             cd ./Notes
 
             numNotes=$(ls | wc -l)
             numObsidianLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | wc -l)
             numMarkdownLinks=$(sed 's/),\ /)\n/g' * | grep -Po "\[.*\]\(.*\)" | wc -l)
             numExternalLinks=$(sed 's/),\ /)\n/g' * | grep -Po "\[.*\]\(obsidian://.*\)" | wc -l)
-            numLinks=$(($numObsidianLinks + $numMarkdownLinks - $numExternalLinks))
+            numLinks=$(($numObsidianLinks + $numMarkdownLinks - $numExternalLinks - $numImages))
 
             ratio=$(echo "scale=3; $numLinks/$numNotes" | bc)
-
-            cd ..
-            cd ./Images
-
-            numImages=$(($(find -type d | wc -l) - 1))
 
             cd ..
         ;;
