@@ -13,8 +13,8 @@
         \newcommand{\pathF}{(-1.75,+0.75) .. controls (-2.00,+1.25) and (-1.25,+1.50) .. (-0.50,+1.25)}
         \draw[dashed, thick, dash phase=11pt] \pathA -- \pathB -- \pathC -- \pathD -- \pathE -- \pathF -- cycle;
         \fill[color=shadeColor] \pathA -- \pathB -- \pathC -- \pathD -- \pathE -- \pathF;
-        \draw (3,1.3) circle (0) node[text=textColor] {\footnotesize{$U$}};
-        \filldraw (0,0) circle (0.25mm) node[below right, text=textColor] {\footnotesize{$x$}};
-        \draw[dashed] (0,0) circle (0.75) node[above right=7mm, text=textColor] {\footnotesize{$B$}};
+        \draw (3,1.3) circle (0) node {\footnotesize{$U$}};
+        \filldraw (0,0) circle (0.25mm) node[below right] {\footnotesize{$x$}};
+        \draw[dashed] (0,0) circle (0.75) node[above right=7mm] {\footnotesize{$B$}};
     \end{tikzpicture}
 \end{document}

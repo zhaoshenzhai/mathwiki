@@ -33,12 +33,3 @@ $$\begin{equation}
     \sum_{i=1}^k\beta_ib_i-\sum_{\mathclap{i=k+1}}^n\gamma_ib_i=0,
 \end{equation}$$
 and since $\mc{B}_V$ is linearly independent, this forces $\beta_1=\cdots\beta_k=\gamma_{k+1}=\cdots=\gamma_n=0$. Thus $v=0$.<span style="float:right;">$\blacksquare$</span>
-
----
-
-<b>Remark.</b> Note that the complement $W$ is not necessarily unique. For instance, consider $V\coloneqq\R^3$ and let $U\subseteq V$ be a plane (passing through the origin).
-
-![[Images/2022-05-14_114740/image.svg|320]]
-
-Then $\mc{B}_U=\l\{b_1,b_2\r\}$ is a set of linearly independent vectors lying in the plane, so, to extend this to a basis $\mc{B}_V=\mc{B}_U\cup\l\{b_3\r\}$ of $\R^3$, we may let $b_3$ to be <i>any</i> vector not lying in the plane. That is, we may let $W=\span\l\{b_3\r\}$ to be any line in $\R^3$ (passing through the origin) not contained in the plane. Clearly, there are infinitely-many such lines.<span style="float:right;">$\blacklozenge$</span>
-
