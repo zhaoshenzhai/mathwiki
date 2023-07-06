@@ -3,16 +3,6 @@
 \input{../../imageConfig.tex}
 \input{../../preamble.sty}
 
-\makeatletter
-\newcommand{\globalcolor}[1]{
-    \color{#1}\global\let\default@color\current@color
-}
-\makeatother
-
-\AtBeginDocument{\globalcolor{textColor}}
-
-\pagenumbering{gobble}
-
 \begin{document}
     \begin{tikzpicture}[color=textColor]
         \node (s) at (0.5,1) {\footnotesize{$\mc{T}_\mathrm{sb}$}};

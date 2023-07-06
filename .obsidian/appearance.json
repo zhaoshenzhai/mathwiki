@@ -8,7 +8,8 @@
     "lists",
     "admonition",
     "margins",
-    "fonts"
+    "fonts",
+    "images"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": false,

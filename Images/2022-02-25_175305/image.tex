@@ -3,16 +3,6 @@
 \input{../../imageConfig.tex}
 \input{../../preamble.sty}
 
-\makeatletter
-\newcommand{\globalcolor}[1]{
-    \color{#1}\global\let\default@color\current@color
-}
-\makeatother
-
-\AtBeginDocument{\globalcolor{textColor}}
-
-\pagenumbering{gobble}
-
 \begin{document}
     \begin{tikzcd}[column sep=3.6em, row sep=2.8em, color=textColor]
         X_1 \ar[r, "\phi"] \ar[dr, "f_1"'] \ar[rr, "\phi'\circ\phi", bend left=30]&

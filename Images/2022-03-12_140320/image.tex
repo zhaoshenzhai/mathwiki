@@ -3,16 +3,6 @@
 \input{../../imageConfig.tex}
 \input{../../preamble.sty}
 
-\makeatletter
-\newcommand{\globalcolor}[1]{
-    \color{#1}\global\let\default@color\current@color
-}
-\makeatother
-
-\AtBeginDocument{\globalcolor{textColor}}
-
-\pagenumbering{gobble}
-
 \begin{document}
     \begin{tikzcd}[column sep=4em, color=textColor]
         \cat{C} \ar[r, "\ms{F}", bend left=30, ""{name=U, below}] \ar[r, "\ms{G}"', bend right=30, ""{name=D}] &

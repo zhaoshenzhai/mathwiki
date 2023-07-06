@@ -3,16 +3,6 @@
 \input{../../imageConfig.tex}
 \input{../../preamble.sty}
 
-\makeatletter
-\newcommand{\globalcolor}[1]{
-    \color{#1}\global\let\default@color\current@color
-}
-\makeatother
-
-\AtBeginDocument{\globalcolor{textColor}}
-
-\pagenumbering{gobble}
-
 \begin{document}
     \begin{tikzcd}[column sep=4em, row sep=3em, color=textColor]
         \ms{F}\l(E_1\r) \ar[r, "\ms{F}(\phi)"] \ar[d, "f_1"'] \ar[rr, "\ms{F}(\phi')\circ\ms{F}(\phi)=\ms{F}(\phi'\circ\phi)", bend left=25] &

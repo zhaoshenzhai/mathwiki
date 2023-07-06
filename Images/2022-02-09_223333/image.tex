@@ -3,16 +3,6 @@
 \input{../../imageconfig.tex}
 \input{../../preamble.sty}
 
-\makeatletter
-\newcommand{\globalcolor}[1]{
-    \color{#1}\global\let\default@color\current@color
-}
-\makeatother
-
-\AtBeginDocument{\globalcolor{textColor}}
-
-\pagenumbering{gobble}
-
 \begin{document}
     \begin{tikzpicture}[color=textColor]
         \draw[<->] (0.5,0) -- (5,0);
