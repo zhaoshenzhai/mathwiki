@@ -4,14 +4,14 @@
 \input{../../preamble.sty}
 
 \begin{document}
-    \begin{tikzpicture}[color=textColor]
+    \begin{tikzpicture}
         \newcommand{\pathA}{(-0.50,+1.25) .. controls (+1.00,+0.75) and (+1.75,+1.75) .. (+2.50,+1.75)}
         \newcommand{\pathB}{(+2.50,+1.75) .. controls (+3.25,+1.75) and (+1.75,+0.50) .. (+2.50,-0.75)}
         \newcommand{\pathC}{(+2.50,-0.75) .. controls (+3.25,-2.00) and (+1.00,-0.25) .. (-0.25,-1.25)}
         \newcommand{\pathD}{(-0.25,-1.25) .. controls (-1.50,-2.25) and (-1.50,-0.75) .. (-1.50,-0.25)}
         \newcommand{\pathE}{(-1.50,-0.25) .. controls (-1.50,+0.25) and (-1.75,+0.75) .. (-1.75,+0.75)}
         \newcommand{\pathF}{(-1.75,+0.75) .. controls (-2.00,+1.25) and (-1.25,+1.50) .. (-0.50,+1.25)}
-        \draw[dashed, thick, dash phase=11pt, color=textColor] \pathA -- \pathB -- \pathC -- \pathD -- \pathE -- \pathF -- cycle;
+        \draw[dashed, thick, dash phase=11pt] \pathA -- \pathB -- \pathC -- \pathD -- \pathE -- \pathF -- cycle;
         \fill[color=shadeColor] \pathA -- \pathB -- \pathC -- \pathD -- \pathE -- \pathF;
 
         \draw (2.8,2) circle (0) node {\footnotesize{$W\in\mc{T}_\mathrm{pr}$}};
@@ -19,7 +19,7 @@
         \fill[pattern=north west lines, pattern color=textColor] (-1,-2) rectangle (0,2);
         \fill[pattern=north east lines, pattern color=textColor] (-2,-0.75) rectangle (3,0);
 
-        \draw[thick, color=textColor] (-1,-0.75) rectangle (0,0);
+        \draw[thick] (-1,-0.75) rectangle (0,0);
 
         \draw (4,-0.375) circle (0) node {\footnotesize{$\preim_{\pi_2}\!(V)$}};
         \draw (-0.5,2.3) circle (0) node {\footnotesize{$\preim_{\pi_1}\!(U)$}};
