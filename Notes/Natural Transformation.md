@@ -24,18 +24,12 @@ $$\begin{equation}
     \end{aligned}
 \end{equation}$$
 such that for all morphisms $\alpha:X\to Y$ in $\cat{C}$, the diagrams
-
-![[Images/2022-03-12_130843/image.svg|300]]
-
-commute.
+![[Images/2022-03-12_130843/image.svg|300]]commute.
 
 ```
 
 <b>Remark.</b> A natural transformation $\eta$ from $\ms{F}$ to $\ms{G}$ can be represented pictorially as
-
-![[Images/2022-03-12_134415/image.svg|120]]
-
-or simply $\eta:\ms{F}\Rightarrow\ms{G}$ if the categories are understood.<span style="float:right;">$\blacklozenge$</span>
+![[Images/2022-03-12_134415/image.svg|120]]or simply $\eta:\ms{F}\Rightarrow\ms{G}$ if the categories are understood.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -18,9 +18,6 @@ Let $I\coloneqq\l[0,1\r]\subseteq\R$, $<$ be the standard ordering on $\R$ restr
 ```
 
 <i>Proof.</i> Let $\mc{B}_\textrm{sb}$ and $\mc{B}_\textrm{pr}$ be bases for $\mc{T}_\textrm{sb}$ and $\mc{T}_\textrm{pr}$, respectively. Take $\tpl{x,y}\in I^2$ and $B_\textrm{pr}\in\mc{B}_\textrm{pr}$ containing $\tpl{x,y}$; it suffices to find some basis element $B_\textrm{sb}\in\mc{B}_\textrm{sb}$ such that $\tpl{x,y}\in B_\textrm{sb}\subseteq B_\textrm{pr}$. This is done graphically below, where the other cases (‘bottom’, ‘right’, and the three ‘corners’) are also completely analogous.
-
-![[Images/2022-02-18_215655/image.svg|530]]
-
 The point $\tpl{x,y}$ is indicated in red and the basis $B_\textrm{sb}$ is indicated by green. Let $\mc{B}$ be the basis generating $\mc{T}\l(\sqsubset\r)$.
 
 * (Interior): This is obvious; the same green interval is a basis element in $\mc{B}$ which is then intersected with $I^2$.

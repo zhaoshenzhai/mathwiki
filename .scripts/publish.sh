@@ -222,21 +222,16 @@ MD_TO_HTML() {
     }&
 }
 
-echo ""
-read -n 1 -ep "$(echo -e "${RED}This will take time. Proceed? [N/y]${NC}") " proceed
-if [[ ! "$proceed" == y ]]; then
-    exit
-fi
-
-allNotes=$(ls)
-numberOfCounts=$(echo "$allNotes" | wc -l)
+numberOfCounts=$#
 progressCounter=1
-while IFS= read -r note; do
+
+for note in "$@"; do
     cd $MATHWIKI_DIR/Notes
     MD_TO_HTML "$note"
     progressCounter=$((progressCounter + 1))
     percentage=$(bc -l <<< 'scale=2; '"$progressCounter"'/'"$numberOfCounts"''*100 | sed 's/\.00$//g')
     echo -ne "    ${YELLOW}Publishing... $percentage% ("$progressCounter"/"$numberOfCounts")${NC}\r"
-done <<< "$allNotes"
+done
+
 echo -ne "\033[0K\r"
 echo -e "    ${PURPLE}DONE${NC}"

@@ -32,6 +32,8 @@ while [[ "$repeat" == "Y" ]]; do
         exit
     fi
 
+    cd $MATHWIKI_DIR/Notes
+
     case $action in
         "1")
             $DOTFILES_DIR/scripts/gitCommit.sh -m
@@ -52,7 +54,7 @@ while [[ "$repeat" == "Y" ]]; do
             $MATHWIKI_DIR/.scripts/updateImages.sh
         ;;
         "7")
-            $MATHWIKI_DIR/.scripts/publish.sh
+            $MATHWIKI_DIR/.scripts/publish.sh *
         ;;
         "8")
             $MATHWIKI_DIR/.scripts/toggleDark.sh
