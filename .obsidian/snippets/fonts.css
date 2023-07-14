@@ -2,11 +2,6 @@
     font-family: courier prime !important;
 }
 
-.markdown-preview-view p {
-    text-align: justify;
-    text-justify: inter-word;
-}
-
 .cm-line {
     font-size: 13px !important;
 }

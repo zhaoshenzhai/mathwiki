@@ -16,11 +16,11 @@ Justifications: [[Basic properties of group homomorphisms]], [[Subgroups of cycl
 ``` ad-Definition
 title: Definition.
 
-Let $G$ be a group. A <b>subgroup series of $G$</b> is a chain $1=G_0\subgrp G_1\subgrp\cdots\subgrp G_n=G$ of subgroups $G_i$ of $G$.
-* A series is said to be <b>normal</b> if $G_i\nsubgrp G_{i+1}$ for all $0\leq i<n$.
-* A normal series is said to be <b>abelian</b> (resp. <b>cyclic</b>) if each quotient $G_{i+1}/G_i$ is abelian (resp. cyclic).
+Let $G$ be a group. A <b>subgroup series of $G$</b> is a chain $1=G_0\subgrp G_1\subgrp\cdots\subgrp G_n=G$ of subgroups $G_i$ of $G$, and is <b>normal</b> if $G_i\nsubgrp G_{i+1}$ for all $1\leq i<n$.
+* The quotients $\l\{G_{i+1}/G_i\st i=1,\dots,n\r\}$, counted with multiplicity, are called the <b>composition factors</b> of this series.
+* A normal series is said to be <b>abelian</b> (resp. <b>cyclic</b>) if each composition factor $G_{i+1}/G_i$ is abelian (resp. cyclic).
 
-A <b>composition series of $G$</b> is a normal series $1=G_0\nsubgrp G_1\nsubgrp\cdots\nsubgrp G_n=G$ such that each quotient $G_{i+1}/G_i$ is simple.
+A <b>composition series of $G$</b> is a normal series $1=G_0\nsubgrp G_1\nsubgrp\cdots\nsubgrp G_n=G$ such that each composition factor $G_{i+1}/G_i$ is simple.
 
 ```
 
