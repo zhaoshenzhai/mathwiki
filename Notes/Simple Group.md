@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Simplicity of alternating group]]
-Constructions: [[Subgroup Series]]
+Constructions: [[Composition Series]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

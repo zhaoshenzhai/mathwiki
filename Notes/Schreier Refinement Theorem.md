@@ -3,7 +3,7 @@
 Date Created: 14/07/2023 18:26:00
 Tags: #Type/Theorem #Topic/Group_Theory
 
-Proved by: <i>Not Applicable</i>
+Proved by: [[Zassenhaus Lemma]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -20,6 +20,10 @@ $$\begin{equation}
 of $G$ have equivalent refinements, in the sense that they can be refined so that $n=m$ and that $G_i/G_{i+1}\iso H_{i'}/H_{i'+1}$ for some permutation $i\mapsto i'$.
 
 ```
+
+<b>Remark.</b> The special case of this theorem where the two normal series are composition series of $G$ is called the Jordan-Hölder Theorem. Applying this to finite groups, where composition series exist, this gives us a ‘unique prime factorization’ of finite groups. The way that the composition factors are ‘glued’ together to reconstruct the original group is called the <i>extension problem</i>.<span style="float:right;">$\blacklozenge$</span>
+
+---
 
 <i>Proof.</i> Consider the sets $G_{ij}\coloneqq G_{i+1}\l(G_i\cap H_j\r)$ for $0\leq i\leq n-1$ and $0\leq j\leq m$, which for a fixed $i$, is a descending series with $G_{i0}=G_i$ and $G_{im}=G_{i+1}$. Applying the Zassenhaus Lemma to the subgroups $G_{i+1}\nsubgrp G_i$ and $H_{j+1}\nsubgrp H_j$ shows us that $G_{i,j+1}=G_{i+1}\l(G_i\cap H_{j+1}\r)\nsubgrpeq G_{i+1}\l(G_i\cap H_j\r)=G_{ij}$, and, in particular, that $G_{ij}$ are all subgroups of $G$. This gives us a refinement
 $$\begin{equation}

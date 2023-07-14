@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Normal Subgroup]]
 Examples: [[Normalizer]], [[Centralizer and Center]], [[Subgroups of cyclic groups]]
-Constructions: [[Subgroup Series]]
+Constructions: [[Composition Series]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of subgroups]]
