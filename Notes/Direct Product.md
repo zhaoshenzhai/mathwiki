@@ -24,4 +24,4 @@ Let $\l\{G_i\r\}$ be a family of groups (resp. rings, $R$-modules). The <b>direc
 
 ---
 
-<b>Remark.</b> In particular, if $X$ is a non-empty set, then $\prod_{x\in X}G=G^X$ is the group (resp. ring/$R$-module) of functions from $X$ into $G$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, if $X$ is a non-empty set, then $\prod_{x\in X}G=G^X$ is the group (resp. ring, $R$-module) of functions from $X$ into $G$.<span style="float:right;">$\blacklozenge$</span>

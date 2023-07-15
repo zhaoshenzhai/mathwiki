@@ -13,7 +13,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Universal Property of Localization).
 
-Let $R$ be an integral domain and let $S\subseteq R$ be multiplicative. Then the embedding $\iota:R\to S^{-1}R:r\mapsto\frac{r}{1}$ is universal among homomorphisms that map $S$ to units. That is, for any commutative ring $Z$ and any homomorphism $\phi:R\to Z$ such that $\im_S\!\l(\phi\r)\subseteq Z^\times$, the following diagram commutes:
+Let $R$ be an integral domain and let $S\subseteq R$ be multiplicative. Then the embedding $\iota:R\to S^{-1}R:r\mapsto\frac{r}{1}$ is universal among homomorphisms that map $S$ to units. That is, for any commutative ring $Z$ and any homomorphism $\phi:R\to Z$ such that $\phi\l(S\r)\subseteq Z^\times$, the following diagram commutes:
 ![[Images/2023-01-16_134335/image.svg|125]]
 
 ```
@@ -35,4 +35,4 @@ $$\begin{equation}
     \end{gathered}
 \end{equation}$$
 
-To show existence, it suffices to show that $\psi$ is well-defined. First, since $\im_S\!\l(\phi\r)\subseteq Z^\times$, $\phi\l(s\r)$ has an inverse in $Z$. Now, take $\frac{r_1}{s_1}=\frac{r_2}{s_2}\in S^{-1}R$, so $r_1s_2=r_2s_1$ and observe that $\phi\l(r_1\r)\phi\l(s_2\r)=\phi\l(r_2\r)\phi\l(s_1\r)$. Hence $\phi\l(r_1\r)\phi\l(s_1\r)^{-1}=\phi\l(r_2\r)\phi\l(s_2\r)^{-1}$.<span style="float:right;">$\blacksquare$</span>
+To show existence, it suffices to show that $\psi$ is well-defined. First, since $\phi\l(S\r)\subseteq Z^\times$, $\phi\l(s\r)$ has an inverse in $Z$. Now, take $\frac{r_1}{s_1}=\frac{r_2}{s_2}\in S^{-1}R$, so $r_1s_2=r_2s_1$ and observe that $\phi\l(r_1\r)\phi\l(s_2\r)=\phi\l(r_2\r)\phi\l(s_1\r)$. Hence $\phi\l(r_1\r)\phi\l(s_1\r)^{-1}=\phi\l(r_2\r)\phi\l(s_2\r)^{-1}$.<span style="float:right;">$\blacksquare$</span>

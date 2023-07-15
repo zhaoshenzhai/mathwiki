@@ -16,7 +16,7 @@ title: Proposition.
 Let $R$ be an integral domain. Then the following properties hold:
 * For all $f,g\in R\l[x\r]$, we have $\deg\l(fg\r)=\deg f+\deg g$.
 * $R\l[x\r]$ is an integral domain.
-* $\l(R\l[x\r]\r)^\times=R^\times$.
+* $R\l[x\r]^\times=R^\times$.
 
 ```
 

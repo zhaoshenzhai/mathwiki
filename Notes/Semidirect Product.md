@@ -28,3 +28,7 @@ $$\begin{equation}
     \end{gathered}
 \end{equation}$$
 shows that $\blob_\theta$ is associative. It is clear that $\tpl{e,e}$ is the identity element and that $\tpl{n,h}^{-1}=\tpl{\theta_{h^{-1}}\!\l(n^{-1}\r),h^{-1}}$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> Note that $N\semi_\theta H$ is the direct product $N\times H$ iff for all $\tpl{n_1,h_1},\tpl{n_2,h_2}\in N\times H$, we have $n_1\theta_{h_1}\!\l(n_2\r)=n_1n_2$. This occurs iff $\theta_{h_1}\!\l(n_2\r)=n_2$ for all $h_1$ and $n_2$, so $\theta_{h_1}=\id$ for all $h_1$. In other words, $N\semi_\theta H=N\times H$ iff $\theta$ is the trivial homomorphism.<span style="float:right;">$\blacklozenge$</span>
