@@ -1,10 +1,10 @@
 <div class="topSpace"></div>
 
 Date Created: 01/07/2023 22:00:35
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Abelian Group]]
+Examples: [[Abelian Group]], [[Symmetric group is not solvable]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

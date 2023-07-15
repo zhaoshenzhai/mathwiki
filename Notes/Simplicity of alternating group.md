@@ -5,7 +5,7 @@ mathLink: $A_n$ is simple for $n\geq5$
 <div class="topSpace"></div>
 
 Date Created: 11/05/2023 11:02:50
-Tags: #Type/Theorem #Topic/Group_Theory
+Tags: #Type/Proposition #Topic/Group_Theory
 
 Proved by: [[Characterizations of normality]]
 References: <i>Not Applicable</i>
@@ -14,8 +14,8 @@ Justifications: <i>Not Applicable</i>
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-``` ad-Theorem
-title: Theorem (Simplicity of $A_n$).
+``` ad-Proposition
+title: Proposition (Simplicity of $A_n$).
 
 If $n\geq 5$, then the alternating group $A_n$ is simple.
 
