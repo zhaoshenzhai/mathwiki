@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Isomorphism Theorems]]
+Justifications: [[Isomorphism Theorems]], [[Universal Property of Localization]]
 
 ``` ad-Definition
 title: Definition.

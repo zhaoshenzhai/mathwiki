@@ -70,7 +70,7 @@ I wrote some bash scripts to (try) maintain the consistency of my notes; [main.s
 * Toggling between light and dark mode is handled by [toggleDark.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/toggleDark.sh).
 * Resetting the modification time of each note to its creation time is handled by [resetModifyTime.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/resetModifyTime.sh).
 
-Some stats: 839 notes, 2094 links, 62 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
+Some stats: 840 notes, 2096 links, 62 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
 ## MathLinks
 
@@ -133,4 +133,4 @@ All images are centered and have a `15px` top and bottom [margin](https://github
 
 [templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/UltiSnips/markdown.snippets#L111
 [tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/fileTypeDefaults.vim#L10
-[pdfLaTeXExecute]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/fileTypeDefaults.vim#L18
+[pdfLaTeXExecute]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/fileTypeDefaults.vim#L19

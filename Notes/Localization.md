@@ -8,16 +8,21 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
-Sufficiencies: [[Construction of localization]]
+Properties: [[Universal Property of Localization]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Justifications: [[Localization of a ring is a ring]]
 
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be an commutative ring and let $S\subseteq R$ be a multiplicative subset. The <b>localization of $R$ by $S$</b> is the initial object $\iota:R\to S^{-1}R$ amongst ring homomorphisms $\phi:R\to Z$ to a commutative ring $Z$ with $\phi\l(S\r)\subseteq Z^\times$.
-![[Images/2023-01-16_134335/image.svg|125]]
-* If $R$ is an integral domain and $S\coloneqq R\comp\l\{0\r\}$, then $\Frac{R}\coloneqq S^{-1}R$ is a field, called the <b>fraction field of $R$</b>. In this case, $\iota:R\into\Frac\l(R\r)$ is initial amongst field homomorphisms $\phi:R\into K$.
+Let $S\subseteq R$ be a multiplicative subset of a commutative ring $R$. Define the equivalence relation $\sim$ on $R\times S$ by $\tpl{r_1,s_1}\sim\tpl{r_2,s_2}$ iff $t\l(r_1s_2-r_2s_1\r)=0$ for some $t\in S$. The <b>localization of $R$ by $S$</b> is the ring $S^{-1}R$ consisting of all equivalence classes $r/s\coloneqq\l[\tpl{r,s}\r]$, equipped with the operations
+$$\begin{equation}
+    r_1/s_1+r_2/s_2\coloneqq\l(r_1s_2+r_2s_1\r)/\l(s_1s_2\r)\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ r_1/s_1\cdot r_2/s_2\coloneqq\l(r_1r_2\r)/\l(s_1s_2\r)
+\end{equation}$$
+and the natural map $\iota:R\to S^{-1}R$ mapping $r\mapsto r/1$.
 
 ```
+
+<b>Remark.</b> If $R$ is an integral domain, then its localization $S^{-1}R$ is also an integral domain. Furthermore, if $0\not\in S$, then $\iota:R\into S^{-1}R$.
+* If $S=R\comp\l\{0\r\}$, then the <b>fraction field of $R$</b> is the field $\Frac R\coloneqq S^{-1}R$, which is the smallest field containing $R$.<span style="float:right;">$\blacklozenge$</span>
