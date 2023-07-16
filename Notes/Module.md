@@ -4,7 +4,7 @@ Date Created: 23/01/2023 17:40:02
 Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Abelian Group]], [[Ring]], [[Ideal]], [[Quotient Ring]]
+Examples: [[Abelian Group]], [[Ring]], [[Ideal]], [[Quotient Ring and Module]]
 Constructions: [[Module Homomorphism]], [[Submodule]]
 Generalizations: <i>Not Applicable</i>
 

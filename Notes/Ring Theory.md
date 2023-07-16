@@ -11,7 +11,7 @@ $\huge\rm\bf{R}\normalsize\rm\bf{ING THEORY}$ is the study of the [category of r
 
 ---
 
-<b>Constructions.</b> As with most categories, $\catring$ has [subobjects](Subring.md), [products](obsidian://open?file=TODO), [direct sums](obsidian://open?file=TODO), and [quotients](Quotient%20Ring.md). Unique to Ring Theory is the concept of an [ideal](Ideal.md) $I$ in $R$, defined as subrngs that are stable under multiplication. These are precisely the subrngs that furnishes a compatible ring structure on its quotient.
+<b>Constructions.</b> As with most categories, $\catring$ has [subobjects](Subring.md), [products](obsidian://open?file=TODO), [direct sums](obsidian://open?file=TODO), and [quotients](Quotient%20Ring%20and%20Module.md). Unique to Ring Theory is the concept of an [ideal](Ideal.md) $I$ in $R$, defined as subrngs that are stable under multiplication. These are precisely the subrngs that furnishes a compatible ring structure on its quotient.
 
 Similarly, as with most categories, we can define the [kernel](Kernel%20(Ring%20Theory).md) and the image of a [homomorphism](Ring%20Homomorphism.md) $\phi:R\to S$. Furthermore, $\ker\phi$ is an ideal in $R$, so $\phi$ [decomposes](obsidian://open?file=TODO) into
 ![[Images/2023-01-03_225322/image.svg|300]]

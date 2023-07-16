@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A subset $S\subseteq R$ is a <b>subring</b> of $R$ if it is an additive subgroup and a multiplicative subset of $R$, in which case we write $S\subringeq R$.
+A subset $S\subseteq R$ is a <b>subring</b> of $R$ if it is an additive subgroup and a multiplicative subset of $R$, in which case we write $S\subgrpeq R$.
 
 ```
