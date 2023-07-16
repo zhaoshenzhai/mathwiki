@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Ideal]]
-Constructions: [[Quotient Ring and Module]]
+Constructions: [[Quotient Module]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

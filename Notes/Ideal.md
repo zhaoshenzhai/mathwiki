@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Maximal Ideal]], [[Prime Ideal]]
 Examples: [[Principal Ideal]]
-Constructions: [[Quotient Ring and Module]]
+Constructions: [[Quotient Ring]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Chinese Remainder Theorem]], [[Basic properties of ideals]]

@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Quotient Ring and Module]]
+Constructions: [[Quotient Ring]], [[Quotient Module]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Universal Property of Quotients]]
