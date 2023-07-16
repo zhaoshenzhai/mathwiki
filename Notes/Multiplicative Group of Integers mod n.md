@@ -20,8 +20,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Fix $n\in\N^+$. The <b>multiplicative group of integers modulo $n$</b> is the group of units of the ring $\Z_n$.
+Fix $n\in\N^+$. The <b>multiplicative group of integers modulo $n$</b> is the group of units of the ring $\Z/n\Z$.
 
 ```
 
-<b>Remark.</b> If $n$ is prime, then $\Z_n$ is a field and hence, as sets, $\Z_n^\times=\Z_n\comp\l\{0\r\}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $n$ is prime, then $\Z/n\Z$ is a field and hence, as sets, $\l(\Z/n\Z\r)^\times=\Z/n\Z\comp\l\{0\r\}$.<span style="float:right;">$\blacklozenge$</span>

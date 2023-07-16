@@ -4,8 +4,8 @@ Date Created: 03/11/2022 19:11:26
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Prime Field]], [[Real Numbers]]
-Constructions: [[Vector Space]]
+Examples: [[Real Numbers]]
+Constructions: [[Vector Space]], [[Prime Field]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Field implies PID]], [[Group of units of finite field is a cyclic group]]
