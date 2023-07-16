@@ -3,7 +3,7 @@
 Date Created: 26/01/2022 18:48:16
 Tags: #Type/Definition #Topic/Set_Theory
 
-Types: [[Linear Isomorphism]], [[Group Isomorphism]], [[Ring Isomorphism]], [[Module Isomorphism]]
+Types: [[Linear Isomorphism]]
 Examples: [[Identity Function]]
 Constructions: <i>Not Applicable</i>
 Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]

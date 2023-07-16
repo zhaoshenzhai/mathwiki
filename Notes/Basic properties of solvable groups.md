@@ -3,7 +3,7 @@
 Date Created: 14/07/2023 19:51:48
 Tags: #Type/Proposition #Topic/Group_Theory
 
-Proved by: [[Isomorphism Theorems]], [[Basic properties of group homomorphisms]]
+Proved by: [[Isomorphism Theorems]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

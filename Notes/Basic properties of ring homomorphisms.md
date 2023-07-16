@@ -3,7 +3,7 @@
 Date Created: 15/11/2022 14:07:45
 Tags: #Type/Proposition #Topic/Ring_Theory
 
-Proved by: [[Basic properties of group homomorphisms]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -13,13 +13,15 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition.
 
-Let $R_1$ and $R_2$ be rings and consider a homomorphism $\phi:R_1\to R_2$. Let $S_1\subringeq R_1$ and $S_2\subringeq R_2$ be subrings. Then the following properties hold.
+Let $R_1$ and $R_2$ be rings and consider a homomorphism $\phi:R_1\to R_2$. Let $S_i\subringeq R_i$ be subrings and let $\mf{a}_1\coloneqq\phi^{-1}\!\l(\mf{a}_2\r)$ where $\mf{a}_2\ideal R_2$ is an ideal. Then the following properties hold.
 * (Image preserve subrings): $\phi\l(S_1\r)\subringeq R_2$ is a subring. Furthermore, if $S_1$ is commutative, then so is $\phi\l(S_1\r)$.
 * (Image preserve field): If $S_1$ is a field, then $\phi\l(S_1\r)$ is either $\l\{0\r\}$ or a field.
+* (Image preserve ideals): If $\phi$ is surjective and $S_1\idealeq R_1$ is an ideal, then $\phi\l(S_1\r)\idealeq R_2$ is an ideal.
 * (Preimage preserve subrings): $\phi^{-1}\!\l(S_2\r)\subringeq R_1$ is a subring.
-* (Preimage preserve ideals): If $S_2\idealeq R_2$ is an ideal, then $\phi^{-1}\!\l(S_2\r)\idealeq R_1$ is an ideal.
+* (Preimage preserve ideals): If $S_2\idealeq R_2$ is an ideal, then $\phi^{-1}\!\l(S_2\r)\idealeq R_1$ is an ideal. If $S_2$ is prime, then so is $\phi^{-1}\!\l(S_2\r)$.
+* (Descend into quotients): If $\mf{a}_2\ideal R_2$ and $\mf{a}_1\coloneqq\phi^{-1}\!\l(\mf{a}_2\r)\ideal R_1$, then $\phi$ induces an injective homomorphism $\widetilde{\phi}:R_1/\mf{a}_1\to R_2/\mf{a}_2$.
 
-Furthermore, if $\mf{a}_2\ideal R_2$ and $\mf{a}_1\coloneqq\phi^{-1}\!\l(\mf{a}_2\r)\ideal R_1$, then $\phi$ induces an injective homomorphism $\widetilde{\phi}:R_1/\mf{a}_1\to R_2/\mf{a}_2$.
+Furthermore, 
 * If $\mf{a}_2$ is prime, then so is $\mf{a}_1$.
 * If $\mf{a}_2$ is maximal and $\phi$ is surjective, then so is $\mf{a}_1$.
 

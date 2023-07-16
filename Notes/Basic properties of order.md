@@ -3,7 +3,7 @@
 Date Created: 04/05/2023 18:37:34
 Tags: #Type/Proposition #Topic/Group_Theory
 
-Proved by: [[Ring of integers is a EUD]], [[Basic properties of group homomorphisms]]
+Proved by: [[Ring of integers is a EUD]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

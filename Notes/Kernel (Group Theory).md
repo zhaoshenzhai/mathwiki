@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Basic properties of group homomorphisms]], [[Characterizations of normality]]
+Justifications: [[Characterizations of normality]]
 
 ``` ad-Definition
 title: Definition.

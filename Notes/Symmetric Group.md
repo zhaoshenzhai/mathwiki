@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Alternating Group]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Sign of a Permutation]]
+Constructions: [[Sign of a Permutation]], [[Group Action]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of symmetric groups]], [[Symmetric group is not solvable]], [[Permutations are conjugate iff same cycle type]]

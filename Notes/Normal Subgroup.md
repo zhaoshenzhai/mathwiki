@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: [[Coset Representation Theorem]]
 Equivalences: [[Characterizations of normality]]
-Justifications: [[Basic properties of group homomorphisms]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

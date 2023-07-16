@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Universal Property of Localization]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Localization of a ring is a ring]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

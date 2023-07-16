@@ -3,7 +3,7 @@
 Date Created: 15/11/2022 14:00:50
 Tags: #Type/Definition #Topic/Ring_Theory
 
-Types: [[Ring Isomorphism]]
+Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: [[Kernel (Ring Theory)]]
 Generalizations: <i>Not Applicable</i>
@@ -11,16 +11,16 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Isomorphism Theorems]], [[Basic properties of ring homomorphisms]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Justifications: [[Isomorphism of objects is an equivalence relation]]
 
 ``` ad-Definition
 title: Definition.
 
-Let $R$ and $S$ be rings. A <b>ring homomorphism</b> from $R$ to $S$ is a function $\phi:R\to S$ such that $\phi\l(1\r)=1$ and
-$$\begin{equation}
-    \phi\l(r_1+r_2\r)=\phi\l(r_1\r)+\phi\l(r_2\r)\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ \phi\l(r_1r_2\r)=\phi\l(r_1\r)\phi\l(r_2\r)
-\end{equation}$$
-for all $r_1,r_2\in R$.
+Let $R$ and $S$ be rings. A <b>ring homomorphism</b> from $R$ to $S$ is a group homomorphism $\phi:R\to S$ that fixes $1$ and respects multiplication.
+* The <b>category of rings</b> is the category $\catring$ whose objects are rings and whose morphisms are ring homomorphisms.
+* A <b>ring isomorphism</b> is an isomorphism in $\catring$; equivalently, it is a bijective ring isomorphism.
+* Two rings $R$ and $S$ are <b>isomorphic</b> if there is a ring isomorphism $\phi:R\to S$.
+
 
 ```
 

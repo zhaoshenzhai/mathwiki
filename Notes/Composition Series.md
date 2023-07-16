@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Schreier Refinement Theorem]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Basic properties of group homomorphisms]], [[Subgroups of cyclic groups]]
+Justifications: [[Subgroups of cyclic groups]]
 
 ``` ad-Definition
 title: Definition.

@@ -3,7 +3,7 @@
 Date Created: 27/12/2022 17:35:44
 Tags: #Type/Proposition #Topic/Linear_Algebra
 
-Proved by: [[Basic properties of group homomorphisms]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

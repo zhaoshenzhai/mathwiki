@@ -4,12 +4,12 @@ Date Created: 23/01/2023 17:40:02
 Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Abelian Group]], [[Ideal]], [[Quotient Ring]]
+Examples: [[Abelian Group]], [[Ring]], [[Ideal]], [[Quotient Ring]]
 Constructions: [[Module Homomorphism]], [[Submodule]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: [[Ring]], [[Ring Homomorphism]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
