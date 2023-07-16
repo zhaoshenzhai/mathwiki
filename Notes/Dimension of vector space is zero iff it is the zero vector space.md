@@ -7,7 +7,7 @@ mathLink: $\dim V=0$ $\Leftrightarrow$ $V=\l\{0\r\}$
 Date Created: 06/04/2022 22:04:49
 Tags: #Type/Proposition #Topic/Linear_Algebra
 
-Proved by: [[Basic properties of vector spaces]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

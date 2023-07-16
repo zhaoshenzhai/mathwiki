@@ -7,7 +7,7 @@ mathLink: $\Hom\l(V,W\r)\subseteq W^V$ is a linear subspace
 Date Created: 17/05/2022 16:47:33
 Tags: #Type/Proposition #Topic/Linear_Algebra
 
-Proved by: [[Basic properties of vector spaces]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

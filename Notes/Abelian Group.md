@@ -20,8 +20,4 @@ A group $\tpl{G,\ast}$ is said to be <b>abelian</b> if the binary operation $\as
 
 ```
 
-<b>Remark.</b> Every abelian group $M$ can be equipped with a $\Z$-module structure. Indeed, for the $\Z$-module axioms to be satisfied, we need to define, for all $m\in M$, the $\Z$-action on $m$ by $0m\coloneqq0$,
-$$\begin{equation}
-    nm\coloneqq\underbrace{m+\cdots+m}_{\mathclap{n\textrm{ times}}}
-\end{equation}$$
-for all $n\in\Z^+$, and $nm\coloneqq\l(-n\r)m$ for every $n\in\Z^-$. Conversely, since every $\Z$-module is an abelian group, we see that the two notions coincide.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Every abelian group $M$ can be equipped with a unique $\Z$-module structure. Indeed, since $\Z$ is initial in $\catring$, there is a unique $\Z$-action on $M$ given by $0m\coloneqq0$, $nm\coloneqq m+\cdots+m$ ($n$ times) for $n\in\Z^+$, and $nm\coloneqq\l(-n\r)m$ for $n\in\Z^-$. In this way, the categories $\catabgrp$ and $\catmod[\Z]$ are equivalent.<span style="float:right;">$\blacklozenge$</span>
