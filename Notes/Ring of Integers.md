@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Gaussian Integers]], [[Prime Field]]
+Constructions: [[Characteristic]], [[Prime Field]], [[Gaussian Integers]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Ring of integers is a EUD]]
