@@ -16,8 +16,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $G$ be a group and fix a subset $H\subseteq G$. Then $H$ is a <b>subgroup of $G$</b> if $H$ is a group under the induced operations, in which case we write $H\subgrpeq G$.
+A <b>subgroup</b> of a group $G$ is a group $H\subseteq G$ where the inclusion $H\into G$ is a group homomorphism, in which case we write $H\subgrpeq G$.
 
 ```
 
-<b>Remark.</b> It is clear that $H\subseteq G$ is a subgroup of $G$ iff $0\in H$ and that $H$ is closed under $\ast$ and inversion.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> It is clear that $H\subseteq G$ is a subgroup of $G$ iff $0\in H$ and that $H$ is closed under the operation and inversion.<span style="float:right;">$\blacklozenge$</span>

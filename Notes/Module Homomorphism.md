@@ -4,7 +4,7 @@ Date Created: 26/01/2023 12:43:49
 Tags: #Type/Definition #Topic/Module_Theory
 
 Types: [[Module Isomorphism]]
-Examples: <i>Not Applicable</i>
+Examples: [[Linear Map]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

@@ -16,8 +16,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $M$ be a left $R$-module and fix a subset $N\subseteq M$. Then $N$ is a <b>left $R$-submodule of $M$</b> if $N$ is an $R$-module under the induced operations.
+A <b>submodule</b> of a left $R$-module $M$ is a left $R$-module $N\subseteq M$ where the inclusion $N\into M$ is a module homeomorphism.
 
 ```
 
-<b>Remark.</b> It is clear that $N\subseteq M$ is a left $R$-submodule of $M$ iff it is a subgroup that is closed under scalar multiplication.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> It is clear that $N\subseteq M$ is a left $R$-submodule of $M$ iff it is a subgroup that is closed under the left $R$-action on $N$.<span style="float:right;">$\blacklozenge$</span>

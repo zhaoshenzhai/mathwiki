@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Group Isomorphism]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Exact Sequence]], [[Kernel (Group Theory)]], [[Endomorphism Ring]], [[Ring Homomorphism]], [[Linear Map]]
+Constructions: [[Exact Sequence]], [[Kernel (Group Theory)]], [[Endomorphism Ring]], [[Ring Homomorphism]], [[Module Homomorphism]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Isomorphism Theorems]], [[Basic properties of group homomorphisms]]
