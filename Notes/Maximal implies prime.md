@@ -17,7 +17,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition.
 
-Let $\mf{a}\ideal R$ be a proper ideal of a commutative ring $R$. If $\mf{a}$ is maximal, then it is prime.
+Let $\mf{a}\nsubgrp R$ be a proper ideal of a commutative ring $R$. If $\mf{a}$ is maximal, then it is prime.
 
 ```
 

@@ -20,4 +20,4 @@ Let $R$ and $S$ be rings and consider a homomorphism $\phi:R\to S$. The <b>kerne
 
 ```
 
-<b>Remark.</b> Note that $\ker\phi\idealeq R$ is an ideal, and conversely every ideal $\mf{a}\idealeq R$ is the kernel of the projection $\pi:R\to R/\mf{a}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Note that $\ker\phi\nsubgrpeq R$ is an ideal, and conversely every ideal $\mf{a}\nsubgrpeq R$ is the kernel of the projection $\pi:R\to R/\mf{a}$.<span style="float:right;">$\blacklozenge$</span>

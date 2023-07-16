@@ -22,7 +22,7 @@ title: Definition.
 
 Let $N\subgrpeq M$ be a left $R$-module. The <b>quotient module of $M$</b>
 
-Let $\mf{a}\idealeq R$ be an ideal of a ring $R$. Then the <b>quotient ring of $R$ under $\mf{a}$</b> is the ring $\tpl{R/\mf{a},+,\blob}$, where
+Let $\mf{a}\nsubgrpeq R$ be an ideal of a ring $R$. Then the <b>quotient ring of $R$ under $\mf{a}$</b> is the ring $\tpl{R/\mf{a},+,\blob}$, where
 * $\tpl{R/\mf{a},+}$ is the quotient group of $R$ under $\mf{a}$ and
 * $\blob$ is the binary operation on $R/\mf{a}$ defined by $\l(r_1+\mf{a}\r)\blob\l(r_2+\mf{a}\r)\coloneqq r_1r_2+\mf{a}$ for all $r_1,r_2\in R$.
 

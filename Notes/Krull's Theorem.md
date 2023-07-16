@@ -17,7 +17,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Krull).
 
-Every proper ideal $\mf{a}\ideal R$ in a commutative ring $R$ is contained in a maximal ideal $\mf{m}\ideal R$.
+Every proper ideal $\mf{a}\nsubgrp R$ in a commutative ring $R$ is contained in a maximal ideal $\mf{m}\nsubgrp R$.
 
 ```
 

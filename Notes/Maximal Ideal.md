@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A proper ideal $\mf{m}\ideal R$ in a commutative ring $R$ is said to be <b>maximal</b> if no other proper ideal of $R$ properly contains $\mf{m}$.
+A proper ideal $\mf{m}\nsubgrp R$ in a commutative ring $R$ is said to be <b>maximal</b> if no other proper ideal of $R$ properly contains $\mf{m}$.
 
 ```

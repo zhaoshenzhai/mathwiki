@@ -21,4 +21,4 @@ Let $R$ be a ring and consider the unique homomorphism $\lambda:\Z\to R$. The <b
 ```
 
 <b>Remark.</b> By the First Isomorphism Theorem, we have the embedding $\Z/\ker\lambda=\Z/n\Z\into R$.
-* If $R$ is an integral domain, then $n\Z\ideal\Z$ is prime and hence either $n=0$, whence $\Z\into R$, or $n=p$, whence $\F_p\into R$.<span style="float:right;">$\blacklozenge$</span>
+* If $R$ is an integral domain, then $n\Z\nsubgrp\Z$ is prime and hence either $n=0$, whence $\Z\into R$, or $n=p$, whence $\F_p\into R$.<span style="float:right;">$\blacklozenge$</span>

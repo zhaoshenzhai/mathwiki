@@ -20,7 +20,7 @@ Let $K$ be a field. The <b>prime field of $K$</b> is the smallest subfield of $K
 
 ```
 
-<b>Remark.</b> Since $\Z$ is initial in $\catring$, there is a unique homomorphism $\lambda:\Z\to K$ whose kernel is $\ker\lambda=n\Z$ where $n\coloneqq\ch K$. By the First Isomorphism Theorem, we have the embedding $\Z/\ker\lambda=\Z/n\Z\into K$. Since $K$ is an integral domain, the ideal $n\Z\ideal\Z$ is prime and hence either $n=0$ or $n=p$ for some prime $p$.
+<b>Remark.</b> Since $\Z$ is initial in $\catring$, there is a unique homomorphism $\lambda:\Z\to K$ whose kernel is $\ker\lambda=n\Z$ where $n\coloneqq\ch K$. By the First Isomorphism Theorem, we have the embedding $\Z/\ker\lambda=\Z/n\Z\into K$. Since $K$ is an integral domain, the ideal $n\Z\nsubgrp\Z$ is prime and hence either $n=0$ or $n=p$ for some prime $p$.
 * If $\ch K=0$, then the embedding $\Z\into K$ extends uniquely to an embedding $\Frac\Z=\Q\into K$. Furthermore, $\Q$ is the <i>smallest</i> field that embeds into $K$.
 * Otherwise, $\ch K=p$ is prime. Then $\F_p$ is a field, so $\Frac\F_p\iso\F_p\into K$. Again $\F_p$ is the smallest subfield that embeds into $K$.<span style="float:right;">$\blacklozenge$</span>
 

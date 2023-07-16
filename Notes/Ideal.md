@@ -16,18 +16,18 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a ring. A subset $\mf{a}\subseteq R$ is a <b>left ideal in $R$</b> if it is an additive subgroup of $R$ such that $R\mf{a}\subseteq\mf{a}$, in which case we write $\mf{a}\idealeq R$.
+Let $R$ be a ring. A subset $\mf{a}\subseteq R$ is a <b>left ideal in $R$</b> if it is an additive subgroup of $R$ such that $R\mf{a}\subseteq\mf{a}$, in which case we write $\mf{a}\nsubgrpeq R$.
 * Similarly for a <b>right ideal in $R$</b>. A two-sided ideal in $R$ is called an <b>ideal in $R$</b>. If $R$ is commutative, then every ideal is two-sided.
 
-Two ideals $\mf{a},\mf{b}\ideal R$ are said to be <b>coprime/comaximal</b> if $\mf{a}+\mf{b}=R$.
+Two ideals $\mf{a},\mf{b}\nsubgrp R$ are said to be <b>coprime/comaximal</b> if $\mf{a}+\mf{b}=R$.
 
 ```
 
-<b>Remark.</b> A left ideal $\mf{a}\idealeq R$ is a left $R$-module via the action $R\times\mf{a}\to\mf{a}:\tpl{r,i}\mapsto ri$; being a left-ideal ensures that $ri\in\mf{a}$. Indeed $\mf{a}$ is a left $R$-submodule of $R$, where $R$ is viewed as a left $R$-module over itself.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A left ideal $\mf{a}\nsubgrpeq R$ is a left $R$-module via the action $R\times\mf{a}\to\mf{a}:\tpl{r,i}\mapsto ri$; being a left-ideal ensures that $ri\in\mf{a}$. Indeed $\mf{a}$ is a left $R$-submodule of $R$, where $R$ is viewed as a left $R$-module over itself.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<b>Remark.</b> If $\mf{a}\idealeq R$ is an ideal, then it is the kernel of the projection $\pi:R\to R/\mf{a}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $\mf{a}\nsubgrpeq R$ is an ideal, then it is the kernel of the projection $\pi:R\to R/\mf{a}$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
