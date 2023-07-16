@@ -19,7 +19,7 @@ $$\begin{equation}
 \end{equation}$$
 for all $r_1,r_2\in R$ and $s_1,s_2\in S$. Then $\sim$ is an equivalence relation, and if we let $S^{-1}R$ denote the equivalence classes $r/s\coloneqq\l[\tpl{r,s}\r]$, then the operations
 $$\begin{equation}
-    r_1/s_1+r_2/s_2\coloneqq\l(r_1s_2+r_2s_1\r)/\l(s_1s_2\r)\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ r_1/s_1\cdot r_2/s_2\coloneqq\l(r_1r_2\r)/\l(s_1s_2\r)
+    r_1/s_1+r_2/s_2\coloneqq\l(r_1s_2+r_2s_1\r)/\l(s_1s_2\r)\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ r_1/s_1\cdot r_2/s_2\coloneqq\l(r_1r_2\r)/\l(s_1s_2\r)
 \end{equation}$$
 are well-defined and makes $\tpl{S^{-1}R,+,\cdot}$ a commutative ring.
 

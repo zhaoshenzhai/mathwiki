@@ -18,7 +18,7 @@ title: Definition.
 
 Let $S\subseteq R$ be a multiplicative subset of a commutative ring $R$. Define the equivalence relation $\sim$ on $R\times S$ by $\tpl{r_1,s_1}\sim\tpl{r_2,s_2}$ iff $t\l(r_1s_2-r_2s_1\r)=0$ for some $t\in S$. The <b>localization of $R$ by $S$</b> is the ring $S^{-1}R$ consisting of all equivalence classes $r/s\coloneqq\l[\tpl{r,s}\r]$, equipped with the operations
 $$\begin{equation}
-    r_1/s_1+r_2/s_2\coloneqq\l(r_1s_2+r_2s_1\r)/\l(s_1s_2\r)\ \ \ \ \ \ \ \ \textrm{\it{and}}\ \ \ \ \ \ \ \ r_1/s_1\cdot r_2/s_2\coloneqq\l(r_1r_2\r)/\l(s_1s_2\r)
+    r_1/s_1+r_2/s_2\coloneqq\l(r_1s_2+r_2s_1\r)/\l(s_1s_2\r)\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ r_1/s_1\cdot r_2/s_2\coloneqq\l(r_1r_2\r)/\l(s_1s_2\r)
 \end{equation}$$
 and the natural map $\iota:R\to S^{-1}R$ mapping $r\mapsto r/1$.
 
