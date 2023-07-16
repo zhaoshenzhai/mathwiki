@@ -22,3 +22,5 @@ Let $M$ and $N$ be left $R$-modules. An <b>$R$-module homomorphism from $M$ to $
 * Two $R$-modules $M$ and $N$ are said to be <b>isomorphic</b> if there is an $R$-module isomorphism.
 
 ```
+
+<b>Remark.</b> Submodules are preserved under images and preimages of $\phi$. In particular, $\ker\phi$ is a submodule of $M$.<span style="float:right;">$\blacklozenge$</span>

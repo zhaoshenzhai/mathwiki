@@ -29,6 +29,5 @@ Let $G$ and $H$ be groups. A <b>group homomorphism from $G$ to $H$</b> is a func
 
 <b>Remark.</b> Group homomorphisms are relatively well-behaved. We list some of their properties here, whose proofs are all straightforward.
 * They map identities to identities and inverses to inverses: $\phi\l(e_G\r)=e_H$ and $\phi\l(g^{-1}\r)=\phi\l(g\r)^{-1}$ for all $g\in G$.
-* They preserve images and preimages: if $G_0\subgrpeq G$ and $H_0\subgrpeq H$, then $\phi\l(G_0\r)\subgrpeq H$ and $\phi^{-1}\!\l(H_0\r)\subgrpeq G$.
-* Normality is preserved under preimages, and also images if $\phi$ is surjective: if $H_0\nsubgrpeq H$, then $\phi^{-1}\!\l(H_1\r)\nsubgrpeq G_0$. If $\phi$ is surjective and $G_0\nsubgrpeq G$, then $\phi\l(G_0\r)\nsubgrpeq H$. In particular, this shows that $\ker\phi$ is normal, since it is the preimage of $\l\{e\r\}$.
+* Subgroups are preserved under images and preimages. Normality is also preserved under preimages, and images too if $\phi$ is surjective. In particular, this shows that $\ker\phi$ is normal in $G$.
 * Categorically, $\phi$ is injective iff it is a monomorphism, which occurs iff $\ker\phi=\l\{e\r\}$.<span style="float:right;">$\blacklozenge$</span>

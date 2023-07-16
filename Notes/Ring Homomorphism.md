@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Kernel (Ring Theory)]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Isomorphism Theorems]], [[Basic properties of ring homomorphisms]]
+Properties: [[Isomorphism Theorems]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Isomorphism of objects is an equivalence relation]]
@@ -33,3 +33,10 @@ $$\begin{equation}
     \l(r_1\cdot s_1\r)\l(r_2\cdot s_2\r)=\phi\l(r_1\r)s_1\phi\l(r_2\r)s_2=\phi\l(r_1r_2\r)s_1s_2=\l(r_1r_2\r)\cdot\l(s_1s_2\r)
 \end{equation}$$
 for all $r_1,r_2\in R$ and $s_1,s_2\in S$. Thus gives $S$ an <i>$R$-algebra</i> structure.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> Ring homomorphisms are relatively well-behaved. We list some of their properties here, whose proofs are all straightforward.
+* Subrings are preserved under images and preimages. Ideals are also preserved under preimages, and images too if $\phi$ is surjective. In particular, this shows that $\ker\phi$ is an ideal in $R$. Moreover, primality of ideals is preserved under preimages, and so is maximality if $\phi$ is surjective.
+* Commutativity is preserved under images. If $\phi$ is surjective, then images of fields are fields too.
+* Categorically, $\phi$ is injective iff it is a monomorphism, which occurs iff $\ker\phi=\l\{e\r\}$.<span style="float:right;">$\blacklozenge$</span>
