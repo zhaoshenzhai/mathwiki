@@ -12,7 +12,7 @@ Examples: [[Polynomials]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Universal Property of Monoid Rings and Algebras]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
@@ -33,7 +33,7 @@ Additionally, $R\l[M\r]$ can be equipped with an $R$-algebra structure via the a
 
 <b>Remark.</b> We require elements in $R\l[M\r]$ to be functions of <i>finite</i> support for the convolution to make sense. Also, note that the function $\delta$ sending $e\mapsto1$ and $m\mapsto0$ for all $m\neq e$ is the multiplicative identity of $R\l[M\r]$. That $\ast$ is associative follows from the computation
 $$\begin{equation}
-    \l(\l(\alpha\beta\r)\gamma\r)\l(z\r)=\sum_{xy=z}\l(\alpha\beta\r)\l(x\r)\gamma\l(y\r)=\sum_{uv=x}\l(\sum_{xy=z}\alpha\l(u\r)\beta\l(v\r)\r)\gamma\l(y\r)=\sum_{xy=z}\l(\sum_{uv=x}\alpha\l(u\r)\beta\l(v\r)\gamma\l(y\r)\r)=\sum_{uvy=z}\alpha\l(u\r)\beta\l(v\r)\gamma\l(y\r),
+    \l(\l(\alpha\beta\r)\gamma\r)\l(z\r)=\sum_{xy=z}\l(\alpha\beta\r)\l(x\r)\gamma\l(y\r)=\sum_{xy=z}\l(\sum_{uv=x}\alpha\l(u\r)\beta\l(v\r)\r)\gamma\l(y\r)=\sum_{xy=z}\l(\sum_{uv=x}\alpha\l(u\r)\beta\l(v\r)\gamma\l(y\r)\r)=\sum_{uvy=z}\alpha\l(u\r)\beta\l(v\r)\gamma\l(y\r),
 \end{equation}$$
 where the last sum is taken over all $\tpl{u,v,y}$ such that $uvy=z$. Similarly for $\l(\alpha\l(\beta\gamma\r)\r)\l(z\r)$, so they coincide for all $z\in M$.<span style="float:right;">$\blacklozenge$</span>
 
