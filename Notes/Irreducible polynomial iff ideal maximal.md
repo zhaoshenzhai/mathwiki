@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 22/01/2023 23:31:02
 Tags: #Type/Proposition #Topic/Ring_Theory #Courses/MATH457
 
-Proved by: [[Basic properties of divisibility and associates]]
+Proved by: <i>Not Applicable</i>
 References: [[Ideal is maximal iff quotient is a field]], [[Polynomial rings over UFDs are UFDs]], [[Irreducible implies prime (UFD)]]
 Justifications: <i>Not Applicable</i>
 

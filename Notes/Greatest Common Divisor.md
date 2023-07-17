@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: [[GCDs exist in UFDs]], [[Bezout's Identity]], [[Euclidean Algorithm]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[GCD exists implies unique up to a unit]], [[Basic properties of divisibility and associates]]
+Justifications: [[GCD exists implies unique up to a unit]]
 
 ``` ad-Definition
 title: Definition.

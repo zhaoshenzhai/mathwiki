@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 13/01/2023 12:56:59
 Tags: #Type/Proposition #Topic/Ring_Theory #Courses/MATH457
 
-Proved by: [[Basic properties of divisibility and associates]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
