@@ -8,7 +8,7 @@ Date Created: 13/01/2023 12:18:18
 Tags: #Type/Proposition #Topic/Ring_Theory #Courses/MATH457
 
 Proved by: <i>Not Applicable</i>
-References: [[Basic properties of irreducible and prime elements]]
+References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>

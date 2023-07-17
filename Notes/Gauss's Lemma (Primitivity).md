@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 22/01/2023 22:29:15
 Tags: #Type/Theorem #Topic/Ring_Theory #Courses/MATH457
 
-Proved by: [[Irreducible implies prime (UFD)]], [[Basic properties of irreducible and prime elements]], [[Basic properties of polynomial rings (integral domain)]]
+Proved by: [[Irreducible implies prime (UFD)]], [[Basic properties of polynomial rings (integral domain)]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

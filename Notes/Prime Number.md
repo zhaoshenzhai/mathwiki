@@ -6,7 +6,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: [[Fundamental Theorem of Arithmetic]], [[p-group]]
-Generalizations: [[Prime Element]]
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Euclid's Lemma]]
 Sufficiencies: <i>Not Applicable</i>

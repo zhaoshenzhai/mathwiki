@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Group_Theory #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Multiplicative Group of Integers mod n]]
-Constructions: [[Division Ring]], [[Irreducible Element]]
+Constructions: [[Division Ring]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Group of units of finite field is a cyclic group]]

@@ -12,7 +12,7 @@ References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
-Generalizations: [[Prime Element]]
+Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
 title: Theorem (Euclid’s Lemma).

@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Principal Ideal Domain (PID)]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Irreducible Element]], [[Prime Element]]
+Constructions: [[Prime Element]], [[Irreducible Element]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Finite integral domain implies field]]
