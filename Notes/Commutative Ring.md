@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Integral Domain]], [[Field]]
 Examples: [[Ring of Integers]]
-Constructions: [[Monoid Ring or Algebra]], [[Localization]], [[Algebra]]
+Constructions: [[Monoid Ring or Algebra]], [[Localization]], [[Algebra]], [[Divisibility and Associates]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
