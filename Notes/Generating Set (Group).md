@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Basic properties of order]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Cyclic subgroup is a subgroup]]
+Justifications: [[Universal Property of Free Groups]]
 
 ``` ad-Definition
 title: Definition.
