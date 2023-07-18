@@ -9,7 +9,7 @@ Constructions: [[Quotient Module]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: <i>Not Applicable</i>
+Sufficiencies: [[Generating Set (Module)]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
