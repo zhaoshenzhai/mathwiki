@@ -4,7 +4,7 @@ Date Created: 16/07/2023 19:41:19
 Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Kernel and Cokernel (Module Theory)]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

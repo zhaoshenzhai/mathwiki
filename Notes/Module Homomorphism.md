@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Linear Map]]
-Constructions: <i>Not Applicable</i>
+Constructions: [[Kernel and Cokernel (Module Theory)]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Monomorphisms and epimorphisms in category of modules]]

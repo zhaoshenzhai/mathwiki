@@ -4,7 +4,7 @@ Date Created: 26/01/2023 14:07:56
 Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Ideal]]
+Examples: [[Ideal]], [[Kernel and Cokernel (Module Theory)]]
 Constructions: [[Quotient Module]]
 Generalizations: <i>Not Applicable</i>
 
