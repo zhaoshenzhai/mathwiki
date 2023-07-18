@@ -4,12 +4,12 @@
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "imageMargins",
-    "links",
-    "lists",
-    "admonition",
     "margins",
+    "admonition",
     "fonts",
-    "images"
+    "images",
+    "links",
+    "lists"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": false,
