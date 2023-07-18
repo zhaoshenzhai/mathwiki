@@ -20,6 +20,6 @@ Let $X$ be a set. Fix any set $X^{-1}$ in bijection with $X$ and any $e\not\in X
 * A <b>word in $A\coloneqq X\cup X^{-1}\cup\l\{e\r\}$</b> is a sequence in $A$ where $a_i=e$ eventually. A word is said to be <b>reduced</b> if it has no non-trailing $e$’s and no consecutive inverses, where the <b>inverse of $x$</b> is the element $x^{-1}\in X^{-1}$ in correspondence with $x$.
 
 The <b>free group on $X$</b> is the group $F\l(X\r)$ consisting of all reduced words with the concatenation operation.
-* A group $G$ is said to be <b>free</b> if there is some set $X$ such that $G=F\l(X\r)$, in which case $X$ is a <b>free basis for $G$</b> and $\l|X\r|$ is called the <b>rank of $G$</b>.
+* A group $G$ is said to be <b>free</b> if $G=F\l(X\r)$ for some set $X$, and the minimal such $X$ is called a <b>free basis for $G$</b> with $\l|X\r|$ the <b>rank of $G$</b>.
 
 ```

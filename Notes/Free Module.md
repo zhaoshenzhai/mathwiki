@@ -17,6 +17,7 @@ Justifications: <i>Not Applicable</i>
 title: Definition.
 
 Let $X$ be a set. The <b>free $R$-module of $X$</b> is the module $F^R\!\l(X\r)\coloneqq R^{\oplus X}$.
+* An $R$-module $M$ is said to be <b>free</b> if $M=F^R\!\l(X\r)$ for some set $X$.
 
 ```
 
