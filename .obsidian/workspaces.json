@@ -153,7 +153,7 @@
                           }
                         },
                         {
-                          "query": "tag:#MOC",
+                          "query": "tag:#Type/MOC",
                           "color": {
                             "a": 1,
                             "rgb": 16773058

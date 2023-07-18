@@ -5,41 +5,55 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#Type/Definition",
+      "query": "tag:#Topic/Analysis",
       "color": {
         "a": 1,
-        "rgb": 6537198
+        "rgb": 14701138
       }
     },
     {
-      "query": "tag:#Type/Proposition",
+      "query": "tag:#Topic/Group_Theory",
       "color": {
         "a": 1,
-        "rgb": 15099319
+        "rgb": 14725458
       }
     },
     {
-      "query": "tag:#Type/Theorem",
+      "query": "tag:#Topic/Linear_Algebra",
       "color": {
         "a": 1,
-        "rgb": 6683493
+        "rgb": 11657298
       }
     },
     {
-      "query": "tag:#Type/Axiom",
+      "query": "tag:#Topic/Ring_Theory",
       "color": {
         "a": 1,
-        "rgb": 16342365
+        "rgb": 5431378
       }
     },
     {
-      "query": "tag:#Type/MOC",
+      "query": "tag:#Topic/Module_Theory",
       "color": {
         "a": 1,
-        "rgb": 16773058
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "tag:#Topic/Topology",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "tag:#Topic/Set_Theory",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
       }
     }
   ],
@@ -51,8 +65,8 @@
   "collapse-forces": false,
   "centerStrength": 0.0770708554638942,
   "repelStrength": 20,
-  "linkStrength": 0.738143516953926,
+  "linkStrength": 0.651627802185423,
   "linkDistance": 500,
-  "scale": 0.019265008751125547,
-  "close": true
+  "scale": 0.014835477476913203,
+  "close": false
 }

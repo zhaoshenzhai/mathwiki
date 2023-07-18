@@ -1,10 +1,144 @@
 {
   "items": [
     {
-      "type": "search",
-      "ctime": 1683763871049,
-      "query": "tag:#In_Progress",
-      "title": "In Progress"
+      "type": "graph",
+      "ctime": 1689639422125,
+      "title": "Topics",
+      "options": {
+        "collapse-filter": true,
+        "search": "path:Notes -tag:#Type/MOC",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": false,
+        "showOrphans": false,
+        "collapse-color-groups": false,
+        "colorGroups": [
+          {
+            "query": "tag:#Topic/Analysis",
+            "color": {
+              "a": 1,
+              "rgb": 14701138
+            }
+          },
+          {
+            "query": "tag:#Topic/Group_Theory",
+            "color": {
+              "a": 1,
+              "rgb": 14725458
+            }
+          },
+          {
+            "query": "tag:#Topic/Linear_Algebra",
+            "color": {
+              "a": 1,
+              "rgb": 11657298
+            }
+          },
+          {
+            "query": "tag:#Topic/Ring_Theory",
+            "color": {
+              "a": 1,
+              "rgb": 5431378
+            }
+          },
+          {
+            "query": "tag:#Topic/Module_Theory",
+            "color": {
+              "a": 1,
+              "rgb": 5431473
+            }
+          },
+          {
+            "query": "tag:#Topic/Topology",
+            "color": {
+              "a": 1,
+              "rgb": 5419488
+            }
+          },
+          {
+            "query": "tag:#Topic/Set_Theory",
+            "color": {
+              "a": 1,
+              "rgb": 5395168
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": true,
+        "textFadeMultiplier": -3,
+        "nodeSizeMultiplier": 1.79156809733018,
+        "lineSizeMultiplier": 1.29302181037405,
+        "collapse-forces": false,
+        "centerStrength": 0.0770708554638942,
+        "repelStrength": 20,
+        "linkStrength": 0.651627802185423,
+        "linkDistance": 500,
+        "scale": 0.015192063604799739,
+        "close": false
+      }
+    },
+    {
+      "type": "graph",
+      "ctime": 1689639551301,
+      "title": "Types",
+      "options": {
+        "collapse-filter": true,
+        "search": "path:Notes -tag:#Type/MOC",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": false,
+        "showOrphans": false,
+        "collapse-color-groups": true,
+        "colorGroups": [
+          {
+            "query": "tag:#Type/Definition",
+            "color": {
+              "a": 1,
+              "rgb": 6537198
+            }
+          },
+          {
+            "query": "tag:#Type/Proposition",
+            "color": {
+              "a": 1,
+              "rgb": 15099319
+            }
+          },
+          {
+            "query": "tag:#Type/Theorem",
+            "color": {
+              "a": 1,
+              "rgb": 6683493
+            }
+          },
+          {
+            "query": "tag:#Type/Axiom",
+            "color": {
+              "a": 1,
+              "rgb": 16342365
+            }
+          },
+          {
+            "query": "tag:#Type/MOC",
+            "color": {
+              "a": 1,
+              "rgb": 16773058
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": true,
+        "textFadeMultiplier": -3,
+        "nodeSizeMultiplier": 1.79156809733018,
+        "lineSizeMultiplier": 1.29302181037405,
+        "collapse-forces": true,
+        "centerStrength": 0.0770708554638942,
+        "repelStrength": 20,
+        "linkStrength": 0.651627802185423,
+        "linkDistance": 500,
+        "scale": 0.0167062021927622,
+        "close": false
+      }
     }
   ]
 }
