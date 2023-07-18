@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Commutative Ring]], [[Division Ring]]
 Examples: [[Endomorphism Ring]], [[Monoid Ring or Algebra]]
-Constructions: [[Ring Homomorphism]], [[Ideal]], [[Group of Units]], [[Multiplicative Subset]], [[Characteristic]], [[Direct Product]], [[Module]]
+Constructions: [[Ring Homomorphism]], [[Ideal]], [[Group of Units]], [[Multiplicative Subset]], [[Characteristic]], [[Direct Product (ring)]], [[Module]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -20,7 +20,7 @@ A <b>ring</b> is a triple $\tpl{R,+,\cdot}$ where $\tpl{R,+}$ is an abelian grou
 
 ```
 
-<b>Remark.</b> Every ring $R$ is a module over itself by multiplication.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Every ring $R$ is a left module over itself by multiplication.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

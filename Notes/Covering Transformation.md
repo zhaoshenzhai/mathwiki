@@ -16,7 +16,7 @@ Justifications: [[Unique Lifting Property]]
 ``` ad-Definition
 title: Definition.
 
-Let $p:\widetilde{X}\to X$ be covering of a topological space $X$. The <b>covering transformations of $p$</b> is the automorphism group $\Cov(\widetilde{X}/X)\coloneqq\Aut\,(\widetilde{X},p)$ in $\catcov$.
+Let $p:\widetilde{X}\to X$ be covering of a topological space $X$. The <b>covering transformations of $p$</b> is the automorphism group $\Cov(\widetilde{X}/X)\coloneqq\Aut\,(\widetilde{X},p)$ in $\catcov[X]$.
 
 ```
 

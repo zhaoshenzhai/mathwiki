@@ -17,7 +17,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Universal Property of Monoid Rings/Algebras).
 
-Let $M$ be a monoid, $R$ be a commutative ring, and $U:\catalg\to\catmon$ be the forgetful functor. Then the following universal properties of $R\l[M\r]$ hold.
+Let $M$ be a monoid, $R$ be a commutative ring, and $U:\catalg[R]\to\catmon$ be the forgetful functor. Then the following universal properties of $R\l[M\r]$ hold.
 * For any $R$-algebra $A$ and any monoid homomorphism $\phi:M\to U\l(A\r)$, there is a unique $R$-algebra homomorphism $\sigma:R\l[M\r]\to A$ such that $\phi=U\l(\sigma\r)\circ\iota$, where $\iota:M\to U\l(R\l[M\r]\r)$ is the injection.
 * For any commutative ring $R'$ and any ring homomorphism $\psi:R\to R'$, there is a unique ring homomorphism $\eta:R\l[M\r]\to R'\l[M\r]$ such that $\eta\circ\iota=\iota'\circ\psi$ and $\eta\l(x\r)=x$ for all $x\in M$, where $\iota$ and $\iota'$ are the injections of $R$ and $R'$ into their respective monoid rings $R\l[M\r]$ and $R'\l[M\r]$.
 ![[Images/2023-07-15_173638/image.svg|350]]

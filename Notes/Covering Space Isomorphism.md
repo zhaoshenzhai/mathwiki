@@ -21,4 +21,4 @@ Let $p_i:\widetilde{X}_i\to X$ be covering spaces of a topological space $X$ for
 
 ```
 
-<b>Remark.</b> That is, covering space isomorphisms are isomorphisms in $\catcov$. Since ‘is isomorphic to’ is an equivalence relation, we shall write $(\widetilde{X}_1,p_1)\iso(\widetilde{X}_2,p_2)$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That is, covering space isomorphisms are isomorphisms in $\catcov[X]$. Since ‘is isomorphic to’ is an equivalence relation, we shall write $(\widetilde{X}_1,p_1)\iso(\widetilde{X}_2,p_2)$.<span style="float:right;">$\blacklozenge$</span>

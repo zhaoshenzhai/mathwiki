@@ -4,7 +4,7 @@ Date Created: 12/03/2022 11:37:51
 Tags: #Type/Definition #Later/Category_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Cartesian Product]], [[Direct Product]]
+Examples: [[Cartesian Product]], [[Direct Product (group)]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

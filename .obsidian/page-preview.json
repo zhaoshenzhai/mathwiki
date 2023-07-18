@@ -1,6 +1,3 @@
 {
-  "bookmarks": false,
-  "file-explorer": false,
-  "search": false,
-  "editor": false
+  "preview": true
 }

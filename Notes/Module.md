@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Abelian Group]], [[Ring]], [[Ideal]]
-Constructions: [[Module Homomorphism]], [[Submodule]]
+Constructions: [[Module Homomorphism]], [[Submodule]], [[Direct Product (module)]], [[Direct Sum (Module)]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

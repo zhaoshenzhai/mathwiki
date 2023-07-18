@@ -10,7 +10,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Composition of injections is an injection]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Left-invertible iff injection]], [[Injection iff monomorphism (Set Theory)]]
+Equivalences: [[Left-invertible iff injection]], [[Injection iff monomorphism (Set Theory)]], [[Monomorphisms in category of groups]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

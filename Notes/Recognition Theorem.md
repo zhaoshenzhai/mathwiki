@@ -16,7 +16,7 @@ title: Theorem (Recognition Theorem).
 Let $N$, $H$, and $G$ be groups. The following are equivalent.
 1. $G$ is a semidirect product of $H$ on $N$ realized by some action $\theta$ of $H$ on $N$.
 2. There exists a right-split short exact sequence $1\to N\to G\to H\to 1$ and $\theta$ is the conjugation action of $H$ on $N$.
-3. The groups $N$ and $H$ injects into $G$, $N\nsubgrpeq G$, $N\cap H=\l\{e\r\}$, and $G=NH$.
+3. The groups $N$ and $H$ inject into $G$, $N\nsubgrpeq G$, $N\cap H=\l\{e\r\}$, and $G=NH$.
 
 ```
 

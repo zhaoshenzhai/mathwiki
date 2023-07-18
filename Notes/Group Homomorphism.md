@@ -8,7 +8,7 @@ Examples: [[Ring Homomorphism]], [[Module Homomorphism]]
 Constructions: [[Exact Sequence]], [[Kernel (Group Theory)]], [[Automorphism Group]], [[Endomorphism Ring]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Isomorphism Theorems]]
+Properties: [[Monomorphisms in category of groups]], [[Isomorphism Theorems]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Isomorphism of objects is an equivalence relation]]
@@ -29,5 +29,4 @@ Let $G$ and $H$ be groups. A <b>group homomorphism from $G$ to $H$</b> is a func
 
 <b>Remark.</b> Group homomorphisms are relatively well-behaved. We list some of their properties here, whose proofs are all straightforward.
 * They map identities to identities and inverses to inverses: $\phi\l(e_G\r)=e_H$ and $\phi\l(g^{-1}\r)=\phi\l(g\r)^{-1}$ for all $g\in G$.
-* Subgroups are preserved under images and preimages. Normality is also preserved under preimages, and images too if $\phi$ is surjective. In particular, this shows that $\ker\phi$ is normal in $G$.
-* Categorically, $\phi$ is injective iff it is a monomorphism, which occurs iff $\ker\phi=\l\{e\r\}$.<span style="float:right;">$\blacklozenge$</span>
+* Subgroups are preserved under images and preimages. Normality is also preserved under preimages, and images too if $\phi$ is surjective. In particular, this shows that $\ker\phi$ is normal in $G$.<span style="float:right;">$\blacklozenge$</span>

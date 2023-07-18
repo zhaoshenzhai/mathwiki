@@ -20,8 +20,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $K$ be a field. The <b>category of vector spaces over $K$</b> is the (locally-small) category $\catvect$ whose objects are vector spaces and whose morphisms are linear maps.
+Let $K$ be a field. The <b>category of vector spaces over $K$</b> is the (locally-small) category $\catvect[K]$ whose objects are vector spaces and whose morphisms are linear maps.
 
 ```
 
-<b>Remark.</b> That $\catvect$ is a category follows from the fact that identities and compositions of linear maps are linear.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> That $\catvect[K]$ is a category follows from the fact that identities and compositions of linear maps are linear.<span style="float:right;">$\blacklozenge$</span>

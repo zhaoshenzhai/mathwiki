@@ -121,6 +121,14 @@
       "word": true
     },
     {
+      "title": "Category of Groups",
+      "replaced": "category of groups",
+      "replacement": "$\\catgrp$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
       "title": "Category of Relations",
       "replaced": "category of relations",
       "replacement": "$\\catrel$",

@@ -5,7 +5,7 @@ Tags: #Type/Definition #Later/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Projection Maps]], [[Tuples and Sequences]], [[Direct Product]]
+Constructions: [[Projection Maps]], [[Tuples and Sequences]], [[Direct Product (group)]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
