@@ -4,7 +4,7 @@ Date Created: 21/02/2022 23:04:14
 Tags: #Type/Definition #Later/Category_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Injection iff monomorphism (Set Theory)]], [[Monomorphisms in category of groups and rings]], [[Monomorphisms and epimorphisms in category of modules]]
+Examples: [[Injection iff monomorphism (Set Theory)]], [[Monomorphisms and epimorphisms in category of modules]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

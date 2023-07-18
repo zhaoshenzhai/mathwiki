@@ -23,6 +23,10 @@ Let $\phi:M\to N$ be an $R$-module homomorphism. We have the following equivalen
 
 ```
 
+<b>Remark.</b> The equivalences for $\phi$ being a monomorphism also holds in $\catgrp$ and $\catring$, but the same for epimorphisms do <i>not</i> hold in either.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 <i>Proof.</i> That $\phi$ is injective (resp. surjective) implies that it is a monomorphism (resp. epimorphism) holds in $\catset$, so applying these results to module homomorphisms shows that they hold in $\catmod[R]$ too.
 * That $\ker\phi=\l\{0\r\}$ implies that $\phi$ is injective is easy, for if $\phi\l(m_1\r)=\phi\l(m_2\r)$ for $m_1,m_2\in M$, then $\phi\l(m_1-m_2\r)=0$ and hence $m_1-m_2=0$. Thus $m_1=m_2$, as desired. Similarly, if $\coker\phi=N/\im\phi$ is trivial, then $N=\im\phi$ and hence $\phi$ is surjective.
 

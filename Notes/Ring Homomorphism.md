@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Kernel (Ring Theory)]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Monomorphisms in category of groups and rings]], [[Isomorphism Theorems]]
+Properties: [[Isomorphism Theorems]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Isomorphism of objects is an equivalence relation]]

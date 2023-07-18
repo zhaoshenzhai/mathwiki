@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Root (Polynomial)]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Isomorphism Theorems]]
+Properties: [[Universal Property of Kernels and Cokernels]], [[Isomorphism Theorems]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ and $S$ be rings and consider a homomorphism $\phi:R\to S$. The <b>kernel of $\phi$</b> is the kernel where $\phi$ is viewed as an additive group homomorphism.
+Let $\phi:R\to S$ be a ring homomorphism. The <b>kernel of $\phi$</b> is the ideal $\ker\phi\coloneqq\phi^{-1}\!\l(0\r)$ of $R$.
 
 ```
 

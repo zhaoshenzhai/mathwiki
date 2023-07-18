@@ -8,7 +8,7 @@ Examples: [[Ring Homomorphism]], [[Module Homomorphism]]
 Constructions: [[Exact Sequence]], [[Kernel (Group Theory)]], [[Automorphism Group]], [[Endomorphism Ring]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Monomorphisms in category of groups and rings]], [[Isomorphism Theorems]]
+Properties: [[Isomorphism Theorems]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Isomorphism of objects is an equivalence relation]]
