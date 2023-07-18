@@ -129,9 +129,25 @@
       "word": true
     },
     {
+      "title": "Category of Rings",
+      "replaced": "category of rings",
+      "replacement": "$\\catring$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
       "title": "Category of Relations",
       "replaced": "category of relations",
       "replacement": "$\\catrel$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "title": "Category of Modules",
+      "replaced": "category of modules",
+      "replacement": "$\\catmod$",
       "globalMatch": true,
       "sensitive": false,
       "word": true

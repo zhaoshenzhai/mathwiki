@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Kernel (Ring Theory)]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Isomorphism Theorems]]
+Properties: [[Monomorphisms in category of groups and rings]], [[Isomorphism Theorems]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Isomorphism of objects is an equivalence relation]]
@@ -38,5 +38,4 @@ for all $r_1,r_2\in R$ and $s_1,s_2\in S$. Thus gives $S$ an <i>$R$-algebra</i> 
 
 <b>Remark.</b> Ring homomorphisms are relatively well-behaved. We list some of their properties here, whose proofs are all straightforward.
 * Subrings are preserved under images and preimages. Ideals are also preserved under preimages, and images too if $\phi$ is surjective. In particular, this shows that $\ker\phi$ is an ideal in $R$. Moreover, primality of ideals is preserved under preimages, and so is maximality if $\phi$ is surjective.
-* Commutativity is preserved under images. If $\phi$ is surjective, then images of fields are fields too.
-* Categorically, $\phi$ is injective iff it is a monomorphism, which occurs iff $\ker\phi=\l\{e\r\}$.<span style="float:right;">$\blacklozenge$</span>
+* Commutativity is preserved under images. If $\phi$ is surjective, then images of fields are fields too.<span style="float:right;">$\blacklozenge$</span>

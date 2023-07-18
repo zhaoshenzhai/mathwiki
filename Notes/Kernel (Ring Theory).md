@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Root (Polynomial)]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Isomorphism Theorems]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

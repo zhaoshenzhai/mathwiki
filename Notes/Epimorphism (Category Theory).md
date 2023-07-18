@@ -4,7 +4,7 @@ Date Created: 21/02/2022 23:07:45
 Tags: #Type/Definition #Later/Category_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Surjection iff epimorphism (Set Theory)]]
+Examples: [[Surjection iff epimorphism (Set Theory)]], [[Monomorphisms and epimorphisms in category of modules]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
