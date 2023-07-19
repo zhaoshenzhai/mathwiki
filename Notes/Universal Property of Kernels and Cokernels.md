@@ -26,4 +26,4 @@ Let $\phi:M\to N$ be an $R$-module homomorphism. Then the inclusion $\iota:\ker\
 ---
 
 <i>Proof.</i> If $\phi\circ\alpha$ is the trivial map, then $\phi\l(\alpha\l(k\r)\r)=e$ for all $k\in K$ and hence $\alpha\l(k\r)\in\ker\phi$ for all $k\in K$. Thus $\im\alpha\subgrpeq\ker\phi$, so the only $R$-module homomorphism $\widetilde{\alpha}:K\to\ker\phi$ with $\alpha=\iota\circ\widetilde{\alpha}$ is $\alpha$ with restricted domain.
-![[Images/2023-07-18_135101/image.svg|450]]Dually, we have $\beta\l(\phi\l(m\r)\r)=0$ for all $m\in M$ and hence $\im\phi\subgrpeq\ker\beta$. Thus $\beta:N\to L$ descends uniquely into a map $\widetilde{\beta}:N/\im\phi\to L$, as desired.<span style="float:right;">$\blacksquare$</span>
+![[Images/2023-07-18_135101/image.svg|425]]Dually, we have $\beta\l(\phi\l(m\r)\r)=0$ for all $m\in M$ and hence $\im\phi\subgrpeq\ker\beta$. Thus $\beta:N\to L$ descends uniquely into a map $\widetilde{\beta}:N/\im\phi\to L$, as desired.<span style="float:right;">$\blacksquare$</span>
