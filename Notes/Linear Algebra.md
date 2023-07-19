@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/08/2022 14:28:31
-Tags: #Type/MOC #Later/Linear_Algebra
+Tags: #Type/MOC #Later/Module_Theory
 
 Context: [Zermelo Fraenkel Set Theory](obsidian://open?file=TODO)
 Excursions: [Functional Analysis](obsidian://open?file=TODO), [Multilinear Algebra](obsidian://open?file=TODO)

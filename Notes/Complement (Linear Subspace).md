@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 14/05/2022 11:14:15
-Tags: #Type/Definition #Topic/Linear_Algebra
+Tags: #Type/Definition #Later/Module_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Orthogonal Complement]]

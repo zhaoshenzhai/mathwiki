@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/06/2022 17:19:32
-Tags: #Type/Theorem #Topic/Linear_Algebra
+Tags: #Type/Theorem #Topic/Functional_Analysis
 
 Proved by: [[Basic properties of orthogonal projections]], [[Linearly dependent iff exists span redundant element]]
 References: <i>Not Applicable</i>

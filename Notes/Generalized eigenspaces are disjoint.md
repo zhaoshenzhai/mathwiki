@@ -5,7 +5,7 @@ mathLink: $\hat{E}_\lambda\cap\hat{E}_{\lambda'}=\l\{0\r\}$
 <div class="topSpace"></div>
 
 Date Created: 16/03/2023 23:33:13
-Tags: #Type/Proposition #Later/Linear_Algebra/Module
+Tags: #Type/Proposition #Later/Module_Theory
 
 Proved by: [[Bezout's Identity]]
 References: <i>Not Applicable</i>

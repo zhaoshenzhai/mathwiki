@@ -5,7 +5,7 @@ mathLink: $\mat{n}{K}=\Sym_n\!\l(K\r)\oplus\Skew_n\!\l(K\r)$ for $\ch K\neq2$
 <div class="topSpace"></div>
 
 Date Created: 09/05/2022 18:30:12
-Tags: #Type/Proposition #Topic/Linear_Algebra
+Tags: #Type/Proposition #Later/Module_Theory
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>

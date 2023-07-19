@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 05/04/2023 11:34:56
-Tags: #Type/Proposition #Topic/Linear_Algebra
+Tags: #Type/Proposition #Topic/Functional_Analysis
 
 Proved by: <i>Not Applicable</i>
 References: [[Eigenvalue iff root of characteristic polynomial]]

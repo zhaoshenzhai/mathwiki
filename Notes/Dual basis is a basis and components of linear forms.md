@@ -5,9 +5,9 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 01/02/2023 12:39:19
-Tags: #Type/Proposition #Topic/Linear_Algebra
+Tags: #Type/Proposition #Later/Module_Theory
 
-Proved by: [[Spanning subset with same cardinality as dimension (finite) is a basis]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

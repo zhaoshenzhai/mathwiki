@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/06/2022 14:07:51
-Tags: #Type/Proposition #Topic/Linear_Algebra
+Tags: #Type/Proposition #Topic/Functional_Analysis
 
 Proved by: [[Cauchy-Schwarz Inequality]]
 References: <i>Not Applicable</i>

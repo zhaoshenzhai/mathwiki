@@ -6,7 +6,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 Types: <i>Not Applicable</i>
 Examples: [[Cyclic Group]]
 Constructions: [[Ring]], [[Vector Space]]
-Generalizations: [[Module]]
+Generalizations: [[Module and Vector Space]]
 
 Properties: [[Abelian group is simple iff cyclic of prime order]]
 Sufficiencies: [[Abelianization]], [[Quotient by center cyclic implies abelian]], [[Free Module]]

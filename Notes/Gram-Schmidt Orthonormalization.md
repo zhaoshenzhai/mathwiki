@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 27/06/2022 16:08:32
-Tags: #Type/Theorem #Topic/Linear_Algebra
+Tags: #Type/Theorem #Topic/Functional_Analysis
 
-Proved by: [[Linearly dependent iff exists span redundant element]], [[Orthonormal sets are linearly independent]], [[Dimension of subspace]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]]
+Proved by: [[Orthonormal sets are linearly independent]], [[Dimension of subspace]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

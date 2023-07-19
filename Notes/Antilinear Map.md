@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/04/2023 16:11:43
-Tags: #Type/Definition #Topic/Linear_Algebra
+Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: [[Riesz Representation Theorem]], [[Adjoint Map]]
@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $K$ denote either $\R$ or $\C$ and let $V$ and $W$ be a $K$-vector spaces. An <b>antilinear map from $V$ to $W$</b> is an additive group homomorphism$T:V\to W$ such that
+Let $K$ denote either $\R$ or $\C$ and let $V$ and $W$ be a $K$-vector spaces. An <b>antilinear map from $V$ to $W$</b> is an additive group homomorphism $T:V\to W$ such that
 $$\begin{equation}
     \fa\alpha\in K,\fa v\in V:T\l(\alpha v\r)=\bar{\alpha}T\l(v\r).
 \end{equation}$$

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 19/06/2022 16:20:24
-Tags: #Type/Definition #Topic/Linear_Algebra
+Tags: #Type/Definition #Later/Module_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Eigenvector and eigenspace]], [[Generalized Eigenvector and Eigenspace]], [[Cyclic Subspace]], [[Kernel and Nullity]], [[Image and Rank]]

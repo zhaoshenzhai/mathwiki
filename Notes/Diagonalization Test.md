@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 16/03/2023 18:38:56
-Tags: #Type/Theorem #Later/Linear_Algebra
+Tags: #Type/Theorem #Later/Module_Theory
 
-Proved by: [[Distinct eigenvalues implies linearly independent eigenvectors]], [[Geometric multiplicity no more than algebraic multiplicity]], [[Linearly independent set with same cardinality as dimension (finite) is a basis]], [[Unique Representation Theorem (Basis)]], [[Basis and dimension for direct sum]], [[Minkowski sum of subspaces is the span of their union]]
+Proved by: [[Distinct eigenvalues implies linearly independent eigenvectors]], [[Geometric multiplicity no more than algebraic multiplicity]], [[Basis and dimension for direct sum]], [[Minkowski sum of subspaces is the span of their union]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

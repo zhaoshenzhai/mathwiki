@@ -3,12 +3,12 @@
 Date Created: 26/01/2023 14:07:56
 Tags: #Type/Definition #Topic/Module_Theory
 
-Types: <i>Not Applicable</i>
+Types: [[Invariant Subspace]]
 Examples: [[Ideal]], [[Kernel and Cokernel (Module Theory)]]
-Constructions: [[Quotient Module]]
+Constructions: [[Quotient Module]], [[Complement (Linear Subspace)]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Dimension of subspace]]
 Sufficiencies: [[Generating Set (Module)]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

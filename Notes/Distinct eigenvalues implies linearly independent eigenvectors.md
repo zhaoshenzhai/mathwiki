@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 21/06/2022 08:05:38
-Tags: #Type/Proposition #Topic/Linear_Algebra
+Tags: #Type/Proposition #Later/Module_Theory
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>

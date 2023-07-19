@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 17/03/2023 01:09:59
-Tags: #Type/Proposition #Later/Linear_Algebra/Module
+Tags: #Type/Proposition #Later/Module_Theory
 
 Proved by: [[Bezout's Identity]]
 References: <i>Not Applicable</i>

@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 27/06/2022 15:48:46
-Tags: #Type/Proposition #Topic/Linear_Algebra
+Tags: #Type/Proposition #Topic/Functional_Analysis
 
-Proved by: [[Coordinate representation of vector spaces]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

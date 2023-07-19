@@ -5,7 +5,7 @@ mathLink: $\GL\l(V\r)$
 <div class="topSpace"></div>
 
 Date Created: 03/05/2023 22:55:31
-Tags: #Type/Definition #Topic/Linear_Algebra
+Tags: #Type/Definition #Later/Module_Theory
 
 Types: [[Special Linear Group]]
 Examples: <i>Not Applicable</i>

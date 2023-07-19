@@ -5,7 +5,7 @@ mathLink: Basic properties of $\cchi_T$ and $T$-invariant subspaces
 <div class="topSpace"></div>
 
 Date Created: 16/03/2023 21:48:25
-Tags: #Type/Proposition #Later/Linear_Algebra/Determinant
+Tags: #Type/Proposition #Later/Module_Theory
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>

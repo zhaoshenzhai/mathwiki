@@ -5,7 +5,7 @@ mathLink: $\Hom\l(V,W\r)$
 <div class="topSpace"></div>
 
 Date Created: 16/05/2022 19:38:42
-Tags: #Type/Definition #Topic/Linear_Algebra
+Tags: #Type/Definition #Later/Module_Theory
 
 Types: [[General Linear Group]], [[Special Linear Group]], [[Endomorphism Algebra (Vector Space)]], [[Dual Space]]
 Examples: <i>Not Applicable</i>

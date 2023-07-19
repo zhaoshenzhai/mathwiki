@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/05/2022 20:28:12
-Tags: #Type/Theorem #Topic/Linear_Algebra
+Tags: #Type/Theorem #Later/Module_Theory
 
 Proved by: [[Subspaces of finite-dim. vector spaces have complements]], [[Restriction on complement of kernel is injective]], [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
 References: <i>Not Applicable</i>

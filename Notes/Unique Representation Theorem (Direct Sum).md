@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 08/05/2022 21:12:31
-Tags: #Type/Proposition #Topic/Linear_Algebra
+Tags: #Type/Proposition #Later/Module_Theory
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>

@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 18/07/2023 18:49:28
-Tags: #Type/Theorem #Topic/Module_Theory #Later/Set_Theory/Choice
+Tags: #Type/Theorem #Topic/Module_Theory
 
-Proved by: <i>Not Applicable</i>
+Proved by: [[Zorn's Lemma]], [[Well-ordering Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

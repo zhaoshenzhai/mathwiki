@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/06/2022 22:58:12
-Tags: #Type/Definition #Topic/Linear_Algebra
+Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>

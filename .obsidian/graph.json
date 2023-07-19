@@ -8,21 +8,21 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#Topic/Analysis",
+      "query": "tag:#Topic/Set_Theory",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "tag:#Topic/Group_Theory",
+      "query": "tag:#Topic/Category_Theory",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "tag:#Topic/Linear_Algebra",
+      "query": "tag:#Later/Group_Theory",
       "color": {
         "a": 1,
         "rgb": 11657298
@@ -50,10 +50,24 @@
       }
     },
     {
-      "query": "tag:#Topic/Set_Theory",
+      "query": "tag:#Topic/Analysis",
       "color": {
         "a": 1,
         "rgb": 5395168
+      }
+    },
+    {
+      "query": "tag:#Topic/Complex_Analysis",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "tag:#Topic/Functional_Analysis",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
       }
     }
   ],
@@ -65,8 +79,8 @@
   "collapse-forces": false,
   "centerStrength": 0.0770708554638942,
   "repelStrength": 20,
-  "linkStrength": 0.651627802185423,
+  "linkStrength": 0.903965303593556,
   "linkDistance": 500,
-  "scale": 0.021438172411742493,
+  "scale": 0.10280011956087576,
   "close": false
 }
