@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 18/07/2023 18:49:28
-Tags: #Type/Theorem #In_Progress
+Tags: #Type/Theorem #Topic/Module_Theory #Later/Set_Theory/Choice
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>

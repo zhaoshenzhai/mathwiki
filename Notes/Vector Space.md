@@ -8,16 +8,20 @@ Examples: [[Polynomials]]
 Constructions: [[Linear Combination]], [[Linear Map]], [[Linear Subspace]], [[Dual Space]], [[Direct Product (module)]], [[Category of Vector Spaces]]
 Generalizations: [[Module]]
 
-Properties: [[Every vector space has a basis]]
+Properties: [[Every vector space has a basis]], [[Basis Extension Theorem]], [[Invariant Basis Number]]
 Sufficiencies: [[Unique Representation Theorem (Basis)]]
 Equivalences: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Justifications: [[Ideal is maximal iff quotient is a field]]
 
 ``` ad-Definition
 title: Definition.
 
-Let $K$ be a field. A <b>$K$-vector space</b> is an abelian group $\tpl{V,+}$ equipped with a left $K$-action $\cdot:K\times V\to V$ such that:
-* (Distribution over vector addition)$\bf{.}$ $\fa\alpha\in K:\fa v,w\in V:\alpha\cdot\l(v+w\r)=\l(\alpha\cdot v\r)+\l(\alpha\cdot w\r)$.
-* (Distribution over field addition)$\bf{.}$ $\fa\alpha_1,\alpha_2\in K:\fa v\in V:\l(\alpha_1+\alpha_2\r)\cdot v=\l(\alpha_1\cdot v\r)+\l(\alpha_2\cdot v\r)$.
+A $k$-module is said to be a <b>$k$-vector space</b> if $k$ is a field.
 
 ```
+
+<b>Remark.</b> A $k$-module homomorphisms is called a <b>linear map</b>, we write $\catvect[k]$ for $\catmod[k]$, and we write $\dim_k\!V$ for $\rk_k\!V$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> If $\mf{m}\subgrp R$ is a maximal ideal in a commutative ring $R$, then $R/\mf{m}$ is a field. Let $M$ be an $R$-module such that $\mf{m}M=0$. Then $M$ has a natural $R/\mf{m}$-vector space structure by $\l(r+\mf{m}\r)\cdot m\coloneqq rm$. Indeed, this is well-defined since for all $r_1+\mf{m}=r_2+\mf{m}$, we have $r_1-r_2\in\mf{m}$ and hence $r_1m-r_2m=\l(r_1-r_2\r)m\in\mf{m}m=0$.<span style="float:right;">$\blacklozenge$</span>
