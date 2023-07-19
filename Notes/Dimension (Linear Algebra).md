@@ -4,7 +4,7 @@ Date Created: 04/04/2022 23:26:15
 Tags: #Type/Definition #Topic/Linear_Algebra
 
 Types: <i>Not Applicable</i>
-Examples: [[Image and Rank]], [[Kernel and Nullity]], [[Basis and dimension for direct sum]], [[Dimension of Minkowski sum]], [[Dimension of vector space is zero iff it is the zero vector space]]
+Examples: [[Image and Rank]], [[Kernel and Nullity]], [[Basis and dimension for direct sum]], [[Dimension of Minkowski sum]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

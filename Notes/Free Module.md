@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Generating Set (Module)]]
+Constructions: [[Generating Set (Module)]], [[Rank]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Universal Property of Free Modules]]

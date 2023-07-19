@@ -1,11 +1,11 @@
 <div class="top Space"></div>
 
 Date Created: 18/07/2023 16:18:03
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: <i>Not Applicable</i>
+Constructions: [[Rank]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
