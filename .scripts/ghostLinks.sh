@@ -4,7 +4,7 @@ cd $MATHWIKI_DIR/Notes
 
 echo ""
 
-allDoubleLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | sed 's/\[\[//g' | sed 's/\]\]//g' | sed 's/$/.md/g' | sort | uniq)
+allDoubleLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | sed 's/\[\[//g' | sed 's/\]\]//g' | sed 's/|.*$//g' | sed 's/$/.md/g' | sort | uniq)
 while IFS= read -r link; do
     if [[ ! -f "$link" ]] && [[ ! "$link" == Images\/* ]]; then
         link=$(echo "$link" | sed 's/.md//g')
