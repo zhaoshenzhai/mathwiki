@@ -4,7 +4,7 @@ Date Created: 21/02/2022 15:32:10
 Tags: #Type/Definition #Later/Category_Theory
 
 Types: [[Automorphism (Category Theory)]]
-Examples: [[Endomorphism Ring]], [[Endomorphism Algebra (Vector Space)]]
+Examples: [[Endomorphism Ring]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

@@ -7,7 +7,7 @@ mathLink: $\Hom\l(V,W\r)$
 Date Created: 16/05/2022 19:38:42
 Tags: #Type/Definition #Later/Module_Theory
 
-Types: [[General Linear Group]], [[Special Linear Group]], [[Endomorphism Algebra (Vector Space)]], [[Dual Space]]
+Types: [[General Linear Group]], [[Special Linear Group]], [[Dual Space]]
 Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
