@@ -4,7 +4,7 @@ Date Created: 26/01/2022 17:44:17
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Kernel (Group Theory)]], [[Kernel (Ring Theory)]], [[Kernel and Nullity]], [[Preimage under projection of subset]]
+Examples: [[Kernel (Group Theory)]], [[Kernel (Ring Theory)]], [[Preimage under projection of subset]]
 Constructions: <i>Not Applicable</i>
 Generalizations: [[Preimage (Relation)]]
 

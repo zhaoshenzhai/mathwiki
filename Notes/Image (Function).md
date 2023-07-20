@@ -4,7 +4,7 @@ Date Created: 26/01/2022 17:41:00
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Image and Rank]]
+Examples: <i>Not Applicable</i>
 Constructions: [[Covariant Power Set Functor]]
 Generalizations: [[Image (Relation)]]
 

@@ -3,7 +3,7 @@
 Date Created: 26/01/2022 18:48:16
 Tags: #Type/Definition #Topic/Set_Theory
 
-Types: [[Linear Isomorphism]]
+Types: <i>Not Applicable</i>
 Examples: [[Identity Function]]
 Constructions: <i>Not Applicable</i>
 Generalizations: [[Inverse (Relation)]], [[Invertible Morphism]]

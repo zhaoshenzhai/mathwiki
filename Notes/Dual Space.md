@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Vector space isomorphic to double dual (finite-dim.)]], [[Riesz Representation Theorem]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Linearly isomorphic iff dimensions coincide (finite-dim.)]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

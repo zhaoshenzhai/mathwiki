@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Coordinate representation of vector spaces]], [[Isomorphism of objects is an equivalence relation]]
+Justifications: [[Isomorphism of objects is an equivalence relation]]
 
 ``` ad-Definition
 title: Definition.

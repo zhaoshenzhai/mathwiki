@@ -4,7 +4,7 @@ Date Created: 18/07/2023 15:39:04
 Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Vector Space]]
+Examples: <i>Not Applicable</i>
 Constructions: [[Generating Set (Module)]], [[Rank and Dimension]]
 Generalizations: <i>Not Applicable</i>
 

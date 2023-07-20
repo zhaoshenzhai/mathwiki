@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Set of linear maps form a linear subspace of the function space]], [[Identity function is the identity of function composition]], [[Composition of relations is associative]], [[Basic properties of composition of linear maps]]
+Justifications: [[Identity function is the identity of function composition]], [[Composition of relations is associative]], [[Basic properties of composition of linear maps]]
 
 ``` ad-Definition
 title: Definition.

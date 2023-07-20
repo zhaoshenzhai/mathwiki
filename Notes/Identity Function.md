@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Reflexive Closure]], [[Category of Sets]], [[Category of Relations]], [[Category of Vector Spaces]], [[Identity Functor]]
+Constructions: [[Reflexive Closure]], [[Category of Sets]], [[Category of Relations]], [[Identity Functor]]
 Generalizations: [[Identity Morphism]]
 
 Properties: [[Identity function is the identity of function composition]]

@@ -3,7 +3,7 @@
 Date Created: 23/04/2022 12:48:57
 Tags: #Type/Proposition #Later/Module_Theory
 
-Proved by: [[Basis Extension Theorem]], [[Enlargement of linearly independent set by adjoining non-spanned vector]], [[Steinitz Exchange Lemma]]
+Proved by: [[Basis Extension Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
