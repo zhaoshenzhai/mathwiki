@@ -57,6 +57,7 @@ Plugins:
 * [Extended MathJax](https://github.com/xldenis/obsidian-latex): Add macros in [`preamble.sty`](preamble.sty).
 * [Vim Navigation](https://github.com/kometenstaub/obsidian-vim-reading-view-navigation): Vim-like reading view navigation.
 * [Style Settings](https://github.com/mgmeyers/obsidian-style-settings): Precise colors.
+* [Living Graph](https://github.com/geoffreysflaminglasersword/obsidian-living-graph): Graph animations; for fun.
 * [Admonition](https://github.com/valentine195/obsidian-admonition): A replacement for the `mdframed` package in LaTeX.
 * [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks): Render MathJax in links; see [below](https://github.com/zhaoshenzhai/MathWiki#symbols-mathlinks).
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
@@ -70,7 +71,7 @@ I wrote some bash scripts to (try) maintain the consistency of my notes; [main.s
 * Toggling between light and dark mode is handled by [toggleDark.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/toggleDark.sh).
 * Resetting the modification time of each note to its creation time is handled by [resetModifyTime.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/resetModifyTime.sh).
 
-Some stats: 801 notes, 1949 links, 65 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
+Some stats: 801 notes, 1948 links, 65 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
 ## MathLinks
 
