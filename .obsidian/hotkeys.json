@@ -18,10 +18,9 @@
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
-        "Meta",
-        "Shift"
+        "Meta"
       ],
-      "key": "G"
+      "key": "R"
     }
   ],
   "markdown:toggle-preview": [
@@ -124,16 +123,16 @@
   "app:reload": [
     {
       "modifiers": [
-        "Meta",
-        "Shift"
+        "Meta"
       ],
-      "key": "R"
+      "key": "Q"
     }
   ],
   "random-note": [
     {
       "modifiers": [
-        "Meta"
+        "Meta",
+        "Shift"
       ],
       "key": "R"
     }
@@ -324,6 +323,15 @@
         "Shift"
       ],
       "key": " "
+    }
+  ],
+  "obsidian-living-graph:toggle": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "G"
     }
   ]
 }
