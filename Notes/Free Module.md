@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Universal Property of Free Modules]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Justifications: [[Invariant Basis Number]]
 
 ``` ad-Definition
 title: Definition.
@@ -22,3 +22,7 @@ Let $X$ be a set. The <b>free $R$-module of $X$</b> is the module $F^R\!\l(X\r)\
 ```
 
 <b>Remark.</b> If $R=\Z$, we recover the <b>free abelian group of $X$</b>, denoted $F^\textrm{ab}\!\l(X\r)=\Z^{\oplus X}$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> If $R$ is commutative, then free modules $M$ over $R$ are classified by their rank.<span style="float:right;">$\blacklozenge$</span>

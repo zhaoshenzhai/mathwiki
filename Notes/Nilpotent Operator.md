@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Degree of nilpotency no larger than dimension]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Omega is an ordinal]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.
