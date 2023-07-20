@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#Topic/Set_Theory OR tag:#Later/Set_Theory",
@@ -75,12 +75,12 @@
   "showArrow": true,
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.79156809733018,
-  "lineSizeMultiplier": 1.19305102216114,
+  "lineSizeMultiplier": 1.29302181037405,
   "collapse-forces": true,
-  "centerStrength": 0.1,
-  "repelStrength": 18.4401728340624,
-  "linkStrength": 0.524536953070233,
-  "linkDistance": 470,
-  "scale": 0.0078125,
+  "centerStrength": 0.0770708554638942,
+  "repelStrength": 20,
+  "linkStrength": 0.903965303593556,
+  "linkDistance": 500,
+  "scale": 0.023574838472727566,
   "close": false
 }

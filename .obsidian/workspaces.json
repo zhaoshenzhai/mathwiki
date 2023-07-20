@@ -113,65 +113,90 @@
                   "type": "localgraph",
                   "state": {
                     "options": {
-                      "collapse-filter": false,
-                      "search": "",
-                      "localJumps": 4,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": true,
+                      "collapse-filter": true,
+                      "search": "path:Notes -tag:#Type/MOC",
                       "showTags": false,
                       "showAttachments": false,
                       "hideUnresolved": false,
-                      "collapse-color-groups": true,
+                      "showOrphans": false,
+                      "collapse-color-groups": false,
                       "colorGroups": [
                         {
-                          "query": "tag:#Type/Definition",
+                          "query": "tag:#Topic/Set_Theory OR tag:#Later/Set_Theory",
                           "color": {
                             "a": 1,
-                            "rgb": 6537198
+                            "rgb": 14701138
                           }
                         },
                         {
-                          "query": "tag:#Type/Proposition",
+                          "query": "tag:#Topic/Category_Theory OR tag:#Later/Category_Theory",
                           "color": {
                             "a": 1,
-                            "rgb": 15099319
+                            "rgb": 14725458
                           }
                         },
                         {
-                          "query": "tag:#Type/Theorem",
+                          "query": "tag:#Topic/Group_Theory OR tag:#Later/Group_Theory",
                           "color": {
                             "a": 1,
-                            "rgb": 6683493
+                            "rgb": 11657298
                           }
                         },
                         {
-                          "query": "tag:#Type/Axiom",
+                          "query": "tag:#Topic/Ring_Theory OR tag:#Later/Ring_Theory",
                           "color": {
                             "a": 1,
-                            "rgb": 16342365
+                            "rgb": 5431378
                           }
                         },
                         {
-                          "query": "tag:#Type/MOC",
+                          "query": "tag:#Topic/Module_Theory OR tag:#Later/Module_Theory",
                           "color": {
                             "a": 1,
-                            "rgb": 16773058
+                            "rgb": 5431473
+                          }
+                        },
+                        {
+                          "query": "tag:#Topic/Topology OR tag:#Later/Topology",
+                          "color": {
+                            "a": 1,
+                            "rgb": 5419488
+                          }
+                        },
+                        {
+                          "query": "tag:#Topic/Analysis OR tag:#Later/Analysis",
+                          "color": {
+                            "a": 1,
+                            "rgb": 5395168
+                          }
+                        },
+                        {
+                          "query": "tag:#Topic/Complex_Analysis OR tag:#Later/Complex_Analysis",
+                          "color": {
+                            "a": 1,
+                            "rgb": 11621088
+                          }
+                        },
+                        {
+                          "query": "tag:#Topic/Functional_Analysis OR tag:#Later/Functional_Analysis",
+                          "color": {
+                            "a": 1,
+                            "rgb": 14701233
                           }
                         }
                       ],
                       "collapse-display": true,
                       "showArrow": true,
                       "textFadeMultiplier": -3,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
+                      "nodeSizeMultiplier": 1.79156809733018,
+                      "lineSizeMultiplier": 1.29302181037405,
                       "collapse-forces": true,
-                      "centerStrength": 0,
+                      "centerStrength": 0.0770708554638942,
                       "repelStrength": 20,
-                      "linkStrength": 1,
+                      "linkStrength": 0.903965303593556,
                       "linkDistance": 500,
-                      "scale": 0.13480820409941188,
-                      "close": true
+                      "scale": 0.023574838472727566,
+                      "close": false
                     }
                   }
                 }
