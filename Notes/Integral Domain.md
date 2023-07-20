@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Prime Element]], [[Irreducible Element]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Finite integral domain implies field]]
+Properties: [[Integral domain is a field or PID iff free resolution has length 0 or 1]], [[Finite integral domain implies field]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

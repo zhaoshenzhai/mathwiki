@@ -9,7 +9,7 @@ Constructions: [[Generating Set (Module)]], [[Rank and Dimension]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Universal Property of Free Modules]]
-Sufficiencies: [[Submodules of a free module over PID are free]]
+Sufficiencies: [[Freedom Theorem for Modules over PID]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Invariant Basis Number]]
 

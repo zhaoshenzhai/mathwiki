@@ -8,9 +8,9 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: [[Noetherian Ring]]
 
-Properties: [[Bezout's Identity]], [[PID implies UFD]]
+Properties: [[Freedom Theorem for Modules over PID]], [[Bezout's Identity]], [[PID implies UFD]]
 Sufficiencies: [[EUD implies PID]], [[Field implies PID]]
-Equivalences: <i>Not Applicable</i>
+Equivalences: [[Integral domain is a field or PID iff free resolution has length 0 or 1|Integral domain is a PID $\Leftrightarrow$ free resolution has length $1$]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

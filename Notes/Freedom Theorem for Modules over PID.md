@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/07/2023 10:44:57
-Tags: #Type/Proposition #Topic/Module_Theory
+Tags: #Type/Theorem #Topic/Module_Theory
 
 Proved by: [[Characterizations of Noetherian rings]], [[Basis Extension Theorem]], [[Basis and dimension for direct sum]], [[Universal Property of Free Modules]]
 References: <i>Not Applicable</i>
@@ -10,8 +10,8 @@ Justifications: <i>Not Applicable</i>
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-``` ad-Proposition
-title: Proposition.
+``` ad-Theorem
+title: Theorem (Freedom Theorem).
 
 Let $F$ be a finitely-generated free $R$-module over a PID $R$, say with $F\iso R^{\oplus n}$ for some $n\in\N$. Then every submodule $M\subgrpeq F$ is free.
 * Moreover, there is a basis $\tpl{x_i}_{i=1}^n$ of $F$ and non-zero elements $\tpl{a_j}_{j=1}^m$ of $R$ with $m\leq n$ and $a_j\divides a_{j+1}$ for all $1\leq j<m$ such that $\tpl{a_jx_j}_{j=1}^m$ is a basis of $M$.

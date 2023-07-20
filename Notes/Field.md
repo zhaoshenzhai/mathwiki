@@ -10,7 +10,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Field implies PID]], [[Group of units of finite field is a cyclic group]]
 Sufficiencies: [[Ideal is maximal iff quotient is a field]], [[Finite integral domain implies field]]
-Equivalences: <i>Not Applicable</i>
+Equivalences: [[Integral domain is a field or PID iff free resolution has length 0 or 1|Integral domain is a field $\Leftrightarrow$ free resolution has length $0$]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
