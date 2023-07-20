@@ -6,3 +6,7 @@ img {
 hr {
     margin: 1em 0 !important;
 }
+
+.graph-controls {
+    width: 300px;
+}

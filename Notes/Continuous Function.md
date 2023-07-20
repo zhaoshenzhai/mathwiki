@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/11/2022 13:48:28
-Tags: #Type/Definition #Topic/Analysis
+Tags: #Type/Definition #Topic/Topology
 
 Types: [[Homeomorphism]], [[Homotopy Equivalence]], [[Retraction]]
 Examples: [[Continuous Function in a Metric Space]], [[Path]]

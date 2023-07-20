@@ -8,63 +8,63 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#Topic/Set_Theory",
+      "query": "tag:#Topic/Set_Theory OR tag:#Later/Set_Theory",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "tag:#Topic/Category_Theory",
+      "query": "tag:#Topic/Category_Theory OR tag:#Later/Category_Theory",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "tag:#Later/Group_Theory",
+      "query": "tag:#Topic/Group_Theory OR tag:#Later/Group_Theory",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "tag:#Topic/Ring_Theory",
+      "query": "tag:#Topic/Ring_Theory OR tag:#Later/Ring_Theory",
       "color": {
         "a": 1,
         "rgb": 5431378
       }
     },
     {
-      "query": "tag:#Topic/Module_Theory",
+      "query": "tag:#Topic/Module_Theory OR tag:#Later/Module_Theory",
       "color": {
         "a": 1,
         "rgb": 5431473
       }
     },
     {
-      "query": "tag:#Topic/Topology",
+      "query": "tag:#Topic/Topology OR tag:#Later/Topology",
       "color": {
         "a": 1,
         "rgb": 5419488
       }
     },
     {
-      "query": "tag:#Topic/Analysis",
+      "query": "tag:#Topic/Analysis OR tag:#Later/Analysis",
       "color": {
         "a": 1,
         "rgb": 5395168
       }
     },
     {
-      "query": "tag:#Topic/Complex_Analysis",
+      "query": "tag:#Topic/Complex_Analysis OR tag:#Later/Complex_Analysis",
       "color": {
         "a": 1,
         "rgb": 11621088
       }
     },
     {
-      "query": "tag:#Topic/Functional_Analysis",
+      "query": "tag:#Topic/Functional_Analysis OR tag:#Later/Functional_Analysis",
       "color": {
         "a": 1,
         "rgb": 14701233
@@ -76,11 +76,11 @@
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.79156809733018,
   "lineSizeMultiplier": 1.29302181037405,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.0770708554638942,
   "repelStrength": 20,
   "linkStrength": 0.903965303593556,
   "linkDistance": 500,
-  "scale": 0.10280011956087576,
+  "scale": 0.0167062018832214,
   "close": false
 }

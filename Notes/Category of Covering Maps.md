@@ -5,7 +5,7 @@ mathLink: $\catcov$
 <div class="topSpace"></div>
 
 Date Created: 24/05/2023 19:06:55
-Tags: #Type/Definition #Topic/Category_Theory
+Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
