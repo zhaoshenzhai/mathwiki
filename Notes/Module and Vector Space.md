@@ -32,7 +32,7 @@ for all $m,n\in M$ and $r,s\in R$. This recovers the standard ‘left $R$-module
 
 ---
 
-<b>Remark.</b> If $k\coloneqq R$ is a field, we call $M$ a <b>$k$-vector space</b>. In some cases, an $R$-module $M$ over a commutative ring $R$ has a natural vector space structure. Indeed, let $\mf{m}\subgrp R$ be a maximal ideal, which exists by Krull’s Theorem, and assume that $\mf{m}M=0$. Then $M$ has a natural $R/\mf{m}$-vector space structure by $\l(r+\mf{m}\r)\cdot m\coloneqq rm$. Indeed, $R/\mf{m}$ is a field and the operation is well-defined since for all $r_1+\mf{m}=r_2+\mf{m}$, we have $r_1-r_2\in\mf{m}$ and hence $r_1m-r_2m=\l(r_1-r_2\r)m\in\mf{m}m=0$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $k\coloneqq R$ is a field, we call $M$ a <b>$k$-vector space</b>. In some cases, an $R$-module $M$ over a commutative ring $R$ has a natural vector space structure. Indeed, let $\mf{m}\subgrp R$ be a maximal ideal, which exists by Krull’s Theorem. If $\mf{m}M=0$, then $M$ has a natural $R/\mf{m}$-vector space structure by $\l(r+\mf{m}\r)\cdot m\coloneqq rm$. Indeed, $R/\mf{m}$ is a field and the operation is well-defined since for all $r_1+\mf{m}=r_2+\mf{m}$, we have $r_1-r_2\in\mf{m}$ and hence $r_1m-r_2m=\l(r_1-r_2\r)m\in\mf{m}m=0$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

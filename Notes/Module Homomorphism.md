@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Module_Theory
 
 Types: [[Nilpotent Operator]], [[Diagonalizable Operator]], [[Normal Operator]], [[Bounded Linear Map]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Kernel and Cokernel (Module Theory)]], [[Dual Map]], [[Adjoint Map]], [[Eigenvalue]], [[Characteristic Polynomial]], [[Minimal Polynomial]], [[Cyclic Subspace]], [[Vector Space of Linear Maps]]
+Constructions: [[Kernel and Cokernel (Module Theory)]], [[Dual Map]], [[Adjoint Map]], [[Eigenvalue]], [[Characteristic Polynomial]], [[Minimal Polynomial]], [[Cyclic Subspace]]
 Generalizations: [[Antilinear Map]], [[Multilinear Map]]
 
 Properties: [[Monomorphisms and epimorphisms in category of modules]], [[Change of basis for linear maps]], [[Schur's Theorem]]
