@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/07/2023 16:56:16
-Tags: #Type/Definition #Later/Algebra
+Tags: #Type/Definition #Topic/Algebra/Later
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>

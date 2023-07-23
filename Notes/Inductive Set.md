@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Set_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: _Not Applicable
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Principle of Ordinary Induction]]

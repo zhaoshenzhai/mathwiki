@@ -13,7 +13,7 @@
                 "id": "3f6fcc045dced974",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
+                  "type": "graph",
                   "state": {}
                 }
               }
@@ -66,9 +66,17 @@
                     "useHierarchy": true
                   }
                 }
+              },
+              {
+                "id": "515e2a801a302f35",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "294597bc1a532b30",
@@ -95,8 +103,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 266.5,
-        "collapsed": true
+        "width": 266.5
       },
       "right": {
         "id": "5b3c2ad05cc53b8f",
@@ -115,10 +122,13 @@
                     "options": {
                       "collapse-filter": true,
                       "search": "path:Notes -tag:#Type/MOC",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
                       "showTags": false,
                       "showAttachments": false,
                       "hideUnresolved": false,
-                      "showOrphans": false,
                       "collapse-color-groups": false,
                       "colorGroups": [
                         {
@@ -210,7 +220,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian42-brat:BRAT": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
           "command-palette:Open command palette": false,
@@ -218,7 +227,7 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "0f2cba3fb28dc11b"
+      "active": "3f6fcc045dced974"
     }
   },
   "active": "workspace"
