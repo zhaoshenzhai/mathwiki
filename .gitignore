@@ -15,3 +15,4 @@
 .site/Gemfile.lock
 
 .obsidian/workspace.json
+.obsidian/graph.json
