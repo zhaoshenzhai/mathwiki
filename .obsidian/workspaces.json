@@ -6,14 +6,14 @@
         "type": "split",
         "children": [
           {
-            "id": "aa0ea2b552f669b1",
+            "id": "c98fe2d320abc4b3",
             "type": "tabs",
             "children": [
               {
-                "id": "3f6fcc045dced974",
+                "id": "e08ec3e20a2d42ef",
                 "type": "leaf",
                 "state": {
-                  "type": "graph",
+                  "type": "empty",
                   "state": {}
                 }
               }
@@ -227,7 +227,7 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "3f6fcc045dced974"
+      "active": "e08ec3e20a2d42ef"
     }
   },
   "active": "workspace"
