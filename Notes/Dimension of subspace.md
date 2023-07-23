@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/04/2022 12:48:57
-Tags: #Type/Proposition #Later/Module_Theory
+Tags: #Type/Proposition #Topic/Module_Theory/Later
 
 Proved by: [[Basis Extension Theorem]]
 References: <i>Not Applicable</i>

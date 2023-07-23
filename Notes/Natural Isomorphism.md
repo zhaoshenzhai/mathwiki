@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 12/03/2022 14:02:26
-Tags: #Type/Definition #Later/Category_Theory
+Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: [[Identity natural transformation is a natural isomorphism]]

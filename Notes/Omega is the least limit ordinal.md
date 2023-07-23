@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 02/02/2022 15:26:20
-Tags: #Type/Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Topic/Set_Theory/Later
 
 Proved by: [[Omega is an ordinal]], [[ON is well-ordered by membership]], [[Successor of natural number is a natural number]]
 References: <i>Not Applicable</i>

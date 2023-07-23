@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 18/01/2022 13:30:01
-Tags: #Type/Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Topic/Set_Theory/Later
 
 Proved by: [[Russel's Paradox]]
 References: <i>Not Applicable</i>

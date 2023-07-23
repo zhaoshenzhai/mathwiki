@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 07/03/2023 13:12:25
-Tags: #Type/Proposition #Later/Topology
+Tags: #Type/Proposition #Topic/Topology/Later
 
 Proved by: [[Q is dense in R]]
 References: <i>Not Applicable</i>

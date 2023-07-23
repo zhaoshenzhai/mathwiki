@@ -5,7 +5,7 @@ mathLink: Cartesian product is a product in $\catset$
 <div class="topSpace"></div>
 
 Date Created: 22/06/2022 14:28:52
-Tags: #Type/Proposition #Later/Category_Theory
+Tags: #Type/Proposition #Topic/Category_Theory/Later
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>

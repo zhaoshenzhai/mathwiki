@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 21:00:06
-Tags: #Type/Proposition #Later/Topology
+Tags: #Type/Proposition #Topic/Topology/Later
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>

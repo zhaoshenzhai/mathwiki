@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 27/01/2022 12:42:19
-Tags: #Type/Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Topic/Set_Theory/Later
 
 Proved by: [[Exists function in relation iff Choice]]
 References: <i>Not Applicable</i>

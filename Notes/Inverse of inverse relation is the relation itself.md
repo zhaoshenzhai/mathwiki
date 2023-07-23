@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 22/01/2022 09:43:31
-Tags: #Type/Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Topic/Set_Theory/Later
 
 Proved by: [[Inverse of a relation is a relation]]
 References: <i>Not Applicable</i>

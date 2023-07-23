@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 22/01/2022 09:50:41
-Tags: #Type/Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Topic/Set_Theory/Later
 
 Proved by: [[Composition of relations is a relation]], [[Cartesian product is monotone w.r.t. subsets]]
 References: <i>Not Applicable</i>

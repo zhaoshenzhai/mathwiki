@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 15/01/2022 15:44:35
-Tags: #Type/Definition #Later/Set_Theory
+Tags: #Type/Definition #Topic/Set_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: [[Domain and range of inverse relation]]

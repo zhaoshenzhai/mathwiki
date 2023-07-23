@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 18:50:40
-Tags: #Type/Definition #Later/Set_Theory
+Tags: #Type/Definition #Topic/Set_Theory/Later
 
 Types: [[Lattice]]
 Examples: <i>Not Applicable</i> 

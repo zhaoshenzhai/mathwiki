@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 20:52:14
-Tags: #Type/Definition #Later/Topology
+Tags: #Type/Definition #Topic/Topology/Later
 
 Types: <i>Not Applicable</i>
 Examples: [[Order topology (subbasis)]], [[Standard topology on R (subbasis; rational endpoints)]], [[Product topology (subbasis)]], [[Subspace topology (subbasis)]]

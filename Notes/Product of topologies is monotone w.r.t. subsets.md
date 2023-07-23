@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 11/02/2022 11:24:27
-Tags: #Type/Proposition #Later/Topology
+Tags: #Type/Proposition #Topic/Topology/Later
 
 Proved by: [[Criteria for fineness w.r.t. bases]], [[Product topology (basis; component from bases)]], [[Cartesian product is monotone w.r.t. subsets]]
 References: <i>Not Applicable</i>

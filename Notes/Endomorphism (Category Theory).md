@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/02/2022 15:32:10
-Tags: #Type/Definition #Later/Category_Theory
+Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: [[Automorphism (Category Theory)]]
 Examples: [[Endomorphism Ring]]

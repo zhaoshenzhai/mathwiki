@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/05/2022 20:28:12
-Tags: #Type/Theorem #Later/Module_Theory
+Tags: #Type/Theorem #Topic/Module_Theory/Later
 
 Proved by: [[Subspaces of finite-dim. vector spaces have complements]]
 References: <i>Not Applicable</i>

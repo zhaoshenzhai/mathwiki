@@ -5,7 +5,7 @@ mathLink: $\ULtopR$ strictly finer than $\sttopR$
 <div class="topSpace"></div>
 
 Date Created: 05/02/2022 11:01:34
-Tags: #Type/Proposition #Later/Topology
+Tags: #Type/Proposition #Topic/Topology/Later
 
 Proved by: [[Criteria for fineness w.r.t. bases]]
 References: <i>Not Applicable</i>

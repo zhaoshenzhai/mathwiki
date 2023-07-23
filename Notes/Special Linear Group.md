@@ -5,7 +5,7 @@ mathLink: $\SL\l(V\r)$
 <div class="topSpace"></div>
 
 Date Created: 03/05/2023 23:00:37
-Tags: #Type/Definition #Later/Module_Theory
+Tags: #Type/Definition #Topic/Module_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>

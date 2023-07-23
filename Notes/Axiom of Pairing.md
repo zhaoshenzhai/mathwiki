@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/01/2022 16:34:42
-Tags: #Type/Axiom #Later/Set_Theory
+Tags: #Type/Axiom #Topic/Set_Theory/Later
 
 Constructions: [[Pair Set]]
 Generalizations: <i>Not Applicable</i>

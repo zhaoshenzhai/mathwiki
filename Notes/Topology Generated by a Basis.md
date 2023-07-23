@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/01/2022 10:45:00
-Tags: #Type/Definition #Later/Topology
+Tags: #Type/Definition #Topic/Topology/Later
 
 Types: <i>Not Applicable</i>
 Examples: [[Order Topology]], [[Metric Topology]], [[Product Space (Topology)]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 22/02/2022 14:27:06
-Tags: #Type/Definition #Later/Category_Theory
+Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: [[Automorphism (Category Theory)]]
 Examples: [[Bijection]], [[Identity Morphism]]

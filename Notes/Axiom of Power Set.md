@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 17/01/2022 19:08:57
-Tags: #Type/Axiom #Later/Set_Theory
+Tags: #Type/Axiom #Topic/Set_Theory/Later
 
 Constructions: [[Power Set]]
 Generalizations: <i>Not Applicable</i>

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 03/04/2023 10:50:04
-Tags: #Type/Proposition #Later/Module_Theory
+Tags: #Type/Proposition #Topic/Module_Theory/Later
 
 Proved by: [[Eigenvalue iff root of characteristic polynomial]], [[Basis Extension Theorem]]
 References: <i>Not Applicable</i>

@@ -5,7 +5,7 @@ mathLink: $T$ diagonalizable $\Rightarrow$ $\cchi_T$ splits
 <div class="topSpace"></div>
 
 Date Created: 08/03/2023 16:43:04
-Tags: #Type/Proposition #Later/Module_Theory
+Tags: #Type/Proposition #Topic/Module_Theory/Later
 
 Proved by: [[Leibniz Formula]]
 References: <i>Not Applicable</i>

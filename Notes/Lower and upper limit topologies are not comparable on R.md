@@ -5,7 +5,7 @@ mathLink: $\LLtopR$ and $\ULtopR$ not comparable
 <div class="topSpace"></div>
 
 Date Created: 05/02/2022 17:43:47
-Tags: #Type/Proposition #Later/Topology
+Tags: #Type/Proposition #Topic/Topology/Later
 
 Proved by: [[Criteria for fineness w.r.t. bases]]
 References: <i>Not Applicable</i>

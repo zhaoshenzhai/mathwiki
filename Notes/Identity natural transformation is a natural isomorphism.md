@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 12/03/2022 17:39:47
-Tags: #Type/Proposition #Later/Category_Theory
+Tags: #Type/Proposition #Topic/Category_Theory/Later
 
 Proved by: [[Identity functor is the identity of functor composition]]
 References: <i>Not Applicable</i>

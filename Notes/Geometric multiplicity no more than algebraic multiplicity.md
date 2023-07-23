@@ -5,7 +5,7 @@ mathLink: Geometric multiplicity $\leq$ algebraic multiplicity
 <div class="topSpace"></div>
 
 Date Created: 16/03/2023 16:51:21
-Tags: #Type/Proposition #Later/Module_Theory
+Tags: #Type/Proposition #Topic/Module_Theory/Later
 
 Proved by: [[Basis Extension Theorem]]
 References: <i>Not Applicable</i>

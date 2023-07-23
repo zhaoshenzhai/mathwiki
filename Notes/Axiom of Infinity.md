@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/02/2022 11:09:41
-Tags: #Type/Axiom #Later/Set_Theory
+Tags: #Type/Axiom #Topic/Set_Theory/Later
 
 Constructions: [[Set of Natural Numbers]]
 Generalizations: <i>Not Applicable</i>

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/01/2022 11:31:28
-Tags: #Type/Definition #Later/Set_Theory
+Tags: #Type/Definition #Topic/Set_Theory/Later
 
 Types: [[Bounded Sequence]], [[Cauchy Sequence]], [[Contractive Sequence]], [[Monotone Sequence]]
 Examples: <i>Not Applicable</i>

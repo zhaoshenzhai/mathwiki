@@ -5,7 +5,7 @@ mathLink: $T:V\to V$ nilpotent $\Rightarrow$ $T^{\dim V}=0$
 <div class="topSpace"></div>
 
 Date Created: 08/03/2023 14:46:12
-Tags: #Type/Proposition #Later/Module_Theory
+Tags: #Type/Proposition #Topic/Module_Theory/Later
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>

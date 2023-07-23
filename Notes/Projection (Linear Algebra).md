@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/01/2023 12:50:01
-Tags: #Type/Definition #Later/Module_Theory
+Tags: #Type/Definition #Topic/Module_Theory/Later
 
 Types: [[Orthogonal Projection]]
 Examples: <i>Not Applicable</i>

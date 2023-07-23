@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 30/01/2022 17:43:31
-Tags: #Type/Definition #Later/Set_Theory
+Tags: #Type/Definition #Topic/Set_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: [[ON is well-ordered by membership]]

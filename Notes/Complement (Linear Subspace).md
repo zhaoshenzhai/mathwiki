@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 14/05/2022 11:14:15
-Tags: #Type/Definition #Later/Module_Theory
+Tags: #Type/Definition #Topic/Module_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: [[Orthogonal Complement]]

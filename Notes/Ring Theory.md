@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/12/2022 21:45:27
-Tags: #Type/MOC #Later/Ring_Theory
+Tags: #Type/MOC #Topic/Ring_Theory/Later
 
 Context: [Zermelo Fraenkel Set Theory](obsidian://open?file=TODO)
 Excursions: <i>Not Applicable</i>

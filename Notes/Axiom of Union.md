@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 15/01/2022 21:15:56
-Tags: #Type/Axiom #Later/Set_Theory
+Tags: #Type/Axiom #Topic/Set_Theory/Later
 
 Constructions: [[Union]]
 Generalizations: <i>Not Applicable</i>

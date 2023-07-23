@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 29/08/2022 16:59:28
-Tags: #Type/Definition #Topic/Analysis #Later/Topology
+Tags: #Type/Definition #Topic/Analysis #Topic/Topology/Later
 
 Types: <i>Not Applicable</i>
 Examples: [[Sequential Limits in a Metric Space]]

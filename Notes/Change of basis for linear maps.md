@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/06/2022 17:22:00
-Tags: #Type/Proposition #Later/Module_Theory
+Tags: #Type/Proposition #Topic/Module_Theory/Later
 
 Proved by: [[Action of linear map repr under basis left-multiplication of matrix representation]]
 References: <i>Not Applicable</i>

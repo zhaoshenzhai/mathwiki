@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/01/2023 09:44:56
-Tags: #Type/Proposition #Later/Module_Theory
+Tags: #Type/Proposition #Topic/Module_Theory/Later
 
 Proved by: [[Dimension Theorem]], [[Basis and dimension for direct sum]]
 References: <i>Not Applicable</i>

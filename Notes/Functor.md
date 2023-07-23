@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 06/03/2022 15:11:37
-Tags: #Type/Definition #Later/Category_Theory
+Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: [[Left-invertible Functor]], [[Right-invertible Functor]], [[Diagram]]
 Examples: [[Path Components]], [[Fundamental Group]], [[Identity Functor]], [[Inclusion Functor]], [[Constant Functor]], [[Covariant Power Set Functor]]

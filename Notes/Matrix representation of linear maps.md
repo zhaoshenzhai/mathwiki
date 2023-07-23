@@ -5,7 +5,7 @@ mathLink: $\Hom\l(V,W\r)\iso\mat{m\times n}{K}$
 <div class="topSpace"></div>
 
 Date Created: 17/05/2022 10:57:09
-Tags: #Type/Proposition #Later/Module_Theory
+Tags: #Type/Proposition #Topic/Module_Theory/Later
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>

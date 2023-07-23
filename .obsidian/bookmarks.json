@@ -55,17 +55,17 @@
         "nodeSizeMultiplier": 1.79156809733018,
         "lineSizeMultiplier": 1.29302181037405,
         "collapse-forces": true,
-        "centerStrength": 0.0770708554638942,
-        "repelStrength": 20,
-        "linkStrength": 0.903965303593556,
-        "linkDistance": 500,
-        "scale": 0.023574838472727566,
+        "centerStrength": 0.1,
+        "repelStrength": 19.6301084756324,
+        "linkStrength": 0.934069841099973,
+        "linkDistance": 470,
+        "scale": 0.019037571597893894,
         "close": false
       }
     },
     {
       "type": "graph",
-      "ctime": 1689812148122,
+      "ctime": 1690145181920,
       "title": "Topics",
       "options": {
         "collapse-filter": true,
@@ -77,63 +77,63 @@
         "collapse-color-groups": false,
         "colorGroups": [
           {
-            "query": "tag:#Topic/Set_Theory OR tag:#Later/Set_Theory",
+            "query": "tag:#Topic/Set_Theory",
             "color": {
               "a": 1,
               "rgb": 14701138
             }
           },
           {
-            "query": "tag:#Topic/Category_Theory OR tag:#Later/Category_Theory",
+            "query": "tag:#Topic/Category_Theory",
             "color": {
               "a": 1,
               "rgb": 14725458
             }
           },
           {
-            "query": "tag:#Topic/Group_Theory OR tag:#Later/Group_Theory",
+            "query": "tag:#Topic/Group_Theory",
             "color": {
               "a": 1,
               "rgb": 11657298
             }
           },
           {
-            "query": "tag:#Topic/Ring_Theory OR tag:#Later/Ring_Theory",
+            "query": "tag:#Topic/Ring_Theory",
             "color": {
               "a": 1,
               "rgb": 5431378
             }
           },
           {
-            "query": "tag:#Topic/Module_Theory OR tag:#Later/Module_Theory",
+            "query": "tag:#Topic/Module_Theory",
             "color": {
               "a": 1,
               "rgb": 5431473
             }
           },
           {
-            "query": "tag:#Topic/Topology OR tag:#Later/Topology",
+            "query": "tag:#Topic/Topology",
             "color": {
               "a": 1,
               "rgb": 5419488
             }
           },
           {
-            "query": "tag:#Topic/Analysis OR tag:#Later/Analysis",
+            "query": "tag:#Topic/Analysis",
             "color": {
               "a": 1,
               "rgb": 5395168
             }
           },
           {
-            "query": "tag:#Topic/Complex_Analysis OR tag:#Later/Complex_Analysis",
+            "query": "tag:#Topic/Complex_Analysis",
             "color": {
               "a": 1,
               "rgb": 11621088
             }
           },
           {
-            "query": "tag:#Topic/Functional_Analysis OR tag:#Later/Functional_Analysis",
+            "query": "tag:#Topic/Functional_Analysis",
             "color": {
               "a": 1,
               "rgb": 14701233
@@ -146,11 +146,11 @@
         "nodeSizeMultiplier": 1.79156809733018,
         "lineSizeMultiplier": 1.29302181037405,
         "collapse-forces": true,
-        "centerStrength": 0.0770708554638942,
-        "repelStrength": 20,
-        "linkStrength": 0.903965303593556,
-        "linkDistance": 500,
-        "scale": 0.023574838472727566,
+        "centerStrength": 0.1,
+        "repelStrength": 19.6301084756324,
+        "linkStrength": 0.934069841099973,
+        "linkDistance": 470,
+        "scale": 0.019037571597893894,
         "close": false
       }
     },

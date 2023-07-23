@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 19/01/2022 17:36:50
-Tags: #Type/Definition #Later/Set_Theory
+Tags: #Type/Definition #Topic/Set_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: [[Orthogonality]]

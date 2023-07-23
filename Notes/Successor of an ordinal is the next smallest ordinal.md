@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 31/01/2022 16:33:49
-Tags: #Type/Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Topic/Set_Theory/Later
 
 Proved by: [[Reflexive closure of ordering on ordinals]],  [[ON is a transitive class]]
 References: <i>Not Applicable</i>

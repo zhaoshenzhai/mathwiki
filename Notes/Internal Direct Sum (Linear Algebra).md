@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/04/2022 17:33:40
-Tags: #Type/Definition #Later/Module_Theory
+Tags: #Type/Definition #Topic/Module_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: [[Symmetric and skew-symmetric decomposition of matrices]]

@@ -5,7 +5,7 @@ mathLink: $\cchi_T\in K\l[x\r]$ is monic with $\deg\cchi_T=\dim V$
 <div class="topSpace"></div>
 
 Date Created: 08/03/2023 16:04:49
-Tags: #Type/Proposition #Later/Module_Theory
+Tags: #Type/Proposition #Topic/Module_Theory/Later
 
 Proved by: [[Leibniz Formula]]
 References: <i>Not Applicable</i>

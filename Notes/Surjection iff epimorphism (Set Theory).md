@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 21/02/2022 13:19:31
-Tags: #Type/Proposition #Later/Category_Theory
+Tags: #Type/Proposition #Topic/Category_Theory/Later
 
 Proved by: [[Right-invertible iff surjection (Choice)]], [[Right-invertible implies epimorphism]]
 References: <i>Not Applicable</i>

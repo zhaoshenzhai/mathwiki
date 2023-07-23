@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/01/2022 21:25:09
-Tags: #Type/Definition #Later/Topology
+Tags: #Type/Definition #Topic/Topology/Later
 
 Types: <i>Not Applicable</i>
 Examples: [[Trivial topology (basis)]], [[Discrete topology (basis)]], [[Standard topology on R (basis; rational endpoints)]], [[Product topology (basis; component from bases)]], [[Subspace topology (basis)]]

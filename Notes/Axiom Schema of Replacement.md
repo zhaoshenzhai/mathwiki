@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/01/2022 10:03:21
-Tags: #Type/Axiom #Later/Set_Theory
+Tags: #Type/Axiom #Topic/Set_Theory/Later
 
 Constructions: [[Replacement Image]]
 Generalizations: <i>Not Applicable</i>

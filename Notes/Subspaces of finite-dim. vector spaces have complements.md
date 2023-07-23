@@ -5,7 +5,7 @@ mathLink: Subspaces $U\subseteq V$ with $\dim V<\infty$ have complements
 <div class="topSpace"></div>
 
 Date Created: 14/05/2022 11:16:58
-Tags: #Type/Proposition #Later/Module_Theory
+Tags: #Type/Proposition #Topic/Module_Theory/Later
 
 Proved by: [[Dimension of subspace]], [[Basis Extension Theorem]]
 References: <i>Not Applicable</i>

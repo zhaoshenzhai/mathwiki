@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 11/02/2022 18:25:41
-Tags: #Type/Proposition #Later/Topology
+Tags: #Type/Proposition #Topic/Topology/Later
 
 Proved by: [[Subspace topology (basis)]]
 References: <i>Not Applicable</i>

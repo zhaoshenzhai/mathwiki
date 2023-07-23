@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/12/2022 18:20:50
-Tags: #Type/MOC #Later/Group_Theory
+Tags: #Type/MOC #Topic/Group_Theory/Later
 
 Context: [Zermelo Fraenkel Set Theory](obsidian://open?file=TODO)
 Excursions: <i>Not Applicable</i>

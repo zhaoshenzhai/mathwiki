@@ -5,7 +5,7 @@ mathLink: Irreflexive and transitive $\Rightarrow$ asymmetric
 <div class="topSpace"></div>
 
 Date Created: 03/02/2022 18:01:39
-Tags: #Type/Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Topic/Set_Theory/Later
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>

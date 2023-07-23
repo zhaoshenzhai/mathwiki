@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/01/2022 13:37:59
-Tags: #Type/Proposition #Later/Set_Theory
+Tags: #Type/Proposition #Topic/Set_Theory/Later
 
 Proved by: [[Reflexive closure of strict orders is non-strict]], [[Strict lexicographical order is total if orders are strictly total]]
 References: <i>Not Applicable</i>

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 12/02/2022 12:30:57
-Tags: #Type/Proposition #Later/Topology
+Tags: #Type/Proposition #Topic/Topology/Later
 
 Proved by: [[Subspace topology (basis)]], [[Product topology (basis; component from bases)]], [[Cartesian product of intersections]]
 References: <i>Not Applicable</i>

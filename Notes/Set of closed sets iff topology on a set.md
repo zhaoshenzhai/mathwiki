@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 19/02/2022 14:36:08
-Tags: #Type/Proposition #Later/Topology
+Tags: #Type/Proposition #Topic/Topology/Later
 
 Proved by: [[Double complement of set is set itself]], [[De Morgan's Laws]]
 References: <i>Not Applicable</i>

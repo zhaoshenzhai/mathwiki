@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 11/06/2022 18:08:57
-Tags: #Type/Definition #Later/Module_Theory
+Tags: #Type/Definition #Topic/Module_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: [[Projection (Linear Algebra)]]
