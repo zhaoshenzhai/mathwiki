@@ -8,8 +8,8 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
-Sufficiencies: [[Irreducible implies prime (UFD)]]
+Properties: [[Basic properties of prime and irriducible elements]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

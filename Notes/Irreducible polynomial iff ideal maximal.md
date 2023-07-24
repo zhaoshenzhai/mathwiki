@@ -8,7 +8,7 @@ Date Created: 22/01/2023 23:31:02
 Tags: #Type/Proposition #Topic/Ring_Theory #Courses/MATH457
 
 Proved by: <i>Not Applicable</i>
-References: [[Ideal is maximal iff quotient is a field]], [[Polynomial rings over UFDs are UFDs]], [[Irreducible implies prime (UFD)]]
+References: [[Ideal is maximal iff quotient is a field]], [[Polynomial rings over UFDs are UFDs]], [[Basic properties of prime and irriducible elements]]
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
@@ -21,7 +21,7 @@ Let $K$ be a field and let $f\in K\l[x\r]$. Then $f$ is irreducible iff the idea
 
 ```
 
-<b>Remark.</b> It follows then that $K\l[x\r]/\gen{f}$ is a field iff $f$ is irreducible. Since $K\l[x\r]$ is a UFD, this also holds iff $p$ is prime.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> It follows then that $K\l[x\r]/\!\gen{f}$ is a field iff $f$ is irreducible. Since $K\l[x\r]$ is a UFD, this also holds iff $p$ is prime.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
