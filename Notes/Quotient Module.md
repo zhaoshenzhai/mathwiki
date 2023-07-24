@@ -8,7 +8,7 @@ Examples: [[Kernel and Cokernel (Module Theory)]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Universal Property of Quotients]]
+Properties: [[Universal Property of Quotients]], [[Basic properties of quotient modules]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

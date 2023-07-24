@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Unique Factorization Domain (UFD)]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Gauss's Lemma (Irreducibility)]], [[Basic properties of prime and irriducible elements]]
+Properties: [[Gauss's Lemma (Irreducibility)]], [[Basic properties of prime and irreducible elements]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Maximal implies prime]]

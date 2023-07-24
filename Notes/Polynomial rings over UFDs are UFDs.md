@@ -7,7 +7,7 @@ mathLink: $R$ UFD $\Rightarrow$ $R\l[x\r]$ UFD
 Date Created: 22/01/2023 23:34:37
 Tags: #Type/Theorem #Topic/Ring_Theory #Courses/MATH457
 
-Proved by: [[Gauss's Lemma (Irreducibility)]], [[Polynomial ring over fields is a EUD]], [[EUD implies PID]], [[PID implies UFD]], [[Basic properties of prime and irriducible elements]], [[Associate primitive polynomials in fraction field are associate]]
+Proved by: [[Gauss's Lemma (Irreducibility)]], [[Polynomial ring over fields is a EUD]], [[EUD implies PID]], [[PID implies UFD]], [[Basic properties of prime and irreducible elements]], [[Associate primitive polynomials in fraction field are associate]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
