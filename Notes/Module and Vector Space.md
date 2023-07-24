@@ -13,7 +13,7 @@ Constructions: [[Module Homomorphism]], [[Submodule]], [[Direct Product (module)
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basis Extension Theorem]], [[Invariant Basis Number]]
-Sufficiencies: <i>Not Applicable</i>
+Sufficiencies: [[Structure Theorem]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Krull's Theorem]], [[Ideal is maximal iff quotient is a field]]
 

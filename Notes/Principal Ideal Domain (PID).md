@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: [[Noetherian Ring]]
 
-Properties: [[Freedom Theorem for Modules over PID]], [[Bezout's Identity]], [[PID implies UFD]]
+Properties: [[Structure Theorem]], [[Freedom Theorem for Modules over PID]], [[Bezout's Identity]], [[PID implies UFD]]
 Sufficiencies: [[EUD implies PID]], [[Field implies PID]]
 Equivalences: [[Characterizations of PIDs]]
 Justifications: <i>Not Applicable</i>
