@@ -6,7 +6,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 Types: <i>Not Applicable</i>
 Examples: [[Group of units of finite field is a cyclic group]]
 Constructions: <i>Not Applicable</i>
-Generalizations: <i>Not Applicable</i>
+Generalizations: [[Cyclic Module]]
 
 Properties: [[Subgroups of cyclic groups]], [[Automorphisms and endomorphisms of cyclic groups]]
 Sufficiencies: [[At most one dividing subgroup implies cyclic]]

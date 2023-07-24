@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Module_Theory
 
 Types: [[Orthonormal Basis]]
 Examples: [[Basis and dimension for direct sum]]
-Constructions: [[Rank and Dimension]], [[Dual Basis]], [[Basis Transition Map]]
+Constructions: [[Rank and Dimension]], [[Dual Basis]], [[Basis Transition Map]], [[Cyclic Module]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
