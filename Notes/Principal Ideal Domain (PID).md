@@ -10,7 +10,7 @@ Generalizations: [[Noetherian Ring]]
 
 Properties: [[Freedom Theorem for Modules over PID]], [[Bezout's Identity]], [[PID implies UFD]]
 Sufficiencies: [[EUD implies PID]], [[Field implies PID]]
-Equivalences: [[Integral domain is a field or PID iff free resolution has length 0 or 1|Integral domain is a PID $\Leftrightarrow$ free resolution has length $1$]]
+Equivalences: [[Characterizations of PIDs]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
