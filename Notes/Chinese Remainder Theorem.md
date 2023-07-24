@@ -18,7 +18,8 @@ Let $\mf{a}_1,\mf{a}_2\nsubgrp R$ be ideals of a ring $R$. If $\mf{a}_1$ and $\m
 ```
 
 <b>Remark.</b> Note that if $R$ is commutative, then $R/\mf{a}_1\mf{a}_2\iso R/\mf{a}_1\times R/\mf{a}_2$. Also, the classical statement is as follows: for all $r_1,r_2\in R$, the system $x\equiv r_i\mod{\mf{a}_i}$ for $i=1,2$ has a unique solution $x\in R$ modulo $\mf{a}_1\cap\mf{a}_2$; this is essentially what the proof establishes.
-* This theorem (and the remarks above) can all be inductively generalized to finitely-many pairwise coprime ideals $\mf{a}_1,\dots,\mf{a}_n\nsubgrp R$.<span style="float:right;">$\blacklozenge$</span>
+* This theorem (and the remarks above) can all be inductively generalized to finitely-many pairwise coprime ideals $\mf{a}_1,\dots,\mf{a}_n\nsubgrp R$.
+* Lastly, note that if we view $R$ as a left-module over itself, then the isomorphism is an isomorphism of $R$-modules.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

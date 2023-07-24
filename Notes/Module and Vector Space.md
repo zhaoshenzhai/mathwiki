@@ -21,6 +21,7 @@ Justifications: [[Krull's Theorem]], [[Ideal is maximal iff quotient is a field]
 title: Definition.
 
 Let $R$ be a ring. A <b>left $R$-module</b> is an abelian group $M$ equipped with a left $R$-action $R\to\End_\catabgrp\!\l(M\r)$ on $M$.
+* If $k\coloneqq R$ is a field, we call $M$ a <b>$k$-vector space</b>.
 
 ```
 
@@ -29,10 +30,6 @@ $$\begin{equation}
     r\cdot\l(m+n\r)=\l(r\cdot m\r)+\l(r\cdot n\r),\ \ \ \ \ \ \ \ \l(r+s\r)\cdot m=\l(r\cdot m\r)+\l(s\cdot m\r),\ \ \ \ \ \ \ \ \l(rs\r)\cdot m=r\cdot\l(sm\r),\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ 1\cdot m=m
 \end{equation}$$
 for all $m,n\in M$ and $r,s\in R$. This recovers the standard ‘left $R$-module axioms’.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-<b>Remark.</b> If $k\coloneqq R$ is a field, we call $M$ a <b>$k$-vector space</b>.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

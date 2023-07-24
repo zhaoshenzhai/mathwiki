@@ -4,14 +4,14 @@ Date Created: 18/07/2023 16:18:03
 Tags: #Type/Definition #Topic/Module_Theory
 
 Types: [[Orthonormal Basis]]
-Examples: [[Basis and dimension for direct sum]]
-Constructions: [[Rank and Dimension]], [[Dual Basis]], [[Basis Transition Map]], [[Cyclic Module]]
+Examples: [[Basis and dimension for direct sum]], [[Dimension of Minkowski sum]]
+Constructions: [[Dual Basis]], [[Basis Transition Map]], [[Cyclic Module]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Structure Theorem]], [[Dimension Theorem]], [[Dimension of subspace]]
 Sufficiencies: [[Basis Extension Theorem]], [[Orthonormal sets are linearly independent]]
 Equivalences: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Justifications: [[Invariant Basis Number]]
 
 ``` ad-Definition
 title: Definition.
@@ -21,9 +21,16 @@ Let $X\subseteq M$ be a subset of an $R$-module $M$ over a commutative ring $R$.
 * If $F^R\!\l(X\r)\into M$, then $X$ is said to be <b>linearly independent</b>.
 * If $F^R\!\l(X\r)\iso M$, then $X$ is said to be a <b>basis for $M$</b>.
 
+The cardinality of any maximally linearly independent subset $X\subseteq M$ is called the <b>rank of $M$</b>, denoted $\rk_RM$.
+
 ```
 
 <b>Remark.</b> Observe that an $R$-module is free iff it admits a basis, and different choices of bases amounts to different choices of isomorphisms $F^R\!\l(X\r)\iso M$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> If $F^R\!\l(X\r)\iso M$ is free, then $\rk_RM=\l|X\r|$ too. This holds for all rings with the ‘Invariant Basis Number’ property, which commutative rings satisfy.
+* If $k$ is a field and $V$ is a $k$-vector space, we write $\dim_k\!V\coloneqq\rk_k\!V$ and call it the <b>dimension of $V$</b>.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

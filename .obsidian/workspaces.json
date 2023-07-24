@@ -122,7 +122,7 @@
                     "options": {
                       "collapse-filter": true,
                       "search": "path:Notes -tag:#Type/MOC",
-                      "localJumps": 1,
+                      "localJumps": 3,
                       "localBacklinks": true,
                       "localForelinks": true,
                       "localInterlinks": false,
