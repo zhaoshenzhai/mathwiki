@@ -3,7 +3,7 @@
 Date Created: 27/06/2022 16:08:32
 Tags: #Type/Theorem #Topic/Functional_Analysis
 
-Proved by: [[Orthonormal sets are linearly independent]], [[Dimension of subspace]]
+Proved by: [[Orthonormal sets are linearly independent]], [[Basis Extension Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

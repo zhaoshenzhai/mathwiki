@@ -8,7 +8,7 @@ Examples: [[Ideal]], [[Kernel and Cokernel (Module Theory)]]
 Constructions: [[Quotient Module]], [[Complement (Linear Subspace)]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Dimension of subspace]]
+Properties: [[Freedom Theorem for Modules over PID]]
 Sufficiencies: [[Generating Set (Module)]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
@@ -21,3 +21,7 @@ A <b>submodule</b> of a left $R$-module $M$ is a left $R$-module $N\subseteq M$ 
 ```
 
 <b>Remark.</b> It is clear that $N\subseteq M$ is a left $R$-submodule of $M$ iff it is a subgroup that is closed under the left $R$-action on $N$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> If $k$ is a field, then $k$-submodules are called <b>subspaces</b>.<span style="float:right;">$\blacklozenge$</span>

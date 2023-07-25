@@ -9,13 +9,15 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: [[Subspaces of finite-dim. vector spaces have complements]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Justifications: [[Basis Extension Theorem]]
 
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be a $K$-vector space and consider a linear subspace $U\subseteq V$. A <b>complement of $U$ in $V$</b> is a linear subspace $W\subseteq V$ such that $V=U\oplus W$.
+Let $U\subgrpeq V$ be a subspace of a $k$-vector space $V$. A <b>complement of $U$ in $V$</b> is a linear subspace $W\subgrpeq V$ such that $V=U\oplus W$.
 
 ```
+
+<b>Remark.</b> Any basis $B_U$ of $U$ can be extended to a basis $B_V$ of $V$. Set $B_W\coloneqq B_V\comp B_U$, which generates a subspace $W\coloneqq\gen{B_W}\subgrpeq V$. Then $V=U\oplus W$.<span style="float:right;">$\blacklozenge$</span>

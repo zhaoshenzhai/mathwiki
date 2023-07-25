@@ -3,7 +3,7 @@
 Date Created: 20/01/2023 09:44:56
 Tags: #Type/Proposition #Topic/Module_Theory/Later
 
-Proved by: [[Dimension Theorem]], [[Basis and dimension for direct sum]]
+Proved by: [[Dimension Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

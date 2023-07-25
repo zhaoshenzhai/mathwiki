@@ -7,7 +7,7 @@ mathLink: Linear map $V\to W$ with $\dim V=\dim W<\infty$ is injective $\Leftrig
 Date Created: 13/05/2022 21:23:44
 Tags: #Type/Proposition #Topic/Module_Theory/Later
 
-Proved by: [[Dimension Theorem]], [[Dimension of subspace]]
+Proved by: [[Dimension Theorem]], [[Basis Extension Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

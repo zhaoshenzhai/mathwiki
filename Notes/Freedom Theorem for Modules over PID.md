@@ -3,7 +3,7 @@
 Date Created: 20/07/2023 10:44:57
 Tags: #Type/Theorem #Topic/Module_Theory
 
-Proved by: [[Characterizations of Noetherian rings]], [[Basis Extension Theorem]], [[Basis and dimension for direct sum]], [[Universal Property of Free Modules]]
+Proved by: [[Characterizations of Noetherian rings]], [[Basis Extension Theorem]], [[Universal Property of Free Modules]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

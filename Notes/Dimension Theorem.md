@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 07/05/2022 20:28:12
-Tags: #Type/Theorem #Topic/Module_Theory/Later
+Tags: #Type/Theorem #Topic/Module_Theory
 
-Proved by: [[Subspaces of finite-dim. vector spaces have complements]]
+Proved by: [[Basis Extension Theorem]], [[Universal Property of Free Modules]], [[Splitting Lemma]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -13,12 +13,8 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Dimension Theorem).
 
-Let $V$ and $W$ be $K$-vector spaces and consider a linear map $T:V\to W$. If $V$ is finite-dimensional, then
-$$\begin{equation}
-    \dim V=\dim\ker T+\dim\im T.
-\end{equation}$$
-In other words, we have $\dim V=\nullity T+\rank T$.
+Let $T:V\to W$ be a linear map between $k$-vector spaces $V$ and $W$. Then $V\iso\ker T\oplus\im T$. In particular, $\dim V=\dim\ker T+\dim\im T$.
 
 ```
 
-<i>Proof.</i> Write $V=\ker T\oplus V'$ for some $V'\subseteq V$. Note that the restriction $\l.T\r|_{V'}:V'\to\im T$ is an isomorphism, so $\dim V'=\dim\im T$. But $\dim V'=\dim V-\dim\ker T$, so the result follows.<span style="float:right;">$\blacksquare$</span>
+<b>Remark.</b> Consider the short exact sequence $0\to\ker T\to V\to\im T\to0$ and let $B$ be a basis for $\im T$. Since $T:V\to\im T$ is surjective, choose $c_i\in V$ be so that $T\l(c_i\r)=b_i$ for all $b_i\in B$. Define a linear map $L:\im T\to V$ by extending $L\l(b_i\r)\coloneqq c_i$ linearly, which makes $T\circ L=\id$. The result follows from the Splitting Lemma.<span style="float:right;">$\blacksquare$</span>

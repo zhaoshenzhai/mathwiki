@@ -21,3 +21,7 @@ Let $\l\{M_i\r\}_{i\in I}$ be a family of left $R$-modules. The <b>direct sum of
 ```
 
 <b>Remark.</b> The direct sum $\bigoplus M_i$, equipped with the inclusions maps $\l\{\iota_i\r\}$ is a coproduct in $\catmod[R]$. If $I$ is finite, then it coincides with $\prod M_i$ and hence is a product in $\catmod[R]$ too.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> If $M_i$ are all free modules, say with bases $B_i$, then $\bigoplus M_i$ is free with basis $\coprod B_i$. In particular, we have $\rk\bigoplus M_i=\sum\rk M_i$.<span style="float:right;">$\blacklozenge$</span>

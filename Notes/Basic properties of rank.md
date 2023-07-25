@@ -14,12 +14,13 @@ Generalizations: <i>Not Applicable</i>
 title: Proposition.
 
 Let $M$ be a finitely-generated module over an integral domain $R$. Then $\rk M$ satisfies the following properties.
-* If $M=\gen{m_1,\dots,m_r}$, then $\rk M\leq r$.
 * If $0\to M_1\to M_2\to M_3\to0$ is an exact sequence of $R$-modules, then $\rk M_2=\rk M_1+\rk M_3$.
+* If $M=\gen{m_1,\dots,m_r}$, then $\rk M\leq r$.
 * $\rk M=\rk\l(M/\Tor M\r)$.
 * $\rk M=r$ iff $M$ has a free submodule $N\iso R^r$ where $M/N$ is torsion.
 * If $M\iso R^r\oplus T$ for some torsion module $T$, then $\rk M=r$ and $\Tor M\iso T$.
 
 ```
 
-<i>Proof.</i> 
+<i>Proof.</i>
+* 

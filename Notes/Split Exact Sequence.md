@@ -10,7 +10,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Recognition Theorem]]
+Equivalences: [[Splitting Lemma]], [[Recognition Theorem]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

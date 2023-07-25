@@ -4,11 +4,11 @@ Date Created: 18/07/2023 16:18:03
 Tags: #Type/Definition #Topic/Module_Theory
 
 Types: [[Orthonormal Basis]]
-Examples: [[Basis and dimension for direct sum]], [[Dimension of Minkowski sum]]
+Examples: [[Dimension of Minkowski sum]]
 Constructions: [[Dual Basis]], [[Basis Transition Map]], [[Cyclic Module]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Structure Theorem]], [[Basic properties of rank]], [[Dimension Theorem]], [[Dimension of subspace]]
+Properties: [[Structure Theorem]], [[Basic properties of rank]], [[Dimension Theorem]]
 Sufficiencies: [[Basis Extension Theorem]], [[Orthonormal sets are linearly independent]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Invariant Basis Number]]
