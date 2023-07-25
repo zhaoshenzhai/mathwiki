@@ -3,7 +3,7 @@
 Date Created: 23/07/2023 20:35:54
 Tags: #Type/Theorem #In_Progress
 
-Proved by: [[PID implies UFD]], [[Bezout's Identity]], [[Chinese Remainder Theorem]]
+Proved by: [[PID implies UFD]], [[Bezout's Identity]], [[Chinese Remainder Theorem]], [[Freedom Theorem for Modules over PID]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -26,4 +26,8 @@ Both decompositions of $\Tor M$ are unique up to a permutation of the factors.
 * Assume the uniqueness of the elementary divisors decomposition $M\iso R^{\rk M}\oplus\bigoplus_{ij}R/\!\gen{p_i^{r_{ij}}}$. Let $\gen{a_1}\supseteq\gen{a_2}\supseteq\cdots\supseteq\gen{a_n}$ and $\gen{b_1}\supseteq\gen{b_2}\supseteq\cdots\supseteq\gen{b_{n'}}$ be invariant factors of $M$, so the elementary divisors are the prime power factors of those elements. But $a_1\divides\cdots\divides a_n$ forces $a_n$ to be the product of all the distinct primes $p_j$ with the largest powers $r_{ij}$. The same is true for $b_{n'}$, so $\gen{a_n}=\gen{b_{n'}}$. That $n=n'$ and $\gen{a_i}=\gen{b_i}$ for all $1\leq i\leq n$ follows by induction.
 
 It remains to show the existence of the invariant factors decomposition and the uniqueness of the elementary divisors decomposition.
-* (Existence). Since $M$ is finitely-generated, there is a surjection $\pi:R^{\rk M}\onto M$.
+* (Existence). Since $M$ is finitely-generated, there is a surjection $\pi:R^n\onto M$ for some $n\in\N$. Then there is a basis $\tpl{x_i}_{i=1}^n$ of $R^n$ and non-zero elements $\tpl{a_i}_{i=1}^m$ of $R$ with $m\leq n$ and $a_1\divides\cdots\divides a_m$ such that $\tpl{a_ix_i}_{i=1}^m$ is a basis for $\ker\pi$. Consider the surjective $R$-module homomorphism
+$$\begin{equation}
+    \phi:\bigoplus_{i=1}^{n}\gen{x_i}\to R^{n-m}\oplus\bigoplus_{i=1}^{m}R/\!\gen{a_i}\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ \tpl{r_ix_i}_{i=1}^n\mapsto\tpl{r_{m+1},\dots,r_n,r_1+\gen{a_1},\dots,r_n+\gen{a_n}}.
+\end{equation}$$
+Its kernel is $\ker\phi=\ker\pi$, whence $M\iso R^n/\ker\pi\iso R^{n-m}\oplus\bigoplus_{i=1}^{m}R/\!\gen{a_i}$. We claim that $\rk M=n-m$ and that $\Tor M\iso\bigoplus_{i=1}^{m}R/\!\gen{a_i}$.

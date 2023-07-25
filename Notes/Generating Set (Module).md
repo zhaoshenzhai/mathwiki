@@ -8,7 +8,7 @@ Examples: [[Basis and dimension for direct sum]], [[Dimension of Minkowski sum]]
 Constructions: [[Dual Basis]], [[Basis Transition Map]], [[Cyclic Module]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Structure Theorem]], [[Dimension Theorem]], [[Dimension of subspace]]
+Properties: [[Structure Theorem]], [[Basic properties of rank]], [[Dimension Theorem]], [[Dimension of subspace]]
 Sufficiencies: [[Basis Extension Theorem]], [[Orthonormal sets are linearly independent]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Invariant Basis Number]]
