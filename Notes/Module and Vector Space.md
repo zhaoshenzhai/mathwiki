@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Module_Theory
 
 Types: [[Cyclic Module]], [[Inner Product Space]]
 Examples: [[Abelian Group]], [[Ring]], [[Ideal]]
-Constructions: [[Module Homomorphism]], [[Submodule]], [[Direct Product (module)]], [[Direct Sum (Module)]], [[Torsion]], [[Dual Space]]
+Constructions: [[Module Homomorphism]], [[Submodule]], [[Direct Product (module)]], [[Direct Sum (Module)]], [[Torsion and Annihilator]], [[Dual Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basis Extension Theorem]], [[Invariant Basis Number]]

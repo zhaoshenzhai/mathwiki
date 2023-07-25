@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Structure Theorem]], [[Basic properties of rank]], [[Dimension Theorem]]
 Sufficiencies: [[Basis Extension Theorem]], [[Orthonormal sets are linearly independent]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Invariant Basis Number]]
+Justifications: [[Universal Property of Free Modules]], [[Invariant Basis Number]]
 
 ``` ad-Definition
 title: Definition.
@@ -29,7 +29,7 @@ The cardinality of any maximally linearly independent subset $X\subseteq M$ is c
 
 ---
 
-<b>Remark.</b> If $F^R\!\l(X\r)\iso M$ is free, then $\rk_RM=\l|X\r|$ too. This holds for all rings with the ‘Invariant Basis Number’ property, which commutative rings satisfy.
+<b>Remark.</b> If $F^R\!\l(X\r)\iso M$ is free, then $\rk_RM=\l|X\r|$ too. This holds for all rings with the ‘Invariant Basis Number’ property, which commutative rings are.
 * If $k$ is a field and $V$ is a $k$-vector space, we write $\dim_k\!V\coloneqq\rk_k\!V$ and call it the <b>dimension of $V$</b>.<span style="float:right;">$\blacklozenge$</span>
 
 ---
@@ -37,4 +37,4 @@ The cardinality of any maximally linearly independent subset $X\subseteq M$ is c
 <b>Remark.</b> Equivalently, $\gen{X}$ is the submodule consisting of all $m\in M$ that can be expressed as a (finite) <b>linear combination</b> $\sum r_ix_i$ of elements $x_i\in M$. In this language, we can rephrase the above as follows:
 * $F^R\!\l(X\r)\onto M$ iff every $m\in M$ can be written as a linear combination $m=\sum_{x\in X}r_xx$ for some $r_x\in R$.
 * $F^R\!\l(X\r)\into M$ iff the only vanishing linear combination $\sum_{x\in X}r_xx=0$ is with $r_x=0$ for all $x\in X$.
-* $F^R\!\l(X\r)\iso M$ iff every $m\in M$ can be written <i>uniquely</i> as a linear combination $m=\sum_{x\in X} r_xx$ for some $r_i\in R$.<span style="float:right;">$\blacklozenge$</span>
+* $F^R\!\l(X\r)\iso M$ iff every $m\in M$ can be written <i>uniquely</i> as a linear combination $m=\sum_{x\in X} r_xx$ for some $r_x\in R$.<span style="float:right;">$\blacklozenge$</span>
