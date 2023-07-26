@@ -22,7 +22,7 @@ title: Definition.
 
 Let $M$ be an $R$-module. The <b>torsion of $M$</b> is $\Tor M\coloneqq\l\{m\in M\st\ex r\in R\comp\l\{0\r\}:rm=0\r\}$, whose elements are called <b>torsion elements of $M$</b>.
 * A module $M$ is <b>torsion-free</b> if $\Tor M=\l\{0\r\}$, and is <b>torsion</b> if $\Tor M=M$.
-* If $R$ is an integral domain, then $\Tor M\subgrpeq M$ is a submodule.
+* If $R$ is an integral domain, then $\Tor M\subgrpeq M$ is a submodule and $M/\Tor M$ is torsion-free.
 
 For a subset $X\subseteq M$, the <b>annihilator of $X$</b> is $\Ann X\coloneqq\l\{r\in R\st\fa x\in X:rx=0\r\}$.
 
@@ -32,7 +32,7 @@ For a subset $X\subseteq M$, the <b>annihilator of $X$</b> is $\Ann X\coloneqq\l
 * A commutative ring $R$ is torsion-free (as an $R$-module) iff $R$ is an integral domain.
 * Submodules and direct sums of torsion-free modules are torsion-free.
 
-Those observations show that free modules $R^{\oplus n}$ over an integral domain $R$ are all torsion-free.<span style="float:right;">$\blacklozenge$</span>
+Those observations show that free modules $R^{\oplus n}$ over an integral domain $R$ are all torsion-free. The converse occurs iff $R$ is a PID.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

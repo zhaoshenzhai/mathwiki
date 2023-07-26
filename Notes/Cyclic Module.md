@@ -20,4 +20,4 @@ An $R$-module $M$ is said to be <b>cyclic</b> if $M=\gen{m}$ for some $m\in M$.
 
 ```
 
-<b>Remark.</b> In other words, $M$ is cyclic iff we have a surjection $F^R\!\l(m\r)\iso R^1\onto M$, which descends into an isomorphism $R/I\iso M$ for some ideal $I\nsubgrpeq R$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, $M$ is cyclic iff we have a surjection $F^R\!\l(m\r)\iso R^1\onto M$, which descends into an isomorphism $R/\mf{a}\iso M$ for some ideal $\mf{a}\nsubgrpeq R$.<span style="float:right;">$\blacklozenge$</span>

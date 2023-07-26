@@ -25,3 +25,5 @@ Let $p$ be a prime number. A group $G$ is said to be a <b>$p$-group</b> if $\l|G
 * A $p$-subgroup $H\subgrpeq G$ of any finite group $G$ is said to be <b>Sylow</b> if $\l|H\r|=p^n$ and $\l|G\r|=p^nm$ for some $p\ndivides m$.
 
 ```
+
+<b>Remark.</b> Let $G$ be an abelian group, viewed as a $\Z$-module. For each prime $p$ dividing $\l|G\r|$, we note that its (unique) Sylow $p$-subgroup is its $p$-primary component $G\l[p^\infty\r]=\l\{g\in G\st\ex k\geq1:p^kg=0\r\}$.<span style="float:right;">$\blacklozenge$</span>
