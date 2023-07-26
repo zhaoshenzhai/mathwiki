@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 15/10/2022 20:13:16
-Tags: #Type/Theorem #Topic/Analysis
+Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Convergent implies bounded (sequential)]]
 References: <i>Not Applicable</i>

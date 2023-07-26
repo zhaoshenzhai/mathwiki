@@ -5,7 +5,7 @@ mathLink: $X$ compact $\Rightarrow$ $\tpl{\CONT{\l(X\r)},\|\slot\|_\infty}$ Bana
 <div class="topSpace"></div>
 
 Date Created: 09/04/2023 14:41:01
-Tags: #Type/Proposition #Topic/Analysis
+Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Metric-completeness of R]], [[Extreme Value Theorem]]
 References: <i>Not Applicable</i>

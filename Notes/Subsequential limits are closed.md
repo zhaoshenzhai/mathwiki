@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 04/02/2023 22:08:01
-Tags: #Type/Proposition #Topic/Analysis
+Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Sequential characterization of closure (metric)]], [[Sequential characterization of closed sets (metric)]], [[Limit of 1 over linear]]
 References: <i>Not Applicable</i>

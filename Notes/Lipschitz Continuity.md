@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/11/2022 10:57:59
-Tags: #Type/Definition #Topic/Analysis
+Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Contractive Function]]
 Examples: <i>Not Applicable</i>

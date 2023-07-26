@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 24/11/2022 14:20:17
-Tags: #Type/Theorem #Topic/Analysis
+Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Continuous iff continuous at each point]], [[Sequential Criterion for Functional Limits]]
 References: <i>Not Applicable</i>

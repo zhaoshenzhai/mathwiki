@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 29/10/2022 20:36:51
-Tags: #Type/Proposition #Topic/Analysis
+Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Bolzano-Weierstrass Theorem]], [[Sequential Limit Theorems in R]], [[Monotone Convergence Theorem]], [[Subsequences converge to the same limit]], [[Limit of 1 over linear]], [[Squeezed Distance Lemma]]
 References: <i>Not Applicable</i>

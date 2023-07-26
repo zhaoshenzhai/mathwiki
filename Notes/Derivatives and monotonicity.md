@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 30/12/2022 00:01:51
-Tags: #Type/Proposition #Topic/Analysis
+Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Mean Value Theorems]]
 References: <i>Not Applicable</i>

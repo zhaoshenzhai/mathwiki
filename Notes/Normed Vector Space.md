@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/06/2022 21:36:42
-Tags: #Type/Definition #Topic/Analysis
+Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Banach Space]]
 Examples: [[Space of Continuous Functions]], [[lp Space]], [[Operator Norm]]

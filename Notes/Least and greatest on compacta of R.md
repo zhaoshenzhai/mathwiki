@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 28/12/2022 21:25:31
-Tags: #Type/Proposition #Topic/Analysis
+Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Compact implies bounded]], [[Compact implies closed (Hausdorff)]], [[Sequential Limit Theorems in R]], [[Sequential characterization of closed sets (metric)]]
 References: <i>Not Applicable</i>

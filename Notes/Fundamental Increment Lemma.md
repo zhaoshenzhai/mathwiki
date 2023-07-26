@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/12/2022 10:12:50
-Tags: #Type/Theorem #Topic/Analysis
+Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Functional Limit Theorems in R]]
 References: <i>Not Applicable</i>

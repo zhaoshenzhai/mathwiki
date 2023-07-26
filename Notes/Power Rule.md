@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/12/2022 00:13:05
-Tags: #Type/Proposition #Topic/Analysis
+Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Differentiation Theorems in R]]
 References: <i>Not Applicable</i>

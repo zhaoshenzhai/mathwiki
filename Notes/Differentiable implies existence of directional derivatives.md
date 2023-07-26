@@ -5,7 +5,7 @@ mathLink: Differentiable $\Rightarrow$ $D_\vec{u}f\l(\vec{a}\r)=\l[Df\l(\vec{a}\
 <div class="topSpace"></div>
 
 Date Created: 30/12/2022 17:42:40
-Tags: #Type/Proposition #Topic/Analysis #Courses/MATH358
+Tags: #Type/Proposition #Topic/Real_Analysis #Courses/MATH358
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 04/01/2023 17:46:25
-Tags: #Type/Theorem #Topic/Analysis
+Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Neighborhood characterization of cluster points (metric)]], [[Heine-Borel Theorem]], [[Cantor's Intersection Theorem]]
 References: <i>Not Applicable</i>

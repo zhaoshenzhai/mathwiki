@@ -5,7 +5,7 @@ mathLink: Differentiable $\Rightarrow$ $\l[Df\l(\vec{a}\r)\r]=Jf\l(\vec{a}\r)$
 <div class="topSpace"></div>
 
 Date Created: 02/01/2023 15:25:20
-Tags: #Type/Proposition #Topic/Analysis #Courses/MATH358
+Tags: #Type/Proposition #Topic/Real_Analysis #Courses/MATH358
 
 Proved by: [[Differentiable implies existence of directional derivatives]]
 References: <i>Not Applicable</i>

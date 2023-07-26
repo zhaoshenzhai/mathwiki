@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 01/12/2022 13:10:10
-Tags: #Type/Proposition #Topic/Analysis
+Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Sequential and functional limit characterizations of continuity]], [[Functional Limit Theorems in R]]
 References: <i>Not Applicable</i>

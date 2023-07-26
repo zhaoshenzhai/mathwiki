@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 16/11/2022 16:57:22
-Tags: #Type/Definition #Topic/Analysis
+Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Condensation Point or aleph1-accumulation Point]]
 Examples: <i>Not Applicable</i>

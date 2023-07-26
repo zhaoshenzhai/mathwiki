@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/11/2022 19:29:46
-Tags: #Type/Theorem #Topic/Analysis
+Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Heine-Borel Theorem]], [[Heine-Cantor Theorem]], [[Sequential characterization of closure (metric)]], [[Sequential and functional limit characterizations of continuity]], [[Uniform continuity preserve Cauchyness]], [[Metric-completeness of R]], [[Sequential Limit Theorems in R]]
 References: <i>Not Applicable</i>

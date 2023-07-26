@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 26/01/2023 10:20:09
-Tags: #Type/Proposition #Topic/Analysis
+Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Sequentially compact implies bounded]], [[Convergent implies Cauchy]]
 References: <i>Not Applicable</i>

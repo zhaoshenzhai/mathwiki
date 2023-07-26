@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 01/12/2022 13:19:01
-Tags: #Type/Definition #Topic/Analysis
+Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Differentiable Function and Derivative in R]]
 Examples: <i>Not Applicable</i>

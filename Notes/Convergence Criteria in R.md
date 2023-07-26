@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 29/10/2022 18:32:31
-Tags: #Type/Theorem #Topic/Analysis
+Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Bolzano-Weierstrass Theorem]]
 References: [[Convergent implies bounded (sequential)]], [[Subsequences converge to the same limit]]

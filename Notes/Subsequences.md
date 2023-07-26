@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/10/2022 16:06:27
-Tags: #Type/Definition #Topic/Analysis
+Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: [[Monotone Subsequence Theorem]]

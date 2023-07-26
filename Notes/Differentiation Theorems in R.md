@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 01/12/2022 14:15:44
-Tags: #Type/Theorem #Topic/Analysis
+Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Functional Limit Theorems in R]], [[Differentiable implies continuous]], [[Sequential characterization of closure (metric)]], [[Composition of continuous functions are continuous]], [[Continuity Theorems in R]]
 References: <i>Not Applicable</i>

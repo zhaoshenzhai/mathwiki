@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/12/2022 20:54:44
-Tags: #Type/Proposition #Topic/Analysis
+Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Sequential characterization of closure (metric)]]
 References: <i>Not Applicable</i>
