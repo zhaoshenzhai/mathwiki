@@ -4,7 +4,7 @@ Date Created: 29/01/2022 11:58:15
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Ring of Integers|Integers]]
 Constructions: [[Quotient Group]]
 Generalizations: <i>Not Applicable</i>
 

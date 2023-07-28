@@ -3,7 +3,7 @@
 Date Created: 10/06/2023 15:03:01
 Tags: #Type/Proposition #Topic/Group_Theory
 
-Proved by: [[Ring of integers is a EUD]], [[Bezout's Identity]]
+Proved by: [[Ring of integers|Division Algorithm]], [[Bezout's Identity]]
 References: [[Lagrange's Theorem]]
 Justifications: <i>Not Applicable</i>
 

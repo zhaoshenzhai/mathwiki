@@ -3,7 +3,7 @@
 Date Created: 04/05/2023 18:37:34
 Tags: #Type/Proposition #Topic/Group_Theory
 
-Proved by: [[Ring of integers is a EUD]]
+Proved by: [[Ring of Integers#^integers-division-algorithm]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

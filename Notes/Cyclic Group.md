@@ -4,12 +4,12 @@ Date Created: 26/09/2022 14:04:28
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Group of units of finite field is a cyclic group]]
+Examples: [[Ring of Integers|Additive Group of Integers]]
 Constructions: <i>Not Applicable</i>
 Generalizations: [[Cyclic Module]]
 
 Properties: [[Subgroups of cyclic groups]], [[Automorphisms and endomorphisms of cyclic groups]]
-Sufficiencies: [[At most one dividing subgroup implies cyclic]]
+Sufficiencies: [[At most one dividing subgroup implies cyclic]], [[Group of units of finite field is a cyclic group]]
 Equivalences: [[Classification of Cyclic Groups]]
 Justifications: [[Basic properties of order]]
 

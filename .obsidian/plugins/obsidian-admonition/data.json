@@ -51,6 +51,19 @@
       "injectColor": true,
       "noTitle": true,
       "copy": false
+    },
+    "Example": {
+      "type": "Example",
+      "color": "248, 248, 255",
+      "icon": {
+        "name": "anchor",
+        "type": "font-awesome"
+      },
+      "command": true,
+      "title": "Example",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
     }
   },
   "syntaxHighlight": false,
