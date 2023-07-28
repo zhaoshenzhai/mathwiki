@@ -4,7 +4,7 @@ Date Created: 23/11/2022 09:56:13
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Field]]
-Examples: [[Ring of Integers]], [[Polynomial ring over fields is a EUD]], [[Gaussian Integers]]
+Examples: [[Integers]], [[Polynomial ring over fields is a EUD]], [[Gaussian Integers]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

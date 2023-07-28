@@ -3,7 +3,7 @@
 Date Created: 09/01/2023 15:29:16
 Tags: #Type/Example #Topic/Ring_Theory
 
-Abstractions: [[Euclidean Domain (EUD)]]
+Abstractions: [[Cyclic Group]], [[Euclidean Domain (EUD)]]
 Justifications: [[Universal Property of Free Groups]], [[Omega is an ordinal]]
 Constructions: [[Characteristic]], [[Prime Field]], [[Gaussian Integers]]
 
