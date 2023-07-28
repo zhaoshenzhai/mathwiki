@@ -28,7 +28,7 @@ Both decompositions of $\Tor M$ are unique up to a permutation of the factors.
 
 We proceed with the primary decomposition of $M$. Since $M$ is torsion, we see that $\Ann M\neq\l\{0\r\}$ and so there is some $a\in R$ such that $am=0$ for all $m\in M$. Since $R$ is also a UFD, we write $a=u\prod_{i=1}^{n}p_i^{\alpha_i}$ for some $u\in R^\times$, distinct primes $p_i\in R$, and positive integers $\alpha_i\in\N$. Set $a_i\coloneqq a/p_i^{\alpha_i}$ for each $1\leq i\leq n$, which have no common factors and hence $\sum_{i=1}^{n}r_ia_i=1$ for some $r_i\in R$. Hence $m=\sum_{i=1}^{n}r_ia_im$, and since $p_i^{\alpha_i}\l(r_ia_im\r)=0$, we see that $r_ia_im\in M\l(\mf{p}\r)$ and thus $M=\sum_{i=1}^{n}M\l(\mf{p}\r)$. To show that the sum is direct, fix $1\leq i\leq n$. Then $p_i^{\alpha_i}$ is coprime with the product $b$ of any other primes $q$ in the decomposition, so $rp_1^{\alpha_i}+sb=1$ for some $r,s\in R$. Thus if $m\in M\l(\mf{p}\r)\cap\sum_{\mf{q}\neq\mf{p}}M\l(\mf{q}\r)$, then $p_i^{\alpha_i}m=bm=0$ and hence $m=0$.
 
-Fix a prime $\mf{p}\coloneqq\gen{p}$ in the primary decomposition of $M$.
+Fix a prime $\mf{p}\coloneqq\gen{p}$ in the primary decomposition of $M$. Since $M$ is finitely-generated, the order of any $m\in M$ is at most the least common multiple of the orders of the generators of $M$, 
 
 ---
 

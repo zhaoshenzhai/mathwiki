@@ -24,7 +24,7 @@ Let $M$ be an $R$-module. The <b>torsion of $M$</b> is $\Tor M\coloneqq\l\{m\in 
 * A module $M$ is <b>torsion-free</b> if $\Tor M=\l\{0\r\}$, and is <b>torsion</b> if $\Tor M=M$.
 * If $R$ is an integral domain, then $\Tor M\subgrpeq M$ is a submodule and $M/\Tor M$ is torsion-free.
 
-For a subset $X\subseteq M$, the <b>annihilator of $X$</b> is $\Ann X\coloneqq\l\{r\in R\st\fa x\in X:rx=0\r\}$.
+For a subset $X\subseteq M$, the <b>annihilator of $X$</b> is $\Ann X\coloneqq\l\{r\in R\st rX=0\r\}$.
 
 ```
 
