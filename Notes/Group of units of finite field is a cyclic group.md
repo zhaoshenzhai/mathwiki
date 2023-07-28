@@ -7,7 +7,7 @@ mathLink: $\F^\times$ is a cyclic group
 Date Created: 07/05/2023 18:19:12
 Tags: #Type/Proposition #Topic/Group_Theory #Topic/Ring_Theory
 
-Proved by: [[At most one dividing subgroup implies cyclic]], [[Lagrange's Theorem]], [[Basic properties of order]], [[Polynomial has at most degree-many roots]]
+Proved by: [[At most one dividing subgroup implies cyclic]], [[Lagrange's Theorem]], [[Polynomial has at most degree-many roots]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

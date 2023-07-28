@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 29/06/2023 11:21:45
 Tags: #Type/Theorem #Topic/Group_Theory
 
-Proved by: [[Basic properties of subgroups]], [[Basic properties of order]], [[Euclid's Lemma]], [[Class Equation]], [[Lagrange's Theorem]]
+Proved by: [[Basic properties of subgroups]], [[Euclid's Lemma]], [[Class Equation]], [[Lagrange's Theorem]]
 References: [[Sylow Theorems]], [[Basic properties of p-groups]]
 Justifications: <i>Not Applicable</i>
 

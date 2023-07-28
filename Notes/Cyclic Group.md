@@ -11,7 +11,7 @@ Generalizations: [[Cyclic Module]]
 Properties: [[Subgroups of cyclic groups]], [[Automorphisms and endomorphisms of cyclic groups]]
 Sufficiencies: [[At most one dividing subgroup implies cyclic]], [[Group of units of finite field is a cyclic group]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Integers|Subgroups of $\Z$]], [[Isomorphism Theorems]], [[Basic properties of order]]
+Justifications: [[Integers|Subgroups of $\Z$]], [[Isomorphism Theorems]]
 
 ``` ad-Definition
 title: Definition.

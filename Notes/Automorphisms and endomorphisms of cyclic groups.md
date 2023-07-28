@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 10/06/2023 15:11:49
 Tags: #Type/Proposition #Topic/Group_Theory #Topic/Ring_Theory
 
-Proved by: [[Basic properties of order]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
