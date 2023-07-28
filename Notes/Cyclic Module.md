@@ -16,9 +16,8 @@ Justifications: [[Isomorphism Theorems]]
 ``` ad-Definition
 title: Definition.
 
-An $R$-module $M$ is said to be <b>cyclic</b> if $\phi:F^R\!\l(x\r)\onto M$ for some $x\in M$, in which case $x$ is said to be a <b>generator of $M$</b>.
+An $R$-module $M$ is said to be <b>cyclic</b> if $M=\gen{x}$ for some $x\in M$, in which case $x$ is said to be a <b>generator of $M$</b>.
 
 ```
 
-<b>Remark.</b> As in $\catgrp$, this surjection descends into an isomorphism $M\iso R/\mf{a}$ for some ideal $\mf{a}\nsubgrpeq R$.
-* If $R$ is a PID, then $\mf{a}=\gen{x}$ for some $x\in R$. Furthermore, there is an exact sequence $0\to\gen{x}\to R\to R/\!\gen{x}\to0$, from which it follows that either $M$ is trivial or $M\iso\gen{x}$. Thus we have a surjection $\phi:F^R\!\l(x\r)\onto M$, so cyclic modules over PIDs are of the form $R/\mf{a}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> As in $\catgrp$, this is equivalent if $\phi:R\onto M$ mapping $r\mapsto rx$ is a surjection. This map descends into an isomorphism $M\iso R/\mf{a}$, where $\mf{a}\nsubgrpeq R$ is the ideal annihilating $x$. Conversely, every ideal $\mf{a}\nsubgrpeq R$ is the annihilator of the module $R/\mf{a}$, which is cyclic since we have a surjection $\pi:R\onto R/\mf{a}$.<span style="float:right;">$\blacklozenge$</span>

@@ -16,11 +16,11 @@ Justifications: [[Integers|Subgroups of $\Z$]], [[Isomorphism Theorems]], [[Basi
 ``` ad-Definition
 title: Definition.
 
-A group $G$ is said to be <b>cyclic</b> if $\phi:F\l(x\r)\onto G$ for some $x\in G$, in which case $x$ is said to be a <b>generator of $G$</b>.
+A group $G$ is said to be <b>cyclic</b> if $G=\gen{x}$ for some $x\in G$, in which case $x$ is said to be a <b>generator of $G$</b>.
 
 ```
 
-<b>Remark.</b> Concretely, $\phi:\Z\to G$ maps $n\mapsto x^n$ with $\ker\phi=m\Z$ for some $m\in\Z$. If $\ker\phi$ vanishes, then $G\iso\Z$. In this case, $\ord{x}=\infty$ and $x$ is either $1$ or $-1$. Otherwise, we see that $G\iso\Z/m\Z$. The groups $\Z$ and $\Z/m\Z$ are clearly cyclic, so they are all the cyclic groups.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, there is a surjection $\phi:\Z\onto G$ mapping $n\mapsto x^n$. Its kernel is $\ker\phi=m\Z$ for some $m\in\Z$. If $\ker\phi$ vanishes, then $G\iso\Z$. In this case, $\ord{x}=\infty$ and $x$ is either $1$ or $-1$. Otherwise, we see that $G\iso\Z/m\Z$. The groups $\Z$ and $\Z/m\Z$ are clearly cyclic, so they are all the cyclic groups.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
