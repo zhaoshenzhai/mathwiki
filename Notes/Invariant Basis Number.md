@@ -3,7 +3,7 @@
 Date Created: 18/07/2023 20:18:33
 Tags: #Type/Theorem #Topic/Module_Theory
 
-Proved by: [[Krull's Theorem]], [[Basic properties of quotient modules]], [[Basis Extension Theorem]]
+Proved by: [[Krull's Theorem]], [[Ideal is maximal iff quotient is a field]], [[Isomorphism Theorems]], [[Basis Extension Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

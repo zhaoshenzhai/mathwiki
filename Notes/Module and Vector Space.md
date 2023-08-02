@@ -33,6 +33,10 @@ for all $m,n\in M$ and $r,s\in R$. This recovers the standard ‘left $R$-module
 
 ---
 
+<b>Remark.</b> Consider a maximal ideal $\mf{m}\nsubgrp R$, which exists by Krull’s Theorem, making $R/\mf{m}$ a field. If $\mf{m}M=0$, then $M$ has a natural $R/\mf{m}$-vector space structure by $\l(r+\mf{m}\r)\cdot m\coloneqq rm$. Indeed, the operation is well-defined since for all $r_1+\mf{m}=r_2+\mf{m}$, we have $r_1-r_2\in\mf{m}$ and hence $r_1m-r_2m=\l(r_1-r_2\r)m\in\mf{m}m=0$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 <b>Remark.</b> Given a left $R$-module, one cannot generally define a right $R$-module structure on $M$ by $m\ast r\coloneqq r\cdot m$. Indeed, compatibility between the field multiplication and the $R$-action fails:
 $$\begin{equation}
     \l(m\ast r_1\r)\ast r_2=r_2\cdot\l(m\ast r_1\r)=r_2\cdot\l(r_1\cdot m\r)=\l(r_2r_1\r)\cdot m=m\ast\l(r_2r_1\r)\neq m\ast\l(r_1r_2\r).
