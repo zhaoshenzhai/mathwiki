@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/07/2023 20:35:54
-Tags: #Type/Theorem #In_Progress
+Tags: #Type/Theorem #Topic/Module_Theory
 
 Proved by: [[Characterizations of PIDs]], [[Universal Property of Free Modules]], [[Basic properties of rank]], [[Splitting Lemma]], [[PID implies UFD]], [[Bezout's Identity]], [[Isomorphism Theorems]], [[Chinese Remainder Theorem]]
 References: <i>Not Applicable</i>
@@ -20,6 +20,10 @@ Let $M$ be a finitely-generated module over a PID $R$. Then we have a decomposit
 Both decompositions of $\Tor M$ are unique up to a permutation of the factors.
 
 ```
+
+<b>Remark.</b> Taking $R\coloneqq\Z$ gives us the <i>Structure Theorem for Finitely-generated Abelian Groups</i>.<span style="float:right;">$\blacklozenge$</span>
+
+---
 
 <i>Proof.</i> We claim that the exact sequence $0\to\Tor M\to M\to M/\Tor M\to 0$ splits. Indeed, since $M/\Tor M$ is torsion-free and $R$ is a PID, we see that $M/\Tor M$ is free so $\pi:M\onto M/\Tor M$ admits a splitting $\phi:M/\Tor M\to M$ mapping the basis elements $e_i\mapsto m_i\in\pi^{-1}\!\l(e_i\r)\in M$. Since $\rk\l(M/\Tor M\r)=\rk M$, we obtain the desired torsion decomposition $M\iso R^{\rk M}\oplus\Tor M$. Henceforth, we assume w.l.o.g. that $M=\Tor M$; its decomposition will proceed in several steps.
 1. <i>Primary Decomposition.</i> We first prove that $M\iso\bigoplus_\mf{p}M\l(\mf{p}\r)$, where $M\l(\mf{p}\r)\coloneqq\l\{m\in M\st\ex\alpha\in\N:p^\alpha m=0\r\}$ for each prime ideal $\mf{p}\coloneqq\gen{p}\nsubgrp R$.

@@ -4,8 +4,8 @@ Date Created: 18/07/2023 10:07:56
 Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Free Module]]
-Constructions: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: [[Free Module]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
