@@ -14,7 +14,7 @@ Generalizations: <i>Not Applicable</i>
 title: Theorem (Basis Extension Theorem).
 
 Let $X\subseteq M$ be a linearly independent subset of an $R$-module $M$ over a commutative ring. Then $X$ extends to a maximally linearly independent subset $B\subseteq M$.
-* If $R$ is a field, then $B$ is a basis for $M$. Furthermore, if $L\subseteq M$ is linearly independent, then there is an injection $j:L\into M$ where the set $B\cup L\comp j\l(L\r)$, obtained by exchanging $L$ for $j\l(L\r)$, is a basis for $M$.
+* If $R$ is a field, then $B$ is a basis for $M$. Furthermore, if $L\subseteq M$ is linearly independent, then there is an injection $j:L\into B$ where the set $B\cup L\comp j\l(L\r)$, obtained by exchanging $L$ for $j\l(L\r)$, is a basis for $M$.
 
 ```
 
