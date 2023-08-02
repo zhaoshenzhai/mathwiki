@@ -1,7 +1,3 @@
----
-mathLink: $\GL\l(V\r)$
----
-
 <div class="topSpace"></div>
 
 Date Created: 03/05/2023 22:55:31

@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Module_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Kernel Lemma]]
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Generalized eigenspaces are disjoint]]

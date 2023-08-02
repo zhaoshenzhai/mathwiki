@@ -1,7 +1,3 @@
----
-mathLink: $\SL\l(V\r)$
----
-
 <div class="topSpace"></div>
 
 Date Created: 03/05/2023 23:00:37
