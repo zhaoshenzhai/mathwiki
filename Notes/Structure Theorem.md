@@ -3,7 +3,7 @@
 Date Created: 23/07/2023 20:35:54
 Tags: #Type/Theorem #In_Progress
 
-Proved by: [[Characterizations of PIDs]], [[Universal Property of Free Modules]], [[Basic properties of rank]], [[Splitting Lemma]], [[PID implies UFD]], [[Bezout's Identity]], [[Isomorphism Theorems]], [[Chinese Remainder Theorem]], [[Freedom Theorem for Modules over PID]]
+Proved by: [[Characterizations of PIDs]], [[Universal Property of Free Modules]], [[Basic properties of rank]], [[Splitting Lemma]], [[PID implies UFD]], [[Bezout's Identity]], [[Isomorphism Theorems]], [[Chinese Remainder Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -49,4 +49,8 @@ shows that the dimension of $p^kM/p^{k+1}M$ is the number of $\alpha_j$’s grea
 
 ---
 
-<i>Invariant Factors.</i> Finally, 
+<i>Invariant Factors.</i> Finally, we use the Chinese Remainder Theorem to combine terms in the elementary divisors decomposition to obtain the invariant factors as
+$$\begin{equation}
+    M\iso\bigoplus_{i=1}^{n}\bigoplus_{j=1}^{m}R/\!\gen{p_i^{\alpha_{ij}}}=\bigoplus_{j=1}^{m}\l(\bigoplus_{i=1}^{n}R/\!\gen{p_i^{\alpha_{ij}}}\r)\iso\bigoplus_{j=1}^{m}R/\!\gen{a_j},
+\end{equation}$$
+where $a_j\coloneqq\prod_{i=1}^{n}p_i^{\alpha_{ij}}$. Since $\alpha_{ij}$ increases for each fixed $i$, we see that $a_1\divides\cdots\divides a_m$ and hence we obtain an ascending chain $\gen{a_1}\supseteq\gen{a_2}\supseteq\cdots\supseteq\gen{a_m}$ of non-zero ideals $\gen{a_j}\nsubgrp R$. As for uniqueness, suppose $b_1\divides\cdots\divides b_{m'}$ is another set of invariant factors of $M$. Then $a_m$ and $b_{m'}$ are both the product of the largest prime powers of the elementary divisors of $M$, so they coincide and the result follows by induction.<span style="float:right;">$\blacksquare$</span>
