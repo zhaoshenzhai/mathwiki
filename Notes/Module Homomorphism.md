@@ -25,12 +25,13 @@ Elements in $\End\l(M\r)$ are called <b>linear operators</b>.
 
 ```
 
-<b>Remark.</b> As in $\catabgrp$, the morphisms $\Hom_{\catmod[R]}\!\l(M,N\r)$ is an abelian group under the component-wise addition. If furthermore $R$ is commutative, then it is also an $R$-module via the component-wise left $R$-action.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> As in $\catabgrp$, the morphisms $\Hom_{\catmod[R]}\!\l(M,N\r)$ is an abelian group under the component-wise addition. If furthermore $R$ is commutative, then it is also an $R$-module via the component-wise left $R$-action. In this case $\End_{\catmod[R]}\!\l(M\r)$ is also an $R$-algebra under composition.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
 <b>Remark.</b> Let $M$ and $N$ be finitely-generated free $R$-modules, so there are isomorphisms $M\iso R^n$ and $N\iso R^m$ for some $m,n\in\N$. After fixing such isomorphisms, every $R$-module homomorphism $\alpha\in\Hom\l(R^n,R^m\r)$ is determined uniquely by an $m\times n$ matrix $A\in\Mat_{m\times n}\!\l(R\r)$, acting on elements in $R^n$ by left-multiplication. This gives us an isomorphism $\Hom\l(R^n,R^m\r)\iso\Mat_{m\times n}\!\l(R\r)$, but is <i>not</i> canonical as it depends on the choice of bases for $M$ and $N$. Indeed, consider two choices of bases for both $M$ and $N$, as shown below.
-![[Images/2023-08-02_185945/image.svg|320]] Then $\psi_i^{-1}\circ\alpha\circ\phi_i:F^R\!\l(B_i\r)\to F_R\!\l(C_i\r)$ are the bases representations of $\alpha$ under the choices $B_i$ for $M$ and $C_i$ for $N$. Let $A_i$ denote their matrix representations. If we let $T_1^2$ and $L_1^2$ denote the change of bases matrices, then $A_2=L_1^2A_1\l(T_1^2\r)^{-1}$. Since $A_i$ represent the same homomorphism, we say that they are <b>equivalent</b>.<span style="float:right;">$\blacklozenge$</span>
+![[Images/2023-08-02_185945/image.svg|320]] Then $\psi_i^{-1}\circ\alpha\circ\phi_i:F^R\!\l(B_i\r)\to F_R\!\l(C_i\r)$ are the bases representations of $\alpha$ under the choices $B_i$ for $M$ and $C_i$ for $N$. Let $A_i$ denote their matrix representations. If we let $T_1^2$ and $L_1^2$ denote the change of bases matrices, then $A_2=L_1^2A_1\l(T_1^2\r)^{-1}$. Since the matrices $A_i$ represent the same homomorphism up to choices of bases for $M$ and $N$, we say that they are <b>equivalent</b>.
+* A different notion of ‘equivalence’ can be defined in the case where $M=N$, where only one isomorphism $M\iso R^n$ needs to be fixed. In this case, we say that two matrices $A_i$ are <b>similar</b> if they represent the same homomorphism up to a <i>single</i> choice of basis for $M$. This occurs iff there is an invertible matrix $P\in\Mat_n\!\l(R\r)$ such that $A_2=PA_1P^{-1}$. We lift this notion and say that two endomorphisms $\alpha_1,\alpha_2\in\End\l(M\r)$ are <b>similar</b> iff there is an automorphism $\pi\in\Aut\l(M\r)$ such that $\alpha_2=\pi\alpha_1\pi^{-1}$; this is precisely the conjugation action of $\GL\l(M\r)$ on $\End\l(M\r)$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
