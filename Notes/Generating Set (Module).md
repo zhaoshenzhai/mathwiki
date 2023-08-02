@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Module_Theory
 
 Types: [[Orthonormal Basis]]
 Examples: [[Dimension of Minkowski sum]]
-Constructions: [[Dual Basis]], [[Basis Transition Map]], [[Cyclic Module]]
+Constructions: [[Dual Basis]], [[Cyclic Module]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Structure Theorem]], [[Basic properties of rank]], [[Dimension Theorem]]
@@ -25,7 +25,7 @@ The cardinality of any maximally linearly independent subset $X\subseteq M$ is c
 
 ```
 
-<b>Remark.</b> Observe that an $R$-module is free iff it admits a basis, and different choices of bases amounts to different choices of isomorphisms $F^R\!\l(X\r)\iso M$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Observe that an $R$-module is free iff it admits a basis, and different choices of bases amounts to different choices of isomorphisms $F^R\!\l(X\r)\iso M$. Indeed, if $B_1$ and $B_2$ are both bases for $M$, then we have the isomorphisms $\phi:F^R\!\l(B_1\r)\to M$ and $\psi:F^R\!\l(B_2\r)\to M$. The composition $\psi^{-1}\circ\phi:F^R\!\l(B_1\r)\to F^R\!\l(B_2\r)$ is also an isomorphism and can be given by a unique matrix $A\in\Mat_n\!\l(R\r)$, called the <i>change of basis matrix</i>.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
