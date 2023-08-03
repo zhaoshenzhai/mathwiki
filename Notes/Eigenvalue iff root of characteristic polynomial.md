@@ -8,7 +8,7 @@ Date Created: 20/06/2022 15:06:29
 Tags: #Type/Proposition #Topic/Module_Theory/Later
 
 Proved by: [[Linear map between vector spaces of same dimension is injective iff surjective]]
-References: [[Characteristic polynomial is a polynomial]], [[Polynomial has at most degree-many roots]]
+References: [[Polynomial has at most degree-many roots]]
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>

@@ -11,17 +11,17 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Cayley-Hamilton Theorem]], [[Eigenvalue iff root of characteristic polynomial]], [[Schur's Theorem]], [[Basic properties of characteristic polynomial and invariant subspaces]], [[Basic properties of characteristic and minimal polynomials]]
 Sufficiencies: [[Characteristic polynomial for a diagonalizable operator]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Characteristic polynomial is a polynomial]]
+Justifications: [[Leibniz Formula]]
 
 ``` ad-Definition
 title: Definition.
 
-Let $T:V\to V$ be a linear operator on a finite-dimensional $K$-vector space $V$. The <b>characteristic polynomial of $T$</b> is the polynomial $\cchi_T\in K\l[x\r]$ given by $\cchi_T\!\l(x\r)\coloneqq\det\l(x\id_V-T\r)$.
+Let $\alpha\in\End\l(M\r)$ be a linear operator on a free $R$-module $M$. The <b>characteristic polynomial of $\alpha$</b> is the polynomial $\cchi_\alpha\!\l(t\r)\coloneqq\det\l(t\id-\alpha\r)\in R\l[t\r]$.
 
 ```
 
-<b>Remark.</b> The characteristic polynomial of a matrix $A\in\mat{n}{K}$ is defined as $\cchi_A\!\l(x\r)\coloneqq\det\l(xI-A\r)$. This agrees with the above, since if $V$ is finite-dimensional, say with $n\coloneqq\dim V$, and $\mc{B}$ is a basis for $V$, then
+<b>Remark.</b> If $M$ is finitely-generated, say with $n\coloneqq\rk M$, then $\cchi_\alpha\!\l(t\r)=t^n-\tr\l(\alpha\r)t^{n-1}+\cdots+\l(-1\r)^n\det\l(\alpha\r)$. Indeed, let $\tpl{a_{ij}}$ be a matrix representation of $\alpha$ and use the Leibniz expansion to write
 $$\begin{equation}
-    \cchi_T\!\l(x\r)=\det\l(x\id_V-T\r)=\det\l(\l[x\id_V-T\r]_\mc{B}\r)=\det\l(xI-A\r)=\cchi_A\!\l(x\r)
+    \cchi_\alpha\!\l(t\r)=\det\l(t\id-\alpha\r)=\sum_{\sigma\in S_n}\sgn\l(\sigma\r)b_{\sigma\l(1\r)1}\cdots b_{\sigma\l(n\r)n}
 \end{equation}$$
-where $A\coloneqq\l[T\r]_\mc{B}$.<span style="float:right;">$\blacklozenge$</span>
+where $b_{ii}\coloneqq t-a_{ii}$ for all $i$ and $b_{ij}\coloneqq-a_{ij}$ for all $i\neq j$. The term with $\sigma=\id$ is then $\prod_{i=1}^{n}\l(t-a_{ii}\r)$, and since every other term has degree less than $n$, we see that $\deg\cchi_\alpha=n$ is monic. The constant term $\cchi_\alpha\!\l(0\r)=\l(-1\r)^n\deg\l(\alpha\r)$ follows by multilinearity of $\det$. Finally, 

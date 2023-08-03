@@ -8,7 +8,7 @@ Date Created: 13/10/2022 12:25:27
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Permutations are conjugate iff same cycle type]]
+Examples: [[Permutations are conjugate iff same cycle type]], [[Module Homomorphism#^conjugation|Similarity of Matrices]]
 Constructions: [[Centralizer and Center]], [[Normalizer]], [[Inner Automorphism Group]]
 Generalizations: <i>Not Applicable</i>
 

@@ -4,7 +4,7 @@ Date Created: 19/06/2022 16:20:24
 Tags: #Type/Definition #Topic/Module_Theory/Later
 
 Types: <i>Not Applicable</i>
-Examples: [[Eigenvector and eigenspace]], [[Generalized Eigenvector and Eigenspace]], [[Cyclic Subspace]]
+Examples: [[Generalized Eigenvector and Eigenspace]], [[Cyclic Subspace]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
