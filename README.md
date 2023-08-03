@@ -134,4 +134,4 @@ All images are centered and have a `15px` top and bottom [margin](https://github
 
 [templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/UltiSnips/markdown.snippets#L111
 [tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/fileTypeDefaults.vim#L9
-[pdfLaTeXExecute]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/fileTypeDefaults.vim#L18
+[pdfLaTeXExecute]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/fileTypeDefaults.vim#L20
