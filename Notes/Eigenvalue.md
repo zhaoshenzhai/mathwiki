@@ -11,7 +11,7 @@ Generalizations: [[Generalized Eigenvector and Eigenspace]]
 Properties: [[Eigenvalues of linear operators on inner product spaces]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Eigenvalue iff root of characteristic polynomial]]
-Justifications: [[Characterizations of PIDs#^torsion-free-iff-free]], [[Vanishing of determinant]]
+Justifications: [[Characterizations of PIDs#^torsion-free-iff-free]], [[Vanishing of determinant]], [[Characteristic Polynomial#^degree-of-characteristic-polynomial]], [[Polynomial has at most degree-many roots]], [[Polynomial over algebraically closed field splits]]
 
 ``` ad-Definition
 title: Definition.
@@ -22,14 +22,21 @@ Let $\alpha\in\End\l(M\r)$ be a linear operator on a fin-gen. free $R$-module $M
 
 ```
 
-<b>Remark.</b> The spectrum $\sigma\l(\alpha\r)$ is the set of roots of the characteristic polynomial $\cchi_\alpha$. Indeed, $\lambda\in\sigma\l(\alpha\r)$ iff $\alpha\l(m\r)=\lambda m$ for some non-zero $m\in M$, iff $\l(\lambda\id-\alpha\r)\l(m\r)=0$ for some non-zero $m\in M$. This occurs iff $\lambda\id-\alpha$ is not injective, iff $\cchi_\alpha\!\l(\lambda\r)=\det\l(\lambda\id-\alpha\r)=0$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The spectrum $\sigma\l(\alpha\r)$ is the set of roots of the characteristic polynomial $\cchi_\alpha$, so $\sigma\l(\alpha\r)$ depends very explicitly on how $R$ splits.
+* Indeed, $\lambda\in\sigma\l(\alpha\r)$ iff $\alpha\l(m\r)=\lambda m$ for some non-zero $m\in M$, iff $\lambda\id-\alpha$ is not injective. This occurs iff $\cchi_\alpha\!\l(\lambda\r)=\det\l(\lambda\id-\alpha\r)=0$.
+
+This allows us to define the <b>algebraic multiplicity</b> of an eigenvalue $\lambda\in\sigma\l(\alpha\r)$ as its multiplicity as a root of $\cchi_\alpha$. Since $\deg\cchi_\alpha=n$, we see that $\l|\sigma\l(\alpha\r)\r|\leq n$, and equality holds (as a multiset) if $R$ is an algebraically closed field.
+
+A different notion of multiplicity is the <b>geometric multiplicity</b> of an eigenvalue $\lambda\in\sigma\l(\alpha\r)$, which is defined as $\rk E_\lambda$ and is invariant under similarity since $\cchi_\alpha$ is. For every $\lambda\in\sigma\l(\alpha\r)$, its geometric multiplicity is no more than its algebraic multiplicity.
+* Indeed, if $\rk E_\lambda\eqqcolon g$, then there is a maximally linearly independent subset $\l\{m_1,\dots,m_g\r\}$ so that $\alpha\l(m_i\r)=\lambda m_i$ for all $1\leq i\leq g$.
 
 ---
 
 <b>Remark.</b> The spectrum of an operator is invariant under similarity. Indeed, if $\beta=\pi\alpha\pi^{-1}$ for some $\pi\in\Aut\l(M\r)$ and $\alpha\l(m\r)=\lambda m$ for some non-zero $m\in M$, then
 $$\begin{equation}
-    \beta\l(\pi\l(m\r)\r)=\pi\alpha\pi^{-1}\l(\pi\l(m\r)\r)=\pi\l(\alpha\l(m\r)\r)=\pi\l(\lambda m\r)=\lambda\pi\l(m\r).\exqedin
+    \beta\l(\pi\l(m\r)\r)=\pi\alpha\pi^{-1}\l(\pi\l(m\r)\r)=\pi\l(\alpha\l(m\r)\r)=\pi\l(\lambda m\r)=\lambda\pi\l(m\r).
 \end{equation}$$
+In particular, this shows that the algebraic multiplicity of $\lambda$ is invariant under similarity.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

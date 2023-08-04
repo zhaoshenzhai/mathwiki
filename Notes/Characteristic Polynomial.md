@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    degree-of-characteristic-polynomial: $\deg\cchi=\rk R$
+---
+
 <div class="topSpace"></div>
 
 Date Created: 08/03/2023 15:50:44
@@ -5,7 +10,7 @@ Tags: #Type/Definition #In_Progress
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Algebraic and geometric multiplicity]]
+Constructions: [[Eigenvalue]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Cayley-Hamilton Theorem]], [[Eigenvalue iff root of characteristic polynomial]], [[Schur's Theorem]], [[Basic properties of characteristic polynomial and invariant subspaces]], [[Basic properties of characteristic and minimal polynomials]]
@@ -25,6 +30,7 @@ $$\begin{equation}
     \cchi_\alpha\!\l(t\r)=\det\l(t\id-\alpha\r)=\sum_{\sigma\in S_n}\sgn\l(\sigma\r)b_{\sigma\l(1\r)1}\cdots b_{\sigma\l(n\r)n}
 \end{equation}$$
 where $b_{ii}\coloneqq t-a_{ii}$ for all $i$ and $b_{ij}\coloneqq-a_{ij}$ for all $i\neq j$. The term with $\sigma=\id$ is then $\prod_{i=1}^{n}\l(t-a_{ii}\r)$, and since every other term has degree less than $n$, we see that $\deg\cchi_\alpha=n$ and $\cchi_\alpha$ is monic. Moreover, no other permutation in $S_n$ contributes to the $t^{n-1}$ term, so its coefficient is seen to be the coefficient of the expansion of $\prod_{i=1}^{n}\l(t-a_{ii}\r)$, which is $-\sum_{i=1}^{n}a_{ii}=-\tr\l(\alpha\r)$. Finally, the constant term $\cchi_\alpha\!\l(0\r)=\l(-1\r)^n\deg\l(\alpha\r)$ follows by multilinearity of $\det$.<span style="float:right;">$\blacklozenge$</span>
+^degree-of-characteristic-polynomial
 
 ---
 
