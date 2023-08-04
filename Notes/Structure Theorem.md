@@ -3,7 +3,7 @@
 Date Created: 23/07/2023 20:35:54
 Tags: #Type/Theorem #Topic/Module_Theory
 
-Proved by: [[Characterizations of PIDs]], [[Universal Property of Free Modules]], [[Basic properties of rank]], [[Splitting Lemma]], [[PID implies UFD]], [[Bezout's Identity]], [[Isomorphism Theorems]], [[Chinese Remainder Theorem]]
+Proved by: [[Characterizations of PIDs#^torsion-free-iff-free]], [[Universal Property of Free Modules]], [[Basic properties of rank]], [[Splitting Lemma]], [[PID implies UFD]], [[Bezout's Identity]], [[Isomorphism Theorems]], [[Chinese Remainder Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

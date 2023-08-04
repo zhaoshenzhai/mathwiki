@@ -10,7 +10,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Universal Property of Free Modules]]
 Sufficiencies: [[Freedom Theorem for Modules over PID]], [[Characterizations of fields]]
-Equivalences: [[Characterizations of PIDs|Torsion-free $\Leftrightarrow$ free (PID)]]
+Equivalences: [[Characterizations of PIDs#^torsion-free-iff-free]]
 Justifications: [[Invariant Basis Number]]
 
 ``` ad-Definition

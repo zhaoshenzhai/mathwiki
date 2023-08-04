@@ -11,17 +11,25 @@ Generalizations: [[Generalized Eigenvector and Eigenspace]]
 Properties: [[Eigenvalues of linear operators on inner product spaces]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Eigenvalue iff root of characteristic polynomial]]
-Justifications: [[Characterizations of PIDs]]
+Justifications: [[Characterizations of PIDs#^torsion-free-iff-free]], [[Vanishing of determinant]]
 
 ``` ad-Definition
 title: Definition.
 
 Let $\alpha\in\End\l(M\r)$ be a linear operator on a fin-gen. free $R$-module $M$. A scalar $\lambda\in R$ is called an <b>eigenvalue of $\alpha$</b> if $\alpha\l(m\r)=\lambda m$ for some non-zero $m\in M$.
 * If $\lambda\in R$ is an eigenvalue of $\alpha$, the <b>eigenspace of $\lambda$</b> is the submodule $E_\lambda\coloneqq\ker\l(\lambda\id-\alpha\r)=\l\{m\in M\st\alpha\l(m\r)=\lambda m\r\}$ consisting of <b>$\lambda$-eigenvectors of $\alpha$</b>.
+* The collection of all eigenvalues of $\alpha$ is called the <b>spectrum of $\alpha$</b>, denoted $\sigma\l(\alpha\r)$.
 
 ```
 
-<b>Remark.</b> The collection of all eigenvalues of $\alpha$ is the set of roots of the characteristic polynomial $\cchi_\alpha$.
+<b>Remark.</b> The spectrum $\sigma\l(\alpha\r)$ is the set of roots of the characteristic polynomial $\cchi_\alpha$. Indeed, $\lambda\in\sigma\l(\alpha\r)$ iff $\alpha\l(m\r)=\lambda m$ for some non-zero $m\in M$, iff $\l(\lambda\id-\alpha\r)\l(m\r)=0$ for some non-zero $m\in M$. This occurs iff $\lambda\id-\alpha$ is not injective, iff $\cchi_\alpha\!\l(\lambda\r)=\det\l(\lambda\id-\alpha\r)=0$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> The spectrum of an operator is invariant under similarity. Indeed, if $\beta=\pi\alpha\pi^{-1}$ for some $\pi\in\Aut\l(M\r)$ and $\alpha\l(m\r)=\lambda m$ for some non-zero $m\in M$, then
+$$\begin{equation}
+    \beta\l(\pi\l(m\r)\r)=\pi\alpha\pi^{-1}\l(\pi\l(m\r)\r)=\pi\l(\alpha\l(m\r)\r)=\pi\l(\lambda m\r)=\lambda\pi\l(m\r).\exqedin
+\end{equation}$$
 
 ---
 

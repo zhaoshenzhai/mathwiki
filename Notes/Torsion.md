@@ -14,7 +14,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Structure Theorem]]
 Sufficiencies: [[Characterizations of fields|Cyclic $\Rightarrow$ torsion-free (field)]]
-Equivalences: [[Characterizations of PIDs|Torsion-free $\Leftrightarrow$ free (PID)]]
+Equivalences: [[Characterizations of PIDs#^torsion-free-iff-free]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

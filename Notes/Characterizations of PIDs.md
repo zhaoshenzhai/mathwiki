@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    torsion-free-iff-free: Torsion-free $\Leftrightarrow$ free (PID)
+---
+
 <div class="topSpace"></div>
 
 Date Created: 23/07/2023 20:04:42
@@ -18,6 +23,7 @@ Let $R$ be an integral domain. Then $R$ is a PID iff any of the following hold.
 * Every finitely-generated $R$-module is torsion-free iff it is free.
 
 ```
+^torsion-free-iff-free
 
 <i>Proof.</i> Assume that $R$ is a PID. The two statements are then corollaries of the Freedom Theorem for PIDs. Indeed, let $\pi:R^n\onto M$ be a surjection.
 * The kernel of $\pi$ is a submodule of the free module $R^n$, which is itself free, so there is an isomorphism $\phi:R^m\to\ker\pi$ for some $m\leq n$.
