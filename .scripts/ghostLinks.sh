@@ -4,17 +4,28 @@ cd $MATHWIKI_DIR/Notes
 
 echo ""
 
-allDoubleLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | sed 's/\[\[//g' | sed 's/\]\]//g' | sed 's/|.*$//g' | sed 's/$/.md/g' | sort | uniq)
+allDoubleLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | sed 's/\[\[//g' | sed 's/\]\]//g' | sed 's/|.*$//g' | sort | uniq)
 while IFS= read -r link; do
-    if [[ ! -f "$link" ]] && [[ ! "$link" == Images\/* ]]; then
-        link=$(echo "$link" | sed 's/.md//g')
-        echo -e "    ${PURPLE}$link${NC}"
-        doubleLink=$(echo "$link" | sed 's/^/\\[\\[/g' | sed 's/$/\\]\\]/g')
-        appearsIn=$(grep --color -il "$doubleLink" *)
-        while IFS= read -r file; do
-            file=$(echo "$file" | sed 's/.md//g')
-            echo "        $file"
-        done <<< "$appearsIn"
+    if [[ ! -f "$link.md" ]] && [[ ! "$link" == Images\/* ]]; then
+        check=1
+
+        doubleLink=$(echo "$link" | sed 's/^/\[\[/g' | sed 's/$/\]\]/g')
+        fileLink=$(echo "$link" | sed 's/#^.*//g')
+        if [[ ! "$link" == "$fileLink" ]]; then
+            id=$(echo "$doubleLink" | sed 's/\]\]//g' | sed 's/\[\[.*#^//g')
+            if [[ -f "$fileLink.md" ]] && [[ $(grep "\^$id$" "$fileLink.md") ]]; then
+                check=0
+            fi
+        fi
+
+        if [[ $check == 1 ]]; then
+            echo -e "    ${PURPLE}$doubleLink${NC}"
+            appearsIn=$(grep --color -il "$(echo "$doubleLink" | sed 's/\[\[/\\[\\[/g' | sed 's/\]\]/\\]\\]/g')" *)
+            while IFS= read -r file; do
+                file=$(echo "$file" | sed 's/.md//g')
+                echo "        $file"
+            done <<< "$appearsIn"
+        fi
     fi
 done <<< "$allDoubleLinks"
 
