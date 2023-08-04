@@ -13,8 +13,8 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Structure Theorem]]
-Sufficiencies: [[Characterizations of fields]], [[Characterizations of PIDs]]
-Equivalences: <i>Not Applicable</i>
+Sufficiencies: [[Characterizations of fields|Cyclic $\Rightarrow$ torsion-free (field)]]
+Equivalences: [[Characterizations of PIDs|Torsion-free $\Leftrightarrow$ free (PID)]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

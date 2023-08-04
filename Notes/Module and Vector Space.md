@@ -7,13 +7,13 @@ mathLink: auto
 Date Created: 23/01/2023 17:40:02
 Tags: #Type/Definition #Topic/Module_Theory
 
-Types: [[Cyclic Module]], [[Inner Product Space]]
+Types: [[Finitely-generated Module]], [[Inner Product Space]]
 Examples: [[Abelian Group]], [[Ring]], [[Ideal]]
 Constructions: [[Module Homomorphism]], [[Submodule]], [[Direct Product (module)]], [[Direct Sum (Module)]], [[Torsion]], [[Annihilator]], [[Dual Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basis Extension Theorem]], [[Invariant Basis Number]]
-Sufficiencies: [[Structure Theorem]], [[Free Module]]
+Sufficiencies: [[Free Module]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Krull's Theorem]], [[Ideal is maximal iff quotient is a field]]
 

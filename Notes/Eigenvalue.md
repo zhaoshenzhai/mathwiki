@@ -16,7 +16,7 @@ Justifications: [[Characterizations of PIDs]]
 ``` ad-Definition
 title: Definition.
 
-Let $\alpha\in\End\l(M\r)$ be a linear operator on a free $R$-module $M$. A scalar $\lambda\in R$ is called an <b>eigenvalue of $\alpha$</b> if $\alpha\l(m\r)=\lambda m$ for some non-zero $m\in M$.
+Let $\alpha\in\End\l(M\r)$ be a linear operator on a fin-gen. free $R$-module $M$. A scalar $\lambda\in R$ is called an <b>eigenvalue of $\alpha$</b> if $\alpha\l(m\r)=\lambda m$ for some non-zero $m\in M$.
 * If $\lambda\in R$ is an eigenvalue of $\alpha$, the <b>eigenspace of $\lambda$</b> is the submodule $E_\lambda\coloneqq\ker\l(\lambda\id-\alpha\r)=\l\{m\in M\st\alpha\l(m\r)=\lambda m\r\}$ consisting of <b>$\lambda$-eigenvectors of $\alpha$</b>.
 
 ```
