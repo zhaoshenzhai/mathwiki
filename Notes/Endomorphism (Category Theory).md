@@ -4,7 +4,7 @@ Date Created: 21/02/2022 15:32:10
 Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: [[Automorphism (Category Theory)]]
-Examples: [[Endomorphism Ring]]
+Examples: [[Endomorphisms in Category of Groups]], [[Endomorphisms in Category of Modules]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

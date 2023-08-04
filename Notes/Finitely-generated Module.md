@@ -1,11 +1,11 @@
 <div class="topSpace"></div>
 
 Date Created: 04/08/2023 15:01:59
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Cyclic Module]]
-Constructions: [[Eigenvalue]], [[Characteristic Polynomial]]
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Characterizations of fields|Finitely-generated $\Rightarrow$ free (field)]]

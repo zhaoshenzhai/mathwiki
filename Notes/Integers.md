@@ -3,9 +3,13 @@
 Date Created: 09/01/2023 15:29:16
 Tags: #Type/Example #Topic/Ring_Theory
 
+Examples: <i>Not Applicable</i>
 Abstractions: [[Cyclic Group]], [[Euclidean Domain (EUD)]]
-Justifications: [[Universal Property of Free Groups]], [[Omega is an ordinal]]
 Constructions: [[Characteristic]], [[Prime Field]], [[Gaussian Integers]]
+
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Justifications: [[Universal Property of Free Groups]], [[Omega is an ordinal]]
 
 ``` ad-Example
 title: Example (Integers).

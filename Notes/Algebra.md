@@ -4,7 +4,7 @@ Date Created: 16/07/2023 16:56:16
 Tags: #Type/Definition #Topic/Algebra/Later
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Endomorphisms in Category of Modules]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
