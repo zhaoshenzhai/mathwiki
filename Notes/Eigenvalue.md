@@ -5,7 +5,7 @@ Tags: #Type/Definition #In_Progress
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Diagonalization Test]], [[Algebraic and geometric multiplicity]]
+Constructions: [[Diagonalization Test]]
 Generalizations: [[Generalized Eigenvector and Eigenspace]]
 
 Properties: [[Eigenvalues of linear operators on inner product spaces]]
@@ -16,7 +16,7 @@ Justifications: [[Characterizations of PIDs#^torsion-free-iff-free]], [[Vanishin
 ``` ad-Definition
 title: Definition.
 
-Let $\alpha\in\End\l(M\r)$ be a linear operator on a fin-gen. free $R$-module $M$. A scalar $\lambda\in R$ is called an <b>eigenvalue of $\alpha$</b> if $\alpha\l(m\r)=\lambda m$ for some non-zero $m\in M$.
+Let $\alpha\in\End\l(M\r)$ be a linear operator on a fin-gen. free $R$-module $M$ over an integral domain $R$. A scalar $\lambda\in R$ is called an <b>eigenvalue of $\alpha$</b> if $\alpha\l(m\r)=\lambda m$ for some non-zero $m\in M$.
 * If $\lambda\in R$ is an eigenvalue of $\alpha$, the <b>eigenspace of $\lambda$</b> is the submodule $E_\lambda\coloneqq\ker\l(\lambda\id-\alpha\r)=\l\{m\in M\st\alpha\l(m\r)=\lambda m\r\}$ consisting of <b>$\lambda$-eigenvectors of $\alpha$</b>.
 * The collection of all eigenvalues of $\alpha$ is called the <b>spectrum of $\alpha$</b>, denoted $\sigma\l(\alpha\r)$.
 
@@ -28,7 +28,7 @@ Let $\alpha\in\End\l(M\r)$ be a linear operator on a fin-gen. free $R$-module $M
 This allows us to define the <b>algebraic multiplicity</b> of an eigenvalue $\lambda\in\sigma\l(\alpha\r)$ as its multiplicity as a root of $\cchi_\alpha$. Since $\deg\cchi_\alpha=n$, we see that $\l|\sigma\l(\alpha\r)\r|\leq n$, and equality holds (as a multiset) if $R$ is an algebraically closed field.
 
 A different notion of multiplicity is the <b>geometric multiplicity</b> of an eigenvalue $\lambda\in\sigma\l(\alpha\r)$, which is defined as $\rk E_\lambda$ and is invariant under similarity since $\cchi_\alpha$ is. For every $\lambda\in\sigma\l(\alpha\r)$, its geometric multiplicity is no more than its algebraic multiplicity.
-* Indeed, if $\rk E_\lambda\eqqcolon g$, then there is a maximally linearly independent subset $\l\{m_1,\dots,m_g\r\}$ so that $\alpha\l(m_i\r)=\lambda m_i$ for all $1\leq i\leq g$.
+* $\color{red}\textrm{fill in proof with basis extension.}$<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
@@ -40,8 +40,8 @@ In particular, this shows that the algebraic multiplicity of $\lambda$ is invari
 
 ---
 
-<b>Remark.</b> If $M$ is a finitely-generated free module over a PID $R$, then $\lambda_i$-eigenvectors $\l\{m_i\r\}_{i=1}^n$ are linearly independent if $\lambda_1,\dots,\lambda_n$ are distinct eigenvalues of $\alpha$. Indeed, $M$ is torsion-free, so we may induct on $n$ with base case $\l\{m_1\r\}$. If we have a relation $\sum_{i=1}^{n}r_im_i=0$, then
+<b>Remark.</b> If $\lambda_1,\dots,\lambda_n\in\sigma\l(\alpha\r)$ are <i>pairwise distinct</i> eigenvalues of $\alpha$, then any collection $\l\{m_i\r\}_{i=1}^n$ of $\lambda_i$-eigenvectors are linearly independent. Indeed, if $\l\{m_i\r\}$ is linearly dependent, then, after reindexing, there is a shortest relation $\sum_{i=1}^{k}r_im_i=0$ for some non-zero $r_i\in R$ and $1\leq k\leq n$. Then
 $$\begin{equation}
-    \sum_{i=1}^{n}\l(\lambda_n\id-\alpha\r)\l(r_im_i\r)=\sum_{i=1}^{n}\lambda_nr_im_i-r_i\alpha\l(m_i\r)=\sum_{i=1}^{n}\lambda_nr_im_i-\lambda_ir_im_i=\sum_{i=1}^{n-1}r_i\l(\lambda_n-\lambda_i\r)m_i=0.
+    0=\sum_{i=1}^{k}\l(\lambda_k\id-\alpha\r)\l(r_im_i\r)=\sum_{i=1}^{k}\lambda_kr_im_i-r_i\alpha\l(m_i\r)=\sum_{i=1}^{k}\lambda_kr_im_i-\lambda_ir_im_i=\sum_{i=1}^{k-1}r_i\l(\lambda_k-\lambda_i\r)m_i,
 \end{equation}$$
-Thus $r_i\l(\lambda_n-\lambda_i\r)=0$ for all $1\leq i\leq n-1$ by induction, but since $\lambda_i\neq\lambda_n$, we see that each $r_i=0$. Thus $r_nm_n=0$, so $r_n=0$ too.<span style="float:right;">$\blacklozenge$</span>
+which is impossible since $r_i\neq0$ and $\lambda_i\neq\lambda_k$ for every $1\leq i\leq k-1$.<span style="float:right;">$\blacklozenge$</span>

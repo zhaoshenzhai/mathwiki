@@ -3,7 +3,7 @@
 Date Created: 16/03/2023 18:38:56
 Tags: #Type/Theorem #Topic/Module_Theory/Later
 
-Proved by: [[Geometric multiplicity no more than algebraic multiplicity]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
