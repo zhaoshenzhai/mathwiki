@@ -3,7 +3,7 @@
 Date Created: 16/03/2023 22:43:08
 Tags: #Type/Theorem #Topic/Module_Theory/Later
 
-Proved by: [[Cyclic subspace of finite-dimensional is finite-dimensional]], [[Basic properties of characteristic polynomial and invariant subspaces]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Cayley-Hamilton Theorem]], [[Basic properties of characteristic and minimal polynomials]]
+Properties: [[Cayley-Hamilton Theorem]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Field implies PID]]

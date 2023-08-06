@@ -4,7 +4,7 @@ Date Created: 23/07/2023 19:26:42
 Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Endomorphisms in Category of Modules#^cyclic-subspace]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

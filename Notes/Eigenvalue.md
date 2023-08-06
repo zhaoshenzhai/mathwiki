@@ -6,7 +6,7 @@ Tags: #Type/Definition #In_Progress
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: [[Diagonalization Test]]
-Generalizations: [[Generalized Eigenvector and Eigenspace]]
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Eigenvalues of linear operators on inner product spaces]]
 Sufficiencies: <i>Not Applicable</i>
