@@ -1,5 +1,7 @@
 ---
 mathLink: auto
+mathLink-blocks:
+    vector-space: Vector Space
 ---
 
 <div class="topSpace"></div>
@@ -24,6 +26,7 @@ Let $R$ be a ring. A <b>left $R$-module</b> is an abelian group $M$ equipped wit
 * If $k\coloneqq R$ is a field, we call $M$ a <b>$k$-vector space</b>.
 
 ```
+^vector-space
 
 <b>Remark.</b> A <b>left $R$-action on $M$</b> is a ring homomorphism $\phi:R\to\End\l(M\r)$. This induces a function $\cdot:R\times M\to M$ by $r\cdot m\coloneqq\phi\l(r\r)\l(m\r)$, which satisfies
 $$\begin{equation}

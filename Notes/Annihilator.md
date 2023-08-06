@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Integers|Subgroups of $\Z$]]
+Justifications: [[Integers#^subgroups-of-integers]]
 
 ``` ad-Definition
 title: Definition.

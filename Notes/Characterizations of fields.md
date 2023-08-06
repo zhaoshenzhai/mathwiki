@@ -1,3 +1,9 @@
+---
+mathLink-blocks:
+    cyclic-modules-over-fields-are-torsion-free: Cyclic $\Rightarrow$ torsion-free (field)
+    finitely-generated-over-field-are-free: Finitely-generated $\Rightarrow$ free (field)
+---
+
 <div class="topSpace"></div>
 
 Date Created: 23/07/2023 19:33:10
@@ -19,7 +25,9 @@ Let $R$ be an integral domain. Then the following are equivalent.
 3. Every cyclic $R$-module is torsion-free.
 
 ```
+^cyclic-modules-over-fields-are-torsion-free
 
 <i>Proof.</i> Let $M$ be an $R$-module. That $1\Rightarrow2\Rightarrow3$ is easy, for if $M$ is finitely-generated, we can extend any linearly-independent set to a basis for $M$ and hence $M$ is free. Next, since free modules over an integral domain are torsion-free, we see in particular that cyclic $R$-modules are torsion-free.
+^finitely-generated-over-field-are-free
 
 Assume now that $M\coloneqq R\,/\!\gen{c}$, for some non-zero $c\in R$, is free. Note that $r\l(1+\gen{c}\r)=r+\gen{c}$, so $\gen{1}=M$. But $c\l(1+\gen{c}\r)=0+\gen{c}$ with $c\neq0$, so $\Tor M=M$. Thus $R\,/\!\gen{c}=M=\l\{0\r\}$ by hypothesis, so $\gen{c}=\gen{1}$ and thus $c$ is a unit.<span style="float:right;">$\blacksquare$</span>

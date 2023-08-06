@@ -13,7 +13,7 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Structure Theorem]]
-Sufficiencies: [[Characterizations of fields|Cyclic $\Rightarrow$ torsion-free (field)]]
+Sufficiencies: [[Characterizations of fields#^cyclic-modules-over-fields-are-torsion-free]]
 Equivalences: [[Characterizations of PIDs#^torsion-free-iff-free]]
 Justifications: <i>Not Applicable</i>
 

@@ -255,5 +255,8 @@
       "isFile": true
     }
   ],
+  "blockPrefix": "",
+  "enableFileNameBlockLinks": false,
+  "enableAPI": true,
   "autoUpdate": false
 }

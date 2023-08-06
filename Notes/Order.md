@@ -11,7 +11,7 @@ Generalizations: [[Annihilator]]
 Properties: <i>Not Applicable</i>
 Sufficiencies: [[Cauchy's Theorem]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Universal Property of Free Groups]], [[Integers|Division Algorithm]], [[Lagrange's Theorem]]
+Justifications: [[Universal Property of Free Groups]], [[Integers#^division-algorithm]], [[Lagrange's Theorem]]
 
 ``` ad-Definition
 title: Definition.

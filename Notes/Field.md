@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Real Numbers]]
-Constructions: [[Module and Vector Space|Vector Space]], [[Prime Field]]
+Constructions: [[Module and Vector Space#^vector-space]], [[Prime Field]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Field implies PID]], [[Group of units of finite field is a cyclic group]]

@@ -8,7 +8,7 @@ Examples: [[Cyclic Module]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Characterizations of fields|Finitely-generated $\Rightarrow$ free (field)]]
+Properties: [[Characterizations of fields#^finitely-generated-over-field-are-free]]
 Sufficiencies: [[Structure Theorem]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
