@@ -20,8 +20,6 @@ Let $R$ be a commutative ring and let $G$ be the free abelian group with generat
 * If $\l|I\r|=1$, then $G\iso\Z$, $M\iso\N$, and $R\l[x\r]\coloneqq R\l[\N\r]$ is the ring of <b>univariate polynomials</b>.
 * If $n\coloneqq\l|I\r|$ is finite, then $G\iso\Z^n$, $M\iso\N^n$, and $R\l[x_1,\dots,x_n\r]\coloneqq R\l[\N^n\r]$ is the ring of <b>polynomials in $n$ variables</b>.
 
-If $K\coloneqq R$ is a field, then $K\l[M\r]$ is the <b>vector space of polynomials in $\l|I\r|$ variables</b>.
-
 ```
 
 <b>Remark.</b> By the universal properties of $R\l[x_1,\dots,x_n\r]$, viewed as a monoid ring/algebra, we have the following <b>universal properties of polynomial rings</b>.
@@ -34,7 +32,7 @@ If $K\coloneqq R$ is a field, then $K\l[M\r]$ is the <b>vector space of polynomi
 
 Multivariate polynomials $f\in R\l[x_1,\dots,x_n\r]$ can be written uniquely in the form $f=\sum a_{v_1,\dots,v_n}x_1^{v_1}\cdots x_n^{v_n}$ where $v\in\l\{1,\dots,n\r\}\to\N$ is finitely-supported and the elements $a_v\coloneqq a_{v_1,\dots,v_n}\in R$ are called the <b>coefficients of $f$</b>. The products $a_vx_1^{v_1}\cdots x_n^{v_n}$ are called the <b>monomials</b>, whose <b>degree</b> is $v_1+\cdots+v_n$. The <b>degree of $f$</b> is the maximal degree of the monomials $x_1^{v_1}\cdots x_n^{v_n}$ such that $a_v\neq0$.
 * Note that $f\in R\l[x_1,\dots,x_n\r]$ can be viewed as a polynomial in $x_n$ with coefficients in $R\l[x_1,\dots,x_{n-1}\r]$; that is, a polynomial in $\l(R\l[x_1,\dots,x_{n-1}\r]\r)\l[x_n\r]$. In this case, we may speak of its <b>degree in $x_n$</b> as its degree viewed as a univariate polynomial in $x_n$.
-* We can decompose a polynomial $f\in R\l[x_1,\dots,x_n\r]$ as $f=\sum_d f_d$ where $f_d$ is the sum of all the monomials in $f$ having degree $d$. If $f=f_d$ for some $d\in\N$, then $f$ is said to be <b>homogeneous in degree $d$</b>. If $f,g\in R\l[x_1,\dots,x_n\r]$ are homogeneous of degree $d$ and $e$, respectively, and if $fg\neq0$, then $fg$ is homogeneous with degree $d+e$. Similarly, if $d=e$ and $f+g\neq0$, then $f+g$ is homogeneous with degree $d$.
+* We can decompose a polynomial $f\in R\l[x_1,\dots,x_n\r]$ as $f=\sum_d f_d$ where $f_d$ is the sum of all the monomials in $f$ having degree $d$. If $f=f_d$ for some $d\in\N$, then $f$ is said to be <b>homogeneous in degree $d$</b>. If $f,g\in R\l[x_1,\dots,x_n\r]$ are homogeneous of degree $d$ and $e$, respectively, and if $fg\neq0$, then $fg$ is homogeneous with degree $d+e$. Similarly, if $d=e$ and $f+g\neq0$, then $f+g$ is homogeneous with degree $d$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

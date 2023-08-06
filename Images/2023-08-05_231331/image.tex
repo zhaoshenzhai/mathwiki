@@ -1,0 +1,26 @@
+\documentclass{article}
+
+\input{../../imageConfig.tex}
+\input{../../preamble.sty}
+
+\begin{document}
+    \begin{equation*}
+        C_f\coloneqq
+        \begin{pNiceMatrix}[nullify-dots]
+            0      & \Cdots &     & 0      & -a_0                   \\
+            1      & \Ddots &     & \Vdots & \Vdots[shorten=0.05in] \\
+            0      & \Ddots &     &        &                        \\
+            \Vdots & \Ddots &     & 0      &                        \\
+            0      & \Cdots & 0   & 1      & -a_{d-1}
+        \end{pNiceMatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+        J_n\!\l(\lambda\r)\coloneqq
+        \begin{pNiceMatrix}[nullify-dots]
+            \lambda & 1      & 0      & \Cdots &        & 0      \\
+            0       & \Ddots & \Ddots & \Ddots &        & \Vdots \\
+            \Vdots  & \Ddots &        &        &        &        \\
+                    &        &        &        &        & 0      \\
+                    &        &        &        &        & 1      \\
+            0       & \Cdots &        &        & 0      & \lambda
+        \end{pNiceMatrix}\in\Mat_n\!\l(k\r)
+    \end{equation*}
+\end{document}

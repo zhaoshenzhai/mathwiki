@@ -12,7 +12,7 @@ Abstractions: [[Endomorphism (Category Theory)]]
 Constructions: [[Eigenvalue]], [[Characteristic Polynomial]], [[Minimal Polynomial]]
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: [[Rational Canonical Form]]
+Sufficiencies: [[Canonical Forms]]
 Justifications: [[Universal Property of Monoid Rings and Algebras]]
 
 ``` ad-Example
