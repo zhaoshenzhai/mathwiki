@@ -1,17 +1,22 @@
+---
+mathLink-blocks:
+    eigenvalue-iff-root-of-characteristic: Operator $\alpha$ has eigenvalue $\lambda$ $\Leftrightarrow$ $\cchi_\alpha\!\l(\lambda\r)=0$
+---
+
 <div class="topSpace"></div>
 
 Date Created: 20/06/2022 15:01:38
 Tags: #Type/Definition #In_Progress
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Eigenvalues of linear operators on inner product spaces]]
 Constructions: [[Diagonalization Test]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Eigenvalues of linear operators on inner product spaces]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Eigenvalue iff root of characteristic polynomial]]
-Justifications: [[Characterizations of PIDs#^torsion-free-iff-free]], [[Vanishing of determinant]], [[Characteristic Polynomial#^degree-of-characteristic-polynomial]], [[Polynomial has at most degree-many roots]], [[Polynomial over algebraically closed field splits]]
+Equivalences: <i>Not Applicable</i>
+Justifications: [[Vanishing of determinant]], [[Characteristic Polynomial#^degree-of-characteristic-polynomial]], [[Polynomial has at most degree-many roots]], [[Polynomial over algebraically closed field splits]]
 
 ``` ad-Definition
 title: Definition.
@@ -23,12 +28,10 @@ Let $\alpha\in\End\l(M\r)$ be a linear operator on a fin-gen. free $R$-module $M
 ```
 
 <b>Remark.</b> The spectrum $\sigma\l(\alpha\r)$ is the set of roots of the characteristic polynomial $\cchi_\alpha$, so $\sigma\l(\alpha\r)$ depends very explicitly on how $R$ splits.
+^eigenvalue-iff-root-of-characteristic
 * Indeed, $\lambda\in\sigma\l(\alpha\r)$ iff $\alpha\l(m\r)=\lambda m$ for some non-zero $m\in M$, iff $\lambda\id-\alpha$ is not injective. This occurs iff $\cchi_\alpha\!\l(\lambda\r)=\det\l(\lambda\id-\alpha\r)=0$.
 
-This allows us to define the <b>algebraic multiplicity</b> of an eigenvalue $\lambda\in\sigma\l(\alpha\r)$ as its multiplicity as a root of $\cchi_\alpha$. Since $\deg\cchi_\alpha=n$, we see that $\l|\sigma\l(\alpha\r)\r|\leq n$, and equality holds (as a multiset) if $R$ is an algebraically closed field.
-
-A different notion of multiplicity is the <b>geometric multiplicity</b> of an eigenvalue $\lambda\in\sigma\l(\alpha\r)$, which is defined as $\rk E_\lambda$ and is invariant under similarity since $\cchi_\alpha$ is. For every $\lambda\in\sigma\l(\alpha\r)$, its geometric multiplicity is no more than its algebraic multiplicity.
-* $\color{red}\textrm{fill in proof with basis extension.}$<span style="float:right;">$\blacklozenge$</span>
+This allows us to define the <i>algebraic multiplicity</i> of an eigenvalue $\lambda\in\sigma\l(\alpha\r)$ as its multiplicity as a root of $\cchi_\alpha$. Since $\deg\cchi_\alpha=n$, we see that $\l|\sigma\l(\alpha\r)\r|\leq n$, and equality holds (as a multiset) if $R$ is an algebraically closed field. A different notion of multiplicity is the <i>geometric multiplicity</i> of an eigenvalue $\lambda\in\sigma\l(\alpha\r)$, which is defined as $\rk E_\lambda$. The geometric multiplicity of every $\lambda\in\sigma\l(\alpha\r)$ is no more than its algebraic multiplicity, and considerations of the converse gives us the <i>diagonalization test</i>.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -6,15 +6,15 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 08/03/2023 15:50:44
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: [[Eigenvalue]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Cayley-Hamilton Theorem]], [[Eigenvalue iff root of characteristic polynomial]], [[Schur's Theorem]]
-Sufficiencies: [[Characteristic polynomial for a diagonalizable operator]]
+Properties: [[Cayley-Hamilton Theorem]], [[Eigenvalue#^eigenvalue-iff-root-of-characteristic]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Leibniz Formula]], [[Canonical Forms]], [[Cayley-Hamilton Theorem#^structure-of-characteristic-minimal]]
 

@@ -8,7 +8,7 @@ Examples: [[Projection (Linear Algebra)]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Characteristic polynomial for a diagonalizable operator]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Spectral Theorem]]
 Equivalences: [[Diagonalization Test]]
 Justifications: <i>Not Applicable</i>

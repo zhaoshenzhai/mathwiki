@@ -15,7 +15,7 @@ Abstractions: [[Endomorphism (Category Theory)]]
 Constructions: [[Eigenvalue]], [[Characteristic Polynomial]]
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: [[Canonical Forms]]
+Sufficiencies: [[Canonical Forms]], [[Diagonalization Test]]
 Justifications: [[Universal Property of Monoid Rings and Algebras]]
 
 ``` ad-Example

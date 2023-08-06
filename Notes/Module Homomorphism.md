@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Kernel and Cokernel (Module Theory)]], [[General Linear Group]], [[Endomorphisms in Category of Modules]], [[Dual Space]], [[Dual Map]], [[Adjoint Map]]
 Generalizations: [[Antilinear Map]], [[Multilinear Map]]
 
-Properties: [[Monomorphisms and epimorphisms in category of modules]], [[Schur's Theorem]]
+Properties: [[Monomorphisms and epimorphisms in category of modules]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Isomorphism of objects is an equivalence relation]], [[Invariant Basis Number]]
