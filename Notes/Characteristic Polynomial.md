@@ -16,7 +16,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Cayley-Hamilton Theorem]], [[Eigenvalue iff root of characteristic polynomial]], [[Schur's Theorem]]
 Sufficiencies: [[Characteristic polynomial for a diagonalizable operator]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Leibniz Formula]], [[Canonical Forms]]
+Justifications: [[Leibniz Formula]], [[Canonical Forms]], [[Cayley-Hamilton Theorem#^structure-of-characteristic-minimal]]
 
 ``` ad-Definition
 title: Definition.
@@ -34,13 +34,8 @@ where $b_{ii}\coloneqq t-a_{ii}$ for all $i$ and $b_{ij}\coloneqq-a_{ij}$ for al
 
 ---
 
-<b>Remark.</b> The structure of $\cchi_\alpha$ is greatly clarified when $k\coloneqq R$ is a field, in which case we can express $\alpha$ in a canonical form.
-* If $\alpha$ is in Rational Canonical Form, say $\alpha\sim\diag\l(C_{f_1},\dots,C_{f_m}\r)$ for some monic polynomials $f_1\divides\cdots\divides f_m\in k\l[x\r]$, then $\cchi_\alpha=\prod_{i=1}^{m}f_i$. Indeed, it suffices to restrict to a cyclic submodule $V/\!\gen{f}$ and prove that $f$ is the characteristic polynomial of $C_f$. We compute
-![[Images/2023-08-06_161211/image.svg|950]]from which $\det\l(x\id-C_f\r)=\sum_{i=0}^{d}a_ix^i=f$ follows by induction.
-* If $k$ is algebraically closed and $\alpha$ is in Jordan Canonical Form, say $\alpha\sim\diag\l(J_{n_1}\!\l(\lambda_1\r),\dots,J_{n_m}\!\l(\lambda_m\r)\r)$ for some $\lambda_i\in k$ and $n_i\geq1$, then $\cchi_\alpha=\prod_{i=1}^{m}\l(x-\lambda_i\r)^{n_i}$. This is evident from the structure of the Jordan blocks, where $\det\l(x\id-J_{n_i}\!\l(\lambda_i\r)\r)=\l(x-\lambda_i\r)^{n_i}$.
+<b>Remark.</b> The structure of $\cchi_\alpha$ is greatly clarified when $k\coloneqq R$ is a field, in which case we can equip the $k$-vector space $V\coloneqq M$ can be equipped with a $k\l[x\r]$-module structure induced by $\alpha\in\End\l(V\r)$, and we can express $\alpha$ in a canonical form.
+* If $\alpha$ is in Rational Canonical Form, say $\alpha\sim\diag\l(C_{f_1},\dots,C_{f_m}\r)$ for some monic polynomials $f_1\divides\cdots\divides f_m\in k\l[x\r]$, then $\cchi_\alpha=\prod_{i=1}^{m}f_i$.
+* If $k$ is algebraically closed and $\alpha$ is in Jordan Canonical Form, say $\alpha\sim\diag\l(J_{n_1}\!\l(\lambda_1\r),\dots,J_{n_m}\!\l(\lambda_m\r)\r)$ for some $\lambda_i\in k$ and $n_i\geq1$, then $\cchi_\alpha=\prod_{i=1}^{m}\l(x-\lambda_i\r)^{n_i}$.
 
-Since the minimal polynomial $\mu_\alpha$ is the largest invariant factor $f_m$, we obtain the <i>Cayley-Hamilton Theorem</i> as $\mu_\alpha\divides\cchi_\alpha$. In particular, we have $\cchi_\alpha\!\l(\alpha\r)=0$.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-<b>Remark.</b> Since $\det\l(\alpha\r)$ is invariant under similarly, so is $\cchi_\alpha$.<span style="float:right;">$\blacklozenge$</span>
+Another important invariant is the invariant factor $\mu_\alpha\coloneqq f_m$, called the <i>minimal polynomial of $\alpha$</i>. It is the unique monic polynomial in $k\l[x\r]$ generating $\Ann_{k\l[x\r]}\!\l(V\r)$, and the <i>Cayley-Hamilton Theorem</i> states that $\mu_\alpha\divides\cchi_\alpha$.<span style="float:right;">$\blacklozenge$</span>

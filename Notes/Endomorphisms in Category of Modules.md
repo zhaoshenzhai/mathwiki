@@ -12,7 +12,7 @@ Tags: #Type/Example #Topic/Module_Theory
 
 Examples: <i>Not Applicable</i>
 Abstractions: [[Endomorphism (Category Theory)]]
-Constructions: [[Eigenvalue]], [[Characteristic Polynomial]], [[Minimal Polynomial]]
+Constructions: [[Eigenvalue]], [[Characteristic Polynomial]]
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: [[Canonical Forms]]

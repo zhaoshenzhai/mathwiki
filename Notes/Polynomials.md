@@ -4,7 +4,7 @@ Date Created: 22/11/2022 20:04:14
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Characteristic Polynomial]], [[Minimal Polynomial]]
+Examples: [[Characteristic Polynomial]]
 Constructions: [[Evaluation Homomorphism]], [[Root (Polynomial)]], [[Content (polynomial)]]
 Generalizations: <i>Not Applicable</i>
 
