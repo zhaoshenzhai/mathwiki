@@ -6,7 +6,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 Types: [[Euclidean Domain (EUD)]]
 Examples: <i>Not Applicable</i>
 Constructions: [[Order]]
-Generalizations: [[Noetherian Ring]]
+Generalizations: [[Noetherian Module]]
 
 Properties: [[Structure Theorem]], [[Freedom Theorem for Modules over PID]], [[Bezout's Identity]], [[PID implies UFD]]
 Sufficiencies: [[EUD implies PID]], [[Field implies PID]]

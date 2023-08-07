@@ -23,7 +23,7 @@ Two ideals $\mf{a},\mf{b}\nsubgrp R$ are said to be <b>coprime/comaximal</b> if 
 
 ```
 
-<b>Remark.</b> A left ideal $\mf{a}\nsubgrpeq R$ is a left $R$-module via the action $R\times\mf{a}\to\mf{a}:\tpl{r,i}\mapsto ri$; being a left-ideal ensures that $ri\in\mf{a}$. Indeed $\mf{a}$ is a left $R$-submodule of $R$, where $R$ is viewed as a left $R$-module over itself.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A left ideal $\mf{a}\nsubgrpeq R$ is a left $R$-module via the action $R\times\mf{a}\to\mf{a}:\tpl{r,i}\mapsto ri$; being a left-ideal ensures that $ri\in\mf{a}$. Indeed, $\mf{a}$ is a left $R$-submodule of $R$, where $R$ is viewed as a left $R$-module over itself.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

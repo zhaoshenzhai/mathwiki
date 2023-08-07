@@ -3,7 +3,7 @@
 Date Created: 04/08/2023 15:01:59
 Tags: #Type/Definition #Topic/Module_Theory
 
-Types: <i>Not Applicable</i>
+Types: [[Noetherian Module]]
 Examples: [[Cyclic Module]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>

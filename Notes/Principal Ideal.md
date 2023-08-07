@@ -16,6 +16,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a ring. A left/right/two-sided ideal $\mf{a}\nsubgrp R$ is said to be <b>principal</b> if $\mf{a}=Ra$ (resp. $\mf{a}=aR$, $\mf{a}=\gen{a}$) for some $a\in R$, in which case $a$ is said to be a <b>generator for $\mf{a}$</b>.
+Let $R$ be a ring. An ideal $\mf{a}\nsubgrp R$ is said to be <b>principal</b> if $\mf{a}=\gen{a}$ for some $a\in R$, in which case $a$ is said to be a <b>generator for $\mf{a}$</b>.
 
 ```
+
+<b>Remark.</b> If $R$ is not commutative, we say that a left ideal $\mf{a}\nsubgrp R$ is <b>principal</b> if $\mf{a}=aR$ for some $a\in R$. Similarly for right ideals.<span style="float:right;">$\blacklozenge$</span>
