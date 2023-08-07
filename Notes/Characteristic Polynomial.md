@@ -35,7 +35,7 @@ where $b_{ii}\coloneqq t-a_{ii}$ for all $i$ and $b_{ij}\coloneqq-a_{ij}$ for al
 ---
 
 <b>Remark.</b> The structure of $\cchi_\alpha$ is greatly clarified when $k\coloneqq R$ is a field, in which case we can equip the $k$-vector space $V\coloneqq M$ can be equipped with a $k\l[x\r]$-module structure induced by $\alpha\in\End\l(V\r)$, and we can express $\alpha$ in a canonical form.
-* If $\alpha$ is in Rational Canonical Form, say $\alpha\sim\diag\l(C_{f_1},\dots,C_{f_m}\r)$ for some monic polynomials $f_1\divides\cdots\divides f_m\in k\l[x\r]$, then $\cchi_\alpha=\prod_{i=1}^{m}f_i$.
-* If $k$ is algebraically closed and $\alpha$ is in Jordan Canonical Form, say $\alpha\sim\diag\l(J_{n_1}\!\l(\lambda_1\r),\dots,J_{n_m}\!\l(\lambda_m\r)\r)$ for some $\lambda_i\in k$ and $n_i\geq1$, then $\cchi_\alpha=\prod_{i=1}^{m}\l(x-\lambda_i\r)^{n_i}$.
+* If $\alpha$ is in Rational Canonical Form, say $\alpha\sim\diag\l(C_{f_1},\dots,C_{f_m}\r)$ for some monic polynomials $f_1\divides\cdots\divides f_m\in k\l[x\r]$, then $\cchi_\alpha=\prod_{j=1}^{m}f_j$.
+* If $\cchi_\alpha$ splits and $\alpha$ is in Jordan Canonical Form, say $\alpha\sim\diag\l(J_{r_{ij}}\!\l(\lambda_i\r)\r)$ for some distinct scalars $\lambda_i\in k$ and $r_{ij}\geq1$, then $\cchi_\alpha=\prod_{i=1}^{n}\prod_{j=1}^{m}\l(x-\lambda_i\r)^{r_{ij}}$.
 
 Another important invariant is the invariant factor $\mu_\alpha\coloneqq f_m$, called the <i>minimal polynomial of $\alpha$</i>. It is the unique monic polynomial in $k\l[x\r]$ generating $\Ann_{k\l[x\r]}\!\l(V\r)$, and the <i>Cayley-Hamilton Theorem</i> states that $\mu_\alpha\divides\cchi_\alpha$.<span style="float:right;">$\blacklozenge$</span>
