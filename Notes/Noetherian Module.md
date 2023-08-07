@@ -13,7 +13,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Hilbert's Basis Theorem]]
+Properties: [[Basic properties of Noetherian Modules]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
@@ -21,7 +21,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-An $R$-module $M$ over a commutative ring is said to be <b>Noetherian</b> if every submodule of $M$ is finitely-generated.
+An $R$-module $M$ over a commutative ring $R$ is said to be <b>Noetherian</b> if every submodule of $M$ is finitely-generated.
 
 ```
 

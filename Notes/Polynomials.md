@@ -9,7 +9,7 @@ Constructions: [[Evaluation Homomorphism]], [[Root (Polynomial)]], [[Content (po
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Gauss's Lemma (Irreducibility)]], [[Polynomial has at most degree-many roots]], [[Basic properties of polynomial rings (integral domain)]]
-Sufficiencies: [[Hilbert's Basis Theorem]], [[Polynomial ring over fields is a EUD]], [[Polynomial rings over UFDs are UFDs]]
+Sufficiencies: [[Basic properties of Noetherian Modules#^Hilbert-basis-theorem]], [[Polynomial ring over fields is a EUD]], [[Polynomial rings over UFDs are UFDs]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Universal Property of Monoid Rings and Algebras]]
 

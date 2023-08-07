@@ -19,3 +19,5 @@ title: Definition.
 An $R$-module $M$ is said to be <b>finitely-generated</b> if $F^R\!\l(X\r)\onto M$ for some finite subset $X\subseteq M$.
 
 ```
+
+<b>Remark.</b> If $M$ is finitely-generated, then $M\iso F^R\!\l(X\r)/N$ for some submodule $N\subgrpeq M$.<span style="float:right;">$\blacklozenge$</span>
