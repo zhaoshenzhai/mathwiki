@@ -3,7 +3,7 @@
 Date Created: 09/04/2022 09:43:00
 Tags: #Type/Theorem #Topic/Module_Theory/Later
 
-Proved by: [[Dimension Theorem]], [[Linear map between vector spaces of same dimension is injective iff surjective]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -13,15 +13,8 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Linear Invertibility Theorem).
 
-Let $V$ be a finite-dimensional vector space, say with $n\coloneqq\dim V$, and let $T\in\End\l(V\r)$. The following are equivalent:
-1. $T$ is invertible.
-2. $\im T=V$ (equivalently, $\rank T=n$).
-3. $\ker T=\l\{0\r\}$ (equivalently, $\nullity T=0$).
-4. $\det T\neq0$.
-5. $T^\dual$ is invertible.
+Let $\alpha\in\End\l(M\r)$ be a linear operator in a fin-gen. free $R$-module $M$. Then $\alpha\in\GL\l(M\r)$ iff $\det\alpha\in R^\times$.
 
 ```
 
-<i>Proof.</i> Clearly $1\Rightarrow2$ and $1\Rightarrow3$. Conversely, $2\Leftrightarrow3$ by the Dimension Theorem and they each imply $1$. It remains to show that $1\Leftrightarrow4$ and $1\Leftrightarrow5$.
-* ($1\Leftrightarrow4$): 
-* ($1\Leftrightarrow5$): 
+<i>Proof.</i> Since $\det:\GL_n\!\l(R\r)\to R^\times$ is an $R$-module homomorphism, we see that $\alpha\beta=\id$ gives us that $\det\l(\alpha\r)\det\l(\beta\r)=1$ and hence $\det\alpha\in R^\times$. Conversely, the Leibniz expansion gives us the cofactor expansion $\det\alpha=\sum_{i=1}^{n}\l(-1\r)^{i+j}a_{ij}\det\alpha^{\l(i,j\r)}$ for all $j=1,\dots,n$, 

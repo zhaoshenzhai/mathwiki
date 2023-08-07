@@ -8,18 +8,20 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 04/08/2023 15:27:00
-Tags: #Type/Example #Topic/Module_Theory
+Tags: #Type/Definition #Topic/Module_Theory
 
+Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Abstractions: [[Endomorphism (Category Theory)]]
 Constructions: [[Eigenvalue]], [[Characteristic Polynomial]]
+Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: [[Canonical Forms]], [[Diagonalization Test]]
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Universal Property of Monoid Rings and Algebras]]
 
-``` ad-Example
-title: Example.
+``` ad-Definition
+title: Definition.
 
 The <b>endomorphism $R$-algebra</b> of an $R$-module $M$ over a commutative ring $R$ is the $R$-algebra $\End_{\catmod[R]}\!\l(M\r)$ under the induced addition, left $R$-action, and composition of maps.
 

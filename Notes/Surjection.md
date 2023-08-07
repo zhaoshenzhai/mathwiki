@@ -4,7 +4,7 @@ Date Created: 20/01/2022 09:09:09
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: [[Bijection]]
-Examples: [[Projection Maps]], [[Linear map between vector spaces of same dimension is injective iff surjective]]
+Examples: [[Projection Maps]]
 Constructs: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

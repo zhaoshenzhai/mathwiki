@@ -5,7 +5,7 @@ mathLink: $\l[T^\dual\r]=\l[T\r]^\trans$
 <div class="topSpace"></div>
 
 Date Created: 01/02/2023 13:39:36
-Tags: #Type/Proposition #Topic/Module_Theory/Later
+Tags: #Type/Proposition #Topic/Module_Theory/Later/Dual
 
 Proved by: [[Dual basis is a basis and components of linear forms]]
 References: <i>Not Applicable</i>

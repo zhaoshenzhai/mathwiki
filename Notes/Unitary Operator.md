@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Linear map between vector spaces of same dimension is injective iff surjective]]
+Justifications: [[Dimension Theorem]]
 
 ``` ad-Definition
 title: Definition.

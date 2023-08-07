@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Ideal]], [[Kernel and Cokernel (Module Theory)]]
-Constructions: [[Quotient Module]], [[Complement (Linear Subspace)]]
+Constructions: [[Quotient Module]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Freedom Theorem for Modules over PID]]

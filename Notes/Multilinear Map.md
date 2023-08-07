@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/06/2022 10:53:56
-Tags: #Type/Definition #Topic/Module_Theory/Later
+Tags: #Type/Definition #Topic/Module_Theory/Later/Dual
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>

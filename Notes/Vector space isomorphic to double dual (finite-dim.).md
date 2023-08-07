@@ -5,9 +5,9 @@ mathLink: $V\iso V^{\dual\dual}$ (finite-dim.)
 <div class="topSpace"></div>
 
 Date Created: 01/02/2023 15:04:52
-Tags: #Type/Proposition #Topic/Module_Theory/Later
+Tags: #Type/Proposition #Topic/Module_Theory/Later/Dual
 
-Proved by: [[Linear map between vector spaces of same dimension is injective iff surjective]], [[Basis Extension Theorem]]
+Proved by: [[Dimension Theorem]], [[Basis Extension Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

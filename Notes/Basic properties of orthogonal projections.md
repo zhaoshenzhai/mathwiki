@@ -3,7 +3,7 @@
 Date Created: 29/06/2022 10:06:15
 Tags: #Type/Proposition #Topic/Functional_Analysis
 
-Proved by: [[Basic properties of orthogonal complements]], [[Characterizations of projections]], [[Pythagorean Theorem]]
+Proved by: [[Basic properties of orthogonal complements]], [[Pythagorean Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

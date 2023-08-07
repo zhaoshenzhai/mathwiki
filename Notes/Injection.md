@@ -4,7 +4,7 @@ Date Created: 20/01/2022 09:20:32
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: [[Bijection]]
-Examples: [[Inclusion Function]], [[Linear map between vector spaces of same dimension is injective iff surjective]]
+Examples: [[Inclusion Function]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

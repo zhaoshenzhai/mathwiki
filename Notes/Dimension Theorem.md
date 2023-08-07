@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/05/2022 20:28:12
-Tags: #Type/Theorem #Topic/Module_Theory
+Tags: #Type/Theorem #Topic/Module_Theory/Later
 
 Proved by: [[Basis Extension Theorem]], [[Universal Property of Free Modules]], [[Splitting Lemma]]
 References: <i>Not Applicable</i>

@@ -3,7 +3,7 @@
 Date Created: 26/01/2023 12:43:49
 Tags: #Type/Definition #Topic/Module_Theory
 
-Types: [[Nilpotent Operator]], [[Normal Operator]], [[Bounded Linear Map]]
+Types: [[Normal Operator]], [[Bounded Linear Map]]
 Examples: <i>Not Applicable</i>
 Constructions: [[Kernel and Cokernel (Module Theory)]], [[General Linear Group]], [[Endomorphisms in Category of Modules]], [[Dual Space]], [[Dual Map]], [[Adjoint Map]]
 Generalizations: [[Antilinear Map]], [[Multilinear Map]]
