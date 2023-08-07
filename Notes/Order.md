@@ -11,7 +11,7 @@ Generalizations: [[Annihilator]]
 Properties: <i>Not Applicable</i>
 Sufficiencies: [[Cauchy's Theorem]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Universal Property of Free Groups]], [[Division Algorithm]], [[Lagrange's Theorem]]
+Justifications: [[Universal Property of Free Groups]], [[Integers#^subgroups-of-integers]], [[Lagrange's Theorem]]
 
 ``` ad-Definition
 title: Definition.
@@ -20,7 +20,7 @@ Let $G$ be a group and take $x\in G$. Consider the unique homomorphism $\phi:\Z\
 
 ```
 
-<b>Remark.</b> In other words, $\ord{x}=\infty$ if $\ker\phi$ vanishes, and $\ord x$ is the smallest positive integer $m\in\ker\phi$ otherwise. Indeed, if $\ker\phi$ vanishes, then $\im\phi\iso\Z$ has infinite cardinality. Otherwise, $\im\phi\iso\Z/m\Z$ has cardinality $m$, where $\ker\phi=m\Z$ follows from the division algorithm.
+<b>Remark.</b> In other words, $\ord{x}=\infty$ if $\ker\phi$ vanishes, and $\ord x$ is the smallest positive integer $m\in\ker\phi$ otherwise. Indeed, if $\ker\phi$ vanishes, then $\im\phi\iso\Z$ has infinite cardinality. Otherwise, $\im\phi\iso\Z/m\Z$ has cardinality $m$, where $\ker\phi=m\Z$ for some $m\in\Z$.
 * If $G=\gen{x}$ is cyclic, then the two cases correspond exactly to when $G\iso\Z/m\Z$ and $G\iso\Z$.<span style="float:right;">$\blacklozenge$</span>
 
 ---

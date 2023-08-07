@@ -8,7 +8,7 @@ Date Created: 03/11/2022 19:59:00
 Tags: #Type/Definition #Topic/Group_Theory #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Multiplicative Group of Integers mod n]], [[Linear Invertibility Theorem]]
+Examples: [[Integers#^invertible-iff-coprime]], [[Linear Invertibility Theorem]]
 Constructions: [[Division Ring]]
 Generalizations: <i>Not Applicable</i>
 

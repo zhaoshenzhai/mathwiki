@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 06/05/2023 02:17:20
 Tags: #Type/Proposition #Topic/Group_Theory
 
-Proved by: [[Lagrange's Theorem]], [[Divisor sum of Euler's Totient function]]
+Proved by: [[Lagrange's Theorem]], [[Euler's Totient Function#^divisor-sum]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

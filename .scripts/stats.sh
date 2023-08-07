@@ -15,8 +15,7 @@ while [ ! -z "$1" ]; do
             numNotes=$(ls | wc -l)
             numObsidianLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | wc -l)
             numMarkdownLinks=$(sed 's/),\ /)\n/g' * | grep -Po "\[.*\]\(.*\)" | wc -l)
-            numExternalLinks=$(sed 's/),\ /)\n/g' * | grep -Po "\[.*\]\(obsidian://.*\)" | wc -l)
-            numLinks=$(($numObsidianLinks + $numMarkdownLinks - $numExternalLinks - $numImages))
+            numLinks=$(($numObsidianLinks + $numMarkdownLinks - $numImages))
 
             ratio=$(echo "scale=3; $numLinks/$numNotes" | bc)
 
