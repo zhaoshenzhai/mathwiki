@@ -27,7 +27,7 @@ Let $R$ be a ring and let $M$ be a monoid. The <b>monoid ring of $M$ over $R$</b
 
 Additionally, $R\l[M\r]$ can be equipped with an $R$-algebra structure via the action $\l(r\alpha\r)\l(x\r)\coloneqq r\alpha\l(x\r)$, in which case $R\l[M\r]$ is called a <b>monoid algebra</b>.
 * If $G\coloneqq M$ is a group, then $R\l[G\r]$ is called the <b>group ring/algebra of $G$ over $R$</b>.
-* If $K\coloneqq R$ is a field, then $K\l[M\r]$ is a $K$-vector space.
+* If $k\coloneqq R$ is a field, then $k\l[M\r]$ is a $k$-vector space.
 
 ```
 
