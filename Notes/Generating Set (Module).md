@@ -4,7 +4,7 @@ Date Created: 18/07/2023 16:18:03
 Tags: #Type/Definition #Topic/Module_Theory
 
 Types: [[Orthonormal Basis]]
-Examples: [[Dimension of Minkowski sum]]
+Examples: <i>Not Applicable</i>
 Constructions: [[Finitely-generated Module]], [[Dual Basis]]
 Generalizations: <i>Not Applicable</i>
 

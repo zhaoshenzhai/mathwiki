@@ -19,7 +19,7 @@ These notes are meant to be a distilled version of the math I've learnt where id
 
 ## Note Types and Templates
 
-Each note is currently one of five types (four atomic notes and one [map of content](https://forum.obsidian.md/t/on-the-process-of-making-mocs/1060/11)):
+Each note is currently one of four types:
 
 * **Definition**, either of an `object` or of a `notion`, which links to:
     * Types: _Objects/notions of type `object`/`notion` with additional restrictions._
@@ -40,10 +40,6 @@ Each note is currently one of five types (four atomic notes and one [map of cont
 * **Axiom**, written as a formal `statement` within a certain framework, which links to:
     * Equivalences: _Equivalent statements - including its proof._
     * Constructions: _Objects/notions that crucially depend on `statement`._
-* **MOC**, summarizing my understanding of a mathematical `theory`, which links to:
-    * Context: _Assumed background formalism(s) of `theory`._
-    * Excursions: _Subtheories of `theory` or its intersections with other theories._
-    * Abstractions: _Abstractions of `theory` or its unifications with other theories._
 
 These templates are automatically [inserted][templatesInsert] whenever a note is created. After the links, the main content is written with remarks where appropriate.
 
@@ -71,7 +67,7 @@ I wrote some bash scripts to (try) maintain the consistency of my notes; [main.s
 * Toggling between light and dark mode is handled by [toggleDark.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/toggleDark.sh).
 * Resetting the modification time of each note to its creation time is handled by [resetModifyTime.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/resetModifyTime.sh).
 
-Some stats: 779 notes, 1938 links, 66 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
+Some stats: 773 notes, 1879 links, 66 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
 ## MathLinks
 
@@ -98,6 +94,16 @@ Content starts here.
 ```
 
 This plugin also makes Wikilinks and Markdown Links compatible with MathJax, so links like `[[note|yourAlias]]` and `[yourAlias](note.md)` will be displayed as the rendered MathJax of `yourAlias`. A `mathLink` in `note`, if present, will be overridden by `yourAlias`.
+
+### Links to Blocks/Headings
+Additionally, Obsidian also supports links to blocks `[[note#^block-id]]` and headings like `[[note#section]]`. Any `MathJax` in `#section` will be rendered, and you can associate a `mathLink` to `^block-id` as well by adding a YAML frontmatter like so:
+
+```
+---
+mathLink-blocks:
+    block-id: yourMathLink
+---
+```
 
 ### Templates
 Oftentimes, `mathLinks` of notes involve replacing some text with its math counterpart. For instance, you might have many notes whose title is of the form `... iff ...`.
