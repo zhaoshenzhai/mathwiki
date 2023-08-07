@@ -28,16 +28,16 @@ Let $\alpha\in\End\l(V\r)$ be a linear operator on a finite-dimensional $k$-vect
 
 ---
 
-<b>Remark.</b> If $k$ is algebraically closed, then chasing the equivalence between the invariant factors and the elementary divisors decompositions of $V$ shows us that
-$$\begin{equation}
-    \cchi_\alpha=\prod_{i=1}^{n}\prod_{j=1}^{m_i}\l(x-\lambda_i\r)^{r_{ij}}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \mu_\alpha=\prod_{i=1}^{n}\l(x-\lambda_i\r)^{\max_jr_{ij}}
-\end{equation}$$
-where $\lambda_i\in k$ are distinct scalars and $r_{ij}\geq1$.
-
----
-
 <i>Proof.</i> Equip $V$ with the $k\l[x\r]$-module structure induced by $\alpha$ and express $\alpha$ in Rational Canonical Form, so $\alpha\sim\diag\l(C_{f_1},\dots,C_{f_m}\r)$ for some monic polynomials $f_1\divides\cdots\divides f_m\in k\l[x\r]$. We claim that $\cchi_\alpha=\prod_{j=1}^{m}f_j$ and that $\mu_\alpha=f_m$, from which the result follows.
 ^structure-of-characteristic-minimal
 * Indeed, to prove $\cchi_\alpha=\prod_{j=1}^{m}f_j$ it suffices to restrict to a cyclic submodule $V/\!\gen{f}$ and prove that $f$ is the characteristic polynomial of $C_f$. We compute
 ![[Images/2023-08-06_161211/image.svg|975]]where $g\coloneqq a_1+a_2x+\cdots+a_{d-1}x^{d-1}+x^d$, from which $\det\l(x\id-C_f\r)=\sum_{i=0}^{d}a_ix^i=f$ follows by induction.
 * Observe that a polynomial $f\in k\l[x\r]$ acts on $V\iso\bigoplus_{j=1}^{m}k\l[x\r]/f_j$ as $0$ iff it acts on $k\l[x\r]/f_m$ as $0$, which occurs precisely when $f\in\gen{f_m}$. Thus $f_m\divides\mu_\alpha$, so equality follows since $\mu_\alpha$ generates $\Ann_{k\l[x\r]}\!\l(V\r)$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> If $k$ is algebraically closed, then chasing the equivalence between the invariant factors and the elementary divisors decompositions of $V$ shows us that
+$$\begin{equation}
+    \cchi_\alpha=\prod_{i=1}^{n}\prod_{j=1}^{m_i}\l(x-\lambda_i\r)^{r_{ij}}=\prod_{i=1}^{n}\l(x-\lambda_i\r)^{\sum_jr_{ij}}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \mu_\alpha=\prod_{i=1}^{n}\l(x-\lambda_i\r)^{\max_jr_{ij}}
+\end{equation}$$
+where $\lambda_i\in k$ are distinct scalars and $r_{ij}\geq1$.<span style="float:right;">$\blacklozenge$</span>
