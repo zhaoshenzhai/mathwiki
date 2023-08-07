@@ -4,7 +4,7 @@ Date Created: 27/10/2022 18:45:49
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Integers#^quotients-of-integers]]
 Constructions: [[Quotient Ring]], [[Quotient Module]]
 Generalizations: <i>Not Applicable</i>
 

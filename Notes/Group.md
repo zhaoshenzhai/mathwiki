@@ -3,7 +3,7 @@
 Date Created: 04/05/2022 13:08:40
 Tags: #Type/Definition #Topic/Group_Theory
 
-Types: [[Solvable Group]], [[Abelian Group]], [[Cyclic Group]], [[Simple Group]], [[p-group]]
+Types: [[Solvable Group]], [[Abelian Group]], [[Simple Group]], [[p-group]]
 Examples: [[Symmetric Group]], [[Fundamental Group]], [[Group of Units]]
 Constructions: [[Group Homomorphism]], [[Subgroup]], [[Group Action]], [[Direct Product (group)]], [[Order]], [[Abelianization]], [[Exact Sequence]]
 Generalizations: [[Groupoid]]

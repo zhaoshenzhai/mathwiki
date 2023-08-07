@@ -3,7 +3,7 @@
 Date Created: 28/06/2023 19:31:14
 Tags: #Type/Theorem #Topic/Group_Theory
 
-Proved by: [[Basic properties of p-groups]], [[Cauchy's Theorem]], [[Class Equation]], [[Orbit-Stabilizer Theorem]], [[Lagrange's Theorem]], [[Multiplicative group iff coprime]]
+Proved by: [[Basic properties of p-groups]], [[Cauchy's Theorem]], [[Class Equation]], [[Orbit-Stabilizer Theorem]], [[Lagrange's Theorem]], [[Integers#^invertible-iff-coprime]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

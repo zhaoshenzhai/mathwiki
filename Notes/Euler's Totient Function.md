@@ -15,7 +15,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Euler's Theorem]], [[Divisor sum of Euler's Totient function]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Euler's Product Formula]]
-Justifications: [[Multiplicative group iff coprime]]
+Justifications: [[Integers#^invertible-iff-coprime]]
 
 ``` ad-Definition
 title: Definition.

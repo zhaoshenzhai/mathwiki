@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Isomorphism Theorems]], [[Universal Property of Localization]], [[Multiplicative group iff coprime]]
+Justifications: [[Isomorphism Theorems]], [[Universal Property of Localization]], [[Integers#^invertible-iff-coprime]]
 
 ``` ad-Definition
 title: Definition.

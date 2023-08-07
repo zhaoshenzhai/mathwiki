@@ -3,8 +3,8 @@
 Date Created: 04/05/2022 17:13:39
 Tags: #Type/Definition #Topic/Group_Theory
 
-Types: [[Cyclic Group]]
-Examples: <i>Not Applicable</i>
+Types: <i>Not Applicable</i>
+Examples: [[Integers]]
 Constructions: [[Ring]]
 Generalizations: [[Module and Vector Space]]
 

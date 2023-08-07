@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 13/10/2022 12:18:15
 Tags: #Type/Theorem #Topic/Group_Theory #Topic/Number_Theory
 
-Proved by: [[Multiplicative group iff coprime]], [[Lagrange's Theorem]]
+Proved by: [[Integers#^invertible-iff-coprime]], [[Lagrange's Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

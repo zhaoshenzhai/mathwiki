@@ -4,7 +4,7 @@ Date Created: 16/11/2022 14:28:08
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Integers#^quotients-of-integers]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

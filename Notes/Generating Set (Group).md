@@ -4,7 +4,7 @@ Date Created: 27/09/2022 12:38:49
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Cyclic Group]]
+Examples: [[Integers#^cyclic-group]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

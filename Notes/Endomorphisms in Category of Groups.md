@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 10/06/2023 14:53:48
-Tags: #Type/Example #Topic/Group_Theory
+Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Automorphisms and endomorphisms of cyclic groups]]

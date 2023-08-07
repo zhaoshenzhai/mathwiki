@@ -5,7 +5,7 @@ Tags: #Type/Theorem #Topic/Ring_Theory/Later
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
-Justifications: [[Integers#^division-algorithm]]
+Justifications: [[Division Algorithm]]
 
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>

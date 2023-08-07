@@ -3,7 +3,7 @@
 Date Created: 10/06/2023 15:03:01
 Tags: #Type/Proposition #Topic/Group_Theory
 
-Proved by: [[Integers#^division-algorithm]], [[Bezout's Identity]]
+Proved by: [[Division Algorithm]], [[Bezout's Identity]]
 References: [[Lagrange's Theorem]]
 Justifications: <i>Not Applicable</i>
 
@@ -13,7 +13,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition.
 
-Let $G$ be a cyclic group of order $n$. Then every subgroup $H\leq G$ is cyclic, and conversely, for all $m\divides n$, there is a unique subgroup $H\leq G$ of order $m$.
+Let $G\coloneqq\gen{g}$ be a cyclic group of order $n$. Then every subgroup $H\leq G$ is cyclic, and conversely, for all $m\divides n$, there is a unique subgroup $H\leq G$ of order $m$.
 
 ```
 
