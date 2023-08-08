@@ -17,7 +17,7 @@ Constructions: [[Euler's Totient Function]], [[Characteristic]], [[Prime Field]]
 Properties: [[Subgroups of cyclic groups]], [[Automorphisms and endomorphisms of cyclic groups]]
 Sufficiencies: [[At most one dividing subgroup implies cyclic]], [[Group of units of finite field is a cyclic group]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Universal Property of Free Groups]], [[Division Algorithm]], [[Isomorphism Theorems]], [[Bezout's Identity]]
+Justifications: [[Universal Property of Free Groups]], [[Division Algorithm]], [[EUD implies PID]], [[Isomorphism Theorems]], [[Bezout's Identity]]
 
 ``` ad-Example
 title: Example.
@@ -31,7 +31,7 @@ We construct the <b>integers</b> as the quotient of $\N^2$ under the equivalence
 ^cyclic-group
 
 <i>Proof.</i> For any ring $R$, that $\Z=\gen{1}$ as a group furnishes a unique group homomorphism $\phi:\Z\to R$ sending $1$ to $1_R$. That $\phi\l(rs\r)=\phi\l(r\r)\phi\l(s\r)$ is easy to check, so $\phi$ is a ring homomorphism.
-* Let $H\subgrpeq\Z$ be a subgroup. If $H$ is not trivial, let $a\geq0$ be the smallest positive integer in $H$. For every $x\in H$, the division algorithm furnishes unique integers $n,r\in\Z$ with $0\leq r\leq a$ so that $x=na+r$. Then $r=x-na\in H$, so minimality of $a$ forces $r=0$. Thus $x=na\in n\Z$, showing that $H\subseteq n\Z$. The other inclusion follows from closure of $H$ in $\Z$, so $H=n\Z$ for some $n\in\Z$, as desired.
+* The division algorithm shows in particular that $\Z$ is a Euclidean domain, so $\Z$ is also a PID. Thus every ideal is of principal, of the form $\gen{n}=n\Z$.
 ^subgroups-of-integers
 
 Suppose now that $G=\gen{x}$ is cyclic, so there is a surjection $\phi:\Z\onto G$ mapping $m\mapsto x^m$. Its kernel is $\ker\phi=n\Z$ for some $n\in\Z$. If $\ker\phi$ vanishes, then $G\iso\Z$. In this case, $\ord{x}=\infty$ and $x$ is either $1$ or $-1$. Otherwise, we see that $G\iso\Z/n\Z$. The groups $\Z$ and $\Z/m\Z$ are clearly cyclic, so they are all the cyclic groups.

@@ -1,6 +1,10 @@
+---
+mathLink: auto
+---
+
 <div class="topSpace"></div>
 
-Date Created: 23/11/2022 16:46:30
+Date Created: 16/07/2023 21:24:20
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
@@ -11,12 +15,12 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Gauss's Lemma (Irreducibility)]], [[Basic properties of prime and irreducible elements]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Maximal implies prime]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be an integral domain. An element $a\in R$ is <b>irreducible</b> if it is non-zero, not a unit, and if $a=rs$ implies that either $r$ or $s$ is a unit in $R$.
+Let $R$ be an integral domain. An element $p\in R$ is <b>prime</b> if $p\not\in R^\times$ and $p\divides\!\l(rs\r)$ implies either $p\divides r$ or $p\divides s$, and is <b>irreducible</b> if $p\not\in R^\times$ and $p=rs$ implies either $r$ or $s$ is a unit in $R$.
 
 ```
 
