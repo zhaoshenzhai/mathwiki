@@ -9,7 +9,7 @@ Constructions: [[Image and Preimage]], [[Indexed Family]], [[Functional Limits]]
 Generalizations: [[Morphism (Category Theory)]], [[Class Function]]
 
 Properties: [[Canonical Decomposition of Functions]]
-Sufficiencies: [[Axiom Schema of Replacement]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Injection iff monomorphism (Set Theory)]], [[Surjection iff epimorphism (Set Theory)]]
 Justifications: [[Invertible iff bijective]]
 

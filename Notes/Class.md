@@ -4,7 +4,7 @@ Date Created: 18/01/2022 14:52:36
 Tags: #Type/Definition #Topic/Set_Theory/Later
 
 Types: <i>Not Applicable</i>
-Examples: [[Universal Class]], [[Intersection of empty set is a proper class]], [[Class of Ordinals]]
+Examples: [[Universal Class]], [[Class of Ordinals]]
 Constructions: [[Class Function]], [[Category]]
 Generalizations: <i>Not Applicable</i>
 

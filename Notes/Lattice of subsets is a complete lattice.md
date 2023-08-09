@@ -3,7 +3,7 @@
 Date Created: 25/01/2022 18:38:44
 Tags: #Type/Proposition #Topic/Set_Theory/Later
 
-Proved by: [[Set ordered by inclusion is a poset]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

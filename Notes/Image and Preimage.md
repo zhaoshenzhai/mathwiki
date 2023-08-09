@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Kernel (Group Theory)]], [[Kernel (Ring Theory)]], [[Kernel and Cokernel (Module Theory)]]
-Constructions: [[Covariant Power Set Functor]]
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
