@@ -3,7 +3,7 @@
 Date Created: 23/01/2022 19:53:04
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[De Morgan's Laws]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

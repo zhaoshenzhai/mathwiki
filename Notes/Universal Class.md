@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Set_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Category of Sets]]
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -14,7 +14,7 @@ Equivalences: <i>Not Applicable</i>
 Justifications: [[Russel's Paradox]]
 
 ``` ad-Definition
-title: Definition.(Informal).
+title: Definition (Informal).
 
 The <b>universal class</b> is the proper class $V\coloneqq\l\{x\st x\ \mathit{is\ a\ set}\r\}$.
 

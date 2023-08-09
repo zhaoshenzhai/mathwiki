@@ -4,7 +4,7 @@ Date Created: 20/01/2022 09:30:37
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Identity Function]]
+Examples: <i>Not Applicable</i>
 Constructions: [[Symmetric Group]], [[Rearrangement of Series]]
 Generalizations: <i>Not Applicable</i>
 

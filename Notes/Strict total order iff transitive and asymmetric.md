@@ -7,7 +7,7 @@ mathLink: Strict total order $\Leftrightarrow$ transitive and asymmetric
 Date Created: 03/02/2022 18:10:42
 Tags: #Type/Proposition #Topic/Set_Theory/Later
 
-Proved by: [[Asymmetry implies irreflexivity]], [[Irreflexive and transitive implies asymmetric]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

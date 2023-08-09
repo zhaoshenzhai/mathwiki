@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Well-ordered Relation]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Reflexive closure of strict orders is non-strict]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Strict total order iff transitive and asymmetric]]
 Justifications: <i>Not Applicable</i>

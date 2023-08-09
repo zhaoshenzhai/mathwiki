@@ -9,7 +9,7 @@ Constructions: [[Poset]], [[Total Order]], [[Lexicographical Order]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: [[Reflexive closure of strict orders is non-strict]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

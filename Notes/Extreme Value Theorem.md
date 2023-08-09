@@ -3,7 +3,7 @@
 Date Created: 28/12/2022 21:42:50
 Tags: #Type/Theorem #Topic/Topology
 
-Proved by: [[Image of union is union of images]], [[Compositions of images and preimages]]
+Proved by: <i>Not Applicable</i>
 References: [[Least and greatest on compacta of R]]
 Justifications: <i>Not Applicable</i>
 

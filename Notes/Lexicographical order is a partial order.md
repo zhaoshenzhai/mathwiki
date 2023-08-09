@@ -3,7 +3,7 @@
 Date Created: 23/01/2022 12:26:56
 Tags: #Type/Proposition #Topic/Set_Theory/Later
 
-Proved by: [[Reflexive closure of strict orders is non-strict]], [[Strict lexicographical order is a strict partial order]]
+Proved by: [[Strict lexicographical order is a strict partial order]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

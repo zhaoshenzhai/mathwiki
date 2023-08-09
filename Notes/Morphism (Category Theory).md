@@ -4,7 +4,7 @@ Date Created: 21/02/2022 15:18:46
 Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: [[Invertible Morphism]], [[Endomorphism (Category Theory)]], [[Monomorphism (Category Theory)]], [[Epimorphism (Category Theory)]]
-Examples: [[Identity Morphism]], [[Function]], [[Group Homomorphism]], [[Ring Homomorphism]], [[Module Homomorphism]]
+Examples: [[Function]], [[Group Homomorphism]], [[Ring Homomorphism]], [[Module Homomorphism]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

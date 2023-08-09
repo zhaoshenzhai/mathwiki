@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Successor]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[De Morgan's Laws]], [[Image of union is union of images]], [[Preimage of union is union of preimages]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Axiom of Union]], [[Axiom of Extensionality]]

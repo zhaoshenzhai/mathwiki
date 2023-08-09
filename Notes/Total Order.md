@@ -9,7 +9,7 @@ Constructions: [[Totally Ordered Set]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Lexicographical order is total if orders are total]]
-Sufficiencies: [[Reflexive closure of strict orders is non-strict]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

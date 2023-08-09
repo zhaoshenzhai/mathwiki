@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Well-ordered Relation]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Well-founded relations are irreflexive]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

@@ -4,7 +4,7 @@ Date Created: 12/03/2022 12:53:12
 Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: [[Natural Isomorphism]]
-Examples: [[Identity Natural Transformation]]
+Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

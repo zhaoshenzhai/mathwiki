@@ -4,7 +4,7 @@ Date Created: 12/03/2022 14:02:26
 Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: <i>Not Applicable</i>
-Examples: [[Identity natural transformation is a natural isomorphism]]
+Examples: <i>Not Applicable</i>
 Constructions: [[Left-invertible Functor]], [[Right-invertible Functor]]
 Generalizations: <i>Not Applicable</i>
 

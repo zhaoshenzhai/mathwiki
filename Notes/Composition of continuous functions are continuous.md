@@ -3,7 +3,7 @@
 Date Created: 25/11/2022 08:35:12
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Image and preimage of compositions]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

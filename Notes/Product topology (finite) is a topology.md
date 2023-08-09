@@ -3,7 +3,7 @@
 Date Created: 09/02/2022 09:34:39
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[Cartesian product of intersections]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

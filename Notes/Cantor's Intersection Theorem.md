@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 29/12/2022 11:05:26
 Tags: #Type/Theorem #Topic/Topology
 
-Proved by: [[Compact implies closed (Hausdorff)]], [[De Morgan's Laws]]
+Proved by: [[Compact implies closed (Hausdorff)]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

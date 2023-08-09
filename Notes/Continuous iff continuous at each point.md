@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 24/11/2022 14:01:58
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Compositions of images and preimages]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

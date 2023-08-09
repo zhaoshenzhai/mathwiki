@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Poset]], [[Strict Total Order]], [[Strict Lexicographical Order]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Reflexive closure of strict orders is non-strict]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

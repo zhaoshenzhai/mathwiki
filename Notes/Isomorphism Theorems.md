@@ -3,7 +3,7 @@
 Date Created: 09/05/2023 12:40:54
 Tags: #Type/Theorem #Topic/Group_Theory
 
-Proved by: [[Universal Property of Quotients]], [[Canonical Decomposition of Functions]], [[Basic properties of subgroups]], [[Compositions of images and preimages]]
+Proved by: [[Universal Property of Quotients]], [[Canonical Decomposition of Functions]], [[Basic properties of subgroups]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

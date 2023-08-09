@@ -3,7 +3,7 @@
 Date Created: 23/01/2022 20:05:39
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[De Morgan's Laws]], [[Countable union of countable sets is countable]]
+Proved by: [[Countable union of countable sets is countable]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

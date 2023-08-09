@@ -3,7 +3,7 @@
 Date Created: 27/01/2022 17:19:03
 Tags: #Type/Proposition #Topic/Set_Theory/Later
 
-Proved by: [[Identity function is the identity of function composition]]
+Proved by: <i>Not Applicable</i>
 References: [[Russel's Paradox]]
 Justifications: <i>Not Applicable</i>
 

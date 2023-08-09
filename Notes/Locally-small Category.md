@@ -4,7 +4,7 @@ Date Created: 21/02/2022 13:22:50
 Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: [[Thin Category]]
-Examples: [[Category of Sets]], [[Category of Relations]]
+Examples: [[Category of Relations]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

@@ -7,7 +7,7 @@ mathLink: $X$ countable $\Leftrightarrow$ $X\into\omega$
 Date Created: 13/09/2022 15:29:17
 Tags: #Type/Proposition #Topic/Set_Theory/Later
 
-Proved by: [[Inclusion function is an injection]], [[Composition of injections is an injection]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
