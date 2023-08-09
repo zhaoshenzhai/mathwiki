@@ -9,19 +9,19 @@ Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction and 
 Generalizations: [[Morphism (Category Theory)]], [[Class Function]]
 
 Properties: [[Canonical Decomposition of Functions]]
-Sufficiencies: [[Criteria for equality of functions]], [[Axiom Schema of Replacement]]
-Equivalences: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Sufficiencies: [[Axiom Schema of Replacement]]
+Equivalences: [[Injection iff monomorphism (Set Theory)]], [[Surjection iff epimorphism (Set Theory)]]
+Justifications: [[Invertible iff bijective]]
 
 ``` ad-Definition
 title: Definition.
 
-A binary relation $f$ is a <b>function</b> if for all $x\in\dom f$, there exists a unique $y$ such that $\tpl{x,y}\in f$.
+Let $\Gamma_{\!f}\subseteq X\times Y$ be a binary relation with $\dom\Gamma_{\!f}=X$ and $\ran\Gamma_{\!f}\subseteq Y$. The tuple $f\coloneqq\tpl{\Gamma_{\!f},X,Y}$ is a <b>function</b> if for all $x\in X$, there is a unique $y\in Y$ such that $\tpl{x,y}\in\Gamma_{\!f}$, in which case we write $f:X\to Y$ and $x\mapsto f\l(x\r)\coloneqq y$.
+* For functions $f:X\to Y$ and $g:Y\to Z$, its <b>composition</b> is the function $g\circ f:X\to Z$ mapping $x\mapsto g\l(f\l(x\r)\r)$.
+* Together with the <b>identity function</b> $\id_X:X\to X$ mapping $x\mapsto x$, the class of all sets forms a category $\catset$ whose morphisms are functions.
+* A function $f:X\to Y$ is <b>injective</b> if $f\l(x\r)=f\l(x'\r)$ implies $x=x'$ for all $x,x'\in X$, and is <b>surjective</b> if $\ran f\coloneqq\ran\Gamma_{\!f}=Y$.
+* A function is a <b>bijection</b> if it is both an injection and a surjection; they are the isomorphisms in $\catset$.
 
 ```
 
-<b>Remark.</b> If $f$ is a function with $\dom f=X$ and $\ran f\subseteq Y$ for some sets $X$ and $Y$, write $f:X\to Y$ and call $f$ a <b>function from $X$ into $Y$</b>. For all $x\in\dom f$, the unique $y\in\ran f$ such that $\tpl{x,y}\in f$ is denoted by $f\l(x\r)$ and we write $x\mapsto y$. The set of all functions from $X$ into $Y$ is denoted $Y^X$.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-<b>Remark.</b> It is sometimes convenient to define a function as a triple $f\coloneqq\tpl{\Gamma_{\mathclap{f}}\ ,X,Y}$ where $\Gamma_{\mathclap{f}}\,$ is our original definition of a function, referred now as the <b>graph of $f$</b>. All notations above still apply, but since $\cdm f\coloneqq Y$ is now fixed, call it the <b>codomain of $f$</b>. This makes surjectivity a property of the function $f$ itself, and, more importantly, makes functions morphisms of the category $\catset$ (our original definition violates $\axicat[3]$). If we write $f:X\to Y$, then this definition is implied.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $f:X\to Y$ is an injection, we write $f:X\into Y$, and if it is a surjection, we write $f:X\onto Y$. Compositions of injections are again injections, and compositions of surjections are again surjections.

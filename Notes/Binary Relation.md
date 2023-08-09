@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Set_Theory/Later
 
 Types: [[Function]], [[Equivalence Relation and Class]], [[Preorder]], [[Well-founded Relation]]
 Examples: <i>Not Applicable</i> 
-Constructions: [[Image (Relation)]], [[Preimage (Relation)]], [[Composition (Relation)]], [[Reflexive Closure]], [[Category of Relations]]
+Constructions: [[Image (Relation)]], [[Preimage (Relation)]], [[Category of Relations]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

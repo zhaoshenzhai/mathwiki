@@ -5,13 +5,13 @@ Tags: #Type/Definition #Topic/Set_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Category of Sets]]
-Generalizations: [[Composition (Relation)]]
+Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
-Properties: [[Image and preimage of compositions]], [[Identity function is the identity of function composition]], [[Composition of injections is an injection]], [[Composition of surjections is a surjection]], [[Composition of continuous functions are continuous]], [[Composition of uniformly continuous functions are uniformly continuous]], [[Composition of Lipschitz functions are Lipschitz]]
+Properties: [[Composition of injections is an injection]], [[Composition of surjections is a surjection]], [[Composition of continuous functions are continuous]], [[Composition of uniformly continuous functions are uniformly continuous]], [[Composition of Lipschitz functions are Lipschitz]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Composition of functions is a function]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.
