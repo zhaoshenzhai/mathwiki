@@ -19,7 +19,7 @@ These notes are meant to be a distilled version of the math I've learnt where id
 
 ## Note Types and Templates
 
-Each note is currently one of four types:
+Each note is currently one of three types:
 
 * **Definition**, either of an `object` or of a `notion`, which links to:
     * Types: _Objects/notions of type `object`/`notion` with additional restrictions._
@@ -37,9 +37,6 @@ Each note is currently one of four types:
     * Justifications: _Proofs of implicit assumptions of `object`/`notion` in `statement`._<br/><br/>
     * Specializations: _Reformulations/proofs of instances of `statement`._
     * Generalizations: _Statements and proofs of abstractions of `statement`._
-* **Axiom**, written as a formal `statement` within a certain framework, which links to:
-    * Equivalences: _Equivalent statements - including its proof._
-    * Constructions: _Objects/notions that crucially depend on `statement`._
 
 These templates are automatically [inserted][templatesInsert] whenever a note is created. After the links, the main content is written with remarks where appropriate.
 
