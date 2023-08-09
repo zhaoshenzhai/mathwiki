@@ -4,7 +4,7 @@ Date Created: 20/01/2022 09:09:09
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: [[Bijection]]
-Examples: [[Projection Maps]]
+Examples: [[Cartesian Product#^projection-maps]]
 Constructs: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

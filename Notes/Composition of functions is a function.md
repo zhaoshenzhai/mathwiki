@@ -3,7 +3,7 @@
 Date Created: 22/01/2022 09:50:41
 Tags: #Type/Proposition #Topic/Set_Theory/Later
 
-Proved by: [[Composition of relations is a relation]], [[Cartesian product is monotone w.r.t. subsets]]
+Proved by: [[Composition of relations is a relation]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

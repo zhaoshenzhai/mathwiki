@@ -3,7 +3,7 @@
 Date Created: 16/01/2022 16:34:42
 Tags: #Type/Axiom #Topic/Set_Theory/Later
 
-Constructions: [[Binary Relation]], [[Cartesian Product (Finite)]]
+Constructions: [[Binary Relation]], [[Cartesian Product]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

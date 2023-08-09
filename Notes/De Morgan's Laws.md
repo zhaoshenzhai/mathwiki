@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 18/01/2022 16:48:35
 Tags: #Type/Theorem #Topic/Set_Theory
 
-Proved by: [[Double complement of set is set itself]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

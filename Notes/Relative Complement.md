@@ -5,10 +5,10 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i> 
-Constructions: [[Set of Relative Complements]]
+Constructions: <i>Not Applicable</i> 
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[De Morgan's Laws]], [[Complement is anti-monotone w.r.t. subsets]], [[Double complement of set is set itself]], [[Complement of images subset of image of complement; left-unique implies equality]], [[Complement of preimages subset of preimage of complement; right-unique implies equality]]
+Properties: [[De Morgan's Laws]], [[Complement is anti-monotone w.r.t. subsets]], [[Complement of images subset of image of complement; left-unique implies equality]], [[Complement of preimages subset of preimage of complement; right-unique implies equality]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
@@ -23,4 +23,4 @@ $$\begin{equation}
 
 ```
 
-<b>Remark.</b> Trivially, we have $v\comp u\subseteq v$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> We have $v\comp u\subseteq v$ and $v\comp\l(v\comp u\r)=u$.<span style="float:right;">$\blacklozenge$</span>

@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Function space constructed from a Cartesian product]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.
@@ -21,7 +21,3 @@ Let $\l\{R_i\r\}$ be a family of rings. The <b>direct product of $\l\{R_i\r\}$</
 ```
 
 <b>Remark.</b> The direct product $\prod R_i$, equipped with the projection maps $\l\{\pi_i\r\}$, is a product in $\catring$.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-<b>Remark.</b> In particular, if $X$ is a non-empty set, then $\prod_{x\in X}R=R^X$ is the ring of functions from $X$ into $R$.<span style="float:right;">$\blacklozenge$</span>

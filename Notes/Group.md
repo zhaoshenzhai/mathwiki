@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Solvable Group]], [[Abelian Group]], [[Simple Group]], [[p-group]]
 Examples: [[Symmetric Group]], [[Fundamental Group]], [[Group of Units]]
-Constructions: [[Group Homomorphism]], [[Subgroup]], [[Group Action]], [[Direct Product (group)]], [[Order]], [[Abelianization]], [[Exact Sequence]]
+Constructions: [[Group Homomorphism]], [[Subgroup]], [[Group Action]], [[Direct Product (Group)]], [[Order]], [[Abelianization]], [[Exact Sequence]]
 Generalizations: [[Groupoid]]
 
 Properties: [[Cauchy's Theorem]]

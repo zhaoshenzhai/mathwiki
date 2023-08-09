@@ -10,8 +10,8 @@ Generalizations: [[Morphism (Category Theory)]], [[Class Function]]
 
 Properties: [[Canonical Decomposition of Functions]]
 Sufficiencies: [[Criteria for equality of functions]], [[Axiom Schema of Replacement]]
-Equivalences: [[Function space constructed from a Cartesian product]]
-Justifications: [[Function space is a set]]
+Equivalences: <i>Not Applicable</i>
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

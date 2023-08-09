@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Finite Set]], [[Countable Set]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Cartesian product respects equinumerosity]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Isomorphism of sets is an equivalence relation]]

@@ -15,7 +15,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Function space constructed from a Cartesian product]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.
@@ -25,7 +25,3 @@ Let $\l\{M_i\r\}_{i\in I}$ be a family of left $R$-modules. The <b>direct produc
 ```
 
 <b>Remark.</b> The direct product $\prod M_i$, equipped with the projection maps $\l\{\pi_i\r\}$, is a product in $\catmod[R]$. If $I$ is finite, then it coincides with $\bigoplus M_i$ and hence is a coproduct in $\catmod[R]$ too.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-<b>Remark.</b> In particular, if $X$ is a non-empty set, then $\prod_{x\in X}M=M^X$ is the $R$-module of functions from $X$ into $M$.<span style="float:right;">$\blacklozenge$</span>

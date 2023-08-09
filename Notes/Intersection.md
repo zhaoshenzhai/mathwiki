@@ -8,7 +8,7 @@ Examples: [[Intersection of empty set is a proper class]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[De Morgan's Laws]], [[Image of intersection subset of intersection of images; left-unique implies equality]], [[Preimage of intersection is intersection of preimages; right-unique implies equality]], [[Cartesian product of intersections]]
+Properties: [[De Morgan's Laws]], [[Image of intersection subset of intersection of images; left-unique implies equality]], [[Preimage of intersection is intersection of preimages; right-unique implies equality]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Axiom Schema of Specification]], [[Axiom of Extensionality]]
