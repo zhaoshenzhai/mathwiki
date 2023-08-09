@@ -1,11 +1,11 @@
 <div class="topSpace"></div>
 
-Date Created: 24/01/2022 15:29:44
-Tags: #Type/Definition #Topic/Set_Theory/Later
+Date Created: 25/01/2022 11:03:12
+Tags: #Type/Definition #Topic/Set_Theory
 
 Types: [[Bounded Poset]], [[Meet and Join-semilattices]], [[Dedekind-complete Ordered Set]], [[Totally Ordered Set]]
 Examples: [[Inclusion Poset]]
-Constructions: [[Minimal and Maximal Elements]], [[Lower and Upper Bounds]], [[Initial Segment]], [[Chain]]
+Constructions: [[Minimal and Maximal Elements]], [[Lower and Upper Bounds]], [[Initial Segment]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -16,8 +16,9 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set and $\leq$ be a partial order on $X$. The pair $\tpl{X,\leq}$ is called a <b>partially ordered set</b> or a <b>poset</b>.
+Let $X$ be a set. A binary relation $\leq$ on $X$ is a <b>partial order on $X$</b> if $\leq$ an antisymmetric preorder on $X$.
+* A set $X$, equipped with a partial order $\leq$ on $X$, is a <b>partially ordered set</b> (or a <b>poset</b>).
 
 ```
 
-<b>Remark.</b> Note that the pair $\tpl{X,<}$ is also called a poset; one can be constructed from the other.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A <i>chain</i> is a totally-ordered subset $C\subseteq X$ of a poset $X$.<span style="float:right;">$\blacklozenge$</span>

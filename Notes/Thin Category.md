@@ -4,7 +4,7 @@ Date Created: 21/02/2022 18:32:55
 Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: <i>Not Applicable</i>
-Examples: [[Preorder Category]]
+Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

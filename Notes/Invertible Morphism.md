@@ -4,7 +4,7 @@ Date Created: 22/02/2022 14:27:06
 Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: [[Automorphism (Category Theory)]]
-Examples: [[Bijection]]
+Examples: <i>Not Applicable</i>
 Constructions: [[Natural Isomorphism]]
 Generalizations: <i>Not Applicable</i>
 

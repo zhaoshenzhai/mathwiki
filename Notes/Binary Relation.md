@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 14/01/2022 17:57:16
-Tags: #Type/Definition #Topic/Set_Theory/Later
+Tags: #Type/Definition #Topic/Set_Theory
 
-Types: [[Function]], [[Equivalence Relation and Class]], [[Preorder]], [[Well-founded Relation]]
+Types: [[Function]], [[Equivalence Relation and Class]], [[Preordered Set]], [[Well-founded Relation]]
 Examples: <i>Not Applicable</i> 
 Constructions: [[Category of Relations]]
 Generalizations: <i>Not Applicable</i>

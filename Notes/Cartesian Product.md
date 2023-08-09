@@ -7,7 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 20/01/2022 13:11:23
-Tags: #Type/Definition #Topic/Set_Theory/Later
+Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i> 
