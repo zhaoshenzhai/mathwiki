@@ -8,8 +8,8 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Image (Function)]], [[Preimage (Function)]], [[Restriction and Extension (Function)]], [[Composition (Function)]], [[Indexed Family]], [[Category of Sets]], [[Functional Limits]], [[Local and Global Extrema]]
 Generalizations: [[Morphism (Category Theory)]], [[Class Function]]
 
-Properties: [[Collection of all functions is a proper class]]
-Sufficiencies: [[Canonical Decomposition of Functions]], [[Criteria for equality of functions]], [[Formula in replacement image constructs a function]]
+Properties: [[Canonical Decomposition of Functions]]
+Sufficiencies: [[Criteria for equality of functions]], [[Axiom Schema of Replacement]]
 Equivalences: [[Function space constructed from a Cartesian product]]
 Justifications: [[Function space is a set]]
 

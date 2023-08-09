@@ -3,7 +3,7 @@
 Date Created: 20/01/2022 10:03:21
 Tags: #Type/Axiom #Topic/Set_Theory/Later
 
-Constructions: [[Replacement Image]]
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -20,4 +20,4 @@ $$\begin{equation}
 
 ```
 
-<b>Remark.</b> If $\phi\l(x,y\r)$ is thought of as a class function and $\dom\phi\l(x,y\r)$ is some set $D$, then Replacement asserts that the image of the function $f$ defined by $\phi\l(x,y\r)$ is a set.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $\phi\l(x,y\r)$ is thought of as a class function with $\dom\phi\l(x,y\r)=D$, then Replacement asserts that the image $I=\l\{y\st\ex x\in D:\phi\l(x,y\r)\r\}$ of the function $f$ defined by $\phi\l(x,y\r)$ is a set.<span style="float:right;">$\blacklozenge$</span>
