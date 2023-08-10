@@ -6,7 +6,7 @@ Tags: #Type/Definition #Topic/Set_Theory
 Types: [[Group Homomorphism]], [[Ring Homomorphism]], [[Module Homomorphism]], [[Continuous Function]], [[Bounded Function]], [[Contractive Function]], [[Riemann Integrable Function]], [[Monotone Function]]
 Examples: <i>Not Applicable</i>
 Constructions: [[Image and Preimage]], [[Functional Limits]], [[Local and Global Extrema]]
-Generalizations: [[Morphism (Category Theory)]], [[Class Function]]
+Generalizations: [[Morphism (Category Theory)]]
 
 Properties: [[Canonical Decomposition of Functions]]
 Sufficiencies: <i>Not Applicable</i>

@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Orbit-Stabilizer Theorem]], [[Class Equation]], [[Cauchy-Frobenius Formula]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Fundamental Theorem of Equivalence Relations]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

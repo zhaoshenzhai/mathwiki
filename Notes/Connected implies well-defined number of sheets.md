@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 22/05/2023 14:07:01
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Fundamental Theorem of Equivalence Relations]], [[Connected iff only empty and entire set is clopen]]
+Proved by: [[Connected iff only empty and entire set is clopen]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

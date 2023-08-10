@@ -4,7 +4,7 @@ Date Created: 19/02/2022 15:00:15
 Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
-Examples: [[Closed Interval]]
+Examples: <i>Not Applicable</i>
 Constructions: [[Perfect Set]]
 Generalizations: <i>Not Applicable</i>
 
