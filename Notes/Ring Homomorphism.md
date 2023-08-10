@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Isomorphism Theorems]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Isomorphism of objects is an equivalence relation]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

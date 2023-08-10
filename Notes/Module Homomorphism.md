@@ -11,7 +11,7 @@ Generalizations: [[Antilinear Map]], [[Multilinear Map]]
 Properties: [[Monomorphisms and epimorphisms in category of modules]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Isomorphism of objects is an equivalence relation]], [[Invariant Basis Number]]
+Justifications: [[Invariant Basis Number]]
 
 ``` ad-Definition
 title: Definition.

@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Quotients are equivariant iff subgroups are conjugate]]
-Justifications: [[Isomorphism of objects is an equivalence relation]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.
