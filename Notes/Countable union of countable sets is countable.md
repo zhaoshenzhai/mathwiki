@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/12/2022 16:13:51
-Tags: #Type/Proposition #Topic/Set_Theory
+Tags: #Type/Proposition #Topic/Set_Theory/Later/Ordinal
 
 Proved by: [[Countable iff injects into naturals]], [[Omega is an ordinal]], [[Finite product of countable sets is countable]]
 References: <i>Not Applicable</i>

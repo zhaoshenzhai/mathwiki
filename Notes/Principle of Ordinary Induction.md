@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/02/2022 13:39:26
-Tags: #Type/Proposition #Topic/Set_Theory/Later
+Tags: #Type/Proposition #Topic/Set_Theory/Later/Ordinal
 
 Proved by: [[Omega is an initial segment of ON]], [[Well-ordering well-orders subsets]], [[ON is well-ordered by membership]]
 References: <i>Not Applicable</i>

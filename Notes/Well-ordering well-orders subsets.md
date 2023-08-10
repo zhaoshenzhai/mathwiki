@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 30/01/2022 18:40:57
-Tags: #Type/Proposition #Topic/Set_Theory/Later
+Tags: #Type/Proposition #Topic/Set_Theory/Later/Ordinal
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>

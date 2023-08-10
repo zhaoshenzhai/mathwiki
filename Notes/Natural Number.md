@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/02/2022 20:24:48
-Tags: #Type/Definition #Topic/Set_Theory/Later
+Tags: #Type/Definition #Topic/Set_Theory/Later/Ordinal
 
 Types: [[Prime Number]]
 Examples: <i>Not Applicable</i>

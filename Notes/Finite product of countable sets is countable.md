@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/12/2022 16:06:39
-Tags: #Type/Proposition #Topic/Set_Theory
+Tags: #Type/Proposition #Topic/Set_Theory/Later/Ordinal
 
 Proved by: [[Countable iff injects into naturals]], [[Fundamental Theorem of Arithmetic]]
 References: <i>Not Applicable</i>
