@@ -15,7 +15,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Least or greatest equals minimal or maximal for totally ordered sets]]
 Sufficiencies: [[Least and greatest on compacta of R]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Least and Greatest elements are unique]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

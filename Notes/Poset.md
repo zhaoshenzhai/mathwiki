@@ -3,8 +3,8 @@
 Date Created: 25/01/2022 11:03:12
 Tags: #Type/Definition #Topic/Set_Theory
 
-Types: [[Bounded Poset]], [[Meet and Join-semilattices]], [[Dedekind-complete Ordered Set]], [[Totally Ordered Set]]
-Examples: [[Inclusion Poset]]
+Types: [[Bounded Poset]], [[Lattice]], [[Dedekind-complete Ordered Set]], [[Totally Ordered Set]]
+Examples: <i>Not Applicable</i>
 Constructions: [[Minimal and Maximal Elements]], [[Lower and Upper Bounds]], [[Initial Segment]]
 Generalizations: <i>Not Applicable</i>
 

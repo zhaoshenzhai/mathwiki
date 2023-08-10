@@ -4,7 +4,7 @@ Date Created: 24/01/2022 15:59:15
 Tags: #Type/Definition #Topic/Set_Theory/Later
 
 Types: <i>Not Applicable</i>
-Examples: [[Lattice of Subsets]], [[Lattice of Topologies]]
+Examples: [[Lattice of Topologies]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

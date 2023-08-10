@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Dedekind-complete bounded convex sets are intervals]], [[Nested Interval Theorem]], [[Monotone Convergence Theorem]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[LUB property iff GLB property]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

@@ -3,7 +3,7 @@
 Date Created: 06/03/2022 15:11:37
 Tags: #Type/Definition #Topic/Category_Theory/Later
 
-Types: [[Left-invertible Functor]], [[Right-invertible Functor]], [[Diagram]]
+Types: [[Left-invertible Functor]], [[Right-invertible Functor]]
 Examples: [[Path Components]], [[Fundamental Group]]
 Constructions: [[Natural Transformation]], [[Comma Category]], [[Composition (Functor)]]
 Generalizations: <i>Not Applicable</i>

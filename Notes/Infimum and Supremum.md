@@ -9,13 +9,13 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Limit Superior and Inferior]]
-Constructions: [[Meet and Join-semilattices]], [[Dedekind-complete Ordered Set]], [[Diameter]]
+Constructions: [[Lattice]], [[Dedekind-complete Ordered Set]], [[Diameter]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Supremum and infimum are unique]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

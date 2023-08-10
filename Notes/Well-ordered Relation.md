@@ -8,7 +8,7 @@ Examples: [[ON is well-ordered by membership]]
 Constructions: [[Ordinal (von Neumann)]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Well-ordering well-orders subsets]], [[Lexicographical order of well-orderings is a well-order]]
+Properties: [[Well-ordering well-orders subsets]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
