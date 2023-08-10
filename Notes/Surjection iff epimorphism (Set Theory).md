@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 21/02/2022 13:19:31
 Tags: #Type/Proposition #Topic/Category_Theory/Later
 
-Proved by: [[Right-invertible iff surjection (Choice)]], [[Right-invertible implies epimorphism]]
+Proved by: [[Invertible iff bijective#^surjection-iff-right-invertible]], [[Right-invertible implies epimorphism]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
