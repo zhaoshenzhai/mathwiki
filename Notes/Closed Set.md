@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Perfect Set]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Closed subset of compact set is compact]], [[Set of closed sets iff topology on a set]]
+Properties: [[Closed subset of compact set is compact]]
 Sufficiencies: [[Closure]], [[Compact implies closed (Hausdorff)]]
 Equivalences: [[Sequential characterization of closed sets (metric)]]
 Justifications: <i>Not Applicable</i>

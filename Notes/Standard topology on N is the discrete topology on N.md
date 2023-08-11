@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 07/02/2022 15:43:53
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[Discrete topology (basis)]], [[Criteria for collection to be a basis for an existing topology]], [[Successor of natural number is a natural number]]
+Proved by: [[Discrete topology (basis)]], [[Successor of natural number is a natural number]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

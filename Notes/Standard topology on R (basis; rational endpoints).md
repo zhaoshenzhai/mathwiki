@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 04/02/2022 14:47:46
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[Criteria for collection to be a basis for an existing topology]], [[Q is dense in R]]
+Proved by: [[Q is dense in R]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

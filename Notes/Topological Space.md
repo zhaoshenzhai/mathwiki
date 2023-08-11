@@ -22,8 +22,15 @@ Let $X$ be a set. A <b>topology on $X$</b> is a family $\mc{T}\subseteq\pow\l(X\
 
 ```
 
-<b>Remark.</b> Equivalently, we may consider a family $\mc{F}\subseteq\pow\l(X\r)$ containing $\em$ and $X$, but is now closed under (arbitrary) intersections and finite unions instead, whose elements are called <b>closed sets</b>. Every topology induces a family of closed sets and vice-versa.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Equivalently, we may consider a family $\mc{F}\subseteq\pow\l(X\r)$ containing $\em$ and $X$, whose elements are called <b>closed sets</b>, but is now closed under (arbitrary) intersections and finite unions instead. Every topology induces a family of closed sets and vice-versa.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<b>Remark.</b> A sufficient criterion for a subset $U\subseteq X$ to be open is if every $x\in U$ admits an open set $U_x\ni x$ such that $U_x\subseteq U$. We say that $U$ is <b>covered</b> by $\l\{U_x\r\}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A sufficient criterion for a subset $U\subseteq X$ to be open is if every $x\in U$ admits an open set $U_x\ni x$ such that $U_x\subseteq U$. In this case, we see that $U=\bigcup_{x\in X}U_x$ with each $U_x$ open, so $U$ is indeed open.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> Fix a subset $A\subseteq X$. The <i>closure</i> of $A$ is the intersection $\bar{A}$ of all closed sets containing $A$, and similarly the <i>interior</i> of $A$ is the union $A^\circ$ of all open sets contained in $A$. The operations are ‘dual’ in the sense that $\l(A^\circ\r)^c=\bar{A^c}$ and $(\bar{A})^c=\l(A^c\r)^\circ$. We note that $x\in\bar{A}$ iff every neighborhood of $x$ intersects $A$.
+* We prove the contrapositive. Indeed, if $x\not\in\bar{A}$, then there is a closed set $F\supseteq A$ such that $x\not\in F$. Then $x\in U\coloneqq F^c$, which is open, and $U\cap A\subseteq U\cap F=\em$. Conversely, if $U$ is a neighborhood of $x$ disjoint from $A$, then $x\not\in F\coloneqq U^\comp$, which is closed and contains $A$. Thus $x\not\in\bar{A}$.
+
+The <i>boundary</i> of $A$ is the difference $\del A\coloneqq\bar{A}\comp A^\circ$. Since $\l(A^\circ\r)^c=\bar{A^c}$, we see that $x\in\del A$ iff every neighborhood of $x$ intersects both $A$ and $A^c$. Note that $\bar{A}=A\cup\del A$.

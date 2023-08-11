@@ -3,7 +3,7 @@
 Date Created: 24/01/2022 12:31:06
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[Criteria for collection to be a basis for an existing topology]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
