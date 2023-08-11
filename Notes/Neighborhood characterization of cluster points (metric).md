@@ -3,7 +3,7 @@
 Date Created: 04/01/2023 15:30:16
 Tags: #Type/Proposition #Topic/Real_Analysis
 
-Proved by: [[Characterizations of closure]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
