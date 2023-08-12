@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Real_Analysis #Topic/Set_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: [[Existence of nth roots]]
-Constructions: [[Real Line (Topology)]], [[Complex Numbers]]
+Constructions: [[Topologies on R]], [[Complex Numbers]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Archimedean Property of R]], [[Q is dense in R]], [[Metric-completeness of R]], [[Heine-Borel Theorem]]

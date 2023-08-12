@@ -4,7 +4,7 @@ Date Created: 23/01/2022 19:05:00
 Tags: #Type/Definition #Topic/Topology
 
 Types: [[Compact Space]], [[Sequentially Compact Space]], [[Limit-point Compact Space]], [[Connected Space]]
-Examples: [[Order Space (Topology)]], [[Trivial Topology]], [[Discrete Topology]], [[Cofinite Topology]], [[Cocountable Topology]]
+Examples: [[Order Space (Topology)]], [[Topologies on R]]
 Constructions: [[Continuous Function]], [[Closure et al]], [[Product Space (Topology)]], [[Topological Subspace]], [[Sequential Limits]], [[Functional Limits]], [[Covering Space]]
 Generalizations: <i>Not Applicable</i>
 

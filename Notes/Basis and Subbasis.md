@@ -8,7 +8,7 @@ Date Created: 23/01/2022 21:25:09
 Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
-Examples: [[Order Topology]], [[Metric Topology]], [[Product Space (Topology)]], [[Trivial topology (basis)]], [[Discrete topology (basis)]], [[Standard topology on R (basis; rational endpoints)]], [[Product topology (basis; component from bases)]], [[Subspace topology (basis)]]
+Examples: [[Metric Topology]], [[Product Space (Topology)]], [[Product topology (basis; component from bases)]], [[Subspace topology (basis)]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

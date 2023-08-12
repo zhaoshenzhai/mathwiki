@@ -3,7 +3,7 @@
 Date Created: 12/02/2022 15:10:37
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[Order topology (subbasis)]], [[Subspace topology (subbasis)]]
+Proved by: [[Subspace topology (subbasis)]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

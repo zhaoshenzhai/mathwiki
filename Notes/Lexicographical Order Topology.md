@@ -4,7 +4,7 @@ Date Created: 07/02/2022 11:31:18
 Tags: #Type/Definition #Topic/Topology/Later
 
 Types: <i>Not Applicable</i>
-Examples: [[Lexicographical Order Topology on R2]], [[Lexicographical Order Topology on N2]]
+Examples: [[Lexicographical Order Topology on R2]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Set_Theory/Later/Ordinal
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Cofinite Topology]], [[Countable Set]]
+Constructions: [[Countable Set]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

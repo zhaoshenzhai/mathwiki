@@ -3,7 +3,7 @@
 Date Created: 16/02/2022 16:51:32
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[Restricted order topology subset of subspace topology]], [[Order topology (subbasis)]], [[Subspace topology (subbasis)]], [[Half-infinite open rays are open in the order topology]]
+Proved by: [[Restricted order topology subset of subspace topology]], [[Subspace topology (subbasis)]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
