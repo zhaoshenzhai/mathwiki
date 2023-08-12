@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Limit Superior and Inferior]]
-Constructions: [[Lattice]], [[Dedekind-complete Ordered Set]], [[Diameter]]
+Constructions: [[Dedekind-complete Ordered Set]], [[Diameter]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -25,4 +25,4 @@ Let $\tpl{X,\leq}$ be a poset and fix $S\subseteq X$. The <b>infimum of $S$ in $
 
 ```
 
-<b>Remark.</b> If $l$ is the infimum of $S$, write $\inf S\coloneqq l$. Similarly, if $u$ is the supremum of $S$, write $\sup S\coloneqq u$. In the context of lattice theory, the infimum is also called the <b>meet of $S$</b>, denoted by $\bigwedge S$, and the supremum is also called the <b>join of $S$</b>, denoted by $\bigvee S$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $l$ is the infimum of $S$, write $\inf S\coloneqq l$. Similarly, if $u$ is the supremum of $S$, write $\sup S\coloneqq u$.<span style="float:right;">$\blacklozenge$</span>
