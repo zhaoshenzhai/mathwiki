@@ -9,7 +9,7 @@ Constructions: [[Continuous Function]], [[Closure et al]], [[Product Space (Topo
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: [[Basis (Topology)]], [[Subbasis (Topology)]]
+Sufficiencies: [[Basis and Subbasis]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
