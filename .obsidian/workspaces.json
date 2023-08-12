@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "c98fe2d320abc4b3",
+            "id": "b911a8c250af7961",
             "type": "tabs",
             "children": [
               {
-                "id": "e08ec3e20a2d42ef",
+                "id": "5578c32b7ba0f1fd",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -76,7 +76,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "294597bc1a532b30",
@@ -103,7 +103,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 266.5
+        "width": 266.5,
+        "collapsed": true
       },
       "right": {
         "id": "5b3c2ad05cc53b8f",
@@ -121,8 +122,8 @@
                   "state": {
                     "options": {
                       "collapse-filter": true,
-                      "search": "path:Notes -tag:#Type/MOC",
-                      "localJumps": 3,
+                      "search": "path:Notes",
+                      "localJumps": 4,
                       "localBacklinks": true,
                       "localForelinks": true,
                       "localInterlinks": false,
@@ -132,63 +133,63 @@
                       "collapse-color-groups": false,
                       "colorGroups": [
                         {
-                          "query": "tag:#Topic/Set_Theory OR tag:#Later/Set_Theory",
+                          "query": "tag:#Topic/Set_Theory",
                           "color": {
                             "a": 1,
                             "rgb": 14701138
                           }
                         },
                         {
-                          "query": "tag:#Topic/Category_Theory OR tag:#Later/Category_Theory",
+                          "query": "tag:#Topic/Category_Theory",
                           "color": {
                             "a": 1,
                             "rgb": 14725458
                           }
                         },
                         {
-                          "query": "tag:#Topic/Group_Theory OR tag:#Later/Group_Theory",
+                          "query": "tag:#Topic/Group_Theory",
                           "color": {
                             "a": 1,
                             "rgb": 11657298
                           }
                         },
                         {
-                          "query": "tag:#Topic/Ring_Theory OR tag:#Later/Ring_Theory",
+                          "query": "tag:#Topic/Ring_Theory",
                           "color": {
                             "a": 1,
                             "rgb": 5431378
                           }
                         },
                         {
-                          "query": "tag:#Topic/Module_Theory OR tag:#Later/Module_Theory",
+                          "query": "tag:#Topic/Module_Theory",
                           "color": {
                             "a": 1,
                             "rgb": 5431473
                           }
                         },
                         {
-                          "query": "tag:#Topic/Topology OR tag:#Later/Topology",
+                          "query": "tag:#Topic/Topology",
                           "color": {
                             "a": 1,
                             "rgb": 5419488
                           }
                         },
                         {
-                          "query": "tag:#Topic/Analysis OR tag:#Later/Analysis",
+                          "query": "tag:#Topic/Real_Analysis",
                           "color": {
                             "a": 1,
                             "rgb": 5395168
                           }
                         },
                         {
-                          "query": "tag:#Topic/Complex_Analysis OR tag:#Later/Complex_Analysis",
+                          "query": "tag:#Topic/Complex_Analysis",
                           "color": {
                             "a": 1,
                             "rgb": 11621088
                           }
                         },
                         {
-                          "query": "tag:#Topic/Functional_Analysis OR tag:#Later/Functional_Analysis",
+                          "query": "tag:#Topic/Functional_Analysis",
                           "color": {
                             "a": 1,
                             "rgb": 14701233
@@ -198,14 +199,14 @@
                       "collapse-display": true,
                       "showArrow": true,
                       "textFadeMultiplier": -3,
-                      "nodeSizeMultiplier": 1.79156809733018,
+                      "nodeSizeMultiplier": 1.9609646108916,
                       "lineSizeMultiplier": 1.29302181037405,
                       "collapse-forces": true,
-                      "centerStrength": 0.0770708554638942,
-                      "repelStrength": 20,
-                      "linkStrength": 0.903965303593556,
-                      "linkDistance": 500,
-                      "scale": 0.023574838472727566,
+                      "centerStrength": 0.1,
+                      "repelStrength": 18.1920216819193,
+                      "linkStrength": 0.605179522418828,
+                      "linkDistance": 470,
+                      "scale": 0.037462428690893404,
                       "close": false
                     }
                   }
@@ -227,7 +228,7 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "e08ec3e20a2d42ef"
+      "active": "5578c32b7ba0f1fd"
     }
   },
   "active": "workspace"

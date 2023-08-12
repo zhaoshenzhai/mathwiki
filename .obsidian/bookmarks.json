@@ -6,7 +6,7 @@
       "title": "Types",
       "options": {
         "collapse-filter": true,
-        "search": "path:Notes -tag:#Type/MOC",
+        "search": "path:Notes",
         "showTags": false,
         "showAttachments": false,
         "hideUnresolved": false,
@@ -40,13 +40,6 @@
               "a": 1,
               "rgb": 16342365
             }
-          },
-          {
-            "query": "tag:#Type/MOC",
-            "color": {
-              "a": 1,
-              "rgb": 16773058
-            }
           }
         ],
         "collapse-display": true,
@@ -69,7 +62,7 @@
       "title": "Topics",
       "options": {
         "collapse-filter": true,
-        "search": "path:Notes -tag:#Type/MOC",
+        "search": "path:Notes",
         "showTags": false,
         "showAttachments": false,
         "hideUnresolved": false,
