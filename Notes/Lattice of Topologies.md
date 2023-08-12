@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Criteria for fineness w.r.t. bases]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Lattice of topologies is a complete lattice]]
@@ -20,4 +20,5 @@ Let $X$ be a set. The <b>lattice of topologies on $X$</b> is the complete lattic
 
 ```
 
-<b>Remark.</b> Let $\mc{T}_1$ and $\mc{T}_2$ be topologies on $X$. If $\mc{T}_1\subseteq\mc{T}_2$, then $\mc{T}_2$ is <b>finer</b> than $\mc{T}_1$ and $\mc{T}_1$ is <b>coarser</b> than $\mc{T}_2$. They are <b>comparable</b> if either $\mc{T}_1\subseteq\mc{T}_2$ or $\mc{T}_2\subseteq\mc{T}_1$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Let $\mc{T}_1$ and $\mc{T}_2$ be topologies on $X$. If $\mc{T}_1\subseteq\mc{T}_2$, then $\mc{T}_2$ is <i>finer</i> than $\mc{T}_1$ and $\mc{T}_1$ is <i>coarser</i> than $\mc{T}_2$. They are <i>comparable</i> if either $\mc{T}_1\subseteq\mc{T}_2$ or $\mc{T}_2\subseteq\mc{T}_1$.
+* If $\mc{B}_1$ and $\mc{B}_2$ are respective bases for the topologies $\mc{T}_1$ and $\mc{T}_2$, then $\mc{T}_2$ is finer than $\mc{T}_1$ iff for each $x\in X$ and each $B_1\in\mc{B}_1$ containing $x$, there is a basis element $B_2\in\mc{B}_2$ such that $x\in B_2\subseteq B_1$.<span style="float:right;">$\blacklozenge$</span>

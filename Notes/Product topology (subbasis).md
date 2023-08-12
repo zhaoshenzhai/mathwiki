@@ -3,7 +3,7 @@
 Date Created: 09/02/2022 11:02:01
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[Criteria for subbasis to generate existing basis]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

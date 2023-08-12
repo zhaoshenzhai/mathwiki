@@ -7,7 +7,7 @@ mathLink: $\LLtopR$ strictly finer than $\sttopR$
 Date Created: 05/02/2022 11:06:10
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[Criteria for fineness w.r.t. bases]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

@@ -3,7 +3,7 @@
 Date Created: 11/02/2022 17:57:27
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[Criteria for subbasis to generate existing basis]], [[Subspace topology (basis)]]
+Proved by: [[Subspace topology (basis)]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

@@ -7,7 +7,7 @@ mathLink: $\ULtopR$ strictly finer than $\KtopR$
 Date Created: 05/02/2022 10:24:48
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[Criteria for fineness w.r.t. bases]], [[Upper-limit topology strictly finer than standard topology on R]], [[Q is dense in R]]
+Proved by: [[Upper-limit topology strictly finer than standard topology on R]], [[Q is dense in R]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

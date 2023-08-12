@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 10/02/2022 12:42:39
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[Criteria for fineness w.r.t. bases]], [[Product topology (basis; component from bases)]]
+Proved by: [[Product topology (basis; component from bases)]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

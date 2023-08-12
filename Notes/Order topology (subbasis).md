@@ -3,7 +3,7 @@
 Date Created: 08/02/2022 12:25:47
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[Criteria for subbasis to generate existing basis]], [[Half-infinite open rays are open in the order topology]]
+Proved by: [[Half-infinite open rays are open in the order topology]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

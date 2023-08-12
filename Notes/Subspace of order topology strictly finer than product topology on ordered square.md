@@ -3,7 +3,7 @@
 Date Created: 18/02/2022 16:17:33
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[Criteria for fineness w.r.t. bases]], [[Subspace topology (basis)]], [[Product topology (basis; component from bases)]]
+Proved by: [[Subspace topology (basis)]], [[Product topology (basis; component from bases)]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
