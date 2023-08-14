@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 21/03/2023 11:08:06
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Monotone Convergence Theorem]], [[Convergent implies bounded (sequential)]]
+Proved by: [[Convergent implies bounded (sequential)]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

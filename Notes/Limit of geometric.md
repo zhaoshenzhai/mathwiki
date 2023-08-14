@@ -7,7 +7,7 @@ mathLink: $a^n\to0$ or $+\infty$
 Date Created: 04/10/2022 14:52:29
 Tags: #Type/Proposition #Topic/Real_Analysis
 
-Proved by: [[Bernoulli's Inequality]], [[Limit of 1 over linear]], [[Squeezed Distance Lemma]], [[Monotone Convergence Theorem]]
+Proved by: [[Bernoulli's Inequality]], [[Limit of 1 over linear]], [[Squeezed Distance Lemma]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

@@ -16,7 +16,7 @@ Constructions: [[Complex Numbers]]
 Properties: [[Convergence Criteria in R]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Compact implies closed (Hausdorff)]], [[Compact implies bounded]], [[Sequential characterization of closed sets (metric)]], [[Characterizations of compactness (metric space)]]
+Justifications: [[Compact implies closed (Hausdorff)]], [[Sequential characterization of closed sets (metric)]], [[Characterizations of compactness (metric space)]]
 
 ``` ad-Example
 title: Example.

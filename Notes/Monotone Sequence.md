@@ -8,7 +8,7 @@ Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth roo
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Monotone Convergence Theorem]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Monotone Subsequence Theorem]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

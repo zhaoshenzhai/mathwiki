@@ -9,7 +9,7 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Continuous Extension Theorem]]
-Sufficiencies: [[Compact implies bounded]], [[Sequentially compact implies bounded]]
+Sufficiencies: [[Sequentially compact implies bounded]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

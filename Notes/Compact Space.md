@@ -16,6 +16,8 @@ Justifications: [[Compactness is intrinsic]]
 ``` ad-Definition
 title: Definition.
 
-A topological space $\tpl{X,\mc{T}}$ is said to be <b>compact</b> if every open cover has a finite subcover; that is, if for all $\mc{O}\subseteq\mc{T}$ such that $X=\bigcup\mc{O}$, then there exists some finite $\mc{O}'\subseteq\mc{O}$ such that $X=\bigcup\mc{O}'$.
+A topological space $\tpl{X,\mc{T}}$ is said to be <b>compact</b> if every open cover has a finite subcover.
 
 ```
+
+<b>Remark.</b> A compact metric space $\tpl{X,d}$ is clearly bounded, for fix any $p\in X$ and write $X=\bigcup_{n\in\N}B\l(p,n\r)$. Then $X=\bigcup_{i=1}^{k}B\l(p,n_i\r)$ for some finite subcollection $\l\{B\l(p,n_i\r)\r\}$, so setting $m\coloneqq\l(\max_in_i\r)/2$ shows that $d\l(x,y\r)\leq d\l(x,p\r)+d\l(y,p\r)<m/2+m/2=m$ for all $x,y\in X$.<span style="float:right;">$\blacklozenge$</span>

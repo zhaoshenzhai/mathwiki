@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Riemann's Rearrangement Theorem]]
 Sufficiencies: [[Comparison Tests (Series)]], [[Dirichlet's Test]], [[Abel's Test]]
 Equivalences: [[Cauchy's Condensation Test]]
-Justifications: [[Monotone Convergence Theorem]], [[Metric-completeness of R]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

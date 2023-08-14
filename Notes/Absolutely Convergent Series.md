@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{a_k}$ be a sequence in either $\R$ or $\C$. We say that <b>$\sum_{k=0}^{\infty}a_k$ converges absolutely</b> if $\sum_{k=0}^{\infty}\l|a_k\r|$ converges too. Otherwise, if $\sum_{k=0}^{\infty}a_k$ converges but $\sum_{k=0}^{\infty}\l|a_k\r|$ does not, we say that <b>$\sum_{k=0}^{\infty}a_k$ _converges conditionally</b>.
+Let $\tpl{a_k}$ be a sequence in either $\R$ or $\C$. We say that <b>$\sum_{k=0}^{\infty}a_k$ converges absolutely</b> if $\sum_{k=0}^{\infty}\l|a_k\r|$ converges too. Otherwise, if $\sum_{k=0}^{\infty}a_k$ converges but $\sum_{k=0}^{\infty}\l|a_k\r|$ does not, we say that <b>$\sum_{k=0}^{\infty}a_k$ converges conditionally</b>.
 
 ```
 
