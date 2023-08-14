@@ -7,7 +7,7 @@ mathLink: $\sqrt[n]{a}\to1$
 Date Created: 04/10/2022 15:11:41
 Tags: #Type/Proposition #Topic/Real_Analysis
 
-Proved by: [[Bernoulli's Inequality]], [[Limit of 1 over linear]], [[Squeezed Distance Lemma]]
+Proved by: [[Binomial Theorem#^bernoulli]], [[Limit of 1 over linear]], [[Squeezed Distance Lemma]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

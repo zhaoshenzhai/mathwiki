@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    bernoulli: Bernoulli’s Inequality
+---
+
 <div class="topSpace"></div>
 
 Date Created: 13/10/2022 08:20:48
@@ -13,21 +18,21 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Binomial Theorem).
 
-Let $a,b\in\R$ and fix $n\in\N$. Then
-$$\begin{equation}
-    \l(a+b\r)^n=\sum_{k=0}^{n}\binom{n}{k}a^kb^{n-k}.
-\end{equation}$$
+Let $a,b\in\R$ and fix $n\in\N$. Then $\l(a+b\r)^n=\sum_{k=0}^{n}\binom{n}{k}a^kb^{n-k}$.
 
 ```
+
+<b>Remark.</b> An important consequence of the Binomial Theorem is <i>Bernoulli’s Inequality</i>, which states that $\l(1+a\r)^n\geq1+\binom{n}{k}a^k$ for all $k\leq n\in\N^+$.
+^bernoulli
+* In particular, with $k=1$ and $k=2$, we obtain $\l(1+a\r)^n\geq 1+an$ and $\l(1+a\r)^n\geq1+\frac{n\l(n-1\r)}{2}a^2$.<span style="float:right;">$\blacklozenge$</span>
+
+---
 
 <i>Proof.</i> Take $n,k\in\N$. We shall use the facts that $\binom{n}{k}=0$ for all $n<k$ and that
 $$\begin{equation}
     \binom{n+1}{k+1}=\binom{n}{k+1}+\binom{n}{k}.\cref{\ast}
 \end{equation}$$
-We proceed by mathematical induction.
-* If $n=0$, then $\l(a+b\r)^0=1$ and $\sum_{k=0}^0\binom{0}{k}a^kb^{0-k}=\binom{0}{0}a^0b^{0-0}=1\cdot1\cdot1=1$.
-
-Assume now that $\l(a+b\r)^m=\sum_{k=0}^m\binom{m}{k}a^kb^{m-k}$ for some $m\in\N$. Then
+We proceed by mathematical induction with trivial base case $n=0$. Assume now that $\l(a+b\r)^m=\sum_{k=0}^m\binom{m}{k}a^kb^{m-k}$ for some $m\in\N$. Then
 $$\begin{equation*}
     \begin{aligned}
         \l(a+b\r)^{m+1}&=\l(a+b\r)\l(a+b\r)^m && \textrm{Split the product} \\

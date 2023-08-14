@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/02/2023 20:47:10
-Tags: #Type/Definition #Topic/Real_Analysis
+Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: [[Frechet Differentiability and Derivative]]

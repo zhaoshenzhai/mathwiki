@@ -14,7 +14,7 @@ Generalizations: <i>Not Applicable</i>
 title: Theorem (Characterizations of Compactness in Metric Spaces).
 
 Let $\tpl{X,d}$ be a metric space and fix a subspace $K\subseteq X$. Then the following are equivalent.
-1. $K$ is compact.
+1. $K$ is compact; that is, every open cover admits a finite subcover.
 2. $K$ is limit point compact; that is, every infinite subset of $K$ has a cluster (limit) point in $K$.
 3. $K$ is sequentially compact; that is, every sequence in $K$ has a subsequence converging to $K$.
 

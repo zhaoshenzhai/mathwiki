@@ -5,7 +5,7 @@ mathLink: $W$ Banach $\Rightarrow$ $\tpl{\BDD{\l(V,W\r)},\|\slot\|_\textrm{op}}$
 <div class="topSpace"></div>
 
 Date Created: 09/04/2023 15:16:35
-Tags: #Type/Proposition #Topic/Real_Analysis
+Tags: #Type/Proposition #Topic/Functional_Analysis
 
 Proved by: [[Cauchy implies bounded]]
 References: <i>Not Applicable</i>

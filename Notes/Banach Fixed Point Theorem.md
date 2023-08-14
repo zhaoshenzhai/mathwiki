@@ -14,8 +14,7 @@ Generalizations: <i>Not Applicable</i>
 title: Theorem (Banach Fixed Point Theorem).
 
 Let $\tpl{X,d}$ be a (non-empty) complete metric space and consider a contractive map $f:X\to X$. Then there exists a unique fixed point $x\in X$; that is, there exists a unique $x\in X$ such that $f\l(x\r)=x$.
-
-Furthermore, $x$ can be found as the limit of any sequence $\tpl{x_n}$ defined by $x_n\coloneqq f\l(x_{n-1}\r)$ for all $n\geq1$.
+* Furthermore, $x$ can be found as the limit of any sequence $\tpl{x_n}$ defined by $x_n\coloneqq f\l(x_{n-1}\r)$ for all $n\geq1$.
 
 ```
 
@@ -23,8 +22,4 @@ Furthermore, $x$ can be found as the limit of any sequence $\tpl{x_n}$ defined b
 $$\begin{equation}
     x=\lim\limits_{n\to\infty}x_n=\lim\limits_{n\to\infty}f\l(x_{n-1}\r)=f\l(\lim\limits_{n\to\infty}x_{n-1}\r)=f\l(x\r).
 \end{equation}$$
-Lastly, such a fixed point is unique, for suppose that $f\l(y\r)=y$ for some $y\in X$. Then
-$$\begin{equation}
-    d\l(x,y\r)=d\l(f\l(x\r),f\l(y\r)\r)\leq\alpha d\l(x,y\r),
-\end{equation}$$
-so, if $x\neq y$, then $\alpha\geq1$. This contradicts the assumption that $f$ is a contraction.<span style="float:right;">$\blacksquare$</span>
+Lastly, such a fixed point is unique, for suppose that $f\l(y\r)=y$ for some $y\in X$. Then $d\l(x,y\r)=d\l(f\l(x\r),f\l(y\r)\r)\leq\alpha d\l(x,y\r)$, so, if $x\neq y$, then $\alpha\geq1$.<span style="float:right;">$\blacksquare$</span>

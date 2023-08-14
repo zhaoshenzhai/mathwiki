@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Uniform continuity preserve Cauchyness]], [[Composition of uniformly continuous functions are uniformly continuous]]
+Properties: [[Uniform continuity preserve Cauchyness]]
 Sufficiencies: [[Heine-Cantor Theorem]]
 Equivalences: [[Continuous Extension Theorem]]
 Justifications: <i>Not Applicable</i>
@@ -23,12 +23,4 @@ $$\begin{equation}
 
 ```
 
-<b>Remark.</b> Equivalently, $f:X\to Y$ is uniformly continuous if
-$$\begin{equation}
-    \fa\epsilon>0,\ex\delta>0,\fa S\subseteq X:\diam S\leq\delta\Rightarrow\diam\im_f\l(S\r)\leq\epsilon;
-\end{equation}$$
-that is, the margin of error $\epsilon$ can be controlled. Indeed, we may consider the function
-$$\begin{equation}
-    \delta:\R^+\to\R^+\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ \epsilon\mapsto\delta_\epsilon,
-\end{equation}$$
-so, given any error $\epsilon>0$, the tolerance is $\delta_\epsilon$. Note that this function is arbitrary; that is, it does not need to take a specific form.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Equivalently, $f:X\to Y$ is uniformly continuous if for every <i>margin of error</i> $\epsilon>0$ and every subset $S\subseteq X$, there is <i>uniform tolerance</i> $\delta_\epsilon>0$ over all $S\subseteq X$ such that $\diam S\leq\delta$ implies that $\diam f\l(S\r)\leq\epsilon$.<span style="float:right;">$\blacklozenge$</span>

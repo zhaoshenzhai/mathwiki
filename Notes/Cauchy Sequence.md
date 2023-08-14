@@ -8,8 +8,8 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Complete Metric Space]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Cauchy implies bounded]]
-Sufficiencies: [[Convergent implies Cauchy]], [[Contractive implies Cauchy]], [[Uniform continuity preserve Cauchyness]]
+Properties: <i>Not Applicable</i>
+Sufficiencies: [[Contractive implies Cauchy]], [[Uniform continuity preserve Cauchyness]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
