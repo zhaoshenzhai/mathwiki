@@ -17,10 +17,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition (Young’s Inequality for Products).
 
-Let $a,b\in\R_0^+$ and let $1<p,q<+\infty$ be conjugate exponents. Then
-$$\begin{equation}
-    ab\leq\frac{a^p}{a}+\frac{b^q}{q}.
-\end{equation}$$
+Let $a,b\in\R_0^+$ and let $1<p,q<+\infty$ be conjugate exponents. Then $ab\leq\frac{a^p}{a}+\frac{b^q}{q}$.
 
 ```
 

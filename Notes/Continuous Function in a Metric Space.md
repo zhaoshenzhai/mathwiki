@@ -10,7 +10,7 @@ Generalizations: [[Continuous Function]]
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Sequential and functional limit characterizations of continuity]], [[Bounded iff Lipschitz iff continuous (normed vector space)]]
+Equivalences: [[Characterizations of continuity]], [[Bounded iff Lipschitz iff continuous (normed vector space)]]
 Justifications: [[Continuous iff preimages of open sets are open]], [[Continuous iff continuous at each point]]
 
 ``` ad-Definition

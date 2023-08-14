@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Composition of Lipschitz functions are Lipschitz]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Bounded iff Lipschitz iff continuous (normed vector space)]]
 Justifications: <i>Not Applicable</i>
@@ -24,11 +24,7 @@ A function $f:X\to Y$ is said to be <b>Lipschitz continuous</b> if there exists 
 
 ```
 
-<b>Remark.</b> In other words, $f:X\to Y$ is $k$-Lipschitz continuous if $\fa S\subseteq X:\diam\im_f\l(S\r)\leq k\cdot\diam S$. Indeed, every $k$-Lipschitz continuous function is uniformly continuous since the latter requires the existence of a function
+<b>Remark.</b> In other words, $f$ is $k$-Lipschitz continuous if $\fa S\subseteq X:\diam f\l(S\r)\leq k\cdot\diam S$. Indeed, every $k$-Lipschitz continuous function is uniformly continuous since the latter requires the existence of a function $\delta:\R^+\to\R^+$ such that if $S\subseteq X$ has $\diam S\leq\delta$, then $\diam f\l(S\r)\leq\epsilon$. Simply take $\delta\coloneqq\epsilon/k$ and observe that
 $$\begin{equation}
-    \delta:\R^+\to\R^+\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ \epsilon\mapsto\delta_\epsilon
-\end{equation}$$
-such that if $S\subseteq X$ has $\diam S\leq\delta$, then $\diam\im_f\l(S\r)\leq\epsilon$. Simply take $\delta\coloneqq\epsilon/k$ and observe that
-$$\begin{equation}
-    \diam\im_f\l(S\r)\leq k\cdot\diam S\leq k\cdot\delta=k\cdot\epsilon/k=\epsilon.\exqedin
+    \diam f\l(S\r)\leq k\cdot\diam S\leq k\cdot\delta=k\cdot\epsilon/k=\epsilon.\exqedin
 \end{equation}$$

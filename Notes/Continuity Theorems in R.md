@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 28/12/2022 17:34:11
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Sequential and functional limit characterizations of continuity]], [[Functional Limit Theorems in R]]
+Proved by: [[Characterizations of continuity]], [[Functional Limit Theorems in R]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

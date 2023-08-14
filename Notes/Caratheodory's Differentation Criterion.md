@@ -7,7 +7,7 @@ mathLink: Carath$\acute{\textrm{e}}$odory’s Differentiation Criterion
 Date Created: 02/12/2022 00:20:34
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Sequential and functional limit characterizations of continuity]]
+Proved by: [[Characterizations of continuity]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

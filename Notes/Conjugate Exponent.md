@@ -16,11 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Fix $p\in\l(1,+\infty\r)$. The unique $q\in\l(1,+\infty\r)$ defined by
-$$\begin{equation}
-    \frac{1}{p}+\frac{1}{q}=1
-\end{equation}$$
-is called the <b>conjugate exponent of $p$</b>.
+Fix $p\in\l(1,+\infty\r)$. The unique $q\in\l(1,+\infty\r)$ defined by $\frac{1}{p}+\frac{1}{q}=1$ is called the <b>conjugate exponent of $p$</b>.
 
 ```
 

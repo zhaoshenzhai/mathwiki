@@ -15,7 +15,7 @@ Generalizations: [[Continuous Function in a Metric Space]]
 Properties: [[Continuity Theorems in R]], [[Continuous implies Riemann Integrable]]
 Sufficiencies: [[Differentiable implies continuous]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Sequential and functional limit characterizations of continuity]]
+Justifications: [[Characterizations of continuity]]
 
 ``` ad-Definition
 title: Definition.

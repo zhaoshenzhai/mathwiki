@@ -15,7 +15,7 @@ Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
-title: Theorem (Sequential$\textbf{/}$functional limit characterizations of continuity).
+title: Theorem (Characterizations of continuity).
 
 Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces and fix $\Omega\subseteq X$. For a function $f:\Omega\to Y$, the following are equivalent:
 1. $f$ is continuous.

@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: [[Sequential Limits in R]]
-Constructions: [[Sequential Criterion for Functional Limits]], [[Sequential and functional limit characterizations of continuity]]
+Constructions: [[Sequential Criterion for Functional Limits]], [[Characterizations of continuity]]
 Generalizations: [[Sequential Limits]]
 
 Properties: [[Convergent implies bounded (sequential)]], [[Convergent implies Cauchy]]
