@@ -8,8 +8,8 @@ Date Created: 24/01/2022 15:53:19
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Limit Superior and Inferior]]
-Constructions: [[Dedekind-complete Ordered Set]], [[Diameter]]
+Examples: <i>Not Applicable</i>
+Constructions: [[Diameter]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

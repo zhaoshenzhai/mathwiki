@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Restricted order and subspace topologies coincide for convex sets]], [[Dedekind-complete bounded convex sets are intervals]]
+Properties: [[Restricted order and subspace topologies coincide for convex sets]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

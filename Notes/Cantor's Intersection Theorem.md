@@ -11,7 +11,7 @@ Proved by: [[Compact implies closed (Hausdorff)]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
-Specializations: [[Nested Interval Theorem]]
+Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem

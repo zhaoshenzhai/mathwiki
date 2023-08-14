@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 29/10/2022 18:32:31
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Subsequences converge to the same limit]], [[Real Numbers#^bolzano-weierstrass]]
+Proved by: [[Real Numbers#^bolzano-weierstrass]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

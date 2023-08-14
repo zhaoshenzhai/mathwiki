@@ -10,7 +10,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Extreme Value Theorem]], [[Intermediate Value Theorem]], [[Inverse of continuous functions]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Characterizations of continuity]], [[Bounded iff Lipschitz iff continuous (normed vector space)]]
+Equivalences: [[Characterizations of continuity (metric)]], [[Bounded iff Lipschitz iff continuous (normed vector space)]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

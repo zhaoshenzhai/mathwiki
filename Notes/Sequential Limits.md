@@ -5,26 +5,23 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 29/08/2022 16:59:28
-Tags: #Type/Definition #Topic/Real_Analysis #Topic/Topology/Later
+Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
-Examples: [[Sequential Limits in a Metric Space]]
-Constructions: [[Sequentially Compact Space]]
+Examples: [[Limit of geometric sequence]], [[Ratio Test (Sequence)]]
+Constructions: [[Sequentially Compact Space]], [[Characterizations of continuity (metric)]], [[Euler's Number]], [[Infinite Series]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Subsequences converge to the same limit]]
-Sufficiencies: <i>Not Applicable</i>
-Equivalences: <i>Not Applicable</i>
+Properties: [[Subsequential limits are closed]]
+Sufficiencies: [[Real Numbers#^bolzano-weierstrass]]
+Equivalences: [[Convergence Criteria in R]]
 Justifications: [[Hausdorff implies limits are unique]]
 
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,\mc{T}}$ be a topological space and fix $x\in X$. A sequence $\tpl{x_n}_{n\in\N}$ in $X$ is said to <b>converge to $x$ w.r.t. $\mc{T}$</b>, and $x$ is said to be a <b>limit of $\tpl{x_n}$ w.r.t. $\mc{T}$</b>, if
-$$\begin{equation}
-    \fa U\in\mc{U}_x,\fa^\infty n\in\N:x_n\in U,
-\end{equation}$$
-where $\mc{U}_x$ is the set of all neighborhoods of $x$. If $\tpl{X,\mc{T}}$ is Hausdorff, then $x$ is unique and we write $\lim\limits_{n\to\infty}x_n\coloneqq x$ or $x_n\to x$ as $n\to\infty$.
+Let $X$ be a topological space and fix $x\in X$. A sequence $\tpl{x_n}_{n\in\N}$ in $X$ is said to <b>converge to $x$</b>, and $x$ is said to be a <b>limit of $\tpl{x_n}$</b>, if for every neighborhood $U\ni x$, we have $x_n\in U$ for all eventually $n\in\N$.
+* If $X$ is Hausdorff, then $x$ is unique and we write $\lim\limits_{n\to\infty}x_n\coloneqq x$ or $x_n\to x$ as $n\to\infty$.
 
 ```
 
@@ -32,7 +29,7 @@ where $\mc{U}_x$ is the set of all neighborhoods of $x$. If $\tpl{X,\mc{T}}$ is 
 
 ---
 
-<b>Remark.</b> Convergence to $x$ can be visualized as:
-![[Images/2022-08-29_171208/image.svg|100]]
-
-Each dot represents some $x_n$, and the neighborhoods around $x$ are represented by circles for simplicity.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A <i>subsequence</i> of $\tpl{x_n}$ is any sequence of the form $\tpl{x_n}\circ\sigma$ where $\sigma:\N\to\N$ is an increasing sequence. A limit of a subsequence is called a <i>subsequential limit</i>, and if all subsequential limits of $\tpl{x_n}$ coincide, say to $x\in X$, then $x_n\to x$. The supremum of all subsequential limits of $\tpl{x_n}$ is the <i>limit superior</i> of $x_n$, and similarly for its <i>limit inferior</i>. Equivalently, note that
+$$\begin{equation}
+    \limsup\limits_{n\to\infty}x_n=\lim\limits_{n\to\infty}\sup\limits_{m\geq n}x_m\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ \liminf\limits_{n\to\infty}x_n=\lim\limits_{n\to\infty}\inf\limits_{m\geq n}x_m.\exqedin
+\end{equation}$$

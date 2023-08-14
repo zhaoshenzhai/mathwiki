@@ -3,7 +3,7 @@
 Date Created: 29/12/2022 23:23:37
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Real Numbers#^heine-borel]], [[Extreme Value Theorem]], [[Differentiation Theorems in R]]
+Proved by: [[Real Numbers#^heine-borel]], [[Extreme Value Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

@@ -1,21 +1,18 @@
----
-mathLink: $a^n\to0$ or $+\infty$
----
-
 <div class="topSpace"></div>
 
 Date Created: 04/10/2022 14:52:29
-Tags: #Type/Proposition #Topic/Real_Analysis
+Tags: #Type/Example #Topic/Real_Analysis
 
-Proved by: [[Binomial Theorem#^bernoulli]], [[Limit of 1 over linear]], [[Squeezed Distance Lemma]]
-References: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Abstractions: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
 
-Specializations: <i>Not Applicable</i>
-Generalizations: <i>Not Applicable</i>
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: [[Binomial Theorem#^bernoulli]]
 
-``` ad-Proposition
-title: Proposition.
+``` ad-Example
+title: Example.
 
 Let $a\in\R^+$. If $0\leq a<1$, then $\lim\limits_{n\to\infty}a^n=0$. Otherwise, if $a\geq1$, then $\lim\limits_{n\to\infty}a^n=+\infty$.
 
@@ -26,5 +23,4 @@ $$\begin{equation}
     d\l(a^n,0\r)=\l|a^n\r|=a^n=\l(\frac{1}{1+b}\r)^n=\frac{1}{\l(1+b\r)^n}\leq\frac{1}{1+bn}
 \end{equation}$$
 where the last inequality follows from Bernoulli’s Inequality. But since the sequence of positive reals $\frac{1}{1+bn}\to0$ as $n\to\infty$, we see that $\lim\limits_{n\to\infty}a^n=0$.
-
-Otherwise, if $a\geq1$, then $a^n$ is an increasing and unbounded sequence and hence converges to $+\infty$ by the Monotone Convergence Theorem.<span style="float:right;">$\blacksquare$</span>
+* Otherwise, if $a\geq1$, then $a^n$ is an increasing and unbounded sequence and hence converges to $+\infty$.<span style="float:right;">$\blacksquare$</span>

@@ -3,7 +3,7 @@
 Date Created: 09/02/2023 10:46:58
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Contractive implies Cauchy]], [[Characterizations of continuity]]
+Proved by: [[Contractive implies Cauchy]], [[Characterizations of continuity (metric)]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

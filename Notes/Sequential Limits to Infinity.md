@@ -8,7 +8,7 @@ Date Created: 20/10/2022 17:10:25
 Tags: #Type/Definition #Topic/Real_Analysis #Topic/Topology/Later
 
 Types: <i>Not Applicable</i>
-Examples: [[Limit of geometric]]
+Examples: [[Limit of geometric sequence]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

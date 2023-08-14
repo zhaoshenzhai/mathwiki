@@ -3,7 +3,7 @@
 Date Created: 14/01/2022 14:25:20
 Tags: #Type/Definition #Topic/Set_Theory
 
-Types: [[Group Homomorphism]], [[Ring Homomorphism]], [[Module Homomorphism]], [[Continuous Function]], [[Bounded Function]], [[Contractive Function]], [[Riemann Integrable Function]], [[Monotone Function]]
+Types: [[Group Homomorphism]], [[Ring Homomorphism]], [[Module Homomorphism]], [[Continuous Function]], [[Contractive Function]], [[Riemann Integrable Function]]
 Examples: <i>Not Applicable</i>
 Constructions: [[Image and Preimage]], [[Functional Limits]], [[Local and Global Extrema]]
 Generalizations: [[Morphism (Category Theory)]]
