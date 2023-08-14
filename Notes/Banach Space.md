@@ -4,7 +4,7 @@ Date Created: 16/02/2023 11:14:46
 Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
-Examples: [[Continuous functions on a compact metric space with sup norm is Banach]], [[Bounded linear maps with Banach codomain is Banach]]
+Examples: [[Real Numbers]], [[Continuous functions on a compact metric space with sup norm is Banach]], [[Bounded linear maps with Banach codomain is Banach]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

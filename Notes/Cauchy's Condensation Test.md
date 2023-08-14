@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 02/04/2023 14:18:12
 Tags: #Type/Proposition #Topic/Real_Analysis
 
-Proved by: [[Monotone Convergence Theorem]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

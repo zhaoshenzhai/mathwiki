@@ -4,7 +4,7 @@ Date Created: 04/01/2023 15:45:07
 Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
-Examples: [[Q is dense in R]]
+Examples: [[Real Numbers#^rationals-dense-in-reals]]
 Constructions: [[Separable Space]]
 Generalizations: <i>Not Applicable</i>
 

@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Limit Superior and Inferior]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Monotone Convergence Theorem]], [[Bolzano-Weierstrass Theorem]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Convergent implies bounded (sequential)]], [[Cauchy implies bounded]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

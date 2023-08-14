@@ -9,7 +9,7 @@ Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Bernoulli's Inequality]]
 References: <i>Not Applicable</i>
-Justifications: [[Existence of nth roots]]
+Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>

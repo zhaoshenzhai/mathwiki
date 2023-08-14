@@ -333,5 +333,14 @@
       ],
       "key": "G"
     }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "Enter"
+    }
   ]
 }

@@ -4,7 +4,7 @@ Date Created: 04/02/2023 21:08:59
 Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Banach Space]]
-Examples: [[Metric-completeness of R]]
+Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

@@ -3,7 +3,7 @@
 Date Created: 29/12/2022 23:23:37
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Fermat's Theorem on Stationary Points]], [[Heine-Borel Theorem]], [[Extreme Value Theorem]], [[Differentiation Theorems in R]]
+Proved by: [[Fermat's Theorem on Stationary Points]], [[Real Numbers#^heine-borel]], [[Extreme Value Theorem]], [[Differentiation Theorems in R]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 07/03/2023 13:12:25
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[Q is dense in R]]
+Proved by: [[Real Numbers#^rationals-dense-in-reals]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

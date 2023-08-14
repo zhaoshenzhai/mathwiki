@@ -13,7 +13,7 @@ Constructions: [[Euler's Number]], [[Limit Superior and Inferior]], [[Infinite S
 Generalizations: [[Sequential Limits in a Metric Space]], [[Sequential Limits to Infinity]]
 
 Properties: [[Sequential Limit Theorems in R]]
-Sufficiencies: [[Bolzano-Weierstrass Theorem]], [[Monotone Convergence Theorem]], [[Ratio Test (Sequence)]]
+Sufficiencies: [[Real Numbers#^bolzano-weierstrass]], [[Monotone Convergence Theorem]], [[Ratio Test (Sequence)]]
 Equivalences: [[Convergence Criteria in R]], [[Metric-completeness of R]]
 Justifications: [[Hausdorff implies limits are unique]]
 

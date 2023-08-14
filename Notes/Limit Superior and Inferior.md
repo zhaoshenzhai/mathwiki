@@ -15,7 +15,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Criteria for limit superior and inferior]]
-Justifications: [[Bolzano-Weierstrass Theorem]]
+Justifications: [[Real Numbers#^bolzano-weierstrass]]
 
 ``` ad-Definition
 title: Definition.

@@ -4,7 +4,7 @@ Date Created: 10/02/2022 12:07:40
 Tags: #Type/Definition #Topic/Topology/Later
 
 Types: <i>Not Applicable</i>
-Examples: [[Topologies on R#^standard-topology-on-R]], [[Ordered Square]]
+Examples: [[Real Numbers]], [[Ordered Square]]
 Constructions: [[Sequential Limits to Infinity]]
 Generalizations: <i>Not Applicable</i>
 

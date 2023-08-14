@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 04/01/2023 17:46:25
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Neighborhood characterization of cluster points (metric)]], [[Heine-Borel Theorem]], [[Cantor's Intersection Theorem]]
+Proved by: [[Neighborhood characterization of cluster points (metric)]], [[Real Numbers#^heine-borel]], [[Cantor's Intersection Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
