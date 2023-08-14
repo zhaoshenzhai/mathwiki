@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 29/10/2022 20:36:51
 Tags: #Type/Proposition #Topic/Real_Analysis
 
-Proved by: [[Real Numbers#^bolzano-weierstrass]], [[Sequential Limit Theorems in R]], [[Subsequences converge to the same limit]], [[Limit of 1 over linear]], [[Squeezed Distance Lemma]]
+Proved by: [[Real Numbers#^bolzano-weierstrass]], [[Subsequences converge to the same limit]], [[Limit of 1 over linear]], [[Squeezed Distance Lemma]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

@@ -8,7 +8,7 @@ Examples: [[Sequential Limits in R]]
 Constructions: [[Sequential Criterion for Functional Limits]], [[Characterizations of continuity]]
 Generalizations: [[Sequential Limits]]
 
-Properties: [[Convergent implies bounded (sequential)]], [[Convergent implies Cauchy]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Squeezed Distance Lemma]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Hausdorff implies limits are unique]]

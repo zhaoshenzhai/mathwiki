@@ -3,20 +3,24 @@
 Date Created: 24/11/2022 13:48:28
 Tags: #Type/Definition #Topic/Topology
 
-Types: [[Homeomorphism]], [[Homotopy Equivalence]], [[Retraction]]
-Examples: [[Continuous Function in a Metric Space]], [[Path]]
-Constructions: [[Homotopy]], [[Lift]], [[Mapping Cylinder]]
+Types: [[Homeomorphism]], [[Homotopy Equivalence]], [[Retraction]], [[Uniform Continuity]]
+Examples: [[Path]]
+Constructions: [[Homotopy]], [[Lift]], [[Mapping Cylinder]], [[Space of Continuous Functions]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Extreme Value Theorem]], [[Intermediate Value Theorem]], [[Inverse of continuous functions]], [[Composition of continuous functions are continuous]]
+Properties: [[Extreme Value Theorem]], [[Intermediate Value Theorem]], [[Inverse of continuous functions]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: <i>Not Applicable</i>
-Justifications: [[Continuous iff continuous at each point]]
+Equivalences: [[Characterizations of continuity]], [[Bounded iff Lipschitz iff continuous (normed vector space)]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.
 
 Let $X$ and $Y$ be topological spaces. A function $f:X\to Y$ is said to be <b>continuous</b> if preimages of open sets are open; that is, if for all open sets $V\subseteq Y$, the preimage $f^{-1}\!\l(V\r)$ is open in $X$.
-* For all fixed $p\in X$, we say that $f$ is <b>continuous at $p$</b> if for every neighborhood $V$ of $f\l(p\r)$, there exists a neighborhood $U$ of $p$ such that $f\l(U\r)\subseteq V$.
 
 ```
+
+<b>Remark.</b> A function is continuous iff it is continuous at each point $p\in X$; that is, every neighborhood $V$ of $f\l(p\r)$ admits a neighborhood $U$ of $p$ such that $f\l(U\r)\subseteq V$.
+* Indeed, if $f$ is continuous, then $f^{-1}\!\l(V\r)$ is a neighborhood of $p$ with $f\l(f^{-1}\!\l(V\r)\r)\subseteq V$. Conversely, let $V$ be a neighborhood of $f\l(p\r)$, so there exists a neighborhood $U_p$ of $p$ such that $f\l(U_p\r)\subseteq V$. We claim that $f^{-1}\!\l(V\r)=\bigcup_{p\in X}U_p$, so it is open. The forward direction follows immediately since $p\in U_p$. The backwards direction is also clear, for $U_p\subseteq f^{-1}\!\l(f\l(U_p\r)\r)\subseteq f^{-1}\l(V\r)$.
+
+If $X$ and $Y$ are metric spaces, this shows that $f$ is continuous at $p$ iff $\fa\epsilon>0,\ex\delta>0,\fa q\in X:d\l(p,q\r)<\delta\Rightarrow d\l(f\l(p\r),f\l(q\r)\r)<\epsilon$.<span style="float:right;">$\blacklozenge$</span>

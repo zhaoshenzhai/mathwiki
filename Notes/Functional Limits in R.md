@@ -12,7 +12,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Differentiable Function and Derivative in R]]
 Generalizations: [[Functional Limits in a Metric Space]]
 
-Properties: [[Functional Limit Theorems in R]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Hausdorff implies limits are unique]]

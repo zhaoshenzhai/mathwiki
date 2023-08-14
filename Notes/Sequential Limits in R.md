@@ -12,7 +12,7 @@ Examples: [[Limit of 1 over linear]], [[Limit of geometric]], [[Limit of nth roo
 Constructions: [[Euler's Number]], [[Limit Superior and Inferior]], [[Infinite Series]]
 Generalizations: [[Sequential Limits in a Metric Space]], [[Sequential Limits to Infinity]]
 
-Properties: [[Sequential Limit Theorems in R]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Real Numbers#^bolzano-weierstrass]], [[Ratio Test (Sequence)]]
 Equivalences: [[Convergence Criteria in R]]
 Justifications: [[Hausdorff implies limits are unique]]

@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 24/11/2022 14:20:17
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Continuous iff continuous at each point]], [[Sequential Criterion for Functional Limits]]
+Proved by: [[Sequential Criterion for Functional Limits]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

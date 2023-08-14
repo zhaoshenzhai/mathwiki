@@ -3,7 +3,7 @@
 Date Created: 20/10/2022 17:41:09
 Tags: #Type/Proposition #Topic/Real_Analysis
 
-Proved by: [[Sequential Limit Theorems in R]], [[Limit of geometric]], [[Squeezed Distance Lemma]]
+Proved by: [[Limit of geometric]], [[Squeezed Distance Lemma]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

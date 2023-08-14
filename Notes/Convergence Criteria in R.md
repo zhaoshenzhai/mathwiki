@@ -7,8 +7,8 @@ mathLink: auto
 Date Created: 29/10/2022 18:32:31
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Real Numbers#^bolzano-weierstrass]]
-References: [[Convergent implies bounded (sequential)]], [[Subsequences converge to the same limit]]
+Proved by: [[Subsequences converge to the same limit]], [[Real Numbers#^bolzano-weierstrass]]
+References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
@@ -17,18 +17,15 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Convergence Criteria in $\R$).
 
-Let $\tpl{x_n}$ be a sequence in $\R$. Then $\tpl{x_n}$ diverges iff either it is unbounded or it admits two subsequential limits.
+Let $\tpl{x_n}$ be a sequence in $\R$. Then $\tpl{x_n}$ converges iff it is bounded and admits only on subsequential limit.
 
 ```
 
-<b>Remark.</b> In other words, a sequence $\tpl{x_n}$ converges iff it is bounded and admits only one subsequential limit. In terms of limit superior and inferior, a bounded sequence $\tpl{x_n}$ converges iff
-$$\begin{equation}
-    \liminf\limits_{n\to\infty}x_n=\limsup\limits_{n\to\infty}x_n.\exqedin
-\end{equation}$$
+<b>Remark.</b> In terms of limit superior and inferior, a bounded sequence $\tpl{x_n}$ converges iff $\liminf\limits_{n\to\infty}x_n=\limsup\limits_{n\to\infty}x_n$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<i>Proof.</i> The backwards direction follows from its contrapositive, stating that if $\tpl{x_n}$ converges, then all subsequences thereof converge to the same limit. Suppose now that $\tpl{x_n}$ diverges. If it is unbounded, we are done. Otherwise, Bolzano-Weierstrass furnishes a convergent subsequence $\tpl{x_{n_k}}$ of $\tpl{x_n}$ with some limit $l\in\R$. Since $\tpl{x_n}$ diverges, we have that
+<i>Proof.</i> The forward direction is easy to see and we prove the contrapositive of the backwards direction. Suppose that $\tpl{x_n}$ diverges. If it is unbounded, we are done. Otherwise, Bolzano-Weierstrass furnishes a convergent subsequence $\tpl{x_{n_k}}$ of $\tpl{x_n}$ with some limit $l\in\R$. Since $\tpl{x_n}$ diverges, we have that
 $$\begin{equation}
     \ex\epsilon>0,\ex^\infty n\in\N:x_n\not\in\l(l-\epsilon,l+\epsilon\r).
 \end{equation}$$

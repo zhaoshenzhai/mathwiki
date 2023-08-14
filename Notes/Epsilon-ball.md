@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Metric Topology]], [[Bounded Sequence]]
+Constructions: [[Metric Topology]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Epsilon-balls are open]], [[Epsilon-balls form a basis for a topology]]

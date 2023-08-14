@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 26/01/2023 10:20:09
 Tags: #Type/Proposition #Topic/Real_Analysis
 
-Proved by: [[Sequentially compact implies bounded]], [[Convergent implies Cauchy]]
+Proved by: [[Sequentially compact implies bounded]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

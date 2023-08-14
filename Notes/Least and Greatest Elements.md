@@ -8,12 +8,12 @@ Date Created: 03/02/2022 14:47:59
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Local and Global Extrema]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Least or greatest equals minimal or maximal for totally ordered sets]]
-Sufficiencies: [[Least and greatest on compacta of R]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

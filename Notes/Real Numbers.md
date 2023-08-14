@@ -11,9 +11,9 @@ Date Created: 19/09/2022 19:36:44
 Tags: #Type/Example #Topic/Real_Analysis
 
 Abstractions: <i>Not Applicable</i>
-Constructions: [[Complex Numbers]]
+Constructions: [[Complex Numbers]], [[Differentiable Function and Derivative in R]]
 
-Properties: [[Convergence Criteria in R]]
+Properties: [[Convergence Criteria in R]], [[Mean Value Theorems]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Compact implies closed (Hausdorff)]], [[Sequential characterization of closed sets (metric)]], [[Characterizations of compactness (metric space)]]
