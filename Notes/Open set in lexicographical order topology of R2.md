@@ -32,7 +32,7 @@ $$\begin{equation}
 \end{equation}$$
 so $\tpl{x,y}\in\bigcup\mc{A}=V$.
 
-* ($V\subseteq U$): Take $v\in V=\bigcup\mc{A}$, so $\ex A\in\mc{A}:v\in A$. In other words, there exist $a,b,c,d\in\R$ with $m<a\leq c< n$ such that $v\in\l(\tpl{a,b},\tpl{c,d}\r)$. Let $v\coloneqq\tpl{v_1,v_2}$, so, in particular, we have $a\leq v_1\leq c$ and thus $m<v_1<n$. It follows that $v_1\in\l(m,n\r)$ and hence $v\in U$.
+* ($V\subseteq U$). Take $v\in V=\bigcup\mc{A}$, so $\ex A\in\mc{A}:v\in A$. In other words, there exist $a,b,c,d\in\R$ with $m<a\leq c< n$ such that $v\in\l(\tpl{a,b},\tpl{c,d}\r)$. Let $v\coloneqq\tpl{v_1,v_2}$, so, in particular, we have $a\leq v_1\leq c$ and thus $m<v_1<n$. It follows that $v_1\in\l(m,n\r)$ and hence $v\in U$.
 
 It remains to show that $U$ is not a basis element in $\mc{B}$. Suppose, for sake of contradiction, that there exist $\alpha\coloneqq\tpl{a,b}\in\R^2$ and $\beta\in\R^2$ such that $U=\l(\alpha,\beta\r)$.
 * If $a\geq n$, then any element in $U$, say $p\coloneqq\tpl{\frac{m+n}{2},0}$, does not lie in $\l(\alpha,\beta\r)$.

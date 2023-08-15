@@ -28,9 +28,9 @@ Let $X$ and $Y$ be topological spaces and fix $S\subseteq X$. The ‘is homotopi
 ---
 
 <i>Proof.</i> Let $f_0,f_1,f_2:X\to Y$ be continuous functions agreeing on $S$. We first verify that $\htopeq$ is an equivalence relation.
-* (Reflexive): Let $F\l(x,t\r)\coloneqq f_0\l(x\r)$ for all $x\in X$ and $t\in I$, which defines a homotopy from $f_0$ to itself rel $S$.
-* (Symmetry): If $F:f_0\htopeq f_1\rel S$, then $F'\!\l(x,t\r)\coloneqq F\l(x,1-t\r)$ defines a homotopy from $f_1$ to $f_0$ rel $S$.
-* (Transitive): Let $F:f_0\htopeq f_1\rel S$ and $G:f_1\htopeq f_2\rel S$ be homotopies. Then the function $H:X\times I\to Y$ defined by $H\l(x,t\r)\coloneqq F\l(x,2t\r)$ for $0\leq t\leq1/2$ and $H\l(x,t\r)\coloneqq G\l(x,2t-1\r)$ for $1/2\leq t\leq 1$ glues to a continuous function and is a homotopy from $f_0$ to $f_2$ rel $S$.
+* (Reflexive). Let $F\l(x,t\r)\coloneqq f_0\l(x\r)$ for all $x\in X$ and $t\in I$, which defines a homotopy from $f_0$ to itself rel $S$.
+* (Symmetry). If $F:f_0\htopeq f_1\rel S$, then $F'\!\l(x,t\r)\coloneqq F\l(x,1-t\r)$ defines a homotopy from $f_1$ to $f_0$ rel $S$.
+* (Transitive). Let $F:f_0\htopeq f_1\rel S$ and $G:f_1\htopeq f_2\rel S$ be homotopies. Then the function $H:X\times I\to Y$ defined by $H\l(x,t\r)\coloneqq F\l(x,2t\r)$ for $0\leq t\leq1/2$ and $H\l(x,t\r)\coloneqq G\l(x,2t-1\r)$ for $1/2\leq t\leq 1$ glues to a continuous function and is a homotopy from $f_0$ to $f_2$ rel $S$.
 
 Let $F:f_0\htopeq f_1\rel S$ and $G:g_0\htopeq g_1\rel T$ be homotopies. We claim that $H:X\times I\to Z$ defined by $H\l(x,t\r)\coloneqq G\l(F\l(x,t\r),t\r)$ is a homotopy from $g_0\circ f_0$ to $g-1\circ f_1$ rel $S$.
 * First, observe that $H\l(x,0\r)=G\l(F\l(x,0\r),0\r)=G\l(f_0\l(x\r),0\r)=\l(g_0\circ f_0\r)\l(x\r)$ for all $x\in X$, and similarly $H\l(x,1\r)=\l(g_1\circ f_1\r)\l(x\r)$ for all $x\in X$.

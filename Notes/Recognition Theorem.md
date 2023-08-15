@@ -30,7 +30,7 @@ $$\begin{equation}
     \tpl{e,h}\blob_\theta\tpl{n,e}\blob_\theta\tpl{e,h}^{-1}=\tpl{\theta_h\!\l(n\r),h}\blob_\theta\tpl{\theta_{h^{-1}}\!\l(e\r),h^{-1}}=\tpl{\theta_h\!\l(n\r),h}\blob_\theta\tpl{e,h^{-1}}=\tpl{\theta_h\!\l(n\r)\theta_h\!\l(e\r),hh^{-1}}=\tpl{\theta_h\!\l(n\r),e},
 \end{equation}$$
 so $\theta_h\!\l(n\r)=hnh^{-1}$ after the identifications given above.
-* ($2\Rightarrow3$): Let $\iota:N\into G$ and $\pi:G\onto H$ be the maps in the short exact sequence, with $\sigma:H\into G$ a section of $\pi$. Identifying $N$ and $H$ as subgroups of $G$ via $\iota$ and $s$, we see that $N=\ker\pi\nsubgrpeq G$. By exactness, we have $H\iso G/N$ via the isomorphism $\phi:G/N\to H:gN\mapsto\pi\l(g\r)$. Set $h\coloneqq\pi\l(g\r)$ and observe that
+* ($2\Rightarrow3$). Let $\iota:N\into G$ and $\pi:G\onto H$ be the maps in the short exact sequence, with $\sigma:H\into G$ a section of $\pi$. Identifying $N$ and $H$ as subgroups of $G$ via $\iota$ and $s$, we see that $N=\ker\pi\nsubgrpeq G$. By exactness, we have $H\iso G/N$ via the isomorphism $\phi:G/N\to H:gN\mapsto\pi\l(g\r)$. Set $h\coloneqq\pi\l(g\r)$ and observe that
 $$\begin{equation}
     \phi\l(\sigma\l(h\r)N\r)=\alpha\l(\sigma\l(h\r)\r)=h=\phi\l(gN\r),
 \end{equation}$$

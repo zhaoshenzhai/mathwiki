@@ -21,6 +21,6 @@ Justifications: <i>Not Applicable</i>
 title: Definition.
 
 Let $X$ be a metric space. We denote by $\CONT{\l(X\r)}$ the <b>space of real/complex-valued continuous functions on $X$</b> equipped with one of the following norms:
-* (Supremum norm): For any $f\in\CONT{\l(X\r)}$, let $\|f\|_\infty\coloneqq\sup_{x\in X}\l|f\l(x\r)\r|$.
+* (Supremum norm). For any $f\in\CONT{\l(X\r)}$, let $\|f\|_\infty\coloneqq\sup_{x\in X}\l|f\l(x\r)\r|$.
 
 ```

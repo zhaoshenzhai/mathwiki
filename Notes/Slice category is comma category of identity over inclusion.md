@@ -31,7 +31,7 @@ for all $X,X'\in\Obj\l(\cat{C}\r)$, $f\in\Hom_\cat{C}\!\l(X,C\r)$, $f'\in\Hom_\c
 ![[Images/2022-03-10_164625/image.svg|200]]commutes, but this reduces to checking that $f=f'\circ\phi$ which holds since $\phi\in\Hom_{\l(\cat{C}\downarrow C\r)}\l(\tpl{X,f},\tpl{X',f'}\r)$.
 
 We now need to check the axioms of a covariant functor.
-* ($\axifunctor[1]$): Take $\tpl{X,f}\in\Obj\l(\cat{C}\downarrow C\r)$; we need to prove that $\ms{F}^{\Hom}\l(\id_{\tpl{X,f}}\r)=\id_{\ms{F}^{\Obj}\tpl{X,f}}$. This is readily seen via
+* ($\axifunctor[1]$). Take $\tpl{X,f}\in\Obj\l(\cat{C}\downarrow C\r)$; we need to prove that $\ms{F}^{\Hom}\l(\id_{\tpl{X,f}}\r)=\id_{\ms{F}^{\Obj}\tpl{X,f}}$. This is readily seen via
 $$\begin{equation}
     \begin{alignedat}{2}
         \ms{F}^{\Hom}\l(\id_{\tpl{X,f}}\r)&=\ms{F}^{\Hom}\l(\id_X\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of $\l(\cat{C}\downarrow C\r)$-identity}\\
@@ -40,7 +40,7 @@ $$\begin{equation}
         &=\id_{\ms{F}^{\Obj}\tpl{X,f}}.&&\textrm{Definition of $\ms{F}^{\Obj}$}
     \end{alignedat}
 \end{equation}$$
-* ($\axifunctor[2]$): Take $\tpl{X_i,f_i}\in\Obj\l(\cat{C}\downarrow C\r)$ for $i\in\l\{1,2,3\r\}$ and morphisms $\phi:\tpl{X_1,f_1}\to\tpl{X_2,f_2}$ and $\phi':\tpl{X_2,f_2}\to\tpl{X_3,f_3}$; we need to prove that $\ms{F}^{\Hom}\l(\phi'\circ\phi\r)=\ms{F}^{\Hom}\l(\phi'\r)\circ\ms{F}^{\Hom}\l(\phi\r)$. This is readily seen via
+* ($\axifunctor[2]$). Take $\tpl{X_i,f_i}\in\Obj\l(\cat{C}\downarrow C\r)$ for $i\in\l\{1,2,3\r\}$ and morphisms $\phi:\tpl{X_1,f_1}\to\tpl{X_2,f_2}$ and $\phi':\tpl{X_2,f_2}\to\tpl{X_3,f_3}$; we need to prove that $\ms{F}^{\Hom}\l(\phi'\circ\phi\r)=\ms{F}^{\Hom}\l(\phi'\r)\circ\ms{F}^{\Hom}\l(\phi\r)$. This is readily seen via
 $$\begin{equation}
     \begin{alignedat}{2}
         \ms{F}^{\Hom}\l(\phi'\circ\phi\r)&=\tpl{\phi'\circ\phi,\id_C}&&\textrm{Definition of $\ms{F}^{\Hom}$}\\
@@ -55,7 +55,7 @@ $$\begin{equation}
     \ms{G}^{\Obj}\tpl{X,C,f}\coloneqq\tpl{X,f}\ \ \ \ \textrm{and}\ \ \ \ \ms{G}^{\Hom}\tpl{\phi,\psi}\coloneqq\phi
 \end{equation}$$
 for all $X,X'\in\Obj\l(\cat{C}\r)$, $f\in\Hom_\cat{C}\!\l(X,C\r)$, $f'\in\Hom_\cat{C}\!\l(X',C\r)$, and $\tpl{\phi,\psi}:\tpl{X,C,f}\to\tpl{X',C,f'}$; the important points that justify this construction are that $C$ is the unique object in $\Obj\l(\bf{1}\r)$ and, with $\phi:C\to C$ being a morphism in $\bf{1}$, $\phi$ is the identity morphism $\id_C$. The fact that $\ms{G}$ satisfies the axioms of a covariant functor is essentially the same as above, just chasing definitions. It remains to check that $\ms{G}=\ms{F}^{-1}$.
-* ($\ms{G}$ is a left-inverse of $\ms{F}$): Take $\tpl{X,f}\in\Obj\l(\cat{C}\downarrow C\r)$ and observe that
+* ($\ms{G}$ is a left-inverse of $\ms{F}$). Take $\tpl{X,f}\in\Obj\l(\cat{C}\downarrow C\r)$ and observe that
 $$\begin{equation}
     \begin{alignedat}{2}
         \l(\ms{G}\circ\ms{F}\r)^{\Obj}\tpl{X,f}&=\ms{G}^{\Obj}\l(\ms{F}^{\Obj}\tpl{X,f}\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of composition of functors}\\
@@ -71,7 +71,7 @@ $$\begin{equation}
         &=\phi.&&\textrm{Definition of $\ms{G}^{\Hom}$}
     \end{alignedat}
 \end{equation}$$
-* ($\ms{G}$ is a right-inverse of $\ms{F}$): The object part of the proof follows as above. For the morphism part, take $\tpl{\phi,\psi}:\tpl{X,C,f}\to\tpl{X',C,f'}$, which is a general morphism in $\l(\Id_\cat{C}\downarrow\ms{I}\r)$, and observe that
+* ($\ms{G}$ is a right-inverse of $\ms{F}$). The object part of the proof follows as above. For the morphism part, take $\tpl{\phi,\psi}:\tpl{X,C,f}\to\tpl{X',C,f'}$, which is a general morphism in $\l(\Id_\cat{C}\downarrow\ms{I}\r)$, and observe that
 $$\begin{equation}
     \begin{alignedat}{2}
         \l(\ms{F}\circ\ms{G}\r)^{\Hom}\tpl{\phi,\psi}&=\ms{F}^{\Hom}\l(\ms{G}^{\Hom}\tpl{\phi,\psi}\r)\ \ \ \ \ \ \ \ &&\textrm{Definition of composition of functors}\\

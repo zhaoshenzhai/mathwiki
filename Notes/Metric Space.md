@@ -17,9 +17,9 @@ Justifications: <i>Not Applicable</i>
 title: Definition.
 
 Let $X$ be a set. A <b>metric on $X$</b> is a function $d:X\times X\to\R$ such that
-* (Positive-definiteness): $\fa x,y\in X:d\l(x,y\r)\geq0$; equality holds iff $x=y$.
-* (Symmetry): $\fa x,y\in X:d\l(x,y\r)=d\l(y,x\r)$.
-* (Triangle-inequality): $\fa x,y,z\in X:d\l(x,z\r)\leq d\l(x,y\r)+d\l(y,z\r)$.
+* (Positive-definiteness). $\fa x,y\in X:d\l(x,y\r)\geq0$; equality holds iff $x=y$.
+* (Symmetry). $\fa x,y\in X:d\l(x,y\r)=d\l(y,x\r)$.
+* (Triangle-inequality). $\fa x,y,z\in X:d\l(x,z\r)\leq d\l(x,y\r)+d\l(y,z\r)$.
 
 A set $X$, equipped with a metric $d:X\times X\to\R$, is said to be a <b>metric space</b>.
 

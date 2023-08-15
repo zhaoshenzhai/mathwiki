@@ -18,7 +18,7 @@ Let $\cat{C}$ be a category. Then its opposite category $\cat{C}^\textrm{op}$ is
 ```
 
 <i>Proof.</i> We verify the axioms of a category.
-* ($\axicat[1]$): Take $X,Y,Z,W\in\Obj\l(\cat{C}^\textrm{op}\r)$ and $\cat{C}^\textrm{op}$-morphisms $f:X\to Y$, $g:Y\to Z$, and $h:Z\to W$. Observe then that
+* ($\axicat[1]$). Take $X,Y,Z,W\in\Obj\l(\cat{C}^\textrm{op}\r)$ and $\cat{C}^\textrm{op}$-morphisms $f:X\to Y$, $g:Y\to Z$, and $h:Z\to W$. Observe then that
 $$\begin{equation}
     \begin{alignedat}{2}
         h\ast\l(g\ast f\r)&=h\ast\l(f\circ g\r)&&\textrm{Definition of }\ast\\
@@ -28,7 +28,7 @@ $$\begin{equation}
         &=\l(h\ast g\r)\ast f.\ \ \ \ \ \ \ \ &&\textrm{Definition of }\ast
     \end{alignedat}
 \end{equation}$$
-* ($\axicat[2]$): Take $X,Y\in\Obj\l(\cat{C}^\textrm{op}\r)$ and $f\in\Hom_{\cat{C}^\textrm{op}}\!\l(X,Y\r)$. Observe then that
+* ($\axicat[2]$). Take $X,Y\in\Obj\l(\cat{C}^\textrm{op}\r)$ and $f\in\Hom_{\cat{C}^\textrm{op}}\!\l(X,Y\r)$. Observe then that
 
 $\begin{alignat}{2}
     f\ast\id_X&=\id_X\circ f&&\textrm{Definition of }\ast\textrm{; }f\in\Hom_\cat{C}\!\l(Y,X\r)\\

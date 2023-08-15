@@ -44,9 +44,9 @@ $$\begin{equation}
     \end{aligned}
 \end{equation}$$
 We first prove the fact that for all $a,b\in\Z$ whose division yields $q,r\in\Z$ such that $a=qb+r$, we have $\gcd\l(a,b\r)=\gcd\l(b,r\r)$. It suffices to show that $g\coloneqq\gcd\l(a,b\r)$ is the greatest common divisor of $\gcd\l(b,r\r)$.
-* (proof that $g\divides b$ and $g\divides r$): Since $g=\gcd\l(a,b\r)$, there exist $k,l\in\mb{Z}$ such that $a=kg$ and $b=lg$. Together with $r=a-qb$, we obtain $r=kg-q\l(lg\r)=\l(k-ql\r)g$, so $g\divides r$.
+* (proof that $g\divides b$ and $g\divides r$). Since $g=\gcd\l(a,b\r)$, there exist $k,l\in\mb{Z}$ such that $a=kg$ and $b=lg$. Together with $r=a-qb$, we obtain $r=kg-q\l(lg\r)=\l(k-ql\r)g$, so $g\divides r$.
 
-* (proof that $g$ is the greatest such common divisor): Let $d\in\mb{Z}\setminus\l\{0\r\}$ be a common divisor of $b$ and $r$, so there exist $k,l\in\mb{Z}$ such that $b=kd$ and $r=ld$. Since $a=qb+r$, we have $a=q\l(kd\r)+ld=\l(qk+l\r)d$, so $d\divides a$. Together with $d\divides b$ and the fact that $\gcd\l(a,b\r)$ is the greatest common divisor of $a$ and $b$, we see that $d\divides\!\gcd\l(a,b\r)$.
+* (proof that $g$ is the greatest such common divisor). Let $d\in\mb{Z}\setminus\l\{0\r\}$ be a common divisor of $b$ and $r$, so there exist $k,l\in\mb{Z}$ such that $b=kd$ and $r=ld$. Since $a=qb+r$, we have $a=q\l(kd\r)+ld=\l(qk+l\r)d$, so $d\divides a$. Together with $d\divides b$ and the fact that $\gcd\l(a,b\r)$ is the greatest common divisor of $a$ and $b$, we see that $d\divides\!\gcd\l(a,b\r)$.
 
 We can then apply this fact to the entire sequence to obtain
 $$\begin{equation}

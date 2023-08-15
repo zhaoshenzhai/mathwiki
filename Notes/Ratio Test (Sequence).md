@@ -32,7 +32,7 @@ $$\begin{equation}
 \end{equation}$$
 and since $\lambda^n\to0$ as $n\to\infty$, we see that $\lim\limits_{n\to\infty}x_n=0$.
 
-* ($L>1$): Let $\lambda\in\R$ be such that $1<\lambda<L$ and set $\epsilon\coloneqq L-\lambda>0$. Then, since $\l|x_{n+1}/x_n\r|$ converges to $L$, we see that $\l|\l|\frac{x_{n+1}}{x_n}\r|-L\r|<\epsilon$ for all eventually $n\in\N$, say for all $n\geq N$. Hence $-\epsilon<\l|\frac{x_{n+1}}{x_n}\r|-L$ for all $n\geq N$, so $\l|\frac{x_{n+1}}{x_n}\r|>L-\epsilon=L-\l(L-\lambda\r)=\lambda$ for all $n\geq N$. Thus we obtain the sequence
+* ($L>1$). Let $\lambda\in\R$ be such that $1<\lambda<L$ and set $\epsilon\coloneqq L-\lambda>0$. Then, since $\l|x_{n+1}/x_n\r|$ converges to $L$, we see that $\l|\l|\frac{x_{n+1}}{x_n}\r|-L\r|<\epsilon$ for all eventually $n\in\N$, say for all $n\geq N$. Hence $-\epsilon<\l|\frac{x_{n+1}}{x_n}\r|-L$ for all $n\geq N$, so $\l|\frac{x_{n+1}}{x_n}\r|>L-\epsilon=L-\l(L-\lambda\r)=\lambda$ for all $n\geq N$. Thus we obtain the sequence
 $$\begin{equation}
     \l|x_{n+1}\r|>\l|x_n\r|\lambda>\l|x_{n-1}\r|\lambda^2>\cdots>\l|x_{N+1}\r|\lambda^{n-N}>\l|x_N\r|\lambda^{n-N+1}
 \end{equation}$$
