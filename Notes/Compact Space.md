@@ -9,7 +9,7 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Extreme Value Theorem]], [[Cantor's Intersection Theorem]], [[Compact implies limit point compact]], [[Compact implies closed (Hausdorff)]], [[Compact implies complete]], [[Epsilon-neighborhood Theorem]], [[Heine-Cantor Theorem]]
-Sufficiencies: [[Closed subset of compact set is compact]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Finite Intersection Theorem]], [[Characterizations of compactness (metric space)]]
 Justifications: [[Compactness is intrinsic]]
 
