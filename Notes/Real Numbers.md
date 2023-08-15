@@ -23,7 +23,7 @@ title: Example.
 
 We construct the <b>real numbers</b> $\R$ as the completion of $\Q$ with the absolute value metric, giving us $\R$ as a complete metric space.
 * The reals numbers is, up to an order-isomorphism, the unique Dedekind-complete ordered field.
-* The topology that the open balls generate is the order topology on $\R$.
+* The topology that the open balls generate is the order topology on $\R$, which coincides with its metric topology.
 * Since $\R$ admits $\Q$ as a dense subset, it is separable.
 
 ```

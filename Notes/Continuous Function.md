@@ -3,9 +3,9 @@
 Date Created: 24/11/2022 13:48:28
 Tags: #Type/Definition #Topic/Topology
 
-Types: [[Homeomorphism]], [[Homotopy Equivalence]], [[Retraction]], [[Uniform Continuity]]
+Types: [[Homotopy Equivalence]], [[Retraction]], [[Uniform Continuity]]
 Examples: [[Path]]
-Constructions: [[Homotopy]], [[Lift]], [[Mapping Cylinder]], [[Space of Continuous Functions]]
+Constructions: [[Homotopy]], [[Lift]], [[Covering Space]], [[Mapping Cylinder]], [[Space of Continuous Functions]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Extreme Value Theorem]], [[Intermediate Value Theorem]], [[Inverse of continuous functions]]
@@ -17,6 +17,9 @@ Justifications: <i>Not Applicable</i>
 title: Definition.
 
 Let $X$ and $Y$ be topological spaces. A function $f:X\to Y$ is said to be <b>continuous</b> if preimages of open sets are open; that is, if for all open sets $V\subseteq Y$, the preimage $f^{-1}\!\l(V\r)$ is open in $X$.
+* The <b>category of topological spaces</b> is the category $\cattop$ whose objects are topological spaces and whose morphisms are continuous functions.
+* A <b>homeomorphism</b> is an isomorphism in $\cattop$; equivalently, it is an invertible continuous function whose inverse is also continuous.
+* Two topological spaces $X$ and $Y$ are said to be <b>homeomorphic</b> if there is a homeomorphism $\phi:X\to Y$.
 
 ```
 

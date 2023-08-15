@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: [[Metric Space]], [[Compact Space]], [[Sequentially Compact Space]], [[Limit-point Compact Space]], [[Connected Space]]
 Examples: [[Order Space (Topology)]]
-Constructions: [[Continuous Function]], [[Closure et al]], [[Product Space (Topology)]], [[Topological Subspace]], [[Sequential Limits]], [[Functional Limits]], [[Covering Space]]
+Constructions: [[Continuous Function]], [[Closure et al]], [[Product Space]], [[Topological Subspace]], [[Sequential Limits]], [[Functional Limits]], [[Covering Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
