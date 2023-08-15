@@ -14,9 +14,9 @@ Generalizations: <i>Not Applicable</i>
 title: Theorem (Sylow Theorems).
 
 Let $G$ be a finite group and write $\l|G\r|=p^rm$ for some $r,m\in\N$ and some prime $p$ with $p\ndivides m$. We have the following ‘Sylow Theorems’:
-* (First Sylow Theorem): Sylow $p$-groups of $G$ exist, and any $p$-subgroup $H\subgrpeq G$ is contained in a Sylow $p$-subgroup.
-* (Second Sylow Theorem): All Sylow $p$-subgroups of $G$ are conjugate.
-* (Third Sylow Theorem): Let $n_p$ be the number of Sylow $p$-subgroups of $G$. Then $n_p\equiv1\mod p$ and $n_p\divides m$.
+* (First Sylow Theorem). Sylow $p$-groups of $G$ exist, and any $p$-subgroup $H\subgrpeq G$ is contained in a Sylow $p$-subgroup.
+* (Second Sylow Theorem). All Sylow $p$-subgroups of $G$ are conjugate.
+* (Third Sylow Theorem). Let $n_p$ be the number of Sylow $p$-subgroups of $G$. Then $n_p\equiv1\mod p$ and $n_p\divides m$.
 
 ```
 

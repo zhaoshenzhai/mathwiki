@@ -14,7 +14,7 @@ Generalizations: <i>Not Applicable</i>
 title: Proposition (Root Tests).
 
 Let $\tpl{a_n}$ be a non-zero sequence in $\R$.
-* (Direct Root Test): If $\sqrt[n]{\l|a_n\r|}<1$ eventually, then $\sum_{n=0}^{\infty}a_n$ converges absolutely. Otherwise, if $\sqrt[n]{\l|a_n\r|}\geq1$ eventually, then $\sum_{n=0}^{\infty}a_n$ diverges.
+* (Direct Root Test). If $\sqrt[n]{\l|a_n\r|}<1$ eventually, then $\sum_{n=0}^{\infty}a_n$ converges absolutely. Otherwise, if $\sqrt[n]{\l|a_n\r|}\geq1$ eventually, then $\sum_{n=0}^{\infty}a_n$ diverges.
 
 We strengthen the test to the Limit Root Test as follows:
 * If $\limsup\limits_{n\to\infty}\sqrt[n]{\l|a_n\r|}<1$, then $\sum_{n=0}^{\infty}a_n$ converges absolutely.

@@ -8,7 +8,7 @@ Date Created: 03/02/2022 14:47:59
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Local and Global Extrema]]
+Examples: [[Extreme Value Theorem]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

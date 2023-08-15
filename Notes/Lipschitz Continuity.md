@@ -10,7 +10,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Bounded iff Lipschitz iff continuous (normed vector space)]]
+Equivalences: [[Bounded iff Lipschitz iff continuous]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
@@ -24,7 +24,7 @@ A function $f:X\to Y$ is said to be <b>Lipschitz continuous</b> if there exists 
 
 ```
 
-<b>Remark.</b> In other words, $f$ is $k$-Lipschitz continuous if $\fa S\subseteq X:\diam f\l(S\r)\leq k\cdot\diam S$. Indeed, every $k$-Lipschitz continuous function is uniformly continuous since the latter requires the existence of a function $\delta:\R^+\to\R^+$ such that if $S\subseteq X$ has $\diam S\leq\delta$, then $\diam f\l(S\r)\leq\epsilon$. Simply take $\delta\coloneqq\epsilon/k$ and observe that
+<b>Remark.</b> In other words, $f$ is $k$-Lipschitz continuous if $\fa S\subseteq X:\diam f\l(S\r)\leq k\cdot\diam S$. Indeed, every $k$-Lipschitz continuous function is uniformly continuous since the latter requires the existence of a function $\delta:\epsilon\mapsto\delta_\epsilon$ such that if $S\subseteq X$ has $\diam S\leq\delta_\epsilon$, then $\diam f\l(S\r)\leq\epsilon$. Simply take $\delta_\epsilon\coloneqq\epsilon/k$ and observe that
 $$\begin{equation}
-    \diam f\l(S\r)\leq k\cdot\diam S\leq k\cdot\delta=k\cdot\epsilon/k=\epsilon.\exqedin
+    \diam f\l(S\r)\leq k\cdot\diam S\leq k\cdot\delta_\epsilon=k\cdot\epsilon/k=\epsilon.\exqedin
 \end{equation}$$

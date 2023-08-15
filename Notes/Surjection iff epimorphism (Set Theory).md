@@ -21,9 +21,9 @@ Consider the category $\catset$ and let $f:X\to Y$ be a function. Then $f$ is a 
 
 ```
 
-<i>Proof.</i> ($\Rightarrow$): The forward direction is proven since, being a surjection, $f$ has a right-inverse (this depends on the Axiom of Choice).
+<i>Proof.</i> ($\Rightarrow$). The forward direction is proven since, being a surjection, $f$ has a right-inverse (this depends on the Axiom of Choice).
 
-($\Leftarrow$): Let $Z$ be a pair set; that is, $Z\coloneqq\l\{z_1,z_2\r\}$ for any sets $z_1$ and $z_2$. Define the functions
+($\Leftarrow$). Let $Z$ be a pair set; that is, $Z\coloneqq\l\{z_1,z_2\r\}$ for any sets $z_1$ and $z_2$. Define the functions
 $$\begin{equation}
     \alpha_1,\alpha_2:Y\to Z\ \ \ \ \textrm{mapping}\ \ \ \ \alpha_1\l(y\r)\coloneqq z_1\ \ \ \ \textrm{and}\ \ \ \ \alpha_2\l(y\r)\coloneqq
         \begin{dcases}

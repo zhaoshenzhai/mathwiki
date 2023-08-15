@@ -8,7 +8,7 @@ Date Created: 27/02/2023 21:42:09
 Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Norms on finite-dimensional spaces are equivalent]]
-References: <i>Not Applicable</i>
+References: [[Bounded iff Lipschitz iff continuous]]
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
@@ -20,6 +20,10 @@ title: Proposition.
 Let $V$ and $W$ be normed vector spaces. If $V$ is finite-dimensional, then any linear map $T:V\to W$ is bounded.
 
 ```
+
+<b>Remark.</b> Since boundedness is equivalent to continuity, we see that any linear map $T:V\to W$ with $V$ finite-dimensional is continuous.<span style="float:right;">$\blacklozenge$</span>
+
+---
 
 <i>Proof.</i> Take $v\in V$ and let $\l\{e_1,\dots,e_n\r\}$ be a basis for $V$, so $v=\sum_{i=1}^{n}\alpha_ie_i$ for some $\alpha_i\in\C$. Then
 $$\begin{equation}

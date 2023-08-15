@@ -25,7 +25,7 @@ Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces and fix $\Omega\subseteq X$
 ```
 
 <i>Proof.</i> We shall prove that $1\Rightarrow2\Rightarrow3\Rightarrow1$.
-* ($1\Rightarrow2$): Let $p$ be a cluster point of $\Omega$. Then, since $f$ is continuous, it is continuous at $p$ and hence
+* ($1\Rightarrow2$). Let $p$ be a cluster point of $\Omega$. Then, since $f$ is continuous, it is continuous at $p$ and hence
 $$\begin{equation}
     \fa B_\epsilon\!\l(f\l(p\r)\r),\ex B_\delta\!\l(p\r):\im_f\l(B_\delta\!\l(p\r)\cap\Omega\r)\subseteq B_\epsilon\!\l(f\l(p\r)\r).
 \end{equation}$$

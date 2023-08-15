@@ -10,7 +10,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: [[Linear map from a finite-dimensional space is bounded]]
-Equivalences: [[Bounded iff Lipschitz iff continuous (normed vector space)]]
+Equivalences: [[Bounded iff Lipschitz iff continuous]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

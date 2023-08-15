@@ -18,9 +18,9 @@ Let $K$ denote either $\R$ or $\C$ and let $V$ be an inner product space over $K
 ```
 
 <i>Proof.</i> We verify the axioms for a norm on $V$.
-* (Positive-definiteness): Take $v\in V$. Obviously $\|v\|=\sqrt{\inprod{v}{v}}\geq0$, and $\|v\|=0$ iff $\sqrt{\inprod{v}{v}}=0$ iff $\inprod{v}{v}=0$ iff $v=0$.
+* (Positive-definiteness). Take $v\in V$. Obviously $\|v\|=\sqrt{\inprod{v}{v}}\geq0$, and $\|v\|=0$ iff $\sqrt{\inprod{v}{v}}=0$ iff $\inprod{v}{v}=0$ iff $v=0$.
 
-* (Triangle inequality): Take $v,w\in V$ and observe that
+* (Triangle inequality). Take $v,w\in V$ and observe that
 $$\begin{equation}
     \begin{aligned}
         \|v+w\|^2&=\inprod{v+w}{v+w} && \textrm{Definition of $\|\slot\|$} \\
@@ -34,7 +34,7 @@ $$\begin{equation}
     \end{aligned}
 \end{equation}$$
 taking roots gives the desired result.
-* (Absolute homogeneity): Take $v\in V$ and $\alpha\in K$, and observe that
+* (Absolute homogeneity). Take $v\in V$ and $\alpha\in K$, and observe that
 $$\begin{equation}
     \begin{aligned}
         \|\alpha v\|^2&=\inprod{\alpha v}{\alpha v} && \textrm{Definition of $\|\slot\|$} \\

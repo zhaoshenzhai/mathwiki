@@ -25,8 +25,8 @@ Otherwise, we say that the <b>infinite series of $\tpl{a_k}_{k\in\N}$ diverges</
 ```
 
 <b>Remark.</b> Two elementary conditions for convergence.
-* (Necessary Condition for Convergence): If $\sum_{k=0}^{\infty}a_k$ converges, then $\lim\limits_{k\to\infty}a_k=0$. Indeed, since $a_k=s_k-s_{k-1}$, taking the limit yields the result.
-* (Cauchy Criterion for Convergence): Since $\R$ is complete, we see that $\sum_{k=0}^{\infty}a_k$ converges iff for every $\epsilon>0$, $\l|s_m-s_n\r|<\epsilon$ for all eventually $m,n\in\N$.<span style="float:right;">$\blacklozenge$</span>
+* (Necessary Condition for Convergence). If $\sum_{k=0}^{\infty}a_k$ converges, then $\lim\limits_{k\to\infty}a_k=0$. Indeed, since $a_k=s_k-s_{k-1}$, taking the limit yields the result.
+* (Cauchy Criterion for Convergence). Since $\R$ is complete, we see that $\sum_{k=0}^{\infty}a_k$ converges iff for every $\epsilon>0$, $\l|s_m-s_n\r|<\epsilon$ for all eventually $m,n\in\N$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

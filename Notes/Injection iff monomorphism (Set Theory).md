@@ -21,9 +21,9 @@ Consider the category $\catset$ and let $f:X\to Y$ be a function. Then $f$ is an
 
 ```
 
-<i>Proof.</i> ($\Rightarrow$): The forward direction is proven since, being an injection, $f$ has a left-inverse.
+<i>Proof.</i> ($\Rightarrow$). The forward direction is proven since, being an injection, $f$ has a left-inverse.
 
-($\Leftarrow$): Let $Z$ be a singleton; that is, let $Z\coloneqq\l\{z\r\}$ for some set $z$. Take $x_1,x_2\in X$ and define the functions
+($\Leftarrow$). Let $Z$ be a singleton; that is, let $Z\coloneqq\l\{z\r\}$ for some set $z$. Take $x_1,x_2\in X$ and define the functions
 $$\begin{equation}
     \alpha_1,\alpha_2:Z\to X\ \ \ \ \textrm{mapping}\ \ \ \ \alpha_1\l(z\r)\coloneqq x_1\ \ \ \ \textrm{and}\ \ \ \ \alpha_2\l(z\r)\coloneqq x_2.
 \end{equation}$$

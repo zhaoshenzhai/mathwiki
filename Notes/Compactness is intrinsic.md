@@ -28,7 +28,7 @@ $$\begin{equation}
 \end{equation}$$
 so $K$ is compact in $Y$.
 
-* ($\Leftarrow$): Let $\l\{U_\alpha\r\}_{\alpha\in\mc{A}}$ be a cover of $K$ open in $X$. For all $\alpha\in\mc{A}$, let $V_\alpha\coloneqq Y\cap U_\alpha$, so $\l\{V_\alpha\r\}$ is a cover of $K$ open in $Y$. Compactness of $K$ in $Y$ then furnishes indices $\alpha_1,\dots,\alpha_n$ such that
+* ($\Leftarrow$). Let $\l\{U_\alpha\r\}_{\alpha\in\mc{A}}$ be a cover of $K$ open in $X$. For all $\alpha\in\mc{A}$, let $V_\alpha\coloneqq Y\cap U_\alpha$, so $\l\{V_\alpha\r\}$ is a cover of $K$ open in $Y$. Compactness of $K$ in $Y$ then furnishes indices $\alpha_1,\dots,\alpha_n$ such that
 $$\begin{equation}
     K\subseteq\bigcup_{i=1}^{n}V_{\alpha_i}=\bigcup_{i=1}^{n}Y\cap U_{\alpha_i}=Y\cap\bigcup_{i=1}^{n}U_{\alpha_i}\subseteq\bigcup_{i=1}^{n}U_{\alpha_i},
 \end{equation}$$

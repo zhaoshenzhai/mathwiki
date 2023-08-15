@@ -22,7 +22,7 @@ Let $\N$ be the set of natural numbers. Then the standard topology $\mc{T}\colon
 ```
 
 <i>Proof.</i> Consider the collection $\mc{B}\coloneqq\l\{\l\{n\r\}\in\pow\l(\N\r)\st n\in\N\r\}$; it suffices to prove that $\mc{B}$ is a basis that generates $\mc{T}$.
-* ($\mc{B}\subseteq\mc{T}$): Take $\l\{n\r\}\in\mc{B}$ where $n\in\N$ and observe that
+* ($\mc{B}\subseteq\mc{T}$). Take $\l\{n\r\}\in\mc{B}$ where $n\in\N$ and observe that
 $$\begin{equation}
     \l\{n\r\}=
     \begin{dcases}

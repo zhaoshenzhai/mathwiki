@@ -18,12 +18,12 @@ Let $\tpl{I^2,\mc{T}_\textrm{or}}$ be the ordered square and let $<$ be the stan
 ```
 
 <i>Proof.</i> Let $\mc{B}_\textrm{or}$ and $\mc{B}_\textrm{pr}$ be bases for $\mc{T}_\textrm{or}$ and $\mc{T}_\textrm{pr}$, respectively.
-* ($\mc{T}_\textrm{or}\not\subseteq\mc{T}_\textrm{pr}$): Take $\tpl{x,y}\coloneqq\tpl{0.5,0.5}\in I^2$ and let
+* ($\mc{T}_\textrm{or}\not\subseteq\mc{T}_\textrm{pr}$). Take $\tpl{x,y}\coloneqq\tpl{0.5,0.5}\in I^2$ and let
 $$\begin{equation}
     B_\textrm{or}\coloneqq\l(\tpl{0.5,0.2},\tpl{0.5,0.8}\r)\in\mc{B}_\textrm{or}
 \end{equation}$$
 which certainly contains $\tpl{x,y}$. Any basis $B_\textrm{pr}\in\mc{B}_\textrm{pr}$ containing $\tpl{x,y}$ necessarily contains some point $\tpl{x',y}\in B_\textrm{pr}$ where $x'\neq x$ but $\tpl{x',y}\not\in B_\textrm{or}$, so $B_\textrm{pr}\not\subseteq B_\textrm{or}$ and thus $\mc{T}_\textrm{or}\not\subseteq\mc{T}_\textrm{pr}$.
-* ($\mc{T}_\textrm{pr}\not\subseteq\mc{T}_\textrm{or}$): Take $\tpl{x,y}\coloneqq\tpl{0.5,0}\in I^2$ and let
+* ($\mc{T}_\textrm{pr}\not\subseteq\mc{T}_\textrm{or}$). Take $\tpl{x,y}\coloneqq\tpl{0.5,0}\in I^2$ and let
 $$\begin{equation}
     B_\textrm{pr}\coloneqq\l(0.25,0.75\r)\times\l[0,0.5\r)\in\mc{B}_\textrm{pr}
 \end{equation}$$

@@ -22,7 +22,7 @@ is a topology on $X\times Y$.
 ```
 
 <i>Proof.</i> It suffices to verify that $\mc{B}$ is a basis for a topology on $X\times Y$.
-* ($\axibasis[1]$): Since $X\in\mc{T}_X$ and $Y\in\mc{T}_Y$, we see that $X\times Y\in\mc{T}_\textrm{pr}$. Thus any $p\in X\times Y$ is in a basis element, namely $X\times Y$.
+* ($\axibasis[1]$). Since $X\in\mc{T}_X$ and $Y\in\mc{T}_Y$, we see that $X\times Y\in\mc{T}_\textrm{pr}$. Thus any $p\in X\times Y$ is in a basis element, namely $X\times Y$.
 * ($\axibasis[2]$): Take $U_1\times V_1,U_2\times V_2\in\mc{B}$ and take $q\in\l(U_1\times V_1\r)\cap\l(U_2\times V_2\r)$. Observe then that
 $$\begin{equation}
     q\in\l(U_1\cap U_2\r)\times\l(V_1\cap V_2\r).

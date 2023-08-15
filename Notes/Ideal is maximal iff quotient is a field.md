@@ -27,4 +27,4 @@ $$\begin{equation}
     \bar{x}\bar{y}=\bar{xy}=\bar{1-a}=\bar{1},
 \end{equation}$$
 as desired.
-* ($\Leftarrow$): Let $\mf{b}\nsubgrpeq R$ be an ideal properly containing $\mf{a}$, so there exists $a\in\mf{b}$ such that $a\not\in\mf{a}$. Thus $\bar{a}\neq\bar{0}$, and since $R/\mf{a}$ is a field, it admits an inverse $\bar{b}\in R/\mf{a}$. Then $\bar{ab}=\bar{a}\bar{b}=\bar{1}$, so $1=ab+i$ for some $i\in\mf{a}\subset\mf{b}$ and hence $1\in\mf{b}$. Thus $\mf{b}=R$, as desired.<span style="float:right;">$\blacksquare$</span>
+* ($\Leftarrow$). Let $\mf{b}\nsubgrpeq R$ be an ideal properly containing $\mf{a}$, so there exists $a\in\mf{b}$ such that $a\not\in\mf{a}$. Thus $\bar{a}\neq\bar{0}$, and since $R/\mf{a}$ is a field, it admits an inverse $\bar{b}\in R/\mf{a}$. Then $\bar{ab}=\bar{a}\bar{b}=\bar{1}$, so $1=ab+i$ for some $i\in\mf{a}\subset\mf{b}$ and hence $1\in\mf{b}$. Thus $\mf{b}=R$, as desired.<span style="float:right;">$\blacksquare$</span>

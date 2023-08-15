@@ -18,7 +18,7 @@ Let $X$ be a topological space. Then $X$ is compact iff for every collection $\l
 ```
 
 <i>Proof.</i>
-* ($\Rightarrow$): Assume that $X$ is compact and suppose, for sake of contradiction, that $\bigcap_{\alpha\in\mc{A}}F_\alpha=\em$. For each $\alpha\in\mc{A}$, set $U_\alpha\coloneqq X\comp U_\alpha$, which is open, and observe that
+* ($\Rightarrow$). Assume that $X$ is compact and suppose, for sake of contradiction, that $\bigcap_{\alpha\in\mc{A}}F_\alpha=\em$. For each $\alpha\in\mc{A}$, set $U_\alpha\coloneqq X\comp U_\alpha$, which is open, and observe that
 $$\begin{equation}
     \bigcup_{\alpha\in\mc{A}}U_\alpha=\bigcup_{\alpha\in\mc{A}}X\comp F_\alpha=X\comp\bigcap_{\alpha\in\mc{A}}F_\alpha=X.
 \end{equation}$$
@@ -28,7 +28,7 @@ $$\begin{equation}
 \end{equation}$$
 contradicting the ‘finite-intersection property’ of $\l\{F_\alpha\r\}$.
 
-* ($\Leftarrow$): Let $\l\{U_\alpha\r\}_{\alpha\in\mc{A}}$ be an open cover of $X$ and suppose, for sake of contradiction, that it has no finite subcover. For each $\alpha\in\mc{A}$, set $F_\alpha\coloneqq X\comp U_\alpha$, which is closed, and observe that
+* ($\Leftarrow$). Let $\l\{U_\alpha\r\}_{\alpha\in\mc{A}}$ be an open cover of $X$ and suppose, for sake of contradiction, that it has no finite subcover. For each $\alpha\in\mc{A}$, set $F_\alpha\coloneqq X\comp U_\alpha$, which is closed, and observe that
 $$\begin{equation}
     \bigcap_{i=1}^{k}F_{\alpha_i}=\bigcap_{i=1}^{k}X\comp U_{\alpha_i}=X\comp\bigcup_{i=1}^{k}U_{\alpha_i}\neq\em
 \end{equation}$$

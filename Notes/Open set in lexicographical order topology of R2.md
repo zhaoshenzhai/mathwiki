@@ -26,7 +26,7 @@ $$\begin{equation}
     \mc{A}\coloneqq\l\{A\in\pow\l(\R^2\r)\st\ex a,b,c,d\in\R:m<a\leq c<n\land A=\l(\tpl{a,b},\tpl{c,d}\r)\r\}
 \end{equation}$$
 and set $V\coloneqq\bigcup\mc{A}$; we wish to show that $U=V$.
-* ($U\subseteq V$): Take $\tpl{x,y}\in U$, so $m<x<n$. Observe that
+* ($U\subseteq V$). Take $\tpl{x,y}\in U$, so $m<x<n$. Observe that
 $$\begin{equation}
     \tpl{x,y}\in\l(\tpl{x,y-1},\tpl{x,y+1}\r)\in\mc{A},
 \end{equation}$$

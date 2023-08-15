@@ -14,7 +14,7 @@ Generalizations: <i>Not Applicable</i>
 title: Proposition (Ratio Tests).
 
 Let $\tpl{a_n}$ be a non-zero sequence in $\R$.
-* (Direct Ratio Test): If  $\l|a_{n+1}/a_n\r|<1$ eventually, then $\sum_{n=0}^{\infty}a_n$ converges absolutely. Otherwise, if $\l|a_{n+1}/a_n\r|\geq1$ eventually, then $\sum_{n=0}^{\infty}a_n$ diverges.
+* (Direct Ratio Test). If  $\l|a_{n+1}/a_n\r|<1$ eventually, then $\sum_{n=0}^{\infty}a_n$ converges absolutely. Otherwise, if $\l|a_{n+1}/a_n\r|\geq1$ eventually, then $\sum_{n=0}^{\infty}a_n$ diverges.
 
 We strengthen the test to the Limit Ratio Test as follows:
 * If $\limsup\limits_{n\to\infty}\l|\frac{a_{n+1}}{a_n}\r|<1$, then $\sum_{n=0}^{\infty}a_n$ converges absolutely.
