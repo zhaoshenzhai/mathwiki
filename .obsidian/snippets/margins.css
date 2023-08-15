@@ -3,7 +3,7 @@ img {
   margin: 15px auto;
 }
 
-hr {
+.markdown-reading-view :is(hr) {
     margin: 1em 0 !important;
 }
 
