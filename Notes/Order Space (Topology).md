@@ -4,7 +4,7 @@ Date Created: 10/02/2022 12:07:40
 Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
-Examples: [[Real Numbers]], [[Ordered Square]]
+Examples: [[Real Numbers]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

@@ -12,7 +12,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Euclidean Topological Space]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Lexicographical order topology strictly finer than standard topology on R2]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
