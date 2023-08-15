@@ -5,7 +5,7 @@ mathLink: Perfect set in $\R^n$ $\Rightarrow$ uncountable
 <div class="topSpace"></div>
 
 Date Created: 04/01/2023 17:46:25
-Tags: #Type/Theorem #Topic/Real_Analysis/Later
+Tags: #Type/Proposition #Topic/Real_Analysis/Later
 
 Proved by: [[Real Numbers#^heine-borel]], [[Cantor's Intersection Theorem]]
 References: <i>Not Applicable</i>
@@ -14,8 +14,8 @@ Justifications: <i>Not Applicable</i>
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-``` ad-Theorem
-title: Theorem.
+``` ad-Proposition
+title: Proposition.
 
 Fix $n\in\N^+$ and consider a non-empty subset $S\subseteq\R^n$. If $S$ is perfect, then $S$ is uncountable.
 

@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Lagrange's Theorem]], [[Orbit-Stabilizer Theorem]], [[Coset Representation Theorem]], [[Class Equation]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Number of left-cosets equals number of right-cosets]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

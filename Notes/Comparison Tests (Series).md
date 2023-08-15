@@ -15,7 +15,7 @@ title: Proposition (Comparison Tests).
 
 Let $\tpl{a_k}$ and $\tpl{b_k}$ be eventually positive sequences in $\R$.
 * (Direct Comparison). If $\sum_{k=0}^{\infty}b_k$ converges, so does $\sum_{k=0}^{\infty}a_k$, and if $\sum_{k=0}^{\infty}a_k$ diverges, so does $\sum_{k=0}^{\infty}b_k$.
-* (Limit Comparison). Suppose that $r\coloneqq\lim_{k\to\infty}a_k/b_k$ exists. If $r\neq0$, then $\sum_{k=0}^{\infty}a_k$ converges iff $\sum_{k=0}^{\infty}b_k$ does. Otherwise, if $r=0$ and $\sum_{k=0}^{\infty}b_k$ converges, then $\sum_{k=0}^{\infty}a_k$ _converges too.
+* (Limit Comparison). Suppose that $r\coloneqq\lim_{k\to\infty}a_k/b_k$ exists. If $r\neq0$, then $\sum_{k=0}^{\infty}a_k$ converges iff $\sum_{k=0}^{\infty}b_k$ does. Otherwise, if $r=0$ and $\sum_{k=0}^{\infty}b_k$ converges, then $\sum_{k=0}^{\infty}a_k$ converges too.
 
 ```
 

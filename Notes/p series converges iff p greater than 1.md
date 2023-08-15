@@ -7,15 +7,16 @@ mathLink: $p$-series converges $\Leftrightarrow$ $p>1$
 Date Created: 16/03/2023 10:15:25
 Tags: #Type/Proposition #Topic/Real_Analysis
 
-Proved by: [[Cauchy's Condensation Test]], [[Geometric Sequence]]
-References: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Abstractions: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
 
-Specializations: <i>Not Applicable</i>
-Generalizations: <i>Not Applicable</i>
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: [[Cauchy's Condensation Test]], [[Geometric Sequence]]
 
-``` ad-Proposition
-title: Proposition.
+``` ad-Example
+title: Example.
 
 Fix $p\in\R$. Then the infinite series $\sum_{k=1}^{\infty}1/k^p$ converges iff $p>1$.
 
