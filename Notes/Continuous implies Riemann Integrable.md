@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 05/04/2023 12:06:30
-Tags: #Type/Proposition #Topic/Real_Analysis
+Tags: #Type/Proposition #Topic/Real_Analysis/Later
 
 Proved by: [[Heine-Cantor Theorem]], [[Squeeze Theorem (Riemann Integration)]]
 References: <i>Not Applicable</i>

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 30/12/2022 15:49:05
-Tags: #Type/Definition #Topic/Real_Analysis
+Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>

@@ -1,11 +1,11 @@
 ---
-mathLink: $X$ compact $\Rightarrow$ $\tpl{\CONT{\l(X\r)},\|\slot\|_\infty}$ Banach
+mathLink: $X$ compact $\Rightarrow$ $\CONT{\l(X\r)}$ Banach (sup norm)
 ---
 
 <div class="topSpace"></div>
 
 Date Created: 09/04/2023 14:41:01
-Tags: #Type/Proposition #Topic/Real_Analysis
+Tags: #Type/Proposition #Topic/Functional_Analysis
 
 Proved by: [[Extreme Value Theorem]]
 References: <i>Not Applicable</i>

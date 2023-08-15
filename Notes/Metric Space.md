@@ -3,13 +3,13 @@
 Date Created: 27/09/2022 18:49:17
 Tags: #Type/Definition #Topic/Real_Analysis
 
-Types: [[Compact Space]], [[Complete Metric Space]], [[Bounded Space]]
+Types: [[Compact Space]], [[Complete Metric Space]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Epsilon-ball]], [[Diameter]]
+Constructions: [[Epsilon-ball]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: [[Norm induces a metric]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

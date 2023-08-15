@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 16/02/2023 11:00:59
-Tags: #Type/Proposition #Topic/Real_Analysis/Later
+Tags: #Type/Proposition #Topic/Functional_Analysis
 
 Proved by: [[Minkowski's Inequality]]
 References: <i>Not Applicable</i>

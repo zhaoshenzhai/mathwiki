@@ -3,7 +3,7 @@
 Date Created: 25/11/2022 19:29:46
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Sequential characterization of closure (metric)]], [[Characterizations of continuity (metric)]], [[Uniform continuity preserve Cauchyness]]
+Proved by: [[Characterizations of continuity (metric)]], [[Uniform continuity preserve Cauchy sequences]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

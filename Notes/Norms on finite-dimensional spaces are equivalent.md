@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/02/2023 10:19:11
-Tags: #Type/Proposition #Topic/Real_Analysis
+Tags: #Type/Proposition #Topic/Functional_Analysis
 
 Proved by: [[Real Numbers#^heine-borel]], [[Extreme Value Theorem]]
 References: <i>Not Applicable</i>
@@ -13,7 +13,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition.
 
-Let $V$ be a finite-dimensional normed vector space. Then any two norms on $V$ are equivalent.
+Let $V$ be a finite-dimensional normed vector space. Then any two norms $\|\slot\|_1$ and $\|\slot\|_2$ on $V$ are equivalent in the sense that there exist $c_1,c_2>0$ such that $\|v\|_1\leq c_1\|v\|_2$ and $\|v\|_2\leq c_2\|v\|_1$ for all $v\in V$.
 
 ```
 

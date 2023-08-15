@@ -1,16 +1,16 @@
 <div class="topSpace"></div>
 
 Date Created: 24/06/2022 21:36:42
-Tags: #Type/Definition #Topic/Real_Analysis
+Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: [[Banach Space]]
 Examples: [[Space of Continuous Functions]], [[lp Space]], [[Operator Norm]]
-Constructions: [[Norm induces a metric]], [[Bounded Linear Map]], [[Frechet Differentiability and Derivative]]
+Constructions: [[Bounded Linear Map]], [[Frechet Differentiability and Derivative]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Norms on finite-dimensional spaces are equivalent]]
 Sufficiencies: [[Inner product induces a norm]]
-Equivalences: [[Equivalent Norms]]
+Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

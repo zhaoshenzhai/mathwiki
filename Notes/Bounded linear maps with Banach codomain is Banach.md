@@ -1,5 +1,5 @@
 ---
-mathLink: $W$ Banach $\Rightarrow$ $\tpl{\BDD{\l(V,W\r)},\|\slot\|_\textrm{op}}$ Banach
+mathLink: $W$ Banach $\Rightarrow$ $\BDD{\l(V,W\r)}$ Banach (operator norm)
 ---
 
 <div class="topSpace"></div>

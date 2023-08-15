@@ -16,7 +16,7 @@ Constructions: [[Complex Numbers]], [[Differentiable Function and Derivative in 
 Properties: [[Convergence Criteria in R]], [[Mean Value Theorems]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Compact implies closed (Hausdorff)]], [[Sequential characterization of closed sets (metric)]], [[Characterizations of compactness (metric space)]]
+Justifications: [[Compact implies closed (Hausdorff)]], [[Characterizations of compactness (metric space)]]
 
 ``` ad-Example
 title: Example.

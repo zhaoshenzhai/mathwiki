@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Uniform continuity preserve Cauchyness]]
+Properties: [[Uniform continuity preserve Cauchy sequences]]
 Sufficiencies: [[Heine-Cantor Theorem]]
 Equivalences: [[Continuous Extension Theorem]]
 Justifications: <i>Not Applicable</i>

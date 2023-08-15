@@ -3,7 +3,7 @@
 Date Created: 28/03/2023 10:15:47
 Tags: #Type/Proposition #Topic/Real_Analysis
 
-Proved by: [[Geometric series converges iff r less than 1]], [[Comparison Tests (Series)]]
+Proved by: [[Geometric Sequence]], [[Comparison Tests (Series)]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

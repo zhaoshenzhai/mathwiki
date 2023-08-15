@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 24/01/2023 11:48:43
 Tags: #Type/Proposition #Topic/Real_Analysis
 
-Proved by: [[Neighborhood characterization of cluster points (metric)]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

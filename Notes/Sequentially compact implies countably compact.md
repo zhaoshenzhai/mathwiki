@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 24/01/2023 12:06:15
 Tags: #Type/Proposition #Topic/Real_Analysis
 
-Proved by: [[Sequential characterization of closure (metric)]], [[Neighborhood characterization of cluster points (metric)]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

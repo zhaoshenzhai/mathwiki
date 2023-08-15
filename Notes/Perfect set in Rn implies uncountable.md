@@ -1,13 +1,13 @@
 ---
-mathLink: auto
+mathLink: Perfect set in $\R^n$ $\Rightarrow$ uncountable
 ---
 
 <div class="topSpace"></div>
 
 Date Created: 04/01/2023 17:46:25
-Tags: #Type/Theorem #Topic/Real_Analysis
+Tags: #Type/Theorem #Topic/Real_Analysis/Later
 
-Proved by: [[Neighborhood characterization of cluster points (metric)]], [[Real Numbers#^heine-borel]], [[Cantor's Intersection Theorem]]
+Proved by: [[Real Numbers#^heine-borel]], [[Cantor's Intersection Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

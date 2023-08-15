@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 01/11/2022 01:28:24
 Tags: #Type/Proposition #Topic/Real_Analysis
 
-Proved by: [[Limit of geometric sequence]]
+Proved by: [[Geometric Sequence]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

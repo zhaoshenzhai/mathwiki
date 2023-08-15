@@ -3,7 +3,7 @@
 Date Created: 29/12/2022 21:53:42
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Sequential characterization of closure (metric)]], [[Sequentially compact implies separable]], [[Separable implies admits countable subcover]], [[Sequentially compact implies countably compact]]
+Proved by: [[Sequentially compact implies separable]], [[Separable implies admits countable subcover]], [[Sequentially compact implies countably compact]]
 References: [[Compact implies limit point compact]]
 Justifications: <i>Not Applicable</i>
 

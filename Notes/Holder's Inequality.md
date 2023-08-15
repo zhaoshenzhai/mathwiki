@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 14/02/2023 11:03:20
-Tags: #Type/Theorem #Topic/Real_Analysis/Later
+Tags: #Type/Theorem #Topic/Functional_Analysis
 
 Proved by: [[Young's Inequality for Products]]
 References: <i>Not Applicable</i>
