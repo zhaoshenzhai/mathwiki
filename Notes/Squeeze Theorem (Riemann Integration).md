@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/04/2023 18:13:29
-Tags: #Type/Proposition #Topic/Real_Analysis
+Tags: #Type/Proposition #Topic/Real_Analysis/Later
 
 Proved by: [[Cauchy Integrability Criterion]]
 References: <i>Not Applicable</i>

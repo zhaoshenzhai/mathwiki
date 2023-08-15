@@ -1,11 +1,11 @@
 <div class="topSpace"></div>
 
 Date Created: 10/02/2022 12:07:40
-Tags: #Type/Definition #Topic/Topology/Later
+Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
 Examples: [[Real Numbers]], [[Ordered Square]]
-Constructions: [[Sequential Limits to Infinity]]
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
