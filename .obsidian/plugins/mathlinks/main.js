@@ -517,12 +517,20 @@ function translateLink(targetLink) {
 // src/links.ts
 var MathLinksRenderChild = class extends import_obsidian3.MarkdownRenderChild {
   constructor(containerEl, plugin, sourcePath, targetLink, displayText) {
+    var _a;
     super(containerEl);
     this.plugin = plugin;
     this.sourcePath = sourcePath;
     this.targetLink = targetLink;
     this.displayText = displayText;
     this.targetFile = this.plugin.app.metadataCache.getFirstLinkpathDest((0, import_obsidian3.getLinkpath)(this.targetLink), this.sourcePath);
+    this.mathLinkEl = this.containerEl.cloneNode(true);
+    this.mathLinkEl.textContent = "";
+    (_a = this.containerEl.parentNode) == null ? void 0 : _a.insertBefore(this.mathLinkEl, this.containerEl.nextSibling);
+    this.mathLinkEl.classList.add("mathLink-internal-link");
+    this.containerEl.classList.add("original-internal-link");
+    this.containerEl.style.display = "none";
+    this.getMathLink = this.setMathLinkGetter();
   }
   onload() {
     this.update();
@@ -540,23 +548,26 @@ var MathLinksRenderChild = class extends import_obsidian3.MarkdownRenderChild {
       this.update();
     }));
   }
+  setMathLinkGetter() {
+    var _a;
+    let getter = () => "";
+    if (this.displayText != this.targetLink && this.displayText != translateLink(this.targetLink)) {
+      getter = () => this.displayText;
+    } else {
+      const targetName = (_a = this.targetFile) == null ? void 0 : _a.basename;
+      if (this.displayText == targetName || this.displayText == translateLink(this.targetLink)) {
+        getter = () => getMathLink(this.plugin, this.targetLink, this.sourcePath);
+      }
+    }
+    return getter;
+  }
   update() {
     return __async(this, null, function* () {
-      var _a;
-      let mathLink = "";
-      if (this.displayText != this.targetLink && this.displayText != translateLink(this.targetLink)) {
-        mathLink = this.displayText;
-      } else {
-        const targetName = (_a = this.targetFile) == null ? void 0 : _a.basename;
-        const targetDisplay = this.containerEl.innerText;
-        if (targetDisplay == targetName || targetDisplay == translateLink(this.targetLink)) {
-          mathLink = getMathLink(this.plugin, this.targetLink, this.sourcePath);
-        }
-      }
+      const mathLink = this.getMathLink();
       if (mathLink) {
-        addMathLink(mathLink, this.containerEl, true);
+        setMathLink(mathLink, this.mathLinkEl);
       } else {
-        addMathLink(this.displayText, this.containerEl, true);
+        setMathLink(this.displayText, this.mathLinkEl);
       }
     });
   }
@@ -586,33 +597,23 @@ function generateMathLinks(plugin, element, context) {
     }
   }
 }
-function addMathLink(source, targetEl, newElement) {
-  var _a;
-  let mathLinkEl = targetEl.cloneNode(newElement);
-  mathLinkEl.innerText = "";
-  let mathPattern = /\$(.*?[^\s])\$/g;
+function setMathLink(source, mathLinkEl) {
+  mathLinkEl.replaceChildren();
+  const mathPattern = /\$(.*?[^\s])\$/g;
   let textFrom = 0, textTo = 0;
   let result;
   while ((result = mathPattern.exec(source)) !== null) {
-    let match = result[0];
-    let mathString = result[1];
+    const mathString = result[1];
     textTo = result.index;
     if (textTo > textFrom)
       mathLinkEl.createSpan().replaceWith(source.slice(textFrom, textTo));
-    let mathEl = (0, import_obsidian3.renderMath)(mathString, false);
+    const mathEl = (0, import_obsidian3.renderMath)(mathString, false);
     mathLinkEl.createSpan({ cls: ["math", "math-inline", "is-loaded"] }).replaceWith(mathEl);
     (0, import_obsidian3.finishRenderMath)();
     textFrom = mathPattern.lastIndex;
   }
   if (textFrom < source.length)
     mathLinkEl.createSpan().replaceWith(source.slice(textFrom));
-  if (newElement) {
-    (_a = targetEl.parentNode) == null ? void 0 : _a.insertBefore(mathLinkEl, targetEl.nextSibling);
-    mathLinkEl.classList.add("mathLink-internal-link");
-    targetEl.classList.add("original-internal-link");
-    targetEl.style.display = "none";
-  }
-  return mathLinkEl;
 }
 function getMathLink(plugin, targetLink, sourcePath) {
   var _a;
@@ -748,7 +749,8 @@ function buildLivePreview(plugin, leaf) {
       this.outLinkMathLink = outLinkMathLink;
     }
     toDOM() {
-      let mathLink = addMathLink(this.outLinkMathLink, document.createElement("span"), false);
+      let mathLink = document.createElement("span");
+      setMathLink(this.outLinkMathLink, mathLink);
       mathLink.classList.add("cm-underline");
       mathLink.setAttribute("draggable", "true");
       let outLinkFile = plugin.app.metadataCache.getFirstLinkpathDest(this.outLinkText.replace(/#.*$/, ""), "");
