@@ -554,10 +554,9 @@ var MathLinksRenderChild = class extends import_obsidian3.MarkdownRenderChild {
         }
       }
       if (mathLink) {
-        const children = yield renderTextWithMathAsync(mathLink);
-        this.containerEl.replaceChildren(...children);
+        addMathLink(mathLink, this.containerEl, true);
       } else {
-        this.containerEl.replaceChildren(this.displayText);
+        addMathLink(this.displayText, this.containerEl, true);
       }
     });
   }
@@ -565,6 +564,15 @@ var MathLinksRenderChild = class extends import_obsidian3.MarkdownRenderChild {
 function generateMathLinks(plugin, element, context) {
   var _a, _b;
   for (let targetEl of element.querySelectorAll(".internal-link")) {
+    if (targetEl.classList.contains("mathLink-internal-link")) {
+      targetEl.remove();
+      let queryResult = element.querySelector(".original-internal-link");
+      if (queryResult) {
+        targetEl = queryResult;
+        targetEl.classList.remove("original-internal-link");
+        targetEl.style.display = "";
+      }
+    }
     const targetDisplay = (_a = targetEl.textContent) == null ? void 0 : _a.trim();
     if (targetDisplay != "" && !/math-inline is-loaded/.test(targetEl.innerHTML)) {
       const targetLink = (_b = targetEl.getAttribute("data-href")) == null ? void 0 : _b.replace(/\.md/, "");
@@ -578,33 +586,10 @@ function generateMathLinks(plugin, element, context) {
     }
   }
 }
-function renderTextWithMathAsync(source) {
-  return __async(this, null, function* () {
-    let elements = [];
-    let mathPattern = /\$(.*?[^\s])\$/g;
-    let textFrom = 0, textTo = 0;
-    let result;
-    while ((result = mathPattern.exec(source)) !== null) {
-      let match = result[0];
-      let mathString = result[1];
-      textTo = result.index;
-      if (textTo > textFrom) {
-        elements.push(source.slice(textFrom, textTo));
-      }
-      textFrom = mathPattern.lastIndex;
-      let mathJaxEl = (0, import_obsidian3.renderMath)(mathString, false);
-      yield (0, import_obsidian3.finishRenderMath)();
-      let mathSpan = createSpan({ cls: ["math", "math-inline", "is-loaded"] });
-      mathSpan.replaceChildren(mathJaxEl);
-      elements.push(mathSpan);
-    }
-    if (textFrom < source.length)
-      elements.push(source.slice(textFrom));
-    return elements;
-  });
-}
-function renderTextWithMath(source) {
-  let elements = [];
+function addMathLink(source, targetEl, newElement) {
+  var _a;
+  let mathLinkEl = targetEl.cloneNode(newElement);
+  mathLinkEl.innerText = "";
   let mathPattern = /\$(.*?[^\s])\$/g;
   let textFrom = 0, textTo = 0;
   let result;
@@ -612,19 +597,22 @@ function renderTextWithMath(source) {
     let match = result[0];
     let mathString = result[1];
     textTo = result.index;
-    if (textTo > textFrom) {
-      elements.push(source.slice(textFrom, textTo));
-    }
-    textFrom = mathPattern.lastIndex;
-    let mathJaxEl = (0, import_obsidian3.renderMath)(mathString, false);
+    if (textTo > textFrom)
+      mathLinkEl.createSpan().replaceWith(source.slice(textFrom, textTo));
+    let mathEl = (0, import_obsidian3.renderMath)(mathString, false);
+    mathLinkEl.createSpan({ cls: ["math", "math-inline", "is-loaded"] }).replaceWith(mathEl);
     (0, import_obsidian3.finishRenderMath)();
-    let mathSpan = createSpan({ cls: ["math", "math-inline", "is-loaded"] });
-    mathSpan.replaceChildren(mathJaxEl);
-    elements.push(mathSpan);
+    textFrom = mathPattern.lastIndex;
   }
   if (textFrom < source.length)
-    elements.push(source.slice(textFrom));
-  return elements;
+    mathLinkEl.createSpan().replaceWith(source.slice(textFrom));
+  if (newElement) {
+    (_a = targetEl.parentNode) == null ? void 0 : _a.insertBefore(mathLinkEl, targetEl.nextSibling);
+    mathLinkEl.classList.add("mathLink-internal-link");
+    targetEl.classList.add("original-internal-link");
+    targetEl.style.display = "none";
+  }
+  return mathLinkEl;
 }
 function getMathLink(plugin, targetLink, sourcePath) {
   var _a;
@@ -760,9 +748,7 @@ function buildLivePreview(plugin, leaf) {
       this.outLinkMathLink = outLinkMathLink;
     }
     toDOM() {
-      let children = renderTextWithMath(this.outLinkMathLink);
-      let mathLink = document.createElement("span");
-      mathLink.replaceChildren(...children);
+      let mathLink = addMathLink(this.outLinkMathLink, document.createElement("span"), false);
       mathLink.classList.add("cm-underline");
       mathLink.setAttribute("draggable", "true");
       let outLinkFile = plugin.app.metadataCache.getFirstLinkpathDest(this.outLinkText.replace(/#.*$/, ""), "");
