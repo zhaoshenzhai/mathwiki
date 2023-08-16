@@ -17,7 +17,7 @@ Let $X$ and $Y$ be topological spaces, and consider a continuous function $f:X\t
 
 ```
 
-<b>Remark.</b> The classical statement is that every function $f:X\to\R$ on a compact space $X$ admits both global extrema. Indeed, $f\l(X\r)$ is compact, so it is closed and bounded. Being bounded, the Dedekind-completeness of $\R$ furnishes a supremum $\alpha\coloneqq\sup f\l(X\r)\in\R$. Thus for each $n\in\N^+$, there exist some $y_n\in f\l(X\r)$ such that $\alpha-1/n<y_n<\alpha$, so $y_n\to\alpha$ by the Squeeze Theorem. But $f\l(X\r)$ is closed, so it contains the limit of all converging sequences in $f\l(X\r)$. Hence $\alpha\in f\l(X\r)$, showing that $f$ admits a global maximum. Similarly, $f$ admits $\beta\coloneqq\inf f\l(X\r)$ as its global minimum.<span style="float:right;">$\blacksquare$</span>
+<b>Remark.</b> The classical statement is that every continuous function $f:X\to\R$ on a compact space $X$ admits both global extrema. Indeed, $f\l(X\r)$ is compact, so it is closed and bounded. Being bounded, the Dedekind-completeness of $\R$ furnishes a supremum $\alpha\coloneqq\sup f\l(X\r)\in\R$. Thus for each $n\in\N^+$, there exist some $y_n\in f\l(X\r)$ such that $\alpha-1/n<y_n<\alpha$, so $y_n\to\alpha$ by the Squeeze Theorem. But $f\l(X\r)$ is closed, so it contains the limit of all converging sequences in $f\l(X\r)$. Hence $\alpha\in f\l(X\r)$, showing that $f$ admits a global maximum. Similarly, $f$ admits $\beta\coloneqq\inf f\l(X\r)$ as its global minimum.<span style="float:right;">$\blacksquare$</span>
 
 ---
 

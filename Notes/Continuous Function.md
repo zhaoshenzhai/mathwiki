@@ -26,4 +26,10 @@ Let $X$ and $Y$ be topological spaces. A function $f:X\to Y$ is said to be <b>co
 <b>Remark.</b> A function is continuous iff it is continuous at each point $p\in X$; that is, every neighborhood $V$ of $f\l(p\r)$ admits a neighborhood $U$ of $p$ such that $f\l(U\r)\subseteq V$.
 * Indeed, if $f$ is continuous, then $f^{-1}\!\l(V\r)$ is a neighborhood of $p$ with $f\l(f^{-1}\!\l(V\r)\r)\subseteq V$. Conversely, let $V$ be a neighborhood of $f\l(p\r)$, so there exists a neighborhood $U_p$ of $p$ such that $f\l(U_p\r)\subseteq V$. We claim that $f^{-1}\!\l(V\r)=\bigcup_{p\in X}U_p$, so it is open. The forward direction follows immediately since $p\in U_p$. The backwards direction is also clear, for $U_p\subseteq f^{-1}\!\l(f\l(U_p\r)\r)\subseteq f^{-1}\l(V\r)$.
 
+
 If $X$ and $Y$ are metric spaces, this shows that $f$ is continuous at $p$ iff $\fa\epsilon>0,\ex\delta>0,\fa q\in X:d\l(p,q\r)<\delta\Rightarrow d\l(f\l(p\r),f\l(q\r)\r)<\epsilon$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> If $\mc{B}$ is a basis for the topology on $Y$, then it suffices to show that preimages of basic open sets are open. Indeed, every open set $V$ in $Y$ can be written as a union $V=\bigcup_{\alpha\in\mc{A}}B_\alpha$ for some basic open sets $B_\alpha\in\mc{B}$, so $f^{-1}\!\l(V\r)=f^{-1}\!\l(\bigcup_{\alpha\in\mc{A}}B_\alpha\r)=\bigcup_{\alpha\in\mc{A}}f^{-1}\!\l(B_\alpha\r)$.
+* If furthermore $\mc{S}$ is a subbasis for the topology on $Y$, then every basic open set $B\in\mc{B}$ can be written as an intersection $B=\bigcap_{i=1}^{n}S_i$, so $f^{-1}\!\l(B\r)=\bigcap_{i=1}^{n}f^{-1}\!\l(S_i\r)$.<span style="float:right;">$\blacklozenge$</span>
