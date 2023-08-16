@@ -182,17 +182,10 @@
                           }
                         },
                         {
-                          "query": "tag:#Topic/Complex_Analysis",
-                          "color": {
-                            "a": 1,
-                            "rgb": 11621088
-                          }
-                        },
-                        {
                           "query": "tag:#Topic/Functional_Analysis",
                           "color": {
                             "a": 1,
-                            "rgb": 14701233
+                            "rgb": 11621088
                           }
                         }
                       ],
