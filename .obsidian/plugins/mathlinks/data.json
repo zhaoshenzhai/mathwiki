@@ -237,22 +237,6 @@
     {
       "path": "README.md",
       "isFile": true
-    },
-    {
-      "path": "Notes/Linear Algebra.md",
-      "isFile": true
-    },
-    {
-      "path": "Notes/Group Theory.md",
-      "isFile": true
-    },
-    {
-      "path": "Notes/Ring Theory.md",
-      "isFile": true
-    },
-    {
-      "path": "Notes/Real Analysis.md",
-      "isFile": true
     }
   ],
   "blockPrefix": "",
