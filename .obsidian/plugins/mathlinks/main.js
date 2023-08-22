@@ -7,7 +7,21 @@ https://github.com/zhaoshenzhai/obsidian-mathlinks
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getOwnPropSymbols = Object.getOwnPropertySymbols;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __propIsEnum = Object.prototype.propertyIsEnumerable;
+var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+var __spreadValues = (a, b) => {
+  for (var prop in b || (b = {}))
+    if (__hasOwnProp.call(b, prop))
+      __defNormalProp(a, prop, b[prop]);
+  if (__getOwnPropSymbols)
+    for (var prop of __getOwnPropSymbols(b)) {
+      if (__propIsEnum.call(b, prop))
+        __defNormalProp(a, prop, b[prop]);
+    }
+  return a;
+};
 var __export = (target, all) => {
   for (var name in all)
     __defProp(target, name, { get: all[name], enumerable: true });
@@ -48,20 +62,291 @@ __export(main_exports, {
   default: () => MathLinks
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian5 = require("obsidian");
+var import_obsidian8 = require("obsidian");
 
-// src/settings.ts
-var import_obsidian = require("obsidian");
+// src/settings/settings.ts
 var DEFAULT_SETTINGS = {
   templates: [],
-  excludedFilePaths: [],
+  excludedPaths: [],
   blockPrefix: "^",
   enableFileNameBlockLinks: true,
   enableAPI: true
 };
-var MathLinksSettingTab = class extends import_obsidian.PluginSettingTab {
-  constructor(app2, plugin) {
-    super(app2, plugin);
+
+// src/settings/tab.ts
+var import_obsidian3 = require("obsidian");
+
+// src/settings/modals.ts
+var import_obsidian2 = require("obsidian");
+
+// src/utils.ts
+var import_obsidian = require("obsidian");
+function isExcluded(plugin, file) {
+  for (let i = 0; i < plugin.settings.excludedPaths.length; i++) {
+    let excluded = plugin.app.vault.getAbstractFileByPath(plugin.settings.excludedPaths[i]);
+    if (excluded && isEqualToOrChildOf(file, excluded))
+      return false;
+  }
+  return true;
+}
+function translateLink(targetLink) {
+  var _a;
+  function translateLinkImpl(targetLink2, pattern) {
+    let result = pattern.exec(targetLink2);
+    if (result)
+      return (result[1] ? `${result[1]} > ` : "") + `${result[2]}`;
+  }
+  let headingPattern = /(^.*)#([^\^].*)/;
+  let blockPattern = /(^.*)#(\^[a-zA-Z0-9\-]+)/;
+  let translatedAsHeading = translateLinkImpl(targetLink, headingPattern);
+  let translatedAsBlock = translateLinkImpl(targetLink, blockPattern);
+  return (_a = translatedAsHeading != null ? translatedAsHeading : translatedAsBlock) != null ? _a : "";
+}
+function isEqualToOrChildOf(file1, file2) {
+  if (file1 == file2)
+    return true;
+  if (file2 instanceof import_obsidian.TFolder && file2.isRoot())
+    return true;
+  let ancestor = file1.parent;
+  while (true) {
+    if (ancestor == file2)
+      return true;
+    if (ancestor) {
+      if (ancestor.isRoot())
+        return false;
+      ancestor = ancestor.parent;
+    }
+  }
+}
+
+// src/settings/modals.ts
+var TemplatesModal = class extends import_obsidian2.Modal {
+  constructor(app, plugin) {
+    super(app);
+    this.plugin = plugin;
+  }
+  onOpen() {
+    this.display();
+  }
+  display() {
+    return __async(this, null, function* () {
+      const { contentEl } = this;
+      contentEl.empty();
+      contentEl.createEl("h4", { text: "Add/Edit Templates" });
+      new import_obsidian2.Setting(contentEl).setName(createFragment((e) => {
+        e.createSpan({ text: "The templates in the list below are sorted by precedence, with the top being replaced first. Note that " });
+        e.createEl("code", { text: "a" });
+        e.createSpan({ text: " > " });
+        e.createEl("code", { text: "b" });
+        e.createSpan({ text: " followed by " });
+        e.createEl("code", { text: "b" });
+        e.createSpan({ text: " > " });
+        e.createEl("code", { text: "c" });
+        e.createSpan({ text: " together is equivalent to " });
+        e.createEl("code", { text: "a" });
+        e.createSpan({ text: " > " });
+        e.createEl("code", { text: "c" });
+        e.createSpan({ text: ", but not the other way around." });
+      })).addButton((btn) => {
+        btn.setTooltip("Add").setIcon("plus").onClick((event) => {
+          let newTemplate = { replaced: "", replacement: "", globalMatch: true, sensitive: true, word: true };
+          new TemplateSettingsModal(this.app, this.plugin, this, newTemplate, true).open();
+        });
+      });
+      if (this.plugin.settings.templates.length) {
+        let list = contentEl.createEl("ul");
+        for (let i = 0; i < this.plugin.settings.templates.length; i++) {
+          let template = this.plugin.settings.templates[i];
+          let item = list.createEl("li").createDiv();
+          new import_obsidian2.Setting(item).setName(createFragment((e) => {
+            e.createEl("code", { text: template.replaced });
+            e.createSpan({ text: " > " });
+            e.createEl("code", { text: template.replacement });
+          })).addExtraButton((button) => {
+            return button.setTooltip("Move up").setIcon("up-arrow-with-tail").onClick(() => __async(this, null, function* () {
+              if (i != 0) {
+                let down = __spreadValues({}, template);
+                let up = this.plugin.settings.templates[i - 1];
+                this.plugin.settings.templates[i] = up;
+                this.plugin.settings.templates[i - 1] = down;
+                yield this.plugin.saveSettings().then(() => {
+                  this.display();
+                });
+              }
+            }));
+          }).addExtraButton((button) => {
+            return button.setTooltip("Move down").setIcon("down-arrow-with-tail").onClick(() => __async(this, null, function* () {
+              if (i != this.plugin.settings.templates.length - 1) {
+                let up = __spreadValues({}, template);
+                let down = this.plugin.settings.templates[i + 1];
+                this.plugin.settings.templates[i] = down;
+                this.plugin.settings.templates[i + 1] = up;
+                yield this.plugin.saveSettings().then(() => {
+                  this.display();
+                });
+              }
+            }));
+          }).addExtraButton((button) => {
+            return button.setTooltip("Edit").setIcon("edit").onClick(() => __async(this, null, function* () {
+              let modal = new TemplateSettingsModal(this.app, this.plugin, this, template, false);
+              modal.open();
+              modal.onClose = () => __async(this, null, function* () {
+                yield this.plugin.saveSettings().then(() => {
+                  this.display();
+                });
+              });
+            }));
+          }).addExtraButton((button) => {
+            return button.setTooltip("Remove").setIcon("x").onClick(() => __async(this, null, function* () {
+              this.plugin.settings.templates.remove(template);
+              yield this.plugin.saveSettings().then(() => {
+                this.display();
+              });
+            }));
+          });
+        }
+      }
+    });
+  }
+};
+var TemplateSettingsModal = class extends import_obsidian2.Modal {
+  constructor(app, plugin, modal, template, create) {
+    super(app);
+    this.plugin = plugin;
+    this.modal = modal;
+    this.template = template;
+    this.create = create;
+  }
+  onOpen() {
+    this.display();
+  }
+  display() {
+    return __async(this, null, function* () {
+      const { contentEl } = this;
+      contentEl.empty();
+      let replacedText;
+      new import_obsidian2.Setting(contentEl).setName("Match for...").setDesc("String to be matched and replaced. Do not include regex.").addText((text) => {
+        replacedText = text;
+        replacedText.setValue(this.template.replaced).onChange((current) => {
+          this.template.replaced = current;
+        });
+      });
+      let replacementText;
+      new import_obsidian2.Setting(contentEl).setName("Replace with...").setDesc("String to replace matches. Do not escape backslashes.").addText((text) => {
+        replacementText = text;
+        replacementText.setValue(this.template.replacement).onChange((current) => {
+          this.template.replacement = current;
+        });
+      });
+      new import_obsidian2.Setting(contentEl).setName("Global match").setDesc("Match all instances (instead of just the first).").addToggle((toggle) => {
+        toggle.setValue(this.template.globalMatch).onChange((current) => this.template.globalMatch = current);
+      });
+      new import_obsidian2.Setting(contentEl).setName("Case sensitive").setDesc("Matches will be case sensitive.").addToggle((toggle) => {
+        toggle.setValue(this.template.sensitive).onChange((current) => this.template.sensitive = current);
+      });
+      new import_obsidian2.Setting(contentEl).setName("Match whole words").setDesc("Only match whole words.").addToggle((toggle) => {
+        toggle.setValue(this.template.word).onChange((current) => this.template.word = current);
+      });
+      new import_obsidian2.Setting(contentEl).addButton((b) => {
+        b.setTooltip(this.create ? "Add" : "Save").setIcon("checkmark").onClick(() => __async(this, null, function* () {
+          if (this.template.replaced == "") {
+            new import_obsidian2.Notice("MathLinks: Please enter a non-empty string to be replaced");
+          } else {
+            if (this.create)
+              this.plugin.settings.templates.push(this.template);
+            yield this.plugin.saveSettings().then(() => {
+              this.close();
+              this.modal.display();
+            });
+          }
+        }));
+      }).addExtraButton((b) => {
+        b.setTooltip("Cancel").setIcon("cross").onClick(() => __async(this, null, function* () {
+          this.close();
+        }));
+      });
+    });
+  }
+};
+var ExcludeModal = class extends import_obsidian2.Modal {
+  constructor(app, plugin) {
+    super(app);
+    this.plugin = plugin;
+  }
+  onOpen() {
+    this.display();
+  }
+  display() {
+    return __async(this, null, function* () {
+      const { contentEl } = this;
+      contentEl.empty();
+      contentEl.createEl("h4", { text: "Excluded files" });
+      new import_obsidian2.Setting(contentEl).setName("The files/folders in this list will be ignored by MathLinks.").addButton((btn) => {
+        btn.setTooltip("Add").setIcon("plus").onClick((event) => {
+          new FileExcludeSuggestModal(this.app, this.plugin, this).open();
+        });
+      });
+      if (this.plugin.settings.excludedPaths.length) {
+        let list = contentEl.createEl("ul");
+        for (let path of this.plugin.settings.excludedPaths) {
+          let item = list.createEl("li").createDiv();
+          new import_obsidian2.Setting(item).setName(path).addExtraButton((button) => {
+            return button.setTooltip("Remove").setIcon("x").onClick(() => __async(this, null, function* () {
+              this.plugin.settings.excludedPaths.remove(path);
+              yield this.plugin.saveSettings().then(() => {
+                this.display();
+              });
+            }));
+          });
+        }
+      }
+    });
+  }
+};
+var FileSuggestModal = class extends import_obsidian2.FuzzySuggestModal {
+  constructor(app, plugin) {
+    super(app);
+    this.plugin = plugin;
+  }
+  getItems() {
+    return this.app.vault.getAllLoadedFiles().filter(this.filterCallback.bind(this));
+  }
+  getItemText(file) {
+    return file.path;
+  }
+  filterCallback(abstractFile) {
+    if (abstractFile instanceof import_obsidian2.TFile && abstractFile.extension != "md")
+      return false;
+    if (abstractFile instanceof import_obsidian2.TFolder && abstractFile.isRoot())
+      return false;
+    for (const path of this.plugin.settings.excludedPaths) {
+      const file = this.app.vault.getAbstractFileByPath(path);
+      if (file && isEqualToOrChildOf(abstractFile, file)) {
+        return false;
+      }
+    }
+    return true;
+  }
+};
+var FileExcludeSuggestModal = class extends FileSuggestModal {
+  constructor(app, plugin, modal) {
+    super(app, plugin);
+    this.modal = modal;
+  }
+  onChooseItem(file, evt) {
+    return __async(this, null, function* () {
+      this.plugin.settings.excludedPaths.push(file.path);
+      yield this.plugin.saveSettings().then(() => {
+        this.modal.display();
+      });
+    });
+  }
+};
+
+// src/settings/tab.ts
+var MathLinksSettingTab = class extends import_obsidian3.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
     this.plugin = plugin;
   }
   display() {
@@ -69,137 +354,34 @@ var MathLinksSettingTab = class extends import_obsidian.PluginSettingTab {
       const { containerEl } = this;
       containerEl.empty();
       containerEl.createEl("h2", { text: "MathLinks Settings" });
-      new import_obsidian.Setting(containerEl).setName("Add a new template").setDesc(createFragment((e) => {
-        e.createSpan({ text: "Generate mathLinks with a new template. Use " });
+      new import_obsidian3.Setting(containerEl).setName("Templates").setDesc(createFragment((e) => {
+        e.createSpan({ text: "Generate mathLinks with a template. Use " });
         e.createEl("code", { text: "mathLink: auto" });
         e.createSpan({ text: " to use templates in a file." });
       })).addButton((button) => {
-        let b = button.setTooltip("Add").setIcon("plus").onClick(() => __async(this, null, function* () {
-          let modal = new AddTemplatesModal(this.app, this.plugin.settings.templates);
-          modal.onClose = () => __async(this, null, function* () {
-            if (modal.saved) {
-              this.plugin.settings.templates.push(modal.newTemplate);
-              yield this.plugin.saveSettings();
-              new import_obsidian.Notice("MathLinks: Template added");
-            }
-          });
+        return button.setButtonText("Manage").onClick(() => __async(this, null, function* () {
+          let modal = new TemplatesModal(this.app, this.plugin);
           modal.open();
-          this.display();
-        }));
-        return b;
-      });
-      let templateTitle;
-      new import_obsidian.Setting(containerEl).setName("Edit/delete template").setDesc("Select a template to edit/delete it.").addDropdown((dropdown) => {
-        dropdown.addOption("__select", "Select");
-        this.plugin.settings.templates.forEach((template) => {
-          dropdown.addOption(template.title, template.title);
-        });
-        dropdown.onChange((current) => __async(this, null, function* () {
-          if (current != "__select")
-            templateTitle = current;
-          else
-            templateTitle = null;
-        }));
-      }).addExtraButton((button) => {
-        let b = button.setTooltip("Edit").setIcon("edit").onClick(() => __async(this, null, function* () {
-          if (templateTitle) {
-            let originalTemplates = JSON.parse(JSON.stringify(this.plugin.settings.templates));
-            let modal = new EditTemplatesModal(this.app, templateTitle, this.plugin.settings.templates);
-            modal.onClose = () => __async(this, null, function* () {
-              if (modal.saved) {
-                yield this.plugin.saveSettings();
-                new import_obsidian.Notice("MathLinks: Template saved");
-              } else {
-                this.plugin.settings.templates = originalTemplates;
-              }
-            });
-            modal.open();
-            this.display();
-          } else {
-            new import_obsidian.Notice("MathLinks: Please select a template");
-          }
-        }));
-        return b;
-      }).addExtraButton((button) => {
-        let b = button.setTooltip("Delete").setIcon("trash").onClick(() => __async(this, null, function* () {
-          if (templateTitle) {
-            let modal = new ConfirmModal(this.app, `Are you sure you want to delete "${templateTitle}"?`, "Yes", "No");
-            modal.onClose = () => __async(this, null, function* () {
-              if (modal.saved) {
-                for (let i = 0; i < this.plugin.settings.templates.length; i++) {
-                  if (this.plugin.settings.templates[i].title == templateTitle) {
-                    this.plugin.settings.templates.splice(i, 1);
-                    yield this.plugin.saveSettings();
-                    new import_obsidian.Notice(`MathLinks: Template "${templateTitle}" deleted`);
-                    break;
-                  }
-                }
-              }
-            });
-            modal.open();
-            this.display();
-          } else {
-            new import_obsidian.Notice("MathLinks: Please select a template");
-          }
-        }));
-        return b;
-      });
-      new import_obsidian.Setting(containerEl).setName("Add an excluded file").setDesc("MathLinks will ignore those files.").addButton((button) => {
-        let b = button.setTooltip("Add").setIcon("plus").onClick(() => __async(this, null, function* () {
-          let modal = new AddExcludedModal(this.app, this.plugin.settings.excludedFilePaths);
           modal.onClose = () => __async(this, null, function* () {
-            if (modal.saved) {
-              this.plugin.settings.excludedFilePaths.push(modal.newExcludedFilePath);
-              yield this.plugin.saveSettings();
-              if (modal.newExcludedFilePath.isFile)
-                new import_obsidian.Notice("MathLinks: File excluded");
-              else
-                new import_obsidian.Notice("MathLinks: Path exclcuded");
-            }
-          });
-          modal.open();
-          this.display();
-        }));
-        return b;
-      });
-      let excludedFilePath;
-      new import_obsidian.Setting(containerEl).setName("Remove from excluded files").setDesc("Remove a file from the list of excluded files.").addDropdown((dropdown) => __async(this, null, function* () {
-        dropdown.addOption("__select", "Select");
-        this.plugin.settings.excludedFilePaths.forEach((excludedFilePath2) => {
-          dropdown.addOption(excludedFilePath2.path, excludedFilePath2.path);
-        });
-        dropdown.onChange((current) => __async(this, null, function* () {
-          if (current != "__select")
-            excludedFilePath = current;
-          else
-            excludedFilePath = null;
-        }));
-      })).addExtraButton((button) => {
-        let b = button.setTooltip("Remove").setIcon("trash").onClick(() => __async(this, null, function* () {
-          if (excludedFilePath) {
-            let modal = new ConfirmModal(this.app, `Are you sure you want to remove "${excludedFilePath}" from the list of excluded files/paths?`, "Yes", "No");
-            modal.onClose = () => __async(this, null, function* () {
-              if (modal.saved) {
-                for (let i = 0; i < this.plugin.settings.excludedFilePaths.length; i++) {
-                  if (this.plugin.settings.excludedFilePaths[i].path == excludedFilePath) {
-                    this.plugin.settings.excludedFilePaths.splice(i, 1);
-                    yield this.plugin.saveSettings();
-                    new import_obsidian.Notice(`MathLinks: "${excludedFilePath}" removed from excluded files`);
-                    break;
-                  }
-                }
-              }
+            yield this.plugin.saveSettings().then(() => {
+              this.display();
             });
-            modal.open();
-            this.display();
-          } else {
-            new import_obsidian.Notice("MathLinks: Please select a file");
-          }
+          });
         }));
-        return b;
+      });
+      new import_obsidian3.Setting(containerEl).setName("Excluded files").setDesc("Manage files/paths that MathLinks will ignore.").addButton((button) => {
+        return button.setButtonText("Manage").onClick(() => __async(this, null, function* () {
+          let modal = new ExcludeModal(this.app, this.plugin);
+          modal.open();
+          modal.onClose = () => __async(this, null, function* () {
+            yield this.plugin.saveSettings().then(() => {
+              this.display();
+            });
+          });
+        }));
       });
       let prefix;
-      new import_obsidian.Setting(containerEl).setName("Edit prefix for block links").setDesc(createFragment((e) => {
+      new import_obsidian3.Setting(containerEl).setName("Edit prefix for block links").setDesc(createFragment((e) => {
         e.createSpan({ text: "Links like " });
         e.createEl("code", { text: "note#^block-id" });
         e.createSpan({ text: " will be rendered as" });
@@ -215,15 +397,17 @@ var MathLinksSettingTab = class extends import_obsidian.PluginSettingTab {
           this.plugin.settings.blockPrefix = current;
           yield this.plugin.saveSettings();
         }));
-        prefix.setPlaceholder("No prefix");
+        prefix.setPlaceholder("No prefix (default: ^)");
       }).addToggle((toggle) => {
         toggle.setValue(this.plugin.settings.enableFileNameBlockLinks).onChange((value) => __async(this, null, function* () {
           this.plugin.settings.enableFileNameBlockLinks = value;
-          yield this.plugin.saveSettings();
+          yield this.plugin.saveSettings().then(() => {
+            this.display();
+          });
         }));
         toggle.setTooltip("Disable to ignore note name.");
       });
-      new import_obsidian.Setting(containerEl).setName("Enable MathLinks API").setDesc(createFragment((e) => {
+      new import_obsidian3.Setting(containerEl).setName("Enable MathLinks API").setDesc(createFragment((e) => {
         let accounts = this.plugin.apiAccounts;
         e.createSpan({ text: "Allow other community plugins to use MathLinks." });
         if (accounts.length) {
@@ -235,188 +419,17 @@ var MathLinksSettingTab = class extends import_obsidian.PluginSettingTab {
       })).addToggle((toggle) => {
         toggle.setValue(this.plugin.settings.enableAPI).onChange((value) => __async(this, null, function* () {
           this.plugin.settings.enableAPI = value;
-          yield this.plugin.saveSettings();
+          yield this.plugin.saveSettings().then(() => {
+            this.display();
+          });
         }));
       });
     });
   }
 };
-var AddTemplatesModal = class extends import_obsidian.Modal {
-  constructor(app2, templates) {
-    super(app2);
-    this.saved = false;
-    this.error = ["MathLinks: Please enter a title", "MathLinks: Please enter a non-empty string to be replaced"];
-    this.templates = [];
-    this.templates = templates;
-  }
-  onOpen() {
-    const { contentEl } = this;
-    contentEl.empty();
-    loadTemplateSettings(contentEl, this.newTemplate, this);
-    loadButtonsToClose(this, this.contentEl.createDiv(), "Add", "Cancel");
-  }
-};
-var EditTemplatesModal = class extends import_obsidian.Modal {
-  constructor(app2, templateTitle, templates) {
-    super(app2);
-    this.saved = false;
-    this.error = ["", ""];
-    this.templateTitle = templateTitle;
-    this.templates = templates;
-  }
-  onOpen() {
-    const { contentEl } = this;
-    contentEl.empty();
-    this.templates.every((template) => {
-      if (this.templateTitle != void 0 && template.title == this.templateTitle) {
-        loadTemplateSettings(contentEl, template, this);
-        return false;
-      }
-      return true;
-    });
-    loadButtonsToClose(this, this.contentEl.createDiv(), "Save", "Cancel");
-  }
-};
-var AddExcludedModal = class extends import_obsidian.Modal {
-  constructor(app2, excludedFilePaths) {
-    super(app2);
-    this.saved = false;
-    this.error = ["MathLinks: Please enter a valid file/path", ""];
-    this.excludedFilePaths = excludedFilePaths;
-  }
-  onOpen() {
-    const { contentEl } = this;
-    contentEl.empty();
-    let excludedFilePathText;
-    new import_obsidian.Setting(contentEl).setName("File name/path of folder").setDesc(createFragment((e) => {
-      e.createSpan({ text: "Enter a file as" });
-      e.createEl("code", { text: "path/name.md" });
-      e.createSpan({ text: " and a folder as " });
-      e.createEl("code", { text: "path" });
-      e.createSpan({ text: "." });
-    })).addText((text) => {
-      excludedFilePathText = text;
-      let footerEl = this.contentEl.createDiv();
-      loadButtonsToClose(this, footerEl, "Add", "Cancel");
-      excludedFilePathText.onChange((current) => {
-        let file = app.vault.getAbstractFileByPath(current);
-        if (file != null) {
-          this.newExcludedFilePath = { path: file.path, isFile: file instanceof import_obsidian.TFile };
-          this.error[0] = "";
-        } else {
-          this.error[0] = "MathLinks: Please enter a valid file/path";
-        }
-        this.error[1] = "";
-        this.excludedFilePaths.every((filePath) => {
-          if (filePath.path == current) {
-            this.error[1] = "MathLinks: Duplicate file/path";
-            return false;
-          }
-          return true;
-        });
-        footerEl.empty();
-        loadButtonsToClose(this, footerEl, "Add", "Cancel");
-      });
-    });
-  }
-};
-var ConfirmModal = class extends import_obsidian.Modal {
-  constructor(app2, areYouSure, proceed, noProceed) {
-    super(app2);
-    this.saved = false;
-    this.error = [];
-    this.areYouSure = areYouSure;
-    this.proceed = proceed;
-    this.noProceed = noProceed;
-  }
-  onOpen() {
-    const { contentEl } = this;
-    contentEl.empty();
-    contentEl.createEl("h3", { text: this.areYouSure });
-    loadButtonsToClose(this, this.contentEl.createDiv(), this.proceed, this.noProceed);
-  }
-};
-function loadTemplateSettings(contentEl, template, modal) {
-  let titleText;
-  new import_obsidian.Setting(contentEl).setName("Title").setDesc("Name of the template.").addText((text) => {
-    titleText = text;
-    titleText.setValue(template.title).onChange((current) => {
-      template.title = current;
-      modal.error[0] = "";
-      if (modal instanceof AddTemplatesModal) {
-        modal.templates.every((t) => {
-          if (template.title != "" && template.title == t.title) {
-            modal.error[0] = "MathLinks: Duplicate title";
-            return false;
-          }
-          return true;
-        });
-      }
-      if (template.title == "") {
-        modal.error[0] = "MathLinks: Please enter a title";
-      }
-    });
-  });
-  let replacedText;
-  new import_obsidian.Setting(contentEl).setName("Match for...").setDesc("String to be matched and replaced. Do not include regex.").addText((text) => {
-    replacedText = text;
-    replacedText.setValue(template.replaced).onChange((current) => {
-      template.replaced = current;
-      modal.error[1] = "";
-      if (template.replaced == "") {
-        modal.error[1] = "MathLinks: Please enter a non-empty string to be replaced";
-      }
-    });
-  });
-  let replacementText;
-  new import_obsidian.Setting(contentEl).setName("Replace with...").setDesc("String to replace matches. Do not escape backslashes.").addText((text) => {
-    replacementText = text;
-    replacementText.setValue(template.replacement).onChange((current) => {
-      template.replacement = current;
-    });
-  });
-  new import_obsidian.Setting(contentEl).setName("Global match").setDesc("Match all instances (instead of just the first).").addToggle((toggle) => {
-    toggle.setValue(template.globalMatch).onChange((current) => template.globalMatch = current);
-  });
-  new import_obsidian.Setting(contentEl).setName("Case sensitive").setDesc("Matches will be case sensitive.").addToggle((toggle) => {
-    toggle.setValue(template.sensitive).onChange((current) => template.sensitive = current);
-  });
-  new import_obsidian.Setting(contentEl).setName("Match whole words").setDesc("Only match whole words.").addToggle((toggle) => {
-    toggle.setValue(template.word).onChange((current) => template.word = current);
-  });
-}
-function loadButtonsToClose(modal, element, trueToolTip, falseToolTip) {
-  let footerButtons = new import_obsidian.Setting(element);
-  footerButtons.addButton((b) => {
-    b.setTooltip(trueToolTip).setIcon("checkmark").onClick(() => __async(this, null, function* () {
-      let proceed = modal.error.every((error) => {
-        if (error != "") {
-          return false;
-        }
-        return true;
-      });
-      if (!proceed) {
-        modal.error.forEach((error) => {
-          if (error != "") {
-            new import_obsidian.Notice(error);
-          }
-        });
-      } else {
-        modal.saved = true;
-        modal.close();
-      }
-    }));
-  });
-  footerButtons.addExtraButton((b) => {
-    b.setTooltip(falseToolTip).setIcon("cross").onClick(() => __async(this, null, function* () {
-      modal.saved = false;
-      modal.close();
-    }));
-  });
-}
 
-// src/api.ts
-var import_obsidian2 = require("obsidian");
+// src/api/api.ts
+var import_obsidian4 = require("obsidian");
 var MathLinksAPIAccount = class {
   constructor(plugin, manifest, blockPrefix, enableFileNameBlockLinks) {
     this.plugin = plugin;
@@ -439,7 +452,7 @@ var MathLinksAPIAccount = class {
   }
   update(path, newMetadata) {
     let file = this.plugin.app.vault.getAbstractFileByPath(path);
-    if (file instanceof import_obsidian2.TFile && file.extension == "md") {
+    if (file instanceof import_obsidian4.TFile && file.extension == "md") {
       this.metadataSet[path] = Object.assign({}, this.metadataSet[path], newMetadata);
       informChange(this.plugin.app, "mathlinks:updated", this, path);
     } else {
@@ -471,132 +484,21 @@ var MathLinksAPIAccount = class {
     informChange(this.plugin.app, "mathlinks:updated", this, path);
   }
 };
-function informChange(app2, eventName, ...callbackArgs) {
-  app2.metadataCache.trigger(eventName, ...callbackArgs);
-  app2.workspace.iterateRootLeaves((leaf) => {
+function informChange(app, eventName, ...callbackArgs) {
+  app.metadataCache.trigger(eventName, ...callbackArgs);
+  app.workspace.iterateRootLeaves((leaf) => {
     var _a;
-    if (leaf.view instanceof import_obsidian2.MarkdownView && leaf.view.getMode() == "source") {
+    if (leaf.view instanceof import_obsidian4.MarkdownView && leaf.view.getMode() == "source") {
       (_a = leaf.view.editor.cm) == null ? void 0 : _a.dispatch();
     }
   });
 }
 
-// src/links.ts
-var import_obsidian3 = require("obsidian");
+// src/links/reading.ts
+var import_obsidian6 = require("obsidian");
 
-// src/utils.ts
-function isValid(plugin, fileName) {
-  if (fileName.endsWith(".canvas"))
-    return true;
-  for (let i = 0; i < plugin.settings.excludedFilePaths.length; i++) {
-    let path = plugin.settings.excludedFilePaths[i];
-    if (path.isFile && fileName == path.path) {
-      return false;
-    } else if (!path.isFile) {
-      let pathRegex = new RegExp(`\\b${path.path}/`);
-      if (pathRegex.test(fileName))
-        return false;
-    }
-  }
-  return true;
-}
-function translateLink(targetLink) {
-  var _a;
-  function translateLinkImpl(targetLink2, pattern) {
-    let result = pattern.exec(targetLink2);
-    if (result)
-      return (result[1] ? `${result[1]} > ` : "") + `${result[2]}`;
-  }
-  let headingPattern = /(^.*)#([^\^].*)/;
-  let blockPattern = /(^.*)#(\^[a-zA-Z0-9\-]+)/;
-  let translatedAsHeading = translateLinkImpl(targetLink, headingPattern);
-  let translatedAsBlock = translateLinkImpl(targetLink, blockPattern);
-  return (_a = translatedAsHeading != null ? translatedAsHeading : translatedAsBlock) != null ? _a : "";
-}
-
-// src/links.ts
-var MathLinksRenderChild = class extends import_obsidian3.MarkdownRenderChild {
-  constructor(containerEl, plugin, sourcePath, targetLink, displayText) {
-    var _a;
-    super(containerEl);
-    this.plugin = plugin;
-    this.sourcePath = sourcePath;
-    this.targetLink = targetLink;
-    this.displayText = displayText;
-    this.targetFile = this.plugin.app.metadataCache.getFirstLinkpathDest((0, import_obsidian3.getLinkpath)(this.targetLink), this.sourcePath);
-    this.mathLinkEl = this.containerEl.cloneNode(true);
-    this.mathLinkEl.textContent = "";
-    (_a = this.containerEl.parentNode) == null ? void 0 : _a.insertBefore(this.mathLinkEl, this.containerEl.nextSibling);
-    this.mathLinkEl.classList.add("mathLink-internal-link");
-    this.containerEl.classList.add("original-internal-link");
-    this.containerEl.style.display = "none";
-    this.getMathLink = this.setMathLinkGetter();
-  }
-  onload() {
-    this.update();
-    this.plugin.registerEvent(this.plugin.app.metadataCache.on("changed", (changedFile) => {
-      if (!this.targetFile || this.targetFile == changedFile) {
-        this.update();
-      }
-    }));
-    this.plugin.registerEvent(this.plugin.app.metadataCache.on("mathlinks:updated", (apiAccount, changedFilePath) => {
-      if (!this.targetFile || this.targetFile.path == changedFilePath) {
-        this.update();
-      }
-    }));
-    this.plugin.registerEvent(this.plugin.app.metadataCache.on("mathlinks:account-deleted", (apiAccount) => {
-      this.update();
-    }));
-  }
-  setMathLinkGetter() {
-    var _a;
-    let getter = () => "";
-    if (this.displayText != this.targetLink && this.displayText != translateLink(this.targetLink)) {
-      getter = () => this.displayText;
-    } else {
-      const targetName = (_a = this.targetFile) == null ? void 0 : _a.basename;
-      if (this.displayText == targetName || this.displayText == translateLink(this.targetLink)) {
-        getter = () => getMathLink(this.plugin, this.targetLink, this.sourcePath);
-      }
-    }
-    return getter;
-  }
-  update() {
-    return __async(this, null, function* () {
-      const mathLink = this.getMathLink();
-      if (mathLink) {
-        setMathLink(mathLink, this.mathLinkEl);
-      } else {
-        setMathLink(this.displayText, this.mathLinkEl);
-      }
-    });
-  }
-};
-function generateMathLinks(plugin, element, context) {
-  var _a, _b;
-  for (let targetEl of element.querySelectorAll(".internal-link")) {
-    if (targetEl.classList.contains("mathLink-internal-link")) {
-      targetEl.remove();
-      let queryResult = element.querySelector(".original-internal-link");
-      if (queryResult) {
-        targetEl = queryResult;
-        targetEl.classList.remove("original-internal-link");
-        targetEl.style.display = "";
-      }
-    }
-    const targetDisplay = (_a = targetEl.textContent) == null ? void 0 : _a.trim();
-    if (targetDisplay != "" && !/math-inline is-loaded/.test(targetEl.innerHTML)) {
-      const targetLink = (_b = targetEl.getAttribute("data-href")) == null ? void 0 : _b.replace(/\.md/, "");
-      if (targetLink) {
-        const targetFile = plugin.app.metadataCache.getFirstLinkpathDest((0, import_obsidian3.getLinkpath)(targetLink), context.sourcePath);
-        if (targetDisplay && targetFile) {
-          const child = new MathLinksRenderChild(targetEl, plugin, context.sourcePath, targetLink, targetDisplay);
-          context.addChild(child);
-        }
-      }
-    }
-  }
-}
+// src/links/helper.ts
+var import_obsidian5 = require("obsidian");
 function setMathLink(source, mathLinkEl) {
   mathLinkEl.replaceChildren();
   const mathPattern = /\$(.*?[^\s])\$/g;
@@ -607,9 +509,9 @@ function setMathLink(source, mathLinkEl) {
     textTo = result.index;
     if (textTo > textFrom)
       mathLinkEl.createSpan().replaceWith(source.slice(textFrom, textTo));
-    const mathEl = (0, import_obsidian3.renderMath)(mathString, false);
+    const mathEl = (0, import_obsidian5.renderMath)(mathString, false);
     mathLinkEl.createSpan({ cls: ["math", "math-inline", "is-loaded"] }).replaceWith(mathEl);
-    (0, import_obsidian3.finishRenderMath)();
+    (0, import_obsidian5.finishRenderMath)();
     textFrom = mathPattern.lastIndex;
   }
   if (textFrom < source.length)
@@ -617,14 +519,14 @@ function setMathLink(source, mathLinkEl) {
 }
 function getMathLink(plugin, targetLink, sourcePath) {
   var _a;
-  let { path, subpath } = (0, import_obsidian3.parseLinktext)(targetLink);
+  let { path, subpath } = (0, import_obsidian5.parseLinktext)(targetLink);
   let file = plugin.app.metadataCache.getFirstLinkpathDest(path, sourcePath);
   if (!file)
     return "";
   let cache = plugin.app.metadataCache.getFileCache(file);
   if (!cache)
     return "";
-  let subpathResult = (0, import_obsidian3.resolveSubpath)(cache, subpath);
+  let subpathResult = (0, import_obsidian5.resolveSubpath)(cache, subpath);
   let mathLink = "";
   if (cache.frontmatter) {
     if (subpathResult) {
@@ -691,13 +593,97 @@ function getMathLinkFromTemplates(plugin, file) {
   return mathLink;
 }
 
-// src/preview.ts
+// src/links/reading.ts
+var MathLinksRenderChild = class extends import_obsidian6.MarkdownRenderChild {
+  constructor(containerEl, plugin, sourcePath, targetLink, displayText) {
+    var _a;
+    super(containerEl);
+    this.plugin = plugin;
+    this.sourcePath = sourcePath;
+    this.targetLink = targetLink;
+    this.displayText = displayText;
+    this.targetFile = this.plugin.app.metadataCache.getFirstLinkpathDest((0, import_obsidian6.getLinkpath)(this.targetLink), this.sourcePath);
+    this.mathLinkEl = this.containerEl.cloneNode(true);
+    this.mathLinkEl.textContent = "";
+    (_a = this.containerEl.parentNode) == null ? void 0 : _a.insertBefore(this.mathLinkEl, this.containerEl.nextSibling);
+    this.mathLinkEl.classList.add("mathLink-internal-link");
+    this.containerEl.classList.add("original-internal-link");
+    this.containerEl.style.display = "none";
+    this.getMathLink = this.setMathLinkGetter();
+  }
+  onload() {
+    this.update();
+    this.plugin.registerEvent(this.plugin.app.metadataCache.on("changed", (changedFile) => {
+      if (!this.targetFile || this.targetFile == changedFile) {
+        this.update();
+      }
+    }));
+    this.plugin.registerEvent(this.plugin.app.metadataCache.on("mathlinks:updated", (apiAccount, changedFilePath) => {
+      if (!this.targetFile || this.targetFile.path == changedFilePath) {
+        this.update();
+      }
+    }));
+    this.plugin.registerEvent(this.plugin.app.metadataCache.on("mathlinks:account-deleted", (apiAccount) => {
+      this.update();
+    }));
+  }
+  setMathLinkGetter() {
+    var _a;
+    let getter = () => "";
+    if (this.displayText != this.targetLink && this.displayText != translateLink(this.targetLink)) {
+      getter = () => this.displayText;
+    } else {
+      const targetName = (_a = this.targetFile) == null ? void 0 : _a.basename;
+      if (this.displayText == targetName || this.displayText == translateLink(this.targetLink)) {
+        getter = () => getMathLink(this.plugin, this.targetLink, this.sourcePath);
+      }
+    }
+    return getter;
+  }
+  update() {
+    return __async(this, null, function* () {
+      const mathLink = this.getMathLink();
+      if (mathLink) {
+        setMathLink(mathLink, this.mathLinkEl);
+      } else {
+        setMathLink(this.displayText, this.mathLinkEl);
+      }
+    });
+  }
+};
+function generateMathLinks(plugin, element, context) {
+  var _a, _b;
+  for (let targetEl of element.querySelectorAll(".internal-link")) {
+    if (targetEl.classList.contains("mathLink-internal-link")) {
+      targetEl.remove();
+      let queryResult = element.querySelector(".original-internal-link");
+      if (queryResult) {
+        targetEl = queryResult;
+        targetEl.classList.remove("original-internal-link");
+        targetEl.style.display = "";
+      }
+    }
+    const targetDisplay = (_a = targetEl.textContent) == null ? void 0 : _a.trim();
+    if (targetDisplay != "" && !/math-inline is-loaded/.test(targetEl.innerHTML)) {
+      const targetLink = (_b = targetEl.getAttribute("data-href")) == null ? void 0 : _b.replace(/\.md/, "");
+      if (targetLink) {
+        const targetFile = plugin.app.metadataCache.getFirstLinkpathDest((0, import_obsidian6.getLinkpath)(targetLink), context.sourcePath);
+        if (targetDisplay && targetFile) {
+          const child = new MathLinksRenderChild(targetEl, plugin, context.sourcePath, targetLink, targetDisplay);
+          context.addChild(child);
+        }
+      }
+    }
+  }
+}
+
+// src/links/preview.ts
 var import_language = require("@codemirror/language");
 var import_state = require("@codemirror/state");
 var import_view = require("@codemirror/view");
-var import_obsidian4 = require("obsidian");
+var import_obsidian7 = require("obsidian");
 
-// src/supercharged.ts
+// src/links/supercharged.ts
 function addSuperCharged(plugin, span, outLinkFile) {
   if (outLinkFile && plugin.app.plugins.enabledPlugins.has("supercharged-links-obsidian")) {
     let superCharged = getSuperCharged(plugin, outLinkFile);
@@ -739,7 +725,7 @@ function getSuperCharged(plugin, file) {
   return [tags, attributes];
 }
 
-// src/preview.ts
+// src/links/preview.ts
 function buildLivePreview(plugin, leaf) {
   let leafView = leaf.view;
   class MathWidget extends import_view.WidgetType {
@@ -798,7 +784,7 @@ function buildLivePreview(plugin, leaf) {
     tryBuildingDecorations(view) {
       this.decorations = this.destroyDecorations(view);
       let editorView = leaf.getViewState();
-      if (leaf.view instanceof import_obsidian4.MarkdownView && leaf.view.file instanceof import_obsidian4.TFile && isValid(plugin, leaf.view.file.name)) {
+      if (leaf.view instanceof import_obsidian7.MarkdownView && leaf.view.file instanceof import_obsidian7.TFile && isExcluded(plugin, leaf.view.file)) {
         let curView = leaf.view.editor.cm;
         if (curView == view && editorView.state.mode == "source" && !editorView.state.source) {
           this.decorations = this.buildDecorations(view);
@@ -807,12 +793,12 @@ function buildLivePreview(plugin, leaf) {
         }
       } else if (leafView.canvas) {
         for (let node of leafView.canvas.selection.values()) {
-          if (isValid(plugin, node.filePath)) {
+          if (isExcluded(plugin, node.file)) {
             this.decorations = this.buildDecorations(view);
           }
         }
         plugin.app.workspace.iterateRootLeaves((otherLeaf) => {
-          if (otherLeaf.view instanceof import_obsidian4.MarkdownView) {
+          if (otherLeaf.view instanceof import_obsidian7.MarkdownView) {
             let otherView = otherLeaf.view.editor.cm;
             if (otherView == view) {
               this.decorations = this.destroyDecorations(view);
@@ -892,19 +878,20 @@ function buildLivePreview(plugin, leaf) {
 }
 
 // src/main.ts
-var MathLinks = class extends import_obsidian5.Plugin {
+var MathLinks = class extends import_obsidian8.Plugin {
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
-      yield (0, import_obsidian5.loadMathJax)();
+      yield (0, import_obsidian8.loadMathJax)();
       this.registerMarkdownPostProcessor((element, context) => {
-        if (isValid(this, context.sourcePath)) {
+        let file = this.app.vault.getAbstractFileByPath(context.sourcePath);
+        if (file && isExcluded(this, file)) {
           generateMathLinks(this, element, context);
         }
       });
       this.app.workspace.onLayoutReady(() => {
         this.app.workspace.iterateRootLeaves((leaf) => {
-          if (leaf.view instanceof import_obsidian5.FileView && leaf.view.file && isValid(this, leaf.view.file.path)) {
+          if (leaf.view instanceof import_obsidian8.FileView && leaf.view.file && isExcluded(this, leaf.view.file)) {
             buildLivePreview(this, leaf).then((livePreview) => {
               this.registerEditorExtension(livePreview);
             });
@@ -912,7 +899,7 @@ var MathLinks = class extends import_obsidian5.Plugin {
         });
       });
       this.app.workspace.on("active-leaf-change", (leaf) => {
-        if (leaf.view instanceof import_obsidian5.FileView && leaf.view.file && isValid(this, leaf.view.file.path)) {
+        if (leaf.view instanceof import_obsidian8.FileView && leaf.view.file && isExcluded(this, leaf.view.file)) {
           buildLivePreview(this, leaf).then((livePreview) => {
             this.registerEditorExtension(livePreview);
           });

@@ -1,223 +1,6 @@
 {
   "templates": [
     {
-      "title": "Natural Numbers",
-      "replaced": "N",
-      "replacement": "$\\N$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Integers",
-      "replaced": "Z",
-      "replacement": "$\\Z$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Rational Numbers",
-      "replaced": "Q",
-      "replacement": "$\\Q$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Real Numbers",
-      "replaced": "R",
-      "replacement": "$\\R$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Complex Numbers",
-      "replaced": "C",
-      "replacement": "$\\C$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Equals",
-      "replaced": "equals",
-      "replacement": "$=$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Implies",
-      "replaced": "implies",
-      "replacement": "$\\Rightarrow$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Equivalence",
-      "replaced": "iff",
-      "replacement": "$\\Leftrightarrow$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Prefix: n",
-      "replaced": "n-",
-      "replacement": "$n$-",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Prefix: k",
-      "replaced": "k-",
-      "replacement": "$k$-",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Prefix: p",
-      "replaced": "p-",
-      "replacement": "$p$-",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Epsilon",
-      "replaced": "Epsilon",
-      "replacement": "$\\epsilon$",
-      "globalMatch": true,
-      "sensitive": false,
-      "word": true
-    },
-    {
-      "title": "Omega",
-      "replaced": "Omega",
-      "replacement": "$\\omega$",
-      "globalMatch": true,
-      "sensitive": false,
-      "word": true
-    },
-    {
-      "title": "Apostrophe",
-      "replaced": "'",
-      "replacement": "’",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": false
-    },
-    {
-      "title": "Category of Sets",
-      "replaced": "category of sets",
-      "replacement": "$\\catset$",
-      "globalMatch": true,
-      "sensitive": false,
-      "word": true
-    },
-    {
-      "title": "Category of Groups",
-      "replaced": "category of groups",
-      "replacement": "$\\catgrp$",
-      "globalMatch": true,
-      "sensitive": false,
-      "word": true
-    },
-    {
-      "title": "Category of Rings",
-      "replaced": "category of rings",
-      "replacement": "$\\catring$",
-      "globalMatch": true,
-      "sensitive": false,
-      "word": true
-    },
-    {
-      "title": "Category of Relations",
-      "replaced": "category of relations",
-      "replacement": "$\\catrel$",
-      "globalMatch": true,
-      "sensitive": false,
-      "word": true
-    },
-    {
-      "title": "Category of Modules",
-      "replaced": "category of modules",
-      "replacement": "$\\catmod$",
-      "globalMatch": true,
-      "sensitive": false,
-      "word": true
-    },
-    {
-      "title": "Category of Vector Spaces",
-      "replaced": "category of vector spaces",
-      "replacement": "$\\catvect$",
-      "globalMatch": true,
-      "sensitive": false,
-      "word": true
-    },
-    {
-      "title": "Category of Topological Spaces",
-      "replaced": "category of topological space",
-      "replacement": "$\\cattop$",
-      "globalMatch": true,
-      "sensitive": false,
-      "word": true
-    },
-    {
-      "title": "Infinity",
-      "replaced": "Infinity",
-      "replacement": "$\\infty$",
-      "globalMatch": true,
-      "sensitive": false,
-      "word": true
-    },
-    {
-      "title": "And",
-      "replaced": " and ",
-      "replacement": "/",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Or",
-      "replaced": " or ",
-      "replacement": "/",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "lp",
-      "replaced": "lp",
-      "replacement": "$\\ell^p$",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Aleph1",
-      "replaced": "aleph1",
-      "replacement": "$\\aleph_1$",
-      "globalMatch": true,
-      "sensitive": false,
-      "word": true
-    },
-    {
-      "title": "Holder",
-      "replaced": "Holder",
-      "replacement": "Hölder",
-      "globalMatch": true,
-      "sensitive": true,
-      "word": true
-    },
-    {
-      "title": "Frechet",
       "replaced": "Frechet",
       "replacement": "Fréchet",
       "globalMatch": true,
@@ -225,21 +8,206 @@
       "word": true
     },
     {
-      "title": "Bezout",
       "replaced": "Bezout",
       "replacement": "Bézout",
       "globalMatch": true,
       "sensitive": true,
       "word": true
+    },
+    {
+      "replaced": "Holder",
+      "replacement": "Hölder",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "replaced": "'",
+      "replacement": "’",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": false
+    },
+    {
+      "replaced": "category of sets",
+      "replacement": "$\\catset$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "replaced": "category of groups",
+      "replacement": "$\\catgrp$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "replaced": "category of rings",
+      "replacement": "$\\catring$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "replaced": "category of relations",
+      "replacement": "$\\catrel$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "replaced": "category of modules",
+      "replacement": "$\\catmod$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "replaced": "category of vector spaces",
+      "replacement": "$\\catvect$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "replaced": "category of topological space",
+      "replacement": "$\\cattop$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "replaced": "equals",
+      "replacement": "$=$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "replaced": "implies",
+      "replacement": "$\\Rightarrow$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "replaced": "iff",
+      "replacement": "$\\Leftrightarrow$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "replaced": "n-",
+      "replacement": "$n$-",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "replaced": "k-",
+      "replacement": "$k$-",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "replaced": "p-",
+      "replacement": "$p$-",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "replaced": "Epsilon",
+      "replacement": "$\\epsilon$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "replaced": "Omega",
+      "replacement": "$\\omega$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "replaced": "Infinity",
+      "replacement": "$\\infty$",
+      "globalMatch": true,
+      "sensitive": false,
+      "word": true
+    },
+    {
+      "replaced": " and ",
+      "replacement": "/",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "replaced": " or ",
+      "replacement": "/",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "replaced": "lp",
+      "replacement": "$\\ell^p$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "replaced": "N",
+      "replacement": "$\\N$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "replaced": "Z",
+      "replacement": "$\\Z$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "replaced": "Q",
+      "replacement": "$\\Q$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "replaced": "R",
+      "replacement": "$\\R$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
+      "replaced": "C",
+      "replacement": "$\\C$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
     }
   ],
+  "excludedPaths": [
+    "Images",
+    "README.md"
+  ],
+  "blockPrefix": "",
+  "enableFileNameBlockLinks": false,
+  "enableAPI": true,
   "excludedFilePaths": [
     {
       "path": "README.md",
       "isFile": true
     }
-  ],
-  "blockPrefix": "",
-  "enableFileNameBlockLinks": false,
-  "enableAPI": true
+  ]
 }
