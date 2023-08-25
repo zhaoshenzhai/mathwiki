@@ -8,12 +8,12 @@ mathLink-blocks:
 Date Created: 08/01/2023 22:12:15
 Tags: #Type/Definition #Topic/Module_Theory
 
-Types: <i>Not Applicable</i>
+Types: [[Principal Ideal Domain (PID)]]
 Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Basic properties of Noetherian Modules]]
+Properties: [[Characterization of UFDs#^noetherian-implies-factorization]], [[Basic properties of Noetherian Modules]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

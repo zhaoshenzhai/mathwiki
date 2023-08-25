@@ -24,4 +24,4 @@ Let $R$ be an integral domain. An element $p\in R$ is <b>prime</b> if $p\not\in 
 
 ```
 
-<b>Remark.</b> Since $R$ is an integral domain, we see that a non-zero non-unit element $a=rs\in R$ is irreducible iff either $a\sim r$ or $a\sim s$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Since $R$ is an integral domain, we see that a non-zero non-unit element $p=rs\in R$ is irreducible iff either $p\sim r$ or $p\sim s$.<span style="float:right;">$\blacklozenge$</span>

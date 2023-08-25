@@ -15,7 +15,7 @@ Constructions: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Integers#^invertible-iff-coprime]], [[Lagrange's Theorem]], [[PID implies UFD]], [[Chinese Remainder Theorem]], [[Subgroups of cyclic groups]]
+Justifications: [[Integers#^invertible-iff-coprime]], [[Lagrange's Theorem]], [[Characterization of UFDs#^pid-implies-ufd]], [[Chinese Remainder Theorem]], [[Subgroups of cyclic groups]]
 
 ``` ad-Example
 title: Example.
