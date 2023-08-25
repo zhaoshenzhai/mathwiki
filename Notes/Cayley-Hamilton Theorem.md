@@ -11,7 +11,7 @@ Tags: #Type/Theorem #Topic/Module_Theory
 
 Proved by: [[Canonical Forms]], [[Leibniz Formula]]
 References: <i>Not Applicable</i>
-Justifications: [[Field implies PID]]
+Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>

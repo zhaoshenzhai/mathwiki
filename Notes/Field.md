@@ -8,7 +8,7 @@ Examples: [[Real Numbers]]
 Constructions: [[Module and Vector Space#^vector-space]], [[Prime Field]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Field implies PID]], [[Group of units of finite field is a cyclic group]]
+Properties: [[Group of units of finite field is a cyclic group]], [[Polynomial ring over fields is a EUD]]
 Sufficiencies: [[Ideal is maximal iff quotient is a field]], [[Finite integral domain implies field]]
 Equivalences: [[Characterizations of fields]]
 Justifications: <i>Not Applicable</i>
