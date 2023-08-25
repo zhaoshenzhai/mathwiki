@@ -15,7 +15,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Gauss's Lemma (Primitivity)]], [[Gauss's Lemma (Irreducibility)]], [[Associate primitive polynomials in fraction field are associate]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[GCDs exist in UFDs]], [[GCD exists implies unique up to a unit]]
+Justifications: [[Greatest Common Divisor#^gcd-exist-in-ufd]]
 
 ``` ad-Definition
 title: Definition.

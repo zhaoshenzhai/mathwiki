@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    gcd-exist-in-ufd: GCDs exist in UFDs
+---
+
 <div class="topSpace"></div>
 
 Date Created: 14/09/2022 19:47:03
@@ -9,19 +14,17 @@ Constructions: [[Content (polynomial)]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: [[GCDs exist in UFDs]], [[Bezout's Identity]], [[Euclidean Algorithm]]
+Sufficiencies: [[Bezout's Identity]], [[Euclidean Algorithm]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[GCD exists implies unique up to a unit]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.
 
-Let $R$ be a integral domain and fix $a,b\in R\comp\l\{0\r\}$. An element $d\in R\comp\l\{0\r\}$ is said to be a <b>greatest common divisor (GCD) of $a$ and $b$</b> if
-* $d$ is a common divisor of $a$ and $b$; that is, if $d\divides a$ and $d\divides b$, and
-* for all common divisors $d'$ of $a$ and $b$, $d'\divides d$.
-
-The greatest common divisor of $a$ and $b$ is, up to a unit, unique; write $\gcd\l(a,b\r)\coloneqq d$ and let the <b>GCD ideal of $a$ and $b$</b> be $\gen{d}$.
+Let $R$ be a integral domain and take $a,b\in R$. An element $d\in R$ is said to be a <b>greatest common divisor (GCD) of $a$ and $b$</b> if $d\divides a,b$ and $d'\divides d$ for all common divisors $d'$ of $a$ and $b$.
+* The greatest common divisor of $a$ and $b$ is unique up to a unit; the associate class of $d$ is denoted $\gcd\l(a,b\r)$.
 
 ```
 
-<b>Remark.</b> Rephrasing in terms of ideals, $d$ is a greatest common divisor of $a$ and $b$ iff $\gen{a,b}\subseteq\gen{d}$ and $\gen{d}\subseteq\gen{d'}$ for any ideal $\gen{d'}$ containing $\gen{a,b}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $R$ is a UFD, then $\gcd\l(a,b\r)$ exists. Indeed, we may write $a=u\prod_{i=1}^{n}p_i^{\alpha_i}$ and $b=v\prod_{i=1}^{n}p_i^{\beta_i}$ for some irreducible $p_i\in R$, integers $\alpha_i,\beta_j\geq0$, and units $u,v\in R^\times$. Let $\mu_i\coloneqq\min\l\{\alpha_i,\beta_i\r\}$ and set $d\coloneqq\prod_{i=1}^{n}p_i^{\mu_i}$, which contains all irreducible factors of both $a$ and $b$ and hence divides both $a$ and $b$. If $d'$ is another common divisor for $a$ and $b$, say $d'=w\prod_{i=1}^{n}p_i^{\gamma_i}$ where $\gamma_i\geq0$ and $w\in R^\times$, then $\gamma_i\leq\alpha_i,\beta_i\leq\mu_i$ for all $1\leq i\leq n$ and hence $d'\divides d$.<span style="float:right;">$\blacklozenge$</span>
+^gcd-exist-in-ufd
