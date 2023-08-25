@@ -3,13 +3,13 @@
 Date Created: 01/02/2022 20:24:48
 Tags: #Type/Definition #Topic/Set_Theory/Later/Ordinal
 
-Types: [[Prime Number]]
+Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: [[Set of Natural Numbers]], [[Finite Set]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Successor of natural number is a natural number]]
-Sufficiencies: [[Fundamental Theorem of Arithmetic]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
