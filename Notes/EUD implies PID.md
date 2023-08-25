@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 23/11/2022 14:10:58
 Tags: #Type/Proposition #Topic/Ring_Theory
 
-Proved by: [[Omega is an ordinal]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
