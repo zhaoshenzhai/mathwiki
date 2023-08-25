@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Greatest Common Divisor#^gcd-exist-in-ufd]], [[Polynomial rings over UFDs are UFDs]]
+Properties: [[Polynomial rings over UFDs are UFDs]], [[Greatest Common Divisor#^gcd-exist-in-ufd]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Characterization of UFDs]]
 Justifications: <i>Not Applicable</i>
