@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Characteristic Polynomial]]
-Constructions: [[Evaluation Homomorphism]], [[Root (Polynomial)]], [[Content (polynomial)]]
+Constructions: [[Evaluation Homomorphism]], [[Root (Polynomial)]], [[Primitivity and Content]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Gauss's Lemma (Irreducibility)]], [[Polynomial has at most degree-many roots]], [[Basic properties of polynomial rings (integral domain)]]
