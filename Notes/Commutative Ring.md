@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Integral Domain]], [[Noetherian Module#^Noetherian-ring]], [[Field]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Monoid Ring or Algebra]], [[Localization]], [[Algebra]], [[Divisibility and Associates]]
+Constructions: [[Localization]], [[Algebra]], [[Divisibility and Associates]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

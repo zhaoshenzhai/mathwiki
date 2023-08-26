@@ -20,7 +20,7 @@ title: Proposition.
 
 Let $M$ be an $R$-module over a commutative ring $R$. If $M$ is Noetherian, then any submodule and homomorphic image of $G$ are also Noetherian.
 * If $0\to N\to M\to P\to0$ is an exact sequence of $R$-modules, then $M$ is Noetherian iff both $N$ and $P$ are Noetherian.
-* If $R$ is a Noetherian ring and $M$ is either a finitely-generated $R$-module or a finitely-generated $R$-algebra, then $M$ is Noetherian.
+* If $R$ is a Noetherian ring and $M$ is either a finitely-generated $R$-module or a finitely-generated commutative $R$-algebra, then $M$ is Noetherian.
 
 ```
 
