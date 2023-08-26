@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: <i>Not Applicable</i>
+Constructions: [[Gauss's Lemma (Irreducibility)]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Universal Property of Localization]]

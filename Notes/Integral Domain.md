@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Prime and Irreducible Elements]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Characterizations of PIDs]], [[Characterizations of fields]], [[Finite integral domain implies field]]
+Properties: [[Characterization of UFDs]], [[Characterizations of PIDs]], [[Characterizations of fields]], [[Finite integral domain implies field]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

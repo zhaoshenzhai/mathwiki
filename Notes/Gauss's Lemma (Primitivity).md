@@ -5,9 +5,9 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 22/01/2023 22:29:15
-Tags: #Type/Theorem #Topic/Ring_Theory #Courses/MATH457
+Tags: #Type/Theorem #Topic/Ring_Theory
 
-Proved by: [[Basic properties of prime and irreducible elements]], [[Basic properties of polynomial rings (integral domain)]]
+Proved by: [[Universal Property of Monoid Rings and Algebras]], [[Isomorphism Theorems]], [[Basic properties of polynomial rings (integral domain)]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -21,15 +21,10 @@ Let $R$ be a UFD. For all $f,g\in R\l[x\r]$, we have $\cont\l(fg\r)=\cont\l(f\r)
 
 ```
 
-<i>Proof.</i> We first show that for all $f'$ and $g'$ primitive, their product $f'g'$ is also primitive. Then, since $f=\alpha f'$ and $g=\beta g'$ for some primitives $f',g'\in R\l[x\r]$ where $\gen{\alpha}=\cont\l(f\r)$ and $\gen{\beta}=\cont\l(g\r)$, we see that
-$$\begin{equation}
-    \cont\l(fg\r)=\cont\l(\alpha\beta f'g'\r)=\alpha\beta\cont\l(f'g'\r)=\alpha\beta\gen{1}=\gen{\alpha\beta}=\gen{\alpha}\gen{\beta}=\cont\l(f\r)\cont\l(g\r).
-\end{equation}$$
-Suppose now that $f$ and $g$ are primitive.
-* To show that $fg$ is also primitive, we need to show that for all $p\in R$, $p$ does not divide at least one coefficient of $fg$. But $R$ is a UFD, so it suffices to prove this for $p\in R$ prime since every $r\in R\comp R^\times$ can be factored into irreducibles, which are prime in a UFD; we do not need to prove it for units $u\in R^\times$ since contents are defined as GCD <i>ideals</i>, which are invariant under units.
+<i>Proof.</i> We show that for all $f,g\in R\l[x\r]$, the product $fg$ is primitive iff both $f$ and $g$ are primitive.
+* Indeed, we have $R\l[x\r]/\!\l(\mf{p}R\l[x\r]\r)\iso\l(R/\mf{p}\r)\l[x\r]$ for all ideals $\mf{p}\nsubgrpeq R$, since the projection $\pi:R\to R/\mf{p}$ extends to a homomorphism $\phi:R\l[x\r]\to\l(R/\mf{p}\r)\l[x\r]$ with kernel $\mf{p}R\l[x\r]$. It follows that $\mf{p}R\l[x\r]\nsubgrp R\l[x\r]$ is prime if $\mc{p}\nsubgrp R$ is. Thus $fg\not\in\mf{p}R\l[x\r]$ for any principal prime ideals $\mf{p}$ iff both $f,g\not\in\mf{p}R\l[x\r]$ for any principal prime ideals $\mf{p}$, which occurs iff both $f$ and $g$ are primitive.
 
-Let $p$ be prime in $R$, so $\gen{p}$ is a prime ideal. Then $\bar{R}\coloneqq R/\gen{p}$ is an integral domain, and the homomorphism $\phi:R\to\bar{R}:r\mapsto\bar{r}$ mapping $r+\gen{p}$ extends to a homomorphism
+Decomposing $f=rf'$ and $g=sg'$ for some primitive polynomials $f',g'\in R\l[x\r]$, where $\gen{r}=\cont\l(f\r)$ and $\gen{s}=\cont\l(g\r)$, and applying the lemma gives
 $$\begin{equation}
-    \psi:R\l[x\r]\to\bar{R}\l[x\r]\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ \sum_{i=0}^{n}r_ix^i\mapsto\sum_{i=0}^{n}\bar{r_i}x^i.
+    \cont\l(fg\r)=\cont\l(rsf'g'\r)=rs\cont\l(f'g'\r)=rs\gen{1}=\gen{rs}=\gen{r}\gen{s}=\cont\l(f\r)\cont\l(g\r).\qedin
 \end{equation}$$
-Note that $\psi\l(f\r)\neq0$, for otherwise all the coefficients $\bar{a_i}=a_i+\gen{p}$ modulo $p$ are $0$, and hence $a_i\in\gen{p}$ for all $i$. But then $p$ divides all coefficients of $f$, contradicting the assumption that $f$ is primitive. Similarly $\psi\l(g\r)\neq0$, so, since $\bar{R}\l[x\r]$ is an integral domain, we see that $\psi\l(fg\r)=\psi\l(f\r)\psi\l(g\r)\neq0$. Thus $p$ does not divide all coefficients of $fg$, so $fg$ is primitive.<span style="float:right;">$\blacksquare$</span>
