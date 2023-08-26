@@ -17,7 +17,7 @@ Constructions: [[Euler's Totient Function]], [[Characteristic]], [[Prime Field]]
 Properties: [[Subgroups of cyclic groups]], [[Automorphisms and endomorphisms of cyclic groups]]
 Sufficiencies: [[At most one dividing subgroup implies cyclic]], [[Group of units of finite field is a cyclic group]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Universal Property of Free Groups]], [[Division Algorithm]], [[EUD implies PID]], [[Isomorphism Theorems]], [[Bezout's Identity]]
+Justifications: [[Free Group#^universal-property-of-free-groups]], [[Division Algorithm]], [[EUD implies PID]], [[Isomorphism Theorems]], [[Bezout's Identity]]
 
 ``` ad-Example
 title: Example.

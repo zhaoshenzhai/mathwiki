@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Universal Property of Free Groups]]
+Justifications: [[Free Group#^universal-property-of-free-groups]]
 
 ``` ad-Definition
 title: Definition.

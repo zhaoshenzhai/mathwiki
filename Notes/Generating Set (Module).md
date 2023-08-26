@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Structure Theorem]], [[Basic properties of rank]], [[Dimension Theorem]]
 Sufficiencies: [[Basis Extension Theorem]], [[Orthonormal sets are linearly independent]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Universal Property of Free Modules]], [[Invariant Basis Number]]
+Justifications: [[Free Module#^universal-property-of-free-modules]], [[Invariant Basis Number]]
 
 ``` ad-Definition
 title: Definition.

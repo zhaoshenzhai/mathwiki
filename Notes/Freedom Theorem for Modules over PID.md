@@ -3,7 +3,7 @@
 Date Created: 20/07/2023 10:44:57
 Tags: #Type/Theorem #Topic/Module_Theory
 
-Proved by: [[Basis Extension Theorem]], [[Universal Property of Free Modules]]
+Proved by: [[Basis Extension Theorem]], [[Free Module#^universal-property-of-free-modules]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

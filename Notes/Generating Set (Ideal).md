@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Universal Property of Free Modules]]
+Justifications: [[Free Module#^universal-property-of-free-modules]]
 
 ``` ad-Definition
 title: Definition.
