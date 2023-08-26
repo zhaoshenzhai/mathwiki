@@ -13,7 +13,7 @@ Constructions: [[Greatest Common Divisor]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: [[Associate primitive polynomials in fraction field are associate]]
+Sufficiencies: [[Divisibility via field of fractions]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

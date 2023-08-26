@@ -7,7 +7,7 @@ mathLink: $R$ UFD $\Rightarrow$ $R\l[x\r]$ UFD
 Date Created: 22/01/2023 23:34:37
 Tags: #Type/Theorem #Topic/Ring_Theory #Courses/MATH457
 
-Proved by: [[Gauss's Lemma (Irreducibility)]], [[Polynomial ring over fields is a EUD]], [[EUD implies PID]], [[Characterization of UFDs#^pid-implies-ufd]], [[Basic properties of prime and irreducible elements]], [[Associate primitive polynomials in fraction field are associate]]
+Proved by: [[Characterization of UFDs]], [[Gauss's Lemma (Irreducibility)]], [[Polynomial ring over fields is a EUD]], [[EUD implies PID]], [[Characterization of UFDs#^pid-implies-ufd]], [[Basic properties of prime and irreducible elements]], [[Divisibility via field of fractions]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -20,6 +20,10 @@ title: Theorem.
 Let $R$ be a UFD. Then $R\l[x\r]$ is also a UFD.
 
 ```
+
+<i>Proof.</i> It suffices to show that $R\l[x\r]$ satisfies the a.c.c. for principal ideals and that every irreducible element in $R\l[x\r]$ is prime. For the a.c.c., let $\gen{f_1}\subseteq\gen{f_2}\subseteq\cdots$ be an ascending chain for principal ideals.
+
+---
 
 <i>Proof.</i> Let $f\in R\l[x\r]\comp R^\times$ be non-zero. For existence, we induct on $n\coloneqq\deg f$.
 * If $n=0$, then $f\in R$ and hence can be factored into irreducibles $p_1,\dots,p_k\in R$. But then $p_1,\dots,p_k$ are irreducible in $R\l[x\r]$, so we are done.

@@ -12,7 +12,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Gauss's Lemma (Primitivity)]], [[Gauss's Lemma (Irreducibility)]], [[Associate primitive polynomials in fraction field are associate]]
+Properties: [[Gauss's Lemma (Primitivity)]], [[Gauss's Lemma (Irreducibility)]], [[Divisibility via field of fractions]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Maximal implies prime]], [[Krull's Theorem]], [[Basic properties of prime and irreducible elements]], [[Greatest Common Divisor#^gcd-exist-in-ufd]]

@@ -5,9 +5,9 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 22/01/2023 23:44:19
-Tags: #Type/Theorem #Topic/Ring_Theory #Courses/MATH457
+Tags: #Type/Theorem #Topic/Ring_Theory
 
-Proved by: [[Gauss's Lemma (Primitivity)]]
+Proved by: [[Divisibility via field of fractions]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -17,25 +17,14 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Gauss’s Lemma for Irreducibility of Polynomial Rings).
 
-Let $R$ be a UFD and let $F$ be the field of fractions of $R$. For all non-trivial $f\in R\l[x\r]$, $f$ is irreducible in $R\l[x\r]$ iff $f$ is primitive in $R\l[x\r]$ and irreducible in $F\l[x\r]$.
+Let $f\in R\l[x\r]$ be a non-constant polynomial in a UFD $R$ and set $k\coloneqq\Frac R$. Then $f$ is irreducible in $R\l[x\r]$ iff $f$ is primitive in $R\l[x\r]$ and irreducible in $k\l[x\r]$.
 
 ```
 
-<b>Remark.</b> If $f$ is monic, then $f$ is irreducible in $R\l[x\r]$ iff it is irreducible in $F\l[x\r]$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $f$ is monic, then irreducibility in $R\l[x\r]$ and $k\l[x\r]$ is the same.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<i>Proof.</i> The converse is easy, for if $f=gh$ with $g,h\in R\l[x\r]$, then $g,h\in F\l[x\r]$ and so one of $g,h\in F\l[x\r]^\times=F^\times$. W.l.o.g., assume that $g\in F^\times$. But $g\in R\l[x\r]$, so this forces $g\in R$. Observe then that
-$$\begin{equation}
-    R=\cont\l(f\r)=\cont\l(gh\r)=g\cont\l(h\r)=\gen{g},
-\end{equation}$$
-so $g\in R^\times$.
+<i>Proof.</i> The converse is easy, for if $f=gh$ with $g,h\in R\l[x\r]$, then $g,h\in k\l[x\r]$ and so one of $g,h\in k\l[x\r]^\times=k^\times$. Assume w.l.o.g. that $g\in k^\times$, so $g\in R\l[x\r]$ forces $g\in R$. Observe then that $R=\cont\l(f\r)=\cont\l(gh\r)=g\cont\l(h\r)$, so $g\in R^\times$.
 
-For the main direction, let $f$ be irreducible in $R\l[x\r]$ and write $f=\gamma f'$ for some primitive $f'\in R\l[x\r]$ where $\gen{\gamma}=\cont\l(f\r)$. Note that $f'$ is non-constant, so $f'\not\in R^\times$. But since $f$ is irreducible in $R\l[x\r]$, this forces $\gamma\in R^\times$. Observe then that $\cont\l(f\r)=\gen{\gamma}=R$, so $f$ is primitive. To show that $f$ is irreducible in $F\l[x\r]$, suppose that $f=gh$ for some $g,h\in F\l[x\r]$.
-* Note that any non-zero $p\in F\l[x\r]$ can be written as $p=\alpha p'$ for some primitive $p'\in R\l[x\r]$ and $\alpha\in F^\times$: First, let $a\in R\comp\l\{0\r\}$ be the product of all the denominators of the coefficients of $g$. Then $ap\in R\l[x\r]$, so $ap=bp'$ for some primitive $p'\in R\l[x\r]$ where $\gen{b}=\cont\l(ap\r)$. Set $\alpha\coloneqq b/a\in F^\times$ to obtain $p=\alpha p'$.
-
-Thus we may write $f=\alpha\beta g'h'$ for some $\alpha,\beta\in F^\times$ and $g',h'\in R\l[x\r]$ primitive. Letting $\frac{a}{b}\coloneqq\alpha$ and $\frac{c}{d}\coloneqq\beta$, we have that $bdf=acg'h'$ and thus
-$$\begin{equation}
-    \gen{bd}=bd\cont\l(f\r)=\cont\l(bdf\r)=\cont\l(acg'h'\r)=ac\cont\l(g'h'\r)=ac\cont\l(g'\r)\cont\l(h'\r)=\gen{ac}
-\end{equation}$$
-by Gauss’s Lemma for Primitivity. Then $bd\sim ac$, so there exists some $u\in R^\times$ such that $ac=ubd$. Then $f=ug'h'$, and since $f$ is irreducible in $R\l[x\r]$, one of $g',h'\in R^\times\subseteq F^\times$.<span style="float:right;">$\blacksquare$</span>
+For the main direction, note that irreducible polynomials are primitive, for otherwise we can factor out its content. Write $f=gh$ for some $g,h\in k\l[x\r]$ and write $g=ag'$ and $h=bh'$ for some primitive polynomials $g',h'\in R\l[x\r]$ and $a,b\in k^\times$. Then $g'h'$ is also primitive, and since $f\sim g'h'$ in $k\l[x\r]$, we see that $f\sim g'h'$ in $R\l[x\r]$. Thus $f=ug'h'$ for some unit $u\in R^\times$, and since $f$ is irreducible in $R\l[x\r]$, we see that one of $g',h'\in R^\times\subseteq k^\times$.<span style="float:right;">$\blacksquare$</span>
