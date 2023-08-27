@@ -30,8 +30,8 @@ Let $R$ be a commutative ring and take a nonzero polynomial $f\in R\l[x\r]$. The
 
 * If $R$ is a UFD, then $\gcd\l(a_0,\dots,a_n\r)\neq\gen{1}$ occurs precisely when there is an irreducible element $p\in R$ such that $\gen{a_0,\dots,a_n}\subseteq\gen{p}$. Such a $p\in R$ is prime, so $f$ is primitive iff $\gen{a_0,\dots,a_n}\not\subseteq\gen{p}$ for any prime element $p\in R$. This occurs iff $f\not\in\mf{p}R\l[x\r]$ for any prime ideal $\mf{p}\nsubgrp R$.
 
-This motivates the definition of the <i>content</i> of $f$, defined as $\cont\l(f\r)\coloneqq\gcd\l(a_0,\dots,a_n\r)$.<span style="float:right;">$\blacklozenge$</span>
+This motivates the definition of the <i>content</i> of $f$, defined as $\cont f\coloneqq\gcd\l(a_0,\dots,a_n\r)$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<b>Remark.</b> It is clear that $\cont\l(rf\r)=r\cont\l(f\r)$ for all $r\in R\comp\l\{0\r\}$. Furthermore, given any non-zero $f\in R\l[x\r]$ with $\gen{r}=\cont\l(f\r)$, we can always write $f=rf'$ for the primitive $f'\coloneqq f/r\in R\l[x\r]$. Finally, if $f=rf'$ with $f'$ primitive, then $\gen{r}=\cont\l(f\r)$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> It is clear that $\cont\l(rf\r)=r\cont f$ for all $r\in R\comp\l\{0\r\}$. Furthermore, given any non-zero $f\in R\l[x\r]$ with $\gen{r}=\cont f$, we can always write $f=rf'$ for the primitive $f'\coloneqq f/r\in R\l[x\r]$. Finally, if $f=rf'$ with $f'$ primitive, then $\gen{r}=\cont f$.<span style="float:right;">$\blacklozenge$</span>

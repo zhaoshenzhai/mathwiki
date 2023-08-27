@@ -5,9 +5,9 @@ mathLink: $R$ UFD $\Rightarrow$ $R\l[x\r]$ UFD
 <div class="topSpace"></div>
 
 Date Created: 22/01/2023 23:34:37
-Tags: #Type/Theorem #Topic/Ring_Theory #Courses/MATH457
+Tags: #Type/Theorem #Topic/Ring_Theory
 
-Proved by: [[Characterization of UFDs]], [[Gauss's Lemma (Irreducibility)]], [[Polynomial ring over fields is a EUD]], [[EUD implies PID]], [[Characterization of UFDs#^pid-implies-ufd]], [[Basic properties of prime and irreducible elements]], [[Divisibility via field of fractions]]
+Proved by: [[Characterization of UFDs]], [[Polynomial ring over fields is a EUD]], [[EUD implies PID]], [[Characterization of UFDs#^pid-implies-ufd]], [[Divisibility via field of fractions]], [[Gauss's Lemma (Irreducibility)]], [[Isomorphism Theorems]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -21,16 +21,11 @@ Let $R$ be a UFD. Then $R\l[x\r]$ is also a UFD.
 
 ```
 
-<i>Proof.</i> It suffices to show that $R\l[x\r]$ satisfies the a.c.c. for principal ideals and that every irreducible element in $R\l[x\r]$ is prime. For the a.c.c., let $\gen{f_1}\subseteq\gen{f_2}\subseteq\cdots$ be an ascending chain for principal ideals.
+<i>Proof.</i> It suffices to show that $R\l[x\r]$ satisfies the a.c.c. for principal ideals and that every irreducible element in $R\l[x\r]$ is prime. Set $k\coloneqq\Frac R$ and let $\gen{\slot}_k$ denote ideals in $k\l[x\r]$.
+* For the a.c.c., let $\gen{f_1}\subseteq\gen{f_2}\subseteq\cdots$ be an ascending chain for principal ideals. This induces an ascending chain of principal ideals $\cont f_1\subseteq\cont f_2\subseteq\cdots$ in $R$, which stabilizes since $R$ is a UFD. Observe that we have an ascending chain $\gen{f_1}_k\subseteq\gen{f_2}_k\subseteq\cdots$ of principal ideals in $k\l[x\r]$ too. This stabilizes since $k\l[x\r]$ is a UFD, so the original ascending chain in $R\l[x\r]$ stabilizes too.
 
----
-
-<i>Proof.</i> Let $f\in R\l[x\r]\comp R^\times$ be non-zero. For existence, we induct on $n\coloneqq\deg f$.
-* If $n=0$, then $f\in R$ and hence can be factored into irreducibles $p_1,\dots,p_k\in R$. But then $p_1,\dots,p_k$ are irreducible in $R\l[x\r]$, so we are done.
-
-Assume now that $n>0$ and write $f=\alpha f'$ for some primitive $f'\in R\l[x\r]$ and some $\alpha\in R$. If $f'$ is irreducible in $R\l[x\r]$, we are done. Otherwise, $f'=gh$ for some $g,h\not\in R\l[x\r]^\times=R^\times$. Note that $f'$ is primitive, so both $g,h\not\in R$ lest $\cont\l(f\r)=\cont\l(gh\r)=g\cont\l(h\r)\neq R$. Thus $\deg g,\deg h<n$, so the result follows from induction.
-
-For uniqueness, suppose that $f=p_1\cdots p_n=q_1\cdots q_m$ for $p_i,q_j$ irreducible in $R\l[x\r]$.
-* If $f\in R$, then every $p_i,q_j\in R$ and we are done since $R$ is a UFD.
-
-Otherwise, w.l.o.g. assume that $p_n\not\in R$, Then, by Gauss’s Lemma for Irreducibility, we see that $p_n$ is irreducible over $F\l[x\r]$ where $F$ is the field of fractions of $R$. But $F\l[x\r]$ is a UFD, so $p_n$ is prime and hence $p_n\divides\l(q_1\cdots q_m\r)$ implies that $p_n\divides q_j$ for some $j$. W.l.o.g., assume that $p_n\divides q_m$, so $q_m=\alpha p_n$ for some $\alpha\in F\l[x\r]$. Then $q_m\in R\l[x\r]$ is also non-trivial, so it is similarly irreducible in $F\l[x\r]$. The factorization $q_m=\alpha p_n$ then forces $\alpha\in F\l[x\r]^\times$, so $p_n\sim q_m$ in $F\l[x\r]$. But then $p_n\sim q_m$ in $R\l[x\r]$, so $q_m=up_n$ for some $u\in R\l[x\r]^\times$. We may now cancel to obtain $p_1\cdots p_{n-1}=uq_1\cdots q_{m-1}$, so induction forces $n-1=m-1$ and the provides the existence of some $\sigma\in S_{n-1}$ such that $p_1\sim q_{\sigma\l(i\r)}$ in $R\l[x\r]$ for all $i$.<span style="float:right;">$\blacksquare$</span>
+Now, let $f\in R\l[x\r]$ be an irreducible element. If $f\in R$ is constant, then it is prime in $R$ and hence prime in $R\l[x\r]$ too. Otherwise, it is irreducible in $k\l[x\r]$ by Gauss’s Lemma and hence prime in $k\l[x\r]$ too. Consider the canonical map
+$$\begin{equation}
+    \phi:R\l[x\r]\into k\l[x\r]\onto k\l[x\r]/\gen{f}_k.
+\end{equation}$$
+Clearly $\gen{f}\subseteq\ker\phi$. For the other inclusion, note that $g\in\ker\phi$ implies that $g\in\gen{f}_k$, so $\gen{g}_k\subseteq\gen{f}_k$. Observe that $\cont g\subseteq\cont f=\gen{1}$, so $\gen{g}\subseteq\gen{f}$ in $R\l[x\r]$. Thus $g\in\gen{f}$, so $\ker\phi=\gen{f}$ as desired. Thus $\phi$ descends into an injection $R\l[x\r]/\gen{f}\into k\l[x\r]/\gen{f}_k$, and since $\gen{f}_k$ is prime, we see that $\gen{f}$ is prime in $R\l[x\r]$ too.<span style="float:right;">$\blacksquare$</span>
