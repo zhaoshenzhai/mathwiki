@@ -2,7 +2,7 @@
   "items": [
     {
       "type": "graph",
-      "ctime": 1689639551301,
+      "ctime": 1693102832563,
       "title": "Types",
       "options": {
         "collapse-filter": true,
@@ -35,24 +35,24 @@
             }
           },
           {
-            "query": "tag:#Type/Axiom",
+            "query": "tag:#Type/Example",
             "color": {
               "a": 1,
-              "rgb": 16342365
+              "rgb": 16113664
             }
           }
         ],
         "collapse-display": true,
         "showArrow": true,
         "textFadeMultiplier": -3,
-        "nodeSizeMultiplier": 1.79156809733018,
+        "nodeSizeMultiplier": 1.58384727710015,
         "lineSizeMultiplier": 1.29302181037405,
         "collapse-forces": true,
         "centerStrength": 0.1,
         "repelStrength": 19.6301084756324,
         "linkStrength": 0.934069841099973,
         "linkDistance": 470,
-        "scale": 0.019037571597893894,
+        "scale": 0.028508255464722288,
         "close": false
       }
     },
@@ -112,7 +112,7 @@
             }
           },
           {
-            "query": "tag:#Topic/Analysis",
+            "query": "tag:#Topic/Real_Analysis",
             "color": {
               "a": 1,
               "rgb": 5395168
@@ -129,14 +129,14 @@
         "collapse-display": true,
         "showArrow": true,
         "textFadeMultiplier": -3,
-        "nodeSizeMultiplier": 1.79156809733018,
+        "nodeSizeMultiplier": 1.58384727710015,
         "lineSizeMultiplier": 1.29302181037405,
         "collapse-forces": true,
         "centerStrength": 0.1,
         "repelStrength": 19.6301084756324,
         "linkStrength": 0.934069841099973,
         "linkDistance": 470,
-        "scale": 0.019037571597893894,
+        "scale": 0.028508255464722288,
         "close": false
       }
     },

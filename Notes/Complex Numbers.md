@@ -3,20 +3,18 @@
 Date Created: 04/01/2023 13:53:37
 Tags: #Type/Definition #Topic/Ring_Theory
 
-Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Abstractions: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
-Generalizations: <i>Not Applicable</i>
 
 Properties: [[Fundamental Theorem of Algebra]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Ideal is maximal iff quotient is a field]], [[Irreducible polynomial iff ideal maximal]]
+Justifications: [[Polynomial ring over fields is a EUD]], [[EUD implies PID]], [[Basic properties of prime and irreducible elements]], [[Ideal is maximal iff quotient is a field]]
 
-``` ad-Definition
-title: Definition.
+``` ad-Example
+title: Example.
 
-Let $I\coloneqq\gen{x^2+1}$ be an ideal in the ring $\R\l[x\r]$. The <b>field of complex numbers</b> is the field $\C\coloneqq\R\l[x\r]/I$.
+The <b>field of complex numbers</b> is the field $\C\coloneqq\R\l[x\r]/\!\gen{x^2+1}$.
 
 ```
 
