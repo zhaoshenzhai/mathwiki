@@ -628,13 +628,12 @@ var MathLinksRenderChild = class extends import_obsidian6.MarkdownRenderChild {
     }));
   }
   setMathLinkGetter() {
-    var _a;
+    var _a, _b;
     let getter = () => "";
     if (this.displayText != this.targetLink && this.displayText != translateLink(this.targetLink)) {
       getter = () => this.displayText;
     } else {
-      const targetName = (_a = this.targetFile) == null ? void 0 : _a.basename;
-      if (this.displayText == targetName || this.displayText == translateLink(this.targetLink)) {
+      if (this.displayText == ((_a = this.targetFile) == null ? void 0 : _a.name) || this.displayText == ((_b = this.targetFile) == null ? void 0 : _b.basename) || this.displayText == translateLink(this.targetLink)) {
         getter = () => getMathLink(this.plugin, this.targetLink, this.sourcePath);
       }
     }
@@ -663,7 +662,7 @@ function generateMathLinks(plugin, element, context) {
         targetEl.style.display = "";
       }
     }
-    const targetDisplay = (_a = targetEl.textContent) == null ? void 0 : _a.trim();
+    const targetDisplay = (_a = targetEl.textContent) == null ? void 0 : _a.trim().replace(/\.md/, "");
     if (targetDisplay != "" && !/math-inline is-loaded/.test(targetEl.innerHTML)) {
       const targetLink = (_b = targetEl.getAttribute("data-href")) == null ? void 0 : _b.replace(/\.md/, "");
       if (targetLink) {
@@ -745,21 +744,24 @@ function buildLivePreview(plugin, leaf) {
       let mathLinkWrapper = document.createElement("span");
       mathLinkWrapper.classList.add("cm-hmd-internal-link");
       mathLinkWrapper.appendChild(mathLink);
-      let outLinkFileName = this.outLinkText.replace(/#.*$/, "");
-      if (!outLinkFileName) {
-        if (leafView.file) {
-          outLinkFileName = leafView.file.path;
-          if (outLinkFileName.endsWith(".canvas")) {
-            for (let node of leafView.canvas.selection.values()) {
-              outLinkFileName = node.filePath;
-              break;
-            }
+      let sourcePath = "";
+      if (leafView.file) {
+        sourcePath = leafView.file.path;
+        if (sourcePath.endsWith(".canvas")) {
+          for (let node of leafView.canvas.selection.values()) {
+            sourcePath = node.filePath;
+            break;
           }
         }
       }
+      const targetFile = plugin.app.metadataCache.getFirstLinkpathDest((0, import_obsidian7.getLinkpath)(this.outLinkText), sourcePath);
       mathLinkWrapper.onclick = (evt) => {
         evt.preventDefault();
-        plugin.app.workspace.openLinkText(this.outLinkText, outLinkFileName, evt.ctrlKey || evt.metaKey);
+        if (targetFile) {
+          plugin.app.workspace.openLinkText(this.outLinkText, sourcePath, import_obsidian7.Keymap.isModEvent(evt));
+        } else {
+          self.open(this.outLinkText, "_blank", "noreferrer");
+        }
       };
       mathLinkWrapper.onmousedown = (evt) => {
         if (evt.button == 1) {
@@ -768,7 +770,11 @@ function buildLivePreview(plugin, leaf) {
       };
       mathLinkWrapper.onauxclick = (evt) => {
         if (evt.button == 1) {
-          plugin.app.workspace.openLinkText(this.outLinkText, outLinkFileName, true);
+          if (targetFile) {
+            plugin.app.workspace.openLinkText(this.outLinkText, sourcePath, true);
+          } else {
+            self.open(this.outLinkText, "_blank", "noreferrer");
+          }
         }
       };
       return mathLinkWrapper;
@@ -776,20 +782,21 @@ function buildLivePreview(plugin, leaf) {
   }
   let viewPlugin = import_view.ViewPlugin.fromClass(class {
     constructor(view) {
+      leafView = leaf.view;
       this.tryBuildingDecorations(view);
     }
     update(update) {
       this.tryBuildingDecorations(update.view);
     }
     tryBuildingDecorations(view) {
-      this.decorations = this.destroyDecorations(view);
+      this.decorations = import_view.Decoration.none;
       let editorView = leaf.getViewState();
       if (leaf.view instanceof import_obsidian7.MarkdownView && leaf.view.file instanceof import_obsidian7.TFile && isExcluded(plugin, leaf.view.file)) {
         let curView = leaf.view.editor.cm;
         if (curView == view && editorView.state.mode == "source" && !editorView.state.source) {
           this.decorations = this.buildDecorations(view);
         } else {
-          this.decorations = this.destroyDecorations(view);
+          this.decorations = import_view.Decoration.none;
         }
       } else if (leafView.canvas) {
         for (let node of leafView.canvas.selection.values()) {
@@ -801,7 +808,7 @@ function buildLivePreview(plugin, leaf) {
           if (otherLeaf.view instanceof import_obsidian7.MarkdownView) {
             let otherView = otherLeaf.view.editor.cm;
             if (otherView == view) {
-              this.decorations = this.destroyDecorations(view);
+              this.decorations = import_view.Decoration.none;
             }
           }
         });
@@ -839,7 +846,7 @@ function buildLivePreview(plugin, leaf) {
                 end = -2;
               } else {
                 end = node.to;
-                let cursorRange = view.state.selection.ranges[0];
+                let cursorRange = view.state.selection.main;
                 if (start > cursorRange.to || end < cursorRange.from) {
                   if (outLinkText && outLinkMathLink) {
                     builder.add(start, end, import_view.Decoration.widget({
@@ -860,14 +867,6 @@ function buildLivePreview(plugin, leaf) {
             }
           }
         });
-      }
-      return builder.finish();
-    }
-    destroyDecorations(view) {
-      let builder = new import_state.RangeSetBuilder();
-      for (let { from, to } of view.visibleRanges) {
-        (0, import_language.syntaxTree)(view.state).iterate({ from, to, enter(node) {
-        } });
       }
       return builder.finish();
     }
