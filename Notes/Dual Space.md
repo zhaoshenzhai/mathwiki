@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $V$ be a $K$-vector space. The <b>dual space of $V$</b> is the vector space $V^\dual\coloneqq\Mor\l(V,K\r)$, whose elements $\omega:V\to K$ are said to be <b>linear forms</b>.
+Let $V$ be a $K$-vector space. The <b>dual space of $V$</b> is the vector space $V^\dual\coloneqq\Hom\l(V,K\r)$, whose elements $\omega:V\to K$ are said to be <b>linear forms</b>.
 
 ```
 
@@ -24,4 +24,4 @@ Let $V$ be a $K$-vector space. The <b>dual space of $V$</b> is the vector space 
 
 ---
 
-<b>Remark.</b> If $V$ is finite-dimensional, we have that $\dim V^\dual=\dim\Mor\l(V,K\r)=\dim V\cdot\dim K=\dim V$, so $V\iso V^\dual$. However, this isomorphism depends on a choice of basis, and is hence not ‘natural’.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $V$ is finite-dimensional, we have that $\dim V^\dual=\dim\Hom\l(V,K\r)=\dim V\cdot\dim K=\dim V$, so $V\iso V^\dual$. However, this isomorphism depends on a choice of basis, and is hence not ‘natural’.<span style="float:right;">$\blacklozenge$</span>

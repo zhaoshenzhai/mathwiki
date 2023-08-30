@@ -24,4 +24,4 @@ A group $\tpl{G,\ast}$ is said to be <b>abelian</b> if the binary operation $\as
 
 ---
 
-<b>Remark.</b> If $X$ is any set and $G$ is an abelian group, then $G^X=\Mor_\catset\!\l(X,G\r)$ is an abelian group via the component-wise addition.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $X$ is any set and $G$ is an abelian group, then $G^X=\Hom_\catset\!\l(X,G\r)$ is an abelian group via the component-wise addition.<span style="float:right;">$\blacklozenge$</span>

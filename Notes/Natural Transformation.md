@@ -19,7 +19,7 @@ title: Definition.
 Let $\cat{C}$ and $\cat{D}$ be categories and fix two functors $\ms{F},\ms{G}:\cat{C}\to\cat{D}$. A <b>natural transformation from $\ms{F}$ to $\ms{G}$</b> is a class function
 $$\begin{equation}
     \begin{aligned}
-        \eta:\Obj\l(\cat{C}\r)&\to\Mor\l(\cat{D}\r)\\
+        \eta:\Obj\l(\cat{C}\r)&\to\Hom\l(\cat{D}\r)\\
         X&\mapsto\eta_X:\ms{F}\l(X\r)\to\ms{G}\l(X\r)
     \end{aligned}
 \end{equation}$$

@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A category $\cat{C}$ is said to be <b>thin</b> if for all $X,Y\in\Obj\l(\cat{C}\r)$, the hom-set $\Mor\l(X,Y\r)$ is at most a singleton.
+A category $\cat{C}$ is said to be <b>thin</b> if for all $X,Y\in\Obj\l(\cat{C}\r)$, the hom-set $\Hom\l(X,Y\r)$ is at most a singleton.
 
 ```
 
