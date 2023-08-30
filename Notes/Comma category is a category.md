@@ -21,13 +21,13 @@ Then the comma category $\l(\ms{F}\downarrow\ms{G}\r)$ is a category.
 ```
 
 <i>Proof.</i> It suffices to check that the identities and composite morphisms are well-defined since the axioms are inherited directly from that of $\cat{E}$ and $\cat{D}$.
-* Take $\tpl{E,D,f}\in\Obj\l(\ms{F}\downarrow\ms{G}\r)$ and consider the identity $\tpl{\id_E,\id_D}$; we need to prove that $\ms{G}\l(\id_D\r)\circ f=f\circ\ms{F}\l(\id_E\r)$. From unitality of $\ms{F}$, we see that $\ms{F}\l(\id_E\r)=\id_{\ms{F}\l(E\r)}$ which, by definition of $\ms{F}$, is a morphism in $\cat{C}$. Similarly, $\ms{G}\l(\id_D\r)=\id_{\ms{G}\l(D\r)}\in\Hom\l(\cat{C}\r)$. Since $f$ is a morphism in $\cat{C}$ with $\dom f=\ms{F}\l(E\r)$ and $\cdm f=\ms{G}\l(D\r)$, the composition is defined and equality holds.
+* Take $\tpl{E,D,f}\in\Obj\l(\ms{F}\downarrow\ms{G}\r)$ and consider the identity $\tpl{\id_E,\id_D}$; we need to prove that $\ms{G}\l(\id_D\r)\circ f=f\circ\ms{F}\l(\id_E\r)$. From unitality of $\ms{F}$, we see that $\ms{F}\l(\id_E\r)=\id_{\ms{F}\l(E\r)}$ which, by definition of $\ms{F}$, is a morphism in $\cat{C}$. Similarly, $\ms{G}\l(\id_D\r)=\id_{\ms{G}\l(D\r)}\in\Mor\l(\cat{C}\r)$. Since $f$ is a morphism in $\cat{C}$ with $\dom f=\ms{F}\l(E\r)$ and $\cdm f=\ms{G}\l(D\r)$, the composition is defined and equality holds.
 
 * Take $\tpl{E_i,D_i,f_i}\in\Obj\l(\ms{F}\downarrow\ms{G}\r)$ for $i\in\l\{1,2,3\r\}$ and consider the morphisms
 $$\begin{equation}
     \tpl{\phi,\psi}:\tpl{E_1,D_1,f_1}\to\tpl{E_2,D_2,f_2}\ \ \ \ \textrm{and}\ \ \ \ \tpl{\phi',\psi'}:\tpl{E_2,D_2,f_2}\to\tpl{E_3,D_3,f_3}\cref{\ast}
 \end{equation}$$
-in $\Hom\l(\ms{F}\downarrow\ms{G}\r)$; we need to prove that $\phi'\circ\phi\in\Hom_\cat{C}\!\l(E_1,E_3\r)$, $\psi'\circ\psi\in\Hom_\cat{D}\!\l(D_1,D_3\r)$, and that the diagram
+in $\Mor\l(\ms{F}\downarrow\ms{G}\r)$; we need to prove that $\phi'\circ\phi\in\Mor_\cat{C}\!\l(E_1,E_3\r)$, $\psi'\circ\psi\in\Mor_\cat{D}\!\l(D_1,D_3\r)$, and that the diagram
 ![[Images/2022-03-09_101429/image.svg|350]]
 commutes; that is, that
 $$\begin{equation}

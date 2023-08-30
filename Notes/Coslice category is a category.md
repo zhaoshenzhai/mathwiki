@@ -23,7 +23,7 @@ Let $\cat{C}$ be a category and fix $C\in\Obj\l(\cat{C}\r)$. Then the coslice ca
 ![[Images/2022-03-07_162637/image.svg|220]]commutes; that is, we need $f_3=\l(\psi'\circ\psi\r)\circ f_1$. To do so, observe that 
 
 $\begin{alignat}{2}
-    f_3&=\psi'\circ f_2&&\psi'\in\Hom\l(\tpl{X_2,f_2},\tpl{X_3,f_3}\r)\\
-    &=\psi'\circ\l(\psi\circ f_2\r)&&\psi\in\Hom\l(\tpl{X_1,f_1},\tpl{X_2,f_2}\r)\\
+    f_3&=\psi'\circ f_2&&\psi'\in\Mor\l(\tpl{X_2,f_2},\tpl{X_3,f_3}\r)\\
+    &=\psi'\circ\l(\psi\circ f_2\r)&&\psi\in\Mor\l(\tpl{X_1,f_1},\tpl{X_2,f_2}\r)\\
     &=\l(\psi'\circ\psi\r)\circ f_1.\ \ \ \ \ \ \ \ \qedin
 \end{alignat}$
