@@ -23,7 +23,7 @@ Justifications: [[Universal Property of Monoid Rings and Algebras]]
 ``` ad-Definition
 title: Definition.
 
-The <b>endomorphism $R$-algebra</b> of an $R$-module $M$ over a commutative ring $R$ is the $R$-algebra $\End_{\catmod[R]}\!\l(M\r)$ under the induced addition, left $R$-action, and composition of maps.
+The <b>endomorphism $R$-algebra</b> of an $R$-module $M$ over a commutative ring $R$ is the $R$-algebra $\End_R\!\l(M\r)$ under the induced addition, left $R$-action, and composition of maps.
 
 ```
 

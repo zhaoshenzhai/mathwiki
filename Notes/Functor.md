@@ -4,7 +4,7 @@ Date Created: 06/03/2022 15:11:37
 Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: [[Left-invertible Functor]], [[Right-invertible Functor]]
-Examples: [[Path Components]], [[Fundamental Group]], [[Abelianization]]
+Examples: [[Path Components]], [[Fundamental Group]], [[Abelianization]], [[Dual Space]]
 Constructions: [[Natural Transformation]], [[Comma Category]]
 Generalizations: <i>Not Applicable</i>
 

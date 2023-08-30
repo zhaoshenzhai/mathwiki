@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-The <b>general linear group</b> of an $R$-module $M$ is the automorphism group $\GL\l(M\r)\coloneqq\Aut_{\catmod[R]}\!\l(M\r)$.
+The <b>general linear group</b> of an $R$-module $M$ is the automorphism group $\GL\l(M\r)\coloneqq\Aut_R\!\l(M\r)$.
 * The kernel of the $R$-module homomorphism $\det:\GL\l(M\r)\to R^\times$ is called the <b>special linear group</b>, denoted $\SL\l(M\r)$.
 
 ```

@@ -31,7 +31,7 @@ Elements in $\End\l(M\r)$ are called <b>linear operators</b>.
 ```
 ^category-of-modules
 
-<b>Remark.</b> As in $\catabgrp$, the morphisms $\Mor_{\catmod[R]}\!\l(M,N\r)$ is an abelian group under the component-wise addition. If furthermore $R$ is commutative, then it is also an $R$-module via the component-wise left $R$-action. In this case $\End_{\catmod[R]}\!\l(M\r)$ is also an $R$-algebra under composition.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> As in $\catabgrp$, the morphisms $\Mor_R\!\l(M,N\r)$ is an abelian group under the component-wise addition. If furthermore $R$ is commutative, then it is also an $R$-module via the component-wise left $R$-action. In this case $\End_R\!\l(M\r)$ is also an $R$-algebra under composition.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
