@@ -20,7 +20,7 @@ Let $V$ be a $K$-vector space. The <b>dual space of $V$</b> is the vector space 
 
 ```
 
-<b>Remark.</b> Taking the dual defines a contravariant functor $\l(\slot\r)^\dual:\catvect[k]\to\catvect[k]$ mapping each morphism $T:V\to W$ to the morphism $T^\dual:W^\dual\to V^\dual$ defined by $T^\dual\!\l(\gamma\r)\coloneqq\gamma\circ T$.
+<b>Remark.</b> Taking the dual defines a contravariant functor $\l(\slot\r)^\dual:\catvect[k]\to\catvect[k]$ mapping each morphism $T:V\to W$ to the morphism $T^\dual:W^\dual\to V^\dual$ defined by $T^\dual\!\l(\gamma\r)\coloneqq\gamma\circ T$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
