@@ -7,7 +7,7 @@ mathLink: $A_n$ is simple for $n\geq5$
 Date Created: 11/05/2023 11:02:50
 Tags: #Type/Proposition #Topic/Group_Theory
 
-Proved by: [[Characterizations of normality]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

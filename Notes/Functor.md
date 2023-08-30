@@ -4,8 +4,8 @@ Date Created: 06/03/2022 15:11:37
 Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: [[Left-invertible Functor]], [[Right-invertible Functor]]
-Examples: [[Path Components]], [[Fundamental Group]]
-Constructions: [[Natural Transformation]], [[Comma Category]], [[Composition (Functor)]]
+Examples: [[Path Components]], [[Fundamental Group]], [[Abelianization]]
+Constructions: [[Natural Transformation]], [[Comma Category]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -21,7 +21,7 @@ Let $\cat{C}$ and $\cat{D}$ be categories. A <b>(covariant) functor</b> from $\c
 
 ```
 
-<b>Remark.</b> A functor $F:\cat{C}\to\cat{D}$ is <i>faithful</i> (resp. <i>full</i>) if $F:\Mor_\cat{C}\l(A,B\r)\to\Mor_\cat{D}\l(C,D\r)$ is injective (resp. surjective).<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A functor $F:\cat{C}\to\cat{D}$ is <i>full</i> (resp. <i>faithful</i>) if $F:\Mor_\cat{C}\!\l(A,B\r)\to\Mor_\cat{D}\!\l(FA,FB\r)$ is surjective (resp. injective).<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

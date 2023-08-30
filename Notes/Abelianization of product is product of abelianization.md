@@ -7,7 +7,7 @@ mathLink: $\l(G\times H\r)^\textrm{ab}\iso G^\textrm{ab}\times H^\textrm{ab}$
 Date Created: 10/05/2023 12:26:18
 Tags: #Type/Proposition #Topic/Group_Theory
 
-Proved by: [[Universal Property of Abelianization]]
+Proved by: [[Abelianization#^universal-property-of-abelianization]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

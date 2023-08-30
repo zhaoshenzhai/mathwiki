@@ -1,10 +1,10 @@
 <div class="topSpace"></div>
 
 Date Created: 30/08/2023 12:01:07
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Category_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Abelianization]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

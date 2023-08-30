@@ -1,6 +1,7 @@
 ---
 mathLink-blocks:
     universal-property-of-free-modules: Universal Property of Free Modules
+    free-abelian-group: Free Abelian Group
 ---
 
 <div class="topSpace"></div>
@@ -37,3 +38,4 @@ The function $\phi$ defined this way is an $R$-module homomorphism, so we are do
 
 <b>Remark.</b> An $R$-module $M$ is said to be <b>free</b> if $M=F^R\!\l(X\r)$ for some set $X$. If $R$ is commutative, then free modules $M$ over $R$ are classified by their rank.
 * If $R=\Z$, we recover the <b>free abelian group of $X$</b>, denoted $F^\textrm{ab}\!\l(X\r)=\Z^{\oplus X}$.<span style="float:right;">$\blacklozenge$</span>
+^free-abelian-group

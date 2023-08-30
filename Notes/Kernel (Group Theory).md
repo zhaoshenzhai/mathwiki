@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Universal Property of Kernels and Cokernels]], [[Isomorphism Theorems]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Characterizations of normality]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

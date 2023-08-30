@@ -4,13 +4,13 @@ Date Created: 26/10/2022 11:35:20
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Kernel (Group Theory)]], [[Commutator Subgroup]]
+Examples: [[Kernel (Group Theory)]]
 Constructions: [[Quotient Group]], [[Simple Group]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: [[Coset Representation Theorem]]
-Equivalences: [[Characterizations of normality]]
+Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
