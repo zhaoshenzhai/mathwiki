@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    category-of-rings: $\catring$
+---
+
 <div class="topSpace"></div>
 
 Date Created: 15/11/2022 14:00:50
@@ -21,8 +26,8 @@ Let $R$ and $S$ be rings. A <b>ring homomorphism</b> from $R$ to $S$ is a group 
 * A <b>ring isomorphism</b> is an isomorphism in $\catring$; equivalently, it is a bijective ring isomorphism.
 * Two rings $R$ and $S$ are <b>isomorphic</b> if there is a ring isomorphism $\phi:R\to S$.
 
-
 ```
+^category-of-rings
 
 <b>Remark.</b> That $\phi\l(1\r)=1$ does not hold in general, since the zero map is multiplicative, so it must be enforced.<span style="float:right;">$\blacklozenge$</span>
 

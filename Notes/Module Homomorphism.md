@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    category-of-modules: $\catmod[R]$
+---
+
 <div class="topSpace"></div>
 
 Date Created: 26/01/2023 12:43:49
@@ -24,6 +29,7 @@ Let $M$ and $N$ be left $R$-modules. An <b>$R$-module homomorphism/linear map fr
 Elements in $\End\l(M\r)$ are called <b>linear operators</b>.
 
 ```
+^category-of-modules
 
 <b>Remark.</b> As in $\catabgrp$, the morphisms $\Hom_{\catmod[R]}\!\l(M,N\r)$ is an abelian group under the component-wise addition. If furthermore $R$ is commutative, then it is also an $R$-module via the component-wise left $R$-action. In this case $\End_{\catmod[R]}\!\l(M\r)$ is also an $R$-algebra under composition.<span style="float:right;">$\blacklozenge$</span>
 

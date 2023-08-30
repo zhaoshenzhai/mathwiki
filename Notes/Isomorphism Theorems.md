@@ -3,7 +3,7 @@
 Date Created: 09/05/2023 12:40:54
 Tags: #Type/Theorem #Topic/Group_Theory
 
-Proved by: [[Universal Property of Quotients]], [[Canonical Decomposition of Functions]], [[Basic properties of subgroups]]
+Proved by: [[Universal Property of Quotients]], [[Basic properties of subgroups]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -40,7 +40,7 @@ Similar results hold for rings and modules (with ‘normal subgroup’ replaced 
 $$\begin{equation}
     g_1\sim g_2\ \ \ \ \ \ \ \ \,\colon\!\Leftrightarrow\ \ \ \ \ \ \ \ g_1\ker\phi=g_2\ker\phi\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1^{-1}g_2\in\ker\phi\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ \phi\l(g_1^{-1}g_2\r)=e\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ \phi\l(g_1\r)=\phi\l(g_2\r).
 \end{equation}$$
-By the Canonical Decomposition of Functions, we see that $\widetilde{\phi}$ is a bijection, as desired. Now, the Second and Third Isomorphism Theorems follow easily from the first:
+Thus $\phi:G\to\im\phi$ is also universal, so $\widetilde{\phi}$ is an isomorphism as desired. Now, the Second and Third Isomorphism Theorems follow easily from the first:
 * That $HK\subgrpeq G$, $K\nsubgrpeq HK$, and $H\cap K\nsubgrpeq H$ are all easily verified. Consider the sequence $0\rightarrow H\cap K\overset{\iota}{\rightarrow}H\overset{\phi}{\rightarrow}HK/K\rightarrow0$ where $\phi\l(h\r)\coloneqq hK$. Clearly $\iota$ is injective and $\phi$ is surjective. Since $\im\iota=H\cap K=\ker\phi$, we see that the sequence is exact and the result follows.
 * That $H\nsubgrpeq K$ and $K/H\nsubgrpeq G/H$ are easily verified. Consider the sequence $0\rightarrow K/H\overset{\iota}{\rightarrow}G/H\overset{\phi}{\rightarrow}G/K\rightarrow0$ where $\phi\l(gH\r)\coloneqq gK$, which is well-defined. Clearly $\iota$ is injective and $\phi$ is surjective. Since $\im\iota=K/H=\ker\phi$, we see that the sequence is exact and the result follows.
 

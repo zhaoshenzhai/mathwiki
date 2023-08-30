@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    category-of-groups: $\catgrp$
+---
+
 <div class="topSpace"></div>
 
 Date Created: 17/10/2022 11:39:24
@@ -22,6 +27,7 @@ Let $G$ and $H$ be groups. A <b>group homomorphism from $G$ to $H$</b> is a func
 * Two groups $G$ and $H$ are said to be <b>isomorphic</b> if there is a group isomorphism $\phi:G\to H$.
 
 ```
+^category-of-groups
 
 <b>Remark.</b> If $S\subseteq G$ generates $G$, then any two homomorphisms $\phi_1,\phi_2:G\to H$ that agree on $S$ must agree everywhere. Indeed, the set $A\coloneqq\l\{g\in G\st\phi_1\l(g\r)=\phi_2\l(g\r)\r\}$ is a subgroup of $G$ that contains $S$, so $G=\gen{S}\subgrpeq A$ and hence $A=G$. Thus $\phi_1=\phi_2$, as desired.<span style="float:right;">$\blacklozenge$</span>
 

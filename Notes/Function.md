@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    category-of-sets: $\catset$
+---
+
 <div class="topSpace"></div>
 
 Date Created: 14/01/2022 14:25:20
@@ -6,9 +11,9 @@ Tags: #Type/Definition #Topic/Set_Theory
 Types: [[Group Homomorphism]], [[Ring Homomorphism]], [[Module Homomorphism]], [[Continuous Function]], [[Contractive Function]], [[Riemann Integrable Function]]
 Examples: <i>Not Applicable</i>
 Constructions: [[Image and Preimage]], [[Functional Limits]]
-Generalizations: [[Morphism (Category Theory)]]
+Generalizations: [[Category#^morphism]]
 
-Properties: [[Canonical Decomposition of Functions]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Injection iff monomorphism (Set Theory)]], [[Surjection iff epimorphism (Set Theory)]]
 Justifications: [[Invertible iff bijective]]
@@ -23,5 +28,6 @@ Let $\Gamma_{\!f}\subseteq X\times Y$ be a binary relation with $\dom\Gamma_{\!f
 * A function is <b>bijective</b> if it is both injective and surjective; they are the isomorphisms in $\catset$.
 
 ```
+^category-of-sets
 
 <b>Remark.</b> If $f:X\to Y$ is an injection, we write $f:X\into Y$, and if it is a surjection, we write $f:X\onto Y$. Compositions of injections are again injections, and compositions of surjections are again surjections.<span style="float:right;">$\blacklozenge$</span>
