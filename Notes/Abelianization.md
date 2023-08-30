@@ -30,4 +30,4 @@ Let $G$ be a group. The <b>abelianization of $G$</b> is the quotient group $G^\t
 
 ---
 
-<b>Remark.</b> Abelianization defines a covariant functor $F:\catgrp\to\catabgrp$ by $FG\coloneqq G^\textrm{ab}$ and maps each morphism $\phi:G\to H$ to the morphism $F\phi:G^\textrm{ab}\to H^\textrm{ab}$ defined by $F\phi\l(\bar{g}\r)\coloneqq\bar{\phi\l(g\r)}$ where $\bar{g}\coloneqq gG'$. This is well-defined since if $\bar{g_1}=\bar{g_2}$, then $g_1g_2^{-1}\in G'$ and hence $\phi\l(g_1g_2\r)^{-1}\in\phi\l(G'\r)\subseteq H'$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> This defines a covariant functor $\l(\slot\r)^\textrm{ab}:\catgrp\to\catabgrp$ mapping each morphism $\phi:G\to H$ to the morphism $\phi^\textrm{ab}:G^\textrm{ab}\to H^\textrm{ab}$ defined by $\phi^\textrm{ab}\l(\bar{g}\r)\coloneqq\bar{\phi\l(g\r)}$, where $\bar{g}\coloneqq gG'$. This is well-defined since if $\bar{g_1}=\bar{g_2}$, then $g_1g_2^{-1}\in G'$ and hence $\phi\l(g_1g_2\r)^{-1}\in\phi\l(G'\r)\subseteq H'$.<span style="float:right;">$\blacklozenge$</span>

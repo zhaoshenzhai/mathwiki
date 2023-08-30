@@ -62,9 +62,10 @@
         \newcommand{\catgrp}{\cat{Grp}}
         \newcommand{\catabgrp}{\cat{Ab}}
         \newcommand{\catring}{\cat{Ring}}
-        \newcommand{\catmod}[1][R]{#1\!-\!\cat{Mod}}
-        \newcommand{\catalg}[1][R]{#1\!-\!\cat{Alg}}
-        \newcommand{\catvect}[1][K]{#1\!-\!\cat{Vect}}
+        \newcommand{\catmod}[1][R]{\prescript{}{#1}{\cat{Mod}}}
+        \newcommand{\catrmod}[1][R]{\cat{Mod}_{#1}}
+        \newcommand{\catalg}[1][R]{\prescript{}{#1}{\cat{Alg}}}
+        \newcommand{\catvect}[1][K]{\prescript{}{#1}{\cat{Vect}}}
         \newcommand{\cattop}{\cat{Top}}
         \newcommand{\catptop}{\cat{Top}_\blob}
         \newcommand{\catgset}[1][G]{#1\!-\!\cat{Set}}
