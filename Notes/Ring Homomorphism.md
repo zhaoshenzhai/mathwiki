@@ -10,7 +10,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Kernel (Ring Theory)]]
+Constructions: [[Kernel (Ring Theory)]], [[Category of Rings]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Isomorphism Theorems]]

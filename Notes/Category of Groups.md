@@ -24,4 +24,4 @@ The <b>category of groups</b> is the category $\catgrp$ whose objects are groups
 
 ```
 
-<b>Remark.</b> The isomorphisms in $\catgrp$ are precisely the bijective group homomorphisms, which together form the <i>automorphism group</i> $\Aut\l(X\r)$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The isomorphisms in $\catgrp$ are precisely the bijective group homomorphisms, and the automorphisms on a group $G$ form the <i>automorphism group</i> $\Aut\l(X\r)$.<span style="float:right;">$\blacklozenge$</span>

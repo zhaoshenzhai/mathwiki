@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Integers]]
-Constructions: [[Ring]], [[Endomorphisms in Category of Abelian Groups]]
+Constructions: [[Ring]], [[Category of Modules#^category-of-abelian-groups]]
 Generalizations: [[Module and Vector Space]]
 
 Properties: [[Abelian group is simple iff cyclic of prime order]]

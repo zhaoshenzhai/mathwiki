@@ -4,7 +4,7 @@ mathLink: auto
 
 <div class="topSpace"></div>
 
-Date Created: 25/02/2022 12:02:58
+Date Created: 31/08/2023 15:20:16
 Tags: #Type/Example #Topic/Category_Theory
 
 Types: <i>Not Applicable</i>
@@ -20,6 +20,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Example
 title: Example.
 
-The <b>category of relations</b> is the category $\catrel$ whose objects are binary relations on a set and whose morphisms are relation-preserving maps.
+The <b>category of rings</b> is the category $\catring$ whose objects are rings and whose morphisms are ring homomorphisms.
 
 ```
+
+<b>Remark.</b> The isomorphisms in $\catring$ are precisely the bijective ring homomorphisms.<span style="float:right;">$\blacklozenge$</span>

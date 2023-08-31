@@ -24,5 +24,5 @@ The <b>category of metric spaces</b> is the category $\catmet$ whose objects are
 
 ```
 
-<b>Remark.</b> The isomorphisms in $\catmet$ are bijections $f:X\to X'$ such that $d'\l(f\l(x\r),f\l(y\r)\r)=d\l(x,y\r)$, which together form the <i>isometry group</i> $\Isom\l(X\r)$.
+<b>Remark.</b> The isomorphisms in $\catmet$ are precisely the distance-preserving bijections, and the automorphisms on a metric space $X$ form the <i>isometry group</i> $\Isom\l(X\r)$.
 * If $f:X\to X'$ is such that $d'\l(f\l(x\r),f\l(y\r)\r)=f\l(x,y\r)$ but is not necessarily surjective, then it is said to be an <i>isometric embedding</i>. Note that such maps are automatically injective.<span style="float:right;">$\blacklozenge$</span>

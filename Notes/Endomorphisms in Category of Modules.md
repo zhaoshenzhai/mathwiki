@@ -11,7 +11,7 @@ Date Created: 04/08/2023 15:27:00
 Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Automorphisms and endomorphisms of cyclic groups]]
 Constructions: [[Eigenvalue]], [[Characteristic Polynomial]]
 Generalizations: <i>Not Applicable</i>
 

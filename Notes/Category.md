@@ -9,7 +9,7 @@ Date Created: 12/03/2022 17:41:32
 Tags: #Type/Definition #Topic/Category_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Category of Sets]], [[Category of Groups]], [[Module Homomorphism#^category-of-modules]], [[Ring Homomorphism#^category-of-rings]], [[Category of Metric Spaces]], [[Category of Relations]]
+Examples: [[Category of Sets]], [[Category of Groups]], [[Category of Modules]], [[Category of Rings]], [[Category of Metric Spaces]], [[Category of Relations]]
 Constructions: [[Functor]], [[Universal Objects]], [[Natural Transformation]], [[Slice Category]], [[Coslice Category]]
 Generalizations: <i>Not Applicable</i>
 

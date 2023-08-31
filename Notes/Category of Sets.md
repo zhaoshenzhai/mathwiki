@@ -24,4 +24,4 @@ The <b>category of sets</b> is the category $\catset$ whose objects are sets and
 
 ```
 
-<b>Remark.</b> The isomorphisms in $\catset$ are precisely the bijections, which together form the <i>symmetric group</i> $\Sym\l(X\r)$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The isomorphisms in $\catset$ are precisely the bijections, and the automorphisms on a set $X$ form the <i>symmetric group</i> $\Sym\l(X\r)$.<span style="float:right;">$\blacklozenge$</span>
