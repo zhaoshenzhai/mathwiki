@@ -3,9 +3,9 @@
 Date Created: 12/03/2022 12:53:12
 Tags: #Type/Definition #Topic/Category_Theory/Later
 
-Types: [[Natural Isomorphism]]
+Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: <i>Not Applicable</i>
+Constructions: [[Left-invertible Functor]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -16,21 +16,9 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{C}$ and $\cat{D}$ be categories and fix two functors $\ms{F},\ms{G}:\cat{C}\to\cat{D}$. A <b>natural transformation from $\ms{F}$ to $\ms{G}$</b> is a class function
-$$\begin{equation}
-    \begin{aligned}
-        \eta:\Obj\l(\cat{C}\r)&\to\Hom\l(\cat{D}\r)\\
-        X&\mapsto\eta_X:\ms{F}\l(X\r)\to\ms{G}\l(X\r)
-    \end{aligned}
-\end{equation}$$
-such that for all morphisms $\alpha:X\to Y$ in $\cat{C}$, the diagrams
-![[Images/2022-03-12_130843/image.svg|300]]commute.
+Let $F,G:\cat{C}\to\cat{D}$ be functors of the same variance. A <b>natural transformation</b> $\eta:F\to G$ is a collection $\eta\coloneqq\l\{\eta_A\r\}_{A\in\Obj\l(\cat{C}\r)}$ of morphisms $\eta_A:\Hom_\cat{D}\!\l(FA,GA\r)$ such that for all $f\in\Hom_\cat{C}\!\l(A,B\r)$, the diagrams
+![[Images/2022-03-12_130843/image.svg|375]]commute in the covariance and contravariance cases, respectively.
 
 ```
 
-<b>Remark.</b> A natural transformation $\eta$ from $\ms{F}$ to $\ms{G}$ can be represented pictorially as
-![[Images/2022-03-12_134415/image.svg|120]]or simply $\eta:\ms{F}\Rightarrow\ms{G}$ if the categories are understood.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-<b>Remark.</b> In other words, a natural transformation $\eta$ is given by an indexed family $\l\{\eta_X\r\}_{X\in\Obj\l(\cat{C}\r)}$ where $\eta_X:\ms{F}\l(X\r)\to\ms{G}\l(X\r)$ are morphisms in $\cat{D}$, called the <b>component morphisms of $\eta$</b>.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $\eta:F\to G$ is a natural transformation such that each $\eta_A$ is an isomorphism, then $\eta$ is a <i>natural isomorphism</i>. We say that $F$ is <i>naturally isomorphic</i> to $G$ and write $F\iso G$.<span style="float:right;">$\blacklozenge$</span>

@@ -4,12 +4,14 @@
 \input{../../preamble.sty}
 
 \begin{document}
-    \begin{tikzcd}[column sep=3em, row sep =3em]
-        X \ar[d, "\alpha"'] &
-            \ms{F}(X) \ar[r, "\eta_X"] \ar[d, "\ms{F}(\alpha)"']&
-                \ms{G}(X) \ar[d, "\ms{G}(\alpha)"] \\
-        Y &
-            \ms{F}(Y) \ar[r, "\eta_Y"']&
-                \ms{G}(Y)  
-    \end{tikzcd}
+    \begin{equation*}
+        \begin{tikzcd}[column sep=3em, row sep=3em]
+            FA \ar[r, "\eta_A"] \ar[d, "Ff"'] & GA \ar[d, "Gf"] \\
+            FB \ar[r, "\eta_B"'] & GB
+        \end{tikzcd}\ \ \ \ \ \ \ \ \mathit{or}\ \ \ \ \ \ \ \ 
+        \begin{tikzcd}[column sep=3em, row sep=3em]
+            FA \ar[r, "\eta_A"] & GA \\
+            FB \ar[r, "\eta_B"'] \ar[u, "Ff"] & GB \ar[u, "Gf"']
+        \end{tikzcd}
+    \end{equation*}
 \end{document}
