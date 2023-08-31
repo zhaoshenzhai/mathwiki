@@ -20,7 +20,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. The <b>symmetric group on $X$</b> is the automorphism group $\Sym\l(X\r)\coloneqq\Aut\l(X\r)$. A subgroup of $\Sym\l(X\r)$ is called a <b>permutation group on $X$</b>.
+Let $X$ be a set. The <b>symmetric group on $X$</b> is the automorphism group $\Sym\l(X\r)$ in $\catset$. A subgroup of $\Sym\l(X\r)$ is called a <b>permutation group on $X$</b>.
 
 ```
 

@@ -10,7 +10,7 @@ Tags: #Type/Definition #Topic/Module_Theory
 
 Types: [[Normal Operator]], [[Bounded Linear Map]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Kernel and Cokernel (Module Theory)]], [[General Linear Group]], [[Endomorphisms in Category of Modules]], [[Dual Space]], [[Adjoint Map]]
+Constructions: [[Kernel and Cokernel (Module Theory)]], [[General Linear Group]], [[Endomorphisms in Category of Modules]], [[Dual Space]], [[Adjoint Map]], [[Category of Modules]]
 Generalizations: [[Antilinear Map]], [[Multilinear Map]]
 
 Properties: [[Monomorphisms and epimorphisms in category of modules]]

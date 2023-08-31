@@ -4,7 +4,7 @@ Date Created: 03/11/2022 19:00:21
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Commutative Ring]], [[Division Ring]]
-Examples: [[Endomorphisms in Category of Groups]]
+Examples: [[Endomorphisms in Category of Abelian Groups]]
 Constructions: [[Ring Homomorphism]], [[Ideal]], [[Group of Units]], [[Multiplicative Subset]], [[Characteristic]], [[Direct Product (ring)]], [[Module and Vector Space]]
 Generalizations: <i>Not Applicable</i>
 

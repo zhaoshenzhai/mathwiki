@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 31/08/2023 12:32:14
-Tags: #Type/Example #In_Progress
+Tags: #Type/Example #Topic/Category_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>

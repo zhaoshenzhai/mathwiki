@@ -11,7 +11,7 @@ Tags: #Type/Definition #Topic/Module_Theory
 
 Types: [[Finitely-generated Module]], [[Inner Product Space]]
 Examples: [[Abelian Group]], [[Ring]], [[Ideal]]
-Constructions: [[Module Homomorphism]], [[Submodule]], [[Direct Product (module)]], [[Direct Sum (Module)]], [[Torsion]], [[Annihilator]], [[Dual Space]]
+Constructions: [[Module Homomorphism]], [[Submodule]], [[Direct Product (module)]], [[Direct Sum (Module)]], [[Torsion]], [[Annihilator]], [[Dual Space]], [[Category of Modules]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basis Extension Theorem]], [[Invariant Basis Number]]
