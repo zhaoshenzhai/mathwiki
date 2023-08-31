@@ -31,5 +31,9 @@ If $X$ and $Y$ are metric spaces, this shows that $f$ is continuous at $p$ iff $
 
 ---
 
+<b>Remark.</b> If $f:X\to Y$ is continuous and $\tpl{x_n}$ is a sequence converging to some $x\in X$, then the sequence $\tpl{f\l(x_n\r)}$ converges to $f\l(x\r)$. Indeed, let $U\ni f\l(x\r)$ be open, so $f^{-1}\!\l(U\r)\ni x$ is open. Since $x_n\to x$, there is some $N\in\N$ such that $x_n\in f^{-1}\!\l(U\r)$ for all $n\geq N$, so $f\l(x_n\r)\in f\l(f^{-1}\!\l(U\r)\r)\subseteq U$ eventually. The converse does <i>not</i> hold in general topological spaces.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 <b>Remark.</b> If $\mc{B}$ is a basis for the topology on $Y$, then it suffices to show that preimages of basic open sets are open. Indeed, every open set $V$ in $Y$ can be written as a union $V=\bigcup_{\alpha\in\mc{A}}B_\alpha$ for some basic open sets $B_\alpha\in\mc{B}$, so $f^{-1}\!\l(V\r)=f^{-1}\!\l(\bigcup_{\alpha\in\mc{A}}B_\alpha\r)=\bigcup_{\alpha\in\mc{A}}f^{-1}\!\l(B_\alpha\r)$.
 * If furthermore $\mc{S}$ is a subbasis for the topology on $Y$, then every basic open set $B\in\mc{B}$ can be written as an intersection $B=\bigcap_{i=1}^{n}S_i$, so $f^{-1}\!\l(B\r)=\bigcap_{i=1}^{n}f^{-1}\!\l(S_i\r)$.<span style="float:right;">$\blacklozenge$</span>

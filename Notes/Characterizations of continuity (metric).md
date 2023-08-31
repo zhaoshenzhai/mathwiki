@@ -24,6 +24,10 @@ Let $\tpl{X,d_X}$ and $\tpl{Y,d_Y}$ be metric spaces and fix $\Omega\subseteq X$
 
 ```
 
+<b>Remark.</b> That $1\Rightarrow3$ holds in every topological space.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
 <i>Proof.</i> We shall prove that $1\Rightarrow2\Rightarrow3\Rightarrow1$.
 * ($1\Rightarrow2$). Let $p$ be a cluster point of $\Omega$. Then, since $f$ is continuous, it is continuous at $p$ and hence
 $$\begin{equation}

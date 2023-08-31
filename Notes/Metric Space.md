@@ -26,4 +26,6 @@ A set $X$, equipped with a metric $d:X\times X\to\R$, is said to be a <b>metric 
 ```
 
 <b>Remark.</b> A metric on $X$ induces a <i>metric topology</i> on $X$ by the basis consisting of all <i>open balls</i> $B\l(x,\epsilon\r)\coloneqq\l\{y\in X\st d\l(x,y\r)<\epsilon\r\}$ for $x\in X$ and $\epsilon>0$.
-* The collection of open balls clearly cover $X$. Take $p\in B\l(x_1,\epsilon_1\r)\cap B\l(x_2,\epsilon_2\r)$, so $d\l(p,x_i\r)<\epsilon_i$ for $i=1,2$. Set $\epsilon\coloneqq\min_i\l\{\epsilon_i-d\l(p,x_i\r)\r\}$; we claim that $B\l(p,\epsilon\r)$ lies in the intersection of $B\l(x_1,\epsilon_1\r)$ and $B\l(x_2,\epsilon_2\r)$. Indeed, for all $q\in B\l(p,\epsilon\r)$, we have $d\l(q,x_i\r)\leq d\l(p,q\r)+d\l(p,x_i\r)<\epsilon_i$ for $i=1,2$, as desired.<span style="float:right;">$\blacklozenge$</span>
+* The collection of open balls clearly cover $X$. Take $p\in B\l(x_1,\epsilon_1\r)\cap B\l(x_2,\epsilon_2\r)$, so $d\l(p,x_i\r)<\epsilon_i$ for $i=1,2$. Set $\epsilon\coloneqq\min_i\l\{\epsilon_i-d\l(p,x_i\r)\r\}$; we claim that $B\l(p,\epsilon\r)$ lies in the intersection of $B\l(x_1,\epsilon_1\r)$ and $B\l(x_2,\epsilon_2\r)$. Indeed, for all $q\in B\l(p,\epsilon\r)$, we have $d\l(q,x_i\r)\leq d\l(p,q\r)+d\l(p,x_i\r)<\epsilon_i$ for $i=1,2$, as desired.
+
+A topological space $\tpl{X,\mc{T}}$ is <i>metrizable</i> if there is a metric $d$ on $X$ that generates $\mc{T}$.<span style="float:right;">$\blacklozenge$</span>
