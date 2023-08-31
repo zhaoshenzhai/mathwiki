@@ -19,9 +19,9 @@ These notes are meant to be a distilled version of the math I've learnt where id
 
 ## Note Types and Templates
 
-Each note is currently one of three types:
+Each note is currently one of four types:
 
-* **Definition**, either of an `object` or of a `notion`, which links to:
+* **Definition**/**Example**, either of an `object` or of a `notion`, which links to:
     * Types: _Objects/notions of type `object`/`notion` with additional restrictions._
     * Examples: _Specific examples or counterexamples of `object`/`notion` (but not of any of its `types`)._
     * Constructions: _Objects/notions derived from `object`/`notion`._
@@ -31,7 +31,7 @@ Each note is currently one of three types:
     * Equivalences: _Equivalent definitions for `object` or biconditionals between notions and `notion`._
     * Justifications: _Proofs of well-definition of `object`/`notion`._
 
-* **Proposition** and **Theorem** (differentiated by 'importance'), including both `statement` and `proof` regarding `object`/`notion`, which links to:
+* **Proposition**/**Theorem** (differentiated by 'importance'), including both `statement` and `proof` regarding `object`/`notion`, which links to:
     * Proved by: _Statements in which `proof` depends crucially on._
     * References: _Notes in which the proofs of `statement` (or corollaries thereof) are delegated to._
     * Justifications: _Proofs of implicit assumptions of `object`/`notion` in `statement`._<br/><br/>

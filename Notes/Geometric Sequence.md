@@ -3,8 +3,10 @@
 Date Created: 04/10/2022 14:52:29
 Tags: #Type/Example #Topic/Real_Analysis
 
-Abstractions: <i>Not Applicable</i>
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
+Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
