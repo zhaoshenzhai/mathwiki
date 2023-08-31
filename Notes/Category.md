@@ -8,7 +8,7 @@ mathLink-blocks:
 Date Created: 12/03/2022 17:41:32
 Tags: #Type/Definition #Topic/Category_Theory
 
-Types: [[Thin Category]]
+Types: <i>Not Applicable</i>
 Examples: [[Function#^category-of-sets]], [[Group Homomorphism#^category-of-groups]], [[Module Homomorphism#^category-of-modules]], [[Ring Homomorphism#^category-of-rings]], [[Category of Relations]]
 Constructions: [[Functor]], [[Universal Objects]], [[Natural Transformation]], [[Slice Category]], [[Coslice Category]]
 Generalizations: <i>Not Applicable</i>

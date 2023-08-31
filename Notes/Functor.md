@@ -1,9 +1,14 @@
+---
+mathLink-blocks:
+    equivalence-of-categories: Equivalence of Categories
+---
+
 <div class="topSpace"></div>
 
 Date Created: 06/03/2022 15:11:37
-Tags: #Type/Definition #Topic/Category_Theory/Later
+Tags: #Type/Definition #Topic/Category_Theory
 
-Types: [[Left-invertible Functor]], [[Right-invertible Functor]]
+Types: <i>Not Applicable</i>
 Examples: [[Hom Functor]], [[Path Components]], [[Fundamental Group]], [[Abelianization]], [[Dual Space]]
 Constructions: [[Natural Transformation]], [[Comma Category]]
 Generalizations: <i>Not Applicable</i>
@@ -21,8 +26,9 @@ Let $\cat{C}$ and $\cat{D}$ be categories. A <b>(covariant) functor</b> from $\c
 
 ```
 
-<b>Remark.</b> A functor $F:\cat{C}\to\cat{D}$ is <i>full</i> (resp. <i>faithful</i>) if $F:\Hom_\cat{C}\!\l(A,B\r)\to\Hom_\cat{D}\!\l(FA,FB\r)$ is surjective (resp. injective).<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A functor $F:\cat{C}\to\cat{D}$ is <i>full</i> (resp. <i>faithful</i>) if $F:\Hom_\cat{C}\!\l(A,B\r)\to\Hom_\cat{D}\!\l(FA,FB\r)$ is surjective (resp. injective). It is <i>essentially surjective</i> if for any object $B\in\Obj\l(\cat{D}\r)$, there is an object $A\in\Obj\l(\cat{C}\r)$ such that $FA\iso B$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<b>Remark.</b> Functors can be composed as usual. The composition of two covariant functors is again covariant.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Two categories $\cat{C}$ and $\cat{D}$ are <i>equivalent</i> if there are functors $F:\cat{C}\to\cat{D}$ and $G:\cat{D}\to\cat{C}$ such that $G\circ F\iso1_\cat{C}$ and $F\circ G\iso1_\cat{D}$.
+^equivalence-of-categories
