@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: [[Commutative Ring]], [[Division Ring]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Ring Homomorphism]], [[Ideal]], [[Group of Units]], [[Multiplicative Subset]], [[Characteristic]], [[Direct Product (ring)]], [[Module and Vector Space]], [[Category of Rings]]
+Constructions: [[Ring Homomorphism]], [[Ideal]], [[Group of Units]], [[Multiplicative Subset]], [[Characteristic]], [[Direct Product (ring)]], [[Module]], [[Category of Rings]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

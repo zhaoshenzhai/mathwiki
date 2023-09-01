@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Orthogonality]], [[Inner product induces a norm]]
+Constructions: [[Orthogonality]], [[Inner product induces a norm]], [[Adjoint Map]], [[Bounded Linear Map]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Cauchy-Schwarz Inequality]], [[Pythagorean Theorem]]

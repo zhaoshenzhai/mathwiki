@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Real Numbers]]
-Constructions: [[Module and Vector Space#^vector-space]], [[Prime Field]]
+Constructions: [[Module#^vector-space]], [[Prime Field]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Group of units of finite field is a cyclic group]], [[Polynomial ring over fields is a EUD]]

@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Faithful Action]], [[Transitive Action]]
 Examples: [[Conjugation Action]]
-Constructions: [[Orbit]], [[Stabilizer]], [[Equivariant Map]], [[Module and Vector Space]]
+Constructions: [[Orbit]], [[Stabilizer]], [[Equivariant Map]], [[Module]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
