@@ -5,12 +5,12 @@ Tags: #Type/Definition #Topic/Module_Theory/Later/Dual
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Dual Basis]]
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Riesz Representation Theorem]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Matrix representation of dual map is the transpose]]
+Equivalences: <i>Not Applicable</i>
 Justifications: [[Dimension Theorem]], [[Basis Extension Theorem]]
 
 ``` ad-Definition

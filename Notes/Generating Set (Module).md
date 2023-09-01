@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Module_Theory
 
 Types: [[Orthonormal Basis]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Finitely-generated Module]], [[Dual Basis]]
+Constructions: [[Finitely-generated Module]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Structure Theorem]], [[Basic properties of rank]], [[Dimension Theorem]]

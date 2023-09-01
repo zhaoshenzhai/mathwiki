@@ -30,5 +30,6 @@ Let $\cat{C}$ and $\cat{D}$ be categories. A <b>(covariant) functor</b> from $\c
 
 ---
 
-<b>Remark.</b> Two categories $\cat{C}$ and $\cat{D}$ are <i>equivalent</i> if there are functors $F:\cat{C}\to\cat{D}$ and $G:\cat{D}\to\cat{C}$ such that $G\circ F\iso1_\cat{C}$ and $F\circ G\iso1_\cat{D}$.
+<b>Remark.</b> Two categories $\cat{C}$ and $\cat{D}$ are <i>equivalent</i> if there are functors $F:\cat{C}\to\cat{D}$ and $G:\cat{D}\to\cat{C}$ such that $G\circ F\iso1_\cat{C}$ and $F\circ G\iso1_\cat{D}$. It is a fact that $F:\cat{C}\to\cat{D}$ is an equivalence of categories iff $F$ is fully-faithful and essentially surjective.
+* ($\Rightarrow$): 
 ^equivalence-of-categories
