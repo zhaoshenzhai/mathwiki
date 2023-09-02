@@ -4,7 +4,7 @@ Date Created: 02/09/2023 15:11:00
 Tags: #Type/Definition #Topic/Category_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Complex representations equivalent to finitely-generated modules over group algebra]], [[Dual Space]]
+Examples: [[Dual Space]], [[Complex representations equivalent to finitely-generated modules over group algebra]], [[Finitely-generated Module#^equivalence-fg-vector-spaces-and-dimension]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
