@@ -8,7 +8,7 @@ Date Created: 19/01/2022 17:48:10
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Equinumerosity]], [[Orbit]], [[Homotopy]]
+Examples: [[Equinumerosity]], [[Group Action#^orbit]], [[Homotopy]]
 Constructions: [[Quotient Group]]
 Generalizations: <i>Not Applicable</i>
 

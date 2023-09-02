@@ -6,10 +6,10 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 02/09/2023 11:35:32
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Representation_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Regular Action#^regular-representation]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

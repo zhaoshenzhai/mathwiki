@@ -14,7 +14,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Class Equation]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Quotients are equivariant iff subgroups are conjugate]]
+Equivalences: [[Regular Action#^equivariant-quotients-iff-conjugate-subgroups]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
