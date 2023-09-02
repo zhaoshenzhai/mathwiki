@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Functor#^equivalence-of-categories]]
+Constructions: [[Equivalence of Categories]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
