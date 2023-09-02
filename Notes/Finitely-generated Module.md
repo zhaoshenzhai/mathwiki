@@ -10,7 +10,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Characterizations of fields#^finitely-generated-over-field-are-free]]
 Sufficiencies: [[Structure Theorem]]
-Equivalences: <i>Not Applicable</i>
+Equivalences: [[Complex representations equivalent to finitely-generated modules over group algebra]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

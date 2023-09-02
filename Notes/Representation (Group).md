@@ -15,7 +15,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: <i>Not Applicable</i>
+Equivalences: [[Complex representations equivalent to finitely-generated modules over group algebra]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
@@ -28,4 +28,4 @@ Let $G$ be a group. A  <b>representation</b> of $G$ is a pair $\tpl{\rho,V}$ whe
 ```
 ^category-of-representations
 
-<b>Remark.</b> Usually, $k$ is taken to be $\C$ and $V$ is finite-dimensional. To emphasize, we say that $\rho$ is a <i>finite-dimensional complex representation</i> of $G$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Usually, $k$ is taken to be $\C$ and $V$ is finite-dimensional. To emphasize, we say that $\rho$ is a <i>finite-dimensional complex representation</i> of $G$. We denote this subcategory as $\catfgrep[\C]{G}$.<span style="float:right;">$\blacklozenge$</span>
