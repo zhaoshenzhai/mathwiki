@@ -24,5 +24,6 @@
   "promptDelete": false,
   "showInlineTitle": false,
   "foldIndent": true,
-  "spellcheck": false
+  "spellcheck": false,
+  "propertiesInDocument": "hidden"
 }
