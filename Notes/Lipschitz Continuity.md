@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Contractive Function]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Category of Metric Spaces]]
+Constructions: [[Metric Space#^category-of-metric-spaces]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

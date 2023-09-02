@@ -3,6 +3,7 @@ mathLink-blocks:
     vector-space: Vector Space
     module-homomorphism: Module Homomorphism
     category-of-modules: $\catmod[R]$
+    category-of-abelian-groups: $\catabgrp$
 ---
 
 <div class="topSpace"></div>

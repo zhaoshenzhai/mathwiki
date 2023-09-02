@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: [[Function]], [[Equivalence Relation and Quotient Set]], [[Preordered Set]], [[Well-founded Relation]]
 Examples: <i>Not Applicable</i> 
-Constructions: [[Category of Relations]]
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
