@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Module_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: <i>Not Applicable</i>
+Constructions: [[Representation (Group)]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
