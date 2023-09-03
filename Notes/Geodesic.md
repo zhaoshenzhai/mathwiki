@@ -19,6 +19,7 @@ title: Definition.
 Let $X$ be a metric space. A <b>geodesic segment/ray/line</b> in $X$ is an isometric embedding of $\l[0,a\r]$, $\l[0,+\infty\r)$, or $\R$ into $X$, respectively.
 * For $x,y\in X$, a <b>geodesic</b> from $x$ to $y$ is a geodesic segment $c:\l[0,a\r]\into X$ such that $c\l(0\r)=x$ and $c\l(a\r)=y$.
 * A metric space is <b>geodesic</b> if any two $x,y\in X$ is joined by a geodesic.
+* A subset $C\subseteq X$ is <b>convex</b> if $C$ is geodesic and the image of every $X$-geodesic between $x,y\in C$ is contained in $C$.
 
 ```
 

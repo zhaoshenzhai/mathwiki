@@ -5,7 +5,7 @@ mathLink: $S^n$
 <div class="topSpace"></div>
 
 Date Created: 02/09/2023 15:56:56
-Tags: #Type/Example #In_Progress
+Tags: #Type/Example #Topic/Metric_Geometry
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
