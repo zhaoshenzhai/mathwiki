@@ -10,7 +10,7 @@ Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Compact Space]], [[Complete Metric Space]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Uniform Continuity]], [[Lipschitz Continuity]]
+Constructions: [[Uniform Continuity]], [[Lipschitz Continuity]], [[Geodesic]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
