@@ -3,7 +3,7 @@
 Date Created: 24/01/2023 11:16:39
 Tags: #Type/Definition #Topic/Topology/Later
 
-Types: <i>Not Applicable</i>
+Types: [[Polish Space]]
 Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A topological space $\tpl{X,\mc{T}}$ is said to be <b>separable</b> if it contains a countable dense subset.
+A topological space $X$ is said to be <b>separable</b> if it admits a countable dense subset.
 
 ```
