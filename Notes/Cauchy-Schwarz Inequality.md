@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    inner-product-space-induces-a-norm: Inner product induces a norm
+---
+
 <div class="topSpace"></div>
 
 Date Created: 26/06/2022 17:19:32
@@ -18,6 +23,22 @@ Let $V$ be an inner product space. Then, for all $u,v\in V$, we have $\l|\inprod
 ```
 
 <b>Remark.</b> If $k=\R$, this shows us that $-1\leq\frac{\inprod{u}{v}}{\|u\|\|v\|}\leq1$, which enables us to define the <i>angle between $u$ and $v$</i> as the unique $\theta_{u,v}\in\l[0,\pi\r]$ such that $\cos\theta_{u,v}=\frac{\inprod{u}{v}}{\|u\|\|v\|}$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> Every inner product induces a norm $\|v\|\coloneqq\sqrt{\inprod{v}{v}}$. Positive-definiteness and absolute homogeneity follows immediately; for the triangle inequality, take $v,w\in V$ and observe that
+^inner-product-space-induces-a-norm
+$$\begin{equation}
+    \begin{aligned}
+        \|v+w\|^2&=\inprod{v+w}{v+w} \\
+        &=\|v\|^2+\inprod{v}{w}+\inprod{w}{v}+\|w\|^2 \\
+        &=\|v\|^2+\|w\|^2+2\Re\inprod{v}{w} \\
+        &\leq\|v\|^2+\|w\|^2+2\Re\l(\|v\|\|w\|\r) \\
+        &=\|v\|^2+\|w\|^2+2\|v\|\|w\| \\
+        &=\l(\|v\|+\|w\|\r)^2,
+    \end{aligned}
+\end{equation}$$
+from which the result follows by taking roots.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
