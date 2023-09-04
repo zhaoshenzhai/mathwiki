@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Set_Theory/Later/Ordinal
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Countably Compact Space]], [[Separable Space]]
+Constructions: [[Separable Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Countable union of countable sets is countable]], [[Finite product of countable sets is countable]]
