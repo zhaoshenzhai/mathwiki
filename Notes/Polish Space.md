@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/09/2023 22:02:48
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
 Examples: [[Cantor Space]]
