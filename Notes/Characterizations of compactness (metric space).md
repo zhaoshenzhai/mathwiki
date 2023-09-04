@@ -3,8 +3,8 @@
 Date Created: 29/12/2022 21:53:42
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Sequentially compact implies separable]], [[Separable implies admits countable subcover]], [[Sequentially compact implies countably compact]]
-References: [[Compact implies limit point compact]]
+Proved by: [[Sequentially compact implies separable]], [[Separable implies Lindelof]], [[Sequentially compact implies countably compact]]
+References: [[Compact Space#^compact-implies-limit-point-compact]]
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>

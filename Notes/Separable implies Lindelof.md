@@ -17,7 +17,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition.
 
-Let $\tpl{X,\mc{T}}$ be a separable topological space. If $\l\{U_\alpha\r\}_{\alpha\in\mc{A}}$ is an open cover for $X$, then $X$ admits a countable subcover.
+Let $X$ be a metric space. If $X$ is separable, then it is Lindelöf.
 
 ```
 

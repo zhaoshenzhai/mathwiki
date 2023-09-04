@@ -18,7 +18,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Convergence Criteria in R]], [[Mean Value Theorems]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Compact implies closed (Hausdorff)]], [[Characterizations of compactness (metric space)]]
+Justifications: [[Compact Space#^compact-hausdorff-implies-closed]], [[Compact Space#^compact-implies-bounded]], [[Characterizations of compactness (metric space)]]
 
 ``` ad-Example
 title: Example.

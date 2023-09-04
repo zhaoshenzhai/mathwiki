@@ -5,7 +5,7 @@ Tags: #Type/Theorem #Topic/Topology
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
-Justifications: [[Compact implies closed (Hausdorff)]]
+Justifications: [[Compact Space#^compact-hausdorff-implies-closed]]
 
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
