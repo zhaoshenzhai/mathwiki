@@ -4,7 +4,7 @@ Date Created: 02/09/2023 22:02:48
 Tags: #Type/Definition #In_Progress
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Cantor Space]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
