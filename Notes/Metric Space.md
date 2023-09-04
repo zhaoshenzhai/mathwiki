@@ -13,7 +13,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Uniform Continuity]], [[Lipschitz Continuity]], [[Geodesic]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Characterizations of compactness (metric space)]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

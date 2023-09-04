@@ -3,6 +3,7 @@ mathLink-blocks:
     compact-implies-limit-point-compact: Compact $\Rightarrow$ limit-point compact
     compact-hausdorff-implies-closed: Compact $\Rightarrow$ closed (Hausdorff)
     compact-implies-bounded: Compact $\Rightarrow$ bounded
+    sequential-compactness: Sequentially Compact Space
 ---
 
 <div class="topSpace"></div>
@@ -15,8 +16,8 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Extreme Value Theorem]], [[Cantor's Intersection Theorem]], [[Compact implies complete]], [[Epsilon-neighborhood Theorem]], [[Heine-Cantor Theorem]]
-Sufficiencies: [[Sequentially compact implies countably compact]]
+Properties: [[Extreme Value Theorem]], [[Cantor's Intersection Theorem]], [[Compact implies complete]], [[Epsilon-neighborhood Theorem]], [[Heine-Cantor Theorem]], [[Sequentially compact implies countably compact]], [[Sequentially compact implies separable]], [[Sequentially compact implies bounded]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Finite Intersection Theorem]], [[Characterizations of compactness (metric space)]]
 Justifications: <i>Not Applicable</i>
 
@@ -24,10 +25,11 @@ Justifications: <i>Not Applicable</i>
 title: Definition.
 
 A topological space $X$ is said to be <b>compact</b> if every open cover has a finite subcover.
-* If every sequence $\tpl{x_n}$ has a convergent subsequence, then $X$ is <b>sequentially-compact</b>.
 * If every infinite subset $S\subseteq X$ has a limit point, then $X$ is <b>limit-point compact</b>.
+* If every sequence $\tpl{x_n}$ has a convergent subsequence, then $X$ is <b>sequentially compact</b>.
 
 ```
+^sequential-compactness
 
 <b>Remark.</b> If every <i>countable</i> open cover has a finite subcover, then $X$ is said to be <i>countably compact</i>.<span style="float:right;">$\blacklozenge$</span>
 

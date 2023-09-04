@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Dense Set]], [[Perfect Set]]
+Constructions: [[Dense Set]], [[Perfect Set]], [[Compact Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

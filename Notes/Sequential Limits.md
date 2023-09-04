@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
 Examples: [[Geometric Sequence]], [[Ratio Test (Sequence)]], [[Euler's Number]]
-Constructions: [[Sequentially Compact Space]], [[Characterizations of continuity (metric)]], [[Infinite Series]]
+Constructions: [[Compact Space#^sequential-compactness]], [[Characterizations of continuity (metric)]], [[Infinite Series]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Subsequential limits are closed]]
