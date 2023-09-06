@@ -5,7 +5,7 @@ mathLink: $\H^n$
 <div class="topSpace"></div>
 
 Date Created: 05/09/2023 12:29:44
-Tags: #Type/Example #In_Progress
+Tags: #Type/Example #Topic/Metric_Geometry
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
@@ -39,4 +39,18 @@ This shows that the distance $d$ is well-defined. Lastly, we claim that for all 
 $$\begin{equation}
     d\l(c\l(t\r),c\,(t')\r)=\arccosh\l(-\inprod{\cosh tx+\sinh tv}{\cosh t'x+\sinh t'v}\r)=\arccosh\l(-\cosh t\cosh t'\inprod{x}{x}-\sinh t\sinh t'\inprod{v}{v}\r)=\arccosh\l(\cosh\l(t-t'\r)\r)=\l|t-t'\r|,
 \end{equation}$$
-so $c$ is an isometric embedding and hence a geodesic segment between $x=c\l(0\r)$ and $y\coloneqq c\l(a\r)$ $-$ if $d$ is a metric in the first place. Note that for any $x\neq y\in\H^n$, we can take $v\coloneqq y+\inprod{y}{x}x$, for then $\inprod{v}{x}=0$ and hence $v\in x^\perp$. Since $\inprod{v}{v}>0$, we can rescale it so that $\inprod{v}{v}=1$, which gives us a hyperbolic segment from $x$ to $y$ with $a\coloneqq d\l(x,y\r)$.
+so $c$ is an isometric embedding and hence a geodesic segment between $x=c\l(0\r)$ and $y\coloneqq c\l(a\r)$ $-$ if $d$ is a metric in the first place. Note that for any $x\neq y\in\H^n$, we can take $v\coloneqq y+\inprod{y}{x}x$, for then $\inprod{v}{x}=0$ and hence $v\in x^\perp$. Since $\inprod{v}{v}>0$, we can rescale it so that $\inprod{v}{v}=1$, which gives us the unique hyperbolic segment from $x$ to $y$ with $a\coloneqq d\l(x,y\r)$.
+
+The <i>hyperbolic angle</i> between two hyperbolic segments starting at a common point $x$ with initial vectors $u$ and $v$ is $\gamma_{u,v}\coloneqq\arccos\inprod{u}{v}$. A <i>triangle</i> in $\H^n$ is the data of three distinct points $x,y,z\in\H^n$ and three hyperbolic segments between them. Letting $a\coloneqq d\l(y,z\r)$, $b\coloneqq d\l(x,z\r)$, and $c\coloneqq d\l(x,y\r)$, we have the <i>hyperbolic law of cosines</i> as $\cosh c=\cosh a\cosh b-\sinh a\sinh b\cos\gamma_{u,v}$ where $\gamma_{u,v}$ is the hyperbolic angle of the minimal great arcs of the triangle starting at $z$. Indeed, we compute
+$$\begin{equation}
+    \cosh c=-\inprod{x}{y}=-\inprod{\cosh bz+\sinh bu}{\cosh cz+\sinh cv}=-\l[\cosh a\cosh b\inprod{z}{z}+\sinh a\sinh v\inprod{u}{v}\r],
+\end{equation}$$
+from which the result follows by noting that $\inprod{u}{v}=\cos\gamma_{u,v}$. We now prove the triangle inequality for the triangle considered above. Since $\cos$ is a strictly decreasing function on $\l[0,\pi\r]$ from $1$ to $-1$, the function $f:\gamma\mapsto\cosh a\cosh b-\sinh a\sinh b\cos\gamma$ increases from $\cosh\l(b-a\r)$ to $\cosh\l(a+b\r)$. Thus $\cosh c\leq\cosh\l(a+b\r)$ by the hyperbolic law of cosines, so $c\leq a+b$. Note that equality holds iff $\gamma=\pi$ (when $f$ achieves is maximum), which occurs precisely when $z$ lies in the hyperbolic segment joining $x$ and $y$.<span style="float:right;">$\blacksquare$</span>
+
+---
+
+<i>Proof (convexity).</i> Consider the ball $B\l(z,r\r)$ for any $z\in\H^n$ and any $r>0$. Take $x,y\in B\l(z,y\r)$ and consider the unique hyperbolic segment joining them. Any point on this hyperbolic segment lies in the positive come spanned by $x$ an $y$, so it is of the form $\lambda x+\mu y$ for some $\lambda,\mu\geq0$ with $-\lambda-\mu=\lambda\|x\|+\mu\|y\|\geq\|\lambda x+\mu y\|=-1$. By definition, a point $z'$ lies in $B\l(z,r\r)$ iff $-\inprod{z}{z'}<\cosh r$, so, since $\lambda+\mu\leq1$, we see that
+$$\begin{equation}
+    -\inprod{\lambda x+\mu y}{z}=-\lambda\inprod{x}{z}-\mu\inprod{y}{z}<\l(\lambda+\mu\r)\cosh r\leq\cosh
+\end{equation}$$
+Thus $\lambda x+\mu y\in B\l(z,r\r)$, as desired.<span style="float:right;">$\blacksquare$</span>

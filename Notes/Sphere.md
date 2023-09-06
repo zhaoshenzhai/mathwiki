@@ -33,12 +33,12 @@ The <i>spherical angle</i> between two minimal great arcs starting at a common p
 $$\begin{equation}
     \cos c=\cos d\l(x,y\r)=\inprod{x}{y}=\inprod{\cos bz+\sin bu}{\cos bz+\sin bv}=\cos a\cos b+\sin a\sin b\inprod{u}{v},
 \end{equation}$$
-from which the result follows by noting that $\inprod{u}{v}=\cos\gamma_{u,v}$. We now prove the triangle inequality for the triangle considered above. Since $\cos$ is a strictly decreasing function on $\l[0,\pi\r]$ from $1$ to $-1$, the function $f:\gamma\mapsto\cos a\cos b+\sin a\sin b\cos\gamma$ decreases from $\cos\l(b-a\r)$ to $\cos\l(a+b\r)$. Thus $\cos c\geq\cos\l(a+b\r)$ by the spherical law of cosines, so $a+b\leq c$. Note that equality holds iff $\gamma=\pi$ (when $f$ achieves its minimum) and $a+b\leq\pi$ (when $\cos$ is decreasing), which is precisely when $z$ lies in the minimal great arc joining $x$ and $y$.<span style="float:right;">$\blacksquare$</span>
+from which the result follows by noting that $\inprod{u}{v}=\cos\gamma_{u,v}$. We now prove the triangle inequality for the triangle considered above. Since $\cos$ is a strictly decreasing function on $\l[0,\pi\r]$ from $1$ to $-1$, the function $f:\gamma\mapsto\cos a\cos b+\sin a\sin b\cos\gamma$ decreases from $\cos\l(b-a\r)$ to $\cos\l(a+b\r)$. Thus $\cos c\geq\cos\l(a+b\r)$ by the spherical law of cosines, so $c\leq a+b$. Note that equality holds iff $\gamma=\pi$ (when $f$ achieves its minimum) and $a+b\leq\pi$ (when $\cos$ is decreasing), which is precisely when $z$ lies in the minimal great arc joining $x$ and $y$.<span style="float:right;">$\blacksquare$</span>
 
 ---
 
-<i>Proof (convexity).</i> Let $r<\pi/2$ and consider the closed ball $\bar{B}\l(z,r\r)$ for any $z\in S^n$. If $x,y\in\bar{B}\l(z,r\r)$, then $d\l(x,y\r)<\pi$ and so there is a unique minimal great arc joining $x$ and $y$. Any point on this arc can be written as $\lambda x+\mu y$ for some $\lambda,\mu\geq0$ and $\lambda+\mu\geq1$ (write it as either $\cos tx+\sin ty$ or $\sin tx+\cos ty$, and note that $\cos t+\sin t\geq1$ if $t\in\l[0,\pi/2\r]$). By definition, a point $z'$ lies in $\bar{B}\l(z,r\r)$ iff $\inprod{z'}{z}\geq\cos r$, so since $\lambda+\mu\geq1$, we see that
+<i>Proof (convexity).</i> Let $r<\pi/2$ and consider the closed ball $\bar{B}\l(z,r\r)$ for any $z\in S^n$. If $x,y\in\bar{B}\l(z,r\r)$, then $d\l(x,y\r)<\pi$ and so there is a unique minimal great arc joining $x$ and $y$. Any point on this arc lies in the positive cone spanned by $x$ and $y$, so it is of the form $\lambda x+\mu y$ for some $\lambda,\mu\geq0$ with $\lambda+\mu\geq\|\lambda x+\mu y\|=1$. By definition, a point $z'$ lies in $\bar{B}\l(z,r\r)$ iff $\inprod{z'}{z}\geq\cos r$, so since $\lambda+\mu\geq1$, we see that
 $$\begin{equation}
-    \inprod{\lambda x+\mu y}{z}=\lambda\inprod{x}{z}+\mu\inprod{y}{z}\geq\l(\lambda+\mu\r)r\geq\cos r\geq\cos r
+    \inprod{\lambda x+\mu y}{z}=\lambda\inprod{x}{z}+\mu\inprod{y}{z}\geq\l(\lambda+\mu\r)\cos r\geq\cos r.
 \end{equation}$$
 Thus $\lambda x+\mu y\in\bar{B}\l(z,r\r)$, as desired.<span style="float:right;">$\blacksquare$</span>
