@@ -8,7 +8,7 @@ Date Created: 23/01/2022 21:25:09
 Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
-Examples: [[Order Space (Topology)]], [[Metric Space]], [[Product Space]]
+Examples: [[Order Space (Topology)]], [[Metric Space]], [[Topological Space#^product-space]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

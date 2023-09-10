@@ -8,7 +8,7 @@ mathLink-blocks:
 Date Created: 27/09/2022 18:49:17
 Tags: #Type/Definition #Topic/Real_Analysis
 
-Types: [[Compact Space]], [[Complete Metric Space]]
+Types: [[Complete Metric Space]]
 Examples: <i>Not Applicable</i>
 Constructions: [[Uniform Continuity]], [[Lipschitz Continuity]], [[Geodesic]]
 Generalizations: <i>Not Applicable</i>
