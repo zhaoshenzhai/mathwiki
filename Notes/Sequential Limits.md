@@ -15,7 +15,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Subsequential limits are closed]]
 Sufficiencies: [[Real Numbers#^bolzano-weierstrass]]
 Equivalences: [[Convergence Criteria in R]]
-Justifications: [[Hausdorff implies limits are unique]]
+Justifications: [[Hausdorff Space#^hausdorff-implies-unique-limit]]
 
 ``` ad-Definition
 title: Definition.
