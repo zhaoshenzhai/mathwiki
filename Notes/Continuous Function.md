@@ -8,7 +8,7 @@ Examples: [[Path]]
 Constructions: [[Homotopy]], [[Lift]], [[Covering Space]], [[Mapping Cylinder]], [[Space of Continuous Functions]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Extreme Value Theorem]], [[Connected Space#^intermediate-value-theorem]], [[Inverse of continuous functions]]
+Properties: [[Compact Space#^extreme-value-theorem]], [[Connected Space#^intermediate-value-theorem]], [[Inverse of continuous functions]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Characterizations of continuity (metric)]], [[Bounded iff Lipschitz iff continuous]]
 Justifications: <i>Not Applicable</i>

@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 29/12/2022 12:34:09
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Extreme Value Theorem]]
+Proved by: [[Compact Space#^extreme-value-theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

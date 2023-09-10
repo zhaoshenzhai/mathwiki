@@ -3,7 +3,7 @@
 Date Created: 09/02/2023 10:10:17
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Extreme Value Theorem]], [[Compact Space#^compact-hausdorff-implies-closed]]
+Proved by: [[Compact Space#^extreme-value-theorem]], [[Compact Space#^compact-hausdorff-implies-closed]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

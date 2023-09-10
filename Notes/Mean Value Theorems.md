@@ -3,7 +3,7 @@
 Date Created: 29/12/2022 23:23:37
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Real Numbers#^heine-borel]], [[Extreme Value Theorem]]
+Proved by: [[Real Numbers#^heine-borel]], [[Compact Space#^extreme-value-theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

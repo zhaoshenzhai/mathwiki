@@ -4,7 +4,7 @@ Date Created: 02/09/2023 22:02:48
 Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
-Examples: [[Cantor Space]]
+Examples: [[Cantor Space]], [[Real Numbers]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

@@ -7,7 +7,7 @@ mathLink: $X$ compact $\Rightarrow$ $\CONT{\l(X\r)}$ Banach (sup norm)
 Date Created: 09/04/2023 14:41:01
 Tags: #Type/Proposition #Topic/Functional_Analysis
 
-Proved by: [[Extreme Value Theorem]]
+Proved by: [[Compact Space#^extreme-value-theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
