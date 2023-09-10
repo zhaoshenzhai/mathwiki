@@ -8,7 +8,7 @@ mathLink-blocks:
 Date Created: 14/01/2022 14:25:20
 Tags: #Type/Definition #Topic/Set_Theory
 
-Types: [[Group#^group-homomorphism]], [[Ring#^ring-homomorphism]], [[Module#^module-homomorphism]], [[Continuous Function]], [[Contractive Function]], [[Riemann Integrable Function]]
+Types: [[Group#^group-homomorphism]], [[Ring#^ring-homomorphism]], [[Module#^module-homomorphism]], [[Topological Space#^continuous-function]], [[Contractive Function]], [[Riemann Integrable Function]]
 Examples: <i>Not Applicable</i>
 Constructions: [[Image and Preimage]], [[Symmetric Group]], [[Functional Limits]]
 Generalizations: [[Category#^morphism]]

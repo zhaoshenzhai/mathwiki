@@ -1,32 +1,47 @@
+---
+mathLink-blocks:
+    continuous-function: Continuous Function
+---
+
 <div class="topSpace"></div>
 
 Date Created: 23/01/2022 19:05:00
 Tags: #Type/Definition #Topic/Topology
 
-Types: [[Metric Space]], [[Compact Space]], [[Separable Space]], [[Connected Space]]
-Examples: [[Order Space (Topology)]]
-Constructions: [[Continuous Function]], [[Closure et al]], [[Product Space]], [[Topological Subspace]], [[Sequential Limits]], [[Functional Limits]], [[Covering Space]]
-Generalizations: <i>Not Applicable</i>
+Types: [[Metric Space]], [[Compact Space]], [[Separable Space]], [[Connected Space]], [[Retraction]]
+Examples: [[Order Space (Topology)]], [[Path]]
+Constructions: [[Closure et al]], [[Sequential Limits]], [[Functional Limits]], [[Covering Space]], [[Homotopy]], [[Lift]], [[Mapping Cylinder]], [[Space of Continuous Functions]], [[Product Space]], [[Topological Subspace]]
+Generalizations: [[Homotopy Equivalence]]
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: [[Basis and Subbasis]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
+^continuous-function
 
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. A <b>topology on $X$</b> is a family $\mc{T}\subseteq\pow\l(X\r)$ containing $\em$ and $X$ and is closed under (arbitrary) unions and finite intersections.
-* The set $X$, equipped with a topology $\mc{T}$ on $X$, is called a <b>topological space</b>.
-* Elements $U\in\mc{T}$ are called <b>open sets</b>, whose complements are called <b>closed sets</b>.
+Let $X$ be a set. A <b>topology on $X$</b> is a family $\mc{T}\subseteq\pow\l(X\r)$ of <b>open sets</b> containing $\em$ and $X$ and is closed under (arbitrary) unions and finite intersections. The pair $\tpl{X,\mc{T}}$ is called a <b>topological space</b>.
+* A function $f:X\to Y$ is said to be <b>continuous</b> if preimages of open sets are open.
+* The <b>category of topological spaces</b> is the category $\cattop$ whose objects are topological spaces and whose morphisms are continuous functions.
 
 ```
+
 
 <b>Remark.</b> A sufficient criterion for a subset $U\subseteq X$ to be open is if every $x\in U$ admits an open set $U_x\ni x$ such that $U_x\subseteq U$. In this case, we see that $U=\bigcup_{x\in X}U_x$ with each $U_x$ open, so $U$ is indeed open.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<b>Remark.</b> Equivalently, we may consider a family $\mc{F}\subseteq\pow\l(X\r)$ containing $\em$ and $X$, whose elements are called <b>closed sets</b>, but is now closed under (arbitrary) intersections and finite unions instead. Every topology induces a family of closed sets and vice-versa.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Some elementary remarks about continuous functions.
+* A function is continuous iff it is continuous at each point $p\in X$; that is, every neighborhood $V$ of $f\l(p\r)$ admits a neighborhood $U$ of $p$ such that $f\l(U\r)\subseteq V$. Indeed, if $f$ is continuous, then $f^{-1}\!\l(V\r)$ is a neighborhood of $p$ with $f\l(f^{-1}\!\l(V\r)\r)\subseteq V$. Conversely, let $V$ be a neighborhood of $f\l(p\r)$, so there exists a neighborhood $U_p$ of $p$ such that $f\l(U_p\r)\subseteq V$. We claim that $f^{-1}\!\l(V\r)=\bigcup_{p\in X}U_p$, so it is open. The forward direction follows immediately since $p\in U_p$. The backwards direction is also clear, for $U_p\subseteq f^{-1}\!\l(f\l(U_p\r)\r)\subseteq f^{-1}\l(V\r)$.
+* If $f:X\to Y$ is continuous and $\tpl{x_n}$ is a sequence converging to some $x\in X$, then the sequence $\tpl{f\l(x_n\r)}$ converges to $f\l(x\r)$. Indeed, let $U\ni f\l(x\r)$ be open, so $f^{-1}\!\l(U\r)\ni x$ is open. Since $x_n\to x$, there is some $N\in\N$ such that $x_n\in f^{-1}\!\l(U\r)$ for all $n\geq N$, so $f\l(x_n\r)\in f\l(f^{-1}\!\l(U\r)\r)\subseteq U$ eventually. The converse does <i>not</i> hold in general topological spaces.
+* If $\mc{B}$ is a basis for the topology on $Y$, then it suffices to show that preimages of basic open sets are open. Indeed, every open set $V$ in $Y$ can be written as a union $V=\bigcup_{\alpha\in\mc{A}}B_\alpha$ for some basic open sets $B_\alpha\in\mc{B}$, so $f^{-1}\!\l(V\r)=f^{-1}\!\l(\bigcup_{\alpha\in\mc{A}}B_\alpha\r)=\bigcup_{\alpha\in\mc{A}}f^{-1}\!\l(B_\alpha\r)$. If furthermore $\mc{S}$ is a subbasis for the topology on $Y$, then every basic open set $B\in\mc{B}$ can be written as an intersection $B=\bigcap_{i=1}^{n}S_i$, so $f^{-1}\!\l(B\r)=\bigcap_{i=1}^{n}f^{-1}\!\l(S_i\r)$.
+* A function $f:X\to Y$ is continuous iff preimages of closed sets are closed. This is clear by noting that $f^{-1}\l(V^c\r)^c=f^{-1}\!\l(V\r)$ for all $V\subseteq Y$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> Instead of a topology $\mc{T}$ on $X$, we may equivalently consider a family $\mc{F}\subseteq\pow\l(X\r)$ containing $\em$ and $X$, whose elements are called <i>closed sets</i>, but is now closed under (arbitrary) intersections and finite unions instead. Every topology induces a family of closed sets and vice-versa.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
