@@ -3,7 +3,7 @@
 Date Created: 18/05/2023 14:50:14
 Tags: #Type/Theorem #Topic/Topology
 
-Proved by: [[Continuous functions is a sheaf]], [[Intermediate Value Theorem]]
+Proved by: [[Continuous functions is a sheaf]], [[Connected Space#^intermediate-value-theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

@@ -20,7 +20,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $A\subseteq X$ be a subset of a topological space $X$. The <b>closure</b> of $A$ is the intersection $\bar{A}$ of all closed sets containing $A$, and similarly the <b>interior</b> of $A$ is the union $A^\circ$ of all open sets contained in $A$.
+Let $A\subseteq X$ be a subset of a topological space $X$. The <b>closure</b> of $A$ is the intersection $\bar{A}$ of all closed sets in $X$ containing $A$, and similarly the <b>interior</b> of $A$ is the union $A^\circ$ of all open sets in $X$ contained in $A$.
 
 * The <b>boundary</b> of $A$ is the difference $\del A\coloneqq\bar{A}\comp A^\circ$, where $x\in\del A$ iff every neighborhood of $x$ intersects both $A$ and $A^c$.
 * A point $x\in X$ is a <b>cluster point</b> of $A$ if $x\in\bar{A\comp\l\{x\r\}}$. Denote the set of all cluster points of $A$ as $A'$.

@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 22/05/2023 14:07:01
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Connected iff only empty and entire set is clopen]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

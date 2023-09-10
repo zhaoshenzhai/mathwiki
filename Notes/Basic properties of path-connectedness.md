@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 19/05/2023 14:40:07
 Tags: #Type/Proposition #Topic/Topology/Later
 
-Proved by: [[Intermediate Value Theorem]]
+Proved by: [[Connected Space#^intermediate-value-theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
