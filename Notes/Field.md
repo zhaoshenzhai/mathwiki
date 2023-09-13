@@ -4,7 +4,7 @@ Date Created: 03/11/2022 19:11:26
 Tags: #Type/Definition #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Real Numbers]]
+Examples: [[Real Numbers]], [[Complex Numbers]]
 Constructions: [[Module#^vector-space]], [[Prime Field]]
 Generalizations: <i>Not Applicable</i>
 

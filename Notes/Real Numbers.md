@@ -1,6 +1,7 @@
 ---
 mathLink-blocks:
     rationals-dense-in-reals: $\Q$ is dense in $\R$
+    nested-intervals: Nested Intervals Theorem
     bolzano-weierstrass: Bolzano-Weierstrass Theorem
     heine-borel: Heine-Borel Theorem
 ---
@@ -13,12 +14,12 @@ Tags: #Type/Example #Topic/Real_Analysis
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: [[Complex Numbers]], [[Differentiable Function and Derivative in R]]
-Generalizations: <i>Not Applicable</i>
+Generalizations: [[Cantor's Intersection Theorem]]
 
 Properties: [[Convergence Criteria in R]], [[Mean Value Theorems]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Cantor's Intersection Theorem]], [[Compact Space#^compact-hausdorff-implies-closed]], [[Compact Space#^compact-implies-bounded]], [[Characterizations of compactness (metric space)]], [[Compact Space#^extreme-value-theorem]]
+Justifications: [[Compact Space#^compact-hausdorff-implies-closed]], [[Compact Space#^compact-implies-bounded]], [[Characterizations of compactness (metric space)]], [[Compact Space#^extreme-value-theorem]]
 
 ``` ad-Example
 title: Example.
@@ -26,31 +27,18 @@ title: Example.
 We construct the <b>real numbers</b> $\R$ as the completion of $\Q$ with the absolute value metric, giving us $\R$ as a complete metric space.
 * (Nested Intervals Theorem). If $I_1\supseteq I_2\supseteq\cdots$ is a descending chain of non-empty intervals in $\R$ such that $\diam I_n\to0$, then $\bigcap_{n>1}I_n$ is a singleton.
 * (Bolzano-Weierstrass Theorem). Every bounded sequence $\tpl{x_n}$ in $\R^d$ admits a convergent subsequence.
-* (Heine-Borel Theorem). A subset $K\subseteq\R$ is compact iff $K$ is closed and bounded.
-* (Extreme Value Theorem). Every continuous function $f:X\to\R$ on a compact set $X$ admits both global extrema.
+* (Heine-Borel Theorem). A subset $K\subseteq\R^d$ is compact iff it is closed and bounded.
+* (Linear Continuum Theorem). A subset $E\subseteq\R$ is connected iff it is an interval.
 * (Lebesgue measure). 
 
 ```
 ^rationals-dense-in-reals
 
-<i>Proof (Nested Intervals Theorem).</i> 
-
----
-
-<i>Proof (Bolzano-Weierstrass Theorem).</i> 
-
----
-
-<i>Proof (Heine-Borel Theorem).</i> 
-
----
-
-<i>Proof (Lebesgue measure).</i> 
-
-<b>Remark.</b> An alternative construction of $\R$ is using <i>Dedekind-cuts</i>, which gives $\R$ as a Dedekind-complete ordered field, and one must then show that it is metric-complete. Those two constructions are equivalent. Using Dedekind-completeness, we establish the fundamental <i>Bolzano-Weierstrass Theorem</i>, which states that every bounded sequence $\tpl{x_n}$ in $\R$ admits a convergent subsequence.
+<b>Remark.</b> Alternatively, $\R$ is characterized as the unique Dedekind-complete ordered field. Using Dedekind-completeness, we establish some fundamental theorems.
+* (<i>Nested Intervals Theorem</i>). Let $I_n\coloneqq\l[a_n,b_n\r]$ for all $n>1$ and note that $\l\{a_n\r\}$ is bounded above by any $b_n$. Thus $\alpha\coloneqq\sup a_n$ and similarly $\beta\coloneqq\sup b_n$ exist. It follows then that $\l[\alpha,\beta\r]\subseteq\bigcap_{n>1}I_n$. But $\diam I_n\to0$ forces $\alpha=\beta$, as desired.
+^nested-intervals
+* (<i>Bolzano-Weierstrass Theorem</i>). Since $\tpl{x_n}$ is bounded, it is contained in some $I_0\coloneqq\l[a,b\r]$. Split $\l[a,b\r]$ into two closed intervals of equal length and let $I_1$ be the interval in which infinitely-many $x_n\in I_1$. Continuing gives us a descending chain $I_0\supseteq I_1\supseteq\cdots$ of intervals with $\diam I_n=\l(b-a\r)/2^n$ for all $n\in\N$. By the Nested Intervals Theorem, there is some $x\in\R$ such that $\bigcap_{n\in\N}I_n=\l\{x\r\}$. We now find a subsequence $\tpl{x_{n_k}}$ of $\tpl{x_n}$ that converges to $x$. Choose $n_0\coloneqq0$ and suppose that $n_0,\dots,n_k$ are chosen. Since $\ex^\infty n\in\N:x_n\in I_{k+1}$, choose $n_{k+1}$ as any such index with $n_{k+1}>n_k$. It is clear then that $x_{n_k}\to x$, as desired.<span style="float:right;">$\blacklozenge$</span>
 ^bolzano-weierstrass
-* Choose a monotone subsequence $\tpl{x_{n_k}}$ of $\tpl{x_n}$, which we w.l.o.g. assume to be increasing. The subsequence is also bounded, so by Dedekind-completeness it admits a supremum $\alpha\coloneqq\sup_{k\in\N}x_{n_k}$. Take $\epsilon>0$, so there is some $K\in\N$ such that $x_{n_K}>\alpha-\epsilon$. Since $\tpl{x_{n_k}}$ is increasing, we see that $x_{n_k}\geq x_{n_K}>\alpha-\epsilon$ for all $k>K$, so $-\epsilon<x_{n_k}-\alpha$ for all $k>K$. Clearly $x_{n_k}-\alpha<0<\epsilon$, so $\l|x_{n_k}-\alpha\r|<\epsilon$ and hence $x_{n_k}\to\alpha$.
-* We give an alternative proof that does not rely on the existence of a monotone subsequence. Since $\tpl{x_n}$ is bounded, it is contained in some $I_0\coloneqq\l[a,b\r]$. Split $\l[a,b\r]$ into two closed intervals of equal length and let $I_1$ be the interval in which infinitely-many $x_n\in I_1$. Continuing gives us a descending chain $I_0\supset I_1\supset\cdots$ of intervals with $\diam I_n=\l(b-a\r)/2^n$ for all $n\in\N$. By Cantor’s Intersection Theorem, there is some $x\in\bigcap_{n\in\N}I_n$, and in fact $\bigcap_{n\in\N}I_n=\l\{x\r\}$. We now find a subsequence $\tpl{x_{n_k}}$ of $\tpl{x_n}$ that converges to $x$. Choose $n_0\coloneqq0$ and suppose that $n_0,\dots,n_k$ are chosen. Since $\ex^\infty n\in\N:x_n\in I_{k+1}$, choose $n_{k+1}$ as any such index with $n_{k+1}>n_k$. It is clear then that $x_{n_k}\to x$, as desired.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

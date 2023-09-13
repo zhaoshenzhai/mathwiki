@@ -29,6 +29,13 @@
       "word": true
     },
     {
+      "replaced": "Caratheodory",
+      "replacement": "Carathéodory",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
       "replaced": "'",
       "replacement": "’",
       "globalMatch": true,

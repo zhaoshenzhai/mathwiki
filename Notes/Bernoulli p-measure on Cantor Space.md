@@ -9,7 +9,7 @@ Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Cantor Space#^compact-iff-finite]]
 References: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Justifications: [[Caratheodory's Extension Theorem]]
 
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
