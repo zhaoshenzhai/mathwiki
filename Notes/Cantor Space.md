@@ -8,10 +8,10 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Bernoulli p-measure on Cantor space]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Characterizations of compactness (metric space)]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Example
 title: Example.
@@ -20,10 +20,11 @@ The <b>Cantor space</b> is the product space $2^\N$ with $2\coloneqq\l\{0,1\r\}$
 * It is completely-metrizable with metric $d\l(x,y\r)\coloneqq1/2^{\delta\l(x,y\r)}$, where $\delta\l(x,y\r)$ is the first index for which $x_n\neq y_n$.
 * It is separable with a countably dense subset $Q\coloneqq\l\{w0^\infty\st w\in 2^{<\N}\r\}$, where $0^\infty\coloneqq\tpl{0,0,\dots}$, hence Polish.
 * It is sequentially-compact, hence compact. This is essentially the Bolzano-Weierstrass Theorem.
+* For all $p\in\l(0,1\r)$, it admits the <b>Bernoulli $p$-measure</b>, defined by extending the premeasure $\widetilde{\mu}_p\l[w\r]\coloneqq p^{n_1}\l(1-p\r)^{n_0}$ for all words $w$ with $n_0$ zeros and $n_1$ ones on the algebra $\mc{A}$ of clopen sets in $2^\N$.
 
 ```
 
-<b>Remark.</b> More generally, let $A$ be a countable set of <i>alphabets</i>. With $A^\N$ defined similarly as all infinite words in $A$, the same proof shows that it is completely-metrizable and separable, hence Polish. If $A$ is finite, then it is also sequentially-compact, hence compact.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> More generally, let $A$ be a countable set of <i>alphabets</i>. With $A^\N$ defined similarly as all infinite words in $A$, the same proof shows that it is completely-metrizable and separable, hence Polish. Also, $A^\N$ is compact iff $A$ is finite.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
@@ -37,4 +38,9 @@ The <b>Cantor space</b> is the product space $2^\N$ with $2\coloneqq\l\{0,1\r\}$
 
 ---
 
-<i>Proof (compact).</i> Let $\tpl{x^n}$ be a sequence in $2^\N$. Choose $x_0\in2$ such that there are infinitely-many $x^n\in\l[\tpl{x_0}\r]$; that is, infinitely-many $x^n\in2^n$ whose first component is $x_0$. Suppose inductively that $x_0,\dots,x_k\in2$ are chosen, and choose $x_{k+1}\in2$ such that infinitely-many elements $x^n\in\l[\tpl{x_0,\dots,x_{k+1}}\r]$. Thus we obtain an element $x\coloneqq\tpl{x_0,x_1,\dots}\in2^\N$ for which the subsequence $\tpl{x^{n_k}}\subseteq\tpl{x^n}$ defined by $x^{n_k}\coloneqq\tpl{x_0,x_1,\dots,x_k,0^\infty}$ converges to.<span style="float:right;">$\blacksquare$</span>
+<i>Proof (compact).</i> Note that if $A$ is not finite, then the open cover $\l\{\l[a\r]\r\}_{a\in A}$ of $A^\N$, where $\l[a\r]$ is the cylinder whose base is the word with a single alphabet $a$, has no finite subcover. This contradicts compactness of $A^\N$.
+
+Conversely, suppose for sake of contradiction that there is an open cover $\mc{U}$ of $A^\N$ with no finite subcover. For any word $w\in A^{<\N}$, let $P\l(w\r)$ be the proposition that the cylinder $\l[w\r]$ is covered by a finite subcover of $\mc{U}$. We claim that if $\lnot P\l(w\r)$, then $\lnot P\l(wa\r)$ for some $a\in A$.
+* Indeed, suppose that $P\l(wa\r)$ for every $a\in A$, so $\l[wa\r]\subseteq\bigcup_{i<n_a}U_i$ for some $n_a\in\N$ depending on $a$. Letting $n\coloneqq\max_{a\in A}n_a$ shows us that $\l[w\r]\subseteq\bigcup_{i<n}U_i$, so $P\l(w\r)$ as desired. This depends crucially on $\l|A\r|<\infty$.
+
+Since $A^\N$ does not admit a finite subcover of $\mc{U}$, we see that $\lnot P\l(\em\r)$. Extending the base word indefinitely like $\em\to a_0\to a_0a_1\to\cdots$ gives us an element $x\in A^\N$ where each $\l.x\r|_n$ is not covered by any finite subcover of $\mc{U}$. Then $x\not\in U$ for any $U\in\mc{U}$ (lest $x\in\l[w\r]\subseteq U$ for some $w\in A^{<\N}$), so $\mc{U}$ is not an open cover of $A^\N$.<span style="float:right;">$\blacksquare$</span>
