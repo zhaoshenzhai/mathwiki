@@ -1,25 +1,28 @@
 ---
-mathLink: Bernoulli $p$-measure on $2^\N$
+mathLink: auto
 ---
 
 <div class="topSpace"></div>
 
 Date Created: 13/09/2023 17:12:59
-Tags: #Type/Proposition #Topic/Real_Analysis
+Tags: #Type/Example #Topic/Real_Analysis
 
-Proved by: [[Cantor Space#^compact-iff-finite]]
-References: <i>Not Applicable</i>
-Justifications: [[Caratheodory's Extension Theorem]]
-
-Specializations: <i>Not Applicable</i>
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-``` ad-Proposition
-title: Proposition.
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: [[Caratheodory's Extension Theorem]], [[Cantor Space#^compact-iff-finite]]
 
-For all $p\in\l(0,1\r)$, the Cantor space $2^\N$ admits a premeasure $\mu_p$ on the algebra $\mc{A}$ of clopen sets in $2^\N$, defined as follows.
+``` ad-Example
+title: Example.
+
+For all $p\in\l(0,1\r)$, the Cantor space $2^\N$ admits a premeasure $\mu_p$ on the algebra $\mc{A}$ of clopen sets in $2^\N$ as follows.
 * For all words $w\in2^{<\N}$, set $\mu_p\!\l[w\r]\coloneqq p^{\#1\l(w\r)}\l(1-p\r)^{\#0\l(w\r)}$.
-* For all $A\in\mc{A}$, partition $A=\bigcup_{i<n}\l[w_i\r]$ and set $\mu_p\!\l(A\r)\coloneqq\sum_{i<n}\mu_p\!\l[w_i\r]$.
+* For all $A\in\mc{A}$, partition $A=\bigsqcup_{i<n}\l[w_i\r]$ into cylinders and set $\mu_p\!\l(A\r)\coloneqq\sum_{i<n}\mu_p\!\l[w_i\r]$.
 
 This premeasure extends to the <b>Bernoulli $p$-measure</b> on the $\sigma$-algebra $\gen{\mc{A}}_\sigma$.
 

@@ -12,7 +12,7 @@ Tags: #Type/Example #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Bernoulli p-measure on Cantor Space]]
+Constructions: [[Bernoulli p-measure]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
