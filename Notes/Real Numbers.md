@@ -24,14 +24,28 @@ Justifications: [[Cantor's Intersection Theorem]], [[Compact Space#^compact-haus
 title: Example.
 
 We construct the <b>real numbers</b> $\R$ as the completion of $\Q$ with the absolute value metric, giving us $\R$ as a complete metric space.
-* The reals numbers is, up to an order-isomorphism, the unique Dedekind-complete ordered field.
-* The topology that the open balls generate is the order topology on $\R$, which coincides with its metric topology.
-* Since $\R$ admits $\Q$ as a dense subset, it is separable, hence Polish.
-
-All topological properties of $\R$ extend to $\R^d$.
+* (Nested Intervals Theorem). If $I_1\supseteq I_2\supseteq\cdots$ is a descending chain of non-empty intervals in $\R$ such that $\diam I_n\to0$, then $\bigcap_{n>1}I_n$ is a singleton.
+* (Bolzano-Weierstrass Theorem). Every bounded sequence $\tpl{x_n}$ in $\R^d$ admits a convergent subsequence.
+* (Heine-Borel Theorem). A subset $K\subseteq\R$ is compact iff $K$ is closed and bounded.
+* (Extreme Value Theorem). Every continuous function $f:X\to\R$ on a compact set $X$ admits both global extrema.
+* (Lebesgue measure). 
 
 ```
 ^rationals-dense-in-reals
+
+<i>Proof (Nested Intervals Theorem).</i> 
+
+---
+
+<i>Proof (Bolzano-Weierstrass Theorem).</i> 
+
+---
+
+<i>Proof (Heine-Borel Theorem).</i> 
+
+---
+
+<i>Proof (Lebesgue measure).</i> 
 
 <b>Remark.</b> An alternative construction of $\R$ is using <i>Dedekind-cuts</i>, which gives $\R$ as a Dedekind-complete ordered field, and one must then show that it is metric-complete. Those two constructions are equivalent. Using Dedekind-completeness, we establish the fundamental <i>Bolzano-Weierstrass Theorem</i>, which states that every bounded sequence $\tpl{x_n}$ in $\R$ admits a convergent subsequence.
 ^bolzano-weierstrass
