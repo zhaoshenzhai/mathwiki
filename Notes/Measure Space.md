@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 12/09/2023 20:32:39
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: [[Bernoulli p-measure]], [[Lebesgue Measure]]
@@ -33,6 +33,15 @@ Here are some basic properties of <i>finitely-additive</i> premeasures on an alg
         \mu\l(\bigsqcup_{n\in\N}A_n\r)\geq\mu\l(\bigsqcup_{n<N}A_n\r)=\sum_{n<N}\mu\l(A_n\r)\overset{N\to\infty}{\longrightarrow}\sum_{n\in\N}\mu\l(A_n\r).
     \end{equation}$$
 * (<i>Finitely subadditive</i>). For all $\l\{A_n\r\}_{n<k}\subseteq\mc{A}$, we have $\mu\l(\bigcup_{n<k}A_n\r)\leq\sum_{n<k}\mu\l(A_n\r)$. Indeed, we may <i>disjointify</i> $\l\{A_n\r\}$ into $\l\{A_n'\r\}$ by letting $A_n'\coloneqq A_n\comp\bigcup_{i<n}A_i$. Then $\bigcup_{n<k}A_n=\bigsqcup_{n<k}A_n'$, so $\mu\l(\bigcup_{n<k}A_n\r)=\mu\l(\bigsqcup_{n<k}A_n'\r)=\sum_{n<k}\mu\l(A_n'\r)\leq\sum_{n<k}\mu\l(A_n\r)$ where the last inequality holds since $A_n'\subseteq A_n$ for all $n<k$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> A related notion of a measure is that of an <i>outer measure</i>, which is defined on the entire $\pow\l(X\r)$. Indeed, for any collection $\mc{A}\subseteq\pow\l(X\r)$ containing $\em$ and covering $X$ and any function $m:\mc{A}\to\l[0,\infty\r]$, the <i>outer measure</i> induced by $m$ is the map $m^\ast:\pow\l(X\r)\to\l[0,\infty\r]$ defined by
+$$\begin{equation}
+    m^\ast\!\l(S\r)\coloneqq\inf\l\{\sum_{n\in\N}m\l(A_n\r)\st\l\{A_n\r\}_{n\in\N}\subseteq\mc{A}\textrm{ and }A\subseteq\bigcup_{n\in\N}A_n\r\}.
+\end{equation}$$
+The outer measure is clearly monotone, for if $A\subseteq B$, then every cover of $B$ is also a cover of $A$. It is also countably subadditive. Indeed, take $A_0,A_1,\ldots\in\pow\l(X\r)$ and $\epsilon>0$. For each $n\in\N$, there exists a cover $\l\{B_{n,m}\r\}_{m\in\N}\subseteq\mc{A}$ of $A_n$ such that $\sum_{m\in\N}m\l(B_{n,m}\r)\approx_{\epsilon/2^{n+1}}m^\ast\!\l(A_n\r)$. Thus $\sum_{n,m\in\N}m\l(B_{n,m}\r)\approx_\epsilon\sum_{n\in\N}m^\ast\!\l(A_n\r)$, but since $\l\{B_{n,m}\r\}_{n,m\in\N}\subseteq\mc{A}$ is a cover of $\bigcup_{n\in\N}A_n$, we see that $m^\ast\!\l(\bigcup_{n\in\N}A_n\r)\leq\sum_{n,m\in\N}m\l(B_{n,m}\r)\leq\sum_{n\in\N}m^\ast\!\l(A_n\r)+\epsilon$. The result follows since $\epsilon$ is arbitrary.
+* For a premeasure $\mu$ on an algebra $\mc{A}$, we have $\l.\mu^\ast\r|_\mc{A}=\mu$. Indeed, take $A\in\mc{A}$ and a cover $\l\{A_n\r\}_{n\in\N}\subseteq\mc{A}$ of $A$. Setting $A_n'\coloneqq A_n\cap A$, we see that $A=\bigcup_{n\in\N}A_n'$, which can be disjointified to give us $\mu\l(A\r)=\sum_{n\in\N}\mu\l(A_n'\r)\leq\sum_{n\in\N}\mu\l(A_n\r)$. Thus $\mu\l(A\r)\leq\mu^\ast\!\l(A\r)$, and the reverse inequality is trivial by noting that $A\subseteq\bigcup_{n\in\N}A_n$ with $A_0\coloneqq A$ and $A_{>0}\coloneqq\em$, so $\mu\l(A\r)=\sum_{n\in\N}\mu\l(A_n\r)\geq\mu^\ast\!\l(A\r)$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
