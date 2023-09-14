@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 13/09/2023 17:24:38
 Tags: #Type/Theorem #In_Progress
 
-Proved by: [[Characterizations of continuity (metric)]]
+Proved by: [[Characterizations of continuity (metric)]], [[Continuous Extension Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -34,7 +34,10 @@ This shows that $\mu^\ast$ is finitely-additive on the algebra $\mc{M}$. Indeed,
 $$\begin{equation}
     \mu^\ast\!\l(A\sqcup B\r)\approx_{\epsilon_n}\mu^\ast\!\l(A_n\cup B_n\r)\approx_{\epsilon_n}\mu^\ast\!\l(A_n\r)+\mu^\ast\!\l(B_n\r)\approx_{\epsilon_n}\mu^\ast\!\l(A\r)+\mu^\ast\!\l(B\r).
 \end{equation}$$
-Finally, we show that $\mc{M}$ is a $\sigma$-algebra. Let $\l\{B_n\r\}_{n\in\N}\in\mc{M}$ be disjoint and, for all $n\in\N$, let $A_n\in\mc{A}$ be such that $A_n\approx_{\epsilon/2^{n+1}}B_n$. Since $\mu^\ast$ is countably subadditive, we see that $d\l(\bigcup_{n\in\N}A_n,\bigcup_{n\in\N}B_n\r)=\mu^\ast\!\l(\bigcup_{n\in\N}\l(A_n\symdiff B_n\r)\r)\leq\sum_{n\in\N}\mu^\ast\!\l(A_n\symdiff B_n\r)=\sum_{n\in\N}d\l(A_n,B_n\r)=\epsilon$. We claim that $\bigcup_{n\in\N}A_n\in\mc{M}$, for then $\bigcup_{n\in\N}B_n\in\mc{B}$ too. Indeed, by disjointification we may assume that the collection $\l\{A_n\r\}$ is pairwise disjoint. With $A\coloneqq\bigsqcup_{n\in\N}A_n$, we have that
+We now show that $\mc{M}$ is a $\sigma$-algebra. Let $\l\{B_n\r\}_{n\in\N}\in\mc{M}$ be disjoint and, for all $n\in\N$, let $A_n\in\mc{A}$ be such that $A_n\approx_{\epsilon/2^{n+1}}B_n$. Since $\mu^\ast$ is countably subadditive, we see that $d\l(\bigcup_{n\in\N}A_n,\bigcup_{n\in\N}B_n\r)=\mu^\ast\!\l(\bigcup_{n\in\N}\l(A_n\symdiff B_n\r)\r)\leq\sum_{n\in\N}\mu^\ast\!\l(A_n\symdiff B_n\r)=\sum_{n\in\N}d\l(A_n,B_n\r)=\epsilon$. We claim that $\bigcup_{n\in\N}A_n\in\mc{M}$, for then $\bigcup_{n\in\N}B_n\in\mc{B}$ too. Indeed, by disjointification we may assume that the collection $\l\{A_n\r\}$ is pairwise disjoint. Note that $\mu^\ast\!\l(X\r)\geq\mu^\ast\!\l(\bigsqcup_{n\in\N}A_n\r)\geq\mu^\ast\!\l(\bigsqcup_{n<N}A_n\r)=\sum_{n<N}\mu^\ast\!\l(A_n\r)$ for all $N\in\N$, so $\sum_{n\in\N}\mu\l(A_n\r)$ converges. It follows then that $d\l(\bigsqcup_{n<N}A_n,\bigsqcup_{n\in\N}A_n\r)=\mu^\ast\!\l(\bigsqcup_{n\geq N}A_n\r)\leq\sum_{n\geq N}\mu^\ast\l(A_n\r)\rightarrow0$, so $\bigsqcup_{n\in\N}A_n\in\mc{M}$.
+
+Finally, we show that this extension is unique, for which it suffices to show it for finite premeasures since if $X=\bigsqcup_{n\in\N}X_n$ with each $X_n\in\mc{A}$ and $\mu\l(X_n\r)<\infty$, then $\mu=\sum_{n\in\N}\l.\mu\r|_{X_n}$. Let $\nu$ be a measure on $\gen{\mc{A}}_\sigma$ extending $\mu$. We claim that $\nu=\l.\mu^\ast\r|_{\gen{\mc{A}}_\sigma}$. Indeed, we have $\nu\leq\mu^\ast$ since if $B\in\gen{\mc{A}}_\sigma$ and $B\subseteq\bigcup_{n\in\N}A_n$ is a cover with each $A_n\in\mc{A}$, then $\nu\l(B\r)\leq\nu\l(\bigcup_{n\in\N}A_n\r)\leq\sum_{n\in\N}\nu\l(A_n\r)=\sum_{n\in\N}\mu\l(A_n\r)$. Thus $\nu\l(B\r)\leq\mu^\ast\!\l(B\r)$, as desired. Lastly, note that $\nu$ is $1$-Lipschitz since
 $$\begin{equation}
-    d\l(\bigsqcup_{n<N}A_n,A\r)=\mu^\ast\!\l(\bigsqcup_{n\geq N}A_n\r)\leq\sum_{n\geq N}\mu^\ast\l(A_n\r)\rightarrow0
+    \l|\nu\l(A\r)-\nu\l(B\r)\r|=\l|\nu\l(A\comp B\r)-\nu\l(B\comp A\r)\r|\leq\nu\l(A\comp B\r)+\nu\l(B\comp A\r)=\nu\l(A\symdiff B\r)\leq\mu^\ast\!\l(A\symdiff B\r)=d\l(A,B\r).
 \end{equation}$$
+Thus both $\nu$ and $\mu^\ast$ are continuous functions on $\gen{\mc{A}}_\sigma$ that coincide on a dense set $\mc{A}\subseteq\mc{M}$, so they coincide on $\gen{\mc{A}}_\sigma$.<span style="float:right;">$\blacksquare$</span>
