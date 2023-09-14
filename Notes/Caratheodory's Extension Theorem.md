@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 13/09/2023 17:24:38
-Tags: #Type/Theorem #In_Progress
+Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Characterizations of continuity (metric)]], [[Continuous Extension Theorem]]
 References: <i>Not Applicable</i>
