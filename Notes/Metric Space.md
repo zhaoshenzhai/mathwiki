@@ -8,9 +8,9 @@ mathLink-blocks:
 Date Created: 27/09/2022 18:49:17
 Tags: #Type/Definition #Topic/Real_Analysis
 
-Types: [[Complete Metric Space]]
+Types: [[Complete Metric Space]], [[Geodesic Space]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Uniform Continuity]], [[Lipschitz Continuity]], [[Geodesic]]
+Constructions: [[Uniform Continuity]], [[Lipschitz Continuity]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Characterizations of compactness (metric space)]], [[Characterizations of continuity (metric)]]
