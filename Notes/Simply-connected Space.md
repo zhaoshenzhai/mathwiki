@@ -4,7 +4,7 @@ Date Created: 17/05/2023 23:45:54
 Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Model Spaces]]
 Constructions: [[Universal Cover]]
 Generalizations: <i>Not Applicable</i>
 

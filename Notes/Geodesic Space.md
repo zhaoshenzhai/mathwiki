@@ -4,7 +4,7 @@ Date Created: 02/09/2023 15:50:44
 Tags: #Type/Definition #Topic/Metric_Geometry
 
 Types: <i>Not Applicable</i>
-Examples: [[Sphere]], [[Hyperbolic Space]]
+Examples: [[Model Spaces]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

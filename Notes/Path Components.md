@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a topological space. The <b>path components of $X$</b> is the partition $\pi_0\l(X\r)$ induced by the equivalence relation $x\sim y$ iff there exists a path $\gamma:x\rightsquigarrow y$.
+Let $X$ be a topological space. The <b>path components of $X$</b> is the partition $\pi_0\l(X\r)$ induced by the equivalence relation $x\sim y$ iff there exists a path $\gamma:x\pathto y$.
 
 ```
 
