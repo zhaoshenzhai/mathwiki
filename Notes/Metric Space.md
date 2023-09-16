@@ -9,7 +9,7 @@ Date Created: 27/09/2022 18:49:17
 Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Complete Metric Space]], [[Geodesic Space]]
-Examples: <i>Not Applicable</i>
+Examples: [[Isometries of model spaces]]
 Constructions: [[Uniform Continuity]], [[Lipschitz Continuity]]
 Generalizations: <i>Not Applicable</i>
 
