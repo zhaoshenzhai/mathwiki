@@ -10,3 +10,8 @@ img {
 .graph-controls {
     width: 300px;
 }
+
+.markdown-reading-view p {
+    text-align: justify;
+    text-justify: inter-word;
+}

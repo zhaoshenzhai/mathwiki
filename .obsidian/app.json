@@ -25,5 +25,7 @@
   "showInlineTitle": false,
   "foldIndent": true,
   "spellcheck": false,
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "hidden",
+  "strictLineBreaks": false,
+  "rightToLeft": false
 }

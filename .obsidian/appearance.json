@@ -4,11 +4,11 @@
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "imageMargins",
+    "lists",
     "links",
     "images",
     "fonts",
     "admonition",
-    "lists",
     "margins"
   ],
   "theme": "obsidian",
