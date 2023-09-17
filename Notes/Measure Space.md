@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    compatibility-premeasure-outer-measure: $\l.\mu^\ast\r|_\mc{A}=\mu$
+---
+
 <div class="topSpace"></div>
 
 Date Created: 12/09/2023 20:32:39
@@ -41,7 +46,7 @@ $$\begin{equation}
     m^\ast\!\l(S\r)\coloneqq\inf\l\{\sum_{n\in\N}m\l(A_n\r)\st\l\{A_n\r\}_{n\in\N}\subseteq\mc{A}\textrm{ and }A\subseteq\bigcup_{n\in\N}A_n\r\}.
 \end{equation}$$
 The outer measure is clearly monotone, for if $A\subseteq B$, then every cover of $B$ is also a cover of $A$. It is also countably subadditive. Indeed, take $A_0,A_1,\ldots\in\pow\l(X\r)$ and $\epsilon>0$. For each $n\in\N$, there exists a cover $\l\{B_{n,m}\r\}_{m\in\N}\subseteq\mc{A}$ of $A_n$ such that $\sum_{m\in\N}m\l(B_{n,m}\r)\approx_{\epsilon/2^{n+1}}m^\ast\!\l(A_n\r)$. Thus $\sum_{n,m\in\N}m\l(B_{n,m}\r)\approx_\epsilon\sum_{n\in\N}m^\ast\!\l(A_n\r)$, but since $\l\{B_{n,m}\r\}_{n,m\in\N}\subseteq\mc{A}$ is a cover of $\bigcup_{n\in\N}A_n$, we see that $m^\ast\!\l(\bigcup_{n\in\N}A_n\r)\leq\sum_{n,m\in\N}m\l(B_{n,m}\r)\leq\sum_{n\in\N}m^\ast\!\l(A_n\r)+\epsilon$. The result follows since $\epsilon$ is arbitrary.
-* For a premeasure $\mu$ on an algebra $\mc{A}$, we have $\l.\mu^\ast\r|_\mc{A}=\mu$. Indeed, take $A\in\mc{A}$ and a cover $\l\{A_n\r\}_{n\in\N}\subseteq\mc{A}$ of $A$. Setting $A_n'\coloneqq A_n\cap A$, we see that $A=\bigcup_{n\in\N}A_n'$, which can be disjointified to give us $\mu\l(A\r)=\sum_{n\in\N}\mu\l(A_n'\r)\leq\sum_{n\in\N}\mu\l(A_n\r)$. Thus $\mu\l(A\r)\leq\mu^\ast\!\l(A\r)$, and the reverse inequality is trivial by noting that $A\subseteq\bigcup_{n\in\N}A_n$ with $A_0\coloneqq A$ and $A_{>0}\coloneqq\em$, so $\mu\l(A\r)=\sum_{n\in\N}\mu\l(A_n\r)\geq\mu^\ast\!\l(A\r)$.<span style="float:right;">$\blacklozenge$</span>
+* For a premeasure $\mu$ on an algebra $\mc{A}$, we have $\l.\mu^\ast\r|_\mc{A}=\mu$. Indeed, take $A\in\mc{A}$ and a cover $\l\{A_n\r\}_{n\in\N}\subseteq\mc{A}$ of $A$. Setting $A_n'\coloneqq A_n\cap A$, we see that $A=\bigcup_{n\in\N}A_n'$, which can be disjointified to give us $\mu\l(A\r)=\sum_{n\in\N}\mu\l(A_n'\r)\leq\sum_{n\in\N}\mu\l(A_n\r)$. Thus $\mu\l(A\r)\leq\mu^\ast\!\l(A\r)$, and the reverse inequality is trivial by noting that $A\subseteq\bigcup_{n\in\N}A_n$ with $A_0\coloneqq A$ and $A_{>0}\coloneqq\em$, so $\mu\l(A\r)=\sum_{n\in\N}\mu\l(A_n\r)\geq\mu^\ast\!\l(A\r)$.<span style="float:right;">$\blacklozenge$</span> ^compatibility-premeasure-outer-measure
 
 ---
 
