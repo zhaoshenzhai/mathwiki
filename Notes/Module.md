@@ -48,7 +48,7 @@ The morphisms $\Hom_R\!\l(M,N\r)$ is an abelian group under the component-wise a
 
 <b>Remark.</b> If $k\coloneqq R$ is a field, we call $M$ a <i>$k$-vector space</i>. A <i>left $R$-action on $M$</i> is a ring homomorphism $\phi:R\to\End\l(M\r)$. This induces a function $\cdot:R\times M\to M$ by $r\cdot m\coloneqq\phi\l(r\r)\l(m\r)$, which satisfies
 $$\begin{equation}
-    r\cdot\l(m+n\r)=\l(r\cdot m\r)+\l(r\cdot n\r),\ \ \ \ \ \ \ \ \l(r+s\r)\cdot m=\l(r\cdot m\r)+\l(s\cdot m\r),\ \ \ \ \ \ \ \ \l(rs\r)\cdot m=r\cdot\l(sm\r),\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ 1\cdot m=m
+    r\cdot\l(m+n\r)=\l(r\cdot m\r)+\l(r\cdot n\r),\ \ \ \ \ \ \ \ \l(r+s\r)\cdot m=\l(r\cdot m\r)+\l(s\cdot m\r),\ \ \ \ \ \ \ \ \l(rs\r)\cdot m=r\cdot\l(s\cdot m\r),\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ 1\cdot m=m
 \end{equation}$$
 for all $m,n\in M$ and $r,s\in R$. This recovers the standard ‘left $R$-module axioms’. Given a left $R$-module, one cannot generally define a right $R$-module structure on $M$ by $m\ast r\coloneqq r\cdot m$. Indeed, compatibility between the field multiplication and the $R$-action fails:
 $$\begin{equation}
