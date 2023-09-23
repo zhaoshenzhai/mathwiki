@@ -29,7 +29,7 @@ The pair $\tpl{X,\mc{S}}$ is called a <b>measurable space</b>, and the triple $\
 ```
 
 <b>Remark.</b> Measures are often first defined on a smaller collection $\mc{A}\subseteq\pow\l(X\r)$ containing $\em$, called an <i>algebra</i> on $X$, where we require only require that it is closed under complements and <i>finite</i> unions. Those measures $\mu:\mc{A}\to\l[0,\infty\r]$ are then called <i>premeasures</i> instead. Note that countable additivity is still required for $\mu$ to be a premeasure, only that we have an additional hypothesis that $\bigsqcup_{n\in\N}A_n\in\mc{A}$ in the first place.
-* A (pre)measure is said to be <i>finite</i> if $\mu\l(X\r)<\infty$, <i>probability</i> if $\mu\l(X\r)=1$, and <i>$\sigma$-finite</i> if there is a partition $X=\bigsqcup_{n\in\N}X_n$ such that $\mu\l(X_n\r)<\infty$ for all $n\in\N$.
+* A (pre)measure is said to be <i>finite</i> if $\mu\l(X\r)<\infty$, <i>probability</i> if $\mu\l(X\r)=1$, <i>$\sigma$-finite</i> if there is a partition $X=\bigsqcup_{n\in\N}X_n$ such that $\mu\l(X_n\r)<\infty$ for all $n\in\N$, and <i>atomic</i> if every set $S\in\mc{S}$ with $\mu\l(S\r)>0$ admits an atom, i.e. a subset $A\subseteq S$ in $\mc{S}$ such that every $B\subset A$ in $\mc{S}$ has zero measure.
 
 Here are some basic properties of <i>finitely-additive</i> premeasures on an algebra $\mc{A}$.
 * (<i>Monotone</i>). For all $A,B\in\mc{A}$, if $A\subseteq B$, then $\mu\l(A\r)\leq\mu\l(B\r)$. Indeed, $\mu\l(B\r)=\mu\l(A\sqcup\l(B\comp A\r)\r)=\mu\l(A\r)+\mu\l(B\comp A\r)\geq\mu\l(A\r)$.
@@ -45,7 +45,11 @@ Here are some basic properties of <i>finitely-additive</i> premeasures on an alg
 $$\begin{equation}
     m^\ast\!\l(S\r)\coloneqq\inf\l\{\sum_{n\in\N}m\l(A_n\r)\st\l\{A_n\r\}_{n\in\N}\subseteq\mc{A}\textrm{ and }A\subseteq\bigcup_{n\in\N}A_n\r\}.
 \end{equation}$$
-The outer measure is clearly monotone, for if $A\subseteq B$, then every cover of $B$ is also a cover of $A$. It is also countably subadditive. Indeed, take $A_0,A_1,\ldots\in\pow\l(X\r)$ and $\epsilon>0$. For each $n\in\N$, there exists a cover $\l\{B_{n,m}\r\}_{m\in\N}\subseteq\mc{A}$ of $A_n$ such that $\sum_{m\in\N}m\l(B_{n,m}\r)\approx_{\epsilon/2^{n+1}}m^\ast\!\l(A_n\r)$. Thus $\sum_{n,m\in\N}m\l(B_{n,m}\r)\approx_\epsilon\sum_{n\in\N}m^\ast\!\l(A_n\r)$, but since $\l\{B_{n,m}\r\}_{n,m\in\N}\subseteq\mc{A}$ is a cover of $\bigcup_{n\in\N}A_n$, we see that $m^\ast\!\l(\bigcup_{n\in\N}A_n\r)\leq\sum_{n,m\in\N}m\l(B_{n,m}\r)\leq\sum_{n\in\N}m^\ast\!\l(A_n\r)+\epsilon$. The result follows since $\epsilon$ is arbitrary.
+The outer measure is clearly monotone, for if $A\subseteq B$, then every cover of $B$ is also a cover of $A$. It is also countably subadditive. Indeed, take $A_0,A_1,\ldots\in\pow\l(X\r)$ and $\epsilon>0$. For each $n\in\N$, there exists a cover $\l\{B_{n,m}\r\}_{m\in\N}\subseteq\mc{A}$ of $A_n$ such that $\sum_{m\in\N}m\l(B_{n,m}\r)\approx_{\epsilon/2^{n+1}}m^\ast\!\l(A_n\r)$. Thus
+$$\begin{equation}
+    \sum_{n,m\in\N}m\l(B_{n,m}\r)\approx_\epsilon\sum_{n\in\N}m^\ast\!\l(A_n\r),
+\end{equation}$$
+but since $\l\{B_{n,m}\r\}_{n,m\in\N}\subseteq\mc{A}$ is a cover of $\bigcup_{n\in\N}A_n$, we see that $m^\ast\!\l(\bigcup_{n\in\N}A_n\r)\leq\sum_{n,m\in\N}m\l(B_{n,m}\r)\leq\sum_{n\in\N}m^\ast\!\l(A_n\r)+\epsilon$.
 * For a premeasure $\mu$ on an algebra $\mc{A}$, we have $\l.\mu^\ast\r|_\mc{A}=\mu$. Indeed, take $A\in\mc{A}$ and a cover $\l\{A_n\r\}_{n\in\N}\subseteq\mc{A}$ of $A$. Setting $A_n'\coloneqq A_n\cap A$, we see that $A=\bigcup_{n\in\N}A_n'$, which can be disjointified to give us $\mu\l(A\r)=\sum_{n\in\N}\mu\l(A_n'\r)\leq\sum_{n\in\N}\mu\l(A_n\r)$. Thus $\mu\l(A\r)\leq\mu^\ast\!\l(A\r)$, and the reverse inequality is trivial by noting that $A\subseteq\bigcup_{n\in\N}A_n$ with $A_0\coloneqq A$ and $A_{>0}\coloneqq\em$, so $\mu\l(A\r)=\sum_{n\in\N}\mu\l(A_n\r)\geq\mu^\ast\!\l(A\r)$.<span style="float:right;">$\blacklozenge$</span> ^compatibility-premeasure-outer-measure
 
 ---
