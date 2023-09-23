@@ -36,7 +36,7 @@ $$\begin{equation}
 \end{equation}$$
 We now show that $\mc{M}$ is a $\sigma$-algebra. Let $\l\{B_n\r\}_{n\in\N}\in\mc{M}$ be disjoint and, for all $n\in\N$, let $A_n\in\mc{A}$ be such that $A_n\approx_{\epsilon/2^{n+1}}B_n$. Observe then that
 $$\begin{equation}
-    d\l(\bigcup_{n\in\N}A_n,\bigcup_{n\in\N}B_n\r)=\mu^\ast\!\l(\bigcup_{n\in\N}\l(A_n\symdiff B_n\r)\r)\leq\sum_{n\in\N}\mu^\ast\!\l(A_n\symdiff B_n\r)=\sum_{n\in\N}d\l(A_n,B_n\r)=\epsilon.
+    d\l(\bigcup_{n\in\N}A_n,\bigcup_{n\in\N}B_n\r)\leq\mu^\ast\!\l(\bigcup_{n\in\N}\l(A_n\symdiff B_n\r)\r)\leq\sum_{n\in\N}\mu^\ast\!\l(A_n\symdiff B_n\r)=\sum_{n\in\N}d\l(A_n,B_n\r)=\epsilon.
 \end{equation}$$
 We claim that $\bigcup_{n\in\N}A_n\in\mc{M}$, for then $\bigcup_{n\in\N}B_n\in\mc{M}$ too since $\epsilon$ is arbitrary and $\mc{M}$ is closed. Indeed, by disjointification we may assume that the collection $\l\{A_n\r\}$ is pairwise disjoint. Note that $\mu^\ast\!\l(X\r)\geq\mu^\ast\!\l(\bigsqcup_{n\in\N}A_n\r)\geq\mu^\ast\!\l(\bigsqcup_{n<N}A_n\r)=\sum_{n<N}\mu^\ast\!\l(A_n\r)$ for all $N\in\N$, so $\sum_{n\in\N}\mu\l(A_n\r)$ converges. It follows then that
 $$\begin{equation}
