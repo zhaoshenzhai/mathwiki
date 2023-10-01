@@ -4,7 +4,7 @@ Date Created: 19/05/2023 13:01:16
 Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
-Examples: [[Deformation Retraction]]
+Examples: <i>Not Applicable</i>
 Constructions: [[Fundamental Group]], [[Homotopy Equivalence]]
 Generalizations: <i>Not Applicable</i>
 
@@ -16,26 +16,18 @@ Justifications: [[Homotopy is a congruence in category of topological space]]
 ``` ad-Definition
 title: Definition.
 
-Let $f_0,f_1:X\to Y$ be continuous maps between topological spaces $X$ and $Y$. A <b>(free) homotopy from $f_0$ to $f_1$</b> is a continuous map $F:X\times I\to Y$ such that $F\l(x,0\r)=f_0\!\l(x\r)$ and $F\l(x,1\r)=f_1\!\l(x\r)$ for all $x\in X$.
-* If there exists a homotopy $F$ from $f_0$ to $f_1$, then $f_0$ and $f_1$ are said to be <b>homotopic</b> and we write $f_0\htopeq f_1$.
-* If $X=I$, then $F:I\times I\to Y$ is said to be <b>free homotopy of paths</b>.
-
-Let $S\subseteq X$ be such that $\l.f_0\r|_S=\l.f_1\r|_S$. A <b>homotopy from $f_0$ to $f_1$ rel $S$</b> is a homotopy $F:X\times I\to Y$ such that $F\l(x,t\r)=f_0\!\l(x\r)=f_1\!\l(x\r)$ for all $x\in S$ and $t\in I$.
-* If such a homotopy exists, we say that $f_0$ and $f_1$ are <b>homotopic rel $S$</b> and we write $f_0\htopeq f_1\rel S$.
-* If $S=\l\{x_0\r\}$, then, letting $y_0\coloneqq f_0\!\l(x_0\r)=f_1\!\l(x_0\r)$, the maps $f_0,f_1:\tpl{X,x_0}\to\tpl{Y,y_0}$ are pointed and we call $F'\coloneqq F\l(x_0,\slot\r)$ a <b>pointed homotopy</b>.
-* If $X=I$ and $S=\del I$, then $F:I\times I\to Y$ is said to be a <b>homotopy of paths</b>.
-
-In any case, for a continuous map $f:X\to Y$, the <b>homotopy class of $f$</b> is the equivalence class $\l[f\r]$ under $\htopeq$.
+Let $f_0,f_1:X\to Y$ be continuous maps between topological spaces $X$ and $Y$. A <b>homotopy</b> from $f_0$ to $f_1$ is a continuous map $F:X\times I\to Y$ with $F\l(\slot,0\r)=f_0$ and $F\l(\slot,1\r)=f_1$. A map $f:X\to Y$ is an <b>homotopy equivalence</b> if there is some map $g:Y\to X$ such that $f\circ g\htopeq\id_Y$ and $g\circ f\htopeq\id_X$.
+* If there exists a homotopy $F$ from $f_0$ to $f_1$, then $f_0$ and $f_1$ are said to be <b>homotopic</b> and we write $F:f_0\htopeq f_1$.
+* If there exists a homotopy equivalence $f:X\to Y$, then $X$ and $Y$ are said to be <b>homotopy equivalent</b> and we write $X\htopeq Y$.
 
 ```
 
-<b>Remark.</b> A homotopy $F:X\times I\to Y$ induces a family of functions $f_t\coloneqq F\l(\slot,t\r):X\to Y$, called a <b>deformation from $f_0$ to $f_1$</b>.
-* We also denote a homotopy $F:X\times I\to Y$ from $f_0$ to $f_1$ by $F:f_0\htopeq f_1$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A homotopy $F:X\times I\to Y$ induces a family of functions $f_t\coloneqq F\l(\slot,t\r):X\to Y$, called a <i>deformation from $f_0$ to $f_1$</i>.
+* A function $f:X\to Y$ is <i>null-homotopic</i> if there is a constant function $c$ such that $f\htopeq c$.
+* A space $X$ is <i>contractible</i> if it is homotopy equivalent to a point.
+
+A special case is when $Y\eqqcolon S\subseteq X$ and $f\eqqcolon r:X\to S$ is a <i>retraction</i>, i.e. $r^2=r$. In this case, a homotopy from $\id_X$ to $r$ is called a <i>deformation retraction</i> of $X$ into $S$. That $X\htopeq S$ is equivalent to requiring that $r\circ\iota=\id_S$ (for $r$ to be a retraction) and $\iota\circ r\htopeq\id_X$ (for $r$ to be a homotopy equivalence).<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
 <b>Remark.</b> If $\gamma_0,\gamma_1:I\to Y$ are paths, then $\gamma_0\htopeq\gamma_1$ will always mean that they are homotopic rel $\del I$. In a path-connected space, the contractibility of $I$ shows that all paths $\gamma:I\to Y$ are freely homotopic, so no confusion shall arise.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-<b>Remark.</b> A function $f:X\to Y$ is <b>null-homotopic</b> if there is a constant function $c$ such that $f\htopeq c$.<span style="float:right;">$\blacklozenge$</span>

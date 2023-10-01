@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 19/05/2023 15:21:00
-Tags: #Type/Definition #Topic/Topology
+Tags: #Type/Definition #Topic/Topology/Later
 
-Types: [[Deformation Retraction]]
+Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>

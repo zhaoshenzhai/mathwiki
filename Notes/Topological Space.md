@@ -12,7 +12,7 @@ mathLink-blocks:
 Date Created: 23/01/2022 19:05:00
 Tags: #Type/Definition #Topic/Topology
 
-Types: [[Hausdorff Space]], [[Metric Space]], [[Compact Space]], [[Separable Space]], [[Connected Space]], [[Retraction]]
+Types: [[Hausdorff Space]], [[Metric Space]], [[Compact Space]], [[Separable Space]], [[Connected Space]]
 Examples: [[Order Space (Topology)]], [[Path]]
 Constructions: [[Closure et al]], [[Sequential Limits]], [[Functional Limits]], [[Covering Space]], [[Homotopy]], [[Lift]], [[Mapping Cylinder]], [[Space of Continuous Functions]]
 Generalizations: [[Homotopy Equivalence]]
