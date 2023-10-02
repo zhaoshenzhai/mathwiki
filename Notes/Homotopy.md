@@ -24,9 +24,7 @@ For a subset $S\subseteq X$, a homotopy $F:X\times I\to Y$ is said to be <b>rela
 
 ```
 
-<b>Remark.</b> A homotopy $F:X\times I\to Y$ induces a family of functions $f_t\coloneqq F\l(\slot,t\r):X\to Y$, called a <i>deformation from $f_0$ to $f_1$</i>.
-* A function $f:X\to Y$ is <i>null-homotopic</i> if there is a constant function $c$ such that $f\htopeq c$.
-* A space $X$ is <i>contractible</i> if it is homotopy equivalent to a point.
+<b>Remark.</b> A homotopy $F:X\times I\to Y$ induces a family of <i>deformations</i> $f_t\coloneqq F\l(\slot,t\r):X\to Y$ for $t\in I$. A function $f:X\to Y$ is <i>null-homotopic</i> if there is a constant function $c$ such that $f\htopeq c$, and a space $X$ is <i>contractible</i> if it is homotopy equivalent to a point.
 
 A special case is when $Y\eqqcolon S\subseteq X$ and $f\eqqcolon r:X\to S$ is a <i>retraction</i>, i.e. $r^2=r$. In this case, a homotopy $F:\id_X\htopeq r$ is called a <i>deformation retraction</i> of $X$ into $S$. If furthermore $F:\id_X\htopeq r\rel S$, then $F$ is said to be a <i>strong</i> deformation retraction. That $X\htopeq S$ is equivalent to requiring that $r\circ\iota=\id_S$ (for $r$ to be a retraction) and $\iota\circ r\htopeq\id_X$ (for $r$ to be a homotopy equivalence).<span style="float:right;">$\blacklozenge$</span>
 
