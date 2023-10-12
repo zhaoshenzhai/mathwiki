@@ -50,9 +50,9 @@ Fix $n\geq1$ and $\kappa\in\R$. The <b>model space</b> $M^n_\kappa$ is the uniqu
         d\l(c\l(t\r),c\,(t')\r)=\arccosh\l(-\inprod{\cosh tx+\sinh tv}{\cosh t'x+\sinh t'v}\r)=\arccosh\l(-\cosh t\cosh t'\inprod{x}{x}-\sinh t\sinh t'\inprod{v}{v}\r)=\arccosh\l(\cosh\l(t-t'\r)\r)=\l|t-t'\r|,
     \end{equation}$$
     so $c:x\pathto y$ is a geodesic segment.
-    * (<i>Convexity</i>). Any ball in $\H^n$ is convex. Indeed, consider the ball $B\l(z,r\r)$ for any $z\in\H^n$ and any $r>0$. Take $x,y\in B\l(z,y\r)$ and consider the unique hyperbolic segment joining them. Any point on this hyperbolic segment lies in the positive come spanned by $x$ an $y$, so it is of the form $\lambda x+\mu y$ for some $\lambda,\mu\geq0$ with $-\lambda-\mu=\lambda\|x\|+\mu\|y\|\geq\|\lambda x+\mu y\|=-1$. By definition, a point $z'$ lies in $B\l(z,r\r)$ iff $-\inprod{z}{z'}<\cosh r$, so, since $\lambda+\mu\leq1$, we see that
+    * (<i>Convexity</i>). Any ball in $\H^n$ is convex. Indeed, consider the ball $B\l(z,r\r)$ for any $z\in\H^n$ and any $r>0$. Take $x,y\in B\l(z,y\r)$ and consider the unique hyperbolic segment joining them. Any point on this hyperbolic segment lies in the positive cone spanned by $x$ an $y$, so it is of the form $\lambda x+\mu y$ for some $\lambda,\mu\geq0$ with $-\lambda-\mu=\lambda\|x\|+\mu\|y\|\geq\|\lambda x+\mu y\|=-1$. By definition, a point $z'$ lies in $B\l(z,r\r)$ iff $-\inprod{z}{z'}<\cosh r$, so, since $\lambda+\mu\leq1$, we see that
     $$\begin{equation}
-        -\inprod{\lambda x+\mu y}{z}=-\lambda\inprod{x}{z}-\mu\inprod{y}{z}<\l(\lambda+\mu\r)\cosh r\leq\cosh
+        -\inprod{\lambda x+\mu y}{z}=-\lambda\inprod{x}{z}-\mu\inprod{y}{z}<\l(\lambda+\mu\r)\cosh r\leq\cosh r
     \end{equation}$$
     Thus $\lambda x+\mu y\in B\l(z,r\r)$, as desired.
 
