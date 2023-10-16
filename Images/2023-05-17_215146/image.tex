@@ -5,16 +5,24 @@
 
 \begin{document}
     \begin{tikzpicture}
-        \draw (0,0) grid (4,4);
-        \draw[ultra thick] (0,0) -- (2,0);
-        \draw[ultra thick] (2,0) -- (4,4);
-        \draw (2,0) circle (0) node[below=0.25cm]{\large Graph of $\phi$};
-
+        \begin{scope}
+            \draw (0,0) grid (4,4);
+            \draw[ultra thick] (0,0) -- (2,0);
+            \draw[ultra thick] (2,0) -- (4,4);
+            \draw (2,0) circle (0) node[below=0.25cm]{\Large Graph of $\phi_1$};
+        \end{scope}
         \begin{scope}[xshift=8cm]
             \draw (0,0) grid (4,4);
             \draw[ultra thick] (0,0) -- (2,4);
             \draw[ultra thick] (2,4) -- (4,4);
-            \draw (2,0) circle (0) node[below=0.25cm]{\large Graph of $\phi'$};
+            \draw (2,0) circle (0) node[below=0.25cm]{\Large Graph of $\phi_2$};
+        \end{scope}
+        \begin{scope}[xshift=16cm]
+            \draw (0,0) grid (4,4);
+            \draw[ultra thick] (0,0) -- (1,2);
+            \draw[ultra thick] (1,2) -- (2,3);
+            \draw[ultra thick] (2,3) -- (4,4);
+            \draw (2,0) circle (0) node[below=0.25cm]{\Large Graph of $\phi_3$};
         \end{scope}
     \end{tikzpicture}
 \end{document}
