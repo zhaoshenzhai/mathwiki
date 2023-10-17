@@ -1,6 +1,7 @@
 ---
 mathLink-blocks:
     fundamental-group: Fundamental Group
+    path-connected-isomorphic-fundamental-group: Path-connected $\Rightarrow$ $\pi_1\!\l(X,x_0\r)\iso\pi_1\!\l(X,x_0'\r)$
 ---
 
 <div class="topSpace"></div>
@@ -34,3 +35,4 @@ Let $X$ be a topological space. The <b>fundamental groupoid</b> of $X$ is the gr
 ---
 
 <b>Remark.</b> Two points $x,y\in X$ are in the same orbit iff there is a path $\gamma:x\pathto y$, so the orbits of $\pi_1\!\l(X\r)$ are precisely the <i>path components</i> $\pi_0\!\l(X\r)$ of $X$. Thus, if $X$ is path-connected, then $\pi_1\!\l(X,x_0\r)\iso\pi_1\!\l(X,x_0'\r)$ for any choice of basepoints $x_0,x_0'\in X$.<span style="float:right;">$\blacklozenge$</span>
+^path-connected-isomorphic-fundamental-group
