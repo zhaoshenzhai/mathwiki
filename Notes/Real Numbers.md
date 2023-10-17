@@ -39,6 +39,6 @@ We construct the <b>real numbers</b> $\R$ as the completion of $\Q$ with the abs
 
 ---
 
-<b>Remark.</b> We describe some applications of the Extreme and Intermediate Value Theorems.
+<b>Remark.</b> We derive the classical <i>Extreme/Intermediate Value Theorems</i>.
 * If $f:X\to\R$ is a continuous function on a compact space $X$, then if admits both global extrema. Indeed, by the Extreme Value Theorem, the image $f\l(X\r)$ is compact and hence closed and bounded. Being bounded, the Dedekind-completeness of $\R$ furnishes a supremum $\alpha\coloneqq\sup f\l(X\r)\in\R$. Thus for each $n\in\N^+$, there exist some $y_n\in f\l(X\r)$ such that $\alpha-1/n<y_n<\alpha$, so $y_n\to\alpha$. But $f\l(X\r)$ is closed, so it contains the limit of all converging sequences in $f\l(X\r)$. Hence $\alpha\in f\l(X\r)$, showing that $f$ admits a global maximum. Similarly, $f$ admits $\beta\coloneqq\inf f\l(X\r)$ as its global minimum.
 * If $f:X\to\R$ is a continuous function on a connected space $X$, then for any two $x,y\in X$ and any $r\in\l(f\l(x\r),f\l(y\r)\r)$, there exists some $z\in X$ such that $f\l(z\r)=r$. Indeed, the sets $A\coloneqq f\l(X\r)\cap\l(-\infty,r\r)$ and $B\coloneqq f\l(X\r)\cap\l(r,\infty\r)$ are disjoint non-empty open subsets of $f\l(X\r)$. If there is no $z\in X$ such that $f\l(z\r)=r$, then $f\l(X\r)=A\cup B$, which contradicts the Intermediate Value Theorem.<span style="float:right;">$\blacklozenge$</span>

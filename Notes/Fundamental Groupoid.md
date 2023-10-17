@@ -22,8 +22,8 @@ Justifications: [[Basic properties of homotopies of paths]], [[Independence of b
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a topological space. The <b>fundamental groupoid</b> of $X$ is the groupoid $\pi_1\!\l(X\r)$ over $X$ whose morphisms $x\to y$ are homotopy classes of paths $\gamma:x\pathto y$.
-* The <b>fundamental group</b> of $X$ at some fixed $x_0\in X$ is the isotropy group of $\pi_1\!\l(X\r)$ at $x_0$, denoted $\pi_1\!\l(X,x_0\r)$.
+Let $X$ be a topological space. The <b>fundamental groupoid</b> of $X$ is the groupoid $\Pi_1\!\l(X\r)$ over $X$ whose morphisms $x\to y$ are homotopy classes of paths $\gamma:x\pathto y$.
+* The <b>fundamental group</b> of $X$ at some fixed $x_0\in X$ is the isotropy group of $\Pi_1\!\l(X\r)$ at $x_0$, denoted $\pi_1\!\l(X,x_0\r)$.
 
 ```
 ^fundamental-group
@@ -34,5 +34,5 @@ Let $X$ be a topological space. The <b>fundamental groupoid</b> of $X$ is the gr
 
 ---
 
-<b>Remark.</b> Two points $x,y\in X$ are in the same orbit iff there is a path $\gamma:x\pathto y$, so the orbits of $\pi_1\!\l(X\r)$ are precisely the <i>path components</i> $\pi_0\!\l(X\r)$ of $X$. Thus, if $X$ is path-connected, then $\pi_1\!\l(X,x_0\r)\iso\pi_1\!\l(X,x_0'\r)$ for any choice of basepoints $x_0,x_0'\in X$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Two points $x,y\in X$ are in the same orbit iff there is a path $\gamma:x\pathto y$, so the orbits of $\Pi_1\!\l(X\r)$ are precisely the <i>path components</i> $\pi_0\!\l(X\r)$ of $X$. Thus, if $X$ is path-connected, then $\pi_1\!\l(X,x_0\r)\iso\pi_1\!\l(X,x_0'\r)$ for any choice of basepoints $x_0,x_0'\in X$. We abuse notation and write $\pi_1\!\l(X\r)$ for $\pi_1\!\l(X,x_0\r)$.<span style="float:right;">$\blacklozenge$</span>
 ^path-connected-isomorphic-fundamental-group
