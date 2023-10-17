@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: [[Simply-connected Space]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Fundamental Group]]
+Constructions: [[Fundamental Groupoid#^fundamental-group]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of path-connectedness]]
