@@ -10,7 +10,7 @@ Date Created: 04/05/2022 13:08:40
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Solvable Group]], [[Abelian Group]], [[Simple Group]], [[p-group]]
-Examples: [[Symmetric Group]], [[Fundamental Group]], [[Group of Units]]
+Examples: [[Symmetric Group]], [[Fundamental Groupoid#^fundamental-group]], [[Group of Units]]
 Constructions: [[Group Action]], [[Representation (Group)]], [[Order]], [[Abelianization]], [[Exact Sequence]], [[Automorphism Group]], [[Semidirect Product]], [[Subgroup]], [[Kernel (Group Theory)]], [[Direct Product (Group)]]
 Generalizations: <i>Not Applicable</i>
 

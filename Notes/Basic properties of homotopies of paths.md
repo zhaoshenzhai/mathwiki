@@ -3,7 +3,7 @@
 Date Created: 17/05/2023 20:28:17
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Continuous functions is a sheaf]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

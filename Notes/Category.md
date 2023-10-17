@@ -8,7 +8,7 @@ mathLink-blocks:
 Date Created: 12/03/2022 17:41:32
 Tags: #Type/Definition #Topic/Category_Theory
 
-Types: <i>Not Applicable</i>
+Types: [[Groupoid]]
 Examples: [[Function#^category-of-sets]], [[Group#^category-of-groups]], [[Module#^category-of-modules]], [[Representation (Group)#^category-of-representations]], [[Group Action#^category-of-G-sets]], [[Ring#^category-of-rings]], [[Metric Space#^category-of-metric-spaces]]
 Constructions: [[Functor]], [[Universal Objects]], [[Natural Transformation]], [[Slice Category]], [[Coslice Category]]
 Generalizations: <i>Not Applicable</i>
@@ -21,18 +21,18 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A <b>category</b> $\cat{C}$ consists a collection $\Obj\l(\cat{C}\r)$ of <b>objects</b> in $\cat{C}$ and, 
-* for any two objects $A,B\in\Obj\l(\cat{C}\r)$, a collection $\Hom_\cat{C}\!\l(A,B\r)$ of <b>morphisms</b> in $\cat{C}$,
-* for any three objects $A,B,C\in\Obj\l(\cat{C}\r)$, a <b>composition map</b> $\Hom\l(B,C\r)\times\Hom\l(A,B\r)\to\Hom\l(A,B\r)$ mapping $\tpl{g,f}\mapsto g\circ f$,
-* for any object $A$, an <b>identity</b> morphism $1_A\in\Hom\l(A,A\r)$,
+A <b>category</b> $C$ consists a collection $\Obj\l(C\r)$ of <b>objects</b> in $C$ and, 
+* for any two objects $x,y\in\Obj\l(C\r)$, a collection $C\l(x,y\r)$ of <b>morphisms</b> in $C$,
+* for any three objects $x,y,z\in\Obj\l(C\r)$, a <b>composition map</b> $C\l(y,z\r)\times C\l(x,y\r)\to C\l(x,z\r)$ mapping $\tpl{g,f}\mapsto g\circ f$,
+* for any object $x$, an <b>identity</b> morphism $1_x\in C\l(x,x\r)$,
 
-such that $h\circ\l(g\circ f\r)=\l(h\circ g\r)\circ f$ for all $A\overset{f}{\rightarrow}B\overset{g}{\rightarrow}C\overset{h}{\rightarrow}D$ and $f\circ 1_A=f=f\circ1_B$ for all $f\in\Hom\l(A,B\r)$.
+such that $h\circ\l(g\circ f\r)=\l(h\circ g\r)\circ f$ for all $x\overset{f}{\rightarrow}y\overset{g}{\rightarrow}z\overset{h}{\rightarrow}w$ and $f\circ 1_x=f=f\circ1_y$ for all $f\in C\l(x,y\r)$.
 
 ```
 ^morphism
 
-<b>Remark.</b> For all $A\in\Obj\l(\cat{C}\r)$, the identity $1_A\in\Hom\l(A,A\r)$ is unique. Indeed, if $1_A'\in\Hom\l(A,A\r)$ is another identity, then $1_A=1_A\circ1_A'=1_A'$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> For all $x\in\Obj\l(C\r)$, the identity $1_x\in C\l(x,x\r)$ is unique. Indeed, if $1_x'\in C\l(x,x\r)$ is another identity, then $1_x=1_x\circ1_x'=1_x'$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<b>Remark.</b> A morphism $f\in\Hom\l(A,B\r)$ is an <i>isomorphism</i> if there is a morphism $g\in\Hom\l(B,A\r)$ such that $g\circ f=1_A$ and $f\circ g=1_B$. Such a $g$ is said to be the <b>inverse</b> of $f$, which is unique since $g=g\circ\l(f\circ g'\r)=\l(g\circ f\r)\circ g'=g'$ if $g'$ is another inverse of $f$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A morphism $f\in C\l(x,y\r)$ is an <i>isomorphism</i> if there is a morphism $g\in C\l(y,x\r)$ such that $g\circ f=1_x$ and $f\circ g=1_y$. Such a $g$ is said to be the <i>inverse</i> of $f$, which is unique since $g=g\circ\l(f\circ g'\r)=\l(g\circ f\r)\circ g'=g'$ if $g'$ is another inverse of $f$.<span style="float:right;">$\blacklozenge$</span>

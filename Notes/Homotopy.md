@@ -5,13 +5,13 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Fundamental Group]], [[Homotopy Equivalence]]
+Constructions: [[Fundamental Groupoid]], [[Homotopy Equivalence]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of homotopies of paths]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Simply-connected iff homotopic paths]]
-Justifications: [[Homotopy is a congruence in category of topological space]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.
