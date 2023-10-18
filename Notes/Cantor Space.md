@@ -35,7 +35,7 @@ The <b>Cantor space</b> is the product space $2^\N$ with $2\coloneqq\l\{0,1\r\}$
 
 ---
 
-<i>Proof (metrizable).</i> That $d$ is positive-definite and symmetric are clear. For the triangle inequality, let $x,y,z\in 2^\N$ be distinct (for otherwise it is trivial). Set $i_0\coloneqq\min\l\{\delta\l(x,y\r),\delta\l(y,z\r)\r\}$ and observe that $x_i=y_i=z_i$ for all $i<i_0$, so $\delta\l(x,z\r)\geq i_0$. We obtain the desired result as
+<i>Proof (metrizable).</i> For the triangle inequality, let $x,y,z\in 2^\N$ be distinct (for otherwise it is trivial). Set $i_0\coloneqq\min\l\{\delta\l(x,y\r),\delta\l(y,z\r)\r\}$ and observe that $x_i=y_i=z_i$ for all $i<i_0$, so $\delta\l(x,z\r)\geq i_0$. We obtain the desired result as
 $$\begin{equation}
     d\l(x,z\r)=1/2^{\delta\l(x,z\r)}\leq1/2^{i_0}=\max\l\{d\l(x,y\r),d\l(y,z\r)\r\}.
 \end{equation}$$
@@ -53,7 +53,7 @@ $$\begin{equation}
 <i>Proof (compact).</i> Note that if $A$ is not finite, then the open cover $\l\{\l[a\r]\r\}_{a\in A}$ of $A^\N$, where $\l[a\r]$ is the cylinder whose base is the word with a single alphabet $a$, has no finite subcover. This contradicts compactness of $A^\N$.
 ^compact-iff-finite
 
-Conversely, suppose for sake of contradiction that there is an open cover $\mc{U}$ of $A^\N$ with no finite subcover. For any word $w\in A^{<\N}$, let $P\l(w\r)$ be the proposition that the cylinder $\l[w\r]$ is covered by a finite subcover of $\mc{U}$. We claim that if $\lnot P\l(w\r)$, then $\lnot P\l(wa\r)$ for some $a\in A$.
-* Indeed, suppose that $P\l(wa\r)$ for every $a\in A$, so $\l[wa\r]\subseteq\bigcup_{i<n_a}U_i$ for some $n_a\in\N$ depending on $a$. Letting $n\coloneqq\max_{a\in A}n_a$ shows us that $\l[w\r]\subseteq\bigcup_{i<n}U_i$, so $P\l(w\r)$ as desired. This depends crucially on $\l|A\r|<\infty$.
+Conversely, suppose for sake of contradiction that there is an open cover $\mc{U}$ of $A^\N$ with no finite subcover. Call a cylinder $\l[w\r]$ <i>heavy</i> if it admits no finite subcover. We claim that if $\l[w\r]$ is heavy, then $\l[wa\r]$ is heavy for some $a\in A$.
+* Indeed, suppose that $\l[wa\r]$ is light for every $a\in A$, so $\l[wa\r]\subseteq\bigcup_{i<n_a}U_i$ for some $n_a\in\N$ depending on $a$. Letting $n\coloneqq\max_{a\in A}n_a$ shows us that $\l[w\r]\subseteq\bigcup_{i<n}U_i$, so $\l[w\r]$ is light, a contradiction. Note that this depends crucially on $\l|A\r|<\infty$.
 
-Since $A^\N$ does not admit a finite subcover of $\mc{U}$, we see that $\lnot P\l(\em\r)$. Extending the base word indefinitely like $\em\to a_0\to a_0a_1\to\cdots$ gives us an element $x\in A^\N$ where each $\l.x\r|_n$ is not covered by any finite subcover of $\mc{U}$. Then $x\not\in U$ for any $U\in\mc{U}$ (lest $x\in\l[w\r]\subseteq U$ for some $w\in A^{<\N}$), so $\mc{U}$ is not an open cover of $A^\N$.<span style="float:right;">$\blacksquare$</span>
+Since $A^\N$ does not admit a finite subcover of $\mc{U}$, we see that $\l[\em\r]$ is heavy. Extending the base word indefinitely like $\em\to a_0\to a_0a_1\to\cdots$ gives us an element $x\in A^\N$ where each $\l.x\r|_n$ is not covered by any finite subcover of $\mc{U}$. Then $x\not\in U$ for any $U\in\mc{U}$ (lest $x\in\l[w\r]\subseteq U$ for some $w\in A^{<\N}$), so $\mc{U}$ is not an open cover of $A^\N$.<span style="float:right;">$\blacksquare$</span>
