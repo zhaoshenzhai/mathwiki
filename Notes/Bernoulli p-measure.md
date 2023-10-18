@@ -24,11 +24,11 @@ For all $p\in\l(0,1\r)$, the Cantor space $2^\N$ admits a premeasure $\mu_p$ on 
 * For all words $w\in2^{<\N}$, set $\mu_p\!\l[w\r]\coloneqq p^{\#1\l(w\r)}\l(1-p\r)^{\#0\l(w\r)}$.
 * For all $A\in\mc{A}$, partition $A=\bigsqcup_{i<n}\l[w_i\r]$ into cylinders and set $\mu_p\!\l(A\r)\coloneqq\sum_{i<n}\mu_p\!\l[w_i\r]$.
 
-This premeasure extends to the <b>Bernoulli $p$-measure</b> on the $\sigma$-algebra $\gen{\mc{A}}_\sigma$.
+This premeasure extends to the <b>Bernoulli $p$-measure</b> on the Borel $\sigma$-algebra $\gen{\mc{A}}_\sigma$.
 
 ```
 
-<i>Proof.</i> First, note that every $A\in\mc{A}$ is a <i>finite</i> union of cylinders; indeed, since the cylinders form a basis, we have $A=\bigcup_w\l[w\r]$ where $w$ ranges over some subset of $2^{<\N}$. But $A$ is closed too, hence compact, so we have a finite subcover $A=\bigcup_{i<n}\l[w_i\r]$. It remains to check that $\mu\l(A\r)$ is well-defined and that it is countably additive. The latter is immediate, however, since every infinite partition $A=\bigsqcup_{n\in\N}A_n$ admits a finite subcover and thus contradicting that $\l\{A_n\r\}$ are disjoint and non-empty. To show well-definition, we first show that for any finite word $w\in2^{<\N}$ and $l>0$, we have $\mu_p\!\l[w\r]=\sum_{u\in2^l}\mu_P\!\l[wu\r]$. But this follows by induction from the $l=1$ case as
+<i>Proof.</i> First, note that every $A\in\mc{A}$ is a <i>finite</i> union of cylinders; indeed, since the cylinders form a basis, we have $A=\bigcup_w\l[w\r]$ where $w$ ranges over some subset of $2^{<\N}$. But $A$ is closed too, hence compact, so we have a finite subcover $A=\bigcup_{i<n}\l[w_i\r]$. It remains to check that $\mu\l(A\r)$ is well-defined and that it is countably additive. The latter is immediate, however, since no clopen set $A\in\mc{A}$ admits an infinite partition (otherwise we would obtain a finite subcover, contradicting that $A_n\neq\em$ and are disjoint). To show well-definition, we first show that for any finite word $w\in2^{<\N}$ and $l>0$, we have $\mu_p\!\l[w\r]=\sum_{u\in2^l}\mu_P\!\l[wu\r]$. But this follows by induction from the $l=1$ case as
 $$\begin{equation}
     \sum_{u\in2}\mu_p\!\l[wu\r]=\mu_p\!\l[w0\r]+\mu_p\!\l[w1\r]=\mu_p\!\l[w\r]\l(1-p\r)+\mu_p\!\l[w\r]p=\mu_p\!\l[w\r].
 \end{equation}$$

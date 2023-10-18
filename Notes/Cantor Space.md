@@ -27,7 +27,6 @@ The <b>Cantor space</b> is the product space $2^\N$ with $2\coloneqq\l\{0,1\r\}$
 * It is completely-metrizable with metric $d\l(x,y\r)\coloneqq1/2^{\delta\l(x,y\r)}$, where $\delta\l(x,y\r)$ is the first index for which $x_n\neq y_n$.
 * It is separable with a countably dense subset $Q\coloneqq\l\{w0^\infty\st w\in 2^{<\N}\r\}$, where $0^\infty\coloneqq\tpl{0,0,\dots}$, hence Polish.
 * It is compact. This is essentially the Bolzano-Weierstrass Theorem.
-* For all $p\in\l(0,1\r)$, it admits the <b>Bernoulli $p$-measure</b> defined by extending $\mu_p\!\l[w\r]\coloneqq p^{\#1\l(w\r)}\l(1-p\r)^{\#0\l(w\r)}$ on the algebra $\mc{A}$ of clopen sets in $2^\N$.
 
 ```
 
