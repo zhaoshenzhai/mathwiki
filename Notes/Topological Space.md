@@ -31,8 +31,7 @@ Let $X$ be a set. A <b>topology on $X$</b> is a family $\mc{T}\subseteq\pow\l(X\
 
 ```
 
-<b>Remark.</b> A sufficient criterion for a subset $U\subseteq X$ to be open is if every $x\in U$ admits an open set $U_x\ni x$ such that $U_x\subseteq U$. Indeed, we have $U=\bigcup_{x\in X}U_x$.
-* A subset $A\subseteq X$ is said to be $G_\delta$ (resp. $F_\sigma$) if it is a countable intersection (resp. countable union) of open (resp. closed) sets.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A sufficient criterion for a subset $U\subseteq X$ to be open is if every $x\in U$ admits an open set $U_x\ni x$ such that $U_x\subseteq U$. Indeed, we have $U=\bigcup_{x\in X}U_x$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
