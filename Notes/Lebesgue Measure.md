@@ -20,7 +20,7 @@ For all $d\geq1$, the Euclidean space $\R^d$ admits a premeasure $\lambda$ on th
 * For a box $B\coloneqq\prod_{i=1}^dI_i$, set $\lambda\l(B\r)\coloneqq\prod_{i=1}^d\ell\l(I_i\r)$ where $\ell\l(I_i\r)$ is the length of $I_i$.
 * For all $A\in\mc{A}$, partition $A=\bigsqcup_{n<k}B_n$ into boxes and set $\lambda\l(A\r)\coloneqq\sum_{n<k}\lambda\l(B_n\r)$.
 
-This premeasure extends to the <b>Lebesgue measure</b> on the $\sigma$-algebra $\gen{\mc{A}}_\sigma$.
+This premeasure extends to the <b>Lebesgue measure</b> on the Borel $\sigma$-algebra $\gen{\mc{A}}_\sigma$.
 
 ```
 
