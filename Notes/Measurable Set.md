@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 18/10/2023 16:28:21
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Measure Space#^null-set-outer-measure]]
+Justifications: [[Measure Space#^null-set-outer-measure]], [[Caratheodory's Extension Theorem]]
 
 ``` ad-Definition
 title: Definition.
@@ -29,4 +29,14 @@ $$\begin{equation}
 
 ---
 
-<b>Remark.</b> Let $\mc{A}$
+<b>Remark.</b> Let $\mu$ be a premeasure on an algebra $\mc{A}$ on $X$. By Carathéodory, the outer measure $\mu^\ast$ restricts to a measure on the $\sigma$-algebra $\mc{B}\coloneqq\bar{\mc{A}}$, where the closure is taken in the pseudo-metric $d\l(A,B\r)\coloneqq\mu^\ast\!\l(A\symdiff B\r)$. The measure $\mu^\ast$ further restricts down to a measure on $\gen{\mc{A}}_\sigma$. We claim that in the measure space $\tpl{X,\gen{\mc{A}}_\sigma,\mu^\ast}$, the $\mu^\ast$-measurable sets $\mc{M}\coloneqq\Meas_{\mu^\ast}$ is precisely $\mc{B}$.
+* That $\mc{M}\subseteq\mc{B}$ is easy since if $M=B\cup Z$ for some $B\in\gen{\mc{A}}_\sigma$ and $\mu^\ast$-null $Z$, then there is a sequence $A_n\in\mc{A}$ such that $A_n\to B$. Note that $d\l(M,B\r)=\mu^\ast\!\l(Z\r)=0$, so, for any $\epsilon>0$, we have $d\l(M,A_n\r)\leq d\l(M,B\r)+d\l(B,A_n\r)=d\l(B,A_n\r)\leq\epsilon$ for all eventually $n\in\N$. Thus $A_n\to M$, so $M\in\mc{B}$ as desired.
+
+Conversely, take $M\in\mc{B}$, so for all $n>0$ there is some $A_n\in\mc{A}$ such that $\mu^\ast\!\l(A_n\symdiff M\r)=d\l(A_n,M\r)<1/3n$. For each $n>0$, we have a cover $\l\{A_{n,m}\r\}_{m\in\N}\subseteq\mc{A}$ of $A_n\symdiff M$ such that $\sum_{m\in\N}\mu\l(A_{n,m}\r)\leq\mu^\ast\!\l(A_n\symdiff M\r)+1/3n<2/3n$. Set $B\coloneqq\bigcup_n\l(A_n\comp\bigcup_mA_{n,m}\r)\in\gen{\mc{A}}_\sigma$ and $Z\coloneqq M\comp B$. Then $B\subseteq M$, so $M=B\cup Z$. We claim that $Z$ is $\mu^\ast$-null. Indeed, using monotonicity, countable subadditivity, and properties of complements, we have
+$$\begin{equation}
+    \begin{aligned}
+        \mu^\ast\!\l(Z\r)&=\mu^\ast\!\l(M\comp B\r)=\mu^\ast\!\l(M\comp\bigcup_n\l(A_n\comp\bigcup_mA_{n,m}\r)\r)\leq\mu^\ast\!\l(M\comp\l(A_n\comp\bigcup_mA_{n,m}\r)\r)=\mu^\ast\!\l(\l(M\comp A_n\r)\cup\l(M\cap\bigcup_mA_{n,m}\r)\r) \\
+        &\leq\mu^\ast\!\l(M\comp A_n\r)+\mu^\ast\!\l(\bigcup_mA_{n,m}\r)=\leq\mu^\ast\!\l(A_n\symdiff M\r)+\sum_m\mu^\ast\!\l(A_{n,m}\r)<\frac{1}{3n}+\frac{2}{3n}=\frac{1}{n}
+    \end{aligned}
+\end{equation}$$
+for all $n>0$, so $\mu^\ast\!\l(Z\r)=0$ as desired.<span style="float:right;">$\blacklozenge$</span>
