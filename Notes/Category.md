@@ -39,7 +39,7 @@ such that $h\circ\l(g\circ f\r)=\l(h\circ g\r)\circ f$ for all $x\overset{f}{\ri
 * If $C$ is locally small, then a morphism $f\in C\l(x,y\r)$ is an isomorphism iff for every $w\in C$, the <i>post-composition</i> $f_\ast:C\l(w,x\r)\to C\l(w,y\r)$ mapping $g\mapsto fg$ is a bijection. Dually, this occurs iff for every $z\in C$, the <i>pre-composition</i> $f^\ast:C\l(x,z\r)\to C\l(y,z\r)$ mapping $g\mapsto gf$ is a bijection.
 
 A morphism $f\in C\l(x,y\r)$ is a <i>monomorphism</i> (or is <i>monic</i>) if for any $w\in C$ and any $g,h\in C\l(w,x\r)$, $fg=fh\Rightarrow g=h$. If $C$ is locally-small, this occurs iff $f_\ast$ is an injection. Dually, $f$ is an <i>epimorphism</i> (or is <i>epic</i>) if for any $z\in C$ and any $g,h\in C\l(y,z\r)$, $gf=hf\Rightarrow g=h$; if $C$ is locally small, this occurs iff $f^\ast$ is an injection.
-* If $x\overset{s}{\to}y\overset{r}{\to}x$ are morphisms such that $rs=1_x$, then $s$ is a <i>section</i> and $r$ is a <i>retract</i>. Note that sections (resp. retracts) are always monic (resp. epic), so they are also referred to as <i>split monomorphisms</i> (resp. <i>split epimorphisms</i>).
+* If $x\overset{s}{\to}y\overset{r}{\to}x$ are morphisms such that $rs=1_x$, then $s$ is a <i>section</i> and $r$ is a <i>retract</i>. Note that sections (resp. retracts) are always monic (resp. epic), so they are also referred to as <i>split monomorphisms</i> (resp. <i>split epimorphisms</i>). It is easy to see that a monic $f:x\to y$ that is also split epic is in fact an isomorphism, and the same for epimorphisms that are also split monic.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
