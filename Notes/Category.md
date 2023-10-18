@@ -31,8 +31,16 @@ such that $h\circ\l(g\circ f\r)=\l(h\circ g\r)\circ f$ for all $x\overset{f}{\ri
 ```
 ^morphism
 
-<b>Remark.</b> For all $x\in\Obj\l(C\r)$, the identity $1_x\in C\l(x,x\r)$ is unique. Indeed, if $1_x'\in C\l(x,x\r)$ is another identity, then $1_x=1_x\circ1_x'=1_x'$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> We abuse notation and write $C$ for $\Obj\l(C\r)$ instead. There are some foundational issues with this definition (what is a ‘collection’?) but we ignore it and mostly focus on <i>locally-small</i> categories: categories in which for every $x,y\in C$, the morphisms $C\l(x,y\r)$ is a set. A more restrictive notion is to require $\Obj\l(C\r)$ to be a set, in which case we say that $C$ is <i>small</i>.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<b>Remark.</b> A morphism $f\in C\l(x,y\r)$ is an <i>isomorphism</i> if there is a morphism $g\in C\l(y,x\r)$ such that $g\circ f=1_x$ and $f\circ g=1_y$. Such a $g$ is said to be the <i>inverse</i> of $f$, which is unique since $g=g\circ\l(f\circ g'\r)=\l(g\circ f\r)\circ g'=g'$ if $g'$ is another inverse of $f$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A morphism $f\in C\l(x,y\r)$ is an <i>isomorphism</i> if there is a morphism $g\in C\l(y,x\r)$ such that $gf=1_x$ and $fg=1_y$. Such a $g$ is said to be the <i>inverse</i> of $f$, which is unique since $g=g\l(fg'\r)=\l(gf\r)g'=g'$ if $g'$ is another inverse of $f$.
+* If $C$ is locally small, then a morphism $f\in C\l(x,y\r)$ is an isomorphism iff for every $w\in C$, the <i>post-composition</i> $f_\ast:C\l(w,x\r)\to C\l(w,y\r)$ mapping $g\mapsto fg$ is a bijection. Dually, this occurs iff for every $z\in C$, the <i>pre-composition</i> $f^\ast:C\l(x,z\r)\to C\l(y,z\r)$ mapping $g\mapsto gf$ is a bijection.
+
+A morphism $f\in C\l(x,y\r)$ is a <i>monomorphism</i> (or is <i>monic</i>) if for any $w\in C$ and any $g,h\in C\l(w,x\r)$, $fg=fh\Rightarrow g=h$. If $C$ is locally-small, this occurs iff $f_\ast$ is an injection. Dually, $f$ is an <i>epimorphism</i> (or is <i>epic</i>) if for any $z\in C$ and any $g,h\in C\l(y,z\r)$, $gf=hf\Rightarrow g=h$; if $C$ is locally small, this occurs iff $f^\ast$ is an injection.
+* If $x\overset{s}{\to}y\overset{r}{\to}x$ are morphisms such that $rs=1_x$, then $s$ is a <i>section</i> and $r$ is a <i>retract</i>. Note that sections (resp. retracts) are always monic (resp. epic), so they are also referred to as <i>split monomorphisms</i> (resp. <i>split epimorphisms</i>).
+
+---
+
+<b>Remark.</b> For all $x\in C$, the identity $1_x\in C\l(x,x\r)$ is unique. Indeed, if $1_x'\in C\l(x,x\r)$ is another identity, then $1_x=1_x1_x'=1_x'$.<span style="float:right;">$\blacklozenge$</span>
