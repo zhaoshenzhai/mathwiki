@@ -11,7 +11,7 @@ Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Borel sigma-algebra]]
 Examples: <i>Not Applicable</i>
-Constructions: <i>Not Applicable</i>
+Constructions: [[Measurable Set]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
