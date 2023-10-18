@@ -1,6 +1,7 @@
 ---
 mathLink-blocks:
     compatibility-premeasure-outer-measure: $\l.\mu^\ast\r|_\mc{A}=\mu$
+    null-set-outer-measure: $\mu^\ast\!\l(Z\r)=0$ $\Rightarrow$ $Z$ is $\mu$-null
 ---
 
 <div class="topSpace"></div>
@@ -21,10 +22,10 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a set. A <b>$\sigma$-algebra</b> on $X$ is a collection $\mc{S}\subseteq\pow\l(X\r)$ containing $\em$ and is closed under complements and countable unions.
-* A <b>measure</b> on $\tpl{X,\mc{S}}$ is a map $\mu:\mc{S}\to\l[0,\infty\r]$ sending $\em\mapsto0$ and is countably additive, i.e., $\mu\l(\bigsqcup_{n\in\N}S_n\r)=\sum_{n\in\N}\mu\l(S_n\r)$ for all pairwise disjoint $S_n\in\mc{S}$.
+Let $X$ be a set. A <b>$\sigma$-algebra</b> on $X$ is a collection $\mc{B}\subseteq\pow\l(X\r)$ containing $\em$ and is closed under complements and countable unions.
+* A <b>measure</b> on $\tpl{X,\mc{B}}$ is a map $\mu:\mc{B}\to\l[0,\infty\r]$ sending $\em\mapsto0$ and is countably additive, i.e., $\mu\l(\bigsqcup_{n\in\N}S_n\r)=\sum_{n\in\N}\mu\l(S_n\r)$ for all pairwise disjoint $S_n\in\mc{B}$.
 
-The pair $\tpl{X,\mc{S}}$ is called a <b>measurable space</b>, and the triple $\tpl{X,\mc{S},\mu}$ a <b>measure space</b>.
+The pair $\tpl{X,\mc{B}}$ is called a <b>measurable space</b>, and the triple $\tpl{X,\mc{B},\mu}$ a <b>measure space</b>.
 
 ```
 
@@ -41,16 +42,19 @@ Here are some basic properties of <i>finitely-additive</i> (not necessarily coun
 
 ---
 
-<b>Remark.</b> A related notion of a measure is that of an <i>outer measure</i>, which is defined on the entire $\pow\l(X\r)$. Indeed, for any collection $\mc{A}\subseteq\pow\l(X\r)$ containing $\em$ and covering $X$ and any function $m:\mc{A}\to\l[0,\infty\r]$, the <i>outer measure</i> induced by $m$ is the map $m^\ast:\pow\l(X\r)\to\l[0,\infty\r]$ defined by
+<b>Remark.</b> A related notion of a measure is that of an <i>outer measure</i>, which is defined on the entire $\pow\l(X\r)$. Indeed, for any collection $\mc{A}\subseteq\pow\l(X\r)$ containing $\em$ and covering $X$ and any function $\mu:\mc{A}\to\l[0,\infty\r]$, the <i>outer measure</i> induced by $\mu$ is the map $\mu^\ast:\pow\l(X\r)\to\l[0,\infty\r]$ defined by
 $$\begin{equation}
-    m^\ast\!\l(S\r)\coloneqq\inf\l\{\sum_{n\in\N}m\l(A_n\r)\st\l\{A_n\r\}_{n\in\N}\subseteq\mc{A}\textrm{ and }A\subseteq\bigcup_{n\in\N}A_n\r\}.
+    \mu^\ast\!\l(S\r)\coloneqq\inf\l\{\sum_{n\in\N}\mu\l(A_n\r)\st\l\{A_n\r\}_{n\in\N}\subseteq\mc{A}\textrm{ and }A\subseteq\bigcup_{n\in\N}A_n\r\}.
 \end{equation}$$
-The outer measure is clearly monotone, for if $A\subseteq B$, then every cover of $B$ is also a cover of $A$. It is also countably subadditive. Indeed, take $A_0,A_1,\ldots\in\pow\l(X\r)$ and $\epsilon>0$. For each $n\in\N$, there exists a cover $\l\{B_{n,m}\r\}_{m\in\N}\subseteq\mc{A}$ of $A_n$ such that $\sum_{m\in\N}m\l(B_{n,m}\r)\approx_{\epsilon/2^{n+1}}m^\ast\!\l(A_n\r)$. Thus
+The outer measure is clearly monotone, for if $A\subseteq B$, then every cover of $B$ is also a cover of $A$. It is also countably subadditive. Indeed, take $A_0,A_1,\ldots\in\pow\l(X\r)$ and $\epsilon>0$. For each $n\in\N$, there exists a cover $\l\{B_{n,m}\r\}_{m\in\N}\subseteq\mc{A}$ of $A_n$ such that $\sum_{m\in\N}\mu\l(B_{n,m}\r)\approx_{\epsilon/2^{n+1}}\mu^\ast\!\l(A_n\r)$. Thus
 $$\begin{equation}
-    \sum_{n,m\in\N}m\l(B_{n,m}\r)\approx_\epsilon\sum_{n\in\N}m^\ast\!\l(A_n\r),
+    \sum_{n,m\in\N}\mu\l(B_{n,m}\r)\approx_\epsilon\sum_{n\in\N}\mu^\ast\!\l(A_n\r),
 \end{equation}$$
-but since $\l\{B_{n,m}\r\}_{n,m\in\N}\subseteq\mc{A}$ is a cover of $\bigcup_{n\in\N}A_n$, we see that $m^\ast\!\l(\bigcup_{n\in\N}A_n\r)\leq\sum_{n,m\in\N}m\l(B_{n,m}\r)\leq\sum_{n\in\N}m^\ast\!\l(A_n\r)+\epsilon$.
-* For a premeasure $\mu$ on an algebra $\mc{A}$, we have $\l.\mu^\ast\r|_\mc{A}=\mu$. Indeed, take $A\in\mc{A}$ and a cover $\l\{A_n\r\}_{n\in\N}\subseteq\mc{A}$ of $A$. Setting $A_n'\coloneqq A_n\cap A$, we see that $A=\bigcup_{n\in\N}A_n'$, which can be disjointified to give us $\mu\l(A\r)=\sum_{n\in\N}\mu\l(A_n'\r)\leq\sum_{n\in\N}\mu\l(A_n\r)$. Thus $\mu\l(A\r)\leq\mu^\ast\!\l(A\r)$, and the reverse inequality is trivial by noting that $A\subseteq\bigcup_{n\in\N}A_n$ with $A_0\coloneqq A$ and $A_{>0}\coloneqq\em$, so $\mu\l(A\r)=\sum_{n\in\N}\mu\l(A_n\r)\geq\mu^\ast\!\l(A\r)$.<span style="float:right;">$\blacklozenge$</span> ^compatibility-premeasure-outer-measure
+but since $\l\{B_{n,m}\r\}_{n,m\in\N}\subseteq\mc{A}$ is a cover of $\bigcup_{n\in\N}A_n$, we see that $\mu^\ast\!\l(\bigcup_{n\in\N}A_n\r)\leq\sum_{n,m\in\N}\mu\l(B_{n,m}\r)\leq\sum_{n\in\N}\mu^\ast\!\l(A_n\r)+\epsilon$.
+* For a premeasure $\mu$ on an algebra $\mc{A}$, we have $\l.\mu^\ast\r|_\mc{A}=\mu$. Indeed, take $A\in\mc{A}$ and a cover $\l\{A_n\r\}_{n\in\N}\subseteq\mc{A}$ of $A$. Setting $A_n'\coloneqq A_n\cap A$, we see that $A=\bigcup_{n\in\N}A_n'$, which can be disjointified to give us $\mu\l(A\r)=\sum_{n\in\N}\mu\l(A_n'\r)\leq\sum_{n\in\N}\mu\l(A_n\r)$. Thus $\mu\l(A\r)\leq\mu^\ast\!\l(A\r)$, and the reverse inequality is trivial by noting that $A\subseteq\bigcup_{n\in\N}A_n$ with $A_0\coloneqq A$ and $A_{>0}\coloneqq\em$, so $\mu\l(A\r)=\sum_{n\in\N}\mu\l(A_n\r)\geq\mu^\ast\!\l(A\r)$. ^compatibility-premeasure-outer-measure
+
+Let $\tpl{X,\mc{B},\mu}$ be a measure space. A subset $Z\subseteq X$ is said to be <i>$\mu$-null</i> if there is some $\hat{Z}\in\mc{B}$ containing $Z$ with $\mu\,(\hat{Z})=0$. Note that if $\mu^\ast\!\l(Z\r)=0$, then $Z$ is $\mu$-null.
+* Indeed, since $\mu^\ast\!\l(Z\r)=0$, for every $m>0$ there is some cover $Z\subseteq\bigcup_{n\in\N}B^m_n$ with each $B^m_n\in\mc{B}$ such that $\sum_{n\in\N}\mu\l(B^m_n\r)<1/m$. Set $\widehat{Z}\coloneqq\bigcap_{m>0}\bigcup_{n\in\N}B^m_n\in\mc{B}$. Then $\widehat{Z}\subseteq\bigcup_{n\in\N}B^m_n$ for every $m>0$, so by monotonicity and countable subadditivity we have $\mu^\ast(\widehat{Z})\leq\mu^\ast\!\l(\bigcup_{n\in\N}B^m_n\r)\leq\sum_{n\in\N}\mu^\ast\!\l(B^m_n\r)<1/m$ for every $m>0$. Thus $\mu^\ast(\widehat{Z})=0$, and since $Z\subseteq\bigcup_{n\in\N}B^m_n$ for every $m$, we see that $Z\subseteq\widehat{Z}$ too.<span style="float:right;">$\blacklozenge$</span> ^null-set-outer-measure
 
 ---
 
