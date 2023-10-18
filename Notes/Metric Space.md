@@ -40,3 +40,7 @@ A topological space $\tpl{X,\mc{T}}$ is <i>metrizable</i> if there is a metric $
 <b>Remark.</b> The <i>category of metric spaces</i> is the category $\catmet$ whose objects are metric spaces and whose morphisms are $1$-Lipschitz functions; that is, functions $f:X\to X'$ such that $d\l(f\l(x\r),f\l(y\r)\r)\leq d\l(x,y\r)$ for all $x,y\in X$. The isomorphisms in $\catmet$ are precisely the distance-preserving bijections, and the automorphisms on a metric space $X$ form the <i>isometry group</i> $\Isom\l(X\r)$.
 ^category-of-metric-spaces
 * If $f:X\to X'$ is such that $d'\l(f\l(x\r),f\l(y\r)\r)=f\l(x,y\r)$ but is not necessarily surjective, then it is said to be an <i>isometric embedding</i>. Note that such maps are automatically injective.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> Every closed set $G_\delta$ (a countable intersection of open sets) and every open set is $F_\sigma$ (a countable union of closed sets). Indeed, both follow from the fact that for any $Y\subseteq X$, its closure $\bar{Y}$ is $\bigcap_{n\geq1}B_{1/n}\!\l(Y\r)$ where $B_r\!\l(Y\r)\coloneqq\l\{x\in X\st d\l(x,Y\r)<r\r\}$.<span style="float:right;">$\blacklozenge$</span>
