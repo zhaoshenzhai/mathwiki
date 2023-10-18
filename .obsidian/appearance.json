@@ -9,7 +9,8 @@
     "images",
     "fonts",
     "admonition",
-    "margins"
+    "margins",
+    "flash"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": false,
