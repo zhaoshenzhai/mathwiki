@@ -162,6 +162,13 @@
       "word": true
     },
     {
+      "replaced": "sigma",
+      "replacement": "$\\sigma$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
       "replaced": "Infinity",
       "replacement": "$\\infty$",
       "globalMatch": true,
