@@ -2,6 +2,7 @@
 mathLink-blocks:
     compatibility-premeasure-outer-measure: $\l.\mu^\ast\r|_\mc{A}=\mu$
     null-set-outer-measure: $\mu^\ast\!\l(Z\r)=0$ $\Rightarrow$ $Z$ is $\mu$-null
+    monotone-convergence-of-sets: Monotone $\mu$-convergence of sets
 ---
 
 <div class="topSpace"></div>
@@ -14,7 +15,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Measurable Set]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Borel-Cantelli Lemmas]]
 Sufficiencies: [[Caratheodory's Extension Theorem]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
@@ -39,6 +40,14 @@ Here are some basic properties of <i>finitely-additive</i> (not necessarily coun
         \mu\l(\bigsqcup_{n\in\N}A_n\r)\geq\mu\l(\bigsqcup_{n<N}A_n\r)=\sum_{n<N}\mu\l(A_n\r)\overset{N\to\infty}{\longrightarrow}\sum_{n\in\N}\mu\l(A_n\r).
     \end{equation}$$
 * (<i>Finitely subadditive</i>). For all $\l\{A_n\r\}_{n<k}\subseteq\mc{A}$, we have $\mu\l(\bigcup_{n<k}A_n\r)\leq\sum_{n<k}\mu\l(A_n\r)$. Indeed, we may <i>disjointify</i> $\l\{A_n\r\}$ into $\l\{A_n'\r\}$ by letting $A_n'\coloneqq A_n\comp\bigcup_{i<n}A_i$. Then $\bigcup_{n<k}A_n=\bigsqcup_{n<k}A_n'$, so $\mu\l(\bigcup_{n<k}A_n\r)=\mu\l(\bigsqcup_{n<k}A_n'\r)=\sum_{n<k}\mu\l(A_n'\r)\leq\sum_{n<k}\mu\l(A_n\r)$ where the last inequality holds since $A_n'\subseteq A_n$ for all $n<k$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> Let $\tpl{X,\mc{B},\mu}$ be a measure space. If $A_n,B_n\in\mc{B}$ are respectively increasing and decreasing sequences with $\mu\l(B_0\r)<\infty$, then $\mu\l(\bigcup_nA_n\r)=\sup_n\mu\l(A_n\r)$ and $\mu\l(\bigcap_nB_n\r)=\inf_n\mu\l(B_n\r)$. Indeed, we disjointify $A_n$ by setting $A_0'\coloneqq A_0$ and $A_n'\coloneqq A_n\comp A_{n-1}$, so that ^monotone-convergence-of-sets
+$$\begin{equation}
+    \mu\l(\bigcup_kA_k\r)=\mu\l(\bigsqcup_kA_k'\r)=\sum_k\mu\l(A_k'\r)=\lim\limits_{n\to\infty}\sum_{k\leq n}\mu\l(A_k'\r)=\lim\limits_{n\to\infty}\mu\l(A_n\r)=\sup_n\mu\l(A_n\r).
+\end{equation}$$
+For the second claim, set $A_n\coloneqq B_0\comp B_n$, so $\bigcup_nA_n=B_0\comp B_\infty$ where $B_\infty\coloneqq\bigcap_nB_n$. Note that $\mu\l(\bigcup_nA_n\r)=\mu\l(B_0\comp B_\infty\r)=\mu\l(B_0\r)-\mu\l(B_\infty\r)$. But $A_n$ is an increasing sequence, so we have by the above that $\mu\l(\bigcup_nA_n\r)=\sup_n\mu\l(A_n\r)=\mu\l(B_0\r)-\inf_n\mu\l(B_n\r)$. Since $\mu\l(B_0\r)<\infty$, we may rearrange to obtain the desired result.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
