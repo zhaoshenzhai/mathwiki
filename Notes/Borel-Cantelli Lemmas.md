@@ -24,8 +24,7 @@ Let $\tpl{X,\mu}$ be a measure space and let $A_n$ be a sequence of measurable s
 $$\begin{equation}
     \mu\l(X_k\r)\geq\mu\l(X_k\cap\bigcup_{m\geq M}C_m\r)=\mu\l(\bigcup_{m\leq M}\l(X_k\cap C_m\r)\r)\overset{!}{=}\sum_{m\leq M}\mu\l(X_k\cap C_m\r)\geq\frac{M}{n},
 \end{equation}$$
-so $M\leq n\mu\l(X_k\r)$. The latter is a finite constant, so $\l|\mc{C}_{n,k}\r|<\infty$.
-* (Measure exhaustion). 
+so $M\leq n\mu\l(X_k\r)$. The latter is a finite constant, so $\l|\mc{C}_{n,k}\r|<\infty$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
