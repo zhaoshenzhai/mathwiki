@@ -10,7 +10,7 @@ mathLink-blocks:
 Date Created: 12/09/2023 20:32:39
 Tags: #Type/Definition #Topic/Real_Analysis
 
-Types: [[Borel sigma-algebra]]
+Types: [[Borel Sets#^Borel-sigma-algebra]]
 Examples: <i>Not Applicable</i>
 Constructions: [[Measurable Set]]
 Generalizations: <i>Not Applicable</i>

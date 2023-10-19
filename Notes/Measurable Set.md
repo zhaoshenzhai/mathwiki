@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Borel-Cantelli Lemmas]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Measure Space#^null-set-outer-measure]], [[Caratheodory's Extension Theorem]]
