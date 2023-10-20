@@ -17,7 +17,7 @@ Examples: [[Order Space (Topology)]], [[Path]]
 Constructions: [[Closure et al]], [[Sequential Limits]], [[Functional Limits]], [[Homotopy]], [[Covering Space]], [[Lift]], [[Mapping Cylinder]], [[Space of Continuous Functions]]
 Generalizations: [[Homotopy Equivalence]]
 
-Properties: <i>Not Applicable</i>
+Properties: [[Measurable Function#^continuous-implies-Borel]]
 Sufficiencies: [[Basis and Subbasis]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Compact Space#^extreme-value-theorem]], [[Compact Space#^compact-hausdorff-implies-closed]]

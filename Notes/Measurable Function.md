@@ -1,12 +1,13 @@
 ---
 mathLink-blocks:
     Borel-function: Borel function
+    continuous-implies-Borel: Continuous $\Rightarrow$ Borel
 ---
 
 <div class="top Space"></div>
 
 Date Created: 20/10/2023 00:36:30
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
@@ -27,5 +28,12 @@ A function $f:\tpl{X,\mc{B}}\to\tpl{Y,\mc{C}}$ between measurable spaces is said
 
 ```
 ^Borel-function
+
+<b>Remark.</b> It suffices to check that preimages in a generating set of $\mc{C}$ is in $\mc{B}$, i.e., $f$ is $\tpl{\mc{B},\mc{C}}$-measurable whenever $\mc{C}=\gen{\mc{C}_0}_\sigma$ and $f^{-1}\!\l(\mc{C}_0\r)\subseteq\mc{B}$.
+* Indeed, let $\mc{S}\coloneqq\l\{C\in\mc{C}\st f^{-1}\!\l(C\r)\in\mc{B}\r\}$. We have $\mc{C}_0\subseteq\mc{S}$ by hypothesis, and $\mc{S}$ is a $\sigma$-algebra since preimages respect complements and countable disjoint unions.
+
+Notably, all continuous maps $f:X\to Y$ are Borel.<span style="float:right;">$\blacklozenge$</span> ^continuous-implies-Borel
+
+---
 
 <b>Remark.</b> Compositions of measurable functions need not be measurable. We thus strengthen to <i>universal measurability</i> $-$ that is, $f$ is $\mu$-measurable for <i>all</i> Borel probability measures $\mu$ on $X$ $-$ and in this case compositions of universally measurable functions $f:X\to Y$ and $g:Y\to Z$ is universally measurable. Indeed, let $\mu$ be a Borel probability measure on $X$ and let $B\in\mc{B}\l(Z\r)$ be Borel. Since the push-forward measure $f_\ast\mu$ is a Borel probability measure on $Y$, we see that $g^{-1}\!\l(B\r)$ is $f_\ast\mu$-measurable. But $f_\ast\mu\l(g^{-1}\!\l(B\r)\r)=\mu\l(f^{-1}\!\l(g^{-1}\!\l(B\r)\r)\r)=\mu\big(\l(g\circ f\r)^{-1}\!\l(B\r)\big)$, so $\l(g\circ f\r)^{-1}\!\l(B\r)$ is $\mu$-measurable as desired.<span style="float:right;">$\blacklozenge$</span>
