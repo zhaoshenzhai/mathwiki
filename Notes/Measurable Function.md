@@ -29,10 +29,8 @@ A function $f:\tpl{X,\mc{B}}\to\tpl{Y,\mc{C}}$ between measurable spaces is said
 ```
 ^Borel-function
 
-<b>Remark.</b> It suffices to check that preimages in a generating set of $\mc{C}$ is in $\mc{B}$, i.e., $f$ is $\tpl{\mc{B},\mc{C}}$-measurable whenever $\mc{C}=\gen{\mc{C}_0}_\sigma$ and $f^{-1}\!\l(\mc{C}_0\r)\subseteq\mc{B}$.
-* Indeed, let $\mc{S}\coloneqq\l\{C\in\mc{C}\st f^{-1}\!\l(C\r)\in\mc{B}\r\}$. We have $\mc{C}_0\subseteq\mc{S}$ by hypothesis, and $\mc{S}$ is a $\sigma$-algebra since preimages respect complements and countable disjoint unions.
-
-Notably, all continuous maps $f:X\to Y$ are Borel.<span style="float:right;">$\blacklozenge$</span> ^continuous-implies-Borel
+<b>Remark.</b> Note that $f$ is $\tpl{\mc{B},\mc{C}}$-measurable whenever $\mc{C}=\gen{\mc{C}_0}_\sigma$ and $f^{-1}\!\l(\mc{C}_0\r)\subseteq\mc{B}$. Notably, all continuous maps $f:X\to Y$ are Borel. ^continuous-implies-Borel
+* Indeed, let $\mc{S}\coloneqq\l\{C\in\mc{C}\st f^{-1}\!\l(C\r)\in\mc{B}\r\}$. We have $\mc{C}_0\subseteq\mc{S}$ by hypothesis, and $\mc{S}$ is a $\sigma$-algebra since preimages respect complements and countable disjoint unions.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
