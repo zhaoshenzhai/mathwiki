@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: <i>Not Applicable</i>
+Constructions: [[Measurable Function]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

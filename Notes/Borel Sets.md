@@ -10,7 +10,7 @@ Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: [[Bernoulli p-measure]], [[Lebesgue Measure]]
-Constructions: <i>Not Applicable</i>
+Constructions: [[Measurable Function#^Borel-function]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Regularity and Tightness]]
