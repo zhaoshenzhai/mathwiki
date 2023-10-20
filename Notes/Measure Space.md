@@ -2,7 +2,7 @@
 mathLink-blocks:
     compatibility-premeasure-outer-measure: $\l.\mu^\ast\r|_\mc{A}=\mu$
     null-set-outer-measure: $\mu^\ast\!\l(Z\r)=0$ $\Rightarrow$ $Z$ is $\mu$-null
-    monotone-convergence-of-sets: Monotone $\mu$-convergence of sets
+    monotone-convergence-of-sets: Monotone convergence of sets
 ---
 
 <div class="topSpace"></div>

@@ -1,6 +1,7 @@
 ---
 mathLink-blocks:
     category-of-metric-spaces: $\catmet$
+    closed-G-delta-open-F-sigma: Open/closed are $F_\sigma$/$G_\delta$ (metric space)
 ---
 
 <div class="topSpace"></div>
@@ -43,4 +44,4 @@ A topological space $\tpl{X,\mc{T}}$ is <i>metrizable</i> if there is a metric $
 
 ---
 
-<b>Remark.</b> Every closed set $G_\delta$ (a countable intersection of open sets) and every open set is $F_\sigma$ (a countable union of closed sets). Indeed, both follow from the fact that for any $Y\subseteq X$, its closure $\bar{Y}$ is $\bigcap_{n\geq1}B_{1/n}\!\l(Y\r)$ where $B_r\!\l(Y\r)\coloneqq\l\{x\in X\st d\l(x,Y\r)<r\r\}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Every closed set $G_\delta$ (a countable intersection of open sets) and every open set is $F_\sigma$ (a countable union of closed sets). Indeed, both follow from the fact that for any $Y\subseteq X$, its closure $\bar{Y}$ is $\bigcap_{n\geq1}B_{1/n}\!\l(Y\r)$ where $B_r\!\l(Y\r)\coloneqq\l\{x\in X\st d\l(x,Y\r)<r\r\}$.<span style="float:right;">$\blacklozenge$</span> ^closed-G-delta-open-F-sigma

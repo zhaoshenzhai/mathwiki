@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 18/10/2023 20:03:11
-Tags: #Type/Theorem #In_Progress
+Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Measure Space#^monotone-convergence-of-sets]]
 References: <i>Not Applicable</i>

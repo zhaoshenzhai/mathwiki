@@ -5,7 +5,7 @@ mathLink: Basic properties of $\pi_1$
 <div class="topSpace"></div>
 
 Date Created: 21/05/2023 11:31:25
-Tags: #Type/Proposition #Topic/Topology
+Tags: #Type/Proposition #In_Progress
 
 Proved by: [[Basic properties of homotopies of paths]]
 References: <i>Not Applicable</i>
