@@ -15,10 +15,11 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Pointwise-limits of measurable functions are measurable]]
+Properties: [[Pointwise-limits of measurable functions are measurable]], [[Luzin's Theorem]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
+^Borel-function
 
 ``` ad-Definition
 title: Definition.
@@ -30,8 +31,6 @@ A function $f:\tpl{X,\mc{B}}\to\tpl{Y,\mc{C}}$ between measurable spaces is said
 If $f:X\to Y$ is $\tpl{\mc{B},\mc{C}}$-measurable and $\tpl{X,\mc{B},\mu}$ is a measure space, then the <b>push-forward</b> measure on $\tpl{Y,\mc{C}}$ is the measure $f_\ast\mu\l(C\r)\coloneqq\mu\l(f^{-1}\!\l(C\r)\r)$.
 
 ```
-^Borel-function
-
 ^push-forward-measure
 
 <b>Remark.</b> Note that $f$ is $\tpl{\mc{B},\mc{C}}$-measurable whenever $\mc{C}=\gen{\mc{C}_0}_\sigma$ and $f^{-1}\!\l(\mc{C}_0\r)\subseteq\mc{B}$. Notably, all continuous maps $f:X\to Y$ are Borel. ^continuous-implies-Borel

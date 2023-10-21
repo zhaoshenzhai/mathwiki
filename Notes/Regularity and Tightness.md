@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    regular-tight-measures: Regular/Tight Measure
+---
+
 <div class="topSpace"></div>
 
 Date Created: 18/10/2023 22:54:23
@@ -21,6 +26,7 @@ In particular, a set $A\subseteq X$ is $\mu$-measurable iff $A$ is $\mu$-almost 
 * Furthermore, if $\tpl{X,d}$ is Polish, then $\mu\l(A\r)=\sup\l\{\mu\l(K\r)\st K\subseteq A\textrm{ \it{compact}}\r\}$.
 
 ```
+^regular-tight-measures
 
 <b>Remark.</b> The two equalities in $\ref{\ast}$ are respectively called <i>outer regularity</i> and <i>inner regularity</i>. Since $\mu$ is finite, they also imply <i>strong-regularity</i>, i.e.
 $$\begin{equation}

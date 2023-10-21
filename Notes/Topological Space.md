@@ -18,7 +18,7 @@ Constructions: [[Closure et al]], [[Sequential Limits]], [[Functional Limits]], 
 Generalizations: [[Homotopy Equivalence]]
 
 Properties: [[Measurable Function#^continuous-implies-Borel]]
-Sufficiencies: [[Basis and Subbasis]]
+Sufficiencies: [[Basis and Subbasis]], [[Luzin's Theorem]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Compact Space#^extreme-value-theorem]], [[Compact Space#^compact-hausdorff-implies-closed]]
 

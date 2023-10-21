@@ -10,7 +10,7 @@ mathLink-blocks:
 Date Created: 12/09/2023 20:32:39
 Tags: #Type/Definition #Topic/Real_Analysis
 
-Types: [[Borel Sets#^Borel-sigma-algebra]]
+Types: [[Borel Sets#^Borel-sigma-algebra]], [[Regularity and Tightness#^regular-tight-measures]]
 Examples: <i>Not Applicable</i>
 Constructions: [[Measurable Set]], [[Measurable Function]], [[Measurable Function#^push-forward-measure]]
 Generalizations: <i>Not Applicable</i>
