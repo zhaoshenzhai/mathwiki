@@ -12,7 +12,7 @@ Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Borel Sets#^Borel-sigma-algebra]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Measurable Set]], [[Measurable Function]]
+Constructions: [[Measurable Set]], [[Measurable Function]], [[Measurable Function#^push-forward-measure]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Borel-Cantelli Lemmas]]
