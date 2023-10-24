@@ -9,7 +9,7 @@ Date Created: 17/10/2023 21:19:13
 Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
-Examples: [[Bernoulli p-measure]], [[Lebesgue Measure]]
+Examples: [[Bernoulli p-measure]], [[Lebesgue-Stieltjes Measure]]
 Constructions: [[Measurable Function#^Borel-function]]
 Generalizations: <i>Not Applicable</i>
 

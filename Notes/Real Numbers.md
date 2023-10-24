@@ -13,13 +13,13 @@ Tags: #Type/Example #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Lebesgue Measure]], [[Complex Numbers]], [[Differentiable Function and Derivative in R]], [[Model Spaces]]
+Constructions: [[Lebesgue-Stieltjes Measure]], [[Complex Numbers]], [[Differentiable Function and Derivative in R]], [[Model Spaces]]
 Generalizations: [[Cantor's Intersection Theorem]]
 
 Properties: [[Convergence Criteria in R]], [[Mean Value Theorems]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Compact Space#^compact-hausdorff-implies-closed]], [[Compact Space#^compact-implies-bounded]], [[Characterizations of compactness (metric space)]], [[Compact Space#^extreme-value-theorem]], [[Connected Space#^intermediate-value-theorem]]
+Justifications: [[Compact Space#^compact-hausdorff-implies-closed]], [[Compact Space#^compact-implies-bounded]], [[Compactness in metric spaces]], [[Compact Space#^extreme-value-theorem]], [[Connected Space#^intermediate-value-theorem]]
 
 ``` ad-Example
 title: Example.

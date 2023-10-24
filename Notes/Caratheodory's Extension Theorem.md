@@ -17,7 +17,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Carathéodory’s Extension Theorem).
 
-Let $\tpl{X,\mc{A}}$ be a measurable space. Every $\sigma$-finite premeasure $\mu$ on $\mc{A}$ admits a unique extension to a measure on $\gen{\mc{A}}_\sigma$.
+Let $\mc{A}$ be an algebra on a set $X$. Every $\sigma$-finite premeasure $\mu$ on $\mc{A}$ admits a unique extension to a measure on $\gen{\mc{A}}_\sigma$.
 
 ```
 

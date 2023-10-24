@@ -8,7 +8,7 @@ mathLink-blocks:
 Date Created: 18/10/2023 22:54:23
 Tags: #Type/Proposition #Topic/Real_Analysis
 
-Proved by: [[Metric Space#^closed-G-delta-open-F-sigma]], [[Measure Space#^monotone-convergence-of-sets]], [[Separable Space#^separability-is-hereditary]], [[Characterizations of compactness (metric space)]]
+Proved by: [[Metric Space#^closed-G-delta-open-F-sigma]], [[Measure Space#^monotone-convergence-of-sets]], [[Separable Space#^separability-is-hereditary]], [[Compactness in metric spaces]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

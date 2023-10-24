@@ -14,7 +14,7 @@ Examples: [[Isometries of model spaces]]
 Constructions: [[Uniform Continuity]], [[Lipschitz Continuity]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Characterizations of compactness (metric space)]], [[Characterizations of continuity (metric)]]
+Properties: [[Compactness in metric spaces]], [[Characterizations of continuity (metric)]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
