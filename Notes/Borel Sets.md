@@ -16,7 +16,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Regularity and Tightness]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Justifications: [[Measurable Function#^continuous-implies-Borel]]
 
 ``` ad-Definition
 title: Definition.
