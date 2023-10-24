@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 18/05/2023 14:50:14
-Tags: #Type/Theorem #Topic/Topology
+Tags: #Type/Theorem #In_Progress
 
 Proved by: [[Connected Space#^intermediate-value-theorem]]
 References: <i>Not Applicable</i>
@@ -13,10 +13,14 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Covering Homotopy Theorem).
 
-Let $X$ be a topological space. Then every covering map $p:\widetilde{X}\to X$ is a fibration. More specifically, for any topological space $Y$, any homotopy $F:Y\times I\to X$, and any continuous map $\widetilde{f}_0:Y\times\l\{0\r\}\to\widetilde{X}$ lifting $f_0\coloneqq\l.F\r|_{Y\times\l\{0\r\}}$, there exists a unique homotopy $\widetilde{F}:Y\times I\to\widetilde{X}$ lifting $F$ such that $\widetilde{f}_0=\l.\widetilde{F}\r|_{Y\times\l\{0\r\}}$.
-![[Images/2023-05-22_132245/image.svg|150]]
+Every covering map $p:\widetilde{X}\to X$ is a fibration with unique lifting. More specifically, for every space $Y$, every homotopy $F:Y\times I\to X$, and every lift $\widetilde{f}_0:Y\to\widetilde{X}$ of $F\l(\slot,0\r)$, there exists a unique lift $\widetilde{F}:Y\times I\to\widetilde{X}$ of $F$ such that $\widetilde{f}_0=\widetilde{F}\l(\slot,0\r)$.
+![[Images/2023-05-22_132245/image.svg|140]]
 
 ```
+
+<i>Proof.</i> Let $Y$ be a ${\color{red}{\textrm{locally-connected}}}$ topological space and let $F:Y\times I\to X$ be a homotopy.
+
+---
 
 <i>Proof.</i> Since $p$ is a covering map, there exists an open cover $\l\{U_\alpha\r\}$ of $X$, each evenly-covered by $\{\widetilde{U}_{\alpha\beta}\}$. Fix $y_0\in Y$. For each $\tpl{y_0,t_i}\in Y\times I$, let $U_i\subseteq X$ be an open set containing $F\l(y_0,t_i\r)$. Continuity of $F$ then furnishes an open set $N_i\times\l(a_i,b_i\r)\ni\tpl{y_0,t_i}$ such that $F\l(N_i\times\l(a_i,b_i\r)\r)\subseteq U_i\subseteq X$. The collection $\l\{N_i\times\l(a_i,b_i\r)\r\}$ covers $\l\{y_0\r\}\times I$, so by compactness one obtains an open set $N\coloneqq\bigcap N_i$ containing $y_0$ and a partition $0=t_0<t_1<\cdots<t_n=1$ of $I$ such that each $F\l(N\times\l[t_i,t_{i+1}\r]\r)\subseteq U_i$ is evenly-covered. We define $\widetilde{F}:N\times\l[0,t_i\r]\to\widetilde{X}$ by induction on $i$; for $i=0$, we let $\widetilde{F}\coloneqq\widetilde{f}_0$ so that $\widetilde{F}$ restricts to $\widetilde{f}_0$ on $N\times\l\{0\r\}$.
 
