@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    Fatous-lemma: Fatou’s Lemma
+---
+
 <div class="topSpace"></div>
 
 Date Created: 24/10/2023 21:06:35
@@ -13,10 +18,11 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Monotone Convergence Theorem).
 
-Let $\tpl{X,\mu}$ be a measure space and $f_n,f\in L^+$. If $f_n\incto f$, then $\int f_n\d\mu\incto\int f\d\mu$ and $f_n\to_{L^1}\!f$.
+Let $\tpl{X,\mu}$ be a measure space and $f_n,f\in L^+$. If $f_n\incto f$, then $\int f_n\d\mu\incto\int f\d\mu$ and in fact $f_n\to_{L^1}\!f$.
 * (Fatou’s Lemma). For any $f_n\in L^+$ we have $\int\liminf_nf_n\d\mu\leq\liminf_n\int f_n\d\mu$.
 
 ```
+^Fatous-lemma
 
 <b>Remark.</b> Since every $f\in L^1$ admits a sequence of simple functions $s_n\incto f$, this allows us to calculate $\int f\d\mu$ as $\lim_n\int s_n\d\mu$.<span style="float:right;">$\blacklozenge$</span>
 
