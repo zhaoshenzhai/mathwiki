@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 24/10/2023 20:56:15
-Tags: #Type/Proposition #In_Progress
+Tags: #Type/Proposition #Topic/Real_Analysis
 
-Proved by: [[Convergence Theorems]]
+Proved by: [[Monotone Convergence Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
