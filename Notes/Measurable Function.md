@@ -15,7 +15,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Pointwise-limits of measurable functions are measurable]], [[Luzin's Theorem]]
+Properties: [[Pointwise-limits of measurable functions are measurable]], [[Luzin's Theorem]], [[An epsilon-trade for an easy life]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
