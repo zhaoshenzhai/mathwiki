@@ -14,7 +14,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]]
+Properties: [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]], [[Chebyshev's Inequality]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Basic properties of integration]]
