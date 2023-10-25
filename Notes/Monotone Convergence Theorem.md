@@ -3,7 +3,7 @@
 Date Created: 24/10/2023 21:06:35
 Tags: #Type/Theorem #In_Progress
 
-Proved by: <i>Not Applicable</i>
+Proved by: [[Measure Space#^monotone-convergence-of-sets]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -13,10 +13,22 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Monotone Convergence Theorem).
 
-Let $\tpl{X,\mu}$ be a measure space and $f_n,f\in L^+$. If $f_n\incto f$, then $\int f_n\d\mu\to\int f\d\mu$. Furthermore, there is a sequence $s_n$ of simple functions such that $s_n\incto f$.
+Let $\tpl{X,\mu}$ be a measure space and $f_n,f\in L^+$. If $f_n\incto f$, then $\int f_n\d\mu\incto\int f\d\mu$ and $f_n\to_{L^1}\!f$.
 * (Fatou’s Lemma). For any $f_n\in L^+$ we have $\int\liminf_nf_n\d\mu\leq\liminf_n\int f_n\d\mu$.
-* (Dominated Convergence Theorem). Let $f_n\in L^1$ and suppose that $f_n\to f$ a.e. If there is some $g\in L^1$ such that $\l|f_n\r|\leq g$ for all $n$, then $\int f_n\d\mu\to\int f\d\mu$.
 
 ```
 
-<i>Proof.</i> Note that $\int f_n\d\mu\leq\int f\d\mu$ for all $n$ and hence $\lim_n\int f_n\d\mu\leq\int f\d\mu$. Conversely, we fix a simple function $s$ and show that $\lim_n\int f_n\d\mu\geq\int s\d\mu$, from which the result follows. Indeed, it suffices to show that $\lim_n\int f_n\d\mu\geq\l(1-\epsilon\r)\int s\d\mu=\int\l(1-\epsilon\r)s\d\mu$ for all $\epsilon>0$. To this end, let $X_n\coloneqq\l\{x\in X\st f_n\!\l(x\r)\geq\l(1-\epsilon\r)s\r\}$ for each $n$, so $X=\bigcup_nX_n$ and thus
+<b>Remark.</b> Note that Fatou’s Lemma can be used to prove the MCT
+
+---
+
+<i>Proof.</i> Note that $\int f_n\d\mu\leq\int f\d\mu$ for all $n$ and hence $\lim_n\int f_n\d\mu\leq\int f\d\mu$. Conversely, we fix a simple function $s$ and show that $\lim_n\int f_n\d\mu\geq\int s\d\mu$, from which the result follows. Indeed, it suffices to show that $\lim_n\int f_n\d\mu\geq\l(1-\epsilon\r)\int s\d\mu=\int\l(1-\epsilon\r)s\d\mu$ for all $\epsilon>0$. To this end, let $X_n\coloneqq\l\{x\in X\st f_n\!\l(x\r)\geq\l(1-\epsilon\r)s\r\}$ for each $n$, so $X=\bigcup_nX_n$. Note that $\int f_n\d\mu\geq\int_{X_n}f_n\d\mu\geq\int_{X_n}\l(1-\epsilon\r)s\d\mu$ for all $n$. By monotone convergence of $\mu_{\l(1-\epsilon\r)s}$, we see that
+$$\begin{equation}
+    \int\l(1-\epsilon\r)s\d\mu=\mu_{\l(1-\epsilon\r)s}\!\l(X\r)=\sup_n\mu_{\l(1-\epsilon\r)s}\!\l(X_n\r)=\sup_n\int_{X_n}\l(1-\epsilon\r)s\d\mu
+\end{equation}$$
+and hence $\int f_n\d\mu\geq\int\l(1-\epsilon\r)s\d\mu$. This holds for all $n$, so $\lim_n\int f_n\d\mu\geq\int\l(1-\epsilon\r)s\d\mu$ as desired. Note that $\lim_n\int\l(f-f_n\r)\d\mu=0$, so $f_n\to_{L^1}\!f$ too.
+
+For Fatou’s Lemma, let $f_n\in L^+$ and observe that the sequence $\inf_{n\geq N}f_n$ increases. By the MCT and the monotonicity of $\int$, we obtained the desired result as
+$$\begin{equation}
+    \int\liminf_nf_n\d\mu=\int\lim_N\inf_{n\geq N}f_n\d\mu=\lim_N\int\inf_{n\geq N}f_n\d\mu\overset{!}{\leq}\lim_N\inf_{n\geq N}\int f_n\d\mu=\liminf_n\int f_n\d\mu.\qedin
+\end{equation}$$
