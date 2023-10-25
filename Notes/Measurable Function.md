@@ -10,7 +10,7 @@ mathLink-blocks:
 Date Created: 20/10/2023 00:36:30
 Tags: #Type/Definition #Topic/Real_Analysis
 
-Types: <i>Not Applicable</i>
+Types: [[Integral#^integrable-function]]
 Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
