@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/10/2023 21:06:35
-Tags: #Type/Theorem #In_Progress
+Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Measure Space#^monotone-convergence-of-sets]]
 References: <i>Not Applicable</i>
@@ -18,7 +18,7 @@ Let $\tpl{X,\mu}$ be a measure space and $f_n,f\in L^+$. If $f_n\incto f$, then 
 
 ```
 
-<b>Remark.</b> Note that Fatou’s Lemma can be used to prove the MCT
+<b>Remark.</b> Since every $f\in L^1$ admits a sequence of simple functions $s_n\incto f$, this allows us to calculate $\int f\d\mu$ as $\lim_n\int s_n\d\mu$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
@@ -30,5 +30,9 @@ and hence $\int f_n\d\mu\geq\int\l(1-\epsilon\r)s\d\mu$. This holds for all $n$,
 
 For Fatou’s Lemma, let $f_n\in L^+$ and observe that the sequence $\inf_{n\geq N}f_n$ increases. By the MCT and the monotonicity of $\int$, we obtained the desired result as
 $$\begin{equation}
-    \int\liminf_nf_n\d\mu=\int\lim_N\inf_{n\geq N}f_n\d\mu=\lim_N\int\inf_{n\geq N}f_n\d\mu\overset{!}{\leq}\lim_N\inf_{n\geq N}\int f_n\d\mu=\liminf_n\int f_n\d\mu.\qedin
+    \int\liminf_nf_n\d\mu=\int\lim_N\inf_{n\geq N}f_n\d\mu=\lim_N\int\inf_{n\geq N}f_n\d\mu\leq\lim_N\inf_{n\geq N}\int f_n\d\mu=\liminf_n\int f_n\d\mu.\qedin
 \end{equation}$$
+
+---
+
+<b>Remark.</b> Note that Fatou’s Lemma can be used to prove the MCT, so they are equivalent. Indeed, if $f^n\incto f$, then $\int f\d\mu\leq\liminf_n\int f_n\d\mu$. But since $f_n\leq f$ for all $n$, we have that $\limsup_n\int f_n\d\mu\leq\int f\d\mu$ too, so $\int f\d\mu=\lim_n\int f_n\d\mu$ as desired.<span style="float:right;">$\blacklozenge$</span>

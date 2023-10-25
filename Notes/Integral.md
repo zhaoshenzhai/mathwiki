@@ -1,6 +1,7 @@
 ---
 mathLink-blocks:
     integrable-function: Integrable Function
+    simple-functions-dense-in-integrable: Simple functions are dense in $L^1$
 ---
 
 <div class="topSpace"></div>
@@ -13,7 +14,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Monotone Convergence Theorem]]
+Properties: [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Basic properties of integration]]
@@ -30,8 +31,13 @@ Write $f=f^+-f^-$, where $f^{\pm}\coloneqq\max\l\{\pm f,0\r\}$. If $\int f^+\d\m
 ```
 ^integrable-function
 
-<b>Remark.</b> Let $L^+\!\l(X,\mu\r)$ and $L^1\!\l(X,\mu\r)$ respectively denote the collection of non-negative and all $\mu$-measurable functions. We have a pseudo-norm $\|f\|_1\coloneqq\int\l|f\r|\d\mu$ on $L^1$, which we may then quotient by null sets to obtain an actual norm. Thus we may talk about <i>convergence in $L^1$</i> as $\|f_n-f\|\to0$, in which case we write $f_n\to_{L_1}\!f$. Note that simple functions are dense in $L^1$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Let $L^1\!\l(X,\mu\r)$ and $L^+\!\l(X,\mu\r)$ denote the collection of $\mu$-integrable and all non-negative $\mu$-measurable functions. We have a pseudo-norm $\|f\|_1\coloneqq\int\l|f\r|\d\mu$ on $L^1$, which we may quotient by null sets to obtain an actual norm. Thus we may talk about <i>convergence in $L^1$</i> as $\|f_n-f\|\to0$, in which case we write $f_n\to_{L_1}\!f$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
 <b>Remark.</b> For any $A\in\Meas_\mu$ and any $f\in L^1$, let $\int_Af\d\mu\coloneqq\int\l(f\cdot\cchi_A\r)\d\mu$. If $f\in L^+$, then $\mu_f:A\mapsto\int_Af\d\mu$ is a measure on $\Meas_\mu$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> Simple functions are dense in $L^1$. Indeed, it suffices to find a sequence $s_n$ of $\mu$-measurable simple functions with $\l|s_n\r|\incto\l|f\r|$, for then since $\l|s_n-f\r|\leq2\l|f\r|$, the DCT gives us that $\l|s_n-f\r|\to_{L^1}\!0$. To this end, let $f\in L^+$; the general case $f\in L^+$ follows by decomposing $f=f^+-f^-$. ^simple-functions-dense-in-integrable
+* For each $n\in\N$, partition $\l[0,2^n\r]$ into intervals each of length $2^{-n}$ to obtain $k_n\coloneqq2^n/2^{-n}=2^{2n}$ intervals. For each $1\leq k\leq k_n$, set $B_k\coloneqq f^{-1}\!\l[k2^{-n},\infty\r]$. Note that the sequence $B_k$ decreases, so the functions $s_n\coloneqq\sum_{k=1}^{k_n}2^{-n}\cchi_{B_k}$ increase. A computation shows that $0\leq f-s_n\leq2^{-n}$ wherever $f\leq2^n$, so taking $n\to\infty$ gives the desired result.<span style="float:right;">$\blacklozenge$</span>
