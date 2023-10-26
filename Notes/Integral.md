@@ -31,7 +31,7 @@ Write $f=f^+-f^-$, where $f^{\pm}\coloneqq\max\l\{\pm f,0\r\}$. If $\int f^+\d\m
 ```
 ^integrable-function
 
-<b>Remark.</b> Let $L^1\!\l(X,\mu\r)$ and $L^+\!\l(X,\mu\r)$ denote the collection of $\mu$-integrable and all non-negative $\mu$-measurable functions. We have a pseudo-norm $\|f\|_1\coloneqq\int\l|f\r|\d\mu$ on $L^1$, which we may quotient by null sets to obtain an actual norm. Thus we may talk about <i>convergence in $L^1$</i> as $\|f_n-f\|\to0$, in which case we write $f_n\to_{L_1}\!f$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Let $L^1\!\l(X,\mu\r)$ and $L^+\!\l(X,\mu\r)$ denote the collection of $\mu$-integrable and all non-negative $\mu$-measurable functions. We have a pseudo-norm $\|f\|_1\coloneqq\int\l|f\r|\d\mu$ on $L^1$, which we may quotient by null sets to obtain an actual norm. Thus we may talk about <i>convergence in $L^1$</i> as $\|f_n-f\|_1\to0$, in which case we write $f_n\to_{L_1}\!f$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

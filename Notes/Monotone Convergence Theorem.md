@@ -41,4 +41,4 @@ $$\begin{equation}
 
 ---
 
-<b>Remark.</b> Note that Fatou’s Lemma can be used to prove the MCT, so they are equivalent. Indeed, if $f^n\incto f$, then $\int f\d\mu\leq\liminf_n\int f_n\d\mu$. But since $f_n\leq f$ for all $n$, we have that $\limsup_n\int f_n\d\mu\leq\int f\d\mu$ too, so $\int f\d\mu=\lim_n\int f_n\d\mu$ as desired.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Note that Fatou’s Lemma can be used to prove the MCT, so they are equivalent. Indeed, if $f_n\incto f$, then $\int f\d\mu\leq\liminf_n\int f_n\d\mu$. But since $f_n\leq f$ for all $n$, we have that $\limsup_n\int f_n\d\mu\leq\int f\d\mu$ too, so $\int f\d\mu=\lim_n\int f_n\d\mu$ as desired.<span style="float:right;">$\blacklozenge$</span>
