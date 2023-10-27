@@ -24,4 +24,4 @@ $$\begin{equation}
         \int g\d\mu+\int f\d\mu=\int\l(g+f\r)\d\mu=\int\lim_n\l(g+f_n\r)\d\mu\leq\liminf_n\int\l(g+f_n\r)\d\mu=\int g\d\mu+\liminf_n\int f_n\d\mu,
     \end{gathered}
 \end{equation}$$
-so $\limsup_n\int f_n\d\mu\leq\int f\d\mu\leq\liminf_n\int f_n\d\mu$. Thus $\lim\int f_n\d\mu=\int f\d\mu$, as desired. For the $L^1$-convergence, note that $\l|f_n-f\r|\leq\l|f_n\r|+\l|f\r|\leq2\l|f\r|$ and $\l|f_n-f\r|\to0$, so we have by the above that $\int\l|f_n-f\r|\d\mu\to\int0\d\mu=0$. Thus $\|f_n-f\|_1\to_{L^1}\!0$, as desired.<span style="float:right;">$\blacksquare$</span>
+so $\limsup_n\int f_n\d\mu\leq\int f\d\mu\leq\liminf_n\int f_n\d\mu$. Thus $\lim\int f_n\d\mu=\int f\d\mu$, as desired. For the $L^1$-convergence, note that $\l|f_n-f\r|\leq\l|f_n\r|+\l|f\r|\leq2g$ and $\l|f_n-f\r|\to0$, so we have by the above that $\int\l|f_n-f\r|\d\mu\to\int0\d\mu=0$. Thus $\|f_n-f\|_1\to_{L^1}\!0$, as desired.<span style="float:right;">$\blacksquare$</span>
