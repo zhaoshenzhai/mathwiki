@@ -25,7 +25,7 @@ Justifications: [[Compact Space#^compact-hausdorff-implies-closed]], [[Compact S
 title: Example.
 
 We construct the <b>real numbers</b> $\R$ as the completion of $\Q$ with the absolute value metric, giving us $\R$ as a complete metric space.
-* (Nested Intervals Theorem). If $I_1\supseteq I_2\supseteq\cdots$ is a descending chain of non-empty intervals in $\R$ such that $\diam I_n\to0$, then $\bigcap_{n>1}I_n$ is a singleton.
+* (Nested Intervals Theorem). If $I_1\supseteq I_2\supseteq\cdots$ is a descending chain of non-empty closed intervals in $\R$ such that $\diam I_n\to0$, then $\bigcap_{n>1}I_n$ is a singleton.
 * (Bolzano-Weierstrass Theorem). Every bounded sequence $\tpl{x_n}$ in $\R^d$ admits a convergent subsequence.
 * (Heine-Borel Theorem). A subset $K\subseteq\R^d$ is compact iff it is closed and bounded.
 
