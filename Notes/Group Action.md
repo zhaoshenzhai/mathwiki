@@ -25,7 +25,7 @@ title: Definition.
 Let $G$ be a group and $X$ be a set. A <b>(left) $G$-action on $X$</b> is a homomorphism $\phi:G\to\Aut\l(X\r)$. The set $X$, together with the action $\phi$, is called a <b>$G$-set</b>.
 * Fix $x\in X$. The <b>orbit</b> of $x$ is the set $\Orb_G\!\l(x\r)\coloneqq Gx\coloneqq\l\{gx\in X\st g\in G\r\}$ and the <b>stabilizer</b> of $x$ is the subgroup $\Stab_G\!\l(x\r)\coloneqq G_x\coloneqq\l\{g\in G\st gx=x\r\}$.
 
-The <b>category of $G$-sets</b> is the category $\catgset{G}$ whose objects are $G$-sets and whose morphisms $f:\tpl{\phi,X}\to\tpl{\psi,Y}$ are are functions $f:X\to Y$ such that $f\circ\phi\l(g\r)=\psi\l(g\r)\circ f$ for all $g\in G$.
+The <b>category of $G$-sets</b> is the category $\catgset{G}$ whose objects are $G$-sets and whose morphisms are functions making the diagram commute for all $g\in G$.
 ![[Images/2023-09-02_131740/image.svg|150]]
 
 ```
