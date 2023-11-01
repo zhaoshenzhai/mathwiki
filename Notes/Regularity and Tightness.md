@@ -1,4 +1,5 @@
 ---
+mathLink: auto
 mathLink-blocks:
     regular-tight-measures: Regular/Tight Measure
 ---
