@@ -29,7 +29,7 @@ Let $X$ be a topological space. The <b>fundamental groupoid</b> of $X$ is the gr
 ^fundamental-group
 
 <b>Remark.</b> The association $\pi_1:\catptop\to\catgrp$ is a functor by mapping each $f:\tpl{X,x_0}\to\tpl{Y,y_0}$ to the morphism $f_\ast:\pi_1\!\l(X,x_0\r)\to\pi_1\!\l(Y,y_0\r)$ mapping $\l[\gamma\r]\mapsto\l[f\circ\gamma\r]$.
-* Since functors preserve isomorphisms, we see that homeomorphic pointed spaces have isomorphic fundamental groups. In fact, even homotopy equivalent pointed spaces induce isomorphic fundamental groups. Indeed, if $f:\tpl{X,x_0}\htopeq\tpl{Y,y_0}$, has homotopy inverse $g$, then $f_\ast\!:\pi_1\!\l(X,x_0\r)\to\pi_1\!\l(Y,y_0\r)$ is an isomorphism.<span style="float:right;">$\blacklozenge$</span>
+* Since functors preserve isomorphisms, we see that homeomorphic pointed spaces have isomorphic fundamental groups. In fact, even homotopy equivalent pointed spaces induce isomorphic fundamental groups. Indeed, if $f:\tpl{X,x_0}\htopeq\tpl{Y,y_0}$ has homotopy inverse $g$, then $f_\ast\!:\pi_1\!\l(X,x_0\r)\to\pi_1\!\l(Y,y_0\r)$ is an isomorphism.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
