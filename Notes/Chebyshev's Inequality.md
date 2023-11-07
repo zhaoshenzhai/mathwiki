@@ -1,5 +1,7 @@
 ---
 mathLink: auto
+mathLink-blocks:
+    L-1-implies-measure-convergence: $L_1$-convergence $\Rightarrow$ $\mu$-convergence
 ---
 
 <div class="topSpace"></div>
@@ -23,7 +25,9 @@ Let $\tpl{X,\mu}$ be a measure space. For all $f\in L^1$ and $\alpha\in\l(0,\inf
 
 <b>Remark.</b> We list some immediate corollaries for a function $f:X\to\bar{\R}$ in $L^1$.
 * $\l|f\r|<\infty$ a.e. Indeed, we have $\infty\cdot\mu\l(A_\infty\r)\leq\|f\|_1$, which occurs only when $\mu\l(A_\infty\r)=0$.
-* The support $A\coloneqq\l\{x\in X\st f\l(x\r)\neq0\r\}$ is $\sigma$-finite. Indeed, note that $A=\bigcup_nA_{1/n}$ with each $\mu\l(A_{1/n}\r)\leq n\|f\|_1<\infty$.<span style="float:right;">$\blacklozenge$</span>
+* The support $A\coloneqq\l\{x\in X\st f\l(x\r)\neq0\r\}$ is $\sigma$-finite. Indeed, note that $A=\bigcup_nA_{1/n}$ with each $\mu\l(A_{1/n}\r)\leq n\|f\|_1<\infty$.
+
+This also shows that $L_1$-convergence implies $\mu$-convergence. Indeed, if $f_n\to_{L^1}\!f$, then $\delta_\alpha\!\l(f_n,f\r)\leq\|f-f_n\|_1/\alpha\to0$ for any $\alpha>0$.<span style="float:right;">$\blacklozenge$</span> ^L-1-implies-measure-convergence
 
 ---
 

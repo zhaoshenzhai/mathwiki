@@ -12,7 +12,7 @@ Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Borel Sets#^Borel-sigma-algebra]], [[Regularity and Tightness#^regular-tight-measures]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Measurable Set]], [[Measurable Function]], [[Integral]], [[Absolute Continuity]]
+Constructions: [[Measurable Set]], [[Measurable Function]], [[Integral]], [[Absolute Continuity]], [[Convergence in Measure]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Borel-Cantelli Lemmas]]

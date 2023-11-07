@@ -2,6 +2,7 @@
 mathLink-blocks:
     integrable-function: Integrable Function
     simple-functions-dense-in-integrable: Simple functions are dense in $L^1$
+    integral-measure-abs-cont-measure: $\mu_f\abscont\mu$
 ---
 
 <div class="topSpace"></div>
@@ -17,7 +18,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]], [[Chebyshev's Inequality]], [[An epsilon-trade for an easy life#^99-boundedness]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Basic properties of integration]]
+Justifications: [[Basic properties of integration]], [[Absolute Continuity#^characterization-of-absolute-continuity]]
 
 ``` ad-Definition
 title: Definition.
@@ -35,7 +36,8 @@ Write $f=f^+-f^-$, where $f^{\pm}\coloneqq\max\l\{\pm f,0\r\}$. If $\int f^+\d\m
 
 ---
 
-<b>Remark.</b> For any $A\in\Meas_\mu$ and any $f\in L^1$, let $\int_Af\d\mu\coloneqq\int\l(f\cdot\cchi_A\r)\d\mu$. If $f\in L^+$, then $\mu_f:A\mapsto\int_Af\d\mu$ is a measure on $\Meas_\mu$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> For any $A\in\Meas_\mu$ and any $f\in L^1$, let $\int_Af\d\mu\coloneqq\int\l(f\cdot\cchi_A\r)\d\mu$. If $f\in L^+$, then $\mu_f:A\mapsto\int_Af\d\mu$ is a measure on $\Meas_\mu$. ^integral-measure-abs-cont-measure
+* Note that $\mu_f\!\l(Z\r)=0$ whenever $\mu\l(Z\r)=0$, so $\mu_f\abscont\mu$. If $f\in L^1$, then $\mu_f<\infty$ and hence for every $\epsilon>0$, there is some $\delta>0$ such that for every $\mu$-measurable set $B$, we have $\mu\l(B\r)<\delta$ implies $\int_B\l|f\r|\d\mu<\epsilon$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
