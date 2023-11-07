@@ -238,6 +238,7 @@
   ],
   "blockPrefix": "",
   "enableFileNameBlockLinks": false,
+  "enableInSourceMode": false,
   "enableAPI": true,
   "excludedFilePaths": [
     {
