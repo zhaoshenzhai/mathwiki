@@ -1,3 +1,7 @@
+---
+mathLink: DCT
+---
+
 <div class="topSpace"></div>
 
 Date Created: 25/10/2023 14:25:48
