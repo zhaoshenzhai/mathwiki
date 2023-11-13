@@ -25,6 +25,7 @@
   "weightUnmarkedTags": 1.1,
   "httpApiEnabled": false,
   "httpApiPort": "51361",
+  "httpApiNotice": true,
   "welcomeMessage": "1.10.1",
   "verboseLogging": false
 }

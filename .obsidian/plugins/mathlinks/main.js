@@ -589,7 +589,8 @@ var DEFAULT_SETTINGS = {
   excludedPaths: [],
   blockPrefix: "^",
   enableFileNameBlockLinks: true,
-  enableInSourceMode: false
+  enableInSourceMode: false,
+  renderOutline: true
 };
 
 // src/settings/tab.ts
@@ -889,6 +890,12 @@ var MathLinksSettingTab = class extends import_obsidian6.PluginSettingTab {
           this.plugin.nativeProvider.enableInSourceMode = value;
         });
       });
+      new import_obsidian6.Setting(containerEl).setName("Render MathJax in Outline").setDesc("Render headings with MathJax in the core Outline view. You need to reload the app for this option to take effect.").addToggle((toggle) => {
+        toggle.setValue(this.plugin.settings.renderOutline).onChange((value) => __async(this, null, function* () {
+          this.plugin.settings.renderOutline = value;
+          yield this.plugin.saveSettings();
+        }));
+      });
     });
   }
 };
@@ -1026,6 +1033,58 @@ function generateMathLinks(plugin, element, context) {
   }
 }
 
+// node_modules/monkey-around/mjs/index.js
+function around(obj, factories) {
+  const removers = Object.keys(factories).map((key) => around1(obj, key, factories[key]));
+  return removers.length === 1 ? removers[0] : function() {
+    removers.forEach((r) => r());
+  };
+}
+function around1(obj, method, createWrapper) {
+  const original = obj[method], hadOwn = obj.hasOwnProperty(method);
+  let current = createWrapper(original);
+  if (original)
+    Object.setPrototypeOf(current, original);
+  Object.setPrototypeOf(wrapper, current);
+  obj[method] = wrapper;
+  return remove;
+  function wrapper(...args) {
+    if (current === original && obj[method] === wrapper)
+      remove();
+    return current.apply(this, args);
+  }
+  function remove() {
+    if (obj[method] === wrapper) {
+      if (hadOwn)
+        obj[method] = original;
+      else
+        delete obj[method];
+    }
+    if (current === original)
+      return;
+    current = original;
+    Object.setPrototypeOf(wrapper, original || Function);
+  }
+}
+
+// src/outline.ts
+var patchOutline = (plugin) => {
+  var _a;
+  const outlineView = (_a = plugin.app.workspace.getLeavesOfType("outline")[0]) == null ? void 0 : _a.view;
+  if (!outlineView)
+    return false;
+  plugin.register(around(outlineView.constructor.prototype, {
+    getItemDom(old) {
+      return function(arg) {
+        const ret = old.call(this, arg);
+        setTimeout(() => setMathLink(ret.heading.heading, ret.innerEl));
+        return ret;
+      };
+    }
+  }));
+  return true;
+};
+
 // src/main.ts
 var MathLinks = class extends import_obsidian8.Plugin {
   constructor() {
@@ -1049,6 +1108,19 @@ var MathLinks = class extends import_obsidian8.Plugin {
       this.registerEvent(this.app.metadataCache.on("changed", (file) => update(this.app, file)));
       this.registerEvent(this.app.workspace.on("layout-change", () => update(this.app)));
       this.apiAccounts = [];
+      this.app.workspace.onLayoutReady(() => {
+        if (this.settings.renderOutline && this.app.internalPlugins.plugins.outline.enabled) {
+          const success = patchOutline(this);
+          if (!success) {
+            const eventRef = this.app.workspace.on("layout-change", () => {
+              const success2 = patchOutline(this);
+              if (success2)
+                this.app.workspace.offref(eventRef);
+            });
+            this.registerEvent(eventRef);
+          }
+        }
+      });
     });
   }
   getAPIAccount(userPlugin) {
