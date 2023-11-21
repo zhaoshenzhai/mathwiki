@@ -38,8 +38,3 @@ Write $f=f^+-f^-$, where $f^{\pm}\coloneqq\max\l\{\pm f,0\r\}$. If $\int f^+\d\m
 
 <b>Remark.</b> For any $A\in\Meas_\mu$ and any $f\in L^1$, let $\int_Af\d\mu\coloneqq\int\l(f\cdot\cchi_A\r)\d\mu$. If $f\in L^+$, then $\mu_f:A\mapsto\int_Af\d\mu$ is a measure on $\Meas_\mu$. ^integral-measure-abs-cont-measure
 * Note that $\mu_f\!\l(Z\r)=0$ whenever $\mu\l(Z\r)=0$, so $\mu_f\abscont\mu$. If $f\in L^1$, then $\mu_f<\infty$ and hence for every $\epsilon>0$, there is some $\delta>0$ such that for every $\mu$-measurable set $B$, we have $\int_B\l|f\r|\d\mu<\epsilon$ whenever $\mu\l(B\r)<\delta$ holds.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-<b>Remark.</b> Simple functions are dense in $L^1$. Indeed, it suffices to find a sequence $s_n$ of $\mu$-measurable simple functions such that $\l|s_n\r|\incto\l|f\r|$ and $s_n\to f$, for then since $\l|s_n-f\r|\leq2\l|f\r|$, the DCT gives us that $s_n\to_{L^1}\!f$. To this end, let $f\in L^+$; the general case $f\in L^+$ follows by decomposing $f=f^+-f^-$. ^simple-functions-dense-in-integrable
-* For each $n\in\N$, partition $\l[0,2^n\r]$ into intervals each of length $2^{-n}$ to obtain $k_n\coloneqq2^n/2^{-n}=2^{2n}$ intervals. For each $1\leq k\leq k_n$, set $B_k\coloneqq f^{-1}\!\l[k2^{-n},\infty\r]$. Note that the sequence $B_k$ decreases, so the functions $s_n\coloneqq\sum_{k=1}^{k_n}2^{-n}\cchi_{B_k}$ increase. A computation shows that $0\leq f-s_n\leq2^{-n}$ wherever $f\leq2^n$, so taking $n\to\infty$ gives the desired result.<span style="float:right;">$\blacklozenge$</span>

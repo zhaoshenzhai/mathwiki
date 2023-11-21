@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/11/2023 20:27:28
-Tags: #Type/Theorem #In_Progress
+Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Monotone Class Lemma]], [[Measure Space#^monotone-convergence-of-sets]], [[Pointwise-limits of measurable functions are measurable]], [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]], [[Measurable Function#^measurable-almost-borel]]
 References: <i>Not Applicable</i>
