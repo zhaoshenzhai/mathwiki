@@ -1,8 +1,6 @@
 ---
 mathLink-blocks:
-    compatibility-premeasure-outer-measure: $\l.\mu^\ast\r|_\mc{A}=\mu$
     null-set-outer-measure: $\mu^\ast\!\l(Z\r)=0$ $\Rightarrow$ $Z$ is $\mu$-null
-    monotone-convergence-of-sets: Monotone convergence of sets
 ---
 
 <div class="topSpace"></div>
@@ -35,25 +33,10 @@ The pair $\tpl{X,\mc{B}}$ is called a <b>measurable space</b>, and the triple $\
 
 ---
 
-<b>Remark.</b> Let $\tpl{X,\mc{B},\mu}$ be a measure space. If $A_n,B_n\in\mc{B}$ are respectively increasing and decreasing sequences with $\mu\l(B_0\r)<\infty$, then $\mu\l(\bigcup_nA_n\r)=\sup_n\mu\l(A_n\r)$ and $\mu\l(\bigcap_nB_n\r)=\inf_n\mu\l(B_n\r)$. Indeed, we disjointify $A_n$ by setting $A_0'\coloneqq A_0$ and $A_n'\coloneqq A_n\comp A_{n-1}$, so that ^monotone-convergence-of-sets
-$$\begin{equation}
-    \mu\l(\bigcup_kA_k\r)=\mu\l(\bigsqcup_kA_k'\r)=\sum_k\mu\l(A_k'\r)=\lim\limits_{n\to\infty}\sum_{k\leq n}\mu\l(A_k'\r)=\lim\limits_{n\to\infty}\mu\l(A_n\r)=\sup_n\mu\l(A_n\r).
-\end{equation}$$
-For the second claim, set $A_n\coloneqq B_0\comp B_n$, so $\bigcup_nA_n=B_0\comp B_\infty$ where $B_\infty\coloneqq\bigcap_nB_n$. Note that $\mu\l(\bigcup_nA_n\r)=\mu\l(B_0\comp B_\infty\r)=\mu\l(B_0\r)-\mu\l(B_\infty\r)$. But $A_n$ is an increasing sequence, so we have by the above that $\mu\l(\bigcup_nA_n\r)=\sup_n\mu\l(A_n\r)=\mu\l(B_0\r)-\inf_n\mu\l(B_n\r)$. Since $\mu\l(B_0\r)<\infty$, we may rearrange to obtain the desired result.<span style="float:right;">$\blacklozenge$</span>
-
----
-
 <b>Remark.</b> A related notion of a measure is that of an <i>outer measure</i>, which is defined on the entire $\pow\l(X\r)$. Indeed, for any collection $\mc{A}\subseteq\pow\l(X\r)$ containing $\em$ and covering $X$ and any function $\mu:\mc{A}\to\l[0,\infty\r]$, the <i>outer measure</i> induced by $\mu$ is the map $\mu^\ast:\pow\l(X\r)\to\l[0,\infty\r]$ defined by
 $$\begin{equation}
     \mu^\ast\!\l(S\r)\coloneqq\inf\l\{\sum_n\mu\l(A_n\r)\st\l\{A_n\r\}_n\subseteq\mc{A}\textrm{ and }A\subseteq\bigcup_nA_n\r\}.
 \end{equation}$$
-The outer measure is clearly monotone, for if $A\subseteq B$, then every cover of $B$ is also a cover of $A$. It is also countably subadditive. Indeed, take $A_0,A_1,\ldots\in\pow\l(X\r)$ and $\epsilon>0$. For each $n\in\N$, there exists a cover $\l\{B_{n,m}\r\}_m\subseteq\mc{A}$ of $A_n$ such that $\sum_m\mu\l(B_{n,m}\r)\approx_{\epsilon/2^{n+1}}\mu^\ast\!\l(A_n\r)$. Thus
-$$\begin{equation}
-    \sum_{n,m}\mu\l(B_{n,m}\r)\approx_\epsilon\sum_n\mu^\ast\!\l(A_n\r),
-\end{equation}$$
-but since $\l\{B_{n,m}\r\}_{n,m}\subseteq\mc{A}$ is a cover of $\bigcup_nA_n$, we see that $\mu^\ast\!\l(\bigcup_nA_n\r)\leq\sum_{n,m}\mu\l(B_{n,m}\r)\leq\sum_n\mu^\ast\!\l(A_n\r)+\epsilon$.
-* For a premeasure $\mu$ on an algebra $\mc{A}$, we have $\l.\mu^\ast\r|_\mc{A}=\mu$. Indeed, take $A\in\mc{A}$ and a cover $\l\{A_n\r\}_n\subseteq\mc{A}$ of $A$. Setting $A_n'\coloneqq A_n\cap A$, we see that $A=\bigcup_nA_n'$, which can be disjointified to give us $\mu\l(A\r)=\sum_n\mu\l(A_n'\r)\leq\sum_n\mu\l(A_n\r)$. Thus $\mu\l(A\r)\leq\mu^\ast\!\l(A\r)$, and the reverse inequality is trivial by noting that $A\subseteq\bigcup_nA_n$ with $A_0\coloneqq A$ and $A_{>0}\coloneqq\em$, so $\mu\l(A\r)=\sum_n\mu\l(A_n\r)\geq\mu^\ast\!\l(A\r)$. ^compatibility-premeasure-outer-measure
-
 Let $\tpl{X,\mc{B},\mu}$ be a measure space. A subset $Z\subseteq X$ is said to be <i>$\mu$-null</i> if there is some $\hat{Z}\in\mc{B}$ containing $Z$ with $\mu\,(\hat{Z})=0$. Note that if $\mu^\ast\!\l(Z\r)=0$, then $Z$ is $\mu$-null.
 * Indeed, since $\mu^\ast\!\l(Z\r)=0$, for every $m>0$ there is some cover $Z\subseteq\bigcup_nB^m_n$ with each $B^m_n\in\mc{B}$ such that $\sum_n\mu\l(B^m_n\r)<1/m$. Set $\widehat{Z}\coloneqq\bigcap_{m>0}\bigcup_nB^m_n\in\mc{B}$. Then $\widehat{Z}\subseteq\bigcup_nB^m_n$ for every $m>0$, so by monotonicity and countable subadditivity we have $\mu^\ast(\widehat{Z})\leq\mu^\ast\!\l(\bigcup_nB^m_n\r)\leq\sum_n\mu^\ast\!\l(B^m_n\r)<1/m$ for every $m>0$. Thus $\mu^\ast(\widehat{Z})=0$, and since $Z\subseteq\bigcup_nB^m_n$ for every $m$, we see that $Z\subseteq\widehat{Z}$ too.<span style="float:right;">$\blacklozenge$</span> ^null-set-outer-measure
 
