@@ -12,12 +12,12 @@ Date Created: 09/01/2023 15:29:16
 Tags: #Type/Example #Topic/Ring_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Group of units of finite field is a cyclic group]]
 Constructions: [[Euler's Totient Function]], [[Characteristic]], [[Prime Field]], [[Gaussian Integers]]
 Generalizations: [[Euclidean Domain (EUD)]]
 
 Properties: [[Subgroups of cyclic groups]], [[Automorphisms and endomorphisms of cyclic groups]]
-Sufficiencies: [[At most one dividing subgroup implies cyclic]], [[Group of units of finite field is a cyclic group]]
+Sufficiencies: [[At most one dividing subgroup implies cyclic]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Free Group#^universal-property-of-free-groups]], [[Division Algorithm]], [[EUD implies PID]], [[Isomorphism Theorems]], [[Bezout's Identity]]
 
