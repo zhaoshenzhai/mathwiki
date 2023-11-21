@@ -15,7 +15,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Measurable Set]], [[Measurable Function]], [[Integral]], [[Absolute Continuity]], [[Convergence in Measure]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Borel-Cantelli Lemmas]]
+Properties: [[Borel-Cantelli Lemmas]], [[Basic properties of measures]]
 Sufficiencies: [[Caratheodory's Extension Theorem]], [[Monotone Class Lemma]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
@@ -31,15 +31,7 @@ The pair $\tpl{X,\mc{B}}$ is called a <b>measurable space</b>, and the triple $\
 ```
 
 <b>Remark.</b> Measures are often first defined on a smaller collection $\mc{A}\subseteq\pow\l(X\r)$ containing $\em$, called an <i>algebra</i> on $X$, where we require only require that it is closed under complements and <i>finite</i> unions. Those measures $\mu:\mc{A}\to\l[0,\infty\r]$ are then called <i>premeasures</i> instead. Note that countable additivity is still required for $\mu$ to be a premeasure, only that we have an additional hypothesis that $\bigsqcup_nA_n\in\mc{A}$ in the first place.
-* A (pre)measure is said to be <i>finite</i> if $\mu\l(X\r)<\infty$, <i>probability</i> if $\mu\l(X\r)=1$, <i>$\sigma$-finite</i> if there is a partition $X=\bigsqcup_nX_n$ such that $\mu\l(X_n\r)<\infty$ for all $n\in\N$, and <i>atomless</i> if there are no sets $A\subseteq X$, called <i>atoms</i>, such that $B\subseteq A$ implies either $\mu\l(B\r)=0$ or $\mu\l(B\r)=\mu\l(A\r)$.
-
-Here are some basic properties of <i>finitely-additive</i> (not necessarily countably-additive) premeasures on an algebra $\mc{A}$.
-* (<i>Monotone</i>). For all $A,B\in\mc{A}$, if $A\subseteq B$, then $\mu\l(A\r)\leq\mu\l(B\r)$. Indeed, $\mu\l(B\r)=\mu\l(A\sqcup\l(B\comp A\r)\r)=\mu\l(A\r)+\mu\l(B\comp A\r)\geq\mu\l(A\r)$.
-* (<i>Countably supadditive</i>). For all pairwise disjoint $A_n\in\mc{A}$ with $\bigsqcup_nA_n\in\mc{A}$, we have $\mu\l(\bigsqcup_nA_n\r)\geq\sum_n\mu\l(A_n\r)$. Indeed, we have
-    $$\begin{equation}
-        \mu\l(\bigsqcup_nA_n\r)\geq\mu\l(\bigsqcup_{n<N}A_n\r)=\sum_{n<N}\mu\l(A_n\r)\overset{N\to\infty}{\longrightarrow}\sum_n\mu\l(A_n\r).
-    \end{equation}$$
-* (<i>Finitely subadditive</i>). For all $\l\{A_n\r\}_{n<k}\subseteq\mc{A}$, we have $\mu\l(\bigcup_{n<k}A_n\r)\leq\sum_{n<k}\mu\l(A_n\r)$. Indeed, we may <i>disjointify</i> $\l\{A_n\r\}$ into $\l\{A_n'\r\}$ by letting $A_n'\coloneqq A_n\comp\bigcup_{i<n}A_i$. Then $\bigcup_{n<k}A_n=\bigsqcup_{n<k}A_n'$, so $\mu\l(\bigcup_{n<k}A_n\r)=\mu\l(\bigsqcup_{n<k}A_n'\r)=\sum_{n<k}\mu\l(A_n'\r)\leq\sum_{n<k}\mu\l(A_n\r)$ where the last inequality holds since $A_n'\subseteq A_n$ for all $n<k$.<span style="float:right;">$\blacklozenge$</span>
+* A (pre)measure is said to be <i>finite</i> if $\mu\l(X\r)<\infty$, <i>probability</i> if $\mu\l(X\r)=1$, <i>$\sigma$-finite</i> if there is a partition $X=\bigsqcup_nX_n$ such that $\mu\l(X_n\r)<\infty$ for all $n\in\N$, and <i>atomless</i> if there are no sets $A\subseteq X$, called <i>atoms</i>, such that $B\subseteq A$ implies either $\mu\l(B\r)=0$ or $\mu\l(B\r)=\mu\l(A\r)$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
