@@ -1147,8 +1147,9 @@ var MathLinks = class extends import_obsidian8.Plugin {
         if (!editorView)
           return;
         let shouldDispatch = !file;
-        if (file && leaf.view.file) {
-          shouldDispatch = file.path in this.app.metadataCache.resolvedLinks[leaf.view.file.path];
+        shouldDispatch || (shouldDispatch = !this.app.metadataCache.resolvedLinks);
+        if (file && leaf.view.file && this.app.metadataCache.resolvedLinks) {
+          shouldDispatch || (shouldDispatch = file.path in this.app.metadataCache.resolvedLinks[leaf.view.file.path]);
         }
         if (shouldDispatch) {
           editorView.dispatch({ effects: this.forceUpdateEffect.of(null) });
