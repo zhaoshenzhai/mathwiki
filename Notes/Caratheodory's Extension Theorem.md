@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 13/09/2023 17:24:38
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Measure Space#^compatibility-premeasure-outer-measure]], [[Characterizations of continuity (metric)]], [[Continuous Extension Theorem]]
+Proved by: [[Basic properties of measures#^compatibility-premeasure-outer-measure]], [[Characterizations of continuity (metric)]], [[Continuous Extension Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

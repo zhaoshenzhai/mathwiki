@@ -11,7 +11,7 @@ mathLink-blocks:
 Date Created: 25/10/2023 17:20:28
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Measure Space#^monotone-convergence-of-sets]], [[Chebyshev's Inequality]], [[Regularity and Tightness]]
+Proved by: [[Basic properties of measures#^monotone-convergence-of-sets]], [[Chebyshev's Inequality]], [[Regularity and Tightness]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 ^Luzin

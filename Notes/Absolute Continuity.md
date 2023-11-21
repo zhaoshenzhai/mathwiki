@@ -16,7 +16,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Borel-Cantelli Lemmas]], [[Measure Space#^monotone-convergence-of-sets]]
+Justifications: [[Borel-Cantelli Lemmas]], [[Basic properties of measures#^monotone-convergence-of-sets]]
 
 ``` ad-Definition
 title: Definition.

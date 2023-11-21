@@ -7,7 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 21/11/2023 15:26:53
-Tags: #Type/Proposition #In_Progress
+Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
@@ -40,4 +40,4 @@ Let $\mc{A}$ be an algebra on a set $X$ and let $\mu:\mc{A}\to\l[0,\infty\r]$ be
 $$\begin{equation}
     \mu\l(\bigcup_kA_k\r)=\mu\l(\bigsqcup_kA_k'\r)=\sum_k\mu\l(A_k'\r)=\lim\limits_{n\to\infty}\sum_{k\leq n}\mu\l(A_k'\r)=\lim\limits_{n\to\infty}\mu\l(A_n\r)=\sup_n\mu\l(A_n\r).
 \end{equation}$$
-For a decreasing sequence $B_n\in\mc{B}$, set $A_n\coloneqq B_0\comp B_n$ so $\bigcup_nA_n=B_0\comp B_\infty$ where $B_\infty\coloneqq\bigcap_nB_n$. Note that $\mu\l(\bigcup_nA_n\r)=\mu\l(B_0\comp B_\infty\r)=\mu\l(B_0\r)-\mu\l(B_\infty\r)$. But $A_n$ is an increasing sequence, so we have by the above that $\mu\l(\bigcup_nA_n\r)=\sup_n\mu\l(A_n\r)=\mu\l(B_0\r)-\inf_n\mu\l(B_n\r)$. Since $\mu\l(B_0\r)<\infty$, rearranging gives the desired result.<span style="float:right;">$\blacklozenge$</span>
+For a decreasing sequence $B_n\in\mc{B}$, set $A_n\coloneqq B_0\comp B_n$ so $\bigcup_nA_n=B_0\comp B_\infty$ where $B_\infty\coloneqq\bigcap_nB_n$. Note that $\mu\l(\bigcup_nA_n\r)=\mu\l(B_0\comp B_\infty\r)=\mu\l(B_0\r)-\mu\l(B_\infty\r)$. But $A_n$ is an increasing sequence, so we have by the above that $\mu\l(\bigcup_nA_n\r)=\sup_n\mu\l(A_n\r)=\mu\l(B_0\r)-\inf_n\mu\l(B_n\r)$. Since $\mu\l(B_0\r)<\infty$, rearranging gives the desired result.<span style="float:right;">$\blacksquare$</span>

@@ -6,7 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 12/09/2023 20:32:39
-Tags: #Type/Definition #Topic/Real_Analysis
+Tags: #Type/Definition #In_Progress
 
 Types: [[Borel Sets#^Borel-sigma-algebra]], [[Regularity and Tightness#^regular-tight-measures]]
 Examples: <i>Not Applicable</i>
