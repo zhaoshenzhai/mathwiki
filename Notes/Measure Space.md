@@ -16,7 +16,7 @@ Constructions: [[Measurable Set]], [[Measurable Function]], [[Integral]], [[Abso
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Borel-Cantelli Lemmas]]
-Sufficiencies: [[Caratheodory's Extension Theorem]]
+Sufficiencies: [[Caratheodory's Extension Theorem]], [[Monotone Class Lemma]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
