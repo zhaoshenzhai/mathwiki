@@ -25,3 +25,11 @@ Let $\mc{A}$ be an algebra on a set $X$ and let $\mu:\mc{A}\to\l[0,\infty\r]$ be
 ---
 
 <i>Proof.</i> That $\mu^\ast$ is monotone is obvious since if $A\subseteq B$, then any cover of $B$ is a cover of $A$. For countable subadditivity, take $A_n\subseteq X$ and $\epsilon>0$. For each $n\in\N$, there exists a cover $\l\{B_{n,m}\r\}_m\subseteq\mc{A}$ of $A_n$ such that $\sum_m\mu\l(B_{n,m}\r)\approx_{\epsilon/2^{n+1}}\mu^\ast\!\l(A_n\r)$. Thus $\sum_{n,m}\mu\l(B_{n,m}\r)\approx_\epsilon\sum_n\mu^\ast\!\l(A_n\r)$, but since $\l\{B_{n,m}\r\}_{n,m}\subseteq\mc{A}$ is a cover of $\bigcup_nA_n$, we see that $\mu^\ast\!\l(\bigcup_nA_n\r)\leq\sum_{n,m}\mu\l(B_{n,m}\r)\leq\sum_n\mu^\ast\!\l(A_n\r)+\epsilon$. Now, let $\mu$ be a premeasure on $\mc{A}$ and let $A\in\mc{A}$. Take a cover $A_n\in\mc{A}$ of $A$ and set $A_n'\coloneqq A\cap\l(A_n\comp\bigcup_{i<n}A_i\r)$. Observe then that $A=\bigsqcup_nA_n'$, so $\mu\l(A\r)=\sum_n\mu\l(A_n'\r)\leq\sum_n\mu\l(A_n\r)$ and thus $\mu\l(A\r)\leq\mu^\ast\!\l(A\r)$. The reverse inequality is trivial (take $A_0\coloneqq A$ and $A_{>0}\coloneqq\em$).<span style="float:right;">$\blacksquare$</span> ^compatibility-premeasure-outer-measure
+
+---
+
+<i>Proof.</i> Let $A_n\in\mc{B}$ be an increasing sequence, which may be disjointified by setting $A_0'\coloneqq A_0$ and $A_n'\coloneqq A_n\comp A_{n-1}$ so that
+$$\begin{equation}
+    \mu\l(\bigcup_kA_k\r)=\mu\l(\bigsqcup_kA_k'\r)=\sum_k\mu\l(A_k'\r)=\lim\limits_{n\to\infty}\sum_{k\leq n}\mu\l(A_k'\r)=\lim\limits_{n\to\infty}\mu\l(A_n\r)=\sup_n\mu\l(A_n\r).
+\end{equation}$$
+For a decreasing sequence $B_n\in\mc{B}$, set $A_n\coloneqq B_0\comp B_n$ so $\bigcup_nA_n=B_0\comp B_\infty$ where $B_\infty\coloneqq\bigcap_nB_n$. Note that $\mu\l(\bigcup_nA_n\r)=\mu\l(B_0\comp B_\infty\r)=\mu\l(B_0\r)-\mu\l(B_\infty\r)$. But $A_n$ is an increasing sequence, so we have by the above that $\mu\l(\bigcup_nA_n\r)=\sup_n\mu\l(A_n\r)=\mu\l(B_0\r)-\inf_n\mu\l(B_n\r)$. Since $\mu\l(B_0\r)<\infty$, rearranging gives the desired result.<span style="float:right;">$\blacklozenge$</span>
