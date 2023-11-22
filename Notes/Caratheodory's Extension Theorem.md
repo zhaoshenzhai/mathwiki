@@ -17,7 +17,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Carathéodory’s Extension Theorem).
 
-Let $\mc{A}$ be an algebra on a set $X$. Consider a $\sigma$-finite premeasure $\mu_0$ on $\mc{A}$ and restrict $\mu_0^\ast$ onto $\mc{B}\coloneqq\bar{\mc{A}}$ in the pseudo-metric $d\l(B_1,B_2\r)\coloneqq\mu_0^\ast\!\l(B_1\symdiff B_2\r)$. Let $\mu$ be a further restriction of $\mu_0^\ast$ onto $\gen{\mc{A}}_\sigma$. Then (i) $\mu$ is a measure that uniquely extends $\mu_0$; (ii) the $\sigma$-algebra $\Meas_\mu$ coincides with $\mc{B}$; and (iii) we have $\bar{\mu}=\l.\mu_0^\ast\r|_\mc{B}$.
+Let $\mc{A}$ be an algebra on a set $X$. Consider a $\sigma$-finite premeasure $\mu_0$ on $\mc{A}$ and restrict $\mu_0^\ast$ onto $\mc{B}\coloneqq\bar{\mc{A}}$ in the pseudo-metric $d\l(B_1,B_2\r)\coloneqq\mu_0^\ast\!\l(B_1\symdiff B_2\r)$. Let $\mu$ be a further restriction of $\mu_0^\ast$ onto $\gen{\mc{A}}_\sigma$. Then (i) $\mu$ is a measure that uniquely extends $\mu_0$; (ii) $\mc{B}$ is exactly the $\mu$-measurable sets; and ${\color{red}{\textrm{\it{(iii) we have }}\bar{\mu}=\l.\mu_0^\ast\r|_\mc{B}}}$.
 * Furthermore, (iv) the $\mu$-measurable sets are approximable from above by countable unions of sets in $\mc{A}$, i.e. for every $\mu$-measurable set $M$ and $\epsilon>0$, there is a countable union $U\supseteq M$ of sets in $\mc{A}$ such that $\mu\l(U\comp M\r)<\epsilon$.
 
 ```
@@ -38,4 +38,9 @@ Thus both $\nu$ and $\mu$ are continuous functions on $\gen{\mc{A}}_\sigma$ that
 
 ---
 
-<i>Proof (ii, iv).</i> 
+<i>Proof (ii, iv).</i> That $\Meas_\mu\subseteq\mc{B}$ is easy since if $M=B\cup Z$ for some $B\in\gen{\mc{A}}_\sigma$ and some $\mu$-null $Z$, then there is a sequence $A_n\in\mc{A}$ such that $A_n\to B$. Note that $d\l(M,B\r)=\mu_0^\ast\!\l(Z\r)=0$, so, for any $\epsilon>0$, we have $d\l(M,A_n\r)\leq d\l(M,B\r)+d\l(B,A_n\r)=d\l(B,A_n\r)\leq\epsilon$ for all eventually $n\in\N$. Thus $A_n\to M$, so $M\in\mc{B}$ as desired.
+
+Conversely, take $M\in\mc{B}$, so for all $n>0$ there is some $A_n\in\mc{A}$ such that $\mu\l(A_n\symdiff M\r)=d\l(A_n,M\r)<1/3n$. For each $n>0$, we have a cover $\l\{A_{n,m}\r\}_m\subseteq\mc{A}$ of $A_n\symdiff M$ such that $\sum_m\mu\l(A_{n,m}\r)\leq\mu\l(A_n\symdiff M\r)+1/3n<2/3n$. Set $B\coloneqq\bigcup_n\l(A_n\comp\bigcup_mA_{n,m}\r)\in\gen{\mc{A}}_\sigma$ and $Z\coloneqq M\comp B$. Then $B\subseteq M$, so $M=B\cup Z$. A computation shows that $\mu_0^\ast\!\l(Z\r)<1/n$ for all $n>0$, so $\mu_0^\ast\l(Z\r)=0$. We claim that $Z$ is $\mu$-null (this is <i>not</i> a tautology).
+* Indeed, since $\mu_0^\ast\!\l(Z\r)=0$, for every $m>0$ there is some cover $Z\subseteq\bigcup_nB^m_n$ with each $B^m_n\in\mc{B}$ such that $\sum_n\mu\l(B^m_n\r)<1/m$. Set $\widehat{Z}\coloneqq\bigcap_{m>0}\bigcup_nB^m_n\in\mc{B}$, and note that $Z\subseteq\hat{Z}$. For every $m>0$, we have $\mu_0^\ast(\widehat{Z})\leq\mu^\ast\!\l(\bigcup_nB^m_n\r)\leq\sum_n\mu^\ast\!\l(B^m_n\r)<1/m$, so $\mu^\ast(\widehat{Z})=0$ as desired.
+
+Finally, for any $M\in\Meas_\mu$ and $\epsilon>0$, let $A\in\mc{A}$ be such that $\mu\l(A\symdiff M\r)<\epsilon/3$ and take a cover $\l\{A_n\r\}_n\subseteq\mc{A}$ of $A\symdiff M$ with $\sum_n\mu\l(A_n\r)<\mu\l(A\symdiff M\r)+\epsilon/3<2\epsilon/3$; such a cover exists by definition of the outer measure. Observe that $\l\{A\r\}\cup\l\{A_n\r\}_n\subseteq\mc{A}$ is a cover of $M$; set $U\coloneqq A\cup\bigcup_nA_n$ and a computation gives $\mu\l(U\comp M\r)<\epsilon$.<span style="float:right;">$\blacksquare$</span>

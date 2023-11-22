@@ -16,7 +16,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Borel-Cantelli Lemmas]], [[Basic properties of measures]]
 Sufficiencies: [[Caratheodory's Extension Theorem]], [[Monotone Class Lemma]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Premeasures, outer measures, and completion]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.
