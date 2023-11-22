@@ -6,11 +6,11 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 12/09/2023 20:32:39
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Borel Sets#^Borel-sigma-algebra]], [[Regularity and Tightness#^regular-tight-measures]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Measurable Function]], [[Integral]], [[Absolute Continuity]], [[Convergence in Measure]]
+Constructions: [[Measurable Function]], [[Integral]], [[Absolute Continuity]], [[Convergence in Measure]], [[Product Measure]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Borel-Cantelli Lemmas]], [[Basic properties of measures]]
