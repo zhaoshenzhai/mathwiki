@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Justifications: [[Monotone Convergence Theorem]]
 
 ``` ad-Definition
 title: Definition.
@@ -21,4 +21,9 @@ Let $\tpl{X,\mc{B},\mu}$ and $\tpl{Y,\mc{C},\nu}$ be measure spaces. The <b>prod
 
 ```
 
-<b>Remark.</b> Such a measure $\rho\coloneqq\mu\times\nu$ always exists. Indeed, we define a premeasure on the algebra $\mc{B}\times\mc{C}$ by $\rho_0\!\l(\bigsqcup_{n<N}B_n\times C_n\r)\coloneqq\sum_{n<N}\mu\l(B_n\r)\nu\l(C_n\r)$
+<b>Remark.</b> Such a measure $\rho\coloneqq\mu\times\nu$ always exists. Indeed, we define a premeasure on the algebra $\gen{\mc{B}\times\mc{C}}$ by $\rho_0\!\l(\bigsqcup_{n<N}B_n\times C_n\r)\coloneqq\sum_{n<N}\mu\l(B_n\r)\nu\l(C_n\r)$. To show that $\rho_0$ is well-defined and countably-additive, it suffices to show that if $B\times C=\bigsqcup_nB_n\times C_n$, then $\mu\l(B\r)\nu\l(C\r)=\sum_n\mu\l(B_n\r)\nu\l(C_n\r)$; well-definedness follows since any two such representations of $B\times C$ has a common refinement. Indeed, note that $\cchi_B\cchi_C=\cchi_{B\times C}=\sum_n\cchi_{B_n\times C_n}=\sum_n\cchi_{B_n}\cchi_{C_n}$, so integrating and using the MCT gives
+$$\begin{equation}
+    \nu\l(C\r)\cchi_B\!\l(x\r)=\cchi_B\!\l(x\r)\int\cchi_C\d\nu=\int\cchi_B\!\l(x\r)\cchi_C\d\nu=\int\sum_n\cchi_{B_n}\!\l(x\r)\cchi_{C_n}\d\nu=\sum_n\int\cchi_{B_n}\!\l(x\r)\cchi_{C_n}\d\nu=\sum_n\cchi_{B_n}\!\l(x\r)\int\chi_{C_n}\d\nu=\sum_n\nu\l(C_n\r)\cchi_{B_n}\!\l(x\r)
+\end{equation}$$
+for any fixed $x\in B$.
+
