@@ -44,3 +44,7 @@ for all $n>0$, so $\mu^\ast\!\l(Z\r)=0$ as desired. Heuristically, this allows u
 $$\begin{equation}
     \mu^\ast\!\l(B_\epsilon\comp M\r)=\mu^\ast\!\l(\l(A\comp M\r)\cup\bigcup_n\l(A_n\comp M\r)\r)\leq\mu^\ast\!\l(A\symdiff M\r)+\sum_n\mu^\ast\!\l(A_n\comp M\r)\leq\mu^\ast\!\l(A\symdiff M\r)+\sum_n\mu\l(A_n\r)<\epsilon.\exqedin
 \end{equation}$$
+
+---
+
+* Indeed, since $\mu^\ast\!\l(Z\r)=0$, for every $m>0$ there is some cover $Z\subseteq\bigcup_nB^m_n$ with each $B^m_n\in\mc{B}$ such that $\sum_n\mu\l(B^m_n\r)<1/m$. Set $\widehat{Z}\coloneqq\bigcap_{m>0}\bigcup_nB^m_n\in\mc{B}$. Then $\widehat{Z}\subseteq\bigcup_nB^m_n$ for every $m>0$, so by monotonicity and countable subadditivity we have $\mu^\ast(\widehat{Z})\leq\mu^\ast\!\l(\bigcup_nB^m_n\r)\leq\sum_n\mu^\ast\!\l(B^m_n\r)<1/m$ for every $m>0$. Thus $\mu^\ast(\widehat{Z})=0$, and since $Z\subseteq\bigcup_nB^m_n$ for every $m$, we see that $Z\subseteq\widehat{Z}$ too.<span style="float:right;">$\blacklozenge$</span> ^null-set-outer-measure

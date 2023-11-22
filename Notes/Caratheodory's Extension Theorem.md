@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 13/09/2023 17:24:38
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Basic properties of measures#^compatibility-premeasure-outer-measure]], [[Characterizations of continuity (metric)]], [[Continuous Extension Theorem]]
+Proved by: [[Basic properties of measures]], [[Characterizations of continuity (metric)]], [[Continuous Extension Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -17,34 +17,25 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Carathéodory’s Extension Theorem).
 
-Let $\mc{A}$ be an algebra on a set $X$. Every $\sigma$-finite premeasure $\mu$ on $\mc{A}$ admits a unique extension to a measure on $\gen{\mc{A}}_\sigma$.
+Let $\mc{A}$ be an algebra on a set $X$. Consider a $\sigma$-finite premeasure $\mu_0$ on $\mc{A}$ and restrict $\mu_0^\ast$ onto $\mc{B}\coloneqq\bar{\mc{A}}$ in the pseudo-metric $d\l(B_1,B_2\r)\coloneqq\mu_0^\ast\!\l(B_1\symdiff B_2\r)$. Let $\mu$ be a further restriction of $\mu_0^\ast$ onto $\gen{\mc{A}}_\sigma$. Then (i) $\mu$ is a measure that uniquely extends $\mu_0$; (ii) the $\sigma$-algebra $\Meas_\mu$ coincides with $\mc{B}$; and (iii) we have $\bar{\mu}=\l.\mu_0^\ast\r|_\mc{B}$.
+* Furthermore, (iv) the $\mu$-measurable sets are approximable from above by countable unions of sets in $\mc{A}$, i.e. for every $\mu$-measurable set $M$ and $\epsilon>0$, there is a countable union $U\supseteq M$ of sets in $\mc{A}$ such that $\mu\l(U\comp M\r)<\epsilon$.
 
 ```
 
-<i>Proof.</i> It suffices to show that the outer measure $\mu^\ast$ induced from $\mu$ is finitely-additive on $\gen{\mc{A}}_\sigma$. Indeed, $\mu^\ast$ is countably subadditive, and since $\l.\mu^\ast\r|_\mc{A}=\mu$ is a premeasure, it is countably supadditive too. To this end, we define a pseudo-metric $d$ on $\pow\l(X\r)$ by $d\l(A,B\r)\coloneqq\mu^\ast\!\l(A\symdiff B\r)$, where $\symdiff$ is the <i>symmetric difference</i> defined by $A\symdiff B\coloneqq\l(A\comp B\r)\cup\l(B\comp A\r)=\l(A\cup B\r)\comp\l(A\cap B\r)$. Note that $\tpl{\pow\l(X\r),\symdiff}$ is an abelian group with identity $\em$ and with $A^{-1}=A$ for all $A\in\pow\l(X\r)$.
-* We may w.l.o.g. assume that $\mu\l(X\r)<\infty$. For the general $\sigma$-finite case, partition $X=\bigsqcup_{n\in\N}X_n$ with each $\mu\l(X_n\r)<\infty$. Then the extension of $\mu$ to $\gen{\mc{A}}_\sigma$ follows from that of $\gen{\l.\mc{A}\r|_{X_n}}_\sigma$ for each $n$.
+<i>Proof (i).</i> To show that the restriction $\mu$ of $\mu_0^\ast$ onto $\gen{\mc{A}}_\sigma$ is countably additive, it suffices to show that $\mc{B}$ is a $\sigma$-algebra and that $\mu_0^\ast$ is finitely-additive on $\mc{B}$. Indeed, it follows then that $\mu$ is finitely-additive on $\gen{\mc{A}}_\sigma\subseteq\mc{B}$, so it is countably-supadditive; since the outer measure $\mu_0^\ast$ is itself countably-subadditive, we are done. Assume w.l.o.g. that $\mu_0\!\l(X\r)<\infty$; for the general $\sigma$-finite case, partition $X=\bigsqcup_nX_n$ with each $\mu_0\!\l(X_n\r)<\infty$ and note that the extension of $\mu_0$ to $\gen{\mc{A}}_\sigma$ follows from that of the extensions of $\mu_0$ to $\gen{\l.\mc{A}\r|_{X_n}}_\sigma$ for each $n$.
+* First, the triangle inequality holds since $d\l(A,B\r)=\mu_0^\ast\!\l(A\symdiff B\r)\leq\mu_0^\ast\!\l(\l(A\symdiff B\r)\cup\l(B\symdiff C\r)\r)\leq\mu_0^\ast\!\l(A\symdiff B\r)+\mu_0^\ast\!\l(B\symdiff C\r)=d\l(A,B\r)+d\l(B,C\r)$. Using basic properties of $\symdiff$, one notes that the maps $\mu_0^\ast:A\to\mu_0^\ast\!\l(A\r)$, $\l(\slot\r)^c:A\mapsto A^c$, and $\cup:\tpl{A,B}\mapsto A\cup B$ on $\pow\l(X\r)$ are all continuous with respect to the appropriate metrics. In particular, this shows that $\mc{B}$ is an algebra; if $A\in\mc{B}$ and $A_n\to A$ is a sequence in $\mc{A}$, then $A_n^c\to A^c$ by continuity of $\l(\slot\r)^c$ and hence $A^c\in\mc{B}$ too; similarly for $\cup$.
+* Next, we claim that $\mu_0^\ast$ is finitely-additive on $\mc{B}$. Indeed, if $A,B\in\mc{B}$ are disjoint and $A_n\to A$ and $B_n\to B$ are sequences in $\mc{A}$, then $A_n\cup B_n\to A\sqcup B$ and hence $\mu_0^\ast\!\l(A_n\cup B_n\r)\to\mu_0^\ast\!\l(A\sqcup B\r)$ by continuity of $\mu_0^\ast$. But $\mu_0^\ast\!\l(A_n\cup B_n\r)=\mu_0\l(A_n\cup B_n\r)\approx_{\epsilon_n}\mu_0\l(A_n\r)+\mu_0\l(B_n\r)$ since $\mu_0\l(A_n\cap B_n\r)\to\mu\l(A\cap B\r)=0$, and hence
+$$\begin{equation}
+    \mu_0^\ast\!\l(A\sqcup B\r)\approx_{\epsilon_n}\mu_0^\ast\!\l(A_n\cup B_n\r)\approx_{\epsilon_n}\mu_0^\ast\!\l(A_n\r)+\mu_0^\ast\!\l(B_n\r)\approx_{\epsilon_n}\mu_0^\ast\!\l(A\r)+\mu_0^\ast\!\l(B\r).
+\end{equation}$$
+* We claim that $\mc{B}$ is a $\sigma$-algebra. Let $\l\{B_n\r\}_n\in\mc{B}$ be disjoint and choose $A_n\in\mc{A}$ so that $A_n\approx_{\epsilon/2^{n+1}}B_n$; a computation then gives $d\l(\bigcup_nA_n,\bigcup_nB_n\r)<\epsilon$. We claim that $\bigcup_nA_n\in\mc{B}$; since $\mc{B}$ is closed and $\epsilon$ is arbitrary, this shows that $\bigcup_nB_n\in\mc{B}$ too. Indeed, we may assume w.l.o.g. that the collection $\l\{A_n\r\}$ is pairwise disjoint. Note that $\mu_0^\ast\!\l(X\r)\geq\mu_0^\ast\!\l(\bigsqcup_{n<N}A_n\r)=\sum_{n<N}\mu_0^\ast\!\l(A_n\r)$ for all $N\in\N$, so $\sum_n\mu_0\l(A_n\r)$ converges and thus $d\l(\bigsqcup_{n<N}A_n,\bigsqcup_nA_n\r)=\mu_0^\ast\!\l(\bigsqcup_{n\geq N}A_n\r)\leq\sum_{n\geq N}\mu_0^\ast\l(A_n\r)\rightarrow0$.
 
-The map $d$ is clearly positive and symmetric, and the triangle inequality holds since $A\symdiff C=\l(A\symdiff B\r)\symdiff\l(B\symdiff C\r)\subseteq\l(A\symdiff B\r)\cup\l(B\symdiff C\r)$, so it follows from monotonicity and subadditivity that $d\l(A,B\r)=\mu^\ast\!\l(A\symdiff B\r)\leq\mu^\ast\!\l(\l(A\symdiff B\r)\cup\l(B\symdiff C\r)\r)\leq\mu^\ast\!\l(A\symdiff B\r)+\mu^\ast\!\l(B\symdiff C\r)=d\l(A,B\r)+d\l(B,C\r)$. Set $\mc{B}\coloneqq\bar{\mc{A}}$. We claim that $\mc{B}$ is a $\sigma$-algebra and $\mu^\ast$ is finitely-additive on $\mc{B}$.
-* First, note that $\mu^\ast:\pow\l(X\r)\to\l[0,\infty\r)$ is $1$-Lipschitz. Indeed, this follows from the fact that $x\mapsto d\l(x,x_0\r)$ is $1$-Lipschitz and that $\mu^\ast\!\l(A\r)=d\l(A,\em\r)$.
-* Next, the complementation map $\l(\slot\r)^c:A\mapsto A^c$ is an isometry since $A\symdiff B=A^c\symdiff B^c$. This shows that $\mc{B}$ is closed under complements since if $A\in\mc{B}$ and $A_n\to A$ is a sequence in $\mc{A}$, then $A_n^c\to A^c$ by continuity of $\l(\slot\r)^c$. Thus $A^c\in\mc{B}$ too, as desired.
-* Similarly, the union map $\cup:\tpl{A,B}\mapsto A\cup B$ is $1$-Lipschitz, w.r.t. the metric $d^2$ defined by $d^2\!\l(\tpl{A_1,B_1},\tpl{A_2,B_2}\r)\coloneqq d\l(A_1,A_2\r)+d\l(B_1,B_2\r)$. Indeed, this follows from the fact that $\l(A_1\cup B_1\r)\symdiff\l(A_2\cup B_2\r)\subseteq\l(A_1\symdiff A_2\r)\cup\l(B_1\symdiff B_2\r)$. This shows that $\mc{B}$ is closed under finite unions since $A,B\in\mc{B}$ and $A_n\to A$ and $B_n\to B$ are sequences in $\mc{A}$, then $A_n\cup B_n\to A\cup B$ by continuity of $\cup$. Thus $A\cup B\in\mc{B}$ too, as desired.
+For uniqueness, let $\nu$ be a measure on $\gen{\mc{A}}_\sigma$ extending $\mu_0$; we claim that $\nu=\mu$. Indeed, we have $\nu\leq\mu$ since if $B\in\gen{\mc{A}}_\sigma$ and $B\subseteq\bigcup_nA_n$ is a cover with each $A_n\in\mc{A}$, then $\nu\l(B\r)\leq\nu\l(\bigcup_nA_n\r)\leq\sum_n\nu\l(A_n\r)=\sum_n\mu_0\l(A_n\r)$. Conversely, note that $\nu$ is $1$-Lipschitz since
+$$\begin{equation}
+    \l|\nu\l(A\r)-\nu\l(B\r)\r|=\l|\nu\l(A\comp B\r)-\nu\l(B\comp A\r)\r|\leq\nu\l(A\comp B\r)+\nu\l(B\comp A\r)=\nu\l(A\symdiff B\r)\leq\mu_0^\ast\!\l(A\symdiff B\r)=d\l(A,B\r).
+\end{equation}$$
+Thus both $\nu$ and $\mu$ are continuous functions on $\gen{\mc{A}}_\sigma$ that coincide on a dense set $\mc{A}\subseteq\mc{B}$, so they coincide on $\gen{\mc{A}}_\sigma$.<span style="float:right;">$\blacksquare$</span>
 
-This shows that $\mu^\ast$ is finitely-additive on the algebra $\mc{B}$. Indeed, if $A,B\in\mc{B}$ are disjoint and $A_n\to A$ and $B_n\to B$ are sequences in $\mc{A}$, then $A_n\cup B_n\to A\sqcup B$ and hence $\mu^\ast\!\l(A_n\cup B_n\r)\to\mu^\ast\!\l(A\sqcup B\r)$. But $\mu^\ast\!\l(A_n\cup B_n\r)=\mu\l(A_n\cup B_n\r)\approx_{\epsilon_n}\mu\l(A_n\r)+\mu\l(B_n\r)$ because $A_n\cap B_n\to A\cap B=\em$ and hence $\mu\l(A_n\cap B_n\r)\to0$, so
-$$\begin{equation}
-    \mu^\ast\!\l(A\sqcup B\r)\approx_{\epsilon_n}\mu^\ast\!\l(A_n\cup B_n\r)\approx_{\epsilon_n}\mu^\ast\!\l(A_n\r)+\mu^\ast\!\l(B_n\r)\approx_{\epsilon_n}\mu^\ast\!\l(A\r)+\mu^\ast\!\l(B\r).
-\end{equation}$$
-We now show that $\mc{B}$ is a $\sigma$-algebra. Let $\l\{B_n\r\}_{n\in\N}\in\mc{B}$ be disjoint and, for all $n\in\N$, let $A_n\in\mc{A}$ be such that $A_n\approx_{\epsilon/2^{n+1}}B_n$. Observe then that
-$$\begin{equation}
-    d\l(\bigcup_{n\in\N}A_n,\bigcup_{n\in\N}B_n\r)\leq\mu^\ast\!\l(\bigcup_{n\in\N}\l(A_n\symdiff B_n\r)\r)\leq\sum_{n\in\N}\mu^\ast\!\l(A_n\symdiff B_n\r)=\sum_{n\in\N}d\l(A_n,B_n\r)=\epsilon.
-\end{equation}$$
-We claim that $\bigcup_{n\in\N}A_n\in\mc{B}$, for then $\bigcup_{n\in\N}B_n\in\mc{B}$ too since $\epsilon$ is arbitrary and $\mc{B}$ is closed. Indeed, by disjointification we may assume that the collection $\l\{A_n\r\}$ is pairwise disjoint. Note that $\mu^\ast\!\l(X\r)\geq\mu^\ast\!\l(\bigsqcup_{n\in\N}A_n\r)\geq\mu^\ast\!\l(\bigsqcup_{n<N}A_n\r)=\sum_{n<N}\mu^\ast\!\l(A_n\r)$ for all $N\in\N$, so $\sum_{n\in\N}\mu\l(A_n\r)$ converges. It follows then that
-$$\begin{equation}
-    d\l(\bigsqcup_{n<N}A_n,\bigsqcup_{n\in\N}A_n\r)=\mu^\ast\!\l(\bigsqcup_{n\geq N}A_n\r)\leq\sum_{n\geq N}\mu^\ast\l(A_n\r)\rightarrow0,
-\end{equation}$$
-so $\bigsqcup_{n\in\N}A_n\in\mc{B}$ as desired. Thus $\mc{B}\supseteq\mc{A}$ is a $\sigma$-algebra, so $\mc{B}\subseteq\gen{\mc{A}}_\sigma$ and so $\mu^\ast$ is finitely-additive on $\gen{\mc{A}}_\sigma$ too.
+---
 
-Finally, we show that this extension is unique, for which it suffices to show it for finite premeasures since if $X=\bigsqcup_{n\in\N}X_n$ with each $X_n\in\mc{A}$ and $\mu\l(X_n\r)<\infty$, then $\mu=\sum_{n\in\N}\l.\mu\r|_{X_n}$. Let $\nu$ be a measure on $\gen{\mc{A}}_\sigma$ extending $\mu$. We claim that $\nu=\l.\mu^\ast\r|_{\gen{\mc{A}}_\sigma}$. Indeed, we have $\nu\leq\mu^\ast$ since if $B\in\gen{\mc{A}}_\sigma$ and $B\subseteq\bigcup_{n\in\N}A_n$ is a cover with each $A_n\in\mc{A}$, then $\nu\l(B\r)\leq\nu\l(\bigcup_{n\in\N}A_n\r)\leq\sum_{n\in\N}\nu\l(A_n\r)=\sum_{n\in\N}\mu\l(A_n\r)$. Thus $\nu\l(B\r)\leq\mu^\ast\!\l(B\r)$, as desired. Lastly, note that $\nu$ is $1$-Lipschitz since
-$$\begin{equation}
-    \l|\nu\l(A\r)-\nu\l(B\r)\r|=\l|\nu\l(A\comp B\r)-\nu\l(B\comp A\r)\r|\leq\nu\l(A\comp B\r)+\nu\l(B\comp A\r)=\nu\l(A\symdiff B\r)\leq\mu^\ast\!\l(A\symdiff B\r)=d\l(A,B\r).
-\end{equation}$$
-Thus both $\nu$ and $\mu^\ast$ are continuous functions on $\gen{\mc{A}}_\sigma$ that coincide on a dense set $\mc{A}\subseteq\mc{B}$, so they coincide on $\gen{\mc{A}}_\sigma$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof (ii, iv).</i> 
