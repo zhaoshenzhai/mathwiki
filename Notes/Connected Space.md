@@ -8,13 +8,13 @@ mathLink-blocks:
 Date Created: 28/12/2022 22:22:37
 Tags: #Type/Definition #Topic/Topology
 
-Types: [[Path-connected Space]]
+Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Connected implies well-defined number of sheets]]
-Sufficiencies: <i>Not Applicable</i>
+Sufficiencies: [[Path-connected Space#^path-connected-implies-connected]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
