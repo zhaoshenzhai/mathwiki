@@ -15,7 +15,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Covering Homotopy Theorem]], [[Basic properties of covering spaces]], [[Independence of base point]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Galois Correspondence of Covering Spaces]]
-Justifications: [[Connected implies well-defined number of sheets]]
+Justifications: [[Path-connected Space#^locally-path-connected-connected-implies-path-connected]]
 
 ``` ad-Definition
 title: Definition.
@@ -35,4 +35,9 @@ The resulting homotopy $\widetilde{\gamma}_t$ is a homotopy _of paths_ since as 
 
 ---
 
-<b>Remark.</b> We define covering spaces to be path-connected. If not, we can always restrict to path-components. This implies that $X$ is path-connected too. Also, note that any local property of $X$ is inherited by $E$. In particular, if $X$ is locally path-connected, then so is $E$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Connectedness implies that the number of sheets of $p$ is well-defined. Indeed, consider the equivalence relation $\sim$ on $X$ defined by $x\sim x'$ iff the fibers over $x$ and $x'$ are equinumerous. Each equivalence class is open since for every $x\in X$, there is an open set $U\ni x$ evenly-covered by some sheets $V_j$. For any $x'\in U$, the set $p^{-1}\!\l(x'\r)\cap V_j$ is a singleton for all $j\in J$, so $\l|p^{-1}\!\l(x'\r)\r|=\l|J\r|$. In particular, since $x\in U$, we have $x\sim x'$ as desired.
+* The locally path-connected hypothesis ensures that $E$ is also path-connected.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> Note that every covering map $p:E\to X$ is a quotient map. Indeed, it suffices to show that $p$ is an open map, so let $V\subseteq E$ be open and let $x\in p\l(V\r)$. For an evenly-covered neighborhood $U\ni x$, let $e\in p^{-1}\!\l(x\r)\cap V$ and let $\widetilde{U}$ be the sheet above $U$ containing $e$; note that $\widetilde{U}\cap V$ is an open subset of $\widetilde{U}$ containing $e$. Since $\l.p\r|_{\widetilde{U}}:\widetilde{U}\to U$ is a homeomorphism, we see that $p\,(\widetilde{U}\cap V)$ is an open subset of $p\l(V\r)$ containing $x$, as desired.<span style="float:right;">$\blacklozenge$</span>

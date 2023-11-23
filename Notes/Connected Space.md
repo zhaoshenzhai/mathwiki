@@ -13,7 +13,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Connected implies well-defined number of sheets]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Path-connected Space#^path-connected-implies-connected]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
