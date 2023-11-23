@@ -14,9 +14,9 @@ Constructions: [[Measurable Function]], [[Integral]], [[Absolute Continuity]], [
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Borel-Cantelli Lemmas]], [[Basic properties of measures]]
-Sufficiencies: [[Caratheodory's Extension Theorem]], [[Monotone Class Lemma]]
+Sufficiencies: [[Monotone Class Lemma]]
 Equivalences: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Justifications: [[Caratheodory's Extension Theorem]]
 
 ``` ad-Definition
 title: Definition.
