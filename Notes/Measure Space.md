@@ -11,10 +11,10 @@ Tags: #Type/Definition #Topic/Real_Analysis
 Types: [[Borel Sets#^Borel-sigma-algebra]], [[Regularity and Tightness#^regular-tight-measures]]
 Examples: <i>Not Applicable</i>
 Constructions: [[Measurable Function]], [[Integral]], [[Absolute Continuity]], [[Convergence in Measure]], [[Product Measure]]
-Generalizations: <i>Not Applicable</i>
+Generalizations: [[Signed Measure]]
 
 Properties: [[Borel-Cantelli Lemmas]], [[Basic properties of measures]]
-Sufficiencies: [[Monotone Class Lemma]]
+Sufficiencies: [[Monotone Class Lemma]], [[Hahn Decomposition Theorem]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Caratheodory's Extension Theorem]]
 
