@@ -13,8 +13,8 @@ Examples: [[Integral#^integral-measure-abs-cont-measure]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Lebesgue-Radon-Nikodym Theorem#^radon-nikodym]]
-Sufficiencies: [[Lebesgue-Radon-Nikodym Theorem#^lebesgue-decomposition]]
+Properties: [[Lebesgue-Radon-Nikodym Theorem]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Borel-Cantelli Lemmas]], [[Basic properties of measures#^monotone-convergence-of-sets]]
 
