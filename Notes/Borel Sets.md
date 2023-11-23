@@ -6,10 +6,10 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 17/10/2023 21:19:13
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
-Examples: [[Bernoulli p-measure]], [[Lebesgue-Stieltjes Measure#^borel-measures-on-R]]
+Examples: [[Lebesgue-Stieltjes Measure#^borel-measures-on-R]]
 Constructions: [[Measurable Function#^Borel-function]]
 Generalizations: <i>Not Applicable</i>
 
