@@ -1,3 +1,9 @@
+---
+mathLink-blocks:
+    borel-measures-on-R: Borel Measures on $\R$
+    lebesgue: Lebesgue Measure
+---
+
 <div class="topSpace"></div>
 
 Date Created: 13/09/2023 18:28:00
@@ -16,8 +22,9 @@ title: Theorem (Borel measures on $\R$).
 For any increasing right-continuous function $f:\R\to\R$, there is a unique Borel measure $\mu_f$ with $\mu_f\!\l(a,b\r]=f\l(b\r)-f\l(a\r)$, and conversely every Borel measure $\mu$ on $\R$ that is finite on bounded sets is given by such a function $f$, which is unique up to a constant.
 
 ```
+^borel-measures-on-R
 
-<b>Remark.</b> For such a function $f:\R\to\R$ the Borel measure $\mu_f$ is called a <i>Lebesgue-Steiltjes</i> measure on $\R$. The <i>Lebesgue</i> measure on $\R$ is $\lambda\coloneqq\mu_\id$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> For such a function $f:\R\to\R$, the Borel measure $\mu_f$ is called a <i>Lebesgue-Steiltjes</i> measure on $\R$. The <i>Lebesgue</i> measure on $\R$ is $\lambda\coloneqq\mu_\id$.<span style="float:right;">$\blacklozenge$</span> ^lebesgue
 
 ---
 

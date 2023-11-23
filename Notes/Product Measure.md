@@ -1,17 +1,17 @@
 <div class="topSpace"></div>
 
 Date Created: 22/11/2023 14:33:20
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Bernoulli p-measure]], [[Lebesgue-Stieltjes Measure#^lebesgue]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Fubini-Tonelli Theorem]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Monotone Convergence Theorem]]
+Justifications: [[Caratheodory's Extension Theorem]], [[Monotone Convergence Theorem]], [[Measurable Function#^continuous-implies-Borel]]
 
 ``` ad-Definition
 title: Definition.
@@ -25,5 +25,8 @@ Let $\tpl{X,\mc{B},\mu}$ and $\tpl{Y,\mc{C},\nu}$ be measure spaces. The <b>prod
 $$\begin{equation}
     \nu\l(C\r)\cchi_B\!\l(x\r)=\cchi_B\!\l(x\r)\int\cchi_C\d\nu=\int\cchi_B\!\l(x\r)\cchi_C\d\nu=\int\sum_n\cchi_{B_n}\!\l(x\r)\cchi_{C_n}\d\nu=\sum_n\int\cchi_{B_n}\!\l(x\r)\cchi_{C_n}\d\nu=\sum_n\cchi_{B_n}\!\l(x\r)\int\chi_{C_n}\d\nu=\sum_n\nu\l(C_n\r)\cchi_{B_n}\!\l(x\r)
 \end{equation}$$
-for any fixed $x\in B$.
+for any fixed $x\in B$. Integrating and using the MCT again, we obtain the desired result as $\mu\l(B\r)\nu\l(C\r)=\nu\l(C\r)\int\cchi_B\d\mu=\sum_n\nu\l(C_n\r)\int\cchi_{B_n}\d\mu=\sum_n\mu\l(B_n\r)\nu\l(C_n\r)$. Thus $\rho_0$ is indeed a premeasure, so it extends via Carathéodory to the desired measure $\rho$. Lastly, if both $\mu$ and $\nu$ are $\sigma$-finite, then so is $\rho_0$ and hence $\rho$ is the unique such measure on $\mc{B}\otimes\mc{C}$. Lastly, note that this construction extends to all finite products; the infinite case is more intricate.<span style="float:right;">$\blacklozenge$</span>
 
+---
+
+<b>Remark.</b> If $X_1,\dots,X_d$ are second countable topological spaces and $X\coloneqq\prod_{i=1}^dX_i$, then $\mc{B}\l(X\r)=\bigotimes_{i=1}^d\mc{B}\l(X_i\r)$. Indeed, let $\mc{U}_i$ be a countable basis for $X_i$, which makes $X$ second countable too. For each open set $U\subseteq X$, we write $U=\bigcup_n\prod_{i=1}^dU_i$ for some $U_i\in\mc{U}_i\subseteq\mc{B}\l(X_i\r)$, so $\mc{B}\l(X\r)\subseteq\bigotimes_{i=1}^d\mc{B}\l(X_i\r)$ as desired. Conversely, for every $A_i\in\mc{B}\l(X_i\r)$, we can write $\prod_{i=1}^dA_i$ as $\bigcap_{i=1}^d\pi_i^{-1}\!\l(A_i\r)$. Each $\pi_i$ is continuous, hence Borel, so $\pi_i^{-1}\!\l(A_i\r)\in\mc{B}\l(X\r)$. Thus $\prod_{i=1}^dA_i\in\mc{B}\l(X\r)$ too, so $\mc{B}\l(X\r)$ is a $\sigma$-algebra containing all products $\prod_{i=1}^dA_i$ as desired.<span style="float:right;">$\blacklozenge$</span>
