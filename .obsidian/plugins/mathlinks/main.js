@@ -66,7 +66,7 @@ var import_obsidian8 = require("obsidian");
 var import_state2 = require("@codemirror/state");
 
 // src/links/preview.ts
-var import_obsidian3 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 var import_state = require("@codemirror/state");
 var import_view = require("@codemirror/view");
 var import_language = require("@codemirror/language");
@@ -103,7 +103,7 @@ var NativeProvider = class extends Provider {
     this.mathLinks.saveSettings();
   }
   provide(parsedLinktext, targetFile, targetSubpathResult) {
-    var _a;
+    var _a, _b;
     const { mathLinks } = this;
     const { app } = mathLinks;
     if (!targetFile)
@@ -115,7 +115,7 @@ var NativeProvider = class extends Provider {
     if (targetSubpathResult) {
       mathLink = getMathLinkFromSubpath(parsedLinktext.path, targetSubpathResult, cache.frontmatter, mathLinks.settings.blockPrefix, mathLinks.settings.enableFileNameBlockLinks ? null : "");
     } else if (parsedLinktext.path) {
-      mathLink = (_a = cache.frontmatter) == null ? void 0 : _a.mathLink;
+      mathLink = (_b = (_a = cache.frontmatter) == null ? void 0 : _a.mathLink) != null ? _b : null;
       if (mathLink == "auto") {
         mathLink = getMathLinkFromTemplates(mathLinks, targetFile);
       }
@@ -160,7 +160,6 @@ function setMathLink(source, mathLinkEl) {
       mathLinkEl.createSpan().replaceWith(source.slice(textFrom, textTo));
     const mathEl = (0, import_obsidian2.renderMath)(mathString, false);
     mathLinkEl.createSpan({ cls: ["math", "math-inline", "is-loaded"] }).replaceWith(mathEl);
-    (0, import_obsidian2.finishRenderMath)();
     textFrom = mathPattern.lastIndex;
   }
   if (textFrom < source.length)
@@ -176,7 +175,7 @@ function getMathLink(plugin, targetLink, sourcePath, isSourceMode) {
     return "";
   let subpathResult = (0, import_obsidian2.resolveSubpath)(cache, subpath);
   const sourceFile = plugin.app.vault.getAbstractFileByPath(sourcePath);
-  if (!(sourceFile instanceof import_obsidian2.TFile)) {
+  if (!(sourceFile === null || sourceFile instanceof import_obsidian2.TFile)) {
     return "";
   }
   let mathLink = "";
@@ -279,6 +278,38 @@ function getSuperCharged(plugin, file) {
   return [tags, attributes];
 }
 
+// src/utils.ts
+var import_obsidian3 = require("obsidian");
+function isExcluded(plugin, file) {
+  for (let i = 0; i < plugin.settings.excludedPaths.length; i++) {
+    let excluded = plugin.app.vault.getAbstractFileByPath(plugin.settings.excludedPaths[i]);
+    if (excluded && isEqualToOrChildOf(file, excluded))
+      return true;
+  }
+  return false;
+}
+function translateLink(targetLink) {
+  var _a;
+  function translateLinkImpl(targetLink2, pattern) {
+    let result = pattern.exec(targetLink2);
+    if (result)
+      return (result[1] ? `${result[1]} > ` : "") + `${result[2]}`;
+  }
+  let headingPattern = /(^.*)#([^\^].*)/;
+  let blockPattern = /(^.*)#(\^[a-zA-Z0-9\-]+)/;
+  let translatedAsHeading = translateLinkImpl(targetLink, headingPattern);
+  let translatedAsBlock = translateLinkImpl(targetLink, blockPattern);
+  return (_a = translatedAsHeading != null ? translatedAsHeading : translatedAsBlock) != null ? _a : "";
+}
+function isEqualToOrChildOf(file1, file2) {
+  if (file2 instanceof import_obsidian3.TFile)
+    return file1.path === file2.path;
+  if (file2 instanceof import_obsidian3.TFolder) {
+    return file1.path.startsWith(file2.path + "/");
+  }
+  return false;
+}
+
 // src/links/preview.ts
 function selectionAndRangeOverlap(selection, rangeFrom, rangeTo) {
   for (const range of selection.ranges) {
@@ -291,89 +322,8 @@ function selectionAndRangeOverlap(selection, rangeFrom, rangeTo) {
 function hasEffect(tr, effectType) {
   return tr.effects.some((effect) => effect.is(effectType));
 }
-var MathLinkInfo = class extends import_state.RangeValue {
-  constructor(linkText, mathLink) {
-    super();
-    this.linkText = linkText;
-    this.mathLink = mathLink;
-  }
-  eq(other) {
-    return this.linkText == other.linkText && this.mathLink == other.mathLink;
-  }
-};
 var createEditorExtensions = (plugin) => {
-  const buildField = (state) => {
-    let builder = new import_state.RangeSetBuilder();
-    const isSourceMode = !state.field(import_obsidian3.editorLivePreviewField);
-    const file = state.field(import_obsidian3.editorInfoField).file;
-    let start = -1, end = -1, outLinkText = "", outLinkMathLink = "";
-    (0, import_language.syntaxTree)(state).iterate({
-      enter(node) {
-        let name = node.type.name;
-        if (name.contains("formatting-link_formatting-link-start")) {
-          if (isSourceMode) {
-            if (state.sliceDoc(node.from, node.to) == "[[" && node.node.nextSibling) {
-              start = node.node.nextSibling.from;
-            } else {
-              return;
-            }
-          } else {
-            start = node.from;
-          }
-        } else if (name.contains("formatting_formatting-link_link")) {
-          if (start == -1) {
-            start = node.from;
-          }
-        } else if (name.contains("has-alias")) {
-          outLinkText += state.doc.sliceString(node.from, node.to);
-          if (file && outLinkMathLink == outLinkText.replace(/\.md/, "")) {
-            outLinkMathLink = getMathLink(plugin, outLinkText, file.path, isSourceMode);
-          }
-        } else if (/string_url$/.test(name) && !name.contains("format")) {
-          outLinkText += decodeURI(state.doc.sliceString(node.from, node.to));
-          if (file && outLinkMathLink == outLinkText.replace(/\.md/, "")) {
-            outLinkMathLink = getMathLink(plugin, outLinkText, file.path, isSourceMode);
-          }
-        } else if (file && name.contains("hmd-internal-link") && !name.contains("alias")) {
-          outLinkText += state.doc.sliceString(node.from, node.to);
-          outLinkMathLink = getMathLink(plugin, outLinkText, file.path, isSourceMode);
-        } else if (name.contains("formatting-link-end") || name.contains("formatting-link-string")) {
-          if (!name.contains("end") && end == -1) {
-            end = -2;
-          } else {
-            if (isSourceMode) {
-              if (node.node.prevSibling && state.sliceDoc(node.from, node.to) == "]]") {
-                end = node.node.prevSibling.to;
-              } else {
-                return;
-              }
-            } else {
-              end = node.to;
-            }
-            if (outLinkText && outLinkMathLink) {
-              builder.add(start, end, new MathLinkInfo(outLinkText, outLinkMathLink.replace(/\\\$/, "$")));
-            }
-            start = -1;
-            end = -1;
-            outLinkText = "";
-            outLinkMathLink = "";
-          }
-        } else if (!name.contains("pipe") && (name.contains("hmd-internal-link") && name.contains("alias") || name.contains("hmd-escape") && name.contains("link") || /^link/.test(name))) {
-          outLinkMathLink += state.doc.sliceString(node.from, node.to);
-          if (file && outLinkMathLink == outLinkText.replace(/\.md/, "")) {
-            outLinkMathLink = getMathLink(plugin, outLinkText, file.path, isSourceMode);
-          }
-        }
-      }
-    });
-    return builder.finish();
-  };
-  const mathLinkInfoField = import_state.StateField.define({
-    create: buildField,
-    update(oldFields, tr) {
-      return tr.docChanged || hasEffect(tr, plugin.forceUpdateEffect) ? buildField(tr.state) : oldFields;
-    }
-  });
+  const { app, forceUpdateEffect } = plugin;
   class MathWidget extends import_view.WidgetType {
     constructor(outLinkText, outLinkMathLink, isSourceMode, sourcePath) {
       super();
@@ -383,25 +333,25 @@ var createEditorExtensions = (plugin) => {
       this.sourcePath = sourcePath;
     }
     eq(other) {
-      return this.outLinkText == other.outLinkText && this.outLinkMathLink == other.outLinkMathLink && this.isSourceMode == other.isSourceMode && this.sourcePath == other.sourcePath;
+      return this.outLinkText === other.outLinkText && this.outLinkMathLink === other.outLinkMathLink && this.isSourceMode == other.isSourceMode && this.sourcePath === other.sourcePath;
     }
     toDOM() {
-      let mathLink = createSpan();
-      setMathLink(this.outLinkMathLink, mathLink);
+      const mathLinkEl = createSpan();
+      setMathLink(this.outLinkMathLink, mathLinkEl);
       if (!this.isSourceMode)
-        mathLink.addClass("cm-underline");
-      mathLink.setAttribute("draggable", "true");
-      const linkpath = (0, import_obsidian3.getLinkpath)(this.outLinkText);
-      const targetFile = plugin.app.metadataCache.getFirstLinkpathDest(linkpath, this.sourcePath);
+        mathLinkEl.addClass("cm-underline");
+      mathLinkEl.setAttribute("draggable", "true");
+      const linkpath = (0, import_obsidian4.getLinkpath)(this.outLinkText);
+      const targetFile = app.metadataCache.getFirstLinkpathDest(linkpath, this.sourcePath);
       if (targetFile)
-        addSuperCharged(plugin, mathLink, targetFile);
-      let mathLinkWrapper = createSpan();
+        addSuperCharged(plugin, mathLinkEl, targetFile);
+      const mathLinkWrapper = createSpan();
       mathLinkWrapper.addClass("cm-hmd-internal-link");
-      mathLinkWrapper.appendChild(mathLink);
+      mathLinkWrapper.appendChild(mathLinkEl);
       mathLinkWrapper.onclick = (evt) => {
         evt.preventDefault();
         if (targetFile) {
-          plugin.app.workspace.openLinkText(this.outLinkText, this.sourcePath, import_obsidian3.Keymap.isModEvent(evt));
+          app.workspace.openLinkText(this.outLinkText, this.sourcePath, import_obsidian4.Keymap.isModEvent(evt));
         } else {
           self.open(this.outLinkText, "_blank", "noreferrer");
         }
@@ -414,7 +364,7 @@ var createEditorExtensions = (plugin) => {
       mathLinkWrapper.onauxclick = (evt) => {
         if (evt.button == 1) {
           if (targetFile) {
-            plugin.app.workspace.openLinkText(this.outLinkText, this.sourcePath, true);
+            app.workspace.openLinkText(this.outLinkText, this.sourcePath, true);
           } else {
             self.open(this.outLinkText, "_blank", "noreferrer");
           }
@@ -423,97 +373,107 @@ var createEditorExtensions = (plugin) => {
       return mathLinkWrapper;
     }
   }
-  const mathLinksViewPlugin = import_view.ViewPlugin.fromClass(class {
+  const viewPlugin = import_view.ViewPlugin.fromClass(class {
     constructor(view) {
-      this.decorations = this.buildDecorations(view);
+      this.tryBuildingDecorations(view);
+    }
+    update(update) {
+      const forceUpdate = update.transactions.some((tr) => hasEffect(tr, forceUpdateEffect));
+      if (forceUpdate || update.docChanged || update.viewportChanged || update.selectionSet) {
+        this.tryBuildingDecorations(update.view);
+      }
+    }
+    tryBuildingDecorations(view) {
+      const isSourceMode = !view.state.field(import_obsidian4.editorLivePreviewField);
+      if (isSourceMode && !plugin.enableInSourceMode()) {
+        this.decorations = import_view.Decoration.none;
+      }
+      const file = view.state.field(import_obsidian4.editorInfoField).file;
+      if (!file || !isExcluded(plugin, file)) {
+        this.decorations = this.buildDecorations(view);
+        (0, import_obsidian4.finishRenderMath)();
+      } else {
+        this.decorations = import_view.Decoration.none;
+      }
     }
     buildDecorations(view) {
-      var _a, _b;
-      if (!view.state.field(import_obsidian3.editorLivePreviewField) && !plugin.enableInSourceMode()) {
-        return import_view.Decoration.none;
-      }
-      const sourcePath = (_b = (_a = view.state.field(import_obsidian3.editorInfoField).file) == null ? void 0 : _a.path) != null ? _b : "";
-      const isSourceMode = !view.state.field(import_obsidian3.editorLivePreviewField);
-      const info = view.state.field(mathLinkInfoField);
+      var _a;
+      const { state } = view;
+      const isSourceMode = !state.field(import_obsidian4.editorLivePreviewField);
+      const file = state.field(import_obsidian4.editorInfoField).file;
+      const sourcePath = (_a = file == null ? void 0 : file.path) != null ? _a : "";
+      const tree = (0, import_language.syntaxTree)(state);
       const builder = new import_state.RangeSetBuilder();
-      const selection = view.state.selection;
-      for (const { from, to } of view.visibleRanges) {
-        info.between(from, to, (start, end, { linkText, mathLink }) => {
-          if (!selectionAndRangeOverlap(selection, start, end)) {
-            builder.add(start, end, import_view.Decoration.widget({
-              widget: new MathWidget(linkText, mathLink, isSourceMode, sourcePath)
-            }));
+      for (let { from, to } of view.visibleRanges) {
+        let start = -1, end = -1, outLinkText = "", outLinkMathLink = "";
+        tree.iterate({
+          from,
+          to,
+          enter(node) {
+            const name = node.type.name;
+            if (name.contains("formatting-link_formatting-link-start")) {
+              if (isSourceMode) {
+                if (state.sliceDoc(node.from, node.to) == "[[" && node.node.nextSibling) {
+                  start = node.node.nextSibling.from;
+                } else {
+                  return;
+                }
+              } else {
+                start = node.from;
+              }
+            } else if (name.contains("formatting_formatting-link_link")) {
+              if (start == -1) {
+                start = node.from;
+              }
+            } else if (name.contains("has-alias")) {
+              outLinkText += state.doc.sliceString(node.from, node.to);
+              if (file && outLinkMathLink == outLinkText.replace(/\.md/, "")) {
+                outLinkMathLink = getMathLink(plugin, outLinkText, sourcePath, isSourceMode);
+              }
+            } else if (/string_url$/.test(name) && !name.contains("format")) {
+              outLinkText += decodeURI(state.doc.sliceString(node.from, node.to));
+              if (file && outLinkMathLink == outLinkText.replace(/\.md/, "")) {
+                outLinkMathLink = getMathLink(plugin, outLinkText, sourcePath, isSourceMode);
+              }
+            } else if (name.contains("hmd-internal-link") && !name.contains("alias")) {
+              outLinkText += state.doc.sliceString(node.from, node.to);
+              outLinkMathLink = getMathLink(plugin, outLinkText, sourcePath, isSourceMode);
+            } else if (name.contains("formatting-link-end") || name.contains("formatting-link-string")) {
+              if (!name.contains("end") && end == -1) {
+                end = -2;
+              } else {
+                if (isSourceMode) {
+                  if (node.node.prevSibling && state.sliceDoc(node.from, node.to) == "]]") {
+                    end = node.node.prevSibling.to;
+                  } else {
+                    return;
+                  }
+                } else {
+                  end = node.to;
+                }
+                if (!selectionAndRangeOverlap(state.selection, start, end) && outLinkText && outLinkMathLink) {
+                  builder.add(start, end, import_view.Decoration.widget({
+                    widget: new MathWidget(outLinkText, outLinkMathLink.replace(/\\\$/, "$"), isSourceMode, sourcePath)
+                  }));
+                }
+                start = -1;
+                end = -1;
+                outLinkText = "";
+                outLinkMathLink = "";
+              }
+            } else if (!name.contains("pipe") && (name.contains("hmd-internal-link") && name.contains("alias") || name.contains("hmd-escape") && name.contains("link") || /^link/.test(name))) {
+              outLinkMathLink += state.doc.sliceString(node.from, node.to);
+              if (file && outLinkMathLink == outLinkText.replace(/\.md/, "")) {
+                outLinkMathLink = getMathLink(plugin, outLinkText, file.path, isSourceMode);
+              }
+            }
           }
         });
       }
       return builder.finish();
     }
-    update(update) {
-      if (!update.state.field(import_obsidian3.editorLivePreviewField) && !plugin.enableInSourceMode()) {
-        this.decorations = import_view.Decoration.none;
-      }
-      if (update.transactions.some((tr) => hasEffect(tr, plugin.forceUpdateEffect))) {
-        this.decorations = this.buildDecorations(update.view);
-      } else if (update.docChanged) {
-        this.decorations = this.decorations.map(update.changes);
-        this.updateDecorations(update.view);
-      } else if (update.selectionSet) {
-        this.updateDecorations(update.view);
-      } else if (update.viewportChanged) {
-        this.decorations = this.buildDecorations(update.view);
-      }
-    }
-    updateDecorations(view) {
-      var _a;
-      const file = view.state.field(import_obsidian3.editorInfoField).file;
-      const sourcePath = (_a = file == null ? void 0 : file.path) != null ? _a : "";
-      const isSourceMode = !view.state.field(import_obsidian3.editorLivePreviewField);
-      const info = view.state.field(mathLinkInfoField);
-      const selection = view.state.selection;
-      for (const { from, to } of view.visibleRanges) {
-        info.between(from, to, (start, end, value) => {
-          const overlap = selectionAndRangeOverlap(selection, start, end);
-          if (overlap) {
-            this.removeDeco(start, end);
-            return;
-          } else {
-            this.addDeco(start, end, value, isSourceMode, sourcePath);
-          }
-        });
-      }
-    }
-    removeDeco(start, end) {
-      this.decorations.between(start, end, (from, to) => {
-        this.decorations = this.decorations.update({
-          filterFrom: from,
-          filterTo: to,
-          filter: () => false
-        });
-      });
-    }
-    addDeco(start, end, value, isSourceMode, sourcePath) {
-      let exists = false;
-      this.decorations.between(start, end, () => {
-        exists = true;
-      });
-      if (!exists) {
-        this.decorations = this.decorations.update({
-          add: [
-            {
-              from: start,
-              to: end,
-              value: import_view.Decoration.widget({
-                widget: new MathWidget(value.linkText, value.mathLink, isSourceMode, sourcePath)
-              })
-            }
-          ]
-        });
-      }
-    }
-  }, {
-    decorations: (instance) => instance.decorations
-  });
-  return [mathLinkInfoField, mathLinksViewPlugin];
+  }, { decorations: (v) => v.decorations });
+  return viewPlugin;
 };
 
 // src/settings/settings.ts
@@ -531,48 +491,6 @@ var import_obsidian6 = require("obsidian");
 
 // src/settings/modals.ts
 var import_obsidian5 = require("obsidian");
-
-// src/utils.ts
-var import_obsidian4 = require("obsidian");
-function isExcluded(plugin, file) {
-  for (let i = 0; i < plugin.settings.excludedPaths.length; i++) {
-    let excluded = plugin.app.vault.getAbstractFileByPath(plugin.settings.excludedPaths[i]);
-    if (excluded && isEqualToOrChildOf(file, excluded))
-      return false;
-  }
-  return true;
-}
-function translateLink(targetLink) {
-  var _a;
-  function translateLinkImpl(targetLink2, pattern) {
-    let result = pattern.exec(targetLink2);
-    if (result)
-      return (result[1] ? `${result[1]} > ` : "") + `${result[2]}`;
-  }
-  let headingPattern = /(^.*)#([^\^].*)/;
-  let blockPattern = /(^.*)#(\^[a-zA-Z0-9\-]+)/;
-  let translatedAsHeading = translateLinkImpl(targetLink, headingPattern);
-  let translatedAsBlock = translateLinkImpl(targetLink, blockPattern);
-  return (_a = translatedAsHeading != null ? translatedAsHeading : translatedAsBlock) != null ? _a : "";
-}
-function isEqualToOrChildOf(file1, file2) {
-  if (file1 == file2)
-    return true;
-  if (file2 instanceof import_obsidian4.TFolder && file2.isRoot())
-    return true;
-  let ancestor = file1.parent;
-  while (true) {
-    if (ancestor == file2)
-      return true;
-    if (ancestor) {
-      if (ancestor.isRoot())
-        return false;
-      ancestor = ancestor.parent;
-    }
-  }
-}
-
-// src/settings/modals.ts
 var TemplatesModal = class extends import_obsidian5.Modal {
   constructor(app, plugin) {
     super(app);
@@ -980,6 +898,7 @@ var MathLinksRenderChild = class extends import_obsidian7.MarkdownRenderChild {
     } else {
       setMathLink(this.displayText, this.mathLinkEl);
     }
+    (0, import_obsidian7.finishRenderMath)();
   }
 };
 function generateMathLinks(plugin, element, context) {
@@ -1076,7 +995,7 @@ var MathLinks = class extends import_obsidian8.Plugin {
       this.registerProvider(this.nativeProvider, Infinity);
       this.registerMarkdownPostProcessor((element, context) => {
         let file = this.app.vault.getAbstractFileByPath(context.sourcePath);
-        if (file && isExcluded(this, file)) {
+        if (!file || !isExcluded(this, file)) {
           generateMathLinks(this, element, context);
         }
       });
@@ -1148,7 +1067,7 @@ var MathLinks = class extends import_obsidian8.Plugin {
           return;
         let shouldDispatch = !file;
         shouldDispatch || (shouldDispatch = !this.app.metadataCache.resolvedLinks);
-        if (file && leaf.view.file && this.app.metadataCache.resolvedLinks) {
+        if (file && leaf.view.file && this.app.metadataCache.resolvedLinks[leaf.view.file.path]) {
           shouldDispatch || (shouldDispatch = file.path in this.app.metadataCache.resolvedLinks[leaf.view.file.path]);
         }
         if (shouldDispatch) {
