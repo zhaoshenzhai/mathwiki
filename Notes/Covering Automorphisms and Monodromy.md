@@ -11,7 +11,7 @@ Date Created: 23/11/2023 21:16:06
 Tags: #Type/Theorem #Topic/Topology
 ^monodromy-action
 
-Proved by: [[Homotopy Lifting Theorem]], [[Orbit-Stabilizer Theorem]], [[Lifting Criterion]], [[Basic properties of stabilizers and transitive actions]], [[Characterizations of normal covers]]
+Proved by: [[Homotopy Lifting Theorem]], [[Orbit-Stabilizer Theorem]], [[Lifting Criterion]], [[Characterizations of normal covers]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -19,7 +19,7 @@ Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
-title: Theorem (Monodromy).
+title: Theorem ($\Cov\l(E/X\r)$ and Monodromy).
 
 Let $p:\tpl{E,e_0}\to\tpl{X,x_0}$ be a covering map of a pointed space $\tpl{X,x_0}$. The <b>monodromy action</b> is the action $\pi_1\!\l(X,x_0\r)\act p^{-1}\l(x_0\r)$ given by $\gamma\cdot e\coloneqq\widetilde{\gamma}\l(0\r)$, where $\widetilde{\gamma}$ is the unique lift of $\gamma$ ending at $e$. Let $G\coloneqq\pi_1\!\l(X,x_0\r)$, $H\coloneqq p_\ast\pi_1\!\l(E,e_0\r)$, and $F\coloneqq p^{-1}\!\l(x_0\r)$.
 * The action $G\act F$ is transitive whose stabilizer of $e_0$ is $H$, so there is a $G$-equivariant bijection $F\iso G/H$.

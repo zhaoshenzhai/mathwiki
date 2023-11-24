@@ -3,7 +3,7 @@
 Date Created: 25/05/2023 18:30:27
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Independence of base point]], [[Characterizations of equivalent covering maps]], [[Covering Automorphisms and Monodromy]], [[Basic properties of stabilizers and transitive actions]]
+Proved by: [[Independence of base point]], [[Covering Automorphisms and Monodromy]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
