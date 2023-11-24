@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
 Examples: [[Model Spaces]]
-Constructions: [[Universal Cover]]
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
