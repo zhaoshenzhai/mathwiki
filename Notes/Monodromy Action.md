@@ -17,7 +17,7 @@ Justifications: [[Homotopy Lifting Theorem]], [[Orbit-Stabilizer Theorem]]
 title: Example (Monodromy).
 
 Let $p:\tpl{E,e_0}\to\tpl{X,x_0}$ be a covering map of a pointed space $\tpl{X,x_0}$. The <b>monodromy action</b> is the action $\pi_1\!\l(X,x_0\r)\act p^{-1}\l(x_0\r)$ given by $\gamma\cdot e\coloneqq\widetilde{\gamma}\l(0\r)$, where $\widetilde{\gamma}$ is the unique lift of $\gamma$ ending at $e$.
-* This is a transitive action and the stabilizer of $e_0$ is $p_\ast\pi_1\l(E,e_0\r)$, so there is a $\pi_1\!\l(X,x_0\r)$-equivariant bijection $p^{-1}\!\l(x_0\r)\iso\pi_1\!\l(X,x_0\r)/p_\ast\pi_1\!\l(E,e_0\r)$.
+* This is a transitive action and the stabilizer of $e_0$ is $p_\ast\pi_1\!\l(E,e_0\r)$, so there is a $\pi_1\!\l(X,x_0\r)$-equivariant bijection $p^{-1}\!\l(x_0\r)\iso\pi_1\!\l(X,x_0\r)/p_\ast\pi_1\!\l(E,e_0\r)$.
 * The number of sheets of $p$ is the index of $p_\ast\pi_1(E,e_0)$ in $\pi_1\l(X,x_0\r)$. In particular, if $E$ is simply-connected, then the number of sheets of $p$ is $\l|\pi_1\!\l(X,x_0\r)\r|$.
 
 ```
