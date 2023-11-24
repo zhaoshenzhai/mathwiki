@@ -3,7 +3,7 @@
 Date Created: 24/05/2023 15:28:53
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Lifting Criterion]], [[Unique Lifting Property]], [[Basic properties of covering spaces]], [[Orbit-Stabilizer Theorem]], [[Regular Action#^equivariant-quotients-iff-conjugate-subgroups]]
+Proved by: [[Lifting Criterion]], [[Basic properties of covering spaces]], [[Orbit-Stabilizer Theorem]], [[Regular Action#^equivariant-quotients-iff-conjugate-subgroups]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Covering space action iff properly-discontinuous action]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Isomorphisms of covering transformations]]
-Justifications: [[Unique Lifting Property]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

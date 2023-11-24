@@ -14,7 +14,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: [[Hausdorff Space]], [[Metric Space]], [[Compact Space]], [[Separable Space]], [[Connected Space]]
 Examples: [[Order Space (Topology)]], [[Path]]
-Constructions: [[Closure et al]], [[Sequential Limits]], [[Functional Limits]], [[Homotopy]], [[Covering Space]], [[Lift]], [[Mapping Cylinder]], [[Space of Continuous Functions]]
+Constructions: [[Closure et al]], [[Sequential Limits]], [[Functional Limits]], [[Homotopy]], [[Covering Space]], [[Mapping Cylinder]], [[Space of Continuous Functions]]
 Generalizations: [[Homotopy Equivalence]]
 
 Properties: [[Measurable Function#^continuous-implies-Borel]]

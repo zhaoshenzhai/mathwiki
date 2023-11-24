@@ -19,7 +19,7 @@ Every covering map $p:E\to X$ is a fibration with unique lifting. More specifica
 ```
 
 <b>Remark.</b> We obtain some important special cases for when $Y$ is a singleton and when $Y=I$.
-* For each path $\gamma:I\to X$ starting at some point $x\in X$ and each $e\in p^{-1}\!\l(x\r)$ there exists a unique path $\widetilde{\gamma}:I\to\widetilde{E}$ starting at $e$ lifting $\gamma$.
+* For each path $\gamma:I\to X$ starting at some point $x\in X$ and each $e\in p^{-1}\!\l(x\r)$, there exists a unique path $\widetilde{\gamma}:I\to\widetilde{E}$ starting at $e$ lifting $\gamma$.
 * For each homotopy $\gamma_t:I\to X$ of paths and each lift $\widetilde{\gamma}_0:I\to E$ of $\gamma_0$, there exists a unique homotopy $\widetilde{\gamma}_t:I\to E$ of paths starting at $\widetilde{\gamma}_0$ lifting $\gamma_t$.
 
 The resulting homotopy $\widetilde{\gamma}_t$ is a homotopy _of paths_ since as $t$ varies, the endpoints $\widetilde{\gamma}_t\!\l(0\r)$ and $\widetilde{\gamma}_t\!\l(1\r)$ are curves in $E$ that lift the constant curves at $\gamma_t\!\l(0\r)$ and $\gamma_t\!\l(1\r)$, respectively. By uniqueness of liftings of paths, we see that $\widetilde{\gamma}_t\!\l(0\r)$ and $\widetilde{\gamma}_t\!\l(1\r)$ are constant curves at the lifts of $\gamma_t\!\l(0\r)$ and $\gamma_t\!\l(1\r)$, respectively, as desired.<span style="float:right;">$\blacklozenge$</span>
