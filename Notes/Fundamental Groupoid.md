@@ -11,7 +11,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
 Examples: [[Fundamental group of the circle]]
-Constructions: [[Simply-connected Space]], [[Lifting Criterion]]
+Constructions: [[Lifting Criterion]], [[Monodromy Action]], [[Simply-connected Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of fundamental group]]

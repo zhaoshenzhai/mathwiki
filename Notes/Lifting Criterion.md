@@ -3,7 +3,7 @@
 Date Created: 22/05/2023 23:14:21
 Tags: #Type/Theorem #Topic/Topology
 
-Proved by: [[Homotopy Lifting Theorem]], [[Basic properties of covering spaces]]
+Proved by: [[Homotopy Lifting Theorem]], [[Monodromy Action]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

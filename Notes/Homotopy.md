@@ -8,7 +8,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Fundamental Groupoid]], [[Homotopy Equivalence]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Basic properties of homotopies of paths]]
+Properties: [[Homotopy Lifting Theorem]], [[Basic properties of homotopies of paths]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Simply-connected iff homotopic paths]]
 Justifications: <i>Not Applicable</i>

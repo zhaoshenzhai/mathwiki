@@ -9,10 +9,10 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: [[Universal Cover]], [[Normal Cover]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Covering Space Isomorphism]], [[Category of Covering Maps]]
+Constructions: [[Monodromy Action]], [[Covering Space Isomorphism]], [[Category of Covering Maps]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Homotopy Lifting Theorem]], [[Basic properties of covering spaces]], [[Independence of base point]]
+Properties: [[Homotopy Lifting Theorem]], [[Monodromy Action]], [[Independence of base point]]
 Sufficiencies: [[Lifting Criterion]]
 Equivalences: [[Galois Correspondence of Covering Spaces]]
 Justifications: [[Path-connected Space#^locally-path-connected-connected-implies-path-connected]]
@@ -23,7 +23,6 @@ title: Definition.
 Let $X$ be a topological space. A <b>covering map of $X$</b> is a continuous map $p:E\to X$ from a connected and locally path-connected space $E$ such that for all $x\in X$, there exists a neighborhood $U$ of $x$ in $X$ where $p^{-1}\!\l(U\r)=\coprod_{i\in I}V_i$ for some disjoint open sets $V_i$ of $E$ and where each $\l.p\r|_{V_i}:V_i\to U$ is a homeomorphism.
 * If $p:E\to X$ is a covering map, then $E$ is said to be a <b>covering space of $X$</b> and the neighborhood $U$ is said to be <b>evenly-covered</b> by the <b>sheets</b> $V_i\subseteq E$.
 * The cardinality $n\coloneqq\l|p^{-1}\!\l(x\r)\r|$ is independent of $x$ and is said to be the <b>number of sheets of $p$</b>. We say that $p$ is an <b>$n$-sheeted covering</b>.
-* The <b>monodromy action of $\pi_1\l(X,x\r)$ on fibers</b> is the action $\phi:\pi_1\l(X,x\r)\to\Aut\!\l(p^{-1}\!\l(x\r)\r)\!$ given by $\l[\gamma\r]\cdot\widetilde{x}\coloneqq\widetilde{\gamma}\l(0\r)$ where $\widetilde{\gamma}$ is the lift of $\gamma$ ending at $\widetilde{x}$.
 
 ```
 
