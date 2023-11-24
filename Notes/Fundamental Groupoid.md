@@ -7,7 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 16/10/2023 20:00:58
-Tags: #Type/Definition #Topic/Topology
+Tags: #Type/Definition #In_Progress
 
 Types: <i>Not Applicable</i>
 Examples: [[Fundamental group of the circle]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/05/2023 20:58:03
-Tags: #Type/Proposition #Topic/Group_Theory
+Tags: #Type/Proposition #In_Progress
 
 Proved by: [[Isomorphism Theorems]]
 References: <i>Not Applicable</i>
