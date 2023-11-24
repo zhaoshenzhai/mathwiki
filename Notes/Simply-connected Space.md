@@ -8,9 +8,9 @@ Examples: [[Model Spaces]]
 Constructions: [[Covering Space#^universal-cover]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Existence of universal covers]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Simply-connected iff homotopic paths]], [[Existence of universal covers]]
+Equivalences: [[Simply-connected iff homotopic paths]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
