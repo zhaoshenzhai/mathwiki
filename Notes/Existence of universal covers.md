@@ -3,7 +3,7 @@
 Date Created: 23/05/2023 21:55:54
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Covering Homotopy Theorem]], [[Basic properties of covering spaces]]
+Proved by: [[Homotopy Lifting Theorem]], [[Basic properties of covering spaces]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

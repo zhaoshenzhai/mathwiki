@@ -3,7 +3,7 @@
 Date Created: 25/05/2023 12:57:37
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Basic properties of homotopies of paths]], [[Covering Homotopy Theorem]]
+Proved by: [[Basic properties of homotopies of paths]], [[Homotopy Lifting Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

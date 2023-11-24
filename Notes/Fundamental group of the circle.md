@@ -7,7 +7,7 @@ mathLink: $\pi_1\!\l(S^1\r)\iso\Z$
 Date Created: 18/05/2023 14:02:12
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Simply-connected iff homotopic paths]], [[Covering Homotopy Theorem]]
+Proved by: [[Simply-connected iff homotopic paths]], [[Homotopy Lifting Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

@@ -12,7 +12,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Covering Space Isomorphism]], [[Category of Covering Maps]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Covering Homotopy Theorem]], [[Basic properties of covering spaces]], [[Independence of base point]]
+Properties: [[Homotopy Lifting Theorem]], [[Basic properties of covering spaces]], [[Independence of base point]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Galois Correspondence of Covering Spaces]]
 Justifications: [[Path-connected Space#^locally-path-connected-connected-implies-path-connected]]

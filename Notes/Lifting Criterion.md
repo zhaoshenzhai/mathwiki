@@ -3,7 +3,7 @@
 Date Created: 22/05/2023 23:14:21
 Tags: #Type/Theorem #Topic/Topology
 
-Proved by: [[Unique Lifting Property]], [[Covering Homotopy Theorem]], [[Basic properties of covering spaces]]
+Proved by: [[Unique Lifting Property]], [[Homotopy Lifting Theorem]], [[Basic properties of covering spaces]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

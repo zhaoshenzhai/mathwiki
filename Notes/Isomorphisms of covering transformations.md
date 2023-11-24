@@ -8,7 +8,7 @@ mathLink: Isomorphisms of $\Cov\,(\widetilde{X}/X)$
 Date Created: 25/05/2023 21:49:31
 Tags: #Type/Theorem #Topic/Topology
 
-Proved by: [[Covering Homotopy Theorem]], [[Basic properties of covering spaces]], [[Basic properties of stabilizers and transitive actions]], [[Characterizations of normal covers]]
+Proved by: [[Homotopy Lifting Theorem]], [[Basic properties of covering spaces]], [[Basic properties of stabilizers and transitive actions]], [[Characterizations of normal covers]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

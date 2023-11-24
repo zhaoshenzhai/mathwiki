@@ -3,7 +3,7 @@
 Date Created: 21/05/2023 14:41:58
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Covering Homotopy Theorem]], [[Orbit-Stabilizer Theorem]]
+Proved by: [[Homotopy Lifting Theorem]], [[Orbit-Stabilizer Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

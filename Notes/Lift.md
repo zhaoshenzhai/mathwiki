@@ -9,7 +9,7 @@ Constructions: [[Fibration]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Unique Lifting Property]]
-Sufficiencies: [[Covering Homotopy Theorem]]
+Sufficiencies: [[Homotopy Lifting Theorem]]
 Equivalences: [[Lifting Criterion]]
 Justifications: <i>Not Applicable</i>
 
