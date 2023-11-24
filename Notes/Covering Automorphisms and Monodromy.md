@@ -11,7 +11,7 @@ Date Created: 23/11/2023 21:16:06
 Tags: #Type/Theorem #Topic/Topology
 ^monodromy-action
 
-Proved by: [[Homotopy Lifting Theorem]], [[Orbit-Stabilizer Theorem]], [[Lifting Criterion]], [[Characterizations of normal covers]]
+Proved by: [[Homotopy Lifting Theorem]], [[Orbit-Stabilizer Theorem]], [[Lifting Criterion]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -25,7 +25,7 @@ Let $p:\tpl{E,e_0}\to\tpl{X,x_0}$ be a covering map of a pointed space $\tpl{X,x
 * The action $G\act F$ is transitive whose stabilizer of $e_0$ is $H$, so there is a $G$-equivariant bijection $F\iso G/H$.
 * The restriction of each deck transformation $f\in\Cov\l(E/X\r)$ to the fiber $F$ is $G$-equivariant, and thus $\Cov\l(E/X\r)\iso\Aut_G\!\l(F\r)$.
 
-Thus we have an isomorphism $\Cov\l(E/X\r)\iso N_G\!\l(H\r)/H$, so $\Cov\l(E/X\r)\iso\pi_1\!\l(X,x_0\r)/p_\ast\pi_1\!\l(E,e_0\r)$ if $E$ is normal and $\Cov\l(E/X\r)\iso\pi_1\!\l(X,x_0\r)$ if $E$ is universal.
+We have an isomorphism $\Cov\l(E/X\r)\iso N_G\!\l(H\r)/H$, so $\Cov\l(E/X\r)\iso\pi_1\!\l(X,x_0\r)/p_\ast\pi_1\!\l(E,e_0\r)$ if $E$ is normal and $\Cov\l(E/X\r)\iso\pi_1\!\l(X,x_0\r)$ if $E$ is universal.
 
 ```
 ^covering-automorphism-universal-fundamental-group

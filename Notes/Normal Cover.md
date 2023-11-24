@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/05/2023 21:04:13
-Tags: #Type/Definition #Topic/Topology
+Tags: #Type/Definition #Topic/Topology/Later
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
@@ -10,7 +10,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Characterizations of normal covers]]
+Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
