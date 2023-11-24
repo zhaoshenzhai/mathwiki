@@ -3,7 +3,7 @@
 Date Created: 24/05/2023 15:28:53
 Tags: #Type/Proposition #In_Progress
 
-Proved by: [[Lifting Criterion]], [[Monodromy Action]], [[Orbit-Stabilizer Theorem]], [[Regular Action#^equivariant-quotients-iff-conjugate-subgroups]]
+Proved by: [[Lifting Criterion]], [[Covering Automorphisms and Monodromy]], [[Orbit-Stabilizer Theorem]], [[Regular Action#^equivariant-quotients-iff-conjugate-subgroups]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

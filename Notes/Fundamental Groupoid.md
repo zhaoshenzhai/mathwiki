@@ -11,12 +11,12 @@ Tags: #Type/Definition #In_Progress
 
 Types: <i>Not Applicable</i>
 Examples: [[Fundamental group of the circle]]
-Constructions: [[Lifting Criterion]], [[Monodromy Action]], [[Simply-connected Space]]
+Constructions: [[Lifting Criterion]], [[Simply-connected Space]], [[Covering Automorphisms and Monodromy#^monodromy-action]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic properties of fundamental group]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Galois Correspondence of Covering Spaces]]
+Equivalences: [[Galois Correspondence of Covering Spaces]], [[Covering Automorphisms and Monodromy#^covering-automorphism-universal-fundamental-group]]
 Justifications: [[Basic properties of homotopies of paths]], [[Independence of base point]]
 
 ``` ad-Definition

@@ -10,7 +10,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Covering space action iff properly-discontinuous action]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Isomorphisms of covering transformations]]
+Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/05/2023 12:57:37
-Tags: #Type/Proposition #Topic/Topology
+Tags: #Type/Proposition #In_Progress
 
 Proved by: [[Basic properties of homotopies of paths]], [[Homotopy Lifting Theorem]]
 References: <i>Not Applicable</i>

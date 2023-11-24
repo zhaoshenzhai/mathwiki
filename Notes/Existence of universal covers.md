@@ -3,7 +3,7 @@
 Date Created: 23/05/2023 21:55:54
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Homotopy Lifting Theorem]], [[Monodromy Action]]
+Proved by: [[Homotopy Lifting Theorem]], [[Covering Automorphisms and Monodromy]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

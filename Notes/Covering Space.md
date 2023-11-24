@@ -11,10 +11,10 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: [[Universal Cover]], [[Normal Cover]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Monodromy Action]], [[Covering Space Isomorphism]]
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Homotopy Lifting Theorem]], [[Monodromy Action]], [[Independence of base point]]
+Properties: [[Homotopy Lifting Theorem]], [[Covering Automorphisms and Monodromy]], [[Independence of base point]]
 Sufficiencies: [[Lifting Criterion]]
 Equivalences: [[Galois Correspondence of Covering Spaces]]
 Justifications: [[Path-connected Space#^locally-path-connected-connected-implies-path-connected]]
@@ -34,9 +34,8 @@ Let $X$ be a topological space. A <b>covering space of $X$</b> is a map $p:E\to 
 
 ---
 
-<b>Remark.</b> For a fixed covering $p:E\to X$, the <i>deck transformations</i> of $p$ is the automorphism group $\Cov\l(E/X\r)\coloneqq\Aut\l(E,p\r)$ in $\catcov$. By the uniqueness of liftings, any deck transformation $f\in\Cov\l(E/X\r)$ fixing a point is the identity, so the action $\Cov\l(E/X\r)\act E$ is free.
+<b>Remark.</b> For a fixed covering $p:E\to X$, the <i>deck transformations</i> of $p$ is the automorphism group $\Cov\l(E/X\r)\coloneqq\Aut\l(E,p\r)$ in $\catcov$. By the uniqueness of liftings, any deck transformation fixing a point is the identity, so the action $\Cov\l(E/X\r)\act E$ is free.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<b>Remark.</b> Fix $x_0\in X$. The Homotopy Lifting Theorem shows that $p_\ast:\pi_1\!\l(E,e_0\r)\into\pi_1\!\l(X,x_0\r)$ and that the image $p_\ast\pi_1\!\l(E,e_0\r)\subgrpeq\pi_1\!\l(X,x_0\r)$ consists of loops in $X$ whose lifts to $E$ are loops at $e_0$. Indeed, if $p_\ast\widetilde{\gamma}$ vanishes, then the homotopy to the constant loop at $x_0$ lifts to a homotopy from $\widetilde{\gamma}$ to the constant loop at $e_0$. Thus $\widetilde{\gamma}$ vanishes in $\pi_1(E,e_0)$ as desired. Finally, every $\gamma\in p_\ast\pi_1(E,e_0)$ lifts to a path $\widetilde{\gamma}\in\pi_1\!\l(E,e_0\r)$, which is a loop at $e_0$.
-* If $X$ is simply-connected, then so is $E$ and hence, by Monodromy, $p$ is a $1$-sheeted covering. Every injective quotient map is a homeomorphism, so $E\iso X$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Fix $x_0\in X$. The Homotopy Lifting Theorem shows that $p_\ast:\pi_1\!\l(E,e_0\r)\into\pi_1\!\l(X,x_0\r)$ and that the image $p_\ast\pi_1\!\l(E,e_0\r)\subgrpeq\pi_1\!\l(X,x_0\r)$ consists of loops in $X$ whose lifts to $E$ are loops at $e_0$. Indeed, if $p_\ast\widetilde{\gamma}$ vanishes, then the homotopy to the constant loop at $x_0$ lifts to a homotopy from $\widetilde{\gamma}$ to the constant loop at $e_0$. Thus $\widetilde{\gamma}$ vanishes in $\pi_1(E,e_0)$ as desired. Finally, every $\gamma\in p_\ast\pi_1(E,e_0)$ lifts to a path $\widetilde{\gamma}\in\pi_1\!\l(E,e_0\r)$, which is a loop at $e_0$.<span style="float:right;">$\blacklozenge$</span>

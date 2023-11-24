@@ -3,7 +3,7 @@
 Date Created: 24/05/2023 14:06:39
 Tags: #Type/Theorem #Topic/Topology
 
-Proved by: [[Existence of universal covers]], [[Monodromy Action]], [[Characterizations of equivalent covering maps]]
+Proved by: [[Existence of universal covers]], [[Covering Automorphisms and Monodromy]], [[Characterizations of equivalent covering maps]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
