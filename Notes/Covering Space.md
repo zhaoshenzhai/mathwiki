@@ -4,6 +4,7 @@ mathLink-blocks:
     category-of-covering-spaces: $\catcov$
     universal-cover: Universal Cover
     pi-injectivity-and-loops: Lifts of $p_\ast\pi_1\!\l(E,e_0\r)\subgrpeq\pi_1\!\l(X,x_0\r)$ are loops
+    isomorphic-covering-conjugate: $\tpl{E_1,p_1}\iso\tpl{E_2,p_2}$ $\Leftrightarrow$ $p_{1\ast}\pi_1\!\l(E_1,e_1\r)\sim p_{2\ast}\pi_1\!\l(E_2,e_2\r)$
 ---
 
 <div class="topSpace"></div>
@@ -38,7 +39,7 @@ Let $X$ be a topological space. A <b>covering space of $X$</b> is a map $p:E\to 
 ---
 
 <b>Remark.</b> For a fixed covering $p:E\to X$, the <i>deck transformations</i> of $p$ is the automorphism group $\Cov\l(E/X\r)\coloneqq\Aut\l(E,p\r)$ in $\catcov$. By the uniqueness of liftings, any deck transformation fixing a point is the identity, so the action $\Cov\l(E/X\r)\act E$ is free.
-* By the Lifting Criterion, two coverings $p_i:\tpl{E_i,e_i}\to\tpl{X,x_0}$ are isomorphic iff $p_{1\ast}\pi_1\!\l(E_1,e_1\r)=p_{2\ast}\pi_1\!\l(E_2,e_2\r)$. In the unpointed category, they are isomorphic iff the subgroups $p_{1\ast}\pi_1\!\l(E_1,e_1\r)$ and $p_{2\ast}\pi_1\!\l(E_2,e_2\r)$ are conjugate, which occurs iff $p_1^{-1}\!\l(x_0\r)$ and $p_2^{-1}\!\l(x_0\r)$ are $\pi_1\!\l(X,x_0\r)$-equivariant under the Monodromy action.
+* By the Lifting Criterion, two coverings $p_i:\tpl{E_i,e_i}\to\tpl{X,x_0}$ are isomorphic iff $p_{1\ast}\pi_1\!\l(E_1,e_1\r)=p_{2\ast}\pi_1\!\l(E_2,e_2\r)$. In the unpointed category, they are isomorphic iff the subgroups $p_{1\ast}\pi_1\!\l(E_1,e_1\r)$ and $p_{2\ast}\pi_1\!\l(E_2,e_2\r)$ are conjugate, which occurs iff $p_1^{-1}\!\l(x_0\r)$ and $p_2^{-1}\!\l(x_0\r)$ are $\pi_1\!\l(X,x_0\r)$-equivariant under the Monodromy action. ^isomorphic-covering-conjugate
 * More generally, there exists a covering homeomorphism $f:\tpl{E_1,e_1}\to\tpl{E_2,e_2}$ iff $p_{1\ast}\pi_1\!\l(E_1,e_1\r)\subseteq p_{2\ast}\pi_1\!\l(E_2,e_2\r)$. This is always the case if $E_1$ is universal.<span style="float:right;">$\blacklozenge$</span>
 
 ---
