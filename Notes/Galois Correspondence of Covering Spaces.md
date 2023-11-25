@@ -3,7 +3,7 @@
 Date Created: 24/05/2023 14:06:39
 Tags: #Type/Theorem #In_Progress
 
-Proved by: [[Lifting Criterion]], [[Covering Automorphisms and Monodromy#^covering-automorphism-universal-fundamental-group]]
+Proved by: [[Lifting Criterion]], [[Covering Automorphisms and Monodromy#^covering-automorphism-universal-fundamental-group]], [[Covering space action]]
 References: [[Existence of universal covers]]
 Justifications: [[Covering Space#^isomorphic-covering-conjugate]]
 
@@ -27,7 +27,8 @@ $$\begin{equation}
 
 ---
 
-<i>Proof.</i> That the correspondence $\Phi:\mc{C}\to\mc{D}$ given by $\tpl{E,q}\mapsto q_\ast\pi_1\!\l(X,x_0\r)$ is injective follows from the Lifting Criterion. For surjectivity, let $H\subgrpeq\pi_1\!\l(X,x_0\r)$ be a subgroup and consider its image $\hat{H}\subgrpeq\Cov\,(\widetilde{X}/X)$ under the isomorphism $\Cov\,(\widetilde{X}/X)\iso\pi_1\!\l(X,x_0\r)$. Set $E\coloneqq\widetilde{X}/\hat{H}$, and since $\hat{H}\act\widetilde{X}$ by deck transformations, the universal cover $p:\widetilde{X}\to X$ factors uniquely through the quotient into a map $q:E\to X$.
+<i>Proof.</i> That the correspondence $\Phi:\mc{C}\to\mc{D}$ given by $\tpl{E,q}\mapsto q_\ast\pi_1\!\l(X,x_0\r)$ is injective follows from the Lifting Criterion. For surjectivity, let $H\subgrpeq\pi_1\!\l(X,x_0\r)$ be a subgroup and consider its image $\hat{H}\subgrpeq\Cov\,(\widetilde{X}/X)$ under the isomorphism $\Cov\,(\widetilde{X}/X)\iso\pi_1\!\l(X,x_0\r)$. Set $E\coloneqq\widetilde{X}/\hat{H}$, and since $\hat{H}\act\widetilde{X}$ acts by deck transformations, the canonical map $\widetilde{X}\onto\widetilde{X}/\hat{H}$ is a normal covering. The universal cover $p:\widetilde{X}\to X$ factors through the quotient into a map $q:E\to X$, which we claim is a covering map.
+* 
 
 ---
 
