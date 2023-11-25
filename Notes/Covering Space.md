@@ -4,7 +4,7 @@ mathLink-blocks:
     category-of-covering-spaces: $\catcov$
     universal-cover: Universal Cover
     pi-injectivity-and-loops: Lifts of $p_\ast\pi_1\!\l(E,e_0\r)\subgrpeq\pi_1\!\l(X,x_0\r)$ are loops
-    isomorphic-covering-conjugate: $\tpl{E_1,p_1}\iso\tpl{E_2,p_2}$ $\Leftrightarrow$ $p_{1\ast}\pi_1\!\l(E_1,e_1\r)\sim p_{2\ast}\pi_1\!\l(E_2,e_2\r)$
+    isomorphic-covering-conjugate: Characterization of equivalent coverings
 ---
 
 <div class="topSpace"></div>
@@ -19,7 +19,7 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Homotopy Lifting Theorem]], [[Covering Automorphisms and Monodromy]], [[Independence of base point]]
-Sufficiencies: [[Lifting Criterion]], [[Existence of universal covers]]
+Sufficiencies: [[Lifting Criterion]], [[Existence of universal covers]], [[Covering space action]]
 Equivalences: [[Galois Correspondence of Covering Spaces]]
 Justifications: [[Path-connected Space#^locally-path-connected-connected-implies-path-connected]], [[Regular Action#^equivariant-quotients-iff-conjugate-subgroups]]
 
