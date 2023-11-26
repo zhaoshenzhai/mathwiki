@@ -3,7 +3,7 @@
 Date Created: 24/05/2023 14:06:39
 Tags: #Type/Theorem #In_Progress
 
-Proved by: [[Lifting Criterion]], [[Covering Automorphisms and Monodromy#^covering-automorphism-universal-fundamental-group]], [[Covering space action]]
+Proved by: [[Lifting Criterion]], [[Covering Automorphisms and Monodromy#^covering-automorphism-universal-fundamental-group]], [[Covering space action]], [[Covering Automorphisms and Monodromy]]
 References: [[Existence of universal covers]]
 Justifications: [[Covering Space#^isomorphic-covering-conjugate]]
 
@@ -31,9 +31,8 @@ $$\begin{equation}
 ![[Images/2023-05-24_143333/image.svg|125]]
 * Take $x\in X$ and choose a neighborhood $U\ni x$ evenly-covered by $p$. Let $V$ be any component in $q^{-1}\!\l(U\r)$, which is clopen since $E$ is locally path-connected. Thus $\pi^{-1}\!\l(V\r)$ is clopen in $\pi^{-1}\!\l(q^{-1}\!\l(U\r)\r)=p^{-1}\!\l(U\r)$, so it partitions into components of $p^{-1}\!\l(U\r)$. Let $\widetilde{U}\subseteq\pi^{-1}\!\l(V\r)$ be any such component, which evenly-covers $U$ and thus $p=q\circ\pi$ is a homeomorphism on $\widetilde{U}$. Thus $\pi$ is injective on $\widetilde{U}$. Furthermore, the components of $\pi^{-1}\!\l(V\r)$ are $\hat{H}$-translates of $\widetilde{U}$ which all project onto $V$, so, since $\pi$ is surjective and is transitive on fibers, its restriction to $\widetilde{U}$ is surjective too. Finally, $\pi$ is an open map and thus is a homeomorphism on $\widetilde{U}$, and shows that $q$ is a homeomorphism on $\widetilde{U}$ too.
 
-It remains to show that $H=q_\ast\pi_1\!\l(E,e_0\r)$ for some $e_0\in q^{-1}\!\l(x_0\r)$. To this end, 
-
----
-
-Define a relation $\sim_H$ by letting $\l[\gamma\r]\sim_H\!\l[\gamma'\r]$ iff $\gamma\l(1\r)=\gamma'\l(1\r)$ and $\l[\gamma\ast\gamma'^-\r]\in H$. Since $H$ is a subgroup, this relation is an equivalence relation and we let $\widetilde{X}_H\coloneqq\widetilde{X}/\!\sim_H$. Then $p:\widetilde{X}\to X$ descends to a map $q:\widetilde{X}_H\to X$ sending equivalence classes of $\l[\gamma\r]$ under $\sim_H$ to $\gamma\l(1\r)$, which is well-defined. In other words, define $q$ so that
-commutes. Letting $\widetilde{X}_H$ carry the quotient topology ensures that $q$ is continuous. Also, $q$ is a covering map since if any two points in $\widetilde{U}_\gamma$ and $\widetilde{U}_{\gamma'}$ with $\gamma\l(1\r)=\gamma'\l(1\r)$ are identified under $\sim_H$, say $\l[\gamma\ast\delta\r]\sim_H\!\l[\gamma'\ast\delta\r]$, then $\l[\gamma\r]\sim_H\!\l[\gamma'\r]$ which shows that the entire neighborhoods $\widetilde{U}_\gamma$ and $\widetilde{U}_{\gamma'}$ are identified. Since $p$ is a covering map, the sheets $\widetilde{U}_\gamma$ above any evenly-covered $U\subseteq X$ are identified ‘evenly’, so $q^{-1}\!\l(U\r)$ partitions into equivalence classes $\widetilde{U}_{\gamma,H}$ of $\widetilde{U}_\gamma$. Finally, $\l.q\r|_{\widetilde{U}_{\gamma,H}}\!:\widetilde{U}_{\gamma,H}\to U$ is also an open bijection, so $q$ is a covering map. Now, let $\widetilde{x}_0\in\widetilde{X}_H$ be the equivalence class of the homotopy class of the constant loop $\epsilon$ at $x_0$. For all loops $\gamma$ at $x_0$, observe that its lift $\widetilde{\gamma}$ to $\widetilde{X}$ is a path starting at $\l[\epsilon\r]$ and ending at $\l[\gamma\r]$. Thus for $\widetilde{\gamma}$ to descend to a loop at $\widetilde{x}_0$, we need $\l[\epsilon\r]\sim_H\!\l[\gamma\r]$, which occurs iff $\l[\gamma\r]=\l[\gamma\ast\epsilon^-\r]\in H$. This shows that loops at $x_0$ whose lifts to $\widetilde{X}_H$ are loops at $\widetilde{x}_0$ is precisely $H$, as desired.
+It remains to show that $H=q_\ast\pi_1\!\l(E,e_0\r)$ for some $e_0\in q^{-1}\!\l(x_0\r)$. To this end, fix $\widetilde{x}_0\in p^{-1}\!\l(x_0\r)$ and set $e_0\coloneqq\pi\l(\widetilde{x}_0\r)$. Note that $q_\ast\pi_1\!\l(E,e_0\r)$ is the stabilizer of $e_0$ under the Monodromy action $\pi_1\!\l(X,x_0\r)\act q^{-1}\!\l(x_0\r)$, so it suffices to show that $\gamma\cdot e_0=e_0$ iff $\gamma\in H$. Indeed, $\pi$ restricts to a $\pi_1\!\l(X,x_0\r)$-equivariant map between fibers, so
+$$\begin{equation}
+    \gamma\cdot e_0=\gamma\cdot\pi\l(\widetilde{x}_0\r)=\pi\l(\gamma\cdot\widetilde{x}_0\r)=\pi\l(\phi_\gamma\l(\widetilde{x}_0\r)\r)
+\end{equation}$$
+where $\phi_\gamma\in\Cov\,(\widetilde{X}/X)$ is the unique map obtained from the isomorphism $\Cov\,(\widetilde{X}/X)\iso\pi_1\!\l(X,x_0\r)$. But $\pi\l(\phi_\gamma\!\l(\widetilde{x}_0\r)\r)=\pi\l(\widetilde{x}_0\r)$ iff $\phi_\gamma\in\hat{H}$, which occurs iff $\gamma\in H$.<span style="float:right;">$\blacksquare$</span>
