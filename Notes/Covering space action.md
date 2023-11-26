@@ -3,7 +3,7 @@
 Date Created: 27/05/2023 16:35:51
 Tags: #Type/Proposition #Topic/Topology
 
-Proved by: <i>Not Applicable</i>
+Proved by: [[Covering Space#^covering-space-action-free]]
 References: [[Covering Automorphisms and Monodromy#^covering-automorphism-universal-fundamental-group]]
 Justifications: <i>Not Applicable</i>
 
