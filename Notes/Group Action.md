@@ -10,7 +10,7 @@ Date Created: 04/05/2023 22:12:02
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Representation (Group)]]
-Examples: [[Regular Action]], [[Conjugation Action]], [[Covering Automorphisms and Monodromy#^monodromy-action]], [[Covering space action]], [[Coset Representation Theorem]]
+Examples: [[Regular Action]], [[Conjugation Action]], [[Covering Automorphisms and Monodromy#^monodromy-action]], [[Covering Space Action]], [[Coset Representation Theorem]]
 Constructions: [[Module]]
 Generalizations: <i>Not Applicable</i>
 

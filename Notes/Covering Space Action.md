@@ -1,17 +1,20 @@
 <div class="topSpace"></div>
 
 Date Created: 27/05/2023 16:35:51
-Tags: #Type/Proposition #Topic/Topology
+Tags: #Type/Example #Topic/Topology
 
-Proved by: [[Covering Space#^covering-space-action-free]]
-References: [[Covering Automorphisms and Monodromy#^covering-automorphism-universal-fundamental-group]]
-Justifications: <i>Not Applicable</i>
-
-Specializations: <i>Not Applicable</i>
+Types: <i>Not Applicable</i>
+Examples: <i>Not Applicable</i>
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-``` ad-Proposition
-title: Proposition.
+Properties: <i>Not Applicable</i>
+Sufficiencies: <i>Not Applicable</i>
+Equivalences: <i>Not Applicable</i>
+Justifications: [[Covering Space#^covering-space-action-free]], [[Covering Automorphisms and Monodromy#^covering-automorphism-universal-fundamental-group]]
+
+``` ad-Example
+title: Example (Covering Space Action).
 
 Let $X$ be a path-connected and locally path-connected space. For an action $\phi:G\act X$, the quotient $p:X\to X/G$ is a covering map iff every $x\in X$ admits a neighborhood $U\ni x$ such that $gU\cap U\neq\em$ forces $g=\id$ for all $g\in G$. In this case, $G=\Cov\l(X/\l(X/G\r)\r)$ and $p:X\to X/G$ is normal.
 

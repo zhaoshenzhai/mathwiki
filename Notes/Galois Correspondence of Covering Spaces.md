@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
 Date Created: 24/05/2023 14:06:39
-Tags: #Type/Theorem #In_Progress
+Tags: #Type/Theorem #Topic/Topology
 
-Proved by: [[Lifting Criterion]], [[Covering Automorphisms and Monodromy#^covering-automorphism-universal-fundamental-group]], [[Covering space action]], [[Covering Automorphisms and Monodromy]]
+Proved by: [[Lifting Criterion]], [[Covering Automorphisms and Monodromy#^covering-automorphism-universal-fundamental-group]], [[Covering Space Action]], [[Covering Automorphisms and Monodromy]]
 References: [[Existence of universal covers]]
 Justifications: [[Covering Space#^isomorphic-covering-conjugate]]
 
