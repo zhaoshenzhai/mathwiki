@@ -7,7 +7,7 @@ Proved by: [[Pointwise-limits of measurable functions are measurable]], [[Monoto
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
-Specializations: <i>Not Applicable</i>
+Specializations: [[Lebesgue Differentiation Theorem#^differentiation]]
 Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem

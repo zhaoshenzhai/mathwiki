@@ -13,7 +13,7 @@ Tags: #Type/Example #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Lebesgue-Stieltjes Measure]], [[Complex Numbers]], [[Differentiable Function and Derivative in R]], [[Model Spaces]]
+Constructions: [[Lebesgue-Stieltjes Measure]], [[Lebesgue Differentiation Theorem#^differentiation]], [[Complex Numbers]], [[Model Spaces]]
 Generalizations: [[Cantor's Intersection Theorem]]
 
 Properties: [[Convergence Criteria in R]], [[Mean Value Theorems]]

@@ -14,7 +14,7 @@ Constructions: [[Measurable Function]], [[Integral]], [[Absolute Continuity]], [
 Generalizations: [[Signed Measure]]
 
 Properties: [[Borel-Cantelli Lemmas]], [[Basic properties of measures]]
-Sufficiencies: [[Monotone Class Lemma]], [[Hahn Decomposition Theorem]]
+Sufficiencies: [[Monotone Class Lemma]], [[Hahn Decomposition Theorem]], [[Lebesgue-Radon-Nikodym Theorem]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Caratheodory's Extension Theorem]]
 

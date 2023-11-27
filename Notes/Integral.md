@@ -11,7 +11,7 @@ Date Created: 24/10/2023 19:46:55
 Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Lebesgue Differentiation Theorem]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
@@ -38,3 +38,7 @@ Write $f=f^+-f^-$, where $f^{\pm}\coloneqq\max\l\{\pm f,0\r\}$. If $\int f^+\d\m
 
 <b>Remark.</b> For any $A\in\Meas_\mu$ and any $f\in L^1$, let $\int_Af\d\mu\coloneqq\int\l(f\cdot\cchi_A\r)\d\mu$. If $f\in L^+$, then $\mu_f:A\mapsto\int_Af\d\mu$ is a measure on $\Meas_\mu$. ^integral-measure-abs-cont-measure
 * Note that $\mu_f\!\l(Z\r)=0$ whenever $\mu\l(Z\r)=0$, so $\mu_f\abscont\mu$. If $f\in L^1$, then $\mu_f<\infty$ and hence for every $\epsilon>0$, there is some $\delta>0$ such that for every $\mu$-measurable set $B$, we have $\int_B\l|f\r|\d\mu<\epsilon$ whenever $\mu\l(B\r)<\delta$ holds.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> A function $f:X\to\bar{\R}$ on a topological space $X$ with a Borel measure $\mu$ is said to be <i>locally-integrable</i> if $f\cdot\cchi_K\in L^1\!\l(X,\mu\r)$ for all compacts $K\subseteq X$. Denote the collection of all such functions by $L^1_\textrm{loc}\!\l(X,\mu\r)$. This is usually only applied to when $\tpl{X,\mu}=\tpl{\R^d,\lambda}$, in which case one can replace $K$ with closed balls.<span style="float:right;">$\blacklozenge$</span>
