@@ -23,7 +23,11 @@ For each locally-integrable function $f\in L^1_\textrm{loc}\!\l(\R^d,\lambda\r)$
 
 ```
 
-<i>Proof.</i> 
+<i>Proof.</i> For each $r>0$, define the <i>averaging operator</i> $A_r:L^1_\textrm{loc}\to L^1_\textrm{loc}$ by $A_rf\l(x\r)\coloneqq\frac{1}{\lambda\l(B_r\r)}\int_{B_r\l(x\r)}f\d\lambda$. For a continuous locally-integrable function $g:\R^d\to\R$, note that
+$$\begin{equation}
+    \l|A_rg\l(x\r)-g\l(x\r)\r|=\l|\frac{1}{\lambda\l(B_r\r)}\int_{B_r\l(x\r)}g\l(y\r)\d\lambda\l(y\r)-g\l(x\r)\r|\leq\frac{1}{\lambda\l(B_r\r)}\int_{B_r\l(x\r)}\l|g\l(y\r)-g\l(x\r)\r|\d\lambda\l(y\r)<\frac{1}{\lambda\l(B_r\r)}\int_{B_r\l(x\r)}\epsilon\d\lambda\l(y\r)=\epsilon
+\end{equation}$$
+for small enough $r>0$, so $A_rg\l(x\r)\to g\l(x\r)$ for all $x\in\R^d$. In general, it suffices to show that for any $N\in\N$, we have $A_rf\l(x\r)\to f\l(x\r)$ for a.e. $\l|x\r|\leq N$. But for $\l|x\r|\leq N$ and $r\leq1$, we have $A_rf=A_r\!\l(f\cdot\cchi_{B_{N+1}\l(0\r)}\r)$, so we may w.l.o.g. assume that $f\in L^1$ by replacing $f$ with $f\cdot\cchi_{B_{N+1}\l(0\r)}$. In this case, 
 
 ---
 
