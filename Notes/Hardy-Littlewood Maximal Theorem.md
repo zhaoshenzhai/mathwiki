@@ -3,7 +3,7 @@
 Date Created: 27/11/2023 20:17:08
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Calculus in Euclidean Space#^vitali-covering-lemma]]
+Proved by: [[Vitali Covering Lemma]]
 References: <i>Not Applicable</i>
 Justifications: [[Fubini-Tonelli Theorem]], [[Dominated Convergence Theorem]]
 
