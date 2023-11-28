@@ -2,6 +2,7 @@
 mathLink: Calculus in $\R^d$
 mathLink-blocks:
     integration: Integration in $\R^d$
+    vitali-covering-lemma: Vitali Covering Lemma
 ---
 
 <div class="topSpace"></div>
@@ -35,3 +36,4 @@ $$\begin{equation}
     \end{aligned}
 \end{equation}$$
 The same computation also shows that $\|A_rf\|_1\leq\|f\|_1$, so $A_r:L^1_\textrm{loc}\to L^1_\textrm{loc}$ is a contraction.<span style="float:right;">$\blacklozenge$</span>
+^vitali-covering-lemma
