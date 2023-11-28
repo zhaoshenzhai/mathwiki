@@ -6,12 +6,12 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 27/11/2023 16:00:03
-Tags: #Type/Theorem #In_Progress
+Tags: #Type/Theorem #Topic/Real_Analysis
 ^differentiation
 
 Proved by: [[Approximation with continuous]], [[Chebyshev's Inequality]], [[Hardy-Littlewood Maximal Theorem]]
 References: [[Lebesgue-Radon-Nikodym Theorem]]
-Justifications: [[Real Numbers#^rationals-dense-in-reals]]
+Justifications: [[Regularity and Tightness]], [[Vitali Covering Lemma]], [[Real Numbers#^rationals-dense-in-reals]]
 
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
@@ -22,15 +22,6 @@ title: Theorem (Lebesgue Differentiation Theorem).
 For any locally-integrable function $f\in L^1_\textrm{loc}\!\l(\R^d,\lambda\r)$, we have $f\l(x\r)=\lim\limits_{r\to0}\frac{1}{\lambda\l(B_r\r)}\int_{B_r\l(x\r)}f\d\lambda\eqqcolon\lim\limits_{r\to0}A_rf\l(x\r)$ for a.e. $x\in\R^d$.
 
 ```
-
-<b>Remark.</b> Translating this statement to Borel measures $\mu\abscont\lambda$ in $\R^d$, we need $\mu$ to be locally-finite in order for $\!\d\mu/\d\lambda$ to be locally-integrable. In this case, we have
-$$\begin{equation}
-    \frac{\d\mu}{\d\lambda}\l(x\r)=\lim_{r\to0}\frac{1}{\lambda\l(B_r\!\l(x\r)\r)}\int_{B_r\l(x\r)}\frac{\d\mu}{\d\lambda}\d\lambda=\lim_{r\to0}\frac{\mu\l(B_r\!\l(x\r)\r)}{\lambda\l(B_r\!\l(x\r)\r)}\cref{\ast}
-\end{equation}$$
-for a.e. $x\in\R^d$ by the Lebesgue-Radon-Nikodym Theorem. Thus, for such measures, this theorem gives us an explicit way of computing the derivative $\!\d\mu/\d\lambda$. On the other hand, if $\mu\perp\lambda$, then we claim that the limit vanishes and so $\ref{\ast}$ holds for all measures after passing to its Lebesgue Decomposition.
-* Indeed, let $\R^d=X_\mu\sqcup X_\lambda$ witness orthogonality and for each $\alpha>0$, let $Z_\alpha\coloneqq\l\{x\in X_\lambda\st\limsup_{r\to0}\frac{\mu\l(B_r\l(x\r)\r)}{\lambda\l(B_r\l(x\r)\r)}>\alpha\r\}$. It suffices to show that $\mu\l(Z_\alpha\r)<\epsilon$ for all $\epsilon>0$. To this end, we use regularity of $\mu$
-
----
 
 <i>Proof.</i> Note that this statement is true for any continuous integrable function $g:\R^d\to\R$ since for any $\epsilon>0$ and any $x\in\R^d$, we have
 $$\begin{equation}
@@ -48,7 +39,20 @@ for some constant $C>0$, so $\lambda\l(\Delta_\alpha\!\l(Af-f\r)\r)\leq\frac{2\d
 
 ---
 
-<b>Remark.</b> We may replace the balls $\l\{B_r\!\l(x\r)\r\}_{r>0}$ in the theorem by any family of $\lambda$-measurable sets $\{\widetilde{B}_r\!\l(x\r)\}$ that <i>shrink-nicely</i> to $x$, i.e. any family of $\lambda$-measurable sets such that there is some $p\in\l(0,1\r)$ where $\widetilde{B}_r\!\l(x\r)\subseteq B_r\!\l(x\r)$ and $\lambda\,(\widetilde{B}_r\!\l(x\r))\geq p\lambda\l(B_r\!\l(x\r)\r)$ for all $r>0$. To prove this, we first strengthen the classical version. Indeed, we claim that $\lim_{r\to0}\frac{1}{\lambda\l(B_r\r)}\int_{B_r\l(x\r)}\l|f\l(y\r)-f\l(x\r)\r|\d\lambda\l(y\r)=0$ for a.e. $x\in\R^d$. Take $\epsilon>0$. For each $q\in\Q$, we apply the above to the function $\l|f-q\r|$ so that
+<b>Remark.</b> Translating this statement to Borel measures $\mu\abscont\lambda$ in $\R^d$, we need $\mu$ to be locally-finite in order for $\!\d\mu/\d\lambda$ to be locally-integrable. In this case, we have
+$$\begin{equation}
+    \frac{\d\mu}{\d\lambda}\l(x\r)=\lim_{r\to0}\frac{1}{\lambda\l(B_r\!\l(x\r)\r)}\int_{B_r\l(x\r)}\frac{\d\mu}{\d\lambda}\d\lambda=\lim_{r\to0}\frac{\mu\l(B_r\!\l(x\r)\r)}{\lambda\l(B_r\!\l(x\r)\r)}\cref{\ast}
+\end{equation}$$
+for $\lambda$-a.e. $x\in\R^d$ by the Lebesgue-Radon-Nikodym Theorem. Thus, for such measures, this theorem gives us an explicit way of computing the derivative $\!\d\mu/\d\lambda$. On the other hand, if $\mu\perp\lambda$, then we claim that the limit vanishes and so $\ref{\ast}$ holds for all measures after passing to its Lebesgue Decomposition.
+* Indeed, let $\R^d=X_\mu\sqcup X_\lambda$ witness orthogonality and for each $\alpha>0$, let $Z_\alpha\coloneqq\l\{x\in X_\lambda\st\limsup_{r\to0}\frac{\mu\l(B_r\l(x\r)\r)}{\lambda\l(B_r\l(x\r)\r)}>\alpha\r\}$. It suffices to show that $\lambda\l(Z_\alpha\r)<\epsilon$ for all $\epsilon>0$. To this end, let $U\supseteq Z_\alpha$ be an open set with $\mu\l(U\r)<\epsilon$. For each $x\in Z_\alpha$, there is a ball $B_x\subseteq U$ centered at $x$ such that $\mu\l(B_x\r)>\alpha\lambda\l(B_x\r)$. Then $\l\{B_x\r\}_{x\in Z_\alpha}$ is a cover of $Z_\alpha$ with balls, so for every $c<\lambda\l(Z_\alpha\r)$, Vitali Covering furnishes pairwise-disjoint balls $B_{x_1},\dots,B_{x_k}$ such that $\sum_{i=1}^k\lambda\l(B_{x_i}\r)\geq c/3^d$. Observe that
+$$\begin{equation}
+    c\leq3^d\sum_{i=1}^k\lambda\l(B_{x_i}\r)<\frac{3^d}{\alpha}\sum_{i=1}^k\mu\l(B_x\r)\leq\frac{3^d}{\alpha}\mu\l(U\r)<\frac{3^d}{\alpha}\epsilon.
+\end{equation}$$
+Letting $c\to\lambda\l(Z_\alpha\r)$ gives us $\lambda\l(Z_\alpha\r)<3^d\epsilon/\alpha$, so $\lambda\l(Z_\alpha\r)=0$ as desired.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> We may replace the balls $\l\{B_r\!\l(x\r)\r\}_{r>0}$ in the theorem (and its corollaries) by any family $\{\widetilde{B}_r\!\l(x\r)\}$ of $\lambda$-measurable sets that <i>shrink-nicely</i> to $x$, i.e. any family such that there is some $p\in\l(0,1\r)$ where $\widetilde{B}_r\!\l(x\r)\subseteq B_r\!\l(x\r)$ and $\lambda\,(\widetilde{B}_r\!\l(x\r))\geq p\lambda\l(B_r\!\l(x\r)\r)$ for all $r>0$. To prove this, we first strengthen the classical version. Indeed, we claim that $\lim_{r\to0}\frac{1}{\lambda\l(B_r\r)}\int_{B_r\l(x\r)}\l|f\l(y\r)-f\l(x\r)\r|\d\lambda\l(y\r)=0$ for a.e. $x\in\R^d$. Take $\epsilon>0$. For each $q\in\Q$, we apply the above to the function $\l|f-q\r|$ so that
 $$\begin{equation}
     \l|f\l(x\r)-q\r|=\lim_{r\to0}\frac{1}{\lambda\l(B_r\r)}\int_{B_r\l(x\r)}\l|f-q\r|\d\lambda
 \end{equation}$$
