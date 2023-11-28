@@ -19,7 +19,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Lebesgue Differentiation Theorem]], [[Hardy-Littlewood Maximal Theorem]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Lebesgue-Stieltjes Measure]], [[Fubini-Tonelli Theorem]]
+Justifications: [[Lebesgue-Stieltjes Measure]], [[Regularity and Tightness]]
 
 ``` ad-Example
 title: Example (Differentiation and Integration in $\R^d$).
@@ -28,12 +28,8 @@ Consider $\R^d$ equipped with the Lebesgue measure $\lambda$.
 
 ```
 
-<b>Remark.</b> A function $f:\R^d\to\bar{\R}$ is said to be <i>locally-integrable</i> if $f\cdot\cchi_K\in L^1\!\l(\R^d,\lambda\r)$ for all compacts $K\subseteq X$. Denote the collection of all such functions by $L^1_\textrm{loc}$ and consider the <i>averaging operator</i> $A_r:L^1_\textrm{loc}\to L^1_\textrm{loc}$ by $A_rf\l(x\r)\coloneqq\frac{1}{\lambda\l(B_r\r)}\int_{B_r\l(x\r)}f\d\lambda$. A Fubini-Tonelli argument establishes the <i>local-global bridge</i>, i.e. $\int f\d\lambda=\int A_r f\d\lambda$ for all $f\in L^1$ and $r>0$. Indeed, we have
+<b>Remark.</b> We have the elementary (yet important) <i>Vitali Covering Lemma</i>. Let $\mc{C}$ be a cover of a measurable set $M\subseteq\R^d$ with open balls. For every $a<\lambda\l(M\r)$, there is a finite subcollection $\mc{C}_a\subseteq\mc{C}$ of pairwise disjoint balls such that $\sum_{B\in\mc{C}_a}\lambda\l(B\r)\geq a/3^d$. ^vitali-covering-lemma
+* Indeed, let $N$ be large enough so that $\lambda\l(M\cap B_N\!\l(0\r)\r)>a$, so we may assume that $A$ is bounded. By tightness of $\lambda$, we may further assume that $M$ is compact, so there is a finite subcover $\l\{B_i\r\}_{i=1}^k\subseteq\mc{C}$. Using the greedy algorithm of choosing the smallest ball $B_i$ pairwise disjoint from all previously chosen balls, we obtain a subsequence $\mc{C}_a\coloneqq\{B_{n_j}\}_{j=1}^l$ of balls with increasing radii such that if $B_i\not\in\mc{C}_a$, then there is some $n_j<i$ with the property that $B_i\cap B_{n_j}\neq\em$ implies that the radius of $B_i$ is at most that of $B_{n_j}$. Letting $B_{n_j}^\ast$ denote the ball concentric with $B_{n_j}$ with three times its radius, we see that $B_i\subseteq B_{n_j}^\ast$. Thus $M\subseteq\bigcup_{j<l}B_{n_j}^\ast$, and
 $$\begin{equation}
-    \begin{aligned}
-        \int A_rf\l(x\r)\d\lambda\l(x\r)=\frac{1}{\lambda\l(B_r\r)}\int\l(\int_{B_r\l(x\r)}f\l(y\r)\d\lambda\l(y\r)\r)\d\lambda\l(x\r)&\overset{!}{=}\frac{1}{\lambda\l(B_r\r)}\iint\cchi_{B_r\l(x\r)}\!\l(y\r)f\l(y\r)\d\lambda\l(y\r)\d\lambda\l(x\r) \\
-        &=\frac{1}{\lambda\l(B_r\r)}\iint\cchi_{B_r\l(y\r)}\!\l(x\r)f\l(y\r)\d\lambda\l(x\r)\d\lambda\l(y\r)=\int f\l(y\r)\d\lambda\l(y\r).
-    \end{aligned}
+    a<\lambda\l(M\r)\leq\sum_{j<l}\lambda\,(B_{n_j}^\ast)=3^d\sum_{j<l}\lambda\l(B_{n_j}\r)=3^d\sum_{B\in\mc{C}_a}\lambda\l(B\r).\exqedin
 \end{equation}$$
-The same computation also shows that $\|A_rf\|_1\leq\|f\|_1$, so $A_r:L^1_\textrm{loc}\to L^1_\textrm{loc}$ is a contraction.<span style="float:right;">$\blacklozenge$</span>
-^vitali-covering-lemma
