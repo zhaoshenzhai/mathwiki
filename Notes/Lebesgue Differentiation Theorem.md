@@ -11,7 +11,7 @@ Tags: #Type/Theorem #In_Progress
 
 Proved by: [[Approximation with continuous]], [[Chebyshev's Inequality]], [[Hardy-Littlewood Maximal Theorem]]
 References: [[Lebesgue-Radon-Nikodym Theorem]]
-Justifications: <i>Not Applicable</i>
+Justifications: [[Real Numbers#^rationals-dense-in-reals]]
 
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
@@ -19,7 +19,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Lebesgue Differentiation Theorem).
 
-For any locally-integrable function $f\in L^1_\textrm{loc}\!\l(\R^d,\lambda\r)$, we have $f\l(x\r)=\lim_{r\to0}\frac{1}{\lambda\l(B_r\l(x\r)\r)}\int_{B_r\l(x\r)}f\d\lambda\eqqcolon\lim_{r\to0}A_rf\l(x\r)$ for a.e. $x\in\R^d$.
+For any locally-integrable function $f\in L^1_\textrm{loc}\!\l(\R^d,\lambda\r)$, we have $f\l(x\r)=\lim_{r\to0}\frac{1}{\lambda\l(B_r\r)}\int_{B_r\l(x\r)}f\d\lambda\eqqcolon\lim_{r\to0}A_rf\l(x\r)$ for a.e. $x\in\R^d$.
 
 ```
 
@@ -39,5 +39,11 @@ for some constant $C>0$, so $\lambda\l(\Delta_\alpha\!\l(Af-f\r)\r)\leq\frac{2\d
 
 ---
 
-<b>Remark.</b> We may replace the balls $\l\{B_r\!\l(x\r)\r\}_{r>0}$ in the theorem by any family of $\lambda$-measurable sets $\{\widetilde{B}_r\!\l(x\r)\}$ that <i>shrink-nicely</i> to $x$, i.e. any family of $\lambda$-measurable sets such that there is some $p\in\l(0,1\r)$ where $\widetilde{B}_r\!\l(x\r)\subseteq B_r\!\l(x\r)$ and $\lambda\,(\widetilde{B}_r\!\l(x\r))\geq p\lambda\l(B_r\!\l(x\r)\r)$ for all $r>0$. To prove this, we first strengthen the classical version.
-* We claim that $\lim_{r\to0}\frac{1}{\lambda\l(B_r\r)}\int_{B_r\!\l(x\r)}\l|f\l(x\r)-f\l(y\r)\r|\d\lambda\l(y\r)=0$ for a.e. $x\in\R^d$.
+<b>Remark.</b> We may replace the balls $\l\{B_r\!\l(x\r)\r\}_{r>0}$ in the theorem by any family of $\lambda$-measurable sets $\{\widetilde{B}_r\!\l(x\r)\}$ that <i>shrink-nicely</i> to $x$, i.e. any family of $\lambda$-measurable sets such that there is some $p\in\l(0,1\r)$ where $\widetilde{B}_r\!\l(x\r)\subseteq B_r\!\l(x\r)$ and $\lambda\,(\widetilde{B}_r\!\l(x\r))\geq p\lambda\l(B_r\!\l(x\r)\r)$ for all $r>0$. To prove this, we first strengthen the classical version. Indeed, we claim that $\lim_{r\to0}\frac{1}{\lambda\l(B_r\r)}\int_{B_r\l(x\r)}\l|f\l(y\r)-f\l(x\r)\r|\d\lambda\l(y\r)=0$ for a.e. $x\in\R^d$. Take $\epsilon>0$. For each $q\in\Q$, we apply the above to the function $\l|f-q\r|$ so that
+$$\begin{equation}
+    \l|f\l(x\r)-q\r|=\lim_{r\to0}\frac{1}{\lambda\l(B_r\r)}\int_{B_r\l(x\r)}\l|f-q\r|\d\lambda
+\end{equation}$$
+for a.e. $x\in\R^d$, say for all $x\in\R^d\comp Z_q$. Set $Z\coloneqq\bigcup_{q\in\Q}Z_q$, which is $\lambda$-null, and for every $x\in\R^d\comp Z$, choose $q\in\Q$ so that $\l|f\l(x\r)-q\r|<\epsilon/2$. The claim then follows from the triangle inequality and the above. Finally, fix $x\in\R^d\comp Z$ and let $\{\widetilde{B}_r\!\l(x\r)\}_{r>0}$ be a family that shrink-nicely to $x$. The result then follows as
+$$\begin{equation}
+    \frac{1}{\lambda\,(\widetilde{B}_r\!\l(x\r))}\int_{\widetilde{B}_r\l(x\r)}\l|f\l(y\r)-f\l(x\r)\r|\d\lambda\l(y\r)\leq\frac{1}{p\lambda\l(B_r\!\l(x\r)\r)}\int_{B_r\l(x\r)}\l|f\l(y\r)-f\l(x\r)\r|\d\lambda\l(y\r)\to0.\exqedin
+\end{equation}$$
