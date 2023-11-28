@@ -19,9 +19,18 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Lebesgue Differentiation Theorem).
 
-For any locally-integrable function $f\in L^1_\textrm{loc}\!\l(\R^d,\lambda\r)$, we have $f\l(x\r)=\lim_{r\to0}\frac{1}{\lambda\l(B_r\r)}\int_{B_r\l(x\r)}f\d\lambda\eqqcolon\lim_{r\to0}A_rf\l(x\r)$ for a.e. $x\in\R^d$.
+For any locally-integrable function $f\in L^1_\textrm{loc}\!\l(\R^d,\lambda\r)$, we have $f\l(x\r)=\lim\limits_{r\to0}\frac{1}{\lambda\l(B_r\r)}\int_{B_r\l(x\r)}f\d\lambda\eqqcolon\lim\limits_{r\to0}A_rf\l(x\r)$ for a.e. $x\in\R^d$.
 
 ```
+
+<b>Remark.</b> Translating this statement to Borel measures $\mu\abscont\lambda$ in $\R^d$, we need $\mu$ to be locally-finite in order for $\!\d\mu/\d\lambda$ to be locally-integrable. In this case, we have
+$$\begin{equation}
+    \frac{\d\mu}{\d\lambda}\l(x\r)=\lim_{r\to0}\frac{1}{\lambda\l(B_r\!\l(x\r)\r)}\int_{B_r\l(x\r)}\frac{\d\mu}{\d\lambda}\d\lambda=\lim_{r\to0}\frac{\mu\l(B_r\!\l(x\r)\r)}{\lambda\l(B_r\!\l(x\r)\r)}\cref{\ast}
+\end{equation}$$
+for a.e. $x\in\R^d$ by the Lebesgue-Radon-Nikodym Theorem. Thus, for such measures, this theorem gives us an explicit way of computing the derivative $\!\d\mu/\d\lambda$. On the other hand, if $\mu\perp\lambda$, then we claim that the limit vanishes and so $\ref{\ast}$ holds for all measures after passing to its Lebesgue Decomposition.
+* Indeed, let $\R^d=X_\mu\sqcup X_\lambda$ witness orthogonality and for each $\alpha>0$, let $Z_\alpha\coloneqq\l\{x\in X_\lambda\st\limsup_{r\to0}\frac{\mu\l(B_r\l(x\r)\r)}{\lambda\l(B_r\l(x\r)\r)}>\alpha\r\}$. It suffices to show that $\mu\l(Z_\alpha\r)<\epsilon$ for all $\epsilon>0$. To this end, we use regularity of $\mu$
+
+---
 
 <i>Proof.</i> Note that this statement is true for any continuous integrable function $g:\R^d\to\R$ since for any $\epsilon>0$ and any $x\in\R^d$, we have
 $$\begin{equation}
