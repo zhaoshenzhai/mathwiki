@@ -15,7 +15,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Lebesgue Differentiation Theorem]]
+Properties: [[Lebesgue Differentiation Theorem]], [[Hardy-Littlewood Maximal Theorem]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Lebesgue-Stieltjes Measure]], [[Fubini-Tonelli Theorem]]
