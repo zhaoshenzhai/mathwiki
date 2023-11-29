@@ -49,10 +49,10 @@
     % Set Theory
         \newcommand{\fa}{\forall}
         \newcommand{\ex}{\exists}
+        \newcommand{\iso}{\cong}
         \newcommand{\pow}{\mathcal{P}}
         \newcommand{\rest}{\!\upharpoonright\!}
         \newcommand{\comp}{\setminus}
-        \newcommand{\iso}{\cong}
         \newcommand{\into}{\hookrightarrow}
         \newcommand{\onto}{\twoheadrightarrow}
         \newcommand{\simto}{\rightleftarrows}
@@ -83,26 +83,23 @@
         \newcommand{\catmet}{\cat{Met}}
 
     % Analysis
+        \newcommand{\BV}{BV}
         \newcommand{\del}{\partial}
-        \newcommand{\RI}[1][]{\ms{R}#1}
-        \newcommand{\CONT}[1][]{\ms{C}#1}
-        \newcommand{\BDD}[1][]{\ms{B}#1}
         \newcommand{\incto}{\nearrow}
         \newcommand{\decto}{\searrow}
         \newcommand{\abscont}{\ll}
         \renewcommand{\d}{\,\mathrm{d}}
 
     % Topology
-        \newcommand{\htopeq}{\simeq}
         \newcommand{\rel}{\ \operatorname{rel}\ }
+        \newcommand{\htopeq}{\simeq}
         \newcommand{\pathto}{\rightsquigarrow}
 
     % Linear Algebra
-        \newcommand{\inprod}[2]{\l\langle{#1},{#2}\r\rangle}
         \newcommand{\dual}{\wedge}
         \newcommand{\adj}{\ast}
         \newcommand{\trans}{\mathsf{T}}
-        \renewcommand{\vec}[1]{\mathbf{#1}}
+        \newcommand{\inprod}[2]{\l\langle{#1},{#2}\r\rangle}
 
     % Group Theory
         \newcommand{\act}{\curvearrowright}
@@ -120,8 +117,8 @@
         \renewcommand{\mod}[1]{\l(\operatorname{mod}\,#1\r)}
 
     % Misc
-        \newcommand{\tpl}[1]{\l(#1\r)}
         \newcommand{\st}{:}
+        \newcommand{\tpl}[1]{\l(#1\r)}
         \newcommand{\gen}[1]{\l\langle#1\r\rangle}
         \renewcommand{\bar}{\overline}
 
@@ -144,18 +141,18 @@
         \newcommand{\ms}[1]{\mathscr{#1}}
         \newcommand{\mb}[1]{\mathbb{#1}}
         \newcommand{\mf}[1]{\mathfrak{#1}}
+        \newcommand{\cchi}{\raise 1pt {\chi}}
         \renewcommand{\it}[1]{\textit{#1}}
         \renewcommand{\bf}[1]{\textbf{#1}}
         \renewcommand{\phi}{\varphi}
         \renewcommand{\epsilon}{\varepsilon}
-        \newcommand{\cchi}{\raise 1pt {\chi}}
 
     % Meta
-        \newcommand{\qedin}{\tag*{$\blacksquare$}}
-        \newcommand{\exqedin}{\tag*{$\blacklozenge$}}
         \newcommand{\blob}{\bullet}
         \newcommand{\slot}{-}
         \newcommand{\cref}[1]{\tag{$\,#1\,$}}
-        \renewcommand{\ref}[1]{\l(\,#1\,\r)}
+        \newcommand{\qedin}{\tag*{$\blacksquare$}}
+        \newcommand{\exqedin}{\tag*{$\blacklozenge$}}
         \renewcommand{\l}{\left}
         \renewcommand{\r}{\right}
+        \renewcommand{\ref}[1]{\l(\,#1\,\r)}
