@@ -21,7 +21,7 @@ Let $\mu$ and $\nu$ be two $\sigma$-finite measures on a measurable space $\tpl{
 
 ---
 
-<i>Proof.</i> We may w.l.o.g. assume that both $\mu$ and $\nu$ are finite; the general $\sigma$-finite case follows by partitioning $X=\bigsqcup_nX^n$ with each $\mu\l(X^n\r)<\infty$ and applying the finite case to each $X^n$ to obtain a decomposition $X=\bigsqcup_n\l(X^n_0\sqcup X^n_1\r)=\l(\bigsqcup_nX_0^n\r)\sqcup\l(\bigsqcup_nX_1^n\r)$ and a function $f\coloneqq\sum_nf_n$. For $\mu,\nu<\infty$, consider the collection $\mc{F}$ of all functions $f:X\to\R_{\geq0}$ such that $\!\d\mu\geq f\d\nu$, which is non-empty since $0\in\mc{F}$. It is closed under $\max$ since if $f,g\in\mc{F}$, then letting $A\coloneqq\l\{x\in X\st f\l(x\r)\geq g\l(x\r)\r\}$ gives us
+<i>Proof.</i> We may w.l.o.g. assume that both $\mu$ and $\nu$ are finite; the general $\sigma$-finite case follows by partitioning $X=\bigsqcup_nX^n$ with each $\mu\l(X^n\r)<\infty$ and applying the finite case to each $X^n$ to obtain a decomposition $X=\bigsqcup_n\l(X^n_0\sqcup X^n_1\r)=\l(\bigsqcup_nX_0^n\r)\sqcup\l(\bigsqcup_nX_1^n\r)$ and a function $f\coloneqq\sum_nf_n$. For $\mu,\nu<\infty$, consider the collection $\mc{F}$ of all functions $f:X\to\R_{\geq0}$ with $\!\d\mu\geq f\d\nu$, which is non-empty since $0\in\mc{F}$. It is closed under $\max$ since if $f,g\in\mc{F}$, then letting $A\coloneqq\l\{x\in X\st f\l(x\r)\geq g\l(x\r)\r\}$ gives us
 $$\begin{equation}
     \int_B\max\l\{f,g\r\}\d\nu=\int_{B\cap A}f\d\nu+\int_{B\comp A}g\d\nu\leq\mu\l(B\cap A\r)+\mu\l(B\comp A\r)=\mu\l(B\r).
 \end{equation}$$
