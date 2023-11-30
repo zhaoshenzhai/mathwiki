@@ -26,7 +26,7 @@ For measures $\mu$ and $\nu$ on a measurable space $\tpl{X,\mc{B}}$, we say that
 
 ```
 
-<b>Remark.</b> The terminology is motivated by the following characterization: if $\mu$ is a finite measure, then $\mu\abscont\nu$ iff for all $\epsilon>0$, there is some $\delta>0$ such that for each $B\in\mc{B}$, we have $\mu\l(B\r)<\epsilon$ whenever $\nu\l(\beta\r)<\delta$. ^characterization-of-absolute-continuity
+<b>Remark.</b> The terminology is motivated by the following characterization: if $\mu$ is a finite measure, then $\mu\abscont\nu$ iff for all $\epsilon>0$, there is some $\delta>0$ such that for each $B\in\mc{B}$, we have $\mu\l(B\r)<\epsilon$ whenever $\nu\l(B\r)<\delta$. ^characterization-of-absolute-continuity
 * Indeed, the backwards direction is trivial. For the forwards, take $\epsilon>0$ and suppose for sake of contradiction that for any $\delta>0$, there is some $B_\delta\in\mc{B}$ with $\nu\l(B_\delta\r)<\delta$ such that $\mu\l(B\r)\geq\epsilon$. Thus $\mc{B}$ contains sets of arbitrarily small measure, so Borel-Cantelli gives us a decreasing sequence $B_n$ such that $\nu\l(\bigcap_nB_n\r)=0$. By absolute continuity, we have $\mu\l(\bigcap_nB_n\r)=0$ too, which contradicts the fact that $\mu\l(B_n\r)\decto\mu\l(\bigcap_nB_n\r)=0$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
