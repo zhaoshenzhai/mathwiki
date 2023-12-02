@@ -27,7 +27,7 @@ Justifications: [[Path-connected Space#^locally-path-connected-connected-implies
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a topological space. A <b>covering space of $X$</b> is a map $p:E\to X$ from a connected and locally path-connected space $E$ such that for all $x\in X$, there exists a neighborhood $U$ of $x$ in $X$ where $p^{-1}\!\l(U\r)=\coprod_{i\in I}V_i$ for some disjoint open sets $V_i$ of $E$ and where each $\l.p\r|_{V_i}:V_i\to U$ is a homeomorphism.
+Let $X$ be a topological space. A <b>covering space of $X$</b> is a surjection $p:E\to X$ from a connected and locally path-connected space $E$ such that for all $x\in X$, there exists a neighborhood $U$ of $x$ in $X$ where $p^{-1}\!\l(U\r)=\coprod_{i\in I}V_i$ for some disjoint open sets $V_i$ of $E$ and where each $\l.p\r|_{V_i}:V_i\to U$ is a homeomorphism.
 * The neighborhood $U$ is said to be <b>evenly-covered</b> by the <b>sheets</b> $V_i\subseteq E$. The cardinality $n\coloneqq\l|p^{-1}\!\l(x\r)\r|$ is independent of $x$ and is said to be the <b>number of sheets of $p$</b>. We say that $p$ is an <b>$n$-sheeted covering</b>.
 * The <b>category of covering spaces</b> over $X$ is the category $\catcov$ whose objects are covering maps $p:E\to X$ and whose morphisms are continuous maps $f:\tpl{E_1,p_1}\to\tpl{E_2,p_2}$ such that $p_1=p_2\circ f$. A <b>universal cover</b> of $X$ is any simply-connected cover $p:\widetilde{X}\to X$.
 
