@@ -10,7 +10,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Banach Fixed Point Theorem]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Bounded iff Lipschitz iff continuous]]
+Equivalences: [[Normed Vector Space#^continuous-iff-lipschitz]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

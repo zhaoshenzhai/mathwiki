@@ -8,7 +8,7 @@ Date Created: 27/02/2023 21:42:09
 Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Norms on finite-dimensional spaces are equivalent]]
-References: [[Bounded iff Lipschitz iff continuous]]
+References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>

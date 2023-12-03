@@ -29,14 +29,7 @@ Let $V$ be an inner product space. Then, for all $u,v\in V$, we have $\l|\inprod
 <b>Remark.</b> Every inner product induces a norm $\|v\|\coloneqq\sqrt{\inprod{v}{v}}$. Positive-definiteness and absolute homogeneity follows immediately; for the triangle inequality, take $v,w\in V$ and observe that
 ^inner-product-space-induces-a-norm
 $$\begin{equation}
-    \begin{aligned}
-        \|v+w\|^2&=\inprod{v+w}{v+w} \\
-        &=\|v\|^2+\inprod{v}{w}+\inprod{w}{v}+\|w\|^2 \\
-        &=\|v\|^2+\|w\|^2+2\Re\inprod{v}{w} \\
-        &\leq\|v\|^2+\|w\|^2+2\Re\l(\|v\|\|w\|\r) \\
-        &=\|v\|^2+\|w\|^2+2\|v\|\|w\| \\
-        &=\l(\|v\|+\|w\|\r)^2,
-    \end{aligned}
+    \|v+w\|^2=\inprod{v+w}{v+w}=\|v\|^2+\|w\|^2+2\Re\inprod{v}{w}\leq\|v\|^2+\|w\|^2+2\Re\l(\|v\|\|w\|\r)=\l(\|v\|+\|w\|\r)^2,
 \end{equation}$$
 from which the result follows by taking roots.<span style="float:right;">$\blacklozenge$</span>
 
