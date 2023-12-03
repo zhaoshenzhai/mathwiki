@@ -17,7 +17,8 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition.
 
-Consider the Lebesgue measure $\lambda$ on $\R$ and let $f:\R\to\R$ be a function. If $f\in\BV$, then it is continuous on a cocountable set and $f'$ exists a.e.
+Consider $\R$ equipped with the Lebesgue measure $\lambda$ and let $f:\R\to\R$ be a function. If $f\in\BV$, then it is continuous on a cocountable set and $f'$ exists a.e.
+* If furthermore $f$ is a distribution of a finite Borel signed measure $\nu$, then $f'=\!\d\nu_\abscont/\d\lambda$.
 
 ```
 
