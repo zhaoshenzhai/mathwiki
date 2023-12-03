@@ -2,18 +2,21 @@
 mathLink: Calculus on $\R$
 mathLink-blocks:
     absolutely-continuous-function: Absolutely Continuous Function
+    bounded-variation: Functions of Bounded Variation
     jordan-decomposition: Jordan Decomposition of $f\in\BV$
 ---
 
 <div class="topSpace"></div>
 
 Date Created: 27/11/2023 16:47:20
-Tags: #Type/Example #In_Progress
+Tags: #Type/Example #Topic/Real_Analysis
+^absolutely-continuous-function
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
+^bounded-variation
 
 Properties: [[Lebesgue Differentiation Theorem]], [[Fundamental Theorem of Calculus]], [[Hardy-Littlewood Maximal Theorem]], [[Mean Value Theorems]]
 Sufficiencies: [[Bounded variation implies differentiable a.e.]], [[Vitali Covering Lemma]]
@@ -32,7 +35,6 @@ The Fundamental Theorem of Calculus states that $f$ is absolutely-continuous iff
 
 
 ```
-^absolutely-continuous-function
 
 <b>Remark.</b> The fundamental property of functions of bounded variation is that $T_f\pm f$ are both increasing, which gives us its <i>Jordan Decomposition</i> into increasing functions $f=\frac{1}{2}\l(T_f+f\r)-\frac{1}{2}\l(T_f-f\r)$. Indeed, for any $x<y$ and $\epsilon>0$, there is a partition $x_0<x_1<\cdots<x_n=x$ such that ^jordan-decomposition
 $$\begin{equation}

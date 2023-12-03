@@ -4,7 +4,7 @@ Date Created: 22/11/2023 20:23:27
 Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Calculus on the Real Line#^bounded-variation]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
@@ -18,6 +18,8 @@ title: Definition.
 
 Let $\tpl{X,\mc{B}}$ be a measure space. A <b>signed measure</b> on $\mc{B}$ is a map $\nu:\mc{B}\to\l[-\infty,\infty\r]$ sending $\em\mapsto0$ that is countably additive and attains at most one of $\pm\infty$.
 * A set $B\in\mc{B}$ is <b>$\nu$-positive</b> if $\nu\l(B\r)\geq0$. In addition, if every subset $A\subseteq B$ in $\mc{B}$ is $\nu$-positive, then $B$ is <b>$\nu$-purely-positive</b>.
+
+The <b>total variation</b> of a signed measure $\nu$ is the measure $\l|\nu\r|\coloneqq\nu_++\nu_-$, where $\nu=\nu_+-\nu_-$ is its Jordan Decomposition.
 
 ```
 
