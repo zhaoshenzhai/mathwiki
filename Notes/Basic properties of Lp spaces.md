@@ -18,12 +18,11 @@ Generalizations: <i>Not Applicable</i>
 title: Proposition.
 
 Let $\tpl{X,\mu}$ be a measure space and fix $1\leq p\leq\infty$. Then $L^p\coloneqq L^p\!\l(X,\mu\r)$ is a Banach space and admits the simple functions as a dense subset.
-* If $\tpl{X,\mu}$ is countably-generated (mod $\mu$-null) and $p<\infty$, then $L^p$ is Polish.
 * (Hölder’s Inequality). If $f\in L^p$ and $g\in L^q$, then $fg\in L^r$ where $\frac{1}{r}=\frac{1}{p}+\frac{1}{q}$; in fact, $\|fg\|_r\leq\|f\|_p\cdot\|g\|_q$.
 
 ```
 
-<i>Proof.</i> First, assume $p<\infty$. That $L^p$ is closed under $+$ follows since $\l|f+g\r|^p\leq\l(2\max\l\{\l|f\r|,\l|g\r|\r\}\r)^p=2^p\max\l\{\l|f\r|,\l|g\r|\r\}^p\leq2^p\l(\l|f\r|^p+\l|g\r|^p\r)$ for all $f,g\in L^p$, so
+<i>Proof (when $p<\infty$).</i> That $L^p$ is closed under $+$ follows since $\l|f+g\r|^p\leq\l(2\max\l\{\l|f\r|,\l|g\r|\r\}\r)^p=2^p\max\l\{\l|f\r|,\l|g\r|\r\}^p\leq2^p\l(\l|f\r|^p+\l|g\r|^p\r)$ for all $f,g\in L^p$, so
 $$\begin{equation}
     \int\l|f+g\r|^p\d\mu\leq\int2^p\l(\l|f\r|^p+\l|g\r|^p\r)\d\mu=2^p\int\l|f\r|^p\d\mu+2^p\int\l|g\r|^p\d\mu<\infty.
 \end{equation}$$
@@ -35,3 +34,13 @@ Scalar multiplication is even easier since $\int\l|\alpha f\r|^p\d\mu=\l|\alpha\
     so integrating gives us $\int\l(f+g\r)^p\d\mu\leq\alpha\int F^p\d\mu+\l(1-\alpha\r)\int G^p\d\mu=\alpha\|F\|_p^p+\l(1-\alpha\r)\|G\|_p^p=1$.
 
 To show that $L^p$ is complete, it suffices to show that every absolutely convergent series $S\coloneqq\sum_i\|f_i\|_p<\infty$ converges. Set $g_n\coloneqq\sum_{i<n}\l|f_i\r|$ and $g\coloneqq\sum_i\l|f_i\r|$, which are all in $L^p$ since $\|g_n\|_p=\|\sum_{i<n}\l|f_i\r|\|_p\leq\sum_{i<n}\|f_i\|_p\leq S<\infty$ by Minkowski’s inequality, so each $g_n\in L^p$, and letting $n\to\infty$ and using the MCT gives $g\in L^p$ too. Note that $g<\infty$ a.e. by Chebyshev’s Inequality, so the series $\sum_if_i\!\l(x\r)$ converges a.e. to some $f\l(x\r)$. Since $\l|f-\sum_{i<n}f_i\r|^p\leq\l(\l|f\r|+\sum_{i<n}\l|f_i\r|\r)^p\leq\l(2g\r)^p\in L^1$, we have by the DCT that $\|f-\sum_{i<n}f_i\|_p^p=\int\l|f-\sum_{i<n}f_i\r|^p\d\mu\to0$ as $n\to\infty$, as desired.
+* To see that the simple functions are dense in $L^p$, let $s_n\to f$ be a sequence of simple functions with $\l|s_n\r|\leq\l|f\r|$. Then $s_n^p\to f^p$, and since $\l|f-s_n\r|^p\leq2^p\l|f\r|^p\in L^1$, we have by the DCT that $\|f-s_n\|_p\to0$.
+
+Finally, for Hölder’s Inequality, we may assume w.l.o.g. that $r=1$ by replacing $f,g$ with $f^r,g^r$ and $p,q$ with $p/r,q/r$. Normalizing by $\|f\|_p\cdot\|g\|_p$, we may further assume that $\|f\|_p=\|g\|_p=1$, so it remains to show that $\|fg\|_1\leq1$. To this end, note that $\l|fg\r|=\l|f\r|\l|g\r|=\l(\l|f\r|^p\r)^{1/p}\l(\l|g\r|^p\r)^{1/p}\leq\frac{1}{p}\l|f\r|^p+\frac{1}{q}\l|g\r|^q$, so we obtain
+$$\begin{equation}
+    \int\l|fg\r|\d\mu\leq\frac{1}{p}\int\l|f\r|^p\d\mu+\frac{1}{q}\int\l|g\r|^q\d\mu=\frac{1}{p}\|f\|_p^p+\frac{1}{q}\|g\|_q^q=\frac{1}{p}+\frac{1}{q}=1.\qedin
+\end{equation}$$
+
+---
+
+<i>Proof (when $p=\infty$).</i> 
