@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Characterizations of continuity (metric)]], [[Frechet Differentiability and Derivative]]
+Constructions: [[Characterizations of continuity (metric)]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

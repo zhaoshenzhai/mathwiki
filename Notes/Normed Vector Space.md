@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: [[Banach Space]]
 Examples: [[Space of Continuous Functions]], [[lp Space]], [[Operator Norm]]
-Constructions: [[Bounded Linear Map]], [[Frechet Differentiability and Derivative]]
+Constructions: [[Bounded Linear Map]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Norms on finite-dimensional spaces are equivalent]]

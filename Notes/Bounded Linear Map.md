@@ -4,7 +4,7 @@ Date Created: 27/02/2023 20:47:10
 Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: <i>Not Applicable</i>
-Examples: [[Frechet Differentiability and Derivative]]
+Examples: <i>Not Applicable</i>
 Constructions: [[Operator Norm]]
 Generalizations: <i>Not Applicable</i>
 

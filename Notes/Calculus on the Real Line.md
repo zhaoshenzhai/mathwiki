@@ -51,3 +51,4 @@ To show that $f'$ exists a.e., we note that $\bar{f}$ is an increasing right-con
 $$\begin{equation}
     \lim_{r\to0^+}\frac{\bar{f}\l(x+r\r)-\bar{f}\l(x\r)}{r}=\lim_{r\to0^+}\frac{\mu\l(x,x+r\r]}{\lambda\l(x,x+r\r]}=\frac{\d\mu_\abscont}{\d\lambda}=\lim_{r\to0^+}\frac{\mu\l(x-r,x\r]}{\lambda\l(x-r,x\r]}=\lim_{r\to0^+}\frac{\bar{f}\l(x\r)-\bar{f}\l(x-r\r)}{r}.
 \end{equation}$$
+Thus $\bar{f}$ is differentiable a.e. and $\bar{f}\in L^1\!\l(\lambda\r)$. Set $h\coloneqq\bar{f}-f$
