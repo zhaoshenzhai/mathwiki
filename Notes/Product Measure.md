@@ -4,7 +4,7 @@ Date Created: 22/11/2023 14:33:20
 Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
-Examples: [[Bernoulli p-measure]], [[Lebesgue-Stieltjes Measure#^lebesgue]]
+Examples: [[Bernoulli p-measure]], [[Borel Measures on the Real Line#^lebesgue]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

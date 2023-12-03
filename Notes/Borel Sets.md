@@ -9,7 +9,7 @@ Date Created: 17/10/2023 21:19:13
 Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
-Examples: [[Lebesgue-Stieltjes Measure#^borel-measures-on-R]]
+Examples: [[Borel Measures on the Real Line]]
 Constructions: [[Measurable Function#^Borel-function]]
 Generalizations: <i>Not Applicable</i>
 

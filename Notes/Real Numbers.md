@@ -13,7 +13,7 @@ Tags: #Type/Example #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Lebesgue-Stieltjes Measure]], [[Complex Numbers]], [[Model Spaces]]
+Constructions: [[Borel Measures on the Real Line]], [[Complex Numbers]], [[Model Spaces]]
 Generalizations: [[Cantor's Intersection Theorem]]
 
 Properties: [[Calculus on the Real Line]], [[Convergence Criteria in R]]
