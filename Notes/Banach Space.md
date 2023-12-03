@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    characterization-of-completeness: Characterization of Completeness
+---
+
 <div class="topSpace"></div>
 
 Date Created: 16/02/2023 11:14:46
