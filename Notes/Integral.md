@@ -11,7 +11,7 @@ Date Created: 24/10/2023 19:46:55
 Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
-Examples: [[Calculus in Euclidean Space#^integration]]
+Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

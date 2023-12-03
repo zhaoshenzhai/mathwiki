@@ -24,7 +24,7 @@ Justifications: [[Free Group#^universal-property-of-free-groups]], [[Division Al
 ``` ad-Example
 title: Example.
 
-We construct the <b>integers</b> as the quotient of $\N^2$ under the equivalence relation $\tpl{m_1,n_1}\sim\tpl{m_2,n_2}$ iff $m_1+n_2=m_2+n_1$, which identifies all points on diagonals. This construction induces binary operations $+$ and $\cdot$ on $\Z$ making $\tpl{\Z,+,\cdot}$ into a ring.
+We construct the <b>integers</b> $\Z$ as the quotient of $\N^2$ under the equivalence relation $\tpl{m_1,n_1}\sim\tpl{m_2,n_2}$ iff $m_1+n_2=m_2+n_1$, which identifies all points on diagonals. This construction induces binary operations $+$ and $\cdot$ on $\Z$ making $\tpl{\Z,+,\cdot}$ into a ring.
 * The integers $\Z$ is initial in $\catring$ and is a Euclidean domain with the absolute value $\l|\slot\r|$ valuation.
 * The subgroups of $\tpl{\Z,+}$ are of the form $n\Z$ for $n\in\Z$, and all non-trivial cyclic groups $G$ are either $\Z$ or $\Z/n\Z$ for some $n\geq2$.
 * An element $m\in\Z/n\Z$ generates $\Z/n\Z$ iff $m\perp n$, which occurs iff $m\in\l(\Z/n\Z\r)^\times$.

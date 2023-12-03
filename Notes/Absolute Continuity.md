@@ -9,7 +9,7 @@ Date Created: 07/11/2023 13:39:35
 Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
-Examples: [[Integral#^integral-measure-abs-cont-measure]]
+Examples: [[Integral#^integral-measure-abs-cont-measure]], [[Calculus on the Real Line#^absolutely-continuous-function]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

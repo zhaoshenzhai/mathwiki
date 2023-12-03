@@ -16,7 +16,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Lebesgue-Stieltjes Measure]], [[Complex Numbers]], [[Model Spaces]]
 Generalizations: [[Cantor's Intersection Theorem]]
 
-Properties: [[Calculus in Euclidean Space]], [[Convergence Criteria in R]], [[Mean Value Theorems]]
+Properties: [[Calculus on the Real Line]], [[Convergence Criteria in R]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Compact Space#^compact-hausdorff-implies-closed]], [[Compact Space#^compact-implies-bounded]], [[Compactness in metric spaces]], [[Compact Space#^extreme-value-theorem]], [[Connected Space#^intermediate-value-theorem]]
