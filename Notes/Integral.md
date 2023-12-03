@@ -12,7 +12,7 @@ Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: <i>Not Applicable</i>
+Constructions: [[Lp Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]], [[Fubini-Tonelli Theorem]], [[Chebyshev's Inequality]], [[An epsilon-trade for an easy life#^99-boundedness]]

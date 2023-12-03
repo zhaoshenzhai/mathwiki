@@ -4,7 +4,7 @@ Date Created: 16/02/2023 11:14:46
 Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: <i>Not Applicable</i>
-Examples: [[Real Numbers]], [[Continuous functions on a compact metric space with sup norm is Banach]]
+Examples: [[Real Numbers]], [[Lp Space]], [[Continuous functions on a compact metric space with sup norm is Banach]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
@@ -28,4 +28,4 @@ A normed vector space $X$ is a <b>Banach space</b> if its induced metric $d:X\ti
 $$\begin{equation}
     \sum_i\|y_i\|=\sum_i\|x_i-x_{i-1}\|=\|x_0\|+\sum_{i\geq1}\|x_i-x_{i-1}\|\leq\|x_0\|+\sum_{i\geq1}2^{-i}<\infty
 \end{equation}$$
-converges. Thus the series $\sum_iy_i$ converges by assumption, that this is precisely $\lim_nx_n$.<span style="float:right;">$\blacksquare$</span>
+converges. Thus the series $\sum_iy_i$ converges by assumption, that this is precisely $\lim_nx_n$.<span style="float:right;">$\blacklozenge$</span>

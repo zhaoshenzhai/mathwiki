@@ -9,7 +9,7 @@ Date Created: 24/06/2022 21:36:42
 Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: [[Banach Space]]
-Examples: [[Space of Continuous Functions]], [[lp Space]]
+Examples: [[Space of Continuous Functions]], [[lp Space TEMP]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

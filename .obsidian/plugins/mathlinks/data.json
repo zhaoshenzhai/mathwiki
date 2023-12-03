@@ -190,6 +190,13 @@
       "word": true
     },
     {
+      "replaced": "Lp",
+      "replacement": "$L^p$",
+      "globalMatch": true,
+      "sensitive": true,
+      "word": true
+    },
+    {
       "replaced": "lp",
       "replacement": "$\\ell^p$",
       "globalMatch": true,
@@ -239,6 +246,7 @@
   "blockPrefix": "",
   "enableFileNameBlockLinks": false,
   "enableInSourceMode": false,
+  "renderOutline": true,
   "enableAPI": true,
   "excludedFilePaths": [
     {
