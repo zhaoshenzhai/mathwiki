@@ -16,7 +16,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Lebesgue-Radon-Nikodym Theorem]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Borel-Cantelli Lemmas]], [[Basic properties of measures#^monotone-convergence-of-sets]]
+Justifications: [[Borel-Cantelli Lemmas]], [[Basic properties of measures#^monotone-convergence-of-sets]], [[Hahn Decomposition Theorem]]
 
 ``` ad-Definition
 title: Definition.
@@ -27,7 +27,9 @@ For measures $\mu$ and $\nu$ on a measurable space $\tpl{X,\mc{B}}$, we say that
 ```
 
 <b>Remark.</b> The terminology is motivated by the following characterization: if $\mu$ is a finite measure, then $\mu\abscont\nu$ iff for all $\epsilon>0$, there is some $\delta>0$ such that for each $B\in\mc{B}$, we have $\mu\l(B\r)<\epsilon$ whenever $\nu\l(B\r)<\delta$. ^characterization-of-absolute-continuity
-* Indeed, the backwards direction is trivial. For the forwards, take $\epsilon>0$ and suppose for sake of contradiction that for any $\delta>0$, there is some $B_\delta\in\mc{B}$ with $\nu\l(B_\delta\r)<\delta$ such that $\mu\l(B\r)\geq\epsilon$. Thus $\mc{B}$ contains sets of arbitrarily small measure, so Borel-Cantelli gives us a decreasing sequence $B_n$ such that $\nu\l(\bigcap_nB_n\r)=0$. By absolute continuity, we have $\mu\l(\bigcap_nB_n\r)=0$ too, which contradicts the fact that $\mu\l(B_n\r)\decto\mu\l(\bigcap_nB_n\r)=0$.<span style="float:right;">$\blacklozenge$</span>
+* Indeed, the backwards direction is trivial. For the forwards, take $\epsilon>0$ and suppose for sake of contradiction that for any $\delta>0$, there is some $B_\delta\in\mc{B}$ with $\nu\l(B_\delta\r)<\delta$ such that $\mu\l(B\r)\geq\epsilon$. Thus $\mc{B}$ contains sets of arbitrarily small measure, so Borel-Cantelli gives us a decreasing sequence $B_n$ such that $\nu\l(\bigcap_nB_n\r)=0$. By absolute continuity, we have $\mu\l(\bigcap_nB_n\r)=0$ too, which contradicts the fact that $\mu\l(B_n\r)\decto\mu\l(\bigcap_nB_n\r)=0$.
+
+If $\mu$ is a signed measure, then the same holds with $\l|\mu\l(B\r)\r|<\epsilon$ instead. Indeed, this follows since $\mu\abscont\nu$ iff $\l|\mu\r|\abscont\nu$, and $\l|\mu\l(B\r)\r|\leq\l|\mu\l(B\r)\r|$. The backwards direction and the latter claim is trivial. For the forward, let $X=X_+\sqcup X_-$ be the Hahn decomposition for $\mu$ and let $B$ be a $\nu$-null set. Then $\nu\l(B\cap X_+\r)=\nu\l(B\cap X_-\r)=0$, so $\mu\l(B\cap X_+\r)=\mu\l(B\cap X_-\r)=0$. But this is precisely $\mu_+\!\l(B\r)=\mu_-\!\l(B\r)=0$, so $\l|\mu\r|\l(B\r)=0$ as desired.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
