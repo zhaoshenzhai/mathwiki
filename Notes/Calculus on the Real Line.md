@@ -1,5 +1,5 @@
 ---
-mathLink: Calculus in $\R$
+mathLink: Calculus on $\R$
 mathLink-blocks:
     absolutely-continuous-function: Absolutely Continuous Function
 ---
@@ -20,14 +20,14 @@ Equivalences: [[Borel Measures on the Real Line]]
 Justifications: [[Real Numbers#^rationals-dense-in-reals]], [[Absolute Continuity#^characterization-of-absolute-continuity]]
 
 ``` ad-Example
-title: Example (Calculus in $\R$).
+title: Example (Calculus on $\R$).
 
 Consider $\R$ equipped with the Lebesgue measure $\lambda$ and let $f:\R\to\R$ be a function.
 * $f$ is <b>differentiable</b> at $x\in\R$ if the limit $\lim_{h\to0}\l[f\l(x+h\r)-f\l(x\r)\r]/h$ exists, in which case we denote it by $f'\l(x\r)$.
 * $f$ is <b>absolutely-continuous</b> if for every $\epsilon>0$, there is some $\delta>0$ such that $\sum_n\l|f\l(b_n\r)-f\l(a_n\r)\r|<\epsilon$ whenever $\sum_n\l(b_n-a_n\r)<\delta$ for any $U\coloneqq\bigsqcup_n\l(a_n,b_n\r)$.
 * $f$ is of <b>bounded variation</b> if $T_f\!\l(\infty\r)<\infty$, where $T_f\!\l(x\r)\coloneqq\sup\l\{\sum_{i<n}\l|f\l(x_{i+1}\r)-f\l(x_i\r)\r|\st n\in\N,x_0<x_1<\cdots<x_n=x\r\}$ is the <b>total variation</b> of $f$ at $x$.
 
-The Fundamental Theorem of Calculus states that a $f$ is absolutely-continuous iff $f'\in L^1\!\l(\lambda\r)$ a.e. and $f\l(b\r)-f\l(a\r)=\int f'\d\lambda$ for all $a<b$.
+The Fundamental Theorem of Calculus states that $f$ is absolutely-continuous iff $f'\in L^1\!\l(\lambda\r)$ a.e. and $f\l(b\r)-f\l(a\r)=\int f'\d\lambda$ for all $a<b$.
 
 
 ```
@@ -51,4 +51,11 @@ To show that $f'$ exists a.e., we note that $\bar{f}$ is an increasing right-con
 $$\begin{equation}
     \lim_{r\to0^+}\frac{\bar{f}\l(x+r\r)-\bar{f}\l(x\r)}{r}=\lim_{r\to0^+}\frac{\mu\l(x,x+r\r]}{\lambda\l(x,x+r\r]}=\frac{\d\mu_\abscont}{\d\lambda}=\lim_{r\to0^+}\frac{\mu\l(x-r,x\r]}{\lambda\l(x-r,x\r]}=\lim_{r\to0^+}\frac{\bar{f}\l(x\r)-\bar{f}\l(x-r\r)}{r}.
 \end{equation}$$
-Thus $\bar{f}$ is differentiable a.e. and $\bar{f}\in L^1\!\l(\lambda\r)$. Set $h\coloneqq\bar{f}-f$
+Thus $\bar{f}$ is differentiable a.e. Set $h\coloneqq\bar{f}-f$, so $h\l(x\r)\neq0$ implies that $x\in D$; we claim that $h'=0$ a.e., so $f'=\bar{f}'$ a.e. and we are done. To this end, consider the Dirac measure $\delta\coloneqq\sum_{x\in\R}h\l(x\r)\delta_x$, which is a countable sum since $D$ is countable. Note that $\delta$ is locally-finite since the intervals $(f\l(x\r),\bar{f}\l(x\r))$ are all disjoint, so
+$$\begin{equation}
+    \sum_{\l|x\r|\leq N}h\l(x\r)=\sum_{\l|x\r|\leq N}\bar{f}\l(x\r)-f\l(x\r)\leq f\l(N\r)-f\l(-N\r)<\infty
+\end{equation}$$
+for all $N\in\N$. Thus, again by the Lebesgue Differentiation Theorem with $\delta\perp\lambda$, we see that $\lim_{r\to0}\frac{\delta\l[x-r,x+r\r]}{\lambda\l[x-r,x+r\r]}=0$ and hence
+$$\begin{equation}
+    \l|\frac{h\l(x+r\r)-h\l(x\r)}{r}\r|\leq\frac{h\l(x+r\r)-h\l(x\r)}{\l|r\r|}\leq2\cdot\frac{\delta\l[x-r,x+r\r]}{\lambda\l[x-r,x+r\r]}\to0.\exqedin
+\end{equation}$$

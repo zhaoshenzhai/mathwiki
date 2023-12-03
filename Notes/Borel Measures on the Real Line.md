@@ -7,7 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 13/09/2023 18:28:00
-Tags: #Type/Theorem #Topic/Real_Analysis
+Tags: #Type/Theorem #In_Progress
 
 Proved by: [[Basic properties of measures#^monotone-convergence-of-sets]], [[Caratheodory's Extension Theorem]], [[Real Numbers#^heine-borel]]
 References: <i>Not Applicable</i>
