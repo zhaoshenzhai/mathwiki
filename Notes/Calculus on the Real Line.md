@@ -18,8 +18,8 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 ^bounded-variation
 
-Properties: [[Lebesgue Differentiation Theorem]], [[Hardy-Littlewood Maximal Theorem]], [[Mean Value Theorems]]
-Sufficiencies: [[Bounded variation implies differentiable a.e.]], [[Vitali Covering Lemma]]
+Properties: [[Lebesgue Differentiation Theorem]], [[Bounded variation implies differentiable a.e.]], [[Hardy-Littlewood Maximal Theorem]], [[Mean Value Theorems]]
+Sufficiencies: [[Vitali Covering Lemma]]
 Equivalences: [[Borel Measures on the Real Line]]
 Justifications: [[Absolute Continuity#^characterization-of-absolute-continuity]], [[Hahn Decomposition Theorem]], [[Regularity and Tightness]], [[Basic properties of measures#^monotone-convergence-of-sets]]
 
