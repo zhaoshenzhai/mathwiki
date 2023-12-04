@@ -2,6 +2,7 @@
 mathLink: auto
 mathLink-blocks:
     holder: Hölder’s Inequality
+    minkowski: Minkowski’s Inequality
     simple-functions-dense-in-Lp: Simple functions dense in $L^p$
 ---
 
@@ -11,18 +12,20 @@ Date Created: 03/12/2023 09:22:57
 Tags: #Type/Proposition #In_Progress
 ^holder
 
-Proved by: [[Basic properties of integration]], [[Banach Space#^characterization-of-completeness]], [[Convergence Theorems]], [[Chebyshev's Inequality]]
+Proved by: [[Banach Space#^characterization-of-completeness]], [[Convergence Theorems]], [[Chebyshev's Inequality]], [[Convergence Theorems#^simple-function-dense-in-L1]], [[Pointwise-limits of measurable functions are measurable]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
+^minkowski
 
 ``` ad-Proposition
 title: Proposition.
 
 Let $\tpl{X,\mu}$ be a measure space and fix $1\leq p\leq\infty$. Then $L^p\coloneqq L^p\!\l(X,\mu\r)$ is a Banach space and admits the simple functions as a dense subset.
 * (Hölder’s Inequality). If $f\in L^p$ and $g\in L^q$, then $fg\in L^r$ where $\frac{1}{r}=\frac{1}{p}+\frac{1}{q}$; in fact, $\|fg\|_r\leq\|f\|_p\cdot\|g\|_q$.
+* For each $f\in L^p\cap L^\infty$ with $p<\infty$, we have $\lim_{q\to\infty}\|f\|_q=\|f\|_\infty$.
 
 ```
 ^simple-functions-dense-in-Lp
@@ -48,4 +51,4 @@ $$\begin{equation}
 
 ---
 
-<i>Proof (when $p=\infty$).</i> 
+<i>Proof (when $p=\infty$).</i> That $L^\infty$ is a normed vector space is clear. To show that it is Banach, let $f_n\in L^\infty$ be a Cauchy sequence. Then $f_n\!\l(x\r)$ is a Cauchy sequence in $\R$ for a.e. $x\in X$ and hence converges to some $f\l(x\r)$. Letting $f:X\to\R$ denote the resulting measurable function, we have $\|f-f_n\|_\infty\to0$ since $\l|f_n\!\l(x\r)-f_m\!\l(x\r)\r|<\epsilon$ for all eventually $n,m\in\N$, so taking $m\to\infty$ gives $\l|f_n\!\l(x\r)-f\l(x\r)\r|<\epsilon$ for a.e. $x\in X$, and hence $\|f_n-f\|_\infty\leq\l|f_n\!\l(x\r)-f\l(x\r)\r|<\epsilon$, for all eventually $n\in\N$. Lastly, $f\in L^\infty$ since $\|f\|_\infty\leq\|f_n\|_\infty+\|f-f_n\|_\infty<\|f_n\|_\infty+\epsilon<\infty$ for any $n$ large enough. The same proof above shows that the simple functions are dense in $L^\infty$.
