@@ -5,7 +5,7 @@ Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Vitali Covering Lemma]]
 References: <i>Not Applicable</i>
-Justifications: [[Fubini-Tonelli Theorem]], [[Dominated Convergence Theorem]]
+Justifications: [[Fubini-Tonelli Theorem]], [[Convergence Theorems]]
 
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>

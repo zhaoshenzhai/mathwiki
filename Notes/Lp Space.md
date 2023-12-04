@@ -12,10 +12,10 @@ Examples: [[lp Space TEMP]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
-Sufficiencies: <i>Not Applicable</i>
+Properties: [[Basic properties of Lp spaces#^holder]]
+Sufficiencies: [[Basic properties of Lp spaces#^simple-functions-dense-in-Lp]]
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Basic properties of Lp spaces]]
+Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.

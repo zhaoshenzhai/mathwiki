@@ -1,5 +1,5 @@
 ---
-mathLink: $f_n$ measurable $\Rightarrow$ $\lim f_n$ measurable
+mathLink: Measurability of $f_n\to f$
 ---
 
 <div class="topSpace"></div>

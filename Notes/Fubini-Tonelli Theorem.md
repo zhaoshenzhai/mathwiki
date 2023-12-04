@@ -3,7 +3,7 @@
 Date Created: 07/11/2023 20:27:28
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Monotone Class Lemma]], [[Basic properties of measures#^monotone-convergence-of-sets]], [[Pointwise-limits of measurable functions are measurable]], [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]], [[Measurable Function#^measurable-almost-borel]]
+Proved by: [[Monotone Class Lemma]], [[Basic properties of measures#^monotone-convergence-of-sets]], [[Pointwise-limits of measurable functions are measurable]], [[Convergence Theorems]], [[Measurable Function#^measurable-almost-borel]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

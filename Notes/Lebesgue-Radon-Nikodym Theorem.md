@@ -3,7 +3,7 @@
 Date Created: 22/11/2023 19:49:54
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Pointwise-limits of measurable functions are measurable]], [[Monotone Convergence Theorem]], [[Hahn Decomposition Theorem]]
+Proved by: [[Pointwise-limits of measurable functions are measurable]], [[Convergence Theorems]], [[Hahn Decomposition Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

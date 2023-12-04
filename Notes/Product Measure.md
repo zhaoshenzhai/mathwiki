@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Fubini-Tonelli Theorem]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Caratheodory's Extension Theorem]], [[Monotone Convergence Theorem]], [[Measurable Function#^continuous-implies-Borel]]
+Justifications: [[Caratheodory's Extension Theorem]], [[Convergence Theorems]], [[Measurable Function#^continuous-implies-Borel]]
 
 ``` ad-Definition
 title: Definition.

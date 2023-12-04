@@ -1,7 +1,6 @@
 ---
 mathLink-blocks:
     integrable-function: Integrable Function
-    simple-functions-dense-in-integrable: Simple functions are dense in $L^1$
     integral-measure-abs-cont-measure: $\mu_f\abscont\mu$
 ---
 
@@ -15,8 +14,8 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Lp Space]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]], [[Fubini-Tonelli Theorem]], [[Chebyshev's Inequality]], [[An epsilon-trade for an easy life#^99-boundedness]]
-Sufficiencies: <i>Not Applicable</i>
+Properties: [[Convergence Theorems]], [[Fubini-Tonelli Theorem]], [[Chebyshev's Inequality]], [[An epsilon-trade for an easy life#^99-boundedness]]
+Sufficiencies: [[Convergence Theorems#^simple-function-dense-in-L1]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Basic properties of integration]], [[Absolute Continuity#^characterization-of-absolute-continuity]]
 
