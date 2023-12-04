@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: [[Geometric Sequence]], [[p series converges iff p greater than 1]]
-Constructions: <i>Not Applicable</i>
+Constructions: [[Little lp Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

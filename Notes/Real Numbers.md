@@ -14,7 +14,7 @@ Tags: #Type/Example #Topic/Real_Analysis
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: [[Borel Measures on the Real Line]], [[Complex Numbers]], [[Model Spaces]]
-Generalizations: [[Cantor's Intersection Theorem]]
+Generalizations: [[Cantor's Intersection Theorem]], [[Little lp Space]]
 
 Properties: [[Calculus on the Real Line]], [[Convergence Criteria in R]]
 Sufficiencies: <i>Not Applicable</i>

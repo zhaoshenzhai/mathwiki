@@ -5,10 +5,10 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 03/12/2023 09:00:06
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: <i>Not Applicable</i>
-Examples: [[lp Space TEMP]]
+Examples: [[Little lp Space]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
@@ -25,4 +25,4 @@ Let $\tpl{X,\mu}$ be a measure space and fix $1\leq p<\infty$. The space $L^p\!\
 
 ```
 
-<b>Remark.</b> 
+<b>Remark.</b> If $f\in L^\infty\!\l(X,\mu\r)$, then there is a function $\widetilde{f}=f$ a.e. such that $\|\widetilde{f}\|_\infty=\sup_{x\in X}|\widetilde{f}\l(x\r)|=\|f\|_\infty$ is the actual $\sup$-norm.<span style="float:right;">$\blacklozenge$</span>

@@ -9,7 +9,7 @@ Date Created: 24/06/2022 21:36:42
 Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: [[Banach Space]]
-Examples: [[lp Space TEMP]]
+Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

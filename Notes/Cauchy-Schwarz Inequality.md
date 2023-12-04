@@ -13,7 +13,7 @@ References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
-Generalizations: [[Holder's Inequality]]
+Generalizations: [[Basic properties of Lp spaces#^holder]]
 
 ``` ad-Theorem
 title: Theorem (Cauchy-Schwarz Inequality).
