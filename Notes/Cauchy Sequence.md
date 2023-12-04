@@ -20,4 +20,8 @@ Let $\tpl{X,d}$ be a metric space. A sequence $\tpl{x_n}$ in $X$ is said to be <
 
 ```
 
-<b>Remark.</b> Equivalently, a sequence $\tpl{x_n}$ is Cauchy if $\lim\limits_{N\to\infty}\diam\l\{x_N,x_{N+1},\dots\r\}=0$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> We list some important properties regarding Cauchy sequences here.
+* (Convergent $\Rightarrow$ Cauchy). If $x_n\to x$, then $x_n$ is Cauchy since $d\l(x_n,x_m\r)\leq d\l(x_n,x\r)+d\l(x_m,x\r)\to0$ as $n,m\to\infty$.
+* (Dragging friends along). If $x_n$ is Cauchy and $x_{n_k}\to x$, then $x_n\to x$ since $d\l(x_k,x\r)\leq d\l(x_k,x_{n_k}\r)+d\l(x_{n_k},x\r)\to0$ as $k\to\infty$.
+
+In light of the second property, any Cauchy sequence can be ‘sped up’ by passing to a subsequence so that $d\l(x_n,x_{n+m}\r)\leq 2^{-n}$ for all $n,m\in\N$.<span style="float:right;">$\blacklozenge$</span>
