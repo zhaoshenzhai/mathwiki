@@ -5,7 +5,7 @@ mathLink: $T:V\to W$ with $\dim V<\infty$ $\Rightarrow$ $T$ bounded
 <div class="topSpace"></div>
 
 Date Created: 27/02/2023 21:42:09
-Tags: #Type/Proposition #Topic/Real_Analysis
+Tags: #Type/Proposition #Topic/Functional_Analysis/Later
 
 Proved by: [[Norms on finite-dimensional spaces are equivalent]]
 References: <i>Not Applicable</i>
