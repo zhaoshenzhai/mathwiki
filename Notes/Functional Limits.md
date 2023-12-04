@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Characterizations of continuity (metric)]]
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

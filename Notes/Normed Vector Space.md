@@ -9,7 +9,7 @@ Date Created: 24/06/2022 21:36:42
 Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: [[Banach Space]]
-Examples: [[Space of Continuous Functions]], [[lp Space TEMP]]
+Examples: [[lp Space TEMP]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
@@ -31,6 +31,6 @@ The <b>category of normed spaces</b> is the category whose objects are normed sp
 ```
 
 <b>Remark.</b> The morphisms $L\l(X,Y\r)$ is itself a normed space under the <i>operator norm</i> $\|T\|\coloneqq\sup_{x\neq0}\|Tx\|/\|x\|$. In fact, $L\l(X,X\r)$ is a normed algebra. ^continuous-iff-lipschitz
-* Continuity of the morphisms $T\in L\l(X,Y\r)$ $-$ which is a relatively weak regularity condition $-$ gets booted to Lipschitz-continuity under the linear structure. Indeed, a linear map $T:X\to Y$ is continuous at $0$ iff it is continuous, iff it is Lipschitz. For the only non-trivial implication, let $\delta>0$ witness continuity of $T$ at $0$ with $\epsilon\coloneqq1$, so $\|Tx\|<1$ whenever $\|x\|<\delta$. Thus $\|Tx\|=\frac{\|x\|}{\delta}\l\|T\l(\frac{\delta x}{\|x\|}\r)\r\|\leq\|x\|/\delta$, so $T$ is Lipschitz as desired.
+* Continuity of morphisms $T\in L\l(X,Y\r)$ $-$ which is a relatively weak regularity condition $-$ gets booted to Lipschitz-continuity under the linear structure. Indeed, a linear map $T:X\to Y$ is continuous at $0$ iff it is continuous, which occurs iff it is Lipschitz. For the only non-trivial implication, let $\delta>0$ witness continuity of $T$ at $0$ with $\epsilon\coloneqq1$, so $\|Tx\|<1$ whenever $\|x\|<\delta$. Thus $\|Tx\|=\frac{\|x\|}{\delta}\l\|T\l(\frac{\delta x}{\|x\|}\r)\r\|\leq\|x\|/\delta$, so $T$ is Lipschitz as desired.
 
-Morphisms $T\in L\l(X,Y\r)$ being Lipschitz allows one to reformulate $\|T\|$ as the infimum of all its Lipschitz constants $C\in\R$ such that $\|Tx\|\leq C\|x\|$ for all $x\in X$. It is due to this characterization that morphisms $T\in L\l(X,Y\r)$ are called <i>bounded operators</i>.<span style="float:right;">$\blacklozenge$</span>
+Morphisms $T\in L\l(X,Y\r)$ being Lipschitz allows one to reformulate $\|T\|$ as the infimum of all its Lipschitz constants $C\in\R$ such that $\|Tx\|\leq C\|x\|$ for all $x\in X$. It is due to this characterization that morphisms $T\in L\l(X,Y\r)$ are usually called <i>bounded operators</i>.<span style="float:right;">$\blacklozenge$</span>

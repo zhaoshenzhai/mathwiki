@@ -9,7 +9,7 @@ Date Created: 16/02/2023 11:14:46
 Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: <i>Not Applicable</i>
-Examples: [[Real Numbers]], [[Lp Space]], [[Continuous functions on a compact metric space with sup norm is Banach]]
+Examples: [[Real Numbers]], [[Lp Space]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
