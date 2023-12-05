@@ -123,17 +123,17 @@ All images are centered and have a `15px` top and bottom [margin](https://github
 
 ## Sample Pages
 
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Structure Theorem.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Structure%20Theorem.png)
 
 ![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Lebesgue-Radon-Nikodym.png)
 
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Galois Correspondence.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Galois%20Correspondence.png)
 
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Hardy-Littlewood Maximal Theorem.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Hardy-Littlewood%20Maximal%20Theorem.png)
 
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Measure Space.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Measure%20Space.png)
 
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Topological Space.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Topological%20Space.png)
 
 [templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/UltiSnips/markdown.snippets#L121
 [tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/fileTypeDefaults.vim#L9
