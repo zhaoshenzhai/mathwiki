@@ -123,17 +123,17 @@ All images are centered and have a `15px` top and bottom [margin](https://github
 
 ## Sample Pages
 
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/linear_algebra.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Structure Theorem.png)
 
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/linear_map.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Lebesgue-Radon-Nikodym.png)
 
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/function.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Galois Correspondence.png)
 
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/abelianization.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Hardy-Littlewood Maximal Theorem.png)
 
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/upper_limit_strictly_finer_than_k.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Measure Space.png)
 
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/fundamental_theorem_of_equivalence_relations.png)
+![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Topological Space.png)
 
 [templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/UltiSnips/markdown.snippets#L121
 [tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/fileTypeDefaults.vim#L9
