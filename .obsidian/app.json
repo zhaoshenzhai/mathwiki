@@ -13,10 +13,11 @@
   "trashOption": "none",
   "useMarkdownLinks": false,
   "pdfExportSettings": {
+    "includeName": false,
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 65
+    "downscalePercent": 55
   },
   "showIndentGuide": false,
   "showFrontmatter": false,
