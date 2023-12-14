@@ -42,12 +42,11 @@
     \newcommand{\coker}{\operatorname{coker}}
     \newcommand{\preim}{\operatorname{preim}}
     \newcommand{\arccosh}{\operatorname{arccosh}}
-    \renewcommand{\span}{\operatorname{span}}
     \renewcommand{\Re}{\operatorname{Re}}
     \renewcommand{\Im}{\operatorname{Im}}
 
 % Math notations
-    % Set Theory
+    % Set Theory and Logic
         \newcommand{\fa}{\forall}
         \newcommand{\ex}{\exists}
         \newcommand{\iso}{\cong}
@@ -66,24 +65,26 @@
     % Category Theory
         \newcommand{\cat}[1]{\textbf{#1}}
         \newcommand{\catset}{\cat{Set}}
-        \newcommand{\catrel}{\cat{Rel}}
-        \newcommand{\catmon}{\cat{Mon}}
         \newcommand{\catgrp}{\cat{Grp}}
-        \newcommand{\catabgrp}{\cat{Ab}}
+        \newcommand{\catmon}{\cat{Mon}}
+        \newcommand{\cattop}{\cat{Top}}
+        \newcommand{\catmet}{\cat{Met}}
+        \newcommand{\catrel}{\cat{Rel}}
         \newcommand{\catring}{\cat{Ring}}
+        \newcommand{\catptop}{\cat{Top}_\blob}
+        \newcommand{\catabgrp}{\cat{Ab}}
+        \newcommand{\cathom}[1][\sigma]{#1\textrm{-}\cat{Hom}}
+        \newcommand{\catemb}[1][\sigma]{#1\textrm{-}\cat{Emb}}
         \newcommand{\catmod}[1][R]{\prescript{}{#1}{\cat{Mod}}}
-        \newcommand{\catfgmod}[1][R]{\cat{fg}_{#1}\cat{Mod}}
         \newcommand{\catrmod}[1][R]{\cat{Mod}_{#1}}
-        \newcommand{\catalg}[1][R]{\prescript{}{#1}{\cat{Alg}}}
+        \newcommand{\catcov}[1][X]{\cat{Cov}\l(#1\r)}
+        \newcommand{\catfgmod}[1][R]{\cat{fg}_{#1}\cat{Mod}}
         \newcommand{\catvect}[1][k]{\prescript{}{#1}{\cat{Vect}}}
         \newcommand{\catfgvect}[1][k]{\cat{fg}_{#1}\cat{Vect}}
-        \newcommand{\cattop}{\cat{Top}}
-        \newcommand{\catptop}{\cat{Top}_\blob}
+        \newcommand{\catalg}[1][R]{\prescript{}{#1}{\cat{Alg}}}
         \newcommand{\catgset}[1]{\prescript{}{#1}{\cat{Set}}}
         \newcommand{\catrep}[2][\,]{\cat{Rep}_{#1\!}\l(#2\r)}
         \newcommand{\catfgrep}[2][\,]{\cat{fgRep}_{#1\!}\l(#2\r)}
-        \newcommand{\catcov}[1][X]{\cat{Cov}_{#1}}
-        \newcommand{\catmet}{\cat{Met}}
 
     % Analysis
         \newcommand{\BV}{BV}
