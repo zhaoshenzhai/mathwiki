@@ -10,7 +10,7 @@ Tags: #Type/Definition #Topic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Monoid]], [[Group]], [[Ring]], [[Field]], [[Module]]
-Constructions: [[Definable Sets]], [[Model]]
+Constructions: [[Definable Sets]], [[Models and Semantics]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -38,4 +38,4 @@ For any subset $A\subseteq B$ of a $\sigma$-structure $\mc{B}\coloneqq(B,\sigma^
 
 ---
 
-<b>Remark.</b> A $\sigma$-structure $\mc{A}$ is what gives <i>semantics</i> to the <i>syntactic</i> definition of the signature $\sigma$, which can be extended to both $\sigma$-terms and $\sigma$-formulas by induction on its construction. We write $t^\mc{A}[\vec{v}]$ (resp. $\phi^\mc{A}[\vec{v}]$) for the interpretation of an extended $\sigma$-term $t[\vec{v}]$ (resp. extended $\sigma$-term $\phi[\vec{v}]$) in $\mc{A}$, and for any $\vec{a}\in A^{|\vec{v}|}$, if $\phi^\mc{A}[\vec{v}](\vec{a})$ holds, we say that $\mc{A}$ <i>models</i> $\phi[\vec{v}]$ and write $\mc{A}\models\phi[\vec{v}](\vec{a})$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A $\sigma$-structure $\mc{A}$ is what gives <i>semantics</i> to the <i>syntactic</i> definition of the signature $\sigma$, which can be extended to both $\sigma$-terms and $\sigma$-formulas by induction on its construction. We write $t^\mc{A}[\vec{v}]$ (resp. $\phi^\mc{A}[\vec{v}]$) for the interpretation of an extended $\sigma$-term $t[\vec{v}]$ (resp. extended $\sigma$-term $\phi[\vec{v}]$) in $\mc{A}$, and for any $\vec{a}\in A^{|\vec{v}|}$, if $\phi^\mc{A}[\vec{v}](\vec{a})$ holds, we say that $\mc{A}$ <i>models</i> $\phi[\vec{v}]$ and write $\mc{A}\models\phi[\vec{v}](\vec{a})$. The <i>theory</i> of $\mc{A}$ is the set $\Th\l(\mc{A}\r)$ of all $\sigma$-sentences $\phi$ such that $\mc{A}\models\phi$.<span style="float:right;">$\blacklozenge$</span>
