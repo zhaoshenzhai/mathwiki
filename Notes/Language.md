@@ -29,7 +29,7 @@ The <b>alphabet</b> of $\FOL\l(\sigma\r)$ in the signature $\sigma$ consists of 
 
 ```
 
-<b>Remark.</b> Finite strings of symbols in $\FOL\l(\sigma\r)$ are called <i>$\sigma$-words</i>. The set of <i>$\sigma$-terms</i> is the smallest set $\Term\l(\sigma\r)$ of $\sigma$-words such that $c\in\Term\l(\sigma\r)$ for each $c\in\mc{C}$, $v_n\in\Term\l(\sigma\r)$ for each variable symbol $v_n$, and $f\l(t_1,\dots,t_n\r)\in\Term\l(\sigma\r)$ for each $t_1,\dots,t_n\in\Term\l(\sigma\r)$ and $f\in\mc{F}_n$.
+<b>Remark.</b> Finite strings of symbols in $\FOL\l(\sigma\r)$ are called <i>$\sigma$-words</i>. The set of <i>$\sigma$-terms</i> is the smallest set $\Term\l(\sigma\r)$ of $\sigma$-words such that $c\in\Term\l(\sigma\r)$ for each $c\in\mc{C}$, $v_i\in\Term\l(\sigma\r)$ for each variable symbol $v_i$, and $f\l(t_1,\dots,t_n\r)\in\Term\l(\sigma\r)$ for each $t_1,\dots,t_n\in\Term\l(\sigma\r)$ and $f\in\mc{F}_n$.
 * For a $\sigma$-term $t$, we call the $\sigma$-word $t[\vec{v}]\coloneqq t\l(v_{i_0},\dots,v_{i_{n-1}}\r)$ an <i>extended $\sigma$-term</i>, and write $t[\vec{v}]\in\ExtTerm\l(\sigma\r)$, if $\vec{v}$ includes all the variable symbols appearing in $t$.
 
 We also define the set $\Form\l(\sigma\r)$ of <i>$\sigma$-formulas</i> as the smallest set of $\sigma$-words such that if $s,t\in\Term\l(\sigma\r)$, then $\l(s=t\r)$ is a $\sigma$-formula; if $t_1,\dots,t_n\in\Term\l(\sigma\r)$ and $R\in\mc{R}_n$, then $R\l(t_1,\dots,t_n\r)$ is a $\sigma$-formula; and if $\phi,\psi\in\Form\l(\sigma\r)$ and $v$ is a variable symbol, then $\lnot\phi$, $\phi\land\psi$, $\phi\lor\psi$, $\phi\rightarrow\psi$, $\ex v\phi$, and $\fa v\phi$ are also $\sigma$-formulas.
