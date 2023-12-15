@@ -1,3 +1,9 @@
+---
+mathLink-blocks:
+    theory: Theory
+    interpretation: Interpretation
+---
+
 <div class="topSpace"></div>
 
 Date Created: 14/12/2023 22:53:59
@@ -5,7 +11,7 @@ Tags: #Type/Definition #Topic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Structure]]
+Constructions: [[Structure]], [[Model]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -27,4 +33,21 @@ The <b>alphabet</b> of $\FOL\l(\sigma\r)$ in the signature $\sigma$ consists of 
 * For a $\sigma$-term $t$, we call the $\sigma$-word $t[\vec{v}]\coloneqq t\l(v_{i_0},\dots,v_{i_{n-1}}\r)$ an <i>extended $\sigma$-term</i>, and write $t[\vec{v}]\in\ExtTerm\l(\sigma\r)$, if $\vec{v}$ includes all the variable symbols appearing in $t$.
 
 We also define the set $\Form\l(\sigma\r)$ of <i>$\sigma$-formulas</i> as the smallest set of $\sigma$-words such that if $s,t\in\Term\l(\sigma\r)$, then $\l(s=t\r)$ is a $\sigma$-formula; if $t_1,\dots,t_n\in\Term\l(\sigma\r)$ and $R\in\mc{R}_n$, then $R\l(t_1,\dots,t_n\r)$ is a $\sigma$-formula; and if $\phi,\psi\in\Form\l(\sigma\r)$ and $v$ is a variable symbol, then $\lnot\phi$, $\phi\land\psi$, $\phi\lor\psi$, $\phi\rightarrow\psi$, $\ex v\phi$, and $\fa v\phi$ are also $\sigma$-formulas.
-* For a $\sigma$-formula $\phi$, we say that a variable $v$ is <i>quantified</i> in $\phi$ if $\phi$ contains a substring of the form $\ex v\psi$ or $\fa v\psi$. Otherwise, if $v$ occurs in $\phi$ but is not quantified, then it is said to be <i>free</i>. For a vector of variables $\vec{v}$, call the $\sigma$-word $\phi[\vec{v}]\coloneqq\phi\l(v_{i_0},\dots,v_{i_{n-1}}\r)$ an <i>extended $\sigma$-formula</i>, and write $\phi\in\ExtForm\l(\sigma\r)$, if $\vec{v}$ includes all the free variables of $\phi$ and does not include any variables quantified in $\phi$.<span style="float:right;">$\blacklozenge$</span>
+* For a $\sigma$-formula $\phi$, we say that a variable $v$ is <i>quantified</i> in $\phi$ if $\phi$ contains a substring of the form $\ex v\psi$ or $\fa v\psi$. Otherwise, if $v$ occurs in $\phi$ but is not quantified, then it is said to be <i>free</i>. For a vector of variables $\vec{v}$, call the $\sigma$-word $\phi[\vec{v}]\coloneqq\phi\l(v_{i_0},\dots,v_{i_{n-1}}\r)$ an <i>extended $\sigma$-formula</i>, and write $\phi\in\ExtForm\l(\sigma\r)$, if $\vec{v}$ includes all the free variables of $\phi$ and does not include any variables quantified in $\phi$.
+
+If a $\sigma$-formula $\phi$ does not contain any free variables, then $\phi\in\Sent\l(\sigma\r)$ is said to be a <i>$\sigma$-sentence</i>. Any subcollection of $\Sent\l(\sigma\r)$ is called a <i>$\sigma$-theory</i>.<span style="float:right;">$\blacklozenge$</span> ^theory
+
+---
+
+<b>Remark.</b> All the above notions are purely <i>syntactic</i>. To give them meaning, or <i>semantics</i>, we fix a $\sigma$-structure $\mc{A}$ and define <i>interpretations</i> of those symbols within $\mc{A}$. Indeed, the <i>interpretation</i> of an extended $\sigma$-term $t[\vec{v}]$ in $\mc{A}$ is the function $t^\mc{A}[\vec{v}]:A^{|\vec{v}|}\to A$ defined by induction on its construction, as follows. For each $\vec{a}\in A^{|\vec{v}|}$: ^interpretation
+* If $t=c\in\mc{C}$, then $t^\mc{A}[\vec{v}](\vec{a})\coloneqq c^\mc{A}$, and if $t=(\vec{v})_i$, then $t^\mc{A}[\vec{v}](\vec{a})\coloneqq(\vec{a})_i$.
+* If $t=f\l(t_1,\dots,t_n\r)$ for some $t_i\in\Term\l(\sigma\r)$ and $f\in\mc{F}_n$, so each $t_i[\vec{v}]\in\ExtTerm\l(\sigma\r)$, then $t^\mc{A}[\vec{v}](\vec{a})\coloneqq f^\mc{A}\!\l(t_1^\mc{A}[\vec{v}](\vec{a}),\dots,t_n^\mc{A}[\vec{v}](\vec{a})\r)$.
+
+Similarly, the <i>interpretation</i> of an extended $\sigma$-formula $\phi[\vec{v}]$ in $\mc{A}$ is the $|\vec{v}|$-ary relation on $A$ defined by induction on its construction, as follows. For each $\vec{a}\in A^{|\vec{v}|}$:
+* If $\phi=\l(t_1=t_2\r)$, so in particular both $t_i[\vec{v}]\in\ExtTerm\l(\sigma\r)$, then $\phi^\mc{A}[\vec{v}](\vec{a})$ holds iff $t_1^\mc{A}[\vec{v}](\vec{a})=t_2^\mc{A}[\vec{v}](\vec{a})$.
+* If $\phi=R\l(t_1,\dots,t_n\r)$ where each $t_i\in\Term\l(\sigma\r)$ and $R\in\mc{R}_n$, so in particular each $t_i[\vec{v}]\in\ExtTerm\l(\sigma\r)$, then $\phi^\mc{A}[\vec{v}](\vec{a})$ holds iff $R^\mc{A}\!\l(t_1^\mc{A}[\vec{v}](\vec{a}),\dots,t_n^\mc{A}[\vec{v}](\vec{a})\r)$ holds.
+* If $\phi=\lnot\psi$ for some $\psi\in\Form\l(\sigma\r)$, so in particular $\psi[\vec{v}]\in\ExtForm\l(\sigma\r)$, then $\phi^\mc{A}[\vec{v}](\vec{a})$ holds iff $\psi^\mc{A}[\vec{v}](\vec{a})$ fails.
+* If $\phi=\psi_1\land\psi_2$ for some $\psi_i\in\Form\l(\sigma\r)$, so in particular $\psi_i[\vec{v}]\in\ExtForm\l(\sigma\r)$, then $\phi^\mc{A}[\vec{v}](\vec{a})$ holds iff both $\psi_1^\mc{A}[\vec{v}](\vec{a})$ and $\psi_2^\mc{A}[\vec{v}](\vec{a})$ hold. Similarly for $\phi=\psi_1\lor\psi_2$.
+* If $\phi=\ex u\psi$ for some $\psi\in\Form\l(\sigma\r)$ and variable symbol $u$, so in particular $u\not\in\vec{v}$ and $\psi[\vec{v},u]\in\ExtForm\l(\sigma\r)$, then $\phi^\mc{A}[\vec{v},u](\vec{a})$ holds iff there exists $b\in A$ such that $\psi^\mc{A}[\vec{v},u](\vec{a},b)$ holds. Similarly for $\phi=\fa u\psi$.
+
+For an extended $\sigma$-formula $\phi[\vec{v}]$ and a tuple $\vec{a}\in A^{|\vec{v}|}$, we say that $\mc{A}$ <i>models</i> $\phi[\vec{v}]$, and write $\mc{A}\models\phi[\vec{v}](\vec{a})$, whenever $\phi^\mc{A}[\vec{v}](\vec{a})$ holds.<span style="float:right;">$\blacklozenge$</span>
