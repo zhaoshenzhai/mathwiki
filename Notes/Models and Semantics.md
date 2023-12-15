@@ -13,7 +13,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Compactness Theorem]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
@@ -29,9 +29,9 @@ Let $T$ be a $\sigma$-theory. A non-empty $\sigma$-structure $\mc{A}$ is said to
 
 ```
 
-<b>Remark.</b> The <i>category of $\sigma$-models of $T$</i> is the subcategory $\catmodel{T}$ of $\cathom$ whose objects are models of $T$ and whose morphisms are $\sigma$-preserving maps. For a class $\mc{C}$ of $\sigma$-structures, we say that $T$ is an <i>axiomatization</i> of $\mc{C}$ if $\catmodel{T}=\mc{C}$, and $\mc{C}$ is (resp. <i>finitely</i>) <i>axiomatizable</i> if it admits a (resp. finite) axiomatization.<span style="float:right;">$\blacklozenge$</span> ^category-of-models
+<b>Remark.</b> The <i>Compactness Theorem</i> implies in particular that every $\sigma$-theory $T$ is compact, for if $T\models\phi$, then $T\cup\l\{\lnot\phi\r\}$ is not satisfiable and hence there is a finite non-satisfiable subtheory $F\subseteq T\cup\l\{\lnot\phi\r\}$. Put $T'\coloneqq F\cap T$, so $T'\cup\l\{\lnot\phi\r\}$ is not satisfiable and hence $T'\models\phi$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<b>Remark.</b> A $\sigma$-theory $S$ is an <i>axiomatization</i> of $T$ if it is an axiomatization of $\catmodel{T}$, and we say that $T$ is <i>finitely axiomatizable</i> if it admits a finite axiomatization.
-* A priori, a finite axiomatization $F$ of $T$ need not lie in $T$, but it is a consequence of the Compactness Theorem that a witness $T'\subseteq T$ to finite axiomatizability can always be found. Indeed, 
+<b>Remark.</b> The <i>category of $\sigma$-models of $T$</i> is the subcategory $\catmodel{T}$ of $\cathom$ whose objects are models of $T$ and whose morphisms are $\sigma$-preserving maps. For a class $\mc{C}$ of $\sigma$-structures, we say that $T$ is an <i>axiomatization</i> of $\mc{C}$ if $\catmodel{T}=\mc{C}$, and $\mc{C}$ is (resp. <i>finitely</i>) <i>axiomatizable</i> if it admits a (resp. finite) axiomatization. A $\sigma$-theory $F$ is an <i>axiomatization</i> of $T$ if it is an axiomatization of $\catmodel{T}$, and we say that $T$ is <i>finitely axiomatizable</i> if it admits a finite axiomatization. ^category-of-models
+* A priori, a finite axiomatization $F$ of $T$ need not lie in $T$, but it is a consequence of the Compactness Theorem that a witness $T'\subseteq T$ to finite axiomatizability can always be found. Indeed, write $F=\l\{\phi_1,\dots,\phi_n\r\}$ for some $\sigma$-sentences $\phi_i$, so $\mc{A}\models T$ iff $\mc{A}\models\phi_i$ for all $1\leq i\leq n$. In particular, we see that $T\models\phi_i$ for each $i$, so Compactness furnishes finite subtheories $T_i\subseteq T$ such that $T_i\models\phi_i$ for each $i$. The finite subtheory $T'\coloneqq\bigcup_{i=1}^nT_i$ of $T$ is as desired.<span style="float:right;">$\blacklozenge$</span>
