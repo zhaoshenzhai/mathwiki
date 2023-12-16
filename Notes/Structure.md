@@ -10,7 +10,7 @@ Tags: #Type/Definition #Topic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Monoid]], [[Group]], [[Ring]], [[Field]], [[Module]]
-Constructions: [[Definable Sets]], [[Models and Semantics]]
+Constructions: [[Definable Sets]], [[Models and Semantic Truth]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

@@ -19,7 +19,7 @@ Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
-title: Definition.
+title: Definition (Models and Semantic Truth).
 
 Let $T$ be a $\sigma$-theory. A non-empty $\sigma$-structure $\mc{A}$ is said to <b>model</b> $T$, written $\mc{A}\models T$, if $\mc{A}\models\phi$ for every $\phi\in T$.
 * (Implication). For a $\sigma$-sentence $\phi$, we say that <b>$T$ semantically implies $\phi$</b>, written $T\models\phi$, if $\mc{A}\models\phi$ for every model $\mc{A}\models T$.

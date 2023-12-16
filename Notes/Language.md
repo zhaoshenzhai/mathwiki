@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Structure]]
+Constructions: [[Structure]], [[Axioms of First Order Logic]], [[Proofs and Syntactic Truth]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
