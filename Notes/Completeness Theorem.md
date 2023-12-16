@@ -9,7 +9,7 @@ Date Created: 15/12/2023 20:17:29
 Tags: #Type/Theorem #In_Progress
 
 Proved by: <i>Not Applicable</i>
-References: [[Proofs and Syntactic Truth#^soundness]]
+References: [[Proofs and Syntactic Truth#^soundness]], [[Basic provable facts and the Deduction Theorem]]
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
