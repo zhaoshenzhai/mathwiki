@@ -1,23 +1,21 @@
 ---
 mathLink-blocks:
     category-of-models: $\catmodel{T}$
-    syntactic-semantic-duality: Syntactic-Semantic Duality
 ---
 
 <div class="topSpace"></div>
 
 Date Created: 15/12/2023 01:23:56
-Tags: #Type/Definition #In_Progress
-^syntactic-semantic-duality
+Tags: #Type/Definition #Topic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Compactness Theorem]]
+Properties: [[Compactness Theorem]], [[Completeness Theorem#^syntactic-semantic-duality]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Proofs and Syntactic Truth#^syntactic-semantic-duality]]
+Equivalences: [[Proofs and Syntactic Truth]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

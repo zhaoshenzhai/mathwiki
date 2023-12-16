@@ -5,7 +5,7 @@ mathLink: Axioms for $\FOL\l(\sigma\r)$
 <div class="topSpace"></div>
 
 Date Created: 15/12/2023 19:15:04
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Proof_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
