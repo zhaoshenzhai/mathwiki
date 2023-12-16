@@ -14,7 +14,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Completeness Theorem#^syntactic-semantic-duality]]
+Properties: [[Completeness Theorem]], [[Completeness Theorem#^syntactic-semantic-duality]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Models and Semantic Truth]]
 Justifications: <i>Not Applicable</i>

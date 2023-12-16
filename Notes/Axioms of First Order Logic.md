@@ -29,3 +29,6 @@ Fix a signature $\sigma$. The collection $\Axioms\l(\sigma\r)$ of all $\sigma$-f
 * (Functions and Relations). $(\vec{x}=\vec{y})\rightarrow\l(f(\vec{x})=f(\vec{y})\r)$ and $(\vec{x}=\vec{y})\rightarrow\l(R(\vec{x})=R(\vec{y})\r)$.
 
 ```
+
+<b>Remark.</b> From the axioms of $\FOL\l(\sigma\r)$, we establish some basic provable facts. Let $T$ be a $\sigma$-theory.
+* $\proves\l(\phi\rightarrow\phi\r)$. 

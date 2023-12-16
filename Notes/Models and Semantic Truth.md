@@ -14,7 +14,7 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Compactness Theorem]], [[Completeness Theorem#^syntactic-semantic-duality]]
-Sufficiencies: <i>Not Applicable</i>
+Sufficiencies: [[Completeness Theorem]]
 Equivalences: [[Proofs and Syntactic Truth]]
 Justifications: <i>Not Applicable</i>
 
