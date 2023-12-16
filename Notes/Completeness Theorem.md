@@ -22,8 +22,10 @@ Let $\sigma$ be a signature in $\FOL$. If a $\sigma$-theory $T$ is consistent, t
 
 ```
 
-<b>Remark.</b> The most important corollary thereof is the <i>Syntactic-Semantic Duality</i>, that is, for a $\sigma$-theory $T$ and a $\sigma$-sentence $\phi$, we have $T\proves\phi$ iff $T\models\phi$. ^syntactic-semantic-duality
-* The forward direction is <i>Soundness of $\FOL\l(\sigma\r)$</i>. Conversely, we prove the contrapositive, so suppose $T\not\proves\phi$. Then $T\not\proves\lnot\lnot\phi$ since $\proves\l(\lnot\lnot\phi\rightarrow\phi\r)$, so $T\cup\l\{\lnot\phi\r\}$ is consistent. By the Completeness Theorem, it admits a model $\mc{A}$, so $T\not\models\phi$ since we have a witness $\mc{A}\not\models\phi$.
+<b>Remark.</b> One of the most important corollary thereof is the <i>Syntactic-Semantic Duality</i>, that is, for a $\sigma$-theory $T$ and a $\sigma$-sentence $\phi$, we have $T\proves\phi$ iff $T\models\phi$. ^syntactic-semantic-duality
+
+![[Images/2023-12-15_205925/image.svg|600]]The forward direction is just Soundness. Conversely, suppose $T\not\proves\phi$. Then $T\not\proves\lnot\lnot\phi$ since $\proves\l(\lnot\lnot\phi\rightarrow\phi\r)$, so $T\cup\l\{\lnot\phi\r\}$ is consistent. By the Completeness Theorem, it admits a model $\mc{A}$, so $T\not\models\phi$ since we have a witness $\mc{A}\not\models\phi$. The other rows of the table are easily obtained.<span style="float:right;">$\blacklozenge$</span>
+
 
 ---
 

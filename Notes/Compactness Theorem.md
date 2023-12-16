@@ -1,10 +1,10 @@
 <div class="topSpace"></div>
 
 Date Created: 15/12/2023 17:41:04
-Tags: #Type/Theorem #In_Progress
+Tags: #Type/Theorem #Topic/Model_Theory/Later
 
 Proved by: <i>Not Applicable</i>
-References: <i>Not Applicable</i>
+References: [[Proofs and Syntactic Truth#^soundness]], [[Proofs and Syntactic Truth#^syntactic-compactness]], [[Completeness Theorem]]
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
@@ -17,4 +17,8 @@ Let $\sigma$ be a signature in $\FOL$. If a $\sigma$-theory $T$ is finitely sati
 
 ```
 
-<i>Proof.</i> 
+<b>Remark.</b> This theorem actually follows immediately from the Completeness Theorem. Indeed, since $T$ is finitely satisfiable, every finite subtheory of $T$ is consistent and hence, by Syntactic Compactness, the entire theory $T$ is consistent; the Completeness Theorem then gives the desired model. Below, we give a ‘purely semantic’ proof of the Compactness Theorem instead.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<i>Proof.</i> $\color{red}{\textrm{TODO}}$
