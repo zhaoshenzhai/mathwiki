@@ -9,7 +9,7 @@ mathLink-blocks:
 Date Created: 16/12/2023 15:08:38
 Tags: #Type/Proposition #Topic/Proof_Theory
 
-Proved by: <i>Not Applicable</i>
+Proved by: [[Axioms of First Order Logic]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

@@ -1,5 +1,5 @@
 ---
-mathLink: Axioms for $\FOL\l(\sigma\r)$
+mathLink: Axioms of $\FOL\l(\sigma\r)$
 ---
 
 <div class="topSpace"></div>

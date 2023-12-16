@@ -10,11 +10,11 @@ Date Created: 15/12/2023 19:42:31
 Tags: #Type/Definition #Topic/Proof_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Basic provable facts and the Deduction Theorem]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Completeness Theorem]], [[Completeness Theorem#^syntactic-semantic-duality]]
+Properties: [[Completeness Theorem]], [[Completeness Theorem#^syntactic-semantic-duality]], [[Basic properties of consistent theories]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Models and Semantic Truth]]
 Justifications: <i>Not Applicable</i>
