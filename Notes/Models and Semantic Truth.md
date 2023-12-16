@@ -1,12 +1,14 @@
 ---
 mathLink-blocks:
     category-of-models: $\catmodel{T}$
+    syntactic-semantic-duality: Syntactic-Semantic Duality
 ---
 
 <div class="topSpace"></div>
 
 Date Created: 15/12/2023 01:23:56
 Tags: #Type/Definition #In_Progress
+^syntactic-semantic-duality
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
@@ -15,14 +17,14 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Compactness Theorem]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: <i>Not Applicable</i>
+Equivalences: [[Proofs and Syntactic Truth#^syntactic-semantic-duality]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition (Models and Semantic Truth).
 
 Let $T$ be a $\sigma$-theory. A non-empty $\sigma$-structure $\mc{A}$ is said to <b>model</b> $T$, written $\mc{A}\models T$, if $\mc{A}\models\phi$ for every $\phi\in T$.
-* (Implication). For a $\sigma$-sentence $\phi$, we say that <b>$T$ semantically implies $\phi$</b>, written $T\models\phi$, if $\mc{A}\models\phi$ for every model $\mc{A}\models T$.
+* (Implication). For a $\sigma$-formula $\phi$, we say that <b>$T$ models/semantically implies $\phi$</b>, written $T\models\phi$, if $\mc{A}\models\phi$ for every model $\mc{A}\models T$.
 * (Consistency). A $\sigma$-theory $T$ is <b>satisfiable</b> if it admits a non-empty model, and is <b>finitely satisfiable</b> if every finite subset $T'\subseteq T$ is satisfiable.
 * (Completeness). A $\sigma$-theory $T$ is <b>complete</b> if for each $\sigma$-sentence $\phi$, either $T\models\phi$ or $T\models\lnot\phi$.
 * (Compactness). A $\sigma$-theory $T$ is <b>compact</b> if whenever $T\models\phi$, there is a finite subtheory $T'\subseteq T$ such that $T'\models\phi$.
