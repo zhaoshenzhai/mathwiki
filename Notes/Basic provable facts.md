@@ -1,7 +1,7 @@
 ---
-mathLink: Basic provable facts/Deduction Theorem
 mathLink-blocks:
     deduction-theorem: Deduction Theorem
+    constant-substitution-theorem: Constant Substitution Theorem
 ---
 
 <div class="topSpace"></div>
@@ -15,15 +15,18 @@ Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
+^constant-substitution-theorem
 
 ``` ad-Proposition
 title: Proposition.
 
-Let $\sigma$ be a signature. For all $\sigma$-formulas $\phi$ and $\psi$ and a set $T$ of $\sigma$-formulas, we have $T,\psi\proves\phi$ iff $T\proves\l(\psi\rightarrow\phi\r)$ $\color{gray}{\textrm{\it{(Deduction Theorem)}}}$. Furthermore, the following basic facts are provable from $\Axioms\l(\sigma\r)$ and the empty $\sigma$-theory.
+Let $\sigma$ be a signature. For all $\sigma$-formulas $\phi$ and $\psi$, the following basic facts are provable from $\Axioms\l(\sigma\r)$ and the empty $\sigma$-theory.
 * $\phi\rightarrow\phi$ $\color{gray}{\textrm{\it{(self-implication)}}}$, $\phi\proves\psi\rightarrow\phi$ $\color{gray}{\textrm{\it{(everything-implies-an-axiom)}}}$, and $\lnot\phi\rightarrow\l(\phi\rightarrow\psi\r)$ $\color{gray}{\textrm{\it{(if-false-then-implies)}}}$.
 * $\phi\leftrightarrow\lnot\lnot\phi$ $\color{gray}{\textrm{\it{(double-negation)}}}$, $\l(\phi\land\lnot\phi\r)\to\psi$ $\color{gray}{\textrm{\it{(contradiction-implies-everything)}}}$, and $\l(\phi\rightarrow\psi\r)\rightarrow\l(\lnot\psi\rightarrow\lnot\phi\r)$ $\color{gray}{\textrm{\it{(forward-contrapositive)}}}$.
 * $\top$, where $\top\coloneqq\fa v\l(v=v\r)$ $\color{gray}{\textrm{\it{(truth)}}}$ and $\bot\rightarrow\psi$, where $\bot\coloneqq\lnot\top$ $\color{gray}{\textrm{\it{(false-implies-everything)}}}$.
-* $\phi\l(t/v\r)\rightarrow\ex v\phi$ for any variable symbol $v$ and $\sigma$-term $t$ free in $v$ $\color{gray}{\textrm{\it{(witness-implies-existence)}}}$.
+* $\phi\l(t/v\r)\rightarrow\ex v\phi$ for any variable symbol $v$ and $\sigma$-term $t$ free for $v$ in $\phi$ $\color{gray}{\textrm{\it{(witness-implies-existence)}}}$.
+
+For a $\sigma$-theory $T$, we have $T,\psi\proves\phi$ iff $T\proves\l(\psi\rightarrow\phi\r)$ for all $\sigma$-formulas $\phi,\psi$ $\color{gray}{\textrm{\it{(Deduction Theorem)}}}$, and $T\proves\phi\l(c/v\r)$ iff $T\proves\phi$, where in the first statement $v$ is a free variable in $\phi$, $c$ is a constant symbol not in $\sigma$, and $T$ is a $\sigma\sqcup\l\{c\r\}$-theory. $\color{gray}{\textrm{\it{(Constant Substitution Theorem)}}}$.
 
 ```
 ^deduction-theorem
@@ -47,4 +50,6 @@ The backwards direction of the Deduction Theorem is an application of MP. For th
 * <i>(Forward-contrapositive)</i>. It suffices to show that $\l[\l(\phi\rightarrow\psi\r),\lnot\psi\r]\proves\lnot\phi$, for which we use <i>proof-by-contradiction</i> as $\proves\l(\lnot\lnot\phi\rightarrow\psi\r)\rightarrow\l[\l(\lnot\lnot\phi\rightarrow\lnot\psi\r)\rightarrow\lnot\phi\r]$. We have by <i>implication-is-transitive</i> that $\l(\lnot\lnot\phi\rightarrow\phi\r)\rightarrow\l[\l(\lnot\lnot\phi\rightarrow\l(\phi\rightarrow\psi\r)\r)\rightarrow\l(\lnot\lnot\phi\rightarrow\psi\r)\r]$, so <i>double-negation</i>, <i>everything-implies-an-axiom</i>, and a couple of MP’s gives us $\l(\phi\rightarrow\psi\r)\proves\l(\lnot\lnot\phi\rightarrow\psi\r)$. A further application of <i>everything-implies-an-axioms</i> gives us $\lnot\psi\proves\l(\lnot\lnot\phi\rightarrow\lnot\psi\r)$, so a couple of MP’s gives us the desired.
 * <i>(Truth)</i>. This follows from the <i>equality-is-reflexive</i> and <i>generalization</i> axioms, followed by an application of MP.
 * <i>(False-implies-everything)</i>. By <i>truth</i> and <i>everything-implies-an-axiom</i>, we have $\l(\top\rightarrow\lnot\lnot\top\r)\rightarrow\top$. Thus <i>forward-contrapositive</i> gives us $\lnot\top\rightarrow\lnot\l(\top\rightarrow\lnot\lnot\top\r)$, and since the latter is precisely $\top\land\lnot\top$, we have by the Deduction Theorem that $\bot\proves\l(\top\land\lnot\top\r)$. The result follows by <i>contradiction-implies-everything</i>.
-* <i>(Witness-implies-existence)</i>. Note that $\ex v\phi$ is an abbreviation for $\lnot\fa v\lnot\phi$, so <i>double-negation</i> and <i>forward-contrapositive</i> reduces this to $\fa v\lnot\phi\rightarrow\lnot\phi\l(t/v\r)$, which is an instance of <i>instantiation</i>.<span style="float:right;">$\blacksquare$</span>
+* <i>(Witness-implies-existence)</i>. Note that $\ex v\phi$ is an abbreviation for $\lnot\fa v\lnot\phi$, so <i>double-negation</i> and <i>forward-contrapositive</i> reduces this to $\fa v\lnot\phi\rightarrow\lnot\phi\l(t/v\r)$, which is an instance of <i>instantiation</i>.
+
+Finally, the backwards direction of the Constant Substitution Theorem follows from the <i>generalization</i> and <i>instantiation</i> axioms. For the forwards direction, induction on the complexity of a proof of $\phi\l(c/v\r)$ from $T$ reduces the claim to proving that if $\phi\l(c/v\r)$ is an axiom, then so is $\phi$, which is easily checked.<span style="float:right;">$\blacksquare$</span>
