@@ -16,7 +16,7 @@ Justifications: [[Isomorphism Theorems]]
 ``` ad-Definition
 title: Definition.
 
-Let $G$ be a group. An automorphism $\phi\in\Aut\l(G\r)$ is said to be <b>inner</b> if there is some $g\in G$ such that $\phi\l(x\r)=gxg^{-1}$ for all $x\in G$. The subgroup of all inner automorphisms $\Inn\l(G\r)\subgrpeq\Aut\l(G\r)$ is called the <b>inner automorphism group</b>.
+Let $G$ be a group. An automorphism $\phi\in\Aut\l(G\r)$ is said to be <b>inner</b> if there is some $g\in G$ such that $\phi\l(x\r)=gxg^{-1}$ for all $x\in G$. The subgroup of all inner automorphisms $\Inn\l(G\r)\substructeq\Aut\l(G\r)$ is called the <b>inner automorphism group</b>.
 
 ```
 

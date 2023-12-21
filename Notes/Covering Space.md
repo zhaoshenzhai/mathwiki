@@ -3,7 +3,7 @@ mathLink: auto
 mathLink-blocks:
     category-of-covering-spaces: $\catcov$
     universal-cover: Universal Cover
-    pi-injectivity-and-loops: Lifts of $p_\ast\pi_1\!\l(E,e_0\r)\subgrpeq\pi_1\!\l(X,x_0\r)$ are loops
+    pi-injectivity-and-loops: Lifts of $p_\ast\pi_1\!\l(E,e_0\r)\substructeq\pi_1\!\l(X,x_0\r)$ are loops
     isomorphic-covering-conjugate: Characterization of equivalent coverings
     covering-space-action-free: $\Cov\l(E/X\r)\act E$ freely
 ---
@@ -45,4 +45,4 @@ Let $X$ be a topological space. A <b>covering space of $X$</b> is a surjection $
 
 ---
 
-<b>Remark.</b> Fix $x_0\in X$. The Homotopy Lifting Theorem shows that $p_\ast:\pi_1\!\l(E,e_0\r)\into\pi_1\!\l(X,x_0\r)$ and that the image $p_\ast\pi_1\!\l(E,e_0\r)\subgrpeq\pi_1\!\l(X,x_0\r)$ consists of loops in $X$ whose lifts to $E$ are loops at $e_0$. Indeed, if $p_\ast\widetilde{\gamma}$ vanishes, then the homotopy to the constant loop at $x_0$ lifts to a homotopy from $\widetilde{\gamma}$ to the constant loop at $e_0$. Thus $\widetilde{\gamma}$ vanishes in $\pi_1(E,e_0)$ as desired. Finally, every $\gamma\in p_\ast\pi_1(E,e_0)$ lifts to a path $\widetilde{\gamma}\in\pi_1\!\l(E,e_0\r)$, which is a loop at $e_0$.<span style="float:right;">$\blacklozenge$</span> ^pi-injectivity-and-loops
+<b>Remark.</b> Fix $x_0\in X$. The Homotopy Lifting Theorem shows that $p_\ast:\pi_1\!\l(E,e_0\r)\into\pi_1\!\l(X,x_0\r)$ and that the image $p_\ast\pi_1\!\l(E,e_0\r)\substructeq\pi_1\!\l(X,x_0\r)$ consists of loops in $X$ whose lifts to $E$ are loops at $e_0$. Indeed, if $p_\ast\widetilde{\gamma}$ vanishes, then the homotopy to the constant loop at $x_0$ lifts to a homotopy from $\widetilde{\gamma}$ to the constant loop at $e_0$. Thus $\widetilde{\gamma}$ vanishes in $\pi_1(E,e_0)$ as desired. Finally, every $\gamma\in p_\ast\pi_1(E,e_0)$ lifts to a path $\widetilde{\gamma}\in\pi_1\!\l(E,e_0\r)$, which is a loop at $e_0$.<span style="float:right;">$\blacklozenge$</span> ^pi-injectivity-and-loops

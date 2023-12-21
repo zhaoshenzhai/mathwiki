@@ -25,7 +25,7 @@ Let $G$ be a group. The <b>abelianization of $G$</b> is the quotient group $G^\t
 
 ```
 
-<b>Remark.</b> The abelianization $\pi:G\to G/G'=G^\textrm{ab}$ is initial in the category of homomorphisms $\phi:G\to H$ into abelian groups. Indeed, observe that $G'\subgrpeq\ker\phi$, so the result follows by universality of the quotient.<span style="float:right;">$\blacklozenge$</span>  
+<b>Remark.</b> The abelianization $\pi:G\to G/G'=G^\textrm{ab}$ is initial in the category of homomorphisms $\phi:G\to H$ into abelian groups. Indeed, observe that $G'\substructeq\ker\phi$, so the result follows by universality of the quotient.<span style="float:right;">$\blacklozenge$</span>  
 ^universal-property-of-abelianization
 
 ---

@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $N\subgrpeq M$ be a submodule of a left $R$-module $M$. The <b>quotient module of $M$ under $N$</b> is the module $\tpl{M/N,+,\cdot}$, where
+Let $N\substructeq M$ be a submodule of a left $R$-module $M$. The <b>quotient module of $M$ under $N$</b> is the module $\tpl{M/N,+,\cdot}$, where
 * $\tpl{M/N,+}$ is the quotient group of $M$ under $N$, viewed as abelian groups, and
 * $\cdot$ is the left $R$-action on $M/N$ defined by $r\cdot\l(m+N\r)\coloneqq rm+N$ for all $r\in R$ and $m\in M$.
 

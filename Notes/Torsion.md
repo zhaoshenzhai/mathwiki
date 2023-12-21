@@ -22,7 +22,7 @@ title: Definition.
 
 Let $M$ be an $R$-module. The <b>torsion of $M$</b> is $\Tor M\coloneqq\l\{m\in M\st\ex r\in R\comp\l\{0\r\}:rm=0\r\}$, whose elements are called <b>torsion elements of $M$</b>.
 * A module $M$ is <b>torsion-free</b> if $\Tor M=\l\{0\r\}$, and is <b>torsion</b> if $\Tor M=M$.
-* If $R$ is an integral domain, then $\Tor M\subgrpeq M$ is a submodule and $M/\Tor M$ is torsion-free.
+* If $R$ is an integral domain, then $\Tor M\substructeq M$ is a submodule and $M/\Tor M$ is torsion-free.
 
 ```
 

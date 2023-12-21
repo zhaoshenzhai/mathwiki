@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $G$ be a group. A subgroup $H\subgrpeq G$ is said to be a <b>normal in $G$</b> if $gH=Hg$ for all $g\in G$, in which case we write $H\nsubgrpeq G$.
+Let $G$ be a group. A subgroup $H\substructeq G$ is said to be a <b>normal in $G$</b> if $gH=Hg$ for all $g\in G$, in which case we write $H\nsubgrpeq G$.
 
 ```
 
@@ -24,7 +24,7 @@ Let $G$ be a group. A subgroup $H\subgrpeq G$ is said to be a <b>normal in $G$</
 
 ---
 
-<b>Remark.</b> Every subgroup $H\subgrpeq G$ of index $2$ is normal. Indeed, $H$ is the kernel of the left-multiplication action $\phi:G\to\Aut\l(G/H\r)$, which can be proved by noting that $G/H=\l\{H,xH\r\}$ for some $x\not\in H$ and checking cases.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Every subgroup $H\substructeq G$ of index $2$ is normal. Indeed, $H$ is the kernel of the left-multiplication action $\phi:G\to\Aut\l(G/H\r)$, which can be proved by noting that $G/H=\l\{H,xH\r\}$ for some $x\not\in H$ and checking cases.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

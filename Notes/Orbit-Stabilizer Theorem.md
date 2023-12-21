@@ -18,7 +18,7 @@ Let $\tpl{X,x_0}$ be a pointed $G$-set. Letting $G$ act on $G/\Stab_G\!\l(x_0\r)
 
 ```
 
-<b>Remark.</b> This result generalizes Lagrange’s Theorem. Indeed, let $H\subgrpeq G$ be a subgroup and consider the left-multiplication action of $H$ on $G$. For all $g\in G$, the orbit $\Orb_H\!\l(g\r)$ is simply the right coset $Hg$ and the stabilizer $\Stab_H\!\l(g\r)$ is trivial. Since $G=\coprod_{i\in I}\Orb_H\!\l(g_i\r)=\coprod_{i\in I}Hg$, we see that
+<b>Remark.</b> This result generalizes Lagrange’s Theorem. Indeed, let $H\substructeq G$ be a subgroup and consider the left-multiplication action of $H$ on $G$. For all $g\in G$, the orbit $\Orb_H\!\l(g\r)$ is simply the right coset $Hg$ and the stabilizer $\Stab_H\!\l(g\r)$ is trivial. Since $G=\coprod_{i\in I}\Orb_H\!\l(g_i\r)=\coprod_{i\in I}Hg$, we see that
 $$\begin{equation}
     \l|G\r|=\sum_{i\in I}\l|\Orb_H\!\l(g_i\r)\r|=\sum_{i\in I}\frac{\l|H\r|}{\l|\Stab_H\!\l(g_i\r)\r|}=\sum_{i\in I}\l|H\r|,
 \end{equation}$$

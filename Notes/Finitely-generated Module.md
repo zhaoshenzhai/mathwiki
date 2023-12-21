@@ -25,7 +25,7 @@ An $R$-module $M$ is said to be <b>finitely-generated</b> if $F^R\!\l(X\r)\onto 
 
 ```
 
-<b>Remark.</b> If $M$ is finitely-generated, then $M\iso F^R\!\l(X\r)/N$ for some submodule $N\subgrpeq M$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $M$ is finitely-generated, then $M\iso F^R\!\l(X\r)/N$ for some submodule $N\substructeq M$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

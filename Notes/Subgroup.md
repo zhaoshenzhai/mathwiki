@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-A <b>subgroup</b> of a group $G$ is a group $H\subseteq G$ where the inclusion $H\into G$ is a group homomorphism, in which case we write $H\subgrpeq G$.
+A <b>subgroup</b> of a group $G$ is a group $H\subseteq G$ where the inclusion $H\into G$ is a group homomorphism, in which case we write $H\substructeq G$.
 
 ```
 

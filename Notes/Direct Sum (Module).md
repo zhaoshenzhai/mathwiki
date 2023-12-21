@@ -16,7 +16,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\l\{M_i\r\}_{i\in I}$ be a family of left $R$-modules. The <b>direct sum of $\l\{M_i\r\}$</b> is the submodule of $\bigoplus M_i\subgrpeq\prod M_i$ consisting of all sequences $\tpl{m_i}\in\prod M_i$ where $m_i=0$ for all but finitely-many $i\in I$.
+Let $\l\{M_i\r\}_{i\in I}$ be a family of left $R$-modules. The <b>direct sum of $\l\{M_i\r\}$</b> is the submodule of $\bigoplus M_i\substructeq\prod M_i$ consisting of all sequences $\tpl{m_i}\in\prod M_i$ where $m_i=0$ for all but finitely-many $i\in I$.
 
 ```
 

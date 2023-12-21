@@ -28,7 +28,7 @@ However, the Sylow Theorems require the abelian case of Cauchy’s Theorem as a 
 ---
 
 <i>Proof.</i> We first prove the theorem for when $G$ is abelian.
-* We proceed by induction on $\l|G\r|$. Let $H\subgrp G$ be a maximal proper subgroup of $G$. If $p$ divides $\l|H\r|$, then we are done by induction. Otherwise, let $x\not\in H$ and set $K\coloneqq\gen{x}$. Since $G$ is abelian, we see that $H\subgrp HK\subgrpeq G$, so maximality of $H$ forces $HK=G$. Then $\l|G\r|=\l|HK\r|=\l|H\r|\l|K\r|/\l|H\cap K\r|$, so $p$ divides $\l|H\r|\l|K\r|$. Thus $p$ divides $\l|K\r|$, so $\ord{x}=pk$ for some $k\in\N$. Thus $\ord{x^k}=\ord{x}/\gcd\l(\ord{x},k\r)=p$, as desired.
+* We proceed by induction on $\l|G\r|$. Let $H\substruct G$ be a maximal proper subgroup of $G$. If $p$ divides $\l|H\r|$, then we are done by induction. Otherwise, let $x\not\in H$ and set $K\coloneqq\gen{x}$. Since $G$ is abelian, we see that $H\substruct HK\substructeq G$, so maximality of $H$ forces $HK=G$. Then $\l|G\r|=\l|HK\r|=\l|H\r|\l|K\r|/\l|H\cap K\r|$, so $p$ divides $\l|H\r|\l|K\r|$. Thus $p$ divides $\l|K\r|$, so $\ord{x}=pk$ for some $k\in\N$. Thus $\ord{x^k}=\ord{x}/\gcd\l(\ord{x},k\r)=p$, as desired.
 
 In general, we consider the subgroup $Z\l(G\r)$ of $G$, which is abelian. If $p$ divides $\l|Z\l(G\r)\r|$, then $Z\l(G\r)$ contains an element of order $p$ by the abelian case above, so we are done. Otherwise, the class equation gives us
 $$\begin{equation}
