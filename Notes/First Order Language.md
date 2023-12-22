@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Structure]], [[Axioms of First Order Logic]], [[Proofs and Syntactic Truth]]
+Constructions: [[Structure]], [[Axioms of First Order Logic]], [[Theory]], [[Proofs and Syntactic Truth]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -30,4 +30,4 @@ We also define the set $\Form\l(\sigma\r)$ of <i>$\sigma$-formulas</i> as the sm
 * For a $\sigma$-formula $\phi$, we say that a variable $v$ is <i>quantified</i> in $\phi$ if $\phi$ contains a substring of the form $\ex v\psi$ or $\fa v\psi$. Otherwise, if $v$ occurs in $\phi$ but is not quantified, then it is said to be <i>free</i>. For a $\sigma$-term $t$ and a variable $v$, we say that $t$ is <i>free for $v$</i> in $\phi$ if $v$ is not quantified in $\phi$ and no variable in $t$ is quantified in $\phi$; in this case, we let $\phi\l(t/v\r)$ denote the $\sigma$-formula obtained by replacing every occurrence of $v$ by $\l(t\r)$.
 * For a $\sigma$-formula $\phi$ and a vector of variables $\vec{v}$, call the $\sigma$-word $\phi[\vec{v}]\coloneqq\phi\l(v_{i_0},\dots,v_{i_{n-1}}\r)$ an <i>extended $\sigma$-formula</i>, and write $\phi\in\ExtForm\l(\sigma\r)$, if $\vec{v}$ includes all the free variables of $\phi$ and does not include any variables quantified in $\phi$.
 
-If a $\sigma$-formula $\phi$ does not contain any free variables, then $\phi\in\Sent\l(\sigma\r)$ is said to be a <i>$\sigma$-sentence</i>. Any subcollection of $\Sent\l(\sigma\r)$ is called a <i>$\sigma$-theory</i>.<span style="float:right;">$\blacklozenge$</span>
+If a $\sigma$-formula $\phi$ does not contain any free variables, then $\phi$ is said to be a <i>$\sigma$-sentence</i>. Let $\Sent\l(\sigma\r)$ denote the collection of all $\sigma$-sentences.<span style="float:right;">$\blacklozenge$</span>

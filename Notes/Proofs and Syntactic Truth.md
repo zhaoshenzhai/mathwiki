@@ -1,6 +1,7 @@
 ---
 mathLink: auto
 mathLink-blocks:
+    syntactic-properties-of-theories: Syntactically Consistent/Complete
     soundness: Soundness of $\FOL\l(\sigma\r)$
     syntactic-compactness: Syntactic Compactness
 ---
@@ -12,10 +13,10 @@ Tags: #Type/Definition #Topic/Proof_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Basic provable facts]]
-Constructions: <i>Not Applicable</i>
+Constructions: [[Theory#^theorems]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Completeness Theorem]], [[Completeness Theorem#^syntactic-semantic-duality]], [[Basic properties of consistent theories]]
+Properties: [[Completeness Theorem]], [[Completeness Theorem#^syntactic-semantic-duality]], [[Basic properties of consistent theories]], [[Theory#^maximally-consistent-completion]]
 Sufficiencies: [[Basic provable facts#^deduction-theorem]]
 Equivalences: [[Models and Semantic Truth]]
 Justifications: <i>Not Applicable</i>
@@ -30,6 +31,7 @@ Let $T$ be a $\sigma$-theory and let $\phi$ be a $\sigma$-formula. A finite sequ
 * (Compactness). A $\sigma$-theory $T$ is <b>compact</b> if whenever $T\proves\phi$, there is a finite subtheory $T'\subseteq T$ such that $T'\proves\phi$.
 
 ```
+^syntactic-properties-of-theories
 
 <b>Remark.</b> Our proof system is <i>sound</i>, i.e. $T\proves\phi$ implies $T\models\phi$ for any $\sigma$-sentence $\phi$. Indeed, this follows easily by induction on the length of a proof of $\phi$ from $T$: if $\phi\in\Axioms\l(\sigma\r)\cup T$, then every model $\mc{A}\models T$ models $\phi$. Otherwise, if $\psi,\theta\MP\phi$ for some $\psi=\l(\theta\rightarrow\phi\r)$ and $T\models\psi,\theta$, then any model $\mc{A}\models T$ models both $\theta$ and $\theta\rightarrow\phi$, whence $\mc{A}\models\phi$ too. ^soundness
 * While semantic compactness is hard to prove, <i>syntactic</i> compactness $-$ which states that $T$ is consistent iff every finite subtheory $T'\subseteq T$ is consistent $-$ follows immediately from the fact that proofs are finite. Indeed, if $\phi$ witnesses inconsistency for $T$, then there exist finite subtheories $T_0,T_1\subseteq T$ such that $T_0\proves\phi$ and $T_1\proves\lnot\phi$. Their union $T'\coloneqq T_0\cup T_1$ is then an inconsistent finite subtheory of $T$, a contradiction.<span style="float:right;">$\blacklozenge$</span> ^syntactic-compactness
