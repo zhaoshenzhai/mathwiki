@@ -17,7 +17,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Carathéodory’s Extension Theorem).
 
-Let $\mc{A}$ be an algebra on a set $X$. Consider a $\sigma$-finite premeasure $\mu_0$ on $\mc{A}$ and restrict $\mu_0^\ast$ onto $\mc{B}\coloneqq\bar{\mc{A}}$ in the pseudo-metric $d\l(B_1,B_2\r)\coloneqq\mu_0^\ast\!\l(B_1\symdiff B_2\r)$. Let $\mu$ be a further restriction of $\mu_0^\ast$ onto $\gen{\mc{A}}_\sigma$. Then (i) $\mu$ is a measure that uniquely extends $\mu_0$; (ii) $\mc{B}$ is exactly the $\mu$-measurable sets; and ${\color{red}{\textrm{\it{(iii) we have }}\bar{\mu}=\l.\mu_0^\ast\r|_\mc{B}}}$.
+Let $\mc{A}$ be an algebra on a set $X$. Consider a $\sigma$-finite premeasure $\mu_0$ on $\mc{A}$ and restrict $\mu_0^\ast$ onto $\mc{B}\coloneqq\bar{\mc{A}}$ in the pseudo-metric $d\l(B_1,B_2\r)\coloneqq\mu_0^\ast\!\l(B_1\symdiff B_2\r)$. Let $\mu$ be a further restriction of $\mu_0^\ast$ onto $\gen{\mc{A}}_\sigma$. Then (i) $\mu$ is a measure that uniquely extends $\mu_0$; (ii) $\mc{B}$ is exactly the $\mu$-measurable sets; and <span style="color:red">(iii) we have $\bar{\mu}=\l.\mu_0^\ast\r|_\mc{B}$</span>.
 * Furthermore, (iv) the $\mu$-measurable sets are approximable from above by countable unions of sets in $\mc{A}$, i.e. for every $\mu$-measurable set $M$ and $\epsilon>0$, there is a countable union $U\supseteq M$ of sets in $\mc{A}$ such that $\mu\l(U\comp M\r)<\epsilon$.
 
 ```

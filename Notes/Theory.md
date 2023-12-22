@@ -14,10 +14,10 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Models and Semantic Truth]], [[Proofs and Syntactic Truth]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Completeness Theorem]], [[Basic properties of consistent theories]]
+Properties: [[Completeness Theorem]]
 Sufficiencies: [[Compactness Theorem]]
 Equivalences: [[Completeness Theorem#^syntactic-semantic-duality]]
-Justifications: [[Proofs and Syntactic Truth#^syntactic-compactness]], [[Zorn's Lemma]]
+Justifications: [[Proofs and Syntactic Truth#^syntactic-compactness]], [[Zorn's Lemma]], [[Basic properties of consistent theories]]
 
 ``` ad-Definition
 title: Definition.

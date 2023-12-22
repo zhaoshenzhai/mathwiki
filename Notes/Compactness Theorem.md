@@ -21,7 +21,7 @@ Let $\sigma$ be a signature in $\FOL$. If a $\sigma$-theory $T$ is finitely sati
 
 ---
 
-<i>Proof.</i> $\color{red}{\textrm{TODO}}$
+<i>Proof.</i> <span style="color:red">TODO</span>
 
 ---
 

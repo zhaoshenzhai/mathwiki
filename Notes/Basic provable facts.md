@@ -21,12 +21,12 @@ Generalizations: <i>Not Applicable</i>
 title: Proposition.
 
 Let $\sigma$ be a signature. For all $\sigma$-formulas $\phi$ and $\psi$, the following basic facts are provable from $\Axioms\l(\sigma\r)$ and the empty $\sigma$-theory.
-* $\phi\rightarrow\phi$ $\color{gray}{\textrm{\it{(self-implication)}}}$, $\phi\proves\psi\rightarrow\phi$ $\color{gray}{\textrm{\it{(everything-implies-an-axiom)}}}$, and $\lnot\phi\rightarrow\l(\phi\rightarrow\psi\r)$ $\color{gray}{\textrm{\it{(if-false-then-implies)}}}$.
-* $\phi\leftrightarrow\lnot\lnot\phi$ $\color{gray}{\textrm{\it{(double-negation)}}}$, $\l(\phi\land\lnot\phi\r)\to\psi$ $\color{gray}{\textrm{\it{(contradiction-implies-everything)}}}$, and $\l(\phi\rightarrow\psi\r)\rightarrow\l(\lnot\psi\rightarrow\lnot\phi\r)$ $\color{gray}{\textrm{\it{(forward-contrapositive)}}}$.
-* $\top$, where $\top\coloneqq\fa v\l(v=v\r)$ $\color{gray}{\textrm{\it{(truth)}}}$ and $\bot\rightarrow\psi$, where $\bot\coloneqq\lnot\top$ $\color{gray}{\textrm{\it{(false-implies-everything)}}}$.
-* $\phi\l(t/v\r)\rightarrow\ex v\phi$ for any variable symbol $v$ and $\sigma$-term $t$ free for $v$ in $\phi$ $\color{gray}{\textrm{\it{(witness-implies-existence)}}}$.
+* $\phi\rightarrow\phi$ <span style="color:gray">(self-implication)</span>, $\phi\proves\psi\rightarrow\phi$ <span style="color:gray">(everything-implies-an-axiom)</span>, and $\lnot\phi\rightarrow\l(\phi\rightarrow\psi\r)$ <span style="color:gray">(if-false-then-implies)</span>.
+* $\phi\leftrightarrow\lnot\lnot\phi$ <span style="color:gray">(double-negation)</span>, $\l(\phi\land\lnot\phi\r)\to\psi$ <span style="color:gray">(contradiction-implies-everything)</span>, and $\l(\phi\rightarrow\psi\r)\rightarrow\l(\lnot\psi\rightarrow\lnot\phi\r)$ <span style="color:gray">(forward-contrapositive)</span>.
+* $\top$, where $\top\coloneqq\fa v\l(v=v\r)$ <span style="color:gray">(truth)</span> and $\bot\rightarrow\psi$, where $\bot\coloneqq\lnot\top$ <span style="color:gray">(false-implies-everything)</span>.
+* $\phi\l(t/v\r)\rightarrow\ex v\phi$ for any variable symbol $v$ and $\sigma$-term $t$ free for $v$ in $\phi$ <span style="color:gray">(witness-implies-existence)</span>.
 
-For a $\sigma$-theory $T$, we have $T,\psi\proves\phi$ iff $T\proves\l(\psi\rightarrow\phi\r)$ for all $\sigma$-formulas $\phi,\psi$ $\color{gray}{\textrm{\it{(Deduction Theorem)}}}$. Furthermore, we have $T\proves\phi\l(c/v\r)$ iff $T\proves\phi$, where in the first statement $v$ is a free variable in $\phi$, $c$ is a constant symbol not in $\sigma$, and $T$ is a $\sigma\sqcup\l\{c\r\}$-theory. $\color{gray}{\textrm{\it{(Constant Substitution Theorem)}}}$.
+For a $\sigma$-theory $T$, we have $T,\psi\proves\phi$ iff $T\proves\l(\psi\rightarrow\phi\r)$ for all $\sigma$-formulas $\phi,\psi$ <span style="color:gray">(Deduction Theorem)</span>. Furthermore, we have $T\proves\phi\l(c/v\r)$ iff $T\proves\phi$, where in the first statement $v$ is a free variable in $\phi$, $c$ is a constant symbol not in $\sigma$, and $T$ is a $\sigma\sqcup\l\{c\r\}$-theory <span style="color:gray">(Constant Substitution Theorem)</span>.
 
 ```
 ^deduction-theorem
