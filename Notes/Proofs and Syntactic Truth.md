@@ -1,4 +1,5 @@
 ---
+mathLink: auto
 mathLink-blocks:
     soundness: Soundness of $\FOL\l(\sigma\r)$
     syntactic-compactness: Syntactic Compactness

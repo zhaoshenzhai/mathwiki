@@ -6,7 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 15/12/2023 20:17:29
-Tags: #Type/Theorem #In_Progress
+Tags: #Type/Theorem #In_Progress/Logic
 
 Proved by: <i>Not Applicable</i>
 References: [[Proofs and Syntactic Truth#^soundness]], [[Basic provable facts]], [[Basic properties of consistent theories]]

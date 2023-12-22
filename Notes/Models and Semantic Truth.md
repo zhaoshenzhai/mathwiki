@@ -1,4 +1,5 @@
 ---
+mathLink: auto
 mathLink-blocks:
     category-of-models: $\catmodel{T}$
 ---

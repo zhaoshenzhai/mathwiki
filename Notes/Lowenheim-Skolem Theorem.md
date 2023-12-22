@@ -7,7 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 21/12/2023 16:03:46
-Tags: #Type/Theorem #In_Progress
+Tags: #Type/Theorem #In_Progress/Logic
 
 Proved by: [[Elementarity#^Tarski-Vaught-test]], [[Compactness Theorem]]
 References: <i>Not Applicable</i>
