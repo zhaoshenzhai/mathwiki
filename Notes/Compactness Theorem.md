@@ -5,7 +5,7 @@ Tags: #Type/Theorem #Topic/Model_Theory/Later
 
 Proved by: <i>Not Applicable</i>
 References: [[Proofs and Syntactic Truth#^soundness]], [[Proofs and Syntactic Truth#^syntactic-compactness]], [[Completeness Theorem]]
-Justifications: <i>Not Applicable</i>
+Justifications: [[Cantor-Schroder-Bernstein Theorem]]
 
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
@@ -22,3 +22,7 @@ Let $\sigma$ be a signature in $\FOL$. If a $\sigma$-theory $T$ is finitely sati
 ---
 
 <i>Proof.</i> $\color{red}{\textrm{TODO}}$
+
+---
+
+<b>Remark.</b> We also have the <i>Weak Upward Löwenheim-Skolem</i> theorem, that if a $\sigma$-theory $T$ admits arbitrarily large finite models, then it admits an infinite model of any cardinality $\kappa\geq\max\l\{\l|\sigma\r|,\aleph_0\r\}$. Indeed, set $\bar{\sigma}\coloneqq\sigma\sqcup\l\{c_\alpha\r\}_{\alpha<\kappa}$, where $c_\alpha\not\in\sigma$ are constant symbols. The $\bar{\sigma}$-theory $\bar{T}\coloneqq T\cup\l\{c_\alpha\neq c_\beta\st\alpha\neq\beta,\alpha,\beta<\kappa\r\}$ is finitely-satisfiable by hypothesis, so it admits a model $\mc{M}$ of cardinality at-most $\kappa$, since $\l|\bar{\sigma}\r|=\kappa\geq\aleph_0$. But $\l|M\r|\geq\kappa$ since $c_\alpha^\mc{M}=c_\beta^\mc{M}$ for all distinct $\alpha,\beta<\kappa$, so $\l|M\r|=\kappa$.<span style="float:right;">$\blacklozenge$</span>
