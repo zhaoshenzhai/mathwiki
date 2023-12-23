@@ -6,10 +6,10 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 15/12/2023 20:17:29
-Tags: #Type/Theorem #In_Progress/Logic
+Tags: #Type/Theorem #Topic/Model_Theory
 
-Proved by: [[Theory#^maximally-consistent-completion]], [[Basic properties of consistent theories]]
-References: [[Proofs and Syntactic Truth#^soundness]], [[Basic provable facts]]
+Proved by: [[Theory#^maximally-consistent-completion]], [[Basic properties of consistent theories]], [[Basic provable facts]], [[Henkin Theory#^Henkin-theories-calculate-terms]]
+References: [[Proofs and Syntactic Truth#^soundness]], [[Axioms of First Order Logic]]
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
@@ -31,9 +31,9 @@ Let $\sigma$ be a signature in $\FOL$. If a $\sigma$-theory $T$ is consistent, t
 
 <i>Proof.</i> To motivate the construction, note that for a $\sigma$-structure $\mc{A}$, the $\sigma_A$-theory $H\coloneqq\ElDiag\l(\mc{A}\r)$ is Henkin since $H\proves\ex v\phi$ iff $\ex v\phi\in H$, which occurs iff $\phi\l(c/v\r)\in H$ for some $c\in\mc{C}\l(\sigma\r)$. The main idea is to turn this around, by making $T$ ‘look like’ the elementary diagram of some $\sigma$-structure $\mc{A}$. More precisely, this means that:
 1. <i>Extension</i>. Any consistent $\sigma$-theory $T$ admits a $\tau$-Henkin extension $H\supseteq T$ for some signature $\tau\supseteq\sigma$ with $\l|\tau\r|=\max\l\{\l|\sigma\r|,\aleph_0\r\}$.
-2. <i>Construction</i>. Any $\tau$-Henkin theory $H$ admits a model $\mc{M}$ of cardinality $\kappa\leq\l|\tau\r|$.
+2. <i>Construction</i>. Any $\tau$-Henkin theory $H$ admits a model $\mc{A}$ of cardinality $\kappa\leq\l|\tau\r|$.
 
-Given these facts, we are done by taking the reduct of $\mc{M}$ to $\sigma$. Heuristically, we obtain $\tau$ by ‘throwing in’ Henkin witnesses into $\sigma$, we obtain $H$ by adding in the $\tau$-sentences $\phi\l(c_{\ex v\phi}/v\r)$ where $c_{\ex v\phi}$ is a Henkin witness to $\ex v\phi$, and finally we obtain $\mc{M}$ by interpreting the symbols exactly as $H$ tells us so.
+Given these facts, we are done by taking the reduct of $\mc{A}$ to $\sigma$. Heuristically, we obtain $\tau$ by ‘throwing in’ Henkin witnesses into $\sigma$, we obtain $H$ by adding in the $\tau$-sentences $\phi\l(c_{\ex v\phi}/v\r)$ where $c_{\ex v\phi}$ is a Henkin witness to $\ex v\phi$, and finally we obtain $\mc{A}$ by interpreting the symbols in such a way that $H=\ElDiag\l(\mc{A}\r)$.
 
 ---
 
@@ -43,4 +43,15 @@ Thus $H\coloneqq\bigcup_nT_n$ is a consistent maximal $\tau$-completion of $T$, 
 
 ---
 
-<i>Construction</i>. 
+<i>Construction</i>. Write $\tau=\tpl{\mc{F},\mc{R},\mc{C}}$ and set $A\coloneqq\mc{C}/\!\sim$, where $c_1\sim c_2$ iff $H\proves\l(c_1=c_2\r)$; that this is an equivalence relation follows from the <i>equality-is-an-equivalence</i>, <i>generalization</i>, and <i>instantiation</i> axioms. We let $A$ be the universe of a $\tau$-structure $\mc{A}$ by interpreting:
+$$\begin{equation}
+    \begin{alignedat}{2}
+        c^\mc{A}&\coloneqq\l[c\r] && \ \ \ \ \ \ \ \ \textrm{for each }c\in\mc{C}, \\
+        f^\mc{A}\!\l([\vec{a}]\r)=\l[b\r]\,&\colon\!\Leftrightarrow H\proves f(\vec{a})=b && \ \ \ \ \ \ \ \ \textrm{for each }f\in\mc{F}_n\textrm{, }\vec{a}\in \mc{C}^n\textrm{, and }b\in\mc{C}, \\
+        R^\mc{A}\!\l([\vec{a}]\r)\,&\colon\!\Leftrightarrow H\proves R(\vec{a}) && \ \ \ \ \ \ \ \ \textrm{for each }R\in\mc{R}_n\textrm{ and }\vec{a}\in\mc{C}^n.
+    \end{alignedat}
+\end{equation}$$
+That $\mc{A}$ is well-defined follows from the <i>functions-respect-equality</i> and <i>relations-respect-equality</i> axioms. Also, note that for each $f\in\mc{F}_n$ and $\vec{c}\in\mc{C}^n$, there exists some $b\in\mc{C}$ such that $H\proves f(\vec{a})=b$ in the first place since Henkin theories calculate terms. We need a lemma, which states that $\tau$-terms behave as we expect them to.
+* For each $t\in\Term\l(\tau\r)$ and $b\in\mc{C}$, we have $t^\mc{A}=\l[b\r]$ iff $H\proves t=b$. We proceed by induction on the construction of $t$, for which the base case when $t=c$ for some $c\in\mc{C}$ holds by definition of $c^\mc{A}$. Suppose now that $t=f(t_1,t_2,\dots,t_n)$ for some $f\in\mc{F}_n$. Since Henkin theories calculate terms, there exists some $\vec{a}\in\mc{C}^n$ such that $H\proves t_i=a_i$ for each $i$, and hence $H\proves t=f(\vec{a})$ by <i>functions-respect-equality</i>. By induction, we have $t_i^\mc{A}=\l[a_i\r]$ for each $i$, and hence $t^\mc{A}=f^\mc{A}\!\l([\vec{a}]\r)$. Thus $t^\mc{A}=\l[b\r]$ iff $f^\mc{A}\!\l([\vec{a}]\r)=b$, which by definition occurs iff $H\proves f(\vec{a})=b$. By <i>equality-is-transitive</i>, this occurs iff $H\proves t=b$, as desired.
+
+Finally, $\mc{A}\models\theta$ iff $H\proves\theta$ for any $\tau$-sentence $\theta$, which we prove by induction on its construction. The base case when $\theta=(t_1=t_2)$ for some $t_i\in\Term\l(\tau\r)$ follows from the lemma above. Similarly, the case $\theta=R(t_1,\dots,t_n)$ for some $R\in\mc{R}_n$ and $t_i\in\Term\l(\tau\r)$ follows from the lemma above together with the <i>relations-respect-equality</i> axiom. Lastly, the case $\theta=\lnot\phi$ follows from maximal consistency of $H$, the case $\theta=\theta_1\land\theta_2$ is trivial, and the case $\theta=\ex v\phi$ follows from <i>witness-implies-existence</i> and the fact that $H$ admits a Henkin witness for $\theta$.<span style="float:right;">$\blacksquare$</span>
