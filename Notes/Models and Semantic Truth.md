@@ -1,7 +1,6 @@
 ---
 mathLink: auto
 mathLink-blocks:
-    semantic-properties-of-theories: Semantically Consistent/Complete
     category-of-models: $\catmodel{T}$
 ---
 
@@ -30,7 +29,6 @@ Let $T$ be a $\sigma$-theory. A non-empty $\sigma$-structure $\mc{A}$ is said to
 * (Compactness). A $\sigma$-theory $T$ is <b>compact</b> if whenever $T\models\phi$, there is a finite subtheory $T'\subseteq T$ such that $T'\models\phi$.
 
 ```
-^semantic-properties-of-theories
 
 <b>Remark.</b> The <i>Compactness Theorem</i> implies in particular that every $\sigma$-theory $T$ is compact, for if $T\models\phi$, then $T\cup\l\{\lnot\phi\r\}$ is not satisfiable and hence there is a finite non-satisfiable subtheory $F\subseteq T\cup\l\{\lnot\phi\r\}$. Put $T'\coloneqq F\cap T$, so $T'\cup\l\{\lnot\phi\r\}$ is not satisfiable and hence $T'\models\phi$.<span style="float:right;">$\blacklozenge$</span>
 

@@ -29,4 +29,5 @@ Let $\sigma$ be a signature in $\FOL$. If a $\sigma$-theory $T$ is consistent, t
 
 ---
 
-<i>Proof.</i> 
+<i>Proof.</i> To motivate the construction, note that for a $\sigma$-structure $\mc{A}$, the $\sigma_A$-theory $H\coloneqq\ElDiag\l(\mc{A}\r)$ is Henkin since $H\proves\ex v\phi$ iff $\ex v\phi\in H$, which occurs iff $\phi\l(c/v\r)\in H$ for some $c\in\mc{C}\l(\sigma\r)$. The main idea is to turn this around, by making $T$ ‘look like’ the elementary diagram of some $\sigma$-structure $\mc{A}$. We do so in several steps.
+1. 

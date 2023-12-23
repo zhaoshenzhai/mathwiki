@@ -9,7 +9,7 @@ mathLink-blocks:
 Date Created: 22/12/2023 16:56:45
 Tags: #Type/Definition #Topic/Model_Theory
 
-Types: [[Models and Semantic Truth#^semantic-properties-of-theories]], [[Proofs and Syntactic Truth#^syntactic-properties-of-theories]]
+Types: [[Henkin Theory]]
 Examples: <i>Not Applicable</i>
 Constructions: [[Models and Semantic Truth]], [[Proofs and Syntactic Truth]]
 Generalizations: <i>Not Applicable</i>
