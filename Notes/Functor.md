@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Category_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Hom Functor]], [[Fundamental Groupoid#^fundamental-group]], [[Abelianization]], [[Dual Space]]
-Constructions: [[Natural Transformation]], [[Equivalence of Categories]], [[Comma Category]]
+Constructions: [[Natural Transformation]], [[Equivalence of Categories]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

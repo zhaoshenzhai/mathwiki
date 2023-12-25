@@ -18,6 +18,7 @@ Properties: [[Isomorphism Theorems]], [[Sylow Theorems]], [[Cauchy's Theorem]]
 Sufficiencies: [[Free Group]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
+^group-homomorphism
 
 ``` ad-Definition
 title: Definition.

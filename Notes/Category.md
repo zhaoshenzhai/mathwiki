@@ -10,7 +10,7 @@ Tags: #Type/Definition #Topic/Category_Theory
 
 Types: [[Groupoid]]
 Examples: [[Function#^category-of-sets]], [[Structure#^category-of-structures]], [[Models and Semantic Truth#^category-of-models]], [[Group#^category-of-groups]], [[Module#^category-of-modules]], [[Monoid#^category-of-monoids]], [[Ring#^category-of-rings]], [[Representation (Group)#^category-of-representations]], [[Group Action#^category-of-G-sets]], [[Metric Space#^category-of-metric-spaces]], [[Covering Space#^category-of-covering-spaces]]
-Constructions: [[Functor]], [[Universal Objects]], [[Natural Transformation]], [[Slice Category]], [[Coslice Category]]
+Constructions: [[Functor]], [[Universal Objects]], [[Natural Transformation]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
