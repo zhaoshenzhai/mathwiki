@@ -4,7 +4,7 @@ Date Created: 12/03/2022 11:37:51
 Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: <i>Not Applicable</i>
-Examples: [[Cartesian Product]], [[Direct Product (Group)]], [[Direct Product (ring)]], [[Direct Product (module)]], [[Topological Space#^product-space]]
+Examples: [[Cartesian Product]], [[Group#^direct-product]], [[Direct Product (ring)]], [[Direct Product (module)]], [[Topological Space#^product-space]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

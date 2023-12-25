@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Equinumerosity]], [[Group Action#^orbit]], [[Homotopy]]
-Constructions: [[Quotient Group]]
+Constructions: [[Quotient Category]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Universal Property of Quotients]]

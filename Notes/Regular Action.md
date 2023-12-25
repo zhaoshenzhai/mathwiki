@@ -1,6 +1,7 @@
 ---
 mathLink-blocks:
     regular-representation: Regular Representation
+    cayley: Cayley’s Theorem
     equivariant-quotients-iff-conjugate-subgroups: $G/H$ and $G/K$ are $G$-isomorphic $\Leftrightarrow$ $H$ and $K$ are conjugate
 ---
 
@@ -18,6 +19,7 @@ Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
+^cayley
 
 ``` ad-Example
 title: Example.
