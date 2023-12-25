@@ -14,12 +14,12 @@ Date Created: 04/05/2022 13:08:40
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Solvable Group]], [[Abelian Group]], [[Simple Group]], [[p-group]]
-Examples: [[Symmetric Group]], [[Fundamental Groupoid#^fundamental-group]], [[Group of Units]]
-Constructions: [[Group Action]], [[Representation (Group)]], [[Order]], [[Abelianization]], [[Exact Sequence]], [[Automorphism Group]], [[Semidirect Product]], [[Subgroup]], [[Kernel (Group Theory)]], [[Semidirect Product]]
+Examples: [[Integers#^cyclic-group]], [[Symmetric Group]], [[Fundamental Groupoid#^fundamental-group]], [[Group of Units]]
+Constructions: [[Group Action]], [[Representation (Group)]], [[Order]], [[Abelianization]], [[Exact Sequence]], [[Composition Series]], [[Kernel (Group Theory)]], [[Semidirect Product]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Isomorphism Theorems]], [[Sylow Theorems]], [[Cauchy's Theorem]], [[Regular Action#^cayley]], [[Abelianization of product is product of abelianization]]
-Sufficiencies: [[Free Group]]
+Properties: [[Isomorphism Theorems]], [[Sylow Theorems]], [[Cauchy's Theorem]], [[Regular Action#^cayley]], [[Abelianization of product is product of abelianization]], [[Basic properties of subgroups]]
+Sufficiencies: [[Free Group]], [[Generating Set (Group)]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 ^group-homomorphism
@@ -34,7 +34,7 @@ A <b>group</b> is a monoid $\tpl{G,\ast,e}$ such that every element is invertibl
 ```
 ^category-of-groups
 
-<b>Remark.</b> The category $\catgrp$ admit subobjects, (co)products, and quotients.
+<b>Remark.</b> The isomorphisms in $\catgrp$ are precisely the bijective group homomorphisms, and that $G\into\Aut\l(G\r)$ is <i>Cayley’s Theorem</i>. Furthermore, the category $\catgrp$ admit subobjects, (co)products, and quotients.
 * (<i>Subgroup</i>). A subgroup of a group $G$ is a subset $H$ where the inclusion $H\into G$ is a group homomorphism, in which case we write $H\substructeq G$.
 * (<i>Product</i>). The <i>direct</i> product of a family $\l\{G_i\r\}$ of groups is the Cartesian product $\prod_iG_i$ equipped with the component-wise operation. ^direct-product
 * (<i>Coproduct</i>). The <i>free</i> product of a family $\l\{G_i\r\}$ of groups is the set $\coprod_iG_i$ of all reduced words in $\bigcup_iG_i$ equipped with the concatenation operation.
