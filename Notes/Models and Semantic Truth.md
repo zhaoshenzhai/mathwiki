@@ -10,7 +10,7 @@ Date Created: 15/12/2023 01:23:56
 Tags: #Type/Definition #Topic/Model_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Monoid#^category-of-monoids]], [[Group#^category-of-groups]], [[Ring#^category-of-rings]], [[Module#^category-of-modules]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

@@ -16,7 +16,7 @@ Justifications: [[Free Group#^universal-property-of-free-groups]], [[Integers#^s
 ``` ad-Definition
 title: Definition.
 
-Let $G$ be a group and take $x\in G$. Consider the unique homomorphism $\phi:\Z\to G:n\mapsto x^n$ extending $1\mapsto x$. The <b>order of $x$</b> is $\ord{x}\coloneqq\l|\im\phi\r|$.
+Let $G$ be a group and take $x\in G$. The <b>order of $x$</b> is $\ord{x}\coloneqq\l|\im\phi\r|$, where $\phi:\Z\to G$ mapping $n\mapsto x^n$ is the unique homomorphism extending $1\mapsto x$.
 
 ```
 
@@ -27,6 +27,6 @@ Let $G$ be a group and take $x\in G$. Consider the unique homomorphism $\phi:\Z\
 
 <b>Remark.</b> We note that $x^n=0$ iff $\ord x$ divides $n$. Indeed, we have $\ker\phi=m\Z$, and so $n\in\ker\phi$ iff $n=mk$ for some $k\in\Z$. We list some immediate corollaries.
 * If $f:G\to H$ is a homomorphism, then $f\l(g\r)^{\ord g}=f\l(g^{\ord g}\r)=0$ and so $\ord f\l(g\r)$ divides $\ord g$.
-* We define the <b>order of $G$</b> to be its cardinality $\l|G\r|$. By Lagrange’s Theorem, we see that $\ord x$ divides $\l|G\r|$, so $g^{\l|G\r|}=e$.
+* We define the <i>order of $G$</i> to be its cardinality $\l|G\r|$. By Lagrange’s Theorem, we see that $\ord x$ divides $\l|G\r|$, so $g^{\l|G\r|}=e$.
 
-We also note that $\ord\l(g^k\r)=\ord g/\gcd\l(k,\ord g\r)$ for all $k\geq1$.<span style="float:right;">$\blacklozenge$</span>
+We also note that $\ord\,(g^k)=\ord g/\gcd\l(k,\ord g\r)$ for all $k\geq1$.<span style="float:right;">$\blacklozenge$</span>

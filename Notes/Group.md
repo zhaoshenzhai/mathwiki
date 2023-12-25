@@ -29,18 +29,13 @@ A <b>group</b> is a monoid $\tpl{G,\ast,e}$ such that every element is invertibl
 ```
 ^category-of-groups
 
-<b>Remark.</b> If $S\subseteq G$ generates $G$, then any two homomorphisms $\phi_1,\phi_2:G\to H$ that agree on $S$ must agree everywhere. Indeed, the set $A\coloneqq\l\{g\in G\st\phi_1\l(g\r)=\phi_2\l(g\r)\r\}$ is a subgroup of $G$ that contains $S$, so $G=\gen{S}\substructeq A$ and hence $A=G$. Thus $\phi_1=\phi_2$, as desired.<span style="float:right;">$\blacklozenge$</span>
-^group-homomorphism
+<b>Remark.</b> The category $\catgrp$ admit subobjects, (co)products, and quotients.
+* (<i>Subgroup</i>). A subgroup of a group $G$ is a subset $H$ where the inclusion $H\into G$ is a group homomorphism, in which case we write $H\substructeq G$.
+* (<i>Product</i>). The <i>direct</i> product of a family $\l\{G_i\r\}$ of groups is the Cartesian product $\prod_iG_i$ equipped with the component-wise operation.
+* (<i>Coproduct</i>). The <i>free</i> product of a family $\l\{G_i\r\}$ of groups is the set $\coprod_iG_i$ of all reduced words in $\bigcup_iG_i$ equipped with the concatenation operation.
+* (<i>Quotient</i>). The quotient group of a group $G$ with a congruence relation $\sim$ is the quotient set $G/\!\sim$ equipped with the operation $\l[g_1\r]\ast\l[g_2\r]\coloneqq\l[g_1g_2\r]$.
+    * Every congruence relation $\sim$ on $G$ arises from a unique <i>normal</i> subgroup $N\nsubgrpeq G$, i.e. a subgroup $N\substructeq G$ such that $gN=Ng$ for all $g\in G$. Indeed, given a congruence relation $\sim$ on $G$, the subgroup $N\coloneqq\l\{n\in G\st n\sim e\r\}$ is normal since for all $gn\in gN$, we have $gn\sim g$ and hence $gng^{-1}\sim e$. Thus $gng^{-1}\in N$, so $gn\in Ng$ too. Thus $gN\subseteq Ng$, and the converse is similar. Conversely, given a normal subgroup $N\nsubgrpeq G$, define $g_1\sim g_2$ iff $g_2^{-1}g_1\in N$. This is an equivalence relation, and is a congruence since if $g_1\sim g_2$ and $h_1\sim h_2$, then $\l(h_2g_2\r)^{-1}\l(h_1g_1\r)=g_2^{-1}h_2^{-1}h_1g_1\in g_2^{-1}Ng_1=g_2^{-1}g_1N=N$ and hence $h_1g_1\sim h_2g_2$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<b>Remark.</b> Group homomorphisms are relatively well-behaved. We list some of their properties here, whose proofs are all straightforward.
-* They map identities to identities and inverses to inverses: $\phi\l(e_G\r)=e_H$ and $\phi\l(g^{-1}\r)=\phi\l(g\r)^{-1}$ for all $g\in G$.
-* Subgroups are preserved under images and preimages. Normality is also preserved under preimages, and images too if $\phi$ is surjective. In particular, this shows that $\ker\phi$ is normal in $G$.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-<b>Remark.</b> For all $g\in G$, the element $g^{-1}\coloneqq h$ such that $g\ast g^{-1}=e=g^{-1}\ast g$ is unique and is called the <b>inverse element of $g$</b>. They satisfy the following properties.
-* For all $g,h\in G$, we have $\l(gh\r)^{-1}=h^{-1}g^{-1}$. This is analogous to the inverse of functional compositions.
-* We have ‘cancellation’: if either $gk=hk$ or $kg=kh$, then $g=h$.
-* We have ‘division’: for all $g,h\in G$, there exists a unique $x\in G$ such that $gx=h$ given by $x\coloneqq g^{-1}h$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Alternatively, one can define groups as a groupoid with a single object, in which case group homomorphisms are just functors between said groupoids.<span style="float:right;">$\blacklozenge$</span>
