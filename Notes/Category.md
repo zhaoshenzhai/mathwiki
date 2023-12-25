@@ -1,6 +1,6 @@
 ---
 mathLink-blocks:
-    morphism: Morphism (Category Theory)
+    morphism: Morphism
 ---
 
 <div class="topSpace"></div>
@@ -26,7 +26,7 @@ A <b>category</b> $C$ consists a collection $\Obj\l(C\r)$ of <b>objects</b> in $
 * for any three objects $x,y,z\in\Obj\l(C\r)$, a <b>composition map</b> $C\l(y,z\r)\times C\l(x,y\r)\to C\l(x,z\r)$ mapping $\tpl{g,f}\mapsto g\circ f$,
 * for any object $x$, an <b>identity</b> morphism $1_x\in C\l(x,x\r)$,
 
-such that $h\circ\l(g\circ f\r)=\l(h\circ g\r)\circ f$ for all $x\overset{f}{\rightarrow}y\overset{g}{\rightarrow}z\overset{h}{\rightarrow}w$ and $f\circ 1_x=f=f\circ1_y$ for all $f\in C\l(x,y\r)$.
+such that the family of $C\l(x,y\r)$’s is pairwise disjoint, $h\circ\l(g\circ f\r)=\l(h\circ g\r)\circ f$ for all composable morphisms, and $f\circ 1_x=f=f\circ1_y$ for all $f\in C\l(x,y\r)$.
 
 ```
 ^morphism
@@ -35,12 +35,13 @@ such that $h\circ\l(g\circ f\r)=\l(h\circ g\r)\circ f$ for all $x\overset{f}{\ri
 
 ---
 
-<b>Remark.</b> A morphism $f\in C\l(x,y\r)$ is an <i>isomorphism</i> if there is a morphism $g\in C\l(y,x\r)$ such that $gf=1_x$ and $fg=1_y$. Such a $g$ is said to be the <i>inverse</i> of $f$, which is unique since $g=g\l(fg'\r)=\l(gf\r)g'=g'$ if $g'$ is another inverse of $f$.
-* If $C$ is locally small, then a morphism $f\in C\l(x,y\r)$ is an isomorphism iff for every $w\in C$, the <i>post-composition</i> $f_\ast:C\l(w,x\r)\to C\l(w,y\r)$ mapping $g\mapsto fg$ is a bijection. Dually, this occurs iff for every $z\in C$, the <i>pre-composition</i> $f^\ast:C\l(x,z\r)\to C\l(y,z\r)$ mapping $g\mapsto gf$ is a bijection.
+<b>Remark.</b> A morphism $f\in C\l(x,y\r)$ is said to be:
+* an <i>isomorphism</i> if there is a morphism $g\in C\l(y,x\r)$ such that $gf=1_x$ and $fg=1_y$, which is unique and referred to as the <i>inverse</i> of $f$;
+* a <i>monomorphism</i> if $fg=fh\Rightarrow g=h$ for any $w\in C$ and any $g,h\in C\l(w,x\r)$, and an <i>epimorphism</i> if $gf=hf\Rightarrow g=h$ for any $z\in C$ and any $g,h\in C\l(y,z\r)$;
+* a <i>section</i> if $gf=1_x$ for some $g\in C\l(y,x\r)$, and a <i>retract</i> if $fg=1_y$ for some $g\in C(y,x)$.
 
-A morphism $f\in C\l(x,y\r)$ is a <i>monomorphism</i> (or is <i>monic</i>) if for any $w\in C$ and any $g,h\in C\l(w,x\r)$, $fg=fh\Rightarrow g=h$. If $C$ is locally-small, this occurs iff $f_\ast$ is an injection. Dually, $f$ is an <i>epimorphism</i> (or is <i>epic</i>) if for any $z\in C$ and any $g,h\in C\l(y,z\r)$, $gf=hf\Rightarrow g=h$; if $C$ is locally small, this occurs iff $f^\ast$ is an injection.
-* If $x\overset{s}{\to}y\overset{r}{\to}x$ are morphisms such that $rs=1_x$, then $s$ is a <i>section</i> and $r$ is a <i>retract</i>. Note that sections (resp. retracts) are always monic (resp. epic), so they are also referred to as <i>split monomorphisms</i> (resp. <i>split epimorphisms</i>). It is easy to see that a monic $f:x\to y$ that is also split epic is in fact an isomorphism, and the same for epimorphisms that are also split monic.<span style="float:right;">$\blacklozenge$</span>
+Note that sections (resp. retracts) are always monic (resp. epic), so they are also referred to as <i>split monomorphisms</i> (resp. <i>split epimorphisms</i>). It is easy to see that a monic $f:x\to y$ that is also split epic is in fact an isomorphism, and the same for epimorphisms that are also split monic.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<b>Remark.</b> For all $x\in C$, the identity $1_x\in C\l(x,x\r)$ is unique. Indeed, if $1_x'\in C\l(x,x\r)$ is another identity, then $1_x=1_x1_x'=1_x'$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In the case that $C$ is locally small, every morphism $f\in C\l(x,y\r)$ induces morphisms in $\catset$ by <i>post-composition</i> $f_\ast:C\l(w,x\r)\to C\l(w,y\r)$ for every $w\in C$ and <i>pre-composition</i> $f^\ast:C\l(x,z\r)\to C\l(y,z\r)$ for every $z\in C$. It is easy to see that $f$ is an isomorphism iff every $f_\ast$ is a bijection $-$ dually iff every $f^\ast$ is a bijection $-$ and $f$ is monic (resp. epic) iff every $f_\ast$ (resp. $f^\ast$) is an injection.<span style="float:right;">$\blacklozenge$</span>
