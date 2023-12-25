@@ -13,7 +13,7 @@ Examples: [[Function#^category-of-sets]], [[Structure#^category-of-structures]],
 Constructions: [[Functor]], [[Universal Objects]], [[Natural Transformation]], [[Slice Category]], [[Coslice Category]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Left-invertible implies monomorphism]], [[Right-invertible implies epimorphism]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Equivalence of Categories]]
 Justifications: <i>Not Applicable</i>

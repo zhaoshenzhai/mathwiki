@@ -7,7 +7,7 @@ mathLink: auto
 Date Created: 18/07/2023 11:32:58
 Tags: #Type/Proposition #Topic/Module_Theory
 
-Proved by: [[Injection iff monomorphism (Set Theory)]], [[Surjection iff epimorphism (Set Theory)]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
