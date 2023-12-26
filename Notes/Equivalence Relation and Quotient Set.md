@@ -25,5 +25,3 @@ Let $X$ be a set. A binary relation $\sim$ is an <b>equivalence relation on $X$<
 * The <b>quotient set of $X$ under $\sim$</b> is the set $X/\!\sim\,\,\coloneqq\l\{\l[x\r]_\sim\in\pow\l(X\r)\st x\in X\r\}$ equipped with the <b>canonical projection</b> $\pi:X\to X/\!\sim$ mapping $x\mapsto\l[x\r]_\sim$.
 
 ```
-
-<b>Remark.</b> Note that $x\sim y$ iff $\l[x\r]_\sim=\l[y\r]_\sim$.<span style="float:right;">$\blacklozenge$</span>

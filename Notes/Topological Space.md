@@ -1,5 +1,6 @@
 ---
 mathLink-blocks:
+    category-of-topological-spaces: $\cattop$
     continuous-function: Continuous Function
     isomorphisms: Isomorphisms in $\cattop$
     product-space: Products in $\cattop$
@@ -15,12 +16,13 @@ Tags: #Type/Definition #Topic/Topology
 Types: [[Hausdorff Space]], [[Metric Space]], [[Compact Space]], [[Separable Space]], [[Connected Space]]
 Examples: [[Order Space (Topology)]], [[Path]]
 Constructions: [[Closure et al]], [[Sequential Limits]], [[Functional Limits]], [[Homotopy]], [[Covering Space]], [[Mapping Cylinder]]
-Generalizations: [[Homotopy Equivalence]]
+Generalizations: <i>Not Applicable</i>
 
 Properties: [[Measurable Function#^continuous-implies-Borel]]
 Sufficiencies: [[Basis and Subbasis]], [[An epsilon-trade for an easy life#^Luzin]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Compact Space#^extreme-value-theorem]], [[Compact Space#^compact-hausdorff-implies-closed]]
+^category-of-topological-spaces
 
 ``` ad-Definition
 title: Definition.
