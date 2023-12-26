@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 11/05/2023 14:46:49
-Tags: #Type/Theorem #Topic/Group_Theory
+Tags: #Type/Proposition #Topic/Group_Theory
 
 Proved by: [[Orbit-Stabilizer Theorem]]
 References: <i>Not Applicable</i>
@@ -10,8 +10,8 @@ Justifications: <i>Not Applicable</i>
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-``` ad-Theorem
-title: Theorem (Cauchy-Frobenius).
+``` ad-Proposition
+title: Proposition (Cauchy-Frobenius).
 
 Let $G$ be a finite group acting on a finite set $X$. If $N$ denotes the number of orbits of the action on $X$ and $I\l(g\r)$ is the number of elements in $X$ fixed by $g$, then
 $$\begin{equation}

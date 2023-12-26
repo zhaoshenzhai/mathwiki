@@ -15,7 +15,7 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Solvable Group]], [[Abelian Group]], [[Simple Group]], [[p-group]], [[Conjugation Action#^inner-automorphism]]
 Examples: [[Symmetric Group]], [[Fundamental Groupoid#^fundamental-group]], [[Group of Units]]
-Constructions: [[Group Action]], [[Representation (Group)]], [[Order]], [[Abelianization]], [[Exact Sequence]], [[Composition Series]], [[Semidirect Product]], [[Kernel (Group Theory)]]
+Constructions: [[Group Action]], [[Representation]], [[Order]], [[Coset]], [[Abelianization]], [[Exact Sequence]], [[Composition Series]], [[Semidirect Product]], [[Kernel (Group Theory)]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Isomorphism Theorems]], [[Sylow Theorems]], [[Cauchy's Theorem]], [[Regular Action#^cayley]], [[Basic properties of subgroups]]
