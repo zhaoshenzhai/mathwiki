@@ -1,6 +1,7 @@
 ---
 mathLink-blocks:
     cyclic-group: Cyclic Group
+    initial: $\Z$ is initial in $\catring$
     subgroups-of-integers: Subgroups of $\Z$
     quotients-of-integers: Quotients of $\Z$
     invertible-iff-coprime: Invertible in $\Z/n\Z$ $\Leftrightarrow$ coprime
@@ -32,11 +33,8 @@ We construct the <b>integers</b> $\Z$ as the quotient of $\N^2$ under the equiva
 ```
 ^cyclic-group
 
-<i>Proof.</i> For any ring $R$, that $\Z=\gen{1}$ as a group furnishes a unique group homomorphism $\phi:\Z\to R$ sending $1$ to $1_R$. That $\phi\l(rs\r)=\phi\l(r\r)\phi\l(s\r)$ is easy to check, so $\phi$ is a ring homomorphism.
-* The division algorithm shows in particular that $\Z$ is a Euclidean domain, so $\Z$ is also a PID. Thus every ideal is of principal, of the form $\gen{n}=n\Z$.
-^subgroups-of-integers
+<i>Proof.</i> For any ring $R$, that $\Z=\gen{1}$ as a group furnishes a unique group homomorphism $\phi:\Z\to R$ sending $1$ to $1_R$. That $\phi\l(rs\r)=\phi\l(r\r)\phi\l(s\r)$ is easy to check, so $\phi$ is a ring homomorphism. ^initial
+* The division algorithm shows in particular that $\Z$ is a Euclidean domain, so $\Z$ is also a PID. Thus every ideal is of principal, of the form $\gen{n}=n\Z$. ^subgroups-of-integers
 
-Suppose now that $G=\gen{x}$ is cyclic, so there is a surjection $\phi:\Z\onto G$ mapping $m\mapsto x^m$. Its kernel is $\ker\phi=n\Z$ for some $n\in\Z$. If $\ker\phi$ vanishes, then $G\iso\Z$. In this case, $\ord{x}=\infty$ and $x$ is either $1$ or $-1$. Otherwise, we see that $G\iso\Z/n\Z$. The groups $\Z$ and $\Z/m\Z$ are clearly cyclic, so they are all the cyclic groups.
-^quotients-of-integers
-* Observe that $\ord m=\ord{1}/\gcd\l(m,\ord{1}\r)=n/\gcd\l(m,n\r)$, which is $n$ iff $m\perp n$. Moreover, Bézout’s Identity furnishes $r,s\in\Z$ such that $am+sn=1$, which descends into the quotient as $am\equiv1\mod{n}$.<span style="float:right;">$\blacksquare$</span>
-^invertible-iff-coprime
+Suppose now that $G=\gen{x}$ is cyclic, so there is a surjection $\phi:\Z\onto G$ mapping $m\mapsto x^m$. Its kernel is $\ker\phi=n\Z$ for some $n\in\Z$. If $\ker\phi$ vanishes, then $G\iso\Z$. In this case, $\ord{x}=\infty$ and $x$ is either $1$ or $-1$. Otherwise, we see that $G\iso\Z/n\Z$. The groups $\Z$ and $\Z/m\Z$ are clearly cyclic, so they are all the cyclic groups. ^quotients-of-integers
+* Observe that $\ord m=\ord{1}/\gcd\l(m,\ord{1}\r)=n/\gcd\l(m,n\r)$, which is $n$ iff $m\perp n$. Moreover, Bézout’s Identity furnishes $r,s\in\Z$ such that $am+sn=1$, which descends into the quotient as $am\equiv1\mod{n}$.<span style="float:right;">$\blacksquare$</span> ^invertible-iff-coprime

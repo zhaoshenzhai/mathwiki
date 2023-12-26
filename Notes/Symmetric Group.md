@@ -12,7 +12,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Basic properties of symmetric groups]], [[Basic properties of symmetric groups#^non-solvable]], [[Permutations are conjugate iff same cycle type]]
+Properties: [[Basic properties of symmetric groups]], [[Basic properties of symmetric groups#^non-solvable]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Basic properties of symmetric groups#^sign]]

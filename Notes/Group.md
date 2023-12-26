@@ -13,12 +13,12 @@ mathLink-blocks:
 Date Created: 04/05/2022 13:08:40
 Tags: #Type/Definition #Topic/Group_Theory
 
-Types: [[Solvable Group]], [[Abelian Group]], [[Simple Group]], [[p-group]]
-Examples: [[Integers#^cyclic-group]], [[Symmetric Group]], [[Fundamental Groupoid#^fundamental-group]], [[Group of Units]]
-Constructions: [[Group Action]], [[Representation (Group)]], [[Order]], [[Abelianization]], [[Exact Sequence]], [[Composition Series]], [[Kernel (Group Theory)]], [[Semidirect Product]]
+Types: [[Solvable Group]], [[Abelian Group]], [[Simple Group]], [[p-group]], [[Conjugation Action#^inner-automorphism]]
+Examples: [[Symmetric Group]], [[Fundamental Groupoid#^fundamental-group]], [[Group of Units]]
+Constructions: [[Group Action]], [[Representation (Group)]], [[Order]], [[Abelianization]], [[Exact Sequence]], [[Composition Series]], [[Semidirect Product]], [[Kernel (Group Theory)]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Isomorphism Theorems]], [[Sylow Theorems]], [[Cauchy's Theorem]], [[Regular Action#^cayley]], [[Abelianization of product is product of abelianization]], [[Basic properties of subgroups]]
+Properties: [[Isomorphism Theorems]], [[Sylow Theorems]], [[Cauchy's Theorem]], [[Regular Action#^cayley]], [[Basic properties of subgroups]]
 Sufficiencies: [[Free Group]], [[Generating Set (Group)]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

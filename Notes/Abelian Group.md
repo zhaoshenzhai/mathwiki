@@ -4,19 +4,20 @@ Date Created: 04/05/2022 17:13:39
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Integers]]
-Constructions: [[Ring]], [[Module#^category-of-abelian-groups]]
+Examples: [[Integers#^cyclic-group]]
+Constructions: [[Ring]]
 Generalizations: [[Module]]
 
-Properties: [[Structure Theorem]], [[Abelian group is simple iff cyclic of prime order]]
-Sufficiencies: [[Abelianization]], [[Quotient by center cyclic implies abelian]], [[Free Module#^free-abelian-group]]
+Properties: [[Structure Theorem]], [[Simple Group#^simplicity-of-abelian-groups]]
+Sufficiencies: [[Abelianization]], [[Free Module#^free-abelian-group]], [[Conjugation Action#^inner-automorphism-cyclic-abelian]]
 Equivalences: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Justifications: [[Integers#^initial]]
 
 ``` ad-Definition
 title: Definition.
 
 A group $\tpl{G,\ast}$ is said to be <b>abelian</b> if the binary operation $\ast$ commutes.
+* The <b>category of abelian groups</b> is the subcategory $\catabgrp$ of $\catgrp$ whose objects are abelian groups.
 
 ```
 
