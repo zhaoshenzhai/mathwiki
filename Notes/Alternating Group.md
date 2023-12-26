@@ -11,12 +11,12 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Simplicity of alternating group]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Existence of sign homomorphism]]
+Justifications: [[Basic properties of symmetric groups#^sign]]
 
 ``` ad-Definition
 title: Definition.
 
-Let $X\coloneqq\l\{1,\dots,n\r\}$. The <b>alternating group of degree $n$</b> is the permutation group $A_n\coloneqq\ker\epsilon$ where $\epsilon:S_n\to\l\{\pm1\r\}$ is the sign homomorphism.
+Let $X\coloneqq\l\{1,\dots,n\r\}$. The <b>alternating group</b> of degree $n$ is the permutation group $A_n\coloneqq\ker\epsilon$ where $\epsilon:S_n\to\l\{\pm1\r\}$ is the sign homomorphism.
 
 ```
 

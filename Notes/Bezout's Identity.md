@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 23/11/2022 15:13:45
-Tags: #Type/Theorem #Topic/Ring_Theory
+Tags: #Type/Proposition #Topic/Ring_Theory
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
@@ -14,8 +14,8 @@ Justifications: <i>Not Applicable</i>
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-``` ad-Theorem
-title: Theorem (Bézout$\textbf{'}$s Identity).
+``` ad-Proposition
+title: Proposition (Bézout$\textbf{'}$s Identity).
 
 Let $R$ be a commutative ring and fix $a,b\in R$. If there exists some $d\in R$ such that $\gen{a,b}=\gen{d}$, then $d=\gcd\l(a,b\r)$.
 

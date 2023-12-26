@@ -16,9 +16,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $f_0,f_1:X\to Y$ be continuous maps between topological spaces $X$ and $Y$. A <b>homotopy</b> from $f_0$ to $f_1$ is a continuous map $F:X\times I\to Y$ with $F\l(\slot,0\r)=f_0$ and $F\l(\slot,1\r)=f_1$, written $F:f_0\htopeq f_1$. A map $f:X\to Y$ is an <b>homotopy equivalence</b> if there is some map $g:Y\to X$ such that $f\circ g\htopeq\id_Y$ and $g\circ f\htopeq\id_X$.
-* If there exists a homotopy $F$ from $f_0$ to $f_1$, then $f_0$ and $f_1$ are said to be <b>homotopic</b>.
-* If there exists a homotopy equivalence $f:X\to Y$, then $X$ and $Y$ are said to be <b>homotopy equivalent</b> and we write $X\htopeq Y$.
+Let $f_0,f_1:X\to Y$ be continuous maps between topological spaces $X$ and $Y$. A <b>homotopy</b> from $f_0$ to $f_1$ is a continuous map $F:X\times I\to Y$ with $F\l(\slot,0\r)=f_0$ and $F\l(\slot,1\r)=f_1$, written $F:f_0\htopeq f_1$. If there exists a homotopy $F$ from $f_0$ to $f_1$, then $f_0$ and $f_1$ are said to be <b>homotopic</b>.
+* Homotopy is a congruence relation on $\cattop$, which induces the <b>homotopy category</b> $\cathtop$ as the quotient category of $\cattop$ by $\htopeq$.
 
 For a subset $S\subseteq X$, a homotopy $F:X\times I\to Y$ is said to be <b>relative to $S$</b> if $F\l(s,t\r)=s$ for all $s\in S$ and $t\in I$.
 

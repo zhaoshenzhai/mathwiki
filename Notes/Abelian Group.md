@@ -8,8 +8,8 @@ Examples: [[Integers]]
 Constructions: [[Ring]], [[Module#^category-of-abelian-groups]]
 Generalizations: [[Module]]
 
-Properties: [[Abelian group is simple iff cyclic of prime order]]
-Sufficiencies: [[Structure Theorem]], [[Abelianization]], [[Quotient by center cyclic implies abelian]], [[Free Module#^free-abelian-group]]
+Properties: [[Structure Theorem]], [[Abelian group is simple iff cyclic of prime order]]
+Sufficiencies: [[Abelianization]], [[Quotient by center cyclic implies abelian]], [[Free Module#^free-abelian-group]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
