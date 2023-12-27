@@ -9,7 +9,7 @@ Date Created: 10/09/2023 15:09:23
 Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Metric Space]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
@@ -24,10 +24,6 @@ title: Definition.
 A topological space $X$ is said to be <b>Hausdorff</b> if every distinct pair of points $x,y\in X$ admit disjoint neighborhoods.
 
 ```
-
-<b>Remark.</b> Every metric space is Hausdorff (take open balls centered at $x$ and $y$, both with radius $d\l(x,y\r)/2$).<span style="float:right;">$\blacklozenge$</span>
-
----
 
 <b>Remark.</b> Every sequence $\tpl{x_n}$ in a Hausdorff space $X$ converges to at most one point. Indeed, suppose that $x_n\to x$. For any other $x\neq x'\in X$, let $U\ni x$ and $U'\ni x$ be disjoint neighborhoods thereof. Then $\fa^\infty n\in\N:x_n\in U$, so in particular we have $\fa^\infty n\in\N:x_n\not\in U'$. Thus $x_n\not\to x'$, as desired.<span style="float:right;">$\blacklozenge$</span>
 ^hausdorff-implies-unique-limit

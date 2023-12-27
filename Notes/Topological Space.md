@@ -15,7 +15,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: [[Hausdorff Space]], [[Metric Space]], [[Compact Space]], [[Separable Space]], [[Connected Space]]
 Examples: [[Order Space (Topology)]], [[Path]]
-Constructions: [[Closure et al]], [[Sequential Limits]], [[Functional Limits]], [[Homotopy]], [[Covering Space]], [[Mapping Cylinder]]
+Constructions: [[Closure et al]], [[Sequential Limits]], [[Homotopy]], [[Covering Space]], [[Mapping Cylinder]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Measurable Function#^continuous-implies-Borel]]
