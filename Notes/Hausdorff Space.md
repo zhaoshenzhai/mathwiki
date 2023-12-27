@@ -10,7 +10,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
 Examples: [[Metric Space]]
-Constructions: <i>Not Applicable</i>
+Constructions: [[k-Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Compact Space#^compact-hausdorff-implies-closed]]

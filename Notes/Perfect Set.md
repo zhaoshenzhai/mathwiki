@@ -1,14 +1,14 @@
 <div class="topSpace"></div>
 
-Date Created: 04/01/2023 15:42:18
-Tags: #Type/Definition #Topic/Real_Analysis/Later
+Date Created: 27/12/2023 16:48:57
+Tags: #Type/Definition #Topic/Topology/Later
 
 Types: <i>Not Applicable</i>
-Examples: [[Perfect set in Rn implies uncountable]]
+Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Perfect set in Rn implies uncountable]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
@@ -16,6 +16,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $X$ be a topological space. A subset $S\subseteq X$ is said to be <b>perfect</b> if it is closed and every point in $S$ is a cluster point of $S$.
+A subset $A\subseteq X$ of a topological space is <b>perfect</b> if it is closed and contains all its accumulation points.
 
 ```

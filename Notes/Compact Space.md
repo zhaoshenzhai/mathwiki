@@ -14,7 +14,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
 Examples: [[Cantor Space]]
-Constructions: <i>Not Applicable</i>
+Constructions: [[k-Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Cantor's Intersection Theorem]], [[Compact implies complete]], [[Epsilon-neighborhood Theorem]], [[Heine-Cantor Theorem]], [[Sequentially compact implies countably compact]], [[Sequentially compact implies separable]], [[Sequentially compact implies bounded]]
