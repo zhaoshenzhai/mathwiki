@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Existence of universal covers]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Simply-connected iff homotopic paths]]
-Justifications: <i>Not Applicable</i>
+Justifications: [[Independence of base point]]
 
 ``` ad-Definition
 title: Definition.

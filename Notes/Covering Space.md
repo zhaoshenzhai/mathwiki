@@ -19,7 +19,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Homotopy Lifting Theorem]], [[Covering Automorphisms and Monodromy]], [[Independence of base point]]
+Properties: [[Homotopy Lifting Theorem]], [[Covering Automorphisms and Monodromy]]
 Sufficiencies: [[Lifting Criterion]], [[Existence of universal covers]], [[Covering Space Action]]
 Equivalences: [[Galois Correspondence of Covering Spaces]]
 Justifications: [[Path-connected Space#^locally-path-connected-connected-implies-path-connected]], [[Regular Action#^equivariant-quotients-iff-conjugate-subgroups]]

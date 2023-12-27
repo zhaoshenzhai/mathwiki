@@ -1,9 +1,9 @@
 <div class="topSpace"></div>
 
-Date Created: 25/05/2023 12:57:37
-Tags: #Type/Proposition #In_Progress
+Date Created: 26/12/2023 21:46:18
+Tags: #Type/Proposition #Topic/Topology
 
-Proved by: [[Basic properties of homotopies of paths]], [[Homotopy Lifting Theorem]]
+Proved by: [[Basic properties of homotopies of paths]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -13,24 +13,17 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition.
 
-Let $X$ be a path-connected space. Then $\pi_1\l(X,x_0\r)\iso\pi_1\l(X,x_1\r)$ for all $x_0,x_1\in X$. Moreover, if $p:\widetilde{X}\to X$ is a covering of $X$ and $x_0\in X$, we have the following properties.
-* For all $\widetilde{x},\widetilde{x}'\in p^{-1}\!\l(x_0\r)$, the subgroups $p_\ast\pi_1\,(\widetilde{X},\widetilde{x})$ and $p_\ast\pi_1\,(\widetilde{X},\widetilde{x}')$ are conjugate.
-* If $H\substructeq\pi_1\l(X,x_0\r)$ is conjugate to $p_\ast\pi_1\,(\widetilde{X},\widetilde{x})$ for some $\widetilde{x}\in p^{-1}\!\l(x_0\r)$, then $H=p_\ast\pi_1\,(\widetilde{X},\widetilde{x}')$ for some $\widetilde{x}'\in p^{-1}\!\l(x_0\r)$.
+If $f:X\to Y$ is a homotopy equivalence, then the induced map $f_\ast:\pi_1\!\l(X,x_0\r)\to\pi_1\!\l(Y,f\l(x_0\r)\r)$ is an isomorphism for every $x_0\in X$.
+* If $X$ and $Y$ are path-connected spaces such that $X\htopeq Y$, then $\pi_1\!\l(X\r)\iso\pi_1\!\l(Y\r)$. In particular, if $X$ is contractible, then $\pi_1\!\l(X\r)\iso\l\{1\r\}$.
+* If $\phi_i:\tpl{X,x_0}\to\tpl{Y,y_0}$ are homotopic for $i=0,1$, then $\phi_{0\ast}$ and $\phi_{1\ast}$ are conjugate.
 
 ```
 
-<i>Proof.</i> Consider the map $\beta_\sigma:\pi_1\l(X,x_0\r)\to\pi_1\l(X,x_1\r)$ mapping $\l[\gamma\r]\mapsto\l[\sigma^-\ast\gamma\ast\sigma\r]$, which is well-defined. To see that $\beta_\sigma$ is a homomorphism, let $\gamma_0$ and $\gamma_1$ be loops at $x_0$ and compute
+<i>Proof.</i> We need a lemma, that if $\phi_t:X\to Y$ is a homotopy, $\gamma:t\mapsto\phi_t\!\l(x_0\r)$ is the path traced by $\phi_t\!\l(x_0\r)$, and $\beta_\gamma\!\l[\eta\r]\coloneqq\l[\gamma\ast\eta\ast\gamma^-\r]$, then the diagram below commutes.
+![[Images/2023-05-21_113729/image.svg|230]] Indeed, let $\tau$ be a loop at $x_0$. We establish a homotopy $\phi_0\circ\tau\htopeq\beta_\gamma\circ\phi_1\circ\tau$ as follows. Let $\gamma_t\!\l(s\r)\coloneqq\gamma\l(st\r)$ for each $t\in I$. Since $\gamma_t\!\l(1\r)=\l(\phi_t\circ\tau\r)\l(0\r)$, we see that $\gamma_t\ast\l(\phi_t\circ\tau\r)\ast\gamma_t^-$ is a well-defined loop at $\phi_0\!\l(x_0\r)$. Varying $t$ continuous gives us a homotopy from $\phi_0\circ\tau$ to $\beta_\gamma\circ\phi_1\circ\tau$, as desired. Now, if $f:X\to Y$ is a homotopy equivalence, then there is a map $g:Y\to X$ such that $f\circ g\htopeq\id_Y$ and $g\circ f\htopeq\id_X$. Consider now the sequence
 $$\begin{equation}
-   \beta_\sigma\!\l(\l[\gamma_0\r]\l[\gamma_1\r]\r)=\beta_\sigma\!\l[\gamma_0\ast\gamma_1\r]=\l[\sigma^-\ast\gamma_0\ast\gamma_1\ast\sigma\r]=\l[\sigma^-\ast\gamma_0\ast\sigma\ast\sigma^-\ast\gamma_1\ast\sigma\r]=\l[\sigma^-\ast\gamma_0\ast\sigma\r]\l[\sigma^-\ast\gamma_1\ast\sigma\r]=\beta_\sigma\!\l[\gamma_0\r]\beta_\sigma\!\l[\gamma_1\r].
+    \pi_1\!\l(X,x_0\r)\overset{f_\ast}{\longrightarrow}\pi_1\!\l(Y,f\l(x_0\r)\r)\overset{g_\ast}{\longrightarrow}\pi_1\!\l(X,gf\l(x_0\r)\r).
 \end{equation}$$
-Lastly, observe that $\beta_{\sigma^-}\!\l[\delta\r]=\l[\sigma\ast\delta\ast\sigma^-\r]$ for all loops $\delta$ at $x_1$ and is such that
-$$\begin{equation}
-    \l(\beta_{\sigma^-}\circ\beta_\sigma\r)\l[\gamma\r]=\beta_{\sigma^-}\!\l[\sigma^-\ast\gamma\ast\sigma\r]=\l[\sigma\ast\sigma^-\ast\gamma\ast\sigma\ast\sigma^-\r]=\l[\gamma\r]
-\end{equation}$$
-for all loops $\gamma$ at $x_0$, and similarly $\l(\beta_\sigma\circ\beta_{\sigma^-}\r)\l[\delta\r]=\l[\delta\r]$ or all loops $\delta$ at $x_1$, so $\beta_\sigma$ is invertible. Now, let $p:\widetilde{X}\to X$ be a path-connected covering map.
-* Let $\widetilde{\sigma}$ be a path from $\widetilde{x}$ to $\widetilde{x}'$ and consider the map $\beta_\widetilde{\sigma}$ defined above. Projecting $\widetilde{\sigma}$ to a loop $\sigma$ at $x_0$ and consider the map $\beta_\sigma$, the diagram
-![[Images/2023-05-25_131843/image.svg|225]] commutes. Indeed, $p_\ast\beta_{\widetilde{\sigma}}\!\l[\widetilde{\gamma}\r]=p_\ast\!\l[\widetilde{\sigma}^-\ast\widetilde{\gamma}\ast\widetilde{\sigma}\r]=\l[p\circ\l(\widetilde{\sigma}^-\ast\widetilde{\gamma}\ast\widetilde{\sigma}\r)\r]=\l[\l(p\circ\widetilde{\sigma}^-\r)\ast\l(p\circ\widetilde{\gamma}\r)\ast\l(p\circ\widetilde{\sigma}\r)\r]=\l[\sigma^-\ast\gamma\ast\sigma\r]=\beta_\sigma\!\l[\gamma\r]=\beta_\sigma p_\ast\!\l[\widetilde{\gamma}\r]$ for all loops $\widetilde{\gamma}$ at $\widetilde{x}$. It follows then that $p_\ast\pi_1\,(\widetilde{X},\widetilde{x}')=p_\ast\beta_{\widetilde{\sigma}}\pi_1\,(\widetilde{X},\widetilde{x})=\beta_\sigma p_\ast\pi_1\,(\widetilde{X},\widetilde{x})$, so the subgroups $p_\ast\pi_1\,(\widetilde{X},\widetilde{x})$ and $p_\ast\pi_1\,(\widetilde{X},\widetilde{x}')$ are conjugate by $\l[\sigma\r]$.
-* Suppose that $H=\l[\sigma\r]^-p_\ast\pi_1\,(\widetilde{X},\widetilde{x})\l[\sigma\r]$ for some loop $\sigma$ at $x_0$, which lifts to a path $\widetilde{\sigma}$ starting at $\widetilde{x}$ where $\widetilde{x}\coloneqq\widetilde{\sigma}\l(1\r)\in p^{-1}\!\l(x_0\r)$. The diagram above commutes, so
-$$\begin{equation}
-    H=\beta_\sigma p_\ast\pi_1\,(\widetilde{X},\widetilde{x})=p_\ast\beta_{\widetilde{\sigma}}\pi_1\,(\widetilde{X},\widetilde{x})=p_\ast\pi_1\,(\widetilde{X},\widetilde{x}').\qedin
-\end{equation}$$
+Since $g\circ f\htopeq\id_X$, the above lemma gives $g_\ast\circ f_\ast=\beta_\gamma$ where $\gamma$ is the path traced by the homotopy. Since $\beta_\gamma$ is an isomorphism, we see that $f_\ast$ is injective. A similar sequence gives us $f_\ast\circ g_\ast=\beta_{\gamma'}$ where $\gamma'$ is the path traced by the other homotopy, so $f_\ast$ is an isomorphism.
+* If $f:X\to Y$ is a homotopy equivalence, then the above gives us $\pi_1\!\l(X,x_0\r)\iso\pi_1\l(Y,f\l(x_0\r)\r)$, and path-connected of $X$ and $Y$ allows us to ignore basepoints.
+* Let $\phi_t:\tpl{X,x_0}\to\tpl{Y,y_0}$ witness this homotopy. The path $\gamma$ traced by $\phi_t$ is now a loop at $y_0$ and thus $\phi_{0\ast}=\l[\gamma\r]\phi_{1\ast}\l[\gamma\r]^{-1}$ by the lemma.<span style="float:right;">$\blacksquare$</span>

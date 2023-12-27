@@ -14,7 +14,7 @@ Examples: [[Covering Space]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Fundamental Groupoid#^path-connected-isomorphic-fundamental-group]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Connected Space#^intermediate-value-theorem]]

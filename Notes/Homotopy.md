@@ -15,7 +15,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Homotopy Lifting Theorem]], [[Basic properties of homotopies of paths]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Cone#^null-homotopic-iff-extends-to-cone]], [[Simply-connected iff homotopic paths]]
+Equivalences: [[Cone#^null-homotopic-iff-extends-to-cone]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
