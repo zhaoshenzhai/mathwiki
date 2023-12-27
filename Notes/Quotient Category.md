@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 25/12/2023 16:38:46
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Category_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Group#^quotient-group]], [[Homotopy]]

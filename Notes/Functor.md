@@ -4,7 +4,7 @@ Date Created: 06/03/2022 15:11:37
 Tags: #Type/Definition #Topic/Category_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Hom Functor]], [[Fundamental Groupoid#^fundamental-group]], [[Abelianization]], [[Dual Space]]
+Examples: [[Hom Functor]], [[Path#^path-components]], [[Fundamental Groupoid#^fundamental-group]], [[Cone]], [[Abelianization]], [[Dual Space]]
 Constructions: [[Natural Transformation]], [[Equivalence of Categories]]
 Generalizations: <i>Not Applicable</i>
 
