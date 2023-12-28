@@ -15,7 +15,7 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Sequential implies k-space]]
-Sufficiencies: <i>Not Applicable</i>
+Sufficiencies: [[First and Second Countable Spaces#^first-countable-implies-frechet]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
