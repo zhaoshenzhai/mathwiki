@@ -15,7 +15,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[First and Second Countable Spaces#^first-countable-implies-frechet-urysohn]], [[First and Second Countable Spaces#^second-countable-implies-separable]]
+Properties: [[Characterizations of topology via nets#^first-countable-are-hausdorff-iff-unique-limit]], [[First and Second Countable Spaces#^first-countable-implies-frechet-urysohn]], [[First and Second Countable Spaces#^second-countable-implies-separable]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

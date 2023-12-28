@@ -1,7 +1,8 @@
 ---
 mathLink-blocks:
     sequential-characterizations-of-topology: Sequential characterizations of topology
-    hausdorff-iff-every-net-converges-to-at-most-one-point: Hausdorff $\Leftrightarrow$ uniqueness of limits
+    hausdorff-iff-every-net-converges-to-at-most-one-point: Hausdorff $\Leftrightarrow$ limits are unique
+    first-countable-are-hausdorff-iff-unique-limit: Hausdorff $\Leftrightarrow$ sequential limits are unique ($1^\textrm{st}$-countable)
 ---
 
 <div class="topSpace"></div>
@@ -32,7 +33,7 @@ We have the following characterizations of topological notions on a space $X$ us
 ---
 
 <i>Proof (Hausdorff).</i> If $X$ is Hausdorff and $x_\blob$ converges to distinct $x,x'\in X$, then there are disjoint neighborhoods $U\ni x$ and $U'\ni x'$ such that $x_\blob$ is eventually in both $U$ and $U'$, a contradiction. Conversely, if $X$ is not Hausdorff, let $x,x'\in X$ be distinct points with no disjoint neighborhoods and consider the system $\mc{U}\cap\mc{U}'$ of neighborhoods of both $x$ and $x'$, directed by reverse inclusion. Each $U\cap U'\in\mc{U}\cap\mc{U}'$ is non-empty by hypothesis, and so $x_\blob\to x,x'$. ^hausdorff-iff-every-net-converges-to-at-most-one-point
-* It suffices to show that $X$ is Hausdorff whenever every sequence $x_\blob$ in $X$ converges to at-most one point. Indeed, if $X$ is not Hausdorff, then for every pair of distinct $x,x'\in X$, first-countability of $X$ furnishes countable families $\l\{U_i\r\}$ and $\l\{U_i'\r\}$ such that $U_i\cap U_i'\neq\em$ for each $i$. Picking $x_i\in U_i\cap U_i'$ for each $i$ gives us the desired sequence $x_i$ that converges to both $x$ and $x'$.<span style="float:right;">$\blacksquare$</span>
+* It suffices to show that $X$ is Hausdorff whenever every sequence $x_\blob$ in $X$ converges to at-most one point. Indeed, if $X$ is not Hausdorff, then for every pair of distinct $x,x'\in X$, first-countability of $X$ furnishes countable families $\l\{U_i\r\}$ and $\l\{U_i'\r\}$ such that $U_i\cap U_i'\neq\em$ for each $i$. Picking $x_i\in U_i\cap U_i'$ for each $i$ gives us the desired sequence $x_i$ that converges to both $x$ and $x'$.<span style="float:right;">$\blacksquare$</span> ^first-countable-are-hausdorff-iff-unique-limit
 
 ---
 
