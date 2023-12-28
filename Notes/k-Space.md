@@ -13,7 +13,7 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: <i>Not Applicable</i>
+Sufficiencies: [[Sequential implies k-space]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

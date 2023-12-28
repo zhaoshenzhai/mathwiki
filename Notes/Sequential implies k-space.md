@@ -4,8 +4,8 @@ mathLink: Sequential $\Rightarrow$ $k$-space
 
 <div class="topSpace"></div>
 
-Date Created: 27/12/2023 18:28:28
-Tags: #Type/Proposition #In_Progress
+Date Created: 27/12/2023 18:58:33
+Tags: #Type/Proposition #Topic/Topology/Later
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
@@ -17,8 +17,8 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition.
 
-
+Let $X$ be a topological space. If $X$ is sequential, then it is compactly-generated.
 
 ```
 
-<i>Proof.</i> 
+<i>Proof.</i> <span style="color:pink">fill this in, along with a counterexample for the converse. Refer to https://dantopology.wordpress.com/2010/06/21/sequential-spaces-i/</span>

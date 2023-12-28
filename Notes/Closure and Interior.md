@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Topology/Later
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Boundary]], [[Accumulation Point]]
+Constructions: [[Boundary]], [[Accumulation Point]], [[Sequential and Frechet Spaces]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
