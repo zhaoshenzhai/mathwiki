@@ -20,7 +20,7 @@ Let $X$ be a topological space. A <b>net</b> in $X$ is a map $x_\blob:I\to X$ fr
 * A point $x\in X$ is said to be a <b>limit point</b> of $x_\blob$ if $x_\blob$ is eventually in every neighborhood of $x$.
 * A point $x\in X$ is said to be a <b>cluster point</b> of $x_\blob$ if $x_\blob$ is frequently in every neighborhood of $x$.
 
-A <b>subnet</b> of a net $x_\blob:I\to X$ is a net $y_\blob:J\to X$ together with a map $\phi:J\to I$ such that $x_{\phi\l(j\r)}=y_j$ and $\fa i_0\in I,\ex j_0\in J\st j\geq j_0\Rightarrow\phi\l(j_0\r)\geq i_0$.
+A <b>subnet</b> of a net $x_\blob:I\to X$ is a net $y_\blob:J\to X$ together with a map $\phi:J\to I$ such that $x_{\phi\l(j\r)}=y_j$ and $\fa i_0\in I,\ex j_0\in J\st j\geq j_0\Rightarrow\phi\l(j\r)\geq i_0$.
 
 ```
 
