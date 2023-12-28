@@ -11,7 +11,7 @@ Date Created: 27/12/2023 16:01:46
 Tags: #Type/Definition #Topic/Topology/Later
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Metric Space#^metric-spaces-are-first-countable]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

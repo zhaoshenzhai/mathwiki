@@ -3,7 +3,7 @@
 Date Created: 25/11/2022 19:29:46
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Uniform continuity preserve Cauchy sequences]]
+Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

@@ -15,7 +15,7 @@ title: Theorem (Characterizations of Compactness).
 
 Let $X$ be a topological space. Then $X$ is compact iff every collection $\l\{F_\alpha\r\}$ of closed sets satisfying the FIP has non-empty intersection. Furthermore, we have:
 * (Nets). $X$ is compact iff every net in $X$ has a cluster point, which occurs iff every net in $X$ has a convergent subnet.
-* (Metric). If $X$ is a metric space, then $X$ is compact iff it is complete and totally-bounded.
+* (Metric). If $X$ is a metric space, then $X$ is compact iff it is complete and totally-bounded iff every sequence in $x$ has a convergent subsequence.
 
 
 ```
