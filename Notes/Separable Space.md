@@ -14,14 +14,14 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Separable implies Lindelof]]
-Sufficiencies: [[Sequentially compact implies separable]]
+Sufficiencies: [[First and Second Countable Spaces#^second-countable-implies-separable]], [[Sequentially compact implies separable]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition.
 
-A topological space $X$ is said to be <b>separable</b> if it admits a countable dense subset.
+A topological space $X$ is said to be <b>separable</b> if it admits a countably dense subset.
 
 ```
 

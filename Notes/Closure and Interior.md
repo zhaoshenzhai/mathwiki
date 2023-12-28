@@ -9,7 +9,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: [[Sequential and Frechet Spaces#^sequential-closure-and-interior]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Boundary]], [[Accumulation Point]], [[Sequential and Frechet Spaces]]
+Constructions: [[Boundary]], [[Accumulation Point]], [[Sequential and Frechet Spaces]], [[Separable Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -20,9 +20,8 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $A\subseteq X$ be a subset of a topological space $X$.
-* The <b>closure</b> of $A$ in $X$, denoted by $\bar{A}$ or $\tcl A$, is the intersection of all closed sets containing $A$.
-* The <b>intersection</b> of $A$ in $X$, denoted by $A^\circ$ or $\tint A$, is the union of all open sets contained in $A$.
+Let $A\subseteq X$ be a subset of a topological space $X$. The <b>closure</b> of $A$ in $X$, denoted $\bar{A}$ or $\tcl A$, is the intersection of all closed sets containing $A$, and the <b>interior</b> of $A$ in $X$, denoted $A^\circ$ or $\tint A$, is the union of all open sets contained in $A$.
+* $A$ is <b>dense</b> in $X$ if $\bar{A}=X$, and <b>nowhere dense</b> in $X$ if $(\bar{A})^\circ=\em$.
 
 ```
 
