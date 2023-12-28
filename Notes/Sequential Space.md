@@ -11,12 +11,12 @@ Tags: #Type/Definition #Topic/Topology/Later
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Characterizations of topology via nets#^sequential-characterizations-of-topology]]
+Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Sequential implies k-space]]
 Sufficiencies: [[First and Second Countable Spaces#^first-countable-implies-frechet-urysohn]]
-Equivalences: <i>Not Applicable</i>
+Equivalences: [[Characterizations of topology via nets#^sequential-characterizations-of-topology]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
