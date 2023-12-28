@@ -7,9 +7,9 @@ mathLink: auto
 Date Created: 27/12/2023 16:35:40
 Tags: #Type/Definition #Topic/Topology
 
-Types: [[Sequential and Frechet Spaces#^sequential-closure-and-interior]]
+Types: [[Sequential Space#^sequential-closure-and-interior]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Boundary]], [[Accumulation Point]], [[Sequential and Frechet Spaces]], [[Separable Space]]
+Constructions: [[Boundary]], [[Accumulation Point]], [[Sequential Space]], [[Separable Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

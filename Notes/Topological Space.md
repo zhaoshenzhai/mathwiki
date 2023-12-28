@@ -13,7 +13,7 @@ mathLink-blocks:
 Date Created: 23/01/2022 19:05:00
 Tags: #Type/Definition #Topic/Topology
 
-Types: [[k-Space]], [[Sequential and Frechet Spaces]], [[First and Second Countable Spaces]], [[Separable Space]], [[Hausdorff Space]], [[Metric Space]], [[Compact Space]], [[Connected Space]]
+Types: [[Compact Space]], [[Connected Space]], [[Metric Space]], [[Separation Axioms]], [[k-Space]], [[Sequential Space]], [[First and Second Countable Spaces]], [[Separable Space]]
 Examples: [[Order Space]], [[Path]]
 Constructions: [[Closure and Interior]], [[Boundary]], [[Sequential Limits]], [[Homotopy]], [[Covering Space]], [[Mapping Cylinder]]
 Generalizations: <i>Not Applicable</i>

@@ -9,13 +9,13 @@ Tags: #Type/Definition #In_Progress
 
 Types: <i>Not Applicable</i>
 Examples: [[Geometric Sequence]], [[Ratio Test (Sequence)]], [[Euler's Number]]
-Constructions: [[Sequential and Frechet Spaces]], [[Compact Space#^sequential-compactness]], [[Infinite Series]]
+Constructions: [[Sequential Space]], [[Compact Space#^sequential-compactness]], [[Infinite Series]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Subsequential limits are closed]]
 Sufficiencies: [[Real Numbers#^bolzano-weierstrass]]
 Equivalences: [[Convergence Criteria in R]]
-Justifications: [[Hausdorff Space#^hausdorff-implies-unique-limit]]
+Justifications: [[Separation Axioms#^hausdorff-implies-unique-limit]]
 
 ``` ad-Definition
 title: Definition.

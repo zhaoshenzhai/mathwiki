@@ -1,7 +1,7 @@
 ---
 mathLink: $1^\textrm{st}/2^\textrm{nd}$-Countable Space
 mathLink-blocks:
-    first-countable-implies-frechet: $1^\textrm{st}$-countable $\Rightarrow$ Fréchet
+    first-countable-implies-frechet-urysohn: $1^\textrm{st}$-countable $\Rightarrow$ Fréchet-Urysohn
     second-countable-implies-separable: $2^\textrm{nd}$-countable $\Rightarrow$ separable
 ---
 
@@ -15,7 +15,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[First and Second Countable Spaces#^first-countable-implies-frechet]], [[First and Second Countable Spaces#^second-countable-implies-separable]]
+Properties: [[First and Second Countable Spaces#^first-countable-implies-frechet-urysohn]], [[First and Second Countable Spaces#^second-countable-implies-separable]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
@@ -27,6 +27,6 @@ A topological space $X$ is <b>first-countable</b> if every $x\in X$ admits a cou
 
 ```
 
-<b>Remark.</b> The countable family $\l\{U_n\r\}$ witnessing first-countability of $X$ can always be assumed to be decreasing, since we may replace each $U_n$ by $U_n'\coloneqq\bigcap_{i\leq n}U_i$. It is clear that every second-countable space is first-countable. Furthermore, every first-countable space is Fréchet, and every second-countable space is separable.
-* For any $A\subseteq X$ and $x\in\bar{A}$, let $\l\{U_n\r\}$ be a family witnessing first-countability of $x\in X$ and choose $x_n\coloneqq A\cap\bigcap_{i\leq n}U_i$; observe that $x_n\to x$, so $X$ is Fréchet. ^first-countable-implies-frechet
+<b>Remark.</b> The countable family $\l\{U_n\r\}$ witnessing first-countability of $X$ can always be assumed to be decreasing, since we may replace each $U_n$ by $U_n'\coloneqq\bigcap_{i\leq n}U_i$. It is clear that every second-countable space is first-countable. Furthermore, every first-countable space is Fréchet-Urysohn, and every second-countable space is separable.
+* For any $A\subseteq X$ and $x\in\bar{A}$, let $\l\{U_n\r\}$ witness first-countability of $x\in X$ and choose $x_n\coloneqq A\cap\bigcap_{i\leq n}U_i$; observe that $x_n\to x$, so $X$ is Fréchet-Urysohn. ^first-countable-implies-frechet-urysohn
 * Let $\mc{U}$ be a countable basis for $X$ and, for each $U\in\mc{U}$, choose $x_U\in U$ and observe that $\l\{x_U\st U\in\mc{U}\r\}$ is dense in $X$. Thus $X$ is separable.<span style="float:right;">$\blacklozenge$</span> ^second-countable-implies-separable

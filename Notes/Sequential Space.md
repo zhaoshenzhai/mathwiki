@@ -15,7 +15,7 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Sequential implies k-space]]
-Sufficiencies: [[First and Second Countable Spaces#^first-countable-implies-frechet]]
+Sufficiencies: [[First and Second Countable Spaces#^first-countable-implies-frechet-urysohn]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -25,7 +25,7 @@ title: Definition.
 Let $\tpl{X,\tau}$ be a topological space. A subset $A\subseteq X$ is <b>sequentially closed</b> if whenever $x_\blob\subseteq A$ is a sequence and $x_\blob\to x$, then $x\in A$.
 * The collection $\tau_s\coloneqq\l\{U\subseteq X\st U^c\textrm{\it{  is sequentially closed in }}X\r\}$ is a topology on $X$, finer than $\tau$, and $X$ is said to be <b>sequential</b> if $\tau=\tau_s$.
 
-Moreover, $X$ is said to be <b>Fréchet</b> if for every subset $A\subseteq X$ and $x\in\bar{A}$, there is a sequence $x_\blob\subseteq A$ such that $x_\blob\to x$.
+Moreover, $X$ is said to be <b>Fréchet-Urysohn</b> if for every subset $A\subseteq X$ and $x\in\bar{A}$, there is a sequence $x_\blob\subseteq A$ such that $x_\blob\to x$.
 
 ```
 
@@ -37,4 +37,4 @@ Clearly $A$ is sequentially closed (resp. sequentially open) iff $A=\scl A$ (res
 
 ---
 
-<b>Remark.</b> Every Fréchet space is sequential. Indeed, let $A$ be sequentially closed in $X$. If $A$ is not closed in $X$, then there is some $x\in\bar{A}\comp A$. Since $X$ is Fréchet, we have a sequence $\tpl{x_n}\subseteq A$ such that $x_n\to x$. But $A$ is sequentially closed, so $x\in A$, a contradiction.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Every Fréchet-Urysohn space is sequential. Indeed, let $A$ be sequentially closed in $X$. If $A$ is not closed in $X$, then there is some $x\in\bar{A}\comp A$. But there is a sequence $\tpl{x_n}\subseteq A$ such that $x_n\to x$, and so $x\in A$, a contradiction.<span style="float:right;">$\blacklozenge$</span>
