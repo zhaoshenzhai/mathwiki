@@ -5,9 +5,9 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 27/12/2023 16:35:40
-Tags: #Type/Definition #Topic/Topology/Later
+Tags: #Type/Definition #Topic/Topology
 
-Types: <i>Not Applicable</i>
+Types: [[Sequential and Frechet Spaces#^sequential-closure-and-interior]]
 Examples: <i>Not Applicable</i>
 Constructions: [[Boundary]], [[Accumulation Point]], [[Sequential and Frechet Spaces]]
 Generalizations: <i>Not Applicable</i>
