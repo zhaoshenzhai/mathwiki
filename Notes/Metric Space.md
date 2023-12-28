@@ -1,7 +1,6 @@
 ---
 mathLink-blocks:
     category-of-metric-spaces: $\catmet$
-    closed-G-delta-open-F-sigma: Open/closed are $F_\sigma$/$G_\delta$ (metric space)
     metric-spaces-are-first-countable: Metric spaces are $1^\textrm{st}$-countable
 ---
 
@@ -12,10 +11,10 @@ Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Complete Metric Space]], [[Geodesic Space]]
 Examples: [[Isometries of model spaces]]
-Constructions: <i>Not Applicable</i>
+Constructions: [[Distance between subspaces]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Compactness in metric spaces]], [[Heine-Cantor Theorem]]
+Properties: [[Compactness in metric spaces]], [[Heine-Cantor Theorem]], [[Distance between subspaces#^epsilon-neighborhood-theorem]]
 Sufficiencies: [[Continuous Extension Theorem]]
 Equivalences: [[Normed Vector Space#^continuous-iff-lipschitz]]
 Justifications: <i>Not Applicable</i>
@@ -40,7 +39,3 @@ A topological space $\tpl{X,\tau}$ is <i>metrizable</i> if there is a metric $d$
 <b>Remark.</b> The isomorphisms in $\catmet$ are precisely the distance-preserving bijections, and the automorphisms on a metric space $X$ form the <i>isometry group</i> $\Isom\l(X\r)$.
 ^category-of-metric-spaces
 * If $f$ is a distance-preserving map but is not necessarily surjective, then it is said to be an <i>isometric embedding</i>; such maps are automatically injective.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-<b>Remark.</b> Every closed set $G_\delta$ (a countable intersection of open sets) and every open set is $F_\sigma$ (a countable union of closed sets). Indeed, both follow from the fact that for any $Y\subseteq X$, its closure $\bar{Y}$ is $\bigcap_{n\geq1}B_{1/n}\!\l(Y\r)$ where $B_r\!\l(Y\r)\coloneqq\l\{x\in X\st d\l(x,Y\r)<r\r\}$.<span style="float:right;">$\blacklozenge$</span> ^closed-G-delta-open-F-sigma

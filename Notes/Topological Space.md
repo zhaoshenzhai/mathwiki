@@ -21,7 +21,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Top is complete]], [[Measurable Function#^continuous-implies-Borel]]
 Sufficiencies: [[Basis and Subbasis]], [[An epsilon-trade for an easy life#^Luzin]]
 Equivalences: [[Characterizations of topology via nets]]
-Justifications: [[Compact Space#^extreme-value-theorem]], [[Compact Space#^compact-hausdorff-implies-closed]]
+Justifications: [[Compact Space#^extreme-value-theorem]], [[Separation Axioms#^compact-hausdorff-implies-closed]]
 ^category-of-topological-spaces
 
 ``` ad-Definition

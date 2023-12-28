@@ -19,7 +19,7 @@ Generalizations: [[Cantor's Intersection Theorem]], [[Little lp Space]]
 Properties: [[Calculus on the Real Line]], [[Convergence of Sequences in R]], [[Perfect set in Rn implies uncountable]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Compact Space#^compact-hausdorff-implies-closed]], [[Compact Space#^compact-implies-bounded]], [[Compactness in metric spaces]], [[Compact Space#^extreme-value-theorem]], [[Connected Space#^intermediate-value-theorem]]
+Justifications: [[Separation Axioms#^compact-hausdorff-implies-closed]], [[Compactness in metric spaces]], [[Compact Space#^extreme-value-theorem]], [[Connected Space#^intermediate-value-theorem]]
 
 ``` ad-Example
 title: Example.

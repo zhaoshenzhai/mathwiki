@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    compact-hausdorff-implies-closed: Compact $\Rightarrow$ closed (Hausdorff)
+---
+
 <div class="topSpace"></div>
 
 Date Created: 10/09/2023 15:09:23
@@ -8,7 +13,7 @@ Examples: [[Metric Space]]
 Constructions: [[k-Space]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Compact Space#^compact-hausdorff-implies-closed]]
+Properties: [[Separation Axioms#^compact-hausdorff-implies-closed]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Characterizations of topology via nets#^hausdorff-iff-every-net-converges-to-at-most-one-point]]
 Justifications: <i>Not Applicable</i>
@@ -27,3 +32,8 @@ Let $X$ be a topological space. The following ‘separation axioms’ impose the
 
 <b>Remark.</b> Note that $X$ is $T_1$ iff every singleton $\l\{x\r\}$ is closed. In particular, this shows that $T_j\Rightarrow T_i$ whenever $i<j$ (the claims for when $j=1,2$ are trivial).
 * Indeed, if $X$ is $T_1$ and $x\in X$, choose an open set $U_y\ni y$ for every $y\neq x$. Then $\l\{x\r\}^c=\bigcup_{y\neq x}U_y$ is open, hence $\l\{x\r\}$ is closed. Conversely, if $x\neq y$, then both $\l\{x\r\}^c$ is an open neighborhood of $y$ not containing $x$ and similarly for $\l\{y\r\}^c$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> One important property of Hausdorff spaces is that compact subsets thereof are closed. ^compact-hausdorff-implies-closed
+* Indeed, suppose that $X$ is Hausdorff and let $K\subset X$ be compact. Let $p\in X\comp K$. For all $q\in K$, let $U_q$ and $V_q$ be <i>disjoint</i> neighborhoods of $p$ and $q$, respectively. Then $\l\{V_q\cap K\r\}_{q\in K}$ is an open cover of $K$, so it admits a finite subcover $\l\{V_{q_i}\cap K\r\}_{i=1}^n$. But the intersection $\bigcap_{i=1}^nU_{q_i}$ is disjoint from each $V_{q_i}$, and is hence disjoint from $K$. Thus $\bigcap_{i=1}^nU_{q_i}\subseteq X\comp K$ is a neighborhood of $p$, so $X\comp K$ is open.<span style="float:right;">$\blacklozenge$</span>
