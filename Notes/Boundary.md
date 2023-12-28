@@ -20,4 +20,4 @@ Let $A\subseteq X$ be a subset of a topological space $X$. The <b>boundary</b> o
 
 ```
 
-<b>Remark.</b> Note that for an element $x\in X$, we have $x\in\del A$ iff every open neighborhood of $x$ intersects both $A$ and $A^c$. Also, we have $\bar{A}=A\cup\del A=A\cup A'$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Note that for an element $x\in X$, we have $x\in\del A$ iff every open neighborhood of $x$ intersects both $A$ and $A^c$. Also, we have $\bar{A}=A\cup\del A$.<span style="float:right;">$\blacklozenge$</span>

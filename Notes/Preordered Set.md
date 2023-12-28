@@ -3,7 +3,7 @@
 Date Created: 21/02/2022 18:38:44
 Tags: #Type/Definition #Topic/Set_Theory
 
-Types: [[Poset]]
+Types: [[Poset]], [[Directed Set]]
 Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>

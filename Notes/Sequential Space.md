@@ -11,7 +11,7 @@ Tags: #Type/Definition #Topic/Topology/Later
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: <i>Not Applicable</i>
+Constructions: [[Characterizations of topology via nets#^sequential-characterizations-of-topology]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Sequential implies k-space]]

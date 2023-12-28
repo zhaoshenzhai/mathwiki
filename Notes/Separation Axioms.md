@@ -1,7 +1,5 @@
 ---
 mathLink: auto
-mathLink-blocks:
-    hausdorff-implies-unique-limit: Hausdorff $\Rightarrow$ limits are unique
 ---
 
 <div class="topSpace"></div>
@@ -14,7 +12,7 @@ Examples: [[Metric Space]]
 Constructions: [[k-Space]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Basic properties of Hausdorff spaces]], [[Compact Space#^compact-hausdorff-implies-closed]]
+Properties: [[Compact Space#^compact-hausdorff-implies-closed]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
@@ -33,7 +31,3 @@ Let $X$ be a topological space. The following ‘separation axioms’ impose the
 
 <b>Remark.</b> Note that $X$ is $T_1$ iff every singleton $\l\{x\r\}$ is closed. In particular, this shows that $T_j\Rightarrow T_i$ whenever $i<j$ (the claims for when $j=1,2$ are trivial).
 * Indeed, if $X$ is $T_1$ and $x\in X$, choose an open set $U_y\ni y$ for every $y\neq x$. Then $\l\{x\r\}^c=\bigcup_{y\neq x}U_y$ is open, hence $\l\{x\r\}$ is closed. Conversely, if $x\neq y$, then both $\l\{x\r\}^c$ is an open neighborhood of $y$ not containing $x$ and similarly for $\l\{y\r\}^c$.<span style="float:right;">$\blacklozenge$</span>
-
----
-
-<b>Remark.</b> Every sequence $\tpl{x_n}$ in a Hausdorff space $X$ converges to at most one point. Indeed, suppose that $x_n\to x$. For any other $x\neq x'\in X$, let $U\ni x$ and $U'\ni x$ be disjoint neighborhoods thereof. Then $\fa^\infty n\in\N:x_n\in U$, so in particular we have $\fa^\infty n\in\N:x_n\not\in U'$. Thus $x_n\not\to x'$, as desired.<span style="float:right;">$\blacklozenge$</span> ^hausdorff-implies-unique-limit

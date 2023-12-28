@@ -15,12 +15,12 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: [[Compact Space]], [[Connected Space]], [[Metric Space]], [[Separation Axioms]], [[k-Space]], [[Sequential Space]], [[First and Second Countable Spaces]], [[Separable Space]]
 Examples: [[Order Space]], [[Path]]
-Constructions: [[Closure and Interior]], [[Boundary]], [[Sequential Limits]], [[Homotopy]], [[Covering Space]], [[Mapping Cylinder]]
+Constructions: [[Closure and Interior]], [[Boundary]], [[Nets]], [[Sequential Limits]], [[Homotopy]], [[Covering Space]], [[Mapping Cylinder]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Top is complete]], [[Measurable Function#^continuous-implies-Borel]]
 Sufficiencies: [[Basis and Subbasis]], [[An epsilon-trade for an easy life#^Luzin]]
-Equivalences: <i>Not Applicable</i>
+Equivalences: [[Characterizations of topology via nets]]
 Justifications: [[Compact Space#^extreme-value-theorem]], [[Compact Space#^compact-hausdorff-implies-closed]]
 ^category-of-topological-spaces
 
