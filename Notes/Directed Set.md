@@ -5,7 +5,7 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Totally Ordered Set]]
-Constructions: [[Nets]]
+Constructions: [[Convergence of Nets]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

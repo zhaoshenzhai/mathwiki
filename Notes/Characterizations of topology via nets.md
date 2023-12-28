@@ -1,6 +1,7 @@
 ---
 mathLink-blocks:
     sequential-characterizations-of-topology: Sequential characterizations of topology
+    hausdorff-iff-every-net-converges-to-at-most-one-point: Hausdorff $\Leftrightarrow$ uniqueness of limits
 ---
 
 <div class="topSpace"></div>
@@ -18,11 +19,11 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition.
 
-Let $X,Y$ be topological spaces. The following are characterizations of topological notions using nets. If $X,Y$ are sequential, we may replace ‘net’ by ‘sequence’.
+Let $X,Y$ be topological spaces. The following are characterizations of topological notions using nets. <span style="color:pink">If $X,Y$ are sequential, we may replace ‘net’ by ‘sequence’.</span>
 * (Closure). For a subset $A\subseteq X$ and $x\in X$, we have $x\in\bar{A}$ iff there is a net $x_\blob\subseteq A$ such that $x_\blob\to x$.
 * (Continuity). A map $f:X\to Y$ is continuous iff for every convergent net $x_\blob$, say $x_\blob\to x$, we have $f\l(x_\blob\r)\to f\l(x\r)$.
 * (Hausdorff). $X$ is Hausdorff iff every net $x_\blob$ in $X$ converges to at-most one point.
-* (Cluster). For a net $x_\blob$ in $X$, a point $x\in X$ is a cluster point of $x_\blob$ iff $x_\blob$ has a subnet converging to $x$.
+* <span style="color:pink">(Cluster). For a net $x_\blob$ in $X$, a point $x\in X$ is a cluster point of $x_\blob$ iff $x_\blob$ has a subnet converging to $x$.</span>
 
 ```
 ^sequential-characterizations-of-topology
@@ -31,7 +32,7 @@ Let $X,Y$ be topological spaces. The following are characterizations of topologi
 
 ---
 
-<i>Proof (closure).</i> If $x\in\bar{A}$, consider the system $\mc{U}$ of neighborhoods of $x$ directed by reverse inclusion. Pick $x_U\in U\cap A$ for each $U\in\mc{U}$ and observe that $x_U\to x$ since for each $U\in\mc{U}$, we have $x_V\in U\cap A$ for any $V\geq U$ (i.e. $V\subseteq U$). The converse is clear.<span style="float:right;">$\blacksquare$</span>
+<i>Proof (closure).</i> If $x\in\bar{A}$, consider the system $\mc{U}$ of neighborhoods of $x$ directed by reverse inclusion. Pick $x_U\in U\cap A$ for each $U\in\mc{U}$ and observe that $x_\blob\to x$ since for each $U\in\mc{U}$, we have $x_V\in V\cap A\subseteq U\cap A\subseteq U$ for every $V\geq U$ (i.e. $V\subseteq U$). The converse is clear.<span style="float:right;">$\blacksquare$</span>
 
 ---
 
@@ -39,7 +40,7 @@ Let $X,Y$ be topological spaces. The following are characterizations of topologi
 
 ---
 
-<i>Proof (Hausdorff).</i> 
+<i>Proof (Hausdorff).</i> If $X$ is Hausdorff and $x_\blob$ converges to distinct $x,x'\in X$, then there are disjoint neighborhoods $U\ni x$ and $U'\ni x'$ such that $x_\blob$ is eventually in both $U$ and $U'$, a contradiction. Conversely, if $X$ is not Hausdorff, let $x,x'\in X$ be distinct points with no disjoint neighborhoods and consider the system $\mc{U}\times\mc{U}'$ of neighborhoods of $\tpl{x,x'}$ directed by $\tpl{U,U'}\leq\tpl{V,V'}$ iff $V\subseteq U$ and $V'\subseteq U'$. For each $\tpl{U,U'}\in\mc{U}\times\mc{U}'$, there is some $x_{\tpl{U,U'}}\in U\cap U'$ by hypothesis, and $x_\blob\to x,x'$ since if $U\in\mc{U}$ and $U'\in\mc{U}'$, then $x_{\tpl{V,V'}}\in V\cap V'\subseteq U\cap U'$ for every $V\geq U$ and $V'\geq U'$.<span style="float:right;">$\blacksquare$</span> ^hausdorff-iff-every-net-converges-to-at-most-one-point
 
 ---
 

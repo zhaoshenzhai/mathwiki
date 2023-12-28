@@ -1,11 +1,7 @@
----
-mathLink: auto
----
-
 <div class="topSpace"></div>
 
 Date Created: 10/09/2023 15:09:23
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
 Examples: [[Metric Space]]
@@ -14,7 +10,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Compact Space#^compact-hausdorff-implies-closed]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: <i>Not Applicable</i>
+Equivalences: [[Characterizations of topology via nets#^hausdorff-iff-every-net-converges-to-at-most-one-point]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 29/10/2022 18:32:31
-Tags: #Type/Theorem #Topic/Real_Analysis
+Tags: #Type/Theorem #Topic/Real_Analysis/Later
 
 Proved by: [[Real Numbers#^bolzano-weierstrass]]
 References: <i>Not Applicable</i>
@@ -17,7 +17,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Convergence Criteria in $\R$).
 
-Let $\tpl{x_n}$ be a sequence in $\R$. Then $\tpl{x_n}$ converges iff it is bounded and admits only on subsequential limit.
+Let $\tpl{x_n}$ be a sequence in $\R$. Then $\tpl{x_n}$ converges iff it is bounded and admits only one subsequential limit.
 
 ```
 
