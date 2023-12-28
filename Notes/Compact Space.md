@@ -19,7 +19,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Cantor's Intersection Theorem]], [[Compact implies complete]], [[Epsilon-neighborhood Theorem]], [[Heine-Cantor Theorem]], [[Sequentially compact implies countably compact]], [[Sequentially compact implies separable]], [[Sequentially compact implies bounded]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Finite Intersection Theorem]], [[Compactness in metric spaces]]
+Equivalences: [[Characterizations of compactness]], [[Finite Intersection Theorem]], [[Compactness in metric spaces]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
