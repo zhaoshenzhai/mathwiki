@@ -2,6 +2,7 @@
 mathLink-blocks:
     category-of-metric-spaces: $\catmet$
     metric-spaces-are-first-countable: Metric spaces are $1^\textrm{st}$-countable
+    metric-spaces-are-normal: Metric spaces are normal
 ---
 
 <div class="topSpace"></div>
@@ -29,8 +30,8 @@ Let $X$ be a set. A <b>metric</b> on $X$ is a positive-definite symmetric functi
 ```
 
 <b>Remark.</b> A metric on $X$ induces a <i>metric topology</i> on $X$ by the basis consisting of all <i>open balls</i> $B\l(x,\epsilon\r)\coloneqq\l\{y\in X\st d\l(x,y\r)<\epsilon\r\}$ for $x\in X$ and $\epsilon>0$.
-* The collection of open balls clearly cover $X$. Take $p\in B\l(x_1,\epsilon_1\r)\cap B\l(x_2,\epsilon_2\r)$, so $d\l(p,x_i\r)<\epsilon_i$ for $i=1,2$. Set $\epsilon\coloneqq\min_i\l\{\epsilon_i-d\l(p,x_i\r)\r\}$; we claim that $B\l(p,\epsilon\r)$ lies in the intersection of $B\l(x_1,\epsilon_1\r)$ and $B\l(x_2,\epsilon_2\r)$. Indeed, for all $q\in B\l(p,\epsilon\r)$, we have $d\l(q,x_i\r)\leq d\l(p,q\r)+d\l(p,x_i\r)<\epsilon_i$ for $i=1,2$, as desired.
-* This topology is normal since for each pair of disjoint closed subsets $A,B\subseteq X$, there is a separation consisting of all $x\in X$ such that $d\l(x,A\r)<d\l(x,B\r)$ around $A$ and all $x\in X$ such that $d\l(x,B\r)<d\l(x,A\r)$ around $B$. It is clearly first-countable since $\l\{B\l(x,1/n\r)\r\}$ is a neighborhood basis around each $x\in X$. ^metric-spaces-are-first-countable
+* The collection of open balls clearly cover $X$. Take $p\in B\l(x_1,\epsilon_1\r)\cap B\l(x_2,\epsilon_2\r)$, so $d\l(p,x_i\r)<\epsilon_i$ for $i=1,2$. Set $\epsilon\coloneqq\min_i\l\{\epsilon_i-d\l(p,x_i\r)\r\}$; we claim that $B\l(p,\epsilon\r)$ lies in the intersection of $B\l(x_1,\epsilon_1\r)$ and $B\l(x_2,\epsilon_2\r)$. Indeed, for all $q\in B\l(p,\epsilon\r)$, we have $d\l(q,x_i\r)\leq d\l(p,q\r)+d\l(p,x_i\r)<\epsilon_i$ for $i=1,2$, as desired. ^metric-spaces-are-first-countable
+* This topology is normal since for each pair of disjoint closed subsets $A,B\subseteq X$, there is a separation consisting of all $x\in X$ such that $d\l(x,A\r)<d\l(x,B\r)$ around $A$ and all $x\in X$ such that $d\l(x,B\r)<d\l(x,A\r)$ around $B$. It is clearly first-countable since $\l\{B\l(x,1/n\r)\r\}$ is a neighborhood basis around each $x\in X$. ^metric-spaces-are-normal
 
 A topological space $\tpl{X,\tau}$ is <i>metrizable</i> if there is a metric $d$ on $X$ that generates $\tau$. This also makes $\catmet$ a subcategory of $\cattop$. There is also an intermediate category of uniform spaces, and for metric spaces the uniformly-continuous maps are maps where $\fa\epsilon>0,\ex\delta>0,\fa x,x'\in X\st d\l(x,x'\r)<\delta\Rightarrow d\l(f(x),f(x')\r)<\epsilon$. Note that $k$-Lipschitz maps are uniformly continuous, which are in turn continuous. <span style="color:pink">Rewrite this when uniform spaces are developed.</span><span style="float:right;">$\blacklozenge$</span>
 

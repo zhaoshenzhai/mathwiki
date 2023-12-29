@@ -1,6 +1,6 @@
 ---
 mathLink-blocks:
-    characterization-of-completeness: Characterization of Completeness
+    characterization-of-completeness: Characterization of Completeness (NVS)
 ---
 
 <div class="topSpace"></div>

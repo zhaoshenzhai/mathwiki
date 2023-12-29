@@ -23,7 +23,7 @@ Equivalences: <i>Not Applicable</i>
 Justifications: [[Free Group#^universal-property-of-free-groups]], [[Division Algorithm]], [[EUD implies PID]], [[Isomorphism Theorems]], [[Bezout's Identity]]
 
 ``` ad-Example
-title: Example.
+title: Example (Integers).
 
 We construct the <b>integers</b> $\Z$ as the quotient of $\N^2$ under the equivalence relation $\tpl{m_1,n_1}\sim\tpl{m_2,n_2}$ iff $m_1+n_2=m_2+n_1$, which identifies all points on diagonals. This construction induces binary operations $+$ and $\cdot$ on $\Z$ making $\tpl{\Z,+,\cdot}$ into a ring.
 * The integers $\Z$ is initial in $\catring$ and is a Euclidean domain with the absolute value $\l|\slot\r|$ valuation.

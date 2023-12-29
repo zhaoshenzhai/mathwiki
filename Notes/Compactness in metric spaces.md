@@ -4,7 +4,7 @@ Date Created: 29/12/2022 21:53:42
 Tags: #Type/Theorem #In_Progress
 
 Proved by: [[Sequentially compact implies separable]], [[Sequentially compact implies countably compact]]
-References: [[Compact Space#^compact-implies-limit-point-compact]]
+References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>

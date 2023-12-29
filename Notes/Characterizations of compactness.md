@@ -13,9 +13,10 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Characterizations of Compactness).
 
-Let $X$ be a topological space. Then $X$ is compact iff every collection $\l\{F_\alpha\r\}$ of closed sets satisfying the FIP has non-empty intersection. Furthermore, we have:
+Let $X$ be a topological space. Then $X$ is compact iff every collection of closed sets satisfying the FIP has non-empty intersection. Furthermore, we have:
 * (Nets). $X$ is compact iff every net in $X$ has a cluster point, which occurs iff every net in $X$ has a convergent subnet.
-* (Metric). If $X$ is a metric space, then $X$ is compact iff it is complete and totally-bounded iff every sequence in $x$ has a convergent subsequence.
+* (Metric). If $X$ is a metric space, then $X$ is compact iff it is complete and totally-bounded.
+* (Metrizable). If $X$ is metrizable, then $X$ is compact iff it is countably compact, which occurs iff every sequence in $X$ has a convergent subsequence.
 
 
 ```
@@ -32,3 +33,7 @@ In light of this, it suffices to show that $X$ is compact iff every net $x_\blob
 ---
 
 <i>Proof (metric).</i> 
+
+---
+
+<i>Proof (metrizable).</i> 

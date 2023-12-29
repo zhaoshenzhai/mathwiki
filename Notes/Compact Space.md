@@ -13,7 +13,7 @@ Examples: [[Cantor Space]]
 Constructions: [[k-Space]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Cantor's Intersection Theorem]], [[Compact implies complete]], [[Sequentially compact implies countably compact]], [[Sequentially compact implies separable]]
+Properties: [[Compact implies complete]], [[Sequentially compact implies countably compact]], [[Sequentially compact implies separable]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Characterizations of compactness]], [[Limitations of Size]]
 Justifications: <i>Not Applicable</i>

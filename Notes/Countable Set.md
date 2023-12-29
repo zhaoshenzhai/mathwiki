@@ -9,7 +9,7 @@ Constructions: [[Separable Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Countable union of countable sets is countable]], [[Finite product of countable sets is countable]]
-Sufficiencies: [[Perfect set in Rn implies uncountable]]
+Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Countable iff injects into naturals]]
 Justifications: <i>Not Applicable</i>
 
