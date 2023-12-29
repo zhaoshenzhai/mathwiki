@@ -13,8 +13,8 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Separable implies Lindelof]]
-Sufficiencies: [[First and Second Countable Spaces#^second-countable-implies-separable]], [[Sequentially compact implies separable]]
+Properties: <i>Not Applicable</i>
+Sufficiencies: [[Sequentially compact implies separable]]
 Equivalences: [[Limitations of Size]]
 Justifications: <i>Not Applicable</i>
 

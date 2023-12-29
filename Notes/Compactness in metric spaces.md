@@ -3,7 +3,7 @@
 Date Created: 29/12/2022 21:53:42
 Tags: #Type/Theorem #In_Progress
 
-Proved by: [[Sequentially compact implies separable]], [[Separable implies Lindelof]], [[Sequentially compact implies countably compact]]
+Proved by: [[Sequentially compact implies separable]], [[Sequentially compact implies countably compact]]
 References: [[Compact Space#^compact-implies-limit-point-compact]]
 Justifications: <i>Not Applicable</i>
 

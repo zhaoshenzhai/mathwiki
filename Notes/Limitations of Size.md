@@ -7,7 +7,7 @@ mathLink: Metrizable $\Rightarrow$ Limitation of Size
 Date Created: 28/12/2023 16:17:40
 Tags: #Type/Theorem #Topic/Real_Analysis
 
-Proved by: [[Distance between subspaces#^closed-G-delta-open-F-sigma]], [[Real Numbers#^rationals-dense-in-reals]]
+Proved by: [[Distance between subspaces#^closed-G-delta-open-F-sigma]], [[Zorn's Lemma]], [[Real Numbers#^rationals-dense-in-reals]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
