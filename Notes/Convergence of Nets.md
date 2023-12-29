@@ -1,11 +1,11 @@
 <div class="topSpace"></div>
 
 Date Created: 27/12/2023 21:48:40
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Topology/Later
 
 Types: <i>Not Applicable</i>
 Examples: [[Convergence of Sequences in R]]
-Constructions: [[Sequential Space]], [[Compact Space#^sequential-compactness]]
+Constructions: [[Sequential Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Characterizations of topology via nets]]

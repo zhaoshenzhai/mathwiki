@@ -13,9 +13,9 @@ Examples: [[Cantor Space]]
 Constructions: [[k-Space]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Cantor's Intersection Theorem]], [[Compact implies complete]], [[Heine-Cantor Theorem]], [[Sequentially compact implies countably compact]], [[Sequentially compact implies separable]], [[Sequentially compact implies bounded]]
+Properties: [[Cantor's Intersection Theorem]], [[Compact implies complete]], [[Sequentially compact implies countably compact]], [[Sequentially compact implies separable]]
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Characterizations of compactness]], [[Compactness in metric spaces]]
+Equivalences: [[Characterizations of compactness]], [[Limitations of Size]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
@@ -26,7 +26,7 @@ A topological space $X$ is said to be <b>compact</b> if every open cover has a f
 ```
 ^sequential-compactness
 
-<b>Remark.</b> For a cardinal $\kappa$, we say that $X$ is <i>$\kappa$-compact</i> if every open cover of $X$ admits a subcover of cardinality $<\kappa$. Thus compact $\Leftrightarrow$ $\aleph_0$-compact. We say that $X$ is <i>Lindelöf</i> if $X$ is $\aleph_1$-compact. This is not to be confused with <i>countably compact</i> spaces, where every countable open cover admits a finite subcover.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> For a cardinal $\kappa$, we say that $X$ is <i>$\kappa$-Lindelöf</i> if every open cover of $X$ admits a subcover of cardinality $\leq\kappa$; for $\kappa\coloneqq\aleph_0$, we say that $X$ is <i>Lindelöf</i>. This is not to be confused with <i>countably compact</i> spaces, where every countable open cover admits a finite subcover.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -10,11 +10,11 @@ Date Created: 27/09/2022 18:49:17
 Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Complete Metric Space]], [[Geodesic Space]]
-Examples: [[Isometries of model spaces]]
+Examples: <i>Not Applicable</i>
 Constructions: [[Distance between subspaces]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Compactness in metric spaces]], [[Heine-Cantor Theorem]], [[Distance between subspaces#^epsilon-neighborhood-theorem]]
+Properties: [[Compactness in metric spaces]], [[Limitations of Size]], [[Heine-Cantor Theorem]], [[Distance between subspaces#^epsilon-neighborhood-theorem]]
 Sufficiencies: [[Continuous Extension Theorem]]
 Equivalences: [[Normed Vector Space#^continuous-iff-lipschitz]]
 Justifications: <i>Not Applicable</i>

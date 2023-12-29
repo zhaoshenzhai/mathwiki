@@ -15,7 +15,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Separable implies Lindelof]]
 Sufficiencies: [[First and Second Countable Spaces#^second-countable-implies-separable]], [[Sequentially compact implies separable]]
-Equivalences: <i>Not Applicable</i>
+Equivalences: [[Limitations of Size]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
