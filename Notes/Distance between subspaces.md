@@ -1,6 +1,6 @@
 ---
 mathLink-blocks:
-    closed-G-delta-open-F-sigma: Closed sets are $G_\delta$ (metric space)
+    closed-G-delta-open-F-sigma: Closed sets are $G_\delta$ (metrizable)
     epsilon-neighborhood-theorem: $\epsilon$-Neighborhood Theorem
 ---
 
