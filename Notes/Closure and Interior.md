@@ -11,7 +11,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: [[Sequential Space#^sequential-closure-and-interior]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Boundary]], [[Accumulation Point]], [[Sequential Space]], [[Separable Space]]
+Constructions: [[Sequential Space]], [[Separable Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -27,4 +27,5 @@ Let $A\subseteq X$ be a subset of a topological space $X$. The <b>closure</b> of
 
 ```
 
-<b>Remark.</b> Take $x\in X$. Clearly $x\in\bar{A}$ iff every open neighborhood of $x$ intersects $A$, and also $x\in A^\circ$ iff there is an open neighborhood of $x$ disjoint from $A^c$. Note that $A$ is closed iff $A=\bar{A}$, and $A$ is open iff $A=A^\circ$. They are also ‘dual’, in the sense that $\l(A^\circ\r)^c=\bar{A^c}$ and $(\bar{A})^c=\l(A^c\r)^\circ$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Take $x\in X$. Clearly $x\in\bar{A}$ iff every open neighborhood of $x$ intersects $A$, and also $x\in A^\circ$ iff there is an open neighborhood of $x$ disjoint from $A^c$. Note that $A$ is closed iff $A=\bar{A}$, and $A$ is open iff $A=A^\circ$. They are also ‘dual’, in the sense that $\l(A^\circ\r)^c=\bar{A^c}$ and $(\bar{A})^c=\l(A^c\r)^\circ$.
+* A point $x\in X$ is called an <i>accumulation point</i> of $A$ if $x\in\bar{A\comp\l\{x\r\}}$, and a <i>boundary point</i> of $A$ if $x\in\bar{A}\comp  A^\circ$.<span style="float:right;">$\blacklozenge$</span>
