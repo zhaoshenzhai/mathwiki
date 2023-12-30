@@ -6,9 +6,9 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 28/12/2023 12:31:48
-Tags: #Type/Theorem #Topic/Topology/Later
+Tags: #Type/Theorem #Topic/Topology
 
-Proved by: [[Characterizations of topology via nets]], [[Cantor's Theorem]], [[Metric Space#^metric-spaces-are-first-countable]]
+Proved by: [[Characterizations of topology via nets]], [[Cantor's Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -33,7 +33,7 @@ Let $X$ be a topological space. Then $X$ is compact iff every collection of clos
 
 ---
 
-<i>Proof (metric).</i> By Cantor’s theorem and the FIP, every compact space is complete. Also, clearly every compact space is totally-bounded, and <span style="color:pink">compactness implies sequential compactness follows by first-countability of $X$</span>. We now show that completeness and total-boundedness is equivalent to sequential compactness.
+<i>Proof (metric).</i> By Cantor’s theorem and the FIP, every compact space is complete. Also, clearly every compact space is totally-bounded, and compactness implies sequential compactness is easy since if $x_\blob$ is a sequence with no convergent subsequence, then each $x\in X$ admits a ball $B_x$ containing finitely-many $x_n$’s and so $\l\{B_x\r\}$ is a cover with no finite subcover. We now show that completeness and total-boundedness is equivalent to sequential compactness.
 * ($\Rightarrow$). Let $x_\blob$ be a sequence in $X$; we construct a Cauchy subsequence of $x_\blob$ as follows. Cover $X$ by finitely-many balls of radius $1$. At least one such ball, say $B_1$, contains infinitely-many $x_n$’s, say $n\in N_1$ iff $x_n\in B_1$. Continuing inductively, cover $B_j$ by finitely-many balls of radius $1/2^j$, and let $B_{j+1}$ be any ball this cover that contains infinitely-many $x_n$’s, say $n\in N_{j+1}$ iff $x_n\in B_{j+1}$. Picking an increasing sequence $\tpl{n_k}$ with each $n_k\in N_k$ gives us a subsequence $\tpl{x_{n_k}}$ of $x_\blob$, which is Cauchy by construction. By completeness of $X$, we obtain the desired convergent subsequence of $x_\blob$.
 * ($\Leftarrow$). If $X$ is not complete, then there is a Cauchy sequence $x_\blob$ in $X$ with no limit. But then no subsequence thereof can converge, a contradiction. Also, if $X$ is not totally-bounded, then there is some $\epsilon>0$ such that $X$ admits no covering of $\epsilon$-balls. The sequence defined inductively by picking $x_{n+1}\in X\comp\bigcup_{i\leq n}B\l(x_i,\epsilon\r)$ and $x_1\in X$ arbitrarily is such that $d\l(x_n,x_m\r)>\epsilon$ for all $n,m\in\N$, so $x_\blob$ defined this way has no convergent subsequence.
 
