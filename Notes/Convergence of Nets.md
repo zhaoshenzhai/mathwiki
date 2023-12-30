@@ -9,7 +9,7 @@ Constructions: [[Sequential Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Characterizations of topology via nets]]
-Sufficiencies: <i>Not Applicable</i>
+Sufficiencies: [[Characterizations of compactness]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

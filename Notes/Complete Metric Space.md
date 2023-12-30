@@ -14,7 +14,7 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Banach Fixed Point Theorem]]
-Sufficiencies: [[Compact implies complete]]
+Sufficiencies: [[Characterizations of compactness]]
 Equivalences: [[Cantor's Theorem]], [[Banach Space#^characterization-of-completeness]]
 Justifications: <i>Not Applicable</i>
 

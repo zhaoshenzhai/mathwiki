@@ -19,7 +19,7 @@ Generalizations: [[Little lp Space]]
 Properties: [[Calculus on the Real Line]], [[Convergence of Sequences in R]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Cantor's Theorem]], [[Compactness in metric spaces]], [[Separation Axioms#^compact-hausdorff-implies-closed]], [[Compact Space#^extreme-value-theorem]], [[Connected Space#^intermediate-value-theorem]]
+Justifications: [[Cantor's Theorem]], [[Characterizations of compactness#^compactness-in-metric-spaces]], [[Separation Axioms#^compact-hausdorff-implies-closed]], [[Compact Space#^extreme-value-theorem]], [[Connected Space#^intermediate-value-theorem]]
 
 ``` ad-Example
 title: Example (Real numbers).

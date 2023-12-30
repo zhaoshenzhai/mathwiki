@@ -15,7 +15,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Distance between subspaces]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Compactness in metric spaces]], [[Limitations of Size]], [[Heine-Cantor Theorem]], [[Distance between subspaces#^epsilon-neighborhood-theorem]]
+Properties: [[Characterizations of compactness#^compactness-in-metric-spaces]], [[Limitations of Size]], [[Heine-Cantor Theorem]], [[Distance between subspaces#^epsilon-neighborhood-theorem]]
 Sufficiencies: [[Continuous Extension Theorem]]
 Equivalences: [[Normed Vector Space#^continuous-iff-lipschitz]]
 Justifications: <i>Not Applicable</i>
