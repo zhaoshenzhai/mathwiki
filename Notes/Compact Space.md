@@ -14,8 +14,8 @@ Constructions: [[k-Space]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[Characterizations of compactness]], [[Limitations of Size]]
+Sufficiencies: [[Limitations of Size]]
+Equivalences: [[Characterizations of compactness]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

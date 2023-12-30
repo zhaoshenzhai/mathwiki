@@ -6,7 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 28/12/2023 12:31:48
-Tags: #Type/Theorem #In_Progress
+Tags: #Type/Theorem #Topic/Topology/Later
 
 Proved by: [[Characterizations of topology via nets]], [[Cantor's Theorem]], [[Metric Space#^metric-spaces-are-first-countable]]
 References: <i>Not Applicable</i>
