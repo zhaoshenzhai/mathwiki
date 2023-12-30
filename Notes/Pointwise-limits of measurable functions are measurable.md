@@ -7,7 +7,7 @@ mathLink: Measurability of $f_n\to f$
 Date Created: 21/10/2023 15:32:51
 Tags: #Type/Proposition #Topic/Real_Analysis
 
-Proved by: <i>Not Applicable</i>
+Proved by: [[Metric Space#^metric-spaces-are-normal]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
