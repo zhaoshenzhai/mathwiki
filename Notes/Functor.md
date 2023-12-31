@@ -30,4 +30,8 @@ The <b>category of small categories</b> is the category $\catcat$ whose objects 
 ```
 ^category-of-small-categories
 
-<b>Remark.</b> A functor $F:C\to D$ is <i>full</i> (resp. <i>faithful</i>) if $F:C\l(c,c'\r)\to D\l(Fc,Fc'\r)$ is surjective (resp. injective). It is <i>essentially surjective</i> if for any $d\in D$, there is some $c\in C$ such that $Fc\iso d$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A functor $F:C\to D$ is <i>full</i> (resp. <i>faithful</i>) if $F:C\l(c,c'\r)\to D\l(Fc,Fc'\r)$ is surjective (resp. injective) for every $c,c'\in C$. It is <i>essentially surjective</i> if for any $d\in D$, there is some $c\in C$ such that $Fc\iso d$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> Functors $F:C\to D$ as defined above are said to be <i>covariant</i>. A <i>contravariant</i> functor from $C$ to $D$ is a just functor $F:C^\textrm{op}\to D$.<span style="float:right;">$\blacklozenge$</span>

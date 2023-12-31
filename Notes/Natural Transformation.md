@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    functor-category: Functor Category
+---
+
 <div class="topSpace"></div>
 
 Date Created: 12/03/2022 12:53:12
@@ -16,9 +21,9 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $F,G:\cat{C}\to\cat{D}$ be functors of the same variance. A <b>natural transformation</b> $\eta:F\to G$ is a collection $\eta\coloneqq\l\{\eta_A\r\}_{A\in\Obj\l(\cat{C}\r)}$ of morphisms $\eta_A:\Hom_\cat{D}\!\l(FA,GA\r)$ such that for all $f\in\Hom_\cat{C}\!\l(A,B\r)$, the diagrams
-![[Images/2022-03-12_130843/image.svg|375]]commute in the covariance and contravariance cases, respectively.
+Let $F,G:C\to D$ be functors between categories. A <b>natural transformation</b> $\eta:F\to G$ is a collection $\eta\coloneqq\l\{\eta_c\r\}_{c\in C}$ of morphisms $\eta_c\in D\l(Fc,Gc\r)$ such that for each $c,c'\in C$ and $f\in C\l(c,c'\r)$, we have $Gf\circ\eta_c=\eta_{c'}\circ Ff$.
+* The <b>functor category</b> from $C$ to $D$ is the category $D^C$ whose objects are functors $F:C\to D$ and whose morphisms are natural transformations.
+![[Images/2022-03-12_130843/image.svg|200]]
 
 ```
-
-<b>Remark.</b> If $\eta:F\to G$ is a natural transformation such that each $\eta_A$ is an isomorphism, then $\eta$ is a <i>natural isomorphism</i>. We say that $F$ is <i>naturally isomorphic</i> to $G$ and write $F\iso G$.<span style="float:right;">$\blacklozenge$</span>
+^functor-category
