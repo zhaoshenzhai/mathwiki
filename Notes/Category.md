@@ -9,7 +9,7 @@ Date Created: 12/03/2022 17:41:32
 Tags: #Type/Definition #Topic/Category_Theory
 
 Types: [[Groupoid]], [[Order Relations#^preorder-category]]
-Examples: [[Function#^category-of-sets]], [[Structure#^category-of-structures]], [[Models and Semantic Truth#^category-of-models]], [[Group#^category-of-groups]], [[Module#^category-of-modules]], [[Monoid#^category-of-monoids]], [[Ring#^category-of-rings]], [[Representation#^category-of-representations]], [[Group Action#^category-of-G-sets]], [[Topological Space#^category-of-topological-spaces]], [[Homotopy#^homotopy-category]], [[Covering Space#^category-of-covering-spaces]], [[Metric Space#^category-of-metric-spaces]]
+Examples: [[Function#^category-of-sets]], [[Structure#^category-of-structures]], [[Models and Semantic Truth#^category-of-models]], [[Functor#^category-of-small-categories]], [[Group#^category-of-groups]], [[Module#^category-of-modules]], [[Monoid#^category-of-monoids]], [[Ring#^category-of-rings]], [[Representation#^category-of-representations]], [[Group Action#^category-of-G-sets]], [[Topological Space#^category-of-topological-spaces]], [[Homotopy#^homotopy-category]], [[Covering Space#^category-of-covering-spaces]], [[Metric Space#^category-of-metric-spaces]]
 Constructions: [[Morphism]], [[Functor]], [[Universal Objects]], [[Natural Transformation]], [[Quotient Category]]
 Generalizations: <i>Not Applicable</i>
 
@@ -19,7 +19,7 @@ Equivalences: [[Equivalence of Categories]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
-title: Definition.
+title: Definition (Category).
 
 A <b>category</b> $C$ consists a collection $\Obj\l(C\r)$ of <b>objects</b> in $C$ and, 
 * for any two objects $x,y\in\Obj\l(C\r)$, a collection $C\l(x,y\r)$ of <b>morphisms</b> in $C$,

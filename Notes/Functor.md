@@ -1,3 +1,8 @@
+---
+mathLink-blocks:
+    category-of-small-categories: $\catcat$
+---
+
 <div class="topSpace"></div>
 
 Date Created: 06/03/2022 15:11:37
@@ -16,9 +21,13 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\cat{C}$ and $\cat{D}$ be categories. A <b>(covariant) functor</b> from $\cat{C}$ to $\cat{D}$ is an assignment $F:\cat{C}\to\cat{D}$ of each object $A\in\Obj\l(\cat{C}\r)$ to an object $FA\in\Obj\l(\cat{D}\r)$ and each morphism $f:A\to B$ to a morphism $Ff:FA\to FB$, such that $F1_A=1_{FA}$ for all $A\in\Obj\l(\cat{C}\r)$ and $F\l(g\circ f\r)=Fg\circ Ff$ for all $A\overset{f}{\rightarrow}B\overset{g}{\rightarrow}C$.
-* A <b>contravariant</b> functor from $\cat{C}$ to $\cat{D}$ is similarly defined, except that $Ff:FB\to FA$ and $F\l(g\circ f\r)=Ff\circ Fg$ for all $A\overset{f}{\rightarrow}B\overset{g}{\rightarrow}C$ instead.
+Let $C$ and $D$ be categories. A <b>functor</b> $F:C\to D$ is a map sending each $c\in C$ to some $Fc\in D$ and each $f\in C\l(c,c'\r)$ to some $Ff\in D\l(Fc,Fc'\r)$, such that
+* (Unit). $F1_c=1_{Fc}$ for all $c\in C$, and
+* (Compatibility). $F\l(g\circ f\r)=Fg\circ Ff$ for all composable morphisms $f,g\in C$.
+
+The <b>category of small categories</b> is the category $\catcat$ whose objects are small categories and whose morphisms are functors.
 
 ```
+^category-of-small-categories
 
-<b>Remark.</b> A functor $F:\cat{C}\to\cat{D}$ is <i>full</i> (resp. <i>faithful</i>) if $F:\Hom_\cat{C}\!\l(A,B\r)\to\Hom_\cat{D}\!\l(FA,FB\r)$ is surjective (resp. injective). It is <i>essentially surjective</i> if for any object $B\in\Obj\l(\cat{D}\r)$, there is an object $A\in\Obj\l(\cat{C}\r)$ such that $FA\iso B$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A functor $F:C\to D$ is <i>full</i> (resp. <i>faithful</i>) if $F:C\l(c,c'\r)\to D\l(Fc,Fc'\r)$ is surjective (resp. injective). It is <i>essentially surjective</i> if for any $d\in D$, there is some $c\in C$ such that $Fc\iso d$.<span style="float:right;">$\blacklozenge$</span>
