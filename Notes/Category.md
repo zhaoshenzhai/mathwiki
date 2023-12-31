@@ -9,7 +9,7 @@ Date Created: 12/03/2022 17:41:32
 Tags: #Type/Definition #Topic/Category_Theory
 
 Types: [[Groupoid]], [[Order Relations#^preorder-category]]
-Examples: [[Function#^category-of-sets]], [[Structure#^category-of-structures]], [[Models and Semantic Truth#^category-of-models]], [[Functor#^category-of-small-categories]], [[Group#^category-of-groups]], [[Module#^category-of-modules]], [[Monoid#^category-of-monoids]], [[Ring#^category-of-rings]], [[Representation#^category-of-representations]], [[Group Action#^category-of-G-sets]], [[Order Relations#^category-of-preordered-sets]], [[Topological Space#^category-of-topological-spaces]], [[Homotopy#^homotopy-category]], [[Covering Space#^category-of-covering-spaces]], [[Metric Space#^category-of-metric-spaces]]
+Examples: [[Function#^category-of-sets]], [[Structure#^category-of-structures]], [[Models and Semantic Truth#^category-of-models]], [[Functor#^category-of-small-categories]], [[Group#^category-of-groups]], [[Module#^category-of-modules]], [[Monoid#^category-of-monoids]], [[Ring#^category-of-rings]], [[Group Action#^category-of-G-sets]], [[Group Action#^category-of-representations]], [[Order Relations#^category-of-preordered-sets]], [[Topological Space#^category-of-topological-spaces]], [[Homotopy#^homotopy-category]], [[Covering Space#^category-of-covering-spaces]], [[Metric Space#^category-of-metric-spaces]]
 Constructions: [[Functor]], [[Natural Transformation]], [[Universal Objects]], [[Quotient Category]]
 Generalizations: <i>Not Applicable</i>
 
