@@ -22,4 +22,4 @@ A <b>congruence relation</b> on a category $C$ is a family $\sim\,\coloneqq\l\{\
 ```
 
 <b>Remark.</b> Every quotient category $C/\!\sim$ of $C$ induces the <i>natural projection</i> functor $\pi:C\to C/\!\sim$ that acts as the identity on $\Obj\l(C\r)$ and sends $f\mapsto\l[f\r]$.
-* The map $\pi:C\to C/\!\sim$ is universal amongst functors that map equivalent morphisms to the same image. That is, if $F:C\to D$ is a functor such that $Ff=Fg$ whenever $f\sim g$, then it descends into a unique functor $\widetilde{F}:C/\!\sim\,\to D$ such that $\widetilde{F}\l[f\r]=Ff$ for every morphism $f$. Thus quotient categories are simply quotient objects in the category $\catcat$.<span style="float:right;">$\blacklozenge$</span>
+* The map $\pi:C\to C/\!\sim$ is universal amongst functors that map equivalent morphisms to the same image. That is, if $F:C\to D$ is a functor such that $Ff=Fg$ whenever $f\sim g$, then it descends into a unique functor $\widetilde{F}:C/\!\sim\,\to D$ such that $\widetilde{F}\l[f\r]=Ff$ for every morphism $f$. Thus quotient categories are simply quotient objects in the category $\catscat$.<span style="float:right;">$\blacklozenge$</span>
