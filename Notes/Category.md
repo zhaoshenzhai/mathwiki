@@ -8,9 +8,9 @@ mathLink-blocks:
 Date Created: 12/03/2022 17:41:32
 Tags: #Type/Definition #Topic/Category_Theory
 
-Types: [[Groupoid]]
+Types: [[Groupoid]], [[Order Relations#^preorder-category]]
 Examples: [[Function#^category-of-sets]], [[Structure#^category-of-structures]], [[Models and Semantic Truth#^category-of-models]], [[Group#^category-of-groups]], [[Module#^category-of-modules]], [[Monoid#^category-of-monoids]], [[Ring#^category-of-rings]], [[Representation#^category-of-representations]], [[Group Action#^category-of-G-sets]], [[Topological Space#^category-of-topological-spaces]], [[Homotopy#^homotopy-category]], [[Covering Space#^category-of-covering-spaces]], [[Metric Space#^category-of-metric-spaces]]
-Constructions: [[Functor]], [[Universal Objects]], [[Natural Transformation]], [[Quotient Category]]
+Constructions: [[Morphism]], [[Functor]], [[Universal Objects]], [[Natural Transformation]], [[Quotient Category]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -31,7 +31,7 @@ such that the family of $C\l(x,y\r)$’s is pairwise disjoint, $h\circ\l(g\circ 
 ```
 ^morphism
 
-<b>Remark.</b> We abuse notation and write $C$ for $\Obj\l(C\r)$ instead. There are some foundational issues with this definition (what is a ‘collection’?) but we ignore it and mostly focus on <i>locally-small</i> categories: categories in which for every $x,y\in C$, the morphisms $C\l(x,y\r)$ is a set. A more restrictive notion is to require $\Obj\l(C\r)$ to be a set, in which case we say that $C$ is <i>small</i>.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> We abuse notation and write $C$ for $\Obj\l(C\r)$ instead. There are some foundational issues (what is a ‘collection’?) but we ignore them and mostly focus on <i>locally-small</i> categories: categories in which for every $x,y\in C$, the morphisms $C\l(x,y\r)$ is a set. A more restrictive notion is to require $\Obj\l(C\r)$ to be a set, in which case we say that $C$ is <i>small</i>.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

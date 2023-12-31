@@ -10,7 +10,7 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: [[Group#^group-homomorphism]], [[Ring#^ring-homomorphism]], [[Module#^module-homomorphism]], [[Topological Space#^continuous-function]], [[Measurable Function]], [[Integral#^integrable-function]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Image and Preimage]], [[Symmetric Group]]
+Constructions: [[Structure]], [[Image and Preimage]], [[Symmetric Group]]
 Generalizations: [[Category#^morphism]]
 
 Properties: <i>Not Applicable</i>
