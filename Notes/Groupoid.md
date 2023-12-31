@@ -3,7 +3,7 @@
 Date Created: 16/10/2023 20:11:33
 Tags: #Type/Definition #Topic/Category_Theory/Later
 
-Types: <i>Not Applicable</i>
+Types: [[Group]]
 Examples: [[Fundamental Groupoid]], [[Group Action]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>

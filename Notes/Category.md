@@ -31,7 +31,7 @@ such that the family of $C\l(x,y\r)$’s is pairwise disjoint, $h\circ\l(g\circ 
 ```
 ^morphism
 
-<b>Remark.</b> We abuse notation and write $C$ for $\Obj\l(C\r)$ instead. There are some foundational issues (what is a ‘collection’?) but we ignore them and mostly focus on <i>locally-small</i> categories: categories in which for every $x,y\in C$, the morphisms $C\l(x,y\r)$ is a set. A more restrictive notion is to require $\Obj\l(C\r)$ to be a set, in which case we say that $C$ is <i>small</i>.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> We abuse notation and write $C$ for $\Obj\l(C\r)$ instead. A category $C$ is said to be <i>locally-small</i> if for every $x,y\in\Obj\l(C\r)$, the morphisms $C\l(x,y\r)$ is a set. A more restrictive notion is to require $\Obj\l(C\r)$ to be a set, in which case we say that $C$ is <i>small</i>.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
