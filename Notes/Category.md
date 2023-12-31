@@ -9,7 +9,7 @@ Date Created: 12/03/2022 17:41:32
 Tags: #Type/Definition #Topic/Category_Theory
 
 Types: [[Groupoid]], [[Order Relations#^preorder-category]]
-Examples: [[Function#^category-of-sets]], [[Structure#^category-of-structures]], [[Models and Semantic Truth#^category-of-models]], [[Functor#^category-of-small-categories]], [[Group#^category-of-groups]], [[Module#^category-of-modules]], [[Monoid#^category-of-monoids]], [[Ring#^category-of-rings]], [[Representation#^category-of-representations]], [[Group Action#^category-of-G-sets]], [[Topological Space#^category-of-topological-spaces]], [[Homotopy#^homotopy-category]], [[Covering Space#^category-of-covering-spaces]], [[Metric Space#^category-of-metric-spaces]]
+Examples: [[Function#^category-of-sets]], [[Structure#^category-of-structures]], [[Models and Semantic Truth#^category-of-models]], [[Functor#^category-of-small-categories]], [[Group#^category-of-groups]], [[Module#^category-of-modules]], [[Monoid#^category-of-monoids]], [[Ring#^category-of-rings]], [[Representation#^category-of-representations]], [[Group Action#^category-of-G-sets]], [[Order Relations#^category-of-preordered-sets]], [[Topological Space#^category-of-topological-spaces]], [[Homotopy#^homotopy-category]], [[Covering Space#^category-of-covering-spaces]], [[Metric Space#^category-of-metric-spaces]]
 Constructions: [[Functor]], [[Natural Transformation]], [[Universal Objects]], [[Quotient Category]]
 Generalizations: <i>Not Applicable</i>
 
@@ -35,7 +35,7 @@ such that the family of $C\l(x,y\r)$’s is pairwise disjoint, $h\circ\l(g\circ 
 
 ---
 
-<b>Remark.</b> A morphism $f\in C\l(x,y\r)$ is said to be:
+<b>Remark.</b> A morphism $f\in C\l(x,y\r)$ is said to be: <span style="color:pink">put this in the right place.</span>
 * an <i>isomorphism</i> if there is a morphism $g\in C\l(y,x\r)$ such that $gf=1_x$ and $fg=1_y$, which is unique and referred to as the <i>inverse</i> of $f$;
 * a <i>monomorphism</i> if $fg=fh\Rightarrow g=h$ for any $w\in C$ and any $g,h\in C\l(w,x\r)$, and an <i>epimorphism</i> if $gf=hf\Rightarrow g=h$ for any $z\in C$ and any $g,h\in C\l(y,z\r)$;
 * a <i>section</i> if $gf=1_x$ for some $g\in C\l(y,x\r)$, and a <i>retract</i> if $fg=1_y$ for some $g\in C(y,x)$.
@@ -44,4 +44,4 @@ Note that sections (resp. retracts) are always monic (resp. epic), so they are a
 
 ---
 
-<b>Remark.</b> In the case that $C$ is locally small, every morphism $f\in C\l(x,y\r)$ induces morphisms in $\catset$ by <i>post-composition</i> $f_\ast:C\l(w,x\r)\to C\l(w,y\r)$ for every $w\in C$ and <i>pre-composition</i> $f^\ast:C\l(x,z\r)\to C\l(y,z\r)$ for every $z\in C$. It is easy to see that $f$ is an isomorphism iff every $f_\ast$ is a bijection $-$ dually iff every $f^\ast$ is a bijection $-$ and $f$ is monic (resp. epic) iff every $f_\ast$ (resp. $f^\ast$) is an injection.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In the case that $C$ is locally small, every morphism $f\in C\l(x,y\r)$ induces morphisms in $\catset$ by <i>post-composition</i> $f_\ast:C\l(w,x\r)\to C\l(w,y\r)$ for every $w\in C$ and <i>pre-composition</i> $f^\ast:C\l(x,z\r)\to C\l(y,z\r)$ for every $z\in C$. It is easy to see that $f$ is an isomorphism iff every $f_\ast$ is a bijection $-$ dually iff every $f^\ast$ is a bijection $-$ and $f$ is monic (resp. epic) iff every $f_\ast$ (resp. $f^\ast$) is an injection. <span style="color:pink">put this in the right place.</span><span style="float:right;">$\blacklozenge$</span>

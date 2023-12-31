@@ -1,6 +1,7 @@
 ---
 mathLink-blocks:
     preorder-category: Preorder
+    category-of-preordered-sets: $\catord$
 ---
 
 <div class="topSpace"></div>
@@ -9,7 +10,7 @@ Date Created: 21/02/2022 18:38:44
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Topological Space]]
 Constructions: [[Order Space]], [[Convergence of Nets]], [[Well-founded Relation]], [[Initial Segment]]
 Generalizations: <i>Not Applicable</i>
 
@@ -25,7 +26,10 @@ Let $X$ be a set. A binary relation $\leq$ on $X$ is a <b>preorder</b> on $X$ if
 * A <b>partial order</b> is an antisymmetric preorder and a <b>total order</b> is a connected partial order. The pair $\tpl{X,\leq}$ is called a <b>(partially)</b> ordered set.
 * A <b>directed order</b> is a preorder $\leq$ on $X$ in which any two $x,x'\in X$ admits an upper bound. The pair $\tpl{X,\leq}$ is called a <b>directed set</b>.
 
+The <b>category of preordered sets</b> is the category $\catord$ whose objects are preordered sets and whose morphisms are order-preserving maps.
+
 ```
+^category-of-preordered-sets
 
 <b>Remark.</b> A set $X$ equipped with a partial order $\leq$ is also called a <i>poset</i>. Fix a subset $A\subseteq X$ of a poset $\tpl{X,\leq}$.
 * A <i>minimal</i> element of $A$ is an element $m\in A$ such that $\lnot(a<m)$ for all $a\in A$, and the <i>least</i> element of $A$ is the $l\in A$ such that $l\leq a$ for all $a\in A$. Minimal elements are not necessarily unique, but least elements are. They coincide for totally-ordered sets. Similarly for <i>maximal</i> and <i>greatest</i> elements.
