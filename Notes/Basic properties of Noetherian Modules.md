@@ -6,7 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 07/08/2023 15:59:10
-Tags: #Type/Proposition #Topic/Module_Theory
+Tags: #Type/Proposition #Topic/Rings_and_Modules/Module_Theory
 
 Proved by: [[Isomorphism Theorems]]
 References: <i>Not Applicable</i>

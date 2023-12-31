@@ -6,7 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 20/06/2022 15:01:38
-Tags: #Type/Definition #Topic/Module_Theory
+Tags: #Type/Definition #Topic/Rings_and_Modules/Module_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Eigenvalues of linear operators on inner product spaces]]

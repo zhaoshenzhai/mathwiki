@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/11/2022 15:08:43
-Tags: #Type/Definition #Topic/Ring_Theory
+Tags: #Type/Definition #Topic/Rings_and_Modules/Ring_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>

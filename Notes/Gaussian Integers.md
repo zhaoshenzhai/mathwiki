@@ -5,7 +5,7 @@ mathLink: $\Z\l[i\r]$
 <div class="topSpace"></div>
 
 Date Created: 09/01/2023 10:49:29
-Tags: #Type/Definition #Topic/Ring_Theory
+Tags: #Type/Definition #Topic/Rings_and_Modules/Ring_Theory
 
 Abstractions: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>

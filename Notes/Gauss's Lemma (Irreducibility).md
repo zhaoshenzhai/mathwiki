@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 22/01/2023 23:44:19
-Tags: #Type/Theorem #Topic/Ring_Theory
+Tags: #Type/Theorem #Topic/Rings_and_Modules/Ring_Theory
 
 Proved by: [[Divisibility via field of fractions]]
 References: <i>Not Applicable</i>

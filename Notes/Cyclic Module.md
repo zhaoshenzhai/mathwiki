@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/07/2023 19:26:42
-Tags: #Type/Definition #Topic/Module_Theory
+Tags: #Type/Definition #Topic/Rings_and_Modules/Module_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Endomorphisms in Category of Modules#^cyclic-subspace]]

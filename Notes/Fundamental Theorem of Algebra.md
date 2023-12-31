@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/05/2023 08:06:03
-Tags: #Type/Theorem #Topic/Topology #Topic/Ring_Theory
+Tags: #Type/Theorem #Topic/Topology #Topic/Rings_and_Modules/Ring_Theory
 
 Proved by: [[Fundamental group of the circle]]
 References: [[Polynomial ring over fields is a EUD]], [[Root iff factor (field)]]

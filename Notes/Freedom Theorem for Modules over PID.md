@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/07/2023 10:44:57
-Tags: #Type/Theorem #Topic/Module_Theory
+Tags: #Type/Theorem #Topic/Rings_and_Modules/Module_Theory
 
 Proved by: [[Basis Extension Theorem]], [[Free Module#^universal-property-of-free-modules]]
 References: <i>Not Applicable</i>

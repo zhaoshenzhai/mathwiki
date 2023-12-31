@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 11/01/2023 16:56:35
-Tags: #Type/Definition #Topic/Ring_Theory
+Tags: #Type/Definition #Topic/Rings_and_Modules/Ring_Theory
 
 Types: [[Principal Ideal Domain (PID)]]
 Examples: <i>Not Applicable</i>

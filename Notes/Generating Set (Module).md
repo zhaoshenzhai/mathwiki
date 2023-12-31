@@ -1,7 +1,7 @@
 <div class="top Space"></div>
 
 Date Created: 18/07/2023 16:18:03
-Tags: #Type/Definition #Topic/Module_Theory
+Tags: #Type/Definition #Topic/Rings_and_Modules/Module_Theory
 
 Types: [[Orthonormal Basis]]
 Examples: <i>Not Applicable</i>

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/12/2023 18:21:37
-Tags: #Type/Proposition #Topic/Proof_Theory
+Tags: #Type/Proposition #Topic/Logic/Proof_Theory
 
 Proved by: [[Basic provable facts]], [[Basic provable facts#^deduction-theorem]], [[Basic provable facts#^constant-substitution-theorem]]
 References: <i>Not Applicable</i>

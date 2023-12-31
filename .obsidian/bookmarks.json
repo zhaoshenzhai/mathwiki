@@ -65,64 +65,78 @@
         "search": "path:Notes",
         "showTags": false,
         "showAttachments": false,
-        "hideUnresolved": false,
-        "showOrphans": false,
-        "collapse-color-groups": false,
+        "hideUnresolved": true,
+        "showOrphans": true,
+        "collapse-color-groups": true,
         "colorGroups": [
           {
-            "query": "tag:#Topic/Set_Theory",
+            "query": "tag:#Topic/Logic ",
             "color": {
               "a": 1,
               "rgb": 14701138
             }
           },
           {
-            "query": "tag:#Topic/Category_Theory",
+            "query": "tag:#Topic/Set_Theory ",
             "color": {
               "a": 1,
               "rgb": 14725458
             }
           },
           {
-            "query": "tag:#Topic/Group_Theory",
+            "query": "tag:#Topic/Category_Theory  ",
             "color": {
               "a": 1,
               "rgb": 11657298
             }
           },
           {
-            "query": "tag:#Topic/Ring_Theory",
+            "query": "tag:#Topic/Group_Theory  ",
             "color": {
               "a": 1,
               "rgb": 5431378
             }
           },
           {
-            "query": "tag:#Topic/Module_Theory",
+            "query": "tag:#Topic/Rings_and_Modules ",
             "color": {
               "a": 1,
               "rgb": 5431473
             }
           },
           {
-            "query": "tag:#Topic/Topology",
+            "query": "tag:#Topic/Topology  ",
             "color": {
               "a": 1,
               "rgb": 5419488
             }
           },
           {
-            "query": "tag:#Topic/Real_Analysis",
+            "query": "tag:#Topic/Real_Analysis ",
             "color": {
               "a": 1,
               "rgb": 5395168
             }
           },
           {
-            "query": "tag:#Topic/Functional_Analysis",
+            "query": "tag:#Topic/Functional_Analysis ",
             "color": {
               "a": 1,
               "rgb": 11621088
+            }
+          },
+          {
+            "query": "tag:#Topic/Metric_Geometry  ",
+            "color": {
+              "a": 1,
+              "rgb": 14701233
+            }
+          },
+          {
+            "query": "tag:#Topic OR tag:#In_Progress ",
+            "color": {
+              "a": 1,
+              "rgb": 16777215
             }
           }
         ],
@@ -133,10 +147,10 @@
         "lineSizeMultiplier": 1.29302181037405,
         "collapse-forces": true,
         "centerStrength": 0.1,
-        "repelStrength": 19.6301084756324,
-        "linkStrength": 0.934069841099973,
+        "repelStrength": 19.6391420396822,
+        "linkStrength": 0.923231626995362,
         "linkDistance": 470,
-        "scale": 0.028508255464722288,
+        "scale": 0.02044359524754006,
         "close": false
       }
     },

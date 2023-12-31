@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 03/11/2022 19:59:00
-Tags: #Type/Definition #Topic/Group_Theory #Topic/Ring_Theory
+Tags: #Type/Definition #Topic/Group_Theory #Topic/Rings_and_Modules/Ring_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Integers#^invertible-iff-coprime]], [[Linear Invertibility Theorem]]

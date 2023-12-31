@@ -5,7 +5,7 @@ mathLink: Divisibility in $R\l[x\r]$ via $\Frac R$
 <div class="topSpace"></div>
 
 Date Created: 23/01/2023 07:50:34
-Tags: #Type/Proposition #Topic/Ring_Theory
+Tags: #Type/Proposition #Topic/Rings_and_Modules/Ring_Theory
 
 Proved by: [[Gauss's Lemma (Primitivity)]]
 References: <i>Not Applicable</i>

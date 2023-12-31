@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/06/2023 16:45:24
-Tags: #Type/Theorem #Topic/Ring_Theory
+Tags: #Type/Theorem #Topic/Rings_and_Modules/Ring_Theory
 
 Proved by: [[Isomorphism Theorems]]
 References: <i>Not Applicable</i>

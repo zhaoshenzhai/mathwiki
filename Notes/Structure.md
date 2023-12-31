@@ -6,7 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 14/12/2023 17:16:46
-Tags: #Type/Definition #Topic/Model_Theory
+Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Monoid]], [[Group]], [[Ring]], [[Field]], [[Module]]

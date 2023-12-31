@@ -7,7 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 03/11/2022 19:00:21
-Tags: #Type/Definition #Topic/Ring_Theory
+Tags: #Type/Definition #Topic/Rings_and_Modules/Ring_Theory
 
 Types: [[Commutative Ring]], [[Division Ring]]
 Examples: <i>Not Applicable</i>

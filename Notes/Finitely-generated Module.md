@@ -6,7 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 04/08/2023 15:01:59
-Tags: #Type/Definition #Topic/Module_Theory
+Tags: #Type/Definition #Topic/Rings_and_Modules/Module_Theory
 
 Types: [[Noetherian Module]]
 Examples: [[Cyclic Module]]

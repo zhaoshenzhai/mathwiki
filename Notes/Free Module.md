@@ -7,7 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 18/07/2023 15:39:04
-Tags: #Type/Definition #Topic/Module_Theory
+Tags: #Type/Definition #Topic/Rings_and_Modules/Module_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>

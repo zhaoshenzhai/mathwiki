@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 15/12/2023 00:39:28
-Tags: #Type/Definition #Topic/Model_Theory
+Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>

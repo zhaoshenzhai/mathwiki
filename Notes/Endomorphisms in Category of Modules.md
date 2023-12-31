@@ -8,7 +8,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 04/08/2023 15:27:00
-Tags: #Type/Definition #Topic/Module_Theory
+Tags: #Type/Definition #Topic/Rings_and_Modules/Module_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Automorphisms and endomorphisms of cyclic groups]]

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 23/07/2023 22:45:30
-Tags: #Type/Proposition #Topic/Ring_Theory
+Tags: #Type/Proposition #Topic/Rings_and_Modules/Ring_Theory
 
 Proved by: <i>Not Applicable</i>
 References: [[Maximal implies prime]], [[Ideal is maximal iff quotient is a field]]

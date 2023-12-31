@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 09/01/2023 12:16:56
-Tags: #Type/Theorem #Topic/Ring_Theory
+Tags: #Type/Theorem #Topic/Rings_and_Modules/Ring_Theory
 
 Proved by: [[Zorn's Lemma]]
 References: <i>Not Applicable</i>

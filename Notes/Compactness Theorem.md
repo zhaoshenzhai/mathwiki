@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 15/12/2023 17:41:04
-Tags: #Type/Theorem #Topic/Model_Theory/Later
+Tags: #Type/Theorem #Topic/Logic/Model_Theory/Later
 
 Proved by: <i>Not Applicable</i>
 References: [[Proofs and Syntactic Truth#^soundness]], [[Proofs and Syntactic Truth#^syntactic-compactness]], [[Completeness Theorem]]

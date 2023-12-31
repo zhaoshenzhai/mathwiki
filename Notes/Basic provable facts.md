@@ -7,7 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 16/12/2023 15:08:38
-Tags: #Type/Proposition #Topic/Proof_Theory
+Tags: #Type/Proposition #Topic/Logic/Proof_Theory
 
 Proved by: [[Axioms of First Order Logic]]
 References: <i>Not Applicable</i>
