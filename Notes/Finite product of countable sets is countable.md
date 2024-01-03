@@ -1,6 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/12/2022 16:06:39
+References:
 Tags: #Type/Proposition #Topic/Set_Theory/Later/Ordinal
 
 Proved by: [[Countable iff injects into naturals]]

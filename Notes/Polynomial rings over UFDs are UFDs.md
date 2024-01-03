@@ -5,6 +5,7 @@ mathLink: $R$ UFD $\Rightarrow$ $R\l[x\r]$ UFD
 <div class="topSpace"></div>
 
 Date Created: 22/01/2023 23:34:37
+References:
 Tags: #Type/Theorem #Topic/Rings_and_Modules/Ring_Theory
 
 Proved by: [[Characterization of UFDs]], [[Polynomial ring over fields is a EUD]], [[EUD implies PID]], [[Characterization of UFDs#^pid-implies-ufd]], [[Divisibility via field of fractions]], [[Gauss's Lemma (Irreducibility)]], [[Isomorphism Theorems]]

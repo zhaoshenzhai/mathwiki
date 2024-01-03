@@ -6,6 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 15/12/2023 20:17:29
+References:
 Tags: #Type/Theorem #Topic/Logic/Model_Theory
 
 Proved by: [[Theory#^maximally-consistent-completion]], [[Basic properties of consistent theories]], [[Basic provable facts]], [[Henkin Theory#^Henkin-theories-calculate-terms]]

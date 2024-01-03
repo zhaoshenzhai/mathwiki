@@ -1,6 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 31/01/2022 11:12:51
+References:
 Tags: #Type/Proposition #Topic/Set_Theory/Later/Ordinal
 
 Proved by: [[Well-ordering well-orders subsets]]

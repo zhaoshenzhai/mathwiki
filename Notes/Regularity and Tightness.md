@@ -7,6 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 18/10/2023 22:54:23
+References:
 Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Distance between subspaces#^closed-G-delta-open-F-sigma]], [[Basic properties of measures#^monotone-convergence-of-sets]], [[Separable Space#^separability-is-hereditary]], [[Characterizations of compactness#^compactness-in-metric-spaces]]

@@ -5,6 +5,7 @@ mathLink: $V=U\oplus U^\perp$
 <div class="topSpace"></div>
 
 Date Created: 25/06/2022 16:24:44
+References:
 Tags: #Type/Proposition #Topic/Functional_Analysis
 
 Proved by: [[Gram-Schmidt Orthonormalization]], [[Basic properties of orthogonal complements]]

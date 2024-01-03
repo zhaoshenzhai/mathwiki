@@ -5,6 +5,7 @@ mathLink: $\l(G\times H\r)^\textrm{ab}\iso G^\textrm{ab}\times H^\textrm{ab}$
 <div class="topSpace"></div>
 
 Date Created: 10/05/2023 12:26:18
+References:
 Tags: #Type/Proposition #Topic/Group_Theory
 
 Proved by: [[Abelianization#^universal-property-of-abelianization]]

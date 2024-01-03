@@ -1,6 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/03/2023 18:38:56
+References:
 Tags: #Type/Theorem #Topic/Rings_and_Modules/Module_Theory
 
 Proved by: [[Canonical Forms]], [[Cayley-Hamilton Theorem#^structure-of-characteristic-minimal]]

@@ -1,6 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/06/2022 16:54:24
+References:
 Tags: #Type/Theorem #Topic/Functional_Analysis 
 
 Proved by: <i>Not Applicable</i>

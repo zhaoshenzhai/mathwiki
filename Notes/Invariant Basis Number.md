@@ -1,6 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 18/07/2023 20:18:33
+References:
 Tags: #Type/Theorem #Topic/Rings_and_Modules/Module_Theory
 
 Proved by: [[Krull's Theorem]], [[Ideal is maximal iff quotient is a field]], [[Isomorphism Theorems]], [[Basis Extension Theorem]]

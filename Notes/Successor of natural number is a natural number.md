@@ -1,6 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 02/02/2022 11:40:56
+References:
 Tags: #Type/Proposition #Topic/Set_Theory/Later/Ordinal
 
 Proved by: [[Successor of an ordinal is the next smallest ordinal]], [[Reflexive closure of ordering on ordinals]]

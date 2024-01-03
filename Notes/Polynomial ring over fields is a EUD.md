@@ -5,6 +5,7 @@ mathLink: $k$ field $\Rightarrow$ $k\l[x\r]$ is a EUD
 <div class="topSpace"></div>
 
 Date Created: 23/11/2022 09:55:11
+References:
 Tags: #Type/Theorem #Topic/Rings_and_Modules/Ring_Theory
 
 Proved by: <i>Not Applicable</i>

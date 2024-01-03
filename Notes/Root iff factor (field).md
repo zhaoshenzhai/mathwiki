@@ -5,6 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 23/11/2022 10:56:36
+References:
 Tags: #Type/Proposition #Topic/Rings_and_Modules/Ring_Theory
 
 Proved by: [[Polynomial ring over fields is a EUD]]

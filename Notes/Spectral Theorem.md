@@ -1,6 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 12/04/2023 10:08:49
+References:
 Tags: #Type/Theorem #Topic/Functional_Analysis
 
 Proved by: [[Orthogonal complement of invariant subspace is invariant under self-adjoint operator]], [[Basic properties of normal operators]]

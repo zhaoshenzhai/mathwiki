@@ -1,6 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/11/2023 20:27:28
+References:
 Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Monotone Class Lemma]], [[Basic properties of measures#^monotone-convergence-of-sets]], [[Pointwise-limits of measurable functions are measurable]], [[Convergence Theorems]], [[Measurable Function#^measurable-almost-borel]]

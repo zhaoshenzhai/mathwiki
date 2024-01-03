@@ -1,6 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 18/05/2023 14:50:14
+References:
 Tags: #Type/Theorem #Topic/Topology
 
 Proved by: [[Connected Space#^intermediate-value-theorem]]

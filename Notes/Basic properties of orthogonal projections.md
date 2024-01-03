@@ -1,6 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/06/2022 10:06:15
+References:
 Tags: #Type/Proposition #Topic/Functional_Analysis
 
 Proved by: [[Basic properties of orthogonal complements]], [[Pythagorean Theorem]]

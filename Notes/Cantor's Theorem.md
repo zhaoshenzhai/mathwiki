@@ -5,6 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 29/12/2023 17:54:05
+References:
 Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Characterizations of topology via nets#^sequential-characterizations-of-topology]], [[Metric Space#^metric-spaces-are-first-countable]], [[Metric Space#^metric-spaces-are-normal]], [[Characterizations of topology via nets#^hausdorff-iff-every-net-converges-to-at-most-one-point]]

@@ -5,6 +5,7 @@ mathLink: $\F^\times$ is a cyclic group
 <div class="topSpace"></div>
 
 Date Created: 07/05/2023 18:19:12
+References:
 Tags: #Type/Proposition #Topic/Group_Theory #Topic/Rings_and_Modules/Ring_Theory
 
 Proved by: [[At most one dividing subgroup implies cyclic]], [[Lagrange's Theorem]], [[Polynomial has at most degree-many roots]]

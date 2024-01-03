@@ -1,6 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 26/12/2023 21:46:18
+References:
 Tags: #Type/Proposition #Topic/Topology
 
 Proved by: [[Basic properties of homotopies of paths]]

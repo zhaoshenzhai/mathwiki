@@ -5,6 +5,7 @@ mathLink: Measurability of $f_n\to f$
 <div class="topSpace"></div>
 
 Date Created: 21/10/2023 15:32:51
+References:
 Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Metric Space#^metric-spaces-are-normal]]

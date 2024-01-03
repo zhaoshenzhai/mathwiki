@@ -6,6 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 23/07/2023 20:04:42
+References:
 Tags: #Type/Proposition #Topic/Rings_and_Modules
 
 Proved by: [[Freedom Theorem for Modules over PID]], [[Basic properties of rank]]

@@ -5,6 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 22/11/2022 19:40:28
+References:
 Tags: #Type/Proposition #Topic/Rings_and_Modules/Ring_Theory
 
 Proved by: [[Ideal is maximal iff quotient is a field]]

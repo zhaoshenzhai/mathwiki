@@ -1,6 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/07/2023 20:35:54
+References:
 Tags: #Type/Theorem #Topic/Rings_and_Modules/Module_Theory
 
 Proved by: [[Characterizations of PIDs#^torsion-free-iff-free]], [[Free Module#^universal-property-of-free-modules]], [[Basic properties of rank]], [[Splitting Lemma]], [[Characterization of UFDs#^pid-implies-ufd]], [[Bezout's Identity]], [[Isomorphism Theorems]], [[Chinese Remainder Theorem]]

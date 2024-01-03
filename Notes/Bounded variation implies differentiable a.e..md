@@ -5,6 +5,7 @@ mathLink: $\BV\Rightarrow$ differentiable $\lambda$-a.e.
 <div class="topSpace"></div>
 
 Date Created: 03/12/2023 04:13:25
+References:
 Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Calculus on the Real Line#^jordan-decomposition]], [[Real Numbers#^rationals-dense-in-reals]], [[Borel Measures on the Real Line]], [[Lebesgue Differentiation Theorem]]

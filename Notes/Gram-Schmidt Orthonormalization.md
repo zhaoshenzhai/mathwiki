@@ -1,6 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/06/2022 16:08:32
+References:
 Tags: #Type/Theorem #Topic/Functional_Analysis
 
 Proved by: [[Orthonormal sets are linearly independent]], [[Basis Extension Theorem]]

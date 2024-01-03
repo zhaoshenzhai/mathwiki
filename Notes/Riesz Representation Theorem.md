@@ -1,6 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 03/04/2023 10:42:47
+References:
 Tags: #Type/Theorem #Topic/Functional_Analysis
 
 Proved by: [[Dimension Theorem]], [[Orthogonal Decomposition]], [[Orthonormal Expansion]]

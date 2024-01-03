@@ -5,6 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 29/06/2023 11:21:45
+References:
 Tags: #Type/Theorem #Topic/Group_Theory
 
 Proved by: [[Basic properties of subgroups]], [[Class Equation]], [[Lagrange's Theorem]]

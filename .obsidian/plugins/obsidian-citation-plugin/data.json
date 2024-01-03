@@ -3,7 +3,7 @@
   "literatureNoteTitleTemplate": "@{{citekey}}",
   "literatureNoteFolder": "",
   "literatureNoteContentTemplate": "---\ntitle: {{title}}\nauthors: {{authorString}}\nyear: {{year}}\n---\n\n",
-  "markdownCitationTemplate": "#Reference/{{citekey}}",
-  "alternativeMarkdownCitationTemplate": "#Reference/{{citekey}}",
+  "markdownCitationTemplate": "#Ref/{{citekey}}",
+  "alternativeMarkdownCitationTemplate": "#Ref/{{citekey}}",
   "citationExportPath": "bibliography.bib"
 }

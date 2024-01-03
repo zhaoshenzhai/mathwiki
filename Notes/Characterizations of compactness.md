@@ -6,6 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 28/12/2023 12:31:48
+References:
 Tags: #Type/Theorem #Topic/Topology
 
 Proved by: [[Characterizations of topology via nets]], [[Cantor's Theorem]]

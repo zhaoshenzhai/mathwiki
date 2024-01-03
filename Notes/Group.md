@@ -11,6 +11,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 04/05/2022 13:08:40
+References:
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Solvable Group]], [[Abelian Group]], [[Simple Group]], [[p-group]], [[Conjugation Action#^inner-automorphism]]

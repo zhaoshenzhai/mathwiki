@@ -342,5 +342,23 @@
       ],
       "key": "Enter"
     }
-  ]
+  ],
+  "obsidian-citation-plugin:insert-markdown-citation": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "C"
+    }
+  ],
+  "obsidian-citation-plugin:update-bib-data": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "C"
+    }
+  ],
+  "obsidian-citation-plugin:insert-citation": [],
+  "obsidian-citation-plugin:open-literature-note": []
 }

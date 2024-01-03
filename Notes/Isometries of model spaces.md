@@ -5,6 +5,7 @@ mathLink: Properties of $\Isom M^n_\kappa$
 <div class="topSpace"></div>
 
 Date Created: 15/09/2023 22:09:32
+References:
 Tags: #Type/Proposition #Topic/Metric_Geometry
 
 Proved by: <i>Not Applicable</i>

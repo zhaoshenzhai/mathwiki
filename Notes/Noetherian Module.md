@@ -6,6 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 08/01/2023 22:12:15
+References:
 Tags: #Type/Definition #Topic/Rings_and_Modules/Module_Theory
 
 Types: [[Principal Ideal Domain (PID)]]

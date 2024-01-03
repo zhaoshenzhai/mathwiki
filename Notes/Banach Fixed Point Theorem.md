@@ -1,6 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 09/02/2023 10:46:58
+References:
 Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Complete Metric Space#^contractive-implies-cauchy]]
