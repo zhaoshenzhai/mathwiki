@@ -7,7 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 04/12/2023 14:54:59
-References:
+References: #Ref/Fol07 #Ref/Anu23_564
 Tags: #Type/Proposition #In_Progress
 
 Proved by: <i>Not Applicable</i>

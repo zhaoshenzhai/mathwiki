@@ -8,7 +8,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 03/12/2023 09:22:57
-References:
+References: #Ref/Fol07 #Ref/Anu23_564
 Tags: #Type/Proposition #Topic/Functional_Analysis
 
 Proved by: [[Banach Space#^characterization-of-completeness]], [[Convergence Theorems]], [[Chebyshev's Inequality]], [[Convergence Theorems#^simple-function-dense-in-L1]], [[Pointwise-limits of measurable functions are measurable]]

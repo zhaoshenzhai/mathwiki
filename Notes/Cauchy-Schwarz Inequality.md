@@ -6,7 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 26/06/2022 17:19:32
-References:
+References: #Ref/Axl24
 Tags: #Type/Theorem #Topic/Functional_Analysis
 
 Proved by: [[Basic properties of orthogonal projections]]

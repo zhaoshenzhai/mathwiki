@@ -7,7 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 06/08/2023 18:19:04
-References:
+References: #Ref/Alu09
 Tags: #Type/Theorem #Topic/Rings_and_Modules/Module_Theory
 
 Proved by: [[Canonical Forms]], [[Leibniz Formula]]

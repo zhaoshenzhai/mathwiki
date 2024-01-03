@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 13/09/2023 17:24:38
-References:
+References: #Ref/Anu23_564
 Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Basic properties of measures]], [[Characterizations of topology via nets#^sequential-characterizations-of-topology]], [[Continuous Extension Theorem]]

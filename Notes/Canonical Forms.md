@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 05/08/2023 17:22:19
-References:
+References: #Ref/Alu09
 Tags: #Type/Theorem #Topic/Rings_and_Modules/Module_Theory
 
 Proved by: [[Polynomial ring over fields is a EUD]], [[EUD implies PID]], [[Structure Theorem]]

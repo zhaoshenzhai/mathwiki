@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 28/06/2023 17:37:50
-References:
+References: #Ref/Lan02
 Tags: #Type/Proposition #Topic/Group_Theory
 
 Proved by: [[Class Equation]], [[Lagrange's Theorem]], [[Cauchy's Theorem]], [[Isomorphism Theorems]]

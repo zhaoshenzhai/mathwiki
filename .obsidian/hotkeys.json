@@ -354,7 +354,8 @@
   "obsidian-citation-plugin:update-bib-data": [
     {
       "modifiers": [
-        "Meta"
+        "Meta",
+        "Shift"
       ],
       "key": "C"
     }

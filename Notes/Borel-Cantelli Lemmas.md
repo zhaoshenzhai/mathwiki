@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 18/10/2023 20:03:11
-References:
+References: #Ref/Fol07 #Ref/Anu23_564
 Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Basic properties of measures#^monotone-convergence-of-sets]]

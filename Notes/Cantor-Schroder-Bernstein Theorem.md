@@ -5,7 +5,7 @@ mathLink: Cantor-Schröder-Bernstein Theorem
 <div class="topSpace"></div>
 
 Date Created: 21/12/2023 19:44:51
-References:
+References: #Ref/NONE
 Tags: #Type/Theorem #Topic/Set_Theory/Later
 
 Proved by: <i>Not Applicable</i>

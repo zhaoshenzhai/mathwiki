@@ -7,7 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 13/09/2023 18:28:00
-References:
+References: #Ref/Fol07 #Ref/Anu23_564
 Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Basic properties of measures#^monotone-convergence-of-sets]], [[Calculus on the Real Line#^jordan-decomposition]], [[Caratheodory's Extension Theorem]], [[Real Numbers#^heine-borel]]
