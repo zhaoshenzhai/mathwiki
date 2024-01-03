@@ -24,7 +24,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $G$ be a group and fix a category $C$. A <b>$G$-action</b> is a functor $BG\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut\l(X\r)$.
+Let $G$ be a group and fix a category $C$. A <b>$G$-action</b> is a functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut\l(X\r)$.
 * When $C\coloneqq\catset$/$\catvect$/$\cattop$, the pair $\tpl{X,\phi}$ is called a <b>$G$-set</b>/<b>$G$-representation</b>/<b>$G$-space</b>.
 * The <b>category of $G$-actions</b> is the category $G\act C$ whose objects are $G$-actions and whose morphisms are natural transformations.
 

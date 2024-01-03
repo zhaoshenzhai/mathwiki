@@ -29,4 +29,4 @@ A <b>monoid</b> is a triple $\tpl{M,\ast,e}$ where $\ast$ is an associative bina
 ```
 ^category-of-monoids
 
-<b>Remark.</b> Every monoid $M$ determines a category $BM$ with a single object, whose morphisms are elements of $M$ and whose composition is given by $\ast$. The identity element $e\in M$ is the identity morphism of the single object.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Every monoid $M$ determines a category $\cat{B}M$ with a single object, whose morphisms are elements of $M$ and whose composition is given by $\ast$. The identity element $e\in M$ is the identity morphism of the single object.<span style="float:right;">$\blacklozenge$</span>
