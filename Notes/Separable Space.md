@@ -6,7 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 24/01/2023 11:16:39
-References:
+References: #Ref/Anu23_564 #Ref/Eng89
 Tags: #Type/Definition #Topic/Topology
 
 Types: [[Polish Space]]

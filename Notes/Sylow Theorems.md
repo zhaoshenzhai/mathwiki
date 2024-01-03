@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/06/2023 19:31:14
-References:
+References: #Ref/Lan02 #Ref/Alu09
 Tags: #Type/Theorem #Topic/Group_Theory
 
 Proved by: [[Basic properties of p-groups]], [[Cauchy's Theorem]], [[Class Equation]], [[Orbit-Stabilizer Theorem]], [[Lagrange's Theorem]], [[Integers#^invertible-iff-coprime]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 01/09/2022 15:41:10
-References:
+References: #Ref/Rud76
 Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>

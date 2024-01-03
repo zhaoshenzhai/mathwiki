@@ -8,7 +8,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 13/10/2022 12:25:27
-References:
+References: #Ref/Alu09 #Ref/Lan02 #Ref/DF03
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>

@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 18/07/2023 11:32:58
-References:
+References: #Ref/Alu09
 Tags: #Type/Proposition #Topic/Rings_and_Modules/Module_Theory
 
 Proved by: <i>Not Applicable</i>

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/05/2023 16:35:51
-References:
+References: #Ref/Hat02 #Ref/Rot88 #Ref/Lee10
 Tags: #Type/Example #Topic/Topology
 
 Types: <i>Not Applicable</i>

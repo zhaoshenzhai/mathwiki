@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/05/2023 14:06:39
-References:
+References: #Ref/Lee10 #Ref/Hat02 #Ref/Rot88
 Tags: #Type/Theorem #Topic/Topology
 
 Proved by: [[Lifting Criterion]], [[Covering Automorphisms and Monodromy#^covering-automorphism-universal-fundamental-group]], [[Covering Space Action]], [[Covering Automorphisms and Monodromy]]

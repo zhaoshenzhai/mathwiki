@@ -5,7 +5,7 @@ mathLink: $\catfgrep[\C]{G}\iso\catfgmod[{\C\l[G\r]}]$
 <div class="topSpace"></div>
 
 Date Created: 02/09/2023 13:48:55
-References:
+References: #Ref/NONE
 Tags: #Type/Proposition #Topic/Category_Theory
 
 Proved by: <i>Not Applicable</i>

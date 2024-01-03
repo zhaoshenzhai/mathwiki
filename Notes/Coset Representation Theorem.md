@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 28/06/2023 14:51:23
-References:
+References: #Ref/NONE
 Tags: #Type/Theorem #Topic/Group_Theory
 
 Proved by: [[Orbit-Stabilizer Theorem]], [[Isomorphism Theorems]], [[Lagrange's Theorem]]

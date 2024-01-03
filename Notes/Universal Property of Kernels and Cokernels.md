@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 18/07/2023 14:04:29
-References:
+References: #Ref/Alu09
 Tags: #Type/Theorem #Topic/Rings_and_Modules/Module_Theory
 
 Proved by: [[Universal Property of Quotients]]

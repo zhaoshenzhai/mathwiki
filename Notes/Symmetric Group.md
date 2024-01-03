@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 05/10/2022 19:09:54
-References:
+References: #Ref/Lan02 #Ref/Alu09
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Alternating Group]]

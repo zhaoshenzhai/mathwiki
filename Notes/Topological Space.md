@@ -12,7 +12,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 23/01/2022 19:05:00
-References:
+References: #Ref/Mun00 #Ref/Eng89 #Ref/Mac10
 Tags: #Type/Definition #Topic/Topology
 
 Types: [[Compact Space]], [[Connected Space]], [[Metric Space]], [[Separation Axioms]], [[k-Space]], [[Sequential Space]], [[First and Second Countable Spaces]], [[Separable Space]]

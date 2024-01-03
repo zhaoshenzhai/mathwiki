@@ -7,7 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 22/12/2023 16:56:45
-References:
+References: #Ref/Anu23 #Ref/Anu23_318
 Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: [[Henkin Theory]]

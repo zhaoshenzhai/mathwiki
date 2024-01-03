@@ -6,7 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 14/09/2022 19:47:03
-References:
+References: #Ref/DF03 #Ref/Alu09
 Tags: #Type/Definition #Topic/Rings_and_Modules/Ring_Theory
 
 Types: <i>Not Applicable</i>

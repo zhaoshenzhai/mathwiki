@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/06/2022 12:26:36
-References:
+References: #Ref/Axl24
 Tags: #Type/Proposition #Topic/Functional_Analysis
 
 Proved by: [[Pythagorean Theorem]]

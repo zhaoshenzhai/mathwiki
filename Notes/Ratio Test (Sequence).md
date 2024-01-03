@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 20/10/2022 17:41:09
-References:
+References: #Ref/Rud76
 Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Geometric Sequence]]

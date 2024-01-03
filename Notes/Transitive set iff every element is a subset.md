@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 30/01/2022 19:20:35
-References:
+References: #Ref/NONE
 Tags: #Type/Proposition #Topic/Set_Theory/Later/Ordinal
 
 Proved by: <i>Not Applicable</i>

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 27/11/2023 23:26:39
-References:
+References: #Ref/Fol07 #Ref/Anu23_564
 Tags: #Type/Proposition #Topic/Real_Analysis
 
 Proved by: [[Regularity and Tightness]]

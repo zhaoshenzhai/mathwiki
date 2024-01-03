@@ -7,7 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 25/08/2023 17:02:33
-References:
+References: #Ref/Alu09
 Tags: #Type/Proposition #Topic/Rings_and_Modules/Ring_Theory
 
 Proved by: <i>Not Applicable</i>

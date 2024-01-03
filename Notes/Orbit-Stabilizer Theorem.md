@@ -1,7 +1,7 @@
 <div class="top Space"></div>
 
 Date Created: 05/05/2023 14:32:11
-References:
+References: #Ref/Alu09
 Tags: #Type/Theorem #Topic/Group_Theory
 
 Proved by: [[Universal Property of Quotients]]

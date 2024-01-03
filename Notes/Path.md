@@ -6,7 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 17/05/2023 20:04:52
-References:
+References: #Ref/Lee10 #Ref/Hat02 #Ref/Rot88
 Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>

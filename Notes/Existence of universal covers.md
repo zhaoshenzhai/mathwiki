@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 23/05/2023 21:55:54
-References:
+References: #Ref/Hat02 #Ref/Lee10
 Tags: #Type/Proposition #Topic/Topology
 
 Proved by: [[Homotopy Lifting Theorem]], [[Covering Space#^pi-injectivity-and-loops]]

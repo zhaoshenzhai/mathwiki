@@ -10,7 +10,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 09/01/2023 15:29:16
-References:
+References: #Ref/DF03 #Ref/Alu09
 Tags: #Type/Example #Topic/Rings_and_Modules/Ring_Theory
 
 Types: <i>Not Applicable</i>

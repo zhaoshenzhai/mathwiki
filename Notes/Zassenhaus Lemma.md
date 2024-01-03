@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 14/07/2023 17:28:21
-References:
+References: #Ref/Lan02
 Tags: #Type/Proposition #Topic/Group_Theory
 
 Proved by: [[Basic properties of subgroups]], [[Isomorphism Theorems]]

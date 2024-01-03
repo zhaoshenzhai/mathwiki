@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 07/05/2022 20:28:12
-References:
+References: #Ref/Alu09
 Tags: #Type/Theorem #Topic/Rings_and_Modules/Module_Theory/Later/Rank
 
 Proved by: [[Basis Extension Theorem]], [[Free Module#^universal-property-of-free-modules]], [[Splitting Lemma]]

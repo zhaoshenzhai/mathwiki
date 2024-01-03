@@ -7,7 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 23/07/2023 19:33:10
-References:
+References: #Ref/Alu09
 Tags: #Type/Proposition #Topic/Rings_and_Modules
 
 Proved by: [[Basis Extension Theorem]]

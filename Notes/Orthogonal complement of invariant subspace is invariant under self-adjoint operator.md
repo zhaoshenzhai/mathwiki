@@ -5,7 +5,7 @@ mathLink: $T$ self-adjoint and $U$ is $T$-invariant $\Rightarrow$ $U^\perp$ is $
 <div class="topSpace"></div>
 
 Date Created: 12/04/2023 10:04:34
-References:
+References: #Ref/Axl24
 Tags: #Type/Proposition #Topic/Functional_Analysis
 
 Proved by: <i>Not Applicable</i>

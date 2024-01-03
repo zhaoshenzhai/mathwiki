@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 22/11/2023 19:49:54
-References:
+References: #Ref/Fol07 #Ref/Anu23_564
 Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Pointwise-limits of measurable functions are measurable]], [[Convergence Theorems]], [[Hahn Decomposition Theorem]]

@@ -8,7 +8,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 27/09/2022 18:49:17
-References:
+References: #Ref/Eng89 #Ref/BH99
 Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Complete Metric Space]], [[Geodesic Space]]

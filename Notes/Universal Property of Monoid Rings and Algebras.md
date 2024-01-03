@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 15/07/2023 17:16:43
-References:
+References: #Ref/Lan02 #Ref/Alu09
 Tags: #Type/Theorem #Topic/Algebra
 
 Proved by: <i>Not Applicable</i>

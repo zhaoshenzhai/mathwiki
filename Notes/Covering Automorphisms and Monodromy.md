@@ -8,7 +8,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 23/11/2023 21:16:06
-References:
+References: #Ref/Hat02 #Ref/Rot88 #Ref/Lee10
 Tags: #Type/Theorem #Topic/Topology
 ^monodromy-action
 

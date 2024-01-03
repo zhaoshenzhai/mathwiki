@@ -7,7 +7,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 17/05/2023 23:41:42
-References:
+References: #Ref/Lee10 #Ref/Hat02 #Ref/Rot88
 Tags: #Type/Definition #Topic/Topology
 
 Types: [[Simply-connected Space]]

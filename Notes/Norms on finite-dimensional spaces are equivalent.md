@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 21/02/2023 10:19:11
-References:
+References: #Ref/NONE
 Tags: #Type/Proposition #Topic/Functional_Analysis/Later
 
 Proved by: [[Real Numbers#^heine-borel]], [[Compact Space#^extreme-value-theorem]]

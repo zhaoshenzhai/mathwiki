@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 24/07/2023 22:07:23
-References:
+References: #Ref/Alu09 #Ref/Hat02
 Tags: #Type/Proposition #Topic/Rings_and_Modules/Module_Theory
 
 Proved by: <i>Not Applicable</i>

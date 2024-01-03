@@ -9,7 +9,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 23/01/2023 17:40:02
-References:
+References: #Ref/Alu09
 Tags: #Type/Definition #Topic/Rings_and_Modules/Module_Theory
 
 Types: [[Finitely-generated Module]], [[Inner Product Space]]

@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 16/11/2022 14:06:35
-References:
+References: #Ref/Alu09 #Ref/Lan02
 Tags: #Type/Definition #Topic/Rings_and_Modules/Ring_Theory
 
 Types: [[Maximal Ideal]], [[Prime Ideal]]

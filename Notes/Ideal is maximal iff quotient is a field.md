@@ -5,7 +5,7 @@ mathLink: Ideal $\mf{a}$ maximal $\Leftrightarrow$ quotient $R/\mf{a}$ field
 <div class="topSpace"></div>
 
 Date Created: 22/11/2022 19:29:25
-References:
+References: #Ref/DF03
 Tags: #Type/Proposition #Topic/Rings_and_Modules/Ring_Theory
 
 Proved by: <i>Not Applicable</i>

@@ -5,7 +5,7 @@ mathLink: $\ell^p$ Space
 <div class="topSpace"></div>
 
 Date Created: 04/12/2023 13:23:13
-References:
+References: #Ref/Fol07 #Ref/Anu23_564
 Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: <i>Not Applicable</i>

@@ -5,7 +5,7 @@ mathLink: Metrizable $\Rightarrow$ Limitation of Size
 <div class="topSpace"></div>
 
 Date Created: 28/12/2023 16:17:40
-References:
+References: #Ref/Eng89
 Tags: #Type/Theorem #Topic/Topology
 
 Proved by: [[Distance between subspaces#^closed-G-delta-open-F-sigma]], [[Zorn's Lemma]], [[Real Numbers#^rationals-dense-in-reals]]

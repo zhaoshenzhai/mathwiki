@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 29/12/2022 23:23:37
-References:
+References: #Ref/Anu22_254
 Tags: #Type/Theorem #Topic/Real_Analysis
 
 Proved by: [[Real Numbers#^heine-borel]], [[Compact Space#^extreme-value-theorem]]

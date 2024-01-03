@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 29/10/2022 18:32:31
-References:
+References: #Ref/Rud76 #Ref/Anu22_254
 Tags: #Type/Theorem #Topic/Real_Analysis/Later
 
 Proved by: [[Real Numbers#^bolzano-weierstrass]]

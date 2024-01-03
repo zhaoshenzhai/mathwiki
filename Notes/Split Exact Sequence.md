@@ -1,7 +1,7 @@
 <div class="topSpace"></div>
 
 Date Created: 15/06/2023 21:05:55
-References:
+References: #Ref/Alu09 #Ref/Ale15
 Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: <i>Not Applicable</i>

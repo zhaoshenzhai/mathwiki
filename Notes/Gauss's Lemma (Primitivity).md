@@ -5,7 +5,7 @@ mathLink: auto
 <div class="topSpace"></div>
 
 Date Created: 22/01/2023 22:29:15
-References:
+References: #Ref/Alu09
 Tags: #Type/Theorem #Topic/Rings_and_Modules/Ring_Theory
 
 Proved by: [[Universal Property of Monoid Rings and Algebras]], [[Isomorphism Theorems]], [[Basic properties of polynomial rings (integral domain)]]

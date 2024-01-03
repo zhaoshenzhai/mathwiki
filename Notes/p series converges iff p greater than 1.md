@@ -5,7 +5,7 @@ mathLink: $p$-series converges $\Leftrightarrow$ $p>1$
 <div class="topSpace"></div>
 
 Date Created: 16/03/2023 10:15:25
-References:
+References: #Ref/Rud76
 Tags: #Type/Proposition #Topic/Real_Analysis
 
 Abstractions: <i>Not Applicable</i>
