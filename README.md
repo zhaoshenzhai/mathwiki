@@ -53,6 +53,7 @@ Plugins:
 * [Living Graph](https://github.com/geoffreysflaminglasersword/obsidian-living-graph): Graph animations; for fun.
 * [Admonition](https://github.com/valentine195/obsidian-admonition): A replacement for the `mdframed` package in LaTeX.
 * [MathLinks](https://github.com/zhaoshenzhai/obsidian-mathlinks): Render MathJax in links; see [below](https://github.com/zhaoshenzhai/MathWiki#symbols-mathlinks).
+* [Citations](https://github.com/hans/obsidian-citation-plugin): Add citations from [bibliography](https://github.com/zhaoshenzhai/MathWiki/blob/master/bibliography.bib).
 * [Hider](https://github.com/kepano/obsidian-hider): Hide title bars, scroll bars, YAML, etc.
 
 I wrote some bash scripts to (try) maintain the consistency of my notes; [main.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/main.sh) acts as a hub for me to run them.
