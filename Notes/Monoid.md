@@ -6,13 +6,13 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 03/06/2023 23:00:36
-References: #Ref/Mac10
+References: #Ref/Mac10 #Ref/Rui19
 Tags: #Type/Definition #Topic/Group_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: [[Group]], [[Ring]], [[Monoid Ring or Algebra]]
-Generalizations: <i>Not Applicable</i>
+Generalizations: [[Category]]
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
@@ -29,4 +29,5 @@ A <b>monoid</b> is a triple $\tpl{M,\ast,e}$ where $\ast$ is an associative bina
 ```
 ^category-of-monoids
 
-<b>Remark.</b> Every monoid $M$ determines a category $\cat{B}M$ with a single object, whose morphisms are elements of $M$ and whose composition is given by $\ast$. The identity element $e\in M$ is the identity morphism of the single object.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Every monoid $M$ determines a category $\cat{B}M$ with a single object, whose morphisms are elements of $M$ and whose composition is given by $\ast$. The identity element $e\in M$ is the identity morphism of the single object. Conversely, if $C$ is a category with a single object $\ast$, then $C\l(\ast,\ast\r)$ is a monoid, and $C=\cat{B}C\l(\ast,\ast\r)$.
+* Since we have the <i>endomorphism monoid</i> $C\l(c,c\r)$ for each $c\in C$, we may in this sense view categories as ‘many-object monoids’.<span style="float:right;">$\blacklozenge$</span>
