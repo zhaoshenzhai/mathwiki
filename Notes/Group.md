@@ -48,4 +48,5 @@ A <b>group</b> is a monoid $\tpl{G,\ast,e}$ such that every element is invertibl
 
 ---
 
-<b>Remark.</b> Alternatively, one can define groups as a groupoid with a single object, in which case group homomorphisms are just functors between said groupoids.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Alternatively, one can define groups as a groupoid with a single object, in which case group homomorphisms are just functors between said groupoids.
+* In this case, a group homomorphism $\phi:G\to H$ is simply a functor $\phi:\cat{B}G\to\cat{B}H$.<span style="float:right;">$\blacklozenge$</span>

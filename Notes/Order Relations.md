@@ -38,5 +38,5 @@ The <b>category of preordered sets</b> is the category $\catord$ whose objects a
 
 ---
 
-<b>Remark.</b> A preordered set induces a category whose objects are elements $x\in X$ and whose morphisms $x\to x'$ are singletons $\l\{\tpl{x,x'}\r\}$ if $x\leq x'$ and empty otherwise.
+<b>Remark.</b> A preordered set induces a category whose objects are elements $x\in X$ and whose morphisms $x\to x'$ are singletons $\l\{\tpl{x,x'}\r\}$ if $x\leq x'$ and empty otherwise. Identifying the two, a functor $F:\tpl{X,\leq_X}\to\tpl{Y,\leq_Y}$ is simply an order-preserving map.
 * Conversely, a category $C$ is said to be a <i>preorder category</i> if for any $x,x'\in C$, there is at most one morphism $x\to x'$.<span style="float:right;">$\blacklozenge$</span> ^preorder-category
