@@ -9,8 +9,8 @@ Date Created: 06/03/2022 15:11:37
 References: #Ref/Mac10
 Tags: #Type/Definition #Topic/Category_Theory
 
-Types: <i>Not Applicable</i>
-Examples: [[Hom Functor]], [[Topological Space#^open-set-functor]], [[Path#^path-components]], [[Fundamental Group]], [[Cone]], [[Group Action]], [[Abelianization]], [[Dual Space]]
+Types: [[Representable Functor]]
+Examples: [[Hom Functor]], [[Path#^path-components]], [[Fundamental Group]], [[Cone]], [[Group Action]], [[Abelianization]], [[Dual Space]]
 Constructions: [[Natural Transformation]], [[Equivalence of Categories]]
 Generalizations: <i>Not Applicable</i>
 
