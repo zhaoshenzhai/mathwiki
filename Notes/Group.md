@@ -16,10 +16,10 @@ Tags: #Type/Definition #Topic/Group_Theory
 
 Types: [[Solvable Group]], [[Abelian Group]], [[Simple Group]], [[p-group]], [[Conjugation Action#^inner-automorphism]]
 Examples: [[Symmetric Group]], [[Fundamental Group]], [[Group of Units]]
-Constructions: [[Group Action]], [[Order]], [[Coset]], [[Abelianization]], [[Exact Sequence]], [[Composition Series]], [[Semidirect Product]], [[Kernel (Group Theory)]]
+Constructions: [[Group Action]], [[Order]], [[Coset]], [[Abelianization]], [[Exact Sequence]], [[Composition Series]], [[Semidirect Product]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Isomorphism Theorems]], [[Sylow Theorems]], [[Cauchy's Theorem]], [[Regular Action#^cayley]], [[Basic properties of subgroups]]
+Properties: [[Grp is complete]], [[Isomorphism Theorems]], [[Sylow Theorems]], [[Cauchy's Theorem]], [[Regular Action#^cayley]], [[Basic properties of subgroups]]
 Sufficiencies: [[Free Group]], [[Generating Set (Group)]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
@@ -39,6 +39,7 @@ A <b>group</b> is a monoid $\tpl{G,\ast,e}$ such that every element is invertibl
 * (<i>Subgroup</i>). A subgroup of a group $G$ is a subset $H$ where the inclusion $H\into G$ is a group homomorphism, in which case we write $H\substructeq G$.
 * (<i>Product</i>). The <i>direct</i> product of a family $\l\{G_i\r\}$ of groups is the Cartesian product $\prod_iG_i$ equipped with the component-wise operation. ^direct-product
 * (<i>Coproduct</i>). The <i>free</i> product of a family $\l\{G_i\r\}$ of groups is the set $\coprod_iG_i$ of all reduced words in $\bigcup_iG_i$ equipped with the concatenation operation.
+* (<i>Equalizer</i>). <span style="color:pink">fill this in and relate it to kernels.</span>
 * (<i>Quotient</i>). The quotient group of a group $G$ with a congruence relation $\sim$ is the quotient set $G/\!\sim$ equipped with the operation $\l[g_1\r]\ast\l[g_2\r]\coloneqq\l[g_1g_2\r]$.<span style="float:right;">$\blacklozenge$</span> ^quotient-group
 
 ---

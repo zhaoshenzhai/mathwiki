@@ -6,7 +6,7 @@ mathLink: auto
 
 Date Created: 18/07/2023 14:04:29
 References: #Ref/Alu09
-Tags: #Type/Theorem #Topic/Rings_and_Modules/Module_Theory
+Tags: #Type/Theorem #Topic/Rings_and_Modules/Module_Theory/Later
 
 Proved by: [[Universal Property of Quotients]]
 References: <i>Not Applicable</i>

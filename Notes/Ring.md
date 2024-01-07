@@ -2,6 +2,7 @@
 mathLink-blocks:
     category-of-rings: $\catring$
     ring-homomorphism: Ring Homomorphism
+    direct-product: Products in $\catring$
 ---
 
 <div class="topSpace"></div>
@@ -12,7 +13,7 @@ Tags: #Type/Definition #Topic/Rings_and_Modules/Ring_Theory
 
 Types: [[Commutative Ring]], [[Division Ring]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Ideal]], [[Group of Units]], [[Multiplicative Subset]], [[Characteristic]], [[Direct Product (ring)]], [[Module]], [[Kernel (Ring Theory)]]
+Constructions: [[Ideal]], [[Group of Units]], [[Multiplicative Subset]], [[Characteristic]], [[Module]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Isomorphism Theorems]]
@@ -29,6 +30,15 @@ A <b>ring</b> is a triple $\tpl{R,+,\cdot}$ where $\tpl{R,+}$ is an abelian grou
 
 ```
 ^category-of-rings
+
+<b>Remark.</b> The isomorphisms in $\catring$ are precisely the bijective ring homomorphisms. Furthermore, the category $\catring$ is complete. <span style="color:pink"> fill this in</span>.
+* (<i>Subring</i>). A subring of a ring $R$ is a subset $S$ where the inclusion $S\into R$ is a ring homomorphism, in which case we write $S\substructeq R$.
+* (<i>Product</i>). The <i>direct</i> product of a family $\l\{R_i\r\}$ of rings is the Cartesian product $\prod_iR_i$ equipped with the component-wise operations. ^direct-product
+* (<i>Coproduct</i>). <span style="color:pink">wait what?</span>
+* (<i>Equalizer</i>). <span style="color:pink">fill this in and relate it to kernels.</span>
+* (<i>Quotient</i>). The quotient ring of a ring $R$ with a congruence relation $\sim$ is the quotient group $R/\!\sim$ equipped with the binary operation $\l[r_1\r]\ast\l[r_2\r]\coloneqq\l[r_1r_2\r]$.<span style="float:right;">$\blacklozenge$</span>
+
+---
 
 <b>Remark.</b> Any ring homomorphism $\phi:R\to S$ defines an $R$-module structure on $S$ via the action $r\cdot s\coloneqq\phi\l(r\r)s$. The special case where $R=S$ and $\phi=\id$ gives any ring $R$ a module over itself. More is true if we assume that $R$ is commutative and that $\phi\l(R\r)\subseteq Z\l(S\r)$, in which case the multiplication in $S$ is $R$-bilinear since
 ^ring-homomorphism

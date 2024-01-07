@@ -5,7 +5,7 @@ References: #Ref/Mac10
 Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: <i>Not Applicable</i>
-Examples: [[Cartesian Product]], [[Group#^direct-product]], [[Direct Product (ring)]], [[Direct Product (module)]], [[Topological Space#^product-space]]
+Examples: [[Cartesian Product]], [[Group#^direct-product]], [[Ring#^direct-product]], [[Direct Product (module)]], [[Topological Space#^product-space]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

@@ -37,6 +37,7 @@ Let $X$ be a set. A <b>topology</b> on $X$ is an inclusion poset $\tau\subseteq\
 ^continuous-function
 
 <b>Remark.</b> The isomorphisms in $\cattop$ are continuous bijections whose inverse is also continuous. The second condition is necessary; for instance, $\exp:\l[0,1\r)\to S^1$ is a continuous bijection whose inverse is <i>not</i> continuous. A sufficient condition for a continuous bijection $f:X\to Y$ to have a continuous inverse is that $X$ is compact and $Y$ is Hausdorff, in which case every closed set $F\subseteq X$ is compact, so $f\l(F\r)$ is compact and hence closed too.<span style="float:right;">$\blacklozenge$</span> ^isomorphisms
+^product-space
 
 ---
 
