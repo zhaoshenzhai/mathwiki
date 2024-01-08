@@ -12,7 +12,7 @@ References: #Ref/Fol07 #Ref/Eng89
 Tags: #Type/Definition #Topic/Topology/Later
 
 Types: <i>Not Applicable</i>
-Examples: [[Metric Space#^metric-spaces-are-first-countable]]
+Examples: [[Metric Space#^metric-spaces-are-first-countable]], [[Manifold]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

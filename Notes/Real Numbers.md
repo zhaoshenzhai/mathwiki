@@ -14,7 +14,7 @@ Tags: #Type/Example #Topic/Real_Analysis
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Borel Measures on the Real Line]], [[Complex Numbers]], [[Model Spaces]]
+Constructions: [[Borel Measures on the Real Line]], [[Manifold]], [[Model Spaces]]
 Generalizations: [[Little lp Space]]
 
 Properties: [[Calculus on the Real Line]], [[Convergence of Sequences in R]]

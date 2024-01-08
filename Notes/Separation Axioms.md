@@ -10,7 +10,7 @@ References: #Ref/Eng89 #Ref/Fol07
 Tags: #Type/Definition #Topic/Topology
 
 Types: <i>Not Applicable</i>
-Examples: [[Metric Space]]
+Examples: [[Metric Space]], [[Manifold]]
 Constructions: [[k-Space]]
 Generalizations: <i>Not Applicable</i>
 
