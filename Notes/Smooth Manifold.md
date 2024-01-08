@@ -17,6 +17,14 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $M^n$ be a manifold. 
+Let $M$ be a manifold. A <b>smooth structure</b> on $M$ is a maximal smooth atlas $\mc{A}$ on $M$, and the pair $\tpl{M,\mc{A}}$ is called a <b>smooth manifold</b>.
+* A map $F:M\to N$ is <b>smooth</b> if every $p\in M$ admits smooth charts $\tpl{U,\phi}\ni p$ and $\tpl{V,\psi}\ni F\l(p\r)$ with $F\l(U\r)\subseteq V$ such that $\psi\circ F\circ\phi^{-1}$ is smooth.
+* The <b>category of smooth manifolds</b> is the category $\catman$ whose objects are smooth manifolds and whose morphisms are smooth maps.
 
 ```
+
+<b>Remark.</b> An atlas $\mc{A}$ is said to be <i>smooth</i> if the transition map $\phi_2\circ\phi_1^{-1}$ between any two charts $\tpl{U_i,\phi_i}\in\mc{A}$ with $U_1\cap U_2\neq\em$ is smooth. Note that every smooth atlas $\mc{A}$ is contained in a unique maximal smooth atlas (the atlas $\mc{A}^\ast$ consisting of <i>all</i> charts compatible with $\mc{A}$), and that two smooth atlases on $M$ determine the same smooth structure iff their union is also a smooth atlas on $M$.<span style="float:right;">$\blacklozenge$</span>
+
+---
+
+<b>Remark.</b> More generally, for any symbol $k\in\N\cup\l\{\infty,\omega\r\}$, a <i>$C^k$-manifold</i> is a manifold equipped with a maximal $C^k$-atlas where we require that all transition maps are $C^k$ instead. Note that smooth manifolds are $C^\infty$-manifolds, and we call $C^\omega$-manifolds <i>analytic</i>. Similarly for maps and the categories $\catman[k]$.<span style="float:right;">$\blacklozenge$</span>
