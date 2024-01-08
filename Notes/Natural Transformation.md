@@ -11,7 +11,7 @@ Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Equivalence of Categories]]
+Constructions: [[Representable Functor]], [[Equivalence of Categories]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
