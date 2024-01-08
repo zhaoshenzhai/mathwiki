@@ -12,7 +12,7 @@ Date Created: 23/01/2023 17:40:02
 References: #Ref/Alu09
 Tags: #Type/Definition #Topic/Rings_and_Modules/Module_Theory
 
-Types: [[Finitely-generated Module]], [[Inner Product Space]]
+Types: [[Finitely-generated Module]], [[Normed Vector Space]]
 Examples: [[Abelian Group]], [[Ring]], [[Ideal]]
 Constructions: [[Torsion]], [[Annihilator]], [[Dual Space]], [[General Linear Group]], [[Endomorphisms in Category of Modules]], [[Submodule]], [[Kernel and Cokernel (Module Theory)]], [[Direct Product (module)]], [[Direct Sum (Module)]]
 Generalizations: [[Antilinear Map]]

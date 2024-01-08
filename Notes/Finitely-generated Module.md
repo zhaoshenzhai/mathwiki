@@ -14,7 +14,7 @@ Examples: [[Cyclic Module]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Characterizations of fields#^finitely-generated-over-field-are-free]]
+Properties: [[Characterizations of fields#^finitely-generated-over-field-are-free]], [[Norms on finite-dimensional spaces]]
 Sufficiencies: [[Structure Theorem]]
 Equivalences: [[Complex representations equivalent to finitely-generated modules over group algebra]]
 Justifications: <i>Not Applicable</i>

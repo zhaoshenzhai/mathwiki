@@ -10,11 +10,11 @@ References: #Ref/Fol07 #Ref/Anu23_564
 Tags: #Type/Definition #Topic/Functional_Analysis
 
 Types: [[Banach Space]]
-Examples: <i>Not Applicable</i>
+Examples: [[Norms on finite-dimensional spaces]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Norms on finite-dimensional spaces are equivalent]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Cauchy-Schwarz Inequality#^inner-product-space-induces-a-norm]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
