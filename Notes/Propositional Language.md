@@ -2,11 +2,11 @@
 
 Date Created: 11/01/2024 15:41:22
 References: #Ref/Rui19 #Ref/Kra19
-Tags: #Type/Definition #In_Progress/Proof_Theory
+Tags: #Type/Definition #Topic/Logic/Proof_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Truth]]
+Constructions: [[Truth Assignment]]
 Generalizations: [[First Order Language]]
 
 Properties: <i>Not Applicable</i>
@@ -17,7 +17,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition (Language of Propositional Logic).
 
-A <b>(propositional) language</b> $\PL\l(\sigma\r)$ is an infinite set $\sigma$ of <b>atomic variables</b> together with the symbols $\top,\bot,\lnot,\land,\lor,\raise{2pt},,(,)$.
+A <b>propositional language</b> $\PL\l(\sigma\r)$ is an infinite set $\sigma$ of <b>atomic variables</b>, called a <b>propositional signature</b>, together with the symbols $\top,\bot,\lnot,\land,\lor,\raise{2pt},,(,)$.
 
 ```
 
