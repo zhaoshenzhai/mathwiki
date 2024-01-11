@@ -12,13 +12,13 @@ Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: [[Henkin Theory]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Models and Semantic Truth]], [[Proofs and Syntactic Truth]]
+Constructions: [[Models and Semantic Implication]], [[Proofs and Syntactic Implication]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Completeness Theorem]]
 Sufficiencies: [[Compactness Theorem]]
 Equivalences: [[Completeness Theorem#^syntactic-semantic-duality]]
-Justifications: [[Proofs and Syntactic Truth#^syntactic-compactness]], [[Zorn's Lemma]], [[Basic properties of consistent theories]]
+Justifications: [[Proofs and Syntactic Implication#^syntactic-compactness]], [[Zorn's Lemma]], [[Basic properties of consistent theories]]
 
 ``` ad-Definition
 title: Definition.

@@ -8,7 +8,7 @@ mathLink-blocks:
 
 Date Created: 04/12/2023 14:54:59
 References: #Ref/Fol07 #Ref/Anu23_564
-Tags: #Type/Proposition #In_Progress
+Tags: #Type/Proposition #In_Progress/Analysis
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>

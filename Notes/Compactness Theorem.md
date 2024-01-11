@@ -5,7 +5,7 @@ References: #Ref/Anu23 #Ref/Anu23_318
 Tags: #Type/Theorem #Topic/Logic/Model_Theory/Later
 
 Proved by: <i>Not Applicable</i>
-References: [[Proofs and Syntactic Truth#^soundness]], [[Proofs and Syntactic Truth#^syntactic-compactness]], [[Completeness Theorem]]
+References: [[Proofs and Syntactic Implication#^soundness]], [[Proofs and Syntactic Implication#^syntactic-compactness]], [[Completeness Theorem]]
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>

@@ -2,7 +2,7 @@
 
 Date Created: 08/01/2024 15:43:01
 References: #Ref/NONE
-Tags: #Type/Proposition #In_Progress
+Tags: #Type/Proposition #In_Progress/Topology
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>

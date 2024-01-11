@@ -10,7 +10,7 @@ Tags: #Type/Definition #Topic/Logic/Proof_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Proofs and Syntactic Truth]]
+Constructions: [[Proofs and Syntactic Implication]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Basic provable facts]]

@@ -7,7 +7,7 @@ mathLink-blocks:
 
 Date Created: 07/01/2024 16:54:27
 References: #Ref/Rei16 #Ref/Mac10
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #In_Progress/Category_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Representable Functor#^currying-in-set]], [[Topological Space#^open-set-functor]]

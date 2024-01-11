@@ -11,7 +11,7 @@ Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Monoid]], [[Group]], [[Ring]], [[Field]], [[Module]]
-Constructions: [[Definable Sets]], [[Theory]], [[Models and Semantic Truth]], [[Elementarity]]
+Constructions: [[Definable Sets]], [[Theory]], [[Models and Semantic Implication]], [[Elementarity]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -20,7 +20,7 @@ Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
-title: Definition.
+title: Definition (Structure).
 
 Let $\sigma\coloneqq\tpl{\mc{F},\mc{R},\mc{C}}$ be a signature. A <b>$\sigma$-structure</b> is a pair $\mc{A}\coloneqq(A,\sigma^\mc{A})$ consisting of a set $A$, called the <b>universe</b>, and an <b>interpretation</b> of $\sigma$ that assigns
 * a function $f^\mc{A}\!:A^n\to A$ to each function symbol $f\in\mc{F}_n$ of arity $n$,

@@ -6,7 +6,7 @@ Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Structure]], [[Axioms of First Order Logic]], [[Theory]], [[Proofs and Syntactic Truth]]
+Constructions: [[Structure]], [[Axioms of First Order Logic]], [[Theory]], [[Proofs and Syntactic Implication]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -15,12 +15,11 @@ Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
-title: Definition.
+title: Definition (Language of First Order Logic).
 
-A <b>signature</b> $\sigma\coloneqq\tpl{\mc{F},\mc{R},\mf{a}}$ consists of two disjoint sets $\mc{F}$ and $\mc{R}$ of <b>function</b> and <b>relation</b> symbols, together with an <b>arity</b> function $\mf{a}:\mc{F}\cup\mc{R}\to\N$.
-* For each $n\in\N^+$, let $\mc{F}_n\subseteq\mc{F}$ and $\mc{R}_n\subseteq\mc{R}$ be the subset of functions/relations of arity $n$. The function symbols $\mc{C}\coloneqq\mc{F}_0$ of arity $0$ are called <b>constants</b>.
+A <b>first-order language</b> $\FOL\l(\sigma\r)$ in the signature $\sigma$ consists of the symbols in $\sigma$, the symbols in $\PL\l(\sigma\r)$, and the symbols $=$ <span style="color:gray">(equality)</span> and $\ex$ <span style="color:gray">(quantifier)</span>.
+* A <b>signature</b> $\sigma\coloneqq\tpl{\mc{F},\mc{R},\mf{a}}$ consists of two disjoint sets $\mc{F}$ and $\mc{R}$ of <b>function</b> and <b>relation</b> symbols, together with an <b>arity</b> function $\mf{a}:\mc{F}\cup\mc{R}\to\N$. For each $n\in\N^+$, let $\mc{F}_n\subseteq\mc{F}$ and $\mc{R}_n\subseteq\mc{R}$ be the subset of functions/relations of arity $n$. The function symbols $\mc{C}\coloneqq\mc{F}_0$ of arity $0$ are called <b>constants</b>.
 
-The <b>alphabet</b> of $\FOL\l(\sigma\r)$ in the signature $\sigma$ consists of the symbols in $\sigma$ together with the symbols $=,\lnot,\land,\lor,\rightarrow,\ex,\fa,\raise{2pt},,(,)$ and a set $\Var$ of <b>variable symbols</b>.
 
 ```
 

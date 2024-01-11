@@ -18,11 +18,11 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Completeness Theorem]], [[Completeness Theorem#^syntactic-semantic-duality]], [[Basic properties of consistent theories]], [[Theory#^maximally-consistent-completion]]
 Sufficiencies: [[Basic provable facts#^deduction-theorem]]
-Equivalences: [[Models and Semantic Truth]]
+Equivalences: [[Models and Semantic Implication]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
-title: Definition (Proofs and Syntactic Truth).
+title: Definition (Proofs/Syntactic Implication).
 
 Let $T$ be a $\sigma$-theory and let $\phi$ be a $\sigma$-formula. A finite sequence $\tpl{\phi_1,\dots,\phi_n}$ is said to be a <b>proof</b> of $\phi$ if $\phi_n=\phi$ and, for each $\phi_i$, either $\phi_i\in\Axioms\l(\sigma\r)\cup T$ or there exist $j,k<i$ such that $\phi_j=\phi_k\rightarrow\phi_i$ (in which case we say that $\phi_i$ is obtained by <b>Modus Ponens</b> from $\phi_j$ and $\phi_k$, and write $\phi_j,\phi_k\MP\phi_i$).
 * (Implication). For a $\sigma$-formula $\phi$, we say that <b>$T$ proves/syntactically implies $\phi$</b>, written $T\proves\phi$, if there exists a proof of $\phi$ from $T$.
