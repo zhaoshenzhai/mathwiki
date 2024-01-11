@@ -31,7 +31,7 @@ Let $X$ be a metrizable space. For any infinite cardinal $\kappa$, the following
 
 ---
 
-<i>Proof $(1\Rightarrow2)$.</i> Fix a basis $\mc{B}$ for $\tau$ with $\l|\mc{B}\r|\leq\kappa$ and let $\mc{U}$ be an open cover of $X$. Consider the subcollection $\mc{B}'$ of $\mc{B}$ consisting of all $B\in\mc{B}$ such that $B\subseteq U$ for some $U\in\mc{U}$. For each $B\in\mc{B}$, let $U_B\in\mc{U}$ contain $B$, and we claim that $\mc{U}'\coloneqq\l\{U_B\in\mc{B}\st B\in\mc{B}'\r\}$ is the desired subcover. Indeed, that $\l|\mc{U}'\r|\leq\kappa$ is clear. For any $x\in X$, there is some $U\in\mc{U}$ and $B\in\mc{B}$ such that $x\in B\subseteq U$. Then $B\in\mc{B}'$ and $U_B\in\mc{U}'$, so $x\in B\subseteq U_B$ as desired.<span style="float:right;">$\blacksquare$</span>
+<i>Proof $(1\Rightarrow2)$.</i> Fix a basis $\mc{B}$ for $\tau$ with $\l|\mc{B}\r|\leq\kappa$ and let $\mc{U}$ be an open cover of $X$. Consider the subcollection $\mc{B}'$ of $\mc{B}$ consisting of all $B\in\mc{B}$ such that $B\subseteq U$ for some $U\in\mc{U}$. For each $B\in\mc{B}$, let $U_B\in\mc{U}$ contain $B$, and we claim that $\mc{U}'\coloneqq\l\{U_B\in\mc{U}\st B\in\mc{B}'\r\}$ is the desired subcover. Indeed, that $\l|\mc{U}'\r|\leq\kappa$ is clear. For any $x\in X$, there is some $U\in\mc{U}$ and $B\in\mc{B}$ such that $x\in B\subseteq U$. Then $B\in\mc{B}'$ and $U_B\in\mc{U}'$, so $x\in B\subseteq U_B$ as desired.<span style="float:right;">$\blacksquare$</span>
 
 ---
 
