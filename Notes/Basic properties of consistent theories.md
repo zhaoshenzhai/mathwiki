@@ -16,7 +16,7 @@ title: Proposition.
 
 Let $\sigma$ be a signature. A $\sigma$-theory $T$ is consistent iff $T\not\proves\bot$, where $\bot\coloneqq\ex v\l(v\neq v\r)$, which occurs iff $T\not\proves\phi$ for some $\sigma$-formula $\phi$. Furthermore:
 * For any $\sigma$-sentence $\phi$, $T\cup\l\{\phi\r\}$ is consistent iff $T\not\proves\lnot\phi$. If $T$ is consistent, then at least one of $T\cup\l\{\phi\r\}$ and $T\cup\l\{\lnot\phi\r\}$ is consistent.
-* For any extended $\sigma$-formula $\phi\l(v\r)$, if $T'\coloneqq T\cup\l\{\ex u\phi\l(u/v\r)\r\}$ is consistent and $c$ is a constant symbol not appearing in $T'$, then $T\cup\l\{\phi\l(c/v\r)\r\}$ is consistent.
+* For any $\sigma$-formula $\phi\l(v\r)$, if $T'\coloneqq T\cup\l\{\ex u\phi\l(u/v\r)\r\}$ is consistent and $c$ is a constant symbol not appearing in $T'$, then $T\cup\l\{\phi\l(c/v\r)\r\}$ is consistent.
 
 ```
 

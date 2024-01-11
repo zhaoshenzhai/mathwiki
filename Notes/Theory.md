@@ -23,9 +23,7 @@ Justifications: [[Proofs and Syntactic Truth#^syntactic-compactness]], [[Zorn's 
 ``` ad-Definition
 title: Definition.
 
-Let $\sigma$ be a signature in $\FOL$. A <b>$\sigma$-theory</b> is a collection of $\sigma$-sentences.
-* Given a $\sigma$-structure $\mc{A}$, the <b>theory</b> of $\mc{A}$ is the $\sigma$-theory $\Th\l(\mc{A}\r)$ of all $\sigma$-sentences $\phi$ such that $\mc{A}\models\phi$.
-* For a $\sigma$-theory $T$, the <b>$\sigma$-theorems</b> of $T$ is the collection $\Thm_\sigma\!\l(T\r)$ of $\sigma$-sentences $\phi$ such that $T\proves\phi$.
+Let $\sigma$ be a signature in $\FOL$. A <b>$\sigma$-theory</b> is a collection of $\sigma$-sentences, and the <b>$\sigma$-theorems</b> of $T$ is the collection $\Thm_\sigma\!\l(T\r)$ of $\sigma$-sentences $\phi$ such that $T\proves\phi$.
 
 ```
 ^theorems
