@@ -2,7 +2,7 @@
 
 Date Created: 11/01/2024 18:22:20
 References: #Ref/Kra19
-Tags: #Type/Definition #Topic/Complexity_Theory
+Tags: #Type/Definition #Topic/Logic/Proof_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
