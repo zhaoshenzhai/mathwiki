@@ -2,11 +2,11 @@
 
 Date Created: 14/12/2023 22:53:59
 References: #Ref/Anu23 #Ref/Anu23_318
-Tags: #Type/Definition #Topic/Logic/Model_Theory
+Tags: #Type/Definition #Topic/Logic/Proof_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Structure]], [[Axioms of First Order Logic]], [[Theory]], [[Proofs and Syntactic Implication]]
+Constructions: [[Hilbert Calculus]], [[Structure]], [[Axioms of First Order Logic]], [[Theory]], [[Proofs and Syntactic Implication]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
