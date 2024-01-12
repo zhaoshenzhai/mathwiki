@@ -23,7 +23,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition (Models/Semantic Implication).
 
-Let $T$ be a $\sigma$-theory. A non-empty $\sigma$-structure $\mc{A}$ is said to <b>model</b> $T$, written $\mc{A}\models T$, if $\mc{A}\models\phi$ for every $\phi\in T$.
+Let $T$ be a $\sigma$-theory in $\FOL\l(\sigma\r)$. A non-empty $\sigma$-structure $\mc{A}$ is said to <b>model</b> $T$, written $\mc{A}\models T$, if $\mc{A}\models\phi$ for every $\phi\in T$.
 * (Implication). For a $\sigma$-formula $\phi$, we say that <b>$T$ models/semantically implies $\phi$</b>, written $T\models\phi$, if $\mc{A}\models\phi$ for every model $\mc{A}\models T$.
 * (Consistency). A $\sigma$-theory $T$ is <b>satisfiable</b> if it admits a non-empty model, and is <b>finitely satisfiable</b> if every finite subset $T'\subseteq T$ is satisfiable.
 * (Completeness). A $\sigma$-theory $T$ is <b>complete</b> if for each $\sigma$-sentence $\phi$, either $T\models\phi$ or $T\models\lnot\phi$.

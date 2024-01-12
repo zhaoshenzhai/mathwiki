@@ -5,7 +5,7 @@ References: #Ref/Kra19
 Tags: #Type/Definition #Topic/Logic/Proof_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Resolution Proofs]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

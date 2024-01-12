@@ -24,7 +24,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition (Proofs/Syntactic Implication).
 
-Let $T$ be a $\sigma$-theory and let $\phi$ be a $\sigma$-formula. A finite sequence $\tpl{\phi_1,\dots,\phi_n}$ is said to be a <b>proof</b> of $\phi$ if $\phi_n=\phi$ and, for each $\phi_i$, either $\phi_i\in\Axioms\l(\sigma\r)\cup T$ or there exist $j,k<i$ such that $\phi_j=\phi_k\rightarrow\phi_i$ (in which case we say that $\phi_i$ is obtained by <b>Modus Ponens</b> from $\phi_j$ and $\phi_k$, and write $\phi_j,\phi_k\MP\phi_i$).
+Let $T$ be a $\sigma$-theory and let $\phi$ be a $\sigma$-formula in $\FOL\l(\sigma\r)$. A finite sequence $\tpl{\phi_1,\dots,\phi_n}$ is a <b>proof</b> of $\phi$ if $\phi_n=\phi$ and, for each $\phi_i$, either $\phi_i\in\Axioms\l(\sigma\r)\cup T$ or there exist $j,k<i$ such that $\phi_j=\phi_k\rightarrow\phi_i$ (in which case we say that $\phi_i$ is obtained by <b>Modus Ponens</b> from $\phi_j$ and $\phi_k$, and write $\phi_j,\phi_k\MP\phi_i$).
 * (Implication). For a $\sigma$-formula $\phi$, we say that <b>$T$ proves/syntactically implies $\phi$</b>, written $T\proves\phi$, if there exists a proof of $\phi$ from $T$.
 * (Consistency). A $\sigma$-theory $T$ is <b>consistent</b> there is no $\sigma$-formula $\phi$ such that $T\proves\phi$ and $T\proves\lnot\phi$.
 * (Completeness). A $\sigma$-theory $T$ is <b>complete</b> for each $\sigma$-sentence $\phi$, either $T\proves\phi$ or $T\proves\lnot\phi$.
