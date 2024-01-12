@@ -6,7 +6,7 @@ Tags: #Type/Definition #Topic/Logic/Proof_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Truth Assignment]]
+Constructions: [[Truth Assignment]], [[Propositional Proof System]]
 Generalizations: [[First Order Language]]
 
 Properties: <i>Not Applicable</i>
@@ -21,4 +21,5 @@ A <b>propositional language</b> $\PL\l(\sigma\r)$ is an infinite set $\sigma$ of
 
 ```
 
-<b>Remark.</b> Finite strings of symbols in $\PL\l(\sigma\r)$ are called <i>$\sigma$-strings</i>. We define the set $\Form\l(\sigma\r)$ of <i>$\sigma$-formulas</i> as the smallest set containing $\sigma$ and $\l\{\top,\bot\r\}$ such that if $\phi,\psi\in\Form\l(\sigma\r)$, then so are $\phi\land\psi$, $\phi\lor\psi$, and $\lnot\phi$. For an atom $x\in\sigma$ and $b\in\l\{0,1\r\}$, we say that $x^b$ is a <i>literal</i>, and we call a disjunction of literals a <i>clause</i>.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Finite strings of symbols in $\PL\l(\sigma\r)$ are called <i>$\sigma$-strings</i>. We define the set $\Form\l(\sigma\r)$ of <i>$\sigma$-formulas</i> as the smallest set containing $\sigma$ and $\l\{\top,\bot\r\}$ such that if $\phi,\psi\in\Form\l(\sigma\r)$, then so are $\phi\land\psi$, $\phi\lor\psi$, and $\lnot\phi$. For an atom $x\in\sigma$ and $b\in\l\{0,1\r\}$, we say that $x^b$ is a <i>literal</i>, and we call a disjunction of literals a <i>clause</i>.
+* <span style="color:pink">Encodings of formulas and proofs?</span><span style="float:right;">$\blacklozenge$</span>

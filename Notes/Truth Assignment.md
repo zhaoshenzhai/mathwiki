@@ -17,7 +17,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\sigma$ be a propositional signature. A <b>truth assignment</b> of $\sigma$ is a map $\tau:\sigma\to\l\{0,1\r\}$ that assigns to each $x\in\sigma$ an <b>interpretation</b> $x^\tau\coloneqq\tau\l(x\r)$.
+Let $\sigma$ be a propositional signature. A <b>truth assignment</b> of $\sigma$ is a map $\tau:\sigma\to\l\{0,1\r\}$ that assigns to each $x\in\sigma$ its <b>interpretation</b> $x^\tau\coloneqq\tau\l(x\r)$.
 
 ```
 
