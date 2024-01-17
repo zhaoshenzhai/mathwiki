@@ -18,7 +18,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: [[Completeness Theorem]]
 Sufficiencies: [[Compactness Theorem]]
 Equivalences: [[Completeness Theorem#^syntactic-semantic-duality]]
-Justifications: [[Proofs and Syntactic Implication#^syntactic-compactness]], [[Zorn's Lemma]], [[Basic properties of consistent theories]]
+Justifications: [[Compactness Theorem#^syntactic-compactness]], [[Zorn's Lemma]], [[Basic properties of consistent theories]]
 
 ``` ad-Definition
 title: Definition.
