@@ -5,7 +5,7 @@ References: #Ref/Kra19
 Tags: #Type/Definition #Topic/Logic/Proof_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Hilbert Calculus#^Frege-calculus]], [[Resolution Proofs]]
+Examples: [[Hilbert Calculus#^Frege-calculus]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

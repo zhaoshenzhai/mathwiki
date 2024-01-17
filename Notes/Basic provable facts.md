@@ -10,7 +10,7 @@ Date Created: 16/12/2023 15:08:38
 References: #Ref/Anu23 #Ref/Anu23_318
 Tags: #Type/Proposition #Topic/Logic/Proof_Theory
 
-Proved by: [[Axioms of First Order Logic]]
+Proved by: [[First Order Language#^axioms-of-FOL]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
