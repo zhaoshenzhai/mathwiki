@@ -10,7 +10,7 @@ References: #Ref/Kra19
 Tags: #Type/Definition #Topic/Logic/Proof_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[First Order Language#^proofs-in-FOL]]
+Examples: [[Proofs and Syntactic Implication]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
