@@ -1,6 +1,7 @@
 ---
 mathLink-blocks:
     consistent-syntactic-completeness: Consistency and Syntactic Completeness
+    satisfiable-semantic-completeness: Satisfiability and Semantic Completeness
     maximally-consistent-completion: Consistent theories admit maximal completions
     category-of-models: $\catmodel{T}$
 ---
@@ -20,11 +21,12 @@ Properties: [[Completeness Theorem]], [[Basic properties of consistent theories]
 Sufficiencies: [[Compactness Theorem]]
 Equivalences: [[Completeness Theorem#^syntactic-semantic-duality]]
 Justifications: [[Compactness Theorem#^syntactic-compactness]], [[Zorn's Lemma]]
+^satisfiable-semantic-completeness
 
 ``` ad-Definition
 title: Definition (First Order Theory).
 
-Let $\sigma$ be a signature in $\FOL$. A <b>$\sigma$-theory</b> is a collection of $\sigma$-sentences $T$ that is closed under provability, and an <b>axiomatization</b> of $T$ is a collection $T'$ of $\sigma$-sentences such that $T=\l\{\phi\in\Sent\l(\sigma\r)\st T'\proves\phi\r\}$. A $\sigma$-structure $\mc{A}$ is said to <b>model</b> $T$, written $\mc{A}\models T$, if $\mc{A}\models\phi$ for every $\phi\in T$.
+Let $\sigma$ be a signature in $\FOL$. A <b>$\sigma$-theory</b> is a collection of $\sigma$-sentences $T$ that is closed under provability, and an <b>axiomatization</b> of $T$ is a collection $T'$ of $\sigma$-sentences such that $T=\l\{\phi\in\Sent\l(\sigma\r)\st T'\proves\phi\r\}$.
 * A $\sigma$-theory $T$ is said to be <b>consistent</b> if there is no $\sigma$-formula such that $T\proves\phi$ and $T\proves\lnot\phi$, and <b>satisfiable</b> if it admits a non-empty model.
 * A $\sigma$-theory $T$ is said to be <b>syntactically complete</b> if for each $\sigma$-sentence, either $T\proves\phi$ or $T\proves\lnot\phi$, and similarly for <b>semantic completeness</b>.
 

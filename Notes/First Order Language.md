@@ -2,11 +2,7 @@
 mathLink-blocks:
     structure: Structure
     category-of-structures: $\cathom$
-    proofs-in-FOL: Proofs in $\FOL\l(\sigma\r)$
-    axioms-of-FOL: Axioms in $\FOL\l(\sigma\r)$
-    soundness: Soundness of $\FOL\l(\sigma\r)$
 ---
-
 
 <div class="topSpace"></div>
 

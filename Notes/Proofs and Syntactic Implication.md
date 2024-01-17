@@ -31,7 +31,7 @@ Let $T$ be a $\sigma$-theory in $\FOL$ and let $\phi$ be a $\sigma$-formula. The
 * $x=x$ <span style="color:gray">(equality-is-reflexive)</span>, $\l(x=y\r)\rightarrow\l(y=x\r)$ <span style="color:gray">(equality-is-symmetric)</span>, and $\l(x=y\r)\rightarrow\l[\l(y=z\r)\rightarrow\l(x=z\r)\r]$ <span style="color:gray">(equality-is-transitive)</span>;
 * $(\vec{x}=\vec{y})\rightarrow\l(f(\vec{x})=f(\vec{y})\r)$ <span style="color:gray">(functions-preserve-equality)</span> and $(\vec{x}=\vec{y})\rightarrow\l(R(\vec{x})\rightarrow R(\vec{y})\r)$ <span style="color:gray">(relations-preserve-equality)</span>,
 
-together with a single inference rule $\theta\rightarrow\phi,\theta\infrule_\MP\phi$, called <b>Modus Ponens</b>. We write $T\proves\phi$ if there exists a proof of $\phi$ from $T$.
+together with a single inference rule $\theta\rightarrow\phi,\theta\infrule_\MP\phi$, called <b>Modus Ponens</b>. We say that <b>$T$ proves $\phi$</b>, and write $T\proves\phi$, if there exists a proof of $\phi$ from $T$.
 
 ```
 ^axioms-of-FOL
