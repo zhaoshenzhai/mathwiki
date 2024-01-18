@@ -2,7 +2,7 @@
 
 Date Created: 08/01/2024 11:08:06
 References: #Ref/Lee12
-Tags: #Type/Definition #In_Progress/Topology
+Tags: #Type/Definition #Topic/Topology
 
 Types: [[Smooth Manifold]]
 Examples: <i>Not Applicable</i>
