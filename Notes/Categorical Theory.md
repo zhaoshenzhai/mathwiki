@@ -7,11 +7,11 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 17/01/2024 17:29:41
-References: #Ref/NONE
-Tags: #Type/Definition #In_Progress
+References: #Ref/Anu23 #Ref/Mar02
+Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Dense Linear Orders#^without-endpoints]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

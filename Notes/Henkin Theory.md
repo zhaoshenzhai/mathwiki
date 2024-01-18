@@ -20,7 +20,7 @@ Equivalences: <i>Not Applicable</i>
 Justifications: [[Proofs and Syntactic Implication#^axioms-of-FOL]], [[Basic provable facts]]
 
 ``` ad-Definition
-title: Definition.
+title: Definition (Henkin Theory).
 
 Let $\sigma$ be a signature. For a $\sigma$-theory $H$ and a $\sigma$-formula $\ex v\phi$, we say that $H$ admits a <b>Henkin witness</b> for $\ex v\phi$ if $H\proves\phi(c/v)$ for some $c\in\mc{C}\l(\sigma\r)$.
 * A $\sigma$-theory $H$ is <b>Henkin</b> if it is maximally consistent and admits a Henkin witness for every $\sigma$-formula of the form $\ex v\phi$ that it proves.

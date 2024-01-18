@@ -12,7 +12,7 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Topological Space]]
-Constructions: [[Order Space]], [[Convergence of Nets]], [[Well-founded Relation]], [[Initial Segment]]
+Constructions: [[Order Space]], [[Convergence of Nets]], [[Dense Linear Orders]], [[Well-founded Relation]], [[Initial Segment]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
