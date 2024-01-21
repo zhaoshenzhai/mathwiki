@@ -33,7 +33,7 @@ Let $\sigma$ be a signature in $\FOL$. A <b>$\sigma$-theory</b> is a collection 
 ```
 ^consistent-syntactic-completeness
 
-<b>Remark.</b> Clearly $\Th\mc{A}$ is semantically complete for any $\sigma$-structure $\mc{A}$, so every satisfiable $\sigma$-theory $T$ admits a semantic completion $\bar{T}\supseteq T$. In fact, the syntactic version holds too, that every consistent $\sigma$-theory $T$ admits a syntactic completion $\bar{T}\supseteq T$. ^maximally-consistent-completion
+<b>Remark.</b> Clearly $\Th\mc{A}$ is semantically complete for any $\sigma$-structure $\mc{A}$, so every satisfiable $\sigma$-theory $T$ admits a semantic completion $\bar{T}\supseteq T$. In fact, the syntactic version holds too: every consistent $\sigma$-theory $T$ admits a syntactic completion $\bar{T}\supseteq T$. ^maximally-consistent-completion
 * Indeed, since inconsistent theories have inconsistent finite subtheories (this is syntactic-compactness), arbitrary unions of consistent theories are consistent. By Zorn’s Lemma, $T$ admits a $\subseteq$-maximal consistent extension, so it remains to show that it is syntactically complete. Indeed, for any $\sigma$-sentence $\phi$, at least one of $\bar{T}\cup\l\{\phi\r\}$ and $\bar{T}\cup\l\{\lnot\phi\r\}$ is consistent, so $\subseteq$-maximality of $\bar{T}$ shows that either $\bar{T}\proves\phi$ or $\bar{T}\proves\lnot\phi$, as desired.<span style="float:right;">$\blacklozenge$</span>
 
 ---

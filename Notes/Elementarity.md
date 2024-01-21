@@ -20,7 +20,7 @@ Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
-title: Definition.
+title: Definition (Elementarity).
 
 Let $\sigma$ be a signature in $\FOL$. We say that a $\sigma$-structure $\mc{A}$ <b>elementarily embeds</b> in $\mc{B}$, written $\mc{A}\into_e\mc{B}$, if there is a homomorphism $h:\mc{A}\to\mc{B}$ such that for all $\sigma$-formulas $\phi(\vec{v})$ and $\vec{a}\in A^{|\vec{v}|}$, we have $\mc{A}\models\phi(\vec{a})$ iff $\mc{B}\models\phi(h(\vec{a}))$. Such a homomorphism $h$ is said to be an <b>elementary embedding</b>, written $h:\mc{A}\into_e\mc{B}$.
 * A substructure $\mc{A}\substructeq\mc{B}$ is said to be <b>elementary</b>, written $\mc{A}\elemembed\mc{B}$, if $\iota:\mc{A}\into_e\mc{B}$. In this case, we also say that $\mc{B}$ is an <b>elementary extension</b> of $\mc{A}$.
