@@ -26,9 +26,11 @@ Justifications: [[Compactness Theorem#^syntactic-compactness]], [[Zorn's Lemma]]
 ``` ad-Definition
 title: Definition (First Order Theory).
 
-Let $\sigma$ be a signature in $\FOL$. A <b>$\sigma$-theory</b> is a collection of $\sigma$-sentences $T$ that is closed under provability, and an <b>axiomatization</b> of $T$ is a collection $T'$ of $\sigma$-sentences such that $T=\l\{\phi\in\Sent\l(\sigma\r)\st T'\proves\phi\r\}$. We say that $\sigma$-structure $\mc{A}$ is a <b>model</b> of $T$, and write $\mc{A}\models T$, if $\mc{A}\models\phi$ for every $\phi\in T$.
+Let $\sigma$ be a signature in $\FOL$. A <b>$\sigma$-theory</b> is a collection of $\sigma$-sentences $T$ that is closed under provability, and an <b>axiomatization</b> of $T$ is a collection $T'$ of $\sigma$-sentences such that $T=\l\{\phi\in\Sent\l(\sigma\r)\st T'\proves\phi\r\}$.
 * A $\sigma$-theory $T$ is said to be <b>consistent</b> if there is no $\sigma$-formula such that $T\proves\phi$ and $T\proves\lnot\phi$, and <b>satisfiable</b> if it admits a non-empty model.
 * A $\sigma$-theory $T$ is said to be <b>syntactically</b> (resp. <b>semantically</b>) <b>complete</b> if for each $\sigma$-sentence, either $T\proves\phi$ or $T\proves\lnot\phi$ (resp. $T\models\phi$ or $T\models\lnot\phi$).
+
+Let $\mc{A}$ be a $\sigma$-structure. The <b>theory of $A$</b> is $\Th\mc{A}\coloneqq\l\{\phi\in\Sent\l(\sigma\r)\st\mc{A}\models\phi\r\}$, and we say that <b>$A$ models $T$</b>, and write $A\models T$, if $T\subseteq\Th\mc{A}$.
 
 ```
 ^consistent-syntactic-completeness
