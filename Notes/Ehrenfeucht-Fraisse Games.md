@@ -24,4 +24,6 @@ Let $\sigma$ be a signature in $\FOL$ and let $\mc{A}$ and $\mc{B}$ be $\sigma$-
 
 ```
 
-<i>Proof.</i> 
+<i>Proof.</i> The isomorphism claim is relatively easy: If $\mc{A}\iso\mc{B}$, then $\textrm{Prover}$ can win $G_\omega\!\l(\mc{A},\mc{B}\r)$ according to this isomorphism. Conversely, we enumerate $\mc{A}=\l\{a_0,a_1,\dots\r\}$ and $\mc{B}=\l\{b_0,b_1,\dots\r\}$ and consider the game where $\textrm{Spoiler}$ plays $a_0,b_1,a_2,b_3,\dots$ in this order and where $\textrm{Prover}$ uses the winning strategy. The partial isomorphism $f_n:\gen{\tpl{a_i}_{i<n}}_\mc{A}\mapsto\langle\tpl{b_i}_{i<n}\rangle_\mc{B}$ built after the $n^\textrm{th}$ step of this game extends to an isomorphism $f\coloneqq\bigcup_nf_n:\mc{A}\to\mc{B}$, as desired.
+
+Suppose now that $\sigma$ is a finite relational language. For a fixed $n\in\N$, we write $\mc{A}\elemequiv_n\mc{B}$ iff $\mc{A}$ and $\mc{B}$ satisfy the same $\sigma$-sentences $\phi$ where $\qd(\phi)\leq n$. Since any $\sigma$-sentence $\phi$ has $\qd(\phi)<\infty$, it suffices to show that $\mc{A}\elemequiv_n\mc{B}$ iff $\textrm{Prover}$ has a winning strategy for $G_n\!\l(\mc{A},\mc{B}\r)$.
