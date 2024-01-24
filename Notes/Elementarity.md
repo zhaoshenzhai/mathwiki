@@ -15,7 +15,7 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: [[Lowenheim-Skolem Theorem]]
+Sufficiencies: [[Lowenheim-Skolem Theorem]], [[Ehrenfeucht-Fraisse Games]]
 Equivalences: [[Elementarity#^Tarski-Vaught-test]]
 Justifications: <i>Not Applicable</i>
 

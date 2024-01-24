@@ -16,7 +16,7 @@ Constructions: [[Definable Sets]], [[Theory]], [[Proofs and Syntactic Implicatio
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: <i>Not Applicable</i>
+Sufficiencies: [[Ehrenfeucht-Fraisse Games]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

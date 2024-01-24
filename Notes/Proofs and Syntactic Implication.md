@@ -1,6 +1,7 @@
 ---
 mathLink: auto
 mathLink-blocks:
+    proofs-in-FOL: Proof in $\FOL\l(\sigma\r)$
     axioms-of-FOL: Axioms in $\FOL\l(\sigma\r)$
     soundness: Soundness of $\FOL\l(\sigma\r)$
 ---
@@ -15,6 +16,7 @@ Types: <i>Not Applicable</i>
 Examples: [[Basic provable facts]]
 Constructions: [[Theory#^consistent-syntactic-completeness]]
 Generalizations: <i>Not Applicable</i>
+^proofs-in-FOL
 
 Properties: [[Completeness Theorem]], [[Completeness Theorem#^syntactic-semantic-duality]]
 Sufficiencies: [[Basic provable facts#^deduction-theorem]]
