@@ -11,7 +11,7 @@ References: #Ref/Anu23 #Ref/Mar02
 Tags: #Type/Example #Topic/Logic/Model_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Real Numbers]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 

@@ -11,8 +11,8 @@ References: #Ref/Anu23 #Ref/Mac10
 Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
-Examples: [[Topological Space]]
-Constructions: [[Order Space]], [[Convergence of Nets]], [[Dense Linear Orders]], [[Well-founded Relation]], [[Initial Segment]]
+Examples: [[Topological Space]], [[Dense Linear Orders]]
+Constructions: [[Order Space]], [[Convergence of Nets]], [[Ultrafilter]], [[Well-founded Relation]], [[Initial Segment]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
