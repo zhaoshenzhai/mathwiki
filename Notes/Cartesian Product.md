@@ -12,8 +12,8 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i> 
-Constructions: [[Topological Space#^product-space]], [[Group#^direct-product]], [[Ring#^direct-product]], [[Direct Sum (Module)]], [[Semidirect Product]]
-Generalizations: <i>Not Applicable</i> 
+Constructions: [[Topological Space#^product-space]], [[Group#^direct-product]], [[Ring#^direct-product]], [[Direct Sum (Module)]], [[Semidirect Product]], [[Ultraproduct]]
+Generalizations: [[Product (Category Theory)]]
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
