@@ -6,7 +6,7 @@ mathLink: Ehrenfeucht-Fraïssé Games
 
 Date Created: 24/01/2024 16:16:32
 References: #Ref/Mar02
-Tags: #Type/Theorem #In_Progress
+Tags: #Type/Theorem #Topic/Logic/Model_Theory
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
