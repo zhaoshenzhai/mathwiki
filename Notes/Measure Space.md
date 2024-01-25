@@ -10,7 +10,7 @@ References: #Ref/Fol07 #Ref/Anu23_564
 Tags: #Type/Definition #Topic/Real_Analysis
 
 Types: [[Borel Sets#^Borel-sigma-algebra]], [[Regularity and Tightness#^regular-tight-measures]]
-Examples: <i>Not Applicable</i>
+Examples: [[Ultrafilter]]
 Constructions: [[Measurable Function]], [[Integral]], [[Absolute Continuity]], [[Convergence in Measure]], [[Product Measure]]
 Generalizations: [[Signed Measure]]
 

@@ -10,7 +10,7 @@ References: #Ref/Anu23 #Ref/Anu23_318
 Tags: #Type/Theorem #Topic/Logic/Model_Theory
 
 Proved by: [[Theory#^maximally-consistent-completion]], [[Basic properties of consistent theories]], [[Basic provable facts]], [[Henkin Theory#^Henkin-theories-calculate-terms]]
-References: [[Proofs and Syntactic Implication#^soundness]], [[Proofs and Syntactic Implication#^axioms-of-FOL]]
+References: [[Proofs#^soundness]], [[Proofs#^axioms-of-FOL]]
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>

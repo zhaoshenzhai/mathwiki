@@ -1,5 +1,5 @@
 ---
-mathLink: auto
+mathLink: Models in $\FOL\l(\sigma\r)$
 ---
 
 <div class="topSpace"></div>
@@ -15,7 +15,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: [[Compactness Theorem]], [[Completeness Theorem#^syntactic-semantic-duality]]
 Sufficiencies: [[Completeness Theorem]]
-Equivalences: [[Proofs and Syntactic Implication]]
+Equivalences: [[Proofs]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition

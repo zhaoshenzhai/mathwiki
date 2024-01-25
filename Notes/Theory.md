@@ -14,7 +14,7 @@ Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: [[Henkin Theory]], [[Categorical Theory]]
 Examples: <i>Not Applicable</i>
-Constructions: [[Models and Semantic Implication]], [[Proofs and Syntactic Implication]]
+Constructions: [[Models]], [[Proofs]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Completeness Theorem]], [[Basic properties of consistent theories]]

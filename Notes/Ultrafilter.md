@@ -7,22 +7,22 @@ mathLink-blocks:
 
 Date Created: 25/01/2024 15:13:54
 References: #Ref/Mar02
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: <i>Not Applicable</i>
+Constructions: [[Ultraproduct]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Justifications: [[Zorn's Lemma]]
 
 ``` ad-Definition
 title: Definition (Filters and Ultrafilters).
 
-Let $I$ be a set. A <b>filter</b> on $I$ is a non-empty collection $F\subseteq\pow\l(I\r)$ that is closed upwards and closed under finite intersections.
+Let $I$ be a set and consider the poset $\tpl{\pow\l(I\r),\subseteq}$. A <b>filter</b> on $I$ is a non-empty collection $F\subseteq\pow\l(I\r)$ that is closed upwards and closed under finite meets.
 * An <b>ultrafilter</b> on $I$ is a proper $\subseteq$-maximal filter. Equivalently, it is a filter $U$ on $I$ such that for all $X\subseteq I$, either $X\in U$ or $X^c\in U$.
 * A filter $F$ on $I$ is <b>principal</b> if there is some $i\in I$ such that $F=\l\{X\subseteq I\st i\in X\r\}$. Otherwise, $F$ is said to be <b>free</b>.
 

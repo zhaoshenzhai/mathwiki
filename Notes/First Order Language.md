@@ -12,7 +12,7 @@ Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Monoid]], [[Group]], [[Ring]], [[Field]], [[Module]]
-Constructions: [[Definable Sets]], [[Theory]], [[Proofs and Syntactic Implication]], [[Models and Semantic Implication]], [[Elementarity]]
+Constructions: [[Definable Sets]], [[Theory]], [[Ultraproduct]], [[Elementarity]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

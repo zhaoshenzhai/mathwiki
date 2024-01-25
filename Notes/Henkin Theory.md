@@ -17,7 +17,7 @@ Generalizations: <i>Not Applicable</i>
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
-Justifications: [[Proofs and Syntactic Implication#^axioms-of-FOL]], [[Basic provable facts]]
+Justifications: [[Proofs#^axioms-of-FOL]], [[Basic provable facts]]
 
 ``` ad-Definition
 title: Definition (Henkin Theory).
