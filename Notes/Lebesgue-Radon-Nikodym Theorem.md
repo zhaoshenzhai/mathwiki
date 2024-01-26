@@ -18,7 +18,7 @@ Let $\mu$ and $\nu$ be two $\sigma$-finite measures on a measurable space $\tpl{
 
 ```
 
-<b>Remark.</b> If $\mu\abscont\nu$, the function $f$ as furnished above is well-defined $\nu$-a.e. and is denoted by $\!\d\mu/\d\nu$, called the <i>Radon-Nikodym derivative</i> of $\mu$ over $\nu$. We write the condition $\mu\l(B\r)=\int_Bf\d\nu$ for all $B\in\mc{B}$ as $\!\d\mu=f\d\nu$. By $\nu$-a.e. uniqueness, it is easily seen that ‘$\!\d/\d\nu$’ is linear and satisfies the Chain Rule.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> If $\mu\abscont\nu$, the function $f$ as furnished above is well-defined $\nu$-a.e. and is denoted by $\!\d\mu/\!\d\nu$, called the <i>Radon-Nikodym derivative</i> of $\mu$ over $\nu$. We write the condition $\mu\l(B\r)=\int_Bf\d\nu$ for all $B\in\mc{B}$ as $\!\d\mu=f\d\nu$. By $\nu$-a.e. uniqueness, it is easily seen that ‘$\!\d/\!\d\nu$’ is linear and satisfies the Chain Rule.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

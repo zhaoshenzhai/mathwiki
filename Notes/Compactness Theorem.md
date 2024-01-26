@@ -9,7 +9,7 @@ Date Created: 15/12/2023 17:41:04
 References: #Ref/Anu23 #Ref/Anu23_318
 Tags: #Type/Theorem #Topic/Logic/Model_Theory/Later
 
-Proved by: <i>Not Applicable</i>
+Proved by: [[Ultraproduct#^los-theorem]]
 References: [[Completeness Theorem]]
 Justifications: <i>Not Applicable</i>
 
@@ -30,4 +30,4 @@ Note that the Compactness Theorem also shows that if $T\models\phi$, then there 
 
 ---
 
-<i>Proof.</i> <span style="color:red">TODO</span>
+<i>Proof.</i> Suppose w.l.o.g. that $T$ is infinite and let $I\coloneqq\l\{\Delta\subseteq T\st\Delta\textrm{ is finite}\r\}$.
