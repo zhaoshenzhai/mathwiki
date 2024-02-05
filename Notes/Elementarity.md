@@ -6,7 +6,7 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 21/12/2023 14:38:27
-References: #Ref/Anu23
+References: #Ref/Anu23 #Ref/Mar02
 Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: <i>Not Applicable</i>
@@ -16,7 +16,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: [[Lowenheim-Skolem Theorem]], [[Ehrenfeucht-Fraisse Games]]
-Equivalences: [[Elementarity#^Tarski-Vaught-test]]
+Equivalences: [[Tarski-Vaught Test]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
@@ -27,8 +27,9 @@ Let $\sigma$ be a signature in $\FOL$. We say that a $\sigma$-structure $\mc{A}$
 
 ```
 
-<b>Remark.</b> In other words, $h:\mc{A}\eleminto\mc{B}$ if $h$ preserves all first-order $\sigma$-formulas, for which a useful criterion is the <i>Tarski-Vaught Test</i>: we have an $\mc{A}\elemembed\mc{B}$ iff for every $\sigma$-formula $\phi(\vec{x},y)$ and every $\vec{a}\in A^{|\vec{x}|}$, if $\mc{B}\models\ex y\phi(\vec{a},y)$, then there is some $a'\in A$ such that $\mc{B}\models\phi(\vec{a},a')$. ^Tarski-Vaught-test
-* Indeed, the forwards direction is trivial. For the backwards, let $\phi(\vec{x})$ be a $\sigma$-formula and take $\vec{a}\in A^{|\vec{x}|}$. We show that $\mc{A}\models\phi(\vec{a})$ iff $\mc{B}\models\phi(\vec{a})$ by induction on the complexity of $\phi$, for which the only non-trivial case is when $\phi(\vec{x})=\ex y\psi(\vec{x},y)$. But $\mc{B}\models\phi(\vec{a})$ iff $\mc{B}\models\ex y\psi(\vec{a},y)$, so the Tarski-Vaught condition furnishes a witness $a'\in A$ such that $\mc{B}\models\psi(\vec{a},a')$. That $\mc{A}\models\psi(\vec{a},a')$ holds by induction, so $\mc{A}\models\phi(\vec{a})$ as desired. Note that this also shows $\mc{A}\substructeq\mc{B}$, since we may take $\phi(x)\coloneqq x=c$ to show that $c\in A$ for each $c\in\mc{C}\l(\sigma\r)$, and take $\phi(\vec{x},y)\coloneqq f(\vec{x})=y$ to show that $f(\vec{a})\in A$ for each $f\in\mc{F}_n\!\l(\sigma\r)$ and $\vec{a}\in A^n$.
+<b>Remark.</b> In other words, $h:\mc{A}\eleminto\mc{B}$ if $h$ preserves all first-order $\sigma$-formulas. A weaker notion is that of <i>elementary equivalence</i>, written $\mc{A}\elemequiv\mc{B}$, which only requires $\Th\mc{A}=\Th\mc{B}$. Note that $\mc{A}\iso\mc{B}$ implies, by induction on the construction of $\sigma$-sentences, that $\mc{A}\elemequiv\mc{B}$.<span style="float:right;">$\blacklozenge$</span>
 
+---
 
-A weaker notion is that of an <i>elementary equivalence</i>, written $\mc{A}\elemequiv\mc{B}$, which only requires $\Th\mc{A}=\Th\mc{B}$. Note that $\mc{A}\iso\mc{B}$ implies, by induction on the construction of $\sigma$-sentences, that $\mc{A}\elemequiv\mc{B}$. The converse is not true; take, for instance, $\tpl{\Q,<}$ and $\tpl{\R,<}$. The Tarski-Vaught Test also gives us simple examples of $\sigma$-structures $\mc{A}\substructeq\mc{B}$ such that $\mc{A}\elemequiv\mc{B}$ but are <i>not</i> elementary. Indeed, consider the isomorphic $\sigma$-structures $\mc{A}\coloneqq\tpl{\N_{>0},<}$ and $\mc{B}\coloneqq\tpl{\N,<}$, where the $\sigma$-formula $\phi(y)\coloneqq\lnot\ex z(z<y)$ is only witnessed by $0\not\in A$ in $\mc{B}$. In general, the failure of a $\sigma$-substructure to be elementary is the lack of those witnesses, called <i>Skolem witnesses</i>, which are used in the <i>Downward Löwenheim-Skolem Theorem</i> to build elementary substructures.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> A useful method to determine when $\mc{A}\into\mc{B}$ or $\mc{A}\eleminto\mc{B}$ is the use of <i>diagrams</i>. For a $\sigma$-structure $\mc{A}$, let $\sigma_A\coloneqq\sigma\sqcup\l\{c_a\r\}_{a\in A}$.  The <i>elementary diagram</i> of $\mc{A}$ is the $\sigma_A$-theory $\Diag_\textrm{el}\mc{A}\coloneqq\Th_{\sigma_A}\!\mc{A}$ consisting of all $\sigma_A$-sentences $\phi$. Note that each $\phi\in\Diag_\textrm{el}\mc{A}$ can be written as $\phi=\psi(\vec{c}/\vec{x})$ for some $\sigma$-formula $\psi(\vec{x})$ satisfied in $\mc{A}$, where $\vec{c}\in\sigma_A$ is the tuple of all new $\sigma_A$-constants from $A$ appearing in $\phi$. The <i>atomic diagram</i> $\Diag\mc{A}$ is the same, except that we require $\phi$ to be quantifier-free.
+* If $\mc{B}$ is a $\sigma_A$-structure such that $\mc{B}\models\Diag\mc{A}$, then $\mc{A}\into\mc{B}$ after taking its reduct to a $\sigma$-structure. Indeed, the map $j:A\to B$ sending $a\in A$ to the interpretation of its corresponding $\sigma_A$-constant symbol in $\mc{B}$ is an embedding. Moreover, if $\mc{B}\models\Diag_\textrm{el}\mc{A}$, then $j$ is elementary.<span style="float:right;">$\blacklozenge$</span>

@@ -65,7 +65,7 @@ I wrote some bash scripts to (try) maintain the consistency of my notes; [main.s
 * Toggling between light and dark mode is handled by [toggleDark.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/toggleDark.sh).
 * Resetting the modification time of each note to its creation time is handled by [resetModifyTime.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/resetModifyTime.sh).
 
-Some stats: 348 notes, 1020 links (ratio: 2.931), 22 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
+Some stats: 349 notes, 1021 links (ratio: 2.925), 22 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
 ## MathLinks
 
