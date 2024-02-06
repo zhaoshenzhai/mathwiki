@@ -10,7 +10,7 @@ Date Created: 21/12/2023 16:03:46
 References: #Ref/Anu23
 Tags: #Type/Theorem #Topic/Logic/Model_Theory
 
-Proved by: [[Tarski-Vaught Test]], [[Compactness Theorem]], [[Cantor-Schroder-Bernstein Theorem]]
+Proved by: [[Tarski-Vaught Test]], [[Compactness Theorem]], [[Elementarity#^embeddings-via-diagrams]], [[Cantor-Schroder-Bernstein Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

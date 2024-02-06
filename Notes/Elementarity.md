@@ -1,6 +1,7 @@
 ---
 mathLink-blocks:
     Tarski-Vaught-test: Tarski-Vaught Test
+    embeddings-via-diagrams: $\mc{M}\into_\blob\mc{N}$ $\Leftrightarrow$ $\mc{N}\models\Diag_\blob\!\mc{M}$
 ---
 
 <div class="topSpace"></div>
@@ -31,5 +32,5 @@ Let $\sigma$ be a signature in $\FOL$. We say that a $\sigma$-structure $\mc{A}$
 
 ---
 
-<b>Remark.</b> A useful method to determine when $\mc{A}\into\mc{B}$ or $\mc{A}\eleminto\mc{B}$ is the use of <i>diagrams</i>. For a $\sigma$-structure $\mc{A}$, let $\sigma_A\coloneqq\sigma\sqcup\l\{c_a\r\}_{a\in A}$.  The <i>elementary diagram</i> of $\mc{A}$ is the $\sigma_A$-theory $\Diag_\textrm{el}\mc{A}\coloneqq\Th_{\sigma_A}\!\mc{A}$ consisting of all $\sigma_A$-sentences $\phi$. Note that each $\phi\in\Diag_\textrm{el}\mc{A}$ can be written as $\phi=\psi(\vec{c}/\vec{x})$ for some $\sigma$-formula $\psi(\vec{x})$ satisfied in $\mc{A}$, where $\vec{c}\in\sigma_A$ is the tuple of all new $\sigma_A$-constants from $A$ appearing in $\phi$. The <i>atomic diagram</i> $\Diag\mc{A}$ is the same, except that we require $\phi$ to be quantifier-free.
+<b>Remark.</b> A useful method to determine when $\mc{A}\into\mc{B}$ or $\mc{A}\eleminto\mc{B}$ is the use of <i>diagrams</i>. For a $\sigma$-structure $\mc{A}$, let $\sigma_A\coloneqq\sigma\sqcup\l\{c_a\r\}_{a\in A}$.  The <i>elementary diagram</i> of $\mc{A}$ is the $\sigma_A$-theory $\Diag_\textrm{el}\mc{A}\coloneqq\Th_{\sigma_A}\!\mc{A}$ consisting of all $\sigma_A$-sentences $\phi$. Note that each $\phi\in\Diag_\textrm{el}\mc{A}$ can be written as $\phi=\psi(\vec{c}/\vec{x})$ for some $\sigma$-formula $\psi(\vec{x})$ satisfied in $\mc{A}$, where $\vec{c}\in\sigma_A$ is the tuple of all new $\sigma_A$-constants from $A$ appearing in $\phi$. The <i>atomic diagram</i> $\Diag\mc{A}$ is the same, except that we require $\phi$ to be quantifier-free. ^embeddings-via-diagrams
 * If $\mc{B}$ is a $\sigma_A$-structure such that $\mc{B}\models\Diag\mc{A}$, then $\mc{A}\into\mc{B}$ after taking its reduct to a $\sigma$-structure. Indeed, the map $j:A\to B$ sending $a\in A$ to the interpretation of its corresponding $\sigma_A$-constant symbol in $\mc{B}$ is an embedding. Moreover, if $\mc{B}\models\Diag_\textrm{el}\mc{A}$, then $j$ is elementary.<span style="float:right;">$\blacklozenge$</span>

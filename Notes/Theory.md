@@ -1,7 +1,7 @@
 ---
 mathLink-blocks:
-    consistent-syntactic-completeness: Consistency and Syntactic Completeness
-    satisfiable-semantic-completeness: Satisfiability and Semantic Completeness
+    consistent: Consistent Theory
+    satisfiable: Satisfiable Theory
     maximally-consistent-completion: Consistent theories admit maximal completions
     category-of-models: $\catmodel{T}$
 ---
@@ -21,7 +21,7 @@ Properties: [[Completeness Theorem]], [[Basic properties of consistent theories]
 Sufficiencies: [[Compactness Theorem]], [[Categorical Theory#^los-vaught-test]], [[Axiomatization]]
 Equivalences: [[Completeness Theorem#^syntactic-semantic-duality]]
 Justifications: [[Compactness Theorem#^syntactic-compactness]], [[Zorn's Lemma]]
-^satisfiable-semantic-completeness
+^satisfiable
 
 ``` ad-Definition
 title: Definition (First Order Theory).
@@ -33,7 +33,7 @@ Let $\sigma$ be a signature in $\FOL$. A <b>$\sigma$-theory</b> $T$  $\sigma$-se
 Let $\mc{A}$ be a $\sigma$-structure. The <b>theory of $A$</b> is $\Th\mc{A}\coloneqq\l\{\phi\in\Sent\l(\sigma\r)\st\mc{A}\models\phi\r\}$, and we say that <b>$A$ models $T$</b>, and write $A\models T$, if $T\subseteq\Th\mc{A}$.
 
 ```
-^consistent-syntactic-completeness
+^consistent
 
 <b>Remark.</b> For any $\sigma$-structure $\mc{A}$, clearly $\Th\mc{A}$ is semantically complete. Thus every satisfiable $\sigma$-theory $T$ admits a maximally-satisfiable completion $\bar{T}\supseteq T$, called its <i>semantic completion</i>. The syntactic version holds too: every consistent $\sigma$-theory $T$ admits a maximally-consistent completion $\bar{T}\supseteq T$, called its <i>syntactic completion</i>. ^maximally-consistent-completion
 * Indeed, since inconsistent theories have inconsistent finite subtheories (this is syntactic-compactness), arbitrary unions of consistent theories are consistent. By Zorn’s Lemma, $T$ admits a $\subseteq$-maximal consistent extension, so it remains to show that it is syntactically complete. Indeed, for any $\sigma$-sentence $\phi$, at least one of $\bar{T}\cup\l\{\phi\r\}$ and $\bar{T}\cup\l\{\lnot\phi\r\}$ is consistent, so $\subseteq$-maximality of $\bar{T}$ shows that either $\bar{T}\proves\phi$ or $\bar{T}\proves\lnot\phi$, as desired.<span style="float:right;">$\blacklozenge$</span>

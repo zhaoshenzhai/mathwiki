@@ -13,7 +13,7 @@ Tags: #Type/Definition #Topic/Logic/Proof_Theory
 
 Types: <i>Not Applicable</i>
 Examples: [[Basic provable facts]]
-Constructions: [[Theory#^consistent-syntactic-completeness]]
+Constructions: [[Theory#^consistent]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Completeness Theorem]], [[Completeness Theorem#^syntactic-semantic-duality]]

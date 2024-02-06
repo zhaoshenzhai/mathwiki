@@ -1,5 +1,5 @@
 ---
-mathLink: $\kappa$-categorical Theory
+mathLink: $\kappa$-categoricity
 mathLink-blocks:
     los-vaught-test: Łoś-Vaught Test
 ---
