@@ -25,3 +25,5 @@ Let $\mc{M}$ be a $\sigma$-structure and fix $A\subseteq M$. A set $p(\vec{x})$ 
 For any $\vec{a}\in M^n$, the <b>type</b> of $\vec{a}$ over $p$ is the complete type $\tp^\mc{M}(\vec{a}/A)\coloneqq\l\{\phi(\vec{x})\in\Form(\sigma_A)\st\mc{M}\models\phi(\vec{a})\r\}$. We write $\tp^\mc{M}(\vec{a})\coloneqq\tp^\mc{M}(\vec{a}/\em)$.
 
 ```
+
+<b>Remark.</b> We may also define types without reference to a $\sigma$-structure, but rather to a complete $\sigma$-theory $T$, as a collection $p(\vec{x})$ of $\sigma$-sentences in the free variables $\vec{x}$ that is <i>$T$-consistent</i> in the sense that $T\proves\ex\vec{x}\bigwedge p_0(\vec{x})$ for all finite subsets $p_0\subseteq p$. Note that the theory $T\coloneqq\Th_A\mc{M}$ is complete, and the set $S_n(T)$ of all complete $n$-types in $T$ coincides with $=S_n^\mc{M}(A)$.<span style="float:right;">$\blacklozenge$</span>
