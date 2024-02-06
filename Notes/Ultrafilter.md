@@ -22,13 +22,13 @@ Justifications: [[Zorn's Lemma]]
 ``` ad-Definition
 title: Definition (Filters and Ultrafilters).
 
-Let $I$ be a set and consider the poset $\tpl{\pow\l(I\r),\subseteq}$. A <b>filter</b> on $I$ is a non-empty collection $F\subseteq\pow\l(I\r)$ that is closed upwards and closed under finite meets.
-* An <b>ultrafilter</b> on $I$ is a proper $\subseteq$-maximal filter. Equivalently, it is a filter $U$ on $I$ such that for all $X\subseteq I$, either $X\in U$ or $X^c\in U$.
-* A filter $F$ on $I$ is <b>principal</b> if there is some $i\in I$ such that $F=\l\{X\subseteq I\st i\in X\r\}$. Otherwise, $F$ is said to be <b>free</b>.
+A <b>filter</b> on a Boolean algebra $B$ is a subset $F\subseteq B\comp\l\{0\r\}$ that is closed upwards and closed under finite meets. If $I$ is a set, a <b>filter</b> on $I$ is a filter on $\tpl{\pow\l(I\r),\subseteq}$.
+* An <b>ultrafilter</b> on $B$ is a proper $\subseteq$-maximal filter. Equivalently, it is a filter $U$ on $B$ such that for all $a\in B$, either $a\in U$ or $\lnot a\in U$.
+* A filter $F$ on $B$ is <b>principal</b> if there is some atom $a_0\in B$ such that $F=\l\{a\in B\st a\geq a_0\r\}$.
 
 ```
 
-<b>Remark.</b> We justify the equivalence of the definition of an ultrafilter $U$ as follows. Let $U$ be a proper $\subseteq$-maximal filter on $I$ and take $X\subseteq I$. If $X\not\in U$, consider the collection $U'\coloneqq\l\{Y\subseteq I\st Y\supseteq Z\comp X\textrm{ for some }Z\in U\r\}$, which is a filter on $I$ containing $U$. Since $X^c\in U'$, the maximality of $U$ forces $X^c\in U$. The converse is easy.
-* Thus we can think of an ultrafilter $U$ as a finitely-additive $2$-valued measure $\mu$ on $\pow\l(I\r)$. In particular, every principal filter is an ultrafilter.
+<b>Remark.</b> We justify the equivalence of the definition of an ultrafilter $U$ as follows. Let $U$ be a proper $\subseteq$-maximal filter on $B$ and take $a\in B$. If $a\not\in U$, consider the collection $U'\coloneqq\l\{b\in I\st b\geq\lnot c\textrm{ for some }c\in U\r\}$, which is a filter on $B$ containing $U$. Since $\lnot a\in U'$, the maximality of $U$ forces $\lnot a\in U$. The converse is easy.
+* Thus we can think of an ultrafilter $U$ as a finitely-additive $2$-valued measure $\mu$ on $B$. In particular, every principal filter is an ultrafilter.
 
-By Zorn’s Lemma, every filter $F$ is contained in an ultrafilter. Indeed, the union of any chain in the collection $\mc{F}\coloneqq\l\{G\subseteq\pow\l(I\r)\st G\supseteq F\textrm{ is a filter}\r\}$ is contained in $\mc{F}$, so we have a $\subseteq$-maximal element $U\supseteq F$. This gives us the existence of a non-principal ultrafilter $U$ on $I$, by taking the maximal extension of the <i>Fréchet filter</i> on $\N$ consisting of all cofinite sets.<span style="float:right;">$\blacklozenge$</span> ^ultrafilter-lemma
+By Zorn’s Lemma, every filter $F$ is contained in an ultrafilter. Indeed, the union of any chain in the collection $\mc{F}\coloneqq\l\{G\subseteq B\st G\supseteq F\textrm{ is a filter}\r\}$ is contained in $\mc{F}$, so we have a $\subseteq$-maximal element $U\supseteq F$. This gives us the existence of a non-principal ultrafilter $U$ on $I$.<span style="float:right;">$\blacklozenge$</span> ^ultrafilter-lemma
