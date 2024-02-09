@@ -22,7 +22,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\Gamma_{\!f}\subseteq X\times Y$ be a binary relation with $\dom\Gamma_{\!f}=X$ and $\ran\Gamma_{\!f}\subseteq Y$. The tuple $f\coloneqq\tpl{\Gamma_{\!f},X,Y}$ is a <b>function</b> if for all $x\in X$, there is a unique $y\in Y$ such that $\tpl{x,y}\in\Gamma_{\!f}$, in which case we write $f:X\to Y$ and $x\mapsto f\l(x\r)\coloneqq y$.
+Let $\Gamma_{\!f}\subseteq X\times Y$ be a binary relation with $\,\dom\Gamma_{\!f}=X$ and $\ran\Gamma_{\!f}\subseteq Y$. The tuple $f\coloneqq\tpl{\Gamma_{\!f},X,Y}$ is a <b>function</b> if for all $x\in X$, there is a unique $y\in Y$ such that $\tpl{x,y}\in\Gamma_{\!f}$, in which case we write $f:X\to Y$ and $x\mapsto f\l(x\r)\coloneqq y$.
 * The <b>composition</b> of functions $g:Y\to Z$ after $f:X\to Y$ is the function $g\circ f:X\to Z$ mapping $x\mapsto g\l(f\l(x\r)\r)$.
 * The <b>category of sets</b> is the category $\catset$ whose objects are sets and whose morphisms are functions.
 

@@ -32,12 +32,12 @@ Consider $\R$ equipped with the Lebesgue measure $\lambda$ and let $f:\R\to\R$ b
 * $f$ is of <b>bounded variation</b> if $T_f\!\l(\infty\r)<\infty$, where $T_f\!\l(x\r)\coloneqq\sup\l\{\sum_{i<n}\l|f\l(x_{i+1}\r)-f\l(x_i\r)\r|\st n\in\N,x_0<x_1<\cdots<x_n=x\r\}$ is the <b>total variation</b> of $f$ at $x$.
 * $f$ is <b>absolutely-continuous</b> if for every $\epsilon>0$, there is some $\delta>0$ such that $\sum_i\l|f\l(b_i\r)-f\l(a_i\r)\r|<\epsilon$ whenever $\sum_i\l(b_i-a_i\r)<\delta$ for any $U\coloneqq\bigsqcup_i\l(a_i,b_i\r)$.
 
-The Fundamental Theorem of Calculus states that $f$ is absolutely-continuous iff $f'\in L^1\!\l(\lambda\r)$ a.e. and $f\l(b\r)-f\l(a\r)=\int_a^bf'\d\lambda$ for all $a<b$, which occurs iff $f$ is a distribution of a (unique) finite Borel signed measure $\nu\abscont\lambda$.
+The Fundamental Theorem of Calculus states that $f$ is absolutely-continuous iff $f'\in L^1\!\l(\lambda\r)$ a.e. and $f\l(b\r)-f\l(a\r)=\int_a^bf'\,\d\lambda$ for all $a<b$, which occurs iff $f$ is a distribution of a (unique) finite Borel signed measure $\nu\abscont\lambda$.
 
 
 ```
 
-<i>Proof (of the FTC).</i> If $f'\in L^1\!\l(\lambda\r)$ and $f\l(b\r)-f\l(a\r)=\int_a^bf'\d\lambda$ for all $a<b$, then the signed measure $\nu\l(B\r)\coloneqq\int_Bf'\d\lambda$ is as desired. Conversely, if $f$ is the distribution of such a signed measure $\nu\abscont\lambda$, then $f$ is absolutely-continuous, and hence $f\in\BV$, so $f'=\frac{\d\nu}{\d\lambda}$ a.e. and $\int_a^bf'\d\lambda=\int_a^b\frac{\d\nu}{\d\lambda}\d\lambda=\nu\l(a,b\r]=f\l(b\r)-f\l(a\r)$ for all $a<b$.<span style="float:right;">$\blacksquare$</span>
+<i>Proof (of the FTC).</i> If $f'\in L^1\!\l(\lambda\r)$ and $f\l(b\r)-f\l(a\r)=\int_a^bf'\,\d\lambda$ for all $a<b$, then the signed measure $\nu\l(B\r)\coloneqq\int_Bf'\,\d\lambda$ is as desired. Conversely, if $f$ is the distribution of such a signed measure $\nu\abscont\lambda$, then $f$ is absolutely-continuous, and hence $f\in\BV$, so $f'=\frac{\,\d\nu}{\,\d\lambda}$ a.e. and $\int_a^bf'\,\d\lambda=\int_a^b\frac{\,\d\nu}{\,\d\lambda}\,\d\lambda=\nu\l(a,b\r]=f\l(b\r)-f\l(a\r)$ for all $a<b$.<span style="float:right;">$\blacksquare$</span>
 
 ---
 

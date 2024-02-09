@@ -31,7 +31,7 @@ For a subset $S\subseteq X$, a homotopy $F:X\times I\to Y$ is said to be <b>rela
 ^homotopy-category
 
 <b>Remark.</b> A homotopy $F:X\times I\to Y$ induces a family of <i>deformations</i> $f_t\coloneqq F\l(\slot,t\r):X\to Y$ for $t\in I$. A function $f:X\to Y$ is <i>null-homotopic</i> if there is a constant function $c$ such that $f\htopeq c$, and a space $X$ is <i>contractible</i> if it is homotopy equivalent to a point.
-* If $\gamma_0,\gamma_1:I\to Y$ are paths, then $\gamma_0\htopeq\gamma_1$ will always mean that they are homotopic rel $\del I$ in which case we say that $\gamma_0$ and $\gamma_1$ are <i>path-homotopic</i>. Indeed, in a path-connected space, the contractibility of $I$ shows that all paths $\gamma:I\to Y$ are freely homotopic, so no confusion shall arise.<span style="float:right;">$\blacklozenge$</span>
+* If $\gamma_0,\gamma_1:I\to Y$ are paths, then $\gamma_0\htopeq\gamma_1$ will always mean that they are homotopic rel $\,\del I$ in which case we say that $\gamma_0$ and $\gamma_1$ are <i>path-homotopic</i>. Indeed, in a path-connected space, the contractibility of $I$ shows that all paths $\gamma:I\to Y$ are freely homotopic, so no confusion shall arise.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -27,7 +27,7 @@ $$\begin{equation}
 \end{equation}$$
 In this case, we write $f\in\RI{\l[a,b\r]}$ and
 $$\begin{equation}
-    \int_{a}^{b}f\coloneqq\int_{a}^{b}f\l(x\r)\d x\coloneqq L.
+    \int_{a}^{b}f\coloneqq\int_{a}^{b}f\l(x\r)\,\d x\coloneqq L.
 \end{equation}$$
 
 ```

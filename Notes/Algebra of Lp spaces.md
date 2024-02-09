@@ -31,7 +31,7 @@ Let $\tpl{X,\mu}$ be a measure space and fix $0<p,q,r\leq\infty$. Then the follo
 
 <i>Proof (of Hölder).</i> If $p,q<\infty$, we may assume w.l.o.g. that $r=1$ by replacing $f,g$ with $f^r,g^r$ and $p,q$ with $p/r,q/r$. We may also assume that $\|f\|_p=\|g\|_q=1$ by normalizing, so it remains to show $\|fg\|_1\leq1$. To this end, note that $\l|fg\r|=\l|f\r|\l|g\r|=\l(\l|f\r|^p\r)^{1/p}\l(\l|g\r|^q\r)^{1/q}\leq\frac{1}{p}\l|f\r|^p+\frac{1}{q}\l|g\r|^q$ by the convexity of $x\mapsto e^x$, so we obtain
 $$\begin{equation}
-    \int\l|fg\r|\d\mu\leq\frac{1}{p}\int\l|f\r|^p\d\mu+\frac{1}{q}\int\l|g\r|^q\d\mu=\frac{1}{p}\|f\|_p^p+\frac{1}{q}\|g\|_q^q=\frac{1}{p}+\frac{1}{q}=1.
+    \int\l|fg\r|\,\d\mu\leq\frac{1}{p}\int\l|f\r|^p\,\d\mu+\frac{1}{q}\int\l|g\r|^q\,\d\mu=\frac{1}{p}\|f\|_p^p+\frac{1}{q}\|g\|_q^q=\frac{1}{p}+\frac{1}{q}=1.
 \end{equation}$$
 The equality claim is clear. If $p=\infty$, then $\l|f\l(x\r)\r|\leq\|f\|_\infty$ for a.e. $x\in\R$. Multiplying by $\l|g\l(x\r)\r|$ and integrating gives the desired result. For the uniqueness claim, note that if $\|fg\|_q=\|f\|_\infty\cdot\|g\|_q$, then $\l|f\r|\cdot\l|g\r|=\l|fg\r|=\|f\|_\infty\cdot\l|g\r|$ a.e. Thus $\l|f\l(x\r)\r|=\|f\|_\infty$ for a.e. $x\in X$ where $g\l(x\r)\neq0$, as desired.<span style="float:right;">$\blacksquare$</span>
 

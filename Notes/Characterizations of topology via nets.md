@@ -30,7 +30,7 @@ We have the following characterizations of topological notions on a space $X$ us
 ```
 ^sequential-characterizations-of-topology
 
-<b>Remark.</b> In particular, for a point $x\in X$, we see that $x\in A'$ iff there is a net $x_\blob\subseteq A\comp\l\{x\r\}$ converging to $x$, and in the same vein $x\in\del A$ iff there are nets $x_\blob\subseteq A$ and $x'_\blob\subseteq A^c$ such that $x_\blob,x'_\blob\to x$. Furthermore, $A$ is closed iff any net in $A$ contains all its limit points.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, for a point $x\in X$, we see that $x\in A'$ iff there is a net $x_\blob\subseteq A\comp\l\{x\r\}$ converging to $x$, and in the same vein $x\in\,\del A$ iff there are nets $x_\blob\subseteq A$ and $x'_\blob\subseteq A^c$ such that $x_\blob,x'_\blob\to x$. Furthermore, $A$ is closed iff any net in $A$ contains all its limit points.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

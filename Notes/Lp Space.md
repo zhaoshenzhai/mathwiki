@@ -21,7 +21,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition.
 
-Let $\tpl{X,\mu}$ be a measure space and fix $1\leq p<\infty$. The space $L^p\!\l(X,\mu\r)$ is the Banach space of all $\mu$-measurable functions $f:X\to\R$ with $\int\l|f\r|^p\d\mu<\infty$, equipped with the <b>$p$-norm</b> given by $\|f\|_p\coloneqq\l(\int\l|f\r|^p\d\mu\r)^{1/p}$ for all $f\in L^p\!\l(X,\mu\r)$.
+Let $\tpl{X,\mu}$ be a measure space and fix $1\leq p<\infty$. The space $L^p\!\l(X,\mu\r)$ is the Banach space of all $\mu$-measurable functions $f:X\to\R$ with $\int\l|f\r|^p\,\d\mu<\infty$, equipped with the <b>$p$-norm</b> given by $\|f\|_p\coloneqq\l(\int\l|f\r|^p\,\d\mu\r)^{1/p}$ for all $f\in L^p\!\l(X,\mu\r)$.
 * We let $L^\infty\!\l(X,\mu\r)$ be the Banach space of all $\mu$-measurable functions with $\|f\|_\infty<\infty$, where $\|f\|_\infty\coloneqq\inf\l\{c\geq0\st\l|f\r|\leq c\ \mu\textrm{-a.e.}\r\}$ is the <b>$\esssup$-norm</b>.
 
 ```

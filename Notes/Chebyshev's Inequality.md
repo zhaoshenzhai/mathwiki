@@ -32,4 +32,4 @@ This also shows that $L_1$-convergence implies $\mu$-convergence. Indeed, if $f_
 
 ---
 
-<i>Proof.</i> We have $\|f\|_1=\int\l|f\r|\d\mu\geq\int_{A_\alpha}\l|f\r|\d\mu\geq\int_{A_\alpha}\alpha\d\mu=\alpha\mu\l(A_\alpha\r)$, as desired.<span style="float:right;">$\blacksquare$</span>
+<i>Proof.</i> We have $\|f\|_1=\int\l|f\r|\,\d\mu\geq\int_{A_\alpha}\l|f\r|\,\d\mu\geq\int_{A_\alpha}\alpha\,\d\mu=\alpha\mu\l(A_\alpha\r)$, as desired.<span style="float:right;">$\blacksquare$</span>
