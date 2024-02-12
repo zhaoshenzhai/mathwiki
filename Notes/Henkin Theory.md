@@ -10,12 +10,12 @@ References: #Ref/Anu23 #Ref/Anu23_318
 Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: <i>Not Applicable</i>
-Examples: <i>Not Applicable</i>
+Examples: [[Completeness Theorem]], [[Omitting Types Theorem]]
 Constructions: [[Henkin Construction]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Henkin Theory#^Henkin-theories-calculate-terms]]
-Sufficiencies: [[Completeness Theorem]]
+Sufficiencies: [[Theory#^consistent]]
 Equivalences: <i>Not Applicable</i>
 Justifications: [[Proofs#^axioms-of-FOL]], [[Basic provable facts]]
 
