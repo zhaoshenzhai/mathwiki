@@ -15,7 +15,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Extension of partial elemntary map to an embedding into an elementary extension]]
 Sufficiencies: [[Lowenheim-Skolem Theorem]], [[Ehrenfeucht-Fraisse Games]]
 Equivalences: [[Tarski-Vaught Test]]
 Justifications: <i>Not Applicable</i>
