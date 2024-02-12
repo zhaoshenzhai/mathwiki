@@ -2,7 +2,7 @@
 
 Date Created: 05/02/2024 23:46:58
 References: #Ref/Mar02
-Tags: #Type/Theorem #In_Progress
+Tags: #Type/Theorem #Topic/Logic/Model_Theory
 
 Proved by: [[Henkin Construction]], [[Basic properties of consistent theories]], [[Compactness Theorem]]
 References: [[Completeness Theorem]]
@@ -18,11 +18,11 @@ Let $T$ be a complete $\mc{L}$-theory over a countable language $\mc{L}$ and let
 
 ```
 
-<b>Remark.</b> <span style="color:pink">countable</span>
+<b>Remark.</b> The proof given below can be modified to omit <i>countably</i>-many types $\Sigma(\vec{x})\coloneqq\l\{p_l(\vec{x})\r\}_{l=0}^\infty$ at once. Indeed, fix a bijection $f:\N\times\N\to\N$. We proceed exactly as below to ensure that $T^\ast$ is $\mc{L}^\ast$-Henkin in $\mc{C}$, i.e. when $s+1$ is either $3k+1$ or $3k+2$, but when $s+1=3k+3$, say with $f(m,l)=k$, we ensure as we do below that $\bar{c}_m$ does not realize $p_l(\vec{x})$. This ensure that no tuple in the canonical Henkin construction $\mc{M}\models T^\ast$ realizes any $p_l(\vec{x})\in\Sigma(\vec{x})$, so $\mc{M}$ omits $\Sigma(\vec{x})$ as desired.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
-<i>Proof.</i> If $p$ is isolated by $\phi(\vec{x})$, then $T\cup\l\{\ex\vec{x}\phi(\vec{x})\r\}$ is satisfiable and hence $\ex\vec{x}\phi(\vec{x})\in T$ by completeness. Thus any model $\mc{M}\models T$ realizes $p$. Conversely, suppose that $p$ is non-isolated and let $\mc{L}^\ast\coloneqq\mc{L}\sqcup\mc{C}$ where $\mc{C}\coloneqq\l\{c_0,c_1,\dots\r\}$ are new constant symbols. We proceed, as in the proof of the Completeness Theorem, by extending $T$ to a complete $\mc{L}^\ast$-theory $T^\ast$ admitting Henkin witnesses in $\mc{C}$, and we do so in a way so that the canonical Henkin construction $\mc{M}\models T^\ast$ over $\mc{C}$ omits $p$ by ensuring that for all $\vec{c}\in\mc{C}$, we have $T^\ast\models\lnot\phi(\vec{c})$ for some $\phi(\vec{x})\in p$.
+<i>Proof.</i> If $p$ is isolated by $\phi(\vec{x})$, then $T\cup\l\{\ex\vec{x}\phi(\vec{x})\r\}$ is satisfiable and hence $\ex\vec{x}\phi(\vec{x})\in T$ by completeness of $T$. Thus any model $\mc{M}\models T$ realizes $p$. Conversely, suppose that $p$ is non-isolated and let $\mc{L}^\ast\coloneqq\mc{L}\sqcup\mc{C}$ where $\mc{C}\coloneqq\l\{c_0,c_1,\dots\r\}$ are new constant symbols. We proceed, as in the proof of the Completeness Theorem, by extending $T$ to a complete $\mc{L}^\ast$-theory $T^\ast$ admitting Henkin witnesses in $\mc{C}$, and we do so in a way so that the canonical Henkin construction $\mc{M}\models T^\ast$ over $\mc{C}$ omits $p$ by ensuring that for all $\vec{c}\in\mc{C}$, we have $T^\ast\models\lnot\phi(\vec{c})$ for some $\phi(\vec{x})\in p$.
 
 To this end, let $\l\{\phi_k\r\}$ and $\l\{\vec{c}_m\r\}$ be an enumeration of all $\mc{L}^\ast$-sentences and of $\mc{C}^n$, respectively. We construct a sequence $\l\{\theta_1,\theta_2,\dots\r\}$ of $\mc{L}^\ast$-sentences with $\proves\theta_t\rightarrow\theta_s$ for all $t>s$ such that, assuming inductively that $T\cup\l\{\theta_s\r\}$ is satisfiable and $s+1=3k+i$ for some $i=1,2,3$ and $k\in\N$, we have in the corresponding cases that:
 * <span style="color:gray"><i>(Complete)</i>.</span> Either $T\proves\theta_s\rightarrow\phi_k$ or $T\proves\theta_s\rightarrow\lnot\phi_k$. In this case, we let $\theta_{s+1}\coloneqq\theta_s\land\phi_k$ if $T\cup\l\{\theta_s,\phi_k\r\}$ is satisfiable, and $\theta_{s+1}\coloneqq\theta_s\land\lnot\phi_k$ otherwise.
