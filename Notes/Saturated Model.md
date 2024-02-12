@@ -21,6 +21,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition ($\kappa$-saturated Model).
 
-Let $T$ be a $\sigma$-theory and fix an infinite cardinal $\kappa$. A model $\mc{M}\models T$ is said to be <b>$\kappa$-saturated</b> if for every subset $A\subseteq M$ of size $<\kappa$, every type in $p\in S_n^\mc{M}(A)$ is realized in $\mc{M}$. We say that $\mc{M}$ is <b>saturated</b> if it is $\l|M\r|$-saturated.
+Let $T$ be an $\mc{L}$-theory and fix an infinite cardinal $\kappa$. A model $\mc{M}\models T$ is said to be <b>$\kappa$-saturated</b> if for every subset $A\subseteq M$ of size $<\kappa$, every type in $p\in S_n^\mc{M}(A)$ is realized in $\mc{M}$. We say that $\mc{M}$ is <b>saturated</b> if it is $\l|M\r|$-saturated.
 
 ```

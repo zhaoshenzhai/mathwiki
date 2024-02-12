@@ -14,7 +14,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Omitting Types Theorem).
 
-
+Let $T$ be an $\mc{L}$-theory over a countable language $\mc{L}$. 
 
 ```
 

@@ -1,5 +1,5 @@
 ---
-mathLink: Models in $\FOL\l(\sigma\r)$
+mathLink: Models in $\FOL\l(\mc{L}\r)$
 ---
 
 <div class="topSpace"></div>
@@ -21,7 +21,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition (Models/Semantic Implication).
 
-Let $T$ be a $\sigma$-theory in $\FOL$ and let $\phi$ be a $\sigma$-formula. We say that <b>$T$ models $\phi$</b>, and write $T\models\phi$, if $\mc{A}\models\phi$ for every $\mc{A}\models T$.
+Let $T$ be an $\mc{L}$-theory in $\FOL$ and let $\phi$ be an $\mc{L}$-formula. We say that <b>$T$ models $\phi$</b>, and write $T\models\phi$, if $\mc{A}\models\phi$ for every $\mc{A}\models T$.
 
 ```
 

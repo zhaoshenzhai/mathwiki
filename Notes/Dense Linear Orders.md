@@ -23,7 +23,7 @@ Justifications: [[Categorical Theory#^los-vaught-test]], [[Ehrenfeucht-Fraisse G
 ``` ad-Example
 title: Example (Dense Linear Orders).
 
-Consider the signature $\sigma\coloneqq\tpl{<}$ with one binary relation symbol. The theory of <b>dense linear orders without endpoints</b> is the theory $\DLO_0$ axiomatized by
+Consider the language $\mc{L}\coloneqq\tpl{<}$ with one binary relation symbol. The theory of <b>dense linear orders without endpoints</b> is the theory $\DLO_0$ axiomatized by
 * $\fa x(x\not<x)$ <span style="color:gray">(irreflexivity)</span>, $\fa x\fa y\fa z((x<y\land y<z)\rightarrow x\leq z)$ <span style="color:gray">(transitivity)</span>, and $\fa x\fa y(x=y\lor x<y\lor y<x)$ <span style="color:gray">(linearity)</span>;
 * $\fa x\fa z(x<z\rightarrow\ex y(x<y<z))$ <span style="color:gray">(density)</span> and $\fa x\ex y_1\ex y_2(y_1<x<y_2)$ <span style="color:gray">(without-endpoints)</span>.
 

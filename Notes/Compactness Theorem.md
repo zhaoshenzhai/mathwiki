@@ -19,7 +19,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Compactness Theorem; Gödel 1930 & Maltsev 1936).
 
-Let $\sigma$ be a signature in $\FOL$. If a $\sigma$-theory $T$ is finitely satisfiable, then it admits a model of cardinality $\leq\max\l\{\l|\sigma\r|,\aleph_0\r\}$.
+Let $\mc{L}$ be a language in $\FOL$. If an $\mc{L}$-theory $T$ is finitely satisfiable, then it admits a model of cardinality $\leq\max\l\{\l|\mc{L}\r|,\aleph_0\r\}$.
 
 ```
 
