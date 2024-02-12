@@ -14,8 +14,8 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Omitting Types Theorem).
 
-Let $T$ be an $\mc{L}$-theory over a countable language $\mc{L}$. 
+Let $T$ be a complete $\mc{L}$-theory over a countable language $\mc{L}$ and let $p(\vec{x})$ be an $n$-type of $T$. There is a model $\mc{M}\models T$ omitting $p$ iff $p$ is non-isolated.
 
 ```
 
-<i>Proof.</i> 
+<i>Proof.</i> If $p$ is isolated by $\phi(\vec{x})$, then $T\cup\l\{\ex x\phi(x)\r\}$ is satisfiable and hence $\ex x\phi(x)\in T$ by completeness. Thus any $\mc{M}\models T$ realizes $p$. Conversely, if $p$ is non-isolated, we proceed
