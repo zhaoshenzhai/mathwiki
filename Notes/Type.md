@@ -26,4 +26,4 @@ For any $\vec{a}\in M^n$, the <b>type</b> of $\vec{a}$ over $p$ is the (complete
 
 ```
 
-<b>Remark.</b> We may also define types without reference to an $\mc{L}$-structure, but rather in a complete $\mc{L}$-theory $T$, as a collection $p(\vec{x})$ of $\mc{L}$-formulas in the free variables $\vec{x}$ that is <i>$T$-consistent</i> in the sense that $T\proves\ex\vec{x}\bigwedge p_0(\vec{x})$ for all finite subsets $p_0\subseteq p$. Note that the theory $T\coloneqq\Th_A\mc{M}$ is complete, and the set $S_n(T)$ of all complete $n$-types in $T$ coincides with $S_n^\mc{M}(A)$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> We may also define types without reference to an $\mc{L}$-structure, but rather in a complete $\mc{L}$-theory $T$, as a collection $p(\vec{x})$ of $\mc{L}$-formulas in the free variables $\vec{x}$ such that $p(\vec{x})\cup T$ is satisfiable. Note that the theory $T\coloneqq\Th_A\mc{M}$ is complete, and that the set $S_n(T)$ of all complete $n$-types in $T$ coincides with $S_n^\mc{M}(A)$.<span style="float:right;">$\blacklozenge$</span>
