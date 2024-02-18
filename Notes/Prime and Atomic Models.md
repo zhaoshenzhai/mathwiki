@@ -14,7 +14,7 @@ Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
-Sufficiencies: <i>Not Applicable</i>
+Sufficiencies: [[Existence of prime and atomic models]], [[Ryll-Nardzewski Theorem]]
 Equivalences: [[Prime iff atomic and countable]]
 Justifications: <i>Not Applicable</i>
 

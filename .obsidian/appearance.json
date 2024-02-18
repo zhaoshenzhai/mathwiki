@@ -10,7 +10,8 @@
     "fonts",
     "admonition",
     "margins",
-    "flash"
+    "flash",
+    "indent"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": false,

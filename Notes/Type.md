@@ -10,7 +10,7 @@ Constructions: [[Prime and Atomic Models]], [[Saturated Model]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Omitting Types Theorem]], [[Realizing Types]]
-Sufficiencies: <i>Not Applicable</i>
+Sufficiencies: [[Ryll-Nardzewski Theorem]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
