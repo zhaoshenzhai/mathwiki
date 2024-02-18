@@ -1,7 +1,3 @@
----
-mathLink: $\kappa$-saturation
----
-
 <div class="topSpace"></div>
 
 Date Created: 05/02/2024 21:17:57

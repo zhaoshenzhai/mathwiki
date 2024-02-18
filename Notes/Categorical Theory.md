@@ -17,7 +17,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: <i>Not Applicable</i>
+Equivalences: [[Ryll-Nardzewski Theorem]]
 Justifications: [[Lowenheim-Skolem Theorem]], [[Basic properties of consistent theories]], [[Completeness Theorem]]
 
 ``` ad-Definition
