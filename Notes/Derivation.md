@@ -2,7 +2,7 @@
 
 Date Created: 27/01/2024 13:22:29
 References: #Ref/NONE
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Commutative_Algebra/Later
 
 Types: <i>Not Applicable</i>
 Examples: [[Tangent Space]]

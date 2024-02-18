@@ -2,7 +2,7 @@
 
 Date Created: 02/09/2023 15:11:00
 References: #Ref/Mac10
-Tags: #Type/Definition #In_Progress/Category_Theory
+Tags: #Type/Definition #Topic/Category_Theory/Later
 
 Types: <i>Not Applicable</i>
 Examples: [[Dual Space]], [[Complex representations equivalent to finitely-generated modules over group algebra]], [[Finitely-generated Module#^equivalence-fg-vector-spaces-and-dimension]]

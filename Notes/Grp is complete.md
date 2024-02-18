@@ -6,7 +6,7 @@ mathLink: $\catgrp$ is complete
 
 Date Created: 07/01/2024 14:33:15
 References: #Ref/NONE
-Tags: #Type/Proposition #In_Progress/Category_Theory
+Tags: #Type/Proposition #Topic/Category_Theory/Later
 
 Proved by: <i>Not Applicable</i>
 References: <i>Not Applicable</i>
