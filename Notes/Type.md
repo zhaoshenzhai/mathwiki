@@ -6,7 +6,7 @@ Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Saturated Model]]
+Constructions: [[Prime and Atomic Models]], [[Saturated Model]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Omitting Types Theorem]], [[Realizing Types]]

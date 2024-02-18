@@ -4,7 +4,7 @@ Date Created: 17/02/2024 23:16:56
 References: #Ref/Mar02
 Tags: #Type/Theorem #Topic/Logic/Model_Theory
 
-Proved by: [[Omitting Types Theorem]], [[Realizing Types]], [[Lowenheim-Skolem Theorem]]
+Proved by: [[Omitting Types Theorem]], [[Realizing Types]], [[Lowenheim-Skolem Theorem]], [[Prime iff atomic and countable]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
