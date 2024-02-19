@@ -6,7 +6,7 @@ mathLink: Existence of prime/atomic models
 
 Date Created: 18/02/2024 15:54:24
 References: #Ref/Mar02
-Tags: #Type/Theorem #Topic/Logic/Model_Theory
+Tags: #Type/Theorem #Topic/Logic/Model_Theory/Later
 
 Proved by: [[Henkin Construction]], [[Basic properties of consistent theories]], [[Compactness Theorem]]
 References: [[Completeness Theorem]]
