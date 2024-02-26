@@ -12,7 +12,7 @@ Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 ``` ad-Theorem
-title: Theorem (Ryll-Nardzewski).
+title: Theorem (Ryll-Nardzewski Theorem on $\aleph_0$-Categoricity).
 
 Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable language $\mc{L}$. Then $T$ is $\aleph_0$-categorical iff any one of the following holds.
 1. Every model of $T$ is atomic (i.e. for each $n<\omega$, every $p\in S_n(T)$ is isolated).
