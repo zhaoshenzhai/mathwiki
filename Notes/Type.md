@@ -22,7 +22,7 @@ Let $\mc{M}$ be an $\mc{L}$-structure and fix $A\subseteq M$. A set $p(\vec{x})$
 * A tuple $\vec{a}\in M^n$ <b>realizes</b> $p(\vec{x})$ if $\mc{M}\models\phi(\vec{a})$ for all $\phi\in p$. Otherwise, if $p$ is not realized in $\mc{M}$, we say that $\mc{M}$ <b>omits</b> $p$.
 * An $\mc{L}_A$-formula $\psi(\vec{x})$ such that $\Th_A\mc{M}\cup\l\{\psi(\vec{x})\r\}$ is satisfiable is said to <b>isolate</b> $p(\vec{x})$ if $\Th_A\mc{M}\proves\fa\vec{x}(\psi(\vec{x})\rightarrow\phi(\vec{x}))$ for all $\phi\in p$.
 
-For any $\vec{a}\in M^n$, the <b>type</b> of $\vec{a}$ over $p$ is the (complete) type $\tp^\mc{M}(\vec{a}/A)\coloneqq\l\{\phi(\vec{x})\in\Form(\mc{L}_A)\st\mc{M}\models\phi(\vec{a})\r\}$. We write $\tp^\mc{M}(\vec{a})\coloneqq\tp^\mc{M}(\vec{a}/\em)$.
+For any $\vec{a}\in M^n$, the <b>type</b> of $\vec{a}$ over $A$ is the (complete) type $\tp^\mc{M}(\vec{a}/A)\coloneqq\l\{\phi(\vec{x})\in\Form(\mc{L}_A)\st\mc{M}\models\phi(\vec{a})\r\}$. We write $\tp^\mc{M}(\vec{a})\coloneqq\tp^\mc{M}(\vec{a}/\em)$.
 
 ```
 
