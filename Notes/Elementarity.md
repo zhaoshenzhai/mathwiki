@@ -2,6 +2,7 @@
 mathLink-blocks:
     Tarski-Vaught-test: Tarski-Vaught Test
     embeddings-via-diagrams: $\mc{M}\into_\blob\mc{N}$ $\Leftrightarrow$ $\mc{N}\models\Diag_\blob\!\mc{M}$
+    extension-of-partial-elementary: Extension of $A\eleminto\mc{N}$ to $\mc{M}\eleminto\mc{N}'$ for some $\mc{N}'\elemextend\mc{N}$
 ---
 
 <div class="topSpace"></div>
@@ -15,7 +16,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Extension of partial elemntary map to an embedding into an elementary extension]]
+Properties: <i>Not Applicable</i>
 Sufficiencies: [[Lowenheim-Skolem Theorem]], [[Ehrenfeucht-Fraisse Games]], [[Homogeneous Model]]
 Equivalences: [[Tarski-Vaught Test]]
 Justifications: [[Compactness Theorem]]
@@ -38,4 +39,4 @@ Let $\mc{L}$ be a language in $\FOL$. We say that an $\mc{L}$-structure $\mc{M}$
 ---
 
 <b>Remark.</b> Fix $A\subseteq M$. To illustrate the above, we show that every <i>partial elementary map</i> $f:A\eleminto\mc{N}$ (i.e., a map such that $\mc{M}\models\phi(\vec{a})$ iff $\mc{N}\models\phi(f(\vec{a}))$ for all $\mc{L}$-formulas $\phi(\vec{x})$ and all $\vec{a}\in A$) extends to an elementary embedding $f:\mc{M}\eleminto\mc{N}'$ for some elementary extension $\mc{N}'\elemextend\mc{N}$, for which  it suffices (by induction) to show that for any $b\in M$, there is some elementary extension $\mc{N}^\ast\elemextend\mc{N}$ and a partial elementary map $f^\ast:A\cup\l\{b\r\}\eleminto\mc{N}^\ast$ extending $f$.
-&emsp;&emsp;To this end, consider the $\mc{L}_{N,c}$-theory $T\coloneqq\Diag_\textrm{el}\mc{N}\cup\l\{\phi(c,f(a_1),\dots,f(a_n)))\st\mc{M}\models\phi(b,a_1,\dots,a_n),a_i\in A\r\}$ for some new constant symbol $c$, which we claim is satisfiable. To this end, let $\Diag_\textrm{el}\mc{N}\cup\Delta\subseteq T$ be finite. By taking conjunctions, we may assume that $\Delta=\l\{\phi(c,f(a_1),\dots,f(a_n))\r\}$. Since $\mc{M}\models\ex x\phi(x,a_1,\dots,a_n)$ and $f$ is partial elementary, we see that $\mc{N}\models\ex x\phi(x,f(a_1),\dots,f(a_n))$. Interpreting $c$ as any such witness and setting $f^\ast(b)\coloneqq c$ gives us the desired model $\mc{N}^\ast\models T$.<span style="float:right;">$\blacklozenge$</span>
+&emsp;&emsp;To this end, consider the $\mc{L}_{N,c}$-theory $T\coloneqq\Diag_\textrm{el}\mc{N}\cup\l\{\phi(c,f(a_1),\dots,f(a_n)))\st\mc{M}\models\phi(b,a_1,\dots,a_n),a_i\in A\r\}$ for some new constant symbol $c$, which we claim is satisfiable. To this end, let $\Diag_\textrm{el}\mc{N}\cup\Delta\subseteq T$ be finite. By taking conjunctions, we may assume that $\Delta=\l\{\phi(c,f(a_1),\dots,f(a_n))\r\}$. Since $\mc{M}\models\ex x\phi(x,a_1,\dots,a_n)$ and $f$ is partial elementary, we see that $\mc{N}\models\ex x\phi(x,f(a_1),\dots,f(a_n))$. Interpreting $c$ as any such witness and setting $f^\ast(b)\coloneqq c$ gives us the desired model $\mc{N}^\ast\models T$.<span style="float:right;">$\blacklozenge$</span> ^extension-of-partial-elementary
