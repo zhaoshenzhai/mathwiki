@@ -21,7 +21,7 @@ Equivalences: [[Ryll-Nardzewski Theorem]]
 Justifications: [[Lowenheim-Skolem Theorem]], [[Basic properties of consistent theories]], [[Completeness Theorem]]
 
 ``` ad-Definition
-title: Definition ($\kappa$-categorical Theory).
+title: Definition (Categorical Theory).
 
 Let $\kappa$ be an infinite cardinal and let $\mc{L}$ be a language in $\FOL$. An $\mc{L}$-theory $T$ is said to be <b>$\kappa$-categorical</b> if it has exactly one model of cardinality $\kappa$.
 
