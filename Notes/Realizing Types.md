@@ -5,7 +5,7 @@ References: #Ref/Mar02
 Tags: #Type/Proposition #Topic/Logic/Model_Theory
 
 Proved by: [[Compactness Theorem]], [[Elementarity#^embeddings-via-diagrams]], [[Elementarity#^extension-of-partial-elementary]]
-References: <i>Not Applicable</i>
+References: [[Homogeneous Model]]
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
@@ -16,11 +16,11 @@ title: Proposition (Realizing Types).
 
 Let $\mc{M}$ be an $\mc{L}$-structure and fix $A\subseteq M$. Every $n$-type $p(\vec{x})$ in $\mc{M}$ over $A$ can be realized in some elementary extension $\mc{N}\elemextend\mc{M}$. Moreover:
 * The type $p(\vec{x})$ is complete, i.e. $p\in S_n^\mc{M}(A)$, iff there is an elementary extension $\mc{N}\elemextend\mc{M}$ and some $\vec{a}\in N^n$ such that $p=\tp^\mc{N}(\vec{a}/A)$.
-* If $\vec{a}_1,\vec{a}_2\in M^n$ have the same type over $A$, then there is an elementary extension $N\elemextend\mc{M}$ and an $A$-preserving $h\in\Aut_\mc{L}\mc{N}$ such that $h(\vec{a}_1)=\vec{a}_2$.
+* If $\vec{a}_1,\vec{a}_2\in M^n$ have the same type over $A$, then there is an elementary extension $N\elemextend\mc{M}$ and an $A$-preserving $h\in\Aut_\mc{L}\mc{N}$ mapping $\vec{a}_1\mapsto\vec{a}_2$.
 
 ```
 
-<b>Remark.</b> This shows us that every type is contained in some complete type $\tp^\mc{N}(\vec{a}/A)$ in an elementary extension $\mc{N}\elemextend\mc{M}$. Moreover, complete types are exactly the ones that tell us the possible first-order properties an element in an elementary extension can have.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> This shows us that every type is contained in some complete type $\tp^\mc{N}(\vec{a}/A)$ in an elementary extension $\mc{N}\elemextend\mc{M}$. Moreover, complete types are exactly the ones that tell us the possible first-order properties an element in an elementary extension can have. If $\mc{M}$ is homogeneous, then no elementary extension is needed.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

@@ -22,4 +22,4 @@ Let $T$ be an $\mc{L}$-theory with infinite models and fix an infinite cardinal 
 
 ```
 
-<b>Remark.</b> If $\mc{M}$ is homogeneous, then any partial elementary map $f:A\eleminto\mc{M}$ extends to an automorphism by induction.
+<b>Remark.</b> If $\mc{M}$ is homogeneous, then any partial elementary map $f:A\eleminto\mc{M}$ extends, by induction, to an automorphism $f^\ast\in\Aut_\mc{L}\mc{M}$. In particular, if $\vec{a},\vec{b}\in M$ realize the same type over $A$, then there is an $A$-preserving automorphism $h\in\Aut_\mc{L}\mc{M}$ mapping $\vec{a}\mapsto\vec{b}$.<span style="float:right;">$\blacklozenge$</span>
