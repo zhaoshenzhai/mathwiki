@@ -5,7 +5,7 @@ References: #Ref/Mar02
 Tags: #Type/Proposition #Topic/Logic/Model_Theory
 
 Proved by: [[Compactness Theorem]], [[Elementarity#^embeddings-via-diagrams]], [[Elementarity#^extension-of-partial-elementary]]
-References: [[Homogeneous Model]]
+References: [[Homogeneous Model]], [[Saturated Model]]
 Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
