@@ -15,9 +15,14 @@ Equivalences: [[Saturated iff homogeneous and universal]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
-title: Definition (Saturated Model).
+title: Definition (Saturated/Universal/Homogeneous Model).
 
-Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable language $\mc{L}$ and fix an infinite cardinal $\kappa$. A model $\mc{M}\models T$ is said to be <b>$\kappa$-saturated</b> if for all $A\subseteq M$ with $\l|A\r|<\kappa$, every type in $p\in S_n^\mc{M}(A)$ is realized in $\mc{M}$. We say that $\mc{M}$ is <b>saturated</b> if it is $\l|M\r|$-saturated.
+Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable language $\mc{L}$ and fix an infinite cardinal $\kappa$. A model $\mc{M}\models T$ is said to be:
+* <b>$\kappa$-saturated</b> if for all $A\subseteq M$ with $\l|A\r|<\kappa$, every type in $p\in S_n^\mc{M}(A)$ is realized in $\mc{M}$.
+* <b>$\kappa$-universal</b> if for all $\mc{N}\models T$ with $\l|N\r|\leq\kappa$, there is an elementary embedding $f:\mc{N}\eleminto\mc{M}$.
+* <b>$\kappa$-homogeneous</b> if for all $A\subseteq M$ with $\l|A\r|<\kappa$, if $f:A\eleminto\mc{M}$ is partial elementary and $a\in M$, then there is some $f^\ast:A\cup\l\{a\r\}\eleminto\mc{M}$ extending $f$.
+
+We say that $\mc{M}$ is <b>saturated</b> if it is $\l|M\r|$-saturated, and similarly for <b>universal</b>/<b>homogeneous</b>.
 
 ```
 
