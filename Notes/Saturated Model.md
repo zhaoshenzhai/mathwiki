@@ -11,13 +11,13 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: <i>Not Applicable</i>
+Equivalences: [[Saturated iff homogeneous and universal]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
 title: Definition (Saturated Model).
 
-Let $T$ be a complete $\mc{L}$-theory and fix an infinite cardinal $\kappa$. A model $\mc{M}\models T$ is said to be <b>$\kappa$-saturated</b> if for every subset $A\subseteq M$ of size $<\kappa$, every type in $p\in S_n^\mc{M}(A)$ is realized in $\mc{M}$. We say that $\mc{M}$ is <b>saturated</b> if it is $\l|M\r|$-saturated.
+Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable language $\mc{L}$ and fix an infinite cardinal $\kappa$. A model $\mc{M}\models T$ is said to be <b>$\kappa$-saturated</b> if for all $A\subseteq M$ with $\l|A\r|<\kappa$, every type in $p\in S_n^\mc{M}(A)$ is realized in $\mc{M}$. We say that $\mc{M}$ is <b>saturated</b> if it is $\l|M\r|$-saturated.
 
 ```
 

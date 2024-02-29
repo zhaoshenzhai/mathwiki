@@ -2,7 +2,7 @@
 mathLink-blocks:
     Tarski-Vaught-test: Tarski-Vaught Test
     embeddings-via-diagrams: $\mc{M}\into_\blob\mc{N}$ $\Leftrightarrow$ $\mc{N}\models\Diag_\blob\!\mc{M}$
-    extension-of-partial-elementary: Extension of $A\eleminto\mc{N}$ to $\mc{M}\eleminto\mc{N}'$ for some $\mc{N}'\elemextend\mc{N}$
+    extension-of-partial-elementary: Extension of $A\eleminto\mc{N}$ to $\mc{M}\eleminto\mc{N}'\elemextend\mc{N}$
 ---
 
 <div class="topSpace"></div>

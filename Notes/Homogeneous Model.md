@@ -17,7 +17,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition (Homogeneous Model).
 
-Let $T$ be an $\mc{L}$-theory with infinite models and fix an infinite cardinal $\kappa$. A model $\mc{M}\models T$ is said to be <b>$\kappa$-homogeneous</b> if whenever $A\subseteq M$ has cardinality $<\kappa$, $f:A\eleminto\mc{M}$ is a partial elementary map, and $a\in M$, then there is a partial elementary map $f^\ast:A\cup\l\{a\r\}\eleminto\mc{M}$ extending $f$.
+Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable language $\mc{L}$ and fix an infinite cardinal $\kappa$. A model $\mc{M}\models T$ is said to be <b>$\kappa$-homogeneous</b> if for all $A\subseteq M$ with $\l|A\r|<\kappa$, if $f:A\eleminto\mc{M}$ is a partial elementary map and $a\in M$, then there is a partial elementary map $f^\ast:A\cup\l\{a\r\}\eleminto\mc{M}$ extending $f$.
 * If any partial elementary map $f:A\eleminto\mc{M}$ with $\l|A\r|<\kappa$ can be extended to an automorphism $f^\ast\in\Aut_\mc{L}\mc{M}$, then $M$ is <b>strongly $\kappa$-homogeneous</b>.
 
 We say that $\mc{M}$ is (<b>strongly</b>) <b>homogeneous</b> if it is (strongly) $\l|M\r|$-homogeneous.
