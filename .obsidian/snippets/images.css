@@ -2,7 +2,11 @@
     filter: invert(1) hue-rotate(180deg);
 }
 
-.rightimg {
+.theme-dark .markdown-preview-view img {
+    opacity: 1;                   
+}
+
+.floatRight {
     display: block;
     float: right;
     margin-right: 10px;
