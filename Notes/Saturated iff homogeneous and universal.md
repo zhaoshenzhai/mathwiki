@@ -18,8 +18,13 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition (Saturated $\Leftrightarrow$ Homogeneous $+$ Universal).
 
+Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable language $\mc{L}$ and fix an infinite cardinal $\kappa$. Let $\mc{M}\models T$. The following are equivalent.
+1. $\mc{M}$ is $\kappa$-saturated.
+2. $\mc{M}$ is $\kappa$-homogeneous and $\kappa^+$-universal. <span style="color:gray">If $\kappa\neq\aleph_0$, we may replace ‘$\kappa^+$-universal’ with ‘$\kappa$-universal’.</span>
+3. $\mc{M}$ is $\kappa$-homogeneous and realizes all types in $S_n(T)$.
 
 
 ```
 
-<i>Proof.</i> 
+<i>Proof.</i> First, observe that if $A\subseteq M$, then for $f:A\eleminto\mc{M}$ and every $b\in M\comp A$, the collection $\Gamma(x)\coloneqq\l\{\phi(f(\vec{a},x))\st\vec{a}\in A^m\textrm{ and }\mc{M}\models\phi(\vec{a},b)\r\}$ is a complete $1$-type. Indeed, if $\phi(f(\vec{a},x))\in\Gamma(x)$, then $\mc{M}\models\phi(\vec{a},b)$ and hence $\mc{M}\models\ex x\phi(\vec{a},x)$. Since $f$ is partial elementary, we see that $\mc{M}\models\ex x\phi(f(\vec{a},x))$, as desired.
+* <span style="color:gray">($1\Rightarrow2$).</span> 
