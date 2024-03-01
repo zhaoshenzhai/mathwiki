@@ -13,7 +13,7 @@ Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: <i>Not Applicable</i>
+Constructions: [[Prime and Atomic Models]], [[Universal Model]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

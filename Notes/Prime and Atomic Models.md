@@ -21,7 +21,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition (Prime/Atomic Models).
 
-Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable language $\mc{L}$.
-* A model $\mc{M}\models T$ is said to be <b>prime</b> if $\mc{M}\eleminto\mc{N}$ for every $\mc{N}\models T$, and <b>atomic</b> if $\tp^\mc{M}(\vec{a})$ is isolated in $S_n^\mc{M}(\em)$ for all $\vec{a}\in M^n$.
+Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable language $\mc{L}$. A model $\mc{M}\models T$ is said to be <b>prime</b> if $\mc{M}\eleminto\mc{N}$ for every $\mc{N}\models T$.
+&emsp;&emsp; We say that $\mc{M}$ is <b>atomic</b> if $\tp^\mc{M}(\vec{a})$ is isolated in $S_n^\mc{M}(\em)$ for all $\vec{a}\in M^n$.
 
 ```
