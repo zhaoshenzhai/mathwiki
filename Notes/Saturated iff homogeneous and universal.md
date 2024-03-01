@@ -6,7 +6,7 @@ mathLink: Saturated $\Leftrightarrow$ Homogeneous $+$ Universal
 
 Date Created: 28/02/2024 23:18:12
 References: #Ref/Mar02
-Tags: #Type/Proposition #In_Progress
+Tags: #Type/Proposition #Topic/Logic/Model_Theory
 
 Proved by: [[Realizing Types]], [[Lowenheim-Skolem Theorem]]
 References: <i>Not Applicable</i>
@@ -38,4 +38,4 @@ We need the following lemma. Let $\mc{N},\mc{M}\models T$. If $\mc{M}$ is $\kapp
 * <span style="color:gray">($2\Rightarrow1$).</span> Let $A\subseteq M$ with $\l|A\r|<\kappa$. Let $p\in S_1^\mc{M}(A)$, which can be realized in some elementary extension $\mc{N}_0\elemextend\mc{M}$. By Löwenheim-Skolem, we have an elementary substructure $A\subseteq\mc{N}\elemembed\mc{N}_0$ with $\l|N\r|<\kappa$ if $\kappa\neq\aleph_0$, and $\l|N\r|=\aleph_0$ otherwise, such that $p=\tp^\mc{N}(a/A)$ for some $a\in N$. Thus there is some $f:\mc{N}\eleminto\mc{M}$, and since $\l.f\r|_A$ is partial elementary, we have by $\kappa$-homogeneity that $p=\tp^\mc{N}(a/A)=\tp^\mc{M}(f(a)/f(A))=\tp^\mc{M}(b/A)$ for some $b\in M$. Thus $p$ is realized in $\mc{M}$, as desired.
 * <span style="color:gray">($3\Rightarrow1$).</span> If $\mc{M}$ realizes all types in $S_n(T)$, then it is $\kappa^+$-saturated by the Lemma with $A\coloneqq\mc{N}$, and hence is $\kappa$-saturated.
 
-Finally, 
+Finally, we build an isomorphism $f:\mc{M}\to\mc{N}$ by back-and-forth. Let $\kappa\coloneqq\l|M\r|$, enumerate $M=\l\{a_\alpha\st\alpha<\kappa\r\}$ and $N=\l\{b_\alpha\st\alpha<\kappa\r\}$, and set $A_\alpha\coloneqq\l\{a_\beta\st\beta<\alpha\r\}$. We construct an increasing sequence $f_\alpha:A_\alpha\eleminto\mc{N}$ with each $b_\alpha\in\im f_{\alpha+1}$, so $f\coloneqq\bigcup_{\alpha<\kappa}f_\alpha$ is as desired. Set $f_0\coloneqq\em$ and $f_\alpha\coloneqq\bigcup_{\beta<\alpha}f_\beta$ at limits. At successors, we have a partial elementary map $g:A_{\alpha+1}\eleminto\mc{N}$ by the Lemma, which by ‘shifting’ and homogeneity, furnishes some $b\in N$ and $f_{\alpha+1}'\coloneqq f_\alpha\cup\l\{(a_\alpha,b)\r\}$ partial elementary. Set $g_\alpha\coloneqq f_{\alpha+1}'^{-1}:\im f_{\alpha+1}'\eleminto\mc{M}$. A symmetric argument furnishes some $a\in M$ such that $g_\alpha\cup\l\{(b_\alpha,a)\r\}$ is partial elementary, so $f_{\alpha+1}\coloneqq f_{\alpha+1}'\cup\l\{(a,b_\alpha)\r\}$ is as desired.<span style="float:right;">$\blacksquare$</span>
