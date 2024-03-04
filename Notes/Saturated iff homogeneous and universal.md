@@ -1,5 +1,7 @@
 ---
 mathLink: Saturated $\Leftrightarrow$ Homogeneous $+$ Universal
+mathLink-blocks:
+    homogeneous-realize-same-types-isomorphic: Homogeneous models realizing same types are isomorphic
 ---
 
 <div class="topSpace"></div>
@@ -26,6 +28,7 @@ Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable lang
 Moreover, if $\mc{M},\mc{N}\models T$ are homogeneous models with the same cardinality and realize the same types in $S_n(T)$, then $\mc{M}\iso\mc{N}$.
 
 ```
+^homogeneous-realize-same-types-isomorphic
 
 <i>Proof.</i> First, we need a lemma. Let $\mc{N},\mc{M}\models T$. If $\mc{M}$ is $\kappa$-homogeneous and every type $S_n(T)$ realized in $\mc{N}$ is realized in $\mc{M}$, then for every $A\subseteq N$ with $\l|A\r|\leq\kappa$, we have a partial elementary map $f:A\eleminto\mc{M}$. The proof is by induction on $\l|A\r|$.
 <span class="floatRight">![[Images/2024-03-01_114417/image.svg|280]]</span>
