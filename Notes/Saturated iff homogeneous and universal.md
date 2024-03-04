@@ -23,7 +23,7 @@ Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable lang
 2. $\mc{M}$ is $\kappa$-homogeneous and $\kappa^+$-universal. <span style="color:gray">If $\kappa\neq\aleph_0$, we may replace ‘$\kappa^+$-universal’ with ‘$\kappa$-universal’.</span>
 3. $\mc{M}$ is $\kappa$-homogeneous and realizes all types in $S_n(T)$.
 
-Moreever, if $\mc{M},\mc{N}\models T$ are homogeneous models with the same cardinality and realize the same types in $S_n(T)$, then $\mc{M}\iso\mc{N}$.
+Moreover, if $\mc{M},\mc{N}\models T$ are homogeneous models with the same cardinality and realize the same types in $S_n(T)$, then $\mc{M}\iso\mc{N}$.
 
 ```
 
