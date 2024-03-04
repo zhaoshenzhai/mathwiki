@@ -1,6 +1,7 @@
 ---
 mathLink: Saturated $\Leftrightarrow$ Homogeneous $+$ Universal
 mathLink-blocks:
+    uniqueness-of-saturated-models: Uniqueness of saturated models
     homogeneous-realize-same-types-isomorphic: Homogeneous models realizing same types are isomorphic
 ---
 
@@ -16,6 +17,7 @@ Justifications: <i>Not Applicable</i>
 
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
+^uniqueness-of-saturated-models
 
 ``` ad-Proposition
 title: Proposition (Saturated $\Leftrightarrow$ Homogeneous $+$ Universal).
