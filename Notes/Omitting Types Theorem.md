@@ -18,7 +18,7 @@ Let $T$ be a complete $\mc{L}$-theory over a countable language $\mc{L}$ and let
 
 ```
 
-<b>Remark.</b> The proof given below can be modified to omit <i>countably</i>-many types $\Sigma(\vec{x})\coloneqq\l\{p_l(\vec{x})\r\}_{l=0}^\infty$ at once. Indeed, fix a bijection $f:\N\times\N\to\N$. We proceed exactly as below to ensure that $T^\ast$ is $\mc{L}^\ast$-Henkin in $\mc{C}$, i.e. when $s+1$ is either $3k+1$ or $3k+2$, but when $s+1=3k+3$, say with $f(m,l)=k$, we ensure as we do below that $\bar{c}_m$ does not realize $p_l(\vec{x})$. This ensures that no tuple in the canonical Henkin construction $\mc{M}\models T^\ast$ realizes any $p_l(\vec{x})\in\Sigma(\vec{x})$, so $\mc{M}$ omits $\Sigma(\vec{x})$ as desired.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The proof given below can be modified to omit <i>countably</i>-many types $\Sigma\coloneqq\l\{p_l(\vec{x})\r\}_{l<\omega}$ at once. Indeed, fix a bijection $f:\N\times\N\to\N$. We proceed exactly as below to ensure that $T^\ast$ is $\mc{L}^\ast$-Henkin in $\mc{C}$, i.e. when $s+1$ is either $3k+1$ or $3k+2$, but when $s+1=3k+3$, say with $f(m,l)=k$, we ensure as we do below that $\bar{c}_m$ does not realize $p_l(\vec{x})$. This ensures that no tuple in the canonical Henkin construction $\mc{M}\models T^\ast$ realizes any $p_l(\vec{x})\in\Sigma$, so $\mc{M}$ omits $\Sigma$ as desired.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
