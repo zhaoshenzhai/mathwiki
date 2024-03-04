@@ -9,8 +9,8 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Saturated iff homogeneous and universal]]
-Sufficiencies: <i>Not Applicable</i>
+Properties: <i>Not Applicable</i>
+Sufficiencies: [[Saturated iff homogeneous and universal]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 

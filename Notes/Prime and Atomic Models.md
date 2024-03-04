@@ -28,4 +28,4 @@ Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable lang
 
 ```
 
-<b>Remark.</b> If $T$ has a prime model, then it is unique. Indeed, if $\mc{M},\mc{N}\models T$ are both prime, then they are countable and atomic. Since atomic models are homogeneous and both $\mc{M}$ and $\mc{N}$ realize the same types in $S_n(T)$ $-$ namely, the isolated ones $-$ we see that $\mc{M}\iso\mc{N}$ by a back-and-forth argument.<span style="float:right;">$\blacklozenge$</span> ^uniqueness-of-prime-models
+<b>Remark.</b> If $T$ has a prime model, then it is unique. Indeed, if $\mc{M},\mc{N}\models T$ are prime, then they are countable and atomic. Hence they are homogeneous and realize the same types in $S_n(T)$ $-$ namely, the isolated ones $-$ so $\mc{M}\iso\mc{N}$ by a back-and-forth argument.<span style="float:right;">$\blacklozenge$</span> ^uniqueness-of-prime-models

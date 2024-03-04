@@ -2,15 +2,15 @@
 
 Date Created: 27/02/2024 15:23:19
 References: #Ref/Mar02
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Saturated iff homogeneous and universal]]
-Sufficiencies: <i>Not Applicable</i>
+Properties: [[Saturated iff homogeneous and universal#^homogeneous-realize-same-types-isomorphic]]
+Sufficiencies: [[Saturated iff homogeneous and universal]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
