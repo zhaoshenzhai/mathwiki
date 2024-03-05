@@ -9,7 +9,7 @@ Examples: <i>Not Applicable</i>
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Saturated iff homogeneous and universal#^homogeneous-realize-same-types-isomorphic]]
+Properties: [[Saturated iff homogeneous and universal#^uniqueness-of-homogeneous-models-realizing-same-types]]
 Sufficiencies: [[Saturated iff homogeneous and universal]]
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

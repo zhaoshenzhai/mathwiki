@@ -10,8 +10,8 @@ References: #Ref/Anu23 #Ref/Anu23_318
 Tags: #Type/Theorem #Topic/Logic/Model_Theory
 
 Proved by: [[Henkin Construction]], [[Theory#^maximally-consistent-completion]], [[Basic properties of consistent theories]]
-References: [[Proofs#^soundness]]
-Justifications: <i>Not Applicable</i>
+References: <i>Not Applicable</i>
+Justifications: [[Proofs#^soundness]]
 
 Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
