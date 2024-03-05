@@ -14,10 +14,10 @@ Tags: #Type/Proposition #Topic/Logic/Model_Theory
 
 Proved by: [[Realizing Types]], [[Lowenheim-Skolem Theorem]]
 References: <i>Not Applicable</i>
-Justifications: <i>Not Applicable</i>
+Justifications: [[Prime and Atomic Models#^atomic-implies-countably-homogeneous]]
+^uniqueness-of-saturated-models
 
 Specializations: <i>Not Applicable</i>
-^uniqueness-of-saturated-models
 Generalizations: <i>Not Applicable</i>
 ^uniqueness-of-prime-models
 

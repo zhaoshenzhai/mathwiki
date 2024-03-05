@@ -4,7 +4,7 @@ Date Created: 17/02/2024 23:16:56
 References: #Ref/Mar02 #Ref/Hod97 #Ref/DH16
 Tags: #Type/Theorem #Topic/Logic/Model_Theory
 
-Proved by: [[Omitting Types Theorem]], [[Saturated iff homogeneous and universal#^uniqueness-of-homogeneous-models-realizing-same-types]]
+Proved by: [[Omitting Types Theorem]], [[Prime and Atomic Models#^atomic-implies-countably-homogeneous]], [[Saturated iff homogeneous and universal#^uniqueness-of-homogeneous-models-realizing-same-types]]
 References: <i>Not Applicable</i>
 Justifications: [[Realizing Types]], [[Lowenheim-Skolem Theorem]]
 
