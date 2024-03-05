@@ -5,7 +5,7 @@ mathLink: Existence of prime/atomic models
 <div class="topSpace"></div>
 
 Date Created: 18/02/2024 15:54:24
-References: #Ref/Mar02
+References: #Ref/Mar02 #Ref/TZ12
 Tags: #Type/Proposition #Topic/Logic/Model_Theory
 
 Proved by: [[Prime and Atomic Models#^atomic-iff-omits-negation-of-isolating-formulas]], [[Omitting Types Theorem]]
