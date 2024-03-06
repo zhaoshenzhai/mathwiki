@@ -1,11 +1,11 @@
 [
-  "obsidian-hider",
   "obsidian-admonition",
-  "vim-reading-view-navigation",
+  "obsidian-citation-plugin",
   "obsidian-latex",
-  "obsidian-style-settings",
+  "obsidian-hider",
   "obsidian-living-graph",
   "mathlinks",
   "omnisearch",
-  "obsidian-citation-plugin"
+  "vim-reading-view-navigation",
+  "obsidian-style-settings"
 ]
