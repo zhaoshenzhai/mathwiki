@@ -34,7 +34,7 @@ Moreover, if $\mc{M},\mc{N}\models T$ are homogeneous models with the same cardi
 ```
 ^uniqueness-of-homogeneous-models-realizing-same-types
 
-<b>Remark.</b> In particular, saturated/prime models, if they exist, are unique up to isomorphism. Indeed, the former claim follows from $3\Rightarrow1$, and for the latter, every prime model is countable and atomic. Hence they are homogeneous and realize the same types in $S_n(T)$; namely, the isolated ones.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In particular, saturated/prime models, if they exist, are unique up to isomorphism. Indeed, the former claim follows from $1\Rightarrow3$, and for the latter, every prime model is countable and atomic. Hence they are homogeneous and realize the same types in $S_n(T)$; namely, the isolated ones.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
