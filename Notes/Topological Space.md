@@ -17,7 +17,7 @@ Tags: #Type/Definition #Topic/Topology
 
 Types: [[Compact Space]], [[Connected Space]], [[Metric Space]], [[Manifold]], [[Separation Axioms]], [[k-Space]], [[Sequential Space]], [[First and Second Countable Spaces]], [[Separable Space]]
 Examples: [[Order Space]], [[Path]]
-Constructions: [[Closure and Interior]], [[Convergence of Nets]], [[Homotopy]], [[Covering Space]], [[Mapping Cylinder]]
+Constructions: [[Closure and Interior]], [[Convergence of Nets]], [[Cantor-Bendixson Rank]], [[Homotopy]], [[Covering Space]], [[Mapping Cylinder]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Top is complete]], [[Measurable Function#^continuous-implies-Borel]]
