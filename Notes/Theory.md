@@ -12,7 +12,7 @@ Date Created: 22/12/2023 16:56:45
 References: #Ref/Anu23 #Ref/Anu23_318
 Tags: #Type/Definition #Topic/Logic/Model_Theory
 
-Types: [[Henkin Theory]], [[Categorical Theory]]
+Types: [[Categorical Theory]], [[Stable Theory]], [[Skolem Theory]], [[Henkin Theory]]
 Examples: <i>Not Applicable</i>
 Constructions: [[Models]], [[Proofs]], [[Type]]
 Generalizations: <i>Not Applicable</i>

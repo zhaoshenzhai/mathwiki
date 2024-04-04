@@ -1,5 +1,4 @@
 ---
-mathLink: $\kappa$-categoricity
 mathLink-blocks:
     los-vaught-test: Łoś-Vaught Test
 ---
@@ -15,7 +14,7 @@ Examples: [[Dense Linear Orders#^without-endpoints]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Morley's Categoricity Theorem]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Ryll-Nardzewski Theorem]]
 Justifications: [[Lowenheim-Skolem Theorem]], [[Basic properties of consistent theories]], [[Completeness Theorem]]
