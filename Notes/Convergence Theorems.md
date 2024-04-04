@@ -29,7 +29,7 @@ Let $\tpl{X,\mu}$ be a measure space and let $f_n\in L^1$ be a sequence convergi
 ^Fatous-lemma
 
 <b>Remark.</b> We claim that every $f\in L^1$ admits a sequence of simple functions $s_n\to f$ such that $\l|s_n\r|\incto\l|f\r|$, so $s_n\to_{L^1}\!f$ by the DCT. In particular, this shows that simple functions are dense in $L^1$. Writing $f=f^+-f^-$, we may w.l.o.g. assume $f\in L^+$. ^simple-function-dense-in-L1
-* For each $n\in\N$, partition $\l[0,2^n\r]$ into intervals each of length $2^{-n}$ to obtain $k_n\coloneqq2^n/2^{-n}=2^{2n}$ intervals. For each $1\leq k\leq k_n$, set $B_k\coloneqq f^{-1}\!\l[k2^{-n},\infty\r]$. Note that the sequence $B_k$ decreases, so the functions $s_n\coloneqq\sum_{k=1}^{k_n}2^{-n}\cchi_{B_k}$ increase. A computation shows that $0\leq f-s_n\leq2^{-n}$ wherever $f\leq2^n$, so take $n\to\infty$.<span style="float:right;">$\blacklozenge$</span>
+* For each $n\in\N$, partition $\l[0,2^n\r]$ into intervals each of length $2^{-n}$ to obtain $k_n\coloneqq2^n/2^{-n}=2^{2n}$ intervals. For each $1\leq k\leq k_n$, set $B_k\coloneqq f^{-1}\!\l[k2^{-n},\infty\r]$. Note that the sequence $B_k$ decreases, so the functions $s_n\coloneqq\sum_{k=1}^{k_n}2^{-n}\chi_{B_k}$ increase. A computation shows that $0\leq f-s_n\leq2^{-n}$ wherever $f\leq2^n$, so take $n\to\infty$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 

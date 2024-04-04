@@ -26,11 +26,11 @@ There is a constant $C>0$ such that for all $f\in L^1\!\l(\R^d,\lambda\r)$ and a
 * First, we have a <i>local-to-global bridge</i> $\int f\,\d\lambda=\int A_rf\,\d\lambda$ for all $f\in L^1$. Writing $\,\d x\coloneqq\,\d\lambda\l(x\r)$ and $\,\d y\coloneqq\,\d\lambda\l(y\r)$, this follows from Fubini-Tonelli as
 $$\begin{equation}
     \begin{aligned}
-        \int A_rf\l(x\r)\,\d x=\frac{1}{\lambda\l(B_r\r)}\int\l(\int_{B_r\l(x\r)}f\l(y\r)\,\d y\r)\,\d x&=\frac{1}{\lambda\l(B_r\r)}\iint\cchi_{B_r\l(x\r)}\!\l(y\r)f\l(y\r)\,\d y\,\d x \\
-        &=\frac{1}{\lambda\l(B_r\r)}\iint\cchi_{B_r\l(y\r)}\!\l(x\r)f\l(y\r)\,\d x\,\d y=\frac{1}{\lambda\l(B_r\r)}\int f\l(y\r)\l(\int\cchi_{B_r\l(y\r)}\!\l(x\r)\,\d x\r)\,\d y=\int f\l(y\r)\,\d y.
+        \int A_rf\l(x\r)\,\d x=\frac{1}{\lambda\l(B_r\r)}\int\l(\int_{B_r\l(x\r)}f\l(y\r)\,\d y\r)\,\d x&=\frac{1}{\lambda\l(B_r\r)}\iint\chi_{B_r\l(x\r)}\!\l(y\r)f\l(y\r)\,\d y\,\d x \\
+        &=\frac{1}{\lambda\l(B_r\r)}\iint\chi_{B_r\l(y\r)}\!\l(x\r)f\l(y\r)\,\d x\,\d y=\frac{1}{\lambda\l(B_r\r)}\int f\l(y\r)\l(\int\chi_{B_r\l(y\r)}\!\l(x\r)\,\d x\r)\,\d y=\int f\l(y\r)\,\d y.
     \end{aligned}
 \end{equation}$$
-* Next, it is jointly continuous in $\tpl{r,x}\in\R_{>0}\times\R^d$. Indeed, it suffices to show that $\int_{B_{r_n}\l(x_n\r)}f\,\d\lambda\to\int_{B_r\l(x\r)}f\,\d\lambda$ for any sequence $\tpl{r_n,x_n}\to\tpl{r,x}$. Indeed, for such a sequence, we have $\cchi_{B_{r_n}\l(x_n\r)}\to\cchi_{B_r\l(x\r)}$ pointwise on $\R^d\comp\,\del B_r\!\l(x\r)$. But $\lambda\l(\,\del B_r\!\l(x\r)\r)=0$, so $\cchi_{B_{r_n}\l(x_n\r)}\to\cchi_{B_r\l(x\r)}$ a.e. Finally, note that $\cchi_{B_{r_n}\l(x_n\r)}\leq\cchi_{B_{r+2}\l(x\r)}$ for all eventually $r_n<r+1$ and $\l|x_n-x\r|<1$, so we obtained the desired result from the Dominated Convergence Theorem.<span style="float:right;">$\blacklozenge$</span>
+* Next, it is jointly continuous in $\tpl{r,x}\in\R_{>0}\times\R^d$. Indeed, it suffices to show that $\int_{B_{r_n}\l(x_n\r)}f\,\d\lambda\to\int_{B_r\l(x\r)}f\,\d\lambda$ for any sequence $\tpl{r_n,x_n}\to\tpl{r,x}$. Indeed, for such a sequence, we have $\chi_{B_{r_n}\l(x_n\r)}\to\chi_{B_r\l(x\r)}$ pointwise on $\R^d\comp\,\del B_r\!\l(x\r)$. But $\lambda\l(\,\del B_r\!\l(x\r)\r)=0$, so $\chi_{B_{r_n}\l(x_n\r)}\to\chi_{B_r\l(x\r)}$ a.e. Finally, note that $\chi_{B_{r_n}\l(x_n\r)}\leq\chi_{B_{r+2}\l(x\r)}$ for all eventually $r_n<r+1$ and $\l|x_n-x\r|<1$, so we obtained the desired result from the Dominated Convergence Theorem.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
