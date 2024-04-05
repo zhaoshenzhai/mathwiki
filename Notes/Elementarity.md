@@ -24,8 +24,8 @@ Justifications: [[Compactness Theorem]]
 ``` ad-Definition
 title: Definition (Elementarity).
 
-Let $\mc{L}$ be a language in $\FOL$. We say that an $\mc{L}$-structure $\mc{M}$ <b>elementarily embeds</b> in $\mc{N}$, written $\mc{M}\eleminto\mc{N}$, if there is a homomorphism $h:\mc{M}\to\mc{N}$ such that for all $\mc{L}$-formulas $\phi(\vec{x})$ and $\vec{a}\in M$, we have $\mc{M}\models\phi(\vec{a})$ iff $\mc{N}\models\phi(h(\vec{a}))$.
-* A substructure $\mc{M}\substructeq\mc{N}$ is said to be <b>elementary</b>, written $\mc{M}\elemembed\mc{N}$, if $\iota:\mc{M}\eleminto\mc{N}$. In this case, we also say that $\mc{N}$ is an <b>elementary extension</b> of $\mc{M}$.
+Let $\mc{L}$ be a language in $\FOL$. We say that an $\mc{L}$-structure $\mc{M}$ <b>elementarily embeds</b> in $\mc{N}$, written $\mc{M}\eleminto\mc{N}$, if there is a homomorphism $h:\mc{M}\to\mc{N}$ such that for all $\mc{L}$-formulas $\phi(\vec{x})$ and $\vec{a}\in M$, we have $\mc{M}\models\phi(\vec{a})$ iff $\mc{N}\models\phi(h(\vec{a}))$, in which case we call $h$ an <b>elementary map</b> and write $h:\mc{M}\eleminto\mc{N}$.
+&emsp;&emsp;A substructure $\mc{M}\substructeq\mc{N}$ is said to be <b>elementary</b>, written $\mc{M}\elemembed\mc{N}$, if $\iota:\mc{M}\eleminto\mc{N}$. In this case, we also say that $\mc{N}$ is an <b>elementary extension</b> of $\mc{M}$.
 
 ```
 
