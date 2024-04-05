@@ -18,8 +18,8 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition (Existence of prime/atomic models).
 
-Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable language $\mc{L}$. Then $T$ admits a prime model iff the isolated types in $S_n(T)$ are dense for all $n$.
-* <span style="color:pink">If $A\subseteq\mc{M}\models T$ is countable and $|S_n^\mc{M}(A)|<2^{\aleph_0}$, then $T$ has a prime model. In particular, the same holds if $\l|S_n(T)\r|<2^{\aleph_0}$.</span>
+Let $T$ be a countable complete $\mc{L}$-theory with infinite models. Then $T$ admits a prime model iff the isolated types in $S_n(T)$ are dense for all $n$.
+&emsp;&emsp;<span style="color:pink">If $A\subseteq\mc{M}\models T$ is countable and $|S_n^\mc{M}(A)|<2^{\aleph_0}$, then $T$ has a prime model. In particular, the same holds if $\l|S_n(T)\r|<2^{\aleph_0}$.</span>
 
 ```
 

@@ -17,7 +17,6 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition (Stable Theory).
 
-Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable language $\mc{L}$ and fix an infinite cardinal $\kappa$. We say that $T$ is <b>$\kappa$-stable</b> if for every $\mc{M}\models T$ and $A\subseteq M$ with $\l|A\r|\leq\kappa$, we have $\l|S_n^\mc{M}(A)\r|=\kappa$.
-&emsp;&emsp;We say that $T$ is <b>stable</b> if it is $\kappa$-stable for some $\kappa$, and <b>totally-transcendental</b> if it is $\kappa$-stable for all $\kappa$. We write $\omega$-stable instead of $\aleph_0$-stable.
+Let $T$ be a countable complete $\mc{L}$-theory with infinite models and fix an infinite cardinal $\kappa$. We call $T$ <b>$\kappa$-stable</b> if for every $\mc{M}\models T$ and $A\subseteq M$ with $\l|A\r|\leq\kappa$, we have $\l|S_n^\mc{M}(A)\r|=\kappa$, <b>stable</b> if it is $\kappa$-stable for some $\kappa$, and <b>totally-transcendental</b> if it is $\kappa$-stable for all $\kappa$. We write $\omega$-stable for $\aleph_0$-stable instead.
 
 ```

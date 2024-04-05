@@ -14,7 +14,7 @@ Examples: [[Dense Linear Orders#^without-endpoints]]
 Constructions: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
-Properties: [[Morley's Categoricity Theorem]]
+Properties: [[Categoricity Theorem]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: [[Ryll-Nardzewski Theorem]]
 Justifications: [[Lowenheim-Skolem Theorem]], [[Basic properties of consistent theories]], [[Completeness Theorem]]

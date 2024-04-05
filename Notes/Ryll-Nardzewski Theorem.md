@@ -14,7 +14,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Theorem
 title: Theorem (Ryll-Nardzewski Theorem on $\aleph_0$-Categoricity).
 
-Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable language $\mc{L}$. Then $T$ is $\aleph_0$-categorical iff any one of the following holds.
+Let $T$ be a countable complete $\mc{L}$-theory with infinite models. Then $T$ is $\aleph_0$-categorical iff any one of the following holds.
 1. There is a countable model $\mc{M}\models T$ such that for each $n<\omega$, the action $\gamma:\Aut\mc{M}\act M^n$ has finitely-many orbits. <span style="color:gray">Such actions are called <b>oligomorphic</b>.</span>
 2. For each $n<\omega$, the type space $S_n(T)$ is finite. <span style="color:gray">Equivalently, the Lindenbaum-Tarski algebra $\LT_n(T)$ is finite for each $n<\omega$.</span>
 3. For each $n<\omega$, every $p\in S_n(T)$ is isolated. <span style="color:gray">Equivalently, $-$ since every $p\in S_n(T)$ is realized in a countable model $-$ every countable model of $T$ is atomic.</span>

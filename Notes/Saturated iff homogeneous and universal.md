@@ -24,7 +24,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition (Saturated $\Leftrightarrow$ Homogeneous $+$ Universal).
 
-Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable language $\mc{L}$ and fix an infinite cardinal $\kappa$. For any $\mc{M}\models T$, the following are equivalent.
+Let $T$ be a countable complete $\mc{L}$-theory with infinite models and fix an infinite cardinal $\kappa$. For any $\mc{M}\models T$, the following are equivalent.
 1. $\mc{M}$ is $\kappa$-saturated.
 2. $\mc{M}$ is $\kappa$-homogeneous and $\kappa^+$-universal. <span style="color:gray">If $\kappa\neq\aleph_0$, we may replace ‘$\kappa^+$-universal’ with ‘$\kappa$-universal’.</span>
 3. $\mc{M}$ is $\kappa$-homogeneous and realizes all types in $S_n(T)$.

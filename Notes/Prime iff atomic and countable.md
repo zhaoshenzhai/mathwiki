@@ -18,7 +18,7 @@ Generalizations: <i>Not Applicable</i>
 ``` ad-Proposition
 title: Proposition (Prime $\Leftrightarrow$ Atomic $+$ Countable).
 
-Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable language $\mc{L}$. Then a model $\mc{M}\models T$ is prime iff it is atomic and countable.
+Let $T$ be a countable complete $\mc{L}$-theory with infinite models. Then a model $\mc{M}\models T$ is prime iff it is atomic and countable.
 
 ```
 

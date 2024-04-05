@@ -17,7 +17,7 @@ Justifications: [[Realizing Types]]
 ``` ad-Definition
 title: Definition (Saturated Model).
 
-Let $T$ be a complete $\mc{L}$-theory with infinite models over a countable language $\mc{L}$ and fix an infinite cardinal $\kappa$. A model $\mc{M}\models T$ is said to be <b>$\kappa$-saturated</b> if for all $A\subseteq M$ with $\l|A\r|<\kappa$, every type in $p\in S_n^\mc{M}(A)$ is realized in $\mc{M}$. We say that $\mc{M}$ is <b>saturated</b> if it is $\l|M\r|$-saturated.
+Let $T$ be a countable complete $\mc{L}$-theory with infinite models and fix an infinite cardinal $\kappa$. A model $\mc{M}\models T$ is <b>$\kappa$-saturated</b> if for all $A\subseteq M$ with $\l|A\r|<\kappa$, every type in $p\in S_n^\mc{M}(A)$ is realized in $\mc{M}$. We say that $\mc{M}$ is <b>saturated</b> if it is $\l|M\r|$-saturated.
 
 ```
 
