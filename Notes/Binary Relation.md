@@ -6,7 +6,7 @@ Tags: #Type/Definition #Topic/Set_Theory
 
 Types: [[Function]], [[Equivalence Relation and Quotient Set]], [[Order Relations]], [[Well-founded Relation]]
 Examples: <i>Not Applicable</i> 
-Constructions: [[First Order Language#^structure]]
+Constructions: [[Structure]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

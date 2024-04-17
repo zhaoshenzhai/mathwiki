@@ -30,7 +30,7 @@ Let $\mc{L}$ be a language in $\FOL$. An <b>$\mc{L}$-theory</b> $T$ is a collect
 * An $\mc{L}$-theory $T$ is said to be <b>consistent</b> if there is no $\mc{L}$-formula such that $T\proves\phi$ and $T\proves\lnot\phi$, and <b>satisfiable</b> if it admits a non-empty model.
 * An $\mc{L}$-theory $T$ is said to be <b>syntactically</b> (resp. <b>semantically</b>) <b>complete</b> if for each $\mc{L}$-sentence, either $T\proves\phi$ or $T\proves\lnot\phi$ (resp. $T\models\phi$ or $T\models\lnot\phi$).
 
-Let $\mc{A}$ be an $\mc{L}$-structure. The <b>theory of $A$</b> is $\Th\mc{A}\coloneqq\l\{\phi\in\Sent\l(\mc{L}\r)\st\mc{A}\models\phi\r\}$, and we say that <b>$A$ models $T$</b>, and write $A\models T$, if $T\subseteq\Th\mc{A}$.
+Let $\mc{M}$ be an $\mc{L}$-structure. The <b>theory of $\mc{M}$</b> is $\Th\mc{M}\coloneqq\l\{\sigma\in\Sent\mc{L}\st\mc{M}\models\sigma\r\}$, and we say that <b>$\mc{M}$ models $T$</b>, and write $\mc{M}\models T$, if $T\subseteq\Th\mc{M}$.
 
 ```
 ^consistent

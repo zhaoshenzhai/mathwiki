@@ -7,7 +7,7 @@ Tags: #Type/Definition #Topic/Logic/Proof_Theory
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: [[Hilbert Calculus]], [[Truth Assignment]], [[Propositional Proof System]]
-Generalizations: [[First Order Language]]
+Generalizations: [[First-order Logic]]
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
