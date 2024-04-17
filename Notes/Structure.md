@@ -7,11 +7,11 @@ mathLink-blocks:
 
 Date Created: 16/04/2024 19:14:19
 References: #Ref/Anu23 #Ref/Anu23_318 #Ref/Mar16
-Tags: #Type/Definition #In_Progress
+Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: [[Saturated Model]], [[Homogeneous Model]], [[Universal Model]], [[Prime and Atomic Models]]
 Examples: [[Monoid]], [[Group]], [[Ring]], [[Field]], [[Module]]
-Constructions: [[Definable Sets]], [[Ultraproduct]], [[Elementarity]]
+Constructions: [[Definable Sets]], [[Ultraproduct]], [[Elementarity]], [[Type]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
@@ -34,6 +34,6 @@ Let $\mc{L}$ be a first-order language. An <b>$\mc{L}$-structure</b> $\mc{M}$ co
 
 ---
 
-<b>Remark.</b> A <i>weak $\mc{L}$-substructure</i> $\mc{M}$ of an $\mc{L}$-structure $\mc{N}$ is a subobject $h:\mc{M}\into\mc{N}$ in $\cathom$. If we additionally require that $R^\mc{M}(\vec{a})\Leftrightarrow R^\mc{N}(h(\vec{a}))$ for all $R\in\mc{R}_n$ and $\vec{a}\in M^n$, then $h$ is said to be an <i>$\mc{L}$-embedding</i>. The subcategory of $\cathom$ whose morphisms are $\mc{L}$-embeddings is denoted $\catemb$, whose subobjects are called <i>$\mc{L}$-substructures</i>. We write $\mc{M}\substructeq\mc{N}$ to mean $\mc{M}$ is an $\mc{L}$-substructure of $\mc{N}$.
+<b>Remark.</b> A <i>weak $\mc{L}$-substructure</i> $\mc{M}$ of an $\mc{L}$-structure $\mc{N}$ is a subobject $h:\mc{M}\into\mc{N}$ in $\cathom$. If we additionally require that $R^\mc{M}(\vec{a})\Leftrightarrow R^\mc{N}(h(\vec{a}))$ for all $R\in\mc{R}_n$ and $\vec{a}\in M^n$, then $h$ is said to be an <i>$\mc{L}$-embedding</i>. The subcategory of $\cathom$ whose morphisms are $\mc{L}$-embeddings is denoted $\catemb$, whose subobjects are called <i>$\mc{L}$-substructures</i>. We write $\mc{M}\substructeq\mc{N}$ to mean $\mc{M}$ is an $\mc{L}$-substructure of $\mc{N}$. <span style="color:pink">Figure out the categorical aspects of these constructions.</span>
 &emsp;&emsp;For any morphism $h:\mc{M}\to\mc{N}$ in $\cathom$, its image $h\l(M\r)$ is the universe of some $\mc{L}$-substructure $\mc{N}'$ of $\mc{N}$, and $h:\mc{M}\into\mc{N}$ iff $\mc{M}\iso\mc{N}'$. Note that any subset $B\subseteq N$ supports at most one $\mc{L}$-substructure of $\mc{N}$, and it does iff $B$ contains all constants $c^\mc{N}$ and is closed under all functions $f^\mc{N}$.
 &emsp;&emsp;The <i>$\mc{L}$-structure generated</i> by a subset $A\subseteq M$ of an $\mc{L}$-structure $\mc{M}$ is the intersection of all $\mc{L}$-substructures of $\mc{M}$ containing $A$, denoted $\gen{A}_\mc{M}$. A more bottom-up approach is obtained by constructing the universe of $\gen{A}_\mc{M}$ as $\bigcup_nA_n$, where $A_0\coloneqq A\cup\l\{c^\mc{M}\st c\in\mc{C}\r\}$ and $A_{n+1}\coloneqq A_n\cup\bigcup_m\bigcup_{f\in\mc{F}_m}f^\mc{N}\!\l(A_n^m\r)$.<span style="float:right;">$\blacklozenge$</span>

@@ -19,7 +19,7 @@ Generalizations: <i>Not Applicable</i>
 ^constant-substitution-theorem
 
 ``` ad-Proposition
-title: Proposition.
+title: Proposition (Basic Provable Facts).
 
 Let $\mc{L}$ be a language. For all $\mc{L}$-formulas $\phi$ and $\psi$, the following basic facts are provable from $\Axioms\l(\mc{L}\r)$ and the empty $\mc{L}$-theory.
 * $\phi\rightarrow\phi$ <span style="color:gray">(self-implication)</span>, $\phi\proves\psi\rightarrow\phi$ <span style="color:gray">(everything-implies-an-axiom)</span>, and $\lnot\phi\rightarrow\l(\phi\rightarrow\psi\r)$ <span style="color:gray">(if-false-then-implies)</span>.

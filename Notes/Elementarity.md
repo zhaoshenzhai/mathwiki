@@ -3,6 +3,7 @@ mathLink-blocks:
     Tarski-Vaught-test: Tarski-Vaught Test
     embeddings-via-diagrams: $\mc{M}\into_\blob\mc{N}$ $\Leftrightarrow$ $\mc{N}\models\Diag_\blob\!\mc{M}$
     extension-of-partial-elementary: Extension of $A\eleminto\mc{N}$ to $\mc{M}\eleminto\mc{N}'\elemextend\mc{N}$
+    category-of-models-elementary-maps: $\catelem{T}$
 ---
 
 <div class="topSpace"></div>
@@ -24,12 +25,12 @@ Justifications: [[Compactness Theorem]]
 ``` ad-Definition
 title: Definition (Elementarity).
 
-Let $\mc{L}$ be a language in $\FOL$. We say that an $\mc{L}$-structure $\mc{M}$ <b>elementarily embeds</b> in $\mc{N}$, written $\mc{M}\eleminto\mc{N}$, if there is a homomorphism $h:\mc{M}\to\mc{N}$ such that for all $\mc{L}$-formulas $\phi(\vec{x})$ and $\vec{a}\in M$, we have $\mc{M}\models\phi(\vec{a})$ iff $\mc{N}\models\phi(h(\vec{a}))$, in which case we call $h$ an <b>elementary map</b> and write $h:\mc{M}\eleminto\mc{N}$.
+Let $\mc{L}$ be a first-order language. We say that an $\mc{L}$-structure $\mc{M}$ <b>elementarily embeds</b> in $\mc{N}$, written $\mc{M}\eleminto\mc{N}$, if there is a homomorphism $h:\mc{M}\to\mc{N}$ such that for all $\mc{L}$-formulas $\phi(\vec{x})$ and $\vec{a}\in M$, we have $\mc{M}\models\phi(\vec{a})$ iff $\mc{N}\models\phi(h(\vec{a}))$, in which case we call $h$ an <b>elementary map</b> and write $h:\mc{M}\eleminto\mc{N}$.
 &emsp;&emsp;A substructure $\mc{M}\substructeq\mc{N}$ is said to be <b>elementary</b>, written $\mc{M}\elemembed\mc{N}$, if $\iota:\mc{M}\eleminto\mc{N}$. In this case, we also say that $\mc{N}$ is an <b>elementary extension</b> of $\mc{M}$.
 
 ```
 
-<b>Remark.</b> In other words, $h:\mc{M}\eleminto\mc{N}$ if $h$ preserves all first-order formulas. A weaker notion is that of <i>elementary equivalence</i>, written $\mc{M}\elemequiv\mc{N}$, which only requires $\Th\mc{M}=\Th\mc{N}$. Note that $\mc{M}\iso\mc{N}$ implies, by induction on the construction of $\mc{L}$-sentences, that $\mc{M}\elemequiv\mc{N}$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> In other words, $h:\mc{M}\eleminto\mc{N}$ if $h$ preserves all first-order formulas. The elementary maps form a subcategory $\catelem{T}$ of $\catmodel{T}$. A weaker notion is that of <i>elementary equivalence</i>, written $\mc{M}\elemequiv\mc{N}$, which only requires $\Th\mc{M}=\Th\mc{N}$; note that $\mc{M}\iso\mc{N}$ implies that $\mc{M}\elemequiv\mc{N}$, but not conversely.<span style="float:right;">$\blacklozenge$</span> ^category-of-models-elementary-maps
 
 ---
 

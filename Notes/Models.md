@@ -10,7 +10,7 @@ Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Theory#^satisfiable]], [[Type]]
+Constructions: [[Theory#^satisfiable]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: [[Compactness Theorem]], [[Completeness Theorem#^syntactic-semantic-duality]]

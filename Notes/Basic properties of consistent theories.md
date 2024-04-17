@@ -12,7 +12,7 @@ Specializations: <i>Not Applicable</i>
 Generalizations: <i>Not Applicable</i>
 
 ``` ad-Proposition
-title: Proposition.
+title: Proposition (Characterization of Consistency).
 
 Let $\mc{L}$ be a language in $\FOL$. An $\mc{L}$-theory $T$ is consistent iff $T\not\proves\bot$, where $\bot\coloneqq\ex v\l(v\neq v\r)$, which occurs iff $T\not\proves\phi$ for some $\mc{L}$-formula $\phi$. Furthermore:
 * For any $\mc{L}$-sentence $\phi$, $T\cup\l\{\phi\r\}$ is consistent iff $T\not\proves\lnot\phi$. If $T$ is consistent, then at least one of $T\cup\l\{\phi\r\}$ and $T\cup\l\{\lnot\phi\r\}$ is consistent.
