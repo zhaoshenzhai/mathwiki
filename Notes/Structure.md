@@ -9,7 +9,7 @@ Date Created: 16/04/2024 19:14:19
 References: #Ref/Anu23 #Ref/Anu23_318 #Ref/Mar16
 Tags: #Type/Definition #In_Progress
 
-Types: <i>Not Applicable</i>
+Types: [[Saturated Model]], [[Homogeneous Model]], [[Universal Model]], [[Prime and Atomic Models]]
 Examples: [[Monoid]], [[Group]], [[Ring]], [[Field]], [[Module]]
 Constructions: [[Definable Sets]], [[Ultraproduct]], [[Elementarity]]
 Generalizations: <i>Not Applicable</i>

@@ -24,9 +24,9 @@ Justifications: [[Compactness Theorem#^syntactic-compactness]], [[Zorn's Lemma]]
 ^satisfiable
 
 ``` ad-Definition
-title: Definition (First Order Theory).
+title: Definition (First-order Theory).
 
-Let $\mc{L}$ be a language in $\FOL$. An <b>$\mc{L}$-theory</b> $T$ is a collection of $\mc{L}$-sentences that is closed under provability, i.e. if $T\proves\phi$, then $\phi\in T$.
+Let $\mc{L}$ be a first-order language. An <b>$\mc{L}$-theory</b> $T$ is a collection of $\mc{L}$-sentences that is closed under provability, i.e. if $T\proves\phi$, then $\phi\in T$.
 * An $\mc{L}$-theory $T$ is said to be <b>consistent</b> if there is no $\mc{L}$-formula such that $T\proves\phi$ and $T\proves\lnot\phi$, and <b>satisfiable</b> if it admits a non-empty model.
 * An $\mc{L}$-theory $T$ is said to be <b>syntactically</b> (resp. <b>semantically</b>) <b>complete</b> if for each $\mc{L}$-sentence, either $T\proves\phi$ or $T\proves\lnot\phi$ (resp. $T\models\phi$ or $T\models\lnot\phi$).
 
@@ -35,8 +35,8 @@ Let $\mc{M}$ be an $\mc{L}$-structure. The <b>theory of $\mc{M}$</b> is $\Th\mc{
 ```
 ^consistent
 
-<b>Remark.</b> Note that $\Th\mc{A}$ is semantically complete for any $\mc{L}$-structure $\mc{A}$, so every satisfiable $\mc{L}$-theory $T$ admits a maximally-satisfiable completion $\bar{T}\supseteq T$, called its <i>semantic completion</i>. The syntactic version holds too: every consistent $\mc{L}$-theory $T$ admits a maximally-consistent completion $\bar{T}\supseteq T$, called its <i>syntactic completion</i>. ^maximally-consistent-completion
-* Indeed, since inconsistent theories have inconsistent finite subtheories (this is syntactic-compactness), arbitrary unions of consistent theories are consistent. By Zorn’s Lemma, $T$ admits a $\subseteq$-maximal consistent extension, so it remains to show that it is syntactically complete. Indeed, for any $\mc{L}$-sentence $\phi$, at least one of $\bar{T}\cup\l\{\phi\r\}$ and $\bar{T}\cup\l\{\lnot\phi\r\}$ is consistent, so $\subseteq$-maximality of $\bar{T}$ shows that either $\bar{T}\proves\phi$ or $\bar{T}\proves\lnot\phi$, as desired.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> Clearly $\Th\mc{M}$ is semantically complete for any $\mc{L}$-structure $\mc{M}$, so every satisfiable $\mc{L}$-theory $T$ admits a maximally-satisfiable completion $T'\supseteq T$, called its <i>semantic completion</i>. The syntactic version holds too: every consistent $\mc{L}$-theory $T$ admits a maximally-consistent completion $T'\supseteq T$, called its <i>syntactic completion</i>.
+&emsp;&emsp;Indeed, by syntactic-compactness, inconsistent theories have inconsistent finite subtheories, and so arbitrary unions of consistent theories are consistent. By Zorn’s Lemma, $T$ admits a $\subseteq$-maximal consistent extension $T'$, so it remains to show that it is syntactically complete. Indeed, for any $\mc{L}$-sentence $\phi$, at least one of $T'\cup\l\{\phi\r\}$ and $T'\cup\l\{\lnot\phi\r\}$ is consistent, so $\subseteq$-maximality of $T'$ shows that either $T'\proves\phi$ or $T'\proves\lnot\phi$, as desired.<span style="float:right;">$\blacklozenge$</span> ^maximally-consistent-completion
 
 ---
 

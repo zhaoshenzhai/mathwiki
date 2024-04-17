@@ -8,7 +8,7 @@ Date Created: 15/12/2023 01:23:56
 References: #Ref/Anu23 #Ref/Anu23_318
 Tags: #Type/Definition #Topic/Logic/Model_Theory
 
-Types: [[Saturated Model]], [[Homogeneous Model]], [[Universal Model]], [[Prime and Atomic Models]]
+Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
 Constructions: [[Theory#^satisfiable]], [[Type]]
 Generalizations: <i>Not Applicable</i>
