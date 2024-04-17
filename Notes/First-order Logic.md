@@ -15,7 +15,7 @@ Examples: <i>Not Applicable</i>
 Constructions: [[Structure]], [[Theory]]
 Generalizations: <i>Not Applicable</i>
 
-Properties: <i>Not Applicable</i>
+Properties: [[Completeness Theorem#^completeness-theorem-FOL]]
 Sufficiencies: <i>Not Applicable</i>
 Equivalences: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>

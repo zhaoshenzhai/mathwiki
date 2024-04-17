@@ -1,6 +1,7 @@
 ---
 mathLink-blocks:
     syntactic-semantic-duality: Syntactic-Semantic Duality
+    completeness-theorem-FOL: Completeness Theorem in $\FOL$
 ---
 
 <div class="topSpace"></div>
@@ -22,6 +23,7 @@ title: Theorem (Completeness Theorem; Gödel 1929 & Henkin 1949).
 Let $\mc{L}$ be a language in $\FOL$. If an $\mc{L}$-theory $T$ is consistent, then it admits a model of cardinality $\leq\max\l\{\l|\mc{L}\r|,\aleph_0\r\}$.
 
 ```
+^completeness-theorem-FOL
 
 <b>Remark.</b> One of the most important corollary thereof is the <i>Syntactic-Semantic Duality</i>, that is, for an $\mc{L}$-theory $T$ and an $\mc{L}$-sentence $\phi$, we have $T\proves\phi$ iff $T\models\phi$. ^syntactic-semantic-duality
 

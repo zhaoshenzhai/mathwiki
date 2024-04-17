@@ -21,7 +21,7 @@ Justifications: <i>Not Applicable</i>
 ``` ad-Definition
 title: Definition (Models/Semantic Implication).
 
-Let $T$ be an $\mc{L}$-theory in $\FOL$ and let $\phi$ be an $\mc{L}$-formula. We say that <b>$T$ models $\phi$</b>, and write $T\models\phi$, if $\mc{A}\models\phi$ for every $\mc{A}\models T$.
+Let $T$ be a first-order $\mc{L}$-theory and let $\phi$ be an $\mc{L}$-formula. We say that <b>$T$ models $\phi$</b> $-$ and write $T\models\phi$ $-$ if $\mc{M}\models\phi$ for every $\mc{M}\models T$.
 
 ```
 
