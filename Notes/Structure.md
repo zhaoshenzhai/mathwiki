@@ -11,7 +11,7 @@ Tags: #Type/Definition #Topic/Logic/Model_Theory
 
 Types: [[Saturated Model]], [[Homogeneous Model]], [[Universal Model]], [[Prime and Atomic Models]]
 Examples: [[Monoid]], [[Group]], [[Ring]], [[Field]], [[Module]]
-Constructions: [[Definable Sets]], [[Ultraproduct]], [[Elementarity]], [[Type]]
+Constructions: [[Definable Sets]], [[Ultraproduct]], [[Elementarity]], [[Type]], [[Indiscernibles]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
