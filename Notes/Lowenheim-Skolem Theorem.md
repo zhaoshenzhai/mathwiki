@@ -7,10 +7,10 @@ mathLink-blocks:
 <div class="topSpace"></div>
 
 Date Created: 21/12/2023 16:03:46
-References: #Ref/Anu23
+References: #Ref/Anu23 #Ref/Mar02
 Tags: #Type/Theorem #Topic/Logic/Model_Theory
 
-Proved by: [[Tarski-Vaught Test]], [[Compactness Theorem]], [[Elementarity#^embeddings-via-diagrams]], [[Cantor-Schroder-Bernstein Theorem]]
+Proved by: [[Skolem Theory#^skolem-hull]], [[Tarski-Vaught Test]], [[Compactness Theorem]], [[Elementarity#^embeddings-via-diagrams]], [[Cantor-Schroder-Bernstein Theorem]]
 References: <i>Not Applicable</i>
 Justifications: <i>Not Applicable</i>
 
@@ -30,9 +30,7 @@ If $\mc{M}$ be an infinite $\mc{L}$-structure, then $\mc{M}$ admits an elementar
 
 ---
 
-<i>Proof.</i> For the Downward Löwenheim-Skolem theorem, we use the Tarski-Vaught Test to observe that for $\mc{M}_0\elemembed\mc{M}$ to be elementary, the underlying set $M_0$ needs to witness the existence of $\mc{M}\models\ex y\phi(\vec{a},y)$ for every $\mc{L}$-formula $\phi(\vec{x},y)$ and every $\vec{a}\in A^{|\vec{x}|}$.
+<i>Proof.</i> For the Downwards Löwenheim-Skolem theorem, we Skolemize $\mc{M}\models T\coloneqq\Th\mc{M}$ to a model $\mc{M}^\ast\models T^\ast$ in the language $\mc{L}^\ast\supseteq\mc{L}$ with built-in Skolem functions, and set $\mc{M}_0\coloneqq\mc{H}(A)$. Then $\mc{M}_0\substructeq\mc{M}$ and has cardinality $\leq|A|+|\mc{L}|+\aleph_0$, so it remains to show that $\mc{M}_0\elemembed\mc{M}$. To this end, we use the Tarski-Vaught Test.
+>Let $\phi(\vec{x},y)$ be an $\mc{L}^\ast$-formula and take $\vec{a}\in M_0$. By definition, we have $\mc{H}(A)=\bigcup_nA_n$, where $A_0\coloneqq A\cup\{c^\mc{M}\st c\in\mc{C}\}$ and $A_{n+1}\coloneqq A_n\cup\bigcup_{f\in\mc{F}^\ast}f^\mc{M}(A_n)$; here, $\mc{F}^\ast$ are the function symbols in $\mc{L}^\ast$, which in particular includes the Skolem functions. Since there are $n_j<\omega$ such that $a_n\in A_{n_j}$, we see that $\vec{a}\in A_n$ where $n\coloneqq\max_jn_j$. If $\mc{M}\models\ex y\phi(\vec{a},y)$, then, since $T^\ast$ is Skolem, we have $\mc{M}\models\phi(f(\vec{a}),\vec{a})$ for some $f\in\mc{F}^\ast$. Since $f(\vec{a})\in A_{n+1}\subseteq M_0$, we obtain the desired witness and thus $\mc{M}_0\elemembed\mc{M}$.
 
-To ‘throw in’ such witnesses, we consider a <i>Skolem function</i> $f_{\phi(\vec{x},y)}$ for $\phi(\vec{x},y)$, which is any partial function $f_{\phi(\vec{x},y)}:A^{|\vec{x}|}\parto A$ such that for every $\vec{a}\in A^{|\vec{x}|}$, if $\mc{M}\models\ex y\phi(\vec{a},y)$, then $f_{\phi(\vec{x},y)}(\vec{a})$ witnesses this existence, in the sense that $\vec{a}\in\,\dom f_{\phi(\vec{x},y)}$ and $\mc{M}\models\phi(\vec{a},f_{\phi(\vec{x},y)}(\vec{a}))$. Using the Axiom of Choice, let $f_{\phi(\vec{x},y)}$ be a Skolem function for the $\mc{L}$-formula $\phi(\vec{x},y)$. We build an increasing sequence $\tpl{S_n}$ of subsets of $A$ by setting $S_0\coloneqq S$ and $S_{n+1}\coloneqq S_n\cup\bigcup_{\phi(\vec{x},y)}f_{\phi(\vec{x},y)}\big(S_n^{|\vec{x}|}\big)$ assuming $S_n$ is defined. Set $M_0\coloneqq\bigcup_nS_n$, which we claim supports an elementary $\mc{L}$-substructure of $\mc{M}$.
-* Indeed, let $\phi(\vec{x},y)$ be an $\mc{L}$-formula and take $\vec{a}\in M_0^{|\vec{x}|}$. Since there are $n_j\in\N$ such that each $a_j\in S_{n_j}$, we see that $\vec{a}\in S_n$ where $n\coloneqq\max_jn_j$. By construction, the assumption $\mc{M}\models\ex y\phi(\vec{a},y)$ gives us a witness $f_{\phi(\vec{x},y)}(\vec{a})\in S_{n+1}\subseteq M_0$, so $\mc{M}_0\elemembed\mc{M}$ by the Tarski-Vaught Test.
-
-For the Upward Löwenheim-Skolem theorem, let $\mc{L}'\coloneqq\mc{L}_A\sqcup\l\{c_\alpha\r\}_{\alpha<\kappa}$ and consider the $\mc{L}'$-theory $T'\coloneqq\Diag_\textrm{el}\mc{M}\cup\l\{c_\alpha\neq c_\beta\st\alpha\neq\beta,\alpha<\beta<\kappa\r\}$. Since $\mc{M}$ is infinite, $T'$ is finitely-satisfiable by interpreting the finitely-many constants $c_{\alpha_1},\dots,c_{\alpha_n}$ in some finite $\Delta\subseteq T'$ as distinct elements, so Compactness furnishes obtain an elementary extension $\mc{M}'\elemextend\mc{M}$ of cardinality at-least $\kappa$. Using the Downwards Löwenheim-Skolem Theorem, we may assume that $\l|\mc{M}'\r|\leq\kappa$, so $\l|\mc{M}'\r|=\kappa$ as desired.<span style="float:right;">$\blacksquare$</span>
+For the Upward direction, let $\mc{L}'\coloneqq\mc{L}\sqcup\l\{c_\alpha\r\}_{\alpha<\kappa}$ and consider the $\mc{L}'$-theory $T'\coloneqq\Diag_\textrm{el}\mc{M}\cup\l\{c_\alpha\neq c_\beta\st\alpha\neq\beta,\alpha,\beta<\kappa\r\}$. Since $\mc{M}$ is infinite, $T'$ is finitely-satisfiable by interpreting the finitely-many constants $c_{\alpha_1},\dots,c_{\alpha_n}$ in some finite $\Delta\subseteq T'$ as distinct elements, so Compactness furnishes obtain an elementary extension $\mc{M}'\elemextend\mc{M}$ of cardinality at-least $\kappa$. Using the Downwards Löwenheim-Skolem Theorem, we may assume that $\l|\mc{M}'\r|\leq\kappa$, so $\l|\mc{M}'\r|=\kappa$ as desired.<span style="float:right;">$\blacksquare$</span>
