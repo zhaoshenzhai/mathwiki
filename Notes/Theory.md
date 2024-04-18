@@ -35,8 +35,8 @@ Let $\mc{M}$ be an $\mc{L}$-structure. The <b>theory of $\mc{M}$</b> is $\Th\mc{
 ```
 ^consistent
 
-<b>Remark.</b> Clearly $\Th\mc{M}$ is semantically complete for any $\mc{L}$-structure $\mc{M}$, so every satisfiable $\mc{L}$-theory $T$ admits a maximally-satisfiable completion $T'\supseteq T$, called its <i>semantic completion</i>. The syntactic version holds too: every consistent $\mc{L}$-theory $T$ admits a maximally-consistent completion $T'\supseteq T$, called its <i>syntactic completion</i>.
-&emsp;&emsp;Indeed, by syntactic-compactness, inconsistent theories have inconsistent finite subtheories, and so arbitrary unions of consistent theories are consistent. By Zorn’s Lemma, $T$ admits a $\subseteq$-maximal consistent extension $T'$, so it remains to show that it is syntactically complete. Indeed, for any $\mc{L}$-sentence $\phi$, at least one of $T'\cup\l\{\phi\r\}$ and $T'\cup\l\{\lnot\phi\r\}$ is consistent, so $\subseteq$-maximality of $T'$ shows that either $T'\proves\phi$ or $T'\proves\lnot\phi$, as desired.<span style="float:right;">$\blacklozenge$</span> ^maximally-consistent-completion
+<b>Remark.</b> Clearly $\Th\mc{M}$ is semantically complete for any $\mc{L}$-structure $\mc{M}$, so every satisfiable $\mc{L}$-theory $T$ admits a maximally-satisfiable completion $T'\supseteq T$, called its <i>semantic completion</i>. The syntactic version holds too: every consistent $\mc{L}$-theory $T$ admits a maximally-consistent completion $T'\supseteq T$, called its <i>syntactic completion</i>. ^maximally-consistent-completion
+>Indeed, by syntactic-compactness, inconsistent theories have inconsistent finite subtheories, and so arbitrary unions of consistent theories are consistent. By Zorn’s Lemma, $T$ admits a $\subseteq$-maximal consistent extension $T'$, so it remains to show that it is syntactically complete. Indeed, for any $\mc{L}$-sentence $\phi$, at least one of $T'\cup\l\{\phi\r\}$ and $T'\cup\l\{\lnot\phi\r\}$ is consistent, so $\subseteq$-maximality of $T'$ shows that either $T'\proves\phi$ or $T'\proves\lnot\phi$, as desired.<span style="float:right;color:white">$\blacklozenge$</span>
 
 ---
 
