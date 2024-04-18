@@ -1,9 +1,3 @@
----
-mathLink-blocks:
-    structure: Structure
-    category-of-structures: $\cathom$
----
-
 <div class="topSpace"></div>
 
 Date Created: 14/12/2023 22:53:59

@@ -3,7 +3,7 @@ mathLink-blocks:
     Tarski-Vaught-test: Tarski-Vaught Test
     embeddings-via-diagrams: $\mc{M}\into_\blob\mc{N}$ $\Leftrightarrow$ $\mc{N}\models\Diag_\blob\!\mc{M}$
     extension-of-partial-elementary: Extension of $A\eleminto\mc{N}$ to $\mc{M}\eleminto\mc{N}'\elemextend\mc{N}$
-    category-of-models-elementary-maps: $\catelem{T}$
+    category-of-models-elementary-maps: $\catelem_\mc{L}$
 ---
 
 <div class="topSpace"></div>
@@ -30,7 +30,7 @@ Let $\mc{L}$ be a first-order language. We say that an $\mc{L}$-structure $\mc{M
 
 ```
 
-<b>Remark.</b> In other words, $h:\mc{M}\eleminto\mc{N}$ if $h$ preserves all first-order formulas. The elementary maps form a subcategory $\catelem{T}$ of $\catmodel{T}$. A weaker notion is that of <i>elementary equivalence</i>, written $\mc{M}\elemequiv\mc{N}$, which only requires $\Th\mc{M}=\Th\mc{N}$; note that $\mc{M}\iso\mc{N}$ implies that $\mc{M}\elemequiv\mc{N}$, but not conversely.<span style="float:right;">$\blacklozenge$</span> ^category-of-models-elementary-maps
+<b>Remark.</b> In other words, $h:\mc{M}\eleminto\mc{N}$ if $h$ preserves all first-order formulas. The elementary maps form a subcategory $\catelem_\mc{L}$ of $\catemb_\mc{L}$. A weaker notion is that of <i>elementary equivalence</i>, written $\mc{M}\elemequiv\mc{N}$, which only requires $\Th\mc{M}=\Th\mc{N}$; note that $\mc{M}\iso\mc{N}$ implies that $\mc{M}\elemequiv\mc{N}$, but not conversely.<span style="float:right;">$\blacklozenge$</span> ^category-of-models-elementary-maps
 
 ---
 

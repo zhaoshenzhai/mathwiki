@@ -1,6 +1,7 @@
 ---
 mathLink-blocks:
-    category-of-structures: $\cathom$
+    category-of-structures: $\cathom_\mc{L}$
+    category-of-embeddings: $\catemb_\mc{L}$
 ---
 
 <div class="topSpace"></div>
@@ -23,7 +24,7 @@ Justifications: <i>Not Applicable</i>
 title: Definition (First-order Structure).
 
 Let $\mc{L}$ be a first-order language. An <b>$\mc{L}$-structure</b> $\mc{M}$ consists of a set $M$ $-$ called the <b>universe</b> $-$ and an interpretation of $\mc{L}$ that assigns each $f\in\mc{F}_n$ an $n$-ary function $f^\mc{M}:M^n\to M$, each $R\in\mc{R}_n$ an $n$-ary relation $R^\mc{M}\subseteq M^n$, and each $c\in\mc{C}$ a constant $c^\mc{M}\in M$.
-&emsp;&emsp;The <b>category of $\mc{L}$-structures</b> is the category $\cathom$ whose objects are $\mc{L}$-structures and whose morphisms from $\mc{M}$ to $\mc{N}$ are functions $h:M\to N$ such that $h(c^\mc{M})=c^\mc{N}$ for each $c\in\mc{C}$, $h(f^\mc{M}(\vec{a}))=f^\mc{N}(h(\vec{a}))$ for each $f\in\mc{F}_n$ and $\vec{a}\in M^n$, and $R^\mc{M}(\vec{a})\Rightarrow R^\mc{N}(h(\vec{a}))$ for each $R\in\mc{R}_n$ and $\vec{a}\in M^n$.
+&emsp;&emsp;The <b>category of $\mc{L}$-structures</b> is the category $\cathom_\mc{L}$ whose objects are $\mc{L}$-structures and whose morphisms are functions $h:M\to N$ such that $h(c^\mc{M})=c^\mc{N}$ for each $c\in\mc{C}$, $h(f^\mc{M}(\vec{a}))=f^\mc{N}(h(\vec{a}))$ for each $f\in\mc{F}_n$ and $\vec{a}\in M^n$, and $R^\mc{M}(\vec{a})\Rightarrow R^\mc{N}(h(\vec{a}))$ for each $R\in\mc{R}_n$ and $\vec{a}\in M^n$.
 
 ```
 ^category-of-structures
@@ -34,6 +35,7 @@ Let $\mc{L}$ be a first-order language. An <b>$\mc{L}$-structure</b> $\mc{M}$ co
 
 ---
 
-<b>Remark.</b> A <i>weak $\mc{L}$-substructure</i> $\mc{M}$ of an $\mc{L}$-structure $\mc{N}$ is a subobject $h:\mc{M}\into\mc{N}$ in $\cathom$. If we additionally require that $R^\mc{M}(\vec{a})\Leftrightarrow R^\mc{N}(h(\vec{a}))$ for all $R\in\mc{R}_n$ and $\vec{a}\in M^n$, then $h$ is said to be an <i>$\mc{L}$-embedding</i>. The subcategory of $\cathom$ whose morphisms are $\mc{L}$-embeddings is denoted $\catemb$, whose subobjects are called <i>$\mc{L}$-substructures</i>. We write $\mc{M}\substructeq\mc{N}$ to mean $\mc{M}$ is an $\mc{L}$-substructure of $\mc{N}$. <span style="color:pink">Figure out the categorical aspects of these constructions.</span>
-&emsp;&emsp;For any morphism $h:\mc{M}\to\mc{N}$ in $\cathom$, its image $h\l(M\r)$ is the universe of some $\mc{L}$-substructure $\mc{N}'$ of $\mc{N}$, and $h:\mc{M}\into\mc{N}$ iff $\mc{M}\iso\mc{N}'$. Note that any subset $B\subseteq N$ supports at most one $\mc{L}$-substructure of $\mc{N}$, and it does iff $B$ contains all constants $c^\mc{N}$ and is closed under all functions $f^\mc{N}$.
+<b>Remark.</b> A <i>weak $\mc{L}$-substructure</i> $\mc{M}$ of an $\mc{L}$-structure $\mc{N}$ is a subobject $h:\mc{M}\into\mc{N}$ in $\cathom_\mc{L}$. If we additionally require that $R^\mc{M}(\vec{a})\Leftrightarrow R^\mc{N}(h(\vec{a}))$ for all $R\in\mc{R}_n$ and $\vec{a}\in M^n$, then $h$ is said to be an <i>$\mc{L}$-embedding</i>. The subcategory of $\cathom_\mc{L}$ whose morphisms are $\mc{L}$-embeddings is denoted $\catemb_\mc{L}$, whose subobjects are called <i>$\mc{L}$-substructures</i>. We write $\mc{M}\substructeq\mc{N}$ to mean $\mc{M}$ is an $\mc{L}$-substructure of $\mc{N}$. <span style="color:pink">Figure out the categorical aspects of these constructions.</span> ^category-of-embeddings
+
+For any morphism $h:\mc{M}\to\mc{N}$ in $\cathom_\mc{L}$, its image $h\l(M\r)$ is the universe of some $\mc{L}$-substructure $\mc{N}'$ of $\mc{N}$, and $h:\mc{M}\into\mc{N}$ iff $\mc{M}\iso\mc{N}'$. Note that any subset $B\subseteq N$ supports at most one $\mc{L}$-substructure of $\mc{N}$, and it does iff $B$ contains all constants $c^\mc{N}$ and is closed under all functions $f^\mc{N}$.
 &emsp;&emsp;The <i>$\mc{L}$-structure generated</i> by a subset $A\subseteq M$ of an $\mc{L}$-structure $\mc{M}$ is the intersection of all $\mc{L}$-substructures of $\mc{M}$ containing $A$, denoted $\gen{A}_\mc{M}$. A more bottom-up approach is obtained by constructing the universe of $\gen{A}_\mc{M}$ as $\bigcup_nA_n$, where $A_0\coloneqq A\cup\l\{c^\mc{M}\st c\in\mc{C}\r\}$ and $A_{n+1}\coloneqq A_n\cup\bigcup_m\bigcup_{f\in\mc{F}_m}f^\mc{M}\!\l(A_n^m\r)$.<span style="float:right;">$\blacklozenge$</span>

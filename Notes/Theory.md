@@ -3,7 +3,7 @@ mathLink-blocks:
     consistent: Consistent Theory
     satisfiable: Satisfiable Theory
     maximally-consistent-completion: Consistent theories admit maximal completions
-    category-of-models: $\catmodel{T}$
+    category-of-models: $\catmodel_\mc{L}(T)$
 ---
 
 <div class="topSpace"></div>
@@ -40,4 +40,4 @@ Let $\mc{M}$ be an $\mc{L}$-structure. The <b>theory of $\mc{M}$</b> is $\Th\mc{
 
 ---
 
-<b>Remark.</b> The <i>category of $\mc{L}$-models of $T$</i> is the subcategory $\catmodel{T}$ of $\cathom$ whose objects are models of $T$ and whose morphisms are $\mc{L}$-preserving maps.<span style="float:right;">$\blacklozenge$</span> ^category-of-models
+<b>Remark.</b> The <i>category of $\mc{L}$-models of $T$</i> is the subcategory $\catmodel_\mc{L}(T)$ of $\cathom_\mc{L}$ whose objects are models of $T$ and whose morphisms are $\mc{L}$-preserving maps.<span style="float:right;">$\blacklozenge$</span> ^category-of-models
