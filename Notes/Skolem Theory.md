@@ -12,7 +12,7 @@ Tags: #Type/Definition #In_Progress
 
 Types: <i>Not Applicable</i>
 Examples: <i>Not Applicable</i>
-Constructions: [[Lowenheim-Skolem Theorem#^skolem-hull]]
+Constructions: [[Lowenheim-Skolem Theorem]]
 Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>

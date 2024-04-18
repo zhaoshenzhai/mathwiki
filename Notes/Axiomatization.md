@@ -23,7 +23,7 @@ Let $T$ be an $\mc{L}$-theory in a first-order language $\mc{L}$. An <b>axiomati
 ```
 
 <b>Remark.</b> Using the Completeness Theorem, we see that $T$ is axiomatizable by $T_0\subset T$ iff $\mc{M}\models T_0$ implies $\mc{M}\models T$ for every $\mc{L}$-structure $\mc{M}$.
-&emsp;&emsp;Indeed, if $T=\Cn T_0$ and $\mc{M}\models T_0$, then $T_0\proves\sigma$ for any $\sigma\in T$. By Soundness, we see that $T_0\models\sigma$ for any $\sigma\in T$, so $\mc{M}\models T$. Conversely, suppose that $\sigma\in T$ but $T\not\proves\sigma$. Then $T_0\not\models\sigma$ by Completeness, so there is some model $\mc{M}\models T_0$ such that $\mc{M}\not\models\sigma$. But $\mc{M}\models T$, a contradiction, so $T\subseteq\Cn T_0$. That $\Cn T_0\subseteq T$ is clear.<span style="float:right;">$\blacklozenge$</span>
+>Indeed, if $T=\Cn T_0$ and $\mc{M}\models T_0$, then $T_0\proves\sigma$ for any $\sigma\in T$. By Soundness, we see that $T_0\models\sigma$ for any $\sigma\in T$, so $\mc{M}\models T$. Conversely, suppose that $\sigma\in T$ but $T\not\proves\sigma$. Then $T_0\not\models\sigma$ by Completeness, so there is some model $\mc{M}\models T_0$ such that $\mc{M}\not\models\sigma$. But $\mc{M}\models T$, a contradiction, so $T\subseteq\Cn T_0$. That $\Cn T_0\subseteq T$ is clear.<span style="float:right;color:white">$\blacklozenge$</span>
 
 ---
 
