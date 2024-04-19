@@ -23,3 +23,5 @@ Let $\mc{M}$ be an $\mc{L}$-structure and fix an infinite set $I$. A subset $A\c
 ```
 
 <b>Remark.</b> We can order any sequence $A\subseteq M$ of order-indiscernibles by $a_i<a_j$ if $i<j$, and we often abuse notation by writing $I\subseteq M$.<span style="float:right;">$\blacklozenge$</span>
+
+<span style="color:pink">Need to learn Ehrenfeucht-Mostowski models/functor and connect with indiscernibility.</span>

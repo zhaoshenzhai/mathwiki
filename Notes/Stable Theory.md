@@ -11,7 +11,7 @@ Generalizations: <i>Not Applicable</i>
 
 Properties: <i>Not Applicable</i>
 Sufficiencies: <i>Not Applicable</i>
-Equivalences: [[]]
+Equivalences: [[Characterizations of omega-stability]]
 Justifications: <i>Not Applicable</i>
 
 ``` ad-Definition
