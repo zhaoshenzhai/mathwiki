@@ -35,32 +35,15 @@ while [[ "$repeat" == "Y" ]]; do
     cd $MATHWIKI_DIR/Notes
 
     case $action in
-        "1")
-            $DOTFILES_DIR/scripts/gitCommit.sh -m
-        ;;
-        "2")
-            $MATHWIKI_DIR/.scripts/searchReplace.sh
-        ;;
-        "3")
-            $MATHWIKI_DIR/.scripts/gitRestore.sh
-        ;;
-        "4")
-            $MATHWIKI_DIR/.scripts/ghostLinks.sh
-        ;;
-        "5")
-            $MATHWIKI_DIR/.scripts/massEditing.sh
-        ;;
-        "6")
-            $MATHWIKI_DIR/.scripts/updateImages.sh
-        ;;
-        "7")
-            $MATHWIKI_DIR/.scripts/publish.sh *
-        ;;
-        "8")
-            $MATHWIKI_DIR/.scripts/toggleDark.sh
-        ;;
-        "9")
-            $MATHWIKI_DIR/.scripts/resetModifyTime.sh
+        "1") $DOTFILES_DIR/scripts/gitCommit.sh -m ;;
+        "2") $MATHWIKI_DIR/.scripts/searchReplace.sh ;;
+        "3") $MATHWIKI_DIR/.scripts/gitRestore.sh ;;
+        "4") $MATHWIKI_DIR/.scripts/ghostLinks.sh ;;
+        "5") $MATHWIKI_DIR/.scripts/massEditing.sh ;;
+        "6") $MATHWIKI_DIR/.scripts/updateImages.sh ;;
+        "7") $MATHWIKI_DIR/.scripts/publish.sh * ;;
+        "8") $MATHWIKI_DIR/.scripts/toggleDark.sh ;;
+        "9") $MATHWIKI_DIR/.scripts/resetModifyTime.sh
         ;;
     esac
 
