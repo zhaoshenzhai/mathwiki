@@ -40,7 +40,7 @@ $$\begin{equation}
         &\l(3\r) &&\ \ \ \ \ \ \ \ \textrm{MP (1,2)}\ \ \ \ \ \ \ \ &&\proves\l[\phi\rightarrow\l(\l(\phi\rightarrow\phi\r)\rightarrow\phi\r)\r]\rightarrow\l(\phi\rightarrow\phi\r) \\
         &\l(4\r) &&\ \ \ \ \ \ \ \ \textrm{\it{If-true-then-implied}}\ \ \ \ \ \ \ \ &&\proves\phi\rightarrow\l(\l(\phi\rightarrow\phi\r)\rightarrow\phi\r) \\
         &\l(5\r) &&\ \ \ \ \ \ \ \ \textrm{MP (3,4)}\ \ \ \ \ \ \ \ &&\proves\phi\rightarrow\phi
-    \end{alignedat}   
+    \end{alignedat}
 \end{equation}$$
 * <i>(Everything-implies-an-axiom)</i>. By <i>if-true-then-implied</i>, we have $\proves\phi\rightarrow\l(\psi\rightarrow\phi\r)$. We also trivially have $\phi\proves\phi$, so an application of MP gives us the desired.
 
