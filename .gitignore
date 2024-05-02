@@ -7,12 +7,7 @@
 *.synctex.gz
 *.svg
 
-.site/.jekyll-cache
-.site/.jekyll-metadata
-.site/_posts
-.site/_site
-.site/images
-.site/Gemfile.lock
+.site/public
 
 .obsidian/workspace.json
 .obsidian/graph.json

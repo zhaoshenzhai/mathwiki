@@ -4,10 +4,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <title> {{ block "title" . }} {{ .Site.Title }} {{ end }} </title>
-        <link rel="stylesheet" href="css/fonts.css">
 
-        <script src="loadMathJax.js" async></script>
+        <link rel="stylesheet" href="{{ absURL "" }}css/fonts.css">
+
+        <script src="{{ absURL "" }}loadMathJax.js" async></script>
         <div style="display:none;" id="preamble"></div>
+
+        {{ block "css" . }}{{ end }}
+        {{ block "scripts" . }}{{ end }}
     </head>
 
     <body>

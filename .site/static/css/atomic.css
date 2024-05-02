@@ -1,18 +1,19 @@
 .split {
     height: 100%;
-    width: 50%;
-    position: fixed;
+    width: 45%;
+    position: absolute;
     z-index: 1;
     top: 0;
-    overflox-x: hidden;
     padding-top: 20px;
+    font-size: 23px;
+    text-align: justify;
+    padding-bottom: 10px;
 }
 
 .left {
-    left: 0;
-    background-color: blue;
+    left: 3%;
 }
 
 .right {
-    right: 0;
+    right: 3%;
 }

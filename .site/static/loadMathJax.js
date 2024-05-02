@@ -6,7 +6,7 @@ window.MathJax = {
 };
 
 (function() {
-    fetch('./preamble.sty')
+    fetch("/preamble.sty")
         .then(response => response.text())
         .then((data) => {
             var preamble = document.getElementById("preamble");
