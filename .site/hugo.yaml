@@ -1,0 +1,14 @@
+baseURL: 'https://mathwiki.com/'
+languageCode: 'en-us'
+title: 'MathWiki'
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - $$
+            - $$
+          inline:
+          - - $
+            - $

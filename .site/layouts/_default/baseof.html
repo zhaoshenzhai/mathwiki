@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title> {{ block "title" . }} {{ .Site.Title }} {{ end }} </title>
+        <link rel="stylesheet" href="css/fonts.css">
+
+        <script src="loadMathJax.js" async></script>
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body>
+        {{ block "main" . }}{{ end }}
+    </body>
+</html>
