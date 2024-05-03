@@ -3,11 +3,10 @@
 {{ end }}
 {{ define "main" }}
     <div class="split left">
-        <h1>$\mc{L}\textrm{eft}$</h1>
+        <h1>$\mc{L}\textrm{eft}$ {{ .Title }}</h1>
         {{ .Content }}
     </div>
     <div class="split right">
-        <h1>$\mc{R}\textrm{ight}$</h1>
-        {{ .Content }}
+        <h1>$\mc{R}\textrm{ight}$ {{ .Title }}</h1>
     </div>
 {{ end }}

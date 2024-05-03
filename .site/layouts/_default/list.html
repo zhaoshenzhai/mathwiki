@@ -2,7 +2,7 @@
     <h1>Posts</h1>
     {{ range .Pages }}
         <article>
-            <h2>{{ .Title }}</h2>
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
             {{ .Content }}
         </article>
     {{ end }}
