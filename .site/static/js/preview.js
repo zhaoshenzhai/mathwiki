@@ -2,7 +2,7 @@ var frameContainer;
 
 function preview(link) {
     frameContainer = document.getElementById("preview");
-    frameContainer.innerHTML="<iframe src=" + link + " id=previewFrame scrolling=no></iframe>"
+    frameContainer.innerHTML="<iframe src=" + link + " id=previewFrame scrolling=no title=Preview></iframe>"
 
     var frame = document.getElementById("previewFrame");
     frame.addEventListener("load", function() {
@@ -13,5 +13,5 @@ function preview(link) {
 }
 
 function remove(link) {
-    frameContainer.innerHTML="";
+    // frameContainer.innerHTML="";
 }

@@ -9,11 +9,10 @@
 
 #previewFrame {
     height: 100%;
-    width: 45%;
     position: absolute;
     top: 0;
-    padding-top: 20px;
     border: none;
+    width: 45%;
     right: 3%;
 }
 
