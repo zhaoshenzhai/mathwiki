@@ -1,12 +1,11 @@
-{{ define "css" }}
-    <link rel="stylesheet" href="{{ absURL "" }}css/atomic.css">
-{{ end }}
 {{ define "main" }}
-    <div class="split left">
-        <h1>$\mc{L}\textrm{eft}$ {{ .Title }}</h1>
+    <script src="{{ absURL "" }}js/preview.js"></script>
+    <link rel="stylesheet" href="{{ absURL "" }}css/atomic.css">
+
+    <div id="content" class="left">
+        <h1>{{ .Title }}</h1>
         {{ .Content }}
     </div>
-    <div class="split right">
-        <h1>$\mc{R}\textrm{ight}$ {{ .Title }}</h1>
-    </div>
+
+    <div id="preview"></div>
 {{ end }}

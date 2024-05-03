@@ -1,3 +1,6 @@
 {{ with .Get 0 }}
-    <a href={{ absURL . }}>{{ . }}</a>
+    <a href={{ absURL . }}
+        onmouseover="preview({{ absURL . }});",
+        onmouseleave="remove({{ absURL . }})"
+    >{{ . }}</a>
 {{ end }}

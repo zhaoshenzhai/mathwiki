@@ -1,6 +1,5 @@
-.split {
+#content {
     height: 100%;
-    width: 45%;
     position: absolute;
     top: 0;
     padding-top: 20px;
@@ -8,12 +7,17 @@
     padding-bottom: 10px;
 }
 
-.left {
-    left: 3%;
-    background-color: rgba(0,255,0,0.3);
+#previewFrame {
+    height: 100%;
+    width: 45%;
+    position: absolute;
+    top: 0;
+    padding-top: 20px;
+    border: none;
+    right: 3%;
 }
 
-.right {
-    right: 3%;
-    background-color: rgba(255,0,0,0.3);
+.left {
+    width: 45%;
+    left: 3%;
 }
