@@ -1,57 +1,58 @@
-var preserveFrame = false;
 var defaultSide;
+var currentSide;
 
 var frameContainer;
-var frameContent;
 
 function preview(link) {
-    if (!preserveFrame) {
-        // Initialize frame
-        frameContainer = document.getElementById("preview");
-        frameContainer.innerHTML="<iframe src=" + link + " id=previewFrame class=right title=Preview></iframe>"
-        frameContainer.style.opacity = "0";
+    // Clear current side
+    defaultSide = document.getElementById("links");
+    if (currentSide == null) { currentSide = defaultSide; }
+    currentSide.style.opacity = "0";
 
-        // Clear default
-        defaultSide = document.getElementById("links");
-        defaultSide.style.display = "none";
+    // Get frame container
+    frameContainer = document.getElementById("preview");
+    frameContainer.style.opacity = "0";
 
-        // Operations on frame
-        var frame = document.getElementById("previewFrame");
-        frame.addEventListener("load", function() {
-            // Get frame document
-            var frameDoc = frame.contentDocument || frame.contentWindow.document;
+    // Initialize frame
+    var iFrame = document.createElement("iframe");
+    iFrame.setAttribute("src", link);
+    iFrame.setAttribute("id", "previewFrame");
+    iFrame.setAttribute("class", "right frame");
+    iFrame.setAttribute("title", "Preview");
+    frameContainer.appendChild(iFrame);
 
-            // Set to preview mode
-            frameDoc.getElementById("side").style.display = "none";
-            frameDoc.documentElement.classList.add("noScroll");
-            frameContent = frameDoc.getElementById("content");
-            frameContent.classList.add("openLinks");
-            frameContent.classList.remove("left");
-            frameContent.style.opacity = "0.6";
+    // Operations on frame
+    iFrame.addEventListener("load", function() {
+        // Get frame document
+        var frameDoc = iFrame.contentDocument;
 
-            // Make frame visible
-            frameContainer.style.opacity = "1";
-        });
+        // Set to preview mode
+        frameDoc.getElementById("side").style.display = "none";
+        frameDoc.documentElement.classList.add("noScroll");
+        frameContent = frameDoc.getElementById("content");
+        frameContent.classList.add("openLinks");
+        frameContent.classList.remove("left");
+        frameContent.style.opacity = "0.6";
 
-        frame.addEventListener("jaxReady", function() {
-            console.log("READY");
-        });
+        // Make frame visible
+        frameContainer.style.opacity = "1";
+    });
+}
+
+function updateCurrent(e) {
+    currentSide = document.getElementById("previewFrame");
+    currentSide.removeAttribute("id");
+    currentSide.contentDocument.getElementById("content").style.opacity = "1";
+    if (!document.getElementById("content").classList.contains("openLinks")) {
+        e.preventDefault();
     }
 }
 
-function preserveSide(e) {
-    if (!preserveFrame) {
-        preserveFrame = true;
-        frameContent.style.opacity = "1";
-        if (!document.getElementById("content").classList.contains("openLinks")) {
-            e.preventDefault();
-        }
-    }
-}
+function clearPreview() {
+    document.getElementById("previewFrame")?.remove();
 
-function resetToDefault() {
-    if (!preserveFrame) {
-        frameContainer.innerHTML="";
-        defaultSide.style.display = "inline";
+    currentSide.style.opacity = "1";
+    if (currentSide != defaultSide) {
+        currentSide.contentDocument.getElementById("content").style.opacity = "1";
     }
 }
