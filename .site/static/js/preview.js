@@ -40,9 +40,18 @@ function preview(link) {
 }
 
 function updateCurrent(e) {
-    currentSide = document.getElementById("previewFrame");
-    currentSide.removeAttribute("id");
-    currentSide.contentDocument.getElementById("content").style.opacity = "1";
+    var preview = document.getElementById("previewFrame");
+    var active = document.getElementById("activeFrame");
+    if (preview) {
+        if (preview != active) { active?.remove(); }
+
+        currentSide = preview;
+        currentSide.setAttribute("id", "activeFrame");
+        currentSide.contentDocument.getElementById("content").style.opacity = "1";
+    } else {
+        console.log("hi");
+    }
+
     if (!document.getElementById("content").classList.contains("openLinks")) {
         e.preventDefault();
     }
@@ -52,7 +61,7 @@ function clearPreview() {
     document.getElementById("previewFrame")?.remove();
 
     currentSide.style.opacity = "1";
-    if (currentSide != defaultSide) {
+    if (currentSide.contentDocument?.getElementById("content")) {
         currentSide.contentDocument.getElementById("content").style.opacity = "1";
     }
 }
