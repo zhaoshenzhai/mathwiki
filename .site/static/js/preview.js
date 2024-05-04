@@ -3,7 +3,9 @@ var links;
 
 function preview(link) {
     frameContainer = document.getElementById("preview");
+
     frameContainer.innerHTML="<iframe src=" + link + " id=previewFrame class=right scrolling=no title=Preview></iframe>"
+    frameContainer.style.display = "none";
 
     links = document.getElementById("links");
     links.style.display = "none";
@@ -15,6 +17,8 @@ function preview(link) {
 
         frameContent.classList.remove("left");
         frameDoc.getElementById("links").style.display = "none";
+
+        frameContainer.style.display = "inline";
     });
 }
 

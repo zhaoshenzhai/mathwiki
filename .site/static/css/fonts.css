@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'cmu';
-    src: url('cmunrm.woff') format('woff');
+    src: url('fonts/cmusr.woff2') format('woff2'),
+         url('fonts/cmusr.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
