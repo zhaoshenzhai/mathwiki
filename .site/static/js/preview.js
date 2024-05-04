@@ -44,25 +44,25 @@ function preview(link) {
 }
 
 function updateCurrent(e) {
-    // Get all frames
-    var preview = document.getElementById("previewFrame");
-    var active = document.getElementById("activeFrame");
-
-    // Check if hovered frame is active
-    if (preview) {
-        if (preview != active) { active?.remove(); }
-
-        // Update current side
-        currentSide = preview;
-        currentSide.setAttribute("id", "activeFrame");
-        currentSide.contentDocument.getElementById("content").style.opacity = "1";
-    } else {
-        // Open link
-        console.log("double");
-    }
-
     // Ignore link-behaviour in frames
     if (!document.getElementById("content").classList.contains("openLinks")) {
+        // Get all frames
+        var preview = document.getElementById("previewFrame");
+        var active = document.getElementById("activeFrame");
+
+        // Check if hovered frame is active
+        if (preview) {
+            if (preview != active) { active?.remove(); }
+
+            // Update current side
+            currentSide = preview;
+            currentSide.setAttribute("id", "activeFrame");
+            currentSide.contentDocument.getElementById("content").style.opacity = "1";
+        } else {
+            // Open link
+            window.open(currentSide.src, '_blank').focus();
+        }
+
         e.preventDefault();
     }
 }
