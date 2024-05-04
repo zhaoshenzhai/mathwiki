@@ -1,9 +1,9 @@
 var defaultSide;
 var currentSide;
-
+var currentSideContent;
 var frameContainer;
 
-function preview(link) {
+function previewSide(link) {
     // Clear current side
     defaultSide = document.getElementById("links");
     if (currentSide == null) { currentSide = defaultSide; }
@@ -32,10 +32,10 @@ function preview(link) {
             // Set to preview mode
             frameDoc.getElementById("side").style.display = "none";
             frameDoc.documentElement.classList.add("noScroll");
-            frameContent = frameDoc.getElementById("content");
-            frameContent.classList.add("openLinks");
-            frameContent.classList.remove("left");
-            frameContent.style.opacity = "0.6";
+            currentSideContent = frameDoc.getElementById("content");
+            currentSideContent.classList.add("openLinks");
+            currentSideContent.classList.remove("left");
+            currentSideContent.style.opacity = "0.6";
 
             // Make frame visible
             frameContainer.style.opacity = "1";
@@ -43,7 +43,7 @@ function preview(link) {
     }
 }
 
-function updateCurrent(e) {
+function updateCurrentSide(e) {
     // Ignore link-behaviour in frames
     if (!document.getElementById("content").classList.contains("openLinks")) {
         // Get all frames
@@ -57,7 +57,7 @@ function updateCurrent(e) {
             // Update current side
             currentSide = preview;
             currentSide.setAttribute("id", "activeFrame");
-            currentSide.contentDocument.getElementById("content").style.opacity = "1";
+            currentSideContent.style.opacity = "1";
         } else {
             // Open link
             window.open(currentSide.src, '_blank').focus();
@@ -67,13 +67,19 @@ function updateCurrent(e) {
     }
 }
 
-function clearPreview() {
+function clearPreviewSide() {
     // Remove preview frame
     document.getElementById("previewFrame")?.remove();
 
     // Restore current side
     currentSide.style.opacity = "1";
-    if (currentSide.contentDocument?.getElementById("content")) {
-        currentSide.contentDocument.getElementById("content").style.opacity = "1";
+    if (currentSideContent) {
+        currentSideContent.style.opacity = "1";
     }
+}
+
+function resetSide() {
+    document.getElementById("activeFrame")?.remove();
+    currentSide = defaultSide;
+    currentSide.style.opacity = "1";
 }

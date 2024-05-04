@@ -1,8 +1,8 @@
 {{ with .Get 0 }}
 <a href={{ absURL . }}
-   onmouseover="preview({{ absURL . }});",
-   onmouseleave="clearPreview();",
-   onclick="updateCurrent(event);",
+   onmouseover="previewSide({{ absURL . }});",
+   onmouseleave="clearPreviewSide();",
+   onclick="updateCurrentSide(event);",
    target=_blank
 >{{ . }}</a>{{- "" -}}
 {{ end }}{{- "" -}}
