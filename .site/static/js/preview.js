@@ -1,31 +1,52 @@
-var frameContainer;
 var preserveFrame = false;
 var defaultSide;
 
+var frameContainer;
+var frameContent;
+
 function preview(link) {
-    frameContainer = document.getElementById("preview");
+    if (!preserveFrame) {
+        // Initialize frame
+        frameContainer = document.getElementById("preview");
+        frameContainer.innerHTML="<iframe src=" + link + " id=previewFrame class=right title=Preview></iframe>"
+        frameContainer.style.opacity = "0";
 
-    frameContainer.innerHTML="<iframe src=" + link + " id=previewFrame class=right scrolling=no title=Preview></iframe>"
-    frameContainer.style.display = "none";
+        // Clear default
+        defaultSide = document.getElementById("links");
+        defaultSide.style.display = "none";
 
-    defaultSide = document.getElementById("links");
-    defaultSide.style.display = "none";
+        // Operations on frame
+        var frame = document.getElementById("previewFrame");
+        frame.addEventListener("load", function() {
+            // Get frame document
+            var frameDoc = frame.contentDocument || frame.contentWindow.document;
 
-    var frame = document.getElementById("previewFrame");
-    frame.addEventListener("load", function() {
-        var frameDoc = frame.contentDocument || frame.contentWindow.document;
-        var frameContent = frameDoc.getElementById("content");
+            // Set to preview mode
+            frameDoc.getElementById("side").style.display = "none";
+            frameDoc.documentElement.classList.add("noScroll");
+            frameContent = frameDoc.getElementById("content");
+            frameContent.classList.add("openLinks");
+            frameContent.classList.remove("left");
+            frameContent.style.opacity = "0.6";
 
-        frameContent.classList.remove("left");
-        frameDoc.getElementById("links").style.display = "none";
+            // Make frame visible
+            frameContainer.style.opacity = "1";
+        });
 
-        frameContainer.style.display = "inline";
-    });
+        frame.addEventListener("jaxReady", function() {
+            console.log("READY");
+        });
+    }
 }
 
 function preserveSide(e) {
-    preserveFrame = true;
-    e.preventDefault();
+    if (!preserveFrame) {
+        preserveFrame = true;
+        frameContent.style.opacity = "1";
+        if (!document.getElementById("content").classList.contains("openLinks")) {
+            e.preventDefault();
+        }
+    }
 }
 
 function resetToDefault() {

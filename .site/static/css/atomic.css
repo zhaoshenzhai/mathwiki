@@ -2,6 +2,7 @@
     height: 100%;
     position: absolute;
     top: 0;
+    bottom: 0;
     padding-top: 20px;
     text-align: justify;
     padding-bottom: 10px;
@@ -18,8 +19,9 @@
 
 #previewFrame {
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
+    bottom: 0;
     border: none;
 }
 
@@ -31,4 +33,16 @@
 .left {
     width: 45%;
     left: 3%;
+}
+
+.noScroll {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.noScroll::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
 }
