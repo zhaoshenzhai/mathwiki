@@ -48,20 +48,23 @@ function updateCurrentSide(e) {
     if (!document.getElementById("content").classList.contains("openLinks")) {
         // Get all frames
         var preview = document.getElementById("previewFrame");
-        var active = document.getElementById("activeFrame");
 
         // Check if hovered frame is active
-        if (preview) {
+        if (!preview) {
+            // Open link
+            window.open(currentSide.src, '_blank').focus();
+        } else {
+            var active = document.getElementById("activeFrame");
             if (preview != active) { active?.remove(); }
 
             // Update current side
             currentSide = preview;
             currentSide.setAttribute("id", "activeFrame");
             currentSideContent.style.opacity = "1";
-        } else {
-            // Open link
-            window.open(currentSide.src, '_blank').focus();
         }
+
+        // Show reset button
+        document.getElementById("resetSide").style.display = "inline";
 
         e.preventDefault();
     }
@@ -80,6 +83,7 @@ function clearPreviewSide() {
 
 function resetSide() {
     document.getElementById("activeFrame")?.remove();
+    document.getElementById("resetSide").style.display = "none";
     currentSide = defaultSide;
     currentSide.style.opacity = "1";
 }

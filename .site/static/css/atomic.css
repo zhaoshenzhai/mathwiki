@@ -1,20 +1,11 @@
-#content {
+#content, #links {
     height: 100%;
     position: absolute;
     top: 0;
     bottom: 0;
     padding-top: 20px;
-    text-align: justify;
     padding-bottom: 10px;
-}
-
-#links {
-    height: 100%;
-    position: absolute;
-    top: 0;
-    padding-top: 20px;
     text-align: justify;
-    padding-bottom: 10px;
 }
 
 .frame {
@@ -45,4 +36,10 @@
     display: none;
     width: 0;
     height: 0;
+}
+
+.button {
+    position: absolute;
+    right: 3%;
+    margin-top: 20px;
 }
