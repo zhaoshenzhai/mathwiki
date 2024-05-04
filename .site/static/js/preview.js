@@ -1,5 +1,6 @@
 var frameContainer;
-var links;
+var preserveFrame = false;
+var defaultSide;
 
 function preview(link) {
     frameContainer = document.getElementById("preview");
@@ -7,8 +8,8 @@ function preview(link) {
     frameContainer.innerHTML="<iframe src=" + link + " id=previewFrame class=right scrolling=no title=Preview></iframe>"
     frameContainer.style.display = "none";
 
-    links = document.getElementById("links");
-    links.style.display = "none";
+    defaultSide = document.getElementById("links");
+    defaultSide.style.display = "none";
 
     var frame = document.getElementById("previewFrame");
     frame.addEventListener("load", function() {
@@ -22,7 +23,14 @@ function preview(link) {
     });
 }
 
-function remove() {
-    frameContainer.innerHTML="";
-    links.style.display = "inline";
+function preserveSide(e) {
+    preserveFrame = true;
+    e.preventDefault();
+}
+
+function resetToDefault() {
+    if (!preserveFrame) {
+        frameContainer.innerHTML="";
+        defaultSide.style.display = "inline";
+    }
 }
