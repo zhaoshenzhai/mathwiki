@@ -61,6 +61,7 @@ function forceResetSide() {
     currentSide = defaultSide;
     currentSide.style.opacity = "1";
     currentSide.style.display = "inline";
+    resetButton.style.display = "none";
 
     var frames = document.getElementsByTagName("iframe");
     while (frames.length) { frames[0].parentNode.removeChild(frames[0]); }
