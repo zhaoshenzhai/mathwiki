@@ -1,14 +1,14 @@
 var mainContent = document.getElementById("content");
 var defaultSide = document.getElementById("links");
-var frameContainer = document.getElementById("preview");
 var resetButton = document.getElementById("resetSide");
+var frameContainer = document.getElementById("preview");
 
 var currentSide = defaultSide;
 var frameContent;
-
 var previewReady = false;
 
 function previewSide(link) {
+    if (frameContainer.children.length > 2) { forceResetSide(); }
     if (currentSide.src != link) {
         previewReady = false;
 
@@ -42,8 +42,10 @@ function updateCurrentSide(e) {
 
 function clearPreviewSide() {
     fadeOut(getPreview(), true);
-    fadeIn(resetButton);
-    fadeIn(currentSide);
+    if (previewReady) {
+        fadeIn(resetButton);
+        fadeIn(currentSide);
+    }
 }
 
 function resetSide() {
@@ -51,6 +53,17 @@ function resetSide() {
     resetButton.style.display = "none";
     currentSide = defaultSide;
     fadeIn(currentSide);
+}
+
+function forceResetSide() {
+    frameContent = null;
+    previewReady = false;
+    currentSide = defaultSide;
+    currentSide.style.opacity = "1";
+    currentSide.style.display = "inline";
+
+    var frames = document.getElementsByTagName("iframe");
+    while (frames.length) { frames[0].parentNode.removeChild(frames[0]); }
 }
 
 function newPreviewFrame(link) {
@@ -80,7 +93,7 @@ function setActiveFrame(newFrame) {
     currentSide = newFrame;
     currentSide.setAttribute("id", "activeFrame");
     resetButton.style.display = "inline";
-    resetButton.style.opacity = "1";
+    fadeIn(resetButton);
 }
 
 function fadeOut(element, remove) {
