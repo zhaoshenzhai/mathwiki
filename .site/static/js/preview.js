@@ -1,10 +1,13 @@
 var defaultSide;
 var currentSide;
 var currentSideContent;
+
 var frameContainer;
+var resetButton;
 
 function previewSide(link) {
-    // Clear current side
+    // Update variables
+    resetButton = document.getElementById("resetSide");
     defaultSide = document.getElementById("links");
     if (currentSide == null) { currentSide = defaultSide; }
 
@@ -15,6 +18,7 @@ function previewSide(link) {
         // Clear before processing
         frameContainer.style.opacity = "0";
         currentSide.style.opacity = "0";
+        resetButton.style.opacity = "0";
 
         // Initialize frame
         var iFrame = document.createElement("iframe");
@@ -57,10 +61,11 @@ function updateCurrentSide(e) {
             var active = document.getElementById("activeFrame");
             if (preview != active) { active?.remove(); }
 
-            // Update current side
+            // Update side
             currentSide = preview;
             currentSide.setAttribute("id", "activeFrame");
             currentSideContent.style.opacity = "1";
+            resetButton.style.opacity = "1";
         }
 
         // Show reset button
@@ -76,6 +81,7 @@ function clearPreviewSide() {
 
     // Restore current side
     currentSide.style.opacity = "1";
+    resetButton.style.opacity = "1";
     if (currentSideContent) {
         currentSideContent.style.opacity = "1";
     }

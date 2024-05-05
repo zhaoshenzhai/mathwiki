@@ -1,11 +1,21 @@
+h1 {
+    margin: 0;
+}
+
+#content {
+    position: absolute;
+}
+
+#links {
+    position: fixed;
+}
+
 #content, #links {
     height: 100%;
-    position: absolute;
     top: 0;
     bottom: 0;
-    padding-top: 20px;
-    padding-bottom: 10px;
     text-align: justify;
+    padding-top: 40px;
 }
 
 .frame {
@@ -16,14 +26,14 @@
     border: none;
 }
 
-.right {
-    width: 45%;
-    right:3%;
-}
-
 .left {
     width: 45%;
     left: 3%;
+}
+
+.right {
+    width: 45%;
+    right:3%;
 }
 
 .noScroll {
@@ -39,7 +49,19 @@
 }
 
 .button {
-    position: absolute;
+    position: fixed;
     right: 3%;
-    margin-top: 20px;
+    z-index: 100;
+    font-size: 30px;
+    padding: 0;
+    margin-top: 40px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: white;
+    color: rgba(0,0,0,0.5);
+}
+
+.button:hover {
+    color: rgba(0,0,0,1);
 }

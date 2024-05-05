@@ -1,6 +1,10 @@
 {{ define "main" }}
+    <script src="https://kit.fontawesome.com/2af04c65dc.js" crossorigin="anonymous"></script>
     <script src="{{ absURL "" }}js/preview.js"></script>
+
     <link rel="stylesheet" href="{{ absURL "" }}css/atomic.css">
+
+    <div id="topSpace"></div>
 
     <div id="content" class="left">
         <h1>{{ .Title }}</h1>
@@ -10,7 +14,7 @@
     <div id="side">
         <div id="links" class="right">load links here...</div>
         <div id="preview">
-            <button id="resetSide" class="button" onclick="resetSide();" style="display: none;">Reset</button>
+            <button id="resetSide" class="button" onclick="resetSide();" style="display: none;"><i class="fa-solid fa-xmark"></i></button>
         </div>
     </div>
 {{ end }}
