@@ -58,7 +58,8 @@ h1 {
     height: 30px;
     width: 30px;
     border: none;
-    background-color: white;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
     color: rgba(0,0,0,0.5);
 }
 

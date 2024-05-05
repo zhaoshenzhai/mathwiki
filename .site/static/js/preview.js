@@ -9,40 +9,18 @@ function previewSide(link) {
     // Update variables
     resetButton = document.getElementById("resetSide");
     defaultSide = document.getElementById("links");
+    frameContainer = document.getElementById("preview");
     if (currentSide == null) { currentSide = defaultSide; }
 
     if (currentSide.src != link) {
-        // Get frame container
-        frameContainer = document.getElementById("preview");
-
-        // Clear before processing
-        frameContainer.style.opacity = "0";
-        currentSide.style.opacity = "0";
-        resetButton.style.opacity = "0";
-
         // Initialize frame
-        var iFrame = document.createElement("iframe");
-        iFrame.setAttribute("src", link);
-        iFrame.setAttribute("id", "previewFrame");
-        iFrame.setAttribute("class", "right frame");
-        iFrame.setAttribute("title", "Preview");
-        frameContainer.appendChild(iFrame);
+        var frame = newPreviewFrame(link);
+        frameContainer.appendChild(frame);
 
-        // Operations on frame
-        iFrame.addEventListener("load", function() {
-            // Get frame document
-            var frameDoc = iFrame.contentDocument;
-
-            // Set to preview mode
-            frameDoc.getElementById("side").style.display = "none";
-            frameDoc.documentElement.classList.add("noScroll");
-            currentSideContent = frameDoc.getElementById("content");
-            currentSideContent.classList.add("openLinks");
-            currentSideContent.classList.remove("left");
-            currentSideContent.style.opacity = "0.6";
-
-            // Make frame visible
-            frameContainer.style.opacity = "1";
+        frame.addEventListener("load", function() {
+            fadeOut(currentSide, false);
+            fadeOut(resetButton, false);
+            fadeIn(frame, 0);
         });
     }
 }
@@ -55,21 +33,20 @@ function updateCurrentSide(e) {
 
         // Check if hovered frame is active
         if (!preview) {
-            // Open link
-            window.open(currentSide.src, '_blank').focus();
+            window.open(currentSide.src, "_blank").focus();
         } else {
             var active = document.getElementById("activeFrame");
-            if (preview != active) { active?.remove(); }
+            if (preview != active) { fadeOut(active, true); }
 
             // Update side
             currentSide = preview;
             currentSide.setAttribute("id", "activeFrame");
-            currentSideContent.style.opacity = "1";
-            resetButton.style.opacity = "1";
+            fadeIn(currentSideContent, 0.6);
         }
 
         // Show reset button
-        document.getElementById("resetSide").style.display = "inline";
+        resetButton.style.display = "inline";
+        fadeIn(resetButton, 0);
 
         e.preventDefault();
     }
@@ -77,19 +54,67 @@ function updateCurrentSide(e) {
 
 function clearPreviewSide() {
     // Remove preview frame
-    document.getElementById("previewFrame")?.remove();
+    // console.log(document.getElementById("previewFrame"));
+    fadeOut(document.getElementById("previewFrame"), true);
 
     // Restore current side
-    currentSide.style.opacity = "1";
-    resetButton.style.opacity = "1";
-    if (currentSideContent) {
-        currentSideContent.style.opacity = "1";
-    }
+    fadeIn(resetButton, 0);
+    fadeIn(currentSide, 0);
+    fadeIn(currentSideContent, 0);
 }
 
 function resetSide() {
     document.getElementById("activeFrame")?.remove();
-    document.getElementById("resetSide").style.display = "none";
+    resetButton.style.display = "none";
+    fadeOut(resetButton, false);
     currentSide = defaultSide;
-    currentSide.style.opacity = "1";
+    // currentSide.style.opacity = "1";
+    fadeIn(currentSide, 0);
+}
+
+function newPreviewFrame(link) {
+    var frame = document.createElement("iframe");
+    frame.style.opacity = "0";
+    frame.setAttribute("src", link);
+    frame.setAttribute("id", "previewFrame");
+    frame.setAttribute("class", "right frame");
+    frame.setAttribute("title", "Preview");
+
+    frame.addEventListener("load", function() {
+        var frameDoc = frame.contentDocument;
+        frameDoc.getElementById("side").style.display = "none";
+        frameDoc.documentElement.classList.add("noScroll");
+
+        currentSideContent = frameDoc.getElementById("content");
+        currentSideContent.classList.add("openLinks");
+        currentSideContent.classList.remove("left");
+        currentSideContent.style.opacity = "0.6";
+    });
+
+    return frame;
+}
+
+function fadeOut(element, remove) {
+    if (element) {
+        var i = 1;
+        var timer = setInterval(function () {
+            if (i <= 0.2){
+                clearInterval(timer);
+                if (remove) { element.remove(); }
+            }
+            if (element) { element.style.opacity = i - 0.2; }
+            i -= i * 0.2;
+        }, 10);
+    }
+}
+
+function fadeIn(element, initial) {
+    if (element && element.style.opacity < 1) {
+        var i = initial + 0.2;
+        var timer = setInterval(function () {
+            if (i >= 1){ clearInterval(timer); }
+            element.style.opacity = i;
+            i += i * 0.2;
+        }, 10);
+    }
 }
