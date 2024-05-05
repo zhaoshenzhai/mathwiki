@@ -1,52 +1,34 @@
-var defaultSide;
-var currentSide;
-var currentSideContent;
+var mainContent = document.getElementById("content");
+var defaultSide = document.getElementById("links");
+var frameContainer = document.getElementById("preview");
+var resetButton = document.getElementById("resetSide");
 
-var frameContainer;
-var resetButton;
+var currentSide = defaultSide;
+var frameContent;
 
 function previewSide(link) {
-    // Update variables
-    resetButton = document.getElementById("resetSide");
-    defaultSide = document.getElementById("links");
-    frameContainer = document.getElementById("preview");
-    if (currentSide == null) { currentSide = defaultSide; }
-
     if (currentSide.src != link) {
-        // Initialize frame
         var frame = newPreviewFrame(link);
         frameContainer.appendChild(frame);
 
         frame.addEventListener("load", function() {
             fadeOut(currentSide, false);
             fadeOut(resetButton, false);
-            fadeIn(frame, 0);
+            fadeIn(frame);
         });
     }
 }
 
 function updateCurrentSide(e) {
-    // Ignore link-behaviour in frames
-    if (!document.getElementById("content").classList.contains("openLinks")) {
-        // Get all frames
-        var preview = document.getElementById("previewFrame");
+    if (!mainContent.classList.contains("openLinks")) {
+        var preview = getPreview();
 
-        // Check if hovered frame is active
         if (!preview) {
             window.open(currentSide.src, "_blank").focus();
         } else {
-            var active = document.getElementById("activeFrame");
-            if (preview != active) { fadeOut(active, true); }
-
-            // Update side
-            currentSide = preview;
-            currentSide.setAttribute("id", "activeFrame");
-            fadeIn(currentSideContent, 0.6);
+            getActive()?.remove();
+            setActiveFrame(preview);
         }
-
-        // Show reset button
-        resetButton.style.display = "inline";
-        fadeIn(resetButton, 0);
 
         e.preventDefault();
     }
@@ -54,22 +36,20 @@ function updateCurrentSide(e) {
 
 function clearPreviewSide() {
     // Remove preview frame
-    // console.log(document.getElementById("previewFrame"));
-    fadeOut(document.getElementById("previewFrame"), true);
+    fadeOut(getPreview(), true);
 
     // Restore current side
-    fadeIn(resetButton, 0);
-    fadeIn(currentSide, 0);
-    fadeIn(currentSideContent, 0);
+    fadeIn(resetButton);
+    fadeIn(currentSide);
+    fadeIn(frameContent);
 }
 
 function resetSide() {
-    document.getElementById("activeFrame")?.remove();
-    resetButton.style.display = "none";
-    fadeOut(resetButton, false);
+    getActive()?.remove();
     currentSide = defaultSide;
-    // currentSide.style.opacity = "1";
-    fadeIn(currentSide, 0);
+
+    fadeOut(resetButton, false);
+    fadeIn(currentSide);
 }
 
 function newPreviewFrame(link) {
@@ -85,13 +65,21 @@ function newPreviewFrame(link) {
         frameDoc.getElementById("side").style.display = "none";
         frameDoc.documentElement.classList.add("noScroll");
 
-        currentSideContent = frameDoc.getElementById("content");
-        currentSideContent.classList.add("openLinks");
-        currentSideContent.classList.remove("left");
-        currentSideContent.style.opacity = "0.6";
+        frameContent = frameDoc.getElementById("content");
+        frameContent.classList.add("openLinks");
+        frameContent.classList.remove("left");
+        frameContent.style.opacity = "0.6";
     });
 
     return frame;
+}
+
+function setActiveFrame(newFrame) {
+    frameContent.style.opacity = "1";
+    currentSide = newFrame;
+    currentSide.setAttribute("id", "activeFrame");
+    resetButton.style.display = "inline";
+    resetButton.style.opacity = "1";
 }
 
 function fadeOut(element, remove) {
@@ -107,14 +95,20 @@ function fadeOut(element, remove) {
         }, 10);
     }
 }
-
-function fadeIn(element, initial) {
+function fadeIn(element) {
     if (element && element.style.opacity < 1) {
-        var i = initial + 0.2;
+        var i = 0.2;
         var timer = setInterval(function () {
             if (i >= 1){ clearInterval(timer); }
             element.style.opacity = i;
             i += i * 0.2;
         }, 10);
     }
+}
+
+function getPreview() {
+    return document.getElementById("previewFrame");
+}
+function getActive() {
+    return document.getElementById("activeFrame");
 }
