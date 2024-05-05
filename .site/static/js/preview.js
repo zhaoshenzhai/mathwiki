@@ -6,8 +6,12 @@ var resetButton = document.getElementById("resetSide");
 var currentSide = defaultSide;
 var frameContent;
 
+var previewReady = false;
+
 function previewSide(link) {
     if (currentSide.src != link) {
+        previewReady = false;
+
         var frame = newPreviewFrame(link);
         frameContainer.appendChild(frame);
 
@@ -15,12 +19,14 @@ function previewSide(link) {
             fadeOut(currentSide, false);
             fadeOut(resetButton, false);
             fadeIn(frame);
+
+            previewReady = true;
         });
     }
 }
 
 function updateCurrentSide(e) {
-    if (!mainContent.classList.contains("openLinks")) {
+    if (!mainContent.classList.contains("openLinks") && previewReady) {
         var preview = getPreview();
 
         if (!preview) {
@@ -31,24 +37,19 @@ function updateCurrentSide(e) {
         }
 
         e.preventDefault();
-    }
+    } else if (!previewReady) { e.preventDefault(); }
 }
 
 function clearPreviewSide() {
-    // Remove preview frame
     fadeOut(getPreview(), true);
-
-    // Restore current side
     fadeIn(resetButton);
     fadeIn(currentSide);
-    fadeIn(frameContent);
 }
 
 function resetSide() {
     getActive()?.remove();
+    resetButton.style.display = "none";
     currentSide = defaultSide;
-
-    fadeOut(resetButton, false);
     fadeIn(currentSide);
 }
 
