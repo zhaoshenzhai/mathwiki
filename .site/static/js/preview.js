@@ -43,12 +43,14 @@ function updateCurrentSide(e, link) {
         if (!preview && currentSide.src == link) {
             window.open(currentSide.src, "_blank").focus();
         } else if (!preview) {
-            frameContainer.appendChild(newPreviewFrame(link));
+            previewSide(link);
             updateCurrentSide(e, link);
         } else if (previewReady) {
+            triggerFadeInterrupt(preview);
             getActive()?.remove();
             setActiveFrame(preview, false);
         } else {
+            triggerFadeInterrupt(preview);
             fadeOut(currentSide, true);
             preview.addEventListener("load", function() {
                 setActiveFrame(preview, true);
