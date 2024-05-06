@@ -8,21 +8,28 @@ var frameContent;
 
 var previewReady = false;
 var clicked = false;
+var cleared = false;
+
+const fadeInterrupt = new Event("fadeInterrupt");
 
 function previewSide(link) {
     if (currentSide.src != link) {
         getPreview()?.remove();
-        clicked = false;
         previewReady = false;
+        clicked = false;
+        cleared = false;
 
         var frame = newPreviewFrame(link);
         frameContainer.appendChild(frame);
 
-        fadeOut(currentSide, false);
-        fadeOut(resetButton, false);
-
         frame.addEventListener("load", function() {
-            if (!clicked) { fadeIn(frame); }
+            if (!clicked && !cleared) {
+                triggerFadeInterrupt(frame);
+                fadeOut(currentSide, false);
+                fadeOut(resetButton, false);
+                fadeIn(frame);
+            }
+
             previewReady = true;
         });
     }
@@ -40,11 +47,11 @@ function updateCurrentSide(e, link) {
             updateCurrentSide(e, link);
         } else if (previewReady) {
             getActive()?.remove();
-            setActiveFrame(preview);
+            setActiveFrame(preview, false);
         } else {
             fadeOut(currentSide, true);
             preview.addEventListener("load", function() {
-                setActiveFrame(preview);
+                setActiveFrame(preview, true);
             });
         }
 
@@ -53,12 +60,16 @@ function updateCurrentSide(e, link) {
 }
 
 function clearPreviewSide() {
-    fadeOut(getPreview(), true);
-    fadeIn(resetButton);
-    fadeIn(currentSide);
+    var preview = getPreview();
+    cleared = true;
 
-    previewReady = false;
-    clicked = false;
+    if (preview && previewReady) {
+        triggerFadeInterrupt(preview);
+
+        fadeIn(currentSide);
+        fadeIn(resetButton);
+        fadeOut(preview, true);
+    }
 }
 
 function resetSide() {
@@ -69,6 +80,7 @@ function resetSide() {
 
     previewReady = false;
     clicked = false;
+    cleared = false;
 }
 
 function newPreviewFrame(link) {
@@ -93,13 +105,13 @@ function newPreviewFrame(link) {
     return frame;
 }
 
-function setActiveFrame(newFrame) {
+function setActiveFrame(newFrame, makeVisible) {
     frameContent.style.opacity = "1";
     currentSide = newFrame;
     currentSide.setAttribute("id", "activeFrame");
     resetButton.style.display = "inline";
 
-    fadeIn(currentSide);
+    if (makeVisible) { fadeIn(currentSide); }
     fadeIn(resetButton);
 }
 
@@ -107,24 +119,39 @@ function fadeOut(element, remove) {
     if (element) {
         var i = 1;
         var timer = setInterval(function () {
-            if (i <= 0.1){
-                clearInterval(timer);
-                if (remove && element != defaultSide) { element.remove(); }
-            }
+            if (i <= 0.1){ interruptFade(timer, element, remove); }
             if (element) { element.style.opacity = i - 0.1; }
             i -= i * 0.1;
         }, 10);
+
+        element.addEventListener("fadeInterrupt", function() {
+            interruptFade(timer, element, remove);
+        });
     }
 }
 function fadeIn(element) {
-    if (element && element.style.opacity < 1) {
+    if (element) {
         var i = 0.1;
         var timer = setInterval(function () {
-            if (i >= 1){ clearInterval(timer); }
+            if (i >= 1){ interruptFade(timer, element, false); }
             element.style.opacity = i;
             i += i * 0.1;
         }, 10);
+
+        element.addEventListener("fadeInterrupt", function() {
+            interruptFade(timer, element, false);
+        });
     }
+}
+
+function triggerFadeInterrupt(previewElem) {
+    currentSide.dispatchEvent(fadeInterrupt);
+    resetButton.dispatchEvent(fadeInterrupt);
+    previewElem.dispatchEvent(fadeInterrupt);
+}
+function interruptFade(timer, element, remove) {
+    if (remove && element != defaultSide) { element.remove(); }
+    clearInterval(timer);
 }
 
 function getPreview() {
