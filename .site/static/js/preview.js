@@ -30,13 +30,16 @@ function previewSide(link) {
     }
 }
 
-function updateCurrentSide(e) {
+function updateCurrentSide(e, link) {
     if (!mainContent.classList.contains("openLinks")) {
         clicked = true;
         var preview = getPreview();
 
-        if (!preview && currentSide != defaultSide) {
+        if (!preview && currentSide.src == link) {
             window.open(currentSide.src, "_blank").focus();
+        } else if (!preview) {
+            previewSide(link);
+            updateCurrentSide(e, link);
         } else if (previewReady) {
             getActive()?.remove();
             setActiveFrame(preview);

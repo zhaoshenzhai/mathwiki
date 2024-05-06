@@ -2,7 +2,7 @@
 <a href={{ absURL . }}
    onmouseover="previewSide({{ absURL . }});",
    onmouseleave="clearPreviewSide();",
-   onclick="updateCurrentSide(event);",
+   onclick="updateCurrentSide(event, {{ absURL . }});",
    target=_blank
 >{{ . }}</a>{{- "" -}}
 {{ end }}{{- "" -}}
