@@ -18,13 +18,11 @@ function previewSide(link) {
         var frame = newPreviewFrame(link);
         frameContainer.appendChild(frame);
 
-        frame.addEventListener("load", function() {
-            if (!clicked) {
-                fadeOut(currentSide, false);
-                fadeOut(resetButton, false);
-                fadeIn(frame);
-            }
+        fadeOut(currentSide, false);
+        fadeOut(resetButton, false);
 
+        frame.addEventListener("load", function() {
+            if (!clicked) { fadeIn(frame); }
             previewReady = true;
         });
     }
@@ -44,8 +42,8 @@ function updateCurrentSide(e, link) {
             getActive()?.remove();
             setActiveFrame(preview);
         } else {
+            fadeOut(currentSide, true);
             preview.addEventListener("load", function() {
-                fadeOut(currentSide, true);
                 setActiveFrame(preview);
             });
         }
