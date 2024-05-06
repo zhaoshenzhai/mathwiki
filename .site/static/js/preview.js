@@ -70,18 +70,6 @@ function resetSide() {
     clicked = false;
 }
 
-function forceResetSide() {
-    frameContent = null;
-    previewReady = false;
-    currentSide = defaultSide;
-    currentSide.style.opacity = "1";
-    currentSide.style.display = "inline";
-    resetButton.style.display = "none";
-
-    var frames = document.getElementsByTagName("iframe");
-    while (frames.length) { frames[0].parentNode.removeChild(frames[0]); }
-}
-
 function newPreviewFrame(link) {
     var frame = document.createElement("iframe");
     frame.style.opacity = "0";
