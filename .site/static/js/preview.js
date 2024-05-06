@@ -1,5 +1,5 @@
 var mainContent = document.getElementById("content");
-var defaultSide = document.getElementById("links");
+var defaultSide = document.getElementById("metadata");
 var resetButton = document.getElementById("resetSide");
 var frameContainer = document.getElementById("preview");
 

@@ -5,9 +5,9 @@ date: 2024-04-30T21:05:22-04:00
 
 Hey **bold** *italics* $\R$.
 
-A link to {{< link "second" um >}}.
+A link to {{< link "second" "definition" >}}.
 
-A link to {{< link "first" um >}}.
+A link to {{< link "first" "proof" >}}.
 $$\begin{equation}
     \int_0^1f(x)\\,\d x
 \end{equation}$$

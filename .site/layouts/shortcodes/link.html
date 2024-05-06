@@ -1,8 +1,10 @@
-{{ with .Get 0 }}
-<a href={{ absURL . }}
-   onmouseover="previewSide({{ absURL . }});",
-   onmouseleave="clearPreviewSide();",
-   onclick="updateCurrentSide(event, {{ absURL . }});",
-   target=_blank
->{{ . }}</a>{{- "" -}}
-{{ end }}{{- "" -}}
+{{ $path := .Get 0 }}
+{{ $link := absURL $path }}
+{{ $name := relURL $path }}
+{{ $name := trim $name "/" }}
+
+<a href={{ $link }} class="internalLink {{ .Get 1 }}" target=_blank
+    onmouseover="previewSide({{ $link }});",
+    onmouseleave="clearPreviewSide();",
+    onclick="updateCurrentSide(event, {{ $link }});"
+>{{ $name }}</a>{{- "" -}}
