@@ -38,7 +38,7 @@ function updateCurrentSide(e, link) {
         if (!preview && currentSide.src == link) {
             window.open(currentSide.src, "_blank").focus();
         } else if (!preview) {
-            previewSide(link);
+            frameContainer.appendChild(newPreviewFrame(link));
             updateCurrentSide(e, link);
         } else if (previewReady) {
             getActive()?.remove();
@@ -64,8 +64,8 @@ function clearPreviewSide() {
 }
 
 function resetSide() {
-    getActive()?.remove();
-    resetButton.style.display = "none";
+    fadeOut(getActive(), true);
+    fadeOut(resetButton, false);
     currentSide = defaultSide;
     fadeIn(currentSide);
 
@@ -109,22 +109,22 @@ function fadeOut(element, remove) {
     if (element) {
         var i = 1;
         var timer = setInterval(function () {
-            if (i <= 0.2){
+            if (i <= 0.1){
                 clearInterval(timer);
                 if (remove && element != defaultSide) { element.remove(); }
             }
-            if (element) { element.style.opacity = i - 0.2; }
-            i -= i * 0.2;
+            if (element) { element.style.opacity = i - 0.1; }
+            i -= i * 0.1;
         }, 10);
     }
 }
 function fadeIn(element) {
     if (element && element.style.opacity < 1) {
-        var i = 0.2;
+        var i = 0.1;
         var timer = setInterval(function () {
             if (i >= 1){ clearInterval(timer); }
             element.style.opacity = i;
-            i += i * 0.2;
+            i += i * 0.1;
         }, 10);
     }
 }
