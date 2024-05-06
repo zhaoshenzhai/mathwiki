@@ -5,20 +5,25 @@ var frameContainer = document.getElementById("preview");
 
 var currentSide = defaultSide;
 var frameContent;
+
 var previewReady = false;
+var clicked = false;
 
 function previewSide(link) {
-    if (frameContainer.children.length > 2) { forceResetSide(); }
     if (currentSide.src != link) {
+        getPreview()?.remove();
+        clicked = false;
         previewReady = false;
 
         var frame = newPreviewFrame(link);
         frameContainer.appendChild(frame);
 
         frame.addEventListener("load", function() {
-            fadeOut(currentSide, false);
-            fadeOut(resetButton, false);
-            fadeIn(frame);
+            if (!clicked) {
+                fadeOut(currentSide, false);
+                fadeOut(resetButton, false);
+                fadeIn(frame);
+            }
 
             previewReady = true;
         });
@@ -26,26 +31,33 @@ function previewSide(link) {
 }
 
 function updateCurrentSide(e) {
-    if (!mainContent.classList.contains("openLinks") && previewReady) {
+    if (!mainContent.classList.contains("openLinks")) {
+        clicked = true;
         var preview = getPreview();
 
-        if (!preview) {
+        if (!preview && currentSide != defaultSide) {
             window.open(currentSide.src, "_blank").focus();
-        } else {
+        } else if (previewReady) {
             getActive()?.remove();
             setActiveFrame(preview);
+        } else {
+            preview.addEventListener("load", function() {
+                fadeOut(currentSide, true);
+                setActiveFrame(preview);
+            });
         }
 
         e.preventDefault();
-    } else if (!previewReady) { e.preventDefault(); }
+    }
 }
 
 function clearPreviewSide() {
     fadeOut(getPreview(), true);
-    if (previewReady) {
-        fadeIn(resetButton);
-        fadeIn(currentSide);
-    }
+    fadeIn(resetButton);
+    fadeIn(currentSide);
+
+    previewReady = false;
+    clicked = false;
 }
 
 function resetSide() {
@@ -53,6 +65,9 @@ function resetSide() {
     resetButton.style.display = "none";
     currentSide = defaultSide;
     fadeIn(currentSide);
+
+    previewReady = false;
+    clicked = false;
 }
 
 function forceResetSide() {
@@ -94,6 +109,8 @@ function setActiveFrame(newFrame) {
     currentSide = newFrame;
     currentSide.setAttribute("id", "activeFrame");
     resetButton.style.display = "inline";
+
+    fadeIn(currentSide);
     fadeIn(resetButton);
 }
 
@@ -103,7 +120,7 @@ function fadeOut(element, remove) {
         var timer = setInterval(function () {
             if (i <= 0.2){
                 clearInterval(timer);
-                if (remove) { element.remove(); }
+                if (remove && element != defaultSide) { element.remove(); }
             }
             if (element) { element.style.opacity = i - 0.2; }
             i -= i * 0.2;
