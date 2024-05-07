@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mathwiki.com/definition3/</loc>
+    <loc>http://localhost:1313/MathWiki/definition3/</loc>
     <lastmod>2024-05-06T19:11:55-04:00</lastmod>
   </url><url>
-    <loc>https://mathwiki.com/</loc>
+    <loc>http://localhost:1313/MathWiki/</loc>
     <lastmod>2024-05-06T19:11:55-04:00</lastmod>
   </url><url>
-    <loc>https://mathwiki.com/definition2/</loc>
+    <loc>http://localhost:1313/MathWiki/definition2/</loc>
     <lastmod>2024-05-06T19:11:53-04:00</lastmod>
   </url><url>
-    <loc>https://mathwiki.com/definition1/</loc>
+    <loc>http://localhost:1313/MathWiki/definition1/</loc>
     <lastmod>2024-05-06T19:11:51-04:00</lastmod>
   </url><url>
-    <loc>https://mathwiki.com/proof2/</loc>
+    <loc>http://localhost:1313/MathWiki/proof2/</loc>
     <lastmod>2024-05-06T19:11:48-04:00</lastmod>
   </url><url>
-    <loc>https://mathwiki.com/proof1/</loc>
+    <loc>http://localhost:1313/MathWiki/proof1/</loc>
     <lastmod>2024-05-06T19:11:46-04:00</lastmod>
   </url><url>
-    <loc>https://mathwiki.com/second/</loc>
+    <loc>http://localhost:1313/MathWiki/second/</loc>
     <lastmod>2024-05-03T11:18:21-04:00</lastmod>
   </url><url>
-    <loc>https://mathwiki.com/first/</loc>
+    <loc>http://localhost:1313/MathWiki/first/</loc>
     <lastmod>2024-04-30T21:05:22-04:00</lastmod>
   </url><url>
-    <loc>https://mathwiki.com/categories/</loc>
+    <loc>http://localhost:1313/MathWiki/categories/</loc>
   </url><url>
-    <loc>https://mathwiki.com/tags/</loc>
+    <loc>http://localhost:1313/MathWiki/tags/</loc>
   </url>
 </urlset>

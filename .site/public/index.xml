@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MathWiki</title>
-    <link>https://mathwiki.com/</link>
+    <link>http://localhost:1313/MathWiki/</link>
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 May 2024 19:11:55 -0400</lastBuildDate>
-    <atom:link href="https://mathwiki.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/MathWiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Definition3</title>
-      <link>https://mathwiki.com/definition3/</link>
+      <link>http://localhost:1313/MathWiki/definition3/</link>
       <pubDate>Mon, 06 May 2024 19:11:55 -0400</pubDate>
-      <guid>https://mathwiki.com/definition3/</guid>
-      <description>This is yet another definition proof1. Another link proof2.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio.</description>
+      <guid>http://localhost:1313/MathWiki/definition3/</guid>
+      <description>This is yet another definition MathWiki/proof1. Another link MathWiki/proof2.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio.</description>
     </item>
     <item>
       <title>Definition2</title>
-      <link>https://mathwiki.com/definition2/</link>
+      <link>http://localhost:1313/MathWiki/definition2/</link>
       <pubDate>Mon, 06 May 2024 19:11:53 -0400</pubDate>
-      <guid>https://mathwiki.com/definition2/</guid>
-      <description>This is another definition proof2.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</description>
+      <guid>http://localhost:1313/MathWiki/definition2/</guid>
+      <description>This is another definition MathWiki/proof2.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</description>
     </item>
     <item>
       <title>Definition1</title>
-      <link>https://mathwiki.com/definition1/</link>
+      <link>http://localhost:1313/MathWiki/definition1/</link>
       <pubDate>Mon, 06 May 2024 19:11:51 -0400</pubDate>
-      <guid>https://mathwiki.com/definition1/</guid>
-      <description>This is a definition proof1.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</description>
+      <guid>http://localhost:1313/MathWiki/definition1/</guid>
+      <description>This is a definition MathWiki/proof1.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</description>
     </item>
     <item>
       <title>Proof2</title>
-      <link>https://mathwiki.com/proof2/</link>
+      <link>http://localhost:1313/MathWiki/proof2/</link>
       <pubDate>Mon, 06 May 2024 19:11:48 -0400</pubDate>
-      <guid>https://mathwiki.com/proof2/</guid>
-      <description>This is another proof definition2.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</description>
+      <guid>http://localhost:1313/MathWiki/proof2/</guid>
+      <description>This is another proof MathWiki/definition2.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</description>
     </item>
     <item>
       <title>Proof1</title>
-      <link>https://mathwiki.com/proof1/</link>
+      <link>http://localhost:1313/MathWiki/proof1/</link>
       <pubDate>Mon, 06 May 2024 19:11:46 -0400</pubDate>
-      <guid>https://mathwiki.com/proof1/</guid>
-      <description>This is a proof definition1.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</description>
+      <guid>http://localhost:1313/MathWiki/proof1/</guid>
+      <description>This is a proof MathWiki/definition1.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</description>
     </item>
     <item>
       <title>Second</title>
-      <link>https://mathwiki.com/second/</link>
+      <link>http://localhost:1313/MathWiki/second/</link>
       <pubDate>Fri, 03 May 2024 11:18:21 -0400</pubDate>
-      <guid>https://mathwiki.com/second/</guid>
-      <description>This is the second file with some math $\R\int_0^1$. first&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio.</description>
+      <guid>http://localhost:1313/MathWiki/second/</guid>
+      <description>This is the second file with some math $\R\int_0^1$. MathWiki/first&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio.</description>
     </item>
     <item>
       <title>First</title>
-      <link>https://mathwiki.com/first/</link>
+      <link>http://localhost:1313/MathWiki/first/</link>
       <pubDate>Tue, 30 Apr 2024 21:05:22 -0400</pubDate>
-      <guid>https://mathwiki.com/first/</guid>
-      <description>Hey bold italics $\R$.&#xA;A link to second.&#xA;A link to first.&#xA;Definitions: definition1, definition2, definition3&#xA;Proofs: proof1, proof2 $$\begin{equation} \int_0^1f(x)\,\d x \end{equation}$$&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam.</description>
+      <guid>http://localhost:1313/MathWiki/first/</guid>
+      <description>Hey bold italics $\R$.&#xA;A link to MathWiki/second.&#xA;A link to MathWiki/first.&#xA;Definitions: MathWiki/definition1, MathWiki/definition2, MathWiki/definition3&#xA;Proofs: MathWiki/proof1, MathWiki/proof2 $$\begin{equation} \int_0^1f(x)\,\d x \end{equation}$$&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam.</description>
     </item>
   </channel>
 </rss>
