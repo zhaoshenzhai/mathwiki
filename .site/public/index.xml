@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MathWiki</title>
-    <link>http://localhost:1313/</link>
+    <link>https://zhaoshenzhai.github.io/MathWiki/</link>
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 May 2024 11:18:21 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhaoshenzhai.github.io/MathWiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Second</title>
-      <link>http://localhost:1313/second/</link>
+      <link>https://zhaoshenzhai.github.io/MathWiki/second/</link>
       <pubDate>Fri, 03 May 2024 11:18:21 -0400</pubDate>
-      <guid>http://localhost:1313/second/</guid>
-      <description>This is the second file with some math $\R\int_0^1$. first&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio.</description>
+      <guid>https://zhaoshenzhai.github.io/MathWiki/second/</guid>
+      <description>This is the second file with some math $\R\int_0^1$. MathWiki/first&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio.</description>
     </item>
     <item>
       <title>First</title>
-      <link>http://localhost:1313/first/</link>
+      <link>https://zhaoshenzhai.github.io/MathWiki/first/</link>
       <pubDate>Tue, 30 Apr 2024 21:05:22 -0400</pubDate>
-      <guid>http://localhost:1313/first/</guid>
-      <description>Hey bold italics $\R$.&#xA;A link to second.&#xA;A link to first. $$\begin{equation} \int_0^1f(x)\,\d x \end{equation}$$&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio.</description>
+      <guid>https://zhaoshenzhai.github.io/MathWiki/first/</guid>
+      <description>Hey bold italics $\R$.&#xA;A link to MathWiki/second.&#xA;A link to MathWiki/first. $$\begin{equation} \int_0^1f(x)\,\d x \end{equation}$$&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Vitae purus faucibus ornare suspendisse sed. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae tortor condimentum lacinia quis vel eros donec ac odio.</description>
     </item>
   </channel>
 </rss>

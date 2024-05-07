@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://zhaoshenzhai.github.io/MathWiki/</loc>
     <lastmod>2024-05-03T11:18:21-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/second/</loc>
+    <loc>https://zhaoshenzhai.github.io/MathWiki/second/</loc>
     <lastmod>2024-05-03T11:18:21-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/first/</loc>
+    <loc>https://zhaoshenzhai.github.io/MathWiki/first/</loc>
     <lastmod>2024-04-30T21:05:22-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://zhaoshenzhai.github.io/MathWiki/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://zhaoshenzhai.github.io/MathWiki/tags/</loc>
   </url>
 </urlset>
