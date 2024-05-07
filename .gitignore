@@ -7,5 +7,7 @@
 *.synctex.gz
 *.svg
 
+.site/public
+
 .obsidian/workspace.json
 .obsidian/graph.json
