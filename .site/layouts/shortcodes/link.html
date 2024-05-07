@@ -1,10 +1,12 @@
 {{ $path := .Get 0 }}
+{{ $type := .Get 1 }}
 {{ $link := absURL $path }}
-{{ $name := relURL $path }}
-{{ $name := trim $name "MathWiki/" }}
+{{ $name := $path }}
 
-<a href={{ $link }} class="internalLink {{ .Get 1 }}" target=_blank
+{{ if eq $type "dag" }} {{ $name = "$\\!\\!^\\dagger$" }} {{ end }}
+
+<a href={{ $link }} class="internalLink {{ $type }}" target=_blank
     onmouseover="previewSide({{ $link }});",
     onmouseleave="clearPreviewSide();",
     onclick="updateCurrentSide(event, {{ $link }});"
->{{ $path }}</a>{{- "" -}}
+>{{ $name }}</a>{{- "" -}}

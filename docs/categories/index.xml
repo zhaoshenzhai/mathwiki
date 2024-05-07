@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on MathWiki</title>
-    <link>https://zhaoshenzhai.github.io/MathWiki/categories/</link>
+    <link>https://zhaoshenzhai.github.io/mathwiki/categories/</link>
     <description>Recent content in Categories on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://zhaoshenzhai.github.io/MathWiki/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhaoshenzhai.github.io/mathwiki/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

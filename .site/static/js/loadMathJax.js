@@ -6,7 +6,7 @@ window.MathJax = {
 };
 
 (function() {
-    fetch("/MathWiki/preamble.sty")
+    fetch("/mathwiki/preamble.sty")
         .then(response => response.text())
         .then((data) => {
             var preamble = document.getElementById("preamble");
