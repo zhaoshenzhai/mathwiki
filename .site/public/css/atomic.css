@@ -1,0 +1,69 @@
+h1 {
+    margin: 0;
+}
+
+#content {
+    position: absolute;
+    padding-top: 40px;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    text-align: justify;
+}
+
+#metadata {
+    position: fixed;
+    padding: 0;
+    height: 75%;
+    top: 12.5%;
+    bottom: 12.5%;
+}
+
+.frame {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    border: none;
+}
+
+.left {
+    width: 45%;
+    left: 3%;
+}
+
+.right {
+    width: 45%;
+    right:3%;
+}
+
+.noScroll {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.noScroll::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.button {
+    position: fixed;
+    right: 3%;
+    z-index: 100;
+    font-size: 30px;
+    padding: 0;
+    margin-top: 40px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
+    color: rgba(0,0,0,0.5);
+}
+
+.button:hover {
+    color: rgba(0,0,0,1);
+}

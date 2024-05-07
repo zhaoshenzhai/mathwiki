@@ -1,0 +1,11 @@
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+    color: rgba(0,0,255,0.6);
+}
+
+a:hover {
+    color: rgba(0,0,255,1);
+}
