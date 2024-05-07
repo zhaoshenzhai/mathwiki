@@ -46,11 +46,9 @@ function updateCurrentSide(e, link) {
             previewSide(link);
             updateCurrentSide(e, link);
         } else if (previewReady) {
-            triggerFadeInterrupt(preview);
             getActive()?.remove();
             setActiveFrame(preview, false);
         } else {
-            triggerFadeInterrupt(preview);
             fadeOut(currentSide, true);
             preview.addEventListener("load", function() {
                 setActiveFrame(preview, true);
@@ -108,9 +106,9 @@ function newPreviewFrame(link) {
 }
 
 function setActiveFrame(newFrame, makeVisible) {
-    frameContent.style.opacity = "1";
     currentSide = newFrame;
     currentSide.setAttribute("id", "activeFrame");
+    frameContent.style.opacity = "1";
     resetButton.style.display = "inline";
 
     if (makeVisible) { fadeIn(currentSide); }
