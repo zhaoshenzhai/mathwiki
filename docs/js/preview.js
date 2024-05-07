@@ -41,7 +41,7 @@ function updateCurrentSide(e, link) {
         var preview = getPreview();
 
         if (!preview && currentSide.src == link) {
-            window.open(currentSide.src, "_blank").focus();
+            window.open(currentSide.src, "_self");
         } else if (!preview) {
             previewSide(link);
             updateCurrentSide(e, link);

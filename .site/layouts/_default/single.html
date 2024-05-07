@@ -11,9 +11,19 @@
     </div>
 
     <div id="side">
-        <div id="metadata" class="right">Outgoing links
-            <button id="definitionLinksDisplay">Definitions</button>
-            <button id="proofLinksDisplay">Proofs</button>
+        <div id="metadata" class="right">
+            {{ .Params.date | time.Format ":date_long" }} | Zhaoshen Zhai<br>
+
+            <div id="references">References:</div>
+            <div id="tags">Tags:</div>
+            <div id="links">Links:
+                <button id="definitions">Definitions</button>
+                <button id="proofs">Proofs</button>
+                <button id="proofs">Proofs</button>
+                <button id="proofs">Proofs</button>
+                <button id="proofs">Proofs</button>
+                <button id="proofs">Proofs</button>
+            </div>
         </div>
         <div id="preview">
             <button id="resetSide" class="button" onclick="resetSide();" style="display: none;">

@@ -1,6 +1,6 @@
 ---
 title: 'First'
-date: 2024-04-30T21:05:22-04:00
+date: 2024-04-30 21:05:23
 ---
 
 Hey **bold** *italics* $\R$.
@@ -15,7 +15,7 @@ Proofs: {{< link "proof1" "proof" >}}, {{< link "proof2" "proof" >}}
 
 Since $\phi$, we have {{< link "second" "dag" >}} $\psi$
 
-It follows {{< link "second" "dag" >}} from $\psi$ that $\phi$ holds.
+It follows {{< link "definition1" "dag" >}} from $\psi$ that $\phi$ holds.
 $$\begin{equation}
     \int_0^1f(x)\\,\d x
 \end{equation}$$

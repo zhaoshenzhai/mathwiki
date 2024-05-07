@@ -53,7 +53,7 @@
     <item>
       <title>First</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/first/</link>
-      <pubDate>Tue, 30 Apr 2024 21:05:22 -0400</pubDate>
+      <pubDate>Tue, 30 Apr 2024 21:05:23 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/first/</guid>
       <description>Hey bold italics $\R$.&#xA;A link to second.&#xA;A link to first.&#xA;Definitions: definition1, definition2, definition3&#xA;Proofs: proof1, proof2&#xA;Since $\phi$, we have $\!\!^\dagger$ $\psi$&#xA;It follows $\!\!^\dagger$ from $\psi$ that $\phi$ holds. $$\begin{equation} \int_0^1f(x)\,\d x \end{equation}$$&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc.</description>
     </item>

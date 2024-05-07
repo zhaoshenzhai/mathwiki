@@ -5,7 +5,7 @@
 
 {{ if eq $type "dag" }} {{ $name = "$\\!\\!^\\dagger$" }} {{ end }}
 
-<a href={{ $link }} class="internalLink {{ $type }}" target=_blank
+<a href={{ $link }} class="internalLink {{ $type }}"
     onmouseover="previewSide({{ $link }});",
     onmouseleave="clearPreviewSide();",
     onclick="updateCurrentSide(event, {{ $link }});"
