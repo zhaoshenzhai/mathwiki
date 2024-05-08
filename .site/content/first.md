@@ -37,26 +37,11 @@ In particular, something...
 
 {{< /admonition >}}
 
-Here is an unnamed theorem.
-
-{{< admonition "theorem" >}}
-
-Let $T$ be a countable complete $\mc{L}$-theory with infinite models. Then $T$ is $\aleph_0$-categorical iff any one of the following holds.
-1. There is a countable model $\mc{M}\models T$ such that for each $n<\omega$, the action
-$$\begin{equation}
-    \gamma:\Aut\mc{M}\act M^n
-\end{equation}$$
-has finitely-many orbits.
-2. For each $n<\omega$, the type space $S_n(T)$ is finite.
-3. For each $n<\omega$, every $p\in S_n(T)$ is isolated.
-
-{{< /admonition >}}
-
 Here is a definition.
 
-{{< admonition "Definition" "Polish Space" >}}
+{{< admonition "Definition" >}}
 
-A topological space $X$ is said to be **Polish** if it is separable and completely-metrizable.
+A topological space $X$ is said to be **Polish** if it is separable and completely-metrizable {{< link "second" "dag" >}}
 
 {{< /admonition >}}
 

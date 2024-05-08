@@ -1,12 +1,12 @@
-{{ $title := .Get 0 | strings.FirstUpper }}
-{{ $options := (dict "markup" "markdown" "display" "block") }}
+{{ $type := .Get 0 | strings.FirstUpper }}
+{{ $options := (dict "markup" "markdown") }}
 
 {{ $icon := "" }}
-    {{ if eq $title "Theorem" }}
+    {{ if eq $type "Theorem" }}
         {{ $icon = "<i class='fa-solid fa-wand-magic-sparkles'></i>" }}
-    {{ else if eq $title "Definition" }}
+    {{ else if eq $type "Definition" }}
         {{ $icon = "<i class='fa-solid fa-book'></i>" }}
-    {{ else if eq $title "Proposition" }}
+    {{ else if eq $type "Proposition" }}
         {{ $icon = "<i class='fa-solid fa-calculator'></i>" }}
     {{ else }}
         {{ $icon = "<i class='fa-solid fa-question'></i>" }}
@@ -15,9 +15,10 @@
 
 <div class="ad">
     {{ if (.Get 1) }}
-        {{ $icon }} <b>{{ $title }} ({{ .Get 1 }}).</b>
+        {{ $icon }} <b>{{ $type }} ({{ .Get 1 }}).</b>
     {{ else }}
-        {{ $icon }} <b>{{ $title }}.</b>
+        {{ $icon }} <b>{{ $type }}.</b>
     {{ end }}
+
     {{ .Inner | .Page.RenderString $options }}
 </div>

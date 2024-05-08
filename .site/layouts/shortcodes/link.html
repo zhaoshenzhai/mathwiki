@@ -3,10 +3,11 @@
 {{ $link := absURL $path }}
 {{ $name := $path }}
 
-{{ if eq $type "dag" }} {{ $name = "$\\!\\!^\\dagger$" }} {{ end }}
+{{ if eq $type "dag" }}
+    {{ $name = "$\\!\\!^\\dagger$" }}
+    {{ if .Parent }}
+        {{ $name = "$\\\\!\\\\!^\\dagger$" }}
+    {{ end }}
+{{ end }}
 
-<a href={{ $link }} class="internalLink {{ $type }}"
-    onmouseover="previewSide({{ $link }});",
-    onmouseleave="clearPreviewSide();",
-    onclick="updateCurrentSide(event, {{ $link }});"
->{{ $name }}</a>{{- "" -}}
+<a href={{ $link }} class="internalLink {{ $type }}" onmouseover="previewSide({{ $link }});" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, {{ $link }});">{{ $name }}</a>{{- "" -}}
