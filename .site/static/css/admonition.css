@@ -1,0 +1,16 @@
+.ad {
+    background-color: rgba(0,0,0,0.05);
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.ad p {
+    font-style: italic;
+    display: inline;
+    margin: 0;
+}
+
+.ad ol {
+    font-style: italic;
+    margin: 10px;
+}

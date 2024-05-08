@@ -4,6 +4,8 @@
     <script src="{{ absURL "" }}js/preview.js" defer></script>
 
     <link rel="stylesheet" href="{{ absURL "" }}css/atomic.css">
+    <link rel="stylesheet" href="{{ absURL "" }}css/preview.css">
+    <link rel="stylesheet" href="{{ absURL "" }}css/admonition.css">
 
     <div id="content" class="left">
         <h1>{{ .Title }}</h1>
@@ -19,14 +21,10 @@
             <div id="links">Links:
                 <button id="definitions">Definitions</button>
                 <button id="proofs">Proofs</button>
-                <button id="proofs">Proofs</button>
-                <button id="proofs">Proofs</button>
-                <button id="proofs">Proofs</button>
-                <button id="proofs">Proofs</button>
             </div>
         </div>
         <div id="preview">
-            <button id="resetSide" class="button" onclick="resetSide();" style="display: none;">
+            <button id="resetSide" onclick="resetSide();" style="display: none;">
                 <i class="fa-solid fa-xmark"></i>
             </button>
         </div>
