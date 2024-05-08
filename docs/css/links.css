@@ -9,3 +9,7 @@ a:link, a:visited, a:active {
 a:hover {
     color: rgba(0,0,255,1);
 }
+
+.dagger {
+    margin-left: -8px;
+}

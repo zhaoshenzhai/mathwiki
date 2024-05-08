@@ -55,7 +55,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/first/</link>
       <pubDate>Tue, 30 Apr 2024 21:05:23 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/first/</guid>
-      <description>Hey bold italics (bold italics) $\R$.&#xA;A link to second.&#xA;A link to first.&#xA;Definitions: definition1, definition2, definition3&#xA;Proofs: proof1, proof2&#xA;Since $\phi$, we have $\!\!^\dagger$ $\psi$&#xA;An equation: $$\begin{equation} \int_0^1F(x)\,\d x=f(1)-f(0). \end{equation}$$&#xA;Here is a named theorem.&#xA;Theorem (Ryll-Nardzewski on $\aleph_0$-categoricity). Let $T$ be a countable complete $\mc{L}$-theory with infinite models. Then $T$ is $\aleph_0$-categorical iff any one of the following holds.&#xA;There is a countable model $\mc{M}\models T$ such that for each $n&amp;lt;\omega$, the action $$\begin{equation} \gamma:\Aut\mc{M}\act M^n \end{equation}$$ has finitely-many orbits.</description>
+      <description>Hey bold italics (bold italics) $\R$.&#xA;A link to second.&#xA;A link to first.&#xA;Definitions: definition1, definition2, definition3&#xA;Proofs: proof1, proof2&#xA;Since $\phi$, we have $^\dagger$ $\psi$&#xA;An equation: $$\begin{equation} \int_0^1F(x)\,\d x=f(1)-f(0). \end{equation}$$&#xA;Here is a named theorem.&#xA;Theorem (Ryll-Nardzewski on $\aleph_0$-categoricity). Let $T$ be a countable complete $\mc{L}$-theory with infinite models. Then $T$ is $\aleph_0$-categorical iff any one of the following holds.&#xA;There is a countable model $\mc{M}\models T$ such that for each $n&amp;lt;\omega$, the action $$\begin{equation} \gamma:\Aut\mc{M}\act M^n \end{equation}$$ has finitely-many orbits.</description>
     </item>
   </channel>
 </rss>

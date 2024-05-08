@@ -4,10 +4,8 @@
 {{ $name := $path }}
 
 {{ if eq $type "dag" }}
-    {{ $name = "$\\!\\!^\\dagger$" }}
-    {{ if .Parent }}
-        {{ $name = "$\\\\!\\\\!^\\dagger$" }}
-    {{ end }}
+    {{ $name = "$^\\dagger$" }}
+    {{ $type = printf "%s %s" $type "dagger" }}
 {{ end }}
 
 <a href={{ $link }} class="internalLink {{ $type }}" onmouseover="previewSide({{ $link }});" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, {{ $link }});">{{ $name }}</a>{{- "" -}}
