@@ -56,7 +56,7 @@ function updateCurrentSide(e, link) {
         }
 
         e.preventDefault();
-    }
+    } else { window.open(link, "_blank"); e.preventDefault(); }
 }
 
 function clearPreviewSide() {
