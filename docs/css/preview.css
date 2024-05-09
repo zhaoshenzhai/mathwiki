@@ -2,19 +2,21 @@
     position: fixed;
     right: 3%;
     z-index: 100;
-    font-size: 30px;
     padding: 0;
     margin-top: 40px;
-    height: 30px;
-    width: 30px;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: rgba(255,255,255,0.5);
-    color: rgba(0,0,0,0.5);
 }
 
-#resetSide:hover {
-    color: rgba(0,0,0,1);
+#resetSide img {
+    opacity: 0.5;
+    height: 30px;
+    width: 30px;
+}
+
+#resetSide img:hover {
+    opacity: 1;
 }
 
 .frame {
