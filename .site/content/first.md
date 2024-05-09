@@ -33,7 +33,7 @@ has finitely-many orbits.
 2. For each $n<\omega$, the type space $S_n(T)$ is finite.
 3. For each $n<\omega$, every $p\in S_n(T)$ is isolated.
 
-In any case, the action $\gamma:\Aut\mc{M}\act M^n$ is oligomorphic for any $\mc{M}\models T$, and its finitely-many orbits correspond to the types in $S_n(T)$.
+In any case, the action $\gamma$ is oligomorphic for any countable $\mc{M}\models T$, and its finitely-many orbits correspond to the types in $S_n(T)$.
 
 {{< /env >}}
 
