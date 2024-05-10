@@ -48,9 +48,14 @@
 
             <div id="references">References:</div>
             <div id="tags">Tags:</div>
-            <div id="metaLinks">Links:
-                <button onclick="expandMetaLinks();">Expand All</button>
-                <button onclick="collapseMetaLinks();">Collapse All</button>
+            <div>Links:
+                <button class="metaButton" onclick="expandMetaLinks();">
+                    Expand All
+                </button> |
+                <button class="metaButton" onclick="collapseMetaLinks();">
+                    Collapse All
+                </button>
+                <div id="metaLinks"></div>
             </div>
         </div>
         <div id="preview">

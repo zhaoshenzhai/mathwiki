@@ -26,6 +26,7 @@ h1 {
     border: none;
     border-radius: 10px;
     padding: 5px 20px;
+    margin: 5px 0px;
     width: 100%;
     text-align: left;
     background-color: white;
@@ -36,11 +37,26 @@ h1 {
 }
 
 .metaLinkList {
-    padding: 0 18px;
+    padding: 0 30px;
+    margin: 0;
     background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+
+.metaButton {
+    font-family: cmu;
+    font-size: 20px;
+    z-index: 100;
+    padding: 2px 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.metaButton:hover {
+    background-color: var(--box-bg);
 }
 
 .left {

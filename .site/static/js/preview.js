@@ -127,7 +127,11 @@ function fadeOut(element, remove) {
         element.style.opacity = i;
         i -= fadeAmount;
         if (i <= 0) {
-            remove ? element.remove() : element.style.opacity = 0;
+            if (remove && element != defaultSide) {
+                element.remove();
+            } else {
+                element.style.opacity = 0;
+            }
             clearInterval(timer);
         }
     });
