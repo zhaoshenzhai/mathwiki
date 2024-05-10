@@ -1,8 +1,17 @@
+import { expandMetaLinks } from "./metadata.js";
+
 window.MathJax = {
     tex: { inlineMath: [['$', '$']] },
     svg: { fontCache: 'global' },
     processEscapes: true,
-    processEnvironments: true
+    processEnvironments: true,
+    startup: {
+        pageReady() {
+            return MathJax.startup.defaultPageReady().then(function () {
+                init();
+            });
+        }
+    }
 };
 
 (function() {
@@ -18,3 +27,7 @@ window.MathJax = {
             document.head.appendChild(script);
         });
 })();
+
+function init() {
+    expandMetaLinks();
+}

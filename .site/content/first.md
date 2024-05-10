@@ -1,6 +1,7 @@
 ---
 title: 'First'
 date: 2024-04-30 21:05:23
+mathLink: $\mc{F}\textrm{irst}$
 ---
 
 Hey **bold** *italics* ***(bold italics)*** $\R$.
@@ -41,7 +42,7 @@ Here is a definition.
 
 {{< env "definition" >}}
 
-A topological space $X$ is said to be **Polish** if it is {{< link "separable" "types" >}} and completely-metrizable {{< link "first" "types" "dag" >}}.
+A topological space $X$ is said to be **Polish** if it is {{< link "second" "types" >}} and completely-metrizable {{< link "first" "types" "dag" >}}.
 
 {{< /env >}}
 

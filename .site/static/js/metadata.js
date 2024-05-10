@@ -16,8 +16,8 @@ for (var i = 0; i < outgoingLinks.length; i++) {
 // Toggle metaLinks listener
 for(var [key, val] of Object.entries(metaLinkTypesDict)) {
     val.addEventListener("click", function() { toggleMetaLink(this); });
-} expandMetaLinks();
-function expandMetaLinks() {
+}
+export function expandMetaLinks() {
     for(var [key, val] of Object.entries(metaLinkTypesDict)) {
         expandMetaLink(val);
     }
@@ -80,7 +80,13 @@ function newMetaLinkType(linkType) {
 function newMetaLink(link) {
     var metaLink = document.createElement("a");
     metaLink.setAttribute("href", link.href);
-    metaLink.innerText = link.getAttribute("name");
+
+    var mathLink = link.getAttribute("mathLink");
+    if (mathLink) {
+        metaLink.innerText = link.getAttribute("mathLink");
+    } else {
+        metaLink.innerText = link.getAttribute("title");
+    }
 
     var metaLinkContainer = document.createElement("li");
     metaLinkContainer.appendChild(metaLink);
