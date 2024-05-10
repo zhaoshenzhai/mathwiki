@@ -1,4 +1,4 @@
-h1 {
+h1, body {
     margin: 0;
 }
 
@@ -72,5 +72,5 @@ h1 {
 
 .right {
     width: 45%;
-    right:3%;
+    right: 3%;
 }

@@ -13,7 +13,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/first/</link>
       <pubDate>Tue, 30 Apr 2024 21:05:23 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/first/</guid>
-      <description>Hey bold italics (bold italics) $\R$.&#xA;Links to second:&#xA;Normal $\mc{S}$econd $\int_0^1$. Display custom (second). A link to $\mc{F}$irst.&#xA;Definitions: Definition 1, Definition 2, Definition 3&#xA;Proofs: Proof 1, Proof 2&#xA;Since $\phi$, we have $^\dagger$ $\psi$&#xA;An equation: $$\begin{equation} \int_0^1F(x)\,\d x=f(1)-f(0). \end{equation}$$&#xA;Here is a named theorem.&#xA;Theorem (Ryll-Nardzewski on $\aleph_0$-categoricity). Let $T$ be a countable complete $\mc{L}$-theory with infinite models. Then $T$ is $\aleph_0$-categorical iff any one of the following holds.</description>
+      <description>Hey bold italics (bold italics) $\R$.&#xA;Links to second:&#xA;Normal $\mc{S}$econd $\int_0^1$. Display custom (second). A link to $\mc{F}$irst.&#xA;Definitions: Definition 1, Definition 2, Definition 3&#xA;Proofs: Proof 1, Proof 2&#xA;Since $\phi$, we have $^\dagger$ $\psi$&#xA;An equation: $$\begin{equation} \int_0^1F(x)\,\d x=f(1)-f(0). \end{equation}$$&#xA;Ryll-Nardzewski Theorem Here is a definition.&#xA;Definition. A topological space $X$ is said to be Polish if it is&#xA;$\mc{S}$econd $\int_0^1$ and completely-metrizable&#xA;$^\dagger$.&#xA;A proposition.&#xA;Proposition. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
   </channel>
 </rss>

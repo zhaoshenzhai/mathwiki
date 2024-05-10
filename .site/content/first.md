@@ -1,9 +1,9 @@
 ---
 title: 'First'
 date: 2024-04-30 21:05:23
-mathLink: $\mc{F}$irst
 references: [Mun00, Eng89]
 tags: [Definition]
+mathLink: $\mc{F}$irst
 ---
 
 Hey **bold** *italics* ***(bold italics)*** $\R$.
@@ -25,22 +25,7 @@ $$\begin{equation}
     \int_0^1F(x)\\,\d x=f(1)-f(0).
 \end{equation}$$
 
-Here is a named theorem.
-
-{{< env "theorem" "Ryll-Nardzewski on $\aleph_0$-categoricity" >}}
-
-Let $T$ be a countable complete $\mc{L}$-theory with infinite models. Then $T$ is $\aleph_0$-categorical iff any one of the following holds.
-1. There is a countable model $\mc{M}\models T$ such that for each $n<\omega$, the action
-$$\begin{equation}
-    \gamma:\Aut\mc{M}\act M^n
-\end{equation}$$
-has finitely-many orbits.
-2. For each $n<\omega$, the type space $S_n(T)$ is finite.
-3. For each $n<\omega$, every $p\in S_n(T)$ is isolated.
-
-In any case, the action $\gamma$ is oligomorphic for any countable $\mc{M}\models T$, and its finitely-many orbits correspond to the types in $S_n(T)$.
-
-{{< /env >}}
+{{< link file="ryll-nardzewski_theorem" type="examples" >}}
 
 Here is a definition.
 

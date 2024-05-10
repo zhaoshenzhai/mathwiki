@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang=en-US>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>  MathWiki  </title>
+
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/colors.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/loadMathJax.js" type="module" async defer></script>
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body>
+        
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/metadata.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" defer></script>
+
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/atomic.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+
+    <div id="content" class="left">
+        
+            <h1>Ryll-Nardzewski Theorem</h1>
+        
+        <p>Let $T$ be a countable complete $\mc{L}$-theory with infinite models.</p>
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/ryll-nardzewski_theorem class="internalLink examples" title="Ryll-Nardzewski Theorem" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/ryll-nardzewski_theorem&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/ryll-nardzewski_theorem&#34;);">Ryll-Nardzewski Theorem</a>
+
+
+
+
+<div class="env">
+    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg">
+
+    
+        <b>Theorem (Ryll-Nardzewski).</b>
+    
+
+    <p>Let $T$ be a countable complete $\mc{L}$-theory with infinite models. The following are equivalent.</p>
+<ol>
+<li>$T$ is $\aleph_0$-categorical.</li>
+<li>There is a countable model $\mc{M}\models T$ such that for each $n&lt;\omega$, the action
+$$\begin{equation}
+\gamma:\Aut\mc{M}\act M^n
+\end{equation}$$
+has finitely-many orbits.</li>
+<li>For each $n&lt;\omega$, the type space $S_n(T)$ is finite.</li>
+<li>For each $n&lt;\omega$, every $p\in S_n(T)$ is isolated.</li>
+</ol>
+<p>In any case, the action $\gamma$ is oligomorphic for any countable $\mc{M}\models T$, and its finitely-many orbits correspond to the types in $S_n(T)$.</p>
+
+</div>
+
+<p><em>Proof.</em> We first show that $T$ is $\aleph_0$-categorical iff every countable model of $T$ is atomic (which is equivalent to $3$), and then show that $1\Rightarrow2\Leftrightarrow3\Rightarrow1$.</p>
+<p>  Indeed, suppose that $T$ is $\aleph_0$-categorical. If there is some non-isolated $p\in S_n(T)$, then by the Omitting Types Theorem there is some countable model $\mc{M}\models T$ omitting $p$. But, by Löwenheim-Skolem, $p$ can also be realized in a countable model $\mc{N}\models T$. Clearly $\mc{M}\not\iso\mc{N}$, contradicting the $\aleph_0$-categoricity of $T$. Conversely, since countable atomic models are homogeneous and all isolated types are realized, any two countable models $\mc{M},\mc{N}\models T$ are isomorphic and hence $T$ is $\aleph_0$-categorical.</p>
+<ul>
+<li>($1\Rightarrow2$). First, note that since $\tp^\mc{M}(\vec{a})$ is invariant under $\gamma$ for any $\vec{a}\in M$, there are finitely-many $p\in S_n(T)$ realized in $\mc{M}$. We claim that every type $p\in S_n(T)$ is realized in $\mc{M}$. Indeed, fix a (finite) transversal $F\subseteq M^n$ for $\gamma$. If $p$ is not realized in $\mc{M}$, then for each $\vec{a}\in F$, there is some $\psi_\vec{a}(\vec{x})\in p(\vec{x})$ such that $\mc{M}\not\models\psi_\vec{a}(\vec{a})$. Set $\phi(\vec{x})\coloneqq\bigwedge_{\vec{a}\in F}\psi_\vec{a}(\vec{x})\in p(\vec{x})$, and note that $\mc{M}\models\phi(\vec{a})$ for some $\vec{a}\in M^n$. We may choose $\vec{a}$ to lie in $F$, so $\mc{M}\models\psi_\vec{a}(\vec{a})$, a contradiction.</li>
+<li>($2\Leftrightarrow3$). Since the Lindenbaum-Tarski algebra $\LT_n(T)$ is finite, every $p\in S_n(T)$ is isolated by the conjunction of the (finitely-many) formulas $\phi\in p$. Conversely, if each $p\in S_n(T)$ is isolated, say by $\phi_p(\vec{x})\in\mc{L}$, we have $S_n(T)=\bigcup_p[\phi_p]=\bigcup_p\l\{p\r\}$ and hence $S_n(T)$ is finite by compactness.</li>
+<li>($3\Rightarrow1$). It suffices to show that if $\mc{M}\models T$ is countable and $\vec{a},\vec{b}\in M^n$ realize the same types, then they are in the same orbit of $\gamma$. Indeed, this follows since $\mc{M}$ is atomic, hence homogeneous, so there is an automorphism mapping $\vec{a}\mapsto\vec{b}$.<span style="float:right;">$\blacksquare$</span></li>
+</ul>
+
+    </div>
+
+    <div id="side">
+        <div id="metadata" class="right noScroll">
+            May 10, 2024 | Zhaoshen Zhai
+
+            <div id="references">References:
+                 None 
+            </div>
+            <div id="tags">Tags:
+                
+                    <div class="metaButton metaTag">#Theorem</div>
+                
+            </div>
+
+            <br>
+            <div id="links">Links:
+                <button class="metaButton" onclick="expandMetaLinks();">Expand</button>
+                <button class="metaButton" onclick="collapseMetaLinks();">Collapse</button>
+                <div id="metaLinks"></div>
+            </div>
+        </div>
+        <div id="preview">
+            <button id="resetSide" onclick="resetSide();" style="display: none;">
+                <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
+            </button>
+        </div>
+    </div>
+
+    </body>
+</html>

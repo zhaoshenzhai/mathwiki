@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/definition_3/</loc>
-    <lastmod>2024-05-06T19:11:55-04:00</lastmod>
-  </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
+    <lastmod>2024-05-10T21:05:23+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/ryll-nardzewski_theorem/</loc>
+    <lastmod>2024-05-10T21:05:23+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
+    <lastmod>2024-05-10T21:05:23+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/theorem/</loc>
+    <lastmod>2024-05-10T21:05:23+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/definition_3/</loc>
     <lastmod>2024-05-06T19:11:55-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/definition_2/</loc>
@@ -27,9 +36,6 @@
     <lastmod>2024-04-30T21:05:23+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/first/</loc>
-    <lastmod>2024-04-30T21:05:23+00:00</lastmod>
-  </url><url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
     <lastmod>2024-04-30T21:05:23+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/categories/</loc>

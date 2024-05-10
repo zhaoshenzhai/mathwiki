@@ -1,8 +1,12 @@
 import { expandMetaLinks } from "./metadata.js";
 
 window.MathJax = {
-    tex: { inlineMath: [['$', '$']] },
+    tex: {
+        inlineMath: [['$', '$']],
+        packages: {'[+]': ['mathtools']}
+    },
     svg: { fontCache: 'global' },
+    loader: {load: ['[tex]/mathtools']},
     processEscapes: true,
     processEnvironments: true,
     startup: {
