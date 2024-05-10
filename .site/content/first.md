@@ -6,15 +6,17 @@ mathLink: $\mc{F}$irst
 
 Hey **bold** *italics* ***(bold italics)*** $\R$.
 
-A link to {{< link "second" "types" >}}.
+Links to second:
+- Normal {{< link file="second" type="types" >}}.
+- Display {{< link file="second" display="SECOND" type="types" >}}.
 
-A link to {{< link "first" "types" >}}.
+A link to {{< link file="first" type="types" >}}.
 
-Definitions: {{< link "definition1" "examples" >}}, {{< link "definition2" "examples" >}}, {{< link "definition3" "types" >}}
+Definitions: {{< link file="definition_1" type="examples" >}}, {{< link file="definition_2" type="examples" >}}, {{< link file="definition_3" type="types" >}}
 
-Proofs: {{< link "proof1" "examples" >}}, {{< link "proof2" "types" >}}
+Proofs: {{< link file="proof_1" type="examples" >}}, {{< link file="proof_2" type="types" >}}
 
-Since $\phi$, we have {{< link "second" "examples" "dag" >}} $\psi$
+Since $\phi$, we have {{< link file="second" type="examples" mod="dag" >}} $\psi$
 
 An equation:
 $$\begin{equation}
@@ -42,7 +44,7 @@ Here is a definition.
 
 {{< env "definition" >}}
 
-A topological space $X$ is said to be **Polish** if it is {{< link "second" "types" >}} and completely-metrizable {{< link "first" "types" "dag" >}}.
+A topological space $X$ is said to be **Polish** if it is {{< link file="second" type="types" >}} and completely-metrizable {{< link file="first" type="types" mod="dag" >}}.
 
 {{< /env >}}
 

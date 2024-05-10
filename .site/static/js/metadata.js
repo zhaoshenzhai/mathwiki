@@ -2,6 +2,7 @@ var outgoingLinks = document.getElementsByClassName("internalLink");
 
 var metaLinkTypes = document.getElementById("metaLinks");
 var metaLinkTypesDict = {};
+var metaLinkTracker = [];
 
 window.expandMetaLinks=expandMetaLinks;
 window.collapseMetaLinks=collapseMetaLinks;
@@ -10,10 +11,14 @@ window.collapseMetaLinks=collapseMetaLinks;
 for (var i = 0; i < outgoingLinks.length; i++) {
     var link = outgoingLinks[i];
     var linkType = link.classList[1];
-    var metaLinkType = metaLinkTypesDict[linkType];
 
-    if (!metaLinkType) { newMetaLinkType(linkType); }
-    metaLinkType.nextElementSibling.appendChild(newMetaLink(link));
+    if (!metaLinkTracker.includes(linkType + link.href)) {
+        var metaLinkType = metaLinkTypesDict[linkType];
+        if (!metaLinkType) { newMetaLinkType(linkType); }
+
+        metaLinkTracker.push(linkType + link.href);
+        metaLinkType.nextElementSibling.appendChild(newMetaLink(link));
+    }
 }
 
 // Toggle metaLinks listener

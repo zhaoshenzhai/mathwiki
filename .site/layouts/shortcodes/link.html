@@ -1,12 +1,24 @@
-{{ $path := .Get 0 }}
-{{ $type := .Get 1 }}
+{{ $path := .Get "file" }}
+{{ $type := .Get "type" }}
 {{ $link := absURL $path }}
-{{ $name := $path }}
 {{ $page := .Page.GetPage $path }}
+{{ $display := .Get "display" }}
+{{ $mathLink := $page.Params.mathLink }}
 
-{{ if eq (.Get 2) "dag" }}
+{{ $name := "" }}
+{{ if $display }}
+    {{ $name = $display }}
+{{ else }}
+    {{ if $mathLink }}
+        {{ $name = $mathLink }}
+    {{ else }}
+        {{ $name = $page.Title }}
+    {{ end }}
+{{ end }}
+
+{{ if eq (.Get "mod") "dag" }}
     {{ $name = "$^\\dagger$" }}
     {{ $type = printf "%s %s" $type "dag" }}
 {{ end }}
 
-<a href={{ $link }} class="internalLink {{ $type }}" title="{{ $page.Title }}" mathLink="{{ $page.Params.mathLink }}" onmouseover="previewSide({{ $link }});" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, {{ $link }});">{{ $name }}</a>{{- "" -}}
+<a href={{ $link }} class="internalLink {{ $type }}" title="{{ $page.Title }}" mathLink="{{ $mathLink }}" onmouseover="previewSide({{ $link }});" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, {{ $link }});">{{ $name }}</a>{{- "" -}}
