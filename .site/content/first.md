@@ -5,15 +5,15 @@ date: 2024-04-30 21:05:23
 
 Hey **bold** *italics* ***(bold italics)*** $\R$.
 
-A link to {{< link "second" "definition" >}}.
+A link to {{< link "second" "types" >}}.
 
-A link to {{< link "first" "proof" >}}.
+A link to {{< link "first" "types" >}}.
 
-Definitions: {{< link "definition1" "definition" >}}, {{< link "definition2" "definition" >}}, {{< link "definition3" "definition" >}}
+Definitions: {{< link "definition1" "examples" >}}, {{< link "definition2" "examples" >}}, {{< link "definition3" "types" >}}
 
-Proofs: {{< link "proof1" "proof" >}}, {{< link "proof2" "proof" >}}
+Proofs: {{< link "proof1" "examples" >}}, {{< link "proof2" "types" >}}
 
-Since $\phi$, we have {{< link "second" "dag" >}} $\psi$
+Since $\phi$, we have {{< link "second" "examples" "dag" >}} $\psi$
 
 An equation:
 $$\begin{equation}
@@ -41,7 +41,7 @@ Here is a definition.
 
 {{< env "definition" >}}
 
-A topological space $X$ is said to be **Polish** if it is {{< link "separable" "definition" >}} and completely-metrizable {{< link "second" "dag" >}}.
+A topological space $X$ is said to be **Polish** if it is {{< link "separable" "types" >}} and completely-metrizable {{< link "first" "types" "dag" >}}.
 
 {{< /env >}}
 

@@ -20,6 +20,28 @@ h1 {
     background-color: rgba(0,255,0,0.2);
 }
 
+.metaLinkType {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+.metaLinkActive, .metaLinkType:hover {
+    background-color: #ccc;
+}
+
+.metaLinkList {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
 .left {
     width: 45%;
     left: 3%;

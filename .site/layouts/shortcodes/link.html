@@ -3,9 +3,9 @@
 {{ $link := absURL $path }}
 {{ $name := $path }}
 
-{{ if eq $type "dag" }}
+{{ if eq (.Get 2) "dag" }}
     {{ $name = "$^\\dagger$" }}
-    {{ $type = printf "%s %s" $type "dagger" }}
+    {{ $type = printf "%s %s" $type "dag" }}
 {{ end }}
 
-<a href={{ $link }} class="internalLink {{ $type }}" onmouseover="previewSide({{ $link }});" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, {{ $link }});">{{ $name }}</a>{{- "" -}}
+<a href={{ $link }} class="internalLink {{ $type }}" name="{{ $path }}" onmouseover="previewSide({{ $link }});" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, {{ $link }});">{{ $name }}</a>{{- "" -}}
