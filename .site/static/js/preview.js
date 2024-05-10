@@ -11,6 +11,8 @@ var clicked = false;
 var cleared = false;
 
 const fadeInterrupt = new Event("fadeInterrupt");
+const fadeAmount = 0.015;
+const fadeStep = 1;
 
 function previewSide(link) {
     if (currentSide.src != link) {
@@ -23,15 +25,27 @@ function previewSide(link) {
         frameContainer.appendChild(frame);
 
         frame.addEventListener("load", function() {
+            previewReady = true;
             if (!clicked && !cleared) {
                 triggerFadeInterrupt(frame);
                 fadeOut(currentSide, false);
                 fadeOut(resetButton, false);
                 fadeIn(frame);
             }
-
-            previewReady = true;
         });
+    }
+}
+
+function clearPreviewSide() {
+    var preview = getPreview();
+    cleared = true;
+
+    if (preview && previewReady) {
+        triggerFadeInterrupt(preview);
+
+        fadeIn(currentSide);
+        fadeIn(resetButton);
+        fadeOut(preview, true);
     }
 }
 
@@ -55,28 +69,19 @@ function updateCurrentSide(e, link) {
             });
         }
 
-        e.preventDefault();
-    } else { window.open(link, "_blank"); e.preventDefault(); }
-}
+    } else { window.open(link, "_blank"); }
 
-function clearPreviewSide() {
-    var preview = getPreview();
-    cleared = true;
-
-    if (preview && previewReady) {
-        triggerFadeInterrupt(preview);
-
-        fadeIn(currentSide);
-        fadeIn(resetButton);
-        fadeOut(preview, true);
-    }
+    e.preventDefault();
 }
 
 function resetSide() {
-    fadeOut(getActive(), true);
-    fadeOut(resetButton, false);
     currentSide = defaultSide;
     fadeIn(currentSide);
+
+    fadeOut(getActive(), true);
+
+    fadeOut(resetButton, false);
+    resetButton.style.display = "none";
 
     previewReady = false;
     clicked = false;
@@ -116,32 +121,36 @@ function setActiveFrame(newFrame, makeVisible) {
 }
 
 function fadeOut(element, remove) {
-    if (element) {
-        var i = 1;
-        var timer = setInterval(function () {
-            if (i <= 0.1){ interruptFade(timer, element, remove); }
-            if (element) { element.style.opacity = i - 0.1; }
-            i -= i * 0.1;
-        }, 10);
+    if (!element) { return; }
+    var i = Number(element.style.opacity);
+    var timer = setInterval(function () {
+        element.style.opacity = i;
+        i -= fadeAmount;
+        if (i <= 0) {
+            remove ? element.remove() : element.style.opacity = 0;
+            clearInterval(timer);
+        }
+    });
 
-        element.addEventListener("fadeInterrupt", function() {
-            interruptFade(timer, element, remove);
-        });
-    }
+    element.addEventListener("fadeInterrupt", function() {
+        interruptFade(timer, element, remove);
+    });
 }
 function fadeIn(element) {
-    if (element) {
-        var i = 0.1;
-        var timer = setInterval(function () {
-            if (i >= 1){ interruptFade(timer, element, false); }
-            element.style.opacity = i;
-            i += i * 0.1;
-        }, 10);
+    if (!element) { return; }
+    var i = Number(element.style.opacity);
+    var timer = setInterval(function () {
+        element.style.opacity = i;
+        i += fadeAmount;
+        if (i >= 1){
+            element.style.opacity = 1;
+            clearInterval(timer);
+        }
+    }, fadeStep);
 
-        element.addEventListener("fadeInterrupt", function() {
-            interruptFade(timer, element, false);
-        });
-    }
+    element.addEventListener("fadeInterrupt", function() {
+        interruptFade(timer, element, false);
+    });
 }
 
 function triggerFadeInterrupt(previewElem) {
