@@ -19,14 +19,21 @@
         <div id="metadata" class="right noScroll">
             {{ .Params.date | time.Format ":date_long" }} | Zhaoshen Zhai
 
-            <div id="references">References:</div>
-            <div id="tags">Tags:</div>
+            <div id="references">References:
+                {{ range .Params.references }}
+                    <div class="metaButton metaRef">#{{ . }}</div>
+                {{ else }} None {{ end }}
+            </div>
+            <div id="tags">Tags:
+                {{ range .Params.tags }}
+                    <div class="metaButton metaTag">#{{ . }}</div>
+                {{ else }} None {{ end }}
+            </div>
+
             <br>
-            <div>Links:
-                <div id="metaButtons">
-                    <button class="metaButton" onclick="expandMetaLinks();">Expand</button> |
-                    <button class="metaButton" onclick="collapseMetaLinks();">Collapse</button>
-                </div>
+            <div id="links">Links:
+                <button class="metaButton" onclick="expandMetaLinks();">Expand</button>
+                <button class="metaButton" onclick="collapseMetaLinks();">Collapse</button>
                 <div id="metaLinks"></div>
             </div>
         </div>

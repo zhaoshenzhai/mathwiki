@@ -2,13 +2,15 @@
 title: 'First'
 date: 2024-04-30 21:05:23
 mathLink: $\mc{F}$irst
+references: [Mun00, Eng89]
+tags: [Definition]
 ---
 
 Hey **bold** *italics* ***(bold italics)*** $\R$.
 
 Links to second:
 - Normal {{< link file="second" type="types" >}}.
-- Display {{< link file="second" display="SECOND" type="types" >}}.
+- Display {{< link file="second" display="custom (second)" type="examples" >}}.
 
 A link to {{< link file="first" type="types" >}}.
 

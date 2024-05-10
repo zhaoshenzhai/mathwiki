@@ -1,30 +1,36 @@
-var outgoingLinks = document.getElementsByClassName("internalLink");
-
 var metaLinkTypes = document.getElementById("metaLinks");
 var metaLinkTypesDict = {};
-var metaLinkTracker = [];
 
 window.expandMetaLinks=expandMetaLinks;
 window.collapseMetaLinks=collapseMetaLinks;
 
 // Copy links to metadata
-for (var i = 0; i < outgoingLinks.length; i++) {
-    var link = outgoingLinks[i];
-    var linkType = link.classList[1];
+(function init() {
+    var outgoingLinks = document.getElementsByClassName("internalLink");
+    if (outgoingLinks.length == 0) {
+        var links = document.getElementById("links")
+        if (links) { links.innerHTML = "Links: None" }
+    } else {
+        var metaLinkTracker = [];
+        for (var i = 0; i < outgoingLinks.length; i++) {
+            var link = outgoingLinks[i];
+            var linkType = link.classList[1];
 
-    if (!metaLinkTracker.includes(linkType + link.href)) {
-        var metaLinkType = metaLinkTypesDict[linkType];
-        if (!metaLinkType) { newMetaLinkType(linkType); }
+            if (!metaLinkTracker.includes(linkType + link.href)) {
+                var metaLinkType = metaLinkTypesDict[linkType];
+                if (!metaLinkType) { metaLinkType = newMetaLinkType(linkType); }
 
-        metaLinkTracker.push(linkType + link.href);
-        metaLinkType.nextElementSibling.appendChild(newMetaLink(link));
+                metaLinkTracker.push(linkType + link.href);
+                metaLinkType.nextElementSibling.appendChild(newMetaLink(link));
+            }
+        }
+
+        for(var [key, val] of Object.entries(metaLinkTypesDict)) {
+            val.addEventListener("click", function() { toggleMetaLink(this); });
+        }
     }
-}
+})();
 
-// Toggle metaLinks listener
-for(var [key, val] of Object.entries(metaLinkTypesDict)) {
-    val.addEventListener("click", function() { toggleMetaLink(this); });
-}
 export function expandMetaLinks() {
     for(var [key, val] of Object.entries(metaLinkTypesDict)) {
         expandMetaLink(val);
@@ -83,7 +89,7 @@ function newMetaLinkType(linkType) {
     metaLinkTypes.insertBefore(newLinkType, newLinkList.nextSibling);
     metaLinkTypes.appendChild(newLinkList);   
 
-    metaLinkType = metaLinkTypesDict[linkType];
+    return metaLinkTypesDict[linkType];
 }
 function newMetaLink(link) {
     var metaLink = document.createElement("a");

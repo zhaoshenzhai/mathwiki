@@ -16,6 +16,7 @@
 }
 
 #resetSide img:hover {
+    cursor: pointer;
     opacity: 1;
 }
 
