@@ -1,11 +1,11 @@
-*.aux
-*.fdb_latexmk
-*.fls
-*.log
-*.out
-*.pdf
-*.synctex.gz
-*.svg
+Images/*/*.aux
+Images/*/*.fdb_latexmk
+Images/*/*.fls
+Images/*/*.log
+Images/*/*.out
+Images/*/*.pdf
+Images/*/*.synctex.gz
+Images/*/*.svg
 
 .site/public
 
