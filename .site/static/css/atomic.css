@@ -17,21 +17,22 @@ h1 {
     height: 87.5%;
     top: 12.5%;
     bottom: 0;
-    background-color: rgba(0,255,0,0.2);
 }
 
 .metaLinkType {
-    color: #444;
+    font-family: cmu;
+    font-size: 23px;
     cursor: pointer;
-    padding: 18px;
-    width: 100%;
     border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    width: 100%;
     text-align: left;
-    outline: none;
+    background-color: white;
 }
 
 .metaLinkActive, .metaLinkType:hover {
-    background-color: #ccc;
+    background-color: var(--box-bg);
 }
 
 .metaLinkList {

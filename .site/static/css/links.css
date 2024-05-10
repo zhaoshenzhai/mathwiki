@@ -3,11 +3,11 @@ a {
 }
 
 a:link, a:visited, a:active {
-    color: rgba(0,0,255,0.6);
+    color: var(--link);
 }
 
 a:hover {
-    color: rgba(0,0,255,1);
+    color: var(--link-hover);
 }
 
 .dag {

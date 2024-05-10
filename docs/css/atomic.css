@@ -17,7 +17,30 @@ h1 {
     height: 87.5%;
     top: 12.5%;
     bottom: 0;
-    background-color: rgba(0,255,0,0.2);
+}
+
+.metaLinkType {
+    font-family: cmu;
+    font-size: 23px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    width: 100%;
+    text-align: left;
+    background-color: white;
+}
+
+.metaLinkActive, .metaLinkType:hover {
+    background-color: var(--box-bg);
+}
+
+.metaLinkList {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
 
 .left {
