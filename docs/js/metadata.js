@@ -3,6 +3,9 @@ var outgoingLinks = document.getElementsByClassName("internalLink");
 var metaLinkTypes = document.getElementById("metaLinks");
 var metaLinkTypesDict = {};
 
+window.expandMetaLinks=expandMetaLinks;
+window.collapseMetaLinks=collapseMetaLinks;
+
 // Copy links to metadata
 for (var i = 0; i < outgoingLinks.length; i++) {
     var link = outgoingLinks[i];

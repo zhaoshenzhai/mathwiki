@@ -1,7 +1,7 @@
 ---
 title: 'Second'
 date: 2024-05-03T11:18:21-04:00
-mathLink: $\mc{S}\textrm{econd}\ \int_0^1$
+mathLink: $\mc{S}$econd $\int_0^1$
 ---
 
 This is the second file with some math $\R\int_0^1$. {{< link "first" "proof" >}}

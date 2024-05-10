@@ -7,13 +7,17 @@
     <link rel="stylesheet" href="{{ absURL "" }}css/env.css">
 
     <div id="content" class="left">
-        <h1>{{ .Title }}</h1>
+        {{ if .Params.mathLink }}
+            <h1>{{ .Params.mathLink }}</h1>
+        {{ else }}
+            <h1>{{ .Title }}</h1>
+        {{ end }}
         {{ .Content }}
     </div>
 
     <div id="side">
         <div id="metadata" class="right noScroll">
-            {{ .Params.date | time.Format ":date_long" }} | Zhaoshen Zhai<br>
+            {{ .Params.date | time.Format ":date_long" }} | Zhaoshen Zhai
 
             <div id="references">References:</div>
             <div id="tags">Tags:</div>

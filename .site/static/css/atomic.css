@@ -28,11 +28,11 @@ h1 {
 
 .metaLinkType {
     font-family: cmut;
-    font-size: 23px;
+    font-size: 20px;
     cursor: pointer;
     border: none;
     border-radius: 10px;
-    padding: 5px 20px;
+    padding: 5px 0px;
     margin: 5px 0px;
     width: 100%;
     text-align: left;
@@ -40,13 +40,13 @@ h1 {
 }
 
 .metaLinkType .icon {
-    height: 18px;
+    height: 15px;
     transition: rotate 0.2s ease-out;
 }
 
 .metaLinkList {
     font-family: cmu;
-    padding: 0 60px;
+    padding: 0 40px;
     margin: 0;
     background-color: white;
     max-height: 0;

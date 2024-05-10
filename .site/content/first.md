@@ -1,7 +1,7 @@
 ---
 title: 'First'
 date: 2024-04-30 21:05:23
-mathLink: $\mc{F}\textrm{irst}$
+mathLink: $\mc{F}$irst
 ---
 
 Hey **bold** *italics* ***(bold italics)*** $\R$.
