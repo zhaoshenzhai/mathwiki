@@ -32,7 +32,7 @@ For a finite measure space $\tpl{X,\mu}$ and an increasing sequence $P_n$ of $\m
 ```
 ^99-boundedness
 
-<b>Remark.</b> The $\ex n\in\N,\fa_\mu^{99\%}x\in X$ is of course a joke. More precisely, we mean that for every $\epsilon>0$, there is some $n\in\N$ such that $\mu\l(X\comp P_n\r)\leq\epsilon$.<span style="float:right;">$\blacklozenge$</span>
+<b>Remark.</b> The $\ex n\in\N,\fa_\mu^{99\%}x\in P_n(x)$ is of course a joke. More precisely, we mean that for every $\epsilon>0$, there is some $n\in\N$ such that $\mu\l(X\comp P_n\r)\leq\epsilon$.<span style="float:right;">$\blacklozenge$</span>
 
 ---
 
