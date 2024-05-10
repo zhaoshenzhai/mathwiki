@@ -50,18 +50,17 @@
     </div>
 
     <div id="side">
-        <div id="metadata" class="right">
+        <div id="metadata" class="right noScroll">
             May 6, 2024 | Zhaoshen Zhai<br>
 
             <div id="references">References:</div>
             <div id="tags">Tags:</div>
+            <br>
             <div>Links:
-                <button class="metaButton" onclick="expandMetaLinks();">
-                    Expand All
-                </button> |
-                <button class="metaButton" onclick="collapseMetaLinks();">
-                    Collapse All
-                </button>
+                <div id="metaButtons">
+                    <button class="metaButton" onclick="expandMetaLinks();">Expand</button> |
+                    <button class="metaButton" onclick="collapseMetaLinks();">Collapse</button>
+                </div>
                 <div id="metaLinks"></div>
             </div>
         </div>

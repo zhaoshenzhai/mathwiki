@@ -2,25 +2,32 @@ h1 {
     margin: 0;
 }
 
-#content {
-    position: absolute;
-    padding-top: 40px;
+#content, #metadata {
     height: 100%;
     top: 0;
     bottom: 0;
-    /* text-align: justify; */
+    text-align: justify;
+}
+
+#content {
+    position: absolute;
+    padding-top: 60px;
 }
 
 #metadata {
+    font-family: cmut;
     position: fixed;
-    padding: 0;
-    height: 87.5%;
-    top: 12.5%;
-    bottom: 0;
+    padding-top: 70px;
+}
+
+#metaButtons {
+    display: inline;
+    opacity: 0.6;
+    font-size: 18px;
 }
 
 .metaLinkType {
-    font-family: cmu;
+    font-family: cmut;
     font-size: 23px;
     cursor: pointer;
     border: none;
@@ -32,12 +39,14 @@ h1 {
     background-color: white;
 }
 
-.metaLinkActive, .metaLinkType:hover {
-    background-color: var(--box-bg);
+.metaLinkType .icon {
+    height: 18px;
+    transition: rotate 0.2s ease-out;
 }
 
 .metaLinkList {
-    padding: 0 30px;
+    font-family: cmu;
+    padding: 0 60px;
     margin: 0;
     background-color: white;
     max-height: 0;
@@ -46,16 +55,16 @@ h1 {
 }
 
 .metaButton {
-    font-family: cmu;
-    font-size: 20px;
+    font-family: cmut;
+    font-size: 18px;
     z-index: 100;
     padding: 2px 8px;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: white;
 }
 
-.metaButton:hover {
+.metaButton:hover, .metaLinkType:hover {
     background-color: var(--box-bg);
 }
 

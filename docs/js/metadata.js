@@ -31,19 +31,30 @@ function collapseMetaLinks() {
 function toggleMetaLink(metaLink) {
     metaLink.classList.toggle("metaLinkActive");
     var links = metaLink.nextElementSibling;
+    var icon = metaLink.firstChild;
 
-    if (links.style.maxHeight) { links.style.maxHeight = null; }
-    else { links.style.maxHeight = links.scrollHeight + "px"; }
+    if (links.style.maxHeight) {
+        links.style.maxHeight = null;
+        icon.style.rotate = "-90deg";
+    }
+    else {
+        links.style.maxHeight = links.scrollHeight + "px";
+        icon.style.rotate = "0deg";
+    }
 }
 function expandMetaLink(metaLink) {
     metaLink.classList.add("metaLinkActive");
     var links = metaLink.nextElementSibling;
+    var icon = metaLink.firstChild;
     links.style.maxHeight = links.scrollHeight + "px";
+    icon.style.rotate = "0deg";
 }
 function collapseMetaLink(metaLink) {
     metaLink.classList.remove("metaLinkActive");
     var links = metaLink.nextElementSibling;
+    var icon = metaLink.firstChild;
     links.style.maxHeight = null;
+    icon.style.rotate = "-90deg";
 }
 
 function newMetaLinkType(linkType) {
@@ -51,9 +62,14 @@ function newMetaLinkType(linkType) {
     var newLinkList = document.createElement("ul");
 
     newLinkType.setAttribute("id", "l-" + linkType);
-    newLinkType.innerText = firstUpper(linkType);
+    newLinkType.innerText = " " + firstUpper(linkType);
     newLinkType.classList.add("metaLinkType");
     newLinkList.classList.add("metaLinkList");
+
+    var icon = document.createElement("img");
+    icon.setAttribute("src", "../css/fa/list_opened.svg");
+    icon.classList.add("icon");
+    newLinkType.prepend(icon);
 
     metaLinkTypesDict[linkType] = newLinkType;
     metaLinkTypes.insertBefore(newLinkType, newLinkList.nextSibling);
