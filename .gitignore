@@ -9,5 +9,8 @@ Images/*/*.svg
 
 .site/public
 
+.scripts/js/node_modules
+.scripts/js/package_lock.json
+
 .obsidian/workspace.json
 .obsidian/graph.json
