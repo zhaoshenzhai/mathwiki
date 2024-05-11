@@ -1,8 +1,8 @@
 var metaLinkTypes = document.getElementById("metaLinks");
 var metaLinkTypesDict = {};
 
-window.expandMetaLinks=expandMetaLinks;
-window.collapseMetaLinks=collapseMetaLinks;
+window.expandMetaLinks = expandMetaLinks;
+window.collapseMetaLinks = collapseMetaLinks;
 
 // Copy links to metadata
 (function init() {

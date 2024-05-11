@@ -15,8 +15,7 @@ const fadeAmount = 0.015;
 const fadeStep = 1;
 
 function previewSide(link) {
-    if (currentSide.src != link) {
-        getPreview()?.remove();
+    if (currentSide.src != link && (!getPreview() || cleared)) {
         previewReady = false;
         clicked = false;
         cleared = false;
@@ -46,6 +45,9 @@ function clearPreviewSide() {
         fadeIn(currentSide);
         fadeIn(resetButton);
         fadeOut(preview, true);
+
+        previewReady = false;
+        clicked = false;
     }
 }
 
@@ -69,6 +71,8 @@ function updateCurrentSide(e, link) {
             });
         }
 
+        cleared = false;
+        previewReady = false;
     } else { window.open(link, "_blank"); }
 
     e.preventDefault();
