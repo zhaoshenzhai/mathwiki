@@ -16,6 +16,7 @@ const fadeStep = 1;
 
 function previewSide(link) {
     if (currentSide.src != link && (!getPreview() || cleared)) {
+        getPreview()?.remove();
         previewReady = false;
         clicked = false;
         cleared = false;
@@ -45,9 +46,6 @@ function clearPreviewSide() {
         fadeIn(currentSide);
         fadeIn(resetButton);
         fadeOut(preview, true);
-
-        previewReady = false;
-        clicked = false;
     }
 }
 
@@ -70,9 +68,6 @@ function updateCurrentSide(e, link) {
                 setActiveFrame(preview, true);
             });
         }
-
-        cleared = false;
-        previewReady = false;
     } else { window.open(link, "_blank"); }
 
     e.preventDefault();
@@ -121,6 +116,7 @@ function setActiveFrame(newFrame, makeVisible) {
     resetButton.style.display = "inline";
 
     if (makeVisible) { fadeIn(currentSide); }
+    resetButton.dispatchEvent(fadeInterrupt);
     fadeIn(resetButton);
 }
 
