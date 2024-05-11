@@ -29,6 +29,8 @@ $$\begin{equation}
 
 Here is a definition.
 
+> This is a quote. Is it though? {{< link file="second" type="types" >}}. Hi {{< link file="ryll-nardzewski_theorem" type="examples" mod="dag" >}}
+
 {{< env "definition" >}}
 
 A topological space $X$ is said to be **Polish** if it is {{< link file="second" type="types" >}} and completely-metrizable {{< link file="first" type="types" mod="dag" >}}.
@@ -36,6 +38,9 @@ A topological space $X$ is said to be **Polish** if it is {{< link file="second"
 {{< /env >}}
 
 A proposition.
+
+{{< env "proposition" >}}
+{{< /env >}}
 
 {{< env "proposition" >}}
 {{< /env >}}

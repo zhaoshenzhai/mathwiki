@@ -1,5 +1,13 @@
-h1, body {
+body, h1, p {
     margin: 0;
+}
+
+blockquote {
+    opacity: 0.6;
+    border-left: 3px solid var(--quote);
+    border-radius: 1px;
+    margin: 10px;
+    padding: 0.5em 10px;
 }
 
 #content, #metadata {
