@@ -89,12 +89,11 @@ export function searchClear() {
 
 export function searchOpen(newTab) {
     var element = document.getElementById("searchItem" + curSearchItemActive);
-    console.log(element.getAttribute("href"));
-    // if (newTab) {
-    //     window.open(element.getAttribute("href"), "_blank");
-    // } else {
-    //     window.open(element.getAttribute("href"), "_self");
-    // }
+    var path = window.origin + "/mathwiki/" + element.getAttribute("href");
+
+    searchClear();
+    if (newTab) { window.open(path, "_blank"); }
+    else { window.open(path, "_self"); }
 }
 
 function validateInput(e) {

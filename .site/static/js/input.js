@@ -4,6 +4,9 @@ import { resetSide } from "./preview.js"
 var metaKeyDown = false;
 var ctrlKeyDown = false;
 
+window.getMetaKeyDown = getMetaKeyDown;
+window.getCtrlKeyDown = getCtrlKeyDown;
+
 document.addEventListener('keydown', function(e) {
     if (e.key === "Meta") {
         metaKeyDown = true;
@@ -29,3 +32,6 @@ document.addEventListener('keypress', function(e) {
         searchOpen(ctrlKeyDown);
     }
 });
+
+export function getMetaKeyDown() { return metaKeyDown; }
+export function getCtrlKeyDown() { return ctrlKeyDown; }

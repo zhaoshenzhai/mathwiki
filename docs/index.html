@@ -17,7 +17,7 @@
 
         <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
         <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module" defer></script>
-        <script src="https://zhaoshenzhai.github.io/mathwiki/js/keys.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module" defer></script>
 
         <div style="display:none;" id="preamble"></div>
     </head>
@@ -62,7 +62,7 @@
 
         <div id="searchBox" style="display: none;">
             <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
-            <ul id="searchList">
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
                 <li id="searchItem0" onmousemove="searchItemActive(0);"></li>
                 <li id="searchItem1" onmousemove="searchItemActive(1);"></li>
                 <li id="searchItem2" onmousemove="searchItemActive(2);"></li>
