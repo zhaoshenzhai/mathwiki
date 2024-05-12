@@ -19,7 +19,7 @@
     padding: 10px;
 
     font-family: cmu;
-    font-size: 20px;
+    font-size: 23px;
 
     background: none;
     border: none;
@@ -47,4 +47,5 @@
 
 #searchList li:hover {
     background-color: var(--box-bg);
+    cursor: pointer;
 }

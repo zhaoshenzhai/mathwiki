@@ -2,44 +2,58 @@ var searchBox = document.getElementById("searchBox");
 var searchBar = document.getElementById("searchBar");
 var searchList = document.getElementById("searchList");
 
-window.searchInit = searchInit;
-window.searchClear = searchClear;
-window.search = search;
+var allFiles, allFileTitles, allFilePaths;
 
+var searchOptions = { includeScore: true, keys: ['title'] }
+var searchLengthCap = 8;
+var searchEngine;
+
+var root = getComputedStyle(document.querySelector(':root'));
+var boxBG = root.getPropertyValue('--box-bg');
+
+var curSearchItemActive = 0;
 export var searchActive = false;
 
-var options = { includeScore: true }
-var searchLengthCap = 8;
-var engine;
+window.search = search;
+window.searchInit = searchInit;
+window.searchOpen = searchOpen;
+window.searchClear = searchClear;
+window.searchItemActive = searchItemActive;
 
 // Extract from allFiles.json
-var allFiles;
-var allFileTitles;
 fetch("/mathwiki/allFiles.json")
     .then(response => response.json())
     .then((data) => {
         allFiles = data;
+        allFilePaths = allFiles.map((x) => x.relPath);
         allFileTitles = allFiles.map((x) => x.title);
-        engine = new Fuse(allFileTitles, options);
+        searchEngine = new Fuse(allFiles, searchOptions);
     });
 
 function search(e) {
-    var input = getInput(e);
+    if (validateInput(e)) {
+        var input = getInput(e);
 
-    if (input.length > 0) {
-        var searchRes = engine.search(input).map((x) => x.item);
-        updateSearchList(searchRes);
-    } else {
-        updateSearchList(allFileTitles);
+        if (input.length > 0) {
+            var searchRes = searchEngine.search(input);
+            var searchResTitles = searchRes.map((x) => x.item.title);
+            var searchResPaths = searchRes.map((x) => x.item.relPath);
+            updateSearchList(searchResTitles, searchResPaths);
+        } else {
+            updateSearchList(allFileTitles, allFilePaths);
+        }
     }
 }
 
-function updateSearchList(newList) {
+function updateSearchList(newList, newListPaths) {
     var length = Math.min(newList.length, searchLengthCap);
+    searchItemActive(0);
+
     for (let i = 0; i < searchLengthCap; i++) {
-        var item = document.getElementById("searchListItem" + i)
+        var item = document.getElementById("searchItem" + i);
         if (i < length) {
             item.innerText = newList[i];
+            item.setAttribute("href", newListPaths[i]);
             item.style.display = "block";
         } else {
             item.innerText = "";
@@ -50,11 +64,20 @@ function updateSearchList(newList) {
     searchBox.style.height = (55 + 40 * length) + "px";
 }
 
+function searchItemActive(newActiveNum) {
+    var oldActive = document.getElementById("searchItem" + curSearchItemActive);
+    oldActive.style.background = "white";
+
+    var newActive = document.getElementById("searchItem" + newActiveNum);
+    newActive.style.background = boxBG;
+
+    curSearchItemActive = newActiveNum;
+}
+
 export function searchInit() {
     searchActive = true;
     searchBox.style.display = "flex";
     searchBar.focus();
-
     search();
 }
 
@@ -64,13 +87,26 @@ export function searchClear() {
     searchBar.value = "";
 }
 
+export function searchOpen(newTab) {
+    var element = document.getElementById("searchItem" + curSearchItemActive);
+    console.log(element.getAttribute("href"));
+    // if (newTab) {
+    //     window.open(element.getAttribute("href"), "_blank");
+    // } else {
+    //     window.open(element.getAttribute("href"), "_self");
+    // }
+}
+
+function validateInput(e) {
+    return !e || /^[a-zA-Z0-9]$/.test(e.key) || e.key === "Backspace";
+}
 function getInput(e) {
     var init = searchBar.value;
 
     if (e) {
         if (/^[a-zA-Z0-9]$/.test(e.key)) {
             init = searchBar.value + e.key;
-        } else if (e.key == "Backspace") {
+        } else if (e.key === "Backspace") {
             init = init.substr(0, init.length - 1);
         }
     }

@@ -13,6 +13,7 @@ function extractAll(callback) {
         if (err) { throw err; }
         for (let i = 0; i < files.length; i++) {
             extract(path + "content/" + files[i], function(data) {
+                data['relPath'] = files[i].substr(0, files[i].length - 3);
                 frontMatterList.push(data);
                 if (i == files.length - 1) { callback(frontMatterList); }
             });
