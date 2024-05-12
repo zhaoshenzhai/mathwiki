@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="{{ absURL "" }}css/nav.css">
 
     <div id="pageContainer">
+        <button id="toggleDark" onclick="toggleDark();" class="navButton">
+            <img src="{{ absURL "" }}css/fa/close.svg">
+        </button>
         <div id="content" class="left">
             {{ if .Params.mathLink }}
                 <h1>{{ .Params.mathLink }}</h1>
@@ -24,19 +27,19 @@
 
                 <div id="references">References:
                     {{ range .Params.references }}
-                        <div class="metaButton metaRef">#{{ . }}</div>
+                        <div class="metaButton metaRef listenDark">#{{ . }}</div>
                     {{ else }} None {{ end }}
                 </div>
                 <div id="tags">Tags:
                     {{ range .Params.tags }}
-                        <div class="metaButton metaTag">#{{ . }}</div>
+                        <div class="metaButton metaTag listenDark">#{{ . }}</div>
                     {{ else }} None {{ end }}
                 </div>
 
                 <br>
                 <div id="links">Links:
-                    <button class="metaButton" onclick="expandMetaLinks();">Expand</button>
-                    <button class="metaButton" onclick="collapseMetaLinks();">Collapse</button>
+                    <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
+                    <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
                     <div id="metaLinks"></div>
                 </div>
             </div>
@@ -47,6 +50,6 @@
             </div>
         </div>
 
-        <div id="footer">hi</div>
+        <div id="footer"></div>
     </div>
 {{ end }}

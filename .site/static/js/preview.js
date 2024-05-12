@@ -116,6 +116,7 @@ function newPreviewFrame(link) {
     frame.addEventListener("load", function() {
         var frameDoc = frame.contentDocument;
         frameDoc.getElementById("side").style.display = "none";
+        frameDoc.getElementById("toggleDark").style.display = "none";
         frameDoc.documentElement.classList.add("noScroll");
 
         frameContent = frameDoc.getElementById("content");

@@ -80,6 +80,7 @@ function newMetaLinkType(linkType) {
     newLinkType.setAttribute("id", "l-" + linkType);
     newLinkType.innerText = " " + firstUpper(linkType);
     newLinkType.classList.add("metaLinkType");
+    newLinkType.classList.add("listenDark");
     newLinkList.classList.add("metaLinkList");
 
     var icon = document.createElement("img");

@@ -1,11 +1,10 @@
 #footer {
     position: absolute;
-    height: 100px;
+    height: 10px;
     bottom: -10;
     padding-top: 50px;
     width: 94%;
     left: 3%;
 
-    background-color: rgba(0,255,0,0.2);
     transition: width 0.1s ease-out;
 }

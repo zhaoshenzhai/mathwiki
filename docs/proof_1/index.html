@@ -11,17 +11,19 @@
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/colors.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/darkMode.css">
 
         <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
 
-        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
-        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module" defer></script>
         <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module" defer></script>
 
         <div style="display:none;" id="preamble"></div>
     </head>
 
-    <body>
+    <body class="listenDark">
         
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/metadata.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
@@ -33,6 +35,9 @@
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/nav.css">
 
     <div id="pageContainer">
+        <button id="toggleDark" onclick="toggleDark();" class="navButton">
+            <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
+        </button>
         <div id="content" class="left">
             
                 <h1>Proof 1</h1>
@@ -75,8 +80,8 @@
 
                 <br>
                 <div id="links">Links:
-                    <button class="metaButton" onclick="expandMetaLinks();">Expand</button>
-                    <button class="metaButton" onclick="collapseMetaLinks();">Collapse</button>
+                    <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
+                    <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
                     <div id="metaLinks"></div>
                 </div>
             </div>
@@ -87,13 +92,24 @@
             </div>
         </div>
 
-        <div id="footer">hi</div>
+        <div id="footer"></div>
     </div>
 
 
         <div id="searchBox" style="display: none;">
             <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
-            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());"></ul>
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" onmouseover="searchItemActive(9)"></li>
+            </ul>
         </div>
     </body>
 </html>

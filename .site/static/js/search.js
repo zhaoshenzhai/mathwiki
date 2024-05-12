@@ -5,7 +5,7 @@ var searchList = document.getElementById("searchList");
 var allFiles, allFileTitles, allFilePaths;
 
 var searchOptions = { includeScore: true, keys: ['title'] }
-var searchLengthCap = 8;
+var searchLengthCap = 10;
 var searchEngine;
 
 var root = getComputedStyle(document.querySelector(':root'));
@@ -68,8 +68,8 @@ function searchItemActive(newActiveNum) {
     var oldActive = document.getElementById("searchItem" + curSearchItemActive);
     var newActive = document.getElementById("searchItem" + newActiveNum);
 
-    if (oldActive) { oldActive.style.background = "white"; }
-    if (newActive) { newActive.style.background = boxBG; }
+    oldActive.style.background = "white";
+    newActive.style.background = boxBG;
 
     curSearchItemActive = newActiveNum;
 }
@@ -78,15 +78,6 @@ export function searchInit() {
     searchActive = true;
     searchBox.style.display = "flex";
     searchBar.focus();
-
-    for (var i = 0; i < searchLengthCap; i++) {
-        var item = document.createElement("li");
-        item.setAttribute("id", "searchItem" + i);
-        item.onmousemove = searchItemActive(i);
-
-        searchList.appendChild(item);
-    }
-
     search();
 }
 
@@ -94,7 +85,6 @@ export function searchClear() {
     searchActive = false;
     searchBox.style.display = "none";
     searchBar.value = "";
-    searchList.innerHTML = "";
 }
 
 export function searchOpen(newTab) {

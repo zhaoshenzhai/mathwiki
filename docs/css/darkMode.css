@@ -1,0 +1,16 @@
+.listenDark, p, h1, a {
+    transition: color, background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+}
+
+#toggleDark {
+    top: 20px;
+    left: 0.5%;
+    margin: 0;
+}
+
+#toggleDark img {
+    height: 30px;
+    width: 30px;
+}

@@ -1,4 +1,7 @@
 :root { 
+    --bg: white;
+    --fg: black;
+
     --link: rgba(0,0,255,0.6);
     --link-hover: rgba(0,0,255,0.8);
 

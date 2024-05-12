@@ -10,10 +10,16 @@ window.getCtrlKeyDown = getCtrlKeyDown;
 document.addEventListener('keydown', function(e) {
     if (e.key === "Meta") {
         metaKeyDown = true;
-    } else if(e.key === "Control") {
+    } else if (e.key === "Control") {
         ctrlKeyDown = true;
     } else if (e.key === "Escape") {
         searchActive ? searchClear() : resetSide();
+    } else if (e.key === "Enter") {
+        if (metaKeyDown && !searchActive) {
+            searchInit();
+        } else if (searchActive) {
+            searchOpen(ctrlKeyDown);
+        }
     }
 });
 
@@ -22,14 +28,6 @@ document.addEventListener('keyup', function(e) {
         metaKeyDown = false;
     } else if (e.key === "Control") {
         ctrlKeyDown = false;
-    }
-});
-
-document.addEventListener('keypress', function(e) {
-    if (e.key === "Enter" && metaKeyDown && !searchActive) {
-        searchInit();
-    } else if (e.key === "Enter" && searchActive) {
-        searchOpen(ctrlKeyDown);
     }
 });
 
