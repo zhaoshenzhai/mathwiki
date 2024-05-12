@@ -2,6 +2,7 @@ var mainContent = document.getElementById("content");
 var defaultSide = document.getElementById("metadata");
 var resetButton = document.getElementById("resetSide");
 var frameContainer = document.getElementById("preview");
+var mainContentFooter = document.getElementById("footer");
 
 var currentSide = defaultSide;
 var frameContent;
@@ -51,6 +52,12 @@ function clearPreviewSide() {
         fadeIn(currentSide);
         fadeIn(resetButton);
         fadeOut(preview, true);
+    } else {
+        preview?.remove();
+    }
+
+    if (currentSide == defaultSide) {
+        mainContentFooter.style.width = "94%";
     }
 }
 
@@ -73,6 +80,8 @@ function updateCurrentSide(e, link) {
                 setActiveFrame(preview, true);
             });
         }
+
+        mainContentFooter.style.width = "45%";
     } else { window.open(link, "_blank"); }
 
     document.activeElement.blur();
@@ -88,6 +97,7 @@ export function resetSide() {
 
         fadeOut(resetButton, false);
         resetButton.style.display = "none";
+        mainContentFooter.style.width = "94%";
 
         previewReady = false;
         clicked = false;
@@ -106,14 +116,16 @@ function newPreviewFrame(link) {
     frame.addEventListener("load", function() {
         var frameDoc = frame.contentDocument;
         frameDoc.getElementById("side").style.display = "none";
-        frameDoc.getElementById("footer").style.display = "none";
         frameDoc.documentElement.classList.add("noScroll");
 
         frameContent = frameDoc.getElementById("content");
         frameContent.classList.add("openLinks");
         frameContent.classList.remove("left");
-        frameContent.style.position = "absolute";
         frameContent.style.opacity = "0.6";
+
+        frameDoc.getElementById("footer").style.left = "0";
+        frameDoc.getElementById("footer").style.width = "100%";
+        mainContentFooter.style.width = "45%";
     });
 
     return frame;

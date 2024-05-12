@@ -16,13 +16,13 @@ document.addEventListener("DOMContentLoaded", (e) => {
             var link = outgoingLinks[i];
             var linkType = link.classList[1];
 
-            if (!metaLinkTracker.includes(linkType + link.href)) {
+            // if (!metaLinkTracker.includes(linkType + link.href)) {
                 var metaLinkType = metaLinkTypesDict[linkType];
                 if (!metaLinkType) { metaLinkType = newMetaLinkType(linkType); }
 
                 metaLinkTracker.push(linkType + link.href);
                 metaLinkType.nextElementSibling.appendChild(newMetaLink(link));
-            }
+            // }
         }
 
         for(var [key, val] of Object.entries(metaLinkTypesDict)) {
