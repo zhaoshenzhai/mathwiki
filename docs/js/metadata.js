@@ -16,16 +16,18 @@ document.addEventListener("DOMContentLoaded", (e) => {
             var link = outgoingLinks[i];
             var linkType = link.classList[1];
 
-            // if (!metaLinkTracker.includes(linkType + link.href)) {
+            if (!metaLinkTracker.includes(linkType + link.href)) {
                 var metaLinkType = metaLinkTypesDict[linkType];
                 if (!metaLinkType) { metaLinkType = newMetaLinkType(linkType); }
 
                 metaLinkTracker.push(linkType + link.href);
                 metaLinkType.nextElementSibling.appendChild(newMetaLink(link));
-            // }
+                metaLinkType.nextElementSibling.innerHTML += ", ";
+            }
         }
 
         for(var [key, val] of Object.entries(metaLinkTypesDict)) {
+            val.nextElementSibling.innerHTML = val.nextElementSibling.innerHTML.replace(/,\s$/, "");
             val.addEventListener("click", function() { toggleMetaLink(this); });
         }
     }
@@ -102,10 +104,7 @@ function newMetaLink(link) {
         metaLink.innerText = link.getAttribute("title");
     }
 
-    var metaLinkContainer = document.createElement("li");
-    metaLinkContainer.appendChild(metaLink);
-
-    return metaLinkContainer;
+    return metaLink;
 }
 
 function firstUpper(s) {
