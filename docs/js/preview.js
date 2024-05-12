@@ -14,6 +14,11 @@ const fadeInterrupt = new Event("fadeInterrupt");
 const fadeAmount = 0.015;
 const fadeStep = 1;
 
+window.previewSide = previewSide;
+window.clearPreviewSide = clearPreviewSide;
+window.updateCurrentSide = updateCurrentSide;
+window.resetSide = resetSide;
+
 function previewSide(link) {
     if (currentSide.src != link && (!getPreview() || cleared)) {
         getPreview()?.remove();
@@ -70,21 +75,24 @@ function updateCurrentSide(e, link) {
         }
     } else { window.open(link, "_blank"); }
 
+    document.activeElement.blur();
     e.preventDefault();
 }
 
-function resetSide() {
-    currentSide = defaultSide;
-    fadeIn(currentSide);
+export function resetSide() {
+    if (getActive()) {
+        currentSide = defaultSide;
+        fadeIn(currentSide);
 
-    fadeOut(getActive(), true);
+        fadeOut(getActive(), true);
 
-    fadeOut(resetButton, false);
-    resetButton.style.display = "none";
+        fadeOut(resetButton, false);
+        resetButton.style.display = "none";
 
-    previewReady = false;
-    clicked = false;
-    cleared = false;
+        previewReady = false;
+        clicked = false;
+        cleared = false;
+    }
 }
 
 function newPreviewFrame(link) {

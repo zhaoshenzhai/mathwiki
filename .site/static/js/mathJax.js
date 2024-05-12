@@ -32,6 +32,4 @@ window.MathJax = {
         });
 })();
 
-function init() {
-    expandMetaLinks();
-}
+function init() { expandMetaLinks(); }
