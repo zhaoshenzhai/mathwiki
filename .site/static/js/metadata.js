@@ -5,7 +5,7 @@ window.expandMetaLinks = expandMetaLinks;
 window.collapseMetaLinks = collapseMetaLinks;
 
 // Copy links to metadata
-(function init() {
+document.addEventListener("DOMContentLoaded", (e) => {
     var outgoingLinks = document.getElementsByClassName("internalLink");
     if (outgoingLinks.length == 0) {
         var links = document.getElementById("links")
@@ -29,7 +29,7 @@ window.collapseMetaLinks = collapseMetaLinks;
             val.addEventListener("click", function() { toggleMetaLink(this); });
         }
     }
-})();
+});
 
 export function expandMetaLinks() {
     for(var [key, val] of Object.entries(metaLinkTypesDict)) {
@@ -81,7 +81,7 @@ function newMetaLinkType(linkType) {
     newLinkList.classList.add("metaLinkList");
 
     var icon = document.createElement("img");
-    icon.setAttribute("src", "../css/fa/list_opened.svg");
+    icon.setAttribute("src", "../css/fa/arrow-head.svg");
     icon.classList.add("icon");
     newLinkType.prepend(icon);
 

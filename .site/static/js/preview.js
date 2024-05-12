@@ -106,11 +106,13 @@ function newPreviewFrame(link) {
     frame.addEventListener("load", function() {
         var frameDoc = frame.contentDocument;
         frameDoc.getElementById("side").style.display = "none";
+        frameDoc.getElementById("footer").style.display = "none";
         frameDoc.documentElement.classList.add("noScroll");
 
         frameContent = frameDoc.getElementById("content");
         frameContent.classList.add("openLinks");
         frameContent.classList.remove("left");
+        frameContent.style.position = "absolute";
         frameContent.style.opacity = "0.6";
     });
 

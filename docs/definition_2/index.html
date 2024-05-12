@@ -26,15 +26,18 @@
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/metadata.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
 
-    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/footer.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/nav.css">
 
-    <div id="content" class="left">
-        
-            <h1>Definition 2</h1>
-        
-        <p>This is another definition 
+    <div id="pageContainer">
+        <div id="content" class="left">
+            
+                <h1>Definition 2</h1>
+            
+            <p>This is another definition 
 
 
 
@@ -57,46 +60,40 @@
 <p>Vel turpis nunc eget lorem dolor sed. Adipiscing tristique risus nec feugiat in fermentum posuere urna nec. Eu turpis egestas pretium aenean pharetra magna. Senectus et netus et malesuada fames ac turpis egestas integer. Id porta nibh venenatis cras sed felis eget. Nunc mi ipsum faucibus vitae aliquet. Nam at lectus urna duis convallis convallis tellus. Cras fermentum odio eu feugiat pretium nibh ipsum. Consequat interdum varius sit amet mattis vulputate enim. Morbi tincidunt ornare massa eget egestas purus. Risus nec feugiat in fermentum posuere urna nec. Maecenas accumsan lacus vel facilisis volutpat est velit. Tellus mauris a diam maecenas sed enim. Dui accumsan sit amet nulla facilisi morbi tempus iaculis urna. Tincidunt tortor aliquam nulla facilisi cras fermentum. Tortor at auctor urna nunc id.</p>
 <p>Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Ac turpis egestas sed tempus urna et pharetra pharetra. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Aliquet enim tortor at auctor. Vitae elementum curabitur vitae nunc. Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Turpis cursus in hac habitasse platea dictumst quisque sagittis purus. In fermentum et sollicitudin ac orci phasellus egestas. Integer malesuada nunc vel risus commodo viverra. Fames ac turpis egestas maecenas pharetra convallis posuere morbi. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Porttitor leo a diam sollicitudin tempor. Leo integer malesuada nunc vel. Ornare arcu odio ut sem nulla pharetra diam sit. In arcu cursus euismod quis. Amet justo donec enim diam vulputate. At risus viverra adipiscing at in tellus integer feugiat. Ut venenatis tellus in metus vulputate.</p>
 
-    </div>
+        </div>
 
-    <div id="side">
-        <div id="metadata" class="right noScroll">
-            May 6, 2024 | Zhaoshen Zhai
+        <div id="side">
+            <div id="metadata" class="right noScroll">
+                May 6, 2024 | Zhaoshen Zhai
 
-            <div id="references">References:
-                 None 
+                <div id="references">References:
+                     None 
+                </div>
+                <div id="tags">Tags:
+                     None 
+                </div>
+
+                <br>
+                <div id="links">Links:
+                    <button class="metaButton" onclick="expandMetaLinks();">Expand</button>
+                    <button class="metaButton" onclick="collapseMetaLinks();">Collapse</button>
+                    <div id="metaLinks"></div>
+                </div>
             </div>
-            <div id="tags">Tags:
-                 None 
-            </div>
-
-            <br>
-            <div id="links">Links:
-                <button class="metaButton" onclick="expandMetaLinks();">Expand</button>
-                <button class="metaButton" onclick="collapseMetaLinks();">Collapse</button>
-                <div id="metaLinks"></div>
+            <div id="preview">
+                <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
+                    <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
+                </button>
             </div>
         </div>
-        <div id="preview">
-            <button id="resetSide" onclick="resetSide();" style="display: none;">
-                <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
-            </button>
-        </div>
+
+        <div id="footer">hi</div>
     </div>
 
 
         <div id="searchBox" style="display: none;">
             <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
-            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
-                <li id="searchItem0" onmousemove="searchItemActive(0);"></li>
-                <li id="searchItem1" onmousemove="searchItemActive(1);"></li>
-                <li id="searchItem2" onmousemove="searchItemActive(2);"></li>
-                <li id="searchItem3" onmousemove="searchItemActive(3);"></li>
-                <li id="searchItem4" onmousemove="searchItemActive(4);"></li>
-                <li id="searchItem5" onmousemove="searchItemActive(5);"></li>
-                <li id="searchItem6" onmousemove="searchItemActive(6);"></li>
-                <li id="searchItem7" onmousemove="searchItemActive(7);"></li>
-            </ul>
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());"></ul>
         </div>
     </body>
 </html>

@@ -66,10 +66,10 @@ function updateSearchList(newList, newListPaths) {
 
 function searchItemActive(newActiveNum) {
     var oldActive = document.getElementById("searchItem" + curSearchItemActive);
-    oldActive.style.background = "white";
-
     var newActive = document.getElementById("searchItem" + newActiveNum);
-    newActive.style.background = boxBG;
+
+    if (oldActive) { oldActive.style.background = "white"; }
+    if (newActive) { newActive.style.background = boxBG; }
 
     curSearchItemActive = newActiveNum;
 }
@@ -78,6 +78,15 @@ export function searchInit() {
     searchActive = true;
     searchBox.style.display = "flex";
     searchBar.focus();
+
+    for (var i = 0; i < searchLengthCap; i++) {
+        var item = document.createElement("li");
+        item.setAttribute("id", "searchItem" + i);
+        item.onmousemove = searchItemActive(i);
+
+        searchList.appendChild(item);
+    }
+
     search();
 }
 
@@ -85,6 +94,7 @@ export function searchClear() {
     searchActive = false;
     searchBox.style.display = "none";
     searchBar.value = "";
+    searchList.innerHTML = "";
 }
 
 export function searchOpen(newTab) {

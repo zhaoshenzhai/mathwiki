@@ -1,0 +1,20 @@
+.navButton {
+    position: fixed;
+    z-index: 100;
+    padding: 0;
+    margin-top: 40px;
+    border: none;
+    background: none;
+}
+
+.navButton img {
+    padding: 2px;
+    border-radius: 7px;
+    background-color: var(--nav-button-bg);
+    transition: background-color 0.1s ease-out;
+}
+
+.navButton img:hover {
+    cursor: pointer;
+    background-color: var(--nav-button-hover-bg);
+}

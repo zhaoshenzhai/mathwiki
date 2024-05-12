@@ -1,23 +1,11 @@
 #resetSide {
-    position: fixed;
+    top: 0;
     right: 3%;
-    z-index: 100;
-    padding: 0;
-    margin-top: 40px;
-    border: none;
-    border-radius: 10px;
-    background-color: var(--close-bg);
 }
 
 #resetSide img {
-    opacity: 0.5;
     height: 30px;
     width: 30px;
-}
-
-#resetSide img:hover {
-    cursor: pointer;
-    opacity: 1;
 }
 
 .frame {

@@ -10,21 +10,27 @@ blockquote {
     padding: 0.5em 10px;
 }
 
+#pageContainer {
+    position: relative;
+    min-height: 100vh;
+}
+
 #content, #metadata {
     height: 100%;
     top: 0;
     bottom: 0;
+    padding-bottom: 150px;
     text-align: justify;
 }
 
 #content {
-    position: absolute;
+    position: relative;
     padding-top: 60px;
 }
 
 #metadata {
-    font-family: cmut;
     position: fixed;
+    font-family: cmut;
     padding-top: 70px;
 }
 

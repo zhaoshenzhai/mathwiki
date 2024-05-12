@@ -2,8 +2,9 @@
     --link: rgba(0,0,255,0.6);
     --link-hover: rgba(0,0,255,0.8);
 
-    --close-bg: rgba(255,255,255,0.5);
-    --box-bg: rgba(0,0,0,0.05);
+    --nav-button-bg: rgba(255,255,255,0.5);
+    --nav-button-hover-bg: rgba(200,200,200,0.5);
 
+    --box-bg: rgba(0,0,0,0.05);
     --quote: rgba(0,0,0,0.25);
 } 
