@@ -3,6 +3,9 @@ var darkMode = false;
 const root = document.querySelector(':root');
 const rootC = getComputedStyle(root);
 
+window.toggleDark = toggleDark;
+window.isDark = isDark;
+
 const lightVals = {
     "bg":                  rootC.getPropertyValue("--bg"),
     "fg":                  rootC.getPropertyValue("--fg"),
@@ -25,9 +28,6 @@ const darkVals = {
     "quote":               "rgba(255,255,255,0.25)"
 };
 
-window.toggleDark = toggleDark;
-window.isDark = isDark;
-
 export function toggleDark() {
     var icons = document.getElementsByClassName("icon");
     var navButtons = document.getElementsByClassName("navButton");
@@ -37,7 +37,6 @@ export function toggleDark() {
         for(var [key, val] of Object.entries(lightVals)) {
             root.style.setProperty('--' + key, val);
         }
-
         for (var i = 0; i < icons.length; i++) {
             icons[i].style.filter = "";
         }
@@ -48,7 +47,6 @@ export function toggleDark() {
         for(var [key, val] of Object.entries(darkVals)) {
             root.style.setProperty('--' + key, val);
         }
-
         for (var i = 0; i < icons.length; i++) {
             icons[i].style.filter = "invert(100%)";
         }

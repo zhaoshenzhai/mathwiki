@@ -7,8 +7,9 @@
     left: 25%;
     right: 25%;
 
-    background-color: white;
-    border: 2px solid black;
+    color: var(--fg);
+    background-color: var(--bg);
+    border: 2px solid var(--fg);
     border-radius: 20px;
 }
 
@@ -21,7 +22,8 @@
     font-family: cmu;
     font-size: 23px;
 
-    background: none;
+    color: var(--fg);
+    background-color: var(--bg);
     border: none;
     border-radius: 5px;
     outline: none;
@@ -39,6 +41,9 @@
 #searchList li {
     margin: 0 10px;
     padding: 5px 10px;
+
+    color: var(--fg);
+    background-color: var(--bg);
 
     border: none;
     border-radius: 5px;

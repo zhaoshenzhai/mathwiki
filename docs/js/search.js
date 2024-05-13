@@ -9,7 +9,6 @@ var searchLengthCap = 10;
 var searchEngine;
 
 var root = getComputedStyle(document.querySelector(':root'));
-var boxBG = root.getPropertyValue('--box-bg');
 
 var curSearchItemActive = 0;
 export var searchActive = false;
@@ -66,9 +65,10 @@ function updateSearchList(newList, newListPaths) {
 
 function searchItemActive(newActiveNum) {
     var oldActive = document.getElementById("searchItem" + curSearchItemActive);
-    var newActive = document.getElementById("searchItem" + newActiveNum);
+    oldActive.style.background = "";
 
-    oldActive.style.background = "white";
+    var newActive = document.getElementById("searchItem" + newActiveNum);
+    var boxBG = root.getPropertyValue('--box-bg');
     newActive.style.background = boxBG;
 
     curSearchItemActive = newActiveNum;
