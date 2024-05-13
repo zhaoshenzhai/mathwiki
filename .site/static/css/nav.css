@@ -5,13 +5,14 @@
     margin-top: 40px;
     border: none;
     background: none;
+    transition: filter 0.1s ease-out;
 }
 
 .navButton img {
     padding: 2px;
     border-radius: 7px;
     background-color: var(--nav-button-bg);
-    transition: background-color 0.1s ease-out, filter 0.1s ease-out;
+    transition: background-color 0.1s ease-out;
 }
 
 .navButton img:hover {

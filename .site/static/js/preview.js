@@ -1,3 +1,5 @@
+import { isDark } from "./darkMode.js"
+
 var mainContent = document.getElementById("content");
 var defaultSide = document.getElementById("metadata");
 var resetButton = document.getElementById("resetSide");
@@ -113,11 +115,19 @@ function newPreviewFrame(link) {
     frame.setAttribute("class", "right frame");
     frame.setAttribute("title", "Preview");
 
+
     frame.addEventListener("load", function() {
         var frameDoc = frame.contentDocument;
         frameDoc.getElementById("side").style.display = "none";
-        frameDoc.getElementById("toggleDark").style.display = "none";
         frameDoc.documentElement.classList.add("noScroll");
+
+        var frameDocDark = frameDoc.getElementById("toggleDark");
+        frameDocDark.style.display = "none";
+        if (isDark()) {
+            frameDoc.body.style.transition = "none";
+            frameDoc.offsetHeight;
+            frameDocDark.click();
+        }
 
         frameContent = frameDoc.getElementById("content");
         frameContent.classList.add("openLinks");

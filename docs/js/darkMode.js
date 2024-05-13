@@ -26,15 +26,18 @@ const darkVals = {
 };
 
 window.toggleDark = toggleDark;
+window.isDark = isDark;
 
 export function toggleDark() {
     var icons = document.getElementsByClassName("icon");
     var navButtons = document.getElementsByClassName("navButton");
+    var frames = document.getElementsByClassName("frame");
 
     if (darkMode) {
         for(var [key, val] of Object.entries(lightVals)) {
             root.style.setProperty('--' + key, val);
         }
+
         for (var i = 0; i < icons.length; i++) {
             icons[i].style.filter = "";
         }
@@ -45,6 +48,7 @@ export function toggleDark() {
         for(var [key, val] of Object.entries(darkVals)) {
             root.style.setProperty('--' + key, val);
         }
+
         for (var i = 0; i < icons.length; i++) {
             icons[i].style.filter = "invert(100%)";
         }
@@ -53,5 +57,13 @@ export function toggleDark() {
         }
     }
 
+    for (var i = 0; i < frames.length; i++) {
+        var frameDoc = frames[i].contentDocument;
+        frameDoc.body.style.transition = "";
+        frameDoc.getElementById("toggleDark").click();
+    }
+
     darkMode = !darkMode;
 }
+
+export function isDark() { return darkMode; }
