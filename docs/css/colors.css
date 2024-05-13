@@ -11,3 +11,28 @@
     --box-bg: rgba(0,0,0,0.05);
     --quote: rgba(0,0,0,0.25);
 } 
+
+.listenDark, p, h1, a {
+    transition: color, background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+}
+
+#toggleDark {
+    top: 20px;
+    left: 0.5%;
+    margin: 0;
+}
+
+#toggleDark img {
+    height: 30px;
+    width: 30px;
+}
+
+.icon {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

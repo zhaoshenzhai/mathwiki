@@ -54,7 +54,7 @@ blockquote {
 .metaLinkType .icon {
     height: 13px;
     rotate: -90deg;
-    transition: rotate 0.2s ease-out;
+    transition: rotate 0.2s ease-out, filter 0.1s ease-out;
 }
 
 .metaLinkList {
