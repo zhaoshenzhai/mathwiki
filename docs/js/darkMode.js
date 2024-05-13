@@ -1,4 +1,5 @@
 var toggle = document.getElementById("toggleDark");
+var toggleIcon = document.getElementById("toggleDarkIcon");
 var darkMode = false;
 
 window.toggleDark = toggleDark;
@@ -58,6 +59,7 @@ export function toggleDark(doc, reset, update, frame) {
             navButtons[i].style.filter = "";
         }
 
+        toggleIcon.src = toggleIcon.src.replace(/moon\.svg$/, "sun.svg");
         if (update) { localStorage['darkMode'] = 'light'; }
     } else {
         for(var [key, val] of Object.entries(darkVals)) {
@@ -70,6 +72,7 @@ export function toggleDark(doc, reset, update, frame) {
             navButtons[i].style.filter = "invert(100%)";
         }
 
+        toggleIcon.src = toggleIcon.src.replace(/sun\.svg$/, "moon.svg");
         if (update) { localStorage['darkMode'] = 'dark'; }
     }
 

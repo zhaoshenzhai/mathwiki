@@ -10,7 +10,7 @@
 
     <div id="pageContainer">
         <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
-            <img src="{{ absURL "" }}css/fa/close.svg">
+            <img id="toggleDarkIcon" src="{{ absURL "" }}css/fa/sun.svg">
         </button>
         <div id="content" class="left">
             {{ if .Params.mathLink }}
