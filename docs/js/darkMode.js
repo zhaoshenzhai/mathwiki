@@ -1,10 +1,10 @@
+var toggle = document.getElementById("toggleDark");
 var darkMode = false;
 
-const root = document.querySelector(':root');
-const rootC = getComputedStyle(root);
-
 window.toggleDark = toggleDark;
-window.isDark = isDark;
+
+var root = document.querySelector(':root');
+var rootC = getComputedStyle(root);
 
 const lightVals = {
     "bg":                  rootC.getPropertyValue("--bg"),
@@ -28,10 +28,24 @@ const darkVals = {
     "quote":               "rgba(255,255,255,0.25)"
 };
 
-export function toggleDark() {
-    var icons = document.getElementsByClassName("icon");
-    var navButtons = document.getElementsByClassName("navButton");
-    var frames = document.getElementsByClassName("frame");
+// Init dark
+document.addEventListener("DOMContentLoaded", (e) => {
+    if (localStorage['darkMode'] == "dark") {
+        document.body.style.transition = "none";
+        document.offsetHeight;
+        toggleDark(document, false, false, true);
+    }
+});
+
+export function toggleDark(doc, reset, update, frame) {
+    if (reset) {
+        doc.body.style.transition = "";
+        doc.offsetHeight;
+    }
+
+    var icons = doc.getElementsByClassName("icon");
+    var navButtons = doc.getElementsByClassName("navButton");
+    root = doc.querySelector(':root');
 
     if (darkMode) {
         for(var [key, val] of Object.entries(lightVals)) {
@@ -43,6 +57,8 @@ export function toggleDark() {
         for (var i = 0; i < navButtons.length; i++) {
             navButtons[i].style.filter = "";
         }
+
+        if (update) { localStorage['darkMode'] = 'light'; }
     } else {
         for(var [key, val] of Object.entries(darkVals)) {
             root.style.setProperty('--' + key, val);
@@ -53,15 +69,17 @@ export function toggleDark() {
         for (var i = 0; i < navButtons.length; i++) {
             navButtons[i].style.filter = "invert(100%)";
         }
+
+        if (update) { localStorage['darkMode'] = 'dark'; }
     }
 
-    for (var i = 0; i < frames.length; i++) {
-        var frameDoc = frames[i].contentDocument;
-        frameDoc.body.style.transition = "";
-        frameDoc.getElementById("toggleDark").click();
-    }
+    if (frame) {
+        var frames = doc.getElementsByClassName("frame");
+        for (var i = 0; i < frames.length; i++) {
+            var frameDoc = frames[i].contentDocument;
+            toggleDark(frameDoc, true, false, false);
+        }
 
-    darkMode = !darkMode;
+        darkMode = !darkMode;
+    }
 }
-
-export function isDark() { return darkMode; }
