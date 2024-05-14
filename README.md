@@ -1,12 +1,14 @@
 # MathWiki
 
-An [Obsidian.md](https://obsidian.md) vault for my math course notes in university.
+A statically-generate site to host my math course notes in university, built with [Hugo](https://gohugo.io/) and inspired by [Obsidian.md](https://obsidian.md).
+
+> Work in progress!
 
 These notes are meant to be a distilled version of the math I've learnt where ideas, formulations, and important results are broken down into their atomic components of definitions, propositions, and theorems for clarity, precision, and accessibility.
 
 ## Contents
-* [Note Types and Templates](https://github.com/zhaoshenzhai/MathWiki#pencil2-note-types-and-templates); the basic templates and outgoing links for each type of note.
-* [Configurations and Scripts](https://github.com/zhaoshenzhai/MathWiki#gear-configurations-and-scripts); snippets, plugins, and my bash scripts.
+* [Note Types and Templates](https://github.com/zhaoshenzhai/mathwiki#pencil2-note-types-and-templates); the basic templates and outgoing links for each type of note.
+* [Scripts](https://github.com/zhaoshenzhai/mathwiki#scripts); snippets, plugins, and my bash scripts.
 
 ## Note Types and Templates
 
@@ -29,14 +31,13 @@ Each note is currently one of four types:
     * Specializations: _Reformulations/proofs of instances of `statement`._
     * Generalizations: _Statements and proofs of abstractions of `statement`._
 
-These templates are automatically [inserted][templatesInsert] whenever a note is created. After the links, the main content is written with remarks where appropriate.
+These templates are automatically inserted whenever a note is created. After the links, the main content is written with remarks where appropriate.
 
 ## Scripts
 
-I wrote some bash scripts to (try) maintain the consistency of my notes; [main.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/main.sh) acts as a hub for me to run them.
-* Images are handled by [newTikZ.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/newTikZ.sh), [getCurrentImage.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/getCurrentImage.sh), and [updateImages.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/updateImages.sh); see my workflow [here](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images).
-* Global search and replace, including the ability of excluding additional patterns, is handled by [searchReplace.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/searchReplace.sh).
-* Basic stats of the vault (and updating them below) is handled by [stats.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh).
-* Displaying all links that have yet to be created and all notes that have those links, are handled by [ghost.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/ghost.sh).
+I wrote some bash scripts to (try) maintain the consistency of my notes; [main.sh](https://github.com/zhaoshenzhai/mathwiki/blob/master/.scripts/main.sh) acts as a hub for me to run them.
+* Global search and replace, including the ability of excluding additional patterns, is handled by [searchReplace.sh](https://github.com/zhaoshenzhai/mathwiki/blob/master/.scripts/searchReplace.sh).
+* Basic stats of the site (and updating them below) is handled by [stats.sh](https://github.com/zhaoshenzhai/mathwiki/blob/master/.scripts/stats.sh).
+* Displaying all links that have yet to be created and all notes that have those links, are handled by [ghost.sh](https://github.com/zhaoshenzhai/mathwiki/blob/master/.scripts/ghost.sh).
 
-Some stats: 2 notes, 9 links (ratio: 4.500), 23 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
+Some stats: 2 notes, 9 links (ratio: 4.500), 23 images ([updated](https://github.com/zhaoshenzhai/mathwiki/blob/master/.scripts/stats.sh) every commit).
