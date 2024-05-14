@@ -1,6 +1,6 @@
 # MathWiki
 
-A statically-generate [Hugo](https://gohugo.io/) site to host my math course notes in university, inspired by [Obsidian.md](https://obsidian.md).
+A statically-generated [Hugo](https://gohugo.io/) site to host my math course notes in university, inspired by [Obsidian.md](https://obsidian.md).
 
 These notes are meant to be a distilled version of the math I've learnt where ideas, formulations, and important results are broken down into their atomic components of definitions, propositions, and theorems for clarity, precision, and accessibility.
 
