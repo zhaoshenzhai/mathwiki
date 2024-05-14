@@ -30,7 +30,7 @@ const darkVals = {
 };
 
 // Init dark
-document.addEventListener("DOMContentLoaded", (e) => {
+document.addEventListener("metaLinkReady", () => {
     if (localStorage['darkMode'] == "dark") {
         document.body.style.transition = "none";
         document.offsetHeight;

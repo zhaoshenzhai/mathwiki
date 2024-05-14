@@ -4,6 +4,8 @@ var metaLinkTypesDict = {};
 window.expandMetaLinks = expandMetaLinks;
 window.collapseMetaLinks = collapseMetaLinks;
 
+const metaLinkReady = new Event("metaLinkReady");
+
 // Copy links to metadata
 document.addEventListener("DOMContentLoaded", (e) => {
     metaLinkTypes = document.getElementById("metaLinks");
@@ -32,6 +34,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
             val.addEventListener("click", function() { toggleMetaLink(this); });
         }
     }
+
+    document.dispatchEvent(metaLinkReady);
 });
 
 export function expandMetaLinks() {
@@ -109,6 +113,4 @@ function newMetaLink(link) {
     return metaLink;
 }
 
-function firstUpper(s) {
-    return s.charAt(0).toUpperCase() + s.slice(1);
-}
+function firstUpper(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
