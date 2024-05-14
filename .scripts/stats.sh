@@ -29,15 +29,6 @@ while [ ! -z "$1" ]; do
             sed -i 's/[0-9][0-9]*\simages/'"$numImages"' images/g' README.md
 
             sed -i 's/ratio:\s[0-9]\.[0-9]*/ratio: '"$ratio"'/g' README.md
-
-            templatesInsertLine=$(grep -n "# Templates" $DOTFILES_DIR/config/nvim/UltiSnips/markdown.snippets | sed 's/:.*$//g')
-            sed -i 's|\[templatesInsert\]:.*$|\[templatesInsert\]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/UltiSnips/markdown.snippets#L'"$templatesInsertLine"'|g' README.md
-
-            tikzInsertLine=$(grep -n "newTikZ.sh" $DOTFILES_DIR/config/nvim/config/fileTypeDefaults.vim | sed 's/:.*$//g')
-            sed -i 's|\[tikzInsert\]:.*$|\[tikzInsert\]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/fileTypeDefaults.vim#L'"$tikzInsertLine"'|g' README.md
-
-            pdfLaTeXExecuteLine=$(grep -n "pdflatex -shell-escape image.tex" $DOTFILES_DIR/config/nvim/config/fileTypeDefaults.vim | sed 's/:.*$//g')
-            sed -i 's|\[pdfLaTeXExecute\]:.*$|\[pdfLaTeXExecute\]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/fileTypeDefaults.vim#L'"$pdfLaTeXExecuteLine"'|g' README.md
         ;;
     esac
 shift
