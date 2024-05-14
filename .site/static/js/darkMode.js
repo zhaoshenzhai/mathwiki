@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     if (localStorage['darkMode'] == "dark") {
         document.body.style.transition = "none";
         document.offsetHeight;
-        toggleDark(document, false, false, true);
+        toggleDark(document, false, true, true);
     }
 });
 

@@ -1,4 +1,4 @@
-var metaLinkTypes = document.getElementById("metaLinks");
+var metaLinkTypes;
 var metaLinkTypesDict = {};
 
 window.expandMetaLinks = expandMetaLinks;
@@ -6,6 +6,7 @@ window.collapseMetaLinks = collapseMetaLinks;
 
 // Copy links to metadata
 document.addEventListener("DOMContentLoaded", (e) => {
+    metaLinkTypes = document.getElementById("metaLinks");
     var outgoingLinks = document.getElementsByClassName("internalLink");
     if (outgoingLinks.length == 0) {
         var links = document.getElementById("links")
