@@ -8,4 +8,4 @@ node .scripts/js/extractFM.js
 
 # Hugo
 rm -rf docs
-hugo -d docs
+hugo -d docs --quiet

@@ -21,5 +21,3 @@ If $\mc{T}$ is a topology on $X$, we call the pair $\tpl{X,\mc{T}}$ a **topologi
 {{< /env >}}
 
 From a lattice theory perspective, $\mc{T}$ is an inclusion poset.
-
-{{< link file="hi" display="hi" type="hi" >}} {{< link file="hey" display="hey" type="hey" >}}
