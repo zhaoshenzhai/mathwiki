@@ -4,30 +4,17 @@ cd $MATHWIKI_DIR/Notes
 
 echo ""
 
-allDoubleLinks=$(sed 's/]],\ /]]\n/g' * | grep -Po "\[\[.*\]\]" | sed 's/\[\[//g' | sed 's/\]\]//g' | sed 's/|.*$//g' | sort | uniq)
+allLinks=$(sed 's/\s>}}/ >}}\n/g' * | grep -Po "{{<\slink.*\s>}}" | sed 's/{{<\slink\sfile="//g' | sed 's/".*$//g' | sort | uniq)
+
 while IFS= read -r link; do
-    if [[ ! -f "$link.md" ]] && [[ ! "$link" == Images\/* ]]; then
-        check=1
-
-        doubleLink=$(echo "$link" | sed 's/^/\[\[/g' | sed 's/$/\]\]/g')
-        fileLink=$(echo "$link" | sed 's/#^.*//g')
-        if [[ ! "$link" == "$fileLink" ]]; then
-            id=$(echo "$doubleLink" | sed 's/\]\]//g' | sed 's/\[\[.*#^//g')
-            if [[ -f "$fileLink.md" ]] && [[ $(grep "\^$id$" "$fileLink.md") ]]; then
-                check=0
-            fi
-        fi
-
-        if [[ $check == 1 ]]; then
-            echo -e "    ${PURPLE}$doubleLink${NC}"
-            appearsIn=$(grep --color -il "$(echo "$doubleLink" | sed 's/\[\[/\\[\\[/g' | sed 's/\]\]/\\]\\]/g')" *)
-            while IFS= read -r file; do
-                file=$(echo "$file" | sed 's/.md//g')
-                echo "        $file"
-            done <<< "$appearsIn"
-        fi
+    if [[ ! -f "$link.md" ]]; then
+        echo -e "    ${PURPLE}$link${NC}"
+        appearsIn=$(grep --color -il "$(echo "$link" | sed 's/^/{{< link file="/g' | sed 's/$/"/g')" *)
+        while IFS= read -r file; do
+            echo "        $file"
+        done <<< "$appearsIn"
     fi
-done <<< "$allDoubleLinks"
+done <<< "$allLinks"
 
 allLinkedImages=$(grep -P "Images/" * | sed 's/^.*Images\///g' | sed 's/\/image\.svg.*//g' | sort | uniq)
 allActualImages=$(ls "$MATHWIKI_DIR/Images/" | sort | uniq)
