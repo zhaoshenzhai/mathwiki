@@ -7,7 +7,7 @@ Images/*/*.pdf
 Images/*/*.synctex.gz
 Images/*/*.svg
 
-.site/public
+Site/.local
 
 .hugo_build.lock
 
