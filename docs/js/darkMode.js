@@ -20,7 +20,7 @@ const lightVals = {
 
 const darkVals = {
     "bg":                  "rgb(30,33,39)",
-    "fg":                  "rgb(240,240,240)",
+    "fg":                  "rgb(220,220,220)",
     "link":                "rgb(86,182,194)",
     "link-hover":          "rgb(99,210,224)",
     "nav-button-bg":       "rgb(200,200,200,0.2)",
