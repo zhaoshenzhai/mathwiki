@@ -1,10 +1,10 @@
 # MathWiki
 
-A statically-generate site to host my math course notes in university, built with [Hugo](https://gohugo.io/) and inspired by [Obsidian.md](https://obsidian.md).
-
-> Work in progress!
+A statically-generate [Hugo](https://gohugo.io/) site to host my math course notes in university, inspired by [Obsidian.md](https://obsidian.md).
 
 These notes are meant to be a distilled version of the math I've learnt where ideas, formulations, and important results are broken down into their atomic components of definitions, propositions, and theorems for clarity, precision, and accessibility.
+
+> Work in progress!
 
 ## Contents
 * [Note Types and Templates](https://github.com/zhaoshenzhai/mathwiki#pencil2-note-types-and-templates); the basic templates and outgoing links for each type of note.

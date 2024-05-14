@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo ""
 cd $MATHWIKI_DIR
 
 # Generate allFiles.json
