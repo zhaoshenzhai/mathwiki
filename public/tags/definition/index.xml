@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Definition on MathWiki</title>
+    <link>http://localhost:45481/mathwiki/tags/definition/</link>
+    <description>Recent content in Definition on MathWiki</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2024 21:05:23 +0000</lastBuildDate>
+    <atom:link href="http://localhost:45481/mathwiki/tags/definition/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>http://localhost:45481/mathwiki/first/</link>
+      <pubDate>Tue, 30 Apr 2024 21:05:23 +0000</pubDate>
+      <guid>http://localhost:45481/mathwiki/first/</guid>
+      <description>Hey bold italics (bold italics) $\R$.&#xA;Links to second:&#xA;Normal . Display custom (second). A link to $\mc{F}$irst.&#xA;Definitions: , , Proofs: , Since $\phi$, we have $^\dagger$ $\psi$&#xA;An equation: $$\begin{equation} \int_0^1F(x)\,\d x=f(1)-f(0). \end{equation}$$&#xA;Here is a definition.&#xA;This is a quote. Is it though? . Hi $^\dagger$&#xA;Definition. A topological space $X$ is said to be Polish if it is&#xA;and completely-metrizable&#xA;$^\dagger$.&#xA;A proposition.&#xA;Proposition. Proposition. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+  </channel>
+</rss>

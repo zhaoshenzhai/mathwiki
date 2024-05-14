@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MathWiki</title>
+    <link>http://localhost:1313/mathwiki/</link>
+    <description>Recent content on MathWiki</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 May 2024 14:45:50 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Topological Space</title>
+      <link>http://localhost:1313/mathwiki/topological_space/</link>
+      <pubDate>Tue, 14 May 2024 14:45:50 -0400</pubDate>
+      <guid>http://localhost:1313/mathwiki/topological_space/</guid>
+      <description>Let $X$ be a set. We would like to formalize&#xA;We thus make the following&#xA;Definition. Let $X$ be a set. A topology on $X$ is a family $\mc{T}\subseteq\pow(X)$, whose elements are called open sets, subject to the following conditions.&#xA;(Non-trivial). $\em$ and $X$ are in $\mc{T}$. (Closure under $\cup$). For any $\mc{U}\subseteq\mc{T}$, we have $\bigcup\mc{U}\in\mc{T}$. (Closure under finite $\cap$). For any $U_1,U_2\in\mc{T}$, we have $U_1\cap U_2\in\mc{T}$. If $\mc{T}$ is a topology on $X$, we call the pair $\tpl{X,\mc{T}}$ a topological space.</description>
+    </item>
+    <item>
+      <title>First</title>
+      <link>http://localhost:1313/mathwiki/first/</link>
+      <pubDate>Tue, 30 Apr 2024 21:05:23 +0000</pubDate>
+      <guid>http://localhost:1313/mathwiki/first/</guid>
+      <description>Hey bold italics (bold italics) $\R$.&#xA;Links to second:&#xA;Normal . Display custom (second). A link to $\mc{F}$irst.&#xA;Definitions: , , Proofs: , Since $\phi$, we have $^\dagger$ $\psi$&#xA;An equation: $$\begin{equation} \int_0^1F(x)\,\d x=f(1)-f(0). \end{equation}$$&#xA;Here is a definition.&#xA;This is a quote. Is it though? . Hi $^\dagger$&#xA;Definition. A topological space $X$ is said to be Polish if it is&#xA;and completely-metrizable&#xA;$^\dagger$.&#xA;A proposition.&#xA;Proposition. Proposition. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+  </channel>
+</rss>

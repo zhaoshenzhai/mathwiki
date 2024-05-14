@@ -4,16 +4,17 @@ cd $MATHWIKI_DIR
 
 echo ""
 
-# Notes, images, or both
-read -n 1 -ep "$(echo -e "${PURPLE}Restore: [N(otes)/i(mages)/b(oth)]${NC}") " restoreIn
-if [[ "$restoreIn" == "q" ]]; then
-    exit
-fi
-while [[ ! -z "$restoreIn" ]] && [[ ! "$restoreIn" == i ]] && [[ ! "$restoreIn" == b ]]; do
+INPUT() {
     read -n 1 -ep "$(echo -e "${PURPLE}Restore: [N(otes)/i(mages)/b(oth)]${NC}") " restoreIn
     if [[ "$restoreIn" == "q" ]]; then
         exit
     fi
+}
+
+# Notes, images, or both
+INPUT
+while [[ ! -z "$restoreIn" ]] && [[ ! "$restoreIn" == i ]] && [[ ! "$restoreIn" == b ]]; do
+    INPUT
 done
 
 echo ""

@@ -11,16 +11,13 @@ while [[ "$repeat" == "Y" ]]; do
     echo -e "    ${CYAN}(2): Search${NC}"
     echo -e "    ${CYAN}(3): Restore${NC}"
     echo -e "    ${CYAN}(4): Ghost links${NC}"
-    echo -e "    ${CYAN}(5): Mass editing${NC}"
-    echo -e "    ${CYAN}(6): Update images${NC}"
-    echo -e "    ${CYAN}(7): Publish notes${NC}"
-    echo -e "    ${CYAN}(8): Toggle dark mode${NC}"
-    echo -e "    ${CYAN}(9): Reset modify time${NC}"
+    echo -e "    ${CYAN}(5): Update images${NC}"
+    echo -e "    ${CYAN}(6): Publish notes${NC}"
     echo ""
 
     read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-8)]${NC} ")" action
     re='^[0-9]+$'
-    if ( [[ $action =~ $re ]] ) && ( [ "$action" -ge "1" ] && [ "$action" -le "9" ] ) || [[ -z "$action" ]]; then
+    if ( [[ $action =~ $re ]] ) && ( [ "$action" -ge "1" ] && [ "$action" -le "6" ] ) || [[ -z "$action" ]]; then
         if [[ -z "$action" ]]; then
             action="1"
         fi
@@ -39,12 +36,8 @@ while [[ "$repeat" == "Y" ]]; do
         "2") $MATHWIKI_DIR/.scripts/searchReplace.sh ;;
         "3") $MATHWIKI_DIR/.scripts/gitRestore.sh ;;
         "4") $MATHWIKI_DIR/.scripts/ghostLinks.sh ;;
-        "5") $MATHWIKI_DIR/.scripts/massEditing.sh ;;
-        "6") $MATHWIKI_DIR/.scripts/updateImages.sh ;;
-        "7") $MATHWIKI_DIR/.scripts/publish.sh * ;;
-        "8") $MATHWIKI_DIR/.scripts/toggleDark.sh ;;
-        "9") $MATHWIKI_DIR/.scripts/resetModifyTime.sh
-        ;;
+        "5") $MATHWIKI_DIR/.scripts/updateImages.sh ;;
+        "6") $MATHWIKI_DIR/.scripts/publish.sh ;;
     esac
 
     echo ""

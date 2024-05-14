@@ -1,18 +1,18 @@
 var fs = require('fs');
 var fm = require('front-matter');
 
-const path = '/home/zhao/Dropbox/MathWiki/.site/'
+const MATHWIKI = '/home/zhao/Dropbox/MathWiki/'
 
 extractAll(function(data) {
-    fs.appendFile(path + "static/allFiles.json", JSON.stringify(data), () => {});
+    fs.writeFile(MATHWIKI + "Site/static/allFiles.json", JSON.stringify(data), () => {});
 });
 
 function extractAll(callback) {
     var frontMatterList = [];
-    fs.readdir(path + "content/", function(err, files) {
+    fs.readdir(MATHWIKI + "Notes/", function(err, files) {
         if (err) { throw err; }
         for (let i = 0; i < files.length; i++) {
-            extract(path + "content/" + files[i], function(data) {
+            extract(MATHWIKI + "Notes/" + files[i], function(data) {
                 data['relPath'] = files[i].substr(0, files[i].length - 3);
                 frontMatterList.push(data);
                 if (i == files.length - 1) { callback(frontMatterList); }

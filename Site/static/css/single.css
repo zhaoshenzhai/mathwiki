@@ -1,0 +1,95 @@
+body {
+    color: var(--fg);
+    background-color: var(--bg);
+}
+
+body, h1, p {
+    margin: 0;
+}
+
+blockquote {
+    opacity: 0.6;
+    border-left: 3px solid var(--quote);
+    border-radius: 1px;
+    margin: 10px;
+    padding: 0.5em 10px;
+}
+
+#pageContainer {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content, #metadata {
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    text-align: justify;
+}
+
+#content {
+    position: relative;
+    padding-top: 60px;
+}
+
+#metadata {
+    position: fixed;
+    font-family: cmut;
+    padding-top: 70px;
+}
+
+.metaLinkType {
+    font-family: cmut;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0px;
+    text-align: left;
+    color: var(--fg);
+    background-color: var(--bg);
+}
+
+.metaLinkType .icon {
+    height: 13px;
+    rotate: -90deg;
+    transition: rotate 0.2s ease-out, filter 0.1s ease-out;
+}
+
+.metaLinkList {
+    font-family: cmu;
+    padding: 0 40px;
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.metaButton {
+    display: inline;
+    font-family: cmut;
+    font-size: 18px;
+    opacity: 0.6;
+    z-index: 100;
+    padding: 2px 8px;
+    border: none;
+    border-radius: 8px;
+    color: var(--fg);
+    background-color: var(--bg);
+}
+
+.metaButton:hover, .metaLinkType:hover {
+    cursor: pointer;
+    background-color: var(--box-bg);
+}
+
+.left {
+    width: 45%;
+    left: 3%;
+}
+
+.right {
+    width: 45%;
+    right: 3%;
+}

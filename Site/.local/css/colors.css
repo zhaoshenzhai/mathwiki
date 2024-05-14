@@ -1,0 +1,39 @@
+:root { 
+    --bg: white;
+    --fg: black;
+
+    --link: rgba(0,0,255,0.6);
+    --link-hover: rgba(0,0,255,0.8);
+
+    --nav-button-bg: rgba(255,255,255,0.5);
+    --nav-button-hover-bg: rgba(200,200,200,0.5);
+
+    --box-bg: rgba(0,0,0,0.05);
+    --quote: rgba(0,0,0,0.25);
+} 
+
+.listenDark, p, h1, a {
+    transition: color, background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+}
+
+#toggleDark {
+    top: 20px;
+    left: 0.5%;
+    margin: 0;
+}
+
+#toggleDark img {
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.icon, .navButton {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

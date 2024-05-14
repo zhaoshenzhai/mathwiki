@@ -11,7 +11,6 @@ These notes are meant to be a distilled version of the math I've learnt where id
 * [Configurations and Scripts](https://github.com/zhaoshenzhai/MathWiki#gear-configurations-and-scripts); snippets, plugins, and my bash scripts.
 * [MathLinks](https://github.com/zhaoshenzhai/MathWiki#symbols-mathlinks); my plugin that renders [MathJax](https://www.mathjax.org/) in links.
 * [TikZ Images](https://github.com/zhaoshenzhai/MathWiki#art-tikz-images); my workflow involving TikZ images.
-* [Sample Pages](https://github.com/zhaoshenzhai/MathWiki#page_with_curl-sample-pages); some sample screenshots.
 
 ## Graph View
 
@@ -65,7 +64,7 @@ I wrote some bash scripts to (try) maintain the consistency of my notes; [main.s
 * Toggling between light and dark mode is handled by [toggleDark.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/toggleDark.sh).
 * Resetting the modification time of each note to its creation time is handled by [resetModifyTime.sh](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/resetModifyTime.sh).
 
-Some stats: 368 notes, 1091 links (ratio: 2.964), 23 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
+Some stats: 2 notes, -------23 links (ratio: -54.428), 23 images ([updated](https://github.com/zhaoshenzhai/MathWiki/blob/master/.scripts/stats.sh) every commit).
 
 ## MathLinks
 
@@ -122,22 +121,6 @@ pdflatex -shell-escape image.tex && pdfcrop image.pdf image.pdf && pdf2svg image
 ```
 All images are centered and have a `15px` top and bottom [margin](https://github.com/zhaoshenzhai/MathWiki/blob/master/.obsidian/snippets/imageMargins.css). This can be modified to only apply to those images in a certain class.
 
-## Sample Pages
-
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Structure%20Theorem.png)
-
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Completeness%20Theorem.png)
-
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Lebesgue-Radon-Nikodym.png)
-
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Galois%20Correspondence.png)
-
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Hardy-Littlewood%20Maximal%20Theorem.png)
-
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Measure%20Space.png)
-
-![](https://raw.githubusercontent.com/zhaoshenzhai/MathWiki/master/.github/sample_pages/Topological%20Space.png)
-
-[templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/UltiSnips/markdown.snippets#L130
+[templatesInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/UltiSnips/markdown.snippets#L104
 [tikzInsert]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/fileTypeDefaults.vim#L9
-[pdfLaTeXExecute]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/fileTypeDefaults.vim#L19
+[pdfLaTeXExecute]: https://github.com/zhaoshenzhai/dotfiles/blob/master/config/nvim/config/fileTypeDefaults.vim#L18

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:45481/mathwiki/</loc>
+    <lastmod>2024-05-14T14:45:50-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45481/mathwiki/tags/</loc>
+    <lastmod>2024-05-14T14:45:50-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45481/mathwiki/tags/topic/topology/</loc>
+    <lastmod>2024-05-14T14:45:50-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45481/mathwiki/topological_space/</loc>
+    <lastmod>2024-05-14T14:45:50-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45481/mathwiki/tags/definition/</loc>
+    <lastmod>2024-04-30T21:05:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45481/mathwiki/first/</loc>
+    <lastmod>2024-04-30T21:05:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45481/mathwiki/categories/</loc>
+  </url>
+</urlset>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang=en-US>
+    <head><script src="/mathwiki/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=mathwiki/livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>MathWiki</title>
+
+        <link rel="stylesheet" href="http://localhost:1313/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="http://localhost:1313/mathwiki/css/links.css">
+        <link rel="stylesheet" href="http://localhost:1313/mathwiki/css/colors.css">
+        <link rel="stylesheet" href="http://localhost:1313/mathwiki/css/search.css">
+        <link rel="stylesheet" href="http://localhost:1313/mathwiki/css/mathJax.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
+
+        <script src="http://localhost:1313/mathwiki/js/input.js" type="module" defer></script>
+        <script src="http://localhost:1313/mathwiki/js/search.js" type="module" defer></script>
+        <script src="http://localhost:1313/mathwiki/js/mathJax.js" type="module" async defer></script>
+        <script src="http://localhost:1313/mathwiki/js/darkMode.js" type="module" defer></script>
+
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body class="listenDark">
+        
+    <script src="http://localhost:1313/mathwiki/js/metadata.js" type="module" defer></script>
+    <script src="http://localhost:1313/mathwiki/js/preview.js" type="module" defer></script>
+
+    <link rel="stylesheet" href="http://localhost:1313/mathwiki/css/preview.css">
+    <link rel="stylesheet" href="http://localhost:1313/mathwiki/css/single.css">
+    <link rel="stylesheet" href="http://localhost:1313/mathwiki/css/footer.css">
+    <link rel="stylesheet" href="http://localhost:1313/mathwiki/css/env.css">
+    <link rel="stylesheet" href="http://localhost:1313/mathwiki/css/nav.css">
+
+    <div id="pageContainer">
+        <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
+            <img id="toggleDarkIcon" src="http://localhost:1313/mathwiki/css/fa/sun.svg">
+        </button>
+        <div id="content" class="left">
+            
+                <h1>Topological Space</h1>
+            
+
+            <br>
+            <p>Let $X$ be a set. We would like to formalize</p>
+<p>  We thus make the following</p>
+
+
+
+
+<div class="env">
+    <img class="icon" src="http://localhost:1313/mathwiki/css/fa/definition.svg">
+
+    
+        <b class="envTitle">Definition.</b>
+    
+
+    <p>Let $X$ be a set. A <strong>topology</strong> on $X$ is a family $\mc{T}\subseteq\pow(X)$, whose elements are called <strong>open sets</strong>, subject to the following conditions.</p>
+<ol>
+<li><span style="color:gray">(Non-trivial).</span> $\em$ and $X$ are in $\mc{T}$.</li>
+<li><span style="color:gray">(Closure under $\cup$).</span> For any $\mc{U}\subseteq\mc{T}$, we have $\bigcup\mc{U}\in\mc{T}$.</li>
+<li><span style="color:gray">(Closure under finite $\cap$).</span> For any $U_1,U_2\in\mc{T}$, we have $U_1\cap U_2\in\mc{T}$.</li>
+</ol>
+<p>If $\mc{T}$ is a topology on $X$, we call the pair $\tpl{X,\mc{T}}$ a <strong>topological space</strong>.</p>
+
+</div>
+
+<p>From a lattice theory perspective, $\mc{T}$ is an inclusion poset.</p>
+
+        </div>
+
+        <div id="side">
+            <div id="metadata" class="right">
+                May 14, 2024 | Zhaoshen Zhai
+
+                <div id="references">References:
+                     None 
+                </div>
+                <div id="tags">Tags:
+                    
+                        <div class="metaButton metaTag listenDark">#Topic/Topology</div>
+                    
+                </div>
+
+                <br>
+                <div id="links">Links:
+                    <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
+                    <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
+                    <div id="metaLinks"></div>
+                </div>
+            </div>
+            <div id="preview">
+                <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
+                    <img src="http://localhost:1313/mathwiki/css/fa/close.svg">
+                </button>
+            </div>
+        </div>
+
+        <div id="footer"></div>
+    </div>
+
+
+        <div id="searchBox" class="listenDark" style="display: none;">
+            <input id="searchBar" class="listenDark" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" class="listenDark" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" class="listenDark" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" class="listenDark" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" class="listenDark" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" class="listenDark" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" class="listenDark" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" class="listenDark" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" class="listenDark" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" class="listenDark" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" class="listenDark" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" class="listenDark" onmouseover="searchItemActive(9)"></li>
+            </ul>
+        </div>
+    </body>
+</html>

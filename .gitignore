@@ -9,6 +9,8 @@ Images/*/*.svg
 
 .site/public
 
+.hugo_build.lock
+
 .scripts/js/node_modules
 .scripts/js/package-lock.json
 
