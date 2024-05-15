@@ -1,5 +1,6 @@
 {{ $path := .Get "file" }}
 {{ $type := .Get "type" }}
+{{ $mod := .Get "mod" }}
 {{ $link := absURL $path }}
 {{ $page := .Page.GetPage $path }}
 {{ $display := .Get "display" }}
@@ -16,11 +17,18 @@
     {{ end }}
 {{ end }}
 
-{{ if eq (.Get "mod") "dag" }}
+{{ if eq $mod "dag" }}
     {{ $name = "$^\\dagger$" }}
     {{ $type = printf "%s %s" $type "dag" }}
-{{ else if eq (.Get "mod") "space" }}
+{{ else if eq $mod "space" }}
     {{ $type = printf "%s %s" $type "space" }}
 {{ end }}
 
-<a href={{ $link }} class="internalLink {{ $type }}" title="{{ $page.Title }}" mathLink="{{ $mathLink }}" onmouseover="previewSide({{ $link }});" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, {{ $link }});">{{ $name }}</a>{{- "" -}}
+{{ $title := "" }}
+{{ if $page }}
+    {{ $title = $page.Title }}
+{{ else }}
+    {{ $title = $display }}
+{{ end }}
+
+<a href={{ $link }} class="internalLink {{ $type }}" title="{{ $title }}" mathLink="{{ $mathLink }}" onmouseover="previewSide({{ $link }});" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, {{ $link }});">{{ $name }}</a>{{- "" -}}
