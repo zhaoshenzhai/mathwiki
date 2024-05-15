@@ -5,14 +5,14 @@ references: []
 tags: []
 ---
 
-Abstracting away the basic properties of distance in $\R^n$, and most notably preserving the *Triangle Equality* (henceforth written as *$\Delta$-equality*), we make the following
+Abstracting away the basic properties of Euclidean distance in $\R^n$, and most notably preserving the *Triangle Inequality*, we make the following
 
 {{< env "definition" >}}
 
 A **metric** on a set $X$ is a function $d:X\times X\to\R_{\geq0}$ such that
 1. <span style="color:gray">(Positive-definiteness).</span> For all $x,y\in X$, we have $d(x,y)=0$ iff $x=y$.
 2. <span style="color:gray">(Symmetry.)</span> For all $x,y\in X$, we have $d(x,y)=d(y,x)$.
-3. <span style="color:gray">($\Delta$-equality).</span> For all $x,y,z\in X$, we have $d(x,z)\leq d(x,y)+d(y,z)$.
+3. <span style="color:gray">($\Delta$-inequality).</span> For all $x,y,z\in X$, we have $d(x,z)\leq d(x,y)+d(y,z)$.
 
 If $d$ is a metric on $X$, we call the pair $\tpl{X,d}$ a **metric space**.
 

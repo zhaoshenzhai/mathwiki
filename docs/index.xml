@@ -13,7 +13,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/metric_space/</link>
       <pubDate>Tue, 14 May 2024 21:37:43 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/metric_space/</guid>
-      <description>Abstracting away the basic properties of distance in $\R^n$, and most notably preserving the Triangle Equality (henceforth written as $\Delta$-equality), we make the following&#xA;Definition. A metric on a set $X$ is a function $d:X\times X\to\R_{\geq0}$ such that&#xA;(Positive-definiteness). For all $x,y\in X$, we have $d(x,y)=0$ iff $x=y$. (Symmetry.) For all $x,y\in X$, we have $d(x,y)=d(y,x)$. ($\Delta$-equality). For all $x,y,z\in X$, we have $d(x,z)\leq d(x,y)+d(y,z)$. If $d$ is a metric on $X$, we call the pair $\tpl{X,d}$ a metric space.</description>
+      <description>Abstracting away the basic properties of Euclidean distance in $\R^n$, and most notably preserving the Triangle Inequality, we make the following&#xA;Definition. A metric on a set $X$ is a function $d:X\times X\to\R_{\geq0}$ such that&#xA;(Positive-definiteness). For all $x,y\in X$, we have $d(x,y)=0$ iff $x=y$. (Symmetry.) For all $x,y\in X$, we have $d(x,y)=d(y,x)$. ($\Delta$-inequality). For all $x,y,z\in X$, we have $d(x,z)\leq d(x,y)+d(y,z)$. If $d$ is a metric on $X$, we call the pair $\tpl{X,d}$ a metric space.</description>
     </item>
     <item>
       <title>Topological Space</title>
