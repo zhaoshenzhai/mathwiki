@@ -10,6 +10,6 @@ a:hover {
     color: var(--link-hover);
 }
 
-.dag {
+.dag, .space {
     margin-left: -8px;
 }
