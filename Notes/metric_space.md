@@ -29,7 +29,7 @@ $$\begin{equation}
 
 {{< /env >}}
 
-In this way, many concepts (like convergence and continuity) that were first defined for metric spaces are now subsumed by their topological characterizations, but metric spaces are still an important class of topological spaces. We make the following
+In this way, many concepts that were previously defined for metric spaces are now subsumed by their topological characterizations. Nonetheless, metric spaces are still an important class of topological spaces, which is made precise by the following
 
 {{< env "definition" >}}
 
@@ -39,3 +39,17 @@ A topological space $\tpl{X,\mc{T}}$ is said to be **metrizable** if there is a 
 
 Specifically, metrizable spaces enjoy the following properties.
 * hi
+
+Clearly, metric spaces with continuous maps form a {{< link file="subcategory" display="subcategory" type="references" >}} of {{< link file="topological_space" display="$\cattop$" type="generalizations" >}}. However, there is a more useful subcategory in which morphisms preserve the metric structure.
+
+{{< env "definition" >}}
+
+Fix $k\in\N$. A function $f:X\to Y$ is said to be **$k$-Lipschitz** if
+$$\begin{equation}
+    d(f(x),f(x'))\leq kd(x,x')
+\end{equation}$$
+for all $x,x'\in X$. We say that $f$ is **Lipschitz** if it is $k$-Lipschitz for some $k$.
+
+{{< /env >}}
+
+We let $\catmet$ be the {{< link file="category" display="category" type="references" >}} whose objects are metric spaces and whose morphisms are $1$-Lipschitz maps (also called *non-expanding* maps). Since Lipschitz maps are continuous, this makes $\catmet$ a subcategory of $\cattop$.
