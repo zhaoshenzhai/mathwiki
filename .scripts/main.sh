@@ -12,11 +12,12 @@ while [[ "$repeat" == "Y" ]]; do
     echo -e "    ${CYAN}(3): Restore${NC}"
     echo -e "    ${CYAN}(4): Ghost links${NC}"
     echo -e "    ${CYAN}(5): Update images${NC}"
+    echo -e "    ${CYAN}(6): Publish notes${NC}"
     echo ""
 
     read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-8)]${NC} ")" action
     re='^[0-9]+$'
-    if ( [[ $action =~ $re ]] ) && ( [ "$action" -ge "1" ] && [ "$action" -le "5" ] ) || [[ -z "$action" ]]; then
+    if ( [[ $action =~ $re ]] ) && ( [ "$action" -ge "1" ] && [ "$action" -le "6" ] ) || [[ -z "$action" ]]; then
         if [[ -z "$action" ]]; then
             action="1"
         fi
@@ -36,6 +37,7 @@ while [[ "$repeat" == "Y" ]]; do
         "3") $MATHWIKI_DIR/.scripts/gitRestore.sh ;;
         "4") $MATHWIKI_DIR/.scripts/ghostLinks.sh ;;
         "5") $MATHWIKI_DIR/.scripts/updateImages.sh ;;
+        "6") $MATHWIKI_DIR/.scripts/publish.sh ;;
     esac
 
     echo ""

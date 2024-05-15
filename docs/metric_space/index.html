@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang=en-US>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Metric Space</title>
+
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/colors.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module" defer></script>
+
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body class="listenDark noScroll">
+        
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/metadata.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
+
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/footer.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/nav.css">
+
+    <div id="pageContainer">
+        <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
+            <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
+        </button>
+        <div id="content" class="left">
+            
+                <h1>Metric Space</h1>
+            
+
+            <br>
+            <p>Abstracting away the basic properties of distance in $\R^n$, and most notably preserving the <em>Triangle Equality</em> (henceforth written as <em>$\Delta$-equality</em>), we make the following</p>
+
+
+
+
+<div class="env">
+    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
+
+    
+        <b class="envTitle">Definition.</b>
+    
+
+    <p>A <strong>metric</strong> on a set $X$ is a function $d:X\times X\to\R_{\geq0}$ such that</p>
+<ol>
+<li><span style="color:gray">(Positive-definiteness).</span> For all $x,y\in X$, we have $d(x,y)=0$ iff $x=y$.</li>
+<li><span style="color:gray">(Symmetry.)</span> For all $x,y\in X$, we have $d(x,y)=d(y,x)$.</li>
+<li><span style="color:gray">($\Delta$-equality).</span> For all $x,y,z\in X$, we have $d(x,z)\leq d(x,y)+d(y,z)$.</li>
+</ol>
+<p>If $d$ is a metric on $X$, we call the pair $\tpl{X,d}$ a <strong>metric space</strong>.</p>
+
+</div>
+
+<p>Let $\tpl{X,d}$ be a metric space. The most important objects that the metric $d$ construct are <em>open balls</em>, which form 
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+
+
+    
+    
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/metric_space_generates_a_topology class="internalLink justifications dag" title="" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/metric_space_generates_a_topology&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/metric_space_generates_a_topology&#34;);">$^\dagger$</a> a 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/basis_and_subbasis class="internalLink references" title="basis" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/basis_and_subbasis&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/basis_and_subbasis&#34;);">basis</a> for a 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/topological_space class="internalLink generalizations" title="Topological Space" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/topological_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/topological_space&#34;);">topology</a>. Explicitly, this means that a subset $U\subseteq X$ is <em>open</em> if for every $x\in U$, there is some $\epsilon&gt;0$ such that $B_\epsilon(x)\subseteq U$, where</p>
+
+
+
+
+<div class="env">
+    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
+
+    
+        <b class="envTitle">Definition.</b>
+    
+
+    For any $x\in X$ and $\epsilon&gt;0$, the <strong>$\epsilon$-ball</strong> centered at $x$ is the set
+$$\begin{equation}
+B_\epsilon(x)\coloneqq B(\epsilon,x)\coloneqq\l\{y\in X\st d(x,y)&lt;\epsilon\r\}.
+\end{equation}$$
+</div>
+
+<p>In this way, many concepts (like convergence and continuity) that were first defined for metric spaces are now subsumed by their topological characterizations, but metric spaces are still an important class of topological spaces. We make the following</p>
+
+
+
+
+<div class="env">
+    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
+
+    
+        <b class="envTitle">Definition.</b>
+    
+
+    A topological space $\tpl{X,\mc{T}}$ is said to be <strong>metrizable</strong> if there is a metric $d$ on $X$ whose open balls generate $\mc{T}$.
+</div>
+
+<p>Specifically, metrizable spaces enjoy the following properties.</p>
+<ul>
+<li>hi</li>
+</ul>
+
+        </div>
+
+        <div id="side">
+            <div id="metadata" class="right">
+                May 14, 2024 | Zhaoshen Zhai
+
+                <div id="references">References:
+                     None 
+                </div>
+                <div id="tags">Tags:
+                     None 
+                </div>
+
+                <br>
+                <div id="links">Links:
+                    <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
+                    <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
+                    <div id="metaLinks"></div>
+                </div>
+            </div>
+            <div id="preview">
+                <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
+                    <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
+                </button>
+            </div>
+        </div>
+
+        <div id="footer"></div>
+    </div>
+
+
+        <div id="searchBox" class="listenDark" style="display: none;">
+            <input id="searchBar" class="listenDark" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" class="listenDark" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" class="listenDark" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" class="listenDark" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" class="listenDark" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" class="listenDark" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" class="listenDark" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" class="listenDark" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" class="listenDark" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" class="listenDark" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" class="listenDark" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" class="listenDark" onmouseover="searchItemActive(9)"></li>
+            </ul>
+        </div>
+    </body>
+</html>
