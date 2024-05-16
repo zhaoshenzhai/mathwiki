@@ -9,12 +9,12 @@ Let $X$ be a set. We would like to formalize a notion of ‘closeness’ between
 
 {{< env "definition" >}}
 
-Let $X$ be a set. A **topology** on $X$ is a family $\mc{T}\subseteq\pow(X)$, whose elements are called **open sets**, subject to the following conditions.
-1. <span style="color:gray">(Non-trivial).</span> $\em$ and $X$ are in $\mc{T}$.
-2. <span style="color:gray">(Closure under $\cup$).</span> For any $\mc{U}\subseteq\mc{T}$, we have $\bigcup\mc{U}\in\mc{T}$.
-3. <span style="color:gray">(Closure under finite $\cap$).</span> For any $U_1,U_2\in\mc{T}$, we have $U_1\cap U_2\in\mc{T}$.
+Let $X$ be a set. A **topology** on $X$ is a family $\mc{O}\subseteq\pow(X)$, whose elements are called **open sets**, subject to the following conditions.
+1. <span style="color:gray">(Non-trivial).</span> $\em$ and $X$ are in $\mc{O}$.
+2. <span style="color:gray">(Closure under $\cup$).</span> For any $\mc{U}\subseteq\mc{O}$, we have $\bigcup\mc{U}\in\mc{O}$.
+3. <span style="color:gray">(Closure under finite $\cap$).</span> For any $U_1,U_2\in\mc{O}$, we have $U_1\cap U_2\in\mc{O}$.
 
-If $\mc{T}$ is a topology on $X$, we call the pair $\tpl{X,\mc{T}}$ a **topological space**.
+If $\mc{O}$ is a topology on $X$, we call the pair $\tpl{X,\mc{O}}$ a **topological space**.
 
 {{< /env >}}
 
@@ -28,9 +28,6 @@ A function $f:X\to Y$ between topological spaces is **continuous** if for any op
 
 With continuous functions as morphisms, topological spaces form a {{< link file="category" display="category" type="references" >}}, which we denote by $\cattop$. By convention, isomorphisms in $\cattop$ are called *homeomorphisms*, which are not {{< link file="continuous_bijection_homeomorphism" type="justifications" mod="dag" >}} merely bijective continuous functions.
 
-&emsp;&emsp;Very broadly speaking, the goal of topology is to find characterizing invariants (i.e. a list of properties such that $X\iso Y$ iff they satisfy the same properties), but this is too hard in general. Indeed, the entire field of {{< link file="algebraic_topology" display="algebraic topology" type="references" >}} is devoted to finding algebraic invariants (and techniques to compute them). We thus restrict our attention to subcategories thereof.
-* {{< link file="separation_axiom" display="Hausdorff" type="types" >}} spaces, or more generally $T_0$ (or $T_1$, etc$\dots$) spaces, exclude a lot of pathologies present in general topological spaces.
-* {{< link file="compact_space" display="Compact" type="types" >}} spaces exhibit many properties of finite sets, and are therefore really nice to work with.
-* {{< link file="connected_space" display="Connectedness" type="types" >}} and other related concepts like {{< link file="path-connected_space" display="path-connectedness" type="types" >}} help establish global properties of topological spaces.
-* {{< link file="separable_space" display="Separable" type="types" >}} and {{< link file="first_countable_space" display="$1^\textrm{st}$" type="types" >}}/{{< link file="second_countable_space" display="$2^\textrm{nd}$" type="types" mod="space" >}} countable spaces are countable objects (in flavour), giving way to techniques from {{< link file="real_analysis" display="analysis" type="references" >}}. This is especially the case for {{< link file="polish_space" display="Polish" type="types" >}} spaces.
-* {{< link file="sequential_space" display="Sequential" type="types" >}} spaces allow topological properties (like convergence, continuity, and compactness etc) to be probed by sequences, much like as in {{< link file="metric_space" display="metric" type="types" >}} spaces.
+&emsp;&emsp;With the basic terminology established, we now list several branches of topology, each of which shed some light into the structure of $\cattop$.
+* <span style="color:gray">*Analysis & Manifolds.*</span> Here, we equip topological spaces with extra structure to serve as foundational objects for other fields. Examples include {{< link file="topological_vector_space" display="topological vector spaces" type="structures" >}}, {{< link file="manifold" display="manifolds" type="structures" >}}, and {{< link file="metric_space" display="metrics" type="structures" >}}, and spaces in these fields are generally {{< link file="separation_axiom" display="Hausdorff" type="types" >}}, {{< link file="separable_space" display="separable" type="types" >}}, {{< link file="second_countable_space" display="$2^\textrm{nd}$" type="types" >}} countable, ({{< link file="path-connected_space" display="path" type="types" mod="space" >}})-{{< link file="connected_space" display="connected" type="types" mod="space" >}}, {{< link file="sequential_space" display="sequential" type="types" >}} spaces, or even {{< link file="metric_space" display="metrizable" type="types" >}}.
+* <span style="color:gray">*Algebraic topology*</span> aims to attach algebraic objects to topological spaces that are invariant under homeomorphism, and developing techniques for computing them. This is usually too rigid, however, and most of these objects are in fact {{< link file="homotopy" display="homotopy" type="references" >}} invariant. Examples include the {{< link file="fundamental_group" display="fundamental group" type="constructions" >}} and {{< link file="homology" display="homologies" type="constructions" >}}, and spaces in this field are generally {{< link file="locally_compact_space" display="locally compact" type="types" >}} (or even {{< link file="compact_space" display="compact" type="types" >}}) or admit some kind of {{< link file="simplex" display="simplex" type="types" >}} structure.

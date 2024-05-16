@@ -100,13 +100,13 @@
         <b class="envTitle">Definition.</b>
     
 
-    <p>Let $X$ be a set. A <strong>topology</strong> on $X$ is a family $\mc{T}\subseteq\pow(X)$, whose elements are called <strong>open sets</strong>, subject to the following conditions.</p>
+    <p>Let $X$ be a set. A <strong>topology</strong> on $X$ is a family $\mc{O}\subseteq\pow(X)$, whose elements are called <strong>open sets</strong>, subject to the following conditions.</p>
 <ol>
-<li><span style="color:gray">(Non-trivial).</span> $\em$ and $X$ are in $\mc{T}$.</li>
-<li><span style="color:gray">(Closure under $\cup$).</span> For any $\mc{U}\subseteq\mc{T}$, we have $\bigcup\mc{U}\in\mc{T}$.</li>
-<li><span style="color:gray">(Closure under finite $\cap$).</span> For any $U_1,U_2\in\mc{T}$, we have $U_1\cap U_2\in\mc{T}$.</li>
+<li><span style="color:gray">(Non-trivial).</span> $\em$ and $X$ are in $\mc{O}$.</li>
+<li><span style="color:gray">(Closure under $\cup$).</span> For any $\mc{U}\subseteq\mc{O}$, we have $\bigcup\mc{U}\in\mc{O}$.</li>
+<li><span style="color:gray">(Closure under finite $\cap$).</span> For any $U_1,U_2\in\mc{O}$, we have $U_1\cap U_2\in\mc{O}$.</li>
 </ol>
-<p>If $\mc{T}$ is a topology on $X$, we call the pair $\tpl{X,\mc{T}}$ a <strong>topological space</strong>.</p>
+<p>If $\mc{O}$ is a topology on $X$, we call the pair $\tpl{X,\mc{O}}$ a <strong>topological space</strong>.</p>
 
 </div>
 
@@ -196,29 +196,9 @@
 
 
 <a href=https://zhaoshenzhai.github.io/mathwiki/continuous_bijection_homeomorphism class="internalLink justifications dag" title="" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/continuous_bijection_homeomorphism&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/continuous_bijection_homeomorphism&#34;);">$^\dagger$</a> merely bijective continuous functions.</p>
-<p>  Very broadly speaking, the goal of topology is to find characterizing invariants (i.e. a list of properties such that $X\iso Y$ iff they satisfy the same properties), but this is too hard in general. Indeed, the entire field of 
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-    
-
-
-<a href=https://zhaoshenzhai.github.io/mathwiki/algebraic_topology class="internalLink references" title="algebraic topology" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/algebraic_topology&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/algebraic_topology&#34;);">algebraic topology</a> is devoted to finding algebraic invariants (and techniques to compute them). We thus restrict our attention to subcategories thereof.</p>
+<p>  With the basic terminology established, we now list several branches of topology, each of which shed some light into the structure of $\cattop$.</p>
 <ul>
-<li>
+<li><span style="color:gray"><em>Analysis &amp; Manifolds.</em></span> Here, we equip topological spaces with extra structure to serve as foundational objects for other fields. Examples include 
 
 
 
@@ -238,8 +218,7 @@
     
 
 
-<a href=https://zhaoshenzhai.github.io/mathwiki/separation_axiom class="internalLink types" title="Hausdorff" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/separation_axiom&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/separation_axiom&#34;);">Hausdorff</a> spaces, or more generally $T_0$ (or $T_1$, etc$\dots$) spaces, exclude a lot of pathologies present in general topological spaces.</li>
-<li>
+<a href=https://zhaoshenzhai.github.io/mathwiki/topological_vector_space class="internalLink structures" title="topological vector spaces" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/topological_vector_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/topological_vector_space&#34;);">topological vector spaces</a>, 
 
 
 
@@ -259,8 +238,7 @@
     
 
 
-<a href=https://zhaoshenzhai.github.io/mathwiki/compact_space class="internalLink types" title="Compact" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/compact_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/compact_space&#34;);">Compact</a> spaces exhibit many properties of finite sets, and are therefore really nice to work with.</li>
-<li>
+<a href=https://zhaoshenzhai.github.io/mathwiki/manifold class="internalLink structures" title="manifolds" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/manifold&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/manifold&#34;);">manifolds</a>, and 
 
 
 
@@ -280,7 +258,7 @@
     
 
 
-<a href=https://zhaoshenzhai.github.io/mathwiki/connected_space class="internalLink types" title="Connectedness" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/connected_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/connected_space&#34;);">Connectedness</a> and other related concepts like 
+<a href=https://zhaoshenzhai.github.io/mathwiki/metric_space class="internalLink structures" title="Metric Space" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/metric_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/metric_space&#34;);">metrics</a>, and spaces in these fields are generally 
 
 
 
@@ -300,8 +278,7 @@
     
 
 
-<a href=https://zhaoshenzhai.github.io/mathwiki/path-connected_space class="internalLink types" title="path-connectedness" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/path-connected_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/path-connected_space&#34;);">path-connectedness</a> help establish global properties of topological spaces.</li>
-<li>
+<a href=https://zhaoshenzhai.github.io/mathwiki/separation_axiom class="internalLink types" title="Hausdorff" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/separation_axiom&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/separation_axiom&#34;);">Hausdorff</a>, 
 
 
 
@@ -321,7 +298,7 @@
     
 
 
-<a href=https://zhaoshenzhai.github.io/mathwiki/separable_space class="internalLink types" title="Separable" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/separable_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/separable_space&#34;);">Separable</a> and 
+<a href=https://zhaoshenzhai.github.io/mathwiki/separable_space class="internalLink types" title="separable" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/separable_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/separable_space&#34;);">separable</a>, 
 
 
 
@@ -341,7 +318,7 @@
     
 
 
-<a href=https://zhaoshenzhai.github.io/mathwiki/first_countable_space class="internalLink types" title="$1^\textrm{st}$" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/first_countable_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/first_countable_space&#34;);">$1^\textrm{st}$</a>/
+<a href=https://zhaoshenzhai.github.io/mathwiki/second_countable_space class="internalLink types" title="$2^\textrm{nd}$" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/second_countable_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/second_countable_space&#34;);">$2^\textrm{nd}$</a> countable, (
 
 
 
@@ -363,7 +340,29 @@
     
 
 
-<a href=https://zhaoshenzhai.github.io/mathwiki/second_countable_space class="internalLink types space" title="$2^\textrm{nd}$" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/second_countable_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/second_countable_space&#34;);">$2^\textrm{nd}$</a> countable spaces are countable objects (in flavour), giving way to techniques from 
+<a href=https://zhaoshenzhai.github.io/mathwiki/path-connected_space class="internalLink types space" title="path" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/path-connected_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/path-connected_space&#34;);">path</a>)-
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/connected_space class="internalLink types space" title="connected" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/connected_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/connected_space&#34;);">connected</a>, 
 
 
 
@@ -383,7 +382,7 @@
     
 
 
-<a href=https://zhaoshenzhai.github.io/mathwiki/real_analysis class="internalLink references" title="analysis" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/real_analysis&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/real_analysis&#34;);">analysis</a>. This is especially the case for 
+<a href=https://zhaoshenzhai.github.io/mathwiki/sequential_space class="internalLink types" title="sequential" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/sequential_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/sequential_space&#34;);">sequential</a> spaces, or even 
 
 
 
@@ -403,8 +402,8 @@
     
 
 
-<a href=https://zhaoshenzhai.github.io/mathwiki/polish_space class="internalLink types" title="Polish" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/polish_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/polish_space&#34;);">Polish</a> spaces.</li>
-<li>
+<a href=https://zhaoshenzhai.github.io/mathwiki/metric_space class="internalLink types" title="Metric Space" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/metric_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/metric_space&#34;);">metrizable</a>.</li>
+<li><span style="color:gray"><em>Algebraic topology</em></span> aims to attach algebraic objects to topological spaces that are invariant under homeomorphism, and developing techniques for computing them. This is usually too rigid, however, and most of these objects are in fact 
 
 
 
@@ -424,7 +423,7 @@
     
 
 
-<a href=https://zhaoshenzhai.github.io/mathwiki/sequential_space class="internalLink types" title="Sequential" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/sequential_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/sequential_space&#34;);">Sequential</a> spaces allow topological properties (like convergence, continuity, and compactness etc) to be probed by sequences, much like as in 
+<a href=https://zhaoshenzhai.github.io/mathwiki/homotopy class="internalLink references" title="homotopy" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/homotopy&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/homotopy&#34;);">homotopy</a> invariant. Examples include the 
 
 
 
@@ -444,7 +443,87 @@
     
 
 
-<a href=https://zhaoshenzhai.github.io/mathwiki/metric_space class="internalLink types" title="Metric Space" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/metric_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/metric_space&#34;);">metric</a> spaces.</li>
+<a href=https://zhaoshenzhai.github.io/mathwiki/fundamental_group class="internalLink constructions" title="fundamental group" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/fundamental_group&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/fundamental_group&#34;);">fundamental group</a> and 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/homology class="internalLink constructions" title="homologies" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/homology&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/homology&#34;);">homologies</a>, and spaces in this field are generally 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/locally_compact_space class="internalLink types" title="locally compact" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/locally_compact_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/locally_compact_space&#34;);">locally compact</a> (or even 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/compact_space class="internalLink types" title="compact" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/compact_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/compact_space&#34;);">compact</a>) or admit some kind of 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/simplex class="internalLink types" title="simplex" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/simplex&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/simplex&#34;);">simplex</a> structure.</li>
 </ul>
 
         </div>
