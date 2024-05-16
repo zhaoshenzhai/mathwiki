@@ -9,12 +9,12 @@ Let $X$ be a set. We would like to formalize a notion of ‘closeness’ between
 
 {{< env "definition" >}}
 
-Let $X$ be a set. A **topology** on $X$ is a family $\mc{O}\subseteq\pow(X)$, whose elements are called **open sets**, subject to the following conditions.
-1. <span style="color:gray">(Non-trivial).</span> $\em$ and $X$ are in $\mc{O}$.
-2. <span style="color:gray">(Closure under $\cup$).</span> For any $\mc{U}\subseteq\mc{O}$, we have $\bigcup\mc{U}\in\mc{O}$.
-3. <span style="color:gray">(Closure under finite $\cap$).</span> For any $U_1,U_2\in\mc{O}$, we have $U_1\cap U_2\in\mc{O}$.
+Let $X$ be a set. A **topology** on $X$ is a family $\mc{O}_X\subseteq\pow(X)$, whose elements are called **open sets**, subject to the following conditions.
+1. <span style="color:gray">(Non-trivial).</span> $\em$ and $X$ are in $\mc{O}_X$.
+2. <span style="color:gray">(Closure under $\cup$).</span> For any $\mc{U}\subseteq\mc{O}_X$, we have $\bigcup\mc{U}\in\mc{O}_X$.
+3. <span style="color:gray">(Closure under finite $\cap$).</span> For any $U_1,U_2\in\mc{O}_X$, we have $U_1\cap U_2\in\mc{O}_X$.
 
-If $\mc{O}$ is a topology on $X$, we call the pair $\tpl{X,\mc{O}}$ a **topological space**.
+If $\mc{O}_X$ is a topology on $X$, we call the pair $\tpl{X,\mc{O}_X}$ a **topological space**.
 
 {{< /env >}}
 
@@ -30,4 +30,9 @@ With continuous functions as morphisms, topological spaces form a {{< link file=
 
 &emsp;&emsp;With the basic terminology established, we now list several branches of topology, each of which shed some light into the structure of $\cattop$.
 * <span style="color:gray">*Analysis & Manifolds.*</span> Here, we equip topological spaces with extra structure to serve as foundational objects for other fields. Examples include {{< link file="topological_vector_space" display="topological vector spaces" type="structures" >}}, {{< link file="manifold" display="manifolds" type="structures" >}}, and {{< link file="metric_space" display="metrics" type="structures" >}}, and spaces in these fields are generally {{< link file="separation_axiom" display="Hausdorff" type="types" >}}, {{< link file="separable_space" display="separable" type="types" >}}, {{< link file="second_countable_space" display="$2^\textrm{nd}$" type="types" >}} countable, ({{< link file="path-connected_space" display="path" type="types" mod="space" >}})-{{< link file="connected_space" display="connected" type="types" mod="space" >}}, {{< link file="sequential_space" display="sequential" type="types" >}} spaces, or even {{< link file="metric_space" display="metrizable" type="types" >}}.
-* <span style="color:gray">*Algebraic topology*</span> aims to attach algebraic objects to topological spaces that are invariant under homeomorphism, and developing techniques for computing them. This is usually too rigid, however, and most of these objects are in fact {{< link file="homotopy" display="homotopy" type="references" >}} invariant. Examples include the {{< link file="fundamental_group" display="fundamental group" type="constructions" >}} and {{< link file="homology" display="homologies" type="constructions" >}}, and spaces in this field are generally {{< link file="locally_compact_space" display="locally compact" type="types" >}} (or even {{< link file="compact_space" display="compact" type="types" >}}) or admit some kind of {{< link file="simplex" display="simplex" type="types" >}} structure.
+* <span style="color:gray">*Algebraic topology*</span> aims to attach algebraic objects to topological spaces that are invariant under homeomorphisms. This is usually too rigid, however, and most of these objects are in fact {{< link file="homotopy" display="homotopy" type="constructions" >}} invariant. Examples include the {{< link file="fundamental_group" display="fundamental group" type="constructions" >}} and {{< link file="homology" display="homologies" type="constructions" >}}, and spaces in this field are generally {{< link file="locally_compact_space" display="locally compact" type="types" >}} (or even {{< link file="compact_space" display="compact" type="types" >}}) or admit some kind of {{< link file="simplex" display="simplex" type="types" >}} structure.
+* <span style="color:red">more...</span>
+
+It is in these fields that topological spaces really shine. However, $\cattop$, by itself, also has interesting algebraic/categorical structures, which we explore below.
+* The open sets $\mc{O}_X$ form a {{< link file="complete_lattice" display="complete" type="references" >}} bounded sub{{< link file="lattice" display="lattice" type="references" mod="space" >}} of $\pow(X)$, with joins being unions and meets being <span style="color:red">???</span>, and makes $\mc{O}_X\in\catord$. Furthermore, the definition of continuity defines a contravariant {{< link file="functor" display="functor" type="references" >}} $\mc{O}:\catset^\textrm{op}\to\catord$ sending $X$ to $\mc{O}_X$ and $f:X\to Y$ to $\mc{O}f:\mc{O}_Y\to\mc{O}_X$.
+* The category $\cattop$ is {{< link file="cattop_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_(category_theory)" display="complete" type="references" >}}, so <span style="color:red">???</span>.
