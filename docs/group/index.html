@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang=en-US>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Group</title>
+
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/colors.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module" defer></script>
+
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body class="listenDark noScroll">
+        
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/metadata.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
+
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/footer.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/nav.css">
+
+    <div id="pageContainer">
+        <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
+            <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
+        </button>
+        <div id="content" class="left">
+            
+                <h1>Group</h1>
+            
+
+            <br>
+            <p>The concept of a <em>group</em> was invented to capture the abstract properties of <em>symmetries</em> (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.</p>
+
+
+
+
+<div class="env">
+    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
+
+    
+        <b class="envTitle">Definition.</b>
+    
+
+    <p>A <strong>group</strong> is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a distinguished element $e\in G$ called the <strong>identity</strong>, and operations $\cdot:G\times G\to G$ and $(\slot)^{-1}:G\to G$, subject to the following conditions.</p>
+<ol>
+<li><span style="color:gray">(Associativity).</span> For all $g,h,k\in G$, we have $g\cdot(h\cdot k)=(g\cdot h)\cdot k$.</li>
+<li><span style="color:gray">(Identity).</span> For all $g\in G$, we have $g\cdot e=g=e\cdot g$.</li>
+<li><span style="color:gray">(Inverse).</span> For all $g\in G$, we have $g\cdot g^{-1}=e=g^{-1}\cdot g$.</li>
+</ol>
+</div>
+
+<p>A prominent class of examples motivated by the above are <em>isometry groups</em> of 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/metric_space class="internalLink references" title="Metric Space" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/metric_space&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/metric_space&#34;);">metric spaces</a>; more generally, one considers a 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/category class="internalLink references" title="category" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/category&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/category&#34;);">category</a> $C$, where each object $X\in C$ induces its <em>automorphism group</em> $\Aut X$, with $\cdot$ being interpreted as composition in $C$. In fact, every group arises this way (as the morphisms in a 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/groupoid class="internalLink references" title="groupoid" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/groupoid&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/groupoid&#34;);">groupoid</a>).</p>
+<p>  With <em>group homomorphisms</em> as morphisms, groups form a category $\catgrp$:</p>
+
+
+
+
+<div class="env">
+    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
+
+    
+        <b class="envTitle">Definition.</b>
+    
+
+    A function $f:G\to H$ between groups is a <strong>homomorphism</strong> if
+$$\begin{equation}
+f(g_1\cdot g_2)=f(g_1)\cdot f(g_2)
+\end{equation}$$
+for every $g_1,g_2\in G$. <span style="color:gray">Note that this implies $f(e_G)=e_H$ and $f(g^{-1})=f(g)^{-1}$.</span>
+</div>
+
+<p>This category is 
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+
+
+    
+    
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/catgrp_is_complete class="internalLink justifications dag" title="" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/catgrp_is_complete&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/catgrp_is_complete&#34;);">$^\dagger$</a> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ <a href=https://zhaoshenzhai.github.io/mathwiki/complete_category class="internalLink references" title="complete" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/complete_category&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/complete_category&#34;);">complete</a>, so <span style="color:red">???</span>.</p>
+<p>  Very broadly speaking, the goal of group theory is to find structure theorems for groups, ultimately leading to some kind of <em>Classification of Groups</em>. This is (way) too hard in general; to give some scale, we note that <em>The Hölder Program</em>, consisting of</p>
+<ol>
+<li><em>Classifying all 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/simple_group class="internalLink types" title="simple" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/simple_group&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/simple_group&#34;);">simple</a> groups</em>, which are essentially the ‘atoms’ of group theory;</li>
+<li><em>Classifying all 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/group_extension class="internalLink constructions" title="group extensions" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/group_extension&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/group_extension&#34;);">group extensions</a></em>, which essentially means ‘doing all of chemistry’;</li>
+</ol>
+<p>has only been partly solved, with Part 1 taking about $100$ years and $10,000$ pages of hard mathematics to settle, and with Part 2 still relatively open. Nevertheless, many techniques have been developed to study certain classes of groups:</p>
+<ul>
+<li>h</li>
+</ul>
+
+        </div>
+
+        <div id="side">
+            <div id="metadata" class="right">
+                May 16, 2024 | Zhaoshen Zhai
+
+                <div id="references">References:
+                     None 
+                </div>
+                <div id="tags">Tags:
+                     None 
+                </div>
+
+                <br>
+                <div id="links">Links:
+                    <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
+                    <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
+                    <div id="metaLinks"></div>
+                </div>
+            </div>
+            <div id="preview">
+                <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
+                    <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
+                </button>
+            </div>
+        </div>
+
+        <div id="footer"></div>
+    </div>
+
+
+        <div id="searchBox" class="listenDark" style="display: none;">
+            <input id="searchBar" class="listenDark" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" class="listenDark" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" class="listenDark" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" class="listenDark" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" class="listenDark" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" class="listenDark" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" class="listenDark" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" class="listenDark" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" class="listenDark" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" class="listenDark" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" class="listenDark" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" class="listenDark" onmouseover="searchItemActive(9)"></li>
+            </ul>
+        </div>
+    </body>
+</html>

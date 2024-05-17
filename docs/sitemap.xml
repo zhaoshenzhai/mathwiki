@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/group/</loc>
+    <lastmod>2024-05-16T21:34:09-04:00</lastmod>
+  </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
-    <lastmod>2024-05-14T21:37:43-04:00</lastmod>
+    <lastmod>2024-05-16T21:34:09-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/metric_space/</loc>
     <lastmod>2024-05-14T21:37:43-04:00</lastmod>
@@ -16,12 +19,6 @@
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/topological_space/</loc>
     <lastmod>2024-05-14T14:45:50-04:00</lastmod>
-  </url><url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/definition/</loc>
-    <lastmod>2024-04-30T21:05:23+00:00</lastmod>
-  </url><url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/first/</loc>
-    <lastmod>2024-04-30T21:05:23+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/categories/</loc>
   </url>
