@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/group/</loc>
-    <lastmod>2024-05-16T21:34:09-04:00</lastmod>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/abelian_group/</loc>
+    <lastmod>2024-05-22T18:53:29-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
+    <lastmod>2024-05-22T18:53:29-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/group/</loc>
     <lastmod>2024-05-16T21:34:09-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/metric_space/</loc>

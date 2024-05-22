@@ -32,7 +32,9 @@ for every $g_1,g_2\in G$. <span style="color:gray">Note that this implies $f(e_G
 
 This category is {{< link file="catgrp_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}}, so <span style="color:red">???</span>.
 
-&emsp;&emsp;Perhaps the most important way of studying a group is by analyzing how it {{< link file="group_action" display="acts" type="constructions" >}} on a set, or, more generally, on objects in some other category.
+---
+
+Perhaps the most important way of studying a group is by analyzing how it {{< link file="group_action" display="acts" type="constructions" >}} on a set, or, more generally, on objects in some other category.
 > Groups, as men, will be known by their actions. <span style="float:right;">$-$ Guillermo Moreno</span>
 
 Very broadly speaking, the goal of group theory is to find classifying invariants for groups, ultimately leading to some kind of *Classification of Groups*. This is (way) too hard in general; to give some scale, we note that *The Hölder Program*, consisting of
