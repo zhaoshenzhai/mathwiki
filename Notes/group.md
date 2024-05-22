@@ -32,9 +32,16 @@ for every $g_1,g_2\in G$. <span style="color:gray">Note that this implies $f(e_G
 
 This category is {{< link file="catgrp_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}}, so <span style="color:red">???</span>.
 
-&emsp;&emsp;Very broadly speaking, the goal of group theory is to find structure theorems for groups, ultimately leading to some kind of *Classification of Groups*. This is (way) too hard in general; to give some scale, we note that *The Hölder Program*, consisting of
+&emsp;&emsp;Perhaps the most important way of studying a group is by analyzing how it {{< link file="group_action" display="acts" type="constructions" >}} on a set, or, more generally, on objects in some other category.
+> Groups, as men, will be known by their actions. <span style="float:right;">$-$ Guillermo Moreno</span>
+
+Very broadly speaking, the goal of group theory is to find classifying invariants for groups, ultimately leading to some kind of *Classification of Groups*. This is (way) too hard in general; to give some scale, we note that *The Hölder Program*, consisting of
 1. *Classifying all {{< link file="simple_group" display="simple" type="types" >}} groups*, which are essentially the ‘atoms’ of group theory;
 2. *Classifying all {{< link file="group_extension" display="group extensions" type="constructions" >}}*, which essentially means ‘doing all of chemistry’;
 
 has only been partly solved, with Part 1 taking about $100$ years and $10,000$ pages of hard mathematics to settle, and with Part 2 still relatively open. Nevertheless, many techniques have been developed to study certain classes of groups:
-* h
+* {{< link file="finite_group" display="Finite groups" type="types" >}} can be studied combinatorially, and a benchmark problem is to find the number of groups of order $n$. The {{< link file="sylow_theorems" display="Sylow Theorems" type="references" >}} place certain restrictions, but more sophisticated approaches require {{< link file="representation_theory_of_finite_groups" display="representation theory" type="references" >}}.
+* {{< link file="finitely-generated_group" display="Finitely-generated groups" type="types" >}} are much more geometric in nature, and are studied mostly in the context of {{< link file="geometric_group_theory" display="Geometric Group Theory" type="references" >}}.
+* {{< link file="abelian_group" display="Abelian groups" type="types" >}} vary wildly in behavior. Finitely-generated ones are completely classified via the {{< link file="structure_theorem_for_fg_modules_over_PID" display="Structure Theorem" type="references" >}}, but in general they can be very interesting.
+
+One may also equip groups with additional structure, leading to richer theories. Some important examples are {{< link file="topological_group" display="topological groups" type="structures" >}}, {{< link file="lie_group" display="Lie groups" type="structures" >}}, and {{< link file="algebraic_groups" display="algebraic groups" type="structures" >}}.
