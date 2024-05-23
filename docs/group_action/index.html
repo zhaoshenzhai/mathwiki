@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang=en-US>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Group Action</title>
+
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/colors.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module" defer></script>
+
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body class="listenDark noScroll">
+        
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/metadata.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
+
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/footer.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/nav.css">
+
+    <div id="pageContainer">
+        <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
+            <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
+        </button>
+        <div id="content" class="left">
+            
+                <h1>Group Action</h1>
+            
+
+            <br>
+            <p>Groups capture $-$ <em>abstractly</em> $-$ the notion of a symmetry. But symmetries are also present in concrete objects, with different kinds of objects preserving different kinds of structure. The concept of a <em>group action</em> connects the two.</p>
+
+
+
+
+<div class="env">
+    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
+
+    
+        <b class="envTitle">Definition.</b>
+    
+
+    Let $G$ be a group and fix a category $C$. A <strong>$G$-action</strong> is a functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.
+</div>
+
+<p>Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$. Taking $C\coloneqq\catset$ recovers the usual notion of a group acting on a set; with $X\coloneqq G$, we have a canonical <em>left-multiplication</em> action given by $\phi(g)x\coloneqq g\cdot x$. In general, for $\phi:G\act X$ in a 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/concrete_category class="internalLink references" title="concrete category" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/concrete_category&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/concrete_category&#34;);">concrete category</a>, we make the following definitions.</p>
+<ul>
+<li>For a fixed $x\in X$, the <em>orbit</em> of $x$ is the subset $Gx\coloneqq\l\{gx\in X\st g\in G\r\}$ and the <em>stabilizer</em> of $x$ is the subgroup $G_x\coloneqq\l\{g\in G\st gx=x\r\}$. They are related by the 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/orbit-stabilizer_theorem class="internalLink properties" title="Orbit Stabilizer Theorem" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/orbit-stabilizer_theorem&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/orbit-stabilizer_theorem&#34;);">Orbit Stabilizer Theorem</a> and the 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/class_equation class="internalLink properties" title="Class Equation" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/class_equation&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/class_equation&#34;);">Class Equation</a>.</li>
+<li>We say that the action is <em>transitive</em> if for all $x,y\in X$, there is some $g\in G$ such that $gx=y$. Note that $X\iso\bigsqcup_iGx_i$, and since $G$ always acts transitively on its orbits, every group action decomposes into its transitive components (i.e. orbits).</li>
+<li>We say that the action is <em>faithful</em> if $\phi$ is injective, so that $G\into\Aut X$, and <em>free</em> if $gx=x$ for some $x\in X$ implies $g=e$. 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem class="internalLink properties" title="Cayley’s Theorem" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem&#34;);">Cayley’s Theorem</a> is the statement that the left-multiplication action is faithful.</li>
+</ul>
+<p>Even more generally, we can $-$ in the definition $-$ replace $G$ with a group object in $C$, giving us 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/continuous_group_action class="internalLink examples" title="continuous group actions" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/continuous_group_action&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/continuous_group_action&#34;);">continuous group actions</a>, 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/lie_group_action class="internalLink examples" title="Lie group actions" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/lie_group_action&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/lie_group_action&#34;);">Lie group actions</a>, etc; the definitions above carry forth with obvious modifications.</p>
+<p>  Many important properties of $G$ can be deduced by exhibiting an action on some space $X$ (or showing non-existence thereof). Some examples include <span style="color:red">???</span>.</p>
+
+        </div>
+
+        <div id="side">
+            <div id="metadata" class="right">
+                May 22, 2024 | Zhaoshen Zhai
+
+                <div id="references">References:
+                     None 
+                </div>
+                <div id="tags">Tags:
+                    
+                        <div class="metaButton metaTag listenDark">#Topic/Group_Theory</div>
+                    
+                </div>
+
+                <br>
+                <div id="links">Links:
+                    <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
+                    <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
+                    <div id="metaLinks"></div>
+                </div>
+            </div>
+            <div id="preview">
+                <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
+                    <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
+                </button>
+            </div>
+        </div>
+
+        <div id="footer"></div>
+    </div>
+
+
+        <div id="searchBox" class="listenDark" style="display: none;">
+            <input id="searchBar" class="listenDark" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" class="listenDark" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" class="listenDark" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" class="listenDark" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" class="listenDark" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" class="listenDark" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" class="listenDark" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" class="listenDark" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" class="listenDark" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" class="listenDark" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" class="listenDark" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" class="listenDark" onmouseover="searchItemActive(9)"></li>
+            </ul>
+        </div>
+    </body>
+</html>

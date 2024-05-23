@@ -6,8 +6,15 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 May 2024 18:53:29 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2024 20:02:09 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Group Action</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/group_action/</link>
+      <pubDate>Wed, 22 May 2024 20:02:09 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/group_action/</guid>
+      <description>Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in concrete objects, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a category $C$. A $G$-action is a functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$. Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$.</description>
+    </item>
     <item>
       <title>Abelian Group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/abelian_group/</link>

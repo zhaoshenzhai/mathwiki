@@ -2,7 +2,7 @@
 title: Group
 date: 2024-05-16T21:34:09-04:00
 references: []
-tags: []
+tags: [Topic/Group_Theory]
 ---
 
 The concept of a *group* was invented to capture the abstract properties of *symmetries* (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.
@@ -16,7 +16,7 @@ A **group** is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$,
 
 {{< /env >}}
 
-A prominent class of examples motivated by the above are *isometry groups* of {{< link file="metric_space" display="metric spaces" type="references" >}}; more generally, one considers a {{< link file="category" display="category" type="references" >}} $C$, where each object $X\in C$ induces its *automorphism group* $\Aut X$, with $\cdot$ being interpreted as composition in $C$. In fact, every group arises this way (as the morphisms in a {{< link file="groupoid" display="groupoid" type="references" >}}).
+A prominent class of examples motivated by the above are *isometry groups* of {{< link file="metric_space" display="metric spaces" type="references" >}}; more generally, one considers a {{< link file="category" display="category" type="references" >}} $C$, where each object $X\in C$ induces its *automorphism group* $\Aut X$, with $\cdot$ being interpreted as composition in $C$. In fact, every group arises this way (as the morphisms in the {{< link file="groupoid" display="groupoid" type="references" >}} $\cat{B}G$).
 
 &emsp;&emsp;With *group homomorphisms* as morphisms, groups form a category $\catgrp$:
 
