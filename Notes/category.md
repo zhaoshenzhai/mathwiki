@@ -5,7 +5,9 @@ references: [Ref/Mac10]
 tags: [Topic/Category_Theory]
 ---
 
-The language of *categories* is dubbed ‘abstract nonsense’ $-$ not because it is nonsense $-$ but because it refers to *abstract structure* (as opposed to the *meaning* of what the structures represent). We start informally by making the following
+The starting point of the theory of *categories* is the observation that many properties of mathematical objects can be more succinctly expressed as diagrams of arrows $-$ as opposed to an equation $-$ and that many objects can be constructed via a ‘universal property’ of such a diagram.
+
+&emsp;&emsp;Heuristically, these objects are characterized as the ‘most efficient solution to an optimization problem’. To formalize this, we make the following
 
 {{< env "definition" >}}
 

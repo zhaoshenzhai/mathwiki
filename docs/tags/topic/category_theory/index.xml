@@ -13,7 +13,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/category/</link>
       <pubDate>Wed, 22 May 2024 21:52:00 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/category/</guid>
-      <description>The language of categories is dubbed ‘abstract nonsense’ $-$ not because it is nonsense $-$ but because it refers to abstract structure (as opposed to the meaning of what the structures represent). We start informally by making the following&#xA;Definition. A category $C$ consists of a class $\mc{O}$ of objects, and,&#xA;for any two objects $x,y\in\mc{O}$, a class $C(x,y)$ of morphisms in $C$; for any object $x\in\mc{O}$, an identity morphism $1_x\in C(x,x)$, for any three objects $x,y,z\in\mc{O}$, a composition map $$\begin{equation} \circ:C(y,z)\times C(x,y)\to C(x,z); \end{equation}$$ subject to the following conditions.</description>
+      <description>The starting point of the theory of categories is the observation that many properties of mathematical objects can be more succinctly expressed as diagrams of arrows $-$ as opposed to an equation $-$ and that many objects can be constructed via a ‘universal property’ of such a diagram.&#xA;Heuristically, these objects are characterized as the ‘most efficient solution to an optimization problem’. To formalize this, we make the following&#xA;Definition. A category $C$ consists of a class $\mc{O}$ of objects, and,</description>
     </item>
   </channel>
 </rss>
