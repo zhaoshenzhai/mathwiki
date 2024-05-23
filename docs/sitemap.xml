@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/group_action/</loc>
-    <lastmod>2024-05-22T20:02:09-04:00</lastmod>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/category/</loc>
+    <lastmod>2024-05-22T21:52:00-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
-    <lastmod>2024-05-22T20:02:09-04:00</lastmod>
+    <lastmod>2024-05-22T21:52:00-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
+    <lastmod>2024-05-22T21:52:00-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/topic/category_theory/</loc>
+    <lastmod>2024-05-22T21:52:00-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/group_action/</loc>
     <lastmod>2024-05-22T20:02:09-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/topic/group_theory/</loc>

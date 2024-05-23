@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Abelian Group</title>
+        <title>Category</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -39,11 +39,11 @@
         </button>
         <div id="content" class="left">
             
-                <h1>Abelian Group</h1>
+                <h1>Category</h1>
             
 
             <br>
-            <p>Here, we consider a class of groups which $-$ despite being very general $-$ exhibit very useful properties absent in general groups.</p>
+            <p>The language of <em>categories</em> is dubbed ‘abstract nonsense’ $-$ not because it is nonsense $-$ but because it refers to <em>abstract structure</em> (as opposed to the <em>meaning</em> of what the structures represent). We start informally by making the following</p>
 
 
 
@@ -55,133 +55,27 @@
         <b class="envTitle">Definition.</b>
     
 
-    A group $G$ is said to be <strong>Abelian</strong> if $gh=hg$ for all $g,h\in G$.
-</div>
-
-<p>We denote the 
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-    
-
-
-<a href=https://zhaoshenzhai.github.io/mathwiki/subcategory class="internalLink references" title="subcategory" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/subcategory&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/subcategory&#34;);">subcategory</a> of Abelian groups as $\catabgrp$, which is one of the most well-behaved categories. Indeed, <span style="color:red">???</span>.</p>
+    <p>A <strong>category</strong> $C$ consists of a class $\mc{O}$ of <strong>objects</strong>, and,</p>
 <ul>
-<li>We have a forgetful functor $\catmod[\Z]\to\catabgrp$, which is an isomorphism of categories <span style="color:red">???</span>. In this way, the notions of 
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-    
-
-
-<a href=https://zhaoshenzhai.github.io/mathwiki/torsion class="internalLink constructions" title="torsion" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/torsion&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/torsion&#34;);">torsion</a>, 
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-    
-
-
-<a href=https://zhaoshenzhai.github.io/mathwiki/rank class="internalLink constructions" title="rank" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/rank&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/rank&#34;);">rank</a>, etc, all carry forward.</li>
-</ul>
-<p>Since Abelian groups are just $\Z$-modules and $\Z$ is a 
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-    
-
-
-<a href=https://zhaoshenzhai.github.io/mathwiki/principal_ideal_domain class="internalLink references" title="PID" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/principal_ideal_domain&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/principal_ideal_domain&#34;);">PID</a>, the 
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-    
-
-
-<a href=https://zhaoshenzhai.github.io/mathwiki/structure_theorem_for_fg_modules_over_PID class="internalLink properties" title="Structure Theorem" mathLink="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/structure_theorem_for_fg_modules_over_PID&#34;);" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/structure_theorem_for_fg_modules_over_PID&#34;);">Structure Theorem</a> for finitely-generated modules over a PID applies:</p>
-
-
-
-
-<div class="env">
-    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg">
-
-    
-        <b class="envTitle">Theorem (Structure Theorem for f.g. Abelian Groups).</b>
-    
-
-    Every f.g. Abelian group $G$ admits a decomposition $G\iso\Z^{\rk G}\oplus\Tor G$, and furthermore
+<li>for any two objects $x,y\in\mc{O}$, a class $C(x,y)$ of <strong>morphisms</strong> in $C$;</li>
+<li>for any object $x\in\mc{O}$, an <strong>identity</strong> morphism $1_x\in C(x,x)$,</li>
+<li>for any three objects $x,y,z\in\mc{O}$, a <strong>composition map</strong>
 $$\begin{equation}
-\Tor G\iso\bigoplus_{i,j}\Z/\mf{p}_i^{\alpha_{ij}}\iso\bigoplus_j\Z/\mf{a}_j
+\circ:C(y,z)\times C(x,y)\to C(x,z);
+\end{equation}$$</li>
+</ul>
+<p>subject to the following conditions.</p>
+<ul>
+<li><span style="color:gray">(Associativity).</span> For all morphisms $f,g,h$ in the configuration
+$$\begin{equation}
+x\overset{f}{\rightarrow}y\overset{g}{\rightarrow}z\overset{h}{\rightarrow}w
 \end{equation}$$
-for unique (up to a permutation) prime ideals $\mf{p}_i\nsubgrp\Z$ <span style="color:gray">(elementary divisors)</span> and positive integers $\alpha_{ij}\in\N$, where $\mf{a}_j\coloneqq\prod_i\mf{p}_i^{\alpha_{ij}}$ <span style="color:gray">(invariant factors)</span>.
+we have $h\circ(g\circ f)=(h\circ g)\circ f$.</li>
+<li><span style="color:gray">(Unit).</span> For all morphisms $f\in C(x,y)$, we have $f\circ1_x=f=1_y\circ f$.</li>
+</ul>
+
 </div>
 
-<p>On the other hand, Abelian groups that are <em>not</em> finitely-generated are much wilder, and many set-theoretical issues crop up.</p>
 
         </div>
 
@@ -191,12 +85,12 @@ for unique (up to a permutation) prime ideals $\mf{p}_i\nsubgrp\Z$ <span style="
 
                 <div id="references">References:
                     
-                        <div class="metaButton metaRef listenDark">#Ref/Alu09</div>
+                        <div class="metaButton metaRef listenDark">#Ref/Mac10</div>
                     
                 </div>
                 <div id="tags">Tags:
                     
-                        <div class="metaButton metaTag listenDark">#Topic/Group_Theory</div>
+                        <div class="metaButton metaTag listenDark">#Topic/Category_Theory</div>
                     
                 </div>
 

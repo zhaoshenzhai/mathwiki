@@ -6,14 +6,21 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 May 2024 20:02:09 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2024 21:52:00 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Category</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/category/</link>
+      <pubDate>Wed, 22 May 2024 21:52:00 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/category/</guid>
+      <description>The language of categories is dubbed ‘abstract nonsense’ $-$ not because it is nonsense $-$ but because it refers to abstract structure (as opposed to the meaning of what the structures represent). We start informally by making the following&#xA;Definition. A category $C$ consists of a class $\mc{O}$ of objects, and,&#xA;for any two objects $x,y\in\mc{O}$, a class $C(x,y)$ of morphisms in $C$; for any object $x\in\mc{O}$, an identity morphism $1_x\in C(x,x)$, for any three objects $x,y,z\in\mc{O}$, a composition map $$\begin{equation} \circ:C(y,z)\times C(x,y)\to C(x,z); \end{equation}$$ subject to the following conditions.</description>
+    </item>
     <item>
       <title>Group Action</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/group_action/</link>
       <pubDate>Wed, 22 May 2024 20:02:09 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/group_action/</guid>
-      <description>Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in concrete objects, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a category $C$. A $G$-action is a functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$. Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$.</description>
+      <description>Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in concrete objects, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a&#xA;category $C$. A $G$-action is a&#xA;functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.&#xA;Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$.</description>
     </item>
     <item>
       <title>Abelian Group</title>

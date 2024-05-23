@@ -1,7 +1,7 @@
 ---
 title: Group Action
 date: 2024-05-22T20:02:09-04:00
-references: []
+references: [Ref/Alu09, Ref/Mac10]
 tags: [Topic/Group_Theory]
 ---
 
@@ -9,7 +9,7 @@ Groups capture $-$ *abstractly* $-$ the notion of a symmetry. But symmetries are
 
 {{< env "definition" >}}
 
-Let $G$ be a group and fix a category $C$. A **$G$-action** is a functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.
+Let $G$ be a group and fix a {{< link file="category" display="category" type="references" >}} $C$. A **$G$-action** is a {{< link file="functor" display="functor" type="references" >}} $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.
 
 {{< /env >}}
 
@@ -18,6 +18,8 @@ Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we
 * We say that the action is *transitive* if for all $x,y\in X$, there is some $g\in G$ such that $gx=y$. Note that $X\iso\bigsqcup\_iGx_i$, and since $G$ always acts transitively on its orbits, every group action decomposes into its transitive components (i.e. orbits).
 * We say that the action is *faithful* if $\phi$ is injective, so that $G\into\Aut X$, and *free* if $gx=x$ for some $x\in X$ implies $g=e$. {{< link file="cayleys_theorem" display="Cayley’s Theorem" type="properties" >}} is the statement that the left-multiplication action is faithful.
 
-Even more generally, we can $-$ in the definition $-$ replace $G$ with a group object in $C$, giving us {{< link file="continuous_group_action" display="continuous group actions" type="examples" >}}, {{< link file="lie_group_action" display="Lie group actions" type="examples" >}}, etc; the definitions above carry forth with obvious modifications.
+Since group actions are functors, it makes sense to consider {{< link file="natural_transformation" display="natural transformations" type="references" >}} between two actions $\phi:G\act X$ and $\psi:G\act Y$ $-$ called *$G$-maps* $-$ which defines the category of $G$-actions.
 
 &emsp;&emsp;Many important properties of $G$ can be deduced by exhibiting an action on some space $X$ (or showing non-existence thereof). Some examples include <span style="color:red">???</span>.
+
+&emsp;&emsp;Even more generally, we can $-$ in the definition $-$ replace $G$ with a {{< link file="group_object" display="group object" type="references" >}} in $C$, giving us {{< link file="continuous_group_action" display="continuous group actions" type="examples" >}}, {{< link file="lie_group_action" display="Lie group actions" type="examples" >}}, etc; the definitions above carry forth with obvious modifications.

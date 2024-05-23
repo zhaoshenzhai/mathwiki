@@ -1,8 +1,8 @@
 ---
 title: Abelian Group
 date: 2024-05-22T18:53:29-04:00
-references: []
-tags: []
+references: [Ref/Alu09]
+tags: [Topic/Group_Theory]
 ---
 
 Here, we consider a class of groups which $-$ despite being very general $-$ exhibit very useful properties absent in general groups.
