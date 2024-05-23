@@ -26,3 +26,5 @@ we have $h\circ(g\circ f)=(h\circ g)\circ f$.
 * <span style="color:gray">(Unit).</span> For all morphisms $f\in C(x,y)$, we have $f\circ1\_x=f=1\_y\circ f$.
 
 {{< /env >}}
+
+
