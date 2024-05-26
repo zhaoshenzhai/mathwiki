@@ -13,3 +13,7 @@ a:hover {
 .dag, .space {
     margin-left: -8px;
 }
+
+.ghostLink {
+    color: red !important;
+}

@@ -38,7 +38,7 @@ blockquote {
     padding-top: 70px;
 }
 
-.metaLinkType {
+.metaLinkButton {
     font-family: cmut;
     font-size: 18px;
     cursor: pointer;
@@ -51,7 +51,7 @@ blockquote {
     background-color: var(--bg);
 }
 
-.metaLinkType .icon {
+.metaLinkButton .icon {
     height: 13px;
     rotate: -90deg;
     transition: rotate 0.2s ease-out, filter 0.1s ease-out;
@@ -79,7 +79,7 @@ blockquote {
     background-color: var(--bg);
 }
 
-.metaButton:hover, .metaLinkType:hover {
+.metaButton:hover, .metaLinkButton:hover {
     cursor: pointer;
     background-color: var(--box-bg);
 }

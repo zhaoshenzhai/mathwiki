@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         var links = document.getElementById("links")
         if (links) { links.innerHTML = "Links: None" }
     } else {
+
         var metaLinkTracker = [];
         for (var i = 0; i < outgoingLinks.length; i++) {
             var link = outgoingLinks[i];
@@ -25,14 +26,16 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
                 metaLinkTracker.push(linkType + link.href);
                 metaLinkType.nextElementSibling.appendChild(newMetaLink(link));
-                metaLinkType.nextElementSibling.innerHTML += ", ";
             }
         }
 
         for(var [key, val] of Object.entries(metaLinkTypesDict)) {
-            val.nextElementSibling.innerHTML = val.nextElementSibling.innerHTML.replace(/,\s$/, "");
             val.addEventListener("click", function() { toggleMetaLink(this); });
         }
+
+        [...metaLinkTypes.children]
+            .sort((a, b) => typePriority(a) > typePriority(b) ? 1 : -1)
+            .forEach(node => metaLinkTypes.appendChild(node));
     }
 
     document.dispatchEvent(metaLinkReady);
@@ -79,38 +82,67 @@ function collapseMetaLink(metaLink) {
 }
 
 function newMetaLinkType(linkType) {
-    var newLinkType = document.createElement("button");
+    var newLinkButton = document.createElement("button");
     var newLinkList = document.createElement("ul");
+    var newLinkDiv = document.createElement("div");
 
-    newLinkType.setAttribute("id", "l-" + linkType);
-    newLinkType.innerText = " " + firstUpper(linkType);
-    newLinkType.classList.add("metaLinkType");
-    newLinkType.classList.add("listenDark");
+    newLinkButton.innerText = " " + firstUpper(linkType);
+    newLinkButton.classList.add("metaLinkButton");
+    newLinkButton.classList.add("listenDark");
     newLinkList.classList.add("metaLinkList");
 
     var icon = document.createElement("img");
     icon.setAttribute("src", "../css/fa/arrow-head.svg");
     icon.classList.add("icon");
-    newLinkType.prepend(icon);
+    newLinkButton.prepend(icon);
 
-    metaLinkTypesDict[linkType] = newLinkType;
-    metaLinkTypes.insertBefore(newLinkType, newLinkList.nextSibling);
-    metaLinkTypes.appendChild(newLinkList);   
+    metaLinkTypesDict[linkType] = newLinkButton;
+    metaLinkTypes.appendChild(newLinkDiv);
+
+    newLinkDiv.setAttribute("id", "l-" + linkType);
+    newLinkDiv.insertBefore(newLinkButton, newLinkList.nextSibling);
+    newLinkDiv.appendChild(newLinkList);
 
     return metaLinkTypesDict[linkType];
 }
+
 function newMetaLink(link) {
+    var metaLinkContainer = document.createElement("li");
     var metaLink = document.createElement("a");
+
+    metaLinkContainer.appendChild(metaLink);
     metaLink.setAttribute("href", link.href);
 
     var mathLink = link.getAttribute("mathLink");
+    var title = link.getAttribute("title");
+    if (!title) { title = link.href.replace(/.*\//, ""); }
+
     if (mathLink) {
         metaLink.innerText = link.getAttribute("mathLink");
     } else {
-        metaLink.innerText = link.getAttribute("title");
+        metaLink.innerText = title;
     }
 
-    return metaLink;
+    if (link.classList.contains("ghostLink")) {
+        metaLink.classList.add("ghostLink");
+    }
+
+    return metaLinkContainer;
+}
+
+function typePriority(linkEl) {
+    const allLinks = [
+        "types",
+        "constructions",
+        "structures",
+        "properties",
+        "examples",
+        "generalizations",
+        "justifications",
+        "references"
+    ];
+
+    return allLinks.indexOf(linkEl.id.substring(2));
 }
 
 function firstUpper(s) { return s.charAt(0).toUpperCase() + s.slice(1); }

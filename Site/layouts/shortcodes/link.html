@@ -1,9 +1,10 @@
 {{ $path := .Get "file" }}
 {{ $type := .Get "type" }}
 {{ $mod := .Get "mod" }}
+{{ $display := .Get "display" }}
+
 {{ $link := absURL $path }}
 {{ $page := .Page.GetPage $path }}
-{{ $display := .Get "display" }}
 {{ $mathLink := $page.Params.mathLink }}
 
 {{ $name := "" }}
@@ -17,18 +18,19 @@
     {{ end }}
 {{ end }}
 
-{{ if eq $mod "dag" }}
-    {{ $name = "$^\\dagger$" }}
-    {{ $type = printf "%s %s" $type "dag" }}
-{{ else if eq $mod "space" }}
-    {{ $type = printf "%s %s" $type "space" }}
-{{ end }}
-
 {{ $title := "" }}
 {{ if $page }}
     {{ $title = $page.Title }}
 {{ else }}
     {{ $title = $display }}
+    {{ $type = printf "%s %s" $type "ghostLink" }}
+{{ end }}
+
+{{ if eq $mod "dag" }}
+    {{ $name = "$^\\dagger$" }}
+    {{ $type = printf "%s %s" $type "dag" }}
+{{ else if eq $mod "space" }}
+    {{ $type = printf "%s %s" $type "space" }}
 {{ end }}
 
 <a href={{ $link }} class="internalLink {{ $type }}" title="{{ $title }}" mathLink="{{ $mathLink }}" onmouseover="previewSide({{ $link }});" onmouseleave="clearPreviewSide();" onclick="updateCurrentSide(event, {{ $link }});">{{ $name }}</a>{{- "" -}}

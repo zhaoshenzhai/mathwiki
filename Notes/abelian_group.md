@@ -24,7 +24,7 @@ Every f.g. Abelian group $G$ admits a decomposition $G\iso\Z^{\rk G}\oplus\Tor G
 $$\begin{equation}
     \Tor G\iso\bigoplus\_{i,j}\Z/\mf{p}\_i^{\alpha\_{ij}}\iso\bigoplus\_j\Z/\mf{a}\_j
 \end{equation}$$
-for unique (up to a permutation) prime ideals $\mf{p}\_i\nsubgrp\Z$ <span style="color:gray">(elementary divisors)</span> and positive integers $\alpha\_{ij}\in\N$, where $\mf{a}\_j\coloneqq\prod_i\mf{p}\_i^{\alpha\_{ij}}$ <span style="color:gray">(invariant factors)</span>.
+for unique (up to a permutation) prime ideals $\mf{p}\_i\nsubgrp\Z$ <span style="color:gray">(elementary divisors)</span> and positive integers $\alpha\_{ij}\in\N$, where $\mf{a}\_j\coloneqq\prod\_i\mf{p}\_i^{\alpha\_{ij}}$ <span style="color:gray">(invariant factors)</span>.
 
 {{< /env >}}
 
