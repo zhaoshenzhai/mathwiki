@@ -1,7 +1,11 @@
 import { toSmallCaps } from "./stringUtils.js"
 
-// Style Headers
 document.addEventListener("DOMContentLoaded", (e) => {
+    styleHeaders();
+    generateTOC();
+});
+
+function styleHeaders() {
     var headerList = document.querySelectorAll("h1, h2");
     var headers = expandHeaders(headerList);
 
@@ -20,7 +24,12 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
         h1Counter++;
     }
-});
+}
+
+function generateTOC() {
+    var toc = document.getElementById("tableOfContents");
+    console.log(toc);
+}
 
 function expandHeaders(list) {
     var headers = {};

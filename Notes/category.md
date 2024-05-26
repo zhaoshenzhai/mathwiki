@@ -7,11 +7,11 @@ tags: [Topic/Category_Theory]
 
 # Motivation & Definition
 
-The starting point of the theory of *categories* is the observation that many properties of mathematical objects can be more succinctly expressed as diagrams of arrows $-$ as opposed to an equation $-$ and that many objects can be constructed via a ‘universal property’ of such a diagram.
+The starting point of the theory of *categories* is the observation that many properties of mathematical objects can be more succinctly expressed as diagrams of arrows $-$ as opposed to an equation $-$ and that many objects can be constructed via a ‘universal property’ of such a diagram; heuristically then, these objects are characterized as the ‘most efficient solution to a certain optimization problem’.
 
 <br>
 
-&emsp;&emsp;Heuristically, these objects are characterized as the ‘most efficient solution to an optimization problem’. To formalize this, we make the following
+&emsp;&emsp; To formalize this, we need a general framework for composing arrows, so we make the following
 
 {{< env "definition" >}}
 
