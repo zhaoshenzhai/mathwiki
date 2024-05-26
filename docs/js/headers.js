@@ -1,14 +1,19 @@
 import { toSmallCaps } from "./stringUtils.js"
 
+var headerList, headers, toc;
+
+window.showTOC = showTOC;
+window.hideTOC = hideTOC;
+
 document.addEventListener("DOMContentLoaded", (e) => {
+    headerList = document.querySelectorAll("h1, h2");
+    headers = expandHeaders(headerList);
+
     styleHeaders();
     generateTOC();
 });
 
 function styleHeaders() {
-    var headerList = document.querySelectorAll("h1, h2");
-    var headers = expandHeaders(headerList);
-
     var newTitle = toSmallCaps(headerList[0].innerText, 25, 30);
     newTitle.setAttribute("id", "title");
     newTitle.classList.add("center");
@@ -27,8 +32,56 @@ function styleHeaders() {
 }
 
 function generateTOC() {
-    var toc = document.getElementById("tableOfContents");
-    console.log(toc);
+    toc = document.getElementById("metaContents");
+
+    var h1Headers = document.createElement("ol");
+    h1Headers.classList.add("metaContentListH1");
+    toc.appendChild(h1Headers);
+
+    if (Object.keys(headers).length == 0) {
+        document.getElementById("toc").remove();
+    }
+
+    for(var [h1Index, h2List] of Object.entries(headers)) {
+        var h1El = document.createElement("li");
+        var h1Button = document.createElement("button");
+        h1El.appendChild(h1Button);
+        h1Headers.appendChild(h1El);
+
+        h1Button.onclick = function () { goTo(this.getAttribute("text")) };
+        h1Button.classList.add("metaContentButton");
+        h1Button.innerText = headerList[h1Index].innerText;
+        h1Button.setAttribute("text", h1Button.innerText);
+
+        var h2Headers = document.createElement("ol");
+        h2Headers.classList.add("metaContentListH2");
+        h1El.appendChild(h2Headers);
+        for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
+            var h2El = document.createElement("li");
+            var h2Button = document.createElement("button");
+            h2El.appendChild(h2Button);
+            h2Headers.appendChild(h2El);
+
+            h2Button.onclick = function () { goTo(this.getAttribute("text")) };
+            h2Button.classList.add("metaContentButton");
+            h2Button.innerText = h2List[h2Index].innerText
+                .replace(/\.$/, "").replace(/.*\.\ /, "");
+            h2Button.setAttribute("text", h2Button.innerText);
+        }
+    }
+}
+
+export function showTOC() {
+    toc.style.maxHeight = toc.scrollHeight + "px";
+}
+function hideTOC() {
+    toc.style.maxHeight = null;
+}
+
+function goTo(anchor) {
+    var loc = document.location.toString().split('#')[0];
+    document.location = loc + '#' + anchor;
+    return false;
 }
 
 function expandHeaders(list) {
@@ -71,6 +124,7 @@ function styleH2(el, parentCounter, counter) {
     num.innerText = parentCounter + "." + counter + ". "
     num.style.fontWeight = "normal";
 
+    el.setAttribute("id", el.innerText);
     el.innerText += ".";
     el.prepend(num);
 }

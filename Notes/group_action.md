@@ -5,7 +5,7 @@ references: [Ref/Alu09, Ref/Mac10]
 tags: [Topic/Group_Theory]
 ---
 
-# Motivation and Definition
+# Motivation & Definition
 
 Groups capture $-$ *abstractly* $-$ the notion of a symmetry. But symmetries are also present in concrete objects, with different kinds of objects preserving different kinds of structure. The concept of a *group action* connects the two.
 

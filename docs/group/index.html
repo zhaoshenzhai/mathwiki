@@ -24,11 +24,11 @@
 
     <body class="listenDark">
         
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/metadata.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/metalinks.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/headers.js" type="module" defer></script>
 
-    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metaLinks.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
@@ -41,8 +41,7 @@
         
             <h1 id="title">Group</h1>
         
-        <h1 id="motivation--definition">Motivation &amp; Definition</h1>
-<p>The concept of a <em>group</em> was invented to capture the abstract properties of <em>symmetries</em> (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.</p>
+        <p>The concept of a <em>group</em> was invented to capture the abstract properties of <em>symmetries</em> (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.</p>
 
 
 
@@ -574,17 +573,13 @@ for every $g_1,g_2\in G$. <span style="color:gray">Note that this implies $f(e_G
                     <div class="metaButton metaTag listenDark">#Topic/Group_Theory</div>
                 
             </div>
-
             <br>
 
-            <div id="tableOfContents">Table of Contents:
-                <button class="metaButton listenDark" onclick="expandTOC();">Expand</button>
-                <button class="metaButton listenDark" onclick="collapseTOC();">Collapse</button>
-                <div id="contents"></div>
+            <div id="toc">Table of Contents:
+                <button class="metaButton listenDark" onclick="showTOC();">Show</button>
+                <button class="metaButton listenDark" onclick="hideTOC();">Hide</button>
+                <div id="metaContents"></div>
             </div>
-
-            <br>
-
             <div id="links">Links:
                 <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
                 <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>

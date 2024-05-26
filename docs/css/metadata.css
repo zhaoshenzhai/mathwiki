@@ -1,0 +1,87 @@
+#metadata {
+    padding-top: 70px;
+    font-family: cmut;
+}
+
+#metaContents, .metaLinkList {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.metaLinkButton {
+    font-family: cmut;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0px;
+    text-align: left;
+    color: var(--fg);
+    background-color: var(--bg);
+}
+
+.metaLinkButton .icon {
+    height: 13px;
+    rotate: -90deg;
+    transition: rotate 0.2s ease-out, filter 0.1s ease-out;
+}
+
+.metaLinkList {
+    font-family: cmu;
+    padding: 0 40px;
+    margin: 0;
+}
+
+.metaContentListH1, .metaContentListH2 {
+    counter-reset: item;
+}
+
+.metaContentListH1 {
+    font-size: 18px;
+}
+
+.metaContentListH2 {
+    opacity: 0.6;
+}
+
+.metaContentListH1 li, .metaContentListH2 li {
+    display: block;
+}
+
+.metaContentListH1 li:before, .metaContentListH2 li:before {
+    content: counters(item, ".") ". ";
+    counter-increment: item;
+}
+
+.metaContentButton {
+    font-family: cmut;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 2px 5px;
+    margin: 0px;
+    text-align: left;
+    color: var(--fg);
+    background-color: var(--bg);
+}
+
+.metaButton {
+    display: inline;
+    font-family: cmut;
+    font-size: 18px;
+    opacity: 0.6;
+    z-index: 100;
+    padding: 2px 8px;
+    border: none;
+    border-radius: 8px;
+    color: var(--fg);
+    background-color: var(--bg);
+}
+
+.metaButton:hover, .metaLinkButton:hover, .metaContentButton:hover {
+    cursor: pointer;
+    background-color: var(--box-bg);
+}

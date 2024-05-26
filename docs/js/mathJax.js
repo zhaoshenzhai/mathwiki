@@ -1,4 +1,5 @@
-import { expandMetaLinks } from "./metadata.js";
+import { expandMetaLinks } from "./metalinks.js";
+import { showTOC } from "./headers.js";
 
 window.MathJax = {
     tex: {
@@ -32,4 +33,7 @@ window.MathJax = {
         });
 })();
 
-function init() { expandMetaLinks(); }
+function init() {
+    expandMetaLinks();
+    showTOC();
+}

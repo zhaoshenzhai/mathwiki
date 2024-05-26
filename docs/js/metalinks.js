@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     var outgoingLinks = document.getElementsByClassName("internalLink");
     if (outgoingLinks.length == 0) {
         var links = document.getElementById("links")
-        if (links) { links.innerHTML = "Links: None" }
+        if (links) { links.remove(); }
     } else {
 
         var metaLinkTracker = [];
@@ -56,7 +56,6 @@ function collapseMetaLinks() {
 }
 
 function toggleMetaLink(metaLink) {
-    metaLink.classList.toggle("metaLinkActive");
     var links = metaLink.nextElementSibling;
     var icon = metaLink.firstChild;
 
@@ -70,14 +69,12 @@ function toggleMetaLink(metaLink) {
     }
 }
 function expandMetaLink(metaLink) {
-    metaLink.classList.add("metaLinkActive");
     var links = metaLink.nextElementSibling;
     var icon = metaLink.firstChild;
     links.style.maxHeight = links.scrollHeight + "px";
     icon.style.rotate = "0deg";
 }
 function collapseMetaLink(metaLink) {
-    metaLink.classList.remove("metaLinkActive");
     var links = metaLink.nextElementSibling;
     var icon = metaLink.firstChild;
     links.style.maxHeight = null;

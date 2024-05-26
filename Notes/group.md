@@ -5,8 +5,6 @@ references: [Ref/Alu09, Ref/DF03, Ref/Mac10]
 tags: [Topic/Group_Theory]
 ---
 
-# Motivation & Definition
-
 The concept of a *group* was invented to capture the abstract properties of *symmetries* (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.
 
 {{< env "definition" >}}
