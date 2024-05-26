@@ -92,8 +92,8 @@ export function searchOpen(newTab) {
     var path = window.origin + "/mathwiki/" + element.getAttribute("href");
 
     searchClear();
-    if (newTab) { window.open(path, "_blank"); }
-    else { window.open(path, "_self"); }
+    if (newTab) { window.open(path, "_blank");
+    } else { window.open(path, "_self"); }
 }
 
 function validateInput(e) {

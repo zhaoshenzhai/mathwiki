@@ -1,3 +1,5 @@
+import { getCtrlKeyDown } from "./input.js"
+
 var mainContent = document.getElementById("content");
 var defaultSide = document.getElementById("metadata");
 var resetButton = document.getElementById("resetSide");
@@ -20,7 +22,8 @@ window.clearPreviewSide = clearPreviewSide;
 window.updateCurrentSide = updateCurrentSide;
 window.resetSide = resetSide;
 
-function previewSide(link) {
+function previewSide(link, page) {
+    if (page == "nopPage") { return; }
     if (currentSide.src != link && (!getPreview() || cleared)) {
         getPreview()?.remove();
         previewReady = false;
@@ -61,8 +64,11 @@ function clearPreviewSide() {
     }
 }
 
-function updateCurrentSide(e, link) {
-    if (!mainContent.classList.contains("openLinks")) {
+function updateCurrentSide(e, link, page) {
+    e.preventDefault();
+    if (page == "nopPage") { return; }
+
+    if (!mainContent.classList.contains("openLinks") && !getCtrlKeyDown()) {
         clicked = true;
         var preview = getPreview();
 
@@ -85,7 +91,6 @@ function updateCurrentSide(e, link) {
     } else { window.open(link, "_blank"); }
 
     document.activeElement.blur();
-    e.preventDefault();
 }
 
 export function resetSide() {
@@ -112,7 +117,6 @@ function newPreviewFrame(link) {
     frame.setAttribute("id", "previewFrame");
     frame.setAttribute("class", "right frame");
     frame.setAttribute("title", "Preview");
-
 
     frame.addEventListener("load", function() {
         var frameDoc = frame.contentDocument;

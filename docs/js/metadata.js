@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         var links = document.getElementById("links")
         if (links) { links.innerHTML = "Links: None" }
     } else {
+
         var metaLinkTracker = [];
         for (var i = 0; i < outgoingLinks.length; i++) {
             var link = outgoingLinks[i];
@@ -100,7 +101,7 @@ function newMetaLinkType(linkType) {
 
     newLinkDiv.setAttribute("id", "l-" + linkType);
     newLinkDiv.insertBefore(newLinkButton, newLinkList.nextSibling);
-    newLinkDiv.appendChild(newLinkList);   
+    newLinkDiv.appendChild(newLinkList);
 
     return metaLinkTypesDict[linkType];
 }
@@ -111,12 +112,24 @@ function newMetaLink(link) {
 
     metaLinkContainer.appendChild(metaLink);
     metaLink.setAttribute("href", link.href);
+    metaLink.onclick = function (e) {
+        if (metaLink.classList.contains("ghostLink")) {
+            e.preventDefault();
+        }
+    };
 
     var mathLink = link.getAttribute("mathLink");
+    var title = link.getAttribute("title");
+    if (!title) { title = link.href.replace(/.*\//, ""); }
+
     if (mathLink) {
         metaLink.innerText = link.getAttribute("mathLink");
     } else {
-        metaLink.innerText = link.getAttribute("title");
+        metaLink.innerText = title;
+    }
+
+    if (link.classList.contains("ghostLink")) {
+        metaLink.classList.add("ghostLink");
     }
 
     return metaLinkContainer;

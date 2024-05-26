@@ -10,6 +10,14 @@ a:hover {
     color: var(--link-hover);
 }
 
+a.ghostLink {
+    color: var(--link-ghost) !important;
+}
+
+a.ghostLink:hover {
+    color: var(--link-ghost-hover) !important;
+}
+
 .dag, .space {
     margin-left: -8px;
 }

@@ -112,6 +112,11 @@ function newMetaLink(link) {
 
     metaLinkContainer.appendChild(metaLink);
     metaLink.setAttribute("href", link.href);
+    metaLink.onclick = function (e) {
+        if (metaLink.classList.contains("ghostLink")) {
+            e.preventDefault();
+        }
+    };
 
     var mathLink = link.getAttribute("mathLink");
     var title = link.getAttribute("title");
