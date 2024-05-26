@@ -1,7 +1,8 @@
 {{ $path := .Get "file" }}
 {{ $type := .Get "type" }}
-{{ $mod := .Get "mod" }}
 {{ $display := .Get "display" }}
+{{ $section := .Get "section" }}
+{{ $mod := .Get "mod" }}
 
 {{ $link := absURL $path }}
 {{ $page := .Page.GetPage $path }}
@@ -33,4 +34,8 @@
     {{ $type = printf "%s %s" $type "space" }}
 {{ end }}
 
-<a href={{ $link }} class="internalLink {{ $type }}" title="{{ $title }}" mathLink="{{ $mathLink }}" onmouseover="previewSide({{ $link }}, {{ $page }});" onmouseleave="clearPreviewSide({{ $page }});" onclick="updateCurrentSide(event, {{ $link }}, {{ $page }});">{{ $name }}</a>{{- "" -}}
+{{ if $section }}
+    {{ $link = printf "%s%s%s" $link "/#" $section }}
+{{ end }}
+
+<a href={{ $link }} class="internalLink {{ $type }}" title="{{ $title }}" mathLink="{{ $mathLink }}" section="{{ $section }}" onmouseover="previewSide({{ $link }}, {{ $page }});" onmouseleave="clearPreviewSide({{ $page }});" onclick="updateCurrentSide(event, {{ $link }}, {{ $page }});">{{ $name }}</a>{{- "" -}}

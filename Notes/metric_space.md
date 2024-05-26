@@ -5,6 +5,8 @@ references: []
 tags: []
 ---
 
+# Motivation & Definition
+
 Abstracting away the basic properties of Euclidean distance in $\R^n$, and most notably preserving the *Triangle Inequality*, we make the following
 
 {{< env "definition" >}}
@@ -17,6 +19,8 @@ A **metric** on a set $X$ is a function $d:X\times X\to\R_{\geq0}$ such that
 If $d$ is a metric on $X$, we call the pair $\tpl{X,d}$ a **metric space**.
 
 {{< /env >}}
+
+## Topology
 
 Let $\tpl{X,d}$ be a metric space. The most important objects that the metric $d$ construct are *open balls*, which form {{< link file="metric_space_generates_a_topology" type="justifications" mod="dag" >}} a {{< link file="basis_and_subbasis" display="basis" type="references" >}} for a {{< link file="topological_space" display="topology" type="generalizations" >}}. Explicitly, this means that a subset $U\subseteq X$ is *open* if for every $x\in U$, there is some $\epsilon>0$ such that $B_\epsilon(x)\subseteq U$, where
 
@@ -40,7 +44,7 @@ A topological space $\tpl{X,\mc{T}}$ is said to be **metrizable** if there is a 
 Specifically, metrizable spaces enjoy the following properties.
 * hi
 
-Clearly, metric spaces with continuous maps form a {{< link file="subcategory" display="subcategory" type="references" >}} of {{< link file="topological_space" display="$\cattop$" type="generalizations" >}}. However, there is a more useful subcategory in which morphisms preserve the metric structure.
+Clearly, metric spaces with continuous maps form a {{< link file="subcategory" display="subcategory" type="references" >}} of {{< link file="topological_space" display="$\cattop$" type="generalizations" section="The Category $\cattop$" >}}. However, there is a more useful subcategory in which morphisms preserve the metric structure.
 
 {{< env "definition" >}}
 

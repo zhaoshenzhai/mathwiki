@@ -2,7 +2,7 @@ export function firstUpper(s) {
     return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
-export function makeHeader(s, small, big) {
+export function toSmallCaps(s, small, big) {
     var newEl = document.createElement("h1");
 
     var splitMath = s.split("$");

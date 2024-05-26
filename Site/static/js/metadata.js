@@ -22,11 +22,12 @@ document.addEventListener("DOMContentLoaded", (e) => {
             var link = outgoingLinks[i];
             var linkType = link.classList[1];
 
-            if (!metaLinkTracker.includes(linkType + link.href)) {
+            var linkBaseHref = link.href.replace(/\/#.*/, "");
+            if (!metaLinkTracker.includes(linkType + linkBaseHref)) {
                 var metaLinkType = metaLinkTypesDict[linkType];
                 if (!metaLinkType) { metaLinkType = newMetaLinkType(linkType); }
 
-                metaLinkTracker.push(linkType + link.href);
+                metaLinkTracker.push(linkType + linkBaseHref);
                 metaLinkType.nextElementSibling.appendChild(newMetaLink(link));
             }
         }
@@ -120,8 +121,8 @@ function newMetaLink(link) {
         }
     };
 
-    var mathLink = link.getAttribute("mathLink");
     var title = link.getAttribute("title");
+    var mathLink = link.getAttribute("mathLink");
     if (!title) { title = link.href.replace(/.*\//, ""); }
 
     if (mathLink) {

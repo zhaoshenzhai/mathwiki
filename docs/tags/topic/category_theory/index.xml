@@ -13,7 +13,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/category/</link>
       <pubDate>Wed, 22 May 2024 21:52:00 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/category/</guid>
-      <description>The starting point of the theory of categories is the observation that many properties of mathematical objects can be more succinctly expressed as diagrams of arrows $-$ as opposed to an equation $-$ and that many objects can be constructed via a ‘universal property’ of such a diagram.&#xA;Heuristically, these objects are characterized as the ‘most efficient solution to an optimization problem’. To formalize this, we make the following&#xA;Definition. A category $C$ consists of a class $\mc{O}$ of objects, and,</description>
+      <description>Motivation &amp;amp; Definition The starting point of the theory of categories is the observation that many properties of mathematical objects can be more succinctly expressed as diagrams of arrows $-$ as opposed to an equation $-$ and that many objects can be constructed via a ‘universal property’ of such a diagram.&#xA;Heuristically, these objects are characterized as the ‘most efficient solution to an optimization problem’. To formalize this, we make the following</description>
     </item>
   </channel>
 </rss>

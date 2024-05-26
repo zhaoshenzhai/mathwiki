@@ -32,6 +32,8 @@ A function $f:X\to Y$ between topological spaces is **continuous** if for any op
 
 With continuous functions as morphisms, topological spaces form a {{< link file="category" display="category" type="references" >}}, which we denote by $\cattop$; by convention, isomorphisms in $\cattop$ are called *homeomorphisms* (which are not {{< link file="continuous_bijection_homeomorphism" type="justifications" mod="dag" >}} merely bijective continuous functions). Most importantly, $\cattop$ is {{< link file="cattop_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_(category_theory)" display="complete" type="references" >}}, so <span style="color:red">???</span>
 
+<br>
+
 &emsp;&emsp;Very broadly speaking, the goal of topology is to find classifying invariants (i.e. a list of properties such that $X\iso Y$ iff they satisfy the same properties), but this is too hard in general. Indeed, the entire field of {{< link file="algebraic_topology" display="algebraic topology" type="references" >}} is devoted to finding algebraic invariants (and techniques to compute them). We thus restrict our attention to certain ‘nice’ subclasses thereof, many of which form {{< link file="subcategory" display="subcategories" type="references" >}}.
 * {{< link file="Hausdorff_space" display="Hausdorff" type="types" >}} spaces (and more generally spaces satisfying some {{< link file="separation_axioms" display="Separation" type="types" >}} axioms), exclude a lot of pathologies present in general topological spaces.
 * {{< link file="compact_space" display="Compact" type="types" >}} spaces exhibit many properties of finite sets, and are therefore really nice to work with.

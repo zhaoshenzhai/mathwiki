@@ -13,7 +13,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/group_action/</link>
       <pubDate>Wed, 22 May 2024 20:02:09 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/group_action/</guid>
-      <description>Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in concrete objects, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a&#xA;category $C$. A $G$-action is a&#xA;functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.&#xA;Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$.</description>
+      <description>Motivation and Definition Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in concrete objects, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a&#xA;category $C$. A $G$-action is a&#xA;functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.&#xA;Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$.</description>
     </item>
     <item>
       <title>Abelian Group</title>
@@ -27,7 +27,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/group/</link>
       <pubDate>Thu, 16 May 2024 21:34:09 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/group/</guid>
-      <description>The concept of a group was invented to capture the abstract properties of symmetries (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.&#xA;Definition. A group is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a distinguished element $e\in G$ called the identity, and operations $\cdot:G\times G\to G$ and $(\slot)^{-1}:G\to G$, subject to the following conditions.&#xA;(Associativity). For all $g,h,k\in G$, we have $g\cdot(h\cdot k)=(g\cdot h)\cdot k$.</description>
+      <description>Motivation &amp;amp; Definition The concept of a group was invented to capture the abstract properties of symmetries (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.&#xA;Definition. A group is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a distinguished element $e\in G$ called the identity, and operations $\cdot:G\times G\to G$ and $(\slot)^{-1}:G\to G$, subject to the following conditions.&#xA;(Associativity). For all $g,h,k\in G$, we have $g\cdot(h\cdot k)=(g\cdot h)\cdot k$.</description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,11 @@ body, h1, p {
     margin: 0;
 }
 
+h2, p {
+    font-size: 23px;
+    display: inline;
+}
+
 blockquote {
     opacity: 0.6;
     border-left: 3px solid var(--quote);
@@ -53,5 +58,6 @@ blockquote {
 }
 
 .center {
+    vertical-align: text-top;
     text-align: center;
 }

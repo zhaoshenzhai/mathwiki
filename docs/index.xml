@@ -13,14 +13,14 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/category/</link>
       <pubDate>Wed, 22 May 2024 21:52:00 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/category/</guid>
-      <description>The starting point of the theory of categories is the observation that many properties of mathematical objects can be more succinctly expressed as diagrams of arrows $-$ as opposed to an equation $-$ and that many objects can be constructed via a ‘universal property’ of such a diagram.&#xA;Heuristically, these objects are characterized as the ‘most efficient solution to an optimization problem’. To formalize this, we make the following&#xA;Definition. A category $C$ consists of a class $\mc{O}$ of objects, and,</description>
+      <description>Motivation &amp;amp; Definition The starting point of the theory of categories is the observation that many properties of mathematical objects can be more succinctly expressed as diagrams of arrows $-$ as opposed to an equation $-$ and that many objects can be constructed via a ‘universal property’ of such a diagram.&#xA;Heuristically, these objects are characterized as the ‘most efficient solution to an optimization problem’. To formalize this, we make the following</description>
     </item>
     <item>
       <title>Group Action</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/group_action/</link>
       <pubDate>Wed, 22 May 2024 20:02:09 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/group_action/</guid>
-      <description>Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in concrete objects, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a&#xA;category $C$. A $G$-action is a&#xA;functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.&#xA;Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$.</description>
+      <description>Motivation and Definition Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in concrete objects, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a&#xA;category $C$. A $G$-action is a&#xA;functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.&#xA;Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$.</description>
     </item>
     <item>
       <title>Abelian Group</title>
@@ -34,14 +34,14 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/group/</link>
       <pubDate>Thu, 16 May 2024 21:34:09 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/group/</guid>
-      <description>The concept of a group was invented to capture the abstract properties of symmetries (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.&#xA;Definition. A group is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a distinguished element $e\in G$ called the identity, and operations $\cdot:G\times G\to G$ and $(\slot)^{-1}:G\to G$, subject to the following conditions.&#xA;(Associativity). For all $g,h,k\in G$, we have $g\cdot(h\cdot k)=(g\cdot h)\cdot k$.</description>
+      <description>Motivation &amp;amp; Definition The concept of a group was invented to capture the abstract properties of symmetries (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.&#xA;Definition. A group is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a distinguished element $e\in G$ called the identity, and operations $\cdot:G\times G\to G$ and $(\slot)^{-1}:G\to G$, subject to the following conditions.&#xA;(Associativity). For all $g,h,k\in G$, we have $g\cdot(h\cdot k)=(g\cdot h)\cdot k$.</description>
     </item>
     <item>
       <title>Metric Space</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/metric_space/</link>
       <pubDate>Tue, 14 May 2024 21:37:43 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/metric_space/</guid>
-      <description>Abstracting away the basic properties of Euclidean distance in $\R^n$, and most notably preserving the Triangle Inequality, we make the following&#xA;Definition. A metric on a set $X$ is a function $d:X\times X\to\R_{\geq0}$ such that&#xA;(Positive-definiteness). For all $x,y\in X$, we have $d(x,y)=0$ iff $x=y$. (Symmetry.) For all $x,y\in X$, we have $d(x,y)=d(y,x)$. ($\Delta$-inequality). For all $x,y,z\in X$, we have $d(x,z)\leq d(x,y)+d(y,z)$. If $d$ is a metric on $X$, we call the pair $\tpl{X,d}$ a metric space.</description>
+      <description>Motivation &amp;amp; Definition Abstracting away the basic properties of Euclidean distance in $\R^n$, and most notably preserving the Triangle Inequality, we make the following&#xA;Definition. A metric on a set $X$ is a function $d:X\times X\to\R_{\geq0}$ such that&#xA;(Positive-definiteness). For all $x,y\in X$, we have $d(x,y)=0$ iff $x=y$. (Symmetry.) For all $x,y\in X$, we have $d(x,y)=d(y,x)$. ($\Delta$-inequality). For all $x,y,z\in X$, we have $d(x,z)\leq d(x,y)+d(y,z)$. If $d$ is a metric on $X$, we call the pair $\tpl{X,d}$ a metric space.</description>
     </item>
     <item>
       <title>Topological Space</title>

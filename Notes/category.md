@@ -5,7 +5,11 @@ references: [Ref/Mac10]
 tags: [Topic/Category_Theory]
 ---
 
+# Motivation & Definition
+
 The starting point of the theory of *categories* is the observation that many properties of mathematical objects can be more succinctly expressed as diagrams of arrows $-$ as opposed to an equation $-$ and that many objects can be constructed via a ‘universal property’ of such a diagram.
+
+<br>
 
 &emsp;&emsp;Heuristically, these objects are characterized as the ‘most efficient solution to an optimization problem’. To formalize this, we make the following
 
@@ -29,4 +33,6 @@ we have $h\circ(g\circ f)=(h\circ g)\circ f$.
 
 {{< /env >}}
 
+## Set-theoretic Technicalities
 
+<span style="color:red">Fill this in...</span>
