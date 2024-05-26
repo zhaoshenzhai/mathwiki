@@ -122,7 +122,6 @@ function newPreviewFrame(link) {
         var frameDoc = frame.contentDocument;
         frameDoc.getElementById("side").style.display = "none";
         frameDoc.getElementById("toggleDark").style.display = "none";
-        frameDoc.documentElement.classList.add("noScroll");
 
         frameContent = frameDoc.getElementById("content");
         frameContent.classList.add("openLinks");

@@ -5,54 +5,53 @@
 
     <link rel="stylesheet" href="{{ absURL "" }}css/preview.css">
     <link rel="stylesheet" href="{{ absURL "" }}css/single.css">
-    <link rel="stylesheet" href="{{ absURL "" }}css/footer.css">
     <link rel="stylesheet" href="{{ absURL "" }}css/env.css">
     <link rel="stylesheet" href="{{ absURL "" }}css/nav.css">
 
-    <div id="pageContainer">
-        <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
-            <img id="toggleDarkIcon" src="{{ absURL "" }}css/fa/sun.svg">
-        </button>
-        <div id="content" class="left">
-            {{ if .Params.mathLink }}
-                <h1>{{ .Params.mathLink }}</h1>
-            {{ else }}
-                <h1>{{ .Title }}</h1>
-            {{ end }}
+    <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
+        <img id="toggleDarkIcon" src="{{ absURL "" }}css/fa/sun.svg">
+    </button>
+    <div id="content" class="left noScroll">
+        {{ if .Params.mathLink }}
+            <h1>{{ .Params.mathLink }}</h1>
+        {{ else }}
+            <h1>{{ .Title }}</h1>
+        {{ end }}
+
+        <br>
+        {{ .Content }}
+
+        <div class="spacer">&nbsp;</div>
+    </div>
+
+    <div id="side">
+        <div id="metadata" class="right noScroll">
+            {{ .Params.date | time.Format ":date_long" }} | Zhaoshen Zhai
+
+            <div id="references">References:
+                {{ range .Params.references }}
+                    <div class="metaButton metaRef listenDark">#{{ . }}</div>
+                {{ else }} None {{ end }}
+            </div>
+            <div id="tags">Tags:
+                {{ range .Params.tags }}
+                    <div class="metaButton metaTag listenDark">#{{ . }}</div>
+                {{ else }} None {{ end }}
+            </div>
 
             <br>
-            {{ .Content }}
-        </div>
-
-        <div id="side">
-            <div id="metadata" class="right">
-                {{ .Params.date | time.Format ":date_long" }} | Zhaoshen Zhai
-
-                <div id="references">References:
-                    {{ range .Params.references }}
-                        <div class="metaButton metaRef listenDark">#{{ . }}</div>
-                    {{ else }} None {{ end }}
-                </div>
-                <div id="tags">Tags:
-                    {{ range .Params.tags }}
-                        <div class="metaButton metaTag listenDark">#{{ . }}</div>
-                    {{ else }} None {{ end }}
-                </div>
-
-                <br>
-                <div id="links">Links:
-                    <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
-                    <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
-                    <div id="metaLinks"></div>
-                </div>
+            <div id="links">Links:
+                <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
+                <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
+                <div id="metaLinks"></div>
             </div>
-            <div id="preview">
-                <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
-                    <img src="{{ absURL "" }}css/fa/close.svg">
-                </button>
-            </div>
-        </div>
 
-        <div id="footer"></div>
+            <div class="spacer">&nbsp;</div>
+        </div>
+        <div id="preview">
+            <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
+                <img src="{{ absURL "" }}css/fa/close.svg">
+            </button>
+        </div>
     </div>
 {{ end }}

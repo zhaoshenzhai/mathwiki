@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=en-US>
+<html lang=en-US class="noScroll">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,28 +22,26 @@
         <div style="display:none;" id="preamble"></div>
     </head>
 
-    <body class="listenDark noScroll">
+    <body class="listenDark">
         
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/metadata.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
 
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
-    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/footer.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/nav.css">
 
-    <div id="pageContainer">
-        <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
-            <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
-        </button>
-        <div id="content" class="left">
-            
-                <h1>Category</h1>
-            
+    <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
+        <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
+    </button>
+    <div id="content" class="left noScroll">
+        
+            <h1>Category</h1>
+        
 
-            <br>
-            <p>The starting point of the theory of <em>categories</em> is the observation that many properties of mathematical objects can be more succinctly expressed as diagrams of arrows $-$ as opposed to an equation $-$ and that many objects can be constructed via a ‘universal property’ of such a diagram.</p>
+        <br>
+        <p>The starting point of the theory of <em>categories</em> is the observation that many properties of mathematical objects can be more succinctly expressed as diagrams of arrows $-$ as opposed to an equation $-$ and that many objects can be constructed via a ‘universal property’ of such a diagram.</p>
 <p>  Heuristically, these objects are characterized as the ‘most efficient solution to an optimization problem’. To formalize this, we make the following</p>
 
 
@@ -78,38 +76,39 @@ we have $h\circ(g\circ f)=(h\circ g)\circ f$.</li>
 </div>
 
 
-        </div>
 
-        <div id="side">
-            <div id="metadata" class="right">
-                May 22, 2024 | Zhaoshen Zhai
+        <div class="spacer">&nbsp;</div>
+    </div>
 
-                <div id="references">References:
-                    
-                        <div class="metaButton metaRef listenDark">#Ref/Mac10</div>
-                    
-                </div>
-                <div id="tags">Tags:
-                    
-                        <div class="metaButton metaTag listenDark">#Topic/Category_Theory</div>
-                    
-                </div>
+    <div id="side">
+        <div id="metadata" class="right noScroll">
+            May 22, 2024 | Zhaoshen Zhai
 
-                <br>
-                <div id="links">Links:
-                    <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
-                    <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
-                    <div id="metaLinks"></div>
-                </div>
+            <div id="references">References:
+                
+                    <div class="metaButton metaRef listenDark">#Ref/Mac10</div>
+                
             </div>
-            <div id="preview">
-                <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
-                    <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
-                </button>
+            <div id="tags">Tags:
+                
+                    <div class="metaButton metaTag listenDark">#Topic/Category_Theory</div>
+                
             </div>
-        </div>
 
-        <div id="footer"></div>
+            <br>
+            <div id="links">Links:
+                <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
+                <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
+                <div id="metaLinks"></div>
+            </div>
+
+            <div class="spacer">&nbsp;</div>
+        </div>
+        <div id="preview">
+            <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
+                <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
+            </button>
+        </div>
     </div>
 
 
