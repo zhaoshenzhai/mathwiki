@@ -1,0 +1,45 @@
+.metaLinkButton {
+    font-family: cmut;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0px;
+    text-align: left;
+    color: var(--fg);
+    background-color: var(--bg);
+}
+
+.metaLinkButton .icon {
+    height: 13px;
+    rotate: -90deg;
+    transition: rotate 0.2s ease-out, filter 0.1s ease-out;
+}
+
+.metaLinkList {
+    font-family: cmu;
+    padding: 0 40px;
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.metaButton {
+    display: inline;
+    font-family: cmut;
+    font-size: 18px;
+    opacity: 0.6;
+    z-index: 100;
+    padding: 2px 8px;
+    border: none;
+    border-radius: 8px;
+    color: var(--fg);
+    background-color: var(--bg);
+}
+
+.metaButton:hover, .metaLinkButton:hover {
+    cursor: pointer;
+    background-color: var(--box-bg);
+}

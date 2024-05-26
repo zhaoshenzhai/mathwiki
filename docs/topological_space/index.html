@@ -26,7 +26,9 @@
         
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/metadata.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/headers.js" type="module" defer></script>
 
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metaLinks.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
@@ -37,11 +39,10 @@
     </button>
     <div id="content" class="left noScroll">
         
-            <h1>Topological Space</h1>
+            <h1 id="title">Topological Space</h1>
         
-
-        <br>
-        <p>Let $X$ be a set. We would like to formalize a notion of ‘closeness’ between two points without necessarily referring to a specific 
+        <h1 id="motivation--definition">Motivation &amp; Definition</h1>
+<p>Let $X$ be a set. We would like to formalize a notion of ‘closeness’ between two points without necessarily referring to a specific 
 
 
 
@@ -153,6 +154,7 @@
     A function $f:X\to Y$ between topological spaces is <strong>continuous</strong> if for any open subset $V\subseteq Y$, its preimage $f^{-1}(V)\subseteq X$ is open too.
 </div>
 
+<h1 id="the-category-cattop">The Category $\cattop$</h1>
 <p>With continuous functions as morphisms, topological spaces form a 
 
 

@@ -1,3 +1,5 @@
+import { firstUpper } from "./stringUtils.js"
+
 var metaLinkTypes;
 var metaLinkTypesDict = {};
 
@@ -149,5 +151,3 @@ function typePriority(linkEl) {
 
     return allLinks.indexOf(linkEl.id.substring(2));
 }
-
-function firstUpper(s) { return s.charAt(0).toUpperCase() + s.slice(1); }

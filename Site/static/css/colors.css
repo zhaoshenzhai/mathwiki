@@ -2,11 +2,11 @@
     --bg: white;
     --fg: black;
 
-    --link: rgba(0,0,255,0.6);
-    --link-ghost: rgba(0,100,200,0.6);
+    --link: rgba(0,0,255,0.8);
+    --link-ghost: rgba(0,100,200,0.8);
 
-    --link-hover: rgba(0,0,255,0.8);
-    --link-ghost-hover: rgba(0,100,200,0.8);
+    --link-hover: rgba(0,0,255,1);
+    --link-ghost-hover: rgba(0,100,200,1);
 
     --nav-button-bg: rgba(255,255,255,0.5);
     --nav-button-hover-bg: rgba(200,200,200,0.5);
