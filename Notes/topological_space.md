@@ -28,6 +28,20 @@ A function $f:X\to Y$ between topological spaces is **continuous** if for any op
 
 {{< /env >}}
 
+## Basic Notions
+
+For a topological space $\tpl{X,\mc{O}_X}$, we let $\mc{F}_X\coloneqq\l\\{X\comp U\st U\in\mc{O}_X\r\\}$ denote its collection of *closed* sets. By De Morgan’s Laws, a topology is equivalently given by a family $\mc{F}_X\ni\em,X$ closed under intersections and finite unions. Fix $A\subseteq X$.
+* The *closure* of $A$ in $X$, denoted $\tcl A$ or $\bar{A}$, is the smallest closed set containing $A$. Explicitly, we have $\bar{A}=\bigcap\l\\{F\in\mc{F}_X\st F\supseteq A\r\\}$.
+* The *interior* of $A$ in $X$, denoted $\tint A$ or $A^\circ$, is the largest open set contained in $A$. Explicitly, we have $A^\circ=\bigcup\l\\{U\in\mc{O}_X\st U\subseteq A\r\\}$.
+* We say that $A$ is *dense* in $X$ if $\bar{A}=X$, and *nowhere dense* in $X$ if $\tint\bar{A}=\em$.
+* The *accumulation points* of $A$ is the set $A'\supseteq A$ consisting of all $x\in X$ such that $x\in\bar{A\comp\l\\{x\r\\}}$, and the *boundary* of $A$ is the set $\del A\coloneqq\bar{A}\comp A^\circ$.
+
+## Clustering & Convergence
+
+<span style="color:red">Fill this in with filters.</span>
+
+# Examples & Extensions
+
 # The Category $\cattop$
 
 With continuous functions as morphisms, topological spaces form a {{< link file="category" display="category" type="references" >}}, which we denote by $\cattop$; by convention, isomorphisms in $\cattop$ are called *homeomorphisms* (which are not {{< link file="continuous_bijection_homeomorphism" type="justifications" mod="dag" >}} merely bijective continuous functions). Most importantly, $\cattop$ is {{< link file="cattop_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_(category_theory)" display="complete" type="references" >}}, so <span style="color:red">???</span>

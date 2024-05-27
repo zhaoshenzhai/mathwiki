@@ -163,6 +163,17 @@
     A function $f:X\to Y$ between topological spaces is <strong>continuous</strong> if for any open subset $V\subseteq Y$, its preimage $f^{-1}(V)\subseteq X$ is open too.
 </div>
 
+<h2 id="basic-notions">Basic Notions</h2>
+<p>For a topological space $\tpl{X,\mc{O}_X}$, we let $\mc{F}_X\coloneqq\l\{X\comp U\st U\in\mc{O}_X\r\}$ denote its collection of <em>closed</em> sets. By De Morgan’s Laws, a topology is equivalently given by a family $\mc{F}_X\ni\em,X$ closed under intersections and finite unions. Fix $A\subseteq X$.</p>
+<ul>
+<li>The <em>closure</em> of $A$ in $X$, denoted $\tcl A$ or $\bar{A}$, is the smallest closed set containing $A$. Explicitly, we have $\bar{A}=\bigcap\l\{F\in\mc{F}_X\st F\supseteq A\r\}$.</li>
+<li>The <em>interior</em> of $A$ in $X$, denoted $\tint A$ or $A^\circ$, is the largest open set contained in $A$. Explicitly, we have $A^\circ=\bigcup\l\{U\in\mc{O}_X\st U\subseteq A\r\}$.</li>
+<li>We say that $A$ is <em>dense</em> in $X$ if $\bar{A}=X$, and <em>nowhere dense</em> in $X$ if $\tint\bar{A}=\em$.</li>
+<li>The <em>accumulation points</em> of $A$ is the set $A&rsquo;\supseteq A$ consisting of all $x\in X$ such that $x\in\bar{A\comp\l\{x\r\}}$, and the <em>boundary</em> of $A$ is the set $\del A\coloneqq\bar{A}\comp A^\circ$.</li>
+</ul>
+<h2 id="clustering--convergence">Clustering &amp; Convergence</h2>
+<p><span style="color:red">Fill this in with filters.</span></p>
+<h1 id="examples--extensions">Examples &amp; Extensions</h1>
 <h1 id="the-category-cattop">The Category $\cattop$</h1>
 <p>With continuous functions as morphisms, topological spaces form a 
 

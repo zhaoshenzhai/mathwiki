@@ -8,7 +8,7 @@ export function toSmallCaps(s, small, big) {
     var splitMath = s.split("$");
     for (var i = 0; i < splitMath.length; i++) {
         if (i % 2 == 0) {
-            var splitText = splitMath[i].match(/[A-Z]+[^A-Z]*|[^A-Z]+/g);
+            var splitText = splitMath[i].match(/[A-Z]+[^A-Z\&]*|[^A-Z]+/g);
             if (splitText) {
                 for (var j = 0; j < splitText.length; j++) {
                     var capital = document.createElement("span");
