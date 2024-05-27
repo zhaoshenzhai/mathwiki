@@ -34,12 +34,25 @@
     margin: 0;
 }
 
+.metaContentListH1, .metaContentListH2 {
+    counter-reset: item;
+}
+
 .metaContentListH1 {
     font-size: 18px;
 }
 
-.metaContentH2 {
+.metaContentListH2 {
     opacity: 0.6;
+}
+
+.metaContentListH1 li, .metaContentListH2 li {
+    display: block;
+}
+
+.metaContentListH1 li:before, .metaContentListH2 li:before {
+    content: counters(item, ".") ". ";
+    counter-increment: item;
 }
 
 .metaContentButton {
