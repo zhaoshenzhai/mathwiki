@@ -53,20 +53,24 @@ function generateTOC() {
         h1Button.innerText = headerList[h1Index].innerText;
         h1Button.setAttribute("text", h1Button.innerText);
 
-        var h2Headers = document.createElement("ol");
-        h2Headers.classList.add("metaContentListH2");
-        h1El.appendChild(h2Headers);
+        var h2Container = document.createElement("span");
+        h2Container.classList.add("metaContentH2");
+        h1El.appendChild(h2Container);
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
-            var h2El = document.createElement("li");
             var h2Button = document.createElement("button");
-            h2El.appendChild(h2Button);
-            h2Headers.appendChild(h2El);
+            h2Container.appendChild(h2Button);
 
             h2Button.onclick = function () { goTo(this.getAttribute("text")) };
             h2Button.classList.add("metaContentButton");
             h2Button.innerText = h2List[h2Index].innerText
                 .replace(/\.$/, "").replace(/.*\.\ /, "");
             h2Button.setAttribute("text", h2Button.innerText);
+
+            if (h2Index < h2List.length - 1) {
+                var h2Sep = document.createElement("span");
+                h2Sep.innerText = "|";
+                h2Container.appendChild(h2Sep);
+            }
         }
     }
 }
