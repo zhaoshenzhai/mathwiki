@@ -34,7 +34,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/group/</link>
       <pubDate>Thu, 16 May 2024 21:34:09 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/group/</guid>
-      <description>The concept of a group was invented to capture the abstract properties of symmetries (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.&#xA;Definition. A group is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a distinguished element $e\in G$ called the identity, and operations $\cdot:G\times G\to G$ and $(\slot)^{-1}:G\to G$, subject to the following conditions.&#xA;(Associativity). For all $g,h,k\in G$, we have $g\cdot(h\cdot k)=(g\cdot h)\cdot k$.</description>
+      <description>Motivation &amp;amp; Definition The concept of a group was invented to capture the abstract properties of symmetries (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.&#xA;Definition. A group is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a distinguished element $e\in G$ called the identity, and operations $\cdot:G\times G\to G$ and $\iota:G\to G$, subject to the following conditions.&#xA;(Associativity). For all $g,h,k\in G$, we have $g\cdot(h\cdot k)=(g\cdot h)\cdot k$.</description>
     </item>
     <item>
       <title>Metric Space</title>
