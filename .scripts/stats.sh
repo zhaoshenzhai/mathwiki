@@ -5,13 +5,11 @@ cd $MATHWIKI_DIR
 while [ ! -z "$1" ]; do
     case "$1" in
         --update|-u)
-            # cd ./Images
+            cd ./Site/static/img
 
-            # numImages=$(($(find -type d | wc -l) - 1))
-            numImages=0
+            numImages=$(($(find | wc -l) - 1))
 
-            # cd ..
-            cd ./Notes
+            cd $MATHWIKI_DIR/Notes
 
             numNotes=$(ls | wc -l)
             numLinks=$(sed 's/{{<\slink.*\s>}}/LINK\n/g' * | grep -Po "LINK" | wc -l)
