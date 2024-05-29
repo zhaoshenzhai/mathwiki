@@ -6,8 +6,15 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 May 2024 21:52:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 28 May 2024 16:05:23 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Functor</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/functor/</link>
+      <pubDate>Tue, 28 May 2024 16:05:23 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/functor/</guid>
+      <description>Motivation &amp;amp; Definition Definition. Let $C$ and $D$ be categories. A (covariant) functor $F:C\to D$ is the data of two functions:&#xA;An object function, assigning some $Fc\in D$ to each $c\in C$, and A morphism function, assigning some $Ff:Fc\to Fc&amp;rsquo;$ to each $f:c\to c&amp;rsquo;$, interacting in such a way that $$\begin{equation} F1_c=1_{Fc}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ F(f\circ g)=Ff\circ Fg \end{equation}$$ for all objects $c\in C$ and morphisms $f,g\in C$ whenever $f\circ g\in C$ is defined.</description>
+    </item>
     <item>
       <title>Category</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/category/</link>

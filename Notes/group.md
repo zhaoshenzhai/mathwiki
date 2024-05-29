@@ -34,7 +34,7 @@ for every $g_1,g_2\in G$. <span style="color:gray">Note that this implies $f(e_G
 
 {{< /env >}}
 
-Each homomorphism induce $f$ canonical subgroups $-$ i.e. subsets $A\subseteq G$ where $A\into G$ is a homomorphism: its *kernel* $\ker f\coloneqq f^{-1}(e_H)$ and its *image* $\im f\coloneqq f(G)$.
+Homomorphisms induce canonical subgroups $-$ i.e. subsets $A\subseteq G$ where $A\into G$ is a homomorphism: the *kernel* $\ker f\coloneqq f^{-1}(e_H)$ and the *image* $\im f\coloneqq f(G)$.
 
 <br><br>
 
@@ -92,6 +92,6 @@ Many groups arise as the automorphism group of some object $X$. In fact, this is
 
 &emsp;&emsp;Given a group $G$, consider the category $\cat{B}G$ consisting of a single object $\ast$, and, for each $g\in G$, a morphism $g:\ast\to\ast$. The identity in $\cat{B}G$ is the identity element $e\in G$, and composition is given by the group operation. Since every $g\in G$ admits an inverse $g^{-1}\in G$, we see that every morphism is invertible, and so $G=\Aut\ast$.
 
-> Note that a homomorphism $G\to H$ is nothing but a functor $\cat{B}G\to\cat{B}H$, and that a $G$-action on a category $C$ is nothing but a functor $\cat{B}G\to C$.
+> Note that a homomorphism $G\to H$ is nothing but a {{< link file="functor" display="functor" type="references" >}} $\cat{B}G\to\cat{B}H$, and that a $G$-action on a category $C$ is nothing but a functor $\cat{B}G\to C$.
 
 Generalizing this idea, we say that a category $C$ is a {{< link file="groupoid" display="groupoid" type="generalizations" >}} if each morphism is invertible. Thus, after identifying $G$ with $\cat{B}G$, a group is nothing but a groupoid with a single object.
