@@ -33,7 +33,14 @@
     width: 20px;
 }
 
-.icon, .navButton {
+.tikz {
+    display: block;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    transition: filter 0.1s ease-out;
+}
+
+.icon, .navButtonm, .tikz {
     -moz-user-select: -moz-none;
     -khtml-user-select: none;
     -webkit-user-select: none;

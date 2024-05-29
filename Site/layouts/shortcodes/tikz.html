@@ -1,12 +1,12 @@
-{{ .Inner }}
+{{ $imgName := .Get "name" }}
+{{ $imgWidth := .Get "width" }}
 
-{{ $imgName := .Get 0 }}
-{{ $imgPath := printf "%s%s%s" "Site/static/img/" $imgName ".svg" }}
+{{ $img := printf "img/%s.svg" $imgName }}
+{{ $imgAbs := absURL $img }}
+{{ $imgPath := printf "Site/static/%s" $img }}
 
-{{ $imgPath }}
-
-{{ if fileExists $imgPath }}
-    true
-{{ else }}
-    false
-{{ end }}
+{{- if fileExists $imgPath -}}
+<img class="tikz" src="{{ $imgAbs }}" width="{{ $imgWidth }}">
+{{- else -}}
+    {{ .Inner | .Page.RenderString }}
+{{- end -}}

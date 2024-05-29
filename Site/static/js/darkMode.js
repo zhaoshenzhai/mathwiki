@@ -49,6 +49,7 @@ export function toggleDark(doc, reset, update, frame) {
     }
 
     var icons = doc.getElementsByClassName("icon");
+    var images = doc.getElementsByClassName("tikz");
     var navButtons = doc.getElementsByClassName("navButton");
     root = doc.querySelector(':root');
 
@@ -58,6 +59,9 @@ export function toggleDark(doc, reset, update, frame) {
         }
         for (var i = 0; i < icons.length; i++) {
             icons[i].style.filter = "";
+        }
+        for (var i = 0; i < images.length; i++) {
+            images[i].style.filter = "";
         }
         for (var i = 0; i < navButtons.length; i++) {
             navButtons[i].style.filter = "";
@@ -71,6 +75,9 @@ export function toggleDark(doc, reset, update, frame) {
         }
         for (var i = 0; i < icons.length; i++) {
             icons[i].style.filter = "invert(100%)";
+        }
+        for (var i = 0; i < images.length; i++) {
+            images[i].style.filter = "invert(86%)";
         }
         for (var i = 0; i < navButtons.length; i++) {
             navButtons[i].style.filter = "invert(100%)";

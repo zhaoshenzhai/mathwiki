@@ -13,7 +13,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/natural_transformation/</link>
       <pubDate>Wed, 29 May 2024 13:41:19 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/natural_transformation/</guid>
-      <description>Motivation &amp;amp; Definition Definition. Let $F,G:C\to D$ be covariant functors between categories $C$ and $D$. A natural transformation $\eta:F\to G$ is a function assigning to each $c\in C$ a morphism $\eta_c:Fc\to Gc$ of $D$ such that for every $f:c\to c&amp;rsquo;$, the diagram&#xA;\begin{tikzcd} A \arrow[r, &amp;quot;\phi&amp;quot;] &amp;amp; B \end{tikzcd} Site/static/img/definition.svg&#xA;true </description>
+      <description>Motivation &amp;amp; Definition Definition. Let $F,G:C\to D$ be covariant functors between categories $C$ and $D$. A natural transformation $\eta:F\to G$ is a function assigning to each $c\in C$ a morphism $\eta_c:Fc\to Gc$ of $D$ such that for every $f:c\to c&amp;rsquo;$, the diagram</description>
     </item>
     <item>
       <title>Functor</title>

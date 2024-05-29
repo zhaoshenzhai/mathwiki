@@ -36,7 +36,7 @@ while [[ "$repeat" == "Y" ]]; do
         "2") $MATHWIKI_DIR/.scripts/searchReplace.sh ;;
         "3") $MATHWIKI_DIR/.scripts/gitRestore.sh ;;
         "4") $MATHWIKI_DIR/.scripts/ghostLinks.sh ;;
-        "5") $MATHWIKI_DIR/.scripts/updateImages.sh ;;
+        "5") $MATHWIKI_DIR/.scripts/updateImages.sh -a -g ;;
         "6") $MATHWIKI_DIR/.scripts/publish.sh ;;
     esac
 

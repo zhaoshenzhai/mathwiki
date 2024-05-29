@@ -1,33 +1,77 @@
 #!/bin/bash
 
-cd $MATHWIKI_DIR/Images
+counter=0
 
-echo ""
-prompt="Update images containing [(string)/ALL]: "
+UPDATE() {
+    note=$(echo "$1" | sed 's/\\/\\\\/g' | sed 's/&/\\&/g')
+    codeBoundary=$(echo "$note" | sed -n '/{{< tikz/,/{{< \/tikz/p')
+    names=$(echo "$codeBoundary" | grep -o -P '(?<=tikz name=").*(?=" width)')
 
-read -rp "$(echo -e ${PURPLE}$prompt${NC})" filter
-while [ -z "$filter" ]; do
-    read -rp "$(echo -e ${PURPLE}$prompt${NC})" filter
-done
+    codes=$(echo "$note" | sed -n '/{{< tikz/,/{{< \/tikz/{//b;p}')
+    codes=$(echo "$codes" | sed 's/\\\\begin/@\\\\begin/g')
+    codes=$(echo "$codes" | sed 's/^ *//g' | tr -d '\n')
 
-if [[ "$filter" != "ALL" ]]; then
-    readarray -t dirs < <(find . -type f -name *.tex -exec grep -lr "$filter" {} \; | cut -c 3- | sed 's/\/image.tex//g' | sort -n)
-else
-    readarray -t dirs < <(find . -type f -name *.tex | cut -c 3- | sed 's/\/image.tex//g' | sort -n)
-fi
+    mkdir -p $MATHWIKI_DIR/.temp
+    cd $MATHWIKI_DIR/.temp
 
-total=${#dirs[@]}
-counter=1
+    total=$(echo "$names" | wc -l)
+    while IFS='@' read -ra arr; do
+        for i in "${arr[@]}"; do
+            if [[ ! -z "$i" ]]; then
+                echo -ne "Updating... ($counter/$total)\r"
+                cp ../imageTemplate.tex image.tex
 
-for d in "${dirs[@]}"; do
-    cd $d
-    pdflatex -shell-escape image.tex > /dev/null 2>&1 && pdfcrop image.pdf image.pdf > /dev/null 2>&1 && pdf2svg image.pdf image.svg
+                sed -i 's/\\begin{document}/\\begin{document}\n'"$i"'/g' image.tex
+                pdflatex -shell-escape image.tex > /dev/null 2>&1 && pdfcrop image.pdf image.pdf > /dev/null 2>&1 && pdf2svg image.pdf image.svg
 
-    echo -e "    $d ($counter/$total)${NC}"
-    counter=$((++counter))
+                name=$(echo "$names" | head -n 1)
+                cp image.svg ../Site/static/img/$name.svg
+
+                names=$(echo "$names" | sed 1d)
+                counter=$((++counter))
+                echo -ne "Updating... ($counter/$total)\r"
+            fi
+        done
+    done <<< "$codes"
+
     cd ..
-done
+    rm -r .temp
+}
 
-if [[ -f *.log ]]; then
-    rm *.log
-fi
+while [ ! -z "$1" ]; do
+    case "$1" in
+        --note|-n)
+            UPDATE "$(cat $2)"
+        ;;
+        --all|-a)
+            cd $MATHWIKI_DIR/Notes
+            echo ""
+            UPDATE "$(cat *)"
+        ;;
+        --ghost|-g)
+            cd $MATHWIKI_DIR
+            echo ""
+
+            allLinkedImages=$(cat Notes/* | grep -o -P '(?<=tikz name=").*(?=" width)' | sed 's/$/.svg/g')
+            allActualImages=$(ls "$MATHWIKI_DIR/Site/static/img" | sort | uniq)
+            ghostImages=$(echo -e "${allLinkedImages[@]} ${allActualImages[@]}" | tr ' ' '\n' | sort | uniq -u)
+
+            if [[ ! -z $ghostImages ]]; then
+                echo -e "\n    ${RED}Unused Images${NC}"
+                while IFS= read -r image; do
+                    echo -e "        $image"
+                done <<< "$ghostImages"
+                read -n 1 -ep "$(echo -e "\n    ${RED}Delete? [N/y]${NC}") " proceed
+                if [[ ! "$proceed" == y ]]; then
+                    exit
+                fi
+                cd "$MATHWIKI_DIR/Site/static/img"
+                while IFS= read -r image; do
+                    rm -r $image
+                done <<< "$ghostImages"
+                echo -e "    ${PURPLE}DONE${NC}"
+            fi
+        ;;
+    esac
+shift
+done

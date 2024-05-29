@@ -5,11 +5,12 @@ cd $MATHWIKI_DIR
 while [ ! -z "$1" ]; do
     case "$1" in
         --update|-u)
-            cd ./Images
+            # cd ./Images
 
-            numImages=$(($(find -type d | wc -l) - 1))
+            # numImages=$(($(find -type d | wc -l) - 1))
+            numImages=0
 
-            cd ..
+            # cd ..
             cd ./Notes
 
             numNotes=$(ls | wc -l)
