@@ -6,8 +6,15 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 May 2024 13:41:19 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2024 17:38:25 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Universal Constructions</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/universal_constructions/</link>
+      <pubDate>Wed, 29 May 2024 17:38:25 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/universal_constructions/</guid>
+      <description>Motivation &amp;amp; Definition Definition. Let $F:D\to C$ be a functor and fix $c\in C$. A universal arrow from $c$ to $F$ is an initial object in $(c\downto F)$. That is, it is a pair $(r,u)$, with $r\in D$ and $u:c\to Fr$, making $\phi_d:\widetilde{f}\mapsto F\widetilde{f}\circ u$ a bijection of hom-sets for each $d\in D$:</description>
+    </item>
     <item>
       <title>Natural Transformation</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/natural_transformation/</link>
