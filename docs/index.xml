@@ -6,21 +6,28 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 May 2024 18:17:16 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2024 20:16:10 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Limits &amp; Colimits</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/limits_category_theory/</link>
+      <pubDate>Wed, 29 May 2024 20:16:10 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/limits_category_theory/</guid>
+      <description>Motivation &amp;amp; Definition Fix a category $C$.&#xA;Definition. Let $C,J$ be categories and fix a functor $F\in C^J$. A colimit of $F$ is a universal arrow $(r,u)$ from $F$ to the diagonal functor $\Delta:C\to C^J$.&#xA;Similarly, a limit of $F$ is a universal arrow $(t,v)$ from $\Delta$ to $F$.&#xA;Representable Functors Universal Elements Examples (Co)products (Co)equalizers Fibered (Co)products Directed (Co)limits </description>
+    </item>
     <item>
       <title>The Yoneda Lemma</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/yoneda_lemma/</link>
       <pubDate>Wed, 29 May 2024 18:17:16 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/yoneda_lemma/</guid>
-      <description>The Yoneda Embedding $\mf{y}$ Statement &amp;amp; Proof Fix a locally-small category $C$.&#xA;Theorem (Yoneda). Let $C$ be a locally-small category and fix $F:C\to\catset$. For every $c\in C$, we have a bijection $$\begin{equation} y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c \end{equation}$$ which is moreover natural in both $F$ and $c$. Proof (Bijection).&#xA;Proof (Naturality).&#xA;Extensions and Corollaries Theorem (Yoneda Embedding).</description>
+      <description>The Yoneda Embedding $\mf{y}$ Statement &amp;amp; Proof Fix a locally-small category $C$.&#xA;Theorem (Yoneda). Let $C$ be a locally-small category and fix $F:C\to\catset$. For every $c\in C$, we have a bijection $$\begin{equation} y\coloneqq y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c \end{equation}$$ which is moreover natural in both $F$ and $c$. Proof (Bijection). Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via $$\begin{equation} t(a)_d:C(c,d)\to Fd\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ (f:a\rightarrow b)\mapsto Ff(a)\in Fd \end{equation}$$ for each $d\in C$.</description>
     </item>
     <item>
       <title>Universal Constructions</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/universal_constructions/</link>
       <pubDate>Wed, 29 May 2024 17:38:25 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/universal_constructions/</guid>
-      <description>Motivation &amp;amp; Definition Definition. Let $F:D\to C$ be a functor and fix $c\in C$. A universal arrow from $c$ to $F$ is an initial object in $(c\downto F)$. That is, it is a pair $(r,u)$, with $r\in D$ and $u:c\to Fr$, making $\phi_d:\widetilde{f}\mapsto F\widetilde{f}\circ u$ a bijection of hom-sets for each $d\in D$:</description>
+      <description>Motivation &amp;amp; Definition Universal Arrows Definition. Let $F:D\to C$ be a functor and fix $c\in C$. A universal arrow from $c$ to $F$ is an initial object in $(c\downto F)$. That is, it is a pair $(r,u)$, with $r\in D$ and $u:c\to Fr$, making $\phi_d:\widetilde{f}\mapsto F\widetilde{f}\circ u$ a bijection of hom-sets for each $d\in D$:&#xA;The Category of Elements Representable Functors The Yoneda Lemma Characterizations of Universality Examples Limits and Colimits Free Constructions Adjunctions and Kan Extensions </description>
     </item>
     <item>
       <title>Natural Transformation</title>

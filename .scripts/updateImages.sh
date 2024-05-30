@@ -8,7 +8,7 @@ UPDATE() {
     names=$(echo "$codeBoundary" | grep -o -P '(?<=tikz name=").*(?=" width)')
 
     codes=$(echo "$note" | sed -n '/{{< tikz/,/{{< \/tikz/{//b;p}')
-    codes=$(echo "$codes" | sed 's/\\\\begin/@\\\\begin/g')
+    codes=$(echo "$codes" | sed 's/\\\\begin{equation\*}/@\\\\begin{equation\*}/g')
     codes=$(echo "$codes" | sed 's/^ *//g' | tr -d '\n')
 
     mkdir -p $MATHWIKI_DIR/.temp

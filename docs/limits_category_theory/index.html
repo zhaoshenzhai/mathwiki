@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>The Yoneda Lemma</title>
+        <title>Limits &amp; Colimits</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -39,62 +39,38 @@
     </button>
     <div id="content" class="left noScroll">
         
-            <h1 id="title">The Yoneda Lemma</h1>
+            <h1 id="title">Limits &amp; Colimits</h1>
         
-        <h1 id="the-yoneda-embedding-mfy">The Yoneda Embedding $\mf{y}$</h1>
-<h2 id="statement--proof">Statement &amp; Proof</h2>
-<p>Fix a locally-small category $C$.</p>
+        <h1 id="motivation--definition">Motivation &amp; Definition</h1>
+<p>Fix a category $C$.</p>
 
 
 
 
 <div class="env">
-    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg">
+    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
 
     
-        <b class="envTitle">Theorem (Yoneda).</b>
+        <b class="envTitle">Definition.</b>
     
 
-    Let $C$ be a locally-small category and fix $F:C\to\catset$. For every $c\in C$, we have a bijection
-$$\begin{equation}
-y\coloneqq y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c
-\end{equation}$$
-which is moreover natural in both $F$ and $c$.
+    <p>Let $C,J$ be categories and fix a functor $F\in C^J$. A <strong>colimit</strong> of $F$ is a universal arrow $(r,u)$ from $F$ to the diagonal functor $\Delta:C\to C^J$.</p>
+<img class="tikz" src="https://zhaoshenzhai.github.io/mathwiki/img/limits_category_theory.svg" width="425">
+<p>Similarly, a <strong>limit</strong> of $F$ is a universal arrow $(t,v)$ from $\Delta$ to $F$.</p>
+
 </div>
 
-<p><em>Proof (Bijection).</em> Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via
-$$\begin{equation}
-t(a)_d:C(c,d)\to Fd\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ (f:a\rightarrow b)\mapsto Ff(a)\in Fd
-\end{equation}$$
-for each $d\in C$. That $a=y(t(a))$ is immediate since $t(a)_c(1_c)=F(1_c)a=1_ca=a$.</p>
-<p><br>  Conversely, let $\eta:C(c,\slot)\to F$ be a natural transformation, whence the diagram
-
-
-
-
-
-<img class="tikz" src="https://zhaoshenzhai.github.io/mathwiki/img/yoneda_bijection.svg" width="325">
-commutes for any morphism $f:c\to d$. In particular, chasing $1_c\in C(c,c)$ around gives us $Ff(\eta_c(1_c))=\eta_d(f_\ast1_c)$. Thus $t(y(\eta))_df=Ff(y(\eta))=\eta_df$ for all $f:c\to d$, giving us $t(y(\eta))=\eta$ as desired.<span style="float:right;">$\blacksquare$</span></p>
+<h2 id="representable-functors">Representable Functors</h2>
 <p><br><br></p>
-<p><em>Proof (Naturality).</em></p>
+<h2 id="universal-elements">Universal Elements</h2>
+<h1 id="examples">Examples</h1>
+<h2 id="coproducts">(Co)products</h2>
 <p><br><br></p>
-<h2 id="extensions-and-corollaries">Extensions and Corollaries</h2>
-
-
-
-
-<div class="env">
-    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg">
-
-    
-        <b class="envTitle">Theorem (Yoneda Embedding).</b>
-    
-
-    For any locally-small category $C$, the Yoneda embedding $\mf{y}:C^\textrm{op}\to\catset^C$ is fully-faithful.
-</div>
-
-<h1 id="interpretations">Interpretations</h1>
-<h2 id="group-actions">Group Actions</h2>
+<h2 id="coequalizers">(Co)equalizers</h2>
+<p><br><br></p>
+<h2 id="fibered-coproducts">Fibered (Co)products</h2>
+<p><br><br></p>
+<h2 id="directed-colimits">Directed (Co)limits</h2>
 
 
         <div class="spacer">&nbsp;</div>
