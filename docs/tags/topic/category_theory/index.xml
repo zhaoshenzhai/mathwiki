@@ -6,8 +6,15 @@
     <description>Recent content in Topic/Category_Theory on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 May 2024 21:52:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2024 18:17:16 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/topic/category_theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Yoneda Lemma</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/yoneda_lemma/</link>
+      <pubDate>Wed, 29 May 2024 18:17:16 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/yoneda_lemma/</guid>
+      <description>The Yoneda Embedding $\yo$ Statement &amp;amp; Proof Fix a locally-small category $C$. $\yo:C\to\catset$&#xA;Theorem (Yoneda). Let $C$ be a locally-small category. For every functor $F:C\to\catset$ and every object $c\in C$, we have a bijection $$\begin{equation} y\coloneqq y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c, \end{equation}$$ which is moreover natural in both $F$ and $c$. Proof (Bijection). Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via $$\begin{equation} t(a)_d:C(c,d)\to Fd\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ (f:a\rightarrow b)\mapsto Ff(a)\in Fd \end{equation}$$ for each $d\in C$.</description>
+    </item>
     <item>
       <title>Category</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/category/</link>

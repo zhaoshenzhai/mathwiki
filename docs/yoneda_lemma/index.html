@@ -41,9 +41,9 @@
         
             <h1 id="title">The Yoneda Lemma</h1>
         
-        <h1 id="the-yoneda-embedding-mfy">The Yoneda Embedding $\mf{y}$</h1>
+        <h1 id="the-yoneda-embedding-yo">The Yoneda Embedding $\yo$</h1>
 <h2 id="statement--proof">Statement &amp; Proof</h2>
-<p>Fix a locally-small category $C$.</p>
+<p>Fix a locally-small category $C$. $\yo:C\to\catset$</p>
 
 
 
@@ -55,9 +55,9 @@
         <b class="envTitle">Theorem (Yoneda).</b>
     
 
-    Let $C$ be a locally-small category and fix $F:C\to\catset$. For every $c\in C$, we have a bijection
+    Let $C$ be a locally-small category. For every functor $F:C\to\catset$ and every object $c\in C$, we have a bijection
 $$\begin{equation}
-y\coloneqq y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c
+y\coloneqq y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c,
 \end{equation}$$
 which is moreover natural in both $F$ and $c$.
 </div>
@@ -74,9 +74,9 @@ for each $d\in C$. That $a=y(t(a))$ is immediate since $t(a)_c(1_c)=F(1_c)a=1_ca
 
 
 <img class="tikz" src="https://zhaoshenzhai.github.io/mathwiki/img/yoneda_bijection.svg" width="325">
-commutes for any morphism $f:c\to d$. In particular, chasing $1_c\in C(c,c)$ around gives us $Ff(\eta_c(1_c))=\eta_d(f_\ast1_c)$. Thus $t(y(\eta))_df=Ff(y(\eta))=\eta_df$ for all $f:c\to d$, giving us $t(y(\eta))=\eta$ as desired.<span style="float:right;">$\blacksquare$</span></p>
+commutes for any morphism $f:c\to d$. In particular, chasing $1_c\in C(c,c)$ around gives us $Ff(\eta_c(1_c))=\eta_d(f_\ast1_c)$, and thus $t(y(\eta))_df=Ff(y(\eta))=\eta_df$ for all $f:c\to d$. Hence, we have $t(y(\eta))=\eta$, as desired.<span style="float:right;">$\blacksquare$</span></p>
 <p><br><br></p>
-<p><em>Proof (Naturality).</em></p>
+<p><em>Proof (Naturality).</em> The naturality claims amount</p>
 <p><br><br></p>
 <h2 id="extensions-and-corollaries">Extensions and Corollaries</h2>
 
@@ -105,10 +105,14 @@ commutes for any morphism $f:c\to d$. In particular, chasing $1_c\in C(c,c)$ aro
             May 29, 2024 | Zhaoshen Zhai
 
             <div id="references">References:
-                 None 
+                
+                    <div class="metaButton metaRef listenDark">#Ref/Mac10</div>
+                
             </div>
             <div id="tags">Tags:
-                 None 
+                
+                    <div class="metaButton metaTag listenDark">#Topic/Category_Theory</div>
+                
             </div>
             <br>
 
