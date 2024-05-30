@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang=en-US class="noScroll">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>The Yoneda Lemma</title>
+
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/colors.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module" defer></script>
+
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body class="listenDark">
+        
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/metalinks.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/headers.js" type="module" defer></script>
+
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/nav.css">
+
+    <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
+        <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
+    </button>
+    <div id="content" class="left noScroll">
+        
+            <h1 id="title">The Yoneda Lemma</h1>
+        
+        <h1 id="the-yoneda-embedding-mfy">The Yoneda Embedding $\mf{y}$</h1>
+<h2 id="statement--proof">Statement &amp; Proof</h2>
+<p>Fix a locally-small category $C$.</p>
+
+
+
+
+<div class="env">
+    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg">
+
+    
+        <b class="envTitle">Theorem (Yoneda).</b>
+    
+
+    Let $C$ be a locally-small category and fix $F:C\to\catset$. For every $c\in C$, we have a bijection
+$$\begin{equation}
+y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c
+\end{equation}$$
+which is moreover natural in both $F$ and $c$.
+</div>
+
+<p><em>Proof (Bijection).</em></p>
+<p><br><br></p>
+<p><em>Proof (Naturality).</em></p>
+<p><br><br></p>
+<h2 id="extensions-and-corollaries">Extensions and Corollaries</h2>
+
+
+
+
+<div class="env">
+    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg">
+
+    
+        <b class="envTitle">Theorem (Yoneda Embedding).</b>
+    
+
+    For any locally-small category $C$, the Yoneda embedding $\mf{y}:C^\textrm{op}\to\catset^C$ is fully-faithful.
+</div>
+
+<h1 id="interpretations">Interpretations</h1>
+<h2 id="group-actions">Group Actions</h2>
+
+
+        <div class="spacer">&nbsp;</div>
+    </div>
+
+    <div id="side">
+        <div id="metadata" class="right noScroll">
+            May 29, 2024 | Zhaoshen Zhai
+
+            <div id="references">References:
+                 None 
+            </div>
+            <div id="tags">Tags:
+                 None 
+            </div>
+            <br>
+
+            <div id="toc">Table of Contents:
+                <button class="metaButton listenDark" onclick="showTOC();">Show</button>
+                <button class="metaButton listenDark" onclick="hideTOC();">Hide</button>
+                <div id="metaContents"></div>
+            </div>
+            <div id="links">Links:
+                <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
+                <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
+                <div id="metaLinks"></div>
+            </div>
+
+            <div class="spacer">&nbsp;</div>
+        </div>
+        <div id="preview">
+            <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
+                <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
+            </button>
+        </div>
+    </div>
+
+
+        <div id="searchBox" class="listenDark" style="display: none;">
+            <input id="searchBar" class="listenDark" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" class="listenDark" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" class="listenDark" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" class="listenDark" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" class="listenDark" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" class="listenDark" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" class="listenDark" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" class="listenDark" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" class="listenDark" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" class="listenDark" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" class="listenDark" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" class="listenDark" onmouseover="searchItemActive(9)"></li>
+            </ul>
+        </div>
+    </body>
+</html>

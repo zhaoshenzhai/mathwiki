@@ -6,8 +6,15 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 May 2024 17:38:25 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2024 18:17:16 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Yoneda Lemma</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/yoneda_lemma/</link>
+      <pubDate>Wed, 29 May 2024 18:17:16 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/yoneda_lemma/</guid>
+      <description>The Yoneda Embedding $\mf{y}$ Statement &amp;amp; Proof Fix a locally-small category $C$.&#xA;Theorem (Yoneda). Let $C$ be a locally-small category and fix $F:C\to\catset$. For every $c\in C$, we have a bijection $$\begin{equation} y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c \end{equation}$$ which is moreover natural in both $F$ and $c$. Proof (Bijection).&#xA;Proof (Naturality).&#xA;Extensions and Corollaries Theorem (Yoneda Embedding).</description>
+    </item>
     <item>
       <title>Universal Constructions</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/universal_constructions/</link>
