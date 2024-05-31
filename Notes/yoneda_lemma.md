@@ -23,7 +23,7 @@ which is moreover natural in both $F$ and $c$.
 
 *Proof (Bijection).* Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via
 $$\begin{equation}
-    t(a)_d:C(c,d)\to Fd\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ (f:a\rightarrow b)\mapsto Ff(a)\in Fd
+    t(a)_d:C(c,d)\to Fd\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ (f:c\rightarrow d)\mapsto Ff(a)\in Fd
 \end{equation}$$
 for each $d\in C$. That $a=y(t(a))$ is immediate since $t(a)_c(1_c)=F(1_c)a=1_ca=a$.
 
