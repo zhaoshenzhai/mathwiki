@@ -6,8 +6,12 @@ export function toSpace(s) {
     return s.replace('_', " ");
 }
 
+export function textOfNode(n) {
+    return n.textContent.replace(/(\r\n|\n|\r)/gm, "");
+}
+
 export function toSmallCaps(s, small, big) {
-    var newEl = document.createElement("h1");
+    var newEl = document.createElement("span");
 
     var splitMath = s.split("$");
     for (var i = 0; i < splitMath.length; i++) {
@@ -16,7 +20,7 @@ export function toSmallCaps(s, small, big) {
             if (splitText) {
                 for (var j = 0; j < splitText.length; j++) {
                     var capital = document.createElement("span");
-                    capital.innerText = splitText[j].charAt(0);
+                    capital.innerText = splitText[j].charAt(0).toUpperCase();
                     capital.style.fontSize = big + "px";
 
                     var tail = document.createElement("span");

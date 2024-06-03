@@ -1,4 +1,4 @@
-import { toSmallCaps } from "./stringUtils.js"
+import { toSmallCaps, textOfNode } from "./stringUtils.js"
 
 var headerList, headers, toc;
 
@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 function styleHeaders() {
-    var newTitle = toSmallCaps(headerList[0].innerText, 25, 30);
+    var newTitle = document.createElement("h1");
+    newTitle.appendChild(toSmallCaps(headerList[0].innerText, 25, 30));
     newTitle.setAttribute("id", "title");
     newTitle.classList.add("center");
 
@@ -56,7 +57,7 @@ function generateTOC() {
         h1Button.onclick = function () { goTo(this.getAttribute("text")) };
         h1Button.classList.add("metaContentButton");
         h1Button.classList.add("listenDark");
-        h1Button.innerText = headerList[h1Index].innerText;
+        h1Button.innerText = headerList[h1Index].getAttribute("id");
         h1Button.setAttribute("text", h1Button.innerText);
 
         var h2Headers = document.createElement("ol");
@@ -109,21 +110,31 @@ function expandHeaders(list) {
 }
 
 function styleH1(el, counter) {
-    var text = el.innerText;
-    var newH1 = toSmallCaps(text, 17, 24);
-    newH1.setAttribute("id", text);
-    newH1.classList.add("center");
+    el.setAttribute("id", el.innerText);
+    el.classList.add("center");
+
+    for (var i = 0; i < el.childNodes.length; i++) {
+        if (!el.childNodes[i].innerText) {
+            var text = textOfNode(el.childNodes[i]);
+            var textSC = toSmallCaps(text, 17, 24);
+
+            el.childNodes[i].replaceWith(textSC);
+        } else {
+            var text = el.childNodes[i].innerText;
+            var textSC = toSmallCaps(text, 17, 24);
+
+            el.childNodes[i].innerHTML = textSC.innerHTML;
+        }
+    }
 
     var num = document.createElement("span");
     num.innerText = counter + ". ";
     num.style.fontSize = "24px";
-    newH1.prepend(num);
+    el.prepend(num);
 
     var skip = document.createElement("div");
     skip.style.height = "10px";
-    newH1.appendChild(skip);
-
-    el.replaceWith(newH1);
+    el.appendChild(skip);
 }
 
 function styleH2(el, parentCounter, counter) {
