@@ -2,7 +2,7 @@
 title: The Yoneda Lemma
 date: 2024-05-29T18:17:16-04:00
 references: [Ref/Mac10]
-tags: [Topic/Category_Theory]
+tags: [Topic/Category_Theory, In_Progress]
 ---
 
 # The Yoneda Embedding $\yo$
@@ -28,7 +28,7 @@ $$\begin{equation}
 for each $d\in C$. That $a=y(t(a))$ is immediate since $t(a)_c(1_c)=F(1_c)a=1_ca=a$.
 
 <br>&emsp;&emsp;Conversely, let $\eta:C(c,\slot)\to F$ be a natural transformation, whence the diagram
-{{< tikz name="yoneda_bijection" width="325" >}}
+{{< tikz name="yoneda_bijection" width="300" >}}
 \begin{equation*}
     \begin{tikzcd}
         c \ar[d, "f"] & C(c,c) \ar[r, "\eta_c"] \ar[d, "f_\ast"'] & Fc \ar[d, "Ff"] \\

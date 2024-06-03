@@ -2,7 +2,7 @@
 title: Category
 date: 2024-05-22T21:52:00-04:00
 references: [Ref/Mac10]
-tags: [Topic/Category_Theory]
+tags: [Topic/Category_Theory, In_Progress]
 ---
 
 # Motivation & Definition
@@ -26,7 +26,7 @@ $$\begin{equation}
 subject to the following conditions.
 * <span style="color:gray">(Associativity).</span> For all morphisms $f,g,h$ in the configuration
 $$\begin{equation}
-    x\overset{f}{\rightarrow}y\overset{g}{\rightarrow}z\overset{h}{\rightarrow}w
+    x\overset{f}{\rightarrow}y\overset{g}{\rightarrow}z\overset{h}{\rightarrow}w,
 \end{equation}$$
 we have $h\circ(g\circ f)=(h\circ g)\circ f$.
 * <span style="color:gray">(Unit).</span> For all morphisms $f\in C(x,y)$, we have $f\circ1\_x=f=1\_y\circ f$.

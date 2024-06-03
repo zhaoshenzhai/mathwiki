@@ -2,7 +2,7 @@
 title: Limits & Colimits
 date: 2024-05-29T20:16:10-04:00
 references: []
-tags: []
+tags: [In_Progress]
 ---
 
 # Motivation & Definition

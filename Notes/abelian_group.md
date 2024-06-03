@@ -5,6 +5,8 @@ references: [Ref/Alu09]
 tags: [Topic/Group_Theory]
 ---
 
+# Definition
+
 Here, we consider a class of groups which $-$ despite being very general $-$ exhibit very useful properties absent in general groups.
 
 {{< env "definition" >}}
