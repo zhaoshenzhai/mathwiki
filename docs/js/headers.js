@@ -17,6 +17,11 @@ function styleHeaders() {
     var newTitle = toSmallCaps(headerList[0].innerText, 25, 30);
     newTitle.setAttribute("id", "title");
     newTitle.classList.add("center");
+
+    if (headerList[0].nextElementSibling != headerList[1]) {
+        newTitle.classList.add("title_spacer");
+    }
+
     headerList[0].replaceWith(newTitle);
 
     var h1Counter = 1;

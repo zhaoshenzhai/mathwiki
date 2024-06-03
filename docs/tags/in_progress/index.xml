@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MathWiki</title>
-    <link>https://zhaoshenzhai.github.io/mathwiki/</link>
-    <description>Recent content on MathWiki</description>
+    <title>In_Progress on MathWiki</title>
+    <link>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</link>
+    <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Jun 2024 16:36:14 -0400</lastBuildDate>
-    <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Finite Group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/finite_group/</link>
@@ -86,53 +86,11 @@
       <description>Motivation &amp;amp; Definition Definition. Let $F,G:C\to D$ be covariant functors between categories $C$ and $D$. A natural transformation $\eta:F\to G$ is a function assigning to each $c\in C$ a morphism $\eta_c:Fc\to Gc$ of $D$ such that for every $f\in C(c,c&amp;rsquo;)$, the diagram&#xA;commutes.</description>
     </item>
     <item>
-      <title>Functor</title>
-      <link>https://zhaoshenzhai.github.io/mathwiki/functor/</link>
-      <pubDate>Tue, 28 May 2024 16:05:23 -0400</pubDate>
-      <guid>https://zhaoshenzhai.github.io/mathwiki/functor/</guid>
-      <description>Motivation &amp;amp; Definition Definition. Let $C$ and $D$ be categories. A (covariant) functor $F:C\to D$ is the data of two functions:&#xA;An object function, assigning some $Fc\in D$ to each $c\in C$, and A morphism function, assigning some $Ff:Fc\to Fc&amp;rsquo;$ to each $f:c\to c&amp;rsquo;$, interacting in such a way that $$\begin{equation} F1_c=1_{Fc}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ F(f\circ g)=Ff\circ Fg \end{equation}$$ for all objects $c\in C$ and morphisms $f,g\in C$ whenever $f\circ g\in C$ is defined.</description>
-    </item>
-    <item>
       <title>Category</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/category/</link>
       <pubDate>Wed, 22 May 2024 21:52:00 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/category/</guid>
       <description>Motivation &amp;amp; Definition The starting point of the theory of categories is the observation that many properties of mathematical objects can be more succinctly expressed as diagrams of arrows $-$ as opposed to an equation $-$ and that many objects can be constructed via a ‘universal property’ of such a diagram; heuristically then, these objects are characterized as the ‘most efficient solution to a certain optimization problem’.&#xA;To formalize this, we need a general framework for composing arrows, so we make the following</description>
-    </item>
-    <item>
-      <title>Group Action</title>
-      <link>https://zhaoshenzhai.github.io/mathwiki/group_action/</link>
-      <pubDate>Wed, 22 May 2024 20:02:09 -0400</pubDate>
-      <guid>https://zhaoshenzhai.github.io/mathwiki/group_action/</guid>
-      <description>Motivation &amp;amp; Definition Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in concrete objects, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a&#xA;category $C$. A $G$-action is a&#xA;functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.&#xA;Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$.</description>
-    </item>
-    <item>
-      <title>Abelian Group</title>
-      <link>https://zhaoshenzhai.github.io/mathwiki/abelian_group/</link>
-      <pubDate>Wed, 22 May 2024 18:53:29 -0400</pubDate>
-      <guid>https://zhaoshenzhai.github.io/mathwiki/abelian_group/</guid>
-      <description>Definition Here, we consider a class of groups which $-$ despite being very general $-$ exhibit very useful properties absent in general groups.&#xA;Definition. A group $G$ is said to be Abelian if $gh=hg$ for all $g,h\in G$. We denote the subcategory of Abelian groups as $\catabgrp$, which is one of the most well-behaved categories. Indeed, ???.&#xA;We have a forgetful functor $\catmod[\Z]\to\catabgrp$, which is an isomorphism of categories ???. In this way, the notions of torsion, rank, etc, all carry forward.</description>
-    </item>
-    <item>
-      <title>Group</title>
-      <link>https://zhaoshenzhai.github.io/mathwiki/group/</link>
-      <pubDate>Thu, 16 May 2024 21:34:09 -0400</pubDate>
-      <guid>https://zhaoshenzhai.github.io/mathwiki/group/</guid>
-      <description>Motivation &amp;amp; Definition The concept of a group was invented to capture the abstract properties of symmetries (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.&#xA;Definition. A group is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a distinguished element $e\in G$ called the identity, and operations $\cdot:G\times G\to G$ and $\iota:G\to G$, subject to the following conditions.&#xA;(Associativity). For all $g,h,k\in G$, we have $g\cdot(h\cdot k)=(g\cdot h)\cdot k$.</description>
-    </item>
-    <item>
-      <title>Metric Space</title>
-      <link>https://zhaoshenzhai.github.io/mathwiki/metric_space/</link>
-      <pubDate>Tue, 14 May 2024 21:37:43 -0400</pubDate>
-      <guid>https://zhaoshenzhai.github.io/mathwiki/metric_space/</guid>
-      <description>Motivation &amp;amp; Definition Abstracting away the basic properties of Euclidean distance in $\R^n$, and most notably preserving the Triangle Inequality, we make the following&#xA;Definition. A metric on a set $X$ is a function $d:X\times X\to\R_{\geq0}$ such that&#xA;(Positive-definiteness). For all $x,y\in X$, we have $d(x,y)=0$ iff $x=y$. (Symmetry.) For all $x,y\in X$, we have $d(x,y)=d(y,x)$. ($\Delta$-inequality). For all $x,y,z\in X$, we have $d(x,z)\leq d(x,y)+d(y,z)$. If $d$ is a metric on $X$, we call the pair $\tpl{X,d}$ a metric space.</description>
-    </item>
-    <item>
-      <title>Topological Space</title>
-      <link>https://zhaoshenzhai.github.io/mathwiki/topological_space/</link>
-      <pubDate>Tue, 14 May 2024 14:45:50 -0400</pubDate>
-      <guid>https://zhaoshenzhai.github.io/mathwiki/topological_space/</guid>
-      <description>Motivation &amp;amp; Definition Let $X$ be a set. We would like to formalize a notion of ‘closeness’ between two points without necessarily referring to a specific metric, but rather, via certain subsets of $X$ called open sets. The following definition is motivated by some properties $^\dagger$ of open sets generated by a metric $d$ on $X$, which we now axiomatize.&#xA;Definition. Let $X$ be a set. A topology on $X$ is a family $\mc{O}_X\subseteq\pow(X)$, whose elements are called open sets, subject to the following conditions.</description>
     </item>
   </channel>
 </rss>

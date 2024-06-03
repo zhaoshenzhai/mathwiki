@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Category</title>
+        <title>Free Group</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -39,12 +39,10 @@
     </button>
     <div id="content" class="left noScroll">
         
-            <h1 id="title">Category</h1>
+            <h1 id="title">Free Group</h1>
         
         <h1 id="motivation--definition">Motivation &amp; Definition</h1>
-<p>The starting point of the theory of <em>categories</em> is the observation that many properties of mathematical objects can be more succinctly expressed as diagrams of arrows $-$ as opposed to an equation $-$ and that many objects can be constructed via a ‘universal property’ of such a diagram; heuristically then, these objects are characterized as the ‘most efficient solution to a certain optimization problem’.</p>
-<br>
-<p>   To formalize this, we need a general framework for composing arrows, so we make the following</p>
+<p>Fix a set $X$. We would like to construct a group $F(X)$ containing $X$ ‘canonically’ and ‘in the most efficient way’. The latter is encoded by a universal property, and the former makes $F:\catset\to\catgrp$ a left-adjoint to the forgetful functor $U:\catgrp\to\catset$.</p>
 
 
 
@@ -56,29 +54,13 @@
         <b class="envTitle">Definition.</b>
     
 
-    <p>A <strong>category</strong> $C$ consists of a class $\mc{O}$ of <strong>objects</strong>, and,</p>
-<ul>
-<li>for any two objects $x,y\in\mc{O}$, a class $C(x,y)$ of <strong>morphisms</strong> in $C$;</li>
-<li>for any object $x\in\mc{O}$, an <strong>identity</strong> morphism $1_x\in C(x,x)$,</li>
-<li>for any three objects $x,y,z\in\mc{O}$, a <strong>composition map</strong>
-$$\begin{equation}
-\circ:C(y,z)\times C(x,y)\to C(x,z);
-\end{equation}$$</li>
-</ul>
-<p>subject to the following conditions.</p>
-<ul>
-<li><span style="color:gray">(Associativity).</span> For all morphisms $f,g,h$ in the configuration
-$$\begin{equation}
-x\overset{f}{\rightarrow}y\overset{g}{\rightarrow}z\overset{h}{\rightarrow}w,
-\end{equation}$$
-we have $h\circ(g\circ f)=(h\circ g)\circ f$.</li>
-<li><span style="color:gray">(Unit).</span> For all morphisms $f\in C(x,y)$, we have $f\circ1_x=f=1_y\circ f$.</li>
-</ul>
+    <p>Let $X$ be a set. A <strong>free group</strong> on $X$ is a group $F(X)$ equipped with a function $j:X\to F(X)$ that is universal in the following sense:</p>
+<br>
+<p>  For every group $G$ and any function $f:X\to UG$, there is a unique group homomorphism $f&rsquo;:F(X)\to G$ such that $Ff&rsquo;\circ j=f$.</p>
 
 </div>
 
-<h2 id="set-theoretic-technicalities">Set-theoretic Technicalities</h2>
-<p><span style="color:red">Fill this in&hellip;</span></p>
+<p>Stated otherwise, $(F(X),j)$ is the universal arrow from $X$ to $U$, and so is unique up to (unique) isomorphism.</p>
 
 
         <div class="spacer">&nbsp;</div>
@@ -86,16 +68,12 @@ we have $h\circ(g\circ f)=(h\circ g)\circ f$.</li>
 
     <div id="side">
         <div id="metadata" class="right noScroll">
-            May 22, 2024 | Zhaoshen Zhai
+            June 3, 2024 | Zhaoshen Zhai
 
             <div id="references">References:
-                
-                    <div class="metaButton metaRef listenDark">#Ref/Mac10</div>
-                
+                 None 
             </div>
             <div id="tags">Tags:
-                
-                    <div class="metaButton metaTag listenDark">#Topic/Category_Theory</div>
                 
                     <div class="metaButton metaTag listenDark">#In_Progress</div>
                 

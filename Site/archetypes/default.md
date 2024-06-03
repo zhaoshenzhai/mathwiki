@@ -2,5 +2,5 @@
 title: {{ replace .File.ContentBaseName "-" " " | title }}
 date: {{ .Date }}
 references: []
-tags: []
+tags: [In_Progress]
 ---

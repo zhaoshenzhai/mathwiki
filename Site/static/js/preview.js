@@ -120,6 +120,7 @@ function newPreviewFrame(link) {
         frameContent = frameDoc.getElementById("content");
         frameContent.classList.add("openLinks");
         frameContent.classList.remove("left");
+        frameContent.style.position = "static";
         frameContent.style.opacity = "0.6";
     });
 

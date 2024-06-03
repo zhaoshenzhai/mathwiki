@@ -2,14 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/limits_category_theory/</loc>
-    <lastmod>2024-05-29T20:16:10-04:00</lastmod>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/finite_group/</loc>
+    <lastmod>2024-06-03T16:36:14-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
+    <lastmod>2024-06-03T16:36:14-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
-    <lastmod>2024-05-29T20:16:10-04:00</lastmod>
+    <lastmod>2024-06-03T16:36:14-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
-    <lastmod>2024-05-29T18:17:16-04:00</lastmod>
+    <lastmod>2024-06-03T16:36:14-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/catgrp_is_complete/</loc>
+    <lastmod>2024-06-03T16:04:53-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/free_group/</loc>
+    <lastmod>2024-06-03T15:36:38-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/integers/</loc>
+    <lastmod>2024-06-03T15:19:04-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/order/</loc>
+    <lastmod>2024-06-03T15:04:46-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/cyclic_group/</loc>
+    <lastmod>2024-06-03T14:23:46-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/adjunction/</loc>
+    <lastmod>2024-06-03T12:50:42-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/limits_category_theory/</loc>
+    <lastmod>2024-05-29T20:16:10-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/yoneda_lemma/</loc>
     <lastmod>2024-05-29T18:17:16-04:00</lastmod>

@@ -52,6 +52,10 @@ blockquote {
     height: 150px;
 }
 
+.title_spacer {
+    padding-bottom: 20px;
+}
+
 .center {
     vertical-align: text-top;
     text-align: center;
