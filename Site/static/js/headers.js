@@ -132,6 +132,6 @@ function styleH2(el, parentCounter, counter) {
     num.style.fontWeight = "normal";
 
     el.setAttribute("id", el.innerText);
-    el.innerText += ".";
+    el.innerHTML += ".";
     el.prepend(num);
 }

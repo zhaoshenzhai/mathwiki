@@ -1,4 +1,4 @@
-import { firstUpper } from "./stringUtils.js"
+import { firstUpper, toSpace } from "./stringUtils.js"
 
 var metaLinkTypes;
 var metaLinkTypesDict = {};
@@ -86,7 +86,7 @@ function newMetaLinkType(linkType) {
     var newLinkList = document.createElement("ul");
     var newLinkDiv = document.createElement("div");
 
-    newLinkButton.innerText = " " + firstUpper(linkType);
+    newLinkButton.innerText = " " + toSpace(firstUpper(linkType));
     newLinkButton.classList.add("metaLinkButton");
     newLinkButton.classList.add("listenDark");
     newLinkList.classList.add("metaLinkList");
@@ -137,6 +137,7 @@ function newMetaLink(link) {
 
 function typePriority(linkEl) {
     const allLinks = [
+        "proved_by",
         "types",
         "constructions",
         "structures",

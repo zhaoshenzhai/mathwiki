@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/finite_group/</loc>
-    <lastmod>2024-06-03T16:36:14-04:00</lastmod>
-  </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
-    <lastmod>2024-06-03T16:36:14-04:00</lastmod>
+    <lastmod>2024-06-03T17:04:49-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
-    <lastmod>2024-06-03T16:36:14-04:00</lastmod>
+    <lastmod>2024-06-03T17:04:49-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</loc>
+    <lastmod>2024-06-03T17:04:49-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
+    <lastmod>2024-06-03T17:04:49-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/finite_group/</loc>
     <lastmod>2024-06-03T16:36:14-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/catgrp_is_complete/</loc>

@@ -60,20 +60,20 @@ Groups are incredibly hard to study. Nevertheless, there are some common methods
 
 <br><br>
 
-## Group Actions
+## {{< link file="group_action" display="Group Actions" type="constructions" >}}
 
-Perhaps the most important technique to study a group is by allowing it to {{< link file="group_action" display="act" type="constructions" >}} on a set, or, more generally, on objects in some other category.
+Perhaps the most important technique to study a group is by allowing it to act on a set, or, more generally, on objects in some other category.
 > Groups, as men, will be known by their actions. <span style="float:right;">$-$ Guillermo Moreno</span>
 
 Indeed, as groups are abstract manifestations of symmetries, it is natural to consider an object $X$ and consider a group homomorphism $\phi:G\to\Aut X$, which reflects how to group manifests itself as concrete automorphisms (i.e. *symmetries*) of $X$.
 
 <br><br>
 
-## Group Extensions
+## {{< link file="group_extension" display="Group Extensions" type="constructions" >}}
 
 Another more ‘object-oriented’ technique to study $G$ is to decompose it into ‘atomic’ pieces and study how they can be ‘glued’ back together. This method is encapsulated in the *The Hölder Program*, which aims to:
 1. *Classify all {{< link file="simple_group" display="simple" type="types" >}} groups*, which are essentially the ‘atoms’ of group theory, and
-2. *Classify all {{< link file="group_extension" display="group extensions" type="constructions" >}}*, which essentially means ‘doing all of chemistry’.
+2. *Classify all group extensions*, which essentially means ‘doing all of chemistry’.
 
 This method is especially prominent in the study of {{< link file="finite_group" display="finite groups" type="types" >}}.
 
