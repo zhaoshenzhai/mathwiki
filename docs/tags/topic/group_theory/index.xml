@@ -6,8 +6,15 @@
     <description>Recent content in Topic/Group_Theory on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 May 2024 20:02:09 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2024 17:04:49 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/topic/group_theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orbit Stabilizer Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</link>
+      <pubDate>Mon, 03 Jun 2024 17:04:49 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</guid>
+      <description>Statement &amp;amp; Proof Let $G\act X$ act on a set and fix $x_0\in X$.&#xA;Theorem (Orbit-Stabilizer). Let $G$ be a group and let $(X,x_0)$ be a pointed $G$-set. Equipping $G/\Stab_G(x_0)$ with the natural left-multiplication $G$-action, we have a $G$-equivariant bijection $\Orb_G(x_0)\iso G/\Stab_G(x_0)$. Proof. Let $H\coloneqq\Stab_G(x_0)$ and consider the map $f:G\to\Orb_G(x_0):g\mapsto gx_0$. Since $$\begin{equation} f(g_1)=f(g_2)\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_2^{-1}g_1x_0=x_0\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1H=g_2H, \end{equation}$$ we see that $f$ descends $^\dagger$ into an injective map $\widetilde{f}:G/H\to\Orb_G(x_0):gH\mapsto gx_0$.</description>
+    </item>
     <item>
       <title>Group Action</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/group_action/</link>

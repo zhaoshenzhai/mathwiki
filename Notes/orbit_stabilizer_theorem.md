@@ -1,11 +1,13 @@
 ---
 title: Orbit Stabilizer Theorem
 date: 2024-06-03T17:04:49-04:00
-references: []
-tags: [In_Progress]
+references: [Ref/Alu09]
+tags: [Topic/Group_Theory, In_Progress]
 ---
 
 # Statement & Proof
+
+Let $G\act X$ {{< link file="group_action" display="act" type="references" >}} on a set and fix $x_0\in X$.
 
 {{< env "theorem" "Orbit-Stabilizer" >}}
 

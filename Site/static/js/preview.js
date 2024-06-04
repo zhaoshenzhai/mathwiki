@@ -65,9 +65,10 @@ function updateCurrentSide(e, link, page) {
     e.preventDefault();
     if (page == "nopPage") { return; }
 
+
     if (!mainContent.classList.contains("openLinks") && !getCtrlKeyDown()) {
-        clicked = true;
         var preview = getPreview();
+        clicked = true;
 
         if (!preview && currentSide.src == link) {
             window.open(currentSide.src, "_self");

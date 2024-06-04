@@ -92,7 +92,7 @@ One may also equip groups with additional structure, leading to much richer theo
 
 <br><br>
 
-## Groupoids
+## {{< link file="groupoid" display="Groupoids" type="generalizations" >}}
 
 Many groups arise as the automorphism group of some object $X$. In fact, this is true for *all* groups.
 
@@ -102,4 +102,4 @@ Many groups arise as the automorphism group of some object $X$. In fact, this is
 
 > Note that a homomorphism $G\to H$ is nothing but a functor $\cat{B}G\to\cat{B}H$, and that a $G$-action on a category $C$ is nothing but a functor $\cat{B}G\to C$.
 
-Generalizing this idea, we say that a category $C$ is a {{< link file="groupoid" display="groupoid" type="generalizations" >}} if each morphism is invertible. Thus, after identifying $G$ with $\cat{B}G$, a group is nothing but a groupoid with a single object.
+Generalizing this idea, we say that a category $C$ is a groupoid if each morphism is invertible. Thus, after identifying $G$ with $\cat{B}G$, a group is nothing but a groupoid with a single object.

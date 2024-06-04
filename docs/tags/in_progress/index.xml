@@ -13,14 +13,14 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</link>
       <pubDate>Mon, 03 Jun 2024 17:04:49 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</guid>
-      <description>Statement &amp;amp; Proof Theorem (Orbit-Stabilizer). Let $G$ be a group and let $(X,x_0)$ be a pointed $G$-set. Equipping $G/\Stab_G(x_0)$ with the natural left-multiplication $G$-action, we have a $G$-equivariant bijection $\Orb_G(x_0)\iso G/\Stab_G(x_0)$. Proof. Let $H\coloneqq\Stab_G(x_0)$ and consider the map $f:G\to\Orb_G(x_0):g\mapsto gx_0$. Since $$\begin{equation} f(g_1)=f(g_2)\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_2^{-1}g_1x_0=x_0\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1H=g_2H, \end{equation}$$ we see that $f$ descends $^\dagger$ into an injective map $\widetilde{f}:G/H\to\Orb_G(x_0):gH\mapsto gx_0$.</description>
+      <description>Statement &amp;amp; Proof Let $G\act X$ act on a set and fix $x_0\in X$.&#xA;Theorem (Orbit-Stabilizer). Let $G$ be a group and let $(X,x_0)$ be a pointed $G$-set. Equipping $G/\Stab_G(x_0)$ with the natural left-multiplication $G$-action, we have a $G$-equivariant bijection $\Orb_G(x_0)\iso G/\Stab_G(x_0)$. Proof. Let $H\coloneqq\Stab_G(x_0)$ and consider the map $f:G\to\Orb_G(x_0):g\mapsto gx_0$. Since $$\begin{equation} f(g_1)=f(g_2)\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_2^{-1}g_1x_0=x_0\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1H=g_2H, \end{equation}$$ we see that $f$ descends $^\dagger$ into an injective map $\widetilde{f}:G/H\to\Orb_G(x_0):gH\mapsto gx_0$.</description>
     </item>
     <item>
       <title>Finite Group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/finite_group/</link>
       <pubDate>Mon, 03 Jun 2024 16:36:14 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/finite_group/</guid>
-      <description>Let $G$ be a group. The condition that (the underlying set of) $G$ is finite allows us to apply methods from finite combinatorics to analyze $G$. We give some group-theoretic frameworks for which such combinatorics can be applied to.&#xA;Note that such methods can become incredibly sophisticated; the classification of finite simple groups is one of the major achievements of mathematics.&#xA;Group Actions $hi$ on Sets The Orbit-Stabilizer Theorem The Class Equation The Sylow Theorems Representation Theory </description>
+      <description>Let $G$ be a group. The condition that (the underlying set of) $G$ is finite allows us to apply methods from finite combinatorics to analyze $G$. We give some group-theoretic frameworks for which such combinatorics can be applied to.&#xA;Note that such methods can become incredibly sophisticated; the classification of finite simple groups is one of the major achievements of mathematics.&#xA;Group Actions on Sets The Orbit-Stabilizer Theorem Let $G\act X$ $-$ where $X$ is a possibly infinite set $-$ and fix an orbit $O\coloneqq\Orb_G(x_0)$ for any $x_0\in X$.</description>
     </item>
     <item>
       <title>Completeness of Category of Groups</title>

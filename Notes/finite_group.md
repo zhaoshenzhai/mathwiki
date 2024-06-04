@@ -9,16 +9,20 @@ Let $G$ be a {{< link file="group" display="group" type="references" >}}. The co
 
 >Note that such methods can become incredibly sophisticated; the classification of finite {{< link file="simple_group" display="simple" type="references" >}} groups is one of the major achievements of mathematics.
 
-# Group {{< link file="group_action" display="Actions $hi$" type="references" >}} on Sets
+# Group {{< link file="group_action" display="Actions" type="references" >}} on Sets
 
-## {{< link file="orbit_stabilizer_theorem" display="The Orbit-Stabilizer Theorem" type="references" >}}
+## {{< link file="orbit_stabilizer_theorem" display="The Orbit-Stabilizer Theorem" type="techniques" >}}
+
+Let $G\act X$ $-$ where $X$ is a *possibly infinite* set $-$ and fix an orbit $O\coloneqq\Orb_G(x_0)$ for any $x_0\in X$. Since $O\iso G/\Stab_G(x_0)$, we see that $\l|O\r|=\l|G\r|/\l|\Stab_G(x_0)\r|$ is finite and divides $\l|G\r|$.
+
+<br>
+
+&emsp;&emsp;This easy fact is surprisingly useful; indeed, it generalizes {{< link file="orbit_stabilizer_theorem" display="Lagrange’s Theorem" type="techniques" section="Lagrange’s Theorem" >}}!
 
 <br><br>
 
-## The Class Equation
+## {{< link file="sylow_theorems" display="The Sylow Theorems" type="techniques" >}}
 
-<br><br>
+Hi
 
-## The Sylow Theorems
-
-# Representation Theory
+# {{< link file="representation_theory" display="Representation" type="references" >}} Theory
