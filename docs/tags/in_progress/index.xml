@@ -6,14 +6,21 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Jun 2024 19:40:13 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2024 21:08:25 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kernel (Group Theory)</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/kernel_group_theory/</link>
+      <pubDate>Thu, 06 Jun 2024 21:08:25 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/kernel_group_theory/</guid>
+      <description>Motivation &amp;amp; Definition A special property of the category of groups is the existence of a zero object; namely, the trivial group $\l\{0\r\}$; by definition, we have a morphism $0:G\to\l\{0\r\}\to H$ for each pair $G,H$ of groups. Now, for an arbitrary homomorphism $f:G\to H$, we would like to find some group $K$ that ‘forces’ $f$ to ‘equalize’ with $0$ in a universal way. This can be done in two $-$ dual $-$ ways, called the kernel and cokernel of $f$.</description>
+    </item>
     <item>
       <title>Subgroup</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/subgroup/</link>
       <pubDate>Thu, 06 Jun 2024 19:40:13 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/subgroup/</guid>
-      <description>Definition and Characterizations A standard method of studying an object $-$ in this case, a group $G$ $-$ is to analyze other groups that ‘sit inside’ $G$. This is formalized in the following&#xA;Definition. Let $G$ be a group. A subgroup of $G$ is a subset $H\subseteq G$ equipped with a group structure making the inclusion $H\into G$ a group homomorphism.&#xA;We write $H\substructeq G$ to indicate that $H$ is a subgroup of $G$.</description>
+      <description>Definition and Generation A standard method of studying an object $-$ in this case, a group $G$ $-$ is to analyze other groups that ‘sit inside’ $G$. This is formalized in the following&#xA;Definition. Let $G$ be a group. A subgroup of $G$ is a subset $H\subseteq G$ equipped with a group structure making the inclusion $H\into G$ a group homomorphism.&#xA;We write $H\substructeq G$ to indicate that $H$ is a subgroup of $G$.</description>
     </item>
     <item>
       <title>Ideal</title>
