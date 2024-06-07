@@ -27,7 +27,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/abelian_group/</link>
       <pubDate>Wed, 22 May 2024 18:53:29 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/abelian_group/</guid>
-      <description>Definition Here, we consider a class of groups which $-$ despite being very general $-$ exhibit very useful properties absent in general groups.&#xA;Definition. A group $G$ is said to be Abelian if $gh=hg$ for all $g,h\in G$. We denote the subcategory of Abelian groups as $\catabgrp$, which is one of the most well-behaved categories. Indeed, ???.&#xA;We have a forgetful functor $\catmod[\Z]\to\catabgrp$, which is an isomorphism of categories ???. In this way, the notions of torsion, rank, etc, all carry forward.</description>
+      <description>Motivation &amp;amp; Definition Here, we consider a class of groups which $-$ despite being very general $-$ exhibit very useful properties absent in general groups.&#xA;Definition. A group $G$ is said to be Abelian if $gh=hg$ for all $g,h\in G$. Abelian Groups as $\Z$-modules We denote the subcategory of Abelian groups as $\catabgrp$, which is one of the most well-behaved categories. Indeed, ???.&#xA;We have a forgetful functor $\catmod[\Z]\to\catabgrp$, which is an isomorphism of categories ?</description>
     </item>
     <item>
       <title>Group</title>

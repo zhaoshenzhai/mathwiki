@@ -1,0 +1,38 @@
+---
+title: Subgroup
+date: 2024-06-06T19:40:13-04:00
+references: []
+tags: [In_Progress]
+---
+
+# Definition and Characterizations
+
+A standard method of studying an object $-$ in this case, a {{< link file="group" display="group" type="references" >}} $G$ $-$ is to analyze other groups that ‘sit inside’ $G$. This is formalized in the following
+
+{{< env "definition" >}}
+
+Let $G$ be a group. A **subgroup** of $G$ is a subset $H\subseteq G$ equipped with a group structure making the inclusion $H\into G$ a group homomorphism.
+
+{{< /env >}}
+
+Note that any sub*set* $H\subseteq G$ inherits the operation from $G$, and makes it a sub*group* iff said operation is closed. The closure condition can be simplified to only requiring that $gh^{-1}\in H$ for all $g,h\in H$.
+
+<br>
+
+&emsp;&emsp;From a {{< link file="model_theory" display="model-theoretic" type="references" >}} point of view, subgroups of $G$ are simply {{< link file="substructure" display="substructures" type="generalizations" >}} thereof, viewed as a {{< link file="model" display="model" type="references" >}} of the {{< link file="group" display="theory of groups" type="references" section="The Theory $T_\textrm{Grp}$" >}}.
+
+<br><br>
+
+## Subgroup Generation
+
+Given a subset $A\subseteq G$, the subgroup *generated* by $A$ is the smallest subgroup $H\substructeq G$ containing $A$. It is clearly unique, and is thus denoted by $\gen{A}$. Such a group can be realized in many ways.
+* <span style="color:gray">(Element).</span> The most direct group-theoretic construction is simply letting
+$$\begin{equation}
+    \gen{A}\coloneqq\l\\{g\in G\st g=a_1^{\epsilon_1}\cdots a_n^{\epsilon_n}\textrm{ for some }a_1,\dots,a_n\in A\textrm{ and }\epsilon_1,\dots,\epsilon_n=\pm1\r\\}
+\end{equation}$$
+be the subgroup of all elements expressible as (finite) combinations of elements in $A$ and their inverses.
+* <span style="color:gray">(Top-down).</span> We can let $\gen{A}$ be the intersection of all subgroup $H\substructeq G$ containing $A$. This clearly works, but is too unwieldy to deal with.
+* <span style="color:gray">(Bottom-up).</span> We can construct $\gen{A}$ starting with $A\cup\l\\{e\r\\}$ by inductively closing it under the group operation and inversion. Only a countable induction is needed, and this construction generalizes {{< link file="substructure" mod="dag" type="generalizations" section="Substructure Generation" >}} to arbitrary substructures.
+* <span style="color:gray">(Free Construction).</span> A category-theoretic construction is given by setting $\gen{A}$ be the image of the canonical map $F(A)\to G$ induced by the inclusion $A\into G$.
+
+# Lattice of Subgroups

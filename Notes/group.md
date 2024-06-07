@@ -34,21 +34,13 @@ for every $g_1,g_2\in G$. <span style="color:gray">Note that this implies $f(e_G
 
 {{< /env >}}
 
-Homomorphisms induce canonical subgroups $-$ i.e. subsets $A\subseteq G$ where $A\into G$ is a homomorphism: the *kernel* $\ker f\coloneqq f^{-1}(e_H)$ and the *image* $\im f\coloneqq f(G)$.
-
-<br><br>
-
 ## The Category $\catgrp$
 
-We have a forgetful {{< link file="functor" display="functor" type="references" >}} $U:\catgrp\to\catset$.
+We have a forgetful {{< link file="functor" display="functor" type="references" >}} $U:\catgrp\to\catset$. Since every set $X$ generates a {{< link file="free_group" display="free group" type="constructions" >}} $F(X)$, we have a left adjoint $F:\catset\to\catgrp$ of $U$.
 
 <br><br>
 
-This category is {{< link file="catgrp_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}}, so <span style="color:red">???</span>.
-
-<br><br>
-
-Since every set $X$ generates a {{< link file="free_group" display="free group" type="constructions" >}} $F(X)$, we have a left adjoint $F:\catset\to\catgrp$ of $U$.
+This category is {{< link file="catgrp_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}} and cocomplete, witnessed by the standard constructions of products, coproducts, kernels, cokernels, {{< link file="subgroup" display="subobjects" type="constructions" >}}, and quotients.
 
 <br><br>
 
@@ -79,6 +71,10 @@ This method is especially prominent in the study of {{< link file="finite_group"
 
 # Examples and Generalizations
 
+The simplest groups are probably the {{< link file="cyclic_group" display="cyclic groups" type="examples" >}}.
+
+<br><br>
+
 ## Types of Groups
 
 Beyond the generalities above, much more can be said about specific types of groups. Indeed, they can studied from very different perspectives.
@@ -102,4 +98,4 @@ Many groups arise as the automorphism group of some object $X$. In fact, this is
 
 > Note that a homomorphism $G\to H$ is nothing but a functor $\cat{B}G\to\cat{B}H$, and that a $G$-action on a category $C$ is nothing but a functor $\cat{B}G\to C$.
 
-Generalizing this idea, we say that a category $C$ is a groupoid if each morphism is invertible. Thus, after identifying $G$ with $\cat{B}G$, a group is nothing but a groupoid with a single object.
+Generalizing this idea, we say that a category $C$ is a *groupoid* if each morphism is invertible. Thus, after identifying $G$ with $\cat{B}G$, a group is nothing but a groupoid with a single object. Without requiring that all morphisms be invertible $-$ that is, just considering a category with a single object $-$ we recover the notion of a {{< link file="monoid" display="monoid" type="generalizations" >}}.

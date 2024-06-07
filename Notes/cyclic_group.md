@@ -11,7 +11,7 @@ The simplest class of groups are the so-called *cyclic groups*, which are those 
 
 {{< env "definition" >}}
 
-A group $G$ is said to be **cyclic** if $G=\gen{x}$ for some $x\in G$.
+A group $G$ is said to be **cyclic** if $G=\gen{x}$ {{< link file="subgroup" type="references" mod="dag" section="Subgroup Generation" >}} for some $x\in G$.
 
 {{< /env >}}
 
