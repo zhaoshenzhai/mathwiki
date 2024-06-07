@@ -13,7 +13,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/subgroup/</link>
       <pubDate>Thu, 06 Jun 2024 19:40:13 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/subgroup/</guid>
-      <description>Definition and Characterizations A standard method of studying an object $-$ in this case, a group $G$ $-$ is to analyze other groups that ‘sit inside’ $G$. This is formalized in the following&#xA;Definition. Let $G$ be a group. A subgroup of $G$ is a subset $H\subseteq G$ equipped with a group structure making the inclusion $H\into G$ a group homomorphism. Note that any subset $H\subseteq G$ inherits the operation from $G$, and makes it a subgroup iff said operation is closed.</description>
+      <description>Definition and Characterizations A standard method of studying an object $-$ in this case, a group $G$ $-$ is to analyze other groups that ‘sit inside’ $G$. This is formalized in the following&#xA;Definition. Let $G$ be a group. A subgroup of $G$ is a subset $H\subseteq G$ equipped with a group structure making the inclusion $H\into G$ a group homomorphism.&#xA;We write $H\substructeq G$ to indicate that $H$ is a subgroup of $G$.</description>
     </item>
     <item>
       <title>Ideal</title>
