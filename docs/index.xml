@@ -55,7 +55,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/finite_group/</link>
       <pubDate>Mon, 03 Jun 2024 16:36:14 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/finite_group/</guid>
-      <description>Let $G$ be a group. The condition that (the underlying set of) $G$ is finite allows us to apply methods from finite combinatorics to analyze $G$. We give some group-theoretic frameworks for which such combinatorics can be applied to.&#xA;Note that such methods can become incredibly sophisticated; the classification of finite simple groups is one of the major achievements of mathematics.&#xA;Group Actions on Sets The Orbit-Stabilizer Theorem Let $G\act X$ $-$ where $X$ is a possibly infinite set $-$ and fix an orbit $O\coloneqq\Orb_G(x_0)$ for any $x_0\in X$.</description>
+      <description>Let $G$ be a group. The condition that (the underlying set of) $G$ is finite allows us to apply methods from finite combinatorics to analyze $G$. We give some group-theoretic frameworks for which such combinatorics can be applied to.&#xA;Such methods can become incredibly sophisticated; for instance, the classification of finite simple groups is one of the major achievements of mathematics.&#xA;Group Actions on Sets The Orbit-Stabilizer Theorem Let $G\act X$ $-$ where $X$ is a possibly infinite set $-$ and fix an orbit $O\coloneqq\Orb_G(x_0)$ for any $x_0\in X$.</description>
     </item>
     <item>
       <title>Completeness of Category of Groups</title>
