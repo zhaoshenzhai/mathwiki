@@ -1,4 +1,5 @@
 import { getCtrlKeyDown } from "./input.js"
+import { formatSpace } from "./stringUtils.js"
 
 var mainContent = document.getElementById("content");
 var defaultSide = document.getElementById("metadata");
@@ -22,6 +23,8 @@ window.updateCurrentSide = updateCurrentSide;
 window.resetSide = resetSide;
 
 function previewSide(link, page) {
+    link = formatSpace(link);
+
     if (page == "nopPage") { return; }
     if (currentSide.src != link && (!getPreview() || cleared)) {
         getPreview()?.remove();
@@ -62,9 +65,9 @@ function clearPreviewSide(page) {
 }
 
 function updateCurrentSide(e, link, page) {
+    link = formatSpace(link);
     e.preventDefault();
     if (page == "nopPage") { return; }
-
 
     if (!mainContent.classList.contains("openLinks") && !getCtrlKeyDown()) {
         var preview = getPreview();
@@ -106,6 +109,8 @@ export function resetSide() {
 }
 
 function newPreviewFrame(link) {
+    link = formatSpace(link);
+
     var frame = document.createElement("iframe");
     frame.style.opacity = "0";
     frame.setAttribute("src", link);

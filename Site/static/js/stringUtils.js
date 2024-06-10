@@ -6,6 +6,10 @@ export function toSpace(s) {
     return s.replace('_', " ");
 }
 
+export function formatSpace(s) {
+    return s.replace(/ /g, "%20");
+}
+
 export function textOfNode(n) {
     return n.textContent.replace(/(\r\n|\n|\r)/gm, "");
 }

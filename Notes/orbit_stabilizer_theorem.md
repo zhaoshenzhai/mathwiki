@@ -28,8 +28,6 @@ $$\begin{equation}
 
 ## Lagrange’s Theorem
 
-
-
 <br><br>
 
 ## The Class Equation
