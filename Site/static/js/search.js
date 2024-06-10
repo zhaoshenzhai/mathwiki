@@ -75,10 +75,12 @@ function searchItemActive(newActiveNum) {
 }
 
 export function searchInit() {
-    searchActive = true;
-    searchBox.style.display = "flex";
-    searchBar.focus();
-    search();
+    if (!searchBox.classList.contains("inPreview")) {
+        searchActive = true;
+        searchBox.style.display = "flex";
+        searchBar.focus();
+        search();
+    }
 }
 
 export function searchClear() {
