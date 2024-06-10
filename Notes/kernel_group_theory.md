@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-A special property of the {{< link file="category" display="category" type="references" >}} of {{< link file="group" display="groups" type="references" >}} is the existence of a zero object; namely, the trivial group $\l\\{0\r\\}$; by definition, we have a morphism $0:G\to\l\\{0\r\\}\to H$ for each pair $G,H$ of groups. Now, for an arbitrary homomorphism $f:G\to H$, we would like to find some group $K$ that ‘forces’ $f$ to ‘equalize’ with $0$ in a {{< link file="universal_constructions" display="universal" type="references" >}} way. This can be done in two $-$ dual $-$ ways, called the *kernel* and *cokernel* of $f$.
+A special property of the {{< link file="category" display="category" type="references" >}} of {{< link file="group" display="groups" type="references" >}} is the existence of a {{< link file="initial_object" display="zero" type="references" >}} object; namely, the trivial group $\l\\{0\r\\}$; by definition, we have a morphism $0:G\to\l\\{0\r\\}\to H$ for each pair $G,H$ of groups. Now, for an arbitrary homomorphism $f:G\to H$, we would like to find some group $K$ that ‘forces’ $f$ to ‘equalize’ with $0$ in a {{< link file="universal_constructions" display="universal" type="references" >}} way. This can be done in two $-$ dual $-$ ways, called the *kernel* and *cokernel* of $f$.
 
 <br><br>
 

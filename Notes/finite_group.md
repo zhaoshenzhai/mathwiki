@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 Let $G$ be a {{< link file="group" display="group" type="references" >}}. The condition that (the underlying set of) $G$ is finite allows us to apply methods from finite combinatorics to analyze $G$. We give some group-theoretic frameworks for which such combinatorics can be applied to.
 
->Note that such methods can become incredibly sophisticated; the classification of finite {{< link file="simple_group" display="simple" type="references" >}} groups is one of the major achievements of mathematics.
+>Such methods can become incredibly sophisticated; for instance, the classification of finite {{< link file="simple_group" display="simple" type="references" >}} groups is one of the major achievements of mathematics.
 
 # Group {{< link file="group_action" display="Actions" type="references" >}} on Sets
 
