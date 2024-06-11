@@ -21,7 +21,7 @@ Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we
 
 &emsp;&emsp;Taking $C\coloneqq\catset$ recovers the usual notion of a group acting on a set, in which case $\Aut X$ are just the permutations of $X$. With $X$ as the underlying set of $G$, we have the canonical *left-multiplication* action given by $\phi(g)x\coloneqq g\cdot x$.
 
-<br><br>
+<div class="space"></div>
 
 ## Basic Notions
 

@@ -28,7 +28,7 @@ $$\begin{equation}
 
 ## Lagrange’s Theorem
 
-<br><br>
+<div class="space"></div>
 
 ## The Class Equation
 

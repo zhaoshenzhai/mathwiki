@@ -9,7 +9,7 @@ tags: [In_Progress]
 
 A special property of the {{< link file="category" display="category" type="references" >}} of {{< link file="group" display="groups" type="references" >}} is the existence of a {{< link file="initial_object" display="zero" type="references" >}} object; namely, the trivial group $\l\\{0\r\\}$; by definition, we have a morphism $0:G\to\l\\{0\r\\}\to H$ for each pair $G,H$ of groups. Now, for an arbitrary homomorphism $f:G\to H$, we would like to find some group $K$ that ‘forces’ $f$ to ‘equalize’ with $0$ in a {{< link file="universal_constructions" display="universal" type="references" >}} way. This can be done in two $-$ dual $-$ ways, called the *kernel* and *cokernel* of $f$.
 
-<br><br>
+<div class="space"></div>
 
 ## Kernel
 
@@ -26,7 +26,7 @@ $$\begin{equation}
 
 Clearly, $\iota:\ker f\to G$ composes with $f$ to the trivial map. It is moreover {{< link file="catgrp_is_complete" mod="dag" type="justifications" section="Kernels/Cokernels" >}} the ‘most efficient’ way of doing so, in the sense that it is the terminal object in the slice category $(K,\alpha:K\to G)$ making $f\circ\alpha=0$. This can then be interpreted as a  {{< link file="limits_category_theory" display="colimit" type="references" >}}.
 
-<br><br>
+<div class="space"></div>
 
 ## Cokernel
 

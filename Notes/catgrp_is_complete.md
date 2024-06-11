@@ -19,7 +19,7 @@ tags: [In_Progress]
 
 ## Products/Coproducts
 
-<br><br>
+<div class="space"></div>
 
 ## Kernels/Cokernels
 

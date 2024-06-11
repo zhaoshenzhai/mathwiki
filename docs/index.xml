@@ -13,7 +13,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/</link>
       <pubDate>Mon, 10 Jun 2024 17:20:55 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/</guid>
-      <description>Motivation &amp;amp; Definition For any category, it is useful to find an explicit form of its congruence relations. For the category $\catgrp$ of groups, these are in correspondence with normal subgroups.&#xA;Definition. Let $G$ be a group. A&#xA;subgroup $N\substructeq G$ is said to be normal if it is invariant under the&#xA;conjugation&#xA;action of $G$; i.e., if $gN=Ng$ for all $g\in G$.&#xA;In this case, we write $N\nsubgrpeq G$, and $N\nsubgrp G$ if it is proper.</description>
+      <description>Motivation &amp;amp; Definition Fix a group $G$ and consider the category $\cat{B}G$ defined by $G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$). What are the congruences in $\cat{B}G$?&#xA;Definition. A&#xA;subgroup $N\substructeq G$ is said to be normal if it is invariant under the&#xA;conjugation&#xA;action of $G$; i.e., if $gN=Ng$ for all $g\in G$.&#xA;In this case, we write $N\nsubgrpeq G$, and $N\nsubgrp G$ if it is proper.</description>
     </item>
     <item>
       <title>Kernel (Group Theory)</title>

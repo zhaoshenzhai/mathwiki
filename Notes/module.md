@@ -34,7 +34,7 @@ A function $f:M\to N$ between $R$-modules is a **homomorphism** if it is a group
 
 ## Linear Algebra
 
-<br><br>
+<div class="space"></div>
 
 ## Homological Algebra
 
@@ -42,6 +42,6 @@ A function $f:M\to N$ between $R$-modules is a **homomorphism** if it is a group
 
 ## Conditions on $R$
 
-<br><br>
+<div class="space"></div>
 
 ## Types of Modules

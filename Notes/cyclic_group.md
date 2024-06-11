@@ -23,7 +23,7 @@ Let $G=\gen{x}$ be cyclic. By definition, $\phi:\Z\to G$ sending $m\mapsto x^m$ 
 
 This shows that every cyclic group $G$ is either isomorphic to $\Z$, or to $\Z/n\Z$ for some $n\geq1$. Henceforth, we write $C_n$ for $\Z/n\Z$ if $n\geq1$ and $C_0\coloneqq\Z$, both additively.
 
-<br><br>
+<div class="space"></div>
 
 ## Combinatorics of $\Z/n\Z$
 
@@ -33,7 +33,7 @@ Clearly, the class $[1]_n$ generates $\Z/n\Z$. In general, $[m]\in\Z/n\Z$ is a g
 
 Other than addition on $C_n$, we also have a multiplication operation defined by $[a]\cdot[b]\coloneqq[ab]$
 
-<br><br>
+<div class="space"></div>
 
 ## Chinese Remainder Theorem
 

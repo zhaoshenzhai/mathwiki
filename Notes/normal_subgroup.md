@@ -7,11 +7,11 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-For any {{< link file="category" display="category" type="references" >}}, it is useful to find an explicit form of its {{< link file="congruence_relation" display="congruence relations" type="references" >}}. For the category {{< link file="group" display="$\catgrp$" type="references" section="The Category $\catgrp$" >}} of {{< link file="group" display="groups" type="references" >}}, these are in correspondence with *normal subgroups*.
+&emsp;&emsp;Fix a {{< link file="group" display="group" type="references" >}} $G$ and consider the {{< link file="category" display="category" type="references" >}} $\cat{B}G$ defined by $G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$). What are the congruences in $\cat{B}G$?
 
 {{< env "definition" >}}
 
-Let $G$ be a group. A {{< link file="subgroup" display="subgroup" type="references" >}} $N\substructeq G$ is said to be **normal** if it is invariant under the {{< link file="conjugation_action" display="conjugation" type="references" >}} {{< link file="group_action" display="action" type="references" >}} of $G$; i.e., if $gN=Ng$ for all $g\in G$.
+A {{< link file="subgroup" display="subgroup" type="references" >}} $N\substructeq G$ is said to be **normal** if it is invariant under the {{< link file="conjugation_action" display="conjugation" type="references" >}} {{< link file="group_action" display="action" type="references" >}} of $G$; i.e., if $gN=Ng$ for all $g\in G$.
 
 <br>
 
@@ -21,13 +21,13 @@ Let $G$ be a group. A {{< link file="subgroup" display="subgroup" type="referenc
 
 Equivalently, we may demand $gng^{-1}\in N$ for all $n\in N$ and $g\in G$ instead.
 
-<br><br>
+<div class="space"></div>
 
 ## Normal $\Leftrightarrow$ Congruence
 
 We now show that every congruence relation $\sim$ on $G$ is induced by a unique normal subgroup $N\nsubgrpeq G$.
 
-<br><br>
+<div class="space"></div>
 
 *Proof.* Given $\sim$, the subset $N\coloneqq\l\\{n\in G\st n\sim e\r\\}$ is clearly a subgroup, and is normal since for all $gn\in gN$, we have $gn\sim g$ and hence $gng^{-1}\sim e$. Thus $gng^{-1}\in N$.
 <br>
@@ -37,6 +37,12 @@ $$\begin{equation}
     (g_2h_2)^{-1}(g_1h_1)=h_2^{-1}(g_2^{-1}g_1)h_1\in h_2^{-1}Nh_1=h_2^{-1}h_1N=N.\qedin
 \end{equation}$$
 
-<br>
+<div class="space"></div>
 
-## Quotient Groups
+## Normal Closure
+
+Recall that each equivalence relation $\sim$ induces a congruence (obtained by intersecting every congruence containing $\sim$). In particular, if $H\substructeq G$ is a subgroup, then the congruence relation induced by the equivalence relation $g_1\sim g_2$ iff $g_1H=g_2H$ corresponds by the above to a normal subgroup $\gen{H}_N\nsubgrpeq G$.
+
+# Quotient Group
+
+With this description of congruences on $G$, we obtain an elementary description of the {{< link file="quotient_category" display="quotient category" type="references" >}} $\cat{B}G/\\!\sim$. Indeed, 

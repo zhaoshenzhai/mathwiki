@@ -34,7 +34,7 @@ $$\begin{equation}
 \end{equation}$$
 for every morphism $f':r\to d$, making its naturality square commute. Conversely, by the {{< link file="yoneda_lemma" display="Yoneda Lemma" type="justifications" >}}, *every* natural isomorphism $\phi:D(r,\slot)\to C(c,F\slot)$ arises in this way via a unique universal arrow $u:c\to Fr$ from $c$ to $F$.<span style="float:right;">$\blacklozenge$</span>
 
-<br><br>
+<div class="space"></div>
 
 ## Representable Functors
 
@@ -46,7 +46,7 @@ for every morphism $f':r\to d$, making its naturality square commute. Conversely
 
 ## Limits and Colimits
 
-<br><br>
+<div class="space"></div>
 
 ## Free Constructions
 

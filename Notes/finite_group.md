@@ -19,7 +19,7 @@ Let $G\act X$ $-$ where $X$ is a *possibly infinite* set $-$ and fix an orbit $O
 
 &emsp;&emsp;This easy fact is surprisingly useful; indeed, it generalizes {{< link file="orbit_stabilizer_theorem" display="Lagrange’s Theorem" type="techniques" section="Lagrange’s Theorem" >}}!
 
-<br><br>
+<div class="space"></div>
 
 ## {{< link file="sylow_theorems" display="The Sylow Theorems" type="techniques" >}}
 

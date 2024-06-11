@@ -13,7 +13,7 @@ The set of *integers* $-$ denoted $\Z$ $-$ is one of the most fundamental object
 
 As all nice objects do, it is characterized by a certain universal property.
 
-<br><br>
+<div class="space"></div>
 
 ## $\Z$-modules
 

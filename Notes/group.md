@@ -38,11 +38,11 @@ for every $g_1,g_2\in G$. <span style="color:gray">Note that this implies $f(e_G
 
 We have a forgetful {{< link file="functor" display="functor" type="references" >}} $U:\catgrp\to\catset$. Since every set $X$ generates a {{< link file="free_group" display="free group" type="constructions" >}} $F(X)$, we have a left adjoint $F:\catset\to\catgrp$ of $U$.
 
-<br><br>
+<div class="space"></div>
 
 This category is {{< link file="catgrp_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}} and cocomplete, witnessed by the standard constructions of products, coproducts, {{< link file="kernel_group" display="kernel" type="constructions" >}}, cokernels, {{< link file="subgroup" display="subobjects" type="constructions" >}}, and quotients.
 
-<br><br>
+<div class="space"></div>
 
 ## The Theory $T_\textrm{Grp}$
 
@@ -50,7 +50,7 @@ This category is {{< link file="catgrp_is_complete" type="justifications" mod="d
 
 Groups are incredibly hard to study. Nevertheless, there are some common methods of attack that can yield very fruitful results and insights.
 
-<br><br>
+<div class="space"></div>
 
 ## {{< link file="group_action" display="Group Actions" type="constructions" >}}
 
@@ -59,7 +59,7 @@ Perhaps the most important technique to study a group is by allowing it to act o
 
 Indeed, as groups are abstract manifestations of symmetries, it is natural to consider an object $X$ and consider a group homomorphism $\phi:G\to\Aut X$, which reflects how to group manifests itself as concrete automorphisms (i.e. *symmetries*) of $X$.
 
-<br><br>
+<div class="space"></div>
 
 ## {{< link file="group_extension" display="Group Extensions" type="constructions" >}}
 
@@ -73,7 +73,7 @@ This method is especially prominent in the study of {{< link file="finite_group"
 
 The simplest groups are probably the {{< link file="cyclic_group" display="cyclic groups" type="examples" >}}.
 
-<br><br>
+<div class="space"></div>
 
 ## Types of Groups
 
@@ -86,7 +86,7 @@ Beyond the generalities above, much more can be said about specific types of gro
 
 One may also equip groups with additional structure, leading to much richer theories. Some important examples are {{< link file="topological_group" display="topological groups" type="structures" >}}, {{< link file="lie_group" display="Lie groups" type="structures" >}}, and {{< link file="algebraic_groups" display="algebraic groups" type="structures" >}}.
 
-<br><br>
+<div class="space"></div>
 
 ## {{< link file="groupoid" display="Groupoids" type="generalizations" >}}
 

@@ -38,11 +38,11 @@ for each $d\in C$. That $a=y(t(a))$ is immediate since $t(a)_c(1_c)=F(1_c)a=1_ca
 {{< /tikz >}}
 commutes for any morphism $f:c\to d$. In particular, chasing $1_c\in C(c,c)$ around gives us $Ff(\eta_c(1_c))=\eta_d(f_\ast1_c)$, and thus $t(y(\eta))_df=Ff(y(\eta))=\eta_df$ for all $f:c\to d$. Hence, we have $t(y(\eta))=\eta$, as desired.<span style="float:right;">$\blacksquare$</span>
 
-<br><br>
+<div class="space"></div>
 
 *Proof (Naturality).* The naturality claims amount
 
-<br><br>
+<div class="space"></div>
 
 ## Extensions and Corollaries
 
