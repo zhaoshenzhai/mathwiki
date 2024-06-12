@@ -1,8 +1,8 @@
 ---
 title: Category
 date: 2024-05-22T21:52:00-04:00
-references: [Ref/Mac10]
-tags: [Topic/Category_Theory, In_Progress]
+references: [Mac10]
+tags: [Category_Theory, In_Progress]
 ---
 
 # Motivation & Definition

@@ -1,8 +1,8 @@
 ---
 title: Group
 date: 2024-05-16T21:34:09-04:00
-references: [Ref/Alu09, Ref/DF03, Ref/Mac10]
-tags: [Topic/Group_Theory]
+references: [Alu09, DF03, Mac10]
+tags: [Group_Theory]
 ---
 
 # Motivation & Definition

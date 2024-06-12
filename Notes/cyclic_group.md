@@ -17,7 +17,7 @@ A group $G$ is said to be **cyclic** if $G=\gen{x}$ {{< link file="subgroup" typ
 
 ## Classification
 
-Let $G=\gen{x}$ be cyclic. By definition, $\phi:\Z\to G$ sending $m\mapsto x^m$ is surjective. Depending on the order $n\coloneqq\ord x$ of $x$, $G$ takes on the following forms.
+Let $G=\gen{x}$ be cyclic. By definition, $\phi:\Z\to G$ sending $m\mapsto x^m$ is surjective. Depending on the {{< link file="order" display="order" type="references" >}} $n\coloneqq\ord x$ of $x$, $G$ takes on the following forms.
 * If $1\leq n<\infty$, then $\ker\phi=n\Z$ and hence $G\iso\Z/n\Z$.
 * Otherwise, $n=\infty$. Thus $\phi$ is injective, and hence $G\iso\Z$.
 

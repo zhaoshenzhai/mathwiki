@@ -2,7 +2,7 @@
 title: Topological Space
 date: 2024-05-14T14:45:50-04:00
 references: [Mun00, Eng89, Mac10]
-tags: [Topic/Topology]
+tags: [Topology]
 ---
 
 # Motivation & Definition

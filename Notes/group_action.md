@@ -1,8 +1,8 @@
 ---
 title: Group Action
 date: 2024-05-22T20:02:09-04:00
-references: [Ref/Alu09, Ref/Mac10]
-tags: [Topic/Group_Theory]
+references: [Alu09, Mac10]
+tags: [Group_Theory]
 ---
 
 # Motivation & Definition

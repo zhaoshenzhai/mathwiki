@@ -1,8 +1,8 @@
 ---
 title: Abelian Group
 date: 2024-05-22T18:53:29-04:00
-references: [Ref/Alu09]
-tags: [Topic/Group_Theory]
+references: [Alu09]
+tags: [Group_Theory]
 ---
 
 # Motivation & Definition

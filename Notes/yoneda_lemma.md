@@ -1,8 +1,8 @@
 ---
 title: The Yoneda Lemma
 date: 2024-05-29T18:17:16-04:00
-references: [Ref/Mac10]
-tags: [Topic/Category_Theory, In_Progress]
+references: [Mac10]
+tags: [Category_Theory, In_Progress]
 ---
 
 # The Yoneda Embedding $\yo$

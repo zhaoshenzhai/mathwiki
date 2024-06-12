@@ -1,8 +1,8 @@
 ---
 title: Orbit Stabilizer Theorem
 date: 2024-06-03T17:04:49-04:00
-references: [Ref/Alu09]
-tags: [Topic/Group_Theory, In_Progress]
+references: [Alu09]
+tags: [Group_Theory, In_Progress]
 ---
 
 # Statement & Proof
