@@ -35,7 +35,11 @@ Let $N\nsubgrpeq G$ be a normal subgroup. The **quotient group** of $G$ by $N$ i
 
 ## Fibers of Homomorphisms
 
-Given the above construction, and recalling that normal subgroups correspond {{< link file="normal_subgroup" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Kernel" >}} to {{< link file="kernel_group_theory" display="kernels" type="references" >}}, we may *a posteriori* define the quotient group of $G$ w.r.t. a homomorphism $f:G\to H$ as the set of fibers of $f$ equipped with the operation $f^{-1}(h_1)\ast f^{-1}(h_2)\coloneqq f^{-1}(h_1h_2)$. Its identity is, of course, $f^{-1}(e_H)$.
+Given the above construction, and recalling that normal subgroups correspond {{< link file="normal_subgroup" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Kernel" >}} to {{< link file="kernel_group_theory" display="kernels" type="references" >}}, we may *a posteriori* define the quotient group of $G$ w.r.t. a homomorphism $f:G\to H$ as the set of fibers of $f$ equipped with the operation $f^{-1}(h_1)\ast f^{-1}(h_2)\coloneqq f^{-1}(h_1h_2)$. Its identity is, of course, $\ker f$.
+
+<br>
+
+&emsp;&emsp;Every such ‘fiber group’ arise as fibers of $\pi:G\onto G/N$. Conversely, they induce the quotient group $G/\ker f$.
 
 # Categorical Aspects
 
