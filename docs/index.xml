@@ -6,14 +6,21 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Jun 2024 17:20:55 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2024 18:49:07 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quotient Group</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/quotient_group/</link>
+      <pubDate>Tue, 11 Jun 2024 18:49:07 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/quotient_group/</guid>
+      <description>Motivation &amp;amp; Definition Fix an equivalence relation on a group $G$ and consider the quotient set $G/\!\sim$. Since $\sim$ has, a priori, nothing to do with the group structure of $G$, we cannot expect $G/\!\sim$ to carry a natural group structure.&#xA;Instead, we need to consider a congruence $\sim$ on $G$, which (in the category $\catgrp$) is an equivalence relation $\sim$ such that $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$.</description>
+    </item>
     <item>
       <title>Normal Subgroup</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/</link>
       <pubDate>Mon, 10 Jun 2024 17:20:55 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/</guid>
-      <description>Motivation &amp;amp; Definition Fix a group $G$ and consider the category $\cat{B}G$ defined by $G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$). What are the congruences in $\cat{B}G$?&#xA;Definition. A&#xA;subgroup $N\substructeq G$ is said to be normal if it is invariant under the&#xA;conjugation&#xA;action of $G$; i.e., if $gN=Ng$ for all $g\in G$.&#xA;In this case, we write $N\nsubgrpeq G$, and $N\nsubgrp G$ if it is proper.</description>
+      <description>Motivation &amp;amp; Definition Fix a group $G$ and consider the category $\cat{B}G$ defined by $G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$). What are the congruence in $\cat{B}G$?&#xA;Definition. A&#xA;subgroup $N\substructeq G$ is said to be normal if it is invariant under the&#xA;conjugation&#xA;action of $G$; i.e., if $gN=Ng$ for all $g\in G$.&#xA;In this case, we write $N\nsubgrpeq G$, and $N\nsubgrp G$ if it is proper.</description>
     </item>
     <item>
       <title>Kernel (Group Theory)</title>

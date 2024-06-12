@@ -24,7 +24,7 @@ $$\begin{equation}
 
 {{< /env >}}
 
-Clearly, $\iota:\ker f\to G$ composes with $f$ to the trivial map. It is moreover {{< link file="catgrp_is_complete" mod="dag" type="justifications" section="Kernels/Cokernels" >}} the ‘most efficient’ way of doing so, in the sense that it is the terminal object in the slice category $(K,\alpha:K\to G)$ making $f\circ\alpha=0$. This can then be interpreted as a  {{< link file="limits_category_theory" display="colimit" type="references" >}}.
+Clearly, $\iota:\ker f\to G$ composes with $f$ to the trivial map. It is moreover {{< link file="catgrp_is_complete" mod="dag" type="justifications" section="Kernels/Cokernels" >}} the ‘most efficient’ way of doing so, in the sense that it is the terminal object in the slice category $(K,\alpha:K\to G)$ making $f\circ\alpha=0$; this can then be interpreted as a  {{< link file="limits_category_theory" display="colimit" type="references" >}}.
 
 <div class="space"></div>
 

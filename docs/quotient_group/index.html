@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang=en-US class="noScroll">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Quotient Group</title>
+
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/colors.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module" defer></script>
+
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body class="listenDark">
+        
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/metalinks.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/headers.js" type="module" defer></script>
+
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/nav.css">
+
+    <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
+        <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
+    </button>
+    <div id="content" class="left noScroll">
+        
+            <h1 id="title">Quotient Group</h1>
+        
+        <h1 id="motivation--definition">Motivation &amp; Definition</h1>
+<p>Fix an 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+    
+
+
+
+
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/equivalence_relation class="internalLink references ghostLink" title="equivalence relation" mathLink="" section="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/equivalence_relation&#34;, &#34;nopPage&#34;);" onmouseleave="clearPreviewSide(&#34;nopPage&#34;);" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/equivalence_relation&#34;, &#34;nopPage&#34;);">equivalence relation</a> on a 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/group class="internalLink references" title="Group" mathLink="" section="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/group&#34;, {&#34;Date&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Group&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/group&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onmouseleave="clearPreviewSide({&#34;Date&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Group&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/group&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/group&#34;, {&#34;Date&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Group&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/group&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">group</a> $G$ and consider the 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+    
+
+
+
+
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/quotient_set class="internalLink references ghostLink" title="quotient set" mathLink="" section="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/quotient_set&#34;, &#34;nopPage&#34;);" onmouseleave="clearPreviewSide(&#34;nopPage&#34;);" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/quotient_set&#34;, &#34;nopPage&#34;);">quotient set</a> $G/\!\sim$. Since $\sim$ has, a priori, nothing to do with the group structure of $G$, we cannot expect $G/\!\sim$ to carry a natural group structure.</p>
+<br>
+<p>  Instead, we need to consider a 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+    
+
+
+
+
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/congruence_relation class="internalLink references ghostLink" title="congruence" mathLink="" section="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/congruence_relation&#34;, &#34;nopPage&#34;);" onmouseleave="clearPreviewSide(&#34;nopPage&#34;);" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/congruence_relation&#34;, &#34;nopPage&#34;);">congruence</a> $\sim$ on $G$, which (in the 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/category class="internalLink references" title="Category" mathLink="" section="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/category&#34;, {&#34;Date&#34;:&#34;2024-05-22T21:52:00-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-05-22T21:52:00-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-05-22T21:52:00-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Category&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/category&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onmouseleave="clearPreviewSide({&#34;Date&#34;:&#34;2024-05-22T21:52:00-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-05-22T21:52:00-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-05-22T21:52:00-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Category&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/category&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/category&#34;, {&#34;Date&#34;:&#34;2024-05-22T21:52:00-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-05-22T21:52:00-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-05-22T21:52:00-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Category&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/category&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">category</a> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ <a href=https://zhaoshenzhai.github.io/mathwiki/group/#The%20Category%20$%5ccatgrp$ class="internalLink references" title="Group" mathLink="" section="The Category $\catgrp$" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/group/#The Category $\\catgrp$&#34;, {&#34;Date&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Group&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/group&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onmouseleave="clearPreviewSide({&#34;Date&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Group&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/group&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/group/#The Category $\\catgrp$&#34;, {&#34;Date&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-05-16T21:34:09-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Group&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/group&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">$\catgrp$</a>) is an equivalence relation $\sim$ such that $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$. This suffices to induce a group structure on $G/\!\sim$, whose identity is the 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/normal_subgroup class="internalLink references" title="Normal Subgroup" mathLink="" section="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/normal_subgroup&#34;, {&#34;Date&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Normal Subgroup&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/normal_subgroup&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onmouseleave="clearPreviewSide({&#34;Date&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Normal Subgroup&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/normal_subgroup&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/normal_subgroup&#34;, {&#34;Date&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Normal Subgroup&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/normal_subgroup&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">normal subgroup</a> $N\nsubgrpeq G$ induced 
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+
+
+
+    
+
+
+
+    
+    
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/#Normal%20$%5cLeftrightarrow$%20Congruence class="internalLink justifications dag" title="Normal Subgroup" mathLink="" section="Normal $\Leftrightarrow$ Congruence" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/#Normal $\\Leftrightarrow$ Congruence&#34;, {&#34;Date&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Normal Subgroup&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/normal_subgroup&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onmouseleave="clearPreviewSide({&#34;Date&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Normal Subgroup&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/normal_subgroup&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/#Normal $\\Leftrightarrow$ Congruence&#34;, {&#34;Date&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Normal Subgroup&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/normal_subgroup&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">$^\dagger$</a> by $\sim$ and whose operation is $[g_1]\ast[g_2]\coloneqq[g_1g_2]$.</p>
+<div class="space"></div>
+<h2 id="cosetsnormal-subgroups">Cosets/Normal Subgroups</h2>
+<p>Since the normal subgroup induced by $\sim$ is given by $N=\l\{n\in G\st n\sim e\r\}$, we have $[g]=\l\{gn\in G\st n\in N\r\}\eqqcolon gN$ for every $g\in G$, called the (left) <em>coset</em> of $N$ by $g$. Thus, the standard definition is the following.</p>
+
+
+
+
+<div class="env">
+    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
+
+    
+        <b class="envTitle">Definition.</b>
+    
+
+    Let $N\nsubgrpeq G$ be a normal subgroup. The <strong>quotient group</strong> of $G$ by $N$ is the group $G/N\coloneqq G/\!\sim$ equipped with the operation $gN\ast hN\coloneqq(gh)N$.
+</div>
+
+<p><em>Proof (well-definition).</em> If $g_1\sim g_2$ and $h_1\sim h_2$, then $g_1h_1\sim g_2h_2$.<span style="float:right;">$\blacksquare$</span></p>
+<div class="space"></div>
+<p><strong>Remark.</strong> In this form, the canonical projection $\pi:G\onto G/N$ sends $g\mapsto gN$. Almost by definition, we have that $\ker\pi=N$.<span style="float:right;">$\blacklozenge$</span></p>
+<div class="space"></div>
+<h2 id="fibers-of-homomorphisms">Fibers of Homomorphisms</h2>
+<p>Given the above construction, and recalling that normal subgroups correspond 
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+
+
+
+    
+
+
+
+    
+    
+
+
+
+    
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/#Normal%20$%5cLeftrightarrow$%20Kernel class="internalLink justifications dag" title="Normal Subgroup" mathLink="" section="Normal $\Leftrightarrow$ Kernel" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/#Normal $\\Leftrightarrow$ Kernel&#34;, {&#34;Date&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Normal Subgroup&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/normal_subgroup&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onmouseleave="clearPreviewSide({&#34;Date&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Normal Subgroup&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/normal_subgroup&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/#Normal $\\Leftrightarrow$ Kernel&#34;, {&#34;Date&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-06-10T17:20:55-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Normal Subgroup&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/normal_subgroup&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">$^\dagger$</a> to 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+<a href=https://zhaoshenzhai.github.io/mathwiki/kernel_group_theory class="internalLink references" title="Kernel (Group Theory)" mathLink="" section="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/kernel_group_theory&#34;, {&#34;Date&#34;:&#34;2024-06-06T21:08:25-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-06-06T21:08:25-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-06-06T21:08:25-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Kernel (Group Theory)&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/kernel_group_theory&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onmouseleave="clearPreviewSide({&#34;Date&#34;:&#34;2024-06-06T21:08:25-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-06-06T21:08:25-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-06-06T21:08:25-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Kernel (Group Theory)&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/kernel_group_theory&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/kernel_group_theory&#34;, {&#34;Date&#34;:&#34;2024-06-06T21:08:25-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-06-06T21:08:25-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-06-06T21:08:25-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Kernel (Group Theory)&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/kernel_group_theory&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">kernels</a>, we may <em>a posteriori</em> define the quotient group of $G$ w.r.t. a homomorphism $f:G\to H$ as the set of fibers of $f$ equipped with the operation $f^{-1}(h_1)\ast f^{-1}(h_2)\coloneqq f^{-1}(h_1h_2)$. Its identity is, of course, $f^{-1}(e_H)$.</p>
+<h1 id="categorical-aspects">Categorical Aspects</h1>
+<h2 id="universal-property">Universal Property</h2>
+<div class="space"></div>
+<h2 id="quotient-category">Quotient Category</h2>
+
+
+        <div class="spacer">&nbsp;</div>
+    </div>
+
+    <div id="side">
+        <div id="metadata" class="right noScroll">
+            June 11, 2024 | Zhaoshen Zhai
+
+            <div id="references">References:
+                 None 
+            </div>
+            <div id="tags">Tags:
+                
+                    <div class="metaButton metaTag listenDark">#In_Progress</div>
+                
+            </div>
+            <br>
+
+            <div id="toc">Table of Contents:
+                <button class="metaButton listenDark" onclick="showTOC();">Show</button>
+                <button class="metaButton listenDark" onclick="hideTOC();">Hide</button>
+                <div id="metaContents"></div>
+            </div>
+            <div id="links">Links:
+                <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
+                <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
+                <div id="metaLinks"></div>
+            </div>
+
+            <div class="spacer">&nbsp;</div>
+        </div>
+        <div id="preview">
+            <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
+                <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
+            </button>
+        </div>
+    </div>
+
+
+        <div id="searchBox" class="listenDark" style="display: none;">
+            <input id="searchBar" class="listenDark" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" class="listenDark" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" class="listenDark" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" class="listenDark" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" class="listenDark" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" class="listenDark" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" class="listenDark" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" class="listenDark" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" class="listenDark" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" class="listenDark" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" class="listenDark" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" class="listenDark" onmouseover="searchItemActive(9)"></li>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-&emsp;&emsp;Fix a {{< link file="group" display="group" type="references" >}} $G$ and consider the {{< link file="category" display="category" type="references" >}} $\cat{B}G$ defined by $G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$). What are the congruences in $\cat{B}G$?
+&emsp;&emsp;Fix a {{< link file="group" display="group" type="references" >}} $G$ and consider the {{< link file="category" display="category" type="references" >}} $\cat{B}G$ defined by $G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$). What are the {{< link file="congruence_relation" display="congruence" type="references" >}} in $\cat{B}G$?
 
 {{< env "definition" >}}
 
@@ -43,6 +43,12 @@ $$\begin{equation}
 
 Recall that each equivalence relation $\sim$ induces a congruence (obtained by intersecting every congruence containing $\sim$). In particular, if $H\substructeq G$ is a subgroup, then the congruence relation induced by the equivalence relation $g_1\sim g_2$ iff $g_1H=g_2H$ corresponds by the above to a normal subgroup $\gen{H}_N\nsubgrpeq G$.
 
-# Quotient Group
+# {{< link file="quotient_group" display="Quotient Group" type="constructions" >}}
 
-With this description of congruences on $G$, we obtain an elementary description of the {{< link file="quotient_category" display="quotient category" type="references" >}} $\cat{B}G/\\!\sim$. Indeed, 
+With this description of congruences on $G$, we obtain a more elementary description of the {{< link file="quotient_category" display="quotient category" type="references" >}} $\cat{B}G/\\!\sim$. Indeed, letting $N\nsubgrpeq G$ denote the normal subgroup corresponding to $\sim$, the morphisms of $\cat{B}G/\\!\sim$ is exactly the quotient group $G/N$.
+
+<div class="space"></div>
+
+## Normal $\Leftrightarrow$ {{< link file="kernel_group_theory" display="Kernel" type="equivalences" >}}
+
+It is clear that the kernel of any homomorphism $f:G\to H$ is a normal subgroup of $G$. Conversely, any normal subgroup $N\nsubgrpeq G$ is the kernel of the canonical projection $\pi:G\onto G/N$.

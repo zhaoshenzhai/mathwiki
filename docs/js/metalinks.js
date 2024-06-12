@@ -119,14 +119,15 @@ function newMetaLink(link) {
     };
 
     var title = link.getAttribute("title");
-    var mathLink = link.getAttribute("mathLink");
     if (!title) { title = link.href.replace(/.*\//, ""); }
 
-    if (mathLink) {
-        metaLink.innerText = link.getAttribute("mathLink");
-    } else {
-        metaLink.innerText = title;
-    }
+    var mathLink = link.getAttribute("mathLink");
+    if (mathLink) { title = mathLink; }
+
+    var sectionTitle = link.getAttribute("section");
+    if (sectionTitle) { title += (" | " + sectionTitle); }
+
+    metaLink.innerText = title;
 
     if (link.classList.contains("ghostLink")) {
         metaLink.classList.add("ghostLink");
