@@ -6,8 +6,15 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jun 2024 18:49:07 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2024 21:27:54 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quotient Set</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/quotient_set/</link>
+      <pubDate>Tue, 11 Jun 2024 21:27:54 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/quotient_set/</guid>
+      <description>Motivation &amp;amp; Definition Categorical Aspects Universal Property </description>
+    </item>
     <item>
       <title>Quotient Group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/quotient_group/</link>

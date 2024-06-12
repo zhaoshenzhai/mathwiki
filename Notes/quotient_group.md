@@ -11,7 +11,7 @@ Fix an {{< link file="equivalence_relation" display="equivalence relation" type=
 
 <br>
 
-&emsp;&emsp;Instead, we need to consider a {{< link file="congruence_relation" display="congruence" type="references" >}} $\sim$ on $G$, which (in the {{< link file="category" display="category" type="references" >}} {{< link file="group" display="$\catgrp$" type="references" section="The Category $\catgrp$" >}}) is an equivalence relation $\sim$ such that $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$. This suffices to induce a group structure on $G/\\!\sim$, whose identity is the {{< link file="normal_subgroup" display="normal subgroup" type="references" >}} $N\nsubgrpeq G$ induced {{< link file="normal_subgroup" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Congruence" >}} by $\sim$ and whose operation is $[g_1]\ast[g_2]\coloneqq[g_1g_2]$.
+&emsp;&emsp;Instead, we need to consider a {{< link file="congruence_relation" display="congruence" type="references" >}} $\sim$ on $G$, which (in the {{< link file="category" display="category" type="references" >}} {{< link file="group" display="$\catgrp$" type="references" section="The Category $\catgrp$" >}}) is an equivalence relation $\sim$ such that $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$. This suffices to induce a group structure on $G/\\!\sim$, whose identity is the {{< link file="normal_subgroup" display="normal subgroup" type="references" >}} $N\nsubgrpeq G$ induced {{< link file="normal_subgroup" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Congruence" >}} by $\sim$ and whose operation is $[g]\ast[h]\coloneqq[gh]$.
 
 <div class="space"></div>
 
@@ -43,8 +43,32 @@ Given the above construction, and recalling that normal subgroups correspond {{<
 
 # Categorical Aspects
 
-## Universal Property
+## {{< link file="universal_constructions" display="Universal Property" type="references" >}}
+
+Quotient groups satisfy the following universal property:
+
+{{< env "proposition" >}}
+
+Let $N\nsubgrpeq G$ be a normal subgroup. The projection $\pi:G\onto G/N$ is initial amongst all homomorphisms $f:G\to H$ such that $N\subseteq\ker f$.
+
+{{< /env >}}
+
+*Proof.* That $N\subseteq\ker f$ is equivalent to
+$$\begin{equation}
+    \fa g_1,g_2\in G:g_1\sim g_2\Longrightarrow f(g_1)=f(g_2),
+\end{equation}$$
+for which the universal property {{< link file="quotient_set" type="proved_by" mod="dag" section="Universal Property" >}} of the {{< link file="quotient_set" display="quotient set" type="references" >}} $G/\\!\sim$ furnishes a unique function $f':G/N\to H$ such that $f=f'\circ\pi$. This is a homomorphism since
+$$\begin{equation}
+    f'([g_1]\ast[g_2])=f'([g_1g_2])=f'(\pi(g_1g_2))=f(g_1g_2)=f(g_1)f(g_2)=f'([g_1])f'([g_2]),
+\end{equation}$$
+as desired.<span style="float:right;">$\blacksquare$</span>
 
 <div class="space"></div>
 
-## Quotient Category
+**Remark.** <span style="color:red">link with representable functors etc</span>
+
+<div class="space"></div>
+
+## {{< link file="quotient_category" display="Quotient Category" type="generalizations" >}}
+
+Viewing $G$ as its corresponding category $\cat{B}G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$), the quotient category $\cat{B}G/\\!\sim$ by a congruence $\sim$ is precisely (the category corresponding to) the quotient $G/N$.

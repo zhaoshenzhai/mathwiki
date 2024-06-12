@@ -138,13 +138,13 @@ function newMetaLink(link) {
 
 function typePriority(linkEl) {
     const allLinks = [
-        "proved_by",
         "types",
         "constructions",
         "structures",
         "properties",
         "examples",
         "generalizations",
+        "proved_by",
         "justifications",
         "references"
     ];
