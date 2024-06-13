@@ -32,7 +32,7 @@ while [[ "$repeat" == "Y" ]]; do
     cd $MATHWIKI_DIR/Notes
 
     case $action in
-        "1") $DOTFILES_DIR/scripts/gitCommit.sh -m ;;
+        "1") $DOTFILES_DIR/scripts/gitCommit.sh -r "MathWiki" ;;
         "2") $MATHWIKI_DIR/.scripts/searchReplace.sh ;;
         "3") $MATHWIKI_DIR/.scripts/gitRestore.sh ;;
         "4") $MATHWIKI_DIR/.scripts/ghostLinks.sh ;;
