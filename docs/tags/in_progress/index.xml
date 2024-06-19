@@ -6,8 +6,15 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jun 2024 21:27:54 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jun 2024 20:07:21 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Equivalence Relation</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/equivalence_relation/</link>
+      <pubDate>Tue, 18 Jun 2024 20:07:21 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/equivalence_relation/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Quotient Set</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/quotient_set/</link>
@@ -69,7 +76,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/free_group/</link>
       <pubDate>Mon, 03 Jun 2024 15:36:38 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/free_group/</guid>
-      <description>Motivation &amp;amp; Definition Fix a set $X$. We would like to construct a group $F(X)$ containing $X$ ‘canonically’ and ‘in the most efficient way’. The latter is encoded by a universal property, and the former makes $F:\catset\to\catgrp$ a left-adjoint to the forgetful functor $U:\catgrp\to\catset$.&#xA;Definition. Let $X$ be a set. A free group on $X$ is a group $F(X)$ equipped with a function $j:X\to F(X)$ that is universal in the following sense:</description>
+      <description>Motivation &amp;amp; Definition Fix a set $X$. We would like to ‘canonically’ construct a group $F(X)$ containing $X$ ‘in the most efficient way’. The latter is encoded by a universal property, and the former makes $F:\catset\to\catgrp$ a left-adjoint to the forgetful functor $U:\catgrp\to\catset$.&#xA;Definition. Let $X$ be a set. A free group on $X$ is a group $F(X)$ equipped with a function $j:X\to F(X)$ that is universal in the following sense:</description>
     </item>
     <item>
       <title>Integers</title>

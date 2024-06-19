@@ -7,6 +7,8 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
+Fix an {{< link file="equivalence_relation" display="equivalence relation" type="references" >}} $E$ on $X$.
+
 # Categorical Aspects
 
 ## Universal Property
