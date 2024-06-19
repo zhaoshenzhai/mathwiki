@@ -1,8 +1,8 @@
 ---
 title: Normal Subgroup
 date: 2024-06-10T17:20:55-04:00
-references: []
-tags: [In_Progress]
+references: [Alu09, Mac10]
+tags: [Group_Theory]
 ---
 
 # Motivation & Definition

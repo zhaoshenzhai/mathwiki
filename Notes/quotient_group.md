@@ -2,7 +2,7 @@
 title: Quotient Group
 date: 2024-06-11T18:49:07-04:00
 references: [Alu09, DF03, Mac10]
-tags: [In_Progress]
+tags: [Group_Theory]
 ---
 
 # Motivation & Definition

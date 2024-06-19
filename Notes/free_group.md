@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Fix a set $X$. We would like to construct a group $F(X)$ containing $X$ ‘canonically’ and ‘in the most efficient way’. The latter is encoded by a universal property, and the former makes $F:\catset\to\catgrp$ a left-adjoint to the forgetful functor $U:\catgrp\to\catset$.
+Fix a set $X$. We would like to ‘canonically’ construct a group $F(X)$ containing $X$ ‘in the most efficient way’. The latter is encoded by a {{< link file="universal_constructions" display="universal property" type="references" >}}, and the former makes $F:\catset\to\catgrp$ a {{< link file="adjunction" display="left-adjoint" type="references" >}} to the forgetful {{< link file="functor" display="functor" type="references" >}} $U:\catgrp\to\catset$.
 
 
 {{< env "definition" >}}

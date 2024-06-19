@@ -1,8 +1,8 @@
 ---
 title: Kernel (Group Theory)
 date: 2024-06-06T21:08:25-04:00
-references: []
-tags: [In_Progress]
+references: [Alu09]
+tags: [Group_Theory]
 ---
 
 # Motivation & Definition
@@ -11,13 +11,11 @@ A special property of the {{< link file="category" display="category" type="refe
 
 <div class="space"></div>
 
-## Kernel
-
-The first is to consider homomorphisms $\alpha:K\to G$ *from* some group $K$, and replace $f$ by the composite $f\circ\alpha:K\to H$. Since $f$ is surely not the zero map, we could instead require $f\circ\alpha=0$. This is accomplished (quite simple-mindedly) by
+The first is to consider homomorphisms $\alpha:K\to G$ *from* some group $K$, and replace $f$ by $f\circ\alpha:K\to H$. One way to force $f\circ\alpha=0$ is accomplished by the following
 
 {{< env "definition" >}}
 
-The **kernel** of a homomorphism $f:G\to H$ is the subgroup
+The **kernel** of a homomorphism $f:G\to H$ is the {{< link file="subgroup" display="subgroup" type="references" >}}
 $$\begin{equation}
     \ker f\coloneqq\l\\{g\in G\st f(g)=e_H\r\\}\substructeq G.
 \end{equation}$$
@@ -28,10 +26,13 @@ Clearly, $\iota:\ker f\to G$ composes with $f$ to the trivial map. It is moreove
 
 <div class="space"></div>
 
-## Cokernel
+## {{< link file="normal_subgroup" display="Normal Subgroups" type="references" >}}
 
-Dually, we consider maps $\beta:H\to K$ *to* some group $K$. The *cokernel* of $f$ is the initial object in the coslice category $(K,\beta:H\to K)$ making $\beta\circ f=0$. It can {{< link file="catgrp_is_complete" mod="dag" type="justifications" section="Kernels/Cokernels" >}} be realized as the canonical {{< link file="quotient_group" display="projection" type="references" >}} $\pi:H\to H/\gen{\im f}_N$, where $\gen{\slot}_N$ takes the normal closure. To discuss this, we need the concept of a *normal* subgroup.
+Kernels of homomorphisms are very special subgroups, in that they correspond precisely to the normal ones.
+<br>
 
-# Normal Subgroups
+&emsp;&emsp;Indeed, if $f:G\to H$ is a homomorphism, then $g(\ker f)g^{-1}=\ker f$ for each $g\in G$ and so $\ker f\nsubgrpeq G$ is normal. Conversely, every normal subgroup $N\nsubgrpeq G$ is the kernel of the {{< link file="quotient_group" display="canonical projection" type="references" >}} $\pi:G\onto G/N$.
 
+# Cokernel
 
+Dually, we consider maps $\beta:H\to K$ *to* some group $K$. The *cokernel* of $f$ is the initial object in the coslice category $(K,\beta:H\to K)$ making $\beta\circ f=0$. It can {{< link file="catgrp_is_complete" mod="dag" type="justifications" section="Kernels/Cokernels" >}} be realized as the canonical {{< link file="quotient_group" display="projection" type="references" >}} $\pi:H\to H/\gen{\im f}_N$, where $\gen{\slot}_N$ takes the {{< link file="normal_subgroup" display="normal closure" type="references" section="Normal Closure" >}}, that is, the smallest normal subgroup containing $\im f$.
