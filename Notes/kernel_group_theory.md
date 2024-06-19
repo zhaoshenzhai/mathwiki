@@ -36,3 +36,7 @@ Kernels of homomorphisms are very special subgroups, in that they correspond pre
 # Cokernel
 
 Dually, we consider maps $\beta:H\to K$ *to* some group $K$. The *cokernel* of $f$ is the initial object in the coslice category $(K,\beta:H\to K)$ making $\beta\circ f=0$. It can {{< link file="catgrp_is_complete" mod="dag" type="justifications" section="Kernels/Cokernels" >}} be realized as the canonical {{< link file="quotient_group" display="projection" type="references" >}} $\pi:H\to H/\gen{\im f}_N$, where $\gen{\slot}_N$ takes the {{< link file="normal_subgroup" display="normal closure" type="references" section="Normal Closure" >}}, that is, the smallest normal subgroup containing $\im f$.
+
+<br>
+
+&emsp;&emsp;However, $\l\langle\im f\r\rangle_N$ is not easy to describe at all, so the notion of a cokernel is not that useful in $\catgrp$. However, since $\l\langle\im f\r\rangle_N=\im f$ when $f:G\to H$ is a morphism in $\catabgrp$, we obtain a much more well-behaved cokernel.

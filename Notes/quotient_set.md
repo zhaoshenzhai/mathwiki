@@ -33,7 +33,7 @@ Let $f:X\to Y$ be a function and let $E_f\subseteq X^2$ be the equivalence on $X
 
 {{< env "theorem" >}}
 
-We have a bijection $X/E_f\iso\im f$, and thus $f$ decomposes as
+We have a unique isomorphism $X/E_f\iso\im f$, and so $f$ factors as
 
 {{< tikz name="canonical_decomposition" width="400" >}}
 \begin{equation*}
@@ -49,6 +49,6 @@ We have a bijection $X/E_f\iso\im f$, and thus $f$ decomposes as
 
 <br>
 
-&emsp;&emsp;Indeed, if $(Z,g)$ respects $E_f$, then any $g':\im f\to Z$ with $g=g'\circ f_0$ is forced to have $g'(f(x))=g(x)$ for all $x$, so uniqueness of $g'$ follows. For existence, let $y\in\im f$, so $y=f(x)$ for some $x\in X$. Set $g'(y)\coloneqq g(x)$, which is well-defined since if $y=f(x')$ for $x'\in X$, then $f(x)=f(x')$ and hence $xE_fx'$. Thus $g(x)=g(x')$, as desired.<span style="float:right;">$\blacksquare$</span>
+&emsp;&emsp;Indeed, if $(Z,g)$ respects $E_f$, then any $g':\im f\to Z$ with $g=g'\circ f_0$ is forced to have $g'(f(x))=g(x)$ for all $x$, so uniqueness follows. For existence, let $y\in\im f$, so $y=f(x)$ for some $x\in X$. Set $g'(y)\coloneqq g(x)$, which is well-defined since if $y=f(x')$ for $x'\in X$, then $f(x)=f(x')$ and hence $xE_fx'$. Thus $g(x)=g(x')$, as desired.<span style="float:right;">$\blacksquare$</span>
 
 # Set-theoretic Aspects
