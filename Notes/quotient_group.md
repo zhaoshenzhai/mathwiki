@@ -57,7 +57,7 @@ Let $N\nsubgrpeq G$ be a normal subgroup. The projection $\pi:G\onto G/N$ is ini
 $$\begin{equation}
     \fa g_1,g_2\in G:g_1\sim g_2\Longrightarrow f(g_1)=f(g_2),
 \end{equation}$$
-for which the universal property {{< link file="quotient_set" type="proved_by" mod="dag" section="Universal Property" >}} of the {{< link file="quotient_set" display="quotient set" type="references" >}} $G/\\!\sim$ furnishes a unique function $f':G/N\to H$ such that $f=f'\circ\pi$. This is a homomorphism since
+for which the universal property {{< link file="quotient_set" type="proved_by" mod="dag" >}} of the {{< link file="quotient_set" display="quotient set" type="references" >}} $G/\\!\sim$ furnishes a unique function $f':G/N\to H$ such that $f=f'\circ\pi$. This is a homomorphism since
 $$\begin{equation}
     f'([g_1]\ast[g_2])=f'([g_1g_2])=f'(\pi(g_1g_2))=f(g_1g_2)=f(g_1)f(g_2)=f'([g_1])f'([g_2]),
 \end{equation}$$

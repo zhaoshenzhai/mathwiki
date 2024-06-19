@@ -21,7 +21,7 @@ UPDATE() {
                 echo -ne "Updating... ($counter/$total)\r"
                 cp ../imageTemplate.tex image.tex
 
-                sed -i 's/\\begin{document}/\\begin{document}\n'"$i"'/g' image.tex
+                sed -i 's~\\begin{document}~\\begin{document}\n'"$i"'~g' image.tex
                 pdflatex -shell-escape image.tex > /dev/null 2>&1 && pdfcrop image.pdf image.pdf > /dev/null 2>&1 && pdf2svg image.pdf image.svg
 
                 name=$(echo "$names" | head -n 1)
