@@ -6,8 +6,29 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Jun 2024 20:07:21 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2024 13:30:38 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convergence</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/convergence/</link>
+      <pubDate>Thu, 20 Jun 2024 13:30:38 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/convergence/</guid>
+      <description>Motivation &amp;amp; Definition The idea of convergence of elements $x_\alpha$ in $X$ is to find a single element $x\in X$ that is ‘close’ to as many elements $x_\alpha$ as possible. This heuristic can be formalized in many ways; here, we focus on interpreting ‘closeness’ in the topological sense.&#xA;Throughout, let $X$ be a topological space. For each $x\in X$, let $\mc{N}_x$ denote the set of all not necessarily open neighborhoods of $x$, i.</description>
+    </item>
+    <item>
+      <title>Filters in Topology</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/filters_in_topology/</link>
+      <pubDate>Thu, 20 Jun 2024 13:09:59 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/filters_in_topology/</guid>
+      <description>Characterizing Convergence For metric spaces, many topological notions like continuity, Hausdorffness, closure, or clustering can be characterized in terms of sequences. It is thus natural to find a replacement of sequences to characterize these notions for a general topological space, which in turn sheds light onto the nature of convergence.&#xA;Throughout, fix a topological space $X$.&#xA;Neighborhood Filters First,&#xA;Stone-${}$Čech Compactification </description>
+    </item>
+    <item>
+      <title>Filter</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/filter/</link>
+      <pubDate>Thu, 20 Jun 2024 11:27:17 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/filter/</guid>
+      <description>Motivation &amp;amp; Definition Definition. Let $P$ be a poset. A filter on $P$ is a subset $\em\neq F\subseteq P$ such that&#xA;(Upward-closure). If $p\in F$ and $q\geq p$, then $q\in F$. (Downward-directed). If $p_1,p_2\in F$, then there exists $q\in F$ with $q\leq p_1,p_2$. </description>
+    </item>
     <item>
       <title>Equivalence Relation</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/equivalence_relation/</link>

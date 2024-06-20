@@ -114,7 +114,7 @@
 <p><strong>Remark.</strong> In light of this universal property, we do not really care about the quotient <em>set</em> $X/E$. Rather, we care about the <em>function</em> $\pi:X\to X/E$, which is surjective, and is called the <em>canonical projection</em>.</p>
 <div class="space"></div>
 <h2 id="canonical-decomposition">Canonical Decomposition</h2>
-<p>Let $f:X\to Y$ be a function and let $E_f\subseteq X^2$ be the equivalence on $X$ defined by $xE_fx&rsquo;$ iff $f(x)=f(x&rsquo;)$. Restricting the codomain of $f$, we obtain a surjection $\pi&rsquo;:X\onto\im f$.</p>
+<p>Let $f:X\to Y$ be a function and let $E_f\subseteq X^2$ be the equivalence on $X$ defined by $xE_fx&rsquo;$ iff $f(x)=f(x&rsquo;)$.</p>
 
 
 
@@ -126,16 +126,13 @@
         <b class="envTitle">Theorem.</b>
     
 
-    <p>We have a bijection $X/E\iso\im f$, and thus $f$ factors as</p>
-<p>\begin{equation*}
-\begin{tikzcd}
-A \ar[r] &amp; B
-\end{tikzcd}
-\end{equation*}</p>
-
+    <p>We have a unique isomorphism $X/E_f\iso\im f$, and so $f$ factors as</p>
+<img class="tikz" src="https://zhaoshenzhai.github.io/mathwiki/img/canonical_decomposition.svg" width="400">
 </div>
 
-<p><em>Proof.</em> It suffices to show that $\pi&rsquo;:X\onto\im f$ satisfies the same universal property as $\pi:X\onto X/E_f$, for then $X/E_f\iso\im f$ and we obtain the desired decomposition of $f$.</p>
+<p><em>Proof.</em> Restricting the codomain of $f$, we obtain a surjection $f_0:X\onto\im f$. It suffices to show that $f_0$ satisfies the same universal property as $\pi$, for then $X/E_f\iso\im f$ and we obtain the desired decomposition of $f$.</p>
+<br>
+<p>  Indeed, if $(Z,g)$ respects $E_f$, then any $g&rsquo;:\im f\to Z$ with $g=g&rsquo;\circ f_0$ is forced to have $g&rsquo;(f(x))=g(x)$ for all $x$, so uniqueness follows. For existence, let $y\in\im f$, so $y=f(x)$ for some $x\in X$. Set $g&rsquo;(y)\coloneqq g(x)$, which is well-defined since if $y=f(x&rsquo;)$ for $x&rsquo;\in X$, then $f(x)=f(x&rsquo;)$ and hence $xE_fx&rsquo;$. Thus $g(x)=g(x&rsquo;)$, as desired.<span style="float:right;">$\blacksquare$</span></p>
 <h1 id="set-theoretic-aspects">Set-theoretic Aspects</h1>
 
 
