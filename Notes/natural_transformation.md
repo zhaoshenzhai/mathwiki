@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 Let $F,G:C\to D$ be covariant functors between categories $C$ and $D$. A **natural transformation** $\eta:F\to G$ is a function assigning to each $c\in C$ a morphism $\eta_c:Fc\to Gc$ of $D$ such that for every $f\in C(c,c')$, the diagram
 

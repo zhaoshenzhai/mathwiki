@@ -13,7 +13,7 @@ The idea of *convergence* of elements $x_\alpha$ in $X$ is to find a single elem
 
 &emsp;&emsp;Throughout, let $X$ be a topological space. For each $x\in X$, let $\mc{N}_x$ denote the set of all *not necessarily open* neighborhoods of $x$, i.e., sets $A\subseteq X$ containing $x$ such that $x\in U\subseteq A$ for some open set $U$. A *neighborhood base* of $x$ is a subset $\mc{B}_x\subseteq\mc{N}_x$ such that every $U\in\mc{N}_x$ contains some $B\in\mc{B}_x$.
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 A sequence $(x_n)_{n\in\N}$ in $X$ is said to **converge** to some $x\in X$ $-$ and write $x_n\to x$ $-$ if for every neighborhood $U\in\mc{N}_x$, there is some $N\in\N$ such that $x_n\in U$ for all $n\geq N$ <span style="color:gray">(that is, $x_n\in U$ for all eventually $n\in\N$)</span>.
 
@@ -47,7 +47,7 @@ One approach to replace $\N$ in the definition of sequential-convergence to an a
 
 &emsp;&emsp;Fix a net $x_\blob:I\to X$ from a directed set $I$. For a subset $A\subseteq X$, we say that $x_\blob$ is *eventually in* (resp. *cofinally in*) $A$ if there is some $j\in I$ such that $x_i\in A$ for all $i\geq j$ (resp. for all $j\in I$, there is some $i\geq j$ with $x_i\in A$). We make the following
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 Let $I$ be a directed set. A net $x_\blob:I\to X$ is said to **converge** to some $x\in X$ $-$ and write $x_\blob\to x$ $-$ if $x_\blob$ is eventually in every $U\in\mc{N}_x$.
 
@@ -69,7 +69,7 @@ If $\mc{N}_x$ admits a countable base $\mc{B}_x\subseteq\mc{N}_x$ $-$ which can 
 
 Since pairwise-intersections of open sets are open, neighborhood bases of $\mc{N}_x$ are just filter bases thereof. Thus, we can compare it to other filters.
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 A filter $\mc{F}$ in $X$ is said to **converge** to some $x\in X$ $-$ and write $\mc{F}\to x$ $-$ if $\mc{F}$ refines $\mc{N}_x$ <span style="color:gray">(that is, if every $U\in\mc{N}_x$ contains some $A\in\mc{F}$)</span>.
 

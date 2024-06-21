@@ -5,7 +5,7 @@ references: []
 tags: [In_Progress]
 ---
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 Let $G$ be a group. An element $x\in G$ is has **finite order** if we have $x^n=e$ for some $n>0$; the least such $n$ is the **order** of $x$, denoted $\ord x$.
 

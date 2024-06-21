@@ -9,7 +9,7 @@ tags: [Group_Theory]
 
 Here, we consider a class of groups which $-$ despite being very general $-$ exhibit very useful properties absent in general groups.
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 A group $G$ is said to be **Abelian** if $gh=hg$ for all $g,h\in G$.
 
@@ -28,7 +28,7 @@ We denote the {{< link file="subcategory" display="subcategory" type="references
 
 Since Abelian groups are just $\Z$-modules and $\Z$ is a {{< link file="principal_ideal_domain" display="PID" type="references" >}}, the {{< link file="structure_theorem_for_fg_modules_over_PID" display="Structure Theorem" type="properties" >}} for finitely-generated modules over a PID applies:
 
-{{< env "theorem" "Structure Theorem for f.g. Abelian Groups" >}}
+{{< env type="theorem" name="Structure Theorem for f.g. Abelian Groups" >}}
 
 Every f.g. Abelian group $G$ admits a decomposition $G\iso\Z^{\rk G}\oplus\Tor G$, and furthermore
 $$\begin{equation}

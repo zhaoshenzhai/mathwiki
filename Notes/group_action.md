@@ -9,7 +9,7 @@ tags: [Group_Theory]
 
 Groups capture $-$ *abstractly* $-$ the notion of a symmetry. But symmetries are also present in concrete objects, with different kinds of objects preserving different kinds of structure. The concept of a *group action* connects the two.
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 Let $G$ be a group and fix a {{< link file="category" display="category" type="references" >}} $C$. A **$G$-action** is a {{< link file="functor" display="functor" type="references" >}} $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.
 

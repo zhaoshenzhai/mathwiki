@@ -10,7 +10,7 @@ tags: [In_Progress]
 Fix a set $X$. We would like to ‘canonically’ construct a group $F(X)$ containing $X$ ‘in the most efficient way’. The latter is encoded by a {{< link file="universal_constructions" display="universal property" type="references" >}}, and the former makes $F:\catset\to\catgrp$ a {{< link file="adjunction" display="left-adjoint" type="references" >}} to the forgetful {{< link file="functor" display="functor" type="references" >}} $U:\catgrp\to\catset$.
 
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 Let $X$ be a set. A **free group** on $X$ is a group $F(X)$ equipped with a function $j:X\to F(X)$ that is universal in the following sense:
 

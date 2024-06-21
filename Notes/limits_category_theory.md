@@ -9,7 +9,7 @@ tags: [In_Progress]
 
 Fix a category $C$.
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 Let $C,J$ be categories and fix a functor $F\in C^J$. A **colimit** of $F$ is a universal arrow $(r,u)$ from $F$ to the diagonal functor $\Delta:C\to C^J$.
 

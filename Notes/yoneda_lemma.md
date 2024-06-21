@@ -11,7 +11,7 @@ tags: [Category_Theory, In_Progress]
 
 Fix a locally-small category $C$. $\yo:C\to\catset$
 
-{{< env "theorem" "Yoneda" >}}
+{{< env type="theorem" name="Yoneda" >}}
 
 Let $C$ be a locally-small category. For every functor $F:C\to\catset$ and every object $c\in C$, we have a bijection
 $$\begin{equation}
@@ -21,7 +21,9 @@ which is moreover natural in both $F$ and $c$.
 
 {{< /env >}}
 
-*Proof (Bijection).* Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via
+{{< env type="proof" name="Bijection" >}}
+
+Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via
 $$\begin{equation}
     t(a)_d:C(c,d)\to Fd\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ (f:c\rightarrow d)\mapsto Ff(a)\in Fd
 \end{equation}$$
@@ -38,15 +40,21 @@ for each $d\in C$. That $a=y(t(a))$ is immediate since $t(a)_c(1_c)=F(1_c)a=1_ca
 {{< /tikz >}}
 commutes for any morphism $f:c\to d$. In particular, chasing $1_c\in C(c,c)$ around gives us $Ff(\eta_c(1_c))=\eta_d(f_\ast1_c)$, and thus $t(y(\eta))_df=Ff(y(\eta))=\eta_df$ for all $f:c\to d$. Hence, we have $t(y(\eta))=\eta$, as desired.<span style="float:right;">$\blacksquare$</span>
 
+{{< /env >}}
+
 <div class="space"></div>
 
-*Proof (Naturality).* The naturality claims amount
+{{< env type="proof" name="Naturality" >}}
+
+The naturality claims amounts to
+
+{{< /env >}}
 
 <div class="space"></div>
 
 ## Extensions and Corollaries
 
-{{< env "theorem" "Yoneda Embedding" >}}
+{{< env type="theorem" name="Yoneda Embedding" >}}
 
 For any locally-small category $C$, the Yoneda embedding $\mf{y}:C^\textrm{op}\to\catset^C$ is fully-faithful.
 

@@ -7,7 +7,7 @@ tags: []
 
 # Motivation & Definition
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 Let $C$ and $D$ be categories. A **(covariant) functor** $F:C\to D$ is the data of two functions:
 * An **object** function, assigning some $Fc\in D$ to each $c\in C$, and

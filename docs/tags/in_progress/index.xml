@@ -6,21 +6,21 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Jun 2024 13:30:38 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2024 19:25:15 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cayley’s Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</link>
+      <pubDate>Thu, 20 Jun 2024 19:25:15 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</guid>
+      <description>Motivation &amp;amp; Statement Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’. Such a theorem for groups is as follows.&#xA;Theorem (Cayley). Every group $G$ is a subgroup of a symmetry group. Proof. Click to expand... We show that the left-multiplication action $\phi:G\to\Aut G$ is faithful, for then $G\substructeq\Aut G$. Indeed, if $\phi(g_1)=\phi(g_2)$, then we have $\phi(g_1)g=\phi(g_2)g$ for all $g\in G$. That is, we have $g_1g=g_2g$, so $g_1=g_2$ as desired.</description>
+    </item>
     <item>
       <title>Convergence</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/convergence/</link>
       <pubDate>Thu, 20 Jun 2024 13:30:38 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/convergence/</guid>
       <description>Motivation &amp;amp; Definition The idea of convergence of elements $x_\alpha$ in $X$ is to find a single element $x\in X$ that is ‘close’ to as many elements $x_\alpha$ as possible. This heuristic can be formalized in many ways; here, we focus on interpreting ‘closeness’ in the topological sense.&#xA;Throughout, let $X$ be a topological space. For each $x\in X$, let $\mc{N}_x$ denote the set of all not necessarily open neighborhoods of $x$, i.</description>
-    </item>
-    <item>
-      <title>Filters in Topology</title>
-      <link>https://zhaoshenzhai.github.io/mathwiki/filters_in_topology/</link>
-      <pubDate>Thu, 20 Jun 2024 13:09:59 -0400</pubDate>
-      <guid>https://zhaoshenzhai.github.io/mathwiki/filters_in_topology/</guid>
-      <description>Characterizing Convergence For metric spaces, many topological notions like continuity, Hausdorffness, closure, or clustering can be characterized in terms of sequences. It is thus natural to find a replacement of sequences to characterize these notions for a general topological space, which in turn sheds light onto the nature of convergence.&#xA;Throughout, fix a topological space $X$.&#xA;Neighborhood Filters First,&#xA;Stone-${}$Čech Compactification </description>
     </item>
     <item>
       <title>Filter</title>
@@ -69,7 +69,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</link>
       <pubDate>Mon, 03 Jun 2024 17:04:49 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</guid>
-      <description>Statement &amp;amp; Proof Let $G\act X$ act on a set and fix $x_0\in X$.&#xA;Theorem (Orbit-Stabilizer). Let $G$ be a group and let $(X,x_0)$ be a pointed $G$-set. Equipping $G/\Stab_G(x_0)$ with the natural left-multiplication $G$-action, we have a $G$-equivariant bijection $\Orb_G(x_0)\iso G/\Stab_G(x_0)$. Proof. Let $H\coloneqq\Stab_G(x_0)$ and consider the map $f:G\to\Orb_G(x_0):g\mapsto gx_0$. Since $$\begin{equation} f(g_1)=f(g_2)\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_2^{-1}g_1x_0=x_0\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1H=g_2H, \end{equation}$$ we see that $f$ descends $^\dagger$ into an injective map $\widetilde{f}:G/H\to\Orb_G(x_0):gH\mapsto gx_0$.</description>
+      <description>Statement &amp;amp; Proof Let $G\act X$ act on a set and fix $x_0\in X$.&#xA;Theorem (Orbit-Stabilizer). Let $G$ be a group and let $(X,x_0)$ be a pointed $G$-set. Equipping $G/\Stab_G(x_0)$ with the natural left-multiplication $G$-action, we have a $G$-equivariant bijection $\Orb_G(x_0)\iso G/\Stab_G(x_0)$. Proof. Click to expand... Let $H\coloneqq\Stab_G(x_0)$ and consider the map $f:G\to\Orb_G(x_0):g\mapsto gx_0$. Since $$\begin{equation} f(g_1)=f(g_2)\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_2^{-1}g_1x_0=x_0\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1H=g_2H, \end{equation}$$ we see that $f$ descends</description>
     </item>
     <item>
       <title>Finite Group</title>
@@ -132,7 +132,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/yoneda_lemma/</link>
       <pubDate>Wed, 29 May 2024 18:17:16 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/yoneda_lemma/</guid>
-      <description>The Yoneda Embedding $\yo$ Statement &amp;amp; Proof Fix a locally-small category $C$. $\yo:C\to\catset$&#xA;Theorem (Yoneda). Let $C$ be a locally-small category. For every functor $F:C\to\catset$ and every object $c\in C$, we have a bijection $$\begin{equation} y\coloneqq y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c, \end{equation}$$ which is moreover natural in both $F$ and $c$. Proof (Bijection). Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via $$\begin{equation} t(a)_d:C(c,d)\to Fd\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ (f:c\rightarrow d)\mapsto Ff(a)\in Fd \end{equation}$$ for each $d\in C$.</description>
+      <description>The Yoneda Embedding $\yo$ Statement &amp;amp; Proof Fix a locally-small category $C$. $\yo:C\to\catset$&#xA;Theorem (Yoneda). Let $C$ be a locally-small category. For every functor $F:C\to\catset$ and every object $c\in C$, we have a bijection $$\begin{equation} y\coloneqq y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c, \end{equation}$$ which is moreover natural in both $F$ and $c$. Proof (Bijection). Click to expand... Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via $$\begin{equation} t(a)_d:C(c,d)\to Fd\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ (f:c\rightarrow d)\mapsto Ff(a)\in Fd \end{equation}$$ for each $d\in C$.</description>
     </item>
     <item>
       <title>Universal Constructions</title>

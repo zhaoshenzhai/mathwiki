@@ -9,7 +9,7 @@ tags: [In_Progress]
 
 The concept of a *ring* naturally arises when studying the endomorphism group of an {{< link file="abelian_group" display="Abelian group" type="references" >}} $G$. Indeed, $\End G$ is itself Abelian $-$ but more importantly, it has an extra operation of composition. These operations are compatible in the sense of:
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 A **ring** is a tuple $(R,+,\cdot,1)$ where $(R,\cdot,1)$ is a monoid, $(R,+)$ is an Abelian group, and where for all $r,s,t\in R$, we have
 $$\begin{equation}
@@ -20,7 +20,7 @@ $$\begin{equation}
 
 The relevant structure-preserving maps for rings are as follows.
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 A function $f:R\to S$ between rings is a **homomorphism** if it is a group homomorphism $f:(R,+)\to(S,+)$, such that $f(1_R)=1_S$ and
 $$\begin{equation}

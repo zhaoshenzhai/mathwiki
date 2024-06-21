@@ -9,7 +9,7 @@ tags: [Group_Theory]
 
 &emsp;&emsp;Fix a {{< link file="group" display="group" type="references" >}} $G$ and consider the {{< link file="category" display="category" type="references" >}} $\cat{B}G$ defined by $G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$). What are the {{< link file="congruence_relation" display="congruence" type="references" >}} in $\cat{B}G$?
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 A {{< link file="subgroup" display="subgroup" type="references" >}} $N\substructeq G$ is said to be **normal** if it is invariant under the {{< link file="conjugation_action" display="conjugation" type="references" >}} {{< link file="group_action" display="action" type="references" >}} of $G$; i.e., if $gN=Ng$ for all $g\in G$.
 
@@ -29,13 +29,17 @@ We now show that every congruence relation $\sim$ on $G$ is induced by a unique 
 
 <div class="space"></div>
 
-*Proof.* Given $\sim$, the subset $N\coloneqq\l\\{n\in G\st n\sim e\r\\}$ is clearly a subgroup, and is normal since for all $gn\in gN$, we have $gn\sim g$ and hence $gng^{-1}\sim e$. Thus $gng^{-1}\in N$.
+{{< env type="proof" >}}
+
+Given $\sim$, the subset $N\coloneqq\l\\{n\in G\st n\sim e\r\\}$ is clearly a subgroup, and is normal since for all $gn\in gN$, we have $gn\sim g$ and hence $gng^{-1}\sim e$. Thus $gng^{-1}\in N$.
 <br>
 
 &emsp;&emsp;Conversely, given a normal subgroup $N\nsubgrpeq G$, the relation $g_1\sim g_2$ iff $g_2^{-1}g_1\in N$ is clearly an equivalence, and is a congruence since if $g_1\sim g_2$ and $h_1\sim h_2$, then
 $$\begin{equation}
     (g_2h_2)^{-1}(g_1h_1)=h_2^{-1}(g_2^{-1}g_1)h_1\in h_2^{-1}Nh_1=h_2^{-1}h_1N=N.\qedin
 \end{equation}$$
+
+{{< /env >}}
 
 <div class="space"></div>
 

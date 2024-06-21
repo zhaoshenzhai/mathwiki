@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 Let $P$ be a poset. A **filter** on $P$ is a subset $\em\neq F\subseteq P$ such that
 1. <span style="color:gray">(Upward-closure).</span> If $p\in F$ and $q\geq p$, then $q\in F$.

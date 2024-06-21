@@ -8,7 +8,7 @@ tags: [In_Progress]
 
 # Existence of (Co)limits
 
-{{< env "proposition" >}}
+{{< env type="proposition" >}}
 
 
 

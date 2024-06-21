@@ -9,7 +9,7 @@ tags: [Group_Theory]
 
 The concept of a *group* was invented to capture the abstract properties of *symmetries* (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 A **group** is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a distinguished element $e\in G$ called the **identity**, and operations $\cdot:G\times G\to G$ and $\iota:G\to G$, subject to the following conditions.
 1. <span style="color:gray">(Associativity).</span> For all $g,h,k\in G$, we have $g\cdot(h\cdot k)=(g\cdot h)\cdot k$.
@@ -24,7 +24,7 @@ Many groups arise as *automorphism* groups of objects $X$ in a {{< link file="ca
 
 &emsp;&emsp;The relevant structure-preserving maps for groups are as follows.
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 A function $f:G\to H$ between groups is a **homomorphism** if
 $$\begin{equation}

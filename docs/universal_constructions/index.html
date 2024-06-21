@@ -27,6 +27,7 @@
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/metalinks.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/headers.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/proof.js" type="module" defer></script>
 
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
@@ -47,19 +48,28 @@
 
 
 
+
+
+
+
+    
+
+
 <div class="env">
-    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
-
     
-        <b class="envTitle">Definition.</b>
-    
+        <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
 
-    <p>Let $F:D\to C$ be a functor and fix $c\in C$. A <strong>universal arrow</strong> from $c$ to $F$ is an initial object in $(c\downto F)$. That is, it is a pair $(r,u)$, with $r\in D$ and $u:c\to Fr$, inducing for each $d\in D$ a bijection
+        
+            <b class="envTitle">Definition.</b>
+        
+
+        <p>Let $F:D\to C$ be a functor and fix $c\in C$. A <strong>universal arrow</strong> from $c$ to $F$ is an initial object in $(c\downto F)$. That is, it is a pair $(r,u)$, with $r\in D$ and $u:c\to Fr$, inducing for each $d\in D$ a bijection
 $$\begin{equation}
 \phi_d:D(r,d)\to C(c,Fd):f&rsquo;\mapsto Ff&rsquo;\circ u.
 \end{equation}$$
 This can be visualized as in the following diagram.</p>
 <img class="tikz" src="https://zhaoshenzhai.github.io/mathwiki/img/universal_arrow.svg" width="250">
+    
 </div>
 
 <p><strong>Remark.</strong> The bijection $\phi_d$ is natural in $d$, for if $g&rsquo;:d\to d&rsquo;$, then

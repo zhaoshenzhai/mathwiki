@@ -40,7 +40,7 @@
     transition: filter 0.1s ease-out;
 }
 
-.icon, .navButtonm, .tikz {
+.icon, .navButton, .tikz {
     -moz-user-select: -moz-none;
     -khtml-user-select: none;
     -webkit-user-select: none;

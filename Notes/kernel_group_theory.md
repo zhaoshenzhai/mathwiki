@@ -13,7 +13,7 @@ A special property of the {{< link file="category" display="category" type="refe
 
 The first is to consider homomorphisms $\alpha:K\to G$ *from* some group $K$, and replace $f$ by $f\circ\alpha:K\to H$. One way to force $f\circ\alpha=0$ is accomplished by the following
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 The **kernel** of a homomorphism $f:G\to H$ is the {{< link file="subgroup" display="subgroup" type="references" >}}
 $$\begin{equation}

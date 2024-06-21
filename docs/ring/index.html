@@ -27,6 +27,7 @@
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/metalinks.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/headers.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/proof.js" type="module" defer></script>
 
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
@@ -71,17 +72,26 @@
 
 
 
+
+
+
+
+    
+
+
 <div class="env">
-    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
-
     
-        <b class="envTitle">Definition.</b>
-    
+        <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
 
-    A <strong>ring</strong> is a tuple $(R,+,\cdot,1)$ where $(R,\cdot,1)$ is a monoid, $(R,+)$ is an Abelian group, and where for all $r,s,t\in R$, we have
+        
+            <b class="envTitle">Definition.</b>
+        
+
+        A <strong>ring</strong> is a tuple $(R,+,\cdot,1)$ where $(R,\cdot,1)$ is a monoid, $(R,+)$ is an Abelian group, and where for all $r,s,t\in R$, we have
 $$\begin{equation}
 (r+s)\cdot t=r\cdot t+s\cdot t\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ t\cdot(r+s)=t\cdot r+t\cdot s.
 \end{equation}$$
+    
 </div>
 
 <p>The relevant structure-preserving maps for rings are as follows.</p>
@@ -89,18 +99,27 @@ $$\begin{equation}
 
 
 
+
+
+
+
+    
+
+
 <div class="env">
-    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
-
     
-        <b class="envTitle">Definition.</b>
-    
+        <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
 
-    A function $f:R\to S$ between rings is a <strong>homomorphism</strong> if it is a group homomorphism $f:(R,+)\to(S,+)$, such that $f(1_R)=1_S$ and
+        
+            <b class="envTitle">Definition.</b>
+        
+
+        A function $f:R\to S$ between rings is a <strong>homomorphism</strong> if it is a group homomorphism $f:(R,+)\to(S,+)$, such that $f(1_R)=1_S$ and
 $$\begin{equation}
 f(r_1\cdot r_2)=f(r_1)\cdot f(r_2)
 \end{equation}$$
 for all $r_1,r_2\in R$.
+    
 </div>
 
 <h2 id="the-category-catring">The Category $\catring$</h2>

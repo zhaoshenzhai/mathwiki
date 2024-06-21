@@ -9,7 +9,7 @@ tags: [In_Progress]
 
 Oftentimes, we wish to regard two objects as ‘being the same’ (for instance, two sets are ‘the same’ if they have the same {{< link file="cardinality" display="cardinality" type="references" >}}), despite them not being *equal*. The concept of an *equivalence relation* can be thought of as a generalization of equality.
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 Let $X$ be a set. An **equivalence relation** on $X$ is a (binary) relation $E\subseteq X^2$ subject to the following conditions.
 1. <span style="color:gray">(Reflexive).</span> For all $x\in X$, we have $(x,x)\in E$.

@@ -27,6 +27,7 @@
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/metalinks.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/headers.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/proof.js" type="module" defer></script>
 
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
@@ -47,14 +48,22 @@
 
 
 
+
+
+
+
+    
+
+
 <div class="env">
-    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
-
     
-        <b class="envTitle">Definition.</b>
-    
+        <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
 
-    <p>A <strong>metric</strong> on a set $X$ is a function $d:X\times X\to\R_{\geq0}$ such that</p>
+        
+            <b class="envTitle">Definition.</b>
+        
+
+        <p>A <strong>metric</strong> on a set $X$ is a function $d:X\times X\to\R_{\geq0}$ such that</p>
 <ol>
 <li><span style="color:gray">(Positive-definiteness).</span> For all $x,y\in X$, we have $d(x,y)=0$ iff $x=y$.</li>
 <li><span style="color:gray">(Symmetry.)</span> For all $x,y\in X$, we have $d(x,y)=d(y,x)$.</li>
@@ -62,6 +71,7 @@
 </ol>
 <p>If $d$ is a metric on $X$, we call the pair $\tpl{X,d}$ a <strong>metric space</strong>.</p>
 
+    
 </div>
 
 <h2 id="topology">Topology</h2>
@@ -149,17 +159,26 @@
 
 
 
+
+
+
+
+    
+
+
 <div class="env">
-    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
-
     
-        <b class="envTitle">Definition.</b>
-    
+        <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
 
-    For any $x\in X$ and $\epsilon&gt;0$, the <strong>$\epsilon$-ball</strong> centered at $x$ is the set
+        
+            <b class="envTitle">Definition.</b>
+        
+
+        For any $x\in X$ and $\epsilon&gt;0$, the <strong>$\epsilon$-ball</strong> centered at $x$ is the set
 $$\begin{equation}
 B_\epsilon(x)\coloneqq B(\epsilon,x)\coloneqq\l\{y\in X\st d(x,y)&lt;\epsilon\r\}.
 \end{equation}$$
+    
 </div>
 
 <p>In this way, many concepts that were previously defined for metric spaces are now subsumed by their topological characterizations. Nonetheless, metric spaces are still an important class of topological spaces, which is made precise by the following</p>
@@ -167,14 +186,23 @@ B_\epsilon(x)\coloneqq B(\epsilon,x)\coloneqq\l\{y\in X\st d(x,y)&lt;\epsilon\r\
 
 
 
+
+
+
+
+    
+
+
 <div class="env">
-    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
-
     
-        <b class="envTitle">Definition.</b>
-    
+        <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
 
-    A topological space $\tpl{X,\mc{T}}$ is said to be <strong>metrizable</strong> if there is a metric $d$ on $X$ whose open balls generate $\mc{T}$.
+        
+            <b class="envTitle">Definition.</b>
+        
+
+        A topological space $\tpl{X,\mc{T}}$ is said to be <strong>metrizable</strong> if there is a metric $d$ on $X$ whose open balls generate $\mc{T}$.
+    
 </div>
 
 <p>Specifically, metrizable spaces enjoy the following properties.</p>
@@ -237,18 +265,27 @@ B_\epsilon(x)\coloneqq B(\epsilon,x)\coloneqq\l\{y\in X\st d(x,y)&lt;\epsilon\r\
 
 
 
+
+
+
+
+    
+
+
 <div class="env">
-    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
-
     
-        <b class="envTitle">Definition.</b>
-    
+        <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
 
-    Fix $k\in\N$. A function $f:X\to Y$ is said to be <strong>$k$-Lipschitz</strong> if
+        
+            <b class="envTitle">Definition.</b>
+        
+
+        Fix $k\in\N$. A function $f:X\to Y$ is said to be <strong>$k$-Lipschitz</strong> if
 $$\begin{equation}
 d(f(x),f(x&rsquo;))\leq kd(x,x&rsquo;)
 \end{equation}$$
 for all $x,x&rsquo;\in X$. We say that $f$ is <strong>Lipschitz</strong> if it is $k$-Lipschitz for some $k$.
+    
 </div>
 
 <p>We let $\catmet$ be the 

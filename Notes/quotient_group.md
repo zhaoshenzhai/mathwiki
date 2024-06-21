@@ -19,13 +19,17 @@ Fix an {{< link file="equivalence_relation" display="equivalence relation" type=
 
 Since the normal subgroup induced by $\sim$ is given by $N=\l\\{n\in G\st n\sim e\r\\}$, we have $[g]=\l\\{gn\in G\st n\in N\r\\}\eqqcolon gN$ for every $g\in G$, called the (left) *coset* of $N$ by $g$. Thus, the standard definition is the following.
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 Let $N\nsubgrpeq G$ be a normal subgroup. The **quotient group** of $G$ by $N$ is the group $G/N\coloneqq G/\\!\sim$ equipped with the operation $gN\ast hN\coloneqq(gh)N$.
 
 {{< /env >}}
 
-*Proof (well-definition).* If $g_1\sim g_2$ and $h_1\sim h_2$, then $g_1h_1\sim g_2h_2$.<span style="float:right;">$\blacksquare$</span>
+{{< env type="proof" >}}
+
+If $g_1\sim g_2$ and $h_1\sim h_2$, then $g_1h_1\sim g_2h_2$.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}
 
 <div class="space"></div>
 
@@ -47,13 +51,15 @@ Given the above construction, and recalling that normal subgroups correspond {{<
 
 Quotient groups satisfy the following universal property:
 
-{{< env "proposition" >}}
+{{< env type="proposition" >}}
 
 Let $N\nsubgrpeq G$ be a normal subgroup. The projection $\pi:G\onto G/N$ is initial amongst all homomorphisms $f:G\to H$ such that $N\subseteq\ker f$.
 
 {{< /env >}}
 
-*Proof.* That $N\subseteq\ker f$ is equivalent to
+{{< env type="proof" >}}
+
+That $N\subseteq\ker f$ is equivalent to
 $$\begin{equation}
     \fa g_1,g_2\in G:g_1\sim g_2\Longrightarrow f(g_1)=f(g_2),
 \end{equation}$$
@@ -62,6 +68,8 @@ $$\begin{equation}
     f'([g_1]\ast[g_2])=f'([g_1g_2])=f'(\pi(g_1g_2))=f(g_1g_2)=f(g_1)f(g_2)=f'([g_1])f'([g_2]),
 \end{equation}$$
 as desired.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}
 
 <div class="space"></div>
 

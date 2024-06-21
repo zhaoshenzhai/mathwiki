@@ -27,6 +27,7 @@
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/metalinks.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/headers.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/proof.js" type="module" defer></script>
 
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
@@ -45,17 +46,26 @@
 
 
 
+
+
+
+
+    
+
+
 <div class="env">
-    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
-
     
-        <b class="envTitle">Definition.</b>
-    
+        <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
 
-    <p>Let $G$ be a group. An element $x\in G$ is has <strong>finite order</strong> if we have $x^n=e$ for some $n&gt;0$; the least such $n$ is the <strong>order</strong> of $x$, denoted $\ord x$.</p>
+        
+            <b class="envTitle">Definition.</b>
+        
+
+        <p>Let $G$ be a group. An element $x\in G$ is has <strong>finite order</strong> if we have $x^n=e$ for some $n&gt;0$; the least such $n$ is the <strong>order</strong> of $x$, denoted $\ord x$.</p>
 <br>
 <p>  Otherwise, set $\ord x\coloneqq\infty$, and say that $x$ has <strong>infinite order</strong>.</p>
 
+    
 </div>
 
 <p><strong>Remark.</strong> More abstractly, for a fixed $x\in G$, consider the map $\phi_x:\Z\to G$ induced uniquely by sending $1\mapsto x$, and set $\ord x\coloneqq\l|\im\phi_x\r|$. If $\ker\phi_x=n\Z$ for some $n&gt;0$, then $\im\phi_x\iso\Z/n\Z$ has cardinality $n$. Since there are no other non-trivial subgroups 

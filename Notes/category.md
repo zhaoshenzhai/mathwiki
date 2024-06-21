@@ -13,7 +13,7 @@ The starting point of the theory of *categories* is the observation that many pr
 
 &emsp;&emsp; To formalize this, we need a general framework for composing arrows, so we make the following
 
-{{< env "definition" >}}
+{{< env type="definition" >}}
 
 A **category** $C$ consists of a class $\mc{O}$ of **objects**, and,
 * for any two objects $x,y\in\mc{O}$, a class $C(x,y)$ of **morphisms** in $C$;

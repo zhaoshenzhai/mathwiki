@@ -27,6 +27,7 @@
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/metalinks.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/headers.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/proof.js" type="module" defer></script>
 
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
@@ -99,17 +100,51 @@
 
 
 
+
+
+
+
+    
+
+
 <div class="env">
-    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
-
     
-        <b class="envTitle">Definition.</b>
-    
+        <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg">
 
-    Let $E$ be an equivalence relation on a set $X$. The <strong>quotient set</strong> of $X$ by $E$ is the set $X/E\coloneqq\l\{[x]_E\st x\in X\r\}$ of all equivalence classes of $X$.
+        
+            <b class="envTitle">Definition.</b>
+        
+
+        Let $E$ be an equivalence relation on a set $X$. The <strong>quotient set</strong> of $X$ by $E$ is the set $X/E\coloneqq\l\{[x]_E\st x\in X\r\}$ of all equivalence classes of $X$.
+    
 </div>
 
-<p><em>Proof (of the universal property).</em> Let $(Z,f)$ be as above. For a function $f&rsquo;:X/E\to Z$ with $f=f&rsquo;\circ\pi$, we need $f&rsquo;([x]_E)=f(x)$ for all $x\in X$, so uniqueness of $f&rsquo;$ follows. For existence, we need to show that $f&rsquo;$ is well-defined, but this is precisely the condition that $f(x)=f(y)$ whenever $xEy$.<span style="float:right;">$\blacksquare$</span></p>
+
+
+
+
+
+
+
+
+    
+    
+
+
+<div class="envProof">
+    
+        
+            <i class="proofHeader">Proof (of the universal property).</i>
+        
+
+        <div class="proofExpand"><i>Click to expand...</i></div>
+
+        <span class="proofContent">
+            Let $(Z,f)$ be as above. For a function $f&rsquo;:X/E\to Z$ with $f=f&rsquo;\circ\pi$, we need $f&rsquo;([x]_E)=f(x)$ for all $x\in X$, so uniqueness of $f&rsquo;$ follows. For existence, we need to show that $f&rsquo;$ is well-defined, but this is precisely the condition that $f(x)=f(y)$ whenever $xEy$.<span style="float:right;">$\blacksquare$</span>
+        </span>
+    
+</div>
+
 <div class="space"></div>
 <p><strong>Remark.</strong> In light of this universal property, we do not really care about the quotient <em>set</em> $X/E$. Rather, we care about the <em>function</em> $\pi:X\to X/E$, which is surjective, and is called the <em>canonical projection</em>.</p>
 <div class="space"></div>
@@ -119,20 +154,55 @@
 
 
 
+
+
+
+
+    
+
+
 <div class="env">
-    <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg">
-
     
-        <b class="envTitle">Theorem.</b>
-    
+        <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg">
 
-    <p>We have a unique isomorphism $X/E_f\iso\im f$, and so $f$ factors as</p>
+        
+            <b class="envTitle">Theorem.</b>
+        
+
+        <p>We have a unique isomorphism $X/E_f\iso\im f$, and so $f$ factors as</p>
 <img class="tikz" src="https://zhaoshenzhai.github.io/mathwiki/img/canonical_decomposition.svg" width="400">
+    
 </div>
 
-<p><em>Proof.</em> Restricting the codomain of $f$, we obtain a surjection $f_0:X\onto\im f$. It suffices to show that $f_0$ satisfies the same universal property as $\pi$, for then $X/E_f\iso\im f$ and we obtain the desired decomposition of $f$.</p>
+
+
+
+
+
+
+
+
+    
+    
+
+
+<div class="envProof">
+    
+        
+            <i class="proofHeader">Proof.</i>
+        
+
+        <div class="proofExpand"><i>Click to expand...</i></div>
+
+        <span class="proofContent">
+            <p>Restricting the codomain of $f$, we obtain a surjection $f_0:X\onto\im f$. It suffices to show that $f_0$ satisfies the same universal property as $\pi$, for then $X/E_f\iso\im f$ and we obtain the desired decomposition of $f$.</p>
 <br>
 <p>  Indeed, if $(Z,g)$ respects $E_f$, then any $g&rsquo;:\im f\to Z$ with $g=g&rsquo;\circ f_0$ is forced to have $g&rsquo;(f(x))=g(x)$ for all $x$, so uniqueness follows. For existence, let $y\in\im f$, so $y=f(x)$ for some $x\in X$. Set $g&rsquo;(y)\coloneqq g(x)$, which is well-defined since if $y=f(x&rsquo;)$ for $x&rsquo;\in X$, then $f(x)=f(x&rsquo;)$ and hence $xE_fx&rsquo;$. Thus $g(x)=g(x&rsquo;)$, as desired.<span style="float:right;">$\blacksquare$</span></p>
+
+        </span>
+    
+</div>
+
 <h1 id="set-theoretic-aspects">Set-theoretic Aspects</h1>
 
 
