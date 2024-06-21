@@ -6,14 +6,21 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jun 2024 14:50:24 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2024 16:59:45 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>p-group</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/p_group/</link>
+      <pubDate>Fri, 21 Jun 2024 16:59:45 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/p_group/</guid>
+      <description>By Lagrange’s Theorem, if a finite group $G$ has prime order $p$, then $G\iso\,$ $\Z/p\Z$ and has no non-trivial subgroups. It is natural to ask for a generalization when $\l|G\r|$ is a power of $p$, or more generally, when the order of every $g\in G$ is a power of $p$.&#xA;Throughout, fix a prime $p$.&#xA;Finite $p$-groups If $G$ is a finite group, then the condition that the order of every $g\in G$ is a power of $p$ is $-$ by Lagrange’s Theorem $-$ equivalent to the following</description>
+    </item>
     <item>
       <title>The Class Equation</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/the_class_equation/</link>
       <pubDate>Fri, 21 Jun 2024 14:50:24 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/the_class_equation/</guid>
-      <description>Motivation &amp;amp; Definition </description>
+      <description>Statement &amp;amp; Proof A group $G$ acting on a finite set $S$ naturally partitions $S$ into its orbits $S=\bigsqcup_{i\in I}Gs_i$, which can either be trivial or non-trivial.&#xA;The trivial ones are singletons $\l\{s_i\r\}$ for which each $s_i$ is fixed by all $g\in G$. We call those the fixed points of the action, denoted $Z\coloneqq\l\{s\in S\st gs=s\textrm{ for all }g\in G\r\}$. If some structure is known about the non-trivial orbits, then this partition gives us information on the number $\l|Z\r|$ of fixed points of this action.</description>
     </item>
     <item>
       <title>Lagrange’s Theorem</title>

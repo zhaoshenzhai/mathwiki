@@ -23,6 +23,6 @@ Let $G\act X$ $-$ where $X$ is a *possibly infinite* set $-$ and fix an orbit $O
 
 ## {{< link file="sylow_theorems" display="The Sylow Theorems" type="techniques" >}}
 
-Hi
+
 
 # {{< link file="representation_theory" display="Representation" type="references" >}} Theory
