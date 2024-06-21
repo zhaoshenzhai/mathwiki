@@ -6,8 +6,15 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Jun 2024 19:25:15 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2024 22:43:48 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lagrange’s Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/lagranges_theorem/</link>
+      <pubDate>Thu, 20 Jun 2024 22:43:48 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/lagranges_theorem/</guid>
+      <description>Statement &amp;amp; Proof Theorem (Lagrange). Let $G$ be a finite group. For every subgroup $H\substructeq G$, we have $\l|G\r|=[G:H]\cdot\l|H\r|$. In particular, $\l|H\r|$ divides $\l|G\r|$. Proof. Click to expand... Consider the natural left-multiplication action of $H$ on $G$, for which we have $\Orb_H(g)=Hg$ and $\Stab_H(g)=\l\{e\r\}$ for every $g\in G$, and thus $\l|Hg\r|=\l|H\r|$. But then the partition $G=\bigsqcup_{i\in I}\Orb_H(g_i)=\bigsqcup_{i\in I}Hg_i$ gives us $$\begin{equation} \l|G\r|=\sum_{i\in I}\l|Hg_i\r|=\sum_{i\in I}\l|H\r|=\l|I\r|\cdot\l|H\r|, \end{equation}$$ so $\l|H\r|$ divides $\l|G\r|$. Moreover, we clearly have $\l|I\r|=\l|G/H\r|=[G:H]$.</description>
+    </item>
     <item>
       <title>Cayley’s Theorem</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</link>

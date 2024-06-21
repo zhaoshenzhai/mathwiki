@@ -30,10 +30,14 @@ $$\begin{equation}
 
 # Corollaries
 
-## Lagrange’s Theorem
+## Finite Group Theory
 
-<div class="space"></div>
-
-## The Class Equation
+When $G$ is a finite group, we have the equality
+$$\begin{equation}
+    \l|\Orb_G(x_0)\r|=\l|G/\Stab_G(x_0)\r|,
+\end{equation}$$
+and this is usually how Orbit-Stabilizer applies in this context. Some examples:
+* *{{< link file="lagranges_theorem" display="Lagrange’s Theorem" type="corollaries" >}}* essentially states that the cosets of any subgroup $H\substructeq G$ are all equinumerous, for which there are $[G:H]\coloneqq\l|G/H\r|=\l|G\r|/\l|H\r|$ many. This can be proved by letting $H$ act on $G$ by left-multiplication.
+* *{{< link file="the_class_equation" display="The Class Equation" type="corollaries" >}}* counts the elements of a finite $G$-set $S$ by partitioning it into its fixed points and its non-trivial orbits.
 
 # Generalizations

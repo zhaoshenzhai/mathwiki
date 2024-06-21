@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 Let $G$ be a {{< link file="group" display="group" type="references" >}}. The condition that (the underlying set of) $G$ is finite allows us to apply methods from finite combinatorics to analyze $G$. We give some group-theoretic frameworks for which such combinatorics can be applied to.
 
->Such methods can become incredibly sophisticated; for instance, the classification of finite {{< link file="simple_group" display="simple" type="references" >}} groups is one of the major achievements of mathematics.
+>Such methods can become incredibly sophisticated; for instance, the classification of finite {{< link file="simple_group" display="simple" type="references" >}} groups is one of the major achievements of mathematics. We only touch on the very *very* basics here.
 
 # Group {{< link file="group_action" display="Actions" type="references" >}} on Sets
 
@@ -17,7 +17,7 @@ Let $G\act X$ $-$ where $X$ is a *possibly infinite* set $-$ and fix an orbit $O
 
 <br>
 
-&emsp;&emsp;This easy fact is surprisingly useful; indeed, it generalizes {{< link file="orbit_stabilizer_theorem" display="Lagrange’s Theorem" type="techniques" section="Lagrange’s Theorem" >}}!
+&emsp;&emsp;This easy fact is surprisingly useful; indeed, it generalizes {{< link file="lagranges_theorem" display="Lagrange’s Theorem" type="techniques" >}} and gives a quick proof of the {{< link file="the_class_equation" display="Class equation" type="techniques" >}}.
 
 <div class="space"></div>
 

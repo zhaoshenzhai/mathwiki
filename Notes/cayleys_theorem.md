@@ -33,7 +33,7 @@ Every finitely-generated group is a subgroup of the symmetries of a connected lo
 
 {{< /env >}}
 
-{{< env type="proof" hide="true" >}}
+{{< env type="proof" >}}
 
 
 

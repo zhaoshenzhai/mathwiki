@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Cayley’s Theorem</title>
+        <title>Lagrange’s Theorem</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -40,10 +40,9 @@
     </button>
     <div id="content" class="left noScroll">
         
-            <h1 id="title">Cayley’s Theorem</h1>
+            <h1 id="title">Lagrange’s Theorem</h1>
         
-        <h1 id="motivation--statement">Motivation &amp; Statement</h1>
-<p>Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’. Such a theorem for groups is as follows.</p>
+        <h1 id="statement--proof">Statement &amp; Proof</h1>
 
 
 
@@ -60,10 +59,10 @@
         <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg">
 
         
-            <b class="envTitle">Theorem (Cayley).</b>
+            <b class="envTitle">Theorem (Lagrange).</b>
         
 
-        Every group $G$ is a subgroup of a symmetry group.
+        Let $G$ be a finite group. For every subgroup $H\substructeq G$, we have $\l|G\r|=[G:H]\cdot\l|H\r|$. In particular, $\l|H\r|$ divides $\l|G\r|$.
     
 </div>
 
@@ -88,64 +87,15 @@
         <div class="proofExpand"><i>Click to expand...</i></div>
 
         <span class="proofContent">
-            We show that the left-multiplication action $\phi:G\to\Aut G$ is faithful, for then $G\substructeq\Aut G$. Indeed, if $\phi(g_1)=\phi(g_2)$, then we have $\phi(g_1)g=\phi(g_2)g$ for all $g\in G$. That is, we have $g_1g=g_2g$, so $g_1=g_2$ as desired.<span style="float:right;">$\blacksquare$</span>
+            Consider the natural left-multiplication action of $H$ on $G$, for which we have $\Orb_H(g)=Hg$ and $\Stab_H(g)=\l\{e\r\}$ for every $g\in G$, and thus $\l|Hg\r|=\l|H\r|$. But then the partition $G=\bigsqcup_{i\in I}\Orb_H(g_i)=\bigsqcup_{i\in I}Hg_i$ gives us
+$$\begin{equation}
+\l|G\r|=\sum_{i\in I}\l|Hg_i\r|=\sum_{i\in I}\l|H\r|=\l|I\r|\cdot\l|H\r|,
+\end{equation}$$
+so $\l|H\r|$ divides $\l|G\r|$. Moreover, we clearly have $\l|I\r|=\l|G/H\r|=[G:H]$.<span style="float:right;">$\blacksquare$</span>
         </span>
     
 </div>
 
-<div class="space"></div>
-<h2 id="cayley-graph">Cayley Graph</h2>
-<p>We can refine this result if $G$ is finitely-generated.</p>
-
-
-
-
-
-
-
-
-    
-
-
-<div class="env">
-    
-        <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/proposition.svg">
-
-        
-            <b class="envTitle">Proposition.</b>
-        
-
-        Every finitely-generated group is a subgroup of the symmetries of a connected locally-finite (directed) graph.
-    
-</div>
-
-
-
-
-
-
-
-
-
-    
-    
-
-
-<div class="envProof">
-    
-        
-            <i class="proofHeader">Proof.</i>
-        
-
-        <div class="proofExpand"><i>Click to expand...</i></div>
-
-        <span class="proofContent">
-            
-        </span>
-    
-</div>
-
-<h1 id="the-yoneda-lemma">The Yoneda Lemma</h1>
 
 
         <div class="spacer">&nbsp;</div>

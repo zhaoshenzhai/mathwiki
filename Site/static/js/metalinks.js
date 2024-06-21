@@ -145,6 +145,7 @@ function typePriority(linkEl) {
         "examples",
         "generalizations",
         "proved_by",
+        "corollaries",
         "justifications",
         "references"
     ];

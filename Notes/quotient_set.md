@@ -49,7 +49,7 @@ We have a unique isomorphism $X/E_f\iso\im f$, and so $f$ factors as
 
 {{< /env >}}
 
-{{< env type="proof" >}}
+{{< env type="proof" hide="true" >}}
 
 Restricting the codomain of $f$, we obtain a surjection $f_0:X\onto\im f$. It suffices to show that $f_0$ satisfies the same universal property as $\pi$, for then $X/E_f\iso\im f$ and we obtain the desired decomposition of $f$.
 

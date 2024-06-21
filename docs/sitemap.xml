@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</loc>
-    <lastmod>2024-06-20T19:25:15-04:00</lastmod>
-  </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
-    <lastmod>2024-06-20T19:25:15-04:00</lastmod>
+    <lastmod>2024-06-20T22:43:48-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/lagranges_theorem/</loc>
+    <lastmod>2024-06-20T22:43:48-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
-    <lastmod>2024-06-20T19:25:15-04:00</lastmod>
+    <lastmod>2024-06-20T22:43:48-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
+    <lastmod>2024-06-20T22:43:48-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</loc>
     <lastmod>2024-06-20T19:25:15-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/convergence/</loc>
