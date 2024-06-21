@@ -26,7 +26,7 @@ Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we
 ## Basic Notions
 
 For a group action $\phi:G\act X$ with $X$ in a {{< link file="concrete_category" display="concrete category" type="references" >}}, we make the following definitions.
-* For a fixed $x\in X$, the *orbit* of $x$ is $Gx\coloneqq\l\\{gx\in X\st g\in G\r\\}$ and the *stabilizer* of $x$ is $G_x\coloneqq\l\\{g\in G\st gx=x\r\\}$. They are related by the {{< link file="orbit_stabilizer_theorem" display="Orbit Stabilizer Theorem" type="properties" >}} and, usually when $G$ is finite, the {{< link file="orbit_stabilizer_theorem" display="Class Equation" type="properties" section="The Class Equation" >}}.
+* For a fixed $x\in X$, the *orbit* of $x$ is $Gx\coloneqq\l\\{gx\in X\st g\in G\r\\}$ and the *stabilizer* of $x$ is $G_x\coloneqq\l\\{g\in G\st gx=x\r\\}$. They are related by the {{< link file="orbit_stabilizer_theorem" display="Orbit Stabilizer Theorem" type="properties" >}} and, usually when $G$ is finite, the {{< link file="the_class_equation" display="Class Equation" type="properties" >}}. Clearly, $\ker\phi=\bigcap_xG_x$.
 * We say that the action is *transitive* if for all $x,y\in X$, there is some $g\in G$ such that $gx=y$. Note that $X\iso\bigsqcup\_iGx_i$, and since $G$ always acts transitively on its orbits, every group action decomposes into its transitive components (i.e. orbits).
 * We say that the action is *faithful* if $\phi$ is injective, so that $G\into\Aut X$, and *free* if $gx=x$ for some $x\in X$ implies $g=e$. {{< link file="cayleys_theorem" display="Cayley’s Theorem" type="properties" >}} is the statement that the left-multiplication action is faithful.
 

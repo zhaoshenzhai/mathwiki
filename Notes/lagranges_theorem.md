@@ -49,4 +49,5 @@ A natural question to ask at this point is whether the converse holds, in the se
 <br>
 
 &emsp;&emsp;Thus, we ask if this holds for particular values of $d$, or for a special class of finite groups. Some results are as follows.
-* h
+* *{{< link file="cauchys_theorem" display="Cauchy’s Theorem" type="references" >}}*
+* *{{< link file="sylow_theorems" display="The Sylow Theorems" type="references" >}}*
