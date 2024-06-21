@@ -6,8 +6,15 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jun 2024 16:59:45 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2024 18:02:41 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixed-point Theorems for p-groups</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/fixed_point_theorems_of_p_groups/</link>
+      <pubDate>Fri, 21 Jun 2024 18:02:41 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/fixed_point_theorems_of_p_groups/</guid>
+      <description>The Class Equation </description>
+    </item>
     <item>
       <title>p-group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/p_group/</link>

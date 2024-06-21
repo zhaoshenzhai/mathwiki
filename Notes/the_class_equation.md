@@ -1,8 +1,8 @@
 ---
 title: The Class Equation
 date: 2024-06-21T14:50:24-04:00
-references: []
-tags: [In_Progress]
+references: [Alu09]
+tags: [Group_Theory]
 ---
 
 # Statement & Proof

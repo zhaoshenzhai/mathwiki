@@ -8,16 +8,17 @@ while [[ "$repeat" == "Y" ]]; do
 
     echo -e "${CYAN}Actions:${NC}"
     echo -e "    ${CYAN}(1): Git${NC}"
-    echo -e "    ${CYAN}(2): Search${NC}"
-    echo -e "    ${CYAN}(3): Restore${NC}"
-    echo -e "    ${CYAN}(4): Ghost links${NC}"
-    echo -e "    ${CYAN}(5): Update images${NC}"
-    echo -e "    ${CYAN}(6): Publish notes${NC}"
+    echo -e "    ${CYAN}(2): Open${NC}"
+    echo -e "    ${CYAN}(3): Search${NC}"
+    echo -e "    ${CYAN}(4): Restore${NC}"
+    echo -e "    ${CYAN}(5): Ghost links${NC}"
+    echo -e "    ${CYAN}(6): Update images${NC}"
+    echo -e "    ${CYAN}(7): Publish notes${NC}"
     echo ""
 
-    read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-8)]${NC} ")" action
+    read -n 1 -ep "$(echo -e ${CYAN}"Select: [1|(1-7)]${NC} ")" action
     re='^[0-9]+$'
-    if ( [[ $action =~ $re ]] ) && ( [ "$action" -ge "1" ] && [ "$action" -le "6" ] ) || [[ -z "$action" ]]; then
+    if ( [[ $action =~ $re ]] ) && ( [ "$action" -ge "1" ] && [ "$action" -le "7" ] ) || [[ -z "$action" ]]; then
         if [[ -z "$action" ]]; then
             action="1"
         fi
@@ -33,11 +34,12 @@ while [[ "$repeat" == "Y" ]]; do
 
     case $action in
         "1") $DOTFILES_DIR/scripts/gitCommit.sh -r "MathWiki" ;;
-        "2") $MATHWIKI_DIR/.scripts/searchReplace.sh ;;
-        "3") $MATHWIKI_DIR/.scripts/gitRestore.sh ;;
-        "4") $MATHWIKI_DIR/.scripts/ghostLinks.sh ;;
-        "5") $MATHWIKI_DIR/.scripts/updateImages.sh -a -g ;;
-        "6") $MATHWIKI_DIR/.scripts/publish.sh ;;
+        "2") $DOTFILES_DIR/scripts/openQute.sh -M &>/dev/null & disown ;;
+        "3") $MATHWIKI_DIR/.scripts/searchReplace.sh ;;
+        "4") $MATHWIKI_DIR/.scripts/gitRestore.sh ;;
+        "5") $MATHWIKI_DIR/.scripts/ghostLinks.sh ;;
+        "6") $MATHWIKI_DIR/.scripts/updateImages.sh -a -g ;;
+        "7") $MATHWIKI_DIR/.scripts/publish.sh ;;
     esac
 
     echo ""

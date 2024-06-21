@@ -1,8 +1,8 @@
 ---
 title: p-group
 date: 2024-06-21T16:59:45-04:00
-references: []
-tags: [In_Progress]
+references: [Alu09]
+tags: [Group_Theory, In_Progress]
 mathLink: $p\ $-group
 ---
 
@@ -18,7 +18,7 @@ If $G$ is a finite group, then the condition that the order of every $g\in G$ is
 
 {{< env type="definition" >}}
 
-A **$p$-group** is a group $G$ with $\l|G\r|=p^n$ for some $n\in\N$.
+A **$p$-group** is a group $G$ with $\l|G\r|=p^n$ for some $n>0$.
 
 {{< /env >}}
 
@@ -29,5 +29,11 @@ Every {{< link file="lagranges_theorem" type="justifications" mod="dag" >}} $H\s
 <div class="space"></div>
 
 ## {{< link file="sylow_theorems" display="The Sylow Theorems" type="properties" >}}
+
+...
+
+<div class="space"></div>
+
+These theorems can all be proved by clever applications of the {{< link file="the_class_equation" display="Class Equation" type="references" >}} on the {{< link file="conjugation_action" display="conjugation" type="references" >}} {{< link file="group_action" display="action" type="references" >}}; in particular, to establish several {{< link file="fixed_point_theorems_of_p_groups" display="fixed-point theorems" type="properties" >}} thereof.
 
 # Prüfer $p$-groups

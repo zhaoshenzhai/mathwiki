@@ -6,8 +6,29 @@
     <description>Recent content in Group_Theory on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jun 2024 18:49:07 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2024 16:59:45 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/group_theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>p-group</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/p_group/</link>
+      <pubDate>Fri, 21 Jun 2024 16:59:45 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/p_group/</guid>
+      <description>By Lagrange’s Theorem, if a finite group $G$ has prime order $p$, then $G\iso\,$ $\Z/p\Z$ and has no non-trivial subgroups. It is natural to ask for a generalization when $\l|G\r|$ is a power of $p$, or more generally, when the order of every $g\in G$ is a power of $p$.&#xA;Throughout, fix a prime $p$.&#xA;Finite $p$-groups If $G$ is a finite group, then the condition that the order of every $g\in G$ is a power of $p$ is $-$ by Lagrange’s Theorem $-$ equivalent to the following</description>
+    </item>
+    <item>
+      <title>The Class Equation</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/the_class_equation/</link>
+      <pubDate>Fri, 21 Jun 2024 14:50:24 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/the_class_equation/</guid>
+      <description>Statement &amp;amp; Proof A group $G$ acting on a finite set $S$ naturally partitions $S$ into its orbits $S=\bigsqcup_{i\in I}Gs_i$, which can either be trivial or non-trivial.&#xA;The trivial ones are singletons $\l\{s_i\r\}$ for which each $s_i$ is fixed by all $g\in G$. We call those the fixed points of the action, denoted $Z\coloneqq\l\{s\in S\st gs=s\textrm{ for all }g\in G\r\}$. If some structure is known about the non-trivial orbits, then this partition gives us information on the number $\l|Z\r|$ of fixed points of this action.</description>
+    </item>
+    <item>
+      <title>Lagrange’s Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/lagranges_theorem/</link>
+      <pubDate>Thu, 20 Jun 2024 22:43:48 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/lagranges_theorem/</guid>
+      <description>Statement &amp;amp; Proof This classical result is fundamental in finite group theory, since it places limitations on the size a subgroup of a finite group can have.&#xA;For a subgroup $H\substructeq G$ of $G$, let $[G:H]\coloneqq\l|G/H\r|$ be the index of $H$ in $G$.&#xA;Theorem (Lagrange). Let $G$ be a finite group. For every subgroup $H\substructeq G$, we have $\l|G\r|=[G:H]\cdot\l|H\r|$. In particular, $\l|H\r|$ divides $\l|G\r|$. Proof. Click to expand... Consider the natural left-multiplication</description>
+    </item>
     <item>
       <title>Quotient Group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/quotient_group/</link>

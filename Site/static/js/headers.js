@@ -15,7 +15,16 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
 function styleHeaders() {
     var newTitle = document.createElement("h1");
-    newTitle.appendChild(toSmallCaps(headerList[0].innerText, 25, 30));
+    var newTitleSize = headerList[0].getAttribute("titleSize");
+    if (!newTitleSize) { newTitleSize = 25; }
+
+    var newTitleSC = toSmallCaps(
+        headerList[0].innerText,
+        newTitleSize,
+        Number(newTitleSize) + 5
+    );
+
+    newTitle.appendChild(newTitleSC);
     newTitle.setAttribute("id", "title");
     newTitle.classList.add("center");
 

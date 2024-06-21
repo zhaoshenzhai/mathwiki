@@ -1,8 +1,8 @@
 ---
 title: Lagrange’s Theorem
 date: 2024-06-20T22:43:48-04:00
-references: []
-tags: [In_Progress]
+references: [Alu09]
+tags: [Group_Theory, In_Progress]
 ---
 
 # Statement & Proof

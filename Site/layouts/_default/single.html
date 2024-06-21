@@ -16,9 +16,13 @@
     </button>
     <div id="content" class="left noScroll">
         {{ if .Params.mathLink }}
-            <h1 id="title">{{ .Params.mathLink }}</h1>
+            <h1 id="title" titleSize="{{ .Params.titleSize }}">
+                {{ .Params.mathLink }}
+            </h1>
         {{ else }}
-            <h1 id="title">{{ .Title }}</h1>
+            <h1 id="title" titleSize="{{ .Params.titleSize }}">
+                {{ .Title }}
+            </h1>
         {{ end }}
         {{ .Content }}
 
