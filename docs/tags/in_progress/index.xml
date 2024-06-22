@@ -6,14 +6,21 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jun 2024 18:02:41 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2024 20:09:18 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conjugation Action</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/conjugation_action/</link>
+      <pubDate>Fri, 21 Jun 2024 20:09:18 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/conjugation_action/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Fixed-point Theorems for p-groups</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/fixed_point_theorems_of_p_groups/</link>
       <pubDate>Fri, 21 Jun 2024 18:02:41 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/fixed_point_theorems_of_p_groups/</guid>
-      <description>The Class Equation </description>
+      <description>Non-triviality of $Z(G)$ A standard method to study a finite group is to first find its center; if non-trivial, we can set up an induction proof my successively quotienting by $Z(G)$.&#xA;This is indeed the case for finite $p$-groups, which we now show. Throughout, let $G$ be a non-trivial finite $p$-group.&#xA;Lemma. If $G$&#xA;acts on a finite set $S$, then $\l|Z\r|\equiv\l|S\r|\,\mod\,p$ where $Z$ is the set of fixed-points of this action.</description>
     </item>
     <item>
       <title>p-group</title>

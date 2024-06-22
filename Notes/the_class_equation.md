@@ -23,7 +23,7 @@ where $A\subseteq S$ contain exactly the elements $a\in S$ with $\l|Ga\r|>1$.
 
 {{< env type="proof" hide="false" >}}
 
-Since we have a partition $S=\bigsqcup_{i\in I}Gs_i$ and $\l|Gs\r|=1$ for all $s\in Z$, splitting off the two cases gives us
+Since we have a partition $S=\bigsqcup_{i\in I}Gs_i$ and $\l|Gs\r|=1$ for all $s\in Z$, so splitting off the two cases gives us
 $$\begin{equation}
     \l|S\r|=\l|Z\r|+\sum_{a\in A}\l|Ga\r|=\l|Z\r|+\sum_{a\in A}\l|G\r|/\l|G_a\r|,
 \end{equation}$$

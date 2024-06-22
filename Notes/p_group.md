@@ -18,7 +18,7 @@ If $G$ is a finite group, then the condition that the order of every $g\in G$ is
 
 {{< env type="definition" >}}
 
-A **$p$-group** is a group $G$ with $\l|G\r|=p^n$ for some $n>0$.
+A **$p$-group** is a group $G$ with $\l|G\r|=p^n$ for some $n\in\N$.
 
 {{< /env >}}
 
