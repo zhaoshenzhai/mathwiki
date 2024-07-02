@@ -7,7 +7,7 @@ tags: [Group_Theory]
 
 # Motivation & Definition
 
-&emsp;&emsp;Fix a {{< link file="group" display="group" type="references" >}} $G$ and consider the {{< link file="category" display="category" type="references" >}} $\cat{B}G$ defined by $G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$). What are the {{< link file="congruence_relation" display="congruence" type="references" >}} in $\cat{B}G$?
+&emsp;&emsp;Fix a {{< link file="group" display="group" type="references" >}} $G$ and consider the {{< link file="category" display="category" type="references" >}} $\cat{B}G$ defined by $G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$). What are the {{< link file="congruence_relation" display="congruences" type="references" >}} in $\cat{B}G$?
 
 {{< env type="definition" >}}
 
