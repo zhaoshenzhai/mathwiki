@@ -51,13 +51,27 @@ Note that $\mc{B}\_\mc{S}\coloneqq\l\\{\bigcap\_{i=1}^nU\_i\st U\_i\in\mc{S},n\i
 
 ## Generation of Some Topology
 
-For a subcollection $\mc{B}\subseteq\pow(X)$ to generate *some* topology on $X$, it certainly must not violate any of the axioms of a topology on $X$. Thus, we may consider different levels of generation, as follows.
+For a subcollection $\mc{B}\subseteq\pow(X)$ to generate *some* topology on $X$, it certainly must not violate any of the axioms of a topology on $X$. Thus, we have different levels of generating a topology, obtained by including only some of the axioms, and closing it satisfy the others.
 
 {{< env type="definition" >}}
 
-Let $X$ be a set.
+A collection $\mc{B}\subseteq\pow(X)$ is a **(saturated) basis** for a topology if $X$ and all pairwise intersections of sets in $\mc{B}$ are unions of sets in $\mc{B}$ (resp. in $\mc{B}$).
 
 {{< /env >}}
+
+In other words, $\mc{B}$ is a basis if it covers $X$ and for every $B_1,B_2\in\mc{B}$ with $x\in B_1\cap B_2$, we have $x\in B\subseteq B_1\cap B_2$ for some $B\in\mc{B}$. In either case, we obtain a topology on $X$ as $\mc{T}_\mc{B}\coloneqq\l\\{U\subseteq X\st\fa x\in U,\ex B\in\mc{B},x\in B\subseteq U\r\\}$, in which case $\mc{B}$ is a basis for $\mc{T}\_\mc{B}$.
+
+>{{< env type="proof" hide="true" >}}
+
+Since every saturated basis is a basis, we prove it $\mc{B}$ is just a basis. That $\em\in\mc{T}\_\mc{B}$ is vacuous, and $X\in\mc{T}\_\mc{B}$ since $\mc{B}$ covers $X$. Closure under arbitrary unions is clear. If $U_1,U_2\in\mc{T}\_\mc{B}$ and $x\in U\_1\cap U\_2$, then $x\in B\_i\subseteq U\_i$ for $i=1,2$ for some $B\_1,B\_2\in\mc{B}$, and so $x\in B\subseteq B_1\cap B_2\subseteq U_1\cap U_2$ for some $B\in\mc{B}$.
+
+<br>
+
+&emsp;&emsp;Finally, $\mc{B}$ is a basis for $\mc{T}_\mc{B}$ since every $U\in\mc{T}$ can be written as $U=\bigcup\_{x\in U}B\_x$, where each $B_x\in\mc{B}$ is such that $x\in B_x\subseteq U$.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}
+
+One can be more vigorous by removing all the axioms of a topology and consider *any* subcollection $\mc{S}\subseteq\pow(X)$. This induces a (saturated) basis $\mc{B}_\mc{S}$ consisting of finite intersections of sets in $\mc{S}$, from which we obtain a topology $\mc{T}_{\mc{B}_\mc{S}}$.
 
 # Rigidity of Bases/Subbases
 
