@@ -6,8 +6,15 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jun 2024 20:09:18 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2024 14:22:11 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bases for Topologies</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/bases_for_topologies/</link>
+      <pubDate>Thu, 11 Jul 2024 14:22:11 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/bases_for_topologies/</guid>
+      <description>Motivation &amp;amp; Definition Let $X$ be a set. To specify a topology on $X$, one needs to give a complete description of the open sets. In practice, one only specifies a smaller collection (that nonetheless pins down all open sets). There are two levels of subcollections that generate a topology.&#xA;If $\mc{T}$ is a given topology on $X$, what subcollections $\mc{B}\subseteq\mc{T}$ completely specify $\mc{T}$? What kinds of collections $\mc{B}\subseteq\pow(X)$ can specify some topology $\mc{T}$ on $X$?</description>
+    </item>
     <item>
       <title>Conjugation Action</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/conjugation_action/</link>

@@ -144,6 +144,7 @@ function typePriority(linkEl) {
         "properties",
         "examples",
         "generalizations",
+        "sufficiencies",
         "proved_by",
         "corollaries",
         "justifications",
