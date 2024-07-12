@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Let $X$ be a set. To specify a {{< link file="topological_space" display="topology" type="references" >}} on $X$, one needs to give a complete description of the open sets. In practice, one only specifies a smaller collection (that nonetheless pins down all open sets). Two questions arise:
+Let $X$ be a set. To specify a {{< link file="topological_space" display="topology" type="references" >}} on $X$, one needs to give a complete description of its open sets, but in practice, certain subcollections suffice. Two questions arise:
 1. If $\mc{T}$ is a *given* topology on $X$, what subcollections $\mc{B}\subseteq\mc{T}$ completely specify $\mc{T}$?
 2. What kinds of collections $\mc{B}\subseteq\pow(X)$ can specify *some* topology $\mc{T}$ on $X$?
 
