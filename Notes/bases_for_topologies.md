@@ -1,7 +1,7 @@
 ---
 title: Bases for Topologies
 date: 2024-07-11T14:22:11-04:00
-references: []
+references: [Mun00, Eng89]
 tags: [In_Progress]
 ---
 
@@ -45,8 +45,6 @@ A collection $\mc{S}\subseteq\mc{T}$ is a **subbasis for $\mc{T}$** if every ope
 
 {{< /env >}}
 
-Note that $\mc{B}\_\mc{S}\coloneqq\l\\{\bigcap\_{i=1}^nU\_i\st U\_i\in\mc{S},n\in\N\r\\}$ is a basis for $\mc{T}$.
-
 <div class="space"></div>
 
 ## Generation of Some Topology
@@ -83,6 +81,20 @@ We show that $\mc{B}\_\mc{S}\coloneqq\l\\{\bigcap\_{i<n}U\_i\st U\_i\in\mc{S}\r\
 
 {{< /env >}}
 
-# Rigidity of Bases/Subbases
+# Rigidity of Bases
 
-Many topological properties of $X$ can be detected by bases/subbases thereof.
+Many topological properties of $X$ can be detected by bases thereof.
+
+<div class="space"></div>
+
+## Weight and Character
+
+To begin, there are some topological notions that are defined in terms of the existence of certain types of bases.
+* The *weight* of $X$ is the minimal {{< link file="cardinal" display="cardinality" type="references" >}} of a basis $\mc{B}$ for $X$, denoted $w(X)$.
+* For $x\in X$, the *character of $x$* is the minimal cardinality of a filter base for $\mc{N}_x$, denoted $\chi(x,X)$. The *character* of $X$ is $\chi(X)\coloneqq\sup\_{x\in X}\chi(x,X)$.
+
+If $\chi(X)\leq\aleph_0$, then $X$ is said to be *{{< link file="first_countable_space" display="first-countable" type="constructions" >}}*, in that every point $x\in X$ admits a countable filter base. If $w(X)\leq\aleph_0$, then $X$ is said to be *{{< link file="second_countable_space" display="second-countable" type="constructions" >}}*, in that $X$ admits a countable base.
+
+<div class="space"></div>
+
+## Local Properties
