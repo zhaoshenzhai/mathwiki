@@ -75,6 +75,18 @@ as desired.<span style="float:right;">$\blacksquare$</span>
 
 **Remark.** <span style="color:red">link with representable functors etc</span>
 
+{{< env type="corollary" name="First Isomorphism Theorem" >}}
+
+For any group homomorphism $f:G\to H$, we have $G/\ker f\iso\im f$, mapping $g\ker f\mapsto f(g)$.
+
+{{< /env >}}
+
+{{< env type="proof" hide="false" >}}
+
+We have $\ker f\nsubgrpeq G$, so $f$ induces a homomorphism $f':G/\ker f\onto\im f$, which is injective since if $f'(g_1\ker f)=f'(g_2\ker f)$, then $f(g_1)=f(g_2)$. Thus $g_1g_2^{-1}\in\ker f$, and hence $g_1\ker f=g_2\ker f$ as desired.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}
+
 <div class="space"></div>
 
 ## {{< link file="quotient_category" display="Quotient Category" type="generalizations" >}}

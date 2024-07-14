@@ -7,7 +7,9 @@ tags: [Set_Theory]
 
 # Motivation & Definition
 
-Fix an {{< link file="equivalence_relation" display="equivalence relation" type="references" >}} $E$ on $X$. We would like to construct some set $X/E$ and some function $\pi:X\to X/E$ in which ‘$E$ becomes equality’ through $\pi$. Moreover, this construction needs to be {{< link file="universal_constructions" display="universal" type="references" >}}, in the precise sense that:
+## Universal Property
+
+Fix an {{< link file="equivalence_relation" display="equivalence relation" type="references" >}} $E$ on $X$. We would like to construct a set $X/E$ and a function $\pi:X\to X/E$ in which ‘$E$ becomes equality’ via $\pi$. Moreover, this construction needs to be {{< link file="universal_constructions" display="universal" type="references" >}}, in the precise sense that:
 
 >For any set $Z$ and any function $f:X\to Z$ such that $xEy$ implies $f(x)=f(y)$ for all $x,y\in X$, there is a unique function $f':X/E\to Z$ such that $f=f'\circ\pi$.
 
