@@ -9,7 +9,7 @@ titleSize: 20
 
 # Non-triviality of $Z(G)$
 
-A standard method to study a {{< link file="finite_group" display="finite group" type="references" >}} is to first find its center; if non-trivial, we can set up an induction proof my successively {{< link file="quotient_group" display="quotienting" type="references" >}} by $Z(G)$.
+A standard method to study a {{< link file="finite_group" display="finite group" type="references" >}} is to first find its {{< link file="conjugation_action" display="center" type="references" >}}; if non-trivial, we can set up an induction proof by successively {{< link file="quotient_group" display="quotienting" type="references" >}} by $Z(G)$.
 
 <br>
 

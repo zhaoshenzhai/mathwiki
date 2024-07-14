@@ -25,7 +25,7 @@ Recall that $\gen{x}$ is the image of the canonical map $\phi_x:\Z\to G$ induced
 
 <br>
 
-&emsp;&emsp;If $\ker\phi_x=n\Z$ for some $n>0$, then {{< link file="quotient_group" type="proved_by" mod="dag" section="Universal Property" >}} $\im\phi_x\iso\Z/n\Z$ has cardinality $n$. Since $\Z$ has no other non-trivial subgroups {{< link file="integers" type="proved_by" mod="dag" section="Subgroups of $\Z$" >}}, we have otherwise that $\im\phi_x=\Z$, so $\ord x=\infty$.<span style="float:right;">$\blacklozenge$</span>
+&emsp;&emsp;If $\ker\phi_x=n\Z$ for some $n>0$, then {{< link file="quotient_group" type="proved_by" mod="dag" section="Universal Property" >}} $\im\phi_x\iso\Z/n\Z$ has cardinality $n$. Since $\Z$ has no other non-trivial subgroups {{< link file="integers" type="proved_by" mod="dag" section="Subgroups of $\Z$" >}}, we have otherwise that $\im\phi_x=\Z$, so $\ord x=\infty$.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 

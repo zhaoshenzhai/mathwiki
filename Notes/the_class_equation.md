@@ -37,16 +37,10 @@ We can sometimes use this to show that $Z\neq\em$, giving us a *fixed-point theo
 
 <div class="space"></div>
 
-## Conjugation Action
+## {{< link file="conjugation_action" display="Conjugation Action" type="examples" >}}
 
-Let $G$ be a {{< link file="finite_group" display="finite group" type="references" >}}, acting on itself by {{< link file="conjugation_action" display="conjugation" type="examples" >}} via $\phi$. With $Z=Z(G)\coloneqq\ker\phi$ the *center* of $G$ and with $Z_G(a)$ the stabilizer of $a$, we have the classical Class Equation.
-
-{{< env type="corollary" >}}
-
-Let $G$ be a finite group acting on itself by conjugation. Then
+Let $G$ be a {{< link file="finite_group" display="finite group" type="references" >}}, acting on itself by conjugation via $\phi$. With $Z=Z(G)\coloneqq\ker\phi$ the *center* of $G$ and with $Z_G(a)$ the stabilizer of $a$, we have the classical Class Equation, stating that
 $$\begin{equation}
     \l|G\r|=\l|Z(G)\r|+\sum_{a\in A}[G:Z_G(a)],
 \end{equation}$$
 where $A\subseteq G$ contain exactly the elements with non-trivial conjugacy class.
-
-{{< /env >}}
