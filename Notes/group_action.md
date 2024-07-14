@@ -2,7 +2,7 @@
 title: Group Action
 date: 2024-05-22T20:02:09-04:00
 references: [Alu09, Mac10]
-tags: [Group_Theory]
+tags: [Group_Theory, In_Progress]
 ---
 
 # Motivation & Definition

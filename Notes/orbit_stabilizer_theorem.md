@@ -7,7 +7,7 @@ tags: [Group_Theory, In_Progress]
 
 # Statement & Proof
 
-Let $G$ be a {{< link file="group" display="group" type="references" >}} {{< link file="group_action" display="acting" type="references" >}} on a non-empty set $X$. The orbits $\Orb_G(x_0)$ for any $x_0\in X$ have a very simple structure.
+Let $G$ be a {{< link file="group" display="group" type="references" >}} {{< link file="group_action" display="acting" type="references" >}} on a non-empty set $X$. Then $G$ acts on each orbit $\Orb_G(x_0)$ by left-multiplication. More precisely, we have the following
 
 {{< env type="theorem" name="Orbit-Stabilizer" >}}
 
@@ -32,7 +32,7 @@ In particular, if $G\act X$ is *transitive*, so that $\Orb_G(x_0)=X$ for any $x_
 
 # Corollaries
 
-## Finite Group Theory
+## {{< link file="finite_group" display="Finite Group" type="references" >}} Theory
 
 When $G$ is a finite group, we have the equality
 $$\begin{equation}
