@@ -33,10 +33,6 @@ where the last equality follows from {{< link file="orbit_stabilizer_theorem" di
 
 <div class="space"></div>
 
-We can sometimes use this to show that $Z\neq\em$, giving us a *fixed-point theorem*. See, for instance, how it applies to {{< link file="p_group" display="$p$-groups" type="examples" >}}.
-
-<div class="space"></div>
-
 ## {{< link file="conjugation_action" display="Conjugation Action" type="examples" >}}
 
 Let $G$ be a {{< link file="finite_group" display="finite group" type="references" >}}, acting on itself by conjugation via $\phi$. With $Z=Z(G)\coloneqq\ker\phi$ the *center* of $G$ and with $Z_G(a)$ the stabilizer of $a$, we have the classical Class Equation, stating that
@@ -44,3 +40,7 @@ $$\begin{equation}
     \l|G\r|=\l|Z(G)\r|+\sum_{a\in A}[G:Z_G(a)],
 \end{equation}$$
 where $A\subseteq G$ contain exactly the elements with non-trivial conjugacy class.
+
+<br>
+
+&emsp;&emsp;This can sometimes be used to show that $Z(G)$ is non-trivial, giving us a *fixed-point theorem*. See, for instance, how it applies {{< link file="fixed_point_theorems_of_p_groups" type="examples" mod="dag" >}} to {{< link file="p_group" display="$p$-groups" type="references" >}}.

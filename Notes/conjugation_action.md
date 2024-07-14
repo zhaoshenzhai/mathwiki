@@ -1,8 +1,8 @@
 ---
 title: Conjugation Action
 date: 2024-06-21T20:09:18-04:00
-references: []
-tags: [In_Progress]
+references: [Alu09]
+tags: [Group_Theory]
 ---
 
 # Motivation & Definition
@@ -16,6 +16,16 @@ $$\begin{equation}
 * The *centralizer* of $x\in G$ is the stabilizer $Z_G(x)\coloneqq\Stab_G(x)=\l\\{g\in G\st gx=xg\r\\}$. Note that $Z(G)=\bigcap_{x\in G}Z_G(x)$, and that $x\in Z(G)$ iff $Z_G(x)=G$.
 
 ## {{< link file="the_class_equation" display="The Class Equation" type="properties" >}}
+
+Since the center $Z(G)$ is the set of fixed-points of the action, we may use the Class Equation to ‘glean’ the size of $Z(G)$ if one knows some structure of its non-trivial classes: indeed, we have
+$$\begin{equation}
+    |G|=|Z(G)|+\sum_{a\in A}[G:Z_G(a)],
+\end{equation}$$
+where $A\subseteq G$ contain exactly the elements with non-trivial classes.
+
+<br>
+
+&emsp;&emsp;A classical application is that $Z(G)$ is non-trivial {{< link file="fixed_point_theorems_of_p_groups" type="examples" mod="dag" >}} when $G$ is a {{< link file="finite_group" display="finite" type="references" >}} {{< link file="p_group" display="$p$-group" type="references" >}}.
 
 # Action on {{< link file="subgroup" display="Subgroups" type="references" >}}
 

@@ -1,8 +1,8 @@
 ---
 title: Fixed-point Theorems for p-groups
 date: 2024-06-21T18:02:41-04:00
-references: []
-tags: [In_Progress]
+references: [Alu09]
+tags: [Group_Theory, In_Progress]
 mathLink: Fixed-point Theorems for $p\ $-groups
 titleSize: 20
 ---
