@@ -6,8 +6,15 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jul 2024 14:22:11 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jul 2024 19:39:27 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cauchy’s Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/cauchys_theorem/</link>
+      <pubDate>Sun, 14 Jul 2024 19:39:27 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/cauchys_theorem/</guid>
+      <description>Motivation &amp;amp; Statement Let $G$ be a finite group. By Lagrange’s Theorem, every subgroup $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there may not be a subgroup $H\substructeq G$ with order $d$.&#xA;Cauchy’s Theorem can be regarded as a partial converse, stating that if $p$ is a prime divisor of $|G|$, then there is a ( cyclic) subgroup $H\substructeq G$ of order $p$.</description>
+    </item>
     <item>
       <title>Bases for Topologies</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/bases_for_topologies/</link>
@@ -20,14 +27,14 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/conjugation_action/</link>
       <pubDate>Fri, 21 Jun 2024 20:09:18 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/conjugation_action/</guid>
-      <description></description>
+      <description>Motivation &amp;amp; Definition One fundamental way that a group can act on itself is via conjugation, defined by $\phi_g(x)\coloneqq gxg^{-1}$ for all $g\in G$. This action provides several important constructions.&#xA;The conjugacy classes of $G$ are the orbits of $\phi$, and two elements $x,y\in G$ are conjugate if they are in the same class, in that $y=gxg^{-1}$ for some $g\in G$. The center $Z(G)\nsubgrpeq G$ is the fixed points of $\phi$; i.</description>
     </item>
     <item>
       <title>Fixed-point Theorems for p-groups</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/fixed_point_theorems_of_p_groups/</link>
       <pubDate>Fri, 21 Jun 2024 18:02:41 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/fixed_point_theorems_of_p_groups/</guid>
-      <description>Non-triviality of $Z(G)$ A standard method to study a finite group is to first find its center; if non-trivial, we can set up an induction proof my successively quotienting by $Z(G)$.&#xA;This is indeed the case for finite $p$-groups, which we now show. Throughout, let $G$ be a non-trivial finite $p$-group.&#xA;Lemma. If $G$&#xA;acts on a finite set $S$, then $\l|Z\r|\equiv\l|S\r|\,\mod\,p$ where $Z$ is the set of fixed-points of this action.</description>
+      <description>Non-triviality of $Z(G)$ A standard method to study a finite group is to first find its center; if non-trivial, we can set up an induction proof for certain existence theorems by quotienting by $Z(G)$.&#xA;This is indeed the case for finite $p$-groups, which we now show. Throughout, let $G$ be a non-trivial finite $p$-group.&#xA;Lemma. If $G$&#xA;acts on a finite set $S$, then $\l|Z\r|\equiv\l|S\r|\,\mod\,p$ where $Z$ is the set of fixed-points of this action.</description>
     </item>
     <item>
       <title>p-group</title>
@@ -55,7 +62,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</link>
       <pubDate>Thu, 20 Jun 2024 19:25:15 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</guid>
-      <description>Motivation &amp;amp; Statement Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’. Such a theorem for groups is as follows.&#xA;Theorem (Cayley). Every group $G$ is a subgroup of a symmetry group. Proof. Click to expand... We show that the left-multiplication action $\phi:G\to\Aut G$ is faithful, for then $G\substructeq\Aut G$. Indeed, if $\phi(g_1)=\phi(g_2)$, then we have $\phi(g_1)g=\phi(g_2)g$ for all $g\in G$. That is, we have $g_1g=g_2g$, so $g_1=g_2$ as desired.</description>
+      <description>Motivation &amp;amp; Statement Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’. Such a theorem for groups is as follows.&#xA;Theorem (Cayley). Every group $G$ is a&#xA;subgroup of a symmetry group.&#xA;Proof. Click to expand... We show that the left-multiplication&#xA;action $\phi:G\to\Aut G$ is faithful, for then $G\substructeq\Aut G$. Indeed, if $\phi(g_1)=\phi(g_2)$, then we have $\phi(g_1)g=\phi(g_2)g$ for all $g\in G$. That is, we have $g_1g=g_2g$, so $g_1=g_2$ as desired.</description>
     </item>
     <item>
       <title>Convergence</title>
@@ -139,7 +146,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</link>
       <pubDate>Mon, 03 Jun 2024 17:04:49 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</guid>
-      <description>Statement &amp;amp; Proof Let $G$ be a group acting on a non-empty set $X$. The orbits $\Orb_G(x_0)$ for any $x_0\in X$ have a very simple structure.&#xA;Theorem (Orbit-Stabilizer). Let $G$ be a group and let $(X,x_0)$ be a pointed $G$-set. Equipping $G/\Stab_G(x_0)$ with the natural left-multiplication $G$-action, we have a $G$-equivariant bijection $\Orb_G(x_0)\iso G/\Stab_G(x_0)$. Proof. Click to expand... Let $H\coloneqq\Stab_G(x_0)$ and consider the map $f:G\to\Orb_G(x_0):g\mapsto gx_0$. Since $$\begin{equation} f(g_1)=f(g_2)\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_2^{-1}g_1x_0=x_0\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1H=g_2H, \end{equation}$$ we see that $f$ descends</description>
+      <description>Statement &amp;amp; Proof Let $G$ be a group acting on a non-empty set $X$. Then $G$ acts on each orbit $\Orb_G(x_0)$ by left-multiplication. More precisely, we have the following&#xA;Theorem (Orbit-Stabilizer). Let $G$ be a group and let $(X,x_0)$ be a pointed $G$-set. Equipping $G/\Stab_G(x_0)$ with the natural left-multiplication $G$-action, we have a $G$-equivariant bijection $\Orb_G(x_0)\iso G/\Stab_G(x_0)$. Proof. Click to expand... Let $H\coloneqq\Stab_G(x_0)$ and consider the map $f:G\to\Orb_G(x_0):g\mapsto gx_0$. Since $$\begin{equation} f(g_1)=f(g_2)\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_2^{-1}g_1x_0=x_0\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1H=g_2H, \end{equation}$$ we see that $f$ descends</description>
     </item>
     <item>
       <title>Finite Group</title>
@@ -237,7 +244,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/group_action/</link>
       <pubDate>Wed, 22 May 2024 20:02:09 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/group_action/</guid>
-      <description>Motivation &amp;amp; Definition Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in concrete objects, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a&#xA;category $C$. A $G$-action is a&#xA;functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.&#xA;Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$.</description>
+      <description>Motivation &amp;amp; Definition Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in ‘concrete objects’, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a&#xA;category $C$. A $G$-action is a&#xA;functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.&#xA;Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$.</description>
     </item>
     <item>
       <title>Abelian Group</title>

@@ -6,8 +6,22 @@
     <description>Recent content in Group_Theory on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jun 2024 16:59:45 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2024 20:09:18 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/group_theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conjugation Action</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/conjugation_action/</link>
+      <pubDate>Fri, 21 Jun 2024 20:09:18 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/conjugation_action/</guid>
+      <description>Motivation &amp;amp; Definition One fundamental way that a group can act on itself is via conjugation, defined by $\phi_g(x)\coloneqq gxg^{-1}$ for all $g\in G$. This action provides several important constructions.&#xA;The conjugacy classes of $G$ are the orbits of $\phi$, and two elements $x,y\in G$ are conjugate if they are in the same class, in that $y=gxg^{-1}$ for some $g\in G$. The center $Z(G)\nsubgrpeq G$ is the fixed points of $\phi$; i.</description>
+    </item>
+    <item>
+      <title>Fixed-point Theorems for p-groups</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/fixed_point_theorems_of_p_groups/</link>
+      <pubDate>Fri, 21 Jun 2024 18:02:41 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/fixed_point_theorems_of_p_groups/</guid>
+      <description>Non-triviality of $Z(G)$ A standard method to study a finite group is to first find its center; if non-trivial, we can set up an induction proof for certain existence theorems by quotienting by $Z(G)$.&#xA;This is indeed the case for finite $p$-groups, which we now show. Throughout, let $G$ be a non-trivial finite $p$-group.&#xA;Lemma. If $G$&#xA;acts on a finite set $S$, then $\l|Z\r|\equiv\l|S\r|\,\mod\,p$ where $Z$ is the set of fixed-points of this action.</description>
+    </item>
     <item>
       <title>p-group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/p_group/</link>
@@ -55,14 +69,14 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</link>
       <pubDate>Mon, 03 Jun 2024 17:04:49 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</guid>
-      <description>Statement &amp;amp; Proof Let $G$ be a group acting on a non-empty set $X$. The orbits $\Orb_G(x_0)$ for any $x_0\in X$ have a very simple structure.&#xA;Theorem (Orbit-Stabilizer). Let $G$ be a group and let $(X,x_0)$ be a pointed $G$-set. Equipping $G/\Stab_G(x_0)$ with the natural left-multiplication $G$-action, we have a $G$-equivariant bijection $\Orb_G(x_0)\iso G/\Stab_G(x_0)$. Proof. Click to expand... Let $H\coloneqq\Stab_G(x_0)$ and consider the map $f:G\to\Orb_G(x_0):g\mapsto gx_0$. Since $$\begin{equation} f(g_1)=f(g_2)\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_2^{-1}g_1x_0=x_0\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1H=g_2H, \end{equation}$$ we see that $f$ descends</description>
+      <description>Statement &amp;amp; Proof Let $G$ be a group acting on a non-empty set $X$. Then $G$ acts on each orbit $\Orb_G(x_0)$ by left-multiplication. More precisely, we have the following&#xA;Theorem (Orbit-Stabilizer). Let $G$ be a group and let $(X,x_0)$ be a pointed $G$-set. Equipping $G/\Stab_G(x_0)$ with the natural left-multiplication $G$-action, we have a $G$-equivariant bijection $\Orb_G(x_0)\iso G/\Stab_G(x_0)$. Proof. Click to expand... Let $H\coloneqq\Stab_G(x_0)$ and consider the map $f:G\to\Orb_G(x_0):g\mapsto gx_0$. Since $$\begin{equation} f(g_1)=f(g_2)\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_2^{-1}g_1x_0=x_0\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1H=g_2H, \end{equation}$$ we see that $f$ descends</description>
     </item>
     <item>
       <title>Group Action</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/group_action/</link>
       <pubDate>Wed, 22 May 2024 20:02:09 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/group_action/</guid>
-      <description>Motivation &amp;amp; Definition Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in concrete objects, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a&#xA;category $C$. A $G$-action is a&#xA;functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.&#xA;Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$.</description>
+      <description>Motivation &amp;amp; Definition Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in ‘concrete objects’, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a&#xA;category $C$. A $G$-action is a&#xA;functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.&#xA;Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$.</description>
     </item>
     <item>
       <title>Abelian Group</title>

@@ -2,26 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/bases_for_topologies/</loc>
-    <lastmod>2024-07-11T14:22:11-04:00</lastmod>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/cauchys_theorem/</loc>
+    <lastmod>2024-07-14T19:39:27-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
-    <lastmod>2024-07-11T14:22:11-04:00</lastmod>
+    <lastmod>2024-07-14T19:39:27-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
-    <lastmod>2024-07-11T14:22:11-04:00</lastmod>
+    <lastmod>2024-07-14T19:39:27-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
+    <lastmod>2024-07-14T19:39:27-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/bases_for_topologies/</loc>
     <lastmod>2024-07-11T14:22:11-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/conjugation_action/</loc>
     <lastmod>2024-06-21T20:09:18-04:00</lastmod>
   </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/group_theory/</loc>
+    <lastmod>2024-06-21T20:09:18-04:00</lastmod>
+  </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/fixed_point_theorems_of_p_groups/</loc>
     <lastmod>2024-06-21T18:02:41-04:00</lastmod>
-  </url><url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/group_theory/</loc>
-    <lastmod>2024-06-21T16:59:45-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/p_group/</loc>
     <lastmod>2024-06-21T16:59:45-04:00</lastmod>
