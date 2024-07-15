@@ -1,0 +1,61 @@
+---
+title: Subgroup Products
+date: 2024-07-15T16:15:16-04:00
+references: [DF03]
+tags: [Group_Theory, In_Progress]
+---
+
+Let $G$ be a {{< link file="group" display="group" type="references" >}} and consider {{< link file="subgroup" display="subgroups" type="references" >}} $H,K\substructeq G$, whose *subgroup product* is
+$$\begin{equation}
+    HK\coloneqq\l\\{hk\in G\st h\in H,k\in K\r\\}.
+\end{equation}$$
+In general, this need *not* be a subgroup of $G$. Here, we give sufficient criteria in which this is the case. We also examine when $HK\nsubgrpeq G$ is a {{< link file="normal_subgroup" display="normal subgroup" type="references" >}}.
+
+<br>
+
+&emsp;&emsp;Finally, we discuss how $HK$ relates to the {{< link file="product_of_groups" display="direct product" type="references" >}} $H\times K$ and the {{< link file="semi-direct_product" display="semi-direct product" type="references" >}} $H\semi K$.
+
+# Criteria for $HK\substructeq G$
+
+We give a full characterization for when this is the case.
+
+{{< env type="proposition" >}}
+
+For subgroups $H,K\substructeq G$, we have $HK\substructeq G$ iff $HK=KH$.
+
+{{< /env >}}
+
+{{< env type="proof" hide="true" >}}
+
+Suppose that $HK\substructeq G$. Since $H,K\substructeq HK$, we see that $KH\subseteq HK$ by closure: indeed, if $kh\in KH$, then $k,h\in HK$ and hence $kh\in HK$. Now take $hk\in HK$ and write $h'k'\coloneqq(hk)^{-1}\in HK$. Then
+$$\begin{equation}
+    hk=(h'k')^{-1}=k'^{-1}h'^{-1}\in KH,
+\end{equation}$$
+as desired. Conversely, suppose that $HK=KH$. Clearly $e=ee\in HK$. If $h_ik_i\in HK$ for $i=1,2$, then
+$$\begin{equation}
+    (h_1k_1)(h_2k_2)=h_1(k_1h_2)k_2=h_1(h'k')k_2=(h_1h')(k'k_2)\in HK
+\end{equation}$$
+for some $h'\in H$ and $k'\in K$. A similar trick works for inverses, so $HK\substructeq G$.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}
+
+<div class="space"></div>
+
+In particular, this holds when $G$ is {{< link file="abelian_group" display="abelian" type="references" >}}, or more generally, if either $H\substructeq N_G(K)$ or $K\substructeq N_G(H)$. The latter occurs, in particular, when either $H\nsubgrpeq G$ or $K\nsubgrpeq G$.
+
+<div class="space"></div>
+
+## Normality of $HK$
+
+Not much in addition is required for $HK\nsubgrpeq G$. Indeed, we only need that *both* $H\nsubgrpeq G$ and $K\nsubgrpeq G$ (as opposed to either/or).
+
+>{{< env type="proof" hide="true" >}}
+
+We have $HK\substructeq G$. Take $hk\in HK$ and $g\in G$, and observe that
+$$\begin{equation}
+    g(hk)g^{-1}=(ghg^{-1})(gkg^{-1})\in HK.\qedin
+\end{equation}$$
+
+{{< /env >}}
+
+# Relation between $HK$, $H\semi K$, and $H\times K$

@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/cauchys_theorem/</loc>
-    <lastmod>2024-07-14T19:39:27-04:00</lastmod>
-  </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
-    <lastmod>2024-07-14T19:39:27-04:00</lastmod>
+    <lastmod>2024-07-15T16:15:16-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
-    <lastmod>2024-07-14T19:39:27-04:00</lastmod>
+    <lastmod>2024-07-15T16:15:16-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/subgroup_products/</loc>
+    <lastmod>2024-07-15T16:15:16-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
+    <lastmod>2024-07-15T16:15:16-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/cauchys_theorem/</loc>
     <lastmod>2024-07-14T19:39:27-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/bases_for_topologies/</loc>

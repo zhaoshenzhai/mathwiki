@@ -6,14 +6,21 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jul 2024 19:39:27 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 16:15:16 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Subgroup Products</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/subgroup_products/</link>
+      <pubDate>Mon, 15 Jul 2024 16:15:16 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/subgroup_products/</guid>
+      <description>Let $G$ be a group and consider subgroups $H,K\substructeq G$, whose subgroup product is $$\begin{equation} HK\coloneqq\l\{hk\in G\st h\in H,k\in K\r\}. \end{equation}$$ In general, this need not be a subgroup of $G$. Here, we give sufficient criteria in which this is the case. We also examine when $HK\nsubgrpeq G$ is a normal subgroup.&#xA;Finally, we discuss how $HK$ is related to the direct product $H\times K$.&#xA;Criteria for when $HK$ is a Subgroup </description>
+    </item>
     <item>
       <title>Cauchy’s Theorem</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/cauchys_theorem/</link>
       <pubDate>Sun, 14 Jul 2024 19:39:27 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/cauchys_theorem/</guid>
-      <description>Motivation &amp;amp; Statement Let $G$ be a finite group. By Lagrange’s Theorem, every subgroup $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there may not be a subgroup $H\substructeq G$ with order $d$.&#xA;Cauchy’s Theorem can be regarded as a partial converse, stating that if $p$ is a prime divisor of $|G|$, then there is a ( cyclic) subgroup $H\substructeq G$ of order $p$.</description>
+      <description>Motivation &amp;amp; Statement Let $G$ be a finite group. By Lagrange’s Theorem, every subgroup $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there may not be a subgroup $H\substructeq G$ with order $d$.&#xA;Cauchy’s Theorem can be regarded as a partial converse thereof, stating that if $p$ is a prime divisor of $|G|$, then there is a ( cyclic) subgroup $H\substructeq G$ of order $p$.</description>
     </item>
     <item>
       <title>Bases for Topologies</title>
@@ -195,7 +202,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/group_action/</link>
       <pubDate>Wed, 22 May 2024 20:02:09 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/group_action/</guid>
-      <description>Motivation &amp;amp; Definition Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in ‘concrete objects’, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a&#xA;category $C$. A $G$-action is a&#xA;functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.&#xA;Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$.</description>
+      <description>Motivation &amp;amp; Definition Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in ‘concrete objects’, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a&#xA;category $C$. A $G$-action is a&#xA;functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.&#xA;Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$, and write $\phi_g(x)\coloneqq\phi(g)(x)$.</description>
     </item>
   </channel>
 </rss>

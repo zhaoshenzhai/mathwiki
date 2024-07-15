@@ -52,3 +52,11 @@ Let $H\substructeq G$ and consider the equivalence relation $\sim$ of $G$ define
 &emsp;&emsp;It turns out, fortunately, that $\sim$ is a congruence precisely {{< link file="normal_subgroup" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Congruence" >}} if $H$ satisfies an extra group-theoretic condition $-$ namely, that $H$ is invariant under the {{< link file="conjugation_action" display="conjugation" type="references" >}} {{< link file="group_action" display="action" type="references" >}} of $G$, i.e. $gH=Hg$ for all $g\in G$. In this case, we say that $H$ is *normal* in $G$.
 
 # Lattice of Subgroups
+
+## {{< link file="subgroup_products" display="Product of Subgroups" type="justifications" >}}
+
+For subgroups $H,K\substructeq G$, their *subgroup product* is the subset $HK\coloneqq\l\\{hk\in G\st h\in H,k\in K\r\\}$ of $G$, which need not be a subgroup.
+
+<br>
+
+&emsp;&emsp;There are several sufficient criteria for when $HK\substructeq G$; the most basic of which is that $HK\substructeq G$ iff $HK=KH$. In particular, this holds when $G$ is {{< link file="abelian_group" display="abelian" type="references" >}}.
