@@ -15,11 +15,18 @@ Let $G$ be a group and fix a {{< link file="category" display="category" type="r
 
 {{< /env >}}
 
-Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$. The object $X$ is the ‘concrete object’, and $\phi$ encodes how $G$ manifests itself as $\Aut X$ $-$ the symmetries of $X$. Note, however, that $\phi$ need not be injective.
+Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$, and write $\phi_g(x)\coloneqq\phi(g)(x)$. The object $X$ is the ‘concrete object’, and $\phi$ encodes how $G$ manifests itself as $\Aut X$, the symmetries of $X$. Note, however, that $\phi$ need not be injective; we say that the action is *faithful* if it is, so that $G\into\Aut X$.
 
-<br>
+<div class="space"></div>
 
-&emsp;&emsp;We write $\phi_g(x)\coloneqq\phi(g)(x)$, so that $\phi_g\in\Aut X$.
+## Basic Notions
+
+For $C$ a concrete category (e.g. $\catset,\catvect[k],\cattop,\dots$), there are some important constructions. Fix an action $\phi:G\act X$.
+* For a fixed $x\in X$, the *orbit* of $x$ is $Gx\coloneqq\l\\{gx\in X\st g\in G\r\\}$, and the *stabilizer* of $x$ is $G_x\coloneqq\l\\{g\in G\st gx=x\r\\}$. We let $Z\coloneqq\ker\phi=\bigcap_{x\in X}G_x$ be the fixed points of $\phi$.
+* For a fixed $g\in G$, the *$g$-translate* of $X$ is $gX\coloneqq\l\\{gx\st x\in X\r\\}$, and the *fixed points* of $g$ is $X^g\coloneqq\l\\{x\in X\st gx=x\r\\}$.
+* We say that $\phi$ is *transitive* if for every $x,y\in X$, there is some $g\in G$ such that $gx=y$. Clearly, $X\iso\bigsqcup\_iGx_i$ is a coproduct, and $G\act Gx_i$ transitively.
+
+Note that $\phi$ is faithful iff $Z$ is trivial. A much stronger criteria is when $G_x$ is trivial for *all* $x\in X$, in which case we say that $\phi$ is *free*.
 
 <div class="space"></div>
 
@@ -31,14 +38,9 @@ Since group actions are functors, it makes sense to consider {{< link file="natu
 
 # Actions on $\catset$
 
-Taking $C\coloneqq\catset$ recovers the usual notion of a group acting on a set, in which case $\Aut X$ are just the permutations of $X$; an action $\phi:G\act X$ is equivalently given by a function $\rho:G\times X\to X$, mapping $\rho(g,x)\coloneqq\phi_g(x)$. Some important examples include:
-* The *left-multiplication* action of $G$ on $X\coloneqq G$, given by $\phi_g(x)\coloneqq gx$.
-* The *{{< link file="conjugation_action" display="conjugation" type="examples" >}}* action of $G$ on $X\coloneqq G$, given by $\phi_g(x)\coloneqq gxg^{-1}$.
-
-Several important constructions and types of actions are as follows.
-* For a fixed $x\in X$, the *orbit* of $x$ is $Gx\coloneqq\l\\{gx\in X\st g\in G\r\\}$ and the *stabilizer* of $x$ is $G_x\coloneqq\l\\{g\in G\st gx=x\r\\}$. They are related by the {{< link file="orbit_stabilizer_theorem" display="Orbit Stabilizer Theorem" type="properties" >}} and, usually when $G$ is finite, the {{< link file="the_class_equation" display="Class Equation" type="properties" >}}. Clearly, $\ker\phi=\bigcap_xG_x$.
-* We say that the action is *transitive* if for all $x,y\in X$, there is some $g\in G$ such that $gx=y$. Note that $X\iso\bigsqcup\_iGx_i$, and since $G$ always acts transitively on its orbits, every group action decomposes into its transitive components (i.e. orbits).
-* We say that the action is *faithful* if $\phi$ is injective, so that $G\into\Aut X$, and *free* if $gx=x$ for some $x\in X$ implies $g=e$. {{< link file="cayleys_theorem" display="Cayley’s Theorem" type="properties" >}} is the statement that the left-multiplication action is faithful.
+Taking $C\coloneqq\catset$ recovers the usual notion of a group acting on a set, in which case $\Aut X$ are just the permutations of $X$. Some important examples include:
+* The *left-multiplication* action of $G$ on $X\coloneqq G$, given by $\phi_g(x)\coloneqq gx$. That this action is faithful is {{< link file="cayleys_theorem" display="Cayley’s Theorem" type="properties" >}}. Moreover, it turns out {{< link file="orbit_stabilizer_theorem" type="properties" mod="dag" >}} that every action is the coproduct of certain left-multiplication actions of $G$.
+* The *{{< link file="conjugation_action" display="conjugation" type="examples" >}}* action of $G$ on $X\coloneqq G$, given by $\phi_g(x)\coloneqq gxg^{-1}$. The *center* of $G$ is the fixed points $Z(G)$, whose combinatorics is governed by the {{< link file="the_class_equation" display="Class Equation" type="properties" >}}.
 
 # Generalizations
 
