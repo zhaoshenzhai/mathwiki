@@ -24,7 +24,7 @@ Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we
 For $C$ a concrete category (e.g. $\catset,\catvect[k],\cattop,\dots$), there are some important constructions. Fix an action $\phi:G\act X$.
 * For a fixed $x\in X$, the *orbit* of $x$ is $Gx\coloneqq\l\\{gx\in X\st g\in G\r\\}$, and the *stabilizer* of $x$ is $G_x\coloneqq\l\\{g\in G\st gx=x\r\\}$. We let $Z\coloneqq\ker\phi=\bigcap_{x\in X}G_x$ be the fixed points of $\phi$.
 * For a fixed $g\in G$, the *$g$-translate* of $X$ is $gX\coloneqq\l\\{gx\st x\in X\r\\}$, and the *fixed points* of $g$ is $X^g\coloneqq\l\\{x\in X\st gx=x\r\\}$.
-* We say that $\phi$ is *transitive* if for every $x,y\in X$, there is some $g\in G$ such that $gx=y$. Clearly, $X\iso\bigsqcup\_iGx_i$ is a coproduct, and $G\act Gx_i$ transitively.
+* We say that $\phi$ is *transitive* if for every $x,y\in X$, there is some $g\in G$ such that $gx=y$. Clearly we have $X\iso\bigsqcup\_iGx_i$, and each $G\act Gx_i$ acts transitively.
 
 Note that $\phi$ is faithful iff $Z$ is trivial. A much stronger criteria is when $G_x$ is trivial for *all* $x\in X$, in which case we say that $\phi$ is *free*.
 
