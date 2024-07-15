@@ -13,7 +13,15 @@ In general, this need *not* be a subgroup of $G$. Here, we give sufficient crite
 
 <br>
 
-&emsp;&emsp;Finally, we discuss how $HK$ relates to the {{< link file="product_of_groups" display="direct product" type="references" >}} $H\times K$ and the {{< link file="semi-direct_product" display="semi-direct product" type="references" >}} $H\semi K$.
+&emsp;&emsp;Note, however, that even if $HK\not\substructeq G$, we have $|HK|=|H||K|/|H\cap K|$ if both $H$ and $K$ are finite.
+
+>{{< env type="proof" hide="true" >}}
+
+Note that $HK=\bigcup_{h\in H}hK$, where any two $h_1K,h_2K$ either coincide or are disjoint. But $h_1K=h_2K$ iff $h_2^{-1}h_1\in H\cap K$, iff $h_1(H\cap K)=h_2(H\cap K)$, and so the number of distinct cosets $hK$ coincides with that of $h(H\cap K)$. By {{< link file="lagranges_theorem" display="Lagrange’s Theorem" type="references" >}}, there are $[H:H\cap K]=|H|/|H\cap K|$ distinct cosets $hK$, each of which has cardinality $|hK|=|K|$.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}
+
+Finally, we relate $HK$ to the {{< link file="product_of_groups" display="product" type="references" >}} $H\times K$ and the {{< link file="semi-direct_product" display="semi-direct product" type="references" >}} $H\semi K$.
 
 # Criteria for $HK\substructeq G$
 
