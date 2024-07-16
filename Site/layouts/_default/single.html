@@ -16,9 +16,9 @@
         <img id="toggleDarkIcon" src="{{ absURL "" }}css/fa/sun.svg">
     </button>
     <div id="content" class="left noScroll">
-        {{ if .Params.mathLink }}
+        {{ if .Params.renderedTitle }}
             <h1 id="title" titleSize="{{ .Params.titleSize }}">
-                {{ .Params.mathLink }}
+                {{ .Params.renderedTitle }}
             </h1>
         {{ else }}
             <h1 id="title" titleSize="{{ .Params.titleSize }}">

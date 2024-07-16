@@ -4,6 +4,7 @@ date: 2024-06-21T16:59:45-04:00
 references: [Alu09]
 tags: [Group_Theory, In_Progress]
 mathLink: $p$-group
+renderedTitle: $p\ $-group
 ---
 
 By {{< link file="lagranges_theorem" display="Lagrange’s Theorem" type="justifications" >}}, if a {{< link file="finite_group" display="finite group" type="references" >}} $G$ has {{< link file="prime_number" display="prime" type="references" >}} order $p$, then $G\iso\\,$ {{< link file="cyclic_group" display="$\Z/p\Z$" type="references" mod="space" >}} and has no non-trivial {{< link file="subgroup" display="subgroups" type="references" >}}. It is natural to ask for a generalization when $\l|G\r|$ is a *power* of $p$, or more generally, when the {{< link file="order" display="order" type="references" >}} of every $g\in G$ is a power of $p$.

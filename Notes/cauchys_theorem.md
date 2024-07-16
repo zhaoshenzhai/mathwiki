@@ -51,7 +51,7 @@ where $A\subseteq G$ contain exactly the elements with non-trivial conjugacy cla
 
 ## Cyclic {{< link file="group_action" display="Actions" type="references" >}}
 
-We present a direct proof of Cauchy’s Theorem, as follows.
+We present a more direct proof of Cauchy’s Theorem using the technology of group actions.
 
 <div class="space"></div>
 
@@ -61,6 +61,6 @@ Let $S\subseteq G^p$ be the subset of tuples $(x_1,\dots,x_p)$ such that $x_1\cd
 
 <br>
 
-&emsp;&emsp;The important observation is that $\Z/p\Z$ is a $p$-group, so {{< link file="fixed_point_theorems_of_p_groups" type="proved_by" mod="dag" >}} $|Z|=|S|\\,\mod\\,p$ where $Z$ is the fixed-points of $\phi$. Thus $p\geq2$ divides $|Z|$ too, and since $(e,\dots,e)\in Z$, we have $|Z|>1$. But elements in $Z$ are $(x,\dots,x)\in S$ for $x\in G$, so there is some $x\in G$ with $x^p=e$, as desired.<span style="float:right;">$\blacksquare$</span>
+&emsp;&emsp;The important observation is that $\Z/p\Z$ is a $p$-group, so {{< link file="fixed_point_theorems_of_p_groups" type="proved_by" mod="dag" >}} $|Z|\equiv|S|\\,\mod\\,p$ where $Z$ is the fixed-points of $\phi$. Thus $p\geq2$ divides $|Z|$ too, and since $(e,\dots,e)\in Z$, we have $|Z|>1$. But elements in $Z$ are $(x,\dots,x)\in S$ for $x\in G$, so there is some $x\in G$ with $x^p=e$, as desired.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
