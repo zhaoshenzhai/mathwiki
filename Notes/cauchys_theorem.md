@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Statement
 
-Let $G$ be a {{< link file="finite_group" display="finite group" type="references" >}}. By {{< link file="lagranges_theorem" display="Lagrange’s Theorem" type="justifications" >}}, every {{< link file="subgroup" display="subgroup" type="references" >}} $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there *may not* be a subgroup $H\substructeq G$ with order $d$.
+Let $G$ be a {{< link file="finite_group" display="finite group" type="references" >}}. By {{< link file="lagranges_theorem" display="Lagrange’s Theorem" type="references" >}}, every {{< link file="subgroup" display="subgroup" type="references" >}} $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there *may not* be a subgroup $H\substructeq G$ with order $d$.
 
 <br>
 
