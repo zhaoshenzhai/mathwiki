@@ -25,16 +25,16 @@ A **$p$-group** is a group $G$ with $\l|G\r|=p^n$ for some $n\in\N$.
 
 ## {{< link file="cauchys_theorem" display="Cauchy’s Theorem" type="properties" >}}
 
-Every {{< link file="lagranges_theorem" type="justifications" mod="dag" >}} $H\substructeq G$ has order $p^i$ for some $i\leq n$. Conversely, $G$ has a subgroup of order $p$ by Cauchy’s Theorem. In fact, more is true, and $G$ has a subgroup of order $p^i$ for *every* $i\leq n$. This is deduced from
+Let $G$ be a finite group. The subgroups $H\substructeq G$ which are themselves $p$-groups are called *$p$-subgroups* of $G$. For every $k\in\N$ such that $p^k$ divides $|G|$, there exists a $p$-subgroup $H_k\substructeq G$ with order $p^k$.
+
+<br>
+
+&emsp;&emsp;The case when $k=1$ is *Cauchy’s Theorem*, from which the general case follows from cleaver combinatorics via {{< link file="fixed_point_theorems_of_p_groups" display="fixed-point theorems" type="properties" >}}.
 
 <div class="space"></div>
 
 ## {{< link file="sylow_theorems" display="The Sylow Theorems" type="properties" >}}
 
-...
-
-<div class="space"></div>
-
-These theorems can all be proved by clever applications of the {{< link file="the_class_equation" display="Class Equation" type="references" >}} on the {{< link file="conjugation_action" display="conjugation" type="references" >}} {{< link file="group_action" display="action" type="references" >}}; in particular, to establish several {{< link file="fixed_point_theorems_of_p_groups" display="fixed-point theorems" type="properties" >}} thereof.
+The $p$-subgroups $H\substructeq G$ which are maximal are called the ‘$p$-Sylow subgroups’; writing $|G|=p^rm$ for some $m\perp p$, they are the ones with order $p^r$. The *Sylow Theorems* state that they exist, are conjugate to each other, and that the number of $p$-Sylow subgroups divides $m$ and is congruent to $1$ modulo $p$.
 
 # Prüfer $p$-groups

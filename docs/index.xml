@@ -6,14 +6,21 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jul 2024 16:15:16 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jul 2024 14:47:17 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Sylow Theorems</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/sylow_theorems/</link>
+      <pubDate>Tue, 16 Jul 2024 14:47:17 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/sylow_theorems/</guid>
+      <description>Statements &amp;amp; Proofs Let $G$ be a finite group. By Lagrange’s Theorem, every subgroup $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there may not be a subgroup $H\substructeq G$ with order $d$.&#xA;However, that $\Z$ is a UFD motivates us to write $|G|=p^rm$ for some prime $p$ and some $m$ not dividing $p$. Then, it turns out that there is a subgroup $S_p\substructeq G$ with order $p^r$, called a $p$-Sylow subgroup of $G$, and we a lot of control over their existence (Sylow I), their structure (Sylow II), and the number of $p$-Sylow subgroups (Sylow III):</description>
+    </item>
     <item>
       <title>Subgroup Products</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/subgroup_products/</link>
       <pubDate>Mon, 15 Jul 2024 16:15:16 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/subgroup_products/</guid>
-      <description>Let $G$ be a group and consider subgroups $H,K\substructeq G$, whose subgroup product is $$\begin{equation} HK\coloneqq\l\{hk\in G\st h\in H,k\in K\r\}. \end{equation}$$ In general, this need not be a subgroup of $G$. Here, we give sufficient criteria in which this is the case. We also examine when $HK\nsubgrpeq G$ is a normal subgroup.&#xA;Finally, we discuss how $HK$ is related to the direct product $H\times K$.&#xA;Criteria for when $HK$ is a Subgroup </description>
+      <description>Let $G$ be a group and consider subgroups $H,K\substructeq G$, whose subgroup product is $$\begin{equation} HK\coloneqq\l\{hk\in G\st h\in H,k\in K\r\}. \end{equation}$$ In general, this need not be a subgroup of $G$. Here, we give sufficient criteria in which this is the case. We also examine when $HK\nsubgrpeq G$ is a normal subgroup.&#xA;Note, however, that even if $HK\not\substructeq G$, we have $|HK|=|H||K|/|H\cap K|$ if both $H$ and $K$ are finite.</description>
     </item>
     <item>
       <title>Cauchy’s Theorem</title>
@@ -41,7 +48,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/fixed_point_theorems_of_p_groups/</link>
       <pubDate>Fri, 21 Jun 2024 18:02:41 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/fixed_point_theorems_of_p_groups/</guid>
-      <description>Non-triviality of $Z(G)$ A standard method to study a finite group is to first find its center; if non-trivial, we can set up an induction proof for certain existence theorems by quotienting by $Z(G)$.&#xA;This is indeed the case for finite $p$-groups, which we now show. Throughout, let $G$ be a non-trivial finite $p$-group.&#xA;Lemma. If $G$&#xA;acts on a finite set $S$, then $\l|Z\r|\equiv\l|S\r|\,\mod\,p$ where $Z$ is the set of fixed-points of this action.</description>
+      <description>A standard method to study a finite group is to first find its center; if non-trivial, we can set up an induction proof for certain existence theorems by quotienting by $Z(G)$.&#xA;The results here, used in tandem with Cauchy’s Theorem, are the backbone for the proofs of the Sylow Theorems.&#xA;Non-triviality of $Z(G)$ This is indeed the case for finite $p$-groups, which we now show. Fix a prime $p$.&#xA;Proposition. If $G$ is a $p$-group</description>
     </item>
     <item>
       <title>p-group</title>

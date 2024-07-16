@@ -23,6 +23,10 @@ Let $G\act X$ $-$ where $X$ is a *possibly infinite* set $-$ and fix an orbit $O
 
 ## {{< link file="sylow_theorems" display="The Sylow Theorems" type="techniques" >}}
 
+Fix a prime $p$ dividing $|G|=p^rm$, with $m\perp p$. The {{< link file="subgroup" display="subgroups" type="references" >}} $H\substructeq G$ with order $p^i$ for $i\leq r$ are the *$p$-subgroups* of $G$; if $i=r$, then $H$ is *$p$-Sylow*. The *Sylow Theorems* state that they exist, are {{< link file="conjugation_action" display="conjugate" type="references" >}} to each other, and that the number of $p$-Sylow subgroups divides $m$ and is congruent to $1$ modulo $p$.
 
+<br>
+
+&emsp;&emsp;This poses a very strong constraint on the structure of subgroups of $G$.
 
 # {{< link file="representation_theory" display="Representation" type="references" >}} Theory
