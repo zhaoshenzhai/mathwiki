@@ -8,17 +8,19 @@ renderedTitle: Fixed-point Theorems for $p\ $-groups
 titleSize: 20
 ---
 
-# Non-triviality of $Z(G)$
-
 A standard method to study a {{< link file="finite_group" display="finite group" type="references" >}} is to first find its {{< link file="conjugation_action" display="center" type="references" >}}; if non-trivial, we can set up an induction proof for certain existence theorems by {{< link file="quotient_group" display="quotienting" type="references" >}} by $Z(G)$.
 
 <br>
 
-&emsp;&emsp;This is indeed the case for finite {{< link file="p_group" display="$p$-groups" type="references" >}}, which we now show. Throughout, let $G$ be a non-trivial finite $p$-group.
+&emsp;&emsp;The results here, used in tandem with {{< link file="cauchys_theorem" display="Cauchy’s Theorem" type="references" >}}, are the backbone for the proofs of the {{< link file="sylow_theorems" display="Sylow Theorems" type="references" >}}.
 
-{{< env type="lemma" >}}
+# Non-triviality of $Z(G)$
 
-If $G$ {{< link file="group_action" display="acts" type="references" >}} on a finite set $S$, then $\l|Z\r|\equiv\l|S\r|\\,\mod\\,p$ where $Z$ is the set of fixed-points of this action.
+This is indeed the case for finite {{< link file="p_group" display="$p$-groups" type="references" >}}, which we now show. Fix a prime $p$.
+
+{{< env type="proposition" >}}
+
+If $G$ is a $p$-group {{< link file="group_action" display="acting" type="references" >}} on a finite set $S$, then $\l|Z\r|\equiv\l|S\r|\\,\mod\\,p$, where $Z$ is the set of fixed-points of this action.
 
 {{< /env >}}
 
@@ -32,9 +34,9 @@ by the {{< link file="the_class_equation" display="Class Equation" type="proved_
 
 {{< /env >}}
 
-{{< env type="proposition" >}}
+{{< env type="corollary" >}}
 
-The center $Z(G)$ is nontrivial.
+If $G$ is a $p$-group, the center $Z(G)$ is nontrivial.
 
 {{< /env >}}
 
@@ -44,27 +46,46 @@ Letting $G$ act on itself by conjugation, the above gives us $\l|Z(G)\r|\equiv\l
 
 {{< /env >}}
 
-<div class="space"></div>
+# Structure of $p$-subgroups
 
-More generally, we have the following
+We now apply the previous results to understand the $p$-subgroups of a finite group $G$.
+
+<br>
+
+&emsp;&emsp;Let $H\substructeq G$ of a $p$-subgroup of a finite group $G$.
+
+{{< env type="lemma" >}}
+
+We have {{< link file="conjugation_action" type="references" mod="dag" >}} $[N_G(H):H]\equiv[G:H]\\,\mod\\,p$.
+
+{{< /env >}}
+
+{{< env type="proof" hide="false" >}}
+
+We are done if $H$ is trivial. Otherwise, $H$ acts on $G/H$ by left-multiplication, whose fixed-points are the cosets $gH$ such that $h(gH)=gH$ for all $h\in H$, which are those such that $H\subseteq g^{-1}Hg$ $-$ or equivalently, $g\in N_G(H)$.
+
+<br>
+
+&emsp;&emsp;Thus, the fixed-points thereof are the cosets $gH$ of $H$ where $g\in N_G(H)$, of which there are $[N_G(H):H]$ many. Since $H$ is a $p$-group, we are done.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}
 
 {{< env type="proposition" >}}
 
-If $H\nsubgrpeq G$, then $H\cap Z(G)$ is non-trivial.
-
-<br>
-
-&emsp;&emsp;Furthermore, if $\l|H\r|=p$, then $H\substructeq Z(G)$.
-{{< /env >}}
-
-{{< env type="proof" hide="true" >}}
-
-Same as above, by letting $G$ act on $H$ by conjugation.
-
-<br>
-
-&emsp;&emsp;If $\l|H\r|=p$, then every non-trivial $x\in H\cap Z(G)$ generates {{< link file="lagranges_theorem" type="proved_by" mod="dag" >}} $H=\gen{x}\substructeq Z(G)$.<span style="float:right;">$\blacksquare$</span>
+If $H$ is not a {{< link file="sylow_theorems" display="$p$-Sylow subgroup" type="references" >}} of $G$, then there is a $p$-subgroup $K\substructeq G$ such that $H\nsubgrpeq K$ and $[K:H]=p$.
 
 {{< /env >}}
 
-# {{< link file="cauchys_theorem" display="Cauchy’s Theorem" type="references" >}}
+{{< env type="proof" hide="false" >}}
+
+Since $H$ is not a $p$-Sylow subgroup, we see that $p$ divides $[G:H]$, and hence $p$ divides $[N_G(H):H]$ too. By {{< link file="cauchys_theorem" display="Cauchy’s Theorem" type="proved_by" >}}, there is an element $x\in N_G(H)/H$ of order $p$, which generates a cyclic subgroup $K_0\coloneqq\gen{x}$. Set $K\coloneqq\pi^{-1}(K_0)\substructeq G$.
+
+<br>
+
+&emsp;&emsp;By the {{< link file="subgroup" display="Lattice Isomorphism Theorem" type="proved_by" section="Lattice Isomorphism Theorem" >}}, we have $H\nsubgrpeq K$ and
+$$\begin{equation}
+    K/H\iso\pi(K)/\pi(H)\iso K_0,
+\end{equation}$$
+and so $[K:H]=|K_0|=p$ as desired.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}

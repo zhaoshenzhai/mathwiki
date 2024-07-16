@@ -44,4 +44,4 @@ Applying the {{< link file="orbit_stabilizer_theorem" display="Orbit Stabilizer 
 
 <br>
 
-&emsp;&emsp;In particular, if $[G:H]$ is finite, then {{< link file="lagranges_theorem" type="justifications" mod="dag" >}} the number of subgroups of $H$ conjugate to $H$ divides $[G:H]$, since $[G:H]=[G:N_G(H)]\cdot[N_G(H):H]$.
+&emsp;&emsp;In particular, if $[G:H]$ is finite, then {{< link file="lagranges_theorem" type="justifications" mod="dag" >}} the number of subgroups of $G$ conjugate to $H$ divides $[G:H]$, since $[G:H]=[G:N_G(H)]\cdot[N_G(H):H]$.
