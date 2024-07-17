@@ -7,11 +7,11 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-The concept of a *ring* naturally arises when studying the endomorphism group of an {{< link file="abelian_group" display="Abelian group" type="references" >}} $G$. Indeed, $\End G$ is itself Abelian $-$ but more importantly, it has an extra operation of composition. These operations are compatible in the sense of:
+The concept of a *ring* naturally arises when studying the endomorphism {{< link file="group" display="group" type="references" >}} of an {{< link file="abelian_group" display="abelian" type="references" >}} group $G$. Indeed, $\End G$ is itself abelian $-$ but more importantly, it has an extra operation of composition. These operations are compatible in the sense that:
 
 {{< env type="definition" >}}
 
-A **ring** is a tuple $(R,+,\cdot,1)$ where $(R,\cdot,1)$ is a monoid, $(R,+)$ is an Abelian group, and where for all $r,s,t\in R$, we have
+A **ring** is a monoid $(R,\cdot,1)$ equipped with the structure of an abelian group $(R,+,0)$ such that for all $r,s,t\in R$, we have
 $$\begin{equation}
     (r+s)\cdot t=r\cdot t+s\cdot t\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ t\cdot(r+s)=t\cdot r+t\cdot s.
 \end{equation}$$
