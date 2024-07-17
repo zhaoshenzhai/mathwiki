@@ -19,13 +19,9 @@ An element $x\in G$ has **finite order** if $x^n=e$ for some $n>0$; the least su
 
 {{< /env >}}
 
-{{< env type="proof" hide="true" name="$\ord x=|\!\gen{x}|$" >}}
+{{< env type="proof" hide="false" name="$\ord x=|\!\gen{x}|$" >}}
 
-Recall that $\gen{x}$ is the image of the canonical map $\phi_x:\Z\to G$ induced uniquely by sending $1\mapsto x$.
-
-<br>
-
-&emsp;&emsp;If $\ker\phi_x=n\Z$ for some $n>0$, then {{< link file="quotient_group" type="proved_by" mod="dag" section="Universal Property" >}} $\im\phi_x\iso\Z/n\Z$ has cardinality $n$. Since $\Z$ has no other non-trivial subgroups {{< link file="integers" type="proved_by" mod="dag" section="Subgroups of $\Z$" >}}, we have otherwise that $\im\phi_x=\Z$, so $\ord x=\infty$.<span style="float:right;">$\blacksquare$</span>
+Since $\gen{x}$ is the image of the map $\phi_x:\Z\to G$ induced uniquely by sending $1\mapsto x$, if $\ker\phi_x=n\Z$ for some $n>0$, then {{< link file="quotient_group" type="proved_by" mod="dag" section="Universal Property" >}} $\im\phi_x\iso\Z/n\Z$ has cardinality $n$. Those are the only {{< link file="integers" type="proved_by" mod="dag" section="Subgroups of $\Z$" >}} non-trivial subgroups of $\Z$, so otherwise, we have $\im\phi_x=\Z$.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 
@@ -33,8 +29,8 @@ Recall that $\gen{x}$ is the image of the canonical map $\phi_x:\Z\to G$ induced
 
 ## Examples
 
-If $G$ is cyclic, then the order of any of its generators is $|G|$. More involved examples are as follows
-* By {{< link file="lagranges_theorem" display="Lagrange’s Theorem" type="justifications" >}}, the order $\ord x$ for any $x\in G$ divides $G$. In particular, if $p\coloneqq|G|$ is prime, then $G\iso\Z/p\Z$.
+If $G$ is cyclic, then the order of any generator is $|G|$. In general:
+* If $G$ is finite, then by {{< link file="lagranges_theorem" display="Lagrange’s Theorem" type="justifications" >}}, the order of any $x\in G$ divides $|G|$. In particular, if $p\coloneqq|G|$ is prime, then $G\iso\Z/p\Z$.
 * Since $\Z$ is a {{< link file="unique_factorization_domain" display="UFD" type="references" >}}, the order of every $x\in G$ has a prime factorization. If there is a prime $p$ such that *every* $\ord x$ is a power of $p$, then $G$ is said to be a {{< link file="p_group" display="$p$-group" type="references" >}}.
 
 # Generalizations

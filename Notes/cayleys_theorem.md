@@ -1,8 +1,8 @@
 ---
 title: Cayley’s Theorem
 date: 2024-06-20T19:25:15-04:00
-references: []
-tags: [In_Progress]
+references: [Alu09]
+tags: [Group_Theory/Later]
 ---
 
 # Motivation & Statement

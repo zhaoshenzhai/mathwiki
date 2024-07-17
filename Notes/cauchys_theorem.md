@@ -2,7 +2,7 @@
 title: Cauchy’s Theorem
 date: 2024-07-14T19:39:27-04:00
 references: [Alu09]
-tags: [In_Progress]
+tags: [Group_Theory]
 ---
 
 # Motivation & Statement
