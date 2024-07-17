@@ -2,7 +2,7 @@
 title: Orbit Stabilizer Theorem
 date: 2024-06-03T17:04:49-04:00
 references: [Alu09]
-tags: [Group_Theory, In_Progress]
+tags: [Group_Theory]
 ---
 
 # Statement & Proof
@@ -43,3 +43,5 @@ and this is usually how Orbit-Stabilizer applies in this context. Some examples:
 * *{{< link file="the_class_equation" display="The Class Equation" type="corollaries" >}}* counts the elements of a finite $G$-set $S$ by partitioning it into its fixed points and its non-trivial orbits.
 
 ## Covering Space Theory
+
+...

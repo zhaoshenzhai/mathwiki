@@ -23,6 +23,13 @@
       <description>Let $G$ be a group and consider subgroups $H,K\substructeq G$, whose subgroup product is $$\begin{equation} HK\coloneqq\l\{hk\in G\st h\in H,k\in K\r\}. \end{equation}$$ In general, this need not be a subgroup of $G$. Here, we give sufficient criteria in which this is the case. We also examine when $HK\nsubgrpeq G$ is a normal subgroup.&#xA;Note, however, that even if $HK\not\substructeq G$, we have $|HK|=|H||K|/|H\cap K|$ if both $H$ and $K$ are finite.</description>
     </item>
     <item>
+      <title>Cauchy’s Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/cauchys_theorem/</link>
+      <pubDate>Sun, 14 Jul 2024 19:39:27 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/cauchys_theorem/</guid>
+      <description>Motivation &amp;amp; Statement Let $G$ be a finite group. By Lagrange’s Theorem, every subgroup $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there may not be a subgroup $H\substructeq G$ with order $d$.&#xA;Cauchy’s Theorem can be regarded as a partial converse thereof, stating that if $p$ is a prime divisor of $|G|$, then there is a ( cyclic) subgroup $H\substructeq G$ of order $p$.</description>
+    </item>
+    <item>
       <title>Conjugation Action</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/conjugation_action/</link>
       <pubDate>Fri, 21 Jun 2024 20:09:18 -0400</pubDate>
@@ -58,6 +65,13 @@
       <description>Statement &amp;amp; Proof This classical result is fundamental in finite group theory, since it places limitations on the size a subgroup of a finite group can have.&#xA;For a subgroup $H\substructeq G$ of $G$, let $[G:H]\coloneqq\l|G/H\r|$ be the index of $H$ in $G$.&#xA;Theorem (Lagrange). Let $G$ be a finite group. For every subgroup $H\substructeq G$, we have $\l|G\r|=[G:H]\cdot\l|H\r|$. In particular, $\l|H\r|$ divides $\l|G\r|$. Proof. Click to expand... Consider the natural left-multiplication</description>
     </item>
     <item>
+      <title>Cayley’s Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</link>
+      <pubDate>Thu, 20 Jun 2024 19:25:15 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</guid>
+      <description>Motivation &amp;amp; Statement Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’. Such a theorem for groups is as follows.&#xA;Theorem (Cayley). Every group $G$ is a&#xA;subgroup of a symmetry group.&#xA;Proof. Click to expand... We show that the left-multiplication&#xA;action $\phi:G\to\Aut G$ is faithful, for then $G\substructeq\Aut G$. Indeed, if $\phi(g_1)=\phi(g_2)$, then we have $\phi(g_1)g=\phi(g_2)g$ for all $g\in G$. That is, we have $g_1g=g_2g$, so $g_1=g_2$ as desired.</description>
+    </item>
+    <item>
       <title>Quotient Group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/quotient_group/</link>
       <pubDate>Tue, 11 Jun 2024 18:49:07 -0400</pubDate>
@@ -79,11 +93,53 @@
       <description>Motivation &amp;amp; Definition A special property of the category of groups is the existence of a zero object; namely, the trivial group $\l\{0\r\}$; by definition, we have a morphism $0:G\to\l\{0\r\}\to H$ for each pair $G,H$ of groups. Now, for an arbitrary homomorphism $f:G\to H$, we would like to find some group $K$ that ‘forces’ $f$ to ‘equalize’ with $0$ in a universal way. This can be done in two $-$ dual $-$ ways, called the kernel and cokernel of $f$.</description>
     </item>
     <item>
+      <title>Subgroup</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/subgroup/</link>
+      <pubDate>Thu, 06 Jun 2024 19:40:13 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/subgroup/</guid>
+      <description>Definition and Generation A standard method of studying an object $-$ in this case, a group $G$ $-$ is to analyze other groups that ‘sit inside’ $G$. This is formalized in the following&#xA;Definition. Let $G$ be a group. A subgroup of $G$ is a subset $H\subseteq G$ equipped with a group structure making the inclusion $H\into G$ a group homomorphism.&#xA;We write $H\substructeq G$ to indicate that $H$ is a subgroup of $G$.</description>
+    </item>
+    <item>
       <title>Orbit Stabilizer Theorem</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</link>
       <pubDate>Mon, 03 Jun 2024 17:04:49 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</guid>
       <description>Statement &amp;amp; Proof Let $G$ be a group acting on a non-empty set $X$. Then $G$ acts on each orbit $\Orb_G(x_0)$ by left-multiplication. More precisely, we have the following&#xA;Theorem (Orbit-Stabilizer). Let $G$ be a group and let $(X,x_0)$ be a pointed $G$-set. Equipping $G/\Stab_G(x_0)$ with the natural left-multiplication $G$-action, we have a $G$-equivariant bijection $\Orb_G(x_0)\iso G/\Stab_G(x_0)$. Proof. Click to expand... Let $H\coloneqq\Stab_G(x_0)$ and consider the map $f:G\to\Orb_G(x_0):g\mapsto gx_0$. Since $$\begin{equation} f(g_1)=f(g_2)\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_2^{-1}g_1x_0=x_0\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1H=g_2H, \end{equation}$$ we see that $f$ descends</description>
+    </item>
+    <item>
+      <title>Finite Group</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/finite_group/</link>
+      <pubDate>Mon, 03 Jun 2024 16:36:14 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/finite_group/</guid>
+      <description>Let $G$ be a group. The condition that (the underlying set of) $G$ is finite allows us to apply methods from finite combinatorics to analyze $G$. We give some group-theoretic frameworks for which such combinatorics can be applied to.&#xA;Such methods can become incredibly sophisticated; for instance, the classification of finite simple groups is one of the major achievements of mathematics. We only touch on the very very basics here.</description>
+    </item>
+    <item>
+      <title>Free Group</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/free_group/</link>
+      <pubDate>Mon, 03 Jun 2024 15:36:38 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/free_group/</guid>
+      <description>Motivation &amp;amp; Definition Fix a set $X$. We would like to ‘canonically’ construct a group $F(X)$ containing $X$ ‘in the most efficient way’. The latter is encoded by a universal property, and the former makes $F:\catset\to\catgrp$ a left-adjoint to the forgetful functor $U:\catgrp\to\catset$.&#xA;Definition. A free group on $X$ is a group $F(X)$ equipped with a function $j:X\to F(X)$ that is universal in the following sense:&#xA;For every group $G$ and any function $f:X\to UG$, there is a unique group homomorphism $f&amp;rsquo;:F(X)\to G$ such that $Ff&amp;rsquo;\circ j=f$.</description>
+    </item>
+    <item>
+      <title>Integers</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/integers/</link>
+      <pubDate>Mon, 03 Jun 2024 15:19:04 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/integers/</guid>
+      <description>The set of integers $-$ denoted $\Z$ $-$ appear everywhere in algebra:&#xA;In group theory, it is the free group on one generator, and is used to construct all cyclic groups, and more generally, all finitely-generated abelian groups. In ring theory, it is the initial object in $\catring$, and is the most important example of a PID. In fact, abelian groups are just $\Z$-modules. The fundamental property of $\Z$, and that underlies all of its group and ring-theoretic properties, is the Division Algorithm.</description>
+    </item>
+    <item>
+      <title>Order</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/order/</link>
+      <pubDate>Mon, 03 Jun 2024 15:04:46 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/order/</guid>
+      <description>Motivation &amp;amp; Definition Let $G$ be a group. The order of an element $x\in G$ is the size of its generated cyclic subgroup. A more elementary definition is as follows.&#xA;Definition. An element $x\in G$ has finite order if $x^n=e$ for some $n&amp;gt;0$; the least such $n$ is the order of $x$, denoted $\ord x$.&#xA;Otherwise, set $\ord x\coloneqq\infty$, and say that $x$ has infinite order.&#xA;Proof ($\ord x=|\!\gen{x}|$). Click to expand.</description>
+    </item>
+    <item>
+      <title>Cyclic Group</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/cyclic_group/</link>
+      <pubDate>Mon, 03 Jun 2024 14:23:46 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/cyclic_group/</guid>
+      <description>Motivation &amp;amp; Definition The simplest class of groups are the cyclic groups, which are those that are generated by a single element.&#xA;Definition. A group $G$ is said to be cyclic if $G=\gen{x}$&#xA;$^\dagger$ for some $x\in G$.&#xA;Classification Let $G=\gen{x}$ be cyclic. By definition, $\phi:\Z\to G$ sending $m\mapsto x^m$ is surjective. Depending on the order $n\coloneqq\ord x$ of $x$, $G$ takes on the following forms.&#xA;If $1\leq n&amp;lt;\infty$, then $\ker\phi=n\Z$ and hence $^\dagger$ $G\iso\Z/n\Z$.</description>
     </item>
     <item>
       <title>Group Action</title>

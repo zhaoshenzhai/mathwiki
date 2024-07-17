@@ -1,8 +1,8 @@
 ---
 title: Subgroup
 date: 2024-06-06T19:40:13-04:00
-references: []
-tags: [In_Progress]
+references: [Alu09, DF03]
+tags: [Group_Theory/Later]
 ---
 
 # Definition and Generation

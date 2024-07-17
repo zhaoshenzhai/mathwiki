@@ -2,7 +2,7 @@
 title: p-group
 date: 2024-06-21T16:59:45-04:00
 references: [Alu09]
-tags: [Group_Theory, In_Progress]
+tags: [Group_Theory]
 mathLink: $p$-group
 renderedTitle: $p\ $-group
 ---

@@ -1,8 +1,8 @@
 ---
 title: Order
 date: 2024-06-03T15:04:46-04:00
-references: []
-tags: [In_Progress]
+references: [Alu09]
+tags: [Group_Theory]
 ---
 
 # Motivation & Definition

@@ -2,7 +2,7 @@
 title: Subgroup Products
 date: 2024-07-15T16:15:16-04:00
 references: [DF03]
-tags: [Group_Theory, In_Progress]
+tags: [Group_Theory/Later]
 ---
 
 Let $G$ be a {{< link file="group" display="group" type="references" >}} and consider {{< link file="subgroup" display="subgroups" type="references" >}} $H,K\substructeq G$, whose *subgroup product* is

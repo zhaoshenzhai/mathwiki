@@ -2,7 +2,7 @@
 title: The Sylow Theorems
 date: 2024-07-16T14:47:17-04:00
 references: [Alu09]
-tags: [Group_Theory, In_Progress]
+tags: [Group_Theory/Later]
 ---
 
 # Statements & Proofs

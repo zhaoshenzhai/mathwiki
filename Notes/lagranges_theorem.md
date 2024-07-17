@@ -2,7 +2,7 @@
 title: Lagrange’s Theorem
 date: 2024-06-20T22:43:48-04:00
 references: [Alu09]
-tags: [Group_Theory, In_Progress]
+tags: [Group_Theory]
 ---
 
 # Statement & Proof
@@ -49,5 +49,5 @@ A natural question to ask at this point is whether the converse holds, in the se
 <br>
 
 &emsp;&emsp;Thus, we ask if this holds for particular values of $d$, or for a special class of finite groups. Some results are as follows.
-* *{{< link file="cauchys_theorem" display="Cauchy’s Theorem" type="references" >}}*
-* *{{< link file="sylow_theorems" display="The Sylow Theorems" type="references" >}}*
+* *{{< link file="cauchys_theorem" display="Cauchy’s Theorem" type="converses" >}}* states that if $p$ divides $|G|$, then there is a subgroup $H\substructeq G$ of order $p$. This is a stepping stone to the following result of finite group theory.
+* *{{< link file="sylow_theorems" display="The Sylow Theorems" type="converses" >}}* states that if $|G|=p^rm$ for some prime $p$ and some $m\perp p$, then there are subgroups $H_i\substructeq G$ of order $p^i$ for all $0\leq i\leq r$, so the converse of Lagrange’s Theorem is fully realized when restricted to a single prime divisor.

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Group_Theory/Later on MathWiki</title>
+    <link>https://zhaoshenzhai.github.io/mathwiki/tags/group_theory/later/</link>
+    <description>Recent content in Group_Theory/Later on MathWiki</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jul 2024 14:47:17 -0400</lastBuildDate>
+    <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/group_theory/later/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Sylow Theorems</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/sylow_theorems/</link>
+      <pubDate>Tue, 16 Jul 2024 14:47:17 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/sylow_theorems/</guid>
+      <description>Statements &amp;amp; Proofs Let $G$ be a finite group. By Lagrange’s Theorem, every subgroup $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there may not be a subgroup $H\substructeq G$ with order $d$.&#xA;However, that $\Z$ is a UFD motivates us to write $|G|=p^rm$ for some prime $p$ and some $m$ not dividing $p$. Then, it turns out that there is a subgroup $S_p\substructeq G$ with order $p^r$, called a $p$-Sylow subgroup of $G$, and we a lot of control over their existence (Sylow I), their structure (Sylow II), and the number of $p$-Sylow subgroups (Sylow III):</description>
+    </item>
+    <item>
+      <title>Subgroup Products</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/subgroup_products/</link>
+      <pubDate>Mon, 15 Jul 2024 16:15:16 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/subgroup_products/</guid>
+      <description>Let $G$ be a group and consider subgroups $H,K\substructeq G$, whose subgroup product is $$\begin{equation} HK\coloneqq\l\{hk\in G\st h\in H,k\in K\r\}. \end{equation}$$ In general, this need not be a subgroup of $G$. Here, we give sufficient criteria in which this is the case. We also examine when $HK\nsubgrpeq G$ is a normal subgroup.&#xA;Note, however, that even if $HK\not\substructeq G$, we have $|HK|=|H||K|/|H\cap K|$ if both $H$ and $K$ are finite.</description>
+    </item>
+    <item>
+      <title>Cayley’s Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</link>
+      <pubDate>Thu, 20 Jun 2024 19:25:15 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</guid>
+      <description>Motivation &amp;amp; Statement Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’. Such a theorem for groups is as follows.&#xA;Theorem (Cayley). Every group $G$ is a&#xA;subgroup of a symmetry group.&#xA;Proof. Click to expand... We show that the left-multiplication&#xA;action $\phi:G\to\Aut G$ is faithful, for then $G\substructeq\Aut G$. Indeed, if $\phi(g_1)=\phi(g_2)$, then we have $\phi(g_1)g=\phi(g_2)g$ for all $g\in G$. That is, we have $g_1g=g_2g$, so $g_1=g_2$ as desired.</description>
+    </item>
+    <item>
+      <title>Subgroup</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/subgroup/</link>
+      <pubDate>Thu, 06 Jun 2024 19:40:13 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/subgroup/</guid>
+      <description>Definition and Generation A standard method of studying an object $-$ in this case, a group $G$ $-$ is to analyze other groups that ‘sit inside’ $G$. This is formalized in the following&#xA;Definition. Let $G$ be a group. A subgroup of $G$ is a subset $H\subseteq G$ equipped with a group structure making the inclusion $H\into G$ a group homomorphism.&#xA;We write $H\substructeq G$ to indicate that $H$ is a subgroup of $G$.</description>
+    </item>
+    <item>
+      <title>Free Group</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/free_group/</link>
+      <pubDate>Mon, 03 Jun 2024 15:36:38 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/free_group/</guid>
+      <description>Motivation &amp;amp; Definition Fix a set $X$. We would like to ‘canonically’ construct a group $F(X)$ containing $X$ ‘in the most efficient way’. The latter is encoded by a universal property, and the former makes $F:\catset\to\catgrp$ a left-adjoint to the forgetful functor $U:\catgrp\to\catset$.&#xA;Definition. A free group on $X$ is a group $F(X)$ equipped with a function $j:X\to F(X)$ that is universal in the following sense:&#xA;For every group $G$ and any function $f:X\to UG$, there is a unique group homomorphism $f&amp;rsquo;:F(X)\to G$ such that $Ff&amp;rsquo;\circ j=f$.</description>
+    </item>
+    <item>
+      <title>Cyclic Group</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/cyclic_group/</link>
+      <pubDate>Mon, 03 Jun 2024 14:23:46 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/cyclic_group/</guid>
+      <description>Motivation &amp;amp; Definition The simplest class of groups are the cyclic groups, which are those that are generated by a single element.&#xA;Definition. A group $G$ is said to be cyclic if $G=\gen{x}$&#xA;$^\dagger$ for some $x\in G$.&#xA;Classification Let $G=\gen{x}$ be cyclic. By definition, $\phi:\Z\to G$ sending $m\mapsto x^m$ is surjective. Depending on the order $n\coloneqq\ord x$ of $x$, $G$ takes on the following forms.&#xA;If $1\leq n&amp;lt;\infty$, then $\ker\phi=n\Z$ and hence $^\dagger$ $G\iso\Z/n\Z$.</description>
+    </item>
+  </channel>
+</rss>
