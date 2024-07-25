@@ -13,7 +13,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/sylow_theorems/</link>
       <pubDate>Tue, 16 Jul 2024 14:47:17 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/sylow_theorems/</guid>
-      <description>Statements &amp;amp; Proofs Let $G$ be a finite group. By Lagrange’s Theorem, every subgroup $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there may not be a subgroup $H\substructeq G$ with order $d$.&#xA;However, that $\Z$ is a UFD motivates us to write $|G|=p^rm$ for some prime $p$ and some $m$ not dividing $p$. Then, it turns out that there is a subgroup $S_p\substructeq G$ with order $p^r$, called a $p$-Sylow subgroup of $G$, and we a lot of control over their existence (Sylow I), their structure (Sylow II), and the number of $p$-Sylow subgroups (Sylow III):</description>
+      <description>Statements &amp;amp; Proofs Let $G$ be a finite group. By Lagrange’s Theorem, every subgroup $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there may not be a subgroup $H\substructeq G$ with order $d$.&#xA;However, that $\Z$ is a UFD motivates us to write $|G|=p^rm$ for some prime $p$ not dividing $m$. Then, it turns out that there is a subgroup $S_p\substructeq G$ with order $p^r$, called a $p$-Sylow subgroup of $G$, and we a lot of control over their existence (Sylow I), their structure (Sylow II), and the number of $p$-Sylow subgroups (Sylow III):</description>
     </item>
     <item>
       <title>Subgroup Products</title>

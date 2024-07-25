@@ -11,7 +11,7 @@ Let $G$ be a {{< link file="finite_group" display="finite group" type="reference
 
 <br>
 
-&emsp;&emsp;However, that $\Z$ is a {{< link file="unique_factorization_domain" display="UFD" type="references" >}} motivates us to write $|G|=p^rm$ for some prime $p$ and some $m$ not dividing $p$. Then, it turns out that there is a subgroup $S_p\substructeq G$ with order $p^r$, called a *$p$-Sylow subgroup* of $G$, and we a lot of control over their existence (*Sylow I*), their structure (*Sylow II*), and the number of $p$-Sylow subgroups (*Sylow III*):
+&emsp;&emsp;However, that $\Z$ is a {{< link file="unique_factorization_domain" display="UFD" type="references" >}} motivates us to write $|G|=p^rm$ for some prime $p$ not dividing $m$. Then, it turns out that there is a subgroup $S_p\substructeq G$ with order $p^r$, called a *$p$-Sylow subgroup* of $G$, and we a lot of control over their existence (*Sylow I*), their structure (*Sylow II*), and the number of $p$-Sylow subgroups (*Sylow III*):
 
 {{< env type="theorem" name="The Sylow Theorems" >}}
 

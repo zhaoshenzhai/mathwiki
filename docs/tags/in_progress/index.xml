@@ -55,7 +55,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/ring/</link>
       <pubDate>Thu, 06 Jun 2024 15:26:58 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/ring/</guid>
-      <description>Motivation &amp;amp; Definition The concept of a ring naturally arises when studying the endomorphism group of an Abelian group $G$. Indeed, $\End G$ is itself Abelian $-$ but more importantly, it has an extra operation of composition. These operations are compatible in the sense of:&#xA;Definition. A ring is a tuple $(R,+,\cdot,1)$ where $(R,\cdot,1)$ is a monoid, $(R,+)$ is an Abelian group, and where for all $r,s,t\in R$, we have $$\begin{equation} (r+s)\cdot t=r\cdot t+s\cdot t\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ t\cdot(r+s)=t\cdot r+t\cdot s.</description>
+      <description>Motivation &amp;amp; Definition The concept of a ring naturally arises when studying the endomorphism group of an abelian group $G$. Indeed, $\End G$ is itself abelian $-$ but more importantly, it has an extra operation of composition. These operations are compatible in the sense that:&#xA;Definition. A ring is a monoid $(R,\cdot,1)$ equipped with the structure of an abelian group $(R,+,0)$ such that for all $r,s,t\in R$, we have $$\begin{equation} (r+s)\cdot t=r\cdot t+s\cdot t\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ t\cdot(r+s)=t\cdot r+t\cdot s.</description>
     </item>
     <item>
       <title>Completeness of Category of Groups</title>

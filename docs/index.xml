@@ -13,7 +13,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/sylow_theorems/</link>
       <pubDate>Tue, 16 Jul 2024 14:47:17 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/sylow_theorems/</guid>
-      <description>Statements &amp;amp; Proofs Let $G$ be a finite group. By Lagrange’s Theorem, every subgroup $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there may not be a subgroup $H\substructeq G$ with order $d$.&#xA;However, that $\Z$ is a UFD motivates us to write $|G|=p^rm$ for some prime $p$ and some $m$ not dividing $p$. Then, it turns out that there is a subgroup $S_p\substructeq G$ with order $p^r$, called a $p$-Sylow subgroup of $G$, and we a lot of control over their existence (Sylow I), their structure (Sylow II), and the number of $p$-Sylow subgroups (Sylow III):</description>
+      <description>Statements &amp;amp; Proofs Let $G$ be a finite group. By Lagrange’s Theorem, every subgroup $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there may not be a subgroup $H\substructeq G$ with order $d$.&#xA;However, that $\Z$ is a UFD motivates us to write $|G|=p^rm$ for some prime $p$ not dividing $m$. Then, it turns out that there is a subgroup $S_p\substructeq G$ with order $p^r$, called a $p$-Sylow subgroup of $G$, and we a lot of control over their existence (Sylow I), their structure (Sylow II), and the number of $p$-Sylow subgroups (Sylow III):</description>
     </item>
     <item>
       <title>Subgroup Products</title>
@@ -153,7 +153,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/ring/</link>
       <pubDate>Thu, 06 Jun 2024 15:26:58 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/ring/</guid>
-      <description>Motivation &amp;amp; Definition The concept of a ring naturally arises when studying the endomorphism group of an Abelian group $G$. Indeed, $\End G$ is itself Abelian $-$ but more importantly, it has an extra operation of composition. These operations are compatible in the sense of:&#xA;Definition. A ring is a tuple $(R,+,\cdot,1)$ where $(R,\cdot,1)$ is a monoid, $(R,+)$ is an Abelian group, and where for all $r,s,t\in R$, we have $$\begin{equation} (r+s)\cdot t=r\cdot t+s\cdot t\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ t\cdot(r+s)=t\cdot r+t\cdot s.</description>
+      <description>Motivation &amp;amp; Definition The concept of a ring naturally arises when studying the endomorphism group of an abelian group $G$. Indeed, $\End G$ is itself abelian $-$ but more importantly, it has an extra operation of composition. These operations are compatible in the sense that:&#xA;Definition. A ring is a monoid $(R,\cdot,1)$ equipped with the structure of an abelian group $(R,+,0)$ such that for all $r,s,t\in R$, we have $$\begin{equation} (r+s)\cdot t=r\cdot t+s\cdot t\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ t\cdot(r+s)=t\cdot r+t\cdot s.</description>
     </item>
     <item>
       <title>Orbit Stabilizer Theorem</title>
