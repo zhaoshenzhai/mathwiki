@@ -37,11 +37,13 @@ function toggleProofHeader(proof) {
         container.style.maxHeight = container.scrollHeight + "px";
         content.style.opacity = "1";
         expand.style.opacity = "0";
+        expand.style.width = "0%";
         proof.classList.add("proofExpanded");
     } else {
         container.style.maxHeight = lineHeight;
         content.style.opacity = "0";
         expand.style.opacity = "0.6";
+        expand.style.width = "100%";
         proof.classList.remove("proofExpanded");
     }
 }

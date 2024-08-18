@@ -17,7 +17,3 @@ a.ghostLink {
 a.ghostLink:hover {
     color: var(--link-ghost-hover) !important;
 }
-
-.dag, .space {
-    margin-left: -8px;
-}

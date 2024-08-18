@@ -27,7 +27,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/cauchys_theorem/</link>
       <pubDate>Sun, 14 Jul 2024 19:39:27 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/cauchys_theorem/</guid>
-      <description>Motivation &amp;amp; Statement Let $G$ be a finite group. By Lagrange’s Theorem, every subgroup $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there may not be a subgroup $H\substructeq G$ with order $d$.&#xA;Cauchy’s Theorem can be regarded as a partial converse thereof, stating that if $p$ is a prime divisor of $|G|$, then there is a ( cyclic) subgroup $H\substructeq G$ of order $p$.</description>
+      <description>Motivation &amp;amp; Statement Let $G$ be a finite group. By Lagrange’s Theorem, every subgroup $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there may not be a subgroup $H\substructeq G$ with order $d$.&#xA;Cauchy’s Theorem can be regarded as a partial converse thereof, stating that if $p$ is a prime divisor of $|G|$, then there is a (cyclic) subgroup $H\substructeq G$ of order $p$.</description>
     </item>
     <item>
       <title>Bases for Topologies</title>
@@ -48,14 +48,14 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/fixed_point_theorems_of_p_groups/</link>
       <pubDate>Fri, 21 Jun 2024 18:02:41 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/fixed_point_theorems_of_p_groups/</guid>
-      <description>A standard method to study a finite group is to first find its center; if non-trivial, we can set up an induction proof for certain existence theorems by quotienting by $Z(G)$.&#xA;The results here, used in tandem with Cauchy’s Theorem, are the backbone for the proofs of the Sylow Theorems.&#xA;Non-triviality of $Z(G)$ This is indeed the case for finite $p$-groups, which we now show. Fix a prime $p$.&#xA;Proposition. If $G$ is a $p$-group</description>
+      <description>A standard method to study a finite group is to first find its center; if non-trivial, we can set up an induction proof for certain existence theorems by quotienting by $Z(G)$.&#xA;The results here, used in tandem with Cauchy’s Theorem, are the backbone for the proofs of the Sylow Theorems.&#xA;Non-triviality of $Z(G)$ This is indeed the case for finite $p$-groups, which we now show. Fix a prime $p$.&#xA;Proposition.If $G$ is a $p$-group acting on a finite set $S$, then $\l|Z\r|\equiv\l|S\r|\,\mod\,p$, where $Z$ is the set of fixed-points of this action.</description>
     </item>
     <item>
       <title>p-group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/p_group/</link>
       <pubDate>Fri, 21 Jun 2024 16:59:45 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/p_group/</guid>
-      <description>By Lagrange’s Theorem, if a finite group $G$ has prime order $p$, then $G\iso\,$ $\Z/p\Z$ and has no non-trivial subgroups. It is natural to ask for a generalization when $\l|G\r|$ is a power of $p$, or more generally, when the order of every $g\in G$ is a power of $p$.&#xA;Throughout, fix a prime $p$.&#xA;Finite $p$-groups If $G$ is a finite group, then the condition that the order of every $g\in G$ is a power of $p$ is $-$ by Lagrange’s Theorem $-$ equivalent to the following</description>
+      <description>By Lagrange’s Theorem, if a finite group $G$ has prime order $p$, then $G\iso\,$$\Z/p\Z$ and has no non-trivial subgroups. It is natural to ask for a generalization when $\l|G\r|$ is a power of $p$, or more generally, when the order of every $g\in G$ is a power of $p$.&#xA;Throughout, fix a prime $p$.&#xA;Finite $p$-groups If $G$ is a finite group, then the condition that the order of every $g\in G$ is a power of $p$ is $-$ by Lagrange’s Theorem $-$ equivalent to the following</description>
     </item>
     <item>
       <title>The Class Equation</title>
@@ -69,14 +69,14 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/lagranges_theorem/</link>
       <pubDate>Thu, 20 Jun 2024 22:43:48 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/lagranges_theorem/</guid>
-      <description>Statement &amp;amp; Proof This classical result is fundamental in finite group theory, since it places limitations on the size a subgroup of a finite group can have.&#xA;For a subgroup $H\substructeq G$ of $G$, let $[G:H]\coloneqq\l|G/H\r|$ be the index of $H$ in $G$.&#xA;Theorem (Lagrange). Let $G$ be a finite group. For every subgroup $H\substructeq G$, we have $\l|G\r|=[G:H]\cdot\l|H\r|$. In particular, $\l|H\r|$ divides $\l|G\r|$. Proof. Click to expand... Consider the natural left-multiplication</description>
+      <description>Statement &amp;amp; Proof This classical result is fundamental in finite group theory, since it places limitations on the size a subgroup of a finite group can have.&#xA;For a subgroup $H\substructeq G$ of $G$, let $[G:H]\coloneqq\l|G/H\r|$ be the index of $H$ in $G$.&#xA;Theorem (Lagrange).Let $G$ be a finite group. For every subgroup $H\substructeq G$, we have $\l|G\r|=[G:H]\cdot\l|H\r|$. In particular, $\l|H\r|$ divides $\l|G\r|$. Proof.Click to expand... Consider the natural left-multiplication action of $H$ on $G$, for which we have $\Orb_H(g)=Hg$ and $\Stab_H(g)=\l\{e\r\}$ for every $g\in G$, and thus $\l|Hg\r|=\l|H\r|$ by the Orbit Stabilizer Theorem.</description>
     </item>
     <item>
       <title>Cayley’s Theorem</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</link>
       <pubDate>Thu, 20 Jun 2024 19:25:15 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</guid>
-      <description>Motivation &amp;amp; Statement Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’. Such a theorem for groups is as follows.&#xA;Theorem (Cayley). Every group $G$ is a&#xA;subgroup of a symmetry group.&#xA;Proof. Click to expand... We show that the left-multiplication&#xA;action $\phi:G\to\Aut G$ is faithful, for then $G\substructeq\Aut G$. Indeed, if $\phi(g_1)=\phi(g_2)$, then we have $\phi(g_1)g=\phi(g_2)g$ for all $g\in G$. That is, we have $g_1g=g_2g$, so $g_1=g_2$ as desired.</description>
+      <description>Motivation &amp;amp; Statement Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’. Such a theorem for groups is as follows.&#xA;Theorem (Cayley).Every group $G$ is a subgroup of a symmetry group. Proof.Click to expand... We show that the left-multiplication action $\phi:G\to\Aut G$ is faithful, for then $G\substructeq\Aut G$. Indeed, if $\phi(g_1)=\phi(g_2)$, then we have $\phi(g_1)g=\phi(g_2)g$ for all $g\in G$. That is, we have $g_1g=g_2g$, so $g_1=g_2$ as desired.</description>
     </item>
     <item>
       <title>Convergence</title>
@@ -90,14 +90,14 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/filter/</link>
       <pubDate>Thu, 20 Jun 2024 11:27:17 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/filter/</guid>
-      <description>Motivation &amp;amp; Definition Definition. Let $P$ be a poset. A filter on $P$ is a subset $\em\neq F\subseteq P$ such that&#xA;(Upward-closure). If $p\in F$ and $q\geq p$, then $q\in F$. (Downward-directed). If $p_1,p_2\in F$, then there exists $q\in F$ with $q\leq p_1,p_2$. </description>
+      <description>Motivation &amp;amp; Definition Definition.Let $P$ be a poset. A filter on $P$ is a subset $\em\neq F\subseteq P$ such that&#xA;(Upward-closure). If $p\in F$ and $q\geq p$, then $q\in F$. (Downward-directed). If $p_1,p_2\in F$, then there exists $q\in F$ with $q\leq p_1,p_2$. </description>
     </item>
     <item>
       <title>Equivalence Relation</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/equivalence_relation/</link>
       <pubDate>Tue, 18 Jun 2024 20:07:21 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/equivalence_relation/</guid>
-      <description>Motivation &amp;amp; Definition Oftentimes, we wish to regard two objects as ‘being the same’ (for instance, two sets are ‘the same’ if they have the same cardinality), despite them not being equal. The concept of an equivalence relation can be thought of as a generalization of equality.&#xA;Definition. Let $X$ be a set. An equivalence relation on $X$ is a (binary) relation $E\subseteq X^2$ subject to the following conditions.&#xA;(Reflexive). For all $x\in X$, we have $(x,x)\in E$.</description>
+      <description>Motivation &amp;amp; Definition Oftentimes, we wish to regard two objects as ‘being the same’ (for instance, two sets are ‘the same’ if they have the same cardinality), despite them not being equal. The concept of an equivalence relation can be thought of as a generalization of equality.&#xA;Definition.Let $X$ be a set. An equivalence relation on $X$ is a (binary) relation $E\subseteq X^2$ subject to the following conditions.&#xA;(Reflexive). For all $x\in X$, we have $(x,x)\in E$.</description>
     </item>
     <item>
       <title>Quotient Set</title>
@@ -118,7 +118,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/</link>
       <pubDate>Mon, 10 Jun 2024 17:20:55 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/</guid>
-      <description>Motivation &amp;amp; Definition Fix a group $G$ and consider the category $\cat{B}G$ defined by $G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$). What are the congruences in $\cat{B}G$?&#xA;Definition. A&#xA;subgroup $N\substructeq G$ is said to be normal if it is invariant under the&#xA;conjugation&#xA;action of $G$; i.e., if $gN=Ng$ for all $g\in G$.&#xA;In this case, we write $N\nsubgrpeq G$, and $N\nsubgrp G$ if it is proper.</description>
+      <description>Motivation &amp;amp; Definition Fix a group $G$ and consider the category $\cat{B}G$ defined by $G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$). What are the congruences in $\cat{B}G$?&#xA;Definition.A subgroup $N\substructeq G$ is said to be normal if it is invariant under the conjugation action of $G$; i.e., if $gN=Ng$ for all $g\in G$.&#xA;In this case, we write $N\nsubgrpeq G$, and $N\nsubgrp G$ if it is proper.</description>
     </item>
     <item>
       <title>Kernel (Group Theory)</title>
@@ -132,35 +132,35 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/subgroup/</link>
       <pubDate>Thu, 06 Jun 2024 19:40:13 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/subgroup/</guid>
-      <description>Definition and Generation A standard method of studying an object $-$ in this case, a group $G$ $-$ is to analyze other groups that ‘sit inside’ $G$. This is formalized in the following&#xA;Definition. Let $G$ be a group. A subgroup of $G$ is a subset $H\subseteq G$ equipped with a group structure making the inclusion $H\into G$ a group homomorphism.&#xA;We write $H\substructeq G$ to indicate that $H$ is a subgroup of $G$.</description>
+      <description>Definition and Generation A standard method of studying an object $-$ in this case, a group $G$ $-$ is to analyze other groups that ‘sit inside’ $G$. This is formalized in the following&#xA;Definition.Let $G$ be a group. A subgroup of $G$ is a subset $H\subseteq G$ equipped with a group structure making the inclusion $H\into G$ a group homomorphism.&#xA;We write $H\substructeq G$ to indicate that $H$ is a subgroup of $G$.</description>
     </item>
     <item>
       <title>Ideal</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/ideal_ring_theory/</link>
       <pubDate>Thu, 06 Jun 2024 19:14:55 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/ideal_ring_theory/</guid>
-      <description>To study the quotient objects in a category, we must first understand the congruence relations in said category. For $\catring$, these are in correspondence with ideals.&#xA;Definition. Let $R$ be a ring. A (left) ideal in $R$ is a subgroup $(\mf{a},+)\substructeq R$ such that $r\mf{a}\subseteq\mf{a}$ for all $r\in R$.&#xA;Similarly for right ideals and two-sided ideals.</description>
+      <description>To study the quotient objects in a category, we must first understand the congruence relations in said category. For $\catring$, these are in correspondence with ideals.&#xA;Definition.Let $R$ be a ring. A (left) ideal in $R$ is a subgroup $(\mf{a},+)\substructeq R$ such that $r\mf{a}\subseteq\mf{a}$ for all $r\in R$.&#xA;Similarly for right ideals and two-sided ideals.</description>
     </item>
     <item>
       <title>Module</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/module/</link>
       <pubDate>Thu, 06 Jun 2024 18:07:45 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/module/</guid>
-      <description>Motivation &amp;amp; Definition Throughout, fix a ring $R$.&#xA;Definition. A (left) $R$-module is an&#xA;Abelian group $(M,+)$ equipped with a left&#xA;$R$-action $R\to\End_\catabgrp(M)$. That is, a function $R\times M\to M$ such that $$\begin{equation} r(m+n)=rm+rn,\ \ \ \ (r+s)m=rm+sm,\ \ \ \ (rs)m=r(sm),\ \ \ \ \mathit{and}\ \ \ \ 1m=m \end{equation}$$ for all $r,s\in R$ and $m,n\in M$.&#xA;The relevant structure-preserving maps for $R$-modules are as follows.&#xA;Definition. A function $f:M\to N$ between $R$-modules is a homomorphism if it is a group homomorphism $f:(M,+)\to(N,+)$ such that</description>
+      <description>Motivation &amp;amp; Definition Throughout, fix a ring $R$.&#xA;Definition.A (left) $R$-module is an Abelian group $(M,+)$ equipped with a left $R$-action $R\to\End_\catabgrp(M)$. That is, a function $R\times M\to M$ such that $$\begin{equation} r(m+n)=rm+rn,\ \ \ \ (r+s)m=rm+sm,\ \ \ \ (rs)m=r(sm),\ \ \ \ \mathit{and}\ \ \ \ 1m=m \end{equation}$$ for all $r,s\in R$ and $m,n\in M$. The relevant structure-preserving maps for $R$-modules are as follows.&#xA;Definition.A function $f:M\to N$ between $R$-modules is a homomorphism if it is a group homomorphism $f:(M,+)\to(N,+)$ such that</description>
     </item>
     <item>
       <title>Ring</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/ring/</link>
       <pubDate>Thu, 06 Jun 2024 15:26:58 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/ring/</guid>
-      <description>Motivation &amp;amp; Definition The concept of a ring naturally arises when studying the endomorphism group of an abelian group $G$. Indeed, $\End G$ is itself abelian $-$ but more importantly, it has an extra operation of composition. These operations are compatible in the sense that:&#xA;Definition. A ring is a monoid $(R,\cdot,1)$ equipped with the structure of an abelian group $(R,+,0)$ such that for all $r,s,t\in R$, we have $$\begin{equation} (r+s)\cdot t=r\cdot t+s\cdot t\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ t\cdot(r+s)=t\cdot r+t\cdot s.</description>
+      <description>Motivation &amp;amp; Definition The concept of a ring naturally arises when studying the endomorphism group of an abelian group $G$. Indeed, $\End G$ is itself abelian $-$ but more importantly, it has an extra operation of composition. These operations are compatible in the sense that:&#xA;Definition.A ring is a monoid $(R,\cdot,1)$ equipped with the structure of an abelian group $(R,+,0)$ such that for all $r,s,t\in R$, we have $$\begin{equation} (r+s)\cdot t=r\cdot t+s\cdot t\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ t\cdot(r+s)=t\cdot r+t\cdot s.</description>
     </item>
     <item>
       <title>Orbit Stabilizer Theorem</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</link>
       <pubDate>Mon, 03 Jun 2024 17:04:49 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</guid>
-      <description>Statement &amp;amp; Proof Let $G$ be a group acting on a non-empty set $X$. Then $G$ acts on each orbit $\Orb_G(x_0)$ by left-multiplication. More precisely, we have the following&#xA;Theorem (Orbit-Stabilizer). Let $G$ be a group and let $(X,x_0)$ be a pointed $G$-set. Equipping $G/\Stab_G(x_0)$ with the natural left-multiplication $G$-action, we have a $G$-equivariant bijection $\Orb_G(x_0)\iso G/\Stab_G(x_0)$. Proof. Click to expand... Let $H\coloneqq\Stab_G(x_0)$ and consider the map $f:G\to\Orb_G(x_0):g\mapsto gx_0$. Since $$\begin{equation} f(g_1)=f(g_2)\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_2^{-1}g_1x_0=x_0\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1H=g_2H, \end{equation}$$ we see that $f$ descends</description>
+      <description>Statement &amp;amp; Proof Let $G$ be a group acting on a non-empty set $X$. Then $G$ acts on each orbit $\Orb_G(x_0)$ by left-multiplication. More precisely, we have the following&#xA;Theorem (Orbit-Stabilizer).Let $G$ be a group and let $(X,x_0)$ be a pointed $G$-set. Equipping $G/\Stab_G(x_0)$ with the natural left-multiplication $G$-action, we have a $G$-equivariant bijection $\Orb_G(x_0)\iso G/\Stab_G(x_0)$. Proof.Click to expand... Let $H\coloneqq\Stab_G(x_0)$ and consider the map $f:G\to\Orb_G(x_0):g\mapsto gx_0$. Since $$\begin{equation} f(g_1)=f(g_2)\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_2^{-1}g_1x_0=x_0\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1H=g_2H, \end{equation}$$ we see that $f$ descends$^\dagger$ into an injective map $\widetilde{f}:G/H\to\Orb_G(x_0):gH\mapsto gx_0$.</description>
     </item>
     <item>
       <title>Finite Group</title>
@@ -181,7 +181,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/free_group/</link>
       <pubDate>Mon, 03 Jun 2024 15:36:38 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/free_group/</guid>
-      <description>Motivation &amp;amp; Definition Fix a set $X$. We would like to ‘canonically’ construct a group $F(X)$ containing $X$ ‘in the most efficient way’. The latter is encoded by a universal property, and the former makes $F:\catset\to\catgrp$ a left-adjoint to the forgetful functor $U:\catgrp\to\catset$.&#xA;Definition. A free group on $X$ is a group $F(X)$ equipped with a function $j:X\to F(X)$ that is universal in the following sense:&#xA;For every group $G$ and any function $f:X\to UG$, there is a unique group homomorphism $f&amp;rsquo;:F(X)\to G$ such that $Ff&amp;rsquo;\circ j=f$.</description>
+      <description>Motivation &amp;amp; Definition Fix a set $X$. We would like to ‘canonically’ construct a group $F(X)$ containing $X$ ‘in the most efficient way’. The latter is encoded by a universal property, and the former makes $F:\catset\to\catgrp$ a left-adjoint to the forgetful functor $U:\catgrp\to\catset$.&#xA;Definition.A free group on $X$ is a group $F(X)$ equipped with a function $j:X\to F(X)$ that is universal in the following sense:&#xA;For every group $G$ and any function $f:X\to UG$, there is a unique group homomorphism $f&amp;rsquo;:F(X)\to G$ such that $Ff&amp;rsquo;\circ j=f$.</description>
     </item>
     <item>
       <title>Integers</title>
@@ -195,14 +195,14 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/order/</link>
       <pubDate>Mon, 03 Jun 2024 15:04:46 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/order/</guid>
-      <description>Motivation &amp;amp; Definition Let $G$ be a group. The order of an element $x\in G$ is the size of its generated cyclic subgroup. A more elementary definition is as follows.&#xA;Definition. An element $x\in G$ has finite order if $x^n=e$ for some $n&amp;gt;0$; the least such $n$ is the order of $x$, denoted $\ord x$.&#xA;Otherwise, set $\ord x\coloneqq\infty$, and say that $x$ has infinite order.&#xA;Proof ($\ord x=|\!\gen{x}|$). Click to expand.</description>
+      <description>Motivation &amp;amp; Definition Let $G$ be a group. The order of an element $x\in G$ is the size of its generated cyclic subgroup. A more elementary definition is as follows.&#xA;Definition.An element $x\in G$ has finite order if $x^n=e$ for some $n&amp;gt;0$; the least such $n$ is the order of $x$, denoted $\ord x$.&#xA;Otherwise, set $\ord x\coloneqq\infty$, and say that $x$ has infinite order.&#xA;Proof ($\ord x=|\!\gen{x}|$).Click to expand... Since $\gen{x}$ is the image of the map $\phi_x:\Z\to G$ induced uniquely by sending $1\mapsto x$, if $\ker\phi_x=n\Z$ for some $n&amp;gt;0$, then$^\dagger$ $\im\phi_x\iso\Z/n\Z$ has cardinality $n$.</description>
     </item>
     <item>
       <title>Cyclic Group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/cyclic_group/</link>
       <pubDate>Mon, 03 Jun 2024 14:23:46 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/cyclic_group/</guid>
-      <description>Motivation &amp;amp; Definition The simplest class of groups are the cyclic groups, which are those that are generated by a single element.&#xA;Definition. A group $G$ is said to be cyclic if $G=\gen{x}$&#xA;$^\dagger$ for some $x\in G$.&#xA;Classification Let $G=\gen{x}$ be cyclic. By definition, $\phi:\Z\to G$ sending $m\mapsto x^m$ is surjective. Depending on the order $n\coloneqq\ord x$ of $x$, $G$ takes on the following forms.&#xA;If $1\leq n&amp;lt;\infty$, then $\ker\phi=n\Z$ and hence $^\dagger$ $G\iso\Z/n\Z$.</description>
+      <description>Motivation &amp;amp; Definition The simplest class of groups are the cyclic groups, which are those that are generated by a single element.&#xA;Definition.A group $G$ is said to be cyclic if $G=\gen{x}$$^\dagger$ for some $x\in G$. Classification Let $G=\gen{x}$ be cyclic. By definition, $\phi:\Z\to G$ sending $m\mapsto x^m$ is surjective. Depending on the order $n\coloneqq\ord x$ of $x$, $G$ takes on the following forms.&#xA;If $1\leq n&amp;lt;\infty$, then $\ker\phi=n\Z$ and hence$^\dagger$ $G\iso\Z/n\Z$.</description>
     </item>
     <item>
       <title>Adjunction</title>
@@ -216,35 +216,35 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/limits_category_theory/</link>
       <pubDate>Wed, 29 May 2024 20:16:10 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/limits_category_theory/</guid>
-      <description>Motivation &amp;amp; Definition Fix a category $C$.&#xA;Definition. Let $C,J$ be categories and fix a functor $F\in C^J$. A colimit of $F$ is a universal arrow $(r,u)$ from $F$ to the diagonal functor $\Delta:C\to C^J$.&#xA;Similarly, a limit of $F$ is a universal arrow $(t,v)$ from $\Delta$ to $F$.&#xA;Representable Functors Universal Elements Examples (Co)products (Co)equalizers Fibered (Co)products Directed (Co)limits </description>
+      <description>Motivation &amp;amp; Definition Fix a category $C$.&#xA;Definition.Let $C,J$ be categories and fix a functor $F\in C^J$. A colimit of $F$ is a universal arrow $(r,u)$ from $F$ to the diagonal functor $\Delta:C\to C^J$.&#xA;Similarly, a limit of $F$ is a universal arrow $(t,v)$ from $\Delta$ to $F$.&#xA;Representable Functors Universal Elements Examples (Co)products (Co)equalizers Fibered (Co)products Directed (Co)limits </description>
     </item>
     <item>
       <title>The Yoneda Lemma</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/yoneda_lemma/</link>
       <pubDate>Wed, 29 May 2024 18:17:16 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/yoneda_lemma/</guid>
-      <description>The Yoneda Embedding $\yo$ Statement &amp;amp; Proof Fix a locally-small category $C$. $\yo:C\to\catset$&#xA;Theorem (Yoneda). Let $C$ be a locally-small category. For every functor $F:C\to\catset$ and every object $c\in C$, we have a bijection $$\begin{equation} y\coloneqq y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c, \end{equation}$$ which is moreover natural in both $F$ and $c$. Proof (Bijection). Click to expand... Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via $$\begin{equation} t(a)_d:C(c,d)\to Fd\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ (f:c\rightarrow d)\mapsto Ff(a)\in Fd \end{equation}$$ for each $d\in C$.</description>
+      <description>The Yoneda Embedding $\yo$ Statement &amp;amp; Proof Fix a locally-small category $C$. $\yo:C\to\catset$&#xA;Theorem (Yoneda).Let $C$ be a locally-small category. For every functor $F:C\to\catset$ and every object $c\in C$, we have a bijection $$\begin{equation} y\coloneqq y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c, \end{equation}$$ which is moreover natural in both $F$ and $c$. Proof (Bijection).Click to expand... Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via $$\begin{equation} t(a)_d:C(c,d)\to Fd\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ (f:c\rightarrow d)\mapsto Ff(a)\in Fd \end{equation}$$ for each $d\in C$.</description>
     </item>
     <item>
       <title>Universal Constructions</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/universal_constructions/</link>
       <pubDate>Wed, 29 May 2024 17:38:25 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/universal_constructions/</guid>
-      <description>Motivation &amp;amp; Definition Universal Arrows Definition. Let $F:D\to C$ be a functor and fix $c\in C$. A universal arrow from $c$ to $F$ is an initial object in $(c\downto F)$. That is, it is a pair $(r,u)$, with $r\in D$ and $u:c\to Fr$, inducing for each $d\in D$ a bijection $$\begin{equation} \phi_d:D(r,d)\to C(c,Fd):f&amp;rsquo;\mapsto Ff&amp;rsquo;\circ u. \end{equation}$$ This can be visualized as in the following diagram.&#xA;Remark. The bijection $\phi_d$ is natural in $d$, for if $g&amp;rsquo;:d\to d&amp;rsquo;$, then $$\begin{equation} F(g&amp;rsquo;\circ f&amp;rsquo;)\circ u=Fg&amp;rsquo;\circ(Ff&amp;rsquo;\circ u) \end{equation}$$ for every morphism $f&amp;rsquo;:r\to d$, making its naturality square commute.</description>
+      <description>Motivation &amp;amp; Definition Universal Arrows Definition.Let $F:D\to C$ be a functor and fix $c\in C$. A universal arrow from $c$ to $F$ is an initial object in $(c\downto F)$. That is, it is a pair $(r,u)$, with $r\in D$ and $u:c\to Fr$, inducing for each $d\in D$ a bijection $$\begin{equation} \phi_d:D(r,d)\to C(c,Fd):f&amp;rsquo;\mapsto Ff&amp;rsquo;\circ u. \end{equation}$$ This can be visualized as in the following diagram.&#xA;Remark. The bijection $\phi_d$ is natural in $d$, for if $g&amp;rsquo;:d\to d&amp;rsquo;$, then $$\begin{equation} F(g&amp;rsquo;\circ f&amp;rsquo;)\circ u=Fg&amp;rsquo;\circ(Ff&amp;rsquo;\circ u) \end{equation}$$ for every morphism $f&amp;rsquo;:r\to d$, making its naturality square commute.</description>
     </item>
     <item>
       <title>Natural Transformation</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/natural_transformation/</link>
       <pubDate>Wed, 29 May 2024 13:41:19 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/natural_transformation/</guid>
-      <description>Motivation &amp;amp; Definition Definition. Let $F,G:C\to D$ be covariant functors between categories $C$ and $D$. A natural transformation $\eta:F\to G$ is a function assigning to each $c\in C$ a morphism $\eta_c:Fc\to Gc$ of $D$ such that for every $f\in C(c,c&amp;rsquo;)$, the diagram&#xA;commutes.</description>
+      <description>Motivation &amp;amp; Definition Definition.Let $F,G:C\to D$ be covariant functors between categories $C$ and $D$. A natural transformation $\eta:F\to G$ is a function assigning to each $c\in C$ a morphism $\eta_c:Fc\to Gc$ of $D$ such that for every $f\in C(c,c&amp;rsquo;)$, the diagram&#xA;commutes.</description>
     </item>
     <item>
       <title>Functor</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/functor/</link>
       <pubDate>Tue, 28 May 2024 16:05:23 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/functor/</guid>
-      <description>Motivation &amp;amp; Definition Definition. Let $C$ and $D$ be categories. A (covariant) functor $F:C\to D$ is the data of two functions:&#xA;An object function, assigning some $Fc\in D$ to each $c\in C$, and A morphism function, assigning some $Ff:Fc\to Fc&amp;rsquo;$ to each $f:c\to c&amp;rsquo;$, interacting in such a way that $$\begin{equation} F1_c=1_{Fc}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ F(f\circ g)=Ff\circ Fg \end{equation}$$ for all objects $c\in C$ and morphisms $f,g\in C$ whenever $f\circ g\in C$ is defined.</description>
+      <description>Motivation &amp;amp; Definition Definition.Let $C$ and $D$ be categories. A (covariant) functor $F:C\to D$ is the data of two functions:&#xA;An object function, assigning some $Fc\in D$ to each $c\in C$, and A morphism function, assigning some $Ff:Fc\to Fc&amp;rsquo;$ to each $f:c\to c&amp;rsquo;$, interacting in such a way that $$\begin{equation} F1_c=1_{Fc}\ \ \ \ \ \ \ \ \textrm{and}\ \ \ \ \ \ \ \ F(f\circ g)=Ff\circ Fg \end{equation}$$ for all objects $c\in C$ and morphisms $f,g\in C$ whenever $f\circ g\in C$ is defined.</description>
     </item>
     <item>
       <title>Category</title>
@@ -258,35 +258,35 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/group_action/</link>
       <pubDate>Wed, 22 May 2024 20:02:09 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/group_action/</guid>
-      <description>Motivation &amp;amp; Definition Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in ‘concrete objects’, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a&#xA;category $C$. A $G$-action is a&#xA;functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$.&#xA;Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$, and write $\phi_g(x)\coloneqq\phi(g)(x)$.</description>
+      <description>Motivation &amp;amp; Definition Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in ‘concrete objects’, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition.Let $G$ be a group and fix a category $C$. A $G$-action is a functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$. Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$, and write $\phi_g(x)\coloneqq\phi(g)(x)$.</description>
     </item>
     <item>
       <title>Abelian Group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/abelian_group/</link>
       <pubDate>Wed, 22 May 2024 18:53:29 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/abelian_group/</guid>
-      <description>Motivation &amp;amp; Definition Here, we consider a class of groups which $-$ despite being very general $-$ exhibit very useful properties absent in general groups.&#xA;Definition. A group $G$ is said to be Abelian if $gh=hg$ for all $g,h\in G$. Abelian Groups as $\Z$-modules We denote the subcategory of Abelian groups as $\catabgrp$, which is one of the most well-behaved categories. Indeed, ???.&#xA;We have a forgetful functor $\catmod[\Z]\to\catabgrp$, which is an isomorphism of categories ?</description>
+      <description>Motivation &amp;amp; Definition Here, we consider a class of groups which $-$ despite being very general $-$ exhibit very useful properties absent in general groups.&#xA;Definition.A group $G$ is said to be Abelian if $gh=hg$ for all $g,h\in G$. Abelian Groups as $\Z$-modules We denote the subcategory of Abelian groups as $\catabgrp$, which is one of the most well-behaved categories. Indeed, ???.&#xA;We have a forgetful functor $\catmod[\Z]\to\catabgrp$, which is an isomorphism of categories ?</description>
     </item>
     <item>
       <title>Group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/group/</link>
       <pubDate>Thu, 16 May 2024 21:34:09 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/group/</guid>
-      <description>Motivation &amp;amp; Definition The concept of a group was invented to capture the abstract properties of symmetries (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.&#xA;Definition. A group is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a distinguished element $e\in G$ called the identity, and operations $\cdot:G\times G\to G$ and $\iota:G\to G$, subject to the following conditions.&#xA;(Associativity). For all $g,h,k\in G$, we have $g\cdot(h\cdot k)=(g\cdot h)\cdot k$.</description>
+      <description>Motivation &amp;amp; Definition The concept of a group was invented to capture the abstract properties of symmetries (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.&#xA;Definition.A group is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a distinguished element $e\in G$ called the identity, and operations $\cdot:G\times G\to G$ and $\iota:G\to G$, subject to the following conditions.&#xA;(Associativity). For all $g,h,k\in G$, we have $g\cdot(h\cdot k)=(g\cdot h)\cdot k$.</description>
     </item>
     <item>
       <title>Metric Space</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/metric_space/</link>
       <pubDate>Tue, 14 May 2024 21:37:43 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/metric_space/</guid>
-      <description>Motivation &amp;amp; Definition Abstracting away the basic properties of Euclidean distance in $\R^n$, and most notably preserving the Triangle Inequality, we make the following&#xA;Definition. A metric on a set $X$ is a function $d:X\times X\to\R_{\geq0}$ such that&#xA;(Positive-definiteness). For all $x,y\in X$, we have $d(x,y)=0$ iff $x=y$. (Symmetry.) For all $x,y\in X$, we have $d(x,y)=d(y,x)$. ($\Delta$-inequality). For all $x,y,z\in X$, we have $d(x,z)\leq d(x,y)+d(y,z)$. If $d$ is a metric on $X$, we call the pair $\tpl{X,d}$ a metric space.</description>
+      <description>Motivation &amp;amp; Definition Abstracting away the basic properties of Euclidean distance in $\R^n$, and most notably preserving the Triangle Inequality, we make the following&#xA;Definition.A metric on a set $X$ is a function $d:X\times X\to\R_{\geq0}$ such that&#xA;(Positive-definiteness). For all $x,y\in X$, we have $d(x,y)=0$ iff $x=y$. (Symmetry.) For all $x,y\in X$, we have $d(x,y)=d(y,x)$. ($\Delta$-inequality). For all $x,y,z\in X$, we have $d(x,z)\leq d(x,y)+d(y,z)$. If $d$ is a metric on $X$, we call the pair $\tpl{X,d}$ a metric space.</description>
     </item>
     <item>
       <title>Topological Space</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/topological_space/</link>
       <pubDate>Tue, 14 May 2024 14:45:50 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/topological_space/</guid>
-      <description>Motivation &amp;amp; Definition Let $X$ be a set. We would like to formalize a notion of ‘closeness’ between two points without necessarily referring to a specific metric, but rather, via certain subsets of $X$ called open sets. One can think of these open sets as specifying ‘proximity’ without necessarily satisfying the triangle inequality.&#xA;The following definition is motivated by some properties $^\dagger$ of open sets generated by a metric $d$ on $X$, which we now axiomatize.</description>
+      <description>Motivation &amp;amp; Definition Let $X$ be a set. We would like to formalize a notion of ‘closeness’ between two points without necessarily referring to a specific metric, but rather, via certain subsets of $X$ called open sets. One can think of these open sets as specifying ‘proximity’ without necessarily satisfying the triangle inequality.&#xA;The following definition is motivated by some properties$^\dagger$ of open sets generated by a metric $d$ on $X$, which we now axiomatize.</description>
     </item>
   </channel>
 </rss>

@@ -35,173 +35,89 @@
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/nav.css">
 
-    <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
-        <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
-    </button>
-    <div id="content" class="left noScroll">
-        
-            <h1 id="title" titleSize="">
-                The Yoneda Lemma
-            </h1>
-        
-        <h1 id="the-yoneda-embedding-yo">The Yoneda Embedding $\yo$</h1>
+    <div id="mainPage">
+        <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
+            <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
+        </button>
+        <div id="content" class="left noScroll">
+            
+                <h1 id="title" titleSize="">
+                    The Yoneda Lemma
+                </h1>
+            
+            <h1 id="the-yoneda-embedding-yo">The Yoneda Embedding $\yo$</h1>
 <h2 id="statement--proof">Statement &amp; Proof</h2>
 <p>Fix a locally-small category $C$. $\yo:C\to\catset$</p>
-
-
-
-
-
-
-
-
-    
-
-
-<div class="env">
-    
-        <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg">
-
-        
-            <b class="envTitle">Theorem (Yoneda).</b>
-        
-
-        Let $C$ be a locally-small category. For every functor $F:C\to\catset$ and every object $c\in C$, we have a bijection
+<div class="env"><img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg"><b class="envTitle">Theorem (Yoneda).</b>Let $C$ be a locally-small category. For every functor $F:C\to\catset$ and every object $c\in C$, we have a bijection
 $$\begin{equation}
 y\coloneqq y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c,
 \end{equation}$$
-which is moreover natural in both $F$ and $c$.
-    
-</div>
+which is moreover natural in both $F$ and $c$.</div>
 
+<div class="envProof"><i class="proofHeader">Proof (Bijection).</i><div class="proofExpand"><i>Click to expand...</i></div>
 
-
-
-
-
-
-
-
-    
-    
-
-
-<div class="envProof">
-    
-        
-            <i class="proofHeader">Proof (Bijection).</i>
-        
-
-        <div class="proofExpand"><i>Click to expand...</i></div>
-
-        <span class="proofContent">
-            <p>Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via
+        <span class="proofContent"><p>Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via
 $$\begin{equation}
 t(a)_d:C(c,d)\to Fd\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ (f:c\rightarrow d)\mapsto Ff(a)\in Fd
 \end{equation}$$
 for each $d\in C$. That $a=y(t(a))$ is immediate since $t(a)_c(1_c)=F(1_c)a=1_ca=a$.</p>
-<p><br>  Conversely, let $\eta:C(c,\slot)\to F$ be a natural transformation, whence the diagram</p>
+<p><br>  Conversely, let $\eta:C(c,\slot)\to F$ be a natural transformation, whence the diagram
 <img class="tikz" src="https://zhaoshenzhai.github.io/mathwiki/img/yoneda_bijection.svg" width="300">
-commutes for any morphism $f:c\to d$. In particular, chasing $1_c\in C(c,c)$ around gives us $Ff(\eta_c(1_c))=\eta_d(f_\ast1_c)$, and thus $t(y(\eta))_df=Ff(y(\eta))=\eta_df$ for all $f:c\to d$. Hence, we have $t(y(\eta))=\eta$, as desired.<span style="float:right;">$\blacksquare$</span>
-
-        </span>
-    
-</div>
+commutes for any morphism $f:c\to d$. In particular, chasing $1_c\in C(c,c)$ around gives us $Ff(\eta_c(1_c))=\eta_d(f_\ast1_c)$, and thus $t(y(\eta))_df=Ff(y(\eta))=\eta_df$ for all $f:c\to d$. Hence, we have $t(y(\eta))=\eta$, as desired.<span style="float:right;">$\blacksquare$</span></p>
+</span></div>
 
 <div class="space"></div>
+<div class="envProof"><i class="proofHeader">Proof (Naturality).</i><div class="proofExpand"><i>Click to expand...</i></div>
 
-
-
-
-
-
-
-
-    
-    
-
-
-<div class="envProof">
-    
-        
-            <i class="proofHeader">Proof (Naturality).</i>
-        
-
-        <div class="proofExpand"><i>Click to expand...</i></div>
-
-        <span class="proofContent">
-            The naturality claims amounts to
-        </span>
-    
-</div>
+        <span class="proofContent">The naturality claims amounts to</span></div>
 
 <div class="space"></div>
 <h2 id="extensions-and-corollaries">Extensions and Corollaries</h2>
-
-
-
-
-
-
-
-
-    
-
-
-<div class="env">
-    
-        <img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg">
-
-        
-            <b class="envTitle">Theorem (Yoneda Embedding).</b>
-        
-
-        For any locally-small category $C$, the Yoneda embedding $\mf{y}:C^\textrm{op}\to\catset^C$ is fully-faithful.
-    
-</div>
+<div class="env"><img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg"><b class="envTitle">Theorem (Yoneda Embedding).</b>For any locally-small category $C$, the Yoneda embedding $\mf{y}:C^\textrm{op}\to\catset^C$ is fully-faithful.</div>
 
 <h1 id="interpretations">Interpretations</h1>
 <h2 id="group-actions">Group Actions</h2>
 
 
-        <div class="spacer">&nbsp;</div>
-    </div>
-
-    <div id="side">
-        <div id="metadata" class="right noScroll">
-            May 29, 2024 | Zhaoshen Zhai
-
-            <div id="references">References:
-                
-                    <div class="metaButton metaRef listenDark">#Mac10</div>
-                
-            </div>
-            <div id="tags">Tags:
-                
-                    <div class="metaButton metaTag listenDark">#Category_Theory</div>
-                
-                    <div class="metaButton metaTag listenDark">#In_Progress</div>
-                
-            </div>
-            <br>
-
-            <div id="toc">Table of Contents:
-                <button class="metaButton listenDark" onclick="showTOC();">Show</button>
-                <button class="metaButton listenDark" onclick="hideTOC();">Hide</button>
-                <div id="metaContents"></div>
-            </div>
-            <div id="links">Links:
-                <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
-                <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
-                <div id="metaLinks"></div>
-            </div>
-
             <div class="spacer">&nbsp;</div>
         </div>
-        <div id="preview">
-            <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
-                <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
-            </button>
+
+        <div id="side">
+            <div id="metadata" class="right noScroll">
+                May 29, 2024 | Zhaoshen Zhai
+
+                <div id="references">References:
+                    
+                        <div class="metaButton metaRef listenDark">#Mac10</div>
+                    
+                </div>
+                <div id="tags">Tags:
+                    
+                        <div class="metaButton metaTag listenDark">#Category_Theory</div>
+                    
+                        <div class="metaButton metaTag listenDark">#In_Progress</div>
+                    
+                </div>
+                <br>
+
+                <div id="toc">Table of Contents:
+                    <button class="metaButton listenDark" onclick="showTOC();">Show</button>
+                    <button class="metaButton listenDark" onclick="hideTOC();">Hide</button>
+                    <div id="metaContents"></div>
+                </div>
+                <div id="links">Links:
+                    <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
+                    <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
+                    <div id="metaLinks"></div>
+                </div>
+
+                <div class="spacer">&nbsp;</div>
+            </div>
+            <div id="preview">
+                <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
+                    <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
+                </button>
+            </div>
         </div>
     </div>
 

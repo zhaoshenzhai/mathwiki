@@ -11,6 +11,7 @@ var searchEngine;
 var root = getComputedStyle(document.querySelector(':root'));
 
 var curSearchItemActive = 0;
+var curSearchLength = searchLengthCap;
 export var searchActive = false;
 
 window.search = search;
@@ -54,12 +55,12 @@ function search(e) {
 }
 
 function updateSearchList(newList, newListPaths) {
-    var length = Math.min(newList.length, searchLengthCap);
+    curSearchLength = Math.min(newList.length, searchLengthCap);
     searchItemActive(0);
 
     for (let i = 0; i < searchLengthCap; i++) {
         var item = document.getElementById("searchItem" + i);
-        if (i < length) {
+        if (i < curSearchLength) {
             item.innerText = newList[i];
             item.setAttribute("href", newListPaths[i]);
             item.style.display = "block";
@@ -69,7 +70,7 @@ function updateSearchList(newList, newListPaths) {
         }
     }
 
-    searchBox.style.height = (55 + 40 * length) + "px";
+    searchBox.style.height = (55 + 40 * curSearchLength) + "px";
 }
 
 function searchItemActive(newActiveNum) {
@@ -84,14 +85,14 @@ function searchItemActive(newActiveNum) {
 }
 
 export function searchScroll(amount) {
-    var newItemActiveNum = curSearchItemActive + amount;
-    if (newItemActiveNum < 0) {
-        newItemActiveNum = searchLengthCap - 1;
-    } else if (newItemActiveNum >= searchLengthCap) {
-        newItemActiveNum = newItemActiveNum % searchLengthCap;
+    var newActiveNum = curSearchItemActive + amount;
+    if (newActiveNum < 0) {
+        newActiveNum = curSearchLength - 1;
+    } else if (newActiveNum >= curSearchLength) {
+        newActiveNum = newActiveNum % curSearchLength;
     }
 
-    searchItemActive(newItemActiveNum);
+    if (curSearchLength > 0) { searchItemActive(newActiveNum); }
 }
 
 export function searchOpen(newTab) {
@@ -99,8 +100,11 @@ export function searchOpen(newTab) {
     var path = window.origin + "/mathwiki/" + element.getAttribute("href");
 
     searchClear();
-    if (newTab) { window.open(path, "_blank");
-    } else { window.open(path, "_self"); }
+
+    if (curSearchLength > 0) {
+        if (newTab) { window.open(path, "_blank"); }
+        else { window.open(path, "_self"); }
+    }
 }
 
 export function searchClear() {

@@ -27,35 +27,35 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/filter/</link>
       <pubDate>Thu, 20 Jun 2024 11:27:17 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/filter/</guid>
-      <description>Motivation &amp;amp; Definition Definition. Let $P$ be a poset. A filter on $P$ is a subset $\em\neq F\subseteq P$ such that&#xA;(Upward-closure). If $p\in F$ and $q\geq p$, then $q\in F$. (Downward-directed). If $p_1,p_2\in F$, then there exists $q\in F$ with $q\leq p_1,p_2$. </description>
+      <description>Motivation &amp;amp; Definition Definition.Let $P$ be a poset. A filter on $P$ is a subset $\em\neq F\subseteq P$ such that&#xA;(Upward-closure). If $p\in F$ and $q\geq p$, then $q\in F$. (Downward-directed). If $p_1,p_2\in F$, then there exists $q\in F$ with $q\leq p_1,p_2$. </description>
     </item>
     <item>
       <title>Equivalence Relation</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/equivalence_relation/</link>
       <pubDate>Tue, 18 Jun 2024 20:07:21 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/equivalence_relation/</guid>
-      <description>Motivation &amp;amp; Definition Oftentimes, we wish to regard two objects as ‘being the same’ (for instance, two sets are ‘the same’ if they have the same cardinality), despite them not being equal. The concept of an equivalence relation can be thought of as a generalization of equality.&#xA;Definition. Let $X$ be a set. An equivalence relation on $X$ is a (binary) relation $E\subseteq X^2$ subject to the following conditions.&#xA;(Reflexive). For all $x\in X$, we have $(x,x)\in E$.</description>
+      <description>Motivation &amp;amp; Definition Oftentimes, we wish to regard two objects as ‘being the same’ (for instance, two sets are ‘the same’ if they have the same cardinality), despite them not being equal. The concept of an equivalence relation can be thought of as a generalization of equality.&#xA;Definition.Let $X$ be a set. An equivalence relation on $X$ is a (binary) relation $E\subseteq X^2$ subject to the following conditions.&#xA;(Reflexive). For all $x\in X$, we have $(x,x)\in E$.</description>
     </item>
     <item>
       <title>Ideal</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/ideal_ring_theory/</link>
       <pubDate>Thu, 06 Jun 2024 19:14:55 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/ideal_ring_theory/</guid>
-      <description>To study the quotient objects in a category, we must first understand the congruence relations in said category. For $\catring$, these are in correspondence with ideals.&#xA;Definition. Let $R$ be a ring. A (left) ideal in $R$ is a subgroup $(\mf{a},+)\substructeq R$ such that $r\mf{a}\subseteq\mf{a}$ for all $r\in R$.&#xA;Similarly for right ideals and two-sided ideals.</description>
+      <description>To study the quotient objects in a category, we must first understand the congruence relations in said category. For $\catring$, these are in correspondence with ideals.&#xA;Definition.Let $R$ be a ring. A (left) ideal in $R$ is a subgroup $(\mf{a},+)\substructeq R$ such that $r\mf{a}\subseteq\mf{a}$ for all $r\in R$.&#xA;Similarly for right ideals and two-sided ideals.</description>
     </item>
     <item>
       <title>Module</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/module/</link>
       <pubDate>Thu, 06 Jun 2024 18:07:45 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/module/</guid>
-      <description>Motivation &amp;amp; Definition Throughout, fix a ring $R$.&#xA;Definition. A (left) $R$-module is an&#xA;Abelian group $(M,+)$ equipped with a left&#xA;$R$-action $R\to\End_\catabgrp(M)$. That is, a function $R\times M\to M$ such that $$\begin{equation} r(m+n)=rm+rn,\ \ \ \ (r+s)m=rm+sm,\ \ \ \ (rs)m=r(sm),\ \ \ \ \mathit{and}\ \ \ \ 1m=m \end{equation}$$ for all $r,s\in R$ and $m,n\in M$.&#xA;The relevant structure-preserving maps for $R$-modules are as follows.&#xA;Definition. A function $f:M\to N$ between $R$-modules is a homomorphism if it is a group homomorphism $f:(M,+)\to(N,+)$ such that</description>
+      <description>Motivation &amp;amp; Definition Throughout, fix a ring $R$.&#xA;Definition.A (left) $R$-module is an Abelian group $(M,+)$ equipped with a left $R$-action $R\to\End_\catabgrp(M)$. That is, a function $R\times M\to M$ such that $$\begin{equation} r(m+n)=rm+rn,\ \ \ \ (r+s)m=rm+sm,\ \ \ \ (rs)m=r(sm),\ \ \ \ \mathit{and}\ \ \ \ 1m=m \end{equation}$$ for all $r,s\in R$ and $m,n\in M$. The relevant structure-preserving maps for $R$-modules are as follows.&#xA;Definition.A function $f:M\to N$ between $R$-modules is a homomorphism if it is a group homomorphism $f:(M,+)\to(N,+)$ such that</description>
     </item>
     <item>
       <title>Ring</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/ring/</link>
       <pubDate>Thu, 06 Jun 2024 15:26:58 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/ring/</guid>
-      <description>Motivation &amp;amp; Definition The concept of a ring naturally arises when studying the endomorphism group of an abelian group $G$. Indeed, $\End G$ is itself abelian $-$ but more importantly, it has an extra operation of composition. These operations are compatible in the sense that:&#xA;Definition. A ring is a monoid $(R,\cdot,1)$ equipped with the structure of an abelian group $(R,+,0)$ such that for all $r,s,t\in R$, we have $$\begin{equation} (r+s)\cdot t=r\cdot t+s\cdot t\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ t\cdot(r+s)=t\cdot r+t\cdot s.</description>
+      <description>Motivation &amp;amp; Definition The concept of a ring naturally arises when studying the endomorphism group of an abelian group $G$. Indeed, $\End G$ is itself abelian $-$ but more importantly, it has an extra operation of composition. These operations are compatible in the sense that:&#xA;Definition.A ring is a monoid $(R,\cdot,1)$ equipped with the structure of an abelian group $(R,+,0)$ such that for all $r,s,t\in R$, we have $$\begin{equation} (r+s)\cdot t=r\cdot t+s\cdot t\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ t\cdot(r+s)=t\cdot r+t\cdot s.</description>
     </item>
     <item>
       <title>Completeness of Category of Groups</title>
@@ -76,28 +76,28 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/limits_category_theory/</link>
       <pubDate>Wed, 29 May 2024 20:16:10 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/limits_category_theory/</guid>
-      <description>Motivation &amp;amp; Definition Fix a category $C$.&#xA;Definition. Let $C,J$ be categories and fix a functor $F\in C^J$. A colimit of $F$ is a universal arrow $(r,u)$ from $F$ to the diagonal functor $\Delta:C\to C^J$.&#xA;Similarly, a limit of $F$ is a universal arrow $(t,v)$ from $\Delta$ to $F$.&#xA;Representable Functors Universal Elements Examples (Co)products (Co)equalizers Fibered (Co)products Directed (Co)limits </description>
+      <description>Motivation &amp;amp; Definition Fix a category $C$.&#xA;Definition.Let $C,J$ be categories and fix a functor $F\in C^J$. A colimit of $F$ is a universal arrow $(r,u)$ from $F$ to the diagonal functor $\Delta:C\to C^J$.&#xA;Similarly, a limit of $F$ is a universal arrow $(t,v)$ from $\Delta$ to $F$.&#xA;Representable Functors Universal Elements Examples (Co)products (Co)equalizers Fibered (Co)products Directed (Co)limits </description>
     </item>
     <item>
       <title>The Yoneda Lemma</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/yoneda_lemma/</link>
       <pubDate>Wed, 29 May 2024 18:17:16 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/yoneda_lemma/</guid>
-      <description>The Yoneda Embedding $\yo$ Statement &amp;amp; Proof Fix a locally-small category $C$. $\yo:C\to\catset$&#xA;Theorem (Yoneda). Let $C$ be a locally-small category. For every functor $F:C\to\catset$ and every object $c\in C$, we have a bijection $$\begin{equation} y\coloneqq y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c, \end{equation}$$ which is moreover natural in both $F$ and $c$. Proof (Bijection). Click to expand... Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via $$\begin{equation} t(a)_d:C(c,d)\to Fd\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ (f:c\rightarrow d)\mapsto Ff(a)\in Fd \end{equation}$$ for each $d\in C$.</description>
+      <description>The Yoneda Embedding $\yo$ Statement &amp;amp; Proof Fix a locally-small category $C$. $\yo:C\to\catset$&#xA;Theorem (Yoneda).Let $C$ be a locally-small category. For every functor $F:C\to\catset$ and every object $c\in C$, we have a bijection $$\begin{equation} y\coloneqq y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c, \end{equation}$$ which is moreover natural in both $F$ and $c$. Proof (Bijection).Click to expand... Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via $$\begin{equation} t(a)_d:C(c,d)\to Fd\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ (f:c\rightarrow d)\mapsto Ff(a)\in Fd \end{equation}$$ for each $d\in C$.</description>
     </item>
     <item>
       <title>Universal Constructions</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/universal_constructions/</link>
       <pubDate>Wed, 29 May 2024 17:38:25 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/universal_constructions/</guid>
-      <description>Motivation &amp;amp; Definition Universal Arrows Definition. Let $F:D\to C$ be a functor and fix $c\in C$. A universal arrow from $c$ to $F$ is an initial object in $(c\downto F)$. That is, it is a pair $(r,u)$, with $r\in D$ and $u:c\to Fr$, inducing for each $d\in D$ a bijection $$\begin{equation} \phi_d:D(r,d)\to C(c,Fd):f&amp;rsquo;\mapsto Ff&amp;rsquo;\circ u. \end{equation}$$ This can be visualized as in the following diagram.&#xA;Remark. The bijection $\phi_d$ is natural in $d$, for if $g&amp;rsquo;:d\to d&amp;rsquo;$, then $$\begin{equation} F(g&amp;rsquo;\circ f&amp;rsquo;)\circ u=Fg&amp;rsquo;\circ(Ff&amp;rsquo;\circ u) \end{equation}$$ for every morphism $f&amp;rsquo;:r\to d$, making its naturality square commute.</description>
+      <description>Motivation &amp;amp; Definition Universal Arrows Definition.Let $F:D\to C$ be a functor and fix $c\in C$. A universal arrow from $c$ to $F$ is an initial object in $(c\downto F)$. That is, it is a pair $(r,u)$, with $r\in D$ and $u:c\to Fr$, inducing for each $d\in D$ a bijection $$\begin{equation} \phi_d:D(r,d)\to C(c,Fd):f&amp;rsquo;\mapsto Ff&amp;rsquo;\circ u. \end{equation}$$ This can be visualized as in the following diagram.&#xA;Remark. The bijection $\phi_d$ is natural in $d$, for if $g&amp;rsquo;:d\to d&amp;rsquo;$, then $$\begin{equation} F(g&amp;rsquo;\circ f&amp;rsquo;)\circ u=Fg&amp;rsquo;\circ(Ff&amp;rsquo;\circ u) \end{equation}$$ for every morphism $f&amp;rsquo;:r\to d$, making its naturality square commute.</description>
     </item>
     <item>
       <title>Natural Transformation</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/natural_transformation/</link>
       <pubDate>Wed, 29 May 2024 13:41:19 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/natural_transformation/</guid>
-      <description>Motivation &amp;amp; Definition Definition. Let $F,G:C\to D$ be covariant functors between categories $C$ and $D$. A natural transformation $\eta:F\to G$ is a function assigning to each $c\in C$ a morphism $\eta_c:Fc\to Gc$ of $D$ such that for every $f\in C(c,c&amp;rsquo;)$, the diagram&#xA;commutes.</description>
+      <description>Motivation &amp;amp; Definition Definition.Let $F,G:C\to D$ be covariant functors between categories $C$ and $D$. A natural transformation $\eta:F\to G$ is a function assigning to each $c\in C$ a morphism $\eta_c:Fc\to Gc$ of $D$ such that for every $f\in C(c,c&amp;rsquo;)$, the diagram&#xA;commutes.</description>
     </item>
     <item>
       <title>Category</title>
