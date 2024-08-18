@@ -29,6 +29,15 @@ fetch("/mathwiki/allFiles.json")
         searchEngine = new Fuse(allFiles, searchOptions);
     });
 
+export function searchInit() {
+    if (!searchBox.classList.contains("inPreview")) {
+        searchActive = true;
+        searchBox.style.display = "flex";
+        searchBar.focus();
+        search();
+    }
+}
+
 function search(e) {
     if (validateInput(e)) {
         var input = getInput(e);
@@ -74,19 +83,15 @@ function searchItemActive(newActiveNum) {
     curSearchItemActive = newActiveNum;
 }
 
-export function searchInit() {
-    if (!searchBox.classList.contains("inPreview")) {
-        searchActive = true;
-        searchBox.style.display = "flex";
-        searchBar.focus();
-        search();
+export function searchScroll(amount) {
+    var newItemActiveNum = curSearchItemActive + amount;
+    if (newItemActiveNum < 0) {
+        newItemActiveNum = searchLengthCap - 1;
+    } else if (newItemActiveNum >= searchLengthCap) {
+        newItemActiveNum = newItemActiveNum % searchLengthCap;
     }
-}
 
-export function searchClear() {
-    searchActive = false;
-    searchBox.style.display = "none";
-    searchBar.value = "";
+    searchItemActive(newItemActiveNum);
 }
 
 export function searchOpen(newTab) {
@@ -96,6 +101,12 @@ export function searchOpen(newTab) {
     searchClear();
     if (newTab) { window.open(path, "_blank");
     } else { window.open(path, "_self"); }
+}
+
+export function searchClear() {
+    searchActive = false;
+    searchBox.style.display = "none";
+    searchBar.value = "";
 }
 
 function validateInput(e) {

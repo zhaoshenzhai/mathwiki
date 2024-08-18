@@ -1,4 +1,4 @@
-import { searchInit, searchOpen, searchClear, searchActive } from "./search.js"
+import { searchInit, searchOpen, searchClear, searchActive, searchScroll } from "./search.js"
 import { resetSide } from "./preview.js"
 
 var metaKeyDown = false;
@@ -20,6 +20,10 @@ document.addEventListener('keydown', function(e) {
         } else if (searchActive) {
             searchOpen(ctrlKeyDown);
         }
+    } else if(searchActive && e.key === "ArrowDown") {
+        searchScroll(1);
+    } else if(searchActive && e.key === "ArrowUp") {
+        searchScroll(-1);
     }
 });
 
