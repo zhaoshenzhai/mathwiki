@@ -7,7 +7,7 @@ mathLink: $p$-group
 renderedTitle: $p\ $-group
 ---
 
-By {{< link file="lagranges_theorem" display="Lagrange’s Theorem" type="justifications" >}}, if a {{< link file="finite_group" display="finite group" type="references" >}} $G$ has {{< link file="prime_number" display="prime" type="references" >}} order $p$, then $G\iso\\,$ {{< link file="cyclic_group" display="$\Z/p\Z$" type="references" mod="space" >}} and has no non-trivial {{< link file="subgroup" display="subgroups" type="references" >}}. It is natural to ask for a generalization when $\l|G\r|$ is a *power* of $p$, or more generally, when the {{< link file="order" display="order" type="references" >}} of every $g\in G$ is a power of $p$.
+By {{< link file="lagranges_theorem" display="Lagrange’s Theorem" type="justifications" >}}, if a {{< link file="finite_group" display="finite group" type="references" >}} $G$ has {{< link file="prime_number" display="prime" type="references" >}} order $p$, then $G\iso\\,${{< link file="cyclic_group" display="$\Z/p\Z$" type="references" >}} and has no non-trivial {{< link file="subgroup" display="subgroups" type="references" >}}. It is natural to ask for a generalization when $\l|G\r|$ is a *power* of $p$, or more generally, when the {{< link file="order" display="order" type="references" >}} of every $g\in G$ is a power of $p$.
 
 <br>
 

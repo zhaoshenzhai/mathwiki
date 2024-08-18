@@ -11,7 +11,7 @@ Let $G$ be a {{< link file="finite_group" display="finite group" type="reference
 
 <br>
 
-&emsp;&emsp;*Cauchy’s Theorem* can be regarded as a partial converse thereof, stating that if $p$ is a *prime* divisor of $|G|$, then there is a ({{< link file="cyclic_group" display="cyclic" type="references" mod="space" >}}) subgroup $H\substructeq G$ of order $p$.
+&emsp;&emsp;*Cauchy’s Theorem* can be regarded as a partial converse thereof, stating that if $p$ is a *prime* divisor of $|G|$, then there is a ({{< link file="cyclic_group" display="cyclic" type="references" >}}) subgroup $H\substructeq G$ of order $p$.
 
 {{< env type="theorem" name="Cauchy" >}}
 

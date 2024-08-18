@@ -1,41 +1,39 @@
-{{ $path := .Get "file" }}
-{{ $type := .Get "type" }}
-{{ $display := .Get "display" }}
-{{ $section := .Get "section" }}
-{{ $mod := .Get "mod" }}
+{{- $path := .Get "file" -}}
+{{- $type := .Get "type" -}}
+{{- $display := .Get "display" -}}
+{{- $section := .Get "section" -}}
+{{- $mod := .Get "mod" -}}
 
-{{ $link := absURL $path }}
-{{ $page := .Page.GetPage $path }}
-{{ $mathLink := $page.Params.mathLink }}
+{{- $link := absURL $path -}}
+{{- $page := .Page.GetPage $path -}}
+{{- $mathLink := $page.Params.mathLink -}}
 
-{{ $name := "" }}
-{{ if $display }}
-    {{ $name = $display }}
-{{ else }}
-    {{ if $mathLink }}
-        {{ $name = $mathLink }}
-    {{ else }}
-        {{ $name = $page.Title }}
-    {{ end }}
-{{ end }}
+{{- $name := "" -}}
+{{- if $display -}}
+    {{ $name = $display -}}
+{{- else -}}
+    {{ if $mathLink -}}
+        {{ $name = $mathLink -}}
+    {{ else -}}
+        {{ $name = $page.Title -}}
+    {{ end -}}
+{{- end -}}
 
-{{ $title := "" }}
-{{ if $page }}
-    {{ $title = $page.Title }}
-{{ else }}
-    {{ $title = $display }}
-    {{ $type = printf "%s %s" $type "ghostLink" }}
-{{ end }}
+{{- $title := "" -}}
+{{- if $page -}}
+    {{ $title = $page.Title -}}
+{{- else -}}
+    {{ $title = $display -}}
+    {{ $type = printf "%s %s" $type "ghostLink" -}}
+{{- end -}}
 
-{{ if eq $mod "dag" }}
-    {{ $name = "$^\\dagger$" }}
-    {{ $type = printf "%s %s" $type "dag" }}
-{{ else if eq $mod "space" }}
-    {{ $type = printf "%s %s" $type "space" }}
-{{ end }}
+{{- if eq $mod "dag" -}}
+    {{ $name = "$^\\dagger$" -}}
+    {{ $type = printf "%s %s" $type "dag" -}}
+{{- end -}}
 
-{{ if $section }}
-    {{ $link = printf "%s%s%s" $link "/#" $section }}
-{{ end }}
+{{- if $section -}}
+    {{ $link = printf "%s%s%s" $link "/#" $section -}}
+{{- end -}}
 
 <a href={{ $link }} class="internalLink {{ $type }}" title="{{ $title }}" mathLink="{{ $mathLink }}" section="{{ $section }}" onmouseover="previewSide({{ $link }}, {{ $page }});" onmouseleave="clearPreviewSide({{ $page }});" onclick="updateCurrentSide(event, {{ $link }}, {{ $page }});">{{ $name }}</a>{{- "" -}}
