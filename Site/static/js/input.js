@@ -15,14 +15,11 @@ document.addEventListener('keydown', function(e) {
     } else if (e.key === "Escape") {
         searchActive ? searchClear() : resetSide();
     } else if (e.key === "Enter") {
-        if (metaKeyDown && !searchActive) {
-            searchInit();
-        } else if (searchActive) {
-            searchOpen(ctrlKeyDown);
-        }
-    } else if(searchActive && e.key === "ArrowDown") {
+        if (metaKeyDown && !searchActive) { searchInit(); }
+        else if (searchActive) { searchOpen(ctrlKeyDown); }
+    } else if (searchActive && e.key === "ArrowDown") {
         searchScroll(1);
-    } else if(searchActive && e.key === "ArrowUp") {
+    } else if (searchActive && e.key === "ArrowUp") {
         searchScroll(-1);
     }
 });
