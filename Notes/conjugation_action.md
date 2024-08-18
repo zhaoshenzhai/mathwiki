@@ -25,7 +25,7 @@ where $A\subseteq G$ contain exactly the elements with non-trivial classes.
 
 <br>
 
-&emsp;&emsp;A classical application is that $Z(G)$ is non-trivial {{< link file="fixed_point_theorems_of_p_groups" type="examples" mod="dag" >}} when $G$ is a {{< link file="finite_group" display="finite" type="references" >}} {{< link file="p_group" display="$p$-group" type="references" >}}.
+&emsp;&emsp;A classical application is that $Z(G)$ is non-trivial{{< link file="fixed_point_theorems_of_p_groups" type="examples" mod="dag" >}} when $G$ is a {{< link file="finite_group" display="finite" type="references" >}} {{< link file="p_group" display="$p$-group" type="references" >}}.
 
 # Action on {{< link file="subgroup" display="Subgroups" type="references" >}}
 
@@ -44,4 +44,4 @@ Applying the {{< link file="orbit_stabilizer_theorem" display="Orbit Stabilizer 
 
 <br>
 
-&emsp;&emsp;In particular, if $[G:H]$ is finite, then {{< link file="lagranges_theorem" type="justifications" mod="dag" >}} the number of subgroups of $G$ conjugate to $H$ divides $[G:H]$, since $[G:H]=[G:N_G(H)]\cdot[N_G(H):H]$.
+&emsp;&emsp;In particular, if $[G:H]$ is finite, then{{< link file="lagranges_theorem" type="justifications" mod="dag" >}} the number of subgroups of $G$ conjugate to $H$ divides $[G:H]$, since $[G:H]=[G:N_G(H)]\cdot[N_G(H):H]$.

@@ -39,7 +39,7 @@ Since group actions are functors, it makes sense to consider {{< link file="natu
 # Actions on $\catset$
 
 Taking $C\coloneqq\catset$ recovers the usual notion of a group acting on a set, in which case $\Aut X$ are just the permutations of $X$. Some important examples include:
-* The *left-multiplication* action of $G$ on $X\coloneqq G$, given by $\phi_g(x)\coloneqq gx$. That this action is faithful is {{< link file="cayleys_theorem" display="Cayley’s Theorem" type="properties" >}}. Moreover, it turns out {{< link file="orbit_stabilizer_theorem" type="properties" mod="dag" >}} that every action is the coproduct of certain left-multiplication actions of $G$.
+* The *left-multiplication* action of $G$ on $X\coloneqq G$, given by $\phi_g(x)\coloneqq gx$. That this action is faithful is {{< link file="cayleys_theorem" display="Cayley’s Theorem" type="properties" >}}. Moreover, it turns out{{< link file="orbit_stabilizer_theorem" type="properties" mod="dag" >}} that every action is the coproduct of certain left-multiplication actions of $G$.
 * The *{{< link file="conjugation_action" display="conjugation" type="examples" >}}* action of $G$ on $X\coloneqq G$, given by $\phi_g(x)\coloneqq gxg^{-1}$. The *center* of $G$ is the fixed points $Z(G)$, whose combinatorics is governed by the {{< link file="the_class_equation" display="Class Equation" type="properties" >}}.
 
 # Generalizations

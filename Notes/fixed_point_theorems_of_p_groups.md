@@ -56,7 +56,7 @@ We now apply the previous results to understand the $p$-subgroups of a finite gr
 
 {{< env type="lemma" >}}
 
-We have {{< link file="conjugation_action" type="references" mod="dag" >}} $[N_G(H):H]\equiv[G:H]\\,\mod\\,p$.
+We have{{< link file="conjugation_action" type="references" mod="dag" >}} $[N_G(H):H]\equiv[G:H]\\,\mod\\,p$.
 
 {{< /env >}}
 

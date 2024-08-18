@@ -43,4 +43,4 @@ where $A\subseteq G$ contain exactly the elements with non-trivial conjugacy cla
 
 <br>
 
-&emsp;&emsp;This can sometimes be used to show that $Z(G)$ is non-trivial, giving us a *fixed-point theorem*. See, for instance, how it applies {{< link file="fixed_point_theorems_of_p_groups" type="examples" mod="dag" >}} to {{< link file="p_group" display="$p$-groups" type="references" >}}.
+&emsp;&emsp;This can sometimes be used to show that $Z(G)$ is non-trivial, giving us a *fixed-point theorem*. See, for instance, how it applies{{< link file="fixed_point_theorems_of_p_groups" type="examples" mod="dag" >}} to {{< link file="p_group" display="$p$-groups" type="references" >}}.

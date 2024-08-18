@@ -22,7 +22,7 @@ $$\begin{equation}
 
 {{< /env >}}
 
-Clearly, $\iota:\ker f\to G$ composes with $f$ to the trivial map. It is moreover {{< link file="catgrp_is_complete" mod="dag" type="justifications" section="Kernels/Cokernels" >}} the ‘most efficient’ way of doing so, in the sense that it is the terminal object in the slice category $(K,\alpha:K\to G)$ making $f\circ\alpha=0$; this can then be interpreted as a  {{< link file="limits_category_theory" display="colimit" type="references" >}}.
+Clearly, $\iota:\ker f\to G$ composes with $f$ to the trivial map. It is moreover{{< link file="catgrp_is_complete" mod="dag" type="justifications" section="Kernels/Cokernels" >}} the ‘most efficient’ way of doing so, in the sense that it is the terminal object in the slice category $(K,\alpha:K\to G)$ making $f\circ\alpha=0$; this can then be interpreted as a  {{< link file="limits_category_theory" display="colimit" type="references" >}}.
 
 <div class="space"></div>
 
@@ -35,7 +35,7 @@ Kernels of homomorphisms are very special subgroups, in that they correspond pre
 
 # Cokernel
 
-Dually, we consider maps $\beta:H\to K$ *to* some group $K$. The *cokernel* of $f$ is the initial object in the coslice category $(K,\beta:H\to K)$ making $\beta\circ f=0$. It can {{< link file="catgrp_is_complete" mod="dag" type="justifications" section="Kernels/Cokernels" >}} be realized as the canonical {{< link file="quotient_group" display="projection" type="references" >}} $\pi:H\to H/\gen{\im f}_N$, where $\gen{\slot}_N$ takes the {{< link file="normal_subgroup" display="normal closure" type="references" section="Normal Closure" >}}, that is, the smallest normal subgroup containing $\im f$.
+Dually, we consider maps $\beta:H\to K$ *to* some group $K$. The *cokernel* of $f$ is the initial object in the coslice category $(K,\beta:H\to K)$ making $\beta\circ f=0$. It can{{< link file="catgrp_is_complete" mod="dag" type="justifications" section="Kernels/Cokernels" >}} be realized as the canonical {{< link file="quotient_group" display="projection" type="references" >}} $\pi:H\to H/\gen{\im f}_N$, where $\gen{\slot}_N$ takes the {{< link file="normal_subgroup" display="normal closure" type="references" section="Normal Closure" >}}, that is, the smallest normal subgroup containing $\im f$.
 
 <br>
 

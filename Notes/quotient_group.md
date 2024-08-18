@@ -11,7 +11,7 @@ Fix an {{< link file="equivalence_relation" display="equivalence relation" type=
 
 <br>
 
-&emsp;&emsp;Instead, we need to consider a {{< link file="congruence_relation" display="congruence" type="references" >}} $\sim$ on $G$, which (in the {{< link file="category" display="category" type="references" >}} {{< link file="group" display="$\catgrp$" type="references" section="The Category $\catgrp$" >}}) is an equivalence relation $\sim$ such that $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$. This suffices to induce a group structure on $G/\\!\sim$, whose identity is the {{< link file="normal_subgroup" display="normal subgroup" type="references" >}} $N\nsubgrpeq G$ induced {{< link file="normal_subgroup" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Congruence" >}} by $\sim$ and whose operation is $[g]\ast[h]\coloneqq[gh]$.
+&emsp;&emsp;Instead, we need to consider a {{< link file="congruence_relation" display="congruence" type="references" >}} $\sim$ on $G$, which (in the {{< link file="category" display="category" type="references" >}} {{< link file="group" display="$\catgrp$" type="references" section="The Category $\catgrp$" >}}) is an equivalence relation $\sim$ such that $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$. This suffices to induce a group structure on $G/\\!\sim$, whose identity is the {{< link file="normal_subgroup" display="normal subgroup" type="references" >}} $N\nsubgrpeq G$ induced{{< link file="normal_subgroup" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Congruence" >}} by $\sim$ and whose operation is $[g]\ast[h]\coloneqq[gh]$.
 
 <div class="space"></div>
 
@@ -39,7 +39,7 @@ If $g_1\sim g_2$ and $h_1\sim h_2$, then $g_1h_1\sim g_2h_2$.<span style="float:
 
 ## Fibers of Homomorphisms
 
-Given the above construction, and recalling that normal subgroups correspond {{< link file="normal_subgroup" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Kernel" >}} to {{< link file="kernel_group_theory" display="kernels" type="references" >}}, we may *a posteriori* define the quotient group of $G$ w.r.t. a homomorphism $f:G\to H$ as the set of fibers of $f$ equipped with the operation $f^{-1}(h_1)\ast f^{-1}(h_2)\coloneqq f^{-1}(h_1h_2)$. Its identity is, of course, $\ker f$.
+Given the above construction, and recalling that normal subgroups correspond{{< link file="normal_subgroup" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Kernel" >}} to {{< link file="kernel_group_theory" display="kernels" type="references" >}}, we may *a posteriori* define the quotient group of $G$ w.r.t. a homomorphism $f:G\to H$ as the set of fibers of $f$ equipped with the operation $f^{-1}(h_1)\ast f^{-1}(h_2)\coloneqq f^{-1}(h_1h_2)$. Its identity is, of course, $\ker f$.
 
 <br>
 
@@ -63,7 +63,7 @@ That $N\subseteq\ker f$ is equivalent to
 $$\begin{equation}
     \fa g_1,g_2\in G:g_1\sim g_2\Longrightarrow f(g_1)=f(g_2),
 \end{equation}$$
-for which the universal property {{< link file="quotient_set" type="proved_by" mod="dag" >}} of the {{< link file="quotient_set" display="quotient set" type="references" >}} $G/\\!\sim$ furnishes a unique function $f':G/N\to H$ such that $f=f'\circ\pi$. This is a homomorphism since
+for which the universal property{{< link file="quotient_set" type="proved_by" mod="dag" >}} of the {{< link file="quotient_set" display="quotient set" type="references" >}} $G/\\!\sim$ furnishes a unique function $f':G/N\to H$ such that $f=f'\circ\pi$. This is a homomorphism since
 $$\begin{equation}
     f'([g_1]\ast[g_2])=f'([g_1g_2])=f'(\pi(g_1g_2))=f(g_1g_2)=f(g_1)f(g_2)=f'([g_1])f'([g_2]),
 \end{equation}$$

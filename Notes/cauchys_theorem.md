@@ -33,7 +33,7 @@ We first prove the theorem in the abelian case, in order to apply it to the cent
 
 >{{< env type="proof" hide="true" name="Abelian case" >}}
 
-We proceed by induction on $|G|$. Let $H\substruct G$ be a maximal, which exists sine $|G|$ is finite. If $p$ divides $|H|$, then we are done by induction, so suppose otherwise and set $K\coloneqq\gen{x}$. Since $G$ is abelian, we have $HK=KH$, and hence {{< link file="subgroup_products" type="proved_by" mod="dag" section="Criteria for $HK\substructeq G$" >}} $H\substruct HK\substructeq G$. Maximality of $H$ then forces $HK=G$, so
+We proceed by induction on $|G|$. Let $H\substruct G$ be a maximal, which exists sine $|G|$ is finite. If $p$ divides $|H|$, then we are done by induction, so suppose otherwise and set $K\coloneqq\gen{x}$. Since $G$ is abelian, we have $HK=KH$, and hence{{< link file="subgroup_products" type="proved_by" mod="dag" section="Criteria for $HK\substructeq G$" >}} $H\substruct HK\substructeq G$. Maximality of $H$ then forces $HK=G$, so
 $$\begin{equation}
     |G|=|HK|=\frac{|H||K|}{|H\cap K|}.
 \end{equation}$$
@@ -61,6 +61,6 @@ Let $S\subseteq G^p$ be the subset of tuples $(x_1,\dots,x_p)$ such that $x_1\cd
 
 <br>
 
-&emsp;&emsp;The important observation is that $\Z/p\Z$ is a $p$-group, so {{< link file="fixed_point_theorems_of_p_groups" type="proved_by" mod="dag" >}} $|Z|\equiv|S|\\,\mod\\,p$ where $Z$ is the fixed-points of $\phi$. Thus $p\geq2$ divides $|Z|$ too, and since $(e,\dots,e)\in Z$, we have $|Z|>1$. But elements in $Z$ are $(x,\dots,x)\in S$ for $x\in G$, so there is some $x\in G$ with $x^p=e$, as desired.<span style="float:right;">$\blacksquare$</span>
+&emsp;&emsp;The important observation is that $\Z/p\Z$ is a $p$-group, so{{< link file="fixed_point_theorems_of_p_groups" type="proved_by" mod="dag" >}} $|Z|\equiv|S|\\,\mod\\,p$ where $Z$ is the fixed-points of $\phi$. Thus $p\geq2$ divides $|Z|$ too, and since $(e,\dots,e)\in Z$, we have $|Z|>1$. But elements in $Z$ are $(x,\dots,x)\in S$ for $x\in G$, so there is some $x\in G$ with $x^p=e$, as desired.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}

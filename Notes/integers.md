@@ -33,7 +33,7 @@ By well-ordering of $\N$, we have a minimal element $r\in S$, giving us some $q\
 
 {{< env type="corollary" >}}
 
-$\Z$ is a {{< link file="euclidean_domain" display="Euclidean domain" type="references" >}}, and is hence {{< link file="EUD_implies_PID" type="justifications" mod="dag" >}} a {{< link file="principal_ideal_domain" display="PID" type="references" >}}, hence {{< link file="PID_implies_UFD" type="justifications" mod="dag" >}} a {{< link file="unique_factorization_domain" display="UFD" type="references" >}}.
+$\Z$ is a {{< link file="euclidean_domain" display="Euclidean domain" type="references" >}}, and is hence{{< link file="EUD_implies_PID" type="justifications" mod="dag" >}} a {{< link file="principal_ideal_domain" display="PID" type="references" >}}, hence{{< link file="PID_implies_UFD" type="justifications" mod="dag" >}} a {{< link file="unique_factorization_domain" display="UFD" type="references" >}}.
 
 {{< /env >}}
 

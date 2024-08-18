@@ -21,7 +21,7 @@ An element $x\in G$ has **finite order** if $x^n=e$ for some $n>0$; the least su
 
 {{< env type="proof" hide="false" name="$\ord x=|\!\gen{x}|$" >}}
 
-Since $\gen{x}$ is the image of the map $\phi_x:\Z\to G$ induced uniquely by sending $1\mapsto x$, if $\ker\phi_x=n\Z$ for some $n>0$, then {{< link file="quotient_group" type="proved_by" mod="dag" section="Universal Property" >}} $\im\phi_x\iso\Z/n\Z$ has cardinality $n$. Those are the only {{< link file="integers" type="proved_by" mod="dag" section="Subgroups of $\Z$" >}} non-trivial subgroups of $\Z$, so otherwise, we have $\im\phi_x=\Z$.<span style="float:right;">$\blacksquare$</span>
+Since $\gen{x}$ is the image of the map $\phi_x:\Z\to G$ induced uniquely by sending $1\mapsto x$, if $\ker\phi_x=n\Z$ for some $n>0$, then{{< link file="quotient_group" type="proved_by" mod="dag" section="Universal Property" >}} $\im\phi_x\iso\Z/n\Z$ has cardinality $n$. Those are the only{{< link file="integers" type="proved_by" mod="dag" section="Subgroups of $\Z$" >}} non-trivial subgroups of $\Z$, so otherwise, we have $\im\phi_x=\Z$.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 

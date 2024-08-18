@@ -39,12 +39,12 @@ so $\l|H\r|$ divides $\l|G\r|$. Moreover, we clearly have $\l|I\r|=\l|G/H\r|=[G:
 
 This simple result is surprisingly useful. Let $G$ be a finite group.
 * For all $g\in G$, its {{< link file="order" display="order" type="references" >}} $\ord g$ divides $\l|G\r|$. Indeed, $\ord g=\l|\gen{g}\r|$.
-* If $p\coloneqq\l|G\r|$ is prime, then $G$ has no non-trivial subgroups, and {{< link file="cyclic_group" type="references" mod="dag" >}} $G\iso\Z/p\Z$.
+* If $p\coloneqq\l|G\r|$ is prime, then $G$ has no non-trivial subgroups, and{{< link file="cyclic_group" type="references" mod="dag" >}} $G\iso\Z/p\Z$.
 * If $K\substructeq H\substructeq G$ are subgroups, then $[G:K]=[G:H]\cdot[H:K]$.
 
 # Converse of Lagrange’s Theorem?
 
-A natural question to ask at this point is whether the converse holds, in the sense that if $d$ divides $\l|G\r|$ for a finite group $G$, is there necessarily a subgroup $H\substructeq G$ with $\l|H\r|=d$? This is *false*, as witnessed by {{< link file="alternating_group" type="references" mod="dag" >}} $G\coloneqq A_4$ and $d\coloneqq 6$.
+A natural question to ask at this point is whether the converse holds, in the sense that if $d$ divides $\l|G\r|$ for a finite group $G$, is there necessarily a subgroup $H\substructeq G$ with $\l|H\r|=d$? This is *false*, as witnessed by{{< link file="alternating_group" type="references" mod="dag" >}} $G\coloneqq A_4$ and $d\coloneqq 6$.
 
 <br>
 

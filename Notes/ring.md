@@ -32,7 +32,7 @@ for all $r_1,r_2\in R$.
 
 ## The Category $\catring$
 
-This category is {{< link file="catring_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}} and cocomplete, witnessed by the standard constructions of products, coproducts, kernels, cokernels, subobjects, and quotients.
+This category is{{< link file="catring_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}} and cocomplete, witnessed by the standard constructions of products, coproducts, kernels, cokernels, subobjects, and quotients.
 
 # Modules and Algebras
 

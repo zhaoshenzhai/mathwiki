@@ -61,7 +61,7 @@ If $\mc{N}_x$ admits a countable base $\mc{B}_x\subseteq\mc{N}_x$ $-$ which can 
 
 <br>
 
-&emsp;&emsp;Despite this simple generalization, the topology of $X$ is completely determined in terms of the convergence of nets in $X$. This is outlined here {{< link file="topology_using_nets" type="properties" mod="dag" >}}.
+&emsp;&emsp;Despite this simple generalization, the topology of $X$ is completely determined in terms of the convergence of nets in $X$. This is outlined here{{< link file="topology_using_nets" type="properties" mod="dag" >}}.
 
 <div class="space"></div>
 

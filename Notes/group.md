@@ -40,7 +40,7 @@ We have a forgetful {{< link file="functor" display="functor" type="references" 
 
 <div class="space"></div>
 
-This category is {{< link file="catgrp_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}} and cocomplete, witnessed by the standard constructions of products, coproducts, {{< link file="kernel_group_theory" display="kernel" type="constructions" >}}, {{< link file="kernel_group_theory" display="cokernels" type="constructions" section="Cokernel" >}}, {{< link file="subgroup" display="subobjects" type="constructions" >}}, and {{< link file="quotient_group" display="quotients" type="constructions" >}}.
+This category is{{< link file="catgrp_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}} and cocomplete, witnessed by the standard constructions of products, coproducts, {{< link file="kernel_group_theory" display="kernel" type="constructions" >}}, {{< link file="kernel_group_theory" display="cokernels" type="constructions" section="Cokernel" >}}, {{< link file="subgroup" display="subobjects" type="constructions" >}}, and {{< link file="quotient_group" display="quotients" type="constructions" >}}.
 
 <div class="space"></div>
 
