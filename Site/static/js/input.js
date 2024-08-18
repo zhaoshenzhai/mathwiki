@@ -35,5 +35,9 @@ document.addEventListener('keyup', function(e) {
     }
 });
 
+document.getElementById("mainPage").addEventListener('click', function(e) {
+    searchClear();
+});
+
 export function getMetaKeyDown() { return metaKeyDown; }
 export function getCtrlKeyDown() { return ctrlKeyDown; }
