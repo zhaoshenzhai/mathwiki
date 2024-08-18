@@ -20,15 +20,27 @@ window.searchOpen = searchOpen;
 window.searchClear = searchClear;
 window.searchItemActive = searchItemActive;
 
-// Extract from allFiles.json
-fetch("/mathwiki/allFiles.json")
-    .then(response => response.json())
-    .then((data) => {
-        allFiles = data;
+// Fetch from localStorage; else, fetch from allFiles
+document.addEventListener("DOMContentLoaded", (e) => {
+    var recentFiles = localStorage['recentFiles'];
+    if (recentFiles) {
+        var allFiles = JSON.parse(recentFiles);
+        var curPath = window.location.pathname.replace(/\//g, "").replace(/mathwiki/, "");
+        var curFileIndex = allFiles.findIndex(x => x.relPath == curPath);
+
+        allFiles.unshift(allFiles.splice(curFileIndex, 1)[0]);
         allFilePaths = allFiles.map((x) => x.relPath);
         allFileTitles = allFiles.map((x) => x.title);
         searchEngine = new Fuse(allFiles, searchOptions);
-    });
+
+        localStorage.setItem('recentFiles', JSON.stringify(allFiles));
+    } else {
+        fetch("/mathwiki/allFiles.json").then(response => response.json())
+        .then((data) => {
+            localStorage.setItem('recentFiles', JSON.stringify(data));
+        });
+    }
+});
 
 export function searchInit() {
     if (!searchBox.classList.contains("inPreview")) {
@@ -99,9 +111,8 @@ export function searchOpen(newTab) {
     var element = document.getElementById("searchItem" + curSearchItemActive);
     var path = window.origin + "/mathwiki/" + element.getAttribute("href");
 
-    searchClear();
-
     if (curSearchLength > 0) {
+        searchClear();
         if (newTab) { window.open(path, "_blank"); }
         else { window.open(path, "_self"); }
     }
