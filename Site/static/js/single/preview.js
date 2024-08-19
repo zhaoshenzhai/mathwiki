@@ -1,13 +1,11 @@
+import { contentEl, metaDataEl } from "../single.js";
 import { getCtrlKeyDown } from "../input.js";
 import { formatSpace } from "../stringUtils.js";
 
-var mainContent = document.getElementById("content");
-var defaultSide = document.getElementById("metadata");
 var resetButton = document.getElementById("resetSide");
 var previewContainer = document.getElementById("previewContainer");
 
-var currentSide = defaultSide;
-var frameContent;
+var currentSideEl, frameContent;
 
 var previewReady = false;
 var clicked = false;
@@ -26,7 +24,8 @@ function previewSide(link, page) {
     link = formatSpace(link);
 
     if (page == "nopPage") { return; }
-    if (currentSide.src != link && (!getPreview() || cleared)) {
+    if (!currentSideEl) { currentSideEl = metaDataEl; }
+    if (currentSideEl.src != link && (!getPreview() || cleared)) {
         getPreview()?.remove();
         previewReady = false;
         clicked = false;
@@ -39,7 +38,7 @@ function previewSide(link, page) {
             previewReady = true;
             if (!clicked && !cleared) {
                 triggerFadeInterrupt(frame);
-                fadeOut(currentSide, false);
+                fadeOut(currentSideEl, false);
                 fadeOut(resetButton, false);
                 fadeIn(frame);
             }
@@ -49,6 +48,7 @@ function previewSide(link, page) {
 
 function clearPreviewSide(page) {
     if (page == "nopPage") { return; }
+    if (!currentSideEl) { currentSideEl = metaDataEl; }
 
     var preview = getPreview();
     cleared = true;
@@ -56,7 +56,7 @@ function clearPreviewSide(page) {
     if (preview && previewReady) {
         triggerFadeInterrupt(preview);
 
-        fadeIn(currentSide);
+        fadeIn(currentSideEl);
         fadeIn(resetButton);
         fadeOut(preview, true);
     } else {
@@ -68,13 +68,14 @@ function updateCurrentSide(e, link, page) {
     link = formatSpace(link);
     e.preventDefault();
     if (page == "nopPage") { return; }
+    if (!currentSideEl) { currentSideEl = metaDataEl; }
 
-    if (!mainContent.classList.contains("openLinks") && !getCtrlKeyDown()) {
+    if (!contentEl.classList.contains("openLinks") && !getCtrlKeyDown()) {
         var preview = getPreview();
         clicked = true;
 
-        if (!preview && currentSide.src == link) {
-            window.open(currentSide.src, "_self");
+        if (!preview && currentSideEl.src == link) {
+            window.open(currentSideEl.src, "_self");
         } else if (!preview) {
             previewSide(link);
             updateCurrentSide(e, link);
@@ -82,7 +83,7 @@ function updateCurrentSide(e, link, page) {
             getActive()?.remove();
             setActiveFrame(preview, false);
         } else {
-            fadeOut(currentSide, true);
+            fadeOut(currentSideEl, true);
             preview.addEventListener("load", function() {
                 setActiveFrame(preview, true);
             });
@@ -94,8 +95,8 @@ function updateCurrentSide(e, link, page) {
 
 export function resetSide() {
     if (getActive()) {
-        currentSide = defaultSide;
-        fadeIn(currentSide);
+        currentSideEl = metaDataEl;
+        fadeIn(currentSideEl);
 
         fadeOut(getActive(), true);
 
@@ -135,12 +136,12 @@ function newPreviewFrame(link) {
 }
 
 function setActiveFrame(newFrame, makeVisible) {
-    currentSide = newFrame;
-    currentSide.setAttribute("id", "activeFrame");
+    currentSideEl = newFrame;
+    currentSideEl.setAttribute("id", "activeFrame");
     frameContent.style.opacity = "1";
     resetButton.style.display = "inline";
 
-    if (makeVisible) { fadeIn(currentSide); }
+    if (makeVisible) { fadeIn(currentSideEl); }
     resetButton.dispatchEvent(fadeInterrupt);
     fadeIn(resetButton);
 }
@@ -152,7 +153,7 @@ function fadeOut(element, remove) {
         element.style.opacity = i;
         i -= fadeAmount;
         if (i <= 0) {
-            if (remove && element != defaultSide) {
+            if (remove && element != metaDataEl) {
                 element.remove();
             } else {
                 element.style.opacity = 0;
@@ -183,12 +184,12 @@ function fadeIn(element) {
 }
 
 function triggerFadeInterrupt(previewEl) {
-    currentSide.dispatchEvent(fadeInterrupt);
+    currentSideEl.dispatchEvent(fadeInterrupt);
     resetButton.dispatchEvent(fadeInterrupt);
     previewEl.dispatchEvent(fadeInterrupt);
 }
 function interruptFade(timer, element, remove) {
-    if (remove && element != defaultSide) { element.remove(); }
+    if (remove && element != metaDataEl) { element.remove(); }
     clearInterval(timer);
 }
 

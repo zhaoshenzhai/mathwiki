@@ -65,7 +65,7 @@ function generateTOC() {
     metaTOCEl.appendChild(h1Headers);
 
     if (Object.keys(headers).length == 0) {
-        document.getElementById("toc").remove();
+        document.getElementById("metaTOC").remove();
     }
 
     for(var [h1Index, h2List] of Object.entries(headers)) {

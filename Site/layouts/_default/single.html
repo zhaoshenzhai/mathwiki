@@ -38,24 +38,24 @@
             <div id="metadata" class="right noScroll">
                 {{ .Params.date | time.Format ":date_long" }} | Zhaoshen Zhai
 
-                <div id="references">References:
+                <div>References:
                     {{ range .Params.references }}
                         <div class="metaButton metaRef listenDark">#{{ . }}</div>
                     {{ else }} None {{ end }}
                 </div>
-                <div id="tags">Tags:
+                <div>Tags:
                     {{ range .Params.tags }}
                         <div class="metaButton metaTag listenDark">#{{ . }}</div>
                     {{ else }} None {{ end }}
                 </div>
                 <br>
 
-                <div id="toc">Table of Contents:
-                    <button class="metaButton listenDark" onclick="showTOC();">Show</button>
-                    <button class="metaButton listenDark" onclick="hideTOC();">Hide</button>
+                <div>Table of Contents:
+                    <button class="metaButton listenDark" onclick="showMetaTOC();">Show</button>
+                    <button class="metaButton listenDark" onclick="hideMetaTOC();">Hide</button>
                     <div id="metaTOC"></div>
                 </div>
-                <div id="metaLinksWrapper">Links:
+                <div>Links:
                     <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
                     <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
                     <div id="metaLinks"></div>

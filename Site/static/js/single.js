@@ -11,7 +11,7 @@ export var textHeight = fontSize + 7;
 export var metaLinksEl;
 export var headersEl, metaTOCEl;
 
-export var contentEl, metaEl, previewEl;
+export var contentEl, metaDataEl;
 
 document.addEventListener("DOMContentLoaded", (e) => {
     metaLinksEl = document.getElementById("metaLinks");
@@ -22,4 +22,5 @@ document.addEventListener("DOMContentLoaded", (e) => {
     initMetaTOC();
 
     contentEl = document.getElementById("content");
+    metaDataEl = document.getElementById("metadata");
 });
