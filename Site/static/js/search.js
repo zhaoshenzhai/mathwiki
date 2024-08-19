@@ -1,8 +1,8 @@
-import { getBasePath } from "./stringUtils.js";
+import { getBasePath } from './stringUtils.js';
 
-var searchBox = document.getElementById("searchBox");
-var searchBar = document.getElementById("searchBar");
-var searchList = document.getElementById("searchList");
+var searchBox = document.getElementById('searchBox');
+var searchBar = document.getElementById('searchBar');
+var searchList = document.getElementById('searchList');
 
 var allFiles, allFileTitles, allFilePaths;
 
@@ -23,7 +23,7 @@ window.searchClear = searchClear;
 window.searchItemActive = searchItemActive;
 
 // Fetch from localStorage; if DNE, fetch from allFiles
-document.addEventListener("DOMContentLoaded", (e) => {
+document.addEventListener('DOMContentLoaded', (e) => {
     var recentFiles = localStorage['recentFiles'];
     if (recentFiles) {
         var allFiles = JSON.parse(recentFiles);
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
         localStorage.setItem('recentFiles', JSON.stringify(allFiles));
     } else {
-        fetch("/mathwiki/allFiles.json").then(response => response.json())
+        fetch('/mathwiki/allFiles.json').then(response => response.json())
         .then((data) => {
             localStorage.setItem('recentFiles', JSON.stringify(data));
         });
@@ -45,9 +45,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 export function searchInit() {
-    if (!searchBox.classList.contains("inPreview")) {
+    if (!searchBox.classList.contains('inPreview')) {
         searchActive = true;
-        searchBox.style.display = "flex";
+        searchBox.style.display = 'flex';
         searchBar.focus();
         search();
     }
@@ -73,25 +73,25 @@ function updateSearchList(newList, newListPaths) {
     searchItemActive(0);
 
     for (let i = 0; i < searchLengthCap; i++) {
-        var item = document.getElementById("searchItem" + i);
+        var item = document.getElementById('searchItem' + i);
         if (i < curSearchLength) {
             item.innerText = newList[i];
-            item.setAttribute("href", newListPaths[i]);
-            item.style.display = "block";
+            item.setAttribute('href', newListPaths[i]);
+            item.style.display = 'block';
         } else {
-            item.innerText = "";
-            item.style.display = "none";
+            item.innerText = '';
+            item.style.display = 'none';
         }
     }
 
-    searchBox.style.height = (55 + ((23 + 17) * curSearchLength)) + "px";
+    searchBox.style.height = (55 + ((23 + 17) * curSearchLength)) + 'px';
 }
 
 function searchItemActive(newActiveNum) {
-    var oldActive = document.getElementById("searchItem" + curSearchItemActive);
-    oldActive.style.background = "";
+    var oldActive = document.getElementById('searchItem' + curSearchItemActive);
+    oldActive.style.background = '';
 
-    var newActive = document.getElementById("searchItem" + newActiveNum);
+    var newActive = document.getElementById('searchItem' + newActiveNum);
     var boxBG = root.getPropertyValue('--box-bg');
     newActive.style.background = boxBG;
 
@@ -110,24 +110,24 @@ export function searchScroll(amount) {
 }
 
 export function searchOpen(newTab) {
-    var element = document.getElementById("searchItem" + curSearchItemActive);
-    var path = window.origin + "/mathwiki/" + element.getAttribute("href");
+    var element = document.getElementById('searchItem' + curSearchItemActive);
+    var path = window.origin + '/mathwiki/' + element.getAttribute('href');
 
     if (curSearchLength > 0) {
         searchClear();
-        if (newTab) { window.open(path, "_blank"); }
-        else { window.open(path, "_self"); }
+        if (newTab) { window.open(path, '_blank'); }
+        else { window.open(path, '_self'); }
     }
 }
 
 export function searchClear() {
     searchActive = false;
-    searchBox.style.display = "none";
-    searchBar.value = "";
+    searchBox.style.display = 'none';
+    searchBar.value = '';
 }
 
 function validateInput(e) {
-    return !e || /^[a-zA-Z0-9]$/.test(e.key) || e.key === "Backspace";
+    return !e || /^[a-zA-Z0-9]$/.test(e.key) || e.key === 'Backspace';
 }
 function getInput(e) {
     var init = searchBar.value;
@@ -135,7 +135,7 @@ function getInput(e) {
     if (e) {
         if (/^[a-zA-Z0-9]$/.test(e.key)) {
             init = searchBar.value + e.key;
-        } else if (e.key === "Backspace") {
+        } else if (e.key === 'Backspace') {
             init = init.substr(0, init.length - 1);
         }
     }

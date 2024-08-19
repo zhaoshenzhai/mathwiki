@@ -1,5 +1,5 @@
-import { toSmallCaps, textOfNode } from "../stringUtils.js";
-import { fontSize, scFontSize, headersEl, metaTOCEl } from "../single.js";
+import { toSmallCaps, textOfNode } from '../stringUtils.js';
+import { fontSize, scFontSize, headersEl, metaTOCEl } from '../single.js';
 
 window.showMetaTOC = showMetaTOC;
 window.hideMetaTOC = hideMetaTOC;
@@ -16,7 +16,7 @@ function expandHeaders() {
     for (var i = 1; i < headersEl.length; i++) {
         var h2List = [];
         var h2Index = i + 1;
-        while (headersEl[h2Index] && headersEl[h2Index].tagName == "H2") {
+        while (headersEl[h2Index] && headersEl[h2Index].tagName == 'H2') {
             h2List.push(headersEl[h2Index]);
             h2Index++;
         }
@@ -27,8 +27,8 @@ function expandHeaders() {
 }
 
 function styleHeaders() {
-    var newTitle = document.createElement("h1");
-    var newTitleSize = headersEl[0].getAttribute("titleSize");
+    var newTitle = document.createElement('h1');
+    var newTitleSize = headersEl[0].getAttribute('titleSize');
     if (!newTitleSize) { newTitleSize = 25; }
 
     var newTitleSC = toSmallCaps(
@@ -38,11 +38,11 @@ function styleHeaders() {
     );
 
     newTitle.appendChild(newTitleSC);
-    newTitle.setAttribute("id", "title");
-    newTitle.classList.add("center");
+    newTitle.setAttribute('id', 'title');
+    newTitle.classList.add('center');
 
     if (headersEl[0].nextElementSibling != headersEl[1]) {
-        newTitle.classList.add("title_spacer");
+        newTitle.classList.add('title_spacer');
     }
 
     headersEl[0].replaceWith(newTitle);
@@ -60,47 +60,47 @@ function styleHeaders() {
 }
 
 function generateTOC() {
-    var h1Headers = document.createElement("ol");
-    h1Headers.classList.add("metaContentListH1");
+    var h1Headers = document.createElement('ol');
+    h1Headers.classList.add('metaTOCListH1');
     metaTOCEl.appendChild(h1Headers);
 
     if (Object.keys(headers).length == 0) {
-        document.getElementById("metaTOC").remove();
+        document.getElementById('metaTOC').remove();
     }
 
     for(var [h1Index, h2List] of Object.entries(headers)) {
-        var h1El = document.createElement("li");
-        var h1Button = document.createElement("button");
+        var h1El = document.createElement('li');
+        var h1Button = document.createElement('button');
         h1El.appendChild(h1Button);
         h1Headers.appendChild(h1El);
 
-        h1Button.onclick = function () { goTo(this.getAttribute("text")) };
-        h1Button.classList.add("metaContentButton");
-        h1Button.classList.add("listenDark");
-        h1Button.innerText = headersEl[h1Index].getAttribute("id");
-        h1Button.setAttribute("text", h1Button.innerText);
+        h1Button.onclick = function () { goTo(this.getAttribute('text')) };
+        h1Button.classList.add('metaTOCButton');
+        h1Button.classList.add('listenDark');
+        h1Button.innerText = headersEl[h1Index].getAttribute('id');
+        h1Button.setAttribute('text', h1Button.innerText);
 
-        var h2Headers = document.createElement("ol");
-        h2Headers.classList.add("metaContentListH2");
+        var h2Headers = document.createElement('ol');
+        h2Headers.classList.add('metaTOCListH2');
         h1El.appendChild(h2Headers);
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
-            var h2El = document.createElement("li");
-            var h2Button = document.createElement("button");
+            var h2El = document.createElement('li');
+            var h2Button = document.createElement('button');
             h2El.appendChild(h2Button);
             h2Headers.appendChild(h2El);
 
-            h2Button.onclick = function () { goTo(this.getAttribute("text")) };
-            h2Button.classList.add("metaContentButton");
-            h2Button.classList.add("listenDark");
+            h2Button.onclick = function () { goTo(this.getAttribute('text')) };
+            h2Button.classList.add('metaTOCButton');
+            h2Button.classList.add('listenDark');
             h2Button.innerText = h2List[h2Index].innerText
-                .replace(/\.$/, "").replace(/.*\.\ /, "");
-            h2Button.setAttribute("text", h2Button.innerText);
+                .replace(/\.$/, '').replace(/.*\.\ /, '');
+            h2Button.setAttribute('text', h2Button.innerText);
         }
     }
 }
 
 export function showMetaTOC() {
-    metaTOCEl.style.maxHeight = metaTOCEl.scrollHeight + "px";
+    metaTOCEl.style.maxHeight = metaTOCEl.scrollHeight + 'px';
 }
 function hideMetaTOC() {
     metaTOCEl.style.maxHeight = null;
@@ -113,9 +113,9 @@ function goTo(anchor) {
 }
 
 function styleH1(el, counter) {
-    el.setAttribute("id", el.innerText);
-    el.classList.add("center");
-    el.classList.add("h1Title");
+    el.setAttribute('id', el.innerText);
+    el.classList.add('center');
+    el.classList.add('h1Title');
 
     for (var i = 0; i < el.childNodes.length; i++) {
         if (!el.childNodes[i].innerText) {
@@ -131,18 +131,18 @@ function styleH1(el, counter) {
         }
     }
 
-    var num = document.createElement("span");
-    num.innerText = counter + ". ";
+    var num = document.createElement('span');
+    num.innerText = counter + '. ';
     el.prepend(num);
 }
 
 function styleH2(el, parentCounter, counter) {
-    var num = document.createElement("span");
-    num.innerText = parentCounter + "." + counter + ". "
-    num.style.fontWeight = "normal";
+    var num = document.createElement('span');
+    num.innerText = parentCounter + '.' + counter + '. '
+    num.style.fontWeight = 'normal';
 
-    el.setAttribute("id", el.innerText);
-    el.style.fontSize = "25px";
-    el.innerHTML += ".";
+    el.setAttribute('id', el.innerText);
+    el.style.fontSize = '25px';
+    el.innerHTML += '.';
     el.prepend(num);
 }

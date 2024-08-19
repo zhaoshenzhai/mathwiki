@@ -1,5 +1,5 @@
-import { firstUpper, toSpace } from "../stringUtils.js";
-import { metaLinksEl } from "../single.js";
+import { firstUpper, toSpace } from '../stringUtils.js';
+import { metaLinksEl } from '../single.js';
 
 window.expandMetaLinks = expandMetaLinks;
 window.collapseMetaLinks = collapseMetaLinks;
@@ -7,13 +7,13 @@ window.collapseMetaLinks = collapseMetaLinks;
 var metaLinks = {};
 
 export function initMetaLinks() {
-    var outgoingLinks = document.getElementsByClassName("internalLink");
+    var outgoingLinks = document.getElementsByClassName('internalLink');
     var metaLinkTracker = [];
     for (var i = 0; i < outgoingLinks.length; i++) {
         var link = outgoingLinks[i];
         var linkType = link.classList[1];
 
-        var linkBaseHref = link.href.replace(/\/#.*/, "");
+        var linkBaseHref = link.href.replace(/\/#.*/, '');
         if (!metaLinkTracker.includes(linkType + linkBaseHref)) {
             var metaLinkType = metaLinks[linkType];
             if (!metaLinkType) { metaLinkType = newMetaLinkType(linkType); }
@@ -24,7 +24,7 @@ export function initMetaLinks() {
     }
 
     for(var [key, val] of Object.entries(metaLinks)) {
-        val.addEventListener("click", function() { toggleMetaLink(this); });
+        val.addEventListener('click', function() { toggleMetaLink(this); });
     }
 
     [...metaLinksEl.children]
@@ -49,45 +49,45 @@ function toggleMetaLink(metaLink) {
 
     if (links.style.maxHeight) {
         links.style.maxHeight = null;
-        icon.style.rotate = "-90deg";
+        icon.style.rotate = '-90deg';
     }
     else {
-        links.style.maxHeight = links.scrollHeight + "px";
-        icon.style.rotate = "0deg";
+        links.style.maxHeight = links.scrollHeight + 'px';
+        icon.style.rotate = '0deg';
     }
 }
 function expandMetaLink(metaLink) {
     var links = metaLink.nextElementSibling;
     var icon = metaLink.firstChild;
-    links.style.maxHeight = links.scrollHeight + "px";
-    icon.style.rotate = "0deg";
+    links.style.maxHeight = links.scrollHeight + 'px';
+    icon.style.rotate = '0deg';
 }
 function collapseMetaLink(metaLink) {
     var links = metaLink.nextElementSibling;
     var icon = metaLink.firstChild;
     links.style.maxHeight = null;
-    icon.style.rotate = "-90deg";
+    icon.style.rotate = '-90deg';
 }
 
 function newMetaLinkType(linkType) {
-    var newLinkButton = document.createElement("button");
-    var newLinkList = document.createElement("ul");
-    var newLinkDiv = document.createElement("div");
+    var newLinkButton = document.createElement('button');
+    var newLinkList = document.createElement('ul');
+    var newLinkDiv = document.createElement('div');
 
-    newLinkButton.innerText = " " + toSpace(firstUpper(linkType));
-    newLinkButton.classList.add("metaLinkButton");
-    newLinkButton.classList.add("listenDark");
-    newLinkList.classList.add("metaLinkList");
+    newLinkButton.innerText = ' ' + toSpace(firstUpper(linkType));
+    newLinkButton.classList.add('metaLinkButton');
+    newLinkButton.classList.add('listenDark');
+    newLinkList.classList.add('metaLinkList');
 
-    var icon = document.createElement("img");
-    icon.setAttribute("src", "../css/fa/arrow-head.svg");
-    icon.classList.add("icon");
+    var icon = document.createElement('img');
+    icon.setAttribute('src', '../css/fa/arrow-head.svg');
+    icon.classList.add('icon');
     newLinkButton.prepend(icon);
 
     metaLinks[linkType] = newLinkButton;
     metaLinksEl.appendChild(newLinkDiv);
 
-    newLinkDiv.setAttribute("id", "l-" + linkType);
+    newLinkDiv.setAttribute('id', 'l-' + linkType);
     newLinkDiv.insertBefore(newLinkButton, newLinkList.nextSibling);
     newLinkDiv.appendChild(newLinkList);
 
@@ -95,30 +95,30 @@ function newMetaLinkType(linkType) {
 }
 
 function newMetaLink(link) {
-    var metaLinkContainer = document.createElement("li");
-    var metaLink = document.createElement("a");
+    var metaLinkContainer = document.createElement('li');
+    var metaLink = document.createElement('a');
 
     metaLinkContainer.appendChild(metaLink);
-    metaLink.setAttribute("href", link.href);
+    metaLink.setAttribute('href', link.href);
     metaLink.onclick = function (e) {
-        if (metaLink.classList.contains("ghostLink")) {
+        if (metaLink.classList.contains('ghostLink')) {
             e.preventDefault();
         }
     };
 
-    var title = link.getAttribute("title");
-    if (!title) { title = link.href.replace(/.*\//, ""); }
+    var title = link.getAttribute('title');
+    if (!title) { title = link.href.replace(/.*\//, ''); }
 
-    var mathLink = link.getAttribute("mathLink");
+    var mathLink = link.getAttribute('mathLink');
     if (mathLink) { title = mathLink; }
 
-    var sectionTitle = link.getAttribute("section");
-    if (sectionTitle) { title += (" | " + sectionTitle); }
+    var sectionTitle = link.getAttribute('section');
+    if (sectionTitle) { title += (' | ' + sectionTitle); }
 
     metaLink.innerText = title;
 
-    if (link.classList.contains("ghostLink")) {
-        metaLink.classList.add("ghostLink");
+    if (link.classList.contains('ghostLink')) {
+        metaLink.classList.add('ghostLink');
     }
 
     return metaLinkContainer;
@@ -126,17 +126,17 @@ function newMetaLink(link) {
 
 function typePriority(linkEl) {
     const allLinks = [
-        "types",
-        "constructions",
-        "structures",
-        "properties",
-        "examples",
-        "generalizations",
-        "sufficiencies",
-        "proved_by",
-        "corollaries",
-        "justifications",
-        "references"
+        'types',
+        'constructions',
+        'structures',
+        'properties',
+        'examples',
+        'generalizations',
+        'sufficiencies',
+        'proved_by',
+        'corollaries',
+        'justifications',
+        'references'
     ];
 
     return allLinks.indexOf(linkEl.id.substring(2));
