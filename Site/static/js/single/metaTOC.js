@@ -1,5 +1,6 @@
 import { toSmallCaps, textOfNode } from '../stringUtils.js';
-import { fontSize, scFontSize, headersEl, metaTOCEl } from '../single.js';
+import { getFontSize, getSCFontSize,
+         headersEl, metaTOCEl } from '../single.js';
 
 window.showMetaTOC = showMetaTOC;
 window.hideMetaTOC = hideMetaTOC;
@@ -120,12 +121,12 @@ function styleH1(el, counter) {
     for (var i = 0; i < el.childNodes.length; i++) {
         if (!el.childNodes[i].innerText) {
             var text = textOfNode(el.childNodes[i]);
-            var textSC = toSmallCaps(text, scFontSize, fontSize);
+            var textSC = toSmallCaps(text, getSCFontSize(), getFontSize());
 
             el.childNodes[i].replaceWith(textSC);
         } else {
             var text = el.childNodes[i].innerText;
-            var textSC = toSmallCaps(text, scFontSize, fontSize);
+            var textSC = toSmallCaps(text, getSCFontSize(), getFontSize());
 
             el.childNodes[i].innerHTML = textSC.innerHTML;
         }
@@ -142,7 +143,7 @@ function styleH2(el, parentCounter, counter) {
     num.style.fontWeight = 'normal';
 
     el.setAttribute('id', el.innerText);
-    el.style.fontSize = '25px';
+    el.style.fontSize = getFontSize() + "px";
     el.innerHTML += '.';
     el.prepend(num);
 }

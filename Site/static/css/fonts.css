@@ -107,6 +107,5 @@ body {
 }
 
 :root {
-    --smallFontSize: 23px;
-    --bigFontSize: 25px;
+    --size: 23px;
 }

@@ -16,9 +16,7 @@
 } 
 
 .listenDark, p, h1, a {
-    transition: color, background-color;
-    transition-duration: 0.1s;
-    transition-timing-function: ease-out;
+    transition: color 0.1s ease-out, background-color 0.1s ease-out;
 }
 
 #toggleDark {

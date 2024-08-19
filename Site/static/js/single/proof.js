@@ -1,4 +1,4 @@
-import { textHeight } from '../single.js';
+import { getTextHeight } from '../single.js';
 
 var proofHeaders = document.getElementsByClassName('proofHeader');
 window.expandProofHeaders = expandProofHeaders;
@@ -17,7 +17,7 @@ export function expandProofHeaders() {
         var proof = proofHeaders[i];
         var container = proof.parentElement;
         if (container.classList.contains('hide')) {
-            container.style.maxHeight = textHeight + 'px';
+            container.style.maxHeight = getTextHeight() + 'px';
 
             var expand = proof.nextElementSibling;
             var content = expand.nextElementSibling;
@@ -38,13 +38,11 @@ function toggleProofHeader(proof) {
         container.style.maxHeight = container.scrollHeight + 'px';
         content.style.opacity = '1';
         expand.style.opacity = '0';
-        expand.style.width = '0%';
         proof.classList.add('proofExpanded');
     } else {
-        container.style.maxHeight = textHeight + 'px';
+        container.style.maxHeight = getTextHeight() + 'px';
         content.style.opacity = '0';
         expand.style.opacity = '0.6';
-        expand.style.width = '100%';
         proof.classList.remove('proofExpanded');
     }
 }

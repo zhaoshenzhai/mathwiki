@@ -1,21 +1,15 @@
 import { initMetaLinks } from './single/metaLinks.js';
 import { initMetaTOC } from './single/metaTOC.js';
 
-const root = getComputedStyle(document.querySelector(':root'));
+export var contentEl, headersEl,
+           metaDataEl, curSideEl,
+           metaLinksEl, metaTOCEl;
 
-export var fontSize = Number(
-    root.getPropertyValue('--bigFontSize').replace('px', ''));
-export var scFontSize = fontSize - 7;
-export var textHeight = fontSize + 7;
+var root = document.querySelector(':root');
+var rootC = getComputedStyle(root);
 
-export var metaLinksEl;
-export var headersEl, metaTOCEl;
-
-export var contentEl, metaDataEl;
-
+var fontSize = Number(rootC.getPropertyValue('--size').replace('px', ''));
 var sideExpanded = true;
-export function getSideExpanded() { return sideExpanded; }
-export function setSideExpanded(expanded) { sideExpanded = expanded; }
 
 document.addEventListener('DOMContentLoaded', (e) => {
     metaLinksEl = document.getElementById('metaLinks');
@@ -27,4 +21,20 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
     contentEl = document.getElementById('content');
     metaDataEl = document.getElementById('metadata');
+    curSideEl = metaDataEl;
 });
+
+export function getSideExpanded() { return sideExpanded; }
+export function setSideExpanded(expanded) { sideExpanded = expanded; }
+
+export function getCurSideEl() { return curSideEl; }
+export function setCurSideEl(side) { curSideEl = side; }
+
+export function getFontSize() { return fontSize; }
+export function getSCFontSize() { return fontSize - 7; }
+export function getTextHeight() { return fontSize + 7; }
+
+export function setFontSize(size) {
+    fontSize = size;
+    root.style.setProperty('--size', size + 'px');
+}

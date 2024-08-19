@@ -1,11 +1,11 @@
-import { contentEl, metaDataEl, getSideExpanded } from '../single.js';
+import { contentEl, metaDataEl, getCurSideEl, setCurSideEl,
+         getSideExpanded } from '../single.js';
 import { getCtrlKeyDown } from '../input.js';
 import { formatSpace } from '../stringUtils.js';
 
 var resetButton = document.getElementById('resetSide');
 var previewContainer = document.getElementById('previewContainer');
-
-var currentSideEl, frameContent;
+var frameContent;
 
 var previewReady = false;
 var clicked = false;
@@ -24,8 +24,7 @@ function previewSide(link, page) {
     link = formatSpace(link);
 
     if (page == 'nopPage' || !getSideExpanded()) { return; }
-    if (!currentSideEl) { currentSideEl = metaDataEl; }
-    if (currentSideEl.src != link && (!getPreview() || cleared)) {
+    if (getCurSideEl().src != link && (!getPreview() || cleared)) {
         getPreview()?.remove();
         previewReady = false;
         clicked = false;
@@ -38,7 +37,7 @@ function previewSide(link, page) {
             previewReady = true;
             if (!clicked && !cleared) {
                 triggerFadeInterrupt(frame);
-                fadeOut(currentSideEl, false);
+                fadeOut(getCurSideEl(), false);
                 fadeOut(resetButton, false);
                 fadeIn(frame);
             }
@@ -48,7 +47,6 @@ function previewSide(link, page) {
 
 function clearPreviewSide(page) {
     if (page == 'nopPage' || !getSideExpanded()) { return; }
-    if (!currentSideEl) { currentSideEl = metaDataEl; }
 
     var preview = getPreview();
     cleared = true;
@@ -56,7 +54,7 @@ function clearPreviewSide(page) {
     if (preview && previewReady) {
         triggerFadeInterrupt(preview);
 
-        fadeIn(currentSideEl);
+        fadeIn(getCurSideEl());
         fadeIn(resetButton);
         fadeOut(preview, true);
     } else {
@@ -78,8 +76,8 @@ function updateCurrentSide(e, link, page) {
         var preview = getPreview();
         clicked = true;
 
-        if (!preview && currentSideEl.src == link) {
-            window.open(currentSideEl.src, '_self');
+        if (!preview && getCurSideEl().src == link) {
+            window.open(getCurSideEl().src, '_self');
         } else if (!preview) {
             previewSide(link);
             updateCurrentSide(e, link);
@@ -87,7 +85,7 @@ function updateCurrentSide(e, link, page) {
             getActive()?.remove();
             setActiveFrame(preview, false);
         } else {
-            fadeOut(currentSideEl, true);
+            fadeOut(getCurSideEl(), true);
             preview.addEventListener('load', function() {
                 setActiveFrame(preview, true);
             });
@@ -99,8 +97,8 @@ function updateCurrentSide(e, link, page) {
 
 export function resetSide() {
     if (getActive()) {
-        currentSideEl = metaDataEl;
-        fadeIn(currentSideEl);
+        setCurSideEl(metaDataEl);
+        fadeIn(getCurSideEl());
 
         fadeOut(getActive(), true);
 
@@ -140,12 +138,12 @@ function newPreviewFrame(link) {
 }
 
 function setActiveFrame(newFrame, makeVisible) {
-    currentSideEl = newFrame;
-    currentSideEl.setAttribute('id', 'activeFrame');
+    setCurSideEl(newFrame);
+    getCurSideEl().setAttribute('id', 'activeFrame');
     frameContent.style.opacity = '1';
     resetButton.style.display = 'inline';
 
-    if (makeVisible) { fadeIn(currentSideEl); }
+    if (makeVisible) { fadeIn(getCurSideEl()); }
     resetButton.dispatchEvent(fadeInterrupt);
     fadeIn(resetButton);
 }
@@ -188,7 +186,7 @@ function fadeIn(element) {
 }
 
 function triggerFadeInterrupt(previewEl) {
-    currentSideEl.dispatchEvent(fadeInterrupt);
+    getCurSideEl().dispatchEvent(fadeInterrupt);
     resetButton.dispatchEvent(fadeInterrupt);
     previewEl.dispatchEvent(fadeInterrupt);
 }

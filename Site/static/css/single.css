@@ -5,7 +5,8 @@ body {
 
 body, h1, p {
     margin: 0;
-    font-size: var(--smallFontSize);
+    font-size: var(--size);
+    transition: font-size 0.2s ease-out;
 }
 
 h2, p {
@@ -30,6 +31,7 @@ blockquote {
 
 #content {
     padding-top: 60px;
+    transition: width 0.2s ease-out;
 }
 
 #title {
@@ -38,7 +40,7 @@ blockquote {
 }
 
 #toggleSide {
-    top: 50px;
+    top: 100px;
     left: 0.5%;
     margin: 0;
 }
@@ -72,6 +74,7 @@ blockquote {
 .right {
     width: 45%;
     right: 3%;
+    transition: opacity 0.2s ease-out;
 }
 
 .space {

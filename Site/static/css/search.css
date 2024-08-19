@@ -1,6 +1,7 @@
 #searchBox {
     position: fixed;
     display: flex;
+    z-index: 1000;
 
     top: 10%;
     height: 375px;
