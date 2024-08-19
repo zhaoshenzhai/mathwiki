@@ -20,7 +20,7 @@ window.searchOpen = searchOpen;
 window.searchClear = searchClear;
 window.searchItemActive = searchItemActive;
 
-// Fetch from localStorage; else, fetch from allFiles
+// Fetch from localStorage; if DNE, fetch from allFiles
 document.addEventListener("DOMContentLoaded", (e) => {
     var recentFiles = localStorage['recentFiles'];
     if (recentFiles) {
