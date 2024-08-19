@@ -69,11 +69,13 @@ blockquote {
 .left {
     width: 45%;
     left: 3%;
+    z-index: 1000;
 }
 
 .right {
     width: 45%;
     right: 3%;
+    z-index: 900;
     transition: opacity 0.2s ease-out;
 }
 

@@ -2,13 +2,14 @@ import { initMetaLinks } from './single/metaLinks.js';
 import { initMetaTOC } from './single/metaTOC.js';
 
 export var contentEl, headersEl,
-           metaDataEl, curSideEl,
+           metaDataEl, resetSideEl,
            metaLinksEl, metaTOCEl;
 
 var root = document.querySelector(':root');
 var rootC = getComputedStyle(root);
 
 var fontSize = Number(rootC.getPropertyValue('--size').replace('px', ''));
+var curSideEl = metaDataEl;
 var sideExpanded = true;
 
 document.addEventListener('DOMContentLoaded', (e) => {
@@ -21,6 +22,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
     contentEl = document.getElementById('content');
     metaDataEl = document.getElementById('metadata');
+    resetSideEl = document.getElementById('resetSide');
     curSideEl = metaDataEl;
 });
 

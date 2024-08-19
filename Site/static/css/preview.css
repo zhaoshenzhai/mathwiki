@@ -1,6 +1,8 @@
 #resetSide {
     top: 0;
     right: 3%;
+    z-index: 1000;
+    transition: opacity 0.2s ease-out;
 }
 
 #resetSide img {

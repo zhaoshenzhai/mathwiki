@@ -1,9 +1,9 @@
-import { contentEl, metaDataEl, getCurSideEl, setCurSideEl,
-         getSideExpanded } from '../single.js';
+import { contentEl, metaDataEl,
+         getCurSideEl, setCurSideEl,
+         getSideExpanded, resetSideEl } from '../single.js';
 import { getCtrlKeyDown } from '../input.js';
 import { formatSpace } from '../stringUtils.js';
 
-var resetButton = document.getElementById('resetSide');
 var previewContainer = document.getElementById('previewContainer');
 var frameContent;
 
@@ -38,7 +38,7 @@ function previewSide(link, page) {
             if (!clicked && !cleared) {
                 triggerFadeInterrupt(frame);
                 fadeOut(getCurSideEl(), false);
-                fadeOut(resetButton, false);
+                fadeOut(resetSideEl, false);
                 fadeIn(frame);
             }
         });
@@ -55,7 +55,7 @@ function clearPreviewSide(page) {
         triggerFadeInterrupt(preview);
 
         fadeIn(getCurSideEl());
-        fadeIn(resetButton);
+        fadeIn(resetSideEl);
         fadeOut(preview, true);
     } else {
         preview?.remove();
@@ -101,9 +101,8 @@ export function resetSide() {
         fadeIn(getCurSideEl());
 
         fadeOut(getActive(), true);
-
-        fadeOut(resetButton, false);
-        resetButton.style.display = 'none';
+        fadeOut(resetSideEl, false);
+        resetSideEl.style.display = 'none';
 
         previewReady = false;
         clicked = false;
@@ -125,6 +124,7 @@ function newPreviewFrame(link) {
         var frameDoc = frame.contentDocument;
         frameDoc.getElementById('side').style.display = 'none';
         frameDoc.getElementById('toggleDark').style.display = 'none';
+        frameDoc.getElementById('toggleSide').style.display = 'none';
         frameDoc.getElementById('searchBox').classList.add('inPreview');
 
         frameContent = frameDoc.getElementById('content');
@@ -141,11 +141,11 @@ function setActiveFrame(newFrame, makeVisible) {
     setCurSideEl(newFrame);
     getCurSideEl().setAttribute('id', 'activeFrame');
     frameContent.style.opacity = '1';
-    resetButton.style.display = 'inline';
+    resetSideEl.style.display = 'inline';
 
     if (makeVisible) { fadeIn(getCurSideEl()); }
-    resetButton.dispatchEvent(fadeInterrupt);
-    fadeIn(resetButton);
+    resetSideEl.dispatchEvent(fadeInterrupt);
+    fadeIn(resetSideEl);
 }
 
 function fadeOut(element, remove) {
@@ -187,7 +187,7 @@ function fadeIn(element) {
 
 function triggerFadeInterrupt(previewEl) {
     getCurSideEl().dispatchEvent(fadeInterrupt);
-    resetButton.dispatchEvent(fadeInterrupt);
+    resetSideEl.dispatchEvent(fadeInterrupt);
     previewEl.dispatchEvent(fadeInterrupt);
 }
 function interruptFade(timer, element, remove) {
