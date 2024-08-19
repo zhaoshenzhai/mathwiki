@@ -28,6 +28,8 @@ $$\begin{equation}
 
 {{< /env >}}
 
+<div class="space"></div>
+
 In particular, if $G\act X$ is *transitive*, so that $\Orb_G(x_0)=X$ for any $x_0\in X$, then $X$ is $G$-equivariant to $G/\\!\Stab_G(x_0)$ for any $x_0\in X$.
 
 # Corollaries

@@ -104,5 +104,9 @@
 
 body {
     font-family: 'cmu';
-    font-size: 23px;
+}
+
+:root {
+    --smallFontSize: 23px;
+    --bigFontSize: 25px;
 }

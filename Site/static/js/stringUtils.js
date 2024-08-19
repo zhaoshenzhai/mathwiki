@@ -46,3 +46,7 @@ export function toSmallCaps(s, small, big) {
 
     return newEl;
 }
+
+export function getBasePath(path) {
+    return path.replace(/\//g, "").replace(/mathwiki/, "");
+}

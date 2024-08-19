@@ -1,3 +1,5 @@
+import { getBasePath } from "./stringUtils.js";
+
 var searchBox = document.getElementById("searchBox");
 var searchBar = document.getElementById("searchBar");
 var searchList = document.getElementById("searchList");
@@ -25,7 +27,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     var recentFiles = localStorage['recentFiles'];
     if (recentFiles) {
         var allFiles = JSON.parse(recentFiles);
-        var curPath = window.location.pathname.replace(/\//g, "").replace(/mathwiki/, "");
+        var curPath = getBasePath(window.location.pathname);
         var curFileIndex = allFiles.findIndex(x => x.relPath == curPath);
 
         allFiles.unshift(allFiles.splice(curFileIndex, 1)[0]);
@@ -82,7 +84,7 @@ function updateSearchList(newList, newListPaths) {
         }
     }
 
-    searchBox.style.height = (55 + 40 * curSearchLength) + "px";
+    searchBox.style.height = (55 + ((23 + 17) * curSearchLength)) + "px";
 }
 
 function searchItemActive(newActiveNum) {

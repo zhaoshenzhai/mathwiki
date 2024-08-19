@@ -1,10 +1,10 @@
-import { getCtrlKeyDown } from "./input.js"
-import { formatSpace } from "./stringUtils.js"
+import { getCtrlKeyDown } from "../input.js";
+import { formatSpace } from "../stringUtils.js";
 
 var mainContent = document.getElementById("content");
 var defaultSide = document.getElementById("metadata");
 var resetButton = document.getElementById("resetSide");
-var frameContainer = document.getElementById("preview");
+var previewContainer = document.getElementById("previewContainer");
 
 var currentSide = defaultSide;
 var frameContent;
@@ -33,7 +33,7 @@ function previewSide(link, page) {
         cleared = false;
 
         var frame = newPreviewFrame(link);
-        frameContainer.appendChild(frame);
+        previewContainer.appendChild(frame);
 
         frame.addEventListener("load", function() {
             previewReady = true;
@@ -182,10 +182,10 @@ function fadeIn(element) {
     });
 }
 
-function triggerFadeInterrupt(previewElem) {
+function triggerFadeInterrupt(previewEl) {
     currentSide.dispatchEvent(fadeInterrupt);
     resetButton.dispatchEvent(fadeInterrupt);
-    previewElem.dispatchEvent(fadeInterrupt);
+    previewEl.dispatchEvent(fadeInterrupt);
 }
 function interruptFade(timer, element, remove) {
     if (remove && element != defaultSide) { element.remove(); }

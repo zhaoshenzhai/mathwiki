@@ -1,10 +1,10 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
-    <script src="{{ absURL "" }}js/metalinks.js" type="module" defer></script>
-    <script src="{{ absURL "" }}js/preview.js" type="module" defer></script>
-    <script src="{{ absURL "" }}js/mathJax.js" type="module" async defer></script>
-    <script src="{{ absURL "" }}js/headers.js" type="module" defer></script>
-    <script src="{{ absURL "" }}js/proof.js" type="module" defer></script>
+    <script src="{{ absURL "" }}js/single.js" type="module" defer></script>
+    <script src="{{ absURL "" }}js/single/metaLinks.js" type="module" defer></script>
+    <script src="{{ absURL "" }}js/single/metaTOC.js" type="module" defer></script>
+    <script src="{{ absURL "" }}js/single/preview.js" type="module" defer></script>
+    <script src="{{ absURL "" }}js/single/proof.js" type="module" defer></script>
 
     <link rel="stylesheet" href="{{ absURL "" }}css/metadata.css">
     <link rel="stylesheet" href="{{ absURL "" }}css/preview.css">
@@ -13,8 +13,11 @@
     <link rel="stylesheet" href="{{ absURL "" }}css/nav.css">
 
     <div id="mainPage">
-        <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
+        <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton noSelect">
             <img id="toggleDarkIcon" src="{{ absURL "" }}css/fa/sun.svg">
+        </button>
+        <button id="toggleSide" onclick="toggleSide();" class="navButton noSelect">
+            <img id="toggleSideIcon" src="{{ absURL "" }}css/fa/sun.svg">
         </button>
         <div id="content" class="left noScroll">
             {{ if .Params.renderedTitle }}
@@ -50,9 +53,9 @@
                 <div id="toc">Table of Contents:
                     <button class="metaButton listenDark" onclick="showTOC();">Show</button>
                     <button class="metaButton listenDark" onclick="hideTOC();">Hide</button>
-                    <div id="metaContents"></div>
+                    <div id="metaTOC"></div>
                 </div>
-                <div id="links">Links:
+                <div id="metaLinksWrapper">Links:
                     <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
                     <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
                     <div id="metaLinks"></div>
@@ -60,8 +63,8 @@
 
                 <div class="spacer">&nbsp;</div>
             </div>
-            <div id="preview">
-                <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
+            <div id="previewContainer">
+                <button id="resetSide" onclick="resetSide();" class="navButton noSelect" style="display: none;">
                     <img src="{{ absURL "" }}css/fa/close.svg">
                 </button>
             </div>

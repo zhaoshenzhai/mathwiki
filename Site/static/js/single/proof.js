@@ -1,8 +1,9 @@
-const lineHeight = "30px";
+import { textHeight } from "../single.js";
+
 var proofHeaders = document.getElementsByClassName("proofHeader");
 window.expandProofHeaders = expandProofHeaders;
 
-// Expand on load
+// Toggle on click
 document.addEventListener("DOMContentLoaded", (e) => {
     for (var i = 0; i < proofHeaders.length; i++) {
         proofHeaders[i].addEventListener("click", function() {
@@ -16,7 +17,7 @@ export function expandProofHeaders() {
         var proof = proofHeaders[i];
         var container = proof.parentElement;
         if (container.classList.contains("hide")) {
-            container.style.maxHeight = lineHeight;
+            container.style.maxHeight = textHeight + "px";
 
             var expand = proof.nextElementSibling;
             var content = expand.nextElementSibling;
@@ -40,7 +41,7 @@ function toggleProofHeader(proof) {
         expand.style.width = "0%";
         proof.classList.add("proofExpanded");
     } else {
-        container.style.maxHeight = lineHeight;
+        container.style.maxHeight = textHeight + "px";
         content.style.opacity = "0";
         expand.style.opacity = "0.6";
         expand.style.width = "100%";

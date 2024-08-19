@@ -5,10 +5,10 @@ body {
 
 body, h1, p {
     margin: 0;
+    font-size: var(--smallFontSize);
 }
 
 h2, p {
-    font-size: 23px;
     display: inline;
 }
 
@@ -36,6 +36,33 @@ blockquote {
     letter-spacing: 8px;
     line-height: 40px;
 }
+
+#toggleSide {
+    top: 50px;
+    left: 0.5%;
+    margin: 0;
+}
+
+#toggleSide img {
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.h1Title {
+    margin: 20px 0 10px 0;
+}
+
+/*.left {
+    width: 80%;
+    left: 10%;
+    right: 10%;
+}
+
+.right {
+    width: 0%;
+    right: 0%;
+}*/
 
 .left {
     width: 45%;

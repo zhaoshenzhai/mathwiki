@@ -1,5 +1,9 @@
-import { searchInit, searchOpen, searchClear, searchActive, searchScroll } from "./search.js"
-import { resetSide } from "./preview.js"
+import { resetSide } from "./single/preview.js"
+import { searchInit,
+         searchOpen,
+         searchClear,
+         searchActive,
+         searchScroll } from "./search.js"
 
 var metaKeyDown = false;
 var ctrlKeyDown = false;

@@ -4,8 +4,8 @@ var darkMode = false;
 
 window.toggleDark = toggleDark;
 
-var root = document.querySelector(':root');
-var rootC = getComputedStyle(root);
+const root = document.querySelector(':root');
+const rootC = getComputedStyle(root);
 
 const lightVals = {
     "bg":                  rootC.getPropertyValue("--bg"),
@@ -34,13 +34,11 @@ const darkVals = {
 };
 
 // Init dark
-document.addEventListener("metaLinkReady", () => {
-    if (localStorage['darkMode'] == "dark") {
-        document.body.style.transition = "none";
-        document.offsetHeight;
-        toggleDark(document, false, true, true);
-    }
-});
+if (localStorage['darkMode'] == "dark") {
+    document.body.style.transition = "none";
+    document.offsetHeight;
+    toggleDark(document, false, true, true);
+}
 
 export function toggleDark(doc, reset, update, frame) {
     if (reset) {
@@ -51,11 +49,12 @@ export function toggleDark(doc, reset, update, frame) {
     var icons = doc.getElementsByClassName("icon");
     var images = doc.getElementsByClassName("tikz");
     var navButtons = doc.getElementsByClassName("navButton");
-    root = doc.querySelector(':root');
+
+    var curRoot = doc.querySelector(':root');
 
     if (darkMode) {
         for(var [key, val] of Object.entries(lightVals)) {
-            root.style.setProperty('--' + key, val);
+            curRoot.style.setProperty('--' + key, val);
         }
         for (var i = 0; i < icons.length; i++) {
             icons[i].style.filter = "";
@@ -71,7 +70,7 @@ export function toggleDark(doc, reset, update, frame) {
         if (update) { localStorage['darkMode'] = 'light'; }
     } else {
         for(var [key, val] of Object.entries(darkVals)) {
-            root.style.setProperty('--' + key, val);
+            curRoot.style.setProperty('--' + key, val);
         }
         for (var i = 0; i < icons.length; i++) {
             icons[i].style.filter = "invert(100%)";

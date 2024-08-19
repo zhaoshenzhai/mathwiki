@@ -1,20 +1,16 @@
-import { firstUpper, toSpace } from "./stringUtils.js"
-
-var metaLinkTypes;
-var metaLinkTypesDict = {};
+import { firstUpper, toSpace } from "../stringUtils.js";
+import { metaLinksEl } from "../single.js";
 
 window.expandMetaLinks = expandMetaLinks;
 window.collapseMetaLinks = collapseMetaLinks;
 
-const metaLinkReady = new Event("metaLinkReady");
+var metaLinkTypes = {};
 
-// Copy links to metadata
-document.addEventListener("DOMContentLoaded", (e) => {
-    metaLinkTypes = document.getElementById("metaLinks");
+export function initMetaLinks() {
     var outgoingLinks = document.getElementsByClassName("internalLink");
     if (outgoingLinks.length == 0) {
-        var links = document.getElementById("links")
-        if (links) { links.remove(); }
+        var metaLinksWrapperEl = document.getElementById("metaLinksWrapper")
+        if (metaLinksWrapperEl) { metaLinksWrapperEl.remove(); }
     } else {
 
         var metaLinkTracker = [];
@@ -24,7 +20,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
             var linkBaseHref = link.href.replace(/\/#.*/, "");
             if (!metaLinkTracker.includes(linkType + linkBaseHref)) {
-                var metaLinkType = metaLinkTypesDict[linkType];
+                var metaLinkType = metaLinkTypes[linkType];
                 if (!metaLinkType) { metaLinkType = newMetaLinkType(linkType); }
 
                 metaLinkTracker.push(linkType + linkBaseHref);
@@ -32,25 +28,23 @@ document.addEventListener("DOMContentLoaded", (e) => {
             }
         }
 
-        for(var [key, val] of Object.entries(metaLinkTypesDict)) {
+        for(var [key, val] of Object.entries(metaLinkTypes)) {
             val.addEventListener("click", function() { toggleMetaLink(this); });
         }
 
-        [...metaLinkTypes.children]
+        [...metaLinksEl.children]
             .sort((a, b) => typePriority(a) > typePriority(b) ? 1 : -1)
-            .forEach(node => metaLinkTypes.appendChild(node));
+            .forEach(node => metaLinksEl.appendChild(node));
     }
-
-    document.dispatchEvent(metaLinkReady);
-});
+}
 
 export function expandMetaLinks() {
-    for(var [key, val] of Object.entries(metaLinkTypesDict)) {
+    for(var [key, val] of Object.entries(metaLinkTypes)) {
         expandMetaLink(val);
     }
 }
 function collapseMetaLinks() {
-    for(var [key, val] of Object.entries(metaLinkTypesDict)) {
+    for(var [key, val] of Object.entries(metaLinkTypes)) {
         collapseMetaLink(val);
     }
 }
@@ -96,14 +90,14 @@ function newMetaLinkType(linkType) {
     icon.classList.add("icon");
     newLinkButton.prepend(icon);
 
-    metaLinkTypesDict[linkType] = newLinkButton;
-    metaLinkTypes.appendChild(newLinkDiv);
+    metaLinkTypes[linkType] = newLinkButton;
+    metaLinksEl.appendChild(newLinkDiv);
 
     newLinkDiv.setAttribute("id", "l-" + linkType);
     newLinkDiv.insertBefore(newLinkButton, newLinkList.nextSibling);
     newLinkDiv.appendChild(newLinkList);
 
-    return metaLinkTypesDict[linkType];
+    return metaLinkTypes[linkType];
 }
 
 function newMetaLink(link) {

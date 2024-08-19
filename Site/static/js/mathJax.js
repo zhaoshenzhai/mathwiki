@@ -1,6 +1,6 @@
-import { expandMetaLinks } from "./metalinks.js";
-import { expandProofHeaders } from "./proof.js"
-import { showTOC } from "./headers.js";
+import { expandMetaLinks } from "./single/metaLinks.js";
+import { expandProofHeaders } from "./single/proof.js"
+import { showMetaTOC } from "./single/metaTOC.js";
 
 window.MathJax = {
     tex: {
@@ -37,5 +37,5 @@ window.MathJax = {
 function init() {
     expandMetaLinks();
     expandProofHeaders();
-    showTOC();
+    showMetaTOC();
 }
