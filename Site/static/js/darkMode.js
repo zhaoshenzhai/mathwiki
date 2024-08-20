@@ -35,8 +35,6 @@ const darkVals = {
 
 // Init dark
 if (localStorage['darkMode'] == 'dark') {
-    document.body.style.transition = 'none';
-    document.offsetHeight;
     toggleDark(document, false, true, true);
 }
 
