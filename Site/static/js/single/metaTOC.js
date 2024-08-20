@@ -9,7 +9,7 @@ var headers = {};
 
 export function initMetaTOC() {
     expandHeaders();
-    styleHeaders(true);
+    styleHeaders(false);
     generateTOC();
 }
 
@@ -27,7 +27,7 @@ function expandHeaders() {
     }
 }
 
-export function styleHeaders(modifyContent) {
+export function styleHeaders(resize) {
     var newTitle = document.createElement('h1');
     var newTitleSize = headersEl[0].getAttribute('titleSize');
     if (!newTitleSize) { newTitleSize = 25; }
@@ -50,10 +50,10 @@ export function styleHeaders(modifyContent) {
 
     var h1Counter = 1;
     for(var [h1Index, h2List] of Object.entries(headers)) {
-        styleH1(headersEl[h1Index], h1Counter, modifyContent);
+        if (!resize) { styleH1(headersEl[h1Index], h1Counter); }
 
         for (var h2Counter = 0; h2Counter < h2List.length; h2Counter++) {
-            styleH2(h2List[h2Counter], h1Counter, h2Counter + 1, modifyContent);
+            styleH2(h2List[h2Counter], h1Counter, h2Counter + 1, resize);
         }
 
         h1Counter++;
@@ -106,40 +106,36 @@ function goTo(anchor) {
     return false;
 }
 
-function styleH1(el, counter, modifyContent) {
-    if (modifyContent) {
-        el.setAttribute('id', el.innerText);
-        el.classList.add('center');
-        el.classList.add('h1Title');
-    }
+function styleH1(el, counter) {
+    el.setAttribute('id', el.innerText);
+    el.classList.add('center');
+    el.classList.add('h1Title');
 
     for (var i = 0; i < el.childNodes.length; i++) {
         if (!el.childNodes[i].innerText) {
             var text = textOfNode(el.childNodes[i]);
-            var textSC = toSmallCaps(text, getSCFontSize(), getFontSize());
+            var textSC = toSmallCaps(text);
 
             el.childNodes[i].replaceWith(textSC);
         } else {
             var text = el.childNodes[i].innerText;
-            var textSC = toSmallCaps(text, getSCFontSize(), getFontSize());
+            var textSC = toSmallCaps(text);
 
             el.childNodes[i].innerHTML = textSC.innerHTML;
         }
     }
 
-    if (modifyContent) {
-        var num = document.createElement('span');
-        num.innerText = counter + '. ';
-        el.prepend(num);
-    }
+    var num = document.createElement('span');
+    num.innerText = counter + '. ';
+    el.prepend(num);
 }
 
-function styleH2(el, parentCounter, counter, modifyContent) {
-    if (modifyContent) { el.setAttribute('id', el.innerText); }
+function styleH2(el, parentCounter, counter, resize) {
+    if (!resize) { el.setAttribute('id', el.innerText); }
 
     el.style.fontSize = getFontSize() + "px";
 
-    if (modifyContent) {
+    if (!resize) {
         var num = document.createElement('span');
         num.innerText = parentCounter + '.' + counter + '. '
         num.style.fontWeight = 'normal';

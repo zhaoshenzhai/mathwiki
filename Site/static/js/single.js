@@ -8,8 +8,8 @@ export var contentEl, headersEl,
 var root = document.querySelector(':root');
 var rootC = getComputedStyle(root);
 
-var fontSize = Number(rootC.getPropertyValue('--size').replace('px', ''));
-var curSideEl = metaDataEl;
+var curSideEl;
+var fontSize = 23;
 var sideExpanded = true;
 
 document.addEventListener('DOMContentLoaded', (e) => {
@@ -24,6 +24,8 @@ document.addEventListener('DOMContentLoaded', (e) => {
     metaDataEl = document.getElementById('metadata');
     resetSideEl = document.getElementById('resetSide');
     curSideEl = metaDataEl;
+
+    setFontSize(fontSize);
 });
 
 export function getSideExpanded() { return sideExpanded; }
@@ -33,10 +35,11 @@ export function getCurSideEl() { return curSideEl; }
 export function setCurSideEl(side) { curSideEl = side; }
 
 export function getFontSize() { return fontSize; }
-export function getSCFontSize() { return fontSize - 7; }
+export function getSCFontSize() { return fontSize - 6; }
 export function getTextHeight() { return fontSize + 7; }
 
 export function setFontSize(size) {
     fontSize = size;
     root.style.setProperty('--size', size + 'px');
+    root.style.setProperty('--SCSize', getSCFontSize() + 'px');
 }

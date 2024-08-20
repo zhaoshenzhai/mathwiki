@@ -25,11 +25,13 @@ export function toSmallCaps(s, small, big) {
                 for (var j = 0; j < splitText.length; j++) {
                     var capital = document.createElement('span');
                     capital.innerText = splitText[j].charAt(0).toUpperCase();
-                    capital.style.fontSize = big + 'px';
+                    if (!big) { capital.classList.add('headerBig'); }
+                    else { capital.style.fontSize = big + 'px'; }
 
                     var tail = document.createElement('span');
                     tail.innerText = splitText[j].slice(1).toUpperCase();
-                    tail.style.fontSize = small + 'px';
+                    if (!small) { tail.classList.add('headerSmall'); }
+                    else { tail.style.fontSize = small + 'px'; }
 
                     newEl.appendChild(capital);
                     newEl.appendChild(tail);
@@ -38,7 +40,8 @@ export function toSmallCaps(s, small, big) {
         } else {
             var mathEl = document.createElement('span');
             mathEl.innerText = '$' + splitMath[i] + '$';
-            mathEl.style.fontSize = big + 'px';
+            if (!big) { mathEl.classList.add('headerBig'); }
+            else { mathEl.style.fontSize = big + 'px'; }
 
             newEl.appendChild(mathEl);
         }

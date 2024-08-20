@@ -13,9 +13,9 @@ function toggleSide() {
         getCurSideEl().style.opacity = '0';
         resetSideEl.style.opacity = '0';
 
-        setFontSize(25);
+        setFontSize(40);
         setSideExpanded(false);
-        styleHeaders(false);
+        styleHeaders(true);
     } else {
         contentEl.style.width = '45%';
         contentEl.style.left = '3%';
@@ -26,6 +26,6 @@ function toggleSide() {
 
         setFontSize(23);
         setSideExpanded(true);
-        styleHeaders(false);
+        styleHeaders(true);
     }
 }
