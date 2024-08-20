@@ -22,7 +22,7 @@ export function expandProofHeaders() {
             var expand = proof.nextElementSibling;
             var content = expand.nextElementSibling;
             content.style.opacity = '0';
-            expand.style.opacity = '0.6';           
+            expand.style.opacity = '0.6';
         } else {
             toggleProofHeader(proof);
         }
