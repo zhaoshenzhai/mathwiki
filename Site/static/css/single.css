@@ -30,7 +30,8 @@ blockquote {
 
 #content {
     padding-top: 60px;
-    transition: width 0.7s ease-out;
+    transition: width, padding-left, padding-right;
+    transition-duration: 1s;
 }
 
 #title {
@@ -74,16 +75,19 @@ blockquote {
     right: 0%;
 }*/
 
-.left {
+.left, .right {
     width: 45%;
-    left: 3%;
-    z-index: 1000;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.left {
+    z-index: 10;
 }
 
 .right {
-    width: 45%;
-    right: 3%;
-    z-index: 900;
+    right: 0%;
+    z-index: 9;
     font-size: 23px !important;
     transition: opacity 0.2s ease-out;
 }

@@ -7,8 +7,8 @@ window.toggleSide = toggleSide;
 function toggleSide() {
     if (getSideExpanded()) {
         contentEl.style.width = '80%';
-        contentEl.style.left = '10%';
-        contentEl.style.right = '10%';
+        contentEl.style.paddingLeft = '10%';
+        contentEl.style.paddingRight = '10%';
 
         getCurSideEl().style.opacity = '0';
         resetSideEl.style.opacity = '0';
@@ -18,8 +18,8 @@ function toggleSide() {
         styleHeaders(true);
     } else {
         contentEl.style.width = '45%';
-        contentEl.style.left = '3%';
-        contentEl.style.right = '0%';
+        contentEl.style.paddingLeft = '2.5%';
+        contentEl.style.paddingRight = '2.5%';
 
         getCurSideEl().style.opacity = '1';
         resetSideEl.style.opacity = '1';
