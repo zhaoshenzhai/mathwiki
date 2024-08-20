@@ -6,7 +6,6 @@ body {
 body, h1, p {
     margin: 0;
     font-size: var(--size);
-    transition: font-size 0.2s ease-out;
 }
 
 h2, p {
@@ -31,7 +30,7 @@ blockquote {
 
 #content {
     padding-top: 60px;
-    transition: width 0.2s ease-out;
+    transition: width 0.7s ease-out;
 }
 
 #title {
@@ -76,6 +75,7 @@ blockquote {
     width: 45%;
     right: 3%;
     z-index: 900;
+    font-size: 23px !important;
     transition: opacity 0.2s ease-out;
 }
 

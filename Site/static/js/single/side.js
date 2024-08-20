@@ -1,5 +1,6 @@
 import { contentEl, getCurSideEl, setFontSize, resetSideEl,
          getSideExpanded, setSideExpanded } from '../single.js';
+import { styleHeaders } from './metaTOC.js';
 
 window.toggleSide = toggleSide;
 
@@ -12,8 +13,9 @@ function toggleSide() {
         getCurSideEl().style.opacity = '0';
         resetSideEl.style.opacity = '0';
 
-        setFontSize(30);
+        setFontSize(25);
         setSideExpanded(false);
+        styleHeaders(false);
     } else {
         contentEl.style.width = '45%';
         contentEl.style.left = '3%';
@@ -24,5 +26,6 @@ function toggleSide() {
 
         setFontSize(23);
         setSideExpanded(true);
+        styleHeaders(false);
     }
 }

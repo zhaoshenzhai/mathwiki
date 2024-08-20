@@ -9,7 +9,7 @@ var headers = {};
 
 export function initMetaTOC() {
     expandHeaders();
-    styleHeaders();
+    styleHeaders(true);
     generateTOC();
 }
 
@@ -27,7 +27,7 @@ function expandHeaders() {
     }
 }
 
-function styleHeaders() {
+export function styleHeaders(modifyContent) {
     var newTitle = document.createElement('h1');
     var newTitleSize = headersEl[0].getAttribute('titleSize');
     if (!newTitleSize) { newTitleSize = 25; }
@@ -50,10 +50,10 @@ function styleHeaders() {
 
     var h1Counter = 1;
     for(var [h1Index, h2List] of Object.entries(headers)) {
-        styleH1(headersEl[h1Index], h1Counter);
+        styleH1(headersEl[h1Index], h1Counter, modifyContent);
 
         for (var h2Counter = 0; h2Counter < h2List.length; h2Counter++) {
-            styleH2(h2List[h2Counter], h1Counter, h2Counter + 1);
+            styleH2(h2List[h2Counter], h1Counter, h2Counter + 1, modifyContent);
         }
 
         h1Counter++;
@@ -100,23 +100,18 @@ function generateTOC() {
     }
 }
 
-export function showMetaTOC() {
-    metaTOCEl.style.maxHeight = metaTOCEl.scrollHeight + 'px';
-}
-function hideMetaTOC() {
-    metaTOCEl.style.maxHeight = null;
-}
-
 function goTo(anchor) {
     var loc = document.location.toString().split('#')[0];
     document.location = loc + '#' + anchor;
     return false;
 }
 
-function styleH1(el, counter) {
-    el.setAttribute('id', el.innerText);
-    el.classList.add('center');
-    el.classList.add('h1Title');
+function styleH1(el, counter, modifyContent) {
+    if (modifyContent) {
+        el.setAttribute('id', el.innerText);
+        el.classList.add('center');
+        el.classList.add('h1Title');
+    }
 
     for (var i = 0; i < el.childNodes.length; i++) {
         if (!el.childNodes[i].innerText) {
@@ -132,18 +127,31 @@ function styleH1(el, counter) {
         }
     }
 
-    var num = document.createElement('span');
-    num.innerText = counter + '. ';
-    el.prepend(num);
+    if (modifyContent) {
+        var num = document.createElement('span');
+        num.innerText = counter + '. ';
+        el.prepend(num);
+    }
 }
 
-function styleH2(el, parentCounter, counter) {
-    var num = document.createElement('span');
-    num.innerText = parentCounter + '.' + counter + '. '
-    num.style.fontWeight = 'normal';
+function styleH2(el, parentCounter, counter, modifyContent) {
+    if (modifyContent) { el.setAttribute('id', el.innerText); }
 
-    el.setAttribute('id', el.innerText);
     el.style.fontSize = getFontSize() + "px";
-    el.innerHTML += '.';
-    el.prepend(num);
+
+    if (modifyContent) {
+        var num = document.createElement('span');
+        num.innerText = parentCounter + '.' + counter + '. '
+        num.style.fontWeight = 'normal';
+
+        el.prepend(num);
+        el.innerHTML += '.';
+    }
+}
+
+export function showMetaTOC() {
+    metaTOCEl.style.maxHeight = metaTOCEl.scrollHeight + 'px';
+}
+function hideMetaTOC() {
+    metaTOCEl.style.maxHeight = null;
 }
