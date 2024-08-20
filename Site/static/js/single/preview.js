@@ -38,7 +38,7 @@ function previewSide(link, page) {
             if (!clicked && !cleared) {
                 triggerFadeInterrupt(frame);
                 fadeOut(getCurSideEl(), false);
-                fadeOut(resetSideEl, false);
+                resetSideEl.style.opacity = '0';
                 fadeIn(frame);
             }
         });
@@ -101,8 +101,7 @@ export function resetSide() {
         fadeIn(getCurSideEl());
 
         fadeOut(getActive(), true);
-        fadeOut(resetSideEl, false);
-        resetSideEl.style.display = 'none';
+        resetSideEl.style.opacity = '0';
 
         previewReady = false;
         clicked = false;
