@@ -13,7 +13,7 @@ function toggleSide() {
         getCurSideEl().style.opacity = '0';
         resetSideEl.style.opacity = '0';
 
-        setFontSize(40);
+        setFontSize(25);
         setSideExpanded(false);
         styleHeaders(true);
     } else {

@@ -35,7 +35,7 @@ export function getCurSideEl() { return curSideEl; }
 export function setCurSideEl(side) { curSideEl = side; }
 
 export function getFontSize() { return fontSize; }
-export function getSCFontSize() { return fontSize - 6; }
+export function getSCFontSize() { return fontSize - 7; }
 export function getTextHeight() { return fontSize + 7; }
 
 export function setFontSize(size) {
