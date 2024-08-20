@@ -36,6 +36,7 @@ blockquote {
 #title {
     letter-spacing: 8px;
     line-height: 40px;
+    margin: 40px 0 25px 0;
 }
 
 #toggleSide {
@@ -87,10 +88,6 @@ blockquote {
 .spacer {
     width: 100%;
     height: 150px;
-}
-
-.title_spacer {
-    padding-bottom: 20px;
 }
 
 .center {
