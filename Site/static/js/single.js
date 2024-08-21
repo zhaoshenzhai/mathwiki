@@ -1,12 +1,10 @@
 import { initMetaLinks } from './single/metaLinks.js';
 import { initMetaTOC } from './single/metaTOC.js';
 
+var root = document.querySelector(':root');
 export var contentEl, headersEl,
            metaDataEl, resetSideEl,
            metaLinksEl, metaTOCEl;
-
-var root = document.querySelector(':root');
-var rootC = getComputedStyle(root);
 
 var curSideEl;
 var fontSize = 23;

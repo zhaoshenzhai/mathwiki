@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="{{ absURL "" }}css/nav.css">
 
     <div id="mainPage">
-        <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton noSelect">
+        <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton noSelect inPreview">
             <img id="toggleDarkIcon" src="{{ absURL "" }}css/fa/sun.svg">
         </button>
-        <button id="toggleSide" onclick="toggleSide();" class="navButton noSelect">
+        <button id="toggleSide" onclick="toggleSide();" class="navButton noSelect inPreview">
             <img id="toggleSideIcon" src="{{ absURL "" }}css/fa/sun.svg">
         </button>
         <div id="content" class="left noScroll">
@@ -35,7 +35,7 @@
             <div class="spacer">&nbsp;</div>
         </div>
 
-        <div id="side">
+        <div id="side" class="inPreview">
             <div id="metadata" class="right noScroll">
                 {{ .Params.date | time.Format ":date_long" }} | Zhaoshen Zhai
 

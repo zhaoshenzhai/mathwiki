@@ -121,10 +121,12 @@ function newPreviewFrame(link) {
 
     frame.addEventListener('load', function() {
         var frameDoc = frame.contentDocument;
-        frameDoc.getElementById('side').style.display = 'none';
-        frameDoc.getElementById('toggleDark').style.display = 'none';
-        frameDoc.getElementById('toggleSide').style.display = 'none';
         frameDoc.getElementById('searchBox').classList.add('inPreview');
+
+        var toHide = frameDoc.getElementsByClassName('inPreview');
+        for (var i = 0; i < toHide.length; i++) {
+            toHide[i].style.display = 'none';
+        }
 
         frameContent = frameDoc.getElementById('content');
         frameContent.classList.add('openLinks');
