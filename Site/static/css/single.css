@@ -64,17 +64,6 @@ blockquote {
     font-size: var(--SCSize);
 }
 
-/*.left {
-    width: 80%;
-    left: 10%;
-    right: 10%;
-}
-
-.right {
-    width: 0%;
-    right: 0%;
-}*/
-
 .left, .right {
     width: 45%;
     padding-left: 2.5%;
@@ -89,7 +78,7 @@ blockquote {
     right: 0%;
     z-index: 9;
     font-size: 23px !important;
-    transition: opacity 0.2s ease-out;
+    transition: right 1s;
 }
 
 .space {

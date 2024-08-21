@@ -10,8 +10,8 @@ function toggleSide() {
         contentEl.style.paddingLeft = '10%';
         contentEl.style.paddingRight = '10%';
 
-        getCurSideEl().style.opacity = '0';
-        resetSideEl.style.opacity = '0';
+        getCurSideEl().style.right = '-50%';
+        resetSideEl.style.right = '-53%';
 
         setFontSize(25);
         setSideExpanded(false);
@@ -21,8 +21,8 @@ function toggleSide() {
         contentEl.style.paddingLeft = '2.5%';
         contentEl.style.paddingRight = '2.5%';
 
-        getCurSideEl().style.opacity = '1';
-        resetSideEl.style.opacity = '1';
+        getCurSideEl().style.right = '0%';
+        resetSideEl.style.right = '3%';
 
         setFontSize(23);
         setSideExpanded(true);
