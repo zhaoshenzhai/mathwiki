@@ -1,4 +1,5 @@
 import { getBasePath } from './stringUtils.js';
+import { getFontSize } from './single.js';
 
 var searchBox = document.getElementById('searchBox');
 var searchBar = document.getElementById('searchBar');
@@ -84,7 +85,8 @@ function updateSearchList(newList, newListPaths) {
         }
     }
 
-    searchBox.style.height = (55 + ((23 + 17) * curSearchLength)) + 'px';
+    searchBox.style.height =
+        (55 + ((getFontSize() + 17) * curSearchLength)) + 'px';
 }
 
 function searchItemActive(newActiveNum) {
