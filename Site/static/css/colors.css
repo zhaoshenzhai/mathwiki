@@ -16,7 +16,7 @@
 } 
 
 .listenDark, p, h1, a {
-    transition: color 0.1s ease-out, background-color 0.1s ease-out;
+    transition: color 0.2s ease-out, background-color 0.2s ease-out;
 }
 
 #toggleDark {
@@ -35,5 +35,5 @@
     display: block;
     margin: 10px auto 10px auto;
     text-align: center;
-    transition: filter 0.1s ease-out;
+    transition: filter 0.2s ease-out;
 }

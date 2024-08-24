@@ -4,8 +4,7 @@ var darkMode = false;
 
 window.toggleDark = toggleDark;
 
-const root = document.querySelector(':root');
-const rootC = getComputedStyle(root);
+const rootC = getComputedStyle(document.querySelector(':root'));
 
 const lightVals = {
     'bg':                  rootC.getPropertyValue('--bg'),
@@ -33,22 +32,19 @@ const darkVals = {
     'quote':               'rgba(255,255,255,0.25)'
 };
 
-// Init dark
-if (localStorage['darkMode'] == 'dark') {
-    toggleDark(document, false, true, true);
-}
-
-export function toggleDark(doc, reset, update, frame) {
-    if (reset) {
-        doc.body.style.transition = '';
-        doc.offsetHeight;
-    }
-
+export function toggleDark(doc, noTransition, update, frame) {
+    var allListenDarkEl = doc.querySelectorAll('.listenDark, p, h1, a');
     var icons = doc.getElementsByClassName('icon');
     var images = doc.getElementsByClassName('tikz');
     var navButtons = doc.getElementsByClassName('navButton');
 
     var curRoot = doc.querySelector(':root');
+
+    if (noTransition) {
+        allListenDarkEl.forEach(el => {
+            el.classList.add('noTransition');
+        });
+    }
 
     if (darkMode) {
         for(var [key, val] of Object.entries(lightVals)) {
@@ -92,5 +88,12 @@ export function toggleDark(doc, reset, update, frame) {
         }
 
         darkMode = !darkMode;
+    }
+
+    if (noTransition) {
+        allListenDarkEl.forEach(el => {
+            el.offsetHeight;
+            el.classList.remove('noTransition');
+        });
     }
 }

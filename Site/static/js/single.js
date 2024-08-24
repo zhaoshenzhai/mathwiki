@@ -1,5 +1,7 @@
 import { initMetaLinks } from './single/metaLinks.js';
 import { initMetaTOC } from './single/metaTOC.js';
+import { toggleSide } from './single/side.js';
+import { toggleDark } from './darkMode.js';
 
 var root = document.querySelector(':root');
 export var contentEl, headersEl,
@@ -24,6 +26,14 @@ document.addEventListener('DOMContentLoaded', (e) => {
     curSideEl = metaDataEl;
 
     setFontSize(fontSize);
+
+    if (localStorage['darkMode'] == 'dark') {
+        toggleDark(document, true, true, true);
+    }
+
+    // if (localStorage['sideExpanded'] == 'false') {
+    //     toggleSide(true);
+    // }
 });
 
 export function getSideExpanded() { return sideExpanded; }

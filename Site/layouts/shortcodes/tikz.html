@@ -6,7 +6,7 @@
 {{- $imgPath := printf "Site/static/%s" $img -}}
 
 {{- if fileExists $imgPath -}}
-<img class="tikz noSelect" src="{{ $imgAbs }}" width="{{ $imgWidth }}">
+<img class="tikz noSelect listenDark" src="{{ $imgAbs }}" width="{{ $imgWidth }}">
 {{- else -}}
     {{- .Inner | .Page.RenderString -}}
 {{- end -}}

@@ -4,7 +4,7 @@ import { styleHeaders } from './metaTOC.js';
 
 window.toggleSide = toggleSide;
 
-function toggleSide() {
+export function toggleSide() {
     if (getSideExpanded()) {
         contentEl.style.width = '80%';
         contentEl.style.paddingLeft = '10%';
@@ -16,6 +16,8 @@ function toggleSide() {
         setFontSize(25);
         setSideExpanded(false);
         styleHeaders(true);
+
+        localStorage['sideExpanded'] = 'false';
     } else {
         contentEl.style.width = '45%';
         contentEl.style.paddingLeft = '2.5%';
@@ -27,5 +29,7 @@ function toggleSide() {
         setFontSize(23);
         setSideExpanded(true);
         styleHeaders(true);
+
+        localStorage['sideExpanded'] = 'true';
     }
 }
