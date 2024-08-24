@@ -8,13 +8,6 @@ body, h1, p {
     font-size: var(--size);
 }
 
-.noTransition {
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -o-transition: none !important;
-    transition: none !important;
-}
-
 h2, p {
     display: inline;
 }

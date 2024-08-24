@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded', (e) => {
         toggleDark(document, true, true, true);
     }
 
-    // if (localStorage['sideExpanded'] == 'false') {
-    //     toggleSide(true);
-    // }
+    if (localStorage['sideExpanded'] == 'false') {
+        toggleSide(true);
+    }
 });
 
 export function getSideExpanded() { return sideExpanded; }

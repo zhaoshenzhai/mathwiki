@@ -4,7 +4,14 @@ import { styleHeaders } from './metaTOC.js';
 
 window.toggleSide = toggleSide;
 
-export function toggleSide() {
+export function toggleSide(noTransition) {
+    var allListenSide = document.querySelectorAll('#content, .right');
+    if (noTransition) {
+        allListenSide.forEach(el => {
+            el.classList.add('noTransition');
+        });
+    }
+
     if (getSideExpanded()) {
         contentEl.style.width = '80%';
         contentEl.style.paddingLeft = '10%';
@@ -31,5 +38,12 @@ export function toggleSide() {
         styleHeaders(true);
 
         localStorage['sideExpanded'] = 'true';
+    }
+
+    if (noTransition) {
+        allListenSide.forEach(el => {
+            el.offsetHeight;
+            el.classList.remove('noTransition');
+        });
     }
 }
