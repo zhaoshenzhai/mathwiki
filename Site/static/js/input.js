@@ -27,7 +27,7 @@ document.addEventListener('keydown', function(e) {
         searchScroll(1);
     } else if (searchActive && e.key === 'ArrowUp') {
         searchScroll(-1);
-    } else if (metaKeyDown && e.key === 'e') {
+    } else if (!searchActive && metaKeyDown && e.key === 'e') {
         toggleSide(false);
     } else if (!searchActive && e.key === 'j') {
         contentEl.style.setProperty('position', 'absolute');
