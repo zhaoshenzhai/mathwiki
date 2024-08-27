@@ -5,10 +5,10 @@ body {
 
 body, h1, p {
     margin: 0;
+    font-size: var(--size);
 }
 
 h2, p {
-    font-size: 23px;
     display: inline;
 }
 
@@ -30,21 +30,55 @@ blockquote {
 
 #content {
     padding-top: 60px;
+    transition: width, padding-left, padding-right;
+    transition-duration: 1s;
 }
 
 #title {
     letter-spacing: 8px;
     line-height: 40px;
+    margin: 40px 0 30px 0;
+}
+
+#toggleSide {
+    top: 100px;
+    left: 0.5%;
+    margin: 0;
+}
+
+#toggleSide img {
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.h1Title {
+    margin: 20px 0 10px 0;
+}
+
+.headerBig {
+    font-size: var(--size);
+}
+
+.headerSmall {
+    font-size: var(--SCSize);
+}
+
+.left, .right {
+    width: 45%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
 
 .left {
-    width: 45%;
-    left: 3%;
+    z-index: 10;
 }
 
 .right {
-    width: 45%;
-    right: 3%;
+    right: 0%;
+    z-index: 9;
+    font-size: 23px !important;
+    transition: right 1s;
 }
 
 .space {
@@ -55,10 +89,6 @@ blockquote {
 .spacer {
     width: 100%;
     height: 150px;
-}
-
-.title_spacer {
-    padding-bottom: 20px;
 }
 
 .center {

@@ -16,9 +16,7 @@
 } 
 
 .listenDark, p, h1, a {
-    transition: color, background-color;
-    transition-duration: 0.1s;
-    transition-timing-function: ease-out;
+    transition: color 0.2s ease-out, background-color 0.2s ease-out;
 }
 
 #toggleDark {
@@ -37,13 +35,5 @@
     display: block;
     margin: 10px auto 10px auto;
     text-align: center;
-    transition: filter 0.1s ease-out;
-}
-
-.icon, .navButton, .tikz {
-    -moz-user-select: -moz-none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    transition: filter 0.2s ease-out;
 }

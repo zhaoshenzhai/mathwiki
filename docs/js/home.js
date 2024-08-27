@@ -1,3 +1,3 @@
-import { searchInit } from "./search.js";
+import { searchInit } from './search.js';
 
 searchInit();

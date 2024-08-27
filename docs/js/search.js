@@ -1,6 +1,9 @@
-var searchBox = document.getElementById("searchBox");
-var searchBar = document.getElementById("searchBar");
-var searchList = document.getElementById("searchList");
+import { getBasePath } from './stringUtils.js';
+import { getFontSize } from './single.js';
+
+var searchBox = document.getElementById('searchBox');
+var searchBar = document.getElementById('searchBar');
+var searchList = document.getElementById('searchList');
 
 var allFiles, allFileTitles, allFilePaths;
 
@@ -11,6 +14,7 @@ var searchEngine;
 var root = getComputedStyle(document.querySelector(':root'));
 
 var curSearchItemActive = 0;
+var curSearchLength = searchLengthCap;
 export var searchActive = false;
 
 window.search = search;
@@ -19,20 +23,32 @@ window.searchOpen = searchOpen;
 window.searchClear = searchClear;
 window.searchItemActive = searchItemActive;
 
-// Extract from allFiles.json
-fetch("/mathwiki/allFiles.json")
-    .then(response => response.json())
-    .then((data) => {
-        allFiles = data;
+// Fetch from localStorage; if DNE, fetch from allFiles
+document.addEventListener('DOMContentLoaded', (e) => {
+    var recentFiles = localStorage['recentFiles'];
+    if (recentFiles) {
+        var allFiles = JSON.parse(recentFiles);
+        var curPath = getBasePath(window.location.pathname);
+        var curFileIndex = allFiles.findIndex(x => x.relPath == curPath);
+
+        allFiles.unshift(allFiles.splice(curFileIndex, 1)[0]);
         allFilePaths = allFiles.map((x) => x.relPath);
         allFileTitles = allFiles.map((x) => x.title);
         searchEngine = new Fuse(allFiles, searchOptions);
-    });
+
+        localStorage.setItem('recentFiles', JSON.stringify(allFiles));
+    } else {
+        fetch('/mathwiki/allFiles.json').then(response => response.json())
+        .then((data) => {
+            localStorage.setItem('recentFiles', JSON.stringify(data));
+        });
+    }
+});
 
 export function searchInit() {
-    if (!searchBox.classList.contains("inPreview")) {
+    if (!searchBox.classList.contains('inPreview')) {
         searchActive = true;
-        searchBox.style.display = "flex";
+        searchBox.style.display = 'flex';
         searchBar.focus();
         search();
     }
@@ -54,29 +70,30 @@ function search(e) {
 }
 
 function updateSearchList(newList, newListPaths) {
-    var length = Math.min(newList.length, searchLengthCap);
+    curSearchLength = Math.min(newList.length, searchLengthCap);
     searchItemActive(0);
 
     for (let i = 0; i < searchLengthCap; i++) {
-        var item = document.getElementById("searchItem" + i);
-        if (i < length) {
+        var item = document.getElementById('searchItem' + i);
+        if (i < curSearchLength) {
             item.innerText = newList[i];
-            item.setAttribute("href", newListPaths[i]);
-            item.style.display = "block";
+            item.setAttribute('href', newListPaths[i]);
+            item.style.display = 'block';
         } else {
-            item.innerText = "";
-            item.style.display = "none";
+            item.innerText = '';
+            item.style.display = 'none';
         }
     }
 
-    searchBox.style.height = (55 + 40 * length) + "px";
+    searchBox.style.height =
+        (55 + ((getFontSize() + 17) * curSearchLength)) + 'px';
 }
 
 function searchItemActive(newActiveNum) {
-    var oldActive = document.getElementById("searchItem" + curSearchItemActive);
-    oldActive.style.background = "";
+    var oldActive = document.getElementById('searchItem' + curSearchItemActive);
+    oldActive.style.background = '';
 
-    var newActive = document.getElementById("searchItem" + newActiveNum);
+    var newActive = document.getElementById('searchItem' + newActiveNum);
     var boxBG = root.getPropertyValue('--box-bg');
     newActive.style.background = boxBG;
 
@@ -84,33 +101,35 @@ function searchItemActive(newActiveNum) {
 }
 
 export function searchScroll(amount) {
-    var newItemActiveNum = curSearchItemActive + amount;
-    if (newItemActiveNum < 0) {
-        newItemActiveNum = searchLengthCap - 1;
-    } else if (newItemActiveNum >= searchLengthCap) {
-        newItemActiveNum = newItemActiveNum % searchLengthCap;
+    var newActiveNum = curSearchItemActive + amount;
+    if (newActiveNum < 0) {
+        newActiveNum = curSearchLength - 1;
+    } else if (newActiveNum >= curSearchLength) {
+        newActiveNum = newActiveNum % curSearchLength;
     }
 
-    searchItemActive(newItemActiveNum);
+    if (curSearchLength > 0) { searchItemActive(newActiveNum); }
 }
 
 export function searchOpen(newTab) {
-    var element = document.getElementById("searchItem" + curSearchItemActive);
-    var path = window.origin + "/mathwiki/" + element.getAttribute("href");
+    var element = document.getElementById('searchItem' + curSearchItemActive);
+    var path = window.origin + '/mathwiki/' + element.getAttribute('href');
 
-    searchClear();
-    if (newTab) { window.open(path, "_blank");
-    } else { window.open(path, "_self"); }
+    if (curSearchLength > 0) {
+        searchClear();
+        if (newTab) { window.open(path, '_blank'); }
+        else { window.open(path, '_self'); }
+    }
 }
 
 export function searchClear() {
     searchActive = false;
-    searchBox.style.display = "none";
-    searchBar.value = "";
+    searchBox.style.display = 'none';
+    searchBar.value = '';
 }
 
 function validateInput(e) {
-    return !e || /^[a-zA-Z0-9]$/.test(e.key) || e.key === "Backspace";
+    return !e || /^[a-zA-Z0-9]$/.test(e.key) || e.key === 'Backspace';
 }
 function getInput(e) {
     var init = searchBar.value;
@@ -118,7 +137,7 @@ function getInput(e) {
     if (e) {
         if (/^[a-zA-Z0-9]$/.test(e.key)) {
             init = searchBar.value + e.key;
-        } else if (e.key === "Backspace") {
+        } else if (e.key === 'Backspace') {
             init = init.substr(0, init.length - 1);
         }
     }

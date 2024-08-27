@@ -7,7 +7,11 @@ tags: [Group_Theory]
 
 # Motivation & Definition
 
-The concept of a *group* was invented to capture the abstract properties of *symmetries* (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.
+The concept of a *group* was invented to capture the abstract properties of *symmetries* of geometrical objects (i.e. self-transformations that preserve internal ‘structure’). These transformations must be composable; there must be a transformation that does nothing; and for each transformation, there must be a transformation that undoes it.
+
+<br>
+
+&emsp;&emsp;The following definition captures this idea formally. Note, however, that we've shifted the emphasis from the geometrical object itself to its set of symmetries instead.
 
 {{< env type="definition" >}}
 
@@ -18,7 +22,7 @@ A **group** is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$,
 
 {{< /env >}}
 
-Many groups arise as *automorphism* groups of objects $X$ in a {{< link file="category" display="category" type="references" >}}; for instance, if $X$ is a set, then $\Aut X$, consisting of all bijections $f:X\to X$, forms a group under composition. If $X$ is a {{< link file="metric_space" display="metric space" type="references" >}}, then the same holds for $\Aut X$, consisting of all isometries $f:X\to X$ $-$ and so on. In all these cases, $e=\id$ and $\iota(f)=f^{-1}$.
+The set $G$ is the ‘abstract transformations’ as described above. However, many groups are ‘concrete’, in that they are the transformations of some concrete object $X$. For instance, if $X$ is a set, then $\Aut X$, consisting of all bijections $f:X\to X$, forms a group under composition; If $X$ is a {{< link file="metric_space" display="metric space" type="references" >}}, then the same holds for $\Aut X$, consisting of all isometries $f:X\to X$; similarly for vector spaces, {{< link file="topological_space" display="topological spaces" type="references" >}}, and so on. In all these cases, $e=\id$ and $\iota(f)=f^{-1}$. The above examples generalize by considering any object $X$ in a {{< link file="category" display="category" type="references" >}}. In fact, *every* group arises this way, as a concrete group, from the category $\cat{B}G$ (see {{< link file="group" display="here" type="references" section="Groupoids" >}}).
 
 <br>
 
@@ -26,15 +30,15 @@ Many groups arise as *automorphism* groups of objects $X$ in a {{< link file="ca
 
 {{< env type="definition" >}}
 
-A function $f:G\to H$ between groups is a **homomorphism** if
-$$\begin{equation}
-    f(g_1\cdot g_2)=f(g_1)\cdot f(g_2)
-\end{equation}$$
-for every $g_1,g_2\in G$. <span style="color:gray">Note that this implies $f(e_G)=e_H$ and $f(g^{-1})=f(g)^{-1}$.</span>
+A function $f:G\to H$ between groups is a **homomorphism** if $f(g_1\cdot g_2)=f(g_1)\cdot f(g_2)$ for every $g_1,g_2\in G$.
 
 {{< /env >}}
 
-## The Category $\catgrp$
+Note that this implies that $f(e_G)=e_H$ and that $f(g^{-1})=f(g)^{-1}$ for all $g\in G$, so homomorphisms do indeed preserve the group structure of $G$. With homomorphisms as morphisms, groups form a category $\catgrp$.
+
+<div class="space"></div>
+
+## The Category of Groups
 
 We have a forgetful {{< link file="functor" display="functor" type="references" >}} $U:\catgrp\to\catset$. Since every set $X$ generates a {{< link file="free_group" display="free group" type="constructions" >}} $F(X)$, we have a left adjoint $F:\catset\to\catgrp$ of $U$.
 

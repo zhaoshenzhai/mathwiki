@@ -11,11 +11,13 @@
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/colors.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/noProperty.css">
 
         <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
 
         <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module" defer></script>
         <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
         <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module" defer></script>
 
         <div style="display:none;" id="preamble"></div>
@@ -23,11 +25,12 @@
 
     <body class="listenDark">
         
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/metalinks.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/headers.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/proof.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaLinks.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaTOC.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/preview.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/proof.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/side.js" type="module" defer></script>
 
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
@@ -36,8 +39,11 @@
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/nav.css">
 
     <div id="mainPage">
-        <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
+        <button id="toggleDark" onclick="toggleDark(document, false, true, true);" class="navButton noSelect inPreview">
             <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
+        </button>
+        <button id="toggleSide" onclick="toggleSide(false);" class="navButton noSelect inPreview">
+            <img id="toggleSideIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
         </button>
         <div id="content" class="left noScroll">
             
@@ -48,13 +54,13 @@
             <h1 id="the-yoneda-embedding-yo">The Yoneda Embedding $\yo$</h1>
 <h2 id="statement--proof">Statement &amp; Proof</h2>
 <p>Fix a locally-small category $C$. $\yo:C\to\catset$</p>
-<div class="env"><img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg"><b class="envTitle">Theorem (Yoneda).</b>Let $C$ be a locally-small category. For every functor $F:C\to\catset$ and every object $c\in C$, we have a bijection
+<div class="env"><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg"><b class="envTitle">Theorem (Yoneda). </b>Let $C$ be a locally-small category. For every functor $F:C\to\catset$ and every object $c\in C$, we have a bijection
 $$\begin{equation}
 y\coloneqq y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c,
 \end{equation}$$
 which is moreover natural in both $F$ and $c$.</div>
 
-<div class="envProof"><i class="proofHeader">Proof (Bijection).</i><div class="proofExpand"><i>Click to expand...</i></div>
+<div class="envProof"><i class="proofHeader noSelect">Proof (Bijection).</i><div class="proofExpand noSelect"><i>Click to expand...</i></div>
 
         <span class="proofContent"><p>Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via
 $$\begin{equation}
@@ -62,18 +68,18 @@ t(a)_d:C(c,d)\to Fd\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ (f:c\rightarr
 \end{equation}$$
 for each $d\in C$. That $a=y(t(a))$ is immediate since $t(a)_c(1_c)=F(1_c)a=1_ca=a$.</p>
 <p><br>  Conversely, let $\eta:C(c,\slot)\to F$ be a natural transformation, whence the diagram
-<img class="tikz" src="https://zhaoshenzhai.github.io/mathwiki/img/yoneda_bijection.svg" width="300">
+<img class="tikz noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/img/yoneda_bijection.svg" width="300">
 commutes for any morphism $f:c\to d$. In particular, chasing $1_c\in C(c,c)$ around gives us $Ff(\eta_c(1_c))=\eta_d(f_\ast1_c)$, and thus $t(y(\eta))_df=Ff(y(\eta))=\eta_df$ for all $f:c\to d$. Hence, we have $t(y(\eta))=\eta$, as desired.<span style="float:right;">$\blacksquare$</span></p>
 </span></div>
 
 <div class="space"></div>
-<div class="envProof"><i class="proofHeader">Proof (Naturality).</i><div class="proofExpand"><i>Click to expand...</i></div>
+<div class="envProof"><i class="proofHeader noSelect">Proof (Naturality).</i><div class="proofExpand noSelect"><i>Click to expand...</i></div>
 
         <span class="proofContent">The naturality claims amounts to</span></div>
 
 <div class="space"></div>
 <h2 id="extensions-and-corollaries">Extensions and Corollaries</h2>
-<div class="env"><img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg"><b class="envTitle">Theorem (Yoneda Embedding).</b>For any locally-small category $C$, the Yoneda embedding $\mf{y}:C^\textrm{op}\to\catset^C$ is fully-faithful.</div>
+<div class="env"><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg"><b class="envTitle">Theorem (Yoneda Embedding). </b>For any locally-small category $C$, the Yoneda embedding $\mf{y}:C^\textrm{op}\to\catset^C$ is fully-faithful.</div>
 
 <h1 id="interpretations">Interpretations</h1>
 <h2 id="group-actions">Group Actions</h2>
@@ -82,16 +88,16 @@ commutes for any morphism $f:c\to d$. In particular, chasing $1_c\in C(c,c)$ aro
             <div class="spacer">&nbsp;</div>
         </div>
 
-        <div id="side">
+        <div id="side" class="inPreview">
             <div id="metadata" class="right noScroll">
                 May 29, 2024 | Zhaoshen Zhai
 
-                <div id="references">References:
+                <div>References:
                     
                         <div class="metaButton metaRef listenDark">#Mac10</div>
                     
                 </div>
-                <div id="tags">Tags:
+                <div>Tags:
                     
                         <div class="metaButton metaTag listenDark">#Category_Theory</div>
                     
@@ -100,12 +106,12 @@ commutes for any morphism $f:c\to d$. In particular, chasing $1_c\in C(c,c)$ aro
                 </div>
                 <br>
 
-                <div id="toc">Table of Contents:
-                    <button class="metaButton listenDark" onclick="showTOC();">Show</button>
-                    <button class="metaButton listenDark" onclick="hideTOC();">Hide</button>
-                    <div id="metaContents"></div>
+                <div>Table of Contents:
+                    <button class="metaButton listenDark" onclick="showMetaTOC();">Show</button>
+                    <button class="metaButton listenDark" onclick="hideMetaTOC();">Hide</button>
+                    <div id="metaTOC"></div>
                 </div>
-                <div id="links">Links:
+                <div>Links:
                     <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
                     <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
                     <div id="metaLinks"></div>
@@ -113,8 +119,8 @@ commutes for any morphism $f:c\to d$. In particular, chasing $1_c\in C(c,c)$ aro
 
                 <div class="spacer">&nbsp;</div>
             </div>
-            <div id="preview">
-                <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
+            <div id="previewContainer">
+                <button id="resetSide" onclick="resetSide();" class="navButton noSelect" style="display: none;">
                     <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
                 </button>
             </div>
@@ -122,19 +128,19 @@ commutes for any morphism $f:c\to d$. In particular, chasing $1_c\in C(c,c)$ aro
     </div>
 
 
-        <div id="searchBox" class="listenDark" style="display: none;">
-            <input id="searchBar" class="listenDark" placeholder="Search for a note..." onkeydown="search(event);">
-            <ul id="searchList" class="listenDark" onclick="searchOpen(getCtrlKeyDown());">
-                <li id="searchItem0" class="listenDark" onmouseover="searchItemActive(0)"></li>
-                <li id="searchItem1" class="listenDark" onmouseover="searchItemActive(1)"></li>
-                <li id="searchItem2" class="listenDark" onmouseover="searchItemActive(2)"></li>
-                <li id="searchItem3" class="listenDark" onmouseover="searchItemActive(3)"></li>
-                <li id="searchItem4" class="listenDark" onmouseover="searchItemActive(4)"></li>
-                <li id="searchItem5" class="listenDark" onmouseover="searchItemActive(5)"></li>
-                <li id="searchItem6" class="listenDark" onmouseover="searchItemActive(6)"></li>
-                <li id="searchItem7" class="listenDark" onmouseover="searchItemActive(7)"></li>
-                <li id="searchItem8" class="listenDark" onmouseover="searchItemActive(8)"></li>
-                <li id="searchItem9" class="listenDark" onmouseover="searchItemActive(9)"></li>
+        <div id="searchBox" style="display: none;">
+            <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" onmouseover="searchItemActive(9)"></li>
             </ul>
         </div>
     </body>

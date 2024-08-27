@@ -1,6 +1,6 @@
-import { expandMetaLinks } from "./metalinks.js";
-import { expandProofHeaders } from "./proof.js"
-import { showTOC } from "./headers.js";
+import { expandMetaLinks } from './single/metaLinks.js';
+import { expandProofHeaders } from './single/proof.js';
+import { showMetaTOC } from './single/metaTOC.js';
 
 window.MathJax = {
     tex: {
@@ -21,14 +21,14 @@ window.MathJax = {
 };
 
 (function() {
-    fetch("/mathwiki/preamble.sty")
+    fetch('/mathwiki/preamble.sty')
         .then(response => response.text())
         .then((data) => {
-            var preamble = document.getElementById("preamble");
-            if (preamble) { preamble.innerHTML = "$" + data + "$"; }
+            var preamble = document.getElementById('preamble');
+            if (preamble) { preamble.innerHTML = '$' + data + '$'; }
 
             var script = document.createElement('script');
-            script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
+            script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js';
             script.async = true;
             document.head.appendChild(script);
         });
@@ -37,5 +37,5 @@ window.MathJax = {
 function init() {
     expandMetaLinks();
     expandProofHeaders();
-    showTOC();
+    showMetaTOC();
 }

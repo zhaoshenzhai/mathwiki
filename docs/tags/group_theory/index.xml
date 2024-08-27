@@ -41,7 +41,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/fixed_point_theorems_of_p_groups/</link>
       <pubDate>Fri, 21 Jun 2024 18:02:41 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/fixed_point_theorems_of_p_groups/</guid>
-      <description>A standard method to study a finite group is to first find its center; if non-trivial, we can set up an induction proof for certain existence theorems by quotienting by $Z(G)$.&#xA;The results here, used in tandem with Cauchy’s Theorem, are the backbone for the proofs of the Sylow Theorems.&#xA;Non-triviality of $Z(G)$ This is indeed the case for finite $p$-groups, which we now show. Fix a prime $p$.&#xA;Proposition.If $G$ is a $p$-group acting on a finite set $S$, then $\l|Z\r|\equiv\l|S\r|\,\mod\,p$, where $Z$ is the set of fixed-points of this action.</description>
+      <description>A standard method to study a finite group is to first find its center; if non-trivial, we can set up an induction proof for certain existence theorems by quotienting by $Z(G)$.&#xA;The results here, used in tandem with Cauchy’s Theorem, are the backbone for the proofs of the Sylow Theorems.&#xA;Non-triviality of $Z(G)$ This is indeed the case for finite $p$-groups, which we now show. Fix a prime $p$.&#xA;Proposition. If $G$ is a $p$-group acting on a finite set $S$, then $\l|Z\r|\equiv\l|S\r|\,\mod\,p$, where $Z$ is the set of fixed-points of this action.</description>
     </item>
     <item>
       <title>p-group</title>
@@ -62,14 +62,14 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/lagranges_theorem/</link>
       <pubDate>Thu, 20 Jun 2024 22:43:48 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/lagranges_theorem/</guid>
-      <description>Statement &amp;amp; Proof This classical result is fundamental in finite group theory, since it places limitations on the size a subgroup of a finite group can have.&#xA;For a subgroup $H\substructeq G$ of $G$, let $[G:H]\coloneqq\l|G/H\r|$ be the index of $H$ in $G$.&#xA;Theorem (Lagrange).Let $G$ be a finite group. For every subgroup $H\substructeq G$, we have $\l|G\r|=[G:H]\cdot\l|H\r|$. In particular, $\l|H\r|$ divides $\l|G\r|$. Proof.Click to expand... Consider the natural left-multiplication action of $H$ on $G$, for which we have $\Orb_H(g)=Hg$ and $\Stab_H(g)=\l\{e\r\}$ for every $g\in G$, and thus $\l|Hg\r|=\l|H\r|$ by the Orbit Stabilizer Theorem.</description>
+      <description>Statement &amp;amp; Proof This classical result is fundamental in finite group theory, since it places limitations on the size a subgroup of a finite group can have.&#xA;For a subgroup $H\substructeq G$ of $G$, let $[G:H]\coloneqq\l|G/H\r|$ be the index of $H$ in $G$.&#xA;Theorem (Lagrange). Let $G$ be a finite group. For every subgroup $H\substructeq G$, we have $\l|G\r|=[G:H]\cdot\l|H\r|$. In particular, $\l|H\r|$ divides $\l|G\r|$. Proof.Click to expand... Consider the natural left-multiplication action of $H$ on $G$, for which we have $\Orb_H(g)=Hg$ and $\Stab_H(g)=\l\{e\r\}$ for every $g\in G$, and thus $\l|Hg\r|=\l|H\r|$ by the Orbit Stabilizer Theorem.</description>
     </item>
     <item>
       <title>Cayley’s Theorem</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</link>
       <pubDate>Thu, 20 Jun 2024 19:25:15 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</guid>
-      <description>Motivation &amp;amp; Statement Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’. Such a theorem for groups is as follows.&#xA;Theorem (Cayley).Every group $G$ is a subgroup of a symmetry group. Proof.Click to expand... We show that the left-multiplication action $\phi:G\to\Aut G$ is faithful, for then $G\substructeq\Aut G$. Indeed, if $\phi(g_1)=\phi(g_2)$, then we have $\phi(g_1)g=\phi(g_2)g$ for all $g\in G$. That is, we have $g_1g=g_2g$, so $g_1=g_2$ as desired.</description>
+      <description>Motivation &amp;amp; Statement Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’. Such a theorem for groups is as follows.&#xA;Theorem (Cayley). Every group $G$ is a subgroup of a symmetry group. Proof.Click to expand... We show that the left-multiplication action $\phi:G\to\Aut G$ is faithful, for then $G\substructeq\Aut G$. Indeed, if $\phi(g_1)=\phi(g_2)$, then we have $\phi(g_1)g=\phi(g_2)g$ for all $g\in G$. That is, we have $g_1g=g_2g$, so $g_1=g_2$ as desired.</description>
     </item>
     <item>
       <title>Quotient Group</title>
@@ -83,7 +83,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/</link>
       <pubDate>Mon, 10 Jun 2024 17:20:55 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/</guid>
-      <description>Motivation &amp;amp; Definition Fix a group $G$ and consider the category $\cat{B}G$ defined by $G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$). What are the congruences in $\cat{B}G$?&#xA;Definition.A subgroup $N\substructeq G$ is said to be normal if it is invariant under the conjugation action of $G$; i.e., if $gN=Ng$ for all $g\in G$.&#xA;In this case, we write $N\nsubgrpeq G$, and $N\nsubgrp G$ if it is proper.</description>
+      <description>Motivation &amp;amp; Definition Fix a group $G$ and consider the category $\cat{B}G$ defined by $G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$). What are the congruences in $\cat{B}G$?&#xA;Definition. A subgroup $N\substructeq G$ is said to be normal if it is invariant under the conjugation action of $G$; i.e., if $gN=Ng$ for all $g\in G$.&#xA;In this case, we write $N\nsubgrpeq G$, and $N\nsubgrp G$ if it is proper.</description>
     </item>
     <item>
       <title>Kernel (Group Theory)</title>
@@ -97,14 +97,14 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/subgroup/</link>
       <pubDate>Thu, 06 Jun 2024 19:40:13 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/subgroup/</guid>
-      <description>Definition and Generation A standard method of studying an object $-$ in this case, a group $G$ $-$ is to analyze other groups that ‘sit inside’ $G$. This is formalized in the following&#xA;Definition.Let $G$ be a group. A subgroup of $G$ is a subset $H\subseteq G$ equipped with a group structure making the inclusion $H\into G$ a group homomorphism.&#xA;We write $H\substructeq G$ to indicate that $H$ is a subgroup of $G$.</description>
+      <description>Definition and Generation A standard method of studying an object $-$ in this case, a group $G$ $-$ is to analyze other groups that ‘sit inside’ $G$. This is formalized in the following&#xA;Definition. Let $G$ be a group. A subgroup of $G$ is a subset $H\subseteq G$ equipped with a group structure making the inclusion $H\into G$ a group homomorphism.&#xA;We write $H\substructeq G$ to indicate that $H$ is a subgroup of $G$.</description>
     </item>
     <item>
       <title>Orbit Stabilizer Theorem</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</link>
       <pubDate>Mon, 03 Jun 2024 17:04:49 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/orbit_stabilizer_theorem/</guid>
-      <description>Statement &amp;amp; Proof Let $G$ be a group acting on a non-empty set $X$. Then $G$ acts on each orbit $\Orb_G(x_0)$ by left-multiplication. More precisely, we have the following&#xA;Theorem (Orbit-Stabilizer).Let $G$ be a group and let $(X,x_0)$ be a pointed $G$-set. Equipping $G/\Stab_G(x_0)$ with the natural left-multiplication $G$-action, we have a $G$-equivariant bijection $\Orb_G(x_0)\iso G/\Stab_G(x_0)$. Proof.Click to expand... Let $H\coloneqq\Stab_G(x_0)$ and consider the map $f:G\to\Orb_G(x_0):g\mapsto gx_0$. Since $$\begin{equation} f(g_1)=f(g_2)\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_2^{-1}g_1x_0=x_0\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1H=g_2H, \end{equation}$$ we see that $f$ descends$^\dagger$ into an injective map $\widetilde{f}:G/H\to\Orb_G(x_0):gH\mapsto gx_0$.</description>
+      <description>Statement &amp;amp; Proof Let $G$ be a group acting on a non-empty set $X$. Then $G$ acts on each orbit $\Orb_G(x_0)$ by left-multiplication. More precisely, we have the following&#xA;Theorem (Orbit-Stabilizer). Let $G$ be a group and let $(X,x_0)$ be a pointed $G$-set. Equipping $G/\Stab_G(x_0)$ with the natural left-multiplication $G$-action, we have a $G$-equivariant bijection $\Orb_G(x_0)\iso G/\Stab_G(x_0)$. Proof.Click to expand... Let $H\coloneqq\Stab_G(x_0)$ and consider the map $f:G\to\Orb_G(x_0):g\mapsto gx_0$. Since $$\begin{equation} f(g_1)=f(g_2)\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_2^{-1}g_1x_0=x_0\ \ \ \ \ \ \ \ \Leftrightarrow\ \ \ \ \ \ \ \ g_1H=g_2H, \end{equation}$$ we see that $f$ descends$^\dagger$ into an injective map $\widetilde{f}:G/H\to\Orb_G(x_0):gH\mapsto gx_0$.</description>
     </item>
     <item>
       <title>Finite Group</title>
@@ -118,7 +118,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/free_group/</link>
       <pubDate>Mon, 03 Jun 2024 15:36:38 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/free_group/</guid>
-      <description>Motivation &amp;amp; Definition Fix a set $X$. We would like to ‘canonically’ construct a group $F(X)$ containing $X$ ‘in the most efficient way’. The latter is encoded by a universal property, and the former makes $F:\catset\to\catgrp$ a left-adjoint to the forgetful functor $U:\catgrp\to\catset$.&#xA;Definition.A free group on $X$ is a group $F(X)$ equipped with a function $j:X\to F(X)$ that is universal in the following sense:&#xA;For every group $G$ and any function $f:X\to UG$, there is a unique group homomorphism $f&amp;rsquo;:F(X)\to G$ such that $Ff&amp;rsquo;\circ j=f$.</description>
+      <description>Motivation &amp;amp; Definition Fix a set $X$. We would like to ‘canonically’ construct a group $F(X)$ containing $X$ ‘in the most efficient way’. The latter is encoded by a universal property, and the former makes $F:\catset\to\catgrp$ a left-adjoint to the forgetful functor $U:\catgrp\to\catset$.&#xA;Definition. A free group on $X$ is a group $F(X)$ equipped with a function $j:X\to F(X)$ that is universal in the following sense:&#xA;For every group $G$ and any function $f:X\to UG$, there is a unique group homomorphism $f&amp;rsquo;:F(X)\to G$ such that $Ff&amp;rsquo;\circ j=f$.</description>
     </item>
     <item>
       <title>Integers</title>
@@ -132,35 +132,35 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/order/</link>
       <pubDate>Mon, 03 Jun 2024 15:04:46 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/order/</guid>
-      <description>Motivation &amp;amp; Definition Let $G$ be a group. The order of an element $x\in G$ is the size of its generated cyclic subgroup. A more elementary definition is as follows.&#xA;Definition.An element $x\in G$ has finite order if $x^n=e$ for some $n&amp;gt;0$; the least such $n$ is the order of $x$, denoted $\ord x$.&#xA;Otherwise, set $\ord x\coloneqq\infty$, and say that $x$ has infinite order.&#xA;Proof ($\ord x=|\!\gen{x}|$).Click to expand... Since $\gen{x}$ is the image of the map $\phi_x:\Z\to G$ induced uniquely by sending $1\mapsto x$, if $\ker\phi_x=n\Z$ for some $n&amp;gt;0$, then$^\dagger$ $\im\phi_x\iso\Z/n\Z$ has cardinality $n$.</description>
+      <description>Motivation &amp;amp; Definition Let $G$ be a group. The order of an element $x\in G$ is the size of its generated cyclic subgroup. A more elementary definition is as follows.&#xA;Definition. An element $x\in G$ has finite order if $x^n=e$ for some $n&amp;gt;0$; the least such $n$ is the order of $x$, denoted $\ord x$.&#xA;Otherwise, set $\ord x\coloneqq\infty$, and say that $x$ has infinite order.&#xA;Proof ($\ord x=|\!\gen{x}|$).Click to expand.</description>
     </item>
     <item>
       <title>Cyclic Group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/cyclic_group/</link>
       <pubDate>Mon, 03 Jun 2024 14:23:46 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/cyclic_group/</guid>
-      <description>Motivation &amp;amp; Definition The simplest class of groups are the cyclic groups, which are those that are generated by a single element.&#xA;Definition.A group $G$ is said to be cyclic if $G=\gen{x}$$^\dagger$ for some $x\in G$. Classification Let $G=\gen{x}$ be cyclic. By definition, $\phi:\Z\to G$ sending $m\mapsto x^m$ is surjective. Depending on the order $n\coloneqq\ord x$ of $x$, $G$ takes on the following forms.&#xA;If $1\leq n&amp;lt;\infty$, then $\ker\phi=n\Z$ and hence$^\dagger$ $G\iso\Z/n\Z$.</description>
+      <description>Motivation &amp;amp; Definition The simplest class of groups are the cyclic groups, which are those that are generated by a single element.&#xA;Definition. A group $G$ is said to be cyclic if $G=\gen{x}$$^\dagger$ for some $x\in G$. Classification Let $G=\gen{x}$ be cyclic. By definition, $\phi:\Z\to G$ sending $m\mapsto x^m$ is surjective. Depending on the order $n\coloneqq\ord x$ of $x$, $G$ takes on the following forms.&#xA;If $1\leq n&amp;lt;\infty$, then $\ker\phi=n\Z$ and hence$^\dagger$ $G\iso\Z/n\Z$.</description>
     </item>
     <item>
       <title>Group Action</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/group_action/</link>
       <pubDate>Wed, 22 May 2024 20:02:09 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/group_action/</guid>
-      <description>Motivation &amp;amp; Definition Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in ‘concrete objects’, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition.Let $G$ be a group and fix a category $C$. A $G$-action is a functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$. Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$, and write $\phi_g(x)\coloneqq\phi(g)(x)$.</description>
+      <description>Motivation &amp;amp; Definition Groups capture $-$ abstractly $-$ the notion of a symmetry. But symmetries are also present in ‘concrete objects’, with different kinds of objects preserving different kinds of structure. The concept of a group action connects the two.&#xA;Definition. Let $G$ be a group and fix a category $C$. A $G$-action is a functor $\cat{B}G\to C$, which specifies an object $X\in C$ and a homomorphism $\phi:G\to\Aut X$. Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$, and write $\phi_g(x)\coloneqq\phi(g)(x)$.</description>
     </item>
     <item>
       <title>Abelian Group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/abelian_group/</link>
       <pubDate>Wed, 22 May 2024 18:53:29 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/abelian_group/</guid>
-      <description>Motivation &amp;amp; Definition Here, we consider a class of groups which $-$ despite being very general $-$ exhibit very useful properties absent in general groups.&#xA;Definition.A group $G$ is said to be Abelian if $gh=hg$ for all $g,h\in G$. Abelian Groups as $\Z$-modules We denote the subcategory of Abelian groups as $\catabgrp$, which is one of the most well-behaved categories. Indeed, ???.&#xA;We have a forgetful functor $\catmod[\Z]\to\catabgrp$, which is an isomorphism of categories ?</description>
+      <description>Motivation &amp;amp; Definition Here, we consider a class of groups which $-$ despite being very general $-$ exhibit very useful properties absent in general groups.&#xA;Definition. A group $G$ is said to be Abelian if $gh=hg$ for all $g,h\in G$. Abelian Groups as $\Z$-modules We denote the subcategory of Abelian groups as $\catabgrp$, which is one of the most well-behaved categories. Indeed, ???.&#xA;We have a forgetful functor $\catmod[\Z]\to\catabgrp$, which is an isomorphism of categories ?</description>
     </item>
     <item>
       <title>Group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/group/</link>
       <pubDate>Thu, 16 May 2024 21:34:09 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/group/</guid>
-      <description>Motivation &amp;amp; Definition The concept of a group was invented to capture the abstract properties of symmetries (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.&#xA;Definition.A group is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a distinguished element $e\in G$ called the identity, and operations $\cdot:G\times G\to G$ and $\iota:G\to G$, subject to the following conditions.&#xA;(Associativity). For all $g,h,k\in G$, we have $g\cdot(h\cdot k)=(g\cdot h)\cdot k$.</description>
+      <description>Motivation &amp;amp; Definition The concept of a group was invented to capture the abstract properties of symmetries (i.e. transformations that preserve internal ‘structure’) of geometrical objects. These transformations must be composable in the following coherent way.&#xA;Definition. A group is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a distinguished element $e\in G$ called the identity, and operations $\cdot:G\times G\to G$ and $\iota:G\to G$, subject to the following conditions.&#xA;(Associativity). For all $g,h,k\in G$, we have $g\cdot(h\cdot k)=(g\cdot h)\cdot k$.</description>
     </item>
   </channel>
 </rss>

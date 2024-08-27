@@ -11,11 +11,13 @@
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/colors.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/noProperty.css">
 
         <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
 
         <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module" defer></script>
         <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
         <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module" defer></script>
 
         <div style="display:none;" id="preamble"></div>
@@ -23,11 +25,12 @@
 
     <body class="listenDark">
         
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/metalinks.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/headers.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/proof.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaLinks.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaTOC.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/preview.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/proof.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/side.js" type="module" defer></script>
 
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
@@ -36,8 +39,11 @@
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/nav.css">
 
     <div id="mainPage">
-        <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
+        <button id="toggleDark" onclick="toggleDark(document, false, true, true);" class="navButton noSelect inPreview">
             <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
+        </button>
+        <button id="toggleSide" onclick="toggleSide(false);" class="navButton noSelect inPreview">
+            <img id="toggleSideIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
         </button>
         <div id="content" class="left noScroll">
             
@@ -53,7 +59,7 @@ In general, this need <em>not</em> be a subgroup of $G$. Here, we give sufficien
 <br>
 <p>  Note, however, that even if $HK\not\substructeq G$, we have $|HK|=|H||K|/|H\cap K|$ if both $H$ and $K$ are finite.</p>
 <blockquote>
-<div class="envProof hide"><i class="proofHeader">Proof.</i><div class="proofExpand"><i>Click to expand...</i></div>
+<div class="envProof hide"><i class="proofHeader noSelect">Proof.</i><div class="proofExpand noSelect"><i>Click to expand...</i></div>
 
         <span class="proofContent">Note that $HK=\bigcup_{h\in H}hK$, where any two $h_1K,h_2K$ either coincide or are disjoint. But $h_1K=h_2K$ iff $h_2^{-1}h_1\in H\cap K$, iff $h_1(H\cap K)=h_2(H\cap K)$, and so the number of distinct cosets $hK$ coincides with that of $h(H\cap K)$. By <a href=https://zhaoshenzhai.github.io/mathwiki/lagranges_theorem class="internalLink references" title="Lagrange’s Theorem" mathLink="" section="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/lagranges_theorem&#34;, {&#34;Date&#34;:&#34;2024-06-20T22:43:48-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-06-20T22:43:48-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-06-20T22:43:48-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Lagrange’s Theorem&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/lagranges_theorem&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onmouseleave="clearPreviewSide({&#34;Date&#34;:&#34;2024-06-20T22:43:48-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-06-20T22:43:48-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-06-20T22:43:48-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Lagrange’s Theorem&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/lagranges_theorem&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/lagranges_theorem&#34;, {&#34;Date&#34;:&#34;2024-06-20T22:43:48-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-06-20T22:43:48-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-06-20T22:43:48-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Lagrange’s Theorem&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/lagranges_theorem&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">Lagrange’s Theorem</a>, there are $[H:H\cap K]=|H|/|H\cap K|$ distinct cosets $hK$, each of which has cardinality $|hK|=|K|$.<span style="float:right;">$\blacksquare$</span></span></div>
 
@@ -61,9 +67,9 @@ In general, this need <em>not</em> be a subgroup of $G$. Here, we give sufficien
 <p>Finally, we relate $HK$ to the <a href=https://zhaoshenzhai.github.io/mathwiki/product_of_groups class="internalLink references ghostLink" title="product" mathLink="" section="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/product_of_groups&#34;, &#34;nopPage&#34;);" onmouseleave="clearPreviewSide(&#34;nopPage&#34;);" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/product_of_groups&#34;, &#34;nopPage&#34;);">product</a> $H\times K$ and the <a href=https://zhaoshenzhai.github.io/mathwiki/semi-direct_product class="internalLink references ghostLink" title="semi-direct product" mathLink="" section="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/semi-direct_product&#34;, &#34;nopPage&#34;);" onmouseleave="clearPreviewSide(&#34;nopPage&#34;);" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/semi-direct_product&#34;, &#34;nopPage&#34;);">semi-direct product</a> $H\semi K$.</p>
 <h1 id="criteria-for-hksubstructeq-g">Criteria for $HK\substructeq G$</h1>
 <p>We give a full characterization for when this is the case.</p>
-<div class="env"><img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/proposition.svg"><b class="envTitle">Proposition.</b>For subgroups $H,K\substructeq G$, we have $HK\substructeq G$ iff $HK=KH$.</div>
+<div class="env"><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/proposition.svg"><b class="envTitle">Proposition. </b>For subgroups $H,K\substructeq G$, we have $HK\substructeq G$ iff $HK=KH$.</div>
 
-<div class="envProof hide"><i class="proofHeader">Proof.</i><div class="proofExpand"><i>Click to expand...</i></div>
+<div class="envProof hide"><i class="proofHeader noSelect">Proof.</i><div class="proofExpand noSelect"><i>Click to expand...</i></div>
 
         <span class="proofContent">Suppose that $HK\substructeq G$. Since $H,K\substructeq HK$, we see that $KH\subseteq HK$ by closure: indeed, if $kh\in KH$, then $k,h\in HK$ and hence $kh\in HK$. Now take $hk\in HK$ and write $h&rsquo;k&rsquo;\coloneqq(hk)^{-1}\in HK$. Then
 $$\begin{equation}
@@ -81,7 +87,7 @@ for some $h&rsquo;\in H$ and $k&rsquo;\in K$. A similar trick works for inverses
 <h2 id="normality-of-hk">Normality of $HK$</h2>
 <p>Not much in addition is required for $HK\nsubgrpeq G$. Indeed, we only need that <em>both</em> $H\nsubgrpeq G$ and $K\nsubgrpeq G$ (as opposed to either/or).</p>
 <blockquote>
-<div class="envProof hide"><i class="proofHeader">Proof.</i><div class="proofExpand"><i>Click to expand...</i></div>
+<div class="envProof hide"><i class="proofHeader noSelect">Proof.</i><div class="proofExpand noSelect"><i>Click to expand...</i></div>
 
         <span class="proofContent">We have $HK\substructeq G$. Take $hk\in HK$ and $g\in G$, and observe that
 $$\begin{equation}
@@ -95,28 +101,28 @@ g(hk)g^{-1}=(ghg^{-1})(gkg^{-1})\in HK.\qedin
             <div class="spacer">&nbsp;</div>
         </div>
 
-        <div id="side">
+        <div id="side" class="inPreview">
             <div id="metadata" class="right noScroll">
                 July 15, 2024 | Zhaoshen Zhai
 
-                <div id="references">References:
+                <div>References:
                     
                         <div class="metaButton metaRef listenDark">#DF03</div>
                     
                 </div>
-                <div id="tags">Tags:
+                <div>Tags:
                     
                         <div class="metaButton metaTag listenDark">#Group_Theory/Later</div>
                     
                 </div>
                 <br>
 
-                <div id="toc">Table of Contents:
-                    <button class="metaButton listenDark" onclick="showTOC();">Show</button>
-                    <button class="metaButton listenDark" onclick="hideTOC();">Hide</button>
-                    <div id="metaContents"></div>
+                <div>Table of Contents:
+                    <button class="metaButton listenDark" onclick="showMetaTOC();">Show</button>
+                    <button class="metaButton listenDark" onclick="hideMetaTOC();">Hide</button>
+                    <div id="metaTOC"></div>
                 </div>
-                <div id="links">Links:
+                <div>Links:
                     <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
                     <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
                     <div id="metaLinks"></div>
@@ -124,8 +130,8 @@ g(hk)g^{-1}=(ghg^{-1})(gkg^{-1})\in HK.\qedin
 
                 <div class="spacer">&nbsp;</div>
             </div>
-            <div id="preview">
-                <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
+            <div id="previewContainer">
+                <button id="resetSide" onclick="resetSide();" class="navButton noSelect" style="display: none;">
                     <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
                 </button>
             </div>
@@ -133,19 +139,19 @@ g(hk)g^{-1}=(ghg^{-1})(gkg^{-1})\in HK.\qedin
     </div>
 
 
-        <div id="searchBox" class="listenDark" style="display: none;">
-            <input id="searchBar" class="listenDark" placeholder="Search for a note..." onkeydown="search(event);">
-            <ul id="searchList" class="listenDark" onclick="searchOpen(getCtrlKeyDown());">
-                <li id="searchItem0" class="listenDark" onmouseover="searchItemActive(0)"></li>
-                <li id="searchItem1" class="listenDark" onmouseover="searchItemActive(1)"></li>
-                <li id="searchItem2" class="listenDark" onmouseover="searchItemActive(2)"></li>
-                <li id="searchItem3" class="listenDark" onmouseover="searchItemActive(3)"></li>
-                <li id="searchItem4" class="listenDark" onmouseover="searchItemActive(4)"></li>
-                <li id="searchItem5" class="listenDark" onmouseover="searchItemActive(5)"></li>
-                <li id="searchItem6" class="listenDark" onmouseover="searchItemActive(6)"></li>
-                <li id="searchItem7" class="listenDark" onmouseover="searchItemActive(7)"></li>
-                <li id="searchItem8" class="listenDark" onmouseover="searchItemActive(8)"></li>
-                <li id="searchItem9" class="listenDark" onmouseover="searchItemActive(9)"></li>
+        <div id="searchBox" style="display: none;">
+            <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" onmouseover="searchItemActive(9)"></li>
             </ul>
         </div>
     </body>

@@ -11,11 +11,13 @@
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/colors.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/noProperty.css">
 
         <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
 
         <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module" defer></script>
         <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
         <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module" defer></script>
 
         <div style="display:none;" id="preamble"></div>
@@ -23,11 +25,12 @@
 
     <body class="listenDark">
         
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/metalinks.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/headers.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/proof.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaLinks.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaTOC.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/preview.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/proof.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/side.js" type="module" defer></script>
 
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
@@ -36,8 +39,11 @@
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/nav.css">
 
     <div id="mainPage">
-        <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
+        <button id="toggleDark" onclick="toggleDark(document, false, true, true);" class="navButton noSelect inPreview">
             <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
+        </button>
+        <button id="toggleSide" onclick="toggleSide(false);" class="navButton noSelect inPreview">
+            <img id="toggleSideIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
         </button>
         <div id="content" class="left noScroll">
             
@@ -46,7 +52,7 @@
                 </h1>
             
             <h1 id="motivation--definition">Motivation &amp; Definition</h1>
-<div class="env"><img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg"><b class="envTitle">Definition.</b><p>Let $C$ and $D$ be categories. A <strong>(covariant) functor</strong> $F:C\to D$ is the data of two functions:</p>
+<div class="env"><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg"><b class="envTitle">Definition. </b><p>Let $C$ and $D$ be categories. A <strong>(covariant) functor</strong> $F:C\to D$ is the data of two functions:</p>
 <ul>
 <li>An <strong>object</strong> function, assigning some $Fc\in D$ to each $c\in C$, and</li>
 <li>A <strong>morphism</strong> function, assigning some $Ff:Fc\to Fc&rsquo;$ to each $f:c\to c&rsquo;$,</li>
@@ -64,24 +70,24 @@ for all objects $c\in C$ and morphisms $f,g\in C$ whenever $f\circ g\in C$ is de
             <div class="spacer">&nbsp;</div>
         </div>
 
-        <div id="side">
+        <div id="side" class="inPreview">
             <div id="metadata" class="right noScroll">
                 May 28, 2024 | Zhaoshen Zhai
 
-                <div id="references">References:
+                <div>References:
                      None 
                 </div>
-                <div id="tags">Tags:
+                <div>Tags:
                      None 
                 </div>
                 <br>
 
-                <div id="toc">Table of Contents:
-                    <button class="metaButton listenDark" onclick="showTOC();">Show</button>
-                    <button class="metaButton listenDark" onclick="hideTOC();">Hide</button>
-                    <div id="metaContents"></div>
+                <div>Table of Contents:
+                    <button class="metaButton listenDark" onclick="showMetaTOC();">Show</button>
+                    <button class="metaButton listenDark" onclick="hideMetaTOC();">Hide</button>
+                    <div id="metaTOC"></div>
                 </div>
-                <div id="links">Links:
+                <div>Links:
                     <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
                     <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
                     <div id="metaLinks"></div>
@@ -89,8 +95,8 @@ for all objects $c\in C$ and morphisms $f,g\in C$ whenever $f\circ g\in C$ is de
 
                 <div class="spacer">&nbsp;</div>
             </div>
-            <div id="preview">
-                <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
+            <div id="previewContainer">
+                <button id="resetSide" onclick="resetSide();" class="navButton noSelect" style="display: none;">
                     <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
                 </button>
             </div>
@@ -98,19 +104,19 @@ for all objects $c\in C$ and morphisms $f,g\in C$ whenever $f\circ g\in C$ is de
     </div>
 
 
-        <div id="searchBox" class="listenDark" style="display: none;">
-            <input id="searchBar" class="listenDark" placeholder="Search for a note..." onkeydown="search(event);">
-            <ul id="searchList" class="listenDark" onclick="searchOpen(getCtrlKeyDown());">
-                <li id="searchItem0" class="listenDark" onmouseover="searchItemActive(0)"></li>
-                <li id="searchItem1" class="listenDark" onmouseover="searchItemActive(1)"></li>
-                <li id="searchItem2" class="listenDark" onmouseover="searchItemActive(2)"></li>
-                <li id="searchItem3" class="listenDark" onmouseover="searchItemActive(3)"></li>
-                <li id="searchItem4" class="listenDark" onmouseover="searchItemActive(4)"></li>
-                <li id="searchItem5" class="listenDark" onmouseover="searchItemActive(5)"></li>
-                <li id="searchItem6" class="listenDark" onmouseover="searchItemActive(6)"></li>
-                <li id="searchItem7" class="listenDark" onmouseover="searchItemActive(7)"></li>
-                <li id="searchItem8" class="listenDark" onmouseover="searchItemActive(8)"></li>
-                <li id="searchItem9" class="listenDark" onmouseover="searchItemActive(9)"></li>
+        <div id="searchBox" style="display: none;">
+            <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" onmouseover="searchItemActive(9)"></li>
             </ul>
         </div>
     </body>

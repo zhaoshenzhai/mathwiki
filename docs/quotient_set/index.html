@@ -11,11 +11,13 @@
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/colors.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/noProperty.css">
 
         <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
 
         <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module" defer></script>
         <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module" defer></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
         <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module" defer></script>
 
         <div style="display:none;" id="preamble"></div>
@@ -23,11 +25,12 @@
 
     <body class="listenDark">
         
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/metalinks.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/preview.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/headers.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/proof.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaLinks.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaTOC.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/preview.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/proof.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/side.js" type="module" defer></script>
 
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
@@ -36,8 +39,11 @@
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/nav.css">
 
     <div id="mainPage">
-        <button id="toggleDark" onclick="toggleDark(document, true, true, true);" class="navButton">
+        <button id="toggleDark" onclick="toggleDark(document, false, true, true);" class="navButton noSelect inPreview">
             <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
+        </button>
+        <button id="toggleSide" onclick="toggleSide(false);" class="navButton noSelect inPreview">
+            <img id="toggleSideIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
         </button>
         <div id="content" class="left noScroll">
             
@@ -52,9 +58,9 @@
 <p>For any set $Z$ and any function $f:X\to Z$ such that $xEy$ implies $f(x)=f(y)$ for all $x,y\in X$, there is a unique function $f&rsquo;:X/E\to Z$ such that $f=f&rsquo;\circ\pi$.</p>
 </blockquote>
 <p>More abstractly, we need $(X/E,\pi)$ to be initial in the coslice category $(Z,f:X\to Z)$ making $f(x)=f(y)$ whenever $xEy$. This can be realized by the following</p>
-<div class="env"><img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg"><b class="envTitle">Definition.</b>Let $E$ be an equivalence relation on a set $X$. The <strong>quotient set</strong> of $X$ by $E$ is the set $X/E\coloneqq\l\{[x]_E\st x\in X\r\}$ of all equivalence classes of $X$.</div>
+<div class="env"><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg"><b class="envTitle">Definition. </b>Let $E$ be an equivalence relation on a set $X$. The <strong>quotient set</strong> of $X$ by $E$ is the set $X/E\coloneqq\l\{[x]_E\st x\in X\r\}$ of all equivalence classes of $X$.</div>
 
-<div class="envProof"><i class="proofHeader">Proof (of the universal property).</i><div class="proofExpand"><i>Click to expand...</i></div>
+<div class="envProof"><i class="proofHeader noSelect">Proof (of the universal property).</i><div class="proofExpand noSelect"><i>Click to expand...</i></div>
 
         <span class="proofContent">Let $(Z,f)$ be as above. For a function $f&rsquo;:X/E\to Z$ with $f=f&rsquo;\circ\pi$, we need $f&rsquo;([x]_E)=f(x)$ for all $x\in X$, so uniqueness of $f&rsquo;$ follows. For existence, we need to show that $f&rsquo;$ is well-defined, but this is precisely the condition that $f(x)=f(y)$ whenever $xEy$.<span style="float:right;">$\blacksquare$</span></span></div>
 
@@ -63,10 +69,10 @@
 <div class="space"></div>
 <h2 id="canonical-decomposition">Canonical Decomposition</h2>
 <p>Let $f:X\to Y$ be a function and let $E_f\subseteq X^2$ be the equivalence on $X$ defined by $xE_fx&rsquo;$ iff $f(x)=f(x&rsquo;)$.</p>
-<div class="env"><img class="icon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg"><b class="envTitle">Theorem.</b><p>We have a unique isomorphism $X/E_f\iso\im f$, and so $f$ factors as</p>
-<img class="tikz" src="https://zhaoshenzhai.github.io/mathwiki/img/canonical_decomposition.svg" width="400"></div>
+<div class="env"><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg"><b class="envTitle">Theorem. </b><p>We have a unique isomorphism $X/E_f\iso\im f$, and so $f$ factors as</p>
+<img class="tikz noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/img/canonical_decomposition.svg" width="400"></div>
 
-<div class="envProof hide"><i class="proofHeader">Proof.</i><div class="proofExpand"><i>Click to expand...</i></div>
+<div class="envProof hide"><i class="proofHeader noSelect">Proof.</i><div class="proofExpand noSelect"><i>Click to expand...</i></div>
 
         <span class="proofContent"><p>Restricting the codomain of $f$, we obtain a surjection $f_0:X\onto\im f$. It suffices to show that $f_0$ satisfies the same universal property as $\pi$, for then $X/E_f\iso\im f$ and we obtain the desired decomposition of $f$.</p>
 <br>
@@ -79,28 +85,28 @@
             <div class="spacer">&nbsp;</div>
         </div>
 
-        <div id="side">
+        <div id="side" class="inPreview">
             <div id="metadata" class="right noScroll">
                 June 11, 2024 | Zhaoshen Zhai
 
-                <div id="references">References:
+                <div>References:
                     
                         <div class="metaButton metaRef listenDark">#Alu09</div>
                     
                 </div>
-                <div id="tags">Tags:
+                <div>Tags:
                     
                         <div class="metaButton metaTag listenDark">#Set_Theory</div>
                     
                 </div>
                 <br>
 
-                <div id="toc">Table of Contents:
-                    <button class="metaButton listenDark" onclick="showTOC();">Show</button>
-                    <button class="metaButton listenDark" onclick="hideTOC();">Hide</button>
-                    <div id="metaContents"></div>
+                <div>Table of Contents:
+                    <button class="metaButton listenDark" onclick="showMetaTOC();">Show</button>
+                    <button class="metaButton listenDark" onclick="hideMetaTOC();">Hide</button>
+                    <div id="metaTOC"></div>
                 </div>
-                <div id="links">Links:
+                <div>Links:
                     <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
                     <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
                     <div id="metaLinks"></div>
@@ -108,8 +114,8 @@
 
                 <div class="spacer">&nbsp;</div>
             </div>
-            <div id="preview">
-                <button id="resetSide" onclick="resetSide();" class="navButton" style="display: none;">
+            <div id="previewContainer">
+                <button id="resetSide" onclick="resetSide();" class="navButton noSelect" style="display: none;">
                     <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
                 </button>
             </div>
@@ -117,19 +123,19 @@
     </div>
 
 
-        <div id="searchBox" class="listenDark" style="display: none;">
-            <input id="searchBar" class="listenDark" placeholder="Search for a note..." onkeydown="search(event);">
-            <ul id="searchList" class="listenDark" onclick="searchOpen(getCtrlKeyDown());">
-                <li id="searchItem0" class="listenDark" onmouseover="searchItemActive(0)"></li>
-                <li id="searchItem1" class="listenDark" onmouseover="searchItemActive(1)"></li>
-                <li id="searchItem2" class="listenDark" onmouseover="searchItemActive(2)"></li>
-                <li id="searchItem3" class="listenDark" onmouseover="searchItemActive(3)"></li>
-                <li id="searchItem4" class="listenDark" onmouseover="searchItemActive(4)"></li>
-                <li id="searchItem5" class="listenDark" onmouseover="searchItemActive(5)"></li>
-                <li id="searchItem6" class="listenDark" onmouseover="searchItemActive(6)"></li>
-                <li id="searchItem7" class="listenDark" onmouseover="searchItemActive(7)"></li>
-                <li id="searchItem8" class="listenDark" onmouseover="searchItemActive(8)"></li>
-                <li id="searchItem9" class="listenDark" onmouseover="searchItemActive(9)"></li>
+        <div id="searchBox" style="display: none;">
+            <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" onmouseover="searchItemActive(9)"></li>
             </ul>
         </div>
     </body>
