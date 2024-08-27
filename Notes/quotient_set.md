@@ -17,7 +17,7 @@ More abstractly, we need $(X/E,\pi)$ to be initial in the coslice category $(Z,f
 
 {{< env type="definition" >}}
 
-Let $E$ be an equivalence relation on a set $X$. The **quotient set** of $X$ by $E$ is the set $X/E\coloneqq\l\\{[x]_E\st x\in X\r\\}$ of all equivalence classes of $X$.
+Let $E$ be an equivalence relation on a set $X$. The *quotient set* of $X$ by $E$ is the set $X/E\coloneqq\l\\{[x]_E\st x\in X\r\\}$ of all equivalence classes of $X$.
 
 {{< /env >}}
 

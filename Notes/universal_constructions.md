@@ -11,7 +11,7 @@ tags: [In_Progress]
 
 {{< env type="definition" >}}
 
-Let $F:D\to C$ be a functor and fix $c\in C$. A **universal arrow** from $c$ to $F$ is an initial object in $(c\downto F)$. That is, it is a pair $(r,u)$, with $r\in D$ and $u:c\to Fr$, inducing for each $d\in D$ a bijection
+Let $F:D\to C$ be a functor and fix $c\in C$. A *universal arrow* from $c$ to $F$ is an initial object in $(c\downto F)$. That is, it is a pair $(r,u)$, with $r\in D$ and $u:c\to Fr$, inducing for each $d\in D$ a bijection
 $$\begin{equation}
     \phi_d:D(r,d)\to C(c,Fd):f'\mapsto Ff'\circ u.
 \end{equation}$$

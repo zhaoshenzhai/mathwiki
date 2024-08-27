@@ -15,7 +15,7 @@ The first is to consider homomorphisms $\alpha:K\to G$ *from* some group $K$, an
 
 {{< env type="definition" >}}
 
-The **kernel** of a homomorphism $f:G\to H$ is the {{< link file="subgroup" display="subgroup" type="references" >}}
+The *kernel* of a homomorphism $f:G\to H$ is the {{< link file="subgroup" display="subgroup" type="references" >}}
 $$\begin{equation}
     \ker f\coloneqq\l\\{g\in G\st f(g)=e_H\r\\}\substructeq G.
 \end{equation}$$

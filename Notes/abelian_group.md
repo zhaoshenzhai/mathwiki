@@ -11,7 +11,7 @@ Here, we consider a class of groups which $-$ despite being very general $-$ exh
 
 {{< env type="definition" >}}
 
-A group $G$ is said to be **Abelian** if $gh=hg$ for all $g,h\in G$.
+A group $G$ is said to be *Abelian* if $gh=hg$ for all $g,h\in G$.
 
 {{< /env >}}
 

@@ -11,7 +11,7 @@ A standard method of studying an object $-$ in this case, a {{< link file="group
 
 {{< env type="definition" >}}
 
-Let $G$ be a group. A **subgroup** of $G$ is a subset $H\subseteq G$ equipped with a group structure making the inclusion $H\into G$ a group homomorphism.
+Let $G$ be a group. A *subgroup* of $G$ is a subset $H\subseteq G$ equipped with a group structure making the inclusion $H\into G$ a group homomorphism.
 
 <br>
 

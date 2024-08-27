@@ -21,7 +21,7 @@ Let $\mc{T}$ be a topology on $X$.
 
 {{< env type="definition" >}}
 
-A collection $\mc{B}\subseteq\mc{T}$ is a **basis for $\mc{T}$** if every open set $U\in\mc{T}$ is a union of sets in $\mc{B}$.
+A collection $\mc{B}\subseteq\mc{T}$ is a *basis for $\mc{T}$* if every open set $U\in\mc{T}$ is a union of sets in $\mc{B}$.
 
 {{< /env >}}
 
@@ -41,7 +41,7 @@ Since all open sets $U\in\mc{T}$ are just unions of sets in $\mc{B}$, we call $\
 
 {{< env type="definition" >}}
 
-A collection $\mc{S}\subseteq\mc{T}$ is a **subbasis for $\mc{T}$** if every open set $U\in\mc{T}$ is a union of finite intersections of sets in $\mc{S}$.
+A collection $\mc{S}\subseteq\mc{T}$ is a *subbasis for $\mc{T}$* if every open set $U\in\mc{T}$ is a union of finite intersections of sets in $\mc{S}$.
 
 {{< /env >}}
 
@@ -53,7 +53,7 @@ One way for a collection $\mc{B}\subseteq\pow(X)$ of subsets of $X$ to generate 
 
 {{< env type="definition" >}}
 
-A collection $\mc{B}\subseteq\pow(X)$ is a **(saturated) basis** for a topology if $X$ and all pairwise intersections of sets in $\mc{B}$ are unions of sets in $\mc{B}$ (resp. in $\mc{B}$).
+A collection $\mc{B}\subseteq\pow(X)$ is a *(saturated) basis* for a topology if $X$ and all pairwise intersections of sets in $\mc{B}$ are unions of sets in $\mc{B}$ (resp. in $\mc{B}$).
 
 {{< /env >}}
 

@@ -9,9 +9,9 @@ tags: []
 
 {{< env type="definition" >}}
 
-Let $C$ and $D$ be categories. A **(covariant) functor** $F:C\to D$ is the data of two functions:
-* An **object** function, assigning some $Fc\in D$ to each $c\in C$, and
-* A **morphism** function, assigning some $Ff:Fc\to Fc'$ to each $f:c\to c'$,
+Let $C$ and $D$ be categories. A *(covariant) functor* $F:C\to D$ is the data of two functions:
+* An *object* function, assigning some $Fc\in D$ to each $c\in C$, and
+* A *morphism* function, assigning some $Ff:Fc\to Fc'$ to each $f:c\to c'$,
 
 interacting in such a way that
 $$\begin{equation}

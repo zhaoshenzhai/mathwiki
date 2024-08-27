@@ -11,7 +11,7 @@ tags: [Group_Theory]
 
 {{< env type="definition" >}}
 
-A {{< link file="subgroup" display="subgroup" type="references" >}} $N\substructeq G$ is said to be **normal** if it is invariant under the {{< link file="conjugation_action" display="conjugation" type="references" >}} {{< link file="group_action" display="action" type="references" >}} of $G$; i.e., if $gN=Ng$ for all $g\in G$.
+A {{< link file="subgroup" display="subgroup" type="references" >}} $N\substructeq G$ is said to be *normal* if it is invariant under the {{< link file="conjugation_action" display="conjugation" type="references" >}} {{< link file="group_action" display="action" type="references" >}} of $G$; i.e., if $gN=Ng$ for all $g\in G$.
 
 <br>
 

@@ -11,7 +11,7 @@ The simplest class of {{< link file="group" display="groups" type="references" >
 
 {{< env type="definition" >}}
 
-A group $G$ is said to be **cyclic** if $G=\gen{x}${{< link file="subgroup" type="references" mod="dag" section="Subgroup Generation" >}} for some $x\in G$.
+A group $G$ is said to be *cyclic* if $G=\gen{x}${{< link file="subgroup" type="references" mod="dag" section="Subgroup Generation" >}} for some $x\in G$.
 
 {{< /env >}}
 

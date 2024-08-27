@@ -11,7 +11,7 @@ Fix a category $C$.
 
 {{< env type="definition" >}}
 
-Let $C,J$ be categories and fix a functor $F\in C^J$. A **colimit** of $F$ is a universal arrow $(r,u)$ from $F$ to the diagonal functor $\Delta:C\to C^J$.
+Let $C,J$ be categories and fix a functor $F\in C^J$. A *colimit* of $F$ is a universal arrow $(r,u)$ from $F$ to the diagonal functor $\Delta:C\to C^J$.
 
 {{< tikz name="limits_category_theory" width="425" >}}
 \begin{equation*}
@@ -22,7 +22,7 @@ Let $C,J$ be categories and fix a functor $F\in C^J$. A **colimit** of $F$ is a 
 \end{equation*}
 {{< /tikz >}}
 
-Similarly, a **limit** of $F$ is a universal arrow $(t,v)$ from $\Delta$ to $F$.
+Similarly, a *limit* of $F$ is a universal arrow $(t,v)$ from $\Delta$ to $F$.
 
 {{< /env >}}
 

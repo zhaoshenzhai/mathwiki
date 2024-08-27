@@ -12,7 +12,7 @@ Fix a set $X$. We would like to ‘canonically’ construct a group $F(X)$ conta
 
 {{< env type="definition" >}}
 
-A **free group** on $X$ is a group $F(X)$ equipped with a function $j:X\to F(X)$ that is universal in the following sense:
+A *free group* on $X$ is a group $F(X)$ equipped with a function $j:X\to F(X)$ that is universal in the following sense:
 
 <br>
 

@@ -15,11 +15,11 @@ The idea of *convergence* of elements $x_\alpha$ in $X$ is to find a single elem
 
 {{< env type="definition" >}}
 
-A sequence $(x_n)_{n\in\N}$ in $X$ is said to **converge** to some $x\in X$ $-$ and write $x_n\to x$ $-$ if for every neighborhood $U\in\mc{N}_x$, there is some $N\in\N$ such that $x_n\in U$ for all $n\geq N$ <span style="color:gray">(that is, $x_n\in U$ for all eventually $n\in\N$)</span>.
+A sequence $(x_n)_{n\in\N}$ in $X$ is said to *converge* to some $x\in X$ $-$ and write $x_n\to x$ $-$ if for every neighborhood $U\in\mc{N}_x$, there is some $N\in\N$ such that $x_n\in U$ for all $n\geq N$ <span style="color:gray">(that is, $x_n\in U$ for all eventually $n\in\N$)</span>.
 
 <br>
 
-&emsp;&emsp;We say that $x$ is a **limit point** of $x_n$ if every $U\in\mc{N}_x$ contains infinitely-many points in $x_n$.
+&emsp;&emsp;We say that $x$ is a *limit point* of $x_n$ if every $U\in\mc{N}_x$ contains infinitely-many points in $x_n$.
 
 {{< /env >}}
 
@@ -49,11 +49,11 @@ One approach to replace $\N$ in the definition of sequential-convergence to an a
 
 {{< env type="definition" >}}
 
-Let $I$ be a directed set. A net $x_\blob:I\to X$ is said to **converge** to some $x\in X$ $-$ and write $x_\blob\to x$ $-$ if $x_\blob$ is eventually in every $U\in\mc{N}_x$.
+Let $I$ be a directed set. A net $x_\blob:I\to X$ is said to *converge* to some $x\in X$ $-$ and write $x_\blob\to x$ $-$ if $x_\blob$ is eventually in every $U\in\mc{N}_x$.
 
 <br>
 
-&emsp;&emsp;We say that $x$ is a **limit point** of $x_\blob$ if $x_\blob$ is cofinally in every $U\in\mc{N}_x$.
+&emsp;&emsp;We say that $x$ is a *limit point* of $x_\blob$ if $x_\blob$ is cofinally in every $U\in\mc{N}_x$.
 
 {{< /env >}}
 
@@ -71,11 +71,11 @@ Since pairwise-intersections of open sets are open, neighborhood bases of $\mc{N
 
 {{< env type="definition" >}}
 
-A filter $\mc{F}$ in $X$ is said to **converge** to some $x\in X$ $-$ and write $\mc{F}\to x$ $-$ if $\mc{F}$ refines $\mc{N}_x$ <span style="color:gray">(that is, if every $U\in\mc{N}_x$ contains some $A\in\mc{F}$)</span>.
+A filter $\mc{F}$ in $X$ is said to *converge* to some $x\in X$ $-$ and write $\mc{F}\to x$ $-$ if $\mc{F}$ refines $\mc{N}_x$ <span style="color:gray">(that is, if every $U\in\mc{N}_x$ contains some $A\in\mc{F}$)</span>.
 
 <br>
 
-&emsp;&emsp;We say that $x$ is a **limit point** of $\mc{F}$ if every $A\in\mc{F}$ meets every $U\in\mc{N}_x$.
+&emsp;&emsp;We say that $x$ is a *limit point* of $\mc{F}$ if every $A\in\mc{F}$ meets every $U\in\mc{N}_x$.
 
 {{< /env >}}
 

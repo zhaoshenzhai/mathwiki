@@ -15,10 +15,10 @@ The starting point of the theory of *categories* is the observation that many pr
 
 {{< env type="definition" >}}
 
-A **category** $C$ consists of a class $\mc{O}$ of **objects**, and,
-* for any two objects $x,y\in\mc{O}$, a class $C(x,y)$ of **morphisms** in $C$;
-* for any object $x\in\mc{O}$, an **identity** morphism $1_x\in C(x,x)$,
-* for any three objects $x,y,z\in\mc{O}$, a **composition map**
+A *category* $C$ consists of a class $\mc{O}$ of *objects*, and,
+* for any two objects $x,y\in\mc{O}$, a class $C(x,y)$ of *morphisms* in $C$;
+* for any object $x\in\mc{O}$, an *identity* morphism $1_x\in C(x,x)$,
+* for any three objects $x,y,z\in\mc{O}$, a *composition map*
 $$\begin{equation}
     \circ:C(y,z)\times C(x,y)\to C(x,z);
 \end{equation}$$

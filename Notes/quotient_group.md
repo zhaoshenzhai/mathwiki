@@ -21,7 +21,7 @@ Since the normal subgroup induced by $\sim$ is given by $N=\l\\{n\in G\st n\sim 
 
 {{< env type="definition" >}}
 
-Let $N\nsubgrpeq G$ be a normal subgroup. The **quotient group** of $G$ by $N$ is the group $G/N\coloneqq G/\\!\sim$ equipped with the operation $gN\ast hN\coloneqq(gh)N$.
+Let $N\nsubgrpeq G$ be a normal subgroup. The *quotient group* of $G$ by $N$ is the group $G/N\coloneqq G/\\!\sim$ equipped with the operation $gN\ast hN\coloneqq(gh)N$.
 
 {{< /env >}}
 

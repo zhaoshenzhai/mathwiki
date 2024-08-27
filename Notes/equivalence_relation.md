@@ -11,7 +11,7 @@ Oftentimes, we wish to regard two objects as ‘being the same’ (for instance,
 
 {{< env type="definition" >}}
 
-Let $X$ be a set. An **equivalence relation** on $X$ is a (binary) relation $E\subseteq X^2$ subject to the following conditions.
+Let $X$ be a set. An *equivalence relation* on $X$ is a (binary) relation $E\subseteq X^2$ subject to the following conditions.
 1. <span style="color:gray">(Reflexive).</span> For all $x\in X$, we have $(x,x)\in E$.
 2. <span style="color:gray">(Symmetric).</span> For all $x,y\in X$, we have $(x,y)\in E$ iff $(y,x)\in E$.
 3. <span style="color:gray">(Transitive).</span> For all $x,y,z\in X$, if both $(x,y),(y,z)\in E$, then $(x,z)\in E$.

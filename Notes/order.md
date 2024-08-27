@@ -11,11 +11,11 @@ Let $G$ be a {{< link file="group" display="group" type="references" >}}. The *o
 
 {{< env type="definition" >}}
 
-An element $x\in G$ has **finite order** if $x^n=e$ for some $n>0$; the least such $n$ is the **order** of $x$, denoted $\ord x$.
+An element $x\in G$ has *finite order* if $x^n=e$ for some $n>0$; the least such $n$ is the *order* of $x$, denoted $\ord x$.
 
 <br>
 
-&emsp;&emsp;Otherwise, set $\ord x\coloneqq\infty$, and say that $x$ has **infinite order**.
+&emsp;&emsp;Otherwise, set $\ord x\coloneqq\infty$, and say that $x$ has *infinite order*.
 
 {{< /env >}}
 

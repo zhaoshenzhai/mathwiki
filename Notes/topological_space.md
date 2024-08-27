@@ -15,12 +15,12 @@ Let $X$ be a set. We would like to formalize a notion of ‘closeness’ between
 
 {{< env type="definition" >}}
 
-Let $X$ be a set. A **topology** on $X$ is a family $\mc{T}_X\subseteq\pow(X)$, whose elements are called **open sets**, subject to the following conditions.
+Let $X$ be a set. A *topology* on $X$ is a family $\mc{T}_X\subseteq\pow(X)$, whose elements are called *open sets*, subject to the following conditions.
 1. <span style="color:gray">(Non-trivial).</span> $\em$ and $X$ are in $\mc{T}_X$.
 2. <span style="color:gray">(Closure under $\cup$).</span> For any $\mc{U}\subseteq\mc{T}_X$, we have $\bigcup\mc{U}\in\mc{T}_X$.
 3. <span style="color:gray">(Closure under finite $\cap$).</span> For any $U_1,U_2\in\mc{T}_X$, we have $U_1\cap U_2\in\mc{T}_X$.
 
-If $\mc{T}_X$ is a topology on $X$, we call the pair $\tpl{X,\mc{T}_X}$ a **topological space**.
+If $\mc{T}_X$ is a topology on $X$, we call the pair $\tpl{X,\mc{T}_X}$ a *topological space*.
 
 {{< /env >}}
 
@@ -28,7 +28,7 @@ Similarly, continuity of functions between metric spaces{{< link file="continuou
 
 {{< env type="definition" >}}
 
-A function $f:X\to Y$ between topological spaces is **continuous** if for any open subset $V\subseteq Y$, its preimage $f^{-1}(V)\subseteq X$ is open too.
+A function $f:X\to Y$ between topological spaces is *continuous* if for any open subset $V\subseteq Y$, its preimage $f^{-1}(V)\subseteq X$ is open too.
 
 {{< /env >}}
 

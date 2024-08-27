@@ -15,7 +15,7 @@ The concept of a *group* was invented to capture the abstract properties of *sym
 
 {{< env type="definition" >}}
 
-A **group** is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a distinguished element $e\in G$ called the **identity**, and operations $\cdot:G\times G\to G$ and $\iota:G\to G$, subject to the following conditions.
+A *group* is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a distinguished element $e\in G$ called the *identity*, and operations $\cdot:G\times G\to G$ and $\iota:G\to G$, subject to the following conditions.
 1. <span style="color:gray">(Associativity).</span> For all $g,h,k\in G$, we have $g\cdot(h\cdot k)=(g\cdot h)\cdot k$.
 2. <span style="color:gray">(Identity).</span> For all $g\in G$, we have $g\cdot e=g=e\cdot g$.
 3. <span style="color:gray">(Inverse).</span> For all $g\in G$, we have $g\cdot\iota(g)=e=\iota(g)\cdot g$.
@@ -30,7 +30,7 @@ The set $G$ is the ‘abstract transformations’ as described above. However, m
 
 {{< env type="definition" >}}
 
-A function $f:G\to H$ between groups is a **homomorphism** if $f(g_1\cdot g_2)=f(g_1)\cdot f(g_2)$ for every $g_1,g_2\in G$.
+A function $f:G\to H$ between groups is a *homomorphism* if $f(g_1\cdot g_2)=f(g_1)\cdot f(g_2)$ for every $g_1,g_2\in G$.
 
 {{< /env >}}
 

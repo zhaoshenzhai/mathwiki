@@ -11,7 +11,7 @@ The concept of a *ring* naturally arises when studying the endomorphism {{< link
 
 {{< env type="definition" >}}
 
-A **ring** is a monoid $(R,\cdot,1)$ equipped with the structure of an abelian group $(R,+,0)$ such that for all $r,s,t\in R$, we have
+A *ring* is a monoid $(R,\cdot,1)$ equipped with the structure of an abelian group $(R,+,0)$ such that for all $r,s,t\in R$, we have
 $$\begin{equation}
     (r+s)\cdot t=r\cdot t+s\cdot t\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ t\cdot(r+s)=t\cdot r+t\cdot s.
 \end{equation}$$
@@ -22,7 +22,7 @@ The relevant structure-preserving maps for rings are as follows.
 
 {{< env type="definition" >}}
 
-A function $f:R\to S$ between rings is a **homomorphism** if it is a group homomorphism $f:(R,+)\to(S,+)$, such that $f(1_R)=1_S$ and
+A function $f:R\to S$ between rings is a *homomorphism* if it is a group homomorphism $f:(R,+)\to(S,+)$, such that $f(1_R)=1_S$ and
 $$\begin{equation}
     f(r_1\cdot r_2)=f(r_1)\cdot f(r_2)
 \end{equation}$$
