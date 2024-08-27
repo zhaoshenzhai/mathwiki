@@ -1,9 +1,11 @@
-import { resetSide } from './single/preview.js'
+import { resetSide } from './single/preview.js';
+import { contentEl } from './single.js';
+import { toggleSide } from './single/side.js';
 import { searchInit,
          searchOpen,
          searchClear,
          searchActive,
-         searchScroll } from './search.js'
+         searchScroll } from './search.js';
 
 var metaKeyDown = false;
 var ctrlKeyDown = false;
@@ -25,6 +27,24 @@ document.addEventListener('keydown', function(e) {
         searchScroll(1);
     } else if (searchActive && e.key === 'ArrowUp') {
         searchScroll(-1);
+    } else if (metaKeyDown && e.key === 'e') {
+        toggleSide(false);
+    } else if (!searchActive && e.key === 'j') {
+        contentEl.style.setProperty('position', 'absolute');
+        contentEl.scrollBy(0, 60);
+        contentEl.style.setProperty('position', 'fixed');
+    } else if (!searchActive && e.key === 'k') {
+        contentEl.style.setProperty('position', 'absolute');
+        contentEl.scrollBy(0, -60);
+        contentEl.style.setProperty('position', 'fixed');
+    } else if (!searchActive && e.key === 'g') {
+        contentEl.style.setProperty('position', 'absolute');
+        contentEl.scrollTo(0, 0);
+        contentEl.style.setProperty('position', 'fixed');
+    } else if (!searchActive && e.key === 'G') {
+        contentEl.style.setProperty('position', 'absolute');
+        contentEl.scrollBy(0, contentEl.scrollHeight);
+        contentEl.style.setProperty('position', 'fixed');
     }
 });
 
