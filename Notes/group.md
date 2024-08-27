@@ -72,22 +72,26 @@ Another more ‘object-oriented’ technique to study $G$ is to decompose it int
 
 # Examples of Groups
 
-The simplest groups are probably the {{< link file="cyclic_group" display="cyclic groups" type="examples" >}}.
+The simplest groups, and possibly the most important groups, are the {{< link file="cyclic_group" display="cyclic groups" type="examples" >}}. They are the ones that are {{< link file="subgroup" display="generated" type="references" section="Subgroup Generation" >}} by a singleton, which forces{{< link file="cyclic_group" type="justifications" mod="dag" section="Classification" >}} it to either be the {{< link file="integers" display="integers" type="references" >}} $\Z$ or $\Z/n\Z$ for some $n\geq1$.
+
+<br>
+
+&emsp;&emsp;Other classical groups include the dihedral groups, symmetry groups, and matrix groups.
 
 <div class="space"></div>
 
 ## Types of Groups
 
-Beyond the generalities above, much more can be said about specific types of groups. Indeed, they can studied from very different perspectives.
+Beyond the generalities above, much more can be said about specific types of groups.
 * {{< link file="finite_group" display="Finite groups" type="types" >}} can be studied combinatorially, and a benchmark problem in finite group theory is to find the number of groups of order $n$. The {{< link file="sylow_theorems" display="Sylow Theorems" type="references" >}} place certain restrictions, but more sophisticated approaches require {{< link file="representation_theory_of_finite_groups" display="representation theory" type="references" >}}.
 * {{< link file="finitely_generated_group" display="Finitely-generated groups" type="types" >}} are very geometric in nature, and are mostly studied in the context of {{< link file="geometric_group_theory" display="Geometric Group Theory" type="references" >}}.
 * {{< link file="abelian_group" display="Abelian groups" type="types" >}} vary wildly in behavior. Finitely-generated ones are completely classified via the {{< link file="structure_theorem_for_fg_modules_over_PID" display="Structure Theorem" type="references" >}}, but in general, their structure depends very heavily of set-theoretic properties.
 
 ## Structures on Groups
 
-One may also equip groups with additional structure, leading to much richer theories. Some important examples are {{< link file="topological_group" display="topological groups" type="structures" >}}, {{< link file="lie_group" display="Lie groups" type="structures" >}}, and {{< link file="algebraic_groups" display="algebraic groups" type="structures" >}}.
+One may also equip groups with additional structure, which leads to much richer theories. Some important examples are {{< link file="topological_group" display="topological groups" type="structures" >}}, {{< link file="lie_group" display="Lie groups" type="structures" >}}, and {{< link file="algebraic_groups" display="algebraic groups" type="structures" >}}.
 
-<div class="space"></div>
+# Generalizations
 
 ## {{< link file="groupoid" display="Groupoids" type="generalizations" >}}
 
@@ -100,5 +104,3 @@ Many groups arise as the automorphism group of some object $X$. In fact, this is
 > Note that a homomorphism $G\to H$ is nothing but a functor $\cat{B}G\to\cat{B}H$, and that a $G$-action on a category $C$ is nothing but a functor $\cat{B}G\to C$.
 
 Generalizing this idea, we say that a category $C$ is a *groupoid* if each morphism is invertible. Thus, after identifying $G$ with $\cat{B}G$, a group is nothing but a groupoid with a single object. Without requiring that all morphisms be invertible $-$ that is, just considering a category with a single object $-$ we recover the notion of a {{< link file="monoid" display="monoid" type="generalizations" >}}.
-
-# Generalizations
