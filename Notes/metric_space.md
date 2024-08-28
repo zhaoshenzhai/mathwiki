@@ -57,7 +57,7 @@ We say that $f$ is *continuous* if it is continuous at all $x\in X$.
 
 >{{< env type="proof" hide="true" >}}
 
-Suppose that $f$ is continuous and let $V\subseteq Y$ be open. Take $x\in f^{-1}(V)$, so $f(x)\in V$, and hence there is some $\epsilon>0$ such that $B_\epsilon(f(x))\subseteq V$. Since $f$ is continuous, there is some $\delta>0$ such that $f(B_\delta(x))\subseteq B_\epsilon(f(x))\subseteq V$, so $B_\delta(x)\subseteq f^{-1}(V)$.
+Suppose that $f$ is continuous and let $V\subseteq Y$ be open. Take $x\in f^{-1}(V)$, so $f(x)\in V$, and hence there is some $\epsilon>0$ such that $B_\epsilon(f(x))\subseteq V$. Since $f$ is continuous, there is some $\delta>0$ such that $f(B_\delta(x))\subseteq B_\epsilon(f(x))\subseteq V$, so $x\in B_\delta(x)\subseteq f^{-1}(V)$.
 
 <br>
 
@@ -65,11 +65,11 @@ Suppose that $f$ is continuous and let $V\subseteq Y$ be open. Take $x\in f^{-1}
 
 {{< /env >}}
 
-This allows continuity to be phrased purely in terms of the open sets in $X,Y$, and thereby generalizing this concept to topological spaces. It also defines a {{< link file="functor" display="functor" type="references" >}} $\catmet_c\to\cattop$, where $\catmet_c$ is the {{< link file="category" display="category" type="references" >}} of metric spaces with continuous maps. In this way, many concepts that were previously defined for metric spaces are now subsumed by their topological characterizations.
+This allows continuity to be phrased purely in terms of the open sets in $X,Y$, and thereby generalizing this concept to topological spaces. Thus, many concepts that were previously defined for metric spaces are now subsumed by their topological characterizations.
 
 <br>
 
-&emsp;&emsp;However, this functor is not surjective, and its (object) image forms the following important class of topological spaces.
+&emsp;&emsp;It also defines a {{< link file="functor" display="functor" type="references" >}} $\catmet_c\to\cattop$, where $\catmet_c$ is the {{< link file="category" display="category" type="references" >}} of metric spaces with continuous maps. However, this functor is not surjective, and its (object) image forms the following important class of topological spaces.
 
 {{< env type="definition" >}}
 
