@@ -45,8 +45,8 @@ function previewSide(link, page) {
     }
 }
 
-function clearPreviewSide(page) {
-    if (page == 'nopPage' || !getSideExpanded()) { return; }
+export function clearPreviewSide(page) {
+    if (getSideExpanded && page == 'nopPage') { return }
 
     var preview = getPreview();
     cleared = true;

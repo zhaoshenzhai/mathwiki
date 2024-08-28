@@ -90,7 +90,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/kernel_group_theory/</link>
       <pubDate>Thu, 06 Jun 2024 21:08:25 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/kernel_group_theory/</guid>
-      <description>Motivation &amp;amp; Definition A special property of the category of groups is the existence of a zero object; namely, the trivial group $\l\{0\r\}$; by definition, we have a morphism $0:G\to\l\{0\r\}\to H$ for each pair $G,H$ of groups. Now, for an arbitrary homomorphism $f:G\to H$, we would like to find some group $K$ that ‘forces’ $f$ to ‘equalize’ with $0$ in a universal way. This can be done in two $-$ dual $-$ ways, called the kernel and cokernel of $f$.</description>
+      <description>Motivation &amp;amp; Definition A special property of the category of groups is the existence of a zero object; namely, the trivial group $\l\{0\r\}$; by definition, we have a morphism $0:G\to\l\{0\r\}\to H$ for each pair $G,H$ of groups. Now, for an arbitrary homomorphism $f:G\to H$, we would like to find some group $K$ that ‘forces’ $f$ to ‘equalize’ with $0$ in a universal way. This can be done in two (dual) ways, called the kernel and cokernel of $f$.</description>
     </item>
     <item>
       <title>Subgroup</title>

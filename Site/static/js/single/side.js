@@ -1,6 +1,7 @@
 import { contentEl, getCurSideEl, setFontSize, resetSideEl,
          getSideExpanded, setSideExpanded } from '../single.js';
 import { styleHeaders } from './metaTOC.js';
+import { clearPreviewSide } from './preview.js';
 
 window.toggleSide = toggleSide;
 
@@ -20,9 +21,10 @@ export function toggleSide(noTransition) {
         getCurSideEl().style.right = '-50%';
         resetSideEl.style.right = '-53%';
 
-        setFontSize(25);
+        setFontSize(26);
         setSideExpanded(false);
         styleHeaders(true);
+        clearPreviewSide();
 
         localStorage['sideExpanded'] = 'false';
     } else {

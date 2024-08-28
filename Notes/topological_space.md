@@ -44,7 +44,7 @@ For a topological space $\tpl{X,\mc{T}_X}$, we let $\mc{F}_X\coloneqq\l\\{X\comp
 
 <br>
 
-&emsp;&emsp;Most importantly, topological spaces allow us to speak about {{< link file="convergence" display="convergence" type="constructions" >}}, which can be rephrased in terms of {{< link file="convergence" display="nets" type="references" section="Nets" >}}/{{< link file="filter" display="filters" type="references" >}}. For ‘nicer’ spaces (e.g. metric spaces), it can be rephrased using just sequences.
+&emsp;&emsp;Most importantly, topological spaces allow us to speak of {{< link file="convergence" display="convergence" type="constructions" >}}, which can be phrased in terms of {{< link file="convergence" display="nets" type="references" section="Nets" >}}/{{< link file="filter" display="filters" type="references" >}}. For ‘nice’ spaces (e.g. metric spaces), it can be rephrased using just sequences.
 
 <div class="space"></div>
 

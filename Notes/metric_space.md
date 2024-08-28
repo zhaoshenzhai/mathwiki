@@ -7,7 +7,7 @@ tags: []
 
 # Motivation & Definition
 
-Abstracting away the basic properties of Euclidean distance in $\R^n$, and most notably preserving the *Triangle Inequality*, we make the following
+Abstracting away some basic properties of the Euclidean distance in $\R^n$, and most notably preserving the *Triangle Inequality*, we make the following
 
 {{< env type="definition" >}}
 
@@ -22,7 +22,7 @@ If $d$ is a metric on $X$, we call the pair $\tpl{X,d}$ a *metric space*.
 
 ## Topology
 
-Let $\tpl{X,d}$ be a metric space. The most important objects that the metric $d$ construct are *open balls*, which form{{< link file="metric_space_generates_a_topology" type="justifications" mod="dag" >}} a {{< link file="basis_and_subbasis" display="basis" type="references" >}} for a {{< link file="topological_space" display="topology" type="generalizations" >}}. Explicitly, this means that a subset $U\subseteq X$ is *open* if for every $x\in U$, there is some $\epsilon>0$ such that $B_\epsilon(x)\subseteq U$, where
+Let $\tpl{X,d}$ be a metric space. The most important objects that the metric $d$ construct are *open balls*, which form{{< link file="metric_space_generates_a_topology" type="justifications" mod="dag" >}} a {{< link file="bases_for_topologies" display="basis" type="references" >}} for a {{< link file="topological_space" display="topology" type="generalizations" >}} $\mc{T}\_d$, called the *metric topology*. Explicitly, this means that a subset $U\subseteq X$ is *open* in $\mc{T}\_d$ if for every $x\in U$, there is some $\epsilon>0$ such that $B_\epsilon(x)\subseteq U$, where
 
 {{< env type="definition" >}}
 
@@ -42,7 +42,7 @@ A topological space $\tpl{X,\mc{T}}$ is said to be *metrizable* if there is a me
 {{< /env >}}
 
 Specifically, metrizable spaces enjoy the following properties.
-* hi
+* <span style="color:red">Fill this in.</span>
 
 Clearly, metric spaces with continuous maps form a {{< link file="subcategory" display="subcategory" type="references" >}} of {{< link file="topological_space" display="$\cattop$" type="generalizations" section="The Category $\cattop$" >}}. However, there is a more useful subcategory in which morphisms preserve the metric structure.
 
