@@ -20,9 +20,17 @@ If $d$ is a metric on $X$, we call the pair $\tpl{X,d}$ a *metric space*.
 
 {{< /env >}}
 
-## Topology
+## Topological Structure
 
-Let $\tpl{X,d}$ be a metric space. The most important objects that the metric $d$ construct are *open balls*, which form{{< link file="metric_space_generates_a_topology" type="justifications" mod="dag" >}} a {{< link file="bases_for_topologies" display="basis" type="references" >}} for a {{< link file="topological_space" display="topology" type="generalizations" >}} $\mc{T}\_d$, called the *metric topology*. Explicitly, this means that a subset $U\subseteq X$ is *open* in $\mc{T}\_d$ if for every $x\in U$, there is some $\epsilon>0$ such that $B_\epsilon(x)\subseteq U$, where
+A metric space $d$ on $X$ allows us to construct *open balls*, which form a {{< link file="bases_for_topologies" display="basis" type="references" >}} for the *metric {{< link file="topological_space" display="topology" type="generalizations" >}}* $\mc{T}\_d$:
+
+>{{< env type="proof" hide="true" >}}
+
+This collection clearly cover $X$. Take $x\in B_{\epsilon_1}(x_1)\cap B_{\epsilon_2}(x_2)$, so $d(x,x_i)<\epsilon_i$ for all $i=1,2$. Set $\epsilon\coloneqq\min_i\l\\{\epsilon_i-d(x,x_i)\r\\}$. Note that for all $y\in B_\epsilon(x)$, we have $d(y,x_i)\leq d(y,x)+d(x,x_i)<\epsilon_i$ for $i=1,2$, so $x\in B_\epsilon(x)\subseteq B_{\epsilon_1}(x_1)\cap B_{\epsilon_2}(x_2)$ as desired.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}
+
+Explicitly, this means that a subset $U\subseteq X$ is *open* in $\mc{T}\_d$ if for every $x\in U$, there is some $\epsilon>0$ such that $B_\epsilon(x)\subseteq U$, where
 
 {{< env type="definition" >}}
 
@@ -33,7 +41,35 @@ $$\begin{equation}
 
 {{< /env >}}
 
-In this way, many concepts that were previously defined for metric spaces are now subsumed by their topological characterizations. Nonetheless, metric spaces are still an important class of topological spaces, which is made precise by the following
+Using open balls, one can define *continuity* of maps $f:X\to Y$ between metric spaces. Intuitively, $f$ is continuous at $x$ if given margin of $\epsilon$rror around $f(x)\in Y$, there is some $\delta$istance around $x$ that maps into this margin of $\epsilon$rror. Formally,
+
+{{< env type="definition" >}}
+
+A function $f:X\to Y$ between metric spaces is *continuous* at some fixed $x\in X$ if
+$$\begin{equation}
+    \fa\epsilon>0,\ex\delta>0:f(B_\delta(x))\subseteq B_\epsilon(f(x)).
+\end{equation}$$
+We say that $f$ is *continuous* if it is continuous at all $x\in X$.
+
+{{< /env >}}
+
+**Remark.** It is important to note that $f$ is continuous iff for any open set $V\subseteq Y$, the preimage $f^{-1}(V)\subseteq X$ is open in $X$.
+
+>{{< env type="proof" hide="true" >}}
+
+Suppose that $f$ is continuous and let $V\subseteq Y$ be open. Take $x\in f^{-1}(V)$, so $f(x)\in V$, and hence there is some $\epsilon>0$ such that $B_\epsilon(f(x))\subseteq V$. Since $f$ is continuous, there is some $\delta>0$ such that $f(B_\delta(x))\subseteq B_\epsilon(f(x))\subseteq V$, so $B_\delta(x)\subseteq f^{-1}(V)$.
+
+<br>
+
+&emsp;&emsp;Conversely, let $x\in X$ and $\epsilon>0$. Then $B_\epsilon(f(x))\subseteq Y$ is open, so $f^{-1}(B_\epsilon(f(x)))\subseteq X$ is open too. Thus there is some $\delta>0$ such that $B_\delta(x)\subseteq f^{-1}(B_\epsilon(f(x)))$, so $f(B_\delta(x))\subseteq B_\epsilon(f(x))$ as desired.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}
+
+This allows continuity to be phrased purely in terms of the open sets in $X,Y$, and thereby generalizing this concept to topological spaces. It also defines a {{< link file="functor" display="functor" type="references" >}} $\catmet_c\to\cattop$, where $\catmet_c$ is the {{< link file="category" display="category" type="references" >}} of metric spaces with continuous maps. In this way, many concepts that were previously defined for metric spaces are now subsumed by their topological characterizations.
+
+<br>
+
+&emsp;&emsp;However, this functor is not surjective, and its (object) image forms the following important class of topological spaces.
 
 {{< env type="definition" >}}
 
@@ -41,10 +77,13 @@ A topological space $\tpl{X,\mc{T}}$ is said to be *metrizable* if there is a me
 
 {{< /env >}}
 
-Specifically, metrizable spaces enjoy the following properties.
-* <span style="color:red">Fill this in.</span>
+## Uniform Structure
 
-Clearly, metric spaces with continuous maps form a {{< link file="subcategory" display="subcategory" type="references" >}} of {{< link file="topological_space" display="$\cattop$" type="generalizations" section="The Category $\cattop$" >}}. However, there is a more useful subcategory in which morphisms preserve the metric structure.
+<div class="space"></div>
+
+## Lipschitz
+
+Clearly, $\catmet_c$ is a {{< link file="subcategory" display="subcategory" type="references" >}} of {{< link file="topological_space" display="$\cattop$" type="generalizations" section="The Category $\cattop$" >}}. However, there is a more useful category of metric spaces in which morphisms preserve the metric structure.
 
 {{< env type="definition" >}}
 
@@ -56,4 +95,6 @@ for all $x,x'\in X$. We say that $f$ is *Lipschitz* if it is $k$-Lipschitz for s
 
 {{< /env >}}
 
-We let $\catmet$ be the {{< link file="category" display="category" type="references" >}} whose objects are metric spaces and whose morphisms are $1$-Lipschitz maps (also called *non-expanding* maps). Since Lipschitz maps are continuous, this makes $\catmet$ a subcategory of $\cattop$.
+We let $\catmet$ be the category whose objects are metric spaces and whose morphisms are $1$-Lipschitz maps (also called *non-expanding* maps). Since Lipschitz maps are continuous, this makes $\catmet$ a subcategory of $\cattop$.
+
+# Geometry of Metric Spaces
