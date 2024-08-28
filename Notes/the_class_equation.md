@@ -7,27 +7,29 @@ tags: [Group_Theory]
 
 # Statement & Proof
 
-A {{< link file="group" display="group" type="references" >}} $G$ {{< link file="group_action" display="acting" type="references" >}} on a finite set $S$ naturally partitions $S$ into its orbits $S=\bigsqcup_{i\in I}Gs_i$, which can either be trivial or non-trivial.
-* The trivial ones are singletons $\l\\{s_i\r\\}$ for which each $s_i$ is fixed by all $g\in G$. We call those the *fixed points* of the action, denoted $Z\coloneqq\l\\{s\in S\st gs=s\textrm{ for all }g\in G\r\\}$.
-* If some structure is known about the non-trivial orbits, then this partition gives us information on the number $\l|Z\r|$ of fixed points of this action.
+A {{< link file="group" display="group" type="references" >}} $G$ {{< link file="group_action" display="acting" type="references" >}} on a finite set $X$ naturally partitions $X$ into its orbits $X=\bigsqcup_{i\in I}Gx_i$, which can either be trivial or non-trivial. The trivial ones are singletons $\l\\{x_i\r\\}$. We call those the *fixed points* of the action, denoted $Z\coloneqq\l\\{x\in X\st gx=x\textrm{ for all }g\in G\r\\}$. If some structure is known about the non-trivial orbits, then this partition allows us to ‘glean’ information on $\l|Z\r|$.
+
+<br>
+
+&emsp;&emsp;More precisely, we have the following relation between $|X|$ and $|Z|$.
 
 {{< env type="theorem" name="The Class Equation" >}}
 
-Let $G\act S$ act on a finite set $S$. Then
+Let $G\act X$ act on a finite set $X$. Then
 $$\begin{equation}
-    \l|S\r|=\l|Z\r|+\sum_{a\in A}\l[G:G_a\r],
+    \l|X\r|=\l|Z\r|+\sum_{a\in A}\l[G:G_a\r],
 \end{equation}$$
-where $A\subseteq S$ contain exactly the elements $a\in S$ with $\l|Ga\r|>1$.
+where $A\subseteq X$ contain exactly the elements $a\in X$ with $\l|Ga\r|>1$.
 
 {{< /env >}}
 
 {{< env type="proof" hide="false" >}}
 
-Since we have a partition $S=\bigsqcup_{i\in I}Gs_i$ and $\l|Gs\r|=1$ for all $s\in Z$, so splitting off the two cases gives us
+Since we have a partition $X=\bigsqcup_{i\in I}Gx_i$ and $\l|Gx\r|=1$ for all $x\in Z$, so splitting off the two cases gives us
 $$\begin{equation}
-    \l|S\r|=\l|Z\r|+\sum_{a\in A}\l|Ga\r|=\l|Z\r|+\sum_{a\in A}\l|G\r|/\l|G_a\r|,
+    \l|X\r|=\l|Z\r|+\sum_{a\in A}\l|Ga\r|=\l|Z\r|+\sum_{a\in A}\l|G\r|/\l|G_a\r|,
 \end{equation}$$
-where the last equality follows from {{< link file="orbit_stabilizer_theorem" display="Orbit-Stabilizer" type="proved_by" >}}. By {{< link file="lagranges_theorem" display="Lagrange’s Theorem" type="proved_by" >}}, we have $[G:G_a]=\l|G\r|/\l|G_a\r|$ for each such $a$, so the result follows.<span style="float:right;">$\blacksquare$</span>
+where the last equality follows from {{< link file="orbit_stabilizer_theorem" display="Orbit-Stabilizer" type="proved_by" >}}. By {{< link file="lagranges_theorem" display="Lagrange’s Theorem" type="proved_by" >}}, we have $[G:G_a]=\l|G\r|/\l|G_a\r|$ for each such $a$.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 
