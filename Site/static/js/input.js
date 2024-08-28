@@ -1,6 +1,7 @@
 import { resetSide } from './single/preview.js';
 import { contentEl } from './single.js';
 import { toggleSide } from './single/side.js';
+import { toggleDark } from './darkMode.js';
 import { searchInit,
          searchOpen,
          searchClear,
@@ -29,6 +30,8 @@ document.addEventListener('keydown', function(e) {
         searchScroll(-1);
     } else if (!searchActive && metaKeyDown && e.key === 'e') {
         toggleSide(false);
+    } else if (!searchActive && metaKeyDown && e.key === 'd') {
+        toggleDark(document, false, true, true);
     } else if (!searchActive && e.key === 'j') {
         contentEl.style.setProperty('position', 'absolute');
         contentEl.scrollBy(0, 60);
