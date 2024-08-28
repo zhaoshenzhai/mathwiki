@@ -29,7 +29,7 @@ Note that the orbits form a partition $X=\bigsqcup_iGx_i$ and $G\act Gx_i$ for e
 
 <br>
 
-&emsp;&emsp;Also, $\phi$ is faithful iff $Z$ is trivial. A stronger criteria is when $G_x$ is trivial for *all* $x\in X$, in which case we say that $\phi$ is *free*. While the former has no *global* fixed points ($\fa x\in X:Gx\neq\l\\{x\r\\}$), free actions admit no *local* fixed points ($\fa x\in X,\fa g\in G\comp\l\\{e\r\\}:gx\neq x$).
+&emsp;&emsp;A stronger criteria than faithfulness is when $G_x$ is trivial for *all* $x\in X$, in which case we say that $\phi$ is *free*. While the former has no *global* fixed points ($\fa g\in G,\fa x\in X:gx=x\rightarrow g=e$), free actions admit no *local* ones ($\fa g\in G(\ex x\in X:gx=x)\rightarrow g=e$).
 
 <div class="space"></div>
 
