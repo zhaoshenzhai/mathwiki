@@ -1,20 +1,21 @@
 import { getTextHeight } from '../single.js';
 
 var proofHeaders = document.getElementsByClassName('proofHeader');
-window.expandProofHeaders = expandProofHeaders;
+window.initProofHeaders = initProofHeaders;
 
 // Toggle on click
 document.addEventListener('DOMContentLoaded', (e) => {
     for (var i = 0; i < proofHeaders.length; i++) {
         proofHeaders[i].addEventListener('click', function() {
-            toggleProofHeader(this);
+            toggleProofHeader(this, false);
         });
     }
 });
 
-export function expandProofHeaders() {
+export function initProofHeaders() {
     for (var i = 0; i < proofHeaders.length; i++) {
         var proof = proofHeaders[i];
+        console.log(proof);
         var container = proof.parentElement;
         if (container.classList.contains('hide')) {
             container.style.maxHeight = getTextHeight() + 'px';
@@ -24,21 +25,21 @@ export function expandProofHeaders() {
             content.style.opacity = '0';
             expand.style.opacity = '0.6';
         } else {
-            toggleProofHeader(proof);
+            toggleProofHeader(proof, false);
         }
     }
 }
 
-function toggleProofHeader(proof) {
+function toggleProofHeader(proof, forceExpand) {
     var container = proof.parentElement;
     var expand = proof.nextElementSibling;
     var content = expand.nextElementSibling;
 
-    if (!proof.classList.contains('proofExpanded')) {
+    if (forceExpand || !proof.classList.contains('proofExpanded')) {
         container.style.maxHeight = container.scrollHeight + 'px';
         content.style.opacity = '1';
         expand.style.opacity = '0';
-        proof.classList.add('proofExpanded');
+        if (!forceExpand) { proof.classList.add('proofExpanded'); }
     } else {
         container.style.maxHeight = getTextHeight() + 'px';
         content.style.opacity = '0';
