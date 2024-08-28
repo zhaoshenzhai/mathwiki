@@ -15,18 +15,21 @@ Let $G$ be a group and fix a {{< link file="category" display="category" type="r
 
 {{< /env >}}
 
-Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$, and write $\phi_g(x)\coloneqq\phi(g)(x)$. The object $X$ is the ‘concrete object’, and $\phi$ encodes how $G$ manifests itself as $\Aut X$, the symmetries of $X$. Note, however, that $\phi$ need not be injective; we say that the action is *faithful* if it is, so that $G\into\Aut X$.
+Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$, and write $\phi_g(x)\coloneqq\phi(g)(x)$. The object $X$ is the ‘concrete object’, and $\phi$ encodes how $G$ manifests itself as $\Aut X$, the symmetries of $X$. Note, however, that $\phi$ need not be injective; we say that the action is *faithful* if it is, so that $G\into\Aut X$. Otherwise, $Z\coloneqq\ker\phi$ is non-trivial.
 
 <div class="space"></div>
 
 ## Basic Notions
 
-For $C$ a concrete category (e.g. $\catset,\catvect[k],\cattop,\dots$), there are some important constructions. Fix an action $\phi:G\act X$.
-* For a fixed $x\in X$, the *orbit* of $x$ is $Gx\coloneqq\l\\{gx\in X\st g\in G\r\\}$, and the *stabilizer* of $x$ is $G_x\coloneqq\l\\{g\in G\st gx=x\r\\}$. We let $Z\coloneqq\ker\phi=\bigcap_{x\in X}G_x$ be the fixed points of $\phi$.
-* For a fixed $g\in G$, the *$g$-translate* of $X$ is $gX\coloneqq\l\\{gx\st x\in X\r\\}$, and the *fixed points* of $g$ is $X^g\coloneqq\l\\{x\in X\st gx=x\r\\}$.
-* We say that $\phi$ is *transitive* if for every $x,y\in X$, there is some $g\in G$ such that $gx=y$. Clearly we have $X\iso\bigsqcup\_iGx_i$, and each $G\act Gx_i$ acts transitively.
+For $C$ a concrete category (e.g. $\catset,\catvect[k],\cattop,\dots$), there are some important constructions.
+* The *orbit* of a fixed $x\in X$ is the set $Gx\coloneqq\l\\{gx\in X\st g\in G\r\\}$ of *$G$-translates*, and the *stabilizer* of $x$ is $G_x\coloneqq\l\\{g\in G\st gx=x\r\\}$. Note that $Z=\ker\phi=\bigcap_{x\in X}G_x$, so it is the set of *fixed points* of $\phi$.
+* Dually, the *$g$-translate* of a fixed $g\in G$ is the set $gX\coloneqq\l\\{gx\st x\in X\r\\}$, and the *fixed points* of $g$ is $X^g\coloneqq\l\\{x\in X\st gx=x\r\\}$.
 
-Note that $\phi$ is faithful iff $Z$ is trivial. A much stronger criteria is when $G_x$ is trivial for *all* $x\in X$, in which case we say that $\phi$ is *free*.
+Note that the orbits form a partition $X=\bigsqcup_iGx_i$ and $G\act Gx_i$ for each $i$ independent of each other, so we will sometimes just focus on actions of $G$ on a single orbit. In this case, when $G\act X$ has a single orbit, we say that $G$ acts *transitively* on $X$; that is, for every $x,y\in X$, we have $y=gx$ for some $g\in X$.
+
+<br>
+
+&emsp;&emsp;Also, $\phi$ is faithful iff $Z$ is trivial. A stronger criteria is when $G_x$ is trivial for *all* $x\in X$, in which case we say that $\phi$ is *free*. While the former has no *global* fixed points ($\fa x\in X:Gx\neq\l\\{x\r\\}$), free actions admit no *local* fixed points ($\fa x\in X,\fa g\in G\comp\l\\{e\r\\}:gx\neq x$).
 
 <div class="space"></div>
 

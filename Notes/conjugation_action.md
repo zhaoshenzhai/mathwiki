@@ -7,12 +7,17 @@ tags: [Group_Theory]
 
 # Motivation & Definition
 
-One fundamental way that a {{< link file="group" display="group" type="references" >}} can {{< link file="group_action" display="act" type="references" >}} on itself is via *conjugation*, defined by $\phi_g(x)\coloneqq gxg^{-1}$ for all $g\in G$. This action provides several important constructions.
-* The *conjugacy classes* of $G$ are the orbits of $\phi$, and two elements $x,y\in G$ are *conjugate* if they are in the same class, in that $y=gxg^{-1}$ for some $g\in G$.
-* The *center* $Z(G)\nsubgrpeq G$ is the fixed points of $\phi$; i.e.,
-$$\begin{equation}
-    Z(G)\coloneqq\ker\phi=\l\\{g\in G\st gx=xg\textrm{ for all }x\in G\r\\}.
-\end{equation}$$
+Let $G$ be a {{< link file="group" display="group" type="references" >}}. Other than the left-multiplication {{< link file="group_action" display="action" type="references" >}} of $G$ on itself, there is another fundamental action of $G$:
+
+{{< env type="definition" >}}
+
+The *conjugation* action of $G$ is the action $\phi:G\to\Aut G$ defined by $\phi_g(x)\coloneqq gxg^{-1}$ for all $g,x\in G$.
+
+{{< /env >}}
+
+This action provides many fundamental constructions that are intrinsic to $G$.
+* The *conjugacy classes* of $G$ are the orbits of $\phi$, and we call two elements $x,y\in G$ in the same class *conjugate* elements. That is, $x$ and $y$ are conjugate if $y=gxg^{-1}$ for some $g\in G$.
+* The *center* $Z(G)\nsubgrpeq G$ is the fixed points of $\phi$, i.e., $Z(G)=\ker\phi$. In particular, it is {{< link file="normal_subgroup" display="normal" type="references" >}} in $G$. Unpacking the definitions, we see that $g\in Z(G)$ iff it commutes with every $x\in G$.
 * The *centralizer* of $x\in G$ is the stabilizer $Z_G(x)\coloneqq\Stab_G(x)=\l\\{g\in G\st gx=xg\r\\}$. Note that $Z(G)=\bigcap_{x\in G}Z_G(x)$, and that $x\in Z(G)$ iff $Z_G(x)=G$.
 
 ## {{< link file="the_class_equation" display="The Class Equation" type="properties" >}}
