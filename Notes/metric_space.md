@@ -7,11 +7,11 @@ tags: []
 
 # Motivation & Definition
 
-Abstracting away some basic properties of the Euclidean distance in $\R^n$, and most notably preserving the *Triangle Inequality*, we make the following
+Let $X$ be a set. We would like to formalize a notion of ‘distance’ between points $x,x'\in X$, and we do so by abstracting away some basic properties of the Euclidean distance in $\R^n$, and most notably preserving the *Triangle Inequality*.
 
 {{< env type="definition" >}}
 
-A *metric* on a set $X$ is a function $d:X\times X\to\R_{\geq0}$ such that
+Let $X$ be a set. A *metric* on $X$ is a function $d:X\times X\to\R_{\geq0}$ such that
 1. <span style="color:gray">(Positive-definiteness).</span> For all $x,y\in X$, we have $d(x,y)=0$ iff $x=y$.
 2. <span style="color:gray">(Symmetry.)</span> For all $x,y\in X$, we have $d(x,y)=d(y,x)$.
 3. <span style="color:gray">($\Delta$-inequality).</span> For all $x,y,z\in X$, we have $d(x,z)\leq d(x,y)+d(y,z)$.
@@ -79,9 +79,11 @@ A topological space $\tpl{X,\mc{T}}$ is said to be *metrizable* if there is a me
 
 ## Uniform Structure
 
+<span style="color:red">Fill this in.</span>
+
 <div class="space"></div>
 
-## Lipschitz
+## Lipschitz Structure
 
 Clearly, $\catmet_c$ is a {{< link file="subcategory" display="subcategory" type="references" >}} of {{< link file="topological_space" display="$\cattop$" type="generalizations" section="The Category $\cattop$" >}}. However, there is a more useful category of metric spaces in which morphisms preserve the metric structure.
 
@@ -95,6 +97,6 @@ for all $x,x'\in X$. We say that $f$ is *Lipschitz* if it is $k$-Lipschitz for s
 
 {{< /env >}}
 
-We let $\catmet$ be the category whose objects are metric spaces and whose morphisms are $1$-Lipschitz maps (also called *non-expanding* maps). Since Lipschitz maps are continuous, this makes $\catmet$ a subcategory of $\cattop$.
+We let $\catmet$ be the category of metric spaces with $1$-Lipschitz maps (also called *non-expanding* maps). Clearly Lipschitz maps are continuous, so $\catmet$ is a subcategory of $\cattop$.
 
 # Geometry of Metric Spaces
