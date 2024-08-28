@@ -28,23 +28,21 @@ Similarly, continuity of functions between metric spaces{{< link file="continuou
 
 {{< env type="definition" >}}
 
-A function $f:X\to Y$ between topological spaces is *continuous* if for any open subset $V\subseteq Y$, its preimage $f^{-1}(V)\subseteq X$ is open too.
+A function $f:(X,\mc{T}_X)\to(Y,\mc{T}_Y)$ is *continuous* if for any $V\in\mc{T}_Y$, we have $f^{-1}(V)\in\mc{T}_X$.
 
 {{< /env >}}
+
+That is, $f$ is continuous if ‘preimages of open sets are open’.
 
 <div class="space"></div>
 
 ## Basic Notions
 
-For a topological space $\tpl{X,\mc{T}_X}$, we let $\mc{F}_X\coloneqq\l\\{X\comp U\st U\in\mc{T}_X\r\\}$ denote its collection of *closed* sets. By De Morgan’s Laws, a topology is equivalently given by a family $\mc{F}_X\ni\em,X$ closed under intersections and finite unions.
+Topology comes with it a baggage of jargon; a (non-exhaustive) list include the {{< link file="closure_topology" display="closure" type="constructions" >}} and {{< link file="interior_topology" display="interior" type="constructions" >}} of a subset $A\subseteq X$; its {{< link file="accumulation_point" display="accumulation" type="constructions" >}}, {{< link file="limit_point" display="limit" type="constructions" >}}, {{< link file="cluster_point" display="cluster" type="constructions" >}}, and {{< link file="boundary" display="boundary" type="constructions" >}} points; and whether it is {{< link file="dense_topology" display="dense" type="constructions" >}} or {{< link file="nowhere_dense" display="nowhere dense" type="constructions" >}}. They can also be generated (i.e., completely determined) by smaller collections of open sets thereof, via {{< link file="bases_for_topologies" display="(sub)bases" type="sufficiencies" >}}.
 
 <br>
 
-&emsp;&emsp;Topology comes with it a baggage of jargon; a (non-exhaustive) list include the {{< link file="closure_topology" display="closure" type="constructions" >}} and {{< link file="interior_topology" display="interior" type="constructions" >}} of a subset $A\subseteq X$; its {{< link file="accumulation_point" display="accumulation" type="constructions" >}}, {{< link file="limit_point" display="limit" type="constructions" >}}, {{< link file="cluster_point" display="cluster" type="constructions" >}}, and {{< link file="boundary" display="boundary" type="constructions" >}} points; and whether it is {{< link file="dense_topology" display="dense" type="constructions" >}} or {{< link file="nowhere_dense" display="nowhere dense" type="constructions" >}}. They can also be generated (i.e., completely determined) by smaller collections of open sets thereof, via {{< link file="bases_for_topologies" display="(sub)bases" type="sufficiencies" >}}.
-
-<br>
-
-&emsp;&emsp;Most importantly, topological spaces allow us to speak of {{< link file="convergence" display="convergence" type="constructions" >}}, which can be phrased in terms of {{< link file="convergence" display="nets" type="references" section="Nets" >}}/{{< link file="filter" display="filters" type="references" >}}. For ‘nice’ spaces (e.g. metric spaces), it can be rephrased using just sequences.
+&emsp;&emsp;More importantly, topological spaces allow us to speak of {{< link file="convergence" display="convergence" type="constructions" >}}, which can be phrased in terms of {{< link file="convergence" display="nets" type="references" section="Nets" >}}/{{< link file="filter" display="filters" type="references" >}}. For ‘nice’ spaces (e.g. metric spaces), it can be rephrased using just sequences.
 
 <div class="space"></div>
 
