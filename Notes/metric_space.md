@@ -73,7 +73,7 @@ This allows continuity to be phrased purely in terms of the open sets in $X,Y$, 
 
 {{< env type="definition" >}}
 
-A topological space $\tpl{X,\mc{T}}$ is said to be *metrizable* if there is a metric $d$ on $X$ whose open balls generate $\mc{T}$.
+A topological space $\tpl{X,\mc{T}}$ is said to be *{{< link file="metrizable_space" display="metrizable" type="generalizations" >}}* if there is a metric $d$ on $X$ whose open balls generate $\mc{T}$.
 
 {{< /env >}}
 
