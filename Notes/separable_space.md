@@ -15,17 +15,17 @@ A topological space $X$ is said to be *separable* if it admits a countably dense
 
 {{< /env >}}
 
-This provides a limitation on the ‘complexity’ of $X$, and, in the setting of a {{< link file="metrizable_space" display="metrizable space" type="references" >}} $X$, this limitation is equivalent{{< link file="metrizable_limitations_on_complexity" type="equivalences" mod="dag" >}} to some others (like {{< link file="second_countable_space" display="second countability" type="references" >}}, Lindelöf, and the $\aleph_0$-chain-condition). Thus, we usually focus on the metrizable case, and if $X$ is completely-metrizable, then it is a *{{< link file="polish_space" display="Polish" type="types" >}}* space.
+This provides a limitation on the ‘complexity’ of $X$, and, in the setting of a {{< link file="metrizable_space" display="metrizable space" type="references" >}} $X$, this limitation is equivalent{{< link file="metrizable_limitations_on_complexity" type="equivalences" mod="dag" >}} to some others (like {{< link file="second_countable_space" display="second countability" type="references" >}}, being Lindelöf, and the CCC). Thus, we usually focus on the metrizable case, and more often than not, on *{{< link file="polish_space" display="Polish" type="types" >}}* spaces (those which are *completely* metrizable).
 
 <div class="space"></div>
 
 ## Hereditary Properties
 
-Let $X$ be a separable metrizable space. Then, any subset $Y\subseteq X$ is also separable.
+Any subset $Y\subseteq X$ of a separable metrizable space is also separable.
 
 >{{< env type="proof" hide="false" >}}
 
-Let $Q$ be a countable dense subset of $X$. Fix $q\in Q$ and consider the distance $d(q,Y)\coloneqq\inf_{y\in Y}d(q,y)$. For each $n\geq1$, let $y_{q,n}\in Y$ be such that $d(q,y_{q,n})\leq d(q,Y)+1/n$. Set $D\coloneqq\l\\{y_{q,n}\in Y\st q\in Q,n\geq1\r\\}$, which we claim witnesses separability of $Y$.
+Let $Q$ be a countable dense subset of $X$. For each $q\in Q$ and $n\geq1$, let $y_{q,n}\in Y$ be such that $d(q,y_{q,n})\leq d(q,Y)+1/n$. Set $D\coloneqq\l\\{y_{q,n}\in Y\st q\in Q,n\geq1\r\\}$, which we claim witnesses separability of $Y$.
 
 <br>
 

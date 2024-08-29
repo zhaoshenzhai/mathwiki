@@ -89,20 +89,21 @@ Many topological properties of $X$ can be detected (or defined) by the existence
 
 ## Weight and Character
 
-To begin, there are some topological notions that are defined in terms of the existence of certain types of bases. The most important of which is the *weight* $w(X)$ of $X$, defined as the minimal {{< link file="cardinal" display="cardinality" type="references" >}} of a basis $\mc{B}$ for $X$.
+To begin, we have the following basic notion.
 
 {{< env type="definition" >}}
 
-If $w(X)\leq\aleph_0$, then $X$ is said to be *{{< link file="second_countable_space" display="second-countable" type="constructions" >}}* <span style="color:gray">(i.e., $X$ admits a countable base)</span>.
+The *weight* of $X$ is the minimal {{< link file="cardinal" display="cardinality" type="references" >}} of a basis for $X$, denoted $w(X)$.
 
 {{< /env >}}
 
-A pointwise-version of the above is the *character* $\chi(x,X)$ of a point $x\in X$, defined as the minimal cardinality of a filter base for $\mc{N}_x$. Taking the supremum over all $x\in X$ gives the *character* $\chi(X)$ of $X$.
 
-{{< env type="definition" >}}
+If $w(X)\leq\aleph_0$, then $X$ is said to be *{{< link file="second_countable_space" display="second countable" type="constructions" >}}*.
 
-If $\chi(X)\leq\aleph_0$, then $X$ is said to be *{{< link file="first_countable_space" display="first-countable" type="constructions" >}}* <span style="color:gray">(i.e, every point $x\in X$ admits a countable filter base)</span>.
+<br>
 
-{{< /env >}}
+&emsp;&emsp;A pointwise-version of the above is the *character* $\chi(x,X)$ of a point $x\in X$, defined as the minimal cardinality of a filter base for $\mc{N}_x$. Taking the supremum over all $x\in X$ gives the *character* $\chi(X)$ of $X$. If $\chi(X)\leq\aleph_0$, then $X$ is said to be *{{< link file="first_countable_space" display="first-countable" type="constructions" >}}*.
+
+<div class="space"></div>
 
 ## Local Properties
