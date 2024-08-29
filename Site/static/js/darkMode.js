@@ -84,7 +84,7 @@ export function toggleDark(doc, noTransition, update, frame) {
         var frames = doc.getElementsByClassName('frame');
         for (var i = 0; i < frames.length; i++) {
             var frameDoc = frames[i].contentDocument;
-            toggleDark(frameDoc, true, false, false);
+            toggleDark(frameDoc, false, false, false);
         }
 
         darkMode = !darkMode;
