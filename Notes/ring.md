@@ -52,15 +52,21 @@ A function $f:R\to S$ between rings is a *homomorphism* if it is a homomorphism 
 
 {{< /env >}}
 
-## The Category $\catring$
+## The Category of Rings
 
-This category is{{< link file="catring_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}} and cocomplete, witnessed by the standard constructions of products, coproducts, kernels, cokernels, subobjects, and quotients.
+With ring homomorphisms as morphisms, rings form a category $\catring$. This category is{{< link file="catring_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}} and cocomplete, witnessed by the standard constructions of products, coproducts, kernels, cokernels, subobjects, and quotients.
+
+<br>
+
+&emsp;&emsp;The zero-ring is clearly a final object. More importantly, the {{< link file="integers" display="integers" type="examples" >}} $\Z$ is an initial object. Indeed, for every ring $R$ there is a group homomorphism $f:\Z\to R$ sending $n\mapsto n1_R$, which is a ring homomorphism since
+$$\begin{equation}
+    f(nm)=(nm)1_R=n(m1_R)=(n1_R)(m1_R)=f(n)f(m)
+\end{equation}$$
+by distributivity; it is unique by the requirement that $f(1)=1_R$ and $f$ preserves addition.
 
 # Modules and Algebras
 
-
-
-<span style="color:red">Fill this in...</span>
+<span style="color:red">TODO.</span>
 
 # Examples and Generalizations
 

@@ -40,4 +40,4 @@ I wrote some bash scripts to (try) maintain the consistency of my notes; [main.s
 * Basic stats of the site (and updating them below) is handled by [stats.sh](https://github.com/zhaoshenzhai/mathwiki/blob/master/.scripts/stats.sh).
 * Displaying all links that have yet to be created and all notes that have those links, are handled by [ghost.sh](https://github.com/zhaoshenzhai/mathwiki/blob/master/.scripts/ghost.sh).
 
-Some stats: 40 notes, 180 links (ratio: 4.500), 5 images ([updated](https://github.com/zhaoshenzhai/mathwiki/blob/master/.scripts/stats.sh) every commit).
+Some stats: 45 notes, 196 links (ratio: 4.355), 5 images ([updated](https://github.com/zhaoshenzhai/mathwiki/blob/master/.scripts/stats.sh) every commit).

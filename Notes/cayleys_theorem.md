@@ -7,7 +7,13 @@ tags: [Group_Theory/Later]
 
 # Motivation & Statement
 
-Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’. Such a theorem for {{< link file="group" display="groups" type="references" >}} is as follows.
+Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’.
+
+<div class="space"></div>
+
+## Groups
+
+Such a theorem for {{< link file="group" display="groups" type="references" >}} is as follows.
 
 {{< env type="theorem" name="Cayley" >}}
 
@@ -25,7 +31,7 @@ We show that the left-multiplication {{< link file="group_action" display="actio
 
 ## Cayley Graph
 
-We can refine this result if $G$ is finitely-generated.
+We can refine this result if $G$ is finitely-generated and obtain a geometric result.
 
 {{< env type="proposition" >}}
 
@@ -35,7 +41,23 @@ Every finitely-generated group is a subgroup of the symmetries of a connected lo
 
 {{< env type="proof" >}}
 
+<span style="color:red">TODO.</span>
 
+{{< /env >}}
+
+<div class="space"></div>
+
+## Rings
+
+{{< env type="theorem" >}}
+
+Every ring $R$ is a {{< link file="subring" display="subring" type="references" >}} of an endomorphism ring.
+
+{{< /env >}}
+
+{{< env type="proof" hide="false" >}}
+
+<span style="color:red">TODO (symbol juggling).</span>
 
 {{< /env >}}
 

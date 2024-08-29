@@ -38,13 +38,13 @@ A function $f:G\to H$ between groups is a *homomorphism* if $f(g_1\cdot g_2)=f(g
 
 {{< /env >}}
 
-Note that this implies that $f(e_G)=e_H$ and that $f(g^{-1})=f(g)^{-1}$ for all $g\in G$, so homomorphisms do indeed preserve the group structure of $G$. With homomorphisms as morphisms, groups form a category $\catgrp$.
+Note that this implies that $f(e_G)=e_H$ and that $f(g^{-1})=f(g)^{-1}$ for all $g\in G$.
 
 <div class="space"></div>
 
 ## The Category of Groups
 
-This category is{{< link file="catgrp_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}} and cocomplete, and we have the standard notions of products, coproducts, {{< link file="kernel_group_theory" display="kernel" type="constructions" >}}, {{< link file="kernel_group_theory" display="cokernels" type="constructions" section="Cokernel" >}}, {{< link file="subgroup" display="subobjects" type="constructions" >}}, and {{< link file="quotient_group" display="quotients" type="constructions" >}}.
+With homomorphisms as morphisms, groups form a category $\catgrp$. This category is{{< link file="catgrp_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}} and cocomplete, as witnessed by the standard notions of products, coproducts, {{< link file="kernel_group_theory" display="kernel" type="constructions" >}}, {{< link file="kernel_group_theory" display="cokernels" type="constructions" section="Cokernel" >}}, {{< link file="subgroup" display="subobjects" type="constructions" >}}, and {{< link file="quotient_group" display="quotients" type="constructions" >}}.
 
 <br>
 

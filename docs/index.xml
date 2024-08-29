@@ -111,7 +111,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</link>
       <pubDate>Thu, 20 Jun 2024 19:25:15 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</guid>
-      <description>Motivation &amp;amp; Statement Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’. Such a theorem for groups is as follows.&#xA;Theorem (Cayley). Every group $G$ is a subgroup of a symmetry group. Proof.Click to expand... We show that the left-multiplication action $\phi:G\to\Aut G$ is faithful, for then $G\substructeq\Aut G$. Indeed, if $\phi(g_1)=\phi(g_2)$, then we have $\phi(g_1)g=\phi(g_2)g$ for all $g\in G$. That is, we have $g_1g=g_2g$, so $g_1=g_2$ as desired.</description>
+      <description>Motivation &amp;amp; Statement Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’.&#xA;Groups Such a theorem for groups is as follows.&#xA;Theorem (Cayley). Every group $G$ is a subgroup of a symmetry group. Proof.Click to expand... We show that the left-multiplication action $\phi:G\to\Aut G$ is faithful, for then $G\substructeq\Aut G$. Indeed, if $\phi(g_1)=\phi(g_2)$, then we have $\phi(g_1)g=\phi(g_2)g$ for all $g\in G$. That is, we have $g_1g=g_2g$, so $g_1=g_2$ as desired.</description>
     </item>
     <item>
       <title>Convergence</title>
@@ -181,14 +181,14 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/module/</link>
       <pubDate>Thu, 06 Jun 2024 18:07:45 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/module/</guid>
-      <description>Motivation &amp;amp; Definition Throughout, fix a ring $R$.&#xA;Definition. A (left) $R$-module is an Abelian group $(M,+)$ equipped with a left $R$-action $R\to\End_\catabgrp(M)$. That is, a function $R\times M\to M$ such that $$\begin{equation} r(m+n)=rm+rn,\ \ \ \ (r+s)m=rm+sm,\ \ \ \ (rs)m=r(sm),\ \ \ \ \mathit{and}\ \ \ \ 1m=m \end{equation}$$ for all $r,s\in R$ and $m,n\in M$. The relevant structure-preserving maps for $R$-modules are as follows.&#xA;Definition. A function $f:M\to N$ between $R$-modules is a homomorphism if it is a group homomorphism $f:(M,+)\to(N,+)$ such that</description>
+      <description>Motivation &amp;amp; Definition Let $R$ be a (not-necessarily commutative) ring.&#xA;Definition. A (left) $R$-module is an Abelian group $(M,+)$ equipped with a left $R$-action $R\to\End_\catabgrp(M)$. That is, a function $R\times M\to M$ such that $$\begin{equation} r(m+n)=rm+rn,\ \ \ \ (r+s)m=rm+sm,\ \ \ \ (rs)m=r(sm),\ \ \ \ \mathit{and}\ \ \ \ 1m=m \end{equation}$$ for all $r,s\in R$ and $m,n\in M$. The relevant structure-preserving maps for $R$-modules are as follows.&#xA;Definition. A function $f:M\to N$ between $R$-modules is a homomorphism if it is a group homomorphism $f:(M,+)\to(N,+)$ such that</description>
     </item>
     <item>
       <title>Ring</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/ring/</link>
       <pubDate>Thu, 06 Jun 2024 15:26:58 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/ring/</guid>
-      <description>Motivation &amp;amp; Definition The concept of a ring naturally arises when studying the endomorphism group of an abelian group $G$. Indeed, $\End G$ is itself abelian $-$ but more importantly, it has an extra operation of composition. These operations are compatible in the sense that:&#xA;Definition. A ring is a monoid $(R,\cdot,1)$ equipped with the structure of an abelian group $(R,+,0)$ such that for all $r,s,t\in R$, we have $$\begin{equation} (r+s)\cdot t=r\cdot t+s\cdot t\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ t\cdot(r+s)=t\cdot r+t\cdot s.</description>
+      <description>Motivation &amp;amp; Definition The concept of a ring naturally arises when studying the endomorphism group of an abelian group $G$. Indeed, $\End G$ is itself abelian, but more importantly, it has an extra operation of composition. These operations are compatible in the sense below.&#xA;Definition. A ring is a tuple $(R,+,\cdot,0,1)$ consisting of a monoid $(R,\cdot,1)$ and an abelian group $(R,+,0)$, where the two structures are compatible in the following way: For all $r,s,t\in R$, we have the distributive laws $$\begin{equation} (r+s)\cdot t=r\cdot t+s\cdot t\ \ \ \ \ \ \ \ \mathit{and}\ \ \ \ \ \ \ \ t\cdot(r+s)=t\cdot r+t\cdot s.</description>
     </item>
     <item>
       <title>Orbit Stabilizer Theorem</title>

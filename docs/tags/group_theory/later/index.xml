@@ -27,7 +27,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</link>
       <pubDate>Thu, 20 Jun 2024 19:25:15 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/cayleys_theorem/</guid>
-      <description>Motivation &amp;amp; Statement Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’. Such a theorem for groups is as follows.&#xA;Theorem (Cayley). Every group $G$ is a subgroup of a symmetry group. Proof.Click to expand... We show that the left-multiplication action $\phi:G\to\Aut G$ is faithful, for then $G\substructeq\Aut G$. Indeed, if $\phi(g_1)=\phi(g_2)$, then we have $\phi(g_1)g=\phi(g_2)g$ for all $g\in G$. That is, we have $g_1g=g_2g$, so $g_1=g_2$ as desired.</description>
+      <description>Motivation &amp;amp; Statement Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’.&#xA;Groups Such a theorem for groups is as follows.&#xA;Theorem (Cayley). Every group $G$ is a subgroup of a symmetry group. Proof.Click to expand... We show that the left-multiplication action $\phi:G\to\Aut G$ is faithful, for then $G\substructeq\Aut G$. Indeed, if $\phi(g_1)=\phi(g_2)$, then we have $\phi(g_1)g=\phi(g_2)g$ for all $g\in G$. That is, we have $g_1g=g_2g$, so $g_1=g_2$ as desired.</description>
     </item>
     <item>
       <title>Subgroup</title>
