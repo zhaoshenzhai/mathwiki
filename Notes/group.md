@@ -76,11 +76,11 @@ Another more ‘object-oriented’ technique to study $G$ is to decompose it int
 
 # Examples of Groups
 
-The simplest groups, and possibly the most important groups, are the {{< link file="cyclic_group" display="cyclic groups" type="examples" >}}. They are the ones that are {{< link file="subgroup" display="generated" type="references" section="Subgroup Generation" >}} by a singleton, which forces{{< link file="cyclic_group" type="justifications" mod="dag" section="Classification" >}} it to either be the {{< link file="integers" display="integers" type="references" >}} $\Z$ or its {{< link file="quotient_group" display="quotient" type="references" >}} $\Z/n\Z$ for some $n\geq1$.
+The simplest groups, and possibly the most important groups, are the {{< link file="cyclic_group" display="cyclic groups" type="examples" >}}. They are the ones that are {{< link file="subgroup" display="generated" type="references" section="Subgroup Generation" >}} by a singleton, which forces{{< link file="cyclic_group" type="justifications" mod="dag" section="Classification" >}} it to either be the {{< link file="integers" display="integers" type="references" >}} $\Z$ or its {{< link file="quotient_group" display="quotient" type="references" >}} $\Z/n\Z$ for some $n\geq1$. Other classical groups include the dihedral groups, symmetry groups, and matrix groups.
 
 <br>
 
-&emsp;&emsp;Other classical groups include the dihedral groups, symmetry groups, and matrix groups.
+&emsp;&emsp;Groups can also arise as the {{< link file="group_of_units" display="group of units" type="examples" >}} of a {{< link file="ring" display="ring" type="references" >}}.
 
 <div class="space"></div>
 

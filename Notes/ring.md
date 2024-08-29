@@ -54,15 +54,21 @@ A function $f:R\to S$ between rings is a *homomorphism* if it is a homomorphism 
 
 ## The Category of Rings
 
-With ring homomorphisms as morphisms, rings form a category $\catring$. This category is{{< link file="catring_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}} and cocomplete, witnessed by the standard constructions of products, coproducts, kernels, cokernels, subobjects, and quotients.
+With ring homomorphisms as morphisms, rings form a category $\catring$. This category is{{< link file="catring_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}} and cocomplete, witnessed by the standard constructions of products, coproducts, kernels, cokernels, subobjects, and quotients. We also have a {{< link file="functor" display="functor" type="references" >}} $\catring\to\catgrp$ taking a ring $R$ to its {{< link file="group_of_units" display="group of units" type="constructions" >}}, which is left-{{< link file="adjunction" display="adjoint" type="references" >}} to the {{< link file="group_ring" display="group ring" type="sufficiencies" >}} construction.
 
 <br>
 
-&emsp;&emsp;The zero-ring is clearly a final object. More importantly, the {{< link file="integers" display="integers" type="examples" >}} $\Z$ is an initial object. Indeed, for every ring $R$ there is a group homomorphism $f:\Z\to R$ sending $n\mapsto n1_R$, which is a ring homomorphism since
+&emsp;&emsp;The zero-ring is clearly a final object. More importantly, the {{< link file="integers" display="integers" type="examples" >}} $\Z$ is an initial object.
+
+>{{< env type="proof" hide="true" >}}
+
+Indeed, for every ring $R$ there is a group homomorphism $f:\Z\to R$ sending $n\mapsto n1_R$, which is a ring homomorphism since
 $$\begin{equation}
     f(nm)=(nm)1_R=n(m1_R)=(n1_R)(m1_R)=f(n)f(m)
 \end{equation}$$
 by distributivity; it is unique by the requirement that $f(1)=1_R$ and $f$ preserves addition.
+
+{{< /env >}}
 
 # Modules and Algebras
 
