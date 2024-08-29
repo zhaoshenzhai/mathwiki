@@ -6,14 +6,42 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2024 19:20:34 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 21:46:15 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second Countable Space</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/second_countable_space/</link>
+      <pubDate>Wed, 28 Aug 2024 21:46:15 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/second_countable_space/</guid>
+      <description>Motivation &amp;amp; Definition One way to measure the ‘complexity’ of a topological space is to limit the cardinality of bases thereof, and since the most important cardinal is $\aleph_0$, we make the following&#xA;Definition. A topological space $X$ is second countable if it admits a countable basis. In the setting of a metrizable space, this limitation is equivalent$^\dagger$ to some others (like, separability, being Lindelöf, and the CCC). In general, however, second countability is stronger than the rest.</description>
+    </item>
+    <item>
+      <title>Separable Space</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/separable_space/</link>
+      <pubDate>Wed, 28 Aug 2024 20:39:23 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/separable_space/</guid>
+      <description>Motivation &amp;amp; Definition A standard technique from analysis is when establishing a property for some topological space $X$, one first proves it for a dense subset $C\subseteq X$. It is thus useful to prove the existence of ‘nice’ dense sets. The following is singles out a very crude such class of spaces.&#xA;Definition. A topological space $X$ is said to be separable if it admits a countably dense subset $Q\subseteq X$.</description>
+    </item>
+    <item>
+      <title>Metrizable Space</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/metrizable_space/</link>
+      <pubDate>Wed, 28 Aug 2024 20:34:53 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/metrizable_space/</guid>
+      <description>Motivation &amp;amp; Definition </description>
+    </item>
+    <item>
+      <title>Hausdorff Space</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/hausdorff_space/</link>
+      <pubDate>Wed, 28 Aug 2024 19:31:09 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/hausdorff_space/</guid>
+      <description>Motivation &amp;amp; Definition Let $X$ be a topological space. From the point of view of the topology on $X$, two points are distinguishable iff they can be ‘separated’ by open sets. For instance, if $X$ is discrete, then point are separated, while if $X$ has the trivial topology, then no points are separated. There are different degrees of separation; the most common and useful one is as follows.&#xA;Definition. A topological space $X$ is Hausdorff if every distinct pair $x,y\in X$ admit disjoint open neighborhoods $U_x,U_y\subseteq X$.</description>
+    </item>
     <item>
       <title>Manifold</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/manifold/</link>
       <pubDate>Wed, 28 Aug 2024 19:20:34 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/manifold/</guid>
-      <description></description>
+      <description>Motivation &amp;amp; Definition </description>
     </item>
     <item>
       <title>Bases for Topologies</title>
@@ -112,6 +140,13 @@
       <pubDate>Wed, 22 May 2024 21:52:00 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/category/</guid>
       <description>Motivation &amp;amp; Definition The starting point of the theory of categories is the observation that many properties of mathematical objects can be more succinctly expressed as diagrams of arrows $-$ as opposed to an equation $-$ and that many objects can be constructed via a ‘universal property’ of such a diagram; heuristically then, these objects are characterized as the ‘most efficient solution to a certain optimization problem’.&#xA;To formalize this, we need a general framework for composing arrows, so we make the following</description>
+    </item>
+    <item>
+      <title>Metric Space</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/metric_space/</link>
+      <pubDate>Tue, 14 May 2024 21:37:43 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/metric_space/</guid>
+      <description>Motivation &amp;amp; Definition Let $X$ be a set. We would like to formalize a notion of ‘distance’ between points $x,x&amp;rsquo;\in X$, and we do so by abstracting away some basic properties of the Euclidean distance in $\R^n$, and most notably preserving the Triangle Inequality.&#xA;Definition. Let $X$ be a set. A metric on $X$ is a function $d:X\times X\to\R_{\geq0}$ such that&#xA;(Positive-definiteness). For all $x,y\in X$, we have $d(x,y)=0$ iff $x=y$.</description>
     </item>
   </channel>
 </rss>

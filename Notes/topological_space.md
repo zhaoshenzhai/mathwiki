@@ -74,7 +74,7 @@ Topology can be interpreted as an ‘idealized version of computation’, where 
 
 Beyond the generalities above, much more can be said about specific types of topological spaces.
 
-* {{< link file="Hausdorff_space" display="Hausdorff" type="types" >}} spaces exclude a lot of pathologies present in general topological spaces.
+* {{< link file="hausdorff_space" display="Hausdorff" type="types" >}} spaces exclude a lot of pathologies present in general topological spaces.
 * {{< link file="compact_space" display="Compact" type="types" >}} spaces exhibit many properties of finite sets, and are therefore really nice to work with.
 * {{< link file="connected_space" display="Connectedness" type="types" >}} and other related concepts like {{< link file="path-connected_space" display="path-connectedness" type="types" >}} help establish global properties of topological spaces.
 * {{< link file="separable_space" display="Separable" type="types" >}} and {{< link file="first_countable_space" display="$1^\textrm{st}$" type="types" >}}/{{< link file="second_countable_space" display="$2^\textrm{nd}$" type="types" >}} countable spaces are countable objects (in flavour), giving way to techniques from {{< link file="real_analysis" display="analysis" type="references" >}}.
