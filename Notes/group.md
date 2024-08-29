@@ -105,6 +105,10 @@ Many groups arise as the automorphism group of some object $X$. In fact, this is
 
 &emsp;&emsp;Given a group $G$, consider the category $\cat{B}G$ consisting of a single object $\ast$, and, for each $g\in G$, a morphism $g:\ast\to\ast$. The identity in $\cat{B}G$ is the identity element $e\in G$, and composition is given by the group operation. Since every $g\in G$ admits an inverse $g^{-1}\in G$, we see that every morphism is invertible, and so $G=\Aut\ast$.
 
-> Note that a homomorphism $G\to H$ is nothing but a functor $\cat{B}G\to\cat{B}H$, and that a $G$-action on a category $C$ is nothing but a functor $\cat{B}G\to C$.
+<div class="space"></div>
+
+**Remark.** Note that a homomorphism $G\to H$ is a functor $\cat{B}G\to\cat{B}H$, and that a $G$-action on a category $C$ is a functor $\cat{B}G\to C$.
+
+<div class="space"></div>
 
 Generalizing this idea, we say that a category $C$ is a *groupoid* if each morphism is invertible. Thus, after identifying $G$ with $\cat{B}G$, a group is nothing but a groupoid with a single object. Without requiring that all morphisms be invertible $-$ that is, just considering a category with a single object $-$ we recover the notion of a {{< link file="monoid" display="monoid" type="generalizations" >}}.

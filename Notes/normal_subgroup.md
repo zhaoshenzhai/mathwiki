@@ -7,11 +7,11 @@ tags: [Group_Theory]
 
 # Motivation & Definition
 
-&emsp;&emsp;Fix a {{< link file="group" display="group" type="references" >}} $G$ and consider the {{< link file="category" display="category" type="references" >}} $\cat{B}G$ defined by $G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$). What are the {{< link file="congruence_relation" display="congruences" type="references" >}} in $\cat{B}G$?
+Fix a {{< link file="group" display="group" type="references" >}} $G$ and consider the {{< link file="category" display="category" type="references" >}} $\cat{B}G$ defined{{< link file="group" type="references" mod="dag" section="Groupoids" >}} by $G$. What are the {{< link file="congruence_relation" display="congruences" type="references" >}} in $\cat{B}G$?
 
 {{< env type="definition" >}}
 
-A {{< link file="subgroup" display="subgroup" type="references" >}} $N\substructeq G$ is said to be *normal* if it is invariant under the {{< link file="conjugation_action" display="conjugation" type="references" >}} {{< link file="group_action" display="action" type="references" >}} of $G$; i.e., if $gN=Ng$ for all $g\in G$.
+A {{< link file="subgroup" display="subgroup" type="references" >}} $N\substructeq G$ is said to be *normal* if it is invariant under {{< link file="conjugation_action" display="conjugation" type="references" >}} by $G$; i.e., if $gN=Ng$ for all $g\in G$.
 
 <br>
 
