@@ -74,12 +74,13 @@ Topology can be interpreted as an ‘idealized version of computation’, where 
 
 Beyond the generalities above, much more can be said about specific types of topological spaces.
 
-* {{< link file="Hausdorff_space" display="Hausdorff" type="types" >}} spaces (and more generally spaces satisfying some {{< link file="separation_axioms" display="Separation" type="types" >}} axioms), exclude a lot of pathologies present in general topological spaces.
+* {{< link file="Hausdorff_space" display="Hausdorff" type="types" >}} spaces exclude a lot of pathologies present in general topological spaces.
 * {{< link file="compact_space" display="Compact" type="types" >}} spaces exhibit many properties of finite sets, and are therefore really nice to work with.
 * {{< link file="connected_space" display="Connectedness" type="types" >}} and other related concepts like {{< link file="path-connected_space" display="path-connectedness" type="types" >}} help establish global properties of topological spaces.
-* {{< link file="separable_space" display="Separable" type="types" >}} and {{< link file="first_countable_space" display="$1^\textrm{st}$" type="types" >}}/{{< link file="second_countable_space" display="$2^\textrm{nd}$" type="types" >}} countable spaces are countable objects (in flavour), giving way to techniques from {{< link file="real_analysis" display="analysis" type="references" >}}. This is especially the case for {{< link file="polish_space" display="Polish" type="types" >}} spaces.
-* {{< link file="sequential_space" display="Sequential" type="types" >}} spaces allow topological properties (like convergence, continuity, and compactness etc) to be probed by sequences, much like as in {{< link file="metric_space" display="metric" type="types" >}} spaces.
-* {{< link file="manifold" display="Manifolds" type="types" >}} allow many important properties specific to $\R^n$ to be ‘lifted’ back to the topological space. We can thus ‘do calculus’ on {{< link file="smooth_manifold" display="smooth manifolds" type="types" >}}.
+* {{< link file="separable_space" display="Separable" type="types" >}} and {{< link file="first_countable_space" display="$1^\textrm{st}$" type="types" >}}/{{< link file="second_countable_space" display="$2^\textrm{nd}$" type="types" >}} countable spaces are countable objects (in flavour), giving way to techniques from {{< link file="real_analysis" display="analysis" type="references" >}}.
+* {{< link file="metric_space" display="Metrizable" type="types" >}} spaces, and more specifically {{< link file="polish_space" display="Polish" type="types" >}} spaces, inherit all the nice topological properties of metric spaces.
+* {{< link file="sequential_space" display="Sequential" type="types" >}} spaces allow topological properties (like convergence, continuity, and compactness etc) to be probed by sequences.
+* {{< link file="manifold" display="Manifolds" type="types" >}} allow many properties of $\R^n$ to be ‘lifted’ back to the topological space. We can thus ‘do calculus’ on {{< link file="smooth_manifold" display="smooth manifolds" type="types" >}}.
 
 ## Structures on Spaces
 

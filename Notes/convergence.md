@@ -23,11 +23,11 @@ A sequence $(x_n)_{n\in\N}$ in $X$ is said to *converge* to some $x\in X$ $-$ an
 
 {{< /env >}}
 
-One might hope to probe topological properties of $X$ (like compactness, continuity, Hausdorffness, etc) by analyzing the convergence of sequences in $X$, but this is not fruitful for general topological spaces (they are simply too complicated).
+One might hope to probe topological properties of $X$ (like compactness, continuity, closure, etc) by analyzing the convergence of sequences in $X$, but this is not fruitful for general topological spaces; in some sense, this is because sequences are ‘countable objects’, while topological spaces in general require uncountably-many bits to specify.
 
 <br>
 
-&emsp;&emsp;However, one can fix this problem by either restricting the class of topological spaces in question $-$ say to {{< link file="first_countable_space" display="first countable" type="references" >}}, {{< link file="sequential_space" display="sequential" type="references" >}}, or even {{< link file="frechet_space" display="Fréchet" type="references" >}} spaces $-$ or by generalizing the notion of convergence of sequences.
+&emsp;&emsp;One can fix this problem by either restricting the class of topological spaces in question, say to {{< link file="first_countable_space" display="first" type="references" >}}/{{< link file="second_countable_space" display="second" type="references" >}} countable spaces (thereby giving a ‘countable encoding’ of the topology by way of {{< link file="bases_for_topologies" display="bases" type="references" >}} or {{< link file="filter" display="filter bases" type="references" >}}), or by generalizing the notion of convergence of sequences to more ‘uncountable objects’.
 
 # Spaces Probable by Sequences
 

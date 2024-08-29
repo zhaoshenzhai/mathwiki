@@ -6,8 +6,15 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jul 2024 14:47:17 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 19:20:34 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manifold</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/manifold/</link>
+      <pubDate>Wed, 28 Aug 2024 19:20:34 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/manifold/</guid>
+      <description></description>
+    </item>
     <item>
       <title>The Sylow Theorems</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/sylow_theorems/</link>

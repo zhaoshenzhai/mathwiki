@@ -2,7 +2,7 @@
 title: Metric Space
 date: 2024-05-14T21:37:43-04:00
 references: []
-tags: []
+tags: [In_Progress]
 ---
 
 # Motivation & Definition
