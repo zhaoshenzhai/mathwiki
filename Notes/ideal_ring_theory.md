@@ -5,7 +5,9 @@ references: []
 tags: [In_Progress]
 ---
 
-To study the {{< link file="quotient_object" display="quotient objects" type="references" >}} in a {{< link file="category" display="category" type="reference" >}}, we must first understand the congruence relations in said category. For {{< link file="ring" display="$\catring$" type="references" section="The Category $\catring$" >}}, these are in correspondence with *ideals*.
+# Motivation & Definition
+
+Fix a {{< link file="ring" display="ring" type="references" >}} $R$.
 
 {{< env type="definition" >}}
 

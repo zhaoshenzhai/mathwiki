@@ -73,11 +73,11 @@ as desired.<span style="float:right;">$\blacksquare$</span>
 
 <div class="space"></div>
 
-**Remark.** <span style="color:red">link with representable functors etc</span>
+**Remark.** <span style="color:red">TODO (link with representable functors etc).</span>
 
 {{< env type="corollary" name="First Isomorphism Theorem" >}}
 
-For any group homomorphism $f:G\to H$, we have $G/\ker f\iso\im f$, mapping $g\ker f\mapsto f(g)$.
+For any group homomorphism $f:G\to H$, we have $G/\ker f\iso\im f$.
 
 {{< /env >}}
 
