@@ -133,6 +133,7 @@ function newPreviewFrame(link) {
         frameContent.classList.remove('left');
         frameContent.style.position = 'static';
         frameContent.style.opacity = '0.6';
+        frameContent.style.transition = 'none';
     });
 
     return frame;

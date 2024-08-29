@@ -25,7 +25,7 @@ blockquote {
     height: 100%;
     top: 0;
     bottom: 0;
-    text-align: justify;
+    text-align: left;
 }
 
 #content {
