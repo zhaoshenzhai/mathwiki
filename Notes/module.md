@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Throughout, fix a {{< link file="ring" display="ring" type="references" >}} $R$.
+Let $R$ be a (not-necessarily {{< link file="commutative_ring" display="commutative" type="references" >}}) {{< link file="ring" display="ring" type="references" >}}.
 
 {{< env type="definition" >}}
 

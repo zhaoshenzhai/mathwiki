@@ -22,7 +22,11 @@ A *group* is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a
 
 {{< /env >}}
 
-The set $G$ is the ‘abstract transformations’ as described above. However, many groups are ‘concrete’, in that they are the transformations of some concrete object $X$. For instance, if $X$ is a set, then $\Aut X$, consisting of all bijections $f:X\to X$, forms a group under composition; If $X$ is a {{< link file="metric_space" display="metric space" type="references" >}}, then the same holds for $\Aut X$, consisting of all isometries $f:X\to X$; similarly for vector spaces, {{< link file="topological_space" display="topological spaces" type="references" >}}, and so on. In all these cases, $e=\id$ and $\iota(f)=f^{-1}$. The above examples generalize by considering any object $X$ in a {{< link file="category" display="category" type="references" >}}. In fact, *every* group arises this way (as a concrete group) from the category $\cat{B}G$; see {{< link file="group" display="here" type="references" section="Groupoids" >}}.
+The set $G$ is the set of ‘abstract transformations’ as described above. However, many groups are ‘concrete’, in that they are the transformations of some concrete object $X$. For instance, if $X$ is a set, then $\Aut X$, consisting of all bijections $f:X\to X$, forms a group under composition; If $X$ is a {{< link file="metric_space" display="metric space" type="references" >}}, then the same holds for $\Aut X$, consisting of all isometries $f:X\to X$; similarly for vector spaces, {{< link file="topological_space" display="topological spaces" type="references" >}}, and so on. In all these cases, $e=\id$ and $\iota(f)=f^{-1}$. The above examples generalize by considering any object $X$ in a {{< link file="category" display="category" type="references" >}}.
+
+<br>
+
+&emsp;&emsp;In fact, *every* group arises this way{{< link file="group" type="references" section="Groupoids" mod="dag" >}} (as a concrete group) from the category $\cat{B}G$, but not all groups arise as automorphism groups of a set; see, however, {{< link file="cayleys_theorem" display="Cayley’s Theorem" type="properties" >}}, which states that every group is a *{{< link file="subgroup" display="subgroup" type="constructions" >}}* of an automorphism group of a set.
 
 <br>
 
