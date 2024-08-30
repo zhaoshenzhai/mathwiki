@@ -41,7 +41,7 @@ If $\mf{a}\nsubgrpeq R$ is an ideal, then $\pi:R\onto R/\mf{a}$ is initial among
 
 {{< /env >}}
 
-{{< env type="proof" hide="false" >}}
+{{< env type="proof" hide="true" >}}
 
 By the same universal property for groups{{< link file="quotient_group" type="proved_by" mod="dag" section="Categorical Aspects" >}}, we have a unique group homomorphism $f':R/\mf{a}\to S$ such that $f=f'\circ\pi$. This is a ring homomorphism since
 $$\begin{equation}

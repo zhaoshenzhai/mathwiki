@@ -37,7 +37,7 @@ Given the above construction, and noting that normal subgroups correspond{{< lin
 
 # Categorical Aspects
 
-These nice descriptions of congruences, kernels, and normal subgroups reflect the underlying structure of $\catgrp$, which we now explore. In particular, it makes $\catgrp$ a {{< link file="regular_category" display="regular category" type="references" >}}, and all the results in this section can be generalized to arbitrary regular categories. Nevertheless, we present them here for sake of completeness and to illustrate how to work with quotient groups.
+These nice descriptions of congruences, kernels, and normal subgroups reflect the underlying structure of $\catgrp$, which we now explore. In particular, it makes $\catgrp$ a {{< link file="regular_category" display="regular category" type="references" >}}, and all the results in this section can be generalized to arbitrary regular categories. <span style="color:red">**TODO** (can they?).</span> Nevertheless, we present them here for sake of completeness and to illustrate how to work with quotient groups.
 
 <div class="space"></div>
 
