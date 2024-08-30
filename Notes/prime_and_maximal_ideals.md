@@ -15,11 +15,11 @@ A non-trivial ideal $\mf{a}\nsubgrp R$ is said to be *prime* (resp. *maximal*) i
 
 {{< /env >}}
 
-**Remark.** Note that $\mf{p}$ is prime iff $rs\in\mf{p}$ implies either $r\in\mf{p}$ or $s\in\mf{p}$. Moreover, $\mf{m}$ is maximal iff it is $\subseteq$-maximal in the {{< link file="lattice.md" display="lattice" type="references" >}} of non-trivial ideals of $R$. The latter follows from the {{< link file="quotient_ring.md" display="Lattice Isomorphism Theorem" type="justifications" section="Universal Property" >}}: any ideal $\bar{\mf{a}}\nsubgrpeq R/\mf{m}$ corresponds to some (unique) ideal $\mf{a}\nsubgrpeq R$ containing $\mf{m}$, so a non-trivial ideal $\bar{\mf{a}}\nsubgrp R/\mf{m}$ vanishes iff $\mf{m}$ is $\subseteq$-maximal, and the former occurs{{< link file="field.md" type="justifications" mod="dag" >}} iff $R/\mf{m}$ is a field.
+**Remark.** Note that $\mf{p}$ is prime iff $rs\in\mf{p}$ implies either $r\in\mf{p}$ or $s\in\mf{p}$, which is reminiscent to prime numbers in {{< link file="integers" display="$\Z$" type="references" >}}. Moreover, $\mf{m}$ is maximal iff it is $\subseteq$-maximal in the {{< link file="lattice.md" display="lattice" type="references" >}} of non-trivial ideals of $R$. The latter follows from the {{< link file="quotient_ring.md" display="Lattice Isomorphism Theorem" type="justifications" section="Universal Property" >}}: any ideal $\bar{\mf{a}}\nsubgrpeq R/\mf{m}$ corresponds to some (unique) ideal $\mf{a}\nsubgrpeq R$ containing $\mf{m}$, so a non-trivial ideal $\bar{\mf{a}}\nsubgrp R/\mf{m}$ vanishes iff $\mf{m}$ is $\subseteq$-maximal, and the former occurs{{< link file="field.md" type="justifications" mod="dag" >}} iff $R/\mf{m}$ is a field.
 
 <div class="space"></div>
 
-**Remark.** Maximal ideals are clearly prime. Conversely, if $R$ is a {{< link file="principal_ideal_domain" display="PID" type="references" >}}, then non-zero prime ideals are also maximal. The importance of $R$ being a PID is that we can use divisibility arguments like those in {{< link file="integers" display="$\Z$" type="references" >}} to establish properties about ideals.
+**Remark.** Maximal ideals are clearly prime. Conversely, if $R$ is a {{< link file="principal_ideal_domain" display="PID" type="references" >}}, then non-zero prime ideals are also maximal. The importance of $R$ being a PID is that we can use divisibility arguments like those in $\Z$ to establish properties about ideals.
 
 <div class="space"></div>
 
