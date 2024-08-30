@@ -77,9 +77,9 @@ by distributivity; it is unique by the requirement that $f(1)=1_R$ and $f$ prese
 ## Types of Rings
 
 Beyond the generalities above, much more can be said about specific types of rings.
-* {{< link file="commutative_ring" display="Commutative rings" type="types" >}} are those whose multiplication is commutative, and they are studied in the field of {{< link file="commutative_algebra" display="commutative algebra" type="references" >}}.
+* Commutative rings are those whose multiplication is commutative, and they are studied in the field of {{< link file="commutative_algebra" display="commutative algebra" type="references" >}}. <span style="color:gray">[In these notes, basically every ring is commutative, but we will always specify so.]</span>
 * {{< link file="integral_domain" display="Integral domains" type="types" >}} are commutative rings with no non-zero zero-divisors. They abstract the properties of the {{< link file="integers" display="integers" type="examples" >}}, and they are stratified via their number-theoretic properties into {{< link file="unique_factorization_domain" display="UFDs" type="types" >}}, {{< link file="principal_ideal_domain" display="PIDs" type="types" >}}, and {{< link file="euclidean_domain" display="Euclidean domains" type="types" >}}.
-* {{< link file="division_ring" display="Division rings" type="types" >}} are those in which every non-zero element is invertible.
+* {{< link file="division_ring" display="Division rings" type="types" >}} are those in which every non-zero element is invertible. {{< link file="wedderburns_little_theorem" display="Wedderburn’s Little Theorem" type="properties" >}} states that all *finite* division rings are commutative, so they are finite fields.
 * The most special rings are {{< link file="field" display="fields" type="types" >}}, which are commutative division rings, whose {{< link file="galois_theory" display="Galois theory" type="references" >}} kicked-off abstract algebra and led to the definition of groups.
 
 ## Monoid Objects

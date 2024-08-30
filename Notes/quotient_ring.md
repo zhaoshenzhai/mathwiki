@@ -50,3 +50,24 @@ $$\begin{equation}
 Finally, we have an isomorphism $R/\ker f\iso\im f$ as groups, which is easily checked to be a ring isomorphism.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
+
+<div class="space"></div>
+
+The other ‘Isomorphism Theorems’ follow immediately from the corresponding theorems for groups{{< link file="quotient_group.md" type="proved_by" mod="dag" section="The Isomorphism Theorems" >}}; one simply replaces all instances of ‘normal subgroup’ with ‘ideal’, and verify that all morphisms involved are ring homomorphisms. Thus, we will only state them.
+
+{{< env type="theorem" name="Calculus of Ideals" >}}
+
+If $S\substructeq R$ and $\mf{a}\nsubgrpeq R$, then $\mf{a}\nsubgrpeq S+\mf{a}\substructeq R$, $S\cap\mf{a}\nsubgrpeq S$, and $(S+\mf{a})/\mf{a}\iso S/(S\cap\mf{a})$.
+
+{{< /env >}}
+
+{{< env type="theorem" name="Lattice Isomorphism Theorem" >}}
+
+Let $\mf{a}\nsubgrpeq R$ be an ideal. Then we have an isomorphism
+$$\begin{equation}
+    \phi:\l\\{\textrm{subrings of }R\textrm{ containing }\mf{a}\r\\}\to\l\\{\textrm{subrings of }R/\mf{a}\r\\}
+\end{equation}$$
+of (bounded) {{< link file="lattice" display="lattices" type="references" >}}, which maps $S\mapsto S/\mf{a}$. Moreover, we have $S\nsubgrpeq R$ iff $\phi(S)\nsubgrpeq\phi(R)$, in which case $\phi(R)/\phi(S)\iso R/S$.
+
+
+{{< /env >}}

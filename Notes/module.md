@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Let $R$ be a (not-necessarily {{< link file="commutative_ring" display="commutative" type="references" >}}) {{< link file="ring" display="ring" type="references" >}}.
+Let $R$ be a (not-necessarily commutative) {{< link file="ring" display="ring" type="references" >}}.
 
 {{< env type="definition" >}}
 
