@@ -24,3 +24,29 @@ Let $\mf{a}\nsubgrpeq R$ be an ideal. The *quotient ring* of $R$ by $\mf{a}$ is 
 If $\mf{a}\nsubgrpeq R$ is an ideal, then $\ast$ is well-defined since $\sim$ respects multiplication and $r\sim r'$ iff $r-r'\in\mf{a}$. Conversely, if $\pi:R\onto R/\mf{a}$ is a ring homomorphism, then its {{< link file="kernel_ring_theory" display="kernel" type="references" >}} is $\mf{a}$, so it is an ideal.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
+
+# {{< link file="category" display="Categorical" type="references" >}} Aspects
+
+## {{< link file="universal_constructions" display="Universal Property" type="references" >}}
+
+Quotient rings satisfy the following universal property.
+
+{{< env type="proposition" >}}
+
+If $\mf{a}\nsubgrpeq R$ is an ideal, then $\pi:R\onto R/\mf{a}$ is initial amongst all homomorphisms $f:R\to S$ such that $\mf{a}\subseteq\ker f$.
+
+<br>
+
+&emsp;&emsp;Thus, for any ring homomorphism $f:R\to S$, we have a ring isomorphism $R/\ker f\iso\im f$.
+
+{{< /env >}}
+
+{{< env type="proof" hide="false" >}}
+
+By the same universal property for groups{{< link file="quotient_group" type="proved_by" mod="dag" section="Categorical Aspects" >}}, we have a unique group homomorphism $f':R/\mf{a}\to S$ such that $f=f'\circ\pi$. This is a ring homomorphism since
+$$\begin{equation}
+    f'((r+\mf{a})\ast(s+\mf{a}))=f'(rs+\mf{a})=f(rs)=f(r)f(s)=f'(r+\mf{a})f'(s+\mf{a}).
+\end{equation}$$
+Finally, we have an isomorphism $R/\ker f\iso\im f$ as groups, which is easily checked to be a ring isomorphism.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}
