@@ -78,14 +78,10 @@ If $H$ is not a {{< link file="sylow_theorems" display="$p$-Sylow subgroup" type
 
 {{< env type="proof" hide="false" >}}
 
-Since $H$ is not a $p$-Sylow subgroup, we see that $p$ divides $[G:H]$, and hence $p$ divides $[N_G(H):H]$ too. By {{< link file="cauchys_theorem" display="Cauchy’s Theorem" type="proved_by" >}}, there is an element $x\in N_G(H)/H$ of order $p$, which generates a cyclic subgroup $K_0\coloneqq\gen{x}$. Set $K\coloneqq\pi^{-1}(K_0)\substructeq G$.
-
-<br>
-
-&emsp;&emsp;By the {{< link file="subgroup" display="Lattice Isomorphism Theorem" type="proved_by" section="Lattice Isomorphism Theorem" >}}, we have $H\nsubgrpeq K$ and
+Since $H$ is not a $p$-Sylow subgroup, we see that $p$ divides $[G:H]$, and hence $p$ divides $[N_G(H):H]$ too. By {{< link file="cauchys_theorem" display="Cauchy’s Theorem" type="proved_by" >}}, there is an element in $N_G(H)/H$ of order $p$, which generates a cyclic subgroup $K_0$ with $|K_0|=p$. Set $K\coloneqq\pi^{-1}(K_0)\substructeq G$, which contains $H$ since $\pi(H)$ is the identity in $K_0$. Clearly $\pi(H)\nsubgrpeq\pi(K)$, so by the {{< link file="subgroup" display="Lattice Isomorphism Theorem" type="proved_by" section="Lattice Isomorphism Theorem" >}}, we have $H\nsubgrpeq K$ and
 $$\begin{equation}
-    K/H\iso\pi(K)/\pi(H)\iso K_0,
+    K/H\iso\pi(K)/\pi(H)\iso K_0.
 \end{equation}$$
-and so $[K:H]=|K_0|=p$ as desired.<span style="float:right;">$\blacksquare$</span>
+Thus $[K:H]=|K_0|=p$, as desired.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
