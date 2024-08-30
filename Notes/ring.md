@@ -52,9 +52,9 @@ A function $f:R\to S$ between rings is a *homomorphism* if it is a homomorphism 
 
 {{< /env >}}
 
-## The Category of Rings
+## The {{< link file="category" display="Category" type="references" >}} of Rings
 
-With ring homomorphisms as morphisms, rings form a category $\catring$. This category is{{< link file="catring_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}} and cocomplete, witnessed by the standard constructions of products, coproducts, kernels, cokernels, subobjects, and quotients. We also have a {{< link file="functor" display="functor" type="references" >}} $\catring\to\catgrp$ taking a ring $R$ to its {{< link file="group_of_units" display="group of units" type="constructions" >}}, which is left-{{< link file="adjunction" display="adjoint" type="references" >}} to the {{< link file="group_ring" display="group ring" type="sufficiencies" >}} construction.
+With ring homomorphisms as morphisms, rings form a category $\catring$. This category is{{< link file="catring_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}} and cocomplete, witnessed by the standard constructions of products, coproducts, kernels, cokernels, {{< link file="subring" display="subobjects" type="constructions" >}}, and {{< link file="quotient_ring" display="quotients" type="constructions" >}}. We also have a {{< link file="functor" display="functor" type="references" >}} $\catring\to\catgrp$ taking a ring $R$ to its {{< link file="group_of_units" display="group of units" type="constructions" >}}, which is left-{{< link file="adjunction" display="adjoint" type="references" >}} to the {{< link file="group_ring" display="group ring" type="sufficiencies" >}} construction.
 
 <br>
 
@@ -71,8 +71,6 @@ by distributivity; it is unique by the requirement that $f(1)=1_R$ and $f$ prese
 {{< /env >}}
 
 # Modules and Algebras
-
-Viewing a ring $R$ as an preadditive-category with a one object, the {{< link file="congruence_relation" display="congruences" type="references" >}} in $R$ corresponds, as in the case for groups{{< link file="normal_subgroup" type="references" mod="dag" >}}, naturally to certain subrings of $R$. <span style="color:red">TODO (verify this).</span> They are called *{{< link file="ideal_ring_theory" display="ideals" type="constructions" >}}*, which are subrings $\mf{a}\substructeq R$ such that $r\mf{a}\subseteq\mf{a}$ for all $r\in R$.
 
 # Examples and Generalizations
 

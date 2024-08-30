@@ -5,9 +5,9 @@ references: [DF03]
 tags: [Group_Theory, Ring_Theory]
 ---
 
-The set of *integers* $-$ denoted $\Z$ $-$ appear everywhere in algebra:
-* In {{< link file="group" display="group" type="references" >}} theory, it is the {{< link file="free_group" display="free group" type="references" >}} on one generator, and is used to construct all {{< link file="cyclic_group" display="cyclic" type="constructions" >}} groups, and more generally, all {{< link file="finitely_generated_group" display="finitely-generated" type="references" >}} {{< link file="abelian_group" display="abelian" type="references" >}} groups.
-* In {{< link file="ring" display="ring" type="references" >}} theory, it is the initial object in {{< link file="ring" display="$\catring$" type="references" section="The Category $\catring$" >}}, and is the most important example of a {{< link file="principal_ideal_domain" display="PID" type="references" >}}. In fact, abelian groups are just {{< link file="module" display="$\Z$-modules" type="constructions" >}}.
+The set of *integers*, denoted $\Z$, appear everywhere in algebra:
+* In {{< link file="group" display="group" type="references" >}} theory, it is the {{< link file="free_group" display="free group" type="references" >}} on one generator, and is used to construct all {{< link file="cyclic_group" display="cyclic" type="constructions" >}} groups, and more generally, all {{< link file="finitely_generated_group" display="finitely-generated" type="references" >}} {{< link file="abelian_group" display="abelian" type="references" >}} groups. The latter claim follows from the {{< link file="structure_theorem_of_fg_modules_over_PID" display="Structure Theorem" type="justifications" >}}.
+* In {{< link file="ring" display="ring" type="references" >}} theory, it is the initial object in {{< link file="ring" display="$\catring$" type="references" section="The Category $\catring$" >}}, and is the most important example of a {{< link file="principal_ideal_domain" display="PID" type="references" >}}. In fact, abelian groups are just {{< link file="module" display="$\Z$-modules" type="constructions" >}}, and rings are just $\Z$-algebras.
 
 The fundamental property of $\Z$, and that underlies all of its group and ring-theoretic properties, is the *Division Algorithm*.
 
@@ -23,7 +23,7 @@ We may assume $b>0$; otherwise, applying it to $-b$ furnishes unique $q',r'\in\Z
 $$\begin{equation}
     0\leq a+a^2b=a-(-a^2)b\in S.
 \end{equation}$$
-By well-ordering of $\N$, we have a minimal element $r\in S$, giving us some $q\in\Z$ with $a-qb=r$. If $r\geq b$, then $0\leq r-b=a-(1+q)b\in S$ with $r-b<r$, a contradiction.
+Since $\N$ is {{< link file="well-ordered_set" display="well-ordered" type="references" >}}, we have a minimal element $r\in S$, so $q\in\Z$ with $a-qb=r$. If $r\geq b$, then $0\leq r-b=a-(1+q)b\in S$ with $r-b<r$, a contradiction.
 
 <br>
 
@@ -39,12 +39,12 @@ $\Z$ is a {{< link file="euclidean_domain" display="Euclidean domain" type="refe
 
 {{< env type="corollary" >}}
 
-{{< link file="subgroup" display="Subgroups" type="references" >}} of $\Z$ are precisely $n\Z$ for $n\geq0$.
+{{< link file="subgroup" display="Subgroups" type="references" >}} and {{< link file="ideal_ring_theory" display="ideals" type="references" >}} of $\Z$ are precisely $n\Z$ for $n\in\N$.
 
 {{< /env >}}
 
 {{< env type="proof" hide="false" >}}
 
-Let $G\substruct\Z$. If non-trivial, it contains a minimal positive element $n\in G$, and we claim that $G=n\Z$. Clearly, ‘$\supseteq$’ holds. If $m\in G$, then $m=qn+r$ for $q,r\in\Z$ with $0\leq r<n$. Then $r=m-qn\in G$, which by minimality of $n$ forces $r=0$.<span style="float:right;">$\blacksquare$</span>
+Let $G\substructeq\Z$. If non-trivial, it contains a minimal positive element $n\in G$; we claim that $G=n\Z$. Since $G$ is closed, ‘$\supseteq$’ holds. If $m\in G$, then $m=qn+r$ for $q,r\in\Z$ with $0\leq r<n$. Then $r=m-qn\in G$, which by minimality of $n$ forces $r=0$.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}

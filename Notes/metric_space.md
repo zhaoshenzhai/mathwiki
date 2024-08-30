@@ -79,7 +79,7 @@ A topological space $\tpl{X,\mc{T}}$ is said to be *{{< link file="metrizable_sp
 
 ## Uniform Structure
 
-<span style="color:red">TODO.</span>
+<span style="color:red">**TODO**.</span>
 
 <div class="space"></div>
 

@@ -1,5 +1,5 @@
 ---
-title: Ideal
+title: Ideal (Ring Theory)
 date: 2024-06-06T19:14:55-04:00
 references: []
 tags: [In_Progress]
@@ -15,7 +15,7 @@ Fix a {{< link file="ring" display="ring" type="references" >}} $R$. Its underly
 
 <div class="space"></div>
 
-**Remark.** Just like how $G$ can be viewed as a {{< link file="groupoid" display="groupoid" type="references" >}} with a single object, $R$ can be viewed as a {{< link file="preadditive_category" display="preadditive category" type="references" >}} with a single object. Then, the ‘special congruences’ discussed above are the actual congruences in this category.
+**Remark.** Just like how $G$ can be viewed as a {{< link file="groupoid" display="groupoid" type="references" >}} with a single object, $R$ can be viewed as a {{< link file="preadditive_category" display="preadditive category" type="references" >}} with a single object. Then, the ‘special congruences’ discussed above are the actual congruences in this category. <span style="color:red">**TODO** (verify this).</span>
 
 {{< env type="definition" >}}
 
@@ -23,6 +23,33 @@ Let $R$ be a ring. A *left ideal* in $R$ is a subgroup $(\mf{a},+)\substructeq R
 
 <br>
 
-&emsp;&emsp;Similarly for *right* ideals and *(two-sided)* ideals.
+&emsp;&emsp;Similarly for *right* ideals and *(two-sided) ideals*. If $\mf{a}\substructeq R$ is an ideal, we write $\mf{a}\nsubgrpeq R$.
 
 {{< /env >}}
+
+Essentially the same proof that normal subgroups correspond to congruences for groups works here:
+
+>{{< env type="proof" hide="true" >}}
+
+Given a congruence $\sim$, the subset $\mf{a}\coloneqq\l\\{r\in R\st n\sim0\r\\}$ is a subgroup of $R$. For all $r\in R$, we have $rn\sim r0=0$, so $r\mf{a}\subseteq\mf{a}$. Similarly, we have $\mf{a}r\subseteq\mf{a}$, so $\mf{a}$ is a two-sided ideal.
+
+<br>
+
+&emsp;&emsp;Conversely, given a two-sided ideal $\mf{a}\nsubgrpeq R$, the relation $\sim$ on $R$ defined by $r_1\sim r_2$ iff $r_1-r_2\in\mf{a}$ is an equivalence relation respecting addition. It respects multiplication too, since if $r_1\sim r_2$ and $s_1\sim s_2$, then $r_1-r_2\in\mf{a}$ and $s_1-s_2\in\mf{a}$, and hence
+$$\begin{equation}
+    r_1s_1-r_2s_2=r_1s_1-r_1s_2+r_1s_2-r_2s_2=r_1(s_1-s_2)+(r_1-r_2)s_2\in\mf{a}.\qedin
+\end{equation}$$
+
+{{< /env >}}
+
+## Arithmetic of Ideals
+
+<div class="space"></div>
+
+## {{< link file="quotient_ring" display="Quotient Ring" type="constructions" >}}
+
+Let $R$ be a ring. Ideals $\mf{a}\nsubgrpeq R$ are exactly the objects one can quotient $R$ with so that $\pi:R\onto R/\mf{a}$ is a ring homomorphism. In this case, it is clear that $\ker\pi=\mf{a}$, and conversely the kernel of any ring homomorphism $f:R\to S$ is an ideal. 
+
+<br>
+
+&emsp;&emsp;This is a very useful observation. For instance, since{{< link file="ring" type="justifications" section="The Category of Rings" mod="dag" >}} $\Z$ is initial in $\catring$, one obtains for each ring $R$ a unique map $f:\Z\to R$. Then{{< link file="integers" type="justifications" mod="dag" >}} $\ker f\nsubgrpeq\Z$ is an ideal, so $\ker f=n\Z$ for some unique $n\in\N$. We can then define the *characteristic* of $R$ to be $\ch R\coloneqq n$.

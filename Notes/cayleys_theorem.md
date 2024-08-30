@@ -41,7 +41,7 @@ Every finitely-generated group is a subgroup of the symmetries of a connected lo
 
 {{< env type="proof" >}}
 
-<span style="color:red">TODO.</span>
+<span style="color:red">**TODO**.</span>
 
 {{< /env >}}
 
@@ -57,7 +57,7 @@ Every ring $R$ is a {{< link file="subring" display="subring" type="references" 
 
 {{< env type="proof" hide="false" >}}
 
-<span style="color:red">TODO (symbol juggling).</span>
+<span style="color:red">**TODO** (symbol juggling).</span>
 
 {{< /env >}}
 

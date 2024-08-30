@@ -7,11 +7,14 @@ tags: [Group_Theory]
 
 # Motivation & Definition
 
-A special property of the {{< link file="category" display="category" type="references" >}} of {{< link file="group" display="groups" type="references" >}} is the existence of a {{< link file="initial_object" display="zero" type="references" >}} object; namely, the trivial group $\l\\{0\r\\}$; by definition, we have a morphism $0:G\to\l\\{0\r\\}\to H$ for each pair $G,H$ of groups. Now, for an arbitrary homomorphism $f:G\to H$, we would like to find some group $K$ that ‘forces’ $f$ to ‘equalize’ with $0$ in a {{< link file="universal_constructions" display="universal" type="references" >}} way. This can be done in two (dual) ways, called the *kernel* and *cokernel* of $f$.
+A special property of the {{< link file="category" display="category" type="references" >}} of {{< link file="group" display="groups" type="references" >}} is the existence of a {{< link file="initial_object" display="zero" type="references" >}} object; namely, the trivial group $\l\\{0\r\\}$. Thus, by definition, we have a unique *zero* morphism $0:G\to\l\\{0\r\\}\to H$ for each pair $G,H$ of groups.
+<br>
+
+&emsp;&emsp;For an arbitrary homomorphism $f:G\to H$, we would like to find some group $K$ that ‘forces’ $f$ to ‘equalize’ with $0$ in a {{< link file="universal_constructions" display="universal" type="references" >}} way. This can be done in two (dual) ways, called the *kernel* and *cokernel* of $f$.
 
 <div class="space"></div>
 
-**Remark.** <span style="color:red">Kernels as equalizers.</span>
+**Remark.** <span style="color:red">**TODO** (kernels as equalizers).</span>
 
 <div class="space"></div>
 
@@ -21,10 +24,7 @@ The first way is to consider homomorphisms $\alpha:K\to G$ *from* some group $K$
 
 {{< env type="definition" >}}
 
-The *kernel* of a homomorphism $f:G\to H$ is the {{< link file="subgroup" display="subgroup" type="references" >}}
-$$\begin{equation}
-    \ker f\coloneqq\l\\{g\in G\st f(g)=e_H\r\\}\substructeq G.
-\end{equation}$$
+The *kernel* of a homomorphism $f:G\to H$ is the {{< link file="subgroup" display="subgroup" type="references" >}} $\ker f\coloneqq f^{-1}(e_H)$ of $G$G
 
 {{< /env >}}
 
@@ -42,4 +42,4 @@ Dually, we consider maps $\beta:H\to K$ *to* some group $K$. The *cokernel* of $
 
 <br>
 
-&emsp;&emsp;However, $\l\langle\im f\r\rangle_N$ is not easy to describe at all, so the notion of a cokernel is not that useful in $\catgrp$. However, since $\l\langle\im f\r\rangle_N=\im f$ when $f:G\to H$ is a morphism in $\catabgrp$, we obtain a much more well-behaved cokernel in $\catabgrp$.
+&emsp;&emsp;However, $\l\langle\im f\r\rangle_N$ is not so easy to describe, so the notion of a cokernel is not that useful in $\catgrp$. However, since $\l\langle\im f\r\rangle_N=\im f$ when $f:G\to H$ is a morphism in $\catabgrp$, we obtain a much more well-behaved cokernel in $\catabgrp$.

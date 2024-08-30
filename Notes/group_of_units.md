@@ -37,4 +37,4 @@ Every ring homomorphism $f:R\to S$ induces a group homomorphism $f^\times:R^\tim
 
 <br>
 
-&emsp;&emsp;<span style="color:red">TODO (mention adjoint and group ring).</span>
+&emsp;&emsp;<span style="color:red">**TODO** (mention adjoint and group ring).</span>

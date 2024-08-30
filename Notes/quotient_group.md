@@ -73,7 +73,7 @@ as desired.<span style="float:right;">$\blacksquare$</span>
 
 <div class="space"></div>
 
-**Remark.** <span style="color:red">TODO (link with representable functors etc).</span>
+**Remark.** <span style="color:red">**TODO** (link with representable functors etc).</span>
 
 {{< env type="corollary" name="First Isomorphism Theorem" >}}
 
