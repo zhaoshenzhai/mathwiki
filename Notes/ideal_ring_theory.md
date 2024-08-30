@@ -42,7 +42,7 @@ $$\begin{equation}
 
 {{< /env >}}
 
-Ideals $\mf{a}\nsubgrpeq R$ turn out to be exactly the objects one can {{< link file="quotient_ring.md" display="quotient" type="references" >}} $R$ with so that $\pi:R\onto R/\mf{a}$ is a ring homomorphism. In this case, we have $\ker\pi=\mf{a}$, and conversely, the kernel of any ring homomorphism $f:R\to S$ is an ideal. This gives us a three-fold equivalence between congruences of $R$, ideals of $R$, and quotients of $R$.
+Ideals $\mf{a}\nsubgrpeq R$ turn out to be exactly the objects one can {{< link file="quotient_ring.md" display="quotient" type="references" >}} $R$ with so that $\pi:R\onto R/\mf{a}$ is a ring homomorphism. In this case, we have $\ker\pi=\mf{a}$, and conversely, the kernel of any ring homomorphism $f:R\to S$ is an ideal. This gives us a three-fold equivalence between congruences of $R$, ideals in $R$, and quotients of $R$.
 
 <div class="space"></div>
 
