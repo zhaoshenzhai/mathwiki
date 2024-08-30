@@ -6,8 +6,29 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2024 21:46:15 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 19:37:36 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kernel (Ring Theory)</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/kernel_ring_theory/</link>
+      <pubDate>Thu, 29 Aug 2024 19:37:36 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/kernel_ring_theory/</guid>
+      <description>Motivation &amp;amp; Definition Definition. The kernel of a ring homomorphism $f:R\to S$ is the ideal $\ker f\coloneqq f^{-1}(0_S)$ of $R$. TODO (somehow this relates to regular categories and kernel pairs).</description>
+    </item>
+    <item>
+      <title>Quotient Ring</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/quotient_ring/</link>
+      <pubDate>Thu, 29 Aug 2024 17:01:19 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/quotient_ring/</guid>
+      <description>Motivation &amp;amp; Definition Fix an equivalence relation on a ring $R$ and consider the quotient set $R/\!\sim$, which we want to equip with a ring structure.&#xA;Firstly, since $R$ has an underlying (abelian) group $G\coloneqq(R,+)$, we need $\sim$ to be a congruence of $G$ for $R/\!\sim$ to be a group. This induces$^\dagger$ a (normal) subgroup $\mf{a}\nsubgrpeq G$, for which $R/\mf{a}$ is its quotient group. We need to make $R/\!\sim$ into a ring so that $\pi:R\onto R/\!</description>
+    </item>
+    <item>
+      <title>Group of Units</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/group_of_units/</link>
+      <pubDate>Thu, 29 Aug 2024 10:32:29 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/group_of_units/</guid>
+      <description>Motivation &amp;amp; Definition Elements in a ring may not be invertible; that is, there may exist $r\in R$ such that $rs\neq1$ or $sr\neq1$ for all $s\in R$ (see here for details). Thus, it is useful to group together the elements that are invertible, which in fact forms a group under multiplication.&#xA;Definition. The group of units of a ring $R$ is the set $R^\times\coloneqq\l\{u\in R\st(\ex r\in R)ur=1=ru\r\}$ equipped with multiplication. Proof ($R^\times$ is a group).</description>
+    </item>
     <item>
       <title>Second Countable Space</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/second_countable_space/</link>
@@ -72,11 +93,11 @@
       <description>Motivation &amp;amp; Definition Oftentimes, we wish to regard two objects as ‘being the same’ (for instance, two sets are ‘the same’ if they have the same cardinality), despite them not being equal. The concept of an equivalence relation can be thought of as a generalization of equality.&#xA;Definition. Let $X$ be a set. An equivalence relation on $X$ is a (binary) relation $E\subseteq X^2$ subject to the following conditions.&#xA;(Reflexive). For all $x\in X$, we have $(x,x)\in E$.</description>
     </item>
     <item>
-      <title>Ideal</title>
+      <title>Ideal (Ring Theory)</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/ideal_ring_theory/</link>
       <pubDate>Thu, 06 Jun 2024 19:14:55 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/ideal_ring_theory/</guid>
-      <description>To study the quotient objects in a category, we must first understand the congruence relations in said category. For $\catring$, these are in correspondence with ideals.&#xA;Definition. Let $R$ be a ring. A (left) ideal in $R$ is a subgroup $(\mf{a},+)\substructeq R$ such that $r\mf{a}\subseteq\mf{a}$ for all $r\in R$.&#xA;Similarly for right ideals and two-sided ideals.</description>
+      <description>Motivation &amp;amp; Definition Fix a ring $R$. Its underlying abelian group $G$ admits a notion of congruences, which are equivalence relations $\sim$ on $G$ that respect the group structure, and those correspond exactly to$^\dagger$ normal subgroups of $G$. Since $G$ is abelian, they correspond to all subgroups.&#xA;However, the presence of the multiplication operation motivates us to consider congruences on $G$ that also respect multiplication, in that $r_1\sim r_2$ and $s_1\sim s_2$ implies $r_1s_1\sim r_2s_2$.</description>
     </item>
     <item>
       <title>Module</title>

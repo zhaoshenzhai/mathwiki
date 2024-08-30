@@ -24,7 +24,7 @@ The first way is to consider homomorphisms $\alpha:K\to G$ *from* some group $K$
 
 {{< env type="definition" >}}
 
-The *kernel* of a homomorphism $f:G\to H$ is the {{< link file="subgroup" display="subgroup" type="references" >}} $\ker f\coloneqq f^{-1}(e_H)$ of $G$G
+The *kernel* of a homomorphism $f:G\to H$ is the {{< link file="subgroup" display="subgroup" type="references" >}} $\ker f\coloneqq f^{-1}(e_H)$ of $G$.
 
 {{< /env >}}
 
@@ -32,9 +32,9 @@ Clearly, $\iota:\ker f\to G$ composes with $f$ to the trivial map. It is moreove
 
 <br>
 
-&emsp;&emsp;Kernels of homomorphisms are very special subgroups, in that they correspond precisely to the {{< link file="normal_subgroup" display="normal" type="references" >}} ones.
+&emsp;&emsp;Kernels of homomorphisms are very special subgroups, in that they correspond precisely to the {{< link file="normal_subgroup" display="normal" type="equivalences" >}} ones.
 
->Indeed, if $f:G\to H$ is a homomorphism, then $g(\ker f)g^{-1}=\ker f$ for each $g\in G$ and so $\ker f\nsubgrpeq G$ is normal. Conversely, every normal subgroup $N\nsubgrpeq G$ is the kernel of the {{< link file="quotient_group" display="canonical projection" type="references" >}} $\pi:G\onto G/N$.
+<div class="space"></div>
 
 ## Cokernel
 

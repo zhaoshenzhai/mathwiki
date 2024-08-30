@@ -7,7 +7,7 @@ tags: [Group_Theory]
 
 # Motivation & Definition
 
-Fix a {{< link file="group" display="group" type="references" >}} $G$ and consider the {{< link file="category" display="category" type="references" >}} $\cat{B}G$ defined{{< link file="group" type="references" mod="dag" section="Groupoids" >}} by $G$. What are the {{< link file="congruence_relation" display="congruences" type="references" >}} in $\cat{B}G$? In this {{< link file="category" display="category" type="references" >}}, a congruence is an {{< link file="equivalence_relation" display="equivalence relation" type="references" >}} $\sim$ on $G$ that respects the group operation, that is, $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$.
+Fix a {{< link file="group" display="group" type="references" >}} $G$ and consider the {{< link file="category" display="category" type="references" >}} $\cat{B}G$ defined{{< link file="group" type="references" mod="dag" section="Groupoids" >}} by $G$. What are the {{< link file="congruence_relation" display="congruences" type="equivalences" >}} in $\cat{B}G$? In this {{< link file="category" display="category" type="references" >}}, a congruence is an {{< link file="equivalence_relation" display="equivalence relation" type="references" >}} $\sim$ on $G$ that respects the group operation, that is, $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$.
 
 <br>
 
@@ -45,18 +45,18 @@ $$\begin{equation}
 
 {{< /env >}}
 
+This equivalence allows us to take *{{< link file="quotient_group" display="quotients" type="constructions" >}}* $G/N$ of $G$ by normal subgroups $N\nsubgrpeq G$, and in particular makes $\pi:G\onto G/N$ a group homomorphism. Such a construction allows for another equivalence; namely, that normal subgroups correspond to {{< link file="kernel_group_theory" display="kernels" type="references" >}}:
+
+<div class="space"></div>
+
+{{< env type="proof" hide="false" >}}
+
+If $N\nsubgrpeq G$ is a normal subgroup, then it is the kernel of $\pi:G\onto G/N$. Conversely, for any homomorphism $f:G\to H$, its kernel $\ker f$ is normal since if $f(h)=0$ and $g\in G$, then $f(ghg^{-1})=f(g)f(h)f(g)^{-1}=0$ too.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}
+
 <div class="space"></div>
 
 ## Normal Closure
 
 Each equivalence relation $\sim$ induces a congruence (obtained by intersecting every congruence containing $\sim$). In particular, for a subgroup $H\substructeq G$, the congruence relation induced by the equivalence relation $g_1\sim g_2$ iff $g_1H=g_2H$ corresponds by the above to a normal subgroup $\gen{H}_N\nsubgrpeq G$, called the *normal closure* of $H$. Equivalently, $\gen{H}_N$ is the smallest normal subgroup of $G$ containing $H$, obtained by either closing under conjugation or by taking the intersection of all normal subgroups containing $H$.
-
-# {{< link file="quotient_group" display="Quotient Group" type="constructions" >}}
-
-With this description of congruences on $G$, we obtain a more elementary description of the {{< link file="quotient_category" display="quotient category" type="references" >}} $\cat{B}G/\\!\sim$. Indeed, letting $N\nsubgrpeq G$ denote the normal subgroup corresponding to $\sim$, the morphisms of $\cat{B}G/\\!\sim$ is exactly the quotient group $G/N$.
-
-<div class="space"></div>
-
-## Normal $\Leftrightarrow$ {{< link file="kernel_group_theory" display="Kernel" type="equivalences" >}}
-
-It is clear that the kernel of any homomorphism $f:G\to H$ is a normal subgroup of $G$. Conversely, any normal subgroup $N\nsubgrpeq G$ is the kernel of the canonical projection $\pi:G\onto G/N$.

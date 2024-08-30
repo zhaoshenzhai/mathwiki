@@ -13,7 +13,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/integers/</link>
       <pubDate>Mon, 03 Jun 2024 15:19:04 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/integers/</guid>
-      <description>The set of integers $-$ denoted $\Z$ $-$ appear everywhere in algebra:&#xA;In group theory, it is the free group on one generator, and is used to construct all cyclic groups, and more generally, all finitely-generated abelian groups. In ring theory, it is the initial object in $\catring$, and is the most important example of a PID. In fact, abelian groups are just $\Z$-modules. The fundamental property of $\Z$, and that underlies all of its group and ring-theoretic properties, is the Division Algorithm.</description>
+      <description>The set of integers, denoted $\Z$, appear everywhere in algebra:&#xA;In group theory, it is the free group on one generator, and is used to construct all cyclic groups, and more generally, all finitely-generated abelian groups. The latter claim follows from the Structure Theorem. In ring theory, it is the initial object in $\catring$, and is the most important example of a PID. In fact, abelian groups are just $\Z$-modules, and rings are just $\Z$-algebras.</description>
     </item>
   </channel>
 </rss>

@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', (e) => {
 export function initProofHeaders() {
     for (var i = 0; i < proofHeaders.length; i++) {
         var proof = proofHeaders[i];
-        console.log(proof);
         var container = proof.parentElement;
         if (container.classList.contains('hide')) {
             container.style.maxHeight = getTextHeight() + 'px';

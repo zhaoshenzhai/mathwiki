@@ -2,7 +2,7 @@ import { contentEl, metaDataEl,
          getCurSideEl, setCurSideEl,
          getSideExpanded, resetSideEl } from '../single.js';
 import { getCtrlKeyDown } from '../input.js';
-import { formatSpace } from '../stringUtils.js';
+import { formatSpace, removeExt } from '../stringUtils.js';
 
 var previewContainer = document.getElementById('previewContainer');
 var frameContent;
@@ -21,7 +21,7 @@ window.updateCurrentSide = updateCurrentSide;
 window.resetSide = resetSide;
 
 function previewSide(link, page) {
-    link = formatSpace(link);
+    link = removeExt(formatSpace(link));
 
     if (page == 'nopPage' || !getSideExpanded()) { return; }
     if (getCurSideEl().src != link && (!getPreview() || cleared)) {
@@ -63,7 +63,7 @@ export function clearPreviewSide(page) {
 }
 
 function updateCurrentSide(e, link, page) {
-    link = formatSpace(link);
+    link = removeExt(formatSpace(link));
     e.preventDefault();
     if (page == 'nopPage') { return; }
 
@@ -110,7 +110,7 @@ export function resetSide() {
 }
 
 function newPreviewFrame(link) {
-    link = formatSpace(link);
+    link = removeExt(formatSpace(link));
 
     var frame = document.createElement('iframe');
     frame.style.opacity = '0';

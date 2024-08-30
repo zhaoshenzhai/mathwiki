@@ -33,8 +33,6 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
     if (localStorage['sideExpanded'] == 'false') {
         toggleSide(true, 'hideSide');
-    } else {
-        toggleSide(true, 'showSide');
     }
 });
 

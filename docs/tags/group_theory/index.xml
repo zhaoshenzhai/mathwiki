@@ -76,21 +76,21 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/quotient_group/</link>
       <pubDate>Tue, 11 Jun 2024 18:49:07 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/quotient_group/</guid>
-      <description>Motivation &amp;amp; Definition Fix an equivalence relation on a group $G$ and consider the quotient set $G/\!\sim$. Since $\sim$ has, a priori, nothing to do with the group structure of $G$, we cannot expect $G/\!\sim$ to carry a natural group structure.&#xA;Instead, we need to consider a congruence $\sim$ on $G$, which (in the category $\catgrp$) is an equivalence relation $\sim$ such that $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$.</description>
+      <description>Motivation &amp;amp; Definition Fix an equivalence relation on a group $G$ and consider the quotient set $G/\!\sim$. Since $\sim$ has, a priori, nothing to do with the group structure of $G$, we cannot expect $G/\!\sim$ to carry a group structure.&#xA;However, it is natural to impose the projection map $\pi:G\onto G/\!\sim$ to be a group homomorphism, so we are forced to have $[g]\ast[h]=\pi(g)\ast\pi(h)=\pi(gh)=[gh]$ for all $g,h\in G$. If $\ast$ is well-defined, then $G/\!</description>
     </item>
     <item>
       <title>Normal Subgroup</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/</link>
       <pubDate>Mon, 10 Jun 2024 17:20:55 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/normal_subgroup/</guid>
-      <description>Motivation &amp;amp; Definition Fix a group $G$ and consider the category $\cat{B}G$ defined by $G$ (consisting of a single object $\ast$, and morphisms $\Hom(\ast,\ast)=G$). What are the congruences in $\cat{B}G$?&#xA;Definition. A subgroup $N\substructeq G$ is said to be normal if it is invariant under the conjugation action of $G$; i.e., if $gN=Ng$ for all $g\in G$.&#xA;In this case, we write $N\nsubgrpeq G$, and $N\nsubgrp G$ if it is proper.</description>
+      <description>Motivation &amp;amp; Definition Fix a group $G$ and consider the category $\cat{B}G$ defined$^\dagger$ by $G$. What are the congruences in $\cat{B}G$? In this category, a congruence is an equivalence relation $\sim$ on $G$ that respects the group operation, that is, $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$.&#xA;It turns out that these congruences correspond directly to special subgroups of $G$, namely, the normal ones:&#xA;Definition. A subgroup $N\substructeq G$ is said to be normal if it is invariant under conjugation by $G$; i.</description>
     </item>
     <item>
       <title>Kernel (Group Theory)</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/kernel_group_theory/</link>
       <pubDate>Thu, 06 Jun 2024 21:08:25 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/kernel_group_theory/</guid>
-      <description>Motivation &amp;amp; Definition A special property of the category of groups is the existence of a zero object; namely, the trivial group $\l\{0\r\}$; by definition, we have a morphism $0:G\to\l\{0\r\}\to H$ for each pair $G,H$ of groups. Now, for an arbitrary homomorphism $f:G\to H$, we would like to find some group $K$ that ‘forces’ $f$ to ‘equalize’ with $0$ in a universal way. This can be done in two (dual) ways, called the kernel and cokernel of $f$.</description>
+      <description>Motivation &amp;amp; Definition A special property of the category of groups is the existence of a zero object; namely, the trivial group $\l\{0\r\}$. Thus, by definition, we have a unique zero morphism $0:G\to\l\{0\r\}\to H$ for each pair $G,H$ of groups. For an arbitrary homomorphism $f:G\to H$, we would like to find some group $K$ that ‘forces’ $f$ to ‘equalize’ with $0$ in a universal way. This can be done in two (dual) ways, called the kernel and cokernel of $f$.</description>
     </item>
     <item>
       <title>Subgroup</title>
@@ -125,7 +125,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/integers/</link>
       <pubDate>Mon, 03 Jun 2024 15:19:04 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/integers/</guid>
-      <description>The set of integers $-$ denoted $\Z$ $-$ appear everywhere in algebra:&#xA;In group theory, it is the free group on one generator, and is used to construct all cyclic groups, and more generally, all finitely-generated abelian groups. In ring theory, it is the initial object in $\catring$, and is the most important example of a PID. In fact, abelian groups are just $\Z$-modules. The fundamental property of $\Z$, and that underlies all of its group and ring-theoretic properties, is the Division Algorithm.</description>
+      <description>The set of integers, denoted $\Z$, appear everywhere in algebra:&#xA;In group theory, it is the free group on one generator, and is used to construct all cyclic groups, and more generally, all finitely-generated abelian groups. The latter claim follows from the Structure Theorem. In ring theory, it is the initial object in $\catring$, and is the most important example of a PID. In fact, abelian groups are just $\Z$-modules, and rings are just $\Z$-algebras.</description>
     </item>
     <item>
       <title>Order</title>

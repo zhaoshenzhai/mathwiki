@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Fix an {{< link file="equivalence_relation" display="equivalence relation" type="references" >}} on a {{< link file="ring" display="ring" type="references" >}} $R$ and consider the {{< link file="quotient_set" display="quotient set" type="references" >}} $R/\\!\sim$, which we which to equip with a ring structure.
+Fix an {{< link file="equivalence_relation" display="equivalence relation" type="references" >}} on a {{< link file="ring" display="ring" type="references" >}} $R$ and consider the {{< link file="quotient_set" display="quotient set" type="references" >}} $R/\\!\sim$, which we want to equip with a ring structure.
 
 <br>
 
@@ -25,7 +25,7 @@ If $\mf{a}\nsubgrpeq R$ is an ideal, then $\ast$ is well-defined since $\sim$ re
 
 {{< /env >}}
 
-# {{< link file="category" display="Categorical" type="references" >}} Aspects
+<div class="space"></div>
 
 ## {{< link file="universal_constructions" display="Universal Property" type="references" >}}
 

@@ -42,14 +42,10 @@ $$\begin{equation}
 
 {{< /env >}}
 
-## Arithmetic of Ideals
+Ideals $\mf{a}\nsubgrpeq R$ turn out to be exactly the objects one can {{< link file="quotient_ring.md" display="quotient" type="references" >}} $R$ with so that $\pi:R\onto R/\mf{a}$ is a ring homomorphism. In this case, we have $\ker\pi=\mf{a}$, and conversely, the kernel of any ring homomorphism $f:R\to S$ is an ideal. This gives us a three-fold equivalence between congruences of $R$, ideals of $R$, and quotients of $R$.
 
 <div class="space"></div>
 
-## {{< link file="quotient_ring" display="Quotient Ring" type="constructions" >}}
+## Arithmetic of Ideals
 
-Let $R$ be a ring. Ideals $\mf{a}\nsubgrpeq R$ are exactly the objects one can quotient $R$ with so that $\pi:R\onto R/\mf{a}$ is a ring homomorphism. In this case, it is clear that $\ker\pi=\mf{a}$, and conversely the kernel of any ring homomorphism $f:R\to S$ is an ideal. 
-
-<br>
-
-&emsp;&emsp;This is a very useful observation. For instance, since{{< link file="ring" type="justifications" section="The Category of Rings" mod="dag" >}} $\Z$ is initial in $\catring$, one obtains for each ring $R$ a unique map $f:\Z\to R$. Then{{< link file="integers" type="justifications" mod="dag" >}} $\ker f\nsubgrpeq\Z$ is an ideal, so $\ker f=n\Z$ for some unique $n\in\N$. We can then define the *characteristic* of $R$ to be $\ch R\coloneqq n$.
+# Prime & Maximal Ideals

@@ -29,9 +29,13 @@ document.addEventListener('keydown', function(e) {
     } else if (searchActive && e.key === 'ArrowUp') {
         searchScroll(-1);
     } else if (!searchActive && metaKeyDown && e.key === 'e') {
-        toggleSide(false);
+        if (!contentEl.classList.contains('noToggleSide')) {
+            toggleSide(false);
+        }
     } else if (!searchActive && metaKeyDown && e.key === 'd') {
-        toggleDark(document, false, true, true);
+        if (!contentEl.classList.contains('noListenDark')) {
+            toggleDark(document, false, true, true);
+        }
     } else if (!searchActive && e.key === 'j') {
         contentEl.style.setProperty('position', 'absolute');
         contentEl.scrollBy(0, 60);

@@ -1,4 +1,4 @@
-import { contentEl, getCurSideEl, setFontSize, resetSideEl,
+import { contentEl, metaDataEl, getCurSideEl, setFontSize, resetSideEl,
          getSideExpanded, setSideExpanded } from '../single.js';
 import { styleHeaders } from './metaTOC.js';
 import { clearPreviewSide } from './preview.js';
@@ -32,6 +32,7 @@ function hideSide() {
     contentEl.style.textAlign = 'justify';
 
     getCurSideEl().style.right = '-50%';
+    metaDataEl.style.right = '-50%';
     resetSideEl.style.right = '-53%';
 
     setFontSize(26);
@@ -49,6 +50,7 @@ function showSide() {
     contentEl.style.textAlign = 'left';
 
     getCurSideEl().style.right = '0%';
+    metaDataEl.style.right = '0%';
     resetSideEl.style.right = '3%';
 
     setFontSize(23);
