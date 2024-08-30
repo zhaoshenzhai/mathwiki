@@ -7,15 +7,11 @@ tags: [Group_Theory/Later]
 
 # Definition and Generation
 
-A standard method of studying an object $-$ in this case, a {{< link file="group" display="group" type="references" >}} $G$ $-$ is to analyze other groups that ‘sit inside’ $G$. This is formalized in the following
+A standard method of studying an object, in this case, a {{< link file="group" display="group" type="references" >}} $G$, is to analyze other groups that ‘sit inside’ $G$. This is formalized in the following
 
 {{< env type="definition" >}}
 
-Let $G$ be a group. A *subgroup* of $G$ is a subset $H\subseteq G$ equipped with a group structure making the inclusion $H\into G$ a group homomorphism.
-
-<br>
-
-&emsp;&emsp;We write $H\substructeq G$ to indicate that $H$ is a subgroup of $G$.
+Let $G$ be a group. A *subgroup* of $G$ is a subset $H\subseteq G$ equipped with the unique group structure making the inclusion $H\into G$ a group homomorphism. <span style="color:gray">[We write $H\substructeq G$ to indicate that $H$ is a subgroup of $G$.]</span>
 
 {{< /env >}}
 
@@ -23,7 +19,7 @@ Note that any sub*set* $H\subseteq G$ inherits the operation from $G$, and makes
 
 <br>
 
-&emsp;&emsp;From a model-theoretic point of view, subgroups of $G$ are simply {{< link file="substructure" display="substructures" type="generalizations" >}} thereof, viewed as a {{< link file="model" display="model" type="references" >}} of the {{< link file="group" display="theory of groups" type="references" section="The Theory $T_\textrm{Grp}$" >}}.
+&emsp;&emsp;From a model-theoretic point of view, subgroups of $G$ are simply {{< link file="substructure" display="substructures" type="generalizations" >}}, viewed as a {{< link file="model" display="model" type="references" >}} of the {{< link file="group" display="theory of groups" type="references" section="The Theory $T_\textrm{Grp}$" >}}.
 
 <div class="space"></div>
 
@@ -35,7 +31,7 @@ $$\begin{equation}
     \gen{A}\coloneqq\l\\{g\in G\st g=a_1^{\epsilon_1}\cdots a_n^{\epsilon_n}\textrm{ for some }a_1,\dots,a_n\in A\textrm{ and }\epsilon_1,\dots,\epsilon_n=\pm1\r\\}
 \end{equation}$$
 be the subgroup of all elements expressible as (finite) combinations of elements in $A$ and their inverses.
-* <span style="color:gray">(Top-down).</span> We can let $\gen{A}$ be the intersection of all subgroup $H\substructeq G$ containing $A$. This clearly works, but is too unwieldy to deal with.
+* <span style="color:gray">(Top-down).</span> We can let $\gen{A}$ be the intersection of all subgroup $H\substructeq G$ containing $A$. Since intersections of subgroups are subgroups, this makes $\gen{A}$ the smallest subgroup of $G$ containing $A$, as desired.
 * <span style="color:gray">(Bottom-up).</span> We can construct $\gen{A}$ starting with $A\cup\l\\{e\r\\}$ by inductively closing it under the group operation and inversion. Only a countable induction is needed, and this construction generalizes{{< link file="substructure" mod="dag" type="generalizations" section="Substructure Generation" >}} to arbitrary substructures.
 * <span style="color:gray">(Free Construction).</span> A {{< link file="category" display="category" type="references" >}}-theoretic construction is given by setting $\gen{A}$ be the image of the canonical map{{< link file="free_group" mod="dag" type="references" >}} $F(A)\to G$ induced by the inclusion $A\into G$.
 
@@ -55,8 +51,8 @@ Let $H\substructeq G$ and consider the equivalence relation $\sim$ of $G$ define
 
 ## {{< link file="subgroup_products" display="Product of Subgroups" type="justifications" >}}
 
-For subgroups $H,K\substructeq G$, their *subgroup product* is the subset $HK\coloneqq\l\\{hk\in G\st h\in H,k\in K\r\\}$ of $G$, which need not be a subgroup.
+For subgroups $H,K\substructeq G$, their *subgroup product* is the subset $HK\coloneqq\l\\{hk\in G\st h\in H,k\in K\r\\}$ of $G$. There are several sufficient criteria for $HK\substructeq G$; the most basic of which is that $HK\substructeq G$ iff $HK=KH$. In particular, this holds when $G$ is {{< link file="abelian_group" display="abelian" type="references" >}}, or more generally, if $H\substructeq N_G(K)$ (or $K\substructeq N_G(H)$).
 
 <br>
 
-&emsp;&emsp;There are several sufficient criteria for when $HK\substructeq G$; the most basic of which is that $HK\substructeq G$ iff $HK=KH$. In particular, this holds when $G$ is {{< link file="abelian_group" display="abelian" type="references" >}}.
+&emsp;&emsp;Subgroups of $G$ also form a {{< link file="lattice" display="lattice" type="references" >}} whose meets are intersections and whose joins are $\gen{H,H'}\coloneqq\gen{H\cup H'}$.

@@ -110,19 +110,19 @@ That $HN\substructeq G$ follows{{< link file="subgroup_products.md" type="proved
 
 {{< /env >}}
 
-{{< env type="theorem" name="Lattice Theorem" >}}
+{{< env type="theorem" name="Lattice Isomorphism Theorem" >}}
 
 Let $N\nsubgrpeq G$ be a normal subgroup. Then we have an isomorphism
 $$\begin{equation}
     \phi:\l\\{\textrm{subgroups of }G\textrm{ containing }N\r\\}\to\l\\{\textrm{subgroups of }G/N\r\\}
 \end{equation}$$
-of (bounded) lattices, which maps $H\mapsto H/N$. Moreover, we have $H\nsubgrpeq G$ iff $\phi(H)\nsubgrpeq\phi(G)$, in which case $\phi(G)/\phi(H)\iso G/H$.
+of (bounded) {{< link file="lattice" display="lattices" type="references" >}}, which maps $H\mapsto H/N$. Moreover, we have $H\nsubgrpeq G$ iff $\phi(H)\nsubgrpeq\phi(G)$, in which case $\phi(G)/\phi(H)\iso G/H$.
 
 {{< /env >}}
 
 {{< env type="proof" hide="false" >}}
 
-Let $N\substructeq H\substructeq G$. Its clear that $H/N\substructeq G/N$ is a subgroup, and that $\phi$ is a lattice homomorphism is easily checked (recalling that meets are $H\cap H'$ and joins are $\gen{H,H'}$). For a subgroup $K\substructeq G/N$, we let $\psi(K)\coloneqq\pi^{-1}(K)$ be the preimage under the projection $\pi:G\onto G/N$. Then $\psi(K)\substructeq G$ is a subgroup containing $N$ because $\pi(N)$ is the identity in $G/N$, whence $\pi(N)\subseteq K$. It can be checked that $\phi(\psi(K))=K$ and $\psi(\phi(H))=H$, so $\phi$ is a bijection, and hence a lattice isomorphism.
+Let $N\substructeq H\substructeq G$. Its clear that $H/N\substructeq G/N$ is a subgroup, and that $\phi$ is a lattice homomorphism is easily checked (recalling that meets in these lattices are $H\cap H'$ and joins are $\gen{H,H'}$). For a subgroup $K\substructeq G/N$, we let $\psi(K)\coloneqq\pi^{-1}(K)$ be the preimage under the projection $\pi:G\onto G/N$. Then $\psi(K)\substructeq G$ is a subgroup containing $N$ because $\pi(N)$ is the identity in $G/N$, whence $\pi(N)\subseteq K$. It can be checked that $\phi(\psi(K))=K$ and $\psi(\phi(H))=H$, so $\phi$ is a bijection, and hence a lattice isomorphism.
 
 <br>
 
