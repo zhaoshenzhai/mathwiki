@@ -45,7 +45,11 @@ For general $R$-modules, $S$ extends{{< link file="basis_module_theory.md" type=
 
 <div class="space"></div>
 
-&emsp;&emsp;In fact, more is true. If $B$ is a fixed basis for $V$ (which exists by the above) and $S$ is *any* linearly-independent set, we can extend $S$ to a basis $B_S$ of $V$ by borrowing elements $b_\alpha\in B$; equivalently, we can ‘exchange’ $B\comp\l\\{b_\alpha\r\\}$ for $S$ and $B$ still remains a basis.
+&emsp;&emsp;In fact, more is true. If $B$ is a fixed basis for $V$ (which exists by the above) and $S$ is *any* linearly-independent set, we can extend $S$ to a basis $B_S$ of $V$ by borrowing elements $b_\alpha\in B$; equivalently, we can ‘exchange’ $B\comp\l\\{b_\alpha\r\\}$ for $S$ and it still remains a basis.
+
+<br>
+
+&emsp;&emsp;More importantly, it shows that any two bases of $V$ have the same cardinality, and so defines the *dimension* $\dim_kV$ of $V$.
 
 {{< env type="theorem" name="Steinitz Exchange Lemma" >}}
 
@@ -66,13 +70,3 @@ We proceed by {{< link file="transfinite_induction" display="transfinite inducti
 <div class="space"></div>
 
 **Remark.** This proof is deliberately written in a way that generalizes directly to any {{< link file="strongly_minimal_sets" display="strongly minimal model" type="references" >}} of a first-order {{< link file="theory" display="theory" type="references" >}}. In that setting, one can define *independence* and *closure* too, and the same proof applies to define a notion of ‘dimension’.
-
-<div class="space"></div>
-
-&emsp;&emsp;This theorem shows that any two bases of $V$ have the same cardinality, and thus we make the following
-
-{{< env type="definition" >}}
-
-The *dimension* of a $k$-vector space $V$ is the cardinally $\dim_kV$ of any basis $B$ of $V$.
-
-{{< /env >}}

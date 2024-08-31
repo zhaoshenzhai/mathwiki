@@ -21,19 +21,21 @@ A choice of a particular basis $B\subseteq M$ thus amounts to a choice of a part
 
 ## Invariant Basis Number
 
-When $M$ is a {{< link file="submodule" display="finitely-generated" type="references" section="Submodule Generation" >}} free module $M\iso R^{\oplus n}$ and $R$ is *commutative* ring, this number $n$ is unique and is called the *rank* $\rk_RM$ of $M$. In general, rings in which this holds are said to have the *invariant basis number* property.
+If $M\iso R^{\oplus B}$ is a free module and $R$ is *commutative* ring, this $B$ is determined up to a bijection, and its cardinal is called the *rank* $\rk_RM$ of $M$. In general, rings in which this holds are said to have the *invariant basis number* property.
 
 {{< env type="lemma" >}}
 
-If $R$ is a commutative ring and $n,m\in\N$, then $R^n\iso R^m$ iff $n=m$.
+If $R$ is a commutative ring and $A,B$ are sets, then $R^A\iso R^B$ iff $|A|=|B|$. <span style="color:gray">[We write $R^A\coloneqq R^{\oplus A}$ for convenience].</span>
 
 {{< /env >}}
 
 {{< env type="proof" hide="false" >}}
 
-The converse is trivial, so suppose that $R^n\iso R^m$. Let $\mf{m}\nsubgrp R$ be a maximal ideal (exists by {{< link file="prime_and_maximal_ideals.md" display="Krull’s Theorem" type="proved_by" section="Existence of Maximal Ideals" >}}) and consider the {{< link file="quotient_ring.md" display="quotient" type="references" >}} $k\coloneqq R/\mf{m}$, which is a field. The key is that any module $M$ with $\mf{m}M=0$ admits a natural $k$-vector space structure.
+The converse is trivial, so suppose that $R^A\iso R^B$. Let $\mf{m}\nsubgrp R$ be a maximal ideal (exists by {{< link file="prime_and_maximal_ideals.md" display="Krull’s Theorem" type="proved_by" section="Existence of Maximal Ideals" >}}) and consider the {{< link file="quotient_ring.md" display="quotient" type="references" >}} $k\coloneqq R/\mf{m}$, which is a field. The key is that any module $M$ with $\mf{m}M=0$ admits a natural $k$-vector space structure.
 
 > Indeed, let $k$ act on $M$ by $(r+\mf{m})m\coloneqq rm$. This is well-defined since if $\bar{r_1}=\bar{r_2}$, then $r_1m-r_2m=(r_1-r_2)m\in\mf{m}m=0$.
 
-Since $\mf{m}(R^n/\mf{m}R^n)=0$, this makes $R^n/\mf{m}R^n$ into a $k$-vector space, and we have a map $\pi:R^n\onto k^n$ with $\ker\pi=\mf{m}R^n$. Thus we have $R^n/\mf{m}R^n\iso k^n$, and similarly for $m$, so $k^n\iso k^m$. Finally, the {{< link file="vector_space.md" display="Exchange Lemma" type="proved_by" section="Existence of Bases" >}} for $k$-vector spaces forces $n=m$, as desired.<span style="float:right;">$\blacksquare$</span>
+Since $\mf{m}(R^A/\mf{m}R^A)=0$, this makes $R^A/\mf{m}R^A$ into a $k$-vector space, and we have a map $\pi:R^A\onto k^A$ with $\ker\pi=\mf{m}R^A$. Thus we have $R^A/\mf{m}R^A\iso k^A$, and similarly for $B$, so $k^A\iso k^B$. Finally, the {{< link file="vector_space.md" display="Exchange Lemma" type="proved_by" section="Existence of Bases" >}} for $k$-vector spaces forces $|A|=|B|$, as desired.<span style="float:right;">$\blacksquare$</span>
 {{< /env >}}
+
+# Homomorphisms of (f.g.) Free Modules
