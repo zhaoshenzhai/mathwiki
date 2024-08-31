@@ -11,7 +11,7 @@ The theory of *vector spaces* stems from classical dynamics (say, in the plane $
 
 <br>
 
-&emsp;&emsp;It turns out that many structures arising in math admit these two operations, so it is worth axiomatizing. Firstly, the *linear* structure is provided by an {{< link file="abelian_group.md" display="abelian" type="references" >}} $M$ equipped with a {{< link file="ring" display="ring" type="references" >}} homomorphism $R\to\End M$ for some ring $R$, which together makes $M$ a *(left-){{< link file="module.md" display="$R$-module" type="generalizations" >}}*. The necessary and sufficient condition{{< link file="field.md" type="justifications" mod="dag" >}} for $R$-modules to have bases is that $R$ is a {{< link file="field.md" display="field" type="references" >}}, so we make the following
+&emsp;&emsp;It turns out that many structures arising in math admit these operations, so it is worth axiomatizing. Firstly, the *linear* structure is provided by an {{< link file="abelian_group.md" display="abelian" type="references" >}} {{< link file="group" display="group" type="references" >}} $M$ equipped with a {{< link file="ring" display="ring" type="references" >}} homomorphism $R\to\End M$ for some ring $R$, which together makes $M$ a *(left-){{< link file="module.md" display="$R$-module" type="generalizations" >}}*. The necessary and sufficient condition{{< link file="field.md" type="justifications" mod="dag" >}} for $R$-modules to have bases is that $R$ is a {{< link file="field.md" display="field" type="references" >}}, so we make the following
 
 {{< env type="definition" >}}
 
@@ -19,7 +19,7 @@ A *$k$-vector space* is a $k$-module where $k$ is a field. Explicitly, it is an 
 
 {{< /env >}}
 
-Since every result about $R$-modules holds for $k$-vector spaces, we will not repeat them here. Instead, we will point out several places where the assumption that $k$ is a field is crucial, starting with the existence of bases.
+Since every result about $R$-modules holds for $k$-vector spaces, we will not repeat them here. Instead, we will point out some instances where the assumption that $k$ is a field is crucial, starting with the existence of bases.
 
 <div class="space"></div>
 

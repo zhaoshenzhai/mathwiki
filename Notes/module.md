@@ -43,7 +43,11 @@ With $R$-module homomorphisms as morphisms, left-$R$-modules form a category $\c
 
 ## Linear Algebra
 
-This refers primarily to the study of $k$-vector spaces for $k$ a field, but many results from linear algebra actually extend to $R$-modules for an arbitrary commutative ring $R$.
+This refers primarily to the study of $k$-vector spaces for $k$ a field, but many results from linear algebra actually extend to $R$-modules for an arbitrary commutative ring $R$. Fix a commutative ring $R$.
+
+<br>
+
+&emsp;&emsp;Every set $I$ generates a {{< link file="free_module.md" display="free" type="constructions" >}} $R$-module $F^R(I)$ where maps $I\to M$ extend to unique homomorphisms $f:F^R(I)\to M$; in the case that $f$ is an isomorphism, we say that $I\to M$ is a *{{< link file="basis_module_theory" display="basis" type="constructions" >}}* for $M$. The modules that admit bases are said to be *{{< link file="free_module" display="free" type="types" >}}*, but not all modules are free.
 
 <div class="space"></div>
 
