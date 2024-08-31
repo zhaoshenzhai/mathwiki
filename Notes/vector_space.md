@@ -45,4 +45,34 @@ For general $R$-modules, $S$ extends{{< link file="basis_module_theory.md" type=
 
 <div class="space"></div>
 
-## Classification by Dimension
+&emsp;&emsp;In fact, more is true. If $B$ is a fixed basis for $V$ (which exists by the above) and $S$ is *any* linearly-independent set, we can extend $S$ to a basis $B_S$ of $V$ by borrowing elements $b_\alpha\in B$; equivalently, we can ‘exchange’ $B\comp\l\\{b_\alpha\r\\}$ for $S$ and $B$ still remains a basis.
+
+{{< env type="theorem" name="Steinitz Exchange Lemma" >}}
+
+If $B$ is a fixed basis for $V$ and $S\subseteq V$ is any linearly-independent set, then there is an injection $j:S\into B$ such that $B\cup S\comp j(S)$ is a basis for $V$. In particular, we have $|S|\leq|B|$.
+
+{{< /env >}}
+
+{{< env type="proof" hide="false" >}}
+
+We proceed by {{< link file="transfinite_induction" display="transfinite induction" type="references" >}} on $S$: fix $S_0\subset S$ and let $j_0:S_0\into B$ be so that $B_0\coloneqq B\cup S_0\comp j(S_0)$ is a basis. Take any $s\in S\comp S_0$. We will find some $b\in B_0$ so that $j\coloneqq j_0\cup\l\\{(s,b)\r\\}\into B$ and that $B'\coloneqq B_0\cup\l\\{s\r\\}\comp\l\\{j(s)\r\\}$ is a basis, which completes the induction since we can start with $S_0\coloneqq\em$.
+
+<br>
+
+&emsp;&emsp;To this end, let $C\subseteq B\comp j(S_0)$ be minimal so that $s\in\gen{S_0\cup C}$. Since $S$ is linearly-independent, we have $C\neq\em$, and pick $b\in C$ arbitrarily. Since $\gen{B_0}=V$ and $b\in\gen{S_0\cup C\cup\l\\{s\r\\}\comp\l\\{b\r\\}}\subseteq\gen{B'}$, we see that $\gen{B'}=V$ too. Finally, the only way for $B'$ to fail linear-independence is if $s\in\gen{B_0\comp\l\\{b\r\\}}$, but then $b\in\gen{B_0\comp\l\\{b\r\\}}$, contradicting that $B_0$ is a basis.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}
+
+<div class="space"></div>
+
+**Remark.** This proof is deliberately written in a way that generalizes directly to any {{< link file="strongly_minimal_sets" display="strongly minimal model" type="references" >}} of a first-order {{< link file="theory" display="theory" type="references" >}}. In that setting, one can define *independence* and *closure* too, and the same proof applies to define a notion of ‘dimension’.
+
+<div class="space"></div>
+
+&emsp;&emsp;This theorem shows that any two bases of $V$ have the same cardinality, and thus we make the following
+
+{{< env type="definition" >}}
+
+The *dimension* of a $k$-vector space $V$ is the cardinally $\dim_kV$ of any basis $B$ of $V$.
+
+{{< /env >}}

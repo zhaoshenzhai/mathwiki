@@ -30,3 +30,11 @@ Let $\mf{a}\nsubgrp R$ be prime and suppose that $\mf{a}\subseteq\mf{b}$ for som
 {{< /env >}}
 
 <div class="space"></div>
+
+## Existence of Maximal Ideals
+
+{{< env type="theorem" name="Krull" >}}
+
+
+
+{{< /env >}}
