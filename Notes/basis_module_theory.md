@@ -51,6 +51,6 @@ Every linearly-independent subset $S\subseteq M$, extends to a maximal linearly-
 
 {{< env type="proof" hide="false" >}}
 
-Let $\mc{I}$ be the collection of all linearly-independent subsets of $M$ containing $S$, which is non-empty since $S\in\mc{I}$. Since the union of any chain $\mc{C}\subseteq\mc{I}$ of linearly-independent sets is linearly-independent (every linear-dependence relation in $\bigcup\mc{C}$ is a finite sum, whose elements belong to a large enough linearly-independent set in $\mc{C}$, whence trivial), $\mc{I}$ admits a maximal element by {{< link file="zorns_lemma" display="Zorn’s Lemma" type="proved_by" >}}.<span style="float:right;">$\blacksquare$</span>
+Let $(\mc{I},\subseteq)$ be the {{< link file="poset" display="poset" type="references" >}} of all linearly-independent subsets of $M$ containing $S$, which is non-empty since $S\in\mc{I}$. Since the union of any chain $\mc{C}\subseteq\mc{I}$ of linearly-independent sets is linearly-independent (every linear-dependence relation in $\bigcup\mc{C}$ is a finite sum, whose elements belong to a large enough linearly-independent set in $\mc{C}$, whence trivial), $\mc{I}$ admits a maximal element by {{< link file="zorns_lemma" display="Zorn’s Lemma" type="proved_by" >}}.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}

@@ -31,10 +31,16 @@ Let $\mf{a}\nsubgrp R$ be prime and suppose that $\mf{a}\subseteq\mf{b}$ for som
 
 <div class="space"></div>
 
-## Existence of Maximal Ideals
+&emsp;&emsp;The question now remains whether every ring admits a maximal ideal. The answer is yes, and, in fact, more is true:
 
 {{< env type="theorem" name="Krull" >}}
 
+Every proper ideal $\mf{a}\nsubgrp R$ extends to a maximal ideal $\mf{a}\subseteq\mf{m}\nsubgrp R$.
 
+{{< /env >}}
+
+{{< env type="proof" hide="false" >}}
+
+Let $(\mc{I},\subseteq)$ be the {{< link file="poset" display="poset" type="references" >}} of all proper ideals of $R$ containing $\mf{a}$, which is non-empty since $\mf{a}\in\mc{I}$. Since the union of any chain $\mc{C}\subseteq\mc{I}$ of proper ideals of $R$ is a proper ideal (if $\bigcup\mc{C}=(1)$, then $1\in\mf{b}$ for some $\mf{b}\in\mc{C}$, contradiction; if $a\in\bigcup\mc{C}$, then $a\in\mf{b}$ for some $\mf{b}\in\mc{C}$, so $ras\in\mf{b}\subseteq\bigcup\mc{C}$ for any $r,s\in R$; etc), $\mc{I}$ admits a maximal element by {{< link file="zorns_lemma" display="Zorn’s Lemma" type="proved_by" >}}.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
