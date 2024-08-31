@@ -23,4 +23,26 @@ Since every result about $R$-modules holds for $k$-vector spaces, we will not re
 
 <div class="space"></div>
 
+## Existence of Bases
+
+The ‘*fundamental theorem of vector spaces*’ is the existence of bases, making all vector spaces {{< link file="free_module.md" display="free modules" type="references" >}}:
+
+{{< env type="theorem" name="Basis Extension Theorem" >}}
+
+Every linearly-independent subset $S\subseteq V$ extends to a basis of $V$.
+
+{{< /env >}}
+
+{{< env type="proof" hide="false" >}}
+
+For general $R$-modules, $S$ extends{{< link file="basis_module_theory.md" type="proved_by" mod="dag" section="Maximal Linearly-Independent Sets" >}} to a maximal linearly-independent set, so we may w.l.o.g. assume that $S$ is maximal.
+
+<br>
+
+&emsp;&emsp;Suppose that $v\in V\comp S$, so $S\sqcup\l\\{v\r\\}$ is not linearly-independent by maximality of $S$. Thus, there exist $a_0,\dots,a_n\in k$ and distinct $s_1,\dots,s_n\in S$ such that $c_0v+\sum_{i=1}^nc_is_i=0$. Note that $c_0\neq0$, so since $k$ is a *field*, we have $v=-c_0^{-1}\l(\sum_{i=1}^nc_is_i\r)\in\gen{S}$.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}
+
+<div class="space"></div>
+
 ## Classification by Dimension
