@@ -31,7 +31,7 @@ If $R$ is a commutative ring and $A,B$ are sets, then $R^A\iso R^B$ iff $|A|=|B|
 
 {{< env type="proof" hide="false" >}}
 
-The converse is trivial, so suppose that $R^A\iso R^B$. Let $\mf{m}\nsubgrp R$ be a {{< link file="prime_and_maximal_ideals.md" display="maximal" type="references" >}} ideal (exists by {{< link file="prime_and_maximal_ideals.md" display="Krull’s Theorem" type="proved_by" section="Existence of Maximal Ideals" >}}) and consider the {{< link file="quotient_ring.md" display="quotient" type="references" >}} $k\coloneqq R/\mf{m}$, which is a field. The key is that any module $M$ with $\mf{m}M=0$ admits a natural $k$-vector space structure.
+The converse is trivial. Let $\mf{m}\nsubgrp R$ be a {{< link file="prime_and_maximal_ideals.md" display="maximal" type="references" >}} ideal (exists by {{< link file="prime_and_maximal_ideals.md" display="Krull’s Theorem" type="proved_by" section="Existence of Maximal Ideals" >}}) and consider the {{< link file="quotient_ring.md" display="quotient" type="references" >}} $k\coloneqq R/\mf{m}$, which is a field since $R$ is commutative. The key is that any module $M$ with $\mf{m}M=0$ admits a natural $k$-vector space structure.
 
 > Indeed, let $k$ act on $M$ by $(r+\mf{m})m\coloneqq rm$. This is well-defined since if $\bar{r_1}=\bar{r_2}$, then $r_1m-r_2m=(r_1-r_2)m\in\mf{m}m=0$.
 

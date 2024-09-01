@@ -6,8 +6,50 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Aug 2024 19:37:36 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 31 Aug 2024 19:14:26 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Principal Ideal Domain</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/principal_ideal_domain/</link>
+      <pubDate>Sat, 31 Aug 2024 19:14:26 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/principal_ideal_domain/</guid>
+      <description>Motivation &amp;amp; Definition </description>
+    </item>
+    <item>
+      <title>Field</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/field/</link>
+      <pubDate>Sat, 31 Aug 2024 19:11:12 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/field/</guid>
+      <description>Motivation &amp;amp; Definition </description>
+    </item>
+    <item>
+      <title>Free Module</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/free_module/</link>
+      <pubDate>Sat, 31 Aug 2024 12:23:37 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/free_module/</guid>
+      <description>Motivation &amp;amp; Definition Let $M$ be an $R$-module over a commutative ring $R$. In general, $M$ need not admit a basis, which makes the theory of $R$-modules more complicated that that of vector spaces (indeed, $R$ is a field iff$^\dagger$ every $R$-module admits a basis). To simplify the situation, we will only consider $R$-modules that admit bases, and those are very special:&#xA;Definition. An $R$-module is said to be free if it admits a basis, i.</description>
+    </item>
+    <item>
+      <title>Basis (Module Theory)</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/basis_module_theory/</link>
+      <pubDate>Sat, 31 Aug 2024 09:09:40 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/basis_module_theory/</guid>
+      <description>Motivation &amp;amp; Definition Given an $R$-module $M$ over a commutative ring $R$, it is useful to know whether there is a ‘simple’ generating set of $M$. Properties of $M$ will then be entirely determined by $S$, so classifying such subsets will lead to a classification of modules. But $M$ generates itself, and this generation is clearly redundant (if $M\neq\l\{0\r\}$), so we need to cut those generating sets down to remove redundancies.</description>
+    </item>
+    <item>
+      <title>Vector Space</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/vector_space/</link>
+      <pubDate>Fri, 30 Aug 2024 19:27:52 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/vector_space/</guid>
+      <description>Motivation &amp;amp; Definition The theory of vector spaces stems from classical dynamics (say, in the plane $\R^2$), where points $x\in\R^2$ move along paths with certain velocities, which we call vectors. At a fixed time, the space of vectors can be visualized as arrow whose directions indicate in the possible headings of $x$ and whose lengths indicate the possible speeds of $x$. We can add these vectors and scale them by any $r\in\R$, and we can (non-uniquely) identify two special basis vectors in which every other velocity is a linear combination of the two.</description>
+    </item>
+    <item>
+      <title>Prime and Maximal Ideals</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/prime_and_maximal_ideals/</link>
+      <pubDate>Fri, 30 Aug 2024 16:11:08 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/prime_and_maximal_ideals/</guid>
+      <description>Motivation &amp;amp; Definition Fix a commutative ring $R$. Any ideal $\mf{a}\nsubgrpeq R$ induces a quotient ring $R/\mf{a}$ that makes $\pi:R\onto R/\mf{a}$ a ring homomorphism. If $\mf{a}\neq R$, then $R/\mf{a}$ might have a simpler structure than $\mf{a}$, say, $R/\mf{a}$ might be an integral domain or a field.&#xA;Definition. A non-trivial ideal $\mf{a}\nsubgrp R$ is said to be prime (resp. maximal) if $R/\mf{a}$ is an integral domain (resp. a field). Remark. Note that $\mf{p}$ is prime iff $rs\in\mf{p}$ implies either $r\in\mf{p}$ or $s\in\mf{p}$, which is reminiscent to prime numbers in $\Z$.</description>
+    </item>
     <item>
       <title>Kernel (Ring Theory)</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/kernel_ring_theory/</link>
@@ -202,7 +244,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/module/</link>
       <pubDate>Thu, 06 Jun 2024 18:07:45 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/module/</guid>
-      <description>Motivation &amp;amp; Definition Let $R$ be a (not-necessarily commutative) ring.&#xA;Definition. A (left) $R$-module is an Abelian group $(M,+)$ equipped with a left $R$-action $R\to\End_\catabgrp(M)$. That is, a function $R\times M\to M$ such that $$\begin{equation} r(m+n)=rm+rn,\ \ \ \ (r+s)m=rm+sm,\ \ \ \ (rs)m=r(sm),\ \ \ \ \mathit{and}\ \ \ \ 1m=m \end{equation}$$ for all $r,s\in R$ and $m,n\in M$. The relevant structure-preserving maps for $R$-modules are as follows.&#xA;Definition. A function $f:M\to N$ between $R$-modules is a homomorphism if it is a group homomorphism $f:(M,+)\to(N,+)$ such that</description>
+      <description>Motivation &amp;amp; Definition Let $R$ be a ring. Similarly to how a group $G\into\Aut X$ injects$^\dagger$ into some symmetry group of a set $X$, and how this motivates us to study actions $G\to\Aut X$ in general, that $R\into\End M$ injects$^\dagger$ into an endomorphism ring of some abelian group motivates us to study ‘ring actions’ $R\to\End M$. Those ‘ring actions’ are called $R$-modules.&#xA;Definition. A left-$R$-module is an abelian group $M$ equipped with a ring homomorphism $\sigma:R\to\End M$.</description>
     </item>
     <item>
       <title>Ring</title>
