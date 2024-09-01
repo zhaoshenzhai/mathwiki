@@ -57,3 +57,7 @@ export function getBasePath(path) {
 export function removeExt(path) {
     return path.replace(/.md/, '');
 }
+
+export function trimHeaders(s) {
+    return s.replace(/\.$/, '').replace(/.*\.\ /, '');
+}

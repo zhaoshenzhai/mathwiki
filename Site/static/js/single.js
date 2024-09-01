@@ -4,11 +4,13 @@ import { toggleSide } from './single/side.js';
 import { toggleDark } from './darkMode.js';
 
 var root = document.querySelector(':root');
-export var contentEl, headersEl,
-           metaDataEl, resetSideEl,
-           metaLinksEl, metaTOCEl;
+
+export var contentEl, titleEl, metaDataEl,
+           resetSideEl, metaLinksEl, metaTOCEl;
+export var headers = {};
 
 var curSideEl;
+var headerEls;
 var fontSize = 23;
 var sideExpanded = true;
 
@@ -16,8 +18,10 @@ document.addEventListener('DOMContentLoaded', (e) => {
     metaLinksEl = document.getElementById('metaLinks');
     initMetaLinks();
 
-    headersEl = document.querySelectorAll('h1, h2');
     metaTOCEl = document.getElementById('metaTOC');
+    headerEls = document.querySelectorAll('h1, h2')
+    expandHeaders(headerEls);
+    titleEl = headerEls[0];
     initMetaTOC();
 
     contentEl = document.getElementById('content');
@@ -50,4 +54,31 @@ export function setFontSize(size) {
     fontSize = size;
     root.style.setProperty('--size', size + 'px');
     root.style.setProperty('--SCSize', getSCFontSize() + 'px');
+}
+
+function expandHeaders() {
+    var h1Num = 0;
+    var index = 1;
+    while (index < headerEls.length) {
+        var h1El, h2Index;
+        var h2List = [];
+
+        if (headerEls[index].tagName == 'H1') {
+            h1El = headerEls[index];
+            h1Num++;
+            index++;
+            h2Index = index;
+        } else {
+            h1El = null;
+            h2Index = 1;
+        }
+
+        while (headerEls[h2Index] && headerEls[h2Index].tagName == 'H2') {
+            h2List.push(headerEls[h2Index]);
+            h2Index++;
+            index++;
+        }
+
+        headers[h1Num] = [h1El, h2List];
+    }
 }

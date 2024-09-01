@@ -1,4 +1,4 @@
-import { getTextHeight } from '../single.js';
+import { getTextHeight, headers } from '../single.js';
 
 var proofHeaders = document.getElementsByClassName('proofHeader');
 window.initProofHeaders = initProofHeaders;
