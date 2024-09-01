@@ -34,7 +34,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/basis_module_theory/</link>
       <pubDate>Sat, 31 Aug 2024 09:09:40 -0400</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/basis_module_theory/</guid>
-      <description>Motivation &amp;amp; Definition Given an $R$-module $M$ over a commutative ring $R$, it is useful to know whether there is a ‘simple’ generating set of $M$. Properties of $M$ will then be entirely determined by $S$, so classifying such subsets will lead to a classification of modules. But $M$ generates itself, and this generation is clearly redundant (if $M\neq\l\{0\r\}$), so we need to cut those generating sets down to remove redundancies.</description>
+      <description>Motivation &amp;amp; Definition Given an $R$-module $M$ over a commutative ring $R$, it is useful to know whether there is a ‘simple’ generating set of $M$. Properties of $M$ will then be entirely determined by $S$, so classifying such subsets will lead to a classification of modules. Clearly $M$ generates itself, but this generation is clearly redundant (if $M\neq\l\{0\r\}$), so we need to cut those generating sets down to remove redundancies.</description>
     </item>
     <item>
       <title>Vector Space</title>
