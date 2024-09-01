@@ -33,7 +33,7 @@ function styleTitle() {
 export function styleHeaders(resize) {
     for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
         if (!resize && h1El) { styleH1(h1El, h1Index); }
-        
+
         for (var h2Counter = 0; h2Counter < h2List.length; h2Counter++) {
             styleH2(h2List[h2Counter], h1Index, h2Counter + 1, resize);
         }
