@@ -1,5 +1,4 @@
 import { toSmallCaps, textOfNode, trimHeaders } from '../stringUtils.js';
-import { preToggleHeader } from './expand.js';
 import { getFontSize, getSCFontSize,
          headers, metaTOCEl, titleEl } from '../single.js';
 
@@ -10,6 +9,7 @@ export function initMetaTOC() {
     styleTitle();
     styleHeaders(false);
     generateTOC();
+    formatHeaders();
 }
 
 function styleTitle() {
@@ -62,8 +62,7 @@ function styleH1(el, counter) {
 
     var h1Button = document.createElement('span');
     h1Button.innerHTML = el.innerHTML;
-    h1Button.classList.add('h1Button');
-    h1Button.onclick = function() { preToggleHeader(el) };
+    h1Button.classList.add('headerButton');
     el.innerHTML = '';
     el.appendChild(h1Button);
 
@@ -83,8 +82,7 @@ function styleH2(el, parentCounter, counter, resize) {
 
         var h2Button = document.createElement('span');
         h2Button.innerHTML = el.innerHTML;
-        h2Button.classList.add('h2Button');
-        h2Button.onclick = function() { preToggleHeader(el) };
+        h2Button.classList.add('headerButton');
         el.innerHTML = '';
         el.appendChild(h2Button);
 
@@ -140,6 +138,40 @@ function generateTOCHeader(headers, prefix, text) {
     TOC_El.appendChild(TOC_Button);
 
     return TOC_El;
+}
+
+function formatHeaders() {
+    for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
+        if (h1El) {
+            var h1Header = h1El;
+            var h1Start = h1Header.nextElementSibling;
+            var h1Wrapper = document.createElement('span');
+            h1Header.after(h1Wrapper);
+
+            formatHeadersHelper(h1Header, h1Wrapper, h1Start, 'H1');
+        }
+
+        for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
+            var h2Header = h2List[h2Index];
+            var h2Start = h2Header.nextElementSibling;
+            var h2Wrapper = document.createElement('span');
+            h2Header.after(h2Wrapper);
+
+            formatHeadersHelper(h2Header, h2Wrapper, h2Start, 'H2');
+        }
+    }
+}
+
+function formatHeadersHelper(header, wrapper, curEl, type) {
+    if (!curEl) { return; }
+    if ((type == 'H1' && curEl.tagName == 'H1') ||
+        (type == 'H2' && (curEl.tagName == 'H1' || curEl.tagName == 'H2')) ||
+        (curEl.classList.contains('bottomSpace')))
+    { return; }
+
+    var nextEl = curEl.nextElementSibling;
+    wrapper.appendChild(curEl);
+    formatHeadersHelper(header, wrapper, nextEl, type);
 }
 
 export function showMetaTOC() {

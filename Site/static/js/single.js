@@ -5,7 +5,7 @@ import { toggleDark } from './darkMode.js';
 
 var root = document.querySelector(':root');
 
-export var contentEl, titleEl, metaDataEl,
+export var contentEl, titleEl, metaDataEl, proofHeaderEls,
            resetSideEl, metaLinksEl, metaTOCEl;
 export var headers = {};
 
@@ -15,21 +15,23 @@ var fontSize = 23;
 var sideExpanded = true;
 
 document.addEventListener('DOMContentLoaded', (e) => {
-    metaLinksEl = document.getElementById('metaLinks');
-    initMetaLinks();
-
-    metaTOCEl = document.getElementById('metaTOC');
-    headerEls = document.querySelectorAll('h1, h2')
-    expandHeaders(headerEls);
-    titleEl = headerEls[0];
-    initMetaTOC();
+    setFontSize(fontSize);
 
     contentEl = document.getElementById('content');
     metaDataEl = document.getElementById('metadata');
+    metaTOCEl = document.getElementById('metaTOC');
+    metaLinksEl = document.getElementById('metaLinks');
     resetSideEl = document.getElementById('resetSide');
-    curSideEl = metaDataEl;
 
-    setFontSize(fontSize);
+    headerEls = document.querySelectorAll('h1, h2')
+    proofHeaderEls = document.getElementsByClassName('proofHeader');
+
+    curSideEl = metaDataEl;
+    expandHeaders(headerEls);
+    titleEl = headerEls[0];
+
+    initMetaLinks();
+    initMetaTOC();
 
     if (localStorage['darkMode'] == 'dark') {
         toggleDark(document, true, true, true);

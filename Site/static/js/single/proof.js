@@ -1,6 +1,5 @@
 import { getTextHeight, headers } from '../single.js';
 
-var proofHeaders = document.getElementsByClassName('proofHeader');
 window.initProofHeaders = initProofHeaders;
 
 // Toggle on click

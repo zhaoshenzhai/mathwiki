@@ -86,16 +86,13 @@ blockquote {
     text-align: center;
 }
 
-.h1Button, .h2Button {
+.headerButton {
+    padding: 1px 8px;
     border-radius: 5px;
     transition: background-color 0.2s ease-out;
 }
 
-.h1Button {
-    padding: 1px 10px;
-}
-
-.h1Button:hover, .h2Button:hover {
+.headerButton:hover {
     cursor: pointer;
     background-color: var(--box-bg);
 }
