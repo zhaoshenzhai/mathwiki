@@ -1,4 +1,5 @@
 import { toSmallCaps, textOfNode, trimHeaders } from '../stringUtils.js';
+import { preToggleHeader } from './expand.js';
 import { getFontSize, getSCFontSize,
          headers, metaTOCEl, titleEl } from '../single.js';
 
@@ -59,8 +60,16 @@ function styleH1(el, counter) {
         }
     }
 
+    var h1Button = document.createElement('span');
+    h1Button.innerHTML = el.innerHTML;
+    h1Button.classList.add('h1Button');
+    h1Button.onclick = function() { preToggleHeader(el) };
+    el.innerHTML = '';
+    el.appendChild(h1Button);
+
     var num = document.createElement('span');
     num.innerText = counter + '. ';
+    num.classList.add('noSelect');
     el.prepend(num);
 }
 
@@ -70,12 +79,20 @@ function styleH2(el, parentCounter, counter, resize) {
     el.style.fontSize = getFontSize() + "px";
 
     if (!resize) {
-        var num = document.createElement('span');
-        num.innerText = parentCounter + '.' + counter + '. '
-        num.style.fontWeight = 'normal';
-
-        el.prepend(num);
         el.innerHTML += '.';
+
+        var h2Button = document.createElement('span');
+        h2Button.innerHTML = el.innerHTML;
+        h2Button.classList.add('h2Button');
+        h2Button.onclick = function() { preToggleHeader(el) };
+        el.innerHTML = '';
+        el.appendChild(h2Button);
+
+        var num = document.createElement('span');
+        num.innerText = parentCounter + '.' + counter + '. ';
+        num.style.fontWeight = 'normal';
+        num.classList.add('noSelect');
+        el.prepend(num);
     }
 }
 
