@@ -85,7 +85,7 @@ function styleH2(el, parentCounter, counter, resize) {
         var h2Button = document.createElement('span');
         h2Button.innerHTML = el.innerHTML;
         h2Button.classList.add('collapsibleHeader');
-        h2Button.classList.add('sectionHeaderbutton');
+        h2Button.classList.add('sectionHeaderButton');
         el.innerHTML = '';
         el.appendChild(h2Button);
 
