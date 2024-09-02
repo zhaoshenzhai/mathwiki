@@ -45,6 +45,7 @@ function styleH1(el, counter) {
     el.setAttribute('id', el.innerText);
     el.classList.add('center');
     el.classList.add('h1Title');
+    el.classList.add('noSelect');
 
     for (var i = 0; i < el.childNodes.length; i++) {
         if (!el.childNodes[i].innerText) {
@@ -68,7 +69,6 @@ function styleH1(el, counter) {
 
     var num = document.createElement('span');
     num.innerText = counter + '. ';
-    num.classList.add('noSelect');
     el.prepend(num);
 }
 
@@ -79,6 +79,7 @@ function styleH2(el, parentCounter, counter, resize) {
 
     if (!resize) {
         el.innerHTML += '.';
+        el.classList.add('noSelect');
 
         var h2Button = document.createElement('span');
         h2Button.innerHTML = el.innerHTML;
@@ -145,7 +146,8 @@ function formatHeaders() {
         if (h1El) {
             var h1Header = h1El;
             var h1Start = h1Header.nextElementSibling;
-            var h1Wrapper = document.createElement('span');
+            var h1Wrapper = document.createElement('div');
+            h1Wrapper.classList.add('collapsibleContent');
             h1Header.after(h1Wrapper);
 
             formatHeadersHelper(h1Header, h1Wrapper, h1Start, 'H1');
@@ -154,7 +156,8 @@ function formatHeaders() {
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
             var h2Header = h2List[h2Index];
             var h2Start = h2Header.nextElementSibling;
-            var h2Wrapper = document.createElement('span');
+            var h2Wrapper = document.createElement('div');
+            h2Wrapper.classList.add('collapsibleContent');
             h2Header.after(h2Wrapper);
 
             formatHeadersHelper(h2Header, h2Wrapper, h2Start, 'H2');

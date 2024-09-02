@@ -29,7 +29,7 @@
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaLinks.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaTOC.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/preview.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/proof.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/expand.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/side.js" type="module" defer></script>
 
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
@@ -64,7 +64,7 @@
 
 <p>Essentially the same proof that normal subgroups correspond to congruences for groups works here:</p>
 <blockquote>
-<div class="envProof hide"><i class="proofHeader noSelect">Proof.</i><div class="proofExpand noSelect"><i>Click to expand...</i></div>
+<div class="envProof hide"><i class="proofHeader noSelect">Proof.</i><div class="proofHintText noSelect"><i>Click to expand...</i></div>
 
         <span class="proofContent"><p>Given a congruence $\sim$, the subset $\mf{a}\coloneqq\l\{r\in R\st n\sim0\r\}$ is a subgroup of $R$. For all $r\in R$, we have $rn\sim r0=0$, so $r\mf{a}\subseteq\mf{a}$. Similarly, we have $\mf{a}r\subseteq\mf{a}$, so $\mf{a}$ is a two-sided ideal.</p>
 <br>
@@ -96,7 +96,7 @@ r_1s_1-r_2s_2=r_1s_1-r_1s_2+r_1s_2-r_2s_2=r_1(s_1-s_2)+(r_1-r_2)s_2\in\mf{a}.\qe
 </ol>
 
 
-            <div class="spacer">&nbsp;</div>
+            <div class="bottomSpace">&nbsp;</div>
         </div>
 
         <div id="side" class="inPreview">
@@ -124,7 +124,7 @@ r_1s_1-r_2s_2=r_1s_1-r_1s_2+r_1s_2-r_2s_2=r_1(s_1-s_2)+(r_1-r_2)s_2\in\mf{a}.\qe
                     <div id="metaLinks"></div>
                 </div>
 
-                <div class="spacer">&nbsp;</div>
+                <div class="bottomSpace">&nbsp;</div>
             </div>
             <div id="previewContainer">
                 <button id="resetSide" onclick="resetSide();" class="navButton noSelect" style="display: none;">

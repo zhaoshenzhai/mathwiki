@@ -29,7 +29,7 @@
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaLinks.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaTOC.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/preview.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/proof.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/expand.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/side.js" type="module" defer></script>
 
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
@@ -60,7 +60,7 @@
 <h2 id="hereditary-properties">Hereditary Properties</h2>
 <p>Any subset $Y\subseteq X$ of a separable metrizable space is also separable.</p>
 <blockquote>
-<div class="envProof"><i class="proofHeader noSelect">Proof.</i><div class="proofExpand noSelect"><i>Click to expand...</i></div>
+<div class="envProof"><i class="proofHeader noSelect">Proof.</i><div class="proofHintText noSelect"><i>Click to expand...</i></div>
 
         <span class="proofContent"><p>Let $Q$ be a countable dense subset of $X$. For each $q\in Q$ and $n\geq1$, let $y_{q,n}\in Y$ be such that $d(q,y_{q,n})\leq d(q,Y)+1/n$. Set $D\coloneqq\l\{y_{q,n}\in Y\st q\in Q,n\geq1\r\}$, which we claim witnesses separability of $Y$.</p>
 <br>
@@ -73,7 +73,7 @@ d(y,y_{q,n})\leq d(q,y)+d(q,y_{q,n})&lt;d(q,y)+d(q,Y)+\epsilon/3\leq 2d(q,y)+\ep
 </blockquote>
 
 
-            <div class="spacer">&nbsp;</div>
+            <div class="bottomSpace">&nbsp;</div>
         </div>
 
         <div id="side" class="inPreview">
@@ -101,7 +101,7 @@ d(y,y_{q,n})\leq d(q,y)+d(q,y_{q,n})&lt;d(q,y)+d(q,Y)+\epsilon/3\leq 2d(q,y)+\ep
                     <div id="metaLinks"></div>
                 </div>
 
-                <div class="spacer">&nbsp;</div>
+                <div class="bottomSpace">&nbsp;</div>
             </div>
             <div id="previewContainer">
                 <button id="resetSide" onclick="resetSide();" class="navButton noSelect" style="display: none;">

@@ -11,15 +11,16 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
     for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
         if (h1El) {
-            h1El.childNodes[1].addEventListener('click', function() {
+            h1El.childNodes[0].addEventListener('click', function() {
                 var header = this.parentElement;
+                console.log(header);
                 var container = header.nextElementSibling;
                 toggle(header, container, null, false);
             });
         }
 
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
-            h2List[h2Index].childNodes[1].addEventListener('click', function() {
+            h2List[h2Index].childNodes[0].addEventListener('click', function() {
                 var header = this.parentElement;
                 var container = header.nextElementSibling;
                 toggle(header, container, null, false);
@@ -35,6 +36,7 @@ export function expandCollapsibles() {
 function toggle(header, container, hintText, forceExpand) {
     console.log(header);
     console.log(container);
+    console.log(container.scrollHeight);
     console.log(container.offsetHeight);
 
     if (forceExpand || !header.classList.contains('expanded')) {

@@ -34,10 +34,6 @@
     margin: 0;
 }
 
-.metaTOCListH1, .metaTOCListH2 {
-    counter-reset: item;
-}
-
 .metaTOCListH1 {
     font-size: 18px;
 }
@@ -48,11 +44,6 @@
 
 .metaTOCListH1 li, .metaTOCListH2 li {
     display: block;
-}
-
-.metaTOCListH1 li:before, .metaTOCListH2 li:before {
-    content: counters(item, ".") ". ";
-    counter-increment: item;
 }
 
 .metaTOCButton {

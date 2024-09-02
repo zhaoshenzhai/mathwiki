@@ -29,7 +29,7 @@
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaLinks.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaTOC.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/preview.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/proof.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/expand.js" type="module" defer></script>
     <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/side.js" type="module" defer></script>
 
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
@@ -60,7 +60,7 @@
 <p>More abstractly, we need $(X/E,\pi)$ to be initial in the coslice category $(Z,f:X\to Z)$ making $f(x)=f(y)$ whenever $xEy$. This can be realized by the following</p>
 <div class="env envDef"><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg"><b class="envTitle">Definition. </b>Let $E$ be an equivalence relation on a set $X$. The <em>quotient set</em> of $X$ by $E$ is the set $X/E\coloneqq\l\{[x]_E\st x\in X\r\}$ of all equivalence classes of $X$.</div>
 
-<div class="envProof"><i class="proofHeader noSelect">Proof (of the universal property).</i><div class="proofExpand noSelect"><i>Click to expand...</i></div>
+<div class="envProof"><i class="proofHeader noSelect">Proof (of the universal property).</i><div class="proofHintText noSelect"><i>Click to expand...</i></div>
 
         <span class="proofContent">Let $(Z,f)$ be as above. For a function $f&rsquo;:X/E\to Z$ with $f=f&rsquo;\circ\pi$, we need $f&rsquo;([x]_E)=f(x)$ for all $x\in X$, so uniqueness of $f&rsquo;$ follows. For existence, we need to show that $f&rsquo;$ is well-defined, but this is precisely the condition that $f(x)=f(y)$ whenever $xEy$.<span style="float:right;">$\blacksquare$</span></span></div>
 
@@ -72,7 +72,7 @@
 <div class="env"><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg"><b class="envTitle">Theorem. </b><p>We have a unique isomorphism $X/E_f\iso\im f$, and so $f$ factors as</p>
 <img class="tikz noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/img/canonical_decomposition.svg" width="400"></div>
 
-<div class="envProof hide"><i class="proofHeader noSelect">Proof.</i><div class="proofExpand noSelect"><i>Click to expand...</i></div>
+<div class="envProof hide"><i class="proofHeader noSelect">Proof.</i><div class="proofHintText noSelect"><i>Click to expand...</i></div>
 
         <span class="proofContent"><p>Restricting the codomain of $f$, we obtain a surjection $f_0:X\onto\im f$. It suffices to show that $f_0$ satisfies the same universal property as $\pi$, for then $X/E_f\iso\im f$ and we obtain the desired decomposition of $f$.</p>
 <br>
@@ -82,7 +82,7 @@
 <h1 id="set-theoretic-aspects">Set-theoretic Aspects</h1>
 
 
-            <div class="spacer">&nbsp;</div>
+            <div class="bottomSpace">&nbsp;</div>
         </div>
 
         <div id="side" class="inPreview">
@@ -112,7 +112,7 @@
                     <div id="metaLinks"></div>
                 </div>
 
-                <div class="spacer">&nbsp;</div>
+                <div class="bottomSpace">&nbsp;</div>
             </div>
             <div id="previewContainer">
                 <button id="resetSide" onclick="resetSide();" class="navButton noSelect" style="display: none;">

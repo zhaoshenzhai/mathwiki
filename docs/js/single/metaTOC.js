@@ -1,39 +1,24 @@
-import { toSmallCaps, textOfNode } from '../stringUtils.js';
+import { toSmallCaps, textOfNode, trimHeaders } from '../stringUtils.js';
 import { getFontSize, getSCFontSize,
-         headersEl, metaTOCEl } from '../single.js';
+         headers, metaTOCEl, titleEl } from '../single.js';
 
 window.showMetaTOC = showMetaTOC;
 window.hideMetaTOC = hideMetaTOC;
 
-var headers = {};
-
 export function initMetaTOC() {
-    expandHeaders();
+    styleTitle();
     styleHeaders(false);
     generateTOC();
+    formatHeaders();
 }
 
-function expandHeaders() {
-    for (var i = 1; i < headersEl.length; i++) {
-        var h2List = [];
-        var h2Index = i + 1;
-        while (headersEl[h2Index] && headersEl[h2Index].tagName == 'H2') {
-            h2List.push(headersEl[h2Index]);
-            h2Index++;
-        }
-
-        headers[i] = h2List;
-        i = h2Index - 1;
-    }
-}
-
-export function styleHeaders(resize) {
+function styleTitle() {
     var newTitle = document.createElement('h1');
-    var newTitleSize = headersEl[0].getAttribute('titleSize');
+    var newTitleSize = titleEl.getAttribute('titleSize');
     if (!newTitleSize) { newTitleSize = 25; }
 
     var newTitleSC = toSmallCaps(
-        headersEl[0].innerText,
+        titleEl.innerText,
         newTitleSize,
         Number(newTitleSize) + 5
     );
@@ -42,74 +27,25 @@ export function styleHeaders(resize) {
     newTitle.setAttribute('id', 'title');
     newTitle.classList.add('center');
 
-    if (headersEl[0].nextElementSibling != headersEl[1]) {
-        newTitle.classList.add('title_spacer');
-    }
+    if (headers[0]) { newTitle.classList.add('title_spacer'); }
+    titleEl.replaceWith(newTitle);
+}
 
-    headersEl[0].replaceWith(newTitle);
-
-    var h1Counter = 1;
-    for(var [h1Index, h2List] of Object.entries(headers)) {
-        if (!resize) { styleH1(headersEl[h1Index], h1Counter); }
+export function styleHeaders(resize) {
+    for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
+        if (!resize && h1El) { styleH1(h1El, h1Index); }
 
         for (var h2Counter = 0; h2Counter < h2List.length; h2Counter++) {
-            styleH2(h2List[h2Counter], h1Counter, h2Counter + 1, resize);
-        }
-
-        h1Counter++;
-    }
-}
-
-function generateTOC() {
-    var h1Headers = document.createElement('ol');
-    h1Headers.classList.add('metaTOCListH1');
-    metaTOCEl.appendChild(h1Headers);
-
-    if (Object.keys(headers).length == 0) {
-        document.getElementById('metaTOC').remove();
-    }
-
-    for(var [h1Index, h2List] of Object.entries(headers)) {
-        var h1El = document.createElement('li');
-        var h1Button = document.createElement('button');
-        h1El.appendChild(h1Button);
-        h1Headers.appendChild(h1El);
-
-        h1Button.onclick = function () { goTo(this.getAttribute('text')) };
-        h1Button.classList.add('metaTOCButton');
-        h1Button.classList.add('listenDark');
-        h1Button.innerText = headersEl[h1Index].getAttribute('id');
-        h1Button.setAttribute('text', h1Button.innerText);
-
-        var h2Headers = document.createElement('ol');
-        h2Headers.classList.add('metaTOCListH2');
-        h1El.appendChild(h2Headers);
-        for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
-            var h2El = document.createElement('li');
-            var h2Button = document.createElement('button');
-            h2El.appendChild(h2Button);
-            h2Headers.appendChild(h2El);
-
-            h2Button.onclick = function () { goTo(this.getAttribute('text')) };
-            h2Button.classList.add('metaTOCButton');
-            h2Button.classList.add('listenDark');
-            h2Button.innerText = h2List[h2Index].innerText
-                .replace(/\.$/, '').replace(/.*\.\ /, '');
-            h2Button.setAttribute('text', h2Button.innerText);
+            styleH2(h2List[h2Counter], h1Index, h2Counter + 1, resize);
         }
     }
-}
-
-function goTo(anchor) {
-    var loc = document.location.toString().split('#')[0];
-    document.location = loc + '#' + anchor;
-    return false;
 }
 
 function styleH1(el, counter) {
     el.setAttribute('id', el.innerText);
     el.classList.add('center');
     el.classList.add('h1Title');
+    el.classList.add('noSelect');
 
     for (var i = 0; i < el.childNodes.length; i++) {
         if (!el.childNodes[i].innerText) {
@@ -125,6 +61,12 @@ function styleH1(el, counter) {
         }
     }
 
+    var h1Button = document.createElement('span');
+    h1Button.innerHTML = el.innerHTML;
+    h1Button.classList.add('headerButton');
+    el.innerHTML = '';
+    el.appendChild(h1Button);
+
     var num = document.createElement('span');
     num.innerText = counter + '. ';
     el.prepend(num);
@@ -136,13 +78,103 @@ function styleH2(el, parentCounter, counter, resize) {
     el.style.fontSize = getFontSize() + "px";
 
     if (!resize) {
-        var num = document.createElement('span');
-        num.innerText = parentCounter + '.' + counter + '. '
-        num.style.fontWeight = 'normal';
-
-        el.prepend(num);
         el.innerHTML += '.';
+        el.classList.add('noSelect');
+
+        var h2Button = document.createElement('span');
+        h2Button.innerHTML = el.innerHTML;
+        h2Button.classList.add('headerButton');
+        el.innerHTML = '';
+        el.appendChild(h2Button);
+
+        var num = document.createElement('span');
+        num.innerText = parentCounter + '.' + counter + '. ';
+        num.style.fontWeight = 'normal';
+        num.classList.add('noSelect');
+        el.prepend(num);
     }
+}
+
+function generateTOC() {
+    var h1TOC_Headers = document.createElement('ol');
+    h1TOC_Headers.classList.add('metaTOCListH1');
+    metaTOCEl.appendChild(h1TOC_Headers);
+
+    if (Object.keys(headers).length == 0) {
+        document.getElementById('metaTOC').remove();
+    }
+
+    for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
+        var h1TOC_ElPrefix = h1Index + '. '
+        var h1TOC_ElText = h1El ? h1El.getAttribute('id') : 'Introduction';
+        var h1TOC_El = generateTOCHeader(h1TOC_Headers, h1Index + '. ', h1TOC_ElText);
+
+        var h2TOC_Headers = document.createElement('ol');
+        h2TOC_Headers.classList.add('metaTOCListH2');
+        h1TOC_El.appendChild(h2TOC_Headers);
+
+        for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
+            var h2TOC_ElPrefix = h1Index + '.' + (h2Index + 1) + '. ';
+            var h2TOC_ElText = trimHeaders(h2List[h2Index].innerText);
+            generateTOCHeader(h2TOC_Headers, h2TOC_ElPrefix, h2TOC_ElText);
+        }
+    }
+}
+
+function generateTOCHeader(headers, prefix, text) {
+    var TOC_El = document.createElement('div');
+    headers.appendChild(TOC_El);
+
+    var TOC_Num = document.createElement('span');
+    TOC_Num.innerText = prefix;
+    TOC_Num.classList.add('noSelect');
+
+    var TOC_Button = document.createElement('button');
+    TOC_Button.onclick = function () { goTo(text) };
+    TOC_Button.classList.add('metaTOCButton');
+    TOC_Button.classList.add('listenDark');
+    TOC_Button.innerText = text;
+
+    TOC_El.appendChild(TOC_Num);
+    TOC_El.appendChild(TOC_Button);
+
+    return TOC_El;
+}
+
+function formatHeaders() {
+    for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
+        if (h1El) {
+            var h1Header = h1El;
+            var h1Start = h1Header.nextElementSibling;
+            var h1Wrapper = document.createElement('span');
+            h1Wrapper.classList.add('collapsibleContent');
+            h1Header.after(h1Wrapper);
+
+            formatHeadersHelper(h1Header, h1Wrapper, h1Start, 'H1');
+        }
+
+        for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
+            var h2Header = h2List[h2Index];
+            var h2Start = h2Header.nextElementSibling;
+            var h2Wrapper = document.createElement('span');
+            h2Wrapper.classList.add('collapsibleContent');
+            h2Header.after(h2Wrapper);
+
+            formatHeadersHelper(h2Header, h2Wrapper, h2Start, 'H2');
+        }
+    }
+}
+
+function formatHeadersHelper(header, wrapper, curEl, type) {
+    if (!curEl) { return; }
+    if ((type == 'H1' && curEl.tagName == 'H1') ||
+        (type == 'H2' && (curEl.tagName == 'H1' || curEl.tagName == 'H2')) ||
+        (curEl.classList.contains('bottomSpace')))
+    { return; }
+
+    var nextEl = curEl.nextElementSibling;
+    wrapper.appendChild(curEl);
+    formatHeadersHelper(header, wrapper, nextEl, type);
 }
 
 export function showMetaTOC() {
@@ -150,4 +182,10 @@ export function showMetaTOC() {
 }
 function hideMetaTOC() {
     metaTOCEl.style.maxHeight = null;
+}
+
+function goTo(anchor) {
+    var loc = document.location.toString().split('#')[0];
+    document.location = loc + '#' + anchor;
+    return false;
 }
