@@ -97,10 +97,14 @@ blockquote {
     background-color: var(--box-bg);
 }
 
-.collapsibleContent {
-    max-height: 0px;
+.collapsibleContainer {
+    max-height: 100px;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+
+.collapsibleContent {
+    transition: opacity 0.2s ease-out;
 }
 
 .space {

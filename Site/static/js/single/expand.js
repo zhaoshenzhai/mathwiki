@@ -13,16 +13,19 @@ document.addEventListener('DOMContentLoaded', (e) => {
         if (h1El) {
             h1El.childNodes[1].addEventListener('click', function() {
                 var header = this.parentElement;
-                var container = header.nextElementSibling;
-                toggle(header, container, null, false);
+                var container = header.parentElement;
+                var content = header.nextElementSibling;
+
+                toggle(container, header, content, null, false);
             });
         }
 
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
             h2List[h2Index].childNodes[1].addEventListener('click', function() {
                 var header = this.parentElement;
-                var container = header.nextElementSibling;
-                toggle(header, container, null, false);
+                var container = header.parentElement;
+                var content = header.nextElementSibling;
+                toggle(container, header, content, null, false);
             });
         }
     }
@@ -32,24 +35,19 @@ export function expandCollapsibles() {
 
 }
 
-function toggle(header, container, hintText, forceExpand) {
-    console.log(header);
-    console.log(container);
-    console.log(container.offsetHeight);
-
+function toggle(container, header, content, hintText, forceExpand) {
     if (forceExpand || !header.classList.contains('expanded')) {
         container.style.maxHeight = container.scrollHeight + 'px';
-        // container.style.opacity = '1';
-        // container.style.display = 'inline';
+        content.style.opacity = '1';
+
         if (hintText) { hintText.style.opacity = '0'; }
         if (!forceExpand) { header.classList.add('expanded'); }
     } else {
         container.style.maxHeight = null;
         // container.style.maxHeight = getTextHeight() + 'px';
-        // container.style.opacity = '0';
-        // container.style.display = 'none';
-        if (hintText) { hintText.style.opacity = '0.6'; }
+        content.style.opacity = '0';
 
+        if (hintText) { hintText.style.opacity = '0.6'; }
         header.classList.remove('expanded');
     }
 }
