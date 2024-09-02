@@ -1,5 +1,4 @@
-import { headers, proofHeaderEls,
-         getTextHeight } from '../single.js';
+import { headers, proofHeaderEls, getTextHeight } from '../single.js';
 
 document.addEventListener('DOMContentLoaded', (e) => {
     for (var i = 0; i < proofHeaderEls.length; i++) {
@@ -33,8 +32,12 @@ document.addEventListener('DOMContentLoaded', (e) => {
     }
 });
 
-export function expandCollapsibles() {
-
+export function initCollapsibles() {
+    for (var i = 0; i < proofHeaderEls.length; i++) {
+        var container = proofHeaderEls[i].parentElement;
+        var content = proofHeaderEls[i].nextElementSibling.nextElementSibling;
+        container.style.maxHeight = content.getBoundingClientRect().height + 'px';
+    }
 }
 
 function toggle(container, header, content, hintText, forceExpand) {
