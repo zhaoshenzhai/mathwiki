@@ -143,21 +143,21 @@ function generateTOCHeader(headers, prefix, text) {
 
 function formatHeaders() {
     for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
-        if (h1El) { formatHeader(h1El) }
+        if (h1El) { formatHeader(h1El, 'H1') }
 
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
-            formatHeader(h2List[h2Index]);
+            formatHeader(h2List[h2Index], 'H2');
         }
     }
 }
 
-function formatHeader(header) {
+function formatHeader(header, type) {
     var start = header.nextElementSibling;
     var wrapper = document.createElement('span');
     wrapper.classList.add('collapsibleContent');
     header.after(wrapper);
 
-    formatHeaderHelper(header, wrapper, start, 'H1');
+    formatHeaderHelper(header, wrapper, start, type);
 
     var container = document.createElement('div');
     header.parentNode.insertBefore(container, header.nextSibling);

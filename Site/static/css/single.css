@@ -98,7 +98,7 @@ blockquote {
 }
 
 .collapsibleContainer {
-    max-height: 100px;
+    max-height: 1000000000000px;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }

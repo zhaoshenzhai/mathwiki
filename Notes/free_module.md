@@ -35,7 +35,7 @@ The converse is trivial. Let $\mf{m}\nsubgrp R$ be a {{< link file="prime_and_ma
 
 > Indeed, let $k$ act on $M$ by $(r+\mf{m})m\coloneqq rm$. This is well-defined since if $\bar{r_1}=\bar{r_2}$, then $r_1m-r_2m=(r_1-r_2)m\in\mf{m}m=0$.
 
-Since $\mf{m}(R^A/\mf{m}R^A)=0$, this makes $R^A/\mf{m}R^A$ into a $k$-vector space, and we have a map $\pi:R^A\onto k^A$ with $\ker\pi=\mf{m}R^A$. Thus we have $R^A/\mf{m}R^A\iso k^A$, and similarly for $B$, so $k^A\iso k^B$. Finally, the {{< link file="vector_space.md" display="Exchange Lemma" type="proved_by" section="Existence of Bases" >}} for $k$-vector spaces forces $|A|=|B|$, as desired.<span style="float:right;">$\blacksquare$</span>
+Since $\mf{m}(R^A/\mf{m}R^A)=0$, this makes $R^A/\mf{m}R^A$ into a $k$-vector space, and the projection $\pi:R^A\onto k^A$ has $\ker\pi=\mf{m}R^A$. Thus we have $R^A/\mf{m}R^A\iso k^A$, and similarly for $B$, so $k^A\iso k^B$. Finally, the {{< link file="vector_space.md" display="Exchange Lemma" type="proved_by" section="Existence of Bases" >}} for $k$-vector spaces forces $|A|=|B|$, as desired.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 
