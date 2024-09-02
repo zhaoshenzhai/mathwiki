@@ -1,15 +1,15 @@
 .collapsibleContainer {
     overflow: hidden;
-    max-height: 100000px;
+    max-height: 0px;
     transition: max-height var(--collapseTransition);
 }
 
-.collapsibleHeader {
+.collapsibleHeaderButton {
     border-radius: 5px;
     transition: background-color var(--collapseTransition);
 }
 
-.collapsibleHeader:hover {
+.collapsibleHeaderButton:hover {
     cursor: pointer;
     background-color: var(--box-bg);
 }
@@ -28,6 +28,6 @@
     z-index: -1;
 }
 
-.sectionHeaderButton {
+.sectionHeader {
     padding: 1px 8px;
 }

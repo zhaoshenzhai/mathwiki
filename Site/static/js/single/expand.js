@@ -3,30 +3,20 @@ import { headers, proofHeaderEls, getTextHeight } from '../single.js';
 document.addEventListener('DOMContentLoaded', (e) => {
     for (var i = 0; i < proofHeaderEls.length; i++) {
         proofHeaderEls[i].addEventListener('click', function() {
-            var container = this.parentElement;
-            var header = container.children[0];
-            var hintText = this.nextElementSibling;
-            var content = hintText.nextElementSibling;
-            toggle(container, header, content, hintText, false);
+            toggle(getCollapsible(this), false, false);
         });
     }
 
     for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
         if (h1El) {
             h1El.childNodes[1].addEventListener('click', function() {
-                var container = this.parentElement.parentElement;
-                var header = container.children[0];
-                var content = this.parentElement.nextElementSibling;
-                toggle(container, header, content, null, false);
+                toggle(getCollapsible(this.parentElement), null, false, false);
             });
         }
 
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
             h2List[h2Index].childNodes[1].addEventListener('click', function() {
-                var container = this.parentElement.parentElement;
-                var header = container.children[0];
-                var content = this.parentElement.nextElementSibling;
-                toggle(container, header, content, null, false);
+                toggle(getCollapsible(this.parentElement), null, false, false);
             });
         }
     }
@@ -34,29 +24,32 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
 export function initCollapsibles() {
     for (var i = 0; i < proofHeaderEls.length; i++) {
-        var container = proofHeaderEls[i].parentElement;
-        var content = proofHeaderEls[i].nextElementSibling.nextElementSibling;
-        container.style.maxHeight = content.getBoundingClientRect().height + 'px';
+        toggle(getCollapsible(proofHeaderEls[i]), true, true);
     }
 
     for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
         if (h1El) {
-            var container = h1El.parentElement;
-            var content = h1El.nextElementSibling;
-            container.style.maxHeight = content.getBoundingClientRect().height + 'px';
+            toggle(getCollapsible(h1El), true, true);
         }
 
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
-            var container = h2List[h2Index].parentElement;
-            var content = h2List[h2Index].nextElementSibling;
-            container.style.maxHeight = content.getBoundingClientRect().height + 'px';
+            toggle(getCollapsible(h2List[h2Index]), true, true);
         }
-
     }
 }
 
-function toggle(container, header, content, hintText, forceExpand) {
+function toggle([container, header, content, hintText], forceExpand, noTransition) {
     if (!container) { return; }
+
+    var transitionEls = [container, content];
+    if (hintText) { transitionEls.push(hintText); }
+
+    if (noTransition) {
+        transitionEls.forEach(el => {
+            el.classList.add('noTransition');
+        });
+    }
+
     if (forceExpand || header.classList.contains('hidden')) {
         container.style.maxHeight = container.scrollHeight + 'px';
         content.style.opacity = '1';
@@ -65,8 +58,10 @@ function toggle(container, header, content, hintText, forceExpand) {
         if (hintText) { hintText.style.opacity = '0'; }
         if (!forceExpand) { header.classList.remove('hidden'); }
 
-        var ancestor = closestAncester(container, 'collapsibleContainer');
-        if (ancestor) { ancestor.style.maxHeight = 100000 + '%'; }
+        var ancestorContainer = closestAncester(container, 'collapsibleContainer');
+        if (ancestorContainer) {
+            toggle(getCollapsible(ancestorContainer), true, true);
+        }
     } else {
         container.style.maxHeight = '50px';
         content.style.opacity = '0';
@@ -80,6 +75,40 @@ function toggle(container, header, content, hintText, forceExpand) {
             }
         }, 200);
     }
+
+    if (noTransition) {
+        transitionEls.forEach(el => {
+            el.offsetHeight;
+            el.classList.remove('noTransition');
+        });
+    }
+}
+
+function getCollapsible(el) {
+    var container, header, content, hintText = null;
+
+    if (el.classList.contains('collapsibleContainer')) {
+        container = el;
+    } else {
+        container = el.parentElement;
+    }
+
+    for (var i = 0; i < container.childNodes.length; i++) {
+        var childEl = container.childNodes[i];
+
+        var childElClasses = childEl.classList;
+        if (childElClasses) {
+            if (childEl.classList.contains('collapsibleHeader')) {
+                header = childEl;
+            } else if (childEl.classList.contains('collapsibleContent')) {
+                content = childEl;
+            } else if (childEl.classList.contains('collapsibleHintText')) {
+                hintText = childEl;
+            }
+        }
+    }
+
+    return [container, header, content, hintText];
 }
 
 function closestAncester(el, cls) {
