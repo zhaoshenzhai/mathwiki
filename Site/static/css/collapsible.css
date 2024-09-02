@@ -1,6 +1,6 @@
 .collapsibleContainer {
     overflow: hidden;
-    max-height: 0px;
+    max-height: 100000px;
     transition: max-height var(--collapseTransition);
 }
 
@@ -18,7 +18,7 @@
     transition: opacity var(--collapseTransition);
 }
 
-.proofHintText {
+.collapsibleHintText {
     position: absolute;
     display: inline;
     width: 100%;

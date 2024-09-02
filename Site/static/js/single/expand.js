@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
 export function initCollapsibles() {
     for (var i = 0; i < proofHeaderEls.length; i++) {
+        console.log(getCollapsible(proofHeaderEls[i]));
         toggle(getCollapsible(proofHeaderEls[i]), true, true);
     }
 
@@ -60,7 +61,9 @@ function toggle([container, header, content, hintText], forceExpand, noTransitio
 
         var ancestorContainer = closestAncester(container, 'collapsibleContainer');
         if (ancestorContainer) {
-            toggle(getCollapsible(ancestorContainer), true, true);
+            setTimeout(() => {
+                toggle(getCollapsible(ancestorContainer), true, true);
+            }, 200);
         }
     } else {
         container.style.maxHeight = '50px';
