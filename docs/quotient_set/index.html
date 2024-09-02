@@ -8,41 +8,45 @@
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
-        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/colors.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/darkMode.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/noProperty.css">
 
-        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/varColor.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/varTransition.css">
 
-        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module" defer></script>
-        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module" defer></script>
-        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
-        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module"></script>
 
         <div style="display:none;" id="preamble"></div>
     </head>
 
     <body class="listenDark">
         
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaLinks.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaTOC.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/preview.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/expand.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/side.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaLinks.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaTOC.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/preview.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/expand.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/side.js" type="module"></script>
 
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/ctrlButtons.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/collapsible.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
-    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/nav.css">
 
     <div id="mainPage">
-        <button id="toggleDark" onclick="toggleDark(document, false, true, true);" class="navButton noSelect inPreview">
+        <button id="toggleDark" onclick="toggleDark(document, false, true, true);" class="ctrlButton noSelect inPreview">
             <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
         </button>
-        <button id="toggleSide" onclick="toggleSide(false);" class="navButton noSelect inPreview">
+        <button id="toggleSide" onclick="toggleSide(false);" class="ctrlButton noSelect inPreview">
             <img id="toggleSideIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
         </button>
         <div id="content" class="left noScroll">
@@ -60,9 +64,9 @@
 <p>More abstractly, we need $(X/E,\pi)$ to be initial in the coslice category $(Z,f:X\to Z)$ making $f(x)=f(y)$ whenever $xEy$. This can be realized by the following</p>
 <div class="env envDef"><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg"><b class="envTitle">Definition. </b>Let $E$ be an equivalence relation on a set $X$. The <em>quotient set</em> of $X$ by $E$ is the set $X/E\coloneqq\l\{[x]_E\st x\in X\r\}$ of all equivalence classes of $X$.</div>
 
-<div class="envProof"><i class="proofHeader noSelect">Proof (of the universal property).</i><div class="proofHintText noSelect"><i>Click to expand...</i></div>
+<div class="collapsibleContainer"><i class="proofHeader collapsibleHeader noSelect">Proof (of the universal property).</i><div class="proofHintText noSelect"><i>Click to expand...</i></div>
 
-        <span class="proofContent">Let $(Z,f)$ be as above. For a function $f&rsquo;:X/E\to Z$ with $f=f&rsquo;\circ\pi$, we need $f&rsquo;([x]_E)=f(x)$ for all $x\in X$, so uniqueness of $f&rsquo;$ follows. For existence, we need to show that $f&rsquo;$ is well-defined, but this is precisely the condition that $f(x)=f(y)$ whenever $xEy$.<span style="float:right;">$\blacksquare$</span></span></div>
+        <span class="collapsibleContent">Let $(Z,f)$ be as above. For a function $f&rsquo;:X/E\to Z$ with $f=f&rsquo;\circ\pi$, we need $f&rsquo;([x]_E)=f(x)$ for all $x\in X$, so uniqueness of $f&rsquo;$ follows. For existence, we need to show that $f&rsquo;$ is well-defined, but this is precisely the condition that $f(x)=f(y)$ whenever $xEy$.<span style="float:right;">$\blacksquare$</span></span></div>
 
 <div class="space"></div>
 <p><strong>Remark.</strong> In light of this universal property, we do not really care about the quotient <em>set</em> $X/E$. Rather, we care about the <em>function</em> $\pi:X\to X/E$, which is surjective, and is called the <em>canonical projection</em>.</p>
@@ -72,9 +76,9 @@
 <div class="env"><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg"><b class="envTitle">Theorem. </b><p>We have a unique isomorphism $X/E_f\iso\im f$, and so $f$ factors as</p>
 <img class="tikz noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/img/canonical_decomposition.svg" width="400"></div>
 
-<div class="envProof hide"><i class="proofHeader noSelect">Proof.</i><div class="proofHintText noSelect"><i>Click to expand...</i></div>
+<div class="collapsibleContainer hide"><i class="proofHeader collapsibleHeader noSelect">Proof.</i><div class="proofHintText noSelect"><i>Click to expand...</i></div>
 
-        <span class="proofContent"><p>Restricting the codomain of $f$, we obtain a surjection $f_0:X\onto\im f$. It suffices to show that $f_0$ satisfies the same universal property as $\pi$, for then $X/E_f\iso\im f$ and we obtain the desired decomposition of $f$.</p>
+        <span class="collapsibleContent"><p>Restricting the codomain of $f$, we obtain a surjection $f_0:X\onto\im f$. It suffices to show that $f_0$ satisfies the same universal property as $\pi$, for then $X/E_f\iso\im f$ and we obtain the desired decomposition of $f$.</p>
 <br>
 <p>  Indeed, if $(Z,g)$ respects $E_f$, then any $g&rsquo;:\im f\to Z$ with $g=g&rsquo;\circ f_0$ is forced to have $g&rsquo;(f(x))=g(x)$ for all $x$, so uniqueness follows. For existence, let $y\in\im f$, so $y=f(x)$ for some $x\in X$. Set $g&rsquo;(y)\coloneqq g(x)$, which is well-defined since if $y=f(x&rsquo;)$ for $x&rsquo;\in X$, then $f(x)=f(x&rsquo;)$ and hence $xE_fx&rsquo;$. Thus $g(x)=g(x&rsquo;)$, as desired.<span style="float:right;">$\blacksquare$</span></p>
 </span></div>
@@ -115,7 +119,7 @@
                 <div class="bottomSpace">&nbsp;</div>
             </div>
             <div id="previewContainer">
-                <button id="resetSide" onclick="resetSide();" class="navButton noSelect" style="display: none;">
+                <button id="resetSide" onclick="resetSide();" class="ctrlButton noSelect" style="display: none;">
                     <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
                 </button>
             </div>

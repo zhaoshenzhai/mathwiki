@@ -63,7 +63,8 @@ function styleH1(el, counter) {
 
     var h1Button = document.createElement('span');
     h1Button.innerHTML = el.innerHTML;
-    h1Button.classList.add('headerButton');
+    h1Button.classList.add('collapsibleHeader');
+    h1Button.classList.add('sectionHeaderButton');
     el.innerHTML = '';
     el.appendChild(h1Button);
 
@@ -83,7 +84,8 @@ function styleH2(el, parentCounter, counter, resize) {
 
         var h2Button = document.createElement('span');
         h2Button.innerHTML = el.innerHTML;
-        h2Button.classList.add('headerButton');
+        h2Button.classList.add('collapsibleHeader');
+        h2Button.classList.add('sectionHeaderbutton');
         el.innerHTML = '';
         el.appendChild(h2Button);
 

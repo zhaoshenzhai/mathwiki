@@ -1,5 +1,5 @@
 import { expandMetaLinks } from './single/metaLinks.js';
-import { expandCollapsibles } from './single/expand.js';
+import { initCollapsibles } from './single/expand.js';
 import { showMetaTOC } from './single/metaTOC.js';
 
 window.MathJax = {
@@ -36,6 +36,6 @@ window.MathJax = {
 
 function init() {
     expandMetaLinks();
-    expandCollapsibles();
+    initCollapsibles();
     showMetaTOC();
 }

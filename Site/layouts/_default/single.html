@@ -1,24 +1,24 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
-    <script src="{{ absURL "" }}js/single.js" type="module" defer></script>
-    <script src="{{ absURL "" }}js/single/metaLinks.js" type="module" defer></script>
-    <script src="{{ absURL "" }}js/single/metaTOC.js" type="module" defer></script>
-    <script src="{{ absURL "" }}js/single/preview.js" type="module" defer></script>
-    <script src="{{ absURL "" }}js/single/expand.js" type="module" defer></script>
-    <script src="{{ absURL "" }}js/single/side.js" type="module" defer></script>
+    <script src="{{ absURL "" }}js/single.js" type="module"></script>
+    <script src="{{ absURL "" }}js/single/metaLinks.js" type="module"></script>
+    <script src="{{ absURL "" }}js/single/metaTOC.js" type="module"></script>
+    <script src="{{ absURL "" }}js/single/preview.js" type="module"></script>
+    <script src="{{ absURL "" }}js/single/expand.js" type="module"></script>
+    <script src="{{ absURL "" }}js/single/side.js" type="module"></script>
 
+    <link rel="stylesheet" href="{{ absURL "" }}css/ctrlButtons.css">
     <link rel="stylesheet" href="{{ absURL "" }}css/collapsible.css">
     <link rel="stylesheet" href="{{ absURL "" }}css/metadata.css">
     <link rel="stylesheet" href="{{ absURL "" }}css/preview.css">
     <link rel="stylesheet" href="{{ absURL "" }}css/single.css">
     <link rel="stylesheet" href="{{ absURL "" }}css/env.css">
-    <link rel="stylesheet" href="{{ absURL "" }}css/nav.css">
 
     <div id="mainPage">
-        <button id="toggleDark" onclick="toggleDark(document, false, true, true);" class="navButton noSelect inPreview">
+        <button id="toggleDark" onclick="toggleDark(document, false, true, true);" class="ctrlButton noSelect inPreview">
             <img id="toggleDarkIcon" src="{{ absURL "" }}css/fa/sun.svg">
         </button>
-        <button id="toggleSide" onclick="toggleSide(false);" class="navButton noSelect inPreview">
+        <button id="toggleSide" onclick="toggleSide(false);" class="ctrlButton noSelect inPreview">
             <img id="toggleSideIcon" src="{{ absURL "" }}css/fa/sun.svg">
         </button>
         <div id="content" class="left noScroll">
@@ -66,7 +66,7 @@
                 <div class="bottomSpace">&nbsp;</div>
             </div>
             <div id="previewContainer">
-                <button id="resetSide" onclick="resetSide();" class="navButton noSelect" style="display: none;">
+                <button id="resetSide" onclick="resetSide();" class="ctrlButton noSelect" style="display: none;">
                     <img src="{{ absURL "" }}css/fa/close.svg">
                 </button>
             </div>

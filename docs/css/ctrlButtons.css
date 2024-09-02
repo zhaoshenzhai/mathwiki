@@ -1,0 +1,22 @@
+.ctrlButton {
+    position: fixed;
+    z-index: 100;
+    padding: 0;
+    margin-top: 40px;
+    border: none;
+    border-radius: 7px;
+    background: none;
+    background-color: var(--ctrl-button-bg);
+    transition: filter var(--darkTransition), background-color var(--hoverTransition);
+}
+
+
+.ctrlButton:hover {
+    cursor: pointer;
+    background-color: var(--ctrl-button-hover-bg);
+}
+
+.ctrlButton img {
+    padding: 0px;
+    margin: 0px;
+}

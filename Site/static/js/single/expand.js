@@ -38,6 +38,21 @@ export function initCollapsibles() {
         var content = proofHeaderEls[i].nextElementSibling.nextElementSibling;
         container.style.maxHeight = content.getBoundingClientRect().height + 'px';
     }
+
+    for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
+        if (h1El) {
+            var container = h1El.parentElement;
+            var content = h1El.nextElementSibling;
+            container.style.maxHeight = content.getBoundingClientRect().height + 'px';
+        }
+
+        for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
+            var container = h2List[h2Index].parentElement;
+            var content = h2List[h2Index].nextElementSibling;
+            container.style.maxHeight = content.getBoundingClientRect().height + 'px';
+        }
+
+    }
 }
 
 function toggle(container, header, content, hintText, forceExpand) {
@@ -51,7 +66,7 @@ function toggle(container, header, content, hintText, forceExpand) {
         if (!forceExpand) { header.classList.remove('hidden'); }
 
         var ancestor = closestAncester(container, 'collapsibleContainer');
-        if (ancestor) { ancestor.style.maxHeight = 100000000 + '%'; }
+        if (ancestor) { ancestor.style.maxHeight = 100000 + '%'; }
     } else {
         container.style.maxHeight = '50px';
         content.style.opacity = '0';
@@ -59,7 +74,11 @@ function toggle(container, header, content, hintText, forceExpand) {
         if (hintText) { hintText.style.opacity = '0.6'; }
         header.classList.add('hidden');
 
-        setTimeout(() => { content.style.visibility = 'hidden'; }, 200);
+        setTimeout(() => {
+            if (header.classList.contains('hidden')) {
+                content.style.visibility = 'hidden';
+            }
+        }, 200);
     }
 }
 

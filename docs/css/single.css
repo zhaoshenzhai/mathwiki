@@ -18,6 +18,7 @@ blockquote {
     border-radius: 1px;
     margin: 10px;
     padding: 0.5em 10px;
+    transition: border-left var(--darkTransition);
 }
 
 #content, #metadata {
@@ -31,7 +32,7 @@ blockquote {
 #content {
     padding-top: 60px;
     transition: width, padding-left, padding-right;
-    transition-duration: 1s;
+    transition-duration: var(--splitScreenTransition);
 }
 
 #title {
@@ -78,29 +79,12 @@ blockquote {
     right: 0%;
     z-index: 9;
     font-size: 23px !important;
-    transition: right 1s;
+    transition: right var(--splitScreenTransition);
 }
 
 .center {
     vertical-align: text-top;
     text-align: center;
-}
-
-.headerButton {
-    padding: 1px 8px;
-    border-radius: 5px;
-    transition: background-color 0.2s ease-out;
-}
-
-.headerButton:hover {
-    cursor: pointer;
-    background-color: var(--box-bg);
-}
-
-.collapsibleContent {
-    max-height: 0px;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
 }
 
 .space {

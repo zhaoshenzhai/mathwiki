@@ -8,41 +8,45 @@
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
-        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/colors.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/darkMode.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/noProperty.css">
 
-        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/varColor.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/varTransition.css">
 
-        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module" defer></script>
-        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module" defer></script>
-        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async defer></script>
-        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module"></script>
 
         <div style="display:none;" id="preamble"></div>
     </head>
 
     <body class="listenDark">
         
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaLinks.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaTOC.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/preview.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/expand.js" type="module" defer></script>
-    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/side.js" type="module" defer></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaLinks.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaTOC.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/preview.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/expand.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/side.js" type="module"></script>
 
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/ctrlButtons.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/collapsible.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
     <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
-    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/nav.css">
 
     <div id="mainPage">
-        <button id="toggleDark" onclick="toggleDark(document, false, true, true);" class="navButton noSelect inPreview">
+        <button id="toggleDark" onclick="toggleDark(document, false, true, true);" class="ctrlButton noSelect inPreview">
             <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
         </button>
-        <button id="toggleSide" onclick="toggleSide(false);" class="navButton noSelect inPreview">
+        <button id="toggleSide" onclick="toggleSide(false);" class="ctrlButton noSelect inPreview">
             <img id="toggleSideIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
         </button>
         <div id="content" class="left noScroll">
@@ -64,9 +68,9 @@
 
 <p>Essentially the same proof that normal subgroups correspond to congruences for groups works here:</p>
 <blockquote>
-<div class="envProof hide"><i class="proofHeader noSelect">Proof.</i><div class="proofHintText noSelect"><i>Click to expand...</i></div>
+<div class="collapsibleContainer hide"><i class="proofHeader collapsibleHeader noSelect">Proof.</i><div class="proofHintText noSelect"><i>Click to expand...</i></div>
 
-        <span class="proofContent"><p>Given a congruence $\sim$, the subset $\mf{a}\coloneqq\l\{r\in R\st n\sim0\r\}$ is a subgroup of $R$. For all $r\in R$, we have $rn\sim r0=0$, so $r\mf{a}\subseteq\mf{a}$. Similarly, we have $\mf{a}r\subseteq\mf{a}$, so $\mf{a}$ is a two-sided ideal.</p>
+        <span class="collapsibleContent"><p>Given a congruence $\sim$, the subset $\mf{a}\coloneqq\l\{r\in R\st n\sim0\r\}$ is a subgroup of $R$. For all $r\in R$, we have $rn\sim r0=0$, so $r\mf{a}\subseteq\mf{a}$. Similarly, we have $\mf{a}r\subseteq\mf{a}$, so $\mf{a}$ is a two-sided ideal.</p>
 <br>
 <p>  Conversely, given a two-sided ideal $\mf{a}\nsubgrpeq R$, the relation $\sim$ on $R$ defined by $r_1\sim r_2$ iff $r_1-r_2\in\mf{a}$ is an equivalence relation respecting addition. It respects multiplication too, since if $r_1\sim r_2$ and $s_1\sim s_2$, then $r_1-r_2\in\mf{a}$ and $s_1-s_2\in\mf{a}$, and hence
 $$\begin{equation}
@@ -127,7 +131,7 @@ r_1s_1-r_2s_2=r_1s_1-r_1s_2+r_1s_2-r_2s_2=r_1(s_1-s_2)+(r_1-r_2)s_2\in\mf{a}.\qe
                 <div class="bottomSpace">&nbsp;</div>
             </div>
             <div id="previewContainer">
-                <button id="resetSide" onclick="resetSide();" class="navButton noSelect" style="display: none;">
+                <button id="resetSide" onclick="resetSide();" class="ctrlButton noSelect" style="display: none;">
                     <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
                 </button>
             </div>

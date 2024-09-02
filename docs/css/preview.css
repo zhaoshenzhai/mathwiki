@@ -2,7 +2,7 @@
     top: 0;
     right: 3%;
     z-index: 1000;
-    transition: right 1s;
+    transition: right var(--splitScreenTransition);
 }
 
 #resetSide img {

@@ -6,7 +6,7 @@
 #metaTOC, .metaLinkList {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
+    transition: max-height var(--collapseTranstion);
 }
 
 .metaLinkButton {
@@ -25,7 +25,7 @@
 .metaLinkButton .icon {
     height: 13px;
     rotate: -90deg;
-    transition: rotate 0.2s ease-out, filter 0.1s ease-out;
+    transition: rotate var(--rotateTransition), filter var(--darkTransition);
 }
 
 .metaLinkList {

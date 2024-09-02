@@ -3,55 +3,86 @@ import { headers, proofHeaderEls, getTextHeight } from '../single.js';
 document.addEventListener('DOMContentLoaded', (e) => {
     for (var i = 0; i < proofHeaderEls.length; i++) {
         proofHeaderEls[i].addEventListener('click', function() {
+            var container = this.parentElement;
+            var header = container.children[0];
             var hintText = this.nextElementSibling;
-            var container = hintText.nextElementSibling;
-            toggle(this, container, hintText, false);
+            var content = hintText.nextElementSibling;
+            toggle(container, header, content, hintText, false);
         });
     }
 
     for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
         if (h1El) {
-            h1El.childNodes[0].addEventListener('click', function() {
-                var header = this.parentElement;
-                console.log(header);
-                var container = header.nextElementSibling;
-                toggle(header, container, null, false);
+            h1El.childNodes[1].addEventListener('click', function() {
+                var container = this.parentElement.parentElement;
+                var header = container.children[0];
+                var content = this.parentElement.nextElementSibling;
+                toggle(container, header, content, null, false);
             });
         }
 
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
-            h2List[h2Index].childNodes[0].addEventListener('click', function() {
-                var header = this.parentElement;
-                var container = header.nextElementSibling;
-                toggle(header, container, null, false);
+            h2List[h2Index].childNodes[1].addEventListener('click', function() {
+                var container = this.parentElement.parentElement;
+                var header = container.children[0];
+                var content = this.parentElement.nextElementSibling;
+                toggle(container, header, content, null, false);
             });
         }
     }
 });
 
-export function expandCollapsibles() {
+export function initCollapsibles() {
+    for (var i = 0; i < proofHeaderEls.length; i++) {
+        var container = proofHeaderEls[i].parentElement;
+        var content = proofHeaderEls[i].nextElementSibling.nextElementSibling;
+        container.style.maxHeight = content.getBoundingClientRect().height + 'px';
+    }
 
+    for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
+        if (h1El) {
+            var container = h1El.parentElement;
+            var content = h1El.nextElementSibling;
+            container.style.maxHeight = content.getBoundingClientRect().height + 'px';
+        }
+
+        for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
+            var container = h2List[h2Index].parentElement;
+            var content = h2List[h2Index].nextElementSibling;
+            container.style.maxHeight = content.getBoundingClientRect().height + 'px';
+        }
+
+    }
 }
 
-function toggle(header, container, hintText, forceExpand) {
-    console.log(header);
-    console.log(container);
-    console.log(container.scrollHeight);
-    console.log(container.offsetHeight);
-
-    if (forceExpand || !header.classList.contains('expanded')) {
+function toggle(container, header, content, hintText, forceExpand) {
+    if (!container) { return; }
+    if (forceExpand || header.classList.contains('hidden')) {
         container.style.maxHeight = container.scrollHeight + 'px';
-        // container.style.opacity = '1';
-        // container.style.display = 'inline';
-        if (hintText) { hintText.style.opacity = '0'; }
-        if (!forceExpand) { header.classList.add('expanded'); }
-    } else {
-        container.style.maxHeight = null;
-        // container.style.maxHeight = getTextHeight() + 'px';
-        // container.style.opacity = '0';
-        // container.style.display = 'none';
-        if (hintText) { hintText.style.opacity = '0.6'; }
+        content.style.opacity = '1';
+        content.style.visibility = 'visible';
 
-        header.classList.remove('expanded');
+        if (hintText) { hintText.style.opacity = '0'; }
+        if (!forceExpand) { header.classList.remove('hidden'); }
+
+        var ancestor = closestAncester(container, 'collapsibleContainer');
+        if (ancestor) { ancestor.style.maxHeight = 100000 + '%'; }
+    } else {
+        container.style.maxHeight = '50px';
+        content.style.opacity = '0';
+
+        if (hintText) { hintText.style.opacity = '0.6'; }
+        header.classList.add('hidden');
+
+        setTimeout(() => {
+            if (header.classList.contains('hidden')) {
+                content.style.visibility = 'hidden';
+            }
+        }, 200);
     }
+}
+
+function closestAncester(el, cls) {
+    while ((el = el.parentElement) && !el.classList.contains(cls));
+    return el;
 }

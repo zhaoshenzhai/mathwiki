@@ -55,10 +55,16 @@ This refers primarily to the study of $k$-vector spaces for $k$ a field, but man
 
 ## Homological Algebra
 
+<span style="color:red">**TODO**.</span>
+
 # Examples and Generalizations
 
 ## Conditions on $R$
 
+<span style="color:red">**TODO**.</span>
+
 <div class="space"></div>
 
 ## Types of Modules
+
+<span style="color:red">**TODO**.</span>
