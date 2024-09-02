@@ -42,6 +42,13 @@ export function initCollapsibles() {
 function toggle([container, header, content, hintText], forceExpand, noTransition) {
     if (!container) { return; }
 
+    console.log("---------");
+    console.log(container);
+    console.log(header);
+    console.log(content);
+    console.log(hintText);
+    console.log("---------");
+
     var transitionEls = [container, content];
     if (hintText) { transitionEls.push(hintText); }
 
@@ -66,7 +73,7 @@ function toggle([container, header, content, hintText], forceExpand, noTransitio
             }, 200);
         }
     } else {
-        container.style.maxHeight = '50px';
+        container.style.maxHeight = getTextHeight() + 'px';
         content.style.opacity = '0';
 
         if (hintText) { hintText.style.opacity = '0.6'; }

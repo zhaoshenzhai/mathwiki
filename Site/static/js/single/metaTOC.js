@@ -165,9 +165,18 @@ function formatHeader(header, type) {
 
     var container = document.createElement('div');
     header.parentNode.insertBefore(container, header.nextSibling);
-
-    container.classList.add('collapsibleContainer');
     container.appendChild(header);
+    container.classList.add('collapsibleContainer');
+
+    if (type == 'H2') {
+        var hintText = document.createElement('div');
+        hintText.classList.add('collapsibleHintText');
+        hintText.classList.add('noSelect');
+        hintText.innerHTML = '<i>Click to expand...</i>';
+
+        container.appendChild(hintText);
+    }
+
     container.appendChild(wrapper);
 }
 
