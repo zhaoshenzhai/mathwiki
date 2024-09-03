@@ -91,3 +91,9 @@ With respect to the representations $\phi_1$ and $\psi_1$, the matrix representi
 <br>
 
 &emsp;&emsp;The upshot of this discussion is that for $f\in\Hom(M,N)$, any two matrix representations of $f$ are related by multiplying suitable invertible matrices $Q,P$ by chasing the diagram above. This induces an equivalence relation $\sim$ on $\mc{M}_{m\times n}(R)$, which identifies two matrices $A\sim B$ iff they are induced by the same homomorphism, i.e. $B=QAP$ for some invertible $P\in\mc{M}_n(R)$ and $Q\in\mc{M}_m(R)$.
+
+<div class="space"></div>
+
+## Gaussian Elimination
+
+Hi

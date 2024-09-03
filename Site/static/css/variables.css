@@ -22,3 +22,15 @@
     --rotateTransition: 0.2s;
     --hoverTransition: 0.1s;
 }
+
+@property --mask-bg-1 {
+    syntax: '<color>';
+    initial-value: rgba(255, 255, 255, 0.2);
+    inherits: true;
+}
+
+@property --mask-bg-2 {
+    syntax: '<color>';
+    initial-value: white;
+    inherits: true;
+}
