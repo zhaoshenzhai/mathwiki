@@ -1,5 +1,11 @@
 import { headers, proofHeaderEls, getTextHeight } from '../single.js';
 
+const rootC = getComputedStyle(document.querySelector(':root'));
+const expandDuration = Number(rootC.getPropertyValue('--collapseTransition').replace(/s/, '')) * 1000;
+
+const hideInterrupt = new Event('hideInterrupt');
+const ancesterInterrupt = new Event('ancesterInterrupt');
+
 document.addEventListener('DOMContentLoaded', (e) => {
     for (var i = 0; i < proofHeaderEls.length; i++) {
         proofHeaderEls[i].addEventListener('click', function() {
@@ -24,7 +30,6 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
 export function initCollapsibles() {
     for (var i = 0; i < proofHeaderEls.length; i++) {
-        console.log(getCollapsible(proofHeaderEls[i]));
         toggle(getCollapsible(proofHeaderEls[i]), true, true);
     }
 
@@ -42,14 +47,7 @@ export function initCollapsibles() {
 function toggle([container, header, content, hintText], forceExpand, noTransition) {
     if (!container) { return; }
 
-    console.log("---------");
-    console.log(container);
-    console.log(header);
-    console.log(content);
-    console.log(hintText);
-    console.log("---------");
-
-    var transitionEls = [container, content];
+    var transitionEls = [container, header, content];
     if (hintText) { transitionEls.push(hintText); }
 
     if (noTransition) {
@@ -59,31 +57,9 @@ function toggle([container, header, content, hintText], forceExpand, noTransitio
     }
 
     if (forceExpand || header.classList.contains('hidden')) {
-        container.style.maxHeight = container.scrollHeight + 'px';
-        content.style.opacity = '1';
-        content.style.visibility = 'visible';
-
-        if (hintText) { hintText.style.opacity = '0'; }
-        if (!forceExpand) { header.classList.remove('hidden'); }
-
-        var ancestorContainer = closestAncester(container, 'collapsibleContainer');
-        if (ancestorContainer) {
-            setTimeout(() => {
-                toggle(getCollapsible(ancestorContainer), true, true);
-            }, 200);
-        }
+        expand([container, header, content, hintText]);
     } else {
-        container.style.maxHeight = getTextHeight() + 'px';
-        content.style.opacity = '0';
-
-        if (hintText) { hintText.style.opacity = '0.6'; }
-        header.classList.add('hidden');
-
-        setTimeout(() => {
-            if (header.classList.contains('hidden')) {
-                content.style.visibility = 'hidden';
-            }
-        }, 200);
+        collapse([container, header, content, hintText]);
     }
 
     if (noTransition) {
@@ -94,7 +70,55 @@ function toggle([container, header, content, hintText], forceExpand, noTransitio
     }
 }
 
+function expand([container, header, content, hintText]) {
+    header.classList.remove('hidden');
+
+    container.style.maxHeight = container.scrollHeight + 'px';
+    content.style.opacity = '1';
+    content.style.visibility = 'visible';
+
+    content.dispatchEvent(ancesterInterrupt);
+    content.dispatchEvent(hideInterrupt);
+    if (hintText) { hintText.style.opacity = '0'; }
+
+    var ancestorContainer = closestAncester(container, 'collapsibleContainer');
+    if (ancestorContainer) {
+        ancestorContainer.style.maxHeight = '100000px';
+        // console.log(ancestorContainer);
+        // console.log(window.getComputedStyle(ancestorContainer).getPropertyValue('max-height'));
+        var ancesterTimer = setTimeout(() => {
+            ancestorContainer.style.maxHeight = window.getComputedStyle(ancestorContainer).getPropertyValue('max-height');
+            // expand(getCollapsible(ancestorContainer));
+        }, expandDuration);
+
+        content.addEventListener('ancesterInterrupt', () => {
+            clearInterval(ancesterTimer);
+        }, {once: true});
+    }
+}
+
+function collapse([container, header, content, hintText]) {
+    header.classList.add('hidden');
+
+    container.style.maxHeight = getTextHeight() + 'px';
+    content.style.opacity = '0';
+
+    if (hintText) { hintText.style.opacity = '0.6'; }
+
+    var hideTimer = setTimeout(() => {
+        if (header.classList.contains('hidden')) {
+            content.style.visibility = 'hidden';
+        }
+    }, expandDuration);
+
+    content.addEventListener('hideInterrupt', () => {
+        clearInterval(hideTimer);
+    }, {once: true});
+}
+
 function getCollapsible(el) {
+    if (!el) { return; }
+
     var container, header, content, hintText = null;
 
     if (el.classList.contains('collapsibleContainer')) {

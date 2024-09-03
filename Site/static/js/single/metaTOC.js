@@ -169,7 +169,7 @@ function formatHeader(header, type) {
     container.classList.add('collapsibleContainer');
 
     if (type == 'H2') {
-        var hintText = document.createElement('div');
+        var hintText = document.createElement('span');
         hintText.classList.add('collapsibleHintText');
         hintText.classList.add('noSelect');
         hintText.innerHTML = '<i>Click to expand...</i>';
