@@ -49,7 +49,7 @@ We now focus on the {{< link file="category" display="category" type="references
 
 The fundamental result is that each morphism in $\Hom(R^n,R^m)$ is uniquely determined by an $m\times n$ table of elements $r_{ij}\in R$, called a *matrix*. The set of $m\times n$ matrices is denoted by $\mc{M}_{m\times n}(R)$ or $\mc{M}_n(R)$ when $m=n$, and the bijection
 $$\begin{equation}
-    f:\Hom(R^n,R^m)\ni f\mapsto
+    \Phi:\Hom(R^n,R^m)\ni f\mapsto
     \begin{pmatrix}
         | & | & & | \\\\
         f(e_1) & f(e_2) & \cdots & f(e_m) \\\\
@@ -60,7 +60,7 @@ induces an $R$-module structure on $\mc{M}\_{m\times n}(R)$, where each $e_i\in 
 
 >{{< env type="proof" hide="false" >}}
 
-We provide the inverse function, so let $(r_{ij})\in\mc{M}\_{m\times n}(R)$ be a matrix. For each $1\leq i\leq n$, let $f(e_i)\coloneqq(r_{1i},\dots,r_{mi})\in R^m$. Since $\l\\{e_1,\dots,e_n\r\\}$ is a basis for $R^n$, this map extends{{< link file="free_module" type="proved_by" mod="dag" >}} uniquely to an $R$-module homomorphism $f:R^n\to R^m$; this recipe clearly the inverse of $f$. Explicitly, $f(e_i)=\sum_{j\leq m}r_{ij}e_j$ iff $f\mapsto(r_{ij})$; this formula is worth remembering!<span style="float:right;">$\blacksquare$</span>
+We provide the inverse function, so let $(r_{ij})\in\mc{M}\_{m\times n}(R)$ be a matrix. For each $1\leq i\leq n$, let $f(e_i)\coloneqq(r_{1i},\dots,r_{mi})\in R^m$. Since $\l\\{e_1,\dots,e_n\r\\}$ is a basis for $R^n$, this map extends{{< link file="free_module" type="proved_by" mod="dag" >}} uniquely to an $R$-module homomorphism $f:R^n\to R^m$; this recipe clearly the inverse of $\Phi$. Explicitly, $f(e_i)=\sum_{j\leq m}r_{ij}e_j$ iff $f\mapsto(r_{ij})$; this formula is worth remembering!<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 
@@ -74,7 +74,7 @@ The issue is that the isomorphism $\Hom(M_1,M_2)\iso\Hom(R^n,R^m)$ is *not canon
 
 <br>
 
-&emsp;&emsp;For a single $R$-module $M$, let $\phi_i:M\to R^n$ be different basis representations. The *basis transition map* $\phi_2\circ\phi_1^{-1}:R^n\to R^n$ is a morphism in $\Hom(R^n,R^n)$, which by the above corresponds uniquely to a *change of basis* matrix $P\in\mc{M}_n(R)$ *from $\phi_1$ to $\phi_2$*. Now, play the same game for another such $R$-module $N$ with two different basis representations $\psi_i:N\to R^m$, and let $Q\in\mc{M}_m(R)$ be the change of basis matrix from $\psi_i$ to $\psi_2$. Let $f\in\Hom(M,N)$ be an $R$-module homomorphism.
+&emsp;&emsp;For a single $R$-module $M$, let $\phi_i:M\to R^n$ be different basis representations. The *basis transition map* $\phi_2\circ\phi_1^{-1}:R^n\to R^n$ is a morphism in $\Hom(R^n,R^n)$, which by the above corresponds uniquely to a *change of basis* matrix $P\in\mc{M}_n(R)$ *from $\phi_1$ to $\phi_2$*. Now, play the same game for another such $R$-module $N$ with two different basis representations $\psi_i:N\to R^m$, and let $Q\in\mc{M}_m(R)$ be the change of basis matrix from $\psi_1$ to $\psi_2$. Let $f\in\Hom(M,N)$ be an $R$-module homomorphism.
 
 {{< tikz name="change_of_basis" width="400" >}}
 \begin{equation*}
@@ -86,7 +86,7 @@ The issue is that the isomorphism $\Hom(M_1,M_2)\iso\Hom(R^n,R^m)$ is *not canon
 \end{equation*}
 {{< /tikz >}}
 
-With respect to the representations $\phi_1$ and $\psi_2$, the matrix representing $f$ is that of $f'\coloneqq\psi_1\circ f\circ\phi_1^{-1}$; note that there are two steps here: $f\rightsquigarrow f'\_1\rightsquigarrow\Phi(f'\_1)$. Similarly, choosing $\phi_2$ and $\psi_2$ induces a matrix $\Phi(f'_2)$, and they are related by $\Phi(f_2')=Q\Phi(f_1')P^{-1}$.
+With respect to the representations $\phi_1$ and $\psi_1$, the matrix representing $f$ is that of $f'\coloneqq\psi_1\circ f\circ\phi_1^{-1}$; note that there are two steps here: $f\rightsquigarrow f'\_1\rightsquigarrow\Phi(f'\_1)$. Similarly, choosing $\phi_2$ and $\psi_2$ induces a matrix $\Phi(f'_2)$, and they are related by $\Phi(f_2')=Q\Phi(f_1')P^{-1}$.
 
 <br>
 
