@@ -7,7 +7,6 @@ const expandDuration = Number(rootC.getPropertyValue('--collapseTransition').rep
 const hideInterrupt = new Event('hideInterrupt');
 
 export function initCollapsibles() {
-    console.log("START COLLAPSE");
     for (var i = 0; i < proofHeaderEls.length; i++) {
         initCollapsible(proofHeaderEls[i], proofHeaderEls[i], true);
     }

@@ -2,15 +2,10 @@ import { contentEl, metaDataEl, getCurSideEl, setFontSize, resetSideEl,
          getSideExpanded, setSideExpanded } from '../single.js';
 import { styleHeaders } from './metaTOC.js';
 import { clearPreviewSide } from './preview.js';
-// import { resetHintTextCorrections, initCollapsibles } from './expand.js';
-
-// const rootC = getComputedStyle(document.querySelector(':root'));
-// const splitDuration = Number(rootC.getPropertyValue('--splitScreenTransition').replace(/s/, '')) * 1000;
 
 window.toggleSide = toggleSide;
 
 export function toggleSide(noTransition, command) {
-    console.log("START TOGGLE");
     var allListenSide = document.querySelectorAll('#content, .right');
     if (noTransition) {
         allListenSide.forEach(el => {
@@ -28,11 +23,6 @@ export function toggleSide(noTransition, command) {
             el.classList.remove('noTransition');
         });
     }
-
-    // resetHintTextCorrections();
-    // var splitTimer = setTimeout(() => {
-    //     initCollapsibles();
-    // }, 2000);
 }
 
 function hideSide() {
