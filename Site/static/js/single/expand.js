@@ -6,36 +6,17 @@ const expandDuration = Number(rootC.getPropertyValue('--collapseTransition').rep
 
 const hideInterrupt = new Event('hideInterrupt');
 
-document.addEventListener('DOMContentLoaded', (e) => {
-    for (var i = 0; i < proofHeaderEls.length; i++) {
-        proofHeaderEls[i].addEventListener('click', function() {
-            toggle(getCollapsible(this), false, false, true);
-        });
-    }
-
-    for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
-        if (h1El) {
-            h1El.childNodes[1].addEventListener('click', function() {
-                toggle(getCollapsible(this.parentElement),
-                    false, false, false);
-            });
-        }
-
-        for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
-            h2List[h2Index].childNodes[1].addEventListener('click', function() {
-                toggle(getCollapsible(this.parentElement),
-                    false, false, true);
-            });
-        }
-    }
-});
-
 export function initCollapsibles() {
     for (var i = 0; i < proofHeaderEls.length; i++) {
         var collapsible = getCollapsible(proofHeaderEls[i]);
         var container = toggle(collapsible, true, true, false);
-        container.setAttribute('maxExpandedHeight', container.style.maxHeight);
+        container.setAttribute('maxExpandedHeight',
+            container.style.maxHeight);
         initHintTextCorrection(collapsible);
+
+        proofHeaderEls[i].addEventListener('click', function() {
+            toggle(getCollapsible(this), false, false, true);
+        });
     }
 
     for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
@@ -45,14 +26,25 @@ export function initCollapsibles() {
             container.setAttribute('maxExpandedHeight',
                 container.style.maxHeight);
             initHintTextCorrection(collapsible);
+
+            h1El.childNodes[1].addEventListener('click', function() {
+                toggle(getCollapsible(this.parentElement),
+                    false, false, false);
+            });
         }
 
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
-            var collapsible = getCollapsible(h2List[h2Index]);
+            var h2El = h2List[h2Index];
+            var collapsible = getCollapsible(h2El);
             var container = toggle(collapsible, true, true, false);
             container.setAttribute('maxExpandedHeight',
                 container.style.maxHeight);
             initHintTextCorrection(collapsible);
+
+            h2El.childNodes[1].addEventListener('click', function() {
+                toggle(getCollapsible(this.parentElement),
+                    false, false, true);
+            });
         }
     }
 }
@@ -175,4 +167,27 @@ function initHintTextCorrection([container, header, content, hintText]) {
     content.style.marginLeft = '-' + hintTextWidth + 'px';
 
     contentEl.style.textAlign = initialAlign;
+}
+
+export function resetHintTextCorrections() {
+    for (var i = 0; i < proofHeaderEls.length; i++) {
+        resetHintTextCorrection(getCollapsible(proofHeaderEls[i]));
+    }
+
+    for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
+        if (h1El) {
+            resetHintTextCorrection(getCollapsible(h1El));
+        }
+
+        for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
+            resetHintTextCorrection(getCollapsible(h2List[h2Index]));
+        }
+    }
+}
+
+function resetHintTextCorrection([container, header, content, hintText]) {
+    if (!hintText) { return; }
+
+    hintText.style.position = 'absolute';
+    content.style.marginLeft = '0px';
 }

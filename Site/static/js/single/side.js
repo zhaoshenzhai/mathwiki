@@ -2,6 +2,7 @@ import { contentEl, metaDataEl, getCurSideEl, setFontSize, resetSideEl,
          getSideExpanded, setSideExpanded } from '../single.js';
 import { styleHeaders } from './metaTOC.js';
 import { clearPreviewSide } from './preview.js';
+import { resetHintTextCorrections } from './expand.js';
 
 window.toggleSide = toggleSide;
 
@@ -23,6 +24,8 @@ export function toggleSide(noTransition, command) {
             el.classList.remove('noTransition');
         });
     }
+
+    // resetHintTextCorrections();
 }
 
 function hideSide() {
