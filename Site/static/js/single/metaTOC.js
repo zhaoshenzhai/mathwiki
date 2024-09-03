@@ -175,6 +175,10 @@ function formatHeader(header, type) {
         hintText.innerHTML = '<i>Click to expand...</i>';
 
         container.appendChild(hintText);
+    } else if (type == 'H1') {
+        var contentMask = document.createElement('span');
+        contentMask.classList.add('collapsibleContentMask');
+        wrapper.insertBefore(contentMask, wrapper.childNodes[0]);
     }
 
     container.appendChild(wrapper);

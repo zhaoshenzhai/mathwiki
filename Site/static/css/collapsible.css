@@ -18,10 +18,21 @@
     transition: opacity var(--collapseTransition);
 }
 
+.collapsibleContentMask {
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    width: 80%;
+    height: 150px;
+    opacity: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1));
+    transition: opacity var(--collapseTransition);
+}
+
 .collapsibleHintText {
     position: absolute;
     display: inline;
-    width: 100%;
+    width: 80%;
     opacity: 0;
     transition: opacity var(--collapseTransition);
     z-index: -1;

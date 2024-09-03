@@ -31,7 +31,9 @@ function initCollapsible(el, button, expandAncestorClick) {
     container.setAttribute('maxExpandedHeight', container.style.maxHeight);
 
     button.addEventListener('click', function() {
-        toggle(collapsible, false, false, expandAncestorClick);
+        if (!button.getAttribute('collapseDisabled')) {
+            toggle(collapsible, false, false, expandAncestorClick);
+        }
     });
 }
 
@@ -67,6 +69,13 @@ function toggle([container, header, content, hintText],
 function expand([container, header, content, hintText], expandAncestor) {
     header.classList.remove('hidden');
 
+    if (header.tagName == 'H1') {
+        disableChildren(content, false);
+        content.classList.remove('noSelect');
+        content.childNodes[0].style.opacity = '0';
+        content.childNodes[0].style.zIndex = '-1';
+    }
+
     container.style.maxHeight = container.scrollHeight + 'px';
     content.style.opacity = '1';
     content.style.visibility = 'visible';
@@ -79,13 +88,22 @@ function expand([container, header, content, hintText], expandAncestor) {
 function collapse([container, header, content, hintText], expandAncestor) {
     header.classList.add('hidden');
 
-    container.style.maxHeight = getTextHeight() + 'px';
-    content.style.opacity = '0';
+    if (header.tagName != 'H1') {
+        container.style.maxHeight = (getTextHeight() + 2) + 'px';
+        content.style.opacity = '0';
+        hideWhenCollapse(content);
+    } else {
+        container.style.maxHeight = '200px';
+        disableChildren(content, true);
+        content.classList.add('noSelect');
+        content.childNodes[0].style.opacity = '1';
+        content.childNodes[0].style.zIndex = '1000';
+    }
+
     if (hintText) { hintText.style.opacity = '0.6'; }
 
     content.dispatchEvent(hideInterrupt);
     if (expandAncestor) { updateAncestor(container); }
-    hideWhenCollapse(content);
 }
 
 function getCollapsible(el) {
@@ -192,4 +210,15 @@ function resetHintTextCorrection([container, header, content, hintText]) {
 
     hintText.style.position = 'absolute';
     content.style.marginLeft = '0px';
+}
+
+function disableChildren(content, disable) {
+    var headers = content.querySelectorAll('.collapsibleHeaderButton');
+    for (var i = 0; i < headers.length; i++) {
+        if (disable) {
+            headers[i].setAttribute('collapseDisabled', true);
+        } else {
+            headers[i].removeAttribute('collapseDisabled');
+        }
+    }
 }
