@@ -4,25 +4,24 @@ const rootC = getComputedStyle(document.querySelector(':root'));
 const expandDuration = Number(rootC.getPropertyValue('--collapseTransition').replace(/s/, '')) * 1000;
 
 const hideInterrupt = new Event('hideInterrupt');
-const ancesterInterrupt = new Event('ancesterInterrupt');
 
 document.addEventListener('DOMContentLoaded', (e) => {
     for (var i = 0; i < proofHeaderEls.length; i++) {
         proofHeaderEls[i].addEventListener('click', function() {
-            toggle(getCollapsible(this), false, false);
+            toggle(getCollapsible(this), false, false, true);
         });
     }
 
     for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
         if (h1El) {
             h1El.childNodes[1].addEventListener('click', function() {
-                toggle(getCollapsible(this.parentElement), null, false, false);
+                toggle(getCollapsible(this.parentElement), false, false, false);
             });
         }
 
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
             h2List[h2Index].childNodes[1].addEventListener('click', function() {
-                toggle(getCollapsible(this.parentElement), null, false, false);
+                toggle(getCollapsible(this.parentElement), false, false, true);
             });
         }
     }
@@ -30,21 +29,24 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
 export function initCollapsibles() {
     for (var i = 0; i < proofHeaderEls.length; i++) {
-        toggle(getCollapsible(proofHeaderEls[i]), true, true);
+        var container = toggle(getCollapsible(proofHeaderEls[i]), true, true, false);
+        container.setAttribute('maxExpandedHeight', container.style.maxHeight);
     }
 
     for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
         if (h1El) {
-            toggle(getCollapsible(h1El), true, true);
+            var container = toggle(getCollapsible(h1El), true, true, false);
+            container.setAttribute('maxExpandedHeight', container.style.maxHeight);
         }
 
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
-            toggle(getCollapsible(h2List[h2Index]), true, true);
+            var container = toggle(getCollapsible(h2List[h2Index]), true, true, false);
+            container.setAttribute('maxExpandedHeight', container.style.maxHeight);
         }
     }
 }
 
-function toggle([container, header, content, hintText], forceExpand, noTransition) {
+function toggle([container, header, content, hintText], forceExpand, noTransition, expandAncestor) {
     if (!container) { return; }
 
     var transitionEls = [container, header, content];
@@ -57,9 +59,9 @@ function toggle([container, header, content, hintText], forceExpand, noTransitio
     }
 
     if (forceExpand || header.classList.contains('hidden')) {
-        expand([container, header, content, hintText]);
+        expand([container, header, content, hintText], expandAncestor);
     } else {
-        collapse([container, header, content, hintText]);
+        collapse([container, header, content, hintText], expandAncestor);
     }
 
     if (noTransition) {
@@ -68,52 +70,32 @@ function toggle([container, header, content, hintText], forceExpand, noTransitio
             el.classList.remove('noTransition');
         });
     }
+
+    return container;
 }
 
-function expand([container, header, content, hintText]) {
+function expand([container, header, content, hintText], expandAncestor) {
     header.classList.remove('hidden');
 
     container.style.maxHeight = container.scrollHeight + 'px';
     content.style.opacity = '1';
     content.style.visibility = 'visible';
-
-    content.dispatchEvent(ancesterInterrupt);
-    content.dispatchEvent(hideInterrupt);
     if (hintText) { hintText.style.opacity = '0'; }
 
-    var ancestorContainer = closestAncester(container, 'collapsibleContainer');
-    if (ancestorContainer) {
-        ancestorContainer.style.maxHeight = '100000px';
-        // console.log(ancestorContainer);
-        // console.log(window.getComputedStyle(ancestorContainer).getPropertyValue('max-height'));
-        var ancesterTimer = setTimeout(() => {
-            ancestorContainer.style.maxHeight = window.getComputedStyle(ancestorContainer).getPropertyValue('max-height');
-            // expand(getCollapsible(ancestorContainer));
-        }, expandDuration);
-
-        content.addEventListener('ancesterInterrupt', () => {
-            clearInterval(ancesterTimer);
-        }, {once: true});
-    }
+    content.dispatchEvent(hideInterrupt);
+    if (expandAncestor) { updateAncestor(container); }
 }
 
-function collapse([container, header, content, hintText]) {
+function collapse([container, header, content, hintText], expandAncestor) {
     header.classList.add('hidden');
 
     container.style.maxHeight = getTextHeight() + 'px';
     content.style.opacity = '0';
-
     if (hintText) { hintText.style.opacity = '0.6'; }
 
-    var hideTimer = setTimeout(() => {
-        if (header.classList.contains('hidden')) {
-            content.style.visibility = 'hidden';
-        }
-    }, expandDuration);
-
-    content.addEventListener('hideInterrupt', () => {
-        clearInterval(hideTimer);
-    }, {once: true});
+    content.dispatchEvent(hideInterrupt);
+    if (expandAncestor) { updateAncestor(container); }
+    hideWhenCollapse(content);
 }
 
 function getCollapsible(el) {
@@ -145,7 +127,25 @@ function getCollapsible(el) {
     return [container, header, content, hintText];
 }
 
-function closestAncester(el, cls) {
+function hideWhenCollapse(content) {
+    var hideTimer = setTimeout(() => {
+        content.style.visibility = 'hidden';
+    }, expandDuration);
+
+    content.addEventListener('hideInterrupt', () => {
+        clearInterval(hideTimer);
+    }, {once: true});
+}
+
+function updateAncestor(container) {
+    var ancestorContainer = closestAncestor(container, 'collapsibleContainer');
+    if (ancestorContainer) {
+        ancestorContainer.style.maxHeight = ancestorContainer.getAttribute('maxExpandedHeight');
+        updateAncestor(ancestorContainer);
+    }
+}
+
+function closestAncestor(el, cls) {
     while ((el = el.parentElement) && !el.classList.contains(cls));
     return el;
 }
