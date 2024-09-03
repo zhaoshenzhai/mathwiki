@@ -47,7 +47,7 @@ We now focus on the {{< link file="category" display="category" type="references
 
 ## Matrices
 
-The fundamental result is that each morphism in $\Hom(R^n,R^m)$ is uniquely determined by an $m\times n$ table of elements $r_{ij}\in R$, called a *matrix*. The set of $m\times n$ matrices is denoted by $\mc{M}_{m\times n}(R)$ or $\mc{M}_n(R)$ when $m=n$, and the bijection
+An important observation is that each morphism $f\in\Hom(R^n,R^m)$ can uniquely be determined by an $m\times n$ grid of elements $r_{ij}\in R$, called a *matrix*. The set of $m\times n$ matrices is denoted by $\mc{M}_{m\times n}(R)$ or $\mc{M}_n(R)$ when $m=n$, and the bijection
 $$\begin{equation}
     \Phi:\Hom(R^n,R^m)\ni f\mapsto
     \begin{pmatrix}

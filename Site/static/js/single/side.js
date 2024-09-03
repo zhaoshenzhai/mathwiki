@@ -3,8 +3,6 @@ import { contentEl, metaDataEl, getCurSideEl, setFontSize, resetSideEl,
 import { styleHeaders } from './metaTOC.js';
 import { clearPreviewSide } from './preview.js';
 
-const root = document.querySelector(':root');
-
 window.toggleSide = toggleSide;
 
 export function toggleSide(noTransition, command) {
@@ -28,7 +26,6 @@ export function toggleSide(noTransition, command) {
 }
 
 function hideSide() {
-    root.style.setProperty('--contentWidth', '80%');
     contentEl.style.width = '80%';
     contentEl.style.paddingLeft = '10%';
     contentEl.style.paddingRight = '10%';
@@ -47,7 +44,6 @@ function hideSide() {
 }
 
 function showSide() {
-    root.style.setProperty('--contentWidth', '90%');
     contentEl.style.width = '45%';
     contentEl.style.paddingLeft = '2.5%';
     contentEl.style.paddingRight = '2.5%';

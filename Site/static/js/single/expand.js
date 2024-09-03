@@ -73,7 +73,9 @@ function expand([container, header, content, hintText], expandAncestor) {
         disableChildren(content, false);
         content.classList.remove('noSelect');
         content.childNodes[0].style.opacity = '0';
+        content.childNodes[1].style.opacity = '0';
         content.childNodes[0].style.zIndex = '-1';
+        content.childNodes[1].style.zIndex = '-1';
     }
 
     container.style.maxHeight = container.scrollHeight + 'px';
@@ -97,7 +99,9 @@ function collapse([container, header, content, hintText], expandAncestor) {
         disableChildren(content, true);
         content.classList.add('noSelect');
         content.childNodes[0].style.opacity = '1';
-        content.childNodes[0].style.zIndex = '1000';
+        content.childNodes[1].style.opacity = '1';
+        content.childNodes[0].style.zIndex = '100';
+        content.childNodes[1].style.zIndex = '100';
     }
 
     if (hintText) { hintText.style.opacity = '0.6'; }

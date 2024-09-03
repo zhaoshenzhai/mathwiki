@@ -94,6 +94,8 @@ function styleH2(el, parentCounter, counter, resize) {
         var num = document.createElement('span');
         num.innerText = parentCounter + '.' + counter + '. ';
         num.style.fontWeight = 'normal';
+        num.style.zIndex = '300';
+        num.style.position = 'relative';
         num.classList.add('noSelect');
         el.prepend(num);
     }
@@ -176,9 +178,15 @@ function formatHeader(header, type) {
 
         container.appendChild(hintText);
     } else if (type == 'H1') {
-        var contentMask = document.createElement('span');
-        contentMask.classList.add('collapsibleMask');
-        wrapper.insertBefore(contentMask, wrapper.childNodes[0]);
+        var contentMaskBot = document.createElement('span');
+        contentMaskBot.classList.add('collapsibleMask');
+        contentMaskBot.classList.add('collapsibleMaskBot');
+        wrapper.insertBefore(contentMaskBot, wrapper.childNodes[0]);
+
+        var contentMaskTop = document.createElement('span');
+        contentMaskTop.classList.add('collapsibleMask');
+        contentMaskTop.classList.add('collapsibleMaskTop');
+        wrapper.insertBefore(contentMaskTop, wrapper.childNodes[0]);
     }
 
     container.appendChild(wrapper);
