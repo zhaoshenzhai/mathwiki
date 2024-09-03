@@ -177,7 +177,7 @@ function formatHeader(header, type) {
         container.appendChild(hintText);
     } else if (type == 'H1') {
         var contentMask = document.createElement('span');
-        contentMask.classList.add('collapsibleContentMask');
+        contentMask.classList.add('collapsibleMask');
         wrapper.insertBefore(contentMask, wrapper.childNodes[0]);
     }
 

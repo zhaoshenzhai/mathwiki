@@ -14,3 +14,15 @@
     --box-bg: rgba(0,0,0,0.05);
     --quote: rgba(0,0,0,0.25);
 }
+
+:root {
+    --splitScreenTransition: 1s;
+    --darkTransition: 0.2s;
+    --collapseTransition: 0.5s;
+    --rotateTransition: 0.2s;
+    --hoverTransition: 0.1s;
+}
+
+:root {
+    --contentWidth: 90%;
+}
