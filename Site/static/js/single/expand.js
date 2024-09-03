@@ -1,4 +1,5 @@
-import { headers, proofHeaderEls, getTextHeight } from '../single.js';
+import { headers, proofHeaderEls,
+         getTextHeight, contentEl } from '../single.js';
 
 const rootC = getComputedStyle(document.querySelector(':root'));
 const expandDuration = Number(rootC.getPropertyValue('--collapseTransition').replace(/s/, '')) * 1000;
@@ -15,13 +16,15 @@ document.addEventListener('DOMContentLoaded', (e) => {
     for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
         if (h1El) {
             h1El.childNodes[1].addEventListener('click', function() {
-                toggle(getCollapsible(this.parentElement), false, false, false);
+                toggle(getCollapsible(this.parentElement),
+                    false, false, false);
             });
         }
 
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
             h2List[h2Index].childNodes[1].addEventListener('click', function() {
-                toggle(getCollapsible(this.parentElement), false, false, true);
+                toggle(getCollapsible(this.parentElement),
+                    false, false, true);
             });
         }
     }
@@ -29,24 +32,33 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
 export function initCollapsibles() {
     for (var i = 0; i < proofHeaderEls.length; i++) {
-        var container = toggle(getCollapsible(proofHeaderEls[i]), true, true, false);
+        var collapsible = getCollapsible(proofHeaderEls[i]);
+        var container = toggle(collapsible, true, true, false);
         container.setAttribute('maxExpandedHeight', container.style.maxHeight);
+        initHintTextCorrection(collapsible);
     }
 
     for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
         if (h1El) {
-            var container = toggle(getCollapsible(h1El), true, true, false);
-            container.setAttribute('maxExpandedHeight', container.style.maxHeight);
+            var collapsible = getCollapsible(h1El);
+            var container = toggle(collapsible, true, true, false);
+            container.setAttribute('maxExpandedHeight',
+                container.style.maxHeight);
+            initHintTextCorrection(collapsible);
         }
 
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
-            var container = toggle(getCollapsible(h2List[h2Index]), true, true, false);
-            container.setAttribute('maxExpandedHeight', container.style.maxHeight);
+            var collapsible = getCollapsible(h2List[h2Index]);
+            var container = toggle(collapsible, true, true, false);
+            container.setAttribute('maxExpandedHeight',
+                container.style.maxHeight);
+            initHintTextCorrection(collapsible);
         }
     }
 }
 
-function toggle([container, header, content, hintText], forceExpand, noTransition, expandAncestor) {
+function toggle([container, header, content, hintText],
+                forceExpand, noTransition, expandAncestor) {
     if (!container) { return; }
 
     var transitionEls = [container, header, content];
@@ -138,9 +150,11 @@ function hideWhenCollapse(content) {
 }
 
 function updateAncestor(container) {
-    var ancestorContainer = closestAncestor(container, 'collapsibleContainer');
+    var ancestorContainer =
+        closestAncestor(container, 'collapsibleContainer');
     if (ancestorContainer) {
-        ancestorContainer.style.maxHeight = ancestorContainer.getAttribute('maxExpandedHeight');
+        ancestorContainer.style.maxHeight =
+            ancestorContainer.getAttribute('maxExpandedHeight');
         updateAncestor(ancestorContainer);
     }
 }
@@ -148,4 +162,17 @@ function updateAncestor(container) {
 function closestAncestor(el, cls) {
     while ((el = el.parentElement) && !el.classList.contains(cls));
     return el;
+}
+
+function initHintTextCorrection([container, header, content, hintText]) {
+    if (!hintText) { return; }
+    hintText.style.position = 'relative';
+
+    var initialAlign = contentEl.style.textAlign;
+    contentEl.style.textAlign = 'left';
+
+    var hintTextWidth = hintText.getBoundingClientRect().width;
+    content.style.marginLeft = '-' + hintTextWidth + 'px';
+
+    contentEl.style.textAlign = initialAlign;
 }
