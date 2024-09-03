@@ -7,46 +7,33 @@ const expandDuration = Number(rootC.getPropertyValue('--collapseTransition').rep
 const hideInterrupt = new Event('hideInterrupt');
 
 export function initCollapsibles() {
+    console.log("START COLLAPSE");
     for (var i = 0; i < proofHeaderEls.length; i++) {
-        var collapsible = getCollapsible(proofHeaderEls[i]);
-        var container = toggle(collapsible, true, true, false);
-        container.setAttribute('maxExpandedHeight',
-            container.style.maxHeight);
-        initHintTextCorrection(collapsible);
-
-        proofHeaderEls[i].addEventListener('click', function() {
-            toggle(getCollapsible(this), false, false, true);
-        });
+        initCollapsible(proofHeaderEls[i], proofHeaderEls[i], true);
     }
 
     for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
         if (h1El) {
-            var collapsible = getCollapsible(h1El);
-            var container = toggle(collapsible, true, true, false);
-            container.setAttribute('maxExpandedHeight',
-                container.style.maxHeight);
-            initHintTextCorrection(collapsible);
-
-            h1El.childNodes[1].addEventListener('click', function() {
-                toggle(getCollapsible(this.parentElement),
-                    false, false, false);
-            });
+            initCollapsible(h1El, h1El.childNodes[1], false);
         }
 
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
             var h2El = h2List[h2Index];
-            var collapsible = getCollapsible(h2El);
-            var container = toggle(collapsible, true, true, false);
-            container.setAttribute('maxExpandedHeight',
-                container.style.maxHeight);
-            initHintTextCorrection(collapsible);
-
-            h2El.childNodes[1].addEventListener('click', function() {
-                toggle(getCollapsible(this.parentElement),
-                    false, false, true);
-            });
+            initCollapsible(h2El, h2El.childNodes[1], true);
         }
     }
+
+    initHintTextCorrections();
+}
+
+function initCollapsible(el, button, expandAncestorClick) {
+    var collapsible = getCollapsible(el);
+    var container = toggle(collapsible, true, true, false);
+    container.setAttribute('maxExpandedHeight', container.style.maxHeight);
+
+    button.addEventListener('click', function() {
+        toggle(collapsible, false, false, expandAncestorClick);
+    });
 }
 
 function toggle([container, header, content, hintText],
@@ -154,6 +141,22 @@ function updateAncestor(container) {
 function closestAncestor(el, cls) {
     while ((el = el.parentElement) && !el.classList.contains(cls));
     return el;
+}
+
+export function initHintTextCorrections() {
+    for (var i = 0; i < proofHeaderEls.length; i++) {
+        initHintTextCorrection(getCollapsible(proofHeaderEls[i]));
+    }
+
+    for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
+        if (h1El) {
+            initHintTextCorrection(getCollapsible(h1El));
+        }
+
+        for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
+            initHintTextCorrection(getCollapsible(h2List[h2Index]));
+        }
+    }
 }
 
 function initHintTextCorrection([container, header, content, hintText]) {
