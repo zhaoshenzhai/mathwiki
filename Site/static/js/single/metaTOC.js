@@ -94,7 +94,6 @@ function styleH2(el, parentCounter, counter, resize) {
         var num = document.createElement('span');
         num.innerText = parentCounter + '.' + counter + '. ';
         num.style.fontWeight = 'normal';
-        num.style.zIndex = '300';
         num.style.position = 'relative';
         num.classList.add('noSelect');
         el.prepend(num);

@@ -30,6 +30,10 @@ function initCollapsible(el, button, expandAncestorClick) {
     var container = toggle(collapsible, true, true, false);
     container.setAttribute('maxExpandedHeight', container.style.maxHeight);
 
+    if (el.tagName == 'H1') {
+        collapsible[2].childNodes[1].style.height = container.style.maxHeight;
+    }
+
     button.addEventListener('click', function() {
         if (!button.getAttribute('collapseDisabled')) {
             toggle(collapsible, false, false, expandAncestorClick);
@@ -76,10 +80,11 @@ function expand([container, header, content, hintText], expandAncestor) {
         content.childNodes[1].style.opacity = '0';
         content.childNodes[0].style.zIndex = '-1';
         content.childNodes[1].style.zIndex = '-1';
+    } else {
+        content.style.opacity = '1';
     }
 
     container.style.maxHeight = container.scrollHeight + 'px';
-    content.style.opacity = '1';
     content.style.visibility = 'visible';
     if (hintText) { hintText.style.opacity = '0'; }
 
@@ -90,11 +95,7 @@ function expand([container, header, content, hintText], expandAncestor) {
 function collapse([container, header, content, hintText], expandAncestor) {
     header.classList.add('hidden');
 
-    if (header.tagName != 'H1') {
-        container.style.maxHeight = (getTextHeight() + 2) + 'px';
-        content.style.opacity = '0';
-        hideWhenCollapse(content);
-    } else {
+    if (header.tagName == 'H1') {
         container.style.maxHeight = '200px';
         disableChildren(content, true);
         content.classList.add('noSelect');
@@ -102,6 +103,10 @@ function collapse([container, header, content, hintText], expandAncestor) {
         content.childNodes[1].style.opacity = '1';
         content.childNodes[0].style.zIndex = '100';
         content.childNodes[1].style.zIndex = '100';
+    } else {
+        container.style.maxHeight = (getTextHeight() + 2) + 'px';
+        content.style.opacity = '0';
+        hideWhenCollapse(content);
     }
 
     if (hintText) { hintText.style.opacity = '0.6'; }

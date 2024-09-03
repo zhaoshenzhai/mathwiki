@@ -8,7 +8,6 @@
     border-radius: 5px;
     transition: background-color var(--hoverTransition);
     position: relative;
-    z-index: 200;
 }
 
 .collapsibleHeaderButton:hover {
@@ -19,7 +18,6 @@
 .collapsibleContent {
     transition: opacity var(--collapseTransition);
     position: relative;
-    z-index: 300;
 }
 
 .collapsibleMask {
@@ -27,9 +25,8 @@
     display: block;
     z-index: -1;
     width: 100%;
-    opacity: 1;
-    /* background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)); */
-    background-color: rgba(255, 0, 0, 0.2);
+    opacity: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1));
     transition: opacity var(--collapseTransition);
 }
 
@@ -40,9 +37,7 @@
 .collapsibleMaskBot {
     margin-top: 150px;
     height: 300px;
-    /* background-color: rgba(255, 255, 255, 1); */
-    background-color: rgba(0, 255, 0, 0.2);
-    z-index: 200;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .collapsibleHintText {

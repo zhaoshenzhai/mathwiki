@@ -18,7 +18,7 @@
 :root {
     --splitScreenTransition: 1s;
     --darkTransition: 0.2s;
-    --collapseTransition: 2s;
+    --collapseTransition: 0.5s;
     --rotateTransition: 0.2s;
     --hoverTransition: 0.1s;
 }
