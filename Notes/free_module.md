@@ -90,10 +90,8 @@ With respect to the representations $\phi_1$ and $\psi_1$, the matrix representi
 
 <br>
 
-&emsp;&emsp;The upshot of this discussion is that for $f\in\Hom(M,N)$, any two matrix representations of $f$ are related by multiplying suitable invertible matrices $Q,P$ by chasing the diagram above. This induces an equivalence relation $\sim$ on $\mc{M}_{m\times n}(R)$, which identifies two matrices $A\sim B$ iff they are induced by the same homomorphism, i.e. $B=QAP$ for some invertible $P\in\mc{M}_n(R)$ and $Q\in\mc{M}_m(R)$.
+&emsp;&emsp;The upshot of this discussion is that for $f\in\Hom(M,N)$, any two matrix representations of $f$ are related by multiplying suitable invertible matrices $Q,P$ by chasing the diagram above. This induces an {{< link file="equivalence_relation" display="equivalence relation" type="references" >}} $\sim$ on $\mc{M}_{m\times n}(R)$, which identifies two matrices $A\sim B$ iff they are induced by the same homomorphism, i.e. $B=QAP$ for some $P\in\GL_n(R)$ and $Q\in\GL_m(R)$.
 
-<div class="space"></div>
+<br>
 
-## Gaussian Elimination
-
-Hi
+&emsp;&emsp;This raises another question: is every matrix $A\in\mc{M}\_{m\times n}(R)$ equivalent to a matrix in ‘standard form’? If so, and especially if there is an algorithm for reducing $A$ into the standard form, then every morphism $f\in\Hom(M_1,M_2)$ would admit a canonical matrix representation. It turns out, that if $R$ is a {{< link file="principal_ideal_domain.md" display="PID" type="references" >}}, then such a standard form exists, called the *{{< link file="smith_normal_form.md" display="Smith Normal Form" type="Constructions" >}}*; this is a corollary of the {{< link file="structure_theorem_fg_module_PID" display="Structure Theorem" type="justifications" >}} for f.g. modules of PIDs. Furthermore, if $R$ also a {{< link file="euclidean_domain.md" display="Euclidean domain" type="references" >}}, then there is{{< link file="smith_normal_form.md" type="justifications" mod="dag" section="Over Euclidean Domains" >}} an algorithm for doing so, and for fields, the *Gaussian algorithm*{{< link file="smith_normal_form.md" type="justifications" mod="dag" section="Over Fields" >}} will do.
