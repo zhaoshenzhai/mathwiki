@@ -94,6 +94,7 @@ function styleH2(el, parentCounter, counter, resize) {
         var num = document.createElement('span');
         num.innerText = parentCounter + '.' + counter + '. ';
         num.style.fontWeight = 'normal';
+        num.style.position = 'relative';
         num.classList.add('noSelect');
         el.prepend(num);
     }
@@ -175,6 +176,16 @@ function formatHeader(header, type) {
         hintText.innerHTML = '<i>Click to expand...</i>';
 
         container.appendChild(hintText);
+    } else if (type == 'H1') {
+        var contentMaskBot = document.createElement('span');
+        contentMaskBot.classList.add('collapsibleMask');
+        contentMaskBot.classList.add('collapsibleMaskBot');
+        wrapper.insertBefore(contentMaskBot, wrapper.childNodes[0]);
+
+        var contentMaskTop = document.createElement('span');
+        contentMaskTop.classList.add('collapsibleMask');
+        contentMaskTop.classList.add('collapsibleMaskTop');
+        wrapper.insertBefore(contentMaskTop, wrapper.childNodes[0]);
     }
 
     container.appendChild(wrapper);

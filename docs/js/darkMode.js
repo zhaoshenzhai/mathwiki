@@ -16,7 +16,9 @@ const lightVals = {
     'ctrl-button-bg':       rootC.getPropertyValue('--ctrl-button-bg'),
     'ctrl-button-hover-bg': rootC.getPropertyValue('--ctrl-button-hover-bg'),
     'box-bg':               rootC.getPropertyValue('--box-bg'),
-    'quote':                rootC.getPropertyValue('--quote')
+    'quote':                rootC.getPropertyValue('--quote'),
+    'mask-bg-1':            rootC.getPropertyValue('--mask-bg-1'),
+    'mask-bg-2':            rootC.getPropertyValue('--mask-bg-2')
 };
 
 const darkVals = {
@@ -29,7 +31,9 @@ const darkVals = {
     'ctrl-button-bg':       'rgb(200,200,200,0.2)',
     'ctrl-button-hover-bg': 'rgb(150,150,150,0.2)',
     'box-bg':               'rgba(255,255,255,0.05)',
-    'quote':                'rgba(255,255,255,0.25)'
+    'quote':                'rgba(255,255,255,0.25)',
+    'mask-bg-1':            'rgba(30,33,39,0.2)',
+    'mask-bg-2':            'rgba(30,33,39,1)'
 };
 
 export function toggleDark(doc, noTransition, update, frame) {
