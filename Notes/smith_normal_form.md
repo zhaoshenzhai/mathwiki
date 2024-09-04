@@ -82,7 +82,7 @@ The presence of a Euclidean valuation $N$ allows us to inductively kill off non-
 \begin{smallmatrix}
     a & B \\\\
     C & A'
-\end{smallmatrix}\r)$, where $B,C$ are appropriate row/column matrices and $A'\in\mc{M}\_{(m-1)\times(n-1)}(R)$. By swapping rows/columns, we may assume that $N(a)$ is the minimal valuation amongst all $N(a\_{ij})$.
+\end{smallmatrix}\r)$, where $B,C$ are appropriate row/column matrices and $A'\in\mc{M}\_{(m-1)\times(n-1)}(R)$. By swapping rows/columns, we may assume that $a\neq0$ has the minimal valuation amongst all $a\_{ij}$.
 
 <br>
 
@@ -128,3 +128,21 @@ Let $D\coloneqq QAP$ be the Smith Normal Form for a fixed invertible matrix $A\i
 <div class="space"></div>
 
 ## Over {{< link file="field.md" display="Fields" type="references" >}}
+
+Let $R$ be a field. The presence of multiplicative inverses allows us to bypass Euclidean division and proceed much more directly. Indeed, let $A=(a_{ij})=\l(
+\begin{smallmatrix}
+    a & B \\\\
+    C & A'
+\end{smallmatrix}\r)\in\mc{M}_{m\times n}(R)$; by swapping rows/columns, we may assume that $a\neq0$, so we can multiply it by $a^{-1}$ and further assume that $a=1$. Adding the $(-a\_{1j})$-multiple of the first column to the second clears out the $(1,j)$-entry, and similar manipulations clear out $C$ too, so we may assume that $B=0$ and $C=0$. Then $A=\l(
+\begin{smallmatrix}
+    1 & 0 \\\\
+    0 & A'
+\end{smallmatrix}\r)$, so we are done by induction.
+
+<div class="space"></div>
+
+**Remark.** This algorithm establishes much more; namely, if $R$ is a field, then any matrix $A\in\mc{M}_{m\times n}(R)$ is equivalent to a matrix of the form $\l(
+\begin{smallmatrix}
+    I_r & 0 \\\\
+    0 & 0
+\end{smallmatrix}\r)$ for some (unique) $r\leq\min\l\\{m,n\r\\}$.
