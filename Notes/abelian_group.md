@@ -26,7 +26,7 @@ We denote the {{< link file="subcategory" display="subcategory" type="references
 
 ## Structure Theory
 
-Since Abelian groups are just $\Z$-modules and $\Z$ is a {{< link file="principal_ideal_domain" display="PID" type="references" >}}, the {{< link file="structure_theorem_for_fg_modules_over_PID" display="Structure Theorem" type="properties" >}} for finitely-generated modules over a PID applies:
+Since Abelian groups are just $\Z$-modules and $\Z$ is a {{< link file="principal_ideal_domain" display="PID" type="references" >}}, the {{< link file="structure_theorem_for_fg_modules_over_pid.md" display="Structure Theorem" type="properties" >}} for finitely-generated modules over a PID applies:
 
 {{< env type="theorem" name="Structure Theorem for f.g. Abelian Groups" >}}
 

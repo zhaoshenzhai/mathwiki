@@ -89,7 +89,7 @@ The simplest groups, and possibly the most important groups, are the {{< link fi
 Beyond the generalities above, much more can be said about specific types of groups.
 * {{< link file="finite_group" display="Finite groups" type="types" >}} can be studied combinatorially, and a benchmark problem in finite group theory is to find the number of groups of order $n$. The {{< link file="sylow_theorems" display="Sylow Theorems" type="references" >}} place certain restrictions, but more sophisticated approaches require {{< link file="representation_theory_of_finite_groups" display="representation theory" type="references" >}}.
 * {{< link file="finitely_generated_group" display="Finitely-generated groups" type="types" >}} are very geometric in nature, and are mostly studied in the context of {{< link file="geometric_group_theory" display="Geometric Group Theory" type="references" >}}.
-* {{< link file="abelian_group" display="Abelian groups" type="types" >}} vary wildly in behavior. Finitely-generated ones are completely classified via the {{< link file="structure_theorem_for_fg_modules_over_PID" display="Structure Theorem" type="references" >}}, but in general, their structure depends very heavily of set-theoretic properties.
+* {{< link file="abelian_group" display="Abelian groups" type="types" >}} vary wildly in behavior. Finitely-generated ones are completely classified via the {{< link file="structure_theorem_for_fg_modules_over_pid.md" display="Structure Theorem" type="references" >}}, but in general, their structure depends very heavily of set-theoretic properties.
 
 ## Structures on Groups
 

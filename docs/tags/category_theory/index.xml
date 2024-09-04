@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Category_Theory on MathWiki</title>
+    <link>https://zhaoshenzhai.github.io/mathwiki/tags/category_theory/</link>
+    <description>Recent content in Category_Theory on MathWiki</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 May 2024 18:17:16 -0400</lastBuildDate>
+    <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/category_theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Yoneda Lemma</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/yoneda_lemma/</link>
+      <pubDate>Wed, 29 May 2024 18:17:16 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/yoneda_lemma/</guid>
+      <description>&lt;h1 id=&#34;the-yoneda-embedding-yo&#34;&gt;The Yoneda Embedding $\yo$&lt;/h1&gt;&#xA;&lt;h2 id=&#34;statement--proof&#34;&gt;Statement &amp;amp; Proof&lt;/h2&gt;&#xA;&lt;p&gt;Fix a locally-small category $C$. $\yo:C\to\catset$&lt;/p&gt;&#xA;&lt;div class=&#34;env&#34;&gt;&lt;img class=&#34;icon noSelect listenDark&#34; src=&#34;https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg&#34;&gt;&lt;b class=&#34;envTitle&#34;&gt;Theorem (Yoneda). &lt;/b&gt;Let $C$ be a locally-small category. For every functor $F:C\to\catset$ and every object $c\in C$, we have a bijection&#xA;$$\begin{equation}&#xA;y\coloneqq y_{F,c}:\Hom(C(c,\slot),F)\to Fc\ \ \ \ \ \ \ \ \mathit{sending}\ \ \ \ \ \ \ \ \big(\eta:C(c,\slot)\to F\big)\mapsto\eta_c1_c,&#xA;\end{equation}$$&#xA;which is moreover natural in both $F$ and $c$.&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;collapsibleContainer&#34;&gt;&lt;i class=&#34;proofHeader collapsibleHeaderButton collapsibleHeader noSelect&#34;&gt;Proof (Bijection).&lt;/i&gt;&lt;span class=&#34;collapsibleHintText noSelect&#34;&gt;&lt;i&gt; Click to expand...&lt;/i&gt;&lt;/span&gt;&#xA;&#xA;        &lt;span class=&#34;collapsibleContent&#34;&gt;&lt;p&gt;Define a function $t\coloneqq t_{F,c}:Fc\to\Hom(C(C,\slot),F)$ by sending an element $a\in Fc$ to the natural transformation $t(a):C(c,\slot)\to F$ via&#xA;$$\begin{equation}&#xA;t(a)_d:C(c,d)\to Fd\ \ \ \ \ \ \ \ \textrm{mapping}\ \ \ \ \ \ \ \ (f:c\rightarrow d)\mapsto Ff(a)\in Fd&#xA;\end{equation}$$&#xA;for each $d\in C$. That $a=y(t(a))$ is immediate since $t(a)_c(1_c)=F(1_c)a=1_ca=a$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Category</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/category/</link>
+      <pubDate>Wed, 22 May 2024 21:52:00 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/category/</guid>
+      <description>&lt;h1 id=&#34;motivation--definition&#34;&gt;Motivation &amp;amp; Definition&lt;/h1&gt;&#xA;&lt;p&gt;The starting point of the theory of &lt;em&gt;categories&lt;/em&gt; is the observation that many properties of mathematical objects can be more succinctly expressed as diagrams of arrows $-$ as opposed to an equation $-$ and that many objects can be constructed via a ‘universal property’ of such a diagram; heuristically then, these objects are characterized as the ‘most efficient solution to a certain optimization problem’.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;   To formalize this, we need a general framework for composing arrows, so we make the following&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
