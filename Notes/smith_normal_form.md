@@ -72,8 +72,45 @@ The first operation is an involution, and the inverses of the other two are obta
 
 <div class="space"></div>
 
-## Over {{< link file="field.md" display="Fields" type="references" >}}
+## Over {{< link file="euclidean_domain.md" display="Euclidean Domains" type="references" >}}
+
+The presence of a Euclidean valuation $N$ allows us to inductively kill off non-diagonal entries and express the diagonal ones as successive divisors. These operations correspond to multiplying by the above elementary matrices, so any matrix $A\in\mc{M}_{m\times n}(R)$ can be set into Smith Normal Form in this way. The algorithm is as follows.
+
+<br>
+
+&emsp;&emsp;Let $A=(a\_{ij})\in\mc{M}_{m\times n}(R)$ and write it in block matrix form $A=\l(
+\begin{smallmatrix}
+    a & B \\\\
+    C & A'
+\end{smallmatrix}\r)$, where $B,C$ are appropriate row/column matrices and $A'\in\mc{M}\_{(m-1)\times(n-1)}(R)$. By swapping rows/columns, we may assume that $N(a)$ is the minimal valuation amongst all $N(a\_{ij})$.
+
+<br>
+
+&emsp;&emsp;For each non-zero $b_j\in B$, division gives $b_j=aq_j+r_j$ for some $q_j,r_j\in R$, with either $r_j=0$ or $N(r_j)<N(a)$. In the latter case, place $r_j$ in the $(1,1)$-entry and repeat; since the valuation are non-negative numbers, this process terminates, so we may assume that $r_j=0$. Thus, adding a $(-q_j)$-multiple of the first column to the $j^\textrm{th}$ column clears the $(1,j)$-entry. Similar manipulations to non-zero entries $c_i\in C$ clears the $(i,1)$-entries too, so we may assume that $B=0$ and $C=0$. At this point, $A=\l(
+\begin{smallmatrix}
+    a & 0 \\\\
+    0 & A'
+\end{smallmatrix}\r)$, and if any $a'\in A'$ has small valuation than $a$, repeat the *entire* process until there is none.
+
+<br>
+
+&emsp;&emsp;If $a\divides a'$ for every $a'\in A'$, then by induction there are matrices $P',Q'$ such that $Q'A'P'$ is in Smith Normal Form, so
+$$\begin{equation}QAP\coloneqq
+    \begin{pmatrix}
+        1 & 0 \\\\
+        0 & Q'
+    \end{pmatrix}
+    \begin{pmatrix}
+        a & 0 \\\\
+        0 & A'
+    \end{pmatrix}
+    \begin{pmatrix}
+        1 & 0 \\\\
+        0 & P'
+    \end{pmatrix}
+\end{equation}$$
+is the desired Smith Normal Form for $A$. Otherwise, $a\ndivides a'$ for some $a'\coloneqq a_{ij}\in A'$, so division furnishes $q,r\in R$ with $a'=aq+r$ and $N(r)<N(a)$. Add the $i^\textrm{th}$ row to the first, which preserves $a$ in the $(1,1)$-entry, so we can add a $(-q)$-multiple of the first column to the $j^\textrm{th}$ and make $a_{ij}=r$. Since $N(r)<N(a)$, we can repeat the *entire* process with $r$ in place of $a$, and this process terminates.
 
 <div class="space"></div>
 
-## Over {{< link file="euclidean_domain.md" display="Euclidean Domains" type="references" >}}
+## Over {{< link file="field.md" display="Fields" type="references" >}}
