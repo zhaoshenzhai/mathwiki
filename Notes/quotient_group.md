@@ -7,11 +7,11 @@ tags: [Group_Theory]
 
 # Motivation & Definition
 
-Fix an {{< link file="equivalence_relation" display="equivalence relation" type="references" >}} on a {{< link file="group" display="group" type="references" >}} $G$ and consider the {{< link file="quotient_set" display="quotient set" type="references" >}} $G/\\!\sim$. Since $\sim$ has, a priori, nothing to do with the group structure of $G$, we cannot expect $G/\\!\sim$ to carry a group structure.
+Fix an {{< link file="equivalence_relation.md" display="equivalence relation" type="references" >}} on a {{< link file="group.md" display="group" type="references" >}} $G$ and consider the {{< link file="quotient_set.md" display="quotient set" type="references" >}} $G/\\!\sim$. Since $\sim$ has, a priori, nothing to do with the group structure of $G$, we cannot expect $G/\\!\sim$ to carry a group structure.
 
 <br>
 
-&emsp;&emsp;However, it is natural to impose the projection map $\pi:G\onto G/\\!\sim$ to be a group homomorphism, so we are forced to have $[g]\ast[h]=\pi(g)\ast\pi(h)=\pi(gh)=[gh]$ for all $g,h\in G$. If $\ast$ is well-defined, then $G/\\!\sim$ is a group. But this occurs iff $g\sim g'$ and $h\sim h'$ implies $gh\sim g'h'$; that is, $\ast$ is well-defined iff $\sim$ is a {{< link file="congruence_relation" display="congruence relation" type="references" >}} on $G$. Since congruence relations are equivalent{{< link file="normal_subgroup" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Congruence" >}} to both {{< link file="normal_subgroup" display="normal subgroups" type="references" >}} and {{< link file="kernel_group_theory" display="kernels" type="references" >}}, we obtain two descriptions of the group structure on $G/\\!\sim$.
+&emsp;&emsp;However, it is natural to impose the projection map $\pi:G\onto G/\\!\sim$ to be a group homomorphism, so we are forced to have $[g]\ast[h]=\pi(g)\ast\pi(h)=\pi(gh)=[gh]$ for all $g,h\in G$. If $\ast$ is well-defined, then $G/\\!\sim$ is a group. But this occurs iff $g\sim g'$ and $h\sim h'$ implies $gh\sim g'h'$; that is, $\ast$ is well-defined iff $\sim$ is a {{< link file="congruence_relation.md" display="congruence relation" type="references" >}} on $G$. Since congruence relations are equivalent{{< link file="normal_subgroup.md" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Congruence" >}} to both {{< link file="normal_subgroup.md" display="normal subgroups" type="references" >}} and {{< link file="kernel_group_theory.md" display="kernels" type="references" >}}, we obtain two descriptions of the group structure on $G/\\!\sim$.
 
 <div class="space"></div>
 
@@ -33,15 +33,15 @@ Let $N\nsubgrpeq G$ be a normal subgroup. The *quotient group* of $G$ by $N$ is 
 
 ## Fibers of Homomorphisms
 
-Given the above construction, and noting that normal subgroups correspond{{< link file="normal_subgroup" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Kernel" >}} to {{< link file="kernel_group_theory" display="kernels" type="references" >}}, we may *a posteriori* define the quotient group of $G$ w.r.t. a homomorphism $f:G\to H$ as the set of fibers of $f$ equipped with the operation $f^{-1}(h_1)\ast f^{-1}(h_2)\coloneqq f^{-1}(h_1h_2)$. Its identity is, of course, $\ker f$. Every such group arise as fibers of $\pi:G\onto G/N$, and conversely, they induce the quotient group $G/\ker f$. <span style="color:red">**TODO** (regular category stuff?).</span>
+Given the above construction, and noting that normal subgroups correspond{{< link file="normal_subgroup.md" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Kernel" >}} to {{< link file="kernel_group_theory.md" display="kernels" type="references" >}}, we may *a posteriori* define the quotient group of $G$ w.r.t. a homomorphism $f:G\to H$ as the set of fibers of $f$ equipped with the operation $f^{-1}(h_1)\ast f^{-1}(h_2)\coloneqq f^{-1}(h_1h_2)$. Its identity is, of course, $\ker f$. Every such group arise as fibers of $\pi:G\onto G/N$, and conversely, they induce the quotient group $G/\ker f$. <span style="color:red">**TODO** (regular category stuff?).</span>
 
 # Categorical Aspects
 
-These nice descriptions of congruences, kernels, and normal subgroups reflect the underlying structure of $\catgrp$, which we now explore. In particular, it makes $\catgrp$ a {{< link file="regular_category" display="regular category" type="references" >}}, and all the results in this section can be generalized to arbitrary regular categories. <span style="color:red">**TODO** (can they?).</span> Nevertheless, we present them here for sake of completeness and to illustrate how to work with quotient groups.
+These nice descriptions of congruences, kernels, and normal subgroups reflect the underlying structure of $\catgrp$, which we now explore. In particular, it makes $\catgrp$ a {{< link file="regular_category.md" display="regular category" type="references" >}}, and all the results in this section can be generalized to arbitrary regular categories. <span style="color:red">**TODO** (can they?).</span> Nevertheless, we present them here for sake of completeness and to illustrate how to work with quotient groups.
 
 <div class="space"></div>
 
-## {{< link file="universal_constructions" display="Universal Property" type="references" >}}
+## {{< link file="universal_constructions.md" display="Universal Property" type="references" >}}
 
 Quotient groups satisfy the following universal property.
 
@@ -53,7 +53,7 @@ If $N\nsubgrpeq G$ is normal, then $\pi:G\onto G/N$ is initial amongst all homom
 
 {{< env type="proof" >}}
 
-That $N\subseteq\ker f$ is equivalent to $f$ equating equivalent elements, for which the universal property{{< link file="quotient_set" type="proved_by" mod="dag" >}} of the {{< link file="quotient_set" display="quotient set" type="references" >}} $G/\\!\sim$ furnishes a unique function $f':G/N\to H$ such that $f=f'\circ\pi$. This is a homomorphism since
+That $N\subseteq\ker f$ is equivalent to $f$ equating equivalent elements, for which the universal property{{< link file="quotient_set.md" type="proved_by" mod="dag" >}} of the {{< link file="quotient_set.md" display="quotient set" type="references" >}} $G/\\!\sim$ furnishes a unique function $f':G/N\to H$ such that $f=f'\circ\pi$. This is a homomorphism since
 $$\begin{equation}
     f'([g_1]\ast[g_2])=f'([g_1g_2])=f'(\pi(g_1g_2))=f(g_1g_2)=f(g_1)f(g_2)=f'([g_1])f'([g_2]).\qedin
 \end{equation}$$
@@ -62,7 +62,7 @@ $$\begin{equation}
 
 <div class="space"></div>
 
-**Remark.** <span style="color:red">**TODO** (link with representable functors etc).</span> Also, this shows that $\cat{B}G/\\!\sim$ is the {{< link file="quotient_category" display="quotient category" type="references" >}} by the congruence.
+**Remark.** <span style="color:red">**TODO** (link with representable functors etc).</span> Also, this shows that $\cat{B}G/\\!\sim$ is the {{< link file="quotient_category.md" display="quotient category" type="references" >}} by the congruence.
 
 <div class="space"></div>
 
@@ -92,11 +92,11 @@ We have $\ker f\nsubgrpeq G$, so the universal property of quotients induces a h
 
 <div class="space"></div>
 
-**Remark.** One important consequence is that the sequence $0\to K\overset{\iota}{\to}G\overset{f}{\to}H\to0$ is {{< link file="exact_sequence" display="exact" type="references" >}} iff $H\iso G/K$. Indeed, if the sequence is exact, then $\iota$ is injective, and hence $K\iso\ker f$, and thus the Isomorphism Theorem gives $H=\im f\iso G/\ker f\iso G/K$. Conversely, $\iota:K\into G$ is the inclusion, $f:G\to H\iso G/K$ is the projection, and $\im\iota=K=\ker f$.
+**Remark.** One important consequence is that the sequence $0\to K\overset{\iota}{\to}G\overset{f}{\to}H\to0$ is {{< link file="exact_sequence.md" display="exact" type="references" >}} iff $H\iso G/K$. Indeed, if the sequence is exact, then $\iota$ is injective, and hence $K\iso\ker f$, and thus the Isomorphism Theorem gives $H=\im f\iso G/\ker f\iso G/K$. Conversely, $\iota:K\into G$ is the inclusion, $f:G\to H\iso G/K$ is the projection, and $\im\iota=K=\ker f$.
 
 <div class="space"></div>
 
-&emsp;&emsp;The next Isomorphism Theorems deal with the structure of {{< link file="subgroup" display="subgroups" type="references" >}} of $G$, and are extremely useful.
+&emsp;&emsp;The next Isomorphism Theorems deal with the structure of {{< link file="subgroup.md" display="subgroups" type="references" >}} of $G$, and are extremely useful.
 
 {{< env type="theorem" name="Calculus of Subgroups" >}}
 
@@ -116,7 +116,7 @@ Let $N\nsubgrpeq G$ be a normal subgroup. Then we have an isomorphism
 $$\begin{equation}
     \phi:\l\\{\textrm{subgroups of }G\textrm{ containing }N\r\\}\to\l\\{\textrm{subgroups of }G/N\r\\}
 \end{equation}$$
-of (bounded) {{< link file="lattice" display="lattices" type="references" >}}, which maps $H\mapsto H/N$. Moreover, we have $H\nsubgrpeq G$ iff $\phi(H)\nsubgrpeq\phi(G)$, in which case $\phi(G)/\phi(H)\iso G/H$.
+of (bounded) {{< link file="lattice.md" display="lattices" type="references" >}}, which maps $H\mapsto H/N$. Moreover, we have $H\nsubgrpeq G$ iff $\phi(H)\nsubgrpeq\phi(G)$, in which case $\phi(G)/\phi(H)\iso G/H$.
 
 {{< /env >}}
 

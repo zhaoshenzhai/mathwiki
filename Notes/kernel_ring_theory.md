@@ -9,7 +9,7 @@ tags: [In_Progress]
 
 {{< env type="definition" >}}
 
-The *kernel* of a ring homomorphism $f:R\to S$ is the {{< link file="ideal_ring_theory" display="ideal" type="references" >}} $\ker f\coloneqq f^{-1}(0_S)$ of $R$.
+The *kernel* of a ring homomorphism $f:R\to S$ is the {{< link file="ideal_ring_theory.md" display="ideal" type="references" >}} $\ker f\coloneqq f^{-1}(0_S)$ of $R$.
 
 {{< /env >}}
 

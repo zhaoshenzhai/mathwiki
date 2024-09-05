@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Let $X$ be a set. To specify a {{< link file="topological_space" display="topology" type="references" >}} on $X$, one needs to give a complete description of its open sets. In practice, however, specifying a certain subcollection $\mc{B}\subseteq\pow(X)$ will suffice, In which case we say that the topology is *generated* by $\mc{B}$. Two questions arise:
+Let $X$ be a set. To specify a {{< link file="topological_space.md" display="topology" type="references" >}} on $X$, one needs to give a complete description of its open sets. In practice, however, specifying a certain subcollection $\mc{B}\subseteq\pow(X)$ will suffice, In which case we say that the topology is *generated* by $\mc{B}$. Two questions arise:
 1. If $\mc{T}$ is a *given* topology on $X$, what subcollections $\mc{B}\subseteq\mc{T}$ generate $\mc{T}$?
 2. What kinds of collections $\mc{B}\subseteq\pow(X)$ can specify *some* topology $\mc{T}$ on $X$?
 
@@ -25,7 +25,7 @@ Since all open sets $U\in\mc{T}$ are just unions of sets in $\mc{B}$, we call $\
 
 <br>
 
-&emsp;&emsp;Equivalently, $\mc{B}\subseteq\mc{T}$ is a basis iff for each $x\in X$, its neighborhood {{< link file="filter" display="filter" type="references" >}} $\mc{N}_x$ (consisting of all sets $A\subseteq X$ such that $x\in U\subseteq A$ for some $U\in\mc{T}$) admits a {{< link file="filter" display="filter base" type="references" section="base" >}} in $\mc{B}$.
+&emsp;&emsp;Equivalently, $\mc{B}\subseteq\mc{T}$ is a basis iff for each $x\in X$, its neighborhood {{< link file="filter.md" display="filter" type="references" >}} $\mc{N}_x$ (consisting of all sets $A\subseteq X$ such that $x\in U\subseteq A$ for some $U\in\mc{T}$) admits a {{< link file="filter.md" display="filter base" type="references" section="base" >}} in $\mc{B}$.
 
 >{{< env type="proof" hide="true" >}}
 
@@ -93,16 +93,16 @@ To begin, we have the following basic notion.
 
 {{< env type="definition" >}}
 
-The *weight* of $X$ is the minimal {{< link file="cardinal" display="cardinality" type="references" >}} of a basis for $X$, denoted $w(X)$.
+The *weight* of $X$ is the minimal {{< link file="cardinal.md" display="cardinality" type="references" >}} of a basis for $X$, denoted $w(X)$.
 
 {{< /env >}}
 
 
-If $w(X)\leq\aleph_0$, then $X$ is said to be *{{< link file="second_countable_space" display="second countable" type="constructions" >}}*.
+If $w(X)\leq\aleph_0$, then $X$ is said to be *{{< link file="second_countable_space.md" display="second countable" type="constructions" >}}*.
 
 <br>
 
-&emsp;&emsp;A pointwise-version of the above is the *character* $\chi(x,X)$ of a point $x\in X$, defined as the minimal cardinality of a filter base for $\mc{N}_x$. Taking the supremum over all $x\in X$ gives the *character* $\chi(X)$ of $X$. If $\chi(X)\leq\aleph_0$, then $X$ is said to be *{{< link file="first_countable_space" display="first-countable" type="constructions" >}}*.
+&emsp;&emsp;A pointwise-version of the above is the *character* $\chi(x,X)$ of a point $x\in X$, defined as the minimal cardinality of a filter base for $\mc{N}_x$. Taking the supremum over all $x\in X$ gives the *character* $\chi(X)$ of $X$. If $\chi(X)\leq\aleph_0$, then $X$ is said to be *{{< link file="first_countable_space.md" display="first-countable" type="constructions" >}}*.
 
 <div class="space"></div>
 

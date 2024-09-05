@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Oftentimes, we wish to regard two objects as ‘being the same’ (for instance, two sets are ‘the same’ if they have the same {{< link file="cardinality" display="cardinality" type="references" >}}), despite them not being *equal*. The concept of an *equivalence relation* can be thought of as a generalization of equality.
+Oftentimes, we wish to regard two objects as ‘being the same’ (for instance, two sets are ‘the same’ if they have the same {{< link file="cardinality.md" display="cardinality" type="references" >}}), despite them not being *equal*. The concept of an *equivalence relation* can be thought of as a generalization of equality.
 
 {{< env type="definition" >}}
 
@@ -34,9 +34,9 @@ Equivalence relations on $X$ are in correspondence with *partitions* of $X$, whi
 
 <div class="space"></div>
 
-## {{< link file="quotient_set" display="Quotient Set" type="constructions" >}}
+## {{< link file="quotient_set.md" display="Quotient Set" type="constructions" >}}
 
-Given an equivalence $E$ on $X$, we would like to construct some set $X/E$ where ‘$E$ becomes equality’. Moreover, this construction should be ‘the most efficient’ way of doing so, in the sense of a suitable {{< link file="universal_constructions" display="universal property" type="references" >}}.
+Given an equivalence $E$ on $X$, we would like to construct some set $X/E$ where ‘$E$ becomes equality’. Moreover, this construction should be ‘the most efficient’ way of doing so, in the sense of a suitable {{< link file="universal_constructions.md" display="universal property" type="references" >}}.
 
 <br>
 
@@ -44,10 +44,10 @@ Given an equivalence $E$ on $X$, we would like to construct some set $X/E$ where
 
 # Examples and Generalizations
 
-## {{< link file="groupoid" display="Groupoid" type="generalizations" >}}
+## {{< link file="groupoid.md" display="Groupoid" type="generalizations" >}}
 
 <div class="space"></div>
 
-## {{< link file="congruence_relation" display="Congruence Relation" type="types" >}}
+## {{< link file="congruence_relation.md" display="Congruence Relation" type="types" >}}
 
 # Classification Problems and Dynamics

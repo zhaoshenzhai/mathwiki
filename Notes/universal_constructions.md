@@ -32,7 +32,7 @@ This can be visualized as in the following diagram.
 $$\begin{equation}
     F(g'\circ f')\circ u=Fg'\circ(Ff'\circ u)
 \end{equation}$$
-for every morphism $f':r\to d$, making its naturality square commute. Conversely, by the {{< link file="yoneda_lemma" display="Yoneda Lemma" type="justifications" >}}, *every* natural isomorphism $\phi:D(r,\slot)\to C(c,F\slot)$ arises in this way via a unique universal arrow $u:c\to Fr$ from $c$ to $F$.<span style="float:right;">$\blacklozenge$</span>
+for every morphism $f':r\to d$, making its naturality square commute. Conversely, by the {{< link file="yoneda_lemma.md" display="Yoneda Lemma" type="justifications" >}}, *every* natural isomorphism $\phi:D(r,\slot)\to C(c,F\slot)$ arises in this way via a unique universal arrow $u:c\to Fr$ from $c$ to $F$.<span style="float:right;">$\blacklozenge$</span>
 
 <div class="space"></div>
 

@@ -41,7 +41,7 @@ The presence of charts provide very strong restrictions on the topological prope
 
 # Structures on Manifolds
 
-## {{< link file="smooth_manifold" display="Smooth" type="structures" >}} Manifolds
+## {{< link file="smooth_manifold.md" display="Smooth" type="structures" >}} Manifolds
 
 
 

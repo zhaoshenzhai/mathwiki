@@ -5,11 +5,11 @@ references: [DF03]
 tags: [Group_Theory/Later]
 ---
 
-Let $G$ be a {{< link file="group" display="group" type="references" >}} and consider {{< link file="subgroup" display="subgroups" type="references" >}} $H,K\substructeq G$, whose *subgroup product* is
+Let $G$ be a {{< link file="group.md" display="group" type="references" >}} and consider {{< link file="subgroup.md" display="subgroups" type="references" >}} $H,K\substructeq G$, whose *subgroup product* is
 $$\begin{equation}
     HK\coloneqq\l\\{hk\in G\st h\in H,k\in K\r\\}.
 \end{equation}$$
-In general, this need *not* be a subgroup of $G$. Here, we give sufficient criteria in which this is the case. We also examine when $HK\nsubgrpeq G$ is a {{< link file="normal_subgroup" display="normal subgroup" type="references" >}}.
+In general, this need *not* be a subgroup of $G$. Here, we give sufficient criteria in which this is the case. We also examine when $HK\nsubgrpeq G$ is a {{< link file="normal_subgroup.md" display="normal subgroup" type="references" >}}.
 
 <br>
 
@@ -17,11 +17,11 @@ In general, this need *not* be a subgroup of $G$. Here, we give sufficient crite
 
 >{{< env type="proof" hide="true" >}}
 
-Note that $HK=\bigcup_{h\in H}hK$, where any two $h_1K,h_2K$ either coincide or are disjoint. But $h_1K=h_2K$ iff $h_2^{-1}h_1\in H\cap K$, iff $h_1(H\cap K)=h_2(H\cap K)$, and so the number of distinct cosets $hK$ coincides with that of $h(H\cap K)$. By {{< link file="lagranges_theorem" display="Lagrange’s Theorem" type="references" >}}, there are $[H:H\cap K]=|H|/|H\cap K|$ distinct cosets $hK$, each of which has cardinality $|hK|=|K|$.<span style="float:right;">$\blacksquare$</span>
+Note that $HK=\bigcup_{h\in H}hK$, where any two $h_1K,h_2K$ either coincide or are disjoint. But $h_1K=h_2K$ iff $h_2^{-1}h_1\in H\cap K$, iff $h_1(H\cap K)=h_2(H\cap K)$, and so the number of distinct cosets $hK$ coincides with that of $h(H\cap K)$. By {{< link file="lagranges_theorem.md" display="Lagrange’s Theorem" type="references" >}}, there are $[H:H\cap K]=|H|/|H\cap K|$ distinct cosets $hK$, each of which has cardinality $|hK|=|K|$.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 
-Finally, we relate $HK$ to the {{< link file="product_of_groups" display="product" type="references" >}} $H\times K$ and the {{< link file="semi-direct_product" display="semi-direct product" type="references" >}} $H\semi K$.
+Finally, we relate $HK$ to the {{< link file="product_of_groups.md" display="product" type="references" >}} $H\times K$ and the {{< link file="semi-direct_product.md" display="semi-direct product" type="references" >}} $H\semi K$.
 
 # Criteria for $HK\substructeq G$
 
@@ -49,7 +49,7 @@ for some $h'\in H$ and $k'\in K$. A similar trick works for inverses, so $HK\sub
 
 <div class="space"></div>
 
-In particular, this holds when $G$ is {{< link file="abelian_group" display="abelian" type="references" >}}, or more generally, if either $H\substructeq N_G(K)$ or $K\substructeq N_G(H)$. The latter occurs, in particular, when either $H\nsubgrpeq G$ or $K\nsubgrpeq G$.
+In particular, this holds when $G$ is {{< link file="abelian_group.md" display="abelian" type="references" >}}, or more generally, if either $H\substructeq N_G(K)$ or $K\substructeq N_G(H)$. The latter occurs, in particular, when either $H\nsubgrpeq G$ or $K\nsubgrpeq G$.
 
 <div class="space"></div>
 

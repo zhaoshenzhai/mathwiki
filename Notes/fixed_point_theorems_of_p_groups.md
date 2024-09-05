@@ -8,19 +8,19 @@ renderedTitle: Fixed-point Theorems for $p\ $-groups
 titleSize: 20
 ---
 
-A standard method to study a {{< link file="finite_group" display="finite group" type="references" >}} is to first find its {{< link file="conjugation_action" display="center" type="references" >}}; if non-trivial, we can set up an induction proof for certain existence theorems by {{< link file="quotient_group" display="quotienting" type="references" >}} by $Z(G)$.
+A standard method to study a {{< link file="finite_group.md" display="finite group" type="references" >}} is to first find its {{< link file="conjugation_action.md" display="center" type="references" >}}; if non-trivial, we can set up an induction proof for certain existence theorems by {{< link file="quotient_group.md" display="quotienting" type="references" >}} by $Z(G)$.
 
 <br>
 
-&emsp;&emsp;The results here, used in tandem with {{< link file="cauchys_theorem" display="Cauchy’s Theorem" type="references" >}}, are the backbone for the proofs of the {{< link file="sylow_theorems" display="Sylow Theorems" type="references" >}}.
+&emsp;&emsp;The results here, used in tandem with {{< link file="cauchys_theorem.md" display="Cauchy’s Theorem" type="references" >}}, are the backbone for the proofs of the {{< link file="sylow_theorems.md" display="Sylow Theorems" type="references" >}}.
 
 # Non-triviality of $Z(G)$
 
-This is indeed the case for finite {{< link file="p_group" display="$p$-groups" type="references" >}}, which we now show. Fix a prime $p$.
+This is indeed the case for finite {{< link file="p_group.md" display="$p$-groups" type="references" >}}, which we now show. Fix a prime $p$.
 
 {{< env type="proposition" >}}
 
-If $G$ is a $p$-group {{< link file="group_action" display="acting" type="references" >}} on a finite set $S$, then $\l|Z\r|\equiv\l|S\r|\\,\mod\\,p$, where $Z$ is the set of fixed-points of this action.
+If $G$ is a $p$-group {{< link file="group_action.md" display="acting" type="references" >}} on a finite set $S$, then $\l|Z\r|\equiv\l|S\r|\\,\mod\\,p$, where $Z$ is the set of fixed-points of this action.
 
 {{< /env >}}
 
@@ -30,7 +30,7 @@ Letting $A\subseteq S$ contain exactly the elements with non-trivial orbits, we 
 $$\begin{equation}
     \l|S\r|=\l|Z\r|+\sum_{a\in A}\l[G:G_a\r]
 \end{equation}$$
-by the {{< link file="the_class_equation" display="Class Equation" type="proved_by" >}}. Since $G$ is a $p$-group, each summand $\l[G:G_a\r]$ is a power of $p$ greater than $1$, and hence is $0\\,\mod\\,p$.<span style="float:right;">$\blacksquare$</span>
+by the {{< link file="the_class_equation.md" display="Class Equation" type="proved_by" >}}. Since $G$ is a $p$-group, each summand $\l[G:G_a\r]$ is a power of $p$ greater than $1$, and hence is $0\\,\mod\\,p$.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 
@@ -56,7 +56,7 @@ We now apply the previous results to understand the $p$-subgroups of a finite gr
 
 {{< env type="lemma" >}}
 
-We have{{< link file="conjugation_action" type="references" mod="dag" >}} $[N_G(H):H]\equiv[G:H]\\,\mod\\,p$.
+We have{{< link file="conjugation_action.md" type="references" mod="dag" >}} $[N_G(H):H]\equiv[G:H]\\,\mod\\,p$.
 
 {{< /env >}}
 
@@ -72,13 +72,13 @@ We are done if $H$ is trivial. Otherwise, $H$ acts on $G/H$ by left-multiplicati
 
 {{< env type="proposition" >}}
 
-If $H$ is not a {{< link file="sylow_theorems" display="$p$-Sylow subgroup" type="references" >}} of $G$, then there is a $p$-subgroup $K\substructeq G$ such that $H\nsubgrpeq K$ and $[K:H]=p$.
+If $H$ is not a {{< link file="sylow_theorems.md" display="$p$-Sylow subgroup" type="references" >}} of $G$, then there is a $p$-subgroup $K\substructeq G$ such that $H\nsubgrpeq K$ and $[K:H]=p$.
 
 {{< /env >}}
 
 {{< env type="proof" hide="false" >}}
 
-Since $H$ is not a $p$-Sylow subgroup, we see that $p$ divides $[G:H]$, and hence $p$ divides $[N_G(H):H]$ too. By {{< link file="cauchys_theorem" display="Cauchy’s Theorem" type="proved_by" >}}, there is an element in $N_G(H)/H$ of order $p$, which generates a cyclic subgroup $K_0$ with $|K_0|=p$. Set $K\coloneqq\pi^{-1}(K_0)\substructeq G$, which contains $H$ since $\pi(H)$ is the identity in $K_0$. Clearly $\pi(H)\nsubgrpeq\pi(K)$, so by the {{< link file="subgroup" display="Lattice Isomorphism Theorem" type="proved_by" section="Lattice Isomorphism Theorem" >}}, we have $H\nsubgrpeq K$ and
+Since $H$ is not a $p$-Sylow subgroup, we see that $p$ divides $[G:H]$, and hence $p$ divides $[N_G(H):H]$ too. By {{< link file="cauchys_theorem.md" display="Cauchy’s Theorem" type="proved_by" >}}, there is an element in $N_G(H)/H$ of order $p$, which generates a cyclic subgroup $K_0$ with $|K_0|=p$. Set $K\coloneqq\pi^{-1}(K_0)\substructeq G$, which contains $H$ since $\pi(H)$ is the identity in $K_0$. Clearly $\pi(H)\nsubgrpeq\pi(K)$, so by the {{< link file="subgroup.md" display="Lattice Isomorphism Theorem" type="proved_by" section="Lattice Isomorphism Theorem" >}}, we have $H\nsubgrpeq K$ and
 $$\begin{equation}
     K/H\iso\pi(K)/\pi(H)\iso K_0.
 \end{equation}$$

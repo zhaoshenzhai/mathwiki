@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Let $X$ be a {{< link file="topological_space" display="topological space" type="references" >}}. From the point of view of the topology on $X$, two points are distinguishable iff they can be ‘separated’ by open sets. For instance, if $X$ is discrete, then point are separated, while if $X$ has the trivial topology, then no points are separated. There are different degrees of separation; the most common and useful one is as follows.
+Let $X$ be a {{< link file="topological_space.md" display="topological space" type="references" >}}. From the point of view of the topology on $X$, two points are distinguishable iff they can be ‘separated’ by open sets. For instance, if $X$ is discrete, then point are separated, while if $X$ has the trivial topology, then no points are separated. There are different degrees of separation; the most common and useful one is as follows.
 
 {{< env type="definition" >}}
 
@@ -17,7 +17,7 @@ A topological space $X$ is *Hausdorff* if every distinct pair $x,y\in X$ admit d
 
 ## Basic Properties
 
-Since points are separated, every {{< link file="convergence" display="convergent sequence" type="references" >}} in a Hausdorff space $X$ has a unique limit point.
+Since points are separated, every {{< link file="convergence.md" display="convergent sequence" type="references" >}} in a Hausdorff space $X$ has a unique limit point.
 
 >{{< env type="proof" hide="false" >}}
 
@@ -25,11 +25,11 @@ Let $(x_n)\subseteq X$ converge to both $x,y\in X$. If $x\neq y$, then pick disj
 
 {{< /env >}}
 
-In fact{{< link file="topology_using_nets" type="properties" mod="dag" >}}, enlarging the notion of sequences to {{< link file="convergence" display="nets" type="references" section="Nets" >}}/{{< link file="filter" display="filters" type="references" >}} gives the converse direction too, in that $X$ is Hausdorff iff every net/filter has at most one limit point.
+In fact{{< link file="topology_using_nets.md" type="properties" mod="dag" >}}, enlarging the notion of sequences to {{< link file="convergence.md" display="nets" type="references" section="Nets" >}}/{{< link file="filter.md" display="filters" type="references" >}} gives the converse direction too, in that $X$ is Hausdorff iff every net/filter has at most one limit point.
 
 <br>
 
-&emsp;&emsp;Hausdorffness also plays very well with compactness, and spaces which are {{< link file="compact_hausdorff_space" display="compact Hausdorff" type="types" >}} are very rich. A more basic fact is that compact subsets of Hausdorff spaces are closed.
+&emsp;&emsp;Hausdorffness also plays very well with compactness, and spaces which are {{< link file="compact_hausdorff_space.md" display="compact Hausdorff" type="types" >}} are very rich. A more basic fact is that compact subsets of Hausdorff spaces are closed.
 
 >{{< env type="proof" hide="false" >}}
 

@@ -7,33 +7,33 @@ tags: [Group_Theory]
 
 # Motivation & Statement
 
-Let $G$ be a {{< link file="finite_group" display="finite group" type="references" >}}. By {{< link file="lagranges_theorem" display="Lagrange’s Theorem" type="references" >}}, every {{< link file="subgroup" display="subgroup" type="references" >}} $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there *may not* be a subgroup $H\substructeq G$ with order $d$.
+Let $G$ be a {{< link file="finite_group.md" display="finite group" type="references" >}}. By {{< link file="lagranges_theorem.md" display="Lagrange’s Theorem" type="references" >}}, every {{< link file="subgroup.md" display="subgroup" type="references" >}} $H\substructeq G$ must have order dividing $|G|$. The converse is not necessarily true; that is, if $d$ divides $|G|$, there *may not* be a subgroup $H\substructeq G$ with order $d$.
 
 <br>
 
-&emsp;&emsp;*Cauchy’s Theorem* can be regarded as a partial converse thereof, stating that if $p$ is a *prime* divisor of $|G|$, then there is a ({{< link file="cyclic_group" display="cyclic" type="references" >}}) subgroup $H\substructeq G$ of order $p$.
+&emsp;&emsp;*Cauchy’s Theorem* can be regarded as a partial converse thereof, stating that if $p$ is a *prime* divisor of $|G|$, then there is a ({{< link file="cyclic_group.md" display="cyclic" type="references" >}}) subgroup $H\substructeq G$ of order $p$.
 
 {{< env type="theorem" name="Cauchy" >}}
 
-Let $G$ be a finite group. If $p$ is a prime divisor of $|G|$, then $G$ contains an element of {{< link file="order" display="order" type="references" >}} $p$.
+Let $G$ be a finite group. If $p$ is a prime divisor of $|G|$, then $G$ contains an element of {{< link file="order.md" display="order" type="references" >}} $p$.
 
 {{< /env >}}
 
-In fact, more is true, and $G$ has a subgroup of order $p^i$ for *every* $i\leq n$. This follows from the {{< link file="sylow_theorems" display="Sylow Theorems" type="generalizations" >}}, and can be proved from Cauchy’s Theorem by induction.
+In fact, more is true, and $G$ has a subgroup of order $p^i$ for *every* $i\leq n$. This follows from the {{< link file="sylow_theorems.md" display="Sylow Theorems" type="generalizations" >}}, and can be proved from Cauchy’s Theorem by induction.
 
 # Proofs of Cauchy’s Theorem
 
-Ultimately, all proofs of Cauchy’s Theorem that I know of boils down to {{< link file="fixed_point_theorems_of_p_groups" display="fixed-point theorems" type="references" >}} of {{< link file="p_group" display="$p$-groups" type="references" >}} or by directly applying the {{< link file="the_class_equation" display="Class Equation" type="references" >}}.
+Ultimately, all proofs of Cauchy’s Theorem that I know of boils down to {{< link file="fixed_point_theorems_of_p_groups.md" display="fixed-point theorems" type="references" >}} of {{< link file="p_group.md" display="$p$-groups" type="references" >}} or by directly applying the {{< link file="the_class_equation.md" display="Class Equation" type="references" >}}.
 
 <div class="space"></div>
 
-## {{< link file="abelian_group" display="Abelian" type="references" >}} $\rightsquigarrow$ {{< link file="conjugation_action" display="Center" type="references" >}}
+## {{< link file="abelian_group.md" display="Abelian" type="references" >}} $\rightsquigarrow$ {{< link file="conjugation_action.md" display="Center" type="references" >}}
 
 We first prove the theorem in the abelian case, in order to apply it to the center $Z(G)$ and induct via the Class Equation.
 
 >{{< env type="proof" hide="true" name="Abelian case" >}}
 
-We proceed by induction on $|G|$. Let $H\substruct G$ be a maximal, which exists sine $|G|$ is finite. If $p$ divides $|H|$, then we are done by induction, so suppose otherwise and set $K\coloneqq\gen{x}$. Since $G$ is abelian, we have $HK=KH$, and hence{{< link file="subgroup_products" type="proved_by" mod="dag" section="Criteria for $HK\substructeq G$" >}} $H\substruct HK\substructeq G$. Maximality of $H$ then forces $HK=G$, so
+We proceed by induction on $|G|$. Let $H\substruct G$ be a maximal, which exists sine $|G|$ is finite. If $p$ divides $|H|$, then we are done by induction, so suppose otherwise and set $K\coloneqq\gen{x}$. Since $G$ is abelian, we have $HK=KH$, and hence{{< link file="subgroup_products.md" type="proved_by" mod="dag" section="Criteria for $HK\substructeq G$" >}} $H\substruct HK\substructeq G$. Maximality of $H$ then forces $HK=G$, so
 $$\begin{equation}
     |G|=|HK|=\frac{|H||K|}{|H\cap K|}.
 \end{equation}$$
@@ -41,7 +41,7 @@ Thus $p$ divides $|H||K|$, so $p$ divides $|K|=\ord x$. Thus $\ord x=pk$ for som
 
 {{< /env >}}
 
-In general, consider the abelian subgroup $Z(G)\substructeq G$. If $p$ divides $|Z(G)|$, then we are done by the above. Otherwise, we have by the {{< link file="the_class_equation" display="Class Equation" type="proved_by" >}} that
+In general, consider the abelian subgroup $Z(G)\substructeq G$. If $p$ divides $|Z(G)|$, then we are done by the above. Otherwise, we have by the {{< link file="the_class_equation.md" display="Class Equation" type="proved_by" >}} that
 $$\begin{equation}
     |G|=|Z(G)|+\sum_{a\in A}[G:Z_G(a)],
 \end{equation}$$
@@ -49,7 +49,7 @@ where $A\subseteq G$ contain exactly the elements with non-trivial conjugacy cla
 
 <div class="space"></div>
 
-## Cyclic {{< link file="group_action" display="Actions" type="references" >}}
+## Cyclic {{< link file="group_action.md" display="Actions" type="references" >}}
 
 We present a more direct proof of Cauchy’s Theorem using the technology of group actions.
 
@@ -61,6 +61,6 @@ Let $S\subseteq G^p$ be the subset of tuples $(x_1,\dots,x_p)$ such that $x_1\cd
 
 <br>
 
-&emsp;&emsp;The important observation is that $\Z/p\Z$ is a $p$-group, so{{< link file="fixed_point_theorems_of_p_groups" type="proved_by" mod="dag" >}} $|Z|\equiv|S|\\,\mod\\,p$ where $Z$ is the fixed-points of $\phi$. Thus $p\geq2$ divides $|Z|$ too, and since $(e,\dots,e)\in Z$, we have $|Z|>1$. But elements in $Z$ are $(x,\dots,x)\in S$ for $x\in G$, so there is some $x\in G$ with $x^p=e$, as desired.<span style="float:right;">$\blacksquare$</span>
+&emsp;&emsp;The important observation is that $\Z/p\Z$ is a $p$-group, so{{< link file="fixed_point_theorems_of_p_groups.md" type="proved_by" mod="dag" >}} $|Z|\equiv|S|\\,\mod\\,p$ where $Z$ is the fixed-points of $\phi$. Thus $p\geq2$ divides $|Z|$ too, and since $(e,\dots,e)\in Z$, we have $|Z|>1$. But elements in $Z$ are $(x,\dots,x)\in S$ for $x\in G$, so there is some $x\in G$ with $x^p=e$, as desired.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}

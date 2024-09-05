@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-The idea of *convergence* of elements $x_\alpha$ in $X$ is to find a single element $x\in X$ that is ‘close’ to as many elements $x_\alpha$ as possible. This heuristic can be formalized in many ways; here, we focus on interpreting ‘closeness’ in the {{< link file="topological_space" display="topological" type="references" >}} sense.
+The idea of *convergence* of elements $x_\alpha$ in $X$ is to find a single element $x\in X$ that is ‘close’ to as many elements $x_\alpha$ as possible. This heuristic can be formalized in many ways; here, we focus on interpreting ‘closeness’ in the {{< link file="topological_space.md" display="topological" type="references" >}} sense.
 
 <br>
 
@@ -27,13 +27,13 @@ One might hope to probe topological properties of $X$ (like compactness, continu
 
 <br>
 
-&emsp;&emsp;One can fix this problem by either restricting the class of topological spaces in question, say to {{< link file="first_countable_space" display="first" type="references" >}}/{{< link file="second_countable_space" display="second" type="references" >}} countable spaces (thereby giving a ‘countable encoding’ of the topology by way of {{< link file="bases_for_topologies" display="bases" type="references" >}} or {{< link file="filter" display="filter bases" type="references" >}}), or by generalizing the notion of convergence of sequences to more ‘uncountable objects’.
+&emsp;&emsp;One can fix this problem by either restricting the class of topological spaces in question, say to {{< link file="first_countable_space.md" display="first" type="references" >}}/{{< link file="second_countable_space.md" display="second" type="references" >}} countable spaces (thereby giving a ‘countable encoding’ of the topology by way of {{< link file="bases_for_topologies.md" display="bases" type="references" >}} or {{< link file="filter.md" display="filter bases" type="references" >}}), or by generalizing the notion of convergence of sequences to more ‘uncountable objects’.
 
 # Spaces Probable by Sequences
 
 ## Metric Spaces
 
-# Convergence of Nets and {{< link file="filter" display="Filters" type="references" >}}
+# Convergence of Nets and {{< link file="filter.md" display="Filters" type="references" >}}
 
 The two most common approaches towards such a generalization are nets and filters, which are basically equivalent $-$ in that one can be defined from the other $-$ but it is worthwhile to understand both. For both of these generalizations, the neighborhoods $\mc{N}_x$ of a point $x\in X$, and there bases, play a fundamental role.
 
@@ -61,7 +61,7 @@ If $\mc{N}_x$ admits a countable base $\mc{B}_x\subseteq\mc{N}_x$ $-$ which can 
 
 <br>
 
-&emsp;&emsp;Despite this simple generalization, the topology of $X$ is completely determined in terms of the convergence of nets in $X$. This is outlined here{{< link file="topology_using_nets" type="properties" mod="dag" >}}.
+&emsp;&emsp;Despite this simple generalization, the topology of $X$ is completely determined in terms of the convergence of nets in $X$. This is outlined here{{< link file="topology_using_nets.md" type="properties" mod="dag" >}}.
 
 <div class="space"></div>
 
@@ -83,4 +83,4 @@ A filter $\mc{F}$ in $X$ is said to *converge* to some $x\in X$ $-$ and write $\
 
 <div class="space"></div>
 
-&emsp;&emsp;To connect this definition back with sequences, we need to consider *{{< link file="filter" display="push-forward" type="references" section="Push Forward" >}}* of filters. Then, equipping $\N$ with the Fréchet filter $\mc{F}_0$, we see that a sequence $x\_\blob\to x$ in the sense of sequences iff $x\_\blob(\mc{F}\_0)\to x$ in the sense of filters.
+&emsp;&emsp;To connect this definition back with sequences, we need to consider *{{< link file="filter.md" display="push-forward" type="references" section="Push Forward" >}}* of filters. Then, equipping $\N$ with the Fréchet filter $\mc{F}_0$, we see that a sequence $x\_\blob\to x$ in the sense of sequences iff $x\_\blob(\mc{F}\_0)\to x$ in the sense of filters.

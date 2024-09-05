@@ -22,7 +22,7 @@ If $d$ is a metric on $X$, we call the pair $\tpl{X,d}$ a *metric space*.
 
 ## Topological Structure
 
-A metric space $d$ on $X$ allows us to construct *open balls*, which form a {{< link file="bases_for_topologies" display="basis" type="references" >}} for the *metric {{< link file="topological_space" display="topology" type="generalizations" >}}* $\mc{T}\_d$:
+A metric space $d$ on $X$ allows us to construct *open balls*, which form a {{< link file="bases_for_topologies.md" display="basis" type="references" >}} for the *metric {{< link file="topological_space.md" display="topology" type="generalizations" >}}* $\mc{T}\_d$:
 
 >{{< env type="proof" hide="true" >}}
 
@@ -69,11 +69,11 @@ This allows continuity to be phrased purely in terms of the open sets in $X,Y$, 
 
 <br>
 
-&emsp;&emsp;It also defines a {{< link file="functor" display="functor" type="references" >}} $\catmet_c\to\cattop$, where $\catmet_c$ is the {{< link file="category" display="category" type="references" >}} of metric spaces with continuous maps. However, this functor is not surjective, and its (object) image forms the following important class of topological spaces.
+&emsp;&emsp;It also defines a {{< link file="functor.md" display="functor" type="references" >}} $\catmet_c\to\cattop$, where $\catmet_c$ is the {{< link file="category.md" display="category" type="references" >}} of metric spaces with continuous maps. However, this functor is not surjective, and its (object) image forms the following important class of topological spaces.
 
 {{< env type="definition" >}}
 
-A topological space $\tpl{X,\mc{T}}$ is said to be *{{< link file="metrizable_space" display="metrizable" type="generalizations" >}}* if there is a metric $d$ on $X$ whose open balls generate $\mc{T}$.
+A topological space $\tpl{X,\mc{T}}$ is said to be *{{< link file="metrizable_space.md" display="metrizable" type="generalizations" >}}* if there is a metric $d$ on $X$ whose open balls generate $\mc{T}$.
 
 {{< /env >}}
 
@@ -85,7 +85,7 @@ A topological space $\tpl{X,\mc{T}}$ is said to be *{{< link file="metrizable_sp
 
 ## Lipschitz Structure
 
-Clearly, $\catmet_c$ is a {{< link file="subcategory" display="subcategory" type="references" >}} of {{< link file="topological_space" display="$\cattop$" type="generalizations" section="The Category $\cattop$" >}}. However, there is a more useful category of metric spaces in which morphisms preserve the metric structure.
+Clearly, $\catmet_c$ is a {{< link file="subcategory.md" display="subcategory" type="references" >}} of {{< link file="topological_space.md" display="$\cattop$" type="generalizations" section="The Category $\cattop$" >}}. However, there is a more useful category of metric spaces in which morphisms preserve the metric structure.
 
 {{< env type="definition" >}}
 

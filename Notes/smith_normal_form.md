@@ -19,7 +19,7 @@ In addition to being a PID, further restrictions on $R$ allow us to (algorithmic
 
 <br>
 
-&emsp;&emsp;Indeed, both algorithms hinge on the fact that $\GL_n(R)$ can be {{< link file="subgroup.md" display="generated" type="references" section="Subgroup Generation" >}} by ‘simple’ matrices, which are those that correspond (via left/right multiplication) to the following operations on a matrix, which we illustrate with $R\coloneqq\\,${{< link file="integers" display="$\Z$" type="references" >}}, $n\coloneqq3$, and $m\coloneqq2$.
+&emsp;&emsp;Indeed, both algorithms hinge on the fact that $\GL_n(R)$ can be {{< link file="subgroup.md" display="generated" type="references" section="Subgroup Generation" >}} by ‘simple’ matrices, which are those that correspond (via left/right multiplication) to the following operations on a matrix, which we illustrate with $R\coloneqq\\,${{< link file="integers.md" display="$\Z$" type="references" >}}, $n\coloneqq3$, and $m\coloneqq2$.
 * *Switch two rows/columns*, which can be done with the identity matrix but with the rows/columns swapped.
 * *Add a multiple of one row/column to another*, which can be done with the identity matrix but with the multiple in a zero entry.
 * *Multiply a row/column by a unit*, which can be done with the identity matrix but with a $1$ on the diagonal replaced by said unit.
@@ -121,7 +121,7 @@ Let $D\coloneqq QAP$ be the Smith Normal Form for a fixed invertible matrix $A\i
 
 <br>
 
-&emsp;&emsp;Its {{< link file="determinant" display="determinant" type="references" >}} $\det D=\prod_{i\leq n}d_i$ is thus a unit{{< link file="determinant" type="proved_by" mod="dag" section="General Linear Group" >}}, and since $R$ is a {{< link file="unqiue_factorization_domain" display="*unique* factorization domain" type="references" >}}, we see that $\det D$ a product of units. Thus so is each $d_i$, so multiplying by the inverse of said units reduces $D\rightsquigarrow I_n$ via elementary matrices, as desired.
+&emsp;&emsp;Its {{< link file="determinant.md" display="determinant" type="references" >}} $\det D=\prod_{i\leq n}d_i$ is thus a unit{{< link file="determinant.md" type="proved_by" mod="dag" section="General Linear Group" >}}, and since $R$ is a {{< link file="unqiue_factorization_domain.md" display="*unique* factorization domain" type="references" >}}, we see that $\det D$ a product of units. Thus so is each $d_i$, so multiplying by the inverse of said units reduces $D\rightsquigarrow I_n$ via elementary matrices, as desired.
 
 {{< /env >}}
 

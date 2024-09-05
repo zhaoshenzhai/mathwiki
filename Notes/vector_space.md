@@ -11,11 +11,11 @@ The theory of *vector spaces* stems from classical dynamics (say, in the plane $
 
 <br>
 
-&emsp;&emsp;It turns out that many structures arising in math admit these operations, so it is worth axiomatizing. Firstly, the *linear* structure is provided by an {{< link file="abelian_group.md" display="abelian" type="references" >}} {{< link file="group" display="group" type="references" >}} $M$ equipped with a {{< link file="ring" display="ring" type="references" >}} homomorphism $R\to\End M$ for some ring $R$, which together makes $M$ a *(left-){{< link file="module.md" display="$R$-module" type="generalizations" >}}*. The necessary and sufficient condition{{< link file="field.md" type="justifications" mod="dag" >}} for $R$-modules to have bases is that $R$ is a {{< link file="field.md" display="field" type="references" >}}, so we make the following
+&emsp;&emsp;It turns out that many structures arising in math admit these operations, so it is worth axiomatizing. Firstly, the *linear* structure is provided by an {{< link file="abelian_group.md" display="abelian" type="references" >}} {{< link file="group.md" display="group" type="references" >}} $M$ equipped with a {{< link file="ring.md" display="ring" type="references" >}} homomorphism $R\to\End M$ for some ring $R$, which together makes $M$ a *(left-){{< link file="module.md" display="$R$-module" type="generalizations" >}}*. The necessary and sufficient condition{{< link file="field.md" type="justifications" mod="dag" >}} for $R$-modules to have bases is that $R$ is a {{< link file="field.md" display="field" type="references" >}}, so we make the following
 
 {{< env type="definition" >}}
 
-A *$k$-vector space* is a $k$-module where $k$ is a field. Explicitly, it is an abelian group $V$ along with a homomorphism $\sigma:k\to\End V$ of rings. A *$k$-linear map* is a $k$-module homomorphism, and we let $\catvect$ denote the {{< link file="category" display="category" type="references" >}} of $k$-vector spaces.
+A *$k$-vector space* is a $k$-module where $k$ is a field. Explicitly, it is an abelian group $V$ along with a homomorphism $\sigma:k\to\End V$ of rings. A *$k$-linear map* is a $k$-module homomorphism, and we let $\catvect$ denote the {{< link file="category.md" display="category" type="references" >}} of $k$-vector spaces.
 
 {{< /env >}}
 
@@ -59,7 +59,7 @@ If $B$ is a fixed basis for $V$ and $S\subseteq V$ is any linearly-independent s
 
 {{< env type="proof" hide="false" >}}
 
-We proceed by {{< link file="transfinite_induction" display="transfinite induction" type="references" >}} on $S$: fix $S_0\subset S$ and let $j_0:S_0\into B$ be so that $B_0\coloneqq B\cup S_0\comp j(S_0)$ is a basis. Take any $s\in S\comp S_0$. We will find some $b\in B_0$ so that $j\coloneqq j_0\cup\l\\{(s,b)\r\\}\into B$ and that $B'\coloneqq B_0\cup\l\\{s\r\\}\comp\l\\{j(s)\r\\}$ is a basis, which completes the induction since we can start with $S_0\coloneqq\em$.
+We proceed by {{< link file="transfinite_induction.md" display="transfinite induction" type="references" >}} on $S$: fix $S_0\subset S$ and let $j_0:S_0\into B$ be so that $B_0\coloneqq B\cup S_0\comp j(S_0)$ is a basis. Take any $s\in S\comp S_0$. We will find some $b\in B_0$ so that $j\coloneqq j_0\cup\l\\{(s,b)\r\\}\into B$ and that $B'\coloneqq B_0\cup\l\\{s\r\\}\comp\l\\{j(s)\r\\}$ is a basis, which completes the induction since we can start with $S_0\coloneqq\em$.
 
 <br>
 
@@ -69,4 +69,4 @@ We proceed by {{< link file="transfinite_induction" display="transfinite inducti
 
 <div class="space"></div>
 
-**Remark.** This proof is deliberately written in a way that generalizes directly to any {{< link file="strongly_minimal_sets" display="strongly minimal model" type="references" >}} of a first-order {{< link file="theory" display="theory" type="references" >}}. In that setting, one can define *independence* and *closure* too, and the same proof applies to define a notion of ‘dimension’.
+**Remark.** This proof is deliberately written in a way that generalizes directly to any {{< link file="strongly_minimal_sets.md" display="strongly minimal model" type="references" >}} of a first-order {{< link file="theory.md" display="theory" type="references" >}}. In that setting, one can define *independence* and *closure* too, and the same proof applies to define a notion of ‘dimension’.

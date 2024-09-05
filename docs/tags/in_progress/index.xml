@@ -6,8 +6,15 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Sep 2024 10:47:02 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2024 11:32:52 -0400</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lie Group</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/lie_group/</link>
+      <pubDate>Thu, 05 Sep 2024 11:32:52 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/lie_group/</guid>
+      <description>&lt;h1 id=&#34;motivation--definition&#34;&gt;Motivation &amp;amp; Definition&lt;/h1&gt;</description>
+    </item>
     <item>
       <title>Tangent Space</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/tangent_space/</link>

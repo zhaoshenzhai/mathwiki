@@ -183,7 +183,7 @@ function initHideCollapsibles() {
 
 function initHideCollapsible(el) {
     var collapsible = getCollapsible(el);
-    if (collapsible[0].classList.contains('hide')) {
+    if (collapsible[1].classList.contains('hide')) {
         toggle(collapsible, false, true, false);
     }
 }

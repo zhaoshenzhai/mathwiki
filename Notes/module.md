@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Let $R$ be a {{< link file="ring" display="ring" type="references" >}}. Similarly to how a {{< link file="group" display="group" type="references" >}} $G\into\Aut X$ injects{{< link file="cayleys_theorem.md" type="justifications" mod="dag" section="Groups" >}} into some {{< link file="symmetry_group" display="symmetry group" type="references" >}} of a set $X$, and how this motivates us to study {{< link file="group_action.md" display="actions" type="references" >}} $G\to\Aut X$ in general, that $R\into\End M$ injects{{< link file="cayleys_theorem.md" type="justifications" mod="dag" section="Rings" >}} into an endomorphism ring of some {{< link file="abelian_group.md" display="abelian" type="references" >}} group motivates us to study ‘ring actions’ $R\to\End M$. Those ‘ring actions’ are called *$R$-modules*.
+Let $R$ be a {{< link file="ring.md" display="ring" type="references" >}}. Similarly to how a {{< link file="group.md" display="group" type="references" >}} $G\into\Aut X$ injects{{< link file="cayleys_theorem.md" type="justifications" mod="dag" section="Groups" >}} into some {{< link file="symmetry_group.md" display="symmetry group" type="references" >}} of a set $X$, and how this motivates us to study {{< link file="group_action.md" display="actions" type="references" >}} $G\to\Aut X$ in general, that $R\into\End M$ injects{{< link file="cayleys_theorem.md" type="justifications" mod="dag" section="Rings" >}} into an endomorphism ring of some {{< link file="abelian_group.md" display="abelian" type="references" >}} group motivates us to study ‘ring actions’ $R\to\End M$. Those ‘ring actions’ are called *$R$-modules*.
 
 {{< env type="definition" >}}
 
@@ -31,7 +31,7 @@ A function $f:M\to N$ between $R$-modules is an *$R$-module homomorphism* if it 
 
 {{< /env >}}
 
-In the case when $k\coloneqq R$ is a {{< link file="field" display="field" type="references" >}}, $k$-modules are called *{{< link file="vector_space.md" display="$k$-vector spaces" type="references" >}}* and $k$-vector space homomorphisms are called *$k$-linear maps*.
+In the case when $k\coloneqq R$ is a {{< link file="field.md" display="field" type="references" >}}, $k$-modules are called *{{< link file="vector_space.md" display="$k$-vector spaces" type="references" >}}* and $k$-vector space homomorphisms are called *$k$-linear maps*.
 
 <div class="space"></div>
 
@@ -47,7 +47,7 @@ This refers primarily to the study of $k$-vector spaces for $k$ a field, but man
 
 <br>
 
-&emsp;&emsp;Every set $I$ generates a {{< link file="free_module.md" display="free" type="constructions" >}} $R$-module $F^R(I)$ where maps $I\to M$ extend to unique homomorphisms $f:F^R(I)\to M$; in the case that $f$ is an isomorphism, we say that $I\to M$ is a *{{< link file="basis_module_theory" display="basis" type="constructions" >}}* for $M$. The modules that admit bases are said to be *{{< link file="free_module" display="free" type="types" >}}*, but not all modules are free. This is where additional assumptions on the ring $R$ come in.
+&emsp;&emsp;Every set $I$ generates a {{< link file="free_module.md" display="free" type="constructions" >}} $R$-module $F^R(I)$ where maps $I\to M$ extend to unique homomorphisms $f:F^R(I)\to M$; in the case that $f$ is an isomorphism, we say that $I\to M$ is a *{{< link file="basis_module_theory.md" display="basis" type="constructions" >}}* for $M$. The modules that admit bases are said to be *{{< link file="free_module.md" display="free" type="types" >}}*, but not all modules are free. This is where additional assumptions on the ring $R$ come in.
 * If $R$ is a field, then every $R$-module is free. In fact, an {{< link file="integral_domain.md" display="integral domain" type="references" >}} $R$ is a field iff every $R$-module is free.
 * If $R$ is
 

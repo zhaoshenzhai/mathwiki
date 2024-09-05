@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-A standard technique from analysis is when establishing a property for some {{< link file="topological_space" display="topological space" type="references" >}} $X$, one first proves it for a dense subset $C\subseteq X$. It is thus useful to prove the existence of ‘nice’ dense sets. The following is singles out a very crude such class of spaces.
+A standard technique from analysis is when establishing a property for some {{< link file="topological_space.md" display="topological space" type="references" >}} $X$, one first proves it for a dense subset $C\subseteq X$. It is thus useful to prove the existence of ‘nice’ dense sets. The following is singles out a very crude such class of spaces.
 
 {{< env type="definition" >}}
 
@@ -15,7 +15,7 @@ A topological space $X$ is said to be *separable* if it admits a countably dense
 
 {{< /env >}}
 
-This provides a limitation on the ‘complexity’ of $X$, and, in the setting of a {{< link file="metrizable_space" display="metrizable space" type="references" >}} $X$, this limitation is equivalent{{< link file="metrizable_limitations_on_complexity" type="equivalences" mod="dag" >}} to some others (like {{< link file="second_countable_space" display="second countability" type="references" >}}, being Lindelöf, and the CCC). Thus, we usually focus on the metrizable case, and more often than not, on *{{< link file="polish_space" display="Polish" type="types" >}}* spaces (those which are *completely* metrizable).
+This provides a limitation on the ‘complexity’ of $X$, and, in the setting of a {{< link file="metrizable_space.md" display="metrizable space" type="references" >}} $X$, this limitation is equivalent{{< link file="metrizable_limitations_on_complexity.md" type="equivalences" mod="dag" >}} to some others (like {{< link file="second_countable_space.md" display="second countability" type="references" >}}, being Lindelöf, and the CCC). Thus, we usually focus on the metrizable case, and more often than not, on *{{< link file="polish_space.md" display="Polish" type="types" >}}* spaces (those which are *completely* metrizable).
 
 <div class="space"></div>
 

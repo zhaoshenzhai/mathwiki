@@ -22,11 +22,11 @@ A *group* is a tuple $\tpl{G,\cdot,e,\iota}$ consisting of underlying set $G$, a
 
 {{< /env >}}
 
-The set $G$ is the set of ‘abstract transformations’ as described above. However, many groups are ‘concrete’, in that they are the transformations of some concrete object $X$. For instance, if $X$ is a set, then $\Aut X$, consisting of all bijections $f:X\to X$, forms a group under composition; If $X$ is a {{< link file="metric_space" display="metric space" type="references" >}}, then the same holds for $\Aut X$, consisting of all isometries $f:X\to X$; similarly for vector spaces, {{< link file="topological_space" display="topological spaces" type="references" >}}, and so on. In all these cases, $e=\id$ and $\iota(f)=f^{-1}$. The above examples generalize by considering any object $X$ in a {{< link file="category" display="category" type="references" >}}.
+The set $G$ is the set of ‘abstract transformations’ as described above. However, many groups are ‘concrete’, in that they are the transformations of some concrete object $X$. For instance, if $X$ is a set, then $\Aut X$, consisting of all bijections $f:X\to X$, forms a group under composition; If $X$ is a {{< link file="metric_space.md" display="metric space" type="references" >}}, then the same holds for $\Aut X$, consisting of all isometries $f:X\to X$; similarly for vector spaces, {{< link file="topological_space.md" display="topological spaces" type="references" >}}, and so on. In all these cases, $e=\id$ and $\iota(f)=f^{-1}$. The above examples generalize by considering any object $X$ in a {{< link file="category.md" display="category" type="references" >}}.
 
 <br>
 
-&emsp;&emsp;In fact, *every* group arises this way{{< link file="group" type="references" section="Groupoids" mod="dag" >}} (as a concrete group) from the category $\cat{B}G$, but not all groups arise as automorphism groups of a set; see, however, {{< link file="cayleys_theorem" display="Cayley’s Theorem" type="properties" >}}, which states that every group is a *{{< link file="subgroup" display="subgroup" type="constructions" >}}* of an automorphism group of a set.
+&emsp;&emsp;In fact, *every* group arises this way{{< link file="group.md" type="references" section="Groupoids" mod="dag" >}} (as a concrete group) from the category $\cat{B}G$, but not all groups arise as automorphism groups of a set; see, however, {{< link file="cayleys_theorem.md" display="Cayley’s Theorem" type="properties" >}}, which states that every group is a *{{< link file="subgroup.md" display="subgroup" type="constructions" >}}* of an automorphism group of a set.
 
 <br>
 
@@ -44,11 +44,11 @@ Note that this implies that $f(e_G)=e_H$ and that $f(g^{-1})=f(g)^{-1}$ for all 
 
 ## The Category of Groups
 
-With homomorphisms as morphisms, groups form a category $\catgrp$. This category is{{< link file="catgrp_is_complete" type="justifications" mod="dag" >}} {{< link file="complete_category" display="complete" type="references" >}} and cocomplete, as witnessed by the standard notions of products, coproducts, {{< link file="kernel_group_theory" display="kernel" type="constructions" >}}, {{< link file="kernel_group_theory" display="cokernels" type="constructions" section="Cokernel" >}}, {{< link file="subgroup" display="subobjects" type="constructions" >}}, and {{< link file="quotient_group" display="quotients" type="constructions" >}}.
+With homomorphisms as morphisms, groups form a category $\catgrp$. This category is{{< link file="catgrp_is_complete.md" type="justifications" mod="dag" >}} {{< link file="complete_category.md" display="complete" type="references" >}} and cocomplete, as witnessed by the standard notions of products, coproducts, {{< link file="kernel_group_theory.md" display="kernel" type="constructions" >}}, {{< link file="kernel_group_theory.md" display="cokernels" type="constructions" section="Cokernel" >}}, {{< link file="subgroup.md" display="subobjects" type="constructions" >}}, and {{< link file="quotient_group.md" display="quotients" type="constructions" >}}.
 
 <br>
 
-&emsp;&emsp;There is a forgetful {{< link file="functor" display="functor" type="references" >}} $U:\catgrp\to\catset$. Since every set $X$ generates a {{< link file="free_group" display="free group" type="constructions" >}} $F(X)$ by adding formal composites and inverses, the forgetful functor $U$ admits a left adjoint $F:\catset\to\catgrp$.
+&emsp;&emsp;There is a forgetful {{< link file="functor.md" display="functor" type="references" >}} $U:\catgrp\to\catset$. Since every set $X$ generates a {{< link file="free_group.md" display="free group" type="constructions" >}} $F(X)$ by adding formal composites and inverses, the forgetful functor $U$ admits a left adjoint $F:\catset\to\catgrp$.
 
 # General Techniques
 
@@ -56,7 +56,7 @@ Due to the vastness of the definition, groups are incredibly hard to study. Neve
 
 <div class="space"></div>
 
-## {{< link file="group_action" display="Group Actions" type="constructions" >}}
+## {{< link file="group_action.md" display="Group Actions" type="constructions" >}}
 
 Perhaps the most important technique to study a group is by allowing it to act on a set, or, more generally, on objects in some other category.
 
@@ -68,36 +68,36 @@ Perhaps the most important technique to study a group is by allowing it to act o
 
 <div class="space"></div>
 
-## {{< link file="group_extension" display="Group Extensions" type="constructions" >}}
+## {{< link file="group_extension.md" display="Group Extensions" type="constructions" >}}
 
 Another more ‘object-oriented’ technique to study $G$ is to decompose it into ‘atomic’ pieces and study how they can be ‘glued’ back together. This method is encapsulated in the *The Hölder Program*, which aims to:
-1. *Classify all {{< link file="simple_group" display="simple" type="types" >}} groups*, which are essentially the ‘atoms’ of group theory, and
+1. *Classify all {{< link file="simple_group.md" display="simple" type="types" >}} groups*, which are essentially the ‘atoms’ of group theory, and
 2. *Classify all group extensions*, which essentially means ‘doing all of chemistry’.
 
 # Examples of Groups
 
-The simplest groups, and possibly the most important groups, are the {{< link file="cyclic_group" display="cyclic groups" type="examples" >}}. They are the ones that are {{< link file="subgroup" display="generated" type="references" section="Subgroup Generation" >}} by a singleton, which forces{{< link file="cyclic_group" type="justifications" mod="dag" section="Classification" >}} it to either be the {{< link file="integers" display="integers" type="references" >}} $\Z$ or its {{< link file="quotient_group" display="quotient" type="references" >}} $\Z/n\Z$ for some $n\geq1$. Other classical groups include the dihedral groups, symmetry groups, and matrix groups.
+The simplest groups, and possibly the most important groups, are the {{< link file="cyclic_group.md" display="cyclic groups" type="examples" >}}. They are the ones that are {{< link file="subgroup.md" display="generated" type="references" section="Subgroup Generation" >}} by a singleton, which forces{{< link file="cyclic_group.md" type="justifications" mod="dag" section="Classification" >}} it to either be the {{< link file="integers.md" display="integers" type="references" >}} $\Z$ or its {{< link file="quotient_group.md" display="quotient" type="references" >}} $\Z/n\Z$ for some $n\geq1$. Other classical groups include the dihedral groups, symmetry groups, and matrix groups.
 
 <br>
 
-&emsp;&emsp;Groups can also arise as the {{< link file="group_of_units" display="group of units" type="examples" >}} of a {{< link file="ring" display="ring" type="references" >}}.
+&emsp;&emsp;Groups can also arise as the {{< link file="group_of_units.md" display="group of units" type="examples" >}} of a {{< link file="ring.md" display="ring" type="references" >}}.
 
 <div class="space"></div>
 
 ## Types of Groups
 
 Beyond the generalities above, much more can be said about specific types of groups.
-* {{< link file="finite_group" display="Finite groups" type="types" >}} can be studied combinatorially, and a benchmark problem in finite group theory is to find the number of groups of order $n$. The {{< link file="sylow_theorems" display="Sylow Theorems" type="references" >}} place certain restrictions, but more sophisticated approaches require {{< link file="representation_theory_of_finite_groups" display="representation theory" type="references" >}}.
-* {{< link file="finitely_generated_group" display="Finitely-generated groups" type="types" >}} are very geometric in nature, and are mostly studied in the context of {{< link file="geometric_group_theory" display="Geometric Group Theory" type="references" >}}.
-* {{< link file="abelian_group" display="Abelian groups" type="types" >}} vary wildly in behavior. Finitely-generated ones are completely classified via the {{< link file="structure_theorem_for_fg_modules_over_pid.md" display="Structure Theorem" type="references" >}}, but in general, their structure depends very heavily of set-theoretic properties.
+* {{< link file="finite_group.md" display="Finite groups" type="types" >}} can be studied combinatorially, and a benchmark problem in finite group theory is to find the number of groups of order $n$. The {{< link file="sylow_theorems.md" display="Sylow Theorems" type="references" >}} place certain restrictions, but more sophisticated approaches require {{< link file="representation_theory_of_finite_groups.md" display="representation theory" type="references" >}}.
+* {{< link file="finitely_generated_group.md" display="Finitely-generated groups" type="types" >}} are very geometric in nature, and are mostly studied in the context of {{< link file="geometric_group_theory.md" display="Geometric Group Theory" type="references" >}}.
+* {{< link file="abelian_group.md" display="Abelian groups" type="types" >}} vary wildly in behavior. Finitely-generated ones are completely classified via the {{< link file="structure_theorem_for_fg_modules_over_pid.md" display="Structure Theorem" type="references" >}}, but in general, their structure depends very heavily of set-theoretic properties.
 
 ## Structures on Groups
 
-One may also equip groups with additional structure, which leads to much richer theories. Some important examples are {{< link file="topological_group" display="topological groups" type="structures" >}}, {{< link file="lie_group" display="Lie groups" type="structures" >}}, and {{< link file="algebraic_groups" display="algebraic groups" type="structures" >}}.
+One may also equip groups with additional structure, which leads to much richer theories. Some important examples are {{< link file="topological_group.md" display="topological groups" type="structures" >}}, {{< link file="lie_group.md" display="Lie groups" type="structures" >}}, and {{< link file="algebraic_groups.md" display="algebraic groups" type="structures" >}}.
 
 # Generalizations
 
-## {{< link file="groupoid" display="Groupoids" type="generalizations" >}}
+## {{< link file="groupoid.md" display="Groupoids" type="generalizations" >}}
 
 Many groups arise as the automorphism group of some object $X$. In fact, this is true for *all* groups.
 
@@ -111,4 +111,4 @@ Many groups arise as the automorphism group of some object $X$. In fact, this is
 
 <div class="space"></div>
 
-Generalizing this idea, we say that a category $C$ is a *groupoid* if each morphism is invertible. Thus, after identifying $G$ with $\cat{B}G$, a group is nothing but a groupoid with a single object. Without requiring that all morphisms be invertible $-$ that is, just considering a category with a single object $-$ we recover the notion of a {{< link file="monoid" display="monoid" type="generalizations" >}}.
+Generalizing this idea, we say that a category $C$ is a *groupoid* if each morphism is invertible. Thus, after identifying $G$ with $\cat{B}G$, a group is nothing but a groupoid with a single object. Without requiring that all morphisms be invertible $-$ that is, just considering a category with a single object $-$ we recover the notion of a {{< link file="monoid.md" display="monoid" type="generalizations" >}}.

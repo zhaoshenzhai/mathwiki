@@ -15,10 +15,10 @@ A group $G$ is said to be *Abelian* if $gh=hg$ for all $g,h\in G$.
 
 {{< /env >}}
 
-## Abelian Groups as {{< link file="module" display="$\Z$-modules" type="references" >}}
+## Abelian Groups as {{< link file="module.md" display="$\Z$-modules" type="references" >}}
 
-We denote the {{< link file="subcategory" display="subcategory" type="references" >}} of Abelian groups as $\catabgrp$, which is one of the most well-behaved categories. Indeed, <span style="color:red">???</span>.
-* We have a forgetful functor $\catmod[\Z]\to\catabgrp$, which is an isomorphism of categories <span style="color:red">???</span>. In this way, the notions of {{< link file="torsion" display="torsion" type="constructions" >}}, {{< link file="rank" display="rank" type="constructions" >}}, etc, all carry forward.
+We denote the {{< link file="subcategory.md" display="subcategory" type="references" >}} of Abelian groups as $\catabgrp$, which is one of the most well-behaved categories. Indeed, <span style="color:red">???</span>.
+* We have a forgetful functor $\catmod[\Z]\to\catabgrp$, which is an isomorphism of categories <span style="color:red">???</span>. In this way, the notions of {{< link file="torsion.md" display="torsion" type="constructions" >}}, {{< link file="rank.md" display="rank" type="constructions" >}}, etc, all carry forward.
 
 ## The Category $\catabgrp$
 
@@ -26,7 +26,7 @@ We denote the {{< link file="subcategory" display="subcategory" type="references
 
 ## Structure Theory
 
-Since Abelian groups are just $\Z$-modules and $\Z$ is a {{< link file="principal_ideal_domain" display="PID" type="references" >}}, the {{< link file="structure_theorem_for_fg_modules_over_pid.md" display="Structure Theorem" type="properties" >}} for finitely-generated modules over a PID applies:
+Since Abelian groups are just $\Z$-modules and $\Z$ is a {{< link file="principal_ideal_domain.md" display="PID" type="references" >}}, the {{< link file="structure_theorem_for_fg_modules_over_pid.md" display="Structure Theorem" type="properties" >}} for finitely-generated modules over a PID applies:
 
 {{< env type="theorem" name="Structure Theorem for f.g. Abelian Groups" >}}
 
@@ -42,7 +42,7 @@ On the other hand, Abelian groups that are *not* finitely-generated are much wil
 
 # Examples
 
-## {{< link file="cyclic_group" display="Cyclic Groups" type="examples" >}}
+## {{< link file="cyclic_group.md" display="Cyclic Groups" type="examples" >}}
 
 # Generalizations
 

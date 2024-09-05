@@ -7,10 +7,10 @@ tags: [Group_Theory]
 
 # Motivation & Definition
 
-A special property of the {{< link file="category" display="category" type="references" >}} of {{< link file="group" display="groups" type="references" >}} is the existence of a {{< link file="initial_object" display="zero" type="references" >}} object; namely, the trivial group $\l\\{0\r\\}$. Thus, by definition, we have a unique *zero* morphism $0:G\to\l\\{0\r\\}\to H$ for each pair $G,H$ of groups.
+A special property of the {{< link file="category.md" display="category" type="references" >}} of {{< link file="group.md" display="groups" type="references" >}} is the existence of a {{< link file="initial_object.md" display="zero" type="references" >}} object; namely, the trivial group $\l\\{0\r\\}$. Thus, by definition, we have a unique *zero* morphism $0:G\to\l\\{0\r\\}\to H$ for each pair $G,H$ of groups.
 <br>
 
-&emsp;&emsp;For an arbitrary homomorphism $f:G\to H$, we would like to find some group $K$ that ‘forces’ $f$ to ‘equalize’ with $0$ in a {{< link file="universal_constructions" display="universal" type="references" >}} way. This can be done in two (dual) ways, called the *kernel* and *cokernel* of $f$.
+&emsp;&emsp;For an arbitrary homomorphism $f:G\to H$, we would like to find some group $K$ that ‘forces’ $f$ to ‘equalize’ with $0$ in a {{< link file="universal_constructions.md" display="universal" type="references" >}} way. This can be done in two (dual) ways, called the *kernel* and *cokernel* of $f$.
 
 <div class="space"></div>
 
@@ -24,21 +24,21 @@ The first way is to consider homomorphisms $\alpha:K\to G$ *from* some group $K$
 
 {{< env type="definition" >}}
 
-The *kernel* of a homomorphism $f:G\to H$ is the {{< link file="subgroup" display="subgroup" type="references" >}} $\ker f\coloneqq f^{-1}(e_H)$ of $G$.
+The *kernel* of a homomorphism $f:G\to H$ is the {{< link file="subgroup.md" display="subgroup" type="references" >}} $\ker f\coloneqq f^{-1}(e_H)$ of $G$.
 
 {{< /env >}}
 
-Clearly, $\iota:\ker f\to G$ composes with $f$ to the trivial map. It is moreover{{< link file="catgrp_is_complete" mod="dag" type="justifications" section="Kernels/Cokernels" >}} the ‘most efficient’ way of doing so, in the sense that it is the terminal object in the slice category $(K,\alpha:K\to G)$ making $f\circ\alpha=0$; this can then be interpreted as a  {{< link file="limits_category_theory" display="colimit" type="references" >}}.
+Clearly, $\iota:\ker f\to G$ composes with $f$ to the trivial map. It is moreover{{< link file="catgrp_is_complete.md" mod="dag" type="justifications" section="Kernels/Cokernels" >}} the ‘most efficient’ way of doing so, in the sense that it is the terminal object in the slice category $(K,\alpha:K\to G)$ making $f\circ\alpha=0$; this can then be interpreted as a  {{< link file="limits_category_theory.md" display="colimit" type="references" >}}.
 
 <br>
 
-&emsp;&emsp;Kernels of homomorphisms are very special subgroups, in that they correspond precisely to the {{< link file="normal_subgroup" display="normal" type="equivalences" >}} ones.
+&emsp;&emsp;Kernels of homomorphisms are very special subgroups, in that they correspond precisely to the {{< link file="normal_subgroup.md" display="normal" type="equivalences" >}} ones.
 
 <div class="space"></div>
 
 ## Cokernel
 
-Dually, we consider maps $\beta:H\to K$ *to* some group $K$. The *cokernel* of $f$ is the initial object in the coslice category $(K,\beta:H\to K)$ making $\beta\circ f=0$. It can{{< link file="catgrp_is_complete" mod="dag" type="justifications" section="Kernels/Cokernels" >}} be realized as the canonical {{< link file="quotient_group" display="projection" type="references" >}} $\pi:H\to H/\gen{\im f}_N$, where $\gen{\slot}_N$ takes the {{< link file="normal_subgroup" display="normal closure" type="references" section="Normal Closure" >}}, that is, the smallest normal subgroup containing $\im f$.
+Dually, we consider maps $\beta:H\to K$ *to* some group $K$. The *cokernel* of $f$ is the initial object in the coslice category $(K,\beta:H\to K)$ making $\beta\circ f=0$. It can{{< link file="catgrp_is_complete.md" mod="dag" type="justifications" section="Kernels/Cokernels" >}} be realized as the canonical {{< link file="quotient_group.md" display="projection" type="references" >}} $\pi:H\to H/\gen{\im f}_N$, where $\gen{\slot}_N$ takes the {{< link file="normal_subgroup.md" display="normal closure" type="references" section="Normal Closure" >}}, that is, the smallest normal subgroup containing $\im f$.
 
 <br>
 

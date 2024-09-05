@@ -6,8 +6,8 @@ tags: [Group_Theory, Ring_Theory]
 ---
 
 The set of *integers*, denoted $\Z$, appear everywhere in algebra:
-* In {{< link file="group" display="group" type="references" >}} theory, it is the {{< link file="free_group" display="free group" type="references" >}} on one generator, and is used to construct all {{< link file="cyclic_group" display="cyclic" type="constructions" >}} groups, and more generally, all {{< link file="finitely_generated_group" display="finitely-generated" type="references" >}} {{< link file="abelian_group" display="abelian" type="references" >}} groups. The latter claim follows from the {{< link file="structure_theorem_for_fg_modules_over_pid.md" display="Structure Theorem" type="justifications" >}}.
-* In {{< link file="ring" display="ring" type="references" >}} theory, it is the initial object in {{< link file="ring" display="$\catring$" type="references" section="The Category $\catring$" >}}, and is the most important example of a {{< link file="principal_ideal_domain" display="PID" type="references" >}}. In fact, abelian groups are just {{< link file="module" display="$\Z$-modules" type="constructions" >}}, and rings are just $\Z$-algebras.
+* In {{< link file="group.md" display="group" type="references" >}} theory, it is the {{< link file="free_group.md" display="free group" type="references" >}} on one generator, and is used to construct all {{< link file="cyclic_group.md" display="cyclic" type="constructions" >}} groups, and more generally, all {{< link file="finitely_generated_group.md" display="finitely-generated" type="references" >}} {{< link file="abelian_group.md" display="abelian" type="references" >}} groups. The latter claim follows from the {{< link file="structure_theorem_for_fg_modules_over_pid.md" display="Structure Theorem" type="justifications" >}}.
+* In {{< link file="ring.md" display="ring" type="references" >}} theory, it is the initial object in {{< link file="ring.md" display="$\catring$" type="references" section="The Category $\catring$" >}}, and is the most important example of a {{< link file="principal_ideal_domain.md" display="PID" type="references" >}}. In fact, abelian groups are just {{< link file="module.md" display="$\Z$-modules" type="constructions" >}}, and rings are just $\Z$-algebras.
 
 The fundamental property of $\Z$, and that underlies all of its group and ring-theoretic properties, is the *Division Algorithm*.
 
@@ -23,7 +23,7 @@ We may assume $b>0$; otherwise, applying it to $-b$ furnishes unique $q',r'\in\Z
 $$\begin{equation}
     0\leq a+a^2b=a-(-a^2)b\in S.
 \end{equation}$$
-Since $\N$ is {{< link file="well-ordered_set" display="well-ordered" type="references" >}}, we have a minimal element $r\in S$, so $q\in\Z$ with $a-qb=r$. If $r\geq b$, then $0\leq r-b=a-(1+q)b\in S$ with $r-b<r$, a contradiction.
+Since $\N$ is {{< link file="well-ordered_set.md" display="well-ordered" type="references" >}}, we have a minimal element $r\in S$, so $q\in\Z$ with $a-qb=r$. If $r\geq b$, then $0\leq r-b=a-(1+q)b\in S$ with $r-b<r$, a contradiction.
 
 <br>
 
@@ -33,13 +33,13 @@ Since $\N$ is {{< link file="well-ordered_set" display="well-ordered" type="refe
 
 {{< env type="corollary" >}}
 
-$\Z$ is a {{< link file="euclidean_domain" display="Euclidean domain" type="references" >}}, and is hence{{< link file="EUD_implies_PID" type="justifications" mod="dag" >}} a {{< link file="principal_ideal_domain" display="PID" type="references" >}}, hence{{< link file="PID_implies_UFD" type="justifications" mod="dag" >}} a {{< link file="unique_factorization_domain" display="UFD" type="references" >}}.
+$\Z$ is a {{< link file="euclidean_domain.md" display="Euclidean domain" type="references" >}}, and is hence{{< link file="EUD_implies_PID.md" type="justifications" mod="dag" >}} a {{< link file="principal_ideal_domain.md" display="PID" type="references" >}}, hence{{< link file="PID_implies_UFD.md" type="justifications" mod="dag" >}} a {{< link file="unique_factorization_domain.md" display="UFD" type="references" >}}.
 
 {{< /env >}}
 
 {{< env type="corollary" >}}
 
-{{< link file="subgroup" display="Subgroups" type="references" >}} and {{< link file="ideal_ring_theory" display="ideals" type="references" >}} of $\Z$ are precisely $n\Z$ for $n\in\N$.
+{{< link file="subgroup.md" display="Subgroups" type="references" >}} and {{< link file="ideal_ring_theory.md" display="ideals" type="references" >}} of $\Z$ are precisely $n\Z$ for $n\in\N$.
 
 {{< /env >}}
 

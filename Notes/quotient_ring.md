@@ -7,11 +7,11 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Fix an {{< link file="equivalence_relation" display="equivalence relation" type="references" >}} on a {{< link file="ring" display="ring" type="references" >}} $R$ and consider the {{< link file="quotient_set" display="quotient set" type="references" >}} $R/\\!\sim$, which we want to equip with a ring structure.
+Fix an {{< link file="equivalence_relation.md" display="equivalence relation" type="references" >}} on a {{< link file="ring.md" display="ring" type="references" >}} $R$ and consider the {{< link file="quotient_set.md" display="quotient set" type="references" >}} $R/\\!\sim$, which we want to equip with a ring structure.
 
 <br>
 
-&emsp;&emsp;Firstly, since $R$ has an underlying ({{< link file="abelian_group" display="abelian" type="references" >}}) {{< link file="group" display="group" type="references" >}} $G\coloneqq(R,+)$, we need $\sim$ to be a {{< link file="congruence_relation" display="congruence" type="references" >}} of $G$ for $R/\\!\sim$ to be a group. This induces{{< link file="normal_subgroup" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Congruence" >}} a ({{< link file="normal_subgroup" display="normal" type="references" >}}) {{< link file="subgroup" display="subgroup" type="references" >}} $\mf{a}\nsubgrpeq G$, for which $R/\mf{a}$ is its {{< link file="quotient_group" display="quotient group" type="references" >}}. We need to make $R/\\!\sim$ into a ring so that $\pi:R\onto R/\\!\sim$ is a ring homomorphism, and we show that this multiplication is well-defined iff $\mf{a}\nsubgrpeq R$ is an ideal.
+&emsp;&emsp;Firstly, since $R$ has an underlying ({{< link file="abelian_group.md" display="abelian" type="references" >}}) {{< link file="group.md" display="group" type="references" >}} $G\coloneqq(R,+)$, we need $\sim$ to be a {{< link file="congruence_relation.md" display="congruence" type="references" >}} of $G$ for $R/\\!\sim$ to be a group. This induces{{< link file="normal_subgroup.md" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Congruence" >}} a ({{< link file="normal_subgroup.md" display="normal" type="references" >}}) {{< link file="subgroup.md" display="subgroup" type="references" >}} $\mf{a}\nsubgrpeq G$, for which $R/\mf{a}$ is its {{< link file="quotient_group.md" display="quotient group" type="references" >}}. We need to make $R/\\!\sim$ into a ring so that $\pi:R\onto R/\\!\sim$ is a ring homomorphism, and we show that this multiplication is well-defined iff $\mf{a}\nsubgrpeq R$ is an ideal.
 
 {{< env type="definition" >}}
 
@@ -21,13 +21,13 @@ Let $\mf{a}\nsubgrpeq R$ be an ideal. The *quotient ring* of $R$ by $\mf{a}$ is 
 
 {{< env type="proof" hide="false" >}}
 
-If $\mf{a}\nsubgrpeq R$ is an ideal, then $\ast$ is well-defined since $\sim$ respects multiplication and $r\sim r'$ iff $r-r'\in\mf{a}$. Conversely, if $\pi:R\onto R/\mf{a}$ is a ring homomorphism, then its {{< link file="kernel_ring_theory" display="kernel" type="references" >}} is $\mf{a}$, so it is an ideal.<span style="float:right;">$\blacksquare$</span>
+If $\mf{a}\nsubgrpeq R$ is an ideal, then $\ast$ is well-defined since $\sim$ respects multiplication and $r\sim r'$ iff $r-r'\in\mf{a}$. Conversely, if $\pi:R\onto R/\mf{a}$ is a ring homomorphism, then its {{< link file="kernel_ring_theory.md" display="kernel" type="references" >}} is $\mf{a}$, so it is an ideal.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 
 <div class="space"></div>
 
-## {{< link file="universal_constructions" display="Universal Property" type="references" >}}
+## {{< link file="universal_constructions.md" display="Universal Property" type="references" >}}
 
 Quotient rings satisfy the following universal property.
 
@@ -43,7 +43,7 @@ If $\mf{a}\nsubgrpeq R$ is an ideal, then $\pi:R\onto R/\mf{a}$ is initial among
 
 {{< env type="proof" hide="true" >}}
 
-By the same universal property for groups{{< link file="quotient_group" type="proved_by" mod="dag" section="Categorical Aspects" >}}, we have a unique group homomorphism $f':R/\mf{a}\to S$ such that $f=f'\circ\pi$. This is a ring homomorphism since
+By the same universal property for groups{{< link file="quotient_group.md" type="proved_by" mod="dag" section="Categorical Aspects" >}}, we have a unique group homomorphism $f':R/\mf{a}\to S$ such that $f=f'\circ\pi$. This is a ring homomorphism since
 $$\begin{equation}
     f'((r+\mf{a})\ast(s+\mf{a}))=f'(rs+\mf{a})=f(rs)=f(r)f(s)=f'(r+\mf{a})f'(s+\mf{a}).
 \end{equation}$$
@@ -67,7 +67,7 @@ Let $\mf{a}\nsubgrpeq R$ be an ideal. Then we have an isomorphism
 $$\begin{equation}
     \phi:\l\\{\textrm{subrings of }R\textrm{ containing }\mf{a}\r\\}\to\l\\{\textrm{subrings of }R/\mf{a}\r\\}
 \end{equation}$$
-of (bounded) {{< link file="lattice" display="lattices" type="references" >}}, which maps $S\mapsto S/\mf{a}$. Moreover, we have $S\nsubgrpeq R$ iff $\phi(S)\nsubgrpeq\phi(R)$, in which case $\phi(R)/\phi(S)\iso R/S$.
+of (bounded) {{< link file="lattice.md" display="lattices" type="references" >}}, which maps $S\mapsto S/\mf{a}$. Moreover, we have $S\nsubgrpeq R$ iff $\phi(S)\nsubgrpeq\phi(R)$, in which case $\phi(R)/\phi(S)\iso R/S$.
 
 
 {{< /env >}}

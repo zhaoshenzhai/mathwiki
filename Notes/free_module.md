@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Let $M$ be an {{< link file="module" display="$R$-module" type="references" >}} over a commutative {{< link file="ring" display="ring" type="references" >}} $R$. In general, $M$ *need not* admit a {{< link file="basis_module_theory.md" display="basis" type="references" >}}, which makes the theory of $R$-modules more complicated that that of {{< link file="vector_space.md" display="vector spaces" type="references" >}} (indeed, $R$ is a {{< link file="field" display="field" type="references" >}} iff{{< link file="field" type="justifications" mod="dag" >}} every $R$-module admits a basis). To simplify the situation, we will only consider $R$-modules that admit bases, and those are very special:
+Let $M$ be an {{< link file="module.md" display="$R$-module" type="references" >}} over a commutative {{< link file="ring.md" display="ring" type="references" >}} $R$. In general, $M$ *need not* admit a {{< link file="basis_module_theory.md" display="basis" type="references" >}}, which makes the theory of $R$-modules more complicated that that of {{< link file="vector_space.md" display="vector spaces" type="references" >}} (indeed, $R$ is a {{< link file="field.md" display="field" type="references" >}} iff{{< link file="field.md" type="justifications" mod="dag" >}} every $R$-module admits a basis). To simplify the situation, we will only consider $R$-modules that admit bases, and those are very special:
 
 {{< env type="definition" >}}
 
@@ -41,7 +41,7 @@ Since $\mf{m}(R^A/\mf{m}R^A)=0$, this makes $R^A/\mf{m}R^A$ into a $k$-vector sp
 
 # Homomorphisms of (f.g.) Free Modules
 
-We now focus on the {{< link file="category" display="category" type="references" >}} of *finitely-generated* free $R$-modules over a commutative ring $R$. After identifying each such $R$-module $M$ with $R^n$ for some $n\in\N$, we see that $\Hom(M_1,M_2)\iso\Hom(R^n,R^m)$. Thus, the study of $\Hom(M_1,M_2)$ reduces to $\Hom(R^n,R^m)$ *and* also how the situation changes when we change bases for $M_i$.
+We now focus on the {{< link file="category.md" display="category" type="references" >}} of *finitely-generated* free $R$-modules over a commutative ring $R$. After identifying each such $R$-module $M$ with $R^n$ for some $n\in\N$, we see that $\Hom(M_1,M_2)\iso\Hom(R^n,R^m)$. Thus, the study of $\Hom(M_1,M_2)$ reduces to $\Hom(R^n,R^m)$ *and* also how the situation changes when we change bases for $M_i$.
 
 <div class="space"></div>
 
@@ -60,7 +60,7 @@ induces an $R$-module structure on $\mc{M}\_{m\times n}(R)$, where each $e_i\in 
 
 >{{< env type="proof" hide="false" >}}
 
-We provide the inverse function, so let $(r_{ij})\in\mc{M}\_{m\times n}(R)$ be a matrix. For each $1\leq i\leq n$, let $f(e_i)\coloneqq(r_{1i},\dots,r_{mi})\in R^m$. Since $\l\\{e_1,\dots,e_n\r\\}$ is a basis for $R^n$, this map extends{{< link file="free_module" type="proved_by" mod="dag" >}} uniquely to an $R$-module homomorphism $f:R^n\to R^m$; this recipe clearly the inverse of $\Phi$. Explicitly, $f(e_i)=\sum_{j\leq m}r_{ij}e_j$ iff $f\mapsto(r_{ij})$; this formula is worth remembering!<span style="float:right;">$\blacksquare$</span>
+We provide the inverse function, so let $(r_{ij})\in\mc{M}\_{m\times n}(R)$ be a matrix. For each $1\leq i\leq n$, let $f(e_i)\coloneqq(r_{1i},\dots,r_{mi})\in R^m$. Since $\l\\{e_1,\dots,e_n\r\\}$ is a basis for $R^n$, this map extends{{< link file="free_module.md" type="proved_by" mod="dag" >}} uniquely to an $R$-module homomorphism $f:R^n\to R^m$; this recipe clearly the inverse of $\Phi$. Explicitly, $f(e_i)=\sum_{j\leq m}r_{ij}e_j$ iff $f\mapsto(r_{ij})$; this formula is worth remembering!<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 
@@ -90,7 +90,7 @@ With respect to the representations $\phi_1$ and $\psi_1$, the matrix representi
 
 <br>
 
-&emsp;&emsp;The upshot of this discussion is that for $f\in\Hom(M,N)$, any two matrix representations of $f$ are related by multiplying suitable invertible matrices $Q,P$ by chasing the diagram above. This induces an {{< link file="equivalence_relation" display="equivalence relation" type="references" >}} $\sim$ on $\mc{M}_{m\times n}(R)$, which identifies two matrices $A\sim B$ iff they are induced by the same homomorphism, i.e. $B=QAP$ for some $P\in\GL_n(R)$ and $Q\in\GL_m(R)$.
+&emsp;&emsp;The upshot of this discussion is that for $f\in\Hom(M,N)$, any two matrix representations of $f$ are related by multiplying suitable invertible matrices $Q,P$ by chasing the diagram above. This induces an {{< link file="equivalence_relation.md" display="equivalence relation" type="references" >}} $\sim$ on $\mc{M}_{m\times n}(R)$, which identifies two matrices $A\sim B$ iff they are induced by the same homomorphism, i.e. $B=QAP$ for some $P\in\GL_n(R)$ and $Q\in\GL_m(R)$.
 
 <br>
 

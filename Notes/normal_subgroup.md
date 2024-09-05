@@ -7,15 +7,15 @@ tags: [Group_Theory]
 
 # Motivation & Definition
 
-Fix a {{< link file="group" display="group" type="references" >}} $G$ and consider the {{< link file="category" display="category" type="references" >}} $\cat{B}G$ defined{{< link file="group" type="references" mod="dag" section="Groupoids" >}} by $G$. What are the {{< link file="congruence_relation" display="congruences" type="equivalences" >}} in $\cat{B}G$? In this {{< link file="category" display="category" type="references" >}}, a congruence is an {{< link file="equivalence_relation" display="equivalence relation" type="references" >}} $\sim$ on $G$ that respects the group operation, that is, $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$.
+Fix a {{< link file="group.md" display="group" type="references" >}} $G$ and consider the {{< link file="category.md" display="category" type="references" >}} $\cat{B}G$ defined{{< link file="group.md" type="references" mod="dag" section="Groupoids" >}} by $G$. What are the {{< link file="congruence_relation.md" display="congruences" type="equivalences" >}} in $\cat{B}G$? In this {{< link file="category.md" display="category" type="references" >}}, a congruence is an {{< link file="equivalence_relation.md" display="equivalence relation" type="references" >}} $\sim$ on $G$ that respects the group operation, that is, $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$.
 
 <br>
 
-&emsp;&emsp;It turns out that these congruences correspond directly to special {{< link file="subgroup" display="subgroups" type="references" >}} of $G$, namely, the *normal* ones:
+&emsp;&emsp;It turns out that these congruences correspond directly to special {{< link file="subgroup.md" display="subgroups" type="references" >}} of $G$, namely, the *normal* ones:
 
 {{< env type="definition" >}}
 
-A subgroup $N\substructeq G$ is said to be *normal* if it is invariant under {{< link file="conjugation_action" display="conjugation" type="references" >}} by $G$; i.e., if $gN=Ng$ for all $g\in G$.
+A subgroup $N\substructeq G$ is said to be *normal* if it is invariant under {{< link file="conjugation_action.md" display="conjugation" type="references" >}} by $G$; i.e., if $gN=Ng$ for all $g\in G$.
 
 <br>
 
@@ -45,7 +45,7 @@ $$\begin{equation}
 
 {{< /env >}}
 
-This equivalence allows us to take *{{< link file="quotient_group" display="quotients" type="constructions" >}}* $G/N$ of $G$ by normal subgroups $N\nsubgrpeq G$, and in particular makes $\pi:G\onto G/N$ a group homomorphism. Such a construction allows for another equivalence; namely, that normal subgroups correspond to {{< link file="kernel_group_theory" display="kernels" type="references" >}}:
+This equivalence allows us to take *{{< link file="quotient_group.md" display="quotients" type="constructions" >}}* $G/N$ of $G$ by normal subgroups $N\nsubgrpeq G$, and in particular makes $\pi:G\onto G/N$ a group homomorphism. Such a construction allows for another equivalence; namely, that normal subgroups correspond to {{< link file="kernel_group_theory.md" display="kernels" type="references" >}}:
 
 <div class="space"></div>
 
