@@ -1,7 +1,7 @@
 {{- $path := .Get "file" -}}
 {{- $type := .Get "type" -}}
 {{- $display := .Get "display" -}}
-{{- $section := .Get "section" -}}
+{{- $anchor := .Get "anchor" -}}
 {{- $mod := .Get "mod" -}}
 
 {{- $link := absURL $path -}}
@@ -32,8 +32,8 @@
     {{ $type = printf "%s %s" $type "dag" -}}
 {{- end -}}
 
-{{- if $section -}}
-    {{ $link = printf "%s%s%s" $link "/#" $section -}}
+{{- if $anchor -}}
+    {{ $link = printf "%s%s%s" $link "/#" $anchor -}}
 {{- end -}}
 
-<a href={{ $link }} class="internalLink {{ $type }}" title="{{ $title }}" mathLink="{{ $mathLink }}" section="{{ $section }}" onmouseover="previewSide({{ $link }}, {{ $page }});" onmouseleave="clearPreviewSide({{ $page }});" onclick="updateCurrentSide(event, {{ $link }}, {{ $page }});">{{ $name }}</a>{{- "" -}}
+<a href={{ $link }} class="internalLink {{ $type }}" title="{{ $title }}" mathLink="{{ $mathLink }}" anchor="{{ $anchor }}" onmouseover="previewSide({{ $link }}, {{ $page }});" onmouseleave="clearPreviewSide({{ $page }});" onclick="updateCurrentSide(event, {{ $link }}, {{ $page }});">{{ $name }}</a>{{- "" -}}

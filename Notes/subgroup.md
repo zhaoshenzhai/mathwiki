@@ -23,7 +23,7 @@ Note that any sub*set* $H\subseteq G$ inherits the operation from $G$, and makes
 
 <div class="space"></div>
 
-## Subgroup Generation
+<h2 id="subgroup_generation">Subgroup Generation</h2>
 
 Given a subset $A\subseteq G$, the subgroup *generated* by $A$ is the smallest subgroup $H\substructeq G$ containing $A$. It is clearly unique, and is thus denoted by $\gen{A}$. Such a group can be realized in many ways.
 * <span style="color:gray">(Element).</span> The most direct group-theoretic construction is simply letting
