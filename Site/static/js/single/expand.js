@@ -22,6 +22,7 @@ export function initCollapsibles() {
         }
     }
 
+    initHideCollapsibles();
     initHintTextCorrections();
 }
 
@@ -41,8 +42,7 @@ function initCollapsible(el, button, expandAncestorClick) {
     });
 }
 
-function toggle([container, header, content, hintText],
-                forceExpand, noTransition, expandAncestor) {
+function toggle([container, header, content, hintText], forceExpand, noTransition, expandAncestor) {
     if (!container) { return; }
 
     var transitionEls = [container, header, content];
@@ -167,6 +167,25 @@ function updateAncestor(container) {
 function closestAncestor(el, cls) {
     while ((el = el.parentElement) && !el.classList.contains(cls));
     return el;
+}
+
+function initHideCollapsibles() {
+    for (var i = 0; i < proofHeaderEls.length; i++) {
+        initHideCollapsible(proofHeaderEls[i]);
+    }
+
+    for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
+        for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
+            initHideCollapsible(h2List[h2Index]);
+        }
+    }
+}
+
+function initHideCollapsible(el) {
+    var collapsible = getCollapsible(el);
+    if (collapsible[0].classList.contains('hide')) {
+        toggle(collapsible, false, true, false);
+    }
 }
 
 export function initHintTextCorrections() {
