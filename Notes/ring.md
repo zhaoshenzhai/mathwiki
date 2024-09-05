@@ -18,7 +18,7 @@ $$\begin{equation}
 
 {{< /env >}}
 
-## Arithmetic in Rings
+<h2 class='hide'>Arithmetic in Rings</h2>
 
 In this context, the operation $\cdot$ is often called *multiplication* (usually suppressed, so we write $rs$ for $r\cdot s$), which plays well with *addition*; for instance, we have $0r=r=r$ and $-r=(-1)r$ for all $r\in R$. However, ‘cancellation’ (i.e. $rs=rt$ implies $s=t$ for all $r\neq0$) does *not* hold in arbitrary rings. The issue is that there are elements $0\neq r\in R$ such that $rs=0$ for some $s\neq0$, which are called *(left-)zero-divisors*. Those are the only trouble makers, in that $r$ is a left-zero-divisor iff the left-multiplication map $s\mapsto rs$ fails to be injective.
 
