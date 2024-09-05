@@ -32,7 +32,7 @@ where $A\subseteq G$ contain exactly the elements with non-trivial classes.
 
 &emsp;&emsp;A classical application is that $Z(G)$ is non-trivial{{< link file="fixed_point_theorems_of_p_groups.md" type="examples" mod="dag" >}} when $G$ is a {{< link file="finite_group.md" display="finite" type="references" >}} {{< link file="p_group.md" display="$p$-group" type="references" >}}.
 
-# Action on {{< link file="subgroup.md" display="Subgroups" type="references" >}}
+<h1 id="action_on_subgroups">Action on {{< link file="subgroup.md" display="Subgroups" type="references" >}}</h1>
 
 More generally, one can let $G$ act on the collection of all subsets (or subgroups) of $G$ via conjugation, by $\phi_g(H)\coloneqq gHg^{-1}$; we say that $H,K\substructeq G$ are *conjugate* if they are in the same class. However, the situation now differs from the previous case, as we now have setwise vs. pointwise stabilizers:
 * The *normalizer* of $H\substructeq G$ is the (setwise) stabilizer $N_G(H)\coloneqq\Stab_G(H)$. Clearly $H\nsubgrpeq N_G(H)$, the subgroup $H\substructeq G$ is normal iff $N_G(H)=G$, and $N_G(H)$ is the largest subgroup of $G$ in which $H$ is normal in.

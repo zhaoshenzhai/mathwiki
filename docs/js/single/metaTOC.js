@@ -42,7 +42,6 @@ export function styleHeaders(resize) {
 }
 
 function styleH1(el, counter) {
-    // el.setAttribute('id', el.innerText);
     el.classList.add('center');
     el.classList.add('h1Title');
     el.classList.add('noSelect');
@@ -75,8 +74,6 @@ function styleH1(el, counter) {
 }
 
 function styleH2(el, parentCounter, counter, resize) {
-    // if (!resize) { el.setAttribute('id', el.innerText); }
-
     el.style.fontSize = getFontSize() + "px";
 
     if (!resize) {

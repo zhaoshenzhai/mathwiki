@@ -11,7 +11,7 @@ Fix an {{< link file="equivalence_relation.md" display="equivalence relation" ty
 
 <br>
 
-&emsp;&emsp;However, it is natural to impose the projection map $\pi:G\onto G/\\!\sim$ to be a group homomorphism, so we are forced to have $[g]\ast[h]=\pi(g)\ast\pi(h)=\pi(gh)=[gh]$ for all $g,h\in G$. If $\ast$ is well-defined, then $G/\\!\sim$ is a group. But this occurs iff $g\sim g'$ and $h\sim h'$ implies $gh\sim g'h'$; that is, $\ast$ is well-defined iff $\sim$ is a {{< link file="congruence_relation.md" display="congruence relation" type="references" >}} on $G$. Since congruence relations are equivalent{{< link file="normal_subgroup.md" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Congruence" >}} to both {{< link file="normal_subgroup.md" display="normal subgroups" type="references" >}} and {{< link file="kernel_group_theory.md" display="kernels" type="references" >}}, we obtain two descriptions of the group structure on $G/\\!\sim$.
+&emsp;&emsp;However, it is natural to impose the projection map $\pi:G\onto G/\\!\sim$ to be a group homomorphism, so we are forced to have $[g]\ast[h]=\pi(g)\ast\pi(h)=\pi(gh)=[gh]$ for all $g,h\in G$. If $\ast$ is well-defined, then $G/\\!\sim$ is a group. But this occurs iff $g\sim g'$ and $h\sim h'$ implies $gh\sim g'h'$; that is, $\ast$ is well-defined iff $\sim$ is a {{< link file="congruence_relation.md" display="congruence relation" type="references" >}} on $G$. Since congruence relations are equivalent{{< link file="normal_subgroup.md" type="justifications" mod="dag" id="normal_iff_congruence" >}} to both {{< link file="normal_subgroup.md" display="normal subgroups" type="references" >}} and {{< link file="kernel_group_theory.md" display="kernels" type="references" >}}, we obtain two descriptions of the group structure on $G/\\!\sim$.
 
 <div class="space"></div>
 
@@ -33,15 +33,15 @@ Let $N\nsubgrpeq G$ be a normal subgroup. The *quotient group* of $G$ by $N$ is 
 
 ## Fibers of Homomorphisms
 
-Given the above construction, and noting that normal subgroups correspond{{< link file="normal_subgroup.md" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Kernel" >}} to {{< link file="kernel_group_theory.md" display="kernels" type="references" >}}, we may *a posteriori* define the quotient group of $G$ w.r.t. a homomorphism $f:G\to H$ as the set of fibers of $f$ equipped with the operation $f^{-1}(h_1)\ast f^{-1}(h_2)\coloneqq f^{-1}(h_1h_2)$. Its identity is, of course, $\ker f$. Every such group arise as fibers of $\pi:G\onto G/N$, and conversely, they induce the quotient group $G/\ker f$. <span style="color:red">**TODO** (regular category stuff?).</span>
+Given the above construction, and noting that normal subgroups correspond{{< link file="normal_subgroup.md" type="justifications" mod="dag" id="normal_iff_kernel" >}} to {{< link file="kernel_group_theory.md" display="kernels" type="references" >}}, we may *a posteriori* define the quotient group of $G$ w.r.t. a homomorphism $f:G\to H$ as the set of fibers of $f$ equipped with the operation $f^{-1}(h_1)\ast f^{-1}(h_2)\coloneqq f^{-1}(h_1h_2)$. Its identity is, of course, $\ker f$. Every such group arise as fibers of $\pi:G\onto G/N$, and conversely, they induce the quotient group $G/\ker f$. <span style="color:red">**TODO** (regular category stuff?).</span>
 
-# Categorical Aspects
+<h1 id="categorical_aspects">Categorical Aspects</h1>
 
 These nice descriptions of congruences, kernels, and normal subgroups reflect the underlying structure of $\catgrp$, which we now explore. In particular, it makes $\catgrp$ a {{< link file="regular_category.md" display="regular category" type="references" >}}, and all the results in this section can be generalized to arbitrary regular categories. <span style="color:red">**TODO** (can they?).</span> Nevertheless, we present them here for sake of completeness and to illustrate how to work with quotient groups.
 
 <div class="space"></div>
 
-## {{< link file="universal_constructions.md" display="Universal Property" type="references" >}}
+<h2 id="universal_property">{{< link file="universal_constructions.md" display="Universal Property" type="references" >}}</h2>
 
 Quotient groups satisfy the following universal property.
 
@@ -66,7 +66,7 @@ $$\begin{equation}
 
 <div class="space"></div>
 
-## The Isomorphism Theorems
+<h2 id="the_isomorphism_theorems">The Isomorphism Theorems</h2>
 
 Using this universal property, we can begin to understand the structure of homomorphisms.
 
@@ -106,11 +106,11 @@ If $H\substructeq G$ and $N\nsubgrpeq G$, then $N\nsubgrpeq HN\substructeq G$, $
 
 {{< env type="proof" hide="false" >}}
 
-That $HN\substructeq G$ follows{{< link file="subgroup_products.md" type="proved_by" mod="dag" section="Criteria for $HK\substructeq G$" >}} since $N$ is normal, and the rest of the compatibility assertions are easily verified. For the isomorphism, let $f:H\onto HN/N:h\mapsto hN$ and observe that the sequence $0\to H\cap N\into H\onto HN/N\to0$ is exact.<span style="float:right;">$\blacksquare$</span>
+That $HN\substructeq G$ follows{{< link file="subgroup_products.md" type="proved_by" mod="dag" id="criteria_for_subgroup_product" >}} since $N$ is normal, and the rest of the compatibility assertions are easily verified. For the isomorphism, let $f:H\onto HN/N:h\mapsto hN$ and observe that the sequence $0\to H\cap N\into H\onto HN/N\to0$ is exact.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 
-{{< env type="theorem" name="Lattice Isomorphism Theorem" >}}
+{{< env type="theorem" name="Lattice Isomorphism Theorem" id="lattice_isomorphism_theorem" >}}
 
 Let $N\nsubgrpeq G$ be a normal subgroup. Then we have an isomorphism
 $$\begin{equation}

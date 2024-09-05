@@ -9,7 +9,7 @@ allLinks=$(sed 's/\s>}}/ >}}\n/g' * | grep -Po "{{<\slink.*\s>}}" | sed 's/\\/\\
 
 while IFS= read -r link; do
     file=$(echo "$link" | grep -Po '(?<=file=").*?(?=")')
-    anchor=$(echo "$link" | grep -Po '(?<=anchor=").*?(?=")')
+    id=$(echo "$link" | grep -Po '(?<=id=").*?(?=")')
 
     if [[ ! -f "$file" ]]; then
         echo -e "    ${PURPLE}$file${NC}"
@@ -17,10 +17,10 @@ while IFS= read -r link; do
         while IFS= read -r fileWithLink; do
             echo "        $fileWithLink"
         done <<< "$appearsIn"
-    elif [[ -n "$anchor" ]]; then
-        if [[ ! -n $(grep -o "id=\"$anchor\"" "$file") ]]; then
-            echo -e "    ${PURPLE}$file | $anchor${NC}"
-            appearsIn=$(grep --color -il "$(echo "$file" | sed 's/^/{{< link file="/g' | sed 's/$/"/g').*anchor=\"$anchor\"" *)
+    elif [[ -n "$id" ]]; then
+        if [[ ! -n $(grep -o "id=\"$id\"" "$file") ]]; then
+            echo -e "    ${PURPLE}$file${NC} (${BLUE}$id${NC})"
+            appearsIn=$(grep --color -il "$(echo "$file" | sed 's/^/{{< link file="/g' | sed 's/$/"/g').*id=\"$id\"" *)
             while IFS= read -r fileWithLink; do
                 echo "        $fileWithLink"
             done <<< "$appearsIn"

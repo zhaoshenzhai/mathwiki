@@ -25,7 +25,7 @@ Let $(x_n)\subseteq X$ converge to both $x,y\in X$. If $x\neq y$, then pick disj
 
 {{< /env >}}
 
-In fact{{< link file="topology_using_nets.md" type="properties" mod="dag" >}}, enlarging the notion of sequences to {{< link file="convergence.md" display="nets" type="references" section="Nets" >}}/{{< link file="filter.md" display="filters" type="references" >}} gives the converse direction too, in that $X$ is Hausdorff iff every net/filter has at most one limit point.
+In fact{{< link file="topology_using_nets.md" type="properties" mod="dag" >}}, enlarging the notion of sequences to {{< link file="convergence.md" display="nets" type="references" id="nets" >}}/{{< link file="filter.md" display="filters" type="references" >}} gives the converse direction too, in that $X$ is Hausdorff iff every net/filter has at most one limit point.
 
 <br>
 

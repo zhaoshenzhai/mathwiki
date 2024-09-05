@@ -31,11 +31,11 @@ If $R$ is a commutative ring and $A,B$ are sets, then $R^A\iso R^B$ iff $|A|=|B|
 
 {{< env type="proof" hide="false" >}}
 
-The converse is trivial. Let $\mf{m}\nsubgrp R$ be a {{< link file="prime_and_maximal_ideals.md" display="maximal" type="references" >}} ideal (exists by {{< link file="prime_and_maximal_ideals.md" display="Krull’s Theorem" type="proved_by" section="Existence of Maximal Ideals" >}}) and consider the {{< link file="quotient_ring.md" display="quotient" type="references" >}} $k\coloneqq R/\mf{m}$, which is a field since $R$ is commutative. The key is that any module $M$ with $\mf{m}M=0$ admits a natural $k$-vector space structure.
+The converse is trivial. Let $\mf{m}\nsubgrp R$ be a {{< link file="prime_and_maximal_ideals.md" display="maximal" type="references" >}} ideal (exists by {{< link file="prime_and_maximal_ideals.md" display="Krull’s Theorem" type="proved_by" id="krulls_theorem" >}}) and consider the {{< link file="quotient_ring.md" display="quotient" type="references" >}} $k\coloneqq R/\mf{m}$, which is a field since $R$ is commutative. The key is that any module $M$ with $\mf{m}M=0$ admits a natural $k$-vector space structure.
 
 > Indeed, let $k$ act on $M$ by $(r+\mf{m})m\coloneqq rm$. This is well-defined since if $\bar{r_1}=\bar{r_2}$, then $r_1m-r_2m=(r_1-r_2)m\in\mf{m}m=0$.
 
-Since $\mf{m}(R^A/\mf{m}R^A)=0$, this makes $R^A/\mf{m}R^A$ into a $k$-vector space, and the projection $\pi:R^A\onto k^A$ has $\ker\pi=\mf{m}R^A$. Thus we have $R^A/\mf{m}R^A\iso k^A$, and similarly for $B$, so $k^A\iso k^B$. Finally, the {{< link file="vector_space.md" display="Exchange Lemma" type="proved_by" section="Existence of Bases" >}} for $k$-vector spaces forces $|A|=|B|$, as desired.<span style="float:right;">$\blacksquare$</span>
+Since $\mf{m}(R^A/\mf{m}R^A)=0$, this makes $R^A/\mf{m}R^A$ into a $k$-vector space, and the projection $\pi:R^A\onto k^A$ has $\ker\pi=\mf{m}R^A$. Thus we have $R^A/\mf{m}R^A\iso k^A$, and similarly for $B$, so $k^A\iso k^B$. Finally, the {{< link file="vector_space.md" display="Exchange Lemma" type="proved_by" id="existence_of_bases" >}} for $k$-vector spaces forces $|A|=|B|$, as desired.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 
@@ -68,7 +68,7 @@ This also induces a *matrix multiplication* operation $\mc{M}\_{m\times n}(R)\ti
 
 <div class="space"></div>
 
-## Change of Basis
+<h2 id="change_of_basis">Change of Basis</h2>
 
 The issue is that the isomorphism $\Hom(M_1,M_2)\iso\Hom(R^n,R^m)$ is *not canonical*, since it depends on the specific choices of isomorphisms $M_1\iso R^n$ and $M_2\iso R^m$ (i.e., choices of bases). If we change bases for either $M_i$, we must expect the matrix representation $\Phi$ to change as well, but, fortunately, it does so in a controlled way.
 
@@ -94,4 +94,4 @@ With respect to the representations $\phi_1$ and $\psi_1$, the matrix representi
 
 <br>
 
-&emsp;&emsp;This raises another question: is every matrix $A\in\mc{M}\_{m\times n}(R)$ equivalent to a matrix in ‘standard form’? If so, and especially if there is an algorithm for reducing $A$ into the standard form, then every morphism $f\in\Hom(M_1,M_2)$ would admit a canonical matrix representation. It turns out, that if $R$ is a {{< link file="principal_ideal_domain.md" display="PID" type="references" >}}, then such a standard form exists, called the *{{< link file="smith_normal_form.md" display="Smith Normal Form" type="constructions" >}}*; this is a corollary of the {{< link file="structure_theorem_for_fg_modules_over_pid.md" display="Structure Theorem" type="justifications" >}} for f.g. modules over PIDs. Furthermore, if $R$ also a {{< link file="euclidean_domain.md" display="Euclidean domain" type="references" >}}, then there is{{< link file="smith_normal_form.md" type="justifications" mod="dag" section="Over Euclidean Domains" >}} an algorithm for doing so, and for fields, the *Gaussian algorithm*{{< link file="smith_normal_form.md" type="justifications" mod="dag" section="Over Fields" >}} will do.
+&emsp;&emsp;This raises another question: is every matrix $A\in\mc{M}\_{m\times n}(R)$ equivalent to a matrix in ‘standard form’? If so, and especially if there is an algorithm for reducing $A$ into the standard form, then every morphism $f\in\Hom(M_1,M_2)$ would admit a canonical matrix representation. It turns out, that if $R$ is a {{< link file="principal_ideal_domain.md" display="PID" type="references" >}}, then such a standard form exists, called the *{{< link file="smith_normal_form.md" display="Smith Normal Form" type="constructions" >}}*; this is a corollary of the {{< link file="structure_theorem_for_fg_modules_over_pid.md" display="Structure Theorem" type="justifications" >}} for f.g. modules over PIDs. Furthermore, if $R$ also a {{< link file="euclidean_domain.md" display="Euclidean domain" type="references" >}}, then there is{{< link file="smith_normal_form.md" type="justifications" mod="dag" id="over_euclidean_domains" >}} an algorithm for doing so, and for fields, the *Gaussian algorithm*{{< link file="smith_normal_form.md" type="justifications" mod="dag" id="over_fields" >}} will do.

@@ -39,7 +39,7 @@ The two most common approaches towards such a generalization are nets and filter
 
 <div class="space"></div>
 
-## Nets
+<h2 id="nets">Nets</h2>
 
 One approach to replace $\N$ in the definition of sequential-convergence to an arbitrary directed set, which we call a *net*.
 
@@ -83,4 +83,4 @@ A filter $\mc{F}$ in $X$ is said to *converge* to some $x\in X$ $-$ and write $\
 
 <div class="space"></div>
 
-&emsp;&emsp;To connect this definition back with sequences, we need to consider *{{< link file="filter.md" display="push-forward" type="references" section="Push Forward" >}}* of filters. Then, equipping $\N$ with the Fréchet filter $\mc{F}_0$, we see that a sequence $x\_\blob\to x$ in the sense of sequences iff $x\_\blob(\mc{F}\_0)\to x$ in the sense of filters.
+&emsp;&emsp;To connect this definition back with sequences, we need to consider *{{< link file="filter.md" display="push-forward" type="references" id="Push Forward" >}}* of filters. Then, equipping $\N$ with the Fréchet filter $\mc{F}_0$, we see that a sequence $x\_\blob\to x$ in the sense of sequences iff $x\_\blob(\mc{F}\_0)\to x$ in the sense of filters.

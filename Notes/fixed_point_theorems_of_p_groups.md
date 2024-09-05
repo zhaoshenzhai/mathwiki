@@ -14,7 +14,7 @@ A standard method to study a {{< link file="finite_group.md" display="finite gro
 
 &emsp;&emsp;The results here, used in tandem with {{< link file="cauchys_theorem.md" display="Cauchy’s Theorem" type="references" >}}, are the backbone for the proofs of the {{< link file="sylow_theorems.md" display="Sylow Theorems" type="references" >}}.
 
-# Non-triviality of $Z(G)$
+<h1 id="non-triviality_of_Z(G)">Non-triviality of $Z(G)$</h1>
 
 This is indeed the case for finite {{< link file="p_group.md" display="$p$-groups" type="references" >}}, which we now show. Fix a prime $p$.
 
@@ -46,7 +46,7 @@ Letting $G$ act on itself by conjugation, the above gives us $\l|Z(G)\r|\equiv\l
 
 {{< /env >}}
 
-# Structure of $p$-subgroups
+<h1 id="structure_of_p_subgroups">Structure of $p$-subgroups</h1>
 
 We now apply the previous results to understand the $p$-subgroups of a finite group $G$.
 
@@ -78,7 +78,7 @@ If $H$ is not a {{< link file="sylow_theorems.md" display="$p$-Sylow subgroup" t
 
 {{< env type="proof" hide="false" >}}
 
-Since $H$ is not a $p$-Sylow subgroup, we see that $p$ divides $[G:H]$, and hence $p$ divides $[N_G(H):H]$ too. By {{< link file="cauchys_theorem.md" display="Cauchy’s Theorem" type="proved_by" >}}, there is an element in $N_G(H)/H$ of order $p$, which generates a cyclic subgroup $K_0$ with $|K_0|=p$. Set $K\coloneqq\pi^{-1}(K_0)\substructeq G$, which contains $H$ since $\pi(H)$ is the identity in $K_0$. Clearly $\pi(H)\nsubgrpeq\pi(K)$, so by the {{< link file="subgroup.md" display="Lattice Isomorphism Theorem" type="proved_by" section="Lattice Isomorphism Theorem" >}}, we have $H\nsubgrpeq K$ and
+Since $H$ is not a $p$-Sylow subgroup, we see that $p$ divides $[G:H]$, and hence $p$ divides $[N_G(H):H]$ too. By {{< link file="cauchys_theorem.md" display="Cauchy’s Theorem" type="proved_by" >}}, there is an element in $N_G(H)/H$ of order $p$, which generates a cyclic subgroup $K_0$ with $|K_0|=p$. Set $K\coloneqq\pi^{-1}(K_0)\substructeq G$, which contains $H$ since $\pi(H)$ is the identity in $K_0$. Clearly $\pi(H)\nsubgrpeq\pi(K)$, so by the {{< link file="quotient_group.md" display="Lattice Isomorphism Theorem" type="proved_by" id="lattice_isomorphism_theorem" >}}, we have $H\nsubgrpeq K$ and
 $$\begin{equation}
     K/H\iso\pi(K)/\pi(H)\iso K_0.
 \end{equation}$$

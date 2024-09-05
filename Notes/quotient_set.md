@@ -7,7 +7,7 @@ tags: [Set_Theory]
 
 # Motivation & Definition
 
-## Universal Property
+<h2 id="universal_property">Universal Property</h2>
 
 Fix an {{< link file="equivalence_relation.md" display="equivalence relation" type="references" >}} $E$ on $X$. We would like to construct a set $X/E$ and a function $\pi:X\to X/E$ in which ‘$E$ becomes equality’ via $\pi$. Moreover, this construction needs to be {{< link file="universal_constructions.md" display="universal" type="references" >}}, in the precise sense that:
 

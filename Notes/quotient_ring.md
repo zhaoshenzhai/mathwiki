@@ -11,7 +11,7 @@ Fix an {{< link file="equivalence_relation.md" display="equivalence relation" ty
 
 <br>
 
-&emsp;&emsp;Firstly, since $R$ has an underlying ({{< link file="abelian_group.md" display="abelian" type="references" >}}) {{< link file="group.md" display="group" type="references" >}} $G\coloneqq(R,+)$, we need $\sim$ to be a {{< link file="congruence_relation.md" display="congruence" type="references" >}} of $G$ for $R/\\!\sim$ to be a group. This induces{{< link file="normal_subgroup.md" type="justifications" mod="dag" section="Normal $\Leftrightarrow$ Congruence" >}} a ({{< link file="normal_subgroup.md" display="normal" type="references" >}}) {{< link file="subgroup.md" display="subgroup" type="references" >}} $\mf{a}\nsubgrpeq G$, for which $R/\mf{a}$ is its {{< link file="quotient_group.md" display="quotient group" type="references" >}}. We need to make $R/\\!\sim$ into a ring so that $\pi:R\onto R/\\!\sim$ is a ring homomorphism, and we show that this multiplication is well-defined iff $\mf{a}\nsubgrpeq R$ is an ideal.
+&emsp;&emsp;Firstly, since $R$ has an underlying ({{< link file="abelian_group.md" display="abelian" type="references" >}}) {{< link file="group.md" display="group" type="references" >}} $G\coloneqq(R,+)$, we need $\sim$ to be a {{< link file="congruence_relation.md" display="congruence" type="references" >}} of $G$ for $R/\\!\sim$ to be a group. This induces{{< link file="normal_subgroup.md" type="justifications" mod="dag" id="normal_iff_congruence" >}} a ({{< link file="normal_subgroup.md" display="normal" type="references" >}}) {{< link file="subgroup.md" display="subgroup" type="references" >}} $\mf{a}\nsubgrpeq G$, for which $R/\mf{a}$ is its {{< link file="quotient_group.md" display="quotient group" type="references" >}}. We need to make $R/\\!\sim$ into a ring so that $\pi:R\onto R/\\!\sim$ is a ring homomorphism, and we show that this multiplication is well-defined iff $\mf{a}\nsubgrpeq R$ is an ideal.
 
 {{< env type="definition" >}}
 
@@ -27,7 +27,7 @@ If $\mf{a}\nsubgrpeq R$ is an ideal, then $\ast$ is well-defined since $\sim$ re
 
 <div class="space"></div>
 
-## {{< link file="universal_constructions.md" display="Universal Property" type="references" >}}
+<h2 id="universal_property">{{< link file="universal_constructions.md" display="Universal Property" type="references" >}}</h2>
 
 Quotient rings satisfy the following universal property.
 
@@ -43,7 +43,7 @@ If $\mf{a}\nsubgrpeq R$ is an ideal, then $\pi:R\onto R/\mf{a}$ is initial among
 
 {{< env type="proof" hide="true" >}}
 
-By the same universal property for groups{{< link file="quotient_group.md" type="proved_by" mod="dag" section="Categorical Aspects" >}}, we have a unique group homomorphism $f':R/\mf{a}\to S$ such that $f=f'\circ\pi$. This is a ring homomorphism since
+By the same universal property for groups{{< link file="quotient_group.md" type="proved_by" mod="dag" id="categorical_aspects" >}}, we have a unique group homomorphism $f':R/\mf{a}\to S$ such that $f=f'\circ\pi$. This is a ring homomorphism since
 $$\begin{equation}
     f'((r+\mf{a})\ast(s+\mf{a}))=f'(rs+\mf{a})=f(rs)=f(r)f(s)=f'(r+\mf{a})f'(s+\mf{a}).
 \end{equation}$$
@@ -53,7 +53,7 @@ Finally, we have an isomorphism $R/\ker f\iso\im f$ as groups, which is easily c
 
 <div class="space"></div>
 
-The other ‘Isomorphism Theorems’ follow immediately from the corresponding theorems for groups{{< link file="quotient_group.md" type="proved_by" mod="dag" section="The Isomorphism Theorems" >}}; one simply replaces all instances of ‘normal subgroup’ with ‘ideal’, and verify that all morphisms involved are ring homomorphisms. Thus, we will only state them.
+The other ‘Isomorphism Theorems’ follow immediately from the corresponding theorems for groups{{< link file="quotient_group.md" type="proved_by" mod="dag" id="the_isomorphism_theorems" >}}; one simply replaces all instances of ‘normal subgroup’ with ‘ideal’, and verify that all morphisms involved are ring homomorphisms. Thus, we will only state them.
 
 {{< env type="theorem" name="Calculus of Ideals" >}}
 

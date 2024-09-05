@@ -18,7 +18,7 @@ $$\begin{equation}
 
 {{< /env >}}
 
-<h2 class='hide'>Arithmetic in Rings</h2>
+<h2 class="hide" id="arithmetic_in_rings">Arithmetic in Rings</h2>
 
 In this context, the operation $\cdot$ is often called *multiplication* (usually suppressed, so we write $rs$ for $r\cdot s$), which plays well with *addition*; for instance, we have $0r=r=r$ and $-r=(-1)r$ for all $r\in R$. However, ‘cancellation’ (i.e. $rs=rt$ implies $s=t$ for all $r\neq0$) does *not* hold in arbitrary rings. The issue is that there are elements $0\neq r\in R$ such that $rs=0$ for some $s\neq0$, which are called *(left-)zero-divisors*. Those are the only trouble makers, in that $r$ is a left-zero-divisor iff the left-multiplication map $s\mapsto rs$ fails to be injective.
 
@@ -52,7 +52,7 @@ A function $f:R\to S$ between rings is a *homomorphism* if it is a homomorphism 
 
 {{< /env >}}
 
-## The {{< link file="category.md" display="Category" type="references" >}} of Rings
+<h2 id="category_of_rings">The {{< link file="category.md" display="Category" type="references" >}} of Rings</h2>
 
 With ring homomorphisms as morphisms, rings form a category $\catring$. This category is{{< link file="catring_is_complete.md" type="justifications" mod="dag" >}} {{< link file="complete_category.md" display="complete" type="references" >}} and cocomplete, as witnessed by the standard constructions of products, coproducts, kernels, cokernels, {{< link file="subring.md" display="subobjects" type="constructions" >}}, and {{< link file="quotient_ring.md" display="quotients" type="constructions" >}}. We also have a {{< link file="functor.md" display="functor" type="references" >}} $\catring\to\catgrp$ taking a ring $R$ to its {{< link file="group_of_units.md" display="group of units" type="constructions" >}}, which is left-{{< link file="adjunction.md" display="adjoint" type="references" >}} to the {{< link file="group_ring.md" display="group ring" type="sufficiencies" >}} construction.
 

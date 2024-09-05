@@ -15,7 +15,7 @@ A non-trivial ideal $\mf{a}\nsubgrp R$ is said to be *prime* (resp. *maximal*) i
 
 {{< /env >}}
 
-**Remark.** Note that $\mf{p}$ is prime iff $rs\in\mf{p}$ implies either $r\in\mf{p}$ or $s\in\mf{p}$, which is reminiscent to prime numbers in {{< link file="integers.md" display="$\Z$" type="references" >}}. Moreover, $\mf{m}$ is maximal iff it is $\subseteq$-maximal in the {{< link file="lattice.md" display="lattice" type="references" >}} of non-trivial ideals of $R$. The latter follows from the {{< link file="quotient_ring.md" display="Lattice Isomorphism Theorem" type="justifications" section="Universal Property" >}}: any ideal $\bar{\mf{a}}\nsubgrpeq R/\mf{m}$ corresponds to some (unique) ideal $\mf{a}\nsubgrpeq R$ containing $\mf{m}$, so a non-trivial ideal $\bar{\mf{a}}\nsubgrp R/\mf{m}$ vanishes iff $\mf{m}$ is $\subseteq$-maximal, and the former occurs{{< link file="field.md" type="justifications" mod="dag" >}} iff $R/\mf{m}$ is a field.
+**Remark.** Note that $\mf{p}$ is prime iff $rs\in\mf{p}$ implies either $r\in\mf{p}$ or $s\in\mf{p}$, which is reminiscent to prime numbers in {{< link file="integers.md" display="$\Z$" type="references" >}}. Moreover, $\mf{m}$ is maximal iff it is $\subseteq$-maximal in the {{< link file="lattice.md" display="lattice" type="references" >}} of non-trivial ideals of $R$. The latter follows from the {{< link file="quotient_ring.md" display="Lattice Isomorphism Theorem" type="justifications" id="universal_property" >}}: any ideal $\bar{\mf{a}}\nsubgrpeq R/\mf{m}$ corresponds to some (unique) ideal $\mf{a}\nsubgrpeq R$ containing $\mf{m}$, so a non-trivial ideal $\bar{\mf{a}}\nsubgrp R/\mf{m}$ vanishes iff $\mf{m}$ is $\subseteq$-maximal, and the former occurs{{< link file="field.md" type="justifications" mod="dag" >}} iff $R/\mf{m}$ is a field.
 
 <div class="space"></div>
 
@@ -33,7 +33,7 @@ Let $\mf{a}\nsubgrp R$ be prime and suppose that $\mf{a}\subseteq\mf{b}$ for som
 
 &emsp;&emsp;The question now remains whether every ring admits a maximal ideal. The answer is yes, and, in fact, more is true:
 
-{{< env type="theorem" name="Krull" >}}
+{{< env type="theorem" name="Krull" id="krulls_theorem" >}}
 
 Every proper ideal $\mf{a}\nsubgrp R$ extends to a maximal ideal $\mf{a}\subseteq\mf{m}\nsubgrp R$.
 

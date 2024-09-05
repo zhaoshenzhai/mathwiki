@@ -11,7 +11,7 @@ Whenever one encounters a type of mathematical object, one should ask if there i
 
 <div class="space"></div>
 
-## Groups
+<h2 id="groups">Groups</h2>
 
 Such a theorem for {{< link file="group.md" display="groups" type="references" >}} is as follows.
 
@@ -47,7 +47,7 @@ Every finitely-generated group is a subgroup of the symmetries of a connected lo
 
 <div class="space"></div>
 
-## Rings
+<h2 id="rings">Rings</h2>
 
 {{< env type="theorem" >}}
 

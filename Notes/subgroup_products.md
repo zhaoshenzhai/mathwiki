@@ -23,7 +23,7 @@ Note that $HK=\bigcup_{h\in H}hK$, where any two $h_1K,h_2K$ either coincide or 
 
 Finally, we relate $HK$ to the {{< link file="product_of_groups.md" display="product" type="references" >}} $H\times K$ and the {{< link file="semi-direct_product.md" display="semi-direct product" type="references" >}} $H\semi K$.
 
-# Criteria for $HK\substructeq G$
+<h1 id="criteria_for_subgroup_product">Criteria for $HK\substructeq G$</h1>
 
 We give a full characterization for when this is the case.
 

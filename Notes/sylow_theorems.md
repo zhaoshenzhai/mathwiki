@@ -24,15 +24,15 @@ Let $G$ be a finite group and let $p$ be a prime divisor of $|G|$. Write $|G|=p^
 
 {{< env type="proof" hide="false" >}}
 
-By {{< link file="cauchys_theorem.md" display="Cauchy’s Theorem" type="proved_by" >}}, let $H_1\substructeq G$ be of order $p$, and extend{{< link file="fixed_point_theorems_of_p_groups.md" type="proved_by" mod="dag" section="Structure of $p$-subgroups" >}} it inductively to obtain a ({{< link file="normal_subgroup.md" display="normal" type="references" >}}) series $H_1\nsubgrp H_2\nsubgrp\cdots\nsubgrp H_k$, with each $[H_{i+1}:H_i]=p$. Hence, we have $|H_i|=p^i$, so continuing this way until $k=r$ gives us the desired $p$-Sylow subgroup $S_p$.
+By {{< link file="cauchys_theorem.md" display="Cauchy’s Theorem" type="proved_by" >}}, let $H_1\substructeq G$ be of order $p$, and extend{{< link file="fixed_point_theorems_of_p_groups.md" type="proved_by" mod="dag" id="structure_of_p_subgroups" >}} it inductively to obtain a ({{< link file="normal_subgroup.md" display="normal" type="references" >}}) series $H_1\nsubgrp H_2\nsubgrp\cdots\nsubgrp H_k$, with each $[H_{i+1}:H_i]=p$. Hence, we have $|H_i|=p^i$, so continuing this way until $k=r$ gives us the desired $p$-Sylow subgroup $S_p$.
 
 <br>
 
-&emsp;&emsp;For Sylow II, we need to show that if $P$ is a $p$-Sylow subgroup, then $P=gS_pg^{-1}$ for some $g\in G$. Indeed, let $P$ act on $G/S_p$ by left-multiplication, so there are{{< link file="fixed_point_theorems_of_p_groups.md" type="proved_by" mod="dag" section="Non-triviality of $Z(G)$" >}} $[G:S_p]$ number of fixed points modulo $p$. But $[G:S_p]\perp p$, so this action admits a fixed point $gS_p$ for some $g\in G$. Hence $g^{-1}Pg\substructeq S_p$, so $P=gS_pg^{-1}$ by order considerations.
+&emsp;&emsp;For Sylow II, we need to show that if $P$ is a $p$-Sylow subgroup, then $P=gS_pg^{-1}$ for some $g\in G$. Indeed, let $P$ act on $G/S_p$ by left-multiplication, so there are{{< link file="fixed_point_theorems_of_p_groups.md" type="proved_by" mod="dag" id="non-triviality_of_Z(G)" >}} $[G:S_p]$ number of fixed points modulo $p$. But $[G:S_p]\perp p$, so this action admits a fixed point $gS_p$ for some $g\in G$. Hence $g^{-1}Pg\substructeq S_p$, so $P=gS_pg^{-1}$ by order considerations.
 
 <br>
 
-&emsp;&emsp;Finally, note that $n_p$ is the cardinality of the {{< link file="conjugation_action.md" display="conjugacy class" type="references" section="Action on Subgroups" >}} of $S_p$, which by {{< link file="orbit_stabilizer_theorem.md" display="Orbit-Stabilizer" type="proved_by" >}} is $[G:N_G(S_p)]$, so{{< link file="lagranges_theorem.md" display="Lagrange’s Theorem" type="proved_by" mod="dag" >}}
+&emsp;&emsp;Finally, note that $n_p$ is the cardinality of the {{< link file="conjugation_action.md" display="conjugacy class" type="references" id="action_on_subgroups" >}} of $S_p$, which by {{< link file="orbit_stabilizer_theorem.md" display="Orbit-Stabilizer" type="proved_by" >}} is $[G:N_G(S_p)]$, so{{< link file="lagranges_theorem.md" display="Lagrange’s Theorem" type="proved_by" mod="dag" >}}
 $$\begin{equation}
     m=[G:S_p]=[G:N_G(S_p)]\cdot[N_G(S_p):S_p]=n_p\cdot[N_G(S_p):S_p].
 \end{equation}$$

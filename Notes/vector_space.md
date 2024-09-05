@@ -23,7 +23,7 @@ Since every result about $R$-modules holds for $k$-vector spaces, we will not re
 
 <div class="space"></div>
 
-## Existence of Bases
+<h2 id="existence_of_bases">Existence of Bases</h2>
 
 The ‘*fundamental theorem of vector spaces*’ is the existence of bases, making all vector spaces {{< link file="free_module.md" display="free modules" type="references" >}}:
 
@@ -35,7 +35,7 @@ Every linearly-independent subset $S\subseteq V$ extends to a basis of $V$.
 
 {{< env type="proof" hide="false" >}}
 
-For general $R$-modules, $S$ extends{{< link file="basis_module_theory.md" type="proved_by" mod="dag" section="Maximal Linearly-independent Sets" >}} to a maximal linearly-independent set, so we may w.l.o.g. assume that $S$ is maximal.
+For general $R$-modules, $S$ extends{{< link file="basis_module_theory.md" type="proved_by" mod="dag" id="maximal_linearly-independent_sets" >}} to a maximal linearly-independent set, so we may w.l.o.g. assume that $S$ is maximal.
 
 <br>
 

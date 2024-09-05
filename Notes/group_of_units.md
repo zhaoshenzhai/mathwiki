@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Elements in a {{< link file="ring.md" display="ring" type="references" >}} may not be invertible; that is, there may exist $r\in R$ such that $rs\neq1$ or $sr\neq1$ for all $s\in R$ (see {{< link file="ring.md" display="here" type="references" section="Arithmetic in Rings" >}} for details). Thus, it is useful to group together the elements that are invertible, which in fact forms a {{< link file="group.md" display="group" type="references" >}} under multiplication.
+Elements in a {{< link file="ring.md" display="ring" type="references" >}} may not be invertible; that is, there may exist $r\in R$ such that $rs\neq1$ or $sr\neq1$ for all $s\in R$ (see {{< link file="ring.md" display="here" type="references" id="arithmetic_in_rings" >}} for details). Thus, it is useful to group together the elements that are invertible, which in fact forms a {{< link file="group.md" display="group" type="references" >}} under multiplication.
 
 {{< env type="definition" >}}
 

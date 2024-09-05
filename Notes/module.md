@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Let $R$ be a {{< link file="ring.md" display="ring" type="references" >}}. Similarly to how a {{< link file="group.md" display="group" type="references" >}} $G\into\Aut X$ injects{{< link file="cayleys_theorem.md" type="justifications" mod="dag" section="Groups" >}} into some {{< link file="symmetry_group.md" display="symmetry group" type="references" >}} of a set $X$, and how this motivates us to study {{< link file="group_action.md" display="actions" type="references" >}} $G\to\Aut X$ in general, that $R\into\End M$ injects{{< link file="cayleys_theorem.md" type="justifications" mod="dag" section="Rings" >}} into an endomorphism ring of some {{< link file="abelian_group.md" display="abelian" type="references" >}} group motivates us to study ‘ring actions’ $R\to\End M$. Those ‘ring actions’ are called *$R$-modules*.
+Let $R$ be a {{< link file="ring.md" display="ring" type="references" >}}. Similarly to how a {{< link file="group.md" display="group" type="references" >}} $G\into\Aut X$ injects{{< link file="cayleys_theorem.md" type="justifications" mod="dag" id="groups" >}} into some {{< link file="symmetry_group.md" display="symmetry group" type="references" >}} of a set $X$, and how this motivates us to study {{< link file="group_action.md" display="actions" type="references" >}} $G\to\Aut X$ in general, that $R\into\End M$ injects{{< link file="cayleys_theorem.md" type="justifications" mod="dag" id="rings" >}} into an endomorphism ring of some {{< link file="abelian_group.md" display="abelian" type="references" >}} group motivates us to study ‘ring actions’ $R\to\End M$. Those ‘ring actions’ are called *$R$-modules*.
 
 {{< env type="definition" >}}
 

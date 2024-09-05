@@ -7,7 +7,7 @@ tags: [Group_Theory]
 
 # Motivation & Definition
 
-Fix a {{< link file="group.md" display="group" type="references" >}} $G$ and consider the {{< link file="category.md" display="category" type="references" >}} $\cat{B}G$ defined{{< link file="group.md" type="references" mod="dag" section="Groupoids" >}} by $G$. What are the {{< link file="congruence_relation.md" display="congruences" type="equivalences" >}} in $\cat{B}G$? In this {{< link file="category.md" display="category" type="references" >}}, a congruence is an {{< link file="equivalence_relation.md" display="equivalence relation" type="references" >}} $\sim$ on $G$ that respects the group operation, that is, $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$.
+Fix a {{< link file="group.md" display="group" type="references" >}} $G$ and consider the {{< link file="category.md" display="category" type="references" >}} $\cat{B}G$ defined{{< link file="group.md" type="references" mod="dag" id="Groupoids" >}} by $G$. What are the {{< link file="congruence_relation.md" display="congruences" type="equivalences" >}} in $\cat{B}G$? In this {{< link file="category.md" display="category" type="references" >}}, a congruence is an {{< link file="equivalence_relation.md" display="equivalence relation" type="references" >}} $\sim$ on $G$ that respects the group operation, that is, $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$.
 
 <br>
 
@@ -27,9 +27,9 @@ Equivalently, we may demand $gng^{-1}\in N$ for all $n\in N$ and $g\in G$ instea
 
 <div class="space"></div>
 
-## Normal $\Leftrightarrow$ Congruence
+<h2 id="normal_iff_congruence">Normal $\Leftrightarrow$ Congruence</h2>
 
-We now show that every congruence relation $\sim$ on $G$ is induced by a unique normal subgroup $N\nsubgrpeq G$.
+We show that every congruence relation $\sim$ on $G$ is induced by a unique normal subgroup $N\nsubgrpeq G$.
 
 <div class="space"></div>
 
@@ -49,7 +49,7 @@ This equivalence allows us to take *{{< link file="quotient_group.md" display="q
 
 <div class="space"></div>
 
-{{< env type="proof" hide="false" >}}
+{{< env type="proof" hide="false" id="normal_iff_kernel" >}}
 
 If $N\nsubgrpeq G$ is a normal subgroup, then it is the kernel of $\pi:G\onto G/N$. Conversely, for any homomorphism $f:G\to H$, its kernel $\ker f$ is normal since if $f(h)=0$ and $g\in G$, then $f(ghg^{-1})=f(g)f(h)f(g)^{-1}=0$ too.<span style="float:right;">$\blacksquare$</span>
 
@@ -57,6 +57,6 @@ If $N\nsubgrpeq G$ is a normal subgroup, then it is the kernel of $\pi:G\onto G/
 
 <div class="space"></div>
 
-## Normal Closure
+<h2 id="normal_closure">Normal Closure</h2>
 
 Each equivalence relation $\sim$ induces a congruence (obtained by intersecting every congruence containing $\sim$). In particular, for a subgroup $H\substructeq G$, the congruence relation induced by the equivalence relation $g_1\sim g_2$ iff $g_1H=g_2H$ corresponds by the above to a normal subgroup $\gen{H}_N\nsubgrpeq G$, called the *normal closure* of $H$. Equivalently, $\gen{H}_N$ is the smallest normal subgroup of $G$ containing $H$, obtained by either closing under conjugation or by taking the intersection of all normal subgroups containing $H$.

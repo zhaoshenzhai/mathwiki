@@ -7,7 +7,7 @@ tags: [Group_Theory, Ring_Theory]
 
 The set of *integers*, denoted $\Z$, appear everywhere in algebra:
 * In {{< link file="group.md" display="group" type="references" >}} theory, it is the {{< link file="free_group.md" display="free group" type="references" >}} on one generator, and is used to construct all {{< link file="cyclic_group.md" display="cyclic" type="constructions" >}} groups, and more generally, all {{< link file="finitely_generated_group.md" display="finitely-generated" type="references" >}} {{< link file="abelian_group.md" display="abelian" type="references" >}} groups. The latter claim follows from the {{< link file="structure_theorem_for_fg_modules_over_pid.md" display="Structure Theorem" type="justifications" >}}.
-* In {{< link file="ring.md" display="ring" type="references" >}} theory, it is the initial object in {{< link file="ring.md" display="$\catring$" type="references" section="The Category $\catring$" >}}, and is the most important example of a {{< link file="principal_ideal_domain.md" display="PID" type="references" >}}. In fact, abelian groups are just {{< link file="module.md" display="$\Z$-modules" type="constructions" >}}, and rings are just $\Z$-algebras.
+* In {{< link file="ring.md" display="ring" type="references" >}} theory, it is the initial object in {{< link file="ring.md" display="$\catring$" type="references" id="category_of_rings" >}}, and is the most important example of a {{< link file="principal_ideal_domain.md" display="PID" type="references" >}}. In fact, abelian groups are just {{< link file="module.md" display="$\Z$-modules" type="constructions" >}}, and rings are just $\Z$-algebras.
 
 The fundamental property of $\Z$, and that underlies all of its group and ring-theoretic properties, is the *Division Algorithm*.
 
@@ -37,7 +37,7 @@ $\Z$ is a {{< link file="euclidean_domain.md" display="Euclidean domain" type="r
 
 {{< /env >}}
 
-{{< env type="corollary" >}}
+{{< env type="corollary" id="subgroups_of_Z" >}}
 
 {{< link file="subgroup.md" display="Subgroups" type="references" >}} and {{< link file="ideal_ring_theory.md" display="ideals" type="references" >}} of $\Z$ are precisely $n\Z$ for $n\in\N$.
 

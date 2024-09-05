@@ -11,11 +11,11 @@ The simplest class of {{< link file="group.md" display="groups" type="references
 
 {{< env type="definition" >}}
 
-A group $G$ is said to be *cyclic* if $G=\gen{x}${{< link file="subgroup.md" type="references" mod="dag" anchor="subgroup_generation" >}} for some $x\in G$.
+A group $G$ is said to be *cyclic* if $G=\gen{x}${{< link file="subgroup.md" type="references" mod="dag" id="subgroup_generation" >}} for some $x\in G$.
 
 {{< /env >}}
 
-## Classification
+<h2 id="classification">Classification</h2>
 
 Let $G=\gen{x}$ be cyclic. By definition, $\phi:\Z\to G$ sending $m\mapsto x^m$ is surjective. Depending on the {{< link file="order.md" display="order" type="references" >}} $n\coloneqq\ord x$ of $x$, $G$ takes on the following forms.
 * If $1\leq n<\infty$, then $\ker\phi=n\Z$ and hence{{< link file="quotient_group.md" type="justifications" mod="dag" >}} $G\iso\Z/n\Z$.
