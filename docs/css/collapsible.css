@@ -24,7 +24,7 @@
     position: absolute;
     display: block;
     z-index: -1;
-    width: 100%;
+    width: 300%;
     opacity: 0;
     background: linear-gradient(var(--mask-bg-1), var(--mask-bg-2));
     transition: opacity var(--collapseTransition), --mask-bg-1 var(--darkTransition), --mask-bg-2 var(--darkTransition);

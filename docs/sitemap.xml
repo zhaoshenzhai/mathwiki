@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
-    <lastmod>2024-09-05T11:32:52-04:00</lastmod>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/graph/</loc>
+    <lastmod>2024-09-05T18:13:24-04:00</lastmod>
   </url><url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/lie_group/</loc>
-    <lastmod>2024-09-05T11:32:52-04:00</lastmod>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
+    <lastmod>2024-09-05T18:13:24-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
-    <lastmod>2024-09-05T11:32:52-04:00</lastmod>
+    <lastmod>2024-09-05T18:13:24-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
+    <lastmod>2024-09-05T18:13:24-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/lie_group/</loc>
     <lastmod>2024-09-05T11:32:52-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tangent_space/</loc>
