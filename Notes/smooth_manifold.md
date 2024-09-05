@@ -26,3 +26,5 @@ $$\begin{equation}
 is smooth as a map from an open subset of $\R^n$ to $\R^n$.
 
 {{< /env >}}
+
+**Remark.** We can weaken the compatibility condition by only requiring that the transitions maps be $C^k$ instead of smooth (which we write as $C^\infty$), leading to *$C^k$-manifolds*. In fact, many results only require $C^1$ or $C^2$, but we’ll work with *$C^\infty$-manifolds* for now.

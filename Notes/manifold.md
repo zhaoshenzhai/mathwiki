@@ -17,7 +17,11 @@ Let $n\in\N$. An *$n$-dimensional manifold* is a {{< link file="second_countable
 
 {{< /env >}}
 
-**Remark.** Since the topology on $\R^n$ is {{< link file="bases_for_topologies.md" display="generated" type="references" >}} by open balls, we may assume w.l.o.g. that $\phi(U)$ is itself an open ball in $\R^n$.
+Charts can be seen as giving *local-coordinates* to points in $M$: if $(U,\phi)$ is a chart, then there are *coordinate* maps $x^i\coloneqq\pi_i\circ\phi:U\to\R$ which assigns to to any $p\in U$ the tuple $(x^1(p),\dots,x^n(p))\in\R^n$, called the *local-coordinates* of $p$ w.r.t. $(U,\phi)$. Thus it is convenient to write $(U,x^1,\dots,x^n)$ for this chart, and say ‘$p=(p^1,\dots,p^n)$ in local-coordinates’.
+
+<div class="space"></div>
+
+## Examples of Manifolds
 
 # Topological Properties
 
