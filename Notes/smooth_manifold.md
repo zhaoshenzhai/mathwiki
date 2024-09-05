@@ -15,7 +15,7 @@ The theory of *smooth manifolds* gives an appropriate setting to do {{< link fil
 </div>
 <div class="space"></div>
 
-Indeed, the main property of $\R$ is that it is the unique{{< link file="real_number.md" type="justifications" mod="dag" id="Characterization of Reals" >}} {{< link file="dedekind_completeness.md" display="complete" type="references" >}} {{< link file="ordered_field.md" display="ordered" type="references" >}} {{< link file="field.md" display="field" type="references" >}}, which calculus is based on, so any such abstract notion must make contact with $\R$. We will consider ({{< link file="topological_space.md" display="topological" type="references" >}}) {{< link file="manifold.md" display="manifolds" type="references" >}} as the abstract spaces, which has charts that make contact with $\R$, so it remains to faithfully represent the smooth structure of $\R$.
+Indeed, the main property of $\R$ is that it is the unique{{< link file="real_number.md" type="justifications" mod="dag" id="characterization_of_reals" >}} {{< link file="dedekind_completeness.md" display="complete" type="references" >}} {{< link file="ordered_field.md" display="ordered" type="references" >}} {{< link file="field.md" display="field" type="references" >}}, which calculus is based on, so any such abstract notion must make contact with $\R$. We will consider ({{< link file="topological_space.md" display="topological" type="references" >}}) {{< link file="manifold.md" display="manifolds" type="references" >}} as the abstract spaces, which has charts that make contact with $\R$, so it remains to faithfully represent the smooth structure of $\R$.
 
 {{< env type="definition" >}}
 

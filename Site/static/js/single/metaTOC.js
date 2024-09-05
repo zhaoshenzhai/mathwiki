@@ -42,6 +42,7 @@ export function styleHeaders(resize) {
 }
 
 function styleH1(el, counter) {
+    el.setAttribute('innerText', el.innerText);
     el.classList.add('center');
     el.classList.add('h1Title');
     el.classList.add('noSelect');
@@ -107,9 +108,10 @@ function generateTOC() {
     }
 
     for(var [h1Index, [h1El, h2List]] of Object.entries(headers)) {
-        var h1TOC_ElPrefix = h1Index + '. '
-        var h1TOC_ElText = h1El ? h1El.getAttribute('id') : 'Introduction';
-        var h1TOC_El = generateTOCHeader(h1TOC_Headers, h1Index + '. ', h1TOC_ElText);
+        var h1TOC_ElPrefix = h1Index + '. ';
+        var h1TOC_ElText = h1El ? h1El.getAttribute('innerText') : 'Introduction';
+        var h1TOC_ElID = h1El ? h1El.getAttribute('id') : 'Introduction';
+        var h1TOC_El = generateTOCHeader(h1TOC_Headers, h1Index + '. ', h1TOC_ElText, h1TOC_ElID);
 
         var h2TOC_Headers = document.createElement('ol');
         h2TOC_Headers.classList.add('metaTOCListH2');
@@ -118,12 +120,13 @@ function generateTOC() {
         for (var h2Index = 0; h2Index < h2List.length; h2Index++) {
             var h2TOC_ElPrefix = h1Index + '.' + (h2Index + 1) + '. ';
             var h2TOC_ElText = trimHeaders(h2List[h2Index].innerText);
-            generateTOCHeader(h2TOC_Headers, h2TOC_ElPrefix, h2TOC_ElText);
+            var h2TOC_ElID = h2List[h2Index].getAttribute('id');
+            generateTOCHeader(h2TOC_Headers, h2TOC_ElPrefix, h2TOC_ElText, h2TOC_ElID);
         }
     }
 }
 
-function generateTOCHeader(headers, prefix, text) {
+function generateTOCHeader(headers, prefix, text, id) {
     var TOC_El = document.createElement('div');
     headers.appendChild(TOC_El);
 
@@ -132,7 +135,7 @@ function generateTOCHeader(headers, prefix, text) {
     TOC_Num.classList.add('noSelect');
 
     var TOC_Button = document.createElement('button');
-    TOC_Button.onclick = function () { goTo(text) };
+    TOC_Button.onclick = function () { goTo(id) };
     TOC_Button.classList.add('metaTOCButton');
     TOC_Button.classList.add('listenDark');
     TOC_Button.innerText = text;
