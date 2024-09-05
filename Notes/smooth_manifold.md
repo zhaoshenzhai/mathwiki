@@ -27,28 +27,55 @@ is smooth as a map from an open subset of $\R^n$ to $\R^n$.
 
 {{< /env >}}
 
-**Remark.** We can weaken the compatibility condition by only requiring that the transitions maps be $C^k$ instead of smooth (which we write as $C^\infty$), leading to *$C^k$-manifolds*. In fact, many results only require $C^1$ or $C^2$, but we’ll work with *$C^\infty$-manifolds* for now.
+**Remark.** The smooth structure is an *additional* piece of data that must be provided, and in general, there are many such choices.
 
 <div class="space"></div>
 
-## Smooth Functions and Maps
+## Smooth Maps
 
-Not only can we describe the smoothness of spaces, we can also determine whether a function $f:M\to\R$ or a map $F:M\to N$ is smooth; this allows us to define a notion of ‘derivatives’ of those maps.
+We would like to ‘lift’ the notion of smoothness of maps $f:\R^n\to\R^m$ to manifolds. By design, this can only be done by testing $f:M\to N$, for manifolds $M,N$, against charts:
 
 {{< env type="definition" >}}
 
-Let $M$ be a smooth manifold. A function $f:M\to\R$ is *smooth* if for every $p\in M$, there is a chart $(U,\phi)\ni p$ of $M$ such that the composite $f\circ\phi^{-1}:\phi(U)\to\R$ is smooth.
+Let $M,N$ be smooth manifolds. A map $f:M\to N$ is *smooth* if for every $p\in M$, there are charts $(U,\phi)\ni p$ of $M$ and $(V,\psi)\ni f(p)$ of $N$ with $f(U)\subseteq V$, such that the composite $\psi\circ f\circ\phi^{-1}:\phi(U)\to\psi(V)$ is smooth.
 
 {{< /env >}}
 
-**Remark.** This definition is ‘independent of charts’, in the sense that if $f\circ\phi^{-1}$ is smooth and $(U',\phi')$ is another chart around $p$, then $f\circ\phi'^{-1}$ is also smooth since $f\circ\phi'^{-1}=f\circ(\phi^{-1}\circ\phi)\circ\phi'^{-1}=(f\circ\phi^{-1})\circ(\phi\circ\phi'^{-1})$; that the transition map is smooth is *stipulated* as part of the smooth structure of $M$. In this sense, all local properties of $f$ boil down to checking it for its coordinate representation $f\circ\phi^{-1}$ and ensuring that it is preserved under chart transition maps.
+With morphisms as smooth maps, smooth manifolds form a {{< link file="category" display="category" type="references" >}}, denoted by $\catman$ or $C^\infty$.
 
 <div class="space"></div>
 
-&emsp;&emsp;The same game can be played to show that the following definition is independent of charts too.
+**Remark.** This definition is ‘independent of charts’, in the sense that if $\psi_1\circ f\circ\phi_1^{-1}$ is smooth and $(U_2,\phi_2)\ni p$ and $(V_2,\psi_2)\ni f(p)$ are other charts of $M$ and $N$ with $f(U_2)\subseteq V_2$, then $\psi_2\circ f\circ\phi_2^{-1}$ is also smooth.
 
-{{< env type="definition" >}}
+>{{< env type="proof" hide="true" >}}
 
-Let $M,N$ be smooth manifolds. A map $F:M\to N$ is *smooth* if for every $p\in M$, there are charts $(U,\phi)\ni p$ of $M$ and $(V,\psi)\ni F(p)$ of $N$ with $F(U)\subseteq V$, such that the composite $\psi\circ F\circ\phi^{-1}:\phi(U)\to\psi(V)$ is smooth.
+Indeed, we have
+$$\begin{equation}
+    \psi_2\circ f\circ\phi_2^{-1}=\psi_2\circ(\psi_1^{-1}\circ\psi_1)\circ f\circ(\phi_1^{-1}\circ\phi_1)\circ\phi_2^{-1}=(\psi_2\circ\psi_1^{-1})\circ(\psi_1\circ f\circ\phi_1^{-1})\circ(\phi_1\circ\phi_2^{-1}),
+\end{equation}$$
+
+{{< tikz name="smooth_maps_chart_transition" width="500" >}}
+\begin{equation*}
+    \begin{tikzcd}
+        \R^n \ar[dd, "\phi_2\circ\phi_1^{-1}"'] & & & \R^m \ar[dd, "\psi_2\circ\psi_1^{-1}"] \\
+        & M \ar[r, "f"] \ar[ul, "\phi_1"'] \ar[dl, "\phi_2"] & N \ar[ur, "\psi_1"] \ar[dr, "\psi_2"'] & \\
+        \R^n & & & \R^m
+    \end{tikzcd}
+\end{equation*}
+{{< /tikz >}}
+
+and the latter is smooth since $\psi_1\circ f\circ\phi_1^{-1}$ is and transitions maps are *stipulated* to be smooth to begin with. Symbolically, this computation is very similar to the {{< link file="free_module.md" display="change of basis" type="references" section="Change of Basis" >}} formula from linear algebra.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
+
+In this sense, all local properties of $f$ boil down to checking it for its coordinate representation $\hat{f}\coloneqq\psi\circ f\circ\phi^{-1}$ and ensuring that it is preserved under chart transition maps. This illustrates the basic philosophy of smooth manifold theory.
+
+<div class="space"></div>
+
+&emsp;&emsp;The set of all smooth maps $f:M\to N$ is denoted by $C^\infty(M,N)$. With $N\coloneqq\R$ equipped with the standard smooth structure, we let $C^\infty(M)\coloneqq C^\infty(M,\R)$, which is a commutative $\R$-{{< link file="algebra" display="algebra" type="references" >}} under pointwise multiplication.
+
+<div class="space"></div>
+
+## Sheaf of Smooth Functions
+
+# Tangent Spaces
