@@ -99,7 +99,7 @@ function newMetaLink(link) {
     var metaLink = document.createElement('a');
 
     metaLinkContainer.appendChild(metaLink);
-    metaLink.setAttribute('href', link.href);
+    metaLink.setAttribute('href', link.href.replace(/.md/, ''));
     metaLink.onclick = function (e) {
         if (metaLink.classList.contains('ghostLink')) {
             e.preventDefault();
@@ -107,13 +107,16 @@ function newMetaLink(link) {
     };
 
     var title = link.getAttribute('title');
-    if (!title) { title = link.href.replace(/.*\//, ''); }
+    if (!title) {
+        title = link.href
+            .replace(/.*mathwiki\//, '').replace(/.md.*/, '');
+    }
 
     var mathLink = link.getAttribute('mathLink');
     if (mathLink) { title = mathLink; }
 
-    var sectionTitle = link.getAttribute('section');
-    if (sectionTitle) { title += (' | ' + sectionTitle); }
+    var secDisplay = link.getAttribute('secDisplay');
+    if (secDisplay) { title += (' | ' + secDisplay); }
 
     metaLink.innerText = title;
 
