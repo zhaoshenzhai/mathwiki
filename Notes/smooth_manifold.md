@@ -78,4 +78,6 @@ In this sense, all local properties of $f$ boil down to checking it for its coor
 
 ## Sheaf of Smooth Functions
 
-# Tangent Spaces
+<span style="color:red">**TODO** (sheafs, stalks, germs, soft sheafs and POU, etc...).</span>
+
+# {{< link file="tangent_space.md" display="Tangent Spaces" type="constructions" >}} & Linearization
