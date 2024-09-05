@@ -25,9 +25,26 @@ window.searchItemActive = searchItemActive;
 
 // Fetch from localStorage; if DNE, fetch from allFiles
 document.addEventListener('DOMContentLoaded', (e) => {
-    var recentFiles = localStorage['recentFiles'];
-    if (recentFiles) {
-        var allFiles = JSON.parse(recentFiles);
+    // var recentFiles = localStorage['recentFiles'];
+    // if (recentFiles) {
+    //     var allFiles = JSON.parse(recentFiles);
+    //     var curPath = getBasePath(window.location.pathname);
+    //     var curFileIndex = allFiles.findIndex(x => x.relPath == curPath);
+
+    //     allFiles.unshift(allFiles.splice(curFileIndex, 1)[0]);
+    //     allFilePaths = allFiles.map((x) => x.relPath);
+    //     allFileTitles = allFiles.map((x) => x.title);
+    //     searchEngine = new Fuse(allFiles, searchOptions);
+
+    //     localStorage.setItem('recentFiles', JSON.stringify(allFiles));
+    // } else {
+    fetch('/mathwiki/allFiles.json').then(response => response.json())
+    .then((data) => {
+        // recentFiles = JSON.stringify(data)
+        // localStorage.setItem('recentFiles', recentFiles);
+
+        // var allFiles = JSON.parse(recentFiles);
+        var allFiles = data;
         var curPath = getBasePath(window.location.pathname);
         var curFileIndex = allFiles.findIndex(x => x.relPath == curPath);
 
@@ -35,14 +52,8 @@ document.addEventListener('DOMContentLoaded', (e) => {
         allFilePaths = allFiles.map((x) => x.relPath);
         allFileTitles = allFiles.map((x) => x.title);
         searchEngine = new Fuse(allFiles, searchOptions);
-
-        localStorage.setItem('recentFiles', JSON.stringify(allFiles));
-    } else {
-        fetch('/mathwiki/allFiles.json').then(response => response.json())
-        .then((data) => {
-            localStorage.setItem('recentFiles', JSON.stringify(data));
-        });
-    }
+    });
+    // }
 });
 
 export function searchInit() {

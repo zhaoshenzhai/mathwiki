@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-One way to measure the ‘complexity’ of a {{< link file="topological_space" display="topological space" type="references" >}} is to limit the {{< link file="cardinal" display="cardinality" type="references" >}} of {{< link file="bases_for_topologies" display="bases" type="references" >}} thereof, and since the most important cardinal is $\aleph_0$, we make the following
+One way to measure the ‘complexity’ of a {{< link file="topological_space" display="topological space" type="references" >}} is to limit the {{< link file="cardinal" display="cardinality" type="references" >}} of {{< link file="bases_for_topologies" display="bases" type="references" >}} thereof, and since the most important cardinal is probably $\aleph_0$, we make the following
 
 {{< env type="definition" >}}
 
