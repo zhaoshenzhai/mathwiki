@@ -189,6 +189,12 @@ function formatHeader(header, type) {
     }
 
     container.appendChild(wrapper);
+
+    if (type == 'H2') {
+        var h2BotSpace = document.createElement('div');
+        h2BotSpace.classList.add('space');
+        container.parentElement.insertBefore(h2BotSpace, container);
+    }
 }
 
 function formatHeaderHelper(header, wrapper, curEl, type) {

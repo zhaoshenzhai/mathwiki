@@ -70,6 +70,14 @@
         <span class="collapsibleContent">If $u,v\in V$ are distinct vertices joined by a walk in $G$, we can choose a minimal (i.e. shortest) walk $(v_i)_{i\leq n}$ in $G$ joining $u,v$. This walk then contains a path from $u$ to $v$, since if $v_i=v_j$ for some $i&lt;j$, then $(v_0,\dots,v_i,v_{j+1},\dots,v_n)$ is a walk of shorter length, contra dicing our choice of walk.<span style="float:right;">$\blacksquare$</span></span></div>
 
 <div class="space"></div>
+<p>  An easy characterization is that $G$ is disconnected iff there is a pairwise non-adjacent partition $V=X\sqcup Y$.</p>
+<blockquote>
+<div class="collapsibleContainer" id=""><i class="proofHeader collapsibleHeaderButton collapsibleHeader noSelect hide">Proof.</i><span class="collapsibleHintText noSelect"><i> Click to expand...</i></span>
+
+        <span class="collapsibleContent">Suppose that such a partition $V=X\sqcup Y$ exists and fix and $u\in X$ and $v\in Y$. If $(v_i)_{i\leq n}$ is a walk from $v_0\coloneqq u$ to $v_1\coloneqq v$, then there is a minimal $0&lt;i\leq n$ with $v_i\in Y$, and hence $v_{i-1}v_i\in E$ is an $X\!-\!Y$ edge. Conversely, pick $u,v\in V$ not joined by any walk in $G$ and let $X$ be the set of all vertices reachable from $x$ via walks (or, equivalently, let $X$ be the connected component containing $x$). Setting $Y\coloneqq V\comp X$ gives us the desired partition $V=X\sqcup Y$.<span style="float:right;">$\blacksquare$</span></span></div>
+
+</blockquote>
+<div class="space"></div>
 <h2 id="simplicial-characterization">Simplicial Characterization</h2>
 <div class="space"></div>
 <h2 id="connectivity">Connectivity</h2>

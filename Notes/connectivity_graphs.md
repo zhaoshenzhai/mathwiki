@@ -13,8 +13,6 @@ tags: [In_Progress]
 
 &emsp;&emsp;More graph-theoretically, there is a notion of *$k$-connectivity* for $k\in\N$, which is a measure of how ‘strongly’ connected a graph is; the $1$-connected graphs will be the (non-trivial) connected ones. In general, $k$-connectivity is much more complicated.
 
-<div class="space"></div>
-
 ## Paths and Walks
 
 Let $G\coloneqq(V,E)$ be a simple graph. A *path* in $G$ is a subgraph $P\subseteq G$ of the form $V(P)=\l\\{v_0,\dots,v_n\r\\}$ and $E(P)\coloneqq\l\\{v_0v_1,v_1v_2,\dots,v_{n-1}v_n\r\\}$, where each $v_i\in V$ are all distinct. Note that any path $P$ determines a sequence of vertices $(v_i)_{i\leq n}$.
@@ -35,8 +33,6 @@ If $u,v\in V$ are distinct vertices joined by a walk in $G$, we can choose a min
 
 {{< /env >}}
 
-<div class="space"></div>
-
 &emsp;&emsp;An easy characterization is that $G$ is disconnected iff there is a pairwise non-adjacent partition $V=X\sqcup Y$.
 
 > {{< env type="proof" hide="true" >}}
@@ -45,11 +41,7 @@ Suppose that such a partition $V=X\sqcup Y$ exists and fix and $u\in X$ and $v\i
 
 {{< /env >}}
 
-<div class="space"></div>
-
 ## Simplicial Characterization
-
-<div class="space"></div>
 
 ## Connectivity
 
