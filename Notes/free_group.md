@@ -28,6 +28,4 @@ In other words, $(F(X),j)$ is the universal arrow from $X$ to $U$, and is thus u
 
 ## Classes of Words
 
-<div class="space"></div>
-
 ## Reduced Words

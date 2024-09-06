@@ -20,8 +20,6 @@ $$\begin{equation}
 
 **Remark.** Note that although many rings arise as $\End(G)$ for some abelian group $G$, they do not exhaust all rings; a counterexample is the ring $\Z/2\Z\times\Z/2\Z$, or the family of rings $\F_{p^2}$ for $p$ prime (the latter are {{< link file="finite_field.md" display="finite fields" type="references" >}}). See, however, {{< link file="cayleys_theorem.md" display="Cayley’s Theorem" type="properties" >}} for rings, which states that every ring $R$ is a *{{< link file="subring.md" display="subring" type="constructions" >}}* of $\End(R)$, where $R$ is its underlying abelian group.
 
-<div class="space"></div>
-
 &emsp;&emsp;The relevant structure-preserving maps for rings are as follows.
 
 {{< env type="definition" >}}
@@ -49,8 +47,6 @@ If $rs=1$ for some $s\in R$ and $t\in R$, then $r(st)=(rs)t=t$. If not, then $1$
 {{< /env >}}
 
 Thus one should be careful in the arithmetic of rings, but those pitfalls will be eliminated in special types of rings (namely, {{< link file="integral_domain.md" display="integral domains" type="references" >}} and {{< link file="division_ring.md" display="division rings" type="references" >}}, respectively).
-
-<div class="space"></div>
 
 <h2 id="category_of_rings">The {{< link file="category.md" display="Category" type="references" >}} of Rings</h2>
 
@@ -82,4 +78,4 @@ Beyond the generalities above, much more can be said about specific types of rin
 * {{< link file="division_ring.md" display="Division rings" type="types" >}} are those in which every non-zero element is invertible. {{< link file="wedderburns_little_theorem.md" display="Wedderburn’s Little Theorem" type="properties" >}} states that all *finite* division rings are commutative, so they are finite fields.
 * The most special rings are {{< link file="field.md" display="fields" type="types" >}}, which are commutative division rings, whose {{< link file="galois_theory.md" display="Galois theory" type="references" >}} kicked-off abstract algebra and led to the definition of groups.
 
-## Monoid Objects
+<h2 class="noSpace">Monoid Objects</h2>

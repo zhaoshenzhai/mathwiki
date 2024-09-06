@@ -14,12 +14,9 @@ tags: [In_Progress]
 
 {{< /env >}}
 
-
 # Concrete Descriptions of (Co)limits
 
 ## Products/Coproducts
-
-<div class="space"></div>
 
 <h2 id="kernels_cokernels">Kernels/Cokernels</h2>
 

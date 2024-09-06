@@ -28,8 +28,6 @@ The set $G$ is the set of ‘abstract transformations’ as described above. How
 
 &emsp;&emsp;In fact, *every* group arises this way{{< link file="group.md" type="references" secID="groupoid" secDisplay="Groupoid" mod="dag" >}} (as a concrete group) from the category $\cat{B}G$, but not all groups arise as automorphism groups of a set; see, however, {{< link file="cayleys_theorem.md" display="Cayley’s Theorem" type="properties" >}}, which states that every group is a *{{< link file="subgroup.md" display="subgroup" type="constructions" >}}* of an automorphism group of a set.
 
-<div class="space"></div>
-
 &emsp;&emsp;The relevant structure-preserving maps for groups are as follows.
 
 {{< env type="definition" >}}
@@ -39,8 +37,6 @@ A function $f:G\to H$ between groups is a *homomorphism* if $f(g_1\cdot g_2)=f(g
 {{< /env >}}
 
 Note that this implies that $f(e_G)=e_H$ and that $f(g^{-1})=f(g)^{-1}$ for all $g\in G$.
-
-<div class="space"></div>
 
 ## The Category of Groups
 
@@ -54,8 +50,6 @@ With homomorphisms as morphisms, groups form a category $\catgrp$. This category
 
 Due to the vastness of the definition, groups are incredibly hard to study. Nevertheless, there are some common methods of attack that can yield very fruitful results and insights.
 
-<div class="space"></div>
-
 ## {{< link file="group_action.md" display="Group Actions" type="constructions" >}}
 
 Perhaps the most important technique to study a group is by allowing it to act on a set, or, more generally, on objects in some other category.
@@ -65,8 +59,6 @@ Perhaps the most important technique to study a group is by allowing it to act o
 &emsp;&emsp;Indeed, as groups are abstract manifestations of symmetries, it is natural to consider an object $X$ and consider a group homomorphism $\phi:G\to\Aut X$, which reflects how to group manifests itself as concrete automorphisms (i.e. *symmetries*) of $X$.
 
 > Groups, as men, will be known by their actions. <span style="float:right;">$-$ Guillermo Moreno</span>
-
-<div class="space"></div>
 
 ## {{< link file="group_extension.md" display="Group Extensions" type="constructions" >}}
 
@@ -82,8 +74,6 @@ The simplest groups, and possibly the most important groups, are the {{< link fi
 
 &emsp;&emsp;Groups can also arise as the {{< link file="group_of_units.md" display="group of units" type="examples" >}} of a {{< link file="ring.md" display="ring" type="references" >}}.
 
-<div class="space"></div>
-
 ## Types of Groups
 
 Beyond the generalities above, much more can be said about specific types of groups.
@@ -91,7 +81,7 @@ Beyond the generalities above, much more can be said about specific types of gro
 * {{< link file="finitely_generated_group.md" display="Finitely-generated groups" type="types" >}} are very geometric in nature, and are mostly studied in the context of {{< link file="geometric_group_theory.md" display="Geometric Group Theory" type="references" >}}.
 * {{< link file="abelian_group.md" display="Abelian groups" type="types" >}} vary wildly in behavior. Finitely-generated ones are completely classified via the {{< link file="structure_theorem_for_fg_modules_over_pid.md" display="Structure Theorem" type="references" >}}, but in general, their structure depends very heavily of set-theoretic properties.
 
-## Structures on Groups
+<h2 class="noSpace">Structures on Groups</h2>
 
 One may also equip groups with additional structure, which leads to much richer theories. Some important examples are {{< link file="topological_group.md" display="topological groups" type="structures" >}}, {{< link file="lie_group.md" display="Lie groups" type="structures" >}}, and {{< link file="algebraic_groups.md" display="algebraic groups" type="structures" >}}.
 
@@ -105,10 +95,6 @@ Many groups arise as the automorphism group of some object $X$. In fact, this is
 
 &emsp;&emsp;Given a group $G$, consider the category $\cat{B}G$ consisting of a single object $\ast$, and, for each $g\in G$, a morphism $g:\ast\to\ast$. The identity in $\cat{B}G$ is the identity element $e\in G$, and composition is given by the group operation. Since every $g\in G$ admits an inverse $g^{-1}\in G$, we see that every morphism is invertible, and so $G=\Aut\ast$.
 
-<div class="space"></div>
-
 **Remark.** Note that a homomorphism $G\to H$ is a functor $\cat{B}G\to\cat{B}H$, and that a $G$-action on a category $C$ is a functor $\cat{B}G\to C$.
-
-<div class="space"></div>
 
 Generalizing this idea, we say that a category $C$ is a *groupoid* if each morphism is invertible. Thus, after identifying $G$ with $\cat{B}G$, a group is nothing but a groupoid with a single object. Without requiring that all morphisms be invertible $-$ that is, just considering a category with a single object $-$ we recover the notion of a {{< link file="monoid.md" display="monoid" type="generalizations" >}}.

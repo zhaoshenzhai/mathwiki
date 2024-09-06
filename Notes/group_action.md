@@ -17,8 +17,6 @@ Let $G$ be a group and fix a {{< link file="category.md" display="category" type
 
 Thus a group action is specified by the data of a tuple $\tpl{X,\phi}$, which we usually write as $\phi:G\act X$, and write $\phi_g(x)\coloneqq\phi(g)(x)$. The object $X$ is the ‘concrete object’, and $\phi$ encodes how $G$ manifests itself as $\Aut X$, the symmetries of $X$. Note, however, that $\phi$ need not be injective; we say that the action is *faithful* if it is, so that $G\into\Aut X$. Otherwise, $Z\coloneqq\ker\phi$ is non-trivial.
 
-<div class="space"></div>
-
 ## Basic Notions
 
 For $C$ a concrete category (e.g. $\catset,\catvect[k],\cattop,\dots$), there are some important constructions.
@@ -30,8 +28,6 @@ Note that the orbits form a partition $X=\bigsqcup_iGx_i$ and $G\act Gx_i$ for e
 <br>
 
 &emsp;&emsp;A stronger criteria than faithfulness is when $G_x$ is trivial for *all* $x\in X$, in which case we say that $\phi$ is *free*. While the former has no *global* fixed points ($\fa g\in G(\fa x\in X:gx=x)\rightarrow g=e$), free actions admit no *local* ones ($\fa g\in G(\ex x\in X:gx=x)\rightarrow g=e$).
-
-<div class="space"></div>
 
 ## The Category $C^G$
 

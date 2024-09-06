@@ -34,8 +34,6 @@ A function $f:(X,\mc{T}_X)\to(Y,\mc{T}_Y)$ is *continuous* if for any $V\in\mc{T
 
 That is, $f$ is continuous if ‘preimages of open sets are open’.
 
-<div class="space"></div>
-
 ## Basic Notions
 
 Topology comes with it a baggage of jargon; a (non-exhaustive) list include the {{< link file="closure_topology.md" display="closure" type="constructions" >}} and {{< link file="interior_topology.md" display="interior" type="constructions" >}} of a subset $A\subseteq X$; its {{< link file="accumulation_point.md" display="accumulation" type="constructions" >}}, {{< link file="limit_point.md" display="limit" type="constructions" >}}, {{< link file="cluster_point.md" display="cluster" type="constructions" >}}, and {{< link file="boundary.md" display="boundary" type="constructions" >}} points; and whether it is {{< link file="dense_topology.md" display="dense" type="constructions" >}} or {{< link file="nowhere_dense.md" display="nowhere dense" type="constructions" >}}. They can also be generated (i.e., completely determined) by smaller collections of open sets thereof, via {{< link file="bases_for_topologies.md" display="(sub)bases" type="sufficiencies" >}}.
@@ -44,13 +42,9 @@ Topology comes with it a baggage of jargon; a (non-exhaustive) list include the 
 
 &emsp;&emsp;More importantly, topological spaces allow us to speak of {{< link file="convergence.md" display="convergence" type="constructions" >}}, which can be phrased in terms of {{< link file="convergence.md" display="nets" type="references" secID="nets" secDisplay="Nets" >}}/{{< link file="filter.md" display="filters" type="references" >}}. For ‘nice’ spaces (e.g. metric spaces), it can be rephrased using just sequences.
 
-<div class="space"></div>
-
 <h2 id="the_category_top">The Category $\cattop$</h2>
 
 With continuous functions as morphisms, topological spaces form a {{< link file="category.md" display="category" type="references" >}} $\cattop$; by convention, isomorphisms in $\cattop$ are called *homeomorphisms* (which are not{{< link file="continuous_bijection_homeomorphism.md" type="justifications" mod="dag" >}} merely bijective continuous functions). Most importantly, $\cattop$ is{{< link file="cattop_is_complete.md" type="justifications" mod="dag" >}} {{< link file="complete_(category_theory).md" display="complete" type="references" >}}, witnessed by the standard constructions of products, coproducts, subobjects, and quotients.
-
-<div class="space"></div>
 
 <h2 class='hide' id="open_iff_semi-decidable">Open $\Leftrightarrow$ Semi-decidable</h2>
 

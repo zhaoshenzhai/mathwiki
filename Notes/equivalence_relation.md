@@ -22,8 +22,6 @@ We usually write $xEy$ for $(x,y)\in E$ instead.
 
 For every $x\in X$, we have its *equivalence class* $[x]_E\coloneqq\l\\{y\in X\st xEy\r\\}$. More generally, the *saturation* of $A\subseteq X$ is the union $[A]\_E\coloneqq\bigcup\_{x\in A}[x]\_E$. Subsets $I\subseteq X$ that are the union of equivalence classes $-$ or equivalently, $I=[I]_E$ $-$ are said to be *$E$-invariant*.
 
-<div class="space"></div>
-
 ## Partitions
 
 Equivalence relations on $X$ are in correspondence with *partitions* of $X$, which are families $\mc{P}\subseteq2^X$ of non-empty disjoint subsets of $X$ with $\bigsqcup\mc{P}=X$.
@@ -31,8 +29,6 @@ Equivalence relations on $X$ are in correspondence with *partitions* of $X$, whi
 <br>
 
 &emsp;&emsp;Indeed, if $E$ is an equivalence relation on $X$, then $\mc{P}_E\coloneqq\l\\{[x]_E\subseteq X\st x\in X\r\\}$ is a partition of $X$. Conversely, given a partition $\mc{P}$ on $X$, the relation $E$, defined by $xEy$ iff $x,y\in P$ for some $P\in\mc{P}$, is an equivalence.
-
-<div class="space"></div>
 
 ## {{< link file="quotient_set.md" display="Quotient Set" type="constructions" >}}
 
@@ -45,8 +41,6 @@ Given an equivalence $E$ on $X$, we would like to construct some set $X/E$ where
 # Examples and Generalizations
 
 ## {{< link file="groupoid.md" display="Groupoid" type="generalizations" >}}
-
-<div class="space"></div>
 
 ## {{< link file="congruence_relation.md" display="Congruence Relation" type="types" >}}
 

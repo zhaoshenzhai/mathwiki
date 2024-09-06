@@ -28,22 +28,14 @@ Similarly, a *limit* of $F$ is a universal arrow $(t,v)$ from $\Delta$ to $F$.
 
 ## Representable Functors
 
-<div class="space"></div>
-
 ## Universal Elements
 
 # Examples
 
 ## (Co)products
 
-<div class="space"></div>
-
 ## (Co)equalizers
 
-<div class="space"></div>
-
 ## Fibered (Co)products
-
-<div class="space"></div>
 
 ## Directed (Co)limits

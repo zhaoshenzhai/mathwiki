@@ -33,8 +33,6 @@ A function $f:M\to N$ between $R$-modules is an *$R$-module homomorphism* if it 
 
 In the case when $k\coloneqq R$ is a {{< link file="field.md" display="field" type="references" >}}, $k$-modules are called *{{< link file="vector_space.md" display="$k$-vector spaces" type="references" >}}* and $k$-vector space homomorphisms are called *$k$-linear maps*.
 
-<div class="space"></div>
-
 ## The Category $\catmod[R]$
 
 With $R$-module homomorphisms as morphisms, left-$R$-modules form a category $\catmod$. There is also have another category $\catrmod$ with *right*-$R$-modules. Either way, those two categories are complete and cocomplete, as witnessed by the standard constructions of biproducts, kernels, cokernels, subobjects, and quotients.
@@ -51,8 +49,6 @@ This refers primarily to the study of $k$-vector spaces for $k$ a field, but man
 * If $R$ is a field, then every $R$-module is free. In fact, an {{< link file="integral_domain.md" display="integral domain" type="references" >}} $R$ is a field iff every $R$-module is free.
 * If $R$ is
 
-<div class="space"></div>
-
 ## Homological Algebra
 
 <span style="color:red">**TODO**.</span>
@@ -62,8 +58,6 @@ This refers primarily to the study of $k$-vector spaces for $k$ a field, but man
 ## Conditions on $R$
 
 <span style="color:red">**TODO**.</span>
-
-<div class="space"></div>
 
 ## Types of Modules
 

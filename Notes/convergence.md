@@ -37,8 +37,6 @@ One might hope to probe topological properties of $X$ (like compactness, continu
 
 The two most common approaches towards such a generalization are nets and filters, which are basically equivalent $-$ in that one can be defined from the other $-$ but it is worthwhile to understand both. For both of these generalizations, the neighborhoods $\mc{N}_x$ of a point $x\in X$, and there bases, play a fundamental role.
 
-<div class="space"></div>
-
 <h2 id="nets">Nets</h2>
 
 One approach to replace $\N$ in the definition of sequential-convergence to an arbitrary directed set, which we call a *net*.
@@ -63,8 +61,6 @@ If $\mc{N}_x$ admits a countable base $\mc{B}_x\subseteq\mc{N}_x$ $-$ which can 
 
 &emsp;&emsp;Despite this simple generalization, the topology of $X$ is completely determined in terms of the convergence of nets in $X$. This is outlined here{{< link file="topology_using_nets.md" type="properties" mod="dag" >}}.
 
-<div class="space"></div>
-
 ## Filters
 
 Since pairwise-intersections of open sets are open, neighborhood bases of $\mc{N}_x$ are just filter bases thereof. Thus, we can compare it to other filters.
@@ -80,7 +76,5 @@ A filter $\mc{F}$ in $X$ is said to *converge* to some $x\in X$ $-$ and write $\
 {{< /env >}}
 
 **Remark.** One can replace ‘filter’ by ‘prefilter’ by passing to its generated filter.<span style="float:right;">$\blacklozenge$</span>
-
-<div class="space"></div>
 
 &emsp;&emsp;To connect this definition back with sequences, we need to consider *{{< link file="filter.md" display="push-forward" type="references" secID="Push Forward" >}}* of filters. Then, equipping $\N$ with the Fréchet filter $\mc{F}_0$, we see that a sequence $x\_\blob\to x$ in the sense of sequences iff $x\_\blob(\mc{F}\_0)\to x$ in the sense of filters.

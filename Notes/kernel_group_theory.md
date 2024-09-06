@@ -12,11 +12,7 @@ A special property of the {{< link file="category.md" display="category" type="r
 
 &emsp;&emsp;For an arbitrary homomorphism $f:G\to H$, we would like to find some group $K$ that ‘forces’ $f$ to ‘equalize’ with $0$ in a {{< link file="universal_constructions.md" display="universal" type="references" >}} way. This can be done in two (dual) ways, called the *kernel* and *cokernel* of $f$.
 
-<div class="space"></div>
-
 **Remark.** <span style="color:red">**TODO** (kernels as equalizers).</span>
-
-<div class="space"></div>
 
 ## Kernel
 
@@ -33,8 +29,6 @@ Clearly, $\iota:\ker f\to G$ composes with $f$ to the trivial map. It is moreove
 <br>
 
 &emsp;&emsp;Kernels of homomorphisms are very special subgroups, in that they correspond precisely to the {{< link file="normal_subgroup.md" display="normal" type="equivalences" >}} ones.
-
-<div class="space"></div>
 
 <h2 id="cokernel">Cokernel</h2>
 

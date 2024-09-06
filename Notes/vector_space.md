@@ -21,8 +21,6 @@ A *$k$-vector space* is a $k$-module where $k$ is a field. Explicitly, it is an 
 
 Since every result about $R$-modules holds for $k$-vector spaces, we will not repeat them here. Instead, we will point out some instances where the assumption that $k$ is a field is crucial, starting with the existence of bases.
 
-<div class="space"></div>
-
 <h2 id="existence_of_bases">Existence of Bases</h2>
 
 The ‘*fundamental theorem of vector spaces*’ is the existence of bases, making all vector spaces {{< link file="free_module.md" display="free modules" type="references" >}}:

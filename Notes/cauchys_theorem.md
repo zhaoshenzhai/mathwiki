@@ -25,8 +25,6 @@ In fact, more is true, and $G$ has a subgroup of order $p^i$ for *every* $i\leq 
 
 Ultimately, all proofs of Cauchy’s Theorem that I know of boils down to {{< link file="fixed_point_theorems_of_p_groups.md" display="fixed-point theorems" type="references" >}} of {{< link file="p_group.md" display="$p$-groups" type="references" >}} or by directly applying the {{< link file="the_class_equation.md" display="Class Equation" type="references" >}}.
 
-<div class="space"></div>
-
 ## {{< link file="abelian_group.md" display="Abelian" type="references" >}} $\rightsquigarrow$ {{< link file="conjugation_action.md" display="Center" type="references" >}}
 
 We first prove the theorem in the abelian case, in order to apply it to the center $Z(G)$ and induct via the Class Equation.
@@ -47,13 +45,9 @@ $$\begin{equation}
 \end{equation}$$
 where $A\subseteq G$ contain exactly the elements with non-trivial conjugacy class. Since $p$ divides $|G|$ but not $|Z(G)|$, this furnishes some $a\in A$ such that $p\ndivides[G:Z_G(a)]$, so $p$ divides $|Z_G(a)|$. Finally, since $a\not\in Z(G)$, the subgroup $Z_G(a)\substruct G$ is proper, so we are done by induction.<span style="float:right;">$\blacksquare$</span>
 
-<div class="space"></div>
-
 ## Cyclic {{< link file="group_action.md" display="Actions" type="references" >}}
 
 We present a more direct proof of Cauchy’s Theorem using the technology of group actions.
-
-<div class="space"></div>
 
 {{< env type="proof" hide="false" >}}
 

@@ -9,8 +9,6 @@ tags: [Group_Theory/Later]
 
 Whenever one encounters a type of mathematical object, one should ask if there is an associated ‘representation theorem’.
 
-<div class="space"></div>
-
 <h2 id="groups">Groups</h2>
 
 Such a theorem for {{< link file="group.md" display="groups" type="references" >}} is as follows.
@@ -27,8 +25,6 @@ We show that the left-multiplication {{< link file="group_action.md" display="ac
 
 {{< /env >}}
 
-<div class="space"></div>
-
 ## Cayley Graph
 
 We can refine this result if $G$ is finitely-generated and obtain a geometric result.
@@ -44,8 +40,6 @@ Every finitely-generated group is a subgroup of the symmetries of a connected lo
 <span style="color:red">**TODO**.</span>
 
 {{< /env >}}
-
-<div class="space"></div>
 
 <h2 id="rings">Rings</h2>
 

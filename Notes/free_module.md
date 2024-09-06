@@ -17,8 +17,6 @@ An $R$-module is said to be *free* if it admits a basis, i.e., if there is an is
 
 A choice of a particular basis $B\subseteq M$ thus amounts to a choice of a particular isomorphism $M\iso R^{\oplus B}$. The good news is that we can understand $\Hom(M_1,M_2)$ for free modules $M_1,M_2$ by understanding $\Hom(R^{\oplus B_1},R^{\oplus B_2})$ instead, since they are isomorphic; the bad news is that this isomorphism is *not canonical* since it depends on the identifications $M_i\iso R^{\oplus B_i}$.
 
-<div class="space"></div>
-
 ## Invariant Basis Number
 
 If $M\iso R^{\oplus B}$ is a free module and $R$ is *commutative* ring, this $B$ is determined up to a bijection, and its cardinal is called the *rank* $\rk_RM$ of $M$. In general, rings in which this holds are said to have the *invariant basis number* property.
@@ -43,8 +41,6 @@ Since $\mf{m}(R^A/\mf{m}R^A)=0$, this makes $R^A/\mf{m}R^A$ into a $k$-vector sp
 
 We now focus on the {{< link file="category.md" display="category" type="references" >}} of *finitely-generated* free $R$-modules over a commutative ring $R$. After identifying each such $R$-module $M$ with $R^n$ for some $n\in\N$, we see that $\Hom(M_1,M_2)\iso\Hom(R^n,R^m)$. Thus, the study of $\Hom(M_1,M_2)$ reduces to $\Hom(R^n,R^m)$ *and* also how the situation changes when we change bases for $M_i$.
 
-<div class="space"></div>
-
 ## Matrices
 
 An important observation is that each morphism $f\in\Hom(R^n,R^m)$ can uniquely be determined by an $m\times n$ grid of elements $r_{ij}\in R$, called a *matrix*. The set of $m\times n$ matrices is denoted by $\mc{M}_{m\times n}(R)$ or $\mc{M}_n(R)$ when $m=n$, and the bijection
@@ -65,8 +61,6 @@ We provide the inverse function, so let $(r_{ij})\in\mc{M}\_{m\times n}(R)$ be a
 {{< /env >}}
 
 This also induces a *matrix multiplication* operation $\mc{M}\_{m\times n}(R)\times\mc{M}\_{n\times p}(R)\to\mc{M}\_{m\times p}(R)$, corresponding to composition of morphisms.
-
-<div class="space"></div>
 
 <h2 id="change_of_basis">Change of Basis</h2>
 

@@ -25,8 +25,6 @@ If $\mf{a}\nsubgrpeq R$ is an ideal, then $\ast$ is well-defined since $\sim$ re
 
 {{< /env >}}
 
-<div class="space"></div>
-
 <h2 id="universal_property">{{< link file="universal_constructions.md" display="Universal Property" type="references" >}}</h2>
 
 Quotient rings satisfy the following universal property.
@@ -50,8 +48,6 @@ $$\begin{equation}
 Finally, we have an isomorphism $R/\ker f\iso\im f$ as groups, which is easily checked to be a ring isomorphism.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
-
-<div class="space"></div>
 
 The other ‘Isomorphism Theorems’ follow immediately from the corresponding theorems for groups{{< link file="quotient_group.md" type="proved_by" mod="dag" secID="the_isomorphism_theorems" secDisplay="The Isomorphism Theorems" >}}; one simply replaces all instances of ‘normal subgroup’ with ‘ideal’, and verify that all morphisms involved are ring homomorphisms. Thus, we will only state them.
 

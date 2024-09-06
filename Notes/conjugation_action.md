@@ -20,7 +20,7 @@ This action provides many fundamental constructions that are intrinsic to $G$.
 * The *center* $Z(G)\nsubgrpeq G$ is the fixed points of $\phi$, i.e., $Z(G)=\ker\phi$. In particular, it is {{< link file="normal_subgroup.md" display="normal" type="references" >}} in $G$. Unpacking the definitions, we see that $g\in Z(G)$ iff it commutes with every $x\in G$.
 * The *centralizer* of $x\in G$ is the stabilizer $Z_G(x)\coloneqq\Stab_G(x)$. Note that $Z(G)=\bigcap_{x\in G}Z_G(x)$, and that $x\in Z(G)$ iff $Z_G(x)=G$.
 
-## {{< link file="the_class_equation.md" display="The Class Equation" type="properties" >}}
+<h2 class="noSpace">{{< link file="the_class_equation.md" display="The Class Equation" type="properties" >}}</h2>
 
 Since the center $Z(G)$ is the set of fixed-points of the action, we may use the Class Equation to ‘glean’ the size of $Z(G)$ if one knows some structure of its non-trivial classes: indeed, we have
 $$\begin{equation}

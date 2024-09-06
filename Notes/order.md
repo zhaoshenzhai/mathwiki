@@ -25,8 +25,6 @@ Since $\gen{x}$ is the image of the map $\phi_x:\Z\to G$ induced uniquely by sen
 
 {{< /env >}}
 
-<div class="space"></div>
-
 ## Examples
 
 If $G$ is cyclic, then the order of any generator is $|G|$. In general:

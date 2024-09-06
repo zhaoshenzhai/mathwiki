@@ -31,8 +31,6 @@ Let $G$ be a finite group. The subgroups $H\substructeq G$ which are themselves 
 
 &emsp;&emsp;The case when $k=1$ is *Cauchy’s Theorem*, from which the general case follows from cleaver combinatorics via {{< link file="fixed_point_theorems_of_p_groups.md" display="fixed-point theorems" type="properties" >}}.
 
-<div class="space"></div>
-
 ## {{< link file="sylow_theorems.md" display="The Sylow Theorems" type="properties" >}}
 
 The $p$-subgroups $H\substructeq G$ which are maximal are called the ‘$p$-Sylow subgroups’; writing $|G|=p^rm$ for some $m\perp p$, they are the ones with order $p^r$. The *Sylow Theorems* state that they exist, are conjugate to each other, and that the number of $p$-Sylow subgroups divides $m$ and is congruent to $1$ modulo $p$.

@@ -45,8 +45,6 @@ A collection $\mc{S}\subseteq\mc{T}$ is a *subbasis for $\mc{T}$* if every open 
 
 {{< /env >}}
 
-<div class="space"></div>
-
 ## Generation of Some Topology
 
 One way for a collection $\mc{B}\subseteq\pow(X)$ to generate *some* topology on $X$ is to let it satisfy some of the axioms for a topology on $X$, from which a topology can be obtained by closing it under the others.
@@ -85,8 +83,6 @@ We show that $\mc{B}\_\mc{S}\coloneqq\l\\{\bigcap\_{i<n}U\_i\st U\_i\in\mc{S}\r\
 
 Many topological properties of $X$ can be detected (or defined) by the existence of certain bases thereof.
 
-<div class="space"></div>
-
 ## Weight and Character
 
 To begin, we have the following basic notion.
@@ -97,13 +93,10 @@ The *weight* of $X$ is the minimal {{< link file="cardinal.md" display="cardinal
 
 {{< /env >}}
 
-
 If $w(X)\leq\aleph_0$, then $X$ is said to be *{{< link file="second_countable_space.md" display="second countable" type="constructions" >}}*.
 
 <br>
 
 &emsp;&emsp;A pointwise-version of the above is the *character* $\chi(x,X)$ of a point $x\in X$, defined as the minimal cardinality of a filter base for $\mc{N}_x$. Taking the supremum over all $x\in X$ gives the *character* $\chi(X)$ of $X$. If $\chi(X)\leq\aleph_0$, then $X$ is said to be *{{< link file="first_countable_space.md" display="first-countable" type="constructions" >}}*.
-
-<div class="space"></div>
 
 ## Local Properties

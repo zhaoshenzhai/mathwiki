@@ -30,15 +30,11 @@ Some fundamental concepts in category theory are as follows. Let $C$ be a catego
 
 **Remark.**  Initial objects (and dually for final objects), if they exist, are unique up to a unique isomorphisms.
 
-<div class="space"></div>
-
 {{< env type="proof" hide="false" >}}
 
 If $x,x'\in C$ are initial, then there is a unique morphism $f:x\to x'$. Similarly, there is a unique morphism $g:x'\to x$, and they compose $g\circ f$ to a morphism in $C(x,x)$. But $C(x,x)$ is a singleton since $x$ is initial, and it contains $1_x$, so $g\circ f=1_x$. Similarly, $f\circ g=1_{x'}$, so $f:x\to x'$ is an isomorphism as desired.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
-
-<div class="space"></div>
 
 ## Examples of Categories
 

@@ -9,12 +9,8 @@ tags: [In_Progress]
 
 The theory of *smooth manifolds* gives an appropriate setting to do {{< link file="calculus_in_reals.md" display="calculus" type="references" >}} in higher dimensions and curved spaces. Classically, this is done within {{< link file="real_number.md" display="$\R^n$" type="references" >}}, but we would like to work in a more abstract setting without embeddings into $\R^n$. This begs the following question:
 
-<div class="space"></div>
-<div class="center">
     <i>How can we faithfully transport the fundamental properties of $\R$ that makes calculus possible to more abstract spaces?</i>
 </div>
-<div class="space"></div>
-
 Indeed, the main property of $\R$ is that it is the unique{{< link file="real_number.md" type="justifications" mod="dag" secID="characterization_of_reals" secDisplay="Characterization of Reals" >}} {{< link file="dedekind_completeness.md" display="complete" type="references" >}} {{< link file="ordered_field.md" display="ordered" type="references" >}} {{< link file="field.md" display="field" type="references" >}}, which calculus is based on, so any such abstract notion must make contact with $\R$. We will consider ({{< link file="topological_space.md" display="topological" type="references" >}}) {{< link file="manifold.md" display="manifolds" type="references" >}} as the abstract spaces, which has charts that make contact with $\R$, so it remains to faithfully represent the smooth structure of $\R$.
 
 {{< env type="definition" >}}
@@ -29,8 +25,6 @@ is smooth as a map from an open subset of $\R^n$ to $\R^n$.
 
 **Remark.** The smooth structure is an *additional* piece of data that must be provided, and in general, there are many such choices.
 
-<div class="space"></div>
-
 ## Smooth Maps
 
 We would like to ‘lift’ the notion of smoothness of maps $f:\R^n\to\R^m$ to manifolds. By design, this can only be done by testing $f:M\to N$, for manifolds $M,N$, against charts:
@@ -42,8 +36,6 @@ Let $M,N$ be smooth manifolds. A map $f:M\to N$ is *smooth* if for every $p\in M
 {{< /env >}}
 
 With morphisms as smooth maps, smooth manifolds form a {{< link file="category.md" display="category" type="references" >}}, denoted by $\catman$ or $C^\infty$.
-
-<div class="space"></div>
 
 **Remark.** This definition is ‘independent of charts’, in the sense that if $\psi_1\circ f\circ\phi_1^{-1}$ is smooth and $(U_2,\phi_2)\ni p$ and $(V_2,\psi_2)\ni f(p)$ are other charts of $M$ and $N$ with $f(U_2)\subseteq V_2$, then $\psi_2\circ f\circ\phi_2^{-1}$ is also smooth.
 
@@ -70,11 +62,7 @@ and the latter is smooth since $\psi_1\circ f\circ\phi_1^{-1}$ is and transition
 
 In this sense, all local properties of $f$ boil down to checking it for its coordinate representation $\hat{f}\coloneqq\psi\circ f\circ\phi^{-1}$ and ensuring that it is preserved under chart transition maps. This illustrates the basic philosophy of smooth manifold theory.
 
-<div class="space"></div>
-
 &emsp;&emsp;The set of all smooth maps $f:M\to N$ is denoted by $C^\infty(M,N)$. With $N\coloneqq\R$ equipped with the standard smooth structure, we let $C^\infty(M)\coloneqq C^\infty(M,\R)$, which is a commutative $\R$-{{< link file="algebra.md" display="algebra" type="references" >}} under pointwise multiplication.
-
-<div class="space"></div>
 
 ## Sheaf of Smooth Functions
 

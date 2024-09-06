@@ -33,8 +33,6 @@ where the last equality follows from {{< link file="orbit_stabilizer_theorem.md"
 
 {{< /env >}}
 
-<div class="space"></div>
-
 ## {{< link file="conjugation_action.md" display="Conjugation Action" type="examples" >}}
 
 Let $G$ be a {{< link file="finite_group.md" display="finite group" type="references" >}}, acting on itself by conjugation via $\phi$. With $Z=Z(G)\coloneqq\ker\phi$ the *center* of $G$ and with $Z_G(a)$ the stabilizer of $a$, we have the classical Class Equation, stating that

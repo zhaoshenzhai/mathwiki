@@ -17,8 +17,6 @@ A topological space $X$ is said to be *separable* if it admits a countably dense
 
 This provides a limitation on the ‘complexity’ of $X$, and, in the setting of a {{< link file="metrizable_space.md" display="metrizable space" type="references" >}} $X$, this limitation is equivalent{{< link file="metrizable_limitations_on_complexity.md" type="equivalences" mod="dag" >}} to some others (like {{< link file="second_countable_space.md" display="second countability" type="references" >}}, being Lindelöf, and the CCC). Thus, we usually focus on the metrizable case, and more often than not, on *{{< link file="polish_space.md" display="Polish" type="types" >}}* spaces (those which are *completely* metrizable).
 
-<div class="space"></div>
-
 ## Hereditary Properties
 
 Any subset $Y\subseteq X$ of a separable metrizable space is also separable.

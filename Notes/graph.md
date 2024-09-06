@@ -21,11 +21,7 @@ A *(simple loopless undirected) graph* is a pair $G\coloneqq(V,E)$, where $V$ is
 
 With graph homomorphisms as morphisms, simple graphs form a {{< link file="category" display="category" type="references" >}} $\catsgrph$.
 
-<div class="space"></div>
-
 ## For a Graph Theorist
-
-<div class="space"></div>
 
 ## For a Category Theorist
 

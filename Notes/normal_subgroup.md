@@ -25,13 +25,9 @@ A subgroup $N\substructeq G$ is said to be *normal* if it is invariant under {{<
 
 Equivalently, we may demand $gng^{-1}\in N$ for all $n\in N$ and $g\in G$ instead.
 
-<div class="space"></div>
-
 <h2 id="normal_iff_congruence">Normal $\Leftrightarrow$ Congruence</h2>
 
 We show that every congruence relation $\sim$ on $G$ is induced by a unique normal subgroup $N\nsubgrpeq G$.
-
-<div class="space"></div>
 
 {{< env type="proof" >}}
 
@@ -47,15 +43,11 @@ $$\begin{equation}
 
 This equivalence allows us to take *{{< link file="quotient_group.md" display="quotients" type="constructions" >}}* $G/N$ of $G$ by normal subgroups $N\nsubgrpeq G$, and in particular makes $\pi:G\onto G/N$ a group homomorphism. Such a construction allows for another equivalence; namely, that normal subgroups correspond to {{< link file="kernel_group_theory.md" display="kernels" type="references" >}}:
 
-<div class="space"></div>
-
 {{< env type="proof" hide="false" id="normal_iff_kernel" >}}
 
 If $N\nsubgrpeq G$ is a normal subgroup, then it is the kernel of $\pi:G\onto G/N$. Conversely, for any homomorphism $f:G\to H$, its kernel $\ker f$ is normal since if $f(h)=0$ and $g\in G$, then $f(ghg^{-1})=f(g)f(h)f(g)^{-1}=0$ too.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
-
-<div class="space"></div>
 
 <h2 id="normal_closure">Normal Closure</h2>
 
