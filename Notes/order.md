@@ -7,7 +7,7 @@ tags: [Group_Theory]
 
 # Motivation & Definition
 
-Let $G$ be a {{< link file="group.md" display="group" type="references" >}}. The *order* of an element $x\in G$ is the size of its {{< link file="subgroup.md" display="generated" type="references" id="subgroup_generation" >}} {{< link file="cyclic_group.md" display="cyclic" type="references" >}} subgroup. A more elementary definition is as follows.
+Let $G$ be a {{< link file="group.md" display="group" type="references" >}}. The *order* of an element $x\in G$ is the size of its {{< link file="subgroup.md" display="generated" type="references" secID="subgroup_generation" secDisplay="Subgroup Generation" >}} {{< link file="cyclic_group.md" display="cyclic" type="references" >}} subgroup. A more elementary definition is as follows.
 
 {{< env type="definition" >}}
 
@@ -21,7 +21,7 @@ An element $x\in G$ has *finite order* if $x^n=e$ for some $n>0$; the least such
 
 {{< env type="proof" hide="false" name="$\ord x=|\!\gen{x}|$" >}}
 
-Since $\gen{x}$ is the image of the map $\phi_x:\Z\to G$ induced uniquely by sending $1\mapsto x$, if $\ker\phi_x=n\Z$ for some $n>0$, then{{< link file="quotient_group.md" type="proved_by" mod="dag" id="universal_property" >}} $\im\phi_x\iso\Z/n\Z$ has cardinality $n$. Those are the only{{< link file="integers.md" type="proved_by" mod="dag" id="subgroups_of_Z" >}} non-trivial subgroups of $\Z$, so otherwise, we have $\im\phi_x=\Z$.<span style="float:right;">$\blacksquare$</span>
+Since $\gen{x}$ is the image of the map $\phi_x:\Z\to G$ induced uniquely by sending $1\mapsto x$, if $\ker\phi_x=n\Z$ for some $n>0$, then{{< link file="quotient_group.md" type="proved_by" mod="dag" secID="universal_property" secDisplay="Universal Property" >}} $\im\phi_x\iso\Z/n\Z$ has cardinality $n$. Those are the only{{< link file="integers.md" type="proved_by" mod="dag" secID="subgroups_of_Z" secDisplay="Subgroups of $\Z$" >}} non-trivial subgroups of $\Z$, so otherwise, we have $\im\phi_x=\Z$.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 

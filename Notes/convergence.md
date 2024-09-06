@@ -83,4 +83,4 @@ A filter $\mc{F}$ in $X$ is said to *converge* to some $x\in X$ $-$ and write $\
 
 <div class="space"></div>
 
-&emsp;&emsp;To connect this definition back with sequences, we need to consider *{{< link file="filter.md" display="push-forward" type="references" id="Push Forward" >}}* of filters. Then, equipping $\N$ with the Fréchet filter $\mc{F}_0$, we see that a sequence $x\_\blob\to x$ in the sense of sequences iff $x\_\blob(\mc{F}\_0)\to x$ in the sense of filters.
+&emsp;&emsp;To connect this definition back with sequences, we need to consider *{{< link file="filter.md" display="push-forward" type="references" secID="Push Forward" >}}* of filters. Then, equipping $\N$ with the Fréchet filter $\mc{F}_0$, we see that a sequence $x\_\blob\to x$ in the sense of sequences iff $x\_\blob(\mc{F}\_0)\to x$ in the sense of filters.

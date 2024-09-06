@@ -13,12 +13,11 @@ export function initMetaLinks() {
         var link = outgoingLinks[i];
         var linkType = link.classList[1];
 
-        var linkBaseHref = link.href.replace(/\/#.*/, '');
-        if (!metaLinkTracker.includes(linkType + linkBaseHref)) {
+        if (!metaLinkTracker.includes(linkType + link.href)) {
             var metaLinkType = metaLinks[linkType];
             if (!metaLinkType) { metaLinkType = newMetaLinkType(linkType); }
 
-            metaLinkTracker.push(linkType + linkBaseHref);
+            metaLinkTracker.push(linkType + link.href);
             metaLinkType.nextElementSibling.appendChild(newMetaLink(link));
         }
     }

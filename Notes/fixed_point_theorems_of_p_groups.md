@@ -78,7 +78,7 @@ If $H$ is not a {{< link file="sylow_theorems.md" display="$p$-Sylow subgroup" t
 
 {{< env type="proof" hide="false" >}}
 
-Since $H$ is not a $p$-Sylow subgroup, we see that $p$ divides $[G:H]$, and hence $p$ divides $[N_G(H):H]$ too. By {{< link file="cauchys_theorem.md" display="Cauchy’s Theorem" type="proved_by" >}}, there is an element in $N_G(H)/H$ of order $p$, which generates a cyclic subgroup $K_0$ with $|K_0|=p$. Set $K\coloneqq\pi^{-1}(K_0)\substructeq G$, which contains $H$ since $\pi(H)$ is the identity in $K_0$. Clearly $\pi(H)\nsubgrpeq\pi(K)$, so by the {{< link file="quotient_group.md" display="Lattice Isomorphism Theorem" type="proved_by" id="lattice_isomorphism_theorem" >}}, we have $H\nsubgrpeq K$ and
+Since $H$ is not a $p$-Sylow subgroup, we see that $p$ divides $[G:H]$, and hence $p$ divides $[N_G(H):H]$ too. By {{< link file="cauchys_theorem.md" display="Cauchy’s Theorem" type="proved_by" >}}, there is an element in $N_G(H)/H$ of order $p$, which generates a cyclic subgroup $K_0$ with $|K_0|=p$. Set $K\coloneqq\pi^{-1}(K_0)\substructeq G$, which contains $H$ since $\pi(H)$ is the identity in $K_0$. Clearly $\pi(H)\nsubgrpeq\pi(K)$, so by the {{< link file="quotient_group.md" display="Lattice Isomorphism Theorem" type="proved_by" secID="lattice_isomorphism_theorem" secDisplay="Lattice Isomorphism Theorem" >}}, we have $H\nsubgrpeq K$ and
 $$\begin{equation}
     K/H\iso\pi(K)/\pi(H)\iso K_0.
 \end{equation}$$

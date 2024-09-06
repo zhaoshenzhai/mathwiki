@@ -35,7 +35,7 @@ Every linearly-independent subset $S\subseteq V$ extends to a basis of $V$.
 
 {{< env type="proof" hide="false" >}}
 
-For general $R$-modules, $S$ extends{{< link file="basis_module_theory.md" type="proved_by" mod="dag" id="maximal_linearly-independent_sets" >}} to a maximal linearly-independent set, so we may w.l.o.g. assume that $S$ is maximal.
+For general $R$-modules, $S$ extends{{< link file="basis_module_theory.md" type="proved_by" mod="dag" secID="maximal_linearly-independent_sets" secDisplay="Maximal Linearly-independent Sets" >}} to a maximal linearly-independent set, so we may w.l.o.g. assume that $S$ is maximal.
 
 <br>
 

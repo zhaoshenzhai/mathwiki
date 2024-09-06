@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Fix a {{< link file="ring.md" display="ring" type="references" >}} $R$. Its underlying {{< link file="abelian_group.md" display="abelian group" type="references" >}} $G$ admits a notion of {{< link file="congruence_relation.md" display="congruences" type="references" >}}, which are {{< link file="equivalence_relation.md" display="equivalence relations" type="references" >}} $\sim$ on $G$ that respect the group structure, and those correspond exactly to{{< link file="normal_subgroup.md" type="justifications" mod="dag" id="normal_iff_congruence" >}} {{< link file="normal_subgroup.md" display="normal" type="references" >}} {{< link file="subgroup.md" display="subgroups" type="references" >}} of $G$. Since $G$ is abelian, they correspond to all subgroups.
+Fix a {{< link file="ring.md" display="ring" type="references" >}} $R$. Its underlying {{< link file="abelian_group.md" display="abelian group" type="references" >}} $G$ admits a notion of {{< link file="congruence_relation.md" display="congruences" type="references" >}}, which are {{< link file="equivalence_relation.md" display="equivalence relations" type="references" >}} $\sim$ on $G$ that respect the group structure, and those correspond exactly to{{< link file="normal_subgroup.md" type="justifications" mod="dag" secID="normal_iff_congruence" secDisplay="Normal $\Leftrightarrow$ Congruence" >}} {{< link file="normal_subgroup.md" display="normal" type="references" >}} {{< link file="subgroup.md" display="subgroups" type="references" >}} of $G$. Since $G$ is abelian, they correspond to all subgroups.
 
 <br>
 
@@ -52,7 +52,7 @@ Ideals $\mf{a}\nsubgrpeq R$ turn out to be exactly the objects one can {{< link 
 
 ## Generation of Ideals
 
-Just like how any subset $A\subseteq G$ of a group $G$ {{< link file="subgroup.md" display="generates" type="references" id="subgroup_generation" >}} a subgroup $\gen{A}\substructeq G$, subsets $A\subseteq R$ of a ring $R$ generates an ideal in the same way. We first need to note that an intersection $\bigcap_\alpha\mf{a}_\alpha$ of (left/right-)ideals is still an (left/right-)ideal.
+Just like how any subset $A\subseteq G$ of a group $G$ {{< link file="subgroup.md" display="generates" type="references" secID="subgroup_generation" secDisplay="Subgroup Generation" >}} a subgroup $\gen{A}\substructeq G$, subsets $A\subseteq R$ of a ring $R$ generates an ideal in the same way. We first need to note that an intersection $\bigcap_\alpha\mf{a}_\alpha$ of (left/right-)ideals is still an (left/right-)ideal.
 * <span style="color:gray">(Explicitly).</span> The most direct construction is by letting $\gen{A}$ be the set of all finite sums $\sum_{i<n}r_ia_is_i$ for some $a_i\in A$ and $r_i,s_i\in R$, which makes $\gen{A}\nsubgrpeq R$. To generate a left ideal $RA$ (resp. right ideal $AR$), we only include the sums $\sum_{i<n}r_ia_i$ (resp. $\sum_{i<n}a_is_i$).
 * <span style="color:gray">(Top-down).</span> We can let $\gen{A}$ be the intersection of all (left/right) ideals of $R$ containing $A$.
 * <span style="color:gray">(Bottom-up).</span> We can construct $\gen{A}$ starting with $A$ and inductively closing it under addition and (left/right-)multiplication by $R$.

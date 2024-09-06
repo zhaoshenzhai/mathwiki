@@ -7,7 +7,7 @@ tags: [Group_Theory]
 
 # Motivation & Definition
 
-Fix a {{< link file="group.md" display="group" type="references" >}} $G$ and consider the {{< link file="category.md" display="category" type="references" >}} $\cat{B}G$ defined{{< link file="group.md" type="references" mod="dag" id="Groupoids" >}} by $G$. What are the {{< link file="congruence_relation.md" display="congruences" type="equivalences" >}} in $\cat{B}G$? In this {{< link file="category.md" display="category" type="references" >}}, a congruence is an {{< link file="equivalence_relation.md" display="equivalence relation" type="references" >}} $\sim$ on $G$ that respects the group operation, that is, $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$.
+Fix a {{< link file="group.md" display="group" type="references" >}} $G$ and consider the {{< link file="category.md" display="category" type="references" >}} $\cat{B}G$ defined{{< link file="group.md" type="references" mod="dag" secID="groupoid" secDisplay="Groupoid" >}} by $G$. What are the {{< link file="congruence_relation.md" display="congruences" type="equivalences" >}} in $\cat{B}G$? In this {{< link file="category.md" display="category" type="references" >}}, a congruence is an {{< link file="equivalence_relation.md" display="equivalence relation" type="references" >}} $\sim$ on $G$ that respects the group operation, that is, $g_1\sim g_2$ and $h_1\sim h_2$ implies $g_1h_1\sim g_2h_2$.
 
 <br>
 

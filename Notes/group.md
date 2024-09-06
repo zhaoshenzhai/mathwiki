@@ -26,7 +26,7 @@ The set $G$ is the set of ‘abstract transformations’ as described above. How
 
 <br>
 
-&emsp;&emsp;In fact, *every* group arises this way{{< link file="group.md" type="references" id="Groupoids" mod="dag" >}} (as a concrete group) from the category $\cat{B}G$, but not all groups arise as automorphism groups of a set; see, however, {{< link file="cayleys_theorem.md" display="Cayley’s Theorem" type="properties" >}}, which states that every group is a *{{< link file="subgroup.md" display="subgroup" type="constructions" >}}* of an automorphism group of a set.
+&emsp;&emsp;In fact, *every* group arises this way{{< link file="group.md" type="references" secID="groupoid" secDisplay="Groupoid" mod="dag" >}} (as a concrete group) from the category $\cat{B}G$, but not all groups arise as automorphism groups of a set; see, however, {{< link file="cayleys_theorem.md" display="Cayley’s Theorem" type="properties" >}}, which states that every group is a *{{< link file="subgroup.md" display="subgroup" type="constructions" >}}* of an automorphism group of a set.
 
 <br>
 
@@ -44,7 +44,7 @@ Note that this implies that $f(e_G)=e_H$ and that $f(g^{-1})=f(g)^{-1}$ for all 
 
 ## The Category of Groups
 
-With homomorphisms as morphisms, groups form a category $\catgrp$. This category is{{< link file="catgrp_is_complete.md" type="justifications" mod="dag" >}} {{< link file="complete_category.md" display="complete" type="references" >}} and cocomplete, as witnessed by the standard notions of products, coproducts, {{< link file="kernel_group_theory.md" display="kernel" type="constructions" >}}, {{< link file="kernel_group_theory.md" display="cokernels" type="constructions" id="cokernel" >}}, {{< link file="subgroup.md" display="subobjects" type="constructions" >}}, and {{< link file="quotient_group.md" display="quotients" type="constructions" >}}.
+With homomorphisms as morphisms, groups form a category $\catgrp$. This category is{{< link file="catgrp_is_complete.md" type="justifications" mod="dag" >}} {{< link file="complete_category.md" display="complete" type="references" >}} and cocomplete, as witnessed by the standard notions of products, coproducts, {{< link file="kernel_group_theory.md" display="kernel" type="constructions" >}}, {{< link file="kernel_group_theory.md" display="cokernels" type="constructions" secID="cokernel" secDisplay="Cokernel" >}}, {{< link file="subgroup.md" display="subobjects" type="constructions" >}}, and {{< link file="quotient_group.md" display="quotients" type="constructions" >}}.
 
 <br>
 
@@ -76,7 +76,7 @@ Another more ‘object-oriented’ technique to study $G$ is to decompose it int
 
 # Examples of Groups
 
-The simplest groups, and possibly the most important groups, are the {{< link file="cyclic_group.md" display="cyclic groups" type="examples" >}}. They are the ones that are {{< link file="subgroup.md" display="generated" type="references" id="subgroup_generation" >}} by a singleton, which forces{{< link file="cyclic_group.md" type="justifications" mod="dag" id="classification" >}} it to either be the {{< link file="integers.md" display="integers" type="references" >}} $\Z$ or its {{< link file="quotient_group.md" display="quotient" type="references" >}} $\Z/n\Z$ for some $n\geq1$. Other classical groups include the dihedral groups, symmetry groups, and matrix groups.
+The simplest groups, and possibly the most important groups, are the {{< link file="cyclic_group.md" display="cyclic groups" type="examples" >}}. They are the ones that are {{< link file="subgroup.md" display="generated" type="references" secID="subgroup_generation" secDisplay="Subgroup Generation" >}} by a singleton, which forces{{< link file="cyclic_group.md" type="justifications" mod="dag" secID="classification" secDisplay="Classification" >}} it to either be the {{< link file="integers.md" display="integers" type="references" >}} $\Z$ or its {{< link file="quotient_group.md" display="quotient" type="references" >}} $\Z/n\Z$ for some $n\geq1$. Other classical groups include the dihedral groups, symmetry groups, and matrix groups.
 
 <br>
 
@@ -97,7 +97,7 @@ One may also equip groups with additional structure, which leads to much richer 
 
 # Generalizations
 
-## {{< link file="groupoid.md" display="Groupoids" type="generalizations" >}}
+<h2 id="groupoid">{{< link file="groupoid.md" display="Groupoids" type="generalizations" >}}</h2>
 
 Many groups arise as the automorphism group of some object $X$. In fact, this is true for *all* groups.
 

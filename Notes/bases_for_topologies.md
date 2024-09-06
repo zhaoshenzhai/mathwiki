@@ -25,7 +25,7 @@ Since all open sets $U\in\mc{T}$ are just unions of sets in $\mc{B}$, we call $\
 
 <br>
 
-&emsp;&emsp;Equivalently, $\mc{B}\subseteq\mc{T}$ is a basis iff for each $x\in X$, its neighborhood {{< link file="filter.md" display="filter" type="references" >}} $\mc{N}_x$ (consisting of all sets $A\subseteq X$ such that $x\in U\subseteq A$ for some $U\in\mc{T}$) admits a {{< link file="filter.md" display="filter base" type="references" id="base" >}} in $\mc{B}$.
+&emsp;&emsp;Equivalently, $\mc{B}\subseteq\mc{T}$ is a basis iff for each $x\in X$, its neighborhood {{< link file="filter.md" display="filter" type="references" >}} $\mc{N}_x$ (consisting of all sets $A\subseteq X$ such that $x\in U\subseteq A$ for some $U\in\mc{T}$) admits a {{< link file="filter.md" display="filter base" type="references" secID="base" >}} in $\mc{B}$.
 
 >{{< env type="proof" hide="true" >}}
 

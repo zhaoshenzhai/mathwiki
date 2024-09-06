@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Given an {{< link file="module.md" display="$R$-module" type="references" >}} $M$ over a commutative {{< link file="ring.md" display="ring" type="references" >}} $R$, it is useful to know whether there is a ‘simple’ {{< link file="submodule.md" display="generating set" type="references" id="Submodule Generation" >}} of $M$. Properties of $M$ will then be entirely determined by $S$, so classifying such subsets will lead to a classification of modules. Clearly $M$ generates itself, but this generation is clearly redundant (if $M\neq\l\\{0\r\\}$), so we need to cut those generating sets down to remove redundancies.
+Given an {{< link file="module.md" display="$R$-module" type="references" >}} $M$ over a commutative {{< link file="ring.md" display="ring" type="references" >}} $R$, it is useful to know whether there is a ‘simple’ {{< link file="submodule.md" display="generating set" type="references" secID="submodule_generation" secDisplay="Submodule Generation" >}} of $M$. Properties of $M$ will then be entirely determined by $S$, so classifying such subsets will lead to a classification of modules. Clearly $M$ generates itself, but this generation is clearly redundant (if $M\neq\l\\{0\r\\}$), so we need to cut those generating sets down to remove redundancies.
 
 {{< env type="definition" >}}
 
@@ -31,9 +31,9 @@ Let $i:I\to M$ be any indexed set, which generates a unique {{< link file="free_
 
 Every basis $B$ of $M$ is a maximal linearly-independent set and a minimal generating set. The first issue with general $R$-modules, even when $R$ is a {{< link file="principal_ideal_domain.md" display="PID" type="references" >}}, is that minimal generating sets need not exist:
 
-> For instance, $\Q$ as a {{< link file="integers.md" display="$\Z$" type="references" >}}-module: if $\gen{S}=\Q$ is minimal, then for any fixed $a\in S$ consider $H\coloneqq\gen{S\comp\l\\{a\r\\}}$; the {{< link file="quotient_group.md" display="quotient" type="references" >}} $G\coloneqq\Q/H$ is non-trivial and {{< link file="cyclic_group.md" display="cyclic" type="references" >}} ($G\iso\gen{\bar{a}}$), so{{< link file="cyclic_group.md" type="justifications" mod="dag" id="classification" >}} $G\iso\Z$ or $G\iso\Z/n\Z$ for some $n\in\N$, a contradiction since $\Q$ is {{< link file="divisible_group.md" display="divisible" type="references" >}} but $G$ isn't.
+> For instance, $\Q$ as a {{< link file="integers.md" display="$\Z$" type="references" >}}-module: if $\gen{S}=\Q$ is minimal, then for any fixed $a\in S$ consider $H\coloneqq\gen{S\comp\l\\{a\r\\}}$; the {{< link file="quotient_group.md" display="quotient" type="references" >}} $G\coloneqq\Q/H$ is non-trivial and {{< link file="cyclic_group.md" display="cyclic" type="references" >}} ($G\iso\gen{\bar{a}}$), so{{< link file="cyclic_group.md" type="justifications" mod="dag" secID="classification" secDisplay="Classification" >}} $G\iso\Z$ or $G\iso\Z/n\Z$ for some $n\in\N$, a contradiction since $\Q$ is {{< link file="divisible_group.md" display="divisible" type="references" >}} but $G$ isn't.
 
-This shows that not all modules admit bases. However, maximal linearly-independent sets do exist in general, and if $R$ is a field, then the maximal linearly-independent sets are bases{{< link file="vector_space.md" type="justifications" mod="dag" id="existence_of_bases" >}}.
+This shows that not all modules admit bases. However, maximal linearly-independent sets do exist in general, and if $R$ is a field, then the maximal linearly-independent sets are bases{{< link file="vector_space.md" type="justifications" mod="dag" secID="existence_of_bases" secDisplay="Existence of Bases" >}}.
 
 {{< env type="proposition" id="maximal_linearly-independent_sets" >}}
 

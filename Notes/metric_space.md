@@ -85,7 +85,7 @@ A topological space $\tpl{X,\mc{T}}$ is said to be *{{< link file="metrizable_sp
 
 ## Lipschitz Structure
 
-Clearly, $\catmet_c$ is a {{< link file="subcategory.md" display="subcategory" type="references" >}} of {{< link file="topological_space.md" display="$\cattop$" type="generalizations" id="the_category_top" >}}. However, there is a more useful category of metric spaces in which morphisms preserve the metric structure.
+Clearly, $\catmet_c$ is a {{< link file="subcategory.md" display="subcategory" type="references" >}} of {{< link file="topological_space.md" display="$\cattop$" type="generalizations" secID="the_category_top" secDisplay="The Category $\cattop$" >}}. However, there is a more useful category of metric spaces in which morphisms preserve the metric structure.
 
 {{< env type="definition" >}}
 

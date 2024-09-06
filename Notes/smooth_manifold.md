@@ -15,7 +15,7 @@ The theory of *smooth manifolds* gives an appropriate setting to do {{< link fil
 </div>
 <div class="space"></div>
 
-Indeed, the main property of $\R$ is that it is the unique{{< link file="real_number.md" type="justifications" mod="dag" id="characterization_of_reals" sec="Characterization of Reals" >}} {{< link file="dedekind_completeness.md" display="complete" type="references" >}} {{< link file="ordered_field.md" display="ordered" type="references" >}} {{< link file="field.md" display="field" type="references" >}}, which calculus is based on, so any such abstract notion must make contact with $\R$. We will consider ({{< link file="topological_space.md" display="topological" type="references" >}}) {{< link file="manifold.md" display="manifolds" type="references" >}} as the abstract spaces, which has charts that make contact with $\R$, so it remains to faithfully represent the smooth structure of $\R$.
+Indeed, the main property of $\R$ is that it is the unique{{< link file="real_number.md" type="justifications" mod="dag" secID="characterization_of_reals" secDisplay="Characterization of Reals" >}} {{< link file="dedekind_completeness.md" display="complete" type="references" >}} {{< link file="ordered_field.md" display="ordered" type="references" >}} {{< link file="field.md" display="field" type="references" >}}, which calculus is based on, so any such abstract notion must make contact with $\R$. We will consider ({{< link file="topological_space.md" display="topological" type="references" >}}) {{< link file="manifold.md" display="manifolds" type="references" >}} as the abstract spaces, which has charts that make contact with $\R$, so it remains to faithfully represent the smooth structure of $\R$.
 
 {{< env type="definition" >}}
 
@@ -64,7 +64,7 @@ $$\begin{equation}
 \end{equation*}
 {{< /tikz >}}
 
-and the latter is smooth since $\psi_1\circ f\circ\phi_1^{-1}$ is and transitions maps are *stipulated* to be smooth to begin with. Symbolically, this computation is very similar to the {{< link file="free_module.md" display="change of basis" type="references" id="change_of_basis" sec="Change of Basis" >}} formula from linear algebra.<span style="float:right;">$\blacksquare$</span>
+and the latter is smooth since $\psi_1\circ f\circ\phi_1^{-1}$ is and transitions maps are *stipulated* to be smooth to begin with. Symbolically, this computation is very similar to the {{< link file="free_module.md" display="change of basis" type="references" secID="change_of_basis" secDisplay="Change of Basis" >}} formula from linear algebra.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 

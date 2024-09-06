@@ -33,7 +33,7 @@ We first prove the theorem in the abelian case, in order to apply it to the cent
 
 >{{< env type="proof" hide="true" name="Abelian case" >}}
 
-We proceed by induction on $|G|$. Let $H\substruct G$ be a maximal, which exists sine $|G|$ is finite. If $p$ divides $|H|$, then we are done by induction, so suppose otherwise and set $K\coloneqq\gen{x}$. Since $G$ is abelian, we have $HK=KH$, and hence{{< link file="subgroup_products.md" type="proved_by" mod="dag" id="criteria_for_subgroup_product" >}} $H\substruct HK\substructeq G$. Maximality of $H$ then forces $HK=G$, so
+We proceed by induction on $|G|$. Let $H\substruct G$ be a maximal, which exists sine $|G|$ is finite. If $p$ divides $|H|$, then we are done by induction, so suppose otherwise and set $K\coloneqq\gen{x}$. Since $G$ is abelian, we have $HK=KH$, and hence{{< link file="subgroup_products.md" type="proved_by" mod="dag" secID="criteria_for_subgroup_product" secDisplay="Criteria for $HK\substructeq G$" >}} $H\substruct HK\substructeq G$. Maximality of $H$ then forces $HK=G$, so
 $$\begin{equation}
     |G|=|HK|=\frac{|H||K|}{|H\cap K|}.
 \end{equation}$$
