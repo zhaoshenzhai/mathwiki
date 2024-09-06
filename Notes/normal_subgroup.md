@@ -29,6 +29,8 @@ Equivalently, we may demand $gng^{-1}\in N$ for all $n\in N$ and $g\in G$ instea
 
 We show that every congruence relation $\sim$ on $G$ is induced by a unique normal subgroup $N\nsubgrpeq G$.
 
+<div class="space"></div>
+
 {{< env type="proof" >}}
 
 Given a congruence $\sim$, the subset $N\coloneqq\l\\{n\in G\st n\sim e\r\\}$ is clearly a subgroup, and is normal since for all $gn\in gN$, we have $gn\sim g$ and hence $gng^{-1}\sim e$. Thus $gng^{-1}\in N$.
@@ -42,6 +44,8 @@ $$\begin{equation}
 {{< /env >}}
 
 This equivalence allows us to take *{{< link file="quotient_group.md" display="quotients" type="constructions" >}}* $G/N$ of $G$ by normal subgroups $N\nsubgrpeq G$, and in particular makes $\pi:G\onto G/N$ a group homomorphism. Such a construction allows for another equivalence; namely, that normal subgroups correspond to {{< link file="kernel_group_theory.md" display="kernels" type="references" >}}:
+
+<div class="space"></div>
 
 {{< env type="proof" hide="false" id="normal_iff_kernel" >}}
 

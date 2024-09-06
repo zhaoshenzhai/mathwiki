@@ -42,6 +42,8 @@ commutes for any morphism $f:c\to d$. In particular, chasing $1_c\in C(c,c)$ aro
 
 {{< /env >}}
 
+<div class="space"></div>
+
 {{< env type="proof" name="Naturality" >}}
 
 The naturality claims amounts to

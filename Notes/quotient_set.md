@@ -27,6 +27,8 @@ Let $(Z,f)$ be as above. For a function $f':X/E\to Z$ with $f=f'\circ\pi$, we ne
 
 {{< /env >}}
 
+<div class="space"></div>
+
 **Remark.** In light of this universal property, we do not really care about the quotient *set* $X/E$. Rather, we care about the *function* $\pi:X\to X/E$, which is surjective, and is called the *canonical projection*.
 
 ## Canonical Decomposition

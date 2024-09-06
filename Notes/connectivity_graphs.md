@@ -33,6 +33,8 @@ If $u,v\in V$ are distinct vertices joined by a walk in $G$, we can choose a min
 
 {{< /env >}}
 
+<div class="space"></div>
+
 &emsp;&emsp;An easy characterization is that $G$ is disconnected iff there is a pairwise non-adjacent partition $V=X\sqcup Y$.
 
 > {{< env type="proof" hide="true" >}}

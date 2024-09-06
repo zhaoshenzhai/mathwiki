@@ -20,6 +20,8 @@ $$\begin{equation}
 
 **Remark.** Note that although many rings arise as $\End(G)$ for some abelian group $G$, they do not exhaust all rings; a counterexample is the ring $\Z/2\Z\times\Z/2\Z$, or the family of rings $\F_{p^2}$ for $p$ prime (the latter are {{< link file="finite_field.md" display="finite fields" type="references" >}}). See, however, {{< link file="cayleys_theorem.md" display="Cayley’s Theorem" type="properties" >}} for rings, which states that every ring $R$ is a *{{< link file="subring.md" display="subring" type="constructions" >}}* of $\End(R)$, where $R$ is its underlying abelian group.
 
+<div class="space"></div>
+
 &emsp;&emsp;The relevant structure-preserving maps for rings are as follows.
 
 {{< env type="definition" >}}

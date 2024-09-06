@@ -29,7 +29,9 @@ so $\l|H\r|$ divides $\l|G\r|$. Moreover, we clearly have $\l|I\r|=\l|G/H\r|=[G:
 
 {{< /env >}}
 
-**Remark.** Instead of using the Orbit-Stabilizer Theorem to show $\l|Hg\r|=\l|H\r|$, one can establish it by showing $H\to Hg:h\mapsto hg$ is a bijection by hand.<span style="float:right;">$\blacklozenge$</span>
+<div class="space"></div>
+
+**Remark.** Instead of using the Orbit-Stabilizer Theorem to show $\l|Hg\r|=\l|H\r|$, one can establish it by showing $H\to Hg:h\mapsto hg$ is a bijection by hand.
 
 ## Corollaries
 

@@ -47,6 +47,8 @@ for some $h'\in H$ and $k'\in K$. A similar trick works for inverses, so $HK\sub
 
 {{< /env >}}
 
+<div class="space"></div>
+
 In particular, this holds when $G$ is {{< link file="abelian_group.md" display="abelian" type="references" >}}, or more generally, if either $H\substructeq N_G(K)$ or $K\substructeq N_G(H)$. The latter occurs, in particular, when either $H\nsubgrpeq G$ or $K\nsubgrpeq G$.
 
 ## Normality of $HK$

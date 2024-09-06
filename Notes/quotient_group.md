@@ -23,6 +23,8 @@ Let $N\nsubgrpeq G$ be a normal subgroup. The *quotient group* of $G$ by $N$ is 
 
 {{< /env >}}
 
+<div class="space"></div>
+
 **Remark.** In this form, the canonical projection $\pi:G\onto G/N$ sends $g\mapsto gN$. Basically by definition, we have that $\ker\pi=N$.
 
 ## Fibers of Homomorphisms
@@ -52,6 +54,8 @@ $$\begin{equation}
 
 {{< /env >}}
 
+<div class="space"></div>
+
 **Remark.** <span style="color:red">**TODO** (link with representable functors etc).</span> Also, this shows that $\cat{B}G/\\!\sim$ is the {{< link file="quotient_category.md" display="quotient category" type="references" >}} by the congruence.
 
 <h2 id="the_isomorphism_theorems">The Isomorphism Theorems</h2>
@@ -78,7 +82,11 @@ We have $\ker f\nsubgrpeq G$, so the universal property of quotients induces a h
 
 {{< /env >}}
 
+<div class="space"></div>
+
 **Remark.** One important consequence is that the sequence $0\to K\overset{\iota}{\to}G\overset{f}{\to}H\to0$ is {{< link file="exact_sequence.md" display="exact" type="references" >}} iff $H\iso G/K$. Indeed, if the sequence is exact, then $\iota$ is injective, and hence $K\iso\ker f$, and thus the Isomorphism Theorem gives $H=\im f\iso G/\ker f\iso G/K$. Conversely, $\iota:K\into G$ is the inclusion, $f:G\to H\iso G/K$ is the projection, and $\im\iota=K=\ker f$.
+
+<div class="space"></div>
 
 &emsp;&emsp;The next Isomorphism Theorems deal with the structure of {{< link file="subgroup.md" display="subgroups" type="references" >}} of $G$, and are extremely useful.
 

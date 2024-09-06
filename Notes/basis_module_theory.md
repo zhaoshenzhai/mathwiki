@@ -21,6 +21,8 @@ Let $i:I\to M$ be any indexed set, which generates a unique {{< link file="free_
 
 **Remark.** If $i$ is non-injective, then neither is the induced map $f$, so those will not be linearly-independent. Thus, we may identify any linearly-independent set $i:I\into M$ with its image $S\subseteq M$ along with the ordering induced by $i$.
 
+<div class="space"></div>
+
 &emsp;&emsp;The situation is, of course, not so simple, since $M$ need not admit bases. An $R$-module $M$ is said to be *{{< link file="free_module.md" display="free" type="constructions" >}}* if it admits a basis, and a choice of basis $B$ is equivalent to a choice of isomorphism $M\iso R^{\oplus B}$. It turns out that an {{< link file="integral_domain.md" display="integral domain" type="references" >}} $R$ is a {{< link file="field.md" display="field" type="references" >}} iff{{< link file="field.md" type="justifications" mod="dag" >}} every $R$-module is free, which is the main reason why we focus on {{< link file="vector_space.md" display="vector spaces" type="references" >}} so much.
 
 ## Maximal Linearly-independent Sets

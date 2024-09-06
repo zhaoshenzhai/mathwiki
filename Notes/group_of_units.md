@@ -25,6 +25,8 @@ so $R^\times$ is closed under multiplication. The unit $1\in R$ is the identity 
 
 {{< /env >}}
 
+<div class="space"></div>
+
 **Remark.** Note that if $R=\End G$ for some {{< link file="abelian_group.md" display="abelian group" type="references" >}} $G$, then $R^\times=\Aut G$.
 
 ## Functorially of $(\slot)^\times$

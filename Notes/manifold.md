@@ -35,6 +35,4 @@ The presence of charts provide very strong restrictions on the topological prope
 
 ## {{< link file="smooth_manifold.md" display="Smooth" type="structures" >}} Manifolds
 
-
-
 ## Symplectic Manifolds

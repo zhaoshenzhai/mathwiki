@@ -28,7 +28,9 @@ Some fundamental concepts in category theory are as follows. Let $C$ be a catego
 * A morphism $f:x\to y$ is an *isomorphism* if there is a morphism $g:y\to x$ such that $g\circ f=1_x$ and $f\circ g=1_y$. A category whose morphisms are all isomorphisms is called a *{{< link file="groupoid.md" display="groupoid" type="types" >}}*.
 * An object $x$ is *initial* if for any object $y$, there is a unique morphism $x\to y$. Dually, $x$ is *final* if for any object $y$, there is a unique morphism $y\to x$. We say that $x$ is a *zero* object if it is both initial and final.
 
-**Remark.**  Initial objects (and dually for final objects), if they exist, are unique up to a unique isomorphisms.
+**Remark.**  Initial objects (and dually, for final objects), if they exist, are unique up to a unique isomorphisms. Although trivial to state and to prove, this observation is surprisingly useful.
+
+<div class="space"></div>
 
 {{< env type="proof" hide="false" >}}
 

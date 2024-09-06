@@ -13,6 +13,8 @@ Fix a {{< link file="ring.md" display="ring" type="references" >}} $R$. Its unde
 
 &emsp;&emsp;However, the presence of the multiplication operation motivates us to consider congruences on $G$ that also respect multiplication, in that $r_1\sim r_2$ and $s_1\sim s_2$ implies $r_1s_1\sim r_2s_2$. It turns out that those congruences correspond directly to special subgroups of $G$ (*not* {{< link file="subring.md" display="subrings" type="references" >}} of $R$), namely, the *ideals*:
 
+<div class="space"></div>
+
 **Remark.** Just like how $G$ can be viewed as a {{< link file="groupoid.md" display="groupoid" type="references" >}} with a single object, $R$ can be viewed as a {{< link file="preadditive_category.md" display="preadditive category" type="references" >}} with a single object. Then, the ‘special congruences’ discussed above are the actual congruences in this category. <span style="color:red">**TODO** (verify this).</span>
 
 {{< env type="definition" >}}

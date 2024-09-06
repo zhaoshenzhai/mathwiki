@@ -12,6 +12,8 @@ A special property of the {{< link file="category.md" display="category" type="r
 
 &emsp;&emsp;For an arbitrary homomorphism $f:G\to H$, we would like to find some group $K$ that ‘forces’ $f$ to ‘equalize’ with $0$ in a {{< link file="universal_constructions.md" display="universal" type="references" >}} way. This can be done in two (dual) ways, called the *kernel* and *cokernel* of $f$.
 
+<div class="space"></div>
+
 **Remark.** <span style="color:red">**TODO** (kernels as equalizers).</span>
 
 ## Kernel
