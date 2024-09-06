@@ -18,6 +18,18 @@ $$\begin{equation}
 
 {{< /env >}}
 
+**Remark.** Note that although many rings arise as $\End(G)$ for some abelian group $G$, they do not exhaust all rings; a counterexample is the ring $\Z/2\Z\times\Z/2\Z$, or the family of rings $\F_{p^2}$ for $p$ prime (the latter are {{< link file="finite_field.md" display="finite fields" type="references" >}}). See, however, {{< link file="cayleys_theorem.md" display="Cayley’s Theorem" type="properties" >}} for rings, which states that every ring $R$ is a *{{< link file="subring.md" display="subring" type="constructions" >}}* of $\End(R)$, where $R$ is its underlying abelian group.
+
+<div class="space"></div>
+
+&emsp;&emsp;The relevant structure-preserving maps for rings are as follows.
+
+{{< env type="definition" >}}
+
+A function $f:R\to S$ between rings is a *homomorphism* if it is a homomorphism between groups that preserves identity <span style="color:gray">[$f(1_R)=1_S$]</span> and the multiplication operation <span style="color:gray">[$f(r_1\cdot r_2)=f(r_1)\cdot f(r_2)$ for all $r_1,r_2\in R$]</span>.
+
+{{< /env >}}
+
 <h2 class="hide" id="arithmetic_in_rings">Arithmetic in Rings</h2>
 
 In this context, the operation $\cdot$ is often called *multiplication* (usually suppressed, so we write $rs$ for $r\cdot s$), which plays well with *addition*; for instance, we have $0r=r=r$ and $-r=(-1)r$ for all $r\in R$. However, ‘cancellation’ (i.e. $rs=rt$ implies $s=t$ for all $r\neq0$) does *not* hold in arbitrary rings. The issue is that there are elements $0\neq r\in R$ such that $rs=0$ for some $s\neq0$, which are called *(left-)zero-divisors*. Those are the only trouble makers, in that $r$ is a left-zero-divisor iff the left-multiplication map $s\mapsto rs$ fails to be injective.
@@ -39,18 +51,6 @@ If $rs=1$ for some $s\in R$ and $t\in R$, then $r(st)=(rs)t=t$. If not, then $1$
 Thus one should be careful in the arithmetic of rings, but those pitfalls will be eliminated in special types of rings (namely, {{< link file="integral_domain.md" display="integral domains" type="references" >}} and {{< link file="division_ring.md" display="division rings" type="references" >}}, respectively).
 
 <div class="space"></div>
-
-**Remark.** Note that although many rings arise as $\End(G)$ for some abelian group $G$, they do not exhaust all rings; a counterexample is the ring $\Z/2\Z\times\Z/2\Z$, or the family of rings $\F_{p^2}$ for $p$ prime (the latter are {{< link file="finite_field.md" display="finite fields" type="references" >}}). See, however, {{< link file="cayleys_theorem.md" display="Cayley’s Theorem" type="properties" >}} for rings, which states that every ring $R$ is a *{{< link file="subring.md" display="subring" type="constructions" >}}* of $\End(R)$, where $R$ is its underlying abelian group.
-
-<br>
-
-&emsp;&emsp;The relevant structure-preserving maps for rings are as follows.
-
-{{< env type="definition" >}}
-
-A function $f:R\to S$ between rings is a *homomorphism* if it is a homomorphism between groups that preserves identity <span style="color:gray">[$f(1_R)=1_S$]</span> and the multiplication operation <span style="color:gray">[$f(r_1\cdot r_2)=f(r_1)\cdot f(r_2)$ for all $r_1,r_2\in R$]</span>.
-
-{{< /env >}}
 
 <h2 id="category_of_rings">The {{< link file="category.md" display="Category" type="references" >}} of Rings</h2>
 

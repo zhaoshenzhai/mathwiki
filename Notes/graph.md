@@ -7,15 +7,27 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-The concept of a *graph* arose as an abstraction of typical situations in math, where one has a set of ‘objects’ on which connections can be established. These connections, formalized as a binary relation $G\subseteq V^2$ on some set $V$ of *vertices*, is called a ‘graph’ to emphasize the relation *between* objects, and is pictorially drawn as an *edge* $\blob\\!\\!\\!-\\!\\!\\!-\\!\blob$. Formally, we define:
+The concept of a *graph* arose as an abstraction of a typical situation in math where one has a set of ‘objects’ $V$ on which ‘connections’ between those objects can be established. The precise definition of a graph differs, depending on who you ask. Before embarking on the general definition, let us first define the simplest type of graphs, which will (unless otherwise stated) be the focus in these notes.
 
 {{< env type="definition" >}}
 
-A *graph* on a set $V$ of *vertices* is a pair $G\coloneqq(V,E)$, where $E\subseteq V^2$ is a symmetric irreflexive binary relation.
+A *(simple loopless undirected) graph* is a pair $G\coloneqq(V,E)$, where $V$ is a set and $E\subseteq V^2$ is a symmetric irreflexive binary relation. We write $uv\coloneqq\l\\{u,v\r\\}\eqqcolon e\in E$, in which case $u$ (and also $v$) are *incident* to $e$, and $u,v$ are *adjacent*.
+
+<br>
+
+&emsp;&emsp;A function $f:(V,E)\to(W,F)$ between graphs is a *graph homomorphism* if $uv\in E$ implies $f(u)f(v)\in F$.
 
 {{< /env >}}
 
-**Remark.** Equivalently, $E\subseteq[V]^2$ any collection of $2$-element subsets, and we write $uv\coloneqq\l\\{u,v\r\\}\in E$. The original definition, however, makes it clear that graphs are {{< link file="model.md" display="models" type="references" >}} of a {{< link file="theory.md" display="first-order theory" type="references" >}} of graphs.
+With graph homomorphisms as morphisms, simple graphs form a {{< link file="category" display="category" type="references" >}} $\catsgrph$.
+
+<div class="space"></div>
+
+## For a Graph Theorist
+
+<div class="space"></div>
+
+## For a Category Theorist
 
 # Finite Graph Theory
 

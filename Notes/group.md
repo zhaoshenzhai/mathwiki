@@ -28,7 +28,7 @@ The set $G$ is the set of ‘abstract transformations’ as described above. How
 
 &emsp;&emsp;In fact, *every* group arises this way{{< link file="group.md" type="references" secID="groupoid" secDisplay="Groupoid" mod="dag" >}} (as a concrete group) from the category $\cat{B}G$, but not all groups arise as automorphism groups of a set; see, however, {{< link file="cayleys_theorem.md" display="Cayley’s Theorem" type="properties" >}}, which states that every group is a *{{< link file="subgroup.md" display="subgroup" type="constructions" >}}* of an automorphism group of a set.
 
-<br>
+<div class="space"></div>
 
 &emsp;&emsp;The relevant structure-preserving maps for groups are as follows.
 

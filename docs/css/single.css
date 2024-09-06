@@ -1,0 +1,98 @@
+body {
+    color: var(--fg);
+    background-color: var(--bg);
+}
+
+body, h1, p {
+    margin: 0;
+    font-size: var(--size);
+}
+
+h2, p {
+    display: inline;
+}
+
+blockquote {
+    opacity: 0.6;
+    border-left: 3px solid var(--quote);
+    border-radius: 1px;
+    margin: 10px;
+    padding: 0.5em 10px;
+    transition: border-left var(--darkTransition);
+}
+
+#content, #metadata {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    text-align: left;
+}
+
+#content {
+    padding-top: 60px;
+    transition: width, padding-left, padding-right;
+    transition-duration: var(--splitScreenTransition);
+}
+
+#title {
+    letter-spacing: 8px;
+    line-height: 40px;
+    margin: 40px 0 30px 0;
+}
+
+#toggleSide {
+    top: 100px;
+    left: 0.5%;
+    margin: 0;
+}
+
+#toggleSide img {
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.h1Title {
+    margin: 20px 0 10px 0;
+}
+
+.headerBig {
+    font-size: var(--size);
+}
+
+.headerSmall {
+    font-size: var(--SCSize);
+}
+
+.left, .right {
+    width: 45%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.left {
+    z-index: 10;
+}
+
+.right {
+    right: 0%;
+    z-index: 9;
+    font-size: 23px !important;
+    transition: right var(--splitScreenTransition);
+}
+
+.center {
+    vertical-align: text-top;
+    text-align: center;
+}
+
+.space {
+    width: 100%;
+    height: 15px;
+}
+
+.bottomSpace {
+    width: 100%;
+    height: 150px;
+}

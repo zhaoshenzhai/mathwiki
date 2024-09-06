@@ -1,0 +1,20 @@
+#resetSide {
+    top: 0;
+    right: 3%;
+    z-index: 1000;
+    transition: right var(--splitScreenTransition);
+}
+
+#resetSide img {
+    height: 30px;
+    width: 30px;
+}
+
+.frame {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    border: none;
+    outline: none;
+}

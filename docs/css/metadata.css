@@ -1,0 +1,78 @@
+#metadata {
+    padding-top: 70px;
+    font-family: cmut;
+}
+
+#metaTOC, .metaLinkList {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height var(--collapseTranstion);
+}
+
+.metaLinkButton {
+    font-family: cmut;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0px;
+    text-align: left;
+    color: var(--fg);
+    background-color: var(--bg);
+}
+
+.metaLinkButton .icon {
+    height: 13px;
+    rotate: -90deg;
+    transition: rotate var(--rotateTransition), filter var(--darkTransition);
+}
+
+.metaLinkList {
+    font-family: cmu;
+    padding: 0 40px;
+    margin: 0;
+}
+
+.metaTOCListH1 {
+    font-size: 18px;
+}
+
+.metaTOCListH2 {
+    opacity: 0.6;
+}
+
+.metaTOCListH1 li, .metaTOCListH2 li {
+    display: block;
+}
+
+.metaTOCButton {
+    font-family: cmut;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 2px 5px;
+    margin: 0px;
+    text-align: left;
+    color: var(--fg);
+    background-color: var(--bg);
+}
+
+.metaButton {
+    display: inline;
+    font-family: cmut;
+    font-size: 18px;
+    opacity: 0.6;
+    z-index: 100;
+    padding: 2px 8px;
+    border: none;
+    border-radius: 8px;
+    color: var(--fg);
+    background-color: var(--bg);
+}
+
+.metaButton:hover, .metaLinkButton:hover, .metaTOCButton:hover {
+    cursor: pointer;
+    background-color: var(--box-bg);
+}
