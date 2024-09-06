@@ -37,6 +37,16 @@ If $u,v\in V$ are distinct vertices joined by a walk in $G$, we can choose a min
 
 <div class="space"></div>
 
+&emsp;&emsp;An easy characterization is that $G$ is disconnected iff there is a pairwise non-adjacent partition $V=X\sqcup Y$.
+
+> {{< env type="proof" hide="true" >}}
+
+Suppose that such a partition $V=X\sqcup Y$ exists and fix and $u\in X$ and $v\in Y$. If $(v\_i)\_{i\leq n}$ is a walk from $v_0\coloneqq u$ to $v_1\coloneqq v$, then there is a minimal $0<i\leq n$ with $v\_i\in Y$, and hence $v\_{i-1}v\_i\in E$ is an $X\\!-\\!Y$ edge. Conversely, pick $u,v\in V$ not joined by any walk in $G$ and let $X$ be the set of all vertices reachable from $x$ via walks (or, equivalently, let $X$ be the connected component containing $x$). Setting $Y\coloneqq V\comp X$ gives us the desired partition $V=X\sqcup Y$.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}
+
+<div class="space"></div>
+
 ## Simplicial Characterization
 
 <div class="space"></div>
