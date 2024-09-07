@@ -21,21 +21,17 @@ A *(simple loopless undirected) graph* is a pair $G\coloneqq(V,E)$, where $V$ is
 
 With graph homomorphisms as morphisms, simple graphs form a {{< link file="category.md" display="category" type="references" >}} $\catsgrph$. Note that graphs are also models of the $\mc{L}$-{{< link file="first_order_theory.md" display="theory" type="references" >}} $T$ of graphs (where $\mc{L}\coloneqq\l\\{E\r\\}$ contains a binary relation symbol) stating that $E$ is symmetric and irreflexive, so $\catsgrph=\cathom_\mc{L}$.
 
-## Basic Notions
+## Basic Constructions
 
-Fix a graph $G\coloneqq(V,E)$. Since {{< link file="limits_category_theory.md" display="coproducts" type="references" >}} in $\catsgrph$ are given by the disjoint union of underlying vertices and edges, we see that $G$ decomposes as a coproduct of its {{< link file="connectivity_graphs.md" display="connected" type="techniques" >}} subgraphs. Thus, we will assume here that $G$ is itself connected
-
-<br>
-
-&emsp;&emsp;For every vertex $v\in V$, its *{{< link file="degree_graph.md" display="degree" type="constructions" >}}* $d_G(v)$ is the cardinality of edges incident to $v$.
+Fix a graph $G\coloneqq(V,E)$. A *{{< link file="subgraph.md" display="subgraph" type="constructions" >}}* of a graph $G\coloneqq(V,E)$ is a {{< link file="substructure.md" display="substructure" type="references" >}} of $G$ in $\cathom_\mc{L}$, which is a graph $G'\coloneqq(V',E')$ with $V'\subseteq V$ and $E'\subseteq E$. On the other hand, considering the category $\catemb_\mc{L}$ of graphs with embeddings as morphisms instead gives us an *induced subgraph* of $G$, which is a subgraph $G'\coloneqq(V',E')$ of $G$ such that $E'=V'^2\cap E$.
 
 <br>
 
-&emsp;&emsp;A *{{< link file="subgraph.md" display="subgraph" type="constructions" >}}* of a graph $G\coloneqq(V,E)$ is a {{< link file="substructure.md" display="substructure" type="references" >}} of $G$ in $\cathom_\mc{L}$, which explicitly is a graph $G'\coloneqq(V',E')$ with $V'\subseteq V$ and $E'\subseteq E$. On the other hand, considering the category $\catemb_\mc{L}$ of graphs with embeddings as morphisms instead gives us the notion of an *induced subgraph* of $G$, which explicitly is a subgraph $G'\coloneqq(V',E')$ of $G$ such that $E'=V'^2\cap E$.
+&emsp;&emsp;Since {{< link file="limits_category_theory.md" display="coproducts" type="references" >}} in $\catsgrph$ are given by the disjoint union of underlying vertices and edges, we see that $G$ decomposes as a coproduct of its {{< link file="connectivity_graphs.md" display="connected" type="techniques" >}} subgraphs. Thus, we will assume here that $G$ is itself connected. <span style="color:red">**TODO**.</span>
 
 <div class="space"></div>
 
-&emsp;&emsp;The next section extends the definition to other ‘graph-like’ objects. We found that the most systematic way to talk about these variations is by viewing graphs as {{< link file="presheaf.md" display="presheaves" type="references" >}}.
+&emsp;&emsp;The next section extends the definition to other ‘graph-like’ objects. We found that the most systematic way to talk about these variations is by viewing graphs as {{< link file="presheaf.md" display="presheaves" type="references" >}}, but this language is not strictly necessary.
 
 <h2 class="hide">Graphs as Presheaves</h2>
 
@@ -51,7 +47,11 @@ Let $G\coloneqq(V,E)$ be a finite graph. We outline here some basic concepts and
 
 ## Degree
 
-It can easily be shown{{< link file="degree_graph" type="properties" secID="handshaking_lemma" secDisplay="Handshaking Lemma" mod="dag" >}} that $\sum_{v\in V}d_G(v)=2|E(G)|$, which implies that the number of vertices of odd degree is even.
+For each vertex $v\in V$, its *{{< link file="degree_graph.md" display="degree" type="constructions" >}}* $d_G(v)$ is the cardinality of its *neighbors* $N_G(v)\coloneqq\l\\{u\in V\st uv\in E\r\\}$. It can easily be shown{{< link file="degree_graph" type="properties" secID="handshaking_lemma" secDisplay="Handshaking Lemma" mod="dag" >}} that $\sum_{v\in V}d_G(v)=2|E(G)|$, which implies that the number of vertices of odd degree is even.
+
+<br>
+
+&emsp;&emsp;Control over the minimal degree $\delta(G)$, maximum degree $\Delta(G)$, and/or the average degree $d(G)$ can provide some rough bounds of sizes of certain subgraphs of $G$. For instance, every graph contains a path of length $\delta(G)$ and, if $\delta(G)\geq2$, a cycle of length at least $\delta(G)+1$.
 
 ## Matchings and Coverings
 
