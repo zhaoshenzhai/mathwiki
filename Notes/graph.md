@@ -47,7 +47,7 @@ Let $G\coloneqq(V,E)$ be a finite graph. We outline here some basic concepts and
 
 ## Degree
 
-For each vertex $v\in V$, its *{{< link file="degree_graph.md" display="degree" type="constructions" >}}* $d_G(v)$ is the cardinality of its *neighbors* $N_G(v)\coloneqq\l\\{u\in V\st uv\in E\r\\}$. It can easily be shown{{< link file="degree_graph" type="properties" secID="handshaking_lemma" secDisplay="Handshaking Lemma" mod="dag" >}} that $\sum_{v\in V}d_G(v)=2|E(G)|$, which implies that the number of vertices of odd degree is even.
+For each vertex $v\in V$, its *{{< link file="degree_graph.md" display="degree" type="constructions" >}}* $d_G(v)$ is the cardinality of its *neighbors* $N_G(v)\coloneqq\l\\{u\in V\st uv\in E\r\\}$. It can easily be shown{{< link file="degree_graph.md" type="properties" secID="handshaking_lemma" secDisplay="Handshaking Lemma" mod="dag" >}} that $\sum_{v\in V}d_G(v)=2|E(G)|$, which implies that the number of vertices of odd degree is even.
 
 <br>
 
