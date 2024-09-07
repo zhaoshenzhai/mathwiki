@@ -45,14 +45,6 @@ Consider a tuple $G\coloneqq(V,E,s,t)$, where $s,t:E\tto V$ are parallel maps be
 
 Let $G\coloneqq(V,E)$ be a finite graph. We outline here some basic concepts and techniques used to study finite graphs.
 
-## Degree
-
-For each vertex $v\in V$, its *{{< link file="degree_graph.md" display="degree" type="constructions" >}}* $d_G(v)$ is the cardinality of its *neighbors* $N_G(v)\coloneqq\l\\{u\in V\st uv\in E\r\\}$. It can easily be shown{{< link file="degree_graph.md" type="properties" secID="handshaking_lemma" secDisplay="Handshaking Lemma" mod="dag" >}} that $\sum_{v\in V}d_G(v)=2|E(G)|$, which implies that the number of vertices of odd degree is even.
-
-<br>
-
-&emsp;&emsp;Control over the minimal degree $\delta(G)$, maximum degree $\Delta(G)$, and/or the average degree $d(G)$ can provide some rough bounds of sizes of certain subgraphs of $G$. For instance, every graph contains a path of length $\delta(G)$ and, if $\delta(G)\geq2$, a cycle of length at least $\delta(G)+1$.
-
 ## Matchings and Coverings
 
 ## Flows and Colouring

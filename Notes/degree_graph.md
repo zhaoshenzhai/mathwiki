@@ -35,5 +35,6 @@ If $G$ is finite, the *average* degree $d(G)\coloneqq\frac{1}{|V(G)|}\sum_{v\in 
 
 We let $\delta(G)$ and $\Delta(G)$ respectively denote the minimal and maximal degrees of vertices in $G$.
 
-# Brooke’s Theorem
+## Brooke’s Theorem
 
+# Locally-finite Graphs
