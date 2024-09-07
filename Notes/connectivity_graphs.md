@@ -50,4 +50,10 @@ Suppose that such a partition $V=X\sqcup Y$ exists and fix $u\in X$ and $v\in Y$
 
 ## Connectivity
 
+{{< env type="definition" >}}
+
+Let $k\in\N$. A graph $G$ is said to be *$k$-connected* if $|V|\geq k$ and $G-X$ is connected for every $X\subseteq V$ with $|X|<k$.
+
+{{< /env >}}
+
 # Structure of Connectivity

@@ -27,7 +27,7 @@ Fix a graph $G\coloneqq(V,E)$. A *{{< link file="subgraph.md" display="subgraph"
 
 <br>
 
-&emsp;&emsp;Since {{< link file="limits_category_theory.md" display="coproducts" type="references" >}} in $\catsgrph$ are given by the disjoint union of underlying vertices and edges, we see that $G$ decomposes as a coproduct of its {{< link file="connectivity_graphs.md" display="connected" type="constructions" secID="connected_components" secDisplay="Connected Components" >}} subgraphs. Thus, we will assume here that $G$ is itself connected. <span style="color:red">**TODO**.</span>
+&emsp;&emsp;Since {{< link file="limits_category_theory.md" display="coproducts" type="references" >}} in $\catsgrph$ are given by the disjoint union of their underlying vertices and edges, we see that $G$ decomposes as a coproduct of its {{< link file="connectivity_graphs.md" display="connected" type="constructions" secID="connected_components" secDisplay="Connected Components" >}} subgraphs. Thus, we will assume here that $G$ is itself connected. <span style="color:red">**TODO**.</span>
 
 <div class="space"></div>
 
