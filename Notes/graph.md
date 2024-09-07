@@ -19,11 +19,19 @@ A *(simple loopless undirected) graph* is a pair $G\coloneqq(V,E)$, where $V$ is
 
 {{< /env >}}
 
-With graph homomorphisms as morphisms, simple graphs form a {{< link file="category" display="category" type="references" >}} $\catsgrph$. Note that graphs are also models of the $\mc{L}$-{{< link file="first_order_theory.md" display="theory" type="references" >}} $T$ of graphs (where $\mc{L}\coloneqq\l\\{E\r\\}$ contains a binary relation symbol) stating that $E$ is symmetric and irreflexive, so $\catsgrph=\cathom_\mc{L}$.
+With graph homomorphisms as morphisms, simple graphs form a {{< link file="category.md" display="category" type="references" >}} $\catsgrph$. Note that graphs are also models of the $\mc{L}$-{{< link file="first_order_theory.md" display="theory" type="references" >}} $T$ of graphs (where $\mc{L}\coloneqq\l\\{E\r\\}$ contains a binary relation symbol) stating that $E$ is symmetric and irreflexive, so $\catsgrph=\cathom_\mc{L}$.
+
+## Basic Notions
+
+Fix a graph $G\coloneqq(V,E)$. Since {{< link file="limits_category_theory.md" display="coproducts" type="references" >}} in $\catsgrph$ are given by the disjoint union of underlying vertices and edges, we see that $G$ decomposes as a coproduct of its {{< link file="connectivity_graphs.md" display="connected" type="techniques" >}} subgraphs. Thus, we will assume here that $G$ is itself connected
 
 <br>
 
-&emsp;&emsp;A *subgraph* of a graph $G\coloneqq(V,E)$ is a substructure of $G$ in $\cathom_\mc{L}$, which explicitly is a graph $G'\coloneqq(V',E')$ with $V'\subseteq V$ and $E'\subseteq E$. On the other hand, considering the category $\catemb_\mc{L}$ of graphs with embeddings as morphisms instead gives us the notion of an *induced subgraph* of $G$, which explicitly is a subgraph $G'\coloneqq(V',E')$ of $G$ such that $E'=V'^2\cap E$.
+&emsp;&emsp;For every vertex $v\in V$, its *{{< link file="degree_graph.md" display="degree" type="constructions" >}}* $d_G(v)$ is the cardinality of edges incident to $v$.
+
+<br>
+
+&emsp;&emsp;A *{{< link file="subgraph.md" display="subgraph" type="constructions" >}}* of a graph $G\coloneqq(V,E)$ is a {{< link file="substructure.md" display="substructure" type="references" >}} of $G$ in $\cathom_\mc{L}$, which explicitly is a graph $G'\coloneqq(V',E')$ with $V'\subseteq V$ and $E'\subseteq E$. On the other hand, considering the category $\catemb_\mc{L}$ of graphs with embeddings as morphisms instead gives us the notion of an *induced subgraph* of $G$, which explicitly is a subgraph $G'\coloneqq(V',E')$ of $G$ such that $E'=V'^2\cap E$.
 
 <div class="space"></div>
 
@@ -37,6 +45,28 @@ Consider a tuple $G\coloneqq(V,E,s,t)$, where $s,t:E\tto V$ are parallel maps be
 
 &emsp;&emsp;<span style="color:red">**TODO** (see https://mathoverflow.net/questions/321897/is-mathrmgraph-cartesian-closed?noredirect=1&lq=1).</span>
 
-# Finite Graph Theory
+# {{< link file="finite_graph.md" display="Finite Graph" type="types" >}} Theory
+
+Let $G\coloneqq(V,E)$ be a finite graph. We outline here some basic concepts and techniques used to study finite graphs.
+
+## Degree
+
+It can easily be shown{{< link file="degree_graph" type="properties" secID="handshaking_lemma" secDisplay="Handshaking Lemma" mod="dag" >}} that $\sum_{v\in V}d_G(v)=2|E(G)|$, which implies that the number of vertices of odd degree is even.
+
+## Matchings and Coverings
+
+## Flows and Colouring
+
+## Planar Graphs
 
 # Infinite Graph Theory
+
+## The Random Graph
+
+## Ends of Graphs
+
+## Amenability of Graphs
+
+## Definable Graphs
+
+# Extremal Graph Theory
