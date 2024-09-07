@@ -19,9 +19,27 @@ Let $G$ be a (simple) {{< link file="graph.md" display="graph" type="references"
 
 The *{{< link file="degree_graph.md" display="degree" type="constructions" >}}* $d_G(v)$ of a vertex $v\in V$ is the cardinality of its *neighbors* $N_G(v)\coloneqq\l\\{u\in V\st uv\in E\r\\}$. It can easily be shown{{< link file="degree_graph.md" type="properties" secID="handshaking_lemma" secDisplay="Handshaking Lemma" mod="dag" >}} that $\sum_{v\in V}d_G(v)=2|E(G)|$, which implies that the number of vertices of odd degree is even. Control over the minimum degree $\delta(G)$, maximum degree $\Delta(G)$, or the average degree $d(G)$ can provide some rough bounds of sizes of certain subgraphs of $G$.
 
-<br>
+# Basic Questions and Results
 
-&emsp;&emsp;A basic result illustrating this phenomenon is that every {{< link file="connectivity_graphs.md" display="connected" type="references" >}} graph with $|V|\geq3$ contains path or cycle of length at least $\min\l\\{2\delta(G),|V|\r\\}$. In particular, this implies *Dirac’s Theorem*, that $G$ contains a {{< link file="hamiltonian_cycle" display="Hamiltonian cycle" type="constructions" >}} if $2\delta(G)\geq|V|\geq3$.
+The first ever result in graph theory is the *Königsberg Bridge Problem*, solved by Euler in 1736, which concerns walks in a graph that traverse every edge exactly once. Nowadays, they are called *Euler tours*, and graphs that admit such tours are said to be *Eulerian*.
+
+{{< env type="theorem" name="Königsberg Bridge; Euler 1736" >}}
+
+A finite connected graph is Eulerian iff every vertex has even degree.
+
+{{< /env >}}
+
+{{< env type="proof" hide="false" >}}
+
+Let $G$ be a finite connected graph. If an Euler tour exists and a vertex $v\in V(G)$ appears $k$ times in this tour, then $d_G(v)=2k$ is even. Conversely, we proceed by induction on $l\coloneqq|E(G)|$. The case when $l=0$ is immediate, so suppose that $l>0$.
+
+{{< /env >}}
+
+## {{< link file="hamiltonian_cycle.md" display="Hamiltonian Cycle" type="constructions" >}}
+
+<span style="color:red">**TODO**.</span>
+
+A basic result illustrating this phenomenon is that every {{< link file="connectivity_graphs.md" display="connected" type="references" >}} graph with $|V|\geq3$ contains path or cycle of length at least $\min\l\\{2\delta(G),|V|\r\\}$. In particular, this implies *Dirac’s Theorem*, that $G$ contains a Hamiltonian cycle if $2\delta(G)\geq|V|\geq3$.
 
 <div class="space"></div>
 
@@ -35,10 +53,14 @@ Let $n\coloneqq|V|$. Dirac’s Theorem follows from the claim, since if $2\delta
 
 <br>
 
-&emsp;&emsp;If not, then by connectedness of $G$ there is some $v\in G-C$ neighboring a vertex $v_j\in V(P)$. Cutting any incident edge of $v_j$ in $C$
-and adding an edge $vv_j$ will result in a path of length $k+1$, contradicting the choice of $P$.<span style="float:right;">$\blacksquare$</span>
+&emsp;&emsp;If not, then by connectedness of $G$ there is some $v\in G-C$ neighboring a vertex $v_j\in V(P)$. Cutting any incident edge of $v_j$ in $C$ and adding an edge $vv_j$ will result in a path of length $k+1$, contradicting the choice of $P$.<span style="float:right;">$\blacksquare$</span>
+
 {{< /env >}}
 
-# ...
+## Matchings and Coverings
+
+## Flows and Colourings
+
+## Planar Graphs
 
 # Compactness and Contradiction
