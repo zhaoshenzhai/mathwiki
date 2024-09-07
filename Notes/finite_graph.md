@@ -13,11 +13,21 @@ Let $G$ be a (simple) {{< link file="graph.md" display="graph" type="references"
 
 <div class="space"></div>
 
-&emsp;&emsp;*Throughout, let $G\coloneqq(V,E)$ be a finite graph*.
+&emsp;&emsp;*Throughout this entire page, all graphs are finite unless stated otherwise.*
 
 ## Basic Notions
 
 The *{{< link file="degree_graph.md" display="degree" type="constructions" >}}* $d_G(v)$ of a vertex $v\in V$ is the cardinality of its *neighbors* $N_G(v)\coloneqq\l\\{u\in V\st uv\in E\r\\}$. It can easily be shown{{< link file="degree_graph.md" type="properties" secID="handshaking_lemma" secDisplay="Handshaking Lemma" mod="dag" >}} that $\sum_{v\in V}d_G(v)=2|E(G)|$, which implies that the number of vertices of odd degree is even. Control over the minimum degree $\delta(G)$, maximum degree $\Delta(G)$, or the average degree $d(G)$ can provide some rough bounds of sizes of certain subgraphs of $G$.
+
+<br>
+
+&emsp;&emsp;A simple example of this is that every graph contains a {{< link file="connectivity_graphs.md" display="path" type="references" secID="paths_and_walks" secDisplay="Paths and Walks" >}} of length $\delta(G)$ and, if $\delta(G)\geq2$, a cycle of length at least $\delta(G)+1$.
+
+>{{< env type="proof" hide="false" >}}
+
+Let $P\coloneqq v_0\cdots v_k$ be a path of maximum length. The neighbors $N_G(v_0)$ must all lie on $P$, by maximality of $k$, and hence we have $k\geq d_G(v_0)\geq\delta(G)$. Moreover, if $i>0$ is the maximal index for which $v_0v_i\in E$, then $i\geq d_G(v_0)\geq\delta(G)$, and hence $v_0\cdots v_iv_0$ is a cycle of length $i+1\geq\delta(G)+1$.<span style="float:right;">$\blacksquare$</span>
+
+{{< /env >}}
 
 # Basic Questions and Results
 
@@ -25,13 +35,13 @@ The first ever result in graph theory is the *Königsberg Bridge Problem*, solve
 
 {{< env type="theorem" name="Königsberg Bridge; Euler 1736" >}}
 
-A finite connected graph is Eulerian iff every vertex has even degree.
+A connected graph is Eulerian iff every vertex has even degree.
 
 {{< /env >}}
 
 {{< env type="proof" hide="false" >}}
 
-Let $G$ be a finite connected graph. If an Euler tour exists and a vertex $v\in V(G)$ appears $k$ times in this tour, then $d_G(v)=2k$ is even. Conversely, we proceed by induction on $l\coloneqq|E(G)|$. The case when $l=0$ is immediate, so suppose that $l>0$.
+Let $G$ be a connected graph. If an Euler tour exists and a vertex $v\in V(G)$ appears $k$ times in this tour, then $d_G(v)=2k$ is even. Conversely, we proceed by induction on $l\coloneqq|E(G)|$. The case when $l=0$ is immediate, so suppose that $l>0$.
 
 {{< /env >}}
 

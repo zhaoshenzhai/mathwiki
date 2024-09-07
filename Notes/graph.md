@@ -27,7 +27,7 @@ Fix a graph $G\coloneqq(V,E)$. A *{{< link file="subgraph.md" display="subgraph"
 
 <br>
 
-&emsp;&emsp;Since {{< link file="limits_category_theory.md" display="coproducts" type="references" >}} in $\catsgrph$ are given by the disjoint union of underlying vertices and edges, we see that $G$ decomposes as a coproduct of its {{< link file="connectivity_graphs.md" display="connected" type="techniques" >}} subgraphs. Thus, we will assume here that $G$ is itself connected. <span style="color:red">**TODO**.</span>
+&emsp;&emsp;Since {{< link file="limits_category_theory.md" display="coproducts" type="references" >}} in $\catsgrph$ are given by the disjoint union of underlying vertices and edges, we see that $G$ decomposes as a coproduct of its {{< link file="connectivity_graphs.md" display="connected" type="constructions" secID="connected_components" secDisplay="Connected Components" >}} subgraphs. Thus, we will assume here that $G$ is itself connected. <span style="color:red">**TODO**.</span>
 
 <div class="space"></div>
 
@@ -41,24 +41,14 @@ Consider a tuple $G\coloneqq(V,E,s,t)$, where $s,t:E\tto V$ are parallel maps be
 
 &emsp;&emsp;<span style="color:red">**TODO** (see https://mathoverflow.net/questions/321897/is-mathrmgraph-cartesian-closed?noredirect=1&lq=1).</span>
 
-# {{< link file="finite_graph.md" display="Finite Graph" type="types" >}} Theory
+# Techniques and Paradigms
 
-Let $G\coloneqq(V,E)$ be a finite graph. We outline here some basic concepts and techniques used to study finite graphs.
+## {{< link file="finite_graph.md" display="Finite Graph" type="types" >}} Theory
 
-## Matchings and Coverings
+## Infinite Graph Theory
 
-## Flows and Colouring
+# Applications and Generalizations
 
-## Planar Graphs
+## Geometric Group Theory
 
-# Infinite Graph Theory
-
-## The Random Graph
-
-## Ends of Graphs
-
-## Amenability of Graphs
-
-## Definable Graphs
-
-# Extremal Graph Theory
+## Simplicial Complexes

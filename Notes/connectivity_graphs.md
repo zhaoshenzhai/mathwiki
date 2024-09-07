@@ -15,7 +15,7 @@ tags: [In_Progress]
 
 <h2 id="paths_and_walks">Paths and Walks</h2>
 
-Let $G\coloneqq(V,E)$ be a simple graph. A *path* in $G$ is a subgraph $P\subseteq G$ of the form $V(P)=\l\\{v_0,\dots,v_n\r\\}$ and $E(P)\coloneqq\l\\{v_0v_1,v_1v_2,\dots,v_{n-1}v_n\r\\}$, where each $v_i\in V$ are all distinct. Note that any path $P$ determines a sequence of vertices $(v_i)_{i\leq n}$.
+Let $G\coloneqq(V,E)$ be a simple graph. A *path* in $G$ is a {{< link file="subgraph.md" display="subgraph" type="references" >}} $P\subseteq G$ of the form $V(P)=\l\\{v_0,\dots,v_n\r\\}$ and $E(P)\coloneqq\l\\{v_0v_1,v_1v_2,\dots,v_{n-1}v_n\r\\}$, where each $v_i\in V$ are all distinct. Note that any path $P$ determines a sequence of vertices $(v_i)_{i\leq n}$.
 
 <br>
 
@@ -33,17 +33,20 @@ If $u,v\in V$ are distinct vertices joined by a walk in $G$, we can choose a min
 
 {{< /env >}}
 
-<div class="space"></div>
+<h2 id="connected_components" class="hide">Connected Components</h2>
 
-&emsp;&emsp;An easy characterization is that $G$ is disconnected iff there is a pairwise non-adjacent partition $V=X\sqcup Y$.
+A *(connected) component* of $G$ is a maximal connected subgraph of $G$. It is clear that every vertex is contained in a component (namely, the union of all connected subgraphs of $G$ containing it), and this component is unique since the union of connected intersecting subgraphs of $G$ is also connected.
+
+<br>
+
+&emsp;&emsp;Using components, we can prove that $G$ is disconnected iff there is a pairwise non-adjacent partition $V(G)=X\sqcup Y$.
 
 > {{< env type="proof" hide="true" >}}
 
-Suppose that such a partition $V=X\sqcup Y$ exists and fix $u\in X$ and $v\in Y$. If $(v\_i)\_{i\leq n}$ is a walk from $v_0\coloneqq u$ to $v_1\coloneqq v$, then there is a minimal $0<i\leq n$ with $v\_i\in Y$, and hence $v\_{i-1}v\_i\in E$ is an $X\\!-\\!Y$ edge. Conversely, pick $u,v\in V$ not joined by any walk in $G$ and let $X$ be the set of all vertices reachable from $x$ via walks (or, equivalently, let $X$ be the connected component containing $x$). Setting $Y\coloneqq V\comp X$ gives us the desired partition $V=X\sqcup Y$.<span style="float:right;">$\blacksquare$</span>
+Suppose that such a partition $V=X\sqcup Y$ exists and fix $u\in X$ and $v\in Y$. If $(v\_i)\_{i\leq n}$ is a walk from $v_0\coloneqq u$ to $v_1\coloneqq v$, then there is a minimal $0<i\leq n$ with $v\_i\in Y$, and hence $v\_{i-1}v\_i\in E$ is an $X\\!-\\!Y$ edge. Conversely, pick $u,v\in V$ not joined by any walk in $G$ and let $X$ be the component containing $v$. Setting $Y\coloneqq V\comp X$ gives us the desired partition $V=X\sqcup Y$.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
-
-## Simplicial Characterization
+<h2 class="hide">Simplicial Characterization</h2>
 
 ## Connectivity
 
