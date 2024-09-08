@@ -87,3 +87,5 @@ In this sense, all local properties of $f$ boil down to checking it for its coor
 ## Algebraic Topology
 
 # Examples of Smooth Manifolds
+
+## Lie Groups
