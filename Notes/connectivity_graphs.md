@@ -1,8 +1,8 @@
 ---
 title: Connectivity in Graphs
 date: 2024-09-05T22:37:16-04:00
-references: []
-tags: [In_Progress]
+references: [Die17]
+tags: [Graph_Theory]
 ---
 
 # Motivation & Definition

@@ -1,8 +1,8 @@
 ---
 title: Graph
 date: 2024-09-05T18:13:24-04:00
-references: []
-tags: [In_Progress]
+references: [Die17]
+tags: [Graph_Theory]
 ---
 
 # Motivation & Definition
