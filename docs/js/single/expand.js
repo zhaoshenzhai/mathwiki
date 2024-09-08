@@ -96,13 +96,13 @@ function collapse([container, header, content, hintText], expandAncestor) {
     header.classList.add('hidden');
 
     if (header.tagName == 'H1') {
+        container.style.maxHeight = '200px';
         disableChildren(content, true);
         content.classList.add('noSelect');
         content.childNodes[0].style.opacity = '1';
         content.childNodes[1].style.opacity = '1';
         content.childNodes[0].style.zIndex = '100';
         content.childNodes[1].style.zIndex = '100';
-        container.style.maxHeight = '200px';
     } else {
         container.style.maxHeight = (getTextHeight() + 2) + 'px';
         content.style.opacity = '0';

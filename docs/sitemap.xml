@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/connectivity_graphs/</loc>
-    <lastmod>2024-09-05T22:37:16-04:00</lastmod>
-  </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
-    <lastmod>2024-09-05T22:37:16-04:00</lastmod>
+    <lastmod>2024-09-07T17:35:42-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
-    <lastmod>2024-09-05T22:37:16-04:00</lastmod>
+    <lastmod>2024-09-07T17:35:42-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/partition_of_unity/</loc>
+    <lastmod>2024-09-07T17:35:42-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
+    <lastmod>2024-09-07T17:35:42-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/finite_graph/</loc>
+    <lastmod>2024-09-06T23:44:59-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/degree_graph/</loc>
+    <lastmod>2024-09-06T20:21:22-04:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/connectivity_graphs/</loc>
     <lastmod>2024-09-05T22:37:16-04:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/graph/</loc>

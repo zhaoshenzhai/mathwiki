@@ -188,18 +188,13 @@ function formatHeader(header, type) {
         wrapper.insertBefore(contentMaskTop, wrapper.childNodes[0]);
     }
 
-    // if (type == 'H1') {
-    //     contentMaskTop.style.height = '150px';
-    // } else if (type == 'H2') {
-    //     contentMaskTop.style.height = '30px';
-    // }
-
     container.appendChild(wrapper);
 
-    var h2BotSpace = document.createElement('div');
-    h2BotSpace.classList.add('space');
-
-    container.after(h2BotSpace);
+    if (type == 'H2' && !header.classList.contains('noSpace')) {
+        var h2BotSpace = document.createElement('div');
+        h2BotSpace.classList.add('space');
+        container.parentElement.insertBefore(h2BotSpace, container);
+    }
 }
 
 function formatHeaderHelper(header, wrapper, curEl, type) {

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang=en-US class="noScroll">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Degree (Graph Theory)</title>
+
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/darkMode.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/variables.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/noProperty.css">
+
+
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module"></script>
+
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body class="listenDark">
+        
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaLinks.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaTOC.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/preview.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/expand.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/side.js" type="module"></script>
+
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/ctrlButtons.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/collapsible.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+
+    <div id="mainPage">
+        <button id="toggleDark" onclick="toggleDark(document, false, true, true);" class="ctrlButton noSelect inPreview">
+            <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
+        </button>
+        <button id="toggleSide" onclick="toggleSide(false);" class="ctrlButton noSelect inPreview">
+            <img id="toggleSideIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
+        </button>
+        <div id="content" class="left noScroll">
+            
+                <h1 id="title" titleSize="">
+                    Degree (Graph Theory)
+                </h1>
+            
+            <h1 id="motivation--definition">Motivation &amp; Definition</h1>
+<p>Let $G$ be a (simple) <a href=https://zhaoshenzhai.github.io/mathwiki/graph.md class="internalLink references" title="Graph" mathLink="" secID="" secDisplay="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/graph.md&#34;, {&#34;Date&#34;:&#34;2024-09-05T18:13:24-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-09-05T18:13:24-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-09-05T18:13:24-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Graph&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/graph&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onmouseleave="clearPreviewSide({&#34;Date&#34;:&#34;2024-09-05T18:13:24-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-09-05T18:13:24-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-09-05T18:13:24-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Graph&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/graph&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/graph.md&#34;, {&#34;Date&#34;:&#34;2024-09-05T18:13:24-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-09-05T18:13:24-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-09-05T18:13:24-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Graph&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/graph&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">graph</a>. Although very crude, good control over the <em>degree</em> of a vertex in $G$ can form the basis of some interesting combinatorial results when $G$ is <a href=https://zhaoshenzhai.github.io/mathwiki/finite_graph.md class="internalLink references" title="Finite Graph" mathLink="" secID="" secDisplay="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/finite_graph.md&#34;, {&#34;Date&#34;:&#34;2024-09-06T23:44:59-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-09-06T23:44:59-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-09-06T23:44:59-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Finite Graph&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/finite_graph&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onmouseleave="clearPreviewSide({&#34;Date&#34;:&#34;2024-09-06T23:44:59-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-09-06T23:44:59-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-09-06T23:44:59-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Finite Graph&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/finite_graph&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/finite_graph.md&#34;, {&#34;Date&#34;:&#34;2024-09-06T23:44:59-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-09-06T23:44:59-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-09-06T23:44:59-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Finite Graph&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/finite_graph&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">finite</a>. If $G$ is <a href=https://zhaoshenzhai.github.io/mathwiki/infinite_graph.md class="internalLink references ghostLink" title="infinite" mathLink="" secID="" secDisplay="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/infinite_graph.md&#34;, &#34;nopPage&#34;);" onmouseleave="clearPreviewSide(&#34;nopPage&#34;);" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/infinite_graph.md&#34;, &#34;nopPage&#34;);">infinite</a>, this notion can instead be used as a measure of the local complexity of $G$.</p>
+<div class="env envDef" id=""><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg"><b class="envTitle">Definition. </b>The <em>degree</em> of a vertex $v\in V(G)$ is the <a href=https://zhaoshenzhai.github.io/mathwiki/cardinal class="internalLink references ghostLink" title="cardinality" mathLink="" secID="" secDisplay="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/cardinal&#34;, &#34;nopPage&#34;);" onmouseleave="clearPreviewSide(&#34;nopPage&#34;);" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/cardinal&#34;, &#34;nopPage&#34;);">cardinality</a> $d_G(v)$ of its <em>neighbors</em> $N_G(v)\coloneqq\l\{u\in V\st uv\in E\r\}$.</div>
+
+<h2 id="handshaking_lemma">Handshaking Lemma</h2>
+<p>We have $\sum_{v\in V}d_G(v)=2|E(G)|$, which is intuitively obvious since summing all the degrees counts each edge twice, once from each of its ends. Formally, we consider the map $i_v:E\to2$ with $e\mapsto1$ iff $v\in e$, and observe that
+$$\begin{equation}
+\sum_{v\in V}d_G(v)=\sum_{v\in V}\sum_{e\in E}i_v(e)=\sum_{e\in E}\sum_{v\in V}i_v(e)=\sum_{e\in E}2=2|E(G)|.
+\end{equation}$$
+An immediate corollary of this result is the so-called <em>Handshaking Lemma</em>, stating that the number of vertices of odd degree in a finite graph $G$ is always even. This <em>fails</em> for infinite graphs: consider, for instance, the infinite ray $\N$.</p>
+<blockquote>
+<div class="collapsibleContainer" id=""><i class="proofHeader collapsibleHeaderButton collapsibleHeader noSelect">Proof.</i><span class="collapsibleHintText noSelect"><i> Click to expand...</i></span>
+
+        <span class="collapsibleContent">Splitting off the even-degree vertices and keeping only the odd-degrees ones $v_i,\dots,v_m$, we see that $\sum_{i\leq m}(2n_i+1)$ is even, where $2n_i+1=d_G(v_i)$. Hence $m+2\sum_{i\leq m}n_i$ is even, and thus so is $m$.<span style="float:right;">$\blacksquare$</span></span></div>
+
+</blockquote>
+<p>If $G$ is finite, the <em>average</em> degree $d(G)\coloneqq\frac{1}{|V(G)|}\sum_{v\in V}d_G(v)$ of $G$ is, by the result above, twice the ratio $\epsilon(G)\coloneqq|E(G)|/|V(G)|$.</p>
+<h2 id="bounds-on-degrees">Bounds on Degrees</h2>
+<p>We let $\delta(G)$ and $\Delta(G)$ respectively denote the minimal and maximal degrees of vertices in $G$.</p>
+<h2 id="brookes-theorem">Brooke’s Theorem</h2>
+<h1 id="locally-finite-graphs">Locally-finite Graphs</h1>
+
+
+            <div class="bottomSpace">&nbsp;</div>
+        </div>
+
+        <div id="side" class="inPreview">
+            <div id="metadata" class="right noScroll">
+                September 6, 2024 | Zhaoshen Zhai
+
+                <div>References:
+                     None 
+                </div>
+                <div>Tags:
+                    
+                        <div class="metaButton metaTag listenDark">#In_Progress</div>
+                    
+                </div>
+                <br>
+
+                <div>Table of Contents:
+                    <button class="metaButton listenDark" onclick="showMetaTOC();">Show</button>
+                    <button class="metaButton listenDark" onclick="hideMetaTOC();">Hide</button>
+                    <div id="metaTOC"></div>
+                </div>
+                <div>Links:
+                    <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
+                    <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
+                    <div id="metaLinks"></div>
+                </div>
+
+                <div class="bottomSpace">&nbsp;</div>
+            </div>
+            <div id="previewContainer">
+                <button id="resetSide" onclick="resetSide();" class="ctrlButton noSelect" style="display: none;">
+                    <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+        <div id="searchBox" style="display: none;">
+            <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" onmouseover="searchItemActive(9)"></li>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -5,4 +5,16 @@ references: []
 tags: [In_Progress]
 ---
 
-# Motivation & Definition
+# The Zariski Tangent Space
+
+## Locally Ringed Space
+
+# Tangent Space of Smooth Manifolds
+
+## Derivations
+
+## Velocity Vectors
+
+## The Tangent Bundle
+
+## Local Computations

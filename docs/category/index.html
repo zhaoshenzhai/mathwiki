@@ -72,13 +72,12 @@
 <li>A morphism $f:x\to y$ is an <em>isomorphism</em> if there is a morphism $g:y\to x$ such that $g\circ f=1_x$ and $f\circ g=1_y$. A category whose morphisms are all isomorphisms is called a <em><a href=https://zhaoshenzhai.github.io/mathwiki/groupoid.md class="internalLink types ghostLink" title="groupoid" mathLink="" secID="" secDisplay="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/groupoid.md&#34;, &#34;nopPage&#34;);" onmouseleave="clearPreviewSide(&#34;nopPage&#34;);" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/groupoid.md&#34;, &#34;nopPage&#34;);">groupoid</a></em>.</li>
 <li>An object $x$ is <em>initial</em> if for any object $y$, there is a unique morphism $x\to y$. Dually, $x$ is <em>final</em> if for any object $y$, there is a unique morphism $y\to x$. We say that $x$ is a <em>zero</em> object if it is both initial and final.</li>
 </ul>
-<p><strong>Remark.</strong>  Initial objects (and dually for final objects), if they exist, are unique up to a unique isomorphisms.</p>
+<p><strong>Remark.</strong>  Initial objects (and dually, for final objects), if they exist, are unique up to a unique isomorphisms. Although trivial to state and to prove, this observation is surprisingly useful.</p>
 <div class="space"></div>
 <div class="collapsibleContainer" id=""><i class="proofHeader collapsibleHeaderButton collapsibleHeader noSelect">Proof.</i><span class="collapsibleHintText noSelect"><i> Click to expand...</i></span>
 
         <span class="collapsibleContent">If $x,x&rsquo;\in C$ are initial, then there is a unique morphism $f:x\to x&rsquo;$. Similarly, there is a unique morphism $g:x&rsquo;\to x$, and they compose $g\circ f$ to a morphism in $C(x,x)$. But $C(x,x)$ is a singleton since $x$ is initial, and it contains $1_x$, so $g\circ f=1_x$. Similarly, $f\circ g=1_{x&rsquo;}$, so $f:x\to x&rsquo;$ is an isomorphism as desired.<span style="float:right;">$\blacksquare$</span></span></div>
 
-<div class="space"></div>
 <h2 id="examples-of-categories">Examples of Categories</h2>
 <p>The archetypical example of a category is $\catset$, whose objects are sets and whose morphisms are maps. The isomorphisms in $\catset$ are then bijections, and its initial and final objects are $\em$ and <em>any</em> singleton, respectively.</p>
 <br>

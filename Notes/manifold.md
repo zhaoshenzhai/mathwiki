@@ -25,6 +25,10 @@ Charts can be seen as giving *local-coordinates* to points in $M$: if $(U,\phi)$
 
 The presence of charts provide very strong restrictions on the topological properties of manifolds.
 
+<br>
+
+&emsp;&emsp;{{< link file="partition_of_unity.md" display="partition of unity" type="references" >}}
+
 ## Point-set Topology
 
 ## Fundamental Groups and Covering Spaces

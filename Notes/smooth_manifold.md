@@ -29,6 +29,10 @@ is smooth as a map from an open subset of $\R^n$ to $\R^n$.
 
 **Remark.** The smooth structure is an *additional* piece of data that must be provided, and in general, there are many such choices.
 
+<div class="space"></div>
+
+&emsp;&emsp;The *local analysis* of manifolds thus reduces, via charts, to the local properties of $\R^n$. However, the *global analysis* of manifolds is entirely new, and many new techniques have been developed to tackle questions in this area.
+
 ## Smooth Maps
 
 We would like to ‘lift’ the notion of smoothness of maps $f:\R^n\to\R^m$ to manifolds. By design, this can only be done by testing $f:M\to N$, for manifolds $M,N$, against charts:
@@ -66,7 +70,7 @@ and the latter is smooth since $\psi_1\circ f\circ\phi_1^{-1}$ is and transition
 
 {{< /env >}}
 
-In this sense, all local properties of $f$ boil down to checking it for its coordinate representation $\hat{f}\coloneqq\psi\circ f\circ\phi^{-1}$ and ensuring that it is preserved under chart transition maps. This illustrates the basic philosophy of smooth manifold theory.
+In this sense, all local properties of $f$ boil down to checking it for its coordinate representation $\hat{f}\coloneqq\psi\circ f\circ\phi^{-1}$ and ensuring that it is preserved under chart transition maps. This illustrates the basic philosophy of the local study of smooth manifolds.
 
 <div class="space"></div>
 
@@ -76,4 +80,10 @@ In this sense, all local properties of $f$ boil down to checking it for its coor
 
 <span style="color:red">**TODO** (sheafs, stalks, germs, soft sheafs and POU, etc...).</span>
 
-# {{< link file="tangent_space.md" display="Tangent Spaces" type="constructions" >}} & Linearization
+# General Techniques
+
+## {{< link file="tangent_space.md" display="Tangent Spaces" type="constructions" >}} & Linearization
+
+## Algebraic Topology
+
+# Examples of Smooth Manifolds
