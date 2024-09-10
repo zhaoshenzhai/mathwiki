@@ -82,7 +82,7 @@ In this sense, all local properties of $f$ boil down to checking it for its coor
 
 # General Techniques
 
-## {{< link file="tangent_space.md" display="Tangent Spaces" type="constructions" >}} & Linearization
+## {{< link file="tangent_space_of_manifolds.md" display="Tangent Spaces" type="constructions" >}} & Linearization
 
 ## Algebraic Topology
 
