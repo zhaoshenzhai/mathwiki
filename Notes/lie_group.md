@@ -15,7 +15,7 @@ A *Lie group* is a smooth manifold $G$ equipped with a group structure $(G,\mu,\
 
 ## Lie Algebras
 
-## The Exponential Map
+## The {{< link file="the_exponential_map.md" display="Exponential Map" type="constructions" >}}
 
 # General Techniques
 
