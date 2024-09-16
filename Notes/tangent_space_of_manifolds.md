@@ -69,10 +69,10 @@ Moreover, if $v\in T_pM$ has basis representations $v^i\frac{\del}{\del x^i}|_p$
 
 <span style="color:red">**TODO**.</span>
 
-## The Tangent Bundle
+# Local Properties of Smooth Maps
 
 <span style="color:red">**TODO**.</span>
 
-# Local Properties of Smooth Maps
+# Tangent Bundles and Vector Fields
 
 <span style="color:red">**TODO**.</span>
