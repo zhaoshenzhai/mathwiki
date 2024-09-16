@@ -48,14 +48,14 @@ so using that $D(\textrm{const})=0$, we obtain $Df=D(x^i)h_i(p)$. But $D(x^i)=v^
 
 &emsp;&emsp;An immediate consequence is that $\dim T_pM=\dim M$, where the latter is the dimension of $M$ as a manifold. Choosing{{< link file="vector_space.md" mod="dag" type="justifications" secID="existence_of_bases" secDisplay="Existence of Bases" >}} a {{< link file="basis_module_theory.md" display="basis" type="references" >}}, this computation also gives an isomorphism $T_pV\iso V$ for any $p\in V$ in a vector space, which is in fact {{< link file="natural_transformation.md" display="natural" type="references" >}}.
 
+<div class="space"></div>
+
+**Remark.** The computation of $T\_{\widehat{p}}\R^n$ allows us to pull back the basis vectors $e\_i\in\R^n$ to $\del\_i|\_\widehat{p}\in T\_\widehat{p}\R^n$, which we can further pull back via the isomorphism $T\_p\phi$ to a basis $\frac{\del}{\del x^i}|_p\coloneqq(T_p\phi)^{-1}\del\_i|\_\widehat{p}$ for $T_pM$. This allows us to compute in $T_pf$ locally, as follows.
+
 <h2 class="hide">Local Computations</h2>
 
-The computation of $T\_{\widehat{p}}\R^n$ allows us to pull back the basis vectors $e\_i\in\R^n$ to $\del\_i|\_\widehat{p}\in T\_\widehat{p}\R^n$, which we can further pull back via the isomorphism $T\_p\phi:T\_pM\to T\_\widehat{p}\R^n$ to a basis $\frac{\del}{\del x^i}|_p\coloneqq(T_p\phi)^{-1}\del\_i|\_\widehat{p}$ for $T_pM$. All of this is done under a *fixed* chart $(U,x^i)$ around $p$, so we opt the more cumbersome notation $\frac{\del}{\del x^i}|_p$ to emphasize the use of the map $x^i:U\to\R^n$.
-
-<br>
-
-&emsp;&emsp;Choosing a chart also allows one to compute the tangent map $T_pf:T_pM\to T_{f(p)}N$ of a smooth map $f:M\to N$. In fact, the matrix{{< link file="free_module.md" mod="dag" type="references" secID="homomorphisms_of_f.g._free_modules" secDisplay="Homomorphisms of (f.g.) Free Modules" >}} of $T_pf$ will be the *Jacobian* of the map $\psi\circ f\circ\phi^{-1}$, which nicely generalizes the same thing from multivariable calculus:
-$$\begin{equation}\tag{$\ast$}
+If $f:M\to N$ is smooth, choosing charts allows one to compute its tangent map $T_pf:T_pM\to T_{f(p)}N$. In fact, the matrix{{< link file="free_module.md" mod="dag" type="references" secID="homomorphisms_of_f.g._free_modules" secDisplay="Homomorphisms of (f.g.) Free Modules" >}} of $T_pf$ will be the *Jacobian* of the map $\psi\circ f\circ\phi^{-1}$, which generalizes the same thing from multivariable calculus:
+$$\begin{equation}
     T\_pf\l(\l.\frac{\del}{\del x^i}\r|\_p\r)=\l[\l.\del_i(\psi\circ f\circ\phi^{-1})^j\r|\_\widehat{p}\r]\l.\frac{\del}{\del y^j}\r|\_{f(p)}\eqqcolon J\_\widehat{p}(\psi\circ f\circ\phi^{-1})\l.\frac{\del}{\del y^j}\r|\_{f(p)}
 \end{equation}$$
 
