@@ -11,7 +11,7 @@ In elementary calculus on $\R^2$, one uses the techniques of derivatives, and he
 
 <br>
 
-&emsp;&emsp;However, our definition must be intrinsic to the smooth structure of a manifold $M$ and not depend on any embedding $M\into\R^k$, so a certain level of abstraction is needed. The key observation is that the ‘space of directions’ at a point can be identified with the set of directional derivatives at that point, so we take those {{< link file="derivation.md" display="derivations" type="references" >}} as our starting point. To emphasize that the tangent space of at a point $p\in M$ depends only on the *local* structure around $p$, we shall descend to the level of {{< link file="smooth_manifold.md" display="germs" type="references" secID="sheaf_of_smooth_functions" secDisplay="Sheaf of Smooth Functions" >}}, denoted $C^\infty_p(M)$:
+&emsp;&emsp;However, our definition must be intrinsic to the smooth structure of a manifold $M$ and not depend on any embedding $M\into\R^k$, so a certain level of abstraction is needed. The key observation is that the ‘space of directions’ at a point can be identified with the set of directional derivatives at that point, so we take those {{< link file="derivation.md" display="derivations" type="references" >}} as our starting point. To emphasize that the tangent space at a point $p\in M$ depends only on the *local* structure around $p$, we shall descend to the level of {{< link file="smooth_manifold.md" display="germs" type="references" secID="sheaf_of_smooth_functions" secDisplay="Sheaf of Smooth Functions" >}}, denoted $C^\infty_p(M)$:
 
 {{< env type="definition" >}}
 
@@ -40,7 +40,7 @@ so using that $D(\textrm{const})=0$, we obtain $Df=D(x^i)h_i(p)$. But $D(x^i)=v^
 
 {{< /env >}}
 
-An immediate consequence of this is that $\dim T_pM=n$, which is the $\dim M$ as a manifold.
+An immediate consequence of this is that $\dim T_pM=n$, which is the $\dim M$ as a manifold. Choosing{{< link file="vector_space.md" mod="dag" type="justifications" secID="existence_of_bases" secDisplay="Existence of Bases" >}} a {{< link file="basis_module_theory.md" display="basis" type="references" >}}, this computation also gives an isomorphism $T_pV\iso V$ for any $p\in V$ in a vector space (with the standard smooth structure), which is in fact {{< link file="natural_transformation.md" display="natural" type="references" >}}.
 
 ## Local Computations
 
