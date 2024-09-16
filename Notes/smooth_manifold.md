@@ -76,7 +76,7 @@ In this sense, all local properties of $f$ boil down to checking it for its coor
 
 &emsp;&emsp;The set of all smooth maps $f:M\to N$ is denoted by $C^\infty(M,N)$. With $N\coloneqq\R$ equipped with the standard smooth structure, we let $C^\infty(M)\coloneqq C^\infty(M,\R)$, which is a commutative $\R$-{{< link file="algebra.md" display="algebra" type="references" >}} under pointwise multiplication.
 
-## Sheaf of Smooth Functions
+<h2 id="sheaf_of_smooth_functions">Sheaf of Smooth Functions</h2>
 
 <span style="color:red">**TODO** (sheafs, stalks, germs, soft sheafs and POU, etc...).</span>
 
