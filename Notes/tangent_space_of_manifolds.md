@@ -46,11 +46,11 @@ so using that $D(\textrm{const})=0$, we obtain $Df=D(x^i)h_i(p)$. But $D(x^i)=v^
 
 <div class="space"></div>
 
-&emsp;&emsp;An immediate consequence is that $\dim T_pM=\dim M$, where the latter is the dimension of $M$ as a manifold. Choosing{{< link file="vector_space.md" mod="dag" type="justifications" secID="existence_of_bases" secDisplay="Existence of Bases" >}} a {{< link file="basis_module_theory.md" display="basis" type="references" >}}, this computation also gives an isomorphism $T_pV\iso V$ for any $p\in V$ in a vector space, which is in fact {{< link file="natural_transformation.md" display="natural" type="references" >}}.
+&emsp;&emsp;An immediate consequence is that $\dim T_pM=\dim M$, where the latter is the dimension of $M$ as a manifold. Moreover, this computation allows us to pull back the basis vectors $e\_i\in\R^n$ to $\del\_i|\_\widehat{p}\in T\_\widehat{p}\R^n$, which we can further pull back via the isomorphism $T\_p\phi$ to a basis $\frac{\del}{\del x^i}|_p\coloneqq(T_p\phi)^{-1}\del\_i|\_\widehat{p}$ for $T_pM$. This allows us to compute in $T_pf$ locally, which we do in the next section.
 
 <div class="space"></div>
 
-**Remark.** The computation of $T\_{\widehat{p}}\R^n$ allows us to pull back the basis vectors $e\_i\in\R^n$ to $\del\_i|\_\widehat{p}\in T\_\widehat{p}\R^n$, which we can further pull back via the isomorphism $T\_p\phi$ to a basis $\frac{\del}{\del x^i}|_p\coloneqq(T_p\phi)^{-1}\del\_i|\_\widehat{p}$ for $T_pM$. This allows us to compute in $T_pf$ locally, as follows.
+**Remark.** Choosing{{< link file="vector_space.md" mod="dag" type="justifications" secID="existence_of_bases" secDisplay="Existence of Bases" >}} a {{< link file="basis_module_theory.md" display="basis" type="references" >}}, this computation gives a {{< link file="natural_transformation.md" display="natural" type="references" >}} isomorphism $T_pV\iso V$ for any $p\in V$ in a vector space.
 
 <h2 class="hide">Local Computations</h2>
 
