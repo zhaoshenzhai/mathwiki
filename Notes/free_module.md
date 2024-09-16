@@ -37,7 +37,7 @@ Since $\mf{m}(R^A/\mf{m}R^A)=0$, this makes $R^A/\mf{m}R^A$ into a $k$-vector sp
 
 {{< /env >}}
 
-# Homomorphisms of (f.g.) Free Modules
+<h1 id="homomorphisms_of_f.g._free_modules">Homomorphisms of (f.g.) Free Modules</h1>
 
 We now focus on the {{< link file="category.md" display="category" type="references" >}} of *finitely-generated* free $R$-modules over a commutative ring $R$. After identifying each such $R$-module $M$ with $R^n$ for some $n\in\N$, we see that $\Hom(M_1,M_2)\iso\Hom(R^n,R^m)$. Thus, the study of $\Hom(M_1,M_2)$ reduces to $\Hom(R^n,R^m)$ *and* also how the situation changes when we change bases for $M_i$.
 

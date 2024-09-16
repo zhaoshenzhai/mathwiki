@@ -22,32 +22,53 @@ $$\begin{equation}
 
 {{< /env >}}
 
+
+
 ## The Differential
 
-Every smooth map $f:M\to N$ induces a linear map $T_pf:T_pM\to T_{f(p)}N$ between tangent spaces by push-forward of derivations, i.e., $v\mapsto(g\mapsto v(f\circ g))$. Since $T_p(g\circ f)=T_{f(p)}g\circ T_pf$, this defines a functor $T_p:\catman\to\catvect[\R]$, which informally only remembers the local properties of manifolds.
+Every smooth map $f:M\to N$ induces a linear map $T_pf:T_pM\to T_{f(p)}N$ between tangent spaces by push-forward of derivations, i.e., $v\mapsto(g\mapsto v(f\circ g))$. Since $T_p(g\circ f)=T_{f(p)}g\circ T_pf$, this defines a {{< link file="functor.md" display="functor" type="references" >}} $T:\catman_\blob\to\catvect[\R]$ from the {{< link file="category.md" display="category" type="references" >}} of pointed manifolds, which informally forgets everything but the local properties of manifolds at a fixed point.
 
 <br>
 
-&emsp;&emsp;Let us apply this functor to any chart $(U,\phi)$ for $M$ centered at $p$. Note that $C_p^\infty(U)=C_p^\infty(M)$, so the tangent spaces $T_pU,T_pM$ coincide, and hence $T_p\phi:T_pM\to T_{\hat{p}}\R^n$. This is an isomorphism since $\phi$ is, so to compute $T_pM$, it suffices to compute $T_{\hat{p}}\R^n$.
+&emsp;&emsp;Let us apply this functor to any chart $(U,\phi)$ for $M$ centered at $p$. Note that $C_p^\infty(U)=C_p^\infty(M)$, so the tangent spaces $T_pU,T_pM$ coincide, and hence $T_p\phi:T_pM\to T_{\widehat{p}}\R^n$. This is an isomorphism, since $\phi$ is. We claim that $\dim T\_\widehat{p}\R^n=n$, so $\dim T\_pM=n$ too.
 
->{{< env type="proof" hide="false" name="$\dim T_{\hat{p}}\R^n=n$" >}}
+<div class="space"></div>
+
+{{< env type="proof" hide="false" >}}
 
 We claim that for every $p\in\R^n$, the map $\R^n\to T_p\R^n$ sending $v\mapsto v^i\del_i|_p$ is an isomorphism. This map is clearly linear, and is injective since if $v^i\del\_i|\_p=0$, then $0=v^i\del\_i|\_p(x^j)=v^j$ for all $j$, and hence $v=0$. To see that it is surjective, let $D\in T\_p\R^n$ be a derivation. For each $j$, let $v^j\coloneqq D(x^j)$; we claim that $D=v^i\del\_i|\_p$. Indeed, for every $f\in C^\infty(\R^n)$, we have{{< link file="calculus_on_R.md" type="proved_by" mod="dag" secID="fundamental_theorem_of_calculus" >}}
 $$\begin{equation}
-    f(x)-f(p)=\int\_0^1\frac{\d}{\d t}f(p+t(x-p))\d t=(x^i-p^i)\int\_0^1\del\_if(p+t(x-p))\d t\eqqcolon(x^i-p^i)h\_i(x),
+    f(x)-f(p)=\int\_0^1\frac{\d}{\d t}f(p+t(x-p))\\,\d t=(x^i-p^i)\int\_0^1\del\_if(p+t(x-p))\\,\d t\eqqcolon(x^i-p^i)h\_i(x),
 \end{equation}$$
 so using that $D(\textrm{const})=0$, we obtain $Df=D(x^i)h_i(p)$. But $D(x^i)=v^i$ and $h\_i(p)=\del\_i|\_pf$, so $Df=v^i\del\_i|\_pf$ as desired.<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 
-An immediate consequence of this is that $\dim T_pM=n$, which is the $\dim M$ as a manifold. Choosing{{< link file="vector_space.md" mod="dag" type="justifications" secID="existence_of_bases" secDisplay="Existence of Bases" >}} a {{< link file="basis_module_theory.md" display="basis" type="references" >}}, this computation also gives an isomorphism $T_pV\iso V$ for any $p\in V$ in a vector space (with the standard smooth structure), which is in fact {{< link file="natural_transformation.md" display="natural" type="references" >}}.
+<div class="space"></div>
 
-## Local Computations
+&emsp;&emsp;An immediate consequence is that $\dim T_pM=\dim M$, where the latter is the dimension of $M$ as a manifold. Choosing{{< link file="vector_space.md" mod="dag" type="justifications" secID="existence_of_bases" secDisplay="Existence of Bases" >}} a {{< link file="basis_module_theory.md" display="basis" type="references" >}}, this computation also gives an isomorphism $T_pV\iso V$ for any $p\in V$ in a vector space, which is in fact {{< link file="natural_transformation.md" display="natural" type="references" >}}.
+
+<h2 class="hide">Local Computations</h2>
+
+The computation of $T\_{\widehat{p}}\R^n$ allows us to pull back the basis vectors $e\_i\in\R^n$ to $\del\_i|\_\widehat{p}\in T\_\widehat{p}\R^n$, which we can further pull back via the isomorphism $T\_p\phi:T\_pM\to T\_\widehat{p}\R^n$ to a basis $\frac{\del}{\del x^i}|_p\coloneqq(T_p\phi)^{-1}\del\_i|\_\widehat{p}$ for $T_pM$. All of this is done under a *fixed* chart $(U,x^i)$ around $p$, so we opt the more cumbersome notation $\frac{\del}{\del x^i}|_p$ to emphasize the use of the map $x^i:U\to\R^n$.
+
+<br>
+
+&emsp;&emsp;Choosing a chart also allows one to compute the tangent map $T_pf:T_pM\to T_{f(p)}N$ of a smooth map $f:M\to N$. In fact, the matrix{{< link file="free_module.md" mod="dag" type="references" secID="homomorphisms_of_f.g._free_modules" secDisplay="Homomorphisms of (f.g.) Free Modules" >}} of $T_pf$ will be the *Jacobian* of the map $\psi\circ f\circ\phi^{-1}$, which nicely generalizes the same thing from multivariable calculus:
+$$\begin{equation}\tag{$\ast$}
+    T\_pf\l(\l.\frac{\del}{\del x^i}\r|\_p\r)=\l[\l.\del_i(\psi\circ f\circ\phi^{-1})^j\r|\_\widehat{p}\r]\l.\frac{\del}{\del y^j}\r|\_{f(p)}\eqqcolon J\_\widehat{p}(\psi\circ f\circ\phi^{-1})\l.\frac{\del}{\del y^j}\r|\_{f(p)}
+\end{equation}$$
+
+Finally, two charts $(U,\phi)$ and $(V,\psi)$ around $p$ induces two (possibly) different bases for $T_pM$, so we need to understand how they are related. Applying the above to the map $\psi\circ\phi^{-1}$ and using functoriality of $T_p$ (i.e, the Chain Rule) gives us that
+$$\begin{equation}
+    \l.\frac{\del}{\del x^i}\r|\_p=\l(T\_{\phi(p)}\phi^{-1}\r)(\del\_i|_p)=\l(T\_{\psi(p)}\psi^{-1}\r)\circ T\_{\phi(p)}(\psi\circ\phi^{-1})(\del\_i|_p)=\l(T\_{\psi(p)}\psi^{-1}\r)\l(J\_{\phi(p)}(\psi\circ\phi^{-1})\del\_i|_p\r)=J\_{\phi(p)}(\psi\circ\phi^{-1})\l.\frac{\del}{\del y^j}\r|\_p.
+\end{equation}$$
+Moreover, if $v\in T_pM$ has basis representations $v^i\frac{\del}{\del x^i}|_p$ and $\widetilde{v}^j\frac{\del}{\del y^j}|_p$, then $\widetilde{v}^j=J\_{\phi(p)}(\psi\circ\phi^{-1})v^i$ by matching components.
 
 ## Velocity Vectors
 
-# The Tangent Bundle
+# General Uses and Techniques
 
-# Local Properties of Smooth Maps
+## Local Properties of Smooth Maps
 
-## Maps of Constant Rank
+## The Tangent Bundle
