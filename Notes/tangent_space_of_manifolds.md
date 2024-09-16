@@ -67,8 +67,12 @@ Moreover, if $v\in T_pM$ has basis representations $v^i\frac{\del}{\del x^i}|_p$
 
 ## Velocity Vectors
 
-# General Uses and Techniques
-
-## Local Properties of Smooth Maps
+<span style="color:red">**TODO**.</span>
 
 ## The Tangent Bundle
+
+<span style="color:red">**TODO**.</span>
+
+# Local Properties of Smooth Maps
+
+<span style="color:red">**TODO**.</span>
