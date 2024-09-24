@@ -36,7 +36,7 @@ Every smooth map $f:M\to N$ induces a linear map $T_pf:T_pM\to T_{f(p)}N$ betwee
 
 {{< env type="proof" hide="false" >}}
 
-We claim that for every $p\in\R^n$, the map $\R^n\to T_p\R^n$ sending $v\mapsto v^i\del_i|_p$ is an isomorphism. This map is clearly linear, and is injective since if $v^i\del\_i|\_p=0$, then $0=v^i\del\_i|\_p(x^j)=v^j$ for all $j$, and hence $v=0$. To see that it is surjective, let $D\in T\_p\R^n$ be a derivation. For each $j$, let $v^j\coloneqq D(x^j)$; we claim that $D=v^i\del\_i|\_p$. Indeed, for every $f\in C^\infty(\R^n)$, we have{{< link file="calculus_on_R.md" type="proved_by" mod="dag" secID="fundamental_theorem_of_calculus" >}}
+We claim that for every $p\in\R^n$, the map $\R^n\to T_p\R^n$ sending $v\mapsto v^i\del_i|_p$ is an isomorphism. This map is clearly linear, and is injective since if $v^i\del\_i|\_p=0$, then $0=v^i\del\_i|\_p(x^j)=v^j$ for all $j$, and hence $v=0$. To show that it is surjective, let $D\in T\_p\R^n$ be a derivation. For each $j$, let $v^j\coloneqq D(x^j)$; we claim that $D=v^i\del\_i|\_p$. Indeed, for every $f\in C^\infty(\R^n)$, we have{{< link file="calculus_on_R.md" type="proved_by" mod="dag" secID="fundamental_theorem_of_calculus" >}}
 $$\begin{equation}
     f(x)-f(p)=\int\_0^1\frac{\d}{\d t}f(p+t(x-p))\\,\d t=(x^i-p^i)\int\_0^1\del\_if(p+t(x-p))\\,\d t\eqqcolon(x^i-p^i)h\_i(x),
 \end{equation}$$
@@ -46,7 +46,7 @@ so using that $D(\textrm{const})=0$, we obtain $Df=D(x^i)h_i(p)$. But $D(x^i)=v^
 
 <div class="space"></div>
 
-&emsp;&emsp;An immediate consequence is that $\dim T_pM=\dim M$, where the latter is the dimension of $M$ as a manifold. Moreover, this computation allows us to pull back the basis vectors $e\_i\in\R^n$ to $\del\_i|\_\widehat{p}\in T\_\widehat{p}\R^n$, which we can further pull back via the isomorphism $T\_p\phi$ to a basis $\frac{\del}{\del x^i}|_p\coloneqq(T_p\phi)^{-1}\del\_i|\_\widehat{p}$ for $T_pM$. This allows us to compute in $T_pf$ locally, which we do in the next section.
+&emsp;&emsp;An immediate consequence is that $\dim T_pM=\dim M$, where the latter is the dimension of $M$ as a manifold. Moreover, this computation allows us to pull back the basis vectors $e\_i\in\R^n$ to $\del\_i|\_\widehat{p}\in T\_\widehat{p}\R^n$, which we can further pull back via the isomorphism $T\_p\phi$ to a basis $\del_{x^i}|_p\coloneqq\frac{\del}{\del x^i}|_p\coloneqq(T_p\phi)^{-1}\del\_i|\_\widehat{p}$ for $T_pM$. This allows us to compute in $T_pf$ locally, which we do in the next section.
 
 <div class="space"></div>
 
@@ -59,11 +59,11 @@ $$\begin{equation}
     T\_pf\l(\l.\frac{\del}{\del x^i}\r|\_p\r)=\l[\l.\del_i(\psi\circ f\circ\phi^{-1})^j\r|\_\widehat{p}\r]\l.\frac{\del}{\del y^j}\r|\_{f(p)}\eqqcolon J\_\widehat{p}(\psi\circ f\circ\phi^{-1})\l.\frac{\del}{\del y^j}\r|\_{f(p)}
 \end{equation}$$
 
-Finally, two charts $(U,\phi)$ and $(V,\psi)$ around $p$ induces two (possibly) different bases for $T_pM$, so we need to understand how they are related. Applying the above to the map $\psi\circ\phi^{-1}$ and using functoriality of $T_p$ (i.e, the Chain Rule) gives us that
+Finally, two charts $(U,\phi)$ and $(V,\psi)$ around $p$ induces two (possibly) different bases for $T_pM$, so we need to understand how they are related. This is done by applying the above to the map $\psi\circ\phi^{-1}$ and using functoriality of $T_p$ (i.e, the Chain Rule):
 $$\begin{equation}
     \l.\frac{\del}{\del x^i}\r|\_p=\l(T\_{\phi(p)}\phi^{-1}\r)(\del\_i|_p)=\l(T\_{\psi(p)}\psi^{-1}\r)\circ T\_{\phi(p)}(\psi\circ\phi^{-1})(\del\_i|_p)=\l(T\_{\psi(p)}\psi^{-1}\r)\l(J\_{\phi(p)}(\psi\circ\phi^{-1})\del\_i|_p\r)=J\_{\phi(p)}(\psi\circ\phi^{-1})\l.\frac{\del}{\del y^j}\r|\_p.
 \end{equation}$$
-Moreover, if $v\in T_pM$ has basis representations $v^i\frac{\del}{\del x^i}|_p$ and $\widetilde{v}^j\frac{\del}{\del y^j}|_p$, then $\widetilde{v}^j=J\_{\phi(p)}(\psi\circ\phi^{-1})v^i$ by matching components.
+Moreover, if $v\in T_pM$ has basis representations $v^i\del\_{x^i}|\_p$ and $\widetilde{v}^j\del\_{y^j}|\_p$, then $\widetilde{v}^j=J\_{\phi(p)}(\psi\circ\phi^{-1})v^i$ by matching components.
 
 ## Velocity Vectors
 
