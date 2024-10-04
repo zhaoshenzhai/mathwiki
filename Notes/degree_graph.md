@@ -15,6 +15,8 @@ The *degree* of a vertex $v\in V(G)$ is the {{< link file="cardinal" display="ca
 
 {{< /env >}}
 
+# Degrees in Finite Graphs
+
 <h2 id="handshaking_lemma">Handshaking Lemma</h2>
 
 We have $\sum_{v\in V}d_G(v)=2|E(G)|$, which is intuitively obvious since summing all the degrees counts each edge twice, once from each of its ends. Formally, we consider the map $i_v:E\to2$ with $e\mapsto1$ iff $v\in e$, and observe that
@@ -31,10 +33,8 @@ Splitting off the even-degree vertices and keeping only the odd-degrees ones $v_
 
 If $G$ is finite, the *average* degree $d(G)\coloneqq\frac{1}{|V(G)|}\sum_{v\in V}d_G(v)$ of $G$ is, by the result above, twice the ratio $\epsilon(G)\coloneqq|E(G)|/|V(G)|$.
 
-## Bounds on Degrees
+## Large-degree Graphs
 
-We let $\delta(G)$ and $\Delta(G)$ respectively denote the minimal and maximal degrees of vertices in $G$.
-
-## Brooke’s Theorem
+<span style="color:red">**TODO** (Dirac’s theorem).</span>
 
 # Locally-finite Graphs

@@ -23,7 +23,7 @@ With graph homomorphisms as morphisms, simple graphs form a {{< link file="categ
 
 ## Basic Constructions
 
-Fix a graph $G\coloneqq(V,E)$. A *{{< link file="subgraph.md" display="subgraph" type="constructions" >}}* of a graph $G\coloneqq(V,E)$ is a {{< link file="substructure.md" display="substructure" type="references" >}} of $G$ in $\cathom_\mc{L}$, which is a graph $G'\coloneqq(V',E')$ with $V'\subseteq V$ and $E'\subseteq E$. On the other hand, considering the category $\catemb_\mc{L}$ of graphs with embeddings as morphisms instead gives us an *induced subgraph* of $G$, which is a subgraph $G'\coloneqq(V',E')$ of $G$ such that $E'=V'^2\cap E$.
+Fix a graph $G\coloneqq(V,E)$. A *subgraph* of a graph $G\coloneqq(V,E)$ is a {{< link file="substructure.md" display="substructure" type="references" >}} of $G$ in $\cathom_\mc{L}$, which is a graph $G'\coloneqq(V',E')$ with $V'\subseteq V$ and $E'\subseteq E$. On the other hand, considering the category $\catemb_\mc{L}$ of graphs with embeddings as morphisms instead gives us an *induced subgraph* of $G$, which is a subgraph $G'\coloneqq(V',E')$ of $G$ such that $E'=V'^2\cap E$.
 
 <br>
 
