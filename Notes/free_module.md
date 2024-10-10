@@ -56,7 +56,7 @@ induces an $R$-module structure on $\mc{M}\_{m\times n}(R)$, where each $e_i\in 
 
 >{{< env type="proof" hide="false" >}}
 
-We provide the inverse function, so let $(r_{ij})\in\mc{M}\_{m\times n}(R)$ be a matrix. For each $1\leq i\leq n$, let $f(e_i)\coloneqq(r_{1i},\dots,r_{mi})\in R^m$. Since $\l\\{e_1,\dots,e_n\r\\}$ is a basis for $R^n$, this map extends{{< link file="free_module.md" type="proved_by" mod="dag" >}} uniquely to an $R$-module homomorphism $f:R^n\to R^m$; this recipe clearly the inverse of $\Phi$. Explicitly, $f(e_i)=\sum_{j\leq m}r_{ij}e_j$ iff $f\mapsto(r_{ij})$; this formula is worth remembering!<span style="float:right;">$\blacksquare$</span>
+We provide the inverse function, so let $(r_{ij})\in\mc{M}\_{m\times n}(R)$ be a matrix. For each $1\leq i\leq n$, let $f(e_j)\coloneqq(r_{1j},\dots,r_{mj})\in R^m$. Since $\l\\{e_1,\dots,e_n\r\\}$ is a basis for $R^n$, this map extends{{< link file="free_module.md" type="proved_by" mod="dag" >}} uniquely to an $R$-module homomorphism $f:R^n\to R^m$; this recipe clearly the inverse of $\Phi$. Explicitly, $f(e_j)=\sum_{i\leq m}r_{ij}e_i$ iff $f\mapsto(r_{ij})$; this formula is worth remembering!<span style="float:right;">$\blacksquare$</span>
 
 {{< /env >}}
 
