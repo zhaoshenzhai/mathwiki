@@ -50,17 +50,13 @@ With homomorphisms as morphisms, groups form a category $\catgrp$. This category
 
 # General Techniques
 
-Due to the vastness of the definition, groups are incredibly hard to study. Nevertheless, there are some common methods of attack that can yield very fruitful results and insights.
+## {{< link file="group_action.md" display="Group Actions" type="constructions" >}} and {{< link file="representation_theory_of_groups" display="Representations" type="constructions" >}}
 
-## {{< link file="group_action.md" display="Group Actions" type="constructions" >}}
-
-Perhaps the most important technique to study a group is by allowing it to act on a set, or, more generally, on objects in some other category.
-
-<br>
-
-&emsp;&emsp;Indeed, as groups are abstract manifestations of symmetries, it is natural to consider an object $X$ and consider a group homomorphism $\phi:G\to\Aut X$, which reflects how to group manifests itself as concrete automorphisms (i.e. *symmetries*) of $X$.
+Perhaps the most important technique to study a group is by allowing it to act on a set, or, more generally, on objects in some other category. Indeed, as groups are abstract manifestations of symmetries, it is natural to consider an object $X$ and a morphism $\phi:G\to\Aut X$ of groups, which reflects how $G$ manifests itself as concrete automorphisms (i.e. *symmetries*) of $X$. If more structure on $G$ is present (see below), we require that actions also preserve said structure.
 
 > Groups, as men, will be known by their actions. <span style="float:right;">$-$ Guillermo Moreno</span>
+
+If $X$ is a {{< link file="vector_space.md" display="vector space" type="references" >}} and $G$ acts linearly, then such an action is usually called a *representation* of $G$.
 
 ## {{< link file="group_extension.md" display="Group Extensions" type="constructions" >}}
 
@@ -87,15 +83,17 @@ Beyond the generalities above, much more can be said about specific types of gro
 
 One may also equip groups with additional structure, which leads to much richer theories. Some important examples are {{< link file="topological_group.md" display="topological groups" type="structures" >}}, {{< link file="lie_group.md" display="Lie groups" type="structures" >}}, and {{< link file="algebraic_groups.md" display="algebraic groups" type="structures" >}}.
 
+<br>
+
+&emsp;&emsp;In fact, every group is a topological group when given the discrete topology, so in this sense, the theory of topological groups is more refined. Similarly, every ({{< link file="countable.md" display="countable" type="references" >}}) group is a Lie group.
+
 # Generalizations
 
 <h2 id="groupoid">{{< link file="groupoid.md" display="Groupoids" type="generalizations" >}}</h2>
 
 Many groups arise as the automorphism group of some object $X$. In fact, this is true for *all* groups.
 
-<br>
-
-&emsp;&emsp;Given a group $G$, consider the category $\cat{B}G$ consisting of a single object $\ast$, and, for each $g\in G$, a morphism $g:\ast\to\ast$. The identity in $\cat{B}G$ is the identity element $e\in G$, and composition is given by the group operation. Since every $g\in G$ admits an inverse $g^{-1}\in G$, we see that every morphism is invertible, and so $G=\Aut\ast$.
+> Given a group $G$, consider the category $\cat{B}G$ consisting of a single object $\ast$, and, for each $g\in G$, a morphism $g:\ast\to\ast$. The identity in $\cat{B}G$ is the identity element $e\in G$, and composition is given by the group operation. Since every $g\in G$ admits an inverse $g^{-1}\in G$, we see that every morphism is invertible, and so $G=\Aut\ast$.
 
 <div class="space"></div>
 

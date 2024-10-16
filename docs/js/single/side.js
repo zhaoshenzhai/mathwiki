@@ -29,7 +29,6 @@ function hideSide() {
     contentEl.style.width = '80%';
     contentEl.style.paddingLeft = '10%';
     contentEl.style.paddingRight = '10%';
-    contentEl.style.textAlign = 'justify';
 
     getCurSideEl().style.right = '-50%';
     metaDataEl.style.right = '-50%';
@@ -47,7 +46,6 @@ function showSide() {
     contentEl.style.width = '45%';
     contentEl.style.paddingLeft = '2.5%';
     contentEl.style.paddingRight = '2.5%';
-    contentEl.style.textAlign = 'left';
 
     getCurSideEl().style.right = '0%';
     metaDataEl.style.right = '0%';
