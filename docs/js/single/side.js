@@ -26,15 +26,15 @@ export function toggleSide(noTransition, command) {
 }
 
 function hideSide() {
-    contentEl.style.width = '80%';
-    contentEl.style.paddingLeft = '10%';
-    contentEl.style.paddingRight = '10%';
+    contentEl.style.width = '83%';
+    contentEl.style.paddingLeft = '8.5%';
+    contentEl.style.paddingRight = '8.5%';
 
     getCurSideEl().style.right = '-50%';
     metaDataEl.style.right = '-50%';
     resetSideEl.style.right = '-53%';
 
-    setFontSize(26);
+    setFontSize(27);
     setSideExpanded(false);
     styleHeaders(true);
     clearPreviewSide();
