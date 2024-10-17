@@ -15,30 +15,22 @@ Fix a prime $p$. If $G$ is a finite group, then the condition that the order of 
 
 {{< env type="definition" >}}
 
-A *$p$-group* is a group $G$ with $\l|G\r|=p^n$ for some $n\in\N$.
-
-{{< /env >}}
+A *$p$-group* is a group $G$ with $\l|G\r|=p^n$ for some $n\in\N$. {{< /env >}}
 
 The engine behind all structural results of finite $p$-groups is the following (almost trivial) observation.
 
 {{< env type="theorem" name="Fixed-points of $p\,$-groups" id="fixed_point_theorems_of_p_groups" >}}
 
-If $\phi:G\act X$ is a $p$-group acting on a finite set, then $|Z|\equiv|X|\\,\mod\\,p$ where $Z$ is fixed points of $\phi$. In particular, letting $\phi:G\act G$ be the {{< link file="conjugation_action.md" display="conjugation" type="references" >}} action shows that the center $Z(G)$ is non-trivial.
-
-{{< /env >}}
+If $\phi:G\act X$ is a $p$-group acting on a finite set, then $|Z|\equiv|X|\\,\mod\\,p$ where $Z$ is fixed points of $\phi$. In particular, letting $\phi:G\act G$ be the {{< link file="conjugation_action.md" display="conjugation" type="references" >}} action shows that the center $Z(G)$ is non-trivial. {{< /env >}}
 
 {{< env type="proof" hide="false" >}}
 
-We have by the {{< link file="the_class_equation.md" display="Class Equation" type="proved_by" >}} that $|X|=|Z|+\sum_{a\in A}[G:G_a]$, where $A\subseteq X$ is a transversal of non-trivial classes. Since $G$ is a $p$-group, each summand $[G:G_a]$ is a power of $p>1$, and is hence $0$ modulo $p$.<span style="float:right;">$\blacksquare$</span>
-
-{{< /env >}}
+We have by the {{< link file="the_class_equation.md" display="Class Equation" type="proved_by" >}} that $|X|=|Z|+\sum_{a\in A}[G:G_a]$, where $A\subseteq X$ is a transversal of non-trivial classes. Since $G$ is a $p$-group, each summand $[G:G_a]$ is a power of $p>1$, and is hence $0$ modulo $p$.<span style="float:right;">$\blacksquare$</span> {{< /env >}}
 
 ## {{< link file="sylow_theorems.md" display="The Sylow Theorems" type="properties" >}}
 
 A finite group $G$ can have a plethora of subgroups, and finding them and understanding how they fit together inside $G$ can tell us a great deal of the structure of $G$. One such method is to fix a prime $p$ and look at all possible subgroups $H\substructeq G$ whose order is a power of $p$, called a *$p$-subgroup* of $G$. In particular, maximal $p$-subgroups are the *$p$-Sylow* subgroups, and good control over their existence, structure, and number can be extremely useful.
-
 <br>
-
 &emsp;&emsp;The *Sylow Theorems* state that all $p$-subgroups of $G$ exist, that the $p$-Sylow subgroups are all conjugate to each other, and that the number of $p$-Sylow subgroups $n_p$ divides $m$ and $n_p\equiv1\\,\mod\\,p$. This is the best structural result of $p$-subgroups that one can hope for, and it provides a strong converse to {{< link file="lagranges_theorem.md" display="Lagrange’s Theorem" type="references" >}}. The existence of subgroups of $G$ of order $p$ is called *{{< link file="sylow_theorems.md" display="Cauchy’s Theorem" type="properties" secID="cauchys_theorem" secDisplay="Cauchy’s Theorem" >}}*.
 
 # Prüfer $p\\,$-groups
