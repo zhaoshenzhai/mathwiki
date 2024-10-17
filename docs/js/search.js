@@ -96,8 +96,11 @@ function updateSearchList(newList, newListPaths) {
         }
     }
 
+    var itemHeight = document.getElementById('searchItem0').offsetHeight;
+    // 40 = searchBar height
+    // 15 = padding
     searchBox.style.height =
-        (55 + ((getFontSize() + 17) * curSearchLength)) + 'px';
+        (40 + 15 + (itemHeight * curSearchLength)) + 'px';
 }
 
 function searchItemActive(newActiveNum) {
