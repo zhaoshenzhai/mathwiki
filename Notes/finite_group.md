@@ -21,10 +21,8 @@ Let $G\act X$ $-$ where $X$ is a *possibly infinite* set $-$ and fix an orbit $O
 
 ## {{< link file="sylow_theorems.md" display="The Sylow Theorems" type="techniques" >}}
 
-Fix a prime $p$ dividing $|G|=p^rm$, with $m\perp p$. The {{< link file="subgroup.md" display="subgroups" type="references" >}} $H\substructeq G$ with order $p^i$ for $i\leq r$ are the *{{< link file="p_group.md" display="$p$-subgroups" type="references" >}}* of $G$; if $i=r$, then $H$ is *$p$-Sylow*. The *Sylow Theorems* state that they exist, are {{< link file="conjugation_action.md" display="conjugate" type="references" >}} to each other, and that the number of $p$-Sylow subgroups divides $m$ and is congruent to $1$ modulo $p$.
-
+A finite group $G$ can have a plethora of {{< link file="subgroup.md" display="subgroups" type="references" >}}, and finding them and understanding how they fit together inside $G$ can tell us a great deal about the structure of $G$ itself. One such method is to fix a prime $p$ and look at all possible subgroups $H\substructeq G$ whose {{< link file="order.md" display="order" type="references" >}} is a power of $p$, called a *{{< link file="p_group.md" display="$p$-subgroup" type="references" >}}* of $G$. The maximal $p$-subgroups of $G$, called its *$p$-Sylow* subgroups, are especially important. The natural question is, then: *do they exist?*
 <br>
-
-&emsp;&emsp;This poses a very strong constraint on the structure of subgroups of $G$.
+&emsp;&emsp;The *Sylow Theorems* answers this in the affirmative, and establishes much more. All $p$-subgroups of $G$ (and in particular the $p$-Sylow subgroups of $G$) exist, the $p$-Sylow subgroups are all conjugate to each other, and the number of $p$-Sylow subgroups $n_p$ divides $m$ and $n_p\equiv1\\,\mod\\,p$. The existence of subgroups of $G$ of order $p$ is called *{{< link file="sylow_theorems.md" display="Cauchy’s Theorem" type="properties" secID="cauchys_theorem" secDisplay="Cauchy’s Theorem" >}}*.
 
 # {{< link file="representation_theory.md" display="Representation" type="references" >}} Theory

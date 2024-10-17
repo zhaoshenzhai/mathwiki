@@ -29,7 +29,7 @@ We have by the {{< link file="the_class_equation.md" display="Class Equation" ty
 
 ## {{< link file="sylow_theorems.md" display="The Sylow Theorems" type="properties" >}}
 
-A finite group $G$ can have a plethora of subgroups, and finding them and understanding how they fit together inside $G$ can tell us a great deal of the structure of $G$. One such method is to fix a prime $p$ and look at all possible subgroups $H\substructeq G$ whose order is a power of $p$, called a *$p$-subgroup* of $G$. In particular, maximal $p$-subgroups are the *$p$-Sylow* subgroups, and good control over their existence, structure, and number can be extremely useful.
+Finding *$p$-subgroups* of a finite group $G$ can tell us a great deal about the structure of $G$ itself. This applies especially to the maximal $p$-subgroups of $G$, called its *$p$-Sylow* subgroups.
 <br>
 &emsp;&emsp;The *Sylow Theorems* state that all $p$-subgroups of $G$ exist, that the $p$-Sylow subgroups are all conjugate to each other, and that the number of $p$-Sylow subgroups $n_p$ divides $m$ and $n_p\equiv1\\,\mod\\,p$. This is the best structural result of $p$-subgroups that one can hope for, and it provides a strong converse to {{< link file="lagranges_theorem.md" display="Lagrange’s Theorem" type="references" >}}. The existence of subgroups of $G$ of order $p$ is called *{{< link file="sylow_theorems.md" display="Cauchy’s Theorem" type="properties" secID="cauchys_theorem" secDisplay="Cauchy’s Theorem" >}}*.
 
