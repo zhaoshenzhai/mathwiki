@@ -11,7 +11,7 @@ export var headers = {};
 
 var curSideEl;
 var headerEls;
-var fontSize = 23;
+var fontSize = 28;
 var sideExpanded = true;
 
 document.addEventListener('DOMContentLoaded', (e) => {
