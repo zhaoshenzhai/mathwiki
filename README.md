@@ -38,6 +38,6 @@ These templates are automatically inserted whenever a note is created. After the
 I wrote some bash scripts to (try) maintain the consistency of my notes; [main.sh](https://github.com/zhaoshenzhai/mathwiki/blob/master/.scripts/main.sh) acts as a hub for me to run them.
 * Global search and replace, including the ability of excluding additional patterns, is handled by [searchReplace.sh](https://github.com/zhaoshenzhai/mathwiki/blob/master/.scripts/searchReplace.sh).
 * Basic stats of the site (and updating them below) is handled by [stats.sh](https://github.com/zhaoshenzhai/mathwiki/blob/master/.scripts/stats.sh).
-* Displaying all links that have yet to be created and all notes that have those links, are handled by [ghost.sh](https://github.com/zhaoshenzhai/mathwiki/blob/master/.scripts/ghost.sh).
+* Displaying all links that have yet to be created and all notes that have those links, are handled by [ghostLinks.sh](https://github.com/zhaoshenzhai/mathwiki/blob/master/.scripts/ghostLinks.sh).
 
 Some stats: 70 notes, 293 links (ratio: 4.185), 8 images ([updated](https://github.com/zhaoshenzhai/mathwiki/blob/master/.scripts/stats.sh) every commit).
