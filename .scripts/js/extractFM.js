@@ -1,7 +1,7 @@
 var fs = require('fs');
 var fm = require('front-matter');
 
-const MATHWIKI = '/home/zhao/Dropbox/MathWiki/'
+const MATHWIKI = '/home/zhao/Dropbox/Projects/MathWiki/'
 
 extractAll(function(data) {
     fs.writeFile(MATHWIKI + "Site/static/allFiles.json", JSON.stringify(data), () => {});
