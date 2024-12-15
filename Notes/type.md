@@ -54,6 +54,6 @@ If $\bar{a}_1,\bar{a}_2\in M^n$ realize the same types of $M$ over $A$, that is,
 
 {{< /env >}}
 
-## Saturated models
-
 ## Prime and atomic models
+
+## Saturated models
