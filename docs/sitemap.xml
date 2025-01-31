@@ -2,14 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/completeness_theorem/</loc>
+    <lastmod>2024-12-15T16:38:07-05:00</lastmod>
+  </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
-    <lastmod>2024-12-12T21:44:05-05:00</lastmod>
+    <lastmod>2024-12-15T16:38:07-05:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
-    <lastmod>2024-12-12T21:44:05-05:00</lastmod>
+    <lastmod>2024-12-15T16:38:07-05:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
-    <lastmod>2024-12-12T21:44:05-05:00</lastmod>
+    <lastmod>2024-12-15T16:38:07-05:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/ultraproduct/</loc>
+    <lastmod>2024-12-15T16:27:53-05:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/compactness_theorem/</loc>
+    <lastmod>2024-12-15T16:09:38-05:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/theory/</loc>
+    <lastmod>2024-12-15T16:05:04-05:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/type/</loc>
     <lastmod>2024-12-12T21:44:05-05:00</lastmod>

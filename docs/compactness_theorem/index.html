@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang=en-US class="noScroll">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Compactness Theorem</title>
+
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/darkMode.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/variables.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/noProperty.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module"></script>
+
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body class="listenDark">
+        
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaLinks.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/metaTOC.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/preview.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/expand.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/side.js" type="module"></script>
+
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/ctrlButtons.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/collapsible.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/metadata.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/preview.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+
+    <div id="mainPage">
+        <button id="toggleDark" onclick="toggleDark(document, false, true, true);" class="ctrlButton noSelect inPreview">
+            <img id="toggleDarkIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
+        </button>
+        <button id="toggleSide" onclick="toggleSide(false);" class="ctrlButton noSelect inPreview">
+            <img id="toggleSideIcon" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/sun.svg">
+        </button>
+        <div id="content" class="left noScroll">
+            
+                <h1 id="title" titleSize="">
+                    Compactness Theorem
+                </h1>
+            
+            <h1 id="statement-and-proofs">Statement and Proofs</h1>
+<div class="env" id=""><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg"><b class="envTitle">Theorem (Compactness Thoerem; Gödel 1930 &amp; Maltsev 1936). </b>Let $L$ be a first-order language. If an $L$-theory $T$ is finitely-satisfiable (in the sense that every finite subtheory $\Delta\subseteq T$ is satisfiable), then $T$ is satisfiable.</div>
+
+<p><div class="collapsibleContainer" id=""><i class="proofHeader collapsibleHeaderButton collapsibleHeader noSelect">Proof (from Completeness).</i><span class="collapsibleHintText noSelect"><i> Click to expand...</i></span>
+
+        <span class="collapsibleContent"><p>Every $L$-theory is <em>syntactically-compact</em>, in the sense that $T$ is consistent iff every $T$ is finitely-consistent.</p>
+<blockquote>
+<p>Indeed, if $\phi$ witnesses inconsistency of $T$, then there are finite subtheories $\Delta_0,\Delta_1\subseteq T$ such that $\Delta_0\proves\phi$ and $\Delta_1\proves\lnot\phi$. Their union $\Delta\coloneqq\Delta_0\cup\Delta_1$ is then an inconsistent finite subtheory of $T$, a contradiction.</p>
+</blockquote>
+<p>The <a href=https://zhaoshenzhai.github.io/mathwiki/completeness_theorem.md class="internalLink proved_by" title="Completeness Theorem" mathLink="" secID="" secDisplay="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/completeness_theorem.md&#34;, {&#34;Date&#34;:&#34;2024-12-15T16:38:07-05:00&#34;,&#34;Lastmod&#34;:&#34;2024-12-15T16:38:07-05:00&#34;,&#34;PublishDate&#34;:&#34;2024-12-15T16:38:07-05:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Completeness Theorem&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/completeness_theorem&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onmouseleave="clearPreviewSide({&#34;Date&#34;:&#34;2024-12-15T16:38:07-05:00&#34;,&#34;Lastmod&#34;:&#34;2024-12-15T16:38:07-05:00&#34;,&#34;PublishDate&#34;:&#34;2024-12-15T16:38:07-05:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Completeness Theorem&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/completeness_theorem&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/completeness_theorem.md&#34;, {&#34;Date&#34;:&#34;2024-12-15T16:38:07-05:00&#34;,&#34;Lastmod&#34;:&#34;2024-12-15T16:38:07-05:00&#34;,&#34;PublishDate&#34;:&#34;2024-12-15T16:38:07-05:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Completeness Theorem&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/completeness_theorem&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">Completeness Theorem</a> then applies, since if $T$ is finitely-satisfiable, it is finitely-consistent, and hence consistent by the above.<span style="float:right;">$\blacksquare$</span></p>
+</span></div>
+<div class="space"></div></p>
+<p><div class="collapsibleContainer" id=""><i class="proofHeader collapsibleHeaderButton collapsibleHeader noSelect">Proof (with Ultraproducts).</i><span class="collapsibleHintText noSelect"><i> Click to expand...</i></span>
+
+        <span class="collapsibleContent">Suppose w.l.o.g. that $T$ is infinite and let $\mc{D}$ be the collection of all finite-subtheories of $T$. For each $\Delta\in\mc{D}$, let $M_\Delta\models\Delta$, and let $X_\Delta\subseteq\mc{D}$ be the subcollection of all finite-subtheories of $T$ containing $\Delta$. Since $X_{\Delta_1}\cap X_{\Delta_2}=X_{\Delta_1\cup\Delta_2}$ for any two $\Delta_i\in\mc{D}$, the collection $F\coloneqq\l\{X\subseteq\mc{D}\st X\supseteq X_\Delta\textrm{ for some }\Delta\in\mc{D}\r\}$ is a filter, which extends to an ultrafilter $U\supseteq F$.
+<br>
+  We claim that the <a href=https://zhaoshenzhai.github.io/mathwiki/ultraproduct.md class="internalLink references" title="Ultraproduct" mathLink="" secID="" secDisplay="" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/ultraproduct.md&#34;, {&#34;Date&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;Lastmod&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;PublishDate&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Ultraproduct&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/ultraproduct&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onmouseleave="clearPreviewSide({&#34;Date&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;Lastmod&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;PublishDate&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Ultraproduct&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/ultraproduct&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/ultraproduct.md&#34;, {&#34;Date&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;Lastmod&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;PublishDate&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Ultraproduct&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/ultraproduct&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">ultraproduct</a> $M\coloneqq\prod_{\Delta\in\mc{D}}M_\Delta/U$ models $T$. Indeed, for any $\phi\in T$, we have $M_\Delta\models\phi$ for all $\Delta\in X_{\l\{\phi\r\}}$, and thus $X_{\l\{\phi\r\}}\subseteq\l\{\Delta\in\mc{D}\st M_\Delta\models\phi\r\}$. Since $X_{\l\{\phi\r\}}\in U$, we have $\l\{\Delta\in\mc{D}\st M_\Delta\models\phi\r\}\in U$, and hence $M\models\phi$ by <a href=https://zhaoshenzhai.github.io/mathwiki/ultraproduct.md/#los_theorem class="internalLink proved_by" title="Ultraproduct" mathLink="" secID="los_theorem" secDisplay="Łoś’s Theorem" onmouseover="previewSide(&#34;https://zhaoshenzhai.github.io/mathwiki/ultraproduct.md/#los_theorem&#34;, {&#34;Date&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;Lastmod&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;PublishDate&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Ultraproduct&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/ultraproduct&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onmouseleave="clearPreviewSide({&#34;Date&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;Lastmod&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;PublishDate&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Ultraproduct&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/ultraproduct&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});" onclick="updateCurrentSide(event, &#34;https://zhaoshenzhai.github.io/mathwiki/ultraproduct.md/#los_theorem&#34;, {&#34;Date&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;Lastmod&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;PublishDate&#34;:&#34;2024-12-15T16:27:53-05:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Ultraproduct&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/ultraproduct&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">Łoś’s Theorem</a>.<span style="float:right;">$\blacksquare$</span></span></div>
+<div class="space"></div></p>
+<p><strong>Remark.</strong> Thus, to show that a theory $T$ is satisfiable, it suffices to show that an arbitrary finite subtheory $\Delta\subseteq T$ is satisfiable. To further simplify this, we can take conjunctions and show that the single sentence $\phi\coloneqq\bigwedge\Delta$ is satisfiable.</p>
+
+
+            <div class="bottomSpace">&nbsp;</div>
+        </div>
+
+        <div id="side" class="inPreview">
+            <div id="metadata" class="right noScroll">
+                December 15, 2024 | Zhaoshen Zhai
+
+                <div>References:
+                     None 
+                </div>
+                <div>Tags:
+                    
+                        <div class="metaButton metaTag listenDark">#In_Progress</div>
+                    
+                </div>
+                <br>
+
+                <div>Table of Contents:
+                    <button class="metaButton listenDark" onclick="showMetaTOC();">Show</button>
+                    <button class="metaButton listenDark" onclick="hideMetaTOC();">Hide</button>
+                    <div id="metaTOC"></div>
+                </div>
+                <div>Links:
+                    <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
+                    <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
+                    <div id="metaLinks"></div>
+                </div>
+
+                <div class="bottomSpace">&nbsp;</div>
+            </div>
+            <div id="previewContainer">
+                <button id="resetSide" onclick="resetSide();" class="ctrlButton noSelect" style="display: none;">
+                    <img src="https://zhaoshenzhai.github.io/mathwiki/css/fa/close.svg">
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+        <div id="searchBox" style="display: none;">
+            <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" onmouseover="searchItemActive(9)"></li>
+            </ul>
+        </div>
+    </body>
+</html>
