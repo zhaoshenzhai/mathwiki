@@ -21,13 +21,17 @@
     padding: 10px;
 
     font-family: cmu;
-    font-size: 23px;
+    font-size: var(--size);
 
     color: var(--fg);
     background-color: var(--bg);
     border: none;
     border-radius: 5px;
     outline: none;
+}
+
+#searchBar::placeholder {
+    font-size: var(--size);
 }
 
 #searchList {

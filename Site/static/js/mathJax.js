@@ -1,6 +1,4 @@
-import { expandMetaLinks } from './single/metaLinks.js';
-import { initCollapsibles } from './single/expand.js';
-import { showMetaTOC } from './single/metaTOC.js';
+import { showTOC } from './single/headers.js';
 
 window.MathJax = {
     tex: {
@@ -14,7 +12,7 @@ window.MathJax = {
     startup: {
         pageReady() {
             return MathJax.startup.defaultPageReady().then(function () {
-                init();
+                showTOC();
             });
         }
     }
@@ -33,9 +31,3 @@ window.MathJax = {
             document.head.appendChild(script);
         });
 })();
-
-function init() {
-    expandMetaLinks();
-    initCollapsibles();
-    showMetaTOC();
-}

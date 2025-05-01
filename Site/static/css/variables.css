@@ -1,3 +1,7 @@
+:root {
+    --fontSize: 25;
+}
+
 :root { 
     --bg: white;
     --fg: black;

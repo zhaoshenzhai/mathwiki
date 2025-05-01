@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: var(--fg);
     background-color: var(--bg);
@@ -21,36 +25,21 @@ blockquote {
     transition: border-left var(--darkTransition);
 }
 
-#content, #metadata {
-    position: fixed;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-    text-align: left;
-}
-
 #content {
+    position: absolute;
+    height: 100%;
+    width: 1000px;
+    left: calc(50% - (1000px/2));
     padding-top: 60px;
+    text-align: left;
     transition: width, padding-left, padding-right;
     transition-duration: var(--splitScreenTransition);
 }
 
 #title {
-    letter-spacing: 8px;
+    letter-spacing: 5px;
     line-height: 40px;
     margin: 40px 0 30px 0;
-}
-
-#toggleSide {
-    top: 100px;
-    left: 0.5%;
-    margin: 0;
-}
-
-#toggleSide img {
-    padding: 5px;
-    height: 20px;
-    width: 20px;
 }
 
 .h1Title {
@@ -63,23 +52,6 @@ blockquote {
 
 .headerSmall {
     font-size: var(--SCSize);
-}
-
-.left, .right {
-    width: 45%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-}
-
-.left {
-    z-index: 10;
-}
-
-.right {
-    right: 0%;
-    z-index: 9;
-    font-size: 23px !important;
-    transition: right var(--splitScreenTransition);
 }
 
 .center {

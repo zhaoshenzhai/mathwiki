@@ -31,7 +31,7 @@ Every basis $B$ of $M$ is a maximal linearly-independent set and a minimal gener
 
 > For instance, $\Q$ as a {{< link file="integers.md" display="$\Z$" type="references" >}}-module: if $\gen{S}=\Q$ is minimal, then for any fixed $a\in S$ consider $H\coloneqq\gen{S\comp\l\\{a\r\\}}$; the {{< link file="quotient_group.md" display="quotient" type="references" >}} $G\coloneqq\Q/H$ is non-trivial and {{< link file="cyclic_group.md" display="cyclic" type="references" >}} ($G\iso\gen{\bar{a}}$), so{{< link file="cyclic_group.md" type="justifications" mod="dag" secID="classification" secDisplay="Classification" >}} $G\iso\Z$ or $G\iso\Z/n\Z$ for some $n\in\N$, a contradiction since $\Q$ is {{< link file="divisible_group.md" display="divisible" type="references" >}} but $G$ isn't.
 
-This shows that not all modules admit bases. However, maximal linearly-independent sets do exist in general, and if $R$ is a field, then the maximal linearly-independent sets are bases{{< link file="vector_space.md" type="justifications" mod="dag" secID="existence_of_bases" secDisplay="Existence of Bases" >}}.
+This shows that not all modules admit bases. However, maximal linearly-independent sets do exist in general, and if $R$ is a field, then the maximal linearly-independent sets are bases {{< link file="vector_space.md" display="hi" type="justifications" secID="existence_of_bases" >}}.
 
 {{< env type="proposition" id="maximal_linearly-independent_sets" >}}
 

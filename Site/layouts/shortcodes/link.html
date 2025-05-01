@@ -1,9 +1,6 @@
 {{- $path := .Get "file" -}}
-{{- $type := .Get "type" -}}
 {{- $display := .Get "display" -}}
-{{- $mod := .Get "mod" -}}
-{{- $secID := .Get "secID" -}}
-{{- $secDisplay := .Get "secDisplay" -}}
+{{- $id := .Get "id" -}}
 
 {{- $link := absURL $path -}}
 {{- $page := .Page.GetPage $path -}}
@@ -21,24 +18,16 @@
 {{- end -}}
 
 {{- $title := "" -}}
+{{- $mod := "" -}}
 {{- if $page -}}
     {{ $title = $page.Title -}}
 {{- else -}}
     {{ $title = $display -}}
-    {{ $type = printf "%s %s" $type "ghostLink" -}}
+    {{ $mod = "ghostLink" -}}
 {{- end -}}
 
-{{- if eq $mod "dag" -}}
-    {{ $name = "$^\\dagger$" -}}
-    {{ $type = printf "%s %s" $type "dag" -}}
+{{- if $id -}}
+    {{ $link = printf "%s%s%s" $link "/#" $id -}}
 {{- end -}}
 
-{{- if $secID -}}
-    {{ $link = printf "%s%s%s" $link "/#" $secID -}}
-
-    {{- if not $secDisplay -}}
-        {{ $secDisplay = $name -}}
-    {{- end -}}
-{{- end -}}
-
-<a href={{ $link }} class="internalLink {{ $type }}" title="{{ $title }}" mathLink="{{ $mathLink }}" secID="{{ $secID }}" secDisplay="{{ $secDisplay }}" onmouseover="previewSide({{ $link }}, {{ $page }});" onmouseleave="clearPreviewSide({{ $page }});" onclick="updateCurrentSide(event, {{ $link }}, {{ $page }});">{{ $name }}</a>{{- "" -}}
+<a href={{ $link }} class="internalLink {{ $mod }}" title="{{ $title }}" mathLink="{{ $mathLink }}" id="{{ $id }}" onclick="onLinkClick(event, {{ $link }}, {{ $page }});">{{ $name }}</a>{{- "" -}}

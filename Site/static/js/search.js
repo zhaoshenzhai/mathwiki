@@ -15,35 +15,17 @@ var root = getComputedStyle(document.querySelector(':root'));
 
 var curSearchItemActive = 0;
 var curSearchLength = searchLengthCap;
-export var searchActive = false;
 
+export var searchActive = false;
 window.search = search;
 window.searchInit = searchInit;
 window.searchOpen = searchOpen;
 window.searchClear = searchClear;
 window.searchItemActive = searchItemActive;
 
-// Fetch from localStorage; if DNE, fetch from allFiles
 document.addEventListener('DOMContentLoaded', (e) => {
-    // var recentFiles = localStorage['recentFiles'];
-    // if (recentFiles) {
-    //     var allFiles = JSON.parse(recentFiles);
-    //     var curPath = getBasePath(window.location.pathname);
-    //     var curFileIndex = allFiles.findIndex(x => x.relPath == curPath);
-
-    //     allFiles.unshift(allFiles.splice(curFileIndex, 1)[0]);
-    //     allFilePaths = allFiles.map((x) => x.relPath);
-    //     allFileTitles = allFiles.map((x) => x.title);
-    //     searchEngine = new Fuse(allFiles, searchOptions);
-
-    //     localStorage.setItem('recentFiles', JSON.stringify(allFiles));
-    // } else {
     fetch('/mathwiki/allFiles.json').then(response => response.json())
     .then((data) => {
-        // recentFiles = JSON.stringify(data)
-        // localStorage.setItem('recentFiles', recentFiles);
-
-        // var allFiles = JSON.parse(recentFiles);
         var allFiles = data;
         var curPath = getBasePath(window.location.pathname);
         var curFileIndex = allFiles.findIndex(x => x.relPath == curPath);
@@ -53,13 +35,13 @@ document.addEventListener('DOMContentLoaded', (e) => {
         allFileTitles = allFiles.map((x) => x.title);
         searchEngine = new Fuse(allFiles, searchOptions);
     });
-    // }
 });
 
 export function searchInit() {
     if (!searchBox.classList.contains('inPreview')) {
         searchActive = true;
         searchBox.style.display = 'flex';
+        searchBar.setAttribute('size', getFontSize());
         searchBar.focus();
         search();
     }
@@ -97,8 +79,7 @@ function updateSearchList(newList, newListPaths) {
     }
 
     var itemHeight = document.getElementById('searchItem0').offsetHeight;
-    // 40 = searchBar height
-    // 15 = padding
+    // 40 = searchBar height; 15 = padding
     searchBox.style.height =
         (40 + 15 + (itemHeight * curSearchLength)) + 'px';
 }

@@ -1,27 +1,14 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
     <script src="{{ absURL "" }}js/single.js" type="module"></script>
-    <script src="{{ absURL "" }}js/single/metaLinks.js" type="module"></script>
-    <script src="{{ absURL "" }}js/single/metaTOC.js" type="module"></script>
-    <script src="{{ absURL "" }}js/single/preview.js" type="module"></script>
-    <script src="{{ absURL "" }}js/single/expand.js" type="module"></script>
-    <script src="{{ absURL "" }}js/single/side.js" type="module"></script>
+    <script src="{{ absURL "" }}js/single/headers.js" type="module"></script>
 
-    <link rel="stylesheet" href="{{ absURL "" }}css/ctrlButtons.css">
-    <link rel="stylesheet" href="{{ absURL "" }}css/collapsible.css">
-    <link rel="stylesheet" href="{{ absURL "" }}css/metadata.css">
-    <link rel="stylesheet" href="{{ absURL "" }}css/preview.css">
     <link rel="stylesheet" href="{{ absURL "" }}css/single.css">
+    <link rel="stylesheet" href="{{ absURL "" }}css/toc.css">
     <link rel="stylesheet" href="{{ absURL "" }}css/env.css">
 
     <div id="mainPage">
-        <button id="toggleDark" onclick="toggleDark(document, false, true, true);" class="ctrlButton noSelect inPreview">
-            <img id="toggleDarkIcon" src="{{ absURL "" }}css/fa/sun.svg">
-        </button>
-        <button id="toggleSide" onclick="toggleSide(false);" class="ctrlButton noSelect inPreview">
-            <img id="toggleSideIcon" src="{{ absURL "" }}css/fa/sun.svg">
-        </button>
-        <div id="content" class="left noScroll">
+        <div id="content">
             {{ if .Params.renderedTitle }}
                 <h1 id="title" titleSize="{{ .Params.titleSize }}">
                     {{ .Params.renderedTitle }}
@@ -36,40 +23,7 @@
             <div class="bottomSpace">&nbsp;</div>
         </div>
 
-        <div id="side" class="inPreview">
-            <div id="metadata" class="right noScroll">
-                {{ .Params.date | time.Format ":date_long" }} | Zhaoshen Zhai
-
-                <div>References:
-                    {{ range .Params.references }}
-                        <div class="metaButton metaRef listenDark">#{{ . }}</div>
-                    {{ else }} None {{ end }}
-                </div>
-                <div>Tags:
-                    {{ range .Params.tags }}
-                        <div class="metaButton metaTag listenDark">#{{ . }}</div>
-                    {{ else }} None {{ end }}
-                </div>
-                <br>
-
-                <div>Table of Contents:
-                    <button class="metaButton listenDark" onclick="showMetaTOC();">Show</button>
-                    <button class="metaButton listenDark" onclick="hideMetaTOC();">Hide</button>
-                    <div id="metaTOC"></div>
-                </div>
-                <div>Links:
-                    <button class="metaButton listenDark" onclick="expandMetaLinks();">Expand</button>
-                    <button class="metaButton listenDark" onclick="collapseMetaLinks();">Collapse</button>
-                    <div id="metaLinks"></div>
-                </div>
-
-                <div class="bottomSpace">&nbsp;</div>
-            </div>
-            <div id="previewContainer">
-                <button id="resetSide" onclick="resetSide();" class="ctrlButton noSelect" style="display: none;">
-                    <img src="{{ absURL "" }}css/fa/close.svg">
-                </button>
-            </div>
-        </div>
+        <div id="toc"></div>
+        <div class="bottomSpace">&nbsp;</div>
     </div>
 {{ end }}
