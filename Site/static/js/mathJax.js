@@ -1,5 +1,3 @@
-import { showTOC } from './single/headers.js';
-
 window.MathJax = {
     tex: {
         inlineMath: [['$', '$']],
@@ -8,14 +6,7 @@ window.MathJax = {
     svg: { fontCache: 'global' },
     loader: {load: ['[tex]/mathtools']},
     processEscapes: true,
-    processEnvironments: true,
-    startup: {
-        pageReady() {
-            return MathJax.startup.defaultPageReady().then(function () {
-                showTOC();
-            });
-        }
-    }
+    processEnvironments: true
 };
 
 (function() {

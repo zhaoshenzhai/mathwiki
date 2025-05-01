@@ -2,13 +2,20 @@
     position: fixed;
     height: 100%;
     z-index: 1;
-    top: 100px;
+    top: 180px;
+    opacity: 0;
     overflow-x: hidden;
-    transition: 0.5s;
+    pointer-events: none;
+    transition: left var(--tocTransition), opacity var(--tocTransition);
+}
+
+#tocButton{
+    position: fixed;
 }
 
 .TOCListH1 {
     font-size: 18px;
+    padding-left: 0px;
 }
 
 .TOCListH2 {

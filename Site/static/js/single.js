@@ -1,5 +1,6 @@
 import { initTitle, initHeaders, initTOC } from './single/headers.js';
 import { toggleDark } from './darkMode.js';
+import { removePX } from './stringUtils.js';
 
 export var contentEl, tocEl;
 
@@ -7,7 +8,8 @@ var root = document.querySelector(':root');
 var fontSize;
 
 document.addEventListener('DOMContentLoaded', (e) => {
-    fontSize = getComputedStyle(root).getPropertyValue('--fontSize');
+    fontSize = removePX(getComputedStyle(root)
+        .getPropertyValue('--fontSize'));
     setFontSize(fontSize);
 
     contentEl = document.getElementById('content');
@@ -22,11 +24,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 });
 
 export function getFontSize() { return fontSize; }
-export function getSCFontSize() { return fontSize - 7; }
-export function getTextHeight() { return fontSize + 7; }
-
 export function setFontSize(size) {
     fontSize = size;
-    root.style.setProperty('--size', size + 'px');
-    root.style.setProperty('--SCSize', getSCFontSize() + 'px');
+    root.style.setProperty('--SCSize', (size - 7) + 'px');
 }

@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+    color: var(--link);
+}
+
+a:hover {
+    color: var(--link-hover);
+}
+
+a.ghostLink {
+    color: var(--link-ghost) !important;
+}
+
+a.ghostLink:hover {
+    color: var(--link-ghost-hover) !important;
+}

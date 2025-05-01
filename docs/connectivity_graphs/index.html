@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang=en-US class="noScroll">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Connectivity in Graphs</title>
+
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/darkMode.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/variables.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/noProperty.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module"></script>
+
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body>
+        
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/headers.js" type="module"></script>
+
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/toc.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+
+    <div id="mainPage">
+        <div id="content">
+            
+                <h1 id="title" titleSize="">
+                    Connectivity in Graphs
+                </h1>
+            
+            <h1 id="motivation--definition">Motivation &amp; Definition</h1>
+<p><a href=https://zhaoshenzhai.github.io/mathwiki/graph.md class="internalLink " title="Graph" mathLink="" id="" onclick="onLinkClick(event, &#34;https://zhaoshenzhai.github.io/mathwiki/graph.md&#34;, {&#34;Date&#34;:&#34;2024-09-05T18:13:24-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-09-05T18:13:24-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-09-05T18:13:24-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Graph&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/graph&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">Graphs</a> are inherently geometrical objects, and like how <a href=https://zhaoshenzhai.github.io/mathwiki/topological_space.md class="internalLink " title="Topological Space" mathLink="" id="" onclick="onLinkClick(event, &#34;https://zhaoshenzhai.github.io/mathwiki/topological_space.md&#34;, {&#34;Date&#34;:&#34;2024-05-14T14:45:50-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-05-14T14:45:50-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-05-14T14:45:50-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Topological Space&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/topological_space&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">topological spaces</a> can be <a href=https://zhaoshenzhai.github.io/mathwiki/connected_space.md class="internalLink " title="Connected Space" mathLink="" id="" onclick="onLinkClick(event, &#34;https://zhaoshenzhai.github.io/mathwiki/connected_space.md&#34;, {&#34;Date&#34;:&#34;2024-09-04T19:44:39-04:00&#34;,&#34;Lastmod&#34;:&#34;2024-09-04T19:44:39-04:00&#34;,&#34;PublishDate&#34;:&#34;2024-09-04T19:44:39-04:00&#34;,&#34;ExpiryDate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;Aliases&#34;:null,&#34;BundleType&#34;:&#34;&#34;,&#34;Description&#34;:&#34;&#34;,&#34;Draft&#34;:false,&#34;IsHome&#34;:false,&#34;Keywords&#34;:null,&#34;Kind&#34;:&#34;page&#34;,&#34;Layout&#34;:&#34;&#34;,&#34;LinkTitle&#34;:&#34;Connected Space&#34;,&#34;IsNode&#34;:false,&#34;IsPage&#34;:true,&#34;Path&#34;:&#34;/connected_space&#34;,&#34;Slug&#34;:&#34;&#34;,&#34;Lang&#34;:&#34;en&#34;,&#34;IsSection&#34;:false,&#34;Section&#34;:&#34;&#34;,&#34;Sitemap&#34;:{&#34;ChangeFreq&#34;:&#34;&#34;,&#34;Priority&#34;:-1,&#34;Filename&#34;:&#34;sitemap.xml&#34;,&#34;Disable&#34;:false},&#34;Type&#34;:&#34;page&#34;,&#34;Weight&#34;:0});">connected</a> or disconnected, so can graphs. However, we’ll opt for ‘path-connectedness’ instead, which will turn out to be equivalent to (topological) connectedness.</p>
+<br>
+<p>  More graph-theoretically, there is a notion of <em>$k$-connectivity</em> for $k\in\N$, which is a measure of how ‘strongly’ connected a graph is; the $1$-connected graphs will be the (non-trivial) connected ones. In general, $k$-connectivity is much more complicated.</p>
+<h2 id="paths_and_walks">Paths and Walks</h2>
+<p>Let $G\coloneqq(V,E)$ be a simple graph. A <em>path</em> in $G$ is a <a href=https://zhaoshenzhai.github.io/mathwiki/subgraph.md class="internalLink ghostLink" title="subgraph" mathLink="" id="" onclick="onLinkClick(event, &#34;https://zhaoshenzhai.github.io/mathwiki/subgraph.md&#34;, &#34;nopPage&#34;);">subgraph</a> $P\subseteq G$ of the form $V(P)=\l\{v_0,\dots,v_n\r\}$ and $E(P)\coloneqq\l\{v_0v_1,v_1v_2,\dots,v_{n-1}v_n\r\}$, where each $v_i\in V$ are all distinct. Note that any path $P$ determines a sequence of vertices $(v_i)_{i\leq n}$.</p>
+<br>
+<p>  A <em>walk</em> is a sequence $(v_i)_{i\leq n}$ of vertices in $V$ such that $e_i\coloneqq v_iv_{i+1}\in E$ for all $i&lt;n$. Every path (clearly) induces a walk, and since every walk ‘contains’ a path between its ends, the following definition makes sense:</p>
+<div class="env envDef" id=""><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg"><b class="envTitle">Definition. </b>A graph $G\coloneqq(V,E)$ is said to be <em>connected</em> if it is non-empty and every $u,v\in V$ is joined by a path in $G$, which occurs iff every $u,v\in V$ is joined by a walk in $G$.</div>
+
+<div class="collapsibleContainer" id=""><i class="proofHeader collapsibleHeaderButton collapsibleHeader noSelect">Proof (Well-definition).</i><span class="collapsibleHintText noSelect"><i> Click to expand...</i></span>
+
+        <span class="collapsibleContent">If $u,v\in V$ are distinct vertices joined by a walk in $G$, we can choose a minimal (i.e. shortest) walk $(v_i)_{i\leq n}$ in $G$ joining $u,v$. This walk induces a path from $u$ to $v$, since if $v_i=v_j$ for some $i&lt;j$, then $(v_0,\dots,v_i,v_{j+1},\dots,v_n)$ is a walk of shorter length, contradicting our choice of walk.<span style="float:right;">$\blacksquare$</span></span></div>
+
+<h2 id="connected_components" class="hide">Connected Components</h2>
+<p>A <em>(connected) component</em> of $G$ is a maximal connected subgraph of $G$. It is clear that every vertex is contained in a component (namely, the union of all connected subgraphs of $G$ containing it), and this component is unique since the union of connected intersecting subgraphs of $G$ is also connected.</p>
+<br>
+<p>  Using components, we can prove that $G$ is disconnected iff there is a pairwise non-adjacent partition $V(G)=X\sqcup Y$.</p>
+<blockquote>
+<div class="collapsibleContainer" id=""><i class="proofHeader collapsibleHeaderButton collapsibleHeader noSelect hide">Proof.</i><span class="collapsibleHintText noSelect"><i> Click to expand...</i></span>
+
+        <span class="collapsibleContent">Suppose that such a partition $V=X\sqcup Y$ exists and fix $u\in X$ and $v\in Y$. If $(v_i)_{i\leq n}$ is a walk from $v_0\coloneqq u$ to $v_1\coloneqq v$, then there is a minimal $0&lt;i\leq n$ with $v_i\in Y$, and hence $v_{i-1}v_i\in E$ is an $X\!-\!Y$ edge. Conversely, pick $u,v\in V$ not joined by any walk in $G$ and let $X$ be the component containing $v$. Setting $Y\coloneqq V\comp X$ gives us the desired partition $V=X\sqcup Y$.<span style="float:right;">$\blacksquare$</span></span></div>
+</blockquote>
+<h2 class="hide">Simplicial Characterization</h2>
+<h2 id="connectivity">Connectivity</h2>
+<div class="env envDef" id=""><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg"><b class="envTitle">Definition. </b>Let $k\in\N$. A graph $G$ is said to be <em>$k$-connected</em> if $|V|\geq k$ and $G-X$ is connected for every $X\subseteq V$ with $|X|&lt;k$.</div>
+
+<h1 id="structure-of-connectivity">Structure of Connectivity</h1>
+
+
+            <div class="bottomSpace">&nbsp;</div>
+        </div>
+
+        <div id="toc"></div>
+        <div class="bottomSpace">&nbsp;</div>
+    </div>
+
+
+        <div id="searchBox" style="display: none;">
+            <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" onmouseover="searchItemActive(9)"></li>
+            </ul>
+        </div>
+    </body>
+</html>

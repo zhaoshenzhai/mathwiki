@@ -1,6 +1,7 @@
 import { contentEl } from './single.js';
-import { formatSpace, removeExt } from './stringUtils.js';
 import { toggleDark } from './darkMode.js';
+import { toggleTOC } from './single/headers.js';
+import { formatSpace, removeExt } from './stringUtils.js';
 import { searchInit, searchOpen, searchClear,
          searchActive, searchScroll } from './search.js';
 
@@ -38,6 +39,8 @@ document.addEventListener('keydown', function(e) {
         window.scrollBy(0, -window.innerHeight / 2);
     } else if (ctrlKeyDown && e.key === 'r') {
         location.reload();
+    } else if (ctrlKeyDown && e.key === 'e') {
+        toggleTOC();
     } else if (ctrlKeyDown && e.key === 'w') {
         window.close();
     }

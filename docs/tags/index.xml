@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on MathWiki</title>
+    <link>https://zhaoshenzhai.github.io/mathwiki/tags/</link>
+    <description>Recent content in Tags on MathWiki</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Dec 2024 16:38:07 -0500</lastBuildDate>
+    <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>In_Progress</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</link>
+      <pubDate>Sun, 15 Dec 2024 16:38:07 -0500</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graph_Theory</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/tags/graph_theory/</link>
+      <pubDate>Thu, 05 Sep 2024 22:37:16 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/tags/graph_theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Group_Theory</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/tags/group_theory/</link>
+      <pubDate>Tue, 16 Jul 2024 14:47:17 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/tags/group_theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Group_Theory/Later</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/tags/group_theory/later/</link>
+      <pubDate>Tue, 16 Jul 2024 14:47:17 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/tags/group_theory/later/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Set_Theory</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/tags/set_theory/</link>
+      <pubDate>Tue, 11 Jun 2024 21:27:54 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/tags/set_theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ring_Theory</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/tags/ring_theory/</link>
+      <pubDate>Mon, 03 Jun 2024 15:19:04 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/tags/ring_theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Category_Theory</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/tags/category_theory/</link>
+      <pubDate>Wed, 29 May 2024 18:17:16 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/tags/category_theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Topology</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/tags/topology/</link>
+      <pubDate>Tue, 14 May 2024 14:45:50 -0400</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/tags/topology/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+mjx-container[display="true"] {
+    margin: 0.7em !important;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+mjx-container[display="true"]::-webkit-scrollbar {
+    height: 0.2em;
+    border-radius: 10px;
+}
+
+mjx-container[display="true"]::-webkit-scrollbar-track {
+    background-color: var(--bg);
+}
+
+mjx-container[display="true"]::-webkit-scrollbar-thumb {
+    background-color: var(--quote);
+}
+
+.MJX_LiveRegion, .MJX_HoverRegion, .MJX_ToolTip {
+    background: none !important;
+}

@@ -1,10 +1,12 @@
-import { toSmallCaps, textOfNode, trimHeaders } from '../stringUtils.js';
-import { getFontSize, getSCFontSize, tocEl } from '../single.js';
+import { getFontSize, contentEl, tocEl } from '../single.js';
+import { toSmallCaps, textOfNode,
+         trimHeaders, removePX } from '../stringUtils.js';
 
-window.showTOC = showTOC;
-window.hideTOC = hideTOC;
+window.toggleTOC = toggleTOC;
 
+var root = getComputedStyle(document.querySelector(':root'));
 var headers = {};
+var tocHidden = false;
 
 export function initHeaders(headerEls) {
     var h1Num = 0;
@@ -164,9 +166,21 @@ function formatHeaders() {
     }
 }
 
-export function showTOC() {
-    tocEl.style.maxHeight = tocEl.scrollHeight + 'px';
-}
-function hideTOC() {
-    tocEl.style.maxHeight = null;
+export function toggleTOC() {
+    var contentWidth = root.getPropertyValue('--contentWidth');
+    var initialLeft = (window.innerWidth - removePX(contentWidth))/2;
+
+    if (tocHidden) {
+        tocEl.style.left = '0px';
+        tocEl.style.opacity = '0';
+        tocEl.style.pointerEvents = 'none';
+        contentEl.style.left = initialLeft + 'px';
+    } else {
+        tocEl.style.left = '50px';
+        tocEl.style.opacity = '1';
+        tocEl.style.pointerEvents = 'all';
+        contentEl.style.left = (initialLeft + 100) + 'px';
+    }
+
+    tocHidden = !tocHidden;
 }

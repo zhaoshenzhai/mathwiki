@@ -9,7 +9,7 @@ body {
 
 body, h1, p {
     margin: 0;
-    font-size: var(--size);
+    font-size: var(--fontSize);
 }
 
 h2, p {
@@ -28,12 +28,11 @@ blockquote {
 #content {
     position: absolute;
     height: 100%;
-    width: 1000px;
-    left: calc(50% - (1000px/2));
+    width: var(--contentWidth);
+    left: calc(50% - (var(--contentWidth)/2));
     padding-top: 60px;
     text-align: left;
-    transition: width, padding-left, padding-right;
-    transition-duration: var(--splitScreenTransition);
+    transition: left var(--tocTransition);
 }
 
 #title {
@@ -47,7 +46,7 @@ blockquote {
 }
 
 .headerBig {
-    font-size: var(--size);
+    font-size: var(--fontSize);
 }
 
 .headerSmall {

@@ -1,8 +1,7 @@
 :root {
-    --fontSize: 25;
-}
+    --fontSize: 25px;
+    --contentWidth: 1250px;
 
-:root { 
     --bg: white;
     --fg: black;
 
@@ -17,24 +16,8 @@
 
     --box-bg: rgba(0,0,0,0.05);
     --quote: rgba(0,0,0,0.25);
-}
 
-:root {
-    --splitScreenTransition: 1s;
+    --tocTransition: 0.3s;
     --darkTransition: 0.2s;
-    --collapseTransition: 0.5s;
-    --rotateTransition: 0.2s;
     --hoverTransition: 0.1s;
-}
-
-@property --mask-bg-1 {
-    syntax: '<color>';
-    initial-value: rgba(255, 255, 255, 0.2);
-    inherits: true;
-}
-
-@property --mask-bg-2 {
-    syntax: '<color>';
-    initial-value: white;
-    inherits: true;
 }

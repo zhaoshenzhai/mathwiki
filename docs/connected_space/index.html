@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang=en-US class="noScroll">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Connected Space</title>
+
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/darkMode.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/variables.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/noProperty.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module"></script>
+
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body>
+        
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/headers.js" type="module"></script>
+
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/toc.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+
+    <div id="mainPage">
+        <div id="content">
+            
+                <h1 id="title" titleSize="">
+                    Connected Space
+                </h1>
+            
+            <h1 id="motivation--definition">Motivation &amp; Definition</h1>
+<div class="env envDef" id=""><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg"><b class="envTitle">Definition. </b>A topological space $X$ is said to be <em>connected</em> if $\em,X$ are the only clopen sets in $X$.</div>
+
+<div class="env" id=""><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/theorem.svg"><b class="envTitle">Theorem. </b>If $f:X\to Y$ is a continuous map and $X$ is connected, then so is $f(X)$.</div>
+
+<div class="collapsibleContainer" id=""><i class="proofHeader collapsibleHeaderButton collapsibleHeader noSelect">Proof.</i><span class="collapsibleHintText noSelect"><i> Click to expand...</i></span>
+
+        <span class="collapsibleContent">We prove the contrapositive, so write $f(X)=V_1\sqcup V_2$ for some non-empty disjoint open sets $V_i\subseteq f(X)$. Then $U_i\coloneqq f^{-1}(V_i)$ are non-empty disjoint open sets of $X$ with $X=U_1\sqcup U_2$, as desired.<span style="float:right;">$\blacksquare$</span></span></div>
+
+<h1 id="path-connectedness">Path-connectedness</h1>
+<p>Let $x,y\in X$. A <em>path</em> from $x$ to $y$ is a continuous map $\gamma:[0,1]\to\R$ such that $\gamma(0)=x$ and $\gamma(1)=y$. We usually express this by writing $\gamma:x\pathto y$. As expected the definition for path-connectedness is as follows.</p>
+<div class="env envDef" id=""><img class="icon noSelect listenDark" src="https://zhaoshenzhai.github.io/mathwiki/css/fa/definition.svg"><b class="envTitle">Definition. </b>A topological space $X$ is said to be <em>path-connected</em> if for every $x,y\in X$ is joined by a path $\gamma:x\pathto y$.</div>
+
+
+
+            <div class="bottomSpace">&nbsp;</div>
+        </div>
+
+        <div id="toc"></div>
+        <div class="bottomSpace">&nbsp;</div>
+    </div>
+
+
+        <div id="searchBox" style="display: none;">
+            <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" onmouseover="searchItemActive(9)"></li>
+            </ul>
+        </div>
+    </body>
+</html>
