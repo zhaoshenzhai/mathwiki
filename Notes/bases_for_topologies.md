@@ -7,7 +7,7 @@ tags: [In_Progress]
 
 # Motivation & Definition
 
-Let $X$ be a set. To specify a {{< link file="topological_space.md" display="topology" type="references" >}} on $X$, one needs to give a complete description of its open sets. In practice, however, specifying a certain subcollection $\mc{B}\subseteq\pow(X)$ will suffice, In which case we say that the topology is *generated* by $\mc{B}$. Two questions arise:
+Let $X$ be a set. To specify a {{< link file="topological_space.md" display="topology" type="references" >}} on $X$, one needs to give a complete description of its open sets. In practice, however, specifying a certain subcollection $\mc{B}\subseteq\pow(X)$ will suffice, In which case we say that the topology is *generated* by $\mc{B}$. Two questions arise: \cite{Mac97}
 1. If $\mc{T}$ is a *given* topology on $X$, what subcollections $\mc{B}\subseteq\mc{T}$ generate $\mc{T}$?
 2. What kinds of collections $\mc{B}\subseteq\pow(X)$ can specify *some* topology $\mc{T}$ on $X$?
 
@@ -15,11 +15,11 @@ Let $X$ be a set. To specify a {{< link file="topological_space.md" display="top
 
 Let $\mc{T}$ be a fixed topology on $X$.
 
-{{< env type="definition" >}}
+\begin{definition}[hi]\label{hey}
 
 A collection $\mc{B}\subseteq\mc{T}$ is a *basis for $\mc{T}$* if every open set $U\in\mc{T}$ is a union of sets in $\mc{B}$.
 
-{{< /env >}}
+\end{definition}
 
 Since all open sets $U\in\mc{T}$ are just unions of sets in $\mc{B}$, we call $\mc{B}$ the *basic open sets*.
 
@@ -39,21 +39,21 @@ Thus, bases can be viewed as a global version of filter bases.
 
 &emsp;&emsp;To further thin down the subcollection and obtain $\mc{T}$ by closing under finite intersections as well, we make the following
 
-{{< env type="definition" >}}
-
+\begin{definition*}\ref{cayleys_theorem:cayley}
+    
 A collection $\mc{S}\subseteq\mc{T}$ is a *subbasis for $\mc{T}$* if every open set $U\in\mc{T}$ is a union of finite intersections of sets in $\mc{S}$.
 
-{{< /env >}}
+\end{definition*}
 
 ## Generation of Some Topology
 
 One way for a collection $\mc{B}\subseteq\pow(X)$ to generate *some* topology on $X$ is to let it satisfy some of the axioms for a topology on $X$, from which a topology can be obtained by closing it under the others.
 
-{{< env type="definition" >}}
-
+\begin{definition}[oh hi there]
+    
 A collection $\mc{B}\subseteq\pow(X)$ is a *(saturated) basis* for a topology if $X$ and all pairwise intersections of sets in $\mc{B}$ are unions of sets in $\mc{B}$ (resp. in $\mc{B}$).
 
-{{< /env >}}
+\end{definition}
 
 In other words, $\mc{B}$ is a basis if it covers $X$ and for every $B_1,B_2\in\mc{B}$ with $x\in B_1\cap B_2$, we have $x\in B\subseteq B_1\cap B_2$ for some $B\in\mc{B}$. In either case, we obtain a topology on $X$ by closing it under unions, i.e. by letting
 $$\begin{equation}
@@ -87,11 +87,11 @@ Many topological properties of $X$ can be detected (or defined) by the existence
 
 To begin, we have the following basic notion.
 
-{{< env type="definition" >}}
+\begin{definition}
 
 The *weight* of $X$ is the minimal {{< link file="cardinal.md" display="cardinality" type="references" >}} of a basis for $X$, denoted $w(X)$.
 
-{{< /env >}}
+\end{definition}
 
 If $w(X)\leq\aleph_0$, then $X$ is said to be *{{< link file="second_countable_space.md" display="second countable" type="constructions" >}}*.
 

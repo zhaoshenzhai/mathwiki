@@ -2,28 +2,31 @@
 {{ define "main" }}
     <script src="{{ absURL "" }}js/single.js" type="module"></script>
     <script src="{{ absURL "" }}js/single/headers.js" type="module"></script>
+    <script src="{{ absURL "" }}js/single/format.js" type="module"></script>
+    <script src="{{ absURL "" }}js/single/envs.js" type="module"></script>
+    <script src="{{ absURL "" }}js/single/refs.js" type="module"></script>
 
     <link rel="stylesheet" href="{{ absURL "" }}css/single.css">
+    <link rel="stylesheet" href="{{ absURL "" }}css/ref.css">
     <link rel="stylesheet" href="{{ absURL "" }}css/toc.css">
     <link rel="stylesheet" href="{{ absURL "" }}css/env.css">
 
     <div id="mainPage">
         <div id="content">
-            {{ if .Params.renderedTitle }}
-                <h1 id="title" titleSize="{{ .Params.titleSize }}">
+            <h1 id="title" titleSize="{{ .Params.titleSize }}">
+                {{ if .Params.renderedTitle }}
                     {{ .Params.renderedTitle }}
-                </h1>
-            {{ else }}
-                <h1 id="title" titleSize="{{ .Params.titleSize }}">
+                {{ else }}
                     {{ .Title }}
-                </h1>
-            {{ end }}
+                {{ end }}
+            </h1>
+
             {{ .Content }}
 
-            <div class="bottomSpace">&nbsp;</div>
+            <div id="references"></div>
+            <div class="bottomSpace"></div>
         </div>
 
         <div id="toc"></div>
-        <div class="bottomSpace">&nbsp;</div>
     </div>
 {{ end }}

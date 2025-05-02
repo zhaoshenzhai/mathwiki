@@ -13,7 +13,7 @@ Whenever one encounters a type of mathematical object, one should ask if there i
 
 Such a theorem for {{< link file="group.md" display="groups" type="references" >}} is as follows.
 
-{{< env type="theorem" name="Cayley" >}}
+{{< env type="theorem" name="Cayley" id="cayley" >}}
 
 Every group $G$ is a {{< link file="subgroup.md" display="subgroup" type="references" >}} of a symmetry group.
 
@@ -29,7 +29,7 @@ We show that the left-multiplication {{< link file="group_action.md" display="ac
 
 We can refine this result if $G$ is finitely-generated and obtain a geometric result.
 
-{{< env type="proposition" >}}
+{{< env type="lemma" >}}
 
 Every finitely-generated group is a subgroup of the symmetries of a connected locally-finite (directed) graph.
 
@@ -56,5 +56,3 @@ Every ring $R$ is a {{< link file="subring.md" display="subring" type="reference
 {{< /env >}}
 
 # {{< link file="yoneda_lemma.md" display="The Yoneda Lemma" type="generalizations" >}}
-
-

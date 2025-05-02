@@ -30,4 +30,4 @@
     {{ $link = printf "%s%s%s" $link "/#" $id -}}
 {{- end -}}
 
-<a href={{ $link }} class="internalLink {{ $mod }}" title="{{ $title }}" mathLink="{{ $mathLink }}" id="{{ $id }}" onclick="onLinkClick(event, {{ $link }}, {{ $page }});">{{ $name }}</a>{{- "" -}}
+<a href={{ $link }} class="internalLink {{ $mod }}" id="{{ $id }}" title="{{ $title }}" mathLink="{{ $mathLink }}" onclick="onLinkClick(event, {{ $link }}, {{ $page }});">{{ $name }}</a>{{- "" -}}

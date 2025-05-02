@@ -1,4 +1,5 @@
-import { getFontSize, contentEl, tocEl } from '../single.js';
+import { getFontSize, contentEl, tocEl,
+         headerEls, titleEl } from '../single.js';
 import { toSmallCaps, textOfNode,
          trimHeaders, removePX } from '../stringUtils.js';
 
@@ -8,7 +9,7 @@ var root = getComputedStyle(document.querySelector(':root'));
 var headers = {};
 var tocHidden = false;
 
-export function initHeaders(headerEls) {
+export function initHeaders() {
     var h1Num = 0;
     var index = 1;
     while (index < headerEls.length) {
@@ -35,10 +36,10 @@ export function initHeaders(headerEls) {
     }
 }
 
-export function initTitle(titleEl){
+export function initTitle() {
     var newTitle = document.createElement('h1');
     var newTitleSize = titleEl.getAttribute('titleSize');
-    if (!newTitleSize) { newTitleSize = 25; }
+    if (!newTitleSize) { newTitleSize = 20; }
 
     var newTitleSC = toSmallCaps(
         titleEl.innerText,

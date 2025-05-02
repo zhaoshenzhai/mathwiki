@@ -1,26 +1,30 @@
 import { initTitle, initHeaders, initTOC } from './single/headers.js';
-import { toggleDark } from './darkMode.js';
+import { initFormat } from './single/format.js';
+import { initEnvs } from './single/envs.js';
+import { initRefs } from './single/refs.js';
 import { removePX } from './stringUtils.js';
 
-export var contentEl, tocEl;
+export var contentEl, tocEl, headerEls, titleEl;
 
-var root = document.querySelector(':root');
+const root = document.querySelector(':root');
+const rootC = getComputedStyle(root);
 var fontSize;
 
 document.addEventListener('DOMContentLoaded', (e) => {
-    fontSize = removePX(getComputedStyle(root)
-        .getPropertyValue('--fontSize'));
+    fontSize = removePX(rootC.getPropertyValue('--fontSize'));
     setFontSize(fontSize);
 
     contentEl = document.getElementById('content');
     tocEl = document.getElementById('toc');
+    headerEls = document.querySelectorAll('h1, h2');
+    titleEl = headerEls[0];
 
-    var headerEls = document.querySelectorAll('h1, h2')
-    var titleEl = headerEls[0];
-
-    initHeaders(headerEls);
-    initTitle(titleEl);
+    initFormat();
+    initHeaders();
+    initTitle();
+    initEnvs();
     initTOC();
+    initRefs();
 });
 
 export function getFontSize() { return fontSize; }

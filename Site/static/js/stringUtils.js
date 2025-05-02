@@ -54,6 +54,10 @@ export function getBasePath(path) {
     return path.replace(/\//g, '').replace(/mathwiki/, '');
 }
 
+export function getAbsUrl() {
+    return window.location.href.replace(/mathwiki.*/, 'mathwiki/');
+}
+
 export function removeExt(path) {
     return path.replace(/.md/, '');
 }
@@ -64,4 +68,13 @@ export function removePX(size) {
 
 export function trimHeaders(s) {
     return s.replace(/\.$/, '').replace(/.*\.\ /, '');
+}
+
+export function toNumeral(num) {
+    var list = ['zeroth','first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth', 'tenth'];
+    return list[num];
+}
+
+export function removeLineBreak(s) {
+    return s.replace(/(\r\n|\n|\r)/gm, "");
 }
