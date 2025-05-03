@@ -21,28 +21,8 @@ document.addEventListener('keydown', function(e) {
         searchScroll(1);
     } else if (searchActive && e.key === 'ArrowUp') {
         searchScroll(-1);
-    } else if (!searchActive && e.key === 'j') {
-        window.scrollBy(0, 60);
-    } else if (!searchActive && e.key === 'k') {
-        window.scrollBy(0, -60);
-    } else if (!searchActive && e.key === 'g') {
-        window.scrollTo(0, 0);
-    } else if (!searchActive && e.key === 'G') {
-        window.scrollBy(0, contentEl.scrollHeight);
-    } else if (ctrlKeyDown && !searchActive && e.key === 'h') {
-        history.back();
-    } else if (ctrlKeyDown && !searchActive && e.key === 'l') {
-        history.forward();
-    } else if (ctrlKeyDown && !searchActive && e.key === 'd') {
-        window.scrollBy(0, window.innerHeight / 2);
-    } else if (ctrlKeyDown && !searchActive && e.key === 'u') {
-        window.scrollBy(0, -window.innerHeight / 2);
-    } else if (ctrlKeyDown && e.key === 'r') {
-        location.reload();
     } else if (ctrlKeyDown && e.key === 'e') {
         toggleTOC();
-    } else if (ctrlKeyDown && e.key === 'w') {
-        window.close();
     }
 });
 

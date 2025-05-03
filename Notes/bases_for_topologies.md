@@ -45,6 +45,18 @@ A collection $\mc{S}\subseteq\mc{T}$ is a *subbasis for $\mc{T}$* if every open 
 
 \end{definition*}
 
+\begin{theorem}
+
+hi
+
+\end{theorem}
+
+\begin{definition}
+
+hi
+
+\end{definition}
+
 ## Generation of Some Topology
 
 One way for a collection $\mc{B}\subseteq\pow(X)$ to generate *some* topology on $X$ is to let it satisfy some of the axioms for a topology on $X$, from which a topology can be obtained by closing it under the others.

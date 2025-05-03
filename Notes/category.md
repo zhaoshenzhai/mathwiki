@@ -13,7 +13,7 @@ The starting point of the theory of *categories* is the observation that many pr
 
 &emsp;&emsp; To formalize this, we need a general framework for composing arrows, so we make the following
 
-{{< env type="definition" >}}
+\begin{definition}
 
 A *category* $C$ consists of a class $\mc{O}$ of *objects*, and,
 * for any $x,y\in\mc{O}$, a class $C(x,y)$ of *morphisms* in $C$ <span style="color:gray">[We write $f:x\to y$ for $f\in C(x,y)$]</span>;
@@ -22,7 +22,7 @@ A *category* $C$ consists of a class $\mc{O}$ of *objects*, and,
 
 such that $\circ$ is associative <span style="color:gray">[$h\circ(g\circ f)=(h\circ g)\circ f$]</span> and identities are unital <span style="color:gray">[$f\circ1_x=f=1_y\circ f$ for $f:x\to y$]</span>.
 
-{{< /env >}}
+\end{definition}
 
 Some fundamental concepts in category theory are as follows. Let $C$ be a category.
 * A morphism $f:x\to y$ is an *isomorphism* if there is a morphism $g:y\to x$ such that $g\circ f=1_x$ and $f\circ g=1_y$. A category whose morphisms are all isomorphisms is called a *{{< link file="groupoid.md" display="groupoid" type="types" >}}*.

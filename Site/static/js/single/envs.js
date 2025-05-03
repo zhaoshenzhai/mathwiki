@@ -10,7 +10,7 @@ export function initEnvs() {
         var title = env.querySelector('.envTitle');
 
         var name = env.getAttribute('data-envName');
-        var num = !env.getAttribute('data-envNoNum');
+        var num = !env.getAttribute('data-envNum');
         var ref = env.getAttribute('data-envRef');
         var refId = env.getAttribute('data-envRefId');
 
@@ -18,12 +18,17 @@ export function initEnvs() {
         title.parentNode.insertBefore(mod, title.nextSibling);
 
         var modText = '';
-        if (num) { modText = ' ' + index; index++; }
-        if (name) { modText += ' ('+name+')'; }
 
-        mod.innerText = modText + '. ';
-        mod.style.fontWeight = 'bold';
-        mod.style.fontStyle = 'normal';
+        if (!env.classList.contains('envProof')) {
+            if (num) { modText = ' ' + index; index++; }
+            mod.style.fontWeight = 'bold';
+            mod.style.fontStyle = 'normal';
+        } else {
+            mod.style.fontStyle = 'italic';
+        }
+
+        if (name) { modText += ' ('+name+')'; }
+        mod.innerHTML = modText + '. ';
 
         if (ref) {
             var refEnv = document.createElement('a');

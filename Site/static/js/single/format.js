@@ -3,7 +3,12 @@ import { removeLineBreak, firstUpper } from '../stringUtils.js';
 export async function initFormat() {
     formatCitations();
 
-    await formatEnvironments('definition');
+    formatEnvironments('definition');
+    formatEnvironments('theorem');
+    formatEnvironments('lemma');
+    formatEnvironments('fact');
+    formatEnvironments('proof');
+
     return document.getElementsByClassName('env');
 }
 
@@ -29,9 +34,14 @@ function formatEnvironments(type) {
 function formatEnv(type, bEl, eEl, noNum) {
     var typeUpper = firstUpper(type);
 
-    var title = document.createElement('b');
+    var title = document.createElement('span');
     title.innerText = typeUpper;
     title.classList.add('envTitle');
+    if (type != 'proof') {
+        title.style.fontWeight = 'bold';
+    } else {
+        title.style.fontStyle = 'italic';
+    }
 
     var paraWrapper = document.createElement('div');
     paraWrapper.classList.add('env');
@@ -41,7 +51,7 @@ function formatEnv(type, bEl, eEl, noNum) {
     var wrapper = paraWrapper.parentNode;
     wrapper.prepend(title);
 
-    var name = bEl.innerText.match(/\[.*?\]/);
+    var name = bEl.innerHTML.match(/\[.*\]/);
     if (name) {
         name = name[0].replace(/\[/, '').replace(/]/, '');
         wrapper.setAttribute('data-envName', name);
@@ -55,11 +65,13 @@ function formatEnv(type, bEl, eEl, noNum) {
 
     var reference = bEl.innerText.match(/\\ref{.*?}/);
     if (reference) {
-        var ref = reference[0].replace(/\\ref{/, '').replace(/:.*?}/, '');
+        var ref = reference[0].replace(/\\ref{/, '').replace(/}/, '');
         wrapper.setAttribute('data-envRef', ref);
 
-        var refId = reference[0].replace(/.*?:/, '').replace(/}/, '');
-        if (refId) { wrapper.setAttribute('data-envRefId', refId); }
+        if (reference[0].includes(':')) {
+            var refId = reference[0].replace(/.*?:/, '').replace(/}/, '');
+            if (refId) { wrapper.setAttribute('data-envRefId', refId); }
+        }
     }
 
     if (noNum) { wrapper.setAttribute('data-envNoNum', 'true'); }
