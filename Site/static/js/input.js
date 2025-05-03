@@ -17,6 +17,14 @@ document.addEventListener('keydown', function(e) {
     } else if (e.key === 'Enter') {
         if (ctrlKeyDown && !searchActive) { searchInit(); }
         else if (searchActive) { searchOpen(ctrlKeyDown); }
+    } else if (!searchActive && e.key === 'j') {
+        window.scrollBy(0, 60);
+    } else if (!searchActive && e.key === 'k') {
+        window.scrollBy(0, -60);
+    } else if (!searchActive && e.key === 'g') {
+        window.scrollTo(0, 0);
+    } else if (!searchActive && e.key === 'G') {
+        window.scrollBy(0, contentEl.scrollHeight);
     } else if (searchActive && e.key === 'ArrowDown') {
         searchScroll(1);
     } else if (searchActive && e.key === 'ArrowUp') {

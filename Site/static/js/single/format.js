@@ -6,8 +6,8 @@ export async function initFormat() {
     formatEnvironments('definition');
     formatEnvironments('theorem');
     formatEnvironments('lemma');
-    formatEnvironments('fact');
     formatEnvironments('proof');
+    formatEnvironments('fact');
 
     return document.getElementsByClassName('env');
 }

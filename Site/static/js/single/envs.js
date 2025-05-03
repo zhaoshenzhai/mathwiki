@@ -10,7 +10,7 @@ export function initEnvs() {
         var title = env.querySelector('.envTitle');
 
         var name = env.getAttribute('data-envName');
-        var num = !env.getAttribute('data-envNum');
+        var num = !env.getAttribute('data-envNoNum');
         var ref = env.getAttribute('data-envRef');
         var refId = env.getAttribute('data-envRefId');
 
