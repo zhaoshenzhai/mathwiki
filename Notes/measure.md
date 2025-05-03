@@ -6,11 +6,11 @@ tags: [In_Progress]
 
 # Definition and Properties
 
-Let $\mc{A}$ be an {{< link file="sigma_algebra" display="$\sigma$-algebra" >}} on a set $X$ and let $\bar{\R}\coloneqq\R\cup\l\\{\infty\r\\}$ be the one-point compactification of $\R$. A map $\mu:\mc{A}\to\bar{\R}$ is said to be _countably-additive_ if $\mu(\bigsqcup_{n<\omega}A_n)=\sum_{n<\omega}\mu(A_n)$ for any pairwise-disjoint $A_1,A_2,\ldots\in\mc{A}$.
+Let $\mc{A}$ be an {{< link file="sigma_algebra" display="$\sigma$-algebra" >}} on a set $X$. A map $\mu:\mc{A}\to[0,\infty]$ is said to be _countably-additive_ if $\mu(\bigsqcup_{n<\omega}A_n)=\sum_{n<\omega}\mu(A_n)$ for any pairwise-disjoint $A_1,A_2,\ldots\in\mc{A}$.
 
 \begin{definition}
 
-A _measurable space_ is a set $X$ equipped with a $\sigma$-algebra $\mc{A}\subeq\pow(X)$. A _measure_ on $(X,\mc{A})$ is a countably-additive map $\mu:\mc{A}\to\bar{\R}$ with $\mu(\em)=0$.
+A _measurable space_ is a set $X$ equipped with a $\sigma$-algebra $\mc{A}\subeq\pow(X)$. A _measure_ on $(X,\mc{A})$ is a countably-additive map $\mu:\mc{A}\to[0,\infty]$ with $\mu(\em)=0$.
 
 \end{definition}
 
