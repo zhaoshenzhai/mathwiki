@@ -21,7 +21,6 @@ We state the basic 'pocket tools' of measure theory.
 \begin{fact}[Monotone convergence]\ref{monotone_convergence_of_measures}
 
 Let $(A_n)\_{n<\omega}$ be a sequence in $\mc{A}$.
-
 * If $(A_n)\_{n<\omega}$ is increasing, then $\mu(\bigcup_{n<\omega}A_n)=\lim_{n\to\infty}\mu(A_n)$.
 * If $(A_n)\_{n<\omega}$ is decreasing and each $\mu(A_n)<\infty$, then $\mu(\bigcap_{n<\omega}A_n)=\lim_{n\to\infty}\mu(A_n)$.
 
