@@ -20,10 +20,10 @@ document.addEventListener('DOMContentLoaded', (e) => {
     titleEl = headerEls[0];
 
     initHeaders();
+    initFormat();
     initTitle();
     initTOC();
     initRefs();
-    initFormat();
 });
 
 export function getFontSize() { return fontSize; }

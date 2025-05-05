@@ -60,15 +60,3 @@ For any algebra $\mc{A}$ on $X$ and premeasure $\mu:\mc{A}\to[0,\infty]$, we hav
 Every $\sigma$-finite premeasure $\mu_0$ on an algebra $\mc{A}$ admits a unique extension to a measure $\mu:\l\langle\mc{A}\r\rangle_\sigma\to X$.
 
 \end{theorem}
-
-\begin{lemma}
-
-h
-
-\end{lemma}
-
-\begin{proof}
-
-By Lemma \ref{outer_restriction_premeasure} **<span style="color:red">TODO</span>**
-
-\end{proof}
