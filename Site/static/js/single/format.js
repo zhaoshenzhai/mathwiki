@@ -1,5 +1,6 @@
-import { removeLineBreak, firstUpper,
-         getAbsUrl, getFile } from '../stringUtils.js';
+import { removeLineBreak, firstUpper, getAbsUrl } from '../stringUtils.js';
+
+const envEls = document.getElementsByClassName('env');
 
 export function initFormat() {
     formatCitations();
@@ -14,6 +15,41 @@ function formatEnvironments() {
     formatEnvironment('lemma');
     formatEnvironment('proof');
     formatEnvironment('fact');
+
+    numberEnvironments();
+}
+
+function numberEnvironments() {
+    var index = 1;
+
+    for (var i = 0; i < envEls.length; i++) {
+        var env = envEls[i];
+        var title = env.querySelector('.envTitle');
+
+        var name = env.getAttribute('data-envName');
+        var num = !env.getAttribute('data-envNoNum');
+
+        var mod = document.createElement('span');
+        title.parentNode.insertBefore(mod, title.nextSibling);
+
+        var modText = '';
+
+        if (!env.classList.contains('envProof')) {
+            if (num) {
+                modText = ' ' + index;
+                env.setAttribute('data-envNum', index);
+
+                index++;
+            }
+            mod.style.fontWeight = 'bold';
+            mod.style.fontStyle = 'normal';
+        } else {
+            mod.style.fontStyle = 'italic';
+        }
+
+        if (name) { modText += ' ('+name+')'; }
+        mod.innerHTML = modText + '. ';
+    }
 }
 
 function formatEnvironment(type) {
@@ -94,8 +130,9 @@ function formatLinks() {
     format(document.body, /\\ref\[.*?\]{.*?}/g, function (match) {
         var replaceEl = document.createElement('span');
 
-        var ref = match.replace(/\\ref\[.*?]/, '').replace(/{/, '').replace(/}/, '');
         var display = match.replace(/\\ref\[/, '').replace(/]\{.*?}/, '');
+        var ref = match.replace(/\\ref\[.*?]/, '')
+                       .replace(/{/, '').replace(/}/, '');
 
         var link = document.createElement('a');
         link.setAttribute('href', getAbsUrl() + ref);
@@ -111,14 +148,13 @@ function formatInternalLinks() {
         var replaceEl = document.createElement('span');
 
         var ref = match.replace(/\\ref\{/, '').replace(/}/, '');
+        var refEl = document.getElementById(ref);
+        var refNum = refEl.getAttribute('data-envNum');
 
         var link = document.createElement('a');
-
-        console.log(document.getElementById(ref).innerHTML);
         link.setAttribute('href', ref);
-        link.innerText = 'hi';
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
+        link.innerText = refNum;
+        link.addEventListener('click', (e) => { e.preventDefault();
             document.getElementById(ref).scrollIntoView();
         });
 

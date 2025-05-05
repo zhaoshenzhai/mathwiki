@@ -19,12 +19,11 @@ document.addEventListener('DOMContentLoaded', (e) => {
     headerEls = document.querySelectorAll('h1, h2');
     titleEl = headerEls[0];
 
-    initFormat();
     initHeaders();
     initTitle();
-    initEnvs();
     initTOC();
     initRefs();
+    initFormat();
 });
 
 export function getFontSize() { return fontSize; }
