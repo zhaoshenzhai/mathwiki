@@ -6,10 +6,6 @@ tags: [In_Progress]
 
 # Definition and Properties
 
-Let $\mc{A}$ be an {{< link file="sigma_algebra" display="$\sigma$-algebra" >}} on a set $X$. A map $\mu:\mc{A}\to[0,\infty]$ is said to be _countably-additive_ if $\mu(\bigsqcup_{n<\omega}A_n)=\sum_{n<\omega}\mu(A_n)$ for any pairwise-disjoint $A_1,A_2,\ldots\in\mc{A}$.
-
-<div class="space"></div>
-
 Let $\mc{A}$ be an \ref[$\sigma$-algebra]{sigma_algebra} on a set $X$. A map $\mu:\mc{A}\to[0,\infty]$ is said to be _countably-additive_ if $\mu(\bigsqcup_{n<\omega}A_n)=\sum_{n<\omega}\mu(A_n)$ for any pairwise-disjoint $A_1,A_2,\ldots\in\mc{A}$.
 
 \begin{definition}

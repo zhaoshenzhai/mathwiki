@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Measure</title>
+        <title>Carathéodory&#39;s Extension Theorem</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,27 +42,43 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Measure
+                    Carathéodory&#39;s Extension Theorem
                 
             </h1>
 
-            <h1 id="definition-and-properties">Definition and Properties</h1>
-<p>Let $\mc{A}$ be an \ref[$\sigma$-algebra]{sigma_algebra} on a set $X$. A map $\mu:\mc{A}\to[0,\infty]$ is said to be <em>countably-additive</em> if $\mu(\bigsqcup_{n&lt;\omega}A_n)=\sum_{n&lt;\omega}\mu(A_n)$ for any pairwise-disjoint $A_1,A_2,\ldots\in\mc{A}$.</p>
+            <h1 id="motivation-and-statements">Motivation and Statements</h1>
+<h2 id="setup">Setup</h2>
+<p>Let $X$ be a set.</p>
 <p>\begin{definition}</p>
-<p>A <em>measurable space</em> is a set $X$ equipped with a $\sigma$-algebra $\mc{A}\subeq\pow(X)$. A <em>measure</em> on $(X,\mc{A})$ is a countably-additive map $\mu:\mc{A}\to[0,\infty]$ with $\mu(\em)=0$.</p>
+<p>A <em>premeasure</em> on an algebra $\mc{A}$ is a finitely-additive map $\mu:\mc{A}\to[0,\infty]$ such that $\mu(\em)=0$.</p>
 <p>\end{definition}</p>
-<h2 id="basic-properties">Basic properties</h2>
-<p>We state the basic &lsquo;pocket tools&rsquo; of measure theory.</p>
-<p>\begin{fact}[\ref[Monotone convergence]{monotone_convergence_of_measures}]</p>
-<p>Let $(A_n)_{n&lt;\omega}$ be a sequence in $\mc{A}$.</p>
+<p>\begin{definition}</p>
+<p>Let $\mc{A}\subeq\pow(X)$ be a collection of subsets of $X$ containing $\em$ and covering $X$, and let $m:\mc{A}\to[0,\infty]$ be a map. The <em>outer measure</em> induced by $m$ is the map $m^\ast:\pow(X)\to[0,\infty]$ defined by
+\begin{equation*}
+m^\ast(S)\coloneqq\inf\l\{\sum_{n&lt;\omega}m(A_n)\st A_n\in\mc{A}\mathrm{\ and\ }S\subeq\bigcup_{n&lt;\omega}A_n\r\}.
+\end{equation*}</p>
+<p>\end{definition}</p>
+<p>\begin{lemma}\label{outer_monotone}</p>
+<p>For any $m:\mc{A}\to[0,\infty]$, its outer measure $m^\ast$ is:</p>
 <ul>
-<li>If $(A_n)_{n&lt;\omega}$ is increasing, then $\mu(\bigcup_{n&lt;\omega}A_n)=\lim_{n\to\infty}\mu(A_n)$.</li>
-<li>If $(A_n)_{n&lt;\omega}$ is decreasing and each $\mu(A_n)&lt;\infty$, then $\mu(\bigcap_{n&lt;\omega}A_n)=\lim_{n\to\infty}\mu(A_n)$.</li>
+<li>monotone: for all $A,B\in\pow(X)$ with $A\subeq B$, we have $m^\ast(A)\leq m^\ast(B)$.</li>
+<li>countably subadditive: for all $A_i\in\pow(X)$, we have $m^\ast(\bigsqcup_{n&lt;\omega}A_n)\leq\sum_{n&lt;\omega}m^\ast(A_n)$.</li>
 </ul>
-<p>\end{fact}</p>
-<p>\begin{fact}[\ref[Carathéodory&rsquo;s Extension Theorem]{caratheodory_extension_theorem}]</p>
-<p>Every premeasure $\mu_0:\mc{A}\to X$ on an algebra $\mc{A}$ extends uniquely to a measure $\mu:\l\langle\mc{A}\r\rangle_\sigma\to X$.</p>
-<p>\end{fact}</p>
+<p>\end{lemma}</p>
+<p>\begin{proof}</p>
+<p><strong><span style="color:red">TODO</span></strong></p>
+<p><span style="float:right;">$\square$</span></p>
+<p>\end{proof}</p>
+<p>\begin{lemma}\label{outer_restriction_premeasure}</p>
+<p>For any algebra $\mc{A}$ on $X$ and premeasure $\mu:\mc{A}\to[0,\infty]$, we have $\l.\mu^\ast\r|_\mc{A}=\mu$.</p>
+<p>\end{lemma}</p>
+<p>\begin{proof}</p>
+<p><strong><span style="color:red">TODO</span></strong> <span style="float:right;">$\square$</span></p>
+<p>\end{proof}</p>
+<h2 id="statements-and-proofs">Statements and proofs</h2>
+<p>\begin{theorem}[Carathéodory&rsquo;s Extension Theorem]</p>
+<p>Every $\sigma$-finite premeasure $\mu_0$ on an algebra $\mc{A}$ admits a unique extension to a measure $\mu:\l\langle\mc{A}\r\rangle_\sigma\to X$.</p>
+<p>\end{theorem}</p>
 
 
             <div id="references"></div>

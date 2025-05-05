@@ -1,6 +1,5 @@
 import { initTitle, initHeaders, initTOC } from './single/headers.js';
 import { initFormat } from './single/format.js';
-import { initEnvs } from './single/envs.js';
 import { initRefs } from './single/refs.js';
 import { removePX } from './stringUtils.js';
 

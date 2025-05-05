@@ -1,6 +1,5 @@
 import { initTitle, initHeaders, initTOC } from './single/headers.js';
 import { initFormat } from './single/format.js';
-import { initEnvs } from './single/envs.js';
 import { initRefs } from './single/refs.js';
 import { removePX } from './stringUtils.js';
 
@@ -19,10 +18,9 @@ document.addEventListener('DOMContentLoaded', (e) => {
     headerEls = document.querySelectorAll('h1, h2');
     titleEl = headerEls[0];
 
-    initFormat();
     initHeaders();
+    initFormat();
     initTitle();
-    initEnvs();
     initTOC();
     initRefs();
 });

@@ -10,7 +10,7 @@ window.MathJax = {
 };
 
 (function() {
-    fetch('/mathwiki/preamble.sty')
+    fetch('/mathwiki/macros.sty')
         .then(response => response.text())
         .then((data) => {
             var preamble = document.getElementById('preamble');

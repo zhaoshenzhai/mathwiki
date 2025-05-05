@@ -147,7 +147,7 @@ function generateTOCHeader(headers, prefix, text, id) {
     TOC_Button.classList.add('listenDark');
     TOC_Button.innerText = text;
     TOC_Button.onclick = function () {
-        document.getElementById(id).scrollIntoView()
+        document.getElementById(id).scrollIntoView();
     };
 
     TOC_El.appendChild(TOC_Num);

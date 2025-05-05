@@ -9,18 +9,25 @@
     <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Carathéodory&#39;s Extension Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/caratheodory_extension_theorem/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/caratheodory_extension_theorem/</guid>
+      <description>&lt;h1 id=&#34;motivation-and-statements&#34;&gt;Motivation and Statements&lt;/h1&gt;&#xA;&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;&#xA;&lt;p&gt;Let $X$ be a set.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;premeasure&lt;/em&gt; on an algebra $\mc{A}$ is a finitely-additive map $\mu:\mc{A}\to[0,\infty]$ such that $\mu(\em)=0$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;Let $\mc{A}\subeq\pow(X)$ be a collection of subsets of $X$ containing $\em$ and covering $X$, and let $m:\mc{A}\to[0,\infty]$ be a map. The &lt;em&gt;outer measure&lt;/em&gt; induced by $m$ is the map $m^\ast:\pow(X)\to[0,\infty]$ defined by&#xA;\begin{equation*}&#xA;m^\ast(S)\coloneqq\inf\l\{\sum_{n&amp;lt;\omega}m(A_n)\st A_n\in\mc{A}\mathrm{\ and\ }S\subeq\bigcup_{n&amp;lt;\omega}A_n\r\}.&#xA;\end{equation*}&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{lemma}\label{outer_monotone}&lt;/p&gt;&#xA;&lt;p&gt;For any $m:\mc{A}\to[0,\infty]$, its outer measure $m^\ast$ is:&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Group</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/group/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/group/</guid>
-      <description>&lt;h1 id=&#34;motivation--definition&#34;&gt;Motivation &amp;amp; Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;group&lt;/em&gt; is a tuple $(G,m,\iota,e)$ consisting of a set $G$, a binary operation $m:G^2\to G$ written $gh\coloneqq m(g,h)$, a unary operation $\iota:G\to G$ written $g^{-1}\coloneqq\iota(g)$, and a constant $e\in G$, satisfying the following conditions.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(Associativity). For all $g,h,k\in G$, we have $(gh)k=g(hk)$.&lt;/li&gt;&#xA;&lt;li&gt;(Identity). For all $g$, we have $ge=e=eg$.&lt;/li&gt;&#xA;&lt;li&gt;(Inverse). For all $g$, we have $g\iota(g)=e=\iota(g)g$.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;motivation--definition&#34;&gt;Motivation &amp;amp; Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;group&lt;/em&gt; is a tuple $(G,m,\iota,e)$ consisting of a set $G$, a binary operation $m:G^2\to G$ written $gh\coloneqq m(g,h)$, a unary operation $\iota:G\to G$ written $g^{-1}\coloneqq\iota(g)$, and a constant $e\in G$, satisfying the following conditions.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(Associativity). For all $g,h,k\in G$, we have $(gh)k=g(hk)$.&lt;/li&gt;&#xA;&lt;li&gt;(Identity). For all $g$, we have $ge=e=eg$.&lt;/li&gt;&#xA;&lt;li&gt;(Inverse). For all $g$, we have $g\iota(g)=e=\iota(g)g$.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h1&gt;&lt;/h1&gt;</description>
     </item>
     <item>
       <title>Measure</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/measure/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/measure/</guid>
-      <description>&lt;h1 id=&#34;motivation--definition&#34;&gt;Motivation &amp;amp; Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;Let $X$ be a set&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;definition-and-properties&#34;&gt;Definition and Properties&lt;/h1&gt;&#xA;&lt;p&gt;Let $\mc{A}$ be an \ref[$\sigma$-algebra]{sigma_algebra} on a set $X$. A map $\mu:\mc{A}\to[0,\infty]$ is said to be &lt;em&gt;countably-additive&lt;/em&gt; if $\mu(\bigsqcup_{n&amp;lt;\omega}A_n)=\sum_{n&amp;lt;\omega}\mu(A_n)$ for any pairwise-disjoint $A_1,A_2,\ldots\in\mc{A}$.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;measurable space&lt;/em&gt; is a set $X$ equipped with a $\sigma$-algebra $\mc{A}\subeq\pow(X)$. A &lt;em&gt;measure&lt;/em&gt; on $(X,\mc{A})$ is a countably-additive map $\mu:\mc{A}\to[0,\infty]$ with $\mu(\em)=0$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h2 id=&#34;basic-properties&#34;&gt;Basic properties&lt;/h2&gt;&#xA;&lt;p&gt;We state the basic &amp;lsquo;pocket tools&amp;rsquo; of measure theory.&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Monotone convergence]{monotone_convergence_of_measures}]&lt;/p&gt;&#xA;&lt;p&gt;Let $(A_n)_{n&amp;lt;\omega}$ be a sequence in $\mc{A}$.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
