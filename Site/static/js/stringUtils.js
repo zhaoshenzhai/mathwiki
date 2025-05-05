@@ -58,6 +58,11 @@ export function getAbsUrl() {
     return window.location.href.replace(/mathwiki.*/, 'mathwiki/');
 }
 
+export function getFile() {
+    return window.location.href.replace(/.*?mathwiki\//, '')
+        .replace(/#.*/, '').replace(/\/$/, '');
+}
+
 export function removeExt(path) {
     return path.replace(/.md/, '');
 }

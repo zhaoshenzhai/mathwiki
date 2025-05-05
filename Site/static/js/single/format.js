@@ -1,18 +1,22 @@
-import { removeLineBreak, firstUpper } from '../stringUtils.js';
+import { removeLineBreak, firstUpper,
+         getAbsUrl, getFile } from '../stringUtils.js';
 
-export async function initFormat() {
+export function initFormat() {
     formatCitations();
-
-    formatEnvironments('definition');
-    formatEnvironments('theorem');
-    formatEnvironments('lemma');
-    formatEnvironments('proof');
-    formatEnvironments('fact');
-
-    return document.getElementsByClassName('env');
+    formatLinks();
+    formatEnvironments();
+    formatInternalLinks();
 }
 
-function formatEnvironments(type) {
+function formatEnvironments() {
+    formatEnvironment('definition');
+    formatEnvironment('theorem');
+    formatEnvironment('lemma');
+    formatEnvironment('proof');
+    formatEnvironment('fact');
+}
+
+function formatEnvironment(type) {
     var paraEls = document.querySelectorAll('p');
     for (var i = 0; i < paraEls.length; i++) {
         var b = new RegExp(`\\\\begin{${type}`, 'g');
@@ -52,6 +56,7 @@ function formatEnv(type, bEl, eEl, noNum) {
     wrapper.prepend(title);
 
     var name = bEl.innerHTML.match(/\[.*\]/);
+
     if (name) {
         name = name[0].replace(/\[/, '').replace(/]/, '');
         wrapper.setAttribute('data-envName', name);
@@ -61,17 +66,6 @@ function formatEnv(type, bEl, eEl, noNum) {
     if (id) {
         id = id[0].replace(/\\label{/, '').replace(/}/, '');
         wrapper.setAttribute('id', id);
-    }
-
-    var reference = bEl.innerText.match(/\\ref{.*?}/);
-    if (reference) {
-        var ref = reference[0].replace(/\\ref{/, '').replace(/}/, '');
-        wrapper.setAttribute('data-envRef', ref);
-
-        if (reference[0].includes(':')) {
-            var refId = reference[0].replace(/.*?:/, '').replace(/}/, '');
-            if (refId) { wrapper.setAttribute('data-envRefId', refId); }
-        }
     }
 
     if (noNum) { wrapper.setAttribute('data-envNoNum', 'true'); }
@@ -92,6 +86,43 @@ function formatCitations() {
         replaceEl.appendChild(link);
         replaceEl.appendChild(document.createTextNode(']'));
 
+        return replaceEl;
+    });
+}
+
+function formatLinks() {
+    format(document.body, /\\ref\[.*?\]{.*?}/g, function (match) {
+        var replaceEl = document.createElement('span');
+
+        var ref = match.replace(/\\ref\[.*?]/, '').replace(/{/, '').replace(/}/, '');
+        var display = match.replace(/\\ref\[/, '').replace(/]\{.*?}/, '');
+
+        var link = document.createElement('a');
+        link.setAttribute('href', getAbsUrl() + ref);
+        link.innerText = display;
+
+        replaceEl.appendChild(link);
+        return replaceEl;
+    });
+}
+
+function formatInternalLinks() {
+    format(document.body, /\\ref{.*?}/g, function (match) {
+        var replaceEl = document.createElement('span');
+
+        var ref = match.replace(/\\ref\{/, '').replace(/}/, '');
+
+        var link = document.createElement('a');
+
+        console.log(document.getElementById(ref).innerHTML);
+        link.setAttribute('href', ref);
+        link.innerText = 'hi';
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            document.getElementById(ref).scrollIntoView();
+        });
+
+        replaceEl.appendChild(link);
         return replaceEl;
     });
 }

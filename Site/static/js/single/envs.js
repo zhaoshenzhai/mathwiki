@@ -11,8 +11,6 @@ export function initEnvs() {
 
         var name = env.getAttribute('data-envName');
         var num = !env.getAttribute('data-envNoNum');
-        var ref = env.getAttribute('data-envRef');
-        var refId = env.getAttribute('data-envRefId');
 
         var mod = document.createElement('span');
         title.parentNode.insertBefore(mod, title.nextSibling);
@@ -29,16 +27,5 @@ export function initEnvs() {
 
         if (name) { modText += ' ('+name+')'; }
         mod.innerHTML = modText + '. ';
-
-        if (ref) {
-            var refEnv = document.createElement('a');
-            env.insertBefore(refEnv, title);
-
-            refEnv.appendChild(title);
-            refEnv.appendChild(mod);
-            refEnv.href = getAbsUrl() + ref;
-
-            if (refId) { refEnv.href += '#' + refId; }
-        }
     }
 }
