@@ -13,6 +13,7 @@ function formatEnvironments() {
     formatEnvironment('definition');
     formatEnvironment('theorem');
     formatEnvironment('lemma');
+    formatEnvironment('remark');
     formatEnvironment('proof');
     formatEnvironment('fact');
 
