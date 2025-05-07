@@ -4,23 +4,19 @@ date: 2025-05-02
 tags: [In_Progress]
 ---
 
-# Definition and Properties
+# Motivation and Definition
 
-\begin{definition}
+\TODO[motivate]
 
 A _measurable space_ is a set $X$ equipped with a \ref[$\sigma$-algebra]{sigma_algebra} $\mc{B}\subeq\pow(X)$.
-
-\end{definition}
 
 \begin{definition}
 
 A _measure_ on a measure space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\em)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint family $(A_n)_{n<\omega}$.
 
-<br>
-
-&emsp;&emsp;The triple $(X,\mc{B},\mu)$ is called a _measure space_.
-
 \end{definition}
+
+In the above notation, the triple $(X,\mc{B},\mu)$ is called a _measure space_.
 
 \begin{definition}
 
@@ -28,11 +24,37 @@ A measure $\mu$ is said to be a _probability measure_ if $\mu(X)=1$, _finite_ if
 
 \end{definition}
 
-## Basic properties
+Note that every finite measure can be normalized to a probability measure, and since $\sigma$-finite measures are built out of finite ones, proving results about $\sigma$-finite measures reduce, in general, to the case of probability measures.
+
+## Measurability
 
 Throughout, let $(X,\mc{B},\mu)$ be a measure space.
 
-\begin{lemma}[Monotonicity]
+\begin{definition}
+
+A subset $Z\subeq X$ is said to be _$\mu$-null_ if $Z\subeq Z'$ for some $Z'\in\mc{B}$ such that $\mu(Z')=0$. We write $\Null_\mu$ for the collection of all $\mu$-null sets in $X$.
+
+\end{definition}
+
+\begin{definition}
+
+A subset $A\subeq X$ is said to be _$\mu$-measurable_ if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$. We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets.
+
+\end{definition}
+
+We summarize the properties of $\Meas_\mu$ as follows.
+
+\begin{fact}
+
+$\Meas\_\mu=\l\langle\mc{B}\cup\Null\_\mu\r\rangle\_\sigma$. Moreover, $\mu$ admits a unique extension to a measure $\bar{\mu}$ on $\Meas_\mu$, defined by $\bar{\mu}(B\cup Z)\coloneqq\mu(B)$, and this measure satisfies $\Meas\_{\bar{\mu}}=\Meas\_\mu$.
+
+\end{fact}
+
+# Properties of Measures
+
+Throughout, let $(X,\mc{B},\mu)$ be a measure space.
+
+\begin{lemma}[Monotonicity]\label{monotonicity_of_measures}
 
 For any $A,B\in\mc{B}$ with $A\subeq B$, we have $\mu(A)\leq\mu(B)$.
 
@@ -44,7 +66,7 @@ Observe that $\mu(B)=\mu(A\sqcup(B\comp A))=\mu(A)+\mu(B\comp A)\geq\mu(A)$.<spa
 
 \end{proof}
 
-\begin{lemma}[Continuity]
+\begin{lemma}[Continuity]\label{continuity_of_measures}
 
 Let $(A_n)\_{n<\omega}$ be a sequence in $\mc{B}$.
 1. If $(A_n)\_{n<\omega}$ is increasing, then $\mu(\bigcup_nA_n)=\lim_{n\to\infty}\mu(A_n)$.
@@ -75,18 +97,8 @@ Let $(A_n)_{n<\omega}$ be a sequence of $\mu$-measurable sets.
 
 \end{fact}
 
-\begin{proof}
-
-\TODO
-
-\end{proof}
-
-## Constructions
-
 \begin{fact}[\ref[Carathéodory's Extension Theorem]{caratheodory_extension_theorem}]
 
 Every $\sigma$-finite premeasure $\mu_0:\mc{A}\to X$ on an algebra $\mc{A}$ extends uniquely to a measure $\mu:\l\langle\mc{A}\r\rangle_\sigma\to X$, which is also $\sigma$-finite.
 
 \end{fact}
-
-## Examples
