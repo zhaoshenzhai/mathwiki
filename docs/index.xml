@@ -9,18 +9,18 @@
     <lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Basic properties of Measures</title>
-      <link>https://zhaoshenzhai.github.io/mathwiki/basic_properties_measures/</link>
-      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://zhaoshenzhai.github.io/mathwiki/basic_properties_measures/</guid>
-      <description>&lt;p&gt;We gather here some basic properties of measures that will be used elsewhere.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  Throughout, let $(X,\mc{B},\mu)$ be a \ref[measure]{measure} space.&lt;/p&gt;&#xA;&lt;h1 id=&#34;computational-properties&#34;&gt;Computational Properties&lt;/h1&gt;&#xA;&lt;p&gt;\begin{proposition}[Monotonicity]\label{monotonicity_of_measures}&lt;/p&gt;&#xA;&lt;p&gt;For any $A,B\in\mc{B}$ with $A\subeq B$, we have $\mu(A)\leq\mu(B)$.&lt;/p&gt;&#xA;&lt;p&gt;\end{proposition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Observe that $\mu(B)=\mu(A\sqcup(B\comp A))=\mu(A)+\mu(B\comp A)\geq\mu(A)$.&lt;span style=&#34;float:right;&#34;&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;&#xA;&lt;p&gt;\end{proof}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proposition}[Continuity $\incto$]\label{continuity_of_measures_increasing}&lt;/p&gt;&#xA;&lt;p&gt;For any increasing sequence $(A_n)_{n&amp;lt;\omega}$ in $\mc{B}$, we have $\mu(\bigcup_nA_n)=\lim_{n\to\infty}\mu(A_n)$.&lt;/p&gt;&#xA;&lt;p&gt;\end{proposition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Disjointify $(A_n)$ to $(A_k&amp;rsquo;)$ given by $A_0&amp;rsquo;\coloneqq A_0$ and $A_k&amp;rsquo;\coloneqq A_k\comp A_{k-1}$, so that&#xA;\begin{equation*}&#xA;\mu\l(\bigsqcup\nolimits_kA_k\r)=\mu\l(\bigsqcup\nolimits_kA_k&amp;rsquo;\r)=\sum\nolimits_k\mu(A_k&amp;rsquo;)=\lim_{n\to\infty}\sum\nolimits_{k=1}^n\mu(A_k&amp;rsquo;)=\lim_{n\to\infty}\mu(A_n).\qedin&#xA;\end{equation*}&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Borel-Cantelli Lemmas</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/borel_cantelli_lemmas/</link>
       <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/borel_cantelli_lemmas/</guid>
       <description>&lt;h1 id=&#34;motivation-and-statements&#34;&gt;Motivation and Statements&lt;/h1&gt;&#xA;&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;&#xA;&lt;p&gt;Let $(X,\mc{B},\mu)$ be a \ref[measure space]{measure} and let $\phi(x)$ be a property of points $x\in X$. We say that $\phi$ holds &lt;em&gt;$\mu$-almost everywhere&lt;/em&gt; if $\l\{x\in X\st\phi(x)\r\}$ is $\mu$-conull.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  For a sequence $(A_n)_{n&amp;lt;\omega}$ of subsets of $X$, define&#xA;\begin{equation*}&#xA;\ex^\infty n&amp;lt;\omega(x\in A_n)\ \ \ \ \,\colon\!\Leftrightarrow\ \ \ \ x\in\bigcap_{m&amp;lt;\omega}\bigcup_{n\geq m}A_n\eqqcolon\limsup_{n\to\infty}A_n&#xA;\end{equation*}&#xA;for each $x\in X$, in which case we say that $x\in A_n$ for &lt;em&gt;infinitely-many&lt;/em&gt; $n&amp;lt;\omega$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Measures_on_reals</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/measures_on_reals/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/measures_on_reals/</guid>
+      <description>&lt;p&gt;hi&lt;/p&gt;&#xA;&lt;h1 id=&#34;lebesgue-measure&#34;&gt;Lebesgue Measure&lt;/h1&gt;&#xA;&lt;h1 id=&#34;atomless-borel-measures-on-r&#34;&gt;Atomless Borel measures on $\R$&lt;/h1&gt;&#xA;&lt;h1 id=&#34;non-measurability&#34;&gt;Non-measurability&lt;/h1&gt;</description>
     </item>
     <item>
       <title>Atom (Measure Theory)</title>

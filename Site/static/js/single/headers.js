@@ -175,12 +175,12 @@ export function toggleTOC() {
         tocEl.style.left = '0px';
         tocEl.style.opacity = '0';
         tocEl.style.pointerEvents = 'none';
-        contentEl.style.left = initialLeft + 'px';
+        // contentEl.style.left = initialLeft + 'px';
     } else {
         tocEl.style.left = '50px';
         tocEl.style.opacity = '1';
         tocEl.style.pointerEvents = 'all';
-        contentEl.style.left = (initialLeft + 100) + 'px';
+        // contentEl.style.left = (initialLeft + 100) + 'px';
     }
 
     tocHidden = !tocHidden;

@@ -59,7 +59,7 @@
 <br>
 <p>  If $X$ has a topology $\mc{T}$, we usually define measures $\mu$ on the \ref[Borel $\sigma$-algebra]{sigma_algebra#borel-sigma-algebra} $\mc{B}(X)$, in which case we say that $\mu$ is a <em>Borel measure</em>.</p>
 <p>\begin{example}[Lebesgue measure]</p>
-<p>There is a unique measure $\lambda:\mc{B}(\R)\to[0,\infty]$, called the <em>\ref[Lebesgue measure]{lebesgue_measure}</em>, such that $\lambda([a,b])=b-a$ for each $a,b\in\R$ with $a\leq b$; this measure is clearly invariant under $\Isom\R$. All \ref[Borel measures on $\R$]{borel_measures_on_reals} can be classified.</p>
+<p>There is a unique measure $\lambda:\mc{B}(\R)\to[0,\infty]$, called the <em>\ref[Lebesgue measure]{measures_on_reals#lebesgue_measure}</em>, such that $\lambda([a,b])=b-a$ for each $a,b\in\R$ with $a\leq b$; this measure is clearly invariant under $\Isom\R$. All \ref[Borel measures on $\R$]{measures_on_reals#borel_measures} can be classified.</p>
 <p>\end{example}</p>
 <p>\begin{example}[Bernoulli$(p)$ measures]</p>
 <p>Let $p\in[0,1]$ and equip $2^\omega$ with the \ref[product topology]{product_topology}. There is a unique measure $\mu_p:\mc{B}(2^\omega)\to[0,1]$, called the <em>\ref[Bernoulli$(p)$ measure]{bernoulli_p_measure}</em>, such that $\mu_p([w])=p^{n_1}(1-p)^{n_0}$ where $n_i$ is the number of occurrences of $i\in\l\{0,1\r\}$ in $w$ and $[w]$ is the set of all sequences in $2^\omega$ containing $w$ as a prefix. Intuitively, $\mu_p$ measures the probability of $p$-weighted coin tosses, repeated countably-many times.</p>
@@ -86,16 +86,30 @@
 <p>The unique measure $\bar{\mu}$ is called the <em>completion</em> of $\mu$, and a measure $\mu$ is <em>complete</em> if $\bar{\mu}=\mu$. For convenience, we will always tacitly complete $\mu$ to $\bar{\mu}$.</p>
 <h1 id="properties-of-measures">Properties of Measures</h1>
 <h2 id="computational-properties">Computational properties</h2>
-<p>\begin{fact}[\ref[Monotonicity]{basic_properties_measures#monotonicity_of_measures}]</p>
+<p>\begin{lemma}[Monotonicity]\label{monotonicity}</p>
 <p>For any $A,B\in\mc{B}$ with $A\subeq B$, we have $\mu(A)\leq\mu(B)$.</p>
-<p>\end{fact}</p>
-<p>\begin{fact}[\ref[Continuity]{basic_properties_measures#continuity_of_measures_increasing}]</p>
+<p>\end{lemma}</p>
+<p>\begin{proof}</p>
+<p>Observe that $\mu(B)=\mu(A\sqcup(B\comp A))=\mu(A)+\mu(B\comp A)\geq\mu(A)$.<span style="float:right;">$\square$</span></p>
+<p>\end{proof}</p>
+<p>\begin{fact}[Continuity]\label{continuity}</p>
 <p>Let $(A_n)_{n&lt;\omega}$ be a sequence in $\mc{B}$.</p>
 <ol>
 <li>If $(A_n)_{n&lt;\omega}$ is increasing, then $\mu(\bigcup_nA_n)=\lim_{n\to\infty}\mu(A_n)$.</li>
 <li>If $(A_n)_{n&lt;\omega}$ is decreasing and $\mu(A_0)&lt;\infty$, then $\mu(\bigcap_nA_n)=\lim_{n\to\infty}\mu(A_n)$.</li>
 </ol>
 <p>\end{fact}</p>
+<p>\begin{proof}</p>
+<p>For (1), disjointify $(A_n)$ to $(A_k&rsquo;)$ given by $A_0&rsquo;\coloneqq A_0$ and $A_k&rsquo;\coloneqq A_k\comp A_{k-1}$, so that
+\begin{equation*}
+\mu\l(\bigsqcup\nolimits_kA_k\r)=\mu\l(\bigsqcup\nolimits_kA_k&rsquo;\r)=\sum\nolimits_k\mu(A_k&rsquo;)=\lim_{n\to\infty}\sum\nolimits_{k=1}^n\mu(A_k&rsquo;)=\lim_{n\to\infty}\mu(A_n).
+\end{equation*}</p>
+<p>For (2), set $B_n\coloneqq A_0\comp A_n$ so that $\bigcup_nB_n=A_0\comp A_\infty$ where $A_\infty\coloneqq\bigcap_nA_n$. Then $(B_n)_{n&lt;\omega}$ is increasing, so by (1), we have
+\begin{equation*}
+\mu\l(\bigcup\nolimits_nB_n\r)=\lim_{n\to\infty}\mu(B_n)=\mu(A_0)-\lim_{n\to\infty}\mu(A_n)
+\end{equation*}
+But we also have $\mu(\bigcup_nB_n)=\mu(A_0\comp A_\infty)=\mu(A_0)-\mu(A_\infty)$, so since $\mu(A_0)&lt;\infty$, we can cancel to obtain the desired result.<span style="float:right;">$\square$</span></p>
+<p>\end{proof}</p>
 <p>\begin{fact}[\ref[Borel-Cantelli]{borel_cantelli_lemmas}]</p>
 <p>Let $(A_n)_{n&lt;\omega}$ be a sequence of $\mu$-measurable sets.</p>
 <ol>
@@ -105,11 +119,9 @@
 <p>\end{fact}</p>
 <h2 id="refatomlessatom_measure_theory-measures">\ref[Atomless]{atom_measure_theory} measures</h2>
 <p>A $\mu$-measurable set $A\subeq X$ is an <em>atom</em> if there is no $B\subeq A$ such that $0&lt;\mu(B)&lt;\mu(A)$. A measure $\mu$ is said to be <em>atomless</em> if there are no atoms.</p>
-<div class="space"></div>
 <p>\begin{example}</p>
-<p>For any set $X$ and $x\in X$, the <em>Dirac measure concentrated at $x$</em> is the atomic measure $\delta_x:\pow(X)\to\l\{0,1\r\}$ defined by $\delta_x(A)\coloneqq1$ iff $x\in A$, and $\delta_x(A)\coloneqq0$ otherwise.</p>
+<p>For any $x\in X$, the <em>Dirac measure concentrated at $x$</em> is the atomic measure $\delta_x:\pow(X)\to\l\{0,1\r\}$ defined by $\delta_x(A)\coloneqq1$ iff $x\in A$, and $\delta_x(A)\coloneqq0$ otherwise.</p>
 <p>\end{example}</p>
-<div class="space"></div>
 <p>It turns out that Dirac measures are &rsquo;the only&rsquo; obstructions preventing $\mu$ to be atomless.</p>
 <p>\begin{fact}[\ref{atom_measure_theory}]</p>
 <p>If $\mu$ is $\sigma$-finite and $\mc{B}$ is countably \ref[generated]{sigma_algebra#generation} and separates points, then</p>

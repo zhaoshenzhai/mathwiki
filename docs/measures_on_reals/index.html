@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Basic properties of Measures</title>
+        <title>Measures_on_reals</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,40 +42,14 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Basic properties of Measures
+                    Measures on $\R$
                 
             </h1>
 
-            <p>We gather here some basic properties of measures that will be used elsewhere.</p>
-<br>
-<p>  Throughout, let $(X,\mc{B},\mu)$ be a \ref[measure]{measure} space.</p>
-<h1 id="computational-properties">Computational Properties</h1>
-<p>\begin{proposition}[Monotonicity]\label{monotonicity_of_measures}</p>
-<p>For any $A,B\in\mc{B}$ with $A\subeq B$, we have $\mu(A)\leq\mu(B)$.</p>
-<p>\end{proposition}</p>
-<p>\begin{proof}</p>
-<p>Observe that $\mu(B)=\mu(A\sqcup(B\comp A))=\mu(A)+\mu(B\comp A)\geq\mu(A)$.<span style="float:right;">$\blacksquare$</span></p>
-<p>\end{proof}</p>
-<p>\begin{proposition}[Continuity $\incto$]\label{continuity_of_measures_increasing}</p>
-<p>For any increasing sequence $(A_n)_{n&lt;\omega}$ in $\mc{B}$, we have $\mu(\bigcup_nA_n)=\lim_{n\to\infty}\mu(A_n)$.</p>
-<p>\end{proposition}</p>
-<p>\begin{proof}</p>
-<p>Disjointify $(A_n)$ to $(A_k&rsquo;)$ given by $A_0&rsquo;\coloneqq A_0$ and $A_k&rsquo;\coloneqq A_k\comp A_{k-1}$, so that
-\begin{equation*}
-\mu\l(\bigsqcup\nolimits_kA_k\r)=\mu\l(\bigsqcup\nolimits_kA_k&rsquo;\r)=\sum\nolimits_k\mu(A_k&rsquo;)=\lim_{n\to\infty}\sum\nolimits_{k=1}^n\mu(A_k&rsquo;)=\lim_{n\to\infty}\mu(A_n).\qedin
-\end{equation*}</p>
-<p>\end{proof}</p>
-<p>\begin{proposition}[Continuity $\decto$]\label{continuity_of_measures_decreasing}</p>
-<p>For any decreasing sequence $(A_n)_{n&lt;\omega}$ in $\mc{B}$ such that $\mu(A_0)&lt;\infty$, we have $\mu(\bigcap_nA_n)=\lim_{n\to\infty}\mu(A_n)$.</p>
-<p>\end{proposition}</p>
-<p>\begin{proof}</p>
-<p>Set $B_n\coloneqq A_0\comp A_n$ so that $\bigcup_nB_n=A_0\comp A_\infty$ where $A_\infty\coloneqq\bigcap_nA_n$. Then $(B_n)_{n&lt;\omega}$ is increasing, so by (1), we have
-\begin{equation*}
-\mu\l(\bigcup\nolimits_nB_n\r)=\lim_{n\to\infty}\mu(B_n)=\mu(A_0)-\lim_{n\to\infty}\mu(A_n)
-\end{equation*}
-But we also have $\mu(\bigcup_nB_n)=\mu(A_0\comp A_\infty)=\mu(A_0)-\mu(A_\infty)$, so since $\mu(A_0)&lt;\infty$, we can cancel to obtain the desired result.<span style="float:right;">$\blacksquare$</span></p>
-<p>\end{proof}</p>
-<h1 id="outer-measures">Outer measures</h1>
+            <p>hi</p>
+<h1 id="lebesgue-measure">Lebesgue Measure</h1>
+<h1 id="atomless-borel-measures-on-r">Atomless Borel measures on $\R$</h1>
+<h1 id="non-measurability">Non-measurability</h1>
 
 
             <div id="references"></div>
