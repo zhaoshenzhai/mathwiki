@@ -49,15 +49,13 @@
             <h1 id="motivation-and-definition">Motivation and Definition</h1>
 <p>We would like a map $\mu:\pow(\R^n)\to[0,\infty]$, called a <em>measure</em>, that assigns to each $A\subeq\R^n$ its &lsquo;volume&rsquo; that is invariant under the \ref[action]{group_action} of $\Isom\R^n$. This turns out to be impossible (for good reason; see \ref[non-measurable sets of $\R$]{measures_on_reals#non-measurability}), so we instead restrict to special subsets of $\R^n$ which are in some sense &lsquo;constructible&rsquo;.</p>
 <br>
-<p>  If anything, the \ref[open]{topology} sets in $\R^n$ (or for convenience, in $[0,1]$) must be measurable, and hence so must their complements and (finite) unions. We can strengthen this by requiring that countable unions of measurable its remain measurable, for then we can take limits.</p>
+<p>  If anything, \ref[open]{topology} sets in $\R^n$ (or for convenience, in $[0,1]$) must be measurable, and hence so must their complements and (finite) unions. We can strengthen this by requiring that countable unions of measurable sets remain measurable, for then we can take limits.</p>
 <br>
 <p>  This is precisely the notion of a \ref[$\sigma$-algebra]{sigma_algebra}, so we define a <em>measurable space</em> to be a set $X$ equipped with a $\sigma$-algebra $\mc{B}\subeq\pow(X)$.</p>
 <p>\begin{definition}</p>
-<p>A <em>measure</em> on a measurable space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\em)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint family $(A_n)_{n&lt;\omega}$.</p>
+<p>A <em>measure</em> on a measurable space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\em)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint countable family $(A_n)_{n&lt;\omega}$ of sets in $\mc{B}$. We call the triple $(X,\mc{B},\mu)$ a <em>measure space</em>.</p>
 <p>\end{definition}</p>
-<p>In the above notation, the triple $(X,\mc{B},\mu)$ is called a <em>measure space</em>.</p>
-<div class="space"></div>
-<p>  If $X$ is topologized, we usually define measures $\mu$ on the \ref[Borel $\sigma$-algebra]{sigma_algebra#borel-sigma-algebra} $\mc{B}(X)$ with respect to the topology, in which case we say that $\mu$ is a <em>Borel measure</em>.</p>
+<p>  If $X$ is topologized, we usually define measures $\mu$ on the \ref[Borel $\sigma$-algebra]{sigma_algebra#borel-sigma-algebra} $\mc{B}(X)$ with respect to the given topology, in which case we say that $\mu$ is a <em>Borel measure</em>.</p>
 <p>\begin{example}[Lebesgue measure]</p>
 <p>There is a unique measure $\lambda:\mc{B}(\R)\to[0,\infty]$, called the <em>\ref[Lebesgue measure]{measures_on_reals#lebesgue_measure}</em>, such that $\lambda([a,b])=b-a$ for each $a,b\in\R$ with $a\leq b$; this measure is clearly invariant under $\Isom\R$. All \ref[Borel measures on $\R$]{measures_on_reals#borel_measures} can be classified.</p>
 <p>\end{example}</p>

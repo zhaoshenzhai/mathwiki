@@ -16,7 +16,7 @@
       <description>&lt;h1 id=&#34;motivation-and-statements&#34;&gt;Motivation and Statements&lt;/h1&gt;&#xA;&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;&#xA;&lt;p&gt;Let $(X,\mc{B},\mu)$ be a \ref[measure space]{measure} and let $\phi(x)$ be a property of points $x\in X$. We say that $\phi$ holds &lt;em&gt;$\mu$-almost everywhere&lt;/em&gt; if $\l\{x\in X\st\phi(x)\r\}$ is $\mu$-conull.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  For a sequence $(A_n)_{n&amp;lt;\omega}$ of subsets of $X$, define&#xA;\begin{equation*}&#xA;\ex^\infty n&amp;lt;\omega(x\in A_n)\ \ \ \ \,\colon\!\Leftrightarrow\ \ \ \ x\in\bigcap_{m&amp;lt;\omega}\bigcup_{n\geq m}A_n\eqqcolon\limsup_{n\to\infty}A_n&#xA;\end{equation*}&#xA;for each $x\in X$, in which case we say that $x\in A_n$ for &lt;em&gt;infinitely-many&lt;/em&gt; $n&amp;lt;\omega$.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Measures_on_reals</title>
+      <title>Measures on Reals</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/measures_on_reals/</link>
       <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/measures_on_reals/</guid>
