@@ -10,7 +10,7 @@ tags: [In_Progress]
 
 Let $X$ be a set.
 
-\begin{definition}
+\begin{definition}\label{premeasure}
 
 A _premeasure_ on an algebra $\mc{A}$ is a finitely-additive map $\mu:\mc{A}\to[0,\infty]$ such that $\mu(\em)=0$.
 

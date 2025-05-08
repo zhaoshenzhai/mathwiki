@@ -24,7 +24,7 @@ A measure $\mu$ is said to be a _probability measure_ if $\mu(X)=1$, _finite_ if
 
 >Every finite measure can be normalized to a probability measure, and since $\sigma$-finite measures are built out of finite ones, proving results about $\sigma$-finite measures reduce, in principle, to the case of probability measures.
 
-These finiteness conditions can be extended to _premeasures_, i.e., countably additive maps $\mu_0:\mc{A}\to[0,\infty]$ such that $\mu_0(\em)=0$ defined on an algebra $\mc{A}$.
+These finiteness conditions can be extended to _\ref[premeasures]{caratheodory_extension_theorem#premeasure}_, i.e., countably additive maps $\mu_0:\mc{A}\to[0,\infty]$ such that $\mu_0(\em)=0$, defined on an algebra $\mc{A}$.
 
 \begin{fact}[\ref[Carathéodory's Extension Theorem]{caratheodory_extension_theorem}]
 
@@ -38,11 +38,9 @@ A subset $Z\subeq X$ is said to be _$\mu$-null_ if $Z\subeq Z'$ for some $Z'\in\
 
 \begin{definition}
 
-A subset $A\subeq X$ is said to be _$\mu$-measurable_ if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$.
+A subset $A\subeq X$ is said to be _$\mu$-measurable_ if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$. We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets.
 
 \end{definition}
-
-We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets in $X$.
 
 \begin{fact}[\ref{complete_measure}]
 
@@ -56,46 +54,25 @@ Every measure $\mu$ admits a unique extension to a measure $\bar{\mu}$ on $\Meas
 
 \end{fact}
 
-The measure $\bar{\mu}$ is called the _completion_ of $\mu$; a measure $\mu$ is _complete_ if $\bar{\mu}=\mu$.
+The unique measure $\bar{\mu}$ is called the _completion_ of $\mu$, and a measure $\mu$ is _complete_ if $\bar{\mu}=\mu$. For convenience, we will always tacitly complete $\mu$ to $\bar{\mu}$.
 
 # Properties of Measures
 
-Throughout, let $(X,\mc{B},\mu)$ be a measure space.
+## Computational properties
 
-\begin{lemma}[Monotonicity]\label{monotonicity_of_measures}
+\begin{fact}[\ref[Monotonicity]{basic_properties_measures#monotonicity_of_measures}]
 
 For any $A,B\in\mc{B}$ with $A\subeq B$, we have $\mu(A)\leq\mu(B)$.
 
-\end{lemma}
+\end{fact}
 
-\begin{proof}
-
-Observe that $\mu(B)=\mu(A\sqcup(B\comp A))=\mu(A)+\mu(B\comp A)\geq\mu(A)$.<span style="float:right;">$\square$</span>
-
-\end{proof}
-
-\begin{lemma}[Continuity]\label{continuity_of_measures}
+\begin{fact}[\ref[Continuity]{basic_properties_measures#continuity_of_measures_increasing}]
 
 Let $(A_n)\_{n<\omega}$ be a sequence in $\mc{B}$.
 1. If $(A_n)\_{n<\omega}$ is increasing, then $\mu(\bigcup_nA_n)=\lim_{n\to\infty}\mu(A_n)$.
 2. If $(A_n)\_{n<\omega}$ is decreasing and $\mu(A_0)<\infty$, then $\mu(\bigcap_nA_n)=\lim_{n\to\infty}\mu(A_n)$.
 
-\end{lemma}
-
-\begin{proof}
-
-For (1), disjointify $(A_n)$ to $(A_k')$ given by $A_0'\coloneqq A_0$ and $A_k'\coloneqq A_k\comp A_{k-1}$, so that
-\begin{equation*}
-    \mu\l(\bigsqcup\nolimits_kA_k\r)=\mu\l(\bigsqcup\nolimits_kA_k'\r)=\sum\nolimits_k\mu(A_k')=\lim_{n\to\infty}\sum\nolimits_{k=1}^n\mu(A_k')=\lim_{n\to\infty}\mu(A_n).
-\end{equation*}
-
-For (2), set $B\_n\coloneqq A\_0\comp A\_n$ so that $\bigcup\_nB\_n=A\_0\comp A\_\infty$ where $A\_\infty\coloneqq\bigcap\_nA\_n$. Then $(B\_n)\_{n<\omega}$ is increasing, so by (1), we have
-\begin{equation*}
-    \mu\l(\bigcup\nolimits\_nB\_n\r)=\lim\_{n\to\infty}\mu(B\_n)=\mu(A\_0)-\lim\_{n\to\infty}\mu(A\_n)
-\end{equation*}
-But we also have $\mu(\bigcup_nB_n)=\mu(A_0\comp A_\infty)=\mu(A_0)-\mu(A_\infty)$, so since $\mu(A_0)<\infty$, we can cancel to obtain the desired result.<span style="float:right;">$\square$</span>
-
-\end{proof}
+\end{fact}
 
 \begin{fact}[\ref[Borel-Cantelli]{borel_cantelli_lemmas}]
 
@@ -105,7 +82,7 @@ Let $(A_n)_{n<\omega}$ be a sequence of $\mu$-measurable sets.
 
 \end{fact}
 
-## Atomic decomposition
+## \ref[Atomless]{atom_measure_theory} measures
 
 A $\mu$-measurable set $A\subeq X$ is an _atom_ if there is no $B\subeq A$ such that $0<\mu(B)<\mu(A)$. A measure $\mu$ is said to be _atomless_ if there are no atoms.
 
@@ -117,6 +94,10 @@ For any set $X$ and $x\in X$, the _Dirac measure concentrated at $x$_ is the ato
 
 \end{example}
 
+<div class="space"></div>
+
+It turns out that Dirac measures are 'the only' obstructions preventing $\mu$ to be atomless.
+
 \begin{fact}[\ref{atom_measure_theory}]
 
 If $\mu$ is $\sigma$-finite and $\mc{B}$ is countably \ref[generated]{sigma_algebra#generation} and separates points, then
@@ -124,3 +105,13 @@ If $\mu$ is $\sigma$-finite and $\mc{B}$ is countably \ref[generated]{sigma_alge
 2. Every atom $A\in\mc{B}$ is a singleton.
 
 \end{fact}
+
+\begin{fact}[\ref[Sierpinski's Theorem]{sierpinski}]
+
+If $\mu$ is atomless, then $\mu$ attains every value in the interval $[0,\mu(X)]$, i.e., for each $m\in[0,\mu(X)]$, there exists $A\in\mc{B}$ such that $\mu(A)=m$.
+
+\end{fact}
+
+## Regularity and tightness
+
+\TODO

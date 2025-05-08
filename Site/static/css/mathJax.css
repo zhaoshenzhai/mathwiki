@@ -1,5 +1,5 @@
 mjx-container[display="true"] {
-    margin: 0.7em !important;
+    margin: 0.7em 0px !important;
     overflow-y: hidden;
     overflow-x: auto;
 }

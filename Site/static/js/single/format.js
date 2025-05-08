@@ -12,6 +12,7 @@ export function initFormat() {
 
 function formatEnvironments() {
     formatEnvironment('definition');
+    formatEnvironment('proposition');
     formatEnvironment('theorem');
     formatEnvironment('example');
     formatEnvironment('remark');

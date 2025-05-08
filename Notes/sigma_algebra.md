@@ -33,8 +33,6 @@ The $\sigma$-algebra _generated_ by a family $\mc{C}\subeq\pow(X)$ is
 
 A $\sigma$-algebra $\mc{B}$ is said to be _$\kappa$-generated_ if $\mc{B}=\l\langle\mc{A}\r\rangle_\sigma$ for some $\mc{A}\subeq\pow(X)$ of cardinality $\kappa$.
 
-<div class="space"></div>
-
 \begin{remark}
 
 The closure process can be formalized by defining $\l\langle\mc{C}\r\rangle\_\sigma\coloneqq\bigcup\_{\alpha<\omega\_1}\mc{C}\_\alpha$, where the $\mc{C}\_\alpha$'s are defined inductively by letting $\mc{C}\_0\coloneqq\mc{C}\cup\l\\{\em\r\\}$ and letting $\mc{C}\_\alpha$ be the collection of all complements and countable unions of sets in $\bigcup\_{\beta<\alpha}\mc{C}_\beta$.
