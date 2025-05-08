@@ -38,7 +38,7 @@ Let $p\in[0,1]$ and equip $2^\omega$ with the \ref[product topology]{product_top
 
 ## Finiteness conditions
 
-A measure $\mu$ is said to be a _probability measure_ if $\mu(X)=1$, _finite_ if $\mu(X)<\infty$, and _$\sigma$-finite_ if there is a partition $X=\bigsqcup_nX_n$ where each $\mu(X_n)<\infty$.
+A measure $\mu$ is said to be a _probability measure_ if $\mu(X)=1$, _finite_ if $\mu(X)<\infty$, and _$\sigma$-finite_ if there is a partition $X=\bigsqcup_nX_n$ with $\mu(X_n)<\infty$.
 
 >Every finite measure can be normalized to a probability measure, and since $\sigma$-finite measures are built out of finite ones, proving results about $\sigma$-finite measures reduce, in principle, to the case of probability measures.
 
@@ -56,9 +56,11 @@ A subset $Z\subeq X$ is said to be _$\mu$-null_ if $Z\subeq Z'$ for some $Z'\in\
 
 \begin{definition}
 
-A subset $A\subeq X$ is said to be _$\mu$-measurable_ if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$. We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets.
+A subset $A\subeq X$ is said to be _$\mu$-measurable_ if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$.
 
 \end{definition}
+
+We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets.
 
 \begin{fact}[\ref{complete_measure}]
 
@@ -109,7 +111,7 @@ For (1), disjointify $(A_n)$ to $(A_k')$ given by $A_0'\coloneqq A_0$ and $A_k'\
     \mu\l(\bigsqcup\nolimits_kA_k\r)=\mu\l(\bigsqcup\nolimits_kA_k'\r)=\sum\nolimits_k\mu(A_k')=\lim_{n\to\infty}\sum\nolimits_{k=1}^n\mu(A_k')=\lim_{n\to\infty}\mu(A_n).
 \end{equation*}
 
-For (2), set $B\_n\coloneqq A\_0\comp A\_n$ so that $\bigcup\_nB\_n=A\_0\comp A\_\infty$ where $A\_\infty\coloneqq\bigcap\_nA\_n$. Then $(B\_n)\_{n<\omega}$ is increasing, so by (1), we have
+For (2), set $B\_n\coloneqq A\_0\comp A\_n$ so that $\bigcup\_nB\_n=A\_0\comp A\_\infty$ where $A\_\infty\coloneqq\bigcap\_nA\_n$, so that $(B\_n)$ is increasing. By (1), we have
 \begin{equation*}
     \mu\l(\bigcup\nolimits\_nB\_n\r)=\lim\_{n\to\infty}\mu(B\_n)=\mu(A\_0)-\lim\_{n\to\infty}\mu(A\_n)
 \end{equation*}
