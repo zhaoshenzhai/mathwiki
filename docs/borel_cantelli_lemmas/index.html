@@ -47,20 +47,43 @@
             </h1>
 
             <h1 id="motivation-and-statements">Motivation and Statements</h1>
+<h2 id="setup">Setup</h2>
+<p>Let $(X,\mc{B},\mu)$ be a \ref[measure space]{measure} and let $\phi(x)$ be a property of points $x\in X$. We say that $\phi$ holds <em>$\mu$-almost everywhere</em> if $\l\{x\in X\st\phi(x)\r\}$ is $\mu$-conull.</p>
+<br>
+<p>  For a sequence $(A_n)_{n&lt;\omega}$ of subsets of $X$, define
+\begin{equation*}
+\ex^\infty n&lt;\omega(x\in A_n)\ \ \ \ \,\colon\!\Leftrightarrow\ \ \ \ x\in\bigcap_{m&lt;\omega}\bigcup_{n\geq m}A_n\eqqcolon\limsup_{n\to\infty}A_n
+\end{equation*}
+for each $x\in X$, in which case we say that $x\in A_n$ for <em>infinitely-many</em> $n&lt;\omega$.</p>
+<h2 id="statements-and-proofs">Statements and proofs</h2>
 <p>Let $(A_n)_{n&lt;\omega}$ be a sequence of $\mu$-measurable sets.</p>
 <p>\begin{theorem}[Borel-Cantelli]</p>
-<p>If $\sum_n\mu(A_n)&lt;\infty$, then $\mu$-almost every $x\in X$ lives in at-most finitely-many $A_n$&rsquo;s, i.e., \TODO.</p>
+<p>If $\sum_n\mu(A_n)&lt;\infty$, then $\mu$-almost every $x\in X$ lives in finitely-many $A_n$&rsquo;s, i.e., $\mu(\limsup_{n\to\infty}A_n)=0$.</p>
 <p>\end{theorem}</p>
 <p>\begin{proof}</p>
-<p>\TODO</p>
+<p>Let $B\coloneqq\limsup_{n\to\infty}A_n$, which is clearly $\mu$-measurable, and let $B_m\coloneqq\bigcup_{n\geq m}A_n$, so that $B=\bigcap_mB_m$, and hence $\mu(B)\leq\mu(B_m)$ for each $m&lt;\omega$ by \ref[monotonicity]{basic_properties_measures#monotonicity_of_measures}. Note that
+\begin{equation*}
+\lim_{m\to\infty}\mu(B_m)=\lim_{m\to\infty}\mu\l(\bigcup\nolimits_{n\geq m}A_n\r)\leq\lim_{m\to\infty}\sum_{n\geq m}\mu(A_n)=0
+\end{equation*}
+by assumption, so $\mu(B)=0$ as desired.<span style="float:right;">$\blacksquare$</span></p>
 <p>\end{proof}</p>
 <p>\begin{theorem}[Measure Compactness]</p>
-<p>If $\mu$ is finite and there exists $\epsilon&gt;0$ such that $\mu(A_n)\geq\epsilon$ for all $n&lt;\omega$, then at-least an $\epsilon$-measure set of $x\in X$ lives in infinitely-many $A_n$&rsquo;s, i.e., \TODO.</p>
+<p>If $\mu$ is a \ref[finite]{measure#finiteness-conditions} measure and there is some $\epsilon&gt;0$ such that $\mu(A_n)\geq\epsilon$ for all $n&lt;\omega$, then at-least an $\epsilon$-measure set of $x\in X$ lives in infinitely-many $A_n$&rsquo;s, i.e., $\mu(\limsup_{n\to\infty}A_n)\geq\epsilon$.</p>
 <p>\end{theorem}</p>
 <p>\begin{proof}</p>
-<p>\TODO</p>
+<p>With the same notation above, we have $\mu(B)=\lim_{m\to\infty}\mu(B_m)$ by \ref[continuity]{basic_properties_measures#continuity_of_measures_decreasing}. Now,
+\begin{equation*}
+\mu(B_m)=\mu\l(\bigcup\nolimits_{n\geq m}A_n\r)\geq\mu(A_m)\geq\epsilon
+\end{equation*}
+for each $m&lt;\omega$, so $\mu(B)\geq\epsilon$ too as desired.<span style="float:right;">$\blacksquare$</span></p>
 <p>\end{proof}</p>
-<h1 id="measure-exhaustion">Measure Exhaustion</h1>
+<h2 id="generalization">Generalization</h2>
+<p>\TODO</p>
+<h1 id="applications">Applications</h1>
+<h2 id="vanishing-sequences">Vanishing sequences</h2>
+<p>\TODO</p>
+<h2 id="measure-exhaustion">Measure exhaustion</h2>
+<p>\TODO</p>
 
 
             <div id="references"></div>

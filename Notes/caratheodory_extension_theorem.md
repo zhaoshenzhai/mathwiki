@@ -18,9 +18,9 @@ A _premeasure_ on an algebra $\mc{A}$ is a finitely-additive map $\mu:\mc{A}\to[
 
 \begin{definition}
 
-Let $\mc{A}\subeq\pow(X)$ be a collection of subsets of $X$ containing $\em$ and covering $X$, and let $m:\mc{A}\to[0,\infty]$ be a map. The _outer measure_ induced by $m$ is the map $m^\ast:\pow(X)\to[0,\infty]$ defined by
+Let $\mc{A}\subeq\pow(X)$ be a collection such that $\em\in\mc{A}$ and $X=\bigcup\mc{A}$, and let $\mu:\mc{A}\to[0,\infty]$ be a map. The _outer measure_ induced by $\mu$ is the map
 \begin{equation*}
-    m^\ast(S)\coloneqq\inf\l\\{\sum_{n<\omega}m(A_n)\st A_n\in\mc{A}\mathrm{\ and\ }S\subeq\bigcup_{n<\omega}A_n\r\\}.
+    \mu^\ast:\pow(X)\to[0,\infty]:S\mapsto\inf\l\\{\sum_{n<\omega}\mu(A_n)\st A_n\in\mc{A}\mathrm{\ and\ }S\subeq\bigcup_{n<\omega}A_n\r\\}.
 \end{equation*}
 
 \end{definition}

@@ -53,9 +53,9 @@
 <p>A <em>premeasure</em> on an algebra $\mc{A}$ is a finitely-additive map $\mu:\mc{A}\to[0,\infty]$ such that $\mu(\em)=0$.</p>
 <p>\end{definition}</p>
 <p>\begin{definition}</p>
-<p>Let $\mc{A}\subeq\pow(X)$ be a collection of subsets of $X$ containing $\em$ and covering $X$, and let $m:\mc{A}\to[0,\infty]$ be a map. The <em>outer measure</em> induced by $m$ is the map $m^\ast:\pow(X)\to[0,\infty]$ defined by
+<p>Let $\mc{A}\subeq\pow(X)$ be a collection such that $\em\in\mc{A}$ and $X=\bigcup\mc{A}$, and let $\mu:\mc{A}\to[0,\infty]$ be a map. The <em>outer measure</em> induced by $\mu$ is the map
 \begin{equation*}
-m^\ast(S)\coloneqq\inf\l\{\sum_{n&lt;\omega}m(A_n)\st A_n\in\mc{A}\mathrm{\ and\ }S\subeq\bigcup_{n&lt;\omega}A_n\r\}.
+\mu^\ast:\pow(X)\to[0,\infty]:S\mapsto\inf\l\{\sum_{n&lt;\omega}\mu(A_n)\st A_n\in\mc{A}\mathrm{\ and\ }S\subeq\bigcup_{n&lt;\omega}A_n\r\}.
 \end{equation*}</p>
 <p>\end{definition}</p>
 <p>\begin{lemma}\label{outer_monotone}</p>
