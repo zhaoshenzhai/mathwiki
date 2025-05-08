@@ -47,17 +47,17 @@
             </h1>
 
             <h1 id="motivation-and-definition">Motivation and Definition</h1>
-<p>We would like a map $\mu:\pow(\R^n)\to[0,\infty]$, called a <em>measure</em>, that assigns to each $A\subeq\R^n$ its &lsquo;volume&rsquo; that is invariant under the \ref[action]{group_action} of $\Isom\R^n$. This turns out to be impossible (for good reason; see \TODO), so we instead restrict to special subsets of $\R^n$ which are &lsquo;constructible&rsquo;.</p>
+<p>We would like a map $\mu:\pow(\R^n)\to[0,\infty]$, called a <em>measure</em>, that assigns to each $A\subeq\R^n$ its &lsquo;volume&rsquo; that is invariant under the \ref[action]{group_action} of $\Isom\R^n$. This turns out to be impossible (for good reason; see \ref[non-measurable sets of $\R$]{measures_on_reals#non-measurability}), so we instead restrict to special subsets of $\R^n$ which are in some sense &lsquo;constructible&rsquo;.</p>
 <br>
 <p>  If anything, the \ref[open]{topology} sets in $\R^n$ (or for convenience, in $[0,1]$) must be measurable, and hence so must their complements and (finite) unions. We can strengthen this by requiring that countable unions of measurable its remain measurable, for then we can take limits.</p>
-<div class="space"></div>
+<br>
 <p>  This is precisely the notion of a \ref[$\sigma$-algebra]{sigma_algebra}, so we define a <em>measurable space</em> to be a set $X$ equipped with a $\sigma$-algebra $\mc{B}\subeq\pow(X)$.</p>
 <p>\begin{definition}</p>
-<p>A <em>measure</em> on a measure space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\em)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint family $(A_n)_{n&lt;\omega}$.</p>
+<p>A <em>measure</em> on a measurable space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\em)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint family $(A_n)_{n&lt;\omega}$.</p>
 <p>\end{definition}</p>
 <p>In the above notation, the triple $(X,\mc{B},\mu)$ is called a <em>measure space</em>.</p>
-<br>
-<p>  If $X$ has a topology $\mc{T}$, we usually define measures $\mu$ on the \ref[Borel $\sigma$-algebra]{sigma_algebra#borel-sigma-algebra} $\mc{B}(X)$, in which case we say that $\mu$ is a <em>Borel measure</em>.</p>
+<div class="space"></div>
+<p>  If $X$ is topologized, we usually define measures $\mu$ on the \ref[Borel $\sigma$-algebra]{sigma_algebra#borel-sigma-algebra} $\mc{B}(X)$ with respect to the topology, in which case we say that $\mu$ is a <em>Borel measure</em>.</p>
 <p>\begin{example}[Lebesgue measure]</p>
 <p>There is a unique measure $\lambda:\mc{B}(\R)\to[0,\infty]$, called the <em>\ref[Lebesgue measure]{measures_on_reals#lebesgue_measure}</em>, such that $\lambda([a,b])=b-a$ for each $a,b\in\R$ with $a\leq b$; this measure is clearly invariant under $\Isom\R$. All \ref[Borel measures on $\R$]{measures_on_reals#borel_measures} can be classified.</p>
 <p>\end{example}</p>
@@ -68,9 +68,9 @@
 <p>A measure $\mu$ is said to be a <em>probability measure</em> if $\mu(X)=1$, <em>finite</em> if $\mu(X)&lt;\infty$, and <em>$\sigma$-finite</em> if there is a partition $X=\bigsqcup_nX_n$ where each $\mu(X_n)&lt;\infty$.</p>
 <blockquote>
 <p>Every finite measure can be normalized to a probability measure, and since $\sigma$-finite measures are built out of finite ones, proving results about $\sigma$-finite measures reduce, in principle, to the case of probability measures.</p></blockquote>
-<p>These finiteness conditions can be extended to <em>\ref[premeasures]{caratheodory_extension_theorem#premeasure}</em>, i.e., countably additive maps $\mu_0:\mc{A}\to[0,\infty]$ such that $\mu_0(\em)=0$, defined on an algebra $\mc{A}$.</p>
+<p>These finiteness conditions can be extended to <em>\ref[premeasures]{caratheodory_extension_theorem#premeasure}</em>, i.e., countably additive maps $\mu_0:\mc{A}\to[0,\infty]$ such that $\mu_0(\em)=0$, defined on an algebra $\mc{A}$, which allow us to define measures on \ref[$\l\langle\mc{A}\r\rangle_\sigma$]{sigma_algebra#generation} using the following theorem; this is how $\lambda$ and $\mu_p$ are defined.</p>
 <p>\begin{fact}[\ref[Carathéodory&rsquo;s Extension Theorem]{caratheodory_extension_theorem}]</p>
-<p>Every $\sigma$-finite premeasure $\mu_0:\mc{A}\to X$ on an algebra $\mc{A}$ extends uniquely to a measure $\mu:\l\langle\mc{A}\r\rangle_\sigma\to X$, which is also $\sigma$-finite.</p>
+<p>Every premeasure $\mu_0:\mc{A}\to X$ on an algebra $\mc{A}$ extends to a measure $\mu:\l\langle\mc{A}\r\rangle_\sigma\to X$. If $\mu_0$ is $\sigma$-finite, then this extension is unique, and is also $\sigma$-finite.</p>
 <p>\end{fact}</p>
 <h2 id="measurability">Measurability</h2>
 <p>A subset $Z\subeq X$ is said to be <em>$\mu$-null</em> if $Z\subeq Z&rsquo;$ for some $Z&rsquo;\in\mc{B}$ such that $\mu(Z&rsquo;)=0$. We write $\Null_\mu$ for the collection of all $\mu$-null sets in $X$.</p>
@@ -83,9 +83,11 @@
 <p>\begin{fact}[\ref[Completions]{complete_measure}]</p>
 <p>Every measure $\mu$ admits a unique extension to a measure $\bar{\mu}$ on $\Meas_\mu$, defined by $\bar{\mu}(B\cup Z)\coloneqq\mu(B)$, and this measure satisfies $\Meas_{\bar{\mu}}=\Meas_\mu$.</p>
 <p>\end{fact}</p>
-<p>The unique measure $\bar{\mu}$ is called the <em>completion</em> of $\mu$, and a measure $\mu$ is <em>complete</em> if $\bar{\mu}=\mu$. For convenience, we will always tacitly complete $\mu$ to $\bar{\mu}$.</p>
+<p>The unique measure $\bar{\mu}$ is called the <em>completion</em> of $\mu$, and a measure $\mu$ is <em>complete</em> if $\bar{\mu}=\mu$. For convenience, we will always tacitly complete $\mu$ to $\bar{\mu}$; so, really, $\lambda$ and $\mu_p$ are extended to their completions.</p>
 <h1 id="properties-of-measures">Properties of Measures</h1>
+<p>Throughout, let $(X,\mc{B},\mu)$ be a measure space.</p>
 <h2 id="computational-properties">Computational properties</h2>
+<p>We state the most basic properties of measures.</p>
 <p>\begin{lemma}[Monotonicity]\label{monotonicity}</p>
 <p>For any $A,B\in\mc{B}$ with $A\subeq B$, we have $\mu(A)\leq\mu(B)$.</p>
 <p>\end{lemma}</p>

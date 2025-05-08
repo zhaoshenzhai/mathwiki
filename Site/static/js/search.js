@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
         allFiles.unshift(allFiles.splice(curFileIndex, 1)[0]);
         allFilePaths = allFiles.map((x) => x.relPath);
-        allFileTitles = allFiles.map((x) => x.title);
+        allFileTitles = allFiles.map((x) => getTitle(x));
         searchEngine = new Fuse(allFiles, searchOptions);
     });
 });
@@ -72,6 +72,8 @@ function updateSearchList(newList, newListPaths) {
             item.innerText = newList[i];
             item.setAttribute('href', newListPaths[i]);
             item.style.display = 'block';
+
+            window.MathJax.typesetPromise([item]).then(() => {});
         } else {
             item.innerText = '';
             item.style.display = 'none';
@@ -138,4 +140,12 @@ function getInput(e) {
     }
 
     return init;
+}
+
+function getTitle(x) {
+    if (x.renderedTitle) {
+        return x.renderedTitle;
+    } else {
+        return x.title;
+    }
 }

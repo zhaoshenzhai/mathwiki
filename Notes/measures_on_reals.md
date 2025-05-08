@@ -1,5 +1,5 @@
 ---
-title: Measures_on_reals
+title: Measures on Reals
 renderedTitle: Measures on $\R$
 date: 2025-05-08
 tags: [In_Progress]

@@ -10,7 +10,7 @@ We would like a map $\mu:\pow(\R^n)\to[0,\infty]$, called a _measure_, that assi
 
 <br>
 
-&emsp;&emsp;If anything, the \ref[open]{topology} sets in $\R^n$ (or for convenience, in $[0,1]$) must be measurable, and hence so must their complements and (finite) unions. We can strengthen this by requiring that countable unions of measurable its remain measurable, for then we can take limits.
+&emsp;&emsp;If anything, \ref[open]{topology} sets in $\R^n$ (or for convenience, in $[0,1]$) must be measurable, and hence so must their complements and (finite) unions. We can strengthen this by requiring that countable unions of measurable sets remain measurable, for then we can take limits.
 
 <br>
 
@@ -18,15 +18,11 @@ We would like a map $\mu:\pow(\R^n)\to[0,\infty]$, called a _measure_, that assi
 
 \begin{definition}
 
-A _measure_ on a measurable space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\em)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint family $(A_n)_{n<\omega}$.
+A _measure_ on a measurable space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\em)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint countable family $(A_n)_{n<\omega}$ of sets in $\mc{B}$. We call the triple $(X,\mc{B},\mu)$ a _measure space_.
 
 \end{definition}
 
-In the above notation, the triple $(X,\mc{B},\mu)$ is called a _measure space_.
-
-<div class="space"></div>
-
-&emsp;&emsp;If $X$ is topologized, we usually define measures $\mu$ on the \ref[Borel $\sigma$-algebra]{sigma_algebra#borel-sigma-algebra} $\mc{B}(X)$ with respect to the topology, in which case we say that $\mu$ is a _Borel measure_.
+&emsp;&emsp;If $X$ is topologized, we usually define measures $\mu$ on the \ref[Borel $\sigma$-algebra]{sigma_algebra#borel-sigma-algebra} $\mc{B}(X)$ with respect to the given topology, in which case we say that $\mu$ is a _Borel measure_.
 
 \begin{example}[Lebesgue measure]
 
