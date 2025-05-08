@@ -3,9 +3,9 @@ import { removeLineBreak, firstUpper, getAbsUrl } from '../stringUtils.js';
 const envEls = document.getElementsByClassName('env');
 
 export function initFormat() {
-    formatCitations();
-    formatLinks();
     formatTODO();
+    formatLinks();
+    formatCitations();
     formatEnvironments();
     formatInternalLinks();
 }
@@ -13,8 +13,9 @@ export function initFormat() {
 function formatEnvironments() {
     formatEnvironment('definition');
     formatEnvironment('theorem');
-    formatEnvironment('lemma');
+    formatEnvironment('example');
     formatEnvironment('remark');
+    formatEnvironment('lemma');
     formatEnvironment('proof');
     formatEnvironment('fact');
 
@@ -128,23 +129,6 @@ function formatCitations() {
     });
 }
 
-function formatLinks() {
-    format(document.body, /\\ref\[.*?\]{.*?}/g, function (match) {
-        var replaceEl = document.createElement('span');
-
-        var display = match.replace(/\\ref\[/, '').replace(/]\{.*?}/, '');
-        var ref = match.replace(/\\ref\[.*?]/, '')
-                       .replace(/{/, '').replace(/}/, '');
-
-        var link = document.createElement('a');
-        link.setAttribute('href', getAbsUrl() + ref);
-        link.innerText = display;
-
-        replaceEl.appendChild(link);
-        return replaceEl;
-    });
-}
-
 function formatTODO() {
     format(document.body, /\\TODO\[.*?\]/g, function (match) {
         var replaceEl = document.createElement('p');
@@ -162,6 +146,7 @@ function formatTODO() {
         replaceEl.appendChild(note);
         return replaceEl;
     });
+
     format(document.body, /\\TODO/g, function (match) {
         var replaceEl = document.createElement('p');
 
@@ -175,11 +160,44 @@ function formatTODO() {
     });
 }
 
-function formatInternalLinks() {
-    format(document.body, /\\ref{.*?}/g, function (match) {
+function formatLinks() {
+    format(document.body, /\\ref\[.*?\]{.*?}/g, function (match) {
         var replaceEl = document.createElement('span');
 
-        var ref = match.replace(/\\ref\{/, '').replace(/}/, '');
+        var display = match.replace(/\\ref\[/, '').replace(/]\{.*?}/, '');
+        var ref = match.replace(/\\ref\[.*?]/, '')
+                       .replace(/{/, '').replace(/}/, '');
+
+        var link = document.createElement('a');
+        link.setAttribute('href', getAbsUrl() + ref);
+        link.innerText = display;
+
+        replaceEl.appendChild(link);
+        return replaceEl;
+    });
+
+    format(document.body, /\\ref{.*?}/g, function (match) {
+        var replaceEl = document.createElement('span');
+        var ref = match.replace(/\\ref{/, '').replace(/}/, '');
+
+        var link = document.createElement('a');
+        link.setAttribute('href', getAbsUrl() + ref);
+
+        var open = document.createElement('img');
+        open.setAttribute('src', getAbsUrl() + 'css/fa/link.svg');
+        open.style.height = '12px';
+        link.appendChild(open);
+
+        replaceEl.appendChild(link);
+        return replaceEl;
+    });
+}
+
+function formatInternalLinks() {
+    format(document.body, /\\iref{.*?}/g, function (match) {
+        var replaceEl = document.createElement('span');
+
+        var ref = match.replace(/\\iref\{/, '').replace(/}/, '');
         var refEl = document.getElementById(ref);
         var refNum = refEl.getAttribute('data-envNum');
 

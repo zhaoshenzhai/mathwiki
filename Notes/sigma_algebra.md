@@ -1,5 +1,6 @@
 ---
-title: $\sigma$-algebra
+title: sigma_algebra
+renderedTitle: $\sigma$-algebra
 date: 2025-05-07
 tags: [In_Progress]
 ---
@@ -29,6 +30,10 @@ The $\sigma$-algebra _generated_ by a family $\mc{C}\subeq\pow(X)$ is
 \end{equation*}
 
 \end{definition}
+
+A $\sigma$-algebra $\mc{B}$ is said to be _$\kappa$-generated_ if $\mc{B}=\l\langle\mc{A}\r\rangle_\sigma$ for some $\mc{A}\subeq\pow(X)$ of cardinality $\kappa$.
+
+<div class="space"></div>
 
 \begin{remark}
 

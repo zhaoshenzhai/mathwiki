@@ -9,7 +9,14 @@
     <lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>$\sigma$-algebra</title>
+      <title>Atom (Measure Theory)</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/atom_measure_theory/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/atom_measure_theory/</guid>
+      <description>&lt;h1 id=&#34;definition-and-properties&#34;&gt;Definition and Properties&lt;/h1&gt;&#xA;&lt;h1 id=&#34;atomless-measures&#34;&gt;Atomless Measures&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>sigma_algebra</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/sigma_algebra/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/sigma_algebra/</guid>
@@ -34,7 +41,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/measure/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/measure/</guid>
-      <description>&lt;h1 id=&#34;definition-and-properties&#34;&gt;Definition and Properties&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;measurable space&lt;/em&gt; is a set $X$ equipped with a \ref[$\sigma$-algebra]{sigma_algebra} $\mc{B}\subeq\pow(X)$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;measure&lt;/em&gt; on a measure space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\em)=0$ and $\mu(\bigsqcup_{n&amp;lt;\omega}A_n)=\sum_{n&amp;lt;\omega}\mu(A_n)$ for any pairwise-disjoint family $(A_n)_{n&amp;lt;\omega}$.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  The triple $(X,\mc{B},\mu)$ is called a &lt;em&gt;measure space&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h2 id=&#34;basic-properties&#34;&gt;Basic properties&lt;/h2&gt;&#xA;&lt;p&gt;Throughout, let $(X,\mc{B},\mu)$ be a measure space.&lt;/p&gt;&#xA;&lt;p&gt;\begin{lemma}[Monotonicity]&lt;/p&gt;&#xA;&lt;p&gt;For any $A,B\in\mc{B}$ with $A\subeq B$, we have $\mu(A)\leq\mu(B)$.&lt;/p&gt;&#xA;&lt;p&gt;\end{lemma}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;.&lt;/p&gt;&#xA;&lt;p&gt;\end{proof}&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;motivation-and-definition&#34;&gt;Motivation and Definition&lt;/h1&gt;&#xA;&lt;p&gt;\TODO[motivate]&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;measurable space&lt;/em&gt; is a set $X$ equipped with a \ref[$\sigma$-algebra]{sigma_algebra} $\mc{B}\subeq\pow(X)$.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;measure&lt;/em&gt; on a measure space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\em)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint family $(A_n)_{n&amp;lt;\omega}$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;In the above notation, the triple $(X,\mc{B},\mu)$ is called a &lt;em&gt;measure space&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;convenient-assumptions&#34;&gt;Convenient assumptions&lt;/h2&gt;&#xA;&lt;p&gt;Throughout, let $(X,\mc{B},\mu)$ be a measure space. Little can be said about general measure spaces, so we restrict ourselves to some special cases. These cases are generic enough to cover &amp;lsquo;all interesting cases&amp;rsquo;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

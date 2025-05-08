@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>sigma_algebra</title>
+        <title>Atom (Measure Theory)</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,36 +42,12 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    $\sigma$-algebra
+                    Atom (Measure Theory)
                 
             </h1>
 
             <h1 id="definition-and-properties">Definition and Properties</h1>
-<p>Let $X$ be a set.</p>
-<p>\begin{definition}</p>
-<p>A <em>$\sigma$-algebra</em> on $X$ is a family $\mc{A}\subeq\pow(X)$ of subsets of $X$ containing $\em$ that is closed under complements and countable unions. More precisely:</p>
-<ol>
-<li>$\em\in\mc{A}$.</li>
-<li>For any $A\in\mc{A}$, we have $X\comp A\in\mc{A}$.</li>
-<li>For any countable family $\l\{A_n\r\}_{n&lt;\omega}$ in $\mc{A}$, we have $\bigcup_{n&lt;\omega}A_n\in\mc{A}$.</li>
-</ol>
-<p>\end{definition}</p>
-<h2 id="generation">Generation</h2>
-<p>A useful way to construct a $\sigma$-algebra on $X$ is to start with an arbitrary family $\mc{C}\subeq\pow(X)$ and &lsquo;close&rsquo; it under the three conditions above. Since the intersection of $\sigma$-algebras is again a $\sigma$-algebra, we can describe this closure process succinctly as follows.</p>
-<p>\begin{definition}</p>
-<p>The $\sigma$-algebra <em>generated</em> by a family $\mc{C}\subeq\pow(X)$ is
-\begin{equation*}
-\l\langle\mc{C}\r\rangle_\sigma\coloneqq\bigcap\l\{\mc{A}\st\mc{A}\supseteq\mc{C}\textrm{ is a $\sigma$-algebra on $X$}\r\}.
-\end{equation*}</p>
-<p>\end{definition}</p>
-<p>\begin{remark}</p>
-<p>The closure process can be formalized by defining $\l\langle\mc{C}\r\rangle_\sigma\coloneqq\bigcup_{\alpha&lt;\omega_1}\mc{C}_\alpha$, where the $\mc{C}_\alpha$&rsquo;s are defined inductively by letting $\mc{C}_0\coloneqq\mc{C}\cup\l\{\em\r\}$ and letting $\mc{C}_\alpha$ be the collection of all complements and countable unions of sets in $\bigcup_{\beta&lt;\alpha}\mc{C}_\beta$.</p>
-<p>\end{remark}</p>
-<h2 id="borel-sigma-algebra">Borel $\sigma$-algebra</h2>
-<p>If $X$ is a topologized, there is a natural way to obtain a $\sigma$-algebra.</p>
-<p>\begin{definition}</p>
-<p>Let $X$ be a topological space with topology $\mc{T}$. The <em>Borel $\sigma$-algebra</em> is $\mc{B}(X)\coloneqq\l\langle\mc{T}\r\rangle_\sigma$, whose elements are called the <em>Borel sets</em> of $X$.</p>
-<p>\end{definition}</p>
+<h1 id="atomless-measures">Atomless Measures</h1>
 
 
             <div id="references"></div>

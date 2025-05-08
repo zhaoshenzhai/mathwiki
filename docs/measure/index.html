@@ -46,38 +46,84 @@
                 
             </h1>
 
-            <h1 id="definition-and-properties">Definition and Properties</h1>
-<p>\begin{definition}</p>
+            <h1 id="motivation-and-definition">Motivation and Definition</h1>
+<p>\TODO[motivate]</p>
 <p>A <em>measurable space</em> is a set $X$ equipped with a \ref[$\sigma$-algebra]{sigma_algebra} $\mc{B}\subeq\pow(X)$.</p>
+<p>\begin{definition}</p>
+<p>A <em>measure</em> on a measure space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\em)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint family $(A_n)_{n&lt;\omega}$.</p>
+<p>\end{definition}</p>
+<p>In the above notation, the triple $(X,\mc{B},\mu)$ is called a <em>measure space</em>.</p>
+<h2 id="convenient-assumptions">Convenient assumptions</h2>
+<p>Throughout, let $(X,\mc{B},\mu)$ be a measure space. Little can be said about general measure spaces, so we restrict ourselves to some special cases. These cases are generic enough to cover &lsquo;all interesting cases&rsquo;.</p>
+<br>
+<p>  The first is a finiteness assumption. Since the \ref[Lebesgue measure]{lebesgue_measure} is not finite, a more general notion is needed. It is hard to find a measure violating this more general notion.</p>
+<p>\begin{definition}</p>
+<p>A measure $\mu$ is said to be a <em>probability measure</em> if $\mu(X)=1$, <em>finite</em> if $\mu(X)&lt;\infty$, and <em>$\sigma$-finite</em> if there is a partition $X=\bigsqcup_nX_n$ where each $\mu(X_n)&lt;\infty$.</p>
+<p>\end{definition}</p>
+<p>\begin{remark}</p>
+<p>Note that every finite measure can be normalized to a probability measure (via $\mu\mapsto\mu/\mu(X)$), and since $\sigma$-finite measures are built out of finite ones, proving results about $\sigma$-finite measures reduce, in general, to the case of probability measures.</p>
+<p>\end{remark}</p>
+<br>
+<p>  Next, we restrict to measures without &lsquo;discrete jumps&rsquo;.</p>
+<p>\begin{definition}</p>
+<p>A $\mu$-measurable set $A\subeq X$ is an <em>atom</em> if there is no $B\subeq A$ such that $0&lt;\mu(B)&lt;\mu(A)$. A measure $\mu$ is said to be <em>atomless</em> if there are no atoms.</p>
+<p>\end{definition}</p>
+<p>\begin{example}</p>
+<p>For any set $X$ and $x\in X$, the <em>Dirac measure concentrated at $x$</em> is the atomic measure $\delta_x:\pow(X)\to\l\{0,1\r\}$ defined by $\delta_x(A)\coloneqq1$ iff $x\in A$, and $\delta_x(A)\coloneqq0$ otherwise.</p>
+<p>\end{example}</p>
+<p>\begin{fact}</p>
+<p>If $\mu$ is $\sigma$-finite and $\mc{B}$ is countably generated and separates points, then</p>
+<ol>
+<li>$\mu=\mu&rsquo;+\sum_{n&lt;\omega}a_n\delta_{x_n}$ for some atomless measure $\mu&rsquo;$, some $a_n\geq0$, and some $x_n\in X$.</li>
+<li>Every atom $A\in\mc{B}$ is a singleton.</li>
+</ol>
+<p>\end{fact}</p>
+<p>\begin{definition}</p>
+<p>A subset $Z\subeq X$ is said to be <em>$\mu$-null</em> if $Z\subeq Z&rsquo;$ for some $Z&rsquo;\in\mc{B}$ such that $\mu(Z&rsquo;)=0$. We write $\Null_\mu$ for the collection of all $\mu$-null sets in $X$.</p>
 <p>\end{definition}</p>
 <p>\begin{definition}</p>
-<p>A <em>measure</em> on a measure space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\em)=0$ and $\mu(\bigsqcup_{n&lt;\omega}A_n)=\sum_{n&lt;\omega}\mu(A_n)$ for any pairwise-disjoint family $(A_n)_{n&lt;\omega}$.</p>
-<br>
-<p>  The triple $(X,\mc{B},\mu)$ is called a <em>measure space</em>.</p>
+<p>A subset $A\subeq X$ is said to be <em>$\mu$-measurable</em> if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$. We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets.</p>
 <p>\end{definition}</p>
-<h2 id="basic-properties">Basic properties</h2>
+<p>We summarize the properties of $\Meas_\mu$ as follows.</p>
+<p>\begin{fact}</p>
+<p>$\Meas_\mu=\l\langle\mc{B}\cup\Null_\mu\r\rangle_\sigma$. Moreover, $\mu$ admits a unique extension to a measure $\bar{\mu}$ on $\Meas_\mu$, defined by $\bar{\mu}(B\cup Z)\coloneqq\mu(B)$, and this measure satisfies $\Meas_{\bar{\mu}}=\Meas_\mu$.</p>
+<p>\end{fact}</p>
+<h1 id="properties-of-measures">Properties of Measures</h1>
 <p>Throughout, let $(X,\mc{B},\mu)$ be a measure space.</p>
-<p>\begin{lemma}[Monotonicity]</p>
+<p>\begin{lemma}[Monotonicity]\label{monotonicity_of_measures}</p>
 <p>For any $A,B\in\mc{B}$ with $A\subeq B$, we have $\mu(A)\leq\mu(B)$.</p>
 <p>\end{lemma}</p>
 <p>\begin{proof}</p>
-<p>.</p>
+<p>Observe that $\mu(B)=\mu(A\sqcup(B\comp A))=\mu(A)+\mu(B\comp A)\geq\mu(A)$.<span style="float:right;">$\square$</span></p>
 <p>\end{proof}</p>
-<p>\begin{lemma}[Continuity]</p>
+<p>\begin{lemma}[Continuity]\label{continuity_of_measures}</p>
 <p>Let $(A_n)_{n&lt;\omega}$ be a sequence in $\mc{B}$.</p>
-<ul>
-<li>If $(A_n)_{n&lt;\omega}$ is increasing, then $\mu(\bigcup_{n&lt;\omega}A_n)=\lim_{n\to\infty}\mu(A_n)$.</li>
-<li>If $(A_n)_{n&lt;\omega}$ is decreasing and $\mu(A_0)&lt;\infty$, then $\mu(\bigcap_{n&lt;\omega}A_n)=\lim_{n\to\infty}\mu(A_n)$.</li>
-</ul>
+<ol>
+<li>If $(A_n)_{n&lt;\omega}$ is increasing, then $\mu(\bigcup_nA_n)=\lim_{n\to\infty}\mu(A_n)$.</li>
+<li>If $(A_n)_{n&lt;\omega}$ is decreasing and $\mu(A_0)&lt;\infty$, then $\mu(\bigcap_nA_n)=\lim_{n\to\infty}\mu(A_n)$.</li>
+</ol>
 <p>\end{lemma}</p>
 <p>\begin{proof}</p>
-<p>.</p>
+<p>For (1), disjointify $(A_n)$ to $(A_k&rsquo;)$ given by $A_0&rsquo;\coloneqq A_0$ and $A_k&rsquo;\coloneqq A_k\comp A_{k-1}$, so that
+\begin{equation*}
+\mu\l(\bigsqcup\nolimits_kA_k\r)=\mu\l(\bigsqcup\nolimits_kA_k&rsquo;\r)=\sum\nolimits_k\mu(A_k&rsquo;)=\lim_{n\to\infty}\sum\nolimits_{k=1}^n\mu(A_k&rsquo;)=\lim_{n\to\infty}\mu(A_n).
+\end{equation*}</p>
+<p>For (2), set $B_n\coloneqq A_0\comp A_n$ so that $\bigcup_nB_n=A_0\comp A_\infty$ where $A_\infty\coloneqq\bigcap_nA_n$. Then $(B_n)_{n&lt;\omega}$ is increasing, so by (1), we have
+\begin{equation*}
+\mu\l(\bigcup\nolimits_nB_n\r)=\lim_{n\to\infty}\mu(B_n)=\mu(A_0)-\lim_{n\to\infty}\mu(A_n)
+\end{equation*}
+But we also have $\mu(\bigcup_nB_n)=\mu(A_0\comp A_\infty)=\mu(A_0)-\mu(A_\infty)$, so since $\mu(A_0)&lt;\infty$, we can cancel to obtain the desired result.<span style="float:right;">$\square$</span></p>
 <p>\end{proof}</p>
-<h2 id="constructions">Constructions</h2>
-<p>\begin{fact}[\ref[Carathéodory&rsquo;s Extension Theorem]{caratheodory_extension_theorem}]</p>
-<p>Every premeasure $\mu_0:\mc{A}\to X$ on an algebra $\mc{A}$ extends uniquely to a measure $\mu:\l\langle\mc{A}\r\rangle_\sigma\to X$.</p>
+<p>\begin{fact}[\ref[Borel-Cantelli]{borel_cantelli_lemmas}]</p>
+<p>Let $(A_n)_{n&lt;\omega}$ be a sequence of $\mu$-measurable sets.</p>
+<ol>
+<li>If $\sum_n\mu(A_n)&lt;\infty$, then $\mu$-almost every $x\in X$ lives in at-most finitely-many $A_n$&rsquo;s.</li>
+<li>(Measure compactness). If $\mu(X)&lt;\infty$ and there exists $\epsilon&gt;0$ such that $\mu(A_n)\geq\epsilon$ for all $n&lt;\omega$, then at least an $\epsilon$-measure set of $x\in X$ lives in infinitely-many $A_n$&rsquo;s.</li>
+</ol>
 <p>\end{fact}</p>
-<h2 id="examples">Examples</h2>
+<p>\begin{fact}[\ref[Carathéodory&rsquo;s Extension Theorem]{caratheodory_extension_theorem}]</p>
+<p>Every $\sigma$-finite premeasure $\mu_0:\mc{A}\to X$ on an algebra $\mc{A}$ extends uniquely to a measure $\mu:\l\langle\mc{A}\r\rangle_\sigma\to X$, which is also $\sigma$-finite.</p>
+<p>\end{fact}</p>
 
 
             <div id="references"></div>

@@ -5,6 +5,7 @@ const envEls = document.getElementsByClassName('env');
 export function initFormat() {
     formatCitations();
     formatLinks();
+    formatTODO();
     formatEnvironments();
     formatInternalLinks();
 }
@@ -12,8 +13,9 @@ export function initFormat() {
 function formatEnvironments() {
     formatEnvironment('definition');
     formatEnvironment('theorem');
-    formatEnvironment('lemma');
+    formatEnvironment('example');
     formatEnvironment('remark');
+    formatEnvironment('lemma');
     formatEnvironment('proof');
     formatEnvironment('fact');
 
@@ -140,6 +142,36 @@ function formatLinks() {
         link.innerText = display;
 
         replaceEl.appendChild(link);
+        return replaceEl;
+    });
+}
+
+function formatTODO() {
+    format(document.body, /\\TODO\[.*?\]/g, function (match) {
+        var replaceEl = document.createElement('p');
+
+        var todo = document.createElement('span');
+        todo.innerText = 'TODO: ';
+        todo.style.color = 'red';
+        todo.style.fontWeight = 'bold';
+
+        var note = document.createElement('span');
+        note.innerText = match.replace(/\\TODO\[/, '').replace(/]/, '');
+        note.style.color = 'red';
+
+        replaceEl.appendChild(todo);
+        replaceEl.appendChild(note);
+        return replaceEl;
+    });
+    format(document.body, /\\TODO/g, function (match) {
+        var replaceEl = document.createElement('p');
+
+        var todo = document.createElement('span');
+        todo.style.fontWeight = 'bold';
+        todo.style.color = 'red';
+        todo.innerText = 'TODO';
+
+        replaceEl.appendChild(todo);
         return replaceEl;
     });
 }

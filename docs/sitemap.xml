@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/sigma_algebra/</loc>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/atom_measure_theory/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/sigma_algebra/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>

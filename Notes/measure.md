@@ -18,37 +18,45 @@ A _measure_ on a measure space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ s
 
 In the above notation, the triple $(X,\mc{B},\mu)$ is called a _measure space_.
 
-\begin{definition}
+## Finiteness conditions
 
 A measure $\mu$ is said to be a _probability measure_ if $\mu(X)=1$, _finite_ if $\mu(X)<\infty$, and _$\sigma$-finite_ if there is a partition $X=\bigsqcup_nX_n$ where each $\mu(X_n)<\infty$.
 
-\end{definition}
+>Every finite measure can be normalized to a probability measure, and since $\sigma$-finite measures are built out of finite ones, proving results about $\sigma$-finite measures reduce, in principle, to the case of probability measures.
 
-Note that every finite measure can be normalized to a probability measure, and since $\sigma$-finite measures are built out of finite ones, proving results about $\sigma$-finite measures reduce, in general, to the case of probability measures.
+These finiteness conditions can be extended to _premeasures_, i.e., countably additive maps $\mu_0:\mc{A}\to[0,\infty]$ such that $\mu_0(\em)=0$ defined on an algebra $\mc{A}$.
+
+\begin{fact}[\ref[Carathéodory's Extension Theorem]{caratheodory_extension_theorem}]
+
+Every $\sigma$-finite premeasure $\mu_0:\mc{A}\to X$ on an algebra $\mc{A}$ extends uniquely to a measure $\mu:\l\langle\mc{A}\r\rangle_\sigma\to X$, which is also $\sigma$-finite.
+
+\end{fact}
 
 ## Measurability
 
-Throughout, let $(X,\mc{B},\mu)$ be a measure space.
-
-\begin{definition}
-
 A subset $Z\subeq X$ is said to be _$\mu$-null_ if $Z\subeq Z'$ for some $Z'\in\mc{B}$ such that $\mu(Z')=0$. We write $\Null_\mu$ for the collection of all $\mu$-null sets in $X$.
 
-\end{definition}
-
 \begin{definition}
 
-A subset $A\subeq X$ is said to be _$\mu$-measurable_ if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$. We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets.
+A subset $A\subeq X$ is said to be _$\mu$-measurable_ if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$.
 
 \end{definition}
 
-We summarize the properties of $\Meas_\mu$ as follows.
+We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets in $X$.
 
-\begin{fact}
+\begin{fact}[\ref{complete_measure}]
 
-$\Meas\_\mu=\l\langle\mc{B}\cup\Null\_\mu\r\rangle\_\sigma$. Moreover, $\mu$ admits a unique extension to a measure $\bar{\mu}$ on $\Meas_\mu$, defined by $\bar{\mu}(B\cup Z)\coloneqq\mu(B)$, and this measure satisfies $\Meas\_{\bar{\mu}}=\Meas\_\mu$.
+For any measure $\mu$, we have $\Meas\_\mu=\l\langle\mc{B}\cup\Null\_\mu\r\rangle\_\sigma$.
 
 \end{fact}
+
+\begin{fact}[\ref[Completions]{complete_measure}]
+
+Every measure $\mu$ admits a unique extension to a measure $\bar{\mu}$ on $\Meas_\mu$, defined by $\bar{\mu}(B\cup Z)\coloneqq\mu(B)$, and this measure satisfies $\Meas\_{\bar{\mu}}=\Meas\_\mu$.
+
+\end{fact}
+
+The measure $\bar{\mu}$ is called the _completion_ of $\mu$; a measure $\mu$ is _complete_ if $\bar{\mu}=\mu$.
 
 # Properties of Measures
 
@@ -97,8 +105,22 @@ Let $(A_n)_{n<\omega}$ be a sequence of $\mu$-measurable sets.
 
 \end{fact}
 
-\begin{fact}[\ref[Carathéodory's Extension Theorem]{caratheodory_extension_theorem}]
+## Atomic decomposition
 
-Every $\sigma$-finite premeasure $\mu_0:\mc{A}\to X$ on an algebra $\mc{A}$ extends uniquely to a measure $\mu:\l\langle\mc{A}\r\rangle_\sigma\to X$, which is also $\sigma$-finite.
+A $\mu$-measurable set $A\subeq X$ is an _atom_ if there is no $B\subeq A$ such that $0<\mu(B)<\mu(A)$. A measure $\mu$ is said to be _atomless_ if there are no atoms.
+
+<div class="space"></div>
+
+\begin{example}
+
+For any set $X$ and $x\in X$, the _Dirac measure concentrated at $x$_ is the atomic measure $\delta_x:\pow(X)\to\l\\{0,1\r\\}$ defined by $\delta_x(A)\coloneqq1$ iff $x\in A$, and $\delta_x(A)\coloneqq0$ otherwise.
+
+\end{example}
+
+\begin{fact}[\ref{atom_measure_theory}]
+
+If $\mu$ is $\sigma$-finite and $\mc{B}$ is countably \ref[generated]{sigma_algebra#generation} and separates points, then
+1. $\mu=\mu'+\sum\_{n<\omega}a\_n\delta\_{x\_n}$ for some atomless measure $\mu'$, some $a_n\geq0$, and some $x_n\in X$.
+2. Every atom $A\in\mc{B}$ is a singleton.
 
 \end{fact}
