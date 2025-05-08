@@ -6,9 +6,15 @@ tags: [In_Progress]
 
 # Motivation and Definition
 
-\TODO[motivate]
+We would like a map $\mu:\pow(\R^n)\to[0,\infty]$, called a _measure_, that assigns to each $A\subeq\R^n$ its 'volume' that is invariant under the \ref[action]{group_action} of $\Isom\R^n$. This turns out to be impossible (for good reason; see \TODO), so we instead restrict to special subsets of $\R^n$ which are 'constructible'.
 
-A _measurable space_ is a set $X$ equipped with a \ref[$\sigma$-algebra]{sigma_algebra} $\mc{B}\subeq\pow(X)$.
+<br>
+
+&emsp;&emsp;If anything, the \ref[open]{topology} sets in $\R^n$ (or for convenience, in $[0,1]$) must be measurable, and hence so must their complements and (finite) unions. We can strengthen this by requiring that countable unions of measurable its remain measurable, for then we can take limits.
+
+<div class="space"></div>
+
+&emsp;&emsp;This is precisely the notion of a \ref[$\sigma$-algebra]{sigma_algebra}, so we define a _measurable space_ to be a set $X$ equipped with a $\sigma$-algebra $\mc{B}\subeq\pow(X)$.
 
 \begin{definition}
 
@@ -17,6 +23,22 @@ A _measure_ on a measure space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ s
 \end{definition}
 
 In the above notation, the triple $(X,\mc{B},\mu)$ is called a _measure space_.
+
+<br>
+
+&emsp;&emsp;If $X$ has a topology $\mc{T}$, we usually define measures $\mu$ on the \ref[Borel $\sigma$-algebra]{sigma_algebra#borel-sigma-algebra} $\mc{B}(X)$, in which case we say that $\mu$ is a _Borel measure_.
+
+\begin{example}[Lebesgue measure]
+
+There is a unique measure $\lambda:\mc{B}(\R)\to[0,\infty]$, called the _\ref[Lebesgue measure]{lebesgue_measure}_, such that $\lambda([a,b])=b-a$ for each $a,b\in\R$ with $a\leq b$; this measure is clearly invariant under $\Isom\R$. All \ref[Borel measures on $\R$]{borel_measures_on_reals} can be classified.
+
+\end{example}
+
+\begin{example}[Bernoulli$(p)$ measures]
+
+Let $p\in[0,1]$ and equip $2^\omega$ with the \ref[product topology]{product_topology}. There is a unique measure $\mu_p:\mc{B}(2^\omega)\to[0,1]$, called the _\ref[Bernoulli$(p)$ measure]{bernoulli_p_measure}_, such that $\mu_p([w])=p^{n_1}(1-p)^{n_0}$ where $n_i$ is the number of occurrences of $i\in\l\\{0,1\r\\}$ in $w$ and $[w]$ is the set of all sequences in $2^\omega$ containing $w$ as a prefix. Intuitively, $\mu_p$ measures the probability of $p$-weighted coin tosses, repeated countably-many times.
+
+\end{example}
 
 ## Finiteness conditions
 
@@ -78,7 +100,7 @@ Let $(A_n)\_{n<\omega}$ be a sequence in $\mc{B}$.
 
 Let $(A_n)_{n<\omega}$ be a sequence of $\mu$-measurable sets.
 1. If $\sum_n\mu(A_n)<\infty$, then $\mu$-almost every $x\in X$ lives in at-most finitely-many $A_n$'s.
-2. (Measure compactness). If $\mu(X)<\infty$ and there exists $\epsilon>0$ such that $\mu(A_n)\geq\epsilon$ for all $n<\omega$, then at least an $\epsilon$-measure set of $x\in X$ lives in infinitely-many $A_n$'s.
+2. If $\mu(X)<\infty$ and there exists $\epsilon>0$ such that $\mu(A_n)\geq\epsilon$ for all $n<\omega$, then at least an $\epsilon$-measure set of $x\in X$ lives in infinitely-many $A_n$'s.
 
 \end{fact}
 

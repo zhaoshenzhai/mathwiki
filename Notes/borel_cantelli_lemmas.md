@@ -30,7 +30,11 @@ If $\sum_n\mu(A_n)<\infty$, then $\mu$-almost every $x\in X$ lives in finitely-m
 
 \begin{proof}
 
-\TODO
+Let $B\coloneqq\limsup_{n\to\infty}A_n$, which is clearly $\mu$-measurable, and let $B_m\coloneqq\bigcup_{n\geq m}A_n$, so that $B=\bigcap_mB_m$, and hence $\mu(B)\leq\mu(B_m)$ for each $m<\omega$ by \ref[monotonicity]{basic_properties_measures#monotonicity_of_measures}. Note that
+\begin{equation*}
+    \lim\_{m\to\infty}\mu(B\_m)=\lim\_{m\to\infty}\mu\l(\bigcup\nolimits\_{n\geq m}A\_n\r)\leq\lim\_{m\to\infty}\sum\_{n\geq m}\mu(A\_n)=0
+\end{equation*}
+by assumption, so $\mu(B)=0$ as desired.<span style="float:right;">$\blacksquare$</span>
 
 \end{proof}
 
@@ -42,7 +46,11 @@ If $\mu$ is a \ref[finite]{measure#finiteness-conditions} measure and there is s
 
 \begin{proof}
 
-\TODO
+With the same notation above, we have $\mu(B)=\lim_{m\to\infty}\mu(B_m)$ by \ref[continuity]{basic_properties_measures#continuity_of_measures_decreasing}. Now,
+\begin{equation*}
+    \mu(B_m)=\mu\l(\bigcup\nolimits_{n\geq m}A_n\r)\geq\mu(A_m)\geq\epsilon
+\end{equation*}
+for each $m<\omega$, so $\mu(B)\geq\epsilon$ too as desired.<span style="float:right;">$\blacksquare$</span>
 
 \end{proof}
 
@@ -50,4 +58,12 @@ If $\mu$ is a \ref[finite]{measure#finiteness-conditions} measure and there is s
 
 \TODO
 
-# Application: Measure Exhaustion
+# Applications
+
+## Vanishing sequences
+
+\TODO
+
+## Measure exhaustion
+
+\TODO
