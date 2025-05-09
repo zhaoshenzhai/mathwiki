@@ -18,7 +18,7 @@ We would like a map $\mu:\pow(\R^n)\to[0,\infty]$, called a _measure_, that assi
 
 \begin{definition}
 
-A _measure_ on a measurable space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\em)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint countable family $(A_n)_{n<\omega}$ of sets in $\mc{B}$. We call the triple $(X,\mc{B},\mu)$ a _measure space_.
+A _measure_ on a measurable space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\e)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint countable family $(A_n)_{n<\omega}$ of sets in $\mc{B}$. We call the triple $(X,\mc{B},\mu)$ a _measure space_.
 
 \end{definition}
 
@@ -42,7 +42,7 @@ A measure $\mu$ is said to be a _probability measure_ if $\mu(X)=1$, _finite_ if
 
 >Every finite measure can be normalized to a probability measure, and since $\sigma$-finite measures are built out of finite ones, proving results about $\sigma$-finite measures reduce, in principle, to the case of probability measures.
 
-These finiteness conditions can be extended to _\ref[premeasures]{caratheodory_extension_theorem#premeasure}_, i.e., countably additive maps $\mu_0:\mc{A}\to[0,\infty]$ such that $\mu_0(\em)=0$, defined on an algebra $\mc{A}$, which allow us to define measures on \ref[$\l\langle\mc{A}\r\rangle_\sigma$]{sigma_algebra#generation} using the following theorem; this is how $\lambda$ and $\mu_p$ are defined.
+These finiteness conditions can be extended to _\ref[premeasures]{caratheodory_extension_theorem#premeasure}_, i.e., countably additive maps $\mu_0:\mc{A}\to[0,\infty]$ such that $\mu_0(\e)=0$, defined on an algebra $\mc{A}$, which allow us to define measures on \ref[$\l\langle\mc{A}\r\rangle_\sigma$]{sigma_algebra#generation} using the following theorem; this is how $\lambda$ and $\mu_p$ are defined.
 
 \begin{fact}[\ref[Carathéodory's Extension Theorem]{caratheodory_extension_theorem}]
 
@@ -141,9 +141,7 @@ It turns out that Dirac measures are 'the only' obstructions preventing $\mu$ to
 
 \begin{fact}[\ref{atom_measure_theory}]
 
-If $\mu$ is $\sigma$-finite and $\mc{B}$ is countably \ref[generated]{sigma_algebra#generation} and separates points, then
-1. $\mu=\mu'+\sum\_{n<\omega}a\_n\delta\_{x\_n}$ for some atomless measure $\mu'$, some $a_n\geq0$, and some $x_n\in X$.
-2. Every atom $A\in\mc{B}$ is a singleton.
+Let $\mu$ be $\sigma$-finite. If $\mc{B}$ is countably \ref[generated]{sigma_algebra#generation} and separates points, then every atom $A\in\mc{B}$ is a singleton, and if $\l\\{x_1\r\\},\dots,\l\\{x_n\r\\}$ are all the atoms in $\mc{B}$, then there is a decomposition $\mu=\mu\_0+\sum\_{i\leq n}a\_i\delta\_{x\_i}$ for some atomless measure $\mu_0$ and some $a_i\geq0$.
 
 \end{fact}
 

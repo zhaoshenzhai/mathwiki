@@ -63,7 +63,7 @@
 <p>Let $p\in[0,1]$ and equip $2^\omega$ with the \ref[product topology]{product_topology}. There is a unique measure $\mu_p:\mc{B}(2^\omega)\to[0,1]$, called the <em>\ref[Bernoulli$(p)$ measure]{bernoulli_p_measure}</em>, such that $\mu_p([w])=p^{n_1}(1-p)^{n_0}$ where $n_i$ is the number of occurrences of $i\in\l\{0,1\r\}$ in $w$ and $[w]$ is the set of all sequences in $2^\omega$ containing $w$ as a prefix. Intuitively, $\mu_p$ measures the probability of $p$-weighted coin tosses, repeated countably-many times.</p>
 <p>\end{example}</p>
 <h2 id="finiteness-conditions">Finiteness conditions</h2>
-<p>A measure $\mu$ is said to be a <em>probability measure</em> if $\mu(X)=1$, <em>finite</em> if $\mu(X)&lt;\infty$, and <em>$\sigma$-finite</em> if there is a partition $X=\bigsqcup_nX_n$ where each $\mu(X_n)&lt;\infty$.</p>
+<p>A measure $\mu$ is said to be a <em>probability measure</em> if $\mu(X)=1$, <em>finite</em> if $\mu(X)&lt;\infty$, and <em>$\sigma$-finite</em> if there is a partition $X=\bigsqcup_nX_n$ with $\mu(X_n)&lt;\infty$.</p>
 <blockquote>
 <p>Every finite measure can be normalized to a probability measure, and since $\sigma$-finite measures are built out of finite ones, proving results about $\sigma$-finite measures reduce, in principle, to the case of probability measures.</p></blockquote>
 <p>These finiteness conditions can be extended to <em>\ref[premeasures]{caratheodory_extension_theorem#premeasure}</em>, i.e., countably additive maps $\mu_0:\mc{A}\to[0,\infty]$ such that $\mu_0(\em)=0$, defined on an algebra $\mc{A}$, which allow us to define measures on \ref[$\l\langle\mc{A}\r\rangle_\sigma$]{sigma_algebra#generation} using the following theorem; this is how $\lambda$ and $\mu_p$ are defined.</p>
@@ -73,8 +73,9 @@
 <h2 id="measurability">Measurability</h2>
 <p>A subset $Z\subeq X$ is said to be <em>$\mu$-null</em> if $Z\subeq Z&rsquo;$ for some $Z&rsquo;\in\mc{B}$ such that $\mu(Z&rsquo;)=0$. We write $\Null_\mu$ for the collection of all $\mu$-null sets in $X$.</p>
 <p>\begin{definition}</p>
-<p>A subset $A\subeq X$ is said to be <em>$\mu$-measurable</em> if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$. We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets.</p>
+<p>A subset $A\subeq X$ is said to be <em>$\mu$-measurable</em> if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$.</p>
 <p>\end{definition}</p>
+<p>We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets.</p>
 <p>\begin{fact}[\ref{complete_measure}]</p>
 <p>For any measure $\mu$, we have $\Meas_\mu=\l\langle\mc{B}\cup\Null_\mu\r\rangle_\sigma$.</p>
 <p>\end{fact}</p>
@@ -104,7 +105,7 @@
 \begin{equation*}
 \mu\l(\bigsqcup\nolimits_kA_k\r)=\mu\l(\bigsqcup\nolimits_kA_k&rsquo;\r)=\sum\nolimits_k\mu(A_k&rsquo;)=\lim_{n\to\infty}\sum\nolimits_{k=1}^n\mu(A_k&rsquo;)=\lim_{n\to\infty}\mu(A_n).
 \end{equation*}</p>
-<p>For (2), set $B_n\coloneqq A_0\comp A_n$ so that $\bigcup_nB_n=A_0\comp A_\infty$ where $A_\infty\coloneqq\bigcap_nA_n$. Then $(B_n)_{n&lt;\omega}$ is increasing, so by (1), we have
+<p>For (2), set $B_n\coloneqq A_0\comp A_n$ so that $\bigcup_nB_n=A_0\comp A_\infty$ where $A_\infty\coloneqq\bigcap_nA_n$, so that $(B_n)$ is increasing. By (1), we have
 \begin{equation*}
 \mu\l(\bigcup\nolimits_nB_n\r)=\lim_{n\to\infty}\mu(B_n)=\mu(A_0)-\lim_{n\to\infty}\mu(A_n)
 \end{equation*}
@@ -124,11 +125,7 @@ But we also have $\mu(\bigcup_nB_n)=\mu(A_0\comp A_\infty)=\mu(A_0)-\mu(A_\infty
 <p>\end{example}</p>
 <p>It turns out that Dirac measures are &rsquo;the only&rsquo; obstructions preventing $\mu$ to be atomless.</p>
 <p>\begin{fact}[\ref{atom_measure_theory}]</p>
-<p>If $\mu$ is $\sigma$-finite and $\mc{B}$ is countably \ref[generated]{sigma_algebra#generation} and separates points, then</p>
-<ol>
-<li>$\mu=\mu&rsquo;+\sum_{n&lt;\omega}a_n\delta_{x_n}$ for some atomless measure $\mu&rsquo;$, some $a_n\geq0$, and some $x_n\in X$.</li>
-<li>Every atom $A\in\mc{B}$ is a singleton.</li>
-</ol>
+<p>Let $\mu$ be $\sigma$-finite. If $\mc{B}$ is countably \ref[generated]{sigma_algebra#generation} and separates points, then every atom $A\in\mc{B}$ is a singleton, and if $\l\{x_1\r\},\dots,\l\{x_n\r\}$ are all the atoms in $\mc{B}$, then there is a decomposition $\mu=\mu_0+\sum_{i\leq n}a_i\delta_{x_i}$ for some atomless measure $\mu_0$ and some $a_i\geq0$.</p>
 <p>\end{fact}</p>
 <p>\begin{fact}[\ref[Sierpinski&rsquo;s Theorem]{sierpinski}]</p>
 <p>If $\mu$ is atomless, then $\mu$ attains every value in the interval $[0,\mu(X)]$, i.e., for each $m\in[0,\mu(X)]$, there exists $A\in\mc{B}$ such that $\mu(A)=m$.</p>

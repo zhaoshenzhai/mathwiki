@@ -53,7 +53,7 @@ function search(e) {
 
         if (input.length > 0) {
             var searchRes = searchEngine.search(input);
-            var searchResTitles = searchRes.map((x) => x.item.title);
+            var searchResTitles = searchRes.map((x) => getTitle(x.item));
             var searchResPaths = searchRes.map((x) => x.item.relPath);
             updateSearchList(searchResTitles, searchResPaths);
         } else {
