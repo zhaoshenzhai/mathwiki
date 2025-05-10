@@ -30,11 +30,11 @@ If $\sum_n\mu(A_n)<\infty$, then $\mu$-almost every $x\in X$ lives in finitely-m
 
 \begin{proof}
 
-Let $B\coloneqq\limsup_{n\to\infty}A_n$, which is clearly $\mu$-measurable, and let $B_m\coloneqq\bigcup_{n\geq m}A_n$, so that $B=\bigcap_mB_m$, and hence $\mu(B)\leq\mu(B_m)$ for each $m<\omega$ by \ref[monotonicity]{measure#monotonicity}. Note that
+Let $B\coloneqq\limsup_{n\to\infty}A_n$, which is $\mu$-measurable, and let $B_m\coloneqq\bigcup_{n\geq m}A_n$, so that $B=\bigcap_mB_m$. Hence $\mu(B)\leq\mu(B_m)$ for each $m<\omega$ by \ref[monotonicity]{measure#monotonicity}, but since
 \begin{equation*}
     \lim\_{m\to\infty}\mu(B\_m)=\lim\_{m\to\infty}\mu\l(\bigcup\nolimits\_{n\geq m}A\_n\r)\leq\lim\_{m\to\infty}\sum\_{n\geq m}\mu(A\_n)=0
 \end{equation*}
-by assumption, so $\mu(B)=0$ as desired.<span style="float:right;">$\blacksquare$</span>
+by assumption, we have $\mu(B)=0$ as desired.<span style="float:right;">$\blacksquare$</span>
 
 \end{proof}
 
