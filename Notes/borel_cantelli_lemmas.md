@@ -46,7 +46,7 @@ If $\mu$ is a \ref[finite]{measure#finiteness-conditions} measure and there is s
 
 \begin{proof}
 
-With the same notation above, we have $\mu(B)=\lim_{m\to\infty}\mu(B_m)$ by \ref[continuity]{measure#continuity}. Now,
+With the above notation, we have $\mu(B)=\lim_{m\to\infty}\mu(B_m)$ by \ref[continuity]{measure#continuity}. Now,
 \begin{equation*}
     \mu(B_m)=\mu\l(\bigcup\nolimits_{n\geq m}A_n\r)\geq\mu(A_m)\geq\epsilon
 \end{equation*}

@@ -53,7 +53,7 @@
 <br>
 <p>  This is precisely the notion of a \ref[$\sigma$-algebra]{sigma_algebra}, so we define a <em>measurable space</em> to be a set $X$ equipped with a $\sigma$-algebra $\mc{B}\subeq\pow(X)$.</p>
 <p>\begin{definition}</p>
-<p>A <em>measure</em> on a measurable space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\em)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint countable family $(A_n)_{n&lt;\omega}$ of sets in $\mc{B}$. We call the triple $(X,\mc{B},\mu)$ a <em>measure space</em>.</p>
+<p>A <em>measure</em> on a measurable space $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\e)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint countable family $(A_n)_{n&lt;\omega}$ of sets in $\mc{B}$. We call the triple $(X,\mc{B},\mu)$ a <em>measure space</em>.</p>
 <p>\end{definition}</p>
 <p>  If $X$ is topologized, we usually define measures $\mu$ on the \ref[Borel $\sigma$-algebra]{sigma_algebra#borel-sigma-algebra} $\mc{B}(X)$ with respect to the given topology, in which case we say that $\mu$ is a <em>Borel measure</em>.</p>
 <p>\begin{example}[Lebesgue measure]</p>
@@ -66,7 +66,7 @@
 <p>A measure $\mu$ is said to be a <em>probability measure</em> if $\mu(X)=1$, <em>finite</em> if $\mu(X)&lt;\infty$, and <em>$\sigma$-finite</em> if there is a partition $X=\bigsqcup_nX_n$ with $\mu(X_n)&lt;\infty$.</p>
 <blockquote>
 <p>Every finite measure can be normalized to a probability measure, and since $\sigma$-finite measures are built out of finite ones, proving results about $\sigma$-finite measures reduce, in principle, to the case of probability measures.</p></blockquote>
-<p>These finiteness conditions can be extended to <em>\ref[premeasures]{caratheodory_extension_theorem#premeasure}</em>, i.e., countably additive maps $\mu_0:\mc{A}\to[0,\infty]$ such that $\mu_0(\em)=0$, defined on an algebra $\mc{A}$, which allow us to define measures on \ref[$\l\langle\mc{A}\r\rangle_\sigma$]{sigma_algebra#generation} using the following theorem; this is how $\lambda$ and $\mu_p$ are defined.</p>
+<p>These finiteness conditions can be extended to <em>\ref[premeasures]{caratheodory_extension_theorem#premeasure}</em>, i.e., countably additive maps $\mu_0:\mc{A}\to[0,\infty]$ such that $\mu_0(\e)=0$, defined on an algebra $\mc{A}$, which allow us to define measures on \ref[$\l\langle\mc{A}\r\rangle_\sigma$]{sigma_algebra#generation} using the following theorem; this is how $\lambda$ and $\mu_p$ are defined.</p>
 <p>\begin{fact}[\ref[Carathéodory&rsquo;s Extension Theorem]{caratheodory_extension_theorem}]</p>
 <p>Every premeasure $\mu_0:\mc{A}\to X$ on an algebra $\mc{A}$ extends to a measure $\mu:\l\langle\mc{A}\r\rangle_\sigma\to X$. If $\mu_0$ is $\sigma$-finite, then this extension is unique, and is also $\sigma$-finite.</p>
 <p>\end{fact}</p>

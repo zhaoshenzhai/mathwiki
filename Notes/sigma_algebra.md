@@ -11,8 +11,8 @@ Let $X$ be a set.
 
 \begin{definition}
 
-A _$\sigma$-algebra_ on $X$ is a family $\mc{A}\subeq\pow(X)$ of subsets of $X$ containing $\em$ that is closed under complements and countable unions. More precisely:
-1. $\em\in\mc{A}$.
+A _$\sigma$-algebra_ on $X$ is a family $\mc{A}\subeq\pow(X)$ of subsets of $X$ containing $\e$ that is closed under complements and countable unions. More precisely:
+1. $\e\in\mc{A}$.
 2. For any $A\in\mc{A}$, we have $X\comp A\in\mc{A}$.
 3. For any countable family $\l\\{A_n\r\\}_{n<\omega}$ in $\mc{A}$, we have $\bigcup\_{n<\omega}A_n\in\mc{A}$.
 
@@ -35,7 +35,7 @@ A $\sigma$-algebra $\mc{B}$ is said to be _$\kappa$-generated_ if $\mc{B}=\l\lan
 
 \begin{remark}
 
-The closure process can be formalized by defining $\l\langle\mc{C}\r\rangle\_\sigma\coloneqq\bigcup\_{\alpha<\omega\_1}\mc{C}\_\alpha$, where the $\mc{C}\_\alpha$'s are defined inductively by letting $\mc{C}\_0\coloneqq\mc{C}\cup\l\\{\em\r\\}$ and letting $\mc{C}\_\alpha$ be the collection of all complements and countable unions of sets in $\bigcup\_{\beta<\alpha}\mc{C}_\beta$.
+The closure process can be formalized by defining $\l\langle\mc{C}\r\rangle\_\sigma\coloneqq\bigcup\_{\alpha<\omega\_1}\mc{C}\_\alpha$, where the $\mc{C}\_\alpha$'s are defined inductively by letting $\mc{C}\_0\coloneqq\mc{C}\cup\l\\{\e\r\\}$ and letting $\mc{C}\_\alpha$ be the collection of all complements and countable unions of sets in $\bigcup\_{\beta<\alpha}\mc{C}_\beta$.
 
 \end{remark}
 
