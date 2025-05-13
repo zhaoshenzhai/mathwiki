@@ -5,8 +5,8 @@ const envEls = document.getElementsByClassName('env');
 export function initFormat() {
     formatTODO();
     formatLinks();
-    formatCitations();
     formatEnvironments();
+    formatCitations();
     formatInternalLinks();
 }
 

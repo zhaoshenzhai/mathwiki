@@ -8,11 +8,7 @@ tags: [In_Progress]
 
 ## Setup
 
-Let $(X,\mc{B},\mu)$ be a \ref[measure space]{measure} and let $\phi(x)$ be a property of points $x\in X$. We say that $\phi$ holds _$\mu$-almost everywhere_ if $\l\\{x\in X\st\phi(x)\r\\}$ is $\mu$-conull.
-
-<br>
-
-&emsp;&emsp;For a sequence $(A_n)_{n<\omega}$ of subsets of $X$, define
+Let $(X,\mc{B},\mu)$ be a \ref[measure space]{measure} and let $\phi(x)$ be a property of points $x\in X$. We say that $\phi$ holds _$\mu$-almost everywhere_ if $\l\\{x\in X\st\phi(x)\r\\}$ is $\mu$-conull. For a sequence $(A_n)_{n<\omega}$ of subsets of $X$, define
 \begin{equation*}
     \ex^\infty n<\omega(x\in A\_n)\ \ \ \ \\,\colon\\!\Leftrightarrow\ \ \ \ x\in\bigcap\_{m<\omega}\bigcup\_{n\geq m}A\_n\eqqcolon\limsup\_{n\to\infty}A\_n
 \end{equation*}
@@ -24,7 +20,7 @@ Let $(A\_n)\_{n<\omega}$ be a sequence of $\mu$-measurable sets and set $B\colon
 
 \begin{theorem}[Borel-Cantelli]
 
-If $\sum_n\mu(A_n)<\infty$, then $\mu$-almost every $x\in X$ lives in finitely-many $A_n$'s.
+If $\sum_n\mu(A_n)<\infty$, then $\mu(B)=0$, i.e., for $\mu$-almost every $x\in X$, there is only finitely-many $n<\omega$ such that $x\in A_n$.
 
 \end{theorem}
 
@@ -40,7 +36,7 @@ by assumption, we have $\mu(B)=0$ as desired.<span style="float:right;">$\blacks
 
 \begin{theorem}[Measure Compactness]
 
-Let $(X,\mu)$ be a \ref[finite]{measure#finiteness-conditions} measure space. If there exists some $\epsilon>0$ such that $\mu(A_n)\geq\epsilon$ for all $n<\omega$, then at-least an $\epsilon$-measure set of $x\in X$ lives in infinitely-many $A_n$'s.
+If $\mu$ is \ref[finite]{measure#finiteness-conditions} and there exists some $\epsilon>0$ such that $\mu(A_n)\geq\epsilon$ for all $n<\omega$, then $\mu(B)\geq\epsilon$, i.e., at-least an $\epsilon$-measure set of $x\in X$ lives in infinitely-many $A_n$'s.
 
 \end{theorem}
 

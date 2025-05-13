@@ -8,13 +8,13 @@ tags: [Measure_theory]
 
 The notion of a _measure_ generalizes volume in $\R^n$ and provides a systematic and uniform way to assign 'weights' to certain subsets of a set $X$.
 
-\begin{definition}
+\begin{definition}[\cite{Tse23}, \cite{Fol99}]
 
-A _measure_ on a \ref[measurable space]{measurable_space} $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that
-1. $\mu(\e)=0$;
-2. $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint countable family $(A_n)_{n<\omega}$ of sets in $\mc{B}$.
+A _measure_ on a \ref[measurable space]{measurable_space} $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\e)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint countable family $(A_n)_{n<\omega}$ of sets in $\mc{B}$.
 
-We call the triple $(X,\mc{B},\mu)$ a _measure space_.
+<br>
+
+&emsp;&emsp;We call the triple $(X,\mc{B},\mu)$ a _measure space_.
 
 \end{definition}
 
@@ -24,9 +24,11 @@ If $X$ is equipped with a topology $\mc{T}$, we usually define measures $\mu$ on
 
 \end{remark}
 
-## Examples
+\begin{example}[Counting measure]
 
-On any set $X$, its power set $\pow(X)$ is a $\sigma$-algebra, on which we can define the _counting measure_ as $\mu(A)\coloneqq|A|$ if $A$ is finite and $\mu(A)\coloneqq\infty$ otherwise.
+For any set $X$, its power set $\pow(X)$ is a $\sigma$-algebra, on which we can define the _counting measure_ as $\mu(A)\coloneqq|A|$ if $A$ is finite and $\mu(A)\coloneqq\infty$ otherwise.
+
+\end{example}
 
 \begin{example}[Dirac measures]
 
