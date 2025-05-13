@@ -1,12 +1,16 @@
 #toc {
     position: fixed;
-    height: 100%;
     z-index: 1;
     top: 180px;
-    opacity: 0;
     overflow-x: hidden;
     pointer-events: none;
+
+    opacity: 0;
     transition: left var(--tocTransition), opacity var(--tocTransition);
+
+    border: 2px solid var(--fg);
+    border-radius: 10px;
+    background-color: white;
 }
 
 #tocButton{
@@ -16,6 +20,7 @@
 .TOCListH1 {
     font-size: 18px;
     padding-left: 0px;
+    font-family: 'mlmt';
 }
 
 .TOCListH2 {

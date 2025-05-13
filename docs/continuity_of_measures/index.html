@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Borel-Cantelli Lemmas</title>
+        <title>Continuity of Measures</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,48 +42,35 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Borel-Cantelli Lemmas
+                    Continuity of Measures
                 
             </h1>
 
-            <h1 id="motivation-and-statements">Motivation and Statements</h1>
-<h2 id="setup">Setup</h2>
-<p>Let $(X,\mc{B},\mu)$ be a \ref[measure space]{measure} and let $\phi(x)$ be a property of points $x\in X$. We say that $\phi$ holds <em>$\mu$-almost everywhere</em> if $\l\{x\in X\st\phi(x)\r\}$ is $\mu$-conull.</p>
+            <p>We prove here a basic, but very useful, computational property of \ref[measures]{measure}.</p>
 <br>
-<p>  For a sequence $(A_n)_{n&lt;\omega}$ of subsets of $X$, define
-\begin{equation*}
-\ex^\infty n&lt;\omega(x\in A_n)\ \ \ \ \,\colon\!\Leftrightarrow\ \ \ \ x\in\bigcap_{m&lt;\omega}\bigcup_{n\geq m}A_n\eqqcolon\limsup_{n\to\infty}A_n
-\end{equation*}
-for each $x\in X$, in which case we say that $x\in A_n$ for <em>infinitely-many</em> $n&lt;\omega$.</p>
-<h2 id="statements-and-proofs">Statements and proofs</h2>
-<p>Let $(A_n)_{n&lt;\omega}$ be a sequence of $\mu$-measurable sets and set $B\coloneqq\limsup_{n\to\infty}A_n$.</p>
-<p>\begin{theorem}[Borel-Cantelli]</p>
-<p>If $\sum_n\mu(A_n)&lt;\infty$, then $\mu$-almost every $x\in X$ lives in finitely-many $A_n$&rsquo;s.</p>
+<p>  Let $(X,\mc{B},\mu)$ be a measure space and let $(A_n)_{n&lt;\omega}$ be a sequence in $\mc{B}$.</p>
+<p>\begin{theorem}[Continuity $\incto$]\label{continuity_increasing}</p>
+<p>If $(A_n)_{n&lt;\omega}$ is increasing, then $\mu(\bigcup_nA_n)=\lim_{n\to\infty}\mu(A_n)$.</p>
 <p>\end{theorem}</p>
 <p>\begin{proof}</p>
-<p>Let $B_m\coloneqq\bigcup_{n\geq m}A_n$, so that $B=\bigcap_mB_m$. Hence $\mu(B)\leq\mu(B_m)$ for each $m&lt;\omega$, but since
+<p>Disjointify $(A_n)$ to $(A_k&rsquo;)$ given by $A_0&rsquo;\coloneqq A_0$ and $A_k&rsquo;\coloneqq A_k\comp A_{k-1}$, so that
 \begin{equation*}
-\lim_{m\to\infty}\mu(B_m)=\lim_{m\to\infty}\mu\l(\bigcup\nolimits_{n\geq m}A_n\r)\leq\lim_{m\to\infty}\sum_{n\geq m}\mu(A_n)=0
-\end{equation*}
-by assumption, we have $\mu(B)=0$ as desired.<span style="float:right;">$\blacksquare$</span></p>
+\mu\l(\bigcup\nolimits_kA_k\r)=\mu\l(\bigsqcup\nolimits_kA_k&rsquo;\r)=\sum\nolimits_k\mu(A_k&rsquo;)=\lim_{n\to\infty}\sum\nolimits_{k=1}^n\mu(A_k&rsquo;)=\lim_{n\to\infty}\mu(A_n).\qedin
+\end{equation*}</p>
 <p>\end{proof}</p>
-<p>\begin{theorem}[Measure Compactness]</p>
-<p>Let $(X,\mu)$ be a \ref[finite]{measure#finiteness-conditions} measure space. If there exists some $\epsilon&gt;0$ such that $\mu(A_n)\geq\epsilon$ for all $n&lt;\omega$, then at-least an $\epsilon$-measure set of $x\in X$ lives in infinitely-many $A_n$&rsquo;s.</p>
+<p>\begin{theorem}[Continuity $\decto$]\label{continuity_decreasing}</p>
+<p>If $(A_n)_{n&lt;\omega}$ is decreasing and $\mu(A_0)&lt;\infty$, then $\mu(\bigcap_nA_n)=\lim_{n\to\infty}\mu(A_n)$.</p>
 <p>\end{theorem}</p>
 <p>\begin{proof}</p>
-<p>With the above notation, we have $\mu(B)=\lim_{m\to\infty}\mu(B_m)$ by \ref[continuity]{continuity_of_measures}. Now,
+<p>Set $B_n\coloneqq A_0\comp A_n$ so that $\bigcup_nB_n=A_0\comp A_\infty$ where $A_\infty\coloneqq\bigcap_nA_n$, so that $(B_n)$ is increasing. By Theorem \iref{continuity_increasing}, we have
 \begin{equation*}
-\mu(B_m)=\mu\l(\bigcup\nolimits_{n\geq m}A_n\r)\geq\mu(A_m)\geq\epsilon
+\mu\l(\bigcup\nolimits_nB_n\r)=\lim_{n\to\infty}\mu(B_n)=\mu(A_0)-\lim_{n\to\infty}\mu(A_n)
 \end{equation*}
-for each $m&lt;\omega$, so $\mu(B)\geq\epsilon$ too as desired.<span style="float:right;">$\blacksquare$</span></p>
+But $\mu(\bigcup_nB_n)=\mu(A_0\comp A_\infty)=\mu(A_0)-\mu(A_\infty)$, so since $\mu(A_0)&lt;\infty$, we can cancel to obtain the desired.<span style="float:right;">$\blacksquare$</span></p>
 <p>\end{proof}</p>
-<h2 id="generalization">Generalization</h2>
-<p>\TODO</p>
-<h1 id="applications">Applications</h1>
-<h2 id="vanishing-sequences">Vanishing sequences</h2>
-<p>\TODO</p>
-<h2 id="measure-exhaustion">Measure exhaustion</h2>
-<p>\TODO</p>
+<p>\begin{remark}</p>
+<p>\TODO[failure when $\mu(A_0)=\infty$]</p>
+<p>\end{remark}</p>
 
 
             <div id="references"></div>

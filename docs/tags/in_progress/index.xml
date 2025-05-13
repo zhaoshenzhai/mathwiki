@@ -6,8 +6,15 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Continuity of Measures</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/continuity_of_measures/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/continuity_of_measures/</guid>
+      <description>&lt;p&gt;We prove here a basic, but very useful, computational property of \ref[measures]{measure}.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  Let $(X,\mc{B},\mu)$ be a measure space and let $(A_n)_{n&amp;lt;\omega}$ be a sequence in $\mc{B}$.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Continuity $\incto$]\label{continuity_increasing}&lt;/p&gt;&#xA;&lt;p&gt;If $(A_n)_{n&amp;lt;\omega}$ is increasing, then $\mu(\bigcup_nA_n)=\lim_{n\to\infty}\mu(A_n)$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Disjointify $(A_n)$ to $(A_k&amp;rsquo;)$ given by $A_0&amp;rsquo;\coloneqq A_0$ and $A_k&amp;rsquo;\coloneqq A_k\comp A_{k-1}$, so that&#xA;\begin{equation*}&#xA;\mu\l(\bigcup\nolimits_kA_k\r)=\mu\l(\bigsqcup\nolimits_kA_k&amp;rsquo;\r)=\sum\nolimits_k\mu(A_k&amp;rsquo;)=\lim_{n\to\infty}\sum\nolimits_{k=1}^n\mu(A_k&amp;rsquo;)=\lim_{n\to\infty}\mu(A_n).\qedin&#xA;\end{equation*}&lt;/p&gt;&#xA;&lt;p&gt;\end{proof}&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Continuity $\decto$]\label{continuity_decreasing}&lt;/p&gt;&#xA;&lt;p&gt;If $(A_n)_{n&amp;lt;\omega}$ is decreasing and $\mu(A_0)&amp;lt;\infty$, then $\mu(\bigcap_nA_n)=\lim_{n\to\infty}\mu(A_n)$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Set $B_n\coloneqq A_0\comp A_n$ so that $\bigcup_nB_n=A_0\comp A_\infty$ where $A_\infty\coloneqq\bigcap_nA_n$, so that $(B_n)$ is increasing. By Theorem \iref{continuity_increasing}, we have&#xA;\begin{equation*}&#xA;\mu\l(\bigcup\nolimits_nB_n\r)=\lim_{n\to\infty}\mu(B_n)=\mu(A_0)-\lim_{n\to\infty}\mu(A_n)&#xA;\end{equation*}&#xA;But $\mu(\bigcup_nB_n)=\mu(A_0\comp A_\infty)=\mu(A_0)-\mu(A_\infty)$, so since $\mu(A_0)&amp;lt;\infty$, we can cancel to obtain the desired.&lt;span style=&#34;float:right;&#34;&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Borel-Cantelli Lemmas</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/borel_cantelli_lemmas/</link>
