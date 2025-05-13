@@ -5,6 +5,7 @@ const allText = document.documentElement.innerText;
 
 export function initRefs() {
     var citeEls = allText.match(/\\cite{.*?}/g)
+                         .filter((v,i,a)=>a.indexOf(v)==i);
     if (citeEls) {
         initRefHeader();
 
@@ -113,7 +114,7 @@ function formatReference(ref) {
 
         var open = document.createElement('img');
         open.setAttribute('src', getAbsUrl() + 'css/fa/link.svg');
-        open.style.height = '12px';
+        open.style.height = '17px';
         link.appendChild(open);
     }
 

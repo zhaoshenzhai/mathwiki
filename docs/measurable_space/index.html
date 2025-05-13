@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Continuity of Measures</title>
+        <title>Measurable Space</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,33 +42,36 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Continuity of Measures
+                    Measurable Space
                 
             </h1>
 
-            <p>Let $(X,\mc{B},\mu)$ be a \ref[measure space]{measure} and let $(A_n)_{n&lt;\omega}$ be a sequence in $\mc{B}$.</p>
-<p>\begin{theorem}[Continuity $\incto$]\label{continuity_increasing}</p>
-<p>If $(A_n)_{n&lt;\omega}$ is increasing, then $\mu(\bigcup_nA_n)=\lim_n\mu(A_n)$.</p>
-<p>\end{theorem}</p>
-<p>\begin{proof}</p>
-<p>Disjointify $(A_n)$ to $(A_k&rsquo;)$ given by $A_0&rsquo;\coloneqq A_0$ and $A_k&rsquo;\coloneqq A_k\comp A_{k-1}$, so that
-\begin{equation*}
-\mu\l(\bigcup\nolimits_kA_k\r)=\mu\l(\bigsqcup\nolimits_kA_k&rsquo;\r)=\sum\nolimits_k\mu(A_k&rsquo;)=\lim_{n\to\infty}\sum\nolimits_{k=1}^n\mu(A_k&rsquo;)=\lim_{n\to\infty}\mu(A_n).\qedin
-\end{equation*}</p>
-<p>\end{proof}</p>
-<p>\begin{theorem}[Continuity $\decto$]\label{continuity_decreasing}</p>
-<p>If $(A_n)_{n&lt;\omega}$ is decreasing and $\mu(A_0)&lt;\infty$, then $\mu(\bigcap_nA_n)=\lim_n\mu(A_n)$.</p>
-<p>\end{theorem}</p>
-<p>\begin{proof}</p>
-<p>Set $B_n\coloneqq A_0\comp A_n$ and $A_\infty\coloneqq\bigcap_nA_n$, so $B_n\incto A_0\comp A_\infty$. By Theorem \iref{continuity_increasing}, we have
-\begin{equation*}
-\mu\l(\bigcup\nolimits_nB_n\r)=\lim_{n\to\infty}\mu(B_n)=\lim_{n\to\infty}\mu(A_0)-\mu(A_n)=\mu(A_0)-\lim_{n\to\infty}\mu(A_n).
-\end{equation*}
-But $\mu(\bigcup_nB_n)=\mu(A_0\comp A_\infty)=\mu(A_0)-\mu(A_\infty)$, so since $\mu(A_0)&lt;\infty$, we can cancel to obtain the desired.<span style="float:right;">$\blacksquare$</span></p>
-<p>\end{proof}</p>
+            <h1 id="motivation-and-definition">Motivation and Definition</h1>
+<p>A <em>$\sigma$-algebra</em> $\mc{A}$ on a set $X$ is a \ref[$\sigma$-complete]{complete_boolean_algebra} \ref[Boolean algebra]{boolean_algebra} on $\pow(X)$. The $\sigma$-completeness condition ensures that countable unions of elements of $\mc{A}$ remain in $\mc{A}$, and so $\sigma$-algebras are more amenable to techniques in analysis, and in particular, \ref[measure theory]{measure}.</p>
+<p>\begin{definition}[\cite{Tse23}, \cite{Fol99}]</p>
+<p>A <em>$\sigma$-algebra</em> on a set $X$ is a family $\mc{A}\subeq\pow(X)$ of subsets of $X$ containing $\e$ that is closed under complements and countable unions, whose elements are said to be <em>measurable</em>.</p>
+<br>
+<p>  The pair $(X,\mc{A})$ is said to be a <em>measurable space</em>.</p>
+<p>\end{definition}</p>
+<h2 id="generation">Generation</h2>
+<p>The $\sigma$-algebra <em>generated</em> by a family $\mc{C}\subeq\pow(X)$ is $\l\langle\mc{C}\r\rangle_\sigma\coloneqq\bigcap\l\{\mc{A}\st\mc{A}\supseteq\mc{C}\textrm{ is a $\sigma$-algebra on $X$}\r\}$.</p>
 <p>\begin{remark}</p>
-<p>\TODO[failure when $\mu(A_0)=\infty$]</p>
+<p>For a bottom-up definition, we can set $\l\langle\mc{C}\r\rangle_\sigma\coloneqq\bigcup_{\alpha&lt;\omega_1}\mc{C}_\alpha$, where the $\mc{C}_\alpha$&rsquo;s are defined inductively by letting $\mc{C}_0\coloneqq\mc{C}\cup\l\{\e\r\}$ and letting $\mc{C}_\alpha$ be the collection of all complements and countable unions of sets in $\bigcup_{\beta&lt;\alpha}\mc{C}_\beta$.</p>
 <p>\end{remark}</p>
+<p>  A $\sigma$-algebra $\mc{B}$ is said to be <em>$\kappa$-generated</em> if $\mc{B}=\l\langle\mc{A}\r\rangle_\sigma$ for some $\mc{A}\subeq\pow(X)$ of cardinality $\kappa$.</p>
+<h2 id="measurable-functions">Measurable functions</h2>
+<p>Let $(X,\mc{B})$ and $(Y,\mc{C})$ be measurable spaces. A function $f:X\to Y$ is said to be <em>$(\mc{B},\mc{C})$-measurable</em> if $f^{-1}(C)\in\mc{B}$ for each $C\in\mc{C}$.</p>
+<br>
+<p>  Measurable spaces and functions form the \ref[category]{category} of measurable spaces, denoted $\cat{Meas}$.</p>
+<h1 id="borel-sigma-algebra">Borel $\sigma$-algebra</h1>
+<p>If $(X,\mc{T})$ is a \ref[topological space]{topological_space}, the natural $\sigma$-algebra to consider is the <em>Borel $\sigma$-algebra</em> $\mc{B}(X)\coloneqq\l\langle\mc{T}\r\rangle_\sigma$, whose elements are called <em>Borel sets</em>.</p>
+<ul>
+<li>A function $f:X\to Y$ between topological spaces is <em>Borel measurable</em> if it is $(\mc{B}(X),\mc{B}(Y))$-measurable.</li>
+<li>A measurable space $(X,\mc{B})$ is <em>standard Borel</em> if $\mc{B}$ is the Borel $\sigma$-algebra of some \ref[Polish]{polish_space} topology on $X$.</li>
+</ul>
+<p>\begin{fact}[\ref[Borel Isomorphism Theorem]{borel_isomorphism_theorem}]</p>
+<p>Any two uncountable standard Borel spaces are Borel isomorphic. In particular, they all have cardinality continuum and are Borel isomorphic to $(2^\omega,\mc{B}(2^\omega))$ and $(\R,\mc{B}(\R))$.</p>
+<p>\end{fact}</p>
 
 
             <div id="references"></div>

@@ -4,9 +4,9 @@ const refsEl = document.getElementById('references');
 const allText = document.documentElement.innerText;
 
 export function initRefs() {
-    var citeEls = allText.match(/\\cite{.*?}/g)
-                         .filter((v,i,a)=>a.indexOf(v)==i);
+    var citeEls = allText.match(/\\cite{.*?}/g);
     if (citeEls) {
+        citeEls = citeEls.filter((v,i,a)=>a.indexOf(v)==i);
         initRefHeader();
 
         fetch('/mathwiki/references.json').then(response => response.json())

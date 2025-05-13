@@ -48,9 +48,7 @@
 
             <h1 id="motivation-and-statements">Motivation and Statements</h1>
 <h2 id="setup">Setup</h2>
-<p>Let $(X,\mc{B},\mu)$ be a \ref[measure space]{measure} and let $\phi(x)$ be a property of points $x\in X$. We say that $\phi$ holds <em>$\mu$-almost everywhere</em> if $\l\{x\in X\st\phi(x)\r\}$ is $\mu$-conull.</p>
-<br>
-<p>  For a sequence $(A_n)_{n&lt;\omega}$ of subsets of $X$, define
+<p>Let $(X,\mc{B},\mu)$ be a \ref[measure space]{measure} and let $\phi(x)$ be a property of points $x\in X$. We say that $\phi$ holds <em>$\mu$-almost everywhere</em> if $\l\{x\in X\st\phi(x)\r\}$ is $\mu$-conull. For a sequence $(A_n)_{n&lt;\omega}$ of subsets of $X$, define
 \begin{equation*}
 \ex^\infty n&lt;\omega(x\in A_n)\ \ \ \ \,\colon\!\Leftrightarrow\ \ \ \ x\in\bigcap_{m&lt;\omega}\bigcup_{n\geq m}A_n\eqqcolon\limsup_{n\to\infty}A_n
 \end{equation*}
@@ -58,7 +56,7 @@ for each $x\in X$, in which case we say that $x\in A_n$ for <em>infinitely-many<
 <h2 id="statements-and-proofs">Statements and proofs</h2>
 <p>Let $(A_n)_{n&lt;\omega}$ be a sequence of $\mu$-measurable sets and set $B\coloneqq\limsup_{n\to\infty}A_n$.</p>
 <p>\begin{theorem}[Borel-Cantelli]</p>
-<p>If $\sum_n\mu(A_n)&lt;\infty$, then $\mu$-almost every $x\in X$ lives in finitely-many $A_n$&rsquo;s.</p>
+<p>If $\sum_n\mu(A_n)&lt;\infty$, then $\mu(B)=0$, i.e., for $\mu$-almost every $x\in X$, there is only finitely-many $n&lt;\omega$ such that $x\in A_n$.</p>
 <p>\end{theorem}</p>
 <p>\begin{proof}</p>
 <p>Let $B_m\coloneqq\bigcup_{n\geq m}A_n$, so that $B=\bigcap_mB_m$. Hence $\mu(B)\leq\mu(B_m)$ for each $m&lt;\omega$, but since
@@ -68,7 +66,7 @@ for each $x\in X$, in which case we say that $x\in A_n$ for <em>infinitely-many<
 by assumption, we have $\mu(B)=0$ as desired.<span style="float:right;">$\blacksquare$</span></p>
 <p>\end{proof}</p>
 <p>\begin{theorem}[Measure Compactness]</p>
-<p>Let $(X,\mu)$ be a \ref[finite]{measure#finiteness-conditions} measure space. If there exists some $\epsilon&gt;0$ such that $\mu(A_n)\geq\epsilon$ for all $n&lt;\omega$, then at-least an $\epsilon$-measure set of $x\in X$ lives in infinitely-many $A_n$&rsquo;s.</p>
+<p>If $\mu$ is \ref[finite]{measure#finiteness-conditions} and there exists some $\epsilon&gt;0$ such that $\mu(A_n)\geq\epsilon$ for all $n&lt;\omega$, then $\mu(B)\geq\epsilon$, i.e., at-least an $\epsilon$-measure set of $x\in X$ lives in infinitely-many $A_n$&rsquo;s.</p>
 <p>\end{theorem}</p>
 <p>\begin{proof}</p>
 <p>With the above notation, we have $\mu(B)=\lim_{m\to\infty}\mu(B_m)$ by \ref[continuity]{continuity_of_measures}. Now,

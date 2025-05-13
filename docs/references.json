@@ -24,5 +24,28 @@
             "type": "book",
             "label": "Alu09"
         }
+    },
+    {"Tse23":
+        {
+            "title": "MATH564 Advanced Real Analysis 1",
+            "author": ["Anush Tserunyan"],
+            "date": "2023",
+            "link": "https://www.math.mcgill.ca/atserunyan/Courses/2023F.Math564.Analysis%201/",
+            "type": "online",
+            "label": "Tse23"
+        }
+    },
+    {"Fol99":
+        {
+            "title": "Real Analysis, Modern Techniques and Their Applications",
+            "author": ["Gerald B. Folland"],
+            "date": "1999",
+            "edition": "2",
+            "series": "Pure and Applied Mathematics",
+            "publisher": "A Wiley Series of Texts, Monographs and Tracts, John Wiley & Sons",
+            "link": "https://www.wiley.com/en-us/Real+Analysis%3A+Modern+Techniques+and+Their+Applications%2C+2nd+Edition-p-9780471317166",
+            "type": "book",
+            "label": "Fol99"
+        }
     }
 ]
