@@ -20,17 +20,17 @@ for each $x\in X$, in which case we say that $x\in A_n$ for _infinitely-many_ $n
 
 ## Statements and proofs
 
-Let $(A_n)_{n<\omega}$ be a sequence of $\mu$-measurable sets.
+Let $(A\_n)\_{n<\omega}$ be a sequence of $\mu$-measurable sets and set $B\coloneqq\limsup\_{n\to\infty}A\_n$.
 
 \begin{theorem}[Borel-Cantelli]
 
-If $\sum_n\mu(A_n)<\infty$, then $\mu$-almost every $x\in X$ lives in finitely-many $A_n$'s, i.e., $\mu(\limsup\_{n\to\infty}A\_n)=0$.
+If $\sum_n\mu(A_n)<\infty$, then $\mu$-almost every $x\in X$ lives in finitely-many $A_n$'s.
 
 \end{theorem}
 
 \begin{proof}
 
-Let $B\coloneqq\limsup_{n\to\infty}A_n$, which is $\mu$-measurable, and let $B_m\coloneqq\bigcup_{n\geq m}A_n$, so that $B=\bigcap_mB_m$. Hence $\mu(B)\leq\mu(B_m)$ for each $m<\omega$ by \ref[monotonicity]{measure#monotonicity}, but since
+Let $B_m\coloneqq\bigcup_{n\geq m}A_n$, so that $B=\bigcap_mB_m$. Hence $\mu(B)\leq\mu(B_m)$ for each $m<\omega$, but since
 \begin{equation*}
     \lim\_{m\to\infty}\mu(B\_m)=\lim\_{m\to\infty}\mu\l(\bigcup\nolimits\_{n\geq m}A\_n\r)\leq\lim\_{m\to\infty}\sum\_{n\geq m}\mu(A\_n)=0
 \end{equation*}
@@ -40,13 +40,13 @@ by assumption, we have $\mu(B)=0$ as desired.<span style="float:right;">$\blacks
 
 \begin{theorem}[Measure Compactness]
 
-If $\mu$ is a \ref[finite]{measure#finiteness-conditions} measure and there is some $\epsilon>0$ such that $\mu(A_n)\geq\epsilon$ for all $n<\omega$, then at-least an $\epsilon$-measure set of $x\in X$ lives in infinitely-many $A_n$'s, i.e., $\mu(\limsup_{n\to\infty}A_n)\geq\epsilon$.
+Let $(X,\mu)$ be a \ref[finite]{measure#finiteness-conditions} measure space. If there exists some $\epsilon>0$ such that $\mu(A_n)\geq\epsilon$ for all $n<\omega$, then at-least an $\epsilon$-measure set of $x\in X$ lives in infinitely-many $A_n$'s.
 
 \end{theorem}
 
 \begin{proof}
 
-With the above notation, we have $\mu(B)=\lim_{m\to\infty}\mu(B_m)$ by \ref[continuity]{measure#continuity}. Now,
+With the above notation, we have $\mu(B)=\lim_{m\to\infty}\mu(B_m)$ by \ref[continuity]{continuity_of_measures}. Now,
 \begin{equation*}
     \mu(B_m)=\mu\l(\bigcup\nolimits_{n\geq m}A_n\r)\geq\mu(A_m)\geq\epsilon
 \end{equation*}

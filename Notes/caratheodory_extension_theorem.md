@@ -35,9 +35,10 @@ For any $m:\mc{A}\to[0,\infty]$, its outer measure $m^\ast$ is:
 
 \begin{proof}
 
-**<span style="color:red">TODO</span>**
+\TODO
 
 <span style="float:right;">$\square$</span>
+
 
 \end{proof}
 
