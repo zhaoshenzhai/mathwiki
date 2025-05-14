@@ -25,9 +25,19 @@
             "label": "Alu09"
         }
     },
+    {"Tse22":
+        {
+            "title": "Topics in Ergodic Theory and Measured Group Theory",
+            "author": ["Anush Tserunyan"],
+            "date": "2022",
+            "link": "https://www.math.mcgill.ca/atserunyan/Courses/2022_W.Math594.Erg&MsGrp/",
+            "type": "online",
+            "label": "Tse22"
+        }
+    },
     {"Tse23":
         {
-            "title": "MATH564 Advanced Real Analysis 1",
+            "title": "Advanced Real Analysis 1",
             "author": ["Anush Tserunyan"],
             "date": "2023",
             "link": "https://www.math.mcgill.ca/atserunyan/Courses/2023F.Math564.Analysis%201/",

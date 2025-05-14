@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Poincaré Recurrence</title>
+        <title>Pointwise Ergodic Theorem</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,41 +42,29 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Poincaré Recurrence
+                    Pointwise Ergodic Theorem
                 
             </h1>
 
-            <h1 id="motivation-and-statement">Motivation and Statement</h1>
-<p>The <em>Poincaré Recurrence Theorem</em> asserts that certain dynamical systems will always return to the initial state of the system. Here, following \cite{Tse22}, we state and prove the measure-theoretic version.</p>
-<h2 id="statement-and-proof">Statement and proof</h2>
-<p>Let $(X,\mc{B},\mu)$ be a probability \ref[measure space]{measure} and let $T:X\to X$ be pmp.</p>
-<p>\begin{definition}</p>
-<p>A set $A\subeq X$ is <em>forward recurrent</em> if for each $x\in A$, there exists $n\geq1$ such that $T^n(x)\in A$.</p>
-<p>\end{definition}</p>
-<p>\begin{theorem}[Poincaré Recurrence]\label{poincare_recurrence}</p>
-<p>Every measurable set $A\subeq X$ is a.e.-forward recurrent.</p>
+            <p>Let $(X,\mu)$ be a probability measure space and let $T:X\to X$ be pmp. Birkhoff&rsquo;s <em>Ergodic Hypothesis</em> states that the time and space averages for certain functions $f\in L^1(X,\mu)$ coincide. It turns out that this hypothesis holds iff $T$ is \ref[ergodic]{ergodic}, which we prove below following \cite{Tse22}.</p>
+<h1 id="statement-and-proof">Statement and Proof</h1>
+<p>\begin{theorem}[Birkhoff&rsquo;s Pointwise Ergodic Theorem]\label{pointwise}</p>
+<p>Let $(X,\mu)$ be a probability measure space and let $T:X\to X$ be pmp. If $T$ is ergodic, then for every $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</p>
 <p>\end{theorem}</p>
-<p>A set $W\subeq X$ is said to be <em>wandering</em> if the family $\l\{T^{-n}(W)\r\}_{n&lt;\omega}$ is pairwise-disjoint</p>
-<p>\begin{lemma}\label{wandering_null}</p>
-<p>Every wandering measurable set $W\subeq X$ is $\mu$-null.</p>
-<p>\end{lemma}</p>
-<p>\begin{proof}</p>
-<p>Since $T$ is pmp, we see that $\mu(T^{-n}(W))=\mu(W)$ for each $n&lt;\omega$. Since $W$ is wandering, we have
-\begin{equation*}
-\sum\nolimits_{n&lt;\omega}\mu(W)=\sum\nolimits_{n&lt;\omega}\mu(T^{-n}(W))=\mu\l(\bigsqcup\nolimits_{n&lt;\omega}T^{-n}(W)\r)\leq\mu(X)&lt;\infty,
-\end{equation*}
-and hence $\mu(W)=0$.<span style="float:right;">$\square$</span></p>
-<p>\end{proof}</p>
-<div class="space"></div>
-<p>\begin{proof}[of Theorem \iref{poincare_recurrence}]</p>
-<p>Let $W\coloneqq\bigcap_{n\geq1}\l\{x\in A\st T^n(x)\not\in A\r\}$, which is clearly measurable. Then $W\cap T^{-n}W=\e$ for each $n\geq1$, so $W$ is wandering, and hence $Z\coloneqq\bigcup_{n&lt;\omega}T^{-n}W$ is null by Lemma \iref{wandering_null}. Set $A_0\coloneqq A\comp Z$, so that $A_0=_\mu A$, and $A_0$ is clearly forward recurrent.<span style="float:right;">$\blacksquare$</span></p>
-<p>\end{proof}</p>
-<p>\begin{corollary}</p>
-<p>For every measurable set $A\subeq X$, there exists $A_0=_\mu A$ such that $[A_0]_{\E_T}=\bigcup_{n&lt;\omega}T^{-n}(A_0)$.</p>
+<p>\begin{corollary}[\ref{characterizations_of_ergodicity#pointwise-ergodic-theorem}]</p>
+<p>For any pmp transformation $T:X\to X$, the following are equivalent.</p>
+<ol>
+<li>$T$ is ergodic.</li>
+<li>For all $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</li>
+<li>For all $f\in L^\infty(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</li>
+<li>For all measurable $B\subeq X$, we have $|\{i&lt;n\st T^ix\in B\}|/n\to\mu(B)$ for $\mu$-a.e. $x\in X$.</li>
+</ol>
 <p>\end{corollary}</p>
-<p>\begin{proof}</p>
-<p>Let $A_0=_\mu A$ be as forward recurrent as above. If $x\in X$ is such that $T^n(x)=T^m(y)$ for some $y\in A_0$, then iteratively applying forward recurrence to $y$ furnishes some $k&lt;\omega$ such that $T^{n+k}(x)=T^{m+k}(y)\in A_0$.<span style="float:right;">$\blacksquare$</span></p>
+<p>\begin{proof}[of Theorem \iref{pointwise}]</p>
+<p>\TODO</p>
 <p>\end{proof}</p>
+<h1 id="generalizations">Generalizations</h1>
+<p>\TODO</p>
 
 
             <div id="references"></div>

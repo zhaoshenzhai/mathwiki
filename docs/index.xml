@@ -9,6 +9,13 @@
     <lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Characterizations of Ergodicity</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/characterizations_of_ergodicity/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/characterizations_of_ergodicity/</guid>
+      <description>&lt;p&gt;Let $(X,\mu)$ be a probability \ref[measure space]{measure}. We provide several characterizations for when a pmp $T:X\to X$ is \ref[ergodic]{ergodic}. The first two are basic reformulations of ergodicity, but others are highly non-trivial results.&lt;/p&gt;&#xA;&lt;h1 id=&#34;basic-characterizations&#34;&gt;Basic Characterizations&lt;/h1&gt;&#xA;&lt;p&gt;Recall that every pmp $T:X\to X$ induces a Koopman operator $\widehat{T}:L^1(X,\mu)\to L^1(X,\mu)$ given by $f\mapsto f\circ T$, and we say that a measurable function $f:X\to Y$ is &lt;em&gt;$T$-invariant&lt;/em&gt; if $\widehat{T}(f)=f$.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  Equivalently, $f$ is $T$-invariant if it is $\E_T$-invariant (i.e., constant on each $\E_T$-class), where $\E_T$ is the &lt;em&gt;orbit equivalence relation of $T$&lt;/em&gt; given by $x\E_Ty$ iff $T^n(x)=T^m(y)$ for some $n,m&amp;lt;\omega$.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Continuity of Measures</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/continuity_of_measures/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
@@ -16,11 +23,25 @@
       <description>&lt;p&gt;Let $(X,\mc{B},\mu)$ be a \ref[measure space]{measure} and let $(A_n)_{n&amp;lt;\omega}$ be a sequence in $\mc{B}$.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Continuity $\incto$]\label{continuity_increasing}&lt;/p&gt;&#xA;&lt;p&gt;If $(A_n)_{n&amp;lt;\omega}$ is increasing, then $\mu(\bigcup_nA_n)=\lim_n\mu(A_n)$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Disjointify $(A_n)$ to $(A_k&amp;rsquo;)$ given by $A_0&amp;rsquo;\coloneqq A_0$ and $A_k&amp;rsquo;\coloneqq A_k\comp A_{k-1}$, so that&#xA;\begin{equation*}&#xA;\mu\l(\bigcup\nolimits_kA_k\r)=\mu\l(\bigsqcup\nolimits_kA_k&amp;rsquo;\r)=\sum\nolimits_k\mu(A_k&amp;rsquo;)=\lim_{n\to\infty}\sum\nolimits_{k=1}^n\mu(A_k&amp;rsquo;)=\lim_{n\to\infty}\mu(A_n).\qedin&#xA;\end{equation*}&lt;/p&gt;&#xA;&lt;p&gt;\end{proof}&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Continuity $\decto$]\label{continuity_decreasing}&lt;/p&gt;&#xA;&lt;p&gt;If $(A_n)_{n&amp;lt;\omega}$ is decreasing and $\mu(A_0)&amp;lt;\infty$, then $\mu(\bigcap_nA_n)=\lim_n\mu(A_n)$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Set $B_n\coloneqq A_0\comp A_n$ and $A_\infty\coloneqq\bigcap_nA_n$, so $B_n\incto A_0\comp A_\infty$. By Theorem \iref{continuity_increasing}, we have&#xA;\begin{equation*}&#xA;\mu\l(\bigcup\nolimits_nB_n\r)=\lim_{n\to\infty}\mu(B_n)=\lim_{n\to\infty}\mu(A_0)-\mu(A_n)=\mu(A_0)-\lim_{n\to\infty}\mu(A_n).&#xA;\end{equation*}&#xA;But $\mu(\bigcup_nB_n)=\mu(A_0\comp A_\infty)=\mu(A_0)-\mu(A_\infty)$, so since $\mu(A_0)&amp;lt;\infty$, we can cancel to obtain the desired.&lt;span style=&#34;float:right;&#34;&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Ergodic Transformations</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/ergodic/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/ergodic/</guid>
+      <description>&lt;h1 id=&#34;motivation-and-definition&#34;&gt;Motivation and Definition&lt;/h1&gt;&#xA;&lt;p&gt;Let $E$ be an equivalence relation on a \ref[measure space]{measure} $(X,\mu)$. A subset $A\subeq X$ is said to be $E$-invariant if $A$ is a union of $E$-classes.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;An equivalence relation $E$ on $(X,\mu)$ is said to be &lt;em&gt;ergodic&lt;/em&gt; if every $E$-invariant $\mu$-measurable is either $\mu$-null or $\mu$-conull. A measure-preserving transformation $T:(X,\mu)\to(X,\mu)$ is &lt;em&gt;ergodic&lt;/em&gt; if $\E_T$ is.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref{characterizations_of_ergodicity#basic-characterizations}]&lt;/p&gt;&#xA;&lt;p&gt;A measure-preserving transformation $T:(X,\mu)\to(X,\mu)$ is ergodic iff any of the following hold.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Poincaré Recurrence</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/poincare_recurrence/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/poincare_recurrence/</guid>
-      <description>&lt;h1 id=&#34;motivation-and-statement&#34;&gt;Motivation and Statement&lt;/h1&gt;&#xA;&lt;p&gt;The &lt;em&gt;Poincaré Recurrence Theorem&lt;/em&gt; asserts that certain dynamical systems will always return to a state arbitrarily close to the initial state of the system.&lt;/p&gt;&#xA;&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;</description>
+      <description>&lt;h1 id=&#34;motivation-and-statement&#34;&gt;Motivation and Statement&lt;/h1&gt;&#xA;&lt;p&gt;The &lt;em&gt;Poincaré Recurrence Theorem&lt;/em&gt; asserts that certain dynamical systems will always return to the initial state of the system. Here, following \cite{Tse22}, we state and prove the measure-theoretic version.&lt;/p&gt;&#xA;&lt;h2 id=&#34;statement-and-proof&#34;&gt;Statement and proof&lt;/h2&gt;&#xA;&lt;p&gt;Let $(X,\mc{B},\mu)$ be a probability \ref[measure space]{measure} and let $T:X\to X$ be pmp.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A set $A\subeq X$ is &lt;em&gt;forward recurrent&lt;/em&gt; if for each $x\in A$, there exists $n\geq1$ such that $T^n(x)\in A$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Poincaré Recurrence]\label{poincare_recurrence}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pointwise Ergodic Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/pointwise_ergodic_theorem/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/pointwise_ergodic_theorem/</guid>
+      <description>&lt;p&gt;Let $(X,\mu)$ be a probability measure space and let $T:X\to X$ be pmp. Birkhoff&amp;rsquo;s &lt;em&gt;Ergodic Hypothesis&lt;/em&gt; states that the time and space averages for certain functions $f\in L^1(X,\mu)$ coincide. It turns out that this hypothesis holds iff $T$ is \ref[ergodic]{ergodic}, which we prove below following \cite{Tse22}.&lt;/p&gt;&#xA;&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;\begin{theorem}[Birkhoff&amp;rsquo;s Pointwise Ergodic Theorem]\label{pointwise}&lt;/p&gt;&#xA;&lt;p&gt;Let $(X,\mu)$ be a probability measure space and let $T:X\to X$ be pmp. If $T$ is ergodic, then for every $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Borel-Cantelli Lemmas</title>

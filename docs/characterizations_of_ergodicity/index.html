@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang=en-US class="noScroll">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Characterizations of Ergodicity</title>
+
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/lists.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/darkMode.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/variables.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/noProperty.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module"></script>
+
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body>
+        
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/headers.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/format.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/refs.js" type="module"></script>
+
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/ref.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/toc.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+
+    <div id="mainPage">
+        <div id="content">
+            <h1 id="title" titleSize="">
+                
+                    Characterizations of Ergodicity
+                
+            </h1>
+
+            <p>Let $(X,\mu)$ be a probability \ref[measure space]{measure}. We provide several characterizations for when a pmp $T:X\to X$ is \ref[ergodic]{ergodic}. The first two are basic reformulations of ergodicity, but others are highly non-trivial results.</p>
+<h1 id="basic-characterizations">Basic Characterizations</h1>
+<p>Recall that every pmp $T:X\to X$ induces a Koopman operator $\widehat{T}:L^1(X,\mu)\to L^1(X,\mu)$ given by $f\mapsto f\circ T$, and we say that a measurable function $f:X\to Y$ is <em>$T$-invariant</em> if $\widehat{T}(f)=f$.</p>
+<br>
+<p>  Equivalently, $f$ is $T$-invariant if it is $\E_T$-invariant (i.e., constant on each $\E_T$-class), where $\E_T$ is the <em>orbit equivalence relation of $T$</em> given by $x\E_Ty$ iff $T^n(x)=T^m(y)$ for some $n,m&lt;\omega$.</p>
+<p>\begin{theorem}[Functional]\label{functional_characterization}</p>
+<p>A pmp transformation $T:X\to X$ is ergodic iff every $T$-invariant measurable function $f:X\to Y$ to a \ref[standard Borel space]{measurable_space#borel-sigma-algebra} is constant a.e..</p>
+<p>\end{theorem}</p>
+<p>\begin{proof}</p>
+<p>If $A\subeq X$ is an $\E_T$-invariant measurable set, then $\chi_A:X\to\l\{0,1\r\}$ is a $T$-invariant measurable function, so it is constant a.e., and hence $A$ is either null or conull.</p>
+<br>
+<p>  For the main direction, it suffices by the \ref[Borel Isomorphism Theorem]{borel_isomorphism_theorem} to consider the case when $Y\coloneqq2^\omega$, so let $f:X\to2^\omega$ be a $T$-invariant measurable function. We wish to find some $y\in2^\omega$ such that $f^{-1}(y)$ is conull, for then $f$ is constant at $y$ a.e.. Indeed, first note that $f^{-1}(B)$ is $T$-invariant for each Borel set $B\subeq2^\omega$, so it is either null or conull by hypothesis. Call a word $w\in2^{&lt;\omega}$ <em>heavy</em> if $f^{-1}([w])$ is conull. Clearly $\e$ is heavy, and inductively choosing heavy vertices in $2^\omega$ furnishes an infinite heavy branch $y\coloneqq(y_n)$, i.e., some $y\in2^\omega$ such that $f^{-1}([y|n])$ is conull for each $n&lt;\omega$. Observe then that $f^{-1}(y)=\bigcap_{n&lt;\omega}f^{-1}([y|n])$ is conull, as desired.<span style="float:right;">$\blacksquare$</span></p>
+<p>\end{proof}</p>
+<p>\begin{theorem}[Density]\label{density_characterization}</p>
+<p>A pmp transformation $T:X\to X$ is ergodic iff $[A]_{\E_T}$ is conull for every positively-measured subset $A\subeq X$. Equivalently, if for a.e. $x\in X$, we have $[x]_{\E_T}\cap A\neq\e$.</p>
+<p>\end{theorem}</p>
+<p>\begin{proof}</p>
+<p>If $A\subeq X$ is an $\E_T$-invariant measurable set that is not null, then $A=[A]_{\E_T}$ is conull by hypothesis.</p>
+<br>
+<p>  Conversely, if $\mu(A)&gt;0$, then $\mu([A]_{\E_T})&gt;0$ provided that $[A]_{\E_T}$ is measurable in the first place, so that $[A]_{\E_T}$ is conull by ergodicity of $T$. To see that $[A]_{\E_T}$ is measurable, apply the \ref[Poincaré Recurrence Theorem]{poincare_recurrence} to obtain some forward recurrent $A_0\subeq_\mu A$, so that $[A_0]_{\E_T}=\bigcup_{n&lt;\omega}T^{-n}(A_0)$ is measurable. Note that $[A_0]_{\E_T}$ is conull by the same argument above, and since $[A_0]_{\E_T}\subeq[A]_{\E_T}$, we see that $[A]_{\E_T}=_\mu[A_0]_{\E_T}$ is measurable too.<span style="float:right;">$\blacksquare$</span></p>
+<p>\end{proof}</p>
+<h1 id="pointwise-ergodic-theorem">Pointwise Ergodic Theorem</h1>
+<p>Let $(X,\mu)$ be a probability space and let $T:X\to X$ be pmp. The <em>time average</em> of a function $f\in L^1(X,\mu)$ is the limit of $A_n^Tf(x)\coloneqq\frac{1}{n}\sum_{i&lt;n}T^if(x)$ as $n\to\infty$, and the <em>space average</em> of $f$ is $\int f\,\d\mu$.</p>
+<p>\begin{fact}[\ref[Birkhoff&rsquo;s Pointwise Ergodic Theorem]{pointwise_ergodic_theorem}]</p>
+<p>If $T$ is ergodic, then for every $f\in L^1(X,\mu)$, we have
+\begin{equation*}
+\lim_{n\to\infty}A_n^Tf=_\mu\int f\,\d\mu.
+\end{equation*}</p>
+<p>\end{fact}</p>
+<p>Using this, we can obtain several other characterizations of the ergodicity of $T$.</p>
+<p>\begin{theorem}</p>
+<p>For any pmp transformation $T:X\to X$, the following are equivalent.</p>
+<ol>
+<li>$T$ is ergodic.</li>
+<li>For all $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</li>
+<li>For all $f\in L^\infty(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</li>
+<li>For all measurable $B\subeq X$, we have $|\{i&lt;n\st T^ix\in B\}|/n\to\mu(B)$ for $\mu$-a.e. $x\in X$.</li>
+</ol>
+<p>\end{theorem}</p>
+<p>\begin{proof}</p>
+<p>$(1)\Rightarrow(2)$ is the Pointwise Ergodic Theorem.</p>
+<p>\end{proof}</p>
+
+
+            <div id="references"></div>
+            <div class="bottomSpace"></div>
+        </div>
+
+        <div id="toc"></div>
+    </div>
+
+
+        <div id="searchBox" style="display: none;">
+            <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" onmouseover="searchItemActive(9)"></li>
+            </ul>
+        </div>
+    </body>
+</html>

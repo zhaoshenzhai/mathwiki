@@ -6,7 +6,7 @@ tags: [In_Progress]
 
 # Motivation and Statement
 
-The _Poincaré Recurrence Theorem_ asserts that certain dynamical systems will always return to the initial state of the system. Here, we state and prove the measure-theoretic version.
+The _Poincaré Recurrence Theorem_ asserts that certain dynamical systems will always return to the initial state of the system. Here, following \cite{Tse22}, we state and prove the measure-theoretic version.
 
 ## Statement and proof
 
@@ -46,7 +46,7 @@ and hence $\mu(W)=0$.<span style="float:right;">$\square$</span>
 
 \begin{proof}[of Theorem \iref{poincare_recurrence}]
 
-Let $W\coloneqq\bigcap_{n\geq1}\l\\{x\in A\st T^n(x)\not\in A\r\\}$, which is clearly measurable. Then $W\cap T^{-n}W=\e$ for each $n\geq1$, since if $x\in W$, then $x=T^n(T^{-n}(x))\in A$, and hence $T^{-n}(x)\not\in W$. Thus $W$ is wandering, and so $Z\coloneqq\bigcup_{n<\omega}T^{-n}W$ is null by Lemma \iref{wandering_null}. Set $A_0\coloneqq A\comp Z=_\mu A$, which is clearly forward recurrent.<span style="float:right;">$\blacksquare$</span>
+Let $W\coloneqq\bigcap_{n\geq1}\l\\{x\in A\st T^n(x)\not\in A\r\\}$, which is clearly measurable. Then $W\cap T^{-n}W=\e$ for each $n\geq1$, so $W$ is wandering, and hence $Z\coloneqq\bigcup_{n<\omega}T^{-n}W$ is null by Lemma \iref{wandering_null}. Set $A_0\coloneqq A\comp Z$, so that $A_0=_\mu A$, and $A_0$ is clearly forward recurrent.<span style="float:right;">$\blacksquare$</span>
 
 \end{proof}
 
