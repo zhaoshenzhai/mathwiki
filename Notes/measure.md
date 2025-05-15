@@ -6,7 +6,7 @@ tags: [Measure_theory]
 
 # Definition and Examples
 
-The notion of a _measure_ generalizes volume in $\R^n$ and provides a systematic and uniform way to assign 'weights' to certain subsets of a set $X$.
+The notion of a _measure_ systematically generalizes length in $\R$, area in $\R^2$, and volume in $\R^3$, to 'measures' or 'weights' of certain subsets of an arbitrary set $X$.
 
 \begin{definition}[\cite{Tse23}, \cite{Fol99}]
 
