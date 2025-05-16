@@ -59,9 +59,9 @@ A subset $F\subeq B$ is a filter iff $\chi_F:B\to2$ is a morphism of bounded mee
 
 The following are equivalent for a proper filter $U\sub B$ on a Boolean algebra $B$.
 1. (Maximality). $U$ is an ultrafilter.
-2. (Dichotomy). For each $a\in B$, either $a\in U$ or $a^c\in U$.
-3. (Prime). For each $a_1,a_2\in B$, we have $a_1+a_2\in B$ iff either $a_1\in U$ or $a_2\in U$.
-4. (Morphism). The map $\chi_U:B\to2$ is a morphism of Boolean algebras.
+2. (Morphism). The map $\chi_U:B\to2$ is a morphism of Boolean algebras.
+3. (Dichotomy). For each $a\in B$, either $a\in U$ or $a^c\in U$.
+4. (Prime). For each $a_1,a_2\in B$, we have $a_1+a_2\in B$ iff either $a_1\in U$ or $a_2\in U$.
 
 \end{fact}
 
