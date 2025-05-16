@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang=en-US class="noScroll">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Filters and Ultrafilters</title>
+
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/lists.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/darkMode.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/variables.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/noProperty.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module"></script>
+
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body>
+        
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/headers.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/format.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/refs.js" type="module"></script>
+
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/ref.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/toc.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+
+    <div id="mainPage">
+        <div id="content">
+            <h1 id="title" titleSize="">
+                
+                    Filters and Ultrafilters
+                
+            </h1>
+
+            <h1 id="motivation-and-definition">Motivation and Definition</h1>
+<p>Let $X$ be a set. A point $x\in X$ can, equivalently, be viewed as a map $\l\{\ast\r\}\to X$ sending $\ast\mapsto x$, which induces a map $\chi_x:2^X\to2^{\l\{\ast\r\}}\iso2$, with $\chi_x(A)\coloneqq1$ iff $x\in A$. Thus, we can view maps $2^X\to2$ as &lsquo;generalized points&rsquo;.</p>
+<br>
+<p>  We say that a generalized point $\chi:2^X\to2$ is a <em>filter</em> if it is a morphism of bounded meet \ref[semilattices]{semilattice}, i.e., $\chi(X)=1$ and $\chi(A\cap B)=\chi(A)\chi(B)$. Note that $\chi:2^X\to2$ can be viewed as a collection $F\subeq2^X$ of subsets of $X$ by $F\coloneqq\chi^{-1}(1)$, so in this language, we deduce the following properties, which in fact characterizes such maps.</p>
+<ol>
+<li>(Non-empty). $X\in F$, so in particular, $F\neq\e$.</li>
+<li>(Closed under intersections). $A\cap B\in F$ whenever $A,B\in F$.</li>
+<li>(Upward-closure). $B\in F$ if $A\in F$ and $A\subeq B$, since $\chi_F(B)=\chi_F(A)\chi_F(B)=\chi_F(A\cap B)=\chi_F(A)=1$.</li>
+</ol>
+<p>Abstracting this definition to an arbitrary \ref[poset]{poset}, we obtain the following definition.</p>
+<p>\begin{definition}</p>
+<p>Let $(P,\leq)$ be a poset. A <em>filter</em> on $P$ is a non-empty subset $F\subeq P$ such that</p>
+<ol>
+<li>(Compatibility). If $x,y\in F$, then there exists some $z\leq x,y$ such that $z\in F$.</li>
+<li>(Upward-closure). If $x\in F$ and $x\leq y$, then $y\in F$.</li>
+</ol>
+<p>\end{definition}</p>
+<p>\begin{example}[Fréchet filter]</p>
+<p>If $X$ is an infinite set, the <em>Fréchet filter</em> $F\coloneqq\l\{A\subeq X\st|X\comp A|&lt;\aleph_0\r\}$ is the filter $F\subeq2^X$ consisting of cofinite sets.</p>
+<p>\end{example}</p>
+<p>  Pushing the &lsquo;generalized points&rsquo; analogy further, one can ask for maps $\chi:2^X\to2$ that, in addition to being morphism of meet semilattices, is also a morphism of Boolean algebras, i.e., that $\chi(\e)=0$ and that it preserves unions. Viewing $\chi$ as a subcollection $F\subeq2^X$, we see that $F\neq2^X$ is <em>proper</em> and that for any $A\subeq X$, (exactly) one of $A$ and $A^c$ is in $F$ since $1=\chi_F(X)=\chi_F(A\cup A^c)=\chi_F(A)+\chi_F(A^c)$. Thus these morphisms $\chi:2^X\to2$ of Boolean algebras can be thought of as maximal filters:</p>
+<p>\begin{definition}</p>
+<p>A proper filter $F\subeq P$ is an <em>ultrafilter</em> if $F$ is maximal amongst all proper filters on $P$.</p>
+<p>\end{definition}</p>
+<p>\begin{example}[Principal filters]</p>
+<p>Let $X$ be a set and fix $x\in X$. The filter $p_x\coloneqq\l\{A\subeq X\st A\ni x\r\}$ is called the <em>principal filter at $x$</em>, which is clearly an ultrafilter.</p>
+<p>\end{example}</p>
+<h2 id="ultrafilters-on-boolean-algebras">(Ultra)filters on Boolean algebras</h2>
+<p>Let $(B,\cup,\cap,0,1)$ be a Boolean algebra, which is a poset with $a\leq b$ iff $a\cap b=a$. Thus, we can define filters and ultrafilters on $B$.</p>
+<p>\begin{fact}[\ref{}]</p>
+<p>A subset $F\subeq B$ is a filter iff $\chi_F:B\to2$ is a morphism of bounded meet semilattices.</p>
+<p>\end{fact}</p>
+<p>\begin{fact}[\ref{}]</p>
+<p>The following are equivalent for a proper filter $U\sub B$ on a Boolean algebra $B$.</p>
+<ol>
+<li>(Maximality). $U$ is an ultrafilter.</li>
+<li>(Morphism). The map $\chi_U:B\to2$ is a morphism of Boolean algebras.</li>
+<li>(Dichotomy). For each $a\in B$, either $a\in U$ or $a^c\in U$.</li>
+<li>(Prime). For each $a_1,a_2\in B$, we have $a_1+a_2\in B$ iff either $a_1\in U$ or $a_2\in U$.</li>
+</ol>
+<p>\end{fact}</p>
+<h1 id="convergence-of-filters">Convergence of Filters</h1>
+
+
+            <div id="references"></div>
+            <div class="bottomSpace"></div>
+        </div>
+
+        <div id="toc"></div>
+    </div>
+
+
+        <div id="searchBox" style="display: none;">
+            <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" onmouseover="searchItemActive(9)"></li>
+            </ul>
+        </div>
+    </body>
+</html>

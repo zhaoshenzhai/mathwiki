@@ -6,8 +6,15 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filters and Ultrafilters</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/filter/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/filter/</guid>
+      <description>&lt;h1 id=&#34;motivation-and-definition&#34;&gt;Motivation and Definition&lt;/h1&gt;&#xA;&lt;p&gt;Let $X$ be a set. A point $x\in X$ can, equivalently, be viewed as a map $\l\{\ast\r\}\to X$ sending $\ast\mapsto x$, which induces a map $\chi_x:2^X\to2^{\l\{\ast\r\}}\iso2$, with $\chi_x(A)\coloneqq1$ iff $x\in A$. Thus, we can view maps $2^X\to2$ as &amp;lsquo;generalized points&amp;rsquo;.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  We say that a generalized point $\chi:2^X\to2$ is a &lt;em&gt;filter&lt;/em&gt; if it is a morphism of bounded meet \ref[semilattices]{semilattice}, i.e., $\chi(X)=1$ and $\chi(A\cap B)=\chi(A)\chi(B)$. Note that $\chi:2^X\to2$ can be viewed as a collection $F\subeq2^X$ of subsets of $X$ by $F\coloneqq\chi^{-1}(1)$, so in this language, we deduce the following properties, which in fact characterizes such maps.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Characterizations of Ergodicity</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/characterizations_of_ergodicity/</link>

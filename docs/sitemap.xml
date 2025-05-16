@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/filter/</loc>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/characterizations_of_ergodicity/</loc>
     <lastmod>2025-05-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,19 +23,10 @@
     <loc>https://zhaoshenzhai.github.io/mathwiki/ergodic/</loc>
     <lastmod>2025-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
-    <lastmod>2025-05-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
-    <lastmod>2025-05-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/poincare_recurrence/</loc>
     <lastmod>2025-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/pointwise_ergodic_theorem/</loc>
-    <lastmod>2025-05-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
     <lastmod>2025-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/borel_cantelli_lemmas/</loc>
