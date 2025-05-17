@@ -6,7 +6,7 @@ tags: [In_Progress]
 
 # Motivation and Statement
 
-The _Poincaré Recurrence Theorem_ asserts that certain dynamical systems will always return to the initial state of the system. Here, following \cite{Tse22}, we state and prove the measure-theoretic version.
+The _Poincaré Recurrence Theorem_ asserts that certain dynamical systems will almost surely return to the initial state of the system. Here, we state and prove this theorem in the measure category.
 
 ## Statement and proof
 
@@ -24,7 +24,7 @@ Every measurable set $A\subeq X$ is a.e.-forward recurrent.
 
 \end{theorem}
 
-A set $W\subeq X$ is said to be _wandering_ if the family $\l\\{T^{-n}(W)\r\\}_{n<\omega}$ is pairwise-disjoint
+&emsp;&emsp;We prove this theorem following \cite{Tse22}. First, we say that a set $W\subeq X$ is said to be _wandering_ if the family $\l\\{T^{-n}(W)\r\\}_{n<\omega}$ is pairwise-disjoint.
 
 \begin{lemma}\label{wandering_null}
 

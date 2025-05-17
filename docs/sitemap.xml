@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/filter/</loc>
-    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
-    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
-    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/measure-preserving_dynamical_system/</loc>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/filter/</loc>
     <lastmod>2025-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/characterizations_of_ergodicity/</loc>
