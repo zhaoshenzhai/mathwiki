@@ -17,7 +17,7 @@ An equivalence relation $E$ on $(X,\mu)$ is said to be _ergodic_ if every $E$-in
 \begin{fact}[\ref{characterizations_of_ergodicity#basic-characterizations}]
 
 A measure-preserving transformation $T:(X,\mu)\to(X,\mu)$ is ergodic iff any of the following hold.
-1. (Functional). Every $T$-invariant measurable fucntion $f:X\to Y$ to a \ref[standard Borel space]{measurable_space#borel-sigma-algebra} is constant a.e.
+1. (Functional). Every $T$-invariant measurable function $f:X\to Y$ to a \ref[standard Borel space]{measurable_space#borel-sigma-algebra} is constant a.e.
 2. (Density). For every positively-measured subset $A\subeq X$, the saturation $[A]_{\E_T}$ is $\mu$-conull.
 
 \end{fact}

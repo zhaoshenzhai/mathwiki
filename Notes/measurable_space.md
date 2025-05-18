@@ -6,7 +6,7 @@ tags: [In_Progress]
 
 # Motivation and Definition
 
-A _$\sigma$-algebra_ $\mc{A}$ on a set $X$ is a \ref[$\sigma$-complete]{complete_boolean_algebra} \ref[Boolean algebra]{boolean_algebra} on $\pow(X)$. The $\sigma$-completeness condition ensures that countable unions of elements of $\mc{A}$ remain in $\mc{A}$, and so $\sigma$-algebras are more amenable to techniques in analysis, and in particular, \ref[measure theory]{measure}.
+A _$\sigma$-algebra_ $\mc{A}$ on a set $X$ is a \ref[$\sigma$-complete]{complete_boolean_algebra} \ref[Boolean algebra]{boolean_algebra} on $\pow(X)$. The $\sigma$-completeness condition ensures that countable unions of elements of $\mc{A}$ remain in $\mc{A}$, and so $\sigma$-algebras are more amenable to techniques in analysis, and in particular, in \ref[measure theory]{measure}.
 
 \begin{definition}[\cite{Tse23}, \cite{Fol99}]
 

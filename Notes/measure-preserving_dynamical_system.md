@@ -6,12 +6,16 @@ tags: [In_Progress]
 
 # Motivation and Definition
 
-Broadly speaking, a _dynamical system_ is a group action of a group $G$ on some space $X$. Here, we study the case when $X=(X,\mu)$ is a \ref[standard measure space]{standard_measure_space} and $G\act(X,\mu)$ by measure-preserving actions.
+Broadly speaking, a _dynamical system_ is a (semi-)group action of a (semi-)group $G$ on some space $X$. Here, we study the case when $X=(X,\mu)$ is a \ref[standard probability space]{standard_probability_space} and $T:X\to X$ is a measure-preserving action.
 
 \begin{definition}
 
-Let $\phi:G\act(X,\mu)$ be an action of a group on a standard probability space. We say that $\phi$ is a _probability-measure-preserving (pmp)_ if
-1. (Borel). for each $g\in G$, the map $x\mapsto gx$ is Borel; and
-2. (Measure-preserving). for each $g\in G$ and Borel $B\subeq X$, we have $\mu(gB)=\mu(B)$.
+Let $(X,\mu)$ be a standard probability space. A function $T:X\to X$ is said to be _probability-measure-preserving (pmp)_ if $T$ is \ref[Borel]{measurable_space#measurable-functions} and for each Borel set $B\subeq X$, we have $\mu(T^{-1}(B))=\mu(B)$.
+
+<br>
+
+&emsp;&emsp;The triple $(X,\mu,T)$ is called a _measure-preserving dynamical system_.
 
 \end{definition}
+
+## Ergodic transformations

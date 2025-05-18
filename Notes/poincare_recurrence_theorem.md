@@ -1,16 +1,16 @@
 ---
-title: Poincaré Recurrence
+title: Poincaré Recurrence Theorem
 date: 2025-05-13
 tags: [In_Progress]
 ---
 
-# Motivation and Statement
+# Statement and Proof
 
 The _Poincaré Recurrence Theorem_ asserts that certain dynamical systems will almost surely return to the initial state of the system. Here, we state and prove this theorem in the measure category.
 
-## Statement and proof
+<br>
 
-Let $(X,\mc{B},\mu)$ be a probability \ref[measure space]{measure} and let $T:X\to X$ be pmp.
+&emsp;&emsp;Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}.
 
 \begin{definition}
 
@@ -22,9 +22,21 @@ A set $A\subeq X$ is _forward recurrent_ if for each $x\in A$, there exists $n\g
 
 Every measurable set $A\subeq X$ is a.e.-forward recurrent.
 
+<br>
+
+&emsp;&emsp;That is, for $\mu$-a.e. $x\in A$, there exists $n\geq1$ such that $T^n(x)\in A$.
+
 \end{theorem}
 
-&emsp;&emsp;We prove this theorem following \cite{Tse22}. First, we say that a set $W\subeq X$ is said to be _wandering_ if the family $\l\\{T^{-n}(W)\r\\}_{n<\omega}$ is pairwise-disjoint.
+## Proof
+
+We prove this theorem following \cite{Tse22}.
+
+\begin{definition}
+
+A set $W\subeq X$ is _wandering_ if the family $\l\\{T^{-n}(W)\r\\}_{n<\omega}$ is pairwise-disjoint.
+
+\end{definition}
 
 \begin{lemma}\label{wandering_null}
 
