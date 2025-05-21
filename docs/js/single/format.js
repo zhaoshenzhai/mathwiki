@@ -8,6 +8,7 @@ export function initFormat() {
     formatEnvironments();
     formatCitations();
     formatInternalLinks();
+    formatPercentage();
 }
 
 function formatEnvironments() {
@@ -127,6 +128,14 @@ function formatCitations() {
         replaceEl.appendChild(link);
         replaceEl.appendChild(document.createTextNode(']'));
 
+        return replaceEl;
+    });
+}
+
+function formatPercentage() {
+    format(document.body, /{%}/g, function (match) {
+        var replaceEl = document.createElement('span');
+        replaceEl.innerText = '%';
         return replaceEl;
     });
 }
