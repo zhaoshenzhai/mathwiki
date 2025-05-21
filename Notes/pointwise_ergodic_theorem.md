@@ -80,7 +80,7 @@ by Fact \iref{local-global_bridge}, a contradiction. This is too much to ask for
 
 <br>
 
-&emsp;&emsp;More formally, first use Fact \iref{99_bounded} to restrict to a measurable set $X_0\subeq X$ on which $f$ is bounded, say $f\geq-M$ for some $M\geq0$, and $\int_{X\comp X_0}(f-f^\ast)\\,\d\mu\leq f^\ast/2$, so $\int\_{X\comp X\_0}f\\,\d\mu\geq f^\ast/2$; restrict $f\_0\coloneqq\l.f\r|\_{X\_0}$. By Lemma \iref{tiling} applied to some $\epsilon>0$ to be chosen later, there is some $n\gg0$ and some $Z\subeq X\_0$ of measure $\geq\mu(X_0)-\epsilon$ such that for each $x\in Z$, the interval $I\_n^T(x)$ is tiled by $I\_y$'s up to an $\epsilon$-fraction. Since $f\_0\geq f$, we have $A\_{\eta(y)}f\_0\geq f^\ast$ too, so for all $x\in Z$,
+&emsp;&emsp;More formally, first use Fact \iref{99_bounded} to restrict to a measurable set $X_0\subeq X$ on which $f$ is bounded, say $f\geq-M$ for some $M\geq0$, and $\int_{X\comp X_0}(f-f^\ast)\\,\d\mu\leq f^\ast/2$, so $\int\_{X\comp X\_0}f\\,\d\mu\geq f^\ast/2$; restrict $f\_0\coloneqq\l.f\r|\_{X\_0}$. By Lemma \iref{tiling} applied to some $\epsilon>0$ to be chosen later, there is some $n\gg0$ and some $Z\subeq X\_0$ of measure $\geq\mu(X_0)-\epsilon$ such that for each $x\in Z$, the interval $I\_n^T(x)$ is tiled by $I\_y$'s up to an $\epsilon$-fraction. Since $f\_0\geq f$, we have $A^T\_{\eta(y)}f\_0(y)\geq f^\ast$ too, so for all $x\in Z$,
 \begin{equation*}
     A_n^Tf_0(x)\geq(1-\epsilon)f^\ast+\epsilon(-M)=f^\ast-\epsilon(M+f^\ast)\geq f^\ast/2
 \end{equation*}
