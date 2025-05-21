@@ -36,7 +36,7 @@ Every measurable set $A\subeq X$ is $T$-forward recurrent on a conull set $A_0\s
 
 <br>
 
-&emsp;&emsp;For a pmp transformation $T$, we say that $A$ (resp. $f$) is _$T$-invariant_ if $A$ is $\E\_T$-invariant. The _$T$-saturation_ of $A$ is $[A]\_T\coloneqq[A]\_{\E\_T}=\bigcup_{n,m\in\Z}T^{-n}(T^{-m})(A)$, which is not _a priori_ measurable \TODO[it is?]. However,
+&emsp;&emsp;For a pmp transformation $T$, we say that $A$ (resp. $f$) is _$T$-invariant_ if $A$ is $\E\_T$-invariant. The _$T$-saturation_ of $A$ is $[A]\_T\coloneqq[A]\_{\E\_T}=\bigcup_{n,m\in\Z}T^{-n}(T^m)(A)$, which is not _a priori_ measurable \TODO[it is?]. However,
 
 \begin{corollary}[of Fact \iref{poincare_recurrence_theorem}]
 
