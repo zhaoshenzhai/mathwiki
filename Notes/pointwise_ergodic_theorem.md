@@ -91,3 +91,13 @@ for sufficiently small $\epsilon>0$. But then we can replicate the contradiction
 for sufficiently small $\epsilon>0$, as desired.<span style="float:right;">$\blacksquare$</span>
 
 \end{proof}
+
+# Generalizations
+
+## Non-ergodic transformations
+
+\TODO
+
+## Amenable group actions
+
+\TODO
