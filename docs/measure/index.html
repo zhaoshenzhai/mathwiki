@@ -66,15 +66,15 @@
 <p>Let $p\in[0,1]$ and equip $2^\omega$ with the \ref[product topology]{product_topology}. There is a unique (Borel) measure $\mu_p:\mc{B}(2^\omega)\to[0,1]$, called the <em>\ref[Bernoulli$(p)$ measure]{bernoulli_p_measure}</em>, such that $\mu_p([w])=p^{n_1}(1-p)^{n_0}$ where $n_i$ is the number of occurrences of $i\in\l\{0,1\r\}$ in $w$ and $[w]$ is the set of all sequences in $2^\omega$ containing $w$ as a prefix.</p>
 <p>\end{example}</p>
 <h2 id="measurability">Measurability</h2>
-<p>Let $(X,\mc{B},\mu)$ be a measure space. A set $Z\subeq X$ is <em>$\mu$-null</em> if $Z\subeq Z&rsquo;$ for some $Z&rsquo;\in\mc{B}$ with $\mu(Z&rsquo;)=0$. We let $\Null_\mu$ denote the \ref[$\sigma$-ideal]{boolean_sigma_algebra#ideal} of $\mu$-measurable sets.</p>
-<p>\begin{definition}</p>
-<p>A set $A\subeq X$ is <em>$\mu$-measurable</em> if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$.</p>
-<p>\end{definition}</p>
-<p>We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets in $X$, and say that $\mu$ is <em>complete</em> if $\mc{B}=\Meas_\mu$.</p>
+<p>Let $(X,\mc{B},\mu)$ be a measure space. A set $Z\subeq X$ is <em>$\mu$-null</em> if $Z\subeq Z&rsquo;$ for some $Z&rsquo;\in\mc{B}$ such that $\mu(Z&rsquo;)=0$. We let $\Null_\mu$ denote the \ref[$\sigma$-ideal]{boolean_sigma_algebra#ideal} of $\mu$-measurable sets.</p>
+<br>
+<p>  A set $A\subeq X$ is <em>$\mu$-measurable</em> if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$. We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets in $X$, and say that $\mu$ is <em>complete</em> if $\mc{B}=\Meas_\mu$.</p>
 <p>\begin{fact}[\ref{complete_measure}]</p>
 <p>For any measure space $(X,\mc{B},\mu)$, the collection $\Meas_\mu$ is the $\sigma$-algebra \ref[generated]{measurable_space#generation} by $\mc{B}\cup\Null_\mu$. Moreover, $\mu$ admits a unique extension to a complete measure $\bar{\mu}$ on $\Meas_\mu$, defined by $\bar{\mu}(B\cup Z)\coloneqq\mu(B)$.</p>
 <p>\end{fact}</p>
 <p>  A function $f:X\to Y$ between measure spaces $(X,\mc{B},\mu)$ and $(Y,\mc{C},\nu)$ is said to be <em>measure-preserving</em> if it is a \ref[$(\mc{B},\mc{C})$-measurable map]{measurable_space#measurable-functions} such that, on a $\mu$-conull set $X_0\subeq X$, we have $\mu(\l.f\r|_{X_0}^{-1}(C))=\nu(C)$ for each $C\in\mc{C}$.</p>
+<br>
+<p>  An action $G\act(X,\mc{B},\mu)$ is said to be <em>measure-preserving</em> if for each $g\in G$, the orbit map $x\mapsto gx$ is measure-preserving. Such actions define <em>\ref[measure-preserving dynamical systems]{measure-preserving_dynamical_system}</em>, studied in <em>ergodic theory</em>.</p>
 <h1 id="classes-of-measures">Classes of Measures</h1>
 <h2 id="finiteness-conditions">Finiteness conditions</h2>
 <p>A measure $\mu$ is said to be a <em>\ref[probability]{probability_space} measure</em> if $\mu(X)=1$, <em>finite</em> if $\mu(X)&lt;\infty$, and <em>$\sigma$-finite</em> if there is a partition $X=\bigsqcup_{n&lt;\omega}X_n$ with each $\mu(X_n)&lt;\infty$.</p>
@@ -119,7 +119,7 @@
 </ol>
 <p>\end{fact}</p>
 <h1 id="constructions-on-measures">Constructions on Measures</h1>
-<h2 id="the-lebesgue-integral">The Lebesgue Integral</h2>
+<h2 id="the-lebesgue-integral">The Lebesgue integral</h2>
 <p>\TODO</p>
 <h2 id="products-of-measures">Products of measures</h2>
 <p>\TODO</p>

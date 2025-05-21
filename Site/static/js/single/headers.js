@@ -1,7 +1,6 @@
+import { textOfNode, trimHeaders, removePX } from '../stringUtils.js';
 import { getFontSize, contentEl, tocEl,
          headerEls, titleEl } from '../single.js';
-import { toSmallCaps, textOfNode,
-         trimHeaders, removePX } from '../stringUtils.js';
 
 window.toggleTOC = toggleTOC;
 
@@ -39,17 +38,12 @@ export function initHeaders() {
 export function initTitle() {
     var newTitle = document.createElement('h1');
     var newTitleSize = titleEl.getAttribute('titleSize');
-    if (!newTitleSize) { newTitleSize = 20; }
+    if (!newTitleSize) { newTitleSize = getFontSize(); }
 
-    var newTitleSC = toSmallCaps(
-        titleEl.innerText,
-        newTitleSize,
-        Number(newTitleSize) + 5
-    );
-
-    newTitle.appendChild(newTitleSC);
+    newTitle.innerText = titleEl.innerText;
     newTitle.setAttribute('id', 'title');
     newTitle.classList.add('center');
+    newTitle.style.fontSize = newTitleSize + 'px';
 
     if (headers[0]) { newTitle.classList.add('title_spacer'); }
     titleEl.replaceWith(newTitle);
@@ -75,18 +69,15 @@ function styleH1(el, counter) {
     el.setAttribute('innerText', el.innerText);
     el.classList.add('center');
     el.classList.add('h1Title');
+    el.style.fontSize = getFontSize() - 1 + 'px';
 
     for (var i = 0; i < el.childNodes.length; i++) {
         if (!el.childNodes[i].innerText) {
             var text = textOfNode(el.childNodes[i]);
-            var textSC = toSmallCaps(text);
-
-            el.childNodes[i].replaceWith(textSC);
+            el.childNodes[i].replaceWith(text);
         } else {
             var text = el.childNodes[i].innerText;
-            var textSC = toSmallCaps(text);
-
-            el.childNodes[i].innerHTML = textSC.innerHTML;
+            el.childNodes[i].innerHTML = text.innerHTML;
         }
     }
 
@@ -96,7 +87,7 @@ function styleH1(el, counter) {
 }
 
 function styleH2(el, parentCounter, counter) {
-    el.style.fontSize = getFontSize() + "px";
+    el.style.fontSize = getFontSize() + 'px';
     el.innerHTML += '.';
 
     var num = document.createElement('span');

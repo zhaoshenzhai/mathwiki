@@ -54,14 +54,6 @@ A system $(X,\mu,T)$ is _ergodic_ if each $\E_T$-invariant measurable set $A\sub
 
 \end{definition}
 
-\begin{fact}[\ref{characterizations_of_ergodicity#basic-characterizations}]
-
-A pmp transformation $T:(X,\mu)\to(X,\mu)$ is ergodic iff any of the following hold.
-1. (Functional). Every $T$-invariant measurable function $f:X\to Y$ to a \ref[standard Borel space]{measurable_space#borel-sigma-algebra} is constant a.e.
-2. (Density). For every positively-measured subset $A\subeq X$, the saturation $[A]_{\E_T}$ is $\mu$-conull.
-
-\end{fact}
-
 \begin{example}[\ref[Irrational rotations]{irrational_rotation}]
 
 On the circle $S^1\coloneqq\R/\Z$ equipped with its \ref[Haar measure]{haar_measure} (given by \ref[pushing forward]{push_forward_measure} the \ref[Lebesgue measure]{measures_on_reals#lebesgue_measure} under the \ref[exponential map]{exponential_map}), the _irrational rotation_ $R_\alpha:x\mapsto x+\alpha$ (mod $1$) is an ergodic pmp transformation.
@@ -70,6 +62,16 @@ On the circle $S^1\coloneqq\R/\Z$ equipped with its \ref[Haar measure]{haar_meas
 
 \begin{example}[Bernoulli shifts]
 
-On $2^\omega$ equipped with the Bernoulli$\_{1/2}$ measure, the _shift map_ $s:(x\_n)\mapsto(x\_{n+1})$ is \ref[mixing]{mixing_transformation}, hence ergodic.
+On $2^\omega$ equipped with the Bernoulli$\_{1/2}$ measure, the _shift map_ $s:(x\_n)\mapsto(x\_{n+1})$ is \ref[mixing]{mixing_transformation}, hence ergodic. \TODO[link to Baker's map]
 
 \end{example}
+
+\begin{fact}[\ref[Characterizations of ergodicity]{characterizations_of_ergodicity}]
+
+The following are equivalent for a pmp transformation $T:X\to X$.
+1. $T$ is ergodic.
+2. (Functional). Every $T$-invariant measurable function $f:X\to Y$ to a \ref[standard Borel space]{measurable_space#borel-sigma-algebra} is constant a.e.
+3. (Density). For every positively-measured subset $A\subeq X$, the saturation $[A]_{\E_T}$ is $\mu$-conull.
+4. (\ref[Pointwise Ergodic Theorem]{pointwise_ergodic_theorem}). For all $f\in L^1(X,\mu)$, we have $\lim_n\frac{1}{n}\sum_{i<n}f(f^i(x))=\int f\\,\d\mu$ for a.e. $x\in X$.
+
+\end{fact}

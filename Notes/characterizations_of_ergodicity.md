@@ -66,12 +66,12 @@ If $A\subeq X$ is an $\E_T$-invariant measurable set that is not null, then $A=[
 
 If $T$ is ergodic, then for every $f\in L^1(X,\mu)$, we have
 \begin{equation*}
-    \textrm{Time average}\coloneqq\lim_{n\to\infty}\frac{1}{n}\sum_{i<n}T^if(x)\overset{!}{=}_\mu\int f\\,\d\mu\eqqcolon\textrm{Space average}.
+    \textrm{Time average}\coloneqq\lim_{n\to\infty}\frac{1}{n}\sum_{i<n}f(T^i(x))\overset{!}{=}_\mu\int f\\,\d\mu\eqqcolon\textrm{Space average}.
 \end{equation*}
 
 \end{fact}
 
-For convenience, we let $A_n^Tf\coloneqq\frac{1}{n}\sum_{i<n}T^if(x)$ be the average of $f(x)$ over $n$ time steps.
+For convenience, we let $A_n^Tf\coloneqq\frac{1}{n}\sum_{i<n}f\circ T^i$ be the average of $f$ over $n$ time steps.
 
 \begin{theorem}
 

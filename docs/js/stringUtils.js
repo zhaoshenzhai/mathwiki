@@ -63,7 +63,7 @@ export function removeExt(path) {
 }
 
 export function removePX(size) {
-    return size.replace(/px/, '');
+    return parseInt(size.replace(/px/, ''));
 }
 
 export function trimHeaders(s) {
