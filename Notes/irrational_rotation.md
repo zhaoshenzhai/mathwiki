@@ -32,7 +32,7 @@ If $\alpha$ is rational, then $R_\alpha$ is periodic and hence the orbit $X\colo
 
 <br>
 
-&emsp;&emsp;Conversely, it suffices to show that $X$ approaches $0$. To this end, note that there exists some $n\in\Z$ such that $0\in[n\alpha,(n+1)\alpha]$, and without loss of generality, we can assume that $d(0,(n+1)\alpha)\leq d(0,n\alpha)$. Thus $\alpha_1\coloneqq(n+1)\alpha$ is in the orbit of $\alpha$ and $d(0,\alpha_1)\leq d(0,\alpha)/2$, so replacing $\alpha$ by $\alpha_1$ and repeating furnishes a sequence $\alpha_n\to0$, as desired.<span style="float:right;">$\blacksquare$</span>
+&emsp;&emsp;Conversely, it suffices to show that $X$ approaches $0$. To this end, note that there exists some $n\in\Z$ such that $0\in[n\alpha,(n+1)\alpha]$, and without loss of generality, we can assume that $|(n+1)\alpha|\leq|n\alpha|$. Thus $\alpha_1\coloneqq(n+1)\alpha$ is in the orbit of $\alpha$ and $|\alpha_1|\leq|\alpha|/2$, so replacing $\alpha$ by $\alpha_1$ and repeating furnishes a sequence $\alpha_n\to0$, as desired.<span style="float:right;">$\blacksquare$</span>
 
 \end{proof}
 
@@ -48,7 +48,7 @@ Since $S^1$ is (\ref[locally-]{locally-compact_space})\ref[compact]{compact_spac
 
 \begin{proposition}\label{irrational_rotation_ergodic}
 
-The rotation $R_\alpha$ is an \ref[ergodic]{ergodic} measure-preserving dynamical system iff $\alpha$ is irrational.
+The rotation $R_\alpha$ is an \ref[ergodic]{measure-preserving_dynamical_system#ergodic-transformations} measure-preserving dynamical system iff $\alpha$ is irrational.
 
 \end{proposition}
 
@@ -66,6 +66,6 @@ If $\alpha$ is rational, then any $\epsilon$-fattening of the orbit $\l\\{n\alph
 
 <br>
 
-&emsp;&emsp;Conversely, suppose towards a contradiction that $\alpha$ is irrational but $R_\alpha$ is not ergodic, so there exists an $R_\alpha$-invariant measurable $A\subeq[0,1)$ such that both $A$ and $A^c$ have positive measure. By Fact \iref{99-lemma}, there is an interval $I\subeq[0,1)$ (resp. $J$) such that $99$\% of $I$ is covered by $A$ (resp. $A^c$); without loss of generality, we can assume that $|J|\leq|I|$. By $R_\alpha$-invariance, $99$\% of any translate of $J$ is still covered by $A^c$, and so it suffices to cover at-least half of $I$ by translates of $J$, for then $99$\%$/2>1$\% of $I$ is covered by $A^c$, a contradiction. This can be done by Proposition \iref{irrational_rotation_minimal}, since any $R_\alpha$-orbit is dense we can translate the left-endpoint of $J$ arbitrarily close to the right-endpoint of previous translates of $J$.<span style="float:right;">$\blacksquare$</span>
+&emsp;&emsp;Conversely, suppose towards a contradiction that $\alpha$ is irrational but $R_\alpha$ is not ergodic, so there exists an $R_\alpha$-invariant measurable $A\subeq[0,1)$ such that both $A$ and $A^c$ have positive measure. By Fact \iref{99-lemma}, there is an interval $I\subeq[0,1)$ (resp. $J$) such that $99$\% of $I$ is covered by $A$ (resp. $A^c$); without loss of generality, we can assume that $|J|\leq|I|$. By $R_\alpha$-invariance, $99$\% of any translate of $J$ is still covered by $A^c$, and so it suffices to cover at-least half of $I$ by translates of $J$, for then $99$\%$/2>1$\% of $I$ is covered by $A^c$, a contradiction. Indeed, any $R_\alpha$-orbit is dense by Proposition \iref{irrational_rotation_minimal}, so we can translate the left-endpoint of $J$ arbitrarily close to that of $I$, and (iteratively) translate the left-endpoint of another copy of $J$ arbitrarily close to the right endpoints of previous translates of $J$.<span style="float:right;">$\blacksquare$</span>
 
 \end{proof}

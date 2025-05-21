@@ -4,15 +4,15 @@ date: 2025-05-13
 tags: [In_Progress]
 ---
 
-Let $(X,\mu)$ be a probability \ref[measure space]{measure}. We provide several characterizations for when a pmp $T:X\to X$ is \ref[ergodic]{ergodic}. The first two are basic reformulations of ergodicity, but others are highly non-trivial results.
+Let $(X,\mu,T)$ be a \ref[measure preserving dynamical system]{measure-preserving_dynamical_system}. We provide some characterizations for when it is \ref[ergodic]{measure-preserving_dynamical_system#ergodic-transformations}.
 
-# Basic Characterizations
+# Functional characterization
 
-Recall that every pmp $T:X\to X$ induces a Koopman operator $\widehat{T}:L^1(X,\mu)\to L^1(X,\mu)$ given by $f\mapsto f\circ T$, and we say that a measurable function $f:X\to Y$ is _$T$-invariant_ if $\widehat{T}(f)=f$.
+Recall that a measurable function $f:X\to Y$ (to a measurable space $Y$) is _$T$-invariant_ if $f\circ T=f$. Equivalently, $f$ is $T$-invariant if it is $\E_T$-invariant (i.e., constant on each $\E_T$-class), where $\E_T$ is the _orbit equivalence relation of $T$_ given by $x\E_Ty$ iff $T^n(x)=T^m(y)$ for some $n,m<\omega$.
 
 <br>
 
-&emsp;&emsp;Equivalently, $f$ is $T$-invariant if it is $\E_T$-invariant (i.e., constant on each $\E_T$-class), where $\E_T$ is the _orbit equivalence relation of $T$_ given by $x\E_Ty$ iff $T^n(x)=T^m(y)$ for some $n,m<\omega$.
+&emsp;&emsp;Using $T$-invariant functions, we can characterize the ergodicity of $T$ as follows.
 
 \begin{theorem}[Functional]\label{functional_characterization}
 
@@ -26,9 +26,21 @@ If $A\subeq X$ is an $\E_T$-invariant measurable set, then $\chi_A:X\to\l\\{0,1\
 
 <br>
 
-&emsp;&emsp;For the main direction, it suffices by the \ref[Borel Isomorphism Theorem]{borel_isomorphism_theorem} to consider the case when $Y\coloneqq2^\omega$, so let $f:X\to2^\omega$ be a $T$-invariant measurable function. We wish to find some $y\in2^\omega$ such that $f^{-1}(y)$ is conull, for then $f$ is constant at $y$ a.e.. Indeed, first note that $f^{-1}(B)$ is $T$-invariant for each Borel set $B\subeq2^\omega$, so it is either null or conull by hypothesis. Call a word $w\in2^{<\omega}$ _heavy_ if $f^{-1}([w])$ is conull. Clearly $\e$ is heavy, and inductively choosing heavy vertices in $2^\omega$ furnishes an infinite heavy branch $y\coloneqq(y_n)$, i.e., some $y\in2^\omega$ such that $f^{-1}([y|n])$ is conull for each $n<\omega$. Observe then that $f^{-1}(y)=\bigcap_{n<\omega}f^{-1}([y|n])$ is conull, as desired.<span style="float:right;">$\blacksquare$</span>
+&emsp;&emsp;For the main direction, it suffices by the \ref[Borel Isomorphism Theorem]{borel_isomorphism_theorem} to consider the case when $Y\coloneqq2^\omega$ is equipped with its Borel $\sigma$-algebra, which is generate by cylinders. Let $f:X\to2^\omega$ be a $T$-invariant measurable function, so $f^{-1}(B)$ is $T$-invariant for each Borel $B\subeq2^\omega$. In particular, $f^{-1}([w])$ is either null or conull for each word $w\in2^{<\omega}$. We proceed by finding a (necessarily unique) sequence $y\in2^\omega$ such that $f^{-1}(y)$ is conull, as follows. Call a word $w\in2^{<\omega}$ _heavy_ if $f^{-1}([w])$ is conull; clearly $\e$ is heavy, and if $w$ is heavy, then exactly one of $w0$ and $w1$ is heavy. Thus there is a unique heavy branch $\l\\{y|n\r\\}_{n\in\omega}$, which gives rise to the desired sequence $y\in2^\omega$ since $f^{-1}(y)=\bigcap_nf^{-1}([y|n])$ is the intersection of countably-many conull sets, hence conull.<span style="float:right;">$\blacksquare$</span>
 
 \end{proof}
+
+# Recurrence and the Ergodic Theorems
+
+Recall that a set $A\subeq X$ is _$T$-forward recurrent_ if for each $x\in X$, we have $T^n(x)\in A$ for some $n\geq1$.
+
+\begin{fact}[\ref[Poincaré Recurrence]{poincare_recurrence_theorem}]\label{poincare_recurrence_theorem}
+
+Every measurable set $A\subeq X$ is $T$-forward recurrent on a conull set $A_0\subeq_\mu A$.
+
+\end{fact}
+
+This holds for arbitrary pmp transformations $T:X\to X$. It turns out that ergodicity is equivalent to a strong form of recurrence, namely that for a.e. $x$ in the _entire_ space $X$, we have $T^n(x)\in A$ for some $n<\omega$.
 
 \begin{theorem}[Density]\label{density_characterization}
 
@@ -46,20 +58,20 @@ If $A\subeq X$ is an $\E_T$-invariant measurable set that is not null, then $A=[
 
 \end{proof}
 
-# Pointwise Ergodic Theorem
+<div class="space"></div>
 
-Let $(X,\mu)$ be a probability space and let $T:X\to X$ be pmp. The _time average_ of a function $f\in L^1(X,\mu)$ is the limit of $A_n^Tf(x)\coloneqq\frac{1}{n}\sum_{i<n}T^if(x)$ as $n\to\infty$, and the _space average_ of $f$ is $\int f\\,\d\mu$.
+&emsp;&emsp;Thus we see that $T$ is ergodic iff each orbit $[x]_{\E_T}$ intersects $A$, which is a qualitative result. It turns out that we can boost this and obtain a more quantitative statement too, of, say, how _often_ they intersect.
 
 \begin{fact}[\ref[Birkhoff's Pointwise Ergodic Theorem]{pointwise_ergodic_theorem}]
 
 If $T$ is ergodic, then for every $f\in L^1(X,\mu)$, we have
 \begin{equation*}
-    \lim_{n\to\infty}A_n^Tf=_\mu\int f\\,\d\mu.
+    \textrm{Time average}\coloneqq\lim_{n\to\infty}\frac{1}{n}\sum_{i<n}T^if(x)\overset{!}{=}_\mu\int f\\,\d\mu\eqqcolon\textrm{Space average}.
 \end{equation*}
 
 \end{fact}
 
-Using this, we can obtain several other characterizations of the ergodicity of $T$.
+For convenience, we let $A_n^Tf\coloneqq\frac{1}{n}\sum_{i<n}T^if(x)$ be the average of $f(x)$ over $n$ time steps.
 
 \begin{theorem}
 
@@ -67,12 +79,16 @@ For any pmp transformation $T:X\to X$, the following are equivalent.
 1. $T$ is ergodic.
 2. For all $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\\,\d\mu$.
 3. For all $f\in L^\infty(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\\,\d\mu$.
-4. For all measurable $B\subeq X$, we have $|\\{i<n\st T^ix\in B\\}|/n\to\mu(B)$ for $\mu$-a.e. $x\in X$.
+4. For all measurable $A\subeq X$, we have $|\\{i<n\st T^ix\in A\\}|/n\to\mu(A)$ for $\mu$-a.e. $x\in X$.
 
 \end{theorem}
 
 \begin{proof}
 
-$(1)\Rightarrow(2)$ is the Pointwise Ergodic Theorem.
+The Pointwise Ergodic Theorem states that (1) implies (2), and since $L^\infty\subeq L^1$, (2) trivially implies (3). For (3) $\Rightarrow$ (4), let $f\coloneqq\chi_A$ and note that $A^T_nf=|\\{i<n\st T^ix\in A\\}|/n$ and $\int f\\,\d\mu=\mu(A)$.
+
+<br>
+
+&emsp;&emsp;Finally, if (4) holds and $A\subeq X$ is a $T$-invariant measurable set, then $A^T_n\chi_A(x)$ is constant at either $0$ or $1$ for all $n<\omega$ and $x\in X$, so taking the limit gives $\mu(A)\in\l\\{0,1\r\\}$ as desired.<span style="float:right;">$\blacksquare$</span>
 
 \end{proof}

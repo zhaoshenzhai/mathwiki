@@ -44,15 +44,11 @@ Let $p\in[0,1]$ and equip $2^\omega$ with the \ref[product topology]{product_top
 
 ## Measurability
 
-Let $(X,\mc{B},\mu)$ be a measure space. A set $Z\subeq X$ is _$\mu$-null_ if $Z\subeq Z'$ for some $Z'\in\mc{B}$ with $\mu(Z')=0$. We let $\Null_\mu$ denote the \ref[$\sigma$-ideal]{boolean_sigma_algebra#ideal} of $\mu$-measurable sets.
+Let $(X,\mc{B},\mu)$ be a measure space. A set $Z\subeq X$ is _$\mu$-null_ if $Z\subeq Z'$ for some $Z'\in\mc{B}$ such that $\mu(Z')=0$. We let $\Null_\mu$ denote the \ref[$\sigma$-ideal]{boolean_sigma_algebra#ideal} of $\mu$-measurable sets.
 
-\begin{definition}
+<br>
 
-A set $A\subeq X$ is _$\mu$-measurable_ if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$.
-
-\end{definition}
-
-We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets in $X$, and say that $\mu$ is _complete_ if $\mc{B}=\Meas_\mu$.
+&emsp;&emsp;A set $A\subeq X$ is _$\mu$-measurable_ if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$. We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets in $X$, and say that $\mu$ is _complete_ if $\mc{B}=\Meas_\mu$.
 
 \begin{fact}[\ref{complete_measure}]
 
@@ -61,6 +57,10 @@ For any measure space $(X,\mc{B},\mu)$, the collection $\Meas\_\mu$ is the $\sig
 \end{fact}
 
 &emsp;&emsp;A function $f:X\to Y$ between measure spaces $(X,\mc{B},\mu)$ and $(Y,\mc{C},\nu)$ is said to be _measure-preserving_ if it is a \ref[$(\mc{B},\mc{C})$-measurable map]{measurable_space#measurable-functions} such that, on a $\mu$-conull set $X_0\subeq X$, we have $\mu(\l.f\r|_{X_0}^{-1}(C))=\nu(C)$ for each $C\in\mc{C}$.
+
+<br>
+
+&emsp;&emsp;An action $G\act(X,\mc{B},\mu)$ is said to be _measure-preserving_ if for each $g\in G$, the orbit map $x\mapsto gx$ is measure-preserving. Such actions define _\ref[measure-preserving dynamical systems]{measure-preserving_dynamical_system}_, studied in _ergodic theory_.
 
 # Classes of Measures
 
@@ -132,7 +132,7 @@ Let $(A_n)_{n<\omega}$ be a sequence of $\mu$-measurable sets.
 
 # Constructions on Measures
 
-## The Lebesgue Integral
+## The Lebesgue integral
 
 \TODO
 
