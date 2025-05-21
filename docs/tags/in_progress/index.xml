@@ -6,14 +6,21 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Irrational Rotation</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/irrational_rotation/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/irrational_rotation/</guid>
+      <description>&lt;p&gt;Here, we consider the circle as $S^1\coloneqq\R/\Z\iso[0,1)$. Fix an angle $\alpha\in S^1\comp\Q$.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;The &lt;em&gt;rotation map with angle $\alpha$&lt;/em&gt; is the map $R_\alpha:S^1\to S^1$ given by $x\mapsto x+\alpha$ mod $1$.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  We say that $R_\alpha$ is an &lt;em&gt;irrational rotation&lt;/em&gt; if $\alpha$ is irrational.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h1 id=&#34;topological-properties&#34;&gt;Topological properties&lt;/h1&gt;&#xA;&lt;p&gt;Equipping $S^1$ with the \ref[quotient topology]{quotient_topology}, $(S^1,R_\alpha)$ becomes a \ref[topological system]{topological dynamical system}.&lt;/p&gt;&#xA;&lt;p&gt;\begin{proposition}\label{irrational_rotation_minimal}&lt;/p&gt;&#xA;&lt;p&gt;The rotation $R_\alpha$ is a \ref[minimal]{minimal_topological_system} topological dynamical system iff $\alpha$ is irrational.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Measure-preserving Dynamical System</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/measure-preserving_dynamical_system/</link>
       <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/measure-preserving_dynamical_system/</guid>
-      <description>&lt;h1 id=&#34;motivation-and-definition&#34;&gt;Motivation and Definition&lt;/h1&gt;</description>
+      <description>&lt;h1 id=&#34;motivation-and-definition&#34;&gt;Motivation and Definition&lt;/h1&gt;&#xA;&lt;p&gt;Broadly speaking, a &lt;em&gt;dynamical system&lt;/em&gt; is a (semi-)group action of a (semi-)group $G$ on some space $X$. Here, we study the case when $X=(X,\mu)$ is a \ref[standard probability space]{standard_probability_space} and $T:X\to X$ is a measure-preserving action.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;Let $(X,\mu)$ be a standard probability space. A function $T:X\to X$ is said to be &lt;em&gt;probability-measure-preserving (pmp)&lt;/em&gt; if $T$ is \ref[Borel]{measurable_space#measurable-functions} and for each Borel set $B\subeq X$, we have $\mu(T^{-1}(B))=\mu(B)$.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Filters and Ultrafilters</title>
@@ -44,18 +51,18 @@
       <description>&lt;h1 id=&#34;motivation-and-definition&#34;&gt;Motivation and Definition&lt;/h1&gt;&#xA;&lt;p&gt;Let $E$ be an equivalence relation on a \ref[measure space]{measure} $(X,\mu)$. A subset $A\subeq X$ is said to be $E$-invariant if $A$ is a union of $E$-classes.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;An equivalence relation $E$ on $(X,\mu)$ is said to be &lt;em&gt;ergodic&lt;/em&gt; if every $E$-invariant $\mu$-measurable is either $\mu$-null or $\mu$-conull. A measure-preserving transformation $T:(X,\mu)\to(X,\mu)$ is &lt;em&gt;ergodic&lt;/em&gt; if $\E_T$ is.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref{characterizations_of_ergodicity#basic-characterizations}]&lt;/p&gt;&#xA;&lt;p&gt;A measure-preserving transformation $T:(X,\mu)\to(X,\mu)$ is ergodic iff any of the following hold.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Poincaré Recurrence</title>
-      <link>https://zhaoshenzhai.github.io/mathwiki/poincare_recurrence/</link>
+      <title>Poincaré Recurrence Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/poincare_recurrence_theorem/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://zhaoshenzhai.github.io/mathwiki/poincare_recurrence/</guid>
-      <description>&lt;h1 id=&#34;motivation-and-statement&#34;&gt;Motivation and Statement&lt;/h1&gt;&#xA;&lt;p&gt;The &lt;em&gt;Poincaré Recurrence Theorem&lt;/em&gt; asserts that certain dynamical systems will almost surely return to the initial state of the system. Here, we state and prove this theorem in the measure category.&lt;/p&gt;&#xA;&lt;h2 id=&#34;statement-and-proof&#34;&gt;Statement and proof&lt;/h2&gt;&#xA;&lt;p&gt;Let $(X,\mc{B},\mu)$ be a probability \ref[measure space]{measure} and let $T:X\to X$ be pmp.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A set $A\subeq X$ is &lt;em&gt;forward recurrent&lt;/em&gt; if for each $x\in A$, there exists $n\geq1$ such that $T^n(x)\in A$.&lt;/p&gt;</description>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/poincare_recurrence_theorem/</guid>
+      <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;The &lt;em&gt;Poincaré Recurrence Theorem&lt;/em&gt; asserts that certain dynamical systems will almost surely return to the initial state of the system. Here, we state and prove this theorem in the measure category.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A set $A\subeq X$ is &lt;em&gt;forward recurrent&lt;/em&gt; if for each $x\in A$, there exists $n\geq1$ such that $T^n(x)\in A$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Poincaré Recurrence]\label{poincare_recurrence}&lt;/p&gt;&#xA;&lt;p&gt;Every measurable set $A\subeq X$ is a.e.-forward recurrent.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pointwise Ergodic Theorem</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/pointwise_ergodic_theorem/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/pointwise_ergodic_theorem/</guid>
-      <description>&lt;p&gt;Let $(X,\mu)$ be a probability measure space and let $T:X\to X$ be pmp. Birkhoff&amp;rsquo;s &lt;em&gt;Ergodic Hypothesis&lt;/em&gt; states that the time and space averages for certain functions $f\in L^1(X,\mu)$ coincide. It turns out that this hypothesis holds iff $T$ is \ref[ergodic]{ergodic}, which we prove below following \cite{Tse22}.&lt;/p&gt;&#xA;&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;\begin{theorem}[Birkhoff&amp;rsquo;s Pointwise Ergodic Theorem]\label{pointwise}&lt;/p&gt;&#xA;&lt;p&gt;Let $(X,\mu)$ be a probability measure space and let $T:X\to X$ be pmp. If $T$ is ergodic, then for every $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}. Birkhoff&amp;rsquo;s &lt;em&gt;Ergodic Hypothesis&lt;/em&gt; states that the time and space averages for certain functions $f\in L^1(X,\mu)$ coincide. It turns out that this hypothesis holds iff $T$ is \ref[ergodic]{ergodic}, which we prove below following \cite{Tse22}.&lt;/p&gt;&#xA;&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;\begin{theorem}[Birkhoff&amp;rsquo;s Pointwise Ergodic Theorem]\label{pointwise}&lt;/p&gt;&#xA;&lt;p&gt;Let $(X,\mu)$ be a standard probability space and let $T:X\to X$ be pmp. If $T$ is ergodic, then for every $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Borel-Cantelli Lemmas</title>
@@ -83,7 +90,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/measurable_space/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/measurable_space/</guid>
-      <description>&lt;h1 id=&#34;motivation-and-definition&#34;&gt;Motivation and Definition&lt;/h1&gt;&#xA;&lt;p&gt;A &lt;em&gt;$\sigma$-algebra&lt;/em&gt; $\mc{A}$ on a set $X$ is a \ref[$\sigma$-complete]{complete_boolean_algebra} \ref[Boolean algebra]{boolean_algebra} on $\pow(X)$. The $\sigma$-completeness condition ensures that countable unions of elements of $\mc{A}$ remain in $\mc{A}$, and so $\sigma$-algebras are more amenable to techniques in analysis, and in particular, \ref[measure theory]{measure}.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}[\cite{Tse23}, \cite{Fol99}]&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;$\sigma$-algebra&lt;/em&gt; on a set $X$ is a family $\mc{A}\subeq\pow(X)$ of subsets of $X$ containing $\e$ that is closed under complements and countable unions, whose elements are said to be &lt;em&gt;measurable&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;motivation-and-definition&#34;&gt;Motivation and Definition&lt;/h1&gt;&#xA;&lt;p&gt;A &lt;em&gt;$\sigma$-algebra&lt;/em&gt; $\mc{A}$ on a set $X$ is a \ref[$\sigma$-complete]{complete_boolean_algebra} \ref[Boolean algebra]{boolean_algebra} on $\pow(X)$. The $\sigma$-completeness condition ensures that countable unions of elements of $\mc{A}$ remain in $\mc{A}$, and so $\sigma$-algebras are more amenable to techniques in analysis, and in particular, in \ref[measure theory]{measure}.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}[\cite{Tse23}, \cite{Fol99}]&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;$\sigma$-algebra&lt;/em&gt; on a set $X$ is a family $\mc{A}\subeq\pow(X)$ of subsets of $X$ containing $\e$ that is closed under complements and countable unions, whose elements are said to be &lt;em&gt;measurable&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Carathéodory&#39;s Extension Theorem</title>

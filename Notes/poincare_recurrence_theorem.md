@@ -24,7 +24,7 @@ Every measurable set $A\subeq X$ is a.e.-forward recurrent.
 
 <br>
 
-&emsp;&emsp;That is, for $\mu$-a.e. $x\in A$, there exists $n\geq1$ such that $T^n(x)\in A$.
+&emsp;&emsp;That is, there exists a measurable set $A_0\subeq_\mu A$ such that $A_0$ is forward recurrent.
 
 \end{theorem}
 
@@ -58,18 +58,18 @@ and hence $\mu(W)=0$.<span style="float:right;">$\square$</span>
 
 \begin{proof}[of Theorem \iref{poincare_recurrence}]
 
-Let $W\coloneqq\bigcap_{n\geq1}\l\\{x\in A\st T^n(x)\not\in A\r\\}$, which is clearly measurable. Then $W\cap T^{-n}W=\e$ for each $n\geq1$, so $W$ is wandering, and hence $Z\coloneqq\bigcup_{n<\omega}T^{-n}W$ is null by Lemma \iref{wandering_null}. Set $A_0\coloneqq A\comp Z$, so that $A_0=_\mu A$, and $A_0$ is clearly forward recurrent.<span style="float:right;">$\blacksquare$</span>
+Let $W\coloneqq\bigcap_{n\geq1}\l\\{x\in A\st T^n(x)\not\in A\r\\}$, which is clearly measurable. Then $W\cap T^{-n}W=\e$ for each $n\geq1$, so $W$ is wandering, and hence $Z\coloneqq\bigcup_{n<\omega}T^{-n}W$ is null by Lemma \iref{wandering_null}. Set $A_0\coloneqq A\comp Z$, so that $A_0\subeq_\mu A$, and $A_0$ is clearly forward recurrent.<span style="float:right;">$\blacksquare$</span>
 
 \end{proof}
 
 \begin{corollary}
 
-For every measurable set $A\subeq X$, there exists $A\_0=_\mu A$ such that $[A\_0]\_{\E\_T}=\bigcup\_{n<\omega}T^{-n}(A\_0)$.
+For every measurable set $A\subeq X$, there exists $A\_0\subeq_\mu A$ such that $[A\_0]\_{\E\_T}=\bigcup\_{n<\omega}T^{-n}(A\_0)$.
 
 \end{corollary}
 
 \begin{proof}
 
-Let $A_0=_\mu A$ be as forward recurrent as above. If $x\in X$ is such that $T^n(x)=T^m(y)$ for some $y\in A_0$, then iteratively applying forward recurrence to $y$ furnishes some $k<\omega$ such that $T^{n+k}(x)=T^{m+k}(y)\in A_0$.<span style="float:right;">$\blacksquare$</span>
+Let $A_0\subeq_\mu A$ be as forward recurrent as above. If $x\in X$ is such that $T^n(x)=T^m(y)$ for some $y\in A_0$, then iteratively applying forward recurrence to $y$ furnishes some $k<\omega$ such that $T^{n+k}(x)=T^{m+k}(y)\in A_0$.<span style="float:right;">$\blacksquare$</span>
 
 \end{proof}

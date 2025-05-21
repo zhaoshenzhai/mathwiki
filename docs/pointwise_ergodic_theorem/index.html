@@ -46,10 +46,10 @@
                 
             </h1>
 
-            <p>Let $(X,\mu)$ be a probability measure space and let $T:X\to X$ be pmp. Birkhoff&rsquo;s <em>Ergodic Hypothesis</em> states that the time and space averages for certain functions $f\in L^1(X,\mu)$ coincide. It turns out that this hypothesis holds iff $T$ is \ref[ergodic]{ergodic}, which we prove below following \cite{Tse22}.</p>
+            <p>Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}. Birkhoff&rsquo;s <em>Ergodic Hypothesis</em> states that the time and space averages for certain functions $f\in L^1(X,\mu)$ coincide. It turns out that this hypothesis holds iff $T$ is \ref[ergodic]{ergodic}, which we prove below following \cite{Tse22}.</p>
 <h1 id="statement-and-proof">Statement and Proof</h1>
 <p>\begin{theorem}[Birkhoff&rsquo;s Pointwise Ergodic Theorem]\label{pointwise}</p>
-<p>Let $(X,\mu)$ be a probability measure space and let $T:X\to X$ be pmp. If $T$ is ergodic, then for every $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</p>
+<p>Let $(X,\mu)$ be a standard probability space and let $T:X\to X$ be pmp. If $T$ is ergodic, then for every $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</p>
 <p>\end{theorem}</p>
 <p>\begin{corollary}[\ref{characterizations_of_ergodicity#pointwise-ergodic-theorem}]</p>
 <p>For any pmp transformation $T:X\to X$, the following are equivalent.</p>
@@ -57,7 +57,7 @@
 <li>$T$ is ergodic.</li>
 <li>For all $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</li>
 <li>For all $f\in L^\infty(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</li>
-<li>For all measurable $B\subeq X$, we have $|\{i&lt;n\st T^ix\in B\}|/n\to\mu(B)$ for $\mu$-a.e. $x\in X$.</li>
+<li>For all measurable sets $B\subeq X$, we have $|\{i&lt;n\st T^ix\in B\}|/n\to\mu(B)$ for $\mu$-a.e. $x\in X$.</li>
 </ol>
 <p>\end{corollary}</p>
 <p>\begin{proof}[of Theorem \iref{pointwise}]</p>

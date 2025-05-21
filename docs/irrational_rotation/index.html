@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Measurable Space</title>
+        <title>Irrational Rotation</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,36 +42,41 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Measurable Space
+                    Irrational Rotation
                 
             </h1>
 
-            <h1 id="motivation-and-definition">Motivation and Definition</h1>
-<p>A <em>$\sigma$-algebra</em> $\mc{A}$ on a set $X$ is a \ref[$\sigma$-complete]{complete_boolean_algebra} \ref[Boolean algebra]{boolean_algebra} on $\pow(X)$. The $\sigma$-completeness condition ensures that countable unions of elements of $\mc{A}$ remain in $\mc{A}$, and so $\sigma$-algebras are more amenable to techniques in analysis, and in particular, in \ref[measure theory]{measure}.</p>
-<p>\begin{definition}[\cite{Tse23}, \cite{Fol99}]</p>
-<p>A <em>$\sigma$-algebra</em> on a set $X$ is a family $\mc{A}\subeq\pow(X)$ of subsets of $X$ containing $\e$ that is closed under complements and countable unions, whose elements are said to be <em>measurable</em>.</p>
+            <p>Here, we consider the circle as $S^1\coloneqq\R/\Z\iso[0,1)$. Fix an angle $\alpha\in S^1\comp\Q$.</p>
+<p>\begin{definition}</p>
+<p>The <em>rotation map with angle $\alpha$</em> is the map $R_\alpha:S^1\to S^1$ given by $x\mapsto x+\alpha$ mod $1$.</p>
 <br>
-<p>  The pair $(X,\mc{A})$ is said to be a <em>measurable space</em>.</p>
+<p>  We say that $R_\alpha$ is an <em>irrational rotation</em> if $\alpha$ is irrational.</p>
 <p>\end{definition}</p>
-<h2 id="generation">Generation</h2>
-<p>The $\sigma$-algebra <em>generated</em> by a family $\mc{C}\subeq\pow(X)$ is $\l\langle\mc{C}\r\rangle_\sigma\coloneqq\bigcap\l\{\mc{A}\st\mc{A}\supseteq\mc{C}\textrm{ is a $\sigma$-algebra on $X$}\r\}$.</p>
-<p>\begin{remark}</p>
-<p>For a bottom-up definition, we can set $\l\langle\mc{C}\r\rangle_\sigma\coloneqq\bigcup_{\alpha&lt;\omega_1}\mc{C}_\alpha$, where the $\mc{C}_\alpha$&rsquo;s are defined inductively by letting $\mc{C}_0\coloneqq\mc{C}\cup\l\{\e\r\}$ and letting $\mc{C}_\alpha$ be the collection of all complements and countable unions of sets in $\bigcup_{\beta&lt;\alpha}\mc{C}_\beta$.</p>
-<p>\end{remark}</p>
-<p>  A $\sigma$-algebra $\mc{B}$ is said to be <em>$\kappa$-generated</em> if $\mc{B}=\l\langle\mc{A}\r\rangle_\sigma$ for some $\mc{A}\subeq\pow(X)$ of cardinality $\kappa$.</p>
-<h2 id="measurable-functions">Measurable functions</h2>
-<p>Let $(X,\mc{B})$ and $(Y,\mc{C})$ be measurable spaces. A function $f:X\to Y$ is said to be <em>$(\mc{B},\mc{C})$-measurable</em> if $f^{-1}(C)\in\mc{B}$ for each $C\in\mc{C}$.</p>
+<h1 id="topological-properties">Topological properties</h1>
+<p>Equipping $S^1$ with the \ref[quotient topology]{quotient_topology}, $(S^1,R_\alpha)$ becomes a \ref[topological system]{topological dynamical system}.</p>
+<p>\begin{proposition}\label{irrational_rotation_minimal}</p>
+<p>The rotation $R_\alpha$ is a \ref[minimal]{minimal_topological_system} topological dynamical system iff $\alpha$ is irrational.</p>
+<p>\end{proposition}</p>
+<p>\begin{proof}</p>
+<p>If $\alpha$ is rational, then $R_\alpha$ is periodic and hence the orbit $X\coloneqq\l\{n\alpha\r\}_{n\in\Z}$ is finite.</p>
 <br>
-<p>  Measurable spaces and functions form the \ref[category]{category} of measurable spaces, denoted $\cat{Meas}$.</p>
-<h1 id="borel-sigma-algebra">Borel $\sigma$-algebra</h1>
-<p>If $(X,\mc{T})$ is a \ref[topological space]{topological_space}, the natural $\sigma$-algebra to consider is the <em>Borel $\sigma$-algebra</em> $\mc{B}(X)\coloneqq\l\langle\mc{T}\r\rangle_\sigma$, whose elements are called <em>Borel sets</em>.</p>
-<ul>
-<li>A function $f:X\to Y$ between topological spaces is <em>Borel measurable</em> if it is $(\mc{B}(X),\mc{B}(Y))$-measurable.</li>
-<li>A measurable space $(X,\mc{B})$ is <em>standard Borel</em> if $\mc{B}$ is the Borel $\sigma$-algebra of some \ref[Polish]{polish_space} topology on $X$.</li>
-</ul>
-<p>\begin{fact}[\ref[Borel Isomorphism Theorem]{borel_isomorphism_theorem}]</p>
-<p>Any two uncountable standard Borel spaces are Borel isomorphic. In particular, they all have cardinality continuum and are Borel isomorphic to $(2^\omega,\mc{B}(2^\omega))$ and $(\R,\mc{B}(\R))$.</p>
+<p>  Conversely, it suffices to show that $X$ approaches $0$. To this end, note that there exists some $n\in\Z$ such that $0\in[n\alpha,(n+1)\alpha]$, and without loss of generality, we can assume that $d(0,(n+1)\alpha)\leq d(0,n\alpha)$. Thus $\alpha_1\coloneqq(n+1)\alpha$ is in the orbit of $\alpha$ and $d(0,\alpha_1)\leq d(0,\alpha)/2$, so replacing $\alpha$ by $\alpha_1$ and repeating furnishes a sequence $\alpha_n\to0$, as desired.<span style="float:right;">$\blacksquare$</span></p>
+<p>\end{proof}</p>
+<p>\begin{remark}</p>
+<p>In contrast, every homeomorphism on $S^{2n}$ has a fixed point by \ref[Brower&rsquo;s Fixed Point Theorem]{browers_fixed_point_theorem}, and hence there are no minimal systems on $S^{2n}$.</p>
+<p>\end{remark}</p>
+<h1 id="ergodic-properties">Ergodic properties</h1>
+<p>Equipping $S^1$ with its \ref[Haar measure]{haar_measure} (given by \ref[pushing forward]{push_forward_measure} the \ref[Lebesgue measure]{measures_on_reals#lebesgue_measure} under the \ref[exponential map]{exponential_map}), we obtain a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system} $(S^1,\lambda,R_\alpha)$.</p>
+<p>\begin{proposition}\label{irrational_rotation_ergodic}</p>
+<p>The rotation $R_\alpha$ is an \ref[ergodic]{ergodic} measure-preserving dynamical system iff $\alpha$ is irrational.</p>
+<p>\end{proposition}</p>
+<p>  We will need the following lemma.</p>
+<p>\begin{fact}[\ref{99_lemma_lebesgue}]</p>
+<p>For any measurable $A\subeq[0,1)$ with positive Lebesgue measure, there is an interval $I\subeq[0,1)$ such that at-least 99% of $I$ is covered by $A$, i.e., $\lambda(A\cap I)/\lambda(I)\geq0.99$.</p>
 <p>\end{fact}</p>
+<p>\begin{proof}[of Proposition \iref{irrational_rotation_ergodic}]</p>
+<p>If $\alpha$ is rational, then the orbit $X\coloneqq\l\{n\alpha\r\}_{n\in\Z}$ is finite, and is hence null.</p>
+<p>\end{proof}</p>
 
 
             <div id="references"></div>
