@@ -70,6 +70,7 @@ function styleH1(el, counter) {
     el.classList.add('center');
     el.classList.add('h1Title');
     el.style.fontSize = getFontSize() - 1 + 'px';
+    el.style.fontWeight = 'normal';
 
     for (var i = 0; i < el.childNodes.length; i++) {
         if (!el.childNodes[i].innerText) {
