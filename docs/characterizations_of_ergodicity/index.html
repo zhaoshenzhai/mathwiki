@@ -78,10 +78,10 @@
 <p>\begin{fact}[\ref[Birkhoff&rsquo;s Pointwise Ergodic Theorem]{pointwise_ergodic_theorem}]</p>
 <p>If $T$ is ergodic, then for every $f\in L^1(X,\mu)$, we have
 \begin{equation*}
-\textrm{Time average}\coloneqq\lim_{n\to\infty}\frac{1}{n}\sum_{i&lt;n}T^if(x)\overset{!}{=}_\mu\int f\,\d\mu\eqqcolon\textrm{Space average}.
+\textrm{Time average}\coloneqq\lim_{n\to\infty}\frac{1}{n}\sum_{i&lt;n}f(T^i(x))\overset{!}{=}_\mu\int f\,\d\mu\eqqcolon\textrm{Space average}.
 \end{equation*}</p>
 <p>\end{fact}</p>
-<p>For convenience, we let $A_n^Tf\coloneqq\frac{1}{n}\sum_{i&lt;n}T^if(x)$ be the average of $f(x)$ over $n$ time steps.</p>
+<p>For convenience, we let $A_n^Tf\coloneqq\frac{1}{n}\sum_{i&lt;n}f\circ T^i$ be the average of $f$ over $n$ time steps.</p>
 <p>\begin{theorem}</p>
 <p>For any pmp transformation $T:X\to X$, the following are equivalent.</p>
 <ol>

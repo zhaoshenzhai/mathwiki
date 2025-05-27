@@ -62,7 +62,7 @@
 <p>\end{fact}</p>
 <p>  Let $E\subeq X^2$ be an \ref[equivalence relation]{equivalence_relation}. A set $A\subeq X$ is said to be <em>$E$-invariant</em> if $A$ is a union of $E$-classes, and the <em>$E$-saturation</em> of $A$ is $[A]_E\coloneqq\bigcup_{x\in A}[x]_E$; clearly, $A$ is $E$-invariant iff $A=[A]_E$. A function $f:X\to Y$ is said to be <em>$E$-invariant</em> if $f$ is constant on each $E$-class.</p>
 <br>
-<p>  For a pmp transformation $T$, we say that $A$ (resp. $f$) is <em>$T$-invariant</em> if $A$ is $\E_T$-invariant. The <em>$T$-saturation</em> of $A$ is $[A]_T\coloneqq[A]_{\E_T}=\bigcup_{n,m\in\Z}T^{-n}(T^{-m})(A)$, which is not <em>a priori</em> measurable \TODO[it is?]. However,</p>
+<p>  For a pmp transformation $T$, we say that $A$ (resp. $f$) is <em>$T$-invariant</em> if $A$ is $\E_T$-invariant. The <em>$T$-saturation</em> of $A$ is $[A]_T\coloneqq[A]_{\E_T}=\bigcup_{n,m\in\Z}T^{-n}(T^m)(A)$, which is not <em>a priori</em> measurable \TODO[it is?]. However,</p>
 <p>\begin{corollary}[of Fact \iref{poincare_recurrence_theorem}]</p>
 <p>For each measurable $A\subeq X$, there exists $A_0\subeq_\mu A$ such that $[A_0]_T=\bigcup_nT^{-n}(A_0)$.</p>
 <p>\end{corollary}</p>
@@ -71,19 +71,21 @@
 <p>\begin{definition}</p>
 <p>A system $(X,\mu,T)$ is <em>ergodic</em> if each $\E_T$-invariant measurable set $A\subeq X$ is either null or conull.</p>
 <p>\end{definition}</p>
-<p>\begin{fact}[\ref{characterizations_of_ergodicity#basic-characterizations}]</p>
-<p>A pmp transformation $T:(X,\mu)\to(X,\mu)$ is ergodic iff any of the following hold.</p>
-<ol>
-<li>(Functional). Every $T$-invariant measurable function $f:X\to Y$ to a \ref[standard Borel space]{measurable_space#borel-sigma-algebra} is constant a.e.</li>
-<li>(Density). For every positively-measured subset $A\subeq X$, the saturation $[A]_{\E_T}$ is $\mu$-conull.</li>
-</ol>
-<p>\end{fact}</p>
 <p>\begin{example}[\ref[Irrational rotations]{irrational_rotation}]</p>
 <p>On the circle $S^1\coloneqq\R/\Z$ equipped with its \ref[Haar measure]{haar_measure} (given by \ref[pushing forward]{push_forward_measure} the \ref[Lebesgue measure]{measures_on_reals#lebesgue_measure} under the \ref[exponential map]{exponential_map}), the <em>irrational rotation</em> $R_\alpha:x\mapsto x+\alpha$ (mod $1$) is an ergodic pmp transformation.</p>
 <p>\end{example}</p>
 <p>\begin{example}[Bernoulli shifts]</p>
-<p>On $2^\omega$ equipped with the Bernoulli$_{1/2}$ measure, the <em>shift map</em> $s:(x_n)\mapsto(x_{n+1})$ is \ref[mixing]{mixing_transformation}, hence ergodic.</p>
+<p>On $2^\omega$ equipped with the Bernoulli$_{1/2}$ measure, the <em>shift map</em> $s:(x_n)\mapsto(x_{n+1})$ is \ref[mixing]{mixing_transformation}, hence ergodic. \TODO[link to Baker&rsquo;s map]</p>
 <p>\end{example}</p>
+<p>\begin{fact}[\ref[Characterizations of ergodicity]{characterizations_of_ergodicity}]</p>
+<p>The following are equivalent for a pmp transformation $T:X\to X$.</p>
+<ol>
+<li>$T$ is ergodic.</li>
+<li>(Functional). Every $T$-invariant measurable function $f:X\to Y$ to a \ref[standard Borel space]{measurable_space#borel-sigma-algebra} is constant a.e.</li>
+<li>(Density). For every positively-measured subset $A\subeq X$, the saturation $[A]_{\E_T}$ is $\mu$-conull.</li>
+<li>(\ref[Pointwise Ergodic Theorem]{pointwise_ergodic_theorem}). For all $f\in L^1(X,\mu)$, we have $\lim_n\frac{1}{n}\sum_{i&lt;n}f(f^i(x))=\int f\,\d\mu$ for a.e. $x\in X$.</li>
+</ol>
+<p>\end{fact}</p>
 
 
             <div id="references"></div>

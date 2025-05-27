@@ -46,24 +46,64 @@
                 
             </h1>
 
-            <p>Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}. Birkhoff&rsquo;s <em>Ergodic Hypothesis</em> states that the time and space averages for certain functions $f\in L^1(X,\mu)$ coincide. It turns out that this hypothesis holds iff $T$ is \ref[ergodic]{ergodic}, which we prove below following \cite{Tse22}.</p>
+            <p>Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}. Birkhoff&rsquo;s <em>Ergodic Hypothesis</em> states that the time and space averages for certain functions $f\in L^1(X,\mu)$ coincide. It turns out that this hypothesis holds iff $T$ is \ref[ergodic]{ergodic}.</p>
 <h1 id="statement-and-proof">Statement and Proof</h1>
+<p>Given a function $f\in L^1(X,\mu)$ and $x\in X$, we can study the values $f$ take on the forward orbit $I_n^T(x)\coloneqq\{T^ix\}_{i&lt;n}$ restrict to $n$ time steps. The <em>time average</em> of $(f,x)$ for the first $n$ time steps is $A_n^Tf(x)\coloneqq\frac{1}{n}\sum_{i&lt;n}f(T^i(x))$, which, considering the system uniformly, induces a function $A_n^Tf:X\to\R$. One can then take $n\to\infty$ to obtain the <em>time average</em> of $f$ as $\lim_nA_n^Tf$. On the other hand, we can consider the <em>space average</em> $\int f\,\d\mu$, which is the average value of $f$ at a particular time. It turns out that these two averages coincide a.e. iff $T$ is ergodic.</p>
 <p>\begin{theorem}[Birkhoff&rsquo;s Pointwise Ergodic Theorem]\label{pointwise}</p>
-<p>Let $(X,\mu)$ be a standard probability space and let $T:X\to X$ be pmp. If $T$ is ergodic, then for every $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</p>
+<p>Let $(X,\mu,T)$ be a measure-preserving dynamical system. If $T$ is ergodic, then for every $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</p>
 <p>\end{theorem}</p>
-<p>\begin{corollary}[\ref{characterizations_of_ergodicity#pointwise-ergodic-theorem}]</p>
-<p>For any pmp transformation $T:X\to X$, the following are equivalent.</p>
-<ol>
-<li>$T$ is ergodic.</li>
-<li>For all $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</li>
-<li>For all $f\in L^\infty(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</li>
-<li>For all measurable sets $B\subeq X$, we have $|\{i&lt;n\st T^ix\in B\}|/n\to\mu(B)$ for $\mu$-a.e. $x\in X$.</li>
-</ol>
-<p>\end{corollary}</p>
+<h2 id="setup-and-the-tiling-lemma">Setup and the Tiling Lemma</h2>
+<p>The proof of this theorem will require several general facts.</p>
+<p>\begin{fact}[\ref[Functional characterization of ergodicity]{characterizations_of_ergodicity}]\label{characterization}</p>
+<p>A pmp transformation $T:X\to X$ is ergodic iff every $T$-invariant measurable function $f:X\to\R$ is constant a.e..</p>
+<p>\end{fact}</p>
+<p>\begin{fact}[\ref[Local-Global Bridge]{local-global_bridge}]\label{local-global_bridge}</p>
+<p>For each $f\in L^1(X,\mu)$ and $n&lt;\omega$, we have $\int f\,\d\mu=\int A_n^Tf\,\d\mu$.</p>
+<p>\end{fact}</p>
+<p>\begin{fact}[\ref[99{%}-bounded]{99_bounded}]\label{99_bounded}</p>
+<p>For each $f\in L^1(X,\mu)$ and $\epsilon&gt;0$, there is a measurable set $X_0\subeq X$ such that $\l.f\r|_{X_0}$ is bounded and $\int_{X\comp X_0}f\,\d\mu\leq\epsilon$.</p>
+<p>\end{fact}</p>
+<p>  We will also need the following <em>tiling lemma</em>. Let $\eta:X\to\N$ be an arbitrary measurable function.</p>
+<p>\begin{lemma}[Tiling Lemma]\label{tiling}</p>
+<p>For any $\epsilon&gt;0$, there exists $n\gg0$ such that for each $x\in X$ except on a measure-$\epsilon$ set, the interval $I_n^T(x)$ can be tiled, up to an $\epsilon$-fraction, by intervals of the form $I_y\coloneqq I_{\eta(y)}^T(y)$ for $y\in X$.</p>
+<p>\end{lemma}</p>
+<p>\begin{proof}</p>
+<p>By Fact \iref{99_bounded}, choose $L\geq0$ such that $B\coloneqq\{x\in X\st\eta(x)&gt;L\}$ has measure at-most $\epsilon^2/2$, so for each $n&lt;\omega$, the set $Z_n\coloneqq\{x\in X\st A_n^T\chi_B(x)&lt;\epsilon/2\}$ is co-$\epsilon$ since, by Fact \iref{local-global_bridge}, we have
+\begin{equation*}
+\epsilon^2/2\geq\mu(B)=\int\chi_B\,\d\mu\overset{!}{=}\int A_n^T\chi_B\,\d\mu\geq\int_{X\comp Z_n}A_n^T\chi_B\,\d\mu\geq\frac{\epsilon}{2}\mu(X\comp Z_n).
+\end{equation*}
+For each $x\in Z_n$, we can tile $I_n^T(x)$ from left to right, skipping &lsquo;bad&rsquo; intervals (i.e., intervals $I_y$ with $y\in B$), which leaves out at-most an $(\epsilon/2+L/n)$-fraction of $I_n^T(x)$ untiled by the $I_y$&rsquo;s; choose $n\gg0$ such that $L/n&lt;\epsilon/2$.<span style="float:right;">$\square$</span></p>
+<p>\end{proof}</p>
+<h2 id="main-proof">Main proof</h2>
+<p>With these tools in hand, we can finally proceed to the main proof.</p>
+<div class="space"></div>
 <p>\begin{proof}[of Theorem \iref{pointwise}]</p>
-<p>\TODO</p>
+<p>By replacing $f$ by $f-\int f\,\d\mu$, we can without loss of generality assume that $\int f\,\d\mu=0$. To show that $\lim_nA_n^Tf=0$, it suffices to show that $\limsup_nA_n^Tf\leq0$, for then $-\liminf_nA_n^Tf=\limsup_nA_n^T(-f)\leq0$ as well. To this end, we first note that $l\coloneqq\limsup_nA_n^Tf:X\to\R$ is $T$-invariant. Indeed, for any $x\in X$, we have
+\begin{equation*}
+A_n^Tf(x)=\frac{1}{n}f(x)+\frac{n-1}{n}A_{n-1}^Tf(x),
+\end{equation*}
+so taking $\limsup_n$ gives $l(x)=l(Tx)$ as desired. Thus $l$ is constant a.e. by Fact \iref{characterization}, say at $l_0\in\R$.</p>
+<br>
+<p>  Suppose towards a contradiction that $f^\ast\coloneqq l_0/2&gt;0$, so for each $x\in X$, there is a minimal $\eta(x)&lt;\omega$ such that $A_{\eta(x)}^Tf(x)\geq f^\ast$. Thus, we can cover $X$ by intervals $I_x\coloneqq I_{\eta(x)}^Tx$ so that the average of $f$ on those intervals is no less than $f^\ast$. If we can make the lengths of those intervals uniform, i.e., find some $n&lt;\omega$ such that $A_n^Tf\geq f^\ast$, then
+\begin{equation*}
+0=\int f\,\d\mu=\int A_n^Tf\,\d\mu\geq\int f^\ast\,\d\mu=f^\ast&gt;0
+\end{equation*}
+by Fact \iref{local-global_bridge}, a contradiction. This is too much to ask for, but the Tiling Lemma says that we are not too far off.</p>
+<br>
+<p>  More formally, first use Fact \iref{99_bounded} to restrict to a measurable set $X_0\subeq X$ on which $f$ is bounded, say $f\geq-M$ for some $M\geq0$, and $\int_{X\comp X_0}(f-f^\ast)\,\d\mu\leq f^\ast/2$, so $\int_{X\comp X_0}f\,\d\mu\geq f^\ast/2$; restrict $f_0\coloneqq\l.f\r|_{X_0}$. By Lemma \iref{tiling} applied to some $\epsilon&gt;0$ to be chosen later, there is some $n\gg0$ and some $Z\subeq X_0$ of measure $\geq\mu(X_0)-\epsilon$ such that for each $x\in Z$, the interval $I_n^T(x)$ is tiled by $I_y$&rsquo;s up to an $\epsilon$-fraction. Since $f_0\geq f$, we have $A^T_{\eta(y)}f_0(y)\geq f^\ast$ too, so for all $x\in Z$,
+\begin{equation*}
+A_n^Tf_0(x)\geq(1-\epsilon)f^\ast+\epsilon(-M)=f^\ast-\epsilon(M+f^\ast)\geq f^\ast/2
+\end{equation*}
+for sufficiently small $\epsilon&gt;0$. But then we can replicate the contradiction above to obtain
+\begin{equation*}
+0=\int f\,\d\mu=\int_{X\comp X_0}f\,\d\mu+\int_Zf_0\,\d\mu+\int_{X_0\comp Z}f_0\,\d\mu\geq\frac{f^\ast}{2}+\int_ZA_n^Tf_0\,\d\mu+\mu(X_0\comp Z)(-M)\geq f^\ast-\epsilon M&gt;0
+\end{equation*}
+for sufficiently small $\epsilon&gt;0$, as desired.<span style="float:right;">$\blacksquare$</span></p>
 <p>\end{proof}</p>
 <h1 id="generalizations">Generalizations</h1>
+<h2 id="non-ergodic-transformations">Non-ergodic transformations</h2>
+<p>\TODO</p>
+<h2 id="amenable-group-actions">Amenable group actions</h2>
 <p>\TODO</p>
 
 
