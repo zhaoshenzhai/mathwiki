@@ -12,11 +12,9 @@ The notion of a _measure_ systematically generalizes length in $\R$, area in $\R
 
 A _measure_ on a \ref[measurable space]{measurable_space} $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\e)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint countable family $(A_n)_{n<\omega}$ of sets in $\mc{B}$.
 
-<br>
-
-&emsp;&emsp;We call the triple $(X,\mc{B},\mu)$ a _measure space_.
-
 \end{definition}
+
+We call the triple $(X,\mc{B},\mu)$ a _measure space_.
 
 \begin{example}[Counting measure]
 
