@@ -6,37 +6,15 @@ tags: [In_Progress]
 
 # Statement and Proof
 
-The _Poincaré Recurrence Theorem_ asserts that certain dynamical systems will almost surely return to the initial state of the system. Here, we state and prove this theorem in the measure category.
+Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}. A set $A\subeq X$ is _$T$-forward recurrent_ if for each $x\in A$, there exists $n\geq1$ such that $T^n(x)\in A$.
 
-<br>
+\begin{theorem}[Poincaré]\label{poincare_recurrence}
 
-&emsp;&emsp;Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}.
-
-\begin{definition}
-
-A set $A\subeq X$ is _forward recurrent_ if for each $x\in A$, there exists $n\geq1$ such that $T^n(x)\in A$.
-
-\end{definition}
-
-\begin{theorem}[Poincaré Recurrence]\label{poincare_recurrence}
-
-Every measurable set $A\subeq X$ is a.e.-forward recurrent.
-
-<br>
-
-&emsp;&emsp;That is, there exists a measurable set $A_0\subeq_\mu A$ such that $A_0$ is forward recurrent.
+Every measurable set $A\subeq X$ is $T$-forward recurrent on a conull set $A_0\subeq_\mu A$.
 
 \end{theorem}
 
-## Proof
-
-We prove this theorem following \cite{Tse22}.
-
-\begin{definition}
-
-A set $W\subeq X$ is _wandering_ if the family $\l\\{T^{-n}(W)\r\\}_{n<\omega}$ is pairwise-disjoint.
-
-\end{definition}
+&emsp;&emsp;We prove this following \cite{Tse22}. A set $W\subeq X$ is _wandering_ if the family $\l\\{T^{-n}(W)\r\\}_{n<\omega}$ is pairwise-disjoint.
 
 \begin{lemma}\label{wandering_null}
 
@@ -62,7 +40,7 @@ Let $W\coloneqq\bigcap_{n\geq1}\l\\{x\in A\st T^n(x)\not\in A\r\\}$, which is cl
 
 \end{proof}
 
-\begin{corollary}
+\begin{corollary}\label{measurable_saturation}
 
 For every measurable set $A\subeq X$, there exists $A\_0\subeq_\mu A$ such that $[A\_0]\_{\E\_T}=\bigcup\_{n<\omega}T^{-n}(A\_0)$.
 

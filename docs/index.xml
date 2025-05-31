@@ -6,8 +6,22 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Density Characterization of Ergodicity</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/ergodic_characterization_density/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/ergodic_characterization_density/</guid>
+      <description>&lt;p&gt;Let $(X,\mu,T)$ be a \ref[measure preserving dynamical system]{measure-preserving_dynamical_system}. A set $A\subeq X$ is &lt;em&gt;$T$-forward recurrent&lt;/em&gt; if for each $x\in X$, we have $T^n(x)\in A$ for some $n\geq1$.&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Poincaré Recurrence]{poincare_recurrence_theorem}]\label{poincare_recurrence_theorem}&lt;/p&gt;&#xA;&lt;p&gt;Every measurable set $A\subeq X$ is $T$-forward recurrent on a conull set $A_0\subeq_\mu A$.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{corollary}[of Fact \iref{poincare_recurrence_theorem}]\label{measurable_saturation}&lt;/p&gt;&#xA;&lt;p&gt;For each measurable $A\subeq X$, there exists $A_0\subeq_\mu A$ such that $[A_0]_T=\bigcup_nT^{-n}(A_0)$.&lt;/p&gt;&#xA;&lt;p&gt;\end{corollary}&lt;/p&gt;&#xA;&lt;p&gt;This holds for arbitrary pmp transformations $T:X\to X$. It turns out that \ref[ergodicity]{measure-preserving_dynamical_system#ergodic-transformations} is equivalent to a strong form of recurrence, namely that for a.e. $x$ in the &lt;em&gt;entire&lt;/em&gt; space $X$, we have $T^n(x)\in A$ for some $n&amp;lt;\omega$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Functional Characterization of Ergodicity</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/ergodic_characterization_functional/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/ergodic_characterization_functional/</guid>
+      <description>&lt;p&gt;Let $(X,\mu,T)$ be a \ref[measure preserving dynamical system]{measure-preserving_dynamical_system}. A measurable function $f:X\to Y$ (to a measurable space $Y$) is &lt;em&gt;$T$-invariant&lt;/em&gt; if $f\circ T=f$. Equivalently, $f$ is $T$-invariant if it is $\E_T$-invariant (i.e., constant on each $\E_T$-class), where $\E_T$ is the &lt;em&gt;orbit equivalence relation of $T$&lt;/em&gt; given by $x\E_Ty$ iff $T^n(x)=T^m(y)$ for some $n,m&amp;lt;\omega$.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  Using $T$-invariant functions, we can characterize the \ref[ergodicity]{measure-preserving_dynamical_system#ergodic-transformations} of $T$ as follows.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Functional]\label{functional_characterization}&lt;/p&gt;&#xA;&lt;p&gt;A pmp transformation $T:X\to X$ is ergodic iff every $T$-invariant measurable function $f:X\to Y$ to a \ref[standard Borel space]{measurable_space#borel-sigma-algebra} is constant a.e..&lt;/p&gt;</description>
+    </item>
     <item>
       <title>99_percent_lemmas</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/99_percent_lemmas/</link>
@@ -37,13 +51,6 @@
       <description>&lt;h1 id=&#34;motivation-and-definition&#34;&gt;Motivation and Definition&lt;/h1&gt;&#xA;&lt;p&gt;Let $X$ be a set. A point $x\in X$ can, equivalently, be viewed as a map $\l\{\ast\r\}\to X$ sending $\ast\mapsto x$, which induces a map $\chi_x:2^X\to2^{\l\{\ast\r\}}\iso2$, with $\chi_x(A)\coloneqq1$ iff $x\in A$. Thus, we can view maps $2^X\to2$ as &amp;lsquo;generalized points&amp;rsquo;.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  We say that a generalized point $\chi:2^X\to2$ is a &lt;em&gt;filter&lt;/em&gt; if it is a morphism of bounded meet \ref[semilattices]{semilattice}, i.e., $\chi(X)=1$ and $\chi(A\cap B)=\chi(A)\chi(B)$. Note that $\chi:2^X\to2$ can be viewed as a collection $F\subeq2^X$ of subsets of $X$ by $F\coloneqq\chi^{-1}(1)$, so in this language, we deduce the following properties, which in fact characterizes such maps.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Characterizations of Ergodicity</title>
-      <link>https://zhaoshenzhai.github.io/mathwiki/characterizations_of_ergodicity/</link>
-      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://zhaoshenzhai.github.io/mathwiki/characterizations_of_ergodicity/</guid>
-      <description>&lt;p&gt;Let $(X,\mu,T)$ be a \ref[measure preserving dynamical system]{measure-preserving_dynamical_system}. We provide some characterizations for when it is \ref[ergodic]{measure-preserving_dynamical_system#ergodic-transformations}.&lt;/p&gt;&#xA;&lt;h1 id=&#34;functional-characterization&#34;&gt;Functional characterization&lt;/h1&gt;&#xA;&lt;p&gt;Recall that a measurable function $f:X\to Y$ (to a measurable space $Y$) is &lt;em&gt;$T$-invariant&lt;/em&gt; if $f\circ T=f$. Equivalently, $f$ is $T$-invariant if it is $\E_T$-invariant (i.e., constant on each $\E_T$-class), where $\E_T$ is the &lt;em&gt;orbit equivalence relation of $T$&lt;/em&gt; given by $x\E_Ty$ iff $T^n(x)=T^m(y)$ for some $n,m&amp;lt;\omega$.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  Using $T$-invariant functions, we can characterize the ergodicity of $T$ as follows.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Continuity of Measures</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/continuity_of_measures/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
@@ -55,14 +62,14 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/poincare_recurrence_theorem/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/poincare_recurrence_theorem/</guid>
-      <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;The &lt;em&gt;Poincaré Recurrence Theorem&lt;/em&gt; asserts that certain dynamical systems will almost surely return to the initial state of the system. Here, we state and prove this theorem in the measure category.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A set $A\subeq X$ is &lt;em&gt;forward recurrent&lt;/em&gt; if for each $x\in A$, there exists $n\geq1$ such that $T^n(x)\in A$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Poincaré Recurrence]\label{poincare_recurrence}&lt;/p&gt;&#xA;&lt;p&gt;Every measurable set $A\subeq X$ is a.e.-forward recurrent.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}. A set $A\subeq X$ is &lt;em&gt;$T$-forward recurrent&lt;/em&gt; if for each $x\in A$, there exists $n\geq1$ such that $T^n(x)\in A$.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Poincaré]\label{poincare_recurrence}&lt;/p&gt;&#xA;&lt;p&gt;Every measurable set $A\subeq X$ is $T$-forward recurrent on a conull set $A_0\subeq_\mu A$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;  We prove this following \cite{Tse22}. A set $W\subeq X$ is &lt;em&gt;wandering&lt;/em&gt; if the family $\l\{T^{-n}(W)\r\}_{n&amp;lt;\omega}$ is pairwise-disjoint.&lt;/p&gt;&#xA;&lt;p&gt;\begin{lemma}\label{wandering_null}&lt;/p&gt;&#xA;&lt;p&gt;Every wandering measurable set $W\subeq X$ is $\mu$-null.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pointwise Ergodic Theorem</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/pointwise_ergodic_theorem/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/pointwise_ergodic_theorem/</guid>
-      <description>&lt;p&gt;Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}. Birkhoff&amp;rsquo;s &lt;em&gt;Ergodic Hypothesis&lt;/em&gt; states that the time and space averages for certain functions $f\in L^1(X,\mu)$ coincide. It turns out that this hypothesis holds iff $T$ is \ref[ergodic]{ergodic}.&lt;/p&gt;&#xA;&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;Given a function $f\in L^1(X,\mu)$ and $x\in X$, we can study the values $f$ take on the forward orbit $I_n^T(x)\coloneqq\{T^ix\}_{i&amp;lt;n}$ restrict to $n$ time steps. The &lt;em&gt;time average&lt;/em&gt; of $(f,x)$ for the first $n$ time steps is $A_n^Tf(x)\coloneqq\frac{1}{n}\sum_{i&amp;lt;n}f(T^i(x))$, which, considering the system uniformly, induces a function $A_n^Tf:X\to\R$. One can then take $n\to\infty$ to obtain the &lt;em&gt;time average&lt;/em&gt; of $f$ as $\lim_nA_n^Tf$. On the other hand, we can consider the &lt;em&gt;space average&lt;/em&gt; $\int f\,\d\mu$, which is the average value of $f$ at a particular time. It turns out that these two averages coincide a.e. iff $T$ is ergodic.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}. For each $n&amp;lt;\omega$ and $x\in X$, let $I_n^T(x)\coloneqq\{T^i(x)\}_{i&amp;lt;n}$ be the &lt;em&gt;forward interval of $x$ under $T$ with $n$ time steps&lt;/em&gt;, and given a function $f\in L^1(X,\mu)$, let $A_n^Tf\coloneqq\frac{1}{n}\sum_{i&amp;lt;n}f\circ T^i$ be the &lt;em&gt;time average&lt;/em&gt; of $f$ over this interval.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Birkhoff&amp;rsquo;s Pointwise Ergodic Theorem]\label{pointwise}&lt;/p&gt;&#xA;&lt;p&gt;Let $(X,\mu,T)$ be a measure-preserving dynamical system. If $T$ is \ref[ergodic]{measure-preserving_dynamical_system#ergodic-transformations}, then for every $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Borel-Cantelli Lemmas</title>

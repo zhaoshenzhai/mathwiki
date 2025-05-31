@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atom on MathWiki</title>
+    <link>https://zhaoshenzhai.github.io/mathwiki/tags/atom/</link>
+    <description>Recent content in Atom on MathWiki</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/atom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pointwise Ergodic Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/pointwise_ergodic_theorem/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/pointwise_ergodic_theorem/</guid>
+      <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}. For each $n&amp;lt;\omega$ and $x\in X$, let $I_n^T(x)\coloneqq\{T^i(x)\}_{i&amp;lt;n}$ be the &lt;em&gt;forward interval of $x$ under $T$ with $n$ time steps&lt;/em&gt;, and given a function $f\in L^1(X,\mu)$, let $A_n^Tf\coloneqq\frac{1}{n}\sum_{i&amp;lt;n}f\circ T^i$ be the &lt;em&gt;time average&lt;/em&gt; of $f$ over this interval.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Birkhoff&amp;rsquo;s Pointwise Ergodic Theorem]\label{pointwise}&lt;/p&gt;&#xA;&lt;p&gt;Let $(X,\mu,T)$ be a measure-preserving dynamical system. If $T$ is \ref[ergodic]{measure-preserving_dynamical_system#ergodic-transformations}, then for every $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

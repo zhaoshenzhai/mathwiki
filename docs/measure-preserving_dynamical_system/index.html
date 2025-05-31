@@ -55,19 +55,13 @@
 <p>\end{definition}</p>
 <h2 id="orbits-and-recurrence">Orbits and recurrence</h2>
 <p>Throughout, let $(X,\mu,T)$ be a measure-preserving dynamical system.</p>
-<br>
-<p>  The <em>orbit equivalence relation</em> of $T$ is the equivalence relation $\E_T\subeq X^2$ given by $x\E_Ty$ iff $T^n(x)=T^m(y)$ for some $n,m\in\N$. The <em>forward orbit</em> of a point $x\in X$ is the set $\l\{T^n(x)\r\}_{n\in\N}$. A subset $A\subeq X$ is said to be <em>$T$-forward recurrent</em> if for each $x\in X$, we have $T^n(x)\in A$ for some $n\geq1$.</p>
-<p>\begin{fact}[\ref[Poincaré Recurrence]{poincare_recurrence_theorem}]\label{poincare_recurrence_theorem}</p>
-<p>Every measurable set $A\subeq X$ is $T$-forward recurrent on a conull set $A_0\subeq_\mu A$.</p>
-<p>\end{fact}</p>
-<p>  Let $E\subeq X^2$ be an \ref[equivalence relation]{equivalence_relation}. A set $A\subeq X$ is said to be <em>$E$-invariant</em> if $A$ is a union of $E$-classes, and the <em>$E$-saturation</em> of $A$ is $[A]_E\coloneqq\bigcup_{x\in A}[x]_E$; clearly, $A$ is $E$-invariant iff $A=[A]_E$. A function $f:X\to Y$ is said to be <em>$E$-invariant</em> if $f$ is constant on each $E$-class.</p>
-<br>
-<p>  For a pmp transformation $T$, we say that $A$ (resp. $f$) is <em>$T$-invariant</em> if $A$ is $\E_T$-invariant. The <em>$T$-saturation</em> of $A$ is $[A]_T\coloneqq[A]_{\E_T}=\bigcup_{n,m\in\Z}T^{-n}(T^m)(A)$, which is not <em>a priori</em> measurable \TODO[it is?]. However,</p>
-<p>\begin{corollary}[of Fact \iref{poincare_recurrence_theorem}]</p>
-<p>For each measurable $A\subeq X$, there exists $A_0\subeq_\mu A$ such that $[A_0]_T=\bigcup_nT^{-n}(A_0)$.</p>
-<p>\end{corollary}</p>
-<h1 id="ergodic-transformations">Ergodic transformations</h1>
-<p>The measure-theoretic analogue for transitivity of group actions of sets is <em>ergodicity</em>:</p>
+<ul>
+<li>The <em>orbit \ref[equivalence relation]{equivalence_relation}</em> $\E_T\subeq X^2$ of $T$ is given by $x\E_Ty$ iff $T^n(x)=T^m(y)$ for some $n,m\in\N$.</li>
+<li>The <em>forward orbit</em> of a point $x\in X$ is $\l\{T^n(x)\r\}_{n&lt;\omega}$. The <em>saturation</em> of $A\subeq X$ is $[A]_{\E_T}\coloneqq\bigcup_{x\in A}[x]_{\E_T}$.</li>
+<li>A subset $A\subeq X$ is said to be <em>$T$-forward recurrent</em> if for each $x\in X$, we have $T^n(x)\in A$ for some $n\geq1$.</li>
+</ul>
+<h2 id="ergodic-transformations">Ergodic transformations</h2>
+<p>The measure-theoretic analogue for transitivity of group actions is <em>ergodicity</em>:</p>
 <p>\begin{definition}</p>
 <p>A system $(X,\mu,T)$ is <em>ergodic</em> if each $\E_T$-invariant measurable set $A\subeq X$ is either null or conull.</p>
 <p>\end{definition}</p>
@@ -77,13 +71,20 @@
 <p>\begin{example}[Bernoulli shifts]</p>
 <p>On $2^\omega$ equipped with the Bernoulli$_{1/2}$ measure, the <em>shift map</em> $s:(x_n)\mapsto(x_{n+1})$ is \ref[mixing]{mixing_transformation}, hence ergodic. \TODO[link to Baker&rsquo;s map]</p>
 <p>\end{example}</p>
-<p>\begin{fact}[\ref[Characterizations of ergodicity]{characterizations_of_ergodicity}]</p>
+<h1 id="properties">Properties</h1>
+<p>\begin{fact}[\ref[Poincaré Recurrence]{poincare_recurrence_theorem}]\label{poincare_recurrence_theorem}</p>
+<p>Every measurable set $A\subeq X$ is $T$-forward recurrent on a conull set $A_0\subeq_\mu A$.</p>
+<p>\end{fact}</p>
+<p>\begin{corollary}[of Fact \iref{poincare_recurrence_theorem}]</p>
+<p>For each measurable $A\subeq X$, there exists $A_0\subeq_\mu A$ such that $[A_0]_{\E_T}=\bigcup_nT^{-n}(A_0)$.</p>
+<p>\end{corollary}</p>
+<p>\begin{fact}[Characterizations of ergodicity]</p>
 <p>The following are equivalent for a pmp transformation $T:X\to X$.</p>
 <ol>
-<li>$T$ is ergodic.</li>
-<li>(Functional). Every $T$-invariant measurable function $f:X\to Y$ to a \ref[standard Borel space]{measurable_space#borel-sigma-algebra} is constant a.e.</li>
-<li>(Density). For every positively-measured subset $A\subeq X$, the saturation $[A]_{\E_T}$ is $\mu$-conull.</li>
-<li>(\ref[Pointwise Ergodic Theorem]{pointwise_ergodic_theorem}). For all $f\in L^1(X,\mu)$, we have $\lim_n\frac{1}{n}\sum_{i&lt;n}f(f^i(x))=\int f\,\d\mu$ for a.e. $x\in X$.</li>
+<li>$T$ is ergodic: every $T$-invariant measurable set $A\subeq X$ is either null or conull.</li>
+<li>(\ref[Functional]{ergodic_characterization_functional}). Every $T$-invariant measurable function $f:X\to Y$ to a \ref[standard Borel space]{measurable_space#borel-sigma-algebra} is constant a.e.</li>
+<li>(\ref[Density]{ergodic_characterization_density}). For every positively-measured subset $A\subeq X$, the saturation $[A]_{\E_T}$ is $\mu$-conull.</li>
+<li>(\ref[Pointwise Ergodic Theorem]{pointwise_ergodic_theorem}). For all $f\in L^1(X,\mu)$, we have $\lim_n\frac{1}{n}\sum_{i&lt;n}f(T^i(x))=\int f\,\d\mu$ for a.e. $x\in X$.</li>
 </ol>
 <p>\end{fact}</p>
 

@@ -1,28 +1,46 @@
 ---
 title: Pointwise Ergodic Theorem
 date: 2025-05-13
-tags: [In_Progress]
+tags: [atom]
 ---
-
-Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}. Birkhoff's _Ergodic Hypothesis_ states that the time and space averages for certain functions $f\in L^1(X,\mu)$ coincide. It turns out that this hypothesis holds iff $T$ is \ref[ergodic]{ergodic}.
 
 # Statement and Proof
 
-Given a function $f\in L^1(X,\mu)$ and $x\in X$, we can study the values $f$ take on the forward orbit $I_n^T(x)\coloneqq\\{T^ix\\}_{i<n}$ restrict to $n$ time steps. The _time average_ of $(f,x)$ for the first $n$ time steps is $A\_n^Tf(x)\coloneqq\frac{1}{n}\sum\_{i<n}f(T^i(x))$, which, considering the system uniformly, induces a function $A_n^Tf:X\to\R$. One can then take $n\to\infty$ to obtain the _time average_ of $f$ as $\lim_nA_n^Tf$. On the other hand, we can consider the _space average_ $\int f\\,\d\mu$, which is the average value of $f$ at a particular time. It turns out that these two averages coincide a.e. iff $T$ is ergodic.
+Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}. For each $n<\omega$ and $x\in X$, let $I\_n^T(x)\coloneqq\\{T^i(x)\\}\_{i<n}$ be the _forward interval of $x$ under $T$ with $n$ time steps_, and given a function $f\in L^1(X,\mu)$, let $A\_n^Tf\coloneqq\frac{1}{n}\sum\_{i<n}f\circ T^i$ be the _time average_ of $f$ over this interval.
 
 \begin{theorem}[Birkhoff's Pointwise Ergodic Theorem]\label{pointwise}
 
-Let $(X,\mu,T)$ be a measure-preserving dynamical system. If $T$ is ergodic, then for every $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\\,\d\mu$.
+Let $(X,\mu,T)$ be a measure-preserving dynamical system. If $T$ is \ref[ergodic]{measure-preserving_dynamical_system#ergodic-transformations}, then for every $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\\,\d\mu$.
 
 \end{theorem}
 
-## Setup and the Tiling Lemma
+\begin{corollary}
 
-The proof of this theorem will require several general facts.
+Let $(X,\mu,T)$ be a measure-preserving dynamical system. The following are equivalent.
+1. $T$ is ergodic.
+2. For all $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\\,\d\mu$.
+3. For all $f\in L^\infty(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\\,\d\mu$.
+4. For all measurable $A\subeq X$, we have $\lim_n|A\cap I_n^T(x)|/n=\mu(A)$ for $\mu$-a.e. $x\in X$.
 
-\begin{fact}[\ref[Functional characterization of ergodicity]{characterizations_of_ergodicity}]\label{characterization}
+\end{corollary}
 
-A pmp transformation $T:X\to X$ is ergodic iff every $T$-invariant measurable function $f:X\to\R$ is constant a.e..
+\begin{proof}[of Corollary]
+
+Theorem \iref{pointwise} gives (1) $\Rightarrow$ (2), and since $L^\infty\subeq L^1$, (2) trivially implies (3). For (3) $\Rightarrow$ (4), let $f\coloneqq\chi_A$ and note that $A^T_nf=|A\cap I_n^T(x)|/n$ and $\int f\\,\d\mu=\mu(A)$.
+
+<br>
+
+&emsp;&emsp;Finally, if (4) holds and $A\subeq X$ is a $T$-invariant measurable set, then $A^T_n\chi_A(x)=|A\cap I_n^T(x)|/n$ is constant at either $0$ or $1$ for all $n<\omega$ and $x\in X$, so taking the limit gives $\mu(A)\in\l\\{0,1\r\\}$ as desired.<span style="float:right;">$\square$</span>
+
+\end{proof}
+
+## Tiling proof of Theorem \iref{pointwise}
+
+We give here a combinatorial proof of Theorem \iref{pointwise}, due to Tserunyan \cite{Tse22}.
+
+\begin{fact}[\ref[Functional]{ergodic_characterization_functional}]\label{characterization}
+
+$T$ is ergodic iff every $T$-invariant measurable function $f:X\to\R$ is constant a.e..
 
 \end{fact}
 
@@ -37,8 +55,6 @@ For each $f\in L^1(X,\mu)$ and $n<\omega$, we have $\int f\\,\d\mu=\int A_n^Tf\\
 For each $f\in L^1(X,\mu)$ and $\epsilon>0$, there is a measurable set $X\_0\subeq X$ such that $\l.f\r|\_{X\_0}$ is bounded and $\int\_{X\comp X\_0}f\\,\d\mu\leq\epsilon$.
 
 \end{fact}
-
-&emsp;&emsp;We will also need the following _tiling lemma_. Let $\eta:X\to\N$ be an arbitrary measurable function.
 
 \begin{lemma}[Tiling Lemma]\label{tiling}
 
@@ -55,8 +71,6 @@ By Fact \iref{99_bounded}, choose $L\geq0$ such that $B\coloneqq\\{x\in X\st\eta
 For each $x\in Z_n$, we can tile $I_n^T(x)$ from left to right, skipping 'bad' intervals (i.e., intervals $I_y$ with $y\in B$), which leaves out at-most an $(\epsilon/2+L/n)$-fraction of $I_n^T(x)$ untiled by the $I_y$'s; choose $n\gg0$ such that $L/n<\epsilon/2$.<span style="float:right;">$\square$</span>
 
 \end{proof}
-
-## Main proof
 
 With these tools in hand, we can finally proceed to the main proof.
 

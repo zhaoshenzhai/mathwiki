@@ -18,35 +18,14 @@ Let $(X,\mu)$ be a standard probability space. A map $T:X\to X$ is said to be _p
 
 \end{definition}
 
-## Orbits and recurrence
-
 Throughout, let $(X,\mu,T)$ be a measure-preserving dynamical system.
+* The _orbit \ref[equivalence relation]{equivalence_relation}_ $\E_T\subeq X^2$ of $T$ is given by $x\E_Ty$ iff $T^n(x)=T^m(y)$ for some $n,m\in\N$.
+* The _forward orbit_ of a point $x\in X$ is $\l\\{T^n(x)\r\\}\_{n<\omega}$. The _saturation_ of $A\subeq X$ is $[A]\_{\E\_T}\coloneqq\bigcup_{x\in A}[x]\_{\E\_T}$.
+* A subset $A\subeq X$ is said to be _$T$-forward recurrent_ if for each $x\in X$, we have $T^n(x)\in A$ for some $n\geq1$.
 
-<br>
+## Ergodic transformations
 
-&emsp;&emsp;The _orbit equivalence relation_ of $T$ is the equivalence relation $\E_T\subeq X^2$ given by $x\E_Ty$ iff $T^n(x)=T^m(y)$ for some $n,m\in\N$. The _forward orbit_ of a point $x\in X$ is the set $\l\\{T^n(x)\r\\}_{n\in\N}$. A subset $A\subeq X$ is said to be _$T$-forward recurrent_ if for each $x\in X$, we have $T^n(x)\in A$ for some $n\geq1$.
-
-\begin{fact}[\ref[Poincaré Recurrence]{poincare_recurrence_theorem}]\label{poincare_recurrence_theorem}
-
-Every measurable set $A\subeq X$ is $T$-forward recurrent on a conull set $A_0\subeq_\mu A$.
-
-\end{fact}
-
-&emsp;&emsp;Let $E\subeq X^2$ be an \ref[equivalence relation]{equivalence_relation}. A set $A\subeq X$ is said to be _$E$-invariant_ if $A$ is a union of $E$-classes, and the _$E$-saturation_ of $A$ is $[A]\_E\coloneqq\bigcup\_{x\in A}[x]\_E$; clearly, $A$ is $E$-invariant iff $A=[A]\_E$. A function $f:X\to Y$ is said to be _$E$-invariant_ if $f$ is constant on each $E$-class.
-
-<br>
-
-&emsp;&emsp;For a pmp transformation $T$, we say that $A$ (resp. $f$) is _$T$-invariant_ if $A$ is $\E\_T$-invariant. The _$T$-saturation_ of $A$ is $[A]\_T\coloneqq[A]\_{\E\_T}=\bigcup_{n,m\in\Z}T^{-n}(T^m)(A)$, which is not _a priori_ measurable \TODO[it is?]. However,
-
-\begin{corollary}[of Fact \iref{poincare_recurrence_theorem}]
-
-For each measurable $A\subeq X$, there exists $A_0\subeq_\mu A$ such that $[A_0]_T=\bigcup_nT^{-n}(A_0)$.
-
-\end{corollary}
-
-# Ergodic transformations
-
-The measure-theoretic analogue for transitivity of group actions of sets is _ergodicity_:
+The measure-theoretic analogue for transitivity of group actions is _ergodicity_:
 
 \begin{definition}
 
@@ -66,12 +45,20 @@ On $2^\omega$ equipped with the Bernoulli$\_{1/2}$ measure, the _shift map_ $s:(
 
 \end{example}
 
-\begin{fact}[\ref[Characterizations of ergodicity]{characterizations_of_ergodicity}]
+# Properties
+
+\begin{fact}[\ref[Poincaré Recurrence]{poincare_recurrence_theorem}]\label{poincare_recurrence_theorem}
+
+Every measurable set $A\subeq X$ is $T$-forward recurrent on a conull set $A_0\subeq_\mu A$.
+
+\end{fact}
+
+\begin{fact}[Characterizations of ergodicity]
 
 The following are equivalent for a pmp transformation $T:X\to X$.
-1. $T$ is ergodic.
-2. (Functional). Every $T$-invariant measurable function $f:X\to Y$ to a \ref[standard Borel space]{measurable_space#borel-sigma-algebra} is constant a.e.
-3. (Density). For every positively-measured subset $A\subeq X$, the saturation $[A]_{\E_T}$ is $\mu$-conull.
-4. (\ref[Pointwise Ergodic Theorem]{pointwise_ergodic_theorem}). For all $f\in L^1(X,\mu)$, we have $\lim_n\frac{1}{n}\sum_{i<n}f(f^i(x))=\int f\\,\d\mu$ for a.e. $x\in X$.
+1. $T$ is ergodic: every $T$-invariant measurable set $A\subeq X$ is either null or conull.
+2. (\ref[Functional]{ergodic_characterization_functional}). Every $T$-invariant measurable function $f:X\to Y$ to a \ref[standard Borel space]{measurable_space#borel-sigma-algebra} is constant a.e.
+3. (\ref[Density]{ergodic_characterization_density}). For every positively-measured subset $A\subeq X$, the saturation $[A]_{\E_T}$ is $\mu$-conull.
+4. (\ref[Pointwise Ergodic Theorem]{pointwise_ergodic_theorem}). For all $f\in L^1(X,\mu)$, we have $\lim_n\frac{1}{n}\sum_{i<n}f(T^i(x))=\int f\\,\d\mu$ for a.e. $x\in X$.
 
 \end{fact}

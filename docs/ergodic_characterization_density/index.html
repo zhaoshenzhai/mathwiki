@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Poincaré Recurrence Theorem</title>
+        <title>Density Characterization of Ergodicity</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,36 +42,29 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Poincaré Recurrence Theorem
+                    Density Characterization of Ergodicity
                 
             </h1>
 
-            <h1 id="statement-and-proof">Statement and Proof</h1>
-<p>Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}. A set $A\subeq X$ is <em>$T$-forward recurrent</em> if for each $x\in A$, there exists $n\geq1$ such that $T^n(x)\in A$.</p>
-<p>\begin{theorem}[Poincaré]\label{poincare_recurrence}</p>
+            <p>Let $(X,\mu,T)$ be a \ref[measure preserving dynamical system]{measure-preserving_dynamical_system}. A set $A\subeq X$ is <em>$T$-forward recurrent</em> if for each $x\in X$, we have $T^n(x)\in A$ for some $n\geq1$.</p>
+<p>\begin{fact}[\ref[Poincaré Recurrence]{poincare_recurrence_theorem}]\label{poincare_recurrence_theorem}</p>
 <p>Every measurable set $A\subeq X$ is $T$-forward recurrent on a conull set $A_0\subeq_\mu A$.</p>
-<p>\end{theorem}</p>
-<p>  We prove this following \cite{Tse22}. A set $W\subeq X$ is <em>wandering</em> if the family $\l\{T^{-n}(W)\r\}_{n&lt;\omega}$ is pairwise-disjoint.</p>
-<p>\begin{lemma}\label{wandering_null}</p>
-<p>Every wandering measurable set $W\subeq X$ is $\mu$-null.</p>
-<p>\end{lemma}</p>
-<p>\begin{proof}</p>
-<p>Since $T$ is pmp, we see that $\mu(T^{-n}(W))=\mu(W)$ for each $n&lt;\omega$. Since $W$ is wandering, we have
-\begin{equation*}
-\sum\nolimits_{n&lt;\omega}\mu(W)=\sum\nolimits_{n&lt;\omega}\mu(T^{-n}(W))=\mu\l(\bigsqcup\nolimits_{n&lt;\omega}T^{-n}(W)\r)\leq\mu(X)&lt;\infty,
-\end{equation*}
-and hence $\mu(W)=0$.<span style="float:right;">$\square$</span></p>
-<p>\end{proof}</p>
-<div class="space"></div>
-<p>\begin{proof}[of Theorem \iref{poincare_recurrence}]</p>
-<p>Let $W\coloneqq\bigcap_{n\geq1}\l\{x\in A\st T^n(x)\not\in A\r\}$, which is clearly measurable. Then $W\cap T^{-n}W=\e$ for each $n\geq1$, so $W$ is wandering, and hence $Z\coloneqq\bigcup_{n&lt;\omega}T^{-n}W$ is null by Lemma \iref{wandering_null}. Set $A_0\coloneqq A\comp Z$, so that $A_0\subeq_\mu A$, and $A_0$ is clearly forward recurrent.<span style="float:right;">$\blacksquare$</span></p>
-<p>\end{proof}</p>
-<p>\begin{corollary}</p>
-<p>For every measurable set $A\subeq X$, there exists $A_0\subeq_\mu A$ such that $[A_0]_{\E_T}=\bigcup_{n&lt;\omega}T^{-n}(A_0)$.</p>
+<p>\end{fact}</p>
+<p>\begin{corollary}[of Fact \iref{poincare_recurrence_theorem}]\label{measurable_saturation}</p>
+<p>For each measurable $A\subeq X$, there exists $A_0\subeq_\mu A$ such that $[A_0]_T=\bigcup_nT^{-n}(A_0)$.</p>
 <p>\end{corollary}</p>
+<p>This holds for arbitrary pmp transformations $T:X\to X$. It turns out that \ref[ergodicity]{measure-preserving_dynamical_system#ergodic-transformations} is equivalent to a strong form of recurrence, namely that for a.e. $x$ in the <em>entire</em> space $X$, we have $T^n(x)\in A$ for some $n&lt;\omega$.</p>
+<p>\begin{theorem}[Density]\label{density_characterization}</p>
+<p>A pmp transformation $T:X\to X$ is ergodic iff $[A]_{\E_T}$ is conull for every positively-measured subset $A\subeq X$. Equivalently, if for a.e. $x\in X$, we have $[x]_{\E_T}\cap A\neq\e$.</p>
+<p>\end{theorem}</p>
 <p>\begin{proof}</p>
-<p>Let $A_0\subeq_\mu A$ be as forward recurrent as above. If $x\in X$ is such that $T^n(x)=T^m(y)$ for some $y\in A_0$, then iteratively applying forward recurrence to $y$ furnishes some $k&lt;\omega$ such that $T^{n+k}(x)=T^{m+k}(y)\in A_0$.<span style="float:right;">$\blacksquare$</span></p>
+<p>If $A\subeq X$ is an $\E_T$-invariant measurable set that is not null, then $A=[A]_{\E_T}$ is conull by hypothesis.</p>
+<br>
+<p>  Conversely, if $\mu(A)&gt;0$, then $\mu([A]_{\E_T})&gt;0$ provided that $[A]_{\E_T}$ is measurable in the first place, so that $[A]_{\E_T}$ is conull by ergodicity of $T$. To see that $[A]_{\E_T}$ is measurable, apply Fact \iref{poincare_recurrence_theorem} to obtain some forward recurrent $A_0\subeq_\mu A$, so that $[A_0]_{\E_T}=\bigcup_{n&lt;\omega}T^{-n}(A_0)$ is measurable by Corollary \iref{measurable_saturation}. Note that $[A_0]_{\E_T}$ is conull by the same argument above, and since $[A_0]_{\E_T}\subeq[A]_{\E_T}$, we see that $[A]_{\E_T}=_\mu[A_0]_{\E_T}$ is measurable too.<span style="float:right;">$\blacksquare$</span></p>
 <p>\end{proof}</p>
+<p>\begin{remark}</p>
+<p>This provides a qualitative characterization of ergodicity. It turns out that we can boost this to obtain a more quantitative characterization too, of, say, of <em>often</em> each orbit $[x]_{\E_T}$ intersects $A$. See the \ref[Pointwise Ergodic Theorem]{pointwise_ergodic_theorem}.</p>
+<p>\end{remark}</p>
 
 
             <div id="references"></div>

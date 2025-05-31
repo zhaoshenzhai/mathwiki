@@ -46,16 +46,29 @@
                 
             </h1>
 
-            <p>Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}. Birkhoff&rsquo;s <em>Ergodic Hypothesis</em> states that the time and space averages for certain functions $f\in L^1(X,\mu)$ coincide. It turns out that this hypothesis holds iff $T$ is \ref[ergodic]{ergodic}.</p>
-<h1 id="statement-and-proof">Statement and Proof</h1>
-<p>Given a function $f\in L^1(X,\mu)$ and $x\in X$, we can study the values $f$ take on the forward orbit $I_n^T(x)\coloneqq\{T^ix\}_{i&lt;n}$ restrict to $n$ time steps. The <em>time average</em> of $(f,x)$ for the first $n$ time steps is $A_n^Tf(x)\coloneqq\frac{1}{n}\sum_{i&lt;n}f(T^i(x))$, which, considering the system uniformly, induces a function $A_n^Tf:X\to\R$. One can then take $n\to\infty$ to obtain the <em>time average</em> of $f$ as $\lim_nA_n^Tf$. On the other hand, we can consider the <em>space average</em> $\int f\,\d\mu$, which is the average value of $f$ at a particular time. It turns out that these two averages coincide a.e. iff $T$ is ergodic.</p>
+            <h1 id="statement-and-proof">Statement and Proof</h1>
+<p>Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}. For each $n&lt;\omega$ and $x\in X$, let $I_n^T(x)\coloneqq\{T^i(x)\}_{i&lt;n}$ be the <em>forward interval of $x$ under $T$ with $n$ time steps</em>, and given a function $f\in L^1(X,\mu)$, let $A_n^Tf\coloneqq\frac{1}{n}\sum_{i&lt;n}f\circ T^i$ be the <em>time average</em> of $f$ over this interval.</p>
 <p>\begin{theorem}[Birkhoff&rsquo;s Pointwise Ergodic Theorem]\label{pointwise}</p>
-<p>Let $(X,\mu,T)$ be a measure-preserving dynamical system. If $T$ is ergodic, then for every $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</p>
+<p>Let $(X,\mu,T)$ be a measure-preserving dynamical system. If $T$ is \ref[ergodic]{measure-preserving_dynamical_system#ergodic-transformations}, then for every $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</p>
 <p>\end{theorem}</p>
-<h2 id="setup-and-the-tiling-lemma">Setup and the Tiling Lemma</h2>
-<p>The proof of this theorem will require several general facts.</p>
-<p>\begin{fact}[\ref[Functional characterization of ergodicity]{characterizations_of_ergodicity}]\label{characterization}</p>
-<p>A pmp transformation $T:X\to X$ is ergodic iff every $T$-invariant measurable function $f:X\to\R$ is constant a.e..</p>
+<p>\begin{corollary}</p>
+<p>Let $(X,\mu,T)$ be a measure-preserving dynamical system. The following are equivalent.</p>
+<ol>
+<li>$T$ is ergodic.</li>
+<li>For all $f\in L^1(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</li>
+<li>For all $f\in L^\infty(X,\mu)$, we have $\lim_nA_n^Tf=_\mu\int f\,\d\mu$.</li>
+<li>For all measurable $A\subeq X$, we have $\lim_n|A\cap I_n^T(x)|/n=\mu(A)$ for $\mu$-a.e. $x\in X$.</li>
+</ol>
+<p>\end{corollary}</p>
+<p>\begin{proof}[of Corollary]</p>
+<p>Theorem \iref{pointwise} gives (1) $\Rightarrow$ (2), and since $L^\infty\subeq L^1$, (2) trivially implies (3). For (3) $\Rightarrow$ (4), let $f\coloneqq\chi_A$ and note that $A^T_nf=|A\cap I_n^T(x)|/n$ and $\int f\,\d\mu=\mu(A)$.</p>
+<br>
+<p>  Finally, if (4) holds and $A\subeq X$ is a $T$-invariant measurable set, then $A^T_n\chi_A(x)=|A\cap I_n^T(x)|/n$ is constant at either $0$ or $1$ for all $n&lt;\omega$ and $x\in X$, so taking the limit gives $\mu(A)\in\l\{0,1\r\}$ as desired.<span style="float:right;">$\square$</span></p>
+<p>\end{proof}</p>
+<h2 id="tiling-proof-of-theorem-irefpointwise">Tiling proof of Theorem \iref{pointwise}</h2>
+<p>We give here a combinatorial proof of Theorem \iref{pointwise}, due to Tserunyan \cite{Tse22}.</p>
+<p>\begin{fact}[\ref[Functional]{characterizations_of_ergodicity}]\label{characterization}</p>
+<p>$T$ is ergodic iff every $T$-invariant measurable function $f:X\to\R$ is constant a.e..</p>
 <p>\end{fact}</p>
 <p>\begin{fact}[\ref[Local-Global Bridge]{local-global_bridge}]\label{local-global_bridge}</p>
 <p>For each $f\in L^1(X,\mu)$ and $n&lt;\omega$, we have $\int f\,\d\mu=\int A_n^Tf\,\d\mu$.</p>
@@ -63,7 +76,6 @@
 <p>\begin{fact}[\ref[99{%}-bounded]{99_bounded}]\label{99_bounded}</p>
 <p>For each $f\in L^1(X,\mu)$ and $\epsilon&gt;0$, there is a measurable set $X_0\subeq X$ such that $\l.f\r|_{X_0}$ is bounded and $\int_{X\comp X_0}f\,\d\mu\leq\epsilon$.</p>
 <p>\end{fact}</p>
-<p>  We will also need the following <em>tiling lemma</em>. Let $\eta:X\to\N$ be an arbitrary measurable function.</p>
 <p>\begin{lemma}[Tiling Lemma]\label{tiling}</p>
 <p>For any $\epsilon&gt;0$, there exists $n\gg0$ such that for each $x\in X$ except on a measure-$\epsilon$ set, the interval $I_n^T(x)$ can be tiled, up to an $\epsilon$-fraction, by intervals of the form $I_y\coloneqq I_{\eta(y)}^T(y)$ for $y\in X$.</p>
 <p>\end{lemma}</p>
@@ -74,7 +86,6 @@
 \end{equation*}
 For each $x\in Z_n$, we can tile $I_n^T(x)$ from left to right, skipping &lsquo;bad&rsquo; intervals (i.e., intervals $I_y$ with $y\in B$), which leaves out at-most an $(\epsilon/2+L/n)$-fraction of $I_n^T(x)$ untiled by the $I_y$&rsquo;s; choose $n\gg0$ such that $L/n&lt;\epsilon/2$.<span style="float:right;">$\square$</span></p>
 <p>\end{proof}</p>
-<h2 id="main-proof">Main proof</h2>
 <p>With these tools in hand, we can finally proceed to the main proof.</p>
 <div class="space"></div>
 <p>\begin{proof}[of Theorem \iref{pointwise}]</p>
