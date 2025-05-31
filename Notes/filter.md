@@ -4,24 +4,15 @@ date: 2025-05-16
 tags: [In_Progress]
 ---
 
-# Motivation and Definition
-
-Let $X$ be a set. A point $x\in X$ can, equivalently, be viewed as a map $\l\\{\ast\r\\}\to X$ sending $\ast\mapsto x$, which induces a map $\chi_x:2^X\to2^{\l\\{\ast\r\\}}\iso2$, with $\chi_x(A)\coloneqq1$ iff $x\in A$. Thus, we can view maps $2^X\to2$ as 'generalized points'.
-
-<br>
-
-&emsp;&emsp;We say that a generalized point $\chi:2^X\to2$ is a _filter_ if it is a morphism of bounded meet \ref[semilattices]{semilattice}, i.e., $\chi(X)=1$ and $\chi(A\cap B)=\chi(A)\chi(B)$. Note that $\chi:2^X\to2$ can be viewed as a collection $F\subeq2^X$ of subsets of $X$ by $F\coloneqq\chi^{-1}(1)$, so in this language, we deduce the following properties, which in fact characterizes such maps.
-1. (Non-empty). $X\in F$, so in particular, $F\neq\e$.
-2. (Closed under intersections). $A\cap B\in F$ whenever $A,B\in F$.
-3. (Upward-closure). $B\in F$ if $A\in F$ and $A\subeq B$, since $\chi_F(B)=\chi_F(A)\chi_F(B)=\chi_F(A\cap B)=\chi_F(A)=1$.
-
-Abstracting this definition to an arbitrary \ref[poset]{poset}, we obtain the following definition.
+# Definition and Examples
 
 \begin{definition}
 
-Let $(P,\leq)$ be a poset. A _filter_ on $P$ is a non-empty subset $F\subeq P$ such that
+Let $(P,\leq)$ be a \ref[poset]{poset}. A _filter_ on $P$ is a non-empty subset $F\subeq P$ such that
 1. (Compatibility). If $x,y\in F$, then there exists some $z\leq x,y$ such that $z\in F$.
 2. (Upward-closure). If $x\in F$ and $x\leq y$, then $y\in F$.
+
+A proper filter $F\subeq P$ is an _ultrafilter_ if $F$ is maximal amongst all proper filters on $P$.
 
 \end{definition}
 
@@ -30,14 +21,6 @@ Let $(P,\leq)$ be a poset. A _filter_ on $P$ is a non-empty subset $F\subeq P$ s
 If $X$ is an infinite set, the _Fréchet filter_ $F\coloneqq\l\\{A\subeq X\st|X\comp A|<\aleph_0\r\\}$ is the filter $F\subeq2^X$ consisting of cofinite sets.
 
 \end{example}
-
-&emsp;&emsp;Pushing the 'generalized points' analogy further, one can ask for maps $\chi:2^X\to2$ that, in addition to being morphism of meet semilattices, is also a morphism of Boolean algebras, i.e., that $\chi(\e)=0$ and that it preserves unions. Viewing $\chi$ as a subcollection $F\subeq2^X$, we see that $F\neq2^X$ is _proper_ and that for any $A\subeq X$, (exactly) one of $A$ and $A^c$ is in $F$ since $1=\chi_F(X)=\chi_F(A\cup A^c)=\chi_F(A)+\chi_F(A^c)$. Thus these morphisms $\chi:2^X\to2$ of Boolean algebras can be thought of as maximal filters:
-
-\begin{definition}
-
-A proper filter $F\subeq P$ is an _ultrafilter_ if $F$ is maximal amongst all proper filters on $P$.
-
-\end{definition}
 
 \begin{example}[Principal filters]
 
