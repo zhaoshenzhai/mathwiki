@@ -6,9 +6,9 @@ tags: [In_Progress]
 
 Let $\Gamma$ be an \ref[amenable]{amenable} \ref[semigroup]{semigroup}, say $\N$, and fix a Følner sequence $F_n\subeq\Gamma$. The _upper density_ of a subset $A\subeq\Gamma$ with respect to the sequence $(F_n)$ is $\bar{d}(A)\coloneqq\limsup_n|A\cap F_n|/|F_n|$. For $\Gamma=\N$, we can take $F_n\coloneqq\l\\{0,\dots,n-1\r\\}$.
 
-\begin{theorem}[Furstenberg Correspondence \cite{Fur97}]\label{correspondence}
+\begin{theorem}[Furstenberg Correspondence Principle \cite{Fur97}]\label{correspondence}
 
-For any $A\subeq\Gamma$, there is a \ref[pmp action]{measure-preserving_dynamical_system} $\Gamma\act(X,\mu)$ and a measurable set $\widetilde{A}\subeq X$ such that $\bar{d}(A)=\mu(\widetilde{A})$.
+For any subset $A\subeq\Gamma$, there is a \ref[pmp action]{measure-preserving_dynamical_system} $\Gamma\act(X,\mu)$ and a measurable set $\widetilde{A}\subeq X$ such that $\bar{d}(A)=\mu(\widetilde{A})$.
 
 <br>
 
