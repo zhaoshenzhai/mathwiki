@@ -31,7 +31,7 @@ blockquote {
     width: var(--contentWidth);
     left: calc(50% - (var(--contentWidth)/2));
     padding-top: 60px;
-    text-align: left;
+    text-align: justify;
     line-height: 37px;
     transition: left var(--tocTransition);
 }

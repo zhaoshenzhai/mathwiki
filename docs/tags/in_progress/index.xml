@@ -9,11 +9,25 @@
     <lastBuildDate>Fri, 06 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Furstenberg&#39;s Correspondence Principle</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/furstenbergs_correspondence_principle/</link>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/furstenbergs_correspondence_principle/</guid>
+      <description>&lt;p&gt;\begin{theorem}[Furstenberg \cite{Fur97}]&lt;/p&gt;&#xA;&lt;p&gt;Let $\Gamma$ be an \ref[amenable]{amenable} \ref[semigroup]{semigroup}. For any $A\subeq\Gamma$, there is a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system} $(X,\mu,T)$ and a measurable set $\widetilde{A}\subeq X$ such that $\bar{d}(A)=\mu(\widetilde{A})$. In fact, for any $g_1,\dots,g_k\in\Gamma$, we have $\bar{d}(A\cap g_1^{-1}A\cap g_2^{-1}A\cap\cdots\cap g_k^{-1}A)\geq\mu(\widetilde{A}\cap g_1^{-1}\widetilde{A}\cap g_2^{-1}\widetilde{A}\cap\cdots\cap g_k^{-1}A)$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;By passing to a subsequence, we may assume that $\bar{d}(A)=\lim_n|A\cap\l\{0,\dots,n-1\r\}|/n$. Consider the shift action $T:2^\N\to2^\N$ and let $B\coloneqq[1]$. Viewing $\chi_A:\N\to2$ as an element of $2^\N$, we have that $T^j\chi_A\in B$ iff $j\in A$. We will define a measure $\mu$ on $X\coloneqq2^\N$ with the desired property.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Furstenberg&#39;s Multiple Recurrence</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/furstenbergs_multiple_recurrence/</link>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/furstenbergs_multiple_recurrence/</guid>
+      <description>&lt;p&gt;\TODO[very hard!!]&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Szemerédi&#39;s Theorem</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/szemeredis_theorem/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/szemeredis_theorem/</guid>
-      <description>&lt;p&gt;\TODO&lt;/p&gt;</description>
+      <description>&lt;p&gt;The &lt;em&gt;upper (Banach) density&lt;/em&gt; of a subset $A\subeq\N$ is $\bar{d}(A)\coloneqq\limsup_n\frac{1}{n}|A\cap\l\{0,\dots,n-1\r\}|$.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Szemerédi; 1975]\label{szemeredi}&lt;/p&gt;&#xA;&lt;p&gt;Any subset $A\subeq\N$ with strictly positive upper density contains arbitrarily long arithmetic progressions, i.e., for any $k\geq1$, there exists $n\in\N$ and $r\geq1$ such that $\l\{n+ir\st i&amp;lt;k\r\}\subeq A$.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  In fact, for any $k\geq1$, there exists $n\in\N$ such that $\bar{d}(\bigcap_{i&amp;lt;k}(A-in))&amp;gt;0$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;In 1977, Furstenberg \cite{Fur97} gave an ergodic theoretic proof of Szemerédi&amp;rsquo;s Theorem using the following facts.&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Furstenberg&amp;rsquo;s Multiple Recurrence]{furstenbergs_multiple_recurrence}]&lt;/p&gt;</description>
     </item>
     <item>
       <title>Density Characterization of Ergodicity</title>

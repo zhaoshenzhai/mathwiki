@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Szemerédi&#39;s Theorem</title>
+        <title>Furstenberg&#39;s Correspondence Principle</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,27 +42,29 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Szemerédi&#39;s Theorem
+                    Furstenberg&#39;s Correspondence Principle
                 
             </h1>
 
-            <p>The <em>upper (Banach) density</em> of a subset $A\subeq\N$ is $\bar{d}(A)\coloneqq\limsup_n\frac{1}{n}|A\cap\l\{0,\dots,n-1\r\}|$.</p>
-<p>\begin{theorem}[Szemerédi; 1975]\label{szemeredi}</p>
-<p>Any subset $A\subeq\N$ with strictly positive upper density contains arbitrarily long arithmetic progressions, i.e., for any $k\geq1$, there exists $n\in\N$ and $r\geq1$ such that $\l\{n+ir\st i&lt;k\r\}\subeq A$.</p>
-<br>
-<p>  In fact, for any $k\geq1$, there exists $n\in\N$ such that $\bar{d}(\bigcap_{i&lt;k}(A-in))&gt;0$.</p>
+            <p>\begin{theorem}[Furstenberg \cite{Fur97}]</p>
+<p>Let $\Gamma$ be an \ref[amenable]{amenable} \ref[semigroup]{semigroup}. For any $A\subeq\Gamma$, there is a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system} $(X,\mu,T)$ and a measurable set $\widetilde{A}\subeq X$ such that $\bar{d}(A)=\mu(\widetilde{A})$. In fact, for any $g_1,\dots,g_k\in\Gamma$, we have $\bar{d}(A\cap g_1^{-1}A\cap g_2^{-1}A\cap\cdots\cap g_k^{-1}A)\geq\mu(\widetilde{A}\cap g_1^{-1}\widetilde{A}\cap g_2^{-1}\widetilde{A}\cap\cdots\cap g_k^{-1}A)$.</p>
 <p>\end{theorem}</p>
-<p>In 1977, Furstenberg \cite{Fur97} gave an ergodic theoretic proof of Szemerédi&rsquo;s Theorem using the following facts.</p>
-<p>\begin{fact}[\ref[Furstenberg&rsquo;s Multiple Recurrence]{furstenbergs_multiple_recurrence}]</p>
-<p>Let $(X,\mu,T)$ be a \ref[measure-preserving dynamical system]{measure-preserving_dynamical_system}. For any positive-measure $A\subeq X$ and any $k\geq1$, there exists $n\geq1$ such that $\mu(\bigcap_{i&lt;k}T^{-in}A)&gt;0$.</p>
-<p>\end{fact}</p>
-<p>\begin{fact}[\ref[Furstenberg&rsquo;s Correspondence Principle]{furstenbergs_correspondence_principle}]</p>
-<p>For any $A\subeq\N$, there is a measure-preserving dynamical system $(X,\mu,T)$ and a measurable set $B\subeq X$ such that for any $k\geq1$ and $n_1,\dots,n_{k-1}\in\N$, we have
+<p>\begin{proof}</p>
+<p>By passing to a subsequence, we may assume that $\bar{d}(A)=\lim_n|A\cap\l\{0,\dots,n-1\r\}|/n$. Consider the shift action $T:2^\N\to2^\N$ and let $B\coloneqq[1]$. Viewing $\chi_A:\N\to2$ as an element of $2^\N$, we have that $T^j\chi_A\in B$ iff $j\in A$. We will define a measure $\mu$ on $X\coloneqq2^\N$ with the desired property.</p>
+<br>
+<p>  For each $n\in\N$, consider the weighted Dirac measure $\mu_n\coloneqq\frac{1}{n}\sum_{j&lt;n}\delta_{T^j\chi_A}$ on $X$. By the Banach-Alaoglu Theorem, the space of probability measures on $X$ is weak$^\ast$-compact. Thus, after passing to a subsequence, there is a weak$^\ast$-limit $\mu_n\to\mu$ so that $(X,\mu,T)$ is a measure-preserving dynamical system and
 \begin{equation*}
-\bar{d}(A\cap(A-n_1)\cap(A-n_2)\cap\cdots\cap(A-n_{k-1}))\geq\mu(B\cap T^{-n_1}B\cap T^{-n_2}B\cap\cdots\cap T^{-n_{k-1}}B).
-\end{equation*}</p>
-<p>\end{fact}</p>
-<p>With these two facts, Theorem \iref{szemeredi} follows by taking $n_i\coloneqq in$.</p>
+\mu(B)=\lim_{n\to\infty}\mu_n(B)=\lim_{n\to\infty}\frac{1}{n}\sum_{j&lt;n}\delta_{T^j\chi_A}(B)=\lim_{n\to\infty}\frac{1}{n}|A\cap\l\{0,\dots,n-1\r\}|=\bar{d}(A).
+\end{equation*}
+For each $i&lt;k$, observe that $j\in A-n_i$ iff $T^{j+n_i}\chi_A\in B$, which occurs iff $\delta_{T^j\chi_A}(T^{-n_j}B)=1$, and thus
+\begin{equation*}
+\bar{d}(A\cap(A-n_1)\cap\cdots\cap(A-n_{k-1}))&amp;\geq\liminf_{n\to\infty}\frac{|A\cap(A-n_1)\cap\cdots\cap(A-n_{k-1})\cap\l\{0,\dots,n-1\r\}|}{n} \
+&amp;=\liminf_{n\to\infty}\frac{1}{n}\sum_{j&lt;n}\delta_{T^j\chi_A}(B\cap T^{-n_1}B\cap\cdots\cap T^{-n_{k-1}}B) \
+&amp;=\liminf_{n\to\infty}\mu_n(B\cap T^{-n_1}B\cap\cdots\cap T^{-n_{k-1}}B) \
+&amp;=\mu(B\cap T^{-n_1}B\cap\cdots\cap T^{-n_{k-1}}B),
+\end{equation*}
+as desired.</p>
+<p>\end{proof}</p>
 
 
             <div id="references"></div>

@@ -64,46 +64,52 @@ function formatReference(ref) {
     }
 
     if (ref.title) {
-        insertComma(mainRefEl);
+        var dot = document.createElement('span');
+        dot.innerText = '. ';
+        mainRefEl.appendChild(dot);
         var title = document.createElement('span');
         title.innerText = ref.title;
-        title.style.fontStyle = 'italic';
+        if (ref.type == 'article') {
+            title.innerText = '“' + title.innerText + '”';
+        } else {
+            title.style.fontStyle = 'italic';
+        }
         mainRefEl.appendChild(title);
     }
 
-    if (ref.edition) {
-        insertComma(mainRefEl);
-        var edition = document.createElement('span');
-        edition.innerText = toNumeral(parseInt(ref.edition)) + ' ed.';
-        mainRefEl.appendChild(edition);
-    }
+    if (ref.type == 'book' || ref.type == 'online') {
+        if (ref.edition) { insertText(toNumeral(parseInt(ref.edition)) + ' ed.', ref, mainRefEl); }
+        if (ref.series) { insertText(ref.series, ref, mainRefEl); }
+        if (ref.volume) { insertText('vol. ' + ref.volume, ref, mainRefEl); }
+        if (ref.publisher) { insertText(ref.publisher, ref, mainRefEl); }
+        if (ref.date) { insertText(ref.date, ref, mainRefEl); }
 
-    if (ref.series) {
-        insertComma(mainRefEl);
-        var series = document.createElement('span');
-        series.innerText = ref.series;
-        mainRefEl.appendChild(series);
-    }
+    } else if (ref.type == 'article') {
+        if (ref.journal) {
+            insertComma(mainRefEl);
+            var inText = document.createElement('span');
+            inText.innerText = 'In: ';
+            var journal = document.createElement('span');
+            journal.innerText = ref.journal;
+            journal.style.fontStyle = 'italic';
+            mainRefEl.appendChild(inText);
+            mainRefEl.appendChild(journal);
+        }
 
-    if (ref.volume) {
-        insertComma(mainRefEl);
-        var volume = document.createElement('span');
-        volume.innerText = 'vol. ' + ref.volume;
-        mainRefEl.appendChild(volume);
-    }
+        if (ref.volume) {
+            var volume = document.createElement('span');
+            volume.innerText = ' ' + ref.volume;
+            volume.style.fontWeight = 'bold';
+            mainRefEl.appendChild(volume);
+        }
 
-    if (ref.publisher) {
-        insertComma(mainRefEl);
-        var publisher = document.createElement('span');
-        publisher.innerText = ref.publisher;
-        mainRefEl.appendChild(publisher);
-    }
+        if (ref.date) {
+            var date = document.createElement('span');
+            date.innerText = ' (' + ref.date + ')';
+            mainRefEl.appendChild(date);
+        }
 
-    if (ref.date) {
-        insertComma(mainRefEl);
-        var date = document.createElement('span');
-        date.innerText = ref.date;
-        mainRefEl.appendChild(date);
+        if (ref.pages) { insertText('pp. ' + ref.pages, ref, mainRefEl); }
     }
 
     if (ref.link) {
@@ -118,6 +124,7 @@ function formatReference(ref) {
         link.appendChild(open);
     }
 
+
     var stop = document.createElement('span');
     stop.innerText = '.';
     mainRefEl.appendChild(stop);
@@ -125,8 +132,15 @@ function formatReference(ref) {
     return el;
 }
 
-function insertComma(el) {
+function insertComma(mainRefEl) {
     var comma = document.createElement('span');
     comma.innerText = ', ';
-    el.appendChild(comma);
+    mainRefEl.appendChild(comma);
+}
+
+function insertText(text, ref, mainRefEl) {
+    insertComma(mainRefEl);
+    var element = document.createElement('span');
+    element.innerText = text;
+    mainRefEl.appendChild(element);
 }
