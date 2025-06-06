@@ -28,7 +28,7 @@ Since $T$ is pmp, we see that $\mu(T^{-n}(W))=\mu(W)$ for each $n<\omega$. Since
 \begin{equation*}
     \sum\nolimits_{n<\omega}\mu(W)=\sum\nolimits_{n<\omega}\mu(T^{-n}(W))=\mu\l(\bigsqcup\nolimits_{n<\omega}T^{-n}(W)\r)\leq\mu(X)<\infty,
 \end{equation*}
-and hence $\mu(W)=0$.<span style="float:right;">$\square$</span>
+and hence $\mu(W)=0$.<span style="float:right;">$\blacksquare$</span>
 
 \end{proof}
 

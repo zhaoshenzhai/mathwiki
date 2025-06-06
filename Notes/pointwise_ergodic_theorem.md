@@ -38,7 +38,7 @@ Theorem \iref{pointwise} gives (1) $\Rightarrow$ (2), and since $L^\infty\subeq 
 
 We give here a combinatorial proof of Theorem \iref{pointwise}, due to Tserunyan \cite{Tse22}.
 
-\begin{fact}[\ref[Functional]{ergodic_characterization_functional}]\label{characterization}
+\begin{fact}[\ref[Functional characterization of ergodicity]{ergodic_characterization_functional}]\label{characterization}
 
 $T$ is ergodic iff every $T$-invariant measurable function $f:X\to\R$ is constant a.e..
 
