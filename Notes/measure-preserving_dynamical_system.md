@@ -47,7 +47,7 @@ On $2^\N$ equipped with the Bernoulli$\_{1/2}$ measure $\mu$, the _shift map_ $\
 
 # Properties
 
-\begin{fact}[\ref[Poincaré Recurrence]{poincare_recurrence_theorem}]\label{poincare_recurrence_theorem}
+\begin{fact}[\ref[Poincaré Recurrence]{poincares_recurrence_theorem}]\label{poincares_recurrence_theorem}
 
 Every measurable set $A\subeq X$ is $T$-forward recurrent on a conull set $A_0\subeq_\mu A$.
 

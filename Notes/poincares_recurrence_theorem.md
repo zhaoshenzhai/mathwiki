@@ -1,5 +1,5 @@
 ---
-title: Poincaré Recurrence Theorem
+title: Poincaré's Recurrence Theorem
 date: 2025-05-13
 tags: [In_Progress]
 ---
@@ -24,11 +24,7 @@ Every wandering measurable set $W\subeq X$ is $\mu$-null.
 
 \begin{proof}
 
-Since $T$ is pmp, we see that $\mu(T^{-n}(W))=\mu(W)$ for each $n<\omega$. Since $W$ is wandering, we have
-\begin{equation*}
-    \sum\nolimits_{n<\omega}\mu(W)=\sum\nolimits_{n<\omega}\mu(T^{-n}(W))=\mu\l(\bigsqcup\nolimits_{n<\omega}T^{-n}(W)\r)\leq\mu(X)<\infty,
-\end{equation*}
-and hence $\mu(W)=0$.<span style="float:right;">$\blacksquare$</span>
+$\sum_n\mu(W)=\sum_n\mu(T^{-n}(W))=\mu\l(\bigsqcup_nT^{-n}(W)\r)\leq\mu(X)<\infty$, so $\mu(W)=0$.<span style="float:right;">$\blacksquare$</span>
 
 \end{proof}
 
@@ -51,3 +47,9 @@ For every measurable set $A\subeq X$, there exists $A\_0\subeq_\mu A$ such that 
 Let $A_0\subeq_\mu A$ be as forward recurrent as above. If $x\in X$ is such that $T^n(x)=T^m(y)$ for some $y\in A_0$, then iteratively applying forward recurrence to $y$ furnishes some $k<\omega$ such that $T^{n+k}(x)=T^{m+k}(y)\in A_0$.<span style="float:right;">$\blacksquare$</span>
 
 \end{proof}
+
+\begin{corollary}
+
+For any positive measure set $A\subeq X$, there exists $n\geq1$ such that $\mu(A\cap T^{-n}A)>0$.
+
+\end{corollary}

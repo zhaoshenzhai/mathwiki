@@ -6,9 +6,9 @@ tags: [In_Progress]
 
 # Statement and Proof
 
-Let $(X,\mu,T)$ be a \ref[measure preserving dynamical system]{measure-preserving_dynamical_system}. A set $A\subeq X$ is _$T$-forward recurrent_ if for each $x\in X$, we have $T^n(x)\in A$ for some $n\geq1$. We will need the following corollary of \ref[Poincaré Recurrence]{poincare_recurrence_theorem}.
+Let $(X,\mu,T)$ be a \ref[measure preserving dynamical system]{measure-preserving_dynamical_system}. A set $A\subeq X$ is _$T$-forward recurrent_ if for each $x\in X$, we have $T^n(x)\in A$ for some $n\geq1$. We will need the following corollary of \ref[Poincaré Recurrence]{poincares_recurrence_theorem}.
 
-\begin{fact}[\ref{poincare_recurrence_theorem#measurable_saturation}]\label{measurable_saturation}
+\begin{fact}[\ref{poincares_recurrence_theorem#measurable_saturation}]\label{measurable_saturation}
 
 For each measurable $A\subeq X$, there exists $A_0\subeq_\mu A$ such that $[A_0]_T=\bigcup_nT^{-n}(A_0)$.
 
