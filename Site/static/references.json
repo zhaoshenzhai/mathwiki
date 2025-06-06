@@ -57,5 +57,17 @@
             "type": "book",
             "label": "Fol99"
         }
+    },
+    {"Fur97":
+        {
+            "title": "Ergodic behavior of diagonal measures and a theorem of Szemerédi on arithmetic progressions",
+            "author": ["Harry Furstenberg"],
+            "date": "1977",
+            "journal": "Journal d’Analyse Mathématique",
+            "volume": "31",
+            "pages": "204-256",
+            "type": "article",
+            "label": "Fur97"
+        }
     }
 ]

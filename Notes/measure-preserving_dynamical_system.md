@@ -41,7 +41,7 @@ On the circle $S^1\coloneqq\R/\Z$ equipped with its \ref[Haar measure]{haar_meas
 
 \begin{example}[Bernoulli shifts]
 
-On $2^\omega$ equipped with the Bernoulli$\_{1/2}$ measure, the _shift map_ $s:(x\_n)\mapsto(x\_{n+1})$ is \ref[mixing]{mixing_transformation}, hence ergodic. \TODO[link to Baker's map]
+On $2^\N$ equipped with the Bernoulli$\_{1/2}$ measure $\mu$, the _shift map_ $\sigma(x\_n)\coloneqq(x\_{n+1})$ is \ref[mixing]{mixing_transformation}, hence ergodic. \TODO[link to Baker's map]
 
 \end{example}
 

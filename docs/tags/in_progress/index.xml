@@ -6,8 +6,15 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Szemerédi&#39;s Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/szemeredis_theorem/</link>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/szemeredis_theorem/</guid>
+      <description>&lt;p&gt;\TODO&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Density Characterization of Ergodicity</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/ergodic_characterization_density/</link>
