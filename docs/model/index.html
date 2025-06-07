@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Furstenberg&#39;s Correspondence Principle</title>
+        <title>Model</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,36 +42,45 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Furstenberg&#39;s Correspondence Principle
+                    Model
                 
             </h1>
 
-            <p>Let $\Gamma$ be an \ref[amenable]{amenable} \ref[semigroup]{semigroup}, say $\N$, and fix a Følner sequence $F_n\subeq\Gamma$. The <em>upper density</em> of a subset $A\subeq\Gamma$ with respect to the sequence $(F_n)$ is $\bar{d}(A)\coloneqq\limsup_n|A\cap F_n|/|F_n|$. For $\Gamma=\N$, we can take $F_n\coloneqq\l\{0,\dots,n-1\r\}$.</p>
-<p>\begin{theorem}[Furstenberg Correspondence Principle \cite{Fur97}]\label{correspondence}</p>
-<p>For any subset $A\subeq\Gamma$, there is a \ref[pmp action]{measure-preserving_dynamical_system} $\Gamma\act(X,\mu)$ and a measurable set $\widetilde{A}\subeq X$ such that $\bar{d}(A)=\mu(\widetilde{A})$.</p>
-<br>
-<p>  In fact, for any $g_1,\dots,g_k\in\Gamma$, we have $\bar{d}(A\cap g_1^{-1}A\cap\cdots\cap g_k^{-1}A)\geq\mu(\widetilde{A}\cap g_1^{-1}\widetilde{A}\cap \cdots\cap g_k^{-1}A)$.</p>
-<p>\end{theorem}</p>
-<p>  We prove this following \cite{Tse22}. First, we will need the following functional analytic result, which we use to construct the measure $\mu$ on $X$ by approximation.</p>
-<p>\begin{fact}[\ref[Banach-Alaoglo]{}]\label{banach_alaoglu}</p>
-<p>\TODO</p>
-<p>\end{fact}</p>
-<p>  With this in hand, we proceed to the main proof.</p>
-<div class="space"></div>
-<p>\begin{proof}[of Theorem \iref{correspondence}]</p>
-<p>By passing to a subsequence, we may assume that $\bar{d}(A)=\lim_n|A\cap F_n|/|F_n|$. Consider the shift action $\Gamma\act2^\Gamma$ by $(\gamma x)(g)\coloneqq x(g\gamma)$ and let $\widetilde{A}\coloneqq\{x\in2^\Gamma\st x(1_\Gamma)=1\}$. For each $n\in\N$, consider the measure $\mu_n\coloneqq\sum_{\gamma\in F_n}\delta_{\gamma\chi_A}/|F_n|$ on $2^\Gamma$, where we view $\chi_A$ as an element of $2^\N$, so that
-\begin{equation*}
-\mu_n(\widetilde{A})=\frac{1}{|F_n|}\sum_{\gamma\in F_n}\delta_{\gamma\chi_A}(\widetilde{A})=\frac{|A\cap F_n|}{|F_n|}
-\end{equation*}
-since $\gamma\chi_A\in g^{-1}\widetilde{A}$ iff $\gamma\in g^{-1}A$ for all $\gamma,g\in\Gamma$. By Fact \iref{banach_alaoglu}, the space of probability measures on $2^\Gamma$ is weak$^\ast$-compact, and thus, after passing to a subsequence, there is a weak$^\ast$-limit $\mu_n\to\mu$. Observe that $\Gamma\act(2^\Gamma,\mu)$ is pmp \TODO, and moreover, $\mu(\bar{A})=\bar{d}(A)$. For each $i&lt;k$, observe that $\gamma\in g_i^{-1}A$ iff $\delta_{\gamma\chi_A}(g_i^{-1}(\widetilde{A}))=1$, and thus
-\begin{equation*}
-\begin{aligned}
-\bar{d}(A\cap g_1^{-1}A\cap\cdots\cap g_k^{-1}A)&amp;\geq\liminf_{n\to\infty}\frac{|A\cap g_1^{-1}A\cap\cdots\cap g_k^{-1}A\cap F_n|}{|F_n|}=\liminf_{n\to\infty}\frac{1}{|F_n|}\sum_{\gamma\in F_n}\delta_{\gamma\chi_A}(\widetilde{A}\cap g_1^{-1}\widetilde{A}\cap\cdots\cap g_k^{-1}\widetilde{A}) \\
-&amp;=\liminf_{n\to\infty}\mu_n(\widetilde{A}\cap g_1^{-1}\widetilde{A}\cap\cdots\cap g_k^{-1}\widetilde{A})=\mu(\widetilde{A}\cap g_1^{-1}\widetilde{A}\cap\cdots\cap g_k^{-1}\widetilde{A}),
-\end{aligned}
-\end{equation*}
-as desired.<span style="float:right;">$\blacksquare$</span></p>
-<p>\end{proof}</p>
+            <h1 id="tarskian-definition">Tarskian Definition</h1>
+<p>\begin{definition}</p>
+<p>Let $L\coloneqq(\mc{F},\mc{R},\mf{a})$ be a \ref[first-order language]{language}. An <em>$L$-structure</em> is a tuple $\mc{M}\coloneqq(M,i)$ consisting of a set $M$, called the <em>universe</em>, and an <em>interpretation function</em> $i$ assigning</p>
+<ul>
+<li>to each function symbol $f\in\mc{F}$, an $\mf{a}(f)$-ary function $f^\mc{M}:M^{\mf{a}(f)}\to M$, and</li>
+<li>to each relation symbol $R\in\mc{F}$, an $\mf{a}(R)$-ary relation $R^\mc{M}\subeq M^{\mf{a}(R)}$.</li>
+</ul>
+<p>\end{definition}</p>
+<h2 id="interpretation">Interpretation</h2>
+<p>Let $\mc{M}$ be an $L$-structure. We define the <em>interpretation</em> of $L$-terms and $L$-formulas in $\mc{M}$.</p>
+<p>\begin{definition}</p>
+<p>The <em>interpretation</em> of an $L$-term $\tau(\bar{x})$ in $\mc{M}$ is the function $\tau^\mc{M}:M^{|\bar{x}|}\to M$ defined by:</p>
+<ul>
+<li>If $\tau=c\in\mc{C}$, then $\tau^\mc{M}(\bar{a})\coloneqq c^\mc{M}$ for all $\bar{a}\in M^{|\bar{x}|}$.</li>
+<li>If $\tau=x$ is a variable, then $x=x_i$ for some $1\leq i\leq n$, and let $\tau^\mc{M}(\bar{a})\coloneqq a_i$ for all $\bar{a}\in M^{|\bar{x}|}$.</li>
+<li>If $\tau=f(\tau_1,\dots,\tau_n)$ for some $f\in\mc{F}_n$, then $\tau^\mc{M}(\bar{a})\coloneqq f^\mc{M}(\tau_1^\mc{M}(\bar{a}),\dots,\tau_n^\mc{M}(\bar{a}))$ for all $\bar{a}\in M^{|\bar{x}|}$.</li>
+</ul>
+<p>\end{definition}</p>
+<p>\begin{definition}</p>
+<p>The <em>interpretation</em> of an $L$-formula $\phi(\bar{x})$ in $\mc{M}$ is the relation $\phi^\mc{M}\subeq M^{|\bar{x}|}$ defined by:</p>
+<ul>
+<li>If $\phi=(\tau_1=\tau_2)$, then $\phi^\mc{M}\coloneqq\{\bar{a}\in M^{|\bar{x}|}\st\tau_1^\mc{M}(\bar{a})=\tau_2^\mc{M}(\bar{a})\}$.</li>
+<li>If $\phi=R(\tau_1,\dots,\tau_n)$ for some $R\in\mc{R}_n$, then $\phi^\mc{M}\coloneqq\{\bar{a}\in M^{|\bar{x}|}\st(\tau_1^\mc{M}(\bar{a}),\dots,\tau_n^\mc{M}(\bar{a}))\in R^\mc{M}\}$.</li>
+<li>If $\phi=\phi_1\circ\phi_2$ where $\circ\in\l\{\land,\lor,\rightarrow,\leftrightarrow\r\}$, then $\phi^\mc{M}\coloneqq\{\bar{a}\in M^{|\bar{x}|}\st\bar{a}\in\phi_1^\mc{M}\circ\bar{a}\in\phi_2^\mc{M}\}$.</li>
+<li>If $\phi=\lnot\psi$, then $\phi^\mc{M}\coloneqq\{\bar{a}\in M^{|\bar{x}|}\st\lnot\bar{a}\in\psi^\mc{M}\}$.</li>
+<li>If $\phi=\ex y\,\psi$, then $\psi=\psi(\bar{x},y)$, and $\phi^\mc{M}\coloneqq\{\bar{a}\in M^{|\bar{x}|}\st\ex b\in M((\bar{a},b)\in\psi^\mc{M})\}$.</li>
+</ul>
+<p>If $\bar{a}\in\phi^M$, we write $M\models\phi(\bar{a})$ instead, and say that $M$ <em>models</em> $\phi(\bar{a})$. The notation $\phi(\mc{M})\coloneqq\phi^\mc{M}$ is also used.</p>
+<p>\end{definition}</p>
+<p>Given $A\subeq M$, the <em>$A$-expansion</em> of $L$ is the language $L_A\coloneqq L\sqcup\{\underline{a}\}_{a\in A}$, where $\underline{a}$ is a new constant symbol.</p>
+<h2 id="theory">Theory</h2>
+<p>Let $\mc{M}$ be an $L$-structure. The <em>theory of $M$</em> is the $L$-theory $\Th\mc{M}\coloneqq\l\{\sigma\in\Sent(L)\st M\models\sigma\r\}$. Two $L$-structures $\mc{M}$ and $\mc{N}$ are <em>elementarily equivalent</em> if $\Th\mc{M}=\Th\mc{N}$, in which case we write $\mc{M}\equiv\mc{N}$.</p>
+<h1 id="theories-and-elementarity">Theories and Elementarity</h1>
+<p>A class $\mc{K}$ of $L$-structures is an <em>elementary class</em> if there is an $L$-theory $T$ such that $\mc{K}=\l\{\mc{M}\st\mc{M}\models T\r\}$.</p>
+<h1 id="generalizations">Generalizations</h1>
 
 
             <div id="references"></div>

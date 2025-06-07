@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Furstenberg&#39;s Correspondence Principle</title>
+        <title>First-order Language</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,36 +42,34 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Furstenberg&#39;s Correspondence Principle
+                    First-order Language
                 
             </h1>
 
-            <p>Let $\Gamma$ be an \ref[amenable]{amenable} \ref[semigroup]{semigroup}, say $\N$, and fix a Følner sequence $F_n\subeq\Gamma$. The <em>upper density</em> of a subset $A\subeq\Gamma$ with respect to the sequence $(F_n)$ is $\bar{d}(A)\coloneqq\limsup_n|A\cap F_n|/|F_n|$. For $\Gamma=\N$, we can take $F_n\coloneqq\l\{0,\dots,n-1\r\}$.</p>
-<p>\begin{theorem}[Furstenberg Correspondence Principle \cite{Fur97}]\label{correspondence}</p>
-<p>For any subset $A\subeq\Gamma$, there is a \ref[pmp action]{measure-preserving_dynamical_system} $\Gamma\act(X,\mu)$ and a measurable set $\widetilde{A}\subeq X$ such that $\bar{d}(A)=\mu(\widetilde{A})$.</p>
-<br>
-<p>  In fact, for any $g_1,\dots,g_k\in\Gamma$, we have $\bar{d}(A\cap g_1^{-1}A\cap\cdots\cap g_k^{-1}A)\geq\mu(\widetilde{A}\cap g_1^{-1}\widetilde{A}\cap \cdots\cap g_k^{-1}A)$.</p>
-<p>\end{theorem}</p>
-<p>  We prove this following \cite{Tse22}. First, we will need the following functional analytic result, which we use to construct the measure $\mu$ on $X$ by approximation.</p>
-<p>\begin{fact}[\ref[Banach-Alaoglo]{}]\label{banach_alaoglu}</p>
-<p>\TODO</p>
-<p>\end{fact}</p>
-<p>  With this in hand, we proceed to the main proof.</p>
-<div class="space"></div>
-<p>\begin{proof}[of Theorem \iref{correspondence}]</p>
-<p>By passing to a subsequence, we may assume that $\bar{d}(A)=\lim_n|A\cap F_n|/|F_n|$. Consider the shift action $\Gamma\act2^\Gamma$ by $(\gamma x)(g)\coloneqq x(g\gamma)$ and let $\widetilde{A}\coloneqq\{x\in2^\Gamma\st x(1_\Gamma)=1\}$. For each $n\in\N$, consider the measure $\mu_n\coloneqq\sum_{\gamma\in F_n}\delta_{\gamma\chi_A}/|F_n|$ on $2^\Gamma$, where we view $\chi_A$ as an element of $2^\N$, so that
-\begin{equation*}
-\mu_n(\widetilde{A})=\frac{1}{|F_n|}\sum_{\gamma\in F_n}\delta_{\gamma\chi_A}(\widetilde{A})=\frac{|A\cap F_n|}{|F_n|}
-\end{equation*}
-since $\gamma\chi_A\in g^{-1}\widetilde{A}$ iff $\gamma\in g^{-1}A$ for all $\gamma,g\in\Gamma$. By Fact \iref{banach_alaoglu}, the space of probability measures on $2^\Gamma$ is weak$^\ast$-compact, and thus, after passing to a subsequence, there is a weak$^\ast$-limit $\mu_n\to\mu$. Observe that $\Gamma\act(2^\Gamma,\mu)$ is pmp \TODO, and moreover, $\mu(\bar{A})=\bar{d}(A)$. For each $i&lt;k$, observe that $\gamma\in g_i^{-1}A$ iff $\delta_{\gamma\chi_A}(g_i^{-1}(\widetilde{A}))=1$, and thus
-\begin{equation*}
-\begin{aligned}
-\bar{d}(A\cap g_1^{-1}A\cap\cdots\cap g_k^{-1}A)&amp;\geq\liminf_{n\to\infty}\frac{|A\cap g_1^{-1}A\cap\cdots\cap g_k^{-1}A\cap F_n|}{|F_n|}=\liminf_{n\to\infty}\frac{1}{|F_n|}\sum_{\gamma\in F_n}\delta_{\gamma\chi_A}(\widetilde{A}\cap g_1^{-1}\widetilde{A}\cap\cdots\cap g_k^{-1}\widetilde{A}) \\
-&amp;=\liminf_{n\to\infty}\mu_n(\widetilde{A}\cap g_1^{-1}\widetilde{A}\cap\cdots\cap g_k^{-1}\widetilde{A})=\mu(\widetilde{A}\cap g_1^{-1}\widetilde{A}\cap\cdots\cap g_k^{-1}\widetilde{A}),
-\end{aligned}
-\end{equation*}
-as desired.<span style="float:right;">$\blacksquare$</span></p>
-<p>\end{proof}</p>
+            <h1 id="definitions">Definitions</h1>
+<p>\begin{definition}</p>
+<p>A <em>(first-order) language</em> is a tuple $L\coloneqq(\mc{F},\mc{R},\mf{a})$ consisting of a set $\mc{F}$ of <em>function symbols</em>, a set $\mc{R}$ of <em>relation symbols</em>, and an <em>arity function</em> $\mf{a}:\mc{F}\sqcup\mc{R}\to\N$.</p>
+<p>\end{definition}</p>
+<p>For each $n\in\N$, we write $\mc{F}_n\coloneqq\mc{F}\cap\mf{a}^{-1}(n)$ and $\mc{R}_n\coloneqq\mc{R}\cap\mf{a}^{-1}(n)$ for the <em>$n$-ary</em> function (resp. relation) symbols, and write $\mc{C}\coloneqq\mc{F}_0$ for the <em>constant symbols</em>.</p>
+<h2 id="terms-and-formulas">Terms and formulas</h2>
+<p>Let $L$ be a language. The <em>alphabet $A_L$ of first-order language in $L$</em> is the set consisting of $L$, the symbols $\land$, $\lor$, $\lnot$, $\rightarrow$, $\leftrightarrow$, $\fa$, $\ex$, $=$, $\raise6mu{,}$, $($, $)$, and an (countably-)infinite set $\l\{x_0,x_1,\dots\r\}$ of variables.</p>
+<ul>
+<li>The set of <em>$L$-terms</em> is the smallest set of strings in the alphabet $A_L$ containing $\mc{C}$, the variables, and is closed under function symbol applications: if $\tau_1,\dots,\tau_n$ are $L$-terns and $f\in\mc{F}_n$, then $f(\tau_1,\dots,\tau_n)$ is an $L$-term.</li>
+<li>The set of <em>$L$-formulas</em> is the smallest set of strings in the alphabet $A_L$ such that
+<ol>
+<li>If $\tau_1$ and $\tau_2$ are $L$-terms, then $\tau_1=\tau_2$ is an $L$-formula.</li>
+<li>If $\tau_1,\dots,\tau_n$ are $L$-terms and $R\in\mc{R}_n$, then $R(\tau_1,\dots,\tau_n)$ is an $L$-formula.</li>
+<li>If $\phi_1$ and $\phi_2$ are $L$-formulas, then so are $\phi_1\land\phi_2$, $\phi_2\lor\phi_2$, $\lnot\phi_1$, $\phi_1\rightarrow\phi_2$, and $\phi_1\leftrightarrow\phi_2$.</li>
+<li>If $\phi$ is an $L$-formula and $x$ is a variable, then $\fa x\phi$ and $\ex x\phi$ are $L$-formulas.</li>
+</ol>
+</li>
+</ul>
+<p>The $L$-formulas formed using only (1) and (2) are said to be <em>atomic</em>, and the ones formed without (4) are said to be <em>quantifier-free</em>. A variable $x$ is said to be <em>free</em> in an $L$-formula $\phi$ if $\phi$ does not contain any substring of the form $\fa x\psi$ and $\ex x\psi$, where $\psi$ is an $L$-formula.</p>
+<ul>
+<li>A <em>constant $L$-term</em> is an $L$-term containing no variables. If $\tau$ is an $L$-term and $x_1,\dots,x_n$ is a list of variables containing all variables occurring in $\tau$, we write $\tau(x_1,\dots,x_n)$ or $\tau(\bar{x})$ for $\tau$.</li>
+<li>An <em>$L$-sentence</em> is an $L$-formula without free variables. If $\phi$ is an $L$-formula and $x_1,\dots,x_n$ is a list of variables contain all free variables in $\phi$, we write $\phi(x_1,\dots,x_n)$ or $\phi(\bar{x})$ for $\phi$.</li>
+<li>If $\phi(x_1,\dots,x_n)$ is an $L$-formula and $\tau_1,\dots,\tau_n$ are $L$-terms, we write $\phi(\bar{\tau}/\bar{x})$ for the <em>substitution</em> of $\bar{x}$ by $\bar{\tau}$ in $\phi$, obtained by replacing each occurrence of $x_i$ by $\tau_i$.</li>
+</ul>
 
 
             <div id="references"></div>
