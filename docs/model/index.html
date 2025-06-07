@@ -53,34 +53,66 @@
 <li>to each function symbol $f\in\mc{F}$, an $\mf{a}(f)$-ary function $f^\mc{M}:M^{\mf{a}(f)}\to M$, and</li>
 <li>to each relation symbol $R\in\mc{F}$, an $\mf{a}(R)$-ary relation $R^\mc{M}\subeq M^{\mf{a}(R)}$.</li>
 </ul>
+<p>Given an $L$-structure $\mc{M}$ and an \ref[$L$-theory]{theory} $T$, we write $\mc{M}\models T$ and say that <em>$\mc{M}$ is a model $T$</em> if $\mc{M}\models\sigma$ for each $\sigma\in T$, where $\mc{M}\models\sigma$ is defined inductively in the obvious way (see Definition \iref{interpret_formula} below).</p>
 <p>\end{definition}</p>
-<h2 id="interpretation">Interpretation</h2>
-<p>Let $\mc{M}$ be an $L$-structure. We define the <em>interpretation</em> of $L$-terms and $L$-formulas in $\mc{M}$.</p>
+<p>For ease of notation, we write $M$ for $\mc{M}$. We define the <em>interpretation</em> of $L$-terms and $L$-formulas in $M$.</p>
 <p>\begin{definition}</p>
-<p>The <em>interpretation</em> of an $L$-term $\tau(\bar{x})$ in $\mc{M}$ is the function $\tau^\mc{M}:M^{|\bar{x}|}\to M$ defined by:</p>
+<p>The <em>interpretation</em> of an $L$-term $\tau(\bar{x})$ in $M$ is the function $\tau^M:M^{|\bar{x}|}\to M$ defined by:</p>
 <ul>
-<li>If $\tau=c\in\mc{C}$, then $\tau^\mc{M}(\bar{a})\coloneqq c^\mc{M}$ for all $\bar{a}\in M^{|\bar{x}|}$.</li>
-<li>If $\tau=x$ is a variable, then $x=x_i$ for some $1\leq i\leq n$, and let $\tau^\mc{M}(\bar{a})\coloneqq a_i$ for all $\bar{a}\in M^{|\bar{x}|}$.</li>
-<li>If $\tau=f(\tau_1,\dots,\tau_n)$ for some $f\in\mc{F}_n$, then $\tau^\mc{M}(\bar{a})\coloneqq f^\mc{M}(\tau_1^\mc{M}(\bar{a}),\dots,\tau_n^\mc{M}(\bar{a}))$ for all $\bar{a}\in M^{|\bar{x}|}$.</li>
+<li>If $\tau=c\in\mc{C}$, then $\tau^M(\bar{a})\coloneqq c^M$ for all $\bar{a}\in M^{|\bar{x}|}$.</li>
+<li>If $\tau=x$ is a variable, then $x=x_i$ for some $1\leq i\leq n$, and let $\tau^M(\bar{a})\coloneqq a_i$ for all $\bar{a}\in M^{|\bar{x}|}$.</li>
+<li>If $\tau=f(\tau_1,\dots,\tau_n)$ for some $f\in\mc{F}_n$, then $\tau^M(\bar{a})\coloneqq f^M(\tau_1^M(\bar{a}),\dots,\tau_n^M(\bar{a}))$ for all $\bar{a}\in M^{|\bar{x}|}$.</li>
 </ul>
 <p>\end{definition}</p>
-<p>\begin{definition}</p>
-<p>The <em>interpretation</em> of an $L$-formula $\phi(\bar{x})$ in $\mc{M}$ is the relation $\phi^\mc{M}\subeq M^{|\bar{x}|}$ defined by:</p>
+<p>\begin{definition}\label{interpret_formula}</p>
+<p>The <em>interpretation</em> of an $L$-formula $\phi(\bar{x})$ in $M$ is the relation $\phi^M\subeq M^{|\bar{x}|}$ defined by:</p>
 <ul>
-<li>If $\phi=(\tau_1=\tau_2)$, then $\phi^\mc{M}\coloneqq\{\bar{a}\in M^{|\bar{x}|}\st\tau_1^\mc{M}(\bar{a})=\tau_2^\mc{M}(\bar{a})\}$.</li>
-<li>If $\phi=R(\tau_1,\dots,\tau_n)$ for some $R\in\mc{R}_n$, then $\phi^\mc{M}\coloneqq\{\bar{a}\in M^{|\bar{x}|}\st(\tau_1^\mc{M}(\bar{a}),\dots,\tau_n^\mc{M}(\bar{a}))\in R^\mc{M}\}$.</li>
-<li>If $\phi=\phi_1\circ\phi_2$ where $\circ\in\l\{\land,\lor,\rightarrow,\leftrightarrow\r\}$, then $\phi^\mc{M}\coloneqq\{\bar{a}\in M^{|\bar{x}|}\st\bar{a}\in\phi_1^\mc{M}\circ\bar{a}\in\phi_2^\mc{M}\}$.</li>
-<li>If $\phi=\lnot\psi$, then $\phi^\mc{M}\coloneqq\{\bar{a}\in M^{|\bar{x}|}\st\lnot\bar{a}\in\psi^\mc{M}\}$.</li>
-<li>If $\phi=\ex y\,\psi$, then $\psi=\psi(\bar{x},y)$, and $\phi^\mc{M}\coloneqq\{\bar{a}\in M^{|\bar{x}|}\st\ex b\in M((\bar{a},b)\in\psi^\mc{M})\}$.</li>
+<li>If $\phi=(\tau_1=\tau_2)$, then $\phi^M\coloneqq\{\bar{a}\in M^{|\bar{x}|}\st\tau_1^M(\bar{a})=\tau_2^M(\bar{a})\}$.</li>
+<li>If $\phi=R(\tau_1,\dots,\tau_n)$ for some $R\in\mc{R}_n$, then $\phi^M\coloneqq\{\bar{a}\in M^{|\bar{x}|}\st(\tau_1^M(\bar{a}),\dots,\tau_n^M(\bar{a}))\in R^M\}$.</li>
+<li>If $\phi=\phi_1\circ\phi_2$ where $\circ\in\l\{\land,\lor,\rightarrow,\leftrightarrow\r\}$, then $\phi^M\coloneqq\{\bar{a}\in M^{|\bar{x}|}\st\bar{a}\in\phi_1^M\circ\bar{a}\in\phi_2^M\}$.</li>
+<li>If $\phi=\lnot\psi$, then $\phi^M\coloneqq\{\bar{a}\in M^{|\bar{x}|}\st\lnot\bar{a}\in\psi^M\}$.</li>
+<li>If $\phi=\ex y\,\psi$, then $\psi=\psi(\bar{x},y)$, and $\phi^M\coloneqq\{\bar{a}\in M^{|\bar{x}|}\st\ex b\in M((\bar{a},b)\in\psi^M)\}$.</li>
 </ul>
-<p>If $\bar{a}\in\phi^M$, we write $M\models\phi(\bar{a})$ instead, and say that $M$ <em>models</em> $\phi(\bar{a})$. The notation $\phi(\mc{M})\coloneqq\phi^\mc{M}$ is also used.</p>
+<p>If $\bar{a}\in\phi^M$, we write $M\models\phi(\bar{a})$ instead, and say that $M$ <em>models</em> $\phi(\bar{a})$. The notation $\phi(M)\coloneqq\phi^M$ is also used.</p>
 <p>\end{definition}</p>
-<p>Given $A\subeq M$, the <em>$A$-expansion</em> of $L$ is the language $L_A\coloneqq L\sqcup\{\underline{a}\}_{a\in A}$, where $\underline{a}$ is a new constant symbol.</p>
-<h2 id="theory">Theory</h2>
-<p>Let $\mc{M}$ be an $L$-structure. The <em>theory of $M$</em> is the $L$-theory $\Th\mc{M}\coloneqq\l\{\sigma\in\Sent(L)\st M\models\sigma\r\}$. Two $L$-structures $\mc{M}$ and $\mc{N}$ are <em>elementarily equivalent</em> if $\Th\mc{M}=\Th\mc{N}$, in which case we write $\mc{M}\equiv\mc{N}$.</p>
-<h1 id="theories-and-elementarity">Theories and Elementarity</h1>
-<p>A class $\mc{K}$ of $L$-structures is an <em>elementary class</em> if there is an $L$-theory $T$ such that $\mc{K}=\l\{\mc{M}\st\mc{M}\models T\r\}$.</p>
-<h1 id="generalizations">Generalizations</h1>
+<p>The <em>elementary diagram</em> (resp. <em>atomic diagram</em>) of $M$ is the set $\Diag_\mathrm{el}(M)\coloneqq\Th_{L_M}(M)$ (resp. $\Diag(M)$) of $L_M$-sentences $\phi(\bar{a})$ such that $M\models\phi(\bar{a})$, where $\phi(\bar{x})$ is an (atomic) $L$-formula.</p>
+<h2 id="elementary-classes">Elementary classes</h2>
+<p>A class $\mc{K}$ of $L$-structures is said to be <em>axiomatizable</em> (or an <em>elementary class</em>) if there is an $L$-theory $T$ such that $\mc{K}=\l\{M\st M\models T\r\}$.</p>
+<p>\begin{example}</p>
+<p>Some examples of (non-)axiomatizable classes of $L$-structures, for suitable $L$.</p>
+<ul>
+<li>Sets, infinite sets (but not finite sets).</li>
+<li>Groups, abelian groups, ordered abelian groups (but not cyclic groups, torsion groups, or non-torsion groups).</li>
+<li>Rings, fields, fields of fixed characteristic, algebraically-closed fields, differential fields.</li>
+<li>Graphs, bipartite graphs (but not connected graphs, disconnected graphs, or non-bipartite graphs).</li>
+<li>Linear orders, partial orders, equivalence relations.</li>
+</ul>
+<p>\end{example}</p>
+<h2 id="category-of-structures">Category of structures</h2>
+<p>An <em>$L$-homomorphism</em> between $L$-structures $N$ and $N$ is a map $h:M\to N$ such that for each $\bar{a}\in M$, we have $h(f^M(\bar{a}))=f^N(h(\bar{a}))$ for each $f\in\mc{F}$ and $\bar{a}\in R^M\Rightarrow h(\bar{a})\in R^N$ for each $R\in\mc{R}$. An $L$-homomorphism $h:M\to N$ is said to be an <em>$L$-embedding</em> if $h$ is injective and the preceding &lsquo;$\Rightarrow$&rsquo; is &lsquo;$\Leftrightarrow$&rsquo;.</p>
+<br>
+<p>  Correspondingly, we have the two \ref[categories]{category} $\cat{Hom}_L$ of $L$-structures and $L$-homomorphisms and $\cat{Emb}_L$ of $L$-structures and $L$-embeddings. Another notion of a morphism, giving rise to the category $\cat{Elem}_L$, is as follows.</p>
+<p>\begin{definition}</p>
+<p>Let $M$ and $N$ be $L$-structures. A map $h:M\to N$ is an <em>elementary embedding</em> if for every $L$-formula $\phi(\bar{x})$ and every $\bar{a}\in M$, we have $M\models\phi(\bar{a})$ iff $N\models\phi(h(\bar{a}))$, in which case we write $h:M\into_eN$.</p>
+<p>\end{definition}</p>
+<p>  Let $M$ and $N$ be $L$-structures such that $M\subeq N$. If the inclusion $\iota:M\into N$ is a homomorphism (resp. an embedding, an elementary embedding), we say that $M$ is a <em>substructure</em> (resp. <em>induced substructure</em>, <em>elementary substructure</em>) of $N$, and write $M\subseq N$ (resp. $M\subseq_iN$, $M\esubeq N$).</p>
+<p>\begin{fact}[\ref{}]</p>
+<p>Let $M$ be an $L$-structure and let $N$ be an $L_M$-structure.</p>
+<ol>
+<li>We have $N\models\Diag(M)$ iff there is an $L$-embedding $M\into N$.</li>
+<li>We have $N\models\Diag_\mathrm{el}(M)$ iff there is an $L$-elementary embedding $M\into N$.</li>
+</ol>
+<p>\end{fact}</p>
+<p>\begin{fact}[\ref[Tarski-Vaught Test]{tarski-vaught_test}]\label{tarski-vaught}</p>
+<p>Let $M\subseq_iN$ be $L$-structures. Then $M\esubeq N$ iff for every formula $\phi(\bar{x},y)$ and for every $\bar{a}\in M$, we have $N\models\phi(\bar{a},a)$ for some $a\in M$ iff $N\models\ex y\phi(\bar{a},y)$.</p>
+<p>\end{fact}</p>
+<p>  Two $L$-structures $M$ and $N$ are said to be <em>elementarily equivalent</em> if $\Th M=\Th N$, where $\Th M$ is the <em>theory</em> of $M$ consisting of all $L$-sentences $\sigma$ such that $M\models\sigma$, in which case we write $M\equiv N$.</p>
+<p>\begin{fact}</p>
+<p>If $M\iso N$, then $M\equiv N$.</p>
+<p>\end{fact}</p>
+<p>\begin{remark}</p>
+<p>The notion $M\equiv N$ is <em>not</em> that of an isomorphism in $\cat{Elem}_L$; it is much weaker. Indeed, if there is an elementary embedding $h:M\into_eN$, then $M\equiv N$. For a counterexample of the converse, consider the language $L\coloneqq\l\{S\r\}$ with a single unary function symbol, so the predecessor map $h:M\to N$ between $M\coloneqq(\N_{&gt;0},S)$ and $N\coloneqq(\N_,S)$, where $S$ is interpreted as the successor, is an isomorphism, and hence $M\equiv N$. But $M\not\esubeq N$ by Fact \iref{tarski-vaught} since the truth of the $L$-formula $\phi(x)\coloneqq\lnot\ex y(S(y)=x)$ in $N$ is only witnessed by $0\in N\comp M$.</p>
+<p>\end{remark}</p>
 
 
             <div id="references"></div>

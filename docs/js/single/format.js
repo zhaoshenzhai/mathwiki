@@ -1,3 +1,4 @@
+import { contentEl } from '../single.js';
 import { removeLineBreak, firstUpper, getAbsUrl } from '../stringUtils.js';
 
 const envEls = document.getElementsByClassName('env');
@@ -117,7 +118,7 @@ function formatEnv(type, bEl, eEl, noNum) {
 }
 
 function formatCitations() {
-    format(document.body, /\\cite{.*?}/g, function (match) {
+    format(contentEl, /\\cite{.*?}/g, function (match) {
         var replaceEl = document.createElement('span');
         var label = match.replace(/\\cite{/, '').replace(/}/, '');
         var link = document.createElement('a');
@@ -133,7 +134,7 @@ function formatCitations() {
 }
 
 function formatPercentage() {
-    format(document.body, /{%}/g, function (match) {
+    format(contentEl, /{%}/g, function (match) {
         var replaceEl = document.createElement('span');
         replaceEl.innerText = '%';
         return replaceEl;
@@ -141,7 +142,7 @@ function formatPercentage() {
 }
 
 function formatTODO() {
-    format(document.body, /\\TODO\[.*?\]/g, function (match) {
+    format(contentEl, /\\TODO\[.*?\]/g, function (match) {
         var replaceEl = document.createElement('p');
 
         var todo = document.createElement('span');
@@ -158,7 +159,7 @@ function formatTODO() {
         return replaceEl;
     });
 
-    format(document.body, /\\TODO/g, function (match) {
+    format(contentEl, /\\TODO/g, function (match) {
         var replaceEl = document.createElement('p');
 
         var todo = document.createElement('span');
@@ -172,7 +173,7 @@ function formatTODO() {
 }
 
 function formatLinks() {
-    format(document.body, /\\ref\[.*?\]{.*?}/g, function (match) {
+    format(contentEl, /\\ref\[.*?\]{.*?}/g, function (match) {
         var replaceEl = document.createElement('span');
 
         var display = match.replace(/\\ref\[/, '').replace(/]\{.*?}/, '');
@@ -187,7 +188,7 @@ function formatLinks() {
         return replaceEl;
     });
 
-    format(document.body, /\\ref{.*?}/g, function (match) {
+    format(contentEl, /\\ref{.*?}/g, function (match) {
         var replaceEl = document.createElement('span');
         var ref = match.replace(/\\ref{/, '').replace(/}/, '');
 
@@ -205,7 +206,7 @@ function formatLinks() {
 }
 
 function formatInternalLinks() {
-    format(document.body, /\\iref{.*?}/g, function (match) {
+    format(contentEl, /\\iref{.*?}/g, function (match) {
         var replaceEl = document.createElement('span');
 
         var ref = match.replace(/\\iref\{/, '').replace(/}/, '');
@@ -213,7 +214,7 @@ function formatInternalLinks() {
         var refNum = refEl.getAttribute('data-envNum');
 
         var link = document.createElement('a');
-        link.setAttribute('href', ref);
+        link.setAttribute('href', '#' + ref);
         link.innerText = refNum;
         link.addEventListener('click', (e) => { e.preventDefault();
             document.getElementById(ref).scrollIntoView();
@@ -237,25 +238,16 @@ function format(el, input, convert) {
 function formatHelper(el, cont, matches, convert) {
     var newEl = document.createElement('span');
 
-    var firstIndex = cont.indexOf(matches[0]);
-    var prevText = cont.substring(0, firstIndex);
-    newEl.appendChild(document.createTextNode(prevText));
-
     for (var i = 0; i < matches.length; i++) {
+        var matchIndex = cont.indexOf(matches[i]);
+        var prevText = cont.substring(0, matchIndex);
+        newEl.appendChild(document.createTextNode(prevText));
         newEl.appendChild(convert(matches[i]));
 
-        var curIndex = cont.indexOf(matches[i]);
-        var nextIndex = cont.indexOf(matches[i + 1]);
-        var startIndex = curIndex + matches[i].length;
-        if (nextIndex != '-1') {
-            var inText = cont.substring(startIndex, nextIndex);
-            newEl.appendChild(document.createTextNode(inText));
-        } else {
-            var postText = cont.substring(startIndex, cont.length);
-            newEl.appendChild(document.createTextNode(postText));
-        }
-
+        cont = cont.substring(matchIndex + matches[i].length, cont.length);
     }
+
+    newEl.appendChild(document.createTextNode(cont));
 
     el.replaceWith(newEl);
 }

@@ -71,7 +71,7 @@ Let $M$ and $N$ be $L$-structures. A map $h:M\to N$ is an _elementary embedding_
 
 \end{definition}
 
-&emsp;&emsp;Let $M$ and $N$ be $L$-structures such that $M\subeq N$. If the inclusion $\iota:M\into N$ is a homomorphism (resp. an embedding, an elementary embedding), we say that $M$ is a _substructure_ (resp. _induced substructure_, _elementary substructure_) of $N$, and write $M\subseq N$ (resp. $M\subseq_iN$, $M\esubeq N$).
+&emsp;&emsp;Let $M$ and $N$ be $L$-structures such that $M\subeq N$. If the inclusion $\iota:M\into N$ is an (elementary) embedding, we say that $M$ is a _substructure_ (resp. an _elementary substructure_) of $N$, and write $M\subseq N$ (resp. $M\esubeq N$).
 
 \begin{fact}[\ref{}]
 
@@ -83,7 +83,7 @@ Let $M$ be an $L$-structure and let $N$ be an $L_M$-structure.
 
 \begin{fact}[\ref[Tarski-Vaught Test]{tarski-vaught_test}]\label{tarski-vaught}
 
-Let $M\subseq_iN$ be $L$-structures. Then $M\esubeq N$ iff for every formula $\phi(\bar{x},y)$ and for every $\bar{a}\in M$, we have $N\models\phi(\bar{a},a)$ for some $a\in M$ iff $N\models\ex y\phi(\bar{a},y)$.
+Let $M\subseq N$ be $L$-structures. Then $M\esubeq N$ iff for every formula $\phi(\bar{x},y)$ and for every $\bar{a}\in M$, we have $N\models\ex y\phi(\bar{a},y)$ iff $N\models\phi(\bar{a},a)$ for some $a\in M$.
 
 \end{fact}
 
