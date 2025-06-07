@@ -42,7 +42,7 @@ If $\bar{a}\in\phi^M$, we write $M\models\phi(\bar{a})$ instead, and say that $M
 
 The _elementary diagram_ (resp. _atomic diagram_) of $M$ is the set $\Diag_\mathrm{el}(M)\coloneqq\Th_{L_M}(M)$ (resp. $\Diag(M)$) of $L_M$-sentences $\phi(\bar{a})$ such that $M\models\phi(\bar{a})$, where $\phi(\bar{x})$ is an (atomic) $L$-formula.
 
-## Elementary classes
+## Axiomatizations
 
 A class $\mc{K}$ of $L$-structures is said to be _axiomatizable_ (or an _elementary class_) if there is an $L$-theory $T$ such that $\mc{K}=\l\\{M\st M\models T\r\\}$.
 
@@ -71,7 +71,9 @@ Let $M$ and $N$ be $L$-structures. A map $h:M\to N$ is an _elementary embedding_
 
 \end{definition}
 
-&emsp;&emsp;Let $M$ and $N$ be $L$-structures such that $M\subeq N$. If the inclusion $\iota:M\into N$ is an (elementary) embedding, we say that $M$ is a _substructure_ (resp. an _elementary substructure_) of $N$, and write $M\subseq N$ (resp. $M\esubeq N$).
+## Elementary substructures
+
+Let $M$ and $N$ be $L$-structures such that $M\subeq N$. If the inclusion $\iota:M\into N$ is an (elementary) embedding, we say that $M$ is a _substructure_ (resp. an _elementary substructure_) of $N$, and write $M\subseq N$ (resp. $M\esubeq N$). The _substructure generated_ by a subset $A\subeq M$ is the intersection all substructures of $M$ containing $A$; equivalently, $\l\langle A\r\rangle\coloneqq\bigcup_{n\in\omega} A_n$, where $A_0\coloneqq A\cup\\{c^M\st c\in\mc{C}\\}$ and $A_{n+1}\coloneqq A_n\cup\bigcup_{f\in\mc{F}}f^M\big(A_n^{\mf{a}(f)}\big)$.
 
 \begin{fact}[\ref{}]
 
@@ -87,7 +89,17 @@ Let $M\subseq N$ be $L$-structures. Then $M\esubeq N$ iff for every formula $\ph
 
 \end{fact}
 
-&emsp;&emsp;Two $L$-structures $M$ and $N$ are said to be _elementarily equivalent_ if $\Th M=\Th N$, where $\Th M$ is the _theory_ of $M$ consisting of all $L$-sentences $\sigma$ such that $M\models\sigma$, in which case we write $M\equiv N$.
+\begin{fact}[Löwenheim-Skolem]
+
+Every infinite $L$-structure $M$ admits elementary substructures/extensions of any cardinality $\kappa\geq\l|L\r|+\aleph_0$. More precisely:
+* (\ref[Downward]{downward_lowenheim-skolem_theorem}). For any subset $A\subseteq M$ and $|A|+|L|+\aleph_0\leq\kappa\leq|M|$, there exists $A\subeq N\esubeq M$ of cardinality $\kappa$.
+* (\ref[Upward]{upward_lowenheim-skolem_theorem}). For any $\kappa\geq\l|M\r|+\l|L\r|+\aleph_0$, there exists $N\esupeq M$ of cardinality $\kappa$.
+
+\end{fact}
+
+## Elementary equivalence
+
+Two $L$-structures $M$ and $N$ are _elementarily equivalent_ if $\Th M=\Th N$, where $\Th M$ is the _theory_ of $M$ consisting of all $L$-sentences $\sigma$ such that $M\models\sigma$, in which case we write $M\equiv N$.
 
 \begin{fact}
 
