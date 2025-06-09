@@ -73,7 +73,7 @@ Let $M$ and $N$ be $L$-structures. A map $h:M\to N$ is an _elementary embedding_
 
 ## Elementary substructures
 
-Let $M$ and $N$ be $L$-structures such that $M\subeq N$. If the inclusion $\iota:M\into N$ is an (elementary) embedding, we say that $M$ is a _substructure_ (resp. an _elementary substructure_) of $N$, and write $M\subseq N$ (resp. $M\esubeq N$). The _substructure generated_ by a subset $A\subeq M$ is the intersection all substructures of $M$ containing $A$; equivalently, $\l\langle A\r\rangle\coloneqq\bigcup_{n\in\omega} A_n$, where $A_0\coloneqq A\cup\\{c^M\st c\in\mc{C}\\}$ and $A_{n+1}\coloneqq A_n\cup\bigcup_{f\in\mc{F}}f^M\big(A_n^{\mf{a}(f)}\big)$.
+Let $M$ and $N$ be $L$-structures such that $M\subeq N$. If the inclusion $\iota:M\into N$ is an (elementary) embedding, we say that $M$ is a _substructure_ (resp. an _elementary substructure_) of $N$, and write $M\subseq N$ (resp. $M\esubeq N$). The _substructure generated_ by a subset $A\subeq M$ is the intersection all substructures of $M$ containing $A$; equivalently, $\l\langle A\r\rangle\coloneqq\bigcup_{n\in\omega} A_n$, where $A_0\coloneqq A$ and $A_{n+1}\coloneqq A_n\cup\bigcup_{f\in\mc{F}}f^M\big(A_n^{\mf{a}(f)}\big)$.
 
 \begin{fact}[\ref{}]
 
@@ -89,7 +89,7 @@ Let $M\subseq N$ be $L$-structures. Then $M\esubeq N$ iff for every formula $\ph
 
 \end{fact}
 
-\begin{fact}[Löwenheim-Skolem]
+\begin{fact}[Löwenheim-Skolem]\label{lowenheim-skolem}
 
 Every infinite $L$-structure $M$ admits elementary substructures/extensions of any cardinality $\kappa\geq\l|L\r|+\aleph_0$. More precisely:
 * (\ref[Downward]{downward_lowenheim-skolem_theorem}). For any subset $A\subseteq M$ and $|A|+|L|+\aleph_0\leq\kappa\leq|M|$, there exists $A\subeq N\esubeq M$ of cardinality $\kappa$.
@@ -101,11 +101,17 @@ Every infinite $L$-structure $M$ admits elementary substructures/extensions of a
 
 Two $L$-structures $M$ and $N$ are _elementarily equivalent_ if $\Th M=\Th N$, where $\Th M$ is the _theory_ of $M$ consisting of all $L$-sentences $\sigma$ such that $M\models\sigma$, in which case we write $M\equiv N$.
 
-\begin{fact}
+\begin{fact}\label{iso_implies_equiv}
 
 If $M\iso N$, then $M\equiv N$.
 
 \end{fact}
+
+\begin{remark}
+
+The converse of Fact \iref{iso_implies_equiv} fails dramatically: by Fact \iref{lowenheim-skolem}, for any (infinite) $L$-structure $M$, there exist (proper-class many) $L$-structures $N$ such that $M\equiv N$ but $M\not\iso N$.
+
+\end{remark}
 
 \begin{remark}
 

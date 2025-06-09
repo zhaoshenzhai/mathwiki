@@ -8,9 +8,9 @@ tags: [In_Progress]
 
 Let $L$ be a \ref[first-order language]{first-order_language}.
 
-\begin{theorem}\label{downward_lowenheim-skolem}
+\begin{theorem}[Löwenheim-Skolem]\label{downward_lowenheim-skolem}
 
-Let $M$ be an infinite \ref[$L$-structure]{model}. For any subset $A\subseteq M$ and any cardinal $\kappa\leq|M|$ such that $\kappa\geq|A|+|L|+\aleph_0$, there is an elementary substructure $N\esubeq M$ containing $A$ of cardinality $\kappa$.
+For any infinite \ref[$L$-structure]{model} $M$, any subset $A\subseteq M$, and any cardinal $\kappa$ such that $|A|+|L|+\aleph_0\leq\kappa\leq|M|$, there is an elementary substructure $N\esubeq M$ containing $A$ of cardinality $\kappa$.
 
 \end{theorem}
 
