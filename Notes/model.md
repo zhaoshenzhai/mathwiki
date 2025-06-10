@@ -73,7 +73,7 @@ Let $M$ and $N$ be $L$-structures. A map $h:M\to N$ is an _elementary embedding_
 
 ## Elementary substructures
 
-Let $M$ and $N$ be $L$-structures such that $M\subeq N$. If the inclusion $\iota:M\into N$ is an (elementary) embedding, we say that $M$ is a _substructure_ (resp. an _elementary substructure_) of $N$, and write $M\subseq N$ (resp. $M\esubeq N$). The _substructure generated_ by a subset $A\subeq M$ is the intersection all substructures of $M$ containing $A$; equivalently, $\l\langle A\r\rangle\coloneqq\bigcup_{n\in\omega} A_n$, where $A_0\coloneqq A$ and $A_{n+1}\coloneqq A_n\cup\bigcup_{f\in\mc{F}}f^M\big(A_n^{\mf{a}(f)}\big)$.
+Let $M$ and $N$ be $L$-structures such that $M\subeq N$. If the inclusion $\iota:M\into N$ is an (elementary) embedding, we say that $M$ is a _substructure_ (resp. an _elementary substructure_) of $N$, and write $M\subseq N$ (resp. $M\esubeq N$). The _substructure generated_ by a subset $A\subeq M$ is the intersection all substructures of $M$ containing $A$; equivalently, $\l\langle A\r\rangle\coloneqq\bigcup_{n<\omega} A_n$, where $A_0\coloneqq A$ and $A_{n+1}\coloneqq A_n\cup\bigcup_{f\in\mc{F}}f^M\big(A_n^{\mf{a}(f)}\big)$.
 
 \begin{fact}[\ref{}]
 
