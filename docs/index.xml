@@ -6,14 +6,35 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elementarity</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/elementarity/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/elementarity/</guid>
+      <description>&lt;p&gt;Throughout, fix a \ref[first-order language]{first-order_language} $L$.&lt;/p&gt;&#xA;&lt;h1 id=&#34;elementary-embeddings&#34;&gt;Elementary Embeddings&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;Let $M$ and $N$ be \ref[$L$-structures]{model}. A map $h:M\to N$ is an &lt;em&gt;elementary embedding&lt;/em&gt; if for every $L$-formula $\phi(\bar{x})$ and $\bar{a}\in M$, we have $M\models\phi(\bar{a})$ iff $N\models\phi(\bar{a})$, in which case we write $h:M\into_eN$.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  If $M\subeq N$ and the inclusion $\iota:M\into N$ is an elementary embedding, then we say that $M$ is an &lt;em&gt;elementary substructure&lt;/em&gt; of $N$, written $M\esubeq N$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h2 id=&#34;characterizations&#34;&gt;Characterizations&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;em&gt;elementary diagram&lt;/em&gt; (resp. &lt;em&gt;atomic diagram&lt;/em&gt;) of $M$ is the set $\Diag_\mathrm{el}(M)\coloneqq\Th_{L_M}(M)$ (resp. $\Diag(M)$) of all $L_M$-sentences $\phi(\bar{a})$ such that $M\models\phi(\bar{a})$, where $\phi(\bar{x})$ is an (atomic) $L$-formula and $\bar{a}\in M$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Elementary Equivalence</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/elementary_equivalence/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/elementary_equivalence/</guid>
+      <description>&lt;h1 id=&#34;definition&#34;&gt;Definition&lt;/h1&gt;&#xA;&lt;p&gt;\TODO&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Compactness Theorem</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/compactness_theorem/</link>
       <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/compactness_theorem/</guid>
-      <description>&lt;h1 id=&#34;statement-and-proofs&#34;&gt;Statement and Proofs&lt;/h1&gt;&#xA;&lt;p&gt;We present the most fundamental result in model theory. Let $L$ be a \ref[first-order language]{first-order_language}. An \ref[$L$-theory]{theory} $T$ is said to be &lt;em&gt;satisfiable&lt;/em&gt; if there is an \ref[$L$-structure]{model} $M$ such that $M\models T$.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Compactness Theorem; Gödel 1930]\label{compactness}&lt;/p&gt;&#xA;&lt;p&gt;An $L$-theory $T$ is satisfiable iff every finite subtheory of $T$ is satisfiable. In this case, $T$ has a model of cardinality at-most $|L|+\aleph_0$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;h2 id=&#34;proof-via-completeness&#34;&gt;Proof via completeness&lt;/h2&gt;&#xA;&lt;p&gt;Gödel&amp;rsquo;s original proof uses the following corollary of his Completeness Theorem:&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;statement-and-proofs&#34;&gt;Statement and Proofs&lt;/h1&gt;&#xA;&lt;p&gt;We present the most fundamental result in model theory. Let $L$ be a \ref[first-order language]{first-order_language}. An \ref[$L$-theory]{theory} $T$ is said to be &lt;em&gt;satisfiable&lt;/em&gt; if there is an \ref[$L$-structure]{model} $M$ such that $M\models T$.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Compactness Theorem; Gödel 1930]\label{compactness}&lt;/p&gt;&#xA;&lt;p&gt;An $L$-theory $T$ is satisfiable iff every finite subtheory of $T$ is satisfiable.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;In fact, in this case, $T$ has a model of \ref[cardinality]{cardinality} at-most $|L|+\aleph_0$ by the \ref[Downward Löwenheim-Skolem Theorem]{downward_lowenheim-skolem_theorem}.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Downward Löwenheim-Skolem Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/downward_lowenheim-skolem_theorem/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/downward_lowenheim-skolem_theorem/</guid>
+      <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;Let $L$ be a \ref[first-order language]{first-order_language}.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Löwenheim-Skolem]\label{downward_lowenheim-skolem}&lt;/p&gt;&#xA;&lt;p&gt;For any infinite \ref[$L$-structure]{model} $M$, any subset $A\subseteq M$, and any cardinal $\kappa$ such that $|A|+|L|+\aleph_0\leq\kappa\leq|M|$, there is an elementary substructure $N\esubeq M$ containing $A$ of cardinality $\kappa$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;  In order to generate a substructure $N\subseq M$ from $A$, we need to close $A$ under function applications. Here, we need to do a bit more and also close $A$ under witnesses of quantifiers:&lt;/p&gt;</description>
     </item>
     <item>
       <title>First-order Language</title>
@@ -27,14 +48,28 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/model/</link>
       <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/model/</guid>
-      <description>&lt;h1 id=&#34;tarskian-definition&#34;&gt;Tarskian Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;Let $L\coloneqq(\mc{F},\mc{R},\mf{a})$ be a \ref[first-order language]{language}. An &lt;em&gt;$L$-structure&lt;/em&gt; is a tuple $\mc{M}\coloneqq(M,i)$ consisting of a set $M$, called the &lt;em&gt;universe&lt;/em&gt;, and an &lt;em&gt;interpretation function&lt;/em&gt; $i$ assigning&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;to each function symbol $f\in\mc{F}$, an $\mf{a}(f)$-ary function $f^\mc{M}:M^{\mf{a}(f)}\to M$, and&lt;/li&gt;&#xA;&lt;li&gt;to each relation symbol $R\in\mc{F}$, an $\mf{a}(R)$-ary relation $R^\mc{M}\subeq M^{\mf{a}(R)}$.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Given an $L$-structure $\mc{M}$ and an \ref[$L$-theory]{theory} $T$, we write $\mc{M}\models T$ and say that &lt;em&gt;$\mc{M}$ is a model $T$&lt;/em&gt; if $\mc{M}\models\sigma$ for each $\sigma\in T$, where $\mc{M}\models\sigma$ is defined inductively in the obvious way (see Definition \iref{interpret_formula} below).&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;structures-and-models&#34;&gt;Structures and Models&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;Let $L\coloneqq(\mc{F},\mc{R},\mf{a})$ be a \ref[first-order language]{first-order_language}. An &lt;em&gt;$L$-structure&lt;/em&gt; is a tuple $\mc{M}\coloneqq(M,i)$ consisting of a set $M$, called the &lt;em&gt;universe&lt;/em&gt;, and an &lt;em&gt;interpretation function&lt;/em&gt; $i$ assigning&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;to each function symbol $f\in\mc{F}$, an $\mf{a}(f)$-ary function $f^\mc{M}:M^{\mf{a}(f)}\to M$, and&lt;/li&gt;&#xA;&lt;li&gt;to each relation symbol $R\in\mc{F}$, an $\mf{a}(R)$-ary relation $R^\mc{M}\subeq M^{\mf{a}(R)}$.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Given an $L$-structure $\mc{M}$ and an \ref[$L$-theory]{theory} $T$, we write $\mc{M}\models T$ and say that &lt;em&gt;$\mc{M}$ is a model $T$&lt;/em&gt; if $\mc{M}\models\sigma$ for each $\sigma\in T$, where $\mc{M}\models\sigma$ is defined inductively in the obvious way (see Definition \iref{interpret_formula} below).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tarski-Vaught Test</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/tarski-vaught_test/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/tarski-vaught_test/</guid>
+      <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;Let $L$ be a \ref[first-order language]{first-order_language}.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Tarski-Vaught Test]&lt;/p&gt;&#xA;&lt;p&gt;Let $N\subseq M$ be \ref[$L$-structures]{model}. Then $N\esubeq M$ iff for every formula $\phi(\bar{x},y)$ and for every $\bar{a}\in N$, we have $M\models\ex y\phi(\bar{a},y)$ iff $M\models\phi(\bar{a},a)$ for some $a\in N$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;If $N\esubeq M$, then $M\models\ex y\phi(\bar{a},y)$ iff $N\models\ex y\phi(\bar{a},y)$ by elementarity, which holds iff there is some $a\in N$ such that $N\models\phi(\bar{a},a)$. By elementarity again, we have $M\models\phi(\bar{a},a)$ for some $a\in N$, as desired.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Theory</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/theory/</link>
       <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/theory/</guid>
-      <description>&lt;h1 id=&#34;definition-and-examples&#34;&gt;Definition and Examples&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;Let $L$ be a \ref[(first-order) language]{first-order_language}. An &lt;em&gt;$L$-theory&lt;/em&gt; $T$ is a set of $L$-sentences.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  Given a non-empty $L$-structure $M$, we write $M\models T$, and say that &lt;em&gt;$M$ models T&lt;/em&gt;, if $M\models\sigma$ for each $\sigma\in T$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{example}&lt;/p&gt;&#xA;&lt;p&gt;Let $M$ be an \ref[$L$-structure]{model}. The &lt;em&gt;theory of $M$&lt;/em&gt; is the $L$-theory $\Th M\coloneqq\{\sigma\in\Sent(L)\st M\models\sigma\}$. Observe that $M\models T$ iff $T\subeq\Th M$, and a \ref[consistent]{theory#consistency-and-completeness} $L$-theory is \ref[complete]{theory#consistency-and-completeness} iff for any model $M\models T$, we have $T=\Th M$.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;definition-and-examples&#34;&gt;Definition and Examples&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;Let $L$ be a \ref[(first-order) language]{first-order_language}. An &lt;em&gt;$L$-theory&lt;/em&gt; $T$ is a set of $L$-sentences.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  Given a non-empty \ref[$L$-structure]{model} $M$, we write $M\models T$, and say that &lt;em&gt;$M$ models T&lt;/em&gt;, if $M\models\sigma$ for each $\sigma\in T$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{example}&lt;/p&gt;&#xA;&lt;p&gt;Let $M$ be an $L$-structure. The &lt;em&gt;theory of $M$&lt;/em&gt; is the $L$-theory $\Th M\coloneqq\{\sigma\in\Sent(L)\st M\models\sigma\}$. Observe that $M\models T$ iff $T\subeq\Th M$, and a \ref[consistent]{theory#consistency-and-completeness} $L$-theory is \ref[complete]{theory#consistency-and-completeness} iff for any model $M\models T$, we have $T=\Th M$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Upward Löwenheim-Skolem Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/upward_lowenheim-skolem_theorem/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/upward_lowenheim-skolem_theorem/</guid>
+      <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;Let $L$ be a \ref[first-order language]{first-order_language}.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Löwenheim-Skolem]&lt;/p&gt;&#xA;&lt;p&gt;For any infinite \ref[$L$-structure]{model} $M$ and any cardinal $\kappa\geq|M|+|L|+\aleph_0$, there is an elementary extension $N\esupeq M$ of cardinality $\kappa$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;  The proof is a classic application of the Compactness theorem, along with some other model-theoretic fluff:&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Compactness Theorem]{compactness_theorem}]\label{compactness}&lt;/p&gt;&#xA;&lt;p&gt;An \ref[$L$-theory]{theory} $T$ is satisfiable iff every finite subtheory of $T$ is satisfiable.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref{}]\label{char_elem_emb}&lt;/p&gt;&#xA;&lt;p&gt;Let $M$ be an $L$-structure. If $N$ is an $L_M$-structure such that $N\models\Diag_\mathrm{el}(M)$, then there is an $L$-elementary embedding $M\into N$.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Furstenberg&#39;s Correspondence Principle</title>

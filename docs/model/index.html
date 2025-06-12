@@ -46,9 +46,9 @@
                 
             </h1>
 
-            <h1 id="tarskian-definition">Tarskian Definition</h1>
+            <h1 id="structures-and-models">Structures and Models</h1>
 <p>\begin{definition}</p>
-<p>Let $L\coloneqq(\mc{F},\mc{R},\mf{a})$ be a \ref[first-order language]{language}. An <em>$L$-structure</em> is a tuple $\mc{M}\coloneqq(M,i)$ consisting of a set $M$, called the <em>universe</em>, and an <em>interpretation function</em> $i$ assigning</p>
+<p>Let $L\coloneqq(\mc{F},\mc{R},\mf{a})$ be a \ref[first-order language]{first-order_language}. An <em>$L$-structure</em> is a tuple $\mc{M}\coloneqq(M,i)$ consisting of a set $M$, called the <em>universe</em>, and an <em>interpretation function</em> $i$ assigning</p>
 <ul>
 <li>to each function symbol $f\in\mc{F}$, an $\mf{a}(f)$-ary function $f^\mc{M}:M^{\mf{a}(f)}\to M$, and</li>
 <li>to each relation symbol $R\in\mc{F}$, an $\mf{a}(R)$-ary relation $R^\mc{M}\subeq M^{\mf{a}(R)}$.</li>
@@ -75,44 +75,14 @@
 </ul>
 <p>If $\bar{a}\in\phi^M$, we write $M\models\phi(\bar{a})$ instead, and say that $M$ <em>models</em> $\phi(\bar{a})$. The notation $\phi(M)\coloneqq\phi^M$ is also used.</p>
 <p>\end{definition}</p>
-<p>The <em>elementary diagram</em> (resp. <em>atomic diagram</em>) of $M$ is the set $\Diag_\mathrm{el}(M)\coloneqq\Th_{L_M}(M)$ (resp. $\Diag(M)$) of $L_M$-sentences $\phi(\bar{a})$ such that $M\models\phi(\bar{a})$, where $\phi(\bar{x})$ is an (atomic) $L$-formula.</p>
-<h2 id="elementary-classes">Elementary classes</h2>
-<p>A class $\mc{K}$ of $L$-structures is said to be <em>axiomatizable</em> (or an <em>elementary class</em>) if there is an $L$-theory $T$ such that $\mc{K}=\l\{M\st M\models T\r\}$.</p>
-<p>\begin{example}</p>
-<p>Some examples of (non-)axiomatizable classes of $L$-structures, for suitable $L$.</p>
-<ul>
-<li>Sets, infinite sets (but not finite sets).</li>
-<li>Groups, abelian groups, ordered abelian groups (but not cyclic groups, torsion groups, or non-torsion groups).</li>
-<li>Rings, fields, fields of fixed characteristic, algebraically-closed fields, differential fields.</li>
-<li>Graphs, bipartite graphs (but not connected graphs, disconnected graphs, or non-bipartite graphs).</li>
-<li>Linear orders, partial orders, equivalence relations.</li>
-</ul>
-<p>\end{example}</p>
 <h2 id="category-of-structures">Category of structures</h2>
 <p>An <em>$L$-homomorphism</em> between $L$-structures $N$ and $N$ is a map $h:M\to N$ such that for each $\bar{a}\in M$, we have $h(f^M(\bar{a}))=f^N(h(\bar{a}))$ for each $f\in\mc{F}$ and $\bar{a}\in R^M\Rightarrow h(\bar{a})\in R^N$ for each $R\in\mc{R}$. An $L$-homomorphism $h:M\to N$ is said to be an <em>$L$-embedding</em> if $h$ is injective and the preceding &lsquo;$\Rightarrow$&rsquo; is &lsquo;$\Leftrightarrow$&rsquo;.</p>
 <br>
-<p>  Correspondingly, we have the two \ref[categories]{category} $\cat{Hom}_L$ of $L$-structures and $L$-homomorphisms and $\cat{Emb}_L$ of $L$-structures and $L$-embeddings. Another notion of a morphism, giving rise to the category $\cat{Elem}_L$, is as follows.</p>
-<p>\begin{definition}</p>
-<p>Let $M$ and $N$ be $L$-structures. A map $h:M\to N$ is an <em>elementary embedding</em> if for every $L$-formula $\phi(\bar{x})$ and every $\bar{a}\in M$, we have $M\models\phi(\bar{a})$ iff $N\models\phi(h(\bar{a}))$, in which case we write $h:M\into_eN$.</p>
-<p>\end{definition}</p>
-<p>  Let $M$ and $N$ be $L$-structures such that $M\subeq N$. If the inclusion $\iota:M\into N$ is a homomorphism (resp. an embedding, an elementary embedding), we say that $M$ is a <em>substructure</em> (resp. <em>induced substructure</em>, <em>elementary substructure</em>) of $N$, and write $M\subseq N$ (resp. $M\subseq_iN$, $M\esubeq N$).</p>
-<p>\begin{fact}[\ref{}]</p>
-<p>Let $M$ be an $L$-structure and let $N$ be an $L_M$-structure.</p>
-<ol>
-<li>We have $N\models\Diag(M)$ iff there is an $L$-embedding $M\into N$.</li>
-<li>We have $N\models\Diag_\mathrm{el}(M)$ iff there is an $L$-elementary embedding $M\into N$.</li>
-</ol>
-<p>\end{fact}</p>
-<p>\begin{fact}[\ref[Tarski-Vaught Test]{tarski-vaught_test}]\label{tarski-vaught}</p>
-<p>Let $M\subseq_iN$ be $L$-structures. Then $M\esubeq N$ iff for every formula $\phi(\bar{x},y)$ and for every $\bar{a}\in M$, we have $N\models\phi(\bar{a},a)$ for some $a\in M$ iff $N\models\ex y\phi(\bar{a},y)$.</p>
-<p>\end{fact}</p>
-<p>  Two $L$-structures $M$ and $N$ are said to be <em>elementarily equivalent</em> if $\Th M=\Th N$, where $\Th M$ is the <em>theory</em> of $M$ consisting of all $L$-sentences $\sigma$ such that $M\models\sigma$, in which case we write $M\equiv N$.</p>
-<p>\begin{fact}</p>
-<p>If $M\iso N$, then $M\equiv N$.</p>
-<p>\end{fact}</p>
-<p>\begin{remark}</p>
-<p>The notion $M\equiv N$ is <em>not</em> that of an isomorphism in $\cat{Elem}_L$; it is much weaker. Indeed, if there is an elementary embedding $h:M\into_eN$, then $M\equiv N$. For a counterexample of the converse, consider the language $L\coloneqq\l\{S\r\}$ with a single unary function symbol, so the predecessor map $h:M\to N$ between $M\coloneqq(\N_{&gt;0},S)$ and $N\coloneqq(\N_,S)$, where $S$ is interpreted as the successor, is an isomorphism, and hence $M\equiv N$. But $M\not\esubeq N$ by Fact \iref{tarski-vaught} since the truth of the $L$-formula $\phi(x)\coloneqq\lnot\ex y(S(y)=x)$ in $N$ is only witnessed by $0\in N\comp M$.</p>
-<p>\end{remark}</p>
+<p>  Correspondingly, we have the two \ref[categories]{category} $\cat{Hom}_L$ of $L$-structures and $L$-homomorphisms and $\cat{Emb}_L$ of $L$-structures and $L$-embeddings. Another notion of a morphism is that of an <em>\ref[elementary embedding]{elementarity}</em>, which gives rise to the category $\cat{Elem}_L$. We also have the notions of subobjects in $\cat{Emb}_L$ and $\cat{Elem}_L$:</p>
+<ul>
+<li>Let $M$ and $N$ be $L$-structures such that $M\subeq N$. If the inclusion $\iota:M\into N$ is an (elementary) embedding, we say that $M$ is a <em>substructure</em> (resp. an <em>elementary substructure</em>) of $N$, and write $M\subseq N$ (resp. $M\esubeq N$).</li>
+<li>Let $M$ be an $L$-structure and let $A\subeq M$. The <em>substructure generated</em> by $A$ is the intersection all substructures of $M$ containing $A$; equivalently, $\l\langle A\r\rangle\coloneqq\bigcup_{n&lt;\omega} A_n$, where $A_0\coloneqq A$ and $A_{n+1}\coloneqq A_n\cup\bigcup_{f\in\mc{F}}f^M\big(A_n^{\mf{a}(f)}\big)$.</li>
+</ul>
 
 
             <div id="references"></div>

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Theory</title>
+        <title>Downward Löwenheim-Skolem Theorem</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,55 +42,36 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Theory
+                    Downward Löwenheim-Skolem Theorem
                 
             </h1>
 
-            <h1 id="definition-and-examples">Definition and Examples</h1>
-<p>\begin{definition}</p>
-<p>Let $L$ be a \ref[(first-order) language]{first-order_language}. An <em>$L$-theory</em> $T$ is a set of $L$-sentences.</p>
+            <h1 id="statement-and-proof">Statement and Proof</h1>
+<p>Let $L$ be a \ref[first-order language]{first-order_language}.</p>
+<p>\begin{theorem}[Löwenheim-Skolem]\label{downward_lowenheim-skolem}</p>
+<p>For any infinite \ref[$L$-structure]{model} $M$, any subset $A\subseteq M$, and any cardinal $\kappa$ such that $|A|+|L|+\aleph_0\leq\kappa\leq|M|$, there is an elementary substructure $N\esubeq M$ containing $A$ of cardinality $\kappa$.</p>
+<p>\end{theorem}</p>
+<p>  In order to generate a substructure $N\subseq M$ from $A$, we need to close $A$ under function applications. Here, we need to do a bit more and also close $A$ under witnesses of quantifiers:</p>
+<p>\begin{fact}[\ref[Tarski-Vaught Test]{tarski-vaught_test}]\label{tarski-vaught}</p>
+<p>Let $N\subseq M$ be $L$-structures. Then $N\esubeq M$ iff for every formula $\phi(\bar{x},y)$ and for every $\bar{a}\in N$, we have $M\models\ex y\phi(\bar{a},y)$ iff $M\models\phi(\bar{a},a)$ for some $a\in N$.</p>
+<p>\end{fact}</p>
+<p>\begin{fact}[\ref[Cardinal arithmetic]{cardinal_arithmetic}]\label{cardinal}</p>
+<p>For every infinite cardinal $\kappa$, we have $\kappa^2=\kappa$.</p>
+<p>\end{fact}</p>
+<div class="space"></div>
+<p>\begin{proof}[of Theorem \iref{downward_lowenheim-skolem}]</p>
+<p>Since $|A|\leq\kappa\leq|M|$, we can expand $A$ so that, without loss of generality, we have $|A|=\kappa$. We inductively construct subsets $N_\alpha\subseq M$ such that $|N_\alpha|\leq\kappa$ for each $\alpha&lt;\kappa$, starting with $N_0\coloneqq A$. Given $N_\alpha$, we construct $N_{\alpha+1}$ by adding in witnesses to $M\models\ex y\phi(\bar{a},y)$ for every $\bar{a}\in N_\alpha$ and formula $\phi(\bar{x},y)$. Since $\kappa\geq|L|+\aleph_0$ and $\kappa\geq|N_\alpha|$, we have $|N_{\alpha+1}|\leq|N_\alpha|\cdot\aleph_0\leq\kappa$ by Fact \iref{cardinal}. Set $N\coloneqq\bigcup_{\alpha&lt;\kappa}N_\alpha$, which we claim is as desired.</p>
 <br>
-<p>  Given a non-empty \ref[$L$-structure]{model} $M$, we write $M\models T$, and say that <em>$M$ models T</em>, if $M\models\sigma$ for each $\sigma\in T$.</p>
-<p>\end{definition}</p>
-<p>\begin{example}</p>
-<p>Let $M$ be an $L$-structure. The <em>theory of $M$</em> is the $L$-theory $\Th M\coloneqq\{\sigma\in\Sent(L)\st M\models\sigma\}$. Observe that $M\models T$ iff $T\subeq\Th M$, and a \ref[consistent]{theory#consistency-and-completeness} $L$-theory is \ref[complete]{theory#consistency-and-completeness} iff for any model $M\models T$, we have $T=\Th M$.</p>
-<p>\end{example}</p>
-<h2 id="categories-of-models">Categories of models</h2>
-<p>Depending on the choice of morphisms, we obtain the \ref[categories]{categories} $\cat{Mod}(T)$, $\cat{Emb}(T)$, and $\cat{Elem}(T)$ of models $M\models T$ with $L$-homomorphisms (resp. $L$-embeddings, $L$-elementary embeddings).</p>
-<p>\begin{fact}[\ref{}]</p>
-<p>$\cat{Elem}(T)$ admits directed colimits. \TODO</p>
-<p>\end{fact}</p>
-<h1 id="classes-of-theories">Classes of Theories</h1>
-<h2 id="consistency-and-completeness">Consistency and Completeness</h2>
-<p>An $L$-theory is said to be <em>consistent</em> (resp. <em>complete</em>) if it satisfies any of the conditions in Fact \iref{characterization_consistency} (resp. Fact \iref{characterization_completeness}).</p>
-<p>\begin{fact}[\ref[Completeness Theorem]{completeness_theorem}, \ref{}]\label{characterization_consistency}</p>
-<p>The following are equivalent for an $L$-theory $T$:</p>
-<ul>
-<li>(Model-existence/satisfiability). There is an $L$-structure $M$ such that $M\models T$.</li>
-<li>(Semantic-consistency). (a) $T\not\models\bot$ or (b) there is no $\sigma$ such that $T\models\sigma\land\lnot\sigma$ or (c) $T\not\models\sigma$ for some $\sigma$.</li>
-<li>(Syntactic-consistency). (a) $T\not\proves\bot$ or (b) there is no $\sigma$ such that $T\proves\sigma\land\lnot\sigma$ or (c) $T\not\proves\sigma$ for some $\sigma$.</li>
-</ul>
-<p>\end{fact}</p>
-<p>\begin{corollary}[\ref[Compactness Theorem]{compactness_theorem}]</p>
-<p>An $L$-theory is consistent iff every finite subset of $T$ is consistent.</p>
+<p>  Indeed, observe that for each $f\in\mc{F}$, $\alpha&lt;\kappa$, and $\bar{a}\in N_\alpha$, the witness of $\ex y(f(\bar{a})=y)$ lies in $N$, so $N\subseq M$. The hypothesis of Fact \iref{tarski-vaught} now holds by construction of $M$, so $N\esubeq M$. Moreover, $|N|=\kappa$ by Fact \iref{cardinal}.<span style="float:right;">$\blacksquare$</span></p>
+<p>\end{proof}</p>
+<h2 id="set-theoretic-extension">Set-theoretic extension</h2>
+<p>When $L=L_\mathrm{set}$ is the language of set theory, we can require $N$ to be \ref[transitive]{transitive}.</p>
+<p>\begin{corollary}</p>
+<p>For any infinite $L_\mathrm{set}$-structure $M$ satisfying $\mathsf{Extensionality}$ and any transitive set $A\subeq M$, there is a transitive set $N$ containing $A$ such that $N\equiv M$ and $|N|=|A|+\aleph_0$.</p>
 <p>\end{corollary}</p>
-<p>\begin{fact}[\ref[Completeness Theorem]{completeness_theorem}, \ref{}]\label{characterization_completeness}</p>
-<p>The following are equivalent for an $L$-theory $T$:</p>
-<ul>
-<li>(Model-uniqueness). For any two $L$-structures such that $M,N\models T$, we have $M\equiv N$.</li>
-<li>(Semantic-completeness). For each $L$-sentence $\sigma$, either $T\models\sigma$ or $T\models\lnot\sigma$.</li>
-<li>(Syntactic-completeness). For each $L$-sentence $\sigma$, either $T\proves\sigma$ or $T\proves\lnot\sigma$.</li>
-</ul>
-<p>\end{fact}</p>
-<h2 id="axiomatizability">Axiomatizability</h2>
-<p>Let $\mc{K}$ be a class of $L$-theories. An $L$-theory $T$ is said to be <em>$\mc{K}$-axiomatizable</em> if there is an $L$-theory $T_0\in\mc{K}$ such that for every $L$-structure $M$, we have $M\models T$ iff $M\models T_0$.</p>
-<h2 id="categoricity">Categoricity</h2>
-<p>Let $\kappa$ be an infinite cardinal. An $L$-theory $T$ is said to be <em>$\kappa$-categorical</em> if whenever $M,N\models T$ both have cardinality $\kappa$, then $M\iso N$.</p>
-<p>\begin{fact}[\ref[Morley&rsquo;s Categoricity Theorem]{morleys_categoricity_theorem}]</p>
-<p>\TODO</p>
-<p>\end{fact}</p>
-<h2 id="stability">Stability</h2>
-<p>\TODO</p>
+<p>\begin{proof}</p>
+<p>By Theorem \iref{downward_lowenheim-skolem}, there is an elementary substructure $N_0\esubeq M$ containing $A$ of cardinality $|A|+\aleph_0$. Then $N_0$ models $\mathsf{Extensionality}$ too, so letting $N\coloneqq\pi(N_0)$ be the Mostowski Collapse of $N_0$, which is transitive, we have $(N,\in)\iso(N_0,\in)$ by \TODO. Since $A$ is transitive, $\pi(A)=A$ and hence $A\subeq N$ too, and $N\equiv M$ follows since $N\iso N_0\esubeq M$.<span style="float:right;">$\blacksquare$</span></p>
+<p>\end{proof}</p>
 
 
             <div id="references"></div>

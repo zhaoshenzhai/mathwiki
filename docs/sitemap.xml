@@ -2,25 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/elementarity/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/elementary_equivalence/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/compactness_theorem/</loc>
+    <lastmod>2025-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/downward_lowenheim-skolem_theorem/</loc>
     <lastmod>2025-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/first-order_language/</loc>
     <lastmod>2025-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
-    <lastmod>2025-06-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
-    <lastmod>2025-06-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/model/</loc>
     <lastmod>2025-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/tarski-vaught_test/</loc>
     <lastmod>2025-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/theory/</loc>
+    <lastmod>2025-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/upward_lowenheim-skolem_theorem/</loc>
     <lastmod>2025-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/furstenbergs_correspondence_principle/</loc>

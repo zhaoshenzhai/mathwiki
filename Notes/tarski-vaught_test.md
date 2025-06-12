@@ -26,7 +26,7 @@ If $N\esubeq M$, then $M\models\ex y\phi(\bar{a},y)$ iff $N\models\ex y\phi(\bar
 
 ## Classes
 
-The above model-theoretic result is formulated within $\mathsf{ZFC}$; in particular, structures are sets. In set theory, one needs a version of the Tarski-Vaught test where $M\subeq N$ are classes. However, one can only prove this in a restricted case: namely, instead of characterizing when $N\esubeq M$, we can only ensure that $N$ and $M$ agree on the truth of finitely-many $L_\mathrm{set}$-formulas. Also, note that this is a meta-theoretic statement.
+The above model-theoretic result is formulated within $\mathsf{ZFC}$; in particular, structures are sets. In set theory, one needs a version of the Tarski-Vaught test where $M\subeq N$ are classes.
 
 \begin{theorem}[Tarski-Vaught Test for classes]
 
