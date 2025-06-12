@@ -82,8 +82,16 @@
 <li>(Syntactic-completeness). For each $L$-sentence $\sigma$, either $T\proves\sigma$ or $T\proves\lnot\sigma$.</li>
 </ul>
 <p>\end{fact}</p>
-<h2 id="axiomatizability">Axiomatizability</h2>
-<p>Let $\mc{K}$ be a class of $L$-theories. An $L$-theory $T$ is said to be <em>$\mc{K}$-axiomatizable</em> if there is an $L$-theory $T_0\in\mc{K}$ such that for every $L$-structure $M$, we have $M\models T$ iff $M\models T_0$.</p>
+<h2 id="skolem-henkin-and-morley">Skolem, Henkin, and Morley</h2>
+<p>It is sometimes convenient to assume that an $L$-theory $T$ &lsquo;witnesses&rsquo; certain statements using symbols within $L$. Here are examples of such classes of theories.</p>
+<ul>
+<li>An $L$-theory $T$ is <em>Skolem</em> (or <em>has built-in Skolem functions</em>) if for any $L$-formula $\phi(x,\bar{y})$, there is a function symbol $f_\phi\in\mc{F}$ such that $T\models\fa\bar{y}(\ex x\phi(x,\bar{y})\rightarrow\phi(f_\phi(\bar{y}),y))$; any such $f_\phi$ is said to be a <em>Skolem function</em> for $\phi$.</li>
+<li>An $L$-theory $T$ is <em>Henkin</em> (or <em>has Henkin witnesses</em>) if for any $L$-formula $\phi(x)$, there is a constant symbol $c_\phi\in\mc{C}$ such that $T\models\ex x\phi(x)\rightarrow\phi(c_\phi)$; any such $c_\phi$ is said to be a <em>Henkin witness</em> for $\phi$.</li>
+<li>\TODO[Morley]</li>
+</ul>
+<p>\begin{fact}[\ref[$T^s$]{skolem_theory#skolemization}, \ref[$T^h$]{henkin_theory#henkinization}, \ref[$T^m$]{}]</p>
+<p>Every $L$-theory $T$ admits a <em>Skolemization</em> $T^s\supseteq T$ (resp. <em>Henkinization</em> $T^h\supseteq T$, resp. <em>Morleyization</em> $T^m\supseteq T$) over a larger language $L^s\supseteq L$ (resp. $L^h\supseteq L$, $L^m\supseteq L$).</p>
+<p>\end{fact}</p>
 <h2 id="categoricity">Categoricity</h2>
 <p>Let $\kappa$ be an infinite cardinal. An $L$-theory $T$ is said to be <em>$\kappa$-categorical</em> if whenever $M,N\models T$ both have cardinality $\kappa$, then $M\iso N$.</p>
 <p>\begin{fact}[\ref[Morley&rsquo;s Categoricity Theorem]{morleys_categoricity_theorem}]</p>

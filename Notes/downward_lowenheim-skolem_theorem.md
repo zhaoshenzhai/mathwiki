@@ -40,6 +40,16 @@ Since $|A|\leq\kappa\leq|M|$, we can expand $A$ so that, without loss of general
 
 \end{proof}
 
+\begin{remark}
+
+The process of choosing witnesses to $M\models\ex y\phi(\bar{a},y)$ for each $\bar{a}\in N_\alpha$ can be rephrased as \ref[Skolemizing]{skolem_theory#skolemization} $T\coloneqq\Th(M)$ to a \ref[Skolem theory]{skolem_theory} $T^\ast\supseteq\Th(M)$ over some expansion $L^\ast\supseteq L$ and expanding $M$ to a model $M^\ast\models T^\ast$, so these witnesses can be chosen as $f_\phi(\bar{a})$, where $f_\phi$ is the Skolem function of $\phi$ in $L^\ast$.
+
+<br>
+
+&emsp;&emsp;The elementary substructure $N\esubeq M$ containing $A$ is then referred to as the _\ref[Skolem hull]{skolem_theory#skolem-hull}_ of $A$, denoted $\mc{H}(A)$. Note that $\mc{H}(A)$ depends highly on the particular Skolemization of $T$, of which there are many.
+
+\end{remark}
+
 ## Set-theoretic extension
 
 When $L=L_\mathrm{set}$ is the language of set theory, we can require $N$ to be \ref[transitive]{transitive}.

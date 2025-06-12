@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Upward Löwenheim-Skolem Theorem</title>
+        <title>Diagrams and Embeddings</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,30 +42,27 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Upward Löwenheim-Skolem Theorem
+                    Diagrams and Embeddings
                 
             </h1>
 
-            <p>Let $L$ be a \ref[first-order language]{first-order_language}.</p>
-<p>\begin{theorem}[Löwenheim-Skolem]</p>
-<p>For any infinite \ref[$L$-structure]{model} $M$ and any cardinal $\kappa\geq|M|+|L|+\aleph_0$, there is an elementary extension $N\esupeq M$ of cardinality $\kappa$.</p>
+            <p>Throughout, fix a \ref[language]{first-order_language} $L$ and an \ref[$L$-structure]{model} $M$. Recall that the language $L_M$ is defined by adjoining fresh constants $c_a$ for each $a\in M$ to $L$. Thus, each $L_M$-structure has a <em>reduct</em> to an $L$-structure.</p>
+<p>\begin{definition}</p>
+<p>The <em>elementary diagram</em> (resp. <em>atomic diagram</em>) of $M$ is the set $\Diag_\mathrm{el}(M)\coloneqq\Th_{L_M}(M)$ (resp. $\Diag(M)$) of all $L_M$-sentences $\phi(c_\bar{a})$ such that $M\models\phi(c_\bar{a})$, where $\phi(\bar{x})$ is an (atomic) $L$-formula and $\bar{a}\in M$.</p>
+<p>\end{definition}</p>
+<p>\begin{theorem}</p>
+<p>Let $N$ be an $L_M$-structure and let $N_0$ denote its reduct to an $L$-structure.</p>
+<ol>
+<li>If $N\models\Diag(M)$, then there is an $L$-embedding $M\into N_0$.</li>
+<li>If $N\models\Diag_\mathrm{el}(M)$, then there is an \ref[$L$-elementary embedding]{elementarity} $M\into_eN_0$.</li>
+</ol>
 <p>\end{theorem}</p>
-<p>  The proof is a classic application of the Compactness theorem, along with some other model-theoretic fluff:</p>
-<p>\begin{fact}[\ref[Compactness Theorem]{compactness_theorem}]\label{compactness}</p>
-<p>An \ref[$L$-theory]{theory} $T$ is satisfiable iff every finite subtheory of $T$ is satisfiable.</p>
-<p>\end{fact}</p>
-<p>\begin{fact}[\ref{diagrams_and_embeddings}]\label{char_elem_emb}</p>
-<p>Let $M$ be an $L$-structure. If $N$ is an $L_M$-structure such that $N\models\Diag_\mathrm{el}(M)$, then there is an $L$-elementary embedding $M\into_eN$.</p>
-<p>\end{fact}</p>
-<p>\begin{fact}[\ref[Downward Löwenheim-Skolem]{downward_lowenheim-skolem_theorem}]\label{down}</p>
-<p>For any infinite $L$-structure $N$ and any cardinal $\kappa\leq|N|$ such that $\kappa\geq|L|+\aleph_0$, there is an elementary substructure $N_0\esubeq N$ of cardinality $\kappa$.</p>
-<p>\end{fact}</p>
-<div class="space"></div>
 <p>\begin{proof}</p>
-<p>Consider the language $L&rsquo;\coloneqq L(M)\sqcup\l\{c_\alpha\st\alpha&lt;\kappa\r\}$, where each $c_\alpha$ is a new constant symbol. The $L&rsquo;$-theory $T\coloneqq\Diag_\mathrm{el}(M)\cup\l\{c_\alpha\neq c_\beta\st\alpha,\beta\in\kappa\land\alpha\neq\beta\r\}$ is satisfiable by Fact \iref{compactness}:</p>
-<blockquote>
-<p>If $T_0\subeq T$ is finite, then there exist $\alpha_1,\dots,\alpha_n&lt;\kappa$ such that $T_0\subeq\Diag_\mathrm{el}(M)\cup\{c_{\alpha_i}\neq c_{\alpha_j}\st i\neq j\leq n\}$, and taking $a_1,\dots,a_n\in M$ distinct, which is possible since $M$ is infinite, makes $(M,\bar{a})\models T_0$.</p></blockquote>
-<p>Thus there is a model $N\models T$, so by Fact \iref{char_elem_emb}, an isomorphic copy thereof is an elementary extension of $M$. Finally, observe that $\kappa\into N$, so by Fact \iref{down}, we can assume without loss of generality that $|N|=\kappa$.<span style="float:right;">$\blacksquare$</span></p>
+<p>Consider the map $j:M\to N$ defined by $a\mapsto c_a^N$, which we claim is as desired.</p>
+<ol>
+<li>Suppose that $N\models\Diag(M)$. If $a,a&rsquo;\in M$ are distinct, then $(c_a\neq c_{a&rsquo;})\in\Diag(M)$, and hence $j(a)\neq j(a&rsquo;)$. If $f\in\mc{F}$ and $\bar{a}\in M$, let $b\coloneqq f^M(\bar{a})$ so that $(f(c_\bar{a})=c_b)\in\Diag(M)$, and hence $j(f^M(\bar{a}))=j(b)=f^N(j(\bar{a}))$. If $R\in\mc{R}$ and $\bar{a}\in R^M$, then $R(c_\bar{a})\in\Diag(M)$ and hence $j(\bar{a})\in R^N$.</li>
+<li>If in addition $N\models\Diag_\mathrm{el}(M)$, then $j$ is an elementary embedding since for every $L$-formula $\phi(\bar{a})$ and $\bar{a}\in M$, we have $M\models\phi(\bar{a})$ iff $\phi(c_\bar{a})\in\Diag_\mathrm{el}(M)$, and thus $N\models\phi(j(\bar{a}))$. The same argument with $\lnot\phi$ in place of $\phi$ shows that if $N\models\phi(j(\bar{a}))$, then $M\models\phi(\bar{a})$.<span style="float:right;">$\blacksquare$</span></li>
+</ol>
 <p>\end{proof}</p>
 
 

@@ -62,6 +62,19 @@ The following are equivalent for an $L$-theory $T$:
 
 \end{fact}
 
+## Skolem, Henkin, and Morley
+
+It is sometimes convenient to assume that an $L$-theory $T$ 'witnesses' certain statements using symbols within $L$. Here are examples of such classes of theories.
+* An $L$-theory $T$ is _Skolem_ (or _has built-in Skolem functions_) if for any $L$-formula $\phi(x,\bar{y})$, there is a function symbol $f_\phi\in\mc{F}$ such that $T\models\fa\bar{y}(\ex x\phi(x,\bar{y})\rightarrow\phi(f_\phi(\bar{y}),y))$; any such $f_\phi$ is said to be a _Skolem function_ for $\phi$.
+* An $L$-theory $T$ is _Henkin_ (or _has Henkin witnesses_) if for any $L$-formula $\phi(x)$, there is a constant symbol $c_\phi\in\mc{C}$ such that $T\models\ex x\phi(x)\rightarrow\phi(c_\phi)$; any such $c_\phi$ is said to be a _Henkin witness_ for $\phi$.
+* \TODO[Morley]
+
+\begin{fact}[\ref[$T^s$]{skolem_theory#skolemization}, \ref[$T^h$]{henkin_theory#henkinization}, \ref[$T^m$]{}]
+
+Every $L$-theory $T$ admits a _Skolemization_ $T^s\supseteq T$ (resp. _Henkinization_ $T^h\supseteq T$, resp. _Morleyization_ $T^m\supseteq T$) over a larger language $L^s\supseteq L$ (resp. $L^h\supseteq L$, $L^m\supseteq L$).
+
+\end{fact}
+
 ## Categoricity
 
 Let $\kappa$ be an infinite cardinal. An $L$-theory $T$ is said to be _$\kappa$-categorical_ if whenever $M,N\models T$ both have cardinality $\kappa$, then $M\iso N$.

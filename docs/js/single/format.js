@@ -66,6 +66,7 @@ function formatEnvironment(type) {
         var bMatches = paraEls[i].innerText.match(b);
         if (bMatches) {
             var noNum = paraEls[i].innerText.includes('*');
+            var noBox = paraEls[i].innerText.includes('_}');
             var bIndex = i, eIndex = i;
             for (eIndex = i + 1; eIndex < paraEls.length; eIndex++) {
                 var end = new RegExp(`\\\end{${type}`);
@@ -73,12 +74,12 @@ function formatEnvironment(type) {
                 if (endMatches) { i = eIndex - 1; break; }
             }
 
-            formatEnv(type, paraEls[bIndex], paraEls[eIndex], noNum);
+            formatEnv(type, paraEls[bIndex], paraEls[eIndex], noNum, noBox);
         }
     }
 }
 
-function formatEnv(type, bEl, eEl, noNum) {
+function formatEnv(type, bEl, eEl, noNum, noBox) {
     var typeUpper = firstUpper(type);
 
     var title = document.createElement('span');
@@ -93,6 +94,7 @@ function formatEnv(type, bEl, eEl, noNum) {
     var paraWrapper = document.createElement('div');
     paraWrapper.classList.add('env');
     paraWrapper.classList.add('env' + typeUpper);
+    if (noBox) { paraWrapper.classList.add('envNoBox'); }
     paraWrapper = $(bEl).nextUntil(eEl).wrapAll(paraWrapper)[0];
 
     var wrapper = paraWrapper.parentNode;

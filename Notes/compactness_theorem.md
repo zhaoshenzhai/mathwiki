@@ -14,7 +14,7 @@ An $L$-theory $T$ is satisfiable iff every finite subtheory of $T$ is satisfiabl
 
 \end{theorem}
 
-In fact, in this case, $T$ has a model of \ref[cardinality]{cardinality} at-most $|L|+\aleph_0$ by the \ref[Downward Löwenheim-Skolem Theorem]{downward_lowenheim-skolem_theorem}.
+In fact, in this case, $T$ has a model of \ref[cardinality]{cardinality} $|L|+\aleph_0$ by the \ref[Downward Löwenheim-Skolem Theorem]{downward_lowenheim-skolem_theorem}.
 
 ## Syntactic proof
 

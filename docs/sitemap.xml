@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/diagrams_and_embeddings/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/elementarity/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/elementary_equivalence/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/henkin_theory/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/skolem_theory/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>
