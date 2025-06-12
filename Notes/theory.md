@@ -75,6 +75,10 @@ Every $L$-theory $T$ admits a _Skolemization_ $T^s\supseteq T$ (resp. _Henkiniza
 
 \end{fact}
 
+## \ref[Axiomatization]{axiomatization}
+
+Let $\Gamma$ be a set of $L$-sentences. An $L$-theory admits a _$\Gamma$-axiomatization_ if for any $L$-structure $M$, we have $M\models T$ iff $M\models\Gamma$.
+
 ## Categoricity
 
 Let $\kappa$ be an infinite cardinal. An $L$-theory $T$ is said to be _$\kappa$-categorical_ if whenever $M,N\models T$ both have cardinality $\kappa$, then $M\iso N$.

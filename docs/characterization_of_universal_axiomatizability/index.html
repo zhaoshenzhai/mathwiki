@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang=en-US class="noScroll">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Characterization of Universal Axiomatizability</title>
+
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/lists.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/darkMode.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/variables.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/noProperty.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module"></script>
+
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body>
+        
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/headers.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/format.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/refs.js" type="module"></script>
+
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/ref.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/toc.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+
+    <div id="mainPage">
+        <div id="content">
+            <h1 id="title" titleSize="">
+                
+                    Characterization of Universal Axiomatizability
+                
+            </h1>
+
+            <p>Throughout, let $L$ be a \ref[language]{first-order_language}. Recall the following facts.</p>
+<p>\begin{fact}[\ref{diagrams_and_embeddings}]\label{diag_emb}</p>
+<p>Let $N$ be an $L_M$-\ref[structure]{model}. If $N\models\Diag M$, then there is an $L$-embedding $M\into N$.</p>
+<p>\end{fact}</p>
+<p>\begin{fact}[\ref[Compactness Theorem]{compactness_theorem}]\label{compactness}</p>
+<p>If an $L$-theory $T$ is finitely-satisfiable, then it is satisfiable.</p>
+<p>\end{fact}</p>
+<p>\begin{theorem}\label{char}</p>
+<p>An \ref[$L$-theory]{theory} $T$ is \ref[universally-axiomatizable]{axiomatization} iff $T$ is closed under submodels, i.e., if $M\models T$ and $N\subseq M$, then $N\models T$ as well.</p>
+<p>\end{theorem}</p>
+<p>\begin{proof}</p>
+<p>Suppose that $\Gamma$ is a universal axiomatization of $T$ and let $N\subseq M\models T$. If $\phi(\bar{x})$ is a quantifier-free formula and $\bar{a}\in N$, then $N\models\phi(\bar{a})$ iff $M\models\phi(\bar{a})$, so if $M\models\fa\bar{x}\phi(\bar{x})$, then $N\models\fa\bar{x}\phi(\bar{x})$ too. Thus $N\models T$, as desired.</p>
+<br>
+<p>  Conversely, let $\Gamma$ be the set of all universal consequences of $T$. If $M\models T$, then clearly $M\models\Gamma$. If $M\models\Gamma$, we show that $M\models T$ by exhibiting some model $N\models T$ containing $M$, so that $M\models T$ by hypothesis. In view of Fact \iref{diag_emb}, consider the $L_M$-theory $T&rsquo;\coloneqq T\cup\Diag M$, which we claim is satisfiable. Suppose towards a contradiction that $T&rsquo;$ is not satisfiable, so by Fact \iref{compactness}, there is a finite set $\Delta\coloneqq\l\{\sigma_1,\dots,\sigma_n\r\}\subeq\Diag M$ such that $T\cup\Delta$ is unsatisfiable.</p>
+<br>
+<p>  For each $i$, write $\sigma_i=\phi_i(\bar{c}/\bar{x})$ for some quantifier-free $L$-formula $\phi_i(\bar{x})$ and some $\bar{c}\in M$ and consider the $L$-formula $\Phi(\bar{x})\coloneqq\bigwedge_i\phi_i(\bar{x})$. Observe that $T\cup\l\{\ex\bar{x}\Phi(\bar{x})\r\}$ is an unsatisfiable $L$-theory, for otherwise we can interpret $\bar{c}$ as any witness for $\bar{x}$ to see that $T\cup\Delta$ is satisfiable. Thus $T$ models $\fa\bar{x}\lnot\Phi(\bar{x})\in\Gamma$, so $M\models\fa\bar{x}\lnot\Phi(\bar{x})$ since $M\models\Gamma$. In particular, we have $M\models\lnot\phi_i(\bar{c}/\bar{x})$ for some $i$, contradicting the fact that $\sigma_i\in\Diag M$.<span style="float:right;">$\blacksquare$</span></p>
+<p>\end{proof}</p>
+
+
+            <div id="references"></div>
+            <div class="bottomSpace"></div>
+        </div>
+
+        <div id="toc"></div>
+    </div>
+
+
+        <div id="searchBox" style="display: none;">
+            <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" onmouseover="searchItemActive(9)"></li>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -9,6 +9,27 @@
     <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Axiomatization</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/axiomatization/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/axiomatization/</guid>
+      <description>&lt;p&gt;Throughout, fix a \ref[first-order language]{first-order_language} $L$ and an \ref[$L$-theory]{theory} $T$.&lt;/p&gt;&#xA;&lt;h1 id=&#34;definitions-and-examples&#34;&gt;Definitions and Examples&lt;/h1&gt;&#xA;&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;Let $\Gamma$ be a collection of $L$-sentences. We say that $T$ is &lt;em&gt;$\Gamma$-axiomatizable&lt;/em&gt; if for any \ref[$L$-structure]{model} $M$, we have $M\models T$ iff $M\models\Gamma$, in which case we say that $\Gamma$ is an &lt;em&gt;axiomatization&lt;/em&gt; of $T$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;h2 id=&#34;finite-axiomatizability&#34;&gt;Finite-axiomatizability&lt;/h2&gt;&#xA;&lt;p&gt;We say that $T$ is &lt;em&gt;finitely-axiomatizable&lt;/em&gt; if $\Gamma$ is finite.&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref{}]&lt;/p&gt;&#xA;&lt;p&gt;If $T$ is finitely-axiomatizable, then there is a finite axiomatization $\Gamma\subeq T$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Characterization of AE axiomatizability</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/characterization_of_ae_axiomatizability/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/characterization_of_ae_axiomatizability/</guid>
+      <description>&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Characterization of Universal Axiomatizability</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/characterization_of_universal_axiomatizability/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/characterization_of_universal_axiomatizability/</guid>
+      <description>&lt;p&gt;Throughout, let $L$ be a \ref[language]{first-order_language}. Recall the following facts.&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref{diagrams_and_embeddings}]\label{diag_emb}&lt;/p&gt;&#xA;&lt;p&gt;Let $N$ be an $L_M$-\ref[structure]{model}. If $N\models\Diag M$, then there is an $L$-embedding $M\into N$.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Compactness Theorem]{compactness_theorem}]\label{compactness}&lt;/p&gt;&#xA;&lt;p&gt;If an $L$-theory $T$ is finitely-satisfiable, then it is satisfiable.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}\label{char}&lt;/p&gt;&#xA;&lt;p&gt;An \ref[$L$-theory]{theory} $T$ is \ref[universally-axiomatizable]{axiomatization} iff $T$ is closed under submodels, i.e., if $M\models T$ and $N\subseq M$, then $N\models T$ as well.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Suppose that $\Gamma$ is a universal axiomatization of $T$ and let $N\subseq M\models T$. If $\phi(\bar{x})$ is a quantifier-free formula and $\bar{a}\in N$, then $N\models\phi(\bar{a})$ iff $M\models\phi(\bar{a})$, so if $M\models\fa\bar{x}\phi(\bar{x})$, then $N\models\fa\bar{x}\phi(\bar{x})$ too. Thus $N\models T$, as desired.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Diagrams and Embeddings</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/diagrams_and_embeddings/</link>
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
