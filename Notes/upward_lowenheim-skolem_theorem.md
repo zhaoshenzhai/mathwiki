@@ -4,8 +4,6 @@ date: 2025-06-07
 tags: [In_Progress]
 ---
 
-# Statement and Proof
-
 Let $L$ be a \ref[first-order language]{first-order_language}.
 
 \begin{theorem}[Löwenheim-Skolem]
@@ -22,9 +20,9 @@ An \ref[$L$-theory]{theory} $T$ is satisfiable iff every finite subtheory of $T$
 
 \end{fact}
 
-\begin{fact}[\ref{}]\label{char_elem_emb}
+\begin{fact}[\ref{diagrams_and_embeddings}]\label{char_elem_emb}
 
-Let $M$ be an $L$-structure. If $N$ is an $L_M$-structure such that $N\models\Diag_\mathrm{el}(M)$, then there is an $L$-elementary embedding $M\into N$.
+Let $M$ be an $L$-structure. If $N$ is an $L_M$-structure such that $N\models\Diag_\mathrm{el}(M)$, then there is an $L$-elementary embedding $M\into_eN$.
 
 \end{fact}
 

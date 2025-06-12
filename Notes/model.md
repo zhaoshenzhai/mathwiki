@@ -46,6 +46,14 @@ An _$L$-homomorphism_ between $L$-structures $N$ and $N$ is a map $h:M\to N$ suc
 
 <br>
 
-&emsp;&emsp;Correspondingly, we have the two \ref[categories]{category} $\cat{Hom}_L$ of $L$-structures and $L$-homomorphisms and $\cat{Emb}_L$ of $L$-structures and $L$-embeddings. Another notion of a morphism is that of an _\ref[elementary embedding]{elementarity}_, which gives rise to the category $\cat{Elem}_L$. We also have the notions of subobjects in $\cat{Emb}_L$ and $\cat{Elem}_L$:
+&emsp;&emsp;Correspondingly, we have the two \ref[categories]{category} $\cat{Hom}_L$ of $L$-structures and $L$-homomorphisms and $\cat{Emb}_L$ of $L$-structures and $L$-embeddings. Another notion of a morphism is that of an _\ref[elementary embedding]{elementarity}_, which gives rise to the category $\cat{Elem}_L$:
+
+\begin{definition_}
+
+Let $M$ and $N$ be $L$-structures. A map $h:M\to N$ is an _elementary embedding_ if for every $L$-formula $\phi(\bar{x})$ and $\bar{a}\in M$, we have $M\models\phi(\bar{a})$ iff $N\models\phi(\bar{a})$, in which case we write $h:M\into_eN$.
+
+\end{definition_}
+
 * Let $M$ and $N$ be $L$-structures such that $M\subeq N$. If the inclusion $\iota:M\into N$ is an (elementary) embedding, we say that $M$ is a _substructure_ (resp. an _elementary substructure_) of $N$, and write $M\subseq N$ (resp. $M\esubeq N$).
-* Let $M$ be an $L$-structure and let $A\subeq M$. The _substructure generated_ by $A$ is the intersection all substructures of $M$ containing $A$; equivalently, $\l\langle A\r\rangle\coloneqq\bigcup_{n<\omega} A_n$, where $A_0\coloneqq A$ and $A_{n+1}\coloneqq A_n\cup\bigcup_{f\in\mc{F}}f^M\big(A_n^{\mf{a}(f)}\big)$.
+
+Let $M$ be an $L$-structure and let $A\subeq M$. The _substructure generated_ by $A$ is the intersection all substructures of $M$ containing $A$; equivalently, $\l\langle A\r\rangle\coloneqq\bigcup_{n<\omega} A_n$, where $A_0\coloneqq A$ and $A_{n+1}\coloneqq A_n\cup\bigcup_{f\in\mc{F}}f^M\big(A_n^{\mf{a}(f)}\big)$.

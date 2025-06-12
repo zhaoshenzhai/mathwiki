@@ -62,10 +62,6 @@ The following are equivalent for an $L$-theory $T$:
 
 \end{fact}
 
-## Axiomatizability
-
-Let $\mc{K}$ be a class of $L$-theories. An $L$-theory $T$ is said to be _$\mc{K}$-axiomatizable_ if there is an $L$-theory $T_0\in\mc{K}$ such that for every $L$-structure $M$, we have $M\models T$ iff $M\models T_0$.
-
 ## Categoricity
 
 Let $\kappa$ be an infinite cardinal. An $L$-theory $T$ is said to be _$\kappa$-categorical_ if whenever $M,N\models T$ both have cardinality $\kappa$, then $M\iso N$.
