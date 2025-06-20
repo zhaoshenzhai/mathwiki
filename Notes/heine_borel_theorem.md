@@ -14,13 +14,12 @@ Every compact set in a Hausdorff space is closed.
 
 \end{fact}
 
-\begin{fact}[\ref[Compact $\Rightarrow$ bounded]{}]\label{bounded}
+\begin{fact}[\ref[Compact $\Rightarrow$ bounded]{compact_implies_bounded}]\label{bounded}
 
 Every compact set in a metric space is bounded.
 
 \end{fact}
 
-The converse fails in general (see Example \iref{converse_fail}), but holds in the space case when $X=\R^n$ for some $n\in\N$.
 
 \begin{theorem}[Heine-Borel]\label{heine-borel}
 
@@ -28,7 +27,7 @@ A subset $K\subeq\R^n$ is compact iff $K$ is closed and bounded.
 
 \end{theorem}
 
-To prove the Heine-Borel Theorem, we will use the following useful characterization of compactness.
+The converse fails in general (even for metric spaces; see Example \iref{converse_fail}). To prove the Heine-Borel Theorem, we will use the following useful characterization of compactness.
 
 \begin{fact}[\ref[Characterization of compactness]{characterization_of_compactness_in_metric_spaces}]\label{char}
 
@@ -40,7 +39,7 @@ A metric space is compact iff it is complete and totally-bounded.
 
 \begin{proof}[of Theorem \iref{heine-borel}]
 
-Since closed subsets of complete spaces are complete, it suffices by Fact \iref{char} to show that bounded subsets of $\R^n$ are totally-bounded. As every bounded subset of $\R^n$ is contained in some cube $C\coloneqq[-L,L]^n$, it suffices to show that $C$ is totally-bounded.
+Let $K\subeq\R^n$ be closed and bounded. Since $\R^n$ is complete and $K$ is closed, we see that $K$ is complete too. By Fact \iref{char}, it suffices to show that $K$ is totally-bounded. Since $K\subeq C\coloneqq[-L,L]^n$ for some $L\in\N$, it further suffices to show that $C$ is totally-bounded.
 
 <br>
 

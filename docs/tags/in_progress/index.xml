@@ -9,11 +9,25 @@
     <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Compact Space</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/compact_space/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/compact_space/</guid>
+      <description>&lt;h1 id=&#34;definition&#34;&gt;Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A topological space $X$ is said to be &lt;em&gt;compact&lt;/em&gt; if every open cover of $X$ admits a finite subcover.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h1 id=&#34;properties-of-compact-spaces&#34;&gt;Properties of Compact Spaces&lt;/h1&gt;&#xA;&lt;p&gt;\begin{fact}&lt;/p&gt;&#xA;&lt;p&gt;Compactness is preserved under the following operations:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;(\ref[Images]{}). If $f:X\to Y$ is continuous and $X$ is compact, then so is $f(X)$.&lt;/li&gt;&#xA;&lt;li&gt;(\ref[Products]{tychonoffs_theorem}). For any family $\l\{X_\alpha\r\}$ of compact spaces, their product $\prod_\alpha X_\alpha$ is compact.&lt;/li&gt;&#xA;&lt;li&gt;(\ref[Quotients]{}). \TODO&lt;/li&gt;&#xA;&lt;li&gt;(Closed subspaces). If $K\subeq X$ is a closed subset of a compact space $X$, then $K$ is compact.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Compact subsets of Hausdorff spaces are closed</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/compact_implies_closed/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/compact_implies_closed/</guid>
       <description>&lt;h1 id=&#34;statement-and-proofs&#34;&gt;Statement and Proofs&lt;/h1&gt;&#xA;&lt;p&gt;\begin{theorem}\label{thm}&lt;/p&gt;&#xA;&lt;p&gt;Let $X$ be a \ref[Hausdorff]{hausdorff_space} space. If $K\subeq X$ is \ref[compact]{compact_space}, then $K$ is closed.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{example}&lt;/p&gt;&#xA;&lt;p&gt;If $X$ is not Hausdorff, then Theorem \iref{thm} need not hold. Indeed, \TODO&lt;/p&gt;&#xA;&lt;p&gt;\end{example}&lt;/p&gt;&#xA;&lt;h2 id=&#34;proofs&#34;&gt;Proofs&lt;/h2&gt;&#xA;&lt;p&gt;Let us give a direct proof of this theorem.&lt;/p&gt;&#xA;&lt;div class=&#34;space&#34;&gt;&lt;/div&gt;&#xA;&lt;p&gt;\begin{proof}[of Theorem \iref{thm}]&lt;/p&gt;&#xA;&lt;p&gt;Fix $p\in K^c$. For each $q\in K$, there exist disjoint neighborhoods $U_q\ni p$ and $V_q\ni q$. Then $\l\{V_q\r\}_{q\in K}$ is an open cover of $K$, which cuts down to a finite subcover $\l\{V_{q_i}\r\}_{i\leq n}$. Then $U\coloneqq\bigcap_{i\leq n}U_{q_i}$ is an open neighborhood of $p$ disjoint from $K\subeq\bigcap_{i\leq n}V_{q_i}$, so $K^c$ is open.&lt;span style=&#34;float:right;&#34;&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Compact subsets of metric spaces are bounded</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/compact_implies_bounded/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/compact_implies_bounded/</guid>
+      <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;Let $X$ be a metric space. If $K\subeq X$ is \ref[compact]{compact_space}, then $K$ is bounded.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Fix $x\in X$ and consider the open cover $\l\{B_n(x)\st n\in\N\r\}$ of $K$. By compactness of $K$, there exists $n_1,\dots,n_m$ such that $K\subeq\bigcup_{i\leq n}B_{n_i}(x)$, and hence $K$ is bounded.&lt;span style=&#34;float:right;&#34;&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;&#xA;&lt;p&gt;\end{proof}&lt;/p&gt;</description>
     </item>
     <item>
       <title>Characterization of Compactness in Metric Spaces</title>
@@ -27,7 +41,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/heine_borel_theorem/</link>
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/heine_borel_theorem/</guid>
-      <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and proof&lt;/h1&gt;&#xA;&lt;p&gt;Every compact subset $K\subeq X$ of a metric space $X$ is closed and bounded. Indeed:&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Compact $\Rightarrow$ closed]{compact_implies_closed}]\label{closed}&lt;/p&gt;&#xA;&lt;p&gt;Every compact set in a Hausdorff space is closed.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Compact $\Rightarrow$ bounded]{}]\label{bounded}&lt;/p&gt;&#xA;&lt;p&gt;Every compact set in a metric space is bounded.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;The converse fails in general (see Example \iref{converse_fail}), but holds in the space case when $X=\R^n$ for some $n\in\N$.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Heine-Borel]\label{heine-borel}&lt;/p&gt;&#xA;&lt;p&gt;A subset $K\subeq\R^n$ is compact iff $K$ is closed and bounded.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and proof&lt;/h1&gt;&#xA;&lt;p&gt;Every compact subset $K\subeq X$ of a metric space $X$ is closed and bounded. Indeed:&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Compact $\Rightarrow$ closed]{compact_implies_closed}]\label{closed}&lt;/p&gt;&#xA;&lt;p&gt;Every compact set in a Hausdorff space is closed.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Compact $\Rightarrow$ bounded]{compact_implies_bounded}]\label{bounded}&lt;/p&gt;&#xA;&lt;p&gt;Every compact set in a metric space is bounded.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Heine-Borel]\label{heine-borel}&lt;/p&gt;&#xA;&lt;p&gt;A subset $K\subeq\R^n$ is compact iff $K$ is closed and bounded.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;The converse fails in general (even for metric spaces; see Example \iref{converse_fail}). To prove the Heine-Borel Theorem, we will use the following useful characterization of compactness.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Topological Space</title>

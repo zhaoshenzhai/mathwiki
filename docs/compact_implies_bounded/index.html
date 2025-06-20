@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Heine-Borel Theorem</title>
+        <title>Compact subsets of metric spaces are bounded</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,34 +42,17 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Heine-Borel Theorem
+                    Compact subsets of metric spaces are bounded
                 
             </h1>
 
-            <h1 id="statement-and-proof">Statement and proof</h1>
-<p>Every compact subset $K\subeq X$ of a metric space $X$ is closed and bounded. Indeed:</p>
-<p>\begin{fact}[\ref[Compact $\Rightarrow$ closed]{compact_implies_closed}]\label{closed}</p>
-<p>Every compact set in a Hausdorff space is closed.</p>
-<p>\end{fact}</p>
-<p>\begin{fact}[\ref[Compact $\Rightarrow$ bounded]{compact_implies_bounded}]\label{bounded}</p>
-<p>Every compact set in a metric space is bounded.</p>
-<p>\end{fact}</p>
-<p>\begin{theorem}[Heine-Borel]\label{heine-borel}</p>
-<p>A subset $K\subeq\R^n$ is compact iff $K$ is closed and bounded.</p>
+            <h1 id="statement-and-proof">Statement and Proof</h1>
+<p>\begin{theorem}</p>
+<p>Let $X$ be a metric space. If $K\subeq X$ is \ref[compact]{compact_space}, then $K$ is bounded.</p>
 <p>\end{theorem}</p>
-<p>The converse fails in general (even for metric spaces; see Example \iref{converse_fail}). To prove the Heine-Borel Theorem, we will use the following useful characterization of compactness.</p>
-<p>\begin{fact}[\ref[Characterization of compactness]{characterization_of_compactness_in_metric_spaces}]\label{char}</p>
-<p>A metric space is compact iff it is complete and totally-bounded.</p>
-<p>\end{fact}</p>
-<div class="space"></div>
-<p>\begin{proof}[of Theorem \iref{heine-borel}]</p>
-<p>Let $K\subeq\R^n$ be closed and bounded. Since $\R^n$ is complete and $K$ is closed, we see that $K$ is complete too. By Fact \iref{char}, it suffices to show that $K$ is totally-bounded. Since $K\subeq C\coloneqq[-L,L]^n$ for some $L\in\N$, it further suffices to show that $C$ is totally-bounded.</p>
-<br>
-<p>  Indeed, let $\epsilon&gt;0$ and fix $k\in\N$ large enough. Divide $C$ into $k^n$-many congruent sub cubes, each of side length $2L/k$ and hence diameter $\sqrt{n}(2R/k)&lt;2\epsilon$, so that they are contained in balls of radii $\epsilon$ at their centers.<span style="float:right;">$\blacksquare$</span></p>
+<p>\begin{proof}</p>
+<p>Fix $x\in X$ and consider the open cover $\l\{B_n(x)\st n\in\N\r\}$ of $K$. By compactness of $K$, there exists $n_1,\dots,n_m$ such that $K\subeq\bigcup_{i\leq n}B_{n_i}(x)$, and hence $K$ is bounded.<span style="float:right;">$\blacksquare$</span></p>
 <p>\end{proof}</p>
-<p>\begin{example}\label{converse_fail}</p>
-<p>The Heine-Borel Theorem fails for general metric spaces. Indeed, \TODO</p>
-<p>\end{example}</p>
 
 
             <div id="references"></div>
