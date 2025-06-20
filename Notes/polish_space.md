@@ -14,10 +14,10 @@ A topological space $X$ is said to be _Polish_ if $X$ is \ref[separable]{separab
 
 # Basic Properties of Polish Spaces
 
-\begin{fact}[\ref{}]
+\begin{fact}[\ref[Preservation]{preservation_of_polish}]
 
 Being Polish is preserved under the following operations.
-1. (Subsets). Closed subsets of Polish spaces are Polish.
+1. (Subsets). A subset of a Polish space is Polish iff it is $G_\delta$.
 2. (Union). Countable disjoint unions of Polish spaces are Polish.
 3. (Product). Countable products of Polish spaces are Polish.
 

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Preservation_of_compactness</title>
+        <title>Preservation of Compactness</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,11 +42,55 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Preservation_of_compactness
+                    Preservation of Compactness
                 
             </h1>
 
-            
+            <p>We give several instances where \ref[compactness]{compact_space} is preserved under set-theoretical operations.</p>
+<h1 id="statements-and-proofs">Statements and Proofs</h1>
+<h2 id="images">Images</h2>
+<p>The most basic and fundamental theorem is that compactness is preserved under images.</p>
+<p>\begin{theorem}</p>
+<p>If $f:X\to Y$ is a continuous map and $X$ is compact, then $f(X)$ is compact too.</p>
+<p>\end{theorem}</p>
+<p>\begin{proof}</p>
+<p>Let $\mc{V}$ be an open cover of $f(X)$, so $\mc{U}\coloneqq\{f^{-1}(V)\st V\in\mc{V}\}$ is an open cover of $X$. Since $X$ is compact, there is a finite subcover $\l\{U_i\r\}_{i\leq n}$ of $X$, so that $\l\{V_i\r\}_{i\leq n}\subeq\mc{V}$ is a finite cover of $X$.<span style="float:right;">$\blacksquare$</span></p>
+<p>\end{proof}</p>
+<p>\begin{corollary}\label{homeo}</p>
+<p>If $X$ is compact and $Y$ is homeomorphic to $X$, then $Y$ is compact too.</p>
+<p>\end{corollary}</p>
+<h2 id="subspaces">Subspaces</h2>
+<p>Compactness is preserved under closed subspaces.</p>
+<p>\begin{theorem}</p>
+<p>If $K\subeq X$ is a closed subspace of a compact space $X$, then $K$ is compact.</p>
+<p>\end{theorem}</p>
+<p>\begin{proof}</p>
+<p>Let $\mc{U}$ be an open cover of $K$, so $\mc{U}\cup\l\{X\comp K\r\}$ is an open cover of $X$. Since $X$ is compact, there is a finite subcover $\l\{U_i\r\}_{i\leq n}\cup\l\{X\comp K\r\}$ of $X$, and hence $K$ is covered by $\l\{U_i\r\}_{i\leq n}$.<span style="float:right;">$\blacksquare$</span></p>
+<p>\end{proof}</p>
+<h2 id="products">Products</h2>
+<p>Compactness is also preserved under products.</p>
+<p>\begin{theorem}[Tychonoff]\label{tychonoff}</p>
+<p>For any family $\l\{X_\alpha\r\}$ of compact spaces, their product $\prod_\alpha X_\alpha$ is compact.</p>
+<p>\end{theorem}</p>
+<p>  Let us first prove Theorem \iref{tychonoff} for binary products, which is much easier. One proof relies on the following fact.</p>
+<p>\begin{fact}[\ref[Tube Lemma]{tube_lemma}]\label{tube}</p>
+<p>Let $X$ and $Y$ be topological spaces. If $Y$ is compact, then for any $x\in X$ and any open set $U\subeq X\times Y$ containing the fiber $\l\{x\r\}\times Y$, there is a neighborhood $V\ni x$ such that $V\times Y\subeq U$.</p>
+<p>\end{fact}</p>
+<p>\begin{proof}[of Theorem \iref{tychonoff} for binary products]</p>
+<p>Let $\mc{U}$ be an open cover of $X\times Y$. For each $x\in X$, the set $\l\{x\r\}\times Y$ is compact by Corollary \iref{homeo}, and hence can be covered by finitely-many sets $\l\{U_i\r\}_{i\leq n}\subeq\mc{U}$. Thus $U\coloneqq\bigcup_{i\leq n}U_i$ contains $\l\{x\r\}\times Y$, so by Fact \iref{tube}, there is a neighborhood $V_x\in x$ such that $V_x\times Y\subeq U$.</p>
+<br>
+<p>  Now, $\l\{V_x\r\}_{x\in X}$ is an open cover of $X$, which cuts down to a finite subcover. Since finitely many sets from $\mc{U}$ covers each $V_x\times Y$ and finitely many $V_x$&rsquo;s cover $X$, we are done.<span style="float:right;">$\blacksquare$</span></p>
+<p>\end{proof}</p>
+<div class="space"></div>
+<p>  The general proof of Theorem \iref{tychonoff} is much harder to execute &lsquo;by hand&rsquo;. However, there is an easy proof using the following characterization of compactness.</p>
+<p>\begin{fact}[\ref{}]</p>
+<p>A topological space $X$ is compact iff every filter converges to at-most one point.</p>
+<p>\end{fact}</p>
+<div class="space"></div>
+<p>\begin{proof}[of Theorem \iref{tychonoff}]</p>
+<p>\TODO</p>
+<p>\end{proof}</p>
+
 
             <div id="references"></div>
             <div class="bottomSpace"></div>

@@ -51,14 +51,16 @@
 <p>A topological space $X$ is said to be <em>compact</em> if every open cover of $X$ admits a finite subcover.</p>
 <p>\end{definition}</p>
 <h1 id="properties-of-compact-spaces">Properties of Compact Spaces</h1>
-<p>\begin{fact}</p>
+<p>\begin{fact}[\ref[Preservation]{preservation_of_compactness}]</p>
 <p>Compactness is preserved under the following operations:</p>
 <ol>
-<li>(\ref[Images]{}). If $f:X\to Y$ is continuous and $X$ is compact, then so is $f(X)$.</li>
-<li>(\ref[Products]{tychonoffs_theorem}). For any family $\l\{X_\alpha\r\}$ of compact spaces, their product $\prod_\alpha X_\alpha$ is compact.</li>
-<li>(\ref[Quotients]{}). \TODO</li>
-<li>(Closed subspaces). If $K\subeq X$ is a closed subset of a compact space $X$, then $K$ is compact.</li>
+<li>(Images). If $f:X\to Y$ is continuous and $X$ is compact, then so is $f(X)$.</li>
+<li>(\ref[Products]{product_topology}/\ref[Tychonoff&rsquo;s Theorem]{tychonoffs_theorem}). For any family $\l\{X_\alpha\r\}$ of compact spaces, their product $\prod_\alpha X_\alpha$ is compact.</li>
+<li>(Closed \ref[subspaces]{subspace_topology}). If $K\subeq X$ is a closed subset of a compact space $X$, then $K$ is compact.</li>
 </ol>
+<p>\end{fact}</p>
+<p>\begin{fact}[\ref[Tube Lemma]{tube_lemma}]</p>
+<p>Let $X$ and $Y$ be topological spaces. If $Y$ is compact, then $\pi_1:X\times Y\to X$ is closed.</p>
 <p>\end{fact}</p>
 <p>\begin{fact}[\ref{compact_implies_closed}]</p>
 <p>Every compact subset of a Hausdorff space is closed.</p>

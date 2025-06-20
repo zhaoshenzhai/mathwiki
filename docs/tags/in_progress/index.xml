@@ -20,7 +20,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/compact_space/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/compact_space/</guid>
-      <description>&lt;h1 id=&#34;definition&#34;&gt;Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A topological space $X$ is said to be &lt;em&gt;compact&lt;/em&gt; if every open cover of $X$ admits a finite subcover.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h1 id=&#34;properties-of-compact-spaces&#34;&gt;Properties of Compact Spaces&lt;/h1&gt;&#xA;&lt;p&gt;\begin{fact}&lt;/p&gt;&#xA;&lt;p&gt;Compactness is preserved under the following operations:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;(\ref[Images]{}). If $f:X\to Y$ is continuous and $X$ is compact, then so is $f(X)$.&lt;/li&gt;&#xA;&lt;li&gt;(\ref[Products]{tychonoffs_theorem}). For any family $\l\{X_\alpha\r\}$ of compact spaces, their product $\prod_\alpha X_\alpha$ is compact.&lt;/li&gt;&#xA;&lt;li&gt;(\ref[Quotients]{}). \TODO&lt;/li&gt;&#xA;&lt;li&gt;(Closed subspaces). If $K\subeq X$ is a closed subset of a compact space $X$, then $K$ is compact.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;definition&#34;&gt;Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A topological space $X$ is said to be &lt;em&gt;compact&lt;/em&gt; if every open cover of $X$ admits a finite subcover.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h1 id=&#34;properties-of-compact-spaces&#34;&gt;Properties of Compact Spaces&lt;/h1&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Preservation]{preservation_of_compactness}]&lt;/p&gt;&#xA;&lt;p&gt;Compactness is preserved under the following operations:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;(Images). If $f:X\to Y$ is continuous and $X$ is compact, then so is $f(X)$.&lt;/li&gt;&#xA;&lt;li&gt;(\ref[Products]{product_topology}/\ref[Tychonoff&amp;rsquo;s Theorem]{tychonoffs_theorem}). For any family $\l\{X_\alpha\r\}$ of compact spaces, their product $\prod_\alpha X_\alpha$ is compact.&lt;/li&gt;&#xA;&lt;li&gt;(Closed \ref[subspaces]{subspace_topology}). If $K\subeq X$ is a closed subset of a compact space $X$, then $K$ is compact.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;</description>
     </item>
     <item>
       <title>Compact subsets of Hausdorff spaces are closed</title>
@@ -62,13 +62,27 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/polish_space/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/polish_space/</guid>
-      <description>&lt;h1 id=&#34;definition&#34;&gt;Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A topological space $X$ is said to be &lt;em&gt;Polish&lt;/em&gt; if $X$ is \ref[separable]{separable_space} and completely-metrizable.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h1 id=&#34;basic-properties-of-polish-spaces&#34;&gt;Basic Properties of Polish Spaces&lt;/h1&gt;&#xA;&lt;p&gt;\begin{fact}[\ref{}]&lt;/p&gt;&#xA;&lt;p&gt;Being Polish is preserved under the following operations.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;(Subsets). Closed subsets of Polish spaces are Polish.&lt;/li&gt;&#xA;&lt;li&gt;(Union). Countable disjoint unions of Polish spaces are Polish.&lt;/li&gt;&#xA;&lt;li&gt;(Product). Countable products of Polish spaces are Polish.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;definition&#34;&gt;Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A topological space $X$ is said to be &lt;em&gt;Polish&lt;/em&gt; if $X$ is \ref[separable]{separable_space} and completely-metrizable.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h1 id=&#34;basic-properties-of-polish-spaces&#34;&gt;Basic Properties of Polish Spaces&lt;/h1&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Preservation]{preservation_of_polish}]&lt;/p&gt;&#xA;&lt;p&gt;Being Polish is preserved under the following operations.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;(Subsets). A subset of a Polish space is Polish iff it is $G_\delta$.&lt;/li&gt;&#xA;&lt;li&gt;(Union). Countable disjoint unions of Polish spaces are Polish.&lt;/li&gt;&#xA;&lt;li&gt;(Product). Countable products of Polish spaces are Polish.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Preservation_of_compactness</title>
+      <title>Preservation of Compactness</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/preservation_of_compactness/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/preservation_of_compactness/</guid>
+      <description>&lt;p&gt;We give several instances where \ref[compactness]{compact_space} is preserved under set-theoretical operations.&lt;/p&gt;&#xA;&lt;h1 id=&#34;statements-and-proofs&#34;&gt;Statements and Proofs&lt;/h1&gt;&#xA;&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;&#xA;&lt;p&gt;The most basic and fundamental theorem is that compactness is preserved under images.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;If $f:X\to Y$ is a continuous map and $X$ is compact, then $f(X)$ is compact too.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Let $\mc{V}$ be an open cover of $f(X)$, so $\mc{U}\coloneqq\{f^{-1}(V)\st V\in\mc{V}\}$ is an open cover of $X$. Since $X$ is compact, there is a finite subcover $\l\{U_i\r\}_{i\leq n}$ of $X$, so that $\l\{V_i\r\}_{i\leq n}\subeq\mc{V}$ is a finite cover of $X$.&lt;span style=&#34;float:right;&#34;&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Preservation of Polish spaces</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/preservation_of_polish/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/preservation_of_polish/</guid>
+      <description>&lt;p&gt;We give several instances where being \ref[Polish]{polish_space} is preserved under set-theoretic operations.&lt;/p&gt;&#xA;&lt;h1 id=&#34;statements-and-proofs&#34;&gt;Statements and Proofs&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sums&#34;&gt;Sums&lt;/h2&gt;&#xA;&lt;h2 id=&#34;products&#34;&gt;Products&lt;/h2&gt;&#xA;&lt;h2 id=&#34;subsets&#34;&gt;Subsets&lt;/h2&gt;&#xA;&lt;p&gt;That a closed subset of a Polish space is Polish follows from the following fact.&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref{preservation_of_separability}]&lt;/p&gt;&#xA;&lt;p&gt;Any subset of a separable metrizable space is separable.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;  More generally, we have the following criterion for a subset of a Polish space to be Polish.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;Let $X$ be a Polish space. A subset $Y\subeq X$ is Polish iff $Y$ is $G_\delta$ in $X$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Preservation_of_separability</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/preservation_of_separability/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/preservation_of_separability/</guid>
       <description></description>
     </item>
     <item>
