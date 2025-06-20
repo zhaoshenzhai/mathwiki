@@ -9,11 +9,11 @@
     <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Compact subsets of Hausdorff spaces are Closed</title>
+      <title>Compact subsets of Hausdorff spaces are closed</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/compact_implies_closed/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/compact_implies_closed/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;statement-and-proofs&#34;&gt;Statement and Proofs&lt;/h1&gt;&#xA;&lt;p&gt;\begin{theorem}\label{thm}&lt;/p&gt;&#xA;&lt;p&gt;Let $X$ be a \ref[Hausdorff]{hausdorff_space} space. If $K\subeq X$ is \ref[compact]{compact_space}, then $K$ is closed.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{example}&lt;/p&gt;&#xA;&lt;p&gt;If $X$ is not Hausdorff, then Theorem \iref{thm} need not hold. Indeed, \TODO&lt;/p&gt;&#xA;&lt;p&gt;\end{example}&lt;/p&gt;&#xA;&lt;h2 id=&#34;proofs&#34;&gt;Proofs&lt;/h2&gt;&#xA;&lt;p&gt;Let us give a direct proof of this theorem.&lt;/p&gt;&#xA;&lt;div class=&#34;space&#34;&gt;&lt;/div&gt;&#xA;&lt;p&gt;\begin{proof}[of Theorem \iref{thm}]&lt;/p&gt;&#xA;&lt;p&gt;Fix $p\in K^c$. For each $q\in K$, there exist disjoint neighborhoods $U_q\ni p$ and $V_q\ni q$. Then $\l\{V_q\r\}_{q\in K}$ is an open cover of $K$, which cuts down to a finite subcover $\l\{V_{q_i}\r\}_{i\leq n}$. Then $U\coloneqq\bigcap_{i\leq n}U_{q_i}$ is an open neighborhood of $p$ disjoint from $K\subeq\bigcap_{i\leq n}V_{q_i}$, so $K^c$ is open.&lt;span style=&#34;float:right;&#34;&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Characterization of Compactness in Metric Spaces</title>

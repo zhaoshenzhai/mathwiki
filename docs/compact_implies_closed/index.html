@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Compact subsets of Hausdorff spaces are Closed</title>
+        <title>Compact subsets of Hausdorff spaces are closed</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,11 +42,33 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Compact subsets of Hausdorff spaces are Closed
+                    Compact subsets of Hausdorff spaces are closed
                 
             </h1>
 
-            
+            <h1 id="statement-and-proofs">Statement and Proofs</h1>
+<p>\begin{theorem}\label{thm}</p>
+<p>Let $X$ be a \ref[Hausdorff]{hausdorff_space} space. If $K\subeq X$ is \ref[compact]{compact_space}, then $K$ is closed.</p>
+<p>\end{theorem}</p>
+<p>\begin{example}</p>
+<p>If $X$ is not Hausdorff, then Theorem \iref{thm} need not hold. Indeed, \TODO</p>
+<p>\end{example}</p>
+<h2 id="proofs">Proofs</h2>
+<p>Let us give a direct proof of this theorem.</p>
+<div class="space"></div>
+<p>\begin{proof}[of Theorem \iref{thm}]</p>
+<p>Fix $p\in K^c$. For each $q\in K$, there exist disjoint neighborhoods $U_q\ni p$ and $V_q\ni q$. Then $\l\{V_q\r\}_{q\in K}$ is an open cover of $K$, which cuts down to a finite subcover $\l\{V_{q_i}\r\}_{i\leq n}$. Then $U\coloneqq\bigcap_{i\leq n}U_{q_i}$ is an open neighborhood of $p$ disjoint from $K\subeq\bigcap_{i\leq n}V_{q_i}$, so $K^c$ is open.<span style="float:right;">$\blacksquare$</span></p>
+<p>\end{proof}</p>
+<div class="space"></div>
+<p>  Observe that the above proof essentially uses that compact spaces are regular. In fact,</p>
+<p>\begin{fact}[\ref{}]\label{compact_normal}</p>
+<p>Every compact Hausdorff space is normal.</p>
+<p>\end{fact}</p>
+<div class="space"></div>
+<p>\begin{proof}[of Theorem \iref{thm}]</p>
+<p>Again, fix $p\in K^c$. By Fact \iref{compact_normal}, there exist disjoint open neighborhoods $U\ni p$ and $V\supseteq K$, so $p\in U\subeq K^c$ as desired.<span style="float:right;">$\blacksquare$</span></p>
+<p>\end{proof}</p>
+
 
             <div id="references"></div>
             <div class="bottomSpace"></div>
