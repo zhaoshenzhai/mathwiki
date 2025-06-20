@@ -8,7 +8,7 @@ tags: [In_Progress]
 
 Every compact subset $K\subeq X$ of a metric space $X$ is closed and bounded. Indeed:
 
-\begin{fact}[\ref[Compact $\Rightarrow$ closed]{}]\label{closed}
+\begin{fact}[\ref[Compact $\Rightarrow$ closed]{compact_implies_closed}]\label{closed}
 
 Every compact set in a Hausdorff space is closed.
 

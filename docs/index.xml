@@ -6,8 +6,15 @@
     <description>Recent content on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compact subsets of Hausdorff spaces are Closed</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/compact_implies_closed/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/compact_implies_closed/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Characterization of Compactness in Metric Spaces</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/characterization_of_compactness_in_metric_spaces/</link>
@@ -20,7 +27,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/heine_borel_theorem/</link>
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/heine_borel_theorem/</guid>
-      <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and proof&lt;/h1&gt;&#xA;&lt;p&gt;Every compact subset $K\subeq X$ of a metric space $X$ is closed and bounded. Indeed:&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Compact $\Rightarrow$ closed]{}]\label{closed}&lt;/p&gt;&#xA;&lt;p&gt;Every compact set in a Hausdorff space is closed.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Compact $\Rightarrow$ bounded]{}]\label{bounded}&lt;/p&gt;&#xA;&lt;p&gt;Every compact set in a metric space is bounded.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;The converse fails in general (see Example \iref{converse_fail}), but holds in the space case when $X=\R^n$ for some $n\in\N$.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Heine-Borel]\label{heine-borel}&lt;/p&gt;&#xA;&lt;p&gt;A subset $K\subeq\R^n$ is compact iff $K$ is closed and bounded.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and proof&lt;/h1&gt;&#xA;&lt;p&gt;Every compact subset $K\subeq X$ of a metric space $X$ is closed and bounded. Indeed:&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Compact $\Rightarrow$ closed]{compact_implies_closed}]\label{closed}&lt;/p&gt;&#xA;&lt;p&gt;Every compact set in a Hausdorff space is closed.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Compact $\Rightarrow$ bounded]{}]\label{bounded}&lt;/p&gt;&#xA;&lt;p&gt;Every compact set in a metric space is bounded.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;The converse fails in general (see Example \iref{converse_fail}), but holds in the space case when $X=\R^n$ for some $n\in\N$.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Heine-Borel]\label{heine-borel}&lt;/p&gt;&#xA;&lt;p&gt;A subset $K\subeq\R^n$ is compact iff $K$ is closed and bounded.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Topological Space</title>
