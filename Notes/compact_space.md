@@ -38,7 +38,7 @@ Every compact subset of a metric space is bounded.
 
 # Characterizations of Compactness
 
-\begin{fact}[\ref{}]
+\begin{fact}[\ref{fip_characterization_of_compactness}]
 
 A topological space $X$ is compact iff every FIP-family of closed sets has non-empty intersection; i.e., if $\mc{F}$ is family of closed subsets of $X$ such that $\bigcap\mc{F}_0\neq\e$ for every finite $\mc{F}_0\subeq\mc{F}$, then $\bigcap\mc{F}\neq\e$.
 

@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Bolzano-Weierstrass Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/bolzano-weierstrass_theorem/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/bolzano-weierstrass_theorem/</guid>
+      <description>&lt;h1 id=&#34;statement-and-proofs&#34;&gt;Statement and Proofs&lt;/h1&gt;&#xA;&lt;p&gt;\begin{theorem}[Bolzano-Weierstrass]\label{thm}&lt;/p&gt;&#xA;&lt;p&gt;Every bounded sequence in $\R^d$ admits a convergent subsequence.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Let $(x_n)$ be a bounded sequence in $\R^d$. Projecting $(x_n)$ to each of its $d$ coordinates, we can assume without loss of generality that $d=1$. By shifting and scaling $(x_n)$, we can assume that $x_n\in[0,1]$ for each $n\in\N$.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  We construct a convergent subsequence of $(x_n)$ as follows. Split $I_0\coloneqq[0,1]$ into two congruent subintervals, so by the pigeonhole-principle, at least one of which contains infinitely-many $x_n$&amp;rsquo;s. Let $I_1$ be one such interval, which we split again into two congruent subintervals. Repeating this process gives us a decreasing sequence $(I_i)$ of nested intervals such that $\ell(I_i)=2^{-i}$, each containing infinitely-many $x_n$&amp;rsquo;s. Thus there is an increasing sequence $n_i$ such that $x_{n_i}\in I_i$ and $d(x_{n_i},x_{n_j})\leq2^{-i}$ whenever $i&amp;lt;j$, so the subsequence $(x_{n_i})$ of $(x_n)$ is Cauchy. Since $\R$ is complete, $(x_{n_i})$ is converges, as desired.&lt;span style=&#34;float:right;&#34;&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Compact Space</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/compact_space/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
@@ -28,6 +35,13 @@
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/compact_implies_bounded/</guid>
       <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;Let $X$ be a metric space. If $K\subeq X$ is \ref[compact]{compact_space}, then $K$ is bounded.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Fix $x\in X$ and consider the open cover $\l\{B_n(x)\st n\in\N\r\}$ of $K$. By compactness of $K$, there exists $n_1,\dots,n_m$ such that $K\subeq\bigcup_{i\leq n}B_{n_i}(x)$, and hence $K$ is bounded.&lt;span style=&#34;float:right;&#34;&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;&#xA;&lt;p&gt;\end{proof}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fip_characterization_of_compactness</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/fip_characterization_of_compactness/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/fip_characterization_of_compactness/</guid>
+      <description></description>
     </item>
     <item>
       <title>Characterization of Compactness in Metric Spaces</title>
