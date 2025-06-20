@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Characterization of Universal Axiomatizability</title>
+        <title>Characterization of Compactness in Metric Spaces</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,36 +42,48 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Characterization of Universal Axiomatizability
+                    Characterization of Compactness in Metric Spaces
                 
             </h1>
 
-            <p>Throughout, let $L$ be a \ref[language]{first-order_language}. We give a characterization for when an $L$-\ref[theory]{theory} is \ref[universally-axiomatizable]{axiomatization}.</p>
-<h1 id="statement-and-proof">Statement and Proof</h1>
-<p>\begin{theorem}\label{char}</p>
-<p>An $L$-theory $T$ is universally-axiomatizable iff $T$ is closed under \ref[submodels]{model}, i.e., if $N\models T$ and $M\subseq N$, then $M\models T$ as well.</p>
+            <h1 id="statement-and-proofs">Statement and Proofs</h1>
+<p>\begin{theorem}</p>
+<p>The following are equivalent for a metric space $X$.</p>
+<ol>
+<li>$X$ is compact: every open cover of $X$ admits a finite subcover.</li>
+<li>$X$ is sequentially-compact: every sequence in $X$ admits a convergent subsequence.</li>
+<li>(Heine-Borel). $X$ is complete and totally-bounded.</li>
+</ol>
 <p>\end{theorem}</p>
-<p>We will prove a slightly more general version of the statement. Let $T_\fa$ be the set of all universal consequences of $T$.</p>
-<p>\begin{theorem}\label{general}</p>
-<p>For any $L$-structure $M$, we have $M\models T_\fa$ iff there is a model $N\models T$ containing $M$.</p>
-<p>\end{theorem}</p>
-<div class="space"></div>
-<p>\begin{proof}[of Theorem \iref{char} assuming \iref{general}]</p>
-<p>Suppose that $\Gamma$ is a universal axiomatization of $T$ and let $N\subseq M\models T$. If $\phi(\bar{x})$ is a quantifier-free formula and $\bar{a}\in N$, then $N\models\phi(\bar{a})$ iff $M\models\phi(\bar{a})$, so if $M\models\fa\bar{x}\phi(\bar{x})$, then $N\models\fa\bar{x}\phi(\bar{x})$ too. Thus $N\models\Gamma$, and so $N\models T$ as desired. Conversely, clearly $M\models T$ implies $M\models T_\fa$. If $M\models T_\fa$, then by Theorem \iref{general}, there is a model $N\models T$ containing $M$, so $M\models T$ by hypothesis.<span style="float:right;">$\blacksquare$</span></p>
+<p>We prove this by showing that (1) $\Rightarrow$ (2) $\Rightarrow$ (3) $\Rightarrow$ (1). Henceforth, let $X$ be a metric space.</p>
+<p>\begin{lemma}</p>
+<p>If $X$ is compact, then every sequence in $X$ admits a convergent subsequence.</p>
+<p>\end{lemma}</p>
+<p>\begin{proof}</p>
+<p>If $(x_n)$ is a sequence in $X$ with no convergent subsequence, then for each $x\in X$, there is a ball $B_x$ centered at $x$ containing only finitely-many $x_n$. Clearly $\l\{B_x\r\}_{x\in X}$ is an open cover of $X$, which admits no finite subcover.<span style="float:right;">$\blacksquare$</span></p>
 <p>\end{proof}</p>
-<div class="space"></div>
-<p>  It remains to prove Theorem \iref{general}, which will require the following facts.</p>
-<p>\begin{fact}[\ref[Diagrams]{diagrams_and_embeddings}]\label{diag_emb}</p>
-<p>Let $N$ be an $L_M$-structure. If $N\models\Diag M$, then there is an $L$-embedding $M\into N$.</p>
+<p>\begin{fact}[\ref{}]\label{cauchy}</p>
+<p>If $(x_n)$ is a Cauchy sequence in $X$ with a convergent subsequence, then $(x_n)$ converges.</p>
 <p>\end{fact}</p>
-<p>\begin{fact}[\ref[Compactness Theorem]{compactness_theorem}]\label{compactness}</p>
-<p>If an $L$-theory $T$ is finitely-satisfiable, then it is satisfiable.</p>
-<p>\end{fact}</p>
-<div class="space"></div>
-<p>\begin{proof}[of Theorem \iref{general}]</p>
-<p>The converse is similar to the above, so suppose that $M\models T_\fa$. By Fact \iref{diag_emb}, it suffices to show that the $L_M$-theory $T&rsquo;\coloneqq T\cup\Diag M$ is satisfiable. Suppose towards a contradiction that $T&rsquo;$ is not satisfiable, so by Fact \iref{compactness}, there is a finite set $\Delta\coloneqq\l\{\sigma_1,\dots,\sigma_n\r\}\subeq\Diag M$ such that $T\cup\Delta$ is unsatisfiable.</p>
+<p>\begin{lemma}</p>
+<p>If $X$ is not complete, then it is not sequentially-compact.</p>
+<p>\end{lemma}</p>
+<p>\begin{proof}</p>
+<p>Take a Cauchy sequence $(x_n)$ in $X$ with no limit, which admits no convergent subsequence by Fact \iref{cauchy}.<span style="float:right;">$\blacksquare$</span></p>
+<p>\end{proof}</p>
+<p>\begin{lemma}</p>
+<p>If $X$ is not totally-bounded, then it is not sequentially-compact.</p>
+<p>\end{lemma}</p>
+<p>\begin{proof}</p>
+<p>Fix $x_0\in X$ and let $\epsilon&gt;0$ be such that $X$ cannot be covered by finitely-many $\epsilon$-balls, so we can recursively pick $x_{n+1}\coloneqq X\comp\bigcup_{i\leq n}B_\epsilon(x_i)$. Then $d(x_n,x_m)\geq\epsilon$ for all $n,m\in\N$, so $(x_n)$ admits not convergent subsequence.<span style="float:right;">$\blacksquare$</span></p>
+<p>\end{proof}</p>
+<p>\begin{lemma}</p>
+<p>If $X$ is complete and totally-bounded, then $X$ is compact.</p>
+<p>\end{lemma}</p>
+<p>\begin{proof}</p>
+<p>Suppose towards a contradiction that there is an open cover $\l\{U_\alpha\r\}$ of $X$ with no finite subcover. Cover $X$ by finitely-many balls of radius $2^{-0}$, at least one of which cannot be covered by finitely-many $U_\alpha$&rsquo;s; choose one such ball $B_1(x_0)$. Again, we cover $B_1(x_0)$ by finitely-many balls of radius $2^{-1}$ whose centers are less than $2^{-0}+2^{-1}$ away from $x_0$, and choose one such ball $B_{2^{-1}}(x_1)$ not covered by finitely-many $U_\alpha$&rsquo;s.</p>
 <br>
-<p>  For each $i$, write $\sigma_i=\phi_i(\bar{c}/\bar{x})$ for some quantifier-free $L$-formula $\phi_i(\bar{x})$ and some $\bar{c}\in M$ and consider the $L$-formula $\Phi(\bar{x})\coloneqq\bigwedge_i\phi_i(\bar{x})$. Observe that $T\cup\l\{\ex\bar{x}\Phi(\bar{x})\r\}$ is an unsatisfiable $L$-theory, for otherwise we can interpret $\bar{c}$ as any witness for $\bar{x}$ to see that $T\cup\Delta$ is satisfiable. Thus $T$ models $\fa\bar{x}\lnot\Phi(\bar{x})\in\Gamma$, so $M\models\fa\bar{x}\lnot\Phi(\bar{x})$ since $M\models\Gamma$. In particular, we have $M\models\lnot\phi_i(\bar{c}/\bar{x})$ for some $i$, contradicting the fact that $\sigma_i\in\Diag M$.<span style="float:right;">$\blacksquare$</span></p>
+<p>  Continuing this way furnishes a sequence $(x_n)$ in $X$ such that each ball $B_{2^{-n}}(x_n)$ cannot be covered by finitely-many $U_\alpha$&rsquo;s and $d(x_n,x_{n+1})&lt;2^{-n}+2^{-(n+1)}$. Thus $(x_n)$ is Cauchy, so it converges to some $x\in X$. Choose $\epsilon&gt;0$ such that $B_\epsilon(x)\subeq U_\alpha$ for some $\alpha$ and note that $B_{2^{-n}}(x_n)\subeq B_\epsilon(x)$ for sufficiently large $n\in\N$, a contradiction.<span style="float:right;">$\blacksquare$</span></p>
 <p>\end{proof}</p>
 
 

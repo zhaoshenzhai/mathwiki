@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Characterization of Universal Axiomatizability</title>
+        <title>Topological Space</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,37 +42,28 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Characterization of Universal Axiomatizability
+                    Topological Space
                 
             </h1>
 
-            <p>Throughout, let $L$ be a \ref[language]{first-order_language}. We give a characterization for when an $L$-\ref[theory]{theory} is \ref[universally-axiomatizable]{axiomatization}.</p>
-<h1 id="statement-and-proof">Statement and Proof</h1>
-<p>\begin{theorem}\label{char}</p>
-<p>An $L$-theory $T$ is universally-axiomatizable iff $T$ is closed under \ref[submodels]{model}, i.e., if $N\models T$ and $M\subseq N$, then $M\models T$ as well.</p>
-<p>\end{theorem}</p>
-<p>We will prove a slightly more general version of the statement. Let $T_\fa$ be the set of all universal consequences of $T$.</p>
-<p>\begin{theorem}\label{general}</p>
-<p>For any $L$-structure $M$, we have $M\models T_\fa$ iff there is a model $N\models T$ containing $M$.</p>
-<p>\end{theorem}</p>
-<div class="space"></div>
-<p>\begin{proof}[of Theorem \iref{char} assuming \iref{general}]</p>
-<p>Suppose that $\Gamma$ is a universal axiomatization of $T$ and let $N\subseq M\models T$. If $\phi(\bar{x})$ is a quantifier-free formula and $\bar{a}\in N$, then $N\models\phi(\bar{a})$ iff $M\models\phi(\bar{a})$, so if $M\models\fa\bar{x}\phi(\bar{x})$, then $N\models\fa\bar{x}\phi(\bar{x})$ too. Thus $N\models\Gamma$, and so $N\models T$ as desired. Conversely, clearly $M\models T$ implies $M\models T_\fa$. If $M\models T_\fa$, then by Theorem \iref{general}, there is a model $N\models T$ containing $M$, so $M\models T$ by hypothesis.<span style="float:right;">$\blacksquare$</span></p>
-<p>\end{proof}</p>
-<div class="space"></div>
-<p>  It remains to prove Theorem \iref{general}, which will require the following facts.</p>
-<p>\begin{fact}[\ref[Diagrams]{diagrams_and_embeddings}]\label{diag_emb}</p>
-<p>Let $N$ be an $L_M$-structure. If $N\models\Diag M$, then there is an $L$-embedding $M\into N$.</p>
-<p>\end{fact}</p>
-<p>\begin{fact}[\ref[Compactness Theorem]{compactness_theorem}]\label{compactness}</p>
-<p>If an $L$-theory $T$ is finitely-satisfiable, then it is satisfiable.</p>
-<p>\end{fact}</p>
-<div class="space"></div>
-<p>\begin{proof}[of Theorem \iref{general}]</p>
-<p>The converse is similar to the above, so suppose that $M\models T_\fa$. By Fact \iref{diag_emb}, it suffices to show that the $L_M$-theory $T&rsquo;\coloneqq T\cup\Diag M$ is satisfiable. Suppose towards a contradiction that $T&rsquo;$ is not satisfiable, so by Fact \iref{compactness}, there is a finite set $\Delta\coloneqq\l\{\sigma_1,\dots,\sigma_n\r\}\subeq\Diag M$ such that $T\cup\Delta$ is unsatisfiable.</p>
-<br>
-<p>  For each $i$, write $\sigma_i=\phi_i(\bar{c}/\bar{x})$ for some quantifier-free $L$-formula $\phi_i(\bar{x})$ and some $\bar{c}\in M$ and consider the $L$-formula $\Phi(\bar{x})\coloneqq\bigwedge_i\phi_i(\bar{x})$. Observe that $T\cup\l\{\ex\bar{x}\Phi(\bar{x})\r\}$ is an unsatisfiable $L$-theory, for otherwise we can interpret $\bar{c}$ as any witness for $\bar{x}$ to see that $T\cup\Delta$ is satisfiable. Thus $T$ models $\fa\bar{x}\lnot\Phi(\bar{x})\in\Gamma$, so $M\models\fa\bar{x}\lnot\Phi(\bar{x})$ since $M\models\Gamma$. In particular, we have $M\models\lnot\phi_i(\bar{c}/\bar{x})$ for some $i$, contradicting the fact that $\sigma_i\in\Diag M$.<span style="float:right;">$\blacksquare$</span></p>
-<p>\end{proof}</p>
+            <h1 id="definition">Definition</h1>
+<p>\begin{definition}</p>
+<p>A <em>topology</em> on a set $X$ is a family $\mc{T}\subeq\pow(X)$ of subsets of $X$ satisfying the following conditions.</p>
+<ol>
+<li>(Non-trivial). $\e,X\in\mc{T}$.</li>
+<li>(Unions). For any family $\mc{U}\subeq\mc{T}$, we have $\bigcup\mc{U}\in\mc{T}$.</li>
+<li>(Intersections). For any $n\in\N$ and $U_1,\dots,U_n\in\mc{T}$, we have $\bigcap_{i\leq n}U_i\in\mc{T}$.</li>
+</ol>
+<p>The elements in $\mc{T}$ are referred to as the <em>open sets in $X$</em>, and the pair $(X,\mc{T})$ is a <em>topological space</em>.</p>
+<p>\end{definition}</p>
+<p>\begin{definition_}</p>
+<p>A function $f:X\to Y$ between topological spaces $(X,\mc{T}_X)$ and $(Y,\mc{T}_Y)$ is <em>continuous</em> if $f^{-1}(V)\in\mc{T}_X$  for every $V\in\mc{T}_Y$. Topological spaces with continuous maps form the <em>\ref[category]{category} of topological spaces</em>, denoted $\cat{Top}$, whose isomorphisms are called <em>homeomorphisms</em>.</p>
+<p>\end{definition_}</p>
+<h1 id="classes-of-topological-spaces">Classes of Topological Spaces</h1>
+<h2 id="refhausdorffhausdorff_space-space">\ref[Hausdorff]{hausdorff_space} space</h2>
+<p>A topological space $X$ is said to be <em>Hausdorff</em> if for each distinct pair of points $x,y\in X$, there exist disjoint open sets $U,V\subeq X$ such that $x\in U$ and $y\in V$.</p>
+<h2 id="refconnectedconnected_space-space">\ref[Connected]{connected_space} space</h2>
+<h2 id="refcompactcompact_space-space">\ref[Compact]{compact_space} space</h2>
 
 
             <div id="references"></div>

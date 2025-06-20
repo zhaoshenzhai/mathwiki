@@ -6,8 +6,29 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Characterization of Compactness in Metric Spaces</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/characterization_of_compactness_in_metric_spaces/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/characterization_of_compactness_in_metric_spaces/</guid>
+      <description>&lt;h1 id=&#34;statement-and-proofs&#34;&gt;Statement and Proofs&lt;/h1&gt;&#xA;&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;The following are equivalent for a metric space $X$.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;$X$ is compact: every open cover of $X$ admits a finite subcover.&lt;/li&gt;&#xA;&lt;li&gt;$X$ is sequentially-compact: every sequence in $X$ admits a convergent subsequence.&lt;/li&gt;&#xA;&lt;li&gt;(Heine-Borel). $X$ is complete and totally-bounded.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;We prove this by showing that (1) $\Rightarrow$ (2) $\Rightarrow$ (3) $\Rightarrow$ (1). Henceforth, let $X$ be a metric space.&lt;/p&gt;&#xA;&lt;p&gt;\begin{lemma}&lt;/p&gt;&#xA;&lt;p&gt;If $X$ is compact, then every sequence in $X$ admits a convergent subsequence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Heine-Borel Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/heine_borel_theorem/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/heine_borel_theorem/</guid>
+      <description>&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;A subset $K\subeq\R^n$ is compact iff $K$ is closed and bounded.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref{}]&lt;/p&gt;&#xA;&lt;p&gt;Every compact set in a metric space is closed and bounded.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref{characterization_of_compactness_in_metric_spaces}]\labe{char}&lt;/p&gt;&#xA;&lt;p&gt;A metric space is compact iff it is complete and totally-bounded.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Using Fact&lt;/p&gt;&#xA;&lt;p&gt;\end{proof}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Topological Space</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/topological_space/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/topological_space/</guid>
+      <description>&lt;h1 id=&#34;definition&#34;&gt;Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;topology&lt;/em&gt; on a set $X$ is a family $\mc{T}\subeq\pow(X)$ of subsets of $X$ satisfying the following conditions.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;(Non-trivial). $\e,X\in\mc{T}$.&lt;/li&gt;&#xA;&lt;li&gt;(Unions). For any family $\mc{U}\subeq\mc{T}$, we have $\bigcup\mc{U}\in\mc{T}$.&lt;/li&gt;&#xA;&lt;li&gt;(Intersections). For any $n\in\N$ and $U_1,\dots,U_n\in\mc{T}$, we have $\bigcap_{i\leq n}U_i\in\mc{T}$.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The elements in $\mc{T}$ are referred to as the &lt;em&gt;open sets in $X$&lt;/em&gt;, and the pair $(X,\mc{T})$ is a &lt;em&gt;topological space&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition_}&lt;/p&gt;&#xA;&lt;p&gt;A function $f:X\to Y$ between topological spaces $(X,\mc{T}_X)$ and $(Y,\mc{T}_Y)$ is &lt;em&gt;continuous&lt;/em&gt; if $f^{-1}(V)\in\mc{T}_X$  for every $V\in\mc{T}_Y$. Topological spaces with continuous maps form the &lt;em&gt;\ref[category]{category} of topological spaces&lt;/em&gt;, denoted $\cat{Top}$, whose isomorphisms are called &lt;em&gt;homeomorphisms&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Axiomatization</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/axiomatization/</link>
@@ -16,18 +37,18 @@
       <description>&lt;p&gt;Throughout, fix a \ref[first-order language]{first-order_language} $L$ and an \ref[$L$-theory]{theory} $T$.&lt;/p&gt;&#xA;&lt;h1 id=&#34;definitions-and-examples&#34;&gt;Definitions and Examples&lt;/h1&gt;&#xA;&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;Let $\Gamma$ be a collection of $L$-sentences. We say that $T$ is &lt;em&gt;$\Gamma$-axiomatizable&lt;/em&gt; if for any \ref[$L$-structure]{model} $M$, we have $M\models T$ iff $M\models\Gamma$, in which case we say that $\Gamma$ is an &lt;em&gt;axiomatization&lt;/em&gt; of $T$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;h2 id=&#34;finite-axiomatizability&#34;&gt;Finite-axiomatizability&lt;/h2&gt;&#xA;&lt;p&gt;We say that $T$ is &lt;em&gt;finitely-axiomatizable&lt;/em&gt; if $\Gamma$ is finite.&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref{}]&lt;/p&gt;&#xA;&lt;p&gt;If $T$ is finitely-axiomatizable, then there is a finite axiomatization $\Gamma\subeq T$.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Characterization of AE axiomatizability</title>
+      <title>Characterization of AE-axiomatizability</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/characterization_of_ae_axiomatizability/</link>
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/characterization_of_ae_axiomatizability/</guid>
-      <description>&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;</description>
+      <description>&lt;p&gt;Throughout, let $L$ be a \ref[language]{first-order_language} and recall the following facts, which will be used without reference.&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact*}[\ref[Diagrams]{diagrams_and_embeddings}]&lt;/p&gt;&#xA;&lt;p&gt;Let $N$ be an $L_M$-\ref[structure]{model}.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;If $N\models\Diag M$, then there is an $L$-embedding $M\into N$.&lt;/li&gt;&#xA;&lt;li&gt;If $N\models\Diag_\mathrm{el}M$, then there is an $L$-\ref[elementary]{elementary} embedding $M\into_eN$.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{fact*}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact*}[\ref[Compactness Theorem]{compactness_theorem}]&lt;/p&gt;&#xA;&lt;p&gt;If an $L$-\ref[theory]{theory} $T$ is finitely-satisfiable, then it is satisfiable.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact*}&lt;/p&gt;&#xA;&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;We give a characterization for when an $L$-theory is \ref[$\fa\ex$-axiomatizable]{axiomatization}.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}\label{char}&lt;/p&gt;</description>
     </item>
     <item>
       <title>Characterization of Universal Axiomatizability</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/characterization_of_universal_axiomatizability/</link>
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/characterization_of_universal_axiomatizability/</guid>
-      <description>&lt;p&gt;Throughout, let $L$ be a \ref[language]{first-order_language}. Recall the following facts.&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref{diagrams_and_embeddings}]\label{diag_emb}&lt;/p&gt;&#xA;&lt;p&gt;Let $N$ be an $L_M$-\ref[structure]{model}. If $N\models\Diag M$, then there is an $L$-embedding $M\into N$.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Compactness Theorem]{compactness_theorem}]\label{compactness}&lt;/p&gt;&#xA;&lt;p&gt;If an $L$-theory $T$ is finitely-satisfiable, then it is satisfiable.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}\label{char}&lt;/p&gt;&#xA;&lt;p&gt;An \ref[$L$-theory]{theory} $T$ is \ref[universally-axiomatizable]{axiomatization} iff $T$ is closed under submodels, i.e., if $M\models T$ and $N\subseq M$, then $N\models T$ as well.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Suppose that $\Gamma$ is a universal axiomatization of $T$ and let $N\subseq M\models T$. If $\phi(\bar{x})$ is a quantifier-free formula and $\bar{a}\in N$, then $N\models\phi(\bar{a})$ iff $M\models\phi(\bar{a})$, so if $M\models\fa\bar{x}\phi(\bar{x})$, then $N\models\fa\bar{x}\phi(\bar{x})$ too. Thus $N\models T$, as desired.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Throughout, let $L$ be a \ref[language]{first-order_language}. We give a characterization for when an $L$-\ref[theory]{theory} is \ref[universally-axiomatizable]{axiomatization}.&lt;/p&gt;&#xA;&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;\begin{theorem}\label{char}&lt;/p&gt;&#xA;&lt;p&gt;An $L$-theory $T$ is universally-axiomatizable iff $T$ is closed under \ref[submodels]{model}, i.e., if $N\models T$ and $M\subseq N$, then $M\models T$ as well.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;We will prove a slightly more general version of the statement. Let $T_\fa$ be the set of all universal consequences of $T$.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}\label{general}&lt;/p&gt;&#xA;&lt;p&gt;For any $L$-structure $M$, we have $M\models T_\fa$ iff there is a model $N\models T$ containing $M$.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Diagrams and Embeddings</title>
