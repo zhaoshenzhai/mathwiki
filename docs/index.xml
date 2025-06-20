@@ -65,6 +65,13 @@
       <description>&lt;h1 id=&#34;definition&#34;&gt;Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A topological space $X$ is said to be &lt;em&gt;Polish&lt;/em&gt; if $X$ is \ref[separable]{separable_space} and completely-metrizable.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h1 id=&#34;basic-properties-of-polish-spaces&#34;&gt;Basic Properties of Polish Spaces&lt;/h1&gt;&#xA;&lt;p&gt;\begin{fact}[\ref{}]&lt;/p&gt;&#xA;&lt;p&gt;Being Polish is preserved under the following operations.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;(Subsets). Closed subsets of Polish spaces are Polish.&lt;/li&gt;&#xA;&lt;li&gt;(Union). Countable disjoint unions of Polish spaces are Polish.&lt;/li&gt;&#xA;&lt;li&gt;(Product). Countable products of Polish spaces are Polish.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Preservation_of_compactness</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/preservation_of_compactness/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/preservation_of_compactness/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Separable Space</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/separable_space/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Metric Space</title>
+        <title>Preservation_of_compactness</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,40 +42,11 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Metric Space
+                    Preservation_of_compactness
                 
             </h1>
 
-            <h1 id="definition">Definition</h1>
-<p>\begin{definition}</p>
-<p>A <em>metric</em> on a set $X$ is a function $d:X\times X\to\R$ satisfying the following conditions.</p>
-<ol>
-<li>(Positive-definiteness). For all $x,y\in X$, we have $d(x,y)\geq0$, and equality holds iff $x=y$.</li>
-<li>(Symmetry). For all $x,y\in X$, we have $d(x,y)=d(y,x)$.</li>
-<li>(Triangle-inequality). For all $x,y,z\in X$, we have $d(x,z)\leq d(x,y)+d(y,z)$.</li>
-</ol>
-<p>The pair $(X,d)$ is called a <em>metric space</em>.</p>
-<p>\end{definition}</p>
-<h2 id="topology">Topology</h2>
-<p>For each $x\in X$ and $\epsilon&gt;0$, the <em>$\epsilon$-ball around $x$</em> is $B_\epsilon(x)\coloneqq\l\{y\in X\st d(x,y)&lt;\epsilon\r\}$. The collection of all balls $\mc{B}\coloneqq\l\{B_\epsilon(x)\st x\in X,\epsilon&gt;0\r\}$ is a \ref[basis]{basis_topology} for a \ref[topology]{topological_space} on $X$, which we say is <em>compatible</em> with $d$.</p>
-<blockquote>
-<p>Indeed, clearly $\mc{B}$ covers $X$. If $B_{\epsilon_1}(x_1),B_{\epsilon_2}(x_2)\in\mc{B}$ and $x\in B_{\epsilon_1}(x_1)\cap B_{\epsilon_2}(x_2)$, then $x\in B_\epsilon(x)\subeq B_{\epsilon_1}(x_1)\cap B_{\epsilon_2}(x_2)$ for any $\epsilon&lt;\min\l\{\epsilon_i-d(x,x_i)\r\}$, since if $d(x,y)&lt;\epsilon$, then $d(x_i,y)\leq d(x_i,x)+d(x,y)&lt;\epsilon_i$.</p></blockquote>
-<p>Thus every metric space $X$ can naturally be viewed as a topological space, where $U\subeq X$ is open iff for each $x\in U$, there exists $\epsilon&gt;0$ such that $x\in B_\epsilon(x)\subeq U$.</p>
-<h1 id="properties-of-metric-spaces">Properties of Metric Spaces</h1>
-<h2 id="topological-properties">Topological properties</h2>
-<p>A topological space $X$ is <em>metrizable</em> if there is a compatible metric $d$ on $X$.</p>
-<p>\begin{fact}[\ref[Limitations of size]{limitation_of_size_metric_space}]</p>
-<p>Fix an infinite cardinal $\kappa$. The following are equivalent for a metrizable space $X$.</p>
-<ol>
-<li>($\kappa$-\ref[second-countable]{second_countable_space}). $X$ admits a basis of cardinality $\leq\kappa$.</li>
-<li>($\kappa$-\ref[Lindelöf]{lindelof_space}). Every open cover of $X$ admits a subcover of cardinality $\leq\kappa$.</li>
-<li>($\kappa$-\ref[chain-condition]{chain_conditions}). Every family of pairwise disjoint non-empty open subsets of $X$ has cardinality $\leq\kappa$.</li>
-<li>($\kappa$-\ref[separable]{separable_space}). $X$ admits a dense subset of cardinality $\leq\kappa$.</li>
-</ol>
-<p>\end{fact}</p>
-<h1 id="classes-of-metric-spaces">Classes of Metric Spaces</h1>
-<p>A metric space $X$ is <em>complete</em> if every Cauchy sequence $(x_n)$ in $X$ converges.</p>
-
+            
 
             <div id="references"></div>
             <div class="bottomSpace"></div>

@@ -33,10 +33,10 @@ A topological space $X$ is _metrizable_ if there is a compatible metric $d$ on $
 \begin{fact}[\ref[Limitations of size]{limitation_of_size_metric_space}]
 
 Fix an infinite cardinal $\kappa$. The following are equivalent for a metrizable space $X$.
-1. ($\kappa$-second-countable). $X$ admits a basis of cardinality $\leq\kappa$.
-2. ($\kappa$-Lindelöf). Every open cover of $X$ admits a subcover of cardinality $\leq\kappa$.
-4. ($\kappa$-chain-condition). Every family of pairwise disjoint non-empty open subsets of $X$ has cardinality $\leq\kappa$.
-3. ($\kappa$-separable). $X$ admits a dense subset of cardinality $\leq\kappa$.
+1. ($\kappa$-\ref[second-countable]{second_countable_space}). $X$ admits a basis of cardinality $\leq\kappa$.
+2. ($\kappa$-\ref[Lindelöf]{lindelof_space}). Every open cover of $X$ admits a subcover of cardinality $\leq\kappa$.
+4. ($\kappa$-\ref[chain-condition]{chain_conditions}). Every family of pairwise disjoint non-empty open subsets of $X$ has cardinality $\leq\kappa$.
+3. ($\kappa$-\ref[separable]{separable_space}). $X$ admits a dense subset of cardinality $\leq\kappa$.
 
 \end{fact}
 

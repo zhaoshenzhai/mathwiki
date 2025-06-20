@@ -14,13 +14,18 @@ A topological space $X$ is said to be _compact_ if every open cover of $X$ admit
 
 # Properties of Compact Spaces
 
-\begin{fact}
+\begin{fact}[\ref[Preservation]{preservation_of_compactness}]
 
 Compactness is preserved under the following operations:
-1. (\ref[Images]{}). If $f:X\to Y$ is continuous and $X$ is compact, then so is $f(X)$.
-2. (\ref[Products]{tychonoffs_theorem}). For any family $\l\\{X_\alpha\r\\}$ of compact spaces, their product $\prod_\alpha X_\alpha$ is compact.
-3. (\ref[Quotients]{}). \TODO
-3. (Closed subspaces). If $K\subeq X$ is a closed subset of a compact space $X$, then $K$ is compact.
+1. (Images). If $f:X\to Y$ is continuous and $X$ is compact, then so is $f(X)$.
+2. (\ref[Products]{product_topology}/\ref[Tychonoff's Theorem]{tychonoffs_theorem}). For any family $\l\\{X_\alpha\r\\}$ of compact spaces, their product $\prod_\alpha X_\alpha$ is compact.
+3. (Closed \ref[subspaces]{subspace_topology}). If $K\subeq X$ is a closed subset of a compact space $X$, then $K$ is compact.
+
+\end{fact}
+
+\begin{fact}[\ref[Tube Lemma]{tube_lemma}]
+
+Let $X$ and $Y$ be topological spaces. If $Y$ is compact, then $\pi_1:X\times Y\to X$ is closed.
 
 \end{fact}
 
