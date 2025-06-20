@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang=en-US class="noScroll">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Limitations of size for Metrizable Spaces</title>
+
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/lists.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/darkMode.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/variables.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/noProperty.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module"></script>
+
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body>
+        
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/headers.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/format.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/refs.js" type="module"></script>
+
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/ref.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/toc.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+
+    <div id="mainPage">
+        <div id="content">
+            <h1 id="title" titleSize="">
+                
+                    Limitations of size for Metrizable Spaces
+                
+            </h1>
+
+            <h1 id="statement-and-proofs">Statement and Proofs</h1>
+<p>\begin{theorem}\label{thm}</p>
+<p>Fix an infinite cardinal $\kappa$. The following are equivalent for a metrizable space $X$.</p>
+<ol>
+<li>($\kappa$-\ref[second-countable]{second_countable_space}). $X$ admits a basis of cardinality $\leq\kappa$.</li>
+<li>($\kappa$-\ref[Lindelöf]{lindelof_space}). Every open cover of $X$ admits a subcover of cardinality $\leq\kappa$.</li>
+<li>($\kappa$-\ref[chain-condition]{chain_conditions}). Every family of pairwise disjoint non-empty open subsets of $X$ has cardinality $\leq\kappa$.</li>
+<li>($\kappa$-\ref[separable]{separable_space}). $X$ admits a dense subset of cardinality $\leq\kappa$.</li>
+</ol>
+<p>\end{theorem}</p>
+<p>\begin{remark}</p>
+<p>In particular, setting $\kappa\coloneqq\aleph_0$, we see that separability, second-countability, the Lindelöf property, and the CCC ($\coloneqq\aleph_0$-chain-condition) are all equivalent for a metrizable space $X$.</p>
+<p>\end{remark}</p>
+<p>\begin{remark}</p>
+<p>Note that (1) $\Rightarrow$ (2) for any topological space, (2) $\Rightarrow$ (3) for any perfectly-normal space, and only (3) $\Rightarrow$ (4) $\Rightarrow$ (1) requires the full assumption of metrizability.</p>
+<p>\end{remark}</p>
+<p>  To compute cardinalities, we will need the following fact.</p>
+<p>\begin{fact}[\ref{}]\label{cardinal}</p>
+<p>For any sequence $(\kappa_n)_{n&lt;\omega}$ of infinite cardinals, we have $\sum_{n&lt;\omega}\kappa_\alpha=\sup_{n&lt;\omega}\kappa_\alpha$.</p>
+<p>\end{fact}</p>
+<h2 id="proof-that-1-rightarrow-2">Proof that (1) $\Rightarrow$ (2)</h2>
+<p>Fix a basis $\mc{B}$ for $\mc{T}$ with $\l|\mc{B}\r|\leq\kappa$ and let $\mc{U}$ be an open cover of $X$. Consider the subcollection $\mc{B}&rsquo;\coloneqq\l\{B\in\mc{B}\st\ex U\in\mc{U}(B\subeq U)\r\}$, and using $\mathsf{Choice}$, pick for each $B\in\mc{B}$ some $U_B\in\mc{B}$ containing $B$. We claim that $\mc{U}&rsquo;\coloneqq\l\{U_B\in\mc{U}\st B\in\mc{B}&rsquo;\r\}$ is a subcover of $X$, since $\l|\mc{U}&rsquo;\r|\leq\kappa$ is clear. Indeed, for any $x\in X$, there is some $U\in\mc{U}$ and $B\in\mc{B}$ such that $x\in B\subeq U$. Then $B\in\mc{B}&rsquo;$ and $U_B\in\mc{U}&rsquo;$, so $x\in B\subeq U_B$ as desired.<span style="float:right;">$\blacksquare$</span></p>
+<div class="space"></div>
+<h2 id="proof-that-2-rightarrow-3">Proof that (2) $\Rightarrow$ (3)</h2>
+<p>To see where metrizability is used, recall the following fact.</p>
+<p>\begin{fact}[\ref{}]\label{F_sigma}</p>
+<p>Every open subset of a metric space, or more generally of a perfectly-normal space, is $F_\sigma$.</p>
+<p>\end{fact}</p>
+<div class="space"></div>
+<p>\begin{proof}[2 $\Rightarrow$ 3]</p>
+<p>It suffices to show that every discrete subspace $A\subeq X$ has cardinality $\leq\kappa$. Indeed, if $A$ is closed, pick neighborhoods $U_x\ni x$ for each $x\in X$ with $\l\{x\r\}=U_x\cap A$ and consider the open cover $\mc{U}\coloneqq\l\{U_x\r\}_{x\in A}\cup\l\{X\comp A\r\}$ of $X$. This open cover admits no proper subcover, so $\l|A\r|\leq\kappa$ as desired.</p>
+<br>
+<p>  In general, note that $A$ is open in $\bar{A}$ since if $x\in A$, then $\l\{x\r\}=U_x\cap\bar{A}$, and hence $\l\{x\r\}\subeq A$ is open in $\bar{A}$. Since $\bar{A}$ is metrizable, we see that $A$ is $F_\sigma$ in $\bar{A}$ by Fact \iref{F_sigma}, and hence $A=\bigcup_{n&lt;\omega}A_n$ for some closed $A_n\subeq\bar{A}$. By what we have already proved, each $|A_n|\leq\kappa$, and so $|A|\leq\sum_{n&lt;\omega}|A_n|\leq\sum_{n&lt;\omega}\kappa=\kappa$ by Fact \iref{cardinal}.<span style="float:right;">$\blacksquare$</span></p>
+<p>\end{proof}</p>
+<h2 id="proof-that-3-rightarrow-4">Proof that (3) $\Rightarrow$ (4)</h2>
+<p>Fix a metric $d$ for $X$. For each $n\in\N$, let $\mc{D}_n$ be the family of all sets $D_n$ such that if $x,y\in D_n$ are distinct, then $d\l(x,y\r)\geq1/n$. Every chain $\mc{C}\subeq\mc{D}_n$ admits $\bigcup\mc{C}$ as an upper bound, so by Zorn’s lemma, there is a maximal element $Q_n\in\mc{D}_n$. Note that the $1/2n$-balls around points of $Q_n$ are all pairwise disjoint, so we have by hypothesis that $\l|Q_n\r|\leq\kappa$. Set $Q\coloneqq\bigcup_{n&lt;\omega}Q_n$, so $\l|Q\r|\leq\kappa$ by Fact \iref{cardinal}, which we claim is dense in $X$.</p>
+<br>
+<p>  Indeed, if $x\not\in\bar{Q}$, then $d\l(x,Q\r)&gt;0$ and so there is some $n\in\N$ such that $d\l(x,Q\r)&gt;1/n$. In particular, we have $d\l(x,Q_n\r)&gt;1/n$, so $d\l(x,y\r)&gt;1/n$ for all $y\in Q_n$. But then $Q_n\cup\l\{x\r\}\in\mc{D}_n$, contradicting the maximality of $Q_n$.<span style="float:right;">$\blacksquare$</span></p>
+<h2 id="proof-that-4-rightarrow-1">Proof that (4) $\Rightarrow$ (1)</h2>
+<p>Fix a metric $d$ for $X$ and let $Q$ be a dense set in $X$ such that $\l|Q\r|\leq\kappa$. We claim that $\mc{B}\coloneqq\l\{B_r(x)\st x\in Q,r\in\Q\r\}$ is a basis for $X$, so we are done as $\l|\mc{B}\r|\leq\kappa$ by Fact \iref{cardinal}.</p>
+<br>
+<p>  Indeed, let $x\in U\subseteq X$ be open and pick $\epsilon&gt;0$ so that $B_\epsilon(x)\subseteq U$. Since $Q$ is dense in $X$, pick $y\in Q\cap B_{\epsilon/3}(x)$. Choose $q\in\Q$ such that $\epsilon/3&lt;q&lt;\epsilon/2$, so $x\in B_q(y)\subeq B_\epsilon(x)$ and thus $x\in B_q(y)\subseteq U$ with $B_q(y)\in\mc{B}$.<span style="float:right;">$\blacksquare$</span></p>
+
+
+            <div id="references"></div>
+            <div class="bottomSpace"></div>
+        </div>
+
+        <div id="toc"></div>
+    </div>
+
+
+        <div id="searchBox" style="display: none;">
+            <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" onmouseover="searchItemActive(9)"></li>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Compact Space</title>
+        <title>Separable Space</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,45 +42,14 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Compact Space
+                    Separable Space
                 
             </h1>
 
-            <h1 id="definition">Definition</h1>
-<p>\begin{definition}</p>
-<p>A topological space $X$ is said to be <em>compact</em> if every open cover of $X$ admits a finite subcover.</p>
+            <p>\begin{definition}</p>
+<p>A topological space $X$ is <em>separable</em> if $X$ admits a countable dense subset.</p>
 <p>\end{definition}</p>
-<h1 id="properties-of-compact-spaces">Properties of Compact Spaces</h1>
-<p>\begin{fact}</p>
-<p>Compactness is preserved under the following operations:</p>
-<ol>
-<li>(\ref[Images]{}). If $f:X\to Y$ is continuous and $X$ is compact, then so is $f(X)$.</li>
-<li>(\ref[Products]{tychonoffs_theorem}). For any family $\l\{X_\alpha\r\}$ of compact spaces, their product $\prod_\alpha X_\alpha$ is compact.</li>
-<li>(\ref[Quotients]{}). \TODO</li>
-<li>(Closed subspaces). If $K\subeq X$ is a closed subset of a compact space $X$, then $K$ is compact.</li>
-</ol>
-<p>\end{fact}</p>
-<p>\begin{fact}[\ref{compact_implies_closed}]</p>
-<p>Every compact subset of a Hausdorff space is closed.</p>
-<p>\end{fact}</p>
-<p>\begin{fact}[\ref{compact_implies_bounded}]</p>
-<p>Every compact subset of a metric space is bounded.</p>
-<p>\end{fact}</p>
-<h1 id="characterizations-of-compactness">Characterizations of Compactness</h1>
-<p>\begin{fact}[\ref{fip_characterization_of_compactness}]</p>
-<p>A topological space $X$ is compact iff every FIP-family of closed sets has non-empty intersection; i.e., if $\mc{F}$ is family of closed subsets of $X$ such that $\bigcap\mc{F}_0\neq\e$ for every finite $\mc{F}_0\subeq\mc{F}$, then $\bigcap\mc{F}\neq\e$.</p>
-<p>\end{fact}</p>
-<p>\begin{fact}[\ref[Compactness in metric spaces]{characterization_of_compactness_in_metric_spaces}]</p>
-<p>The following are equivalent for a metric space $X$.</p>
-<ol>
-<li>$X$ is compact.</li>
-<li>$X$ is sequentially-compact: every sequence in $X$ admits a convergent subsequence.</li>
-<li>$X$ is complete and totally-bounded.</li>
-</ol>
-<p>\end{fact}</p>
-<p>\begin{fact}[\ref[Heine-Borel Theorem]{heine_borel_theorem}]</p>
-<p>Fix $n\in\N$. A subset $K\subeq\R^n$ is compact iff $K$ is closed and bounded.</p>
-<p>\end{fact}</p>
+<p>  More generally, we say that $X$ is <em>$\kappa$-separable</em> if it admits a dense subset of cardinality $\kappa$.</p>
 
 
             <div id="references"></div>

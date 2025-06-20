@@ -60,10 +60,25 @@
 <p>A function $f:X\to Y$ between topological spaces $(X,\mc{T}_X)$ and $(Y,\mc{T}_Y)$ is <em>continuous</em> if $f^{-1}(V)\in\mc{T}_X$  for every $V\in\mc{T}_Y$. Topological spaces with continuous maps form the <em>\ref[category]{category} of topological spaces</em>, denoted $\cat{Top}$, whose isomorphisms are called <em>homeomorphisms</em>.</p>
 <p>\end{definition_}</p>
 <h1 id="classes-of-topological-spaces">Classes of Topological Spaces</h1>
-<h2 id="refhausdorffhausdorff_space-space">\ref[Hausdorff]{hausdorff_space} space</h2>
-<p>A topological space $X$ is said to be <em>Hausdorff</em> if for each distinct pair of points $x,y\in X$, there exist disjoint open sets $U,V\subeq X$ such that $x\in U$ and $y\in V$.</p>
-<h2 id="refconnectedconnected_space-space">\ref[Connected]{connected_space} space</h2>
-<h2 id="refcompactcompact_space-space">\ref[Compact]{compact_space} space</h2>
+<h2 id="refmetrizabilitymetric_space">\ref[Metrizability]{metric_space}</h2>
+<p>A topological space $X$ is <em>metrizable</em> if there is a compatible metric $d$ on $X$, in the sense that $U\subeq X$ is open iff for each $x\in X$, we have $x\in B_\epsilon(x)\subeq U$ for some $\epsilon&gt;0$.</p>
+<h2 id="countability-axioms">Countability Axioms</h2>
+<p>\TODO</p>
+<ul>
+<li><em>(\ref[Separable]{separable_space})</em>. There is a countable dense subset of $X$.</li>
+<li><em>(\ref[Compactness]{compact_space})</em>. Every open cover of $X$ admits a finite subcover.</li>
+</ul>
+<h2 id="connectivity">Connectivity</h2>
+<p>\TODO</p>
+<h2 id="separation-axioms">Separation Axioms</h2>
+<p>In decreasing order of generality, we can impose the following &lsquo;separation axioms&rsquo; on a topological space $X$. Each condition also requires the preceding conditions.</p>
+<ul>
+<li><em>(Kolmogorov).</em> For every pair of distinct $x,y\in X$, there is an open set $x\in U\not\in y$, or vice versa.</li>
+<li><em>(Accessible).</em> For every pair of distinct $x,y\in X$, there is an open set $x\in U\not\in y$, and vice versa.</li>
+<li><em>(\ref[Hausdorff]{hausdorff_space})</em>. For every pair of distinct $x,y\in X$, there are disjoint open sets $U\ni x$ and $V\ni y$.</li>
+<li><em>(Regular)</em>. For every closed set $C\subeq X$ and $x\not\in C$, there are disjoint open sets $U\ni x$ and $V\supseteq C$.</li>
+<li><em>(Normal)</em>. For every pair of disjoint closed sets $C,D\subeq X$, there are disjoint open sets $U\supseteq C$ and $V\supseteq D$.</li>
+</ul>
 
 
             <div id="references"></div>

@@ -37,11 +37,39 @@
       <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;Let $X$ be a metric space. If $K\subeq X$ is \ref[compact]{compact_space}, then $K$ is bounded.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Fix $x\in X$ and consider the open cover $\l\{B_n(x)\st n\in\N\r\}$ of $K$. By compactness of $K$, there exists $n_1,\dots,n_m$ such that $K\subeq\bigcup_{i\leq n}B_{n_i}(x)$, and hence $K$ is bounded.&lt;span style=&#34;float:right;&#34;&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;&#xA;&lt;p&gt;\end{proof}&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Fip_characterization_of_compactness</title>
+      <title>FIP Characterization of Compactness</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/fip_characterization_of_compactness/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/fip_characterization_of_compactness/</guid>
-      <description></description>
+      <description>&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;A \ref[topological space]{topological_space} $X$ is \ref[compact]{compact_space} iff every FIP-family of closed sets has non-empty intersection, i.e., if $\mc{F}$ is a family of closed subsets of $X$ such that $\bigcap\mc{F}_0\neq\e$ for every finite $\mc{F}_0\subeq\mc{F}$, we have $\bigcap\mc{F}\neq\e$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Given such a collection $\mc{F}$ of closed subsets of $X$, the collection $\mc{U}\coloneqq\l\{F^c\r\}_{F\in\mc{F}}$ of open sets a cover of $X$ iff $\bigcap\mc{F}=\e$. Note that $\mc{F}$ has the FIP iff no finite subcollection of $\l\{U_\alpha\r\}$ covers $X$, so the result follows.&lt;span style=&#34;float:right;&#34;&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Limitations of size for Metrizable Spaces</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/limitation_of_size_metric_space/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/limitation_of_size_metric_space/</guid>
+      <description>&lt;h1 id=&#34;statement-and-proofs&#34;&gt;Statement and Proofs&lt;/h1&gt;&#xA;&lt;p&gt;\begin{theorem}\label{thm}&lt;/p&gt;&#xA;&lt;p&gt;Fix an infinite cardinal $\kappa$. The following are equivalent for a metrizable space $X$.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;($\kappa$-\ref[second-countable]{second_countable_space}). $X$ admits a basis of cardinality $\leq\kappa$.&lt;/li&gt;&#xA;&lt;li&gt;($\kappa$-\ref[Lindelöf]{lindelof_space}). Every open cover of $X$ admits a subcover of cardinality $\leq\kappa$.&lt;/li&gt;&#xA;&lt;li&gt;($\kappa$-\ref[chain-condition]{chain_conditions}). Every family of pairwise disjoint non-empty open subsets of $X$ has cardinality $\leq\kappa$.&lt;/li&gt;&#xA;&lt;li&gt;($\kappa$-\ref[separable]{separable_space}). $X$ admits a dense subset of cardinality $\leq\kappa$.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{remark}&lt;/p&gt;&#xA;&lt;p&gt;In particular, setting $\kappa\coloneqq\aleph_0$, we see that separability, second-countability, the Lindelöf property, and the CCC ($\coloneqq\aleph_0$-chain-condition) are all equivalent for a metrizable space $X$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Metric Space</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/metric_space/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/metric_space/</guid>
+      <description>&lt;h1 id=&#34;definition&#34;&gt;Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;metric&lt;/em&gt; on a set $X$ is a function $d:X\times X\to\R$ satisfying the following conditions.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;(Positive-definiteness). For all $x,y\in X$, we have $d(x,y)\geq0$, and equality holds iff $x=y$.&lt;/li&gt;&#xA;&lt;li&gt;(Symmetry). For all $x,y\in X$, we have $d(x,y)=d(y,x)$.&lt;/li&gt;&#xA;&lt;li&gt;(Triangle-inequality). For all $x,y,z\in X$, we have $d(x,z)\leq d(x,y)+d(y,z)$.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The pair $(X,d)$ is called a &lt;em&gt;metric space&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h2 id=&#34;topology&#34;&gt;Topology&lt;/h2&gt;&#xA;&lt;p&gt;For each $x\in X$ and $\epsilon&amp;gt;0$, the &lt;em&gt;$\epsilon$-ball around $x$&lt;/em&gt; is $B_\epsilon(x)\coloneqq\l\{y\in X\st d(x,y)&amp;lt;\epsilon\r\}$. The collection of all balls $\mc{B}\coloneqq\l\{B_\epsilon(x)\st x\in X,\epsilon&amp;gt;0\r\}$ is a \ref[basis]{basis_topology} for a \ref[topology]{topological_space} on $X$, which we say is &lt;em&gt;compatible&lt;/em&gt; with $d$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Polish Space</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/polish_space/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/polish_space/</guid>
+      <description>&lt;h1 id=&#34;definition&#34;&gt;Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A topological space $X$ is said to be &lt;em&gt;Polish&lt;/em&gt; if $X$ is \ref[separable]{separable_space} and completely-metrizable.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h1 id=&#34;basic-properties-of-polish-spaces&#34;&gt;Basic Properties of Polish Spaces&lt;/h1&gt;&#xA;&lt;p&gt;\begin{fact}[\ref{}]&lt;/p&gt;&#xA;&lt;p&gt;Being Polish is preserved under the following operations.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;(Subsets). Closed subsets of Polish spaces are Polish.&lt;/li&gt;&#xA;&lt;li&gt;(Union). Countable disjoint unions of Polish spaces are Polish.&lt;/li&gt;&#xA;&lt;li&gt;(Product). Countable products of Polish spaces are Polish.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Separable Space</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/separable_space/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/separable_space/</guid>
+      <description>&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A topological space $X$ is &lt;em&gt;separable&lt;/em&gt; if $X$ admits a countable dense subset.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;  More generally, we say that $X$ is &lt;em&gt;$\kappa$-separable&lt;/em&gt; if it admits a dense subset of cardinality $\kappa$.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Characterization of Compactness in Metric Spaces</title>

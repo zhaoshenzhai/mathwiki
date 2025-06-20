@@ -26,7 +26,7 @@ Let us give a direct proof of this theorem.
 
 \begin{proof}[of Theorem \iref{thm}]
 
-Fix $p\in K^c$. For each $q\in K$, there exist disjoint neighborhoods $U_q\ni p$ and $V_q\ni q$. Then $\l\\{V_q\r\\}_{q\in K}$ is an open cover of $K$, which cuts down to a finite subcover $\l\\{V\_{q\_i}\r\\}\_{i\leq n}$. Then $U\coloneqq\bigcap\_{i\leq n}U\_{q\_i}$ is an open neighborhood of $p$ disjoint from $K\subeq\bigcap\_{i\leq n}V\_{q\_i}$, so $K^c$ is open.<span style="float:right;">$\blacksquare$</span>
+Fix $p\in K^c$. For each $q\in K$, there exist disjoint neighborhoods $U_q\ni p$ and $V_q\ni q$. Then $\l\\{V\_q\r\\}\_{q\in K}$ is an open cover of $K$, which cuts down to a finite subcover $\l\\{V\_{q\_i}\r\\}\_{i\leq n}$. Then $U\coloneqq\bigcap_{i\leq n}U\_{q\_i}$ is an open neighborhood of $p$ disjoint from $K\subeq\bigcap\_{i\leq n}V\_{q\_i}$, so $K^c$ is open.<span style="float:right;">$\blacksquare$</span>
 
 \end{proof}
 

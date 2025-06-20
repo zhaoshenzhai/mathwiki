@@ -25,10 +25,26 @@ A function $f:X\to Y$ between topological spaces $(X,\mc{T}_X)$ and $(Y,\mc{T}_Y
 
 # Classes of Topological Spaces
 
-## \ref[Hausdorff]{hausdorff_space} space
+## \ref[Metrizability]{metric_space}
 
-A topological space $X$ is said to be _Hausdorff_ if for each distinct pair of points $x,y\in X$, there exist disjoint open sets $U,V\subeq X$ such that $x\in U$ and $y\in V$.
+A topological space $X$ is _metrizable_ if there is a compatible metric $d$ on $X$, in the sense that $U\subeq X$ is open iff for each $x\in X$, we have $x\in B_\epsilon(x)\subeq U$ for some $\epsilon>0$.
 
-## \ref[Connected]{connected_space} space
+## Countability Axioms
 
-## \ref[Compact]{compact_space} space
+\TODO
+* _(\ref[Separable]{separable_space})_. There is a countable dense subset of $X$.
+* _(\ref[Compactness]{compact_space})_. Every open cover of $X$ admits a finite subcover.
+
+## Connectivity
+
+\TODO
+
+## Separation Axioms
+
+In decreasing order of generality, we can impose the following 'separation axioms' on a topological space $X$. Each condition also requires the preceding conditions.
+* _(Kolmogorov)._ For every pair of distinct $x,y\in X$, there is an open set $x\in U\not\in y$, or vice versa.
+* _(Accessible)._ For every pair of distinct $x,y\in X$, there is an open set $x\in U\not\in y$, and vice versa.
+* _(\ref[Hausdorff]{hausdorff_space})_. For every pair of distinct $x,y\in X$, there are disjoint open sets $U\ni x$ and $V\ni y$.
+* _(Regular)_. For every closed set $C\subeq X$ and $x\not\in C$, there are disjoint open sets $U\ni x$ and $V\supseteq C$.
+* _(Normal)_. For every pair of disjoint closed sets $C,D\subeq X$, there are disjoint open sets $U\supseteq C$ and $V\supseteq D$.
+
