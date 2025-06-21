@@ -60,16 +60,14 @@
 <p>A function $f:X\to Y$ between topological spaces $(X,\mc{T}_X)$ and $(Y,\mc{T}_Y)$ is <em>continuous</em> if $f^{-1}(V)\in\mc{T}_X$  for every $V\in\mc{T}_Y$. Topological spaces with continuous maps form the <em>\ref[category]{category} of topological spaces</em>, denoted $\cat{Top}$, whose isomorphisms are called <em>homeomorphisms</em>.</p>
 <p>\end{definition_}</p>
 <h1 id="classes-of-topological-spaces">Classes of Topological Spaces</h1>
-<h2 id="refmetrizabilitymetric_space">\ref[Metrizability]{metric_space}</h2>
-<p>A topological space $X$ is <em>metrizable</em> if there is a compatible metric $d$ on $X$, in the sense that $U\subeq X$ is open iff for each $x\in X$, we have $x\in B_\epsilon(x)\subeq U$ for some $\epsilon&gt;0$.</p>
 <h2 id="countability-axioms">Countability Axioms</h2>
-<p>\TODO</p>
+<p>From the point of view of the topology of $X$, the following conditions can be thought of as &rsquo;topological-countability&rsquo;. Being second-countable implies the rest, which are all incomparable.</p>
 <ul>
+<li><em>(\ref[Second-countable]{second-countable_space})</em> $X$ admits a countable basis.</li>
+<li><em>(\ref[First-countable]{first-countable_space})</em> Every point $x\in X$ admits a countable neighborhood basis.</li>
 <li><em>(\ref[Separable]{separable_space})</em>. There is a countable dense subset of $X$.</li>
-<li><em>(\ref[Compactness]{compact_space})</em>. Every open cover of $X$ admits a finite subcover.</li>
+<li><em>(\ref[Lindelöf]{lindelof_space})</em>. Every open cover of $X$ admits a countable subcover.</li>
 </ul>
-<h2 id="connectivity">Connectivity</h2>
-<p>\TODO</p>
 <h2 id="separation-axioms">Separation Axioms</h2>
 <p>In decreasing order of generality, we can impose the following &lsquo;separation axioms&rsquo; on a topological space $X$. Each condition also requires the preceding conditions.</p>
 <ul>
@@ -77,8 +75,17 @@
 <li><em>(Accessible).</em> For every pair of distinct $x,y\in X$, there is an open set $x\in U\not\in y$, and vice versa.</li>
 <li><em>(\ref[Hausdorff]{hausdorff_space})</em>. For every pair of distinct $x,y\in X$, there are disjoint open sets $U\ni x$ and $V\ni y$.</li>
 <li><em>(Regular)</em>. For every closed set $C\subeq X$ and $x\not\in C$, there are disjoint open sets $U\ni x$ and $V\supseteq C$.</li>
-<li><em>(Normal)</em>. For every pair of disjoint closed sets $C,D\subeq X$, there are disjoint open sets $U\supseteq C$ and $V\supseteq D$.</li>
+<li><em>(\ref[Normal]{normal_space})</em>. For every pair of disjoint closed sets $C,D\subeq X$, there are disjoint open sets $U\supseteq C$ and $V\supseteq D$.</li>
 </ul>
+<h2 id="refmetrizabilitymetric_space">\ref[Metrizability]{metric_space}</h2>
+<p>A topological space $X$ is <em>metrizable</em> if there is a compatible metric $d$ on $X$, in the sense that $U\subeq X$ is open iff for each $x\in X$, we have $x\in B_\epsilon(x)\subeq U$ for some $\epsilon&gt;0$.</p>
+<p>\begin{fact}[\ref[Urysohn Metrization Theorem]{urysohn_metrization_theorem}]</p>
+<p>Every regular second-countable space is metrizable.</p>
+<p>\end{fact}</p>
+<h2 id="compactness">Compactness</h2>
+<p>A topological space $X$ is <em>compact</em> if every open cover of $X$ admits a finite subcover.</p>
+<h2 id="connectivity">Connectivity</h2>
+<p>\TODO</p>
 
 
             <div id="references"></div>

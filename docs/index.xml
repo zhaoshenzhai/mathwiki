@@ -58,6 +58,13 @@
       <description>&lt;h1 id=&#34;definition&#34;&gt;Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;metric&lt;/em&gt; on a set $X$ is a function $d:X\times X\to\R$ satisfying the following conditions.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;(Positive-definiteness). For all $x,y\in X$, we have $d(x,y)\geq0$, and equality holds iff $x=y$.&lt;/li&gt;&#xA;&lt;li&gt;(Symmetry). For all $x,y\in X$, we have $d(x,y)=d(y,x)$.&lt;/li&gt;&#xA;&lt;li&gt;(Triangle-inequality). For all $x,y,z\in X$, we have $d(x,z)\leq d(x,y)+d(y,z)$.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The pair $(X,d)$ is called a &lt;em&gt;metric space&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h2 id=&#34;topology&#34;&gt;Topology&lt;/h2&gt;&#xA;&lt;p&gt;For each $x\in X$ and $\epsilon&amp;gt;0$, the &lt;em&gt;$\epsilon$-ball around $x$&lt;/em&gt; is $B_\epsilon(x)\coloneqq\l\{y\in X\st d(x,y)&amp;lt;\epsilon\r\}$. The collection of all balls $\mc{B}\coloneqq\l\{B_\epsilon(x)\st x\in X,\epsilon&amp;gt;0\r\}$ is a \ref[basis]{basis_topology} for a \ref[topology]{topological_space} on $X$, which we say is &lt;em&gt;compatible&lt;/em&gt; with $d$.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Normal Space</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/normal_space/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/normal_space/</guid>
+      <description>&lt;h1 id=&#34;definition&#34;&gt;Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A topological space $X$ is &lt;em&gt;normal&lt;/em&gt; if for every pair of disjoint closed sets $A,B\subeq X$, there are disjoint open sets $U\supseteq A$ and $V\supseteq B$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h1 id=&#34;properties-of-normal-spaces&#34;&gt;Properties of Normal Spaces&lt;/h1&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Tietze Extension Theorem]{tietze_extension_theorem}]&lt;/p&gt;&#xA;&lt;p&gt;Let $X$ be a normal space. If $A\subeq X$ is closed, then every continuous map $f:A\to\R$ admits a continuous extension $\widehat{f}:X\to\R$ such that $\sup_{x\in A}|f(x)|=\sup_{x\in X}|\widehat{f}(x)|$.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;h1 id=&#34;characterizations-of-normal-spaces&#34;&gt;Characterizations of Normal Spaces&lt;/h1&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Urysohn&amp;rsquo;s Lemma]{urysohns_lemma}]&lt;/p&gt;&#xA;&lt;p&gt;A topological space $X$ is normal iff for every pair of disjoint closed sets of $X$ is separated by a continuous function, i.e., if $A,B\subeq X$ are disjoint closed sets, then there is a continuous function $f:X\to[0,1]$ such that $A\subeq f^{-1}(0)$ and $B\subeq f^{-1}(1)$.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Polish Space</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/polish_space/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
@@ -76,21 +83,28 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/preservation_of_polish/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/preservation_of_polish/</guid>
-      <description>&lt;p&gt;We give several instances where being \ref[Polish]{polish_space} is preserved under set-theoretic operations.&lt;/p&gt;&#xA;&lt;h1 id=&#34;statements-and-proofs&#34;&gt;Statements and Proofs&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sums&#34;&gt;Sums&lt;/h2&gt;&#xA;&lt;h2 id=&#34;products&#34;&gt;Products&lt;/h2&gt;&#xA;&lt;h2 id=&#34;subsets&#34;&gt;Subsets&lt;/h2&gt;&#xA;&lt;p&gt;That a closed subset of a Polish space is Polish follows from the following fact.&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref{preservation_of_separability}]&lt;/p&gt;&#xA;&lt;p&gt;Any subset of a separable metrizable space is separable.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;  More generally, we have the following criterion for a subset of a Polish space to be Polish.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;Let $X$ be a Polish space. A subset $Y\subeq X$ is Polish iff $Y$ is $G_\delta$ in $X$.&lt;/p&gt;</description>
+      <description>&lt;p&gt;We give several instances where being \ref[Polish]{polish_space} is preserved (or not) under set-theoretic operations.&lt;/p&gt;&#xA;&lt;h1 id=&#34;positive-results-and-proofs&#34;&gt;Positive results and Proofs&lt;/h1&gt;&#xA;&lt;p&gt;Recall that any Polish space $X$ admits a compatible metric $d$ such that $d\leq1$. Indeed, let $d\coloneqq d_0/(1+d_0)$, for any compatible metric $d_0$ on $X$.&lt;/p&gt;&#xA;&lt;h2 id=&#34;sums&#34;&gt;Sums&lt;/h2&gt;&#xA;&lt;p&gt;Recall that the topology on the \ref[disjoint union]{coproduct_topology} $X\coloneqq\coprod_\alpha X_\alpha$ of a family of topological spaces is given by declaring $U\subeq X$ to be open iff $U\cap X_\alpha$ is open in $X_\alpha$ for each $\alpha$.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Preservation_of_separability</title>
+      <title>Preservation of Separability</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/preservation_of_separability/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/preservation_of_separability/</guid>
-      <description></description>
+      <description>&lt;p&gt;We give several instances where \ref[separability]{separable_space} is preserved (or not) under set-theoretical operations.&lt;/p&gt;&#xA;&lt;h1 id=&#34;statements-and-proofs&#34;&gt;Statements and Proofs&lt;/h1&gt;&#xA;&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;&#xA;&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;If $f:X\to Y$ is a continuous map and $X$ is separable, then $f(X)$ is separable too.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Since $f$ is continuous, we have $\bar{f(D)}\supseteq f(\bar{D})=f(X)$ for any countable dense set $D\subeq X$.&lt;span style=&#34;float:right;&#34;&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;&#xA;&lt;p&gt;\end{proof}&lt;/p&gt;&#xA;&lt;h2 id=&#34;subspaces&#34;&gt;Subspaces&lt;/h2&gt;&#xA;&lt;p&gt;Clearly, any open subset of a separable space is separable. The general fails as Example \iref{subset} shows, but we have the following useful special case.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Separable Space</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/separable_space/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/separable_space/</guid>
-      <description>&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A topological space $X$ is &lt;em&gt;separable&lt;/em&gt; if $X$ admits a countable dense subset.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;  More generally, we say that $X$ is &lt;em&gt;$\kappa$-separable&lt;/em&gt; if it admits a dense subset of cardinality $\kappa$.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;definition&#34;&gt;Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A topological space $X$ is &lt;em&gt;separable&lt;/em&gt; if $X$ admits a countable dense subset.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;  More generally, we say that $X$ is &lt;em&gt;$\kappa$-separable&lt;/em&gt; if it admits a dense subset of cardinality $\kappa$.&lt;/p&gt;&#xA;&lt;h1 id=&#34;properties-of-separable-spaces&#34;&gt;Properties of Separable Spaces&lt;/h1&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Preservation]{preservation_of_separability}]&lt;/p&gt;&#xA;&lt;p&gt;Separability is preserved under the following operations.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;(Images). If $f:X\to Y$ is continuous and $X$ is separable, then so is $f(X)$.&lt;/li&gt;&#xA;&lt;li&gt;(Subspaces). Subspaces of separable metrizable spaces are separable.&lt;/li&gt;&#xA;&lt;li&gt;(Continuum products). The product $\prod_{\alpha\leq\mf{c}}X_\alpha$ of continuum-many separable spaces $X_\alpha$ is separable.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Urysohns_lemma</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/urysohns_lemma/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/urysohns_lemma/</guid>
+      <description></description>
     </item>
     <item>
       <title>Characterization of Compactness in Metric Spaces</title>

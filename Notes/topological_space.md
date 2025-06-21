@@ -25,19 +25,13 @@ A function $f:X\to Y$ between topological spaces $(X,\mc{T}_X)$ and $(Y,\mc{T}_Y
 
 # Classes of Topological Spaces
 
-## \ref[Metrizability]{metric_space}
-
-A topological space $X$ is _metrizable_ if there is a compatible metric $d$ on $X$, in the sense that $U\subeq X$ is open iff for each $x\in X$, we have $x\in B_\epsilon(x)\subeq U$ for some $\epsilon>0$.
-
 ## Countability Axioms
 
-\TODO
+From the point of view of the topology of $X$, the following conditions can be thought of as 'topological-countability'. Being second-countable implies the rest, which are all incomparable.
+* _(\ref[Second-countable]{second-countable_space})_ $X$ admits a countable basis.
+* _(\ref[First-countable]{first-countable_space})_ Every point $x\in X$ admits a countable neighborhood basis.
 * _(\ref[Separable]{separable_space})_. There is a countable dense subset of $X$.
-* _(\ref[Compactness]{compact_space})_. Every open cover of $X$ admits a finite subcover.
-
-## Connectivity
-
-\TODO
+* _(\ref[Lindelöf]{lindelof_space})_. Every open cover of $X$ admits a countable subcover.
 
 ## Separation Axioms
 
@@ -46,5 +40,22 @@ In decreasing order of generality, we can impose the following 'separation axiom
 * _(Accessible)._ For every pair of distinct $x,y\in X$, there is an open set $x\in U\not\in y$, and vice versa.
 * _(\ref[Hausdorff]{hausdorff_space})_. For every pair of distinct $x,y\in X$, there are disjoint open sets $U\ni x$ and $V\ni y$.
 * _(Regular)_. For every closed set $C\subeq X$ and $x\not\in C$, there are disjoint open sets $U\ni x$ and $V\supseteq C$.
-* _(Normal)_. For every pair of disjoint closed sets $C,D\subeq X$, there are disjoint open sets $U\supseteq C$ and $V\supseteq D$.
+* _(\ref[Normal]{normal_space})_. For every pair of disjoint closed sets $C,D\subeq X$, there are disjoint open sets $U\supseteq C$ and $V\supseteq D$.
 
+## \ref[Metrizability]{metric_space}
+
+A topological space $X$ is _metrizable_ if there is a compatible metric $d$ on $X$, in the sense that $U\subeq X$ is open iff for each $x\in X$, we have $x\in B_\epsilon(x)\subeq U$ for some $\epsilon>0$.
+
+\begin{fact}[\ref[Urysohn Metrization Theorem]{urysohn_metrization_theorem}]
+
+Every regular second-countable space is metrizable.
+
+\end{fact}
+
+## Compactness
+
+A topological space $X$ is _compact_ if every open cover of $X$ admits a finite subcover.
+
+## Connectivity
+
+\TODO

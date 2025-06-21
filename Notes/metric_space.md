@@ -40,6 +40,8 @@ Fix an infinite cardinal $\kappa$. The following are equivalent for a metrizable
 
 \end{fact}
 
+For sufficient conditions for a topological space $X$ to be metrizable.
+
 # Classes of Metric Spaces
 
 A metric space $X$ is _complete_ if every Cauchy sequence $(x_n)$ in $X$ converges.

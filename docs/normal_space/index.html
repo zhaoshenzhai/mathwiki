@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Preservation of Separability</title>
+        <title>Normal Space</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,42 +42,22 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Preservation of Separability
+                    Normal Space
                 
             </h1>
 
-            <p>We give several instances where \ref[separability]{separable_space} is preserved (or not) under set-theoretical operations.</p>
-<h1 id="statements-and-proofs">Statements and Proofs</h1>
-<h2 id="images">Images</h2>
-<p>\begin{theorem}</p>
-<p>If $f:X\to Y$ is a continuous map and $X$ is separable, then $f(X)$ is separable too.</p>
-<p>\end{theorem}</p>
-<p>\begin{proof}</p>
-<p>Since $f$ is continuous, we have $\bar{f(D)}\supseteq f(\bar{D})=f(X)$ for any countable dense set $D\subeq X$.<span style="float:right;">$\blacksquare$</span></p>
-<p>\end{proof}</p>
-<h2 id="subspaces">Subspaces</h2>
-<p>Clearly, any open subset of a separable space is separable. The general fails as Example \iref{subset} shows, but we have the following useful special case.</p>
-<p>\begin{theorem}</p>
-<p>Let $X$ be a metrizable space. If $X$ is separable, then any subset of $X$ is separable too.</p>
-<p>\end{theorem}</p>
-<p>\begin{fact}[\ref{limitation_of_size_metric_space}]\label{metric_char}</p>
-<p>A metrizable space is separable iff it is second-countable.</p>
+            <h1 id="definition">Definition</h1>
+<p>\begin{definition}</p>
+<p>A topological space $X$ is <em>normal</em> if for every pair of disjoint closed sets $A,B\subeq X$, there are disjoint open sets $U\supseteq A$ and $V\supseteq B$.</p>
+<p>\end{definition}</p>
+<h1 id="properties-of-normal-spaces">Properties of Normal Spaces</h1>
+<p>\begin{fact}[\ref[Tietze Extension Theorem]{tietze_extension_theorem}]</p>
+<p>Let $X$ be a normal space. If $A\subeq X$ is closed, then every continuous map $f:A\to\R$ admits a continuous extension $\widehat{f}:X\to\R$ such that $\sup_{x\in A}|f(x)|=\sup_{x\in X}|\widehat{f}(x)|$.</p>
 <p>\end{fact}</p>
-<p>\begin{proof}</p>
-<p>Let $Y\subeq X$ be a subset of a separable space $X$. By Fact \iref{metric_char}, $X$ is second-countable, and hence $Y\subeq X$ is second-countable too. Clearly $Y$ is metrizable, so again by Fact \iref{metric_char}, $Y$ is separable.<span style="float:right;">$\blacksquare$</span></p>
-<p>\end{proof}</p>
-<h2 id="products">Products</h2>
-<p>The situation with products is more subtle and depends precisely on the number of factors.</p>
-<p>\begin{theorem}</p>
-<p>Let $\l\{X_\alpha\r\}_{\alpha\leq\mf{c}}$ be a family of continuum-many separable spaces. Then $\prod_{\alpha\leq\mf{c}}X_\alpha$ is separable too.</p>
-<p>\end{theorem}</p>
-<p>\begin{proof}</p>
-<p>\TODO</p>
-<p>\end{proof}</p>
-<h1 id="counterexamples">Counterexamples</h1>
-<p>\begin{example}\label{subset}</p>
-<p>\TODO</p>
-<p>\end{example}</p>
+<h1 id="characterizations-of-normal-spaces">Characterizations of Normal Spaces</h1>
+<p>\begin{fact}[\ref[Urysohn&rsquo;s Lemma]{urysohns_lemma}]</p>
+<p>A topological space $X$ is normal iff for every pair of disjoint closed sets of $X$ is separated by a continuous function, i.e., if $A,B\subeq X$ are disjoint closed sets, then there is a continuous function $f:X\to[0,1]$ such that $A\subeq f^{-1}(0)$ and $B\subeq f^{-1}(1)$.</p>
+<p>\end{fact}</p>
 
 
             <div id="references"></div>
