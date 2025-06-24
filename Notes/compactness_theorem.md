@@ -22,7 +22,7 @@ Gödel's original proof uses the following corollary of his Completeness Theorem
 
 \begin{fact}[\ref[Completeness Theorem]{completeness_theorem}]\label{satisfiable_iff_consistent}
 
-An $L$-theory $T$ is satisfiable iff it is (syntactically-)consistent.
+An $L$-theory $T$ is satisfiable iff it is (syntactically-)\ref[consistent]{theory#consistency-and-completeness}.
 
 \end{fact}
 

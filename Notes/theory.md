@@ -36,7 +36,7 @@ $\cat{Elem}(T)$ admits directed colimits. \TODO
 
 ## Consistency and Completeness
 
-An $L$-theory is said to be _consistent_ (resp. _complete_) if it satisfies any of the conditions in Fact \iref{characterization_consistency} (resp. Fact \iref{characterization_completeness}).
+An $L$-theory is said to be _consistent_ (resp. _complete_) if it satisfies any of the 7 conditions in Fact \iref{characterization_consistency} (resp. Fact \iref{characterization_completeness}).
 
 \begin{fact}[\ref[Completeness Theorem]{completeness_theorem}, \ref{}]\label{characterization_consistency}
 
