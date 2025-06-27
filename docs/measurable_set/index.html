@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Compactness Theorem</title>
+        <title>Measurable Set</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,38 +42,53 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Compactness Theorem
+                    Measurable Set
                 
             </h1>
 
-            <h1 id="statement-and-proofs">Statement and Proofs</h1>
-<p>We present the most fundamental result in model theory. Let $L$ be a \ref[first-order language]{first-order_language}. An \ref[$L$-theory]{theory} $T$ is said to be <em>satisfiable</em> if there is an \ref[$L$-structure]{model} $M$ such that $M\models T$.</p>
-<p>\begin{theorem}[Compactness Theorem; Gödel 1930]\label{compactness}</p>
-<p>An $L$-theory $T$ is satisfiable iff every finite subtheory of $T$ is satisfiable.</p>
+            <p>Let $(X,\mc{B},\mu)$ be a \ref[measure space]{measure}. Sets $B\in\mc{B}$ are often called &lsquo;measurable&rsquo; sets, since $\mu:\mc{B}\to[0,\infty]$ assigns to each $A\in\mc{B}$ a measure $\mu(A)$, but we can also closed $\mc{B}$ downward to obtain a larger collection of measurable sets.</p>
+<h1 id="definition-and-properties">Definition and Properties</h1>
+<p>\begin{definition_}</p>
+<p>A set $Z\subeq X$ is <em>$\mu$-null</em> if $Z\subeq Z&rsquo;$ for some $Z&rsquo;\in\mc{B}$. We let $\Null_\mu$ denote the $\sigma$-ideal of $\mu$-null sets.</p>
+<p>\end{definition_}</p>
+<p>\begin{definition}</p>
+<p>A set $A\subeq X$ is <em>$\mu$-measurable</em> if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$.</p>
+<p>\end{definition}</p>
+<p>  We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets. Replacing $\mc{B}$ with $\Meas_\mu$ is generally harmless:</p>
+<p>\begin{theorem}\label{extension}</p>
+<p>The measure $\mu$ admits a unique extension to a measure $\bar{\mu}$ on $\Meas_\mu$.</p>
 <p>\end{theorem}</p>
-<p>In fact, in this case, $T$ has a model of \ref[cardinality]{cardinality} $|L|+\aleph_0$ by the \ref[Downward Löwenheim-Skolem Theorem]{downward_lowenheim-skolem_theorem}.</p>
-<h2 id="syntactic-proof">Syntactic proof</h2>
-<p>Gödel&rsquo;s original proof uses the following corollary of his Completeness Theorem:</p>
-<p>\begin{fact}[\ref[Completeness Theorem]{completeness_theorem}]\label{satisfiable_iff_consistent}</p>
-<p>An $L$-theory $T$ is satisfiable iff it is (syntactically-)\ref[consistent]{theory#consistency-and-completeness}.</p>
-<p>\end{fact}</p>
-<p>  With this in hand, the proof of Theorem \iref{compactness} is immediate.</p>
-<div class="space"></div>
-<p>\begin{proof}[of Theorem \iref{compactness}]</p>
-<p>If $T$ is satisfiable, then clearly every finite subset of $T$ is satisfiable. Conversely, if $T$ is not satisfiable, then by Fact \iref{satisfiable_iff_consistent}, there is an $L$-sentence $\sigma$ such that $T\proves\sigma\land\lnot\sigma$. Since proofs are finite, there is a finite subset $T_0\subeq T$ such that $T_0\proves\sigma\lor\lnot\sigma$, so by Fact \iref{satisfiable_iff_consistent} again, $T_0$ is unsatisfiable.<span style="float:right;">$\blacksquare$</span></p>
+<p>\begin{definition_}</p>
+<p>A measure space $(X,\mc{B},\mu)$ is <em>complete</em> if $\mc{B}=\Meas_\mu$, in which case $\bar{\mu}=\mu$.</p>
+<p>\end{definition_}</p>
+<p>\begin{lemma}\label{cup_comp}</p>
+<p>For any $B\in\mc{B}$ and $Z\in\Null_\mu$, we have:</p>
+<ol>
+<li>$B\cup Z=B&rsquo;\comp Z&rsquo;$ for some $B&rsquo;\in\mc{B}$ and $Z&rsquo;\in\Null_\mu$.</li>
+<li>$B\comp Z=B&rsquo;\cup Z&rsquo;$  for some $B&rsquo;\in\mc{B}$ and $Z&rsquo;\in\Null_\mu$.</li>
+</ol>
+<p>\end{lemma}</p>
+<p>\begin{proof}</p>
+<p>Take $Z\subeq\widehat{Z}\in\mc{B}$ such that $\mu(\widehat{Z})=0$, so $B&rsquo;\coloneqq B\cup\widehat{Z}\in\mc{B}$ and $Z&rsquo;\coloneqq\widehat{Z}\comp Z\in\Null_\mu$, and hence
+\begin{equation*}
+B&rsquo;\comp Z&rsquo;=(B\cup\widehat{Z})\comp(\widehat{Z}\comp Z)=(B\cup\widehat{Z})\cap(\widehat{Z}^c\cup Z)=B\cup Z.
+\end{equation*}
+This establishes (1), and (2) is similar.<span style="float:right;">$\blacksquare$</span></p>
 <p>\end{proof}</p>
-<h2 id="semantic-proof">Semantic proof</h2>
-<p>The above proof leverages the syntactic-semantic duality, and is thus not purely model-theoretic. Using the below non-syntactic results, we can construct a model $M\models T$ using \ref[ultraproducts]{ultraproduct}.</p>
-<p>\begin{fact}[\ref[Ultrafilter Lemma]{ultrafilter_lemma}]\label{ultrafilter_lemma}</p>
-<p>\TODO</p>
-<p>\end{fact}</p>
-<p>\begin{fact}[\ref[Łoś&rsquo;s Theorem]{los_theorem}]\label{los}</p>
-<p>\TODO</p>
-<p>\end{fact}</p>
-<div class="space"></div>
-<p>\begin{proof}[of Theorem \iref{compactness}]</p>
-<p>Suppose without loss of generality that $T$ is infinite and let $I$ be the collection of all finite subtheories of $T$. For each $i\in I$, let $M_i\models i$ and let $X_i\subseteq I$ be the set of all finite subtheories of $T$ containing $i$. Since $X_i\cap X_{i&rsquo;}=X_{i\cup i&rsquo;}$ for all $i,i&rsquo;\in I$, the collection $F\coloneqq\{X\subseteq I\st X\supseteq X_i\textrm{ for some }i\in I\}$ is a filter on $I$ and hence extends to an ultrafilter $U\supset F$ by Fact \iref{ultrafilter_lemma}. We claim that the ultraproduct $M\coloneqq\prod_iM_i\big/U$ models $T$. Indeed, take $\sigma\in T$ and observe that $X_{\{\sigma\}}\subseteq\{i\in I\st M_i\models\sigma\}$. Thus $\{i\in I\st M_i\models\sigma\}\in U$, and hence $M\models\sigma$ by Fact \iref{los}.<span style="float:right;">$\blacksquare$</span></p>
+<p>\begin{lemma}</p>
+<p>$\Meas_\mu=\l\langle\mc{B}\cup\Null_\mu\r\rangle_\sigma$.</p>
+<p>\end{lemma}</p>
+<p>\begin{proof}</p>
+<p>Since $\l\langle\mc{B}\cup\Null_\mu\r\rangle_\sigma\subeq\Meas_\mu$, it suffices to show that $\Meas_\mu$ is a $\sigma$-algebra.</p>
+<br>
+<p>  Indeed, if $B\cup Z\in\Meas_\mu$, then $(B\cup Z)^c=B^c\cap Z^c=B^c\comp Z\in\Meas_\mu$ by Lemma \iref{cup_comp}, and if $B_n\cup Z_n\in\Meas_\mu$, then $\bigcup_n(B_n\cup Z_n)=(\bigcup_nB_n)\cup(\bigcup_nZ_n)\in\Meas_\mu$ since $\Null_\mu$ is a $\sigma$-ideal.<span style="float:right;">$\blacksquare$</span></p>
 <p>\end{proof}</p>
+<div class="space"></div>
+<p>\begin{proof}[of Theorem \iref{extension}]</p>
+<p>Let $\bar{\mu}(B\cup Z)\coloneqq\mu(B)$, which is well-defined since if $B_1\cup Z_1=B_2\cup Z_2$ for some $B_i\in\mc{B}$ and $Z_i\in\Null_\mu$, then letting $B\coloneqq B_1\cap B_2$ and $\widehat{Z}\supseteq Z_1\cup Z_2$ be $\mu$-null, we have $\mu(B)\leq\mu(B_i)\leq\mu(B\cup\widehat{Z})=\mu(B)$; note that we have $B_i\subeq B\cup\widehat{Z}$ since $B_1\comp B_2\subeq Z_2$ and $B_2\comp B_1\subeq B_1$. Thus $\mu(B_i)=\mu(B)$ for $i=1,2$, as desired. Such an extension is unique since if $\nu|\mc{B}=\mu$, then $\mu(B)=\nu(B)\leq\nu(B\cup Z)\leq\mu(B\cup\widehat{Z})=\mu(B)$.<span style="float:right;">$\blacksquare$</span></p>
+<p>\end{proof}</p>
+<h1 id="non-measurable-sets">Non-measurable sets</h1>
+<p>\TODO</p>
 
 
             <div id="references"></div>

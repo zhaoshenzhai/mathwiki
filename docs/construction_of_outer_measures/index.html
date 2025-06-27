@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Compactness Theorem</title>
+        <title>Construction of Outer Measures</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,37 +42,26 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Compactness Theorem
+                    Construction of Outer Measures
                 
             </h1>
 
-            <h1 id="statement-and-proofs">Statement and Proofs</h1>
-<p>We present the most fundamental result in model theory. Let $L$ be a \ref[first-order language]{first-order_language}. An \ref[$L$-theory]{theory} $T$ is said to be <em>satisfiable</em> if there is an \ref[$L$-structure]{model} $M$ such that $M\models T$.</p>
-<p>\begin{theorem}[Compactness Theorem; Gödel 1930]\label{compactness}</p>
-<p>An $L$-theory $T$ is satisfiable iff every finite subtheory of $T$ is satisfiable.</p>
+            <p>Let $\mc{A}\subeq\pow(X)$ be a family of subsets of $X$ containing $\e$ and covering $X$, and let $\mu:\mc{A}\to[0,\infty]$ be a function.</p>
+<p>\begin{theorem}</p>
+<p>The map $\mu^\ast:\pow(X)\to[0,\infty]$ defined by $\mu^\ast(S)\coloneqq\inf\sum_n\mu(A_n)$, where the infimum ranges over all $A_n\in\mc{A}$ such that $S\subeq\bigcup_nA_n$, is an outer measure on $X$.</p>
 <p>\end{theorem}</p>
-<p>In fact, in this case, $T$ has a model of \ref[cardinality]{cardinality} $|L|+\aleph_0$ by the \ref[Downward Löwenheim-Skolem Theorem]{downward_lowenheim-skolem_theorem}.</p>
-<h2 id="syntactic-proof">Syntactic proof</h2>
-<p>Gödel&rsquo;s original proof uses the following corollary of his Completeness Theorem:</p>
-<p>\begin{fact}[\ref[Completeness Theorem]{completeness_theorem}]\label{satisfiable_iff_consistent}</p>
-<p>An $L$-theory $T$ is satisfiable iff it is (syntactically-)\ref[consistent]{theory#consistency-and-completeness}.</p>
-<p>\end{fact}</p>
-<p>  With this in hand, the proof of Theorem \iref{compactness} is immediate.</p>
-<div class="space"></div>
-<p>\begin{proof}[of Theorem \iref{compactness}]</p>
-<p>If $T$ is satisfiable, then clearly every finite subset of $T$ is satisfiable. Conversely, if $T$ is not satisfiable, then by Fact \iref{satisfiable_iff_consistent}, there is an $L$-sentence $\sigma$ such that $T\proves\sigma\land\lnot\sigma$. Since proofs are finite, there is a finite subset $T_0\subeq T$ such that $T_0\proves\sigma\lor\lnot\sigma$, so by Fact \iref{satisfiable_iff_consistent} again, $T_0$ is unsatisfiable.<span style="float:right;">$\blacksquare$</span></p>
-<p>\end{proof}</p>
-<h2 id="semantic-proof">Semantic proof</h2>
-<p>The above proof leverages the syntactic-semantic duality, and is thus not purely model-theoretic. Using the below non-syntactic results, we can construct a model $M\models T$ using \ref[ultraproducts]{ultraproduct}.</p>
-<p>\begin{fact}[\ref[Ultrafilter Lemma]{ultrafilter_lemma}]\label{ultrafilter_lemma}</p>
-<p>\TODO</p>
-<p>\end{fact}</p>
-<p>\begin{fact}[\ref[Łoś&rsquo;s Theorem]{los_theorem}]\label{los}</p>
-<p>\TODO</p>
-<p>\end{fact}</p>
-<div class="space"></div>
-<p>\begin{proof}[of Theorem \iref{compactness}]</p>
-<p>Suppose without loss of generality that $T$ is infinite and let $I$ be the collection of all finite subtheories of $T$. For each $i\in I$, let $M_i\models i$ and let $X_i\subseteq I$ be the set of all finite subtheories of $T$ containing $i$. Since $X_i\cap X_{i&rsquo;}=X_{i\cup i&rsquo;}$ for all $i,i&rsquo;\in I$, the collection $F\coloneqq\{X\subseteq I\st X\supseteq X_i\textrm{ for some }i\in I\}$ is a filter on $I$ and hence extends to an ultrafilter $U\supset F$ by Fact \iref{ultrafilter_lemma}. We claim that the ultraproduct $M\coloneqq\prod_iM_i\big/U$ models $T$. Indeed, take $\sigma\in T$ and observe that $X_{\{\sigma\}}\subseteq\{i\in I\st M_i\models\sigma\}$. Thus $\{i\in I\st M_i\models\sigma\}\in U$, and hence $M\models\sigma$ by Fact \iref{los}.<span style="float:right;">$\blacksquare$</span></p>
+<p>\begin{proof}</p>
+<p>Since $\mc{A}$ covers $X$, the definition makes sense, and $\mu^\ast(\e)=0$ by covering $\e$ by empty sets, which lie in $\mc{A}$ by assumption. If $A\subeq B$, then $\mu^\ast(A)\leq\mu^\ast(B)$ since any cover of $B$ is a cover of $A$.</p>
+<br>
+<p>  For countable subadditivity, let $\l\{B_n\r\}$ be a countable family of subsets of $X$ and take $\epsilon&gt;0$. For each $n$, there is a cover $\l\{C_{n,m}\r\}_{m&lt;\omega}\subeq\mc{A}$ of $B_n$ such that $\sum_m\mu(C_{n,m})\approx_{\epsilon/2^n}\mu^\ast(B_n)$. Summing over all $n&lt;\omega$ gives us
+\begin{equation*}
+\sum_{n,m}\mu(C_{n,m})\approx_\epsilon\sum_n\mu^\ast(B_n),
+\end{equation*}
+but since $\l\{C_{n,m}\r\}_{n,m}\subeq\mc{A}$ is a cover of $\bigcup_nB_n$, we see that
+\begin{equation*}
+\mu^\ast\l(\bigcup\nolimits_nB_n\r)\leq\sum_{n,m}\mu(C_{n,m})\leq\sum_n\mu^\ast(B_n)+\epsilon.
+\end{equation*}
+Since $\epsilon$ was arbitrary, we have $\mu^\ast(\bigcup_nB_n)\leq\sum_n\mu^\ast(B_n)$, as desired.<span style="float:right;">$\blacksquare$</span></p>
 <p>\end{proof}</p>
 
 

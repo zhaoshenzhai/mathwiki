@@ -6,15 +6,13 @@ tags: [In_Progress]
 
 # Motivation and Definition
 
-A _$\sigma$-algebra_ $\mc{A}$ on a set $X$ is a \ref[$\sigma$-complete]{complete_boolean_algebra} \ref[Boolean algebra]{boolean_algebra} on $\pow(X)$. The $\sigma$-completeness condition ensures that countable unions of elements of $\mc{A}$ remain in $\mc{A}$, and so $\sigma$-algebras are more amenable to techniques in analysis, and in particular, in \ref[measure theory]{measure}.
-
 \begin{definition}[\cite{Tse23}, \cite{Fol99}]
 
 A _$\sigma$-algebra_ on a set $X$ is a family $\mc{A}\subeq\pow(X)$ of subsets of $X$ containing $\e$ that is closed under complements and countable unions, whose elements are said to be _measurable_.
 
 <br>
 
-&emsp;&emsp;The pair $(X,\mc{A})$ is said to be a _measurable space_.
+&emsp;&emsp;We call the pair $(X,\mc{A})$ a _measurable space_.
 
 \end{definition}
 
@@ -24,7 +22,7 @@ The $\sigma$-algebra _generated_ by a family $\mc{C}\subeq\pow(X)$ is $\l\langle
 
 \begin{remark}
 
-For a bottom-up definition, we can set $\l\langle\mc{C}\r\rangle_\sigma\coloneqq\bigcup\_{\alpha<\omega\_1}\mc{C}\_\alpha$, where the $\mc{C}\_\alpha$'s are defined inductively by letting $\mc{C}\_0\coloneqq\mc{C}\cup\l\\{\e\r\\}$ and letting $\mc{C}\_\alpha$ be the collection of all complements and countable unions of sets in $\bigcup\_{\beta<\alpha}\mc{C}_\beta$.
+For a bottom-up definition, we can also let $\l\langle\mc{C}\r\rangle_\sigma\coloneqq\bigcup\_{\alpha<\omega\_1}\mc{C}\_\alpha$, where the $\mc{C}\_\alpha$'s are defined inductively by letting $\mc{C}\_0\coloneqq\mc{C}\cup\l\\{\e\r\\}$ and letting $\mc{C}\_\alpha$ be the collection of all complements and countable unions of sets in $\bigcup\_{\beta<\alpha}\mc{C}_\beta$.
 
 \end{remark}
 
@@ -40,9 +38,11 @@ Let $(X,\mc{B})$ and $(Y,\mc{C})$ be measurable spaces. A function $f:X\to Y$ is
 
 # Borel $\sigma$-algebra
 
-If $(X,\mc{T})$ is a \ref[topological space]{topological_space}, the natural $\sigma$-algebra to consider is the _Borel $\sigma$-algebra_ $\mc{B}(X)\coloneqq\l\langle\mc{T}\r\rangle_\sigma$, whose elements are called _Borel sets_.
-* A function $f:X\to Y$ between topological spaces is _Borel measurable_ if it is $(\mc{B}(X),\mc{B}(Y))$-measurable.
-* A measurable space $(X,\mc{B})$ is _standard Borel_ if $\mc{B}$ is the Borel $\sigma$-algebra of some \ref[Polish]{polish_space} topology on $X$.
+If $(X,\mc{T})$ is a \ref[topological space]{topological_space}, the natural $\sigma$-algebra on $X$ to consider is the _Borel $\sigma$-algebra_ $\mc{B}(X)\coloneqq\l\langle\mc{T}\r\rangle_\sigma$, whose elements are called _Borel sets_. A function $f:X\to Y$ between topological spaces is _Borel measurable_ if it is $(\mc{B}(X),\mc{B}(Y))$-measurable.
+
+## Standard Borel space
+
+A measurable space $(X,\mc{B})$ is a _standard Borel space_ if $\mc{B}$ is the Borel $\sigma$-algebra of some \ref[Polish]{polish_space} topology on $X$.
 
 \begin{fact}[\ref[Borel Isomorphism Theorem]{borel_isomorphism_theorem}]
 

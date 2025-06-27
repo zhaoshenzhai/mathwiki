@@ -6,8 +6,36 @@
     <description>Recent content in In_Progress on MathWiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Construction of Outer Measures</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/construction_of_outer_measures/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/construction_of_outer_measures/</guid>
+      <description>&lt;p&gt;Let $\mc{A}\subeq\pow(X)$ be a family of subsets of $X$ containing $\e$ and covering $X$, and let $\mu:\mc{A}\to[0,\infty]$ be a function.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;The map $\mu^\ast:\pow(X)\to[0,\infty]$ defined by $\mu^\ast(S)\coloneqq\inf\sum_n\mu(A_n)$, where the infimum ranges over all $A_n\in\mc{A}$ such that $S\subeq\bigcup_nA_n$, is an outer measure on $X$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Since $\mc{A}$ covers $X$, the definition makes sense, and $\mu^\ast(\e)=0$ by covering $\e$ by empty sets, which lie in $\mc{A}$ by assumption. If $A\subeq B$, then $\mu^\ast(A)\leq\mu^\ast(B)$ since any cover of $B$ is a cover of $A$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Extension_of_premeasure_to_outer_measure</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/extension_of_premeasure_to_outer_measure/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/extension_of_premeasure_to_outer_measure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Outer Measure</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/outer_measure/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/outer_measure/</guid>
+      <description>&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;An &lt;em&gt;outer measure&lt;/em&gt; on a set $X$ is a function $\mu^\ast:\pow(X)\to[0,\infty]$ such that&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;$\mu^\ast(\e)=0$.&lt;/li&gt;&#xA;&lt;li&gt;$\mu^\ast(A)\leq\mu^\ast(B)$ whenever $A\subeq B$.&lt;/li&gt;&#xA;&lt;li&gt;$\mu^\ast(\bigcup_{n&amp;lt;\omega}A_n)\leq\sum_{n&amp;lt;\omega}\mu^\ast(A_i)$ for any countable family $A_n\subeq X$.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Construction of outer measures]{construction_of_outer_measures}]\label{construction}&lt;/p&gt;&#xA;&lt;p&gt;Let $\mc{A}\subeq\pow(X)$ be a collection of subsets of $X$ containing $\e$ and covering $X$, and let $\mu:\mc{A}\to[0,\infty]$ be any function. Then $\mu^\ast:\pow(X)\to[0,\infty]$ defined by $\mu^\ast(S)\coloneqq\inf\sum_n\mu(A_n)$, where the infimum ranges over all $A_n\in\mc{A}$ such that $S\subeq\bigcup_nA_n$, is an outer measure on $X$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Measurable Set</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/measurable_set/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/measurable_set/</guid>
+      <description>&lt;p&gt;Let $(X,\mc{B},\mu)$ be a \ref[measure space]{measure}. Sets $B\in\mc{B}$ are often called &amp;lsquo;measurable&amp;rsquo; sets, since $\mu:\mc{B}\to[0,\infty]$ assigns to each $A\in\mc{B}$ a measure $\mu(A)$, but we can also closed $\mc{B}$ downward to obtain a larger collection of measurable sets.&lt;/p&gt;&#xA;&lt;h1 id=&#34;definition-and-properties&#34;&gt;Definition and Properties&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition_}&lt;/p&gt;&#xA;&lt;p&gt;A set $Z\subeq X$ is &lt;em&gt;$\mu$-null&lt;/em&gt; if $Z\subeq Z&amp;rsquo;$ for some $Z&amp;rsquo;\in\mc{B}$. We let $\Null_\mu$ denote the $\sigma$-ideal of $\mu$-null sets.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition_}&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A set $A\subeq X$ is &lt;em&gt;$\mu$-measurable&lt;/em&gt; if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Bolzano-Weierstrass Theorem</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/bolzano-weierstrass_theorem/</link>
@@ -100,11 +128,11 @@
       <description>&lt;h1 id=&#34;definition&#34;&gt;Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A topological space $X$ is &lt;em&gt;separable&lt;/em&gt; if $X$ admits a countable dense subset.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;  More generally, we say that $X$ is &lt;em&gt;$\kappa$-separable&lt;/em&gt; if it admits a dense subset of cardinality $\kappa$.&lt;/p&gt;&#xA;&lt;h1 id=&#34;properties-of-separable-spaces&#34;&gt;Properties of Separable Spaces&lt;/h1&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Preservation]{preservation_of_separability}]&lt;/p&gt;&#xA;&lt;p&gt;Separability is preserved under the following operations.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;(Images). If $f:X\to Y$ is continuous and $X$ is separable, then so is $f(X)$.&lt;/li&gt;&#xA;&lt;li&gt;(Subspaces). Subspaces of separable metrizable spaces are separable.&lt;/li&gt;&#xA;&lt;li&gt;(Continuum products). The product $\prod_{\alpha\leq\mf{c}}X_\alpha$ of continuum-many separable spaces $X_\alpha$ is separable.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Urysohns_lemma</title>
+      <title>Urysohn&#39;s Lemma</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/urysohns_lemma/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/urysohns_lemma/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;statement-and-proof&#34;&gt;Statement and Proof&lt;/h1&gt;&#xA;&lt;p&gt;\begin{theorem}[Urysohn&amp;rsquo;s Lemma]&lt;/p&gt;&#xA;&lt;p&gt;The following are equivalent for a \ref[topological space]{topological_space} $X$.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;$X$ is \ref[normal]{normal_space}: every pair of disjoint closed sets $A,B\subeq X$ can be separated by disjoint open sets, i.e., there exist disjoint open sets $U\supseteq A$ and $V\supseteq B$.&lt;/li&gt;&#xA;&lt;li&gt;For every closed set $A\subeq X$ and every open set $U\supseteq A$, there is an open set $V$ and a closed set $B$ such that $A\subeq V\subeq B\subeq U$.&lt;/li&gt;&#xA;&lt;li&gt;Every pair of disjoint closed sets $A,B\subeq X$ can be separated by a continuous function, i.e., there is a continuous function $f:X\to[0,1]$ such that $A\subeq f^{-1}(0)$ and $B\subeq f^{-1}(1)$.&lt;/li&gt;&#xA;&lt;li&gt;For every closed set $A\subeq X$ and every open set $U\supseteq A$, there is a continuous function $f:X\to[0,1]$ such that $\chi_A\leq f\leq\chi_U$ pointwise.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;</description>
     </item>
     <item>
       <title>Characterization of Compactness in Metric Spaces</title>
@@ -321,7 +349,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/measures_on_reals/</link>
       <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/measures_on_reals/</guid>
-      <description>&lt;p&gt;hi&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-lebesgue-measure&#34;&gt;The Lebesgue Measure&lt;/h1&gt;&#xA;&lt;h1 id=&#34;classification-of-borel-measures&#34;&gt;Classification of Borel measures&lt;/h1&gt;&#xA;&lt;h1 id=&#34;non-measurability&#34;&gt;Non-measurability&lt;/h1&gt;</description>
+      <description>&lt;p&gt;Consider $\R$ equipped with its \ref[order topology]{order_topology}, which admits a subbase of open sets of the form $(-\infty,a)$ and $(a,\infty)$ for $a\in\R$. The \ref[Borel $\sigma$-algebra]{measurable_space#borel-sigma-algebra} $\mc{B}_\R$ on $\R$ is the $\sigma$-algebra generated by said topology.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-lebesgue-measure&#34;&gt;The Lebesgue Measure&lt;/h1&gt;&#xA;&lt;h1 id=&#34;classification-of-borel-measures&#34;&gt;Classification of Borel measures&lt;/h1&gt;&#xA;&lt;h1 id=&#34;non-measurability&#34;&gt;Non-measurability&lt;/h1&gt;</description>
     </item>
     <item>
       <title>Atom (Measure Theory)</title>
@@ -335,14 +363,14 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/measurable_space/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/measurable_space/</guid>
-      <description>&lt;h1 id=&#34;motivation-and-definition&#34;&gt;Motivation and Definition&lt;/h1&gt;&#xA;&lt;p&gt;A &lt;em&gt;$\sigma$-algebra&lt;/em&gt; $\mc{A}$ on a set $X$ is a \ref[$\sigma$-complete]{complete_boolean_algebra} \ref[Boolean algebra]{boolean_algebra} on $\pow(X)$. The $\sigma$-completeness condition ensures that countable unions of elements of $\mc{A}$ remain in $\mc{A}$, and so $\sigma$-algebras are more amenable to techniques in analysis, and in particular, in \ref[measure theory]{measure}.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}[\cite{Tse23}, \cite{Fol99}]&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;$\sigma$-algebra&lt;/em&gt; on a set $X$ is a family $\mc{A}\subeq\pow(X)$ of subsets of $X$ containing $\e$ that is closed under complements and countable unions, whose elements are said to be &lt;em&gt;measurable&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;motivation-and-definition&#34;&gt;Motivation and Definition&lt;/h1&gt;&#xA;&lt;p&gt;\begin{definition}[\cite{Tse23}, \cite{Fol99}]&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;$\sigma$-algebra&lt;/em&gt; on a set $X$ is a family $\mc{A}\subeq\pow(X)$ of subsets of $X$ containing $\e$ that is closed under complements and countable unions, whose elements are said to be &lt;em&gt;measurable&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;  We call the pair $(X,\mc{A})$ a &lt;em&gt;measurable space&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;h2 id=&#34;generation&#34;&gt;Generation&lt;/h2&gt;&#xA;&lt;p&gt;The $\sigma$-algebra &lt;em&gt;generated&lt;/em&gt; by a family $\mc{C}\subeq\pow(X)$ is $\l\langle\mc{C}\r\rangle_\sigma\coloneqq\bigcap\l\{\mc{A}\st\mc{A}\supseteq\mc{C}\textrm{ is a $\sigma$-algebra on $X$}\r\}$.&lt;/p&gt;&#xA;&lt;p&gt;\begin{remark}&lt;/p&gt;&#xA;&lt;p&gt;For a bottom-up definition, we can also let $\l\langle\mc{C}\r\rangle_\sigma\coloneqq\bigcup_{\alpha&amp;lt;\omega_1}\mc{C}_\alpha$, where the $\mc{C}_\alpha$&amp;rsquo;s are defined inductively by letting $\mc{C}_0\coloneqq\mc{C}\cup\l\{\e\r\}$ and letting $\mc{C}_\alpha$ be the collection of all complements and countable unions of sets in $\bigcup_{\beta&amp;lt;\alpha}\mc{C}_\beta$.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Carathéodory&#39;s Extension Theorem</title>
       <link>https://zhaoshenzhai.github.io/mathwiki/caratheodory_extension_theorem/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/caratheodory_extension_theorem/</guid>
-      <description>&lt;h1 id=&#34;motivation-and-statements&#34;&gt;Motivation and Statements&lt;/h1&gt;&#xA;&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;&#xA;&lt;p&gt;Let $X$ be a set.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}\label{premeasure}&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;premeasure&lt;/em&gt; on an algebra $\mc{A}$ is a finitely-additive map $\mu:\mc{A}\to[0,\infty]$ such that $\mu(\e)=0$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;Let $\mc{A}\subeq\pow(X)$ be a collection such that $\e\in\mc{A}$ and $X=\bigcup\mc{A}$, and let $\mu:\mc{A}\to[0,\infty]$ be a map. The &lt;em&gt;outer measure&lt;/em&gt; induced by $\mu$ is the map&#xA;\begin{equation*}&#xA;\mu^\ast:\pow(X)\to[0,\infty]:S\mapsto\inf\l\{\sum_{n&amp;lt;\omega}\mu(A_n)\st A_n\in\mc{A}\mathrm{\ and\ }S\subeq\bigcup_{n&amp;lt;\omega}A_n\r\}.&#xA;\end{equation*}&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{lemma}\label{outer_monotone}&lt;/p&gt;&#xA;&lt;p&gt;For any $m:\mc{A}\to[0,\infty]$, its outer measure $m^\ast$ is:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;monotone: for all $A,B\in\pow(X)$ with $A\subeq B$, we have $m^\ast(A)\leq m^\ast(B)$.&lt;/li&gt;&#xA;&lt;li&gt;countably subadditive: for all $A_i\in\pow(X)$, we have $m^\ast(\bigsqcup_{n&amp;lt;\omega}A_n)\leq\sum_{n&amp;lt;\omega}m^\ast(A_n)$.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;\end{lemma}&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;motivation-and-statements&#34;&gt;Motivation and Statements&lt;/h1&gt;&#xA;&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;&#xA;&lt;p&gt;Let $X$ be a set. Starting from a &amp;lsquo;measure&amp;rsquo; $\mu_0$ on an algebra $\mc{A}$, we will extend $\mu$ to a genuine measure $\mu$ on the \ref[$\sigma$-algebra]{measurable_space} $\l\langle\mc{A}\r\rangle_\sigma$ generated by $\mc{A}$. &amp;lsquo;Measures&amp;rsquo; on an algebra $\mc{A}$ are called &lt;em&gt;premeasures&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition_}\label{premeasure}&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;premeasure&lt;/em&gt; on an algebra $\mc{A}$ is a finitely-additive map $\mu:\mc{A}\to[0,\infty]$ such that $\mu(\e)=0$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;  The construction of $\mu$ from $\mu_0$ will require the following technical tool.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Group</title>

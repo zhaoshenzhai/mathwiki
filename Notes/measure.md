@@ -6,15 +6,23 @@ tags: [Measure_theory]
 
 # Definition and Examples
 
-The notion of a _measure_ systematically generalizes length in $\R$, area in $\R^2$, and volume in $\R^3$, to 'measures' or 'weights' of certain subsets of an arbitrary set $X$.
-
 \begin{definition}[\cite{Tse23}, \cite{Fol99}]
 
 A _measure_ on a \ref[measurable space]{measurable_space} $(X,\mc{B})$ is a map $\mu:\mc{B}\to[0,\infty]$ such that $\mu(\e)=0$ and $\mu(\bigsqcup_nA_n)=\sum_n\mu(A_n)$ for any pairwise-disjoint countable family $(A_n)_{n<\omega}$ of sets in $\mc{B}$.
 
 \end{definition}
 
-We call the triple $(X,\mc{B},\mu)$ a _measure space_.
+\begin{definition_}
+
+We call the triple $(X,\mc{B},\mu)$ a _measure space_, and elements in \ref[$\Meas_\mu$]{measurable_set} are said to be _$\mu$-measurable_.
+
+\end{definition_}
+
+\begin{definition_}
+
+A function $f:X\to Y$ between measure spaces $(X,\mc{B},\mu)$ and $(Y,\mc{C},\nu)$ is _measure-preserving_ if it is a \ref[$(\mc{B},\mc{C})$-measurable map]{measurable_space#measurable-functions} such that, on a $\mu$-conull set $X_0\subeq X$, we have $\mu(\l.f\r|_{X_0}^{-1}(C))=\nu(C)$ for each $C\in\mc{C}$.
+
+\end{definition_}
 
 \begin{example}[Counting measure]
 
@@ -30,7 +38,7 @@ For any $x\in X$, the _Dirac measure concentrated at $x$_ is the (atomic) measur
 
 \begin{example}[Lebesgue measure]
 
-There is a unique (Borel) measure $\lambda:\mc{B}(\R)\to[0,\infty]$, called the _\ref[Lebesgue measure]{measures_on_reals#lebesgue_measure}_, such that $\lambda([a,b])=b-a$ for each $a,b\in\R$ with $a\leq b$; this measure is clearly invariant under $\Isom\R$.
+There is a unique measure $\lambda:\mc{B}(\R)\to[0,\infty]$, called the _\ref[Lebesgue measure]{measures_on_reals#lebesgue_measure}_, such that $\lambda([a,b])=b-a$ for each $a,b\in\R$ with $a\leq b$; this measure is clearly invariant under $\Isom\R$.
 
 \end{example}
 
@@ -39,26 +47,6 @@ There is a unique (Borel) measure $\lambda:\mc{B}(\R)\to[0,\infty]$, called the 
 Let $p\in[0,1]$ and equip $2^\omega$ with the \ref[product topology]{product_topology}. There is a unique (Borel) measure $\mu_p:\mc{B}(2^\omega)\to[0,1]$, called the _\ref[Bernoulli$(p)$ measure]{bernoulli_p_measure}_, such that $\mu_p([w])=p^{n_1}(1-p)^{n_0}$ where $n_i$ is the number of occurrences of $i\in\l\\{0,1\r\\}$ in $w$ and $[w]$ is the set of all sequences in $2^\omega$ containing $w$ as a prefix.
 
 \end{example}
-
-## Measurability
-
-Let $(X,\mc{B},\mu)$ be a measure space. A set $Z\subeq X$ is _$\mu$-null_ if $Z\subeq Z'$ for some $Z'\in\mc{B}$ such that $\mu(Z')=0$. We let $\Null_\mu$ denote the \ref[$\sigma$-ideal]{boolean_sigma_algebra#ideal} of $\mu$-measurable sets.
-
-<br>
-
-&emsp;&emsp;A set $A\subeq X$ is _$\mu$-measurable_ if $A=B\cup Z$ for some $B\in\mc{B}$ and some $Z\in\Null_\mu$. We write $\Meas_\mu$ for the collection of all $\mu$-measurable sets in $X$, and say that $\mu$ is _complete_ if $\mc{B}=\Meas_\mu$.
-
-\begin{fact}[\ref{complete_measure}]
-
-For any measure space $(X,\mc{B},\mu)$, the collection $\Meas\_\mu$ is the $\sigma$-algebra \ref[generated]{measurable_space#generation} by $\mc{B}\cup\Null_\mu$. Moreover, $\mu$ admits a unique extension to a complete measure $\bar{\mu}$ on $\Meas_\mu$, defined by $\bar{\mu}(B\cup Z)\coloneqq\mu(B)$.
-
-\end{fact}
-
-&emsp;&emsp;A function $f:X\to Y$ between measure spaces $(X,\mc{B},\mu)$ and $(Y,\mc{C},\nu)$ is said to be _measure-preserving_ if it is a \ref[$(\mc{B},\mc{C})$-measurable map]{measurable_space#measurable-functions} such that, on a $\mu$-conull set $X_0\subeq X$, we have $\mu(\l.f\r|_{X_0}^{-1}(C))=\nu(C)$ for each $C\in\mc{C}$.
-
-<br>
-
-&emsp;&emsp;An action $G\act(X,\mc{B},\mu)$ is said to be _measure-preserving_ if for each $g\in G$, the orbit map $x\mapsto gx$ is measure-preserving. Such actions define _\ref[measure-preserving dynamical systems]{measure-preserving_dynamical_system}_, studied in _ergodic theory_.
 
 # Classes of Measures
 
@@ -137,3 +125,7 @@ Let $(A_n)_{n<\omega}$ be a sequence of $\mu$-measurable sets.
 ## Products of measures
 
 \TODO
+
+## Dynamical systems
+
+An action $G\act(X,\mc{B},\mu)$ is _measure-preserving_ if for each $g\in G$, the orbit map $x\mapsto gx$ is measure-preserving. Such actions define _\ref[measure-preserving dynamical systems]{measure-preserving_dynamical_system}_, studied in _ergodic theory_.
