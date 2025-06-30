@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/construction_of_outer_measures/</loc>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/characterization_consistency/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/extension_of_premeasure_to_outer_measure/</loc>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/consistent_theory/</loc>
+    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/extending_consistent_theories/</loc>
+    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/completeness_theorem/</loc>
+    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhaoshenzhai.github.io/mathwiki/hilbert_style_proof_system_fol/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/</loc>
-    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhaoshenzhai.github.io/mathwiki/outer_measure/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhaoshenzhai.github.io/mathwiki/tags/</loc>

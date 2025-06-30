@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Construction of Outer Measures</title>
+        <title>Characterizations of Consistent Theories</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,26 +42,33 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Construction of Outer Measures
+                    Characterizations of Consistent Theories
                 
             </h1>
 
-            <p>Let $\mc{A}\subeq\pow(X)$ be a family of subsets of $X$ containing $\e$ and covering $X$, and let $\mu:\mc{A}\to[0,\infty]$ be a function.</p>
-<p>\begin{theorem}</p>
-<p>The map $\mu^\ast:\pow(X)\to[0,\infty]$ defined by $\mu^\ast(S)\coloneqq\inf\sum_n\mu(A_n)$, where the infimum ranges over all $A_n\in\mc{A}$ such that $S\subeq\bigcup_nA_n$, is an outer measure on $X$.</p>
+            <p>Let $L$ be a \ref[first-order language]{first-order_language}.</p>
+<p>\begin{theorem}\label{theorem}</p>
+<p>The following are equivalent for an \ref[$L$-theory]{theory} $T$.</p>
+<ol>
+<li>$T$ is consistent: there is no $L$-sentence $\sigma$ such that $T\proves\sigma\land\lnot\sigma$.</li>
+<li>$T\not\proves\bot$, where $\bot\coloneqq\ex x\lnot(x=x)$.</li>
+<li>$T\not\proves\sigma$ for some $L$-sentence $\sigma$.</li>
+</ol>
 <p>\end{theorem}</p>
-<p>\begin{proof}</p>
-<p>Since $\mc{A}$ covers $X$, the definition makes sense, and $\mu^\ast(\e)=0$ by covering $\e$ by empty sets, which lie in $\mc{A}$ by assumption. If $A\subeq B$, then $\mu^\ast(A)\leq\mu^\ast(B)$ since any cover of $B$ is a cover of $A$.</p>
-<br>
-<p>  For countable subadditivity, let $\l\{B_n\r\}$ be a countable family of subsets of $X$ and take $\epsilon&gt;0$. For each $n$, there is a cover $\l\{C_{n,m}\r\}_{m&lt;\omega}\subeq\mc{A}$ of $B_n$ such that $\sum_m\mu(C_{n,m})\approx_{\epsilon/2^n}\mu^\ast(B_n)$. Summing over all $n&lt;\omega$ gives us
-\begin{equation*}
-\sum_{n,m}\mu(C_{n,m})\approx_\epsilon\sum_n\mu^\ast(B_n),
-\end{equation*}
-but since $\l\{C_{n,m}\r\}_{n,m}\subeq\mc{A}$ is a cover of $\bigcup_nB_n$, we see that
-\begin{equation*}
-\mu^\ast\l(\bigcup\nolimits_nB_n\r)\leq\sum_{n,m}\mu(C_{n,m})\leq\sum_n\mu^\ast(B_n)+\epsilon.
-\end{equation*}
-Since $\epsilon$ was arbitrary, we have $\mu^\ast(\bigcup_nB_n)\leq\sum_n\mu^\ast(B_n)$, as desired.<span style="float:right;">$\blacksquare$</span></p>
+<p>  We will need the following two elementary facts.</p>
+<p>\begin{fact}\label{contradiction}</p>
+<p>For any $L$-formulas $\phi$ and $\psi$, we have $\proves(\phi\land\lnot\phi)\rightarrow\psi$.</p>
+<p>\end{fact}</p>
+<p>\begin{fact}\label{anything}</p>
+<p>For any $L$-formula $\phi$, we have $\proves\bot\rightarrow\phi$ where $\bot\coloneqq\ex x\lnot(x=x)$.</p>
+<p>\end{fact}</p>
+<div class="space"></div>
+<p>\begin{proof}[of Theorem \iref{theorem}]</p>
+<p>That (2) implies (3) is trivial.</p>
+<ul>
+<li>If (3) holds but there is an $L$-sentence $\sigma$ such that $T\proves\sigma\land\lnot\sigma$, then $T$ proves every $L$-sentence by Fact \iref{contradiction}.</li>
+<li>If (1) holds but $T\proves\bot$, then $T\proves\sigma\land\lnot\sigma$ for any $L$-sentence $\sigma$ by Fact \iref{anything}.<span style="float:right;">$\blacksquare$</span></li>
+</ul>
 <p>\end{proof}</p>
 
 

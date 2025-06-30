@@ -9,25 +9,39 @@
     <lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zhaoshenzhai.github.io/mathwiki/tags/in_progress/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Construction of Outer Measures</title>
-      <link>https://zhaoshenzhai.github.io/mathwiki/construction_of_outer_measures/</link>
+      <title>Characterizations of Consistent Theories</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/characterization_consistency/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://zhaoshenzhai.github.io/mathwiki/construction_of_outer_measures/</guid>
-      <description>&lt;p&gt;Let $\mc{A}\subeq\pow(X)$ be a family of subsets of $X$ containing $\e$ and covering $X$, and let $\mu:\mc{A}\to[0,\infty]$ be a function.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}&lt;/p&gt;&#xA;&lt;p&gt;The map $\mu^\ast:\pow(X)\to[0,\infty]$ defined by $\mu^\ast(S)\coloneqq\inf\sum_n\mu(A_n)$, where the infimum ranges over all $A_n\in\mc{A}$ such that $S\subeq\bigcup_nA_n$, is an outer measure on $X$.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}&lt;/p&gt;&#xA;&lt;p&gt;Since $\mc{A}$ covers $X$, the definition makes sense, and $\mu^\ast(\e)=0$ by covering $\e$ by empty sets, which lie in $\mc{A}$ by assumption. If $A\subeq B$, then $\mu^\ast(A)\leq\mu^\ast(B)$ since any cover of $B$ is a cover of $A$.&lt;/p&gt;</description>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/characterization_consistency/</guid>
+      <description>&lt;p&gt;Let $L$ be a \ref[first-order language]{first-order_language}.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}\label{theorem}&lt;/p&gt;&#xA;&lt;p&gt;The following are equivalent for an \ref[$L$-theory]{theory} $T$.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;$T$ is consistent: there is no $L$-sentence $\sigma$ such that $T\proves\sigma\land\lnot\sigma$.&lt;/li&gt;&#xA;&lt;li&gt;$T\not\proves\bot$, where $\bot\coloneqq\ex x\lnot(x=x)$.&lt;/li&gt;&#xA;&lt;li&gt;$T\not\proves\sigma$ for some $L$-sentence $\sigma$.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;  We will need the following two elementary facts.&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}\label{contradiction}&lt;/p&gt;&#xA;&lt;p&gt;For any $L$-formulas $\phi$ and $\psi$, we have $\proves(\phi\land\lnot\phi)\rightarrow\psi$.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}\label{anything}&lt;/p&gt;&#xA;&lt;p&gt;For any $L$-formula $\phi$, we have $\proves\bot\rightarrow\phi$ where $\bot\coloneqq\ex x\lnot(x=x)$.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;div class=&#34;space&#34;&gt;&lt;/div&gt;&#xA;&lt;p&gt;\begin{proof}[of Theorem \iref{theorem}]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Extension_of_premeasure_to_outer_measure</title>
-      <link>https://zhaoshenzhai.github.io/mathwiki/extension_of_premeasure_to_outer_measure/</link>
+      <title>Consistent Theory</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/consistent_theory/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://zhaoshenzhai.github.io/mathwiki/extension_of_premeasure_to_outer_measure/</guid>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/consistent_theory/</guid>
+      <description>&lt;p&gt;Let $L$ be a \ref[first-order language]{first-order_language}.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;An \ref[$L$-theory]{theory} $T$ is said to be &lt;em&gt;consistent&lt;/em&gt; if there is no $L$-sentence $\sigma$ such that $T\proves\sigma\land\lnot\sigma$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Gödel&amp;rsquo;s Completeness Theorem]{completeness_theorem}]&lt;/p&gt;&#xA;&lt;p&gt;Every consistent $L$-theory $T$ is satisfiable.&lt;/p&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Characterizations of consistency]{characterization_consistency}]&lt;/p&gt;&#xA;&lt;p&gt;The following are equivalent for an $L$-theory $T$.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;$T$ is consistent.&lt;/li&gt;&#xA;&lt;li&gt;$T\not\proves\bot$, where $\bot\coloneqq\ex x\lnot(x=x)$.&lt;/li&gt;&#xA;&lt;li&gt;$T\not\proves\sigma$ for some $L$-sentence $\sigma$.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Extending consistent theories]{extending_consistent_theories}]&lt;/p&gt;&#xA;&lt;p&gt;Let $T$ be an $L$-theory.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;For any $L$-sentence $\sigma$, the theory $T\cup\l\{\sigma\r\}$ is inconsistent iff $T\proves\lnot\sigma$.&lt;/li&gt;&#xA;&lt;li&gt;If $T$ is consistent, then for any $L$-sentence $\sigma$, one of $T\cup\l\{\sigma\r\}$ and $T\cup\l\{\lnot\sigma\r\}$ is consistent.&lt;/li&gt;&#xA;&lt;li&gt;Every consistent $L$-theory $T$ admits a consistent completion $\bar{T}\supseteq T$.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{fact}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Extending_consistent_theories</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/extending_consistent_theories/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/extending_consistent_theories/</guid>
       <description></description>
     </item>
     <item>
-      <title>Outer Measure</title>
-      <link>https://zhaoshenzhai.github.io/mathwiki/outer_measure/</link>
+      <title>Gödel&#39;s Completeness Theorem</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/completeness_theorem/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://zhaoshenzhai.github.io/mathwiki/outer_measure/</guid>
-      <description>&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;An &lt;em&gt;outer measure&lt;/em&gt; on a set $X$ is a function $\mu^\ast:\pow(X)\to[0,\infty]$ such that&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;$\mu^\ast(\e)=0$.&lt;/li&gt;&#xA;&lt;li&gt;$\mu^\ast(A)\leq\mu^\ast(B)$ whenever $A\subeq B$.&lt;/li&gt;&#xA;&lt;li&gt;$\mu^\ast(\bigcup_{n&amp;lt;\omega}A_n)\leq\sum_{n&amp;lt;\omega}\mu^\ast(A_i)$ for any countable family $A_n\subeq X$.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{fact}[\ref[Construction of outer measures]{construction_of_outer_measures}]\label{construction}&lt;/p&gt;&#xA;&lt;p&gt;Let $\mc{A}\subeq\pow(X)$ be a collection of subsets of $X$ containing $\e$ and covering $X$, and let $\mu:\mc{A}\to[0,\infty]$ be any function. Then $\mu^\ast:\pow(X)\to[0,\infty]$ defined by $\mu^\ast(S)\coloneqq\inf\sum_n\mu(A_n)$, where the infimum ranges over all $A_n\in\mc{A}$ such that $S\subeq\bigcup_nA_n$, is an outer measure on $X$.&lt;/p&gt;</description>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/completeness_theorem/</guid>
+      <description>&lt;h1 id=&#34;statement-and-corollaries&#34;&gt;Statement and Corollaries&lt;/h1&gt;&#xA;&lt;p&gt;Let $L$ be a \ref[first-order language]{first-order_language}.&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Gödel]&lt;/p&gt;&#xA;&lt;p&gt;Every consistent $L$-theory is satisfiable.&lt;/p&gt;&#xA;&lt;p&gt;\end{theorem}&lt;/p&gt;&#xA;&lt;p&gt;\begin{corollary}[Syntax $=$ Semantics]\label{syntax_semantics}&lt;/p&gt;&#xA;&lt;p&gt;For any $L$-theory $T$ and $L$-sentence $\sigma$, we have $T\proves\sigma$ iff $T\models\sigma$.&lt;/p&gt;&#xA;&lt;p&gt;\end{corollary}&lt;/p&gt;&#xA;&lt;p&gt;\begin{proof}[of Corollary \iref{syntax_semantics}]&lt;/p&gt;&#xA;&lt;p&gt;The forward direction is soundness of our proof system. Conversely, if $T\not\proves\sigma$, then $T$ is consistent by Fact \TODO.&lt;/p&gt;&#xA;&lt;p&gt;\end{proof}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hilbert-style Proof System for First-order Logic</title>
+      <link>https://zhaoshenzhai.github.io/mathwiki/hilbert_style_proof_system_fol/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://zhaoshenzhai.github.io/mathwiki/hilbert_style_proof_system_fol/</guid>
+      <description>&lt;h1 id=&#34;definition&#34;&gt;Definition&lt;/h1&gt;&#xA;&lt;p&gt;Fix a \ref[first-order language]{first-order_language} $L$, let $\Gamma$ be a set of $L$-formulas, and let $\phi$ be an $L$-formula. We describe here a simple proof system using a (\ref[primitive-recursive]{primitive_recursive}) set $\mc{A}$ of axioms and a single inference rule, that of &lt;em&gt;Modus Ponens&lt;/em&gt;:&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition}&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;proof&lt;/em&gt; of $\phi$ from $\Gamma$ is a finite sequence $\pi\coloneqq(\phi_1,\dots,\phi_l)$ of $L$-formulas with $\phi_l=\phi$ such that for each $i\leq l$, either $\phi_i\in\Gamma$ or is an &lt;em&gt;axiom&lt;/em&gt; (see below), or there exist $j,k&amp;lt;i$ such that $\phi_k=\phi_j\rightarrow\phi_i$.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Measurable Set</title>
@@ -370,7 +384,7 @@
       <link>https://zhaoshenzhai.github.io/mathwiki/caratheodory_extension_theorem/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
       <guid>https://zhaoshenzhai.github.io/mathwiki/caratheodory_extension_theorem/</guid>
-      <description>&lt;h1 id=&#34;motivation-and-statements&#34;&gt;Motivation and Statements&lt;/h1&gt;&#xA;&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;&#xA;&lt;p&gt;Let $X$ be a set. Starting from a &amp;lsquo;measure&amp;rsquo; $\mu_0$ on an algebra $\mc{A}$, we will extend $\mu$ to a genuine measure $\mu$ on the \ref[$\sigma$-algebra]{measurable_space} $\l\langle\mc{A}\r\rangle_\sigma$ generated by $\mc{A}$. &amp;lsquo;Measures&amp;rsquo; on an algebra $\mc{A}$ are called &lt;em&gt;premeasures&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition_}\label{premeasure}&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;premeasure&lt;/em&gt; on an algebra $\mc{A}$ is a finitely-additive map $\mu:\mc{A}\to[0,\infty]$ such that $\mu(\e)=0$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;  The construction of $\mu$ from $\mu_0$ will require the following technical tool.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;statement-and-some-setup&#34;&gt;Statement and some Setup&lt;/h1&gt;&#xA;&lt;p&gt;Let $X$ be a set. Starting from a &amp;lsquo;measure&amp;rsquo; $\mu_0$ on an algebra $\mc{A}\subeq\pow(X)$, we will extend $\mu$ to a genuine measure $\mu$ on the \ref[$\sigma$-algebra]{measurable_space} $\l\langle\mc{A}\r\rangle_\sigma$ generated by $\mc{A}$. &amp;lsquo;Measures&amp;rsquo; on an algebra $\mc{A}$ are called &lt;em&gt;premeasures&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;\begin{definition_}\label{premeasure}&lt;/p&gt;&#xA;&lt;p&gt;A &lt;em&gt;premeasure&lt;/em&gt; on an algebra $\mc{A}$ is a finitely-additive map $\mu:\mc{A}\to[0,\infty]$ such that $\mu(\e)=0$.&lt;/p&gt;&#xA;&lt;p&gt;\end{definition}&lt;/p&gt;&#xA;&lt;p&gt;\begin{theorem}[Carathéodory&amp;rsquo;s Extension Theorem]\label{theorem}&lt;/p&gt;&#xA;&lt;p&gt;Let $X$ be a set. Every $\sigma$-finite premeasure $\mu_0$ on an algebra $\mc{A}\subeq\pow(X)$ admits a unique extension to a \ref[measure]{measure} $\mu:\l\langle\mc{A}\r\rangle_\sigma\to[0,\infty]$. Moreover:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Group</title>

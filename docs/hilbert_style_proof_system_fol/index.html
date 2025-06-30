@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang=en-US class="noScroll">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Hilbert-style Proof System for First-order Logic</title>
+
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/lists.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/search.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/mathJax.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/darkMode.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/variables.css">
+        <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/noProperty.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/input.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/search.js" type="module"></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/mathJax.js" type="module" async></script>
+        <script src="https://zhaoshenzhai.github.io/mathwiki/js/darkMode.js" type="module"></script>
+
+        <div style="display:none;" id="preamble"></div>
+    </head>
+
+    <body>
+        
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/headers.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/format.js" type="module"></script>
+    <script src="https://zhaoshenzhai.github.io/mathwiki/js/single/refs.js" type="module"></script>
+
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/single.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/ref.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/toc.css">
+    <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/env.css">
+
+    <div id="mainPage">
+        <div id="content">
+            <h1 id="title" titleSize="">
+                
+                    Hilbert-style Proof System for First-order Logic
+                
+            </h1>
+
+            <h1 id="definition">Definition</h1>
+<p>Fix a \ref[first-order language]{first-order_language} $L$, let $\Gamma$ be a set of $L$-formulas, and let $\phi$ be an $L$-formula. We describe here a simple proof system using a (\ref[primitive-recursive]{primitive_recursive}) set $\mc{A}$ of axioms and a single inference rule, that of <em>Modus Ponens</em>:</p>
+<p>\begin{definition}</p>
+<p>A <em>proof</em> of $\phi$ from $\Gamma$ is a finite sequence $\pi\coloneqq(\phi_1,\dots,\phi_l)$ of $L$-formulas with $\phi_l=\phi$ such that for each $i\leq l$, either $\phi_i\in\Gamma$ or is an <em>axiom</em> (see below), or there exist $j,k&lt;i$ such that $\phi_k=\phi_j\rightarrow\phi_i$.</p>
+<p>\end{definition}</p>
+<p>The <em>axioms</em> $\mc{A}$ of this proof system are as follows, where $\phi,\psi,\chi$ ranges over all $L$-formulas, $u,v$, $w,\bar{x},\bar{y}$ ranges over all variables, $t$ ranges over all $L$-terms, $f\in\mc{F}_n$, and $R\in\mc{R}_n$:</p>
+<ol>
+<li>(Propositional). $\phi\rightarrow(\psi\rightarrow\phi)$; $(\phi\rightarrow\psi)\rightarrow\big((\phi\rightarrow(\psi\rightarrow\chi))\rightarrow(\phi\rightarrow\chi)\big)$; $(\lnot\phi\rightarrow\psi)\rightarrow\big((\lnot\phi\rightarrow\lnot\psi)\rightarrow\phi\big)$.</li>
+<li>(First-order). $\fa v\phi\rightarrow\phi(t/v)$; $\phi\rightarrow\fa u\phi(u/v)$.</li>
+<li>(Equality). $u=u$; $u=v\rightarrow v=u$; $(u=v\land v=w)\rightarrow u=w$; $\bar{x}=\bar{y}\rightarrow f(\bar{x})=f(\bar{y})$; $\bar{x}=\bar{y}\rightarrow R(\bar{x})\rightarrow R(\bar{y})$.</li>
+</ol>
+<p>Here, we implicitly assume that all substitutions $\phi(t/v)$ are <em>valid</em>: neither $v$ nor any variable in $t$ is quantified in $\phi$.</p>
+<h1 id="properties">Properties</h1>
+<p>A basic (but fundamental) property of our proof system is the <em>Deduction Theorem</em>.</p>
+<p>\begin{fact}[\ref[Deduction Theorem]{deduction_theorem}]</p>
+<p>For a set $\Gamma$ of formulas, we have $\Gamma,\psi\proves\phi$ iff $\Gamma\proves\psi\rightarrow\phi$ for any formulas $\phi,\psi$.</p>
+<p>\end{fact}</p>
+<h2 id="soundness-and-completeness">Soundness and completeness</h2>
+<p>This proof system is <em>sound</em> in the sense that for any \ref[$L$-theory]{theory} $T$, if $T\proves\phi$, then $T\models\phi$. Indeed, any $L$-structure $M$ obviously satisfies each of the axioms in $\mc{A}$, and moreover, satisfiability in $M$ is propagated through Modus Ponens. The converse is true too, indicating that our proof system is <em>complete</em>:</p>
+<p>\begin{fact}[\ref[Gödel&rsquo;s Completeness Theorem]{completeness_theorem}]</p>
+<p>For any $L$-theory $T$ and $L$-sentence $\sigma$, we have $T\proves\sigma$ iff $T\models\sigma$.</p>
+<p>\end{fact}</p>
+<h2 id="consistency">Consistency</h2>
+<p>An $L$-theory $T$ is said to be <em>\ref[consistent]{theory#consistency-and-completeness}</em> if there is no $L$-sentence $\sigma$ such that $T\proves\sigma\land\lnot\sigma$.</p>
+<p>\begin{fact}[\ref[Characterizations of consistency]{characterization_consistency}]</p>
+<p>The following are equivalent for an $L$-theory $T$.</p>
+<ol>
+<li>$T$ is consistent.</li>
+<li>$T\not\proves\bot$, where $\bot\coloneqq\ex x\lnot(x=x)$.</li>
+<li>$T\not\proves\sigma$ for some $L$-sentence $\sigma$.</li>
+</ol>
+<p>\end{fact}</p>
+<p>\begin{fact}[\ref[Extending consistent theories]{extending_consistent_theories}]</p>
+<p>Let $T$ be an $L$-theory.</p>
+<ol>
+<li>For any $L$-sentence $\sigma$, the theory $T\cup\l\{\sigma\r\}$ is inconsistent iff $T\proves\lnot\sigma$.</li>
+<li>If $T$ is consistent, then for any $L$-sentence $\sigma$, one of $T\cup\l\{\sigma\r\}$ and $T\cup\l\{\lnot\sigma\r\}$ is consistent.</li>
+<li>Every consistent $L$-theory $T$ admits a consistent completion $\bar{T}\supseteq T$.</li>
+</ol>
+<p>\end{fact}</p>
+
+
+            <div id="references"></div>
+            <div class="bottomSpace"></div>
+        </div>
+
+        <div id="toc"></div>
+    </div>
+
+
+        <div id="searchBox" style="display: none;">
+            <input id="searchBar" placeholder="Search for a note..." onkeydown="search(event);">
+            <ul id="searchList" onclick="searchOpen(getCtrlKeyDown());">
+                <li id="searchItem0" onmouseover="searchItemActive(0)"></li>
+                <li id="searchItem1" onmouseover="searchItemActive(1)"></li>
+                <li id="searchItem2" onmouseover="searchItemActive(2)"></li>
+                <li id="searchItem3" onmouseover="searchItemActive(3)"></li>
+                <li id="searchItem4" onmouseover="searchItemActive(4)"></li>
+                <li id="searchItem5" onmouseover="searchItemActive(5)"></li>
+                <li id="searchItem6" onmouseover="searchItemActive(6)"></li>
+                <li id="searchItem7" onmouseover="searchItemActive(7)"></li>
+                <li id="searchItem8" onmouseover="searchItemActive(8)"></li>
+                <li id="searchItem9" onmouseover="searchItemActive(9)"></li>
+            </ul>
+        </div>
+    </body>
+</html>

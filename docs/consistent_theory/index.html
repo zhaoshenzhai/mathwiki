@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Extension_of_premeasure_to_outer_measure</title>
+        <title>Consistent Theory</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,11 +42,34 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Extension_of_premeasure_to_outer_measure
+                    Consistent Theory
                 
             </h1>
 
-            
+            <p>Let $L$ be a \ref[first-order language]{first-order_language}.</p>
+<p>\begin{definition}</p>
+<p>An \ref[$L$-theory]{theory} $T$ is said to be <em>consistent</em> if there is no $L$-sentence $\sigma$ such that $T\proves\sigma\land\lnot\sigma$.</p>
+<p>\end{definition}</p>
+<p>\begin{fact}[\ref[Gödel&rsquo;s Completeness Theorem]{completeness_theorem}]</p>
+<p>Every consistent $L$-theory $T$ is satisfiable.</p>
+<p>\end{fact}</p>
+<p>\begin{fact}[\ref[Characterizations of consistency]{characterization_consistency}]</p>
+<p>The following are equivalent for an $L$-theory $T$.</p>
+<ol>
+<li>$T$ is consistent.</li>
+<li>$T\not\proves\bot$, where $\bot\coloneqq\ex x\lnot(x=x)$.</li>
+<li>$T\not\proves\sigma$ for some $L$-sentence $\sigma$.</li>
+</ol>
+<p>\end{fact}</p>
+<p>\begin{fact}[\ref[Extending consistent theories]{extending_consistent_theories}]</p>
+<p>Let $T$ be an $L$-theory.</p>
+<ol>
+<li>For any $L$-sentence $\sigma$, the theory $T\cup\l\{\sigma\r\}$ is inconsistent iff $T\proves\lnot\sigma$.</li>
+<li>If $T$ is consistent, then for any $L$-sentence $\sigma$, one of $T\cup\l\{\sigma\r\}$ and $T\cup\l\{\lnot\sigma\r\}$ is consistent.</li>
+<li>Every consistent $L$-theory $T$ admits a consistent completion $\bar{T}\supseteq T$.</li>
+</ol>
+<p>\end{fact}</p>
+
 
             <div id="references"></div>
             <div class="bottomSpace"></div>

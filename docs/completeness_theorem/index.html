@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Outer Measure</title>
+        <title>Gödel&#39;s Completeness Theorem</title>
 
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/fonts.css">
         <link rel="stylesheet" href="https://zhaoshenzhai.github.io/mathwiki/css/links.css">
@@ -42,24 +42,21 @@
         <div id="content">
             <h1 id="title" titleSize="">
                 
-                    Outer Measure
+                    Gödel&#39;s Completeness Theorem
                 
             </h1>
 
-            <p>\begin{definition}</p>
-<p>An <em>outer measure</em> on a set $X$ is a function $\mu^\ast:\pow(X)\to[0,\infty]$ such that</p>
-<ol>
-<li>$\mu^\ast(\e)=0$.</li>
-<li>$\mu^\ast(A)\leq\mu^\ast(B)$ whenever $A\subeq B$.</li>
-<li>$\mu^\ast(\bigcup_{n&lt;\omega}A_n)\leq\sum_{n&lt;\omega}\mu^\ast(A_i)$ for any countable family $A_n\subeq X$.</li>
-</ol>
-<p>\end{definition}</p>
-<p>\begin{fact}[\ref[Construction of outer measures]{construction_of_outer_measures}]\label{construction}</p>
-<p>Let $\mc{A}\subeq\pow(X)$ be a collection of subsets of $X$ containing $\e$ and covering $X$, and let $\mu:\mc{A}\to[0,\infty]$ be any function. Then $\mu^\ast:\pow(X)\to[0,\infty]$ defined by $\mu^\ast(S)\coloneqq\inf\sum_n\mu(A_n)$, where the infimum ranges over all $A_n\in\mc{A}$ such that $S\subeq\bigcup_nA_n$, is an outer measure on $X$.</p>
-<p>\end{fact}</p>
-<p>\begin{fact}[\ref[Extension to outer measures]{extension_of_premeasure_to_outer_measure}]</p>
-<p>Let $\mu_0$ be a premeasure on an algebra $\mc{A}$. Then $\mu_0^\ast$ defined as in Fact \iref{construction} is an outer measure extending $\mu_0$.</p>
-<p>\end{fact}</p>
+            <h1 id="statement-and-corollaries">Statement and Corollaries</h1>
+<p>Let $L$ be a \ref[first-order language]{first-order_language}.</p>
+<p>\begin{theorem}[Gödel]</p>
+<p>Every consistent $L$-theory is satisfiable.</p>
+<p>\end{theorem}</p>
+<p>\begin{corollary}[Syntax $=$ Semantics]\label{syntax_semantics}</p>
+<p>For any $L$-theory $T$ and $L$-sentence $\sigma$, we have $T\proves\sigma$ iff $T\models\sigma$.</p>
+<p>\end{corollary}</p>
+<p>\begin{proof}[of Corollary \iref{syntax_semantics}]</p>
+<p>The forward direction is soundness of our proof system. Conversely, if $T\not\proves\sigma$, then $T$ is consistent by Fact \TODO.</p>
+<p>\end{proof}</p>
 
 
             <div id="references"></div>
